@@ -3,7 +3,7 @@ title: Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management�
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama pašalinti iš „Dynamics 365 Supply Chain Management“.
 author: kamaybac
 manager: tfehr
-ms.date: 04/30/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 07f37488747766dcca96884e204339b425bbd201
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: d4d2805e36f132660152370cbeee856862ad6faa
+ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597121"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689536"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management“ funkcijos
 
@@ -36,6 +36,28 @@ ms.locfileid: "3597121"
 > [!NOTE]
 > Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
 
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10015-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Supply Chain Management“ 10.0.15 versijoje
+
+### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>„Internet Explorer“ 11 palaikymas „Dynamics 365“ nebegalioja
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo/pašalinimo priežastis** | Įsigaliojęs 2020 m. gruodį, „Microsoft Internet Explorer“ 11 palaikymas visiems „Dynamics 365“ produktams nebegalioja ir „Internet Explorer“ 11 nebebus palaikomas po 2021 m. rugpjūčio.<br><br>Tai paveiks klientus, kurie naudoja „Dynamics 365“ produktus, skirtus naudoti per „Internet Explorer“ 11 sąsają. Po 2021 m. rugpjūčio „Internet Explorer“ 11 nebepalaikys šių „Dynamics 365“ produktų. |
+| **Pakeitė kita funkcija?**   | Rekomenduojame klientams pereiti prie „Microsoft Edge“.|
+| **Paveiktos produkto sritys**         | Visi „Dynamics 365“ produktai |
+| **Visuotinio diegimo parinktis**              | Visos|
+| **Būsena**                         | Nebenaudojama. „Internet Explorer“ 11 nebebus palaikomas po 2021 m. rugpjūčio.|
+
+### <a name="use-of-built-in-supply-chain-management-master-planning-engine-for-manufacturing-scenarios"></a>Naudokite sukurtą „Supply Chain Management“ pagrindinį planavimo variklį gamybos scenarijams
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo/pašalinimo priežastis** | Siekiant padidinti našumą ir sumažinti SQL duomenų bazės apkrovą bendrojo planavimo vykdymų metu, įtaisytasis „Supply Chain Management” bendrojo planavimo mechanizmas yra pakeičiamas planavimo optimizavimu. Planavimo optimizavimas leidžia greitai planuoti vykdymus, kuriuos galima atlikti netgi darbo valandomis. Dėl to planuotojai iš karto reaguoja į poreikio arba planavimo parametrų pasikeitimus. |
+| **Pakeitė kita funkcija?**   | Taip, planavimo optimizavimas pakeis dabartinį įtaisytąjį „Supply Chain Management“ bendrojo planavimo mechanizmą. |
+| **Paveiktos produkto sritys**         | „Supply Chain Management” – bendrasis planavimas |
+| **Visuotinio diegimo parinktis**              | Tik debesyje. Planavimo optimizavimas nepalaikomas vietiniuose visuotiniuose diegimuose. |
+| **Būsena**                         | Nebenaudojama. Nuo 2021 m. spalio 1 d. gamybos scenarijai nebebus palaikomi su įdiegtu „Dynamics 365 Supply Chain Management“ pagrindinio planavimo varikliu. Planavimo scenarijams, klientai privalo naudoti „Planning Optimization“ pagrindinio planavimo apskaičiavimams. Daugiau informacijos žr. [Planavimo optimizavimo dokumentacija](https://go.microsoft.com/fwlink/?linkid=2105830). Klientai su patalpose esančiu „Dynamics 365 Supply Chain Management“ talpinimu gali ir toliau naudoti „Supply Chain Management“ pagrindinio planavimo variklį gamybos scenarijams po 2021 m. spalio mėnesio. Tačiau daugiau funkcijų patobulinimų nebus teikiama. |
+
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Supply Chain Management“ 10.0.11 versijoje
 
 ### <a name="use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios"></a>Įtaisytojo „Supply Chain Management“ bendrojo planavimo mechanizmo naudojimas paskirstymo scenarijuose
@@ -46,7 +68,7 @@ ms.locfileid: "3597121"
 | **Pakeitė kita funkcija?**   | Taip, planavimo optimizavimas pakeis dabartinį įtaisytąjį „Supply Chain Management“ bendrojo planavimo mechanizmą. |
 | **Paveiktos produkto sritys**         | „Supply Chain Management” – bendrasis planavimas |
 | **Visuotinio diegimo parinktis**              | Tik debesyje. Planavimo optimizavimas nepalaikomas vietiniuose visuotiniuose diegimuose. |
-| **Būsena**                         | Nebenaudojama. Nuo 2021 m. balandžio mėn. paskirstymo scenarijai nebebus palaikomi su įtaisytuoju „Dynamics 365 Supply Chain Management” bendrojo planavimo mechanizmu. Paskirstymo scenarijuose klientai turi naudoti bendrojo planavimo skaičiavimo planavimo optimizavimą. Daugiau informacijos žr. [Planavimo optimizavimo dokumentacija](https://go.microsoft.com/fwlink/?linkid=2105830). Klientai, turintys vietinius visuotinius „Dynamics 365 Supply Chain Management” diegimus, po 2021 m. balandžio mėn. gali toliau naudoti „Supply Chain Management” bendrojo planavimo mechanizmą paskirstymo scenarijuose. Tačiau daugiau funkcijų patobulinimų nebus teikiama. |
+| **Būsena**                         | Nebenaudojama. Nuo 2021 m. balandžio 1 d. paskirstymo scenarijai nebebus palaikomi su įdiegtu „Dynamics 365 Supply Chain Management“ pagrindinio planavimo varikliu. Paskirstymo scenarijuose klientai turi naudoti bendrojo planavimo skaičiavimo planavimo optimizavimą. Daugiau informacijos žr. [Planavimo optimizavimo dokumentacija](https://go.microsoft.com/fwlink/?linkid=2105830). Klientai, turintys vietinius visuotinius „Dynamics 365 Supply Chain Management” diegimus, po 2021 m. balandžio mėn. gali toliau naudoti „Supply Chain Management” bendrojo planavimo mechanizmą paskirstymo scenarijuose. Tačiau daugiau funkcijų patobulinimų nebus teikiama. |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Ankstesni pranešimai apie pašalintas arba nebenaudojamas funkcijas
 

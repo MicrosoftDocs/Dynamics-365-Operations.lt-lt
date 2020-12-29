@@ -1,7 +1,7 @@
 ---
 title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent – Core HR“ (2018 m. rugpjūčio mėn.)
-description: Šioje temoje aprašomos „Microsoft“ sistemos „Dynamics 365 Talent – Core HR“ naujos ir pakeistos funkcijos.
-author: Darinkramer
+description: Ši tema aprašo funkcijos, kurios yra naujos ar pakeitos „Microsoft Dynamics 365 Talent - Core HR“.
+author: andreabichsel
 manager: AnnBe
 ms.date: 08/27/2018
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: anbichse
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: Talent August 2018 update
-ms.openlocfilehash: 4f6d0a32807397d5f2c0892061e54c2fed24610b
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 30646de08bd5ea4b2da05bfc38da7edc320a3331
+ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897769"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4690105"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-august-2018"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent – Core HR“ (2018 m. rugpjūčio mėn.)
 
@@ -31,9 +31,9 @@ ms.locfileid: "2897769"
 
 Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Talent: Core HR“ funkcijos.
 
-## <a name="view-expiring-records-in-manager-self-service"></a>Baigiančių galioti įrašų peržiūra vadovų savitarnoje
+## <a name="view-expiring-records-in-manager-self-service"></a>Peržiūrėkite besibaigiančius įrašus vadovų savitarnoje
 
-Dabar baigiančius galioti įrašus galima peržiūrėti vadovų savitarnoje. Naujos pasirinktys leidžia konfigūruoti, kokią informaciją galės peržiūrėti vadovai. Tai apima:
+Dabar baigiančius galioti įrašus galima peržiūrėti vadovų savitarnoje. Naujos parinktys leidžia jums konfigūruoti, kokia informacija bus prieinama vadovų peržiūrai. Šios parinktys apima:
 
 -   Sertifikatai
 
@@ -51,7 +51,7 @@ Dabar baigiančius galioti įrašus galima peržiūrėti vadovų savitarnoje. Na
 
 Pagal vaidmenį galite konfigūruoti parinktis, kurios bus pateikiamos įvedant perkėlimo užklausą. Ši funkcija suteikia daugiau lankstumo visiems vaidmenis organizacijoje.
 
-Pavyzdžiui, vadovai, kurie teikia darbuotojų perkėlimo užklausas, negali neturėti prieigos pasiūlyti ar įvesti kompensacijų sumas arba pasirinkti užduočių sąrašus, kurie bus susieti su perkėlimo užklausa. Šiuo atveju vadovai gali sukurti ir pateikti perkėlimo užklausas, bet negali įvesti kompensacijų arba užduočių sąrašų priskyrimų. Taikant tą pačią konfigūraciją personalo darbuotojai galės priskirti naujas kompensacijų reikšmes ir papildomus kontrolinius sąrašus, kuriuos reikia užpildyti vykdant perkėlimą.
+Pavyzdžiui, vadovai, kurie teikia darbuotojų perkėlimo užklausas, negali neturėti prieigos pasiūlyti ar įvesti kompensacijų sumas arba pasirinkti užduočių sąrašus, kurie bus susieti su perkėlimo užklausa. Vadovai gali sukurti ir pateikti perkėlimo prašymus, bet negali įvesti užmokesčio ar užduoties sąrašo paskyrimų. Tokioje pačioje konfigūracijoje, HR gali priskirti naujas užmokesčio vertes ir bet kokius papildomus žymimus sąrašus tam, kad jie būtų užbaigti dėl perlaidų užbaigimo.
 
 Pagal numatytuosius parametrus naujos konfigūracijos pasirinktys nustatomos nekeisti galimybių prieš šį naujinimą.
 
@@ -59,7 +59,7 @@ Pagal numatytuosius parametrus naujos konfigūracijos pasirinktys nustatomos nek
 
 Dabar pateikiami papildomi datų laikai, skirti atostogoms ir neatvykimams registruoti.
 
-Naudodami šią funkciją galite nustatyti kaupimo laikotarpio pagrindą plano lygiu ir naudoti konkrečias darbuotojų datas. Tai suteikia galimybę atostogų kaupimo proceso metu naudoti datas, kurios nėra plano pradžios data. Toliau nurodytos konkrečių darbuotojų datų parinkčių reikšmės.
+Su šia funkcija, galite nustatyti apskaičiavimo laikotarpio pagrindį plano lygyje tam, kad naudotumėte konkrečias darbuotojų datas. Datos kartu su plano pradžios data bus naudojamos per atostogų apskaičiavimo procesą. Parinktys darbuotojų konkrečioms datoms apima šias vertes:
 
 -   Pasirinktinė (galima naudoti prieš šį atnaujinimą)
 
@@ -73,7 +73,7 @@ Naudodami šią funkciją galite nustatyti kaupimo laikotarpio pagrindą plano l
 
 -   Darbininko darbo pradžios data
 
-Kai sukonfigūruota naudoti vieną iš konkrečių darbuotojų datų, registracijos proceso metu bus naudojama konkreti data skaičiuojant kaupimo laikotarpius. Kaupimo laikotarpio pagrindas taip pat rodomas darbuotojo plano registracijoje, kad būtų lengviau suprasti, kas naudojama kaupimo proceso metu.
+Konfigūruojant vieną iš darbuotojo konkrečių datų, įdarbinimo procesas naudos konkrečią datą tam, kad nustatytų apskaičiavimo procesą. Kaupimo laikotarpio pagrindas taip pat rodomas darbuotojo plano registracijoje, kad būtų lengviau suprasti, kas naudojama kaupimo proceso metu.
 
 ## <a name="microsoft-word-integration"></a>„Microsoft Word“ integravimas
 

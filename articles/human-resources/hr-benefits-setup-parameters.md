@@ -1,9 +1,9 @@
 ---
-title: Nustatyti išmokų valdymo parametrus
-description: Išmokų valdymo parametrų konfigūravimas programoje „Microsoft Dynamics 365 Human Resources“.
+title: Nustatykite Priedų valdymą ir Darbuotojo savitarnos parametrus visoms įmonėms
+description: Konfigūruokite parametrus naudų valdymui ir darbuotojo savitarnai „Microsoft Dynamics 365 Human Resources“.
 author: andreabichsel
 manager: tfehr
-ms.date: 07/16/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cb9dd6eb8ef840dab54eabab8526200a3a8e21f0
-ms.sourcegitcommit: e100c1c7c8dcdacf066defc206dd2f44b8ce6100
+ms.openlocfilehash: b50c4f71789c34f08ce810312f3c3198303b031e
+ms.sourcegitcommit: fd097f6f76f0d8428038fa3655b3188bf093b517
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4057033"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4692702"
 ---
-# <a name="set-benefits-management-parameters"></a>Išmokų valdymo parametrų nustatymas
+# <a name="set-benefits-management-and-employee-self-service-parameters-for-all-companies"></a>Nustatykite Priedų valdymą ir Darbuotojo savitarnos parametrus visoms įmonėms
 
-Jeigu norite nustatyti atostogų planus programoje „Microsoft Dynamics 365 Human Resources“, reikia sukonfigūruoti išmokų valdymo parametrus. Pagal šios parametrus nustatomos numatytosios vertės, priežasčių kodai ir kitos pasirinktys.
+Prieš tai, kai nustatysite priedų planus „Microsoft Dynamics 365 Human Resources“, turite sukonfigūruoti Priedų valdymo parametrus. Pagal šios parametrus nustatomos numatytosios vertės, priežasčių kodai ir kitos pasirinktys. 
 
 ## <a name="configure-general-parameters"></a>Bendrųjų parametrų konfigūravimas
 
 1. **Išmokų valdymo** darbo srityje, **Nustatymo** skyriuje, pasirinkite **Žmogiškųjų išteklių pasidalyti parametrai**.
 
-2. Skirtuke **Bendra** įveskite šių laukų reikšmes:
+2. Skirtuke **Išmokų valdymas** įveskite toliau pateiktų laukų reikšmes.
 
-   | Laukas | Aprašymas |
+   | Laukas | aprašymas |
    | --- | --- |
    | **Šalis/regionas** | Laukas **Šalis / regionas** nustato pašto indeksų / valstijų rodymo tvarką. Pasirinkta šalis rodoma pirma išplečiamajame sąraše. |
    | **Registracijos priežasties kodas** | Pasirinkite numatytąjį priežasties kodą, kuris bus naudojamas, kai kuriami darbuotojų planai apdorojant atvirą registraciją. |
@@ -43,16 +43,18 @@ Jeigu norite nustatyti atostogų planus programoje „Microsoft Dynamics 365 Hum
    | **Pakartotinai atidaryti priežasties kodą** | Priežasties kodas, naudojamas pakartotinai atidarant darbuotojo išmokų planą. Jis rodomas dialogo lange vykdant atšaukimo procesą. Jei reikia, vartotojai gali keisti **pakartotinio atidarymo priežasties kodą**. | 
    | **Gyvenimo įvykio priežasties kodas** | Priežasties kodas, kuris bus naudojamas įvykus gyvenimo įvykiui. |
    | **Tarifo pakeitimo priežasties kodas** | Priežasties kodas, kuris bus naudojamas atšaukiant ir iš naujo atidarant darbuotojo išmokų planą tarifo keitimo atnaujinimo proceso metu. Jis nurodo, kokie įrašai buvo pakeisti vykdant tarifo keitimo atnaujinimo procesą. |
-   | **Metinis išmokų atlyginimas** | Leidžia jums nustatyti **Metinės išmokos naudos** sumą darbuotojui. Žmogiškieji ištekliai naudos **Metinės algos išmokos** sumą nustatant padengiamas sumas, o ne fiksuotą metinio atlyginimo sumą. |
+   | **Metinis išmokų atlyginimas** | Leidžia jums nustatyti **Metinės išmokos naudos** sumą darbuotojui. Žmogiškieji ištekliai naudos **Metinės algos išmokos** sumą nustatydami padengiamas sumas, o ne fiksuotą metinio atlyginimo sumą. |
    | **Nauja samda tinkama** | Nurodo, ar naujos samdos yra tinkamos. |
    | **Naujos samdos registracijos laikotarpis** | Laikotarpis, kuriuo leidžiama naujos samdos registracija.</br></br>**Pastaba**. Šiuo parametru perrašomas bet koks naujas registracijos laikotarpis, kurį nustatėte plano tinkamumo taisyklėje. |
    | **Numatytasis mokėjimo dažnumas** | Nustatytasis mokėjimo dažnumas naudotinas, kai yra įtraukiami nauji darbuotojai. |
    | **Įgalinti gyvenimo įvykiai** | Įgalinami gyvenimo įvykiai. |
    | **Slėpti pasenusias išmokų formas** | Leidžia slėpti pasenusias išmokų formas. |
+   | **Išmokos patvirtinimas** | Patvirtinimo tekstas, naudojamas išsiregistruojant iš savitarnos išmokų dalies. |
+   | **Automatiškai parinkti gavėjus** | Nurodo, ar automatiškai pasirinkti priklausinius ir naudos gavėjus pagal jų tinkamumą plano parinktims. |
 
 3. Pasirinkite **Įrašyti**.
 
-## <a name="configure-employee-self-service-parameters"></a>Darbuotojų savitarnos dalies parametrų konfigūravimas
+## <a name="configure-employee-self-service-parameters"></a>Konfigūruoti darbuotojo savitarnos parametrus
 
 1. **Išmokų valdymo** darbo srityje, **Nustatymo** skyriuje, pasirinkite **Žmogiškųjų išteklių pasidalyti parametrai**.
 
@@ -64,3 +66,5 @@ Jeigu norite nustatyti atostogų planus programoje „Microsoft Dynamics 365 Hum
    | **Automatiškai parinkti gavėjus** | Nurodoma, ar automatiškai pasirenkami priklausomieji ir išmokų gavėjai atsižvelgiant į tinkamumą plano parinktims. |
 
 3. Pasirinkite **Įrašyti**.
+
+
