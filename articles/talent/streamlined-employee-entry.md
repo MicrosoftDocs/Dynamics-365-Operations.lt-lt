@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: 35cceb97442b05abc243cf7341e0ce7a0d09c613
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: b73b420c2eb75077814fbfeb6cd17404c7efc11e
+ms.sourcegitcommit: 436731d8b3889bebfe6f17922b0a31b1994f6796
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915206"
+ms.lasthandoff: 10/26/2020
+ms.locfileid: "4462056"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>Supaprastintas darbuotojo įrašo sukūrimas ir naršymas
 
@@ -68,12 +68,12 @@ Darbininko puslapio veiksmų sritis buvo perorganizuota, kad apimtų mažiau par
 
 - Darbas
 - Asmuo
-- Išeiti
+- Atostogos
 - Kompensacija
-- Išmokos
+- Nauda
 - Atitiktis
 
-Be to, naujame pagrindinio darbuotojo puslapio skirtuke **Saitai** vartotojams suteikiama centrinė vieta, kur jie gali pasiekti visą su darbuotoju susijusią informaciją.
+Taip pat, naujas **Nuorodos** skirtukas pagrindinio darbuotojo puslapyje suteikia vartotojams centrinę vietą siekiant prieiti prie visos su darbuotoju susijusios informacijos.
 
 Dėl šių pakeitimų informacija gali būti rodoma kitoje vietoje nei esate įpratę. Pavyzdžiui, algalapių informacija, kuri anksčiau buvo rodoma darbuotojo formoje, dabar rodoma veiksmų srities dalyje **Kompensacija > Algalapis**, o skirtuke **Asmeninė informacija** dabar yra mygtukas **Daugiau informacijos**, skirtas laukams, kurie nėra dažnai pasiekiami, paslėpti.
 
@@ -81,7 +81,7 @@ Dėl šių pakeitimų informacija gali būti rodoma kitoje vietoje nei esate įp
 
 ## <a name="work-history"></a>Darbo istorija
 
-Skirtuke **Darbo retrospektyva** rodoma visų juridinių subjektų darbo retrospektyva ir ją gali pasiekti atleisti, aktyvūs ir laukiantys darbuotojai bei rangovai. Dabar galite peržiūrėti visą juridinių subjektų, prie kurių turite prieigą, darbo retrospektyvą vienu metu. Be to, galite redaguoti kiekvieno darbo retrospektyvos įrašo informaciją nekeisdami duomenų konteksto. Visą informaciją galite atnaujinti tiesiogiai puslapyje. 
+Skirtuke **Darbo istorija** rodoma darbo istorija per visus juridinius asmenis ir yra prieinama išėjusiems, veikiantiems ir laukiantiems darbuotojams ir rangovams. Dabar galite peržiūrėti visą juridinių subjektų, prie kurių turite prieigą, darbo retrospektyvą vienu metu. Be to, galite redaguoti kiekvieno darbo retrospektyvos įrašo informaciją nekeisdami duomenų konteksto. Visą informaciją galite atnaujinti tiesiogiai puslapyje. 
 
 [![Darbo istorija](./media/Worker-work-history.png)](./media/Worker-work-history.png)
 

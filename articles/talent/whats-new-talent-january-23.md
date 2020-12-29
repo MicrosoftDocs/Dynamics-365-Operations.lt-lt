@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-01-23
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: f97462f088fc1a3cb94f2a34204fc09f1cd66fb0
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899133"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461943"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-january-23-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent – Core HR“ (2019 m. sausio 23 d.)
 
@@ -51,5 +51,5 @@ Keičiant užduotį pareigose, pagal numatytuosius parametrus užduoties laukai 
 ### <a name="probation-period-and-calendar-are-not-displayed-for-future-hired-employees"></a>Būsimų pasamdytų darbuotojų bandomasis laikotarpis ir kalendorius nerodomi.
 Atlikus šį pakeitimą laukai **Bandomasis laikotarpis** ir **Kalendoriaus** buvo įtraukti į puslapį **Valdyti pakeitimus**, kad būtų galima įvesti buvusių ir būsimų darbuotojų duomenis.
 
-### <a name="platform-update-23-for-finance-and-operations"></a>„Finance and Operations“ platformos 23 naujinimas
-Nežymių klaidų pataisymai įtraukti kaip „Finance and Operations“ platformos 23 naujinimas. Daugiau informacijos žr. [Kas nauja arba pakeista „Dynamics 365 Finance and Operations“ 23 platformos naujinime (2019 m. sausio mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 
+### <a name="platform-update-23-for-finance-and-operations"></a>„Finance and Operations” platformos 23 naujinimas
+Mažų klaidų pataisymai buvo įtraukti kaip „Platform“ atnaujinimo 23 „Finance and Operations“. Daugiau informacijos žr. [Kas nauja arba pakeista „Dynamics 365 Finance and Operations“ 23 platformos naujinime (2019 m. sausio mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 

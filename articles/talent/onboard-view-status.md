@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 2039c09372381ef2c078e1f4d4ed8a25c22de5c7
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814725"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462041"
 ---
 # <a name="view-the-status-of-onboarding-employees-and-your-tasks"></a>Darbuotojų supažindinimo ir užduočių būsenos peržiūra
 
@@ -38,7 +38,7 @@ ms.locfileid: "2814725"
 2. Norėdami detalizuoti, pasirinkite vadovą, kurį norite peržiūrėti.
 3. Pasirinkite skirtuką **Veiklos** pamatyti, kokia veiklas jūsų naujas darbuotojas jau atliko.
 
-    ![[Veiklų, kurias baigė naujas darbuotojas, peržiūrėjimas](./media/onboard-status-activities.png)](./media/onboard-status-activities.png)
+    ![[Peržiūrėti veiklas, kurias užbaigė naujas pasamdytas darbuotojas](./media/onboard-status-activities.png)](./media/onboard-status-activities.png)
 
 ## <a name="view-onboarding-tasks-that-are-assigned-to-you"></a>Jums priskirtų supažindinimo užduočių peržiūra
 

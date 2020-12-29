@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-01-22
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: a6d916f87ca30aa7405a51841e56ab31bbe31ac8
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832609"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462040"
 ---
 # <a name="user-not-found-in-people-picker-in-attract-or-onboard"></a>Vartotojas nerastas žmonių parinkiklyje naudojant „Attract“ arba „Onboard“
 
@@ -55,7 +55,7 @@ ObjectId                             DisplayName UserPrincipalName      UserType
 --------                             ----------- -----------------      --------
 5e8b0f4d-2cd4-4e17-9467-b0f6a5c0c4d0 New user    testUpn@tenant.com     
 ```
-Įsidėmėkite vartotojo ypatybę **UserType**. Jei laukas **UserType** yra tuščias, pavyzdžiui ne Narys arba Svečias, atnaujinkite lauką **UserType**naudodami toliau nurodytą komandą.
+Įsidėmėkite vartotojo ypatybę **UserType**. Jei laukas **UserType** yra tuščias, pavyzdžiui ne Narys arba Svečias, atnaujinkite lauką **UserType** naudodami toliau nurodytą komandą.
 
 ```
 PS C:\>Set-AzureADUser -ObjectId "testUpn@tenant.com" -UserType Member

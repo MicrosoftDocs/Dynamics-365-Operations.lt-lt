@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 311042caf6a391a06c7e2d8c4c2c2f6e1f855437
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006292"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462029"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-30-2019"></a>Kas nauja ar pasikeitė „Dynamics 365 Talent” (2019 m. liepos 30 d.)
 
@@ -47,7 +47,7 @@ Esamų projektų duomenų perkėlimas iš kitų regionų į Kanados ir Azijos re
 
 ### <a name="new-active-positions-list-page"></a>Naujas aktyvių pareigų sąrašo puslapis
 
-Toliau nurodomos pareigų sąrašų pasirinktys: **Visos pareigos**, **Aktyvios pareigos**, **Laisvos pareigos**ir **Neaktyvios pareigos**. Naujas sąrašo puslapis **Aktyvios pareigos** rodo tik tas laisvas arba užimtas pareigas, kurios yra aktyvios nuo esamos datos. 
+Toliau nurodomos pareigų sąrašų pasirinktys: **Visos pareigos**, **Aktyvios pareigos**, **Laisvos pareigos** ir **Neaktyvios pareigos**. Naujas sąrašo puslapis **Aktyvios pareigos** rodo tik tas laisvas arba užimtas pareigas, kurios yra aktyvios nuo esamos datos. 
 
 ### <a name="allow-course-participants-to-be-added-to-open-courses"></a>Kursų dalyvių įtraukimas į atvirus kursus
 

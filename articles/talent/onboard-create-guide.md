@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 2371d86165390503312c2848842acf4745a8ed7a
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898253"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461972"
 ---
 # <a name="create-and-send-an-onboarding-guide"></a>Supažindinimo vadovo kūrimas ir siuntimas
 
@@ -49,7 +49,7 @@ Sukūrę supažindinimo vadovą, galite nusiųsti jį naujam darbuotojui. Taip p
 8. Pasirinkite **Atlikta**.
 9. Baigę redaguoti supažindinimo vadovą, viršutiniame dešiniajame kampe pasirinkite **Siųsti**. Tuomet atlikite vieną iš toliau nurodytų veiksmų.
 
-    - Norėdami naujam darbuotojui nusiųsti supažindinimo vadovo saitą, pasirinkite **Kopijuoti saitą**ir tada pasirinkite **Kopijuoti**.
+    - Norėdami naujam darbuotojui nusiųsti supažindinimo vadovo saitą, pasirinkite **Kopijuoti saitą** ir tada pasirinkite **Kopijuoti**.
     - Norėdami tinkinti supažindinimo vadovo el. paštą prieš jį siųsdami, pasirinkite **Tinkinti el. laišką prieš siunčiant**, pasirinkite **Pirmyn**, tinkinkite el. paštą pagal savo pageidavimą ir tada pasirinkite **Siųsti**.
     - Norėdami siųsti el. laišką jo netinkindami, pasirinkite **Pirmyn**, tada pasirinkite **Siųsti**.
 
@@ -81,7 +81,7 @@ Sukūrę supažindinimo vadovą, galite nusiųsti jį naujam darbuotojui. Taip p
 
 9. Baigę redaguoti supažindinimo vadovą, viršutiniame dešiniajame kampe pasirinkite **Siųsti**. Tuomet atlikite vieną iš toliau nurodytų veiksmų.
 
-    - Norėdami naujiems darbuotojams nusiųsti supažindinimo vadovo saitą, pasirinkite **Kopijuoti saitą**ir tada pasirinkite **Kopijuoti**.
+    - Norėdami naujiems darbuotojams nusiųsti supažindinimo vadovo saitą, pasirinkite **Kopijuoti saitą** ir tada pasirinkite **Kopijuoti**.
     - Norėdami tinkinti supažindinimo vadovo el. paštą prieš jį siųsdami, pasirinkite **Tinkinti el. laišką prieš siunčiant**, pasirinkite **Pirmyn**, tinkinkite el. paštą pagal savo pageidavimą ir tada pasirinkite **Siųsti**.
     - Norėdami siųsti el. laišką jo netinkindami, pasirinkite **Pirmyn**, tada pasirinkite **Siųsti**.
 

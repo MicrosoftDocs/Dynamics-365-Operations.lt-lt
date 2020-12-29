@@ -19,11 +19,11 @@ ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.openlocfilehash: d4a1e7c19ccec6ae32e46ec7d58604b162418953
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832959"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461959"
 ---
 # <a name="set-up-your-career-site-in-attract"></a>Karjeros svetainės nustatymas „Attract“
 
@@ -62,7 +62,7 @@ Toliau nurodytame sąraše pateikiami dažnai naudojami karjeros svetainės URL 
 
 -   **Karjeros svetainės pagrindinio puslapio URL** – norėdami peržiūrėti karjeros svetainės pagrindinio puslapio URL, prisijunkite prie „Attract“ kaip administratorius, pasirinkite parinktį **Administravimo centras**, pateiktą meniu **Parametrai**, tada pasirinkite skirtuką **Karjeros svetainės valdymas**.
 
--   **Atskiro darbo skelbimo prašymo teikimo URL** – kai [registruojate išorinę užduotį](Creating-jobs-Attract.md#postings) pirmą kartą, galite kopijuoti saitą **Teikti prašymą** iš „Attract“. Šio saito URL bus pateiktas tokiu formatu: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
+-   **Atskiro darbo skelbimo prašymo teikimo URL** – kai [registruojate išorinę užduotį](Creating-jobs-Attract.md#postings) pirmą kartą, galite kopijuoti saitą **Teikti prašymą** iš „Attract“. Šios nuorodos URL bus tokio formato: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/taikomas](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
 
 -   **Atskiro darbo skelbimo URL** – darbo skelbimo URL yra antrinė prašymo teikimo URL eilutės eilutė. Ją sudaro visa informacija iki darbo numerio. Todėl prieš tai pateikto prašymo teikimo URL darbo skelbimo URL yra [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e)
 

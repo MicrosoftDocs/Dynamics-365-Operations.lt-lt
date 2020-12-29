@@ -20,11 +20,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Talent October 2019 update
 ms.openlocfilehash: eb97a16c15476c2f34ec581a32a677fa6fee8739
-ms.sourcegitcommit: acdd93637385246f9c5c652cccdf2cbfb263cc33
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "2975939"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461940"
 ---
 # <a name="export-data-from-attract-and-onboard"></a>Duomenų eksportavimas iš „Attract“ ir „Onboard“
 
@@ -74,7 +74,7 @@ Kai esate pasiruošę perkėlimui, apribokite ne administratorių prieigą prie 
 
 1. Eikite į [https://aka.ms/AttractDataExport](https://aka.ms/AttractDataExport).
 
-2. Norėdami apriboti ne administratorių prieigą prie „Attract“ aplinkos, dalyje **Apriboti prieigą prie šios programos**pasirinkite **Apriboti prieigą dabar**. Apribojus prieigą, taip pat anuliojamos visos užregistruotos aktyvios užduotys.
+2. Norėdami apriboti ne administratorių prieigą prie „Attract“ aplinkos, dalyje **Apriboti prieigą prie šios programos** pasirinkite **Apriboti prieigą dabar**. Apribojus prieigą, taip pat anuliojamos visos užregistruotos aktyvios užduotys.
 
    ![[Ne administratorių prieigos prie „Attract“ apribojimas](./media/attract-onboard-export-data-attract-restrict-access.png)](./media/attract-onboard-export-data-attract-restrict-access.png)
 

@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 4851c62a19bb562c7f5f578aecbae99cfcdb982f
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897378"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462009"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-october-31-2018"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent – Core HR“ (2018 m. spalio 31 d.)
 
@@ -59,7 +59,7 @@ Kiekviename kuriamame saite bus nurodyta tolesnė informacija.
 
 - Naudoti dabartinę vartotojo įmonę – pasirinkite **Taip**, jei pereinant į „Finance“ norite naudoti dabartinės vartotojo įmonės kontekstą. Jei pasirinksite **Ne**, galėsite pasirinkti įmonę, kuri bus naudojama.
 
-- Paskirties meniu elementas – įveskite meniu elementą iš „Finance“, į kurį bus pereinama pasirinkus saitą. Yra meniu elementų, į kuriuos galite pereiti tiesiogiai. Norėdami rasti reikiamą meniu elementą atidarykite „Finance“ ir naršymo paskirties puslapį. Nukopijuokite meniu elementą iš URL. Pavyzdžiui, jei norite, kad saitas atidarytų darbuotojų sąrašą, esantį „Finance and Operations“, įveskite reikšmę, kuri URL bus po &mi. https://devax00124aos.cloud.test.dynamics.com/?p=USMF&mi=HcmWorkerListPage_Employees. Meniu elemento, perkeliančio į darbuotojų sąrašo puslapį, pavyzdys: HcmWorkerListPage_Employees.
+- Paskirties meniu elementas – įveskite meniu elementą iš „Finance“, į kurį bus pereinama pasirinkus saitą. Yra meniu elementų, į kuriuos galite pereiti tiesiogiai. Norėdami rasti reikiamą meniu elementą atidarykite „Finance“ ir naršymo paskirties puslapį. Nukopijuokite meniu elementą iš URL. Pavyzdžiui, jei norite, kad nuoroda jus nuvestį į darbuotojų sąrašą „Finance and Operations“, įveskite vertę, kuri pasirodys po „&mi" URL. https://devax00124aos.cloud.test.dynamics.com/?p=USMF&mi=HcmWorkerListPage_Employees. Meniu elemento, perkeliančio į darbuotojų sąrašo puslapį, pavyzdys: HcmWorkerListPage_Employees.
 
 - Susieti su duomenų šaltiniu – pasirinkite duomenų šaltinį, kurį nurodo saitas. Galimi dažniausiai naudojami šaltiniai, pvz., **Darbininkas** ir **Pareigos**.
 
@@ -69,7 +69,7 @@ Kiekviename kuriamame saite bus nurodyta tolesnė informacija.
 
 Sistemos administratoriai nustatytuose puslapiuose matys naujai sukurtus saitus, net jei pasirinkta parinkties **Įjungti šį saitą** reikšmė yra **Ne**. Tai galima naudoti norint patikrinti saitus prieš pateikiant juos naudoti kitiems darbuotojams. Visi kiti vaidmenys matys tik sukonfigūruotus saitus, kai parinktis **Įjungti šį saitą** bus nustatyta kaip **Taip**. Saitus galės pasiekti darbuotojai, turintys prieigą prie puslapių, kuriuose šie saitai yra pridėti.
 
-Vartotojai taip pat gali turėti saugos teisių „Finance“, nustatančių prieigą prie „Finance and Operations“ puslapių. Jei jie jų neturi, naudojant saitą bus rodomas saugos dialogo langas.
+Vartotojai taip pat gali turėti saugos teises su „Finance“ nustatytais prieigai prie puslapių „Finance and Operations“. Jei jie jų neturi, naudojant saitą bus rodomas saugos dialogo langas.
 
 
 ## <a name="other-changesfixes"></a>Kiti pakeitimai / pataisos

@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 071aa79ea75e9a94187dd74dabab940e2cce0f92
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 6175061456a03228043ea13767845cf4b54d6b2e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551961"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462042"
 ---
-# <a name="update-onboarding-guides-in-dynamics-365-talent---onboard"></a>Naujinti supažindinimo vadovus „Dynamics 365 Talent - Onboard”
+# <a name="update-onboarding-guides"></a>Supažindinimo vadovų naujinimas
 
 [!include [banner](includes/banner.md)]
 
@@ -38,7 +38,7 @@ Jei programoje „Microsoft Dynamics 365 Talent: Onboard” turite atlikti supa�
 2. Pasirinkite norimą redaguoti vadovą.
 3. Atlikite visus norimus keitimus, tada pasirinkite mygtuką **Įrašyti** (disko simbolis).
 
-    ![[Keitimų įrašymas supažindinimo vadove](./media/onboard-save.png)](./media/onboard-save.png)
+    ![[Keitimų šrašymas į išvesties vedlį](./media/onboard-save.png)](./media/onboard-save.png)
 
 Onboard automatiškai išsiųs naujam darbuotojui el. laišką, nurodantį, kokie yra pakeitimai. Kad būtų lengviau identifikuoti, šalia kiekvieno pakeitimo atsiras raudona žymė **Nauja**.
 
@@ -49,6 +49,6 @@ Onboard automatiškai išsiųs naujam darbuotojui el. laišką, nurodantį, koki
 3. Atlikite visus norimus keitimus, tada pasirinkite mygtuką **Įrašyti** (disko simbolis).
 4. Norėdami visuose vadovuose, sukurtuose pagal šabloną, skelbti keitimus, pasirinkite **Skelbti šiuos keitimus**.
 
-    ![[Supažindinimo šablono keitimų skelbimas visuose vadovuose, sukurtus pagal jį](./media/onboard-push-changes.png)](./media/onboard-push-changes.png)
+    ![[Keitimų stūmimas į išvesties šabloną į visus vedlius, kurie sukuriami iš jo](./media/onboard-push-changes.png)](./media/onboard-push-changes.png)
 
 Naujiems darbuotojams pakeitimai bus matomi atidarius supažindinimo vadovus. Tačiau „Onboard” naujiems darbuotojams nesiųs įspėjimų el. paštu pranešti, kad pasikeitė jų supažindinimo vadovas. Kad būtų lengviau identifikuoti, šalia kiekvieno pakeitimo atsiras raudona žymė **Nauja**. 
