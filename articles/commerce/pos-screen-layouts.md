@@ -20,11 +20,11 @@ ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022476"
+ms.locfileid: "4414479"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>EKA vartotojo sąsajos vaizdo konfigūracijos
 
@@ -54,7 +54,7 @@ Vaizdo profiliai priskiriami kasos aparatams ir jais nurodoma pagal kasos aparat
 - **Visada rodyti programos juostos etiketes** – kai ši pasirinktis įjungta, etiketės tekstas visada matomas programos juostos mygtukuose.
 - **Maketas** – galite pasirinkti maketą **Centruotas** arba **Dešinysis**. Maketas turi įtakos prisijungimo langelio, esančio prisijungimo ekrane, lygiuotei. Numatytoji parinktis yra **Centruotas**.
 - **Rodyti datą / laiką** – kai ši parinktis įjungta, dabartinė data ir laikas rodomi EKA antraštėje ir prisijungimo ekrane.
-- **Klaviatūra** – galite pasirinkti **Numatytoji operacinės sistemos klaviatūra** arba **Rodyti skaičių klaviatūrą** , kad nurodytumėte numatytąją klaviatūrą, naudojamą įvesčiai prisijungimo ekrane. Skaičių klaviatūra yra virtualioji klaviatūra, kuri visų pirma naudojama lietimu pagrįstuose įrenginiuose. Numatytasis pasirinkimas yra **Numatytoji operacinės sistemos klaviatūra**.
+- **Klaviatūra** – galite pasirinkti **Numatytoji operacinės sistemos klaviatūra** arba **Rodyti skaičių klaviatūrą**, kad nurodytumėte numatytąją klaviatūrą, naudojamą įvesčiai prisijungimo ekrane. Skaičių klaviatūra yra virtualioji klaviatūra, kuri visų pirma naudojama lietimu pagrįstuose įrenginiuose. Numatytasis pasirinkimas yra **Numatytoji operacinės sistemos klaviatūra**.
 - **Logotipo vaizdas** – galite nurodyti logotipo vaizdą, kuris rodomas prisijungimo ekrane. Rekomenduojame naudoti vaizdą, turintį permatomą foną. Failų dydis turėtų būti kuo mažesnis, nes saugant ir įkeliant didelius failus gali pablogėti programos veikimas ir našumas.
 - **Prisijungimo fonas** – galite nurodyti, koks fono vaizdas bus naudojamas prisijungimo ekrane. Fono vaizdų failų dydis turėtų būti kuo mažesnis.
 - **Fonas** – galite nurodyti fono vaizdą, kuris visoje programoje būtų naudojamas vietoj vienspalvės temos. Prisijungimo ekrano fono vaizdų failų dydis turėtų būti kuo mažesnis.
@@ -62,7 +62,7 @@ Vaizdo profiliai priskiriami kasos aparatams ir jais nurodoma pagal kasos aparat
 > [!NOTE]
 > Maketas **Dešinysis** ir datos / laiko rodymas netaikomi kompaktiško rodinio prisijungimo ekrane.
 
-Jums reikia paleisti **1090** ( **Registrai** ) paskirstymo grafiko užduotį, kad būtų galima sinchronizuoti naujausias vaizdo šablono konfigūracijas su kanalo duomenų baze.
+Jums reikia paleisti **1090** (**Registrai**) paskirstymo grafiko užduotį, kad būtų galima sinchronizuoti naujausias vaizdo šablono konfigūracijas su kanalo duomenų baze.
 
 ## <a name="screen-layouts"></a>Ekrano maketai
 
@@ -84,7 +84,7 @@ Nuo ekrano išdėstymo konfigūracijų priklauso, kokie bus UI valdiklių veiksm
 
 Ekranų išdėstymus galima priskirti pagal parduotuvę, registrą arba vartotoją. Pasirinkus vartotojo priskyrimą nepaisoma kasos aparato ir parduotuvės priskyrimų, o pasirinkus kasos aparato priskyrimą nepaisoma parduotuvės priskyrimo. Paprastoje situacijoje, kai visi vartotojai naudoja tą patį išdėstymą (nesvarbu, koks kasos aparatas ar vaidmuo), ekrano išdėstymą galima nustatyti tik parduotuvės lygiu. Tose situacijose, kai konkretiems kasos aparatams ar vartotojams reikalingi specializuoti išdėstymai, galima juos priskirti.
 
-Atsižvelgiant į tai, kokiu lygiu priskiriami ekrano maketai, reikia paleisti **1070** ( **Kanalo konfigūracija** ), **1090** ( **Registrai** ) ir/arba **1060** ( **Darbuotojai** ) paskirstymo grafiko užduotis, norint sinchronizuoti naujausias ekrano maketo konfigūracijas su kanalo duomenų baze.
+Atsižvelgiant į tai, kokiu lygiu priskiriami ekrano maketai, reikia paleisti **1070** (**Kanalo konfigūracija**), **1090** (**Registrai**) ir/arba **1060** (**Darbuotojai**) paskirstymo grafiko užduotis, norint sinchronizuoti naujausias ekrano maketo konfigūracijas su kanalo duomenų baze.
 
 ### <a name="layout-sizes"></a>Maketo dydžiai
 
@@ -192,8 +192,8 @@ Mygtukynų dizaino įrankis leidžia konfigūruoti mygtukynus, kuriuos galima na
 
         ![EKA mygtukų dydžiai eilutėmis ir stulpeliais](../commerce/media/POS-Button-Sizes-In-Rows-And-Columns.png)
 
-    - **Pasirinktinis šriftas** – pažymėję žymės langelį **Įjungti pasirinktinį EKA šriftą** , galite nurodyti kitą šriftą nei numatytasis EKA sistemos šriftas.
-    - **Pasirinktinė tema** – pagal numatytuosius parametrus EKA mygtukuose naudojama akcento spalva iš vaizdo profilio. Pažymėję žymės langelį **Naudoti pasirinktinę temą** , galite nurodyti papildomų spalvų.
+    - **Pasirinktinis šriftas** – pažymėję žymės langelį **Įjungti pasirinktinį EKA šriftą**, galite nurodyti kitą šriftą nei numatytasis EKA sistemos šriftas.
+    - **Pasirinktinė tema** – pagal numatytuosius parametrus EKA mygtukuose naudojama akcento spalva iš vaizdo profilio. Pažymėję žymės langelį **Naudoti pasirinktinę temą**, galite nurodyti papildomų spalvų.
 
         > [!NOTE]
         > „Modern POS“ ir „Cloud POS“ naudojamos tik **Fono spalva** ir **Šrifto spalva** vertės.

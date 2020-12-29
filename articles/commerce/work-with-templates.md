@@ -18,11 +18,11 @@ ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: a3fc4259a76f6edcfaa0b8f6e08292477c6c0835
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269871"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414360"
 ---
 # <a name="work-with-templates"></a>Darbas su šablonais
 
@@ -85,7 +85,7 @@ Norėdami sukurti naują šabloną, atlikite toliau nurodytus veiksmus.
 1. Struktūros medyje pasirinkite atkarpą **Pagrindinė dalis**, pasirinkite daugtaškio mygtuką (...), tada – **Įtraukti modulį**.
 1. Pasirinkite puslapio konteinerio modulį (gali būti tik vienas pasirinkimas), tada pasirinkite **Gerai**.
 
-Naujo puslapio konteinerio modulyje matysite naują atkarpų rinkinį **(Antraštė**, **Pagrindinis**ir t. t.). Čia galite pridėti ir konfigūruoti modulio parinktis, kurios bus prieinamos autoriams kuriant šio šablono puslapius. Numatyta, kad, jei į atkarpą neįtrauksite jokių modulių, joje bus palaikomi visų galimų modulių tipai.
+Naujo puslapio konteinerio modulyje matysite naują atkarpų rinkinį **(Antraštė**, **Pagrindinis** ir t. t.). Čia galite pridėti ir konfigūruoti modulio parinktis, kurios bus prieinamos autoriams kuriant šio šablono puslapius. Numatyta, kad, jei į atkarpą neįtrauksite jokių modulių, joje bus palaikomi visų galimų modulių tipai.
 
 Šablonas dabar yra techniškai tinkamas ir jį galima įrašyti, įrašyti ir atrakinti ir naudoti kuriant naujus puslapius. Tačiau kitos trys sekcijos apibūdina kitus numatytuosius parametrus, kuriuos galbūt pirmiau norėsite konfigūruoti.
 

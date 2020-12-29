@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 838047cac694c65047332e146a7c43ee2ae0f401
-ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4019546"
+ms.locfileid: "4414474"
 ---
 # <a name="add-a-copyright-notice"></a>Įtraukti informaciją apie autorių teises
 
@@ -44,18 +44,18 @@ Norėdami kiekvieno puslapio, kuriame naudojamas konkretus šablonas, apačioje 
 1. Eikite į **Fragmentai** ir tuomet pasirinkite **Naujas**.
 1. Dialogo lange **Naujas fragmentas** pasirinkite **Poraštės** modulį ir suteikite fragmentui pavadinimą. Pavyzdžiui, įveskite **Poraštė-autorių teisės**.
 1. Pasirinkite **Gerai**.
-1. Naršymo srityje pasirinkite prie elemento **Poraštė** esantį daugtaškio mygtuką ( **...** ), tada – **Įtraukti modulį**.
+1. Naršymo srityje pasirinkite prie elemento **Poraštė** esantį daugtaškio mygtuką (**...**), tada – **Įtraukti modulį**.
 1. Dialogo lange pasirinkite **Poraštės kategorija** ir **Gerai**.
 1. Naršymo srityje pasirinkite prie elemento **Poraštės kategorija** esantį daugtaškio mygtuką, tada – **Įtraukti modulį**.
 1. Dialogo lange pasirinkite **Teksto blokas** ir **Gerai**.
 1. Naršymo srityje pasirinkite **Teksto blokas**.
 1. Dešinėje esančios ypatybių srities lauke **Pastraipa** įtraukite pranešimą apie autorių teises. Pavyzdžiui, įveskite **Autorių teisės priklauso „Fabrikam“, 2019 m.**
-1. Pasirinkite **Įrašyti** , **Baigti redagavimą** , tada – **Publikuoti**.
-1. Eikite į **Šablonai** , pasirinkite šabloną, tada – **Redaguoti**.
-1. Dalyje **Puslapio struktūa** išplėskite **Pagrindinis tekstas** , tada – **Numatytasis puslapis**.
+1. Pasirinkite **Įrašyti**, **Baigti redagavimą**, tada – **Publikuoti**.
+1. Eikite į **Šablonai**, pasirinkite šabloną, tada – **Redaguoti**.
+1. Dalyje **Puslapio struktūa** išplėskite **Pagrindinis tekstas**, tada – **Numatytasis puslapis**.
 1. Pasirinkite prie elemento **Poraštės vieta** esantį daugtaškio mygtuką, tada – **Įtraukti fragmentą**.
 1. Pasirinkite anksčiau sukurtą fragmentą, tada – **Pasirinkti**.
-1. Pasirinkite **Baigti redagavimą** , kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti** , kad publikuotumėte jį.
+1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 
 Poraštė su informacija apie autorių teises automatiškai atsiranda visų puslapių, kuriuose naudojamas pasirinktas šablonas, apačioje.
 

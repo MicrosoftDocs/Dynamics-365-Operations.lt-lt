@@ -2,8 +2,8 @@
 title: Atostogų ir neatvykimų parametrų konfigūravimas
 description: Žmogiškųjų išteklių parametrų, skirtų atostogoms ir neatvykimams, nustatymas programoje „Dynamics 365 Human Resources“.
 author: andreabichsel
-manager: AnnBe
-ms.date: 08/20/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 196c3901b5bc19f73b882bac7d3361e5bcc37e07
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: e1b2de94f9d9ac1ada16b6ef0e7628edbc9d683f
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712381"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4419809"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Atostogų ir neatvykimų parametrų konfigūravimas
 
@@ -48,11 +48,24 @@ Prieš nustatant atostogų ir neatvykimų planus „Dynamics 365 Human Resources
 
 7. Pasirinkite **Įrašyti**.
 
+>[!IMPORTANT]
+>Atostogų ir nebuvo darbe peržiūra visose įmonėse šiuo metu yra išankstinėje peržiūroje. Jums reikės įjungti jį savo **Smėlio dėžės** aplinkoje, kad matytumėte parinktį atostogoms ir nebuvimui darbe. Daugiau informacijos apie peržiūros versijos funkcijų įjungimą žr. [Funkcijų valdymas](hr-admin-manage-features.md).
+
+## <a name="view-and-change-human-resources-shared-parameters"></a>Peržiūrėti ir keisti žmogiškųjų išteklių bendrintus parametrus
+
+1. Puslapyje **Personalo valdymas** rinkitės **Nuorodų** skirtuką.
+
+2. Skyriuje **Nustatymai**, Rinkitės **žmogiškųjų išteklių bendrinti parametrai**.
+
+3. Skirtuke **Papildoma prieiga** rinkitės **Taip** norėdami **Įjungti kryžminę įmonės atostogų peržiūrą** tam, kad atostogos būtų matomos visose įmonėse.
+
+4. Pasirinkite **Įrašyti**.
+
 ## <a name="view-and-change-leave-and-absence-parameters"></a>Peržiūrėti ir keisti atostogų ir neatvykimų parametrus
 
 1. Puslapyje **Atostogos ir neatvykimai** pasirinkite skirtuką **Saitai**.
 
-2. Dalyje **Sąranka**pasirinkite **Atostogų ir neatvykimų parametrai**.
+2. Dalyje **Sąranka** pasirinkite **Atostogų ir neatvykimų parametrai**.
 
 3. Skirtuke **Bendra** nustatykite tolesnius parametrus.
  
@@ -70,7 +83,7 @@ Prieš nustatant atostogų ir neatvykimų planus „Dynamics 365 Human Resources
 
 1. Puslapyje **Atostogos ir neatvykimai** pasirinkite skirtuką **Saitai**.
 
-2. Dalyje **Sąranka**pasirinkite **Atostogų ir neatvykimų parametrai**.
+2. Dalyje **Sąranka** pasirinkite **Atostogų ir neatvykimų parametrai**.
 
 3. Skirtuke **Kalendorius** keiskite kalendoriaus parametrus, jei reikia.
 

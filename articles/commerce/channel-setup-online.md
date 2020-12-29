@@ -18,11 +18,11 @@ ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 07225d97af76ea665fa28362cc205c6e8dc4fdf4
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107235"
+ms.locfileid: "4414498"
 ---
 # <a name="set-up-an-online-channel"></a>Interneto kanalo nustatymas
 
@@ -76,7 +76,7 @@ Iš skyriaus **Mokėjimo sąskaita** galite įtraukti trečiosios šalies mokėj
 
 Papildomos užduotys, reikalingos interneto kanalo sąrankai, apima mokėjimo metodų, pristatymo būdų ir išpildymo grupių priskyrimo nustatymą.
 
-Toliau pateiktame paveiksle rodomos sąrankos parinktys **Pristatymo būdai** , **Mokėjimo metodai** ir **Vykdymo grupių priskyrimas** , esančios skirtuke **Nustatyti**.
+Toliau pateiktame paveiksle rodomos sąrankos parinktys **Pristatymo būdai**, **Mokėjimo metodai** ir **Vykdymo grupių priskyrimas**, esančios skirtuke **Nustatyti**.
 
 ![Papildomi interneto kanalo nustatymo veiksmai](media/channel-setup-online-3.png)
 
@@ -84,7 +84,7 @@ Toliau pateiktame paveiksle rodomos sąrankos parinktys **Pristatymo būdai** , 
 
 Norėdami nustatyti kiekvieno mokėjimo tipo, palaikomo šiame kanale, mokėjimo metodus, atlikite toliau nurodytus veiksmus.
 
-1. Veiksmų srityje pasirinkite skirtuką **Nustatymas** , tada pasirinkite **Mokėjimo metodai**.
+1. Veiksmų srityje pasirinkite skirtuką **Nustatymas**, tada pasirinkite **Mokėjimo metodai**.
 1. Veiksmų srityje pasirinkite **Nauja**.
 1. Naršymo srityje pasirinkite pageidaujamą mokėjimo metodą.
 1. Skyriuje **Bendri** nurodykite **Operacijos pavadinimas** ir konfigūruokite kitus pageidaujamus nustatymus.
@@ -97,13 +97,13 @@ Toliau pateiktame vaizde parodytas mokėjimas grynaisiais pinigais pavyzdys.
 
 ### <a name="set-up-modes-of-delivery"></a>Nustatyti pristatymo būdus
 
-Galite peržiūrėti sukonfigūruotus pristatymo būdus pasirikdami **Pristatymo būdai** skirtuke **Nustatymas** , esančiame **Veiksmų sritis**.  
+Galite peržiūrėti sukonfigūruotus pristatymo būdus pasirikdami **Pristatymo būdai** skirtuke **Nustatymas**, esančiame **Veiksmų sritis**.  
 
 Norėdami pakeisti arba įtraukti pristatymo būdą, atlikite toliau nurodytus veiksmus.
 
 1. Naršymo srityje eikite į **Moduliai \> Atsargų valdymas \> Pristatymo būdai**.
-1. Veiksmų srityje pasirinkite **Naujas** , kad sukurtumėte naują pristatymo režimą, arba pasirinkite esamą režimą.
-1. Skyriuje **Mažmeninės prekybos kanalai** pasirinkite **Įtraukti eilutę** , kad galėtumėte įtraukti kanalą. Kanalų įtraukimas naudojant organizacijos mazgus, užuot įtraukus kiekvieną kanalą atskirai, gali racionalizuoti kanalų įtraukimą.
+1. Veiksmų srityje pasirinkite **Naujas**, kad sukurtumėte naują pristatymo režimą, arba pasirinkite esamą režimą.
+1. Skyriuje **Mažmeninės prekybos kanalai** pasirinkite **Įtraukti eilutę**, kad galėtumėte įtraukti kanalą. Kanalų įtraukimas naudojant organizacijos mazgus, užuot įtraukus kiekvieną kanalą atskirai, gali racionalizuoti kanalų įtraukimą.
 
 Toliau pateiktame vaizde parodytas pristatymo būdo pavyzdys.
 
@@ -113,7 +113,7 @@ Toliau pateiktame vaizde parodytas pristatymo būdo pavyzdys.
 
 Norėdami nustatyti vykdymo grupės priskyrimą, atlikite toliau nurodytus veiksmus.
 
-1. Veiksmų srityje pasirinkite skirtuką **Nustatymas** , tada pasirinkite **Vykdymo grupės priskyrimas**.
+1. Veiksmų srityje pasirinkite skirtuką **Nustatymas**, tada pasirinkite **Vykdymo grupės priskyrimas**.
 1. Veiksmų srityje pasirinkite **Nauja**.
 1. Išplečiamajame sąraše **Vykdymo grupė** pasirinkite vykdymo grupę.
 1. Išplečiamajame sąraše **Aprašas** įveskite aprašą.

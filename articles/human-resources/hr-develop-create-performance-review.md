@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 99825dd580d617bb47b4f0ece784afbf6573ae8a
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430468"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419713"
 ---
 # <a name="create-performance-reviews"></a>Našumo apžvalgų kūrimas
 
@@ -57,7 +57,7 @@ ms.locfileid: "3430468"
 21. Pažymėkite skirtuką **Veiklos**.
 22. Pasirinkite **Įtraukti**.
 23. Lauke **Pavadinimas** įveskite reikšmę.
-24. Lauke **Aprašo laukas**surinkite reikšmę.
+24. Lauke **Aprašo laukas** surinkite reikšmę.
 25. Lauke **Pradžios data** įveskite datą.
 26. Lauke **Užbaigimo data** įveskite datą.
 27. Pažymėkite **Taip** lauke **Plėtros planas**.

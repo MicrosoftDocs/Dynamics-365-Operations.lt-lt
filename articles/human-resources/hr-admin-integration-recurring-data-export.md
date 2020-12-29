@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: edd4b999624a845fc145ed9ff348ae9cba782719
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009896"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419760"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Pasikartojančių duomenų eksportavimo programos kūrimas
 
@@ -104,7 +104,7 @@ Didžioji dalis pratimo susijusi su loginės programos kūrimu.
     3. Nustatykite HTTP **SKELBTI** užklausą, kad būtų iškviesta **ExportToPackage** DMF REST API.
 
         - **Metodas:** SKELBTI
-        - **Užklausos URL:** https://\<pagrindinio kompiuterio vardas\>/vardų erdvės\<vardų erdvė\_GUID\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.ExportToPackage
+        - **Prašymo Url:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.ExportToPackage
         - **Užklausos tekstas:**
 
             ```JSON
@@ -141,11 +141,11 @@ Didžioji dalis pratimo susijusi su loginės programos kūrimu.
         > Šis pavyzdys neatlieka klaidų tikrinimo. **GetExecutionSummaryStatus** API gali grąžinti nepavykusias terminalo būsenas (t. y., kitas nei **Pavyko** būsenas). Daugiau informacijos ieškokite [API dokumentacijoje](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus).
 
         - **Metodas:** SKELBTI
-        - **Užklausos URL:** https://\<pagrindinio kompiuterio vardas\>/vardų erdvės\<vardų erdvė\_GUID\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExecutionSummaryStatus
+        - **Prašymo Url:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExecutionSummaryStatus
         - **Užklausos turinys** body('Invoke\_an\_HTTP\_request')?['value']
 
             > [!NOTE]
-            > Jums gali tekti įvesti vertę**Užklausos turinys** kūrimo įrankyje arba kodo rodinyje, arba funkcijos rengyklėje.
+            > Jums gali tekti įvesti vertę **Užklausos turinys** kūrimo įrankyje arba kodo rodinyje, arba funkcijos rengyklėje.
 
         ![HTTP užklausos 2 veiksmo iškvietimas](media/integration-logic-app-get-execution-status-step.png)
 
@@ -159,7 +159,7 @@ Didžioji dalis pratimo susijusi su loginės programos kūrimu.
     - Įtraukite veiksmą **Iškviesti HTTP užklausą**, kad iškviestumėte [GetExportedPackageUrl](../dev-itpro/data-entities/data-management-api.md#getexportedpackageurl) DMF REST API.
 
         - **Metodas:** SKELBTI
-        - **Užklausos URL:** https://\<pagrindinio kompiuterio vardas\>/vardų erdvės\<vardų erdvė\_GUID\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
+        - **Prašymo Url:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
         - **Užklausos turinys:** {"executionId": body('GetExportedPackageURL')?['value']}
 
         ![GetExportedPackageURL veiksmas](media/integration-logic-app-get-exported-package-step.png)

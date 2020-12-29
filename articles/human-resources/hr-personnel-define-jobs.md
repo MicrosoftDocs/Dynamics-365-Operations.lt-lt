@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 47a81d5c872b49b2395ed687855798fe04772b7e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428667"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419739"
 ---
 # <a name="define-new-jobs"></a>Apibrėžti naujas užduotis
 
@@ -57,7 +57,7 @@ ms.locfileid: "3428667"
 21. Sąraše raskite ir pasirinkite norimą įrašą.
 22. Sąraše spustelėkite saitą pasirinktoje eilutėje.
 23. Perjunkite dalies Įgūdžiai išplėtimą.
-    * Atkreipkite dėmesį, kad laukai „FastTab‟ Įgūdžiai, Išsilavinimas ir Sertifikatai yra tušti. Informaciją nukopijavus iš darbo šablono, informacija šiuose laukuose bus įvedama vienu veiksmu.   
+    * Atkreipkite dėmesį, kad laukai „FastTab‟ Įgūdžiai, Išsilavinimas ir Sertifikatai yra tušti. Informaciją nukopijavus iš darbo šablono, informacija šiuose laukuose bus įvedama vienu veiksmu.   
 24. Spustelėkite Įrašyti.
 25. Spustelėkite Kopijuoti iš.
 26. Spustelėkite Kopijuoti iš šablono.

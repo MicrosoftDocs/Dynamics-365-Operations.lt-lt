@@ -18,11 +18,11 @@ ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
 ms.openlocfilehash: 647387bafe8866cb1bee8c57675629af796f33e6
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817187"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414443"
 ---
 # <a name="media-gallery-module"></a>Medijos galerijos modulis
 
@@ -80,7 +80,7 @@ Tam, kad įtrauktumėte medijos galerijos modulį į puslapio komerciją, atliki
 1. **Naujo šablono** teksto laukelyje, skyriuje **Šablono pavadinimas** įveskite **Komercijos šablono** ir tuomet pasirinkite **Gerai**.
 1. Vietoje **Pagrindinė dalis** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
 1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Numatytasis puslapis**, tada pasirinkite **Gerai**.
-1. Nustatytojo puslapio**Pagrindinis** vietoje pasirinkite elipsę (**...**), ir tuomet pasirinkite**Įtraukti modulį**.
+1. Nustatytojo puslapio **Pagrindinis** vietoje pasirinkite elipsę (**...**), ir tuomet pasirinkite **Įtraukti modulį**.
 1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Konteineris**, tada pasirinkite **Gerai**.
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 1. Eikite į **Puslapiai** ir pasirinkite **Naujas**, kad sukurtumėte naują puslapį.

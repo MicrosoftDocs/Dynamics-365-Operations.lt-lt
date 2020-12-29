@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: a0509ce99205d49d516e180203ffb65a1dc09a7c
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092111"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419652"
 ---
 # <a name="authentication"></a>Autentifikavimas
 
@@ -84,7 +84,7 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
 
         Norėdami pamatyti konkrečius pavyzdžius, susijusius su žiniatinklio programomis ir vietinėmis programomis, žr. greitąjį pasirengimą darbui[ „Microsoft“ tapatumo platformoje (anksčiau vadinamoje „Azure Active Directory“, skirta kūrėjams)](https://docs.microsoft.com/azure/active-directory/develop/#quickstarts).
 
-5. Dalyje **API teisės**pasirinkite **Įtraukti teisę**. Tada skirtuke **Mano organizacijoje naudojamos API**, ieškokite **„Dynamics 365 Human Resources“** ir pridėkite teisę **vartotojas\_apsimetimas** prie savo programos. „Human Resources“ programos ID yra f9be0c49-aa22-4ec6-911a-c5da515226ff. Naudokite šį ID norėdami įsitikinti, kad pasirinkote tinkamą programą.
+5. Dalyje **API teisės** pasirinkite **Įtraukti teisę**. Tada skirtuke **Mano organizacijoje naudojamos API**, ieškokite **„Dynamics 365 Human Resources“** ir pridėkite teisę **vartotojas\_apsimetimas** prie savo programos. „Human Resources“ programos ID yra f9be0c49-aa22-4ec6-911a-c5da515226ff. Naudokite šį ID norėdami įsitikinti, kad pasirinkote tinkamą programą.
 
 6. Pasirinkite **Registruotis**.
 

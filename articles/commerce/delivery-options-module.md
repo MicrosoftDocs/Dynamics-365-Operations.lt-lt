@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 39e597b88afcca69623b1a23acc95e4da3873082
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: f9e8df576efd1e58fde235828823f31e87ed58bf
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818304"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4414513"
 ---
 # <a name="delivery-options-module"></a>Pristatymo parinkčių modulis
 
@@ -69,6 +69,8 @@ Pristatymo parinkčių modulis gali būti įtrauktas tik į galutinį modulį. D
 [Mokėjimo modulis](payment-module.md)
 
 [Siuntimo adreso modulis](ship-address-module.md)
+
+[Paėmimo informacijos modulis](pickup-info-module.md)
 
 [Išsamios užsakymo informacijos modulis](order-confirmation-module.md)
 

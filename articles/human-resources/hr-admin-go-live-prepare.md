@@ -19,11 +19,11 @@ ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 59d7274c3b40e78209d90960c4514321b736876a
-ms.sourcegitcommit: d66fd72342931fad25a696b251c05781280d36c4
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4011429"
+ms.locfileid: "4419795"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Rengimasis „Human Resources” įgyvendinimo pradžiai
 
@@ -57,7 +57,7 @@ Pagrindinis kiekvieno įgyvendinimo projekto etapas yra perėjimas prie gamybos 
 
 Siekiant padėti užtikrinti, kad gamybos aplinka būtų naudojama atliekant įgyvendinimo operacijas, „Microsoft” konfigūruoja gamybos egzempliorių tik tada, kai įgyvendinimas artėja prie etapo **Vykdymas** ir kai reikiamos LCS metodikos veiklos yra užbaigtos. Daugiau informacijos apie jūsų prenumeratos aplinkas žr.  [„Dynamics 365” licencijavimo vadovas](https://go.microsoft.com/fwlink/?LinkId=866544). 
 
-Klientai turi užbaigti LCS metodikos etapus **Analizė** , **Kūrimas ir vystymas** ir **Testavimas** prieš atsirandant užklausos dėl gamybos aplinkos pateikimo mygtukui  **Konfigūruoti** . Norėdami baigti LCS etapą, pirmiausia turite užbaigti kiekvieną reikalingą to etapo veiksmą. Kai visi etapo veiksmai baigti, galite užbaigti visą etapą. Vėliau, jei reikia atlikti keitimus, galite bet kada iš naujo atidaryti etapą. Daugiau informacijos žr.  [„Lifecycle Services (LCS)“, skirtas „Finance and Operations“ programų klientams](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
+Klientai turi užbaigti LCS metodikos etapus **Analizė**, **Kūrimas ir vystymas** ir **Testavimas** prieš atsirandant užklausos dėl gamybos aplinkos pateikimo mygtukui  **Konfigūruoti** . Norėdami baigti LCS etapą, pirmiausia turite užbaigti kiekvieną reikalingą to etapo veiksmą. Kai visi etapo veiksmai baigti, galite užbaigti visą etapą. Vėliau, jei reikia atlikti keitimus, galite bet kada iš naujo atidaryti etapą. Daugiau informacijos žr.  [„Lifecycle Services (LCS)“, skirtas „Finance and Operations“ programų klientams](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
 
 Veiksmo užbaigimo procesą sudaro dvi dalys: 
 

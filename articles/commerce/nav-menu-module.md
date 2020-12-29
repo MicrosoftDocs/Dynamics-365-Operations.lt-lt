@@ -19,11 +19,11 @@ ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: b0e8168ca9ec9ca68011650a73cc09983deca645
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.sourcegitcommit: eee3523be26369aecdb36c0143a6ee3dab4b7966
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055742"
+ms.locfileid: "4414483"
 ---
 # <a name="navigation-menu-module"></a>Naršymo meniu modulis
 
@@ -47,9 +47,9 @@ Toliau pateiktoje iliustracijoje parodytas „Fabrikam” svetainės naršymo me
 | Šaltinis                  | **„Retail”** , **Kūrimas neautomatiniu būdu** , **„Retail” ir kūrimas neautomatiniu būdu** | Reikšmė **„Retail”** leidžia naršymo meniu rodyti „Commerce Headquarters” kanalų naršymo hierarchiją. Reikšmė **Kūrimas neautomatiniu būdu** leidžia kuruoti statinius meniu elementus. Reikšmė **„Retail” ir kūrimas neautomatiniu būdu** leidžia abiejų reikšmių derinį. |
 | Rodyti kategorijos vaizdus | **Teisinga** arba **Klaidinga**    | Įjungus Ši ypatybė naršymo meniu rodo kategorijos atvaizdus, kaip nurodyta kiekvienos kategorijos "Commerce Headquarters". Įtraukta į „Commerce” 10.0.14 leidimą. |
 | Įjungti kelių lygių naršymo meniu | **Teisinga** arba **Klaidinga** | Kai ši ypatybė įjungta, naršymo meniu gali rodyti kelis naršymo hierarchijos lygius. Ši funkcija pasiekiama „Dynamics 365 Commerce“ 10.0.15 leidime. |
-| Lygių skaičius | sveikasis skaičius | Ši ypatybė nurodo lygių, kurie turėtų būti rodomi, jei ypatybė **Įjungti kelių lygių naršymo meniu** nustatyta į **Teisinga** , skaičių. |
+| Lygių skaičius | sveikasis skaičius | Ši ypatybė nurodo lygių, kurie turėtų būti rodomi, jei ypatybė **Įjungti kelių lygių naršymo meniu** nustatyta į **Teisinga**, skaičių. |
 | Statinis meniu elementas| Reikšmių masyvas| Statiniai meniu elementai, susiejantys meniu elemento pavadinimą su statinio svetainės puslapio saitu. Galite kurti meniu elementus po kitais meniu elementais. Pagal numatytuosius nustatymus statiniai meniu rodomi šakniniame lygyje ir yra pridedami prie kanalų naršymo hierarchijos, jei tokia yra. |
-| Rodyti šakninį meniu | **Teisinga** arba **Klaidinga** | Kai ši ypatybė įjungta, naršymo meniu gali būti nustatytas pagal pasirinktinę šaknį (pvz., **Pirkti dabar** ). Ši funkcija pasiekiama „Dynamics 365 Commerce“ 10.0.15 leidime. |
+| Rodyti šakninį meniu | **Teisinga** arba **Klaidinga** | Kai ši ypatybė įjungta, naršymo meniu gali būti nustatytas pagal pasirinktinę šaknį (pvz., **Pirkti dabar**). Ši funkcija pasiekiama „Dynamics 365 Commerce“ 10.0.15 leidime. |
 | Šakninis meniu | eilutė | Ši ypatybė gali būti naudojama norint nustatyti pasirinktinės šaknies tekstą, jei ypatybė **Rodyti šakninį meniu** nustatyta į **Teisinga**. |
 
 Toliau pateiktame paveikslėlyje parodytas kategorijos vaizdo, rodomo „Fabrikam“ svetainės naršymo meniu, pavyzdys.
