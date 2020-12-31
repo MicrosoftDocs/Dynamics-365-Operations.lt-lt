@@ -1,0 +1,81 @@
+---
+title: Klientų mokėjimų numatymai (peržiūros versija)
+description: Šioje temoje aprašomas mokėjimo prognozavimo pajėgumas, kuris gali padėti geriau suprasti įprastas klientų atsiskaitymo praktikas. Ši funkcija gali padėti apibrėžti aplinkybes, kuriomis reikėtų inicijuoti pinigų surinkimo procesus anksčiau, nei galbūt būtumėte tai padarę.
+author: ShivamPandey-msft
+manager: AnnBe
+ms.date: 05/26/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
+ms.custom: 14151
+ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
+ms.search.region: Global
+ms.author: shpandey
+ms.search.validFrom: 2019-11-06
+ms.dyn365.ops.version: AX 10.0.8
+ms.openlocfilehash: b321fdc185e175d9fe2673c9f1e16486efd8e798
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645678"
+---
+# <a name="customer-payment-predictions-preview"></a><span data-ttu-id="8aa65-104">Klientų mokėjimų numatymai (peržiūros versija)</span><span class="sxs-lookup"><span data-stu-id="8aa65-104">Customer payment predictions (preview)</span></span>
+
+[!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
+<span data-ttu-id="8aa65-105">Šioje temoje aprašomas mokėjimo prognozavimo pajėgumas, kuris gali padėti geriau suprasti įprastas klientų atsiskaitymo praktikas.</span><span class="sxs-lookup"><span data-stu-id="8aa65-105">This topic describes the payment predictions capability that can help you better understand a customer's typical payment practices.</span></span> <span data-ttu-id="8aa65-106">Ši funkcija gali padėti apibrėžti aplinkybes, kuriomis reikėtų inicijuoti pinigų surinkimo procesus anksčiau, nei galbūt būtumėte tai padarę.</span><span class="sxs-lookup"><span data-stu-id="8aa65-106">This feature can also help identify circumstances that should cause you to start collections processes earlier than you might otherwise start them.</span></span>
+
+## <a name="overview"></a><span data-ttu-id="8aa65-107">Peržiūra</span><span class="sxs-lookup"><span data-stu-id="8aa65-107">Overview</span></span>
+
+<span data-ttu-id="8aa65-108">Organizacijoms dažnai sudėtinga prognozuoti, kada klientai apmokės sąskaitas faktūras.</span><span class="sxs-lookup"><span data-stu-id="8aa65-108">Organizations often find it challenging to predict when customers will pay their invoices.</span></span> <span data-ttu-id="8aa65-109">Stingant įžvalgų, gali kilti toliau nurodytos problemos.</span><span class="sxs-lookup"><span data-stu-id="8aa65-109">This lack of insight can cause the following issues:</span></span>
+
+- <span data-ttu-id="8aa65-110">Mažiau tikslios pinigų srautų prognozės</span><span class="sxs-lookup"><span data-stu-id="8aa65-110">Less accurate cash flow forecasts</span></span>
+- <span data-ttu-id="8aa65-111">Per vėlai pradedami surinkimo procesai</span><span class="sxs-lookup"><span data-stu-id="8aa65-111">Collections processes that start too late</span></span>
+- <span data-ttu-id="8aa65-112">Užsakymai, išleidžiami klientams, kurie gali nesumokėti</span><span class="sxs-lookup"><span data-stu-id="8aa65-112">Orders that are released to customers who might default on their payment</span></span>
+
+<span data-ttu-id="8aa65-113">Kliento mokėjimo prognozės (peržiūra) padeda organizacijoms nuspėti, kada kliento sąskaita faktūra bus apmokėta.</span><span class="sxs-lookup"><span data-stu-id="8aa65-113">Customer payment predictions (preview) helps organizations predict when a customer invoice will be paid.</span></span> <span data-ttu-id="8aa65-114">Todėl jos gali sukurti surinkimo strategijas, padedančias padidinti tikimybę, kad bus apmokama laiku.</span><span class="sxs-lookup"><span data-stu-id="8aa65-114">Therefore, they can create collections strategies that help increase the likelihood that they will be paid on time.</span></span>
+
+## <a name="predictions"></a><span data-ttu-id="8aa65-115">Prognozės</span><span class="sxs-lookup"><span data-stu-id="8aa65-115">Predictions</span></span>
+
+<span data-ttu-id="8aa65-116">Mokėjimo prognozės leidžia organizacijoms tobulinti savo verslo procesus, padėdamos jiems identifikuoti SF, kurios gali būti apmokamos pavėluotai.</span><span class="sxs-lookup"><span data-stu-id="8aa65-116">Payment predictions let organizations improve their business processes by helping them identify the invoices that are likely to be paid late.</span></span> <span data-ttu-id="8aa65-117">Organizacija gali naudoti šią informaciją, kad atliktų veiksmus, gerinančius tikimybę, jog joms bus sumokėta laiku.</span><span class="sxs-lookup"><span data-stu-id="8aa65-117">Organization can use that information to take actions that improve the chances that they will be paid on time.</span></span>
+
+<span data-ttu-id="8aa65-118">Kliento mokėjimo prognozių funkcija naudoja mašininio mokymo modelį, kad tiksliau nuspėtų, kada klientas apmokės nepadengtą SF.</span><span class="sxs-lookup"><span data-stu-id="8aa65-118">The Customer payment predictions feature uses a machine learning model to more accurately predict when a customer will pay an outstanding invoice.</span></span> <span data-ttu-id="8aa65-119">Šiame mašininio mokymo modelyje yra retrospektyviniai SF, mokėjimo ir kliento duomenys.</span><span class="sxs-lookup"><span data-stu-id="8aa65-119">This machine learning model includes historical invoices, payments, and customer data.</span></span>
+
+<span data-ttu-id="8aa65-120">Kiekvienai atidarytai SF ši funkcija priskiria tris mokėjimo tikimybes.</span><span class="sxs-lookup"><span data-stu-id="8aa65-120">For each open invoice, the feature assigns three payment probabilities:</span></span>
+
+- <span data-ttu-id="8aa65-121">Tikimybė, kad mokėjimai bus atlikti laiku</span><span class="sxs-lookup"><span data-stu-id="8aa65-121">The probability that the payment will be made on time</span></span>
+- <span data-ttu-id="8aa65-122">Tikimybė, kad mokėjimai bus atlikti pavėluotai</span><span class="sxs-lookup"><span data-stu-id="8aa65-122">The probability that the payment will be made late</span></span>
+- <span data-ttu-id="8aa65-123">Tikimybė, kad mokėjimai bus atlikti žymiai pavėluotai</span><span class="sxs-lookup"><span data-stu-id="8aa65-123">The probability that the payment will be made very late</span></span>
+
+<span data-ttu-id="8aa65-124">Funkcija taip pat pateikia apibendrintą numatomų mokėjimų rodinį.</span><span class="sxs-lookup"><span data-stu-id="8aa65-124">The feature also provides an aggregated view of expected payments.</span></span>
+
+<span data-ttu-id="8aa65-125">[![Kaupiamasis mokėjimo prognozių rodinys](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)</span><span class="sxs-lookup"><span data-stu-id="8aa65-125">[![Aggregated view of payment predictions](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)</span></span>
+
+<span data-ttu-id="8aa65-126">Kiekviena sąskaita faktūra yra priskirta tikimybei, kad bus sumokėta laiku.</span><span class="sxs-lookup"><span data-stu-id="8aa65-126">Each invoice is assigned a probability of on-time payment.</span></span> <span data-ttu-id="8aa65-127">Jei SF apmokėjimo laiku tikimybė yra mažesnė nei 50 procentų, SF pažymimos raudonu apskritimu, kuris nurodo, kad gali reikėti perduoti jas mokėjimų priežiūros agentui patikrinti.</span><span class="sxs-lookup"><span data-stu-id="8aa65-127">Invoices that have a probability of on-time payment that is less than 50 percent are tagged with a red circle to indicate that they might require attention from a collections agent.</span></span>
+
+<span data-ttu-id="8aa65-128">[![Apmokėjimo tikimybių sąrašas](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)</span><span class="sxs-lookup"><span data-stu-id="8aa65-128">[![List of payment probabilities](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)</span></span>
+
+<span data-ttu-id="8aa65-129">Kliento mokėjimo prognozių funkcija taip pat pateikia kontekstinę informaciją, kuri paaiškina prognozes.</span><span class="sxs-lookup"><span data-stu-id="8aa65-129">The Customer payment predictions feature also provides contextual information to explain the prediction.</span></span> <span data-ttu-id="8aa65-130">Ši informacija apima svarbiausius veiksnius, kurie paveikė prognozes, dabartinę verslo padėtį su klientu ir retrospektyvinę informaciją apie kliento mokėjimo elgseną.</span><span class="sxs-lookup"><span data-stu-id="8aa65-130">This information includes the top factors that influenced the prediction, the current state of business with the customer, and details about the customer's historical payment behavior.</span></span>
+
+<span data-ttu-id="8aa65-131">Daugelyje įmonių surinkimo procesas buvo reaktyvi veikla.</span><span class="sxs-lookup"><span data-stu-id="8aa65-131">In many businesses, the collections process has been a reactive activity.</span></span> <span data-ttu-id="8aa65-132">Kitaip tariant, išieškojimas procesas neprasideda iki sąskaitų faktūrų apmokėjimo termino.</span><span class="sxs-lookup"><span data-stu-id="8aa65-132">In other words, the collections process doesn't start until invoices become due.</span></span> <span data-ttu-id="8aa65-133">Naudodamos kliento mokėjimo prognozes, organizacijos gali aktyviau taikyti išieškojimą.</span><span class="sxs-lookup"><span data-stu-id="8aa65-133">Customer payment predictions let organizations be more proactive about collections.</span></span> <span data-ttu-id="8aa65-134">Joms nebereikės laukti, kol operacija pradės vėluoti, kad galėtų pradėti išieškojimo procesą.</span><span class="sxs-lookup"><span data-stu-id="8aa65-134">They no longer have to wait for a transaction to become due to start the collections process.</span></span> <span data-ttu-id="8aa65-135">Vietoje to, jos gali naudoti mokėjimo prognozės funkciją, kad galėtų nustatyti, ar iniciatyvūs išieškojimai pagerins tikimybę, kad bus sumokėta laiku.</span><span class="sxs-lookup"><span data-stu-id="8aa65-135">Instead, they can use the payment predictions capability to determine whether proactive collections will improve the probability that they will be paid on time.</span></span>
+
+## <a name="methodology"></a><span data-ttu-id="8aa65-136">Metodika</span><span class="sxs-lookup"><span data-stu-id="8aa65-136">Methodology</span></span>
+
+<span data-ttu-id="8aa65-137">Anksčiau paprastai būdavo nelengva sukurti ir įdiegti dirbtinio intelekto (DI) sprendimą.</span><span class="sxs-lookup"><span data-stu-id="8aa65-137">In the past, it has typically been difficult to develop and deploy an artificial intelligence (AI) solution.</span></span> <span data-ttu-id="8aa65-138">Tam reikėdavo komandos, jungiančios duomenų mokslininkus, srities ekspertus ir inžinierius, kurie ilgą laiką dirba, kad suformuluotų, sukurtų, visuotinai įdiegtų ir išlaikytų naudotiną DI sprendimą.</span><span class="sxs-lookup"><span data-stu-id="8aa65-138">The process has required a team that includes data scientists, subject matter experts (SMEs), and engineers, who work over time to formulate, develop, deploy, and maintain a usable AI solution.</span></span> <span data-ttu-id="8aa65-139">Kliento mokėjimo prognozės leidžia lengvai įdiegti ir naudoti DI sprendimą programoje „Microsoft Dynamics 365 Finance“.</span><span class="sxs-lookup"><span data-stu-id="8aa65-139">Customer payment predictions makes it easy to deploy and use an AI solution in Microsoft Dynamics 365 Finance.</span></span> <span data-ttu-id="8aa65-140">„Microsoft“ iš anksto supakuoja DI sprendimus, kurie yra įdiegti ant „Microsoft AI Builder“.</span><span class="sxs-lookup"><span data-stu-id="8aa65-140">Microsoft is prepackaging AI solutions that are built on top of Microsoft AI Builder.</span></span> <span data-ttu-id="8aa65-141">Todėl vartotojai gali naudoti DI sprendimą vienu pelės klavišu, norėdami pasinaudoti pažangių prognozių pranašumais.</span><span class="sxs-lookup"><span data-stu-id="8aa65-141">Therefore, users can deploy the AI solution in a single mouse click to take advantage of the benefits of intelligent predictions.</span></span> <span data-ttu-id="8aa65-142">Jei netenkinta prognozių tikslumas, patyręs vartotojas vienu mygtuko spustelėjimu gali atidaryti „AI Builder“ plėtinio sąsają, tada pasirinkti arba panaikinti laukų, skirtų generuoti prognozes, pasirinkimą.</span><span class="sxs-lookup"><span data-stu-id="8aa65-142">If you aren't satisfied with the accuracy of predictions, a power user can (again, in a single mouse click) enter the AI Builder extension experience, and then select or clear the fields that are used to generate predictions.</span></span> <span data-ttu-id="8aa65-143">Kai esate pasiruošę, galite „išmokyti“ modelį ir publikuoti keitimus.</span><span class="sxs-lookup"><span data-stu-id="8aa65-143">When you're ready, you can "train" the model and publish the changes.</span></span> <span data-ttu-id="8aa65-144">Naujai parengtas modelis bus automatiškai naudojamas prognozuojant programoje „Dynamics 365 Finance“.</span><span class="sxs-lookup"><span data-stu-id="8aa65-144">The newly trained model will automatically be picked up to generate predictions in Dynamics 365 Finance.</span></span>
+
+## <a name="release-details"></a><span data-ttu-id="8aa65-145">Išleidimo informacija</span><span class="sxs-lookup"><span data-stu-id="8aa65-145">Release details</span></span>
+
+<span data-ttu-id="8aa65-146">Bandomąją modulio Finansinės įžvalgos viešosios peržiūros versiją galima įdiegti Jungtinėse Amerikos Valstijose, Europoje ir Jungtinėje Karalystėje.</span><span class="sxs-lookup"><span data-stu-id="8aa65-146">Finance Insights public preview is available to try for deployments in the United States of America, Europe, and United Kingdom.</span></span> <span data-ttu-id="8aa65-147">„Microsoft“ palaipsniui į palaikomų regionų sąrašą įtraukia daugiau regionų.</span><span class="sxs-lookup"><span data-stu-id="8aa65-147">Microsoft is incrementally adding support for additional regions.</span></span>
+
+<span data-ttu-id="8aa65-148">Viešosios peržiūros versijos funkcijos turi būti įjungtos tik 2 pakopos smėlio dėžės aplinkose.</span><span class="sxs-lookup"><span data-stu-id="8aa65-148">Public preview features should be turned on only in Tier 2 sandbox environments.</span></span> <span data-ttu-id="8aa65-149">Sąrankos ir DI modelių, sukurtų smėlio dėžės aplinkoje, negalima perkelti į gamybos aplinką.</span><span class="sxs-lookup"><span data-stu-id="8aa65-149">Setup and AI models that are created in a sandbox environment might not be migrated to the production environment.</span></span> <span data-ttu-id="8aa65-150">Norėdami gauti daugiau informacijos, žr. [„Microsoft Dynamics 365“ peržiūros versijų papildomos naudojimo sąlygos](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms).</span><span class="sxs-lookup"><span data-stu-id="8aa65-150">For more information, see [Supplemental Terms of Use for Microsoft Dynamics 365 Previews](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms).</span></span>
+
+## <a name="privacy-notice"></a><span data-ttu-id="8aa65-151">Privatumo pranešimas</span><span class="sxs-lookup"><span data-stu-id="8aa65-151">Privacy notice</span></span>
+
+<span data-ttu-id="8aa65-152">Peržiūros versijos (1) gali naudoti mažiau privatumo ir mažiau saugos priemonių nei „Dynamics 365 Finance and Operations“ paslauga, (2) jos nėra įtrauktos į aptarnavimo lygio sutartį (SLA), (3) jos neturėtų būti naudojamos apdoroti asmens duomenims ar kitiems duomenims, kuriems taikomi teisiniai ir atitikimo teisės aktai (4) ir jų palaikymas yra ribotas.</span><span class="sxs-lookup"><span data-stu-id="8aa65-152">Previews (1) might use less privacy and fewer security measures than the Dynamics 365 Finance and Operations service, (2) aren't included in the service level agreement (SLA) for this service, (3) should not be used to process personal data or other data that is subject to legal or regulatory compliance requirements, and (4) have limited support.</span></span>
