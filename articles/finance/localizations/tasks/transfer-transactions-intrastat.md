@@ -17,11 +17,11 @@ ms.author: anasyash
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9c47412c8ae68b396de41f04731b841f592dcba9
-ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3830147"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408216"
 ---
 # <a name="transfer-transactions-to-the-intrastat"></a>Operacijų perkėlimas į Intrastat
 
@@ -72,7 +72,7 @@ ms.locfileid: "3830147"
 ## <a name="set-up-intrastat-transaction-codes-and-foreign-trade-parameters"></a>Intrastat operacijų kodų ir užsienio prekybos parametrų nustatymas
 1. Naršymo srityje eikite į **Moduliai > Mokestis > Konfigūracija > Užsienio prekyba > Operacijų kodai.**
 2. Spustelėkite **Naujas**.
-3. Lauke **Operacijos kodas**įveskite reikšmę. Pavyzdžiui, kaip operacijos kodą, naudojamą kaip grąžinimas, įveskite **21**.  
+3. Lauke **Operacijos kodas** įveskite reikšmę. Pavyzdžiui, kaip operacijos kodą, naudojamą kaip grąžinimas, įveskite **21**.  
 4. Lauke **Pavadinimas** įveskite operacijos kodo pavadinimą. Pavyzdžiui, įveskite **Grąžinti**.  
 5. Lauke **Statistinė suma** pasirinkite parinktį. Pavyzdžiui, pasirinkite **Tuščia** – tai nurodo, kad skelbtina operacijų su operacijos kodu **21** statistinė reikšmė visada bus nulis.  
 6. Naršymo srityje eikite į **Moduliai > Mokestis > Konfigūracija > Užsienio prekyba > Užsienio prekybos parametrai**.
@@ -94,7 +94,7 @@ ms.locfileid: "3830147"
 2. Sąraše raskite ir pasirinkite norimą įrašą. Pavyzdžiui, pasirinkite **20 Air**.  
 3. Išplėskite fastTab **Užsienio prekyba** dalįf
 4. Spustelėkite **Redaguoti**.
-5. Lauke **Transportas**įveskite arba pasirinkite reikšmę. Pavyzdžiui, pasirinkite **02**.  
+5. Lauke **Transportas** įveskite arba pasirinkite reikšmę. Pavyzdžiui, pasirinkite **02**.  
 6. Pasirinkite **Moduliai > Gautinos sumos >  Išlaidų sąranka > Išlaidų kodas**.
 7. Norėdami rasti įrašus, naudokite spartųjį filtrą. Pvz., filtruokite lauką Išlaidų kodas reikšme **transportavimas**.
 8. Išplėskite fastTab **Užsienio prekyba** dalįf
@@ -145,7 +145,7 @@ ms.locfileid: "3830147"
 3. Lauke **Kliento SF** pasirinkite **Taip**.
 4. Spustelėkite **Filtras**.
 5. Sąraše pažymėkite eilutę su **Data**.
-6. Lauke **Kriterijai**surinkite reikšmę. Pavyzdžiui, įveskite 2015 m. sausio laikotarpio filtrą (tiksli reikšmė priklauso nuo jūsų datos formato): 2015-01-01..2015-01-31  
+6. Lauke **Kriterijai** surinkite reikšmę. Pavyzdžiui, įveskite 2015 m. sausio laikotarpio filtrą (tiksli reikšmė priklauso nuo jūsų datos formato): 2015-01-01..2015-01-31  
 7. Spustelėkite **Gerai**.
 8. Spustelėkite **Gerai**.
 9. Sąraše raskite ir pasirinkite perkeltą įrašą.

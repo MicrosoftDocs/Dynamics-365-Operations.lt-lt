@@ -17,11 +17,11 @@ ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: ba720fd1bbbbf8b4f3b936d65d9d7840432f291a
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3145034"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4446074"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Šaltinio dokumentų audito strategijų apibrėžimas
 
@@ -32,7 +32,7 @@ ms.locfileid: "3145034"
 1. Naršymo srityje eikite į **Moduliai > Audito darbo sritis > Konfigūravimas > Strategijos taisyklės tipas**.
 2. Pasirinkite **Naujas**.
 3. Lauke **Taisyklės pavadinimas** įveskite reikšmę.
-4. Lauke **Aprašo laukas**surinkite reikšmę.
+4. Lauke **Aprašo laukas** surinkite reikšmę.
 5. Lauke **Užklausos pavadinimas** pasirinkite **Išlaidų ataskaitos eilutė**
 6. Lauke **Užklausos tipas** pasirinkite **Agregavimas**
 7. Lauke **Juridinis subjektas** pasirinkite **Juridinis subjektas**

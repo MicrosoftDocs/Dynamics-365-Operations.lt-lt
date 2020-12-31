@@ -18,11 +18,11 @@ ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.openlocfilehash: 3e19624ae049cbd5629aed67ef41b8012ce289c8
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984682"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408238"
 ---
 # <a name="vat-statement-details-for-lithuania"></a>PVM išrašo informacija, skirta Lietuvai
 

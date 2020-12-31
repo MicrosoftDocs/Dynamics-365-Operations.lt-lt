@@ -19,11 +19,11 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 22a7b0acae02738e4f14905edb13fac1da0d0213
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770602"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4446016"
 ---
 # <a name="posting-definitions"></a>Registravimo aprašai
 
@@ -32,12 +32,12 @@ ms.locfileid: "2770602"
 Šiame straipsnyje pateikta informacija apie registravimo aprašus ir kaip juos nustatyti ir susieti.
 Palaikomiems registravimo tipams ir dokumentams galite naudoti registravimo aprašus vietoj registravimo šablonų, kad klasifikuotumėte pagrindines sąskaitas ir finansines dimensijas apskaitos įrašuose. Galite peržiūrėti palaikomus dokumentus ir registravimo tipus puslapyje **Operacijų registravimo aprašai**. 
 
-Norėdami pradėti naudoti registravimo aprašus, pasirinkite parinktį**Naudoti registravimo aprašus** puslapyje **DK parametrai**. Net kai naudojate registravimo aprašus, turite dar nustatyti pradinių įrašų ir nepalaikomų registravimo tipų bei dokumentų registravimo šablonus. 
+Norėdami pradėti naudoti registravimo aprašus, pasirinkite parinktį **Naudoti registravimo aprašus** puslapyje **DK parametrai**. Net kai naudojate registravimo aprašus, turite dar nustatyti pradinių įrašų ir nepalaikomų registravimo tipų bei dokumentų registravimo šablonus. 
 
 Naudokite registravimo aprašus norėdami įjungti pirkimo užsakymų biudžeto rezervavimo apskaitą ir pirkimo paraiškų preliminaraus biudžeto rezervavimo apskaitą.
 
 ## <a name="defining-posting-definitions"></a>Registravimo aprašų apibrėžimas
-Naudokite puslapį**Registravimo aprašai**, kad nurodytumėte gretinimo kriterijus ir apibrėžtumėte įrašus, kurie turėtų būti sugeneruoti įvykus sugretinimui. Pradinių įrašų gretinimo kriterijai įvertinami kaip apskaitos paskirstymai. 
+Naudokite puslapį **Registravimo aprašai**, kad nurodytumėte gretinimo kriterijus ir apibrėžtumėte įrašus, kurie turėtų būti sugeneruoti įvykus sugretinimui. Pradinių įrašų gretinimo kriterijai įvertinami kaip apskaitos paskirstymai. 
 
 Puslapyje **Registravimo aprašai** taip pat galite priskirti prioriteto numerius įrašų eilutėms, taip kontroliuodami eilučių įvertinimo tvarką. Pirma įvertinamos eilutės, kurių prioriteto numeris mažiausias. Pvz., įvertinamos visos eilutės, kurių prioritetas yra 1, tada eilutės, kurių prioritetas yra 2 ir t. t. Radus atitikmenį kiti gretinimo kriterijai ignoruojami. Be to, sugeneruotus įrašus kuria tik pradinę operaciją atitinkančioje grupėje esantys kriterijai. 
 

@@ -17,11 +17,11 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9a4714f1f1b24554684219fc1d766b4b87cff7bb
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141608"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4446091"
 ---
 # <a name="create-payments-for-a-customer-who-have-direct-debit-mandates"></a>Mokėjimų sukūrimas klientui, turinčiam tiesioginio debeto įgaliojimus
 
@@ -44,7 +44,7 @@ Tai yra penktoji iš penkių procedūrų, kuriose apibūdinamas kliento mokėjim
 3. Lauke Kliento sąskaita įveskite arba pasirinkite reikšmę.
     * Pavyzdžiui, pasirinkite DE-010.  
 4. Lauke Mokėjimo metodas įveskite arba pasirinkite vertę.
-    * 2) Dabartinis įvykis: bus siunčiamas dabartinis produktas. pasirinkite Elektroninis.  
+    * Pavyzdžiui, pasirinkite Elektroninis.  
 5. Lauke Tiesioginio debeto įgaliojimo ID įveskite arba pasirinkite vertę.
 6. Spustelėkite Pridėti eilutę.
 7. Lauke Aprašas surinkite reikšmę.

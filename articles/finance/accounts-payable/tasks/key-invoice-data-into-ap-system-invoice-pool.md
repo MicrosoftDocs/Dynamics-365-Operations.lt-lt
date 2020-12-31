@@ -16,11 +16,11 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cd6de42dda650d42d703e905f8d48f73b9e4afd6
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143816"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445940"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>Pagrindiniai SF duomenys apie AP sistemą naudojant SF telkinį
 
@@ -46,7 +46,7 @@ ms.locfileid: "3143816"
 5. Pasirinkę **Eilutės**, atidarykite registrą ir įveskite išlaidų eilutes.
 6. Peržvalgoje pasirinkite tiekėją. Pavyzdžiui, pasirinkite tiekėją **1001**.
 7. Lauke **Sąskaita faktūra** įveskite SF numerį.
-8. Lauke **Aprašo laukas**surinkite reikšmę.
+8. Lauke **Aprašo laukas** surinkite reikšmę.
 9. Lauke **Kreditas** įveskite skaičių.
 10. Lauke **Pirkimo užsakymas** atidarykite išplečiamąjį sąrašą ir pasirinkite anksčiau sukurtą pirkimo užsakymą.
 11. Lauke **Patvirtino** išplečiamajame sąraše pažymėkite tvirtintoją ir spustelėkite **Pasirinkti**, kad jį pasirinktumėte.

@@ -17,11 +17,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 58518f5291b70c63506c20717034daff0268901b
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143366"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4446011"
 ---
 # <a name="set-up-vendor-invoice-policies"></a>Tiekėjų sąskaitų faktūrų strategijų nustatymas
 
@@ -68,7 +68,7 @@ ms.locfileid: "3143366"
 11. Pasirinkite **Įtraukti**. Pasirinkti aktyvų įrašą
 12. Laukuose **Lentelė**,**Išvestinė lentelė** ir **Laukas** pasirinkite arba įveskite parinktis iš išplečiamojo meniu.
 13. Uždarykite puslapį.
-14. Lauke **Kriterijai**surinkite reikšmę.
+14. Lauke **Kriterijai** surinkite reikšmę.
 15. Pasirinkite **Gerai**.
 16. Pasirinkite **Gerai**.
 17. Norėdami grįžti į neregistruotų tabelių puslapį, uždarykite puslapius.

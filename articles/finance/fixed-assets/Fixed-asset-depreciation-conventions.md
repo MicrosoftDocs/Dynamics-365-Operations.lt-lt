@@ -19,11 +19,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 4315f70e7959e2576e9b87dfb3898318f47aa46d
-ms.sourcegitcommit: 51e626675b0130fa32a84ce2d9119b68ea928018
+ms.sourcegitcommit: 0efa93f11847a2b75d13cd0a49e716c76130ec44
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4000274"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4446153"
 ---
 # <a name="fixed-asset-depreciation-conventions"></a>Ilgalaikio turto nusidėvėjimo konvencijos
 
@@ -31,7 +31,7 @@ ms.locfileid: "4000274"
 
 Šioje temoje aprašomos ilgalaikio turto nusidėvėjimo konvencijos. Nusidėvėjimo konvencijos naudojamos norint nustatyti, kada ir kaip skaičiuojamas metų, kuriais ilgalaikis turtas įsigyjamas, ir metų, kuriais ilgalaikis turtas likviduojamas, nusidėvėjimas.
 
-Nusidėvėjimo konvencijas galima priskirti ilgalaikio turto grupės knygos sąrankai. Norėdami peržiūrėti arba priskirti nusidėvėjimo konvenciją, ilgalaikio turto nustatymo srityje pasirinkite **Ilgalaikio turto** grupes. Paspauskite mygtuką **Knygos**. Šiuo atveju priskirtos nusidėvėjimo konvencijos naudojamos kaip numatytosios reikšmės, kai kuriamos ilgalaikio turto knygos. Nusidėvėjimo konvencijas taip pat galima nustatyti atskirose ilgalaikio turto knygose. Norėdami tai padaryti, ilgalaikio turto nustatymo srityje pasirinkite **Knygos** , paskui paspauskite mygtuką **Ilgalaikio turto grupės**.
+Nusidėvėjimo konvencijas galima priskirti ilgalaikio turto grupės knygos sąrankai. Norėdami peržiūrėti arba priskirti nusidėvėjimo konvenciją, ilgalaikio turto nustatymo srityje pasirinkite **Ilgalaikio turto** grupes. Paspauskite mygtuką **Knygos**. Šiuo atveju priskirtos nusidėvėjimo konvencijos naudojamos kaip numatytosios reikšmės, kai kuriamos ilgalaikio turto knygos. Nusidėvėjimo konvencijas taip pat galima nustatyti atskirose ilgalaikio turto knygose. Norėdami tai padaryti, ilgalaikio turto nustatymo srityje pasirinkite **Knygos**, paskui paspauskite mygtuką **Ilgalaikio turto grupės**.
 
 | Nusidėvėjimo konvencija   | Aprašas |
 |---------------------------|-------------|

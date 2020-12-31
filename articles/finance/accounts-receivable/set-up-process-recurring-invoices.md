@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 4b443630d1612b5095fefa74b5ed6d057be534b7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188952"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445891"
 ---
 # <a name="set-up-and-process-recurring-invoices"></a>Pasikartojančių SF nustatymas ir apdorojimas
 
@@ -53,7 +53,7 @@ Sukūrę šabloną, turite jį priskirti klientams, kuriems norite išrašyti SF
 Klientas gali turėti kelis skirtingo dažnumo šablonus.
 
 ## <a name="generate-the-recurring-invoices"></a>Pasikartojančių SF generavimas
-Puslapyje **Pasikartojančios SF**yra užduotis, kuri apdoroja pasikartojančių SF šablonus. Galite nurodyti SF datą ir šabloną, pagal kurį generuosite SF. Bus sugeneruotos SF ir kiekvienai apdorotai SF grupei priskirtas atskiras pasikartojimo ID numeris.
+Puslapyje **Pasikartojančios SF** yra užduotis, kuri apdoroja pasikartojančių SF šablonus. Galite nurodyti SF datą ir šabloną, pagal kurį generuosite SF. Bus sugeneruotos SF ir kiekvienai apdorotai SF grupei priskirtas atskiras pasikartojimo ID numeris.
 
 <a name="post-recurring-free-text-invoices"></a>Pasikartojančių laisvos formos SF registravimas
 ---------------------------------

@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e4a166e9a0d43da80986dd63d6739b104745b115
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189481"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445834"
 ---
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Mokėjimo nuolaidos taikymas ne mokėjimo nuolaidos laikotarpiu
 
@@ -42,7 +42,7 @@ April pažymi sąskaitą faktūrą apmokėti. Netaikoma jokia mokėjimo nuolaida
 |----------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
 | Pasirinkta | Visada            | SF-10030 | 3052    | 2015-06-28          | 2015-07-12 | 10030   | -2000,00.                      | USD      | -1980,00.        |
 
-Nuolaidos informacija rodoma puslapio **Sudengti operacijas**apačioje.
+Nuolaidos informacija rodoma puslapio **Sudengti operacijas** apačioje.
 
 |                              |           |
 |------------------------------|-----------|
@@ -60,7 +60,7 @@ Jei užregistruota ir sąskaita faktūra, ir mokėjimas, mokėjimo nuolaidą vis
 | Pasirinkta ir paryškinta | Įprastas            | SF-10030 | 3052    | 2015-06-28          | 2015-07-12 | 10030   | -2000,00.                      | USD      | -1980,00.        |
 | Pasirinkta                 | Įprastas            | PROG-10030 | 3052    | 7/15/2015          | 7/15/2015 |         | 500,00                         | USD      | 500,00           |
 
-Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas**apačioje. Pritaikomos nuolaidos suma yra 20,00, nes sudengtina sąskaitos faktūros suma yra numatytoji 1980,00 suma.
+Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas** apačioje. Pritaikomos nuolaidos suma yra 20,00, nes sudengtina sąskaitos faktūros suma yra numatytoji 1980,00 suma.
 
 |                              |           |
 |------------------------------|-----------|
@@ -77,7 +77,7 @@ April pakeičia lauko **Sudengtina suma** vertę į **500,00**. Vertė lauke **T
 | Pasirinkta ir paryškinta | Įprastas            | SF-10030 | 3052    | 2015-06-28 | 2015-07-12 | 10030   | 2,000.00                       | USD      | –500,00          |
 | Pasirinkta                 | Įprastas            | PROG-10030 | 3052    | 7/15/2015 | 7/15/2015 |         | 500,00                         | USD      | 500,00           |
 
-Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas**apačioje. Vertė lauke **Taikytinos mokėjimo nuolaidos suma** yra **5,05**, nes sudengtina sąskaitos faktūros suma buvo pakeista į 500,00 mokėjimo sumą.
+Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas** apačioje. Vertė lauke **Taikytinos mokėjimo nuolaidos suma** yra **5,05**, nes sudengtina sąskaitos faktūros suma buvo pakeista į 500,00 mokėjimo sumą.
 
 |                              |           |
 |------------------------------|-----------|

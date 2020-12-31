@@ -18,11 +18,11 @@ ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: a4ba676d9b6df69cf0a91862bcc4d2837b7cb69e
-ms.sourcegitcommit: afc43699c0edc4ff2be310cb37add2ab586b64c0
+ms.sourcegitcommit: 0efa93f11847a2b75d13cd0a49e716c76130ec44
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4000800"
+ms.locfileid: "4446152"
 ---
 # <a name="vendor-invoice-entry-workspace"></a>Tiekėjo SF įrašo darbo sritis
 
@@ -57,7 +57,7 @@ Norėdami peržiūrėti informaciją, rodomą darbo srityje, turite turėti mok�
 
 ### <a name="company-selection"></a>Įmonės pasirinkimas
 
-Kai funkcija **Automatizuoti tiekėjo SF** įjungta, darbo srities viršuje atsiranda laukas **Įmonė**. Pasirinkus lauką **Įmonė** , paveikiama visa darbo srityje rodoma informacija. Pagal numatytuosius nustatymus rodinyje rodoma įmonės, prie kurios prisijungėte, informacija. Pasirinkus kitą įmonę lauke **Įmonė** , galima rodyti tos įmonės informaciją darbo srityje. Tada galite pasirinkti darbo srities plytelę, norėdami eiti į susijusį pasirinktos įmonės puslapį.
+Kai funkcija **Automatizuoti tiekėjo SF** įjungta, darbo srities viršuje atsiranda laukas **Įmonė**. Pasirinkus lauką **Įmonė**, paveikiama visa darbo srityje rodoma informacija. Pagal numatytuosius nustatymus rodinyje rodoma įmonės, prie kurios prisijungėte, informacija. Pasirinkus kitą įmonę lauke **Įmonė**, galima rodyti tos įmonės informaciją darbo srityje. Tada galite pasirinkti darbo srities plytelę, norėdami eiti į susijusį pasirinktos įmonės puslapį.
 
 ### <a name="summary-tiles"></a>Suvestinės išklotinės
 
@@ -70,15 +70,15 @@ Rodinio **Mano darbas** dalies **Laukiančių SF suvestinė** plytelėse pateiki
 
 (Šios keturios plytelės reikalauja, kad funkcijų valdyme būtų įjungta funkcija Tiekėjo SF automatizavimas.)
 
-Norint naudoti plytelę **Atkurti tiekėjo SF** , funkcija turi būti įjungta mokėtinų sumų parametruose. Eikite į **Mokėtinos sumos \> Mokėtinų sumų parametrai** , tada skirtuke **SF** nustatykite parinktį **Leisti tiekėjo SF atkūrimą** į **Taip**.
+Norint naudoti plytelę **Atkurti tiekėjo SF**, funkcija turi būti įjungta mokėtinų sumų parametruose. Eikite į **Mokėtinos sumos \> Mokėtinų sumų parametrai**, tada skirtuke **SF** nustatykite parinktį **Leisti tiekėjo SF atkūrimą** į **Taip**.
 
-Kai funkcija įjungta, darbo srities skyriuje **Žurnalai** matysite tris sugrupuotas plyteles. Plytelių pavadinimai yra **Žurnalai** , **Žurnalai – priskirti man** ir **SF telkinys**. 
+Kai funkcija įjungta, darbo srities skyriuje **Žurnalai** matysite tris sugrupuotas plyteles. Plytelių pavadinimai yra **Žurnalai**, **Žurnalai – priskirti man** ir **SF telkinys**. 
 
 Dalyje **Laukiančių SF suvestinė** esanti informacija skirta įmonei, kuri nustatyta kaip numatytoji jūsų prisijungimo įmonė.
 
 ### <a name="creating-new-records"></a>Naujų įrašų kūrimas
 
-Norėdami sukurti naują SF įrašą, pasirinkite **Naujas** , tada sąraše pasirinkite vieną iš toliau pateiktų įrašų tipų.
+Norėdami sukurti naują SF įrašą, pasirinkite **Naujas**, tada sąraše pasirinkite vieną iš toliau pateiktų įrašų tipų.
 
 - Tiekėjo SF
 - SF žurnalas
@@ -86,7 +86,7 @@ Norėdami sukurti naują SF įrašą, pasirinkite **Naujas** , tada sąraše pas
 - SF registras
 - SF patvirtinimas
 
-Atkreipkite dėmesį, kad jūsų sukurtas įrašas yra paremtas įmonės filtru, o ne įmone, prie kurios esate prisijungęs. Pavyzdžiui, esate prisijungęs prie įmonės **UMSF** , bet įmonės filtras nustatytas į **GBSI**. Šiuo atveju, kai pasirenkate **Naujas** ir tada pasirenkate įrašo tipą sąraše, įrašas sukuriamas GBSI įmonėje.
+Atkreipkite dėmesį, kad jūsų sukurtas įrašas yra paremtas įmonės filtru, o ne įmone, prie kurios esate prisijungęs. Pavyzdžiui, esate prisijungęs prie įmonės **UMSF**, bet įmonės filtras nustatytas į **GBSI**. Šiuo atveju, kai pasirenkate **Naujas** ir tada pasirenkate įrašo tipą sąraše, įrašas sukuriamas GBSI įmonėje.
 
 ### <a name="documents-not-invoiced-grids"></a>Tinkleliai srityje Dokumentai, kurių SF neišrašytos
 
@@ -98,15 +98,15 @@ Tinklelyje **Produkto gavimo kvitai** pateikiamos pirkimo gavimo operacijos, kur
 
 Tinklelyje **Laukiančios tiekėjo SF** rodomos visos tiekėjo SF, kurios dar nepateiktos darbo eigos sistemai. Norėdami ieškoti konkrečios tiekėjo SF, galite naudoti lauką **Ieška** ir (arba) įmonės filtrą. Norėdami redaguoti tinklelyje rodomą operaciją, galite naudoti mygtuką **Redaguoti**.
 
-Norėdami ieškoti konkretaus pirkimo užsakymo, galite naudoti lauką **Ieška** , esantį tinklelyje **Rasti pirkimo užsakymą**.
+Norėdami ieškoti konkretaus pirkimo užsakymo, galite naudoti lauką **Ieška**, esantį tinklelyje **Rasti pirkimo užsakymą**.
 
 ### <a name="related-information"></a>Susijusi informacija
 
-Galite peržiūrėti informaciją apie užregistruotas SF naudodami saitus, esančius dešinėje darbo srities pusėje. Šie saitai apima **Atidarytos tiekėjo SF** , **SF žurnalas** ir **SF retrospektyva ir gretinimo informacija**. Dalyje **Tiekėjai** galite pasiekti filtruotą sąrašą, kuriame rodomi visi sulaikyti tiekėjai, arba galite naudoti saitą **Visi tiekėjai**. Taip pat galimi saitai **Visi pirkimo užsakymai** ir **Atidaryti išankstiniai mokėjimai**.
+Galite peržiūrėti informaciją apie užregistruotas SF naudodami saitus, esančius dešinėje darbo srities pusėje. Šie saitai apima **Atidarytos tiekėjo SF**, **SF žurnalas** ir **SF retrospektyva ir gretinimo informacija**. Dalyje **Tiekėjai** galite pasiekti filtruotą sąrašą, kuriame rodomi visi sulaikyti tiekėjai, arba galite naudoti saitą **Visi tiekėjai**. Taip pat galimi saitai **Visi pirkimo užsakymai** ir **Atidaryti išankstiniai mokėjimai**.
 
 ### <a name="analytics--all-companies-page"></a>Puslapis Analizė – visos įmonės
 
-Kai puslapyje **Mokėtinų sumų parametrai** parinktis **Automatiškai pateikti importuotas SF darbo eigos sistemai** nustatyta į **Taip** , galite peržiūrėti automatizavimo analizę. Puslapis **Analizė – visos įmonės** teikia svarbią metriką, pvz., tiekėjo SF, kurias tvirtina tvirtintojas ir įmonė. Šiame puslapyje yra penki ataskaitos puslapiai. Viename puslapyje pateikiama apžvalga, o kituose puslapiuose pateikiama informacija apie mokėtinų sumų automatizavimo metriką.
+Kai puslapyje **Mokėtinų sumų parametrai** parinktis **Automatiškai pateikti importuotas SF darbo eigos sistemai** nustatyta į **Taip**, galite peržiūrėti automatizavimo analizę. Puslapis **Analizė – visos įmonės** teikia svarbią metriką, pvz., tiekėjo SF, kurias tvirtina tvirtintojas ir įmonė. Šiame puslapyje yra penki ataskaitos puslapiai. Viename puslapyje pateikiama apžvalga, o kituose puslapiuose pateikiama informacija apie mokėtinų sumų automatizavimo metriką.
 
 Toliau pateikiamoje lentelėje nurodyti kiekviename ataskaitos puslapyje pateikiami vaizdai.
 

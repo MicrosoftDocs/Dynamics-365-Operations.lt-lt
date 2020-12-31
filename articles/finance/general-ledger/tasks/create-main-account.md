@@ -17,11 +17,11 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: a116164a31337013d34f963b549c394aade2de1c
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3139997"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445896"
 ---
 # <a name="create-a-main-account"></a>Kurti pagrindinę sąskaitą
 
@@ -47,7 +47,7 @@ ms.locfileid: "3139997"
 16. Pažymėkite arba atžymėkite žymės langelį **Sustabdytas**.
 17. Išplėskite skyrių **Finansinės ataskaitos**.
 18. Lauke **Valiutos kurso tipas** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-19. Sąraše pasirinkite**Sąskaitos valiutos kurso tipas**.
+19. Sąraše pasirinkite **Sąskaitos valiutos kurso tipas**.
 20. Sąraše spustelėkite saitą pasirinktoje eilutėje.
 21. Lauke **Valiutos konvertavimo tipas** pasirinkite sąskaitos valiutos kursų apskaičiavimo metodą.
 22. Uždarykite puslapį.

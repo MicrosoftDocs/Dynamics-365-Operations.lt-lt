@@ -18,11 +18,11 @@ ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.openlocfilehash: fd3ebce176bb18c55dd6a59b580575f2c0e3faf9
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985697"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408230"
 ---
 # <a name="fixed-assets-disposal-for-estonia-and-lithuania"></a>Ilgalaikio turto likvidavimas (Estija ir Lietuva)
 

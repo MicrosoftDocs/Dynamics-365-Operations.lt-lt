@@ -17,11 +17,11 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 7f721a05c8b74f1cfcf43177b73129751483650e
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144941"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4446019"
 ---
 # <a name="post-periodic-journals"></a>Registruoti periodinius žurnalus
 
@@ -33,10 +33,10 @@ Periodiniai žurnalai kartais vadinami pasikartojančias žurnalais nes suma, te
 2. Spustelėkite **Naujas**.
 3. Lauke **Pavadinimas** įveskite arba pasirinkite reikšmę.
 4. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-5. Lauke **Aprašo laukas**surinkite reikšmę. Aprašą sudarys vėliau gauto periodinio žurnalo pavadinimas, todėl jį suteikite atitinkamą.
+5. Lauke **Aprašo laukas** surinkite reikšmę. Aprašą sudarys vėliau gauto periodinio žurnalo pavadinimas, todėl jį suteikite atitinkamą.
 6. **Veiksmų srityje** spustelėkite **Eilutės**. Periodinį žurnalą paprastai sudaro kelios eilutės. tačiau šis užduočių vadovas įtrauks tik vieną eilutę.
 7. Lauke **Data** įveskite datą. Lauke **Data** nurodyta kito perkėlimo į kasdienį žurnalą registravimo data. Žurnaluose, kurie bus gaunami kiekvieną mėnesį, rekomenduojama naudoti datą tame mėnesyje, kada žurnlas bus registruojamas – paprastai tai pirmoji arba paskutinioji laikotarpio data. Galima lauką Data palikti tuščią, ir datą nurodyti, kai gaunamas žurnalas, naudojant lauką Tuščia data. Kai operacijos nuskaitomos, laukas automatiškai atnaujinamas į kitą pasikartojančią datą. 
-8. Lauke **Sąskaita**nustatykite norimas reikšmes.
+8. Lauke **Sąskaita** nustatykite norimas reikšmes.
 9. Lauke **Aprašas** pasirinkite reikšmę.
 10. Uždarykite puslapį.
 11. Lauke **Debetas** įveskite skaičių.
@@ -50,7 +50,7 @@ Periodiniai žurnalai kartais vadinami pasikartojančias žurnalais nes suma, te
 19. Lauke **Pavadinimas** įveskite arba pasirinkite reikšmę.
 20. Sąraše raskite ir pasirinkite norimą įrašą.
 21. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-22. Lauke **Aprašo laukas**surinkite reikšmę.
+22. Lauke **Aprašo laukas** surinkite reikšmę.
 23. **Veiksmų srityje** spustelėkite **Eilutės**.
 24. **Veiksmų srityje** spustelėkite **Periodinis žurnalas**.
 25. Spustelėkite **Nuskaityti žurnalą**.

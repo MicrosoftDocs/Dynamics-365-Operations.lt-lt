@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 28669014b4998de6ae13ec7dbc4c704a14aff6e2
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 948f83d56e560cc21205294c15de4b2097d2ad2e
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975345"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4446212"
 ---
 # <a name="customer-transactions-list-page"></a>Kliento operacijų sąrašo puslapis
 
@@ -48,7 +48,7 @@ Veiksmų srities mygtukas **Sudengimų peržiūra** suteikia greitą prieigą pr
 
 ## <a name="global-transactions"></a>Visuotinės operacijos
 
-Mygtukas **Visuotinės operacijos** taip pat rodomas puslapyje **Kliento operacijos**. Naudodamiesi šiuo mygtuku galite peržiūrėti visas kliento operacijas visuose juridiniuose subjektuose. Sąrašo puslapyje **Kliento operacijos** rodomos tik tų juridinių subjektų operacijos, prie kurių vartotojas turi prieigą (priklausomai nuo jo / jos saugos parametrų).
+Mygtukas **Visuotinės operacijos** taip pat rodomas puslapyje **Kliento operacijos**. Naudodamiesi šiuo mygtuku galite peržiūrėti visas kliento operacijas visuose juridiniuose subjektuose. Sąrašo puslapyje **Kliento operacijos** rodomos tik tų juridinių subjektų operacijos, prie kurių vartotojas turi prieigą (priklausomai nuo jo saugos parametrų).
 
 Sąrašo puslapyje rodomos visos tą patį šalies ID kaip ir klientas, nuo kurio pradėjote, turinčių klientų operacijos. Pavyzdžiui, jei klientas US-001 viename juridiniame subjekte turi tą patį šalies ID kaip klientas DE-001 kitame juridiniame subjekte, rodomos visos abiejų klientų ID operacijos.
 

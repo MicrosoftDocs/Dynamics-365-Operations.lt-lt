@@ -18,11 +18,11 @@ ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 68cbd8d3495f8c10c57fa0751fabb03a6946c7dd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183776"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408227"
 ---
 # <a name="eu-sales-list-reporting"></a>ES pardavimo sąrašo ataskaitos
 
@@ -87,7 +87,7 @@ Pateiktoje lentelėje parodytos būtinosios sąlygos, kurias reikia įvykdyti pr
 </tr>
 <tr class="even">
 <td><strong>Sąranka: </strong>kitų sandorio šalių mokesčių registracija</td>
-<td>Nustatykite kitų sandorio šalių mokesčių registracijos informaciją puslapyje <strong>Visi klientai</strong> (spustelėkite <strong>Pardavimas ir rinkodara</strong> &gt; <strong>Klientai</strong> &gt; <strong>Visi klientai</strong>, pasirinkite kliento įrašą ir tada spustelėkite <strong>Parinktys</strong> &gt; <strong>Keisti rodinį</strong> &gt; <strong>Išsamios informacijos rodinys</strong>) arba puslapyje <strong>Tiekėjai</strong> (spustelėkite <strong>Įsigijimas ir šaltinio pasirinkimas</strong> &gt; <strong>Tiekėjai</strong> &gt; <strong>Tiekėjai</strong>, pasirinkite tiekėjo įrašą ir tada spustelėkite <strong>Parinktys</strong> &gt; <strong>Keisti rodinį</strong> &gt; <strong>Išsamios informacijos rodinys</strong>. FastTab <strong>Sąskaita faktūra ir pristatymas</strong> lauke <strong>Neapmokestinimo numeris</strong> pasirinkite mokesčių mokėtojo kodą.</td>
+<td>Nustatykite kitų sandorio šalių mokesčių registracijos informaciją puslapyje <strong>Visi klientai</strong> (spustelėkite <strong>Pardavimas ir rinkodara</strong> &gt; <strong>Klientai</strong> &gt; <strong>Visi klientai</strong>, pasirinkite kliento įrašą ir tada spustelėkite <strong>Parinktys</strong> &gt; <strong>Keisti rodinį</strong> &gt; <strong>Išsamios informacijos rodinys</strong>) arba puslapyje <strong>Tiekėjai</strong> (spustelėkite <strong>Įsigijimas ir šaltinio pasirinkimas</strong> &gt; <strong>Tiekėjai</strong> &gt; <strong>Tiekėjai</strong>, pasirinkite tiekėjo įrašą ir tada spustelėkite <strong>Parinktys</strong> &gt; <strong>Keisti rodinį</strong> &gt; <strong>Išsamios informacijos rodinys</strong>). FastTab <strong>Sąskaita faktūra ir pristatymas</strong> lauke <strong>Neapmokestinimo numeris</strong> pasirinkite mokesčių mokėtojo kodą.</td>
 </tr>
 <tr class="odd">
 <td><strong>Sąranka: </strong>PVM</td>
@@ -116,7 +116,7 @@ Pateiktoje lentelėje parodytos būtinosios sąlygos, kurias reikia įvykdyti pr
 <li><strong>Apvalinimo taisyklė</strong> – nurodykite realųjį skaičių, naudojamą apvalinti. ESL sumos bus apvalinamos iki šio skaičiaus kartotinių.</li>
 <li><strong>Apvalinimo metodas</strong> – pasirinkite apvalinimo metodą, kuris bus naudojamas ESL sumoms apvalinti (<strong>Įprastas</strong>, <strong>Į mažesnę pusę</strong> arba <strong>Į didesnę pusę</strong>).</li>
 <li><strong>Naudoti minimalią vertę</strong> – pažymėkite šį žymės langelį, jei norite, kad sumos, mažesnė nei skaičius <strong>Apvalinimo taisyklė</strong>, būtų apvalinamos iki skaičiaus <strong>Apvalinimo taisyklė</strong>.</li>
-<li><strong>Dešimtainių dalių skaičius</strong> – nurodykite, kiek dešimtainio skyriklio vietų bus rodoma ESL sumose (elektroniniuose failuose ir ataskaitoje <strong>ESL peržiūra</strong>.</li>
+<li><strong>Dešimtainių dalių skaičius</strong> – nurodykite, kiek dešimtainio skyriklio vietų bus rodoma ESL sumose (elektroniniuose failuose ir ataskaitoje <strong>ESL peržiūra</strong>).</li>
 </ul></li>
 <li>Skirtukas <strong>Valstybės / regiono parametrai</strong>: identifikuokite ES valstybes nares. Puslapyje sukurkite kiekvienos ES valstybės narės įrašą ir nurodykite tokią informaciją.
 <ul>
@@ -152,7 +152,7 @@ Operacija laikoma su ES vidaus prekybos operacija, jei operacijos pristatymo adr
 
 ### <a name="generating-the-eu-sales-list-report"></a>ES pardavimų sąrašo ataskaitos generavimas
 
-Galite sugeneruoti ataskaitą **ES pardavimų sąrašas** naudodami funkciją **Ataskaitos**, esančią puslapyje **ES pardavimų sąrašas**. Funkcija leidžia pasirinkti ataskaitinį laikotarpį ir taikyti filtrus ESL įrašams, kuriuos norite įtraukti, apibrėžti. Be to, galite nurodyti kitus parametrus, kurie yra būdingi kiekvienai valstybei / regionui. Taip pat galite pasirinkti generuoti peržiūros ataskaitą, elektroninį failą arba abu. Funkcija **Ataskaitos**naudoja ataskaitos ir failo formato parametrus, nurodytus puslapyje **Užsienio prekybos parametrai**. Apskritai ataskaitą **ES pardavimų sąrašas** sudaro atskiros eilutės, kuriose pateiktos bendrosios sumos pagal kitos sandorio šalies valstybę / regioną, neapmokestinimo kodą ir ataskaitų tipą (trišalės prekybos operacijos įtraukiamos). Sukūrę konkretaus laikotarpio ataskaitą **ES pardavimų sąrašas**, galite pažymėti ESL įrašus, kurie yra įtraukti į ataskaitą, nustatydami parinkties **Ataskaitos būsena** reikšmę **Baigta**. Norėdami nustatyti šią būseną, naudokite funkciją **Pažymėti kaip baigtą**, esančią puslapyje **ES pardavimų sąrašas**.
+Galite sugeneruoti ataskaitą **ES pardavimų sąrašas** naudodami funkciją **Ataskaitos**, esančią puslapyje **ES pardavimų sąrašas**. Funkcija leidžia pasirinkti ataskaitinį laikotarpį ir taikyti filtrus ESL įrašams, kuriuos norite įtraukti, apibrėžti. Be to, galite nurodyti kitus parametrus, kurie yra būdingi kiekvienai valstybei / regionui. Taip pat galite pasirinkti generuoti peržiūros ataskaitą, elektroninį failą arba abu. Funkcija **Ataskaitos** naudoja ataskaitos ir failo formato parametrus, nurodytus puslapyje **Užsienio prekybos parametrai**. Apskritai ataskaitą **ES pardavimų sąrašas** sudaro atskiros eilutės, kuriose pateiktos bendrosios sumos pagal kitos sandorio šalies valstybę / regioną, neapmokestinimo kodą ir ataskaitų tipą (trišalės prekybos operacijos įtraukiamos). Sukūrę konkretaus laikotarpio ataskaitą **ES pardavimų sąrašas**, galite pažymėti ESL įrašus, kurie yra įtraukti į ataskaitą, nustatydami parinkties **Ataskaitos būsena** reikšmę **Baigta**. Norėdami nustatyti šią būseną, naudokite funkciją **Pažymėti kaip baigtą**, esančią puslapyje **ES pardavimų sąrašas**.
 
 ### <a name="closing-the-eu-sales-list-reporting-period"></a>ES pardavimų sąrašo ataskaitinio laikotarpio uždarymas
 

@@ -20,11 +20,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: b02bfd83cfc4f1585c9044ebca8b20413042124a
-ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4006171"
+ms.locfileid: "4446157"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Savikainos sumavimo strategija ir pridėtinių išlaidų skaičiavimas 
 
@@ -186,7 +186,7 @@ Atsiradus nujiems dimensijos nariams dimensijų hierarchiją **Pelno ir nuostoli
 | &nbsp;&nbsp;&nbsp;&nbsp;Pirminės išlaidos                        | 10001                   | 10003               |
 | &nbsp;&nbsp;&nbsp;&nbsp;Antrinė savikaina                         | **SC-CC001**            | **SC-CC004**        |
 
-Sukurkite **Savikainos sumavimo strategiją** , kurioje kiekvienas išlaidų centras susietas su atitinkamu išlaidų elementu, kurio tipas **Antrinis**.
+Sukurkite **Savikainos sumavimo strategiją**, kurioje kiekvienas išlaidų centras susietas su atitinkamu išlaidų elementu, kurio tipas **Antrinis**.
 
 **Savikainos sumavimo strategijos**
 
@@ -225,7 +225,7 @@ Dabar sukūrusi **Išlaidų objekto likučio žurnalo įrašus** sistema taikys 
 > [!NOTE]
 > Jeigu esama strategijos, žurnalo įrašai sukuriami pagal **Išlaidų sumavimo strategijoje** nurodytas taisykles. Rodomas likutis yra pridėtinių išlaidų skaičiavimo likutis.
 
-Puslapyje **Išlaidų objekto išlaidų likučio žurnalo įrašo informacija** , kuris pasiekiamas peržiūrint žurnalo įrašus, rodoma, kaip gaunamas likutis.
+Puslapyje **Išlaidų objekto išlaidų likučio žurnalo įrašo informacija**, kuris pasiekiamas peržiūrint žurnalo įrašus, rodoma, kaip gaunamas likutis.
 
 **Pavyzdys: išlaidų objekto CC002 Finansai žurnalo įrašas**
 

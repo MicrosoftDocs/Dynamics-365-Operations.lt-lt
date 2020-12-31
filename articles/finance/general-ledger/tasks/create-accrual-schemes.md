@@ -17,11 +17,11 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: a83870c4cec4de2e51e90ff1889d4beff6c23f95
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3145199"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4446070"
 ---
 # <a name="create-accrual-schemes"></a>Kaupimo schemų kūrimas
 
@@ -39,5 +39,5 @@ ms.locfileid: "3145199"
 8. Lauke **Aprašas** įveskite reikšmę, aprašančią sandorius, kurie bus registruojami.
 9. Lauke **Laikotarpio dažnumas** pasirinkite, kaip dažnai operacijos turi vykti.
 10. Lauke **Įvykių skaičius pagal laikotarpį** įveskite skaičių.
-11. Lauke **Registruoti sandorius**pasirinkite, kada operacijos turi būti registruojamos, pavyzdžiui, **Kas mėnesį**.
+11. Lauke **Registruoti sandorius** pasirinkite, kada operacijos turi būti registruojamos, pavyzdžiui, **Kas mėnesį**.
 

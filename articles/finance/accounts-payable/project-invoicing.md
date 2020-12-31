@@ -19,11 +19,11 @@ ms.author: roschlom
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: ba2f9d69295f9f5cfb4a2a791be781de32b50f46
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976674"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445945"
 ---
 # <a name="project-invoicing"></a>Projekto SF išrašymas
 
@@ -75,7 +75,7 @@ Jei jūsų organizacija reikalauja, kad sąskaitų pasiūlymai būtų atnaujinti
 
 ### <a name="view-grant-information-on-project-invoice-list-pages"></a>Peržiūrėkite suteiktą informaciją apie projekto sąskaitos sąrašo puslapius
 
-Viešojo sektoriaus naudotojai gali įtraukti **Suteikti ID** ir **Suteikti vardą** į **Projekto sąskaitos pasiūlymus** ir **Projekto sąskaitų** sąrašo puslapius. Šie stulpeliai yra šjungti naudojant**Įtraukti suteikiamą informaciją projekto sąskaitų sąrašo puslapiams** funkciją. Ši funkcija išjungta pagal nutylėjimą ir gali būti įjungta **Darbo sritys > Funkcijos valdymas**. Susiekite su savo sistemos administratoriumi dėl pagalbos įjungiant šią funkciją.
+Viešojo sektoriaus naudotojai gali įtraukti **Suteikti ID** ir **Suteikti vardą** į **Projekto sąskaitos pasiūlymus** ir **Projekto sąskaitų** sąrašo puslapius. Šie stulpeliai yra šjungti naudojant **Įtraukti suteikiamą informaciją projekto sąskaitų sąrašo puslapiams** funkciją. Ši funkcija išjungta pagal nutylėjimą ir gali būti įjungta **Darbo sritys > Funkcijos valdymas**. Susiekite su savo sistemos administratoriumi dėl pagalbos įjungiant šią funkciją.
 
 ## <a name="on-account-invoicing"></a>Aktyvus SF išrašymas
 Projekto suma, kurią įvedate laisvos formos SF, yra pagrįsta laiku, įvykdymo procentu ir kitomis atsiskaitymo sąlygomis, nurodytomis susijusioje projekto sutartyje. Suma nėra skaičiuojama pagal valandas, prekes, išlaidas arba projekte įregistruotus mokesčius. 

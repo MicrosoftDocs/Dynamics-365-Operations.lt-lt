@@ -19,11 +19,11 @@ ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3f0714eab80f43695b2b93f77a70f31c360277f9
-ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3899522"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4446136"
 ---
 # <a name="cash-discounts-for-overpayments"></a>Permokėjimų mokėjimo nuolaidos
 
@@ -38,7 +38,7 @@ Laikoma, kad permokėta pagal SF, kai mokėjimo suma yra didesnė už SF sumos i
 | 105,00        | 10,50                   | 94,50                                               | 95,00                             |
 
 ## <a name="cash-discount-administration--specific"></a>Mokėjimo nuolaidų administravimas = specifinis
-Kai puslapyje **Automatinių operacijų sąskaitos** pasirenkama lauko **Mokėjimo nuolaidų administravimas** parinktis **Specifinis**, naudojama visa mokėjimo nuolaida. Permokėjimo suma yra užregistruojama mokėjimo nuolaidų skirtumų DK sąskaitoje arba išlieka kaip kliento sąskaitos balansas. Atliekamą veiksmą lemia šios sąlygos: permokėjimo suma yra tarp 0,00 ir lauke**Maksimalus permokėjimas / neprimokėjimas** įvestos sumos, ar permokėjimo suma yra didesnė už lauko **Maksimalus permokėjimas / neprimokėjimas** sumą.
+Kai puslapyje **Automatinių operacijų sąskaitos** pasirenkama lauko **Mokėjimo nuolaidų administravimas** parinktis **Specifinis**, naudojama visa mokėjimo nuolaida. Permokėjimo suma yra užregistruojama mokėjimo nuolaidų skirtumų DK sąskaitoje arba išlieka kaip kliento sąskaitos balansas. Atliekamą veiksmą lemia šios sąlygos: permokėjimo suma yra tarp 0,00 ir lauke **Maksimalus permokėjimas / neprimokėjimas** įvestos sumos, ar permokėjimo suma yra didesnė už lauko **Maksimalus permokėjimas / neprimokėjimas** sumą.
 
 ### <a name="scenario-1"></a>1 scenarijus
 
@@ -99,7 +99,7 @@ Permokėta 0,50 suma lieka kaip atviras mokėjimo balansas mokėjimo ir gali bū
 
 | Paskyra                                                                                          | Debeto suma | Kredito suma |
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
-| Mokėjimo nuolaida (puslapio**Mokėjimo nuolaidos** laukas **Pagrindinė sąskaita, skirta kliento nuolaidoms**) | 10,50        |               |
+| Mokėjimo nuolaida (puslapio **Mokėjimo nuolaidos** laukas **Pagrindinė sąskaita, skirta kliento nuolaidoms**) | 10,50        |               |
 | Gautinos sumos                                                                              |              | 10,50         |
 
 ## <a name="cash-discount-administration--unspecific"></a>Mokėjimo nuolaidų administravimas = nespecifinis

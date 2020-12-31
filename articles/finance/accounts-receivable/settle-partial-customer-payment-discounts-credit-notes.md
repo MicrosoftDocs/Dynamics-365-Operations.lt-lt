@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: da4353849b053ff94cf1fda7a03568438d0111da
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015012"
+ms.locfileid: "4446163"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Sudenkite dalinį kliento mokėjimą, kuriam taikomos kredito pažymų nuolaidos
 
@@ -42,7 +42,7 @@ ms.locfileid: "4015012"
 | CCRN-10050 | Kredito pažyma      | 2015-06-28 | CR-10050 |                                      | 100,00                                | -100.00  | USD      |
 
 ## <a name="settle-a-credit-note-with-an-invoice"></a>Kredito pažymos sudengimas naudojant SF
-Puslapyje **Kliento operacijos** Arnas atidaro puslapį **Sudengti operacijas**. Naudodamas puslapį **Sudengti operacijas** jis gali sudengti SF ir kredito pažymą. Vykdydamas sudengimo procesą jis peržiūri mokėjimo nuolaidos datas ir sumas. Jis pažymi du dokumentus ir spusteli **Registruoti** , kad sudengtų operacijas. Kredito pažymoje taikoma –1,00 nuolaida, nes „Fabrikam“ leidžia nuolaidas kredito pažymose.
+Puslapyje **Kliento operacijos** Arnas atidaro puslapį **Sudengti operacijas**. Naudodamas puslapį **Sudengti operacijas** jis gali sudengti SF ir kredito pažymą. Vykdydamas sudengimo procesą jis peržiūri mokėjimo nuolaidos datas ir sumas. Jis pažymi du dokumentus ir spusteli **Registruoti**, kad sudengtų operacijas. Kredito pažymoje taikoma –1,00 nuolaida, nes „Fabrikam“ leidžia nuolaidas kredito pažymose.
 
 | Žymėti     | Naudokite mokėjimo nuolaidą | Kvitas    | Paskyra | Data      | Terminas  | PVM sąskaita faktūra  | Suma operacijos valiuta | Valiuta | Sudengtina suma |
 |----------|-------------------|------------|---------|-----------|-----------|----------|--------------------------------|----------|------------------|
@@ -51,11 +51,11 @@ Puslapyje **Kliento operacijos** Arnas atidaro puslapį **Sudengti operacijas**.
 
 Nuolaidos informacija rodoma puslapio **Sudengti operacijas** apačioje.
 
-- **Mokėjimo nuolaidos data** : 2015-07-12 
-- **Mokėjimo nuolaidos suma** : -1,00     
-- **Naudokite mokėjimo nuolaidą** : įprasta    
-- **Pritaikyta mokėjimo nuolaida** : 0,00      
-- **Taikytinos mokėjimo nuolaidos suma** : -1,00     
+- **Mokėjimo nuolaidos data**: 2015-07-12 
+- **Mokėjimo nuolaidos suma**: -1,00     
+- **Naudokite mokėjimo nuolaidą**: įprasta    
+- **Pritaikyta mokėjimo nuolaida**: 0,00      
+- **Taikytinos mokėjimo nuolaidos suma**: -1,00     
 
 Bus sudengiama 100,00 suma, įskaitant 99,00 mokėjimą ir 1,00 nuolaidą.
 

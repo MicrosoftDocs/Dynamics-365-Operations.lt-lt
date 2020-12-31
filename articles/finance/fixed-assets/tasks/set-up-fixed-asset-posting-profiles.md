@@ -17,11 +17,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 07961d8613b6b5e0e1c5dc6a91b554305dcb17f5
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138166"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4446056"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Ilgalaikio turto registravimo šablonų nustatymas
 
@@ -32,7 +32,7 @@ ms.locfileid: "3138166"
 1. Naršymo srityje eikite į **Moduliai > Ilgalaikis turtas > Konfigūracija > Ilgalaikio turto registravimo šablonai**.
 2. Spustelėkite **Naujas**.
 3. Lauke **Registravimo šablonas** surinkite reikšmę.
-4. Lauke **Aprašymas įveskite**surinkite reikšmę. Turėsite sukurti kiekvieno ilgalaikio turto operacijos tipo, kurį naudosite dirbdami su ilgalaikiu turtu, registravimo šabloną. Šis užduočių vadovas pradės nuo įsigijimo operacijos tipo.  
+4. Lauke **Aprašymas įveskite** surinkite reikšmę. Turėsite sukurti kiekvieno ilgalaikio turto operacijos tipo, kurį naudosite dirbdami su ilgalaikiu turtu, registravimo šabloną. Šis užduočių vadovas pradės nuo įsigijimo operacijos tipo.  
 5. Įrankių juostoje spustelėkite **Įrašyti**.
 6. Lauke **Knyga** įveskite arba pasirinkite reikšmę. Laukas **Grupavimai** leidžia registravimo šabloną apibrėžti iki lentelės (kiekvienam ilgalaikiam turtui nustatyta po vieną sąskaitą) arba grupės (kiekvienai ilgalaikio turto grupei nustatyta po vieną sąskaitą). Šiame užduočių vadove palikite reikšmę „Visi“, kad ji būtų taikoma visam ilgalaikiam turtui su nurodyta knyga.  
 7. Lauke **Pagrindinė sąskaita** nustatykite norimas reikšmes. Lauke Įsigijimai galite įvesti korespondentinę sąskaitą arba jį palikti tuščią, kad būtų galima užpildyti atliekant konkrečią operaciją.    

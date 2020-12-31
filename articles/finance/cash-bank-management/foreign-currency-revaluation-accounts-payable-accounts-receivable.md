@@ -19,11 +19,11 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: fb7a101fa9ef84ec3873bcd8054b8198db8d58c9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188400"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4446131"
 ---
 # <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Mokėtinų ir Gautinų sumų užsienio valiutos kurso pasikeitimas
 

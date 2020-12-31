@@ -17,11 +17,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: e5068c121e921c1586dc6ae003c0021bf41d2254
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976774"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445998"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>PVM sudengimo laikotarpių nustatymas
 
@@ -34,7 +34,7 @@ ms.locfileid: "3976774"
 1. Naršymo srityje eikite į **Moduliai > Mokestis > Netiesioginiai mokesčiai > PVM > PVM sudengimo laikotarpiai**.
 2. Pasirinkite **Naujas**.
 3. Lauke **Sudengimo laikotarpis** įveskite reikšmę.
-4. Lauke **Aprašo laukas**surinkite reikšmę.
+4. Lauke **Aprašo laukas** surinkite reikšmę.
 5. Lauke **Institucija** pasirinkite PVM instituciją, kuri gauna už sudengimo laikotarpį sukurtas ataskaitas ir mokėjimus.
 6. Sąraše raskite ir pasirinkite norimą įrašą.
 7. Lauke **Mokėjimo sąlygos** iš išplečiamojo meniu pasirinkite norimą įrašą. Susijusią PVM instituciją galima nustatyti kaip tiekėją ir, sudengiant PVM, bus sukurta atidaryta tiekėjo SF. Mokėjimo sąlygos apibrėžia atidarytos tiekėjo SF terminą.  

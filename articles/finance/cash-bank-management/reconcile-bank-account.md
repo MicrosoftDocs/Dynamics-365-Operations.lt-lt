@@ -18,11 +18,11 @@ ms.search.validFrom:
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: c77d08d5877ab27f9b6549a5b2a666150938fc08
-ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3899330"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4446066"
 ---
 # <a name="reconcile-a-bank-account"></a>Banko sąskaitos suderinimas
 
@@ -32,7 +32,7 @@ Gavę banko išrašą, turėtumėte periodiškai suderinti juridinio subjekto ba
 
 Negalite suderinti banko sąskaitos išrašo su banko sąskaita, jei nors vieno iš čekių ar mokėjimo kvitų, kurie išvardinti išraše, būsena yra **Laukiama atšaukimo**. Kai redaktorius užregistruoja arba atmeta čekių atšaukimą arba mokėjimo kvitų mokėjimų atšaukimus, būsena nebėra **Laukiama atšaukimo**, ir jūs galite suderinti banko sąskaitą.
 
-1.  Eikite į  **Grynųjų pinigų ir banko valdymas** \> **Banko sąskaitos** \> **Banko sąskaitos**. Pasirinkite banko sąskaitą, kurią norite suderinti su banko išrašu, ir pasirinkite**Suderinti** > **Sąskaitos suderinimas**.
+1.  Eikite į  **Grynųjų pinigų ir banko valdymas** \> **Banko sąskaitos** \> **Banko sąskaitos**. Pasirinkite banko sąskaitą, kurią norite suderinti su banko išrašu, ir pasirinkite **Suderinti** > **Sąskaitos suderinimas**.
 
 2.  Laukeliuose **Banko išrašo data** ir **Banko išrašas** įveskite informaciją. Lauke **Pabaigos likutis** įveskite banko sąskaitos balansą taip, kaip jis pateikiamas banko sąskaitos išraše.
 

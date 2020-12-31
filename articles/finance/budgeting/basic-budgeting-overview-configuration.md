@@ -19,19 +19,19 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 36144474defc4849a112a180247f37796de00a27
-ms.sourcegitcommit: 1eaa3451275fe4223d4d25b37aaa1cd2b183e803
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2667465"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4446004"
 ---
-# <a name="budgeting-overview"></a>Biudžetų sudarymo modulio apžvalga
+# <a name="budgeting-overview"></a>Biudžetų sudarymo apžvalga
 
 [!include [banner](../includes/banner.md)]
 
 Beveik visos įmonės, kurios naudoja „Microsoft Dynamics 365 Finance“ finansų funkciją, turės galėti kurti biudžeto ir faktinės sumų ataskaitas. Šiame straipsnyje paaiškinama konfigūravimo veiksmai, kuriuos reikia atlikti norint kurti biudžetus programoje „Finance and Operations“ arba įkelti juos iš trečiosios šalies programos.
 
-<a name="overview"></a>Apžvalga
+<a name="overview"></a>Peržiūra
 --------
 
 Patvirtintas juridinio subjekto biudžetas yra tvarkomas dokumente, pavadinimu *biudžeto registro įrašas*. Biudžeto registro įrašo dokumento eilutės yra vadinamos *biudžeto sąskaitos* įrašais ir jose yra finansinių dimensijų informacija, patvirtinto biudžeto datos ir sumos. Biudžeto registro įrašo dokumentas yra integruotas su pagrindinėmis finansinėmis ataskaitomis ir užklausų puslapiais, kuriuose faktinės DK sumos yra lyginamos su biudžeto sumomis. 

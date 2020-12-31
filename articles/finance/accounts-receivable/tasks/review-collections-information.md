@@ -17,11 +17,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9b5cc07c5dfb2444ff086c8b1f3bcc7634d8644d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143343"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4446013"
 ---
 # <a name="review-collections-information"></a>Surinkimo informacijos peržiūra
 
@@ -37,7 +37,7 @@ ms.locfileid: "3143343"
 3. Lauke **Telkinio ID** įveskite reikšmę.
 4. Lauke **Telkinio aprašas** įveskite reikšmę.
 5. Spustelėkite **Pasirinkti telkinio kriterijus**.
-6. Lauke **Kriterijai**surinkite reikšmę.
+6. Lauke **Kriterijai** surinkite reikšmę.
 7. Pasirinkite **Gerai**.
 8. Pasirinkite **Peržiūrėti kliento telkinį**.
 
@@ -55,7 +55,7 @@ ms.locfileid: "3143343"
 - Skirstymo pagal terminus laikotarpio apibrėžimus galite naudoti norėdami analizuoti klientų arba tiekėjų sąskaitų mokėjimo terminus, remdamiesi savo įvesta data. Kiekvienas skirstymo pagal terminus laikotarpis, kurį nustatote skirstymo pagal terminus laikotarpio apibrėžimui, atitinka stulpelį sąrašo puslapyje arba formoje ar ataskaitoje, kai atliekama analizė.  
 2. Pasirinkite **Naujas**.
 3. Lauke **Skirstymo pagal terminus laikotarpio apibrėžimas** surinkite reikšmę.
-4. Lauke **Aprašymas įveskite**surinkite reikšmę.
+4. Lauke **Aprašymas įveskite** surinkite reikšmę.
 - Nurodykite kiekvieno skirstymo pagal terminus laikotarpio, kurį norite įtraukti į skirstymo pagal terminus laikotarpio aprašą, pavadinimą, vienetą ir intervalą. Eilutė, kurios lauke Vienetas yra 0 (nulis), rodo datą, kurią vykdoma analizė. Eilutės prieš nulį kaip numatytąjį įrašą lauke Vienetas turės –1, o eilutės po nulio turės 1, tačiau tai galima keisti. Norėdami pertvarkyti eilutes, pasirinkite **Aukštyn** ir **Žemyn**. 0 (nulis) eilutės negalima perkelti.  
 - Nustatykite žymeklį toje vietoje, kur norite įterpti naują eilutę, ir tada spustelėkite **Pridėti**.  
 - Pasirinkite indikatorių, kuris nurodys skirstymo pagal terminus laikotarpį formoje **Mokėjimų peržiūra** ir sąrašo puslapyje. Pavyzdžiui, galite pasirinkti žalią indikatorių (dabartinis laikotarpis), geltoną indikatorių (praėjęs 30 d. laikotarpis) ir raudoną indikatorių (praėjęs 90 d. laikotarpis).  

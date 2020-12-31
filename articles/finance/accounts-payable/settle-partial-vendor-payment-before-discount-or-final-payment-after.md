@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 731d0a1ad0af47d98455ba2e609a48e092a67d3f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189573"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445838"
 ---
 # <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Dalinis tiekėjo mokėjimas sudengiamas prieš nuolaidos datą, kai paskutinis mokėjimas atliekamas po nuolaidos datos
 
@@ -47,7 +47,7 @@ Liepos 2 d. Eglė nori sudengti 300,00 šios SF. Mokėjimui gali būti taikoma n
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 | Pasirinkta | Įprastas            | SF-10020 | 3057    | 2015-06-25 | 2015-07-25 | 10020   | –1 000,00                      | USD      | –297,00          |
 
-Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas**apačioje.
+Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas** apačioje.
 
 |                              |           |
 |------------------------------|-----------|
@@ -72,7 +72,7 @@ Eglė apmoka likusią SF sumą liepos 15 d., kuri yra po mokėjimo nuolaidos lai
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 | Pasirinkta | Įprastas            | SF-10020 | 3057    | 2015-06-25 | 2015-07-25 | 10020   | –700,00                        | USD      | –700,00          |
 
-Nuolaidos informacija rodoma puslapio **Sudengti operacijas**apačioje. Eglė mato, kad jai jau pritaikyta 3,00 nuolaida.
+Nuolaidos informacija rodoma puslapio **Sudengti operacijas** apačioje. Eglė mato, kad jai jau pritaikyta 3,00 nuolaida.
 
 |                              |           |
 |------------------------------|-----------|
@@ -98,7 +98,7 @@ Jei tiekėjas leidžia Eglei pritaikyti nuolaidą, nors ji sumoka po nuolaidos d
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
 | Pasirinkta | Visada            | SF-10020 | 3057    | 2015-06-25 | 2015-07-25 | 10020   | 700,00                               |                                       | USD      | –693,00          |
 
-Nuolaidos informacija rodoma puslapio **Sudengti operacijas**apačioje.
+Nuolaidos informacija rodoma puslapio **Sudengti operacijas** apačioje.
 
 |                              |           |
 |------------------------------|-----------|

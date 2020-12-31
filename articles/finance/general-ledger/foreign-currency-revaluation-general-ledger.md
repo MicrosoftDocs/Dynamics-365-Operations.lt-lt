@@ -19,11 +19,11 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 798e26badfd2a1f44891ea92f277de327fbed9c7
-ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4006218"
+ms.locfileid: "4446159"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>DK užsienio valiutos kurso pasikeitimas
 
@@ -61,13 +61,13 @@ Reikšmės **Pradžios data** ir **Pabaigos data** nurodo perkainojamo užsienio
 
 Naudojant parinktį **Kurso data** galima nurodyti datą, kurią turi būti nustatytas numatytasis valiutos kursas. Pvz., galite perkainoti balansus nuo sausio 1 d. iki sausio 31 d., bet naudoti valiutos kursą, nustatytą vasario 1 d. 
 
-Pasirinkite, kurias pagrindines sąskaitas perkainoti: visas, balanso arba pelno ir nuostolio. Bus perkainojamos tik pažymėtos perkainoti (puslapyje Pagrindinės sąskaitos) pagrindinės sąskaitos. Jei norite dar labiau sumažinti pagrindinių sąskaitų diapazoną, naudokite skirtuką **Įtrauktini įrašai** , norėdami nustatyti pagrindinių sąskaitų diapazoną arba atskiras pagrindines sąskaitas. 
+Pasirinkite, kurias pagrindines sąskaitas perkainoti: visas, balanso arba pelno ir nuostolio. Bus perkainojamos tik pažymėtos perkainoti (puslapyje Pagrindinės sąskaitos) pagrindinės sąskaitos. Jei norite dar labiau sumažinti pagrindinių sąskaitų diapazoną, naudokite skirtuką **Įtrauktini įrašai**, norėdami nustatyti pagrindinių sąskaitų diapazoną arba atskiras pagrindines sąskaitas. 
 
 Perkainojimo procesą galima taikyti vienam arba daugiau juridinių subjektų. Peržiūroje bus rodomos tik juridiniai subjektai, prie kurių turite prieigą. Pasirinkite juridinius subjektus, kuriems norite taikyti perkainojimo procesą. 
 
 Perkainojimo procesą galima taikyti vienai arba daugiau užsienio valiutų. Peržvalgoje bus rodomos visos pasirinktos perkainoti juridinių subjektų valiutos, kurios buvo registruotos atitinkamo pagrindinės sąskaitos tipo (Balansas arba Pelnas ir nuostolis) laikotarpiu. Apskaitos valiuta bus įtraukta į sąrašą, bet niekas nebus perkainojama pasirinkus apskaitos valiutą. 
 
-Nustatykite parinktį **Peržiūrėti prieš registruojant** į **Taip** , jei norite peržiūrėti DK perkainojimo rezultatą. DK peržiūra skiriasi nuo AR ir AP užsienio valiutos kurso pasikeitimo modeliavimo. AR ir AP modeliavimas yra ataskaita, o DK pateikiama peržiūra, kurią galima registruoti nepaleidus perkainojimo proceso dar kartą. Peržiūros rezultatus galima eksportuoti į „Microsoft Excel“, norint išsaugoti sumų skaičiavimo retrospektyvą. Negalite naudoti paketinio apdorojimo, jei norite peržiūrėti perkainojimo rezultatus. Naudodamas peržiūrą vartotojas turi galimybę registruoti visų juridinių subjektų rezultatus, naudodamas mygtuką **Registruoti**. Jei kilo problema dėl juridinio subjekto rezultatų, vartotojas taip pat gali registruoti juridinių subjektų pogrupį, naudodamas mygtuką **Pasirinkti registruotinus juridinius subjektus**. 
+Nustatykite parinktį **Peržiūrėti prieš registruojant** į **Taip**, jei norite peržiūrėti DK perkainojimo rezultatą. DK peržiūra skiriasi nuo AR ir AP užsienio valiutos kurso pasikeitimo modeliavimo. AR ir AP modeliavimas yra ataskaita, o DK pateikiama peržiūra, kurią galima registruoti nepaleidus perkainojimo proceso dar kartą. Peržiūros rezultatus galima eksportuoti į „Microsoft Excel“, norint išsaugoti sumų skaičiavimo retrospektyvą. Negalite naudoti paketinio apdorojimo, jei norite peržiūrėti perkainojimo rezultatus. Naudodamas peržiūrą vartotojas turi galimybę registruoti visų juridinių subjektų rezultatus, naudodamas mygtuką **Registruoti**. Jei kilo problema dėl juridinio subjekto rezultatų, vartotojas taip pat gali registruoti juridinių subjektų pogrupį, naudodamas mygtuką **Pasirinkti registruotinus juridinius subjektus**. 
 
 Kai užsienio valiutos kurso pasikeitimo procesas baigtas, bus sukurtas įrašas, skirtas sekti kiekvieno vykdymo retrospektyvą.  Bus sukurtas atskiras kiekvieno juridinio subjekto ir registravimo sluoksnio įrašas.
 

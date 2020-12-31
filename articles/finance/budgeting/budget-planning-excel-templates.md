@@ -19,11 +19,11 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 471c719a8e6de0ebe6fcdad0ae222453db841c87
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772104"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4446119"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Biudžeto planavimo šablonai, skirti „Excel‟
 
@@ -67,7 +67,7 @@ Skirtuke **Dizainas** spustelėkite **Įtraukti** ir tada **BudgetPlanHeader** p
 
 Nuveskite žymeklį į norimą vietą „Excel“ faile. Spustelėkite **Įtraukti žymą**, kad į pasirinktą vietą įtrauktumėte lauko žymą. Pasirinkite **Įtraukti vertę**, kad į pasirinktą vietą įtrauktumėte vertės lauką. Spustelėkite **Atlikta**, kad uždarytumėte dizaino įrankį.
 
-## <a name="select-add-valuemediabpt7pngmediabpt7png"></a>[![Pasirinkti „Įtraukti vertę“](./media/bpt7.png)](./media/bpt7.png)
+## <a name="select-add-valuemediabpt7png"></a>[![Pasirinkti „Įtraukti vertę“](./media/bpt7.png)](./media/bpt7.png)
 
 <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Apskaičiuoto stulpelio įtraukimas į biudžeto plano dokumento šablono lentelę
 --------------------------------------------------------------
@@ -83,7 +83,7 @@ Pasirinktoje laukų grupėje rodomi stulpeliai, pateikiami šablone. Spustelėki
 [![Pridėti ir įterpti stulpelį](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Norėdami apibrėžti formulę, sukurkite formulę skaičiuoklėje ir tada nukopijuokite ją į langą **Dizainas**. „Finance and Operations“ susieta lentelė paprastai būna pavadinta „AXTable1“. Pvz., norėdami susumuoti paraiškų už 1–4 ketvirčių stulpelius skaičiuoklėje, sukurkite tokią formulę: AxTable1\[Paraiška už 1 ketvirtį\] + AxTable1\[Paraiška už 2 ketvirtį\] + AxTable1\[Paraiška už 3 ketvirtį\] + AxTable1\[Paraiška už 4 ketvirtį\].
+> Norėdami apibrėžti formulę, sukurkite formulę skaičiuoklėje ir tada nukopijuokite ją į langą **Dizainas**. Su „Finance and Operations“ susieta lentelė paprastai būna pavadinta „AXTable1“. Pvz., norėdami susumuoti paraiškų už 1–4 ketvirčių stulpelius skaičiuoklėje, sukurkite tokią formulę: AxTable1\[Paraiška už 1 ketvirtį\] + AxTable1\[Paraiška už 2 ketvirtį\] + AxTable1\[Paraiška už 3 ketvirtį\] + AxTable1\[Paraiška už 4 ketvirtį\].
 
 Pakartokite šiuos veiksmus ir įterpkite stulpelį **Koregavimas**. Šiam stulpeliui priskirkite formulę: AxTable1\[Bendra užklausų suma\]\*$I$1 Tokiu būdu langelio I1 vertė bus padauginta iš stulpelio **Bendra užklausų suma** verčių, kad būtų apskaičiuotos koregavimo sumos.
 
@@ -120,7 +120,7 @@ Rekomenduojame užrakinti šabloną, kad vartotojai jos atsitiktinai neišjungt�
 
 Spustelėkite rodyklę, kad būtų parodytas papildomas meniu. Pasirinkite **Užrakinti**.
 
-### <a name="select-lockmediabpt16-1024x614pngmediabpt16png"></a>[![Pasirinkti užraktą](./media/bpt16-1024x614.png)](./media/bpt16.png)
+### <a name="select-lockmediabpt16png"></a>[![Pasirinkti užraktą](./media/bpt16-1024x614.png)](./media/bpt16.png)
 
 ### <a name="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates"></a>Ar galiu biudžeto plano šablonuose naudoti kitas „Excel“ funkcijas, pvz., langelių formatavimą, spalvas, sąlyginį formatavimą ir diagramas?
 

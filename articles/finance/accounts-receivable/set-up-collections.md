@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 58d3e7f66ab5816849d393098d073ea7629e6b7c
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 8f8e066b1df3eb3a26d488e1c014f4ae3f31395a
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3013168"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4446213"
 ---
 # <a name="set-up-collections"></a>Mokėjimų priežiūros nustatymas
 
@@ -96,7 +96,7 @@ Norėdami susisiekti su klientais ir pardavėjais dėl mokėjimų problemų, gal
 ### <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>Nustatyti el. pašto adreso parametrus, taikomus mokėjimų priežiūros klientų kontaktams
 Nustatykite kliento kontaktų el. pašto adresus, kad galėtumėte siųsti el. laiškus tiems kontaktams iš puslapio **Mokėjimai**. Surinkimo kontaktas yra naudojamas kaip numatytasis kontaktas puslapyje **Surinkimas**. Galite nustatyti klientui skirtą išrašo gavimo adresą, jei išrašų adresas turi skirtis nuo pagrindinio adreso. 
 
-Kliento **Kredito ir surinkimo** „FastTab‟, **Surinkimo kontakto** lauke pasirinkite kliento organizacijos asmenį, kuris dirba su jūsų surinkimo agentu. Šis asmuo yra naudojamas kaip numatytasis kontaktas puslapyje **Surinkimas** ir jam ar jai siunčiami el. laiškai. 
+Kliento **Kredito ir surinkimo** „FastTab‟, **Surinkimo kontakto** lauke pasirinkite kliento organizacijos asmenį, kuris dirba su jūsų surinkimo agentu. Šis asmuo yra naudojamas kaip numatytasis kontaktas puslapyje **Surinkimas** ir jam siunčiami el. laiškai. 
 
 > [!NOTE] 
 > Jei kliento surinkimo kontaktas nenurodytas, naudojamas pagrindinis kliento kontaktas. Jie pagrindinis kontaktas nenurodytas, el. laiškai siunčiami pirmu puslapyje **Kontaktai** nurodytu adresu.

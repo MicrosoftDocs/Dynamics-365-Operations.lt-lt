@@ -17,11 +17,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 03313d875d23489b3293376dd94f808c73a4bd15
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983554"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445820"
 ---
 # <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a>PVM tiekėjo sąskaitoje faktūroje skaičiavimas ir koregavimas
 
@@ -33,7 +33,7 @@ ms.locfileid: "3983554"
 2. Pasirinkite **Naujas**.
 3. Naujos eilutės lauke **Pavadinimas** pasirinkite išplečiamajame meniu esančią parinktį.
 4. Veiksmų srityje pasirinkite **Eilutės**.
-5. Lauke **Sąskaita**nustatykite norimas reikšmes.
+5. Lauke **Sąskaita** nustatykite norimas reikšmes.
 6. Lauke **Sąskaita faktūra** įveskite reikšmę.
 7. Lauke **Kreditas** įveskite skaičių.
 8. Lauke **Korespondentinė sąskaita** nustatykite norimas reikšmes.

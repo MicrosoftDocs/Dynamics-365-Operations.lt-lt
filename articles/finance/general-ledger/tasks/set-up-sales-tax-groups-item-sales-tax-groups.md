@@ -17,11 +17,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 24210129f7595c6544234c20915f4003bf0e1eb8
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984702"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445843"
 ---
 # <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>Nustatyti PVM grupes ir prekių PVM grupes
 
@@ -32,7 +32,7 @@ ms.locfileid: "3984702"
 1. Eikite į **Naršymo sritis > Moduliai > Mokestis > Netiesioginiai mokesčiai > PVM > PVM grupės**.
 2. Spustelėkite **Naujas**.
 3. Lauke **PVM grupė** įveskite reikšmę.
-4. Lauke **Aprašo laukas**surinkite reikšmę.
+4. Lauke **Aprašo laukas** surinkite reikšmę.
 5. Perjunkite skyriaus **Sąranka** išplėtimą.
 6. Spustelėkite **Pridėti**.
 7. Sąraše pažymėkite pasirinktą eilutę.
@@ -43,7 +43,7 @@ ms.locfileid: "3984702"
 12. Eikite į **Mokestis > Netiesioginiai mokesčiai > PVM > Prekės PVM grupės**.
 13. Spustelėkite **Naujas**.
 14. Lauke **Prekės PVM grupė** įveskite reikšmę.
-15. Lauke **Aprašo laukas**surinkite reikšmę.
+15. Lauke **Aprašo laukas** surinkite reikšmę.
 16. Spustelėkite **Pridėti**.
 17. Sąraše pažymėkite pasirinktą eilutę.
 18. Lauke **PVM kodas** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.

@@ -17,11 +17,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 439be64a864056cc19fd156f664a4b90601be040
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977844"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4446012"
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a>Nustatyti ir generuoti gautinų sumų skirstymo pagal terminus informaciją
 
@@ -34,7 +34,7 @@ ms.locfileid: "3977844"
 1. Eikite į **naršymo sritį > Moduliai > Kreditas ir mokėjimai > Sąranka > Skirstymo pagal terminus laikotarpio apibrėžimai**.
 2. Spustelėkite **Naujas**.
 3. Lauke **Skirstymo pagal terminus laikotarpio apibrėžimai** surinkite reikšmę.
-4. Lauke **Aprašo laukas**surinkite reikšmę.
+4. Lauke **Aprašo laukas** surinkite reikšmę.
 5. Spustelėdami **Įtraukti po** įterpsite naują skirstymo pagal terminus laikotarpį.
 6. Lauke **Laikotarpis** įveskite aprašą, kuris bus rodomas skirstymo pagal terminus ataskaitose.
 7. Lauke **Vienetas** įveskite skaičių.

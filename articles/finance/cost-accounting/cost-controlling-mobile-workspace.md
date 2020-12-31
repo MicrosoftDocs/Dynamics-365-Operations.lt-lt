@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 22acdcfbecc1efe78a1b1be87e40b2e7d23506fc
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.openlocfilehash: 4fc35feb4f3a67ba9c8c70c2d2f8c07cb944b0f6
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759453"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4446215"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>Mobilioji darbo sritis Išlaidų kontrolė
 
@@ -63,7 +63,7 @@ Mobiliojoje darbo srityje **Savikainos kontrolė** pateikiami šie veiksmai, rod
     -   Faktinė ir biudžeto sumos (nuo metų pradžios iki šios dienos)
     -   Faktinė ir patikslinta biudžeto sumos (nuo metų pradžios iki šios dienos)
 
-    Šios sumos rodomos kiekvienoje kortelėje: Faktinė, Biudžeto, Nuokrypio ir Nuokrypio %.
+    Šios sumos rodomos kiekvienoje kortelėje: Faktinė, Biudžeto, Nuokrypio ir Nuokrypio %.
 
 -   **Saitai**
 
@@ -71,7 +71,7 @@ Mobiliojoje darbo srityje **Savikainos kontrolė** pateikiami šie veiksmai, rod
     -   Ankstesnio laikotarpio informacija
     -   Informacija nuo metų pradžios iki šiandien
 
-    Pasirinkus saitą, rodoma kiekvieno išlaidų elemento kortelė. Šios sumos rodomos kiekvienoje kortelėje: Faktinė, Biudžeto, Biudžeto nuokrypio, Biudžeto nuokrypio %, Patikslinta biudžeto, Patikslinta biudžeto nuokrypio ir Patikslinta biudžeto nuokrypio %.
+    Pasirinkus saitą, rodoma kiekvieno išlaidų elemento kortelė. Šios sumos rodomos kiekvienoje kortelėje: Faktinė, Biudžeto, Biudžeto nuokrypio, Biudžeto nuokrypio %, Patikslinta biudžeto, Patikslinta biudžeto nuokrypio ir Patikslinta biudžeto nuokrypio %.
     
     [![Išlaidų elemento kortelė](./media/Cost-controlling.png)](./media/Cost-controlling.png)
 

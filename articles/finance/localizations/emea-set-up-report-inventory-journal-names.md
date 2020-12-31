@@ -18,11 +18,11 @@ ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: f8b52043f9c09dfe7e80f9fec7b495acd3ccb590
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015027"
+ms.locfileid: "4408249"
 ---
 # <a name="inventory-journal-reports"></a>Atsargų žurnalo ataskaitos
 
@@ -30,7 +30,7 @@ ms.locfileid: "4015027"
 
 Kai naudojate konfigūruojamas atsargų ataskaitas, pagrįstas elektroninėmis ataskaitomis, turite nustatyti ryšį tarp konkrečios ataskaitos ir žurnalo tipo.
 
-Norėdami nustatyti ryšį tarp konkrečios ataskaitos ir žurnalo tipo, puslapyje **Atsargų žurnalų pavadinimai** ( **Atsargų valdymas** &gt; **Sąranka** &gt; **Žurnalų pavadinimai** &gt; **Atsargos** ) įveskite ataskaitos pavadinimą. **Pastaba.** Norėdami nustatyti palaikomas konfigūracijas, atsisiųskite reikiamas elektroninių ataskaitų konfigūracijas. Norėdami daugiau informacijos žr. [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md). Toliau nurodytoje lentelėje pateikti atsargų ataskaitų su Europoje palaikomomis konfigūracijomis pavyzdžiai.
+Norėdami nustatyti ryšį tarp konkrečios ataskaitos ir žurnalo tipo, puslapyje **Atsargų žurnalų pavadinimai** (**Atsargų valdymas** &gt; **Sąranka** &gt; **Žurnalų pavadinimai** &gt; **Atsargos**) įveskite ataskaitos pavadinimą. **Pastaba.** Norėdami nustatyti palaikomas konfigūracijas, atsisiųskite reikiamas elektroninių ataskaitų konfigūracijas. Norėdami daugiau informacijos žr. [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md). Toliau nurodytoje lentelėje pateikti atsargų ataskaitų su Europoje palaikomomis konfigūracijomis pavyzdžiai.
 
 | Šalis            |    Ataskaitos aprašymas               | Žurnalo tipas     |    Formato susiejimo pavadinimas                  |
 |--------------------|-------------------------------------|------------------|-----------------------------------------|

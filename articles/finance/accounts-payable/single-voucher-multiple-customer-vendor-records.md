@@ -18,11 +18,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7cbc638b684ad6eb59b852e599cf36cbd0b66faf
-ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4006241"
+ms.locfileid: "4446156"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Vienas kvitas su keliais kliento arba tiekėjo įrašais
 
@@ -34,7 +34,7 @@ Prie pavyzdžių, kai vienas kvitas naudojamas keliems klientams arba tiekėjams
 
 Kvitas, kuriame yra daugiau nei vienas klientas arba tiekėjas gali būti įvedamas naudojant vieną iš šių metodų:
 
--   Naudojant žurnalą, kuriame pažymėta parinktis **Tik vienas kvito numeris** , kad kiekviena į žurnalą įtraukta eilutė būtų įtraukiama tame pačiame kvite.
+-   Naudojant žurnalą, kuriame pažymėta parinktis **Tik vienas kvito numeris**, kad kiekviena į žurnalą įtraukta eilutė būtų įtraukiama tame pačiame kvite.
 -   Naudojant kelių eilučių kvitą, kuriame nėra korespondentinės DK sąskaitos, su daugiau nei vienu klientu arba tiekėju.
 -   Įvedant kvitą, kurio sąskaita ir korespondentinė sąskaitą yra tiekėjas / tiekėjas, klientas / klientas, tiekėjas / klientas ar klientas / tiekėjas.
 

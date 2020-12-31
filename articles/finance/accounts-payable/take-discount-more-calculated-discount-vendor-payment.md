@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b84b3d6ef1a86d8174823345a5ee9181c701c151
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179097"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445833"
 ---
 # <a name="take-a-discount-that-is-more-than-the-calculated-discount-for-a-vendor-payment"></a>Nuolaidos, kuri yra didesnė už apskaičiuotą tiekėjo mokėjimo nuolaidą, pritaikymas
 
@@ -37,7 +37,7 @@ Tiekėjas 3051 suteikia „Fabrikam“ 4 procentų mokėjimo nuolaidą, jei sąs
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 | Pasirinkta | Įprastas            | SF-10040 | 3051    | 2015-06-29 | 7/29/2015 | 10040   | 1000,00                       | USD      | 940,00           |
 
-Nuolaidos informacija rodoma puslapio **Sudengti operacijas**apačioje.
+Nuolaidos informacija rodoma puslapio **Sudengti operacijas** apačioje.
 
 |                              |           |
 |------------------------------|-----------|

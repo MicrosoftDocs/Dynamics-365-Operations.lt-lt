@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: a1e3305bff99fa39240176ac9fc7aaee84b98e6c
-ms.sourcegitcommit: be51e892003778e71b67fb409a8e16965c89b5ac
+ms.openlocfilehash: 2b4e6b42326ecbd07efe006afb23931849f5cf58
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3618416"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4446214"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Tiekėjo mokėjimo pasiūlymų automatizavimas
 
@@ -102,7 +102,7 @@ Po to, kai sukuriama tiekėjo mokėjimo pasiūlymo automatizavimo seka, kiekvien
 
 [![Procesų automatizavimo savaitinis rodinys tiekėjo mokėjimų darbo srityje](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
 
-Darbo srityje **Tiekėjo mokėjimai** esančiame proceso automatizavimo savaitiniame rodinyje rodomi tik tiekėjo mokėjimo pasiūlymų automatizavimo procesai. Joje parodomi visų juridinių subjektų, kurių saugos teises turi prisijungęs vartotojas, visi šios savaitės mokėjimų įvykiai. Pavyzdžiui, jei AP mokėjimus tvarkantis darbuotojas yra atsakingas už USMF ir USSI įmonių mokėjimus, jis / ji matys šių dviejų įmonių tiekėjo mokėjimo pasiūlymo automatizavimo įvykius, o kitų įmonių įvykių nematys.
+Darbo srityje **Tiekėjo mokėjimai** esančiame proceso automatizavimo savaitiniame rodinyje rodomi tik tiekėjo mokėjimo pasiūlymų automatizavimo procesai. Joje parodomi visų juridinių subjektų, kurių saugos teises turi prisijungęs vartotojas, visi šios savaitės mokėjimų įvykiai. Pavyzdžiui, jei AP mokėjimus tvarkantis darbuotojas yra atsakingas už USMF ir USSI įmonių mokėjimus, jis matys šių dviejų įmonių tiekėjo mokėjimo pasiūlymo automatizavimo įvykius, o kitų įmonių įvykių nematys.
 
 [![USMF ir USSI įmonių procesų automatizavimo savaitinis rodinys](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
 
@@ -128,7 +128,7 @@ Panaikinus apmokėjimą, sąskaitos faktūros bus vėl atidarytos apmokėti. Tad
 
 ## <a name="edit-a-vendor-payment-proposal-automation"></a>Tiekėjo mokėjimo pasiūlymo automatizavimo proceso koregavimas
 
-Procesų automatizavimo sistema leidžia redaguoti mokėjimą, sekas ir įvykius, kurie sukurti mokėjimo pasiūlymui. Sekas galima redaguoti puslapyje **Procesų automatizavimas** arba procesų automatizavimo savaitiniame rodinyje. Pavyzdžiui, jei AP vadovas (-ė) nusprendžia generuoti visus čekius vietiniams tiekėjams trečiadienį, o ne pirmadienį, jis / ji gali rasti įvykį savaitiniame rodinyje ir pasirinkti **Peržiūrėti / redaguoti – Sekos**. Jeigu redaguojate seką, sistema paragins jus nurodyti, ar reikia pakeisti visus esamus įvykius, ar tik naujus įvykius. Retrospektyviniai įvykiai, kurių būsena jau yra **Baigta** arba kurie baigti atsiradus būsenai **Klaida**, nebus pakeisti.
+Procesų automatizavimo sistema leidžia redaguoti mokėjimą, sekas ir įvykius, kurie sukurti mokėjimo pasiūlymui. Sekas galima redaguoti puslapyje **Procesų automatizavimas** arba procesų automatizavimo savaitiniame rodinyje. Pavyzdžiui, jei AP vadovas nusprendžia generuoti visus čekius vietiniams tiekėjams trečiadienį, o ne pirmadienį, jis gali rasti įvykį savaitiniame rodinyje ir pasirinkti **Peržiūrėti / redaguoti – Sekos**. Jeigu redaguojate seką, sistema paragins jus nurodyti, ar reikia pakeisti visus esamus įvykius, ar tik naujus įvykius. Retrospektyviniai įvykiai, kurių būsena jau yra **Baigta** arba kurie baigti atsiradus būsenai **Klaida**, nebus pakeisti.
 
 Taip pat galite įtraukti naują įvykį arba pakeisti esamą įvykį. Pavyzdžiui, kitas mokėjimo pasiūlymo atvejis yra planuojamas vykdyti trečiadienį, sausio 1 d., tačiau ši data yra šventė. Galite pakeisti įvykį procesų automatizavimo savaitiniame rodinyje arba puslapyje **Procesų automatizavimas**. Atidaromas puslapis, rodantis grafiko informaciją ir mokėjimo pasiūlymo kriterijus. Jame galite redaguoti suplanuotą laiką ir datą. Taip pat galite redaguoti mokėjimo pasiūlymo kriterijus, jei reikia atlikti pakeitimų. Pavyzdžiui, jeigu keičiate suplanuotą mokėjimo įvykio datą iš sausio 1 d. į sausio 2 d., taip pat rekomenduojama pakeisti pabaigos datos santykines datas.
 

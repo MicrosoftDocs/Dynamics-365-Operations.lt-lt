@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a71d0931445f3501f1b74f26c5eef583ab598b3c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188906"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445890"
 ---
 # <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Dalinis kliento mokėjimas sudengiamas prieš nuolaidos datą, kai paskutinis mokėjimas atliekamas po nuolaidos datos
 
@@ -47,7 +47,7 @@ Liepos 2 d. 4027 klientas atlieka dalinį 297,00 SF mokėjimą. Mokėjimui yra g
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|----------|------------------|
 | Pasirinkta | Įprastas            | LFSF-10020 | 4027    | 2015-06-25 | 2015-07-25 | 10020   | 1000,00                             | USD      | 297,00           |
 
-Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas**apačioje. Jei lauko **Sudengtina suma** reikšmės nepakeisite į 297,00, rodomos lauko **Mokėjimo nuolaidos suma** reikšmės skirsis. Tačiau užregistravus mokėjimą bus taikoma 3,00 mokėjimo nuolaida, nes sudengimo funkcija automatiškai koreguoja lauko **Sudengtina suma **vertę.
+Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas** apačioje. Jei lauko **Sudengtina suma** reikšmės nepakeisite į 297,00, rodomos lauko **Mokėjimo nuolaidos suma** reikšmės skirsis. Tačiau užregistravus mokėjimą bus taikoma 3,00 mokėjimo nuolaida, nes sudengimo funkcija automatiškai koreguoja lauko **Sudengtina suma **vertę.
 
 |                              |           |
 |------------------------------|-----------|
@@ -72,7 +72,7 @@ Arnas šį mokėjimą užregistruoja. SF balansas dabar yra 700,00. Galima matyt
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|----------|------------------|
 | Pasirinkta | Įprastas            | LFSF-10020 | 4027    | 2015-06-25 | 2015-07-25 | 10020   | 700,00                               | USD      | 700,00           |
 
-Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas**apačioje.
+Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas** apačioje.
 
 |                              |           |
 |------------------------------|-----------|
@@ -88,7 +88,7 @@ Jei Arnas pakeis lauko **Naudoti mokėjimo nuolaidą** reikšmę į **Visada**, 
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
 | Pasirinkta | Visada            | LFSF-10020 | 4027    | 2015-06-25 | 2015-07-25 | 10020   | 700,00                               |                                       | USD      | 693,00           |
 
-Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas**apačioje.
+Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas** apačioje.
 
 |                              |           |
 |------------------------------|-----------|
