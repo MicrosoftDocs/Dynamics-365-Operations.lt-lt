@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14539ed6c00915b7d59a5a3c4870ab6d1a96ad95
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d96fe041fd0ffb292909c1e724068efebe0184b9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002525"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682654"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Elektroninių ataskaitų (ER) formulių kūrimo įrankis
 
@@ -39,7 +38,7 @@ ER palaiko formulių kūrimo įrankį. Todėl kūrimo metu galite konfigūruoti 
 - Duomenų, kurie turi būti siunčiami į generuojamą elektroninį dokumentą pagal konkretaus ER formato maketą ir sąlygas, formatavimas. (Pvz., formatuoti galima pagal norimą kalbą ar kultūrą, arba kodavimą).
 - Elektroninių dokumentų kūrimo proceso kontroliavimas. (Pavyzdžiui, pagal apdorojamus duomenis išraiškomis galima įjungti ar išjungti tam tikrus išvedamus formato elementus. Jomis taip pat galima pertraukti dokumentų kūrimo procesą, ar pateikti pranešimus vartotojams.)
 
-Puslapį **Formulių konstruktorius**galite atidaryti atlikdami bet kurį iš tolesnių veiksmų.
+Puslapį **Formulių konstruktorius** galite atidaryti atlikdami bet kurį iš tolesnių veiksmų.
 
 - Susiejus duomenų šaltinio elementus su duomenų modelio komponentais.
 - Susiejus duomenų šaltinio elementus su formato komponentais.
@@ -51,7 +50,7 @@ Puslapį **Formulių konstruktorius**galite atidaryti atlikdami bet kurį iš to
 - Nurodžius proceso kontrolės tikrinimų sąlygas.
 - Nurodžius proceso kontrolės tikrinimų pranešimo tekstą.
 
-## <a name="Binding"></a>Duomenų susiejimas
+## <a name="data-binding"></a><a name="Binding"></a>Duomenų susiejimas
 
 ER formulių kūrimo įrankį galima naudoti apibrėžiant išraišką, kuri transformuoja iš duomenų šaltinių gautus duomenis, kad tuos duomenis būtų galima įvesti į duomenų vartotoją vykdymo metu tokiais būdais:
 
@@ -69,7 +68,7 @@ Tolesnėje iliustracijoje parodyta, kaip galima naudoti šio tipo išraišką. �
 
 Vykdymo metu sukurta formulė `ROUND (Intrastat.AmountMST, 2)` kiekvieno „Intrastat“ lentelės įrašo lauko **AmountMST** reikšmę suapvalina iki dviejų skaičių po kablelio. Suapvalintą reikšmę ji tada įveda į duomenų modelio **Mokesčių ataskaitos** komponentą **Transaction.InvoicedAmount**.
 
-## <a name="Transformation"></a>Duomenų formatavimas
+## <a name="data-formatting"></a><a name="Transformation"></a>Duomenų formatavimas
 
 ER formulių kūrimo įrankį galima naudoti apibrėžiant išraišką, kuri formatuoja iš duomenų šaltinių gautus duomenis, kad tuos duomenis būtų galima siųsti kaip generuojamo elektroninio dokumento dalį. Galite turėti formatavimą, kuris turi būti taikomas kaip įprasta pakartotinai naudojama formato taisyklė. Tokiu atveju šį formatavimą galite vienu kartu įvesti į formato konfigūraciją kaip įvardytąją transformaciją, kuri turi formatavimo išraišką. Tada šią įvardytąją transformaciją galima susieti su daugeliu formato komponentų, kurių išvedami duomenys turi būti formatuojami pagal jūsų sukurtą formatavimo išraišką.
 
@@ -87,7 +86,7 @@ Jei formatavimą būtina taikyti atskirai, galite jį nustatyti kaip atskirą ko
 
 [![Formatavimo taikymas atskiram komponentui](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
-## <a name="Validation"></a>Proceso eigos valdymas
+## <a name="process-flow-control"></a><a name="Validation"></a>Proceso eigos valdymas
 
 ER formulių dizaino įrankis gali būti naudojamas apibrėžiant išraiškas, kurios valdo elektroninių dokumentų generavimo proceso eigą. Galite atlikti šias užduotis:
 
@@ -112,7 +111,7 @@ ER formulių kūrimo įrankį taip pat galima naudoti ir generuojamo elektronini
 
 [![Proceso eigos valdymas](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
-## <a name="Enabled"></a>Dokumento turinio kontrolė
+## <a name="document-content-control"></a><a name="Enabled"></a>Dokumento turinio kontrolė
 
 ER formulių kūrimo įrankį galima naudoti konfigūruojant išraiškas, kontroliuojančias duomenis, įtraukiamus į generuojamus elektroninius dokumentus vykdymo metu. Pagal išraiškas įjungiama arba išjungiama tam tikrų formato elementų išvestis, atsižvelgiant į apdorojamus duomenis ir sukonfigūruotą logiką. Vieno formato elemento išraiškas galima įvesti lauke **Įjungta** skirtuke **Susiejimas** puslapyje **Operacijų kūrimo įrankis**. Išraiškas galite įvesti kaip loginę sąlygą, kuri grąžina *Bulio logikos* reikšmę:
 
@@ -139,13 +138,13 @@ Tolesnė iliustracija nurodo šio tipo išraiškas. (**ISO20022 kredito perdavim
 > 
 > Remiantis šia sąranka, į kiekvieno skolininko mokėjimo generuojamą pranešimą, XML elementą **Ustrd** bus įtrauktas arba mokėjimo pastabų tekstas, arba, kai toks tekstas yra tuščias, kableliais atskirtų sąskaitų faktūrų numerių, naudojamų atliekant šį mokėjimą, tekstas.
 
-## <a name="TestFormula"></a>Sukonfigūruotų formulių tikrinimas
+## <a name="validation-of-configured-formulas"></a><a name="TestFormula"></a>Sukonfigūruotų formulių tikrinimas
 
 Puslapyje **Formulių kūrimo įrankis** pasirinkite **Bandymas**, kad patikrintumėte, kaip veikia sukonfigūruota formulė.
 
 [![Bandymo pasirinkimas tikrinant formulę](./media/ER-FormulaTest-Start.png)](./media/ER-FormulaTest-Start.png)
 
-Kai reikia argumentų formulės reikšmių, galite atidaryti dialogo langą **Tikrinimo išraiškos**puslapyje **Formulių kūrimo įrankis**. Daugeliu atvejų šiuos argumentus reikia nustatyti neautomatiniu būdu, nes sukonfigūruoti susiejimai nepaleidžiami kūrimo metu. Skirtuko **Bandymo rezultatas** puslapyje **Formulių kūrimo įrankis** rodomas sukonfigūruotos formulės vykdymo rezultatas.
+Kai reikia argumentų formulės reikšmių, galite atidaryti dialogo langą **Tikrinimo išraiškos** puslapyje **Formulių kūrimo įrankis**. Daugeliu atvejų šiuos argumentus reikia nustatyti neautomatiniu būdu, nes sukonfigūruoti susiejimai nepaleidžiami kūrimo metu. Skirtuko **Bandymo rezultatas** puslapyje **Formulių kūrimo įrankis** rodomas sukonfigūruotos formulės vykdymo rezultatas.
 
 Toliau pateikiamas pavyzdys, kaip patikrinti formulę, kuri sukonfigūruota užsienio prekybos domenui, kad įsitikintumėte, jog „Intrastat“ prekės kode yra tik skaitmenys.
 

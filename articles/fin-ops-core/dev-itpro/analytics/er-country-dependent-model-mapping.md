@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 6c4b18a3cf2ba313756d5f761ef1beb2c3015516
-ms.sourcegitcommit: 56add4c49c35c65a75fa2ca5234927e7f7cd66ef
+ms.openlocfilehash: a9035f128a1db4bcd126f09c0fe30c1857fa884a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2781150"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680882"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>Nuo šalies konteksto priklausančio ER modelio susiejimų konfigūravimas
 
@@ -93,7 +92,7 @@ Atlikite šiuos veiksmus, kad apibrėžtumėte modelio susiejimo konfigūraciją
 2.  „FastTab“ **Versijos** pasirinkite **Vykdyti**.
 3.  Pasirinkite **Gerai**.
 
-Atkreipkite dėmesį, kad pasirinktas ER formatas pavyko. Žiniatinklio naršyklė siūlo atsisiųsti tekstinį failą, kurį sugeneravo įvykdytas ER formatas. Kadangi šis formatas sukonfigūruotas, kad būtų galima naudoti **1 įvesties taškas** apibrėžimą, o modelio **Pasirinktinis (bendrasis) susiejimas** susiejimo konfigūracija buvo pasirinkta kaip numatytoji konfigūracija, įvykdytas ER formatas naudojo konfigūracijos **Pasirinktinis (bendrasis) susiejimas** modelio**Susiejimas (bendrasis) kopija** konvertavimą kaip duomenų šaltinį. Todėl atsisiųstame faile yra **1 bendrosios funkcijos** tekstas.
+Atkreipkite dėmesį, kad pasirinktas ER formatas pavyko. Žiniatinklio naršyklė siūlo atsisiųsti tekstinį failą, kurį sugeneravo įvykdytas ER formatas. Kadangi šis formatas sukonfigūruotas, kad būtų galima naudoti **1 įvesties taškas** apibrėžimą, o modelio **Pasirinktinis (bendrasis) susiejimas** susiejimo konfigūracija buvo pasirinkta kaip numatytoji konfigūracija, įvykdytas ER formatas naudojo konfigūracijos **Pasirinktinis (bendrasis) susiejimas** modelio **Susiejimas (bendrasis) kopija** konvertavimą kaip duomenų šaltinį. Todėl atsisiųstame faile yra **1 bendrosios funkcijos** tekstas.
 
 > [!NOTE]
 > Jei pakeisite įmonę, kurioje šiuo metu esate prisiregistravę, ir dar kartą paleisite šį ER formatą, sugeneruotame faile gausite tokį patį turinį, nes numatytoje ER modelio susiejimo konfigūracijoje nėra jokių įmonei priklausančių apribojimų.
@@ -113,7 +112,7 @@ Atkreipkite dėmesį, kad modelio susiejimo konfigūracijos **Susiejimas (FR)** 
 3.  „FastTab“ **Versijos** pasirinkite **Vykdyti**.
 4.  Pasirinkite **Gerai**.
 
-Atkreipkite dėmesį, kad pasirinktas ER formatas pavyko. Interneto naršyklė siūlo atsisiųsti tekstinį failą, kurį sugeneravo įvykdytas ER formatas. Kadangi šis formatas sukonfigūruotas, kad būtų galima naudoti **1 įvesties taškas** apibrėžimą, o modelio **Pasirinktinis (bendrasis) susiejimas** susiejimo konfigūracija buvo pasirinkta kaip numatytoji konfigūracija, įvykdytas ER formatas naudojo konfigūracijos **Pasirinktinis (bendrasis) susiejimas** modelio**Susiejimas (bendrasis) kopija** konvertavimą kaip duomenų šaltinį. Todėl atsisiųstame faile yra **1 bendrosios funkcijos** tekstas.
+Atkreipkite dėmesį, kad pasirinktas ER formatas pavyko. Interneto naršyklė siūlo atsisiųsti tekstinį failą, kurį sugeneravo įvykdytas ER formatas. Kadangi šis formatas sukonfigūruotas, kad būtų galima naudoti **1 įvesties taškas** apibrėžimą, o modelio **Pasirinktinis (bendrasis) susiejimas** susiejimo konfigūracija buvo pasirinkta kaip numatytoji konfigūracija, įvykdytas ER formatas naudojo konfigūracijos **Pasirinktinis (bendrasis) susiejimas** modelio **Susiejimas (bendrasis) kopija** konvertavimą kaip duomenų šaltinį. Todėl atsisiųstame faile yra **1 bendrosios funkcijos** tekstas.
 
 ### <a name="define-the-france-specific-mapping-configuration-as-the-default-configuration"></a>Prancūzijai būdingo susiejimo konfigūracijos nustatymas kaip numatytoji konfigūracija
 
@@ -132,7 +131,7 @@ Atlikite šiuos veiksmus, norėdami apibrėžti pasirinktinę modelio **Susiejim
 2.  „FastTab“ **Versijos** pasirinkite **Vykdyti**.
 3.  Pasirinkite **Gerai**.
 
-Atkreipkite dėmesį, kad pasirinktas ER formatas pavyko. Interneto naršyklė siūlo atsisiųsti tekstinį failą, kurį sugeneravo įvykdytas ER formatas. Kadangi šis formatas sukonfigūruotas, kad būtų galima naudoti **1 įvesties taškas** apibrėžimą, o modelio **Susiejimas (FR)** susiejimo konfigūracija buvo pasirinkta kaip numatytoji konfigūracija, įvykdytas ER formatas naudojo konfigūracijos **Susiejimas (FR)** modelio**Susiejimas (bendrasis) kopija** konvertavimą kaip duomenų šaltinį. Todėl atsisiųstame faile yra **1 FR funkcija** tekstas.
+Atkreipkite dėmesį, kad pasirinktas ER formatas pavyko. Interneto naršyklė siūlo atsisiųsti tekstinį failą, kurį sugeneravo įvykdytas ER formatas. Kadangi šis formatas sukonfigūruotas, kad būtų galima naudoti **1 įvesties taškas** apibrėžimą, o modelio **Susiejimas (FR)** susiejimo konfigūracija buvo pasirinkta kaip numatytoji konfigūracija, įvykdytas ER formatas naudojo konfigūracijos **Susiejimas (FR)** modelio **Susiejimas (bendrasis) kopija** konvertavimą kaip duomenų šaltinį. Todėl atsisiųstame faile yra **1 FR funkcija** tekstas.
 
 > [!NOTE]
 > Jei pakeičiate įmonę, prie kurios šiuo metu esate prisijungę, ir dar kartą vykdote šį ER formatą, išvestis priklausys nuo pasirinktos įmonės šalies / regiono konteksto.
@@ -202,7 +201,7 @@ Lentelėje pliuso ženklas (+) nurodo, kad modelio susiejimo konfigūracija yra 
 
 Atkreipkite dėmesį, kad naujas įrašas buvo įtrauktas į įvykdyto ER formato ER derinimų žurnalą. Kadangi šio įrašo laukas **Lygis** nustatytas kaip **Informacinis**, įrašas yra informacinis. Kadangi formato komponento laukas nustatytas kaip **Susiejimo konfigūracija**, įraše pateikiama informacija apie modelio susiejimą, kuris buvo naudojamas vykdant ER formatą **Formatas, skirtas sužinoti apie susiejimus** (pasirinktas lauke **Konfigūracijos pavadinimas**). Lauko **Sugeneruotas tekstas** kontekste pateikiama informacija apie tai, kad **Susiejimas (FR)** susiejimo komponentas, kuris yra konfigūracijoje **Susiejimas (FR)**, buvo naudotas vykdyti šią ataskaitą.
 
-## <a name="appendix1"></a>1 priedas
+## <a name="appendix-1"></a><a name="appendix1"></a>1 priedas
 
 ### <a name="configure-a-sample-data-model"></a>Pavyzdžio duomenų modelio konfigūravimas
 
@@ -343,7 +342,7 @@ Atkreipkite dėmesį, kad šios ER konfigūracijos 1 juodraščio versija pareng
 4.  Pasirinkite **Įrašyti**.
 5.  Uždarykite puslapį.
 
-## <a name="appendix2"></a>2 priedas
+## <a name="appendix-2"></a><a name="appendix2"></a>2 priedas
 
 ### <a name="configure-a-sample-model-mapping-for-general-customization"></a>Pavyzdinio modelio susiejimo konfigūravimas bendrajam tinkinimui
 
@@ -403,7 +402,7 @@ Atkreipkite dėmesį, kad šios ER konfigūracijos 1 juodraščio versija pareng
 
 Atkreipkite dėmesį, kad sukurta konfigūracija įrašoma kaip 1 baigta versija.
 
-## <a name="appendix3"></a>3 priedas
+## <a name="appendix-3"></a><a name="appendix3"></a>3 priedas
 
 ### <a name="configure-a-sample-model-mapping-for-countryregion-specific-customization"></a>Pavyzdinio modelio susiejimo konfigūravimas tinkinimui pagal šalį / regioną
 

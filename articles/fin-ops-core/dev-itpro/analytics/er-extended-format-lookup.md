@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 28bdd02c25db27536a489f9e8ab2a91a5ca0f09c
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.openlocfilehash: f7c6cb99a6c5cc6fb92ce52041296af2d0c6722e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138865"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679491"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Leidimo nustatyti ER formato nuorodą, pateikiančią užklausą dėl formato bendrojoje saugykloje, suteikimas vartotojams
 
 [!include [banner](../includes/banner.md)]
 
-Naudodami [elektroninių ataskaitų](general-electronic-reporting.md) (ER) sistemą, galite konfigūruoti siunčiamų dokumentų [formatus](general-electronic-reporting.md#FormatComponentOutbound) pagal teisinius įvairių šalių / regionų reikalavimus. ER sistemą taip pat galite naudoti, kad sukonfigūruotumėte gaunamų dokumentų analizavimo [formatus](general-electronic-reporting.md#FormatComponentInbound) ir naudotumėte šių dokumentų informaciją programos duomenims papildyti arba atnaujinti. Visus šiuos formatus galima naudoti „Dynamics 365 Finance“ egzemplioriuje gaunamiems ir siunčiamiems verslo dokumentams tvarkyti vykdant konkretų verslo procesą. 
+Naudodami [elektroninių ataskaitų](general-electronic-reporting.md) (ER) sistemą, galite konfigūruoti siunčiamų dokumentų [formatus](general-electronic-reporting.md#FormatComponentOutbound) pagal teisinius įvairių šalių / regionų reikalavimus. ER sistemą taip pat galite naudoti, kad sukonfigūruotumėte gaunamų dokumentų analizavimo [formatus](general-electronic-reporting.md#FormatComponentInbound) ir naudotumėte šių dokumentų informaciją programos duomenims papildyti arba atnaujinti. Visus šiuos formatus galima naudoti „Dynamics 365 Finance“ egzemplioriuje gaunamiems ir siunčiamiems verslo dokumentams tvarkyti vykdant konkretų verslo procesą.
 
 Paprastai turite nurodyti, koks ER formatas turi būti naudojamas konkrečiame verslo procese. Norėdami nurodyti formatą, peržvalgos lauke, sukonfigūruotame nustatant su verslo procesu susijusius parametrus, pasirinkite vieną ER formatą. Šie peržvalgos laukai paprastai įgyvendinami naudojant atitinkamą ER sistemos API. Norėdami gauti daugiau informacijos, žr. [ER sistemos API kodas, kad būtų rodoma formato susiejimo peržvalga](er-apis-app73.md#code-to-display-a-format-mapping-lookup).
 
@@ -55,7 +54,7 @@ Kai pasirenkate ER formatą „FastTab“ **Importuoti iš bendrosios saugyklos*
 
 [![Puslapis Užsienio prekybos parametrai](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
 
-Tada, jei importavimas atliekamas sėkmingai, nuoroda į importuotą ER formatą saugoma šiame peržvalgos lauke. Atkreipkite dėmesį, kad pirmą kartą norėdami pasiekti BS, turite pereiti pateiktu saitu, kad užsiregistruotumėte [„Regulatory Configuration Service“](https://aka.ms/rcs) (RCS), kuri naudojama prieigai prie BS valdyti.
+Tada, jei importavimas atliekamas sėkmingai, nuoroda į importuotą ER formatą saugoma šiame peržvalgos lauke. Pirmą kartą norėdami pasiekti BS turite pasinaudoti pateiktu saitu ir užsiregistruoti naudoti [Regulatory Configuration Service](https://aka.ms/rcs) (RCS), kuri naudojama prieigai prie BS valdyti.
 
 [![Puslapis Užsienio prekybos parametrai](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
 

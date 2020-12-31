@@ -1,6 +1,6 @@
 ---
 title: Kliento mokėjimo įžvalgos (peržiūra)
-description: Šioje temoje aprašomos mokėjimo įžvalgų galimybės, kurios padeda geriau suprasti įprastas atskirų klientų mokėjimo praktikas ir gali identifikuoti aplinkybes, pateisinančias išieškojimo procesus anksčiau nei jūs padarėte kitaip.
+description: Šioje temoje aprašomi mokėjimo įžvalgų pajėgumas, kuris padeda geriau suprasti įprastas atskirų klientų atsiskaitymo praktikas. Funkcija gali padėti apibrėžti aplinkybes, kuriomis reikėtų inicijuoti pinigų surinkimo procesus anksčiau, nei galbūt būtumėte tai padarę.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 11/06/2019
@@ -18,23 +18,23 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: f9f1e4ae4270380c88069723e768fd44ecf8c113
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: f151942555ac503338f0fd44aa8779e3c2970fb1
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2774010"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644638"
 ---
 # <a name="customer-payment-insights-preview"></a>Kliento mokėjimo įžvalgos (peržiūra)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Šioje temoje aprašomos mokėjimo įžvalgų galimybės, kurios padeda geriau suprasti įprastas atskirų klientų mokėjimo praktikas ir kurios gali identifikuoti aplinkybes, pateisinančias išieškojimo procesus anksčiau nei jūs galėjote padaryti kitaip. 
+Šioje temoje aprašomi mokėjimo įžvalgų pajėgumas, kuris padeda geriau suprasti įprastas atskirų klientų atsiskaitymo praktikas. Funkcija gali padėti apibrėžti aplinkybes, kuriomis reikėtų inicijuoti pinigų surinkimo procesus anksčiau, nei galbūt būtumėte tai padarę. 
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Peržiūra
 
-Organizacijoms dažnai sudėtinga prognozuoti, kada klientai apmokės sąskaitas faktūras. Dėl šios įžvalgos stokos, prognozuojami mažiau tikslūs grynųjų pinigų srautai, išieškojimo procesai pradedami per vėlai, o užsakymai yra patvirtinami klientams, kurie gali nevykdyti mokėjimo įsipareigojimų. Kliento mokėjimo įžvalgos (peržiūra) padeda organizacijoms numatyti, kada klientai apmokės sąskaitas faktūras, ir padeda sukurti išieškojimo strategijas, kurios padidina apmokėjimo laiku tikimybę. 
+Gali būti sudėtinga prognozuoti, kada klientai apmokės sąskaitas faktūras. Dėl šios įžvalgos stokos, prognozuojami mažiau tikslūs grynųjų pinigų srautai, išieškojimo procesai pradedami per vėlai, o užsakymai yra patvirtinami klientams, kurie gali nevykdyti mokėjimo įsipareigojimų. Kliento mokėjimo įžvalgos (peržiūra) padeda organizacijoms nuspėti, kada kliento sąskaita faktūra bus apmokėta. Ši informacija gali padėti organizacijoms sukurti surinkimo strategijas, kurios padidintų tikimybę, kad būtų sumokėta laiku. 
 
 ## <a name="predictions"></a>Prognozės
 
@@ -42,13 +42,13 @@ Mokėjimo prognozės suteiks organizacijoms galimybę tobulinti savo verslo proc
 
 Naudodamosi mašininio mokymosi modeliu, kuris naudoja istorines sąskaitas-faktūras, mokėjimus ir kliento duomenis, kliento mokėjimo įžvalgos (peržiūra) tiksliau prognozuos, kada klientas apmokės neapmokėtą sąskaitą-faktūrą.
 
-Kiekvienai atvirai sąskaitai faktūrai kliento mokėjimo įžvalgos (peržiūra) numato tris mokėjimo galimybes:
+Kiekvienai atvirai sąskaitai faktūrai kliento mokėjimo įžvalgos (peržiūra) gali numatyti tris mokėjimo galimybes.
 
 -   Tikimybė, kad mokėjimas bus atliktas laiku 
 -   Tikimybė, kad mokėjimas bus atliktas pavėluotai
 -   Tikimybė, kad mokėjimas bus atliktas labai  pavėluotai
 
-Norėdami padėti organizacijoms suprasti visą mokėjimo sumą, kurią jie gali tikėtis gauti iš kliento vienu iš trijų laikotarpiu – laiku, pavėluotai, labai pavėluotai – kliento mokėjimų įžvalgos (peržiūra) taip pat pateikia bendrą kaupiamąjį numatomo mokėjimo rodinį.
+Kliento mokėjimo įžvalgos (peržiūra) taip pat pateikia bendrą kaupiamąjį numatomo mokėjimo rodinį, kad padėtų organizacijoms suprasti visą mokėjimo sumą, kurią jie gali tikėtis gauti iš kliento vienu iš trijų laikotarpiu – laiku, pavėluotai, labai pavėluotai.
 
 [![Kaupiamasis mokėjimo prognozių rodinys](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
@@ -62,7 +62,7 @@ Naudodamos kliento mokėjimo įžvalgas (peržiūra), organizacijos gali aktyvia
 
 ## <a name="methodology"></a>Metodika
 
-Kurti ir visuotinai diegti AI sprendimus yra sudėtinga. Reikia duomenų mokslininkų, temos ekspertų ir inžinierių komandos, kuri ilgą laiką dirba, kad suformuluotų, sukurtų, visuotinai įdiegtų ir išlaikytų naudotiną AI sprendimą. Mes stengiamės, kad AI sprendimus būtų lengva visuotinai įdiegti ir naudoti „Finance“. Iš anksto supakuojame AI sprendimus „Finance“, kurie yra įdiegti ant „Microsoft AI Builder“. Galutinis vartotojas vienu mygtuko paspaudimu gali visuotinai įdiegti AI sprendimą ir pradėti naudotis išmaniųjų prognozių privalumais. Jei organizacija nepatenkinta prognozių tikslumu, patyręs vartotojas vienu mygtuko paspaudimu gali įvesti „AI builder“ plėtinio patirtį, tada pasirinkti arba panaikinti laukų, skirtų generuoti prognozes, pasirinkimą. Kai pasiruošta, jie gali išmokyti ir publikuoti keitimus, o naujai išmokytas modelis bus automatiškai pasirenkamas prognozėms „Finance“.
+Kurti ir visuotinai diegti AI sprendimus yra sudėtinga. Reikia duomenų mokslininkų, temos ekspertų ir inžinierių komandos, kuri ilgą laiką dirba, kad suformuluotų, sukurtų, visuotinai įdiegtų ir išlaikytų naudotiną DI sprendimą. Mes stengiamės, kad AI sprendimus būtų lengva visuotinai įdiegti ir naudoti „Finance“. Iš anksto supakuojame AI sprendimus „Finance“, kurie yra įdiegti ant „Microsoft AI Builder“. Galutinis vartotojas vienu mygtuko paspaudimu gali visuotinai įdiegti AI sprendimą ir pradėti naudotis išmaniųjų prognozių privalumais. Jei organizacija nepatenkinta prognozių tikslumu, patyręs vartotojas vienu mygtuko paspaudimu gali įvesti „AI builder“ plėtinio patirtį, tada pasirinkti arba panaikinti laukų, skirtų generuoti prognozes, pasirinkimą. Kai pasiruošta, jie gali išmokyti ir publikuoti keitimus, o naujai išmokytas modelis bus automatiškai pasirenkamas prognozėms „Finance“.
 
 ## <a name="how-to-get-customer-payment-insights-preview"></a>Kaip gauti kliento mokėjimo įžvalgas (peržiūra)
 

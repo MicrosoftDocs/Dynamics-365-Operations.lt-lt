@@ -17,12 +17,12 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0cadc0faf09c99252da0ad6c715c5979fdb528e9
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 8c489a1ffcc63cf1f486c2d6b58599ae2b2c6cf2
+ms.sourcegitcommit: 102c1e998a591a295307c588dfe523cfa750d43c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983077"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665494"
 ---
 # <a name="vat-register-transactions-for-eastern-europe"></a>PVM registro operacijos (Rytų Europa)
 
@@ -30,7 +30,7 @@ ms.locfileid: "3983077"
 
 Šioje temoje pateikiama informacija apie PVM registro operacijas, skirtas Estijai, Lietuvai, Čekijos Respublikai, Vengrijai, Latvijai ir Lenkijai. 
 
-Jei pagrindinis juridinio subjekto adresas yra Estijoje, Lietuvoje, Čekijos Respublikoje, Vengrijoje, Latvijoje arba Lenkijoje, galite peržiūrėti mokesčių operacijas ir naujinti jų **PVM registro datą**. Norėdami peržiūrėti PVM registro operacijas, pasirinkite **Mokesčiai** &gt; **Periodinės užduotys** &gt; **PVM registro operacijos**. Šiame puslapyje rodomos mokesčių operacijos, sukurtos naudojant tipo **Standartinis PVM** PVM kodus, kurių **PVM registro data** yra nenurodyta. Galite užpildyti mokesčių operacijų lauką **PVM registro data** naudodami mygtuką **PVM registro data**, kuris pateiktas dalyje **Pagrindinis meniu**. Jei pirminis juridinio subjekto adresas yra Čekijos Respublikoje, pateikiamas papildomas stulpelis, **Atidėtas PVM**. Jei pasirinktas šis laukas, tai reiškia, kad operacijos pridėtinės vertės mokesčio ataskaita nepateikta. Paprastai tai taikoma pardavimo kredito pažymoms, laukiančioms kliento patvirtinimo. Šį žymės langelį galite pažymėti pardavimo SF registravimo proceso metu. Puslapyje **PVM kodai** (**Mokesčiai** &gt; **PVM** &gt; **PVM kodai**) galite peržiūrėti arba naujinti PVM kodo tipą. Daugiau informacijos apie PVM kodus žr. [Nustatyti PVM kodus](../general-ledger/tasks/set-up-sales-tax-codes.md).
+Jei pagrindinis juridinio subjekto adresas yra Estijoje, Lietuvoje, Čekijos Respublikoje, Vengrijoje, Latvijoje arba Lenkijoje, galite peržiūrėti mokesčių operacijas ir naujinti jų **PVM registro datą**. Norėdami peržiūrėti PVM registro operacijas, eikite į **Mokesčiai** > **Periodinės užduotys** > **PVM registro operacijos**. Šiame puslapyje rodomos mokesčių operacijos, sukurtos naudojant tipo **Standartinis PVM** PVM kodus, kurių **PVM registro data** yra nenurodyta. Galite užpildyti mokesčių operacijų lauką **PVM registro data** pasirinkdami elementą **PVM registro data**, kuris pateiktas dalyje **Pagrindinis meniu**. Jei pirminis juridinio subjekto adresas yra Čekijos Respublikoje, pateikiamas papildomas stulpelis, **Atidėtas PVM**. Jei pasirinktas šis laukas, operacijos pridėtinės vertės mokesčio ataskaita dar nepateikta. Atidėtas PVM paprastai taikomas pardavimo kredito pažymoms, laukiančioms kliento patvirtinimo. Šį žymės langelį galite pažymėti pardavimo SF registravimo proceso metu. Puslapyje **PVM kodai** (**Mokesčiai** &gt; **PVM** &gt; **PVM kodai**) galite peržiūrėti arba naujinti PVM kodo tipą. Daugiau informacijos apie PVM kodus žr. [PVM kodų nustatymas](../general-ledger/tasks/set-up-sales-tax-codes.md).
 
 
 

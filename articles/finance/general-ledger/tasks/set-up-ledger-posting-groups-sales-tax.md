@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1481b714d089994c1f00189cdaba3ca328f00577
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 90fe7f3ab08e9417af3f857f04934a9b5df3d82d
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983112"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644902"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Nustatyti PVM skirtas DK registravimo grupes
 
@@ -32,7 +32,7 @@ PVM yra skaičiuojamas ir registruojamas į pagrindines sąskaitas, kurios yra n
 1. Eikite į **Naršymo sritis > Moduliai > Mokestis > Sąranka > PVM > DK registravimo grupės**.
 2. Spustelėkite **Naujas**.
 3. Lauke **DK registravimo grupė** įveskite reikšmę.
-4. Lauke **Aprašo laukas**surinkite reikšmę.
+4. Lauke **Aprašo laukas** surinkite reikšmę.
 5. Lauke **Mokėtinas PVM** pasirinkite pagrindinę mokesčių institucijai mokamo PVM sąskaitą. Kai parduodate apmokestintas prekes ir paslaugas, mokesčių institucija renka PVM.  
 6. Lauke **Gaunamas PVM** pasirinkite pagrindinę iš mokesčių institucijos gaunamų mokesčių sąskaitą. Kai apmokestintas prekes ir paslaugas perkate, mokesčių institucijos vardu PVM renka tiekėjai. Šis laukas nepasiekiamas, jei puslapyje **Didžiosios knygos parametrai** pažymėta parinktis Taikyti PVM apmokestinimo taisykles. Tuomet tiekėjui mokami PVM yra debetuojami į tą pačią sąskaitą kaip ir pirkimas.   
 7. Lauke **Naudojimo mokesčio išlaidos** pasirinkite pagrindinę sąskaitą, skirtą atskaitomiems naudojimo mokesčiams, kurie nesusigrąžinami ar apie kuriuos tiekėjai neteikia ataskaitų mokesčių institucijai pagal ES atvirkštinio apmokestinimo GST / HST. **PVM grupėje**, kuri naudojama operacijai, turi būti pažymėta **PVM kodas** parinktis **Naudojimo mokestis**. Šis laukas nepasiekiamas, jei puslapyje **Didžiosios knygos parametrai** pažymėta parinktis **Taikyti PVM apmokestinimo taisykles**.   

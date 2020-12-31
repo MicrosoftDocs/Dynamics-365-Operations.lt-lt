@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8ff3b419caafec626497c65ea18ca24ca95cb5d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 4e59e9f2dd5a0fa6d5955e3d93d25759a478ede7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143058"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684432"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>Atskirų ER konfigūracijų ER modelio susiejimo valdymas
 
@@ -57,7 +56,7 @@ Kadangi įmonės dalijasi ER konfigūracijomis, galite baigti šį užduočių v
 16. Uždarykite puslapį.
 17. Spustelėkite keisti būseną.
 18. Spustelėkite Baigti.
-19. Spustelėkite GERAI.
+19. Spustelėkite Gerai.
 
 ## <a name="add-a-new-er-model-mapping-configuration"></a>Pridėkite naują ER modelio susiejimo konfigūraciją
 1. Spustelėdami Kurti konfigūraciją, atidarykite išplečiamąjį dialogo langą.
@@ -66,9 +65,9 @@ Kadangi įmonės dalijasi ER konfigūracijomis, galite baigti šį užduočių v
     * Susiejimo pavyzdys  
 4. Spustelėkite Sukurti konfigūraciją.
 5. Išplėskite sekciją Išankstiniai reikalavimai.
-    * Žinokite, kad išankstinių reikalavimų grupė „Įgyvendinimas“ pridėta automatiškai. Grupėje yra išankstinio reikalavimo komponentas, kuris nurodo pirminių duomenų modelio konfigūraciją ir yra pažymėtas kaip Įgyvendinimas. Tai reiškia, kad ši susiejimo modelio pavyzdžio konfigūracija skirta duomenų modelio „Duomenų modelio pavyzdys“ įgyvendinimui. Todėl šis komponentas privers ER atsisiųsti modelio susiejimo konfigūraciją „Susiejimo pavyzdys“ iš ER saugyklos kai bus atsisiunčiama modelio konfigūracija „Duomenų modelio pavyzdys“.   
+    * Išankstinių reikalavimų grupė „Įgyvendinimas“ pridėta automatiškai. Grupėje yra išankstinio reikalavimo komponentas, kuris nurodo pirminių duomenų modelio konfigūraciją ir yra pažymėtas kaip Įgyvendinimas. Tai reiškia, kad ši susiejimo modelio pavyzdžio konfigūracija skirta duomenų modelio „Duomenų modelio pavyzdys“ įgyvendinimui. Todėl šis komponentas privers ER atsisiųsti modelio susiejimo konfigūraciją „Susiejimo pavyzdys“ iš ER saugyklos kai bus atsisiunčiama modelio konfigūracija „Duomenų modelio pavyzdys“.   
 6. Spustelėkite Konstruktorius.
-    * Atkreipkite dėmesį, kad sukurto modelio susiejimo konfigūracijoje yra naujas tuščias susiejimas tokiu pačiu pavadinimu, kaip sukurta konfigūracija. Žinokite, kad kai pasirinktoje pirminio modelio konfigūracijoje yra modelio susiejimų, jie bus nukopijuoti į naują modelio susiejimo konfigūraciją.   
+    * Sukurto modelio susiejimo konfigūracijoje yra naujas tuščias susiejimas tokiu pačiu pavadinimu, kaip sukurta konfigūracija. Kai pasirinktoje pirminio modelio konfigūracijoje yra modelio susiejimų, jie bus nukopijuoti į naują modelio susiejimo konfigūraciją.   
 7. Spustelėkite Konstruktorius.
 8. Medyje pasirinkite Dynamics 365 for Operations\Table.
 9. Spustelėkite „Įtraukti šaknį“.
@@ -112,7 +111,7 @@ Kadangi įmonės dalijasi ER konfigūracijomis, galite baigti šį užduočių v
 16. Spustelėkite Vykdyti.
     * Versijos FastTab spustelėkite Vykdyti.  
 17. Spustelėkite GERAI.
-    * Peržiūrėkite išvestį, kurioje yra įmonės pavadinimas, kurioje vartotojas, kuris vykdo šią formato konfigūraciją, prisijungęs. Žinokite, kad sukurtą modelio susiejimo konfigūraciją naudoja ši formato konfigūracija, nes yra tik viena konfigūracija, kurioje yra reikalingi modelio susiejimai.   
+    * Peržiūrėkite išvestį, kurioje yra įmonės pavadinimas, kurioje vartotojas, kuris vykdo šią formato konfigūraciją, prisijungęs. Sukurtą modelio susiejimo konfigūraciją naudoja ši formato konfigūracija, nes yra tik viena konfigūracija, kurioje yra reikalingi modelio susiejimai.   
 
 ## <a name="add-alternative-er-model-mapping-configuration"></a>Pridėkite alternatyvią ER modelio susiejimo konfigūraciją
 1. Medyje pasirinkite „Sample data model“.
@@ -153,12 +152,12 @@ Kadangi įmonės dalijasi ER konfigūracijomis, galite baigti šį užduočių v
 ## <a name="use-an-existing-er-model-mapping-configuration"></a>Naudokite esamą ER modelio susiejimo konfigūraciją
 1. Medyje pasirinkite „Sample data model\Sample format“.
 2. Spustelėkite Vykdyti.
-    * Atkreipkite dėmesį, kad pasirinktos ER formato konfigūracijos projekto versijos vykdyti negalima, nes yra daugiau kaip viena modelio susiejimo konfigūracija, prieinama neapibrėžtam duomenų modeliui, kuris buvo pasirinktas kaip vykdomo ER formato duomenų šaltinis.   
+    * Pasirinktos ER formato konfigūracijos projekto versijos vykdyti negalima, nes yra daugiau kaip viena modelio susiejimo konfigūracija, prieinama neapibrėžtam duomenų modeliui, kuris buvo pasirinktas kaip vykdomo ER formato duomenų šaltinis.   
     * toliau jūs apibrėšite alternatyvią modelio susiejimo konfigūraciją, kaip tą, iš kurios bus naudojami modelio susiejimai kaip duomenų šaltiniai veikiančiam ER formatui.   
 3. Medyje pasirinkite „Sample data model\Sample mapping (alternative)“.
 4. Lauke Numatytoji modelio susiejimo reikšmė pasirinkite Taip.
 5. Medyje pasirinkite „Sample data model\Sample format“.
 6. Spustelėkite Vykdyti.
-7. Spustelėkite GERAI.
-    * Atkreipkite dėmesį, kad numatytąją modelio susiejimo konfigūraciją naudoja ši formato konfigūracija elektroniniam dokumentui generuoti (sukurtoje išvestyje yra įmonės kodas).  
+7. Spustelėkite Gerai.
+    * Numatytąją modelio susiejimo konfigūraciją naudoja ši formato konfigūracija elektroniniam dokumentui generuoti (sukurtoje išvestyje yra įmonės kodas).  
 

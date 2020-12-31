@@ -19,11 +19,11 @@ ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
 ms.openlocfilehash: 5855581100606003c1faf6b88a0ab234ae378893
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997679"
+ms.locfileid: "4455385"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-fields"></a>Konvertavimo nustatymas pardavimo užsakymo būsenos laukams
 
@@ -44,7 +44,7 @@ Laukai, kurie nurodo pardavimo užsakymo būseną, turi skirtingas išvardijimo 
 - Išrašyta SF
 - Atšaukta
 
-**Dokumento būsenos** išvardijimas nurodo vėliausią dokumentą, sugeneruotą užsakymui. Pavyzdžiui, jei užsakymas patvirtintas, šis dokumentas yra pardavimo užsakymo patvirtinimas. Jei pardavimo užsakymas yra dalinai išrašyta SF, o tada likusi eilutė patvirtinama, dokumento būsena lieka **SF** , nes vėliau vykstančiame procese SF sugeneruojama.
+**Dokumento būsenos** išvardijimas nurodo vėliausią dokumentą, sugeneruotą užsakymui. Pavyzdžiui, jei užsakymas patvirtintas, šis dokumentas yra pardavimo užsakymo patvirtinimas. Jei pardavimo užsakymas yra dalinai išrašyta SF, o tada likusi eilutė patvirtinama, dokumento būsena lieka **SF**, nes vėliau vykstančiame procese SF sugeneruojama.
 
 **Dokumento būsenos** išvardijimas turi šias reikšmes:
 
@@ -129,7 +129,7 @@ Norėdami įgalinti **IsSOPIntegravimasĮjungtas** atributą, atlikite toliau pa
 
 Norėdami įgalinti **isVartotojoIntegravimas** atributą, atlikite toliau pateiktus veiksmus.
 
-1. Dalyje Pardavimai eikite į **Parametras \> Tinkinimas \> Tinkinti sistemą** , pasirinkite **Vartotojo objektas** ir tada atidarykite **Forma \> Vartotojas**.
+1. Dalyje Pardavimai eikite į **Parametras \> Tinkinimas \> Tinkinti sistemą**, pasirinkite **Vartotojo objektas** ir tada atidarykite **Forma \> Vartotojas**.
 
     ![Vartotojo formos atidarymas](media/sales-map-user.png)
 

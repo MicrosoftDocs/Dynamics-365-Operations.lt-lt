@@ -3,24 +3,23 @@ title: Duomenų importavimo ir eksportavimo užduočių apžvalga
 description: Norėdami kurti ir valdyti duomenų importavimo bei eksportavimo užduotis, naudokite darbo sritį Duomenų valdymas.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 04/21/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b25edf9fe09c130ea3d55b11f2698b29c7a39a8b
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: 3af49d9355f37e0016f491ed37050f75bbc65d72
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278903"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684065"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Duomenų importavimo ir eksportavimo užduočių apžvalga
 
@@ -130,7 +129,7 @@ Užduotį tuo pačiu metu galima apsaugoti pagal vaidmenis, vartotojus ir juridi
 Apibrėžę užduotį, ją galite vieną kartą vykdyti pasirinkdami mygtuką **Importuoti** arba **Eksportuoti**. Norėdami nustatyti pasikartojančią užduotį, pasirinkite **Kurti pasikartojančią duomenų užduotį**.
 
 > [!NOTE]
-> Importavimo arba eksportavimo užduotį galima vykdyti asinchroniškai pasirinkus mygtuką **Importuoti** arba **Eksportuoti**. Pasirinkus asinchroninį režimą naudojama asinchroninė sistema, kuri skiriasi nuo paketo sistemos. Tačiau asinchroninė sistema kaip paketinė sistema gali atlikti užklausų buferizavimą, todėl užduotis gali būti pradėta ne iš karto. Užduotis taip pat galima vykdyti sinchroniškai pasirinkus **Importuoti dabar** arba **Eksportuoti dabar**. Tokiu būdu užduotis pradedama iš karto ir tai naudinga, jei asinchroninė arba paketinė užduotis nepradedama dėl užklausų buferizavimo. Užduotis taip pat galima vykdyti naudojant paketą – pasirinkus parinktį **Vykdyti kaip paketą**. Paketo ištekliuose gali būti vykdomas užklausų buferizavimas, todėl paketinė užduotis gali būti pradėta ne iš karto. Asinchroninės sistemos parinktis yra naudinga, kai vartotojai tiesiogiai sąveikauja su vartotojo sąsaja ir jie nėra patyrę vartotojai, todėl nesupranta paketinio planavimo. Paketo naudojimas yra alternatyvi parinktis, jei reikia eksportuoti arba importuoti didelius kiekius. Paketines užduotis galima suplanuoti vykdyti konkrečioje paketinėje grupėje, todėl turėsite daugiau valdymo funkcijų, susijusių su apkrovų paskirstymu. Jei asinchroninėje ir paketinėje sistemose vykdomas užklausų buferizavimas dėl didelio išteklių naudojimo sistemoje, tada problemą galima laikinai išspręsti naudojant sinchroninę importavimo / eksportavimo versiją. Sinchroninė parinktis prasidės nedelsiant ir blokuos vartotojo sąsają, nes jis vykdoma sinchroniškai. Kai vyksta sinchroninė operacija, naršyklės langas turi būti atidarytas.
+> Importavimo arba eksportavimo užduotį galima vykdyti pasirinkus mygtuką **Importuoti** arba **Eksportuoti**. Tada paketinė užduotis bus suplanuota vykdyti tik vieną kartą. Užduotis gali nebūti vykdoma iš karto, jei paketinio vykdymo tarnyba ribojama dėl jos apkrovos. Užduotis taip pat galima vykdyti sinchroniškai pasirinkus **Importuoti dabar** arba **Eksportuoti dabar**. Tokiu būdu užduotis pradedama iš karto ir tai naudinga, jei paketinė užduotis nepradedama dėl ribojimo. Užduotys taip pat gali būti planuojamos vykdyti vėliau. Tai galima padaryti pasirenkant parinktį **Paketinis vykdymas**. Paketo ištekliuose gali būti vykdomas užklausų buferizavimas, todėl paketinė užduotis gali būti pradėta ne iš karto. Rekomenduojama naudoti paketą, nes jis taip pat padės dirbti su dideliais duomenų kiekiais, kuriuos reikia importuoti arba eksportuoti. Paketines užduotis galima suplanuoti vykdyti konkrečioje paketinėje grupėje, todėl turėsite daugiau valdymo funkcijų, susijusių su apkrovų paskirstymu.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Tikrinimas, ar užduotis įvykdyta taip, kaip tikėtasi
 Norint nustatyti ir ištirti importavimo bei eksportavimo užduočių triktis, galima naudoti jų retrospektyvą. Retrospektyviniai užduoties vykdymai sisteminami pagal laiko intervalus.
@@ -195,7 +194,7 @@ Užduočių retrospektyvos valymo funkcija duomenų valdyme turi būti naudojama
 
 -   DMF aprašo grupės vykdymas
 
-Turite įjungti šią funkciją per funkcijų valdymą ir tada galite ją pasiekti per **Duomenų valdymas \> Užduoties retrospektyvos valymas**.
+Turite įjungti funkciją **Vykdymo retrospektyvos valymas** funkcijų valdymo srityje ir tada galite ją pasiekti nuėję į **Duomenų valdymas \> Užduoties retrospektyvos valymas**.
 
 ### <a name="scheduling-parameters"></a>Planavimo parametrai
 
@@ -211,3 +210,36 @@ Planuodami valymo procesą, turite nurodyti šiuos parametrus, kad apibrėžtum�
 
 > [!NOTE]
 > Jei įrašai išdėstymo lentelėse iki galo nėra išvalyti, įsitikinkite, kad valymo užduotis yra suplanuota vykdyti pasikartojančiu grafiku. Kaip paaiškinta pirmiau, bet kuriuo valymo vykdymo metu užduotis išvalys tik tiek vykdymo ID, kiek galės per nustatytą maksimalų valandų skaičių. Kad būtų galima tęsti visų likusių išdėstymo įrašų valymą, užduotis turi būti suplanuota vykdyti periodiškai.
+
+## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>Užduoties retrospektyvos valymas ir archyvavimas (galima peržiūros versija, naudojant 39 „Platform update“ arba 10.0.15 versiją)
+Užduoties retrospektyvos valymo ir archyvavimo funkcija pakeičia ankstesnes valymo funkcijos versijas. Šiame skyriuje bus paaiškintos naujos galimybės.
+
+Vienas iš pagrindinių valymo funkcijos pakeitimų yra sistemos paketinės užduoties naudojimas retrospektyvai valyti. Naudodamos sistemos paketinę užduotį, „Finance and Operations“ programos gali automatiškai planuoti ir vykdyti paketines valymo užduotis, kai sistema parengta. Nebereikia paketinės užduoties planuoti neautomatiniu būdu. Šiuo numatytuoju vykdymo režimu paketinė užduotis bus vykdoma kiekvieną valandą nuo 12 val. nakties ir išlaikys vykdymo retrospektyvą pastarąsias 7 dienas. Išvalyta retrospektyva archyvuojama, kad ją būtų galima gauti ateityje.
+
+> [!NOTE]
+> Kadangi ši funkcija veikia kaip peržiūros versija, sistemos paketinė užduotis nepanaikins jokios vykdymo retrospektyvos, kol ji bus įjungta per testą DMFEnableExecutionHistoryCleanupSystemJob. Kai priemonė bus visuotinai prieinama būsimame leidime, šis testas nebus būtinas, o sistemos paketinė užduotis pradės valyti ir archyvuoti, kai sistema bus parengta, pagal nustatytą grafiką, kaip paaiškinta pirmiau. 
+
+> [!NOTE]
+> Būsimame leidime ankstesnės valymo funkcijos versijos bus pašalintos iš „Finance and Operations“ programų.
+
+Antrasis valymo proceso pakeitimas yra išvalytos vykdymo retrospektyvos archyvavimas. Išvalymo užduotis archyvuoja panaikintus įrašus didelių dvejetainių objektų saugykloje, kurią DIXF naudoja įprastai integracijai. Suarchyvuotas failas bus DIXF paketo formatu ir bus pasiekiamas 7 dienas didelių dvejetainių objektų saugykloje – tada jį bus galima atsisiųsti. Numatytąją 7 dienų suarchyvuoto failo laikymą parametruose galima pakeisti į ne daugiau nei 90 dienų.
+
+### <a name="changing-the-default-settings"></a>Numatytųjų parametrų keitimas
+Ši funkcija šiuo metu yra kaip peržiūros versija ir ji turi būti atskirai įjungta, įjungiant testą DMFEnableExecutionHistoryCleanupSystemJob. Išdėstymo valymo funkcija taip pat turi būti įjungta funkcijų valdymo srityje.
+
+Norėdami pakeisti numatytąjį suarchyvuoto failo laikymo parametrą, eikite į duomenų valdymo darbo sritį ir pasirinkite **Užduoties retrospektyvos valymas**. Parinktį **Kiek dienų paketą laikyti didelių dvejetainių objektų saugykloje** nustatykite kaip reikšmę nuo 7 iki 90 (imtinai). Tai įsigalios archyvuose, sukurtame po šio pakeitimo.
+
+### <a name="downloading-the-archived-package"></a>Suarchyvuoto paketo atsisiuntimas
+Ši funkcija šiuo metu yra kaip peržiūros versija ir ji turi būti atskirai įjungta, įjungiant testą DMFEnableExecutionHistoryCleanupSystemJob. Išdėstymo valymo funkcija taip pat turi būti įjungta funkcijų valdymo srityje.
+
+Norėdami atsisiųsti suarchyvuotą vykdymo retrospektyvą, eikite į duomenų tvarkymo darbo sritį ir pasirinkite **Užduoties retrospektyvos valymas**. Norėdami atidaryti retrospektyvos formą, pasirinkite **Paketų atsarginių kopijų retrospektyva**. Šioje formoje pateikiamas visų archyvuotų paketų sąrašas. Archyvą galima pasirinkti ir atsisiųsti pasirenkant **Atsisiųsti paketą**. Atsisiųstas paketas bus DIXF paketo formato ir jame bus tolesni failai.
+
+-   Objektų išdėstymo lentelės failas
+-   DMF aprašo grupės vykdymas
+-   DMF aprašo grupės vykdymo retrospektyva
+-   DMF vykdymas
+-   DMF išdėstymo vykdymo klaidos
+-   DMF išdėstymo žurnalas
+-   DMFSTAGINGLOGDETAILS
+-   DMF išdėstymo tikrinimo žurnalas
+

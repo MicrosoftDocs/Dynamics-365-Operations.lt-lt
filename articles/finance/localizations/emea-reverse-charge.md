@@ -1,9 +1,9 @@
 ---
-title: Atvirkštinio mokesčio PVM
+title: PVM / GST schemos atvirkštinio apmokestinimo mechanizmas
 description: Šioje temoje paaiškinama, kaip nustatyti atvirkštinio mokesčio pridėtinės vertės mokestį (PVM) Europos šalyse ir Saudo Arabijoje.
 author: epodkolz
 manager: AnnBe
-ms.date: 09/02/2020
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,21 +15,28 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9a58ae689a6185316854bf8f01d1237a487d3981
-ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
+ms.openlocfilehash: 247bc64bf0b90a641ead8a21971a6043691762fa
+ms.sourcegitcommit: f12ce34cc08cf1fa205c67f48669ea9a6566b526
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3760236"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4515054"
 ---
-# <a name="reverse-charge-vat"></a>Atvirkštinio mokesčio PVM
+# <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>PVM / GST schemos atvirkštinio apmokestinimo mechanizmas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomas bendrasis atvirkštinio apmokestinimo pridėtinės vertės mokesčiu (PVM) nustatymo metodas ES ir GCC šalyse bei Singapūre.
+Šioje temoje aprašomas bendras metodas, kaip nustatyti atvirkštinio apmokestinimo funkcijas, taikomas šalims / regionams, kur naudojamos PVM ar GST schemos.
+                                                                                 
+Šios funkcijos šalies / regiono prieinamumas valdomas naudojant tolesnes darbo srities **Funkcijų valdymas** funkcijas.
 
-> [!NOTE]                                                                                  
-> Bahreine, Kuveite, Omane ir Katare funkcija **Atvirkštinis apmokestinimo pasiekiamumas papildomose šalyse** turėtų būti įjungta darbo srityje **Funkcijų valdymas**. 
+| Funkcija                                              | Šalis/regionas                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Konkrečių funkcijų nėra                                | Austrija </br>Belgija </br>Bulgarija </br>Kroatija </br>Kipras </br>Čekijos Respublika </br>Danija  </br>Estija  </br>Suomija  </br>Prancūzija  </br>Vokietija  </br>Vengrija  </br>Islandija  </br>Airija  </br>Italija  </br>Latvija  </br>Lichtenšteinas  </br>Lietuva  </br>Liuksemburgas  </br>Olandija  </br>Norvegija, Lenkija </br>Portugalija </br>Rumunija  </br>Saudo Arabija </br>Singapūras  </br>Slovakija  </br>Slovėnija  </br>Ispanija  </br>Švedija  </br>Šveicarija  </br>Jungtinė Karalystė  </br>Jungtiniai Arabų Emyratai |
+| Atvirkštinis apmokestinimas papildomose šalyse            | Bahreinas  </br>Kuveitas  </br>Omanas  </br>Kataras                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| PVM / GST schemos atvirkštinio apmokestinimo mechanizmo įjungimas | Visos kitos šalys / regionai, išskyrus:  </br>Brazilija  </br>Indija  </br>Rusija                                                                                                                                                                                                                                                                                                                                                                                         |
+ 
+ Norėdami gauti daugiau informacijos, žr. toliau šioje temoje esantį skyrių [Funkcijos PVM / GST schemos atvirkštinio apmokestinimo mechanizmas įjungimas](#enable-reverse-charge).
 
 Atvirkštinis apmokestinimas yra mokesčio schema, kuri atsakomybę už apskaitą ir PVM ataskaitas perkelia nuo pardavėjo prekių ir (arba) paslaugų pirkėjui. Todėl savo PVM išraše prekių ir (arba) paslaugų gavėjai praneša ir mokėtiną PVM (atlikdami pardavėjo vaidmenį), ir gautiną PVM (atlikdami pirkėjo vaidmenį).
 
@@ -61,7 +68,7 @@ Turite priskirti neigiamą PVM kodą prekės PVM grupei, o po to tą PVM grupę 
 </tbody>
 </table>
 
-## <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>Nustatyti PVM grupes ir prekių PVM grupes
+## <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a><a name="sales-tax-item-sales-tax-groups"></a>Nustatyti PVM grupes ir prekių PVM grupes
 Pardavimo ir pirkimo operacijoms rekomenduojame naudoti atskiras PVM grupes.
 
 <table>
@@ -79,10 +86,10 @@ Pardavimo ir pirkimo operacijoms rekomenduojame naudoti atskiras PVM grupes.
 </tr>
 </table>
 
-## <a name="set-up-reverse-charge-groups"></a>Atvirkštinio apmokestinimo grupių nustatymas
+## <a name="set-up-reverse-charge-item-groups"></a><a name="reverse-charge-item-group"></a>Atvirkštinio apmokestinimo prekių grupių nustatymas
 Puslapyje **Atvirkštinio apmokestinimo prekių grupės** (**Mokestis** &gt; **Sąranka** &gt; **PVM** &gt; **Atvirkštinio apmokestinimo prekių grupės**) galite nurodyti produktų, paslaugų arba atskirų prekių, paslaugų, kurioms gali būti taikomas atvirkštinis apmokestinimas, grupes. Nurodykite kiekvienos atvirkštinio apmokestinimo prekių grupės prekių, prekių grupių bei pardavimų ir (arba) pirkimų kategorijų sąrašą.
 
-## <a name="set-up-reverse-charge-rules"></a>Atvirkštinio apmokestinimo taisyklių nustatymas
+## <a name="set-up-reverse-charge-rules"></a><a name="reverse-charge-rules"></a>Atvirkštinio apmokestinimo taisyklių nustatymas
 Puslapyje **Atvirkštinio apmokestinimo taisyklės** (**Mokestis** &gt; **Sąranka** &gt; **PVM** &gt; **Atvirkštinio apmokestinimo taisyklės**) galite nustatyti pirkimo ir pardavimo tikslais naudojamas tinkamumo taisykles. Galite sukonfigūruoti atvirkštinio mokesčio taikymo taisyklių rinkinį. Nustatykite šiuos kiekvienos taisyklės laukus:
 
 - **Dokumento tipas** – pasirinkite **Pirkimo užsakymas**, **Tiekėjo SF žurnalas**, **Pardavimo užsakymas**, **Laisvos formos SF**, **Kliento SF žurnalas** ir (arba) **Tiekėjo SF**.
@@ -99,18 +106,18 @@ Be to, galite nurodyti, ar, jei bus patenkinta tos dokumento eilutės sąlyga, b
 - **Raginti** – rodomas pranešimas, raginantis patvirtinti, kad galima taikyti atvirkštinio apmokestinimo mokestį.
 - **Nustatyti** – dokumento eilutė atnaujinama be papildomų pranešimų.
 
-## <a name="set-up-countryregion-properties"></a>Šalies / regiono ypatybių nustatymas
+## <a name="set-up-countryregion-properties"></a><a name="Set-up-Country/region-properties"></a>Šalies / regiono ypatybių nustatymas
 Puslapio **Užsienio prekybos parametrai** (**Mokesčiai** &gt; **Sąranka** &gt; **PVM** &gt; **Užsienio prekyba** &gt; **Užsienio prekybos parametrai**) skirtuke **Šalies / regiono ypatybės** nustatykite dabartinio juridinio subjekto šalį / regioną į *Vietinis*. ES šalių / regionų, dalyvaujančių ES prekyboje su dabartiniu juridiniu subjektu, **šalies / regiono tipą** nustatykite į *ES*. GCC šalių / regionų, dalyvaujančių GCC prekyboje su dabartiniu juridiniu subjektu, **šalies / regiono tipą** nustatykite į *GCC*.
 
 ## <a name="set-up-default-parameters"></a>Numatytųjų parametrų nustatymas
 Norėdami įgalinti atvirkštinio mokesčio PVM funkciją, puslapio **DK parametrai** skirtuke **Atvirkštinis apmokestinimas** nustatykite funkcijos **Įgalinti atvirkštinį apmokestinimą** parinktį **Taip**. Laukuose **Pirkimo užsakymų PVM grupė** ir **Pardavimo užsakymų PVM grupė** pasirinkite numatytąsias PVM grupes. Kai patenkinama atvirkštinio mokesčio taikymo sąlyga, pardavimo arba pirkimo užsakymo eilutės atnaujinamos nurodant šias PVM grupes.
 
-## <a name="reverse-charge-on-a-sales-invoice"></a>Pardavimo SF atvirkštinis apmokestinimas
+## <a name="reverse-charge-on-a-sales-invoice"></a><a name="reverse-charge-sale"></a>Pardavimo SF atvirkštinis apmokestinimas
 Pagal atvirkštinio apmokestinimo schemą atliekamiems pardavimamas pardavėjas PVM mokesčio netaiko. Tačiau SF nurodomos abi prekės, kurioms taikytinas atvirkštinio apmokestinimo PVM, bei bendra atvirkštinio PVM suma.
 
 Užregistravus atvirkštinio apmokestinimo pardavimo SF, PVM operacijos pažymimos mokesčių nuoroda **Mokėtinas PVM** bei nulinio PVM mokesčio nuoroda ir pažymimi žymės langeliai **Atvirkštinis apmokestinimas** bei **Neapmokestinama**.
 
-## <a name="reverse-charge-on-a-purchase-invoice"></a>Pirkimo SF atvirkštinis apmokestinimas
+## <a name="reverse-charge-on-a-purchase-invoice"></a><a name="reverse-charge-purchase"></a>Pirkimo SF atvirkštinis apmokestinimas
 Kai pirkimai atliekami pagal atvirkštinio apmokestinimo schemą, atvirkštinio apmokestinimo SF gavęs pirkėjas PVM apskaitos tikslais yra ir pirkėjas, ir pardavėjas.
 
 Užregistravus atvirkštinio apmokestinimo pirkimo SF sukuriamos dvi PVM operacijos. Viena operacija pažymėta mokesčių nuoroda **Gautinas PVM**. Kita operacija pažymėta mokesčių nuoroda **Mokėtinas PVM** ir pažymėtas žymės langelis **Atvirkštinis apmokestinimas**.
@@ -118,3 +125,15 @@ Užregistravus atvirkštinio apmokestinimo pirkimo SF sukuriamos dvi PVM operaci
 Toliau pateiktoje ekrano kopijoje vienos operacijos kryptis yra **Gautinas PVM**, o kitos – **mokėtinas PVM**. 
 
 ![Užregistruotas PVM](media/apac-sau-posted-sales-tax.png)
+
+## <a name="enable-reverse-charge-mechanism-for-vatgst-scheme-feature"></a><a name="enable-reverse-charge"></a>Funkcijos PVM / GST schemos atvirkštinio apmokestinimo mechanizmas įjungimas
+Darbo srityje **Funkcijų valdymas** suraskite šią funkciją ir pasirinkite **Įjungti**.
+
+Įjungus šią funkciją, visuose juridiniuose subjektuose galima naudoti skirtuką **Atvirkštinis apmokestinimas**. Įjunkite juridinio subjekto atvirkštinio apmokestinimo funkciją, nustatydami parinktį **Įjungti atvirkštinį apmokestinimą** kaip **Taip**.
+
+Bus pasiekiami tolesni puslapiai ir meniu elementai, susiję su funkcijų sąranka.
+ - **Atvirkštinio apmokestinimo prekių grupės** (**Mokesčiai** > **Sąranka** > **PVM** > **Atvirkštinio apmokestinimo prekių grupės**). Daugiau informacijos ieškokite skyriuje [Atvirkštinio apmokestinimo prekių grupių nustatymas](#reverse-charge-item-group).
+ - **Atvirkštinio apmokestinimo taisyklės** (**Mokesčiai** > **Sąranka** > **PVM** > **Atvirkštinio apmokestinimo taisyklės**). Žr. [Atvirkštinio apmokestinimo taisyklių nustatymas](#reverse-charge-rules).
+ - **Užsienio prekybos parametrai** (**Mokesčiai** > **Sąranka** > **PVM** > **Užsienio prekyba** > **Užsienio prekybos parametrai**). Žr. [Šalies / regiono ypatybių nustatymas](#Set-up-Country/region-properties).
+
+Žymės langelis **Atvirkštinis apmokestinimas** bus pasiekiamas puslapiuose **PVM grupė** ir **Užregistruotas PVM**. Norėdami gauti daugiau informacijos, žr. skyrius [PVM grupių ir prekių PVM grupių nustatymas](#sales-tax-item-sales-tax-groups), [Pardavimo SF atvirkštinis apmokestinimas](#reverse-charge-sale) ir [Pirkimo SF atvirkštinis apmokestinimas](#reverse-charge-purchase).

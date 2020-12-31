@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6132d48f276b27797e86fbcde11746b7e4da7d3b
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 7dfa8fcb3525876da66659fe3bd8bbe3b81a37a3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142460"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684552"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Formato keitimas siekiant generuti dokumentus, kuriuose yra prašymo duomenys
 
@@ -83,28 +82,29 @@ Veiksmai šioje procedūroje paaiškina, kaip kurti elektroninių ataskaitų (ER
 41. Lauke Pavadinimas įrašykite „Prekės įr. ID“.
     * Prekės įr. ID  
 42. Lauke Duomenų tipas pasirinkite „Int64“.
-43. Spustelėkite GERAI.
+43. Spustelėkite Gerai.
 44. Spustelėkite skirtuką „Susiejimas“.
 45. Medyje pasirinkite „File\Declaration\Data\File name“.
 46. Spustelėkite Susieti.
 47. Medyje išplėskite „modelis‟.
 48. Medyje išplėskite „model\Transactions“.
-49. Medyje pasirinkite „File\Declaration\Data\Item = model.Transactions\Commodity rec id“.
-50. Medyje pasirinkite „model\Transactions\Commodity rec id“.
+49. Medyje pasirinkite „File\Declaration\Data\Item = model.Transactions\Commodity rec ID“.
+50. Medyje pasirinkite „model\Transactions\Commodity rec ID“.
 51. Spustelėkite Susieti.
 52. Spustelėkite Įrašyti.
 
 ## <a name="modify-format-to-memorize-details-of-reporting"></a>Keiskite formatą, norėdami įsiminti ataskaitų informaciją
+
 1. Spustelėkite Susieti formatą su modeliu.
 2. Spustelėkite Naujas.
 3. Lauke Apibrėžtis įveskite arba pasirinkite šakninį elementą „Programos duomenų naujinimui“.
-    * Programos duomenų atnaujinimui  
+    * Programos duomenų atnaujinimui.
 4. Lauke Pavadinimas įrašykite „Susiejimas duomenų atnaujinimui“.
     * Susiejimas duomenims atnaujinti  
 5. Spustelėkite Įrašyti.
-    * Šis susiejimas apibrėžia, kaip „Intrastat“ ataskaitos duomenys surenkami duomenų modelyje, kurio struktūra yra nustatoma pagal pasirinktą šakninį elementą „Programos duomenų naujinimui“. Šie duomenys, modelio susiejimas su tuo pačiu šakniniu elementu „Programos duomenų naujinimui“ ir kryptis „Į paskirties vietą“ bus naudojami programos duomenų naujinimui. Programos duomenų atnaujinimas prasideda iš karto po to, kai sugeneruojama siunčiama Intrastat ataskaita. Atkreipkite dėmesį, kad programos duomenų atnaujinimas gali būti praleidžiamas vykdymo metu, tačiau duomenų modelis turi būti tuščias (su tuščiu įrašų sąrašu).   
+    * Šis susiejimas apibrėžia, kaip „Intrastat“ ataskaitos duomenys surenkami duomenų modelyje, kurio struktūra yra nustatoma pagal pasirinktą šakninį elementą „Programos duomenų naujinimui“. Šie duomenys, modelio susiejimas su tuo pačiu šakniniu elementu „Programos duomenų naujinimui“ ir kryptis „Į paskirties vietą“ bus naudojami programos duomenų naujinimui. Programos duomenų atnaujinimas prasideda iš karto po to, kai sugeneruojama siunčiama Intrastat ataskaita. Programos duomenų atnaujinimas gali būti praleidžiamas vykdymo metu, tačiau duomenų modelis turi būti tuščias (su tuščiu įrašų sąrašu).
 6. Spustelėkite Konstruktorius.
-    * Žinokite, kad siunčiamos Intrastat ataskaitos formatas yra įtrauktas numatytai kaip šio modelio susiejimo duomenų šaltinis.  
+    * Siunčiamos Intrastat ataskaitos formatas yra įtrauktas numatytai kaip šio modelio susiejimo duomenų šaltinis.  
     * Susiekite sukurtos ataskaitos elementus (pateikiamus kaip duomenų šaltinis) su duomenų modelio, kuris filtruojamas pagal pasirinktą modelio šakninį elementą, elementais.  
 7. Medyje išplėskite „Archyvo antraštė“.
 8. Medyje išplėskite „Archive header\Archive lines“.
@@ -120,8 +120,8 @@ Veiksmai šioje procedūroje paaiškina, kaip kurti elektroninių ataskaitų (ER
 18. Spustelėkite „Įtraukti funkciją“.
 19. Medyje išplėskite „format“.
 20. Medyje pasirinkite „format\Declaration: XML Element(Declaration)“.
-21. Medyje išplėskite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)“.
-22. Medyje pasirinkite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)“.
+21. Medyje išplėskite `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)`.
+22. Medyje pasirinkite `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)`.
 23. Spustelėkite „Įtraukti duomenų šaltinį“.
 24. Lauke Formulė įveskite „COUNT(format.Declaration.Data.Item)“.
     * COUNT(format.Declaration.Data.Item)  
@@ -130,23 +130,22 @@ Veiksmai šioje procedūroje paaiškina, kaip kurti elektroninių ataskaitų (ER
 27. Medyje pasirinkite „Archive header\File name“.
 28. Medyje pasirinkite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\File name: Item String(File name)“.
 29. Spustelėkite Susieti.
-30. Medyje pasirinkite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)\number: String(number)“.
+30. Medyje pasirinkite `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)\number: String(number)`.
 31. Medyje pasirinkite „Archive header\Archive lines\Item number“.
 32. Spustelėkite Susieti.
-33. Medyje pasirinkite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)\value: Numeric Real(value)“.
+33. Medyje pasirinkite `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)\value: Numeric Real(value)`.
 34. Medyje pasirinkite „Archive header\Archive lines\Amount“.
 35. Spustelėkite Susieti.
-36. Medyje pasirinkite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Commodity rec id: Item Int64(Commodity rec id)“.
-37. Medyje pasirinkite „Archive header\Archive lines\Commodity rec id“.
+36. Medyje pasirinkite `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Commodity rec ID: Item Int64(Commodity rec ID)`.
+37. Medyje pasirinkite „Archive header\Archive lines\Commodity rec ID“.
 38. Spustelėkite Susieti.
 39. Medyje pasirinkite „Archive header\Archive lines“.
-40. Medyje pasirinkite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)“.
+40. Medyje pasirinkite `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)`.
 41. Spustelėkite Susieti.
 42. Medyje pasirinkite „Archyvo antraštė“.
-43. Medyje pasirinkite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)“.
+43. Medyje pasirinkite `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)`.
 44. Spustelėkite Susieti.
 45. Spustelėkite Įrašyti.
 46. Uždarykite puslapį.
 47. Uždarykite puslapį.
 48. Uždarykite puslapį.
-

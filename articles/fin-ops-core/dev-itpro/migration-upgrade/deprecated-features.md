@@ -10,23 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 21821
 ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1d14003ff7595ceaa78b42f69cf1927fbd8157d
-ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
+ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4040127"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679961"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!IMPORTANT]
 > Ši tema nebebus atnaujinta. Norėdami pamatyti dabartinį funkcijų, kurios yra pašalintos ir nebenaudojamos programose „Finance and Operations“, sąrašą, ieškokite **Pašalintos arba nebenaudojamos funkcijos** turinio, kuris susijęs su jūsų naudojama programa.
@@ -79,7 +80,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Mes panaikiname metodą **setUtcString()** , nes galimas geresnis pakeitimo metodas. |
+| **Nebenaudojimo / pašalinimo priežastis** | Mes panaikiname metodą **setUtcString()**, nes galimas geresnis pakeitimo metodas. |
 | **Pakeitė kita funkcija?**   | Taip |
 | **Paveiktos produkto sritys**         | Platforma |
 | **Visuotinio diegimo parinktis**              | Visos |
@@ -137,7 +138,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 |  &nbsp; |&nbsp;  |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | **Prancūzijos FEC audito failas** , kuris pakeistas TXT formatu, pasiekiamas pasirinkus **Didžioji knyga** \> **Periodinės užduotys** \> **Duomenų eksportavimas**.
+| **Nebenaudojimo / pašalinimo priežastis** | **Prancūzijos FEC audito failas**, kuris pakeistas TXT formatu, pasiekiamas pasirinkus **Didžioji knyga** \> **Periodinės užduotys** \> **Duomenų eksportavimas**.
 | **Pakeitė kita funkcija?**   | Taip |
 | **Paveiktos produkto sritys**         | Didžioji knyga |
 | **Visuotinio diegimo parinktis**              | Visos |
@@ -185,7 +186,7 @@ Projektinių pardavimo užsakymų, kuriuose projekto sutartis turi kelis lėšų
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Parametrą pašalinus, ši funkcija visada bus įjungta. |
 | **Pakeitė kita funkcija?**   | Nr. Projektinių pardavimo užsakymų su keliais lėšų skyrimo šaltiniais palaikymo funkcija visada bus įjungta.   |
-| **Paveiktos produkto sritys**         |Parametras **Leisti projekto su keliais lėšų skyrimo šaltiniais pardavimo užsakymus** bus pašalintas. Pašalinus parametrą bus modifikuoti šie metodai: klasės **ProjStatusType** metodas **ctrlSalesOrderTable** , lauko **ProjId** metodas **validate** ir formos **SalescreateOrder** metodas **run**. Pašalinus parametrą, šie metodai bus nerekomenduojami: **IsSalesOrderAllowedForMultipleFundingSources** lentelės faile **ProjTable** , lentelės failo **ProjTable** metodas **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** , formos **ProjParameters** ir failų **ProjParameterEntity** duomenų laukas **AllowSalesOrdersForMultipleFundingSources** , lentelės failo **ProjTable** privatusis metodas **IsAssociatedToMultipleFundingSourcesContract**. |
+| **Paveiktos produkto sritys**         |Parametras **Leisti projekto su keliais lėšų skyrimo šaltiniais pardavimo užsakymus** bus pašalintas. Pašalinus parametrą bus modifikuoti šie metodai: klasės **ProjStatusType** metodas **ctrlSalesOrderTable**, lauko **ProjId** metodas **validate** ir formos **SalescreateOrder** metodas **run**. Pašalinus parametrą, šie metodai bus nerekomenduojami: **IsSalesOrderAllowedForMultipleFundingSources** lentelės faile **ProjTable**, lentelės failo **ProjTable** metodas **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled**, formos **ProjParameters** ir failų **ProjParameterEntity** duomenų laukas **AllowSalesOrdersForMultipleFundingSources**, lentelės failo **ProjTable** privatusis metodas **IsAssociatedToMultipleFundingSourcesContract**. |
 | **Visuotinio diegimo parinktis**              | Visos  |
 | **Būsena**                         | Planuojama, kad šie metodai nebebus rekomenduojami nuo 2020 m. balandžio mėn. leidimų bangos. |
 
@@ -229,7 +230,7 @@ Projektinių pardavimo užsakymų, kuriuose projekto sutartis turi kelis lėšų
 ### <a name="renaming-released-products"></a>Išleistų produktų pervardijimas 
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Kai naudojate funkciją **Pervadinti pirminį raktą** , kad pakeistumėte išleisto produkto „ItemId“, atnaujinamos tik tiesioginės išorinio rakto nuorodos. Visos kitos išleisto produkto nuorodos, pvz., iš gamybos užsakymų, išlaikys seną „ItemId“. Dėl to duomenys gali būti nenuoseklūs, o tai ilgainiui gali blokuoti verslo procesus. |
+| **Nebenaudojimo / pašalinimo priežastis** | Kai naudojate funkciją **Pervadinti pirminį raktą**, kad pakeistumėte išleisto produkto „ItemId“, atnaujinamos tik tiesioginės išorinio rakto nuorodos. Visos kitos išleisto produkto nuorodos, pvz., iš gamybos užsakymų, išlaikys seną „ItemId“. Dėl to duomenys gali būti nenuoseklūs, o tai ilgainiui gali blokuoti verslo procesus. |
 | **Pakeitė kita funkcija?**   | Nr. |
 | **Paveiktos produkto sritys**         | Produkto informacijos valdymas |
 | **Visuotinio diegimo parinktis**              | Visi / Viskas  |
@@ -266,7 +267,7 @@ Klientai gali naudotis **Eksportuoti** veiksmu, kurį suteikia įdėtasis SQL �
 
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Lentelės metaduomenų aprašuose gali būti laukų grupių, kuriose yra netinkamų laukų nuorodų. Įdiegus gali kiti leidimo laiko gedimų finansinėse ataskaitose ir „SQL Server Reporting Services“ (SSRS). Šiuo metu ši problema klasifikuojama kaip *kompiliatoriaus įspėjimas* , o ne *klaida* , o tai reiškia, kad diegiamo paketo kūrimą ir diegimą galima tęsti neištaisius problemos. Kaip išspręsti šią problemą<br><br>1. Pašalinkite netinkamą lauko nuorodą iš lentelės lauko grupės aprašo.<br><br>2. Perkompiliuokite.<br><br>3. Įsitikinkite, kad pašalinti visi įspėjimai arba klaidos. |
+| **Nebenaudojimo / pašalinimo priežastis** | Lentelės metaduomenų aprašuose gali būti laukų grupių, kuriose yra netinkamų laukų nuorodų. Įdiegus gali kiti leidimo laiko gedimų finansinėse ataskaitose ir „SQL Server Reporting Services“ (SSRS). Šiuo metu ši problema klasifikuojama kaip *kompiliatoriaus įspėjimas*, o ne *klaida*, o tai reiškia, kad diegiamo paketo kūrimą ir diegimą galima tęsti neištaisius problemos. Kaip išspręsti šią problemą<br><br>1. Pašalinkite netinkamą lauko nuorodą iš lentelės lauko grupės aprašo.<br><br>2. Perkompiliuokite.<br><br>3. Įsitikinkite, kad pašalinti visi įspėjimai arba klaidos. |
 | **Pakeitė kita funkcija?**   | Ateityje šis įspėjimas bus pakeistas į kompiliavimo klaidą. |
 | **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai |
 | **Visuotinio diegimo parinktis**              | Visi / Viskas |
@@ -356,14 +357,14 @@ Pasirinktinių funkcijų įtraukti norint naudoti ER išraiškos daryklė (daugi
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Kodo antspaudavimo iniciatyva  |
-| **Pakeitė kita funkcija?**   | Nėra. Kai reikalinga nauja įtaisytoji funkcija, naują išplėtimo užklausą reikia skirti ER sistemos komandai.<br><br>Kol ER komanda kuria pageidaujamą funkciją, šią problemą galima laikinai išspręsti – reikalingą logiką galima suprogramuoti kaip pasirinktinės programos klasės metodą. Šį metodą galima pasiekti ER išraiškoje kaip įtraukto ER duomenų šaltinio, kurio tipas **Programa \ klasė** , ypatybę, nurodančią tą pasirinktinę programos klasę.  |
+| **Pakeitė kita funkcija?**   | Nėra. Kai reikalinga nauja įtaisytoji funkcija, naują išplėtimo užklausą reikia skirti ER sistemos komandai.<br><br>Kol ER komanda kuria pageidaujamą funkciją, šią problemą galima laikinai išspręsti – reikalingą logiką galima suprogramuoti kaip pasirinktinės programos klasės metodą. Šį metodą galima pasiekti ER išraiškoje kaip įtraukto ER duomenų šaltinio, kurio tipas **Programa \ klasė**, ypatybę, nurodančią tą pasirinktinę programos klasę.  |
 | **Paveiktos produkto sritys**         | Elektroninių ataskaitų sistema                                                      |
 | **Visuotinio diegimo parinktis**              | Visos                                                                                      |
 | **Būsena**                         | Pašalinta iš „Finance and Operations, Enterprise Edition 7.3“.    |
 
 ### <a name="inventory-by-item-group-and-inventory-by-inventory-dimension-aging-reports"></a>Atsargos pagal prekių grupę ir atsargos pagal atsargų dimensijų skirstymo pagal terminus ataskaitas
 
-Šios dvi ataskaitos nebepalaikomos programoje „Finance and Operations“. Vietoje to galima naudoti ataskaitą **Atsargų skirstymas pagal terminus** , norint pagerinti vartotojų patirtį.
+Šios dvi ataskaitos nebepalaikomos programoje „Finance and Operations“. Vietoje to galima naudoti ataskaitą **Atsargų skirstymas pagal terminus**, norint pagerinti vartotojų patirtį.
 
 | &nbsp;  | &nbsp; |
 |--------------|-----------------------|
@@ -374,12 +375,12 @@ Pasirinktinių funkcijų įtraukti norint naudoti ER išraiškos daryklė (daugi
 | **Būsena**                       | Nebenaudojama: abiejų ataskaitų meniu elementai buvo pašalinti iš 7.3 versijos. Tačiau į produktą vis dar įtrauktas ataskaitų kodas. Kodą planuojama pašalinti iš būsimo leidimo. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>„Power BI“ turinio paketai, prieinami „AppSource“
-Turinio paketai **Išlaidų valdymas** , **Finansinė veikla** ir **Retail Channel Performance** , prieinami svetainėje [Microsoft AppSource](https://appsource.microsoft.com), yra nebenaudojami dėl „Microsoft Power BI“ produkto naujinių. Sistemos administravimo formos, naudojamos šiems turinio paketams PowerBI.com diegti, taip pat nebenaudojamos programoje „Finance and Operations“.
+Turinio paketai **Išlaidų valdymas**, **Finansinė veikla** ir **Retail Channel Performance**, prieinami svetainėje [Microsoft AppSource](https://appsource.microsoft.com), yra nebenaudojami dėl „Microsoft Power BI“ produkto naujinių. Sistemos administravimo formos, naudojamos šiems turinio paketams PowerBI.com diegti, taip pat nebenaudojamos programoje „Finance and Operations“.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | „Microsoft Power BI“ produkto naujiniai. |
-| **Pakeitė kita funkcija?**   | Turinio paketai **Išlaidų valdymas** , **Finansinė veikla** ir **Retail Channel Performance** , prieinami svetainėje [AppSource](https://appsource.microsoft.com), keičiami analizės programomis, kurios suteikia galimybę integruoti sprendimą duomenų bazės lygiu. Daugiau informacijos apie analizės programas žr. [Įdėtosios „Power BI“ darbo sritys](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Pakeitė kita funkcija?**   | Turinio paketai **Išlaidų valdymas**, **Finansinė veikla** ir **Retail Channel Performance**, prieinami svetainėje [AppSource](https://appsource.microsoft.com), keičiami analizės programomis, kurios suteikia galimybę integruoti sprendimą duomenų bazės lygiu. Daugiau informacijos apie analizės programas žr. [Įdėtosios „Power BI“ darbo sritys](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Paveiktos produkto sritys**         | Išlaidų valdymas, „Finance“ ir „Retail“                                                                                               |
 | **Visuotinio diegimo parinktis**              | Tik debesyje (integravimas su PowerBI.com nepalaikomas vietinėse įdiegtyse.)                                                                                                            |
 | **Būsena**                         | Nebenaudojama: tikslinis funkcijos pašalinimo laikotarpis – 2018 m. antrasis ketvirtis.    |
@@ -391,7 +392,7 @@ Standartinė duomenų valdymo vartotojo sąsaja yra senesnė vartotojo sąsaja, 
 | &nbsp;  | &nbsp; |
 |------------------|-------------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Investuojame į naujas vartotojo patirtis naujoje vartotojo sąsajoje.             |
-| **Pakeitė kita funkcija?**   | Naujoji vartotojo sąsaja, vadinama *Patobulinti rodiniai* , keičia senąją vartotojo sąsają.            |
+| **Pakeitė kita funkcija?**   | Naujoji vartotojo sąsaja, vadinama *Patobulinti rodiniai*, keičia senąją vartotojo sąsają.            |
 | **Paveiktos produkto sritys**         | Duomenų valdymo darbo sritis                                                     |
 | **Visuotinio diegimo parinktis**              | Visos                                                                           |
 | **Būsena**                         | Nebenaudojama: tikslinis funkcijos pašalinimo laikotarpis – 2018 m. antrasis ketvirtis. |
@@ -712,7 +713,7 @@ Generuojant mokėjimo failus, failų archyvas automatiškai suarchyvuoja visus s
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Šią funkciją pakeitė pagrindiniai puslapiai Algalapis ir Žmogiškieji ištekliai.  |
-| **Pakeitė kita funkcija?**   | **Išmokų** , **Pajamų** ir kiti susiję puslapiai, kurie anksčiau buvo JAV algalapyje, perkonfigūruoti ir dabar yra pagrindinės Žmogiškųjų išteklių konfigūracijos dalis, siekiant padėti teikti palaikymą išoriniam algalapių apdorojimui. Ši funkcija pasiekiama naudojant konfigūracijos raktą **1 žmogiškieji ištekliai** \> **Algalapis**. |
+| **Pakeitė kita funkcija?**   | **Išmokų**, **Pajamų** ir kiti susiję puslapiai, kurie anksčiau buvo JAV algalapyje, perkonfigūruoti ir dabar yra pagrindinės Žmogiškųjų išteklių konfigūracijos dalis, siekiant padėti teikti palaikymą išoriniam algalapių apdorojimui. Ši funkcija pasiekiama naudojant konfigūracijos raktą **1 žmogiškieji ištekliai** \> **Algalapis**. |
 | **Paveiktos produkto sritys**         | Žmogiškieji ištekliai, Algalapis   |
 | **Būsena**                         | Pašalinta iš „Dynamics 365 for Operations“ 1611 versijos.    |
 
@@ -806,8 +807,8 @@ Suomijai skirti du mokėjimų eksportavimo formatai. LM02 (FI) naudojamas vietin
 
 |  &nbsp; |&nbsp;  |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Sandėlio valdymo II sprendimas (WMS II), kuris buvo prieinamas modulyje **Atsargų valdymas** , dubliuoja funkcijas, kurios yra modulyje **Sandėlio valdymas** , kuris buvo išleistas programoje „Dynamics AX 2012 R3“.                                                                         |
-| **Pakeitė kita funkcija?**   | Modulis **Sandėlio valdymas** , kuris buvo išleistas programoje „AX 2012 R3“, „Dynamics AX 2012 R3 CU8“ ir „Dynamics AX 2012 R3 CU9“, pakeičia II sandėlio valdymo funkcijas. Naujasis modulis turi daugiau išplėstinių funkcijų ir lankstesnių sandėlio valdymo procesų nei tie, kurie buvo II sandėlio valdyme. |
+| **Nebenaudojimo / pašalinimo priežastis** | Sandėlio valdymo II sprendimas (WMS II), kuris buvo prieinamas modulyje **Atsargų valdymas**, dubliuoja funkcijas, kurios yra modulyje **Sandėlio valdymas**, kuris buvo išleistas programoje „Dynamics AX 2012 R3“.                                                                         |
+| **Pakeitė kita funkcija?**   | Modulis **Sandėlio valdymas**, kuris buvo išleistas programoje „AX 2012 R3“, „Dynamics AX 2012 R3 CU8“ ir „Dynamics AX 2012 R3 CU9“, pakeičia II sandėlio valdymo funkcijas. Naujasis modulis turi daugiau išplėstinių funkcijų ir lankstesnių sandėlio valdymo procesų nei tie, kurie buvo II sandėlio valdyme. |
 | **Paveiktos produkto sritys**         | Atsargų valdymas, Pardavimas ir rinkodara, Įsigijimas ir šaltinio parinkimas   |
 | **Būsena**                         | Pašalinta iš „Dynamics 365 for Operations“ 1611 versijos.    |
 
@@ -847,7 +848,7 @@ Darbo eiga, skirta darbuotojų tikslų kūrimui valdyti, yra viena iš kelių da
 
 ### <a name="aif-axd-and-axbc-integrations"></a>AIF, AxD ir AxBC integracijos
 
-Programos integravimo sistemoje (AIF) duomenimis su išorinėmis sistemomis galima keistis naudojant verslo logiką, rodomą kaip paslaugas. „Dynamics AX“ apima paslaugas, paremtas dokumentais ir „.NET Business Connector“ (AxBC). Dokumentas sukuriamas naudojant XML. XML yra antraštės informacija, kuri pridedama sukurti *pranešimui* , kuris gali būti perkeliamas į „Dynamics AX“ arba iš jos. Dokumentų pavyzdžiai apima pardavimo užsakymus ir pirkimo užsakymus. Tačiau dokumentas gali atstoti beveik visus objektus, pvz., klientą. Paslaugos, paremtos dokumentais, naudoja **Axd \<Document\>** klases.
+Programos integravimo sistemoje (AIF) duomenimis su išorinėmis sistemomis galima keistis naudojant verslo logiką, rodomą kaip paslaugas. „Dynamics AX“ apima paslaugas, paremtas dokumentais ir „.NET Business Connector“ (AxBC). Dokumentas sukuriamas naudojant XML. XML yra antraštės informacija, kuri pridedama sukurti *pranešimui*, kuris gali būti perkeliamas į „Dynamics AX“ arba iš jos. Dokumentų pavyzdžiai apima pardavimo užsakymus ir pirkimo užsakymus. Tačiau dokumentas gali atstoti beveik visus objektus, pvz., klientą. Paslaugos, paremtos dokumentais, naudoja **Axd \<Document\>** klases.
 
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -1157,12 +1158,12 @@ Išankstinių pranešimų generavimo negalima atlikti naudojant paketą, bet jį
 
 ### <a name="gl-ssrs-reports"></a>DK SSRS ataskaitos
 
-Ataskaitos, kurios apima šiuos meniu elementus, pašalintos: **Bandomojo balanso suvestinė** , **Išsamus bandomasis balansas** , **Sąskaitų planas** , **Audito sekimas** , **Balansai** ir **Balansų sąrašas**.
+Ataskaitos, kurios apima šiuos meniu elementus, pašalintos: **Bandomojo balanso suvestinė**, **Išsamus bandomasis balansas**, **Sąskaitų planas**, **Audito sekimas**, **Balansai** ir **Balansų sąrašas**.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Finansines „Microsoft SQL Server“ serverio ataskaitų tarnybų (SSRS) ataskaitas pakeitė „Management Reporter“ galimybės ir numatytosios ataskaitos. |
-| **Pakeitė kita funkcija?**   | „Management Reporter“ (dabartinėje „Dynamics AX“ versijoje pažymėta **Finansinės ataskaitos** )    |
+| **Pakeitė kita funkcija?**   | „Management Reporter“ (dabartinėje „Dynamics AX“ versijoje pažymėta **Finansinės ataskaitos**)    |
 | **Paveiktos produkto sritys**         | Didžioji knyga   |
 | **Būsena**                         | Pašalinta iš „Dynamics AX 7.0“.   |
 
@@ -1359,7 +1360,7 @@ Virtualių įmonių funkcija programoje „Dynamics AX“ nebepalaikoma. Virtual
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Mažai naudojama |
-| **Pakeitė kita funkcija?**   | Ne, bet puslapis **Šablono ryšys** , kuris atidaromas iš puslapio **Šablonų grupės** , palaiko tą patį verslo scenarijų kaip ir pasenęs puslapis **Darbo planuotuvas**. |
+| **Pakeitė kita funkcija?**   | Ne, bet puslapis **Šablono ryšys**, kuris atidaromas iš puslapio **Šablonų grupės**, palaiko tą patį verslo scenarijų kaip ir pasenęs puslapis **Darbo planuotuvas**. |
 | **Paveiktos produkto sritys**         | Laikas ir buvimas darbe     |
 | **Būsena**                         | Kodas bevyvo pašalintas. Tačiau forma JmgWorkPlanner nebuvo perkelta.    |
 

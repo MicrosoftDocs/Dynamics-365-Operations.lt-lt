@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ede88bc1767304a86a86ec27365db9403c5a951d
-ms.sourcegitcommit: 4909e55529f03310d24b7e40d52751e24d35259b
+ms.openlocfilehash: 7cd0d8e7aa9595e705416798772f52956ef609da
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3678253"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680247"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Suprojektuokite naują ER sprendimą tinkintos ataskaitos spausdinimui
 
 [!include[banner](../includes/banner.md)]
 
-Toliau atlikti žingsniai paaiškina, kaip vartotojas sistemos administratoriaus, elektroninės ataskaitos kūrėjo ar elektroninės ataskaitos funkcijų konsultanto vaidmenyje gali konfigūruoti ES darbo grafiko sprendimus, projektuoti reikiamas naujo ER konfigūracijas prieigai prie konkrečių verslo domeno duomenų ir kurti tinkintą ataskaitą „Microsoft Office“ formate. Šie žingsniai gali būti užbaigti**USMF** bendrovėje.
+Toliau atlikti žingsniai paaiškina, kaip vartotojas sistemos administratoriaus, elektroninės ataskaitos kūrėjo ar elektroninės ataskaitos funkcijų konsultanto vaidmenyje gali konfigūruoti ES darbo grafiko sprendimus, projektuoti reikiamas naujo ER konfigūracijas prieigai prie konkrečių verslo domeno duomenų ir kurti tinkintą ataskaitą „Microsoft Office“ formate. Šie žingsniai gali būti užbaigti **USMF** bendrovėje.
 
 - [ER sistemos konfigūracija](#ConfigureFramework)
 
@@ -142,10 +141,10 @@ Kaip elektroninės ataskaitos kūrėjo vaidmenyje esantis vartotojas, turite suk
 
 ### <a name="configure-er-parameters"></a><a name="ConfigureParameters"></a>ER parametrų konfigūravimas
 
-1. Eikite į **Administracijos organizavimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
-2.  **Elektroninės ataskaitos** darbo srityje, pasirinkite **Elektroninės ataskaitos parametrai**.
-3.  **Elektroninės ataskaitos parametrai** puslapyje, **Bendri** skirtuke, nustatykite **Įjungti projektavimo režimo** parinktį į **Taip**.
-4.  **Priedai** skirtuke, nustatykite šiuos parametrus:
+1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
+2. Darbo srityje **Elektroninės ataskaitos** pasirinkite **Elektroninių ataskaitų parametrai**.
+3. **Elektroninių ataskaitų parametrai** puslapyje **Bendra** skirtuke nustatykite **Įjungti dizaino režimą** parinktį į **Taip**.
+4. **Priedai** skirtuke nustatykite tolesnius parametrus:
 
     - Nustatykite **Konfigūravimai** laukelį į **Failas** **USMF** bendrovei.
     - Nustatykite **Darbo archyvas**, **Laikinas**, **Pagrindinis** ir **Kiti** laukeliai į **Failas**.
@@ -161,28 +160,28 @@ Visi ER konfigūravimai yra pažymėti kaip turimi ER konfigūravimo tiekėjo. D
 
 #### <a name="review-the-list-of-er-configuration-providers"></a><a name="ReviewProvidersList"></a>ER konfigūracijos teikėjų sąrašo peržiūra
 
-1. Eikite į **Administracijos organizavimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
+1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
 2. **Elektroninės ataskaitos** darbo srityje, **Susijusios nuorodos** skyriuje, pasirinkite **Konfigūravimo tiekėjai**.
 3. **Konfigūravimo tiekėjai** puslapyje, visi konfigūravimo tiekėjo įrašai turi unikalų pavadinimą ir URL. Peržiūrėkite šio puslapio turinį. Jei įrašas, skirtas **Litware, Inc.** ( `https://www.litware.com`) jau yra, praleiskite sekančią procedūrą, [Pridėkite naują ER konfigūracijos teikėją](#ActivateProvider).
 
 #### <a name="add-a-new-er-configuration-provider"></a><a name="AddProvider"></a>Pridėkite naują ER konfigūracijos tiekėją
 
 1. **Konfigūracijos tiekėjai** puslapyje pasirinkite **Nauja**.
-2. **Pavadinimas** laukelyje įveskite **Litware, Inc.**
-3. **Internetinis adresas** lauke įveskite  `https://www.litware.com`.
-4. Pasirinkite **Įrašyti**.
+2. Lauke **Pavadinimas** įveskite **Litware, Inc.**
+3. **Internetinis adresas** lauke įveskite `https://www.litware.com`.
+4. Pasirinkite **Įrašyti**.
 
 #### <a name="activate-an-er-configuration-provider"></a><a name="ActivateAddedProvider"></a>ER konfigūracijos tiekėjo aktyvavimas
 
-1. Eikite į **Administracijos organizavimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
+1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
 2. **Elektroninės ataskaitos** darbo srityje, pasirinkite **Litware, Inc.** konfigūravimo tiekėją.
-3. Pasirinkite **Nustatyti įjungtą**.
+3. Pasirinkite **Nustatyti kaip aktyvų**.
 
 Daugiau informacijos apie ER konfigūracijos tiekėjus žr. [Konfigūracijos teikėjų kūrimas pažymint juos kaip aktyvius](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ## <a name="design-a-domain-specific-data-model"></a><a name="DesignModel"></a>Suprojektuoti domeno konkretų duomenų modelį
 
-Privalote sukurti naują ER konfigūravimą, kuris turi [duomenų modelį](general-electronic-reporting.md#data-model-and-model-mapping-components) komponentą **Klausimyno** verslo domenui. Šis duomenų modelis vėliau bus naudojamas kaip duomenų šaltinis, kai projektuosite ER formatą **Klausimyno** ataskaitos sukūrimui.
+Privalote sukurti naują ER konfigūraciją, kurioje yra verslo domeno **Klausimynas** komponentą [duomenų modelis](general-electronic-reporting.md#data-model-and-model-mapping-components). Šis duomenų modelis vėliau bus naudojamas kaip duomenų šaltinis, kai projektuosite ER formatą **Klausimyno** ataskaitos sukūrimui.
 
 Atlikę žingsnius [Imporuoti naują duomenų modelio konfigūravimą](#ImportDataModel) skyriuje, galite importuoti reikiamą duomenų modelį iš pateikto XML failo. Kitu atveju, galite atlikti žingsnius [Sukurti naują duomenų modelio konfigūravimą](#DesignDataModel) skyriuje tam, kad suprojektuotumėte šį duomenų modelį iš pradžių.
 
@@ -209,7 +208,7 @@ Tam, kad tęstumėte, praleiskite kitą procedūrą, [Sukurti naują duomenų mo
 
 1. **Konfigūravimai** puslapyje, konfigūravimo medyje, pasirinkite **Klausimyno modelis**.
 2. Pasirinkite **Dizaino įrankis**.
-3. **Duomenų modelio kūrėjo** puslapyje, **Bendri** „FastTab“, **Pavadinimas** laukelyje įveskite<a name="DataModeName"></a>**Klausimynai**.
+3. **Duomenų modelio kūrėjo** puslapyje, **Bendri** „FastTab“, **Pavadinimas** laukelyje įveskite <a name="DataModeName"></a>**Klausimynai**.
 
 #### <a name="add-new-data-model-fields"></a><a name="FieldsEntry"></a>Įtraukite naujus duomenų modelio laukelius
 
@@ -286,7 +285,7 @@ Tam, kad tęstumėte, praleiskite kitą procedūrą, [Sukurti naują duomenų mo
 3. **Versijos** „FastTab“, pasirinkite konfigūravimo versiją, kuri turi statusą **Juodraštis**.
 4. Pasirinkite **Keisti statusą** \> **Užbaigtas**.
 
-Šios konfigūracijos versijos 1 statusas yra keičiamas iš **Juodraštis** į **Užbaigtas**. Versija 1 nebegali būti keičiama. Šioje versijoje yra konfigūruotų duomenų modelis ir gali būti naudojamas pagal kitas ER konfigūracijas. Šios konfigūracijos versija 2 yra sukurta ir turi**Juodraštis** statusą. Galite redaguoti šią versiją tam, kad keistumėte **Klausimyno** duomenų modelį.
+Šios konfigūracijos versijos 1 statusas yra keičiamas iš **Juodraštis** į **Užbaigtas**. Versija 1 nebegali būti keičiama. Šioje versijoje yra konfigūruotų duomenų modelis ir gali būti naudojamas pagal kitas ER konfigūracijas. Šios konfigūracijos versija 2 yra sukurta ir turi **Juodraštis** statusą. Galite redaguoti šią versiją tam, kad keistumėte **Klausimyno** duomenų modelį.
 
 ![Redaguojamos ER konfigūracijos versijos konfigūravimo puslapyje](./media/er-quick-start1-model-configuration.png)
 
@@ -337,7 +336,7 @@ Naujas žemėlapio kūrimas yra automatiškai įtrauktas **Šaknies** sąvokai. 
 
 Privalote konfigūruoti duomenų šaltinius tam, kad prieitumėte prie programos lentelių, turinčių klausimyno išsamią informaciją.
 
-1. **Modelio žemėlapio kūrimo įrankis** puslapyje, **Duomenų šaltinio tipai** juostoje, pasirinkite**Dynamics 365 for Operations\\Lentelės įrašai**.
+1. **Modelio žemėlapio kūrimo įrankis** puslapyje, **Duomenų šaltinio tipai** juostoje, pasirinkite **Dynamics 365 for Operations\\Lentelės įrašai**.
 2. Įtraukite naują duomenų šaltinį, kuris bus naudojamas prieigai prie KMCollection lentelės, kurioje visi įrašai rodo vieną klausimyną:
 
     1. **Duomenų šaltiniai** juostoje pasirinkite **Įtraukti šaknį**.
@@ -367,7 +366,7 @@ Privalote konfigūruoti duomenų šaltinius tam, kad prieitumėte prie programos
 
     1. **Duomenų šaltiniai** juostoje pasirinkite **Klausimynas**.
     2. Pasirinkite **Įtraukti**.
-    3. Teksto laukelyje **Pavadinimas**laukelyje, įveskite **\$Rezultatogrupė**.
+    3. Teksto laukelyje **Pavadinimas** laukelyje, įveskite **\$Rezultatogrupė**.
     4. Pasirinkite **Redaguoti formulę**.
     5. [ER formulės redaktoriuje](general-electronic-reporting-formula-designer.md), **Formulės** laukelyje įveskite **FIRSTORNULL(\@.'\<Sąsajos'.KMQuestionResultGroup)** tam, kad naudotumėte [kelią](er-formula-language.md#paths) vieno su daugeliu ryšyje tarp KMCollection ir KMQuestionResultGroup lentelių.
     6. Pasirinkite **Įrašyti** ir uždarykite formulės redaktorių.
@@ -379,7 +378,7 @@ Privalote konfigūruoti duomenų šaltinius tam, kad prieitumėte prie programos
     1. **Duomenų šaltiniai** juostoje pasirinkite **Klausimynas**.
     2. Išplėskite **\<Ryšiai** mazgą, kuris turi vieną su keliais ryšius KMCollection lentelę.
     3. Pasirinkite susijusią **KMCollectionQuestion** lentelę ir tuomet pasirinkite **Įtraukti**.
-    4. Teksto laukelyje, **Pavadinimas** laukelyje įveskite**\$Klausimas**.
+    4. Teksto laukelyje, **Pavadinimas** laukelyje įveskite **\$Klausimas**.
     5. Pasirinkite **Redaguoti formulę**.
     6. Formulės redaktoriuje **Formulės** laukelyje įveskite **FIRSTORNULL (FILTER(Question, Question.kmQuestionId = \@.kmQuestionId))** tam, kad grąžintumėte atitinkamus klausimo įrašus iš KMQuestion lentelės.
     7. Pasirinkite **Įrašyti** ir uždarykite formulės redaktorių.
@@ -389,7 +388,7 @@ Privalote konfigūruoti duomenų šaltinius tam, kad prieitumėte prie programos
 12. Įtraukite naują apskaičiuotą laukelį, kuris bus naudojamas prieigai prie KMAnswer atsakymo įrašų iš kiekvienos susijusios KMQuestion lentelės įrašo:
 
     1. **Duomenų šaltinio** juostoje pasirinkite **Klausimynas.\<Sąsajos.KMCollectionQuestion.\$Klausimas** ir tuomet pasirinkite **Įtrarukti**.
-    2. Teksto laukelyje, **Pavadinimas** laukelyje įveskite**\$Atsakymas**.
+    2. Teksto laukelyje, **Pavadinimas** laukelyje įveskite **\$Atsakymas**.
     3. Pasirinkite **Redaguoti formulę**.
     4. Formulės redaktoriuje **Fomrulė** laukelyje įveskite **FILTRAS (Atsakymas, Answer.kmAnswerCollectionId = \@.kmAnswerCollectionId)** tam, kad grįžtumėte prie atitinkamo atsakymo įrašų iš KMAnswer lentelės.
     5. Pasirinkite **Įrašyti** ir uždarykite formulės redaktorių.
@@ -407,7 +406,7 @@ Privalote konfigūruoti duomenų šaltinius tam, kad prieitumėte prie programos
 
 Privalote konfigūruoti duomenų šaltinius prieigai prie programų numeracijų ir palyginti jų vertes su laukelių vertėmis **Numeracijos** tipo programos lentelėse. Privalote naudoti palyginimo rezultatą tam, kad užpildytumėte atitinkamus duomenų modelio laukelius.
 
-1. **Modelio žemėlapio kūrimo įrankis** puslapyje, **Duomenų šaltinio tipai** juostoje, pasirinkite**Dynamics 365 for Operations\\Numeracija**.
+1. **Modelio žemėlapio kūrimo įrankis** puslapyje, **Duomenų šaltinio tipai** juostoje, pasirinkite **Dynamics 365 for Operations\\Numeracija**.
 2. Įtraukite naują duomenų šaltinį, kuris bus naudojamas prieigos **EnumAppNoYes** numeracijai:
 
     1. **Duomenų šaltiniai** juostoje pasirinkite **Įtraukti šaknį**.
@@ -539,7 +538,7 @@ Privalote susieti konfigūruotus duomenų šaltinius į duomenų modelio laukeli
 3. **Versijos** „FastTab“, pasirinkite konfigūravimo versiją, kuri turi statusą **Juodraštis**.
 4. Pasirinkite **Keisti statusą** \> **Užbaigtas**.
 
-Šios konfigūracijos versijos 1.1 statusas yra keičiamas iš **Juodraštis** į **Užbaigtas**. Versija 1.1 nebegali būti keičiama. Šioje versijoje yra konfigūruotų žemėlapio modelis ir gali būti naudojamas pagal kitas ER konfigūracijas. Šios konfigūracijos versija 1.2 yra sukurta ir turi**Juodraštis** statusą. Galite redaguoti šią versiją tam, kad keistumėte **Klausimyno žemėlapio** konfigūravimą.
+Šios konfigūracijos versijos 1.1 statusas yra keičiamas iš **Juodraštis** į **Užbaigtas**. Versija 1.1 nebegali būti keičiama. Šioje versijoje yra konfigūruotų žemėlapio modelis ir gali būti naudojamas pagal kitas ER konfigūracijas. Šios konfigūracijos versija 1.2 yra sukurta ir turi **Juodraštis** statusą. Galite redaguoti šią versiją tam, kad keistumėte **Klausimyno žemėlapio** konfigūravimą.
 
 ![Redaguojamos ER konfigūracijos versijos konfigūravimo puslapyje](./media/er-quick-start1-mapping-configuration.png)
 
@@ -596,7 +595,7 @@ Tam, kad tęstumėte, praleiskite kitą procedūrą, [Sukurti naujo formato konf
     3. **Duomenų modelio versijos** laukelyje pasirinkite **1**.
 
         > [!NOTE]
-        > - Jei pasirenkate konkrečia bazinio duomenų modelio versiją, atitinkamos duomenų modelio versijos struktūra bus rodoma jums kaip**Modelio** duomenų šaltinio struktūra sukurtame formate.
+        > - Jei pasirenkate konkrečia bazinio duomenų modelio versiją, atitinkamos duomenų modelio versijos struktūra bus rodoma jums kaip **Modelio** duomenų šaltinio struktūra sukurtame formate.
         > - Galite palikti šį laukelį tuščią. Tokiu atveju, **Juodraščio** duomenų modelio versijos struktūra bus rodoma jums kaip **Modelio** duomenų šaltinio struktūra sukurtu formatu. Tuomet galite keisti savo modelį ir nedelsiant matyti pakeitimus savo formate. Tokia prieiga gali pagerinti ER sprendimo projekto efektyvumą jums konfigūruojant savo duomenų modelį, modelio žemėlapio kūrimas ir formatą vienu metu.
         > - Jei pasirenkate konkrečią bazinio duomenų modelio versiją, galite perjungti į naudojimą **Juodraščio** versijos vėliau, kai pradėsite redaguoti formatą.
 
@@ -612,7 +611,7 @@ Tam, kad tęstumėte, praleiskite kitą procedūrą, [Sukurti naujo formato konf
 4. Teksto laukelyje, pasirinkite šiuos žingsnius:
 
     1. Pasirinkite **Įtraukti šabloną**.
-    2. Suraskite ir pasirinkite vietiniu lygmeniu įrašytus **Klausyminš ataskaitos template.xslx**failą ir tuomet pasirinkite **Atverti**.
+    2. Suraskite ir pasirinkite vietiniu lygmeniu įrašytus **Klausyminš ataskaitos template.xslx** failą ir tuomet pasirinkite **Atverti**.
     3. Pasirinkite **Gerai** tam, kad importuotumėte šabloną.
 
     ![Ataskaitos šablono importavimas](./media/er-quick-start1-template-import.png)
@@ -625,8 +624,8 @@ Tam, kad tęstumėte, praleiskite kitą procedūrą, [Sukurti naujo formato konf
 
 1. **Formato kūrimo įrankio** puslapyje, formato medyje pasirinkite **„Excel“** šaknies elementą.
 2. **Formato** skirtuke dešinėje puslapio pusėje, **Pavadinimo** laukelyje įveskite <a name="AddFormatRootElement"></a>**Atskaitą**.
-3. **Kalbos pirmenybės** laukelyje pasirinkite**Vartotojo pirmenybės** tam, kad vykdytumėte ataskaitą vartotojo pirmenybine kalba.
-4. **Kultūros pirmenybės** laukelyje pasirinkite**Vartotojo pirmenybės** tam, kad vykdytumėte ataskaitą vartotojo pirmenybine kultūra.
+3. **Kalbos pirmenybės** laukelyje pasirinkite **Vartotojo pirmenybės** tam, kad vykdytumėte ataskaitą vartotojo pirmenybine kalba.
+4. **Kultūros pirmenybės** laukelyje pasirinkite **Vartotojo pirmenybės** tam, kad vykdytumėte ataskaitą vartotojo pirmenybine kultūra.
 
     Dėl informacijos apie tai, kaip nurodyti kalbos ir kultūros kontekstus ER procesui, žr. [Kelių kalbų ataskaitų projektavimas](er-design-multilingual-reports.md).
 
@@ -717,7 +716,7 @@ Tam, kad nurodytumėte, kaip šablonas yra užpildomas vykdymo laiku, privalote 
     | „Excel“\\Klausimynas\\Klausimas\\Atsakymas\\Taškai           | **\@.Taškai** |
     | „Excel“\\Klausimynas\\Klausimas\\Atsakymas\\Tekstas             | **\@.Tekstas** |
 
-9. Jums pabaigus, pasirinkite**Įrašyti**.
+9. Jums pabaigus, pasirinkite **Įrašyti**.
 
 Toliau pateiktas paveikslėlis rodo galutinį sukonfigūruotų susietus duomenis **Formato žemėlapio kūrimo įrankio** puslapyje.
 
@@ -800,7 +799,7 @@ Tolesnis paveikslėlis rodo „Excel“ formatu sukurtą ataskaitą, kurioje kla
 3. **Versijos** „FastTab“, pasirinkite konfigūravimo versiją, kuri turi statusą **Juodraštis**.
 4. Pasirinkite **Keisti statusą** \> **Užbaigtas**.
 
-Šios konfigūracijos versijos 1.1 statusas yra keičiamas iš **Juodraštis** į **Užbaigtas**. Versija 1.1 nebegali būti keičiama. Šioje versijoje yra konfigūruotas formatas ir gali būti naudojamas jūsų tinkintos ataskaitos spausdinimui.  Šios konfigūracijos versija 1.2 yra sukurta ir turi**Juodraštis** statusą. Galite redaguoti šią versiją tam, kad keistumėte jūsų ataskaitos **Klausimyno** formatą.
+Šios konfigūracijos versijos 1.1 statusas yra keičiamas iš **Juodraštis** į **Užbaigtas**. Versija 1.1 nebegali būti keičiama. Šioje versijoje yra konfigūruotas formatas ir gali būti naudojamas jūsų tinkintos ataskaitos spausdinimui.  Šios konfigūracijos versija 1.2 yra sukurta ir turi **Juodraštis** statusą. Galite redaguoti šią versiją tam, kad keistumėte jūsų ataskaitos **Klausimyno** formatą.
 
 ![Redaguojamos ER konfigūracijos versijos konfigūravimo puslapyje](./media/er-quick-start1-format-configuration.png)
 
@@ -811,13 +810,13 @@ Tolesnis paveikslėlis rodo „Excel“ formatu sukurtą ataskaitą, kurioje kla
 
 Kaip vartotojas sistemos administratoriaus vaidmenyje, privalote vystyti naują logiką taip, kad konfigūruotas ER formatas galėtų būti iškviestas programos vartotojo sąsajos (UI) siekiant sukurti jūsų tinkintą ataskaitą. Šiuo metu, ER nesiūlo jokių galimybių konfigūruoti tokio tipo logikos. Dėl to, reikalingas nedidelis inžinerinis darbas. 
 
-Naujos logikos sukūrimui, privalote talpinti topologiją, galinčią palaikyti nuolatinį kūrimą. Dėl išsamesnės informacijos, žr. [Talpinti topologijas palaikančias nuolatinį kūrimas ir testavimo automatizavimą](../perf-test/continuous-build-test-automation.md). Taip pat jums reikia prieigos prie šios topologijos kūrimo aplinkos. Dėl platesnės informacijos apie prieinamus ER API, žr. [ER darbotvarkės API](er-apis-app73.md).
+Naujos logikos sukūrimui, privalote talpinti topologiją, galinčią palaikyti nuolatinį kūrimą. Daugiau informacijos žr. [Visuotinis topologijų, palaikančių nuolatinio komponavimo versijų ir testavimo automatizavimo funkciją, diegimas](../perf-test/continuous-build-test-automation.md). Taip pat jums reikia prieigos prie šios topologijos kūrimo aplinkos. Dėl platesnės informacijos apie prieinamus ER API, žr. [ER darbotvarkės API](er-apis-app73.md).
 
 ### <a name="modify-source-code"></a><a name="ModifySourceCode"></a>Šaltinio kodo modifikavimas
 
 #### <a name="add-a-data-contract-class"></a><a name="DataContractClass"></a>Įtraukite duomenų sutarties klasę
 
-Įtraukite naują**KlausimynoERataskaitossutarties** klasę į savo „Microsoft Visual Studio“ projekta ir parašykite kodą, kuris nurodo duomenų sutartį, naudotiną konfigūruoto ER formato vykdymui.
+Įtraukite naują **KlausimynoERataskaitossutarties** klasę į savo „Microsoft Visual Studio“ projekta ir parašykite kodą, kuris nurodo duomenų sutartį, naudotiną konfigūruoto ER formato vykdymui.
 
 ```xpp
 /// <summary>
@@ -864,7 +863,7 @@ Naujos logikos sukūrimui, privalote talpinti topologiją, galinčią palaikyti 
 
 #### <a name="add-a-ui-builder-class"></a><a name="UIBuilderClass"></a>Įtraukite UI kūrėjo klasę
 
-Įtraukite naują**KlausimynoERAtaskaitosUIkūrėjo** klasę į savo „Microsoft Visual Studio“ projektą ir parašykite kodą, kuriuo bus sukuriamas vykdymo laiko teksto laukelis naudojamas būtino vykdyti ER formato ieškojimo žemėlapio ID. Pateiktas kodas ieško tik ER formatų, kurie gali turėti duomenų šaltinį **Duomenų modelio** tipo, kuris nurodo į **[Klausimynus](#DataModeName)** duomenų modelį naudojant **[Šaknies](#RootDefinitionName)** sąvoką.
+Įtraukite naują **KlausimynoERAtaskaitosUIkūrėjo** klasę į savo „Microsoft Visual Studio“ projektą ir parašykite kodą, kuriuo bus sukuriamas vykdymo laiko teksto laukelis naudojamas būtino vykdyti ER formato ieškojimo žemėlapio ID. Pateiktas kodas ieško tik ER formatų, kurie gali turėti duomenų šaltinį **Duomenų modelio** tipo, kuris nurodo į **[Klausimynus](#DataModeName)** duomenų modelį naudojant **[Šaknies](#RootDefinitionName)** sąvoką.
 
 > [!NOTE]
 > Kitu atveju, galite naudoti ER integravimo taškus siekiant filtruoti ER formatus. Dėl išsamesnės informacijos, žr. [API formato žemėlapio paieškos rodymui](er-apis-app10-0-11.md#api-to-show-a-format-mapping-lookup).
@@ -911,7 +910,7 @@ class QuestionnairesErReportUIBuilder extends SysOperationAutomaticUIBuilder
 
 #### <a name="add-a-data-provider-class"></a><a name="DataProviderClass"></a>Įtraukite duomenų tiekėjo klasę
 
-Įtraukite naują**KlausimynoErAtaskaitosDP** klasę į savo „Microsoft Visual Studio“ projekta ir parašykite kodą, kuris pateikia duomenų tiekėją, naudotiną konfigūruoto ER formato vykdymui. Pateiktas kodas apime tik šio duomenų tiekėjo sutarties duomenis.
+Įtraukite naują **KlausimynoErAtaskaitosDP** klasę į savo „Microsoft Visual Studio“ projekta ir parašykite kodą, kuris pateikia duomenų tiekėją, naudotiną konfigūruoto ER formato vykdymui. Pateiktas kodas apime tik šio duomenų tiekėjo sutarties duomenis.
 
 ```xpp
 /// <summary>
@@ -938,7 +937,7 @@ public class QuestionnairesErReportDP
 
 #### <a name="add-a-report-service-class"></a><a name="ServiceClass"></a>Įtraukite ataskaitos paslaugos klasę
 
-Įtraukite naują**KlausimynoERAtaskaitosPaslaugų** klasę į savo „Microsoft Visual Studio“ projektą ir parašykite kodą, kuris iškviečia ER formatą, atpažįsta jį formatuodamas žemėlapio ID ir pateikia duomenų sutartį kaip parametrą.
+Įtraukite naują **KlausimynoERAtaskaitosPaslaugų** klasę į savo „Microsoft Visual Studio“ projektą ir parašykite kodą, kuris iškviečia ER formatą, atpažįsta jį formatuodamas žemėlapio ID ir pateikia duomenų sutartį kaip parametrą.
 
 ```xpp
 using Microsoft.Dynamics365.LocalizationFramework;
@@ -1076,7 +1075,7 @@ Galite keisti konfigūruotą ER sprendimą taip, kad jis naudotų duomenis patei
 2. **Konfigūravimai** puslapyje, konfigūravimo medyje, išplėskite **Klausimyno modelį** ir tuomet pasirinkite **Klausimyno žemėlapis**.
 3. Pasirinkit **Kūrimo įrankį** tam, kad atvertumėte **Modelis į duomenų šaltinio žemėlapio** puslapį.
 4. Pasirinkite **Kūrimo įrankį** tam, kad atvertumėte žemėlapį modelio žemėlapio kūrimo įrankyje.
-5. **Modelio žemėlapio kūrimo įrankis** puslapyje, **Duomenų šaltinio tipai** juostoje, pasirinkite**Dynamics 365 for Operations\\Objektas**.
+5. **Modelio žemėlapio kūrimo įrankis** puslapyje, **Duomenų šaltinio tipai** juostoje, pasirinkite **Dynamics 365 for Operations\\Objektas**.
 6. **Duomenų šaltiniai** juostoje pasirinkite **Įtraukti šaknį**.
 7. Teksto laukelyje, **Pavadinimas** laukelyje įveskite **[RunTimeParameters](#DataContractDSName)**, kaip nurodytą šaltinio **QuestionnairesErReportService** klasės kodą.
 8. **Klasės** laukelyje įveskite **[QuestionnairesErReportContract](#DataContractClass)**, kuris buvo užkoduotas anksčiau.
@@ -1091,7 +1090,7 @@ Galite keisti konfigūruotą ER sprendimą taip, kad jis naudotų duomenis patei
 
 Tęskite pasirinkto modelio žemėlapio redagavimą įtraukdami duomenų šaltinį prieigai prie ER formato žemėlapio įrašų.
 
-1. **Modelio žemėlapio kūrimo įrankis** puslapyje, **Duomenų šaltinio tipai** juostoje, pasirinkite**Dynamics 365 for Operations\\Lentelės įrašai**.
+1. **Modelio žemėlapio kūrimo įrankis** puslapyje, **Duomenų šaltinio tipai** juostoje, pasirinkite **Dynamics 365 for Operations\\Lentelės įrašai**.
 2. **Duomenų šaltiniai** juostoje pasirinkite **Įtraukti šaknį**.
 3. Iškrentančiame teksto laukelyje, **Pavadinimas** laukelyje, įveskite **ER1**.
 4. **Lentelė** laukelyje, įveskite **ERFormatMappingTable**.
@@ -1130,7 +1129,7 @@ Kadangi naudojote **FormatName** laukelį, konfigūruotas modelio žemėlapis da
 4. **Konfigūravimai** puslapyje, konfigūravimo medyje, įsitikinkite, kad **Klausimyno žemėlapio** konfigūravimas vis dar pasirinktas. Tuomet, **Versijos** „FastTab“, pasirinkite konfigūravimo versiją, kuri turi statusą **Juodraštis**.
 5. Pasirinkite **Keisti statusą** \> **Užbaigtas**.
 
-Šios konfigūracijos versijos 1.2 statusas yra keičiamas iš **Juodraštis** į **Užbaigtas**. Versija 1.2 nebegali būti keičiama. Šioje versijoje yra konfigūruotų žemėlapio modelis ir gali būti naudojamas pagal kitas ER konfigūracijas. Šios konfigūracijos versija 1.3 yra sukurta ir turi**Juodraštis** statusą. Galite redaguoti šią versiją tam, kad keistumėte **Klausimyno** žemėlapio modelį.
+Šios konfigūracijos versijos 1.2 statusas yra keičiamas iš **Juodraštis** į **Užbaigtas**. Versija 1.2 nebegali būti keičiama. Šioje versijoje yra konfigūruotų žemėlapio modelis ir gali būti naudojamas pagal kitas ER konfigūracijas. Šios konfigūracijos versija 1.3 yra sukurta ir turi **Juodraštis** statusą. Galite redaguoti šią versiją tam, kad keistumėte **Klausimyno** žemėlapio modelį.
 
 ### <a name="modify-a-format"></a><a name="ModifyFormat"></a>Keisti formatą
 
@@ -1145,13 +1144,13 @@ Galite keisti konfigūruotą ER formatą taip, kad jo pavadinimas būtų rodomas
 5. Pasirinkite **Įtraukti** tam, kad įtrauktumėte lizdo formato elementą pasirinktam **Ataskaitos** šaknies elementui.
 6. Pasirinkite **Excel\\Poraštė**.
 7. **Pavadinimas** laukelyje, įveskite **Poraštė**.
-8. Pasirinkite **Šaknis\Poraštė** ir tuomet pasirinkite**Įtraukti**.
+8. Pasirinkite **Šaknis\Poraštė** ir tuomet pasirinkite **Įtraukti**.
 9. Pasirinkite **Tekstas\\Eilutė**.
 
 #### <a name="bind-the-added-format-element"></a><a name="BindAddedFormatElement"></a>Susiekite įkeltą formato elementą
 
 1. **Formato kūrimo** puslapyje,**Žemėlapio** skirtuke, formato medyje, įjungtame **Poraštės\\Eilutės** elemente, pasirinkite **Redaguoti formulę**.
-2. Formulės rekdaktoriuje **Formulės** laukelyje įveskite**CONCATENATE ("\&C\&10", FORMAT("Sukurta'\%1' ER sprendimas", model.ExecutionContext.FormatName))**.
+2. Formulės rekdaktoriuje **Formulės** laukelyje įveskite **CONCATENATE ("\&C\&10", FORMAT("Sukurta'\%1' ER sprendimas", model.ExecutionContext.FormatName))**.
 3. Pasirinkite **Įrašyti** ir uždarykite formulės redaktorių.
 4. Pasirinkite **Įrašyti**.
 
@@ -1165,7 +1164,7 @@ Konfigūruotas formatas dabar buvo pakeistas taip, kad jo pavadinimas bus įvest
 2. **Konfigūravimai** puslapyje, konfigūravimo medyje, įsitikinkite, kad **Klausimyno ataskaita** konfigūravimas vis dar pasirinktas. Tuomet, **Versijos** „FastTab“, pasirinkite konfigūravimo versiją, kuri turi statusą **Juodraštis**.
 3. Pasirinkite **Keisti statusą** \> **Užbaigtas**.
 
-Šios konfigūracijos versijos 1.2 statusas yra keičiamas iš **Juodraštis** į **Užbaigtas**. Versija 1.2 nebegali būti keičiama. Šioje versijoje yra konfigūruotų formatas ir gali būti naudojamas pagal kitas ER konfigūracijas. Šios konfigūracijos versija 1.3 yra sukurta ir turi**Juodraštis** statusą. Galite redaguoti šią versiją tam, kad keistumėte **Klausimyno** ataskaitą.
+Šios konfigūracijos versijos 1.2 statusas yra keičiamas iš **Juodraštis** į **Užbaigtas**. Versija 1.2 nebegali būti keičiama. Šioje versijoje yra konfigūruotų formatas ir gali būti naudojamas pagal kitas ER konfigūracijas. Šios konfigūracijos versija 1.3 yra sukurta ir turi **Juodraštis** statusą. Galite redaguoti šią versiją tam, kad keistumėte **Klausimyno** ataskaitą.
 
 ### <a name="run-a-format-from-the-application"></a><a name="RunFormatFromApp2"></a>Vykdykite formatą iš programos
 

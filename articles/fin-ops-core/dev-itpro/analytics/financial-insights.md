@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 106233
 ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 596a067611ac4477f4469dbbc370c971e0f7a35d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 67f6d567c7e8d4cc6332c2d661abb04d1b28d2e9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181777"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682776"
 ---
 # <a name="financial-insights"></a>Finansinės įžvalgos
 
@@ -81,14 +80,14 @@ Galite nustatyti pasikartojančią paketinę užduotį, kuri reguliariai atnauji
 ## <a name="security"></a>Sauga
 Šiuo metu įdėtosiose „Power BI“ ataskaitose negalima pateikti tik tų juridinių subjektų, prie kurių vartotojas turi prieigą, duomenų. Todėl įdėtosios „Power BI“ ataskaitos kontroliuojamos naudojant saugos sąrankos pareigas. Nustatytos pareigos leidžia pasiekti visų juridinių subjektų arba tik aktyvios įmonės duomenis. Toliau pateikiamoje lentelėje parodytos esamos pareigos ir joms priskirti vaidmenys. Atsižvelgiant į jūsų organizacijos reikalavimus, pareigas galima pašalinti arba priskirti skirtingiems vaidmenims.
 
-| Pareiga                                    | Vaidmenys | Aprašas |
+| Muitas                                    | Vaidmenys | aprašymas |
 |-----------------------------------------|-------|------------|
 | Peržiūrėti CFO peržiūros darbo sritį             | Finansų direktorius | Ši pareiga suteikia prieigą prie darbo srities CFO apžvalga. Pagal numatytuosius parametrus kaip filtras naudojama aktyvioji įmonė. Tačiau galite įtraukti visus juridinius subjektus, nesvarbu, ar vartotojas turi prieigą prie kitų juridinių subjektų. |
 | Finansinių dabartinės įmonės įžvalgų peržiūra | <ul><li>Buhalteris</li><li>Apskaitos vadovas</li><li>Apskaitos prižiūrėtojas</li><li>Auditorius</li><li>Biudžeto vadybininkas</li><li>Generalinis direktorius</li><li>Finansų direktorius</li><li>Finansų kontrolierius</li></ul> | Ši pareiga suteikia prieigą prie darbo srities Finansinės įžvalgos. Pagal numatytuosius parametrus kaip filtras naudojama aktyvioji įmonė. Kitų juridinių subjektų įtraukti negalite. |
 | Finansinių visų įmonių įžvalgų peržiūra   | Sprendime „Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3“ ši pareiga vaidmeniui nepriskirta. Būsimame leidime ši pareiga bus paskirta vaidmeniui Finansų direktorius. | Ši pareiga suteikia prieigą prie darbo srities CFO apžvalga meniu elemento. Pagal numatytuosius parametrus kaip filtras naudojama aktyvioji įmonė. Tačiau galite įtraukti visus juridinius subjektus, nesvarbu, ar vartotojas turi prieigą prie kitų juridinių subjektų. |
 
 
-## <a name="financial-reporting-vs-finanical-insights"></a>Finansinės ataskaitos ir finansinės įžvalgos
+## <a name="financial-reporting-vs-financial-insights"></a>Finansinės ataskaitos ir finansinės įžvalgos
 **Finansinės įžvalgos** apima finansines ataskaitas, tačiau  nepakeičia programos modulio Finansinės ataskaitos. Numatytųjų darbo srities **Finansinės įžvalgos** finansinių ataskaitų aprėptis yra ribota ir į šią darbo sritį įtraukti ne visi finansinių ataskaitų tipai. Modulis Finansinės ataskaitos vis dar yra pagrindinis įstatymų nustatytų finansinių ataskaitų projektavimo, kūrimo ir generavimo įrankis.
 
 Ši palyginamoji diagrama padės atskirti šias dvi parinktis:
@@ -131,7 +130,7 @@ Vartotojai ataskaitą gali filtruoti naudodami kairėje esančią sritį **Filtr
 - **Vaizdinio elemento lygio filtrai** – šie filtrai taikomi tik pasirinktam vaizdiniam elementui. Šie filtrai taikomi ant puslapio lygio filtrų viršaus.
 - **Detalizavimo filtras** – šis filtras filtruoja iš „šaltinio“ vaizdinio elemento, taikomo dabartiniam vaizdiniam elementui, kai šaltinio vaizdinį elementą detalizuojate iki dabartinio vaizdinio elemento.
 
-![Filtras](./media/filter.png)
+![Filtravimo parinktys](./media/filter.png)
 
 Norėdami pašalinti konkrečią filtro reikšmę, pasirinkite šalia esantį trintuko simbolį. Nešalinkite filtro pasirinkdami X. Jei pasirenkate X, jūsų filtruojamas laukas pašalinamas kaip filtro parinktis. Jei netyčia pašalinate kokį nors filtro lauką, uždarykite ir vėl atidarykite darbo sritį. Bus vėl pritaikyti numatytieji filtrų parametrai.
 
@@ -176,25 +175,25 @@ Naudojant „Power BI“ galimi įvairūs detalizavimo lygiai. Skiriasi kiekvien
 
 Tolesnėje iliustracijoje ataskaita **Bandomasis balansas** sutraukta iki aukščiausio eilučių hierarchijos lygio – pagrindinės sąskaitos tipo.
 
-![Bandomasis balansas](./media/trial-balance.png)
+![Bandomojo balanso išrašas](./media/trial-balance.png)
 
 Norėdami peržiūrėti tolesnį hierarchijos lygį – pagrindinių sąskaitų kategorijas – galite lauką **Detalizuoti** nustatyti kaip **Eilutės**, o tada pasirinkti mygtuką **Išplėsti** (trečiasis mygtukas po lauko Detalizuoti). Dabar matote išplėstas visas pagrindinių sąskaitų kategorijas. Šiuo metu „Power BI“ neleidžia išplėsti tik vienos eilutės ar stulpelio, tačiau vis tiek matyti visas kitas eilutes ar stulpelius.
 
-![Bandomasis balansas](./media/trial-balance2.png)
+![Bandomojo balanso detalizavimas eilutėse](./media/trial-balance2.png)
 
 Norėdami hierarchiją išplėsti iki visų eilučių pagrindinių sąskaitų, galite vėl naudoti mygtuką **Išplėsti**. Tačiau, norėdami iki pagrindinių sąskaitų detalizuoti tik vieną eilutę, pirmiausia pasirinkite mygtuką **Detalizuoti** (viena žemyn nukreipta rodyklė dešinėje lango pusėje) ir tada pasirinkite detalizuotiną eilutę. Tolesnėje iliustracijoje parodytas vaizdas, kada, pasirinkus mygtuką **Detalizuoti**, pasirenkama eilutė **Pardavimas**.
 
-![Bandomasis balansas](./media/trial-balance3.png)
+![Bandomojo balanso išplėtimo mygtukas](./media/trial-balance3.png)
 
 Detalizavus vieną eilutę, norint grįžti į visą bandomąjį balansą reikia kelis kartus spustelėti pele. Mygtuku **Pereiti prie bendresnio** (pirmas mygtukas po lauko **Detalizuoti**) prie bendresnių elementų pereinama tik kategorijos **Pardavimas** kontekste, kaip pavaizduota tolesnėje iliustracijoje.
 
-![Bandomasis balansas](./media/trial-balance4.png)
+![Bandomojo balanso detalizavimo mygtukas](./media/trial-balance4.png)
 
 Galite toliau naudoti mygtuką **Pereiti prie bendresnio**, kad grįžtumėte į aukščiausią eilučių apibendrinimo lygį.
 
 Sprendime „Power BI“ taip pat yra mygtukas, leidžiantis pereiti į tolesnį hierarchijos lygį (antras mygtukas po lauko **Detalizuoti**). Šis mygtukas veikia skirtingai nei mygtukas **Išplėsti** (trečias mygtukas po lauko **Detalizuoti**), kuriuo išplečiama hierarchija. Kai išplečiate hierarchiją, ji tvarkoma ataskaitoje. Pavyzdžiui, kaip buvo parodyta anksčiau, jei išplečiate pagrindinės sąskaitos tipą, jį vis tiek matote ataskaitoje. Tačiau, kai pereinate į tolesnį hierarchijos lygį, ataskaitoje pirminis hierarchijos lygis neberodomas, kaip parodyta tolesnėje iliustracijoje.
 
-![Bandomasis balansas](./media/trial-balance5.png)
+![Bandomojo balanso detalizavimo atšaukimo mygtukas](./media/trial-balance5.png)
 
 Norėdami peržiūrėti apibendrintų balansų operacijų informaciją, galite pasirinkti kai kurias sumas detalizuoti atgal į „Financial and Operations“.
 
@@ -245,6 +244,6 @@ Sprendime „Power BI“ nėra parinkties slėpti ir rodyti tuščias eilutes. J
 
 Norint gamybos aplinkoje įjungti įdėtąsias darbo sričių **CFO apžvalga** arba **Finansinės įžvalgos** ataskaitas, tolesnių išteklių informacija nėra būtina. Jie yra naudingi dirbant su kūrimo langeliais ir jei norite į įdėti savo „Power BI“ ataskaitų.
 
-- <https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/>
+- [Analizės darbo sričių ir ataskaitų naudojimas prie 1 langelio aplinkoje](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 
-- <https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces>
+- [Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)

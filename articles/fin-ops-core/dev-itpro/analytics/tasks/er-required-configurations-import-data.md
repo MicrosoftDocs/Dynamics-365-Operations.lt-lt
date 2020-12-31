@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 33d3f3773fdba4b704deeca48874b10958e2ea4e
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: d9b26f4963f32be34ae1d954a3f363be7ea28d41
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143320"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684287"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER: reikiamų konfigūracijų kūrimas norint importuoti duomenis iš išorinio failo
 
@@ -98,11 +97,11 @@ Pateiktame scenarijuje parodytos ER duomenų importavimo galimybės. Tai apima t
 
     Atkreipkite dėmesį, kad sukurtas formatas čia pateikiamas kaip duomenų šaltinio komponentas.  
 
-6. Medyje išplėskite „formatas: Įrašyti\*sudengimas: XML elementas 1..1 (sudengimas): Įrašyti“.
-7. Medyje išplėskite „formatas: Įrašyti\*sudengimas: XML elementas 1..1 (sudengimas): Įrašyti \ operacija: XML elementas 0..* (operacija): Įrašų sąrašas”.
-8. Medyje išplėskite „formatas: Įrašyti\*sudengimas: XML elementas 1..1 (sudengimas): Įrašyti \ operacija: XML elementas 0..* (operacija): Įrašų sąrašas\*tiekėjas: XML elementas 1..1 (tiekėjas): Įrašyti”.
-9. Medyje išplėskite „formatas: Įrašyti\*sudengimas: XML elementas 1..1 (sudengimas): Įrašyti \ operacija: XML elementas 0..* (operacija): Įrašų sąrašas \ šalis: XML elementas 0..1 (šalis): Įrašyti”.
-10. Medyje pasirinkite „formatas: Įrašyti\*sudengimas: XML elementas 1..1 (sudengimas): Įrašyti \ operacija: XML elementas 0..* (operacija): Įrašų sąrašas\*tiekėjas: XML elementas 1..1 (tiekėjas): Įrašyti”.
+6. Medyje išplėskite `format: Record\*settlement: XML Element 1..1 (settlement): Record`.
+7. Medyje išplėskite `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list`.
+8. Medyje išplėskite `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record`.
+9. Medyje išplėskite `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\country: XML Element 0..1 (country): Record`.
+10. Medyje pasirinkite `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record`.
 
     Atkreipkite dėmesį, kad privalomų ir pasirinktinių formato elementų pateikimas skiriasi nuo iš anksto nustatyto „formato” duomenų šaltinio komponento pateikimo.  
 11. Medyje išplėskite „Operacijos: Įrašų sąrašas= format.settlement.„$išvardyta”.
@@ -237,7 +236,7 @@ Pateiktame scenarijuje parodytos ER duomenų importavimo galimybės. Tai apima t
 19. Uždarykite puslapį.
 20. Spustelėkite Redaguoti.
 
-    Jei įdiegėte karštąją pataisą „KB 4012871 GER duomenų modelio susiejimų į atskiras konfigūracijas su galimybe nurodyti būtinuosius skirtingų rūšių komponentus, diegiant juos kitose „Dynamics 365 Finance, Enterprise Edition“ versijose“ (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), vykdykite kitą veiksmą „Įjungti vėliavėlę „Numatytoji modelio susiejimo reikšmė“, skirtą įvestai formato konfigūracijai. Kitu atveju praleiskite tolesnį veiksmą.  
+    Jei įdiegėte karštąją pataisą „KB 4012871 GER duomenų modelio susiejimų į atskiras konfigūracijas su galimybe nurodyti būtinuosius skirtingų rūšių komponentus, diegiant juos kitose „Dynamics 365 Finance“ versijose“ ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), vykdykite kitą veiksmą „Įjungti vėliavėlę „Numatytoji modelio susiejimo reikšmė“, skirtą įvestai formato konfigūracijai. Kitu atveju praleiskite tolesnį veiksmą.  
 
 21. Lauke Numatytoji modelio susiejimo reikšmė pasirinkite Taip.
 22. Medyje pasirinkite „1099 mokėjimų modelis”.
@@ -245,7 +244,7 @@ Pateiktame scenarijuje parodytos ER duomenų importavimo galimybės. Tai apima t
 24. Spustelėkite „Susieti modelį su duomenų šaltiniu“.
 25. Spustelėkite Vykdyti.
 
-    Jei įdiegėte karštąją pataisą KB 4012871 GER duomenų modelio susiejimų į atskiras konfigūracijas su galimybe nurodyti būtinuosius skirtingų rūšių komponentus, diegiant juos kitose versijose (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), peržvalgos lauke pasirinkite pageidaujamo modelio susiejimą. Jei dar neįdiegėte karštosios pataisos, praleiskite tolesnį veiksmą, nes susiejimas jau pasirinktas nustatant numatytojo formato konfigūraciją.  
+    Jei įdiegėte karštąją pataisą KB 4012871 GER duomenų modelio susiejimų į atskiras konfigūracijas su galimybe nurodyti būtinuosius skirtingų rūšių komponentus, diegiant juos kitose versijose ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), peržvalgos lauke pasirinkite pageidaujamo modelio susiejimą. Jei dar neįdiegėte karštosios pataisos, praleiskite tolesnį veiksmą, nes susiejimas jau pasirinktas nustatant numatytojo formato konfigūraciją.  
     
     Jei neįdiegėte karštosios pataisos KB 4012871, atkreipkite dėmesį, kad dialogo lange pateikiamas papildomas modelio susiejimo klausimas, naudojamas importuojamam failui išanalizuoti. Tada duomenys perkeliami iš dialogo lango į duomenų modelį. Šiuo metu galite pasirinkti, koks formato susiejimas turi būti naudojamas atsižvelgiant į tai, kokio tipo failą norite importuoti.  
     

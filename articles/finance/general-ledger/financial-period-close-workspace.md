@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d647dc41eb18d25101e66d3030327fc55b55a4d5
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6f96da7f7f5374fb34e317c416238a48c3fe7d05
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250333"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4446218"
 ---
 # <a name="financial-period-close-workspace"></a>Finansinio laikotarpio uždarymo darbo sritis
 
@@ -52,7 +52,7 @@ Naudojami du užduočių indikatoriai:
 -   Šauktuko piktograma nurodo, kad užduotis jau turėjo būti įvykdyta. Užduočių, kurios jau turėjo būti įvykdytos, terminas taip pat paryškintas raudonai.
 -   Spynos piktograma nurodo, kad užduotis priklauso nuo kitų užduočių, kurios dar neatliktos. Priklausomybių blokuojamos užduoties negalima pažymėti kaip atliktos. Užduoties priklausomybes galite nustatyti naudodami veiksmą **Nustatyti priklausomybę**.
 
-Užduoties pavadinimas yra nuorodą į puslapį, kuriame turi apsilankyti vartotojas, norėdamas užbaigti darbą. Šią nuorodą galite nustatyti užduoties redagavimui arba kūrimui naudodami lauką **Užduoties saitas**. 
+Užduoties pavadinimas yra nuorodą į puslapį arba kitą tinklalapį, kuriame turi apsilankyti vartotojas, norėdamas užbaigti darbą. Šią nuorodą galite nustatyti užduoties redagavimui arba kūrimui naudodami lauką **Užduoties saitas**. 
 
 Naudodami veiksmą **Priedai** prie užduoties galite pridėti failus, pastabas, vaizdus ir URL. Pvz., galite nurodyti kaip užduoties dalis naudojamų žurnalų numerius, įtraukti komentarų apie konkrečią užduotį arba pridėti atspausdintą užduoties ataskaitos failą. Jei esama priedo, užduoties stulpelyje **Priedas** atsiranda piktograma. 
 
@@ -68,7 +68,7 @@ Prieš naudodami darbo sritį **Finansinio laikotarpio uždarymas**, turite suko
 
 Skirtuke **Ištekliai** nurodote asmenis, kurie dalyvauja uždarymo procese. Bet koks už uždarymo užduotį atsakingas darbuotojas pirmiausia turi būti priskirtas čia. Taip pat turite nurodyti darbuotojo darbo srities rodinį. Galimos toliau nurodytos pasirinktys:
 
--   **Tik priskirtos užduotys** – vartotojas matys tik jam arba jai priskirtas užduotis.
+-   **Tik priskirtos užduotys** – vartotojas matys tik jam priskirtas užduotis.
 -   **Visos užduotys ir būsena** – vartotojas matys visas uždarymo užduotis ir viso proceso būseną.
 
 Vartotojai, kurie turi teisę peržiūrėti tik jiems priskirtas užduotis, negalės įtraukti užduočių į užduočių sąrašą, redaguoti užduočių arba pašalinti užduočių iš užduočių sąrašo.

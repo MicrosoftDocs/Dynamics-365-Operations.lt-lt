@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERFormatBaselineTable, ERFormatMappingRunLogTable, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: be641e1b2f90f4d19f7ed15e47413c0aa43d5073
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 0a2586afd56eef0f953454ad246ff3647a5b09d1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771449"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681453"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Bandymų automatizavimas naudojant elektronines ataskaitas
 
@@ -48,7 +47,7 @@ Funkcijų valdymo teises turintys vartotojai gali kurti vartotojo priėmimo ir i
 - Grupuokite testų aprašus pagal reikiamus testavimo scenarijus. Norėdami gauti daugiau informacijos, žr. [Vartotojo priėmimo bandymų kūrimas ir automatizavimas](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md).
 
     - LCS naudokite verslo procesų modeliavimo įrankį (BPM), kad sukurtumėte vartotojo priėmimo testams skirtas bibliotekas.
-    - Naudokite BPM testų bibliotekas, kad sukurtumėte testavimo planą ir testavimo paketus naudodami „Microsoft Azure DevOps“ paslaugas („Azure DevOps“).
+    - Naudokite BPM testų bibliotekas, kad sukurtumėte testavimo planą ir testavimo paketus naudodami „Microsoft Azure DevOps Services“ („Azure DevOps“).
 
 Funkcijų valdymo teises turintys vartotojai gali vykdyti vartotojo priėmimo ir integravimo testus.
 
@@ -60,7 +59,7 @@ Funkcijų valdymo teises turintys vartotojai gali vykdyti vartotojo priėmimo ir
 Norint atlikti šioje temoje esančias užduotis, būtina įgyvendinti toliau nurodytus reikalavimus.
 
 - Įdiekite topologiją, palaikančią testavimo automatizavimą. Turite turėti vaidmens **Sistemos administratorius** teises pasiekti šios topologijos egzempliorių. Šioje topologijoje turi būti demonstracinių duomenų, kurie bus naudojami šiame pavyzdyje. Norėdami gauti daugiau informacijos, žr. [Aplinkos, palaikančios nuolatinio komponavimo versijų ir tikrinimo automatizavimo funkciją, diegimas](../perf-test/continuous-build-test-automation.md).
-- Norint automatiškai vykdyti vartotojo priėmimo ir integravimo testus, reikia įdiegti RSAT topologijoje, kurią naudojate, ir atitinkamai jį konfigūruoti. Informacijos, kaip įdiegti ir konfigūruoti RSAT, kad jis veiktų su „Finance and Operations“ programomis ir „Azure DevOps“, žr. [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Atkreipkite dėmesį į būtinąsias įrankio naudojimo sąlygas. Tolesnėje iliustracijoje pateikiamas RSAT parametrų pavyzdys. Mėlyname stačiakampyje nurodomi parametrai, kurie apibrėžia prieigą prie „Azure DevOps“. Žaliame stačiakampyje nurodomi parametrai, kurie apibrėžia prieigą prie egzemplioriaus.
+- Norint automatiškai vykdyti vartotojo priėmimo ir integravimo testus, reikia įdiegti RSAT topologijoje, kurią naudojate, ir atitinkamai jį konfigūruoti. Informacijos, kaip įdiegti ir sukonfigūruoti RSAT, bei jį sukonfigūruoti taip, kad jis veiktų su „Finance and Operations“ programomis bei „Azure DevOps“, žr. [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Atkreipkite dėmesį į būtinąsias įrankio naudojimo sąlygas. Tolesnėje iliustracijoje pateikiamas RSAT parametrų pavyzdys. Mėlyname stačiakampyje nurodomi parametrai, kurie apibrėžia prieigą prie „Azure DevOps“. Žaliame stačiakampyje nurodomi parametrai, kurie apibrėžia prieigą prie egzemplioriaus.
 
     ![RSAT parametrai](media/GER-Configure.png "Dialogo lango RSAT parametrai ekrano kopija")
 

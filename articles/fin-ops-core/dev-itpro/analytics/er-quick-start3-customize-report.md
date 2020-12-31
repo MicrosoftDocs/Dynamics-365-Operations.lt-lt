@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c19fef3e62eec48e66f7cec824afee3ebb25209e
-ms.sourcegitcommit: cc78f9bf585082ce65c2ab0b011ff62620fa883d
+ms.openlocfilehash: 47bb8a2a9adab4ec963a1d0b95e783299aab3819
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088225"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683021"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Elektroninių ataskaitų konfigūracijų tinkinimas elektroniniam dokumentui generuoti
 
@@ -65,7 +64,7 @@ Jei esate elektroninių ataskaitų funkcinio konsultanto ar elektroninių ataska
 2. **Lokalizavimo konfigūracijos** puslapyje **Susiję saitai** pasirinkite **Elektroninių ataskaitų parametrai**.
 3. **Elektroninių ataskaitų parametrai** puslapyje **Bendra** skirtuke nustatykite **Įjungti dizaino režimą** parinktį į **Taip**.
 4. Skirtuko **Priedai** lauke **Konfigūracijos** pasirinkite **Failas**.
-5.  **Užduoties archyvas** , **Laikini** , **Bazinė linija** ir **Kiti** laukuose pasirinkite **Failas** tipą.
+5.  **Užduoties archyvas**, **Laikini**, **Bazinė linija** ir **Kiti** laukuose pasirinkite **Failas** tipą.
 
 Norėdami sužinoti daugiau apie ER parametrus, žr. [ER sistemos konfigūracija](electronic-reporting-er-configure-parameters.md).
 
@@ -103,11 +102,11 @@ Daugiau informacijos apie ER konfigūracijos tiekėjus žr. [Konfigūracijos tei
 Norėdami įtraukti standartines ER konfigūracijas į dabartinį „Finance” egzempliorių, turite importuoti jas iš ER [saugyklos](general-electronic-reporting.md#Repository), sukonfigūruotos tam egzemplioriui.
 
 1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
-2. **Lokalizavimo konfigūracijos** puslapyje **Konfigūracijos teikėjai** dalyje pasirinkite **„Microsoft”** plytelę ir pasirinkite **Saugyklos** , kad peržiūrėtumėte „Microsoft” tiekėjo saugyklų sąrašą.
+2. **Lokalizavimo konfigūracijos** puslapyje **Konfigūracijos teikėjai** dalyje pasirinkite **„Microsoft”** plytelę ir pasirinkite **Saugyklos**, kad peržiūrėtumėte „Microsoft” tiekėjo saugyklų sąrašą.
 3. Puslapyje **Konfigūracijų saugyklos** pasirinkite **Visuotinis** tipo saugyklą, paskui pasirinkite **Atidaryti**. Jei esate raginami autorizuoti, kad prisijungtumėte prie „Regulatory Configuration Service”, vadovaukitės autorizavimo instrukcijomis.
 4. Puslapio **Konfigūracijos saugykla** kairiosios srities konfigūracijos medyje pasirinkite formato konfigūraciją **PEPPOL pardavimo SF**.
 5. Sparčiajame skirtuke **Versijos** paspauskite **11.2.2**.
-6. Pasirinkite **Importuoti** , norėdami atsisiųsti pasirinktą versiją iš bendrosios saugyklos.
+6. Pasirinkite **Importuoti**, norėdami atsisiųsti pasirinktą versiją iš bendrosios saugyklos.
 
 ![Konfigūracijos saugyklos puslapis](./media/er-quick-start3-import-solution1.png)
 
@@ -119,7 +118,7 @@ Norėdami įtraukti standartines ER konfigūracijas į dabartinį „Finance” 
 1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
 2. **Lokalizavimo konfigūracijos** puslapyje **Konfigūracijos** dalyje pasirinkite plytelę **Konfigūracijų ataskaitos**.
 3. Puslapyje **Konfigūracijos** išplėskite „FastTab” **Konfigūracijos komponentai**.
-4. Kairiosios srities konfigūracijos medyje išplėskite **SF modelis** , tada – **UBL pardavimo SF**.
+4. Kairiosios srities konfigūracijos medyje išplėskite **SF modelis**, tada – **UBL pardavimo SF**.
 
 Atkreipkite dėmesį, kad kartu su pasirinktu ER formatu **PEPPOL pardavimo SF** buvo importuotos kitos būtinos ER konfigūracijos. Kadangi naujos ER konfigūracijų versijos nuolat publikuojamos bendrojoje saugykloje ir LCS, kad atitinkami sprendimai atitiktų naujus reikalavimus, buvo importuotos naujausios reikiamo [duomenų modelio](general-electronic-reporting.md#data-model-and-model-mapping-components) konfigūracijos versijos ir jo [modelio susiejimo](general-electronic-reporting.md#data-model-and-model-mapping-components) konfigūracijos.
 
@@ -127,12 +126,12 @@ Atkreipkite dėmesį, kad kartu su pasirinktu ER formatu **PEPPOL pardavimo SF**
 
 Norėdami modeliuoti būseną, kurią turėtų ER konfigūracijos dabartiniame „Finance” egzemplioriuje, jei importavote ER formato **PEPPOL pardavimo SF** **11.2.2** versiją anksčiau (pavyzdžiui, 2019 m. rugpjūčio 7 d.), atlikite toliau pateiktus veiksmus.
 
-- Veiksmų srityje pasirinkite **Naikinti** , norėdami panaikinti visas ER konfigūracijas, publikuotas po 2019 m. rugpjūčio 7 d. Turi būti paliktos tik konfigūracijos **SF modelis** , **SF modelio susiejimas** (iš pradžių pavadinta **Kliento SF modelio susiejimas** ), **UBL pardavimo SF** and **PEPPOL pardavimo SF**.
-- Likusių konfigūracijų „FastTab” **Versijos** pasirinkite **Naikinti** , norėdami panaikinti visas ER konfigūracijų, publikuotų po 2019 m. rugpjūčio 7 d., versijas.
+- Veiksmų srityje pasirinkite **Naikinti**, norėdami panaikinti visas ER konfigūracijas, publikuotas po 2019 m. rugpjūčio 7 d. Turi būti paliktos tik konfigūracijos **SF modelis**, **SF modelio susiejimas** (iš pradžių pavadinta **Kliento SF modelio susiejimas**), **UBL pardavimo SF** and **PEPPOL pardavimo SF**.
+- Likusių konfigūracijų „FastTab” **Versijos** pasirinkite **Naikinti**, norėdami panaikinti visas ER konfigūracijų, publikuotų po 2019 m. rugpjūčio 7 d., versijas.
 
 Tada patikrinkite, ar toliau pateiktos konfigūracijos prieinamos konfigūracijos medyje.
 
-- ER duomenų modelio konfigūracija **SF modelis** (iš pradžių pavadinta **Kliento SF modelis** ):
+- ER duomenų modelio konfigūracija **SF modelis** (iš pradžių pavadinta **Kliento SF modelis**):
 
     - 11 versijoje yra [duomenų modelio](general-electronic-reporting.md#data-model-and-model-mapping-components) ER komponento 10 versija, nurodanti SF išrašymo verslo domeno duomenų struktūrą. Ši ER konfigūracija buvo importuota kaip importuoti pasirinkto ER formato **PEPPOL pardavimo SF** aukštesnio lygmens elementas.
     - 50 versijoje yra duomenų modelio ER komponento 31 versija. Ši ER konfigūracija buvo importuota kaip ER modelio susiejimo konfigūracijos **SF modelio susiejimas** 2019 m. rugpjūčio 7 d. versijos aukštesnio lygmens elementas.
@@ -142,7 +141,7 @@ Tada patikrinkite, ar toliau pateiktos konfigūracijos prieinamos konfigūracijo
     > [!TIP]
     > Jei nematote šio duomenų modelio 50 versijos, atidarykite bendrąją saugyklą ir importuokite ER konfigūracijos **SF modelio susiejimas** 50.19 versiją.
 
-- ER modelio konfigūracija **SF modelio susiejimas** (iš pradžių pavadinta **Kliento SF modelio susiejimas** ):
+- ER modelio konfigūracija **SF modelio susiejimas** (iš pradžių pavadinta **Kliento SF modelio susiejimas**):
 
     - 50.19 versija buvo importuota kaip naujausias ER duomenų modelio konfigūracijos **SF modelis** 50 versijos diegimas. Joje yra du [modelio susiejimo](general-electronic-reporting.md#data-model-and-model-mapping-components) ER komponentai, aprašantys, kaip duomenų modelis užpildomas programos duomenimis vykdymo metu.
 
@@ -151,11 +150,11 @@ Tada patikrinkite, ar toliau pateiktos konfigūracijos prieinamos konfigūracijo
     > [!TIP]
     > Jei nematote šio modelio susiejimo 50.19 versijos, atidarykite bendrąją saugyklą ir importuokite ER konfigūracijos **SF modelio susiejimas** 50.19 versiją.
 
-- ER formato konfigūracija **UBL pardavimo SF** :
+- ER formato konfigūracija **UBL pardavimo SF**:
 
     - 11.2 versijoje yra [formato](general-electronic-reporting.md#FormatComponentOutbound) ir formato susiejimo ER komponentai. Formato komponentas nurodo ataskaitos maketą. Formato susiejimo komponentas apima modelio duomenų šaltinį ir nurodo, kaip šis duomenų šaltinis naudojamas ataskaitos maketui užpildyti vykdymo metu. Šis ER formatas buvo sukonfigūruotas generuoti el. SF universaliosios verslo kalbos (UBL) formatu. Jis buvo importuotas kaip importuoti pasirinkto ER formato **PEPPOL pardavimo SF** pirminis elementas.
 
-- ER formato konfigūracija **PEPPOL pardavimo SF** :
+- ER formato konfigūracija **PEPPOL pardavimo SF**:
 
     - 11.2.2 versijoje yra formato ir formato susiejimo ER komponentai, kurie buvo sukonfigūruoti el. SF generuoti „Pan-European Public Procurement OnLine” (PEPPOL) formatu.
 
@@ -186,7 +185,7 @@ Tada patikrinkite, ar toliau pateiktos konfigūracijos prieinamos konfigūracijo
 1. Eikite į **Gautinos sumos** \> **Klientai** \> **Visi klientai**.
 2. Veiksmų srities skirtuko **Klientas** grupėje **Sąskaitos** pasirinkite **Kontaktai**.
 3. Pasirinkite **Įtraukti kontaktų**.
-4. Puslapio **Kontaktai** lauke **Vardas** atidarykite peržvalgą, pasirinkite **Adam Carter** , tada pasirinkite **Pasirinkti** , norėdami uždaryti peržvalgą.
+4. Puslapio **Kontaktai** lauke **Vardas** atidarykite peržvalgą, pasirinkite **Adam Carter**, tada pasirinkite **Pasirinkti**, norėdami uždaryti peržvalgą.
 5. Pasirinkite **Įrašyti**.
 6. Uždarykite puslapį **Kontaktai**.
 
@@ -244,11 +243,11 @@ Daugiau informacijos žr. [Laisvos formos SF kūrimas](../../../finance/accounts
 
 1. Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Elektroninės ataskaitos užduotys**.
 2. Puslapyje **Elektroninės ataskaitos užduotys** pasirinkite pradinį įrašą, kurio užduoties aprašas yra **Siųsti el. SF XML**.
-3. Pasirinkite **Rodyti failus** , norėdami pasiekti sugeneruotų failų sąrašą.
+3. Pasirinkite **Rodyti failus**, norėdami pasiekti sugeneruotų failų sąrašą.
 
     ![Elektroninių ataskaitų užduočių puslapis](./media/er-quick-start3-jobs-list.png)
 
-4. Pasirinkite **Atidaryti** , norėdami atsisiųsti sugeneruotą el. SF XML failą.
+4. Pasirinkite **Atidaryti**, norėdami atsisiųsti sugeneruotą el. SF XML failą.
 5. Analizuokite el. SF XML failą. Atkreipkite dėmesį, kad kliento mokesčių schemą šiuo metu nurodo XML atributai **schemeID** ir **schemeAgencyID**. Taip pat atkreipkite dėmesį, kad XML elemente **cbc:CustomizationID** šiuo metu yra toliau pateiktas tekstas: `urn:www.cenbii.eu:transaction:biicoretrdm010:ver1.0:# urn:www.peppol.eu:bis:peppol5a:ver1.0`.
 
     ![Sugeneruoto el. SF XML failo peržiūra](./media/er-quick-start3-e-invoice1.png)
@@ -280,8 +279,8 @@ Atlikite toliau pateiktus veiksmus, norėdami atlikti tinkinimą.
 9. Lauke **Tipas** pasirinkite **Tekstas**.
 10. Lauke **Ilgis** įveskite **20**.
 11. Pasirinkite **Įrašyti**.
-12. Atsiradusiame pranešimo lange pasirinkite **Taip** , norėdami patvirtinti, kad norite sukurti naują lentelės **Klientai** lauko **FederalTaxID** įrašą.
-13. Pasirinkite **Įterpti** , norėdami <a name="insert_custom_field"></a>įtraukti lauką **FederalTaxID\_Custom** į dabartinį puslapį.
+12. Atsiradusiame pranešimo lange pasirinkite **Taip**, norėdami patvirtinti, kad norite sukurti naują lentelės **Klientai** lauko **FederalTaxID** įrašą.
+13. Pasirinkite **Įterpti**, norėdami <a name="insert_custom_field"></a>įtraukti lauką **FederalTaxID\_Custom** į dabartinį puslapį.
 
     ![Puslapis Visi klientai](./media/er-quick-start3-create-new-field.gif)
 
@@ -307,11 +306,11 @@ Jei esate elektroninių ataskaitų funkcinio konsultanto vaidmens vartotojas, ga
 1. Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos**.
 2. Puslapio **Konfigūracijos** kairiosios srities konfigūracijos medyje pasirinkite **Kliento SF modelis**.
 3. Veiksmų srityje pasirinkite **Kurti konfigūraciją**.
-4. Išplečiamojo dialogo lango lauke **Naujas** pasirinkite **Kildinti iš pavadinimo: kliento SF modelis, „Microsoft”** , norėdami nurodyti, kad nauja jūsų pasirinktinio ER duomenų modelio konfigūracija turi būti pagrįsta ER duomenų modelio konfigūracija.
+4. Išplečiamojo dialogo lango lauke **Naujas** pasirinkite **Kildinti iš pavadinimo: kliento SF modelis, „Microsoft”**, norėdami nurodyti, kad nauja jūsų pasirinktinio ER duomenų modelio konfigūracija turi būti pagrįsta ER duomenų modelio konfigūracija.
 5. Lauke **Pavadinimas** įveskite **SF modelis („Litware”)**.
-6. Pasirinkite **Kurti konfigūraciją** , norėdami įtraukti naują ER konfigūraciją.
+6. Pasirinkite **Kurti konfigūraciją**, norėdami įtraukti naują ER konfigūraciją.
 
-Dabar galite naudoti ER duomenų modelio dizaino įrankį, norėdami redaguoti ER konfigūracijos **SF modelis („Litware”)** , kurios [būsena](general-electronic-reporting.md#component-versioning) yra **Juodraštis** , 50.1 versiją.
+Dabar galite naudoti ER duomenų modelio dizaino įrankį, norėdami redaguoti ER konfigūracijos **SF modelis („Litware”)**, kurios [būsena](general-electronic-reporting.md#component-versioning) yra **Juodraštis**, 50.1 versiją.
 
 ![ER konfigūracijos 50.1 versija puslapyje Konfigūracijos](./media/er-quick-start3-added-custom-model.png)
 
@@ -320,14 +319,14 @@ Dabar galite naudoti ER duomenų modelio dizaino įrankį, norėdami redaguoti E
 Turite modifikuoti jūsų pasirinktinį duomenų modelį įtraukdami naują lauką, kad būtų suteikta federalinių mokesčių identifikavimo kodo vertė. Šis kodas yra kiekvieno kliento duomenų ER formato, kuris naudos šį duomenų modelį kaip duomenų šaltinį, dalis.
 
 1. Puslapio **Konfigūracijos** kairiosios srities konfigūracijos medyje pasirinkite **SF modelis („Litware”)**.
-2. „FastTab” **Versijos** pasirinkite pasirinktos ER duomenų modelio konfigūracijos, kurios būsena yra **Juodraštis** , **50.1** versiją.
+2. „FastTab” **Versijos** pasirinkite pasirinktos ER duomenų modelio konfigūracijos, kurios būsena yra **Juodraštis**, **50.1** versiją.
 3. Veiksmų srityje pasirinkite pasirinktos konfigūracijos versijos **dizaino įrankį**.
 4. Puslapio **Duomenų modelio dizaino įrankis** duomenų modelio medyje pasirinkite **Kliento informacija (klientas)**.
 5. Pasirinkite **Naujas**.
 6. Išplečiamojo dialogo lango lauke **Naujas mazgas kaip** priimkite numatytąją vertę **Aktyvaus mazgo antrinis elementas**.
 7. Lauke **Pavadinimas** įveskite **FederalTaxID\_Litware**.
 8. Lauke **Elemento tipas** priimkite numatytąją vertę **Eilutė**.
-9. Pasirinkite **Įtraukti** , tada pasirinkite **Įrašyti**.
+9. Pasirinkite **Įtraukti**, tada pasirinkite **Įrašyti**.
 
     ![Duomenų modelio dizaino įrankio puslapis](./media/er-quick-start3-add-data-model-field.png)
 
@@ -341,10 +340,10 @@ Turite modifikuoti jūsų pasirinktinį duomenų modelį įtraukdami naują lauk
 Turite [užbaigti](general-electronic-reporting.md#component-versioning) jūsų darbą naudodami jūsų pasirinktinio ER duomenų modelio konfigūracijos 50.1 versiją, kad jis būtų pasiekiamas ir būtų galima įtraukti kitas pasirinktines ER konfigūracijas.
 
 1. Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos**.
-2. Puslapio **Konfigūracijos** kairiosios srities konfigūracijos medyje išplėskite **SF modelis** , tada pasirinkite **SF modelis („Litware”)**.
+2. Puslapio **Konfigūracijos** kairiosios srities konfigūracijos medyje išplėskite **SF modelis**, tada pasirinkite **SF modelis („Litware”)**.
 3. **Versijos** „FastTab” skirtuke pasirinkite **Pakeisti būseną**\>**Baigta** ir pasirinkite **Gerai**.
 
-Versijos 50.1 būsena pakeista iš **Juodraštis** į **Baigta** , o versija tampa tik skaitoma. Įtraukta nauja redaguojama 50.2 versija ir jos būsena yra **Juodraštis**. Šią versiją galite naudoti norėdami atlikti tolesnius keitimus jūsų pasirinktinio ER duomenų modelio konfigūracijoje.
+Versijos 50.1 būsena pakeista iš **Juodraštis** į **Baigta**, o versija tampa tik skaitoma. Įtraukta nauja redaguojama 50.2 versija ir jos būsena yra **Juodraštis**. Šią versiją galite naudoti norėdami atlikti tolesnius keitimus jūsų pasirinktinio ER duomenų modelio konfigūracijoje.
 
 ![50.1 versija užbaigta puslapyje Konfigūracijos](./media/er-quick-start3-completed-custom-model1.png)
 
@@ -355,16 +354,16 @@ Jei esate elektroninių ataskaitų kūrėjo vaidmens vartotojas, galite kurti j�
 #### <a name="add-a-custom-model-mapping-configuration"></a>Pasirinktinio ER modelio susiejimo konfigūracijos įtraukimas
 
 1. Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos**.
-2. Puslapio **Konfigūracijos** kairiosios srities konfigūracijos medyje išplėskite **Kliento SF modelis** , tada pasirinkite **Kliento SF modelio susiejimas**.
+2. Puslapio **Konfigūracijos** kairiosios srities konfigūracijos medyje išplėskite **Kliento SF modelis**, tada pasirinkite **Kliento SF modelio susiejimas**.
 3. Veiksmų srityje pasirinkite **Kurti konfigūraciją**.
-4. Išplečiamojo dialogo lango lauke **Naujas** pasirinkite **Kildinti iš pavadinimo: kliento SF modelio susiejimas, „Microsoft”** , norėdami nurodyti, kad nauja jūsų pasirinktinio ER modelio susiejimo konfigūracija turi būti pagrįsta ER modelio susiejimo konfigūracija.
+4. Išplečiamojo dialogo lango lauke **Naujas** pasirinkite **Kildinti iš pavadinimo: kliento SF modelio susiejimas, „Microsoft”**, norėdami nurodyti, kad nauja jūsų pasirinktinio ER modelio susiejimo konfigūracija turi būti pagrįsta ER modelio susiejimo konfigūracija.
 5. Lauke **Pavadinimas** įveskite **SF modelio susiejimas („Litware”)**.
 6. Lauke **Paskirties modelis** pasirinkite **SF modelis („Litware”)**.
 
     > [!IMPORTANT]
     > Šis veiksmas yra labai svarbus. Jei jį praleisite, negalėsite naudoti jūsų pasirinktinio duomenų modelio sukonfigūruotame modelio susiejime.
 
-7. Pasirinkite **Kurti konfigūraciją** , norėdami įtraukti naują ER konfigūraciją.
+7. Pasirinkite **Kurti konfigūraciją**, norėdami įtraukti naują ER konfigūraciją.
 
 ![Pasirinktinio modelio susiejimo konfigūracijos įtraukimas puslapyje Konfigūracijos](./media/er-quick-start3-adding-custom-mapping.png)
 
@@ -373,17 +372,17 @@ Jei esate elektroninių ataskaitų kūrėjo vaidmens vartotojas, galite kurti j�
 Turite modifikuoti jūsų pasirinktinio modelio susiejimą ir nurodyti, kaip pasirinktinis pasirinktinio duomenų modelio laukas **FederalTaxID\_Litware** turi būti užpildytas programos duomenimis vykdymo metu.
 
 1. Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos**.
-2. Puslapio **Konfigūracijos** kairiosios srities konfigūracijos medyje išplėskite **Kliento SF modelis** \> **Kliento SF modelio susiejimas** , tada pasirinkite **SF modelio susiejimas („Litware”)**.
+2. Puslapio **Konfigūracijos** kairiosios srities konfigūracijos medyje išplėskite **Kliento SF modelis** \> **Kliento SF modelio susiejimas**, tada pasirinkite **SF modelio susiejimas („Litware”)**.
 3. Veiksmų srityje pasirinkite **Dizaino įrankis**.
 4. Puslapyje **Duomenų šaltinio susiejimo modelis** pasirinkite susiejimą **Kliento SF**.
 
     ![Puslapis Duomenų šaltinio susiejimo modelis](./media/er-quick-start3-select-customer-mapping.png)
 
 5. Pasirinkite **Dizaino įrankis**.
-6. Puslapio **Modelio susiejimo dizaino įrankis** srityje **Duomenų šaltiniai** išplėskite duomenų šaltinį **CustInvoiceJour** , nurodantį programos lentelę **CustInvoiceJour**.
-7. Dalyje **CustInvoiceJour** išplėskite **Ryšiai** , norėdami peržiūrėti lentelės **CustInvoiceJour** ryšių, kurių tipas „daugelis su vienu“ (N:1), sąrašą.
-8. Dalyje **CustInvoiceJour** \> **Ryšiai** išplėskite **Klientai (CustTable)** , norėdami pasiekti lentelės **Klientai (CustTable)** laukus ir ryšius.
-9. Pasirinkite duomenų šaltinio lauką **FederalTaxID\_Custom** , kurį įdiegėte [anksčiau](#insert_custom_field).
+6. Puslapio **Modelio susiejimo dizaino įrankis** srityje **Duomenų šaltiniai** išplėskite duomenų šaltinį **CustInvoiceJour**, nurodantį programos lentelę **CustInvoiceJour**.
+7. Dalyje **CustInvoiceJour** išplėskite **Ryšiai**, norėdami peržiūrėti lentelės **CustInvoiceJour** ryšių, kurių tipas „daugelis su vienu“ (N:1), sąrašą.
+8. Dalyje **CustInvoiceJour** \> **Ryšiai** išplėskite **Klientai (CustTable)**, norėdami pasiekti lentelės **Klientai (CustTable)** laukus ir ryšius.
+9. Pasirinkite duomenų šaltinio lauką **FederalTaxID\_Custom**, kurį įdiegėte [anksčiau](#insert_custom_field).
 10. Srityje **Duomenų modelis** išplėskite **Kliento informacija (klientas)** ir pasirinkite duomenų modelio lauką **FederalTaxID\_Litware**.
 11. Pasirinkite **Susieti**.
 
@@ -398,15 +397,15 @@ Turite modifikuoti jūsų pasirinktinio modelio susiejimą ir nurodyti, kaip pas
 Turite [užbaigti](general-electronic-reporting.md#component-versioning) jūsų darbą naudodami jūsų pasirinktinio ER modelio susiejimo konfigūracijos 50.19.1 versiją, kad jis būtų pasiekiamas.
 
 1. Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos**.
-2. Puslapio **Konfigūracijos** kairiosios srities konfigūracijos medyje išplėskite **Kliento SF modelis** \> **Kliento SF modelio susiejimas** , tada pasirinkite **SF modelio susiejimas („Litware”)**.
+2. Puslapio **Konfigūracijos** kairiosios srities konfigūracijos medyje išplėskite **Kliento SF modelis** \> **Kliento SF modelio susiejimas**, tada pasirinkite **SF modelio susiejimas („Litware”)**.
 3. **Versijos** „FastTab” skirtuke pasirinkite **Pakeisti būseną**\>**Baigta** ir pasirinkite **Gerai**.
 
-Versijos 50.19.1 būsena pakeista iš **Juodraštis** į **Baigta** , o versija tampa tik skaitoma. Įtraukta nauja redaguojama 50.19.2 versija ir jos būsena yra **Juodraštis**. Šią versiją galite naudoti norėdami atlikti tolesnius keitimus jūsų pasirinktinio ER modelio susiejimo konfigūracijoje.
+Versijos 50.19.1 būsena pakeista iš **Juodraštis** į **Baigta**, o versija tampa tik skaitoma. Įtraukta nauja redaguojama 50.19.2 versija ir jos būsena yra **Juodraštis**. Šią versiją galite naudoti norėdami atlikti tolesnius keitimus jūsų pasirinktinio ER modelio susiejimo konfigūracijoje.
 
 ![50.19.1 versija užbaigta puslapyje Konfigūracijos](./media/er-quick-start3-completed-custom-mapping1.png)
 
 > [!NOTE]
-> Palaikomas konfigūracijos [ciklas](general-electronic-reporting-manage-configuration-lifecycle.md) neapima duomenų bazės keitimų ciklo. Jei eksportuojate konfigūracijos **SF modelio susiejimas („Litware”)** 50.19.1 versiją iš dabartinio „Finance” egzemplioriaus ir bandote importuoti ją į kitą egzempliorių, kurio lentelėje **CustTable** nėra pasirinktinio lauko **FederalTaxID\_Custom** , įvyks išimtis. Išimtis nurodys, kad importuota ER konfigūracija nesuderinama su „Finance” paskirties egzemplioriaus metaduomenimis.
+> Palaikomas konfigūracijos [ciklas](general-electronic-reporting-manage-configuration-lifecycle.md) neapima duomenų bazės keitimų ciklo. Jei eksportuojate konfigūracijos **SF modelio susiejimas („Litware”)** 50.19.1 versiją iš dabartinio „Finance” egzemplioriaus ir bandote importuoti ją į kitą egzempliorių, kurio lentelėje **CustTable** nėra pasirinktinio lauko **FederalTaxID\_Custom**, įvyks išimtis. Išimtis nurodys, kad importuota ER konfigūracija nesuderinama su „Finance” paskirties egzemplioriaus metaduomenimis.
 
 ### <a name="customize-the-format-configuration"></a>Formato konfigūracijos tinkinimas
 
@@ -415,21 +414,21 @@ Jei esate elektroninių ataskaitų funkcinio konsultanto vaidmens vartotojas, ga
 #### <a name="add-a-custom-format-configuration"></a>Pasirinktinės formato konfigūracijos įtraukimas
 
 1. Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos**.
-2. Puslapio **Konfigūracijos** kairiosios srities konfigūracijos medyje išplėskite **Kliento SF modelis** \> **UBL pardavimo SF** , tada pasirinkite **PEPPOL pardavimo SF**.
+2. Puslapio **Konfigūracijos** kairiosios srities konfigūracijos medyje išplėskite **Kliento SF modelis** \> **UBL pardavimo SF**, tada pasirinkite **PEPPOL pardavimo SF**.
 3. Veiksmų srityje pasirinkite **Kurti konfigūraciją**.
-4. Išplečiamojo dialogo lango lauke **Naujas** pasirinkite **Kildinti iš pavadinimo: PEPPOL pardavimo SF, „Microsoft”** , norėdami nurodyti, kad jūsų pasirinktinė ER formato konfigūracija turi būti pagrįsta ER formato konfigūracija.
+4. Išplečiamojo dialogo lango lauke **Naujas** pasirinkite **Kildinti iš pavadinimo: PEPPOL pardavimo SF, „Microsoft”**, norėdami nurodyti, kad jūsų pasirinktinė ER formato konfigūracija turi būti pagrįsta ER formato konfigūracija.
 5. Lauke **Pavadinimas** įveskite **PEPPOL pardavimo SF („Litware”)**.
-6. Lauke **Duomenų modelis** pasirinkite **SF modelis („Litware”)** , norėdami naudoti jūsų pasirinktinį duomenų modelį ir modelio susiejimo komponentus.
+6. Lauke **Duomenų modelis** pasirinkite **SF modelis („Litware”)**, norėdami naudoti jūsų pasirinktinį duomenų modelį ir modelio susiejimo komponentus.
 
     > [!NOTE]
     > Šis veiksmas yra labai svarbus. Jei jį praleisite, negalėsite naudoti jūsų pasirinktinio duomenų modelio sukonfigūruotame formate.
 
 7. Lauke **Duomenų modelis** pasirinkite šaknies sąvoką **InvoiceCustomer**.
-8. Pasirinkite **Kurti konfigūraciją** , norėdami įtraukti naują ER konfigūraciją.
+8. Pasirinkite **Kurti konfigūraciją**, norėdami įtraukti naują ER konfigūraciją.
 
 ![Pasirinktinės formato konfigūracijos įtraukimas puslapyje Konfigūracijos](./media/er-quick-start3-adding-custom-format.png)
 
-Dabar galite naudoti ER operacijų dizaino įrankį, norėdami redaguoti ER konfigūracijos **PEPPOL pardavimo SF („Litware”)** , kurios [būsena](general-electronic-reporting.md#component-versioning) yra **Juodraštis** , 11.2.2.1 versiją.
+Dabar galite naudoti ER operacijų dizaino įrankį, norėdami redaguoti ER konfigūracijos **PEPPOL pardavimo SF („Litware”)**, kurios [būsena](general-electronic-reporting.md#component-versioning) yra **Juodraštis**, 11.2.2.1 versiją.
 
 ![ER konfigūracijos 11.2.2.1 versija puslapyje Konfigūracijos](./media/er-quick-start3-added-custom-format.png)
 
@@ -438,12 +437,12 @@ Dabar galite naudoti ER operacijų dizaino įrankį, norėdami redaguoti ER konf
 Turite modifikuoti jūsų pasirinktinį formatą įtraukdami naują formato elementą, kad būtų užpildyta kliento, kurio SF išrašyta, federalinių mokesčių identifikavimo kodo vertė.
 
 1. Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos**.
-2. Puslapio **Konfigūracijos** kairiosios srities konfigūracijos medyje išplėskite **Kliento SF modelis** \> **UBL pardavimo SF** \> **PEPPOL pardavimo SF** , tada pasirinkite **PEPPOL pardavimo SF („Litware”)**.
+2. Puslapio **Konfigūracijos** kairiosios srities konfigūracijos medyje išplėskite **Kliento SF modelis** \> **UBL pardavimo SF** \> **PEPPOL pardavimo SF**, tada pasirinkite **PEPPOL pardavimo SF („Litware”)**.
 3. Veiksmų srityje pasirinkite **Dizaino įrankis**.
-4. Formato medyje išplėskite **XMLHeader** \> **SF** \> **cac:AccountingCustomerParty** \> **cac:Party** \> **cac:PartyTaxScheme** \> **cac:TaxScheme** , tada pasirinkite **cbc:ID**.
-5. Pasirinkite **Įtraukti** , tada pasirinkite **XML** \> **Atributas**.
+4. Formato medyje išplėskite **XMLHeader** \> **SF** \> **cac:AccountingCustomerParty** \> **cac:Party** \> **cac:PartyTaxScheme** \> **cac:TaxScheme**, tada pasirinkite **cbc:ID**.
+5. Pasirinkite **Įtraukti**, tada pasirinkite **XML** \> **Atributas**.
 6. Dialogo lango **Komponento ypatybė** lauke **Pavadinimas** įveskite **FederalTaxID**.
-7. Pasirinkite **Gerai** , norėdami įtraukti naują formato elementą, kad sukurtumėte naują XML atributą **FederalTaxID** sugeneruotame XML faile.
+7. Pasirinkite **Gerai**, norėdami įtraukti naują formato elementą, kad sukurtumėte naują XML atributą **FederalTaxID** sugeneruotame XML faile.
 8. Formato medžio dalyje **XMLHeader** \> **SF** \> **cac:AccountingCustomerParty** \> **cac:Party** \> **cac:PartyTaxScheme** \> **cac:TaxScheme** \> **cbc:ID** pasirinkite **FederalTaxID**.
 9. Pasirinkite **Perkelti aukštyn**.
 
@@ -451,13 +450,13 @@ Turite modifikuoti jūsų pasirinktinį formatą įtraukdami naują formato elem
 
 #### <a name="configure-a-custom-format-mapping"></a>Pasirinktinio formato susiejimo konfigūravimas
 
-1. Puslapio **Formato dizaino įrankis** skirtuke **Susiejimas** išplėskite duomenų šaltinį **SF** , kurio tipas **Modelis**.
+1. Puslapio **Formato dizaino įrankis** skirtuke **Susiejimas** išplėskite duomenų šaltinį **SF**, kurio tipas **Modelis**.
 2. Dalyje **SF** išplėskite **Kliento informacija (klientas)** ir pasirinkite **FederalTaxID\_Litware**.
 3. Pasirinkite **Susieti**.
 
     ![Formato dizaino įrankio puslapis](./media/er-quick-start3-customized-format-mapping.png)
 
-4. Pasirinkite duomenų šaltinį **SF** , kurio tipas **Modelis** , tada pasirinkite **Redaguoti**.
+4. Pasirinkite duomenų šaltinį **SF**, kurio tipas **Modelis**, tada pasirinkite **Redaguoti**.
 5. Lauke **Versija** pasirinkite **1** jūsų pasirinktinio duomenų modelio versiją, tada pasirinkite **Gerai**.
 6. Pasirinkite **Įrašyti**.
 7. Uždarykite puslapį **Formato dizaino įrankis**.
@@ -467,10 +466,10 @@ Turite modifikuoti jūsų pasirinktinį formatą įtraukdami naują formato elem
 Turite [užbaigti](general-electronic-reporting.md#component-versioning) jūsų darbą naudodami jūsų pasirinktinės ER formato konfigūracijos 11.2.2.1 versiją, kad jis būtų pasiekiamas.
 
 1. Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos**.
-2. Puslapio **Konfigūracijos** kairiosios srities konfigūracijos medyje išplėskite **Kliento SF modelis** \> **UBL pardavimo SF** \> **PEPPOL pardavimo SF** , tada pasirinkite **PEPPOL pardavimo SF („Litware”)**.
+2. Puslapio **Konfigūracijos** kairiosios srities konfigūracijos medyje išplėskite **Kliento SF modelis** \> **UBL pardavimo SF** \> **PEPPOL pardavimo SF**, tada pasirinkite **PEPPOL pardavimo SF („Litware”)**.
 3. **Versijos** „FastTab” skirtuke pasirinkite **Pakeisti būseną**\>**Baigta** ir pasirinkite **Gerai**.
 
-Versijos 11.2.2.1 būsena pakeista iš **Juodraštis** į **Baigta** , o versija tampa tik skaitoma. Įtraukta nauja redaguojama 11.2.2.2 versija ir jos būsena yra **Juodraštis**. Šią versiją galite naudoti norėdami atlikti tolesnius keitimus jūsų pasirinktinėje ER formato konfigūracijoje.
+Versijos 11.2.2.1 būsena pakeista iš **Juodraštis** į **Baigta**, o versija tampa tik skaitoma. Įtraukta nauja redaguojama 11.2.2.2 versija ir jos būsena yra **Juodraštis**. Šią versiją galite naudoti norėdami atlikti tolesnius keitimus jūsų pasirinktinėje ER formato konfigūracijoje.
 
 ![11.2.2.1 versija užbaigta puslapyje Konfigūracijos](./media/er-quick-start3-completed-custom-format1.png)
 
@@ -506,8 +505,8 @@ Versijos 11.2.2.1 būsena pakeista iš **Juodraštis** į **Baigta** , o versija
 
 1. Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Elektroninės ataskaitos užduotys**.
 2. Puslapyje **Elektroninės ataskaitos užduotys** pasirinkite naujausią įrašą, kurio užduoties aprašas yra **Siųsti el. SF XML**.
-3. Pasirinkite **Rodyti failus** , norėdami pasiekti sugeneruotų failų sąrašą.
-4. Pasirinkite **Atidaryti** , norėdami atsisiųsti sugeneruotą el. SF XML failą.
+3. Pasirinkite **Rodyti failus**, norėdami pasiekti sugeneruotų failų sąrašą.
+4. Pasirinkite **Atidaryti**, norėdami atsisiųsti sugeneruotą el. SF XML failą.
 5. Analizuokite el. SF XML failą. Atkreipkite dėmesį, kad jūsų tinkinimą atitinkanti kliento mokesčių schema apima pasirinktinį XML atributą **FederalTaxID** ir XML atributus **schemeID** ir **schemeAgencyID**. Šio naujo XML atributo vertę nurodo **LITWARE-6789** federalinių mokesčių ID, įvestas klientui, kurio SF išrašyta.
 
     ![Sugeneruoto el. SF XML failo, kuriame yra jūsų tinkinimai, peržiūra](./media/er-quick-start3-e-invoice2.png)
@@ -517,11 +516,11 @@ Versijos 11.2.2.1 būsena pakeista iš **Juodraštis** į **Baigta** , o versija
 Norėdami [atnaujinti](general-electronic-reporting-manage-configuration-lifecycle.md) standartinių ER konfigūracijų rinkinį jūsų „Finance” egzemplioriuje, turite importuoti naujas jų versijas, kada jos pasiekiamos to egzemplioriaus sukonfigūruotoje ER [saugykloje](general-electronic-reporting.md#Repository).
 
 1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
-2. **Lokalizavimo konfigūracijos** puslapyje **Konfigūracijos teikėjai** dalyje pasirinkite **„Microsoft”** plytelę ir pasirinkite **Saugyklos** , kad peržiūrėtumėte „Microsoft” tiekėjo saugyklų sąrašą.
+2. **Lokalizavimo konfigūracijos** puslapyje **Konfigūracijos teikėjai** dalyje pasirinkite **„Microsoft”** plytelę ir pasirinkite **Saugyklos**, kad peržiūrėtumėte „Microsoft” tiekėjo saugyklų sąrašą.
 3. Puslapyje **Konfigūracijų saugyklos** pasirinkite **Visuotinis** tipo saugyklą, paskui pasirinkite **Atidaryti**. Jei esate raginami autorizuoti, kad prisijungtumėte prie „Regulatory Configuration Service”, vadovaukitės autorizavimo instrukcijomis.
 4. Puslapio **Konfigūracijos saugykla** kairiosios srities konfigūracijos medyje pasirinkite formato konfigūraciją **PEPPOL pardavimo SF**.
 5. „FastTab” **Versijos** pasirinkite **32.6.7** pasirinktos ER formato konfigūracijos, kuri buvo išleista, kad palaikytų kliento elektronines SF PEPPOL BIS 3 formatu, versiją. Daugiau informacijos rasite [KB4490320](https://support.microsoft.com/help/4490320/an-update-for-european-union-to-support-export-of-customers-electronic).
-6. Pasirinkite **Importuoti** , kad pasirinktą versiją atsisiųstumėte iš Bendrosios saugyklos į dabartinę „Finance“ programą.
+6. Pasirinkite **Importuoti**, kad pasirinktą versiją atsisiųstumėte iš Bendrosios saugyklos į dabartinę „Finance“ programą.
 
 ![32.6.7 versija, pasirinkta saugyklos puslapyje Konfigūracija](./media/er-quick-start3-import-solution2.png)
 
@@ -540,23 +539,23 @@ Atkreipkite dėmesį, kad kartu su pasirinktu ER formatu **PEPPOL pardavimo SF**
 
 Įsitikinkite, kad toliau pateiktos ER konfigūracijos galiausiai bus prieinamos konfigūracijos medyje.
 
-- ER duomenų modelio konfigūracija **SF modelis** :
+- ER duomenų modelio konfigūracija **SF modelis**:
 
     - 206 versijoje (arba naujesnėje) yra duomenų modelio ER komponento 24 versija (arba naujesnė), nurodanti SF išrašymo verslo domeno duomenų struktūrą. Ši ER konfigūracija buvo importuota kaip naujausios pasiekiamos ER modelio susiejimo konfigūracijos **SF modelio susiejimas** aukštesnio lygmens elementas.
 
     ![206 versija puslapyje Konfigūracijos](./media/er-quick-start3-imported-solution2b1.png)
 
-- ER modelio susiejimo konfigūracija **SF modelio susiejimas** :
+- ER modelio susiejimo konfigūracija **SF modelio susiejimas**:
 
     - 206.132 versija (arba naujesnė) buvo importuota kaip naujausias ER duomenų modelio konfigūracijos **SF modelis** 206 versijos diegimas. Joje yra keli modelio susiejimo ER komponentai, aprašantys, kaip duomenų modelis užpildomas programos duomenimis vykdymo metu.
 
     ![206.132 versija puslapyje Konfigūracijos](./media/er-quick-start3-imported-solution2b2.png)
 
-- ER formato konfigūracija **UBL pardavimo SF** :
+- ER formato konfigūracija **UBL pardavimo SF**:
 
     - 32.6 versijoje yra formato ir formato susiejimo ER komponentai. Formato komponentas nurodo ataskaitos maketą. Formato susiejimo komponentas apima modelio duomenų šaltinį ir nurodo, kaip šis duomenų šaltinis naudojamas ataskaitos maketui užpildyti vykdymo metu. Šis ER formatas buvo sukonfigūruotas generuoti el. SF UBL formatu. Jis buvo importuotas kaip importuoti pasirinkto ER formato **PEPPOL pardavimo SF** pirminis elementas.
 
-- ER formato konfigūracija **PEPPOL pardavimo SF** :
+- ER formato konfigūracija **PEPPOL pardavimo SF**:
 
     - 32.6.7 versijoje yra formato ir formato susiejimo ER komponentai, kurie buvo sukonfigūruoti el. SF generuoti PEPPOL formatu.
 
@@ -567,25 +566,25 @@ Atkreipkite dėmesį, kad kartu su pasirinktu ER formatu **PEPPOL pardavimo SF**
 ### <a name="adopt-your-custom-er-data-model"></a>Jūsų pasirinktinio ER duomenų modelio tvirtinimas
 
 1. Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos**.
-2. Puslapio **Konfigūracijos** kairiosios srities konfigūracijos medyje išplėskite **SF modelis** , tada pasirinkite **SF modelis („Litware”)**.
+2. Puslapio **Konfigūracijos** kairiosios srities konfigūracijos medyje išplėskite **SF modelis**, tada pasirinkite **SF modelis („Litware”)**.
 3. „FastTab” **Versijos** pasirinkite pasirinktos duomenų modelio konfigūracijos **50.2** juodraščio versijos parinktį **Pritaikyti kitoje vietoje**.
 4. Lauke **Paskirties versija** patvirtinkite pagrindinio ER duomenų modelio konfigūracijos **206** versijos pasirinkimą ir pasirinkite **Gerai**.
 
     Jūsų pasirinktinės ER duomenų modelio konfigūracijos juodraščio versijos numeris pakeičiamas iš **50.2** į **206.2** siekiant nurodyti, jog joje dabar yra jūsų tinkinimas, sulietas su pagrindinio ER duomenų modelio konfigūracijos naujausios versijos (206) keitimais.
 
     > [!NOTE]
-    > Pritaikymo kitoje vietoje veiksmas nėra grįžtamas. Norėdami atšaukti šį pritaikymą kitoje vietoje, „FastTab” **Versijos** pasirinkite **50.1** modelio **SF modelis („Litware”)** versiją ir pasirinkite **Gauti šią versiją**. 206.2 versija bus pernumeruota atgal į **50.2** , o juodraštinės versijos 50.2 turinys atitiks 50.1 versijos turinį.
+    > Pritaikymo kitoje vietoje veiksmas nėra grįžtamas. Norėdami atšaukti šį pritaikymą kitoje vietoje, „FastTab” **Versijos** pasirinkite **50.1** modelio **SF modelis („Litware”)** versiją ir pasirinkite **Gauti šią versiją**. 206.2 versija bus pernumeruota atgal į **50.2**, o juodraštinės versijos 50.2 turinys atitiks 50.1 versijos turinį.
 
 5. **Versijos** „FastTab” skirtuke pasirinkite **Pakeisti būseną**\>**Baigta** ir pasirinkite **Gerai**.
 
-Versijos 206.2 būsena pakeista iš **Juodraštis** į **Baigta** , o versija tampa tik skaitoma. Įtraukta nauja redaguojama 206.3 versija ir jos būsena yra **Juodraštis**. Šią versiją galite naudoti norėdami atlikti tolesnius keitimus jūsų pasirinktinio ER duomenų modelio konfigūracijoje.
+Versijos 206.2 būsena pakeista iš **Juodraštis** į **Baigta**, o versija tampa tik skaitoma. Įtraukta nauja redaguojama 206.3 versija ir jos būsena yra **Juodraštis**. Šią versiją galite naudoti norėdami atlikti tolesnius keitimus jūsų pasirinktinio ER duomenų modelio konfigūracijoje.
 
 ![206.2 versija užbaigta puslapyje Konfigūracijos](./media/er-quick-start3-completed-custom-model2.png)
 
 ### <a name="adopt-your-custom-er-model-mapping"></a>Jūsų pasirinktinio ER modelio susiejimo tvirtinimas
 
 1. Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos**.
-2. Puslapio **Konfigūracijos** kairiosios srities konfigūracijos medyje išplėskite **SF modelis** \> **SF modelio susiejimas** , tada pasirinkite **SF modelio susiejimas („Litware”)**.
+2. Puslapio **Konfigūracijos** kairiosios srities konfigūracijos medyje išplėskite **SF modelis** \> **SF modelio susiejimas**, tada pasirinkite **SF modelio susiejimas („Litware”)**.
 3. „FastTab” **Versijos** pasirinkite pasirinktos modelio susiejimo konfigūracijos **50.19.2** juodraščio versijos parinktį **Pritaikyti kitoje vietoje**.
 4. Lauke **Paskirties versija** patvirtinkite pagrindinio ER modelio susiejimo konfigūracijos **206.132** versijos pasirinkimą ir pasirinkite **Gerai**.
 
@@ -595,29 +594,29 @@ Versijos 206.2 būsena pakeista iš **Juodraštis** į **Baigta** , o versija ta
 
     ![Pritaikymo kitoje vietoje nesuderinamumų pranešimas puslapyje Konfigūracijos](./media/er-quick-start3-rebase-conflicts-model-mapping1.png)
 
-5. Veiksmų srityje pasirinkite **Dizaino įrankis** , tada susiejimų sąraše pasirinkite **Kliento SF**.
-6. Pasirinkite kiekvieno pritaikymo kitoje vietoje nesuderinamumo parinktį **Išlaikyti vertę** , nes turite išsaugoti kiekvieno paminėto komponento pasirinktinio duomenų modelio versijos numerį.
+5. Veiksmų srityje pasirinkite **Dizaino įrankis**, tada susiejimų sąraše pasirinkite **Kliento SF**.
+6. Pasirinkite kiekvieno pritaikymo kitoje vietoje nesuderinamumo parinktį **Išlaikyti vertę**, nes turite išsaugoti kiekvieno paminėto komponento pasirinktinio duomenų modelio versijos numerį.
 
     ![Pritaikymo kitoje vietoje nesuderinamumai puslapyje Modelio susiejimo dizaino įrankis](./media/er-quick-start3-rebase-conflicts-model-mapping2.png)
 
 7. Pasirinkite **Įrašyti** ir uždarykite puslapį **Modelio susiejimo dizaino įrankis**.
 8. Susiejimų sąraše pasirinkite **Projekto SF**.
-9. Pasirinkite kiekvieno pritaikymo kitoje vietoje nesuderinamumo parinktį **Išlaikyti vertę** , nes turite išsaugoti kiekvieno paminėto komponento pasirinktinio duomenų modelio versijos numerį.
+9. Pasirinkite kiekvieno pritaikymo kitoje vietoje nesuderinamumo parinktį **Išlaikyti vertę**, nes turite išsaugoti kiekvieno paminėto komponento pasirinktinio duomenų modelio versijos numerį.
 10. Pasirinkite **Įrašyti** ir uždarykite puslapį **Modelio susiejimai**.
 
     > [!NOTE]
-    > Pritaikymo kitoje vietoje veiksmas nėra grįžtamas. Norėdami atšaukti šį pritaikymą kitoje vietoje, „FastTab” **Versijos** pasirinkite **50.19.1** modelio susiejimo **SF modelio susiejimas („Litware”)** versiją ir pasirinkite **Gauti šią versiją**. 206.132.2 versija bus pernumeruota atgal į **50.19.2** , o juodraštinės versijos 50.19.2 turinys atitiks 50.19.1 versijos turinį.
+    > Pritaikymo kitoje vietoje veiksmas nėra grįžtamas. Norėdami atšaukti šį pritaikymą kitoje vietoje, „FastTab” **Versijos** pasirinkite **50.19.1** modelio susiejimo **SF modelio susiejimas („Litware”)** versiją ir pasirinkite **Gauti šią versiją**. 206.132.2 versija bus pernumeruota atgal į **50.19.2**, o juodraštinės versijos 50.19.2 turinys atitiks 50.19.1 versijos turinį.
 
 11. **Versijos** „FastTab” skirtuke pasirinkite **Pakeisti būseną**\>**Baigta** ir pasirinkite **Gerai**.
 
-Versijos 206.132.2 būsena pakeista iš **Juodraštis** į **Baigta** , o versija tampa tik skaitoma. Įtraukta nauja redaguojama 206.132.3 versija ir jos būsena yra **Juodraštis**. Šią versiją galite naudoti norėdami atlikti tolesnius keitimus jūsų pasirinktinio ER modelio susiejimo konfigūracijoje.
+Versijos 206.132.2 būsena pakeista iš **Juodraštis** į **Baigta**, o versija tampa tik skaitoma. Įtraukta nauja redaguojama 206.132.3 versija ir jos būsena yra **Juodraštis**. Šią versiją galite naudoti norėdami atlikti tolesnius keitimus jūsų pasirinktinio ER modelio susiejimo konfigūracijoje.
 
 ![206.132.2 versija užbaigta puslapyje Konfigūracijos](./media/er-quick-start3-completed-custom-mapping2.png)
 
 ### <a name="adopt-your-custom-er-format"></a>Jūsų pasirinktinio ER formato tvirtinimas
 
 1. Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos**.
-2. Puslapio **Konfigūracijos** kairiosios srities konfigūracijos medyje išplėskite **SF modelis** \> **UBL pardavimo SF** \> **PEPPOL pardavimo SF** , tada pasirinkite **PEPPOL pardavimo SF („Litware”)**.
+2. Puslapio **Konfigūracijos** kairiosios srities konfigūracijos medyje išplėskite **SF modelis** \> **UBL pardavimo SF** \> **PEPPOL pardavimo SF**, tada pasirinkite **PEPPOL pardavimo SF („Litware”)**.
 3. „FastTab” **Versijos** pasirinkite pasirinktos formato konfigūracijos **11.2.2.2** juodraščio versijos parinktį **Pritaikyti kitoje vietoje**.
 4. Versijos lauke **Paskirtis** patvirtinkite pagrindinio ER formato konfigūracijos **32.6.7** versijos pasirinkimą ir pasirinkite **Gerai**.
 
@@ -626,19 +625,19 @@ Versijos 206.132.2 būsena pakeista iš **Juodraštis** į **Baigta** , o versij
     Atkreipkite dėmesį, kad aptikta pritaikymo kitoje vietoje nesuderinamumų. Dabar turite išspręsti šiuos nesuderinamumus neautomatiniu būdu.
 
 5. Veiksmų srityje pasirinkite **Dizaino įrankis**.
-6. Pasirinkite kiekvieno pritaikymo kitoje vietoje nesuderinamumo parinktį **Išlaikyti vertę** , nes turite išsaugoti kiekvieno paminėto komponento pasirinktinio duomenų modelio versijos numerį.
+6. Pasirinkite kiekvieno pritaikymo kitoje vietoje nesuderinamumo parinktį **Išlaikyti vertę**, nes turite išsaugoti kiekvieno paminėto komponento pasirinktinio duomenų modelio versijos numerį.
 7. Pasirinkite **Įrašyti**.
-8. Skirtuke **Susiejimas** pasirinkite duomenų šaltinį **SF** , kurio tipas **Modelis** , tada pasirinkite **Redaguoti**.
+8. Skirtuke **Susiejimas** pasirinkite duomenų šaltinį **SF**, kurio tipas **Modelis**, tada pasirinkite **Redaguoti**.
 9. Lauke **Versija** pasirinkite **2** jūsų pasirinktinio duomenų modelio versiją, tada pasirinkite **Gerai**.
 10. Pasirinkite **Įrašyti**.
 
     > [!NOTE]
-    > Pritaikymo kitoje vietoje veiksmas nėra grįžtamas. Norėdami atšaukti šį pritaikymą kitoje vietoje, „FastTab” **Versijos** pasirinkite **11.2.2.1** formato **PEPPOL pardavimo SF („Litware”)** versiją ir pasirinkite **Gauti šią versiją**. 32.6.7.2 versija bus pernumeruota atgal į **11.2.2.2** , o juodraštinės versijos 11.2.2.2 turinys atitiks 11.2.2.1 versijos turinį.
+    > Pritaikymo kitoje vietoje veiksmas nėra grįžtamas. Norėdami atšaukti šį pritaikymą kitoje vietoje, „FastTab” **Versijos** pasirinkite **11.2.2.1** formato **PEPPOL pardavimo SF („Litware”)** versiją ir pasirinkite **Gauti šią versiją**. 32.6.7.2 versija bus pernumeruota atgal į **11.2.2.2**, o juodraštinės versijos 11.2.2.2 turinys atitiks 11.2.2.1 versijos turinį.
 
 11. Uždarykite puslapį **Formato dizaino įrankis**.
 12. **Versijos** „FastTab” skirtuke pasirinkite **Pakeisti būseną**\>**Baigta** ir pasirinkite **Gerai**.
 
-Versijos 32.6.7.2 būsena pakeista iš **Juodraštis** į **Baigta** , o versija tampa tik skaitoma. Įtraukta nauja redaguojama 32.6.7.3 versija ir jos būsena yra **Juodraštis**. Šią versiją galite naudoti norėdami atlikti tolesnius keitimus jūsų pasirinktinėje ER formato konfigūracijoje.
+Versijos 32.6.7.2 būsena pakeista iš **Juodraštis** į **Baigta**, o versija tampa tik skaitoma. Įtraukta nauja redaguojama 32.6.7.3 versija ir jos būsena yra **Juodraštis**. Šią versiją galite naudoti norėdami atlikti tolesnius keitimus jūsų pasirinktinėje ER formato konfigūracijoje.
 
 ![32.6.7.2 versija užbaigta puslapyje Konfigūracijos](./media/er-quick-start3-completed-custom-format2.png)
 
@@ -659,8 +658,8 @@ Versijos 32.6.7.2 būsena pakeista iš **Juodraštis** į **Baigta** , o versija
 
 1. Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Elektroninės ataskaitos užduotys**.
 2. Puslapyje **Elektroninės ataskaitos užduotys** pasirinkite naujausią įrašą, kurio užduoties aprašas yra **Siųsti el. SF XML**.
-3. Pasirinkite **Rodyti failus** , norėdami pasiekti sugeneruotų failų sąrašą.
-4. Pasirinkite **Atidaryti** , norėdami atsisiųsti sugeneruotą el. SF XML failą.
+3. Pasirinkite **Rodyti failus**, norėdami pasiekti sugeneruotų failų sąrašą.
+4. Pasirinkite **Atidaryti**, norėdami atsisiųsti sugeneruotą el. SF XML failą.
 5. Analizuokite el. SF XML failą. Atkreipkite dėmesį, kad jūsų tinkinimą atitinkanti kliento mokesčių schema vis dar apima pasirinktinį XML atributą **FederalTaxID** ir XML atributus **schemeID** ir **schemeAgencyID**. Be to, dėl naujos pagrindinio formato **UBL pardavimo SF** versijos keitimų suliejimo su jūsų tinkinimu, XML elemento **cbc:CustomizationID** tekstas buvo pakeistas iš `urn:www.cenbii.eu:transaction:biicoretrdm010:ver1.0:# urn:www.peppol.eu:bis:peppol5a:ver1.0` į `urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0`.
 
     ![Sugeneruoto el. SF XML failo, kuriame yra tinkinimų, peržiūra](./media/er-quick-start3-e-invoice3.png)

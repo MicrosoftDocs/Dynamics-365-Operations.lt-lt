@@ -1,7 +1,7 @@
 ---
 title: Ilgalaikių išteklių kūrimas
 description: Šioje temoje paaiškinama, kaip sukurti naują ilgalaikio turto įrašą sąrašo puslapyje Ilgalaikis turtas.
-author: saraschi2
+author: moaamer
 manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2b7d65a047251fa036242fb456725bc8cba957b9
-ms.sourcegitcommit: 51e626675b0130fa32a84ce2d9119b68ea928018
+ms.openlocfilehash: 481bdb55b813dad5366f382ae35d8345b0e67d9f
+ms.sourcegitcommit: a9efbd69f2670fd6ba0ad0babf304fc206d01249
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4000248"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "4446221"
 ---
 # <a name="create-a-fixed-asset"></a>Ilgalaikių išteklių kūrimas
 
@@ -49,3 +49,9 @@ Norėdami rankiniu būdu sukurti turto įrašą, atlikite toliau pateiktus veiks
 Taip pat galite importuoti ilgalaikį turtą naudodami „Excel” papildinį arba vykdydami importavimo užduotį iš darbo srities **Duomenų valdymas**. Prieš paleisdami importavimą, įveskite reikiamų šablono laukų vertes.
 
 Jei nenurodėte ilgalaikio turto numerio „Excel” papildinio šablone arba duomenų valdyme, sistema sukuria kiekvieno importuoto turto ilgalaikio turto numerį ir automatiškai padidina kiekvieno numeraciją. Tačiau, jei importuojate turtą ir nurodote turto numerius šablone, sistema automatiškai **nepadidina** numeracijos. Tokiu atveju administratoriui gali tekti rankiniu būdu atnaujinti numeraciją. Jei nurodėte ilgalaikio turto numerį „Excel” papildinio šablone, sistema naudoja nurodytą ilgalaikio turto numerį ir padidina numeraciją.
+
+> [!NOTE]                                                                                                         
+> Užregistravus nusidėvėjimą, laukai **Atiduota eksploatuoti** ir **Nusidėvėjimo vykdymo data** bus užrakinti puslapyje **Knyga**. Be to, nė vienas laukas nebus atnaujintas iš duomenų objekto.
+
+> [!WARNING]
+> Ilgalaikio turto įrašas nebus panaikintas, jei operacijos buvo užregistruotos susijusioje knygoje arba jei naujai sukurtas ilgalaikis turtas yra įvedamas į žurnalo eilutę, bet neužregistruojamas. 

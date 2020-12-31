@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1534aab03ac35950e875a1384dfdf2a22bc22546
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 4f4535d08ff1bb6f83172efb4ceada5a7d02ebd4
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978012"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4446220"
 ---
 # <a name="vendor-transactions-list-page"></a>Tiekėjo operacijų sąrašo puslapis
 
@@ -48,7 +48,7 @@ Veiksmų srities mygtukas **Sudengimų peržiūra** suteikia greitą prieigą pr
 
 ## <a name="global-transactions"></a>Visuotinės operacijos
 
-Mygtukas **Visuotinės operacijos** taip pat rodomas puslapyje **Tiekėjo operacijos**. Naudodamiesi šiuo mygtuku galite peržiūrėti visas tiekėjo operacijas visuose juridiniuose subjektuose. Sąrašo puslapyje **Tiekėjo operacijos** rodomos tik tų juridinių subjektų operacijos, prie kurių vartotojas turi prieigą (priklausomai nuo jo / jos saugos parametrų).
+Mygtukas **Visuotinės operacijos** taip pat rodomas puslapyje **Tiekėjo operacijos**. Naudodamiesi šiuo mygtuku galite peržiūrėti visas tiekėjo operacijas visuose juridiniuose subjektuose. Sąrašo puslapyje **Tiekėjo operacijos** rodomos tik tų juridinių subjektų operacijos, prie kurių vartotojas turi prieigą (priklausomai nuo jo saugos parametrų).
 
 Sąrašo puslapyje rodomos visos tą patį šalies ID kaip ir tiekėjas, nuo kurio pradėjote, turinčių tiekėjų operacijos. Pavyzdžiui, jei tiekėjas US-001 viename juridiniame subjekte turi tą patį šalies ID kaip tiekėjas DE-001 kitame juridiniame subjekte, rodomos visos abiejų tiekėjų ID operacijos.
 

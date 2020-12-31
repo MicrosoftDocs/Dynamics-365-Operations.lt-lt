@@ -18,33 +18,35 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 7e1f70d95f29dc154044f09c6020300a8e4f8987
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 6a0f114bce6bdb7813c93e9441744d67cd043c30
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997483"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683742"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Valiutos duomenų tipo perkėlimas dvigubui rašymui
 
 [!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Galite padidinti dešimtainių skaičių, palaikomų daugiausiai iki 10 valiutoms vertėms, kiekį. Numatytoji riba yra keturi dešimtainiai skaičiai. Padidinę dešimtainių skaičių kiekį, padėsite išvengti duomenų praradimo, kai naudosite dvigubo rašymo funkciją sinchronizuodami duomenis. Dešimtainių skaičių padidinimas yra pasirenkamas pakeitimas. Norėdami jį įgyvendinti, turite paprašyti pagalbos iš „Microsoft”.
 
 Norėdami pakeisti dešimtainių skaičių kiekį, turite atlikti du žingsnius:
 
 1. Perkėlimo užklausa iš „Microsoft”.
-2. Dešimtainių skaičių kiekio pakeitimas „Common Data Service”.
+2. Dešimtainių skaičių kiekio pakeitimas „Dataverse”.
 
-„Finance and Operations” programėlė ir „Common Data Service” turi palaikyti tą patį dešimtainių skaičių kiekį valiutos vertėse. Priešingu atveju, kai ši informacija sinchronizuojama tarp programėlių, gali dingti duomenys. Perkėlimo procesas perkonfigūruoja, kaip saugomos valiutos ir valiutos kurso vertės, bet jokie duomenys nesikeičia. Baigus perkėlimą, valiutų kodų ir kainų dešimtainių skaičių kiekis gali būti padidintas, o vartotojų įvesti ir peržiūrėti duomenys gali būti tikslesni dešimtainių tikslumu.
+„Finance and Operations” programėlė ir „Dataverse” turi palaikyti tą patį dešimtainių skaičių kiekį valiutos vertėse. Priešingu atveju, kai ši informacija sinchronizuojama tarp programėlių, gali dingti duomenys. Perkėlimo procesas perkonfigūruoja, kaip saugomos valiutos ir valiutos kurso vertės, bet jokie duomenys nesikeičia. Baigus perkėlimą, valiutų kodų ir kainų dešimtainių skaičių kiekis gali būti padidintas, o vartotojų įvesti ir peržiūrėti duomenys gali būti tikslesni dešimtainių tikslumu.
 
 Perkėlimas yra neprivalomas. Jei didesnio dešimtainių skaičių kiekio palaikymas jums naudingas, rekomenduojame apsvarstyti perkėlimą. Organizacijoms, kurioms nereikia jokių verčių, kuriose yra daugiau nei keturi dešimtainiai skaičiai, perkėlimas nebūtinas.
 
 ## <a name="requesting-migration-from-microsoft"></a>Perkėlimo užklausos siuntimas „Microsoft”
 
-Saugojimas esamiems valiutos laukams „Common Data Service” negali palaikyti daugiau nei keturių dešimtainių skaičių. Todėl perkėlimo metu valiutos vertės nukopijuojamos į naujus duomenų bazės vidinius laukus. Šis procesas vyksta nuolatos, kol bus perkelti visi duomenys. Viduje perkėlimo pabaigoje, naujieji saugojimo tipai pakeičia senus saugojimo tipus, tačiau duomenų vertės lieka nepakitusios. Valiutos laukai gali palaikyti iki 10 dešimtainių skaičių. Perkėlimo metu „Common Data Service” gali būti toliau naudojama be pertraukos.
+Saugojimas esamiems valiutos laukams „Dataverse” negali palaikyti daugiau nei keturių dešimtainių skaičių. Todėl perkėlimo metu valiutos vertės nukopijuojamos į naujus duomenų bazės vidinius laukus. Šis procesas vyksta nuolatos, kol bus perkelti visi duomenys. Viduje perkėlimo pabaigoje, naujieji saugojimo tipai pakeičia senus saugojimo tipus, tačiau duomenų vertės lieka nepakitusios. Valiutos laukai gali palaikyti iki 10 dešimtainių skaičių. Perkėlimo metu „Dataverse” gali būti toliau naudojama be pertraukos.
 
-Tuo pačiu metu keitimo kursai modifikuojami taip, kad jie palaikytų iki 12 dešimtainių skaičių, o ne dabartinę 10 limitą. Šis pakeitimas būtinas, kad dešimtainių skaičių kiekis būtų toks „Finance and Operations” programėlėje ir „Common Data Service”.
+Tuo pačiu metu keitimo kursai modifikuojami taip, kad jie palaikytų iki 12 dešimtainių skaičių, o ne dabartinę 10 limitą. Šis pakeitimas būtinas, kad dešimtainių skaičių kiekis būtų toks „Finance and Operations” programėlėje ir „Dataverse”.
 
 Perkėlimas nekeičia jokių duomenų. Kai valiutos ir keitimo kurso laukai konvertuoti, administratoriai gali konfigūruoti sistemą, kad būtų galima naudoti iki 10 dešimtainių skaičių valiutos laukas nurodant kiekvienos operacijos valiutos ir kainos dešimtainių skaičių kiekį. 
 
@@ -61,12 +63,12 @@ Kai prašote perkelti, turite žinoti apie šiuos dalykus ir pasiruošti jiems a
 
 + Laikas, skirtas perkelti duomenis, priklauso nuo duomenų kiekio sistemoje. Didelių duomenų bazių perkėlimas gali užtrukti kelias dienas.
 + Perkėlimo metu duomenų bazės dydis laikinai padidėja, nes indeksuose reikia papildomos vietos. Kai perkėlimas baigtas, dauguma papildomos vietos atlaisvinama.
-+ Perkėlimo proceso metu įvykus klaidai, neleidžiančios užbaigti perkėlimo, sistema parodo įspėjimus „Microsoft Support”, kad „Support” personalas galėtų įsikišti. Tačiau, net jei vykdant perkėlimą įvyksta klaidų, „Common Data Service” tolesnis naudojimas nesutrinka.
++ Perkėlimo proceso metu įvykus klaidai, neleidžiančios užbaigti perkėlimo, sistema parodo įspėjimus „Microsoft Support”, kad „Support” personalas galėtų įsikišti. Tačiau, net jei vykdant perkėlimą įvyksta klaidų, „Dataverse” tolesnis naudojimas nesutrinka.
 + Perkėlimo procesas nėra grįžtamas.
 
 ## <a name="changing-the-number-of-decimal-places"></a>Dešimtainių skaičių kiekio keitimas
 
-Baigus perkėlimą, „Common Data Service” gali būti saugomi skaičiai, turintys daugiau dešimtainių skaičių. Administratoriai gali pasirinkti, kiek dešimtainių skaičių naudojama konkretiems valiutos kodams ir kainoms. „Microsoft Power Apps” „Power BI”, ir „Power Automate” vartotojai gali tada peržiūrėti ir naudoti skaičius, turinčius daugiau dešimtainių skaičių.
+Baigus perkėlimą, „Dataverse” gali būti saugomi skaičiai, turintys daugiau dešimtainių skaičių. Administratoriai gali pasirinkti, kiek dešimtainių skaičių naudojama konkretiems valiutos kodams ir kainoms. „Microsoft Power Apps” „Power BI”, ir „Power Automate” vartotojai gali tada peržiūrėti ir naudoti skaičius, turinčius daugiau dešimtainių skaičių.
 
 Norėdami atlikti šį keitimą, turite atnaujinti šiuos parametrus „Power Apps”:
 
@@ -86,10 +88,10 @@ Baigus perkėlimą, administratoriai gali nustatyti valiutos tikslumą. Eikite �
 
 ### <a name="business-management-currencies"></a>Verslo valdymas: valiutos
 
-Jei jums reikia, kad valiutos tikslumas konkrečiai valiutai skirtųsi nuo valiutos tikslumo, naudojamo kainai, galite jį pakeisti. Eikite į **Parametrai \> Verslo valdymas** , pasirinkite **Valiutos** ir pasirinkite valiutą, kurią norite pakeisti. Tada nustatykite **Valiutos tikslumas** lauką pagal dešimtainių skaičių kiekį, kaip parodyta šioje iliustracijoje.
+Jei jums reikia, kad valiutos tikslumas konkrečiai valiutai skirtųsi nuo valiutos tikslumo, naudojamo kainai, galite jį pakeisti. Eikite į **Parametrai \> Verslo valdymas**, pasirinkite **Valiutos** ir pasirinkite valiutą, kurią norite pakeisti. Tada nustatykite **Valiutos tikslumas** lauką pagal dešimtainių skaičių kiekį, kaip parodyta šioje iliustracijoje.
 
 ![Konkrečios lokalės valiutos parametrai](media/specific-currency.png)
 
-### <a name="entities-currency-field"></a>Objektai: valiutos laukas
+### <a name="tables-currency-field"></a>lentelės: laukas Valiuta
 
 Galima tik keturis kartus koreguoti dešimtainių skaičių, skirtų konkrečios valiutos laukams, kiekius.

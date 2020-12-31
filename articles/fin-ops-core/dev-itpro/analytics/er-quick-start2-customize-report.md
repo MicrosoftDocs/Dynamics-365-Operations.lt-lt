@@ -1,6 +1,6 @@
 ---
 title: Pakoreguokite ER formatą, kad sugeneruotumėte pasirinktinį elektroninį dokumentą
-description: Šioje temoje paaiškinama, kaip pakoreguoti „Microsoft” pateiktą elektroninės ataskaitos (angl. „Electronic reporting“ (ER) formatą, kad jis sugeneruotų pasirinktinį elektroninį dokumentą.
+description: Šioje temoje paaiškinama, kaip pakoreguoti „Microsoft” pateiktą elektroninės ataskaitos angl. „Electronic reporting“ (ER) formatą, kad jis sugeneruotų pasirinktinį elektroninį dokumentą.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/22/2020
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67763b29744c4262249ef1ec04e7df490b31fe5b
-ms.sourcegitcommit: 1e6a7b50596eaf9d965e0155f3f2c50f7f50747e
+ms.openlocfilehash: 20e7a32ac5f6ab21f89ed3c11c64458286864c9d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3498107"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680175"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Pakoreguokite ER formatą, kad sugeneruotumėte pasirinktinį elektroninį dokumentą
 
@@ -278,7 +277,7 @@ Pavyzdžiui, šiame skyriuje rodomas pavyzdys, kurį norite naudoti su „Micros
 
 ### <a name="edit-a-custom-format"></a><a id="ConfigureDerivedFormat"></a>Redaguoti pritaikytą formatą
 
-Turite sukonfigūruoti savo pritaikytą formatą, kad jis atitiktų banko konkrečius reikalavimus. Pavyzdžiui, bankas gali reikalauti, kad sugeneruotuose apmokėjimų failuose turi būti nurodytas Tarptautinių tarpbankinių finansinių atsiskaitymų organizacijos (angl. „Society for Worldwide Interbank Financial Telecommunication“ (SWIFT) kodas, kuriam priskirtas agento vaidmuo apdorojant tiekėjo mokėjimą. SWIFT kodai yra tarptautiniai banko kodai, kurie nurodo tam tikrus bankus visame pasaulyje. Jie taip pat vadinami Banko identifikaciniais kodais (BIC). SWIFT kodas susideda iš 11 simbolių ir turi būti įvestas sugeneruoto apmokėjimo kiekvieno mokėjimo eilučių pradžioje.
+Turite sukonfigūruoti savo pritaikytą formatą, kad jis atitiktų banko konkrečius reikalavimus. Pavyzdžiui, bankas gali reikalauti, kad sugeneruotuose apmokėjimų failuose turi būti nurodytas Tarptautinių tarpbankinių finansinių atsiskaitymų organizacijos angl. „Society for Worldwide Interbank Financial Telecommunication“ (SWIFT) kodas, kuriam priskirtas agento vaidmuo apdorojant tiekėjo mokėjimą. SWIFT kodai yra tarptautiniai banko kodai, kurie nurodo tam tikrus bankus visame pasaulyje. Jie taip pat vadinami Banko identifikaciniais kodais (BIC). SWIFT kodas susideda iš 11 simbolių ir turi būti įvestas sugeneruoto apmokėjimo kiekvieno mokėjimo eilučių pradžioje.
 
 1. Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos**.
 2. **Konfigūracijos** puslapyje konfigūracijų medyje kairėje srityje išskleiskite **Mokėjimo modelis** ir tada pasirinkite **BACS (pritaikyta JK)**.
@@ -307,7 +306,7 @@ Turite sukonfigūruoti savo pritaikytą formatą, kad jis atitiktų banko konkre
     4. Pasirinkite **Gerai**.
 
     > [!NOTE]
-    > **tiek.BankoSWIFT**elementas bus naudojamas įvesti tiekėjo banko SWIFT kodą sugeneruotuose failuose.
+    > **tiek.BankoSWIFT** elementas bus naudojamas įvesti tiekėjo banko SWIFT kodą sugeneruotuose failuose.
 
 9. Formato struktūros medyje pasirinkite **tiek.BankoSWIFT**.
 10. Pasirinkite **Perkelti aukštyn**, kad perkeltumėte pasirinkto formato elementą aukštyn vienu lygiu. Kartokite šį veiksmą, kol **tiek.BankoSWIFT** elementas taps <a id="PositionSWIFTCode"></a>pirmu elementu, esančiu pirminiame **operacija** elemente.

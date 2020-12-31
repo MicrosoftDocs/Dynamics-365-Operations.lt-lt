@@ -3,7 +3,7 @@ title: Automatizuotų tiekėjo SF išrašymo procesų apžvalga
 description: Šioje temoje aprašoma jūsų tiekėjo SF apdorojimo automatizavimo funkcija ir automatizuoto proceso naudojimo privalumai.
 author: abruer
 manager: AnnBe
-ms.date: 10/16/2020
+ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ec3598ebd158cc23ac7c02d7e33557141d5901bc
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.openlocfilehash: 677760ec15630a11bf691be4cd8af9cf5549ddf9
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022501"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665327"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Automatizuotų tiekėjo SF išrašymo procesų apžvalga
 
@@ -39,14 +39,15 @@ Automatizavimo procesai gali būti naudojami norint atlikti toliau nurodytas už
 - Automatiškai pateikti importuotas SF darbo eigos sistemai.
 - Gretinti produktų gavimo kvitus su patvirtinimo laukiančiomis tiekėjo SF eilutėmis.
 - Imituoti registravimą prieš registruojant tiekėjo SF.
-- Greitai ir efektyviai peržiūrėti darbo eigos retrospektyvą.
+- Greitai ir efektyviai peržiūrėti darbo eigos bei automatizavimo retrospektyvą.
 - Peržiūrėti ir analizuoti tiekėjo SF apdorojimo automatizavimo rezultatus.
+- Tęsti automatizuotą kelių SF apdorojimą.
 
 ## <a name="vendor-invoice-automation--submit-imported-vendor-invoices-to-the-workflow-system"></a>Tiekėjo SF automatizavimas – importuotų tiekėjo SF pateikimas darbo eigos sistemai
 
 Bekontakčio modulio Mokėtinos sumos SF išrašymo proceso metu sistema gali automatiškai pateikti importuotą SF darbo eigos sistemai. Procesas bus vykdomas fone tokiu dažnumu, kokį nurodysite (kas valandą ar kas dieną). Norint automatiškai pateikti importuotas SF darbo eigos sistemai, reikia, kad jūsų procesas prasidėtų importuota SF. Norint užtikrinti, kad SF gali būti apdorota nuo pradžios iki pabaigos be rankinio įsikišimo, automatizuotos registravimo užduotys turi būti įtrauktos į darbo eigos konfigūraciją.
 
-SF, susijusios su pirkimo užsakymais (PU), ir SF, kuriose yra ne PU įsigijimo kategorija ir nekaupiamų prekių eilučių, gali būti automatiškai pateiktos darbo eigos sistemai. SF, kurios yra įvedamos neautomatiniu būdu, ir SF, sukurtos naudojant darbo sritį **Tiekėjo bendradarbiavimo SF išrašymas** , turi būti pateiktos neautomatiniu būdu darbo eigos sistemai.
+SF, susijusios su pirkimo užsakymais (PU), ir SF, kuriose yra ne PU įsigijimo kategorija ir nekaupiamų prekių eilučių, gali būti automatiškai pateiktos darbo eigos sistemai. SF, kurios yra įvedamos neautomatiniu būdu, ir SF, sukurtos naudojant darbo sritį **Tiekėjo bendradarbiavimo SF išrašymas**, turi būti pateiktos neautomatiniu būdu darbo eigos sistemai.
 
 Automatizavimo funkcija suteikia lanksčią sistemą, leidžiančią nustatyti įmonei būdingas taikomas taisykles, skirtas pateikti importuotas tiekėjo SF darbo eigos sistemai ir gretinti produktų gavimo kvitų eilutes su patvirtinimo laukiančiomis tiekėjo SF eilutėmis.
 
@@ -58,10 +59,13 @@ Sistema gali automatiškai sugretinti užregistruotus produktų gavimo kvitus su
 
 Registravimo modeliavimas užbaigia tikrinimo veiksmus, atliekamus tiekėjo SF registravimo proceso metu, bet sąskaitos neatnaujinamos. Norėdami vykdyti procesą, galite pasirinkti vieną arba kelias SF puslapyje **Laukiančios tiekėjo SF**.
 
-## <a name="vendor-invoice-automation--enhanced-experience-for-viewing-workflow-historical-information-for-vendor-invoices"></a>Tiekėjo SF automatizavimas – patobulinta tiekėjo SF darbo eigos retrospektyvos informacijos peržiūra
+## <a name="vendor-invoice-automation--enhanced-experience-for-viewing-workflow-and-automation-historical-information-for-vendor-invoices"></a>Tiekėjo SF automatizavimas – patobulinta tiekėjo SF darbo eigos ir automatizavimo retrospektyvos informacijos peržiūra
 
-Pateikiamas lengvai skaitomas tiekėjo SF darbo eigos retrospektyvos rodinys. Tiekėjo SF darbo eigos retrospektyvą galima pasiekti tiesiogiai iš tiekėjo SF. Todėl, norint rasti šią informaciją, reikia atlikti mažiau spustelėjimų.
+Pateikiamas lengvai skaitomas tiekėjo SF darbo eigos retrospektyvos rodinys. Tiekėjo SF darbo eigos retrospektyvą galima pasiekti tiesiogiai iš tiekėjo SF. Todėl, norint rasti šią informaciją, reikia atlikti mažiau spustelėjimų. Jei jūsų organizacija yra įjungusi galimybę automatiškai pateikti importuotas tiekėjo SF į darbo eigą, yra pateikiama importuotų SF automatizavimo retrospektyva. Automatizavimo retrospektyva padeda rasti dabartinį proceso veiksmą bei jau baigtus veiksmus. Kai veiksmas nesėkmingas, sistema pateikia išsamią informaciją, kuri padės suprasti gedimo priežastį.
 
 ## <a name="vendor-invoice-automation--analytics-and-metrics"></a>Tiekėjo SF automatizavimas – analizė ir metrika
 
 Darbo sritis **Tiekėjo SF įrašas** leidžia sutelkti dėmesį į tiekėjo SF, kurios neperėjo automatizuoto proceso. Darbo srities plytelės teikia informaciją apie tiekėjo SF, kurios nebuvo sėkmingai pateiktos darbo eigos sistemai, importuotos ar sugretintos su produktų gavimo kvitais. Taip pat pateikiama „Microsoft Power BI” metrika, siekiant suteikti modulio Mokėtinos sumos vadovams įžvalgų apie tiekėjo SF automatizavimo efektyvumą.
+
+## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>Tiekėjo SF automatizavimas – kelių SF automatizuoto apdorojimo tęsimas
+Kai importuota SF sėkmingai nepateikta į darbo eigą naudojant automatinį procesą, sistema ją pašalina iš tolesnio automatizuoto apdorojimo. Mokėtinų sumų klerkas gali peržiūrėti ir redaguoti sąskaitą faktūrą, prieš tai, kai automatizuotas procesas iš naujo pateikia ją darbo eigai. Kai gedimo priežastis gali būti išspręsta naudojant tą patį pataisymą keliose SF, galite iš naujo paleisti automatizuotą procesą puslapyje **Automatizuoto SF apdorojimo tęsimas**. 

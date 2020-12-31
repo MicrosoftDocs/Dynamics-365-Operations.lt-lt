@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bceeaf99437f6ef66bd3b4e1710b469c262e693e
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.openlocfilehash: 65ee884fb22c1a38e2d3022085fed7e3e6077d1f
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022548"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644542"
 ---
 # <a name="reimburse-customers"></a>Kompensacija klientams
 
@@ -33,22 +33,19 @@ ms.locfileid: "4022548"
 
 Pateiktoje lentelėje parodytos būtinosios sąlygos, kurias reikia įvykdyti prieš pradedant.
 
-| Būtinoji sąlyga                                                            | Prekės/Paslaugos pavadinimas                                                                                                                                                                                 |
-|-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nurodykite mažiausią kompensacijos sumą juridiniam subjektui.          | Puslapyje **Gautinų sumų parametrai** , srityje **Bendra** , lauke **Mažiausia kompensacija** įveskite mažiausią sumą, kurią galima kompensuoti dėl klientų permokėjimo. |
-| Pasirinktinai: įtraukite tiekėjo sąskaitą kiekvienam klientui, kuriam galima kompensuoti. | Puslapyje **Klientai** , „FastTab“ skirtuke **Įvairi informacija** , lauke **Tiekėjo sąskaita** pasirinkite kliento tiekėjo sąskaitą.                                           |
+| Būtinoji sąlyga                                                            | Prekės/Paslaugos pavadinimas |
+|-------------------------------------------------------------------------|-------------|
+| Nurodykite mažiausią kompensacijos sumą juridiniam subjektui.          | Puslapyje **Gautinų sumų parametrai**, srityje **Bendra**, lauke **Mažiausia kompensacija** įveskite mažiausią sumą, kurią galima kompensuoti dėl klientų permokėjimo. |
+| Pasirinktinai: įtraukite tiekėjo sąskaitą kiekvienam klientui, kuriam galima kompensuoti. | Puslapyje **Klientai**, „FastTab“ skirtuke **Įvairi informacija**, lauke **Tiekėjo sąskaita** pasirinkite kliento tiekėjo sąskaitą. |
 
 Kuriant kompensavimo operacijas, kredito balanso sumai sukuriama tiekėjo SF. Kompensacijos procesas pašalina kliento sąskaitos kredito balansą ir sukuria mokėtiną balanso sumą tiekėjo sąskaitai, kuri atitinka klientą.
 
-1.  Gautinų sumų srityje vykdykite procesą **Kompensacija**.
-2.  Atlikite vieną iš toliau nurodytų veiksmų.
-    -   Norėdami kompensuoti konkrečias kliento sąskaitas, spustelėkite **Pasirinkti** ir užklausoje nurodykite kliento sąskaitas.
-    -   Norėdami kompensuoti visas kliento sąskaitas, spustelėkite **Gerai**.
+1. Gautinose sumose vykdykite procesą **Kompensavimas** (**Gautinos sumos \> Periodinės užduotys \> Kompensavimas**).
+2. Norėdami sugrupuoti visas operacijas, nepriklausomai nuo DK dimensijų, nustatykite parinktį **Klientų sumavimas** į parametrą **Taip**. Norėdami grupuoti tik tas operacijas, kurių DK dimensijos yra panašios, nustatykite pasirinktį **Ne**.
+3. Pasirinkite **Įtraukti klientus su neapmokėtomis debeto operacijomis** ir pasirinkite klientus, kurie turi nesudengtų debeto sumų.
+4. Norėdami kompensuoti tam tikras klientų sąskaitas, „FastTab“ **Įtrauktini įrašai** pasirinkite **Filtruoti** ir nurodykite klientų sąskaitas užklausoje.
 
     Kredito sumos perkeliamos į klientų tiekėjų sąskaitas ir apdorojamos kaip įprasti mokėjimai. Jei klientas neturi tiekėjo sąskaitos, klientui automatiškai sukuriama vienkartinė tiekėjo sąskaita.
-3.  Norėdami peržiūrėti sukurtas kompensacijos operacijas, naudokite puslapį **Kompensacija**.
-4.  Mokėtinų sumų srityje sukurkite mokėjimą tiekėjo SF, kurias sukūrė kompensacijos procesas.
 
-
-
-
+5. Norėdami peržiūrėti sukurtas kompensavimo operacijas, naudokite ataskaitą **Kompensavimas** (**Gautinos sumos \> Užklausos ir ataskaitos \> Kompensavimo ataskaita**).
+6. Mokėtinų sumų srityje sukurkite mokėjimą tiekėjo SF, kurias sukūrė kompensacijos procesas. Norėdami gauti daugiau informacijos apie tai, kaip mokėti tiekėjams, žr. [Tiekėjų mokėjimo apžvalga](../accounts-payable/Vendor-payments-workspace.md).

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5277081d9f7adcc43c30d30208d13c7e39d76118
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: f9f2cbe0c9d1609aa3713776f81bafa396fff301
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140380"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645286"
 ---
 # <a name="record-a-vendor-invoice-in-the-invoice-journal"></a>Įrašyti tiekėjo SF į SF žurnalą
 
@@ -33,17 +33,19 @@ ms.locfileid: "3140380"
 2. **Veiksmų srityje** spustelėkite **Naujas SF žurnalas**.
 3. Spustelėkite **Naujas**.
 4. Lauke **Pavadinimas** įveskite žurnalo pavadinimą arba spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-5. Lauke **Aprašymas įveskite**surinkite reikšmę.
-6. **Veiksmų srityje** spustelėkite **Eilutės**. Lauke **Data**įveskite registravimo datą, kuri atnaujins DK.  
+5. Lauke **Aprašymas įveskite** surinkite reikšmę.
+6. **Veiksmų srityje** spustelėkite **Eilutės**. Lauke **Data** įveskite registravimo datą, kuri atnaujins DK.  
 7. Lauke **Sąskaita** turi būti nurodyta **Tiekėjo sąskaita**.
 8. Lauke **Sąskaita faktūra** įveskite SF numerį.
-9. Lauke **Aprašymas įveskite**surinkite reikšmę.
+9. Lauke **Aprašymas įveskite** surinkite reikšmę.
 10. Lauke **Kreditas** įveskite skaičių.
 11. Lauke **Korespondentinė sąskaita** įveskite sąskaitos numerį arba spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą
     * Pagal numatytąsias nuostatas bus naudojama tokia pati **PVM grupė**, kaip ir tiekėjo sąskaitoje.  
     * Pagal numatytąsias nuostatas bus naudojama tokia pati **Prekės PVM grupė**, kaip ir pagrindinėje sąskaitoje, nurodytoje lauke **Korespondentinė sąskaita**.  
     * **Terminas** bus apskaičiuotas remiantis mokėjimo sąlygomis.  
-    * Pagal numatytąsias nuostatas bus naudojama tokia pati **Mokėjimo nuolaida** kaip ir tiekėjo sąskaitoje.  
+    * Pagal numatytąsias nuostatas bus naudojama tokia pati **Mokėjimo nuolaida** kaip ir tiekėjo sąskaitoje.
+12. Jei įjungėte tiekėjo SF žurnalo darbo eigą, spustelėkite **Darbo eiga > Pateikti**.
+    * Patvirtinus jūsų pateikimą, data bus pakeista į pirmą artimiausio atviro laikotarpio dieną, jei operacijos registravimo data patenka į sulaikytą arba uždarytą DK registravimo laikotarpį.
 12. Spustelėkite **Registruoti.**
 13. Uždarykite puslapį.
 

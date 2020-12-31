@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26a912aa2002f1d60dd650248bd3c68e45e68596
-ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
+ms.openlocfilehash: 7934f36877247460ec843201a08d4670456889f9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3810672"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679707"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Daugiakalbių pranešimų Elektroninėse ataskaitose kūrimas
 
@@ -111,7 +110,7 @@ Kai **Žyma** atributas **Vartotojo įvesties parametras** duomenų šaltinio yr
 
 ### <a name="expressions"></a>Išraiškos
 
-Norėdami panaudoti žymą ER [išraiškoje ](er-formula-language.md), turite naudoti sintaksę **@„GER\_ŽYMA: X”**, kurioje prefiksas **@** nurodo, kad operandas nurodo žymą, **GER\_ŽYMA** nurodo, kad ER žyma yra, o **X** yra ER žymos ID.
+Norėdami panaudoti žymą ER [išraiškoje](er-formula-language.md), turite naudoti sintaksę **@„GER\_ŽYMA: X”**, kurioje prefiksas **@** nurodo, kad operandas nurodo žymą, **GER\_ŽYMA** nurodo, kad ER žyma yra, o **X** yra ER žymos ID.
 
 ![ER išraiškos, kurioje yra nuoroda į ER žymą, konfigūravimas ER formulės kūrimo įrankyje](./media/er-multilingual-labels-expression1.png)
 
@@ -158,7 +157,7 @@ ER palaiko skirtingus būdus nurodyti generuotos ataskaitos kalbą. **Kalbos pri
 
     ![Nurodykite „ER Operation” kūrimo įrankyje kūrimo laiku nurodytą kalbą kaip sugeneruotos ataskaitos kalbą](./media/er-multilingual-labels-language-context-fixed.png)
 
-- **Apibrėžta apdorojimo metu** – sugeneruokite ataskaitą kalba, nurodyta apdorojimo metu. Jei pasirinksite šią vertę **Kalba** lauke, sukonfigūruokite ER išraišką, gražinančią kalbos kodą kalbai, pavyzdžiui, atitinkamo kliento kalbą.
+- **Apibrėžta apdorojimo metu** – sugeneruokite ataskaitą kalba, nurodyta apdorojimo metu. Jei pasirinksite šią vertę lauke **Kalba**, sukonfigūruokite ER išraišką, gražinančią kalbos kodą kalbai, pavyzdžiui, atitinkamo kliento kalbą.
 
     ![Nurodykite „ER Operation” kūrimo įrankyje apdorojimo metu nurodytą kalbą kaip sugeneruotos ataskaitos kalbą](./media/er-multilingual-labels-language-context-runtime.png)
 

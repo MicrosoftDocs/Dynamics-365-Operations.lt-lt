@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa6324b244195e9626e259e42eef9512e64cde86
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 78dcdbd83dc717104d437662f7f451c9ecb714cf
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143104"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684384"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Ataskaitų „Office“ formatu su įdėtaisiais vaizdais generavimas
 
@@ -39,15 +38,15 @@ Tolesni veiksmai paaiškina, kaip sistemos administratoriaus arba „Elektronini
 5. Spustelėkite Spausdinti testą.
     * Paleiskite formatą bandymams.  
 6. Lauke Perduodamo čekio formatas pasirinkite Taip.
-7. Spustelėkite GERAI.
-    * Peržiūrėkite sukurtą išvestį. Atkreipkite dėmesį, kad ataskaitoje yra pateiktas įmonės logotipas ir įgaliotojo asmens parašas. Parašo vaizdas yra paimtas iš čekio maketo įrašo, kuris susietas su pasirinkta banko sąskaita, duomenų tipo „Konteineris“ lauko.  
+7. Spustelėkite Gerai.
+    * Peržiūrėkite sukurtą išvestį. Ataskaitoje yra pateiktas įmonės logotipas ir įgaliotojo asmens parašas. Parašo vaizdas yra paimtas iš čekio maketo įrašo, kuris susietas su pasirinkta banko sąskaita, duomenų tipo „Konteineris“ lauko.  
 8. Išplėskite skyrių Kopijos.
 9. Spustelėkite Redaguoti.
 10. Lauke Vandenženklis įveskite „Spausdinti vandenženklį kaip anuliuotą“.
     * Pakeisti vandenženklio išdėstymo nustatymą, kad būtų rodomas vandenženklio tekstas generuojant dokumentą „Excel“ formos elemente.  
 11. Spustelėkite Spausdinti testą.
-12. Spustelėkite GERAI.
-    * Peržiūrėkite sukurtą išvestį. Atkreipkite dėmesį, kad vandenženklis rodomas sukurtoje ataskaitoje pagal žymėjimo parinktį.  
+12. Spustelėkite Gerai.
+    * Peržiūrėkite sukurtą išvestį. Vandenženklis rodomas sukurtoje ataskaitoje pagal žymėjimo parinktį.  
 13. Uždarykite puslapį.
 14. Veiksmų srityje spustelėkite Valdyti mokėjimus.
 15. Spustelėkite Tikrinimai.
@@ -56,7 +55,7 @@ Tolesni veiksmai paaiškina, kaip sistemos administratoriaus arba „Elektronini
 18. Sąraše pažymėkite visas eilutes.
 19. Spustelėkite Spausdinti čekio kopiją.
     * Paleiskite formatą iš naujo spausdinti pasirinktus čekius.  
-    * Peržiūrėkite sukurtą išvestį. Atkreipkite dėmesį, kad turite iš naujo išspausdinti pasirinktus čekius. Įmonės logotipas ir etiketės nespausdinamos, nes jos pateikiamos iš anksto išspausdintoje formoje.  
+    * Peržiūrėkite sukurtą išvestį. Turite iš naujo išspausdinti pasirinktus čekius. Įmonės logotipas ir etiketės nespausdinamos, nes jos pateikiamos iš anksto išspausdintoje formoje.  
 
 ## <a name="modify-the-mapping-of-the-imported-data-model"></a>Pakeiskite importuoto duomenų modelio susiejimą
 1. Uždarykite puslapį.
@@ -90,8 +89,8 @@ Tolesni veiksmai paaiškina, kaip sistemos administratoriaus arba „Elektronini
 3. Veiksmų srityje spustelėkite Nustatyti.
 4. Spustelėkite Tikrinti.
 5. Spustelėkite Spausdinti testą.
-6. Spustelėkite GERAI.
-    * Peržiūrėkite sukurtą išvestį. Atkreipkite dėmesį, kad vaizdas iš dokumentų valdymo priedo pateikiamas kaip įgalioto asmens parašas.  
+6. Spustelėkite Gerai.
+    * Peržiūrėkite sukurtą išvestį. Vaizdas iš dokumentų valdymo priedo pateikiamas kaip įgalioto asmens parašas.  
 
 ## <a name="use-ms-word-document-as-a-template-in-the-imported-format"></a>Naudokite „MS Word“ dokumentą kaip šabloną importuotame formate
 1. Uždarykite puslapį.
@@ -117,6 +116,6 @@ Tolesni veiksmai paaiškina, kaip sistemos administratoriaus arba „Elektronini
 20. Naudokite spartųjį filtrą, kad filtruotumėte lauką Banko sąskaita reikšme „USMF OPER‟.
 21. Spustelėkite Tikrinti.
 22. Spustelėkite Spausdinti testą.
-23. Spustelėkite GERAI.
-    * Peržiūrėkite sukurtą išvestį. Atkreipkite dėmesį, kad išvestis sugeneruota kaip „MS Word“ dokumentas su įdėtaisiais vaizdais, pateikiant įmonės logotipą, įgalioto asmens parašą ir pažymėtą vandenženklio tekstą.  
+23. Spustelėkite Gerai.
+    * Peržiūrėkite sukurtą išvestį. Išvestis sugeneruota kaip „Word“ dokumentas su įdėtaisiais vaizdais, pateikiant įmonės logotipą, įgalioto asmens parašą ir pažymėtą vandenženklio tekstą.  
 

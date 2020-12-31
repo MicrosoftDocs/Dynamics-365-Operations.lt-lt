@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6c18f4fb0db31a959647bb10d2b99d940646676e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 362d30e56fe35b85d50bfa2df57364733b366fef
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976798"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646186"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Nustatyti PVM ataskaitų kodus
 
 [!include [banner](../../includes/banner.md)]
 
-PVM ataskaitų kodai – tai lauko numeris PVM ataskaitoje. Jie naudojami konkrečios šalies ataskaitų maketuose ir PVM mokėjimo pagal kodą ataskaitoje spausdinti PVM sumoms už sudengimo laikotarpį, susumuotą pagal ataskaitos kodą. Sukūrus PVM ataskaitų kodus, galima į juos nurodyti „FastTab‟ Ataskaitų sąranka, esančiuose puslapyje PVM kodas. 
+PVM ataskaitų kodai – tai lauko numeris PVM ataskaitoje. Jie naudojami konkrečių šalių ataskaitų maketuose. Taip pat jie naudojami mokant PVM pagal kodo ataskaitą. Ataskaitoje rodomos kiekvieno ataskaitos kodo sudengimo laikotarpio PVM sumos. Sukūrus PVM ataskaitų kodus, galima į juos nurodyti „FastTab‟ Ataskaitų sąranka, esančiuose puslapyje **PVM kodas**. 
 
 Šiame įraše naudojama demonstracinė įmonė DEMF.
 
