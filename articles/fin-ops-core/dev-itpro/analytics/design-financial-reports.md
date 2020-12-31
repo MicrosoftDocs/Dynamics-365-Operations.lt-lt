@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReportingSetup
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 079439d95597056919d5a8c73b829d79a3b02211
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 97895081293d9ee5a82a718e0644bebdaa0f2777
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002548"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686250"
 ---
 # <a name="view-and-design-financial-reports"></a>Finansinių ataskaitų peržiūra ir kūrimas
 
@@ -164,7 +163,7 @@ Atlikdami šią užduotį, jūs modifikuosite esamą numatytąją ataskaitą. Į
 14. Uždarykite **Konsoliduotą balanso ir įplaukų ataskaitą vieną šalia kitos – numatytoji**.
 15. Uždarykite **Ataskaitų dizaino įrankis**.
 
-## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>5 užduotis: sukurkite sugretinamą padalinių ataskaitą
+## <a name="exercise-5-create-a-side-by-side-departmental-report"></a>5 užduotis: sukurkite sugretinamų padalinių įplaukų ataskaitą
 Šioje užduotyje kursite naują ataskaitą. Ataskaita yra sugretinamų padalinių įplaukų ataskaita. Naudosite esamą eilutės apibrėžimą, tačiau sukursite naują ataskaitos aprašą ir naują stulpelio apibrėžimą, kuris naudoja dimensijų filtrus. Pradėsime nuo finansinių ataskaitų sąrašo.
 
 1. Eikite į **Finansinės ataskaitos** didžiosios knygos srityje „Užklausos ir ataskaitos“.
@@ -195,6 +194,6 @@ Atlikdami šią užduotį, jūs modifikuosite esamą numatytąją ataskaitą. Į
 ## <a name="additional-resources"></a>Papildomi ištekliai
 [Finansinės ataskaitos](../../../finance/general-ledger/financial-reporting-getting-started.md)
 
-[Finansinių ataskaitų peržiūra](../../../finance/general-ledger/view-financial-reports.md)
+[Peržiūrėti finansines ataskaitas](../../../finance/general-ledger/view-financial-reports.md)
 
-[„Dynamics‟ Finansinių ataskaitų tinklaraštis](https://blogs.msdn.com/b/dynamics_financial_reporting/)
+[„Dynamics 365 Finance“ tinklaraštis](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog)

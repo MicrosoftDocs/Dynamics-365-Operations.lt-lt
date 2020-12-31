@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 68843
 ms.assetid: 271df6f4-12b7-4b3e-b2d7-36ea98ef1871
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c682ed96e47c718d3a9af1eb10aada75c59d3156
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e8b688cb1e4589eb076015d01dc4f0f0db14787e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181846"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688322"
 ---
 # <a name="generate-financial-reports"></a>Generuoti finansines ataskaitas
 
@@ -98,7 +97,7 @@ Kad galėtumėte panaikinti ataskaitos grafiką, turite būti ataskaitos grafiko
 
 Jei neįvesite kredencialų, kuriuos reikia įvesti prie visų įmonių, įtrauktų į ataskaitas, įrašydami ataskaitos grafiką gausite šį pranešimą: „Turite įvesti savo kredencialus prie įmonių, esančių šiame ataskaitų grafike. Norėdami įvesti kredencialus, pasirinkite mygtuką Teisės.“
 
-Pavyzdžiui, Phyllis prisijungia prie A įmonės, įvesdama savo prisijungimo vardą ir slaptažodį. Ji sukuria ataskaitos, kuri renka duomenis iš kelių įmonių naudodama ataskaitų medžio aprašą, grafiką. Įrašius šį ataskaitos grafiką, Phyllis paprašoma įvesti kitų į ataskaitų medžio aprašą įtrauktų įmonių kredencialus. Kai kredencialų galiojimo laikas baigiasi, paveiktos ataskaitos ataskaitų grafike negeneruojamos, kol kredencialai atnaujinami. Ataskaitų eilėje rodomas pranešimas, kuriame nurodoma, kad būtina atnaujinti teises. Ataskaitų grafikas sutrinka esant bet kuriam iš šių scenarijų (nes šiais atvejais būtini kredencialai):
+Pavyzdžiui, naudotojas prisijungia prie A įmonės, įvesdamas savo prisijungimo vardą ir slaptažodį. Naudotojas sukuria ataskaitos, kuri renka duomenis iš kelių įmonių naudodama ataskaitų medžio aprašą, grafiką. Įrašęs šį ataskaitos grafiką, naudotojas paprašoma įvesti kitų į ataskaitų medžio aprašą įtrauktų įmonių kredencialus. Kai kredencialų galiojimo laikas baigiasi, paveiktos ataskaitos ataskaitų grafike negeneruojamos, kol kredencialai atnaujinami. Ataskaitų eilėje rodomas pranešimas, kuriame nurodoma, kad būtina atnaujinti teises. Ataskaitų grafikas sutrinka esant bet kuriam iš šių scenarijų (nes šiais atvejais būtini kredencialai):
 
 - į atskiros ataskaitos ataskaitų medį įtraukta nauja įmonė;
 - Buvo modifikuota ataskaitų grupėje esanti ataskaita.

@@ -11,19 +11,18 @@ ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Operations
 ms.custom: 91243
 ms.assetid: 515bc6e7-a85d-4995-95c6-6cab6c8aa0f9
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54f07e7037f818862db4a44f9ad3e3fe8545f6f9
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 5d72eaa28cfe3d114d2ab48cb1e477074a8bf739
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811487"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693263"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Kas nauja ar pasikeitė programoje „Dynamics AX 7.0“ (2016 m. vasario mėn.)
 
@@ -119,7 +118,7 @@ ms.locfileid: "2811487"
 | Kurti sprendimams naudokite „Microsoft Visual Studio“. | Pagrindinė programavimo aplinka yra „Microsoft MorphX“, tačiau šiek tiek programuojama ir programoje „Visual Studio“. | „Visual Studio“ yra vienintelė programavimo aplinka. | Joje išlaikomos žinomos „Dynamics AX 2012“ sąvokos, kurios sklandžiai pritaikomos „Visual Studio“ sistemai ir paradigmoms. Taip įgalinama standartinė sąveika su kitomis .NET kalbomis ir projektais. |
 | Kompiliuokite visų funkcijų bendrąją tarpinę kalbą (CIL). | X++ sukompiliuota pseudokodu. | Visiškai naujas X++ kompiliatorius generuoja visų funkcijų CIL. CIL yra ta pati tarpinė kalba, kurią naudoja kitos .NET paremtos kalbos. | CIL yra greitesnė, gali efektyviai nurodyti klases valdomose dinaminių saitų bibliotekose (DLL) ir gali veikti didelėje .NET priemonių įrankių bazėje. |
 | Įdėkite verslo įžalgų (BI) ataskaitas ir vizualizacijas „Microsoft Dynamics AX“ kliente. | Neprieinama | Kurkite itin intuityvias ir sklandžias vizualizacijas. | Pateikiamos sprendimų priėmimo įžvalgos, paremtos BI. |
-| Integruokite su „Microsoft Office“. | Neprieinama | Naujos galimybės – tai „Excel‟ duomenų jungties programa, puslapis**Darbaknygės dizaino įrankis**, Eksportavimo API ir dokumentų valdymo priemonė. | Savo galutiniams naudotojams galite kurti produktyvumo sprendimus. |
+| Integruokite su „Microsoft Office“. | Neprieinama | Naujos galimybės – tai „Excel‟ duomenų jungties programa, puslapis **Darbaknygės dizaino įrankis**, Eksportavimo API ir dokumentų valdymo priemonė. | Savo galutiniams naudotojams galite kurti produktyvumo sprendimus. |
 | Automatizuokite kūrimą, tikrinimą ir diegimą. | Iš dalies neužimtas | Naudodami Kūrėjo ir Kūrimo VM, diekite kūrėjo topologiją. Automatiškai konfigūruokite Kūrimo VM, kad rastumėte, kurtumėte modulius iš „Visual Studio Online“ (VSO) ir vykdytumėte testus. Palaikomas C\# ir X++ modulių kompiliavimas bei nuorodos. | Ddidinamas kūrėjų produktyvumas mažinant bandymų ir tikrinimų savikainą bei reikalingas pastangas. |
 | Tinkinkite perdengdami ir naudodami plėtinius. | Plėtiniai negalimi. | Dabartinė „Dynamics AX“ versija turi naują tinkinimo modelį. | Galite tinkinti modelio elementų, kuriuos siunčia „Microsoft‟ ar trečiosios šalies „Microsoft‟ partneriai, šaltinio kodą ir metaduomenis. |
 | Naudodami X++ ir modernią žiniatinklio sistemą, kurkite naujus valdiklius ir UI elementus. | Pasirinktiniai valdikliai pasikliauja išorės sistemomis, pvz., „Microsoft ActiveX‟ ir „Windows‟ grafikos pateikimo platforma (WPF). | Kurti valdiklius lengviau dabartinėje versijoje. X++ sistema gali būti naudojama programos veikimo ir verslo logikai, o HTML / „JavaScript‟ paremtas klientas leidžia naudoti modernias vizualizacijas. | Jūsų valdiklius galima suprojektuoti taip, kad jie atrodytų ir veiktų tiksliai kaip „Dynamics AX“ parengti naudoti (OOB) valdikliai. |
@@ -758,7 +757,7 @@ Darbo srityje <strong>Katalogų valdymas</strong> galima naudoti toliau nurodyta
 <td>Ji klientui leidžia apdoroti kredito / debeto kortelės mokėjimų operacijas.</td>
 </tr>
 <tr>
-<td>Aktyvinkite įrenginius naudodami „Microsoft“ paskyrą („Microsoft Azure Active Directory“ („Azure AD“).</td>
+<td>Aktyvinkite įrenginius naudodami „Microsoft“ paskyrą („Microsoft Azure Active Directory“ („Azure AD“)).</td>
 <td>Neprieinama</td>
 <td>Suteikiamos toliau nurodytos funkcijas.
 <ul>

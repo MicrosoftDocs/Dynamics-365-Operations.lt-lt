@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSWarehousePerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 272953
 ms.assetid: 4e4d4323-78cf-4ffa-8d5a-05e856c33db6
 ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: b5fbe5ffa74953588a2357948319f5cf21f7ad36
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4594c6c09abdac72a03ac1338701d2291b234106
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769766"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687406"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>„Power BI“ turinys Sandėlio našumas
 
@@ -33,7 +32,7 @@ ms.locfileid: "2769766"
 
 ## <a name="overview"></a>Peržiūrėti
 
-„Power BI“ turinys **Sandėlio našumas**sukurtas tam, kad sandėlio ir operacijų vadovai galėtų stebėti svarbias gavimo, siuntimo ir atsargų metrikas. Jame naudojami sandėlio valdymo, produktų ir kiti operacijų duomenys iš jūsų sistemos bei pateikiamas tiek sujungtas sandėlio efektyvumo rodinys, tiek rodinys, skirtas tiekėjams, produktų grupėms bei produktams ir teritorijai bei sandėliams.
+„Power BI“ turinys **Sandėlio našumas** sukurtas tam, kad sandėlio ir operacijų vadovai galėtų stebėti svarbias gavimo, siuntimo ir atsargų metrikas. Jame naudojami sandėlio valdymo, produktų ir kiti operacijų duomenys iš jūsų sistemos bei pateikiamas tiek sujungtas sandėlio efektyvumo rodinys, tiek rodinys, skirtas tiekėjams, produktų grupėms bei produktams ir teritorijai bei sandėliams.
 
 „Power BI“ turinį **Sandėlio našumas** sandėlio vadovai gali naudoti toliau nurodytoms sritims nustatyti.
 

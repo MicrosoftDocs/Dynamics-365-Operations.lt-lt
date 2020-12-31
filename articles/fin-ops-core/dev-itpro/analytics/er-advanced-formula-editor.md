@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: d9911c858d6832aa70378d37e0fd5cf7d7831b1b
-ms.sourcegitcommit: dce8c5d3b2fc4a752d676cf9ba91e0dea2fa80d8
+ms.openlocfilehash: 14eb8a59b64a49649768f93befdf8e6e8dcf8105
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "3257066"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685388"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Elektroninių ataskaitų išplėstinė formulių rengyklė
 
@@ -44,9 +43,9 @@ Be [elektroninių ataskaitų](general-electronic-reporting.md)[formulių rengykl
 
 Atlikite tolesnius veiksmus, kad pradėtumėte naudoti išplėstinę formulių rengyklę „Microsoft Dynamics 365 Finance“ egzemplioriuje.
 
-1.  Eikite į  **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos**.
-2.  Puslapio **Konfigūracijos** veiksmų srities skirtuke **Konfigūracijos** , grupėje **Papildomi parametrai** pasirinkite **Vartotojo parametrai**.
-3.  Dialogo lange **Vartotojo parametrai** skyriuje **Vykdymo sekimas** nustatykite parinkties **Įgalinti išplėstinę formulių rengyklę** parametrą **Taip**.
+1.  Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos**.
+2.  Puslapio **Konfigūracijos** veiksmų srities skirtuke **Konfigūracijos**, grupėje **Papildomi parametrai** pasirinkite **Vartotojo parametrai**.
+3.  Dialogo lange **Vartotojo parametrai**, skyriuje **Vykdymo sekimas** nustatykite parinkties **Įgalinti išplėstinę formulių rengyklę** parametrą **Taip**.
 
 [![ER konfigūracijų puslapis](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
 
@@ -163,7 +162,7 @@ Galite pasirinkti **Įtraukti duomenų šaltinį**, kad į dabartinę išraišk�
 
 - „Chrome“
 - „Edge”
-- „Firefox”
+- „Firefox“
 - „Opera”
 - „Safari”
 

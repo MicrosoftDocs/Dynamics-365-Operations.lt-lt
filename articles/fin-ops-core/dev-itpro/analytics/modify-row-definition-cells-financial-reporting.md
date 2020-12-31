@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 318c6edc03153e02c2c4f23b07f33e8d6ebe9737
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 92d03f08fc5e34402f10068ed770b1f724cfd3a8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182996"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685864"
 ---
 # <a name="modify-row-definition-cells"></a>Eilučių apibrėžčių langelių modifikavimas
 
@@ -107,7 +106,7 @@ Langelyje **Formato kodas** pateikiamos kelios iš anksto suformatuotos pasirink
     |-------------------------------|-----------------------------------|--------|
     | (Nėra)                        |                                   | Išvalomas langelis **Formato kodas**. |
     | IŠ VISO                           | Bendroji suma                             | Nurodoma eilutė, kuri stulpelyje **Susijusios formulės / eilutės / vienetai** naudoja matematinius ženklus. Bendrosioms sumoms naudojami paprasti ženklai, pavyzdžiui **+** arba **-**. |
-    | KPL                           | Skaičiavimas                       | Nurodoma eilutė, kuri stulpelyje **Susijusios formulės / eilutės / vienetai** naudoja matematinius ženklus. Skaičiavimams naudojami sudėtingi ženklai, pavyzdžiui, **+**, **-**, **\***, **/** ir **IF / THEN / ELSE** sakiniai. |
+    | KPL                           | Skaičiavimas                       | Nurodoma eilutė, kuri stulpelyje **Susijusios formulės / eilutės / vienetai** naudoja matematinius ženklus. Skaičiavimams naudojami sudėtingi ženklai, pavyzdžiui, **+**, **-**, **\**_, _*/** ir **IF / THEN / ELSE** sakiniai. |
     | DES                           | aprašymas                       | Nurodoma ataskaitos antraštės eilutė arba tuščia eilutė. |
     | LFT RGT CEN                   | Kairė Dešinė Centras                 | Ataskaitos puslapyje sulygiuojamas eilutės aprašymo tekstas, neatsižvelgiant į teksto išdėstymą stulpelio apraše. |
     | CBR                           | Pagrindinės eilutės keitimas                   | Nurodoma eilutė, kuri nustato pagrindinę stulpelio skaičiavimų eilutę. |
@@ -175,7 +174,7 @@ Eilutės apibrėžimo stulpelyje **Formato kodas** formato kodai **DES**, **LFT*
 
 ### <a name="example-of-preventing-printing-of-rows"></a>Pavyzdys, kaip neleisti spausdinti eilučių
 
-Šiame pavyzdyje Phyllis nori neleisti spausdinti savo ataskaitos eilutės **Bendroji grynųjų suma** antraštės ir pabraukimų, nes nė vienoje iš grynųjų pinigų sąskaitų nebuvo jokios veiklos. Todėl eilutės 220 (kuri, kaip nurodo formato kodas **---**, yra formatavimo eilutė) langelyje **Susijusios formulės / Eilutės / Vienetai** ji įveda skaičių **250**, kuris yra jos norimos sulaikyti sumos eilutės kodas.
+Šiame pavyzdyje naudotojas nori neleisti spausdinti savo ataskaitos eilutės **Bendroji grynųjų suma** antraštės ir pabraukimų, nes nė vienoje iš grynųjų pinigų sąskaitų nebuvo jokios veiklos. Todėl eilutės 220 (kuri, kaip nurodo formato kodas **---**, yra formatavimo eilutė) langelyje **Susijusios formulės / Eilutės / Vienetai** naudotojas įveda skaičių **250**, kuris yra jo norimos sulaikyti sumos eilutės kodas.
 
 [![RelatedRowsRowDefinition](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
@@ -416,7 +415,7 @@ Pagal numatytuosius nustatymus ataskaitų dizaino įrankis nespausdina jokių ei
 3. Meniu **Rinkmena** spustelėkite **Įrašyti**, kad įrašytumėte savo pakeitimus.
 
 ## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Pakaitos simbolių ir intervalų naudojimas eilutės apraše
-Dialogo lange **Dimensijos** įvedus fizinio segmento reikšmę pakaitos simbolį (? arba \*) galima įterpti bet kurioje segmento vietoje. Naudojantis ataskaitų dizaino įrankiu išrenkamos visos nurodytų vietų reikšmės neatsižvelgiant į pakaitos simbolius. Pvz., eilutės apraše yra tik fizinio segmento riekšmės, o fiziniai segmentai yra keturių simbolių. Jei eilutėje įvedate **6???**, nurodote, kad ataskaitų dizaino įrankis įtrauktų visas sąskaitas, kurių fizinio segmento reikšmė prasideda 6. Jei įvedate **6\***, rodomi tie patys rezultatai, bet į rezultatus taip pat įtraukiamos kintančio pločio reikšmės, pavyzdžiui, **60** ir **600000**. Ataskaitų dizaino įrankis pakeičia kiekvieną pakaitos simbolį (?) visomis galimomis reikšmėmis, įskaitant raides ir specialiuosius simbolius. Pvz., kai intervalas nuo **12?0** iki **12?4**, reikšmės **12?0** pakaitos simbolis pakeičiamas mažiausia simbolių rinkinio reikšme, o reikšmės **12?4** pakaitos simbolis pakeičiamas didžiausia simbolių rinkinio reikšme.
+Dialogo lange **Dimensijos** įvedus fizinio segmento reikšmę pakaitos simbolį (? arba \*) galima įterpti bet kurioje segmento vietoje. Naudojantis ataskaitų dizaino įrankiu išrenkamos visos nurodytų vietų reikšmės neatsižvelgiant į pakaitos simbolius. Pvz., eilutės apraše yra tik fizinio segmento riekšmės, o fiziniai segmentai yra keturių simbolių. Jei eilutėje įvedate **6???**, nurodote, kad ataskaitų dizaino įrankis įtrauktų visas sąskaitas, kurių fizinio segmento reikšmė prasideda 6. Jei įvedate **6\**_, rodomi tie patys rezultatai, bet į rezultatus taip pat įtraukiamos kintančio pločio reikšmės, pavyzdžiui, _* 60** ir **600000**. Ataskaitų dizaino įrankis pakeičia kiekvieną pakaitos simbolį (?) visomis galimomis reikšmėmis, įskaitant raides ir specialiuosius simbolius. Pvz., kai intervalas nuo **12?0** iki **12?4**, reikšmės **12?0** pakaitos simbolis pakeičiamas mažiausia simbolių rinkinio reikšme, o reikšmės **12?4** pakaitos simbolis pakeičiamas didžiausia simbolių rinkinio reikšme.
 
 > [!NOTE]
 > Turėtumėte vengti naudoti pakaitos simbolius į intervalą patenkančiose pradžios ir pabaigos sąskaitose. Jei naudojate pakaitos simbolius pradžios arba pabaigos sąskaitoje, galite gauti nenumatytų rezultatų.

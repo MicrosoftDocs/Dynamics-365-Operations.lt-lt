@@ -3,7 +3,7 @@ title: Konfigūracijos, skirtos dokumentams „Excel“ formatu generuoti, kūri
 description: Šioje temoje pateikiama informacija, kaip kurti Elektroninės ataskaitos (ER) formatą, kad būtų galima pildyti „Excel“ šabloną, o tada generuoti siunčiamus „Excel“ formato dokumentus.
 author: NickSelin
 manager: AnnBe
-ms.date: 05/14/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e889b08f10c5d0c95fed7c9e422340706bdd154a
-ms.sourcegitcommit: 67ce81c57194afb26a04ae4c0b7509e0efa32afc
+ms.openlocfilehash: d5733e40c67f9c97b04f126f7c3cfea9d4f8f5b5
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "3375818"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686543"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfigūracijos, skirtos dokumentams „Excel“ formatu generuoti, kūrimas
 
@@ -165,6 +164,17 @@ Kai tikrinate redaguojamą ER formatą, atliekama vientisumo patikra, siekiant �
 
 ![Tikrinimo klaidos pranešimas](./media/er-excel-format-validate.png)
 
+## <a name="control-the-calculation-of-excel-formulas"></a>„Excel“ formulių skaičiavimo valdymas
+
+Kai sugeneruojamas siunčiamas dokumentas „Microsoft Excel“ darbaknygės formatu, kai kuriuose šio dokumento langeliuose gali būti „Excel“ formulių. Įjungę funkciją **Įjungti EPPlus biblioteką Elektroninėje ataskaitų sistemoje**, galite kontroliuoti, kada formulės apskaičiuojamos, keisdami [parametro](https://support.microsoft.com/office/change-formula-recalculation-iteration-or-precision-in-excel-73fc7dac-91cf-4d36-86e8-67124f6bcce4#ID0EAACAAA=Windows) **Skaičiavimo parinktys** reikšmę „Excel“ šablone, kuris naudojamas.
+
+- Pasirinkite **Automatiškai**, jei norite perskaičiuoti visas priklausomąsias formules kiekvieną kartą, kai sugeneruotas dokumentas papildomas naujais diapazonais, langelių ir pan.
+    >[!NOTE]
+    > Dėl to gali kilti „Excel“ šablonų, kuriuose yra kelios susijusios formulės, našumo problema.
+- Pasirinkite **Neautomatiškai**, kad formulės nebūtų perskaičiuojamos, kai generuojamas dokumentas.
+    >[!NOTE]
+    > Formulių perskaičiavimas neautomatiškai vykdomas, kai sugeneruotas dokumentas atidaromas peržiūrėti naudojant „Excel“.
+    > Nenaudokite šios pasirinkties, jei konfigūruosite ER paskirties vietą, kuri naudoja sugeneruotą dokumentą jo neperžiūrėdama programoje „Excel“ (PDF konvertavimas, siuntimas el. paštu ir t.t.), kadangi sugeneruoto dokumento langeliuose, kuriuose yra formulių, gali nebūti reikšmių.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

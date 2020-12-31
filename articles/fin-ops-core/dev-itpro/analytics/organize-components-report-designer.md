@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 59161
 ms.assetid: 32e728c5-3b06-4049-8070-ade01e951d49
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4a4733dc4da7a8713ac7ddec5c96ae18c91edc18
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 58525da35eb9e9376cb5793ad6c6fa45b9de42e6
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185295"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685816"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Ataskaitos komponentų tvarkymas ataskaitų dizaino įrankyje
 
@@ -50,7 +49,7 @@ Galite grupuoti ataskaitų aprašus, kad sukurtumėte kelias ataskaitas tuo pač
 ### <a name="create-a-report-group"></a>Ataskaitų grupės kūrimas
 
 1. Ataskaitų dizaino įrankio naršymo srityje spustelėkite **Ataskaitų grupės**.
-2. Meniu **Failas** spustelėkite **Naujas** &gt; **Ataskaitų grupės aprašas**, kad atidarytumėte naują ataskaitų grupę peržiūros programos lange. Arba įrankių juostoje spustelėkite mygtuką **Ataskaitų grupė** ![Ataskaitų grupė](media/report-group.gif "Ataskaitų grupė").
+2. Meniu **Failas** spustelėkite **Naujas** &gt; **Ataskaitų grupės aprašas**, kad atidarytumėte naują ataskaitų grupę peržiūros programos lange. Taip pat įrankių juostoje galite spustelėti mygtuką **Ataskaitų grupė** ![Ataskaitų grupė](media/report-group.gif "Ataskaitų grupė").
 3. Spustelėkite skirtuką **Ataskaitų grupė**. Norėdami perrašyti atskirų ataskaitų aprašų informaciją, kad galėtumėte generuoti šią ataskaitą, pažymėkite žymės langelį **Perrašyti atskirų ataskaitų aprašų įmonės, išsamios informacijos ir datos parametrus**. Įmonės pavadinimo, išsamumo lygio, laikinojo parametro ir datos informacija įvedama automatiškai, bet jūs galite ją naujinti.
 4. Pažymėkite žymės langelį **Įtraukti visas ataskaitų valiutas**, jei norite sugeneruoti kelias ataskaitas, kuriose rodomos tos ataskaitų valiutos. Tada, peržiūrint ataskaitą, žiniatinklio peržiūros programoje spustelėjus mygtuką **Valiuta** bus rodomi keli rodiniai.
 5. Lauke **Grupės ataskaitos** spustelėkite **Įtraukti** ir pasirinkite ataskaitas, kurias norite įtraukti į ataskaitų grupę. Norėdami dialogo lange **Įtraukti** pasirinkti kelias ataskaitas, pažymėkite ataskaitas laikydami nuspaudę klavišą CTRL. Pasirinkę ataskaitas, spustelėkite **Gerai**.
@@ -61,7 +60,7 @@ Galite grupuoti ataskaitų aprašus, kad sukurtumėte kelias ataskaitas tuo pač
 1. Ataskaitų dizaino įrankio naršymo srityje spustelėkite **Ataskaitų grupės**.
 2. Dukart spustelėkite ataskaitų grupę, kurią norite modifikuoti.
 3. Skirtuke **Ataskaitų grupė** atlikite norimus keitimus.
-4. Meniu **Failas** spustelėkite **Įrašyti**, kad įrašytumėte modifikuotą ataskaitų grupę. Arba įrankių juostoje spustelėkite mygtuką **Įrašyti** ![Įrašyti](media/save.gif "Įrašyti").
+4. Meniu **Failas** spustelėkite **Įrašyti**, kad įrašytumėte modifikuotą ataskaitų grupę. Taip pat įrankių juostoje galite spustelėti mygtuką **Įrašyti** ![Įrašyti](media/save.gif "Įrašyti").
 
 > [PASTABA] Jei suplanavote ataskaitas generuoti tam tikrais intervalais, galite nepaisyti šių parametrų ir generuoti ataskaitą iš karto.
 

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8cc7de1473ed6ec9b93bd880b47b0c25ec5a7262
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 214a36a1284756e47aa1d28af99234657f1861c0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185203"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688288"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Finansinių ataskaitų dizaino įrankio eilučių aprašai
 
@@ -161,7 +160,7 @@ Eilutės apraše nurodytas formatavimas perrašo stulpelio apraše ir ataskaitos
 
 1. Naudodami ataskaitų dizaino įrankį atidarykite norimą modifikuoti eilučių aprašą.
 2. Pažymėkite norimus formatuoti langelius. Norėdami pažymėti kelis langelius, laikykite nuspaudę klavišą Ctrl ir pasirinkite langelį.
-3. Norėdami taikyti, spustelėkite įrankių juostos formato mygtuką. Pvz., norėdami įtraukti eilutę, pasirinkite eilutę, tada įrankių juostoje spustelėkite **Padidinti įtrauką** ![Padidinti įtrauką](media/indent.gif "Padidinti įtrauką").
+3. Norėdami taikyti, spustelėkite įrankių juostos formato mygtuką. Pvz., norėdami įtraukti eilutę, pasirinkite eilutę, tada įrankių juostoje spustelėkite **Padidinti įtrauką** ![Padidinti įtrauką](media/indent.gif "Didinti įtrauką").
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Koreguoti stulpelius, kol kuriamos ataskaitos
 

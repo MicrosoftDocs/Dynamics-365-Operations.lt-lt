@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SysUserSetup, DefaultDashboard
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 62363
 ms.assetid: 57b445d7-3e9e-4228-8728-f63b9dbd77a3
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f01580117b22191976400b2e2ba1a5dde8ad559d
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: e46c392c43b63ef443f66d8ea8f9e91a9df3d126
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3802996"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693237"
 ---
 # <a name="personalize-the-user-experience"></a>Vartotojo patirties personalizavimas
 
@@ -39,7 +38,7 @@ ms.locfileid: "3802996"
 
 ## <a name="system-wide-options-for-the-current-user"></a>Dabartinio vartotojo visos sistemos parinktys
 
-Puslapyje **Vartotojo parinktys** pateikiama keletas visos sistemos dabartinio vartotojo parametrų. Šios parinktys yra prieinamos visiems vartotojams, netgi vartotojams, kuriems nebuvo suteikta jokia prieiga prie personalizavimo. Tam, kad atvertumėte **Vartotojo parinkčių** puslapį, pasirinkite **Nustatymai** mygtuką naršymo juostoje ir tuomet pasirinkite**Vartotojo parinktys**. Puslapyje **Vartotojo parinktys** yra keturi skirtukai, kuriuose nurodomi įvairūs vartotojo parametrai.
+Puslapyje **Vartotojo parinktys** pateikiama keletas visos sistemos dabartinio vartotojo parametrų. Šios parinktys yra prieinamos visiems vartotojams, netgi vartotojams, kuriems nebuvo suteikta jokia prieiga prie personalizavimo. Tam, kad atvertumėte **Vartotojo parinkčių** puslapį, pasirinkite **Nustatymai** mygtuką naršymo juostoje ir tuomet pasirinkite **Vartotojo parinktys**. Puslapyje **Vartotojo parinktys** yra keturi skirtukai, kuriuose nurodomi įvairūs vartotojo parametrai.
 
 - **Vaizdas**: pasirinkite puslapio elementų spalvų temą ir numatytąjį dydį.
 - **Nuostatos**: pasirinkite numatytąsias vertes, kurios naudojamos kaskart atidarius sistemą. Šios vertės apima nustatytąją bendrovę, pradinį puslapį ir nustatąjį peržiūros ar redagavimo režimą. (Naudojantis rodymo / redagavimo režimu nustatoma, ar puslapis užrakintas peržiūrai, ar galima jį redaguoti kiekvieną kartą atidarius). Šiame skirtuke taip pat yra kalbos, laiko juostos, datos, laiko ir numerių formatų parinktys. Galiausiai šiame skirtuke yra keletas papildomų kiekviename leidime skirtingų nuostatų.
@@ -72,7 +71,7 @@ Toliau pateiktas veiksmų sąrašas, kuris patenka į tipinį puslapio naudojim�
 
 Jei [Išsaugotos peržiūros](saved-views.md) funkija yra įjungta, atskiras įrašymas yra reikalaujamas tam, kad šie pakeitimai vartotojo patirtyje būtų konkrečiai peržiūrimi. Kai **Įrašytos peržiūros** funkcija yra išjungta, šie pakeitimai automatiškai įrašomi.
 
-Toliau pateikti skyriai apima personalizavimo galimybių apimtį, kurios yra prieinamos vartotojams**Visa personalizuotas prieiga** lygyje. Štai keletas galimybių:
+Toliau pateikti skyriai apima personalizavimo galimybių apimtį, kurios yra prieinamos vartotojams **Visa personalizuotas prieiga** lygyje. Štai keletas galimybių:
 
 - Nuorodos meniu parinktys
 - **Personalizavimo** įrankių juosta
@@ -86,7 +85,7 @@ Trumpųjų mygtukų meniu pateikia kelią keisti puslapio sąsają tam, kad ji g
 
 Įprastus ir svarbiausius puslapio keitimus galima atlikti tiesiogiai naudojantis nuorodos meniu parinktimis. Pavyzdžiui, jei norite įtraukti ar paslėpti stulpelius tinklelyje, tik dešiniu mygtuku paspauskite stulpelio antraštę ir tuomet pasirinkite **Įterpti stulpelius** arba **Slėpti šį stulpelį**.
 
-Taip pat, pagrindiniai personalizavimo tipai yra prieinami spaudžiant dešiniu mygtuku elementą ir tuomet pasirenktant**Personalizuoti**. (Atkreipkite dėmesį, kad ne visi elementai jūsų puslapyje gali būti personalizuoti.) Kai naudojate šį personalizavimo metodą, pasirodo elemento *ypatybių langas*.
+Taip pat, pagrindiniai personalizavimo tipai yra prieinami spaudžiant dešiniu mygtuku elementą ir tuomet pasirenktant **Personalizuoti**. (Atkreipkite dėmesį, kad ne visi elementai jūsų puslapyje gali būti personalizuoti.) Kai naudojate šį personalizavimo metodą, pasirodo elemento *ypatybių langas*.
 
 ![Elemento ypatybių personalizavimas](./media/cli-element-property-window.png)
 

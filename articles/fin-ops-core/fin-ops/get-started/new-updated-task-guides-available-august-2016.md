@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 252754
 ms.assetid: 11a72e4a-7899-42be-b180-a0f4b86d88f1
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 8747df5513cab16ee3b609f405740e660753e086
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: fb43be5e57758664c5e17e48db5b9c38630b2ded
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812537"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694994"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>Nauji ar atnaujinti užduočių vedliai (2016 m. rugpjūčio mėn.)
 
@@ -32,7 +31,7 @@ ms.locfileid: "2812537"
 
 ## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>APQC bendrosios bibliotekos užduočių vedliai (2016 m. rugpjūčio mėn.; skirta visoms kalboms), skirti „Microsoft Dynamics AX“
 
-APQC bendrojoje bibliotekoje (2016 m. rugpjūčio mėn.; skirta visoms kalboms) pateikiami užduočių vedliai, kurie skirti teikti pagalbą, susijusią su „Microsoft Dynamics AX“ 2 platformos naujiniu (2016 m. rugpjūčio mėn.), „Dynamics AX“ 2016 m. gegužės mėn. programos naujiniu ir „Microsoft Dynamics AX“ 2016 m. vasario mėn. leidimu. Norėdami gauti daugiau informacijos apie šiuos leidimus, žr. [Kas nauja arba pakeista „Finance and Operations“ pagrindiniame puslapyje ](whats-new-changed.md). Šioje bibliotekoje pateikiamos lokalizuotos užduočių vedlių versijos. Daugiau informacijos apie tai, kaip prie užduočių vedlių bibliotekos prijungti žinyno sistemą, žr. [Žinyno sistema](help-overview.md).
+APQC bendrojoje bibliotekoje (2016 m. rugpjūčio mėn.; skirta visoms kalboms) pateikiami užduočių vedliai, kurie skirti teikti pagalbą, susijusią su „Microsoft Dynamics AX“ 2 platformos naujiniu (2016 m. rugpjūčio mėn.), „Dynamics AX“ 2016 m. gegužės mėn. programos naujiniu ir „Microsoft Dynamics AX“ 2016 m. vasario mėn. leidimu. Daugiau informacijos apie šiuos leidimus rasite puslapyje [Kas nauja arba pasikeitė„Finance and Operations“ pagrindiniame puslapyje](whats-new-changed.md). Šioje bibliotekoje pateikiamos lokalizuotos užduočių vedlių versijos. Daugiau informacijos apie tai, kaip prie užduočių vedlių bibliotekos prijungti žinyno sistemą, žr. [Žinyno sistema](help-overview.md).
 
 ### <a name="data-access"></a>Prieiga prie duomenų
 

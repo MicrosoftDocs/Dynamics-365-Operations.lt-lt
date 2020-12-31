@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cb797af1ae14ebbb420a1b4a1591202c42bd8824
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: d51a5ff2dca764a534ea4bf92c30bcf0bf0a5dad
+ms.sourcegitcommit: 51cd470ee885d12f7d51c66201b092aaa16dfaa6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249123"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "4701681"
 ---
 # <a name="vendor-invoices-overview"></a>Tiekėjų sąskaitų faktūrų apžvalga
 
@@ -112,15 +112,18 @@ Puslapį **Tiekėjo SF atkūrimas** galite pasiekti tik tada, jei jums priskirta
 
 ## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>Tiekėjo SF darbo eigos būsenos nustatymas iš naujo iš Nesusigrąžinamos sumos į Juodraštis
 
-Bus nurodyta darbo eigos egzemplioriaus, kuris buvo sustabdytas dėl neištaisomos klaidos, būsena **Neištaisoma**. Kai tiekėjo SF darbo eigos būsena **Nepataisoma**, ją galima nustatyti iš naujo **Juodraštis** nurodant **Atšaukti**. Tada galite redaguoti tiekėjo SF. Šią funkciją galima naudoti, jei įjungtas puslapio **Funkcijų valdymas** parametras **Tiekėjo SF darbo eigos juodraščio būsenos nustatymas iš naujo**.
+Bus nurodyta darbo eigos egzemplioriaus, kuris buvo sustabdytas dėl neištaisomos klaidos, būsena **Neištaisoma**. Kai tiekėjo SF darbo eigos būsena **Nepataisoma**, ją galima nustatyti iš naujo **Juodraštis** nurodant **Atšaukti**. Tada galite redaguoti tiekėjo SF. Šią funkciją galima naudoti, jei įjungtas puslapio **Funkcijų valdymas** parametras **Tiekėjo SF darbo eigos būsenos nustatymas iš naujo iš Nesusigrąžinamos sumos į Juodraštis**.
 
 Naudodamiesi puslapiu **Tiekėjo SF darbo eigos būsenos nustatymas iš naujo** galite iš naujo nustatyti darbo eigos būseną **Juodraštis**. Šį puslapį galite atidaryti iš **Tiekėjo SF** arba **Bendra > Užklausos > Darbo eiga**. Norėdami iš naujo nustatyti darbo eigos būseną į **Juodraštis**, pasirinkite **Atšaukti**. Taip pat galite iš naujo nustatyti darbo eigos būseną į „Juodraštis“, pasirinkdami veiksmą **Atšaukti** puslapyje **Tiekėjo SF** arba **Laukiančios tiekėjo SF**. Iš naujo nustačius darbo eigos būseną **Juodraštis**, ją galima redaguoti puslapyje **Tiekėjo SF**.
+
+## <a name="viewing-the-invoice-total-on-the-pending-vendor-invoices-page"></a>SF sumos peržiūra puslapyje Laukiančios tiekėjo SF
+SF sumą galite peržiūrėti puslapyje **Laukiančios tiekėjo SF**, įjungdami puslapio **Mokėtinos sumos** parametrą **Laukiančių tiekėjo SF sąraše rodyti bendrą SF sumą**. 
 
 
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-- [Tiekėjų sąskaitų faktūrų strategijų nustatymas](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)
+- [Nustatyti tiekėjų SF strategijas](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)
 - [Pagrindiniai SF duomenys AP sistemoje naudojant tiekėjo SF](tasks/key-invoice-data-ap-system-vendor-invoice.md)
 - [Pagrindiniai SF duomenys mokėtinose sumose naudojant patvirtinimo žurnalą](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 - [Pagrindiniai SF duomenys AP sistemoje naudojant SF telkinį](tasks/key-invoice-data-into-ap-system-invoice-pool.md)

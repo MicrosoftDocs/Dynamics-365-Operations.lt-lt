@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SysHelpSetup
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: 25391
 ms.assetid: 59bf39f8-1464-441e-8b23-9a856c73471b
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1498c09160acea2799a90e36c155523635895e5f
-ms.sourcegitcommit: 17fe0218e8e3f2f4c57c73c0c438a6ebf1ef32a6
+ms.openlocfilehash: b92ef15fc9f3f6a5ebb6ba4ea4eae1a0f7488995
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "3329857"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687797"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Dokumentų ar mokymų kūrimas naudojant užduočių įrašymo priemonę
 
@@ -39,10 +38,10 @@ ms.locfileid: "3329857"
 
 Užduočių įrašymo priemonė yra įrankis, naudojamas įrašyti veiksmams, kuriuos atliekate produkto vartotojo sąsajoje (UI). Kai naudojate Užduočių įrašytuvą, fiksuojami visi įvykiai, kuriuos atliekate naudotojo sąsajoje su serveriu, įskaitant reikšmių pridėjimą, nuostatų keitimą, duomenų šalinimą. Veiksmai, kuriuos įrašote, bendrai vadinami *užduoties įrašu*. Užduočių įrašus galima naudoti įvairiais būdais.
 
--   **Užduočių įrašus galima paleisti kaip užduočių vadovus.** Užduočių vedliai integruojami į žinyną.Užduočių vedlys – tai kontroliuojama, valdoma, interaktyvi priemonė, kuri naudojama atliekant verslo proceso veiksmus. Naudotojui atlikti kiekvieną veiksmą nurodoma iššokančiuoju raginimu („burbuliuku‟), kurio animacija rodoma visoje UI ir kuris nurodo į UI elementą, su kuriuo naudotojas turėtų sąveikauti. Burbuliuke taip pat pateikiama informacija apie sąveikavimo su elementu būdą, pvz., „Spustelėkite čia“ ar „Šiame lauke įveskite reikšmę“.Užduočių vedlys veikia naudodamas dabartinių vartotojo duomenų rinkinį, o įvesti duomenys įrašomi vartotojo aplinkoje.
+-   **Užduočių įrašus galima paleisti kaip užduočių vadovus.** Užduočių vedliai integruojami į žinyną. Užduočių vedlys – tai kontroliuojama, valdoma, interaktyvi priemonė, kuri naudojama atliekant verslo proceso veiksmus. Naudotojui atlikti kiekvieną veiksmą nurodoma iššokančiuoju raginimu („burbuliuku‟), kurio animacija rodoma visoje UI ir kuris nurodo į UI elementą, su kuriuo naudotojas turėtų sąveikauti. Burbuliuke taip pat pateikiama informacija apie sąveikavimo su elementu būdą, pvz., „Spustelėkite čia“ ar „Šiame lauke įveskite reikšmę“. Užduočių vedlys veikia naudodamas dabartinių vartotojo duomenų rinkinį, o įvesti duomenys įrašomi vartotojo aplinkoje.
 -   **Užduočių įrašus galima įrašyti kaip „Word‟ dokumentus.** Taip galite lengvai kurti spausdinamus mokymo vadovus.
 
-Galite kurti savo užduočių įrašus, leisti „Microsoft‟ pateiktus užduočių įrašus arba modifikuoti „Microsoft‟ pateiktus užduočių įrašus, kad jie atitiktų jūsų konfigūraciją.Norėdami gauti daugiau informacijos apie užduočių įrašymo priemonę, žr. [Užduočių įrašymo priemonė](task-recorder.md).
+Galite kurti savo užduočių įrašus, leisti „Microsoft‟ pateiktus užduočių įrašus arba modifikuoti „Microsoft‟ pateiktus užduočių įrašus, kad jie atitiktų jūsų konfigūraciją. Norėdami gauti daugiau informacijos apie užduočių įrašymo priemonę, žr. [Užduočių įrašymo priemonė](task-recorder.md).
 
 ## <a name="plan-your-task-recording"></a>Planuokite savo užduoties įrašą
 Kurdami naują užduoties įrašą ar savo įrašą kurdami pagal „Microsoft‟ užduoties įrašą, turėkite omenyje toliau nurodytą informaciją.
@@ -62,7 +61,7 @@ Kurdami naują užduoties įrašą ar savo įrašą kurdami pagal „Microsoft�
 
 **Supraskite skirtingus komentarų tipus** Visi komentarai nėra privalomi. Jų pridėkite tik kai jie naudotojui suteikia naudingos informacijos.
 
--   **Pavadinimas**: pavadinimo komentaras bus pateikiamas prieš veiksmo tekstą, kurį automatiškai sugeneruoja užduočių įrašymo priemonė.Užduočių vedlyje pavadinimo komentaras pateikiamas virš automatiškai sugeneruoto teksto. Šį komentaro tipą naudokite norėdami paaiškinti, kodėl naudotojas atlieką veiksmą, arba norėdami suteikti papildomo konteksto.
+-   **Pavadinimas**: pavadinimo komentaras bus pateikiamas prieš veiksmo tekstą, kurį automatiškai sugeneruoja užduočių įrašymo priemonė. Užduočių vedlyje pavadinimo komentaras pateikiamas virš automatiškai sugeneruoto teksto. Šį komentaro tipą naudokite norėdami paaiškinti, kodėl naudotojas atlieką veiksmą, arba norėdami suteikti papildomo konteksto.
 
 Tai redagavimo sritis, kurią matote, kai kurdami įrašą pridedate komentarą. Įveskite komentaro pavadinimą lauke **Pavadinimas**. 
 
@@ -82,17 +81,17 @@ Taip atrodo pastabų komentaras užduočių vedlio „burbuliuke‟.
 
 [![Pastabų komentaro išvaizda užduočių vedlyje](./media/screen4.png)](./media/screen4.png)
 
--   **Informacijos veiksmas**: šie komentarai sukuriami dešiniuoju pelės mygtuku spustelėjus valdiklį ar bet kurią vietą formoje &lt; **Užduočių įrašymo priemonė** &lt; **Įtraukti informacijos veiksmą.** Informacijos veiksmas pateikiamas kaip sunumeruotas veiksmas bet kurioje vietoje, į kurią įterpsite šį veiksmą, nors vartotojo sąsajoje neįrašytas joks veiksmas. Galite pridėti formos lygio informacijos veiksmą arba su valdikliu susietą informacijos veiksmą. Kai informacijos veiksmas susietas su forma, leidžiant užduoties vadovą, jo „burbuliukas‟ atsiras kažkur formoje, be žymeklio. Kai informacijos veiksmas susietas su valdikliu, leidžiant užduočių vedlį jo „burbuliukas‟ bus nukreiptas į valdiklį.Žinyno srityje informacijos veiksmo komentaras bus pateikiamas kaip sunumeruotas veiksmas su bet kokiu įvestu tekstu. Naudokite informacijos veiksmus, kad padėtumėte vartotojui pasirengti tolesniems veiksmams, aprašytumėte veiksmus, kuriuos reikia atlikti ne programoje, arba nurodytumėte kitus įrašus (nors komentaruose hipersaitų kurti negalite).
+-   **Informacijos veiksmas**: šie komentarai sukuriami dešiniuoju pelės mygtuku spustelėjus valdiklį ar bet kurią vietą formoje &lt; **Užduočių įrašymo priemonė** &lt; **Įtraukti informacijos veiksmą.** Informacijos veiksmas pateikiamas kaip sunumeruotas veiksmas bet kurioje vietoje, į kurią įterpsite šį veiksmą, nors vartotojo sąsajoje neįrašytas joks veiksmas. Galite pridėti formos lygio informacijos veiksmą arba su valdikliu susietą informacijos veiksmą. Kai informacijos veiksmas susietas su forma, leidžiant užduoties vadovą, jo „burbuliukas‟ atsiras kažkur formoje, be žymeklio. Kai informacijos veiksmas susietas su valdikliu, leidžiant užduočių vedlį jo „burbuliukas‟ bus nukreiptas į valdiklį. Žinyno srityje informacijos veiksmo komentaras bus pateikiamas kaip sunumeruotas veiksmas su bet kokiu įvestu tekstu. Naudokite informacijos veiksmus, kad padėtumėte vartotojui pasirengti tolesniems veiksmams, aprašytumėte veiksmus, kuriuos reikia atlikti ne programoje, arba nurodytumėte kitus įrašus (nors komentaruose hipersaitų kurti negalite).
 
 **Nustatykite, kokia turėtų būti jūsų įrašo trukmė**
 
 -   Naudotojas paprastai įrašą skaitys arba leis nuo pradžios iki pabaigos, todėl nejunkite veiksmų ar užduočių, kuriuos geriau atlikti atskirai.
--   Stenkitės neįrašinėti ilgo scenarijaus, apimančio kelis antrinius procesus. Pvz., „Naudokite parduotuvės klientų aptarnavimo tarnybą‟ yra per platu; jį išskaidykite į trumpesnes užduotis, pvz., „Priimti grąžinimus‟ ir „Pridėti į dovanų kortelę‟.
+-   Stenkitės neįrašinėti ilgo scenarijaus, apimančio kelis antrinius procesus. Pvz., „Naudokite parduotuvės klientų aptarnavimo tarnybą‟ yra per platu; jį išskaidykite į trumpesnes užduotis, pvz., „Priimti grąžinimus‟ ir „Pridėti į dovanų kortelę‟.
 -   Jei užduotis gali būti atlikta kaip kelių skirtingų verslo procesų dalis, sukurkite atskirą jos įrašą, į kurį nurodyti galite kituose įrašuose.
 -   Jei procesas apima keletą užduočių, kurias asmuo greičiausiai atlieka visas vienu metu, jas galite išsaugoti viename įraše, pvz., „Nustatykite ir priskirkite funkcijų profilius‟.
 -   Jei kokia nors užduotis atliekama vieną kartą (pvz., konfigūracija), o iš karto po to atliekama kita užduotis, tačiau ši gali būti atliekama pakartotinai ir savarankiškai, jas išskaidykite į du užduočių įrašus.
 
-**Nuspręskite, kurioje UI vietoje pradėti įrašą** Puslapis, kuriame esate pradėdami įrašyti užduoties įrašą, nulems puslapį, kurį pateiks užduočių vedlys.Pavyzdžiui, jei norite, kad užduoties įrašas žinyno srityje būtų pateikiamas vartotojui DK parametrų puslapyje spustelėjus žinyną, įrašą pradėti turite DK parametrų puslapyje. **Įrašus įrašykite kaip .axtr failus** Kai baigiate kurti ar redaguoti užduoties įrašą, jums pateikiamos kelios parinktys, kaip įrašą atsisiųsti ar įrašyti. Atsisiųsti failą galite kaip užduoties įrašo paketą (.axtr), kaip neapdorotą įrašo failą (.xml), kaip „Word‟ dokumentą arba jį įrašyti į LCS biblioteką. Naudinga užduoties įrašą visada įrašyti kaip užduoties įrašo paketo failą (.axtr). Taip bus lengviau failą prižiūrėti, jei vėliau reikėtų keisti procedūras ar komentarus. Jei failą norite atsisiųsti kaip „Word‟ dokumentą, taip pat jį įrašykite kaip užduoties įrašo paketo failą.
+**Nuspręskite, kurioje UI vietoje pradėti įrašą** Puslapis, kuriame esate pradėdami įrašyti užduoties įrašą, nulems puslapį, kurį pateiks užduočių vedlys. Pavyzdžiui, jei norite, kad užduoties įrašas žinyno srityje būtų pateikiamas vartotojui DK parametrų puslapyje spustelėjus žinyną, įrašą pradėti turite DK parametrų puslapyje. **Įrašus įrašykite kaip .axtr failus** Kai baigiate kurti ar redaguoti užduoties įrašą, jums pateikiamos kelios parinktys, kaip įrašą atsisiųsti ar įrašyti. Atsisiųsti failą galite kaip užduoties įrašo paketą (.axtr), kaip neapdorotą įrašo failą (.xml), kaip „Word‟ dokumentą arba jį įrašyti į LCS biblioteką. Naudinga užduoties įrašą visada įrašyti kaip užduoties įrašo paketo failą (.axtr). Taip bus lengviau failą prižiūrėti, jei vėliau reikėtų keisti procedūras ar komentarus. Jei failą norite atsisiųsti kaip „Word‟ dokumentą, taip pat jį įrašykite kaip užduoties įrašo paketo failą.
 
 ## <a name="create-your-task-recording"></a>Kurkite užduoties įrašą
 Išsamius instrukcijų veiksmus žr. [Užduočių įrašymo priemonės ištekliai](task-recorder.md).
@@ -108,7 +107,7 @@ Galite atsisiųsti bei redaguoti „Microsoft‟ užduočių įrašus ir juos na
 6.  Medyje pasirinkite verslo procesų bibliotekos mazgą, su kuriuo susietas užduoties įrašas.
 7.  Spustelėkite **GERAI**.
 8.  Spustelėkite **Pradėti**.
-9.  Šiame etape pereidami per įrašo veiksmus juos galite keisti – įrašas bus perrašytas.  **Pastaba**. Jei reikia pakeisti tik įrašo tekstą, įrašą galite atidaryti režimu **Redaguoti įrašo komentarus** ir tada jį įrašyti.
+9.  Šiame etape pereidami per įrašo veiksmus galite juos keisti – įrašas bus perrašytas. **Pastaba**. Jei reikia pakeisti tik įrašo tekstą, įrašą galite atidaryti esant režimui **Redaguoti įrašo komentarus** ir tada jį įrašyti.
 10. Įrašą atkūrę iki pabaigos, ekrano viršuje esančioje užduočių įrašytuvo juostoje spustelėkite **Sustabdyti**.
 11. Pasirinkite, kaip norite įrašyti užduoties įrašą.
 

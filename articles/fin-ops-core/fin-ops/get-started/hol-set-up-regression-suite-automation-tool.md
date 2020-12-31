@@ -11,18 +11,17 @@ ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: 21761, NotInToc
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f5670f6a580249491ad16ae46470160545bb8f91
-ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
+ms.openlocfilehash: 4757d506239e309dcbc3e181469b17e3286cc111
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248718"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695120"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>„Regression Suite Automation Tool“ mokymo programos nustatymas ir įdiegimas
 Ši tema yra mokomoji programa, kuri padeda nustatyti ir pradėti darbą su RSAT ir įrankiais, susietais su RSAT. 
@@ -387,7 +386,7 @@ Norėdami įjungti autentifikavimą, turite sugeneruoti ir įdiegti sertifikatą
 
     ![AOSService svetainių sąraše](./media/setup_rsa_tool_49.png)
 
-3. Dešiniuoju pelės mygtuku spustelėkite **Naršyti**, kad atidarytumėte **\<Diskas\>: \\AosService\\WebRoot** aplanką. Raskite **wif.config** failą.
+3. Dešiniuoju pelės mygtuku spustelėkite **Naršyti**, kad atidarytumėte aplanką **\<Drive\>: \\AosService\\WebRoot**. Raskite **wif.config** failą.
 
     ![Wif.config failas „WebRoot“ aplanke](./media/setup_rsa_tool_50.png)
 
@@ -407,7 +406,7 @@ Norėdami įjungti autentifikavimą, turite sugeneruoti ir įdiegti sertifikatą
     ```
 
     > [!NOTE]
-    > Jei keli vartotojai naudoja tą pačią programą, kiekvienas vartotojas turi sugeneruoti atskirus nykščio atspaudus, o kiekvienas iš šių nykščio atspaudų turi būti įtrauktas į dalį **\<Raktai\>**.
+    > Jei keli vartotojai naudoja tą pačią programą, kiekvienas vartotojas turi sugeneruoti atskirus nykščio atspaudus, o kiekvienas iš šių nykščio atspaudų turi būti įtrauktas į skiltį **\<keys\>**.
 
 5. Jei yra daugiau nei vienas AOS kompiuteris, pakartokite 3–4 veiksmus su kiekvienu papildomu kompiuteriu.
 
@@ -502,7 +501,7 @@ Jei naudojate senesnes RSAT versijas, turite įdiegti „Selenium“ ir naršykl
     - **Projekto pavadinimas** – pasirinkite savo „Azure DevOps“ projekto pavadinimą.
     - **Testavimo planas** – pasirinkite „Azure DevOps“ testavimo planą, kuriame yra jūsų testavimo atvejų. Norėdami gauti daugiau informacijos, žr. [Testavimo planų ir testavimo paketų kūrimas](https://www.visualstudio.com/docs/test/manual-exploratory-testing/getting-started/create-a-test-plan). Pasirinkę testavimo planą, pasirinkite **Tikrinti ryšį**, kad būtų galima tikrinti ryšį su „Azure DevOps“.
     - **Pagrindinio kompiuterio pavadinimas** – įveskite testavimo aplinkos pagrindinio kompiuterio pavadinimą, pvz., **\<myaos\>.cloudax.dynamics.com**. Neįtraukite **https://** arba **http://** prefikso.
-    - **SOAP pagrindinio kompiuterio pavadinimas** – įveskite testavimo aplinkos SOAP pagrindinio kompiuterio pavadinimą. Paprastai SOAP pagrindinio kompiuterio pavadinimas yra toks pat kaip pagrindinio kompiuterio pavadinimas, bet jame yra **soap** sufiksas. Čia pateikiamas pavyzdys: **\<myaos\>soap.cloudax.dynamics.com**. Neįtraukite **https://** arba **http://** prefikso.
+    - **SOAP pagrindinio kompiuterio pavadinimas** – įveskite testavimo aplinkos SOAP pagrindinio kompiuterio pavadinimą. Paprastai SOAP pagrindinio kompiuterio pavadinimas yra toks pat kaip pagrindinio kompiuterio pavadinimas, bet jame yra **soap** sufiksas. Štai pavyzdys: **\<myaos\>soap.cloudax.dynamics.com**. Neįtraukite **https://** arba **http://** prefikso.
 
         > [!NOTE]
         > Norėdami rasti pagrindinio kompiuterio pavadinimą ir SOAP pagrindinio kompiuterio pavadinimą, atidarykite IIS tvarkyklę, dešiniuoju pelės mygtuku spustelėkite **Svetainės \> AOSService**, tada pasirinkite **Redaguoti susiejimus**. Stulpelyje **Pagrindinio kompiuterio pavadinimas** pateikiami pagrindinio kompiuterio pavadinimas ir SOAP pagrindinio kompiuterio pavadinimas (SOAP pagrindinio kompiuterio pavadinime yra sufiksas **soap** URL).
@@ -563,7 +562,7 @@ Jei naudojate senesnes RSAT versijas, turite įdiegti „Selenium“ ir naršykl
 
     ![Darbalaukio skiriamoji geba nustatyta kaip 100 %](./media/setup_rsa_tool_68.png)
 
-6. Jei sistemoje neįdiegta naršyklių tvarkyklių, gausite įspėjamąjį pranešimą, kuriame teigiama, kad „Šiai operacijai atlikti reikia \<naršyklės pavadinimas\> tvarkyklės. Ar norite automatiškai atsisiųsti ir įdiegti ją dabar?“ Pasirinkite **Taip**.
+6. Jei sistemoje neįdiegta naršyklių tvarkyklių, gausite įspėjamąjį pranešimą, kuriame teigiama, kad „Šiai operacijai atlikti reikia \<browser name\> tvarkyklės. Ar norite automatiškai atsisiųsti ir įdiegti ją dabar?“ Pasirinkite **Taip**.
 
     ![Įspėjimo pranešimas „Internet Explorer“ atveju](./media/setup_rsa_tool_69.png)
 

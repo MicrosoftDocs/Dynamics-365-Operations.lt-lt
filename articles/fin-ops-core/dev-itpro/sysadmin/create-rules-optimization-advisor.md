@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8c4f5eff01ab20ce9de2a30b27b163df8cf83e02
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 7052aeb4154cefe30a1935dfdca53085a035deb6
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985224"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687616"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>Optimizavimo patariamojo įrankio taisyklių kūrimas
 
@@ -195,7 +194,7 @@ class ScanNewRulesJob
 
 Taisyklė bus rodoma formoje **Diagnostikos tikrinimo taisyklė**, kurią galima rasti dalyje **Sistemos administravimas** > **Periodinės užduotys** > **Tvarkyti diagnostikos tikrinimo taisyklę**. Norėdami ją įvertinti, eikite į **Sistemos administravimas** > **Periodinės užduotys** > **Planuoti diagnostikos tikrinimo taisyklę**, pasirinkite taisyklės dažnį, pvz., **Kasdien**. Spustelėkite **Gerai**. Norėdami peržiūrėti naująją galimybę, eikite į **Sistemos administravimas** > **Optimizavimo patariamasis įrankis**. 
 
-Toliau pateiktas pavyzdys yra kodo fragmentas su taisyklės griaučiais, apimančiais visus reikiamus metodus ir atributus. Tai jums padės pradėti rašyti naujas taisykles.Pavyzdyje pateiktos etiketės ir veiksmų meniu elementai naudojami tik demonstraciniais tikslais.
+Toliau pateiktas pavyzdys yra kodo fragmentas su taisyklės griaučiais, apimančiais visus reikiamus metodus ir atributus. Tai jums padės pradėti rašyti naujas taisykles. Pavyzdyje pateiktos etiketės ir veiksmų meniu elementai naudojami tik demonstraciniais tikslais.
 
 ```xpp
 [DiagnosticsRuleAttribute]

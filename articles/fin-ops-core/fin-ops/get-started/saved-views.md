@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: b948da0bff8de3b8ad783b3e3f52100a29fab109
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: 8537ec87c625e8b54cdf7574216d66f285da3a48
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3802900"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693706"
 ---
 # <a name="saved-views"></a>Įrašyti rodiniai
 
@@ -52,7 +51,7 @@ Jei pasirenkate peržiūrėti pavadinimą, peržiūros selektorius yra atidaroma
 
 - **Standartinė peržiūra** – **Standartinė** peržiūra yra nestandartinė puslapio peržiūra, kurioje nėra taikomi jokie personalizavimai.
 - **Personalinės peržiūros** – Peržiūros be spynų rodo jūsų personalines peržiūras. Tai jūsų sukurti arba administratoriaus jums suteikti rodiniai.
-- **Užrakintos peržiūros** – Kai kuriso peržiūros (tokios kaip**Standartinės** peržiūros ir visos peržiūros, kurios yra publikuojamos jūsų vaidmenyje) turi spynos simbolį šalia peržiūros selektoriaus. Šis simbolis nurodo, kad šių rodinių redaguoti negalima. Nepaisant to, pakeitimai atspindintys puslapio naudojimą yra įrašomi automatiškai. Šie pakeitimai apima stulpelio tinklelio pločio pakeitimus ir išplėsto bei sutraukto „FastTab“ statuso pakeitimus. Tačiau, jei turite personalizavimo teises, atlikdami veiksmą **Įrašyti kaip** galite sukurti asmeninį rodinį, pagrįstą užrakintu rodiniu.
+- **Užrakintos peržiūros** – Kai kuriso peržiūros (tokios kaip **Standartinės** peržiūros ir visos peržiūros, kurios yra publikuojamos jūsų vaidmenyje) turi spynos simbolį šalia peržiūros selektoriaus. Šis simbolis nurodo, kad šių rodinių redaguoti negalima. Nepaisant to, pakeitimai atspindintys puslapio naudojimą yra įrašomi automatiškai. Šie pakeitimai apima stulpelio tinklelio pločio pakeitimus ir išplėsto bei sutraukto „FastTab“ statuso pakeitimus. Tačiau, jei turite personalizavimo teises, atlikdami veiksmą **Įrašyti kaip** galite sukurti asmeninį rodinį, pagrįstą užrakintu rodiniu.
 - **Naujos peržiūros** – Publikuotos peržiūros, kurios dar nebuvo atidarytos turi kibirkšties simbolį peržiūros pavadinimo kairėje.
 
 Norėdami perjungti kitą rodinį, pirmiausia atidarykite rodinių išrinkiklį ir pasirinkite norimą įkelti rodinį. 

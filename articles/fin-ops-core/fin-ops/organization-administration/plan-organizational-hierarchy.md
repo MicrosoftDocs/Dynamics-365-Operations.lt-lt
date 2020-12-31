@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 17404
 ms.assetid: babde0c6-bb5d-45ae-95ca-2af75a0ea292
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5df0c7a84a2c24bdbcd39837119bc184c1f3fcf
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 986d8986375aac9454483d89c46c1b2b6f52e68e
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179120"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694694"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Organizacijos hierarchijos planavimas
 
@@ -45,7 +44,7 @@ Planuojant hierarchijas taip pat svarbu atsižvelgti į ryšį tarp organizacijo
 
 Privalote turėti bent vieną juridinį subjektą, atspindintį jūsų verslą. Juridinis subjektas gali sudaryti teisines sutartis ir privalo rengti finansines savo veiklos ataskaitas.
 
-Juridinius subjektus galima naudoti operacijų verslui arba konsolidavimui. Tai reiškia, kad juridinis subjektas programoje „Finance and Operations” nebūtinai atspindi tikrą jūsų verslo subjektą. Pavyzdžiui, operacijose dalyvaujanti įmonė gali turėti pavaldžių juridinių subjektų. Tokiame scenarijuje juridinio subjekto reikia operacijoms, o virtualus juridinis subjektas privalo konsoliduoti pavaldžių juridinių subjektų rezultatus ir balansus.
+Juridinius subjektus galima naudoti operacijų verslui arba konsolidavimui. Tai reiškia, kad juridinis subjektas programoje „Finance and Operations“ nebūtinai atspindi tikrą jūsų verslo subjektą. Pavyzdžiui, operacijose dalyvaujanti įmonė gali turėti pavaldžių juridinių subjektų. Tokiame scenarijuje juridinio subjekto reikia operacijoms, o virtualus juridinis subjektas privalo konsoliduoti pavaldžių juridinių subjektų rezultatus ir balansus.
 
 Vidinės jūsų verslo organizacijos, pvz., regioniniai biurai, gali būti atspindimi kaip papildomi juridiniai subjektai arba kaip pagrindinio juridinio subjekto valdymo vienetai. Valdymo vienetas neprivalo būti teisiškai apibrėžta organizacija. Valdymo vienetai naudojami ekonominiams ištekliams ir veiklos procesams kontroliuoti versle. Valdymo vienetų pavyzdžiai yra skyriai ir išlaidų centrai.
 
@@ -174,7 +173,7 @@ Palaikomiems šalims / regionams galima sukurti daugumą įstatymuose numatytų 
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>Ar organizacija modeliuojama kaip valdymo vienetas
 
-Privalomąsias ataskaitas reikia kurti naudojantis kita programa. Turite užtikrinti, kad programose „Finance and Operations“ duomenys būtų fiksuojami tenkinant kiekvieno valdymo vieneto reikalavimus, jei jie skiriasi nuo pagrindinės buveinės reikalavimų.
+Privalomąsias ataskaitas reikia kurti naudojantis kita programa. Turite užtikrinti, kad „Finance and Operations“ programų duomenys būtų fiksuojami tenkinant kiekvieno valdymo vieneto reikalavimus, jei jie skiriasi nuo pagrindinės buveinės reikalavimų.
 
 ### <a name="currency"></a>Valiuta
 

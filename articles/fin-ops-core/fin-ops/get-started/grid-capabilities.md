@@ -3,7 +3,7 @@ title: Tinklelio charakteristikos
 description: Šioje temoje aprašomos kelios galingos tinklelio valdiklio funkcijos. Norint turėti prieigą prie šių charakteristikų, turi būti įjungta nauja tinklelio funkcija.
 author: jasongre
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 11/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,21 +11,21 @@ ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 1f1c27444b38360072beb5277c445161983a2480
-ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
+ms.openlocfilehash: fb30cdded33f90bb472c8abdb70875077b1dd985
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3835091"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693779"
 ---
 # <a name="grid-capabilities"></a>Tinklelio charakteristikos
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Naujas tinklelio valdiklis suteikia daug naudingų ir galingų charakteristikų, kurias galima naudoti siekiant pagerinti vartotojo produktyvumą, kurti įdomesnius savo duomenų rodinius ir gauti prasmingų įžvalgų dėl duomenų. Šiame straipsnyje aptariamos šios charakteristikos: 
 
@@ -95,21 +95,23 @@ Norėdami didinti produktyvumą vartotojai gali įvesti matematines formules tin
 Norėdami, kad sistema atpažintų vertę kaip išraišką, paleiskite reikšmę su lygybės ženklu (**=**). Daugiau informacijos apie palaikomus operatorius ir sintaksę žr. [Palaikomi matematiniai simboliai](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Lentelės duomenų grupavimas
-[!include [preview banner](../includes/preview-banner.md)]
-
-Verslo vartotojams dažnai reikia atlikti ad hoc duomenų analizę. Nors tai galima atlikti eksportuojant duomenis į „Microsoft Excel“ ir naudojant suvestines lenteles, funkcija **(Peržiūra) Grupavimas tinkleliuose**, priklausanti nuo naujos tinklelio valdiklio funkcijos, vartotojams leidžia išradingai tvarkyti savo lentelių duomenis „Finance and Operations“ programose. Kadangi ši funkcija praplečia funkcijos **Bendrosios sumos** galimybes, **grupuodami** taip pat galite gauti prasmingų įžvalgų į duomenis, pateikę tarpines sumas grupėms.
+Verslo vartotojams dažnai reikia atlikti ad hoc duomenų analizę. Nors tai galima atlikti eksportuojant duomenis į „Microsoft Excel“ ir naudojant suvestines lenteles, funkcija **Grupavimas tinkleliuose**, kuri paprastai prieinama 10.0.16 versijoje / 40 platformos naujinyje ir priklauso nuo naujos tinklelio valdiklio funkcijos, vartotojams leidžia išradingai tvarkyti savo lentelių duomenis „Finance and Operations“ programose. Kadangi ši funkcija praplečia funkcijos **Bendrosios sumos** galimybes, **grupuodami** taip pat galite gauti prasmingų įžvalgų į duomenis, pateikę tarpines sumas grupėms.
 
 Norėdami naudoti šią funkciją, dešiniuoju pelės klavišu spustelėkite stulpelį, pagal kurį norite grupuoti, ir pasirinkite **Grupuoti pagal šį stulpelį**. Šiuo veiksmu duomenys bus surūšiuoti pagal pasirinktą stulpelį, įtraukta nauja **grupė pagal stulpelį** į tinklelio pradžią ir įterptos „antraštės eilutės“ kiekvienos grupės pradžioje. Šios antraštės eilutės teikia šią informaciją apie kiekvieną grupę: 
 -  Grupės duomenų reikšmė 
--  Stulpelio pavadinimas (ši informacija bus itin naudinga, kai palaikomi keli grupavimo lygiai).  
+-  Stulpelio pavadinimas (ši informacija bus itin naudinga, kai palaikomi keli grupavimo lygiai)  
 -  Šios grupės duomenų eilučių skaičius
 -  Visų stulpelių, sukonfigūruotų rodyti bendrąsias sumas, tarpinės sumos
 
 Įjungus [Įrašyti rodiniai](saved-views.md), šį grupavimą galima išsaugoti personalizuojant kaip dalį rodinio sparčiajai prieigai kitą kartą lankantis puslapyje.  
 
-Jei kitame stulpelyje pasirinksite **Grupuoti pagal šį stulpelį**, pradinis grupavimas bus pakeistas, nes tik vienas grupavimo lygis palaikomas versijoje 10.0.9 / 33 platformos naujinime.
+### <a name="multiple-levels-of-grouping"></a>Keli grupavimo lygiai
+Sugrupuotus duomenis pagal vieną stulpelį, galite grupuoti duomenis pagal stulpelį, pasirinkdami **Grupuoti pagal šį stulpelį**. Šis procesas gali būti kartojamas, kol bus 5 įdėtieji grupavimo lygiai, kurie yra maksimaliai palaikomi gylis. Šiuo metu nebegalėsite grupuoti pagal papildomus stulpelius.  
 
-Norėdami anuliuoti grupavimą tinklelyje, dešiniuoju pelės klavišu spustelėkite grupavimo stulpelį ir pasirinkite **Išgrupuoti**.  
+Bet kuriuo metu galite pašalinti grupavimą bet kuriame stulpelyje dešiniuoju pelės klavišu spustelėję tą stulpelį ir pasirinkdami **Išgrupuoti**. Taip pat galite pašalinti grupavimą iš visų stulpelių, pasirinkdami **Tinklelio parinktys** ir **Išgrupuoti viską**.   
+
+Atkreipkite dėmesį, kad prieš 10.0.16 versiją / 40 platformos naujinį palaikomas tik vienas grupavimo lygis. Šiose versijose, jei duomenys sugrupuoti ir pasirenkate **Grupuoti pagal šį stulpelį** kitame stulpelyje, pradinė grupė pakeičiama.  
+
 
 ### <a name="expanding-and-collapsing-groups"></a>Grupių išplėtimas ir sutraukimas
 Pradiniame duomenų grupavime bus išplėstos visos grupės. Galite kurti apibendrintus duomenų rodinius sutraukdami atskiras grupes, taip pat galite naudoti grupių išplėtimą ir sutraukimą, kad būtų lengviau naršyti duomenis. Norėdami išplėsti arba sutraukti grupę, atitinkamoje grupės antraštės eilutėje pasirinkite ševrono (>) mygtuką. Atkreipkite dėmesį, kad atskirų grupių išskleidimo / sutraukimo būsena **neįrašoma** personalizavimo parametruose.
@@ -165,10 +167,26 @@ Jei kūrėjas nustato **WidthMode** ypatybę į **SizeToAvailable** stulpeliams 
     -  Grupuotų kortelių sąrašas egzistuoja puslapyje.
     -  Tinklelio stulpelis su ne reaktyviu išplečiamu valdymu.
 
-    Kai vartotojas pirmą kartą susiduria su viena iš šių situacijų, bus rodomas pranešimas dėl puslapio atnaujinimo. Šiai žinutei pasirodžius, puslapis ir toliau naudos esamą tinklelį visiems naudotojams iki kitos produkto naujinimo versijos. Geresnis šių scenarijų valdymas taip, kad naujas tinklelis gali būti naudojamas, bus svarstomas tolesniuose naujinimuose.     
+    Kai vartotojas pirmą kartą susiduria su viena iš šių situacijų, bus rodomas pranešimas dėl puslapio atnaujinimo. Šiai žinutei pasirodžius, puslapis ir toliau naudos esamą tinklelį visiems naudotojams iki kitos produkto naujinimo versijos. Geresnis šių scenarijų valdymas taip, kad naujas tinklelis gali būti naudojamas, bus svarstomas tolesniuose naujinimuose.    
+    
+-  [KB 4582758] Įrašai yra neryškūs, kai keičiate mastelį iš 100 į bet kurį kitą procentą
+    
+### <a name="fixed-as-part-of-10015"></a>10.0.15 pataisymai    
+
+-  [KB 4582723] Rodyti pasirinktis, kurios nerodomos vėliau formos gyvavimo cikle
+
+### <a name="fixed-as-part-of-10014"></a>10.0.14 pataisymai
+
+-  (Kokybinis naujinimas) [KB 4584752] Netikėta kliento klaida su projekto SF pasiūlymų puslapiu
 
 ### <a name="fixed-as-part-of-10013"></a>10.0.13 pataisymai
 
+-  (Kokybinis naujinimas) [KB 4583880] „Regression Suite Automation Tool“ (RSAT) bandymai neatitinka OpenLookup veiksmo su „Nepavyko nuskaityti neapibrėžtos nuosavybės RowIndex“
+-  (Kokybinis naujinimas) [KB 4583847] Netikėta kliento klaida naršant po peržvalgų 
+-  (Kokybinis naujinimas) [Bug 471777] Negali pasirinkti laukelių tinklelėje redagavimui ar mobilios programos sukūrimui
+-  [Bug 474851] Hipersaitai ataskaitos grupės valdikliuose neveikia 
+-  [Bug 474848] Pagerinta išankstinė peržiūra su nerodomais tinkleliais
+-  [KB 4582726] Nėra paisoma RotateSign ypatybės  
 -  [Bug 470173] Žymimi laukeliai neaktyviose eilutėse persijungia, kai balta erdvė laukelyje paspaudžiama.
 -  [Bug 474848] Pagerinta išankstinė peržiūra su nerodomais tinkleliais
 -  [Bug 474851] Hipersaitai ataskaitos grupės valdikliuose neveikia 
@@ -176,6 +194,7 @@ Jei kūrėjas nustato **WidthMode** ypatybę į **SizeToAvailable** stulpeliams 
 -  [KB 4569441] Problemos su daugelio stulpelių kortelių sąrašų sukūrimu, patarimais ant paveikslėlių ir rodymo parinktimis kai kuriuose laukeliuose
 -  [KB 4575279] Ne visos pažymėtos eilutės yra pašalintos pagrindiniame žurnale
 -  [KB 4575233] Rodymo parinktys nėra atkuriamos perkėlus į kitą eilutę
+-  [Bug 477884] Peržvalgų grąžinama neteisinga reikšmė/įrašas, jei suaktyvintas naujas tinklelio valdiklis
 -  [KB 4571095] Produkto gavimo skelbimas atsitinka, kai netyčia paspaudžiamas „Enter“ klavišas (tinkamo puslapio nustatytojo veiksmo tvarkymas)
 -  [KB 4575437] Paieška su redaguojamais valdikliais netikėtai užsidaro
 -  [KB 4569418] Dublikuotų eilučių sukūrimas pristatymo tvarkaraščio formoje
@@ -225,7 +244,7 @@ Jei kūrėjas nustato **WidthMode** ypatybę į **SizeToAvailable** stulpeliams 
 - [KB 4558383] Po to, kai panaikinamas paskutinis įrašas, valdikliai ne tinklelyje neatnaujinami.
 - [KB 4558587] Kontrolinės grupės, kuriose yra pasirinktinio įvedimo laukai, skirti pakeitimo laukams, nerodo reikšmių.
 - [KB 4562143] Laukai neatnaujinami po eilutės keitimo / tinklelio apdorojimas užstringa po eilučių naikinimo.
-- [KB 4562645] Jei atidaryta peržvalga, kol vykdomi nuotolinio serverio administravimo įrankių (RSAT) bandymai, įvyksta išimtis.
+- [KB 4562645] Jei atidaryta peržvalga, kol vykdomi „Regression Suite Automation Tool“ (RSAT) bandymai, įvyksta išimtis.
 
 ### <a name="fixed-as-part-of-10010"></a>10.0.10 pataisymai
 

@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 3f83271327df186d407516ff1a197800ffc8c78c
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6e27806d3b94eb485705cec539a4849b81fbba91
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249361"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685792"
 ---
 # <a name="parse-incoming-documents-in-excel-format"></a>Gaunamų dokumentų analizė „Excel“ formatu
 
@@ -42,7 +41,7 @@ Atsisiųskite šiuos failus norėdami užbaigti aukščiau minėtus užduočių 
 | Gaunamas failas XLSX formatu – šablonas    | [1099import-template.xlsx](https://go.microsoft.com/fwlink/?linkid=862266) |
 | Gaunamas failas XLSX formatu – duomenų pavyzdys | [1099import-data.xlsx](https://go.microsoft.com/fwlink/?linkid=862266)     |
 
-Jei dar neleidote šio užduoties vedlio, [ER reikiamų konfigūracijų kūrimas norint importuoti duomenis iš išorinio failo](./tasks/er-required-configurations-import-data.md) dabartinėje „Finance and Operations“ programoje, atsisiųskite šį failą.
+Jei dar neleidote šio užduoties vedlio, [ER reikiamų konfigūracijų kūrimas norint importuoti duomenis iš išorinio failo dabartinėje „Finance and Operations“ programoje](./tasks/er-required-configurations-import-data.md), atsisiųskite šį failą.
 
 | Turinio aprašas    | Failas                                                            |
 |------------------------|-----------------------------------------------------------------|

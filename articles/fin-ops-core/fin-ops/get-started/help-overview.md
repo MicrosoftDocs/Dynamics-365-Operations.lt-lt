@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
-ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28118eddd2f85df5f9daa2c5a6c3cb00957909db
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367343"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695144"
 ---
 # <a name="help-system"></a>Žinyno sistema
 
@@ -49,7 +48,7 @@ Svetainė docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations
 
 Turinį galite rasti svetainėje docs.microsoft.com naudodami bet kurį ieškos modulį. Jei norite geriausių rezultatų, rekomenduojame naudoti svetainės iešką, pvz., **site:docs.microsoft.com dynamics 365 „ieškos terminas“**.
 
-### <a name="get-notified-about-changes-through-an-rss-feed"></a>Pranešimai apie keitimus naudojant RSS informacijos santraukas
+## <a name="get-notified-about-changes-through-an-rss-feed"></a>Pranešimai apie keitimus naudojant RSS informacijos santraukas
 
 Norėdami užsiprenumeruoti visų docs.microsoft.com turinio naujinimų „Really Simple Syndication“ (RSS) informacijos santraukas, naudokite šią nuorodą:
 
@@ -68,7 +67,7 @@ Jei turite atsiliepimų apie temą arba norite užduoti su ja susijusių klausim
 > [!NOTE]
 > Jei norite pateikti atsiliepimą apie dokumentaciją, turite prisijungti naudodami „GitHub“ paskyrą. Daugiau informacijos žr. [„GitHub“ profilio nustatymas ir valdymas](https://help.github.com/github/setting-up-and-managing-your-github-profile).
 
-### <a name="contribute-to-the-documentation"></a>Prisidėkite kuriant dokumentaciją
+## <a name="contribute-to-the-documentation"></a>Prisidėkite kuriant dokumentaciją
 
 Galite prisidėti prie dokumentacijos kūrimo ir redagavimo. Norėdami pradėti, temoje pasirinkite mygtuką **Redaguoti** (pieštuko simbolis). Šiame vaizdo įraše parodyta, kaip galite prisidėti prie mūsų dokumentacijos kūrimo.
 

@@ -3,7 +3,7 @@ title: Nustatyti ir sukurti pretendentų atrankos priemones
 description: Rasti kvalifikuotų kandidatų telkinį laisvoms vietoms užimti gali būti sunku, ypač, kai pareigoms reikalingas unikalus įgūdžių rinkinys.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 11/20/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: HcmSkillMapping, HcmJobLookup, HcmSkillMappingLine, HcmPersonCertificate, CCHTMLPrintPreview
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d8a05ad7f100e6c54ccf1ecf7b76509cf44dbb8
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: f4e7ed6feaa1b5b27fcfc0ec99a2d75415fe7d6a
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143954"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693069"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Nustatyti ir sukurti pretendentų atrankos priemones
 
@@ -38,18 +37,18 @@ Rasti kvalifikuotų kandidatų telkinį laisvoms vietoms užimti gali būti sunk
     * Kaip ieškos pagrindą naudokite funkciją Nuskaityti šabloną ir iš pasirinkto asmens, užduoties ar kurso nuskaitykite sertifikatą, įgūdžius ir švietimo duomenis.   Tada galite pridėti arba pašalinti kriterijų, nurodyti, ar kriterijai yra pasirinktiniai, ir rikiuoti kriterijų svarbą.  
 7. Spustelėkite Užduotis.
 8. Lauke Užduotis įveskite arba pasirinkite reikšmę.
-9. Spustelėkite GERAI.
-10. Išplėskite diapazono „FastTab‟ ir įtraukite bet kokią papildomą informaciją, pvz., padalinį.
-11. Išplėtę sertifikatų „FastTab‟, galėsite peržiūrėti arba redaguoti sertifikatus.
-12. Išplėtę „FastTab‟ Įgūdžiai, galėsite peržiūrėti arba redaguoti įgūdžius.
-13. Išplėtę „FastTab‟ Išsilavinimas, galėsite peržiūrėti arba redaguoti išsilavinimo kriterijus.
+9. Spustelėkite Gerai.
+10. Išplėskite FastTab“ Diapazonas ir įtraukite bet kokią papildomą informaciją, pvz., padalinį.
+11. Išplėtę „FastTab“ Sertifikatai, galėsite peržiūrėti arba redaguoti sertifikatus.
+12. Išplėtę „FastTab“ Įgūdžiai, galėsite peržiūrėti arba redaguoti įgūdžius.
+13. Išplėtę „FastTab“ Išsilavinimas, galėsite peržiūrėti arba redaguoti išsilavinimo kriterijus.
 14. Spustelėkite Vykdyti.
-15. Spustelėkite GERAI.
+15. Spustelėkite Gerai.
 16. Spustelėkite Rezultatas.
 17. Spustelėkite Rezultatas.
 18. Spustelėkite Atnaujinti.
 19. Spustelėkite Sertifikatai.
-    * Galite detalizuoti kiekvieną išvardytą asmenį ir peržiūrėti išsamią informaciją apie jų išsilavinimą, įgūdžius, profesinę patirtį ir t. t.  
+    * Galite detalizuoti kiekvieną išvardytą asmenį ir peržiūrėti išsamią informaciją apie jų išsilavinimą, įgūdžius, profesinę patirtį.  
 20. Uždarykite puslapį.
 21. Uždarykite puslapį.
 22. Dar kartą pasirinkite rezultatą.

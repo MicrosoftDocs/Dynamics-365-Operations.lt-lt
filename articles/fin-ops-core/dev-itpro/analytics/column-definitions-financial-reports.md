@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3a92970f2e3639090f51cf9e59ffcb148e210494
-ms.sourcegitcommit: cb94f16d69455cbf6fd059f9f394e7623810c924
+ms.openlocfilehash: 611e5cdfd2289bb2c690a72659e9ba47d6309cfe
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4011638"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687235"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Finansinių ataskaitų stulpelių aprašai
 
@@ -38,7 +37,7 @@ Stulpelio apraše gali būti nuo dviejų iki 255 stulpelių.
 ### <a name="create-a-column-definition"></a>Stulpelio aprašo kūrimas
 
 1. Ataskaitų dizaino įrankio naršymo srityje spustelėkite **Stulpelio aprašai**.
-2. Meniu **Rinkmena** spustelėkite **Naujas** , tada spustelėkite **Stulpelio aprašas**.
+2. Meniu **Rinkmena** spustelėkite **Naujas**, tada spustelėkite **Stulpelio aprašas**.
 3. Pridėkite stulpelio aprašo turinį.
 
 ### <a name="open-a-column-definition"></a>Stulpelio aprašo atidarymas
@@ -48,7 +47,7 @@ Stulpelio apraše gali būti nuo dviejų iki 255 stulpelių.
 
 ### <a name="add-a-column-to-a-column-definition"></a>Stulpelio įtraukimas į stulpelių aprašą
 
-1. Ataskaitos dizaino įrankyje spustelėkite **Stulpelio aprašai** , tada atidarykite norimą keisti stulpelio aprašą.
+1. Ataskaitos dizaino įrankyje spustelėkite **Stulpelio aprašai**, tada atidarykite norimą keisti stulpelio aprašą.
 2. Pasirinkite stulpelį, į kurį turi būti įterptas naujas stulpelis.
 3. Meniu **Redaguoti** spustelėkite **Įterpti stulpelį**. Naujas stulpelis rodomas pasirinkto stulpelio kairėje.
 
@@ -112,7 +111,7 @@ Toliau pateikiamoje lentelėje aprašomi stulpelio apribojimo kodai.
 
 | Stulpelio apribojimo kodas | Prekės/Paslaugos pavadinimas |
 |-------------------------|-------------|
-| SU                      | Pabraukimo panaikinimas stulpelyje, kurio eilutės apraše įvedama pabraukimo komanda ( **---** ) arba dvigubo pabraukimo komanda ( **===** ). Pavyzdžiui, galbūt nenorite pabraukti sumų, kurios gaunamos apskaičiuojant procentinę dalį. |
+| SU                      | Pabraukimo panaikinimas stulpelyje, kurio eilutės apraše įvedama pabraukimo komanda (**---**) arba dvigubo pabraukimo komanda (**===**). Pavyzdžiui, galbūt nenorite pabraukti sumų, kurios gaunamos apskaičiuojant procentinę dalį. |
 | ST                      | Bendrųjų sumų panaikinimas, kad stulpelyje būtų rodoma tik informacija (pvz., statistikos stulpelis). |
 | SD                      | Slėpti informaciją, kad stulpelyje būtų rodomos tik eilutės **TOT** ir **KPL** (iš eilutės aprašo). |
 | DR                      | Apriboti stulpelio **FD** sumas, kad būtų rodomos tik debeto sumos. |
@@ -138,7 +137,7 @@ Norėdami pridėti, modifikuoti ir panaikinti ataskaitos stulpelių viršuje rod
 
 | Laukas                 | Prekės/Paslaugos pavadinimas |
 |-----------------------|-------------|
-| Stulpelio antraštės tekstas    | Šis tekstas rodomas stulpelio antraštėje. Galite įvesti tekstą tiesiai į šį lauką arba spustelėję **Įterpti automatinį tekstą** pasirinkti pasirinktį, kuria naudojantis stulpelio antraštė atnaujinama kiekvieną kartą, kai sugeneruojama ataskaita. Norėdami įtraukti keletą automatinio teksto kodų, dar kartą spustelėkite **Įterpti automatinį tekstą** , tada spustelėkite kitą sąraše pateikiamą kodą. |
+| Stulpelio antraštės tekstas    | Šis tekstas rodomas stulpelio antraštėje. Galite įvesti tekstą tiesiai į šį lauką arba spustelėję **Įterpti automatinį tekstą** pasirinkti pasirinktį, kuria naudojantis stulpelio antraštė atnaujinama kiekvieną kartą, kai sugeneruojama ataskaita. Norėdami įtraukti keletą automatinio teksto kodų, dar kartą spustelėkite **Įterpti automatinį tekstą**, tada spustelėkite kitą sąraše pateikiamą kodą. |
 | Formatavimo pasirinktys        | Taikyti formatavimą stulpelio antraštei, pvz., teksto lauką arba pabraukimą. |
 | Paskirstyti nuo Paskirstyti iki | Nurodykite, kuriam stulpeliui ar stulpeliams taikomas antraštės tekstas. |
 | Pagrindimas         | Nurodykite, kaip stulpelio antraštės tekstas turėtų būti sulygiuotas laukuose **Paskirstyti nuo** ir **Paskirstyti iki** nurodytame stulpelyje arba stulpelių intervale. |
@@ -170,10 +169,10 @@ Norėdami pridėti, modifikuoti ir panaikinti ataskaitos stulpelių viršuje rod
 
 ### <a name="create-an-automatically-generated-header"></a>Automatiškai sugeneruotos antraštės kūrimas
 
-Ataskaitų dizaino įrankis gali automatiškai sugeneruoti stulpelių antraštes pagal automatinio teksto kodus. Automatinio teksto kodai yra kintamieji, kurie atnaujinami kiekvieną kartą, kai sugeneruojama ataskaita. Šie kodai gali būti bet kurio stulpelio antraštėje ir juose nurodoma ataskaitos informacija, kuri gali kisti, pvz., datos ar laikotarpio numeriai. Todėl galite naudoti vieną stulpelio aprašą keliems ataskaitos aprašams, laikotarpiams ir ataskaitų medžiams. Kadangi automatinio teksto kodai paremti stulpelio aprašo informacijos eilutėse pateikta kalendoriaus informacija, juos palaiko tik stulpeliai **CALC** ir **FD**. Nuo to, kaip automatinio teksto kodas rodomas stulpelio antraštės langelyje priklauso tai, kaip ta informacija rodoma ataskaitoje. Dialogo lange **Stulpelio antraštė** automatinio teksto kodai rodomi didžiosiomis ir mažosiomis raidėmis. Todėl ataskaitoje tekstas rodomas didžiosiomis ir mažosiomis raidėmis. Pavyzdžiui, standartiniuose kalendoriniuose metuose **\@CalMonthLong** pakeičia **7** mėnesį į **liepą**. Jei mėnesio pavadinimas turėtų būti rodomas didžiosiomis raidėmis (pavyzdžiui, **LIEPA** ), **Stulpelio antraštės teksto** lauke autoteksto kodą įveskite didžiosiomis raidėmis. Pavyzdžiui, įveskite **\@CALMONTHLONG**. Galite maišyti kodus ir tekstą. Pavyzdžiui, įveskite šį antraštės tekstą: **Laikotarpis \@FiscalPeriod-\@FiscalYear nuo \@StartDate iki \@EndDate**. Sugeneruotos ataskaitos antraštės tekstas panašus į šį tekstą: **Laikotarpis 1-02 nuo 01/01/02 iki 01/31/02**.
+Ataskaitų dizaino įrankis gali automatiškai sugeneruoti stulpelių antraštes pagal automatinio teksto kodus. Automatinio teksto kodai yra kintamieji, kurie atnaujinami kiekvieną kartą, kai sugeneruojama ataskaita. Šie kodai gali būti bet kurio stulpelio antraštėje ir juose nurodoma ataskaitos informacija, kuri gali kisti, pvz., datos ar laikotarpio numeriai. Todėl galite naudoti vieną stulpelio aprašą keliems ataskaitos aprašams, laikotarpiams ir ataskaitų medžiams. Kadangi automatinio teksto kodai paremti stulpelio aprašo informacijos eilutėse pateikta kalendoriaus informacija, juos palaiko tik stulpeliai **CALC** ir **FD**. Nuo to, kaip automatinio teksto kodas rodomas stulpelio antraštės langelyje priklauso tai, kaip ta informacija rodoma ataskaitoje. Dialogo lange **Stulpelio antraštė** automatinio teksto kodai rodomi didžiosiomis ir mažosiomis raidėmis. Todėl ataskaitoje tekstas rodomas didžiosiomis ir mažosiomis raidėmis. Pavyzdžiui, standartiniuose kalendoriniuose metuose **\@CalMonthLong** pakeičia **7** mėnesį į **liepą**. Jei mėnesio pavadinimas turėtų būti rodomas didžiosiomis raidėmis (pavyzdžiui, **LIEPA**), **Stulpelio antraštės teksto** lauke autoteksto kodą įveskite didžiosiomis raidėmis. Pavyzdžiui, įveskite **\@CALMONTHLONG**. Galite maišyti kodus ir tekstą. Pavyzdžiui, įveskite šį antraštės tekstą: **Laikotarpis \@FiscalPeriod-\@FiscalYear nuo \@StartDate iki \@EndDate**. Sugeneruotos ataskaitos antraštės tekstas panašus į šį tekstą: **Laikotarpis 1-02 nuo 01/01/02 iki 01/31/02**.
 
 > [!NOTE]
-> Kai kurio teksto, pvz., ilgosios datos, formatas priklauso nuo jūsų serverio regiono parametrų. Norėdami pakeisti šiuos parametrus, spustelėkite mygtuką **Pradžia** , spustelėkite **Valdymo skydas** , tada spustelėkite **Regionas ir kalba**. Toliau pateikiamoje lentelėje išvardijamos galimos stulpelio antraščių automatinio teksto pasirinktys.
+> Kai kurio teksto, pvz., ilgosios datos, formatas priklauso nuo jūsų serverio regiono parametrų. Norėdami pakeisti šiuos parametrus, spustelėkite mygtuką **Pradžia**, spustelėkite **Valdymo skydas**, tada spustelėkite **Regionas ir kalba**. Toliau pateikiamoje lentelėje išvardijamos galimos stulpelio antraščių automatinio teksto pasirinktys.
 
 
 | Automatinio teksto pasirinktis ir kodas                | Prekės/Paslaugos pavadinimas |
@@ -195,10 +194,10 @@ Ataskaitų dizaino įrankis gali automatiškai sugeneruoti stulpelių antraštes
 
 Sąlyginės aprėpiančios antraštės gali aprėpti kelis tam tikro laikotarpio duomenimis grįstus stulpelius. Pavyzdžiui, jei turite finansinių metų biudžeto ataskaitą ir norite kartu su pastarųjų mėnesių faktiniais biudžetais rodyti ateinančių mėnesių planuojamus biudžetus, naudodami sąlyginę aprėpiančią antraštę galite automatiškai atnaujinti ataskaitos antraštę. Kurdami sąlyginę besitęsiančią antraštę atkreipkite dėmesį į toliau pateiktas situacijas.
 
-- Bet kokia sustabdymo sąlyga (laukas **Paskirstyti iki** ), kuri sugretinama prieš nepaisant pradžios sąlygos ( **Paskirstyti nuo** ). Pavyzdžiui, nurodyta stulpelio B paskirstymo sąlyga nuo BASE+1 iki BASE, kurioje BASE yra stulpelis C, o BASE+1 yra stulpelis D. Šiuo atveju stulpelio C sustabdymo sąlygos nepaisoma, o spausdinimas antraštėje prasideda nuo stulpelio D.
+- Bet kokia sustabdymo sąlyga (laukas **Paskirstyti iki**), kuri sugretinama prieš nepaisant pradžios sąlygos (**Paskirstyti nuo**). Pavyzdžiui, nurodyta stulpelio B paskirstymo sąlyga nuo BASE+1 iki BASE, kurioje BASE yra stulpelis C, o BASE+1 yra stulpelis D. Šiuo atveju stulpelio C sustabdymo sąlygos nepaisoma, o spausdinimas antraštėje prasideda nuo stulpelio D.
 - Jei nurodote persidengiančias stulpelių antraštes, jos persidengia, kai yra spausdinamos ataskaitoje. Ataskaita sugeneruojama, bet lauke **Ataskaitos eilės būsena** rodomas šis įspėjimas: „Pagrindą naudojančios stulpelių antraštės sutampa su kitomis stulpelio antraštėmis, todėl tekstas gali persidengti.“ Pavyzdžiui, stulpelio B antraštės aprašas yra nuo B iki BASE+1, o stulpelio D antraštės aprašas yra nuo BASE+1 iki F. Tokiu atveju antraštės spausdinamos viena ant kitos ir yra beveik neįskaitomos. Kiekvieną kartą, kai apraše **Paskirstyti nuo / Paskirstyti iki** naudojamas BASE, būtinai peržiūrėkite generuojamą ataskaitą, kad pamatytumėte, ar antraštės persidengia.
-- Jei BASE nurodote stulpelio Nespausdinti ( **NP** ) paskirstymo apraše, jo bus nepaisoma, neatsižvelgiant į tai, kas nurodyta stulpelio apraše. Iš esmės šis scenarijus yra toks pat kaip tada, kai nesukuriamas stulpelio antraštės aprašas.
-- Sąlyginio spausdinimo stulpelių ( **P&lt;B** , **P&gt;=B** ) sąlyginės aprėpiančios antraštės veikia taip pat, kaip bet kuris įprastas stulpelio antraštės aprašas. Pvz., jei sąlyga klaidinga, bet kuriame kitame stulpelyje, kuris atitinka paskirstymo sąlygą, pradedama spausdinti antraštė.
+- Jei BASE nurodote stulpelio Nespausdinti (**NP**) paskirstymo apraše, jo bus nepaisoma, neatsižvelgiant į tai, kas nurodyta stulpelio apraše. Iš esmės šis scenarijus yra toks pat kaip tada, kai nesukuriamas stulpelio antraštės aprašas.
+- Sąlyginio spausdinimo stulpelių (**P&lt;B**, **P&gt;=B**) sąlyginės aprėpiančios antraštės veikia taip pat, kaip bet kuris įprastas stulpelio antraštės aprašas. Pvz., jei sąlyga klaidinga, bet kuriame kitame stulpelyje, kuris atitinka paskirstymo sąlygą, pradedama spausdinti antraštė.
 
 #### <a name="create-a-conditional-spanning-header"></a>Sąlyginės aprėpiančios antraštės kūrimas
 
@@ -206,13 +205,13 @@ Sąlyginės aprėpiančios antraštės gali aprėpti kelis tam tikro laikotarpio
 2. Dukart spustelėkite antraštės langelį.
 3. Dialogo lange **Stulpelio antraštė** įveskite stulpelio antraštės tekstą. Arba spustelėkite **Įterpti automatinį tekstą** ir pasirinkite pasirinktį.
 4. Lauke **Formatavimo pasirinktys** pasirinkite antraštės formatavimo stilių.
-5. Nurodyti laikotarpį, susijusį su pagrindiniu laikotarpiu, kuris nurodytas generuojant ataskaitą. Laukuose **Paskirstyti nuo** ir **Paskirstyti iki** įveskite vieną iš šių reikšmių: **BASE** , **BASE-X** arba **BASE+X** , kuriose X yra laikotarpių skaičius nuo pagrindinio laikotarpio. Pvz., jei lauke **Paskirstyti nuo** įvesite **BASE** , sąlyginio aprėpiančio stulpelio antraštės tekstas prasideda stulpelio antraštėje, kurioje ataskaitos aprašo **Pagrindinis laikotarpis** reikšmė lygi stulpelio aprašo **Laikotarpis** reikšmei. Jis baigiasi stulpelyje, kuris nurodytas lauke **Paskirstyti iki**. Todėl jei paskirstymas yra iš BASE į M, o ataskaitos aprašo **Pagrindinis laikotarpis** reikšmė yra **4** , antraštė prasideda stulpelyje, kuriame nustatytas laikotarpis **4** , ir baigiasi stulpelyje M. Antraštės sustabdomos ir paleidžiamos tik spausdinimo stulpeliuose.
+5. Nurodyti laikotarpį, susijusį su pagrindiniu laikotarpiu, kuris nurodytas generuojant ataskaitą. Laukuose **Paskirstyti nuo** ir **Paskirstyti iki** įveskite vieną iš šių reikšmių: **BASE**, **BASE-X** arba **BASE+X**, kuriose X yra laikotarpių skaičius nuo pagrindinio laikotarpio. Pvz., jei lauke **Paskirstyti nuo** įvesite **BASE**, sąlyginio aprėpiančio stulpelio antraštės tekstas prasideda stulpelio antraštėje, kurioje ataskaitos aprašo **Pagrindinis laikotarpis** reikšmė lygi stulpelio aprašo **Laikotarpis** reikšmei. Jis baigiasi stulpelyje, kuris nurodytas lauke **Paskirstyti iki**. Todėl jei paskirstymas yra iš BASE į M, o ataskaitos aprašo **Pagrindinis laikotarpis** reikšmė yra **4**, antraštė prasideda stulpelyje, kuriame nustatytas laikotarpis **4**, ir baigiasi stulpelyje M. Antraštės sustabdomos ir paleidžiamos tik spausdinimo stulpeliuose.
 6. Dalyje **Lygiavimas** pasirinkite, ar stulpelio antraštės tekstas turėtų būti lygiuojamas kairėje, centre, ar dešinėje.
-7. Spustelėkite **GERAI**.
+7. Spustelėkite **Gerai**.
 
 #### <a name="example-of-a-conditional-spanning-header"></a>Sąlyginės aprėpiančios antraštės pavyzdys
 
-Phyllis kuria dinaminės šešių mėnesių prognozės ataskaitą. Ji nori, kad žodis „Faktinis“ būtų išspausdintas stulpeliuose, kuriuose yra faktiniai duomenys, o žodis „Biudžetas“ būtų išspausdintas stulpeliuose, kuriuose yra biudžeto prognozės. Kiekvieną mėnesį, kada paleidžiama ataskaita, faktinių stulpelių yra vienu daugiau, o biudžeto stulpelių – vienu mažiau. Nors norėdama koreguoti antraštes, kiekvieną kartą, kai generuojama ataskaita, Phyllis gali pati keisti stulpelio aprašą, tam, kad sutaupytų laiko ir pastangų, ji nusprendžia sukurti sąlygines aprėpiančias antraštes, kurios kiekvieną kartą paleidus ataskaitą atitinkamuose stulpeliuose automatiškai sukurs antraštes. Phyllis atidaro ataskaitų dizaino įrankį, naršymo srityje spusteli **Stulpelio aprašas** ir atidaro ataskaitos stulpelio aprašą. Tada ji įveda toliau nurodomą informaciją. Ataskaitos apraše nurodytas pagrindinis laikotarpis yra 4.
+Vartotojas kuria dinaminės šešių mėnesių prognozės ataskaitą. Vartotojas nori, kad žodis „Faktinis“ būtų išspausdintas stulpeliuose, kuriuose yra faktiniai duomenys, o žodis „Biudžetas“ būtų išspausdintas stulpeliuose, kuriuose yra biudžeto prognozės. Kiekvieną mėnesį, kada paleidžiama ataskaita, faktinių stulpelių yra vienu daugiau, o biudžeto stulpelių – vienu mažiau. Nors norėdamas koreguoti antraštes, kiekvieną kartą, kai generuojama ataskaita, vartotojas gali pati keisti stulpelio aprašą, tam, kad sutaupytų laiko ir pastangų, vartotojas nusprendžia sukurti sąlygines aprėpiančias antraštes, kurios kiekvieną kartą paleidus ataskaitą atitinkamuose stulpeliuose automatiškai sukurs antraštes. Vartotojas atidaro ataskaitų dizaino įrankį, naršymo srityje spusteli **Stulpelio aprašas** ir atidaro ataskaitos stulpelio aprašą. Tada vartotojas įveda toliau nurodomą informaciją. Ataskaitos apraše nurodytas pagrindinis laikotarpis yra 4.
 
 |      Formatuoti         |  A   | Mlrd.             | K             | D             | E             | Pn.             | Ž             | H             | I             | J             | Tūkst.             | L             | P             |
 |---------------------|------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
@@ -227,21 +226,21 @@ Phyllis kuria dinaminės šešių mėnesių prognozės ataskaitą. Ji nori, kad 
 | Stulpelio plotis        | 30   | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            |
 | Spausdinimo valdiklis       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
 
-Phyllis dukart spusteli stulpelio antraštės langelį, kad atidarytų dialogo langą **Stulpelio antraštė** , kuriame ji įveda toliau nurodomą informaciją.
+Vartotojas dukart spusteli stulpelio antraštės langelį, kad atidarytų dialogo langą **Stulpelio antraštė**, kuriame įveda toliau nurodomą informaciją.
 
-| Laukas              | Vertė                 |
+| Laukas              | Reikšmė                 |
 |--------------------|-----------------------|
 | Stulpelio antraštės tekstas | Faktinis                |
 | Įterpti automatinį tekstą    | Niekas nepasirinkta. |
 | Formatavimo pasirinktys     | Langelis                   |
 | Pagrindimas      | Niekas nepasirinkta. |
-| Paskirstyti nuo        | B                     |
+| Paskirstyti nuo        | Mlrd.                     |
 | Paskirstyti iki          | PAGRINDINIS                  |
 | Biudžeto antraštė      | Nuo PAGRINDINIS+1 iki pabaigos stulpelio  |
 
-Įvedusi informaciją Phyllis spusteli **Gerai**. Tada ji dukart spusteli stulpelio C antraštės langelį, kad atidarytų dialogo langą **Stulpelio antraštė** , kuriame ji įveda toliau nurodomą informaciją.
+Įvedęs informaciją, vartotojas spusteli **Gerai**. Tada vartotojas dukart spusteli stulpelio C antraštės langelį, kad atidarytų dialogo langą **Stulpelio antraštė**, kuriame įveda toliau nurodomą informaciją.
 
-| Laukas              | Vertė                 |
+| Laukas              | Reikšmė                 |
 |--------------------|-----------------------|
 | Stulpelio antraštės tekstas | Biudžetas                |
 | Įterpti automatinį tekstą    | Niekas nepasirinkta. |
@@ -274,12 +273,12 @@ Stulpelio apraše naudojant formatavimo stulpelio informacijos eilutes pažymėt
 
 ### <a name="changing-the-column-width"></a>Stulpelio pločio keitimas
 
-LangelyjeĮ **Stulpelio plotis** nurodomas spausdintoje ataskaitoje šio stulpelio pločiui naudojamų simbolių skaičius. Stulpelio plotis svarbus stulpeliuose, kuriuose yra sumos ( **CALC** , **WKS** arba **FD** tipo stulpeliai), aprašai ( **DESC** tipo stulpeliai) arba užpildymas ( **FILL** tipo stulpeliai). Pagal numatytuosius parametrus pažymėta pasirinktis **Pritaikyti automatiškai** , kad kiekvieno stulpelio plotis automatiškai būtų nustatomas taip, kad tilptų turinys.
+LangelyjeĮ **Stulpelio plotis** nurodomas spausdintoje ataskaitoje šio stulpelio pločiui naudojamų simbolių skaičius. Stulpelio plotis svarbus stulpeliuose, kuriuose yra sumos (**CALC**, **WKS** arba **FD** tipo stulpeliai), aprašai (**DESC** tipo stulpeliai) arba užpildymas (**FILL** tipo stulpeliai). Pagal numatytuosius parametrus pažymėta pasirinktis **Pritaikyti automatiškai**, kad kiekvieno stulpelio plotis automatiškai būtų nustatomas taip, kad tilptų turinys.
 
 #### <a name="specify-the-width-of-a-column-on-a-report"></a>Ataskaitos stulpelio pločio nurodymas
 
 1. Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti stulpelio aprašą.
-2. Langelyje **Stulpelio plotis** įveskite stulpelio pločio tarpų skaičių. Didžiausias bet kurio stulpelio plotis yra 255 simboliai (įskaitant šimtines dalis, kablelius ir skliaustelius). Arba, norėdami įjungti ataskaitų dizaino įrankį ir pasirinkti tinkamą stulpelio plotį pagal langelio turinį, dukart spustelėkite langelį **Stulpelio plotis** , tada spustelėkite **Pritaikyti automatiškai**.
+2. Langelyje **Stulpelio plotis** įveskite stulpelio pločio tarpų skaičių. Didžiausias bet kurio stulpelio plotis yra 255 simboliai (įskaitant šimtines dalis, kablelius ir skliaustelius). Arba, norėdami įjungti ataskaitų dizaino įrankį ir pasirinkti tinkamą stulpelio plotį pagal langelio turinį, dukart spustelėkite langelį **Stulpelio plotis**, tada spustelėkite **Pritaikyti automatiškai**.
 
 ### <a name="add-space-between-columns"></a>Tarpo tarp stulpelių įtraukimas
 
@@ -309,7 +308,7 @@ Langelyje **Spausdinimo valdymas** gali būti stulpelio rodinį arba spausdinimo
 | Spausdinimo kontrolinis kodas | Vertimas                                     | Prekės/Paslaugos pavadinimas |
 |--------------------|-------------------------------------------------|-------------|
 | NP                 | Nespausdinimas                                     | Šio stulpelio sumų neįtraukti į spausdinamą ataskaitą ir į skaičiavimus. Norėdami į skaičiavimą įtraukti nespausdinamą stulpelį, nurodykite stulpelį tiesiogiai skaičiavimo formulėje. Pavyzdžiui, nespausdinamas stulpelis C įtraukiamas į šį skaičiavimą: **B+C+D**. Tačiau nespausdinamas stulpelis C neįtraukiamas į šį skaičiavimą: **B:D**. |
-| XCR                | Ženklo keitimas, jei įprastas eilutės balansas yra kreditas | Sukurkite biudžetą arba palyginamąją ataskaitą, kurioje bet koks nepalankus nuokrypis (pvz., pajamų trūkumas ar išlaidų viršijimas) visada yra neigiamas. Taikykite šį kodą stulpeliui **CALC** , jei norite pakeisti stulpelio sumos ženklą, jei įprastas nurodytos eilutės balansas yra kreditas (kaip nurodyta eilutės aprašo stulpelio **Įprastinis balansas** dalyje **C** ).<p><strong>Pastaba:</strong> eilutėse <strong>TOT</strong> ir </strong>CAL</strong>, kuriose paprastai nurodomas kredito balansas, eilutės aprašo stulpelyje <strong>Įprastinis balansas</strong> nepamirškite įvesti <strong>C</strong>.</p> |
+| XCR                | Ženklo keitimas, jei įprastas eilutės balansas yra kreditas | Sukurkite biudžetą arba palyginamąją ataskaitą, kurioje bet koks nepalankus nuokrypis (pvz., pajamų trūkumas ar išlaidų viršijimas) visada yra neigiamas. Taikykite šį kodą stulpeliui **CALC**, jei norite pakeisti stulpelio sumos ženklą, jei įprastas nurodytos eilutės balansas yra kreditas (kaip nurodyta eilutės aprašo stulpelio **Įprastinis balansas** dalyje **C**).<p><strong>Pastaba:</strong> eilutėse <strong>TOT</strong> ir </strong>CAL</strong>, kuriose paprastai nurodomas kredito balansas, eilutės aprašo stulpelyje <strong>Įprastinis balansas</strong> nepamirškite įvesti <strong>C</strong>.</p> |
 | X0                 | Stulpelio nerodymas, jei visur nuliai arba tuščios vietos          | Neįtraukite stulpelio **FD** į ataskaitą, jei visi to stulpelio langeliai yra tušti arba juose yra nuliai. |
 | SR                 | Apvalinimo sustabdymas                               | Neleiskite, kad sumos šiame stulpelyje būtų apvalinamos. |
 | XR                 | Sumavimo sustabdymas                                 | Sustabdykite sumavimą. Jei ataskaita naudoja ataskaitų medį, sumos šiame stulpelyje nėra sumuojamos, kad būtų gauti pirminiai mazgai. |
@@ -339,7 +338,7 @@ Langelyje **Spausdinimo valdymas** gali būti stulpelio rodinį arba spausdinimo
 > Taip pat galite įvesti spausdinimo kodus tiesiogiai langelyje **Spausdinimo valdiklis**. Atskirkite kelis spausdinimo kontrolinius kodus kableliais.
 
 ## <a name="column-types"></a>Stulpelio tipai
-Kiekvieno ataskaitos stulpelio informacijos tipas nurodytas pagal stulpelio aprašo eilutėje **Stulpelio tipas** pateiktą reikšmę. Kiekvieną stulpelio aprašą privalo sudaryti bent vienas aprašo ( **DESC** ) stulpelis ir vienas sumos ( **FD** , **WKS** ar **CALC** ) stulpelis.
+Kiekvieno ataskaitos stulpelio informacijos tipas nurodytas pagal stulpelio aprašo eilutėje **Stulpelio tipas** pateiktą reikšmę. Kiekvieną stulpelio aprašą privalo sudaryti bent vienas aprašo (**DESC**) stulpelis ir vienas sumos (**FD**, **WKS** ar **CALC**) stulpelis.
 
 > [!NOTE]
 > Stulpelio tipo kodai taikomi ne visoms apskaitos sistemoms. Jei pasirinksite jūsų apskaitos sistemai netinkantį tipą, to tipo stulpelis ataskaitoje bus tuščias.
@@ -462,7 +461,7 @@ Langelyje **Įtraukti laikotarpiai** nurodoma suma, kuri turėtų būti rodoma s
 
 ### <a name="attribute-filter-in-a-column-definition"></a>Stulpelio apibrėžimo atributo filtras
 
-Atributai yra išsamiau sąskaitas arba operacijas apibrėžiančios finansinių duomenų reikšmės. Sąskaitos atributai apima dalis **Turtas** , **Įsipareigojimai** , **Įplaukos** ir **Išlaidos**. Operacijos atributai apima dalis **Operacijos aprašas** ir **Operacijos taikymo data**. Skirtingose „Microsoft Dynamics ERP“ sistemose atributų palaikymas gali skirtis. Langelyje **Atributo filtras** stulpelių **FD** duomenys apribojami taip, kad būtų rodomos konkrečios atributų kategorijų reikšmės arba intervalai. Nors ši funkcija gali būti naudojama kartu su stulpeliu **ATTR** , stulpelis **ATTR** nėra būtinas. Stulpelyje **FD** nurodomas apribojimas, kiek sąskaitų arba operacijų bus įtraukiama į ataskaitą naudojant atributo filtrą.
+Atributai yra išsamiau sąskaitas arba operacijas apibrėžiančios finansinių duomenų reikšmės. Sąskaitos atributai apima dalis **Turtas**, **Įsipareigojimai**, **Įplaukos** ir **Išlaidos**. Operacijos atributai apima dalis **Operacijos aprašas** ir **Operacijos taikymo data**. Skirtingose „Microsoft Dynamics ERP“ sistemose atributų palaikymas gali skirtis. Langelyje **Atributo filtras** stulpelių **FD** duomenys apribojami taip, kad būtų rodomos konkrečios atributų kategorijų reikšmės arba intervalai. Nors ši funkcija gali būti naudojama kartu su stulpeliu **ATTR**, stulpelis **ATTR** nėra būtinas. Stulpelyje **FD** nurodomas apribojimas, kiek sąskaitų arba operacijų bus įtraukiama į ataskaitą naudojant atributo filtrą.
 
 > [!NOTE]
 > Norėdami sužinoti, kokius atributus palaiko jūsų ERP sistema, žr. sistemos integravimo vadovą.
@@ -471,7 +470,7 @@ Atributai yra išsamiau sąskaitas arba operacijas apibrėžiančios finansinių
 
 1. Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti stulpelio aprašą.
 2. Dukart spustelėkite **FD** stulpelio langelį **Atributų filtras**.
-3. Dialogo lange **Atributų filtras** dukart spustelėkite langelį stulpelyje **Atributas** , tada pasirinkite filtro tipą.
+3. Dialogo lange **Atributų filtras** dukart spustelėkite langelį stulpelyje **Atributas**, tada pasirinkite filtro tipą.
 4. Norėdami dar labiau apriboti rezultatus, stulpeliuose **Nuo** ir **Iki** įveskite intervalą. Langelyje **Nuo** turi būti nurodyta reikšmė.
 5. Spustelėkite **GERAI**.
 
@@ -524,22 +523,22 @@ Norėdami nustatyti įmonės apskaitos valiutą, atlikite toliau nurodytus veiks
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>Valiutos nurodymas kelių valiutų ataskaitoje
 
 1. Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti stulpelio aprašą.
-2. Dukart spustelėkite atitinkamo stulpelio **FD** langelį **Valiutos rodinys** , tada pasirinkite valiutos informacijos rodymo parinktį: **DK apskaitos valiuta** , **DK ataskaitos** , operacijų valiuta arba pasirinkite konvertuoti į kitą ataskaitų valiutą.
-3. Dukart spustelėkite atitinkamo stulpelio **FD** langelį **Valiutos filtras** , tada sąraše pasirinkite atitinkamą valiutos kodą. Ataskaitoje rodomos tik šia valiuta įvestos operacijos.
+2. Dukart spustelėkite atitinkamo stulpelio **FD** langelį **Valiutos rodinys**, tada pasirinkite valiutos informacijos rodymo parinktį: **DK apskaitos valiuta**, **DK ataskaitos**, operacijų valiuta arba pasirinkite konvertuoti į kitą ataskaitų valiutą.
+3. Dukart spustelėkite atitinkamo stulpelio **FD** langelį **Valiutos filtras**, tada sąraše pasirinkite atitinkamą valiutos kodą. Ataskaitoje rodomos tik šia valiuta įvestos operacijos.
 
 
 ### <a name="example-for-currency-display-and-currency-filter-cells"></a>Valiutos rodinio ir valiutos filtro langelių pavyzdys
 
-Savo stulpelio apibrėžime Phyllis pasirinko šias valiutos pasirinktis:
+Savo stulpelio apibrėžime vartotojas pasirinko šias valiutos pasirinktis:
 
 - **Valiutos filtras:** jena
 - **Valiutos rodinys:** DK apskaitos valiuta (JAV doleriais)
 
-Dėl Phyllis pasirinkto valiutos filtro į ataskaitą įtraukiamos tik tos operacijos, kurios įvestos Japonijos jena (JPY). Dėl jos pasirinkto valiutos rodinio ataskaitoje tos operacijos rodomos apskaitos valiuta, t.y. JAV doleriais (USD).
+Dėl pasirinkto valiutos filtro į ataskaitą įtraukiamos tik tos operacijos, kurios įvestos Japonijos jena (JPY). Dėl pasirinkto valiutos rodinio ataskaitoje tos operacijos rodomos apskaitos valiuta, t.y., JAV doleriais (USD).
 
 #### <a name="currency-filter-and-currency-display-combinations"></a>Valiutos filtras ir valiutos rodinio kombinacijos
 
-Toliau pateikiamoje lentelėje rodomi ataskaitos rezultatai, kurie, dėl Phyllis pasirinkimų, gali būti gaunami įvairioms langelių **Valiutos rodinys** ir **Valiutos filtras** parinkčių kombinacijoms. Funkcinė valiuta yra USD.
+Toliau pateikiamoje lentelėje rodomi ataskaitos rezultatai, kurie, dėl vartotojo pasirinkimų, gali būti gaunami įvairioms langelių **Valiutos rodinys** ir **Valiutos filtras** parinkčių kombinacijoms. Funkcinė valiuta yra USD.
 
 
 | Langelis Valiutos rodinys                        | Langelis Valiutos filtras | Ataskaitos rezultatas |
@@ -551,7 +550,7 @@ Toliau pateikiamoje lentelėje rodomi ataskaitos rezultatai, kurie, dėl Phyllis
 
 ### <a name="calculation-column-in-a-column-definition"></a>Skaičiavimo stulpelis yra stulpelio apibrėžimas
 
-Stulpelio apibrėžimo stulpelio tipas **CALC** palaiko langelio **Formulė** sudėtinius skaičiavimus ir gali apimti ženklus **+** , **-** , **\*** , ir **/** bei sakinius **IF / THEN / ELSE**. Skaičiavimo stulpelyje taip pat gali būti nuoroda į bet kurį kitą stulpelį, net paskesnius stulpelius. Be to, skaičiavimo stulpelyje taip pat gali būti nurodyti finansiniai metai ir laikotarpis, kad būtų palaikomos stulpelio antraštės. Skaičiavimo formulė gali būti iki 1024 raidinių-skaitinių simbolių ilgio. Norėdami pateikti skaičiavimo rezultatą procentais, naudokite specialų formato nepaisymą.
+Stulpelio apibrėžimo stulpelio tipas **CALC** palaiko langelio **Formulė** sudėtinius skaičiavimus ir gali apimti ženklus **+**, **-**, **\**ir*/** bei sakinius **IF / THEN / ELSE**. Skaičiavimo stulpelyje taip pat gali būti nuoroda į bet kurį kitą stulpelį, net paskesnius stulpelius. Be to, skaičiavimo stulpelyje taip pat gali būti nurodyti finansiniai metai ir laikotarpis, kad būtų palaikomos stulpelio antraštės. Skaičiavimo formulė gali būti iki 1024 raidinių-skaitinių simbolių ilgio. Norėdami pateikti skaičiavimo rezultatą procentais, naudokite specialų formato nepaisymą.
 
 > [!NOTE]
 > Skaičiavimo formulių rezultatai neapima verčių nespausdinamuose stulpelių diapazonuose. Pavyzdžiui, **A:D** spausdina **0** (nulis), o nespausdinamų reikšmių **A+B+C** apskaičiuoja reikšmę.

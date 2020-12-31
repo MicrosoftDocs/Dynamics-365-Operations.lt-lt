@@ -1,6 +1,6 @@
 ---
 title: Bendrieji integruoto tiekėjo duomenys
-description: Šioje temoje aprašomas tiekėjo duomenų integravimas tarp „Finance and Operations“ programų ir „Common Data Service“.
+description: Šioje temoje aprašomas tiekėjo duomenų integravimas tarp „Finance and Operations“ programų ir „Dataverse“.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 07/15/2019
@@ -18,30 +18,32 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 5c4cc92fd7809f4016d8421c98f41a85fcfedc7b
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 636bc57b5ef09d605744f4857fd5fbefceac4875
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997653"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685490"
 ---
 # <a name="integrated-vendor-master"></a>Bendrieji integruoto tiekėjo duomenys
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-Terminas *tiekėjas* reiškia tiekėjų organizaciją arba individualų savininką, kuris tiekia prekes ar teikia paslaugas verslui. Nors *tiekėjas* yra nusistovėjusi „Microsoft Dynamics 365 Supply Chain Management“ sąvoka, „Dynamics 365“ modeliuose veikiančiose programose nėra tiekėjo sąvokos. Tačiau galite perkrauti objektą **Klientas / Kontaktas** , kad galėtumėte saugoti informaciją apie tiekėją. Integruotas tiekėjas pristato aiškią tiekėjo sąvoką modeliais paremtose programose, esančiose „Dynamics 365“. Galite naudoti naują tiekėjo dizainą arba saugoti tiekėjo duomenis objekte **Klientas / Kontaktas**. Dvejopas rašymas palaiko abu būdus.
+
+Terminas *tiekėjas* reiškia tiekėjų organizaciją arba individualų savininką, kuris tiekia prekes ar teikia paslaugas verslui. Nors *tiekėjas* yra nusistovėjusi „Microsoft Dynamics 365 Supply Chain Management“ sąvoka, „Dynamics 365“ modeliuose veikiančiose programose nėra tiekėjo sąvokos. Tačiau galite perkrauti objektą **Klientas / Kontaktas**, kad galėtumėte saugoti informaciją apie tiekėją. Integruotas tiekėjas pristato aiškią tiekėjo sąvoką modeliais paremtose programose, esančiose „Dynamics 365“. Galite naudoti naują tiekėjo dizainą arba saugoti tiekėjo duomenis objekte **Klientas / Kontaktas**. Dvejopas rašymas palaiko abu būdus.
 
 Abiem būdais tiekėjo duomenys yra integruoti tarp „Dynamics 365 Supply Chain Management“, „Dynamics 365 Sales“, „Dynamics 365 Field Service“ ir „Power Apps“ portalų. „Supply Chain Management“ yra duomenų apie tokias darbo eigas, kaip pirkimo paraiškos ir pirkimo užsakymai.
 
 ## <a name="vendor-data-flow"></a>Tiekėjo duomenų srautas
 
-Jei nenorite saugoti tiekėjo duomenų objekte **Klientas / Kontaktas** , esančiame „Common Data Service“, galite naudoti naują tiekėjo dizainą.
+Jei nenorite saugoti tiekėjo duomenų objekte **Klientas / Kontaktas**, esančiame „Dataverse“, galite naudoti naują tiekėjo dizainą.
 
 ![Tiekėjo duomenų srautas](media/dual-write-vendor-data-flow.png)
 
-Jei norite ir toliau saugoti tiekėjo duomenis objekte **Klientas / Kontaktas** , galite naudoti išplėstinį tiekėjo dizainą. Norėdami naudoti išplėstinį tiekėjo dizainą, turite sukonfigūruoti tiekėjo darbo eigas dvejopo rašymo sprendimų pakete. Daugiau informacijos rasite [„Tiekėjo dizaino keitimas“](vendor-switch.md).
+Jei norite ir toliau saugoti tiekėjo duomenis objekte **Klientas / Kontaktas**, galite naudoti išplėstinį tiekėjo dizainą. Norėdami naudoti išplėstinį tiekėjo dizainą, turite sukonfigūruoti tiekėjo darbo eigas dvejopo rašymo sprendimų pakete. Daugiau informacijos rasite [„Tiekėjo dizaino keitimas“](vendor-switch.md).
 
 ![Išplėstas tiekėjo duomenų srautas](media/dual-write-vendor-detail.jpg)
 
@@ -50,12 +52,12 @@ Jei norite ir toliau saugoti tiekėjo duomenis objekte **Klientas / Kontaktas** 
 
 ## <a name="templates"></a>Šablonai
 
-Tiekėjo duomenys apima visą informaciją apie tiekėją, pvz., tiekėjų grupę, adresus, kontaktinę informaciją, mokėjimo profilį, sąskaitos faktūros profilį. Objektų schemų rinkinys veikia kartu interaktyviai naudojant tiekėjų duomenis, kaip parodyta tolesnėje lentelėje.
+Tiekėjo duomenys apima visą informaciją apie tiekėją, pvz., tiekėjų grupę, adresus, kontaktinę informaciją, mokėjimo profilį, sąskaitos faktūros profilį. Lentelių schemų rinkinys veikia kartu interaktyviai naudojant tiekėjų duomenis, kaip parodyta tolesnėje lentelėje.
 
 „Finance and Operations” programėlės | Kitos „Dynamics 365” programos     | Aprašymas
 ----------------------------|-----------------------------|------------
 V2 tiekėjas                   | Paskyra                     | Įmonės, kurios naudoja paskyros objektą, kad galėtų saugoti tiekėjo informaciją, gali ir toliau jį naudoti tokiu pačiu būdu. Jos taip pat gali naudotis aiškiomis tiekėjo funkcijomis, kurios teikiamos pasitelkus „Finance and Operations“ programų integraciją.
-V2 tiekėjas                   | Msdyn\_vendors              | Įmonės, kurios naudoja pasirinktinį sprendimą tiekėjams, gali pasinaudoti pradine tiekėjo koncepcija, kuri yra pristatyta „Common Data Service“ ir teikiama dėl „Finance and Operations“ programų integracijos. 
+V2 tiekėjas                   | Msdyn\_vendors              | Įmonės, kurios naudoja pasirinktinį sprendimą tiekėjams, gali pasinaudoti pradine tiekėjo koncepcija, kuri yra pristatyta „Dataverse“ ir teikiama dėl „Finance and Operations“ programų integracijos. 
 Tiekėjų grupės               | msdyn\_vendorgroups         | Naudojant šį šabloną sinchronizuojama tiekėjų grupių informacija.
 Tiekėjo mokėjimo būdas       | msdyn\_vendorpaymentmethods | Naudojant šį šabloną sinchronizuojama tiekėjų mokėjimo būdų informacija.
 CDS kontaktai V2             | kontaktai                    | Naudojant [kontaktų](customer-mapping.md#cds-contacts-v2-to-contacts) šabloną sinchronizuojama visa tiek klientų, tiek tiekėjų pirminė, antrinė ir tretinė kontaktinė informacija.

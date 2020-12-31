@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: AssetTable, SysRecordInfo, SysRecordTemplatePromptOnCreate
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec21415158ad611d0ad55778e76aa128f53561bd
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 68d3c7dd2f042617a7e2fcc8bee05fae6a82bde9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143389"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685222"
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>Sukurti įrašo šabloną, kad būtų paprasčiau įvesti duomenis
 
@@ -36,11 +35,11 @@ ms.locfileid: "3143389"
 5. Lauke **Ieškoti pavadinimo** įveskite reikšmę. Pavyzdžiui, įveskite **nešiojamasis kompiuteris**.  
 6. Išplėskite skyrių **Techninė informacija**.
 7. Laukuose **Gamintojas**, **Modelis** ir **Modelio metai** įveskite reikšmes.
-8. Veiksmų srityje pasirinkite**Parinktys**.
+8. Veiksmų srityje pasirinkite **Parinktys**.
 9. Pažymėkite **Įrašo informacija**.
 10. Pažymėkite **Vartotojo šablonas**.
 11. Lauke **Pavadinimas** įveskite reikšmę.
-12. Lauke **Aprašo laukas**surinkite reikšmę.
+12. Lauke **Aprašo laukas** surinkite reikšmę.
 13. Pasirinkite **Gerai**.
 14. Pasirinkite **Uždaryti**.
 
