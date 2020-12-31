@@ -1,0 +1,51 @@
+---
+title: Išskaitomo mokesčio nustatymas
+description: Šioje temoje paaiškinama, kaip nustatyti dovanų korteles naudojant.
+author: twheeloc
+manager: AnnBe
+ms.date: 07/11/2019
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: TaxWithholdTable, TaxWithholdData, TaxWithholdGroup
+audience: Application User
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: roschlom
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: bfa1b9e43a5745eb5b5c442998597319f196f23f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445902"
+---
+# <a name="set-up-withholding-tax"></a><span data-ttu-id="44436-103">Išskaitomo mokesčio nustatymas</span><span class="sxs-lookup"><span data-stu-id="44436-103">Set up withholding tax</span></span>
+
+[!include [banner](../../includes/banner.md)]
+
+<span data-ttu-id="44436-104">Šioje temoje paaiškinama, kaip nustatyti dovanų korteles naudojant.</span><span class="sxs-lookup"><span data-stu-id="44436-104">This topic explains how to set up withholding tax.</span></span> <span data-ttu-id="44436-105">*Išskaitomas mokestis* yra tiekėjams taikomas mokestis, kurį taikant nesukuriama PVM operacijų.</span><span class="sxs-lookup"><span data-stu-id="44436-105">*Withholding tax* is a tax on vendors that does not create sales tax transactions.</span></span> <span data-ttu-id="44436-106">Tiekėjas įsipareigoja sumokėti jo mokėjimams priskiriamą išskaitomą mokestį.</span><span class="sxs-lookup"><span data-stu-id="44436-106">Withholding tax that is calculated on vendor payments is a liability.</span></span> <span data-ttu-id="44436-107">Todėl išskaitomą mokestį galima registruoti tik balanso arba įsipareigojimų sąskaitose.</span><span class="sxs-lookup"><span data-stu-id="44436-107">Therefore, only balance sheet accounts or liability accounts are valid accounts for posting withholding tax.</span></span> <span data-ttu-id="44436-108">Šis užduočių vadovas parodo, kaip nustatyti išskaitomą mokestį.</span><span class="sxs-lookup"><span data-stu-id="44436-108">This task guide demonstrates how to set up withholding tax.</span></span>
+
+1. <span data-ttu-id="44436-109">Pasirinkite **Mokestis > Netiesioginiai mokesčiai > Išskaitomas mokestis > Išskaitomo mokesčio kodai**.</span><span class="sxs-lookup"><span data-stu-id="44436-109">Go to **Navigation pane > Modules > Tax > Indirect taxes > Withholding tax > Withholding tax codes**.</span></span>
+2. <span data-ttu-id="44436-110">Pasirinkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="44436-110">Select **New**.</span></span>
+3. <span data-ttu-id="44436-111">Lauke **Išskaitomo mokesčio kodas** įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="44436-111">In the **Withholding tax code** field, type a value.</span></span>
+4. <span data-ttu-id="44436-112">Lauke **Išskaitomo mokesčio pavadinimas** įveskite išskaitomo mokesčio kodo pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="44436-112">In the **Withholding tax name** field, enter the name of the withholding tax code.</span></span>
+5. <span data-ttu-id="44436-113">Lauke **Pagrindinė sąskaita** pasirinkite pagrindinę sąskaitą, kurioje registruoti išskaitomo mokesčio įsipareigojimus.</span><span class="sxs-lookup"><span data-stu-id="44436-113">In the **Main account** field, select the main account for posting the withholding tax liability.</span></span>
+6. <span data-ttu-id="44436-114">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="44436-114">Select **Save**.</span></span>
+7. <span data-ttu-id="44436-115">Produktų **Reikšmės** sąraše raskite ir pasirinkite norimą įrašą</span><span class="sxs-lookup"><span data-stu-id="44436-115">Select **Values** and mark the desired record in the list.</span></span>
+8. <span data-ttu-id="44436-116">Lauke **Reikšmė** įveskite procentinę dalį, naudojamą skaičiuoti išskaitomam mokesčiui.</span><span class="sxs-lookup"><span data-stu-id="44436-116">In the **Value** field, enter a percentage used for the calculation of the withholding tax.</span></span>
+9. <span data-ttu-id="44436-117">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="44436-117">Select **Save**.</span></span>
+10. <span data-ttu-id="44436-118">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="44436-118">Close the page.</span></span>
+11. <span data-ttu-id="44436-119">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="44436-119">Select **Save**.</span></span>
+12. <span data-ttu-id="44436-120">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="44436-120">Close the page.</span></span>
+13. <span data-ttu-id="44436-121">Pasirinkite **Mokestis > Netiesioginiai mokesčiai > Išskaitomas mokestis > Išskaitomo mokesčio grupės.**</span><span class="sxs-lookup"><span data-stu-id="44436-121">Go to **Navigation pane > Modules > Tax > Indirect taxes > Withholding tax > Withholding tax groups**.</span></span>
+14. <span data-ttu-id="44436-122">Pasirinkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="44436-122">Select **New**.</span></span>
+15. <span data-ttu-id="44436-123">Lauke **Išskaitomo mokesčio grupė** įveskite išskaitomo mokesčio grupės identifikatorių.</span><span class="sxs-lookup"><span data-stu-id="44436-123">In the **Withholding tax group** field, enter the identifier of the withholding tax group.</span></span>
+16. <span data-ttu-id="44436-124">Lauke **Aprašas** įveskite išskaitomo mokesčio grupės pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="44436-124">In the **Description** field, enter the name of the withholding tax group.</span></span>
+17. <span data-ttu-id="44436-125">Lauke **Išskaitomo mokesčio kodas** pasirinkite išskaitomo mokesčio kodą.</span><span class="sxs-lookup"><span data-stu-id="44436-125">In the **Withholding tax code** field, select the withholding tax code.</span></span>
+18. <span data-ttu-id="44436-126">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="44436-126">Select **Save**.</span></span>
+19. <span data-ttu-id="44436-127">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="44436-127">Close the page.</span></span>
+
