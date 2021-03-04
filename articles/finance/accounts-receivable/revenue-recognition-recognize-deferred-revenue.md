@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: ace1d00ec25a57b26b1858369c32d9134a380977
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e70f2e6b3694002a11a831ac14039ccbee273a51
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459564"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115925"
 ---
 # <a name="recognize-deferred-revenue"></a>Pripažinti atidėtas įplaukas
 
@@ -39,7 +38,7 @@ Yra du būdai pasiekti įplaukų pripažinimo grafiko informaciją.
 - Galite atidaryti įplaukų pripažinimo grafiką tiesiai pardavimo užsakyme, kurio SF jau išrašyta. Tokiu atveju įplaukų grafiko informacija yra filtruojama rodyti tik pasirinkto pardavimo užsakymo informaciją. Šis būdas naudingas, kai tikrinate pardavimo užsakymo grafiko informaciją.
 - Galite atidaryti įplaukų pripažinimo grafiką puslapyje **Įplaukų pripažinimas \> Periodinės užduotys**. Šis būdas dažnai naudojamas, kai įplaukos pripažįstamos laikotarpio pabaigoje. Pirmą kartą atidarius puslapį, informacija nerodoma. Norėdami apibrėžti rodytinos grafiko informacijos kriterijus, naudokite filtrus virš tinklelio. Galite filtruoti SF datas įvesdami datų intervalą, pardavimo užsakymą, klientą, projekto ID arba būseną.
 
-[![Įplaukų grafikų puslapis](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
+[![Puslapio Įplaukų grafikai iliustracija](./media/revenue-recognition-schedule-page.png)](./media/revenue-recognition-schedule-page.png)
 
 **Finansinė dimensija** „FastTab“ po tinkleliu rodo pardavimo užsakymo eilutės finansines dimensijas. Į šias dimensijas atsižvelgta registruojant atidėtas įplaukas. Į jas taip pat atsižvelgiama pripažįstant įplaukas. Naudojamos dimensijų reikšmės priklauso nuo sąskaitos struktūros, priskirtos įplaukų ir atidėtų įplaukų pagrindinėms sąskaitoms.
 

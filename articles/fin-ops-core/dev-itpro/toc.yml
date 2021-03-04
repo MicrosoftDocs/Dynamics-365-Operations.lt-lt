@@ -14,12 +14,12 @@
               items:
                 - name: Kas nauja ar pasikeitė „Platform“ naujinimuose pagrindinis puslapis
                   href: get-started/whats-new-home-page.md
+                - name: '„Platform“ naujinimai, skirti 10.0.17 (2021 m. balandžio mėn.)'
+                  href: get-started/whats-new-platform-updates-10-0-17.md
                 - name: "„Platform“ naujinimai, skirti 10.0.16 (2021\_m. vasario mėn.)"
                   href: get-started/whats-new-platform-updates-10-0-16.md
                 - name: "„Platform“ naujinimai, skirti 10.0.15 (2021\_m. sausio mėn.)"
                   href: get-started/whats-new-platform-updates-10-0-15.md
-                - name: "„Platform” naujinimai, skirti 10.0.14 (2020\_m. lapkričio mėn.)"
-                  href: get-started/whats-new-platform-updates-10-0-14.md
             - name: Pašalintos arba nebenaudojamos funkcijos
               items:
                 - name: Pašalintos arba nebenaudojamos platformos funkcijos
@@ -122,9 +122,9 @@
                       href: data-entities/tasks/create-record-template-facilitate-data-entry.md
                     - name: Įrašų kūrimas naudojant įrašų šablonus
                       href: data-entities/tasks/use-record-template-new-record.md
-                - name: Duomenų integravimas naudojant „Common Data Service“
+                - name: Duomenų integravimas naudojant „Dataverse“
                   items:
-                    - name: Duomenų integravimo naudojant „Common Data Service“ apžvalga
+                    - name: Duomenų integravimo naudojant „Dataverse“ apžvalga
                       href: data-entities/data-integration-cds.md
                     - name: Dvigubo rašymo integravimas
                       items:
@@ -192,11 +192,11 @@
                                   href: data-entities/dual-write/sites-warehouses-mapping.md
                             - name: Įmonės integravimas
                               items:
-                                - name: Įmonės koncepcija „Common Data Services“
+                                - name: Įmonės koncepcija „Dataverse“
                                   href: data-entities/dual-write/company-data.md
-                                - name: Perkrovimas naudojant įmonės duomenis
+                                - name: Įmonės duomenų inicijavimas
                                   href: data-entities/dual-write/bootstrap-company-data.md
-                            - name: Organizacijos hierarchija „Common Data Service“
+                            - name: Organizacijos hierarchija „Dataverse“
                               href: data-entities/dual-write/organization-mapping.md
                             - name: Finansų ir mokesčių duomenys
                               items:
@@ -206,10 +206,12 @@
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: Bendrieji integruotų mokesčių duomenys
                                   href: data-entities/dual-write/tax-mapping.md
+                            - name: Įsigijimo integravimas „Supply Chain Management“ su „Field Service“
+                              href: data-entities/dual-write/scm-field-service-procurement.md
+                            - name: Sinchronizavimas pareikalavus su „Supply Chain Management “ kainodaros mechanizmu
+                              href: data-entities/dual-write/pricing-engine.md
                             - name: Dvigubas rašymas sprendime Potencialūs klientai ir grynieji pinigai
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
-                            - name: Sinchronizavimas su „Dynamics 365 Supply Chain Management“ kainodaros mechanizmu pareikalavus
-                              href: data-entities/dual-write/pricing-engine.md
                             - name: „Dynamics 365 Commerce“ kainodaros mechanizmo naudojimas su „Dynamics 365 Sales“
                               href: data-entities/dual-write/commerce-pricing.md
                             - name: Vidaus paslaugų turtas
@@ -222,21 +224,23 @@
                           items:
                             - name: „Field Service“ ir „Project Service Automation“ sprendimų palaikymas
                               href: data-entities/dual-write/field-service-project-service-automation.md
+                            - name: Potencialaus kliento perkėlimas į grynuosius pinigus iš duomenų integravimo priemonės į dvigubą rašymą
+                              href: data-entities/dual-write/migrate-prospect-to-cash.md
                             - name: Trikčių šalinimas
                               items:
-                                - name: 'Patikrinti, ar dvigubas rašymas sukonfigūruotas „Finance and Operations“ programose ir „Common Data Service“'
+                                - name: Dvigubo rašymo konfigūracijos patikrinimas „Finance and Operations“ programose ir „Dataverse“
                                   href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                                 - name: Problemų šalinimas pradinio nustatymo metu
                                   href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
                                 - name: Problemų šalinimas pradinės sinchronizacijos metu
                                   href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                                - name: Dvigubo rašymo modulio „Finance and Operations“ programose problemų šalinimas
+                                - name: Dvigubo rašymo problemų „Finance and Operations“ programose šalinimas
                                   href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                                 - name: Tiesioginės sinchronizacijos problemų šalinimas
                                   href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
                                 - name: 'Problemų, susijusių su sprendimo supratimu, šalinimas'
                                   href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                                - name: 'Problemų, susijusių su „Finance and Operations“ programų plėtotėmis, sprendimas'
+                                - name: 'Problemų, susijusių su „Finance and Operations“ programų naujinimais, sprendimas'
                                   href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
                                 - name: Bendras problemų sprendimas
                                   href: data-entities/dual-write/dual-write-troubleshooting.md
@@ -338,8 +342,12 @@
               items:
                 - name: Duomenų importavimo ir eksportavimo užduočių apžvalga
                   href: data-entities/data-import-export-job.md
-                - name: Geriausia kvitų importavimo praktika naudojant bendrojo žurnalo objektą
+                - name: Užduočių datos ir laiko sinchronizavimas importavimo užduotyse
+                  href: data-entities/data-synchronize-date-and-time.md
+                - name: Kvitų importavimas naudojant bendrojo žurnalo objektą
                   href: data-entities/tips-tricks-import-general-journal-entity.md
+                - name: „Finance and Operations“ programų duomenų perkėlimo optimizavimas
+                  href: sysadmin/optimize-data-migration.md
             - name: Duomenų objektų kūrimas
               items:
                 - name: Duomenų objektų dizaino principai ir geriausia praktika
@@ -442,6 +450,8 @@
                       href: database/api/v1/reference-create-export.md
                     - name: Operacijos veiklos būsenos gavimas
                       href: database/api/v1/reference-get-status.md
+                    - name: Aplinkų pradėjimas ir stabdymas
+                      href: database/api/v1/reference-start-stop-environments.md
         - name: Demonstraciniai duomenys
           items:
             - name: Demonstracinių duomenų apžvalga
@@ -808,60 +818,6 @@
                       href: dev-ref/xpp-string-run-time-functions.md
                 - name: Sistemos lentelės
                   href: dev-ref/system-tables.md
-                - name: Sistemos klasės
-                  items:
-                    - name: Sistemos klasių sąrašas
-                      href: dev-ref/system-classes/toc.yml
-                    - name: Abėcėlės tvarka sugrupuotos sistemos klasės
-                      items:
-                        - name: A klasės
-                          href: dev-ref/a-classes.md
-                        - name: B klasės
-                          href: dev-ref/b-classes.md
-                        - name: C klasės
-                          href: dev-ref/c-classes.md
-                        - name: D klasės
-                          href: dev-ref/d-classes.md
-                        - name: E klasės
-                          href: dev-ref/e-classes.md
-                        - name: F klasės
-                          href: dev-ref/f-classes.md
-                        - name: G klasės
-                          href: dev-ref/g-classes.md
-                        - name: H klasės
-                          href: dev-ref/h-classes.md
-                        - name: I klasės
-                          href: dev-ref/i-classes.md
-                        - name: J klasės
-                          href: dev-ref/j-classes.md
-                        - name: K klasės
-                          href: dev-ref/k-classes.md
-                        - name: L klasės
-                          href: dev-ref/l-classes.md
-                        - name: M klasės
-                          href: dev-ref/m-classes.md
-                        - name: N klasės
-                          href: dev-ref/n-classes.md
-                        - name: O klasės
-                          href: dev-ref/o-classes.md
-                        - name: P klasės
-                          href: dev-ref/p-classes.md
-                        - name: Q klasės
-                          href: dev-ref/q-classes.md
-                        - name: R klasės
-                          href: dev-ref/r-classes.md
-                        - name: S klasės
-                          href: dev-ref/s-classes.md
-                        - name: T klasės
-                          href: dev-ref/t-classes.md
-                        - name: U klasės
-                          href: dev-ref/u-classes.md
-                        - name: V klasės
-                          href: dev-ref/v-classes.md
-                        - name: W klasės
-                          href: dev-ref/w-classes.md
-                        - name: X klasės
-                          href: dev-ref/x-classes.md
             - name: Išplečiamumas
               items:
                 - name: Išplečiamumo pagrindinis puslapis
@@ -1004,11 +960,11 @@
                   href: perf-test/trace-trace-tutorial.md
                 - name: Vieno vartotojo aplinkos bandymas naudojant užduočių įrašymo priemonę ir „Performance SDK“
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: Kelių vartotojų aplinkos bandymas naudojant „Performance SDK“ ir vietinį bandymo valdiklį
+                - name: Kelių vartotojų bandymas naudojant „Performance SDK“ ir vietinį bandymo valdiklį
                   href: perf-test/multi-user-testing-local-test-controller.md
                 - name: Kelių vartotojų aplinkos bandymas naudojant „Performance SDK“ ir „Azure DevOps“
                   href: perf-test/multi-user-testing-perfsdk-azuredevops.md
-                - name: Vieno vartotojo arba kelių vartotojų aplinkos bandymo naudojant „Performance SDK“ trikčių diagnostikos vadovas
+                - name: „Performance SDK“ tikrinimo trikčių diagnostikos vadovas
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
                 - name: „Performance SDK“ ir kelių vartotojų aplinkos bandymas vietinėse aplinkose
                   href: perf-test/perfsdk-tutorial-lbd.md
@@ -1022,7 +978,7 @@
                   href: perf-test/testing-validation.md
                 - name: „Visual Studio“ bandymų projektai
                   href: perf-test/testing-support.md
-                - name: 'Visuotinis aplinkų, palaikančių nuolatinio komponavimo versijų ir bandymo automatizavimo funkciją, diegimas'
+                - name: Nuolatinio komponavimo versijų ir bandymo automatizavimo aplinkos diegimas ir naudojimas
                   href: perf-test/continuous-build-test-automation.md
                 - name: „SysTest“ filtravimas naudojant klasės ir metodo atributus
                   href: perf-test/systest-filtering.md
@@ -1172,11 +1128,13 @@
           items:
             - name: „Microsoft Power Platform“ integravimas su „Finance and Operations“
               href: power-platform/overview.md
+            - name: Priedų peržiūra
+              href: power-platform/add-ins-overview.md
             - name: Objekto modeliavimas
               href: power-platform/entity-modeling.md
             - name: Programos ciklo valdymas
               href: power-platform/application-lifecycle-management.md
-            - name: „Finance and Operations“ ir „Common Data Service“ administravimo nuoroda
+            - name: „Finance and Operations“ ir „Dataverse“ administravimo nuoroda
               href: power-platform/admin-reference.md
             - name: „Power Apps“ portalai su „Finance and Operations“
               href: power-platform/power-portal-reference.md
@@ -1420,8 +1378,8 @@
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Išvestiniai bandymo atvejai
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: „Regression Suite Automation Tool“ mokymo programa ir kitos funkcijos
-              href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
+            - name: „Regression Suite Automation Tool“ mokymo programa
+              href: perf-test/rsat/rsat-tutorial.md
             - name: Geriausia praktika
               href: perf-test/rsat/rsat-best-practices.md
             - name: Agnostinis duomenų testavimas naudojant „Regression Suite Automation Tool“
@@ -1467,7 +1425,7 @@
             - name: „Finance and Operations“ ir „Lifecycle Services“ palaikymo gavimas
               href: lifecycle-services/lcs-support.md
             - name: „Dynamics 365“ palaikymo apžvalga
-              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
+              href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
             - name: '„Finance and Operations“, valdomos „21Vianet“ Kinijoje, pagalbos gavimas'
               href: lifecycle-services/21vianet-support.md
             - name: „Finance and Operations“ programų techninio palaikymo nustatymas
@@ -1506,6 +1464,8 @@
                   href: sysadmin/tasks/create-new-users.md
                 - name: Vartotojo seanso valdymas
                   href: sysadmin/user-session-management.md
+                - name: Prieigos blokavimas pagal vietą su „Azure AD“ sąlygine prieiga
+                  href: /power-platform/admin/restrict-access-online-trusted-ip-rules?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
                 - name: Masinis vartotojų importavimas
                   href: sysadmin/tasks/import-bulk-users.md
                 - name: Pareigų atskyrimo nustatymas
@@ -1524,6 +1484,8 @@
                   href: sysadmin/create-simple-security-policy.md
             - name: Toliau laikykitės vartotojų licencijavimo reikalavimų
               href: sysadmin/stay-compliant-user-license-requirement.md
+            - name: Nepriklausomos programinės įrangos tiekėjo licencijos būsenos peržiūra
+              href: sysadmin/view-isv-license-status.md
             - name: Proceso automatizavimas
               href: sysadmin/process-automation.md
             - name: Paketinis apdorojimas
@@ -1542,8 +1504,6 @@
                   href: sysadmin/batch-active-period-dst.md
                 - name: Paketų vadovo saugos vaidmuo
                   href: sysadmin/runby.md
-                - name: Paketinė užduotis SQL indekso defragmentavimui apdoroti
-                  href: sysadmin/batch-job-SQL-defragmentation.md
                 - name: Paketinių įspėjimų konfigūravimas
                   href: sysadmin/alerts.md
                 - name: Patobulintos paketų formos
