@@ -46,3 +46,6 @@ ms.locfileid: "4446006"
     * Jei priedas pailgina turto dėvėjimo laiką, nustatykite **Padidina dėvėjimo laiką** parinktį **Taip**.  
     * Šis laukas skirtas tik informacijai. Norėdami pailginti dėvėjimo laiką, modifikuokite dėvėjimo laiką, nurodytą turto vertinimo modeliuose ir (arba) nusidėvėjimo knygose.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

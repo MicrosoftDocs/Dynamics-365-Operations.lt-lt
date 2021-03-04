@@ -66,3 +66,6 @@ Atlikę turto būklės vertinimo registraciją, galite atsispausdinti būklės v
 
 >[!NOTE]
 >Taip pat galite užregistruoti darbo užsakymo būklės vertinimą (mygtukas **Turto valdymas** > **Bendra** > **Darbo užsakymai** > **Visi darbo užsakymai** > **Būklės vertinimas**).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

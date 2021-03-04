@@ -51,3 +51,6 @@ April užregistruoja mokėjimų žurnalą. Sąskaita faktūra yra visiškai sude
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

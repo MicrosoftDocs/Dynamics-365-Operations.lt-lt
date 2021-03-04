@@ -128,3 +128,6 @@ Sugeneruoti didžiosios knygos įrašai sukuriami siekiant įrašyti kiekvienos 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

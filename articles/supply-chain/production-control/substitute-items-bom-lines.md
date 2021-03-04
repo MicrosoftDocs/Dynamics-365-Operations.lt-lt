@@ -49,3 +49,6 @@ Apsvarstykite šį scenarijų: atliekant suvirinimo operaciją reikalinga metali
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

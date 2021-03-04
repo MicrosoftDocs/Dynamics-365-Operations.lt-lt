@@ -92,3 +92,6 @@ Baigę registraciją pasirinkite **Atlikta** – žurnalas užregistruojamas, o 
 -   Medžiagos galima sunaudoti daugiau nei numatyta. Pavyzdžiui, jei numatoma sunaudoti 100 svarų medžiagos, jos galima sunaudoti daugiau, pavyzdžiui, 105 svarus.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

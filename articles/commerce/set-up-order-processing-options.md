@@ -84,3 +84,6 @@ Baigę konfigūruoti skambučių centro kanalą ir nurodę kanalo vartotojus, si
 > [!NOTE]
 > Norint naudoti skambučių centro funkcijas, turi būti įgalintas konfigūracijos raktas **Kelios siuntimo vietos**. Šį konfigūracijos raktą galima rasti prie **prekybos konfigūracijos** raktų (**Sistemos administravimas** \> **Sąranka** \> **Licencijos konfigūracija**). Tai būtina dėl skambučių centro funkcijų, kurios atlieka įvairius tikrinimus pagal pristatymo adresą, sukonfigūruotą pardavimo užsakymo eilutės lygiu. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

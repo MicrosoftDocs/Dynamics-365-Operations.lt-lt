@@ -101,3 +101,6 @@ Toliau esančiame paveikslėlyje pavaizduoti įvairūs projektai, sukurti moduly
 
 ![6 pav.](media/06-integration-to-pma.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

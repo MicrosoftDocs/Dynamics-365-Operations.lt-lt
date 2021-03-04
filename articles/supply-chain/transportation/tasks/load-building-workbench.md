@@ -67,3 +67,6 @@ Dabar galite priskirti krovinio kūrimo strategiją tam, kad sukurtumėte krovin
 1. Peržiūrėkite siūlomus krovinius ir krovinių eilutes.
 1. Veiksmų juostoje rinkitės **Kurti krovinius** tam, kad sukurtumėte krovinius pagrįstus šaltinio dokumentų linijoje **Siūlomų krovinių linijų** „FastTab“.
 1. Uždarykite **Krovinio kūrimo darbo srities** puslapį.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

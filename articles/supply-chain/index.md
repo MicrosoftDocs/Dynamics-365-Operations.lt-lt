@@ -106,3 +106,6 @@ Daug temų apie gamybos ir tiekimo grandinės valdymą galima rasti [„Dynamics
 ## <a name="elearning-courses"></a>El. mokymosi kursai
 
 Internetinių kursų ir mokymų ieškokite [Dynamics 365 Supply Chain Management, esančiame Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

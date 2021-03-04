@@ -88,3 +88,6 @@ Naudojant 175 % mažėjančios vertės nusidėvėjimo metodą, 175 procentai pa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

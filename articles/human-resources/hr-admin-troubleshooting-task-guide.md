@@ -63,3 +63,6 @@ Norėdami pakartotinai paleisti LCS užduoties vedlį, atlikite toliau nurodytus
 2. Pasirinkite **Atidaryti iš LCS**.
 3. Pasirinkite biblioteką ir BPM mazgą, kuriame yra įrašytas užduoties vedlys.
 4. Atidarykite užduoties vedlį.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

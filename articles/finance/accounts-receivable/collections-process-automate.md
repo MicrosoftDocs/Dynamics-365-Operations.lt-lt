@@ -118,3 +118,6 @@ Toliau pateiktose lentelėse pateikiamas puslapių ir laukų, iš kurių galima 
 |     Gautinų sumų parametrai > Mokėjimų priežiūros proceso automatizavimas     |     Registruoti priminimo laiškus automatiškai           |     Priminimo laiškų veiksmų tipai užregistruos laišką automatizavimo metu.                                      |
 |     Gautinų sumų parametrai > Mokėjimų priežiūros proceso automatizavimas     |     Automatizavimo veiklų kūrimas                |     Kurkite ir uždarykite ne veiklų veiksmo tipų veiklas, kad būtų galima peržiūrėti visus automatizuotus veiksmus, atliktus sąskaitoje.        |
 |     Gautinų sumų parametrai > Mokėjimų priežiūros proceso automatizavimas     |     Dienų, kiek truks mokėjimų priežiūros proceso automatizavimas, skaičius     |     Apibrėžia dienų, kiek saugoma mokėjimų priežiūros retrospektyva, skaičių.                                                       |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

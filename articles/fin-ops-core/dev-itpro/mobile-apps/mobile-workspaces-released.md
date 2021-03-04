@@ -41,3 +41,6 @@ ms.locfileid: "4688024"
 | [Pardavimo užsakymai](../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | Peržiūrėkite naujausią pardavimo užsakymų informaciją.                                                                                                                          |  Sausio 2017                  |
 | [Tiekėjų bendradarbiavimas](../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md) | Užsakovai gali peržiūrėti naujausią jų patvirtinimui atsiųstų pardavimo užsakymų informaciją. Jie taip pat gali peržiūrėti informaciją apie naujus ir atnaujintus pirkimo užsakymus ir kontaktus. |Sausio 2017    |
 | [Turto valdymas](../../../supply-chain/asset-management/asset-management-mobile-workspace.md) | Ši darbo sritis leidžia vartotojams peržiūrėti ir kurti priežiūros užklausas bei darbo užsakymus. Be to, vartotojai gali peržiūrėti priskirtas darbo užsakymo užduotis kalendoriuje arba sąrašo rodinyje. Taip pat galima peržiūrėti ir ieškoti turto ir funkcinių vietų. |Spalio 2019 d.    |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

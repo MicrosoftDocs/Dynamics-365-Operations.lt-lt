@@ -54,3 +54,6 @@ Norėdami nustatyti jūsų sėkmės metriką, atlikite toliau pateiktus veiksmus
 
 ## <a name="next-step"></a>Kitas veiksmas
 [Eksperimento prijungimas ir redagavimas](experimentation-connect-edit.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

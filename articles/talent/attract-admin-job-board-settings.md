@@ -51,3 +51,6 @@ Juk norite, kad apie jūsų siūlomas laisvas pareigas sužinotų kiek įmanoma 
 
 > [!NOTE]
 > „Microsoft“ ir „Attract“ šių verčių nekuria ir jų netvarko. Jūs esate atsakingi už jų atnaujinimą „Attract“ ir už tai, kad naudojantis „Broadbean“ būtų išspręstos visos su jūsų kredencialais susijusios problemos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

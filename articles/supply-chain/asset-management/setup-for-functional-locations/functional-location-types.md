@@ -67,3 +67,6 @@ Sukuriamas numatytasis funkcinės vietos tipas, kuris bus naudojamas tik kuriama
 
 >[!NOTE] 
 >„FastTab“ **Bendra** galima peržiūrėti funkcinės vietos tipui nustatytų turto tipų, priežiūros planų, turto atributų reikalavimų, leistinų tipų, atributų ir funkcinių vietų apžvalgą. Lauke **Funkcinės vietos** rodomos kelios funkcinės vietos, kurios naudoja funkcinės vietos tipą. Naudojant mygtuką **Kopijuoti** galima nukopijuoti parametrus iš funkcinės vietos tipo į pasirinktą funkcinės vietos tipą.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Suplanuokite šias paketines užduotis nedarbo valandomis. Taip pat rekomenduoja
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Efektyvumo optimizavimas naudojant automatinio valymo užduotis](hr-admin-troubleshooting-batch-history.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -410,3 +410,6 @@ Kai „Supply Chain Management“ generuoja gamybos cecho užduotis, iš šių �
 - Jei nurodysite kelis maršruto operacijų ryšius, apimančius ryšį *Visi*, ir jiems priskirsite vadovus, užduotyje bus rodomi tik labiausiai specifinio ryšio vadovai.  
 
 ![Atitinkamų vadovų sprendimo diagrama](media/instruction-guides-Resolve.png "Atitinkamų vadovų sprendimo diagrama")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

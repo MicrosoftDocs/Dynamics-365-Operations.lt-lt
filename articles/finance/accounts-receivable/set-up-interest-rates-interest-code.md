@@ -131,3 +131,6 @@ Norėdami peržiūrėti skirtingas versijas, galite naudoti meniu pasirinktį **
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

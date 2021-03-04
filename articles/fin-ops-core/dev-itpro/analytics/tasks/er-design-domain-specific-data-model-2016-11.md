@@ -187,3 +187,6 @@ Kuriate naują pasirinktos konfigūracijos duomenų modelį. Šios konfigūracij
 65. Spustelėkite Įrašyti.
 66. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

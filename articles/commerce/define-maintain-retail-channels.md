@@ -89,3 +89,6 @@ Atlikę būtinas užduotis, atlikite toliau pateikiamas užduotis, norėdami nus
 > [!NOTE]
 > Norint naudoti „Commerce“ pardavimo funkcijas, turi būti įgalintas konfigūracijos raktas **Kelios siuntimo vietos**. Šį konfigūracijos raktą galima rasti prie **prekybos konfigūracijos** raktų (**Sistemos administravimas** \> **Sąranka** \> **Licencijos konfigūracija**). Tai būtina dėl įvairių tikrinimų pagal pristatymo adresą, sukonfigūruotų pardavimo užsakymo eilutės lygiu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

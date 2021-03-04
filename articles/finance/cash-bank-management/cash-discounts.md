@@ -66,3 +66,6 @@ Jūsų juridinio subjekto apskaitos valiuta yra EUR, o toliau pateikti valiutų 
 > [!NOTE]
 > Jei Gautinų sumų parametrų ar Mokėtinų sumų parametrų puslapiuose pasirinkta parinktis Skaičiuoti dalinių mokėjimų mokėjimo nuolaidas, naudojamas kiekvieno dalinio mokėjimo dieną galiojantis valiutos kursas. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

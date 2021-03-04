@@ -46,3 +46,6 @@ ms.locfileid: "4433288"
 4. Spustelėkite GERAI.
     * Dabartinės užduoties būsena iš „Suplanuotos‟ bus pakeista į „Nesuplanuotą‟ ir ji bus pašalinta iš proceso srities.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Publikavus atnaujintą antraštės fragmentą, visuose svetainės puslapiuose, k
 
 [Įtraukite scenarijaus kodą į svetainės puslapius, kad būtų palaikoma telemetrija](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

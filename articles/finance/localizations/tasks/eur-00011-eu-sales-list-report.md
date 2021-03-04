@@ -101,3 +101,6 @@ ms.locfileid: "4408211"
 7. Spustelėkite GERAI.
 8. Lauke Pasirinkimas pasirinkite 'Uždaryta'.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

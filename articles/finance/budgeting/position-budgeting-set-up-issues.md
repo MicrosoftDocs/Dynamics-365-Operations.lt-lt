@@ -64,3 +64,6 @@ Datos prognozuojamų pareigų išlaidų elemento eilutėje turi tilpti į tolesn
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

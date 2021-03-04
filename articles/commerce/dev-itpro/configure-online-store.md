@@ -62,3 +62,6 @@ Toliau pateiktoje lentelėje išvardytos temos padės konfigūruoti prekybos kom
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

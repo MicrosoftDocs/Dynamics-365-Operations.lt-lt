@@ -39,3 +39,6 @@ Kompensacijų ir išmokų vadovas gali darbuotojus priskirti pastoviosios atlygi
     * Jei Pastoviosios atlyginimo dalies planas yra veiksmų planas, pasirinkite veiksmą, kuriame yra tinkamas darbuotojo užmokesčio tarifas. Jei pastoviosios atlyginimo dalies planas yra kategorijų ar intervalų planas, darbuotojo užmokesčio tarifą įveskite. Užmokesčio tarifas bus patikrintas pagal plano leistino nuokrypio nuostatas ir minimalius bei maksimalius darbo kompensacijos lygio atskaitos taškus.  
 8. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

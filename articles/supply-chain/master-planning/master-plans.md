@@ -57,3 +57,6 @@ Taip pat galite nustatyti, kad pradinis dinaminis planas būtų atnaujintas nauj
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

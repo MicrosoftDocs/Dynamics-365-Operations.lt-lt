@@ -63,3 +63,6 @@ ms.locfileid: "4414387"
 29. Spustelėkite Publikuoti.
 30. Spustelėkite Uždaryti.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

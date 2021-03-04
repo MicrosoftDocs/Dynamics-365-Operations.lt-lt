@@ -90,3 +90,6 @@ Naudojant 200 % mažėjančios vertės metodą, 200 procentų padalijami iš dė
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

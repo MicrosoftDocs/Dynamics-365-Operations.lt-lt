@@ -274,3 +274,6 @@ Jei įrenginys buvo pamestas arba pažeista jo sauga, turite pašalinti įrengin
 1. Įsitikinkite, kad programos kliento ID sutampa su kliento ID, kurį pasižymėjote atlikdami 2 veiksmą.
 1. Įrankių juostoje pasirinkite **Naikinti**.
 1. Pasirodžiusiame patvirtinimo pranešime pasirinkite **Taip**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

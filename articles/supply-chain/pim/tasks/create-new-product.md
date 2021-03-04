@@ -43,3 +43,6 @@ ms.locfileid: "4433594"
 3. Lauke **Sekimo dimensijų grupė** įveskite arba pasirinkite reikšmę. Sekimo dimensijų grupe nustatoma, kurias kiekvienos produkto operacijos sekimo dimensijas turite įvesti ir kaip jis bus tvarkomas atsargose.  
 4. Pasirinkite **Gerai**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Gauta datos / laiko reikšmė.
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Datos ir laiko funkcijos](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Daugiau informacijos ir funkcijos naudojimo pavyzdžių žr. [Sekos elementų ER
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Duomenų rinkinio funkcijos](er-functions-category-data-collection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

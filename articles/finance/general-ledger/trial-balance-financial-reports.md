@@ -110,3 +110,6 @@ Kiekvienoje bandomojo balanso ataskaitoje naudojamas kitas stulpelio aprašas. N
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

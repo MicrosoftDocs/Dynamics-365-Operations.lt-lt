@@ -133,3 +133,6 @@ Norėdami sužinoti daugiau, žr. [Žinyno sistema](../../fin-ops/get-started/he
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

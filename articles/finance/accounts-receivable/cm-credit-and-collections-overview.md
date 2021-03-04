@@ -77,3 +77,6 @@ Prieš pradėdami kurti ar dirbti su surinkimu, turite susipažinti su šiomis s
 [Pardavimo užsakymų kredito sulaikymai](./cm-sales-order-credit-holds.md)
 
 [Periodinės kliento kredito valdymo užduotys](./cm-periodic-tasks.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

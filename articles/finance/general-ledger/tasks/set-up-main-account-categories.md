@@ -42,3 +42,6 @@ ms.locfileid: "4445918"
 3. Norėdami pasirinkti pagrindines sąskaitas pažymėkite arba išvalykite parinktį **Susieta**.
 4. Pasirinkite **Gerai**.
 5. Pasirinkite **Taip**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

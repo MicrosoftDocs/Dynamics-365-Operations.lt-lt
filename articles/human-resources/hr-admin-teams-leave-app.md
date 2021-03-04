@@ -134,3 +134,6 @@ Norėdami apriboti prieigą prie „Human Resources” programėlės, esančios 
 [„Microsoft Teams“ pagalbos centras](https://support.office.com/teams)</br>
 [Atostogų prašymų valdymas „Teams“](hr-teams-leave-app.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

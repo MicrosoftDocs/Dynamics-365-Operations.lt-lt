@@ -107,3 +107,6 @@ Norėdami keisti URL kelią, atlikite šiuos žingsnius.
 [Vaizdų apkarpymas](dam-crop-images.md)
 
 [Vaizdų centro tinkinimas](dam-custom-focal-point.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

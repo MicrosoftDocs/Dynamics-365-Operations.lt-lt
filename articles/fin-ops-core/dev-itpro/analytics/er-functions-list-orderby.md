@@ -67,3 +67,6 @@ Jei **Tiekėjas** sukonfigūruotas kaip modulio Elektroninės ataskaitos (ER) du
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Sąrašo funkcijos](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

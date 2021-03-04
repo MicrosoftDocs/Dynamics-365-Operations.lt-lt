@@ -89,3 +89,6 @@ Galite el. laiškų antraštėje naudoti savo įmonės logotipo vaizdą ir kitą
     ![Įmonės privatumo strategijos ir naudojimo sąlygų saitų įtraukimas į el. laiško poraštę](./media/attract-admin-email-footer.png)
 
 4. Pasirinkite **Įrašyti**, kad įrašytumėte savo el. pašto šablono parametrus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

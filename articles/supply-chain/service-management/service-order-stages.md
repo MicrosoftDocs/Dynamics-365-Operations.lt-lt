@@ -47,3 +47,6 @@ Kai nustatote aptarnavimo etapą, galite sukurti kelis variantus arba šakas, i�
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

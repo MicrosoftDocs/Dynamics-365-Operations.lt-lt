@@ -101,3 +101,6 @@ Skirtuke **Katalogai** taip pat pasiekiamos parinktys, skirtos **mokėjimo grafi
 ## <a name="additional-notes"></a>Papildomos pastabos
 
 Tuo metu, kai šaltinio kodo ID taikomas skambučių centro pardavimo užsakymui, jis naudojamas nustatant kainas, akcijas, scenarijus ir papildomą / kryžminį pardavimą, būdingą konkrečiam katalogui. Sistema nedraus ir leis pardavimo užsakyme užsakyti produktą, kurio nėra kataloge. Jei užsakoma prekė, kuri nepriklauso tam katalogui, sistema prekės kainai arba akcijoms pirmiausia taikys tą **kainų grupę**, kuri apibrėžta skambučių centro kanale (**Mažmeninė prekyba ir prekyba** \> **Kanalai** \> **Skambučių centrai** \> **Visi skambučių centrai**). Jei konkreti kanalo kaina nerandama, bus taikoma bazinė prekės pardavimo kaina.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

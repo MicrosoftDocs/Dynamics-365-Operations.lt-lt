@@ -45,3 +45,6 @@ Visą duomenų apdorojimą vykdo užduotys. Kiekvienai užduočiai ir duomenų t
     * Šiam pavyzdžiui pasirinkite finansinių 2017 m. 9 laikotarpį.  
 14. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

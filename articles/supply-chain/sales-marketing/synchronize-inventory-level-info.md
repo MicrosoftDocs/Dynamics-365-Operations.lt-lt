@@ -91,3 +91,6 @@ Galite taikyti filtrus su išplėstine užklausa ir filtravimu, norėdami kontro
 ### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>Produktų atsargos (iš Tiekimo grandinės valdymo į „Field Service“): produktų atsargos
 
 [![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

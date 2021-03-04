@@ -281,3 +281,6 @@ Jei norite neįtraukti SF į i.SAF ataskaitą, veiksmų srityje pasirinkite **At
 Jei norite atidėti SF įtraukimą į i.SAF ataskaitą, veiksmų srityje pasirinkite **Atnaujinti būseną**, kad pranešimų prekių būsena būtų pakeista į **Atidėta**. SF, kurių būsena yra **Atidėta**, į ataskaitą įtrauktos nebus. Dialogo puslapyje **Atnaujinti būseną** pasirinkite **i.SAF** apdorojimą, pasirinkite **Pakeisti į Atidėta** lauke **Veiksmas**, tada pasirinkite **Atidėta** lauke **Nauja būsena**. Galite nustatyti papildomų kriterijų, naudodami funkciją **Filtras**, kad nurodytumėte, kuri (-ios) SF turi būti atidėta (-os) pagal kriterijus.
 
 Galite bet kada pakeisti pranešimų prekių būseną **Neįtraukta** arba **Atidėta**, naudodami veiksmą **Atnaujinti į pradinę būseną**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

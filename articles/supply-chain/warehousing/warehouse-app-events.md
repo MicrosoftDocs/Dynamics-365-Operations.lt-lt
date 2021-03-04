@@ -78,3 +78,6 @@ Norėdami atkurti nesėkmingo sandėlio programos įvykio pranešimą:
 1. Tęskite darbą, kol atkursite visus susijusius pranešimus.
 
 Įvykio pranešimą **Nepavyko** taip pat galite pašalinti naudodami parinktį **Naikinti**, pasiekiamą įrankių juostoje **Sandėlio programos įvykių pranešimai**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

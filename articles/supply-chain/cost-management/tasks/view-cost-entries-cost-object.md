@@ -39,3 +39,6 @@ ms.locfileid: "4433354"
 7. Naudokite Spartųjį filtrą norėdami filtruoti lauką Numeris verte 'p000031'.
     * Jei savikainos įrašai yra tušti, nustatykite Pradžios data į 2012 m. sausio 31 d., o Pabaigos data į 2012 m. gruodžio 31 d.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

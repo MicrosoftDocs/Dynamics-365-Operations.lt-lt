@@ -365,3 +365,6 @@ Naujoji ataskaita bus panaši į toliau pateiktą pavyzdį.
 </tr>
 </tfoot>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

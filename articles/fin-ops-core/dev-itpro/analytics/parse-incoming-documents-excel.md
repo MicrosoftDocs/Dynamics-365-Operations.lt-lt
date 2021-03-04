@@ -46,3 +46,6 @@ Jei dar neleidote šio užduoties vedlio, [ER reikiamų konfigūracijų kūrimas
 | Turinio aprašas    | Failas                                                            |
 |------------------------|-----------------------------------------------------------------|
 | ER modelio konfigūracija | [1099model.xml](https://go.microsoft.com/fwlink/?linkid=862266) |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

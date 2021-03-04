@@ -40,3 +40,6 @@ Kartais laisvas darbo vietas gali būti užimti kandidatai, kurie jau yra jūsų
 9. Spustelėkite „Pakeisti pareigas“.
     * Šiuo metu taip pat galite pakeisti atlyginimą. Jei šiuo metu atlyginimo nepriskirsite, galite jį pakeisti darbuotojo formoje atidarę skirtuką „Atlyginimas“ ir pasirinkę „Fiksuotas planas“. Kai pažymėsite „Keisti pareigas“, prašymo būsena bus atnaujinta į „Įdarbintas“.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Vėl išrašoma pridėtos prekės pardavimo užsakymo SF. Bendra klientui pateik
 [![Puslapis Kvito operacijos su užregistruotu apskaitos įrašu](./media/36_rev-rec-scenarios.png)](./media/36_rev-rec-scenarios.png)
 
 Kadangi įplaukų ir pardavimų suma didesnė nei 319,50 $, užregistruojamas 14,48 $ skirtumas. Ši suma išvalo balansą iš dalinės SF įplaukų kliringo sąskaitos. Tas balansas buvo atnaujintas naujame apskaitos įraše, užregistruotame po perskirstymo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

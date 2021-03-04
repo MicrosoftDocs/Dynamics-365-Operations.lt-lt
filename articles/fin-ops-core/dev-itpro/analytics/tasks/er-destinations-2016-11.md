@@ -60,3 +60,6 @@ ms.locfileid: "4681882"
 21. Lauke „Tema“ įveskite reikšmę.
 22. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

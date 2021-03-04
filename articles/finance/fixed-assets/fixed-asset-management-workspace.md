@@ -74,3 +74,6 @@ Toliau pateikiamoje lentelėje nurodyti kiekviename ataskaitos puslapyje pateiki
 | Vertinimų žemėlapiai        | Ilgalaikio turto informacija |
 
 Norėdami peržiūrėti analizės duomenis, pirmiausia turite atnaujinti sujungtą matavimo vienetą AssetTransactionMeasure puslapyje **Objektų saugykla**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Užduoties būsena bus **Atšaukiama**, kol planavimo optimizavimo tarnyba patvi
 [Plano retrospektyvos ir planavimo žurnalų peržiūra](plan-history-logs.md)
 
 [Filtrų taikymas planui](plan-filters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

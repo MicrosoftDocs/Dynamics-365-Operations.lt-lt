@@ -87,3 +87,6 @@ Fragmentą įtraukdami į puslapio šablonus padedate užtikrinti, kad poraštė
 [Antraštės modulis](author-header-module.md)
 
 [Poraštės modulis](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

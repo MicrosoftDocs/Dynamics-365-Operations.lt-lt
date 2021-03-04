@@ -67,3 +67,6 @@ Toliau parodytame paveikslėlyje pavaizduotas internetinio funkcionalumo profili
 [Mažmeninės prekybos kanalo nustatymas](channel-setup-retail.md)
 
 [Skambučių centro kanalo nustatymas](channel-setup-callcenter.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

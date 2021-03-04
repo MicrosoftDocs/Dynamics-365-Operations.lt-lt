@@ -127,3 +127,6 @@ Norėdami į naują puslapį įtraukti pirkimo užbaigimo modulį ir nustatyti r
 [Išsamios užsakymo informacijos modulis](order-confirmation-module.md)
 
 [Dovanų kortelės modulis](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

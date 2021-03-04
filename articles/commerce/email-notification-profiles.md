@@ -96,3 +96,6 @@ Kad galėtumėte siųsti laiškus, turite sukonfigūruoti siunčiamo pašto pasl
 [Kanalo sąrankos būtinieji komponentai](channels-prerequisites.md)
 
 [Organizacijų ir organizacijų hierarchijų apžvalga](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

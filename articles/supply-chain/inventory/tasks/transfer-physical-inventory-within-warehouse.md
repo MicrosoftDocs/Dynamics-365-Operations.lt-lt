@@ -59,3 +59,6 @@ ms.locfileid: "4433846"
 1. Spustelėkite **Atsargos**.
 2. Spustelėkite **Operacijos**. Čia galite pamatyti operacijas, kurios buvo sukurtos užregistravus jūsų žurnalą.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

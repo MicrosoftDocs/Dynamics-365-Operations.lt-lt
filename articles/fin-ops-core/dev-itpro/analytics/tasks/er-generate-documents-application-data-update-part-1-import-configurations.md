@@ -75,3 +75,6 @@ Veiksmai šioje procedūroje paaiškina, kaip kurti elektroninių ataskaitų (ER
     * Peržiūrėkite formato, naudojamo Intrastat ataskaitai generuoti, struktūrą. Atkreipkite dėmesį, kad jis skirtas XML failui generuoti užpildant duomenis iš duomenų modelio, kuris grindžiamas šakniniu elementu „Siunčiamam dokumentui“. Patikrinkite, ar sugeneruoto failo pavadinimas apibrėžtas vartotojo dialogo formoje (tam naudojamas „fn“ duomenų šaltinis).   
 30. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

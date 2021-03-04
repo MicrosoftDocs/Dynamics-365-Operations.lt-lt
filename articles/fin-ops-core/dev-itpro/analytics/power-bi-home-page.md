@@ -65,3 +65,6 @@ Naudojant [„Microsoft AppSource“](https://appsource.microsoft.com) galimi to
 - Kaštų valdymas
 - [Finansinės veiklos rezultatai](financial-performance-power-bi-content-pack.md)
 - [Mažmeninės prekybos kanalų efektyvumas ](retail-channel-performance-dashboard-power-bi-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

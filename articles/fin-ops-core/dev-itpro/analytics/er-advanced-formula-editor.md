@@ -171,3 +171,6 @@ Galite pasirinkti **Įtraukti duomenų šaltinį**, kad į dabartinę išraišk�
 - [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)
 - [Elektroninių ataskaitų formulių kūrimo įrankis](general-electronic-reporting-formula-designer.md)
 - [„Monaco Editor“](https://microsoft.github.io/monaco-editor)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

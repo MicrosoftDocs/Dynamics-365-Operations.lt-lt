@@ -69,3 +69,6 @@ Klausimyno statistiką galima naudoti skaičiuojant vidurkius, bendrąsias sumas
 2. Spustelėkite Rezultatas.
 3. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

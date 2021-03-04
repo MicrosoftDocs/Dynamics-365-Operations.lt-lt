@@ -97,3 +97,6 @@ ms.locfileid: "4434055"
     * Nurodykite, nuo kurio pašto kodo galios šis tarifo pagrindo priskyrimas.
 10. Laukelyje **Paėmimo regiono rikiavimas**, įveskite „USA".
 11. Pasirinkite **Įrašyti**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

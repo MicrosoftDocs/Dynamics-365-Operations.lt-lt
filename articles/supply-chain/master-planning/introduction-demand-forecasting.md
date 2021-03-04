@@ -100,3 +100,6 @@ Atkreipkite dėmesį, kad poreikio UOM prognozė neprivalo turėti jokios konkre
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

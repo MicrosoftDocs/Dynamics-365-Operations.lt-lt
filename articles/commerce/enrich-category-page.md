@@ -65,3 +65,6 @@ Norėdami papildyti kategorijos puslapį, atlikite šiuos veiksmus.
 [Papildyti produkto puslapį](enrich-product-page.md)
 
 [Puslapio turinio pritaikymo neįgaliesiems patikra](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

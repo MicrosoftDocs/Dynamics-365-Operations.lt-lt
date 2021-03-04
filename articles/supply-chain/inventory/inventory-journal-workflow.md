@@ -112,3 +112,6 @@ Tam, kad peržiūrėtumėte žurnalo darbo srauto istoriją:
 1. Naršymo juostoje, išplėskite **Atsargų valdymas \> Žurnalo įrašai \> Elementai** ir tuomet pasirinkite atsargų žurnalo tipą.
 1. Atidarykite atitinkamą žurnalą.
 1. Pasirinkite **Darbo srauto** mygtuką veiksmų juostoje, kurią norite atidaryti iškrentančiame teksto lauke. Pasirinkite **Darbo srauto**. - Norėdami gauti daugiau informacijos, žr. [Peržiūrėti darbo srauto istoriją](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

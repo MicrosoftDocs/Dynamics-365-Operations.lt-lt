@@ -85,3 +85,6 @@ Norėdami naudoti integruotą paslaugą [„Microsoft Accessibility Insights“]
 [Papildyti produkto puslapį](enrich-product-page.md)
 
 [Papildyti kategorijos nukreipimo puslapį](enrich-category-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

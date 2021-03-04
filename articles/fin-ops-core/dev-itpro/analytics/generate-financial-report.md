@@ -156,3 +156,6 @@ Vykdant trūkstamų sąskaitų analizę, galima naudoti toliau nurodytus klaviat
 [Finansinės ataskaitos](financial-reporting-intro.md)
 
 [Ataskaitų dizaino įrankio sąsaja](report-designer-interface.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

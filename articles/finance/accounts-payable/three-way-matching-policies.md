@@ -145,3 +145,6 @@ Daugiau informacijos žr. [Mokėtinų sumų SF gretinimo apžvalga](accounts-pay
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

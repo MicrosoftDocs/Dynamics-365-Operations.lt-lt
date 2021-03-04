@@ -57,3 +57,6 @@ Rasti kvalifikuotų kandidatų telkinį laisvoms vietoms užimti gali būti sunk
 24. Uždarykite puslapį.
 25. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

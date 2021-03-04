@@ -109,3 +109,6 @@ Pavyzdžiui, darbuotoja atėjimą į darbą užregistruoja 10.00 val. ir pasiren
 ### <a name="calculate-and-approve-absence"></a>Neatvykimo apskaičiavimas ir patvirtinimas
 
 - Pasirinkite **Laikas ir buvimas darbe** &gt; **Peržiūrėti ir patvirtinti** &gt; **Patvirtinti arba skaičiuoti**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

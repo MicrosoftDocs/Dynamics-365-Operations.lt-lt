@@ -50,3 +50,6 @@ Kaip patvirtintų produktų kūrimo dalį, turite pasirinkti numatytuosius pirki
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

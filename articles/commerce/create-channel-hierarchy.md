@@ -107,3 +107,6 @@ Toliau pateiktame vaizde parodytas mazgo pavyzdys su įtrauktomis produktų atri
 [Asortimentų nustatymas](set-up-assortments.md)
 
 [Atributų ir atributų grupių tvarkymas](attribute-attributegroups-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

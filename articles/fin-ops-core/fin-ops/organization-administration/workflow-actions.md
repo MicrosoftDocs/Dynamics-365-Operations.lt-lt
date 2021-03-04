@@ -141,3 +141,6 @@ Kai tvirtintojas reikalauja dokumento keitimo, dokumentas grąžinamas iniciator
 Pavyzdžiui, Samas pateikė išlaidų ataskaitą už 12 000 USD ir šis dokumentas priskiriamas Sue. Jei Sue reikalauja pakeitimo, išlaidų ataskaita grąžinama Samui.
 
 Samas gali išlaidų ataskaitą pateikti iš naujo. Pirmiausia jis gali atlikti pageidautus keitimus, arba gali iš naujo pateikti pradinę išlaidų ataskaitos versiją. Jeigu Samas pakartotinai pateikia išlaidų ataskaitą, ji siunčiama tvirtinti Frankui, nes Frankas yra pirmasis tvirtintojas patvirtinimo procese.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

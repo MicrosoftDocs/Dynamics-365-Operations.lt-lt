@@ -91,3 +91,6 @@ Jei įgalinote funkciją **Išplėstinė ER formato konfigūracijų peržvalga, 
 - [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)
 - [Elektroninių ataskaitų (ER) sistemos API](er-apis-app73.md)
 - [Elektroninių ataskaitų (ER) konfigūracijų ciklo valdymas](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

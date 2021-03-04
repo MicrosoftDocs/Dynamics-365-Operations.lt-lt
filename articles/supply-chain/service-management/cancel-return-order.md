@@ -49,3 +49,6 @@ Jei norite įrašyti planuojamo grąžinimo įrašą, galite atšaukti grąžini
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

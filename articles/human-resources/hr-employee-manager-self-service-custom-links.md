@@ -48,3 +48,6 @@ Norėdami naudoti šią funkciją, įjunkite **Tinkintos nuorodos vadovo savitar
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 [Darbuotojų ir vadovų savitarnos apžvalga](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

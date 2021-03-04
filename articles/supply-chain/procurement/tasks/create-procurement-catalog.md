@@ -66,3 +66,6 @@ ms.locfileid: "4433537"
 7. Pasirinkite **Įtraukti į eilutes**.
 8. Pasirinkite **Gerai**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

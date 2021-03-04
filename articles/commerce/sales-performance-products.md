@@ -44,3 +44,6 @@ Naudodami „Dynamics 365 Commerce“ galite tirti 10 populiariausių produktų 
 - Darbo sritis **Parduotuvės valdymas** &gt; **Mažmeninė prekyba ir prekyba** &gt; **Kanalai** &gt; **Parduotuvės valdymas** &gt; **Ataskaitos** &gt; **Svarbiausių produktų ataskaita**
 - Darbo sritis **Kategorijų ir produktų valdymas** &gt;**„Retail and Commerce“** &gt; **Kanalai** &gt; **Parduotuvių valdymas** &gt; **Ataskaitos** &gt; **Populiariausių produktų ataskaita**
 - Skyrius **Užklausos ir ataskaitos**&gt; **Mažmeninė prekyba ir prekyba** &gt; **Užklausos ir ataskaitos** &gt; **Pardavimo ataskaitos** &gt; **Svarbiausių produktų ataskaita**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

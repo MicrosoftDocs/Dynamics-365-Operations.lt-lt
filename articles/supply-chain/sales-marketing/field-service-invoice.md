@@ -108,3 +108,6 @@ Toliau pateiktose iliustracijose vaizduojamas šablono susiejimas naudojant funk
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Sutarties SF („Field Service“ su „Supply Chain Management“): SF eilutės
 
 [![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

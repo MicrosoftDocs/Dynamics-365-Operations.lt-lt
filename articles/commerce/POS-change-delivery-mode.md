@@ -47,3 +47,6 @@ Pasirinkus naują pristatymo būdą, rodomas operacijos puslapis. Norėdami per�
 [Skambučių centro užsakymų kūrimas](tasks/create-call-center-orders.md)
 
 [Tinkinti perlaidų el. paštus pagal pristatymo būdą](customize-email-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Toliau pateiktoje diagramoje pavaizduotos modulyje Kaštų apskaita naudojamos d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

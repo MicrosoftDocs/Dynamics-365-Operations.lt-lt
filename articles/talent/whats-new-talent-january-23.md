@@ -53,3 +53,6 @@ Atlikus šį pakeitimą laukai **Bandomasis laikotarpis** ir **Kalendoriaus** bu
 
 ### <a name="platform-update-23-for-finance-and-operations"></a>„Finance and Operations” platformos 23 naujinimas
 Mažų klaidų pataisymai buvo įtraukti kaip „Platform“ atnaujinimo 23 „Finance and Operations“. Daugiau informacijos žr. [Kas nauja arba pakeista „Dynamics 365 Finance and Operations“ 23 platformos naujinime (2019 m. sausio mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ Jei argumento `decimals` reikšmė yra mažesnė už 0 (nulį), nurodytas skaič
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Matematinės funkcijos](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

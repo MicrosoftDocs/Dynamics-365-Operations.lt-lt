@@ -136,3 +136,5 @@ ms.locfileid: "4433848"
 
 > [!NOTE]
 > Funkcija *Sandėlio procesų kokybės valdymas* pateikia papildomų parinkčių kokybės susiejimams nustatyti. Ji įtraukia naują sąlygą (**Taikomas sandėlio tipas**) ir naują parametrą (**Kokybės apdorojimo strategija**). Jei įgalinote šią funkciją, norėdami gauti išsamios informacijos žr. [Sandėlio procesų kokybės valdymas](../quality-management-for-warehouses-processes.md).
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

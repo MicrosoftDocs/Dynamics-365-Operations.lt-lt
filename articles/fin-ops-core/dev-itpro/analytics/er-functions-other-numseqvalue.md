@@ -105,3 +105,6 @@ Kai iškviečiamas duomenų šaltinis **NumSeq**, pateikiama nauja sukurta numer
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Kitos (konkrečios verslo srities) funkcijos](er-functions-category-other.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

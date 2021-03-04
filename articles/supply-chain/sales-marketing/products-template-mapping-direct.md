@@ -124,3 +124,6 @@ Toliau pateiktoje iliustracijoje vaizduojamas šablono susiejimo pavyzdys naudoj
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

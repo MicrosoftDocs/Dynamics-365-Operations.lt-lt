@@ -173,3 +173,6 @@ Triktis 3: Galite praeiti pro „ClickOnce Report Designer“ prisijungimo pusla
 ## <a name="additional-resources"></a>Papildomi ištekliai
 - [Peržiūrėti finansines ataskaitas](view-financial-reports.md)
 - [Ataskaitų dizaino įrankio ataskaitų medžio apibrėžtys](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

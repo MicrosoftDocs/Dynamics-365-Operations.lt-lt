@@ -44,3 +44,6 @@ Išlaidų kontrolierius gali naudoti šią procedūrą, norėdamas susieti išla
     * Šiame pavyzdyje pasirinkite dimensijos narį 6001004 telefonas.  
 11. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

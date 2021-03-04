@@ -75,3 +75,6 @@ Aptarnavimo užsakyme sukurti aptarnavimo užduočių ryšiai prieinami konkreč
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

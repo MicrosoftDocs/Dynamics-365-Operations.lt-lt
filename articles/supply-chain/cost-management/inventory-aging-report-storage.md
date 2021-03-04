@@ -57,3 +57,6 @@ Kad galėtumėte naudoti šią funkciją, turite ją įjungti savo sistemoje. Ad
     > Formoje nebus įtrauktos tarpinės sumos, kurios nurodytos ataskaitos makete.
 
 Duomenų objektas **Atsargų skirstymo pagal terminus ataskaita** leidžia eksportuoti **Atsargų skirstymo pagal terminus ataskaitos saugykla** ataskaitą taikant filtrą **Proceso identifikatorius – pavadinimas** bet kokiam formatui, kurį palaiko duomenų valdymas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

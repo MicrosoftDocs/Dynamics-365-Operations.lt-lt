@@ -63,3 +63,6 @@ Jei `SPLIT("abc" , 1)`įvesite kaip duomenų šaltinio **DS**, išraiška `STRIN
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Sąrašo funkcijos](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

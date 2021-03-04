@@ -40,3 +40,6 @@ Mes įtraukėme sparčiojo importavimo eksportavimo funkciją, kad vartotojai ga
 
 
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

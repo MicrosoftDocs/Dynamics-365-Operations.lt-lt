@@ -59,3 +59,6 @@ Tada turėtumėte susieti abonementą su išlaidų tipais. Šios sąskaitos bus 
 7. Atitinkamuose laukuose pasirinkite finansinės nuomos pagrindinės sąskaita ir pagrindinės veiklos nuomos abonementą.
 
 Atlikę šiuos veiksmus, galite pridėti išlaidų per **Eksploatavimo išlaidų mokėjimo grafiko** eilutes pasirinktos nuomos puslapyje **Nuomos informacija**. Taip pat galite pridėti išlaidų kurdami naujas nuomos sutartis.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

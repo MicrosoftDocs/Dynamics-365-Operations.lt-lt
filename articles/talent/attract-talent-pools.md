@@ -149,3 +149,6 @@ Dažnai keli geri kandidatai gauti darbą nėra pasirenkami, tačiau jūs norite
 1. Prašymo puslapyje pasirinkite **Įtraukti į talentų telkinį**. Rodomas talentų telkinių, kuriuos galite pasiekti, sąrašas.
 
 1. Pasirinkite arba ieškokite talentų telkinio, tada pasirinkite **Įtraukti**, kad įtrauktumėte kandidatą į tą talentų telkinį.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

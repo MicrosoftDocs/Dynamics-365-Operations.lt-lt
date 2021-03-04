@@ -36,3 +36,6 @@ Gabenimo valdymas leidžia jums padalyti geografines vietas į zonas. Vietų dal
 - **Optimizuoti maršruto planavimą** – Priskiriant konkrečius maršruto planus konkrečioms zonoms.
 
 Nustato zonas pagal metaduomenų laukelio vertes (tokias kaip šalis, pašto kodo intervalas ar vežėjo paslaugos), kurios apibūdina kiekvieną zoną. Zonų sąvokos nėra būtinos, jei jūsų gabenimo kainos neįtraukia zonos sąvokos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

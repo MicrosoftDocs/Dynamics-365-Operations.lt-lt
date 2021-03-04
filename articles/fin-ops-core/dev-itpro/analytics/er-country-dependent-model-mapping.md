@@ -496,3 +496,6 @@ Numatytasis modelio susiejimo parametras priklauso nuo konkrečios aplinkos. Jis
 - Bent viena ER modelio susijimo konfigūracijos versija turi būseną **Baigta** arba **Bendrinta**. Šiuo atveju, versija, kuri turi didžiausią versijos numerį, bus naudojama, kad būtų galima vykdyti ER formatą.
 - Parinktis **Vykdyti juodraštį**, skirta ER modelio susiejimo konfigūracijai, yra įjungta. Šiuo atveju, versija, kuri turi būseną **Juodraštis**, bus naudojama, kad būtų galima vykdyti ER formatą.
 > Parinktis **Vykdyti juodraštį** pasiekiama puslapyje **Konfigūracijos** kiekvienai ER modelio susiejimo konfigūracijai, kai įjungtas ER vartotojo parametras **Vykdyti parametrą**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

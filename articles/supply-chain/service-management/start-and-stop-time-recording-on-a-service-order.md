@@ -65,3 +65,6 @@ Naudokite šią procedūrą norėdami pradėti ir sustabdyti laiko įrašymą pa
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

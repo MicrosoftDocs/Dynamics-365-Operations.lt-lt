@@ -84,3 +84,6 @@ Norėdami į puslapį įtraukti skirtuko modulį ir nustatyti ypatybes, atlikite
 [Akordeono modulis](add-accordion.md)
 
 [Teksto bloko modulis](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Nors AMK programos funkcinis tikrinimas negali būti visiškai agnostinis duomen
     - Tvirtinkite tik atsifiltravę tam tikrą operaciją, užuot tvirtindami bendrai. Pavyzdžiui, ieškodami įrašų skaičiaus, filtruokite pagal operacijos numerį arba operacijos datą, kad tvirtinant visos kitos operacijos nebūtų įtrauktos. 
     - Jei tikrinate kliento balansą arba biudžetą, pirmiausia įrašykite reikšmę, paskui įtraukite savo operacijos reikšmę, kad patvirtintumėte numatytą rezultatą, užuot tikrinę fiksuotą numatomą reikšmę. 
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

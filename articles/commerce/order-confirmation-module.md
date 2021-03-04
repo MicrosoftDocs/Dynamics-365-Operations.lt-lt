@@ -87,3 +87,6 @@ Norėdami įtraukti užsakymo patvirtinimo modulį į naują puslapį ir nustaty
 [Paėmimo informacijos modulis](pickup-info-module.md)
 
 [Dovanų kortelės modulis](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

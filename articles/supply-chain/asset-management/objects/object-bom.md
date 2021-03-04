@@ -84,3 +84,6 @@ Turto elementų eilutes galima kurti rankiniu būdu.
 5. Jei elementas nustos galioti, lauke **Galiojimo pabaiga** įveskite pabaigos datą.
 6. Lauke **Elemento numeris** pasirinkite elementą. Pavadinimas automatiškai įvedamas lauke **Produkto pavadinimas**.
 7. Lauke **Kiekis** įveskite naudojamą kiekį. Laukas **Vienetas** atnaujinamas automatiškai.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

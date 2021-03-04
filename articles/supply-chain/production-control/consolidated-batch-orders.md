@@ -46,3 +46,6 @@ Konsoliduotieji paketiniai užsakymai gali apimti bet kokį toliau nurodytų už
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

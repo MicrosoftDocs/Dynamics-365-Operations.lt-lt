@@ -41,3 +41,6 @@ PVM institucijos yra subjektai, kuriems reikia pranešti apie surinktą PVM ir j
 10. Lauke Apvalinti įveskite skaičių.
 11. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

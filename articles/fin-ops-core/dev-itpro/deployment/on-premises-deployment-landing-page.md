@@ -72,3 +72,6 @@ Galite diegti „Dynamics 365 Finance + Operations“ (vietinė versija). Pasiri
 - [Pašalintos arba nebenaudojamos „Finance and Operations“ funkcijos](../migration-upgrade/deprecated-features.md)
 - [Programinės įrangos ciklo strategija ir vietinės versijos leidimai](../migration-upgrade/on-prem-version-update-policy.md)
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

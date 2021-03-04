@@ -67,3 +67,6 @@ Registravimosi paslaugą galima išplėsti, kad būtų palaikomi papildomi išpl
 ## <a name="using-extended-logon"></a>Išplėstinės registracijos naudojimas
 
 Jei išplėstinė registracija yra sukonfigūruota, o darbuotojui buvo priskirtas brūkšninis kodas arba magnetinė juostelė, darbuotojas tiesiog turi perbraukti arba nuskaityti savo kortelę, kai rodomas EKA registracijos puslapis. Jei prieš tęsiant registraciją būtina įvesti slaptažodį, darbuotojas bus paragintas įvesti savo slaptažodį.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

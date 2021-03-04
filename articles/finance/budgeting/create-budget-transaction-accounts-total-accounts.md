@@ -46,3 +46,6 @@ Todėl galite kurti atskirus svarbiausių operacijų sąskaitų, patenkančių �
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

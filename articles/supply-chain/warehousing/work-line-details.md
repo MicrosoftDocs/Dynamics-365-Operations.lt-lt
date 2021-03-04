@@ -128,3 +128,6 @@ Norėdami sukurti paėmimo darbo užduotį, atlikite toliau nurodytus veiksmus.
 
 > [!IMPORTANT]
 > Jei atšaukiate tik dalį kiekio darbo eilutėje, taip pat turite pašalinti pasenusius kiekius iš krovinio eilutės. Kitu atveju, nebent tinkamai nustatytas pristatymo trūkumas, nebus galima patvirtinti krovinio išsiuntimo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

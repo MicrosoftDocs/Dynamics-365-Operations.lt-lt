@@ -98,3 +98,6 @@ Norėdami nurodyti konkretiems tiekėjams taikomus leistinus sąskaitų faktūr�
 
 1. Norėdami nurodyti atskiriems tiekėjams taikomus leistinus nuokrypius, pakeičiančius numatytąjį nuokrypį, pasirinkite **Tiekėjo sąskaita**.
 2. Įveskite nuokrypio procentinį dydį, kurį priimsite šiam tiekėjui.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

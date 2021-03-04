@@ -73,3 +73,6 @@ Visi skaičiai po kablelio pašalinami.
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Tipų konvertavimo funkcijos](er-functions-category-type-conversion.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Paraginus pateikti priežasties kodą, skirtą paaiškinti, kodėl atnaujinate a
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

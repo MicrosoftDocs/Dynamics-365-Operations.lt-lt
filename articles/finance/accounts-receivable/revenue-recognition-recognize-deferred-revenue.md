@@ -108,3 +108,6 @@ Sutarties pakeitimai turi tokią įtaką įplaukų grafiko informacijai:
 - Jei įplaukos buvo pripažintos už produktą, kai kurios įplaukos buvo neteisingai pripažintos, nes pripažinimas buvo pagrįstas neteisingu įplaukų grafiku. Remiantis naujuoju grafiku, šios eilutės turi būti atšaukiamos ir pripažįstamos dar kartą. Tokiu atveju, sukuriamos naujos įplaukų grafiko eilutės, kurių pradinėmis pripažinimo datomis sumos yra neigiamos. Tada sukuriamos naujos eilutės sumoms pripažinti pagal naują įplaukų grafiką. Pavyzdžiui, 2019 m. rugpjūčio 8 d. pripažinote įplaukas už 10,53 USD. 2019 m. rugsėjo 8 d. pripažinote įplaukas už 13,16 USD. Todėl tomis pačiomis datomis sukuriamos dvi naujos eilutės. Viena eilutė skirta 10,53 USD, o kita eilutė skirta 13,16 USD. Tada sukuriamos dvidešimt keturios naujos eilutės ir joms paskirstomos visos 160,61 USD atidėtos įplaukos. Galite registruoti atšaukimo eilutes vykdydami procesą **Kurti žurnalą**.
 
 [![Įplaukų pripažinimo grafikas](./media/revenue-recognition-rev-recog-schedule-03.png)](./media/revenue-recognition-rev-recog-schedule-03.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

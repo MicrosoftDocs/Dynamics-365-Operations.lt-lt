@@ -125,3 +125,6 @@ Tikimasi tokio elgesio. Kadangi paraiškos ne visada patvirtinamos, kiekis arba 
 
 Galite sukurti prekybos sutartis dėl bet kurių atsakymų pasiūlymo patvirtinimui (RFQ), neatsižvelgiant į tai, ar jie buvo priimti ar atmesti. Norėdami gauti daugiau informacijos, žr. [Pasiūlymų patvirtinimų (RFQs) apžvalga](request-quotations.md).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

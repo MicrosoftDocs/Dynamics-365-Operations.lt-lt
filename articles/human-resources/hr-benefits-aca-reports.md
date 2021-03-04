@@ -68,3 +68,6 @@ Galite eksportuoti darbuotojų sąrašus, kurie sugeneruoti naudojant filtravimo
 Jei jums reikia pranešti apie apdraustus asmenis, nes kaip darbdavys teikiate savarankišką draudimą, taip pat galite peržiūrėti priklausomuosius, kuriems taikomi išmokų planai ir kurie buvo pažymėti kaip **Reikia perduoti ACA**, veiksmų srities juostelėje pasirinkdami veiksmą Peržiūrėti priklausomojo draudimą.
 
 **Pastaba:** užklausos lange bus rodomos tik tos išmokos, kurių planas buvo pažymėtas kaip **Reikia perduoti ACA**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

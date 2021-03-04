@@ -97,3 +97,6 @@ Kekvieno lauko poveikis redaguojamai operacijai skirtingas.
 - **Mokėjimo nuolaidos sąlygų koregavimas** – mokėjimo nuolaidos keičiamos atsižvelgiant į pagrindinę datą ir mokėjimo nuolaidos sąlygas.
 
 Baigę redaguoti mokėjimo parametrus, pasirinkite **Uždaryti** ir įrašykite pakeitimus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

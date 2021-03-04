@@ -64,3 +64,6 @@ Tiekėjus taip pat galite kopijuoti naudodami funkciją Neapmokestinimo kodo ie�
 
 1. Pasirodo parinktis **Kopijuoti tiekėją**. Pagal numatytuosius parametrus ši parinktis yra nustatyta kaip **Ne**. Norėdami tiekėją nukopijuoti į dabartinį juridinį subjektą, parinktį nustatykite kaip **Taip**.
 2. Pasirinkite **Pasirinkti**. Sukuriamas naujas tiekėjas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

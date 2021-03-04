@@ -148,3 +148,6 @@ Prieš baigdami šitą procedūrą, turite įvykdyti toliau nurodytas užduotis:
     * Patikrinkite užregistruotus žurnalo įrašus.  
 16. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

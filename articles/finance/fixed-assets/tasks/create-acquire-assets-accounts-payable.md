@@ -56,3 +56,6 @@ ms.locfileid: "4446024"
 17. Sąraše spustelėkite saitą pasirinktoje eilutėje.
 18. Spustelėkite **Registruoti.** Ilgalaikis turtas bus sukurtas ir įsigytas užregistravus SF.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

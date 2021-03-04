@@ -90,3 +90,6 @@ ms.locfileid: "4433395"
 23. Spustelėkite Pridėta pardavimo sutartis.
 24. Spustelėkite skirtuką Įvykdymas.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

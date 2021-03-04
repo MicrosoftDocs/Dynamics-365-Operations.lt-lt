@@ -73,3 +73,6 @@ ms.locfileid: "4445830"
 19. Spustelėkite **Registruoti.**
 20. Uždarykite formą. Atkreipkite dėmesį, kad pirkimo užsakymas pateikiamas nebe kaip gautas, o kaip užsakymas, kuriam neišrašyta SF.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

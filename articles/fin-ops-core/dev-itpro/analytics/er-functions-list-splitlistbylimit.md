@@ -100,3 +100,6 @@ Tolesnėje iliustracijoje parodytas vaizdas, kai vykdomas pakoreguotas formatas.
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Sąrašo funkcijos](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ ms.locfileid: "4445920"
 11. Pasirinkite **Naujinti laikotarpio būseną** ir nustatykite būseną į **Atidėtas**, **Atviras** arba **Panaikintas visam laikui**. **Atviras** nurodo, kad laikotarpį galima registruoti, jei naudotojas turi prie jo prieigą. **Atidėtas** reiškia, jog laikotarpį negalima registruoti, tačiau laikotarpį galima vėl atverti. **Panaikintas visam laikui** reiškia, jog laikotarpis yra panaikintas ir negali būti atvertas. Koregavimų registruoti negalima. Nėra rekomenduotina nustatyti laikotarpį į **Panaikintas visam laikui**, kol visos korekcijos ir patikrinimai nėra baigti.  
 12. Pasirinkite **Naujinti**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

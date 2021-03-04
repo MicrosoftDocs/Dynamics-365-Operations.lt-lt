@@ -101,3 +101,6 @@ ms.locfileid: "4433393"
 11. Eikite į Pardavimas ir rinkodara > Pardavimo pasiūlymai > Visi pasiūlymai.
     * Patikrinkite, kad pasiūlymai buvo sukurti visiems klientams, nurodytiems masinio atnaujinimo procedūros metu, remiantis pasirinktu šablonu.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

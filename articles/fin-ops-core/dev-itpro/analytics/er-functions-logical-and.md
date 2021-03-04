@@ -65,3 +65,6 @@ Loginių funkcijų argumentuose galite naudoti duomenų šaltinio nuorodas, skai
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Loginės funkcijos](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Kiekviena paskirstymo taisyklė turi keturis komponentus: bendrą, šaltinio, pa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

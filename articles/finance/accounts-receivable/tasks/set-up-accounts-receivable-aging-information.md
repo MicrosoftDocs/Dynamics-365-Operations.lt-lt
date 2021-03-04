@@ -59,3 +59,6 @@ ms.locfileid: "4446012"
 2. Pasirinkite klientą, turintį balansą.
 3. Norėdami peržiūrėti pagal terminus suskirstytus balansus, išplėskite **Skirstymo pagal terminus faktas** sritį. „FactBox‟ skirstymo pagal terminus laikotarpio apibrėžtis paimama iš numatytosios skirstymo pagal terminus apibrėžties, nurodytos parametruose. Ją keisti galite naudodami meniu Rinkti.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

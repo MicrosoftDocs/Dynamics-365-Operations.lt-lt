@@ -73,3 +73,6 @@ Fiktyvi KS taip pat gali būti naudojama maršruto tinklą turinčiai KS. Maršr
 Toliau pateiktoje iliustracijoje (a) yra produkto G ir F dalies KS, o (b) yra produkto G ir F dalies maršruto lapas.
 
 ![Produktas G, F dalis su maršruto lapais](media/product-G-part-F-with-route-sheet.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

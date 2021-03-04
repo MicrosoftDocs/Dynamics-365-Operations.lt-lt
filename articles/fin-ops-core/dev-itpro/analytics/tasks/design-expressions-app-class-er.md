@@ -157,3 +157,6 @@ Bandymams atlikti formato susiejimą vykdykite naudodami anksčiau atsisiųstą 
 2. Spustelėkite GERAI.
     * Peržiūrėkite išvestį XML formatu, kuriuo rodomi iš pasirinkto failo importuoti ir į duomenų modelį perkelti duomenys. Atkreipkite dėmesį, kad apdorotos tik 3 importuojamo TXT failo eilutės. 4 eilutėje esantis netinkamas IBAN kodas praleistas ir sistemos pranešime pateikiamas klaidos pranešimas.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

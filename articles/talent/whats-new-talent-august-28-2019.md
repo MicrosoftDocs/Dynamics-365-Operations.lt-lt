@@ -90,3 +90,6 @@ Daugiau informacijos žr. [Supaprastintas darbuotojų įrašas ir naršymas](./s
 ### <a name="platform-update-29"></a>Platformos „update 29“
 
 Daugiau informacijos apie „Platform Update 29“ žr. [Peržiūros funkcijos „Dynamics 365 for Finance and Operations Platform Update 29“ (2019 m. spalio mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

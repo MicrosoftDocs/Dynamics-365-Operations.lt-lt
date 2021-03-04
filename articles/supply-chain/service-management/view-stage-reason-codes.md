@@ -45,3 +45,6 @@ Peržiūrėkite ir pakeiskite aptarnavimo užsakymo etapų priežasčių sąraš
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ ms.locfileid: "4433379"
 11. Lauke Neprimokėjimo priežasties įveskite arba pasirinkite reikšmę.
 12. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Kuriant šį įrašą naudojama demonstracinių duomenų įmonė yra USMF.
 10. Spustelėkite Įrašyti.
 11. Uždarykite formą.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

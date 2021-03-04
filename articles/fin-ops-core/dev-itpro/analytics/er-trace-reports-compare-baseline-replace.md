@@ -207,3 +207,6 @@ Norėdami importuoti pagrindinės informacijos parametrus iš XML failo, kuris s
 
 - [Sugeneruotų ataskaitų rezultatų sekimas ir jų palyginimas su bazinėmis vertėmis](er-trace-reports-compare-baseline.md)
 - [Užduoties įrašymo ištekliai](../user-interface/task-recorder.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

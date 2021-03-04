@@ -98,3 +98,6 @@ Norėdami įkelti failą į „Commerce“ svetainės generatorių, atlikite tol
 [Vaizdų centro tinkinimas](dam-custom-focal-point.md)
 
 [Naujinti ir aptarnauti statinius failus](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Parametras **Kiekis** nurodo, ar kaip paketas turi būti išleistas visas kiekis
 -   Norėdami nustatyti perkėlimo užsakymų parametrus **Kiekis** ir **Leisti išleisti iš dalies išleistus užsakymus**, spustelėkite **Sandėlio valdymas** \> **Išleidimas į sandėlį** \> **Automatinis perkėlimo užsakymų išleidimas**.
 
 -   Norėdami nustatyti pardavimo užsakymų parametrus **Kiekis** ir **Leisti išleisti iš dalies išleistus užsakymus**, spustelėkite **Sandėlio valdymas** \> **Išleidimas į sandėlį** \> **Automatinis pardavimo užsakymų išleidimas**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

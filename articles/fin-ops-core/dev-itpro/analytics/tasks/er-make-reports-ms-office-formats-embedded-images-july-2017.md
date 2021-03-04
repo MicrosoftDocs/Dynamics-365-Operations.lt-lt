@@ -90,3 +90,6 @@ Norėdami atlikti šios procedūros veiksmus, pirmiausia atlikite procedūrą �
  30. Lauke Leisti kurti išankstinį pranešimą neaktyviuose banko koduose: pasirinkite Taip.  
  31. Spustelėkite Įrašyti.  
  32. Uždarykite puslapį.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

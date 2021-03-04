@@ -41,3 +41,6 @@ Norėdami kurti gamybos eigos versijos „kanban“ ir apdoroti gamybos eigos ve
 5. Spustelėkite Aktyvinti.
 6. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -255,3 +255,5 @@ Vietos ID, naudojamas darbuotojo adresui, nėra numeracijos dalis. Integruojant 
 Toliau pateiktoje iliustracijoje vaizduojamas šablono susiejimo pavyzdys duomenų integratoriuje. 
 
 ![Šablono susiejimas](./media/IntegrationMapping.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

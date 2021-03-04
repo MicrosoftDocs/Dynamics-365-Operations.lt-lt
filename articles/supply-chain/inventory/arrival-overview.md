@@ -121,3 +121,6 @@ Kai visos prekės užregistruotos, sandėlio vadybininkas arba pirkimo vadybinin
 
 ## <a name="summary"></a>Suvestinė
 Naudodami **Gavimų apžvalgos** puslapį sandėlio vadovas ir darbuotojai gali lengviau peržiūrėti numatomus darbus, kuriuos reikės atlikti kaip gavimo proceso dalį. Puslapį taip pat galima naudoti prekių gavimo procesui pradėti ir siekiant užtikrinti, kad prekės yra sekamos pirmuoju įvežimu į sandėlį.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

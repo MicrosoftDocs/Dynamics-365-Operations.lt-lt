@@ -93,3 +93,6 @@ Rekomenduojama pirmiausia užbaigti užduočių vadovą „Sužeidimų ir ligų 
 36. Spustelėkite Įrašyti.
     * Atvejo būseną galima naujinti bet kuriuo metu.  Nustatykite atvejį kaip nebaigtą, jei sužalojimas arba liga yra apdorojama.  Incidentą uždarę galite tik pridėti arba šalinti išlaidas, gydymą arba su incidentu susijusius failus.  Norėdami keisti kitą informaciją, iš naujo atidarykite atvejį.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Norėdami panaikinti eksperimentą „Commerce” svetainių daryklėje, atlikit
 
 ## <a name="previous-step"></a>Ankstesnis veiksmas
 [Eksperimento vykdymas ir stebėjimas](experimentation-run-monitor.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

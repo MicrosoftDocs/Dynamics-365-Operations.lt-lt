@@ -140,3 +140,6 @@ Daugiau informacijos ieškokite šiose temose:
 
 - [Finansinių dimensijų apibrėžimas](tasks/define-financial-dimensions.md)
 - [Prižiūrėti finansinės dimensijos numatytuosius šablonus](tasks/maintain-financial-dimension-default-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

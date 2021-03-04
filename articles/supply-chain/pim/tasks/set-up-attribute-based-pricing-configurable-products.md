@@ -52,3 +52,6 @@ ms.locfileid: "4433442"
 8. Lauke **Išraiška** įveskite reikšmę. Pavyzdžiui, įveskite `50`. 
 9. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

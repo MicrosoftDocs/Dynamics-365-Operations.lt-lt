@@ -43,3 +43,6 @@ ms.locfileid: "4433458"
 10. Pažymėkite **Taip** lauke **Leisti ciklo skaičiavimą**.
 11. Pasirinkite **Įrašyti**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

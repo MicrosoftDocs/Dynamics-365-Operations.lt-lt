@@ -162,3 +162,6 @@ Prieš pradedant padengimo veiksmą, yra išankstinio padengimo veiksmas, kurio 
 - **Vienu metu – viena sudėtinga procedūra** – nevykdykite bendrojo planavimo kartu su kitomis sudėtingomis procedūromis.
 - **Seanso žurnalo peržiūra.**
 - **Prekių filtravimas** – naudokite gyvavimo ciklo būseną, kad neįtrauktumėte prekių į bendrąjį planavimą. (Nenaudokite prekių numerių.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

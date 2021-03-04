@@ -54,3 +54,6 @@ Atlikus šį pakeitimą, naršant po išsamią atskirų darbo elementų, esanči
 
 - **Problema**: įtraukiant naują priedą į darbininko puslapį mygtukai **Naujas** ir **Redaguoti** yra papilkinti. 
 - **Problemos sprendimas:** prieš atidarydami priedų puslapį įsitikinkite, kad „FactBoxes“ laukai puslapyje **Darbininkas** yra uždaryti. Jei „FactBoxes“ laukai yra uždaryti, įkeliant puslapį **Darbininkas** priedų mygtukai bus įjungti. (Ši problema bus pašalinta kitame platformos naujinime.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

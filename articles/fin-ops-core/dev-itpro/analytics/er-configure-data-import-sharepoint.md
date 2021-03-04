@@ -206,3 +206,6 @@ Peržiūrėkite modelio `Application Suite` klasės `BankImport_RU` kodą, kad p
 
 [„Application Update 7.3“ ER sistemos API pakeitimai](er-apis-app73.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Puslapyje **Masinės samdos projektas** spustelėję **Atidaryti projektą** arb
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

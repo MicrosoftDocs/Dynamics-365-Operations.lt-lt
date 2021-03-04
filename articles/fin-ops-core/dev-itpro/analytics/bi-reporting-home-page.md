@@ -89,3 +89,6 @@ Tolesnėse ataskaitose pateikiama nuorodos informacija apie objektus:
 - [Licencijų kodų ir konfigūracijos raktų ataskaita](../sysadmin/license-codes-configuration-keys-report.md)
 - [Galimos „SQL Server“ ataskaitų tarnybos (SSRS) ataskaitos](SSRS-report.md)
 - [Darbo eigos tipų ataskaita](../../fin-ops/organization-administration/workflow-types-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

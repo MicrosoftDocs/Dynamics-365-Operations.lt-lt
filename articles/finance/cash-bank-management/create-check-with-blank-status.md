@@ -38,3 +38,6 @@ Puslapyje **„Čekiai“** atliekamos čekių priežiūros užduotys. Pavyzdži
 Norėdami atidaryti puslapį **Čekiai**, eikite į skirtuką **Grynųjų pinigų ir banko valdymas \> Banko sąskaitos \> Banko sąskaitos**, tada skirtuko **Valdyti mokėjimus** srityje „Veiksmas“ grupėje **Susijusi informacija** pasirinkite **Čekiai**. Arba eikite į skirtuką **Grynųjų pinigų ir banko valdymas \> Užklausos ir ataskaitos \> Čekiai**.
 
 Tada, norėdami sukurti čekius, kurių būsena **Tuščia**, srityje „Veiksmas“ pasirinkite **Kurti tuščius čekius**. Kol sistemoje kuriami tušti čekiai, susieta banko sąskaita laikinai yra neaktyvi. Taip sumažinama rizika, kad mokėjimai bus sugeneruoti tuo pačiu metu, kai bus sukurti tušti čekiai. Kai apdorojimas baigiamas, susieta banko sąskaita iš naujo aktyvinama.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

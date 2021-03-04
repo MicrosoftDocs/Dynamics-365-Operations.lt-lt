@@ -82,3 +82,6 @@ Jei nuoma pakeista, galite peržiūrėti įvairias jos versijas. Taip pat galite
 
 2. Norėdami peržiūrėti istorinius grafikus, atidarykite pakeistą nuomą puslapyje **Nuomos suvestinė**, pasirinkite norimą knygą, tada veiksmų srityje pasirinkite **Knygos versijų retrospektyva**.
 3. Puslapyje **Knygos versija** pasirinkite norimą versiją ir norimą grafiką, kuriuos norite peržiūrėti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

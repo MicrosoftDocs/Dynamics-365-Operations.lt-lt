@@ -117,3 +117,6 @@ Jei planuojate naudoti šį metodą dideliam operacijų duomenų kiekiui, turite
 [ER FIRSTORNULL funkcija](er-functions-list-firstornull.md)
 
 [WHERE ER funkcija](er-functions-list-where.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

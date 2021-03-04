@@ -599,3 +599,6 @@ Galite padalyti stulpelio sumą į nurodytą laikotarpių skačių. Pavyzdžiui,
 [Finansinių ataskaitų dizaino įrankio eilučių aprašai](row-definitions-financial-reporting.md)
 
 [Išplėstinės finansinių ataskaitų formatavimo parinktys](advanced-formatting-options-financial-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

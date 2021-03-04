@@ -56,3 +56,6 @@ ms.locfileid: "4433870"
 19. Veiksmų srityje pasirinkite **Paimti ir pakuoti**.
 20. Pasirinkite **Važtaraštis**. Puslapyje **Važtaraščio žurnalas** pateikti visi pagal jūsų užsakymą sugeneruoti važtaraščio dokumentai. Galite peržiūrėti kiekvieno dokumento informaciją ir, jei norite, ją atsispausdinti.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Taip pat galite kurti priežiūros darbuotojų grupes ir su jais susieti prieži
 6. Jei išteklių grupė turėtų būti susieta su pasirinkta priežiūros darbuotojų grupe, pasirinkite **Kopijuoti iš išteklių grupės**. Lauke **Grupė** pasirinkite išteklių grupę, iš kurios kopijuosite kalendoriaus parametrus. Po to, lauke **Darbuotojų grupė** pasirinkite darbuotojų grupę, kad į ją nukopijuotumėte išteklių grupės kalendoriaus parametrus. Šis veiksmas svarbus tik tada, kai norite, kad planuojant darbo užsakymą, priežiūros darbuotojai galėtų naudoti su ištekliumi (darbo centru) susijusį kalendorių.
 
     „FastTab“ skirtuko **Informacija** lauke nurodomas priežiūros darbuotojų, kurie buvo pridėti į pasirinktą darbuotojų grupę, skaičius.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

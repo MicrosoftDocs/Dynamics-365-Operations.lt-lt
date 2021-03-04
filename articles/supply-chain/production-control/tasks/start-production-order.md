@@ -71,3 +71,6 @@ ms.locfileid: "4433513"
 7. Spustelėkite Registruoti.
 8. Spustelėkite GERAI.
     * Technologinės kortelės žurnale įrašomas atskiroms operacijoms skiriamas laikas. Taip pat gali būti nurodytas prekių ir klaidų kiekis.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

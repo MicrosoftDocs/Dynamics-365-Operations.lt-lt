@@ -57,3 +57,6 @@ Tada sukuriamas C produkto gamybos užsakymas, o A produktas įtraukiamas į gam
     - **C produktas:** 2
 
 Taip užtikrinama, kad gamybos užsakymo KS pakeitimai neturėtų įtakos būsimiems išlaidų skaičiavimams.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

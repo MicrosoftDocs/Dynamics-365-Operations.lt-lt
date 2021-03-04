@@ -41,3 +41,6 @@ ms.locfileid: "4446127"
 10. Lauke Dimensija įveskite arba pasirinkite reikšmę.
 11. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

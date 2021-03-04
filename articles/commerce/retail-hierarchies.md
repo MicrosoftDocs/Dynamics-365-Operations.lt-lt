@@ -45,3 +45,6 @@ Toliau nurodytoje lentelėje pateikiami galimi kategorijų hierarchijų tipai ir
 | Naršymo hierarchija   | Naudokite šio tipo hierarchiją, norėdami grupuoti ir tvarkyti produktus į kategorijas, kad produktus būtų galima naršyti internete arba EKA. |
 
 Naudodami kategorijų hierarchiją savo produktams struktūruoti, galite nustatyti ir prižiūrėti produkto atributus ir savybes kategorijos lygiu. Šie atributai ir ypatybės apima produktų dimensijų ir EKA parametrus. Visiems produktams, kuriuos priskiriate kategorijoms, automatiškai priskiriami jūsų nurodyti atributai ir ypatybės. Taip pat galite nukopijuoti bet kurio produkto ypatybių parametrus, norėdami vienu metu padidinti pasirinktos kategorijos produktų skaičių.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

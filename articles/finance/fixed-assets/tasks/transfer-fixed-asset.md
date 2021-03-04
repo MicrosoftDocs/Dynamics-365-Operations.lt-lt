@@ -48,3 +48,6 @@ ms.locfileid: "4446005"
     * Prieš perkeldami ilgalaikio turto knygas, peržiūrėkite rezultatus.  
 10. Spustelėkite **Perkelti**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

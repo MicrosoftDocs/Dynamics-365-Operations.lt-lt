@@ -72,3 +72,6 @@ Biudžeto plano šabloną sukuria biudžeto vadovas programoje „Microsoft Word
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

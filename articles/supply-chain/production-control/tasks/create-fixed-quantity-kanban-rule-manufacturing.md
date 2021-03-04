@@ -74,3 +74,6 @@ ms.locfileid: "4433316"
     * Taip sukursite 5 „kanbans“.  
     * Atkreipkite dėmesį, kad 5 „kanbans“, kiekvienas po 10, buvo sukurti šiai gamybos „kanban“ taisyklei. Tai yra paskutinis šios procedūros veiksmas.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

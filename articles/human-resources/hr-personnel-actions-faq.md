@@ -92,3 +92,6 @@ Pvz.:
 - Veiksmo **Samdyti darbininką** įsigaliojimo data yra data, kurią įvedėte lauke **Įdarbinimo pradžios data**.
 - Veiksmo **Perkelti darbininką** įsigaliojimo data yra data, kurią tam darbininkui įvedėte lauke **Priskyrimo pradžios data**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

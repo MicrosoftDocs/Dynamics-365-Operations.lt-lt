@@ -45,3 +45,6 @@ Norint įjungti šiuos scenarijus reikia sukonfigūruoti parduotuvių funkcijų 
 
 > [!NOTE]
 > Galimybės apmokėti ar sudengti dalines sumas dar nėra.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

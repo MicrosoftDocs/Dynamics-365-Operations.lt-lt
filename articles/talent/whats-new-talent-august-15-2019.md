@@ -61,3 +61,6 @@ Daugiau informacijos apie „Finance and Operations” platformos 29 naujinimą 
 Darbuotojų įrašų pakeitimai retai įsigalioja iš karto. Turite atnaujinti duomenis nuo darbuotojo darbo pradžios datos, kuri dažnai būna dar neatėjusi, taip pat turite atnaujinti senesnę informaciją. Naudodami šį supaprastintą naršymo modelį, galėsite atnaujinti būsimus ir ankstesnius duomenis nepereidami į kelias formas ir nekeisdami datos konteksto. Šis pakeitimas taip pat dinamiškai skatina ir rodo svarbiausią darbuotojo įrašo informaciją viršutinėje juostos srityje.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

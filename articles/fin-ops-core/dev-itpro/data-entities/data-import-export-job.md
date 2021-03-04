@@ -243,3 +243,6 @@ Norėdami atsisiųsti suarchyvuotą vykdymo retrospektyvą, eikite į duomenų t
 -   DMFSTAGINGLOGDETAILS
 -   DMF išdėstymo tikrinimo žurnalas
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Visi žurnalo įrašai, sukurti modulyje Turto nuoma, pateikiami Turto nuomos ž
 
 > [!NOTE]
 > Turto nuomos žurnalo negalima sukurti neautomatiniu būdu. Jis sukuriamas automatiškai, kai kuriami nuomos grafikai.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

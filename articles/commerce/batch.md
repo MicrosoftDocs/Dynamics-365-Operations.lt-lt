@@ -45,3 +45,6 @@ Norėdami nustatyti numatytąjį paketo ID, kuris yra naudojamas, kai registruoj
 
 > [!NOTE]
 > „Retail” 10.0.5 versijoje įvestas patobulinto pagal paketą sekamų prekių tvarkymo palaikymas atliekant neišplėstinių sandėlių valdymo scenarijų išrašų tvarkymą.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

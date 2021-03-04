@@ -77,3 +77,6 @@ Atliekant užduočių planavimo procesą atsižvelgiama į nurodytas išteklių 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

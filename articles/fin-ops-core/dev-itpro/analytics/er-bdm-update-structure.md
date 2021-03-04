@@ -106,3 +106,6 @@ Atlikite tolesnes procedūras, nurodytas temoje [Funkcijos Verslo dokumentų val
 [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)
 
 [Verslo dokumentų valdymo apžvalga](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -263,3 +263,6 @@ Jei kūrėjas nustato **WidthMode** ypatybę į **SizeToAvailable** stulpeliams 
 ### <a name="quality-update-for-1009platform-update-33"></a>Kokybinis naujinimas, skirtas 10.0.9 / platformos 33 naujinimui
 
 - [KB 4550367] Laiko vertės nėra tinkamai suformatuotos.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

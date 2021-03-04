@@ -62,3 +62,6 @@ Temoje aiškinama, kaip kurti siuntos papildymo užsakymą, kuriame galite steb�
 3. Pažymėkite **Apžvalga**. Prekės, kurios nebuvo gautos kaip tiekėjui priklausančios konsignacijos atsargos, yra turimos atsargos. Likęs siuntos atsargų užsakymo kiekis rodomas lauke **Iš viso užsakyta**.  
 4. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

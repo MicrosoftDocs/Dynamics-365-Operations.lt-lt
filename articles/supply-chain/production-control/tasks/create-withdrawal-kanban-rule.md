@@ -64,3 +64,6 @@ ms.locfileid: "4433302"
     * Taip sukursite du „kanban“ signalus.  
     * Atkreipkite dėmesį, kad 2 „kanban“ signalai, kiekvienas po 5, buvo sukurti šiai išėmimo „kanban“ taisyklei.  Tai yra paskutinis šios procedūros veiksmas.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

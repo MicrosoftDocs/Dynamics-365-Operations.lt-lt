@@ -75,3 +75,6 @@ Konfigūracija yra bendrinama su išorine organizacija ir šiai organizacijai pa
 ![Su išorine organizacija bendrinama konfigūracija](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_test.com)
 
 6. Norėdami atšaukti anksčiau su išorine organizacija bendrintos konfigūracijos bendrinimą, pasirinkite konfigūraciją ir spustelėkite **Atšaukti bendrinimą**, tada pasirinkite **Gerai**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Taip pat galite kurti naują priežiūros biudžetą nukopijuodami esamą biudž
 
 > [!NOTE]
 > Priežiūros biudžetas skaičiuoja tik tuos biudžeto kaštus, kurie pagrįsti priežiūros grafiko eilutėmis. Norėdami apskaičiuoti faktiniu faktinius to paties laikotarpio kaštus, šį skaičiavimą galite atlikti puslapyje **Turto kaštų valdymas**. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

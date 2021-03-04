@@ -69,3 +69,6 @@ Toliau pateiktoje iliustracijoje vaizduojama logika, naudojama, kai nuolaidos su
 Toliau pateiktoje iliustracijoje vaizduojama logika, naudojama, kai nuolaidos sutapimo valdiklis nustatomas kaip **Geriausia kaina tik pirmenybėje, visada skaičiuoti už pirmenybės ribų**.
 
 ![Logika, skirta „Geriausia kaina tik pirmenybėje, visada skaičiuoti už pirmenybės ribų“](./media/Model_2.png "Logika, skirta „Geriausia kaina tik pirmenybėje, visada skaičiuoti už pirmenybės ribų“").
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

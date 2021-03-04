@@ -149,3 +149,6 @@ Galite naudoti **Darbo informacijos** puslapį tam, kad peržiūrėtumėte sukur
 > Kai **Darbo baseino keitimo** laukelis pasirodo, **Darbo baseino identifikavimo kodo** laukelis gali būti paliktas tusčias iš anksto. Jei laukelis yra tuščias, kai pasirenkate **OK** keitimų pritaikymui, tuomet visai pašalinsite darbo baseiną iš darbo.
 >
 > Kartu su darbo baseinų keitimu, galite naudoti šią procedūrą darbo baseino įtraukimui į bet kurį darbo elementą, kuris jo neturi arba darbo baseino pašalinimui iš bet kurio darbo elemento, kuris jį turi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

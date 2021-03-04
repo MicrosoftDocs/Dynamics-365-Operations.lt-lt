@@ -107,3 +107,6 @@ Pasirinkite dokumentų tipus, kurie turėtų būti pasiekiami kaip spausdinimo p
 **Numeravimo sekų** saitas
 
 Šioje dalyje pasirinkite reikiamas numeravimo sekas. Turtui taikomos dvi numeravimo sekos: viena skirta neautomatiniu būdu sukurtam turtui, o kita – turtui, sukurtam laukiant turto.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

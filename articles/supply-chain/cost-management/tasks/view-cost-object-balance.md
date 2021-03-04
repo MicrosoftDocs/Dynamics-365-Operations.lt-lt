@@ -40,3 +40,6 @@ Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. �
 8. Išvalykite žymės langelį Vieta.
 9. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

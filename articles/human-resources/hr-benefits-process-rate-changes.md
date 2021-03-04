@@ -48,3 +48,6 @@ Išmokų tarifo pakeitimų apdorojimas programoje „Microsoft Dynamics 365 Huma
    4. Pasirinkite **Gerai**. Procesas bus vykdomas naudojant jūsų nustatytus parametrus.
 
 4. Pasirinkite **Gerai**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Pagal numatytuosius nustatymus „Microsoft Power BI“ ataskaitos atnaujinamos 
 1. Puslapio viršuje pasirinkite **Redaguoti** ir nustatykite suplanuotos paleidimo datos arba laiko vertę, pagal kurią analizė bus atnaujinta arčiau dabartinio laiko.
 
 ![Paketinės užduotys](media/batch-jobs.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ ms.locfileid: "4433538"
 13. Lauke **Paveldimi tiekėjai iš pirminės kategorijos:** pažymėkite **Ne**.
 14. Lauke **Paveldimi tiekėjai iš pirminės kategorijos:** pažymėkite **Taip**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

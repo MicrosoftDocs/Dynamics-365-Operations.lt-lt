@@ -439,3 +439,6 @@ Toliau pateikiamoje lentelėje aprašomi įvairūs darbo tipai, su kuriais galit
 [Atsargų būsenos](../inventory/inventory-statuses.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

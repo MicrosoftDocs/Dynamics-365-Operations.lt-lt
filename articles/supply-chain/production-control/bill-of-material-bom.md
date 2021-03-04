@@ -118,3 +118,6 @@ Pasirinkite **Tiekėjo** eilučių tipą, jei gamybos procese dalyvauja subrango
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

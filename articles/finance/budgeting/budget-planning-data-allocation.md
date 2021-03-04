@@ -77,3 +77,6 @@ Galiausiai pridėkite norimo darbo eigos etapo biudžeto planavimo etapo paskirs
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

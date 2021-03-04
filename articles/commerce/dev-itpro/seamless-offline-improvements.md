@@ -56,3 +56,6 @@ Prekybos parametrai paprastai saugomi talpykloje. Todėl atnaujinus šio paramet
 
 - [Elektroninio kasos aparato (EKA) funkcijos neprisijungus](https://docs.microsoft.com/dynamics365/retail/pos-offline-functionality)
 - [Elektroninio kasos aparato (EKA) operacijos, prisijungus ir neprisijungus prie interneto](https://docs.microsoft.com/dynamics365/retail/pos-operations)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

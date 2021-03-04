@@ -54,3 +54,6 @@ Susijusiame kvito lange kvitas iš korespondentinės įmonės rodomas registruoj
 3. Sąraše pažymėkite pasirinktą eilutę.
 4. Spustelėkite Kvitas.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

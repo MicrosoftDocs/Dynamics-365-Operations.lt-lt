@@ -301,3 +301,6 @@ Daugiau informacijos apie mobiliojo įrenginio meniu elementus žr. [Mobiliųjų
 Dėl išsamesnės informacijos apie licencijos numerio gavimą ir darbo politikas,, žr. [Licencijos numerį gaunamą per sandėlio programą](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Daugiau informacijos apie gaunamos apkrovos valdymą rasite [Sandėlio pirkimų užsakymų gaunamos apkrovos tvarkymas](inbound-load-handling.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

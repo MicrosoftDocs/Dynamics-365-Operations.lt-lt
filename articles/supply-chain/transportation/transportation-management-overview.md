@@ -87,3 +87,6 @@ Galite planuoti ir apdoroti siunčiamą krovinį, norėdami siųsti klientui kon
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

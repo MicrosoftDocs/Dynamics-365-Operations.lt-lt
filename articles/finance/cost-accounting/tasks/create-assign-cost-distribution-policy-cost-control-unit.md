@@ -73,3 +73,6 @@ Savikainos paskirstymo taisyklės naudojamos norint paskirstyti savikainą, kuri
 5. Lauke Savikainos kontrolės įtaisas įveskite arba pasirinkite reikšmę.
 6. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

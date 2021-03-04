@@ -169,3 +169,6 @@ Modifikuotas šablonas naudojamas pažymėtos prekės laisvos formos sąskaitos-
 [Verslo dokumentų valdymo apžvalga](er-business-document-management.md)
 
 [Konfigūracijos, skirtos ataskaitoms OPENXML formatu generuoti, kūrimas](tasks/er-design-reports-openxml-2016-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ ms.locfileid: "4446017"
 10. Spustelėkite Važtaraštis.
 11. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

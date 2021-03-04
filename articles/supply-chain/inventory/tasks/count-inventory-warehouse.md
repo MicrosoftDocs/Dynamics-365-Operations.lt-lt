@@ -56,3 +56,6 @@ ms.locfileid: "4433860"
 1. Pasirinkite **Atsargos**.
 2. Pasirinkite **Operacijos**. Čia galite pamatyti visas susijusias operacijas, kurios bus sukurtos registruojant atsargų inventorizacijos žurnalą.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

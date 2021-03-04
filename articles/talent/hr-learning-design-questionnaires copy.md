@@ -246,3 +246,6 @@ Arba klausimyną galite nustatyti taip, kad, jei 1 klausime respondentas pasiren
 
 [Klausimynų rezultatų peržiūra ir įvertinimas](evaluate-questionnaire-results.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

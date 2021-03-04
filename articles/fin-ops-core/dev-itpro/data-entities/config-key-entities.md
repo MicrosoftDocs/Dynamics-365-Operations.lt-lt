@@ -94,3 +94,6 @@ Naudojant konfigūracijos raktų metaduomenis, sukurtus atnaujinant objektų są
 Kai tik objekto, lentelės ar lauko lygiu atnaujinate objekto konfigūracijos raktus, reikia atnaujinti duomenų valdymo sistemoje esantį objektų sąrašą. Šiuo procesu užtikrinama, kad sistema naudoja naujausius konfigūracijos raktų parametrus. Kol nebus atnaujintas objektų sąrašas, objektų sąrašų puslapyje bus rodomas tolesnis įspėjamasis pranešimas. Atnaujinti konfigūracijos raktų keitimai įsigalios iš karto po to, kai bus atnaujintas objektų sąrašas. Rekomenduojame patikrinti esamus duomenų projektus ir užduotis, kad įsitikintumėte, jog, įsigaliojus konfigūracijos raktų keitimams, jie veikia taip, kaip tikėtasi.
 
 ![Paskirties laukai](./media/Target_fields_3.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Norint patvirtinti hipotezę, eksperimento sėkmė arba nesėkmė turėtų būti
 
 ## <a name="next-step"></a>Kitas veiksmas
 [Eksperimento nustatymas](experimentation-setup.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

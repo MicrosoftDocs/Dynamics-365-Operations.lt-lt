@@ -72,3 +72,6 @@ Tolesnėje iliustracijoje parodytas vaizdas, kai vykdomas sukurtas formatas.
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Sąrašo funkcijos](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

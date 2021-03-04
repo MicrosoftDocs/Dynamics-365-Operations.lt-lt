@@ -81,3 +81,6 @@ Operacijų išteklius atlieka projekto arba gamybos proceso veiklas. Ši proced�
 4. Lauke Įvesties vieta įveskite arba pasirinkite reikšmę.
     * Nurodykite sandėlio vietą, iš kurios operacijų išteklius vartoja medžiagas.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

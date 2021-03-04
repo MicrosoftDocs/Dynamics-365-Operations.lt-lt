@@ -39,3 +39,6 @@ Toliau pateiktoje procedūroje išvardijami veiksmai, kuriuos sistemos administr
 6. Eikite į **Naršymo sritis > Moduliai > Bendras > Bendras > Numatytoji ataskaitų sritis**. Naujas reklaminės juostos arba logotipo vaizdas turėtų būti rodomas ataskaitų srityje.  
     
     Jums gali reikėti pakeisti įmonę naudojant įmonės parinkiklį į tą, kurios reklaminę juostą nusiuntėte.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

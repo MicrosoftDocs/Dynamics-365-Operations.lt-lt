@@ -42,3 +42,6 @@ Galite nustatyti toliau nurodytą kliento SF ir grąžinimo pardavimo užsakymų
 
     * Pasirinkite **Organizacijos administravimas \> Numeracijos \> Skaitiklių valdymas**. Turi būti įrašas, kuriame **Modulis** = **Pardavimas** ir **Tipas** = **Sąskaita faktūra**.
     * Pasirinkite **Organizacijos administravimas \> Numeracijos \> SF numeravimo nustatymas**. Pažymėkite numeracijos eilutės, naudojamos kliento SF numeruoti, žymės langelį **Prekyba**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

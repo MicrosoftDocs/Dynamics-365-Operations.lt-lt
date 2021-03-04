@@ -94,3 +94,6 @@ Prieš vykdydami šioje temoje esančias procedūras, turite atlikti toliau nuro
 [Elektroninių ataskaitų (ER) paskirties vietos](electronic-reporting-destinations.md)
 
 [XML elementų ER formatais vykdymo atidėjimas](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -99,3 +99,6 @@ Kai peržiūrite puslapius, pagrįstus šablonu, į kurį įtraukėte metažymė
 
 [Įtraukite scenarijaus kodą į svetainės puslapius, kad būtų palaikoma telemetrija](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

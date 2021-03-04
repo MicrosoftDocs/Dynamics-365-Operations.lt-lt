@@ -84,3 +84,6 @@ Priežasčių kodus galima konfigūruoti taip, kad jų reikėtų keičiant ilgal
 Galiausiai skirtuke **Numeracijos** galite nurodyti ilgalaikio turto numeracijas. Numeraciją **Ilgalaikis turtas** galima perrašyti numeracija **Ilgalaikio turto grupė**, jei ji nurodyta.
 
 Daugiau informacijos žr. [Kurti ilgalaikį turtą](tasks/create-fixed-asset.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

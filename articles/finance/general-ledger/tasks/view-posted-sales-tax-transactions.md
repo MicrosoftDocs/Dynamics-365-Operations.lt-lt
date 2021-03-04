@@ -49,3 +49,6 @@ ms.locfileid: "4446094"
 2. Veiksmų srityje pasirinkite **PVM kodas**.
 3. Pasirinkite **Registruotas PVM**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

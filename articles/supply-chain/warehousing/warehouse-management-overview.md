@@ -74,3 +74,6 @@ Nuomonių, naujienų ir kitos informacijos apie modulį Sandėlio valdymas ir ki
 
  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

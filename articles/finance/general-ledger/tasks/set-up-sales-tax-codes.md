@@ -46,3 +46,6 @@ ms.locfileid: "4445899"
 12. Uždarykite puslapį.
 13. Pasirinkite **Įrašyti**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

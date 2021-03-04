@@ -56,3 +56,6 @@ Naudojant modulio Elektroninės ataskaitos (ER) datos ir laiko funkcijas, galima
 [Elektroninių ataskaitų formulių kūrimo įrankis](general-electronic-reporting-formula-designer.md)
 
 [Elektroninių ataskaitų formulių kalba](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

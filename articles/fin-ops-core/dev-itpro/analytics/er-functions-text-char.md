@@ -59,3 +59,6 @@ Gaunama tekstinė reikšmė.
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Tekstinės funkcijos](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

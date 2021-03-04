@@ -86,3 +86,6 @@ SF gretinimo tikrinimo metu tiekėjo SF strategijos nenaudojamos – jis nustato
 24. Uždarykite puslapį.
 25. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

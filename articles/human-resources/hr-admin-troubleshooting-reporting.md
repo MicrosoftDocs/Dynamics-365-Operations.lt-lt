@@ -49,3 +49,6 @@ Vartotojui nepavyksta tinkinti įdėtųjų „Microsoft Power BI“ ataskaitų.
 **Ilgalaikis sprendimas**
 
 Bus pasiekiama papildomų „Power BI“ parinkčių, o „Common Data Service“ priklausys daugiau duomenų ir objektų.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

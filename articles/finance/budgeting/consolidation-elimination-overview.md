@@ -90,3 +90,6 @@ Naudodami pasirinktį **Įmonės balansų eksportavimas**, skirtą eksportuoti i
 Daugiau informacijos rasite [Valiutos kurso pasikeitimas konsoliduotoje įmonėje](../general-ledger/currency-revaluation-consolidation-company.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

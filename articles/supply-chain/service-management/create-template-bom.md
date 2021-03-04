@@ -111,3 +111,6 @@ Naujas KS ruošinys sukurtas, naudojant eilutes, atitinkančias KS eilutes, išv
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

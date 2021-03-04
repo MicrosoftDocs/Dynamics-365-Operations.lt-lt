@@ -242,3 +242,6 @@ Jei reikia papildomos informacijos apie <strong>SysQueryRangeUtil</strong> datos
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

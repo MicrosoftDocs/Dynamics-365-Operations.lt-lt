@@ -53,3 +53,6 @@ Tai yra trečioji iš aštuonių procedūrų, kuriomis paaiškinama, kaip kurti 
 20. Uždarykite puslapį.
 21. Uždarykite formą **Išleisto produkto informacija**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

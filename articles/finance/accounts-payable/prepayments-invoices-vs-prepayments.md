@@ -66,3 +66,6 @@ Išankstinio mokėjimo SF versle yra įprastos. Tiekėjas išduoda išankstinio 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ ms.locfileid: "4433965"
 14. Lauke „Mokestis už papildomas paslaugas“ įveskite skaičių.
 15. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

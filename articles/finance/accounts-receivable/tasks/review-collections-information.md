@@ -143,3 +143,6 @@ ms.locfileid: "4446013"
 5. Pasirinkite **Rodyti sąrašą**.
 - Pasirinkite kliento sąskaitą arba priimkite numatytąjį įrašą. Pagal numatytuosius nustatymus tai yra sąrašo puslapyje arba formoje, iš kurios atidarėte šią formą, pasirinkta kliento sąskaita. Jei formą atidarėte iš sąrašo puslapio, sąraše rodomi klientai, įtraukti į mokėjimų priežiūros telkinį, kuris naudojamas sąrašo puslapyje.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

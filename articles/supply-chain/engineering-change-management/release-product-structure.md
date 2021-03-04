@@ -160,3 +160,6 @@ Toks elgesys taikomas tik, kai produktas yra tiesiogiai pasirinktas leidimui. Pr
 Pavyzdžiui, produktas X yra priskirtas *Kūrimo biurų* produkto savininko grupei. Produktas X taip pat yra BOM Y produkto dalis, kuris yra priskirtas *Projektavimo garsiakalbių* produkto savininko grupei. Jei naudotojas iš *Projektavimo garsiakalbių* produkto savininko grupės išleidžia Y produktą ir jo BOM, produktas X bus išleistas kartu su produktu Y.
 
 Dėl daugiau informacijos, žr. [Produkto savininkai](product-owner.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

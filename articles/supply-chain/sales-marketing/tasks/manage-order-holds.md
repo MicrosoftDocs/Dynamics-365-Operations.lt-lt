@@ -70,3 +70,6 @@ ms.locfileid: "4433687"
     - Veiksmas **Valyti ir pateikti** taikomas tik naudojant skambučių centro funkcijas.  
 8. Spustelėkite **Išvalyti sulaikymą**. Sulaikymas dabar išvalytas iš užsakymo ir pašalintas iš aktyvių sulaikymų sąrašo. Norėdami peržiūrėti visus sulaikymus arba jų subrinkinį pagal konkrečią būseną, pakeiskite lauko Rodyti reikšmę.     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

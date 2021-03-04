@@ -157,3 +157,6 @@ Tolesniais veiksmais paaiškinama, kaip sistemos administratoriaus arba elektron
 71. Uždarykite puslapį.
 72. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

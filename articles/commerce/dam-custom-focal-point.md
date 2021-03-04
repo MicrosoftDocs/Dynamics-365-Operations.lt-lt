@@ -60,3 +60,6 @@ Norėdami nustatyti pasirinktą centrinį vaizdo tašką, atlikite šiuos veiksm
 [Vaizdų apkarpymas](dam-crop-images.md)
 
 [Naujinti ir aptarnauti statinius failus](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

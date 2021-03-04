@@ -115,3 +115,6 @@ Toliau pateiktame vaizde parodytas išleisto produkto konfigūracijos pavyzdys.
 [Juridinių subjektų kūrimas](channels-legal-entities.md)
 
 [Variantų grupės kūrimas](create-variant-group.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

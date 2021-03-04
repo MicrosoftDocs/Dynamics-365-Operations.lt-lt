@@ -243,3 +243,6 @@ Norėdami tai padaryti, „Proseware, Inc.‟ turi pakeisti pagrindinę pasirink
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>Pritaikyto formato tikrinimas generuojant mokėjimo failus
 Lygiagrečiame „Finance and Operations” seanse atlikite procedūros „Sukurto formato naudojimas generuoti elektroniniams mokėjimų dokumentams‟ veiksmus. Elektroninio mokėjimo būdo parametruose pasirinkite sukurtąjį formatą „BACS (JK fiktyvus pasirinktinis)‟. Įsitikinkite, kad sukurtame mokėjimo faile yra neseniai „Proseware, Inc.“ įdiegtas XML mazgas, pagal regiono reikalavimus pateikiantis IBAN sąskaitos kodą. Faile taip pat turėtų būti neseniai įmonės „Litware, Inc.‟ įdiegtas XML mazgas, pagal šalies reikalavimus pateikiantis SWIFT banko kodą.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

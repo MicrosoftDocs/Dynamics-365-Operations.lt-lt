@@ -86,3 +86,6 @@ Kai daugelis pasiėmimo pristatymo režimų yra prieiname kanale, papildoma pati
 ## <a name="considerations-for-distributed-order-management"></a>Pasvarstymai dėl pristatyto užsakymo valdymo
 
 [Pristatyto užsakymo valdymas (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) funkcijos „Commerce“ ignoruoja visas pardavimo eilutes, kurios buvo sužymėtos atsiėmimui parduotuvėje. Šios funkcijos buvo atnaujintos siekiant užtikrinti, kad prekybos eilutės, susietos su konfigūruotu atsiėmimo pristatymo būdu apietų DOM logiką ir nebūtų iš naujo priskiriamos naujam įgyvendinimo sandėliui.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

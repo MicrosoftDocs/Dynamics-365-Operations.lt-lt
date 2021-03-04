@@ -88,3 +88,6 @@ Tolesnis paveikslėlis rodo, kaip šis pavyzdys gali būti rodomas **Kelių lygi
 Tolesnis paveikslėlis rodo, kaip šis pavyzdys gali būti rodomas **Kelių lygių fiksavimo** puslapyje suplanuotos gamybos užsakymui.
 
 ![Vidinės įmonės pavyzdys apimantis tris įmones](media/IntercompanyPlanning2.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

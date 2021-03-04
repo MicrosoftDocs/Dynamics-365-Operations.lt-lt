@@ -42,3 +42,6 @@ Pirmieji eksploatavimo metai pasibaigs 2020 m. gruodžio mėn., o tai reiškia, 
    [![Pusmečio nusidėvėjimo konvencijos nusidėvėjimo grafikas](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 Išplėsti nusidėvėjimo laikotarpiai, kuriuos pradeda pusmečio konvencija, leidžia tiksliau paskirstyti nusidėvėjimą. Šešių mėnesių konvencija tolygiai nurodo nusidėvėjimo išlaidas, o tai naudinga pelno ir nuostolio išrašo ataskaitose.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

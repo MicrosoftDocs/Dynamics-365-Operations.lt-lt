@@ -162,3 +162,6 @@ Inžinerijso BOM ir maršrutai yra sukurti iš inžinerijos versijos, kurioje bu
 Produktams, kai naudojate *versijos* produkto matmenis (kartu su logistiniu poveikiu perlaidoms) versija taip pat įtraukiama į BOM ir maršrutus. Toks elgesys padeda atskirti BOM ir maršrutus tolesnėse versijose nepriklausomai nuo **Vykdyti efektyvumą** nustatymų.
 
 Produktams, kai naudojate *versijos* produkto matmenis (kartu su logistiniu poveikiu perlaidoms) versija taip pat įtraukiama į BOM ir maršrutus. Dėl to, nebus jokio skirtumo tarp BOM ir atitinkamų versijų maršrutų. Tokiu atveju, primygtinai rekomenduojame jums nustatyti **Vykdyti efektyvumą** parinktį į *Taip*. Tokiu būdu, padėsite apsisaugoti inžinerijos versijoms nuo persidengimo ir taip pat įjungti BOM ir maršrutą naujesnėje versijoje be poreikio išjungti BOM ir maršrutą ankstesnėje. Jei nustatote **Įjungti efektyvumą** parinktį į *Taip* tokiu atveju, privalote rankiniu būdu išjungti BOM ir senesnių versijų maršrutus prieš tai, kai galėsite įjungti naujausią versiją.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

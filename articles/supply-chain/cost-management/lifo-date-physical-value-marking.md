@@ -157,3 +157,6 @@ Toliau pateiktoje iliustracijoje parodytas LIFO atsargų modelio poveikis, naudo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

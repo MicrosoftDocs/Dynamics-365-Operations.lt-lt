@@ -38,3 +38,6 @@ ms.locfileid: "4433724"
 6. Lauke Pradžios data nustatykite datą „2012-12-01“.
 7. Lauke Pabaigos data nustatykite datą „2012-12-31“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

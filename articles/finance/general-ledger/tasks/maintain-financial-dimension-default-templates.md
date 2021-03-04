@@ -42,3 +42,6 @@ ms.locfileid: "4445921"
 11. Įveskite finansinių dimensijų reikšmes, kurios atitinka įvestą procentinę dalį.
 12. Pasirinkite **Įrašyti**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

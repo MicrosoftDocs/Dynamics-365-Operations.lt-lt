@@ -227,3 +227,6 @@ Ataskaitų dizaino įrankio įrankių juosta suteikia greitą prieigą prie koma
 [Finansinės ataskaitos](financial-reporting-intro.md)
 
 [Finansinių ataskaitų generavimas](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

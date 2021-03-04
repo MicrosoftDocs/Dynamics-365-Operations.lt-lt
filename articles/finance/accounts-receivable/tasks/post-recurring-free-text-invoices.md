@@ -46,3 +46,6 @@ Pasikartojančios SF naudojamos reguliariai klientams išrašyti SF už tą pač
 6. Spustelėkite Registruoti.
     * Registruokite pasirinktas SF.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

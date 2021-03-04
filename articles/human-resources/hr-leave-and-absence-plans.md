@@ -383,3 +383,6 @@ Prognozuojamas balansas (30) = sukaupta suma (10 x 1) + esamas balansas (40) –
 - [Atostogų ir neatvykimų apžvalga](hr-leave-and-absence-overview.md)
 - [Atostogų ir neatvykimų tipų konfigūravimas](hr-leave-and-absence-types.md)
 - [Atostogų ir neatvykimų kaupimo planai](hr-leave-and-absence-accrue.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

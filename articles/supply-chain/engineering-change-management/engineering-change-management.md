@@ -185,3 +185,6 @@ Didžioji dalis laukelių inžinerijos keitimo užsakymuose yra tokie patys kaip
 | Aplinkos sveikata ir sauga | Nurodykite, ar aplinkos sveikatos ir saugos taisyklės taikomos keitimui. Jei taip, galite tada pasirinkti taikomas taisykles. |
 
 Galite naudoti **Laikymo/kopijavimo keitimo informacijos** mygtuką, kad kopijuotumėte keitimo informaciją tarp paveiktų produktų.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

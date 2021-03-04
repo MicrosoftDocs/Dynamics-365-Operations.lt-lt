@@ -38,3 +38,6 @@ Toliau pateikiamame paveikslėlyje pavaizduotos sąsajos su kitais programos „
 ![Modulio Turto valdymas integravimo apžvalga](media/overview-integrate2.jpg)
 
 Turto valdymas leidžia efektyviai valdyti ir atlikti užduotis, susijusias su daugelio tipų įrangos valdymu ir aptarnavimu jūsų įmonėje, pavyzdžiui, mašinomis, gamybos įranga ir transporto priemonėmis. Modulyje Turto valdymas palaikomi sprendimai daugelyje pramonės šakų.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

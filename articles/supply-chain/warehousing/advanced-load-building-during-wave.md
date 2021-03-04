@@ -250,3 +250,6 @@ Galite nustatyti tiek krovinių kūrimo šablonų, kiek būtina. Tačiau norėda
 1. Ką tik sukurtame pardavimo užsakyme **Pardavimo užsakymo eilutės** „FastTab” pasirinkite **Pridėti eilutę**, kad pridėtumėte kitą eilutę.
 1. Naujoje eilutėje nustatykite **Prekės numeris** lauką į *M9200* ir **Kiekis** lauką į  *1*.
 1. Pakartokite nuo 6 iki 9 eilutes, kad užrezervuotumėte eilutę ir ją išleistumėte į sandėlį. Kaip ir anksčiau, sistema sukuria **Nauja** siuntą naujai jūsų pridėtai eilutei. Tačiau, kadangi prekė yra iš **AutomobilioAudio** prekių grupės, ji **neperleidžia jūsų krovinio mišriai grupei nustatytų apribojimų**. Todėl jis **pridedamas į naują krovinį**. Jei nebūtumėte nurodę krovinio mišrios grupės krovinio kūrimo šablone, ši siunta būtų buvusi pridėta pirmame krovinyje.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Tada galite naudoti išraišką, pvz. `FILTER (Users, Users.objectId = myID)`, f
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Tekstinės funkcijos](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

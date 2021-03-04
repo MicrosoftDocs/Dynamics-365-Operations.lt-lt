@@ -102,3 +102,6 @@ Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> *
 [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)
 
 [Elektroninių ataskaitų (ER) sistemos konfigūravimas](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

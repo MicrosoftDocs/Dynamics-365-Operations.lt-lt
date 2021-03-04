@@ -69,3 +69,6 @@ ms.locfileid: "4433992"
     - **Nuoroda į partiją** užtikrina, kad esamo pirkimo išlaidos bus įtrauktos į pridėtą pardavimo užsakymą.  
     - Atidarę saitą lauke **Nuorodos numeris**, galite pereiti į pradinį pardavimo užsakymą.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

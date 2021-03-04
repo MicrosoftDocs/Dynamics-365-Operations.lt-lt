@@ -116,3 +116,6 @@ Priežiūros planai naudojami turto prevencinės priežiūros darbų reguliariai
 ## <a name="financial-dimensions"></a>Finansinės dimensijos
 
 Turtui galima pasirinkti finansines dimensijas.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

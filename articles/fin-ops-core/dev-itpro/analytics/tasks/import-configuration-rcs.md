@@ -55,3 +55,6 @@ ms.locfileid: "4684192"
 5. Pasirinkite **Uždaryti**. 
 6. Pasirinkite norimą ER konfigūracijos versiją ir pasirinkite **Importuoti**, kad importuotumėte ją į dabartinį egzempliorių.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

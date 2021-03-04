@@ -55,3 +55,6 @@ Jei objektas sugadinamas arba negrąžinamas, įveskite fiktyvų grąžinimo įr
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

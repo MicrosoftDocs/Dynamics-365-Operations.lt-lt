@@ -87,3 +87,6 @@ Jei atstumas tarp sandėlių vietų ir gamybos įvesties vietos yra nedidelis, g
 
 Kai „kanban“ gamybos įvesties vietoje suvartojamas, „kanban“ užregistruojamas kaip Tuščias ir prie srauto pridedamas naujas „kanban“. Sukūrus „kanban“, bangos eilutė pridedama prie „kanban“ bangos. Apdorojus „kanban“ bangą, sukuriamas sandėlio darbas „kanban“ paėmimui. Sandėlio darbininkas vykdo „kanban“ paėmimą ir vadovaudamasis darbu paima medžiagas „kanban“ sandėlio vietoje. Šiam sandėlio darbininkui patvirtinus paėmimą, „kanban“automatiškai užbaigiamas, o sandėlio darbininkui nurodoma padėti medžiagas į gamybos įvesties vietą.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

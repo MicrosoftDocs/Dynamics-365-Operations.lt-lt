@@ -201,3 +201,6 @@ Buvo sukurta nauja šios siuntos banga, nes ji naudoja kitą vežėjo paslaugą 
 1. Pasirinkite bangos ID, kuri buvo sukurta iš trečiojo pardavimo užsakymo.
 1. Pasirinkite bangos ID saitą, kad atidarytumėte puslapį Bangos išsami informacija.
 1. Atkreipkite dėmesį, kad siunta buvo pridėta į „FastTab” skirtuką **Bangos eilutės** kartu su pirma pardavimo užsakymo siunta.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

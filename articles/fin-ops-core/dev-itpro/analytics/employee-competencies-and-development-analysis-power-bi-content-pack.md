@@ -69,3 +69,6 @@ Programos duomenys naudojami ataskaitoms darbuotojo kompetencijų ir tobulėjimo
 | Workforce\_WorkerName             | Vardas, pavardė ir vardas bei pavardė                                                                       | |
 | Workforce\_WorkerTitle            | Pareigos ir paaukštinimo data                                                                                   | |
 | Workorce\_WorkerTrend             | Darbuotojai per tam tikrą laiką, darbuotojų skaičius, įmonė ir pareigos                                                        | Workforce\_Company, Workforce\_Compensation, Workforce\_GeographicLocation, Workforce\_Performance, Workforce\_WorkerName, Workforce\_ReportsToWorkerName, Workforce\_CalendarOffset, Workforces\_Date, Workforce\_WorkerTitle, Workforce\_Demographics, Workforce\_Employment, Workforce\_Job |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

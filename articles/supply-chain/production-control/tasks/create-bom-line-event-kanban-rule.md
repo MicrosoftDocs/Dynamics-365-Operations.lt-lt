@@ -83,3 +83,6 @@ ms.locfileid: "4433317"
     * Atkreipkite dėmesį į „kanban‟, sukurtą, kad būtų galima tiekti M0001 įvertintam gamybos užsakymui.  
     * Tai paskutinis veiksmas!  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

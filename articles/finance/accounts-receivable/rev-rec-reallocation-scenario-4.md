@@ -77,3 +77,6 @@ Pasirinkus **Kvitas**, SF žurnale rodomas pradinis apskaitos įrašas. Norėdam
 Tada atidarykite puslapį **Visi klientai** (**Gautinos sumos \> Klientai \> Visi klientai**), pasirinkite klientą **US\_SI\_0003**, tada pasirinkite **Operacijos**. Puslapyje **Kliento operacijos** kartu su pradiniu apskaitos įrašu rodoma tik pradinė SF (000008). Parinktis **Perskirstant registruoti SF taisymus į Gautinas sumas** yra nustatyta į **Ne** puslapyje **DK parametrai**, todėl atnaujinama tik Didžioji knyga. Todėl atšaukimo ir atnaujintų apskaitos įrašai nerodomi. Atkreipkite dėmesį, kad rodomos įplaukų koregavimo operacijos, sukurtos [3 scenarijuje](rev-rec-reallocation-scenario-3.md).
 
 [![Pradinis apskaitos įrašas puslapyje Kliento operacijos](./media/47_rev-rec-scenarios.png)](./media/47_rev-rec-scenarios.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

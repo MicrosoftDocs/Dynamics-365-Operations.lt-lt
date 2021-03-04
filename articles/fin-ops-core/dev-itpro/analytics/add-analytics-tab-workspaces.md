@@ -175,3 +175,6 @@ public static void initializeReportControl(
 | showFilterPane   | Būlio logikos vertė, kuria nurodoma, ar filtro sritis turi būti rodoma (**true**), ar paslėpta (**klaidinga**).     |
 | showNavPane      | Būlio logikos vertė, kuria nurodoma, ar naršymo sritis turi būti rodoma (**true**), ar paslėpta (**klaidinga**). |
 | defaultFilters   | Numatytieji „Power BI“ ataskaitos filtrai.                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

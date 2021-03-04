@@ -67,3 +67,6 @@ Norint paleisti šią procedūrą, reikia, kad būtų produkto konfigūracijos m
 15. Lauke Reikalavimai įveskite arba pasirinkite vertę.
 16. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

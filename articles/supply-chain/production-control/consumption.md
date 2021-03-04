@@ -82,3 +82,6 @@ Medžiagų kiekių suvestinėje (KS) nurodytas kiekis yra 1, o pagamintas kiekis
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

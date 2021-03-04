@@ -53,3 +53,6 @@ Norėdami pagamintas prekes įtraukti įšaldyto laikotarpio metu, atlikite tole
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

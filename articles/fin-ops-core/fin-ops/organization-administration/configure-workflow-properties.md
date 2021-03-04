@@ -179,3 +179,6 @@ Norėdami įvesti komentarų apie atliktus darbo eigos keitimus, atlikite nurody
 2. Lauke **Įvesti komentarus apie darbo eigą** įveskite savo komentarus.
 3. Peržiūrėkite savo komentarus. Įtraukę komentarus jų modifikuoti negalite.
 4. Spustelėkite **Įtraukti**, norėdami komentarų įtraukti į sritį **Komentarų retrospektyva**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

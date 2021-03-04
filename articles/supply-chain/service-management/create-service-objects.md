@@ -43,3 +43,6 @@ Aptarnavimo objektai yra kliento turtas ir produktai, dėl kurių galite teikti 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -92,3 +92,6 @@ Prieš nustatant atostogų ir neatvykimų planus „Dynamics 365 Human Resources
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 - [Atostogų ir neatvykimų apžvalga](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

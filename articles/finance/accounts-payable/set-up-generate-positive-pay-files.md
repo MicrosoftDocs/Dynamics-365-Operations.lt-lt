@@ -165,3 +165,6 @@ Jei turite teigiamo mokėjimo failą pakeisti, galite jį atšaukti. Puslapyje *
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

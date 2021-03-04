@@ -104,3 +104,6 @@ Pagal laukus, kuriuos pasirinkote įtraukti į diagramą, sugeneravus „Visio�
 **Papildoma parinktis**
 
 Programoje „Human Resources“ taip pat galėsite naudoti darbo sritį **Žmonės**, norėdami peržiūrėti tam tikrą su hierarchija susijusią informaciją.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

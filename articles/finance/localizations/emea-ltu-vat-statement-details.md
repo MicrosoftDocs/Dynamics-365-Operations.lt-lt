@@ -73,3 +73,6 @@ Norėdami generuoti PVM XML failą, puslapyje **PVM mokėjimai** pasirinkite vie
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

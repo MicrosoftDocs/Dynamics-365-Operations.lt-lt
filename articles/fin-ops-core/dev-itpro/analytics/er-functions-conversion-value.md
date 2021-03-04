@@ -63,3 +63,6 @@ Kableliai ir taško simboliai (.) laikomi dešimtainiais skyrikliais, o prieš s
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Tipų konvertavimo funkcijos](er-functions-category-type-conversion.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

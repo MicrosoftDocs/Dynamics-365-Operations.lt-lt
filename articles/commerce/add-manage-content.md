@@ -57,3 +57,6 @@ Pasirinkite vieną iš šių temų, kad pradėtumėte.
 [Dokumentų būsenos ir vykdymo ciklas](document-states-overview.md)
 
 [Kelių kanalų bendrinimo funkcijos įjungimas ir naudojimas](cross-channel-sharing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

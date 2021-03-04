@@ -45,3 +45,6 @@ ms.locfileid: "4683573"
 *Objektas pavadinimu 'msdyn\_dualwriteentitymap' su namemapping='Logical' nebuvo rastas MetadataCache.*
 
 Norėdami išspręsti šią problemą, įsitikinkite, kad „Dataverse” įdiegtas dvigubo rašymo funkcijos pagrindinis sprendimas. Dvigubo rašymo funkcijos pagrindinis sprendimas yra būtinas siekiant suprasti sprendimą.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

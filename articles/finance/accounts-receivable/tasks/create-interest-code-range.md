@@ -51,3 +51,6 @@ Palūkanų kodus galima nustatyti apskaičiuoti kitas palūkanų sumas pagal ver
 21. Įveskite palūkanų procentą per mėnesį, kuris bus naudojamas skaičiuojant palūkanas nuo 7 mėnesio. Šiame pavyzdyje tai yra 2,5.
 22. Spustelėję Uždaryti užbaigsite nustatymą.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

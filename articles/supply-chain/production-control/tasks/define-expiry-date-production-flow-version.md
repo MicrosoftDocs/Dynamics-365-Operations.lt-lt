@@ -41,3 +41,6 @@ Norėdami gamybos eigos versijos galiojimą ir apdorojimą nutraukti tam tikrą 
 6. Lauke Galiojimo data įveskite datą ir laiką.
     * Galiojimo datai pasibaigus, nauja versija nebus paleista arba įjungta. Be to, nebebus galima kurti ar pradėti šios gamybos eigos užduočių. Pasibaigus galiojimo datai, jūs vis tiek galėsite atlikti pradėtas užduotis.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

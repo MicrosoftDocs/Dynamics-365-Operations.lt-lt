@@ -110,3 +110,6 @@ SF žurnale, kuris sukuriamas atlikus registravimą, neįtraukiama pirminė prek
 Svarbu, kad į SF žurnalą nebūtų įtraukta pirminė prekė iš grupavimo, nes visi procesai, atliekami užregistravus SF, yra pagrįsti tuo SF žurnalu. Pavyzdžiui, jei veiksmų srities skirtuke **Pardavimas** sukursite kredito pažymą, sukurtoje kredito pažymoje bus sudedamosios prekės, tačiau ne pirminė prekė.
 
 [![Kredito pažyma, kurioje rodomos sudedamosios prekės, tačiau ne pirminė prekė](./media/bundle-09.png)](./media/bundle-09.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

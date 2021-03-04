@@ -54,3 +54,6 @@ Naujas kaupimo tipas įtrauktas į atostogų planus. Dabar kaupimo grafikas gali
 ## <a name="bug-fixes"></a>Klaidų ištaisymai
 
 Šiame leidime įtraukti keli papildomi klaidų ištaisymai, įskaitant nuorodas į ACA, ADA ir I9, kurios bus įjungtos tik JAV įmonėse.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -144,3 +144,6 @@ Peržiūrėkite mokomuosius vaizdo įrašus, kuriuos dabar galite rasti [„Micr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

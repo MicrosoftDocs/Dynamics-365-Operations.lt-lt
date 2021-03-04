@@ -75,3 +75,6 @@ Tuomet galite įtraukti tolesnius apskaičiavimus:
 
 - *Dešimtainis rezultatas* = *Įvestis* × *Procentas* ÷ 100
 - *Rezultato integruotojas* = *Dešimtainis rezultatas*
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

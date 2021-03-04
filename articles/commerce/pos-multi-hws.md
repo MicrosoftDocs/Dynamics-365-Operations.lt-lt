@@ -154,3 +154,6 @@ Parduotuvės darbuotojai raginami pasirinkti aparatūros stotį tik vieną kart�
 - [Programos „POS Hybrid“ nustatymas sistemose „Android“ ir „iOS“](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
 - [„Dynamics 365“ mokėjimo jungtis, skirta sprendimui „Adyen“](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
 - [Tinklo periferinių įrenginių palaikymo apžvalga](https://go.microsoft.com/fwlink/?linkid=2129965)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

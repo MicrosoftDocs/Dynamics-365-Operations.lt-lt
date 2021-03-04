@@ -51,3 +51,6 @@ Prekė pridėta prie aptarnavimo objekto ir bet kokios atsargų dimensijos, nuro
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

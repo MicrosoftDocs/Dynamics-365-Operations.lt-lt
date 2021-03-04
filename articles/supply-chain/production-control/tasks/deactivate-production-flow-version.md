@@ -46,3 +46,6 @@ Norėdami, kad baigtų galioti aktyvi gamybos eigos versija, turite nustatyti ga
     * Tęskite tik jei esate 100 % tikri, kad ši gamybos eigos versija yra pasenusi. Spustelėjus Gerai nustos galioti visos aktyvios „kanban“ taisyklės ir nedelsiant bus sustabdytos visos šios gamybos eigos versijos gamybos ir papildymo veiklos.  
 6. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

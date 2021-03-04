@@ -98,3 +98,6 @@ Galite išduoti dalinio baigtų prekių kiekio arba konkretaus vieneto žaliavas
     Galimi vienetai yra nustatyti baigtos prekės vienetų sekų grupėje.
 
     Pavyzdžiui, toliau nurodytas baigtos prekės vieneto konvertavimo santykis tarp svarų ir padėklų (PL): 1 PL = 100 svarų. Norėdami kurti gamybos užsakymą, skirtą 10 000 svarų baigtų prekių pagaminti, galite išduoti žaliavas pagal padėklų, kuriuos ketinate pagaminti, skaičių. Kaip vienetą pasirinkite **PL** ir tada pasirinkite atitinkamą skaičių lauke **Kiekis**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

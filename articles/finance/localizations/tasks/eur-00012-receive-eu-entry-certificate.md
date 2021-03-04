@@ -42,3 +42,6 @@ Juriant šią procedūrą naudojama demonstracinių duomenų įmonė yra DEMF.
     * Prie žurnalo pridėkite papildomos informacijos.  
     * Pavyzdžiui, prie žurnalo pridėkite nuskaitytą ES įrašo sertifikato vaizdą.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

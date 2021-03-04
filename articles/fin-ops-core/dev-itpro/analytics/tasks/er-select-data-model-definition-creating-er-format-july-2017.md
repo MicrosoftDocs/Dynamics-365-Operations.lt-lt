@@ -98,3 +98,6 @@ Norėdami baigti šios procedūros veiksmus, pirmiausia turite atlikti procedūr
     * Žinokite, kad dabar tik vieną šakninį elementą galima susieti su programos duomenų šaltiniais. Kai bent vienas modelio susiejimas yra įvestas, tik modelio šakniniai elementai, susieti su programos duomenų šaltiniais, gali būti pasirinkti kaip modelio apibrėžtis, kai pridėtas ER formatas.   
 5. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

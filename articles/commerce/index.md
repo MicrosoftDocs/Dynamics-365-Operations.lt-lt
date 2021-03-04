@@ -56,3 +56,6 @@ Pasirinkite funkcijų sritį, apie kurią norite sužinoti daugiau.
 - [El. prekybos svetainės valdymas](online-store-overview.md)
 - [Apsauga nuo sukčiavimo](dev-itpro/DFP.md)
 - [Prekybos plėtra ir vystymas](dev-itpro/dev-retail-home-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

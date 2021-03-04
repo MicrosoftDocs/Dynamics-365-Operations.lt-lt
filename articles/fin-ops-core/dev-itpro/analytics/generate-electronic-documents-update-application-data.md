@@ -40,3 +40,6 @@ Norėdami sužinoti daugiau apie šią funkciją, paleiskite užduočių vedlių
 - [ER duomenų modelio konfigūracija: Intrastat (modelis)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [ER modelio susiejimo konfigūracija: Intrastat (susiejimas)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [ER formato konfigūracija: Intrastat (formatas)](https://go.microsoft.com/fwlink/?linkid=849038)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

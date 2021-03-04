@@ -479,3 +479,6 @@ Sudengta suma nurodoma puslapio <strong>Grynųjų pinigų operacija</strong> lau
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

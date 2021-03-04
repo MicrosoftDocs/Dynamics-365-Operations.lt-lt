@@ -113,3 +113,6 @@ Peržiūrėję jums priskirtą pirkimo užsakymą ir perskaitę darbo eigos inst
 5. Pasirinkite atitinkamą veiksmą.
 6. Puslapyje **Užduoties baigimas** įveskite komentarą. Atkreipkite dėmesį, kad pasirinkę veiksmą **Perduoti** turite pasirinkti vartotoją, kuriam reikia perduoti užduotį.
 7. Pasirinkite **Atlikta**. Atnaujinus darbo sritį, pirkimo užsakymo jūsų sąraše nebebus. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

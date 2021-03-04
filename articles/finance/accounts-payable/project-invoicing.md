@@ -132,3 +132,6 @@ Galite sukurti SF su neigiama suma; tokia sąskaita faktūra klasifikuojama kaip
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

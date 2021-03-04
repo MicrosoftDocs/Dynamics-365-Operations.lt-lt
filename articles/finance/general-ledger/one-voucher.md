@@ -186,3 +186,6 @@ Jei būtina koreguoti Gautinų arba Mokėtinų sumų DK sąskaitą, tai turi bū
 ### <a name="the-system-allows-it"></a>„Sistema tai leidžia“
 
 Organizacijos dažnai naudojasi funkcija Vienas kvitas tik todėl, kad sistema leidžia ja naudotis, nesuprasdamos, ką tai reiškia.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

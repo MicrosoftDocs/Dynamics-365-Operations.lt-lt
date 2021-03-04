@@ -89,3 +89,6 @@ Mobiliosios programos „Finance and Operations“ atsisiuntimas ir diegimas.
 1.  Mobiliojoje programoje pasirinkite darbo sritį **Įmonės katalogas**.
 2.  Norėdami pradėti paiešką, lauke **Ieška** įveskite darbuotojo vardą, pavardę, pareigas arba skyrių.
 3.  Pasirinkite darbuotoją. Rodomas puslapis **Darbuotojo profilis**. Šiame puslapyje esanti informacija apima darbuotojo vardą, pavardę, pareigas ir skyrių.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

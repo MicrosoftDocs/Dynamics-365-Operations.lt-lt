@@ -55,3 +55,6 @@ ms.locfileid: "4433555"
     * Pasirinkite tą pačią užduotį.  
     * Atkreipkite dėmesį, kad „kanban“ užduoties būsena grąžinama į Suplanuota (tai nurodo tuščia „kanban“ piktograma).  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

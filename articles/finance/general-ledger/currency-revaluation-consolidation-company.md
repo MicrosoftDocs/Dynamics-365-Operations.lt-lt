@@ -89,3 +89,6 @@ Matysite papildomas ataskaitų valiutos sumų operacijas.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

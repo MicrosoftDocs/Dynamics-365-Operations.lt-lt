@@ -60,3 +60,6 @@ Kai pardavimo užsakymas užregistruojamas, užregistruotoji savikaina yra 10,00
 
 > [!NOTE]
 > Palyginimui, jei šiam elementui pažymite žymės langelį **Įtraukti fizinę reikšmę**, kai pardavimo užsakymas yra paskelbtas, paskelbta savikaina bus 12,00 JAV dol.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

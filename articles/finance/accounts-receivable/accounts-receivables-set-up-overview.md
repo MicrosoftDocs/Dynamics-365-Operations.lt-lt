@@ -110,3 +110,6 @@ Daugiau informacijos rasite [Kreditas ir mokėjimai modulyje Gautinos sumos](col
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

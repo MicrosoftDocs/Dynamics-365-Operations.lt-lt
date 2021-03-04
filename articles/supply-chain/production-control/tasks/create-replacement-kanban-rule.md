@@ -56,3 +56,6 @@ ms.locfileid: "4433307"
 1. Didžiausias kiekis nustatykite į 100.
     * Išplėskite „FastTab‟ skirtuką Kiekiai, kad matytumėte lauką Didžiausias kiekis. Didžiausią kiekį pakeitus į 100, bus galima apdoroti iki 100 „kanban“.    Tai yra paskutinis šios užduoties veiksmas.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

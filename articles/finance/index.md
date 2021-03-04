@@ -73,3 +73,6 @@ Peržiūrėkite mokomuosius vaizdo įrašus, kuriuos dabar galite rasti [„Micr
 
 Tiekimo grandinės valdymo funkcijos apima įsigijimo ir apmokėjimo proceso dalis, į kurias įeina pareikalavimas, užsakymas, gavimas, sąskaitų faktūrų išrašymas ir apmokėjimas už organizacijos įsigytas prekes ir paslaugas. Informaciją apie pirkimo, atsargų ir gamybos pajėgumus žr. [pagrindiniame „Supply Chain Management” puslapyje](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md). 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

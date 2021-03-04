@@ -514,3 +514,6 @@ Norėdami naudoti naujas **BACS (JK)** formato 3.3 versijos funkcijas jūsų tin
 - [Elektroninių ataskaitų apžvalga](general-electronic-reporting.md)
 - [ER konfigūracijų atsisiuntimas iš „Lifecycle Services“](download-electronic-reporting-configuration-lcs.md)
 - [ER konfigūracijų atsisiuntimas iš „Configuration service” Bendrosios saugyklos](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

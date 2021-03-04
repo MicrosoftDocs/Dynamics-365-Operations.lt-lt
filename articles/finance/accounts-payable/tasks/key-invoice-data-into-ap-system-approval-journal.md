@@ -54,3 +54,6 @@ ms.locfileid: "4445829"
 10. Pasirinkite **Registruoti**.
 11. Pasirinkę **Kvitas**, pamatysite užregistruotus įrašus. Patvirtinimo laukiančių SF sąskaita atšaukiama ir pakeičiama faktine išlaidų sąskaita.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

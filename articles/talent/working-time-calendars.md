@@ -56,3 +56,6 @@ Norėdami nustatyti kalendorių, atlikite toliau nurodytus veiksmus.
 10. Norėdami darbuotojams priskirti kalendorių, veiksmų srityje pasirinkite **Priskirti darbuotojams**. Pasirinkite darbuotojus, kurie norėtų priskirti šį kalendorių ir tada paspauskite **Priskirti**.
 
 Darbuotojams priskirti kalendorių nebūtina. Jei nurodytas kalendoriaus darbo laikas, nedarbo dienos automatiškai neįtraukiamos į užklausą. Valandų arba dienų suma nustatoma į kalendoriuje nurodytą darbo laiką. Jei darbuotojui kalendorius nepriskirtas, nedarbo laiką galima skirti bet kuriomis dienomis ir užklausos nedarbo laiko suma nenustatoma. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

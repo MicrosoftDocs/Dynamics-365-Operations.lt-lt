@@ -154,3 +154,6 @@ Tolesnius parametrus galite naudoti, jei medžiagas iš atsargų visada reikia a
 | Skelbti baigtu |   Automatinis KS suvartojimas    | <strong>Niekada</strong>  |
 | Skelbti baigtu | Atnaujinti pabaigtą ataskaitą tinkle | <strong>Būsena</strong> |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Bendrosios apskaitos paskirstymo galimybės suteikia tokias apskaitos paskirstym
 10.0.13 versijoje įtraukta funkcija, tikrinanti apskaitos paskirstymo lentelę, siekiant užtikrinti, kad nauji laukai būtų tinkamai nustatyti. Ši funkcija vadinama **Įjungti papildomą dokumentų, naudojančių šaltinio dokumento apskaitos sistemą, duomenų tikrinimą**. Norėdami naudoti šią funkciją, turite įjungti ją naudodami darbo sritį **Funkcijų valdymas**. Norėdami įjungti funkciją, ieškokite funkcijos pavadinimo puslapio **Funkcijų valdymas** lauke **Ieška**, tada pasirinkite **Įjungti dabar**.
 
 Daugiau informacijos žr. dalyje [Apskaitos paskirstymai ir papildomos knygos žurnalo įrašai, skirti tiekėjo SF](accounting-distributions-subledger-journal-entries-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

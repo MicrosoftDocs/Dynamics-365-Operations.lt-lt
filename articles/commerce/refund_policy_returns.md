@@ -104,3 +104,6 @@ Arba
 
 
 ![Mokėjimo būdų sąrašas](media/Return-policy-page5.PNG "Galimi grąžinimo tipai")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

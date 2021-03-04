@@ -98,3 +98,6 @@ Naudokite šią lentelę, kai reikia nuspręsti, kur priskirti numatytąsias są
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

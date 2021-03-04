@@ -68,3 +68,6 @@ Sausio 31 d. nusidėvėjimo pasiūlymas yra toks: Įvertintas kiekis x Procentas
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

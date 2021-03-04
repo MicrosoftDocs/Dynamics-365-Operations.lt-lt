@@ -57,3 +57,6 @@ Kai kuriate projekto biudžetą, galite įvesti įvertintas projekto įplaukas i
 21. Lauke **Komentaras** įveskite reikšmę.
 22. Spustelėkite **Pateikti**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

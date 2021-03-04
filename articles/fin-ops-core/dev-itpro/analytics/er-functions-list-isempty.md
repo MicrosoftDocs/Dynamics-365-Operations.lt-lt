@@ -59,3 +59,6 @@ Reiškinys `ISEMPTY (SPLIT ("",1))` pateikia **TRUE**.
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Sąrašo funkcijos](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

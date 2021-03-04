@@ -164,3 +164,6 @@ Galite sukurti pasirinktinių užduočių vedlių ir tokiu būdu sukurti vartoto
 | [„Dynamics‟ bendruomenė](https://community.dynamics.com/) | Šioje svetainėje saugomi tinklaraščiai, forumai ir vaizdo įrašai. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Šioje svetainėje pateikiama vertinimo ir pardavimo informacija. |
 | [CustomerSource](https://mbs.microsoft.com/customersource/)\* | Šioje svetainėje pateikiami mokymo ištekliai, galimos atsisiųsti ataskaitos ir techninė dokumentacija ir tai yra pagrindinė aptarnavimo plano turėtojams skirta svetainė. Norint pasiekti kai kuriuos svetainės išteklius, gali prireikti paslaugos plano. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

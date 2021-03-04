@@ -137,3 +137,6 @@ Rankiniu būdu sukurtos 1099 operacijos neatnaujinamos naudojant procesą **Nauj
 Pridėta nauja viešojo sektoriaus funkcija **Naujinti 1099 informaciją pagal pagrindinę sąskaitą**, kurią galima įjungti darbo srityje **Funkcijų valdymas**. Ši funkcija leidžia susieti tiekėjo 1099 vertes pagal pagrindinę sąskaitą apskaitos paskirstyme, o ne pagal numatytąją tiekėjo įrašo sąskaitą.
 
 Daugiau informacijos žr. [Tiekėjų nustatymas 1099 ataskaitoms](../localizations/noam-usa-set-up-vndrs-1099-rprtg.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

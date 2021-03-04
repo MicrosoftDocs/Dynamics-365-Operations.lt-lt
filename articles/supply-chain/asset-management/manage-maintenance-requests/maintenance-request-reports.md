@@ -58,3 +58,6 @@ Ataskaitoje **Priežiūros užklausų sąrašas** rodomas visų to paties užkla
 Toliau pateikiamoje iliustracijoje parodytas visų aktyvių priežiūros užklausų ataskaitos **Priežiūros užklausų sąrašas** pavyzdys.
 
 ![Ataskaita Priežiūros užklausų sąrašas](media/10-manage-maintenance-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

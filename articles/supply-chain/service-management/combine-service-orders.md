@@ -113,3 +113,6 @@ Papildomas aptarnavimo užsakymo eilučių grupavimas į aptarnavimo užsakymus 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

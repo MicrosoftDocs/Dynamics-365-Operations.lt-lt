@@ -62,3 +62,6 @@ Tolesniais duomenimis pildomos „Power BI“ turinio **Mokymasis** ataskaitos. 
 | Pozicija         | Pareigos ir etato ekvivalentas (FTE)                  | Kurso darbotvarkė, kurso dalyviai |
 | Darbuotojo vardas ir pavardė    | Vardas, pavardė ir vardas bei pavardė                             | Kurso dalyviai |
 | Darbuotojo pareigos   | Pareigos ir paaukštinimo data                                         | Kurso dalyviai |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

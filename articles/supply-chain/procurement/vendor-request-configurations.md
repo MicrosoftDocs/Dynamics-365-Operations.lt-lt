@@ -54,3 +54,6 @@ Taip pat galite įvesti patvirtinimo pranešimą, kuris bus rodomas, kai vedlys 
 4.  Atidarykite skirtuką **Šalis / regionas**, kad pasirinktumėte šalį / regioną, kuriam konfigūracija skirta.
 5.  Nustatykite konfigūraciją, vadovaudamiesi numatytosios konfigūracijos nustatymo instrukcijomis.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -114,3 +114,6 @@ Jums nerekomenduojama naudoti tų darbų paketų per dažnai (kas keletą minuč
 > Dėl našumo priežasčių, kai kanalo atsargų pasiekiamumo skaičiavimai naudojami atsargų pasiekiamumo užklausai įvykdyti naudojant el. prekybos API arba naują EKA kanalo atsargų logiką, skaičiuojant naudojama talpykla, kad būtų nustatyta, ar praėjo pakankamai laiko, kad būtų protinga skaičiavimo logiką vykdyti dar kartą. Numatytoji talpykla nustatyta kaip 60 sekundžių. Pavyzdžiui, jūs įjungėte kanalo skaičiavimą savo parduotuvei ir peržiūrėjote turimas produkto atsargas puslapyje **Atsargų peržvalga**. Jei tada vienas produkto vienetas parduodamas, puslapyje **Atsargų peržvalga** nebus rodomos sumažėjusios atsargos, kol talpykla nebus išvalyta. Po to, kai vartotojai užregistruos operacijas EKA, turi praeiti 60 sekundžių, kad būtų matomas turimų atsargų sumažėjimas.
 
 Jei pagal jūsų verslo scenarijų reikia trumpesnio talpyklos laiko, pagalbos kreipkitės į savo produktų palaikymo tarnybos atstovą.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

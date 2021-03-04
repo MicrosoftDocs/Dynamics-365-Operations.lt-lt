@@ -82,3 +82,6 @@ Norėdami įtraukti „Social Share” modulį į pirkimo langelio modulį, atli
 [Pirkimo langelio modulis](add-buy-box.md)
 
 [Slapukų atitiktis](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

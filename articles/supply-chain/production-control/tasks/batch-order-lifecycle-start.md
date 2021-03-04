@@ -92,3 +92,6 @@ Būtina šios procedūros vykdymo sąlyga su kitu duomenų rinkiniu yra patvirti
 12. Uždarykite puslapį.
 13. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

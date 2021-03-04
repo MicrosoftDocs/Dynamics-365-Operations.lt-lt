@@ -72,3 +72,6 @@ ms.locfileid: "4433593"
     * Visų savo variantų aprašus galite generuoti pagal produkto dimensijų reikšmių kombinaciją. Aprašai nėra privalomi.  
 5. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

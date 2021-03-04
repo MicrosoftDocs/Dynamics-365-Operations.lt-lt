@@ -44,3 +44,5 @@ ms.locfileid: "4461967"
 - Naujinimai naršyklės palaikymui („Linkedin“ daugiau nebepalaiko „Internet Explorer 11“ nuo 2020 m. liepos 1 d.)
 
 Dėl išsamesnės informacijos, žr. [Šaltinio kandidatai su „LinkedIn Recruiter“ „Attract“](attract-linkedin-recruiter.md).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

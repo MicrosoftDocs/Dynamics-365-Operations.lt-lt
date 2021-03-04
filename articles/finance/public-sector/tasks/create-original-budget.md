@@ -51,3 +51,6 @@ Kai sukuriate pradinio biudžeto įrašą ir naudojate biudžeto modelį ir dime
     * Norėdami pasirinkti konkrečias parinktis, puslapio viršuje spustelėkite piktogramą Atrakinti.  
 18. Spustelėkite Naujinti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

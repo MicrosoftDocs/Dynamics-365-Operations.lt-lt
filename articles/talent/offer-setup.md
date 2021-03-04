@@ -209,3 +209,6 @@ Yra keletas pasiūlymo kūrimo proceso dalių, kurias gali konfigūruoti „Attr
 
 
 Norėdami daugiau sužinoti apie pasiūlymo kūrimo procesą, žr. [Pasiūlymų kūrimas, tvirtinimas ir pasirašymas](./creating-offers.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

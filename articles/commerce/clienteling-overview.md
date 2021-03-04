@@ -124,3 +124,6 @@ Norėdami sukonfigūruoti integraciją, atlikite toliau nurodytus veiksmus.
     4. Programoje „Customer Insights“ galimos kelios aplinkos, pavyzdžiui, bandymų ir gamybos aplinkos. Laukelyje **Aplinkos egzemplioriaus ID** įveskite reikiamą aplinką.
     5. Laukelyje **Papildomas kliento ID** įveskite „Customer Insights“ ypatybę, susietą su kliento abonemento numeriu. (Programoje „Commerce“ kliento kodas yra kliento ID.)
     6. Likusios trys ypatybės yra matai, kurie bus rodomi klientų knygos klientų kortelėje. Galite pasirinkti, kad kliento kortelėje būtų rodoma iki trijų matų. (Tačiau neturite pasirinkti jokių matų.) Kaip minėta anksčiau, sistema pirmiausia parodo šias vertes, o paskui nurodo klientų knygos atributų grupės vertes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

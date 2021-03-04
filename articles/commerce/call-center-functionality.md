@@ -69,3 +69,6 @@ Be to, kad palaiko užsakymo kūrimą, skambučių centro modulis vartotojui dar
 ## <a name="configure-continuity-programs"></a>Tęstinumo programų konfigūravimas
 
 [Skambučių centrų tęstinumo programų nustatymas](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

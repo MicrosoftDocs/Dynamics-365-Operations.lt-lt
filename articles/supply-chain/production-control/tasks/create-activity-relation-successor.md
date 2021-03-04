@@ -66,3 +66,6 @@ Išankstiniai reikalavimai:
 12. Uždarykite puslapį.
 13. Atnaujinkite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

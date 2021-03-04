@@ -78,3 +78,6 @@ Kai užregistravote sunaudojimą darbo užsakymuose, galite atsispausdinti darbo
 >[!NOTE]
 >Taip pat galite generuoti [darbo užsakymo ataskaitą](../work-orders/work-order-report.md), kurioje pateikta daugiau išsamios informacijos apie darbo užsakymą.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

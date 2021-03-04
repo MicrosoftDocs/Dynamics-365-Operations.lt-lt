@@ -78,3 +78,6 @@ Nepaisant to, jei naudojant prekę, kuri turi „palaidas kiekis žemiau“ reze
 Toks veikimo būdas yra numatytas. Jei padedate matmenis virš **Vietos** matmens rezervacijos hierarchijoje, jis turi būti nurodytas prieš paleidžiant į sandėlį. „Microsoft“ įvertino šią klaidą ir nustatė, kad jos funkcijos apribojimai išleidžiami į sandėlį iš krovinio planavimo darbo slenksčio. Daliniai kiekiai negali būti išleisti, jei vieneri ar keli matmenys virš **Vietos** nenurodyti.
 
 Dėl išsamesnės informacijos, žr. [Lanksti sandėlio lygmens matmenų rezervacijos politika](flexible-warehouse-level-dimension-reservation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

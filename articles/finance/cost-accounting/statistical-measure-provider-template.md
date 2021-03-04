@@ -346,3 +346,6 @@ Jei kaštų paskirstymo taisyklėje kaip paskirstymo bazė priskiriamas iš anks
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Paskirstymo bazės](allocation-bases.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

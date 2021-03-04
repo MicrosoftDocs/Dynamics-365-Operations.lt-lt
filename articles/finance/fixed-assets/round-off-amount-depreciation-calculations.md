@@ -50,3 +50,6 @@ Apskaičiuotas nusidėvėjimas be apvalinimo yra 2444,44. Kaip parodyta toliau p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

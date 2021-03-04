@@ -118,3 +118,6 @@ Jei „Adyen“ ir „PayPal“ mokėjimo jungtys yra būtinos, įtraukite abu m
 [„Dynamics 365 Payment Connector“ skirtas „PayPal“](paypal.md)
 
 [Stipri kliento autentifikacija naudojant „Adyen“](adyen_redirect.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

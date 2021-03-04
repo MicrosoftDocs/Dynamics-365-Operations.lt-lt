@@ -72,3 +72,6 @@ Programoje „Microsoft Dynamics 365 Human Resources“ galite konfigūruoti auk
    | **„End“** | Plytelės naudojimo pabaigos data ir laikas. |
 
 4. Pasirinkite **Įrašyti**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

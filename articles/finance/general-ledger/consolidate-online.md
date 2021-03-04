@@ -96,3 +96,6 @@ Skirtuke **Valiutos konvertavimas** galite nurodyti juridinį subjektą, sąskai
 Daugiau informacijos apie konsolidavimą ir valiutų konvertavimą žr. pagrindinėje šios temos temoje [Finansinio konsolidavimo ir valiutų konvertavimo apžvalga](./financial-consolidations-currency-translation.md).
 
 Informacijos apie scenarijus, kuriais galite generuoti konsoliduotas finansines ataskaitas, žr. [Konsoliduotų finansinių ataskaitų generavimas](./generating-consolidated-financial-statements.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

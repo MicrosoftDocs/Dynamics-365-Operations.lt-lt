@@ -193,3 +193,6 @@ Jei grupavimo pirminė prekė ir grupavimo komponentai nustatyti kaip paskirstyt
 
 - **Atidėtos SF įplaukos** (pagal **Įplaukų sąskaitos**) – įveskite pagrindinę įplaukų vertės sąskaitą, kurioje registruojamos atidėtosios įplaukos (o ne įplaukos). Įplaukų vertė yra atidėta, jei pardavimo užsakymo eilutėje yra įplaukų grafikas.
 - **Atidėtos išlaidos** (pagal **Išlaidų sąskaitos**) – įveskite pagrindinę sąskaitą parduotų prekių savikainos sumai, kuri užregistruojama PPK išlaidose, jei įplaukos taip pat yra atidėtos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

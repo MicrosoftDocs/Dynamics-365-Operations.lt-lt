@@ -126,3 +126,6 @@ Atidarę kūrimo bloką kiti vartotojai gali pasiekti tą kūrimo bloką tik ska
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Finansinės ataskaitos](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Galite naudoti puslapį **Turimų atsargų koregavimas**, kad koreguotumėte tur
 -   Vasario 5 d.: 1 vienetas, kurio kaina 13,00 USD
 
 Norėdami nustatyti šių dviejų prekių kainą į 15,00 USD, naudokite turimą koregavimo pasirinktį, kad pakoreguotumėte po paskutinio atsargų uždarymo laikotarpio turimus atvirus kiekius. **Pastaba:** turimo kiekio koregavimo operacijos registravimo data bus paskutinio atsargų uždarymo data. Šios datos modifikuoti negalima.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Kroviniams nurodyti puslapyje Krovinio kūrimo darbo sritis naudojami klientų a
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

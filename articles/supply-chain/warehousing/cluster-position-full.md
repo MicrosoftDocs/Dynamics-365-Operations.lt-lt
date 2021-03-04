@@ -276,3 +276,6 @@ Pagal šį scenarijų klasterio paėmimas užbaigiamas ir vartotojas nukreipiama
     Bus pateiktas pranešimas „Klasteris užbaigtas”.
 
 Dabar galite naudoti meniu elementą **Pardavimo paėmimas**, norėdami paimti likusį kiekį. Tada galite naudoti meniu elementą **Pardavimo krovimas**, norėdami perkelti prekes iš surinkimo vietos į krovimo rampą.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

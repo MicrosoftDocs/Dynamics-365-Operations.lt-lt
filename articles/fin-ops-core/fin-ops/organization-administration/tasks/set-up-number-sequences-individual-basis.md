@@ -40,3 +40,6 @@ ms.locfileid: "4694720"
 8. Išplėskite skyrių **Bendra**. „FastTab“ skirtuke Bendra nurodykite, ar numeracija yra neautomatinė, ar tęstinė, ar netęstinė. Be to, galite įvesti mažiausią ir didžiausią skaičius, kuriuos galima naudoti numeracijoje. Nerekomenduojama keisti netęstinių numeracijų į tęstines numeracijas. Numeracija nebus tikrai tęstinė. Dėl tokio keitimo taip pat gali įvykti besidubliuojančių raktų pažeidimų duomenų bazėje. Be to, tęstinės numeracijos turi daugiau įtakos našumui.   
 9. Spustelėkite **Įrašyti**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

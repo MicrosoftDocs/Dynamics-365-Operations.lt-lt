@@ -57,3 +57,6 @@ Atlikite toliau pateiktus veiksmus, kad išspręstumėte ER šablonų problemas,
 Panaši problema gali kilti, jei perkeliate programos egzempliorių į kitą vietą, kuri buvo naudojama kaip perkėlimo paskirtis daugiau nei vieną kartą ir kurios didelių dvejetainių objektų saugykloje jau yra ER šablono failai.
 
 Kadangi gali būti kelios ER formato konfigūracijos, šis procesas gali užtrukti. Todėl pageidaujama naudoti funkciją [ER šablonų atsarginių kopijų saugykla](er-backup-storage-templates.md) automatiškai atkurti šablonus, kuriuose yra neveikiančių nuorodų.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

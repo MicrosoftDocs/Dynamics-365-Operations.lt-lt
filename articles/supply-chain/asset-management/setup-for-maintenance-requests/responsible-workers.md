@@ -54,3 +54,6 @@ Kad galėtumėte nustatyti už priežiūrą atsakingus darbuotojus, turite nusta
 Paveikslėlyje pavaizduotas puslapio **Už priežiūrą atsakingi darbuotojai** pavyzdys.
 
 ![Už priežiūrą atsakingų darbuotojų puslapis](media/08-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

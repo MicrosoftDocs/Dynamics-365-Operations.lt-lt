@@ -368,3 +368,6 @@ Panaikinus BPM eilutę, užduoties vadovas, kuris buvo susietas su BPM eilute, t
 **Panaikinta BPM eilutė**
 
 - Perkelti suplanuotas „kanban“ užduotis
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

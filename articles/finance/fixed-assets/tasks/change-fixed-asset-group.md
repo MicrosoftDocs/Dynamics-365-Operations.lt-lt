@@ -46,3 +46,6 @@ Ilgalaikis turtas turi būti priskirtas tinkamai ilgalaikio turto grupei. Ilgala
 6. Spustelėkite GERAI.
 7. Spustelėkite Taip.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

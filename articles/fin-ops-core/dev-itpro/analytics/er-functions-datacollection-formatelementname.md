@@ -53,3 +53,6 @@ Norėdami apie tai, kaip naudoti šią funkciją, gauti daugiau informacijos, ž
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Duomenų rinkinio funkcijos](er-functions-category-data-collection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

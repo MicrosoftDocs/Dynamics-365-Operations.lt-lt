@@ -117,3 +117,6 @@ Tolesniuose skyriuose aprašyti kiekviename objekte naudojami sujungti matavimo 
 | Pagrindiniai sujungti matavimo vienetai       | Laukas               | aprašymas |
 |---------------------------------|---------------------|-------------|
 | Užbaigtos veiklos suplanuotos išlaidos | Sum(TotalCostPrice) | Visų projekto operacijų tipų su užbaigtomis užduotimis numatoma bendroji savikaina. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

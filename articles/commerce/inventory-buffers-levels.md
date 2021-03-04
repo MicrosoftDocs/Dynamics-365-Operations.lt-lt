@@ -149,3 +149,6 @@ Norėdami sukonfigūruoti produkto pasiekiamumo API atsakymą, atlikite tolesniu
 [Atsargų parametrų taikymas](inventory-settings.md)
 
 [Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas](calculated-inventory-retail-channels.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

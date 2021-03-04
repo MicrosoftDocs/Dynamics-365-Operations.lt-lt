@@ -93,3 +93,6 @@ Norėdami taikyti bangos veiksmo kodus, pereikite prie tinkamo tikslinio šablon
 6. Lauke **Bangos veiksmo kodas** pasirinkite bangos veiksmo kodą, kurį pasirinkote papildymo šablone.
 
 Šiuos veiksmus atliekate kiekvieno juridinio subjekto atveju.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -147,3 +147,6 @@ Toliau pateikiamoje lentelėje rodomas atsargų objekto skaičiavimo rezultatas.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

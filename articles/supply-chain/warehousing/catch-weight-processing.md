@@ -210,3 +210,6 @@ Be apribojimų, kurie šiuo metu taikomi esamo svorio produktams, pažymėti esa
 
 > [!NOTE]
 > Ankstesnė informacija apie esamo svorio žymes galioja, tik jei esamo svorio produktui taikomas esamo svorio žymės dimensijos sekimo metodas, pagal kurį visiškai sekama (tai yra, jei parametras **Esamo svorio žymės dimensijos sekimo metodas** esamo svorio prekių tvarkymo strategijoje nustatytas kaip **Produkto dimensijos, sekimo dimensijos ir visos saugojimo dimensijos**). Jei esamo svorio prekė tik iš dalies sekama pagal žymę (tai yra, parametras **Esamo svorio žymės dimensijos sekimo metodas** esamo svorio prekių tvarkymo strategijoje nustatytas kaip **Produkto dimensijos, sekimo dimensijos ir atsargų būsena**), taikomi papildomi apribojimai Kadangi šiuo atveju prarastas matomumas tarp žymės ir atsargų, kai kurie papildomi scenarijai nepalaikomi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

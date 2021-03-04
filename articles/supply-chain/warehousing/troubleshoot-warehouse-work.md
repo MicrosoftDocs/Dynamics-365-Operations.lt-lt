@@ -50,3 +50,6 @@ Negalite perkelti licencijos lentelės naudodami **Perkėlimo** meniu elementą,
 ### <a name="issue-resolution"></a>Problemos paaiškinimas
 
 „Microsoft“ įvertino šią klaidą ir nustatė jos funkcijos apribojimą. Šiuo metu sandėlio valdymo procesas palaiko tik inventorių, kurį valdo juridinis asmuo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

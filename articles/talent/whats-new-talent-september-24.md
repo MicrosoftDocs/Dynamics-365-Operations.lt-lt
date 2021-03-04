@@ -46,3 +46,6 @@ Organizacijos paskirsto nedarbo laiką skirtingai pagal tai, kada darbuotojai pr
 ## <a name="known-issue"></a>Žinoma problema
 
 -   **Problema:** pridedant naują priedą prie darbininko, mygtukai **Naujas** ir **Redaguoti** yra pateikiami pilka spalva. **Problemos sprendimas:** prieš atidarydami priedo puslapį įsitikinkite, kad FactBoxes laukai puslapyje **Darbininkas** yra uždaryti. Jei FactBoxes laukai yra uždaryti, kai įkeliamas puslapis **Darbininkas**, priedų mygtukus bus galima naudoti. (Ši problema bus pašalinta kitame platformos naujinime.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

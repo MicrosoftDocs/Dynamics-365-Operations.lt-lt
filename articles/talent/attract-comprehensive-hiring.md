@@ -85,3 +85,6 @@ Toliau nurodyta keletas priežasčių, kodėl jums gali būti pateiktos ne visos
 
 - Jūsų bendradarbis dirba naudodamas bandomąją versiją arba yra įsigijęs „Attract“ su išsamios įdarbinimo informacijos priedu versijos licenciją, tuo tarpu jūs dirbate naudodami pagrindinę „Attract“ versiją.
 - Naudojate „Attract“ su išsamios įdarbinimo informacijos priedu versiją, tačiau jums priskirti netinkami vaidmenys, todėl negalite naudotis visomis funkcijomis. Daugiau informacijos žr. [Sauga ir vaidmenų valdymas sprendime „Attract“](security-attract.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

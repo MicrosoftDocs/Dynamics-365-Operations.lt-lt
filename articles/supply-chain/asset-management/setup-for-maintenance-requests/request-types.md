@@ -45,3 +45,6 @@ Priežiūros užklausos tipas nurodo sąsają su priežiūros užklausos ciklo b
 Paveikslėlyje pateiktas puslapio **Priežiūros užklausos tipai** pavyzdys.
 
 ![Priežiūros užklausos tipų puslapis](media/07-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

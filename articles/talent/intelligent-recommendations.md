@@ -56,3 +56,6 @@ Rekomendacijos rodomos kaip kortelės bet kurio darbo skelbimo skirtuke **Kandid
 > Jei „Attract“ naudojatės neseniai, norint pasinaudoti šia galimybe, reikės palaukti, kol turėsite 10 ar daugiau kandidatų, sukūrusių visos apimties profilius arba CV.
 
 Siekiant rekomendacijose išvengti galimo šališkumo, „Attract“ tikrina tik tai, ar kandidatų profiliuose nurodyti darbo skelbimo apraše išvardyti įgūdžiai, kvalifikacijos ir kiti raktiniai žodžiai. Be to, prieš atlikdama vertinimą, „Attract“ iš kandidatų profilių pašalina visą asmeninę informaciją.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

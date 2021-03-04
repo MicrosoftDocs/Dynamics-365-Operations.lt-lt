@@ -423,3 +423,6 @@ Tikėtina, kad prisijungėte prie dabartinio „Azure AD“ domeno programos egz
 
 [Elektroninių ataskaitų (ER) konfigūravimas duomenims perkelti į „Power BI“](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

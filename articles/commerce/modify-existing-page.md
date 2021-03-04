@@ -87,3 +87,6 @@ Norėdami nedelsiant publikuoti savo keitimus, komandų juostoje pasirinkite **P
 [Papildyti kategorijos nukreipimo puslapį](enrich-category-page.md)
 
 [Puslapio turinio pritaikymo neįgaliesiems patikra](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

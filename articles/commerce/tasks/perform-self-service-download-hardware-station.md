@@ -37,3 +37,6 @@ ms.locfileid: "4414384"
 5. Sąraše raskite ir pasirinkite norimą įrašą.
 6. Spustelėkite Atsisiųsti.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

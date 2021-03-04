@@ -122,3 +122,6 @@ Tada Eglė registruoja mokėjimą. Atidariusi **Tiekėjo operacijų** puslapį, 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

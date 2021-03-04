@@ -90,3 +90,6 @@ Tolesnėje lentelėje pateikiami pavyzdžiai, kurie rodo, kaip įvairūs išleis
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Pirkimo sutartys](../../procurement/purchase-agreements.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

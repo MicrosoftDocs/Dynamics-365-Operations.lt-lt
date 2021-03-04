@@ -309,3 +309,6 @@ Norėdami sužinoti, kaip, naudojant sukonfigūruotą ER formatą **Mokymo, kaip
 [Elektroninių ataskaitų formulių kūrimo įrankis](general-electronic-reporting-formula-designer.md)
 
 [ER formato parametrų nustatymas kiekvienam juridiniui subjektui](er-app-specific-parameters-set-up.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -175,3 +175,6 @@ ms.locfileid: "4433460"
 6. Sąraše spustelėkite saitą pasirinktoje eilutėje.
 7. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Naudojant atostogų ir neatvykimo tvarkymą galima atlikti šias funkcijas:
 - **Pateikti prašymus išleisti iš darbo.**
 
     Darbuotojai gali pateikti prašymus išleisti iš darbo atsižvelgiant į galimas valandas. Prašymai gali būti taikomi vienai dienai ar kelioms dienoms ir būti įvairių atostogų ir neatvykimų tipų. Jei darbo eiga neįgalinta, prašymai automatiškai patvirtinami. Įgalinus darbo eigą, patvirtinimas gali būti automatinis, arba gali būti reikalingas išsiregistravimas, atsižvelgiant į darbo eigos konfigūraciją.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

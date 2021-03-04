@@ -97,3 +97,6 @@ Mygtukas **Įplaukų vertės paskirstymas** vis dar prieinamas, kad galėtumėte
 Numatomas įplaukų pripažinimo grafikas pašalinamas ir pakeičiamas galutiniu įplaukų pripažinimo grafiku. Kiekvieno pardavimo užsakymo eilutės įplaukų grafiko informacija tvarkoma ir naudojama atidėtoms įplaukoms priskaičiuoti prie faktinių įplaukų, kai įvykdomi sutartiniai įsipareigojimai.
 
 [![Galutinis įplaukų pripažinimo grafikas](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

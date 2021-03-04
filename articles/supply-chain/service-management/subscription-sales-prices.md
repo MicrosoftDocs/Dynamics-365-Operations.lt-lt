@@ -380,3 +380,6 @@ Pirmojoje 00020\_135 abonemento operacijoje 550 EUR pardavimo kaina gaunama iš 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

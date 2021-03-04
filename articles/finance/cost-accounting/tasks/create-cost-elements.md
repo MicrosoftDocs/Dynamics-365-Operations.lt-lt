@@ -58,3 +58,6 @@ Kaštų apskaitoje išlaidų elementus galima kurti keliais būdais. Šioje proc
 1. Spustelėkite Peržiūrėti dimensijos narius.
     * Peržiūrėkite importuotas DK sąskaitas kaip savo verslo išlaidų elementus, į kuriuos galima perkelti išlaidas.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

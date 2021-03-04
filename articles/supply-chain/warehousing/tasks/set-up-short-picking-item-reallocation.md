@@ -64,3 +64,6 @@ Kuriant šią procedūrą naudota demonstracinių duomenų įmonė yra USMF.
 6. Pasirinkite **Vartotojo ID** iš sąrašo. Pavyzdžiui, 24.
 7. Išplėskite „FastTab“ skirtuką **Užduotys**.
 8. Lauke **Leisti neautomatinį prekių perskirstymą** pasirinkite **Taip**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

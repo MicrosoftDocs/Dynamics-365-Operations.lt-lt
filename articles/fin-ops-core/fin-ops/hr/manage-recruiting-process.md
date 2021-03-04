@@ -103,3 +103,6 @@ Jei prašymą turi peržiūrėti keli darbuotojai, galite naudoti puslapį **Pra
 ## <a name="hiring-applicants"></a>Pretendentų samda
 
 Norėdami samdyti pretendentą naudokite puslapį **Prašymai**. Įdarbinant pretendentą, prašymo įrašo būsena yra **Įdarbinta**, o pretendento visuotinės adresų knygelės asmens įrašas susiejamas su naujo darbuotojo įrašu. Visuotinės adresų knygos informacijos pakeitimai pagal naujo darbuotojo įrašus rodomi ir pretendento įraše. Tai gali padėti sumažinti duomenų įvedimą, jei naujas darbuotojas kada nors pretenduos į kitą darbo vietą jūsų įmonėje. Norėdami samdyti esamą darbuotoją į naujas pareigas, spustelėję **Pakeisti pareigas** išplečiamajame sąraše **Prašymo būsena**, pradėkite perkėlimo procesą.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

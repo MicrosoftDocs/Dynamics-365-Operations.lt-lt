@@ -89,3 +89,6 @@ Tokiu atveju galbūt norėsite sukurti tokias eilutės elemento darbo eigas:
 ### <a name="subworkflow"></a>Antrinė darbo eiga
 
 *Antrinė darbo eiga* yra darbo eiga, kuri vyksta kitos darbo eigos kontekste.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

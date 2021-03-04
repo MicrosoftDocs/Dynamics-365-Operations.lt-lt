@@ -94,3 +94,6 @@ Norėdami išjungti tam tikrų taisyklių vertinimą, pasirinkite taisyklės sug
 [Optimizavimo patariamojo įrankio taisyklių kūrimas](./create-rules-optimization-advisor.md)
 
 [Optimizavimo patarėjas naudojant „Dynamics 365 for Finance and Operations“ (vaizdo įrašas)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

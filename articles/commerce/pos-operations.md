@@ -209,3 +209,6 @@ Toliau pateiktuose stulpeliuose nurodoma, kur galima iškviesti operacijas.
 § Kai EKA veikia autonominiu režimu, galima atšaukti tik esamoje autonominėje duomenų bazėje esančias grąžinimo operacijas.
 
 \*\* Kai EKA veikia autonominiu režimu, žurnale rodomos tik esamame autonominiame duomenų bazės kanale esančios operacijos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

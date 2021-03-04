@@ -122,3 +122,6 @@ Jei neturite prieigos prie puslapių, kurie naudojami šiame straipsnyje minimom
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

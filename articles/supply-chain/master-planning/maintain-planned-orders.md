@@ -68,3 +68,6 @@ Jeigu planuojate patvirtinti daug užsakymų tuo pačiu metu, lygiagretus vykdym
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

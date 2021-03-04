@@ -46,3 +46,6 @@ ms.locfileid: "4693021"
     * Pavyzdžiui: įsivaikinimo atostogos  
 12. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

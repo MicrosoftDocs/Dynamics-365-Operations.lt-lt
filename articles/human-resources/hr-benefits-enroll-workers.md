@@ -58,3 +58,6 @@ ms.locfileid: "4419638"
 14. Sąraše spustelėkite saitą pasirinktoje eilutėje.
 15. Šiame puslapyje galite peržiūrėti, kurie darbuotojai buvo užregistruoti išmokoms gauti, taip pat tuos darbuotojus, kurie nebuvo užregistruoti.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

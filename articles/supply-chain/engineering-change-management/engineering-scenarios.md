@@ -411,3 +411,6 @@ Produktas dabar gali būti išleistas dar kartą į *USMF* bendrovę ir tada nus
 1. Pasirinkite visas bendroves, kurioms norite išleisti produktus.
 1. Rinkitės **Gerai** tam, kad užvertumėte **Leidimių** teksto laukelį ir grįžtumėte į užsakymo keitimą.
 1. Veiksmų juostoje, **Pokyčių užsakymas** skirtuke, grupėje **Produkto leidimai** rinkitės **Procesas** norėdami išleisti paveiktus produktus pasirinktoms bendrovėms. Kitu atveju, rinkitės **Leisti produkto struktūrą** tam, kad pradėtumėte leidimo procesą.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

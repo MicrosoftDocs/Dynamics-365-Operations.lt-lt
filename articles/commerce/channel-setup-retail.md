@@ -182,3 +182,6 @@ Norėdami nustatyti seifus, atlikite tolesnius veiksmus.
 
 [Skambučių centro kanalo nustatymas](channel-setup-callcenter.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

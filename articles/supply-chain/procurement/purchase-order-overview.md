@@ -92,3 +92,6 @@ Laukas **Patvirtinimo būsena** naudojamas, kai naudojamas PU peržiūros proces
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

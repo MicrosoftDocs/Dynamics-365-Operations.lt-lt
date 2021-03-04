@@ -49,3 +49,6 @@ ms.locfileid: "4445849"
 15. Spustelėkite GERAI.
     *  Proceso rezultatai rodomi ataskaitoje Masinis atnaujinimas.     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

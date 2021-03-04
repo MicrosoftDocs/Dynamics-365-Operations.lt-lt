@@ -78,3 +78,6 @@ Radus tikrinimo klaidų, vienintelis būdas jas ištaisyti yra kreiptis į „Mi
 
 > [!NOTE]
 > Į būsimas versijas bus įtraukta papildomų tikrinimo taisyklių, kurios palaikys daugiau scenarijų.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

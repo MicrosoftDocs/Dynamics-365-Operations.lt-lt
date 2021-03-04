@@ -45,3 +45,6 @@ ms.locfileid: "4683143"
 - [Tiekėjo mokėjimų darbo sritis](../../../finance/accounts-payable/Vendor-payments-workspace.md)
 - [„Power BI“ turinys Sandėlio našumas](warehouse-power-bi-content.md)
 - [Darbo jėgos metrikos „Power BI“ turinys](workforce-analysis-power-bi-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

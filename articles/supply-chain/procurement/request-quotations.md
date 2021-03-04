@@ -247,3 +247,6 @@ Tolesniame pavyzdyje galite matyti RFQ atvejo aukščiausią ir žemiausią būs
 | Priimti vieną pasiūlymų. (arba bent vieną eilutę) |                          Gauta                           |                           Priimta                           |                    Gauta                    |                    Priimta                     |                   Gauta                   |                   Priimta                    |
 |           Atmeskite visus kitus kainos siūlymus.           |                          Atmestas                           |                           Priimta                           |                    Atmestas                    |                    Priimta                     |                   Atmestas                   |                   Priimta                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

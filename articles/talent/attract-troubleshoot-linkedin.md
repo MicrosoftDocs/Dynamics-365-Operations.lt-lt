@@ -57,3 +57,6 @@ Jei po 24 valandų jūsų darbas neatsirado „LinkedIn”, atlikite toliau nuro
 [Darbų kūrimas, tvirtinimas ir registravimas sprendime „Attract“](./creating-jobs-attract.md)
 
 [Integravimo trikčių diagnostika naudojant „LinkedIn” ir „Microsoft Dynamics 365 Talent - Attract“](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

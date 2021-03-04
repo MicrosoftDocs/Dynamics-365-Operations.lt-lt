@@ -167,3 +167,6 @@ ms.locfileid: "4693574"
 [„FastTrack“ techninėje kalboje](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) dėmesys skiriamas tam, kaip teikti techninį gylį ir geriausias praktikas, kurias taikant klientams ir partneriams būtų teikiama išsami konkrečios objekto srities informacija.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

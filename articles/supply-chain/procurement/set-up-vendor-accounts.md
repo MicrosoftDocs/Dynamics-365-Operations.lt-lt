@@ -118,3 +118,6 @@ Numatytąsias sąskaitas galite pasirinkti puslapyje **Numatytosios sąskaitos n
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

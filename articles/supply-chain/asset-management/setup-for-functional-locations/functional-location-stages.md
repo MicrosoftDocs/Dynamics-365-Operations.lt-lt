@@ -63,3 +63,6 @@ Sukūrus funkcinių vietų būtinas ciklo būsenas, jas galima suskirstyti į gr
 5. Jei norite pasirinkti visas galimas modelio būsenas, spustelėkite mygtuką ![pasirinkti visus galimus etapus](media/03-setup-for-functional-locations.png). Visos būsenos perkeliamos į sekciją **Pasirinktos ciklo būsenos**.
 6. Jei norite iš modelio pašalinti pasirinktą būseną, pasirinkite būseną sekcijoje **Pasirinktos ciklo būsenos**, tada spustelėkite mygtuką ![rodyklė atgal](media/04-setup-for-functional-locations.png).
 7. Pasirinkę **Ciklo būsenos naujinimai** nustatysite, kurios ciklo būsenos gali būti susijusios su pasirinkta būsena.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

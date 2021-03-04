@@ -121,3 +121,6 @@ Toliau pateikiamas pavyzdys, kaip eksportuoti ataskaitą **Palyginti prekių sau
 1. Atidaromas puslapis **Vykdymo suvestinė**, kuriame galite matyti savo eksportavimo užduoties būseną ir eksportuotų objektų sąrašą. Pasirinkite objektą **Lyginti prekių kainas**, esantį srityje **Objekto apdorojimo būsena**, tada pasirinkite **Atsisiųsti failą**, kad atsisiųstumėte iš to objekto eksportuotus duomenis.
 
 Norėdami gauti daugiau informacijos apie tai, kaip naudoti duomenų valdymo funkciją duomenims eksportuoti, žr. [Duomenų importavimo ir eksportavimo užduočių apžvalga](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

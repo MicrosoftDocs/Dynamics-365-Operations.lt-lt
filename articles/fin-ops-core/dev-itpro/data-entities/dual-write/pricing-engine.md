@@ -69,3 +69,6 @@ Kai užpildyti „Sales“ laukai, taikomi šie apribojimai:
 + „Supply Chain Management” mokesčių ir išlaidų paskirstymo sąranka nėra dubliuojama programoje „Sales“.
 + Kainodaroje neatsižvelgiama į specialią mažmeninės prekybos kainodarą, nurodytą lauke **Mažmeninės prekybos kanalas**, esančiame „Supply Chain Management” pardavimo užsakymo eilutės puslapyje.
 + Neatsižvelgiama į nuolaidas, nurodytas „Supply Chain Management” skyriuje **Prekybos nuolaidų valdymas**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

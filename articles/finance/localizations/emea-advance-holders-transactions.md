@@ -64,3 +64,6 @@ Apdorojus važtaraščių žurnalą, jei suma, esanti lauke **Suma, skirta perke
 
 - [Išankstinis mokėjimas darbuotojui (Rytų Europa)](tasks/advance-payment-employee.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

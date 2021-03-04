@@ -218,3 +218,6 @@ Užsakymų įvykdymas elektroniniame kasos aparate apima filtravimą, kad vartot
 - Sukūrimo data
 - Pristatymo data
 - Gavimo data
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -280,3 +280,6 @@ Jei reikia įvertinti šio modelio susiejimą naudojant skirtingos programos ver
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 Arba galite programoje paleisti užduočių vedlį **Programos metaduomenų, kuriuos galima naudoti RCS, paruošimas** ir taip pat RCS galite paleisti užduočių vedlius **Prieiga prie programos metaduomenų naudojant ER konfigūraciją** ir **Prieiga prie programos metaduomenų naudojant prijungtas programas**. Šiuos užduočių vedlius galima atsisiųsti iš puslapio [Elektroninių ataskaitų užduočių vedliai, skirti „Dynamics 365 for Finance and Operations 8.1“](https://go.microsoft.com/fwlink/?linkid=2082739).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

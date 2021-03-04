@@ -153,3 +153,6 @@ Pristatymo datos valdymo metodas nurodo tai, kaip sistema nustato pristatymo dat
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

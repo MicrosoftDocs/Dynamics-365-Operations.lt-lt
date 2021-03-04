@@ -123,3 +123,6 @@ Galite nustatyti mokėjimo metodo standartinę debeto mokėjimo sąskaitą nepri
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

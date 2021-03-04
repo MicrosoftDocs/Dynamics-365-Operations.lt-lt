@@ -149,3 +149,6 @@ Arnie užregistruoja šį mokėjimo žurnalą ir peržiūri kliento operacijas p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

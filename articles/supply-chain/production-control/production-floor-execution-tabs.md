@@ -79,3 +79,6 @@ Jums sukūrųs visus būtinus skirtukus, galite susieti juos su konfigūravimu.
 1. Tęskite įtraukdami papildomus skirtukus, kaip būtina.
 
 1. Naudokite mygtukus **Judėti aukštyn** ir **Judėti žemyn** įrankių juostoje, kad sudėliotumėte skirtukus kaip reikia. Skirtukai bus rodomi iš kairės į dešinę tvarka rodoma virš momentinės ekrano nuotraukos (skirtukos viršuje rodomas kairėje).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

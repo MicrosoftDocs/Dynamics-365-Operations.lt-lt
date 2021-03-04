@@ -58,3 +58,6 @@ Funkcinių vietų hierarchijos kūrimo būdas priklauso nuo jūsų įmonės reik
 Toliau pateikiamame paveikslėlyje pavaizduotas klientais pagrįstų funkcinių vietų pavyzdys.
 
 ![Diagrama, rodanti klientais pagrįstas funkcines vietas](media/04-overview-image.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Kol nebus gauta faktinė tiekėjo SF, tiekėjo SF ir toliau bus laukiančios bū
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

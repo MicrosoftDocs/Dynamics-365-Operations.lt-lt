@@ -92,3 +92,6 @@ Kompensavimo tinkleliai naudojami nustatyti ir prižiūrėti pastoviųjų atlygi
 29. Pažymėkite arba atžymėkite visas sąrašo eilutes.
 30. Spustelėkite Taikyti tinkleliui.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

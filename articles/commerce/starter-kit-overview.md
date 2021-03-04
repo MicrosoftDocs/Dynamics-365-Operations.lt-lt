@@ -66,3 +66,6 @@ Modulių bibliotekoje pateikiami toliau nurodytų tipų moduliai.
 [Antraštės modulis](author-header-module.md)
 
 [Poraštės modulis](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

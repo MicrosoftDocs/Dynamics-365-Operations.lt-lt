@@ -81,3 +81,6 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti procedūros „Mok�
 25. Spustelėkite GERAI.
     * Sukurtą mokėjimo failą analizuokite XML formatu. Jį palyginkite su sukurtu dokumento maketu ir apibrėžtais mokėjimo operacijų atributais.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

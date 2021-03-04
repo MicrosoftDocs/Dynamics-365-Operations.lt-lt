@@ -71,3 +71,6 @@ April spusteli **Registruoti**. Tada ji peržiūri baigtą sudengimą. April mat
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

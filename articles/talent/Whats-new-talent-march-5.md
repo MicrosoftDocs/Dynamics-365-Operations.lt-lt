@@ -80,3 +80,6 @@ Daugelyje organizacijų kompensacijų ir išmokų vadovai gali pasiekti tik tam 
 
 ###  <a name="platform-update-24-for-finance-and-operations"></a>„Finance and Operations” platformos 24 naujinimas
 Dėl papildomos išsamios informacijos apie „Platform“ naujinimą 24 „Finance and Operations“, žr. [Kas yra nauja ar pakeista „Finance and Operations“ platformos naujinime 24 (2019 m. kovo mėnesį)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

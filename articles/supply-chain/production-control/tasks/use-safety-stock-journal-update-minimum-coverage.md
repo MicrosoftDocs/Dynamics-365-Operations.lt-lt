@@ -66,3 +66,6 @@ ms.locfileid: "4433823"
 5. **Veiksmų srityje** spustelėkite Planuoti.
 6. Spustelėkite **Prekės padengimas**. Atkreipkite dėmesį, kad **Mažiausiais kiekis** buvo atnaujintas pagal naują mažiausią kiekį pakankamų atsargų žurnale.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

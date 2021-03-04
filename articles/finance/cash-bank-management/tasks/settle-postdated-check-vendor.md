@@ -52,3 +52,6 @@ Prieš pradėdami šią atlikite toliau nurodytas procedūras.
 10. Spustelėkite Kvitas.
 11. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

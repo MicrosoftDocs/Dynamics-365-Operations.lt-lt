@@ -85,3 +85,6 @@ Nukopijavę eilutes, galite pagal poreikį redaguoti informaciją.
 Laisvos formos sąskaitą faktūrą galite kurti pagal šabloną. Skirtuke **Sąskaita faktūra** pasirinkę **Nauja pagal šabloną**, galite pasirinkti naujosios laisvos formos sąskaitos faktūros šablono pavadinimą ir kliento sąskaitą. Numatytąsias reikšmes, pvz., mokėjimo sąlygas ir kliento mokėjimo būdą, galima automatiškai užpildyti iš kliento duomenų arba galima naudoti šablone įrašytas reikšmes.
 
 Bus sukurta nauja laisvos formos SF ir galėsite redaguoti norimas reikšmes.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

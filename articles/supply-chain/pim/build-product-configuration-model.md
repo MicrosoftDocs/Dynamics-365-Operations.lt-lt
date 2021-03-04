@@ -163,3 +163,6 @@ Jei konfigūravimo procesas bus vykdomas ne gamybos vietoje ar įmonėje, KS ir 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

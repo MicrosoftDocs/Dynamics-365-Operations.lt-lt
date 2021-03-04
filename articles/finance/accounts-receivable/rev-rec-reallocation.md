@@ -114,3 +114,6 @@ Pasirinkę reikiamas pardavimo užsakymo eilutes naudokite veiksmų srities mygt
 - [Įplaukų pripažinimo perskirstymas – 2 scenarijus](rev-rec-reallocation-scenario-2.md) – įvedami du pardavimo užsakymai, tada klientas įtraukia prekę į sutartį po to, kai SF išrašoma pirmam pardavimo užsakymui.
 - [Įplaukų pripažinimo perskirstymas – 3 scenarijus](rev-rec-reallocation-scenario-3.md) – į esamą pardavimo užsakymą, kuriam išrašyta SF, įtraukiama nauja eilutė.
 - [Įplaukų pripažinimo perskirstymas – 4 scenarijus](rev-rec-reallocation-scenario-4.md) – iš esamo pardavimo užsakymo, kuriam išrašyta dalinė SF, pašalinama eilutė.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -218,3 +218,6 @@ Darbo išimtys kontroliuojančios trumpo paėmimo elgesį. Atlikite šiuos žing
 1. Pasirinkite **Trumpas paėmimas**.
 1. Pasirinkite darbo išimties kodą, kurį sukūrėte šiam scenarijui.
 1. Jei pasirinkote tinkamą išimtį, **Panaikinti ir atspausdinti iš naujo** žymimas laukelis turi būti prieinamas. Pasirinkite šį laukelį ir patvirtinkite. Po patvirtinimo, žymės ritinio seką nustato **Žymės kūrėjo identifikavimo kodo** laukelis, kuris yra perskaičiuojamas pagal pakeistą darbo linijos kiekį. Tuomet jis atspausdinamas iš naujo nurodytame spausdintuve.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ Kai sukuriate BOM ataskaitą, galite įtraukti kilmės šalį kiekvienai daliai,
 Informaciją pateikianti ataskaita apie kiekvienos dalies kilmės šalį yra sukuriama ir rodoma. Čia pateikiamas ataskaitos pavyzdys.
 
 ![Kilmės šalies ataskaita](media/country-of-origin-report.png "Kilmės šalies ataskaita")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

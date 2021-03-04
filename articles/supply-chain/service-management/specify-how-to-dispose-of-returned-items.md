@@ -183,3 +183,6 @@ Nurodydami kiekvieną perdavimo kodą turite pasirinkite perdavimo veiksmą. Per
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

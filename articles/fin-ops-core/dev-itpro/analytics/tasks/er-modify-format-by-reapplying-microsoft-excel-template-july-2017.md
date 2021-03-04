@@ -83,3 +83,6 @@ Norėdami užbaigti veiksmus šioje procedūroje, pirmiausia turite užbaigti pr
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>Naudokite pakeistą ER formato juodraščio versiją naudoti mokėjimų žurnalo apdorojimui
 
 Peržiūrėkite sukurtą darbalapį, įskaitant naują mokėjimo eilučių informaciją – mokėjimo data.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

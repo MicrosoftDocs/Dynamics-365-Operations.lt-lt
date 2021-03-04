@@ -41,3 +41,6 @@ Atlikite šiuos veiksmus norėdami perkelti aptarnavimo užsakymą į kitą apta
 4.  Formoje **Keisti aptarnavimo etapą** pasirinkite atitinkamą etapą.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

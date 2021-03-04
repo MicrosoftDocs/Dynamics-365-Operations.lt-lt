@@ -69,3 +69,6 @@ Baigę inicijavimą turite sukonfigūruoti papildomus „Commerce“ duomenis. �
 - „Commerce“ kanalai
 - Registrai ir įrenginiai
 - Asortimentai
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

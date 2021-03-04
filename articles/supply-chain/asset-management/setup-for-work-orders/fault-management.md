@@ -133,3 +133,6 @@ Atlikite toliau pateikiamus veiksmus, norėdami sukurti pasiūlymų dėl gedimų
 
 > [!NOTE]
 > Jei reikia, galite pakeisti gedimų požymių, sričių, tipų, priežasčių ir šalinimo priemonių pavadinimus. Pavadinimo pakeitimai automatiškai fiksuojami atitinkamo gedimo registracijos įrašuose.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

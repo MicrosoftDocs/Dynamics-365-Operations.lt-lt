@@ -48,3 +48,6 @@ ms.locfileid: "4414401"
 12. Pagrindiniame puslapyje pasirinkite **Parduotuvės finansai**.
 13. Spustelėkite skirtuką **Užregistruoti išrašai**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

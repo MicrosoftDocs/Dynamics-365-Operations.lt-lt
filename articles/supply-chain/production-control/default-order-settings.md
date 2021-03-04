@@ -204,3 +204,6 @@ Patvirtinimo parinkties nustatymui:
 1. **Bendra** skirtuke, nustatykite **Nustatytojo užsakymo kiekių tvirtinimas** į vieną iš šių verčių:
     - **Griežtas** - Pasirinkite šią parinktį siekiant užtikrinti, kad visos **Standartinio užsakymo kiekio** vertės bus dauginamos iš **Daugelio** verčių kiekvienam „FastTab“ (**Įsigijimo užsakymas**, **Inventorius** ir **Prekybos užsakymas**).
     - **Standartinis** - Pasirinkite šią parinktį tam, kad naudotumėte standartinį patvirtinimą (jis veikia tuo pačiu būdu, kai ši funkcija yra neįjungta).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

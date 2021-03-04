@@ -170,3 +170,6 @@ Kai parinktis **Kurti kliento užsakymą asinchroniniu režimu** nustatyta į **
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Hibridiniai kliento užsakymai](hybrid-customer-orders.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

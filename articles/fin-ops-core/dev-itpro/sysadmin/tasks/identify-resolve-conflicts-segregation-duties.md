@@ -43,3 +43,6 @@ ms.locfileid: "4681599"
 1. Eikite į **Naršymo sritis > Moduliai > Sistemos administravimas > Sauga > Pareigų atskyrimas > Pareigų atskyrimo taisyklės**. Pasirinkite taisyklę.  
 2. Pasirinkite **Tikrinti pareigas ir vaidmenis**. Jei esami vaidmenys pažeidžia pasirinktą taisyklę, rodomas pranešimas, kuriame pateikiamas vaidmens pavadinimas ir nesuderinamų pareigų pavadinimai. Administratorius turi nurodyti saugos rizikos mažinimą arba modifikuoti vaidmenį, kad jis nepažeistų pareigų atskyrimo taisyklių. Jei nėra vaidmenų, kurie pažeistų pasirinktą taisyklę, pranešime rodoma, kad visi vaidmenys atitinka.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

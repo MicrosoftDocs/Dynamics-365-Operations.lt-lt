@@ -76,3 +76,6 @@ Taip pat turėkite omenyje, kad didžiausias jūsų faktinio atsargų kiekio pos
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

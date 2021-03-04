@@ -676,3 +676,6 @@ Darbuotojai gali paskelbti paso informaciją. Ši informacija yra **Paso** ident
 
 Darbuotojai gali paskelbti kelis **Paso** identifikacijos tipo identifikacijos numerius. Tačiau į „Dayforce“ integruojamas tik dabartinis aktyvus paso įrašas. Jei nebegalioja visi paso įrašai, į „Dayforce“ integruojamas pasas, kuris buvo išduotas vėliausiai.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ ms.locfileid: "4433536"
 5. Pasirinkite **Pirkimo sutarties patvirtinimai**. Parinktis **Peržiūrėti / spausdinti** leidžia generuoti pirkimo sutarties dokumentą, kurį galite spausdinti arba siųsti tiekėjui. Jei vėliau sutartį atnaujinsite ir iš naujo patvirtinsite, abi jos versijos bus rodomas čia.  
 6. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

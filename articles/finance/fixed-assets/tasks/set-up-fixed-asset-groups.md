@@ -39,3 +39,6 @@ ms.locfileid: "4445845"
 8. Lauke **Nusidėvėjimo konvencija** pažymėkite parinktį.
 9. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

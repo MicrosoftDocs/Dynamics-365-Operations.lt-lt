@@ -221,3 +221,6 @@ Norėdami vykdyti suderinamumo tikrinimą, atlikite šiuos veiksmus.
 1. Veiksmų srityje, skirtuke **Įkeltys**, grupėje **Veiksmai**, pasirinkite **Suderinamumo tikrinimas**.
 
 Gausite pranešimą, kuris jus informuos apie patikros rezultatus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

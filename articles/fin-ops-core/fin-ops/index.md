@@ -145,3 +145,6 @@ Didžioji šio turinio dalis taikoma ir susijusiems produktams: „Dynamics 365 
 
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

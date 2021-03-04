@@ -70,3 +70,6 @@ Skyriuje **Paskirties buhalterijos paskyra** „FastTab“, pagrindinė paskyra 
 > Galite pasirinktinai naudoti **Kopijavimo** mygtuką tam, kad dublikuotumėte pasirinktą skirstymą.
 
 Kai skirstymo sąlygos yra sukuriamos pagrindinėje paskyroje, sistema automatiškai publikuoja naują kuponą, kai kuponas yra publikuojamas ir atitinka šaltinio finansines dimensijas skirstymo sąlygose.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

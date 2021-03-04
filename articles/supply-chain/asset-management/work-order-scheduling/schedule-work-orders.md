@@ -138,3 +138,6 @@ Norėdami peržiūrėti Ganto diagramą ir su ja dirbti, atlikite toliau nurodyt
     - Norėdami perplanuoti rodomą darbo užsakymą, pasirinkite ir nuvilkite jį į norimą naują datą ir laiką.
 
 1. Jei atlikote pakeitimus, veiksmų srityje pasirinkite **Įrašyti**, kad juos įrašytumėte.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

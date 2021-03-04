@@ -54,3 +54,6 @@ Jūsų darbuotojai gali pateikti prašymus išleisti iš darbo, o jūs galite va
 [Prašymai išleisti iš darbo](hr-employee-self-service-request-time-off.md)
 [Atostogų ir neatvykimų prašymų valdymas](hr-employee-self-service-manage-requests.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

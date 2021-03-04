@@ -37,3 +37,6 @@ Finansiniai ir mokesčių duomenys yra integruoti naudojant šiuos susiejimus:
 
 + [Integruota didžioji knyga](ledger-mapping.md)
 + [Bendrieji integruotų mokesčių duomenys](tax-mapping.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

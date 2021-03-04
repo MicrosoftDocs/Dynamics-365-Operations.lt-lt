@@ -52,3 +52,6 @@ ms.locfileid: "4433286"
 4. Sąraše spustelėkite saitą pasirinktoje eilutėje.
     * Žurnalas Skelbti baigtu užregistruotas. Jei norite koreguoti žurnalą, galite rankiniu būdu sukurti naują žurnalą, kuriame galite atlikti keitimus.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

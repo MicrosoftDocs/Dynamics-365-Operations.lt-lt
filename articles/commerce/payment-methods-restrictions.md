@@ -61,3 +61,6 @@ Kai parametras **Riboti grąžinimus be kvito** nustatytas į parinktį **Taip**
 
 Jei operacijai priskiriami grąžinimai su kvitu ir be kvito, apribojimo sąlygos nebus taikomos, nes operacija bus grąžinimo darbo eiga su kvitu. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

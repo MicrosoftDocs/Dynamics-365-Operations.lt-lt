@@ -90,3 +90,6 @@ Automatiškai kurdami aptarnavimo užsakymus, aptarnavimo užduotis galite naudo
 2. Skirtuke **Sąranka** pasirinkite laukelyje **Jungti aptarnavimo užsakymus** esantį kriterijų **Pagal aptarnavimo užduotį**.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

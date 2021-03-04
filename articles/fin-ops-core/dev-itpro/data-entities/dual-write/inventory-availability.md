@@ -57,3 +57,6 @@ Dialogo langas grąžina ATP informaciją iš „Supply Chain Management”. Pat
 - Gavimo kiekis
 - Išdavimo kiekis
 - Turimas kiekis
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

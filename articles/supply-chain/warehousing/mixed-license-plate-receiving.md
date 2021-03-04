@@ -49,3 +49,6 @@ Turite sukurti naują meniu elementą režimu Darbas, kuriame nenaudojamas esama
 - Mišrių numerio lentelių gavimas ir padėjimas
 
 Parinktys, skirtos identifikuoti šaltinio dokumento eilutes, yra pirkimo užsakymo prekė, pirkimo užsakymo eilutė, grąžinimo užsakymas, perkėlimo užsakymo prekė ir perkėlimo užsakymo eilutė. Šios parinktys gali pakeisti gavimo užsakymą vienoje numerio lentelėje. Paskutinė parinktis yra pagal krovinio prekę. Į numerio lentelę galite pridėti kelias prekes, tačiau negalite keisti vieno krovinio į kitą.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

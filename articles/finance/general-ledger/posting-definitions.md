@@ -62,3 +62,6 @@ Kuriant saitus registravimo aprašuose taikomi šie apribojimai:
 Daugiau informacijos ieškokite [Registravimo aprašo pavyzdžiai](example-posting-definitions.md). 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

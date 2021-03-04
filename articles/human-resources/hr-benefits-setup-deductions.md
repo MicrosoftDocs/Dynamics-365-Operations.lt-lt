@@ -52,3 +52,6 @@ Naudokite atskaitymus programoje „Microsoft Dynamics 365 Human Resources“, s
 4. Norėdami sekti ir tvarkyti išmokų tarifo sąrankos keitimus, pasirinkite **Veiksmai**, tada pasirinkite **Tvarkyti versijas**.
 
 5. Pasirinkite **Įrašyti**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

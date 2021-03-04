@@ -103,3 +103,6 @@ ms.locfileid: "4684456"
     Šiame pavyzdyje pasirinkite konfigūracijos versiją, kurios būsena – **Bendrinama**.
 
     Atkreipkite dėmesį, kad dabar taip pat galima naudoti ir 1 pasirinktos duomenų modelio konfigūracijos bendrai naudojamą versiją.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

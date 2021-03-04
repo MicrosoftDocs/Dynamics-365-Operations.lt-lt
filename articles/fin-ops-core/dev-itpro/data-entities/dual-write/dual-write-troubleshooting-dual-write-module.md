@@ -87,3 +87,6 @@ Bandydami nustatyti susiejimo būseną į **Vykdoma**, galite gauti klaidos pran
 
 + Jei susiejime yra priklausomieji susiejimai, įsitikinkite, kad įgalinote šios lentelės susiejimo priklausomuosius susiejimus.
 + Gali trūkti susiejimo šaltinio arba paskirties laukų. Jei „Finance and Operations” programoje trūksta lauko, atlikite veiksmus, aprašytus skyriuje [Trūkstamų objektų laukų problema schemose](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps). Jei „Dataverse” trūksta lauko, spustelėkite susiejimo mygtuką **Atnaujinti lenteles**, kad laukai būtų automatiškai įvesti į susiejimą.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

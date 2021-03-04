@@ -55,3 +55,6 @@ Vartotojai, nepriklausantys nuomotojui, kuriame buvo įdiegta aplinka, turi būt
 4. Pasirinkite **Importuoti vartotojus**.
 5. Pasirinkite **Uždaryti**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

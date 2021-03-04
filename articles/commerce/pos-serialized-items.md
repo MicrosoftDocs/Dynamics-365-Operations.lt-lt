@@ -95,3 +95,6 @@ Norėdami įjungti šį tikrinimą, būtina suplanuoti toliau pateiktas užduoti
 [Atvežamų atsargų operacija EKA](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
 [Siunčiamų atsargų operacija EKA](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

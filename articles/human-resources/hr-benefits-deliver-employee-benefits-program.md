@@ -68,3 +68,6 @@ ms.locfileid: "4419746"
 16. Lauke Pagrindas pasirinkite parinktį.
 17. Lauke Suma arba koeficientas įveskite skaičių.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

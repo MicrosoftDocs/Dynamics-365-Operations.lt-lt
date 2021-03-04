@@ -179,3 +179,6 @@ Atkreipkite dėmesį į vykstančius įvykius:
 - Suaktyvinamas susijusio pardavimo užsakymo išleidimas į sandėlį.
 - Remiantis išleidimu, sukuriama siunta ir prekių skirstymas. Šis darbas nurodo sandėlio operatoriui paimti kiekius, kurie reikalingi pardavimo užsakymo eilutei įvykdyti, ir perkelti juos į pakrovimo vietą, nurodytą prekių skirstymo vietos nurodyme.
 - Jei gamybos užsakymo kiekis yra didesnis nei kiekis, kurio reikia pardavimo užsakymui, sukuriamas įprastas atidėjimo darbas. Šis darbas nurodo sandėlio operatoriui paimti gatavų prekių kiekį, kuris lieka po prekių skirstymo ir perkelti jį į įprastą sandėliavimo vietą, atsižvelgiant į vietos nurodymą.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Jei visos aptarnavimo užsakymo eilutės yra pažymėtos nurodant būseną **Už
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

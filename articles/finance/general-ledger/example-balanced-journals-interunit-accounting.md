@@ -55,3 +55,6 @@ Taigi toliau nurodyti apskaitos įrašai sukuriami automatiškai, siekiant subal
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ ms.locfileid: "4446121"
 10. Spustelėkite **Atšaukti**.
 11. Spustelėkite **Taip**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Norėdami susieti skaičių seką su vežėju, elkitės taip:
 1. Pasirinkite **Redaguoti**.
 1. „FastTav“ **Apžvalga**, pasirinkite parinktį **Pro skaičiaus seka** laukelyje.
 1. Uždarykite puslapį.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Norėdami daugiau sužinoti apie šią funkciją, leiskite užduočių vedlį **
 [Elektroninių ataskaitų (ER) paskirties vietos](electronic-reporting-destinations.md)
 
 [Elektroninių ataskaitų (ER) formulių kūrimo įrankis](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

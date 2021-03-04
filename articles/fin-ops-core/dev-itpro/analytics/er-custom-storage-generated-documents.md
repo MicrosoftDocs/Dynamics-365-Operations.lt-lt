@@ -175,3 +175,6 @@ public DocuRef insertFile(
 
 - [Elektroninių ataskaitų (ER) paskirties vietos](electronic-reporting-destinations.md)
 - [Išplečiamumo pagrindinis puslapis](../extensibility/extensibility-home-page.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

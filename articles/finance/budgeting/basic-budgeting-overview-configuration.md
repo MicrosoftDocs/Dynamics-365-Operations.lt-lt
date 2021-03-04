@@ -88,3 +88,6 @@ Užklausų puslapis **Faktinė ir biudžeto sumos** suteikia galimybę detalizuo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

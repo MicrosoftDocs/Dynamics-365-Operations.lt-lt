@@ -68,3 +68,6 @@ Tai yra penktoji iš penkių procedūrų, kuriose apibūdinamas kliento mokėjim
 11. Spustelėkite Gerai.
 12. Spustelėkite Gerai.
 13. Spustelėkite Kurti mokėjimus.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

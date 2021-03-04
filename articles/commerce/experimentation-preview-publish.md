@@ -60,3 +60,6 @@ Naudojant publikavimo grupes su eksperimentais, yra svarbių dalykų, kuriuos re
 
 ## <a name="next-step"></a>Kitas veiksmas
 [Eksperimento vykdymas ir stebėjimas](experimentation-run-monitor.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

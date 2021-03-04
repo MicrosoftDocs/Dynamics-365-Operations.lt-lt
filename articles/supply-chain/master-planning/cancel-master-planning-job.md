@@ -53,3 +53,6 @@ Jas reikėtų naudoti, tik jei bendrojo planavimo užduotis puslapyje **Nebaigti
 4. Dalyje **Paketinės užduotys** pasirinkite užduotis, kurias norite baigti.
 5. Spustelėkite **Keisti būseną**, pasirinkite **Atšaukiama** ir spustelėkite **Gerai**.
 6. „FastTab“ konteineryje **Paketinės užduotys** spustelėkite **Nutraukti**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

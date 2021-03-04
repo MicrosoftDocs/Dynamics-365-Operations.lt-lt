@@ -53,3 +53,6 @@ Jūsų balansai arba automatiškai atsinaujins, arba pereis tvirtinimo procesą 
 
 [Atostogų ir neatvykimų apžvalga](hr-leave-and-absence-overview.md)</br>
 [Atostogų pirkimo ir pardavimo strategijų valdymas](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

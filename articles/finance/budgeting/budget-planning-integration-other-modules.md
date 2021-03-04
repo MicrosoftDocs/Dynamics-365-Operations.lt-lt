@@ -147,3 +147,6 @@ Galima naudoti vieną iš papildomų ataskaitų – **Prognozės pozicijos pagal
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

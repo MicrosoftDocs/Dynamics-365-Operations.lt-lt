@@ -71,3 +71,6 @@ Atlikę priežiūros arba remonto užduotį, galite užregistruoti turtą kaip g
 2. Pasirinkite turtą arba priežiūros užklausą.
 3. Pasirinkite **Pristatyti turtą**.
 4. Lauke **Pristatyta** įveskite datą ir laiką. Tada pasirinkite **Gerai**. Įrašas pašalinamas iš **Siunčiamas turtas** sąrašo puslapio.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ ms.locfileid: "4433592"
 17. Lauke Gaminių kiekiui įveskite skaičių.
 18. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

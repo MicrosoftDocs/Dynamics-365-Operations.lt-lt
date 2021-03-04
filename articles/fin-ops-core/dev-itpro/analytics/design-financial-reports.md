@@ -197,3 +197,6 @@ Atlikdami šią užduotį, jūs modifikuosite esamą numatytąją ataskaitą. Į
 [Peržiūrėti finansines ataskaitas](../../../finance/general-ledger/view-financial-reports.md)
 
 [„Dynamics 365 Finance“ tinklaraštis](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

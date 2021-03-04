@@ -106,3 +106,6 @@ Todėl „Supply Chain Management“ dabar palaiko KS skaičiavimą, kuris apima
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

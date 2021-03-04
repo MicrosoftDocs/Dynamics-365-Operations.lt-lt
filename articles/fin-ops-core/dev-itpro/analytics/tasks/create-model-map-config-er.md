@@ -65,3 +65,6 @@ Naudokite šią procedūrą norėdami sukurti naują elektroninių ataskaitų (E
     * „Intrastat“ pavyzdžio susiejimas  
 5. Spustelėkite Sukurti konfigūraciją.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

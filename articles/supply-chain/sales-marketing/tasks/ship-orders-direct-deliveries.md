@@ -82,3 +82,6 @@ ms.locfileid: "4434008"
     - Tiesioginio pristatymo puslapis veikia kaip darbastalis, teikiantis pirkimo agentui visų pardavimo užsakymo eilučių, kurios turi būti tiesiogiai pristatytos, apžvalgą ir tai leidžia jiems kurti atitinkamus pirkimo užsakymus. Be to, jie gali peržiūrėti atidarytus tiesioginio pristatymo užsakymus ir patvirtintus užsakymus skirtukuose Patvirtinimas ir Pristatymas.  
     - Sukūrus tiesioginio pristatymo užsakymą, jis automatiškai perkeliamas į skirtuką Patvirtinimas. Galite patvirtinti užsakymą tiesiogiai iš šio puslapio. Kai pirkimas patvirtintas, jis bus automatiškai perkeltas į skirtuką Pristatymas, iš kurio galite registruoti jo gavimą.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

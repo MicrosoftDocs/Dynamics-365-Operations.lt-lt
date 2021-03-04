@@ -88,3 +88,6 @@ Valiutos kodas nėra būtinas. Jei nurodomas kaip tuščia eilutė, naudojama vy
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Tekstinės funkcijos](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

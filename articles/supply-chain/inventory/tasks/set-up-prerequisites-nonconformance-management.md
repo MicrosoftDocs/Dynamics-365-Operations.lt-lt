@@ -80,3 +80,6 @@ ms.locfileid: "4433850"
 4. Lauke **Aprašo laukas** surinkite reikšmę.
 5. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

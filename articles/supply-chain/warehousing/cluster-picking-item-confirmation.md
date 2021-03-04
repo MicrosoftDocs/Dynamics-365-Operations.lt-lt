@@ -42,3 +42,6 @@ Prekių patikrinimas atliekant klasterio parinkimą atliekamas tuo pačiu būdu 
 |        Parinktis        |                                    aprašymas                                    |
 |----------------------|-----------------------------------------------------------------------------------|
 | Produkto patvirtinimas | Mobiliuoju įrenginiu nuskaitydami galite patikrinti kiekvieną atsargų dalį. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -301,3 +301,6 @@ Tada įkelsite pavyzdinį ER formatą **„Intrastat“ (importuoti iš „Excel
 
 - [ER: konfigūracijos, skirtos generuoti ataskaitoms OPENXML formatu, kūrimas (2016 m. lapkričio mėn.)](tasks/er-design-reports-openxml-2016-11.md)
 - [ER konfigūracijų kūrimas siekiant generuoti ataskaitas „Word“ formatu](tasks/er-design-configuration-word-2016-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

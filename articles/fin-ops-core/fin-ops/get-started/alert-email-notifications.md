@@ -50,3 +50,6 @@ Paslauga siunčia el. pašto pranešimus naudodama iš anksto nustatytus el. lai
 Toliau pateiktame vaizde rodoma įspėjimo pranešimų struktūra juos gavus el. paštu.
 
 [![Įrašų kūrimo, laukų pakeitimo ir šablonų naikinimo įspėjimo pranešimai, pagrįsti šablonu](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -132,3 +132,6 @@ Funkcinė vieta su susijusiomis antrinėmis vietomis gali būti panaikinta, jei 
 
 >[!NOTE]
 >Jei negalite panaikinti funkcinės vietos, galite tvarkyti naikinimą šiuo tikslu nustatydami funkcinės vietos ciklo būseną. Pavyzdžiui, galite nustatyti etapą „Nurašyta“ arba „Panaikinta“, kuris neturėtų būti aktyvus etapas, formoje **Funkcinės vietos ciklo būsenos**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

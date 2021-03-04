@@ -111,3 +111,6 @@ Koreguotos išlaidos už valandą ir užduoties laikas registruojamas gamybos ž
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

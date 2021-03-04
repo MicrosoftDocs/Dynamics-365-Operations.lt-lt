@@ -129,3 +129,6 @@ ES pardavimo sąrašo ataskaitų „wiki‟ puslapį. Vadovas buvo sukurtas naud
 8. Lauke Šalis / regionas įveskite „PRT“
 9. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

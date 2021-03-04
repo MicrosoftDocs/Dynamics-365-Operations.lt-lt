@@ -58,3 +58,6 @@ ms.locfileid: "4414403"
 23. Lauke EFT terminalo ID įveskite reikšmę.
 24. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

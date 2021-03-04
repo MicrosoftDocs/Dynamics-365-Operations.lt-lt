@@ -192,3 +192,6 @@ Pasirinktos užduoties būsena ir bet kurios iškviestos įvykio užduoties „k
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

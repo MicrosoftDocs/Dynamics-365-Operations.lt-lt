@@ -95,3 +95,6 @@ Tačiau, kaip minėta anksčiau, kai naudojate įrenginio konfigūraciją su par
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Pranešimas apie baigtą užduotį iš užduoties kortelės įrenginio.](report-finished-job-device.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

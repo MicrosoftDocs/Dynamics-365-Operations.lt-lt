@@ -115,3 +115,6 @@ Jei dar jų neatlikote, atlikite veiksmus, skirtus [įgalinti produkto rekomenda
 [Rekomendacijų su demonstraciniais duomenimis kūrimas](product-recommendations-demo-data.md)
 
 [DUK apie produktų rekomendacijas](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

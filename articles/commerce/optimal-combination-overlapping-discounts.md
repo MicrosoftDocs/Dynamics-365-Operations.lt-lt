@@ -84,3 +84,6 @@ Norint išspręsti proporcingai didėjančio turimų įvertinti derinių skaiči
 ![Ribinės vertės apskaičiavimo formulė](./media/overlapping-discount-combo-06.jpg)
 
 Apskaičiavus kiekvienos bendrai naudojamų produktų rinkinio nuolaidos ribinę vertę, bendrai naudojamiems produktams nuolaidos taikomos mažėjančia tvarka nuo didžiausios ribinės vertės iki mažiausios ribinės vertės. Taikant šį metodą visos likusios nuolaidos galimybės nėra lyginamos kiekvieną kartą pritaikius vieną nuolaidos atvejį. Persidengiančios nuolaidos lyginamos vieną kartą, o po to taikomos iš eilės. Nėra atliekama jokių papildomų palyginimų. Galite sukonfigūruoti ribinę reikšmę, kad pereitumėte prie ribinės vertės metodo, esančio puslapyje **„Commerce“ parametrai**, skirtuke **Nuolaida**. Įvairiose mažmeninės prekybos rinkose laikas, kuris tinkamas apskaičiuoti bendrąją nuolaidos sumą, skiriasi. Tačiau šis laikas paprastai patenka į intervalą nuo dešimčių milisekundžių iki vienos sekundės.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -165,3 +165,6 @@ Ataskaita Svertinio vidurkio nuolaidos koeficientas atitinka JAV GAAP atskleidim
 |     Valiuta                          |     Naudotos operacijų valiutos santrumpa. Visose ataskaitose operacijų valiuta bus konvertuota į ataskaitų valiutą.  |
 |     Likę nuomos mokesčiai          |     Bendroji nesumokėtų nuomos mokesčių iš mokėjimo grafiko suma, likusi **įsigaliojimo** dieną.            |
 |     Likę svertiniai mokėjimai       |     Likę nuomos mokesčiai, padauginti iš naudojamo nuolaidos koeficiento.   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

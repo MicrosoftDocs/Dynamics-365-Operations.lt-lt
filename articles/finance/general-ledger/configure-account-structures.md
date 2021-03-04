@@ -107,3 +107,6 @@ Nustatydami sąskaitų struktūras, galite vadovautis keletu geriausios praktiko
 Kai būsite patenkinti nauja sąskaitos struktūros sąranka arba pakeitimu, turėsite ją aktyvinti. Jei sąskaitos struktūra priskirta didžiajai knygai, aktyvinimo procesas gali būti ilgas, nes visos sistemoje neužregistruotos operacijos turės būti sinchronizuotos pagal naują struktūrą. Pakeitus sąskaitos struktūrą, užregistruotos operacijos nepaveikiamos.
 
 Daugiau informacijos ieškokite temose [Savo sąskaitų plano rengimas](plan-chart-of-accounts.md), [Finansinės dimensijos](financial-dimensions.md) bei [Sąskaitų ir dimensijų kombinacijų (segmentuoto įrašo valdiklis) įvedimas](enter-account-dimension-combinations-segmented-entry-control.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

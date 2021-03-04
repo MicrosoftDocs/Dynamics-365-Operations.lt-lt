@@ -71,3 +71,6 @@ Atnaujinimo procesas perkels esamą jūsų sąranką ir visas esamas jūsų oper
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

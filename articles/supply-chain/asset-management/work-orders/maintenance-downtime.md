@@ -89,3 +89,6 @@ Spustelėkite **Turto valdymas** > **Užklausos** > **Prižiūrimo turto prastov
 >[!NOTE]
 >Visi modulyje **Turto valdymas** naudojami kalendoriai nustatomi pasirinkus **Organizacijos administravimas** > **Sąranka** > **Kalendoriai** > **Kalendoriai**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

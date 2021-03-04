@@ -91,3 +91,5 @@ Pateikus kontrolinį sąrašą, jūsų „FastTrack” sprendimų architektas pe
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 [DUK apie įgyvendinimo pradžią](hr-admin-go-live-faq.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

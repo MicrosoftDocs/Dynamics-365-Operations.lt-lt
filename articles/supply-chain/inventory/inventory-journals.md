@@ -117,3 +117,6 @@ Kitas skirtumas tarp žurnalo duomenų objektų yra galimybė naudoti sudėtiniu
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Duomenų objektai](../../dev-itpro/data-entities/data-entities.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

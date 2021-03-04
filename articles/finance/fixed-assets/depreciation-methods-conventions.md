@@ -91,3 +91,6 @@ Galite pasirinkti šiuos nusidėvėjimo metodus:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

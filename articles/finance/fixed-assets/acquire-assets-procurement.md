@@ -109,3 +109,6 @@ Norėdami daugiau informacijos žr. [Ilgalaikio turto integravimas](fixed-asset-
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

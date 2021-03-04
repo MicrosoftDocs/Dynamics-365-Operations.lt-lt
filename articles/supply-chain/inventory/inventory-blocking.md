@@ -70,3 +70,6 @@ Galite nurodyti, kurių atsargų būsenos yra blokavimo būsenos, naudodami para
 [Kokybės valdymo procesai](quality-management-processes.md)
 
 [Tikrinti prekių kokybę](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

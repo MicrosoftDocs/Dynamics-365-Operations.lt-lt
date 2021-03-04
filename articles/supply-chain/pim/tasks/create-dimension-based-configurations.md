@@ -53,3 +53,6 @@ ms.locfileid: "4433598"
     * Įveskite konfigūracijos aprašą, paaiškinantį, kas joje yra.  
 11. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

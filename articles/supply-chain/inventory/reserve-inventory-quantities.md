@@ -83,3 +83,6 @@ Galima naudoti dvi toliau nurodytas parinktis, susijusias su rezervavimais pusla
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Puslapyje Gamybos parametrai pateikiamos atsargų rezervavimo strategijos
 
 Puslapio **Gamybos parametrai** skirtuko **Bendra** lauko **Rezervavimas** reikšmė nustato numatytąjį gamybos proceso momentą, kada atsargos turėtų būti rezervuotos. Pvz., atsargos gali būti rezervuotos suplanavus arba pradėjus darbą.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

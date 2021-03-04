@@ -79,3 +79,6 @@ Norėdami atlikti šią procedūrą, turite būti atlikę ankstesnius 4 šios a�
 5. Spustelėkite GERAI.
 6. Spustelėkite Aktyvinti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

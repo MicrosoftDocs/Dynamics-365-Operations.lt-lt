@@ -44,3 +44,6 @@ ms.locfileid: "4682002"
 2. Pasirinkite **Nustatyti kaip aktyvų**.
 
 ![Elektroninių ataskaitų darbo srities puslapis](../media/GER-Task-ActiveProvider-1.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Naudodamiesi išplėstinio banko suderinimo funkcija galite importuoti banko iš
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

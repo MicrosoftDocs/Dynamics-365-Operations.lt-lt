@@ -57,3 +57,6 @@ Taip pat galite nustatyti priežasties kodą, kuris padės paaiškinti, kodėl p
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

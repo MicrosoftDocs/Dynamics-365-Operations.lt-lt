@@ -42,3 +42,6 @@ Programoje „Microsoft Dynamics 365 Human Resources“, laukimo dienos nustato 
    | **Diena** | Mėnesio diena, kuriai sistema turėtų priskirti laukimo laikotarpio datą. |
    
 4. Pasirinkite **Įrašyti**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

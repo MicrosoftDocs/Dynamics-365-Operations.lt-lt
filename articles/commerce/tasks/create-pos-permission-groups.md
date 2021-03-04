@@ -48,3 +48,6 @@ ms.locfileid: "4414397"
 16. Lauke EKA teisių grupė įveskite arba pasirinkite reikšmę. Visi darbuotojai su šios užduoties pareigomis naudos šios EKA teisių grupės parametrus, nebent darbuotojų EKA teisių nepaisoma pareigų lygyje.  
 17. Pasirinkite **Įrašyti**. Įrašius keitimus, reikia paleisti darbuotojų paskirstymo grafiką, kad keitimai būtų taikomi kanalams.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

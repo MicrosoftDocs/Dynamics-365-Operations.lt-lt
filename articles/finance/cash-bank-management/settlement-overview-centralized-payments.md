@@ -108,3 +108,6 @@ Tiekėjo mokėjimams „mokėti iki“ ir „mokėti nuo“ operacijos mokėjimo
 
 ## <a name="withholding-tax"></a>Išskaitomas mokestis
 Tiekėjo kodas, susietas su SF, naudojamas norint nustatyti, ar išskaitomas mokestis turėtų būti skaičiuojamas. Jei išskaitomas mokestis pritaikomas, jis apskaičiuojamas juridiniame subjekte, kuris susietas su SF. Jei juridiniame subjekte naudojamos skirtingos valiutos, naudojamas su SF susieto juridinio subjekto valiutos kursas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

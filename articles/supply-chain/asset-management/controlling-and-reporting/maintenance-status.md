@@ -68,3 +68,6 @@ Toliau pateiktoje ekrino kopijoje buvo įterpta informacija apie funkcines vieta
 
 ![Mėnesinio darbo krūvio su funkcinėmis vietomis pavyzdys](media/14-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

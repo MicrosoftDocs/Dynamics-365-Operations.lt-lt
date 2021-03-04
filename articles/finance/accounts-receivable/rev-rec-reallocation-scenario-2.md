@@ -90,3 +90,6 @@ Antram pardavimo užsakymui išrašoma SF. Bendra klientui pateikiama SF sudaro 
 [![Puslapis Kvito operacijos su užregistruotu apskaitos įrašu](./media/24_rev-rec-scenarios.png)](./media/24_rev-rec-scenarios.png)
 
 Kadangi įplaukų ir pardavimų suma didesnė nei 1.170,44 $, užregistruojamas -130,17 $ skirtumas. Ši suma išvalo balansą iš dalinės SF įplaukų kliringo sąskaitos. Tas balansas registruojamas naujame apskaitos įraše po perskirstymo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

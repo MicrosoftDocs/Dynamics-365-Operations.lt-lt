@@ -45,3 +45,6 @@ Jei turite savanorių ar kitų ne darbuotojų, galbūt norėsite pakeisti **Darb
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 - [Darbuotojų ir vadovų savitarnos apžvalga](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

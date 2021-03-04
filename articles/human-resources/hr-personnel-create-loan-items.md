@@ -59,3 +59,6 @@ Skolinamos prekės yra įrašai, kurie padeda sekti fizines prekes, pvz., telefo
 14. Spustelėkite GERAI.
 15. Atnaujinkite puslapį.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

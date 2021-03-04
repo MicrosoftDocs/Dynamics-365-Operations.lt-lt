@@ -65,3 +65,6 @@ Nauju „Common Data Service” sprendimu greitai galėsite naudotis atlikdami �
 [Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
 [Funkcijų valdymas](hr-admin-manage-features.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

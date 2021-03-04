@@ -60,3 +60,6 @@ Kai, augant organizacijai, galvosite apie tęstinumo planą, greičiausiai norė
 28. Spustelėkite Ataskaita.
     * Ataskaitoje geriausi atitikmenys bus pateikiami jos viršuje.  Galite matyti, kad yra pateiktas tarpo elementas.  Tai yra skirtumas tarp lygio, kuris buvo pateiktas įgūdžių išdėstyme, ir įgūdžių, priskirtų asmeniui, lygio.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

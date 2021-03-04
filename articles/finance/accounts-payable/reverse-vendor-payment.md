@@ -83,3 +83,6 @@ Jeigu atšauktas čekis buvo išduotas klientui grąžinamų pinigų mokėjimui,
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

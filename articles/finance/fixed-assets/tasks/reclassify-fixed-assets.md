@@ -46,3 +46,6 @@ Atlikite šiuos veiksmus, norėdami perklasifikuoti ilgalaikį turtą:
 5. Lauke **Perklasifikavimo data** įveskite datą.
 6. Lauke **Kvitų serijos** įveskite arba pasirinkite reikšmę.
 7. Spustelėkite **Gerai**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

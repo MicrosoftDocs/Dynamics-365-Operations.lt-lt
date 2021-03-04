@@ -164,3 +164,6 @@ Kai kurios formulės negali būti išbandytos kūrimo metu. Pvz., formulė gali 
 
 - [Elektroninių ataskaitų apžvalga](general-electronic-reporting.md)
 - [Elektroninių ataskaitų formulių kalba](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Papildomos informacijos apie šią funkciją galima rasti čia: [„Office“ in
 ## <a name="other-fixes"></a>Kitos pataisos
 
 Į šį leidimą taip pat įtraukta daug pataisų, naujų objektų, esamų objektų pataisų ir lokalizuotų žymių pakeitimų.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

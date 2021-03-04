@@ -56,3 +56,6 @@ ms.locfileid: "4433612"
 4. Spustelėkite Medžiagos.
     * Šiame puslapyje galite matyti įvertintą medžiagų suvartojimą gamybos užsakymo operacijoms atlikti ir dabartines turimas atsargas.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

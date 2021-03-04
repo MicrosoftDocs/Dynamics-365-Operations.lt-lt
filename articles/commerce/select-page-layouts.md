@@ -78,3 +78,6 @@ Norėdami pasirinkti kitą esamo puslapio maketą, atlikite toliau nurodytus vei
 
 [Puslapio turinio pritaikymo neįgaliesiems patikra](verify-accessibility.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

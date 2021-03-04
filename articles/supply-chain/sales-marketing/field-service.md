@@ -85,3 +85,6 @@ Norėdami naudoti sprendimą „Field Service“, turite įdiegti toliau nurodyt
 - „Field Service“ (8.2.0.286 versija) arba naujesnė versija programoje „Dynamics 365 9.1.x“ – išleista 2018 m. lapkričio mėn.
 - „Dynamics 365“ skirtą sprendimą „Potencialūs klientai ir grynieji pinigai“ (P2C), 1.15.0.1 arba naujesnė versija. Sprendimą galima atsisiųsti iš [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
 - „Dynamics 365“ skirtas „Field Service“ integravimo, projekto ir atsargų sprendimas, 2.0.0.0 arba naujesnė versija. Sprendimą galima atsisiųsti iš [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegrationv2).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

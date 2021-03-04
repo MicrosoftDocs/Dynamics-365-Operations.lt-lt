@@ -68,3 +68,6 @@ ms.locfileid: "4433314"
 5. Išplėskite skyrių „Kanbans“.
     * Atkreipkite dėmesį, kad „kanban“ buvo sukurtas, siekiant reikiamą medžiagą perkelti į 12-ąjį sandėlį.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

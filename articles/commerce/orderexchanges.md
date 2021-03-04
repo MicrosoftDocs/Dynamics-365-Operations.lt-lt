@@ -50,3 +50,6 @@ Kad geriau matytųsi įvairios krepšelio sumos, į krepšelį įtraukti trys na
 - **Pritaikytas depozitas** – operacijai pritaikyta depozito suma, kai vartotojas paima kliento užsakymą. Jei depozitas neperrašomas ir sukonfigūruotas 10 procentų depozitas, šiame lauke suma lygi 90 procentų visos kliento užsakymo sumos.
 - **Išsinešimo suma** – visa eilučių suma, kai, kuriant ar redaguojant kliento užsakymą arba kliento užsakymą pakeičiant, pristatymo būdas buvo nustatytas kaip **Išsinešimas**. Šiame lauke esanti suma yra su mokesčiais.
 - **Grąžinimo suma** – visa eilučių, kuriose pakeičiant kliento užsakymą nurodyta neigiamų kiekių, suma. Šiame lauke esanti suma yra su mokesčiais.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -99,3 +99,6 @@ Vykdant PU pakeitimų valdymą, bet koks pasikeitimas, pvz., užsakymo arba pris
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

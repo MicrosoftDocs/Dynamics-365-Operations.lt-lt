@@ -56,3 +56,6 @@ Konvertavimo koeficientų laukuose nustatomas konvertavimo iš mokėjimo dažnum
    | **Valandinis konvertavimo koeficientas** | Metinis mokėjimo dažnumo konvertavimo koeficientas. Pavyzdžiui, metinis mėnesinio mokėjimo dažnumo konvertavimo koeficientas yra: </br></br>(12 mėnesinių mokėjimų / 2080 valandos) = 0,005769
 
 4. Pasirinkite **Įrašyti**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

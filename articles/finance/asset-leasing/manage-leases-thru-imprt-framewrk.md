@@ -83,3 +83,6 @@ Jei naudojate nuomos importavimo sistemą norėdami atnaujinti nuomą, o proceso
 
 1. Pasirinkite **Turto nuoma \> Nuomos importavimo sistema \> Sąranka \> Atnaujinimo laukų pasirinkimas**.
 2. Pasirodžiusiame puslapyje pasirinkite atnaujintus laukus ir pasirinkite žalią rodyklę, kad perkeltumėte jas į sąrašą **Pasirinkti laukai**. Tik sąrašo **Pasirinkti laukai** laukai gali būti atnaujinami naudojant nuomos importavimo paketą.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

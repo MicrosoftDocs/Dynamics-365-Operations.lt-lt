@@ -55,3 +55,6 @@ Dabar naują lauką ir jam skirtus duomenis turi būti galima redaguoti „Excel
 [Mažmeninės prekybos operacijų finansinių dimensijų redagavimas](edit-financial-dim.md)
 
 [„Excel“ darbaknygės kūrimas norint redaguoti mažmeninės prekybos operacijas](create-excel-edit.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

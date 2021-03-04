@@ -96,3 +96,6 @@ Ciklo skaičiavimas yra sandėlio procesas, kurį galite naudoti norėdami audit
 21. Spustelėkite **Gerai**.
 22. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

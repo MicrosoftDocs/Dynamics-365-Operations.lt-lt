@@ -53,3 +53,6 @@ ms.locfileid: "4414381"
 19. Spustelėkite Kurti užsakymą.
 20. Spustelėkite Taip.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

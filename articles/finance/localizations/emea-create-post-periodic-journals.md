@@ -48,3 +48,6 @@ Pvz., norėdami generuoti ketvirčio registravimus, įveskite **4** lauke **Laik
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -109,3 +109,6 @@ Dabar fragmentą galima nurodyti šablone kitiems svetainės puslapiams. Kai ši
 [Slapukų atitiktis](cookie-compliance.md)
 
 [Su sekamais turinio pakeitimais susietų vartotojo ID keitimas](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

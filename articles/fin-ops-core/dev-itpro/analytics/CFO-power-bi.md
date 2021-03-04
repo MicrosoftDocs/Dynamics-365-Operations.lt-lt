@@ -43,3 +43,6 @@ Toliau pateikiamoje lentelėje parodomas „Power BI“ turinys, iš kurio nukop
 | [Pardavimai ir pelningumas](sales-profitability-performance-content-pack.md) | <ul><li>Įplaukos pagal regioną</li><li>10 svarbiausių klientų pagal įplaukas</li><li>10 svarbiausių produktų pagal įplaukas</li></ul> |
 | [Kredito ir mokėjimų priežiūros valdymas](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Klientas, kurio terminas praėjęs</li><li>Klientai, viršijantys kredito limitą</li><li>Suskirstyti pagal terminus balansai</li></ul> |
 | [Pirkimo ir išlaidų analizė](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Pirkimai pagal mėnesį / dieną</li><li>Svarbiausi 10 tiekėjų pagal pirkimus</li><li>Svarbiausi 10 produktų pagal pirkimą</li></ul> |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Galite perkelti informaciją iš savo organizacijos duomenų bazės į žymeles 
 8. Toliau rašykite el. laišką reikiamose vietose įterpdami žymelių laukus.
 9. Pasirinkite **Įrašyti**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

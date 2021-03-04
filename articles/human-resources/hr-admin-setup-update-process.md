@@ -105,3 +105,6 @@ Tikrinandami peržiūros funkcijas arba išbandandydami naujas galimybes, galite
 [Kas nauja ar pasikeitė programoje „Dynamics 365 Human Resources”](hr-admin-whats-new.md)</br>
 [Programinės įrangos ciklo strategija](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

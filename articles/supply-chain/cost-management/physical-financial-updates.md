@@ -74,3 +74,6 @@ Kai užregistruota finansinė operacija, operacijos įrašo būsena yra **Parduo
 -   Neigiamo kiekio atsargų žurnalai, pvz., judėjimo, pelno ir nuostolio, inventorizacijos, KS, ir perkėlimo
 
 Operacijos, kurios mažina kiekį, registruojamos vykdoma vidutine savikaina. Todėl norint sudengti išdavimo operacijas su gavimo operacijomis pagal kiekvienai prekei priskirtą atsargų modelį, reikia atlikti atsargų uždarymo procedūrą.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

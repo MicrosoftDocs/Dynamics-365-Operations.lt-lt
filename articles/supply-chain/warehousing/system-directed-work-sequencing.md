@@ -305,3 +305,6 @@ Sistemos nukreiptos darbo sekos užklausos yra *imtinai*. Svarbu, kad atsimintum
 Todėl, šio scenarijaus pavyzdyje, darbo ID *4* taip pat buvo užfiksuotas naudojant užklausą. Sukūrus užklausą, buvo pridėtos dvi eilutės: viena 25 EA ir kita 10 EA. Šis darbas vis dar pateikiamas vartotojui, nes bent vienoje darbo eilutėje yra mažiau nei 20 EA.
 
 Atsižvelgiant į scenarijų, šios problemos galima išvengti naudojant darbo pertraukas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

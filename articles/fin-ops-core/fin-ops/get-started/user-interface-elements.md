@@ -86,3 +86,6 @@ Toliau pateiktame vaizde parodyti šių rūšių pranešimų pavyzdžiai.
 *Sąrašu* vadinamas įrašų rinkinys, per kurį galite slinkti. Šie įrašai gali būti pateikiami puslapyje juos spustelėjus. Dažnai tokiu atveju bus atidarytas tinklelis.
 
 ![Toliau pateiktame vaizde parodyti įrankių juostų, tinklelių ir sąrašų pavyzdžiai.](media/user-interface-08.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Galite ieškoti paketo atributuose, kai atliekate pardavimo užsakymo paketo rez
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -180,3 +180,6 @@ Daugiau informacijos apie „Common Data Service“ rasite dalyje [Kas yra „Co
 
 [Duomenų integravimo technologijos pasirinkimas](hr-admin-integration-choose-technology.md)</br>
 [„Common Data Service“ integravimo konfigūravimas](hr-admin-integration-common-data-service.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Be to, turite užbaigti užduočių vedlį [ER reikiamų konfigūracijų kūrima
 | Pareigos                  | Failo vardas |
 |------------------------|-----------|
 | ER modelio konfigūracija | [1099model.xml](https://go.microsoft.com/fwlink/?linkid=874111) |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

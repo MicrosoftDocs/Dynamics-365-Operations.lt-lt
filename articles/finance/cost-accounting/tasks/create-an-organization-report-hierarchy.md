@@ -95,3 +95,6 @@ Naudokite šią procedūrą, norėdami sukurti ataskaitų hierarchiją organizac
     * Pasirinkite dimensijos narį, atitinkantį mazgą.  
 59. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

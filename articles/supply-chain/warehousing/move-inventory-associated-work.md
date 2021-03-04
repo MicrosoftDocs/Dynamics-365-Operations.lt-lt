@@ -59,3 +59,6 @@ Norėdami pažymėti darbininką, kuriam turėtų būti leidžiama perkelti reze
 Ši funkcija taip pat buvo perkelta į „Microsoft Dynamics AX 2012 R3“ ir bus pasiekiama kaip CU12 dalis.
 Ją taip pat galima atsisiųsti atskirai KB numeriu 3192548. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

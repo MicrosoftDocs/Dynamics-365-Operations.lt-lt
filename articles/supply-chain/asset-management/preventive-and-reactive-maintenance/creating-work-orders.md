@@ -52,3 +52,6 @@ Kai suplanavote prevencinės priežiūros užduotis, kitas žingsnis yra sukurti
 
 5. Spustelėkite **Gerai**. Sukurtas vienas arba keli darbo užsakymai.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

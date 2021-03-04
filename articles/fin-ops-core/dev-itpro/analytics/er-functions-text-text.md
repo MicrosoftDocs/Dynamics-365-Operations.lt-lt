@@ -59,3 +59,6 @@ Jei „Microsoft Dynamics 365 Finance“ egzemplioriaus serverio lokalė apibrė
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Tekstinės funkcijos](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

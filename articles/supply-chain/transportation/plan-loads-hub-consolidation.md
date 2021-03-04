@@ -39,3 +39,6 @@ Norėdami naudoti tranzito punktų konsolidaciją, puslapyje **transporto valdym
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

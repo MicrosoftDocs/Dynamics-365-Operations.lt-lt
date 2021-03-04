@@ -281,3 +281,6 @@ Dabar, kai *Vietos numerio lentelės nustatymas* funkcija nustatyta, o atsargos 
     ![1 pozicijos vieta](media/LocationLicensePlatePositioning.png "1 pozicijos vieta")
 
 1. Įveskite vietai sukurtos numerio lentelės ID, tada vadovaukitės raginimais ir pasirinkite pardavimo užsakymą.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

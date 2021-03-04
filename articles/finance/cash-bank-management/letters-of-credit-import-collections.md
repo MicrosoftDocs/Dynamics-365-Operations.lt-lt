@@ -54,3 +54,6 @@ Importo dokumentų inkasavimas padeda užtikrinti, kad pardavėjui bus sumokėta
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

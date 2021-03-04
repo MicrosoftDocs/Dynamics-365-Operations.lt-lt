@@ -208,3 +208,6 @@ Tolesnis scenarijus naudoja sandėlio programą mobiliame prietaise tam, kad suk
 
     > [!NOTE]
    > Sistema sukuria vieną darbo identifikavimo kodą vienam judėjimui, kuris turi būti atliktas. Jei nurodote vietą, kuri jau turi inventorių, yra sukuriamas tik vienas darbo identifikavimo kodas. Jei nurodote naują vietą, bus sukuriami du darbo identifikavimo kodai.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

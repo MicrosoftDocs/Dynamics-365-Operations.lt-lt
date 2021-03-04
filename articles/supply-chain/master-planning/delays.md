@@ -59,3 +59,6 @@ Puslapio **Suplanuotas užsakymas** skirtuke **Atidėjimai** nurodyta suplanuoto
 --------
 
 [Padengimo parametrai](coverage-settings.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

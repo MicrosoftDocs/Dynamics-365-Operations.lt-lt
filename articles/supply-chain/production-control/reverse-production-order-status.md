@@ -53,3 +53,6 @@ Grąžinus gamybos užsakymo būseną iš **Pradėta** į **Išleista**, visos p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

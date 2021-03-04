@@ -37,3 +37,6 @@ ms.locfileid: "4433456"
 5. Lauke Režimas pasirinkite Netiesioginis.
 6. Lauke Veiklos kodas pasirinkite Konsoliduoti numerių lenteles.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

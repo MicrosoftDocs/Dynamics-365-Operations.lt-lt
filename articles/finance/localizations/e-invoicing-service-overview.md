@@ -113,3 +113,6 @@ Toliau pateiktame paveikslėlyje vaizduojama, kaip duomenų srautai juda į ir i
 - [Darbo su Meksikos elektroninių SF išrašymo priedu pradžia](e-invoicing-mex-get-started.md)
 - [Darbo su Italijos elektroninių SF išrašymo priedu pradžia](e-invoicing-ita-get-started.md)
 - [Elektroninių SF išrašymo priedo nustatymas](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

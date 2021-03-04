@@ -35,3 +35,6 @@ Tačiau aparatūros tiekėjas gali modifikuoti arba sukurti konkrečios versijos
 
 Prieš nusprendžiant, kurią aparatūrą įsigyti, savo klientams rekomenduojame sandėlio mobiliąją nuskaitymo programą išbandyti pasirinktose aparatūrose.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

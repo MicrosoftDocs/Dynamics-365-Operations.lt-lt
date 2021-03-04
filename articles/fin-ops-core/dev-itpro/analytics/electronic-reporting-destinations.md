@@ -238,3 +238,6 @@ Pirma norimas formatas turi būti įgalintas ER konfigūracijose. Jei ši būtin
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Administratoriai gali leisti autentifikuotiems vartotojams patiems atsisakyti ž
 ### <a name="custom-extensions"></a>Pasirinktiniai plėtiniai
 
 Administratoriai gali sukurti savo plėtinius, kad galėtų valdyti vartotojų atsisakymo galimybę. Daugiau informacijos rasite [Skambučių mažmeninės prekybos serverio API](e-commerce-extensibility/call-retail-server-apis.md) ir [Internetinio kanalo išplėtimas](e-commerce-extensibility/overview.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

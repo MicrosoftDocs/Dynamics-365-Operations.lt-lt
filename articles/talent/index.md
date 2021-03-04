@@ -35,3 +35,6 @@ ms.locfileid: "5129232"
 > [!IMPORTANT]
 > Dabar „Dynamics 365 Talent: Core HR“ funkcijos yra „Dynamics 365 Human Resources“ dalis. Galite peržiūrėti dokumentaciją, skirtą „Human Resources“, [Sveiki, čia „Dynamics 365 Human Resources“](https://docs.microsoft.com/dynamics365/human-resources/hr-welcome).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

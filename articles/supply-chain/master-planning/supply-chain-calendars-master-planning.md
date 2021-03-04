@@ -143,3 +143,6 @@ Naudojant padengimo grupės kalendorių svarbu atsižvelgti į perrašymo elgsen
 
 ### <a name="updating-scm-related-calendars"></a>Su SCM susijusių kalendorių naujinimas
 Nors svarbu visus atitinkamus kalendorius priskirti atitinkamai vietai (tiekėjui, klientui, sandėliui, pristatymo būdui arba padengimo grupei), taip pat svarbu juos atnaujinti, kad būtų matomi pakeitimai. Sistema nustatys gamybos, perkėlimo, pirkimo ir pardavimo užsakymų datas, priklausomai nuo priskirtų kalendorių derinio. Geriausia yra išsiaiškinti, kas yra atsakingas už kalendorių priskyrimą ir atnaujinimą atitinkamose srityse. Jei darbo dienomis įvyktų gedimas arba kitas neįprastas pakeitimas, būtina kalendorių atitinkamai atnaujinti. Visos užduotys, kurios priklauso nuo kalendorių, pvz., bendrasis planavimas ir gamybos planavimas, turi būti vykdomos iš naujo po kalendorių atnaujinimo. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

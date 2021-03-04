@@ -70,3 +70,6 @@ ms.locfileid: "4433399"
 13. Spustelėkite **Pardavimo užsakymai**.
 14. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

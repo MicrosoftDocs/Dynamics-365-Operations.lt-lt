@@ -94,3 +94,6 @@ Instrukcijų, kaip įtraukti dovanų kortelės modulį į pirkimo užbaigimo pus
 [Išorinių dovanų kortelių palaikymas](./dev-itpro/gift-card.md)
 
 [SDK ir modulių bibliotekos naujinimai](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

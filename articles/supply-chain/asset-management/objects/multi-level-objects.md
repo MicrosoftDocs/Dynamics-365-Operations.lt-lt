@@ -62,3 +62,6 @@ Jei yra su turtu susijusio antrinio turto, jį galite panaikinti tik tada, jei j
 
 > [!NOTE]
 > Jei negalite panaikinti turto vadovaudamiesi šia procedūra, kitas naikinimo būdas yra nustatyti turto ciklo būseną šiuo tikslu. Pavyzdžiui, puslapyje **Turto ciklo būsenos** galite nustatyti ciklo būseną **Nurašytas** arba **Panaikintas**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

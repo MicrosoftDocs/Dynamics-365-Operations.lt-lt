@@ -176,3 +176,6 @@ Jūsų Komercijos vertinimo aplinkos parengimo ir konfigūravimo proceso tąsai,
 [„Microsoft Azure“ portalas](https://azure.microsoft.com/features/azure-portal)
 
 [„Dynamics 365 Commerce“ svetainė](https://aka.ms/Dynamics365CommerceWebsite)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

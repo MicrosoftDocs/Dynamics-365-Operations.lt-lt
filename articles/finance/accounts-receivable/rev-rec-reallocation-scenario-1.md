@@ -58,3 +58,6 @@ Norėdami baigti perskirstymą, pasirinkite **Apdoroti**. Bus rodomas raginimas 
 > Norėdami pateikti kontekstą, kodėl šie papildomi elementai rodomi, į tinklelį galite įtraukti kitus stulpelius, pvz., **Perskirstymo ID** ir **Pardavimo užsakymas**.
 > 
 > [![Papildomi stulpeliai puslapyje Įplaukų vertės paskirstymai](./media/11_rev-rec-scenarios.png)](./media/11_rev-rec-scenarios.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

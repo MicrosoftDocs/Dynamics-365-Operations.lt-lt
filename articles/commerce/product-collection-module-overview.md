@@ -109,3 +109,6 @@ Norėdami įtraukti produktų rinkinio modulį į kategorijos puslapį, atlikite
 [Pirkimo langelio modulis](add-buy-box.md)
 
 [Produktų rekomendacijų apžvalga](product-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

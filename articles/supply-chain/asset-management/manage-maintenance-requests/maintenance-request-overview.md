@@ -73,3 +73,6 @@ Mygtukai, esantys veiksmų srityje, tvarkomi skirtukuose. Toliau pateikiamoje le
 | Siųsti skolintą turtą                  | Pasirenkamas skolintas turtas, kuris turėtų laikinai pakeisti turtą, pasirinktą pasirinktoje priežiūros užklausoje. |
 | Grąžinti skolintą turtą                | Registruojamas skolinto turto grąžinimas. |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

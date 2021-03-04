@@ -87,3 +87,6 @@ Rezultatas yra suplanuotas 25 vnt. užsakymas (= 25 vnt. &minus; 0 vnt.), kad
 [Plano retrospektyvos ir planavimo žurnalų peržiūra](plan-history-logs.md)
 
 [Planavimo užduoties atšaukimas](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

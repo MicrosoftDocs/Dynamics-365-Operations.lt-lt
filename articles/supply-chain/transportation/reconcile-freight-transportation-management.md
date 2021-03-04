@@ -47,3 +47,6 @@ Norėdami derinti automatiškai, turite nurodyti derinimo grafiką ir SF bei siu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Priskirkite perdavimo kodą kai prekė gaunama arba fizinį grąžintos prekės 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

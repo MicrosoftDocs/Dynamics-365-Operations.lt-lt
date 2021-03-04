@@ -49,3 +49,6 @@ Siekiant sudaryti gabenimo būsenos žemėlapį vežėjo būsenai, elkitės taip
 1. Pasirinkite gabenimo būsenos kodą, kuriam norite sudaryti žemėlapį ir pasirinkti gabenimo vežėjo kodą.
 1. Įveskite išorės kodą, kurį naudoja gabenimo vežėjas.
 1. Uždarykite puslapį.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

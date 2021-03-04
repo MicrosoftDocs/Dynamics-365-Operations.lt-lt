@@ -93,3 +93,6 @@ Taip pat galite naudoti dvigubas pakopas. Jeigu formoje **Tarifų sąranka** pas
    | **Lanksčiųjų kreditų tarifas, taikomas rūkantiesiems** | Lanksčiųjų kreditų, kuriuos kainuoja išmoka, skaičius, remiantis skaičiavimu, nustatytu rūkančiųjų pakopos lygyje. |
 
 5. Pasirinkite **Įrašyti**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

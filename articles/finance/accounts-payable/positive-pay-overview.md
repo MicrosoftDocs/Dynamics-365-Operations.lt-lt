@@ -49,3 +49,6 @@ Norėdami gauti daugiau informacijos, žr. [Teigiamų mokėjimų failų nustatym
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

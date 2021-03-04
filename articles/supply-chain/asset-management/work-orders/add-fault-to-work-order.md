@@ -80,3 +80,6 @@ Sąrašo puslapyje **Visas turtas** galite atspausdinti turto gedimo ataskaitą,
 >[!NOTE]
 >Norėdami atspausdinti kelių turtų arba turto tipų gedimų ataskaitą, pasirinkite **Turto valdymas** > **Ataskaitos** > **Turtas** > **Turto gedimas**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

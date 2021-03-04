@@ -62,3 +62,6 @@ ms.locfileid: "4414376"
     * Įveskite pardavimo užsakymo numerį, kurį įsidėmėjote šios procedūros metu anksčiau. Tokiu būdu šios procedūros metu apdorojimo laikas bus kiek įmanoma trumpesnis. Laukas Pardavimo užsakymo nėra būtinas – galite apdoroti visus bet kurios vienos programos užsakymus.  
 21. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

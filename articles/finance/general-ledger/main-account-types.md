@@ -41,3 +41,6 @@ Daugiau informacijos žr. [Nustatyti pagrindinės sąskaitos kategorijas](tasks/
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

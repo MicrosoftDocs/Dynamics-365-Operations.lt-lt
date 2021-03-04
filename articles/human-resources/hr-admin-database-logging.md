@@ -87,3 +87,6 @@ Norėdami nustatyti duomenų bazės žurnalo valymą, atlikite šiuos veiksmus:
    - Sukūrimo data ir laikas
 
 3. Naudokite **Duomenų bazės žurnalo valymas** skirtuką, kad nustatytumėte, kada paleisti žurnalo valymo užduotį. Pagal numatytuosius nustatymus, duomenų bazės žurnalai prieinami 30 dienų.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

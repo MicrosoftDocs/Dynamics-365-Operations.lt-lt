@@ -78,3 +78,6 @@ ms.locfileid: "4529785"
 [Atostogų ir neatvykimų valdymas](hr-leave-and-absence-overview.md)</br>
 [Darbuotojų rengimas](hr-develop-performance-management-overview.md)</br>
 [Kurti kursus](hr-learning-courses.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

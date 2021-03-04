@@ -67,3 +67,6 @@ Kai darbo sritis **Darbuotojų savitarna** pasirenkama kaip vartotojo pradinis p
 
 ### <a name="termination-reason-code-updates-position-assignment-record"></a>Atleidimo priežasties kodas atnaujina pareigų priskyrimo įrašą
 Atleidimo priežasties kodas dabar atnaujins pareigų priskyrimą, kaidarbuotojas atleidžiamas ir pareigos nutraukiamos. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

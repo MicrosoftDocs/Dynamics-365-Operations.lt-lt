@@ -51,3 +51,6 @@ ms.locfileid: "4433718"
     * Atkreipkite dėmesį, kad į kliento balansą įtraukta operacija su neigiama suma, kuri atitinka bendrą grąžinimo sumą, be sąskaitos faktūros nuorodos.   
 15. Spustelėkite Atšaukti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Toliau pateiktame grafikos objekte iliustruojama, kaip vyksta bendrasis planavim
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Sukūrę priežiūros užklausas, galite lengvai jas konvertuoti į darbo užsak
 
     ![Naujo darbo užsakymo atidarymas](media/05-manage-maintenance-requests.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

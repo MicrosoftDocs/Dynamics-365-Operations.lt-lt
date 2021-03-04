@@ -155,3 +155,6 @@ Nr. Dėl su našumu ir konfliktais susijusių priežasčių sistema privers jus 
 [Šablonų ir maketų apžvalga](templates-layouts-overview.md)
 
 [Svetainės naršymo tinkinimas](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

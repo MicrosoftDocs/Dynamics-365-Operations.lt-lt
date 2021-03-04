@@ -361,3 +361,6 @@ Atlikite toliau pateiktus veiksmus, norėdami valdyti elektroninių SF išrašym
 
     > [!NOTE]
     > Pasirinkus **Taip**, konfigūracijos versijų būsena automatiškai pasikeičia iš **Baigta** į **Bendrinama**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

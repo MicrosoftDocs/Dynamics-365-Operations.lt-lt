@@ -113,3 +113,6 @@ Pastoviosios kompensacijos plano darbuotojui priskirti negalite tol, kol nenusta
 
 8. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -114,3 +114,5 @@ Jei pateikta produkto iš tiekėjo išorinio katalogo užklausa, tiekėjo išori
 
 - [Pirkimo „cXML“ patobulinimai](purchasing-cxml-enhancements.md)
 - [Išorinių katalogų naudojimas el. įsigijimų išėjimo laikui žymėti](use-external-catalogs-for-punchout.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

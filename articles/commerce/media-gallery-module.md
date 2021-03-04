@@ -104,3 +104,6 @@ Tam, kad įtrauktumėte medijos galerijos modulį į puslapio komerciją, atliki
 [Konteinerio modulis](add-container-module.md)
 
 [Vaizdų nusiuntimas](dam-upload-images.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

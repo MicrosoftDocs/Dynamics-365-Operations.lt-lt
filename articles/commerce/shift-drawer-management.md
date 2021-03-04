@@ -158,3 +158,6 @@ Eikite į **Mažmeninė prekyba ir prekyba \> Kanalai \> Parduotuvės \> Visos p
 Tokia sąranka padeda užtikrinti, kad į tarnybinio biuro išrašus būtų įtrauktos tos pačios operacijos kaip EKA pamainos ir kad duomenys būtų apibendrinami pagal tą pamainą.
 
 Norėdami apie išrašų ir baigimo metodus gauti daugiau informacijos, žr. [„Retail” išrašo parduotuvės konfigūracijos](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

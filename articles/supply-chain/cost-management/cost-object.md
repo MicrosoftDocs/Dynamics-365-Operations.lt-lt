@@ -82,3 +82,6 @@ Toliau pateikiamoje lentelėje parodyta, kas yra išlaidų objektas ir kas yra a
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

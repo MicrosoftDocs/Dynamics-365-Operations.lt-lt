@@ -140,3 +140,6 @@ LIFO strategija suranda vietą, turinčią naujausius amžiaus duomenis ir prisk
 1. Atkreipkite dėmesį, kad eilutė, kurioje **Darbo tipo** vertė yra *Paimti*, rodo **Vietos** vertę *FL-001*. Ši vieta apima licencijos numerį, kuris turi naujausius amžiaus duomenis (LIFO).
 
 Šiuose scenarijuose, jūs matėte, kaip vietos amžiaus strategija valdo darbą inventoriaus vietoje, kuri turi seniausią arba naujausią inventorių priklausomai nuo pasirinktos strategijos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

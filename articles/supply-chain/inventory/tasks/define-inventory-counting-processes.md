@@ -85,3 +85,6 @@ ms.locfileid: "4433856"
 5. Lauko **Inventorizacijos grupė** išplečiamajame meniu pasirinkite inventorizacijos grupę. Galite pasirinkti konkrečią inventorizacijos grupę, kuri turėtų būti taikoma prekei konkrečiame jūsų išrinktame sandėlyje. Kai tame sandėlyje bus atliekamas skaičiavimas, ši skaičiavimo strategija bus naudojama vietoj prekės bendrosios skaičiavimo strategijos.  
 6. Pasirinkite **Įrašyti**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

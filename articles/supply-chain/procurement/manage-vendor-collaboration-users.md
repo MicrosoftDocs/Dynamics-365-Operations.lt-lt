@@ -94,3 +94,6 @@ Norėdami pateikti užklausą vartotojo saugos vaidmenims modifikuoti, atlikite 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

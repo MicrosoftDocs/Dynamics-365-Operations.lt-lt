@@ -71,3 +71,6 @@ Kai aptarnavimo užsakymus kuriate rankiniu arba automatiniu būdu iš aptarnavi
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

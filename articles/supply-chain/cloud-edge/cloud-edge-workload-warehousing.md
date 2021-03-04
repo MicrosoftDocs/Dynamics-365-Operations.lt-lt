@@ -245,3 +245,6 @@ Darbo krūvio skalės vienetuose, galite valdyti tolesnius du bendrus darbus **S
 
 - Tvarkyti bangos lentelės įrašus
 - Apdoroti bangos vykdymo valdymo perdavimo įvykius
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

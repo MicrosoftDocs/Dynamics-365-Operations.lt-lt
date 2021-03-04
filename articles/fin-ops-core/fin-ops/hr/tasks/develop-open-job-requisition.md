@@ -65,3 +65,6 @@ ms.locfileid: "4693093"
     * Būsena Pradėta reiškia, kad projektas pasiruošęs gauti prašymus.  
 33. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

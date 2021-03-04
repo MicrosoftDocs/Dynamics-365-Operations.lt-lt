@@ -134,3 +134,6 @@ Norėdami naudoti šablonines KS, turite nustatyti dvi skaičių numeracijas. Vi
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

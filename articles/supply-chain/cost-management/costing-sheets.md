@@ -50,3 +50,6 @@ Apibrėžus išlaidų lapo formatą ir netiesioginių išlaidų skaičiavimus, r
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

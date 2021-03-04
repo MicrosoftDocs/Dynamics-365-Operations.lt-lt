@@ -57,3 +57,6 @@ Puslapyje **Gamybos kontrolės parametrai** naudodami lauką **DK registravimas*
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

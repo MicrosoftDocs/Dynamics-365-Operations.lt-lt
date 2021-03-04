@@ -143,3 +143,6 @@ Atnaujinti susiejimai turėtų atrodyti taip.
 
 ![Lyties lauko transformacija](./media/WorkerTransform.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

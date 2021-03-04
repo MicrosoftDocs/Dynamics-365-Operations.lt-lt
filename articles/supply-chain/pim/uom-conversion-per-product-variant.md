@@ -107,3 +107,6 @@ Norėdami eksportuoti vienetų konvertavimus į „Excel“, puslapio **Vienetų
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Matavimo vieneto valdymas](tasks/manage-unit-measure.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

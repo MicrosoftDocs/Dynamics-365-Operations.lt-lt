@@ -47,3 +47,6 @@ Pagamintos prekės amortizuotų pastovių išlaidų apskaičiuota suma laikoma i
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

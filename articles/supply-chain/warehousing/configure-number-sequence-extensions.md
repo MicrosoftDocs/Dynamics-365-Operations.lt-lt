@@ -92,3 +92,6 @@ Sukurkite ir redaguokite skaičių sekas atlikdami šiuos žingsnius.
     | Tikrinti skaitmenį | Šis segmento tipas įtraukia tikrinamą skaitmenį, kuris yra apskaičiuotas modulyje 10. (Toks elgesys atitinka esamą logiką licencijos numerio identifikavimo kodams) Šio segmento tipui, **Vertės** laukelis visuomet nustatytas ženklais (*^*), o **Ilgio** laukelis visuomet nustatytas *1*. |
 
 1. Galutinio jūsų skaičiaus formato pavyzdžio peržiūrai, patikrinkite **Formato** laukelį **Segmentų** „FastTab“ apačioje.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

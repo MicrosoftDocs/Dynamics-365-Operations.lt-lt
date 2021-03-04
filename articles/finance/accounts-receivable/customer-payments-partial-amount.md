@@ -60,3 +60,6 @@ Klientai gali atlikti dalinį mokėjimą, jei likusi suma nebus mokama, tačiau 
 
 
 Daugiau informacijos žr. [Mokėti kliento mokėjimus](tasks/deposit-customer-payments.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

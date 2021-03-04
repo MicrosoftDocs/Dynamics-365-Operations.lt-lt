@@ -147,3 +147,6 @@ Toliau pateiktame vaizde rodoma išsami informacija apie sukonfigūruotą sandė
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

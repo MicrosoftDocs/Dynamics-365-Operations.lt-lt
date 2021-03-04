@@ -281,3 +281,6 @@ Jeigu konfigūracijos medyje nėra anksčiau išvardytų konfigūracijų, turite
 6. Lauke **Banko sąskaita** įveskite **DEMF OPER**.
 7. Dialogo lange **Generuoti mokėjimus** pasirinkite **Gerai**.
 8. Dialogo lange **Elektroninių ataskaitų parametrai** pasirinkite **Gerai**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Norėdami susieti naujus domenus su savo e-komercijos aplinka po to, kai e-komer
 [Turinio pristatymo tinklo (CDN) palaikymo įtraukimas](add-cdn-support.md)
 
 [Parduotuvės nustatymo pagal vietą įgalinimas](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Norėdami daugiau sužinoti apie pagrindinius „Microsoft“ naudojamus princip
 [Įtraukti privatumo strategijos puslapį](add-privacy-page.md)
 
 [Su sekamais turinio pakeitimais susietų vartotojo ID keitimas](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

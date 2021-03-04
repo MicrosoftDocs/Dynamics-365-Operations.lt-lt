@@ -93,3 +93,6 @@ Pirkimo užsakymai, kurių SF išrašytos, mokėtinų sumų įsipareigojimą įr
 ## <a name="vendor-performance"></a>Tiekėjo darbo našumas
 
 Pirkimo veikla ir peržiūra yra palaikoma naudojant *įsigijimo ir mokėtinų sumų ataskaitas*, kurios apima išlaidų analizę ir tiekėjo efektyvumo analizę.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Toliau parodytame paveikslėlyje matomas mažmeninės prekybos parduotuvės darb
 [Ekrano maketo apžvalga](pos-screen-layouts.md)       
 
 [Konfigūruoti ir diegti „Retail Hardware Station“](retail-hardware-station-configuration-installation.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

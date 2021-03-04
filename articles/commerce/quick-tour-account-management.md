@@ -96,3 +96,6 @@ Norėdami gauti daugiau informacijos apie paskyrų valdymo modulius ir apie tai,
 
 [Krepšelio ir pirkimo užbaigimo puslapių apžvalga](quick-tour-cart-checkout.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. �
 3. Pasirinkite **Gerai**.
 4. Pažymėkite **Suplanuoti užsakymai**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

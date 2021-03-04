@@ -49,3 +49,6 @@ Verčių srautai yra vieną ar kelias gamybos eigas grupuojantys valdymo vieneta
 2. Uždarykite puslapį.
 3. Atnaujinkite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -258,3 +258,6 @@ Kai sukūrėte vietos nurodymus, galite susieti visus nurodymo kodus su darbo š
 
 - Vaizdo įrašas: [Sandėlio valdymo konfigūravimo gili analizė](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Pagalbos tema: [Valdyti sandėlio darbą naudojant darbo šablonus ir vietos nurodymus](control-warehouse-location-directives.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

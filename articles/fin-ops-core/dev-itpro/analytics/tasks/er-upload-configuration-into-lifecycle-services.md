@@ -145,3 +145,6 @@ ms.locfileid: "4684168"
     Turi būti nurodyta ER konfigūracija, kurią nusiuntėte.
 
     Atkreipkite dėmesį, kad, jei tiekėjai turi prieigą prie šio LCS projekto, nusiųstąją LCS konfigūraciją galima importuoti į kitą egzempliorių.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

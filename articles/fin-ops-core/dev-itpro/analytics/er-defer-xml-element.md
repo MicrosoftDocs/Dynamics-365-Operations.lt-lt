@@ -243,3 +243,6 @@ Jei, pavyzdžiui, turite pateikti mokesčių verčių sumą ataskaitos antrašt�
 - [Formato konfigūravimas skaičiavimo ir sumavimo veiksmams atlikti](./tasks/er-format-counting-summing-1.md)
 - [ER formato vykdymo sekimas siekiant diagnozuoti našumo problemas](trace-execution-er-troubleshoot-perf.md)
 - [Sekos elementų ER formatais vykdymo atidėjimas](er-defer-sequence-element.md#Example)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

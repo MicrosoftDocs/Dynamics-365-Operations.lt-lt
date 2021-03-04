@@ -51,3 +51,6 @@ ms.locfileid: "4445998"
 16. Pasirinkite **Naujo laikotarpio intervalas**. Įvedus pirmąjį laikotarpio intervalą, galima automatiškai kurti naujus laikotarpius. Jei reikia, galite grįžti ir pridėti naujų laikotarpių intervalų.  
 17. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

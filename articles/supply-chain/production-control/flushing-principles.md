@@ -63,3 +63,6 @@ Sunaudojimo principas Pabaiga nurodo, kad medžiagos bus automatiškai suvartoja
 
 ### <a name="available-at-location"></a>Yra vietoje
 Sunaudojimo principas Yra vietoje nurodo, kad medžiagos bus automatiškai suvartojamos, kai jos užregistruojamos kaip paimtos gamybai vykdyti. Medžiagos užregistruojamos kaip paimtos iš vietos, kai žaliavų paėmimo užduotis baigta arba kai medžiagų yra gamybos įvesties vietoje ir medžiagų eilutė išleidžiama į sandėlį. Proceso metu sugeneruojamas išrinkimo dokumentas užregistruojamas paketinėje užduotyje. Šis principas yra aktualus, jei, pavyzdžiui, vienam gamybos užsakymui priskirta daug išrinkimo veiklų. Tokiu atveju išrinkimo dokumento neautomatiškai naujinti nereikia ir galima matyti dabartinį NG balanso rodinį.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Naudokite šią procedūrą norėdami nustatyti taisykles užsisakyti produktų 
 6. Lauke **Tiekėjo pasirinkimas** pasirinkite parinktį. Pasirinkite taisyklę, norėdami valdyti, kokius kategorijos tiekėjus galima pasirinkti kuriant paraiškas.  
 7. Spustelėkite **Uždaryti**. Jūsų nustatytos strategijos taisyklės taikomos tipo Suvartojimas paraiškoms. Jei norite apibrėžti tipo Papildymas paraiškų strategijas, sukurkite Strategijos taisyklių tipo taisyklę pavadinimu „Papildymo kategorijos prieigos strategijos taisyklė“.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

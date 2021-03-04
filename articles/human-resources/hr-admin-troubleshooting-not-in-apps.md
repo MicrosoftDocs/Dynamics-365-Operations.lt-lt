@@ -55,3 +55,6 @@ Vartotojas turi būti įtrauktas į „Microsoft Power Apps“ aplinkai skirtą 
     ![Sinchronizavimo mygtukas](media/get-more.png)
 
     Baigus sinchronizuoti, „Human Resources“ bus rodoma pagrindiniame puslapyje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

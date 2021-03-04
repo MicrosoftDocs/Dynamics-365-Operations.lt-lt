@@ -41,3 +41,6 @@ Norėdami sukurti ir užregistruoti trumpojo laikotarpio atsakomybės perklasifi
 4. Įjunkite parametrą **Registruoti**. Taip pat, jei įrašas turi būti sukurtas, bet neužregistruotas, šis parametras bus išjungtas.
 5. Norėdami peržiūrėti įrašą prieš registruodami, įjunkite parametrą **Peržiūrėti prieš registruojant**.
 6. Pasirinkite **Gerai**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

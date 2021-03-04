@@ -109,3 +109,6 @@ Norėdami leisti darbuotojams atlikti šį keitimą, galite sukurti meniu prekę
 - **Rodyti inventoriaus būseną:** *Taip*
 
 Galite nustatyti kitus laukelius puslapyje, kaip būtina.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

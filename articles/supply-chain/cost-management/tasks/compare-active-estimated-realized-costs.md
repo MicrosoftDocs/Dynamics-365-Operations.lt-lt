@@ -40,3 +40,6 @@ ms.locfileid: "4433670"
 6. Spustelėkite Peržiūrėti savikainos palyginimą.
 7. Spustelėkite Uždaryti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

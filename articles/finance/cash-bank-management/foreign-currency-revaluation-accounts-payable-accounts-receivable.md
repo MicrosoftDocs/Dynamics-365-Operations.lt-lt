@@ -66,3 +66,6 @@ Sukuriamas įrašas kiekvieną kartą, kai vykdote užsienio valiutos kurso pasi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -132,3 +132,6 @@ Norėdami peržiūrėti įvertinimų ir atsiliepimų tendencijas „Commerce“ 
 [Įvertinimų ir atsiliepimų konfigūravimas](configure-ratings-reviews.md)
 
 [Produktų įvertinimų sinchronizavimas sprendime „Dynamics 365 Retail“](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

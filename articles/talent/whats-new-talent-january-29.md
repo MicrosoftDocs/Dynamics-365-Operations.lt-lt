@@ -41,3 +41,6 @@ Naujos parinktys įtrauktos į atostogų ir neatvykimo nustatymus (**personalo**
 
 ### <a name="worker-hire-actions-are-stuck-in-workflow-complete-state"></a>Darbuotojo samdos veiksmų būsena Darbo eiga baigta nesikeičia
 Atlikti keitimai siekiant ištaisyti problemą, dėl kurios kelios darbo eigos baigdavosi nustatant būseną Darbo eiga baigta. Naujos darbo eigos dabar turėtų būti perkeltos į būseną Užbaigta, kai darbo eiga baigiama. Visos darbo eigos, kurių darbo eigos būsena baigta, bus perkeltos į klaidos būseną, kad pagal poreikį būtų galima atnaujinti arba pašalinti. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Norėdami generuoti ataskaitą, pasirinkite **Ilgalaikis turtas** **&gt; Užklau
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

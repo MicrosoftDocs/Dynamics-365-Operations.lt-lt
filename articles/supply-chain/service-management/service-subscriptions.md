@@ -38,3 +38,6 @@ Laikotarpio kodas nurodo abonemento mokesčio laikotarpio arba intervalų, per k
 Laikotarpio kodas nustatomas aptarnavimo abonementų grupėje. Jis abonementams nustatomas per aptarnavimo abonementų grupę. Bet koks naujas jūsų sukurtas abonementinis mokestis turi siūlomą pradžios datą. Ji bus laikotarpio pradžios data, jei tai yra pirmas sukurtas laikotarpis, arba ankstesnio laikotarpio pabaigos data, jei tai yra antras arba vėlesnis laikotarpis.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -112,3 +112,6 @@ Jei „Planning Optimization“ yra įjungtas, pagrindinis planavimas yra atliek
 [Filtrų taikymas planui](plan-filters.md)
 
 [Planavimo užduoties atšaukimas](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

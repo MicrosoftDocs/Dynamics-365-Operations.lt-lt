@@ -222,3 +222,6 @@ Jei vartotojai neautomatiškai perrašo apskaičiuotas išlaidas arba įtraukia 
 
 [Proporcingas antraštės išlaidų paskirstymas atitinkančioms pardavimo eilutėms](pro-rate-charges-matching-lines.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

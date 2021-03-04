@@ -303,3 +303,6 @@ Tačiau, kai naudojate **Brūkšninis kodas** duomenų šaltinį brūkšniniams 
 - [Elektroninių ataskaitų paskirties vietos](electronic-reporting-destinations.md)
 - [Elektroninių ataskaitų formulių kalba](er-formula-language.md)
 - [NUMERIOFORMATO funkcija](er-functions-text-numberformat.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

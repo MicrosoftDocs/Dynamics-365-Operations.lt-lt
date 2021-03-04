@@ -68,3 +68,6 @@ Bet kokį ilgalaikio turto operacijos tipą galima registruoti puslapyje Bendras
 Ilgalaikio turto reikšmė lauke Likusių nusidėvėjimo laikotarpių skaičius nėra atnaujinama, kai nusidėvėjimo operacijos tipo žurnalo eilutė sukuriama neautomatiškai arba importuojama naudojant duomenų objektą. Ši reikšmė atnaujinama, kai nusidėvėjimo pasiūlymo procesas naudojamas žurnalo eilutei sukurti.
 
 Norėdami daugiau informacijos žr. [Ilgalaikio turto integravimas](fixed-asset-integration.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

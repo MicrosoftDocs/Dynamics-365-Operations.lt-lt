@@ -125,3 +125,6 @@ Toliau nurodyti veiksmai paaiškina, kaip „Regulatory configuration service“
 > [!NOTE]
 > Tai yra vienintelis būdas gauti informaciją apie programos metaduomenis, prieinamas naudojant vietinėje sistemoje įdiegtas programas (kai naudojamas vietos verslo duomenų (LBD) arba vietinio diegimo modelis).
         
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

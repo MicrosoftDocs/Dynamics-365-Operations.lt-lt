@@ -131,3 +131,6 @@ Jums sukūrus ir išplatinus klausimyną, jį gali pildyti pasirinkti respondent
 Klausimynus galima padaryti prieinamus konkretiems naudotojams ar naudotojų grupėms arba visiems tinklo naudotojams.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

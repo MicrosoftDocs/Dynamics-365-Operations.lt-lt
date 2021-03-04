@@ -303,3 +303,6 @@ Sukuriamas 10 vienetų gamybos užsakymas, skirtas produktui D8100, kuris vadina
     ![Savikainos palyginimo diagramos](./media/subcontract35_cost-comparison-charts.png)
 
 Trūksta sąrankos duomenų.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

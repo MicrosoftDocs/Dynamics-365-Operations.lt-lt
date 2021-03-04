@@ -73,3 +73,6 @@ ms.locfileid: "4433447"
 
 8. Sąraše raskite ir pasirinkite norimą įrašą.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

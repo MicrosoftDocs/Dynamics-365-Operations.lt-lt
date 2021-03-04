@@ -65,3 +65,6 @@ Kiekvienas iš standartinių „Common Data Service“ objektų yra išplečiama
 7. Išplėtę objektą **Pasiūlymai**, pritaikykite filtrą su užklausos eilute `CUSTGROUP !=  "<company>"`.
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Pardavimo pasiūlymo antraštė, redaguoti užklausą":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Galite atsisiųsti „Talent“ palaikomų šalių, regionų ir kalbų PDF fail�
 
 Jei esate kūrėjas, ir norėtumėte kurti konkrečiai šaliai arba regionui skirtus tinkinimus arba sukurti sprendimą šaliai arba regionui, kurio šiuo metu „Microsoft“ nepalaiko, žr. [Globalizacija](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

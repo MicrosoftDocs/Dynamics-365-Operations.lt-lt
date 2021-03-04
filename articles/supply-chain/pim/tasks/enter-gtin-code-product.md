@@ -42,3 +42,6 @@ GTIN kodus priskiria GS1 organizacija. Šiame pavyzdyje įvesite demonstracinių
 11. Lauke GTIN įveskite vertę.
 12. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

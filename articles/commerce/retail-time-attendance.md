@@ -139,3 +139,6 @@ EKA
 - Registruoti neatvykimą
 
 Daugiau informacijos apie tai, kaip apdoroti laiko ir buvimo darbe registravimus, žr. [Laiko ir buvimo darbe registravimų apdorojimas](https://technet.microsoft.com/library/aa573180.aspx).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -140,3 +140,6 @@ Prieš šią procedūrą atlikite procedūras „Banko priemonių ir registravim
 3. Sąraše spustelėkite saitą pasirinktoje eilutėje.
     * Patikrinkite, ar siuntos būsena = mokėjimas gautas, o balanso suma = 0,00.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

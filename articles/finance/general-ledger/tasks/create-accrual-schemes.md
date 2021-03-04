@@ -41,3 +41,6 @@ ms.locfileid: "4446070"
 10. Lauke **Įvykių skaičius pagal laikotarpį** įveskite skaičių.
 11. Lauke **Registruoti sandorius** pasirinkite, kada operacijos turi būti registruojamos, pavyzdžiui, **Kas mėnesį**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

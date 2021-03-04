@@ -91,3 +91,6 @@ Jei parametras **model.RoundOff** nustatytas kaip **RoundOffType.RoundUp**, `ROU
 [Kitos (konkrečios verslo srities) funkcijos](er-functions-category-other.md)
 
 [Matematinės funkcijos](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

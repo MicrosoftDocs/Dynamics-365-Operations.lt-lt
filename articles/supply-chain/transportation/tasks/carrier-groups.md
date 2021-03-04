@@ -38,3 +38,6 @@ Pasirinkus keletą siuntimo vežėjų ir jų paslaugų tam pačiam maršruto seg
 1. **Pavadinimas** laukelyje įveskite grupę aprašantį pavadinimą.
 1. **Išsamios informacijos** „FastTab“, įtraukite eilutę ir pasirinkite siunčiantį vežėją ir jo paslaugas. Kartokite šį žingsnį kol įtrauksite tiek vežėjų, kiek jums reikia grupei.
 1. Uždarykite puslapį.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

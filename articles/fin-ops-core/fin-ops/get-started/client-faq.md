@@ -54,3 +54,6 @@ Parinktis **Peržiūrėti išsamią informaciją** prieinama dviem būdais.
 
 - Jei valdiklis turi pajėgumą **Peržiūrėti išsamią informaciją** ir jei valdiklis turi reikšmę, ši reikšmė rodoma kaip hipersaitas. Spustelėję hipersaitą, atidarysite puslapį, kuriame pateikiama papildomos informacijos.
 - **Peržiūrėti išsamią informaciją** taip pat yra sparčiųjų meniu pasirinktis. Daugiau informacijos apie tai, kada, spustelėjus dešiniuoju pelės mygtuku, rodomi spartieji meniu, rasite ankstesniame skyriuje.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

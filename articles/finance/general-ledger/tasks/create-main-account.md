@@ -52,3 +52,6 @@ ms.locfileid: "4445896"
 21. Lauke **Valiutos konvertavimo tipas** pasirinkite sąskaitos valiutos kursų apskaičiavimo metodą.
 22. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

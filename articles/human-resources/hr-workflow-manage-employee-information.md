@@ -73,3 +73,6 @@ Norėdami sukonfigūruoti pagrindinę darbo eigą, pradedamą darbuotojui pareik
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

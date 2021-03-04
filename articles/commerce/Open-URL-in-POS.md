@@ -83,3 +83,6 @@ Norėdami sukonfigūruoti URL taip, kad jį būtų galima atidaryti EKA, atlikit
 5. Kaip veiksmą pasirinkite **Atidaryti URL**.
 6. Įveskite norimą naudoti URL.
 7. Sukonfigūruokite, ar norite, kad URL būtų atidaromas naujame lange.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

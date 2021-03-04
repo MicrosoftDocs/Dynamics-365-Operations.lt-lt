@@ -93,3 +93,6 @@ Naudojantis „Power BI“ turiniu Išlaidų valdymas, būtina atnaujinti objekt
 | Darbuotojo statistika | Išlaidų ataskaitos pagal savikainos tipą            |
 |                     | Asmeninės išlaidos                       |
 |                     | Išlaidų ataskaitos pagal statistikos grupę     |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

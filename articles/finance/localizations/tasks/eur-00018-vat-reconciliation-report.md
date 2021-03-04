@@ -41,3 +41,6 @@ ms.locfileid: "4408232"
 6. Lauke „Rodyti išsamią informaciją“ pasirinkite „Taip“.
 7. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

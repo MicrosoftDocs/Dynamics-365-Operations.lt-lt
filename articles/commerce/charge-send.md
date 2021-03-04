@@ -42,3 +42,6 @@ Taikant mokesčio siuntimo funkciją naudojamos toliau nurodytos EKA operacijos:
 Tokia pati galimybė suteikiama pasirenkant ir gavėjo adresus.
 
 Siuntimo metodai, kurios galima naudoti norint įvykdyti užsakymo eilutę, yra pagrįsti produktų pristatymo ir adresų leistinų režimų konfigūracija. Kadangi tinkamų pristatymo režimų taisyklės tvarkomos tik „Headquarters“ (HQ), EKA klientas kreipiasi realiuoju laiku ir randa tinkamus siuntimo eilutės pristatymo režimus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

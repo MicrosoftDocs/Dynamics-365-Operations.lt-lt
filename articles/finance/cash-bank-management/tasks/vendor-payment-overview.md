@@ -63,3 +63,6 @@ ms.locfileid: "4446028"
 33. Spustelėkite **Gerai**, kad generuotumėte mokėjimus.
 34. Spustelėkite **Registruoti**, jei visi mokėjimai patvirtinti ir sugeneruoti. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

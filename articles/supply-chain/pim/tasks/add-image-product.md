@@ -37,3 +37,6 @@ ms.locfileid: "4433606"
 5. Spustelėkite Naujas.
     * Spustelėkite Naršyti. Suraskite vaizdą, kurį norite naudoti, pasirinkite jį ir tada uždarykite dialogo langą.    
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

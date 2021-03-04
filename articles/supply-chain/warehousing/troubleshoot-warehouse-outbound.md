@@ -62,3 +62,6 @@ Prekė yra įtraukta į pardavimo eilutę tiesioginiam pristatymui iš sandėlio
 ### <a name="issue-resolution"></a>Problemos paaiškinimas
 
 „Microsoft“ įvertino šią klaidą ir nustatė jos funkcijos apribojimą. Šiuo metu, WMS nepalaiko tiesioginio pristatymo. Dėl to, norėdami naudoti tiesioginį pristatymą, turite pasirinkti ne WMS prekę ir sandėlį.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

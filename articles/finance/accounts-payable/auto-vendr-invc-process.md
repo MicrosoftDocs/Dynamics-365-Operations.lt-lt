@@ -69,3 +69,6 @@ Darbo sritis **Tiekėjo SF įrašas** leidžia sutelkti dėmesį į tiekėjo SF,
 
 ## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>Tiekėjo SF automatizavimas – kelių SF automatizuoto apdorojimo tęsimas
 Kai importuota SF sėkmingai nepateikta į darbo eigą naudojant automatinį procesą, sistema ją pašalina iš tolesnio automatizuoto apdorojimo. Mokėtinų sumų klerkas gali peržiūrėti ir redaguoti sąskaitą faktūrą, prieš tai, kai automatizuotas procesas iš naujo pateikia ją darbo eigai. Kai gedimo priežastis gali būti išspręsta naudojant tą patį pataisymą keliose SF, galite iš naujo paleisti automatizuotą procesą puslapyje **Automatizuoto SF apdorojimo tęsimas**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

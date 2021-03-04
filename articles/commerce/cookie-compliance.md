@@ -73,3 +73,6 @@ Jei „e-Commerce” svetainės funkcija ar modulis naudoja nepagrindinius slapu
 [Sutikimo dėl slapukų modulis](cookie-consent-module.md) 
  
 [Antraštės modulis](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

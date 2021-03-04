@@ -205,3 +205,6 @@ Mygtukynų dizaino įrankis leidžia konfigūruoti mygtukynus, kuriuos galima na
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Mažmeninės prekybos elektroninio kasos aparato (EKA) maketo dizaino įrankio diegimas](install-pos-layout-designer.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

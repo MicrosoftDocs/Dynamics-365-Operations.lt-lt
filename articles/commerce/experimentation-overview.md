@@ -57,3 +57,6 @@ Norėdami sužinoti daugiau apie kiekvieną eksperimentavimo proceso veiksmą, �
 
 ## <a name="next-step"></a>Kitas veiksmas
 [Eksperimento hipotezės ir sėkmės metrikos nustatymas](experimentation-identify.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

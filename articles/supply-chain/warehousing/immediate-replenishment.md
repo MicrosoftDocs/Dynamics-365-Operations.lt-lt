@@ -57,3 +57,6 @@ Jei vietos nurodymo eilutėje pasirenkamas skubus papildymas, bet nesugeneruojam
 
 - Įsitikinkite, kad taikomas poreikio papildymo šablonas nustatytas naudoti teisingus tipo **Papildymas** vietos šablonus ir darbo šablonus.
 - Įsitikinkite, kad turimų atsargų pakanka vietose, kuriose poreikio papildymo šablonas ieško turimų papildymo atsargų.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

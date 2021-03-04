@@ -47,3 +47,6 @@ ms.locfileid: "4433699"
 14. Lauke Diapazonas nuo įveskite skaičių.
 15. Lauke Diapazonas iki įveskite skaičių.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

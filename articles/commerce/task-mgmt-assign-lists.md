@@ -92,3 +92,6 @@ Norėdami sekti visų jums priskirtų užduočių sąrašo būseną, atlikite š
 [Užduočių sąrašų kūrimas ir užduočių įtraukimas](task-mgmt-create-lists.md)
 
 [Užduočių valdymas EKA programoje](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

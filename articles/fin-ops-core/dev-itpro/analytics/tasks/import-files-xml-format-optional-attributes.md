@@ -123,3 +123,6 @@ ms.locfileid: "4684144"
 
 > [!NOTE]
 > Tas pats failas buvo importuotas kaip formato dizainas. Dabar elemento „dokumentas“ atributą „ID“ laikykite pasirinktinu.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

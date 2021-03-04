@@ -91,3 +91,6 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus užduoči�
     * Kai kurios etiketės, kurios pateikiamos iš anksto išspausdintoje čekio formoje, bus įtrauktos į ataskaitą, kai ji sukuriama bandymo tikslu. Tačiau tos etiketės nebus išspausdintos spausdinant tinkamas etiketes, nes iš anksto išspausdintoje formoje jos jau yra.  
 15. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

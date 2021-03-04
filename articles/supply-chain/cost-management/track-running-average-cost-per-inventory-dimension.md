@@ -56,3 +56,6 @@ Einamoji vidutinė sandėlio GW ir paketo AAA savikaina yra 11,20 USD, o einamoj
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

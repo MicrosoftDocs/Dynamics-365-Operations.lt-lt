@@ -63,3 +63,6 @@ Gaunama skaitinė reikšmė.
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Matematinės funkcijos](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

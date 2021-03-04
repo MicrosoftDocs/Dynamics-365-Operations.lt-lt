@@ -96,3 +96,6 @@ PU baigimą gali tekti atidėti. Pavyzdžiui, gali reikėti papildomos informaci
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

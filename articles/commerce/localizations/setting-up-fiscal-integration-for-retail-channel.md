@@ -226,3 +226,6 @@ Norėdami įjungti neautomatinį atidėto finansinio registravimo vykdymą, tur�
     1. Pasirinkite atnaujintiną maketą.
     2. Įtraukite naują mygtuką ir nustatykite mygtuko **Baigti finansinio registravimo procesą** ypatybę.
     3. Puslapyje **Paskirstymo grafikas** paleiskite **1090** užduotį, kad perkeltumėte pakeitimus į kanalo duomenų bazę.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

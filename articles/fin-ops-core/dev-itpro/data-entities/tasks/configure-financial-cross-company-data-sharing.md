@@ -59,3 +59,6 @@ Norint atlikti šį užduoties vediklį, reikia AX platformos 7.1 arba naujesnė
 27. Atnaujinkite puslapį.
 28. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ ms.locfileid: "4433597"
     * Pasirinkite prekės numerį, kuris bus pažymėtas arba atžymėtas, atsižvelgiant į pasirinktą metodą.  
 18. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

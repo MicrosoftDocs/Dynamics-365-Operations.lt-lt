@@ -150,3 +150,6 @@ Norėdami įgalinti **isVartotojoIntegravimas** atributą, atlikite toliau patei
     ![Integravimo vartotojo režimo lauko reikšmės pakeitimas](media/sales-map-user-mode-yes.png)
 
 Dabar Jūsų pardavimo užsakymai yra susieti.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

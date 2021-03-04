@@ -53,3 +53,6 @@ ms.locfileid: "4462002"
 5. Prie funkcijos **Panaikinti** teisės pasirinkite „Suteikti”.
 6. Pasirinkite skirtuką **Nepublikuoti objektai**.
 7. Pasirinkite **Publikuoti viską**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

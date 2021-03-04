@@ -80,3 +80,6 @@ Kategorijos atributų grupes taip pat galima priskirti kiekvienai grupei, jei re
 [Produktų kategorijų ir produktų valdymas ](category-management-product-creation.md)
 
 [Prekybos objektų rūšiavimo tvarkos keitimas](custom-order-categories-nav-retail-prod-hierarchy.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

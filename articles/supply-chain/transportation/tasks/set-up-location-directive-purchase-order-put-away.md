@@ -86,3 +86,6 @@ ms.locfileid: "4433964"
 4. Lauke **Kriterijai** įveskite reikšmę.
 5. Pasirinkite **Gerai**. Jūs galite įtraukti tiek nurodymo eilučių ir nurodymo veiksmų, kad aprėptumėte visus galimus sandėlio scenarijus.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

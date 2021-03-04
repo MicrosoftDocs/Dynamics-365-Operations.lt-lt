@@ -86,3 +86,6 @@ Su „Platform“ naujinimu 24 „Finance and Operations“, naudotojai gali suk
 Atlikus šį pakeitimą dublikatai aptinkami, kai įvedate laukų pavadinimus, o būsena rodo, kiek dublikatų rasta. Galite pasirinkti pateiktą nuorodą, kad atidarytumėte naują puslapį ir įvertintumėte, ar naudoti aptiktą dublikatą. Dublikatų forma nėra atidaroma automatiškai, kad nebūtų trukdoma įvesti duomenis.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

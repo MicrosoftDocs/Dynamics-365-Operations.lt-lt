@@ -78,3 +78,6 @@ Norėdami sukurti ir konfigūruoti „Excel“ darbaknygę, kad galėtumėte red
 [Mažmeninės prekybos operacijų finansinių dimensijų redagavimas](edit-financial-dim.md)
 
 [Laukų įtraukimas į „Excel“ darbaknygę norint redaguoti mažmeninės prekybos operacijas](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

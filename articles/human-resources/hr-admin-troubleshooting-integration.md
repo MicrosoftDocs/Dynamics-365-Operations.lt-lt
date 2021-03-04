@@ -181,3 +181,6 @@ Atnaujinkite duomenų objektus programoje „Finance“, pasirinkdami **Duomenų
 - Duomenų valdymas:
 
   - [Duomenų valdymas](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

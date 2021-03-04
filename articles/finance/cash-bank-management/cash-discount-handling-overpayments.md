@@ -139,3 +139,6 @@ Mokėjimo nuolaidos suma yra sumažinama nuo 10,50 iki 10,00. Mokėjimo ir SF la
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

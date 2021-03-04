@@ -56,3 +56,6 @@ Kai kurių tipų gamybos darbą galima taikyti projekto laiko įvertinimui ir at
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

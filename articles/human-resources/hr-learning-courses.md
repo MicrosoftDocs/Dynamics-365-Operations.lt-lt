@@ -137,3 +137,6 @@ Darbuotojų, kurie į kursą registruojasi per puslapį **Darbuotojų savitarna*
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

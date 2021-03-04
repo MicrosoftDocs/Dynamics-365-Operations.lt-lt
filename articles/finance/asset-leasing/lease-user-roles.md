@@ -44,3 +44,6 @@ Atlikite šiuos veiksmus, norėdami vartotojus priskirti vaidmenims, naudojamiem
 1. Eikite į **Sistemos administravimas \> Sauga \> Priskirti vartotojus vaidmenims**.
 2. Pasirinkite vaidmenį **Nuomos valdymas**, **Nuomos klerkas** arba **Nuomos peržiūra** ir pasirinkite **Neautomatiškai priskirti / pašalinti vartotojus**.
 3. Pasirinkite vartotoją, kurį norite priskirti vaidmeniui, tada pasirinkite **Priskirti vaidmeniui**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

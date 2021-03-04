@@ -50,3 +50,6 @@ ms.locfileid: "4414383"
 15. Spustelėkite Kortelės operacijos.
 16. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

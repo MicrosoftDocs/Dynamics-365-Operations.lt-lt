@@ -38,3 +38,6 @@ Parinktyje **Įjungta** nustatykite **Taip**, norėdami naudoti ER konfigūracij
 
 - [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)
 - [Elektroninių ataskaitų (ER) paskirties vietos](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

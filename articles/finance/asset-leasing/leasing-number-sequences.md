@@ -36,3 +36,6 @@ ms.locfileid: "4446199"
 3. Šoniniame skirtuke pasirinkite **Numeracijos**.
 4. Pasirinkite nuorodos **Nuomos ID** numeraciją. Ši numeracija bus naudojama kiekvienos nuomos unikaliam identifikatoriui generuoti.
 5. Pasirinkite nuorodos **Proceso ID** numeraciją. Ši numeracija bus naudojama kiekvieno indekso perkainojimo proceso unikaliam identifikatoriui generuoti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Po to įjunkite **Inžinerijos keitimo valdymo** konfigūravimo mygtuką šiais 
 1. Eikite į **Sistemos administravimas \> Sąranka \> Licencijos konfigūracija**.
 1. Išplėskite **Prekybos** mazgą ir pasirinkite **Inžinerijos keitimo valdymo** žymimą laukelį.
 1. Išjunkite priežiūros režimą kaip aprašyta [Priežiūros režime](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

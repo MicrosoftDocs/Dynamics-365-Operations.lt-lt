@@ -58,3 +58,6 @@ ms.locfileid: "4433589"
 5. Lauke **Produkto varianto numerio nomenklatūra** įveskite arba pažymėkite reikšmę.
 6. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

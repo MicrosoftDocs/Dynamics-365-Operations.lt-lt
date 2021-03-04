@@ -68,3 +68,6 @@ Norėdami išvalyti būsimas atkūrimo datas, galite naudoti funkciją **Ištrin
 
 > [!NOTE]
 > Priklausomai nuo jūsų pasirinktos atkūrimo datos ir kvito formato, gali būti, kad turėsite kvitų numerių dublikatus. Nors elektroninės kasos aparato (EKA) sistema gali valdyti šias situacijas, grąžinimų apdorojimo procesas užtrunka ilgiau, nes pardavėjai turi pasirinkti vieną iš dviejų kvitų dublikatų. Jei nebuvo pagalvota apie dublikatų kvitus, gali kilti kitų su duomenų valymu susijusių sunkumų. Todėl rekomenduojame naudoti dinaminius datos simbolius (pvz., **ddd**, **MM**, **DD** ir **YY**), kad išvengtumėte kvitų numerių dublikatų po atkūrimo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

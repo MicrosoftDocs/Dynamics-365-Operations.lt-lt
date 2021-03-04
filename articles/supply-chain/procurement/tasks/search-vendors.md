@@ -39,3 +39,6 @@ Sužinokite, kaip ieškoti tiekėjų pagal konkrečius kriterijus. Šis pavyzdys
 6. Lauke Šalis / regionas surinkite reikšmę.
 7. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -247,3 +247,6 @@ Norint gamybos aplinkoje įjungti įdėtąsias darbo sričių **CFO apžvalga** 
 - [Analizės darbo sričių ir ataskaitų naudojimas prie 1 langelio aplinkoje](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 
 - [Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

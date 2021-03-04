@@ -42,3 +42,6 @@ Norėdami patvirtinti keletą mokėjimo grafikų, atlikite tolesnius veiksmus.
     - Norėdami patvirtinti visas knygas, įjunkite parametrą **Visoms knygoms**.
 
 Naujai patvirtintų knygų informacija rodoma puslapyje **Patvirtintos knygos**. Kai patvirtinami mokėjimo grafikai, pradinio pripažinimo žurnalo įrašai gali būti registruojami pagal nuomas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

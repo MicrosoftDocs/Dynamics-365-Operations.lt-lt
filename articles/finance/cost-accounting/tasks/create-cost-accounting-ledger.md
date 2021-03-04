@@ -38,3 +38,6 @@ Išlaidų apskaitos didžioji knyga atitinka visą atsiskaitantį vienetą. Apib
 8. Lauke Statistikos dimensija įveskite arba pasirinkite reikšmę.
 9. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

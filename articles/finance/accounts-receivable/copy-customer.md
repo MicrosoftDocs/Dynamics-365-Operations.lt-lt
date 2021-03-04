@@ -64,3 +64,6 @@ Klientus taip pat galite kopijuoti naudodami funkciją Neapmokestinimo kodo ieš
 
 1. Pasirodo parinktis **Kopijuoti klientą**. Pagal numatytuosius parametrus ši parinktis yra nustatyta kaip **Ne**. Norėdami klientą nukopijuoti į dabartinį juridinį subjektą, parinktį nustatykite kaip **Taip**. 
 2. Pasirinkite **Pasirinkti**. Sukuriamas naujas klientas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

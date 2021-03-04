@@ -116,3 +116,6 @@ Naudoju versiją 10.0.16 ar vėlesnę ir gaunu tolesnį klaidos pranešimą vykd
 > Prašome užbaigti tolesnį klausimyną, kad pradėtumėte ir jei būtina užklausos išlygą iš migravimo turi būti perkelta į „Planning Optimization“.
 
 **Atsakymas:** Ne, pagrindinis planavimas neblokuojamas. Jūsų pagrindinis planavimo vykdymas sėkmingai baigėse ir galite naudoti rezultatus įprastu būdu. Nepaisant to, siekiant išvengti šios klaidos pranešimo funkcijos pagrindinio planavimo vykdymo metu, turite perkelti į „Planning Optimization“ nedelsiant arba prašyti išlygos naudodami nuorodą klaidos pranešime.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

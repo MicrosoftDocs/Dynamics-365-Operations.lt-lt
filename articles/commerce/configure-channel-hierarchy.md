@@ -84,3 +84,6 @@ Toliau pateiktame paveiksle parodyta, kaip publikuoti kanalo naujinimus.
 [Kanalo naršymo hierarchijos kūrimas](create-channel-hierarchy.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

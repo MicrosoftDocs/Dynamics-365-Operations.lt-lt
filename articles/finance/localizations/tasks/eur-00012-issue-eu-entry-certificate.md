@@ -87,3 +87,6 @@ ms.locfileid: "4408209"
 4. Veiksmų srityje spustelėkite Sąskaita faktūra.
 5. Spustelėkite Rodyti išduotus įrašų sertifikatus.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

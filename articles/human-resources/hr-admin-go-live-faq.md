@@ -99,3 +99,6 @@ Norėdami pranešti apie gamybos sutrikimus, vykdykite procesą, aprašytą  [
  ## <a name="see-also"></a>Taip pat žiūrėkite
 
  [Rengimasis įgyvendinimo pradžiai](hr-admin-go-live-prepare.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

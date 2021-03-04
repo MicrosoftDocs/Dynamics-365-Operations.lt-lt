@@ -166,3 +166,6 @@ Toliau pateiktame paveikslėlyje parodytas dialogo lango **Kurti darbo užsakym�
 >[!NOTE]
 >Jei norite, kad darbo užsakymai būtų sukurti automatiškai, tai galite padaryti planuojant priežiūros planų užduotis arba nustatant turtui „Kurti automatiškai“ [priežiūros planus](../preventive-and-reactive-maintenance/maintenance-plans.md) arba [priežiūros ciklus](../preventive-and-reactive-maintenance/maintenance-rounds.md). Darbo užsakymų, sukurtų pagal priežiūros užklausas sąrašo puslapyje **Visas priežiūros grafikas**, priežiūros užduoties tipai pasirenkami priežiūros užklausose.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Kartais organizacija liaujasi siūliusi tam tikras išmokas. Tokiu atveju turite
 Be to, jei nusprendėte, kad išmoką norėsite pasiūlyti ilgesniam laikotarpiui negu buvo planuota, visuotinės išmokos plėtinys leidžia pratęsti išmokos ir darbuotojų registracijos tai išmokai gauti galiojimo datą.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

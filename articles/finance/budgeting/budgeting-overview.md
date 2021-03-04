@@ -70,3 +70,6 @@ Pavyzdžiui, galite apibrėžti, kas sudaro biudžetus, kas įtraukiama į biud�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

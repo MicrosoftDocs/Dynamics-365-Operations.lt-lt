@@ -114,3 +114,6 @@ Toliau pateikiamoje lentelėje aprašomi spartieji klavišai, kuriuos galima nau
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

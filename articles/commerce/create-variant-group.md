@@ -73,3 +73,6 @@ Toliau pateiktame vaizde parodytas dydžių grupės pavyzdys „kasdienių marš
 [Mažmeninės prekybos produktų nustatymas](set-up-retail-products.md)
 
 [Produktų dimensijos](../supply-chain/pim/product-dimensions.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

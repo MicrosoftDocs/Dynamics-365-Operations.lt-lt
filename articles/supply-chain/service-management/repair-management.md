@@ -113,3 +113,6 @@ Pašalinus problemą, remonto eilutę galima uždaryti. Nustatykite remonto etap
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

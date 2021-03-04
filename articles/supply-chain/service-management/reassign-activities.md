@@ -58,3 +58,6 @@ Norėdami perskirstyti vieno darbuotojo veiklą kitam, atlikite toliau nurodytus
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

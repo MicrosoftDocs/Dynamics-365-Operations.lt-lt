@@ -174,3 +174,6 @@ Kiti vidiniai vartotojų matomi išrašų registravimo funkcijai atlikti patobul
 
     - Eikite į **Mažmeninė prekyba ir prekyba** \> **Būstinės sąranka** \> **Parametrai** \> **Prekybos parametrai**. Po to skirtuko **Registravimas** „FastTab“ skirtuko **Atsargų atnaujinimas** lauke **Detalumo lygis** pasirinkite **Suvestinė**.
     - Eikite į **Mažmeninė prekyba ir prekyba** \> **Būstinės sąranka** \> **Parametrai** \> **Prekybos parametrai**. Po to skirtuko **Registravimas** „FastTab“ skirtuke **Telkimas** nustatykite parinkties **Kvito operacijos** reikšmę **Taip**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

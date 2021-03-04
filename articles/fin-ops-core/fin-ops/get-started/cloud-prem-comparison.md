@@ -175,3 +175,6 @@ Norėdami peržiūrėti galimybių, kurios suteikiamos vietinių visuotinių die
 
 \* Vietinėse aplinkose PerfTimer rodo tik kliento rezultatus.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

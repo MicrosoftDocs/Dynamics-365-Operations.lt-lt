@@ -140,3 +140,6 @@ Vartotojas pasirašydamas sertifikatą turi rankiniu būvu įvesti puslapių ska
 ### <a name="page-numbers"></a>Puslapių numeriai
 
 Esamas puslapis ir puslapių skaičius spausdinamas dokumento apačioje.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

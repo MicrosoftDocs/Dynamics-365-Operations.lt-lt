@@ -139,3 +139,6 @@ Mes panaikinsime iš sistemos sukurtas konfigūracijas ir vėl atsisiųsime jas 
 26. Medyje išplėskite „Duomenų pavyzdžio modelis“.
     * Atkreipkite dėmesį, kad modelio „Susiejimo pavyzdys“ susiejimo konfigūracija buvo atsisiųsta kartu su pasirinkta duomenų modelio konfigūracija. Du failai atsisiunčiami kartu, kadangi „Susiejimo pavyzdys“ apibrėžtas kaip pasirinkto duomenų modelio įgyvendinimas, ir todėl, kad jis taikomas programoms. Konfigūracija „Susiejimo pavyzdys (alternatyvus)“ dar neatsisiųsta, nes reikiamos programos versijos sąlyga nėra patenkinta.   
     * Jei prisijungiate prie „Finance and Operations“, registruojate tą patį teikėją, naudojate prieigą prie to paties LCS projekto ir atsisiunčiate tą pačią duomenų modelio konfigūraciją, bus atsisiųsta konfigūracija „Susiejimo pavyzdys (alternatyvus)“, o konfigūracija „Susiejimo pavyzdys“ bus praleista.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

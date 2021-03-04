@@ -127,3 +127,6 @@ Po to, kai gamybos eilutėje pranešama, kad produktas yra baigtas, jis perkelia
 -   Prekių skirstymo scenarijus gali būti taikomas pagal paketą ir seriją kontroliuojamoms prekėms, kai rezervacijų hierarchijoje virš vietos ir po vieta nurodomos paketo ir serijos numerio dimensijos. 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

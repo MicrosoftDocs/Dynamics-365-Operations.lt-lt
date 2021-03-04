@@ -48,3 +48,6 @@ Naudojant modulio Elektroninės ataskaitos (ER) duomenų rinkimo funkcijas, atli
 [Elektroninių ataskaitų formulių kūrimo įrankis](general-electronic-reporting-formula-designer.md)
 
 [Elektroninių ataskaitų formulių kalba](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ ms.locfileid: "4419668"
    4. Pasirinkite **Gerai**. Procesas bus vykdomas naudojant jūsų nustatytus parametrus.
 
 4. Pasirinkite **Gerai**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

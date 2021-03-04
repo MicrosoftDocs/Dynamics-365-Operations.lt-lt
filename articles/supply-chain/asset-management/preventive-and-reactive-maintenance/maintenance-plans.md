@@ -194,3 +194,6 @@ Toliau pateiktame paveikslėlyje pateiktas priežiūros planų, sukonfigūruotų
 
 ![7 paveikslėlis](media/08-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Jei jums reikia, kad valiutos tikslumas konkrečiai valiutai skirtųsi nuo valiu
 ### <a name="tables-currency-field"></a>lentelės: laukas Valiuta
 
 Galima tik keturis kartus koreguoti dešimtainių skaičių, skirtų konkrečios valiutos laukams, kiekius.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

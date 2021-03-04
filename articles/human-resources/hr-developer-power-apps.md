@@ -60,3 +60,5 @@ Norėdami atsisiųsti **Power Automate – SQL prisijungimas ir vykdymas** šabl
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [„Microsoft Power Platform“](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -218,3 +218,6 @@ Norėdami pamatyti, į kuriuos biudžeto planus prognozuojamos pareigos buvo įt
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

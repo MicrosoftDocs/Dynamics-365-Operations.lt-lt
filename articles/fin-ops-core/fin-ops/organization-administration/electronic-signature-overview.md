@@ -109,3 +109,6 @@ Norėdami paskirti tvirtintojus, atlikite toliau nurodytus veiksmus.
 1. Puslapio **Parinktys** skirtuke **Sąskaitos** spustelėkite **Paskirti tvirtintoją**.
 2. Lauke **Tvirtintojo vartotojo ID** pasirinkite vartotojo, kuris turi pasirašyti kito vartotojo keitimus, ID.
 3. Lauke **Vartotojo, už kurį pasirašoma, ID** pasirinkite vartotojo, kurio keitimai turi būti pasirašyti, ID.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ ms.locfileid: "4433596"
     * Pasirinkite konfigūravimo pagal dimensijas technologiją.  
 9. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

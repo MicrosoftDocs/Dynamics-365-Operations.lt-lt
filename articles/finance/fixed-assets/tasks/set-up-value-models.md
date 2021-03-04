@@ -54,3 +54,6 @@ ms.locfileid: "4446054"
     * Atkreipkite dėmesį, kad lauko Nusidėvėjimo laikotarpiai reikšmė apskaičiuojama nustačius dėvėjimo laiką.  
     * Mokesčių tvarkymo tikslais galite pagal poreikį nustatyti nusidėvėjimo konvenciją.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Pavyzdžiui, jei šiandien vasario 1 d., o vasario 14 d. planuojama, kad darbi
    4. Pasirinkite **Gerai**. Procesas bus vykdomas naudojant jūsų nustatytus parametrus.
 
 4. Pasirinkite **Gerai**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

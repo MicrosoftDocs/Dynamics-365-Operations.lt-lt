@@ -78,3 +78,6 @@ Toliau pateikiamoje lentelėje nurodyti kiekviename ataskaitos puslapyje pateiki
 |    Tiekėjo ir kliento balansas     |                                                                                                                   <ul><li>Tiekėjo ir kliento balansas</li><li>Tiekėjo ir kliento balansas pagal įmonę</li><li>Tiekėjo ir kliento balanso informacija</li></ul>                                                                                                                    |
 |    SF su sulaikytu mokėjimu     |                                                                                         <ul><li>SF su sulaikytu mokėjimu</li><li>SF su sulaikytu mokėjimu informacija</li><li>SF su sulaikytu mokėjimu pagal įmonę</li><li>SF su sulaikytu mokėjimu pagal tiekėjų grupę</li></ul>                                                                                          |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

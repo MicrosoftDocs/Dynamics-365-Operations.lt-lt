@@ -55,3 +55,6 @@ ms.locfileid: "4446065"
 6. Lauke Dėvėjimo laikas įveskite skaičių.
     * Atkreipkite dėmesį, kad lauko Nusidėvėjimo laikotarpiai reikšmė apskaičiuojama nustačius dėvėjimo laiką.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

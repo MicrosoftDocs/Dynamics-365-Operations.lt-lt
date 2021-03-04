@@ -112,3 +112,6 @@ Norėdami pradėti naudoti iš anksto nustatytus maketus, žr. [Darbas su iš an
 [Darbas su esamais maketais](work-with-layouts.md)
 
 [Darbas su publikavimo grupėmis](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

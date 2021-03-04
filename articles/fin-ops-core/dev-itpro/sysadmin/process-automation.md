@@ -47,3 +47,6 @@ Kiekvieną įvykį galima modifikuoti nedarant įtakos kitiems įvykiams, nustat
 ## <a name="developer-documentation"></a>Kūrėjo dokumentacija
 
 Procesų automatizavimo sistema leidžia programuotojams išplėsti proceso automatizavimo sistemą. [Procesų automatizavimo sistema](../process-automation/process-automation-framework.md) dokumentacijoje pateikta informacija apie tai, kaip galite sukurti pasirinktinius procesus, kurie yra vykdomi paketų serveryje, numatyti procesų automatizavimo vedlyje ir automatiškai atsirandantys kalendoriaus rodinyje.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

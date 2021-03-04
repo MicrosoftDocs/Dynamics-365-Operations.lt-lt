@@ -82,3 +82,6 @@ Toliau pateiktame paveiksle rodoma hierarchija su įvairiais įtrauktais kanalai
 [Mažmeninės prekybos kanalo nustatymas](channel-setup-retail.md)
     
 [Interneto kanalo nustatymas](channel-setup-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

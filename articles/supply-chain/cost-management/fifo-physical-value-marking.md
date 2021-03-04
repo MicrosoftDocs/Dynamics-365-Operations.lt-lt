@@ -136,3 +136,6 @@ Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų op
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

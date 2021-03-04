@@ -53,3 +53,6 @@ Galite kurti konkretaus biudžeto modelio preliminaraus biudžeto registro įra�
 19. Spustelėkite Naujinti.
     * Norėdami pamatyti naujinimo rezultatus, mėlynoje juostoje spustelėkite Pranešimo informacija.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

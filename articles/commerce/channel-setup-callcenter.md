@@ -136,3 +136,6 @@ Norėdami nustatyti kainos grupę, atlikite šiuos veiksmus.
 [Įspėjimų dėl apgaulės nustatymas ir jų naudojimas](set-up-fraud-alerts.md)
 
 [Skambučių centrų tęstinumo programų nustatymas](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

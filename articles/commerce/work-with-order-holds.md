@@ -103,3 +103,6 @@ Jei vartotojai nori išvalyti sulaikymą ir pakeisti užsakymą prieš jį išle
 ## <a name="reporting-options"></a>Ataskaitų parinktys
 
 Eikite į **Mažmeninė prekyba ir prekyba** \> **Užklausos ir ataskaitos** \> **Skambučių centro ataskaitos** \> **Užsakymų sulaikymų ataskaita**, kad sugeneruotumėte ataskaitą apie sulaikytus užsakymus pagal datos diapazoną, sulaikymo kodą ar kitus susijusius kriterijus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Norėdami sistemos grupavimo funkciją nustatyti atidarytame darbų sąraše, at
 | Sistemos grupavimo laukas | Galima naudoti tik jei <strong>Leisti sistemos darbą</strong> nustatyta kaip <strong>Taip</strong>. Pasirinkite lauką, nustatantį, kaip bus grupuojamas darbuotojų paėmimo darbas. Pavyzdžiui, jei pasirinksite lauką <strong>ShipmentId</strong>, norėdamas grupuoti išrinkimo darbus, darbuotojas nuskaitys siuntos ID. Tada visi siuntos darbai priskiriami darbuotojui. Šiam laukui reikia sukurti meniu elementą, kuris naudos esamus sistemos sugrupuotus darbus. Naudokite lauką <strong>Sistemos grupavimo žyma</strong>, kad darbuotoją informuotumėte, ką reikia nuskaityti. |
 | Sistemos grupavimo žyma |                       Galima naudoti tik jei <strong>Leisti sistemos darbą</strong> nustatyta kaip <strong>Taip</strong>. Įveskite informaciją darbuotojui apie tai, ką reikia nuskaityti, kai paėmimo darbas yra sugrupuotas. Pavyzdžiui, jei naudojate lauką <strong>ShipmentId</strong> norėdami grupuoti paėmimo darbą pagal siuntą, lauke galite įvesti Siuntos ID. Šiam laukui reikia sukurti meniu elementą, kuris naudos esamus sistemos sugrupuotus darbus. Be to, lauke <strong>Sistemos grupavimas</strong> reikia pasirinkti lauką, pagal kurį grupuosite.                       |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Programoje „Microsoft Dynamics 365 Human Resources“, laukimo dienos nustato 
    | **Laukimo diena** | Pasirinkti laukimo dieną, naudojamą laukimo datai skaičiuoti. |
 
 4. Pasirinkite **Įrašyti**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

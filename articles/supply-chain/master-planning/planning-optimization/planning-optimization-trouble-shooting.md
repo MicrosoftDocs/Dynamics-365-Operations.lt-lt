@@ -75,3 +75,6 @@ Tai susiję su laukimo funkcija, kuri yra suplanuota kaip gamybos užsakymų pal
 [Darbo su planavimo optimizavimu pradžia](get-started.md)
 
 [Planavimo optimizavimo tinkamumo analizė](planning-optimization-fit-analysis.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Klientų aptarnavimo tarnyba apima toliau nurodytas funkcijas.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

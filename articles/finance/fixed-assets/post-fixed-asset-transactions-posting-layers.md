@@ -49,3 +49,6 @@ Norėdami gauti daugiau informacijos, žr. [Išvestinės knygos](derived-books.m
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

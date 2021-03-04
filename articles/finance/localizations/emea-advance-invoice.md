@@ -153,3 +153,6 @@ Sukurkite pirkimo užsakymą arba pasirinkite esamą. Spustelėkite **SF**, o ta
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

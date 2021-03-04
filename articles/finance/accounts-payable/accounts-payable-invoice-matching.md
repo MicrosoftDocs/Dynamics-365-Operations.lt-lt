@@ -194,3 +194,6 @@ Daugiau informacijos žr. [Trišalės atitikimo strategijos](three-way-matching-
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

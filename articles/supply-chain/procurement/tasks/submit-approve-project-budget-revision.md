@@ -46,3 +46,6 @@ ms.locfileid: "4433529"
 12. Lauke Komentaras įveskite reikšmę.
 13. Spustelėkite Pateikti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

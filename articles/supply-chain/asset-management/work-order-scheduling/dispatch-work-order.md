@@ -60,3 +60,6 @@ Naudodami funkciją **Išsiųsti** galite suplanuoti vieną darbo užsakymą arb
 [!NOTE]
 Jei norite panaikinti darbo užsakymo grafiką, pasirinkite darbo užsakymą **Visi darbo užsakymai**, o tada spustelėkite **Panaikinti grafiką** skirtuke **Bendra**. Jei ištrinate grafiką, nepamirškite atnaujinti darbo užsakymo ciklo būsenos rankiniu būdu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

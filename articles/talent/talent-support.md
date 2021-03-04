@@ -48,3 +48,6 @@ Norėdami gauti „Onboard“ atskiros programos palaikymą, naudokite toliau pa
 | Pranešti apie problemą. | Pasirinkite mygtuką **Žinynas** (**?**) viršutiniame dešiniajame puslapio kampe, tada pasirinkite **Pranešti apie problemą**. Įveskite problemos aprašą ir, jeigu norite būti informuoti apie praneštos problemos sprendimo eigą, nurodykite el. pašto adresą. |
 | Pagalba iškilus klausimų apie „Talent“ licencijavimą. | Susisiekite su partneriu ar „Microsoft“ pardavimo atstovu. |
 | Prašymas naudotis naujomis „Onboard“ savybėmis ir funkcijomis. | Pasirinkite mygtuką **Žinynas** (**?**) ir pasirinkite **Idėjos**. Taip pat galite apsilankyti [Idėjose dėl „Dynamics 365 Talent: Onboard“](https://experience.dynamics.com/ideas/categories/?forum=569a7fb2-8327-e911-a95a-000d3a4f3883&forumName=Dynamics%20365%20for%20Talent%3A%20Onboard), kad peržiūrėtumėte, rastumėte arba balsuotumėte už esamas idėjas arba pasiūlytumėte naujų idėjų. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

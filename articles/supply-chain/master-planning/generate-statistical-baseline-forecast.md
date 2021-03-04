@@ -78,3 +78,6 @@ Jei prognozė generuojama ne dideliam prekių rinkiniui, bet, pavyzdžiui, viena
 - [Neautomatiniai pagrindinės prognozės koregavimai](manual-adjustments-baseline-forecast.md)
 
 - [Pakoreguotos prognozės įgaliojimas](authorize-adjusted-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

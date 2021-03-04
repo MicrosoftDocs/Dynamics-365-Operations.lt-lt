@@ -296,3 +296,6 @@ Prieš tai, kai prekės klasteryje gali būti atidėtos, klasterį reikia užver
 ## <a name="notes-and-tips"></a>Pastabos ir patarimai
 
 Dėl atvejų, kai klasterio ID tampa valdančia licencijos plokštele pakrautam padėklui, padėjimo padėtis automatiškai suteikiama, kai nuskaitomas atitinkamas klasterio ID. Negalima nuskaityti jokios tolesnės licencijos plokštelės, net jei licencijos plokštelės sukūrimas nustatytas į rankinį.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

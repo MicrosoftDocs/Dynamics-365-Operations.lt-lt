@@ -57,3 +57,6 @@ ms.locfileid: "4433396"
 11. Pasirinkite **Gerai**.
 12. Uždarykite puslapį. Dabar sutartis galioja. Galite pradėti sieti kliento užsakymus su sutartimi, kad subalansuotumėte atliktą tikslą.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

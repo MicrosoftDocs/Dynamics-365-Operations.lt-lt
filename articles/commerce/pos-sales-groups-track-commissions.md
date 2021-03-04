@@ -88,3 +88,6 @@ Naudodamiesi EKA vartotojai gali konfigūruoti į ekrano išdėstymus įtraukiam
 ## <a name="calculating-commissions"></a>Komisinių skaičiavimas
 
 Nurodytų pardavimo grupių darbuotojų komisiniai skaičiuojami registruojant išrašą arba pardavimo užsakymą.Komisinių suma nustatoma pagal pardavimo grupėje nurodytą darbuotojo komisinių dalį ir susijusius klientui ir (arba) operacijos produktams taikomus komisinių skaičiavimo parametrus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

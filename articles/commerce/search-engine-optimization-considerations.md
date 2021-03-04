@@ -56,3 +56,6 @@ Kadangi „Dynamics 365 Commerce“ palaikomos „ką matote, tą ir gaunate“ 
 [Įtraukite scenarijaus kodą į svetainės puslapius, kad būtų palaikoma telemetrija](add-telemetry.md)
 
 [Tvarkyti turinio saugos strategiją (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

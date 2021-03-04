@@ -45,3 +45,6 @@ Taip pat **trečiosios šalies būsenos** stulpelyje gali būti rodomos toliau n
 Toliau pateiktoje diagramoje parodyti abu būsenų rinkiniai ir kaip jie susiję tarpusavyje.
 
 [ ![Eksperimentų būsenos](./media/experimentation_statuses.svg) ](./media/experimentation_statuses.svg#lightbox)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

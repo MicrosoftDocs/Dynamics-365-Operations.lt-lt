@@ -256,3 +256,6 @@ Naudojant DOM funkciją reikėtų atsižvelgti į tolesnius dalykus.
 - Šiuo metu DOM analizuoja tik tuos užsakymus, kurie yra sukurti iš prekybos kanalų. Kai parinktis **Prekyba** yra nustatyta kaip **Taip**, pardavimo užsakymai identifikuojami kaip mažmeninės prekybos pardavimo užsakymai.
 - Su išplėstinėmis sandėlio valdymo funkcijomis „Microsoft“ DOM neišbandė. Klientai ir partneriai turi atidžiai nustatyti, ar DOM yra suderinama su jiems aktualiomis išplėstinėmis sandėlio valdymo galimybėmis ir procesais.
 - DOM pasiekiama tik naudojant „Commerce“ debesies versiją. Vietinėse įdiegtyse ji nėra palaikoma.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

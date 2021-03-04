@@ -114,3 +114,6 @@ Norėdami daugiau sužinoti apie personalizuotas rekomendacijas, žr. [Personali
 
 [DUK apie produktų rekomendacijas](faq-recommendations.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Gaunama *Bulio logikos* reikšmė.
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Loginės funkcijos](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

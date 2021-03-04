@@ -171,3 +171,6 @@ Norėdami naudoti šį derinį, turite nustatyti tolesnius laukus.
 
 > [!IMPORTANT]
 > Norint, kad vykdoma DOM funkcija svarstytų šias savikainas, į atitinkamą įvykdymo profilį turite įtraukti savikainos faktorių.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

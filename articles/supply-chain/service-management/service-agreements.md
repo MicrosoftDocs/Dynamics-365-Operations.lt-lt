@@ -79,3 +79,6 @@ Kiekviena aptarnavimo sutarties eilutė išsamiai aprašo siūlomo aptarnavimo d
 ## <a name="related-topics"></a>Susijusios temos
 
 [Aptarnavimo sutarčių kūrimas](create-service-agreements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

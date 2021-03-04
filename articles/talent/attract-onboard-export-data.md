@@ -113,3 +113,5 @@ Atsisiuntimas yra .zip failas, kuriame yra:
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 [„Dynamics 365 Talent: Attract“ ir „Dynamics 365 Talent: Onboard“ programų panaikinimas](https://community.dynamics.com/365/talent/b/dynamics365fortalent/posts/retiring-dynamics-365-talent-attract-and-onboard-apps)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

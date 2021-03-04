@@ -49,3 +49,6 @@ Laiko planavimo juosta atnaujinama kaskart, kai atidaromas puslapis. Jame yra to
 - Darbo užsakymai, įskaitant užregistruotus elementus ir pastabas
 - Gedimai
 - Būklės vertinimai
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

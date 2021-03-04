@@ -117,3 +117,6 @@ Toliau pateikiamoje lentelėje nurodyti kiekviename ataskaitos puslapyje pateiki
 | SF, kurių importavimas nepavyko | <ul><li>SF, kurių importavimas nepavyko</li><li>SF, kurių importavimas nepavyko, pagal įmonę</li></ul> |
 | Automatizavimo klaidų priežastys | <ul><li>Nepavykusios SF</li><li>Nepavykusios SF pagal įmonę</li><li>Nepavykusios SF pagal tiekėjų grupę</li></ul> |
 | Darbo eigos būsena                | <ul><li>SF darbo eigoje</li><li>Tiekėjo SF darbo eigos egzemplioriai</li><li>Priskyrimai vienam tvirtintojui</li><li>Tiekėjo SF darbo eigos vienai įmonei</li><li>Vidutinis darbo eigos dienų skaičius pagal tvirtintoją</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

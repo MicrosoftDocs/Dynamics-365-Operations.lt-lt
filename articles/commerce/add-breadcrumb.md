@@ -95,3 +95,6 @@ Norėdami į PDP įtraukti naršymo kelio modulį ir nustatyti reikiamas ypatybe
 [Pirkimo langelio modulis](add-buy-box.md)
 
 [SDK ir modulių bibliotekos naujinimai](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

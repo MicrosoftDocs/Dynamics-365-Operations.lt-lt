@@ -102,3 +102,6 @@ Jei pasirenkate lauką **Gauti atsiliepimų dalyvius iš samdos komandos**, įda
 Pokalbio veikla yra neprivaloma veikla, kurią sudaro trys komponentai: **Kandidato pasiekiamumo užklausa**, **Grafikas** ir **Atsiliepimas**. Naudokite pokalbio veiklą užduoties šablone, jei kaip proceso dalį norite įtraukti viską: kandidato pasiekiamumo užklausą, grafiką ir atsiliepimą, o ne naudoti juos atskirai.
 
 Norėdami įtraukti kandidatų arba nustatyti kalbinamų kandidatų apribojimų, lauke **Ką kalbinate** pasirinkite reikšmę. Galimos šios pasirinktys: **Visi kandidatai**, **Išoriniai kandidatai** ir **Vidiniai kandidatai**. Pavyzdžiui, jei norite praleisti vidaus kandidatų pirmajame pokalbio etape, nustatykite **Ką kalbinate** parinktį **Išoriniai kandidatai**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

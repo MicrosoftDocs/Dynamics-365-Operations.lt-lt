@@ -76,3 +76,6 @@ Pasižymėkite savo sukurto pirkimo užsakymo numerį ir prekės numerį bei pir
     * Spustelėję Gerai, patikrinkite pranešimų juostą. Turėtumėte gauti pranešimą, kuriame parašyta, kad operacija baigta.  
 5. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

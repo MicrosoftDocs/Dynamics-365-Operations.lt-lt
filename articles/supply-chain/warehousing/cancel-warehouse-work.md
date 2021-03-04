@@ -45,3 +45,6 @@ Naudojant darbo atšaukimo funkciją galima atšaukti tik darbus, kurių tipas y
 Norint atblokuoti darbą, sistema atšaukia likusias darbo eilutes ir nustato sandėlio duomenis, susietus su vartotojo nurodytu darbo ID. Tada galės būti tęsiami bet kokie įprasti sandėlio tvarkymo veiksmai, susiję su paveiktu prekių kiekiu.
 
 Norėdamas perkelti paveiktą prekę į konkrečią vietą po to, kai buvo atšauktas darbas, vartotojas turi atlikti atsargų perkėlią arba kiekio koregavimą mobiliajame įrenginyje.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

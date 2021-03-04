@@ -253,3 +253,6 @@ Norėdami sukurti naują nuomą, atlikite toliau nurodytus veiksmus.
 
    Puslapis **Nuomos įsipareigojimo operacijos** nurodo pradinį pripažinimą, nuomos palūkanų mokesčius, nuomos mokesčius ir nuomos įsipareigojimo balansą. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

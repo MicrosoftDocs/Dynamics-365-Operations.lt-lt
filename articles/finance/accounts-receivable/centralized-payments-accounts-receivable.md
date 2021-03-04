@@ -296,3 +296,6 @@ Fabrikam gauna 75,00 dydžio mokėjimą iš kliento 4000, Northwind Traders. Mok
 | Gautinos sumos (Fabrikam West)    |              | 75,00         |
 | Mokėtojas – Fabrikam East (Fabrikam West) | 25,00        |               |
 | Gautinos sumos (Fabrikam West)    |              | 25,00         |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

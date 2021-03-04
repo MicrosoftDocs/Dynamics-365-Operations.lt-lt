@@ -62,3 +62,6 @@ Prašome atsiminti, kad turite vykdyti inventoriaus uždarymą %3 (2019 01 31) p
 ## <a name="inventory-aging-report-discrepancies"></a>Inventoriaus senėjimo ataskaitos neatitikimai
 
 **Inventoriaus senėjimo ataskaita** rodo kitas vertes, kai žvelgiate į skirtingus talpinimo matmenis (tokius kaip vieta ar sandėlis). Dėl išsamesnės informacijos apie ataskaitų teikimo logiką, žr. [Inventoriaus senėjimo ataskaitos pavyzdžiai ir logika](inventory-aging-report.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

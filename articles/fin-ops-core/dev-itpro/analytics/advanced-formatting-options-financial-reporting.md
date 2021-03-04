@@ -310,3 +310,6 @@ Skaičiavimo eilutė gali nurodyti skaičiavimo eilutę arba finansinių duomen�
 Galite kurti ataskaitas naudodami dimensijų vertes, kuriose yra ampersando (&) simbolis.
 
 Bet kuriame lauke **Saitas su finansine dimensija** galite įvesti vertę, pvz., **'P&L'**. Viengubos kabutės ('') abiejose dimensijos vertės pusėse nurodo, kad naudojate tiesioginę vertę, pvz., įskaitant (&) ampersendo simbolį.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

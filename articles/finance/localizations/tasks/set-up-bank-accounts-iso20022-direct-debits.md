@@ -69,3 +69,6 @@ Tai yra ketvirtoji iš penkių procedūrų, kuriose apibūdinamas kliento mokėj
 8. Spustelėkite GERAI.
 9. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

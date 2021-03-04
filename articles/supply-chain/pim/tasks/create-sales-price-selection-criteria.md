@@ -54,3 +54,6 @@ ms.locfileid: "4433584"
 4. Lauke Kriterijai pasirinkite 10 klientų grupė. 
 5. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -101,3 +101,6 @@ Jei ta pati ataskaita apdorojama **„Litware Retail“** klientui 2015 m. gruo
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Tekstinės funkcijos](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

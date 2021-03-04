@@ -49,3 +49,6 @@ Vartotojui, prisijungusiam prie įmonės **„Contoso Entertainment System USA�
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Kitos (konkrečios verslo srities) funkcijos](er-functions-category-other.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

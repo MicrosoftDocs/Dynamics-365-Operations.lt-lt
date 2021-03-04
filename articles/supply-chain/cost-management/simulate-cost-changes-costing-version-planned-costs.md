@@ -59,3 +59,6 @@ Toliau pateiktais scenarijais iliustruojama, kaip įkainojimo modeliavimo versij
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ ms.locfileid: "4414388"
 27. Spustelėkite Įrašyti.
     * Bet kada pakeitę lojalumo plano kanalus, turite paleisti užduotį Apdoroti lojalumo planus. Tokiu būdu bus atnaujinti kanalų lojalumo planai.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

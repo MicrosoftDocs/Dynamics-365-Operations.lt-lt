@@ -88,3 +88,6 @@ Toliau pateiktame paveiksle rodomas juridinis subjektas, įtrauktas į hierarchi
 [Kanalų apžvalga](channels-overview.md)
 
 [Būtinosios kanalo nustatymo sąlygos](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

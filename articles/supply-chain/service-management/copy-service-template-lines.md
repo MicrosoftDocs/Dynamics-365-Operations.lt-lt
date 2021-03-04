@@ -60,3 +60,6 @@ Aptarnavimo šablono eilutės nukopijuotos į naują aptarnavimo užsakymą kart
 [Aptarnavimo šablonai](service-template.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

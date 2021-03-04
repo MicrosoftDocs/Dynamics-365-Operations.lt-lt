@@ -55,3 +55,6 @@ Patvirtinimai rodomi ataskaitų srities skyriuje **Patvirtinimai**. Tvirtintojai
 ## <a name="changes-in-core-hr"></a>„Core HR“ pakeitimai
 
 Šiame leidime pataisytos nežymios klaidos programoje „Dynamics 365 Talent: Core HR“.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

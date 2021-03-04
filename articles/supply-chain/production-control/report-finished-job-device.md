@@ -239,3 +239,6 @@ Norėdami kontroliuoti, ar darbuotojai turėtų dar kartą panaudoti numerio len
 
 > [!NOTE]
 > Norėdami konfigūruoti etiketę, eikite į **Sandėlio valdymas \> Sąranka \> Dokumentų nukreipimas \> Dokumentų nukreipimas**. Norėdami gauti daugiau informacijos, žr. [Numerio lentelės etiketės spausdinimo įjungimas](../warehousing/tasks/license-plate-label-printing.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ Galite naudoti aptarnavimo šablonų grupes aptarnavimo šablonams rūšiuoti ir
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

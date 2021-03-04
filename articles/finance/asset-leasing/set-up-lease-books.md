@@ -53,3 +53,6 @@ Norėdami sukurti nuomos knygą, atlikite toliau nurodytus veiksmus.
     | Trumpojo laikotarpio ribinė reikšmė                     | Įveskite dienų skaičių, kuris bus naudojamas kaip trumpalaikės nuomos ribos. Jei nuomos sąlygos vertė yra mažesnė arba lygi čia įvesto mėnesių skaičiui, sistema suklasifikuos nuomą kaip trumpalaikę nuomą ir bus taikomas atidėtas nuomos režimas. |
     | Mažos vertės ribinė reikšmė                      | Įveskite sumą, kuri bus naudojama kaip mažos vertės nuomos riba. Jei turto tikroji vertė yra mažesnė arba lygi čia įvestai vertei, sistema suklasifikuos nuomą kaip mažos vertės turto nuomą ir bus taikomas atidėtas nuomos režimas. |
     | Mokėti tiekėjui                            | Nustatyti šią parinktį į **Taip**, kad būtų leidžiama registruoti nuomos mokėjimus, kaip SF, į tiekėjo sąskaitą, nurodytą kiekvienoje nuomos sutartyje. Užregistravus nuomos apmokėjimą, tiekėjo sąskaita bus kredituota. Jei ši pasirinktis nustatyta į **Ne**, sąskaita, kuri yra nurodyta puslapio **Nuomos registravimo parametrai** registravimo tipe **Nuomos mokestis** bus kredituojama. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

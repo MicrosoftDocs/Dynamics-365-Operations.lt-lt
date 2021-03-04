@@ -48,3 +48,6 @@ ms.locfileid: "4434001"
     * Patikrinkite, ar yra pardavimo kaina ir savikaina. Jei jų nėra, bet reikia, įveskite informaciją.  
 14. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

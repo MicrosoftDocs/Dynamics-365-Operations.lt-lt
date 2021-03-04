@@ -55,3 +55,6 @@ Abonemento bazinė kaina arba indeksas bus atnaujintas pagal nurodytą vertę.
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

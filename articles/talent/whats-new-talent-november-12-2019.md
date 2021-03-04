@@ -60,3 +60,6 @@ Visos naujos funkcijos išlieka peržiūroje bent 30 dienų ir paprastai 30–60
 Kartais integrali funkcija bus įjungta pagal numatytuosius nustatymus ir jos nebus galima išjungti (pavyzdžiui, darbo sritis **Funkcijų valdymas**).
  
 Kai funkcija jau pasiekiama, ją galima įjungti arba išjungti gamybos aplinkose. Darbo sritis **Funkcijų valdymas** nurodo, kada peržiūros funkcija taps privaloma. Paprastai ši data yra spalio 1 d. arba balandžio 1 d., siekiant suderinti su pusmečio leidimų planais. Negalite išjungti privalomų funkcijų. Kol ji taps privaloma, šią funkciją galite įjungti ir išjungti visose aplinkose.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

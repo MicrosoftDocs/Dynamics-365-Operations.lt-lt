@@ -49,3 +49,6 @@ ms.locfileid: "4645286"
 12. Spustelėkite **Registruoti.**
 13. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

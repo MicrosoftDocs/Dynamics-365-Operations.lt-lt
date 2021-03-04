@@ -147,3 +147,6 @@ Pasiekiama informacija: tiekėjo pavadinimas, adresai, kontaktinė informacija, 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Tiekėjo bendradarbiavimo vartotojų valdymas](manage-vendor-collaboration-users.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

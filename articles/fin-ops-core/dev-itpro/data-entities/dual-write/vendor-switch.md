@@ -78,3 +78,6 @@ Norėdami sukurti naujus darbo eigos procesus, naudojant darbo eigos proceso ša
 4. Sukurkite darbo eigos procesą objektui **Kontaktas** ir pasirinkite šabloną **Tiekėjų naujinimas tipo Asmuo lentelėje Tiekėjai**.
 5. Priklausomai nuo poreikių, darbo eigas galite konfigūruoti kaip realaus laiko arba foninę darbo eigą. Norėdami sukonfigūruoti darbo eigą kaip foninę darbo eigą, pasirinkite **Konvertuoti į foninę darbo eigą**.
 6. Aktyvinkite lentelėms **Kontaktas** ir **Tiekėjas** sukurtas darbo eigas, kad pradėtumėte naudoti objektą **Kontaktas** ir galėtumėte saugoti tipo **Asmuo** informaciją tiekėjams.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

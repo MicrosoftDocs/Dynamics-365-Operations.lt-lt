@@ -74,3 +74,6 @@ Toliau nurodytoje diagramoje pateikiami pagrindiniai komponentai, kurie padeda p
 [![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 Atkreipkite dėmesį, kad vieną spausdintuvą galime užregistruoti keliuose dokumento maršruto planavimo agentuose. Spausdintuvo nuostatoms suderinti nuomojama tarnyba naudoja tinklo maršrutą, kuris unikaliai identifikuoja kiekvieną tinklo spausdintuvą. Todėl net tada, kai spausdintuve užregistruojami keli klientai, jis rodomas kaip viena programų spausdintuvų sąrašo parinktis.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

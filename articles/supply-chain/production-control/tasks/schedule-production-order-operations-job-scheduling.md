@@ -56,3 +56,6 @@ ms.locfileid: "4433552"
 6. Veiksmų srityje pasirinkite **Gamybos užsakymas**.
 7. Pasirinkite **Visos užduotys**. Atminkite, kad remiantis aktyviu maršrutu 5 užduotys sukuriamos naudojant užduočių planavimą.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Plano filtras nustatytas taip, kad jį sudarytų A, B ir C prekės. Tada bendroj
 [Plano retrospektyvos ir planavimo žurnalų peržiūra](plan-history-logs.md)
 
 [Planavimo užduoties atšaukimas](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

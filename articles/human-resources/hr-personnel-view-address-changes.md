@@ -128,3 +128,6 @@ Kai pasirenkate **Adreso keitimas** plytelę, naujas puslapis rodo visų adresų
 > Jei norite gauti pranešimą ar elektroninį laišką apie šio adreso keitimus, galite sukurti naujo pranešimo taisyklę **Parinktys** skirtuke veiksmų juostoje. Dėl išsamesnės informacijos apie pranešimo taisykles, žr. [Sukurti pranešimo taisykles](/fin-ops-core/fin-ops/get-started/create-alert-rules.md).<br><br>
 
 > Jei norite konfigūruoti darbo srautą adreso keitimams, galite pasirinkite **Siųsti į išorę** parinktį savo pranešimo taisyklėje ir tuomet naudoti „Power Automate“ tam, kad paskatintumėte verslo įvykį ir konfigūruotumėte darbo srautą. Dėl platesnės informacijos, žr. [Pranešimai kaip verslo įvykiai](/fin-ops-core/dev-itpro/business-events/alerts-business-events.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

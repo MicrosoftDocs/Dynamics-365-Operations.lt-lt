@@ -301,3 +301,6 @@ Fabrikam sugeneruoja 75,00 dydžio mokėjimą tiekėjui 3004, Fourth Coffee. Mok
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Su šia išsamia instrukcija naudokite demonstracinių duomenų įmonę USMF. Š
 
 ## <a name="save-a-free-text-invoice-as-a-template"></a>Kaip laisvos formos sąskaitą faktūrą įrašyti kaip šabloną
 Esamą laisvos formos sąskaitą faktūrą taip galite įrašyti kaip šabloną. Skirtuke Sąskaita faktūra pasirinkę Įrašyti į šabloną, nurodykite šablono pavadinimą ir aprašą. Jei šablonas tokiu pavadinimu jau yra, matysite pranešimą, kad šablonas tokiu pavadinimu jau yra. Vis tiek galite spustelėti Gerai ir jį pakeisti. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

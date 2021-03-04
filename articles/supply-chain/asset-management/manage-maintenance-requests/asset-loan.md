@@ -58,3 +58,6 @@ Puslapyje **Aktyvusis turto skolinimas** galite peržiūrėti visą paskolinto t
 3. Laukelyje **Grąžinta** nustatykite datą ir laiką.
 4. Pasirinkite **Gerai**.
 5. Atnaujinkite sąrašo puslapį **Aktyvusis turto skolinimas** ir pamatysite, kad paskolintas turtas nebėra rodomas sąraše.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

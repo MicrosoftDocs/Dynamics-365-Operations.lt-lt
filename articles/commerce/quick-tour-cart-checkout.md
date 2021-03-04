@@ -107,3 +107,6 @@ Daugiau informacijos apie tai, kaip kurti pirkimo užbaigimo puslapį, žr. [Pir
 [Išsamios informacijos apie produktus puslapių apžvalga](quick-tour-pdp.md)
 
 [Paskyrų tvarkymo puslapių apžvalga](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

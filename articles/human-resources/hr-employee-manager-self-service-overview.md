@@ -214,3 +214,5 @@ Vadovai gali matyti visus savo komandos tikslus **Mano komanda** skyriaus **Suve
 Skirtuke **Peržiūros** apibendrinamos kiekvienos darbuotojo būsenos peržiūros: **Vykdoma**, **Parengta peržiūrai** ir **Galutinė peržiūra**. Norėdami pasiekti darbuotojo peržiūrą, pasirinkite mygtuką **Išsami informacija**, tada pasirinkite peržiūras, su kuriomis dirbsite. Atsižvelgiant į tai, kur peržiūra yra darbo eigos procese, galite matyti, ar galima peržiūrą naujinti. 
 
 Galite matyti visas savo komandos peržiūras **Mano komanda** skyriaus **Suvestinė** plytelėje **Komandos našumo peržiūros**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

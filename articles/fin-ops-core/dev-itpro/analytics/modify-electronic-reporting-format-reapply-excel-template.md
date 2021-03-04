@@ -33,3 +33,6 @@ Elektroninės ataskaitos (ER) įrankis naudojamas verslo dokumentams elektronini
 ER įrankį galima naudoti verslo dokumentams kaip „Microsoft Excel“ failams generuoti. Kaip šių dokumentų šabloną galite naudoti „Excel“ dokumentą. Norėdami nurodyti dokumento maketą ER kūrimo priemonėje, kaip šablonas norimo naudoti „Excel“ dokumento turinį galite importuoti į nurodytą ER formatą. Jei norite gauti daugiau informacijos ir išbandyti šį scenarijų, paleiskite užduočių vedlį **ER konfigūracijos, skirtos generuoti ataskaitas OPENXML formatu, kūrimas** (verslo proceso 7.5.4.3 Įsigyti / sukurti IT paslaugų / sprendimų komponentų (10677) dalis).
 
 Jei redaguosite kaip verslo dokumento šabloną naudojamą „Excel“ dokumentą, nauja ER funkcija leis iš naujo pritaikyti atnaujintą ER formato šabloną. Tada ER formatas bus atnaujintas, kad atitiktų atnaujintą šabloną. Jei norite gauti daugiau informacijos apie šią funkciją, paleiskite užduočių vedlį **ER formato modifikavimas iš naujo pritaikant „Excel‟ šabloną** (verslo proceso 7.5.5.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10683) dalis). Vykdydami užduočių vedlio veiksmą, kurio metu importuojate atnaujintą šabloną, kaip šabloną naudokite modifikuotą „Excel“ failo Mokėjimo ataskaita, SampleVendPaymWsReport2, šabloną.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

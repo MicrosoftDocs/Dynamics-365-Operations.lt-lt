@@ -72,3 +72,6 @@ Naudokite viešojo sektoriaus funkcijas, kurios padės laikytis viešojo sektori
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

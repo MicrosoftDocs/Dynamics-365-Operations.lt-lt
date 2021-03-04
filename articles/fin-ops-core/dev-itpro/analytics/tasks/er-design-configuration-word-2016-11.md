@@ -99,3 +99,6 @@ Atidarykite šį dokumentą programoje „Word“ ir atlikite toliau nurodytus v
 16. Spustelėkite **Gerai**.
 17. Spustelėkite **Gerai**. Analizuokite sugeneruotą išvestį. Įsidėmėkite, kad sukurta išvestis pateikiama „Word” formatu kartu su informacija apie apdorotus mokėjimus.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

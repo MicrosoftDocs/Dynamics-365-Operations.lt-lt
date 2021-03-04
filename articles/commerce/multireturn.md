@@ -54,3 +54,6 @@ Pasirinkus užsakymus, bus parodytas visų grąžintinų produktų iš visų už
 
 Jei grąžintas visas užsakymas, klientui grąžinta mokesčių suma bus lygi pirminei mokėtinai mokesčių sumai.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

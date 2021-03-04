@@ -46,3 +46,6 @@ ms.locfileid: "4433966"
 1. Spustelėkite Vairuotojo išregistravimas.
 2. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

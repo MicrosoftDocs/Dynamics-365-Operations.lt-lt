@@ -140,3 +140,6 @@ Galite generuoti ataskaitą **Išsiųsta klientams**, norėdami nustatyti, koks 
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>Ar galiu sekti sudėtinius produktus ir šalutinius produktus?
 Galite sekti sudėtinius produktus, tačiau negalite sekti šalutinių produktų, nes sekimo dimensijos paprastai nėra priskirtos šalutiniams produktams. Kai sekate prekę, sekimo duomenys apima visus susijusius sudėtinius produktus. Mazgo, kuriame yra sudėtinis produktas, informacijoje nurodomi žodžiai „sudėtinis produktas“. Taip pat galite peržiūrėti išsamią informaciją apie sudėtinį produktą, sekimo duomenyse pasirinkdami mazgą ir spustelėdami „FastTab“ skirtuką **Gamyba**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

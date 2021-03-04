@@ -114,3 +114,6 @@ Galite nukopijuoti finansines dimensijas į dokumento antraštes arba į atskira
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Savikainos įvertinime taip pat pateikta ši informacija:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

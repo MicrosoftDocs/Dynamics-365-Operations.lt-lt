@@ -243,3 +243,6 @@ Pagridinė informacija įtraukiama į formatą **Formatas, kuris turi mokytis ER
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 - [Elektroninių ataskaitų (ER) sistemos konfigūravimas](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

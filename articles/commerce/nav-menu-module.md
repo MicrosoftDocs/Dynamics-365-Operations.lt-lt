@@ -72,3 +72,6 @@ Daugiau informacijos apie tai, kaip įtraukti naršymo meniu modulį į antrašt
 [Slapukų atitiktis](cookie-compliance.md)
 
 [Antraštės modulis](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

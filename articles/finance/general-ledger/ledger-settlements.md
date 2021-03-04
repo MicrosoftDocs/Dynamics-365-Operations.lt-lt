@@ -75,3 +75,6 @@ Galite atšaukti per klaida atliktą sudengimą.
 ## <a name="update-the-list-of-accounts-that-are-included-in-the-list-of-transactions"></a>Į operacijų sąrašą įtrauktų sąskaitų sąrašo atnaujinimas
 
 Paspauskite **DK sudengimo sąskaitos**, kad būtų atidarytas dialogo langas, kuriame galėsite redaguoti į operacijų sąrašą įtrauktas sąskaitas. Norėdami į sąrašą įtraukti naujų sąskaitų, paspauskite **Nauja**. Šis sąrašas naudojamas puslapyje **DK sudengimai** rodomam operacijų sąrašui filtruoti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

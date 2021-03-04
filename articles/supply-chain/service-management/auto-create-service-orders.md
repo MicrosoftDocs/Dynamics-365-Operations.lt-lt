@@ -59,3 +59,6 @@ Aptarnavimo sutartis galioja nuo 2012 m. sausio 1 d. iki 2012 m. gruodžio 31 d.
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

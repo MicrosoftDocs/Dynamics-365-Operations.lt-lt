@@ -106,3 +106,6 @@ Papildomi ištekliai
 - [Savikainos kontrolės darbo sritis](cost-control-workspace.md)
 - [Dimensijų hierarchija](dimension-hierarchy.md)
 - [Kaštų apskaitos turinio paketo saugos nustatymas](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

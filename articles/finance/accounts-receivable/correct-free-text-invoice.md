@@ -51,3 +51,6 @@ Atšaukiamąją ir pataisytą SF galite identifikuoti toliau nurodytais dviem b�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

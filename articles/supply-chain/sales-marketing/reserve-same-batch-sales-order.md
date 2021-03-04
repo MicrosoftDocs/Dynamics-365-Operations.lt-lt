@@ -45,3 +45,6 @@ Kai produkto atsargas rezervuojate pardavimo užsakymo eilutėje, su kuria nusta
 - Liko nepakankamai paketo galiojimo dienų, atsižvelgiant į galiojimo pabaigos datą ir geriausia iki datą bei visas kliento pardavimo dienas.
 
 Elementams, susijusiems su saugyklos dimensijų grupe, kuriuose įjungta funkcija **„Naudoti sandėlio tvarkymo procesus“**, galite rezervuoti konkrečius paketų numerius, naudodami rezervavimo hierarchiją su paketo numerio atsargų dimensija, kuri apibrėžta virš vietos dimensijos. Puslapyje **Paketo rezervacija**, kuris skirtas pardavimams ir užsakymo perkėlimo eilutėms, taip pat galima pasirinkti ir rezervuoti kelias eilutes, atsižvelgiant į galimus paketų numerius. Norėdami gauti daugiau informacijos apie tai, ką daryti, jei naudojate rezervavimo hierarchiją, kurios paketo numerio dimensija yra žemiau už vietos dimensiją, žr. [Lanksti sandėlio lygio dimensijos rezervavimo politika](../warehousing/flexible-warehouse-level-dimension-reservation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

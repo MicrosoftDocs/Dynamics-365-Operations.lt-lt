@@ -79,3 +79,6 @@ Lauko **Koeficientas** vertė lygi **50**. Šiuo atveju kiekvieno laikotarpio nu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

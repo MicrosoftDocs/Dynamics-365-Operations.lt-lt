@@ -37,3 +37,6 @@ Norėdami nustatyti paketinę užduotį arba apdoroti kelių nuomų SF mokėjim�
 > Vėlesnės operacijos, pvz., įsipareigojimų amortizacijos grafikai, mokėjimai, nusidėvėjimas ir išlaidos, bus registruojamos tik po to, kai užregistruojamas pradinis atitinkamų nuomų pripažinimas
 >
 > Žurnalo įrašai sukuriami, tačiau jie nebus užregistruoti tol, kol nepasirinksite komandos **Vykdyti**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Norėdami parduotuvės darbo valandas įtraukti į išspausdintus EKA kvitus, at
 Dabar EKA kvituose nurodomos parduotuvės darbo valandos. Jei į šabloną buvo įtraukta šventinių dienų, jos rodomos ant kvito.
 
 ![Kvito pavyzdys](../dev-itpro/media/Storehours3.png "Kvito pavyzdys")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

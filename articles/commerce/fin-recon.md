@@ -62,3 +62,6 @@ Kai informacijos santraukos mažais etapais registracija yra naudojama, kad oper
 Pamainos finansinio suderinimo išsami informacija sinchronizuojama su „Commerce” būstine naudojant P užduotį.
 
 „Commerce” būstinės finansinės mažmeninės prekybos išrašuose nepateiktos apskaičiuotos sumos, kad būtų parodyta išrašų eilučių išsami informacija. Vietoj to, baigtos sumos EKA kliente naudojamos kurti ir registruoti finansines mažmeninės prekybos ataskaitas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ ms.locfileid: "4445989"
 10. Lauke **Ilgalaikis turtas** įveskite arba pasirinkite reikšmę.
 11. Pasirinkite **Registruoti**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

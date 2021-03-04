@@ -60,3 +60,6 @@ Tai yra antroji iš penkių procedūrų, kuriose apibūdinamas kliento mokėjimo
     * Pavyzdžiui: pasirinkite DEMF OPER banko kodą.  
 6. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

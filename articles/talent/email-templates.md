@@ -81,3 +81,6 @@ Siųsdama el. laišką samdos komanda gali naudoti administratoriaus sukurtus š
 
 > [!NOTE] 
 > Jei el. laiškai siunčiami automatiškai, galima sukurti kelis šablonus. Tačiau aktyviu nustatyti galima tik vieną šabloną. Kadangi šį procesą suaktyvina įvykiai, tik administratorius gali nuspręsti, kurį šabloną naudoti, pagal šablonų bibliotekos ženklų kombinaciją **Numatytasis** ir **Išsiųsta automatiškai**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

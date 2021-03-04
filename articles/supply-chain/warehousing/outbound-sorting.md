@@ -667,3 +667,6 @@ Privalote pabaigti rūšiuoto inventoriaus paėmimo darbą. Kai jis pabaigtas, i
     Darbas užbaigtas.
 
 Nuo dabar, visi kiti sandėlio procesai yra pritaikyti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

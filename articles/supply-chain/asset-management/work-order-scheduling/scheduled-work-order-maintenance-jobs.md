@@ -52,3 +52,6 @@ Puslapyje **Suplanuotų darbo užsakymų priežiūros užduotys** pateikiama iš
 
 ![1 pav.](media/07-work-order-scheduling.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

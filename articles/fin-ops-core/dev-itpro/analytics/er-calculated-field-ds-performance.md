@@ -300,3 +300,6 @@ Daugiau informacijos apie ER konfigūracijos tiekėjus žr. [Konfigūracijos tei
 - [Elektroninių ataskaitų apžvalga](general-electronic-reporting.md)
 - [ER formatų vykdymo sekimas siekiant diagnozuoti našumo problemas](trace-execution-er-troubleshoot-perf.md)
 - [Apskaičiuoto lauko tipo ER duomenų šaltinių parametrizuotų kvietimų palaikymas](er-calculated-field-type.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -151,3 +151,6 @@ Tolesnėje iliustracijoje parodytas mobiliųjų darbo sričių, kurias teikia �
 
 ## <a name="troubleshooting"></a>Trikčių šalinimas
 [Mobiliosios platformos ištekliai](platform/mobile-platform-home-page.md#troubleshooting-the-app)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

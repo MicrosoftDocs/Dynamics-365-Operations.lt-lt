@@ -49,3 +49,6 @@ Galite kurti mėnesines atskiros nuomos SF arba galite naudoti paketinį proces�
 6. Užregistravę operaciją, galite peržiūrėti operacijos informaciją ir nuomos įsipareigojimo balansinę vertę nuomos knygoje pasirinkdami **Įsipareigojimų operacijos**.
 
     Mokėjimo grafike bus pažymėtas žymės langelis **Žurnalas užregistruotas**, o eilutėje bus rodomas SF žurnalo numeris. Kai sukurtas mokėjimo žurnalas ir to žurnalo įrašas, reikia atšaukti įrašą, kad būtų galima jį sukurti iš naujo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

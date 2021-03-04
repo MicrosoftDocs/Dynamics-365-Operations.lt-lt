@@ -55,3 +55,6 @@ Siekiant padėti greitai įvertinti aptarnavimo užsakymo skubumą, Gantt diagra
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

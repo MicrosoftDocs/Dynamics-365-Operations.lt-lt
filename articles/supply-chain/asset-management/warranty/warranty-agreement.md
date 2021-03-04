@@ -55,3 +55,6 @@ Garantijos sutartyje gali būti kelios eilutės, apimančios darbo valandų, iš
     4. Lauke **Procentas** įveskite garantijos eilutės apimties procentinę dalį. Ši procentinė dalis nurodo, kokia yra jūsų įmonės garantijos apimtis.
 
 ![Garantijos puslapis](media/01-warranty.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

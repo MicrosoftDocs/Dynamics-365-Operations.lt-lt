@@ -220,3 +220,6 @@ Gautas ataskaitų medžio aprašas surūšiuotas pagal verslo vienetą, tada –
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Finansinės ataskaitos](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

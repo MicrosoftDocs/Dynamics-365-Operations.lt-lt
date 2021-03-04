@@ -40,3 +40,6 @@ ms.locfileid: "4433581"
 7. Lauke Pavadinimas surinkite reikšmę.
 8. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

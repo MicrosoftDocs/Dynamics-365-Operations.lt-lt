@@ -123,3 +123,6 @@ Tolesnis paveikslėlis rodo laiko vietos pavyzdžio pasirinkimą e-komercijos u�
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Paėmimo informacijos modulis](../pickup-info-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

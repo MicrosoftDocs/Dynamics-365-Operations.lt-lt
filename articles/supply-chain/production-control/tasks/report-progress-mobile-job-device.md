@@ -65,3 +65,6 @@ Kad būtų galima vykdyti šią procedūrą, turite turėti sistemos administrat
 29. Spustelėkite GERAI.
 30. Pasirinkite priežastį, kodėl išeinate iš darbo anksčiau.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

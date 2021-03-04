@@ -83,3 +83,6 @@ Užsakymo eilutėms su atsiėmimu parduotuvėje ar per langelį, bus taikoma mok
 
 [Atleidimo nuo mokesčių skaičiavimas](tax-exempt-price-inclusive.md) 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

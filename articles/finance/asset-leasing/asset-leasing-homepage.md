@@ -96,3 +96,6 @@ Galite rasti nuomonių, naujienų ir kitos informacijos [„Microsoft Dynamics 3
 ### <a name="videos"></a>Vaizdo įrašai
 
 Peržiūrėkite mokomuosius vaizdo įrašus, kuriuos dabar galite rasti [„Microsoft Dynamics 365‟ „YouTube‟ kanale](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ). 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

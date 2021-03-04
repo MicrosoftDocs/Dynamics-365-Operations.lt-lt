@@ -77,3 +77,6 @@ Norėdami rodyti pranešimų skaičių ant mygtuko, turite užtikrinti, kad būt
 Tolesnėje iliustracijoje rodoma, kaip įvairių dydžių mygtukus veikia lauko **Turinio lygiuotė** parinktys **Viršuje, dešinėje** ir **Centre**.
 
 ![Tiesioginis turinys EKA mygtukuose](./media/ButtonsWithLiveContent.png "Tiesioginis turinys EKA mygtukuose")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

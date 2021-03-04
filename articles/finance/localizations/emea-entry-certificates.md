@@ -126,3 +126,6 @@ Jei neturite prieigos prie puslapių, kurie naudojami užduočiai atlikti, kreip
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

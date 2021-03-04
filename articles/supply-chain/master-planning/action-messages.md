@@ -53,3 +53,6 @@ Galite nustatyti, kaip turi būti skaičiuojami padengimo grupės, kurią prided
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

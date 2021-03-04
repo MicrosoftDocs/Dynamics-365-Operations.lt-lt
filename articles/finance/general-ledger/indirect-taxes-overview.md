@@ -97,3 +97,6 @@ Tačiau, jei naudojate sąlyginį PVM, mokesčių rinkėjui sumą sudengiate, ka
 Banko sąskaita nebus išvalyta, jei apmokėjimo būdui pasirinksite vėlesnį čekį, kai bus sukurtas apmokėjimas. Kai kuriose šalyse PVM tampa įvykdytu įsipareigojimu, kai bankas patvirtina mokėjimą, o tai reiškia, kad vėlesnis čekis yra sudengtas. Galite įgalinti jį pasirinkdami parinktį **Sukurti sąlyginį mokestį, kai nurašomi vėlesni čekiai**, esančią **Grynųjų pinigų ir banko valdymas > Sąranka > Grynųjų pinigų ir banko valdymo parametrai > Vėlesni čekiai**.
 
 Daugiau informacijos žr. [Nustatyti išskaitomą mokestį](tasks/set-up-withholding-tax.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

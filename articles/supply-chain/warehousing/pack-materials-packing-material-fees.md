@@ -112,3 +112,6 @@ Galite ant SF spausdinti pakavimo medžiagų svorius ir nurodyti, kas mokės sus
 
 1. Eikite į **Gautinos sumos \> Nustatymai \> Gautinų sumų parametrai**.
 1. „FastTab“ skirtuke **Sąskaita faktūra** esančiame skirtuke **Naujiniai** nustatykite parinkties **Spausdinti pakavimo medžiagos svorį** reikšmę **Taip**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

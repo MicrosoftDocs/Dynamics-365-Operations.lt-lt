@@ -45,3 +45,6 @@ Naudodami „Retail“ vartotojai gali tirti parduotuvės našumą realiuoju lai
 - Mokesčių suvestinė
 - Kainų nepaisymo suvestinė
 - Nuolaidų suvestinė
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

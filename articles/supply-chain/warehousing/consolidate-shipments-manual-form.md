@@ -98,3 +98,5 @@ Atlikite tolesnius veiksmus, kad išleistumėte kiekvieną šiame scenarijuje su
 
 - [Siuntos konsolidacijos strategijos](about-shipment-consolidation-policies.md)
 - [Siuntos konsolidacijos strategijų konfigūravimas](configure-shipment-consolidation-policies.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

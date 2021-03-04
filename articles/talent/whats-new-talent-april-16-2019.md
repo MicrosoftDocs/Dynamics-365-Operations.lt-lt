@@ -94,3 +94,6 @@ Atlikus šį pakeitimą dublikatai aptinkami, kai įvedate laukų pavadinimus, o
 25 platformos naujinį, skirtą „Finance and Operations”, įdiegę vartotojai gali kurti įspėjimo taisykles, kurios automatiškai išsiunčia el. pašto pranešimus kontaktams, kai jas suaktyvina įvykis.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

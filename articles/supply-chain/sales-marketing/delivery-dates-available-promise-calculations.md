@@ -81,3 +81,6 @@ Todėl pagal ATP skaičiavimą siuntimo data nustatoma po 10 dienų. Todėl klie
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

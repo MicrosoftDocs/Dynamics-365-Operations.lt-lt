@@ -61,3 +61,6 @@ Tai naudinga, jei norite peržiūrėti numatytą pajėgumą konkrečiu laikotarp
 >[!NOTE]
 >Jei norite planuoti tik suplanuotų darbo užsakymų pajėgumą, žr. [Suplanuotų darbo užsakymų pajėgumo skaičiavimas](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Funkciją Keičiama galima naudoti, tik jei visi formulės elementų komponentai
 
 ## <a name="use-step-consumption"></a>Funkcijos Pakopinis vartojimas naudojimas
 Naudojant funkciją Pakopinis vartojimas, ingrediento skirtuke **Formulės eilutė** nebereikia įvesti kiekio. Todėl funkcija Pakopinis vartojimas sukonfigūruota taip, kad joje būtų reikšmės **Iš serijos** ir **Kiekis**. Pasirenkama informacija iš įrašo Pakopinis serijos vartojimas, atitinkanti paketinio užsakymo kiekį. Funkcija Pakopinis vartojimas naudinga, kai suvartojimo rodiklis paketinio užsakymo dydžio atžvilgiu nėra linijinis ir, pasiekus konkrečią kiekio ribą, tik padidina poreikį. Norėdami šią funkciją įjungti naujai formulei, grupėje **Suvartojimo skaičiavimas** taikytino ingrediento formulės parametrą iš **Standartinis** pakeiskite į **Pakopinis**. Šis suvartojimo metodas nurodomas puslapio **Formulės eilutė** skirtuke **Sąranka**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

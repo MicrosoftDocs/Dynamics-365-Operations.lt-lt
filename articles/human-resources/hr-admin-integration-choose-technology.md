@@ -144,3 +144,6 @@ Naudojant tiek daug skirtingų integravimo technologijų, sprendžiant, kurį in
 <sup>2</sup>„Microsoft“ daug investuoja, kad išplėstų „Common Data Service“ objektų duomenų aprėptį. Rekomenduojame naudoti „Common Data Service”, kai aprėptis yra prieinama. Šiuo metu „Common Data Service“ duomenų aprėptis yra maža, palyginus su DMF ir „OData“ palaikomais objektais.
 
 <sup>3</sup>SQL duomenų bazė gali būti prieinama programiškai.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

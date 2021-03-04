@@ -91,3 +91,6 @@ Naudokite funkciją **Diegti turtą**, kad įdiegtumėte turto struktūrą funkc
 4. Lauke **Funkcinė vieta** pasirinkite naują vietą.
 5. Pagal numatytuosius nustatymus lauke **Galioja** nustatoma dabartinė data ir laikas. Tačiau galima pasirinkti kitą datą ir laiką, nuo kurio pradeda galioti diegimas turto struktūroje.
 6. Pasirinkite **Gerai**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

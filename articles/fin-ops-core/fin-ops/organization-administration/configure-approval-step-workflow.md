@@ -276,3 +276,6 @@ Jei per skirtąjį laiką vartotojas nesiims veiksmų su dokumentu, dokumentas l
 
 5. Pakartokite 3 ir 4 veiksmus su kiekvienu vartotoju, kuris turėtų būti įtrauktas į perskyrimo maršrutą. Galite keisti vartotojų tvarką.
 6. Jei perskyrimo maršrute esantys vartotojai per skirtąjį laiką nesureaguoja, sistema atliks veiksmą su dokumentu automatiškai. Norėdami nurodyti veiksmą, kurį sistema atliks, pasirinkite eilutę **Veiksmas** ir tada skirtuke **Pabaigos veiksmas** pasirinkite veiksmą.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

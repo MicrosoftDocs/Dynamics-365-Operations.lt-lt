@@ -138,3 +138,6 @@ Kartais gali tekti rankiniu būdu patikrinti kliento kredito limitą. Pavyzdžiu
 1.  Spustelėkite **Pardavimas ir rinkodara** \> **Bendra** \> **Pardavimo užsakymai** \> **Visi pardavimo užsakymai**. Dukart spustelėkite pardavimo užsakymą.
 
 2.  Formos **Pardavimo užsakymas** veiksmų srities skirtuke **Valdyti** spustelėkite **Tikrinti kredito limitą**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -129,3 +129,6 @@ Daugiau informacijos apie elektronines ataskaitas žr. [Elektroninių ataskaitų
 - [Nustatyti ISO20022 kredito pervedimo mokėjimo būdą](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
 - [ISO20022 tiesioginio debeto mokėjimo būdo nustatymas](./tasks/setup-method-payment-iso20022-direct-debit.md)
 - [Nustatyti ISO20022 kredito pervedimų tiekėjus ir tiekėjų banko sąskaitas](./tasks/set-up-vendor-iso20022-credit-transfers.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

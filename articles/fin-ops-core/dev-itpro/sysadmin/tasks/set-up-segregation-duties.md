@@ -40,3 +40,6 @@ Galite nustatyti taisykles, kad atskirtumėte užduotis, kurias turi atlikti ski
 12. Lauke **Saugos sumažinimas** įveskite reikšmę. Įveskite veiksmų, kuriuos atliekate siekdami sumažinti saugos riziką, aprašą. Pavyzdžiui, riziką galite sumažinti atlikdami išsamesnes proceso apžvalgas, kas mėnesį atlikdami vadybinę peržiūrą arba dalindamiesi ištekliais su kitais padaliniais.     
 13. Spustelėkite **Įrašyti**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

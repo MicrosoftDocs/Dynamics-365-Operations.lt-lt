@@ -78,3 +78,6 @@ Prieiga prie KS konstruktoriaus, naudojant aptarnavimo objekto ryšį
 
 Jei automatiškai kuriate aptarnavimo sutarties aptarnavimo užsakymus, sutartyje esantys aptarnavimo objekto ryšiai taip pat sukuriami aptarnavimo užsakymuose.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

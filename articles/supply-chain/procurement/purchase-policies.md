@@ -151,3 +151,6 @@ Pirkimo užsakymo kūrimo ir poreikio konsolidavimo taisyklė nurodo, kurias str
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

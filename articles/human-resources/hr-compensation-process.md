@@ -77,3 +77,6 @@ Peržiūrėję darbuotojo kompensacijos sumas ir atlikę rekomenduojamų reikšm
 Kai vieno ar daugiau darbuotojų įvykių būsena buvo atnaujinta į Patvirtinta, jie gali būti įkelti į darbuotojų pastoviųjų atlyginimo dalių įrašus. Tai galite padaryti po vieną pasirinkdami kiekvieną darbuotojo įvykį ir spustelėdami mygtuką **Įkelti darbuotojo kompensaciją**, esantį puslapyje **Darbuotojo rezultatai**, arba spustelėdami **Įkelti kompensaciją** puslapyje **Proceso rezultatai**, kad įkeltumėte visus patvirtintus darbuotojo įvykius vienu metu.
 
 Dialogo lange **Įkelti kompensaciją** spustelėjus **Gerai**, į puslapį **Darbuotojo pastovioji atlyginimo dalis** bus pridėtos nenulinės kompensacijos veiksmo eilutės.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

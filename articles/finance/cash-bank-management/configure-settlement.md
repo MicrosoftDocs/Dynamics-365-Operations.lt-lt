@@ -67,3 +67,6 @@ Norint išvengti papildomų apskaitos įrašų, debeto ir kredito toje pačioje 
 
 -   Organizacijos dažnai naudoja fiksuotas dimensijas, kad nereikalingą finansinę dimensiją užpildytų nuliais. Tai paprastai daroma su balanso sąskaitomis, pvz., gautinomis / mokėtinomis sumomis. Sąskaitos struktūrą galima panaudoti tam, kad finansinės dimensijos, kurios paprastai užpildomos nuliais, nebūtų sekamos.  Iš balanso sąskaitų galite pašalinti finansinę dimensiją, kad nereikėtų naudoti fiksuotų dimensijų.
 -   Jei jūsų organizacija reikalauja, kad gautinų / mokėtinų sumų pagrindinėje sąskaitoje būtų nurodytos fiksuotos dimensijos, raskite būdą, kaip mokėjime nustatyti numatytąją fiksuotą dimensiją, kad fiksuotos dimensijos reikšmė būtų saugoma tiekėjo mokėjimo operacijos srityje. Tokiu būdu sistema atkurs gautinas / mokėtinas sumas pagrindinėje sąskaitoje, įtraukdama fiksuotas dimensijos reikšmes. Fiksuotos dimensijos reikšmę kaip numatytąją galima apibrėžti tiekėjų arba mokėjimų žurnalo pavadinimo srityje.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

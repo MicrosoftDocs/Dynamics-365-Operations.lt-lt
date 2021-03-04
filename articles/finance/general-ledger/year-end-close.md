@@ -88,3 +88,6 @@ Daugiau informacijos žr. [DK uždarymas laikotarpio pabaigoje](close-general-le
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

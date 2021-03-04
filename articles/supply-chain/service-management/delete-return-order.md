@@ -44,3 +44,6 @@ Naudodami formą **Naikinti grąžinimo užsakymą** galite naikinti keletą gr�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

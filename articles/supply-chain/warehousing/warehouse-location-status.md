@@ -169,3 +169,6 @@ Pavyzdiniame scenarijuje reikia paruošti du vietos šablonus.
 
 > [!NOTE]
 > Vietos laukus atnaujina tik sandėlio operacijos. Jei atsargas perkeliate naudodami žurnalą ar kitus ne WHS procesus, laukai nebus atnaujinti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

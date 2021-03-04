@@ -101,3 +101,6 @@ Naudinga naudojant **Dokumento tipo** puslapį apibrėžti unikalų taisymų dok
 [Nustatyti kokybės užsakymus](tasks/set-up-quality-orders.md)
 
 [Tikrinti prekių kokybę](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

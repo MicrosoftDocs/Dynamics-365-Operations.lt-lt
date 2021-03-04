@@ -88,3 +88,6 @@ Kai turite ataskaitą, kuri neatitinka to, ko tikitės iš D365, štai keli veik
 2.  Ataskaitos eksportavimas į „Excel“
 
 Dabar turėtų būti galima kopijuoti duomenis iš FR „Excel“ ataskaitos į D365 bandomojo balanso ataskaitą ir palyginti uždarymo balanso stulpelius.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

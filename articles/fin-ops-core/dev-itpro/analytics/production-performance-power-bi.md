@@ -128,3 +128,6 @@ Tolesnėje lentelėje parodytos pagrindinės dimensijos, naudojamos kaip filtrai
 | Objektai                  | ID ir pavadinimas                                                   |
 | Ištekliai                 | Ištekliaus ID, ištekliaus pavadinimas, ištekliaus tipas ir išteklių grupė |
 | Produktai                  | Produkto numeris, produkto pavadinimas, prekės ID ir prekių grupė         |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

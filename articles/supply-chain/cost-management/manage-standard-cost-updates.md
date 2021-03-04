@@ -49,3 +49,6 @@ Dviejų versijų būdui naudojama viena versija, kurioje yra pradinės savikaino
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

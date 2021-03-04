@@ -207,3 +207,6 @@ Tolesnės pagrindinės dimensijos naudojamos kaip filtrai agreguotiems matavimo 
 | Juridiniai subjektai                                          | Juridinių subjektų pavadinimai                              |
 | Finansiniai kalendoriai                                        | Finansinis kalendorius, metai, ketvirtis, laikotarpis, mėnuo   |
 | Svetainė                                                    | ID, pavadinimas, adresas, valstybė, šalis               |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

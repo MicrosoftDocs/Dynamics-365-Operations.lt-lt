@@ -48,3 +48,6 @@ ms.locfileid: "4693464"
 2. Sąraše spustelėkite saitą pasirinktoje eilutėje.
 3. Išplėskite skyrių „Priedai“.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

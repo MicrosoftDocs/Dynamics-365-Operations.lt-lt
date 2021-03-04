@@ -74,3 +74,6 @@ Savo kliento SF modelio konfigūraciją sukursite pagal „Microsoft“ pateikt�
 3. Lauke Pavadinimas įveskite Kliento SF modelis (pasirinktinis).
 4. Spustelėkite Sukurti konfigūraciją.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

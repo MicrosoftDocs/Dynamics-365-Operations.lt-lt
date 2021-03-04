@@ -48,3 +48,6 @@ ms.locfileid: "4433997"
 17. Nustatykite kiekį – 1000.
 18. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

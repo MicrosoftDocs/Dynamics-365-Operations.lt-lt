@@ -65,3 +65,6 @@ Puslapyje Mokėtinų sumų parametrai įsitikinkite, kad pasirinkta parinktis Į
 10. Veiksmų srityje spustelėkite Peržiūrėti.
 11. Spustelėkite Gretinimo informacija.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

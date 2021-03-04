@@ -380,3 +380,6 @@ Todėl, kaip matėte, bet kokio ER formato veikimą galima įvertinti automatiš
 - [Sugeneruotų ataskaitų rezultatų sekimas ir jų palyginimas su bazinėmis vertėmis](er-trace-reports-compare-baseline.md)
 - [ER: formato atnaujinimas pritaikant naują pagrindinę to formato versiją](tasks/er-upgrade-format.md)
 - [ER: konfigūracijos importavimas iš „Lifecycle Services‟](tasks/er-import-configuration-lifecycle-services.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

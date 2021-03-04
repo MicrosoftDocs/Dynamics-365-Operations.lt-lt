@@ -56,3 +56,6 @@ Sukūrę darbo užsakymą galbūt norėsite nustatyti darbo užsakymo aptarnavim
 2. Pasirinkite **Naujas**.
 3. Lauke **Aprašas** įveskite aprašą.
 4. Pasirinkite **Įrašyti**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

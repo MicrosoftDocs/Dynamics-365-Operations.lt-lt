@@ -100,3 +100,6 @@ Kompensacijos procesai naudojami nustatyti naujas kompensacijų ir premijų suma
 10. Spustelėkite Patvirtinti.
     * Patvirtinus įrašą, jį galima įkelti į darbuotojo oficialų kompensacijos įrašą. Nauja kompensacija įsigalios nuo operacijos datos, nustatytos kompensacijos procese.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

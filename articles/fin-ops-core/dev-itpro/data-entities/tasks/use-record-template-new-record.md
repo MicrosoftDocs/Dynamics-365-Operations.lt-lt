@@ -35,3 +35,6 @@ ms.locfileid: "4685174"
 3. Sąraše raskite ir pasirinkite norimą įrašą.
 4. Spustelėkite **Gerai**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

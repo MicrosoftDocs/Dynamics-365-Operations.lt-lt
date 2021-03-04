@@ -78,3 +78,6 @@ Mygtukai, esantys veiksmų srityje, tvarkomi skirtukuose. Toliau pateikiamoje le
 | Atsarginės dalys          | Peržiūrėti patvirtintų ir alternatyvių atsarginių dalių, kurios gali būti naudojamos turtui, sąrašą.                                                                               |
 | Turto naudojimas    | Spausdinti ataskaitą, kurioje rodomos turto naudojimo registracijos.                                                                                                |
 | Turto gedimas          | Spausdinti ataskaitą, kurioje rodomos turto gedimų registracijos.                                                                                                      |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

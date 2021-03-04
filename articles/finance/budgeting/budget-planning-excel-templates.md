@@ -130,3 +130,6 @@ Taip pat galite kurti ir naudoti suvestinės lenteles bei diagramas, norėdami a
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

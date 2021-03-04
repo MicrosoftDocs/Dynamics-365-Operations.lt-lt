@@ -96,3 +96,6 @@ Toliau pateiktoje lentelėje parodyta, kuriuos pardavimo užsakymus sistemoje ga
 
 > [!NOTE]
 > Nors tiek Sam, tiek Jane yra kontaktai, kurie dirba klientui X, jie gali matyti tik tuos užsakymus, kuriuos pateikė patys, ir nieko daugiau. Nors May sistemoje pateikė užsakymą, ji negali matyti to užsakymo kliento portale, nes ji yra teisių neturinti vartotoja. (Be to, ji užsakymą pateikė per kitą kanalą, o ne per kliento portalą.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

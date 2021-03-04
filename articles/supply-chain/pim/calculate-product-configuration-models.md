@@ -105,3 +105,6 @@ Skaičiavimai neįtraukiami į tikrinimą. Norėdami rasti skaičiavimų klaidas
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

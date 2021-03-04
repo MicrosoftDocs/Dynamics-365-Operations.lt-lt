@@ -99,3 +99,6 @@ Transportavimo valdymo mechanizmų metaduomenys skirtingų tipų mechanizmams ko
 | 3        | Pradinis paskirties vietos pašto indeksas | Priskyrimas | Eilutė    | Pašto indeksas    | Pasirinkta  |
 | 4        | Galutinis paskirties pašto indeksas   | Priskyrimas | Eilutė    | Pašto indeksas    | Pasirinkta  |
 | 5        | Paskirties šalis           | Priskyrimas | Eilutė    | Šalis/regionas |           |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -146,3 +146,6 @@ ms.locfileid: "4684312"
 5. Pasirinkite baigtą esamos konfigūracijos versiją.
     * Atkreipkite dėmesį, kad sukurta konfigūracija įrašoma kaip 1 baigta versija.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

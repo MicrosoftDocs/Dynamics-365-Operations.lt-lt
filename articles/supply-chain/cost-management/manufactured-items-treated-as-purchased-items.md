@@ -42,3 +42,6 @@ Norėdami neleisti skaičiuoti, pasirinkite išskleidimo vėliavėlę **Stabdyti
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

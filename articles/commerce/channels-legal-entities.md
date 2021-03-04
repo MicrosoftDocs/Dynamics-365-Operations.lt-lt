@@ -86,3 +86,6 @@ Toliau pateiktame vaizde parodytas išsamus juridinio subjekto pavyzdys.
 [Kanalų apžvalga](channels-overview.md)
 
 [Būtinosios kanalo nustatymo sąlygos](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

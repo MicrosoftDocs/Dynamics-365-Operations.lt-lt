@@ -142,3 +142,6 @@ Norėdami į naują puslapį įtraukti konteinerio leistuvo modulį ir nustatyti
 [Antraštės modulis](author-header-module.md)
 
 [Poraštės modulis](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

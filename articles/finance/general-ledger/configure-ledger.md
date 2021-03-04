@@ -82,3 +82,6 @@ Jei naudojate dvi valiutas arba naudojate vieną valiutą, bet operacijos užreg
 Gautas pelnas ir nuostoliai yra pelnas ir nuostoliai, kurie gaunami / patiriami baigus operacijų. Jie įrašomi pelno ir nuostolio išraše. Negautas pelnas ir nuostoliai yra pelnas ir nuostoliai, kurie materializuoti, bet operacija nebaigta. Kitaip tariant, pvz., užregistravote SF, bet ji dar nesudengta ir nesumokėta. Negautas pelnas ir nuostoliai įrašomi balanse.
 
 Daugiau informacijos apie dviejų valiutų naudojimą rasite temoje [Dvi valiutos](dual-currency.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

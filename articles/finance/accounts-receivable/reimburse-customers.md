@@ -49,3 +49,6 @@ Kuriant kompensavimo operacijas, kredito balanso sumai sukuriama tiekėjo SF. Ko
 
 5. Norėdami peržiūrėti sukurtas kompensavimo operacijas, naudokite ataskaitą **Kompensavimas** (**Gautinos sumos \> Užklausos ir ataskaitos \> Kompensavimo ataskaita**).
 6. Mokėtinų sumų srityje sukurkite mokėjimą tiekėjo SF, kurias sukūrė kompensacijos procesas. Norėdami gauti daugiau informacijos apie tai, kaip mokėti tiekėjams, žr. [Tiekėjų mokėjimo apžvalga](../accounts-payable/Vendor-payments-workspace.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -153,3 +153,6 @@ Atlikite toliau nurodytus veiksmus, kad įtrauktumėte eilutes, kurios nurodo kr
 2. Pasirinkite palyginimo operatorių, nurodantį, kaip turėtų būti įvertinama vertinimo grupės informacija.
 3. Įveskite reikšmę, kuri turėtų būti palyginama su vertinimo grupei nurodyta reikšme.
 4. Įveskite kredito limitą, kuris turėtų būti priskirtas, jei kliento informacija atitinka reikšmę, nurodytą vertinimo grupėje. Pavyzdžiui, kuriate automatinį kredito limitą vertinimo grupei, kurios balas **Žemas**. Jei verslo metai yra viena iš vertinimo grupių, galite nurodyti vieną eilutę, kuri priskiria 100 000 kredito limitą, jei klientas versle dirba penkerius metus, ir kitą eilutę, kuri priskiria 200 000 kredito limitą, jei klientas versle dirba 10 metų.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

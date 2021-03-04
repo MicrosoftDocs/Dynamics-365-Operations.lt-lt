@@ -88,3 +88,6 @@ Naudojant 150 % mažėjančios vertės metodą, 150 procentų padalijami iš dė
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

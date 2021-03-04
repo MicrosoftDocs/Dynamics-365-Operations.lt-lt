@@ -73,3 +73,6 @@ Pagrindinėje pagrindinio puslapio sekcijoje galima išskirti produktus, kategor
 [Krepšelio ir pirkimo užbaigimo puslapių apžvalga](quick-tour-cart-checkout.md)
 
 [Paskyrų tvarkymo puslapių apžvalga](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Jei tam tikrą laiką planuojate nebūti biure ar dėl kitų priežasčių negal
 8. Lauke **Pabaigos data / laikas** įveskite datą ir laiką.
 9. Pasirinkite žymės langelį **Įjungta**, kad aktyvuotumėte perdavimo taisyklę. 
 10. Lauke **Komentaras** įveskite komentarą, kuriuo paaiškinate kodėl perduodate darbo elementus.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

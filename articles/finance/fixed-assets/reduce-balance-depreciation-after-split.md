@@ -45,3 +45,6 @@ Pavyzdžiui, šios sąlygos galioja.
 Pradinio turto nusidėvėjimo suma yra 1822,25 USD. Ši suma yra lygi NBV prieš registruojant išskaidytą operaciją (9111,25 USD), pridėjus įsigijimo suderinimą, sugeneruotą registruojant skaidymo operaciją (–8000 USD), pridėjus nusidėvėjimo suderinimą, sugeneruotą per išskaidytą operaciją (711 USD). Todėl antraisiais metais nusidėvėjimas yra (1822,25 × 18 proc.) ÷ 12 = 27,33 USD.
 
 Pirmaisiais metais naujo ilgalaikio turto nusidėvėjimo suma yra (8000 × 18 proc.) ÷ 12 = 120 USD.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

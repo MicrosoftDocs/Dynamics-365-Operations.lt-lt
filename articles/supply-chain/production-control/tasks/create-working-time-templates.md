@@ -79,3 +79,6 @@ Darbo laiko šablonai nustato savaitės darbo valandas ir yra naudojami generuot
 3. Išplėskite skyrių Sekmadienis.
 4. Lauke Uždaryta paimti pasirinkite Taip.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

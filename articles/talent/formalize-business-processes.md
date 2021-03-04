@@ -73,3 +73,6 @@ Norėdami sukurti ar kopijuoti verslo procesų šabloną arba pradėti verslo pr
 
 Norėdami peržiūrėti aktyvius procesus ir susietas užduotis, atidarykite darbo sritį **Verslo procesai**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

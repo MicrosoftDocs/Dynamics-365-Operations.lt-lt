@@ -183,3 +183,6 @@ Patvirtinimo procesą sudaro patvirtinimo veiksmai. Atlikite šią procedūrą, 
 1. Darbo eigos rengyklėje dukart spustelėkite patvirtinimo procesą. Darbo eigos rengyklėje rodomi patvirtinimo proceso veiksmai.
 2. Norėdami įtraukti patvirtinimo veiksmą, vilkite veiksmą iš srities **Darbo eigos elementai** į drobę.
 3. Norėdami konfigūruoti patvirtinimo veiksmą, žr. [Patvirtinimo veiksmų konfigūravimas darbo eigoje](configure-approval-step-workflow.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

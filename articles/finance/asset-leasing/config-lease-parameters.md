@@ -46,3 +46,6 @@ Keletas konfigūracijos parametrų lemia modulio Turto nuoma veikimą. Šie para
 
     > [!NOTE]
     > Rekomenduojame šią pasirinktį palikti nustatytą kaip **Ne**. Šios parinkties nustatymas naudojamas kaip patikra ir valdiklis, siekiant apsaugoti uždarytos knygos versiją nuo netyčinio nusidėvėjimo. Palikdami parametrą nustatytą kaip **Ne**, padėsite išsaugoti tikslią balansinę vertę ir būsimus nusidėvėjimo skaičiavimus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

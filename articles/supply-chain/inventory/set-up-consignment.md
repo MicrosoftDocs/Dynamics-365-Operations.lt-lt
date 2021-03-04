@@ -50,3 +50,6 @@ Konsignacijos procesuose ketinamus naudoti elementus būtina susieti su **Sekimo
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Tiekėjų bendradarbiavimas konsignacijos procesuose
 Jei jūsų tiekėjai naudoja tiekėjų bendradarbiavimo sąsają, jie gali ją panaudoti norėdami stebėti atsargų suvartojimą jūsų vietoje. Daugiau informacijos apie tiekėjų parengimą naudoti tiekėjų bendradarbiavimo funkciją žr. [Tiekėjo portalo vartotojų sauga](../procurement/configure-security-vendor-portal-users.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

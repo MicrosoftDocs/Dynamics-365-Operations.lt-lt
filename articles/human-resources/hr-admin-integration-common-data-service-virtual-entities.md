@@ -216,3 +216,6 @@ Išslenkančioje srityje rodomi naujausi proceso vykdymo rezultatai. Galite per�
 [Kurti ir redaguoti virtualius objektus, kuriuose yra duomenų iš išorinio duomenų šaltinio](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
 [Kas yra „Power Apps“ portalai?](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
 [Programų kūrimo „Power Apps“ apžvalga](https://docs.microsoft.com/powerapps/maker/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

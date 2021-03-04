@@ -113,3 +113,6 @@ Vykdysite sukurto modelio susiejimą, kad galėtumėte jį patikrinti ir pamatyt
     * Pasirinkite Naršyti ir pasirinkite failą Response4.xml.
 16. Pasirinkite Gerai.
     * Peržiūrėkite sugeneruotą išvestį. Atsakymo tipas dabar tinkamai pripažintas kaip lygus failo Response1.xml tipui.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

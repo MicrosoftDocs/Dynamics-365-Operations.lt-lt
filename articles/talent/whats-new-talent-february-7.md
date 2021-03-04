@@ -58,3 +58,6 @@ Keičiant pareigų užduotį, **Užduočių grupė** bus nustatyta priklausomai 
 
 ### <a name="performance-improvements-when-rendering-workspaces"></a>Darbo sričių atvaizdavimo našumo patobulinimai
 Dabar darbo sričių analizės skirtukai bus įkeliami tik atidarant tuos puslapius. Pradinio puslapio generavimo metu viršutiniame kairiajame puslapio kampe bus rodomas indikatorius.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

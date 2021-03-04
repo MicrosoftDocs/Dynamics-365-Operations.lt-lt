@@ -56,3 +56,6 @@ Norėdami atšaukti atšauktą operaciją, atlikite šiuos veiksmus.
 Pasirinkus **Atšaukti sekimą**, pasirodo langas, rodantis pradines operacijas ir atšauktas operacijas, kartu su sekimo numeriu.
 
 Taip pat galite sekti atšaukimus naudodami atitinkamus puslapį **Grafikai**. Laukas **Atšaukti** panaikintas, o laukas **Žurnalas užregistruotas** yra pasirinktas. Be to, laukas **Naujausias žurnalo numeris** atnaujinamas naudojant atšaukimo operacijos žurnalo numerį, o laukas **Žurnalo numeris** atnaujinamas, atšaukiant žurnalo numerį.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

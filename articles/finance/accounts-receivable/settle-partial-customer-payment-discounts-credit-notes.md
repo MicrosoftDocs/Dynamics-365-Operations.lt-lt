@@ -61,3 +61,6 @@ Bus sudengiama 100,00 suma, įskaitant 99,00 mokėjimą ir 1,00 nuolaidą.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

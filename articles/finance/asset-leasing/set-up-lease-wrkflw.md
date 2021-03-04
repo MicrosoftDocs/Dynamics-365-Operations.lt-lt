@@ -53,3 +53,6 @@ Temoje paaiškinama, kaip nustatyti patvirtinimo darbo eigą, kuri bus vykdoma s
 14. Puslapyje **Darbo eigos kūrimas** pasirinkite **Uždaryti**.
 14. Pasirinkite naują darbo eigą ir pasirinkite **Versijos**. Tada pasirinkite **Suaktyvinti**, kad įsitikintumėte, jog darbo eiga yra aktyvi.
 15. Pasirinkite **Uždaryti**. Rodoma nauja aktyvi versija.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -127,3 +127,6 @@ Spalva rodoma tik žemiausiame Gantt diagramos lygyje. Norėdami peržiūrėti v
 1. Tinklelyje pasirinkite eilutę, kurioje laukas **Laukas** yra nustatytas kaip **Elemento numeris.**
 1. Lauke **Kriterijai** įveskite reikšmę.
 1. Pasirinkite **Gerai**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

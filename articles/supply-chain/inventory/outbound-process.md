@@ -85,3 +85,6 @@ Generuojant išrinkimo dokumentus rezervuojamos dar nerezervuotos atsargos. Netu
 Kai tik paimamos visos puslapio **Išrinkimo dokumento registravimas** paėmimo eilutės, susietoji siunta baigiama. Tada pagal paimtas atsargas galima inicijuoti pardavimo užsakymo važtaraščių procesą.
 
 [![Siunčiamų siuntų naujinimas](./media/outbound-shipments.png)](./media/outbound-shipments.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

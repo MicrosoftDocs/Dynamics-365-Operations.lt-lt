@@ -68,3 +68,6 @@ Toliau pateiktame paveikslėlyje galite matyti sąrašo puslapį **Visas prieži
 
 ![1 pav.](media/16-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

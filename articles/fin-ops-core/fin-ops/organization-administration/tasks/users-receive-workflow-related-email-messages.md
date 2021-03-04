@@ -41,3 +41,6 @@ Galite sukonfigūruoti sistemą siųsti el. laiškus vartotojams, kai įvyksta s
 
 > [!NOTE]
 > Darbo eigos el. pašto šablonai bus gaunami arba iš sistemos el. pašto šablonų arba organizacijos el. pašto šablonų, atsižvelgiant į tai, ar darbo eiga yra sistemos lygio (ne įmonei būdingas), ar organizacijos lygio (būdinga įmonei) darbo eiga.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

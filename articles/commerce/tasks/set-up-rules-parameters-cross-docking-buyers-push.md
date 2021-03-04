@@ -48,3 +48,6 @@ ms.locfileid: "4414377"
 14. Lauke Svoris įveskite skaičių.
 15. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

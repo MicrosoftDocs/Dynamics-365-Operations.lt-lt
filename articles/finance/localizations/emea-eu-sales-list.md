@@ -160,3 +160,6 @@ Baigę tam tikro laikotarpio ataskaitinį procesą (pavyzdžiui, kai mokesčių 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ Toliau pateiktame paveikslėlyje matyti darbo eigos apžvalga, pradedant prieži
 
 ![1 pav.](media/01-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

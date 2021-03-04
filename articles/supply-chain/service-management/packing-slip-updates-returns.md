@@ -49,3 +49,6 @@ Kai atnaujinate važtaraštį grąžintai prekei iš pardavimo sutarties, tos pr
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

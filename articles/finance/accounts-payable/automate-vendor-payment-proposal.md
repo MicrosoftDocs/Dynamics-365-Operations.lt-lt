@@ -144,3 +144,6 @@ Buvo pridėtos toliau išvardytos pareigos ir teisės, susijusios su tiekėjo mo
 | Pateikti užklausą dėl grafiko įvykių | Mokėtinų sumų mokėjimus tvarkantis darbuotojas, mokėtinų sumų centralizuotus mokėjimus tvarkantis darbuotojas | Ši pareiga suteikia teises peržiūrėti mokėjimo pasiūlymo automatizavimo įvykius naudojant toliau išvardytas teises:<ul><li>Peržiūrėti grafiko įvykius</li><li>Peržiūrėti įvykių savaitinį rodinį</li></ul> |
 | Pateikti užklausą dėl grafiko sekos      | Jokia                                                                       | Ši pareiga suteikia teises peržiūrėti sekų ir įvykių parametrus naudojant toliau išvardytas teises:<ul><li>Peržiūrėti grafiko įvykius</li><li>Peržiūrėti įvykių sąrašo puslapį</li><li>Peržiūrėti įvykių savaitinį rodinį</li></ul>|
 | Prižiūrėti grafiko įvykius     | Jokia                                                                       | Ši pareiga suteikia teises kurti ir tvarkyti įvykį naudojant toliau išvardytas teises:<ul><li>Prižiūrėti grafiko įvykius</li><li>Peržiūrėti įvykių savaitinį rodinį</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

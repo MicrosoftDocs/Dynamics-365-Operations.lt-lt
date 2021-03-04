@@ -47,3 +47,6 @@ Norėdami sukurti gabenimo metodą, atlikite šiuos žingsnius:
 1. Pasirinkite **Naujas**, kad sukurtumėte naują gabenimo metodą.
 1. Įveskite unikalų ID ir būdo pavadinimo aprašą gabenimo metodui.
 1. Uždarykite puslapį.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

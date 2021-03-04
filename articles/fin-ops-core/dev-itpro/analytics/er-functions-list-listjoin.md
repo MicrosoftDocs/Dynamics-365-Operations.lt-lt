@@ -83,3 +83,6 @@ Tada įvedate tipo `Container` duomenų šaltinį **2-asis įrašas**. Šiame du
 [Sąrašo funkcijos](er-functions-category-list.md)
 
 [Įvykdyto ER formato duomenų šaltinių derinimas duomenų srautams ir transformacijai analizuoti](er-debug-data-sources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

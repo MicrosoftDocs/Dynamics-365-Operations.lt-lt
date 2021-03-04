@@ -61,3 +61,6 @@ Puslapyje **Kainų profiliai** galite peržiūrėti visus esamus kainų profiliu
 
 > [!NOTE]
 > Profiliai sukurti **Siuntimo vežėjų** puslapyje yra taip pat rodomi **Kainų profilių** puslapyje.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

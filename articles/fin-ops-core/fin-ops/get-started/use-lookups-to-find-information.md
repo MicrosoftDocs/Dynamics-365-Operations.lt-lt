@@ -83,3 +83,6 @@ Vartotojas turi išvalyti peržvalgos valdiklio reikšmę, atidaryti peržvalgos
 Pritaikęs filtrą (žr. toliau pateiktą vaizdą) vartotojas gali įprastai surasti ir pasirinkti eilutę.
 
 ![filtereditemlookup](./media/filtereditemlookup.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

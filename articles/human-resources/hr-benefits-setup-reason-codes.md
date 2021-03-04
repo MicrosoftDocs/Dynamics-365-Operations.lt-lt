@@ -41,3 +41,6 @@ ms.locfileid: "4419749"
    | **Aprašymas** | Priežasties kodo aprašas. |
 
 4. Pasirinkite **Įrašyti**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

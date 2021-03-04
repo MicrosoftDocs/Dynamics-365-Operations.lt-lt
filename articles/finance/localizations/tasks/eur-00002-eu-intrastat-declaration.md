@@ -114,3 +114,6 @@ Kol operacijų neperkelsite į Intrastat, tol negalėsite atlikti šios procedū
     * Pavyzdžiui, pasirinkite Išsiuntimai.  
 27. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

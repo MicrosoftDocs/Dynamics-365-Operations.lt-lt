@@ -58,3 +58,6 @@ Norint naudoti *Papildomos vietos zona* funkciją, įjunkite ją savo sistemoje.
 7. Pasirinkite **Kurti**.
 8. Gaunate pranešimus, kuriuose nurodoma, kad buvo pridėtos naujos vietos. Pasirinkite **Rodyti pranešimus** mygtuką, kada peržiūrėtumėte pranešimus.
 9. Eikite į **Sandėlio tvarkymas \> Sąranka \> Sandėlis \> Vietos**. Naujos vietos rodomos sąraše, o visi zonų laukai yra galimi (t. y. esamos zonos laukas ir naujos papildomos zonos laukai).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

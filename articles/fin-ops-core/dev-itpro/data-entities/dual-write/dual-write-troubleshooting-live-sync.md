@@ -127,3 +127,6 @@ Norėdami ištaisyti klaidą, atlikite toliau nurodytus veiksmus.
 
 3. Įsitikinkite, kad stulpelyje **externalenvironmentURL** yra tinkamas „Dataverse” arba programos URL. Panaikinkite visas pasikartojančius eilutes, kurios nurodo netinkamą „Dataverse” URL. Panaikinkite atitinkamas eilutes DUALWRITEPROJECTFIELDCONFIGURATION ir DUALWRITEPROJECTCONFIGURATION lentelėse.
 4. Sustabdykite susiejimą su lentele, tada paleiskite jį iš naujo
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

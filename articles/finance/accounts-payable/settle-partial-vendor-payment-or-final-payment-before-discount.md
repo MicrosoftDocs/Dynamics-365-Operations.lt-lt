@@ -142,3 +142,6 @@ Eglė užregistruoja mokėjimo žurnalą ir peržiūri tiekėjo operacijas pusla
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

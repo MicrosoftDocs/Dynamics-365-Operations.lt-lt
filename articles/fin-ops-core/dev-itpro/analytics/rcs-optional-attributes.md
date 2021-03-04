@@ -130,3 +130,6 @@ Norėdami daugiau sužinoti apie šią funkciją, atlikite veiksmus, aprašytus 
 3. Spustelėkite **Naršyti** ir pasirinkite failą **IncomingDocumentToLearnHowToHandleOptionalAttributes.xml**.
 4. Spustelėkite **Gerai**.
 5. Peržiūrėkite sugeneruotą failą. Atkreipkite dėmesį, kad tas pats failas buvo importuotas kaip formato dizainas. Dabar elemento „dokumentas“ atributą „ID“ laikykite pasirinktiniu.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ ms.locfileid: "4433453"
 2. Sąraše spustelėkite saitą pasirinktoje eilutėje. Spustelėkite StaticPlan saitą. Turite būti įmonėje USMF.  
 3. Spustelėkite **Suplanuoti užsakymai**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -193,3 +193,6 @@ Taisyklė, kad paketiniams užsakymams galima taikyti paketų balansavimo funkci
 Jei formulėje yra produkto, su kuriuo galima vykdyti sandėlio valdymo procesus, aktyvusis ingredientas, tačiau rezervavimo hierarchijoje reikšmė Paketo numeris yra žemiau reikšmės Vieta, paketiniam užsakymui paketų balansavimo funkcijos taikyti negalima.
 
 Paketiniam užsakymui, kuriam negalima taikyti paketų balansavimo funkcijos, taikomas įprastas paketinių užsakymų apdorojimo ciklas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

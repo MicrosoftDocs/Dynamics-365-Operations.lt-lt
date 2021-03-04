@@ -90,3 +90,6 @@ Daugiau informacijos žr. [PVM tarifų nustatymas pagal bazinės ribos ir skaič
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

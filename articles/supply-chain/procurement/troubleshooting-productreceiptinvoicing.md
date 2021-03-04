@@ -110,3 +110,6 @@ Toliau aprašyta procedūra pateikia vieną būdą, kaip atkurti problemą.
 ### <a name="issue-resolution"></a>Problemos paaiškinimas
 
 Tai priklauso nuo SF ir SF grupių parametrų nustatymų. Norėdami gauti daugiau informacijos, žr. šį tinklaraščio įrašą: [Pirkimo mokesčio ir atsargų nuokrypio apskaita](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/12/15/accounting-for-purchase-charge-and-stock-variation/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

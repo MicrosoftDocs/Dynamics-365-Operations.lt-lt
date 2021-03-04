@@ -75,3 +75,6 @@ Norėdami įtraukti alternatyvų adresą į aptarnavimo užsakymą, atlikite tol
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

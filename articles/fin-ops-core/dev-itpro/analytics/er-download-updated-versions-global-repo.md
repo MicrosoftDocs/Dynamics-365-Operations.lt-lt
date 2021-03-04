@@ -98,3 +98,6 @@ Elektroninių ataskaitų (ER) [saugyklos ](general-electronic-reporting.md#Repos
 
 - [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)
 - [ER konfigūracijų atsisiuntimas iš konfigūravimo tarnybos bendrosios saugyklos](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

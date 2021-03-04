@@ -44,3 +44,6 @@ ms.locfileid: "4419735"
 12. Lauke Teikia ataskaitas pareigų atstovui įveskite arba pasirinkite reikšmę.  Pavyzdys: 000437
 13. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

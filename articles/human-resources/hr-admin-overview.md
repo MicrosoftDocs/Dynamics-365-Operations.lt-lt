@@ -102,3 +102,5 @@ Vadovaudamiesi šiuo administratoriaus vadovu galėsite nustatyti, valdyti progr
 - [Kas nauja ar pasikeitė programoje „Human Resources”](hr-admin-whats-new.md)
 - [Kūrėjo vadovas](hr-developer-overview.md)
 - [Vartotojo vadovas](hr-hrpro-overview.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

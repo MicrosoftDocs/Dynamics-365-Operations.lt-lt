@@ -211,3 +211,6 @@ Jei eilutės kliento objekte turi verčių **KontaktinioAsmensId** ir **Sąskait
     Pradinė eilučių sinchronizacija baigta.
 
 8. „Finance and Operations” programoje vėl įjunkite **Klientai V3** objekto keitimų sekimą.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

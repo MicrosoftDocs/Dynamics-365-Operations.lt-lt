@@ -145,3 +145,6 @@ Toks veikimo būdas yra numatytas. Pasirinktas adresas turi būti klasifikuojama
 ## <a name="can-i-find-the-user-who-canceled-a-purchase-order"></a>Ar galima rasti vartotoją, kuris atšaukė pirkimo užsakymą?
 
 Ši informacija sekama tik tada, kai pirkimo užsakymui taikomas pakeitimų valdymas. Jei naudojate keitimų valdymą, galite matyti, kas pateikė pakeitimą (atšaukimą) ir kas jį patvirtino.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

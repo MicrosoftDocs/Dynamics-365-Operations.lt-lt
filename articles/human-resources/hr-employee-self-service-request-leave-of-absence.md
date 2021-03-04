@@ -53,3 +53,6 @@ Galite pateikti atostogų prašymą ir peržiūrėti savo atostogų prašymų b�
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 [Atostogų sustabdymas](hr-leave-and-absence-suspend-leave.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

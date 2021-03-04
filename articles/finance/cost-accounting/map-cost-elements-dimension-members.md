@@ -53,3 +53,6 @@ Savikainos elemento dimensijos susiejimo apibrėžimus galite atnaujinti bet kur
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

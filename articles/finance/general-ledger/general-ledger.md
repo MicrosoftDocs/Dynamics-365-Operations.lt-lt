@@ -74,3 +74,6 @@ Peržiūrėkite mokomuosius vaizdo įrašus, kuriuos dabar galite rasti [„Micr
 
 - [Ką turėtumėte žinoti apie didžiąją knygą sistemoje „Dynamics 365 for Finance and Operations“](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

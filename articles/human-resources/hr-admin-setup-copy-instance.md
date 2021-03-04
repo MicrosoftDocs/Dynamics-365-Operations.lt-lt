@@ -150,3 +150,6 @@ Norėdami gauti daugiau informacijos apie pasirinktinius laukus, žr. [Darbas su
 [Egzemplioriaus šalinimas](hr-admin-setup-remove-instance.md)</br>
 [Atnaujinimo procesas](hr-admin-setup-update-process.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

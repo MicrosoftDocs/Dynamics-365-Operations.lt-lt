@@ -74,3 +74,6 @@ ms.locfileid: "4433987"
 
 2. Pasirinkite **Gerai**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ Jei problema išlieka, atlikite šiuos veiksmus.
 4. Eikite į „Finance and Operations” programos **dvigubo rašymo puslapį** ir atidarykite puslapį **Susiejimas su lentele**.
 5. Jei atributas nėra automatiškai užpildomas schemoje, įtraukite jį neautomatiniu būdu spustelėdami mygtuką **Įtraukti atributą**, o tada – **Įrašyti**. 
 6. Pasirinkite schemą ir spustelėkite **Vykdyti**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

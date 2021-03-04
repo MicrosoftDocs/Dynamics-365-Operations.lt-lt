@@ -73,3 +73,6 @@ Jei **Tiekėjas** sukonfigūruotas kaip ER duomenų šaltinis, nurodantis lentel
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Sąrašo funkcijos](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

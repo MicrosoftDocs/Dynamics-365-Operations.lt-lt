@@ -67,3 +67,6 @@ Teigiama `days` reikšmė pateikia būsimą datą. Neigiama reikšmė pateikia p
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Datos ir laiko funkcijos](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

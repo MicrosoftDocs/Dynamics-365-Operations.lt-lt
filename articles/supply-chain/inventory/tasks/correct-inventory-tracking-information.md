@@ -64,3 +64,6 @@ ms.locfileid: "4433861"
 2. Spustelėkite Operacijos.
     * Čia galite pamatyti operacijas, kurios buvo sukurtos užregistravus jūsų žurnalą.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

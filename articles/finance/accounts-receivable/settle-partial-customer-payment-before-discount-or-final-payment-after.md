@@ -111,3 +111,6 @@ Arnas pakeičia lauko **Naudoti mokėjimo nuolaidą** reikšmę atgal į **Įpra
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

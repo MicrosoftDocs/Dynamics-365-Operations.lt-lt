@@ -316,3 +316,6 @@ Antroji sukurta darbo ID yra **Darbo užsakymo tipo** *Pirkimo užsakymas* reik�
 Toliau pateiktoje iliustracijoje rodoma, kaip atliktas prekių skirstymas gali atrodyti „Microsoft Dynamics 365 Supply Chain Management“.
 
 ![Atliktas prekių skirstymas](media/PlannedCrossDockingWork.png "Atliktas prekių skirstymas")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

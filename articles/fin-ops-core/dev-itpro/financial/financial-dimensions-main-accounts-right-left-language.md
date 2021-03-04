@@ -38,3 +38,6 @@ Finansinės dimensijos ir pagrindinės sąskaitos yra pagrindiniai taikymo plana
 - Nenaudokite pasirinkto sąskaitų plano skyriklio finansinių dimensijų ir pagrindinių sąskaitų reikšmėse.
 
 Laikydamiesi šių patarimų, užtikrinsite, kad vartotojo nurodyta tvarka būtų nuosekliai rodoma visoje sistemoje.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

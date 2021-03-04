@@ -57,3 +57,6 @@ Programos duomenys naudojami ataskaitoms organizacinio mokymo turinio pakete už
 | Training\_Position        | Pareigos ir etato ekvivalentas (FTE)                  | Training\_CourseAgenda, Training\_CourseAttendees |
 | Training\_WorkerName      | Vardas, pavardė ir vardas bei pavardė                             | Training\_CourseAttendees |
 | Training\_WorkerTitle     | Pareigos ir paaukštinimo data                                         | Training\_CourseAttendees |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

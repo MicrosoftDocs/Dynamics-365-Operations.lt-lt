@@ -230,3 +230,6 @@ Pateiktoje diagramoje parodyta operacijų serija, kai pasirenkamas svertinio vid
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ ms.locfileid: "4433425"
 1. Spustelėkite **Atidaryti** „Microsoft Office“ programoje.
 2. Paspauskite **Redaguoti poreikio prognozę** „Excel“ programoje. „Excel“ programoje galite pridėti, ištrinti ir redaguoti poreikio prognozės eilutes. Jei negalite matyti duomenų „Excel“ programoje, turite prisijungti ir palikti įjungtą parinktį „Palikite mane prisijungusį", taip pat turite pasitikėti duomenų ryšio programa.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

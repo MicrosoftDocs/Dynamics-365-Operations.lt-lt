@@ -95,3 +95,6 @@ Specialaus užsakymo KS skaičiavimas pristato KS skaičiavimo nuokrypį, reikal
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

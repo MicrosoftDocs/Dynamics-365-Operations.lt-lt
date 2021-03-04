@@ -107,3 +107,6 @@ Norėdami URL peradresuoti į kitą URL, atlikite tolesnius veiksmus.
 [Jūsų domeno vardo konfigūravimas](configure-your-domain-name.md)
 
 [Kalbų įtraukimas į savo svetainę](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

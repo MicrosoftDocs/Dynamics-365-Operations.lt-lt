@@ -62,3 +62,6 @@ Kurti ir pateikti ES pardavimų sąrašą
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

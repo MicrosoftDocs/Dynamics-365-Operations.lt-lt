@@ -70,3 +70,6 @@ ms.locfileid: "4433559"
 7. Spustelėkite Redaguoti.
 8. Lauke Mokėjimo sutartis įveskite arba pasirinkite reikšmę.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

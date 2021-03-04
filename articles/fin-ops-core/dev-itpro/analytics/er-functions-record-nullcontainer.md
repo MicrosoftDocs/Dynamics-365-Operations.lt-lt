@@ -60,3 +60,6 @@ Gauta įrašo reikšmė.
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Įrašo funkcijos](er-functions-category-record.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -150,3 +150,6 @@ Be to, toliau nurodytuose puslapiuose galite peržiūrėti tam tikrų sąskaitų
 - **Tiekimo prognozė**: norėdami peržiūrėti būsimus su pasirinktos prekės tiekimo prognoze susietus pinigų srautus, pasirinkite **Pinigų srautų prognozės**.
 - **Poreikio prognozė**: norėdami peržiūrėti būsimus su pasirinktos prekės poreikio prognoze susietus pinigų srautus, pasirinkite **Pinigų srautų prognozės**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

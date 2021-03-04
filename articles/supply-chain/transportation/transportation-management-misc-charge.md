@@ -31,3 +31,6 @@ Taip kaip ir su visais įvairiais mokesčiais, gabenimo sukurti mokesčiai turi 
 Eikite į **Gabenimo valdymas > Nustatymai > Reitingavimas > Įvairūs mokesčiai** tam, kad nustatytumėte kvalifikavimo kriterijus, nustatančius, kada konkretus **Mokesčių kodas** yra taikomas mokesčiui.
 
 Turėtumėte turėti mažiausiai vieną nustatymą kiekvienam svarbiam **Nuskaičiavimo modulio** nustatymui (*Klientas* ir *Tiekėjas*), kai **Įvairūs nuskaičiavimai tipai** yra nustatyti į *Jokių*. Jei jo nėra, įvairūs mokesčiai *nebus* įtraukti į užsakymą.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

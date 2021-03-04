@@ -119,3 +119,6 @@ Mygtukai veiksmų srities skirtuko **Darbo užsakymas** grupėje **Projektas** y
 >[!NOTE]
 >Sukurtas darbo užsakymo prognozes galima įtraukti, vykdant bendrąjį planavimą ir naudojant prognozės modelį, pasirinktą puslapyje **Turto valdymo parametrai**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

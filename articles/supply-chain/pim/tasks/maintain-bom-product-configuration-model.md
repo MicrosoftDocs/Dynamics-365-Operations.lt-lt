@@ -58,3 +58,6 @@ Norint paleisti šią procedūrą, reikalingas esamas produkto konfigūracijos m
     * Patikrinkite, ar kuri nors prekės dimensija yra aktyvi, ir todėl privalo turėti priskirtą vertę arba atributą.  
 9. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ ms.locfileid: "4414390"
 10. Lauke Galiojimo pabaigos laiko vienetas pasirinkite parinktį.
 11. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

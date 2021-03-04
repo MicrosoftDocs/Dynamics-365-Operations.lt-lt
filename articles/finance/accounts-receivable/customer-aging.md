@@ -145,3 +145,6 @@ Kai generuojate šią ataskaitą, rodomi toliau pateikti numatytieji parametrai.
 </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

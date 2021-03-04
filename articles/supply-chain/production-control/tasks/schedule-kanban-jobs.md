@@ -62,3 +62,6 @@ ms.locfileid: "4433788"
     * Atkreipkite dėmesį, kad abi užduotys pridėtos į norimą laikotarpį.  
     * Dalyje Laikotarpio pajėgumas galite matyti kiekvieno laikotarpio apkrovą. Lauke Suvartojimas rodomas suplanuotas suvartojimas šiuo laikotarpiu. Jei suplanuotas suvartojimas yra didesnis nei galimas pajėgumas per šį laikotarpį, bus pasirinktas perkrautas suvartojimas.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -210,3 +210,6 @@ Kaip anksčiau aprašyta šioje temoje, **Žyma** ir **Aprašas** atributai kiek
 
 - [Elektroninių ataskaitų apžvalga](general-electronic-reporting.md)
 - [Elektroninių ataskaitų funkcijos](er-formula-language.md#functions)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

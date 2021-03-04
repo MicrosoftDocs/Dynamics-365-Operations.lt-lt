@@ -58,3 +58,6 @@ Baigus importavimą bus reikalaujama, kad vartotojai priskirtų vaidmenis.
 ## <a name="run-in-a-sandbox-environment"></a>Paleiskite smėlio dėžės aplinkoje
 1. Pasirinkite **Paketinis importavimas**.
 2. Pasirinkite **Gerai**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

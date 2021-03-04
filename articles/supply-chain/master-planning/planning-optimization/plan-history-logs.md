@@ -47,3 +47,6 @@ Be užduočių pradžios laiko ir būsenos, taip pat galite peržiūrėti konkre
 [Filtrų taikymas planui](plan-filters.md)
 
 [Planavimo užduoties atšaukimas](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

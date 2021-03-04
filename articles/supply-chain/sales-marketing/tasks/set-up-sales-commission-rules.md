@@ -96,3 +96,6 @@ ms.locfileid: "4433518"
 17. Sąraše pasirinkite anksčiau sukurtą komisinių grupę.
 18. Pasirinkite **Įrašyti**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

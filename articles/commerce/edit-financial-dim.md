@@ -53,3 +53,6 @@ Norėdami „Commerce“ būstinėje redaguoti mažmeninės prekybos operacijų 
 [„Excel“ darbaknygės kūrimas norint redaguoti mažmeninės prekybos operacijas](create-excel-edit.md)
 
 [Laukų įtraukimas į „Excel“ darbaknygę norint redaguoti mažmeninės prekybos operacijas](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Jus turi iš naujo įvertinti ir koreguoti banko sąskaitas, jei yra valiutos ku
 
 > [!NOTE]
 > Didžiojoje knygoje galite peržiūrėti dvi atskiras operacijas: apskaitos valiuta ir ataskaitų valiuta.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

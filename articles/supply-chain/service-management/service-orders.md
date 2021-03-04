@@ -89,3 +89,6 @@ Antroje metų pusėje jūsų klientas nusprendžia, kad aptarnavimo vizitai pern
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

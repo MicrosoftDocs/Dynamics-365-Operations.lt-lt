@@ -97,3 +97,6 @@ Norėdami masiškai įkelti vaizdų aplanką svetainės generatoriuje, atlikite 
 [Vaizdų centro tinkinimas](dam-custom-focal-point.md)
 
 [Naujinti ir aptarnauti statinius failus](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

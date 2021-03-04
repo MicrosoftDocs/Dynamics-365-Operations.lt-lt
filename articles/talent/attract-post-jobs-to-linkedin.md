@@ -80,3 +80,6 @@ Jei kyla problemų registruojant darbo skelbimus „LinkedIn“, žr. [Integravi
 [Kandidatų ieška naudojant „LinkedIn Recruiter”](./attract-linkedin-recruiter.md)
 
 [Integravimo su „LinkedIn“ trikčių diagnostika](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

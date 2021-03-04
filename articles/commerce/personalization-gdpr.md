@@ -104,3 +104,6 @@ Toliau parodytame pavyzdyje matoma, kaip mažmenininkas gali įvykdyti šią už
 [Rekomendacijų su demonstraciniais duomenimis kūrimas](product-recommendations-demo-data.md)
 
 [DUK apie produktų rekomendacijas](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

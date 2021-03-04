@@ -109,3 +109,6 @@ Norint sukurti atitikimą su „Finance and Operations” programomis, dvigubas 
 
 Daugiau informacijos apie būsimus keitimus žr. [Kas nauja ar pasikeitė dvigubo rašymo integravime](whats-new-dual-write.md).
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

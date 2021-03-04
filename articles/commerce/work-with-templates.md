@@ -150,3 +150,6 @@ Kai peržiūrėsite šablono keitimus, atlikite vieną iš toliau nurodytų veik
 [Šablonų ir maketų apžvalga](templates-layouts-overview.md)
 
 [Darbas su esamais maketais](work-with-layouts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

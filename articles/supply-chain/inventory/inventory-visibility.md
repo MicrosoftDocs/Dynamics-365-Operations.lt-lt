@@ -500,3 +500,6 @@ Laukimas rodomas ankstesniuose pavyzdžiuose gali grįžti kaip rezultatas.
 ```
 
 Pastebėkite, kad kiekių laukeliai yra struktūruoti kaip priemonių žodynas ir su jomis susijusios vertės.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

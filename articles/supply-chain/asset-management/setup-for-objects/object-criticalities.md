@@ -62,3 +62,6 @@ Norėdami nustatyti svarbą, pirmiausia sukurkite svarbos tipus, kurie turėtų 
 - Darbo užsakymo svarba iš naujo apskaičiuojama kaskart, kai prie darbo užsakymo pridedama arba pašalinama darbo užsakymo eilutė.
 - Jei darbo užsakymą sudaro keletas darbo užsakymo užduočių, remiantis puslapyje **Svarbos tipai** esančiu lauku **Koeficientas**, didžiausia svarba visada teikiama darbo užsakymui.
 - Paprastai per tam tikrą laiką turto svarba gali keistis. Svarbai gali turėti įtakos naujos įrangos pirkimas, atnaujinimas ir t. t. Apsvarstykite galimybę reguliariais intervalais (pvz., kartą per metus arba kas antrus metus) iš naujo įvertinti savo turto svarbą, siekdami įsitikinti, kad jūsų svarbos apibrėžtys atitinka dabartinę gamybos konfigūraciją.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

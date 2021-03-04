@@ -106,3 +106,6 @@ Toliau pateiktame pavyzdyje parodyta, kaip eksportuoti ataskaitą **Atsargų ver
 1. Pasirodžiusiame puslapyje **Vykdymo suvestinė**, galite peržiūrėti eksportavimo užduoties būseną ir eksportuotų objektų sąrašą. Skyriaus **Objekto apdorojimo būsena** sąraše pasirinkite objektą **Atsargų vertė**, tada pasirinkite **Atsisiųsti failą**, kad atsisiųstumėte iš to objekto eksportuotus duomenis.
 
 Norėdami gauti daugiau informacijos apie tai, kaip naudoti duomenų valdymo funkciją duomenims eksportuoti, žr. [Duomenų importavimo ir eksportavimo užduočių apžvalga](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Be to, „lean manufacturing‟ palaiko paslaugų, į kurias nurodo subrangos ve
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

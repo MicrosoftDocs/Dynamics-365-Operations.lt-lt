@@ -31,3 +31,6 @@ ms.locfileid: "4692947"
 
 - [„Microsoft“ naudojimo ciklo strategija](https://support.microsoft.com/lifecycle/search?alpha=Microsoft%20Dynamics%20AX%204.0)
 - [Palaikomi naujinimo iki „Dynamics AX 2012“ maršrutai](https://technet.microsoft.com/library/dd362093.aspx)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

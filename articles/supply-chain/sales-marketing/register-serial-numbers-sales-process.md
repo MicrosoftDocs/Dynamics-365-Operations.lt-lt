@@ -80,3 +80,6 @@ Taip, mažmeninės prekybos taškas (EKA) paskatins vartotoją įvesti serijos n
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

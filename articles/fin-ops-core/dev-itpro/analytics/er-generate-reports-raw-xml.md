@@ -37,3 +37,6 @@ Galite naudoti naują formato elementą **NEAPDOROTAS XML**, skirtą kurti elekt
 > Turėkite omenyje, kad sistema nekontroliuoja, ar XML turinys, kuris įvedamas į sugeneruotą dokumentą naudojant formato elementą **NEAPDOROTAS XML** yra teisingas.
 
 Norėdami daugiau sužinoti apie šią funkciją, leiskite užduočių vedlius **Neapdorotų XML duomenų naudojimas ER generuojant XML ataskaitas (1 dalis: duomenų modelio kūrimas)** ir **Neapdorotų XML duomenų naudojimas generuojant XML ataskaitas (2 dalis: ataskaitos kūrimas ir paleidimas)**, kurie yra **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** verslo proceso dalis, juos galima atsisiųsti iš [„Microsoft“ atsisiuntimo centras](https://go.microsoft.com/fwlink/?linkid=874684). Šie užduočių vedliai parodys jums ER konfigūravimo procesą, norint įterpti neapdorotus XML duomenis į sugeneruotus failus.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

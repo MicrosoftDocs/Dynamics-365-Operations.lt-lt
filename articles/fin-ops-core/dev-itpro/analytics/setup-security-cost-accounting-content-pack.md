@@ -63,3 +63,6 @@ Laikome, kad jūsų organizacija nori apriboti duomenų prieigą. Jei dėl tam t
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 Norėdami daugiau sužinoti apie „Power BI“ eilutės lygio saugą žr. [Saugos valdymas savo modelyje „Power BI“](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

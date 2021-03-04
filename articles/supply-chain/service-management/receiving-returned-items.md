@@ -45,3 +45,6 @@ Atsižvelgiant į įmonės politiką, grąžinimo siuntos prekės gali būti nus
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

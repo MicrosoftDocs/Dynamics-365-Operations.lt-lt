@@ -48,3 +48,6 @@ ms.locfileid: "4419657"
     * Neprivaloma: pasirinkite naujų pareigų Padalinį.  
 13. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ Atsakomybės ribos naudojamos užduotį atliekančio darbuotojo darbo vaidmenims
 
 ## <a name="steps-for-creating-a-job"></a>Užduoties kūrimo veiksmai
 Nuoseklios naujos užduoties kūrimo procedūros žr. straipsnyje [Naujų užduočių nustatymas](../fin-and-ops/hr/tasks/define-new-jobs.md). 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

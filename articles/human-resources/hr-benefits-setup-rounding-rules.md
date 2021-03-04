@@ -36,3 +36,6 @@ Siekdami atitikti savo organizacijos poreikius, programoje  „Dynamics 365 Huma
 3. Nurodykite laukų **Apvalinti iki artimiausios**, **Scenarijus** ir **Apvalinimo forma** reikšmes.
 
 4. Pasirinkite **Įrašyti**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

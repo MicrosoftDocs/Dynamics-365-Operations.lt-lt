@@ -80,3 +80,6 @@ Nusidėvėjimo suma yra ta pati kiekvienais metais: (įsigijimo išlaidos – li
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ ms.locfileid: "4433608"
 4. Spustelėkite Uždaryti.
 5. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

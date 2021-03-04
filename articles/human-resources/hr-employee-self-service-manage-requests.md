@@ -39,3 +39,5 @@ Vadybininkai gali valdyti atostogų užklausas eidami į darbo sritį **Darbuoto
 
 - [Atostogų ir neatvykimų apžvalga](hr-leave-and-absence-overview.md)
 - [Atostogų ir neatvykimų plano kūrimas](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

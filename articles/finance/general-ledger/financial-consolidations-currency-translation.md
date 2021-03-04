@@ -182,3 +182,6 @@ Toliau pateikti keli konsolidavimo scenarijai, palaikomi finansinėse ataskaitos
 
 ## <a name="generating-consolidated-financial-statements"></a>Konsoliduotų finansinių ataskaitų generavimas
 Informacijos apie scenarijus, kuriais galite generuoti konsoliduotas finansines ataskaitas, žr. [Konsoliduotų finansinių ataskaitų generavimas](./generating-consolidated-financial-statements.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

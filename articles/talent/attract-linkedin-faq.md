@@ -117,3 +117,6 @@ Toliau nurodomoje lentelėje aprašomos įvairios darbo skelbimų registravimo �
 [Kandidatų ieška naudojant LinkedIn Recruiter programoje „Microsoft Dynamics 365 Talent - Attract“](./attract-linkedin-recruiter.md)
 
 [Integravimo trikčių diagnostika naudojant „LinkedIn” ir „Microsoft Dynamics 365 Talent - Attract“](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

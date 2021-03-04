@@ -70,3 +70,6 @@ Pavyzdžiui, atliekate toliau nurodytus veiksmus.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

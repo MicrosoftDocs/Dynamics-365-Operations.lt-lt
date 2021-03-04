@@ -45,3 +45,6 @@ Juridinis subjektas yra organizacija, kuri yra identifikuojama pagal registracij
 15. Išplėskite skyrių **Mokesčių registracija**. Dalyje **PVM mokėtojo kodas** įveskite registracijos numerius, naudojamus teikiant ataskaitas mokesčių institucijoms.
 16. Išplėskite dalį **Mokestis 1099**. Dalyje **Mokestis 1099** įveskite juridinio subjekto 1099 informaciją.  
 17. Spustelėkite **Įrašyti**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

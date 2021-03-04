@@ -50,3 +50,6 @@ ms.locfileid: "4445888"
     + Kas metus – pasirinkite šią parinktį ir lauke Per įveskite metų skaičių. Pavyzdžiui, jei įvesite 2, šio kliento SF bus generuojama kas dvejus metus.  
 14. Lauke **Per** įveskite skaičių.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

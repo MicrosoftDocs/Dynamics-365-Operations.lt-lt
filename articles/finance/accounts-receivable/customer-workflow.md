@@ -60,3 +60,6 @@ Kai turite bent vieną siūlomą keitimą, veiksmų srityje atsiranda du papildo
     Puslapio būsena pakeičiama į **Patvirtinimo laukiantys keitimai**.
 
 Ši darbo eiga vykdoma pagal standartinį programos darbo eigų procesą. Tvirtintojas nukreipiamas į puslapį **Klientas**, kurio puslapyje **Siūlomi keitimai** jis gali peržiūrėti keitimus ir, pasirinkdamas **Darbo eiga \> Patvirtinti**, patvirtinti darbo eigą. Viską patvirtinus, laukai yra atnaujinami jūsų pasiūlytomis reikšmėmis.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

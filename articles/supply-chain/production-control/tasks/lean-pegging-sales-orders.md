@@ -57,3 +57,6 @@ ms.locfileid: "4433560"
 5. Medyje pasirinkite „Pardavimo eilutė 000832 \ „Kanban“ 000558 \ Išdavimas, skirtas L0001 \ „Kanban“ 000559“.
     * Antroji „kanban“ taisyklė taip pat suplanuota, nes suplanuotas visas iškvietimo medis. Atkreipkite dėmesį, kad „kanban“ užduoties būsena iš Nesuplanuota pasikeitė į Suplanuota.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

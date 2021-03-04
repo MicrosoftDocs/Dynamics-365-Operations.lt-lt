@@ -67,3 +67,6 @@ Užregistravę pasikartojančias SF, galite spausdinti SF laisvos formos SF sąr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

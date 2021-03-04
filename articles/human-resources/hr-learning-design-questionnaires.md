@@ -236,3 +236,5 @@ Norėdami naudoti sąlyginius klausimus sukurti klausimyno klausimų hierarchija
 Juridinis subjektas savo klientams siūlo tiek prekes, tiek paslaugas. Kaip paprastai būna tokiais atvejais, kai kurie klientai perka tik prekes, kai kurie perka tik paslaugas, o kai kurie perka ir prekes, ir paslaugas. Todėl, kai juridinis subjektas išplatina klientų pasitenkinimo apklausą, klausimynui jis pritaiko sąlyginę struktūrą, kad klientams, perkantiems tik paslaugas, nereikėtų atsakinėti į klausimus apie prekes. 
 
 Arba klausimyną galite nustatyti taip, kad, jei 1 klausime respondentas pasirenka atsakymą A, klausimų sekoje kitas būtų 2 klausimas. Tačiau, jei 1 klausime respondentas pasirenka atsakymą B, kitas yra 5 klausimas.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

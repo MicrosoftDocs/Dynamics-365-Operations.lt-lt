@@ -45,3 +45,6 @@ Gamybos užsakymą galima kurti pagal toliau pateiktus scenarijus.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

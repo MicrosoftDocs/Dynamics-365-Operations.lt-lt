@@ -56,3 +56,6 @@ Dėl šios savaitės pakeitimų ištaisoma problema, kai nepavykdavo sugeneruoti
 ### <a name="current-balance-report-in-leave-pbi-doubles-employee-balance-385581"></a>Dabartinėje balanso ataskaitoje atostogų PBI dvigubinamas darbuotojų balansas (385581)
 
 Dėl šio pakeitimo pataisoma dabartinė balanso ataskaita šio scenarijaus atveju.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

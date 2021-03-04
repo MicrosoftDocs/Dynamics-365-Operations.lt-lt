@@ -189,3 +189,6 @@ Norėdami redaguoti išteklius, pasirinkite mygtuką **Redaguoti** (pieštuko si
 - [Kas nauja arba pasikeitė „Dynamics 365 Talent“](./whats-new.md)
 - [Leidimo planai](https://docs.microsoft.com/business-applications-release-notes/index)
 - [Palaikymo dėl „Microsoft Dynamics 365 Talent“ gavimas](./talent-support.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

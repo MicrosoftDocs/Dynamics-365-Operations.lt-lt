@@ -53,3 +53,6 @@ Tolesniame mokymo plane parodytos pagrindinės sąvokos ir užduotys, sudaranči
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

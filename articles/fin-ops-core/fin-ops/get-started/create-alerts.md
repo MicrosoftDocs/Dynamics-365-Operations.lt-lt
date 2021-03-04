@@ -102,3 +102,6 @@ Dialogo lango **Įspėjimo taisyklės kūrimas** „FastTab“ **Įspėti mane i
     ```
 2. Sukurkite įspėjimą iš formos SysTableBrowser.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

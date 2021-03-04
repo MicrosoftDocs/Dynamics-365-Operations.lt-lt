@@ -49,3 +49,6 @@ Be to, dvi unikalios ataskaitos, kuriose naudojama hierarchinio tinklelio strukt
 - Darbo sritis **Kategorijų ir produktų valdymas** &gt; **„Retail and Commerce“** &gt; **Produktai ir kategorijos** &gt; **Parduotuvių valdymas** &gt; **Ataskaitos**
 - Darbo sritis **Kainos ir nuolaidos valdymas** &gt; **„Retail and Commerce“** &gt; **Kainos ir nuolaidos** &gt; **Parduotuvių valdymas** &gt; **Ataskaitos**
 - Skyrius **Užklausos ir ataskaitos** &gt; **„Retail and Commerce“** &gt; **Užklausos ir ataskaitos** &gt; **Pardavimų ataskaitos**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

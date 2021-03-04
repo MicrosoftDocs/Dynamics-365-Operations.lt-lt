@@ -62,3 +62,6 @@ ms.locfileid: "4433287"
 18. Spustelėkite Darbo informacija.
     * Kai gamybos užsakymas buvo paskelbtas baigtu, nebuvo sugeneruota jokio padėjimo darbo. Taip nutinka, nes yra apibrėžta darbo strategija, pagal kurią negalima generuoti darbo, kai produktas L0101 paskebiamas baigtu 001 vietoje.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -148,3 +148,6 @@ Taip pat turite atsisiųsti ir įrašyti vietinę šablono kopiją su ataskaitos
 49. Spustelėkite Įrašyti.
 50. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -376,3 +376,6 @@ Atkreipkite dėmesį, kad interneto naršyklėje siūloma atsisiųsti ZIP failą
 
 - [Elektroninių ataskaitų apžvalga](general-electronic-reporting.md)
 - [ER sprendimų našumo didinimas įtraukiant parametrizuotų duomenų šaltinių APSKAIČIUOTAS LAUKAS](er-calculated-field-ds-performance.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

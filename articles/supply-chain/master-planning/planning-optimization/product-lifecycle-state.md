@@ -42,3 +42,6 @@ Išleisti produktai ir variantai, kai **Produkto gyvavimo ciklo būsenos** lauke
 Dėl daugiau informacijos apie produktų gyvavimo ciklos būsenas, žr. [Produkto gyvavimo ciklo būsenos apžvalga](../../pim/product-lifecycle.md).
 
 Dėl išsamios informacijos apimančios žingsnius produkto gyvavimo ciklo būsenų naudojimui siekiant išmesti produktus ir pagrindinio planavimo ir BOM-level skaičiuokles, žr. [Sukurti produkto gyvavimo ciklo būseną siekiant išmesti produktus iš pagrindinio planavimo](../../pim/tasks/exclude-products-master-planning.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

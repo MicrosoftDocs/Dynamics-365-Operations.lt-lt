@@ -113,3 +113,6 @@ Vietoje formos **Gavimų apžvalga**, galite naudoti formą **Registracija**, ka
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

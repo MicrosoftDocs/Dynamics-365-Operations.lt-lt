@@ -40,3 +40,6 @@ ms.locfileid: "4433602"
 10. Lauke Kiekis įveskite skaičių.
 11. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

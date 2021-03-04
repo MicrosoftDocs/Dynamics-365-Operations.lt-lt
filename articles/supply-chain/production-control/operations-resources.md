@@ -85,3 +85,6 @@ Kai nustatote veiklą, pvz., maršruto operaciją arba projekto valandų prognoz
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

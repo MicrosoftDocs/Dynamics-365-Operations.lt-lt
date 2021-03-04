@@ -76,3 +76,6 @@ Iš aprašytų pavyzdžių matyti, kad visose skaitiklio turto registracijose ma
 
 ![4 paveikslėlis](media/12-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

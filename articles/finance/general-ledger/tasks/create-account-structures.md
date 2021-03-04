@@ -61,3 +61,6 @@ ms.locfileid: "4446071"
 29. **Veiksmų sritis** spustelėkite **Aktyvinti**.
 30. Spustelėkite **Aktyvinti**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

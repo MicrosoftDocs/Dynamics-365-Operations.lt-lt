@@ -124,3 +124,6 @@ Turto valdyme galima automatiškai naujinti darbo užsakymų prognozių informac
 Toliau pateiktame paveikslėlyje parodytas dialogo lango **Naujinti darbo užsakymo prognozę** pavyzdys.
 
 ![2 pav.](media/07-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

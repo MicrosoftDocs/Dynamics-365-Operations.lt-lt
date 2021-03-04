@@ -58,3 +58,6 @@ Pagal numatytuosius nustatymus **Maksimalaus vykdymo laiko** parametras yra nepa
 
 - **Modulis:** *sandėlio valdymas*
 - **Funkcijos pavadinimas:** *maksimalus vykdymo laikas sandėlio valdymo turimų įrašų valymo užduočiai*
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -76,3 +76,6 @@ Atsisiųskite šiuos failus norėdami užbaigti užduočių vedlį:
 
 - [ER modelio konfigūracija – CrossCompanyDataAccessModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
 - [ER formato konfigūracija – CrossCompanyDataAccessFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ public final class InventOnHandAggregatedViewBuilder\_Extension
 ```
 
 Kai pabaigėte šiuos žingsnius, galite išplėsti turimas atsargas vietoje ir turimas atsargas pagal sandėlio duomenų objektus įtraukiant naujus laukelius. Tokiu būdu, užtikrinkite, kad išplėsti laukeliai yra pripažįstami ir įtraukti į duomenų perkėlimą, kuris naudoja tuos duomenų objektus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

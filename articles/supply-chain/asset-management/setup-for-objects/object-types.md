@@ -97,3 +97,6 @@ Puslapyje **Atsarginės dalys** taip pat galite kurti naujas atsargines dalis es
 
 Norėdami peržiūrėti, ar atsarginė dalis pasirinktoje eilutėje naudojama kur nors kitur turto valdyme (pvz., turto ir darbo užsakymų atžvilgiu), pasirinkite **Elementas, kuris naudojamas**, kad atidarytumėte puslapį **Elementas, kuris naudojamas**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

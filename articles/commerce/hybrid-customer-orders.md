@@ -41,3 +41,6 @@ Pasirinkus krepšelio eilutę ir parinktį **Išrinkti pasirinktus**, **Išsiųs
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Klientų užsakymai naudojant „Modern POS“ (MPOS)](customer-orders-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

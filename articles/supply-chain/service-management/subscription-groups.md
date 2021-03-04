@@ -55,3 +55,6 @@ Toliau nurodytas užduotis taip pat galite atlikti su visais abonementais, kurie
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -202,3 +202,6 @@ Norėdami konsoliduoti patvirtintas pirkimo paraiškos eilutes, atlikite toliau 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

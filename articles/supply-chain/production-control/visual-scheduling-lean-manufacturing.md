@@ -95,3 +95,6 @@ Užduotis galima iš naujo priskirti iš vieno laikotarpio kitam. Ši galimybė 
 
 [„Lean manufacturing“ „kanban“ užduočių planavimas](lean-manufacturing-kanban-job-scheduling.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

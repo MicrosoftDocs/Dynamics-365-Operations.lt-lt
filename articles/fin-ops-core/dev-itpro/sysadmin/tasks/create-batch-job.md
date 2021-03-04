@@ -54,3 +54,6 @@ Paketinė užduotis yra užduočių, pateiktų programos objektų serverio (AOS)
     - **Sulaikyti**: nustatykite paketinę užduotį kaip **sulaikytą**, kad užduotis būtų sulaikyta paketinių užduočių planuoklėje. Prilygsta *sustabdymui*.
     - **Laukiama**: nustatykite paketinę užduotį kaip **laukiančią**, kad jį būtų eilėje, kol ją paims paketinių užduočių planuoklę. Prilygsta *vykdymui*.
 5. Spustelėkite **Gerai**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

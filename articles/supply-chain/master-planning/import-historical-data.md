@@ -59,3 +59,6 @@ Importavus retrospektyvinius poreikio duomenis, galima generuoti pagrindinę por
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Pagrindinės statistinės prognozės generavimas](generate-statistical-baseline-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

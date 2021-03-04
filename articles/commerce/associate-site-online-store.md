@@ -58,3 +58,6 @@ Sukūrę svetainę, patikrinti, ar ji susieta su internetine parduotuve, galite 
 [Turinio pristatymo tinklo (CDN) palaikymo įtraukimas](add-cdn-support.md)
 
 [Parduotuvės nustatymo pagal vietą įgalinimas](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

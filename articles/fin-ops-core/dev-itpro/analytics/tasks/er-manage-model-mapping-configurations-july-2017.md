@@ -161,3 +161,6 @@ Kadangi įmonės dalijasi ER konfigūracijomis, galite baigti šį užduočių v
 7. Spustelėkite Gerai.
     * Numatytąją modelio susiejimo konfigūraciją naudoja ši formato konfigūracija elektroniniam dokumentui generuoti (sukurtoje išvestyje yra įmonės kodas).  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

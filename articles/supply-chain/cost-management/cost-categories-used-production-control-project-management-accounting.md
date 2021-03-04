@@ -44,3 +44,6 @@ Papildomi puslapio **Išlaidų kategorijos** mygtukai suteikia prieigą prie su 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

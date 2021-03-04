@@ -73,3 +73,6 @@ Sąrašo puslapyje **„kanban“ užduočių planavimas** yra „FactBox“, ku
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

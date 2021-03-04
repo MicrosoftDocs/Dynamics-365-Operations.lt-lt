@@ -250,3 +250,6 @@ Jei papildomos knygos žurnalo įrašas neteisingas, kai peržiūrite jį prieš
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

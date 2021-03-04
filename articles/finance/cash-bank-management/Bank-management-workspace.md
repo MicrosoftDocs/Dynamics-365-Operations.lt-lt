@@ -64,3 +64,6 @@ Puslapyje **Analizė** pateikiamos svarbios dabartinės įmonės banko sąskait�
 -   Balansas pagal valiutą
 
 Darbo srityje **Grynųjų pinigų peržiūra – visos įmonės** galite peržiūrėti visų įmonių banko analizės informaciją. Daugiau informacijos žr. [„Power BI“ turinys Grynųjų pinigų apžvalga](Cash-Overview-Power-BI-content.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

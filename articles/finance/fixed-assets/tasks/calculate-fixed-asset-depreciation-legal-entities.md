@@ -51,3 +51,6 @@ Ilgalaikio turto nusidėvėjimą tarp juridinių subjektų galima vykdyti vienu 
 5. Spustelėkite Kurti žurnalą.
 6. Eikite į Ilgalaikis turtas > Žurnalo įrašai > Ilgalaikio turto žurnalas.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

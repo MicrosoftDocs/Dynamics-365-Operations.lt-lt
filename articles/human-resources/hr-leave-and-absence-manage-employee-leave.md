@@ -56,3 +56,6 @@ Koreguodami darbuotojo atostogų balansą galite nurodyti priežasties kodą ir 
 
 - [Atostogų ir neatvykimų apžvalga](hr-leave-and-absence-overview.md)
 - [Atostogų ir leidimo neatvykti prašymų valdymas](hr-employee-self-service-manage-requests.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

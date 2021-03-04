@@ -42,3 +42,6 @@ Pavyzdžiui, pardavimo užsakymas turi dvi prekes: vieną pristatymui ir kitą p
 ### <a name="issue-resolution"></a>Problemos paaiškinimas
 
 Išleidimo būsena taikoma tik užsakymo eilutėms, kurioje prekės buvo įjungtos sandėlio valdymui. Dėl to, išleidimo būsena išlieka *Iš dalies išleista* šiame scenarijuje. „Microsoft“ įvertino šią klaidą ir nustatė jos funkcijos apribojimą. Išplėtimas gali būti įtrauktas kaip paėmimo praleidimo dalis ir sąskaitos procesas siekiant atnaujinti išleidimo būseną.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

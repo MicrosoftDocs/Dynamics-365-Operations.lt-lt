@@ -64,3 +64,6 @@ Suplanuokite automatinę užduotį, kad išvalytumėte paketinių užduočių re
 
 8. Jei reikia, dalyje **Vykdyti fone** pakeiskite kitus parametrus, tada pasirinkite **Gerai**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Jei pirmasis rezultatas ir *N*-tasis rezultatas yra duomenų tipo *Konteineris (
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Loginės funkcijos](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

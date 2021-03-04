@@ -62,3 +62,6 @@ Daugiau informacijos apie tai, kaip nustatyti pavojingų medžiagų nuostatas ir
 ## <a name="warehouse-management"></a>Sandėlio valdymas
 
 Kai ruošite siuntą Sandėlio valdyme, galėsite atspaudinti kelias naujas ataskaitas, naudojančias informaciją, kurią nustatėte Produkto informacijos valdyme. Norėdami gauti daugiau informacijos apie galimas ataskaitas ir kaip jas naudoti, žr. [Pavojingų medžiagų užklausos ir ataskaitos](hazmat-reports.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

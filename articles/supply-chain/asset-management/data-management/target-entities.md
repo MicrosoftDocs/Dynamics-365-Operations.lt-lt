@@ -53,3 +53,6 @@ Darbo srityje **Duomenų valdymas** galite peržiūrėti paskirties objektus, su
 
     ![3 paveikslėlis](media/03-data-management.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

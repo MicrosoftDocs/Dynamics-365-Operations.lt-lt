@@ -115,3 +115,6 @@ Pasekmė skiriasi dėl informacijos, kuri prieinama jums sukūrus darbą. Kai **
 [![2 pavyzdys](media/ReplenTemp_example_2.png "2 pavyzdys")](media/ReplenTemp_example_2_large.png)
 
 Dėl to, kad gautumėte maksimalų kiekį vietų papildymui, turite nustatyti **Leisti atskyrimą** parinktį į *Taip* vietos kryptyse papildymui.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

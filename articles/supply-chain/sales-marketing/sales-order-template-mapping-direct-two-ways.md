@@ -207,3 +207,6 @@ Toliau pateiktose iliustracijose vaizduojamas šablono susiejimo pavyzdys naudoj
 ## <a name="related-topics"></a>Susijusios temos
 
 [Potencialūs klientai ir grynieji pinigai](prospect-to-cash.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

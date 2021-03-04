@@ -61,3 +61,6 @@ Vežėjo SF ir transportavimo sąskaitos derinimas atliekamas kiekvienoje eilut�
 5. Spustelėkite, kad būtumėte nukreipti pagal saitą lauke Nuorodų žurnalo numeris.
 6. Spustelėkite Eilutės.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

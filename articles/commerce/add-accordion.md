@@ -87,3 +87,6 @@ Norėdami į DUK puslapį įtraukti akordeono modulį ir nustatyti jo reikiamas 
 [Skirtuko modulis](add-tab.md)
 
 [Teksto bloko modulis](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -267,3 +267,6 @@ Modulyje Turto valdymas galima automatiškai naujinti priežiūros užduočių t
 2. Dialogo lango **Naujinti priežiūros užduoties tipo prognozę** FastTab **Įtrauktini įrašai** pagal poreikį galite pasirinkti konkrečių priežiūros užduočių tipų parametrus. Pasirinkite **Filtras**, tada pasirinkite **Pasirinkti**, kad pasirinktumėte parametrus.
 3. FastTab **Vykdyti fone** pagal poreikį galite nustatyti automatinio naujinimo paketinę užduotį.
 4. Pasirinkus **Gerai**, pradedamas prognozės naujinimas.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

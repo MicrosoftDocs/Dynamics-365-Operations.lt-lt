@@ -123,3 +123,6 @@ Galite atsisiųsti bei redaguoti „Microsoft‟ užduočių įrašus ir juos na
 [Užduočių įrašymo priemonė](task-recorder.md)
 
 [Naudingų žinyno temų kūrimas naudojant užduočių įrašymo priemonę (išorinis saitas)](https://mbspartner.microsoft.com/AX/Videos/970)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

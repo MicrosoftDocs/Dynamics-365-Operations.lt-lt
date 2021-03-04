@@ -67,3 +67,6 @@ Naudokite šią procedūrą norėdami sukurti ir priskirti savikainos paskirstym
 5. Lauke Savikainos kontrolės įtaisas įveskite arba pasirinkite reikšmę.
 6. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -671,3 +671,6 @@ Versijos 32.6.7.2 būsena pakeista iš **Juodraštis** į **Baigta**, o versija 
 - [ER konfigūracijų atsisiuntimas iš „Configuration service” Bendrosios saugyklos](er-download-configurations-global-repo.md)
 - [Kurti laisvos formos SF](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new)
 - [Pasirinktinių laukų kūrimas ir naudojimas](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

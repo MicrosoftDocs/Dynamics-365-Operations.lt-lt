@@ -62,3 +62,6 @@ Galite modeliuoti gamyklos įrenginių signalus. Daugiau informacijos ieškokite
 + [IoT kūrimo rinkinio AZ3166 prijungimas prie „Azure IoT Hub“](https://docs.microsoft.com/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
 + [„Raspberry Pi“ internetinio simuliatoriaus prijungimas prie „Azure IoT Hub“ (Node.js)](https://docs.microsoft.com/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
 + [Įrenginių modeliavimo sprendimų spartintuvo apžvalga](https://docs.microsoft.com/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

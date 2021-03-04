@@ -51,3 +51,6 @@ Pašalinę pašalines reikšmes galite padidinti prognozės tikslumą. Ši uždu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
