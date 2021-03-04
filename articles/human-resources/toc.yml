@@ -5,6 +5,10 @@
       items:
         - name: Kas nauja ar pasikeitė „Human Resources”
           href: hr-admin-whats-new.md
+        - name: "2021\_m. sausio 28\_d."
+          href: hr-whats-new-2021-01-28.md
+        - name: "2021\_m. sausio 21\_d."
+          href: hr-whats-new-2021-01-21.md
         - name: "2020\_m. gruodžio 2\_d."
           href: hr-whats-new-2020-12-02.md
         - name: "2020\_m. spalio 22\_d."
@@ -79,12 +83,16 @@
           items:
             - name: Duomenų integravimo technologijos pasirinkimas
               href: hr-admin-integration-choose-technology.md
-            - name: „Common Data Service“ integravimo konfigūravimas
+            - name: Užklausų buferizavimo DUK
+              href: hr-admin-integration-throttling-faq.md
+            - name: „Dataverse“ integravimo konfigūravimas
               href: hr-admin-integration-common-data-service.md
-            - name: „Common Data Service“ objektai
+            - name: „Dataverse“ lentelės
               href: hr-developer-entities.md
-            - name: „Common Data Service“ virtualiųjų objektų konfigūravimas
+            - name: „Dataverse“ virtualiųjų objektų konfigūravimas
               href: hr-admin-integration-common-data-service-virtual-entities.md
+            - name: „Human Resources“ virtualių objektų DUK
+              href: hr-admin-virtual-entity-faq.md
             - name: Integravimo su „Finance“ konfigūravimas
               href: hr-admin-integration-finance.md
             - name: Integravimo su „Dayforce“ konfigūravimas
@@ -279,7 +287,7 @@
           href: hr-developer-overview.md
         - name: Išplėtimas su „Power Apps“ ir „Power Automate“
           href: hr-developer-power-apps.md
-        - name: „Common Data Service“ objektai
+        - name: „Dataverse“ lentelės
           href: hr-developer-entities.md
         - name: Pasirinktiniai laukai
           href: hr-developer-custom-fields.md
@@ -287,7 +295,7 @@
           items:
             - name: Duomenų integravimo technologijos pasirinkimas
               href: hr-admin-integration-choose-technology.md
-            - name: „Common Data Service“ integravimo konfigūravimas
+            - name: „Dataverse“ integravimo konfigūravimas
               href: hr-admin-integration-common-data-service.md
             - name: Integravimo su „Finance“ konfigūravimas
               href: hr-admin-integration-finance.md
@@ -317,6 +325,92 @@
                       href: hr-developer-api-myleaverequests-overview.md
                     - name: Prašymo išeiti atostogų pateikimas darbo eigai
                       href: hr-developer-api-myleaverequests-submit.md
+        - name: ATS integravimo API
+          items:
+            - name: Įvadas
+              href: hr-admin-integration-ats-api-introduction.md
+            - name: Įdarbinimo užklausa ir susiję objektai
+              items:
+                - name: Įdarbinimo užklausa
+                  href: hr-admin-integration-ats-api-recruiting-request.md
+                - name: Įdarbinimo užklausos išsilavinimas
+                  href: hr-admin-integration-ats-api-recruiting-request-education.md
+                - name: Įdarbinimo užklausų vieta
+                  href: hr-admin-integration-ats-api-recruiting-request-location.md
+                - name: Įdarbinimo užklausų pareigos
+                  href: hr-admin-integration-ats-api-recruiting-request-position.md
+                - name: Įdarbinimo užklausos įgūdis
+                  href: hr-admin-integration-ats-api-recruiting-request-skill.md
+                - name: Įdarbinimo užklausos pavyzdžio užklausa
+                  href: hr-admin-integration-ats-api-recruiting-request-example-query.md
+            - name: Įdarbinimo užklausos parinkčių rinkiniai
+              items:
+                - name: Darbo neapmokestinimo būsena
+                  href: hr-admin-integration-ats-api-job-exempt-status.md
+                - name: Įdarbinimo užklausos pareigų būsena
+                  href: hr-admin-integration-ats-api-recruiting-request-position-status.md
+                - name: Įdarbinimo užklausos būsena
+                  href: hr-admin-integration-ats-api-recruiting-request-status.md
+                - name: Reglamentavimo užduoties kategorija
+                  href: hr-admin-integration-ats-api-regulatory-job-category.md
+            - name: Kandidatas samdyti ir susiję objektai
+              items:
+                - name: Samdytinas pretendentas
+                  href: hr-admin-integration-ats-api-candidate-to-hire.md
+                - name: Sertifikato tipas
+                  href: hr-admin-integration-ats-api-certificate-type.md
+                - name: Šalies kontaktas
+                  href: hr-admin-integration-ats-api-party-contact.md
+                - name: Asmuo
+                  href: hr-admin-integration-ats-api-person.md
+                - name: Asmens adresas
+                  href: hr-admin-integration-ats-api-person-address.md
+                - name: Asmens sertifikatas
+                  href: hr-admin-integration-ats-api-person-certificate.md
+                - name: Asmens išsilavinimas
+                  href: hr-admin-integration-ats-api-person-education.md
+                - name: Asmens identifikavimo numeris
+                  href: hr-admin-integration-ats-api-person-identification-number.md
+                - name: Asmens profesinė patirtis
+                  href: hr-admin-integration-ats-api-person-professional-experience.md
+                - name: Asmens atranka
+                  href: hr-admin-integration-ats-api-person-screening.md
+                - name: Asmens įgūdis
+                  href: hr-admin-integration-ats-api-person-skill.md
+                - name: Vertinimo lygis
+                  href: hr-admin-integration-ats-api-rating-level.md
+                - name: Atrankos tipai
+                  href: hr-admin-integration-ats-api-screening-types.md
+                - name: Kandidato samdyti pavyzdžio užklausa
+                  href: hr-admin-integration-ats-api-candidate-to-hire-example-query.md
+            - name: Kandidatų parinkčių rinkiniai
+              items:
+                - name: Pretendento integravimo rezultatas
+                  href: hr-admin-integration-ats-api-applicant-integration-result.md
+                - name: Tuščia Taip Ne
+                  href: hr-admin-integration-ats-api-blank-yes-no.md
+                - name: Baigimo būsena
+                  href: hr-admin-integration-ats-api-completion-status.md
+                - name: Kontakto tipas
+                  href: hr-admin-integration-ats-api-contact-type.md
+                - name: Išsilavinimo kredito pagrindas
+                  href: hr-admin-integration-ats-api-education-credit-basis.md
+                - name: Lytis
+                  href: hr-admin-integration-ats-api-gender.md
+                - name: Šeiminė padėtis
+                  href: hr-admin-integration-ats-api-marital-status.md
+                - name: Metų mėnesiai
+                  href: hr-admin-integration-ats-api-months-of-year.md
+                - name: Ne Taip
+                  href: hr-admin-integration-ats-api-no-yes.md
+                - name: Laikotarpio vienetas
+                  href: hr-admin-integration-ats-api-period-unit.md
+                - name: Atrankos dažnumas
+                  href: hr-admin-integration-ats-api-screening-frequency.md
+                - name: Atrankos dažnumas generuojamas iš
+                  href: hr-admin-integration-ats-api-screening-frequency-generate-from.md
+                - name: Įgūdžių lygio tipas
+                  href: hr-admin-integration-ats-api-skill-level-type.md
     - name: Vartotojo vadovas
       items:
         - name: Apžvalga
@@ -439,12 +533,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/human-resources/toc.json
                 - name: Kliento įspėjimų pranešimai el. paštu
                   href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
-            - name: Elektroniniai parašai
-              items:
-                - name: Elektroninių parašų apžvalga
-                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/human-resources/toc.json
-                - name: Elektroninių parašų nustatymas
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/human-resources/toc.json
             - name: Atvejų valdymas
               items:
                 - name: Atvejų valdymo apžvalga
@@ -591,9 +679,11 @@
                       href: hr-benefits-process-life-event-eligibility.md
                     - name: Tarifo keitimų apdorojimas
                       href: hr-benefits-process-rate-changes.md
+                - name: ACA ataskaitos
+                  href: hr-benefits-management-aca-reports.md
             - name: Išmokų programos nustatymas ir valdymas
               href: hr-benefits-manage-program.md
-            - name: Teisės į išmoką strategijos
+            - name: Išmokos tinkamumo strategijos
               href: hr-benefits-eligibility-policies.md
             - name: Teisės į išmoką procesas
               href: hr-benefits-eligibility-process.md

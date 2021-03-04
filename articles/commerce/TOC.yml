@@ -94,12 +94,12 @@
                   items:
                     - name: Kas nauja ar pasikeitė „Commerce“ pagrindiniame puslapyje
                       href: get-started/whats-new-home-page.md
+                    - name: „Commerce 10.0.17“ (2021 m. balandžio mėn.)
+                      href: get-started/whats-new-commerce-10-0-17.md
                     - name: „Commerce 10.0.16“ (2021 m. vasario mėn.)
                       href: get-started/whats-new-commerce-10-0-16.md
                     - name: „Commerce 10.0.15“ (2021 m. sausio mėn.)
                       href: get-started/whats-new-commerce-10-0-15.md
-                    - name: „Commerce 10.0.14“ (2020 m. lapkričio mėn.)
-                      href: get-started/whats-new-commerce-10-0-14.md
                 - name: Pašalintos arba nebenaudojamos funkcijos
                   items:
                     - name: Pašalintos arba nebenaudojamos „Finance and Operations“ funkcijos
@@ -190,6 +190,44 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/commerce/toc.json
                 - name: Susipažinkite su „Lifecycle Services“
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json?toc=/dynamics365/commerce/toc.json
+            - name: Diegimo ciklo valdymas
+              items:
+                - name: Diegimo ciklo valdymo pagrindinis puslapis
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
+                - name: „Finance and Operations“ programų architektūra
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Microsoft FastTrack
+                  href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
+                - name: Diegimo projekto priėmimas
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
+                - name: Aplinkos planavimas
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
+                - name: Rengimasis įgyvendinimo pradžiai
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/commerce/toc.json
+                - name: DUK apie įgyvendinimo pradžią
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/commerce/toc.json
+                - name: Paslaugos užklausos teikimas
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Su prenumeratomis, LCS projektais ir „Azure AD“ nuomotojais susiję DUK'
+                  href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Perkelti aplinkas iš vieno duomenų centro į kitą
+                  href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/commerce/toc.json
+                - name: Perkelti licencijas iš vieno sutarties tipo į kitą
+                  href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
+                - name: LCS diegimo projektų perkėlimas į skirtingus „Azure AD“ nuomotojus
+                  href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: LCS diegimo projektų perkėlimas iš vietinių aplinkų į debesį
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
+                - name: Keli LCS projektai ir gamybos aplinkos viename „Azure AD“ nuomotojuje
+                  href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: „Finance and Operations Commerce“ projektų diegimas
+                  href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+                - name: 'Projektų naujų aplinkų, „Azure DevOps“ ir šakų nustatymas'
+                  href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+                - name: „Commerce“ projektų kodo ir aplinkų naujinimas
+                  href: dev-itpro/updating-environments.md
+                - name: Bandymai ir efektyvumo problemos
+                  href: dev-itpro/retail-implementation-testing-performance.md
         - name: Architektūros apžvalga
           items:
             - name: Architektūra
@@ -248,44 +286,6 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
                 - name: Pradinių duomenų inicijavimas naujose „Commerce“ aplinkose
                   href: enable-configure-retail-functionality.md
-            - name: Diegimo ciklo valdymas
-              items:
-                - name: Diegimo ciklo valdymo pagrindinis puslapis
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
-                - name: „Finance and Operations“ programų architektūra
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: „Microsoft FastTrack for Finance and Operations“
-                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Diegimo projekto priėmimas
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
-                - name: Aplinkos planavimas
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
-                - name: Rengimasis įgyvendinimo pradžiai
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/commerce/toc.json
-                - name: DUK apie įgyvendinimo pradžią
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/commerce/toc.json
-                - name: Paslaugos užklausos teikimas
-                  href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Su prenumeratomis, LCS projektais ir „Azure AD“ nuomotojais susiję DUK'
-                  href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Perkelti aplinkas iš vieno duomenų centro į kitą
-                  href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/commerce/toc.json
-                - name: Perkelti licencijas iš vieno sutarties tipo į kitą
-                  href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
-                - name: LCS diegimo projektų perkėlimas į skirtingus „Azure AD“ nuomotojus
-                  href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: LCS diegimo projektų perkėlimas iš vietinių aplinkų į debesį
-                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
-                - name: Keli LCS projektai ir gamybos aplinkos viename „Azure AD“ nuomotojuje
-                  href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: „Finance and Operations Commerce“ projektų diegimas
-                  href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
-                - name: '„Commerce“ projektų naujų aplinkų, „Azure DevOps“ ir šakų nustatymas'
-                  href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
-                - name: „Commerce“ projektų kodo ir aplinkų naujinimas
-                  href: dev-itpro/updating-environments.md
-                - name: Bandymai ir efektyvumo problemos
-                  href: dev-itpro/retail-implementation-testing-performance.md
         - name: Kanalų nustatymas
           items:
             - name: Kanalų apžvalga
@@ -504,6 +504,8 @@
                       href: payment-methods.md
                     - name: Mokėjimo būdai skambučių centruose
                       href: work-with-payments.md
+                    - name: Grąžinimo mokėjimo apdorojimas skambučių centruose
+                      href: call-center-refund-payments.md
                     - name: 'Kredito kortelių nustatymas, autorizacija ir patvirtinimas'
                       href: ../finance/accounts-receivable/credit-card-authorizations.md?toc=/dynamics365/commerce/toc.json
                     - name: Grynųjų pinigų nominaliosios vertės EKA konfigūravimas
@@ -648,6 +650,8 @@
                       href: personalization-gdpr.md
                 - name: Įjungti „pirkti panašios išvaizdos“ rekomendacijas
                   href: shop-similar-looks.md
+                - name: Rekomendacijų „pirkti su panašiu aprašymu“ įjungimas
+                  href: shop-similar-description.md
                 - name: EKA patirtys
                   items:
                     - name: Produktų rekomendacijų įtraukimas į EKA
@@ -712,7 +716,7 @@
           items:
             - name: Kliento užsakymai
               items:
-                - name: Kliento užsakymai elektroniniame kasos aparate (EKA)
+                - name: Kliento EKA užsakymai
                   href: customer-orders-overview.md
                 - name: Hibridiniai kliento užsakymai
                   href: hybrid-customer-orders.md
@@ -720,6 +724,8 @@
                   href: enhancedorderrecall.md
                 - name: Kelių paėmimo pristatymo būdų įjungimas
                   href: multiple-pickup-modes.md
+                - name: Kliento užsakymo paėmimo EKA apdorojimas
+                  href: process-order-pickup-POS.md
             - name: Pardavimo užsakymai
               items:
                 - name: Skambučių centro užsakymų kūrimas
@@ -858,6 +864,10 @@
                   href: add-cdn-support.md
                 - name: Parduotuvės nustatymo pagal vietą įgalinimas
                   href: enable-store-detection.md
+                - name: El. prekybos skaitmeninių dovanų kortelės
+                  href: digital-gift-cards.md
+                - name: „Dynamics 365 Commerce“ svetainių naršyklės reikalavimai
+                  href: browser-requirements.md
             - name: Svetainės pavyzdžio apžvalga
               items:
                 - name: Pagrindinio puslapio apžvalga
@@ -948,6 +958,8 @@
                       href: enrich-category-page.md
                     - name: Patikrinti puslapio turinio pritaikymą neįgaliesiems
                       href: verify-accessibility.md
+                    - name: Dinaminių el. prekybos puslapių kūrimas pagal URL parametrus
+                      href: create-dynamic-pages.md
                 - name: Svetainės naršymas
                   items:
                     - name: Svetainės naršymo tinkinimas
@@ -1058,6 +1070,8 @@
                   items:
                     - name: Produktų rinkinio moduliai
                       href: product-collection-module-overview.md
+                    - name: Sparčiosios peržiūros modulis
+                      href: quick-view-module.md
                 - name: Naršymo moduliai
                   items:
                     - name: Naršymo kelio modulis
@@ -1066,11 +1080,15 @@
                       href: nav-menu-module.md
                     - name: Svetainės išrinkiklio modulis
                       href: site-selector.md
+                - name: Ieškoti modulių
+                  items:
+                    - name: Ieškos rezultatų modulis
+                      href: search-result-module.md
                 - name: Atitikties moduliai
                   items:
                     - name: Sutikimo dėl slapukų modulis
                       href: cookie-consent-module.md
-            - name: Ieška
+            - name: Ieškoti
               items:
                 - name: Numatytojo kategorijos nukreipimo puslapio ir ieškos rezultatų puslapio apžvalga
                   href: category-search-page-overview.md
@@ -1106,6 +1124,18 @@
           items:
             - name: „Dynamics 365 Fraud Protection“ integravimas su „Dynamics 365 Commerce“
               href: dev-itpro/DFP.md
+        - name: B2B el. prekyba
+          items:
+            - name: B2B el. prekybos svetainės nustatymas
+              href: b2b/set-up-b2b-site.md
+            - name: B2B organizacijų modeliavimo hierarchijų kūrimas
+              href: b2b/org-model.md
+            - name: Verslo partnerio vartotojų valdymas B2B el. prekybos svetainėse
+              href: b2b/manage-b2b-users.md
+            - name: B2B el. prekybos svetainių kliento sąskaitos mokėjimo metodo konfigūravimas
+              href: b2b/payment-method.md
+            - name: B2B el. prekybos svetainių produktų kiekio apribojimų nustatymas
+              href: b2b/quantity-limits.md
         - name: Stebėjimas ir analizė
           items:
             - name: Pardavimo ir maržos efektyvumo stebėjimas
@@ -1558,7 +1588,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-intvalue.md?toc=/dynamics365/commerce/toc.json
                         - name: 'Tipas: NumberValue'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/commerce/toc.json
-                        - name: 'Tipas: reikšmė'
+                        - name: 'Tipas: Value'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/commerce/toc.json
                         - name: 'Data ir laikas: DateTimeValue'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/commerce/toc.json
@@ -2066,7 +2096,9 @@
                       href: e-commerce-extensibility/interactive-components.md
                     - name: Padaryti būsenos Prisijungęs maketą per vietinį kūrimą
                       href: e-commerce-extensibility/mock-sign-in.md
-                    - name: Globalizuoti modulius naudojant klasę CultureInfoFormatter
+                    - name: 'Modulio ypatybių, kurios turi būti rodomos pagal kontekstą, konfigūravimas'
+                      href: e-commerce-extensibility/configure-properties-context.md
+                    - name: Modulių globalizavimas naudojant CultureInfoFormatter klasę
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: „Azure Key Vault“ nustatymas saugos raktui valdyti
                       href: e-commerce-extensibility/set-up-key-vault.md
@@ -2152,7 +2184,7 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Būsimi „Retail SDK“ pakeitimai
                   href: dev-itpro/UpcomingSDKChanges.md
-                - name: Svarbūs naujinimai ir ALM pakeitimai iš versijos 10.0.10 į 10.0.13
+                - name: Naujinimai ir ALM pakeitimai iš versijos 10.0.10 į 10.0.13
                   href: dev-itpro/dev-changes-10-13.md
                 - name: „Commerce“ ir „Finance and Operations“ kūrimo sistemų suliejimas
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
@@ -2162,9 +2194,9 @@
                   href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
                 - name: Diegiamų paketų kūrimas
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
-                - name: Programavimas naudojant kūrėjų aplinkos diegimo debesyje įrankį be administravimo prieigos
+                - name: Programavimas naudojant aplinkos diegimo debesyje įrankį be administravimo prieigos
                   href: dev-itpro/cloud-dev-box.md
-                - name: Prekybos SDK kūrimo srauto nustatymas
+                - name: „Commerce SDK“ kūrimo srauto nustatymas
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
                 - name: Pavyzdžių ir paketų atsisiuntimas iš „GitHub“ ir „NuGet“
                   href: dev-itpro/retail-sdk/sdk-github.md
@@ -2238,7 +2270,7 @@
               items:
                 - name: „Commerce Scale Unit“ kliento ir vartotojo API
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: Kurti naują „Retail Server“ plėtinio API („Retail SDK“ 10.0.11 ir vėlesnė versija)
+                - name: „Retail Server“ plėtinio API („Retail SDK“ 10.0.11 ir vėlesnė versija) kūrimas
                   href: dev-itpro/retail-server-icontroller-extension.md
                 - name: Kurti naują „Retail Server“ plėtinio API („Retail SDK“ 10.0.11 ir ankstesnė versija)
                   href: dev-itpro/retail-server-extension.md
@@ -2300,11 +2332,11 @@
                   href: payment-connector-data-fields.md
                 - name: Apsaugos nuo mokėjimo dubliavimosi mokėjimo jungtyje įjungimas
                   href: dev-itpro/duplicate-payments-protection.md
-                - name: Programų naršyklės mokėjimo paketo kūrimas diegiant „Service Fabric“
+                - name: '„Commerce“ mokėjimo paketo, skirto „Finance and Operations“ kūrimas'
                   href: dev-itpro/payment-connector-package.md
             - name: Trečiosios šalies ir el. prekybos išplečiamumas
               items:
-                - name: Internetinių parduotuvių konfigūravimas
+                - name: Interneto parduotuvių konfigūravimas
                   href: dev-itpro/configure-online-store.md
                 - name: Autentifikavimo paslaugų teikėjų konfigūravimas
                   href: dev-itpro/configure-authentication-providers.md
