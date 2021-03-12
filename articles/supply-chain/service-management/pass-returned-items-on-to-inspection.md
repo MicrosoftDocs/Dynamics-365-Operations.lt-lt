@@ -11,48 +11,47 @@ ms.technology: ''
 ms.search.form: WMSJournalTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e8205db277715f4f4f9c1ee589f264c0ded6617
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7207c54a88b8a7fc6c38db50c4916d1fc16b5ec4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433618"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006687"
 ---
-# <a name="pass-returned-items-on-to-inspection"></a><span data-ttu-id="c7cbf-103">Grąžintų prekių perdavimas tikrinti</span><span class="sxs-lookup"><span data-stu-id="c7cbf-103">Pass returned items on to inspection</span></span> 
+# <a name="pass-returned-items-on-to-inspection"></a><span data-ttu-id="2935a-103">Grąžintų prekių perdavimas tikrinti</span><span class="sxs-lookup"><span data-stu-id="2935a-103">Pass returned items on to inspection</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="c7cbf-104">Registruodami grąžintą prekę, jūs galite nurodyti, kad prekė, prieš ją grąžinant į atsargas arba likviduojant kitu būdu, būtų nusiųsta patikrinti.</span><span class="sxs-lookup"><span data-stu-id="c7cbf-104">When registering a returned item, you may determine that an item should be sent for inspection before it is returned to inventory or disposed of in some other way.</span></span>
+<span data-ttu-id="2935a-104">Registruodami grąžintą prekę, jūs galite nurodyti, kad prekė, prieš ją grąžinant į atsargas arba likviduojant kitu būdu, būtų nusiųsta patikrinti.</span><span class="sxs-lookup"><span data-stu-id="2935a-104">When registering a returned item, you may determine that an item should be sent for inspection before it is returned to inventory or disposed of in some other way.</span></span>
 
-1.  <span data-ttu-id="c7cbf-105">Spustelėkite **Atsargų valdymas** \> **Žurnalai** \> **Prekių gavimas** \> **Prekių gavimas**.</span><span class="sxs-lookup"><span data-stu-id="c7cbf-105">Click **Inventory management** \> **Journals** \> **Item arrival** \> **Item arrival**.</span></span>
+1.  <span data-ttu-id="2935a-105">Spustelėkite **Atsargų valdymas** \> **Žurnalai** \> **Prekių gavimas** \> **Prekių gavimas**.</span><span class="sxs-lookup"><span data-stu-id="2935a-105">Click **Inventory management** \> **Journals** \> **Item arrival** \> **Item arrival**.</span></span>
     
-    <span data-ttu-id="c7cbf-106">\-arba-</span><span class="sxs-lookup"><span data-stu-id="c7cbf-106">\-or-</span></span>
+    <span data-ttu-id="2935a-106">\-arba-</span><span class="sxs-lookup"><span data-stu-id="2935a-106">\-or-</span></span>
     
-    <span data-ttu-id="c7cbf-107">Spustelėkite **Atsargų valdymas** \> **Žurnalai** \> **Prekių gavimas** \> **Gamybos įvestis**.</span><span class="sxs-lookup"><span data-stu-id="c7cbf-107">Click **Inventory management** \> **Journals** \> **Item arrival** \> **Production input**.</span></span>
+    <span data-ttu-id="2935a-107">Spustelėkite **Atsargų valdymas** \> **Žurnalai** \> **Prekių gavimas** \> **Gamybos įvestis**.</span><span class="sxs-lookup"><span data-stu-id="2935a-107">Click **Inventory management** \> **Journals** \> **Item arrival** \> **Production input**.</span></span>
 
-2.  <span data-ttu-id="c7cbf-108">Prekės gavimą kaip įprasta užregistruokite formoje **Vietos žurnalas**.</span><span class="sxs-lookup"><span data-stu-id="c7cbf-108">On the **Location journal** form, register the receipt of an item as usual.</span></span>
+2.  <span data-ttu-id="2935a-108">Prekės gavimą kaip įprasta užregistruokite formoje **Vietos žurnalas**.</span><span class="sxs-lookup"><span data-stu-id="2935a-108">On the **Location journal** form, register the receipt of an item as usual.</span></span>
     
 
     > [!NOTE]
-    > <P><span data-ttu-id="c7cbf-109">Daugiau informacijos apie grąžintų prekių gavimo registravimą žr. <A href="register-the-receipt-of-returned-items.md">Grąžintų prekių gavimo registravimas</A></span><span class="sxs-lookup"><span data-stu-id="c7cbf-109">For information about registering the receipt of returned items, see <A href="register-the-receipt-of-returned-items.md">Register the receipt of returned items</A></span></span></P>
+    > <P><span data-ttu-id="2935a-109">Daugiau informacijos apie grąžintų prekių gavimo registravimą žr. <A href="register-the-receipt-of-returned-items.md">Grąžintų prekių gavimo registravimas</A></span><span class="sxs-lookup"><span data-stu-id="2935a-109">For information about registering the receipt of returned items, see <A href="register-the-receipt-of-returned-items.md">Register the receipt of returned items</A></span></span></P>
 
 
 
-3.  <span data-ttu-id="c7cbf-110">Skirtuko **Numatytosios vertės** srityje **Tvarkymo būdas** pasirinkite langelį **Sulaikymo valdymas**.</span><span class="sxs-lookup"><span data-stu-id="c7cbf-110">On the **Default values** tab, in the **Mode of handling** area, select the **Quarantine management** box.</span></span>
+3.  <span data-ttu-id="2935a-110">Skirtuko **Numatytosios vertės** srityje **Tvarkymo būdas** pasirinkite langelį **Sulaikymo valdymas**.</span><span class="sxs-lookup"><span data-stu-id="2935a-110">On the **Default values** tab, in the **Mode of handling** area, select the **Quarantine management** box.</span></span>
 
-<span data-ttu-id="c7cbf-111">Taip nurodysite sistemai sukurti sulaikymo užsakymą, o asmuo arba padalinys, atliekantis tikrinimus, į šį užsakymą atsakys naudodamas formą **Sulaikymo užsakymas**.</span><span class="sxs-lookup"><span data-stu-id="c7cbf-111">This will prompt the system to create a quarantine order, and the person or department that performs inspections will respond to this order using the **Quarantine order** form.</span></span>
+<span data-ttu-id="2935a-111">Taip nurodysite sistemai sukurti sulaikymo užsakymą, o asmuo arba padalinys, atliekantis tikrinimus, į šį užsakymą atsakys naudodamas formą **Sulaikymo užsakymas**.</span><span class="sxs-lookup"><span data-stu-id="2935a-111">This will prompt the system to create a quarantine order, and the person or department that performs inspections will respond to this order using the **Quarantine order** form.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="c7cbf-112">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="c7cbf-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2935a-112">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="2935a-112">See also</span></span>
 
-[<span data-ttu-id="c7cbf-113">Grąžintų prekių patikrinimas</span><span class="sxs-lookup"><span data-stu-id="c7cbf-113">Take returned items through inspection</span></span>](take-returned-items-through-inspection.md)
+[<span data-ttu-id="2935a-113">Grąžintų prekių patikrinimas</span><span class="sxs-lookup"><span data-stu-id="2935a-113">Take returned items through inspection</span></span>](take-returned-items-through-inspection.md)
 
-[<span data-ttu-id="c7cbf-114">Nustatymas, kaip išmesti grąžintas prekes</span><span class="sxs-lookup"><span data-stu-id="c7cbf-114">Specify how to dispose of returned items</span></span>](specify-how-to-dispose-of-returned-items.md)
+[<span data-ttu-id="2935a-114">Nustatymas, kaip išmesti grąžintas prekes</span><span class="sxs-lookup"><span data-stu-id="2935a-114">Specify how to dispose of returned items</span></span>](specify-how-to-dispose-of-returned-items.md)
 
