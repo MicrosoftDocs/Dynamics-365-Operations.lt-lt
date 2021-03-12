@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c77d08d5877ab27f9b6549a5b2a666150938fc08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1abc86aa5c3863eba34f726b543792408a542383
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4446066"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976371"
 ---
 # <a name="reconcile-a-bank-account"></a>Banko sąskaitos suderinimas
 
@@ -71,6 +70,3 @@ Naudodami banko išrašo sudarymo atšaukimo funkciją galėsite atšaukti banko
 Banko išrašo suderinimus atšaukti galima tik chronologine tvarka pagal jų įvedimo laiką. Atšaukus banko išrašo suderinimą, naujos operacijos ir taisymai bus anuliuoti, o visos kitos operacijos bus pažymėtos kaip nesuderinamos.
  
 Norėdami atšaukti banko išrašo suderinimą, pasirinkite banko išrašą ir pasirinkite **Banko išrašas > Atšaukti banko suderinimą**. Puslapyje **Atšaukti banko suderinimą** pateikite **Priežasties kodą**, **Priežasties komentarą** ir **Atšaukimo datą**. Spustelėkite **Gerai**, kad pradėtumėte atšaukimą. Atkreipkite dėmesį, kad banko išrašo atšaukimo data turi sutapti arba būti vėlesnė nei banko išrašo data. Atšaukus banko išrašo suderinimą, banko išrašo laukas **Atšaukimo data** bus atnaujintas pateikta **Atšaukimo data**. Spustelėkite mygtuką **Operacijos**, kad peržiūrėtumėte operacijas, kurių suderinimas buvo atšauktas.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

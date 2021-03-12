@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: b86fe2f3ea4321dbe598233018934187ba0d713a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bcae977ede91dcaf4e455353f023e9eee4fcb2b1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433392"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977493"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Automatinis siuntos išleidimas skirstant prekes
 
@@ -179,6 +178,3 @@ Atkreipkite dėmesį į vykstančius įvykius:
 - Suaktyvinamas susijusio pardavimo užsakymo išleidimas į sandėlį.
 - Remiantis išleidimu, sukuriama siunta ir prekių skirstymas. Šis darbas nurodo sandėlio operatoriui paimti kiekius, kurie reikalingi pardavimo užsakymo eilutei įvykdyti, ir perkelti juos į pakrovimo vietą, nurodytą prekių skirstymo vietos nurodyme.
 - Jei gamybos užsakymo kiekis yra didesnis nei kiekis, kurio reikia pardavimo užsakymui, sukuriamas įprastas atidėjimo darbas. Šis darbas nurodo sandėlio operatoriui paimti gatavų prekių kiekį, kuris lieka po prekių skirstymo ir perkelti jį į įprastą sandėliavimo vietą, atsižvelgiant į vietos nurodymą.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

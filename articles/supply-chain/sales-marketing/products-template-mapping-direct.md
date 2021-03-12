@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 6ffd55585ff43f993876de6c669eb61e74a9fd79
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: ecee843b6c09c86b4e40ab34cc113e5a7e7c76f8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527319"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977693"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>Tiesioginis produktų sinchronizavimas naudojant Tiekimo grandinės valdymą su „Sales“ produktais
 
@@ -33,7 +32,7 @@ ms.locfileid: "4527319"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> Prieš naudodami sprendimą Potencialūs klientai ir grynieji pinigai, turėtumėte būti susipažinę su [Duomenų integravimas į „Common Data Service“, skirtą programoms](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> Prieš naudodami sprendimą Potencialūs klientai ir grynieji pinigai, turėtumėte būti susipažinę su [Duomenų integravimas į „Microsoft Dataverse“, skirtą programoms](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojamos „Dynamics 365 Supply Chain Management“ produktus tiesiogiai sinchronizuojant su „Dynamics 365 Sales“.
 
@@ -80,7 +79,7 @@ Išoriškai tvarkomi produktai automatiškai įtraukiami į pirmąjį tinkamą k
 
 > [!NOTE]
 > - Jei nebus valiutą atitinkančio kainoraščio, produktų sinchronizuoti nepavyks.
-> - Negalite kontroliuoti naudoto kainų sąrašo su integravimu sudarant žemėlapį pagal pricelevelid.name [Numatytasis kainų sąrašas (Pavadinimas)] „Data Integration“ projekte. Visą įvestį turi sudaryti mažosios raidės. Pavyzdžiui, numatytasis kainų sąrašas „Sales“ pavadinimų „Standard“ būtų: Paskirties laukelis: pricelevelid.name [Numatytasis kainų sąrašas (Pavadinimas)] ir žemėlapio tipas: [ { "keitimo Tipas": „Numatytasis", „Numatytoji vertė": „standartinė" } ].
+> - Naudojamą kainoraštį su integracija galite valdyti projekte Duomenų integravimas susieję pricelevelid.name [Numatytasis kainoraštis (pavadinimas)]. Visą įvestį turi sudaryti mažosios raidės. Pavyzdžiui, numatytoji „Sales“ kainoraščio pavadinimu „Standartinis“ reikšmė būtų: Paskirties laukas: pricelevelid.name [Numatytasis kainoraštis (pavadinimas)], o Susiejimo tipas: [ { "transformType": "Default", "defaultValue": "standard" } ].
 
 ## <a name="preconditions-and-mapping-setup"></a>Išankstinės sąlygos ir susiejimo nustatymas
 
@@ -124,6 +123,3 @@ Toliau pateiktoje iliustracijoje vaizduojamas šablono susiejimo pavyzdys naudoj
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

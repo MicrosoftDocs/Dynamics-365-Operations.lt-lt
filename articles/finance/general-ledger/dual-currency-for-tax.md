@@ -3,7 +3,7 @@ title: Mokesčiuose dviejų valiutų palaikymas
 description: Šioje temoje paaiškinama, kaip išplėsti dviejų valiutų apskaitos funkciją mokesčių srityje, ir nurodoma, koks gali būti poveikis mokesčiams apskaičiuoti ir registruoti
 author: EricWang
 manager: Ann Beebe
-ms.date: 12/16/2019
+ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 9e5db8e4bbd14aa30196e3be617cdfcb72c091fd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2e3e7ff93ca3c6a2266ba0f33c8eac7ceade0d4d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445950"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978609"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>PVM dviejų valiutų palaikymas
 [!include [banner](../includes/banner.md)]
@@ -44,8 +43,7 @@ Daugiau informacijos apie dviejų valiutų funkciją rasite [Dvi valiutos](dual-
 
 Dėl dviejų valiutų palaikymo funkcijų valdyme atsirado dvi naujos funkcijos: 
 
-- PVM konvertavimas (10.0.9 versijoje)
-- Mokesčių sudengimo automatinis balansas ataskaitų valiuta (10.0.11 versijoje)
+- Prekybos mokesčių konvertavimas (naujas versijoje 10.0.13)
 
 Dviejų valiutų palaikymas PVM srityje užtikrina, kad mokesčiai bus tiksliai apskaičiuoti mokesčių valiuta ir kad PVM sudengimo balansas bus apskaičiuotas tiksliai ir apskaitos valiuta, ir ataskaitų valiuta. 
 
@@ -53,8 +51,8 @@ Dviejų valiutų palaikymas PVM srityje užtikrina, kad mokesčiai bus tiksliai 
 
 Parametras **PVM konvertavimas** suteikia dvi parinktis, kaip galima konvertuoti mokesčių sumą iš operacijos valiutos į mokesčių valiutą. 
 
-- Apskaitos valiuta: kelias: Suma operacijos valiuta > Suma apskaitos valiuta > Suma mokesčių valiuta. Valiutos konvertavimui bus naudojamas apskaitos valiutos kurso tipas (sukonfigūruotas DK sąrankoje).
-- Ataskaitų valiuta: kelias: Suma operacijos valiuta > Suma ataskaitų valiuta > Suma mokesčių valiuta. Valiutos konvertavimui bus naudojamas ataskaitų valiutos kurso tipas (sukonfigūruotas DK sąrankoje).
+- Apskaitos valiuta: kelias: Suma operacijos valiuta > Suma apskaitos valiuta > Suma mokesčių valiuta. Apskaitos valiutos keitimo kurso tipas (konfigūruojamas mokesčių valiutos nustatyme) bus naudojamas valiutos konvertavimui.
+- Ataskaitų valiuta: kelias: Suma operacijos valiuta > Suma ataskaitų valiuta > Suma mokesčių valiuta. Ataskaitų valiutos keitimo kurso tipas (konfigūruojamas mokesčių valiutos nustatyme) bus naudojamas valiutos konvertavimui.
 
 ### <a name="example"></a>Pavyzdys
 
@@ -109,7 +107,7 @@ Mokesčių, tik įrašytų lentelėje TAXUNCOMMITTED, bet dar neužregistruotų 
 
 ## <a name="tax-settlement-auto-balance-in-reporting-currency"></a>Mokesčių sudengimo automatinis balansas ataskaitų valiuta
 
-Jei mokesčių sudengimas nėra subalansuotas ataskaitų valiuta dėl tam tikrų priežasčių, pvz., PVM konvertavimo kelias yra Apskaitos valiuta, arba valiutos kursas pasikeitė vieno mokesčio sudengimo laikotarpiu, sistema automatiškai sugeneruos apskaitos įrašus, kad būtų galima koreguoti mokesčio sumos nuokrypį ir kompensuoti jį pagal gautą pelną / nuostolį, kuris sukonfigūruotas DK sąrankoje.
+Jei mokesčių nustatymas yra nesubalansuotas ataskaitų valiutoje dėl tam tikrų priežasčių, tokių kaip prekybos mokesčių konveratvimo kelio „Apskaitos valiuta“ arba keitimo kurso pasikeitimo vieno mokesčio nustatymo laikotarpio metu, tuomet sistema automatiškai sukurs apskaitos įrašus, kad pakeistų mokesčio vertės pokyčius ir paleis juos pagal atliktų keitimų pelną ar nuostolius, kurie konfigūruojami mokesčių valiutos nustatyme.
 
 Pagal ankstesnį pavyzdį šiai funkcijai pademonstruoti, įsivaizduokite, kad registravimo metu lentelėje TAXTRANS yra tokie duomenys.
 
@@ -145,6 +143,3 @@ Daugiau informacijos ieškokite šiose temose:
 - [Dvi valiutos](dual-currency.md)
 - [PVM apžvalga](indirect-taxes-overview.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

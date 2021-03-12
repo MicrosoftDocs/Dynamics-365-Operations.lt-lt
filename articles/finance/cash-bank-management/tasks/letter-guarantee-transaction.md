@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Reasons, SalesTableListPage, SalesCreateOrder, SalesTable, BankLGRequestForm, BankLGRequestFormRequest, BankLGGuarantee, BankLGFormSubmitToBank, BankDocumentAgreementLineLookup, BankLGFormReceiveFromBank, LedgerJournalTable, LedgerJournalTransDaily, BankLGRequestFormGiveToBeneficiary, BankLGFormGiveToBeneficiary, BankLGRequestFormIncreaseValue, BankLGFormIncreaseValue, BankLGRequestFormLiquidate, BankLGFormLiquidate
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 05abad6898c2b97cf66abdff21b30407dacd6488
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5f13ea1f9acd48cc1e7dce794369e89901bdb582
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4446087"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976336"
 ---
 # <a name="letter-of-guarantee-transaction"></a>Garantinio rašto operacija
 
@@ -148,6 +147,3 @@ Prieš baigdami šitą procedūrą, turite įvykdyti toliau nurodytas užduotis:
     * Patikrinkite užregistruotus žurnalo įrašus.  
 16. Uždarykite puslapį.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 094b8876b3b10b6dcbc0ce399a1a9915271459ed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0ebc6fcfe20082f76007eabb86d5e33dbfc900dc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4446132"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976459"
 ---
 # <a name="configure-settlement"></a>Sudengimo konfigūravimas
 
@@ -67,6 +66,3 @@ Norint išvengti papildomų apskaitos įrašų, debeto ir kredito toje pačioje 
 
 -   Organizacijos dažnai naudoja fiksuotas dimensijas, kad nereikalingą finansinę dimensiją užpildytų nuliais. Tai paprastai daroma su balanso sąskaitomis, pvz., gautinomis / mokėtinomis sumomis. Sąskaitos struktūrą galima panaudoti tam, kad finansinės dimensijos, kurios paprastai užpildomos nuliais, nebūtų sekamos.  Iš balanso sąskaitų galite pašalinti finansinę dimensiją, kad nereikėtų naudoti fiksuotų dimensijų.
 -   Jei jūsų organizacija reikalauja, kad gautinų / mokėtinų sumų pagrindinėje sąskaitoje būtų nurodytos fiksuotos dimensijos, raskite būdą, kaip mokėjime nustatyti numatytąją fiksuotą dimensiją, kad fiksuotos dimensijos reikšmė būtų saugoma tiekėjo mokėjimo operacijos srityje. Tokiu būdu sistema atkurs gautinas / mokėtinas sumas pagrindinėje sąskaitoje, įtraukdama fiksuotas dimensijos reikšmes. Fiksuotos dimensijos reikšmę kaip numatytąją galima apibrėžti tiekėjų arba mokėjimų žurnalo pavadinimo srityje.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

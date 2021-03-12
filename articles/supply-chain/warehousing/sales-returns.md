@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ReturnTableListPage, ReturnTable, ReturnTableListPagePreviewPane, ReturnTableReferences, SalesReturnExpiredOrdersPart, SalesReturnFindOrderFormPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd194042303797fe41507065d0d7e4df28309cfb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e8778a96030494cbb5d819bf214fca104864eff4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433385"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977418"
 ---
 # <a name="sales-returns"></a>Pardavimo grąžinimai
 
@@ -87,7 +86,7 @@ Užbaigę grąžinimo antraštę, galite kurti grąžinimo eilutes pagal vieną 
 -   Rankiniu būdu įveskite prekės informaciją, kiekį ir kitą informaciją kiekvienoje grąžinimo eilutėje.
 -   Grąžinimo eilutę kurkite naudodami funkciją **Rasti pardavimo užsakymą**. Rekomenduojame naudoti šią funkciją, kai kursite grąžinimo užsakymą. Funkcija **Rasti pardavimo užsakymą** sukuria nuorodą iš grąžinimo eilutės į pardavimo užsakymo eilutę, kuriai išrašyta SF, ir iš pardavimo eilutės nuskaito eilutės informaciją, pvz., prekės numeris, kiekis, kaina, nuolaida ir savikainos vertes. Nuoroda padeda užtikrinti, kad kai produktas grąžinamas įmonei, jis įvertintas tokia pat savikaina, kokia ir buvo parduotas. Nuoroda taip pat patvirtinama, kad grąžinimo užsakymų nesukuriama tiek, kad kiekis viršytų sąskaitoje faktūroje nurodytą kiekį.
 
->[Pastaba!] Grįžimo eilutės, kurios turi nuorodą į pardavimo užsakymą yra tvarkomos kaip pardavimo korekcijos arba grįžimai. Išsamesnės informacijos žr. skyriuje „Registravimas į didžiąją knygą“ toliau šioje temoje.
+>[Pastaba!] Grąžinimo eilutės, turinčios nuorodą į pardavimo užsakymą, tvarkomos kaip pardavimo pataisos arba atšaukimai. Išsamesnės informacijos žr. skyriuje „Registravimas į didžiąją knygą“ toliau šioje temoje.
 
 ### <a name="charges"></a>Išlaidos
 
@@ -193,7 +192,7 @@ Gavimo proceso metu grąžinimai integruojami su bendruoju sandėlio gavimo proc
 ### <a name="identify-products-in-the-arrival-overview-list"></a>Produktų identifikavimas Gavimo apžvalgos sąraše
 
 Puslapyje **Gavimo apžvalga** pateikiamas visų suplanuotų įeinančių gavimų sąrašas. 
->[Pastaba!] Atvykimai iš grąžinamų užsakymų turi būti apdoroti atskirai nuo kitų atvykimo perlaidų tipų. Po to, kai identifikuosite gaunamą paketą puslapyje **Gavimo apžvalga** (pvz., naudojant lydintį RMA dokumentą), veiksmų srityje spustelėję **Pradėti gavimą** kurkite ir inicijuokite gavimo žurnalą, kuris sutampa su gavimu.
+>[Pastaba!] Gavimus iš grąžinimo užsakymų reikia apdoroti atskirai nuo kitų tipų gavimo operacijų. Po to, kai identifikuosite gaunamą paketą puslapyje **Gavimo apžvalga** (pvz., naudojant lydintį RMA dokumentą), veiksmų srityje spustelėję **Pradėti gavimą** kurkite ir inicijuokite gavimo žurnalą, kuris sutampa su gavimu.
 
 ### <a name="edit-the-arrival-journal"></a>Gavimo žurnalo redagavimas
 
@@ -235,7 +234,7 @@ Jei klientui išsiųsite pakaitalą ir perdavimo veiksmą **Pakeisti ir nurašyt
 
 Pakaitalas bus pristatytas naudojant atskirą pardavimo užsakymą – pakeitimo pardavimo užsakymą. Šis pardavimo užsakymas sukuriamas, kai sugeneruojamas grąžinimo užsakymo važtaraštis. Užsakymo antraštėje naudojama informacija iš kliento, kuris nurodytas grąžinimo užsakymo antraštėje. Eilutės informacija surenkama iš puslapyje **Prekės pakaitalas** įvestos informacijos. Turi būti užpildytos puslapio **Prekės pakaitalas** eilutės, susijusios su perdavimo veiksmais, kurios prasideda žodžiu „pakeisti“. Tačiau, nei prekės pakaitalo kiekis, nei tapatybė nėra patikrinta ar apribota. Šis veikimo būdas leidžia atvejus, kai klientas nori tos pačios prekės tik kitokia konfigūracija ar dydžiu, ir tuos atvejus, kai klientas nori visai kitokios prekės. Pagal numatytuosius nustatymus, identiška prekė įvedama puslapyje **Prekės pakaitalas**. Tačiau galite pasirinkti kitokią prekę, jei tokia funkcija yra nustatyta. 
 
->[Pastaba!] Galite redaguoti ir panakinti pakeičiamų pardavimų užsakymą po jo sukūrimo.
+>[Pastaba!] Sukūrus pakeitimo pardavimo užsakymą galima jį redaguoti ir panaikinti.
 
 ## <a name="generate-a-packing-slip"></a>Važtaraščio generavimas
 Prieš tai, kai grąžintos prekės bus gautos į atsargas, turite atnaujinti užsakymo, kuriam tos prekės priklauso, važtaraštį. Kaip sąskaitos faktūros atnaujinimo procesas yra finansinės operacijos atnaujinimas, važtaraščio atnaujinimas yra fizinis atsargų įrašo atnaujinimas. Kitaip tariant, jo metu atliekami atsargų pakeitimai. Grąžinimo atvejais važtaraščio atnaujinimo metu atliekami tie žingsniai, kurie priskirti perdavimo veiksmui. Generuojant važtaraštį atliekami toliau nurodyti įvykiai:
@@ -257,7 +256,7 @@ Puslapyje **Grąžinimo užsakymas** pateikiama informacija ir veiksmai, kurie r
 ### <a name="credit-correction"></a>Kredito koregavimas
 
 SF išrašymo proceso metu patvirtinkite, kad papildomos išlaidos yra teisingos. Norint, kad didžiosios knygos registravimai taptų taisymais („Storno“), galbūt registruodami SF / kredito pažymą norėsite naudoti parinktį **Kredito koregavimas**, esančią skirtuke **Kita**, puslapyje **SF registravimas**. 
->[Pastaba!] Pagal nutylėjimą, **Kredito taisymo** parinktis aktyvuojama, jei **Kredito pastaba kaip taisymas** parinktis puslapyje **Paskyrų gavimo parametrai** buvo įjungti. Tačiau rekomenduojame neregistruoti grąžinimų su „Storno“.
+>[Pastaba!] Pagal numatytuosius nustatymus, parinktis **Kredito koregavimas** suaktyvinama, jei puslapyje **Gautinų sumų parametrai** įgalinta parinktis **Kredito pažyma kaip pataisymas**. Tačiau rekomenduojame neregistruoti grąžinimų su „Storno“.
 
 ## <a name="create-intercompany-return-orders"></a>Vidinės įmonės grąžinimo užsakymų kūrimas
 Grąžinimo užsakymus galima užbaigti tarp dviejų vidinių jūsų organizacijos įmonių. Palaikomi toliau nurodyti scenarijai:
@@ -311,7 +310,7 @@ Grąžinimo užsakymas nenurodo į kliento sąskaitą faktūrą. Grąžinta prek
 
 ![Grąžinimo užsakymas nenurodo į kliento sąskaitą faktūrą](./media/SalesReturn09.png)  
 
->[Pastaba!] Elemento pagrindinė kaina naudojama kaip nustatytoji vertė **Grąžinamo kaštų kainos** parametrui. Numatytoji kaina skiriasi nuo savikainos atsargų išdavimo metu. Todėl implikuojama, kad patirtas nuostolis yra 3. Be to, grąžinimo užsakymas neapima nuolaidos, kuri buvo suteikta klientui pardavimo užsakyme. Todėl susidaro kredito perviršis.
+>[Pastaba!] Pagrindinė prekės kaina naudojama kaip numatytoji parametro **Grąžinimo savikaina** vertė. Numatytoji kaina skiriasi nuo savikainos atsargų išdavimo metu. Todėl implikuojama, kad patirtas nuostolis yra 3. Be to, grąžinimo užsakymas neapima nuolaidos, kuri buvo suteikta klientui pardavimo užsakyme. Todėl susidaro kredito perviršis.
 
 ### <a name="example-2-credit-correction-is-selected-for-the-return-order"></a>2 pavyzdys: grąžinimo užsakymui pasirinktas kredito koregavimas
 
@@ -319,7 +318,7 @@ Grąžinimo užsakymas nenurodo į kliento sąskaitą faktūrą. Grąžinta prek
 
 ![Grąžinimo užsakymas, kai pasirinktas kredito koregavimas ](./media/SalesReturn10.png)  
 
->[Pastaba!] Buhalterijos knygos publikacijos yra įvedamos kaip neigiamos korekcijos.
+>[Pastaba!] Didžiosios knygos registravimai įvesti kaip neigiami pataisymai.
 
 ### <a name="example-3-the-return-order-line-is-created-by-using-the-find-sales-order-function"></a>3 pavyzdys: grąžinimo užsakymo eilutė sukurta naudojant funkciją Rasti pardavimo užsakymą
 
@@ -327,10 +326,7 @@ Grąžinimo užsakymas nenurodo į kliento sąskaitą faktūrą. Grąžinta prek
 
 ![Grąžinimo užsakymo eilutė, kuri sukurta naudojant funkciją Rasti pardavimo užsakymą ](./media/SalesReturn11.png)  
 
->[Pastaba!] **Nuolaida** ir **Grąžinimo kaštuų kaina** yra nustatyta tinkamai. Todėl įvyksta kliento sąskaitos faktūros tikslus atšaukimas.
+>[Pastaba!] **Nuolaida** ir **Grąžinimo savikaina** nustatytos tinkamai. Todėl įvyksta kliento sąskaitos faktūros tikslus atšaukimas.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

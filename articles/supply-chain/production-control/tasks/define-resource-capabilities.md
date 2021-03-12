@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WrkCtrCapability
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c07d3fe1969f3baea484991e74f668eade813d78
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 93b30cbe660d224f0a92f4e412d2b1ba33af3f9b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433293"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977843"
 ---
 # <a name="define-resource-capabilities"></a>Apibrėžkite išteklių galimybės
 
@@ -49,6 +48,3 @@ Išteklių pajėgumai apibūdina, ką gali atlikti operacijų ištekliai. Planuo
 5. Lauke Lygis įveskite skaičių.
     * Kai nurodote, kad užduočiai arba operacijai atlikti reikia konkrečių pajėgumų, taip pat galite nurodyti minimalų reikiamą lygį. Pajėgumų lygį naudokite norėdami diferencijuoti išteklius, kurie gali atlikti tą pačią užduotį, tik skirtingu greičiu, pajėgumu, mastu ir t. t.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

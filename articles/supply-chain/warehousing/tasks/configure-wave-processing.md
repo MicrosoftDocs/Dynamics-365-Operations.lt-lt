@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSParameters, ProdParameters, whswavetablecreatenew, WHSWaveTable, WHSWaveAttributes, WHSKanbanWaveTable, WHSWaveTableListPage, WHSKanbanWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aa193f6d62613893f9d5da4351d43a810dbf1596
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: e22816b33739141fbcd188d631a07313db415959
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433981"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977293"
 ---
 # <a name="configure-wave-processing"></a>Bangos apdorojimo konfigūravimas
 
@@ -61,6 +60,3 @@ ms.locfileid: "4433981"
 Pardavimo užsakymų ir „kanban“ užsakymų atsargos turi būti rezervuotos prie išleidžiant užsakymą į sandėlį. Kitu atveju prekės arba paskirstymo eilutės negalės būti apdorojamos bangoje. Gamybos užsakymuose taip pat galite pasirinkti Leisti dalinį rezervavimą. Pvz., tai naudinga, jei turite medžiagų, kurių reikia, kad galėtumėte pradėti gamybą, ir galite palaukti, kol taps pasiekiamos papildomos medžiagos procesui baigti. Jei pasirinksite šią parinktį, turėsite rankiniu būdu kartoti išleidimo į sandėlį procesą, kai taps pasiekiama papildomų medžiagų.  
 25. Uždarykite puslapį.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

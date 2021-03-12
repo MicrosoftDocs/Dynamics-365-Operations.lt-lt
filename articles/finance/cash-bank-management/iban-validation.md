@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 28abef376e8462c9a69dbd8e5033ea799b6a4b3a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b206dbda56acd4fcd4aa98be4b5e0d6c839f0354
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4446009"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976421"
 ---
 # <a name="manage-international-bank-account-number-iban-account-validation"></a>Tarptautinio banko sąskaitos numerio (IBAN) sąskaitos tikrinimo valdymas
 
@@ -48,6 +47,3 @@ Informacija apie IBAN struktūrą saugoma „Microsoft Dynamics 365 Finance“. 
     Tikrinimo metu taip pat patikrinama, ar banko sąskaitos numeris sutampa su IBAN dalimi, kuri nurodo banko sąskaitos numerį. Jei banko sąskaitos numeris nesutampa, gausite įspėjamąjį pranešimą. Šis pranešimas yra tik perspėjimas. Galite tęsti net jei banko sąskaitos numeris nesutampa.
 
     Tikrinimo metu taip pat patikrinama, ar banko įmonės registracijos numeris sutampa su ta IBAN dalimi, kurioje nurodomas banko įmonės registracijos numeris. Įmonės registracijos numeris apima banko numerį ir (dažnai) papildomą banko filialą. Jei banko įmonės registracijos numeris nesutampa, gausite įspėjamąjį pranešimą. Šis pranešimas yra tik perspėjimas. Galite tęsti net jei banko įmonės registracijos numeris nesutampa.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

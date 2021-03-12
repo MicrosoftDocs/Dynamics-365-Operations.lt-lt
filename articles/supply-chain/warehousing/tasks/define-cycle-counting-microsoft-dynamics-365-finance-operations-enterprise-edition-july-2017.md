@@ -1,5 +1,5 @@
 ---
-title: 'Apibrėžti ciklo skaičiavimą '
+title: Apibrėžti ciklo skaičiavimą
 description: Ciklo skaičiavimas yra sandėlio procesas, kurį galite naudoti norėdami audituoti turimas atsargų prekes.
 author: MarkusFogelberg
 manager: tfehr
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSRFMenuItemCycleCount, WHSCycleCountThreshold, WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSParameters, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8b7f39fc9a91d9fe219445e409d000266e24775
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f1424bc4c4ff0f8528d6577e80324082cb2ec7f4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433952"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977168"
 ---
-# <a name="define-cycle-counting"></a>Apibrėžti ciklo skaičiavimą  
+# <a name="define-cycle-counting"></a>Apibrėžti ciklo skaičiavimą 
 
 [!include [banner](../../includes/banner.md)]
 
@@ -43,7 +42,7 @@ Ciklo skaičiavimas yra sandėlio procesas, kurį galite naudoti norėdami audit
 3. Lauke **Meniu elemento pavadinimas** įveskite reikšmę.
 4. Lauke **Pavadinimas** įveskite reikšmę.
 5. Lauke **Režimas** pasirinkite Darbas.
-6. Nustatykite parinktį **Naudoti esamą darbą** į Taip.  Kai nustatote šią parinktį Taip, sistema ieškos esamo darbo, kuriam atlikti naudojamas mobiliojo įrenginio meniu elementas.  
+6. Nustatykite parinktį **Naudoti esamą darbą** į Taip. Kai nustatote šią parinktį Taip, sistema ieškos esamo darbo, kuriam atlikti naudojamas mobiliojo įrenginio meniu elementas.  
 7. Lauke **Nurodyta pagal** pasirinkite Sistemos nurodyta. Pasirinkus „Sistemos nurodyta“, sandėlio darbuotojas bus nukreiptas atlikti atvirą darbą, apibrėžtą darbo klasėse. (Mes sukursime šias darbo klases paskui.)  
 8. Išplėskite parinkties **Darbo klasės** „fastTab“. Dabar mes sukursime dvi darbo klases, kurios bus naudojamos su šiuo mobiliojo įrenginio meniu elementu. Naudojant meniu elementą bus ieškoma šių darbo klasių, ir todėl vartotojui bus rodomas darbas, kurio prioritetas aukščiausias.  
 9. Spustelėkite **Naujas**.
@@ -96,6 +95,3 @@ Ciklo skaičiavimas yra sandėlio procesas, kurį galite naudoti norėdami audit
 21. Spustelėkite **Gerai**.
 22. Uždarykite puslapį.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

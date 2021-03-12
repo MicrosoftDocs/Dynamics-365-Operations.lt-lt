@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSDispositionTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d84699e8e4323792ac67b69236d264e33eeaf28
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: b7c98526423b28fcb6c4e00a9f2cfd84d5a9119e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433980"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977018"
 ---
 # <a name="set-up-dispositions-codes"></a>Nustatyti perdavimo kodus
 
@@ -41,6 +40,3 @@ ms.locfileid: "4433980"
 6. Lauke „Grąžinti perdavimo kodą“ įveskite reikšmę.
     * Grąžinimo perdavimo kodas nulemia registruotų prekių grąžinimo užsakymo proceso likutį. Šiame pavyzdyje klientas turėtų gauti kredito pažymą. Įtraukite grąžinimo perdavimo kodą, kuriame yra veiksmas „Kreditas“.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

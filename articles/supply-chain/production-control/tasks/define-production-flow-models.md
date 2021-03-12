@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanProductionFlowModel
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 511c466d6019cb182c9ada0b02172b8eeb3725e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 22aabf2d0cecf272ac25ba3adde8cc650b069af9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433294"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977868"
 ---
 # <a name="define-production-flow-models"></a>Nustatyti gamybos eigos modelius
 
@@ -46,6 +45,3 @@ Gamybos eigos modeliai apibūdina, kaip apskaičiuojamas ir tvarkomas pažangios
 8. Lauke Pajėgumo trūkumo reakcija pasirinkite pasirinktį.
     * Galimos parinktys: atidėti – atidedama visa planavimo įvykio paklausa kitą pasiekiamą gamybos datą su galimu našumu. Atšaukti – baigti automatinį planavimo įvykio planavimą ir palikti susijusias užduotis.   Įtraukti į pageidaujamą datą – planuoti pageidaujamas užduotis užklausų laikotarpiui. Tokiu būdu perkraunamas šios datos langelis ir iš planuotojo reikalaujama peržiūrėti ir rankiniu būdu atlikti veiksmus.   Paskirstyti turimiems laikotarpiams – skirtingos planavimo įvykio užduotys paskirstomos visoms pasiekiamoms gamybos datoms pradedant nuo pirmos pasiekiamos datos. Minimalus paskirstymo kiekis yra „kanban“ užduoties kiekis. Paskirstymas priskiria minimalų planavimo kiekį („kanban“ kiekį) kiekvienai datai su pakankamu našumu.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

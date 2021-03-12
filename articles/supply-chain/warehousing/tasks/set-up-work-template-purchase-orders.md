@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSWorkTemplateTable, SysQueryForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6628936a56619de255ca7dc7b332b5819918c310
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e9acf6db9138a009527c6662f1cbb7e5fedc8778
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433804"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976868"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Pirkimo užsakymų darbo šablono nustatymas
 
@@ -61,6 +60,3 @@ ms.locfileid: "4433804"
 6. Lauke **Darbo klasės ID** įveskite reikšmę. Paėmimo ir padėjimo instrukcijos yra rinkinys. Kiekvienas paėmimo / padėjimo rinkinys turi būti tos pačios darbo klasės. Naudokite tą pačią darbo klasę, kurią nurodėte paėmimo instrukcijoje.  
 7. Pasirinkite **Įrašyti**. Atkreipkite dėmesį, kad žymimasis langelis **Galioja** dabar yra pažymėtas.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
