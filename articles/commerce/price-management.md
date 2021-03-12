@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a90f5706c87d398f495fae40f42f6c2d408b1c2a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8b381ec0535676b77a62bc748fd2ca1c521839ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414223"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972460"
 ---
 # <a name="retail-sales-price-management"></a>„Retail“ pardavimo kainų valdymas
 
@@ -240,6 +239,3 @@ Be to, toliau nurodytas kainodaros funkcijas palaiko **tik** kainodaros mechaniz
 Kaina yra vienas iš svarbiausių veiksnių, nuo kurių priklauso daugelio klientų pirkimo sprendimai, ir dauguma klientų prieš įsigydami palygina kainas įvairiose svetainėse. Siekdami užtikrinti, kad būtų pateiktos konkurencingos kainos, mažmenininkai atidžiai stebi savo konkurentus ir dažnai organizuoja akcijas. Siekiant padėti šiems mažmenininkams pritraukti klientų, labai svarbu, kad atliekant produktų paiešką, naudojantis naršymo funkcija, sąrašais ir produkto informacijos puslapiu būtų rodomos tiksliausios kainos.
 
 Naujesnėje „Commerce“ versijoje programėlės programavimo sąsaja (API)**„GetActivePrices“** grąžins kainas, į kurias įeina paprastos nuolaidos (pavyzdžiui, vienos eilutės nuolaidos, nepriklausančios nuo kitų krepšelio prekių). Tokiu būdu rodomos kainos beveik atitinka faktinę sumą, kurią klientai moka už prekes. Ši API apima visų tipų paprastas nuolaidas: pagal priskyrimą, pagal lojalumą, pagal katalogą ir pagal kanalą. Be to, API nurodomi pavadinimai ir pateikiama informacija apie taikomas nuolaidas, kad mažmenininkai galėtų pateikti išsamesnį kainos aprašymą ir sukurti skubos jausmą, jei nuolaidos galiojimo laikas greitai baigsis.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

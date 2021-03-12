@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AccountingDistribution
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 17231
 ms.assetid: 9030355d-8e6e-408b-9e7d-7b346eaa652c
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9a627ba33065086d21c758a1b8d8f2fa2f6ef02
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3901fb61c1c8f9a9fd13b8ea558877daf884f3ee
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4446148"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972249"
 ---
 # <a name="accounting-distributions"></a>Apskaitos paskirstymai
 
@@ -57,6 +56,3 @@ Bendrosios apskaitos paskirstymo galimybės suteikia tokias apskaitos paskirstym
 10.0.13 versijoje įtraukta funkcija, tikrinanti apskaitos paskirstymo lentelę, siekiant užtikrinti, kad nauji laukai būtų tinkamai nustatyti. Ši funkcija vadinama **Įjungti papildomą dokumentų, naudojančių šaltinio dokumento apskaitos sistemą, duomenų tikrinimą**. Norėdami naudoti šią funkciją, turite įjungti ją naudodami darbo sritį **Funkcijų valdymas**. Norėdami įjungti funkciją, ieškokite funkcijos pavadinimo puslapio **Funkcijų valdymas** lauke **Ieška**, tada pasirinkite **Įjungti dabar**.
 
 Daugiau informacijos žr. dalyje [Apskaitos paskirstymai ir papildomos knygos žurnalo įrašai, skirti tiekėjo SF](accounting-distributions-subledger-journal-entries-vendor-invoices.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

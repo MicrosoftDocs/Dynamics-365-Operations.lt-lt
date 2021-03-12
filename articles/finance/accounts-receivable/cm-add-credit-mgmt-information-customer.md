@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 919aa50136f02a44eb69146589496ad1284721f2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a04180a5dbec1e08d0149beeed0495a0d13af76c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445962"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971733"
 ---
 # <a name="add-credit-management-information-for-customers"></a>Klientų kreditų valdymo informacijos įtraukimas
 
@@ -102,6 +101,3 @@ Galite kurti draudimo polisus ir garantijas puslapyje **Visi klientai** (**Gauti
     Šiuo atveju faktinis kredito limitas yra 125 000 (= A + \[B × C\]).
     
     Tačiau, jei pažymėsite žymės langelį **įtrauktas į išlaikymą**, vertė **Atnaujinti kredito limitą**, lygi 50 000 (=50,00 procentų vertės 100 000), pašalinama, o išlaikymo vertė yra 75 000 (= A + \[B × C\] – B).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
