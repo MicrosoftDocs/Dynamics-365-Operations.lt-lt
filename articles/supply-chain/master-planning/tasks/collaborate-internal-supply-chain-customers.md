@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, ReqOutboundIntercompanyDemand
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 84c42e550d51e40b7f777c3da67ed765519ddfd0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f39f487ea29bf923c82c08aff56ff5350da0810e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433615"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987234"
 ---
 # <a name="collaborate-with-internal-supply-chain-customers"></a>Bendradarbiauti su vidinės tiekimo grandinės klientais
 
@@ -43,6 +42,3 @@ ms.locfileid: "4433615"
 8. Išplėskite skyrių Poreikio proceso pradžioje informacija.
     * Šiame skyriuje galite peržiūrėti informaciją apie tai, kaip poreikis bus patenkintas. Gali tekti palaukti, kol bendrasis planavimas bus įvykdytas tiekimo įmonėje, kad čia galėtumėte peržiūrėti papildomą informaciją.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

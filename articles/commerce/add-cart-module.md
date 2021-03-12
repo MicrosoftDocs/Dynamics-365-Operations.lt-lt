@@ -3,7 +3,7 @@ title: Krepšelio modulis
 description: Šioje temoje aprašomi krepšelio moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/20/2020
+ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 33db06ecfa2a8fa93cde3c4f1b31d6b30bfd0c34
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: abb9909c03577763ff7e6242c9395a58159df6ca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4414504"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985984"
 ---
 # <a name="cart-module"></a>Krepšelio modulis
 
@@ -53,6 +52,7 @@ Toliau pateiktame paveikslėlyje parodytas „Fabrikam“ svetainėje esančio k
 | Antraštė | Antraštės tekstas ir antraštės žymė (**H1**, **H2**, **H3**, **H4**, **H5** ar **H6**) | Vežimėlio antraštė, tokia kaip „Apsipirkimo maišelis“ arba „Prekės jūsų vežimėlyje“. |
 | Rodyti nėra sandėlyje klaidas | **Teisinga** arba **Klaidinga** | Jei ši ypatybė nustatyta į **Tiesa**, vežimėlio puslapyje bus rodomos su atsargomis susijusios klaidos. Rekomenduojame nustatyti šią ypatybę į **Tiesa**, jei atsargų tikrinimai yra taikomi svetainėje. |
 | Rodyti eilutės prekių siuntimo mokesčius | **Teisinga** arba **Klaidinga** | Jei ši ypatybė yra nustatytą į **Teisinga**, vežimėlio eilučių prekės rodys siuntimo mokesčius, jei tokia informacija yra prieinama. Ši savybė nėra palaikoam „Fabrikam“ temoje, nes vartotojai pasirenka siuntimą tik išsiregistravimo sraute. Nepaisant to, šią funkciją galima įjungti kituose darbo srautuose, jei tai taikoma. |
+| Rodyti galimas akcijas| **Teisinga** arba **Klaidinga** | Jei ši ypatybė nustatyta į **Taip**, vežimėlis rodys prieinamas akcijas pagal prekes vežimėlyje. Ši galimybė yra prieinama „Dynamics 365 Commerce“ 10.0.16 leidime. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Moduliai, kuriuos galima naudoti krepšelio modulyje
 
@@ -117,6 +117,3 @@ Norėdami į naują puslapį įtraukti krepšelio modulį ir nustatyti reikiamas
 [Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas](calculated-inventory-retail-channels.md)
 
 [Internetinių funkcijų šablono kūrimas](online-functionality-profile.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

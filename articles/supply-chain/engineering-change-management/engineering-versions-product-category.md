@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgLookupDynastring, EngChgProductVersionNumberRule, EngChgEcmProductRoute, EngChgEcmRequestProducts, EngChgEcmProductRoute, EngChgEcmProductPreview,EngChgEcmProductBOMItemIdLookup, EngChgEcmProductBOMConsistOf, EngChgEcmProductCreate, EngChgEcmProductLookup, EngChgProductVersionPrCompany, ngChgProductTypeLookup, EngChgProductType, EngChgProductItemPart, EngChgProductItem, EngChgEcmCategory, EngChgEcmBomDesignerEditBom, EngChgEcmBomDesigner, EngChgEcmBOMCopyDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3eb5b5c4304b393008ecc5f5ff5a663295ed0d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: c15dcd0adfcf9b9022a919bd516dcf5117ea5041
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4434040"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987484"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Inžinerijos versijos ir inžinerijos produkto kategorijos
 
@@ -162,6 +161,3 @@ Inžinerijso BOM ir maršrutai yra sukurti iš inžinerijos versijos, kurioje bu
 Produktams, kai naudojate *versijos* produkto matmenis (kartu su logistiniu poveikiu perlaidoms) versija taip pat įtraukiama į BOM ir maršrutus. Toks elgesys padeda atskirti BOM ir maršrutus tolesnėse versijose nepriklausomai nuo **Vykdyti efektyvumą** nustatymų.
 
 Produktams, kai naudojate *versijos* produkto matmenis (kartu su logistiniu poveikiu perlaidoms) versija taip pat įtraukiama į BOM ir maršrutus. Dėl to, nebus jokio skirtumo tarp BOM ir atitinkamų versijų maršrutų. Tokiu atveju, primygtinai rekomenduojame jums nustatyti **Vykdyti efektyvumą** parinktį į *Taip*. Tokiu būdu, padėsite apsisaugoti inžinerijos versijoms nuo persidengimo ir taip pat įjungti BOM ir maršrutą naujesnėje versijoje be poreikio išjungti BOM ir maršrutą ankstesnėje. Jei nustatote **Įjungti efektyvumą** parinktį į *Taip* tokiu atveju, privalote rankiniu būdu išjungti BOM ir senesnių versijų maršrutus prieš tai, kai galėsite įjungti naujausią versiją.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

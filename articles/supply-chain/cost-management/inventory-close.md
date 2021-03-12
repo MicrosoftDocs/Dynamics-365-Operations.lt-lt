@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventClosing
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 61973
 ms.assetid: c210c882-6849-4704-b78c-a777dd6cfdb6
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4cad461c6ff4ef6badeeba868eef45165cf5d33
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1169ad784c07d0757990b36b618282ed7858bcbf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433569"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987558"
 ---
 # <a name="inventory-close"></a>Atsargų uždarymas
 
@@ -60,11 +59,11 @@ Keletas užduočių, kurias galite atlikti puslapyje **Uždarymas ir koregavimas
 DK sąskaitos, atnaujinamos dėl šių užduočių, yra susietos su pradine atsargų operacija. Pvz., jeigu pardavimo užsakymas sudengiamas su pirkimo užsakymu, pakoreguojamos DK sąskaitos, naudotos pirminiam pardavimo užsakymui. Tai atliekama net jei šiai prekei priskirtos prekių grupės DK sąskaitos pakeičiamos po to, kai užregistruojamas pardavimo užsakymas. Kai atsargų uždarymas sukuria sudengimo sumą, sudengimo suma vis tiek užregistruojama pirminėse DK sąskaitose, o ne naujose prekei priskirtų DK sąskaitose. DK taip pat gali būti atnaujinta, jei atšauksite atsargų uždarymą. 
 
 > [!NOTE] 
-> - Atsargų uždarymas yra būtinas visų atsargų modelių mėnesio pabaigos uždarymo procedūros veiksmas. Tai apima standartinio ir slankiojo vidurkio įkainojimą. Negalėsite uždaryti finansinio laikotarpio, kol atsargų uždarymas nebus atliktas laikotarpio pabaigos dieną.
+> - Atsargų uždarymas yra būtinas mėnesio pabaigos uždarymo procedūros veiksmas visų atsargų modeliams, išskyrus slankiojo vidurkio.  Jūs gausite įspėjimą, jei bandysite uždaryti finansinį laikotarpį prieš tai neatlikę atsargų uždarymo iki laikotarpio pabaigos datos.
 > - Prieš vykdydami uždarymo procedūrą, galite peržiūrėti prekių, kurios negali būti sudengtos atnaujinant, sąrašą.
 > - Rekomenduojame vykdyti atsargų uždarymą ne piko valandomis, kad skaičiavimo ištekliai būtų paskirstyti tolygiau.
 
-## <a name="the-inventory-close-log"></a> Atsargų uždarymo žurnalas
+## <a name="the-inventory-close-log"></a>Atsargų uždarymo žurnalas
 Kai atsargų uždarymas baigtas, pranešimų centro pranešimas gali jums pranešti, kad vieneto savikaina gali būti neteisinga, nes operacijos nepavyko visiškai sudengti. 
 
 Prieš rodydama šį pranešimą programa sistema praneš prekės numerį ir paveiktą operaciją. Šis pranešimas informuos, kad šioje operacijoje naudojama savikainos suma nebuvo atnaujinta dėl atsargų uždarymo. Šis pranešimas rodomas, kai negalima sudengti išdavimo tipo operacijos. 
@@ -87,6 +86,3 @@ Kartais jums gali reikėti atšaukti atliktą atsargų uždarymą, taip grąžin
 > [!NOTE] 
 > Vėl atidaryti galima tik paskutinį uždarytą atsargų laikotarpį. Norėdami atšaukti ankstesnį atsargų uždarymą, po vieną, pradėdami nuo naujausio, turite atšaukti kiekvieną tolesnį atsargų uždarymą.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

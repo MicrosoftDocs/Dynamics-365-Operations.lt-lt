@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16201
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 119046ee2b783e6a4b868fff2b1d7a1b59966e7b
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: 085071cb7aa314dd8a8c19b8ef2ac926a6ab4103
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4414472"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985816"
 ---
 # <a name="loyalty-overview"></a>Lojalumo apžvalga
 
@@ -151,6 +150,3 @@ Be to, mažmenininkai gali nustatyti didžiausią lojalumo atlygio taškų ribą
 
     > [!NOTE]
     > Skirtingai nuo kitų laikotarpio nuolaidų, pvz., kiekio, paprastos, nuolaidos prekių rinkiniui ir ribinės vertės nuolaidos, siuntimo nuolaida nesukuria nuolaidos eilučių, bet redaguoja siuntimo išlaidas tiesiogiai ir prideda nuolaidos pavadinimą prie išlaidų aprašymo.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

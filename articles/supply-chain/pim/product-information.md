@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace, EcoResProductVariantPerCompanyImagePart, EcoResProductRelationType,EcoResProductAvailabilityPart,  EcoResProductReleasedSelect, EcoResProductLookup, EcoResProductVariantsPendingReleaseFormPart, EcoResProductSearchLookup, EcoResProductNumberRename, EcoResDimensionBasedConfigWorkspace, EcoResProductVariantImagePart, EcoResProductImagePart, EcoResProductVariantsPerCompanyPart, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleaseSessions, EcoResProductVariantMaintainWorkspaceConfiguration, EcoResProductProcessManufacturingWorkspaceConfiguration, EcoResProductMasterVariantsPart, EcoResProductDiscreteManufacturingWorkspaceConfiguration, EcoResProductVariantAvailabilityPart, EcoResProductInformationFactBox, EcoResProductLookupTest, EcoResProductImageTest, EcoResProductReleasedRecentlyCreatedFormPart, EcoResPhysicalProductDimensions, PdsMRCRegulatedListItem, EcoResProductAvailabilityPart, PdsMRCRestrictionList, InventItemIdLookupAllocationId, EcoResProductAvailability, EcoResProductEntityAttributeTableFieldAssociation, EcoResProductImagePart, EcoResProductRelation, EcoResProductReleaseAddProduct, EcoResProductPerCompanyListPage, EcoResProductParameters, PdsMRCRestrictedItemByCountryState, EngChgCasePreview, InventTablePreview, PdsMRCItemDetails, EngChgCaseAssociate, PdsMRCCustomerHistory, PdsMRCVendorHistory, PdsMRCRestrictedCountryStateByItem, InventItemIdGroupLookup, InventLocationLookup, PdsMRCValidityIntervalbyCountry, PdsMRCValidityIntervalbyCountry, PdsMRCEventTracker, PdsMRCReportingCountry, PdsMRCDocument, PdsMRCReportingList, PdsMRCItemCAS, GraphicsTestForm, EngChgPicklist
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97e1712e38247c996af11bef051a5b1d9239f0c3
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 18b371494248c8b8f395996c786bb6bf7a54a6de
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527391"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987209"
 ---
 # <a name="product-information-overview"></a>Produktų informacijos peržiūra
 
@@ -59,7 +58,7 @@ Produktą pirmiausia apibrėžia produkto numeris, pavadinimas ir aprašas. Tač
 
 Produkto apibrėžtį galima sukurti Tiekimo grandinės valdyme. Ją taip pat galima importuoti iš produktų ciklo valdymo (PLM), produktų duomenų valdymo (PDM) ar produktų informacijos valdymo (PIM) sistemų. Kai naudojamas daugiau nei vienas Tiekimo grandinės valdymo egzempliorius, vienas iš jų paprastai naudojamas kaip pagrindinis produktų duomenų egzempliorius visiems kitiems egzemplioriams. Taip daryti galima pasitelkiant didelę duomenų objektų grupę, kuriuos naudojant produktų apibrėžčių duomenis galima eksportuoti ir importuoti iš vieno egzemplioriaus į kitą.
 
-Kad produktų duomenis būtų galima platinti keliuose egzemplioriuose, Tiekimo grandinės valdyme galima naudoti „Common Data Service“. Produktų apibrėžtis iš Tiekimo grandinės valdymo egzemplioriaus galima eksportuoti į „Common Data Service“. Tada, naudojant produktų apibrėžtis, galima kitas verslo programas, pvz., „Dynamics 365 for Sales“, užpildyti produktų duomenimis.
+Kad produktų duomenis būtų galima platinti keliuose egzemplioriuose, Tiekimo grandinės valdyme galima naudoti „Microsoft Dataverse“. Produktų apibrėžtis iš Tiekimo grandinės valdymo egzemplioriaus galima eksportuoti į „Microsoft Dataverse“. Tada, naudojant produktų apibrėžtis, galima kitas verslo programas, pvz., „Dynamics 365 for Sales“, užpildyti produktų duomenimis.
 
 Atkreipkite dėmesį, kad dinamiškose ir lanksčiose organizacijose produktų informacijos duomenys keičiasi kiekvieną dieną. Todėl tikslių ir faktinių produktų duomenų priežiūra yra labai svarbus atskiras verslo procesas.
 
@@ -96,6 +95,3 @@ Darbo sritį sudaro plytelių ir dviejų sąrašų suvestinė. Sąraše **Atviri
 ### <a name="manually-creating-a-new-released-product"></a>Naujo pateikto produkto kūrimas rankiniu būdu
 
 Rankiniu būdu sukurti pateiktą produktą galite vienu veiksmu – tai priklauso nuo organizacijos verslo procesų ir taisyklių, nurodančių, ar turi būti naudojama ši funkcija. Naudojant šią funkciją sukuriamas naujas produktas, kuris automatiškai pateikiamas dabartiniam juridiniam subjektui. Norėdami sukurti naują produktą, darbo srityje **Pateiktų produktų priežiūra** arba sąrašo puslapyje **Pateiktas produktas** spustelėkite **Pateikti produktai**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

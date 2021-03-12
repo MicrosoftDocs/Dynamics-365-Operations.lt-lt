@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, EcoResProductDetailsExtended, BOMConsistOf, BOMTable, InventItemIdLookupSimple, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e7961cfb4ad0e20c49d327d83f56c08811598ac1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ffe30f1b5aae3e954b527e84648f4dbb4b181513
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433599"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4986909"
 ---
 # <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a>Dimensijomis paremto bendrojo produkto komplektavimo specifikacijos kūrimas
 
@@ -79,6 +78,3 @@ Norėdami atlikti šią procedūrą, turite būti atlikę ankstesnius 4 šios a�
 5. Spustelėkite GERAI.
 6. Spustelėkite Aktyvinti.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

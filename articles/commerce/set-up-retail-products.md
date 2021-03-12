@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailProductAndCategoryWorkspace, EcoResProductDetails
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16181
 ms.assetid: b1b57734-1406-4ed6-8e28-21c705ee17e2
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b2c5a8976973203a943a2cec7658a2998c54f279
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f881e8715d4a62bc753aefa0beebaf0cceafcc77
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414424"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985716"
 ---
 # <a name="set-up-retail-products"></a>Mažmeninės prekybos produktų nustatymas
 
@@ -40,6 +39,3 @@ Prieš pradėdami perparduoti produktus savo prekybos kanaluose, turite juos suk
 4. **Įtraukite produktų į asortimentą.** Asortimentas yra produktų, kuriuos parduodate savo kanalais, rinkinys. Galite apibrėžti vieną ar daugiau asortimentų ir kiekvieną produktą priskirti vienam ar daugiau asortimentų. Norėdami priskirti produktus kanalams, tiems kanalams priskirkite asortimentus. Kurdami asortimentą galite įtraukti produktų, kurie dar nebuvo išleisti juridiniam subjektui. Tačiau privalote tuos produktus išleisti juridiniam subjektui prieš tai, kai jie tampa prieinami kanalams.
 5. **Įtraukite produktus į naršymo hierarchijas.** Prieš tai, kai produktus galima naršyti internete arba elektroniniame kasos aparate (EKA), jie turi būti suklasifikuoti „Commerce” naršymo hierarchijoje.
 6. **Įtraukite produktus į katalogus.** Nors šis veiksmas nebūtinas naudojant EKA, internetinėse parduotuvėse reikalaujama įtraukti produktus į bent vieną katalogą.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

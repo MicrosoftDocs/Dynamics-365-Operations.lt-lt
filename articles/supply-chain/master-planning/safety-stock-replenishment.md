@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended, ReqSafetyKeyDefaultDataWizard
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: ee5775826c4f7f499d015145a5e8f0f6c7a42903
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dbc0ca146327fada1325f4b11965c23948d3565d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433370"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987259"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Prekių pakankamų atsargų pildymas
 
@@ -116,6 +115,3 @@ Pakankamų atsargų poreikio pildymo operacijos prioritetas sumažinamas, jei si
 Bendrojo planavimo padengimo etapo metu pakankamų atsargų papildymo prioritetas nebėra mažinamas. Turimas atsargas galima naudoti prieš bet kokį kitą poreikio tipą. Skaičiuojant atidėjimą, įtraukiama nauja logika atidėtų pardavimo eilučių, KS eilučių poreikiams ir visų kitų tipų poreikiui patikrinti, kad būtų nustatyta, ar jie gali pristatyti laiku, jei naudojamos pakankamos atsargos. Jei sistema nustato, kad atidėjimas gali būti sumažintas naudojant pakankamas atsargas, tada pradinis pardavimo eilučių arba KS eilučių padengimas bus pakeistas pakankamomis atsargomis, o sistema suaktyvins papildymą naudojant pakankamas atsargas.
 
 Jei nenustatytas plano ar prekės atidėjimo skaičiavimas, tada pakankamų atsargų apribojimo prioritetas bus toks pat kaip bet kurio kito tipo poreikio prioritetas. Tai reiškia, kad yra turimų ir kitų atsargų rezervas prieš kitų tipų poreikį.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
