@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSWorkCluster, WHSClusterProfile
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Supply Chain Management
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0838405bcb5ee0d8e582093fbbd69553228cb2b6
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: fa737f61bfd5bd71ba6d76e75e57c8e2d682cda3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433984"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965682"
 ---
 # <a name="system-directed-cluster-picking"></a>Sistemos nukreiptas klasterio paėmimas
 
@@ -207,6 +206,3 @@ Prieš nustatant sistemos nukreiptą klasterio paėmimą, turite sukurti tinkam�
 1. Paskutinis mobiliajame įrenginyje atliktinas veiksmas yra **Padėti** klasterį į galutinę vietą. Pasirinkite **Gerai**
     - Patvirtinus padėjimo operaciją, klasteris uždaromas ir skaidomas, atsižvelgiant į vertę, kurią nustatėte klasterio šablono lauke **Skaidyti klasterį**. Darbo ID taip pat yra uždaromi.
 1. Mobiliajame įrenginyje rodomas pranešimas „Klasteris baigtas“.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

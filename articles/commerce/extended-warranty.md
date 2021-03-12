@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a875343d9b93f5ebf2c2992fba8b2f182310461e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 411895763cc282766b5a668208f20c72496059cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414238"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965125"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Prailgintų garantijų kūrimas ir konfigūravimas
 
@@ -142,7 +141,7 @@ Garantijų grupė yra ryšys tarp garantinių prekių ir galimai garantinių pre
 
 Norėdami nustatyti garantijų grupę „Commerce”, atlikite šiuos veiksmus.
 
-1. Eikite į  **Mažmeninė prekyba ir prekyba \> Produktai ir kategorijos \> Garantija \> Garantijų grupės**.
+1. Eikite į **Mažmeninė prekyba ir komercija \> Produktai ir kategorijos \> Garantija \> Garantijos grupės**.
 1. Pasirinkite **Naujas**, kad sukurtumėte garantijų grupę.
 1. Lauke **Pavadinimas** įveskite naujos grupės pavadinimą.
 1. **Bendra** „FastTab” skirtuke, **Aprašas** lauke, įveskite grupės pavadinimą.
@@ -239,6 +238,3 @@ Garantija yra paslauga, teikiama konkrečiam, unikaliam produktui. „Dynamics 3
 [Asortimentų nustatymas](set-up-assortments.md)
 
 [Numeracijų apžvalga](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

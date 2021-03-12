@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 57f09bf907407e19ae0e693de64510f7f4efbf0b
-ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
+ms.openlocfilehash: d4529af21d9673512889b17aeb1e7fbd49969cdc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4433902"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966284"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Įrenginio, skirto paleisti gamybos cecho vykdymo sąsają, nustatymas
 
@@ -80,6 +79,3 @@ Viršutinėje toliau pateiktos iliustracijos dalyje rodoma, kaip sąsaja atrodo 
 Pagal numatytuosius nustatymus gamybos cecho vykdymo sąsaja automatiškai atsijungia, jei ji nenaudojama 12 valandų. „Supply Chain Management” vartotojas tokiu atveju turi vėl prisijungti. Tačiau galite pratęsti skirtojo laiko ribą iki 90 dienų.
 
 Norėdami pratęsti skirtojo laiko ribą, prisijunkite prie „Supply Chain Management” ir eikite į **Sistemos administravimas \> Vartotojai \> Seanso pratęsimas**. Nurodykite „Supply Chain Management” vartotojo abonementą, kuris naudojamas prisijungimui prie įrenginio, ir valandų, per kurias seansas turėtų išlikti aktyvus, skaičių.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

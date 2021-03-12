@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart, PurchEditLines, PurchTable, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 31cb26479ccb74dfb58fd5590cd60d7b7c64c292
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 0a8f214a56c6a5013cab8233d5b2e0126deb9220
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4434008"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966110"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Užsakymų siuntimas kaip tiesioginių pristatymų
 
@@ -82,6 +81,3 @@ ms.locfileid: "4434008"
     - Tiesioginio pristatymo puslapis veikia kaip darbastalis, teikiantis pirkimo agentui visų pardavimo užsakymo eilučių, kurios turi būti tiesiogiai pristatytos, apžvalgą ir tai leidžia jiems kurti atitinkamus pirkimo užsakymus. Be to, jie gali peržiūrėti atidarytus tiesioginio pristatymo užsakymus ir patvirtintus užsakymus skirtukuose Patvirtinimas ir Pristatymas.  
     - Sukūrus tiesioginio pristatymo užsakymą, jis automatiškai perkeliamas į skirtuką Patvirtinimas. Galite patvirtinti užsakymą tiesiogiai iš šio puslapio. Kai pirkimas patvirtintas, jis bus automatiškai perkeltas į skirtuką Pristatymas, iš kurio galite registruoti jo gavimą.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

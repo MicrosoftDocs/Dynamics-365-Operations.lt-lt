@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgProductOwner
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 4308020d66995d857e547be47216cb82caacf035
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 90f5596f9b5fc45e78cc49a3309c45864e07e70b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4434042"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967338"
 ---
 # <a name="product-owners"></a>Produktų savininkai
 
@@ -61,6 +60,3 @@ Pavyzdžiui, produktas X yra priskirtas *Kūrimo biurų* produkto savininko grup
 ## <a name="product-owners-and-approvals"></a>Produkto savininkai ir patvirtinimai
 
 Kadangi produkto savininkai žino, ar konkretūs inžineriniai pakeitimai tiks jų produktams, dažnai apsimoka įtraukti juos kaip patvirtinimo proceso dalį inžinerijos keitimo valdyme. Galite implementuoti šį požiūrį nustatydami produkto savininkus kaip pagrindinius tiekėjus darbo eigose, kurios naudojamos inžinerijos pokyčio valdymui. Sistema tuomet priskirs patvirtinimo užduotis darbo eigose atsižvelgiant į produktus, kurie yra inžinerijos keitimo užklausose ir inžinerijos keitimo užsakymuose. Dėl daugiau informacijos, žr. [Valdyti keitimus inžinerijos produktams](engineering-change-management.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

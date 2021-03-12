@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgProductReleaseSiteBulkEdit, EngChgProductReleaseSendListPage, EngChgProductReleaseSendDetails,EngChgProductReleaseSelection,EngChgProductReleaseReceiveListPage, EngChgProductReleaseReceiveDetails, EngChgProductReleasePreviewPane, EngChgProductReleasePolicy, EngChgProductReleasePart, EngChgProductReleaseNote
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 68f091cca9c3c2baa03813553127ee41abe6d522
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 971ff16b862a48581365523edc6b64052b29c380
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4434048"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967237"
 ---
 # <a name="release-product-structures"></a>Išleidžiamo produkto struktūros
 
@@ -160,6 +159,3 @@ Toks elgesys taikomas tik, kai produktas yra tiesiogiai pasirinktas leidimui. Pr
 Pavyzdžiui, produktas X yra priskirtas *Kūrimo biurų* produkto savininko grupei. Produktas X taip pat yra BOM Y produkto dalis, kuris yra priskirtas *Projektavimo garsiakalbių* produkto savininko grupei. Jei naudotojas iš *Projektavimo garsiakalbių* produkto savininko grupės išleidžia Y produktą ir jo BOM, produktas X bus išleistas kartu su produktu Y.
 
 Dėl daugiau informacijos, žr. [Produkto savininkai](product-owner.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

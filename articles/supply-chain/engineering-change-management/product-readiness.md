@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 58b5a35800ab464f25868c6756b16f25d14d8d78
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 8321a0d8516a6c2c085ce9c1236f70af1cca98da
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4434049"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967263"
 ---
 # <a name="product-readiness"></a>Produkto parengtis
 
@@ -148,6 +147,3 @@ Kiekvienai įtrauktai eilutei, nustatykite tolesnius laukelius.
 | Klausimynas | Rinkitės klausimyną, kuris turi būti naudojamas patikrų sąraše. Patikrų sąrašas yra vietinis patikrų sąrašas bendrovėje, kai pasirengimo patikra yra atlikta. Sistema privalo galėti įvertinti, ar patikrų sąrašas yra tinkamai sudarytas. Dėl to, patikrų sąrašą reikia nustatyti taip, kad vertinimas būtų atliktas pagal tinkamus atsakymus. Dėl išsamesnės informacijos apie tai, kaip sukurti klausimynus, žr. [Naudoti klausimynus](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/using-questionnaires) ir su jais susijusias temas. |
 | Automatinis patvirtinimas | Pasirengimo patikros įrašai apima **Patvirtinta** žymimą laukelį, kuris rodo patvirtinimo būseną. Pasirinkite **Automatinis patvirtinimas** žymimą laukelį patikroms, kurias reikia nustatyti kaip patvirtintas iš karto po jų priskyrimo vartotojams, kurie jas užbaigia. Atžymėkite šį laukelį, kad pareikalautumėte atskiro patvirtinimo kaip papildomo žingsnio. |
 | Privalomas | Pasirinkite šį laukelį patikroms, kurias turi užbaigti paskirtas vartotojas. Privalomos patikros negali būti praleistos. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

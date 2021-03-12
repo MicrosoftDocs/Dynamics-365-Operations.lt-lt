@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSLocDirHint, WHSLocDirTable, WHSRequestType
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6f4ddd03ec16ac43b007b904eb688563735e0941
-ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
+ms.openlocfilehash: 2e83d6885bf7400916d633a49d3b19b8843b0269
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654177"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965507"
 ---
 # <a name="zone-threshold-replenishment"></a>Papildymo pagal zoną ribinės vertės
 
@@ -344,6 +343,3 @@ Pateikiame kelias pastabas ir patarimus, kaip dirbti su funkcija:
 
 - Jei naudojate dinamines vietas, papildymo darbas bus pirmiausia sukurtas pirmoje galimoje vietoje arba toje vietoje, kurioje jau yra atsargų, jei vietos nustatymo veiksmas nustatomas taip, kad būtų galima naudoti **Konsolidavimo** strategiją.
 - Jei naudojate fiksuotas vietas, o ne zonas, turite naudoti [standartinį min. / maks. papildymą](tasks/set-up-min-max-replenishment-process.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
