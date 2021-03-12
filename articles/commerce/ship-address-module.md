@@ -10,65 +10,64 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: aeaa410fde29b285fdbbdd6acac19b0c4e917aa5
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: 6a5eb69c7746be419779b1a844ee35ec375a324c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4414508"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985641"
 ---
-# <a name="shipping-address-module"></a><span data-ttu-id="97bfd-103">Siuntimo adreso modulis</span><span class="sxs-lookup"><span data-stu-id="97bfd-103">Shipping address module</span></span>
+# <a name="shipping-address-module"></a><span data-ttu-id="c645c-103">Siuntimo adreso modulis</span><span class="sxs-lookup"><span data-stu-id="c645c-103">Shipping address module</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="97bfd-104">Ši tema aprašo siuntimo adreso modulį ir tai, kaip jį sukonfigūruoti „Microsoft Dynamics 365 Commerce“.</span><span class="sxs-lookup"><span data-stu-id="97bfd-104">This topic describes covers the shipping address module and explains how to configure it in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="c645c-104">Ši tema aprašo siuntimo adreso modulį ir tai, kaip jį sukonfigūruoti „Microsoft Dynamics 365 Commerce“.</span><span class="sxs-lookup"><span data-stu-id="c645c-104">This topic describes covers the shipping address module and explains how to configure it in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="97bfd-105">Peržiūra</span><span class="sxs-lookup"><span data-stu-id="97bfd-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="c645c-105">Peržiūra</span><span class="sxs-lookup"><span data-stu-id="c645c-105">Overview</span></span>
 
-<span data-ttu-id="97bfd-106">Siuntimo adreso modulis leidžia klientams įtraukti ar pasirinkti siuntimo adresą užsakymui išsiregistravimo srauto metu.</span><span class="sxs-lookup"><span data-stu-id="97bfd-106">The shipping address module lets customers add or select the shipping address for an order during the checkout flow.</span></span> <span data-ttu-id="97bfd-107">Jei klientas yra prisijungęs, visi anksčiau tam klientui įrašyti adresai bus rodomi, o klientas galės iš jų pasirinkti.</span><span class="sxs-lookup"><span data-stu-id="97bfd-107">If a customer is signed in, any addresses that were previously saved for that customer are shown, and the customer can select among them.</span></span> <span data-ttu-id="97bfd-108">Klientas taip pat gali įtraukti naują adresą.</span><span class="sxs-lookup"><span data-stu-id="97bfd-108">The customer can also add a new address.</span></span> <span data-ttu-id="97bfd-109">Siuntimo adreso modulis yra naudojamas visoms užsakymo prekėms, kuriems reikalingas siuntimas.</span><span class="sxs-lookup"><span data-stu-id="97bfd-109">The shipping address module is used for all items on an order that require shipping.</span></span>
+<span data-ttu-id="c645c-106">Siuntimo adreso modulis leidžia klientams įtraukti ar pasirinkti siuntimo adresą užsakymui išsiregistravimo srauto metu.</span><span class="sxs-lookup"><span data-stu-id="c645c-106">The shipping address module lets customers add or select the shipping address for an order during the checkout flow.</span></span> <span data-ttu-id="c645c-107">Jei klientas yra prisijungęs, visi anksčiau tam klientui įrašyti adresai bus rodomi, o klientas galės iš jų pasirinkti.</span><span class="sxs-lookup"><span data-stu-id="c645c-107">If a customer is signed in, any addresses that were previously saved for that customer are shown, and the customer can select among them.</span></span> <span data-ttu-id="c645c-108">Klientas taip pat gali įtraukti naują adresą.</span><span class="sxs-lookup"><span data-stu-id="c645c-108">The customer can also add a new address.</span></span> <span data-ttu-id="c645c-109">Siuntimo adreso modulis yra naudojamas visoms užsakymo prekėms, kuriems reikalingas siuntimas.</span><span class="sxs-lookup"><span data-stu-id="c645c-109">The shipping address module is used for all items on an order that require shipping.</span></span>
 
-<span data-ttu-id="97bfd-110">Siuntimo adreso formatai gali būti nustatyti komercijos štabe kiekvienai šaliai ar regionui, o siuntimo adreso modulis tuomet įjungia valstybei/regionui priklausančias taisykles.</span><span class="sxs-lookup"><span data-stu-id="97bfd-110">Shipping address formats can be defined in Commerce headquarters for each country or region, and the shipping address module then enforces country/region-specific rules.</span></span>
+<span data-ttu-id="c645c-110">Siuntimo adreso formatai gali būti nustatyti komercijos štabe kiekvienai šaliai ar regionui, o siuntimo adreso modulis tuomet įjungia valstybei/regionui priklausančias taisykles.</span><span class="sxs-lookup"><span data-stu-id="c645c-110">Shipping address formats can be defined in Commerce headquarters for each country or region, and the shipping address module then enforces country/region-specific rules.</span></span>
 
-<span data-ttu-id="97bfd-111">Kai klientai įveda siuntimo adresą išsiregistravimo sraute, jie turi pasirinkimą įrašyti adresą kaip pirminį.</span><span class="sxs-lookup"><span data-stu-id="97bfd-111">When customers enter a shipping address during the checkout flow, they have the option to save the address as a primary address.</span></span> <span data-ttu-id="97bfd-112">Ši parinktis rodoma tik klientui prisijungus.</span><span class="sxs-lookup"><span data-stu-id="97bfd-112">This option is shown only if a customer is signed in.</span></span>
+<span data-ttu-id="c645c-111">Kai klientai įveda siuntimo adresą išsiregistravimo sraute, jie turi pasirinkimą įrašyti adresą kaip pirminį.</span><span class="sxs-lookup"><span data-stu-id="c645c-111">When customers enter a shipping address during the checkout flow, they have the option to save the address as a primary address.</span></span> <span data-ttu-id="c645c-112">Ši parinktis rodoma tik klientui prisijungus.</span><span class="sxs-lookup"><span data-stu-id="c645c-112">This option is shown only if a customer is signed in.</span></span>
 
-<span data-ttu-id="97bfd-113">Nepaisant to, kad siuntimo adreso modulis neleidžia patvirtinti adreso, ši funkcija gali būti įgyvendinta tinkinimo metu.</span><span class="sxs-lookup"><span data-stu-id="97bfd-113">Although the shipping address module doesn't provide address validation, this functionality can be implemented through customization.</span></span>
+<span data-ttu-id="c645c-113">Nepaisant to, kad siuntimo adreso modulis neleidžia patvirtinti adreso, ši funkcija gali būti įgyvendinta tinkinimo metu.</span><span class="sxs-lookup"><span data-stu-id="c645c-113">Although the shipping address module doesn't provide address validation, this functionality can be implemented through customization.</span></span>
 
-<span data-ttu-id="97bfd-114">Tolesnis paveikslėlis rodo naujo siuntimo adreso modulio pavyzdį išsiregistravimo puslapyje.</span><span class="sxs-lookup"><span data-stu-id="97bfd-114">The following illustration shows an example of a new shipping address module on a checkout page.</span></span>
+<span data-ttu-id="c645c-114">Tolesnis paveikslėlis rodo naujo siuntimo adreso modulio pavyzdį išsiregistravimo puslapyje.</span><span class="sxs-lookup"><span data-stu-id="c645c-114">The following illustration shows an example of a new shipping address module on a checkout page.</span></span>
 
 ![Siuntimo adreso pavyzdžio modulis išsiregistravimo puslapyje](./media/ecommerce-shippingaddress.PNG)
 
-## <a name="module-properties"></a><span data-ttu-id="97bfd-116">Modulio ypatybės</span><span class="sxs-lookup"><span data-stu-id="97bfd-116">Module properties</span></span>
+## <a name="module-properties"></a><span data-ttu-id="c645c-116">Modulio ypatybės</span><span class="sxs-lookup"><span data-stu-id="c645c-116">Module properties</span></span>
 
-| <span data-ttu-id="97bfd-117">Ypatybės pavadinimas</span><span class="sxs-lookup"><span data-stu-id="97bfd-117">Property name</span></span> | <span data-ttu-id="97bfd-118">Reikšmės</span><span class="sxs-lookup"><span data-stu-id="97bfd-118">Values</span></span> | <span data-ttu-id="97bfd-119">aprašymas</span><span class="sxs-lookup"><span data-stu-id="97bfd-119">Description</span></span> |
+| <span data-ttu-id="c645c-117">Ypatybės pavadinimas</span><span class="sxs-lookup"><span data-stu-id="c645c-117">Property name</span></span> | <span data-ttu-id="c645c-118">Reikšmės</span><span class="sxs-lookup"><span data-stu-id="c645c-118">Values</span></span> | <span data-ttu-id="c645c-119">aprašymas</span><span class="sxs-lookup"><span data-stu-id="c645c-119">Description</span></span> |
 |---------------|--------|-------------|
-| <span data-ttu-id="97bfd-120">Antraštė</span><span class="sxs-lookup"><span data-stu-id="97bfd-120">Heading</span></span> | <span data-ttu-id="97bfd-121">Antraštės tekstas ir antraštės žymė (**H1**, **H2**, **H3**, **H4**, **H5** ar **H6**)</span><span class="sxs-lookup"><span data-stu-id="97bfd-121">Heading text and a heading tag (**H1**, **H2**, **H3**, **H4**, **H5**, or **H6**)</span></span> | <span data-ttu-id="97bfd-122">Pasirenkama antraštė siuntimo adreso moduliui.</span><span class="sxs-lookup"><span data-stu-id="97bfd-122">An optional heading for the shipping address module.</span></span> |
-| <span data-ttu-id="97bfd-123">Rodyti adreso tipą</span><span class="sxs-lookup"><span data-stu-id="97bfd-123">Show address type</span></span> | <span data-ttu-id="97bfd-124">**Teisinga** arba **Klaidinga**</span><span class="sxs-lookup"><span data-stu-id="97bfd-124">**True** or **False**</span></span> | <span data-ttu-id="97bfd-125">Jei šios pasirenkamos ypatybės yra nustatytos į **Teisingos**, bus rodomas adreso tipas, toks kaip **Namų** ar **Įmonės**.</span><span class="sxs-lookup"><span data-stu-id="97bfd-125">If this optional property is set to **True**, an address type, such as **Home** or **Business**, will be shown.</span></span> <span data-ttu-id="97bfd-126">Jei nėra nurodyta jokio adreso tipo, adresas automatiškai bus įrašomas kaip **Tipas**=**Kitas**.</span><span class="sxs-lookup"><span data-stu-id="97bfd-126">If no address type is specified, the address will automatically be saved as **Type**=**Other**.</span></span> |
+| <span data-ttu-id="c645c-120">Antraštė</span><span class="sxs-lookup"><span data-stu-id="c645c-120">Heading</span></span> | <span data-ttu-id="c645c-121">Antraštės tekstas ir antraštės žymė (**H1**, **H2**, **H3**, **H4**, **H5** ar **H6**)</span><span class="sxs-lookup"><span data-stu-id="c645c-121">Heading text and a heading tag (**H1**, **H2**, **H3**, **H4**, **H5**, or **H6**)</span></span> | <span data-ttu-id="c645c-122">Pasirenkama antraštė siuntimo adreso moduliui.</span><span class="sxs-lookup"><span data-stu-id="c645c-122">An optional heading for the shipping address module.</span></span> |
+| <span data-ttu-id="c645c-123">Rodyti adreso tipą</span><span class="sxs-lookup"><span data-stu-id="c645c-123">Show address type</span></span> | <span data-ttu-id="c645c-124">**Teisinga** arba **Klaidinga**</span><span class="sxs-lookup"><span data-stu-id="c645c-124">**True** or **False**</span></span> | <span data-ttu-id="c645c-125">Jei šios pasirenkamos ypatybės yra nustatytos į **Teisingos**, bus rodomas adreso tipas, toks kaip **Namų** ar **Įmonės**.</span><span class="sxs-lookup"><span data-stu-id="c645c-125">If this optional property is set to **True**, an address type, such as **Home** or **Business**, will be shown.</span></span> <span data-ttu-id="c645c-126">Jei nėra nurodyta jokio adreso tipo, adresas automatiškai bus įrašomas kaip **Tipas**=**Kitas**.</span><span class="sxs-lookup"><span data-stu-id="c645c-126">If no address type is specified, the address will automatically be saved as **Type**=**Other**.</span></span> |
 
-## <a name="add-a-shipping-address-module-to-a-checkout-page-and-set-the-required-properties"></a><span data-ttu-id="97bfd-127">Įtraukite siuntimo adreso modulį į galutinį puslapį ir nustatykite reikiamas ypatybes</span><span class="sxs-lookup"><span data-stu-id="97bfd-127">Add a shipping address module to a checkout page and set the required properties</span></span>
+## <a name="add-a-shipping-address-module-to-a-checkout-page-and-set-the-required-properties"></a><span data-ttu-id="c645c-127">Įtraukite siuntimo adreso modulį į galutinį puslapį ir nustatykite reikiamas ypatybes</span><span class="sxs-lookup"><span data-stu-id="c645c-127">Add a shipping address module to a checkout page and set the required properties</span></span>
 
-<span data-ttu-id="97bfd-128">Siuntimo adreso modulis gali būti įtrauktas tik į galutinį modulį.</span><span class="sxs-lookup"><span data-stu-id="97bfd-128">A shipping address module can be added only to a checkout module.</span></span> <span data-ttu-id="97bfd-129">Dėl išsamesnės informacijos apie tai, kaip konfigūruoti siuntimo adreso modulį ir įtraukti jį į galutinį puslapį, žr. [Galutinis modulis](add-checkout-module.md).</span><span class="sxs-lookup"><span data-stu-id="97bfd-129">For more information about how to configure the shipping address module and add it to a checkout page, see [Checkout module](add-checkout-module.md).</span></span>
+<span data-ttu-id="c645c-128">Siuntimo adreso modulis gali būti įtrauktas tik į galutinį modulį.</span><span class="sxs-lookup"><span data-stu-id="c645c-128">A shipping address module can be added only to a checkout module.</span></span> <span data-ttu-id="c645c-129">Dėl išsamesnės informacijos apie tai, kaip konfigūruoti siuntimo adreso modulį ir įtraukti jį į galutinį puslapį, žr. [Galutinis modulis](add-checkout-module.md).</span><span class="sxs-lookup"><span data-stu-id="c645c-129">For more information about how to configure the shipping address module and add it to a checkout page, see [Checkout module](add-checkout-module.md).</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="97bfd-130">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="97bfd-130">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="c645c-130">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="c645c-130">Additional resources</span></span>
 
-[<span data-ttu-id="97bfd-131">Krepšelio modulis</span><span class="sxs-lookup"><span data-stu-id="97bfd-131">Cart module</span></span>](add-cart-module.md)
+[<span data-ttu-id="c645c-131">Krepšelio modulis</span><span class="sxs-lookup"><span data-stu-id="c645c-131">Cart module</span></span>](add-cart-module.md)
 
-[<span data-ttu-id="97bfd-132">Krepšelio piktogramos modulis</span><span class="sxs-lookup"><span data-stu-id="97bfd-132">Cart icon module</span></span>](cart-icon-module.md)
+[<span data-ttu-id="c645c-132">Krepšelio piktogramos modulis</span><span class="sxs-lookup"><span data-stu-id="c645c-132">Cart icon module</span></span>](cart-icon-module.md)
 
-[<span data-ttu-id="97bfd-133">Pirkimo užbaigimo modulis</span><span class="sxs-lookup"><span data-stu-id="97bfd-133">Checkout module</span></span>](add-checkout-module.md)
+[<span data-ttu-id="c645c-133">Pirkimo užbaigimo modulis</span><span class="sxs-lookup"><span data-stu-id="c645c-133">Checkout module</span></span>](add-checkout-module.md)
 
-[<span data-ttu-id="97bfd-134">Mokėjimo modulis</span><span class="sxs-lookup"><span data-stu-id="97bfd-134">Payment module</span></span>](payment-module.md)
+[<span data-ttu-id="c645c-134">Mokėjimo modulis</span><span class="sxs-lookup"><span data-stu-id="c645c-134">Payment module</span></span>](payment-module.md)
 
-[<span data-ttu-id="97bfd-135">Pristatymo parinkčių modulis</span><span class="sxs-lookup"><span data-stu-id="97bfd-135">Delivery options module</span></span>](delivery-options-module.md)
+[<span data-ttu-id="c645c-135">Pristatymo parinkčių modulis</span><span class="sxs-lookup"><span data-stu-id="c645c-135">Delivery options module</span></span>](delivery-options-module.md)
 
-[<span data-ttu-id="97bfd-136">Paėmimo informacijos modulis</span><span class="sxs-lookup"><span data-stu-id="97bfd-136">Pickup information module</span></span>](pickup-info-module.md)
+[<span data-ttu-id="c645c-136">Paėmimo informacijos modulis</span><span class="sxs-lookup"><span data-stu-id="c645c-136">Pickup information module</span></span>](pickup-info-module.md)
 
-[<span data-ttu-id="97bfd-137">Išsamios užsakymo informacijos modulis</span><span class="sxs-lookup"><span data-stu-id="97bfd-137">Order details module</span></span>](order-confirmation-module.md)
+[<span data-ttu-id="c645c-137">Išsamios užsakymo informacijos modulis</span><span class="sxs-lookup"><span data-stu-id="c645c-137">Order details module</span></span>](order-confirmation-module.md)
 
-[<span data-ttu-id="97bfd-138">Dovanų kortelės modulis</span><span class="sxs-lookup"><span data-stu-id="97bfd-138">Gift card module</span></span>](add-giftcard.md)
+[<span data-ttu-id="c645c-138">Dovanų kortelės modulis</span><span class="sxs-lookup"><span data-stu-id="c645c-138">Gift card module</span></span>](add-giftcard.md)
