@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3dacc755b3d4d3b5c7f51f6bac7c2e9c62773ba
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 91ec6e1610c472d9c16020e4a7c38705059f0331
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4446045"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988804"
 ---
 # <a name="sales-tax-overview"></a>PVM apžvalga
 
@@ -97,6 +96,3 @@ Tačiau, jei naudojate sąlyginį PVM, mokesčių rinkėjui sumą sudengiate, ka
 Banko sąskaita nebus išvalyta, jei apmokėjimo būdui pasirinksite vėlesnį čekį, kai bus sukurtas apmokėjimas. Kai kuriose šalyse PVM tampa įvykdytu įsipareigojimu, kai bankas patvirtina mokėjimą, o tai reiškia, kad vėlesnis čekis yra sudengtas. Galite įgalinti jį pasirinkdami parinktį **Sukurti sąlyginį mokestį, kai nurašomi vėlesni čekiai**, esančią **Grynųjų pinigų ir banko valdymas > Sąranka > Grynųjų pinigų ir banko valdymo parametrai > Vėlesni čekiai**.
 
 Daugiau informacijos žr. [Nustatyti išskaitomą mokestį](tasks/set-up-withholding-tax.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

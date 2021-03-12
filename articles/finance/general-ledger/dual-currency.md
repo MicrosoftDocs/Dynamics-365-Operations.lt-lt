@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8b71b571b03e8fa2648c90258bbcaa020baeabc0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 04126c0cddd1242e9607274e35f4b7626ad573d2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445840"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990469"
 ---
 # <a name="dual-currency"></a>Dvi valiutos
 
@@ -209,6 +208,3 @@ DK konsolidacijoje pridėta nauja parinktis, su kuria galima konsoliduoti šalti
 -  Dabar galite pasirinkti ar norite naudoti šaltinio įmonės apskaitos valiutą ar ataskaitų valiutą kaip operacijos valiutą konsolidacijos įmonėje.
 
 - Šaltinio įmonės apskaitos arba ataskaitų valiutų sumos bus tiesiogiai nukopijuotos į konsolidacijos įmonės apskaitos arba ataskaitų valiutų sumas, jei bet kuri iš šių valiutų yra vienoda. Konsolidacijos įmonės apskaitos ir ataskaitų valiutų sumos skaičiuojamos naudojant valiutos kursą, jei nei viena iš valiutų nėra vienoda.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

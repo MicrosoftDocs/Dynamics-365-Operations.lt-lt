@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9d99233831ee4f838c0230e92db0750d94b2b55b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3ec0e21ccecd5bf90e9b31b5aade33e585108c62
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4446033"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990244"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>„Dynamics 365 Finance“ naudotojų mokymosi katalogas
 
@@ -53,13 +52,11 @@ Toliau pateiktas katalogas yra sutvarkytas taip, kad žinios būtų išdėstytos
 | [Darbas su gautinomis sumomis naudojant „Dynamics 365 Finance“](https://docs.microsoft.com/learn/paths/work-accounts-receivable-dyn365-finance/)  | Sukonfigūruokite „Dynamics 365 Finance“ gautinų sumų modelį, kad galėtumėte kurti kliento SF, skelbti važtaraščius ir naudoti laisvos formos sąskaitas, nesusijusias su paradavimo užsakymais. Šiame mokymosi kelyje taip pat sužinosite, kaip atlikti kasdienes užduotis pirkėjų įsiskolinimuose      | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 7 valandos   |
 | [Konfigūruokite ir naudokite „Dynamics 365 Finance“ biudžeto sudarymo funkciją](https://docs.microsoft.com/learn/paths/configure-use-budgeting-dyn365-finance/)   | Kiekviena organizacija, neatsižvelgiant į tai, ar ji yra privati ar viešoji, nustato finansinius ir veiklos tikslus sukurdama biudžetus. Biudžeto planavimui tapus bendru ir orientuotu į procesą, biudžeto planavimo procesą galėsite padaryti efektyvesniu. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 3.5 valandos |
 | [Konfigūruokite ir valdykite ilgalaikį turtą naudodami „Dynamics 365 Finance“](https://docs.microsoft.com/learn/paths/configure-manage-fixed-assets-dyn365-finance/) | Galite sukonfigūruoti ir įvesti ilgalaikio turto įsigijimo informaciją, o tada jį valdyti skaičiuodami nusidėvėjimą ir nustatydami ribinę kapitalizacijos vertę. Ilgalaikio turto valdymas turi atitikti tarptautinius apskaitos standartus ir kiekvienos šalies arba regiono apskaitos įstatymus. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 4.5 valandos |
-| [Darbo su tiekimo grandinių „Dynamics 365 Finance” kaštų apskaita pradžia](https://docs.microsoft.com/learn/paths/get-started-cost-accounting-supply-chains-dyn365-finance/) | Naudodami kaštų apskaitą galite rinkti duomenis iš įvairių šaltinių, pvz., didžiosios knygos, antrinių didžiųjų knygų, biudžetų ir statistinės informacijos. Tada galite analizuoti, apibendrinti ir įvertinti kaštų duomenis, kad vadovai galėtų priimti geriausius sprendimus dėl kainos atnaujinimų, biudžetų, išlaidų kontrolės ir t. t.  | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 1 valanda  |
+| [Darbo su tiekimo grandinių „Dynamics 365 Finance” kaštų apskaita pradžia](https://docs.microsoft.com/learn/paths/get-started-cost-accounting-supply-chains-dyn365-finance/) | Naudodami kaštų apskaitą galite rinkti duomenis iš įvairių šaltinių, pvz., didžiosios knygos, antrinių didžiųjų knygų, biudžetų ir statistinės informacijos. Tada galite analizuoti, apibendrinti ir įvertinti kaštų duomenis, kad vadovai galėtų priimti geriausius sprendimus dėl kainos atnaujinimų, biudžetų, išlaidų kontrolės ir t. t.  | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi kelias | 1 valanda  |
+| [Darbas su išlaidų valdymu „Dynamics 365 Project Operations“](https://docs.microsoft.com/learn/paths/work-expense-management/) | Maksimizuokite pelną ir minimizuokite kaštus su tikslaus išlaidų valdymo savybėmis „Dynamics 365 Project Operations“. Sužinokite, kaip konfigūruoti sistemą ir kurti bei tvirtinti išlaidų ataskaitas. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi kelias | 5.5 valandos  |
 
 ## <a name="exam"></a>Egzaminas<a name="exam"></a>
 
 | Turinys | aprašymas  | Formatuoti  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [„Dynamics 365“ pagrindai](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl)    | Įrodykite, kad suprantate „Microsoft Dynamics 365“, „Power Platform“, debesų koncepcijas, licencijavimo parinktis bei diegimo ir išleidimo parinktis. | Egzamino kaina priklauso nuo regiono |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
