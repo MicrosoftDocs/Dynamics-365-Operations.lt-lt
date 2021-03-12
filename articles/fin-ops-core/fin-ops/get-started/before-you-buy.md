@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: adbc9d0bc4632c661b40001a54685192b9ae2d23
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: ea741e3d4b3a6ce93a30c9d8c8adc7c91b513871
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694141"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798554"
 ---
 # <a name="before-you-buy"></a>Prieš perkant
 
@@ -30,7 +30,7 @@ Kas nauja „Dynamics 365 Finance“, „Dynamics 365 Supply Chain Management“
 
 ## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Pirmas veiksmas: išbandykite „Finance and Operations“ nemokamai 30 dienų
 
-„Dynamics 365 for Finance“, „Dynamics 365 Supply Chain Management“ arba „Dynamics 365 Commerce“ galite bandyti 30 dienų, paprasčiausiai užregistravę savo el. pašto adresą. Į „Finance and Operations“ programų bandomąją versiją įtraukti darbo pradžios vadovai, kuriuose pateiktos nuoseklios instrukcijos, suteikiančios galimybę peržiūrėti konkrečių scenarijų vykdymą. Naudojant produktą galima peržiūrėti ir vykdyti įvairius scenarijus, bet negalima tinkinti. Demonstraciniai duomenys įtraukti siekiant palengvinti naudojimąsi produktu ir paversti patirtį prasmingesne. Likus 3 dienoms iki bandomosios versijos pabaigos bus išsiųstas priminimo el. laiškas. Daugiau informacijos ieškokite adresu [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations).
+„Dynamics 365 for Finance“, „Dynamics 365 Supply Chain Management“ arba „Dynamics 365 Commerce“ galite bandyti 30 dienų, paprasčiausiai užregistravę savo el. pašto adresą. Į „Finance and Operations“ programų bandomąją versiją įtraukti darbo pradžios vadovai, kuriuose pateiktos nuoseklios instrukcijos, suteikiančios galimybę peržiūrėti konkrečių scenarijų vykdymą. Naudojant produktą galima peržiūrėti ir vykdyti įvairius scenarijus, bet negalima tinkinti. Demonstraciniai duomenys įtraukti siekiant palengvinti naudojimąsi produktu ir paversti patirtį prasmingesne. Likus 3 dienoms iki bandomosios versijos pabaigos bus išsiųstas priminimo el. laiškas. Išsamią informaciją rasite [Registravimasis prenumeratų peržiūros versijai gauti](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Antras veiksmas: diegimo parinkčių pasirinkimas
 
@@ -93,6 +93,3 @@ Papildomus išteklius žr.:
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Jei naujinate iš „Dynamics AX 2012“ arba pereinate iš „AX 2009“
 
 Jei esate klientas, naujinantis iš „Microsoft Dynamics AX 2012“ arba pereinantis iš „Microsoft Dynamics AX 2009“, jums gali būti skirta ilgesnė bandomoji versija. Jei reikia daugiau informacijos, susisiekite adresu <daxcf@microsoft.com>.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

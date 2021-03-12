@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 47c07dd0e2f311b61297340a48a5a31cb1de3903
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 78a7cdc18476a1c523c83c92ca6f354c3ba806dc
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685670"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744858"
 ---
 # <a name="guidance-for-dual-write-setup"></a>Nurodymai, kaip nustatyti dvigubą rašymą
 
@@ -36,7 +36,7 @@ ms.locfileid: "4685670"
 Galite nustatyti dvigubo rašymo ryšį tarp „Finance and Operations“ aplinkos ir „Dataverse“ aplinkos.
 
 + **„Finance and Operations“ aplinka** suteikia pamatinę platformą **„Finance and Operations“ programoms** (pvz., „Microsoft Dynamics 365 Finance“, „Dynamics 365 Supply Chain Management“, „Dynamics 365 Commerce“ ir „Dynamics 365 Human Resources“).
-+ **„Dataverse“ aplinka** suteikia pamatinę platformą **klientų įtraukimo programoms** („Dynamics 365 Sales“, „Dynamics 365 Customer Service“, „Dynamics 365 Field Service“, „Dynamics 365 Marketing“ ir „Dynamics 365 Project Service Automation“).
++ **„Dataverse ”aplinka** suteikia pamatinę platformą **„customer engagement” programoms** („Dynamics 365 Sales“, „Dynamics 365 Customer Service“, „Dynamics 365 column Service“, „Dynamics 365 Marketing“ ir „Dynamics 365 Project Service Automation“).
 
 > [!IMPORTANT]
 > Dvigubo rašymo ryšiai palaikomi „Dynamics 365 Finance” modulyje Personalas, tačiau ne „Dynamics 365 Human Resources” programoje.
@@ -138,6 +138,3 @@ Norėdami gauti saitą su pavyzdžiu ir alternatyviu metodu, žr. skyrių [Pavyz
 Pavyzdį rasite [Lentelių Klientai V3 ir Kontaktai schemos įgalinimas](enable-entity-map.md#enable-table-map)
 
 Jei norite naudoti alternatyvų būdą, pagrįstą kiekvieno objekto, kuris turi vykdyti pradinį sinchronizavimą, duomenimis, žr. [Pradinės sinchronizacijos aplinkybės](initial-sync-guidance.md).
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

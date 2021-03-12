@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 6356ec6850667f32f9e9e4133686c40f0b6d76d7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b01ef3da908739d17f2a03398ae56f35191e8db6
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688264"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744546"
 ---
 # <a name="general-troubleshooting"></a>Bendroji trikčių šalinimo informacija
 
@@ -65,23 +65,23 @@ Norėdami įjungti sekimo žurnalą, atlikite toliau nurodytus veiksmus.
 
 1. Prisijunkite prie modeliu grįstos „Dynamics 365” programos, atidarykite puslapį **Parametrai**, tada dalyje **Sistema** pasirinkite **Administravimas**.
 2. Puslapyje **Administravimas** pasirinkite **Sistemos parametrai**.
-3. Skirtuko **Tinkinimas** lauke **Priedo ir pasirinktinės darbo eigos veiklos sekimas** pasirinkite **Viskas**, kad įgalintumėte priedo sekimo žurnalą. Jei norite registruoti sekimo žurnalus tik tada, kai įvyksta išimtys, vietoje to galite pasirinkti **Išimtis**.
+3. Skirtuko **Tinkinimas** stulpelyje **Priedo ir pasirinktinės darbo eigos veiklos sekimas** pasirinkite **Viskas**, kad įgalintumėte priedo sekimo žurnalą. Jei norite registruoti sekimo žurnalus tik tada, kai įvyksta išimtys, vietoje to galite pasirinkti **Išimtis**.
 
 
 Norėdami peržiūrėti sekimo žurnalą, atlikite toliau nurodytus veiksmus.
 
 1. Prisijunkite prie modeliu grįstos „Dynamics 365” programos, atidarykite puslapį **Parametrai**, tada dalyje **Tinkinimas** pasirinkite **Priedo sekimo žurnalas**.
-2. Raskite sekimo žurnalus, kuriuose laukas **Tipo pavadinimas** nustatytas kaip **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
+2. Raskite sekimo žurnalus, kuriuose stulpelis **Tipo pavadinimas** nustatytas kaip **„Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin”**.
 3. Dukart spustelėkite elementą, kad peržiūrėtumėte visą žurnalą, tada „FastTab” **Vykdymas** peržiūrėkite tekstą **Pranešimų blokas**.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Norėdami šalinti tiesioginio sinchronizavimo triktis „Finance and Operations” programose, įgalinkite derinimo režimą
 
 **Reikiamas vaidmuo, norint peržiūrėti klaidas:** sistemos administratoriaus dvigubos rašymo klaidos, sukurtos „Dataverse”, gali atsirasti „Finance and Operations” programoje. Kai kuriais atvejais visas klaidos pranešimo tekstas nepasiekiamas, nes pranešimas yra per ilgas arba jame yra asmens identifikavimo informacijos (PII). Galite įjungti daugiažodį klaidų registravimą atlikdami šiuos veiksmus.
 
-1. Visų „Finance and Operations” programų projektų konfigūracijų objekte **DualWriteProjectConfiguration** yra ypatybė **IsDebugMode**. Atidarykite objektą **DualWriteProjectConfiguration** naudodami „Excel“ papildinį.
+1. Visų „Finance and Operations” programų projektų konfigūracijų lentelėje **„DualWriteProjectConfiguration”** yra ypatybė **„IsDebugMode”**. Atidarykite lentelę **„DualWriteProjectConfiguration”** naudodami „Excel“ papildinį.
 
     > [!TIP]
-    > Galite lengvai atidaryti objektą, „Excel” papildinyje įjungdami režimą **Dizainas** ir į darbalapį įtraukdami **DualWriteProjectConfigurationEntity**. Daugiau informacijos žr. [Objektų duomenų atidarymas programoje „Excel“ ir jų atnaujinimas naudojant „Excel“ papildinį](../../office-integration/use-excel-add-in.md).
+    > Galite lengvai atidaryti lentelę „Excel” papildinyje įjungdami režimą **Dizainas** ir įtraukdami **DualWriteProjectConfigurationEntity”** į darbalapį. Daugiau informacijos žiūrėkite [Lentelių duomenų atidarymas programoje „Excel“ ir jų atnaujinimas naudojant „Excel“ papildinį](../../office-integration/use-excel-add-in.md).
 
 2. Nustatykite projekto ypatybę **IsDebugMode** kaip **Taip**.
 3. Vykdyti scenarijų, kuris generuoja klaidas.
@@ -118,10 +118,7 @@ Dabar galite susieti naują aplinką.
 Sukurę pardavimo užsakymą „Dynamics 365 Sales”, paspaudę **+ Įtraukti produktus** galite būti nukreipti į „Dynamics 365 Project Operations” užsakymo eilutės formą. Nėra būdo toje formoje peržiūrėti pardavimo užsakymo eilutės formą **Informacija**. Parinktis **Informacija** neatsiranda toliau esančiame išplečiamajame lauke **Nauja užsakymo eilutė**. Taip nutinka, nes jūsų aplinkoje įdiegta „Project Operations”.
 
 Norėdami iš naujo įgalinti formos parinktį **Informacija**, atlikite toliau pateiktus veiksmus.
-1. Pereikite į objektą **Užsakymo eilutė**.
+1. Pereikite į **Užsakymo eilutė** lentelę.
 2. Formų mazge raskite formą **Informacija**. 
 3. Pasirinkite formą **Informacija** ir spustelėkite **Įgalinti saugos vaidmenis**. 
 4. Pakeiskite saugos parametro parinktį į **Rodyti visiems**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

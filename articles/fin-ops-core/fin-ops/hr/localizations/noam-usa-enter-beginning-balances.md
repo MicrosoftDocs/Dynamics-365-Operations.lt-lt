@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4411a6b72dbb7e6f5b1a72df8dbcbd54e265164c
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 8443bc5c63a90d80757ab4b7507502497c2aaa69
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693407"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797789"
 ---
 # <a name="enter-payroll-beginning-balances"></a>Algalapio pradžios balansų įvedimas
 
@@ -166,6 +166,3 @@ Galima atšaukti ir iš naujo įvesti operacijas. Norėdami atšaukti operaciją
 2. Spustelėkite **Taip**, kai rodomas šis pranešimas: „Atšaukus šį mokėjimo išrašą, norint jį patikslinti, bus sukurtas atšaukimo mokėjimo išrašas Nei vieno iš šių mokėjimo išrašų redaguoti negalima. Ar norite atšaukti šį mokėjimo išrašą?“ rodomas. 
 
 Atšaukus mokėjimo išrašą galima generuoti naują darbuotojo mokėjimo išrašą iš anksčiau sukurto pajamų išrašo. Prieš generuojant naują mokėjimo išrašą būtinai ištaisyti neteisingas pajamų išrašo eilutes, o tada generuoti naują mokėjimo išrašą su teisingomis sumomis. 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

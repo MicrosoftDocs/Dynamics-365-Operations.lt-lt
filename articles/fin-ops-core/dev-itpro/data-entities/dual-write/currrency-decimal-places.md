@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 6a0f114bce6bdb7813c93e9441744d67cd043c30
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5d39bf28dba951a1483412d967c8c6fc6dbcc610
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683742"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744380"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Valiutos duomenų tipo perkėlimas dvigubui rašymui
 
@@ -44,11 +44,11 @@ Perkėlimas yra neprivalomas. Jei didesnio dešimtainių skaičių kiekio palaik
 
 ## <a name="requesting-migration-from-microsoft"></a>Perkėlimo užklausos siuntimas „Microsoft”
 
-Saugojimas esamiems valiutos laukams „Dataverse” negali palaikyti daugiau nei keturių dešimtainių skaičių. Todėl perkėlimo metu valiutos vertės nukopijuojamos į naujus duomenų bazės vidinius laukus. Šis procesas vyksta nuolatos, kol bus perkelti visi duomenys. Viduje perkėlimo pabaigoje, naujieji saugojimo tipai pakeičia senus saugojimo tipus, tačiau duomenų vertės lieka nepakitusios. Valiutos laukai gali palaikyti iki 10 dešimtainių skaičių. Perkėlimo metu „Dataverse” gali būti toliau naudojama be pertraukos.
+Saugojimas esamiems valiutos stulpeliams „Dataverse” negali palaikyti daugiau nei keturių dešimtainių skaičių. Todėl perkėlimo metu valiutos vertės nukopijuojamos į naujus duomenų bazės vidinius stulpelius. Šis procesas vyksta nuolatos, kol bus perkelti visi duomenys. Viduje perkėlimo pabaigoje, naujieji saugojimo tipai pakeičia senus saugojimo tipus, tačiau duomenų vertės lieka nepakitusios. Valiutos stulpeliai gali palaikyti iki 10 dešimtainių skaičių. Perkėlimo metu „Dataverse” gali būti toliau naudojama be pertraukos.
 
 Tuo pačiu metu keitimo kursai modifikuojami taip, kad jie palaikytų iki 12 dešimtainių skaičių, o ne dabartinę 10 limitą. Šis pakeitimas būtinas, kad dešimtainių skaičių kiekis būtų toks „Finance and Operations” programėlėje ir „Dataverse”.
 
-Perkėlimas nekeičia jokių duomenų. Kai valiutos ir keitimo kurso laukai konvertuoti, administratoriai gali konfigūruoti sistemą, kad būtų galima naudoti iki 10 dešimtainių skaičių valiutos laukas nurodant kiekvienos operacijos valiutos ir kainos dešimtainių skaičių kiekį. 
+Perkėlimas nekeičia jokių duomenų. Kai valiutos ir keitimo kurso stulpeliai konvertuoti, administratoriai gali konfigūruoti sistemą, kad būtų galima naudoti iki 10 dešimtainių skaičių valiutos stulpeliams, nurodydami kiekvienos operacijos valiutos ir kainos dešimtainių skaičių kiekį.
 
 ### <a name="request-a-migration"></a>Perkėlimo užklausa
 
@@ -72,29 +72,26 @@ Baigus perkėlimą, „Dataverse” gali būti saugomi skaičiai, turintys daugi
 
 Norėdami atlikti šį keitimą, turite atnaujinti šiuos parametrus „Power Apps”:
 
-+ **Sistemos parametrai: kainos valiutos tikslumas** – **Nustatyti valiutos tikslumą, naudojamą kainai visoje sistemoje** lauke, nustatoma, kaip valiuta veiks organizacijoje, kai **Kainos tikslumas** pasirenkamas.
-+ **Verslo valdymas: valiutos** – **Valiutos tikslumas** laukas leidžia nurodyti pasirinktinį dešimtainių skaičių kiekį konkrečiai valiutai. Yra atsarginis visai organizacijai taikomas parametras.
++ **Sistemos parametrai: kainos valiutos tikslumas** – **Nustatyti valiutos tikslumą, naudojamą kainai visoje sistemoje** stulpelyje nustatoma, kaip valiuta veiks organizacijoje, kai **Kainos tikslumas** yra pasirinktas.
++ **Verslo valdymas: valiutos** – **Valiutos tikslumas** stulpelis leidžia nurodyti pasirinktinį dešimtainių skaičių kiekį konkrečiai valiutai. Yra atsarginis visai organizacijai taikomas parametras.
 
 Yra keletas apribojimų:
 
-+ Negalite sukonfigūruoti objekto valiutos lauko.
++ Negalite sukonfigūruoti valiutos stulpelio lentelėje.
 + Galite nurodyti daugiau nei keturis dešimtainius skaičius **Kaina** ir **Operacijos valiuta** lygiuose.
 
 ### <a name="system-settings-currency-precision-for-pricing"></a>Sistemos parametrai: valiutos kainos tikslumas
 
-Baigus perkėlimą, administratoriai gali nustatyti valiutos tikslumą. Eikite į **Parametrai \> Administravimas** ir pasirinkite **Sistemos parametrai**. Tada **Bendra** skirtuke pakeiskite **Nustatyti valiutos tikslumą, naudojamą kainai visoje sistemoje** lauko vertę, kaip parodyta šioje iliustracijoje.
+Baigus perkėlimą, administratoriai gali nustatyti valiutos tikslumą. Eikite į **Parametrai \> Administravimas** ir pasirinkite **Sistemos parametrai**. Tada skirtuke **Bendra** pakeiskite **Nustatyti valiutos tikslumą, naudojamą kainai visoje sistemoje** stulpelio vertę, kaip parodyta šioje iliustracijoje.
 
 ![Valiutos sistemos parametrai](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>Verslo valdymas: valiutos
 
-Jei jums reikia, kad valiutos tikslumas konkrečiai valiutai skirtųsi nuo valiutos tikslumo, naudojamo kainai, galite jį pakeisti. Eikite į **Parametrai \> Verslo valdymas**, pasirinkite **Valiutos** ir pasirinkite valiutą, kurią norite pakeisti. Tada nustatykite **Valiutos tikslumas** lauką pagal dešimtainių skaičių kiekį, kaip parodyta šioje iliustracijoje.
+Jei jums reikia, kad valiutos tikslumas konkrečiai valiutai skirtųsi nuo valiutos tikslumo, naudojamo kainai, galite jį pakeisti. Eikite į **Parametrai \> Verslo valdymas**, pasirinkite **Valiutos** ir pasirinkite valiutą, kurią norite pakeisti. Tada nustatykite **Valiutos tikslumas** stulpelį pagal dešimtainių skaičių kiekį, kaip parodyta šioje iliustracijoje.
 
 ![Konkrečios lokalės valiutos parametrai](media/specific-currency.png)
 
-### <a name="tables-currency-field"></a>lentelės: laukas Valiuta
+### <a name="tables-currency-column"></a>lentelės: stulpelis Valiuta
 
-Galima tik keturis kartus koreguoti dešimtainių skaičių, skirtų konkrečios valiutos laukams, kiekius.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+Galima tik keturis kartus koreguoti dešimtainių skaičių, skirtų konkrečios valiutos stulpeliams, kiekius.

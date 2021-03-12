@@ -3,7 +3,7 @@ title: Verslo dokumentų valdymo apžvalga
 description: Šioje temoje pateikiama informacija apie tai, kaip naudotis ER sistemos verslo dokumentų valdymo funkcija.
 author: NickSelin
 manager: AnnBe
-ms.date: 04/10/2020
+ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4b50a170bb9e584501fe780239228dc871ca7750
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1e657ffbad88aeb9fd238112954f5555496ac329
+ms.sourcegitcommit: fcc4596eeadac5dfe9a3242afa49b9b1c0c96575
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681309"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "4740961"
 ---
 # <a name="business-document-management-overview"></a>Verslo dokumentų valdymo apžvalga
 
@@ -41,26 +41,19 @@ Dabar verslo dokumentų valdymo funkcija įdiegta tik debesies diegimams. Jei š
 
 ## <a name="supported-microsoft-office-applications"></a>Palaikomos „Microsoft Office“ taikomosios programos
 
-Norėdami naudoti verslo dokumentų valdymą šablonų redagavimui „Excel“ arba „Word“ formatais naudojant „Microsoft Office“ darbalaukio programas, turite įdiegti „Microsoft Office 2010“ arba naujesnę versiją. Tą galima padaryti atliekant diegimą debesyje ir vietinį diegimą.
+Norėdami naudoti verslo dokumentų valdymą šablonų redagavimui „Excel“ arba „Word“ formatais naudojant „Microsoft Office“ darbalaukio programas, turite įdiegti „Microsoft Office 2010“ arba naujesnę versiją. Tai palaikoma atliekant diegimą debesyje ir vietinį diegimą.
+
+Norėdami naudoti verslo dokumentų valdymą šablonų redagavimui „Excel“ arba „Word“ formatais naudojant „Microsoft 365“ programas, turite turėti „Microsoft 365 Office”, skirtą žiniatinkliui, prenumeratą. Tai palaikoma debesies diegime.
 
 ## <a name="business-document-availability"></a>Verslo dokumentų pasiekiamumas
 
-Toliau nurodytos ataskaitos (kartu su „Excel“ pagrįstais šablonais) bus prieinamos su viešosios peržiūros versijos išleidimu:
+Pilnam visų ataskaitų, suplanuotų 2019 m. spalio mėn leidimui, žiūrėkite [Konfigūruotinų verslo dokumentų ataskaitos programose „Word“ ir „Excel“](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
 
-**Gautinos sumos** (2019 m. rugpjūčio mėn.)
+Pilnam visų ataskaitų, suplanuotų 2020 m. spalio mėn leidimui, žiūrėkite [Konfigūruotini verslo dokumentai – „Word“ šablonai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
 
-- Išankstinė pardavimo sąskaita faktūra
-- Pardavimo užsakymo važtaraštis
+Būsimuose leidimuose bus prieinama daugiau ataskaitų. Specialūs pranešimai apie papildomas ataskaitas bus atsiųsti atskirai. Norėdami sužinoti, kaip peržiūrėti šiuo metu galimų ataskaitų sąrašą, žiūrėkite [ER konfigūracijų, išleistų „Finance” tam kad būtų palaikomi toliau pateikti konfigūruojami verslo dokumentai, sąrašas](#list-of-configurations-cbd) skyrių žemiau.
 
-**Mokėtinos sumos** (2019 m. rugpjūčio mėn.)
-
-- Išankstinės sąskaitos-faktūros pirkimas
-- Pirkimo užsakymas
-- Užsakymo važtaraščio pirkimas
-
-Daugiau ataskaitų bus pasiekiamos. Specialūs pranešimai apie papildomas ataskaitas bus atsiųsti atskirai. 
-
-Pilną visų ataskaitų, suplanuotų 2019 m. spalio mėn. leidimui, sąrašą galite rasti čia: [Konfigūruotinų verslo dokumentų ataskaitos programose „Word“ ir „Excel“](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details). Norėdami sužinoti daugiau apie šią funkciją, atlikite šioje temoje esantį pavyzdį.
+Norėdami sužinoti daugiau apie šią funkciją, atlikite šioje temoje esantį pavyzdį.
 
 ## <a name="configure-er-parameters"></a>ER parametrų konfigūravimas
 
@@ -74,24 +67,24 @@ Kadangi verslo dokumentų valdymas sukurtas papildant ER sistemą, turite sukonf
 
 **Pavyzdinis ER klientų sąskaitos-faktūros išrašymo sprendimas**
 
-| **Failas**                                  | **Turinys**                                |
-|-------------------------------------------|--------------------------------------------|
+| Failas                                      | Turinys |
+|-------------------------------------------|---------|
 | Customer invoicing model.version.2.xml    | [ER duomenų modelio konfigūracija](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 | Customer FTI report (GER).version.2.3.xml | [Laisvos formos sąskaitos-faktūros ER formato konfigūracija](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 **Pavyzdinis ER mokėjimo kvitų sprendimas**
 
-| **Failas**                                  | **Turinys**                                |
-|-------------------------------------------|--------------------------------------------|
-| Model for cheques.version.10.xml          | [ER duomenų modelio konfigūracija](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Cheques printing format.version.10.9.xml  | [Mokėjimo kvito ER formato konfigūracija](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Failas                                     | Turinys |
+|------------------------------------------|---------|
+| Model for cheques.version.10.xml         | [ER duomenų modelio konfigūracija](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Cheques printing format.version.10.9.xml | [Mokėjimo kvito ER formato konfigūracija](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 **Pavyzdinis ER užsienio prekybos sprendimas**
 
-| **Failas**                                  | **Turinys**                                |
-|-------------------------------------------|--------------------------------------------|
-| Intrastat model.version.1.xml             | [ER duomenų modelio konfigūracija](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Intrastat report.version.1.9.xml          | [Intrastat valdiklio ataskaitos ER formato konfigūracija](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Failas                             | Turinys |
+|----------------------------------|---------|
+| Intrastat model.version.1.xml    | [ER duomenų modelio konfigūracija](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Intrastat report.version.1.9.xml | [Intrastat valdiklio ataskaitos ER formato konfigūracija](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 Norėdami importuoti kiekvieną failą, atlikite toliau nurodytą procedūrą. Importuokite kiekvieno aukščiau lentelėse nurodyto ER sprendimo ER *duomenų modelio* konfigūraciją prieš importuodami atitinkamą ER *formato* konfigūraciją.
 
@@ -101,15 +94,13 @@ Norėdami importuoti kiekvieną failą, atlikite toliau nurodytą procedūrą. I
 4. Pasirinkite **Naršyti**, kad įkeltumėte reikalingą XML failą.
 5. Pasirinkite **Gerai**, kad patvirtintumėte konfigūracijos importavimą.
 
-![ER konfigūracijų puslapis](./media/BDM-Overview-ERSolutions.png)
-
+![ER konfigūracijų puslapis, patvirtinantis konfigūracijos importavimą](./media/BDM-Overview-ERSolutions.png)
 
 Taip pat galite importuoti oficialiai publikuotas ER formato konfigūracijas iš „Microsoft Dynamics Lifecycle Services“ (LCS). Pavyzdžiui, norėdami atlikti šią procedūrą, galite importuoti naujausią ER formato konfigūraciją **Laisvos formos sąskaita faktūra („Excel“)**. Atitinkamas ER duomenų modelis ir ER modelio susiejimo konfigūracijos bus importuoti automatiškai.
 
 ![LCS bendrai naudojamo turto bibliotekos turinio puslapis](./media/BDM-Overview-SharedAssetLibrary.png)
 
 Daugiau informacijos apie ER konfigūracijų importavimą rasite temoje [ER konfigūracijos ciklo valdymas](general-electronic-reporting-manage-configuration-lifecycle.md).
-
 
 ## <a name="enable-business-document-management"></a>Verslo dokumentų valdymo įjungimas
 
@@ -122,7 +113,7 @@ Atlikite toliau nurodytą procedūrą, kad įjungtumėte verslo dokumentų valdy
 3. Pasirinkite **Įjungti dabar**, kad įjungtumėte pasirinktą funkciją.
 4. Norėdami pasiekti naują funkciją, atnaujinkite puslapį.
 
->[!NOTE]
+> [!NOTE]
 > Daugiau informacijos apie tai, kaip naudoti naujo dokumento vartotojo sąsają funkcijoje Verslo dokumentų valdymas, žr. [Naujo dokumento vartotojo sąsaja funkcijoje Verslo dokumentų valdymas](er-business-document-management-new-template-ui.md).
 
 ![Funkcijos valdymo darbo sritis](./media/BDM-Overview-FMEnabling.png)
@@ -134,21 +125,22 @@ Daugiau informacijos apie naujų funkcijų aktyvavimą žr. temoje [Funkcijos va
 Norėdami nustatyti pagrindinius verslo dokumentų valdymo parametrus, sekite tolesniuose skyriuose pristatytą informaciją.
 
 ### <a name="prerequisites-for-parameter-setup"></a>Parametrų nustatymo būtinosios sąlygos
+
 Prieš nustatydami verslo dokumentų valdymą, turite nustatyti reikalingą dokumento tipą dokumentų valdymo sistemoje. Dokumento tipas nurodo laikiną dokumentų „Office“ formatais („Excel“ ir „Word“), naudojamų kaip ER ataskaitų šablonai, saugyklą. Laikinos saugyklos šablonas gali būti redaguojamas naudojant „Office“ darbalaukio programas.
 
 Šiam dokumento tipui turi būti pasirinktos toliau nurodytos atributų vertės.
 
-| **Atributo pavadinimas**  | **Atributo vertė**   |
-|---------------------|-----------------------|
-| Klasė               | Pridėti failą           |
-| Grupuoti               | Failas                  |
-| Vieta            | „SharePoint“            |
+| Atributo pavadinimas | Atributo vertė |
+|----------------|-----------------|
+| Klasė          | Pridėti failą     |
+| Grupuoti          | Failas            |
+| Vieta       | „SharePoint“      |
 
 Daugiau informacijos apie tai, kaip nustatyti reikalingus dokumentų valdymo parametrus ir dokumentų tipus rasite temoje [Dokumentų valdymo konfigūravimas](../../fin-ops/organization-administration/configure-document-management.md).
 
 ![Dokumentų valdymo dokumento tipo nustatymas](./media/BDM-Overview-DMSetting.png)
 
-### <a name=""></a><a name="SetupBdmParameters">Parametrų nustatymas</a>
+### <a name="set-up-parameters"></a><a name="SetupBdmParameters"></a>Parametrų nustatymas
 
 Pagrindinius verslo dokumentų valdymo parametrus galite nustatyti puslapyje **Verslo dokumentų parametrai**. Puslapis pasiekiamas tik konkretiems vartotojams. Vartotojai, galintys pasiekti puslapį:
 
@@ -159,7 +151,7 @@ Atlikite toliau nurodytą procedūrą, kad nustatytumėte pagrindinius parametru
 
 1. Prisijunkite kaip vartotojas, kuriam suteikta prieiga prie puslapio **Verslo dokumentų parametrai**.
 2. Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Verslo dokumentų valdymas** \> **Verslo dokumentų parametrai**.
-3.    Puslapyje **Verslo dokumentų parametrai**, skirtuke **Priedai**, lauke **„SharePoint“ dokumento tipas** apibrėžkite dokumento tipą, kuris turėtų būti naudojamas laikinai saugoti šablonus „Office“ formatais, kol jie redaguojami naudojant „Office“ darbalaukio programas. 
+3. Puslapyje **Verslo dokumentų parametrai**, skirtuke **Priedai**, lauke **„SharePoint“ dokumento tipas** apibrėžkite dokumento tipą, kuris turėtų būti naudojamas laikinai saugoti šablonus „Office“ formatais, kol jie redaguojami naudojant „Office“ darbalaukio programas. 
 
 > [!NOTE]
 > Šis parametras pasiekiamas tik dokumentų tipams, kurie sukonfigūruoti naudojant „SharePoint“ vietą.
@@ -169,13 +161,13 @@ Atlikite toliau nurodytą procedūrą, kad nustatytumėte pagrindinius parametru
 Pasirinktas dokumento tipas yra būdingas įmonei ir bus naudojamas, kai vartotojas dirba su verslo dokumentų valdymu įmonėje, kuriai sukonfigūruotas pasirinktas dokumento tipas. Kai vartotojas dirba su verslo dokumentų valdymu kitoje įmonėje, tas pats pasirinktas dokumento tipas bus naudojamas jei jis nebuvo sukonfigūruotas šiai įmonei. Kai dokumento tipas sukonfigūruotas, jis bus naudojamas vietoje to, kuris pasirinktas lauke **„SharePoint“ dokumento tipas**.
 
 > [!NOTE]
-> Parametre **„SharePoint“ dokumento tipas** „SharePoint“ aplankas apibrėžiamas kaip laikina šablonų, kuriuos galima redaguoti naudojant „Microsoft Excel“ arba „Word“, saugykla. Turite nustatyti šį parametrą, jei planuojate naudoti šias „Office“ darbalaukio programas šablonams redaguoti. Norėdami gauti daugiau informacijos, žr. [Šablono redagavimas „Office“ darbalaukio programoje](#EditInOfficeDesktopApp). Šis parametras gali būti tuščias, jei planuojate modifikuoti šabloną naudodami tik „Microsoft 365“ funkcijas. Daugiau informacijos žr. [Šablono redagavimas naudojant „Microsoft 365“](#EditInOffice365).
+> Parametre **„SharePoint“ dokumento tipas** „SharePoint“ aplankas apibrėžiamas kaip laikina šablonų, kuriuos galima redaguoti naudojant „Microsoft Excel“ arba „Word“, saugykla. Turite nustatyti šį parametrą, jei planuojate naudoti šias „Office“ darbalaukio programas šablonams redaguoti. Norėdami gauti daugiau informacijos, žr. [Šablono redagavimas „Office“ darbalaukio programoje](#EditInOfficeDesktopApp). Šį parametrą galite palikti tuščią, jei planuojate modifikuoti šabloną naudodami tik „Microsoft 365“ funkcijas. Daugiau informacijos žr. [Šablono redagavimas naudojant „Microsoft 365“](#EditInOffice365).
 
 ## <a name="configure-access-permissions"></a>Prieigos teisių konfigūravimas
 
 Pagal numatytuosius nustatymus, kai prieiga prie verslo dokumentų valdymo teisių neįgalinta, kiekvienas vartotojas, kuriam suteikta prieiga prie verslo dokumentų valdymo darbo srities, matys visus prieinamus ER sprendimo šablonus. Verslo dokumentų valdymo darbo srityje bus rodomi tik tie šablonai, kurie yra ER formato konfigūracijose ir pažymėti žyme **Verslo dokumentų tipas**.
 
-![ER konfigūracijų puslapis](./media/BDM-Overview-ERFormatTags.png)
+![ER konfigūracijų puslapis su verslo dokumento tipo žyme](./media/BDM-Overview-ERFormatTags.png)
 
 Šablonų, prieinamų verslo dokumentų valdymo darbo srityje, sąrašas gali būti apribotas konfigūruojant prieigos teises. Tai svarbu, kai skirtingi šablonai naudojami skirtingų verslo domenų (funkcinių sričių) verslo dokumentams kurti, o jūs norite suteikti konkretiems vartotojams prieigą prie skirtingų šablonų, kad jie galėtų juos redaguoti verslo dokumentų valdymo darbo srityje.
 
@@ -197,13 +189,13 @@ Atlikite toliau nurodytą procedūrą, kad nustatytumėte prieigos prie verslo d
 
     Toliau pateiktame grafiniame elemente parodyta, kas prieinama verslo dokumentų valdymo darbo srityje vartotojams, kuriems suteiktas **Gautinų sumų klerkas** vaidmuo. Pagal dabartinį prieigos teisių parametrą, vartotojas gali redaguoti skirtingų funkcinių sričių, įskaitant sąskaitos-faktūros išrašymą, teisės aktų nustatytas ataskaitas ir mokėjimus, verslo dokumentų šablonus.
 
-    ![Verslo dokumentų valdymo darbo srities puslapis](./media/BDM-Overview-TemplatesForAlice1.png)
+    ![Verslo dokumentų valdymo darbo srities puslapis, skirtas gautinų sumų klerkui](./media/BDM-Overview-TemplatesForAlice1.png)
 
 3. Puslapyje **Prieigos teisių konfigūratorius** pasirinkite **Prieigos teisių parametras**.
 4. Dialogo lange **Parametrai prieigos teisių šablonų redagavimui** įjunkite parinktį **Taikyti sukonfigūruotas prieigos teises**.
 5. Pasirinkite **Gerai**, kad patvirtintumėte, jog verslo dokumentų valdymo prieigos teisės buvo įjungtos.
 
-    ![Verslo dokumentų valdymo prieigos teisių puslapio konfigūravimas](./media/BDM-Overview-TemplatesAccess2.png)
+    ![Verslo dokumentų valdymo prieigos teisių patvirtinimas](./media/BDM-Overview-TemplatesAccess2.png)
 
 6. Pasirinkite **Įtraukti**, kad įvestumėte naują verslo vaidmenį, kuriam reikia sukonfigūruoti teises pasiekti verslo dokumentų valdymo šablonus.
 7. Dialogo lange **Saugos vaidmenys** pasirinkite vaidmenį **Gautinų sumų klerkas** ir tada pažymėkite **Gerai**, kad patvirtintumėte vaidmens pasirinkimą.
@@ -215,7 +207,7 @@ Atlikite toliau nurodytą procedūrą, kad nustatytumėte prieigos prie verslo d
 
 11. Perjunkite sritį **Susijusi informacija** iš dabartinio puslapio dešinės pusės. Srityje **Susijusi informacija** rodoma, kaip bus taikomos sukonfigūruotos prieigos teisės, taip pat kokie ER konfigūracijų šablonai bus prieinami vartotojams, kuriems priskirtas **Gautinų sumų klerkas** vaidmuo.
 
-    ![Verslo dokumentų valdymo prieigos teisių puslapio konfigūravimas](./media/BDM-Overview-TemplatesAccess3.png)
+    ![Susijusios informacijos sritis prieigos teisių konfigūratoriaus puslapyje](./media/BDM-Overview-TemplatesAccess3.png)
 
 12. Skirtuke **Prieigos teisės konfigūracijų žymėms** pasirinkite parinktį **Įtraukti**.
 13. Dialogo lange **Pasirinkti konfigūraciją** pažymėkite **Intrastat ataskaita** ER formato konfigūraciją.
@@ -226,11 +218,11 @@ Dabartinis parametras reiškia, kad kiekvienam vartotojui, kuriam priskirtas **G
 - Šablonai, turintys vertę **Sąskaitos-faktūros išrašymas** žymei **Funkcinė sritis**.
 - Iš ER formato konfigūracijų sukurti šablonai, kurie išvardyti žymėje **Prieigos teisės konfigūracijoms** (šiame pavyzdyje, šablonai iš **Intrastat ataskaita** formato konfigūracijos domene **Privalomos ataskaitos**).
 
-![Verslo dokumentų valdymo prieigos teisių puslapio konfigūravimas](./media/BDM-Overview-TemplatesAccess4.png)
+![Prieigos teisių „FastTabs” prieigos teisių konfigūratoriaus puslapyje](./media/BDM-Overview-TemplatesAccess4.png)
 
 Toliau pateiktame grafiniame elemente parodyta, ką teikia verslo dokumentų valdymo darbo sritis vartotojui, kuriam suteiktas **Gautinų sumų klerkas** vaidmuo. Pagal dabartinį verslo dokumentų valdymo prieigos teisių parametrą, vartotojas gali redaguoti verslo dokumentų šablonus iš domeno **Sąskaitos-faktūros išrašymas** ir **Intrastat ataskaita** ER formato konfigūracijos. Šablonai iš domeno **Mokėjimai** nepasiekiami vaidmeniui **Gautinų sumų klerkas**.
 
-![Verslo dokumentų valdymo darbo srities puslapis](./media/BDM-Overview-TemplatesForAlice2.png)
+![Verslo dokumentų šablonų redagavimas verslo dokumentų valdymo darbo srities puslapyje](./media/BDM-Overview-TemplatesForAlice2.png)
 
 > [!NOTE]
 > **Prieigos teisių konfigūracijų** taisyklės saugomos naudojant ER formato konfigūracijos unikalaus identifikavimo ID. Tai reiškia, kad šios taisyklės nebus panaikintos, kai jomis besiremianti ER konfigūracija yra panaikinama. Kai importuojate panaikintas konfigūracijas atgal į šį egzempliorių, šios taisyklės vėl bus joms priskirtos. Nereikia dar kartą nustatyti taisyklių, kai vėl importuojate panaikintas konfigūracijas.
@@ -252,7 +244,7 @@ Kai funkcija **Į „Office“ panaši vartotojo sąsaja funkcijoje Verslo dokum
 - Šablonai, priklausantys jūsų ER konfigūracijos teikėjui (t. y. teikėjui, kuris šiuo metu pažymėtas kaip aktyvus darbo srityje **Elektroninės ataskaitos**). Pasirinkę vieną iš šių šablonų, galite pasirinkti **Redaguoti šabloną**, kad pradėtumėte jį redaguoti arba tęstumėte darbą.
 - Šablonai, priklausantys kitiems ER konfigūracijos teikėjams. Pasirinkę vieną iš šių šablonų, galite pasirinkti **Naujas dokumentas**, kad sukurtumėte kopiją, priklausančią jūsų ER konfigūracijos teikėjui, o tada pradėti redaguoti kopiją.
 
-![Verslo dokumentų valdymo darbo srities puslapis](./media/BDM-Overview-EditingTemplate1.png)
+![Šablonų įrašai verslo dokumentų valdymo darbo srities puslapyje](./media/BDM-Overview-EditingTemplate1.png)
 
 Skirtuke **Šablonas** pristatomas pasirinkto šablono turinys. Pasirinkite skirtuką **Išsami informacija**, kad peržiūrėtumėte išsamią pasirinkto šablono informaciją, taip pat ER formato konfigūracijos, kurioje yra šis šablonas, išsamią informaciją. Atkreipkite dėmesį, kad visi šablonai turi būseną **Paskelbta** ir neturi jokios išsamios informacijos stulpelyje **Tikslinimas**. Tai reiškia, kad šie šablonai šiuo metu neredaguojami.
 
@@ -265,7 +257,7 @@ Norėdami dirbti su šablonais, priklausančiais kitiems ER konfigūracijos teik
 1. Verslo dokumentų valdymo darbo srityje sąraše pasirinkite šabloną **Kvitų spausdinimo formatas**.
 2. Pažymėkite skirtuką **Išsami informacija**.
 
-![Verslo dokumentų valdymo darbo srities puslapis](./media/BDM-Overview-EditingTemplate2.png)
+![Verslo dokumentų valdymo darbo srities puslapis, Išsamios informacijos skirtukas](./media/BDM-Overview-EditingTemplate2.png)
 
 Pasirinktam šablonui pasiekiama parinktis **Redaguoti šabloną**. Ši parinktis visada pasiekiama ER formato konfigūracijos, priklausančios aktyvios ER konfigūracijos tiekėjui (šiame pavyzdyje – **„Litware, Inc.“**), šablonui. Kai pasirenkate parinktį **Redaguoti šabloną**, galite redaguoti esamą šabloną iš esamo ER formato konfigūracijos juodraščio versijos.
 
@@ -273,14 +265,14 @@ Pasirinktam šablonui pasiekiama parinktis **Redaguoti šabloną**. Ši parinkti
 
 1. Darbo srityje Verslo dokumentų valdymas pasirinkite dokumentą, kurį norite naudoti kaip šabloną.
 
-![Verslo dokumentų valdymo darbo srities puslapis](./media/BDM-Overview-EditingTemplate3.png)
+    ![Pasirinkite dokumentą verslo dokumentų valdymo darbo srities puslapyje](./media/BDM-Overview-EditingTemplate3.png)
 
-3. Pasirinkite **Naujas dokumentas** ir, jei reikia, lauke **Pavadinimas** pakeiskite redaguojamo šablono pavadinimą. Tekstas bus naudojamas automatiškai sukurtai ER formato konfigūracijai pavadinti. Atkreipkite dėmesį, kad šios konfigūracijos (**Kliento laisvos formos sąskaitos-faktūros ataskaitos (GER) kopija**), kurioje bus suredaguotas šablonas, juodraščio versija bus automatiškai pažymėta vykdyti šį ER formatą dabartiniam vartotojui. Tuo pat metu, nemodifikuotas originalus šablonas iš pagrindinio ER formato konfigūracijos bus naudojamas šiam bet kuriam kitam vartotojui skirtam ER formatui vykdyti.
-4. Lauke **Pavadinimas** pakeiskite automatiškai sukurto redaguojamo šablono pirmo pataisymo pavadinimą.
-5. Lauke **Komentaras** pakeiskite redaguojamo šablono automatiškai sukurto pataisymo komentarą.
-6. Pasirinkite **Gerai**, kad patvirtintumėte redagavimo proceso pradžią
+2. Pasirinkite **Naujas dokumentas** ir, jei reikia, lauke **Pavadinimas** pakeiskite redaguojamo šablono pavadinimą. Tekstas bus naudojamas automatiškai sukurtai ER formato konfigūracijai pavadinti. Atkreipkite dėmesį, kad šios konfigūracijos (**Kliento laisvos formos sąskaitos-faktūros ataskaitos (GER) kopija**), kurioje bus suredaguotas šablonas, juodraščio versija bus automatiškai pažymėta vykdyti šį ER formatą dabartiniam vartotojui. Tuo pat metu, nemodifikuotas originalus šablonas iš pagrindinio ER formato konfigūracijos bus naudojamas šiam bet kuriam kitam vartotojui skirtam ER formatui vykdyti.
+3. Lauke **Pavadinimas** pakeiskite automatiškai sukurto redaguojamo šablono pirmo pataisymo pavadinimą.
+4. Lauke **Komentaras** pakeiskite redaguojamo šablono automatiškai sukurto pataisymo komentarą.
+5. Pasirinkite **Gerai**, kad patvirtintumėte redagavimo proceso pradžią.
 
-![Verslo dokumentų valdymo darbo srities puslapis](./media/BDM-Overview-EditingTemplate4.png)
+![Redagavimo proceso pradžios patvirtinimas naujo šablono kūrimui](./media/BDM-Overview-EditingTemplate4.png)
 
 Parinktis **Naujas dokumentas** visada pasiekiama ER formato konfigūracijos šablonui, kurį teikia dabartinis ir kitas tiekėjas (šiame pavyzdyje – „Microsoft“) ir kuriame nėra pataisymų. Redaguotas šablonas bus išsaugotas naujoje automatiškai sugeneruotoje ER formato konfigūracijoje.
 
@@ -290,21 +282,21 @@ Parinktis **Naujas dokumentas** visada pasiekiama ER formato konfigūracijos ša
 2. Lauke **Pavadinimas** pakeiskite automatiškai sukurto redaguojamo šablono pirmo pataisymo pavadinimą.
 3. Lauke **Komentaras** pakeiskite redaguojamo šablono automatiškai sukurto pataisymo pastabą.
 
-    ![Verslo dokumentų valdymo darbo srities puslapis](./media/BDM-Overview-EditingTemplate5.png)
+    ![Šablono redagavimas verslo dokumentų valdymo darbo srities puslapyje](./media/BDM-Overview-EditingTemplate5.png)
 
-5. Pasirinkite **Gerai**, kad patvirtintumėte redagavimo proceso pradžią.
+4. Pasirinkite **Gerai**, kad patvirtintumėte redagavimo proceso pradžią.
 
 Bus atidarytas puslapis **BDM šablono redaktorius**. Pasirinktą šabloną bus galima redaguoti internetu naudojant „Microsoft 365“.
 
-![Verslo dokumentų valdymo darbo srities puslapis](./media/BDM-Overview-EditingLayout1.png)
+![Verslo dokumentų valdymo šablonų redaktoriaus puslapis](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name=""></a><a name="EditInOffice365">Šablono redagavimas naudojant „Microsoft 365“</a>
+### <a name="edit-a-template-in-microsoft-365"></a><a name="EditInOffice365"></a>„Microsoft 365“ šablono redagavimas
 
 Šabloną galima modifikuoti naudojant „Microsoft 365“. Pavyzdžiui, programoje „Office Online“ pakeiskite lauko raginimų šablono antraštėje šriftą iš **Paprastasis** į **Paryškintasis**. Šie pakeitimai automatiškai išsaugomi redaguojamame šablone, kuris saugomas pirminėje šablono saugykloje (pagal numatytuosius nustatymus – „Azure“ didelių dvejetainių objektų saugykloje). Ji konfigūruojama ER sistemai.
 
-![Verslo dokumentų valdymo šablonų redaktoriaus puslapis](./media/BDM-Overview-EditingLayout2.png)
+![Šablono antraštės šrifto keitimas į paryškintąjį verslo dokumentų valdymo šablonų rengyklės puslapyje](./media/BDM-Overview-EditingLayout2.png)
 
-### <a name=""></a><a name="EditInOfficeDesktopApp">Šablono redagavimas „Office“ darbalaukio programoje</a>
+### <a name="edit-a-template-in-the-office-desktop-application"></a><a name="EditInOfficeDesktopApp"></a>Šablono redagavimas „Office“ darbalaukio programoje
 
 > [!NOTE]
 > Ši funkcija galima tik tada, kai parametras **„SharePoint“ dokumento tipas** tinkamai sukonfigūruotas. Daugiau informacijos žr. [Parametrų konfigūravimas](#SetupBdmParameters).
@@ -312,15 +304,15 @@ Bus atidarytas puslapis **BDM šablono redaktorius**. Pasirinktą šabloną bus 
 1. Pasirinkite parinktį **Atidaryti darbalaukio programoje**, kad modifikuotumėte šabloną naudojant „Office“darbalaukio programų (šiame pavyzdyje – „Excel“) funkciją. Redaguojamas šablonas nukopijuojamas iš nuolatinės saugyklos į laikiną saugyklą, sukonfigūruotą verslo dokumentų valdymo parametruose kaip „SharePoint“ aplankas.
 2. Patvirtinkite, kad norite atidaryti šabloną iš laikinos failų saugyklos „Office“ darbalaukio „Excel“ programoje.
 
-    ![Verslo dokumentų valdymo darbo srities puslapis](./media/BDM-Overview-EditingLayout3.png)
+    ![Šablonas atidarytas darbalaukio „Excel” programoje](./media/BDM-Overview-EditingLayout3.png)
 
 3. Modifikuokite šabloną. Pavyzdžiui, programoje „Office Online“ pakeiskite laukų raginimų šablono antraštėje šriftą pakeisdami spalvą iš **Juoda** į **Mėlyna**.
 
-    ![Verslo dokumentų valdymo šablonų redaktoriaus puslapis](./media/BDM-Overview-EditingLayout4.png)
+    ![Šablono antraštės šrifto spalvos modifikavimas naudojant darbalaukio „Excel” programą](./media/BDM-Overview-EditingLayout4.png)
 
 4. Pasirinkite **Įrašyti** „Excel“ darbalaukio programoje, kad įrašytumėte šablono pakeitimus laikinoje saugykloje.
 
-    ![Verslo dokumentų valdymo šablonų redaktoriaus puslapis](./media/BDM-Overview-EditingLayout5.png)
+    ![Įrašykite pakeitimus į verslo dokumentų valdymo šablonų rengyklės puslapį naudojant darbalaukio „Excel” programą](./media/BDM-Overview-EditingLayout5.png)
 
 5. Uždarykite „Excel“ darbalaukio programą.
 6. Pasirinkite **Sinchronizuoti išsaugotą kopiją**, kad sinchronizuotumėte laikiną šablonų saugyklą į nuolatinę šablonų saugyklą.
@@ -340,7 +332,7 @@ Bus atidarytas puslapis **BDM šablono redaktorius**. Pasirinktą šabloną bus 
 
 Atnaujintas šablonas rodomas skirtuke **Šablonas**. Atkreipkite dėmesį, kad redaguojamo šablono būsena dabar yra **Juodraštis** ir dabartinis pataisymas nebėra tuščias. Tai reiškia, kad šio šablono redagavimo procesas prasidėjo.
 
-![Verslo dokumentų valdymo darbo srities puslapis](./media/BDM-Overview-EditingTemplate5.png)
+![Atnaujinto šablono verslo dokumentų valdymo darbo srities puslapyje peržiūra](./media/BDM-Overview-EditingTemplate5.png)
 
 ### <a name="test-the-modified-template"></a>Modifikuoto šablono testavimas 
 
@@ -353,7 +345,7 @@ Atnaujintas šablonas rodomas skirtuke **Šablonas**. Atkreipkite dėmesį, kad 
     ![Spausdinimo valdymo parametro puslapis](./media/BDM-Overview-TestRun1.png)
 
 6. Norėdami uždaryti dabartinį puslapį, paspauskite **Išeiti**.
-7. Pasirinkite **Spausdinti**, o tada spustelėkite **Pasirinkta**.
+7. Pasirinkite **Spausdinti**, o tada pasirinkite **Pasirinkta**.
 8. Atsisiųskite dokumentą ir jį atidarykite naudojant „Excel“ darbalaukio programą.
 
 ![Laisvos formos sąskaitos-faktūros puslapis](./media/BDM-Overview-TestRun2.png)
@@ -367,7 +359,7 @@ Modifikuotas šablonas naudojamas pažymėtos prekės laisvos formos sąskaitos-
 3. Jei reikia, lauke **Pavadinimas** pakeiskite antro pataisymo pavadinimą ir pagrįsite jį šiuo metu aktyviu pirmu pataisymu.
 4. Jei reikia, lauke **Komentaras** pakeiskite redaguojamo šablono automatiškai sukurto pataisymo pastabą.
 
-    ![Verslo dokumentų valdymo darbo srities puslapis](./media/BDM-Overview-AddRevision.png)
+    ![Šablono tikslinimų verslo dokumentų valdymo darbo srities puslapyje kūrimas](./media/BDM-Overview-AddRevision.png)
 
     Sukūrėte naują šablono versiją, kuri buvo išsaugota nuolatinėje šablono saugykloje. Dabar galite tęsti antro pataisymo, kuris šiuo metu pažymėtas kaip aktyvus, šablono redagavimą.
 
@@ -385,22 +377,25 @@ Modifikuotas šablonas naudojamas pažymėtos prekės laisvos formos sąskaitos-
 
 Kai redaguojate šabloną iš ER formato, priklausančio dabartiniam aktyviam tiekėjui, jums bus suteikta galimybė atšaukti šablonui pristatytus pakeitimus.
 
-![Verslo dokumentų valdymo darbo srities puslapis](./media/BDM-Overview-RevokeChanges.png)
+![Šablono pakeitimų verslo dokumentų valdymo darbo srities puslapyje atmetimas](./media/BDM-Overview-RevokeChanges.png)
 
 1. Puslapyje **BDM šablono redaktorius** pasirinkite skirtuką **Šablonas**.
 2. Pasirinkite **Anuliuoti**.
 3. Jei pasirenkate **Gerai**, kad atšauktumėte šablonui pristatytus pakeitimus, modifikuotas šablonas bus pakeistas originaliu šablonu, o visi pakeitimai bus pašalinti. Kai atšaukiate šablono pakeitimus, galėsite ištrinti šabloną. Norėdami peržiūrėti kitas parinktis, pasirinkite **Atšaukti**.
 
 ### <a name="publish-a-modified-template"></a>Modifikuoto šablono publikavimas
+
 1. Puslapio **BDM šablono redaktorius** skirtuke **Šablonas** pasirinkite **Publikuoti**.
 2. Jei pasirenkate **Gerai**, kad patvirtintumėte publikavimą, išvestinio ER formato **Kliento laisvos formos sąskaitos-faktūros ataskaitos (GER) kopija** juodraščio versija, kurioje yra modifikuotas šablonas, bus pažymėta kaip užbaigta. Modifikuotas šablonas taps pasiekiamas kitiems vartotojams. Užbaigtose šio ER formato versijose liks tik paskutinis aktyvus jūsų šablono pataisymas. Kiti pataisymai bus panaikinti. Norėdami peržiūrėti kitas parinktis, pasirinkite **Atšaukti**.
 
 ## <a name="frequently-asked-questions"></a>Dažnai užduodami klausimai
 
-#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-microsoft-365-web-page"></a>Pasirinkau **Redaguoti dokumentą**, tačiau vietoj puslapio **BDM šablonų rengyklė**, atsidarančio programoje „Finance and Operations“, atsidarė „Microsoft 365“ tinklalapis.
-Tai žinoma problema su „Microsoft 365“ peradresavimu. Tai atsitinka, kai pirmą kartą prisijungiate prie „Microsoft 365“. Norėdami išspręsti šią problemą, pasirinkite naršyklės mygtuką **Atgal**, kad grįžtumėte atgal.
+### <a name="i-selected-edit-document-but-instead-of-going-to-the-bdm-template-editor-page-in-finance-i-was-sent-to-the-microsoft-365-webpage"></a>Pasirinkau Redaguoti dokumentą, tačiau vietoj „Finance” BDM šablonų rengyklės puslapio, atsidarė „Microsoft 365“ tinklalapis.
 
-#### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>Aš suprantu, kaip redaguoti šabloną naudojant „Microsoft 365“ pirmame programos seanse ir kaip naudoti šabloną antrame programos seanse koreguojant šabloną, kad pamatyčiau, kaip pakeitimai paveikia sugeneruotą verslo dokumentą. Ar galiu tai atlikti naudojant „Office“ darbalaukio programą?
+Tai žinoma problema, susijusi su „Microsoft 365“ peradresavimu. Taip atsitinka, kai pirmą kartą prisijungiate prie „Microsoft 365“. Norėdami išspręsti šią problemą, jūsų naršyklėje pasirinkite **Atgal** tam, kad grįžtumėte į ankstesnį puslapį.
+
+### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>Aš suprantu, kaip redaguoti šabloną naudojant „Microsoft 365“ pirmame programos seanse, ir kaip naudoti šabloną antrame programos seanse, taip pat, kaip koreguoti šabloną, kad pamatyčiau pakeitimų poveikį sugeneruotam verslo dokumentui. Ar galiu naudoti „Office” darbalaukio programą tuo pačiu būdu?
+
 Taip, galite. Pirmame programos seanse pasirinkite **Atidaryti darbalaukio programoje**. Jūsų šablonas bus išsaugotas laikinoje failų saugykloje ir atidarytas „Office“ darbalaukio programoje. Tada atlikite toliau nurodytus veiksmus, kad peržiūrėtumėte jūsų šablono pakeitimus sugeneruotame verslo dokumente:
 
 1. Atlikite šablono pakeitimus naudojant „Office“ darbalaukio programą.
@@ -408,7 +403,8 @@ Taip, galite. Pirmame programos seanse pasirinkite **Atidaryti darbalaukio progr
 3. Pirmo programos seanso puslapyje **BDM šablono redaktorius** pasirinkite **Sinchronizuoti išsaugotą kopiją**.
 4. Vykdykite šio šablono ER formatą antrame programos seanse.
 
-#### <a name="i-get-the-error-value-cannot-be-null-parameter-name-externalid-when-i-select-open-in-desktop-app-how-do-i-work-around-this"></a>Man rodoma klaida „Reikšmė negali būti nulinė“. Parametro pavadinimas: „externalId’“, kai pasirenku **Atidaryti darbalaukio programoje**. Kaip galiu tai išspręsti? 
+### <a name="when-i-select-open-in-desktop-app-i-receive-the-following-error-message-value-cannot-be-null-parameter-name-externalid-how-do-i-work-around-this-issue"></a>Kai darbalaukio programoje pasirenku Atidaryti, rodomas šis klaidos pranešimas: „Vertė negali būti neapibrėžta. Parametro pavadinimas: externalId.” Kaip galiu išspręsti šią problemą?
+
 Tikėtina, kad prisijungėte prie dabartinio „Azure AD“ domeno programos egzemplioriaus, kuris skiriasi nuo „Azure AD“ domeno, kuris buvo naudojamas diegiant šį egzempliorių. Kadangi „SharePoint“ paslauga, naudojama šablonams saugoti, kad jie būtų prieinami redagavimui naudojant „Office“ darbalaukio programas, priklauso tam pačiam domenui, mes neturime teisių pasiekti „SharePoint“ paslaugą. Norėdami išspręsti šią problemą, prisijunkite prie dabartinio egzemplioriaus naudodami vartotojo kredencialus tinkamame „Azure AD“ domene.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
@@ -423,6 +419,163 @@ Tikėtina, kad prisijungėte prie dabartinio „Azure AD“ domeno programos egz
 
 [Elektroninių ataskaitų (ER) konfigūravimas duomenims perkelti į „Power BI“](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
+## <a name="list-of-er-configurations-that-have-been-released-in-finance-to-support-configurable-business-documents"></a><a name="list-of-configurations-cbd"></a>ER konfigūracijų, išleistų „Finance” tam, kad būtų galima palaikyti konfigūruojamus verslo dokumentus, sąrašas
 
+„Finance” ER konfigūracijų [sąrašas](general-electronic-reporting.md#list-of-configurations) yra nuolat atnaujinamas. Atidarykite [visuotinę saugyklą](er-download-configurations-global-repo.md) tam, kad peržiūrėtumėte šiuo metu palaikomų ER konfigūracijų sąrašą. Galite [filtruoti](https://docs.microsoft.com/dynamics365/finance/localizations/enhanced-filtering-global-repo) visuotinę saugyklą tam, kad peržiūrėtumėte ER konfigūracijų, naudojamų konfigūruotiniems verslo dokumentams palaikyti, sąrašą.
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![Visuotinės saugyklos turinio konfigūracijų saugyklos puslapyje filtravimas](./media/bdm-overview-filterglobalrepo.gif)
+
+Šioje lentelėje pateikiamas ER konfigūracijų, palaikančių konfigūruotinus verslo dokumentus ir kurios buvo išleistos „Finance” iki 2020 m. gruodžio mėn, sąrašas.
+
+| Duomenų modelio konfigūracija    | Formato konfigūracija                           |
+|-----------------------------|-------------------------------------------------|
+| Važtaraščio modelis        | Važtaraštis („Excel”)                          |
+|                             | Važtaraštis („Word”)                           |
+| Kilmės sertifikato modelis | Kilmės sertifikatas („Excel”)                   |
+|                             | Kilmės sertifikatas („Word”)                    |
+| Sąskaitos faktūros modelis               | Klientų debeto ir kredito pažyma („Excel”)          |
+|                             | Klientų debeto ir kredito pažyma („Word”)           |
+|                             | Laisvos formos sąskaita faktūra („Excel“)                       |
+|                             | Laisvos formos sąskaita faktūra („Excel“) (BH)                  |
+|                             | Laisvos formos sąskaita faktūra (FR) („Excel“)                  |
+|                             | Laisvos formos sąskaita faktūra (LT) („Excel“)                  |
+|                             | Laisvos formos sąskaita faktūra (LV) („Excel“)                  |
+|                             | Laisvos formos sąskaita faktūra (PL) („Excel“)                  |
+|                             | Laisvos formos sąskaita faktūra (CZ) („Excel“)                  |
+|                             | Laisvos formos sąskaita faktūra (EE) („Excel“)                  |
+|                             | Laisvos formos sąskaita faktūra (HU) („Excel“)                  |
+|                             | Laisvos formos sąskaita faktūra (TH) („Excel“)                  |
+|                             | Laisvos formos sąskaita faktūra („Word”)                        |
+|                             | Projekto sutarties eilutės elementai („Excel”)             |
+|                             | Projekto sutarties eilutės elementai (CZ) („Excel”)        |
+|                             | Projekto sutarties eilutės elementai („Excel”) (BH)        |
+|                             | Projekto sutarties eilutės elementai (HU) („Excel”)        |
+|                             | Projekto sutarties eilutės elementai (LT) („Excel”)        |
+|                             | Projekto sutarties eilutės elementai (PL) („Excel”)        |
+|                             | Projekto sutarties eilutės elementai („Word”)              |
+|                             | Projekto kliento saugojimo išleidimas („Excel”)      |
+|                             | Projekto kliento saugojimo išleidimas (CZ) („Excel”) |
+|                             | Projekto kliento saugojimo išleidimas (HU) („Excel”) |
+|                             | Projekto kliento saugojimo išleidimas (LT) („Excel”) |
+|                             | Projekto kliento saugojimo išleidimas (PL) („Excel”) |
+|                             | Projekto kliento saugojimo išleidimas (TH) („Excel”) |
+|                             | Projekto kliento saugojimo išleidimas („Word”)       |
+|                             | Projekto sąskaita faktūra („Excel”)                         |
+|                             | Projekto sąskaita faktūra („Word”)                          |
+|                             | Projekto sąskaita faktūra (AE) („Excel”)                    |
+|                             | Projekto sąskaita faktūra (CZ) („Excel”)                    |
+|                             | Projekto sąskaita faktūra („Excel”) (BH)                    |
+|                             | Projekto sąskaita faktūra (HU) („Excel”)                    |
+|                             | Projekto sąskaita faktūra (JP) („Excel”)                    |
+|                             | Projekto sąskaita faktūra (LT) („Excel”)                    |
+|                             | Projekto sąskaita faktūra (PL) („Excel”)                    |
+|                             | Projekto sąskaita faktūra (TH) („Excel”)                    |
+|                             | Pilna projekto sąskaita faktūra (MY) („Excel”)               |
+|                             | Paprasta projekto sąskaita faktūra (MY) („Excel”)             |
+|                             | Projekto tvarkymo sąskaita faktūra („Excel”)                  |
+|                             | Projekto tvarkymo sąskaita faktūra (CZ) („Excel”)             |
+|                             | Projekto tvarkymo sąskaita faktūra („Excel”) (BH)             |
+|                             | Projekto tvarkymo sąskaita faktūra (HU) („Excel”)             |
+|                             | Projekto tvarkymo sąskaita faktūra (JP) („Excel”)             |
+|                             | Projekto tvarkymo sąskaita faktūra (LT) („Excel”)             |
+|                             | Projekto tvarkymo sąskaita faktūra (PL) („Excel”)             |
+|                             | Projekto tvarkymo sąskaita faktūra („Word”)                   |
+|                             | Išankstinė pirkimo sąskaita faktūra („Excel”)                |
+|                             | Išankstinė pirkimo sąskaita faktūra („Word”)                 |
+|                             | Išankstinė pardavimo sąskaita faktūra („Excel”)                   |
+|                             | Išankstinė pardavimo sąskaita faktūra („Word”)                    |
+|                             | Išankstinė pardavimo sąskaita faktūra (PL) („Excel”)              |
+|                             | Pardavimo sąskaita faktūra („Excel”)                           |
+|                             | Pardavimo sąskaita faktūra („Excel”) (BH)                      |
+|                             | Pardavimo sąskaita faktūra („Excel”) (CZ)                      |
+|                             | Pardavimo sąskaita faktūra („Excel”) (EE)                      |
+|                             | Pardavimo sąskaita faktūra („Excel”) (FR)                      |
+|                             | Pardavimo sąskaita faktūra („Excel”) (HU)                      |
+|                             | Pardavimo sąskaita faktūra („Excel”) (IN)                      |
+|                             | Pardavimo sąskaita faktūra („Excel”) (LT)                      |
+|                             | Pardavimo sąskaita faktūra („Excel”) (LV)                      |
+|                             | Pardavimo sąskaita faktūra („Excel”) (PL)                      |
+|                             | Pardavimo sąskaita faktūra („Excel”) (TH)                      |
+|                             | Pardavimo sąskaita faktūra („Word”)                            |
+|                             | TMS Prekybinė sąskaita faktūra („Excel”)                  |
+|                             | TMS Prekybinė sąskaita faktūra („Word”)                   |
+|                             | Tiekėjo SF dokumentas („Excel”)                 |
+|                             | Tiekėjo SF dokumentas (CZ) („Excel”)            |
+|                             | Tiekėjo SF dokumentas (HU) („Excel”)            |
+|                             | Tiekėjo SF dokumentas (IN) („Excel”)            |
+|                             | Tiekėjo SF dokumentas (LT) („Excel”)            |
+|                             | Tiekėjo SF dokumentas (LV) („Excel”)            |
+|                             | Tiekėjo SF dokumentas (MY) („Excel”)            |
+|                             | Tiekėjo SF dokumentas („Word”)                  |
+| Užsakymo modelis                 | Sutarties patvirtinimas („Excel”)                  |
+|                             | Sutarties patvirtinimas („Word”)                   |
+|                             | Pirkimo sutarties patvirtinimas („Excel”)         |
+|                             | Pirkimo sutarties patvirtinimas („Word”)          |
+|                             | Pirkimo užsakymas („Excel”)                          |
+|                             | Pirkimo užsakymas (CZ) („Excel”)                     |
+|                             | Pirkimo užsakymo užklausa (CZ) („Excel”)             |
+|                             | Pirkimo užsakymas (HU) („Excel”)                     |
+|                             | Pirkimo užsakymo užklausa (HU) („Excel”)             |
+|                             | Pirkimo užsakymas („Word”)                           |
+|                             | Pirkimo užsakymo užklausa („Excel”)                  |
+|                             | Pirkimo užsakymo užklausa („Word”)                   |
+|                             | Pardavimo užsakymo patvirtinimas („Excel”)                |
+|                             | Pardavimo užsakymo patvirtinimas (CZ) („Excel”)           |
+|                             | Pardavimo užsakymo patvirtinimas (HU) („Excel”)           |
+|                             | Pardavimo užsakymo patvirtinimas („Word”)                 |
+| Važtaraščio modelis          | Konteinerio turinys („Excel”)                      |
+|                             | Konteinerio turinys („Word”)                       |
+|                             | Krovinių sąrašas („Excel”)                               |
+|                             | Krovinių sąrašas („Word”)                                |
+|                             | Išrinkimo dokumentas („Excel”)                            |
+|                             | Išrinkimo dokumentas (CZ) („Excel”)                       |
+|                             | Išrinkimo dokumentas („Word”)                             |
+|                             | Gamybos išrinkimo dokumentas („Excel”)                    |
+|                             | Gamybos išrinkimo dokumentas („Word”)                     |
+|                             | Krovinių išrinkimo dokumentas („Excel”)             |
+|                             | Krovinių išrinkimo dokumentas („Word”)              |
+|                             | Siuntų išrinkimo dokumentas („Excel”)         |
+|                             | Siuntų išrinkimo dokumentas („Word”)          |
+|                             | Bangų išrinkimo dokumentas („Excel”)             |
+|                             | Bangų išrinkimo dokumentas („Word”)              |
+| Mokėjimo modelis               | Kliento mokėjimo pažyma („Excel”)                 |
+|                             | Kliento mokėjimo pažyma („Word”)                  |
+|                             | Tiekėjo mokėjimo pažyma („Excel”)                   |
+|                             | Tiekėjo mokėjimo pažyma („Word”)                    |
+| Pasiūlymo modelis             | Projekto pasiūlymas („Excel”)                       |
+|                             | Projekto pasiūlymas („Word”)                        |
+|                             | Pasiūlymo patvirtinimas („Excel”)                   |
+|                             | Pasiūlymo patvirtinimas (Priimti) („Excel”)          |
+|                             | Pasiūlymo patvirtinimas (Priimti) („Word”)           |
+|                             | Pasiūlymo patvirtinimas (Atmesti) („Excel”)          |
+|                             | Pasiūlymo patvirtinimas (Atmesti) („Word”)           |
+|                             | Pasiūlymo patvirtinimas (Sugrąžinti) („Excel”)          |
+|                             | Pasiūlymo patvirtinimas (Sugrąžinti) („Word”)           |
+|                             | Pasiūlymo patvirtinimas („Word”)                    |
+|                             | Pardavimo pasiūlymas („Excel”)                         |
+|                             | Pardavimo pasiūlymas (CZ) („Excel”)                    |
+|                             | Pardavimo pasiūlymas (HU) („Excel”)                    |
+|                             | Pardavimo pasiūlymas („Word”)                          |
+|                             | Pardavimo pasiūlymo patvirtinimas („Excel”)            |
+|                             | Pardavimo pasiūlymo patvirtinimas („Word”)             |
+| Derinimo modelis        | Kliento sąskaitos išrašas, plėt („Excel”)             |
+|                             | Kliento sąskaitos išrašas, plėt (CN) („Excel”)        |
+|                             | Kliento sąskaitos išrašas, plėt („Word”)              |
+|                             | Kliento sąskaitos išrašas, Prancūzija („Excel”)          |
+| Priminimo modelis              | Priminimo laiško pastaba (Excel)                  |
+|                             | Priminimo laiško pastaba (CN) (Excel)             |
+|                             | Priminimo laiško pastaba („Word”)                   |
+|                             | Kliento delspinigių pažyma („Excel”)                  |
+|                             | Kliento delspinigių pažyma („Word”)                   |
+| Krovinio važtaraščio modelis               | Krovinio mokėjimo priemonė („Excel”)                             |
+|                             | Krovinio mokėjimo priemonė („Word”)                              |
+|                             | Pirkimo užsakymo važtaraštis („Excel”)             |
+|                             | Pirkimo užsakymo važtaraštis (CZ) („Excel”)        |
+|                             | Pirkimo užsakymo važtaraštis („Word”)              |
+|                             | Maršrutas („Excel”)                                   |
+|                             | Maršrutas („Word”)                                    |
+|                             | Pardavimo užsakymo važtaraštis („Excel”)                |
+|                             | Pardavimo užsakymo važtaraštis (CZ) („Excel”)           |
+|                             | Pardavimo užsakymo važtaraštis (LT) („Excel”)           |
+|                             | Pardavimo užsakymo važtaraštis (PL) („Excel”)           |
+|                             | Pardavimo užsakymo važtaraštis („Word”)                 |

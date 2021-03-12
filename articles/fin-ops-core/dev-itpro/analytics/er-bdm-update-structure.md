@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fd279b28c43e22bec6bf814845fe97828bc96d81
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cb0188e372b5f6275472cf040d10bb796eed1858
+ms.sourcegitcommit: 95d2fc0fa7d17d3a96f7969f12c985b018b4ff94
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681333"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "4728094"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>Verslo dokumento šablono struktūros atnaujinimas 
 
@@ -56,7 +56,7 @@ Atlikite tolesnes procedūras, nurodytas temoje [Funkcijos Verslo dokumentų val
 5. Pasirinkite **Gerai**, kad sukurtumėte naują šabloną.
 
     > [!NOTE]
-    > Jei dar neprisijungėte prie „Office Online“, būsite [nukreipti į „Office 365“ prisijungimo puslapį](er-business-document-management.md#i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-microsoft-365-web-page). Norėdami grįžti į savo „Finance“ aplinką, naršyklėje pasirinkite mygtuką **Atgal**.
+    > Jei dar neprisijungėte prie „Office Online“, būsite [nukreipti į „Office 365“ prisijungimo puslapį](er-business-document-management.md#frequently-asked-questions). Norėdami grįžti į savo „Finance“ aplinką, naršyklėje pasirinkite mygtuką **Atgal**.
 
     Naujas šablonas atidaromas redaguoti „Excel Online“ įdėtajame valdiklyje, esančiame šablonų rengyklės puslapyje.
 
@@ -106,6 +106,3 @@ Atlikite tolesnes procedūras, nurodytas temoje [Funkcijos Verslo dokumentų val
 [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)
 
 [Verslo dokumentų valdymo apžvalga](er-business-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

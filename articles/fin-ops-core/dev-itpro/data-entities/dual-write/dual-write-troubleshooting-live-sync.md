@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: ca12759096bd1bafda0a5eee18287a694083db69
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 59c8bd80b167cdfaa7a65e469f4dc7ebf8f50844
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685568"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744618"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Tiesioginio sinchronizavimo trikčių šalinimas
 
@@ -46,11 +46,11 @@ Kai „Finance and Operations” programoje kuriate eilutę, galite gauti tokį 
 
 Norėdami išspręsti problemą, atlikite veiksmus, pateiktus skyriuje [Sistemos reikalavimai ir būtinosios sąlygos](requirements-and-prerequisites.md). Norėdami atlikti šiuos veiksmus, dvigubo rašymo programos vartotojai, sukurti „Dataverse”, privalo turėti sistemos administratoriaus vaidmenį. Numatytoji komanda savininkė taip pat turi turėti sistemos administratoriaus vaidmenį.
 
-## <a name="live-synchronization-for-any-entity-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>Tiesioginis bet kokio objekto sinchronizavimas nuolat pateikia panašią klaidą, kai kuriate eilutę „Finance and Operations” programoje
+## <a name="live-synchronization-for-any-table-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>Tiesioginis bet kokios lentelės sinchronizavimas nuolat pateikia panašią klaidą, kai kuriate eilutę „Finance and Operations” programoje
 
 **Reikiamas vaidmuo, norint spręsti problemą:** sistemos administratorius
 
-Kaskart bandydami įrašyti objekto duomenis „Finance and Operations” programoje, galite gauti klaidos pranešimą, panašų į pateiktą toliau:
+Kaskart bandydami įrašyti lentelės duomenis „Finance and Operations” programoje, galite gauti klaidos pranešimą, panašų į pateiktą toliau:
 
 *Nepavyksta įrašyti duomenų bazės pakeitimų. Darbo vienetas negali įvykdyti operacijos. Nepavyksta įrašyti duomenų į objekto uoms. Įrašyti į UnitOfMeasureEntity nepavyko, nes nepavyko sinchronizuoti klaidos pranešimo su objekto uoms.*
 
@@ -58,8 +58,8 @@ Norėdami išspręsti problemą, turite įsitikinti, kad būtini nuorodos duomen
 
 Jei duomenys yra abiejose programose ir patvirtinote, kad problema nėra susijusi su duomenimis, atlikite šiuos veiksmus:
 
-1. Sustabdykite susijusį objektą.
-2. Prisijunkite prie „Finance and Operations” programos ir įsitikinkite, kad neveikiančio objekto eilutės yra DualWriteProjectConfiguration ir DualWriteProjectFieldConfiguration lentelėse. Pavyzdžiui, čia vaizduojama, kaip atrodo užklausa, jei objektas **Klientai** neveikia.
+1. Sustabdykite susijusią lentelę.
+2. Prisijunkite prie „Finance and Operations” programos ir įsitikinkite, kad neveikiančios lentelės eilutės yra «DualWriteProjectConfiguration» ir „DualWriteProjectFieldConfiguration” lentelėse. Pavyzdžiui, čia vaizduojama, kaip atrodo užklausa, jei lentelė **Klientai** neveikia.
 
     ```sql
     Select projectname, externalenvironmentURL ,\* 
@@ -68,7 +68,7 @@ Jei duomenys yra abiejose programose ir patvirtinote, kad problema nėra susijus
         EXTERNALENTITYNAME = 'accounts' 
     ```
 
-3. Jei net jums sustabdžius lentelės susiejimą, yra neveikiančio objekto eilučių, panaikinkite eilutes, susijusias su neveikiančiu objektu. Norėdami panaikinti eilutę, lentelėje DualWriteProjectConfiguration pasižymėkite stulpelį **projectname** ir lentelėje DualWriteProjectFieldConfiguration raskite įrašą naudodami projekto pavadinimą.
+3. Jei net jums sustabdžius lentelės susiejimą, yra neveikiančios lentelės eilučių, panaikinkite eilutes, susijusias su neveikiančia lentele. Norėdami panaikinti eilutę, lentelėje „DualWriteProjectConfiguration” pasižymėkite stulpelį **„projectname”** ir lentelėje „DualWriteProjectFieldConfiguration” raskite eilutę naudodami projekto pavadinimą.
 4. Pradėkite susiejimą su lentele. Patikrinkite, ar sinchronizuojant duomenis nekyla problemų.
 
 ## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Skaitymo arba rašymo teisių klaidų tvarkymas, kuriant duomenis „Finance and Operations” programoje
@@ -127,6 +127,3 @@ Norėdami ištaisyti klaidą, atlikite toliau nurodytus veiksmus.
 
 3. Įsitikinkite, kad stulpelyje **externalenvironmentURL** yra tinkamas „Dataverse” arba programos URL. Panaikinkite visas pasikartojančius eilutes, kurios nurodo netinkamą „Dataverse” URL. Panaikinkite atitinkamas eilutes DUALWRITEPROJECTFIELDCONFIGURATION ir DUALWRITEPROJECTCONFIGURATION lentelėse.
 4. Sustabdykite susiejimą su lentele, tada paleiskite jį iš naujo
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

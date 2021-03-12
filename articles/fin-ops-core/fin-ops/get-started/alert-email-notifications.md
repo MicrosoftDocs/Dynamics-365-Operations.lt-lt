@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: bf485b407d56b21621617682bab3492925f7f9a4
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: a1d520584e331631bb5a6a88ba6c9a8b50b3d29e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693827"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798628"
 ---
 # <a name="client-alert-notifications-by-email"></a>Kliento įspėjimų pranešimai el. paštu
 
 [!include [banner](../includes/banner.md)]
 
-Galite nustatyti pasirinktines įspėjimo taisykles, kurios stebi filtruotus duomenų rodinius ir automatiškai siunčia el. pašto pranešimus, kai įvyksta iš anksto nurodyti įvykiai. Parinktis siųsti el. pašto pranešimus suteikiama pasirinkus bet kurį palaikomą įspėjimo tipą ir ją taip pat galima įjungti pasirinkus esamas įspėjimo taisykles.
+Galite nustatyti pasirinktines įspėjimo taisykles, kurios stebi filtruotus duomenų rodinius ir automatiškai siunčia el. pašto pranešimus, kai įvyksta iš anksto nurodyti įvykiai. Parinktis siųsti el. pašto pranešimus suteikiama pasirinkus bet kurį palaikomą įspėjimo tipą ir ją taip pat galite įjungti pasirinkus esamas įspėjimo taisykles.
 
-Taip pat galite naudoti integruotus valdiklius, kad sukurtumėte įspėjimo taisykles, kurios stebi sistemos paketinių užduočių filtruotą vaizdą. Stebėdami lauko **Būsena** reikšmę, taip pat galite sukonfigūruoti įspėjimo taisykles, kurios siunčia el. laišką, kai paketinės užduoties vykdymas nepavyksta. Sukūrę šias įspėjimo taisykles, galėsite nebetikrinti verslo duomenų pakeitimų ataskaitose. Vietoj to, išmanioji pakeitimų atlikimo tarnyba gali stebėti už jus.
+Taip pat galite naudoti integruotus valdiklius, kad sukurtumėte įspėjimo taisykles, kurios stebi sistemos paketinių užduočių filtruotą vaizdą. Stebėdami lauko **Būsena** reikšmę, taip pat galite sukonfigūruoti įspėjimo taisykles, kurios siunčia el. laišką, kai paketinės užduoties vykdymas nepavyksta. Kai sukursite šias įspėjimo taisykles, galėsite nebetikrinti verslo duomenų pakeitimų ataskaitose. Vietoj to, išmanioji pakeitimų atlikimo tarnyba gali stebėti už jus.
 
 Kliento įspėjimai priklauso nuo el. pašto posistemės, kuri teikiama integruojant su „Microsoft Office“. Rekomenduojame naudoti „Simple Mail Transfer Protocol“ (SMTP) teikėją, el. laiškų pristatymas nepriklausytų tik nuo vietos pašto kliento.
 
@@ -47,9 +47,6 @@ Toliau pateiktame vaizde rodomas dialogo langas **Kurti įspėjimo taisyklę**, 
 
 Paslauga siunčia el. pašto pranešimus naudodama iš anksto nustatytus el. laiškų šablonus, kad pristatytų pagrindinę įspėjimo pranešimo informaciją.
 
-Toliau pateiktame vaizde rodoma įspėjimo pranešimų struktūra juos gavus el. paštu.
+Šiame vaizde rodoma įspėjimo pranešimų struktūra juos gavus el. paštu.
 
 [![Įrašų kūrimo, laukų pakeitimo ir šablonų naikinimo įspėjimo pranešimai, pagrįsti šablonu](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

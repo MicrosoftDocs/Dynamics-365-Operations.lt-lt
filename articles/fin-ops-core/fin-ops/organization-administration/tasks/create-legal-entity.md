@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 54e3176ccf4bc3218afdf085f910e6d2a9c1b9ff
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 6dc74291977d999218ebc66f72ee5b01b12827ed
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694842"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796759"
 ---
 # <a name="create-a-legal-entity"></a>Juridinio subjekto kūrimas
 
@@ -45,6 +45,3 @@ Juridinis subjektas yra organizacija, kuri yra identifikuojama pagal registracij
 15. Išplėskite skyrių **Mokesčių registracija**. Dalyje **PVM mokėtojo kodas** įveskite registracijos numerius, naudojamus teikiant ataskaitas mokesčių institucijoms.
 16. Išplėskite dalį **Mokestis 1099**. Dalyje **Mokestis 1099** įveskite juridinio subjekto 1099 informaciją.  
 17. Spustelėkite **Įrašyti**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

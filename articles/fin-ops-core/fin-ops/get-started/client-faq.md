@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1925c23891a637ba9e9666538323274819692a06
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 6fe6da2575b7de866de614ad399c8ad5c0110d9a
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692923"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798504"
 ---
 # <a name="client-faq"></a>Kliento DUK
 
@@ -54,6 +54,3 @@ Parinktis **Peržiūrėti išsamią informaciją** prieinama dviem būdais.
 
 - Jei valdiklis turi pajėgumą **Peržiūrėti išsamią informaciją** ir jei valdiklis turi reikšmę, ši reikšmė rodoma kaip hipersaitas. Spustelėję hipersaitą, atidarysite puslapį, kuriame pateikiama papildomos informacijos.
 - **Peržiūrėti išsamią informaciją** taip pat yra sparčiųjų meniu pasirinktis. Daugiau informacijos apie tai, kada, spustelėjus dešiniuoju pelės mygtuku, rodomi spartieji meniu, rasite ankstesniame skyriuje.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 61c286391d83d70036dbed7eae6755cdefce5f2e
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 73c66d189035f7bdc302480038c44645eccb50f9
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693672"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798075"
 ---
 # <a name="change-the-banner-or-logo"></a>Keisti reklaminę juostą arba logotipą
 
@@ -39,6 +39,3 @@ Toliau pateiktoje procedūroje išvardijami veiksmai, kuriuos sistemos administr
 6. Eikite į **Naršymo sritis > Moduliai > Bendras > Bendras > Numatytoji ataskaitų sritis**. Naujas reklaminės juostos arba logotipo vaizdas turėtų būti rodomas ataskaitų srityje.  
     
     Jums gali reikėti pakeisti įmonę naudojant įmonės parinkiklį į tą, kurios reklaminę juostą nusiuntėte.  
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

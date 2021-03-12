@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b5d2e678b01f052db29d5a1c47eae27d27cd04f
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: dd9962451e8b72677e1a006dd9c1b8b8b268c93e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694193"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798652"
 ---
 # <a name="action-search"></a>Veiksmo ieška
 
@@ -35,7 +35,7 @@ Puslapiuose pirmiausia pateikiamos veiksmų sričių, įskaitant standartinę ve
 
 [![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png)
 
-Klavišų patarimų funkciją pakeitė veiksmo ieškos funkcija. Ši nauja funkcija suteikia galimybę greitai ieškoti ir suaktyvinti bet kurios matomos veiksmų srities mygtuką.
+Veiksmo ieškos funkcija pakeitė klavišų patarimų funkciją, kuri nebėra galima. Ši nauja funkcija suteikia galimybę greitai ieškoti ir suaktyvinti bet kurios matomos veiksmų srities mygtuką.
 
 ## <a name="using-action-search"></a>Veiksmo ieškos naudojimas
 
@@ -53,7 +53,7 @@ Taip pat galite pradėti veiksmo iešką paspausdami CTRL + / arba ALT + Q. Vėl
 
 ## <a name="understanding-the-results-list"></a>Rezultatų sąrašo supratimas
 
-Turite žinoti mygtuko vietą ir kontekstą, kad visiškai suprastumėte to mygtuko funkciją. Todėl rezultatų sąraše rodoma papildoma kiekvieno elemento informacija padeda tiksliai suprasti, kurie mygtukai rodomi sąraše. Konkrečiai yra rodomas mygtuko „kelias“. Šis kelias gali apimti susijusias toliau nurodytų vartotojo sąsajos elementų žymes.
+Turite žinoti mygtuko vietą ir kontekstą, kad visiškai suprastumėte to mygtuko funkciją. Todėl rezultatų sąraše rodoma papildoma informacija padeda tiksliai suprasti, kurie mygtukai rodomi sąraše. Konkrečiai yra rodomas mygtuko „kelias“. Šis kelias gali apimti susijusias toliau nurodytų vartotojo sąsajos elementų žymes.
 
 - Veiksmų srities skirtukas
 - Mygtukų grupė
@@ -65,7 +65,7 @@ Pvz., **veiksmo ieškos** lauke įvedate **tot** nagrinėjate rezultatų sąraš
 
 [![action-search-field-with-data](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
 
-Ankstesniame pavyzdyje buvo rodomi puslapio viršuje esančios veiksmų srities veiksmo ieškos rezultatai. Tačiau taip pat rodomi kitose puslapio vietose esančių įrankių juostų veiksmo ieškos rezultatai. Pvz., ieškote mygtuko **Turimos atsargos**, esančio „FastTab“ **Pardavimo užsakymo eilutės**. Šiuo atveju rezultatų sąraše pateikiamas mygtuko kelias (**Pardavimo užsakymo eilutės** &gt; **Atsargos** &gt; **Rodinys**) informuoja, kad šis mygtukas yra antraštėje **Rodinys**, kuri yra „FastTab“ **Pardavimo užsakymo eilutės** meniu mygtuke **Atsargos**.
+Ankstesniame pavyzdyje buvo rodomi puslapio viršuje esančios veiksmų srities veiksmo ieškos rezultatai. Tačiau taip pat rodomi įrankių juostų, esančių kitose puslapio vietose, veiksmo ieškos rezultatai. Pavyzdžiui, ieškote **Turimos atsargos** mygtuko, esančio **Pardavimo užsakymo eilutės** „FastTab“. Šiuo atveju rezultatų sąraše pateikiamas mygtuko kelias (**Pardavimo užsakymo eilutės** &gt; **Atsargos** &gt; **Rodinys**) informuoja, kad šis mygtukas yra **Rodinys** antraštėje, esančioje **Atsargos** meniu mygtuke **Pardavimo užsakymo eilutės** „FastTab“.
 
 [![on-hand-inventory](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
@@ -75,6 +75,3 @@ Ankstesniame pavyzdyje buvo rodomi puslapio viršuje esančios veiksmų srities 
 ## <a name="action-search-vs-navigation-search"></a>Veiksmo ieška ir naršymo ieška
 
 Veiksmo ieška skirta rasti ir vykdyti veiksmus puslapyje, bet yra atskiras ieškos mechanizmas, skirtas ieškoti ir naršyti puslapius. Daugiau informacijos apie šią funkciją ieškokite straipsnyje [Naršymo ieška](navigation-search.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 7fd1fc4756e74a5d07ffae533b6b9837b960f17a
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 2398bcbf0d148932e62ebe90aa8016acf0c79c28
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693755"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798206"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>Duomenų agnostinis tikrinimas naudojant „Regression Suite Automation Tool“
 
@@ -49,6 +49,3 @@ Nors AMK programos funkcinis tikrinimas negali būti visiškai agnostinis duomen
     - Tvirtinkite tik atsifiltravę tam tikrą operaciją, užuot tvirtindami bendrai. Pavyzdžiui, ieškodami įrašų skaičiaus, filtruokite pagal operacijos numerį arba operacijos datą, kad tvirtinant visos kitos operacijos nebūtų įtrauktos. 
     - Jei tikrinate kliento balansą arba biudžetą, pirmiausia įrašykite reikšmę, paskui įtraukite savo operacijos reikšmę, kad patvirtintumėte numatytą rezultatą, užuot tikrinę fiksuotą numatomą reikšmę. 
  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

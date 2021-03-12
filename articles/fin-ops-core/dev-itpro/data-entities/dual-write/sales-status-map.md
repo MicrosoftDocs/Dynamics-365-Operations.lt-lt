@@ -1,6 +1,6 @@
 ---
-title: Konvertavimo nustatymas pardavimo užsakymo būsenos laukams
-description: Šioje temoje aiškinama, kaip nustatyti dvigubo rašymo pardavimo užsakymo būsenos laukus.
+title: Pardavimo užsakymo būsenos stulpelių susiejimo konfigūravimas
+description: Šioje temoje aiškinama, kaip nustatyti dvigubo rašymo pardavimo užsakymo būsenos stulpelius.
 author: dasani-madipalli
 manager: tonyafehr
 ms.date: 06/25/2020
@@ -18,22 +18,22 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 5855581100606003c1faf6b88a0ab234ae378893
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc70501d231390ea15104d508a36300a1b2cd44c
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4455385"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744304"
 ---
-# <a name="set-up-the-mapping-for-the-sales-order-status-fields"></a>Konvertavimo nustatymas pardavimo užsakymo būsenos laukams
+# <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>Pardavimo užsakymo būsenos stulpelių susiejimo konfigūravimas
 
 [!include [banner](../../includes/banner.md)]
 
-Laukai, kurie nurodo pardavimo užsakymo būseną, turi skirtingas išvardijimo vertes „Microsoft Dynamics 365 Supply Chain Management” ir „Dynamics 365 sales” programose. Būtini papildomi nustatymai, norint konvertuoti šiuos laukus dvigubam rašymui.
+Stulpeliai, nurodantys pardavimo užsakymo būseną, turi skirtingas išvardijimo vertes „Microsoft Dynamics 365 Supply Chain Management” ir „Dynamics 365 sales” programose. Būtini papildomi nustatymai, norint susieti stulpelius dvigubame rašyme.
 
-## <a name="fields-in-supply-chain-management"></a>„Supply Chain Management“ laukai
+## <a name="columns-in-supply-chain-management"></a>„Supply Chain Management“ stulpeliai
 
-„Supply Chain Management“ du laukai perteikia pardavimo užsakymo būseną. Laukai, kuriuos reikia susieti, yra **Būsena** ir **Dokumento būsena**.
+„Supply Chain Management“ dviejuose stulpeliuose nurodoma pardavimo užsakymo būsena. Stulpeliai, kuriuos reikia susieti, pateikiami **Būsena** ir **Dokumento būsena**.
 
 **Būsenos** išvardijimas nurodo bendrąją užsakymo būseną. Ši būsena rodoma užsakymo antraštėje.
 
@@ -53,9 +53,9 @@ Laukai, kurie nurodo pardavimo užsakymo būseną, turi skirtingas išvardijimo 
 - Važtaraštis
 - PVM sąskaita faktūra
 
-## <a name="fields-in-sales"></a>Pardavimo laukai
+## <a name="columns-in-sales"></a>Pardavimų stulpeliai
 
-Pardavimuose du laukai nurodo užsakymo būseną. Laukai, kuriuos reikia konvertuoti, yra **Būsena** ir **Apdorojimo būsena**.
+Pardavimuose du stulpeliai nurodo užsakymo būseną. Stulpeliai, kuriuos reikia susieti, pateikiami **Būsena** ir **Apdorojimo būsena**.
 
 **Būsenos** išvardijimas nurodo bendrąją užsakymo būseną. Jam būdingos šios reikšmės:
 
@@ -95,7 +95,7 @@ Toliau pateikiamoje lentelėje rodomas **Apdorojimo būsenos** konvertavimas tar
 
 ## <a name="setup"></a>Sąranka
 
-Norėdami nustatyti pardavimo užsakymo būsenos laukų konvertavimą, turite įgalinti **IsSOPIntegravimasĮjungtas** ir **isVartotojoIntegravimas** atributus.
+Norėdami nustatyti pardavimo užsakymo būsenos stulpelių susiejimą, turite įgalinti **IsSOPIntegrationEnabled** ir **isIntegrationUser** atributus.
 
 Norėdami įgalinti **IsSOPIntegravimasĮjungtas** atributą, atlikite toliau pateiktus veiksmus.
 
@@ -110,14 +110,14 @@ Norėdami įgalinti **IsSOPIntegravimasĮjungtas** atributą, atlikite toliau pa
     Xrm.WebApi.updateRecord("organization",
     "d9a7c5f7-acbf-4aa9-86e8-a891c43f748c", {"issopintegrationenabled" :
     true}).then(
-        function success(result) {
-            console.log("Account updated");
-            // perform operations on record update
-        },
-        function (error) {
-            console.log(error.message);
-            // handle error conditions
-        }
+        function success(result) {
+            console.log("Account updated");
+            // perform operations on row update
+        },
+        function (error) {
+            console.log(error.message);
+            // handle error conditions
+        }
     );
     ```
 
@@ -129,13 +129,13 @@ Norėdami įgalinti **IsSOPIntegravimasĮjungtas** atributą, atlikite toliau pa
 
 Norėdami įgalinti **isVartotojoIntegravimas** atributą, atlikite toliau pateiktus veiksmus.
 
-1. Dalyje Pardavimai eikite į **Parametras \> Tinkinimas \> Tinkinti sistemą**, pasirinkite **Vartotojo objektas** ir tada atidarykite **Forma \> Vartotojas**.
+1. Dalyje Pardavimai eikite į **Parametrai \> Tinkinimas \> Tinkinti sistemą**, pasirinkite **Vartotojo lentelė** ir tada atidarykite **Forma \> Vartotojas**.
 
     ![Vartotojo formos atidarymas](media/sales-map-user.png)
 
 2. Laukų naršyklėje suraskite **Integravimo vartotojo režimas** ir du kartus spustelėkite jį, kad įtrauktumėte į formą. Įrašykite savo pakeitimą.
 
-    ![Integravimo vartotojo režimo lauko įtraukimas į formą](media/sales-map-field-explorer.png)
+    ![Vartotojo režimo stulpelio integravimo į formą pridėjimas](media/sales-map-field-explorer.png)
 
 3. Dalyje Pardavimai eikite į **Parametras \> Sauga \> Vartotojai** ir pakeiskite rodinį iš **Įgalinti vartotojai** į **Taikomosios programos vartotojai**.
 
@@ -145,11 +145,8 @@ Norėdami įgalinti **isVartotojoIntegravimas** atributą, atlikite toliau patei
 
     ![Taikomosios programos vartotojų sąrašas](media/sales-map-user-mode.png)
 
-5. Pakeiskite **Integravimo vartotojo režimo** lauko reikšmę į **Taip**.
+5. Pakeiskite vertę į **Integravimo vartotojo režimas** stulpelį į **Taip**.
 
-    ![Integravimo vartotojo režimo lauko reikšmės pakeitimas](media/sales-map-user-mode-yes.png)
+    ![Integravimo vartotojo režimo stulpelio vertės pakeitimas](media/sales-map-user-mode-yes.png)
 
 Dabar Jūsų pardavimo užsakymai yra susieti.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

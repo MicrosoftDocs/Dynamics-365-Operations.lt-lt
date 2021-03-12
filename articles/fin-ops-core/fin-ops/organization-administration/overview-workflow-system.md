@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: feb4ef0233b99420ebdd8781aae0191c9fa379f8
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 660e01618eea66bc611dd51818694d36993ba9ea
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692847"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797001"
 ---
 # <a name="workflow-system-overview"></a>Darbo eigos sistemos apžvalga
 
@@ -45,7 +45,7 @@ Darbo eiga rodo verslo procesą. Ji apibrėžia, kaip dokumentas juda sistemoje,
 
 Norėdami geriau suprasti šią darbo eigą, įsivaizduokite, kad Semas pateikia 7 000 USD išlaidų ataskaitą. Tokiu atveju Ivanas turi peržiūrėti Semo jam pateiktus kvitus. Tada Frank ir Sue turi patvirtinti išlaidų ataskaitą. O dabar tarkime, kad Semas pateikia 11 000 USD išlaidų ataskaitą. Tokiu atveju Ivanas turi peržiūrėti kvitus, o Frenkas, Sju ir Ana turi patvirtinti išlaidų ataskaitą.
 
-## <a name="benefits-of-using-the-workflow-system"></a> Darbo eigos sistemos naudojimo privalumai
+## <a name="benefits-of-using-the-workflow-system"></a>Darbo eigos sistemos naudojimo privalumai
 
 Darbo eigos sistemos naudojimas jūsų organizacijoje duoda keleriopos naudos:
 
@@ -71,6 +71,3 @@ Darbo eigos sistemos naudojimas jūsų organizacijoje duoda keleriopos naudos:
 + [Lygiagrečių darbo eigos šakų konfigūravimas](configure-parallel-branch-workflow.md)
 + [Eilutės elemento darbo eigų konfigūravimas](configure-line-item-workflow.md)
 + [DUK apie darbo eigas](workflow-FAQ.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cf06046c772cd128f5600ed319cc3d0d4457b07f
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 260fae39d9a98feb7bfa82188c5b05de9a533136
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694720"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796635"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Atskirų numeracijų nustatymas
 
@@ -40,6 +40,3 @@ ms.locfileid: "4694720"
 8. Išplėskite skyrių **Bendra**. „FastTab“ skirtuke Bendra nurodykite, ar numeracija yra neautomatinė, ar tęstinė, ar netęstinė. Be to, galite įvesti mažiausią ir didžiausią skaičius, kuriuos galima naudoti numeracijoje. Nerekomenduojama keisti netęstinių numeracijų į tęstines numeracijas. Numeracija nebus tikrai tęstinė. Dėl tokio keitimo taip pat gali įvykti besidubliuojančių raktų pažeidimų duomenų bazėje. Be to, tęstinės numeracijos turi daugiau įtakos našumui.   
 9. Spustelėkite **Įrašyti**.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

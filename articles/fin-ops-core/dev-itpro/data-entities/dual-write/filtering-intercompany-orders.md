@@ -1,6 +1,6 @@
 ---
-title: Vidinės įmonės užsakymų filtravimas siekiant išvengti užsakymų ir užsakymų eilučių sinchronizavimo
-description: Šioje temoje aprašoma, kaip filtruoti vidinės įmonės užsakymus siekiant išvengti užsakymų ir užsakymų eilučių sinchronizavimo.
+title: Vidinės įmonės užsakymų filtravimas siekiant išvengti užsakymų ir jų eilučių sinchronizavimo
+description: Šioje temoje paaiškinama, kaip filtruoti vidinės įmonės užsakymus, kad objektai Užsakymai ir Užsakymų eilutės nebūtų sinchronizuojami.
 author: negudava
 manager: tfehr
 ms.date: 11/09/2020
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,52 +18,51 @@ ms.search.industry: ''
 ms.author: negudava
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 6c5e1e2467673badd20366d3bd8e1b93b8078b26
-ms.sourcegitcommit: 0eb33909a419d526eb84b4e4b64d3595d01731ef
+ms.openlocfilehash: 342db8c1b4337145bfd61f5698ff6de25434a400
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4701038"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796611"
 ---
-# <a name="filter-intercompany-orders-to-avoid-synchronizing-orders-and-orderlines"></a>Vidinės įmonės užsakymų filtravimas siekiant išvengti užsakymų ir užsakymų eilučių sinchronizavimo
+# <a name="filter-intercompany-orders-to-avoid-syncing-orders-and-orderlines"></a>Vidinės įmonės užsakymų filtravimas siekiant išvengti užsakymų ir jų eilučių sinchronizavimo
 
 [!include [banner](../../includes/banner.md)]
 
-Galite filtruoti vidinės įmonės užsakymus siekdami išvengti **užsakymų** ir **užsakymų eilučių** sinchronizavimo. Kai kuriais atvejais vidinės įmonės užsakymo informacija nėra būtina kliento programos įjungimo programėlėje.
+Galite filtruoti vidinės įmonės užsakymus, kad lentelės **Užsakymų** ir **Užsakymų eilutės** nebūtų sinchronizuojamos. Kai kuriais atvejais vidinės įmonės užsakymo informacija nėra reikalinga „Customer Engagement” programoje.
 
-Kiekvienas iš standartinių „Common Data Service“ objektų yra išplečiamas su nuorodomis į lauką **IntercompanyOrder**, o dvejopo rašymo žemėlapiai modifikuojami, kad būtų galima nurodyti papildomus filtrų laukus. Rezultatas yra tai, kad vidinės įmonės užsakymai nebėra sinchronizuojami. Šis procesas padeda išvengti nereikalingų duomenų „Customer Engagement“ programoje.
+Kiekviena iš standartinių „Dataverse“ lentelių yra išplečiamas per nuorodomis į **Vidinės įmonės užsakymas** lauką, o dvejopo rašymo žemėlapiai modifikuojami, kad būtų galima nurodyti papildomus filtrų stulpelius. Todėl vidinės įmonės užsakymai yra nebesinchronizuojami. Šis procesas padeda neleisti nereikalingų duomenų „Customer Engagement“ programoje.
 
-1. Įtraukite nuorodą į **IntercompanyOrder** į **CDS pardavimo užsakymų antraštės**. Jis užpildomas tik vidinės įmonės užsakymuose. Laukas **IntercompanyOrder** siūlomas **Pardavimo lentelėje**.
+1. Išplėskite **CDS pardavimo užsakymų antraštės** lentelę įtraukdami nuorodą į **Vidinės įmonės užsakymo** stulpelį. Šis stulpelis pildomas tik vidinės įmonės užsakymuose. Stulpelis **Vidinės įmonės užsakymas** prieinamas **Pardavimo lentelė** lentelėje.
 
-    :::image type="content" source="media/filter-sales-order-header-field-display.png" alt-text="Susieti išdėstymą su paskirties vieta, SalesOrderHeader":::
-    
-2. Išplėtus **CDS pardavimo užsakymų antraštės**, lauką **IntercompanyOrder** galima susieti. Taikykite filtrą teikdami užklausos eilutę `INTERCOMPANYORDER == ""`.
+    :::image type="content" source="media/filter-sales-order-header-field-display.png" alt-text="Susieti išdėstymą su paskirties vietos puslapiu CDS pardavimo užsakymo antraštėms":::
 
-    :::image type="content" source="media/filter-sales-order-header.png" alt-text="Pardavimo užsakymų antraštės, redaguoti užklausą":::
+2. Išplėtus **CDS pardavimo užsakymų antraštės**, stulpelį **Vidinės įmonės užsakymas** galima susieti. Taikykite filtrą su `INTERCOMPANYORDER == ""` užklausos eilute.
 
-3. Įtraukite nuorodą į **IntercompanyInventTransId** į **CDS pardavimo užsakymo eilutės**.  Jis užpildomas tik vidinės įmonės užsakymuose. Laukas **InterCompanyInventTransID** siūlomas **Pardavimo eilutėje**.
+    :::image type="content" source="media/filter-sales-order-header.png" alt-text="Redaguoti CDS pardavimo užsakymo antraščių užklausos dialogo langą":::
 
-    :::image type="content" source="media/filter-sales-order-line-field-display.png" alt-text="Susieti išdėstymą su paskirties vieta, SalesOrderLine":::
+3. Išplėskite **CDS pardavimo užsakymų eilutės** lentelę įtraukdami nuorodą į **Vidinės įmonės TransId** stulpelį. Šis stulpelis pildomas tik vidinės įmonės užsakymuose. Stulpelis **Vidinės įmonės TransId** prieinamas **Pardavimo eilutė** lentelėje.
 
-4. Išplėtus **CDS pardavimo užsakymų eilutės**, lauką **IntercompanyInventTransId** galima susieti. Taikykite filtrą teikdami užklausos eilutę `INTERCOMPANYINVENTTRANSID == ""`.
+    :::image type="content" source="media/filter-sales-order-line-field-display.png" alt-text="Susieti išdėstymą su paskirties vietos puslapiu CDS pardavimo užsakymo eilutėms":::
 
-    :::image type="content" source="media/filter-sales-order-lines.png" alt-text="Pardavimo užsakymo eilutės, redaguoti užklausą":::
+4. Išplėtus **CDS pardavimo užsakymų eilutės**, stulpelį **IntercompanyInventTransId** galima susieti. Taikykite filtrą su `INTERCOMPANYINVENTTRANSID == ""` užklausos eilute.
 
-5. Išplėskite **Pardavimo SF antraštės V2** ir **Pardavimo SF eilutės V2** taip pat, kaip išplečiate „Common Data Service“ objektus atlikdami 1 ir 2 veiksmus. Tada pridėkite filtrų užklausas. **Pardavimo SF antraštės V2** filtro eilutė yra `(INTERCOMPANYORDER == "") && (SALESORDERNUMBER != "")`. **Pardavimo SF eilutės V2** filtro eilutė yra `INTERCOMPANYINVENTTRANSID == ""`.
+    :::image type="content" source="media/filter-sales-order-lines.png" alt-text="Redaguoti CDS pardavimo užsakymo eilučių užklausos dialogo langą":::
 
-    :::image type="content" source="media/filter-sales-invoice-header-field-display.png" alt-text="Susieti išdėstymą su paskirties vieta, Pardavimo SF antraštės":::
+5. Norėdami išplėsti lentelę **Pardavimo sąskaitos faktūros antraštė V2** ir pridėti filtro užklausą, pakartokite 1 ir 2 veiksmus. Šiuo atveju naudokite `(INTERCOMPANYORDER == "") && (SALESORDERNUMBER != "")` filtro užklausos eilutę.
 
-    :::image type="content" source="media/filter-sales-invoice-header-filter.png" alt-text="Pardavimo SF antraštės, redaguoti užklausą":::
+    :::image type="content" source="media/filter-sales-invoice-header-field-display.png" alt-text="Susieti išdėstymą su paskirties vietos puslapiu pardavimo sąskaitos faktūros antraštei V2":::
 
-    :::image type="content" source="media/filter-sales-invoice-lines-filter.png" alt-text="Pardavimo SF eilutės, redaguoti užklausą":::
+    :::image type="content" source="media/filter-sales-invoice-header-filter.png" alt-text="Redaguoti pardavimo sąskaitos faktūros antraštės V2 užklausos dialogo langą":::
 
-6. Objektas **Pasiūlymai** neturi vidinės įmonės ryšio. Jei kas nors iš vidinės įmonės klientų sukuria pasiūlymą, visi šie klientai gali nustatyti vienoje klientų grupėje naudodami lauką **CustGroup**.  Antraštė ir eilutės gali būti išplėstos, kad būtų galima įtraukti lauką **CustGroup**, o tada filtruoti, kad nebūtų įtraukta ši grupė.
+6. Norėdami išplėsti lentelę **Pardavimo sąskaitos faktūros eilutės V2** ir pridėti filtro užklausą, pakartokite 3 ir 4 veiksmus. Šiuo atveju naudokite `INTERCOMPANYINVENTTRANSID == ""` filtro užklausos eilutę.
 
-    :::image type="content" source="media/filter-cust-group.png" alt-text="Susieti išdėstymą su paskirties vieta, Pardavimo pasiūlymo antraštė":::
+    :::image type="content" source="media/filter-sales-invoice-lines-filter.png" alt-text="Redaguoti pardavimo sąskaitos faktūros eilutės V2 užklausos dialogo langą":::
 
-7. Išplėtę objektą **Pasiūlymai**, pritaikykite filtrą su užklausos eilute `CUSTGROUP !=  "<company>"`.
+7. Lentelė **Pasiūlymai** neturi vidinės įmonės ryšio. Jei kuris nors iš vidinės įmonės klientų sukuria pasiūlymą, galite naudoti stulpelį **Pasirinktinė grupė** tam, kad įdėtumėte šiuos visus klientus į vieną klientų grupę. Įtraukdami stulpelį **Pasirinktinė grupė** galite išplėsti antraštę ir eilutes, o tada filtruoti, kad ta grupė nebūtų įtraukta.
 
-    :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Pardavimo pasiūlymo antraštė, redaguoti užklausą":::
+    :::image type="content" source="media/filter-cust-group.png" alt-text="Susieti išdėstymą su paskirties vietos puslapiu CDS pardavimų pasiūlymų antraštei":::
 
+8. Po to, kai **Pasiūlymai** išplečiami, pritaikykite filtrą su `CUSTGROUP != "<company>"` užklausos eilute.
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+    :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Redaguoti CDS pardavimų pasiūlymo antraštės užklausos dialogo langą":::

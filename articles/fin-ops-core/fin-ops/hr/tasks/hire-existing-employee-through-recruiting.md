@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5df30e403c4b1c7d3abc88ae98c73d797bceef02
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 42a6fbdad19db3c85509078c9f7549a6397f93fc
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693117"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797264"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Samdyti esamus darbuotojus naudojant įdarbinimo funkciją
 
@@ -40,6 +40,3 @@ Kartais laisvas darbo vietas gali būti užimti kandidatai, kurie jau yra jūsų
 9. Spustelėkite „Pakeisti pareigas“.
     * Šiuo metu taip pat galite pakeisti atlyginimą. Jei šiuo metu atlyginimo nepriskirsite, galite jį pakeisti darbuotojo formoje atidarę skirtuką „Atlyginimas“ ir pasirinkę „Fiksuotas planas“. Kai pažymėsite „Keisti pareigas“, prašymo būsena bus atnaujinta į „Įdarbintas“.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e46c392c43b63ef443f66d8ea8f9e91a9df3d126
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 734f6499753d74b0bac8b2df1381ece4a7824142
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693237"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797495"
 ---
 # <a name="personalize-the-user-experience"></a>Vartotojo patirties personalizavimas
 
@@ -195,6 +195,3 @@ Klientams, kurie dar neįjungė [Išsaugotų peržiūrų](saved-views.md) funkci
 Personalizuodami puslapyje atsargų dimensijų sąranką, atsižvelkite į parametrus, kurie buvo sukurti naudojant parinktį **Rodyti dimensiją**. Pavyzdžiui, naudojate personalizavimą, norėdami paslėpti paketo numerio atsargų dimensijos stulpelį, tačiau stulpelis rodomas kitą kartą atidarius puslapį. Taip atsitinka todėl, kad atsargų dimensijų stulpelių rodymas valdomas naudojant parametrus **Dimensijos rodinys**. Parametrai **Dimensijos rodinys** taikomi visuose puslapiuose ir naudojantis šiais parametrais panaikinamos visos personalizuotos atskirų puslapių atsargų dimensijų laukų sąrankos.
 
 Todėl ankstesniame pavyzdyje, jei nenorite, kad puslapyje būtų rodomas paketo numerio atsargų dimensijos stulpelis, turite tame puslapyje panaikinti tos dimensijos parinkties **Rodyti dimensijas** žymėjimą.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

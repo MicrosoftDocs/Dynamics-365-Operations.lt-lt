@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: a7ba4fa4771324b4bcb8464649bd8ce8f32024c0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a2f0e0cbf0f8710dc020a48506775fa28df9c2d2
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683570"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744642"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Trikčių šalinimas pradinio sinchronizavimo metu
 
@@ -98,7 +98,7 @@ Jeigu bet kurie iš jūsų susiejimų turi nuorodų į save ar ciklinių nuorod�
 
 ## <a name="resolve-errors-in-the-vendors-v2tomsdyn_vendors-table-mapping"></a><a id="error-vendor-map"></a>Išspręsti problemas Tiekėjuose V2–to–msdyn_tiekėjai lentelės susiejimas
 
-Gali atsirasti pradinės sinchronizacijos klaidų susiejant **Tiekėjai V2** su **msdyn\_tiekėjai**, jei lentelės turi egzistuojančių eilučių, kai yra verčių **PirminioKontaktinioAsmensId** ir **SąskaitosFaktūrosTiekėjoPaskyrosNumeris** laukuose. Šios klaidos atsiranda, nes **SąskaitosFaktūrosTiekėjoPaskyrosNumeris** yra nuorodos į save laukas, o **PirminioKontaktinioAsmensId** yra ciklinė nuoroda tiekėjo susiejime.
+Gali atsirasti pradinės sinchronizacijos klaidų susiejant **Tiekėjai V2** su **msdyn\_tiekėjai**, jei lentelės turi egzistuojančių eilučių, kai yra verčių **PirminioKontaktinioAsmensId** ir **SąskaitosFaktūrosTiekėjoPaskyrosNumeris** stulpeliuose. Šios klaidos atsiranda, nes **SąskaitosFaktūrosTiekėjoPaskyrosNumeris** yra nuorodos į save stulpelis, o **PirminioKontaktinioAsmensId** yra ciklinė nuoroda tiekėjo susiejime.
 
 Gauti klaidos pranešimai bus šios formos.
 
@@ -109,26 +109,26 @@ Gauti klaidos pranešimai bus šios formos.
 - *Nepavyko išspręsti lauko GUID: msdyn\_tiekėjopirminiskontaktinisasmuo.msdyn\_kontaktinioasmensid. Peržvalga nerasta: 000056. Pabandykite šį (-iuos) URL adresą (-us), kad patikrintumėte, ar egzistuoja nuorodos duomenys: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
 - *Nepavyko išspręsti lauko GUID: msdyn\_sąskaitosfaktūrostiekėjopaskyrosnumeris.msdyn\_tiekėjopaskyrosnumeris. Peržvalga nerasta: V24-1. Pabandykite šį (-iuos) URL adresą (-us), kad patikrintumėte, ar egzistuoja nuorodos duomenys: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'`*
 
-Jei eilutės tiekėjo objekte turi verčių **PirminioKontaktinioAsmensId** ir **SąskaitosFaktūrosTiekėjoPaskyrosNumeris** laukuose, vykdykite šiuos žingsnius, kad užbaigtumėte pradinę sinchronizaciją.
+Jei eilutės tiekėjo lentelėje turi verčių **PirminioKontaktinioAsmensId** ir **SąskaitosFaktūrosTiekėjoPaskyrosNumeris** stulpeliuose, vykdykite šiuos žingsnius, kad užbaigtumėte pradinį sinchronizavimą.
 
-1. „Finance and Operations” programoje panaikinkite **PirminioKontaktinioAsmensId** ir **SąskaitosFaktūrosTiekėjoPaskyrosNumeris** laukus iš susiejimo ir tada jį įrašykite.
+1. „Finance and Operations” programoje panaikinkite **PirminioKontaktinioAsmensId** ir **SąskaitosFaktūrosTiekėjoPaskyrosNumeris** stulpelius iš susiejimo ir tada jį įrašykite.
 
     1. Dvigubo rašymo susiejimo puslapyje **Tiekėjai V2 (msdyn\_tiekėjai)**, **Lentelės susiejimai** skirtuke, kairiajame filtre pasirinkite **„Finance and Operations” programos.Tiekėjai V2**. Dešiniajame filtre pasirinkite **Pardavimai.Tiekėjas**.
-    2. Paieškoje įveskite **pirminiskontaktinisasmuo**, kad surastumėte **PirminioKontaktinioAsmensId** šaltinio lauką.
+    2. Paieškoje įveskite **pirminis kontaktinis asmuo** tam, kad surastumėte **PirminioKontaktinioAsmensId** šaltinio stulpelį.
     3. Pasirinkite **Veiksmai** ir pasirinkite **Naikinti**.
 
-        ![PirminioKontaktinioAsmensId lauko naikinimas](media/vend_selfref3.png)
+        ![PirminioKontaktinioAsmensId stulpelio naikinimas](media/vend_selfref3.png)
 
-    4. Pakartokite šiuos veiksmus, kad panaikintumėte **SąskaitosFaktūrosTiekėjoPaskyrosNumeris** lauką.
+    4. Pakartokite šiuos veiksmus, kad panaikintumėte **SąskaitosFaktūrosTiekėjoPaskyrosNumeris** stulpelį.
 
-        ![SąskaitosFaktūrosTiekėjoPaskyrosNumerio lauko naikinimas](media/vend-selfref4.png)
+        ![SąskaitosFaktūrosTiekėjoPaskyrosNumerio stulpelio naikinimas](media/vend-selfref4.png)
 
     5. Įrašykite savo pakeitimus susiejime.
 
-2. Išjunkite **Tiekėjai V2** objekto keitimų sekimą.
+2. Išjunkite **Tiekėjai V2** lentelės keitimų sekimą.
 
     1. **Duomenų valdymas** darbo srityje pasirinkite **Duomenų lentelės** plytelę.
-    2. Pasirinkite objektą **Tiekėjai V2**.
+    2. Pasirinkite **Tiekėjai V2** lentelę.
     3. Veiksmų srityje pasirinkite **Parinktys**, tada – **Keitimų sekimas**.
 
         ![Keitimų sekimo parinkties pasirinkimas](media/selfref_options.png)
@@ -138,14 +138,14 @@ Jei eilutės tiekėjo objekte turi verčių **PirminioKontaktinioAsmensId** ir *
         ![Išjungti keitimų sekimą pasirinkimas](media/selfref_tracking.png)
 
 3. Paleiskite pradinę sinchronizaciją, skirtą **Tiekėjai V2 (msdyn\_tiekėjai)** siejimui. Pradinė sinchronizacija turėtų pavykti sėkmingai be klaidų.
-4. Paleiskite pradinę **CDS Kontaktai V2 (kontaktai)** susiejimo sinchronizaciją. Turite sinchronizuoti šį susiejimą, jei norite sinchronizuoti pirminių kontaktų lauką tiekėjų objekte, nes taip pat turite atlikti kontaktų eilučių sinchronizaciją.
-5. Pridėkite **PirminioKontaktinioAsmensId** ir **SąskaitosFaktūrosTiekėjoPaskyrosNumeris** laukus vėl į **Tiekėjai V2 (msdyn\_tiekėjai)** susiejimą ir tada jį įrašykite.
+4. Paleiskite pradinę **CDS Kontaktai V2 (kontaktai)** susiejimo sinchronizaciją. Turite sinchronizuoti šį susiejimą, jei norite sinchronizuoti pirminių kontaktų stulpelį tiekėjų lentelėje, nes taip pat turite atlikti kontaktų eilučių sinchronizavimą.
+5. Pridėkite **PirminioKontaktinioAsmensId** ir **SąskaitosFaktūrosTiekėjoPaskyrosNumeris** stulpelius vėl į **Tiekėjai V2 (msdyn\_tiekėjai)** susiejimą ir tada jį įrašykite.
 6. Vėl paleiskite pradinę sinchronizaciją, skirtą **Tiekėjai V2 (msdyn\_tiekėjai)** susiejimui. Kadangi keitimų sekimas išjungtas, visos eilutės bus sinchronizuotos.
-7. Vėl įjunkite **Tiekėjai V2** objekto keitimų sekimą.
+7. Vėl įjunkite **Tiekėjai V2** lentelės keitimų sekimą.
 
 ## <a name="resolve-errors-in-the-customers-v3toaccounts-table-mapping"></a><a id="error-customer-map"></a>„Klientai V3 į Paskyras lentelės susiejimą” klaidų šalinimas
 
-Gali atsirasti pradinės sinchronizacijos klaidų susiejant **Klientai V3** su **Paskyros**, jei lentelėse yra eilučių, kuriose yra verčių **KontaktinioAsmensID** ir **SąskaitosFaktūrosPaskyra** laukuose. Šios klaidos atsiranda, nes **SąskaitosFaktūrosPaskyra** yra nuorodos į save laukas, o **KontaktinioAsmensID** yra ciklinė nuoroda tiekėjo susiejime.
+Gali atsirasti pradinės sinchronizacijos klaidų susiejant **Klientai V3** su **Paskyros**, jei lentelėse yra eilučių, kuriose yra verčių **KontaktinioAsmensID** ir **SąskaitosFaktūrosPaskyra** stulpeliuose. Šios klaidos atsiranda, nes **SąskaitosFaktūrosPaskyra** yra nuorodos į save stulpelis, o **KontaktinioAsmensID** yra ciklinė nuoroda tiekėjo susiejime.
 
 Gauti klaidos pranešimai bus šios formos.
 
@@ -156,26 +156,26 @@ Gauti klaidos pranešimai bus šios formos.
 - *Nepavyko išspręsti lauko GUID: pirminiokontaktoid.msdyn\_kontaktinioasmensid. Peržvalga nerasta: 000056. Pabandykite šį (-iuos) URL adresą (-us), kad patikrintumėte, ar egzistuoja nuorodos duomenys: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
 - *Nepavyko išspręsti lauko GUID: msdyn\_atsiskaitymopaskyra.paskyrosnumeris. Peržvalga nerasta: 1206-1. Pabandykite šį (-iuos) URL adresą (-us), kad patikrintumėte, ar egzistuoja nuorodos duomenys: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1'`*
 
-Jei eilutės kliento objekte turi verčių **KontaktinioAsmensId** ir **SąskaitosFaktūrosPaskyra** laukuose, atlikite šiuos veiksmus, kad užbaigtumėte pradinę sinchronizaciją. Galite naudoti šį metodą bet kurioms paruoštoms eilutėms, pvz., **Paskyros** ir **Kontaktai**.
+Jei eilutės kliento lentelėje turi verčių **KontaktinioAsmensId** ir **SąskaitosFaktūrosPaskyra** stulpeliuose, atlikite šiuos veiksmus, kad užbaigtumėte pradinį sinchronizavimą. Galite naudoti šį metodą bet kurioms paruoštoms eilutėms, pvz., **Paskyros** ir **Kontaktai**.
 
-1. „Finance and Operations“ programoje panaikinkite laukus **KontaktinioAsmensID** ir **SąskaitosFaktūrosPaskyra** laukus iš **Klientai V3 (paskyros)** susiejimo ir tada jį įrašykite.
+1. „Finance and Operations“ programoje panaikinkite laukus **KontaktinioAsmensID** ir **SąskaitosFaktūrosPaskyra** stulpelius iš **Klientai V3 (paskyros)** susiejimo ir tada jį įrašykite.
 
     1. Dvigubo rašymo susiejimo puslapyje, skirtame **Klientai V3 (paskyros)** **Lentelių susiejimai** skirtuke kairiajame filtre pasirinkite **Finance and Operations programa.Klientai V3**. Dešiniajame filtre pasirinkite **Dataverse.Paskyra**.
-    2. Paieškoje įveskite **kontaktinisasmuo**, kad surastumėte **KontaktinioAsmensID** šaltinio lauką.
+    2. Paieškoje įveskite **kontaktinis asmuo**, kad surastumėte **KontaktinioAsmensID** šaltinio stulpelį.
     3. Pasirinkite **Veiksmai** ir pasirinkite **Naikinti**.
 
-        ![KonatktinioAsmensId lauko naikinimas](media/cust_selfref3.png)
+        ![„KontaktinioAsmensID” stulpelio naikinimas](media/cust_selfref3.png)
 
-    4. Pakartokite šiuos veiksmus, kad panaikintumėte **SąskaitosFaktūrosPaskyra** lauką.
+    4. Pakartokite šiuos veiksmus, kad panaikintumėte **„SąskaitosFaktūrosPaskyra”** stulpelį.
 
-        ![SąskaitosFaktūrosPaskyros lauko naikinimas](media/cust_selfref4.png)
+        ![„SąskaitosFaktūrosPaskyros” stulpelio naikinimas](media/cust_selfref4.png)
 
     5. Įrašykite savo pakeitimus susiejime.
 
-2. Išjunkite **Klientai V3** objekto keitimų sekimą.
+2. Išjunkite **Klientai V3** lentelės keitimų sekimą.
 
     1. **Duomenų valdymas** darbo srityje pasirinkite **Duomenų lentelės** plytelę.
-    2. Pasirinkite objektą **Klientai V3**.
+    2. Pasirinkite **Klientai V3** lentelę.
     3. Veiksmų srityje pasirinkite **Parinktys**, tada – **Keitimų sekimas**.
 
         ![Keitimų sekimo parinkties pasirinkimas](media/selfref_options.png)
@@ -190,7 +190,7 @@ Jei eilutės kliento objekte turi verčių **KontaktinioAsmensId** ir **Sąskait
     > [!NOTE]
     > Yra du tokiu pačiu pavadinimu žemėlapiai. Būtinai pasirinkite žemėlapį, turintį tokį aprašą **Išsami informacija** skirtuke: **Dvigubo rašymo šablonas, skirto FO.CDS Tiekėjo Kontaktai V2 su to CDS.Kontaktai sinchronizacijai atlikti. Reikalingas naujas paketas \[Dynamics365PraplėstaTiekimoGrandinė\].**
 
-5. Pridėkite **SąskaitosFaktūrosPaskyra** ir **KontaktinioAsmensId** laukus vėl į **Klientai V3 (Paskyros)** susiejimą ir tada įrašykite jį. Abu **SąskaitosFaktūrosPaskyra** ir **KontaktinioAsmensId** laukai dabar įtraukti į tiesioginio sinchronizavimo režimą. Kitame veiksme atliksite šių laukų sinchronizaciją.
+5. Pridėkite **„SąskaitosFaktūrosPaskyra”** ir **„KontaktinioAsmensId”** stulpelius vėl į **Klientai V3 (Paskyros)** susiejimą ir tada įrašykite jį. Abu **„SąskaitosFaktūrosPaskyra”** ir **„KontaktinioAsmensId”** stulpeliai dabar įtraukti į tiesioginio sinchronizavimo režimą. Kitame veiksme atliksite šių stulpelių sinchronizavimą.
 6. Vėl paleiskite pradinę **Klientai V3 (Paskyros)** susiejimo sinchronizaciją. Kadangi keitimų sekimas yra išjungtas, **SąskaitosFaktūrosPaskyra** ir **KontaktinioAsmensId** duomenys iš „Finance and Operations“ programos į „Dataverse“ bus sinchronizuoti.
 7. Norėdami sinchronizuoti **SąskaitosFaktūrosPaskyra** ir **KontaktinioAsmensId** duomenis iš „Dataverse“ į „Finance and Operations“ programą, turite naudoti duomenų integravimo projektą.
 
@@ -210,7 +210,4 @@ Jei eilutės kliento objekte turi verčių **KontaktinioAsmensId** ir **Sąskait
 
     Pradinė eilučių sinchronizacija baigta.
 
-8. „Finance and Operations” programoje vėl įjunkite **Klientai V3** objekto keitimų sekimą.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+8. „Finance and Operations” programoje vėl įjunkite **Klientai V3** lentelės keitimų sekimą.

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d160c02403bf067ed523fbd634e65c622b522b97
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: eb2d4ab3434a563e907f6540809888cd3f671c1a
+ms.sourcegitcommit: fcc4596eeadac5dfe9a3242afa49b9b1c0c96575
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686080"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "4740813"
 ---
 # <a name="list-of-er-functions-in-the-type-conversion-category"></a>Tipų konvertavimo kategorijos ER funkcijų sąrašas
 
@@ -38,6 +38,14 @@ Naudojant modulio Elektroninės ataskaitos (ER) tipų konvertavimo funkcijas, ga
 | [IntValue](er-functions-conversion-intvalue.md)       | Ši funkcija pateikia *Int* reikšmę, kuri nurodo nurodytą eilutę. |
 | [NumberValue](er-functions-conversion-numbervalue.md) | Ši funkcija pateikia tipo *Realusis skaičius* reikšmę, konvertuotą iš nurodytos tipo *Eilutė* reikšmės. Konvertuojant atsižvelgiama į nurodytus dešimtainius ir skaitmenų grupavimo skyriklius. |
 | [Vertė](er-functions-conversion-value.md)             | Ši funkcija pateikia tipo *Realusis skaičius* reikšmę, konvertuotą iš nurodytos tipo *Eilutė* reikšmės. |
+
+## <a name="type-conversion-functions-in-the-container-category"></a>Tipų konvertavimo funkcijos (konteinerio kategorija)
+
+Tolesnėje lentelėje aprašomos tipų konvertavimo funkcijos, priklausančios [konteinerio](er-functions-category-container.md) kategorijai.
+
+| Funkcija | Aprašymas |
+|----------|-------------|
+| [„Base64StringToContainer”](er-functions-container-base64stringtocontainer.md) | Ši funkcija konvertuoja nurodytą *Eilutės* tipo įvestį į *Konteinerio tipo* duomenų elementą. |
 
 ## <a name="type-conversion-functions-in-the-date-and-time-category"></a>Tipų konvertavimo funkcijos (datos ir laiko kategorija)
 
@@ -79,6 +87,3 @@ Tolesnėje lentelėje aprašomos tipų konvertavimo funkcijos, priklausančios [
 [Elektroninių ataskaitų formulių kūrimo įrankis](general-electronic-reporting-formula-designer.md)
 
 [Elektroninių ataskaitų formulių kalba](er-formula-language.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

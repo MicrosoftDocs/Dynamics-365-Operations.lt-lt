@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60e6fb7d38bd3ca78538ca10a15f6fb09bba52a3
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 922900b20b878dd8b479158d47a9f7792caa684d
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693909"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796903"
 ---
 # <a name="address-books-faq"></a>DUK apie adresų knygeles
 
@@ -67,6 +67,3 @@ Kartais galbūt norėsite du arba kelis šalių įrašus sulieti į vieną įra�
 ## <a name="can-i-translate-address-information-for-party-records"></a>Ar galima išversti šalių įrašų adreso informaciją?
 
 Galite nustatyti adreso informacijos vertimus, kad programoje informacija būtų rodoma vartotojo kalba (sistemos kalba), o dokumentuose, pvz., pardavimo užsakymuose – kita kalba. Galite įvesti šalių / regionų pavadinimų, adresų ir vardų sekų vertimus. Pavyzdžiui, jūsų sistemos kalba yra danų, ir pardavimo užsakymą sukuriate klientui Prancūzijoje. Šiuo atveju programoje kliento įrašą galite peržiūrėti danų kalba, tačiau išspausdintame pardavimo užsakyme adreso informaciją rodyti prancūzų kalba. Nustatydami vertimus, turėtumėte įvesti kiekvienos sąrašo prekės vertimą. Visos prekės, kurioms neįvesite vertimo, bus rodomos sistemos kalba. Pavyzdžiui, jūsų sistemos kalba yra danų, ir dokumentą siunčiate klientui Ispanijoje. Jei neįvedėte adreso informacijos vertimų į ispanų (ESP) kalbą, ta informacija danų kalba bus rodoma ir programoje, ir išspausdintame dokumente.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

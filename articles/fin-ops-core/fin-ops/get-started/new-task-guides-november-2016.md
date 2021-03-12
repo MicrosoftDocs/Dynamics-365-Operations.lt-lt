@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 56545e56201180bf73420bf73f9a9f6e7a426b33
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 9c422b0d24c3f7bd4cd9b4b4d00fb26597bfdebb
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4695042"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796687"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>Nauji ar atnaujinti užduočių vedliai (2016 m. lapkričio mėn.)
 
@@ -302,13 +302,13 @@ APQC bendrojoje bibliotekoje (2016 m. lapkričio mėn.; skirta visoms kalboms) p
 | MY-00010 GST – GAF failų generavimas reikiamu formatu                                                                         | Singapūras, Malaizija ir Tailandas |
 | MY-00011 02 Projekto pardavimo kliento debeto pažymos generavimas                                                                       | Singapūras, Malaizija ir Tailandas |
 | MY-00011 03 Projekto pardavimo kliento kredito pažymos generavimas                                                                      | Singapūras, Malaizija ir Tailandas |
-|  Pirkimo užsakymo, apimančio prekes, kurioms taikomas atvirkštinis PVM, sukūrimas                                                        | Jungtinė Karalystė                    |
-|  Pardavimo užsakymo, apimančio prekes, kurioms taikomas atvirkštinis PVM, kūrimas                                                           | Jungtinė Karalystė                    |
+| Pirkimo užsakymo, apimančio prekes, kurioms taikomas atvirkštinis PVM, sukūrimas                                                        | Jungtinė Karalystė                    |
+| Pardavimo užsakymo, apimančio prekes, kurioms taikomas atvirkštinis PVM, kūrimas                                                           | Jungtinė Karalystė                    |
 | GB-00002, atvirkštinio mokesčio PVM prekių grupių, taisyklių ir parametrų nustatymas                                                            | Jungtinė Karalystė                    |
 | GB-00009 Sudengimo nuolaidos kredito pažymos sukūrimas                                                                         | Jungtinė Karalystė                    |
 | GB-00009 Skubaus mokėjimo nuolaidos kredito pažymos parametrų nustatymas                                                             | Jungtinė Karalystė                    |
-|  Prekės PVM grupių nustatymas atvirkštiniam PVM                                                                              | Jungtinė Karalystė                    |
-|  PVM grupių nustatymas atvirkštiniam PVM                                                                                   | Jungtinė Karalystė                    |
+| Prekės PVM grupių nustatymas atvirkštiniam PVM                                                                              | Jungtinė Karalystė                    |
+| PVM grupių nustatymas atvirkštiniam PVM                                                                                   | Jungtinė Karalystė                    |
 
 ### <a name="expense-management"></a>Išlaidų valdymas
 
@@ -547,6 +547,3 @@ APQC bendrojoje bibliotekoje (2016 m. lapkričio mėn.; skirta visoms kalboms) p
 [Nauji ar atnaujinti užduočių vedliai (2016 m. gegužės mėn.)](new-updated-task-guides-available-may-2016.md)
 
 [Nauji ar atnaujinti užduočių vedliai (2016 m. rugpjūčio mėn.)](new-updated-task-guides-available-august-2016.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

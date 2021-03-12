@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3d0e414b12043a72a447f62bf353e84654b0df1
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 368569f2cdd389b6fc99ddcf05f35cc9a750ec9e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694340"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797050"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Organizacijų ir organizacijos hierarchijų apžvalga
 
@@ -67,6 +67,3 @@ Norėdami peržiūrėti įvairius verslo aspektus, nustatykite organizacijos hie
 Kiekvienai hierarchijai priskiriama paskirtis. Hierarchijos paskirtis apibrėžia organizacijų, kurias galima įtraukti į hierarchiją, tipus. Paskirtis taip pat apibrėžia taikymo scenarijus, kuriuose hierarchija gali būti naudojama.
 
 Organizacijos hierarchijoje galite bendrai naudoti parametrus, strategijas ir operacijas. Organizacija gali perimti arba nepaisyti jos pirminės organizacijos parametrų. Tačiau bendrai naudojami bendrieji duomenys, pvz., produktai ir adresų knygelės, taikomi visai organizacijai ir jų negalima nepaisyti atskiroms organizacijoms. Organizacijos ir hierarchijos kuriamos tik kruopščiai planuojant. Daugiau informacijos žr. [Organizacijos hierarchijos planavimas](plan-organizational-hierarchy.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

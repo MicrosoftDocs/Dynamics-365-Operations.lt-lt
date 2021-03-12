@@ -17,12 +17,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 82c8172958f819735ea3f29fc331272f80b3a25a
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: a0f7391273e2374bdd136c5db47bcb65487e2a9c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692971"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798357"
 ---
 # <a name="feature-management-overview"></a>Funkcijų valdymo apžvalga
 
@@ -32,7 +32,7 @@ Funkcijos įtraukiamos ir atnaujinamos kiekviename leidime. Funkcijų valdymo pa
 
 ## <a name="the-feature-management-workspace"></a>Funkcijų valdymo darbo sritis.
 
-Galite atidaryti **Funkcijų valdymo** darbo sritį, pasirinkdami reikiamą plytelę ataskaitų srityje. Pasirodys puslapis, kuriame pateikiamas visų leidimų, kuriuos palaiko funkcijos valdymo patirtis, funkcijų sąrašas. Ilgainiui „Microsoft“ patobulins funkcijų valdymo patirtį, kad į ją būtų įtrauktos papildomos funkcijos, padedančios tvarkyti funkcijos.
+Galite atidaryti **Funkcijų valdymo** darbo sritį, pasirinkdami reikiamą plytelę ataskaitų srityje. Pasirodys puslapis, kuriame pateikiamas visų leidimų, kuriuos palaiko funkcijos valdymo patirtis, funkcijų sąrašas. Ilgainiui „Microsoft“ patobulins funkcijų valdymo patirtį, kad į ją būtų įtraukta daugiau funkcionalumo, padedančio tvarkyti funkcijas.
 
 Funkcijų sąraše pateikiama toliau nurodyta informacija.
 
@@ -42,7 +42,7 @@ Funkcijų sąraše pateikiama toliau nurodyta informacija.
 - **Funkcija įtraukta** – data, kai funkcija buvo įdėta į jūsų aplinką. Ši data automatiškai įvedama, kai atnaujinate savo aplinką mėnesio išleidimo ciklais.
 - **Modulis** – modulis, kurį paveikė nauja funkcija.
 
-Pasirinkus funkciją, išsamios informacijos srityje rodoma papildoma informacija funkcijų sąrašo dešinėje. Srities viršuje matysite funkcijos pavadinimą, datą, kada funkcija buvo papildyta, modulį, kuris yra paveiktas funkcijos ir saitą **Sužinoti daugiau**. Pasirinkite šį saitą norėdami peržiūrėti funkcijos dokumentaciją. Jei dokumentacija nepasiekiama, būsite nukreipti į laikiną puslapį. Informacijos srityje taip pat yra laukas **Komentarai**, į kurį galite įtraukti savo komentarus apie funkciją.
+Pasirinkus funkciją, išsamios informacijos srityje rodoma daugiau informacijos funkcijų sąrašo dešinėje. Srities viršuje matysite funkcijos pavadinimą, datą, kada funkcija buvo papildyta, modulį, kuris yra paveiktas funkcijos ir saitą **Sužinoti daugiau**. Pasirinkite šį saitą norėdami peržiūrėti funkcijos dokumentaciją. Jei dokumentacija nepasiekiama, būsite nukreipti į laikiną puslapį. Informacijos srityje taip pat yra laukas **Komentarai**, į kurį galite įtraukti savo komentarus apie funkciją.
 
 Darbo srityje **Funkcijų valdymas** taip pat yra keli skirtukai ir kiekviename iš jų pateikiamas funkcijų sąrašas.
 
@@ -63,7 +63,7 @@ Kai kurios funkcijos rodys pranešimą, kuriame bus pateikta papildoma informaci
 
 Kai kurios funkcijos rodys pranešimą, kad funkcija negali būti įjungta, kol nebus imtasi veiksmų. Šios funkcijos nurodomos raudonu „X“ simboliu. Prieš įgalindami funkciją, turite atlikti apraše aprašytus veiksmus. Pavyzdžiui, jei negalite naudoti funkcijos, kol konfigūracijos raktas nebus išjungtas, pirmiausia turite išjungti konfigūracijos raktą, o tada grįžti į funkcijos valdymą, kad įgalintumėte funkciją.
 
-Kai funkcija įjungta, informacijos srityje pasirodo pranešimas **Sužinokite daugiau**. Šis pranešimas nurodo, kad funkcija buvo įjungta, arba nurodo, kada funkcija suplanuota įjungti ateityje. Jis rodomas kiekvieną kartą, kai pasirenkate funkciją sąraše.
+Kai funkcija įjungta, informacijos srityje pasirodo pranešimas **Sužinokite daugiau**. Šis pranešimas nurodo, kad funkcija buvo įjungta arba datą, kada funkcija suplanuota įjungti ateityje. Jis rodomas kiekvieną kartą, kai pasirenkate funkciją sąraše.
 
 Funkcijos, kurios yra suplanuotos įjungti ateityje, rodomos skirtuke **Suplanuota**. Paketinis vykdymas jas įjungs nurodytos dienos vidurnaktį, atsižvelgiant į sistemoje nustatytą laiko juostą.
 
@@ -101,8 +101,8 @@ Visos funkcijos, kurias galima įjungti, bus įjungtos. Jei jau planuojama fukci
 
 Pagal numatytuosius nustatymus visos į jūsų aplinką įtrauktos funkcijos yra išjungtos, nebent jos yra privalomos funkcijos. Tačiau, jei norite automatiškai įjungti visas naujas funkcijas, galite naudoti išplečiamąjį sąrašą, esantį darbo srities pavadinime, kad pakeistumėte tai, kas atsitinka, kai įtraukiamos naujos funkcijos.
 
-- Pasirinkite **Įjungti naujas funkcijas automatiškai**, kad automatiškai įjungtumėte visas naujas į jūsų aplinką įtraukiamas funkcijas.
-- Pasirinkite **Neįjungti naujų funkcijų automatiškai**, kad pagal numatytuosius parametrus visos naujos į jūsų aplinką įtraukiamos funkcijos būtų išjungtos.
+- Pasirinkite „`Enable new features automatically`” tam, kad automatiškai įjungtumėte visas naujas į jūsų aplinką įtraukiamas funkcijas.
+- Pasirinkite „`Do not enable new features automatically`” tam, kad pagal numatytuosius nustatymus išjungtumėte visas naujas į jūsų aplinką įtraukiamas funkcijas.
 
 
 Kai įjungiate visas funkcijas automatiškai, tai įgalins visas funkcijas, kurios būtų įjungtos spustelėjus mygtuką **Įjungti viską**. Tai neįjungs funkcijų, kurioms reikia patvirtinimo arba kurių negalima įjungti, kol nebus imtasi veiksmų.
@@ -138,7 +138,7 @@ Toliau pateikiami pavyzdžiai apibūdina, kas atsitinka, kai duomenis importuoja
 
 ## <a name="feature-management-and-flighting"></a>Funkcijų valdymas ir versijos
 
-Funkcijų valdymas suteikia galimybę kontroliuoti funkcijas, kurios įtraukiamos į kiekvieną leidimą. Versijos suteikia galimybę „Microsoft“ komandoms išleisti funkcijas ribotam klientų skaičiui, kad funkcijos galėtų būti išbandytos ir patikrintos nepakenkiant visiems klientams. Funkcijų valdymas nekontroliuoja funkcijų versijų.
+Funkcijų valdymas suteikia jums galimybę kontroliuoti funkcijas, kurios įtraukiamos į kiekvieną leidimą. Versijos suteikia galimybę „Microsoft“ komandoms išleisti funkcijas ribotam klientų skaičiui, kad funkcijos galėtų būti išbandytos ir patikrintos nepakenkiant visiems klientams. Funkcijų valdymas nekontroliuoja funkcijų versijų.
 
 ## <a name="new-features-are-optional-for-12-months"></a>Naujos funkcijos yra pasirinktinos 12 mėnesių
 
@@ -159,13 +159,13 @@ Ne, funkcija netampa privaloma automatiškai. Produkto komandos turi atlikti kod
 ### <a name="when-do-features-become-mandatory"></a>Kada funkcijos tampa privalomos? 
 Strategijos esmė ta, kad visos naujos funkcijos bus pasirenkamos per 12 mėnesių laikotarpį ir nereikės valdyti jų pakeitimų, kol įjungsite funkciją. Produkto komandos gali pasirinkti, ar pasibaigus tam laikotarpiui, padaryti funkciją privaloma. 
 
-### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Kodėl nėra konkrečios „privalomumo įjungimo datos”? 
+### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Kodėl nėra konkrečios privalomumo įjungimo datos? 
 Išleidimo laiko naujinimas yra kintamasis, aplinkos atnaujinimo laikas yra kintamasis, o klientai gali pasirinkti praleisti kai kuriuos naujinimus. Todėl konkrečias datas sunku nustatyti. 
 
 ### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Kur pateikti privalomų funkcijų dokumentai? 
 Šiuos dokumentus pateikia programos komandos. Dažnai jos bus paminėtos temoje [Pašalintos ir pasenusios funkcijos](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features). 
 
-### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Ar yra pranešimas ar signalas apie produktą, kuriam funkcija bus įjungta kaip privaloma? 
+### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Ar yra pranešimas ar signalas apie produktą, kuriam funkcija bus privalomai įjungta? 
 Nėra pranešimo mechanizmo, susijusio su privalomos funkcijos įjungimu.
 
 ### <a name="do-features-ever-get-enabled-without-the-customer-knowing-about-it"></a>Ar funkcijos kada nors yra įjungtos be kliento žinios? 
@@ -173,14 +173,14 @@ Taip, jei funkcijos nedaro funkcinio poveikio, jas galima įjungti pagal numatyt
 
 ### <a name="what-is-feature-flighting-and-how-does-it-relate-to-feature-management"></a>Kas yra testuojama funkcija ir kaip ji veikia funkcijų valdymą? 
 Testuojamos funkcijos yra „Microsoft” valdomi realiojo laiko įjungimo/išjungimo mygtukai. Jų negali valdyti klientai, kitaip nei Funkcijų valdyme. 
-- Kol jos yra testuojamos, privačios peržiūros funkcijos nebus pateiktos Funkcijų valdyme.  Tam, kad gamyba vyktų, klientas turi sutikti, kad dalyvaus specialioje programoje.
+- Kol jos yra testuojamos, privačios peržiūros funkcijos nebus pateiktos Funkcijų valdyme. Tam, kad gamyba vyktų, klientas turi sutikti, kad dalyvaus specialioje programoje.
 - Viešoji peržiūra ir Išleistos (paprastai prieinamos) funkcijos bus išvardintos Funkcijų valdyme, nebent jų testavimas išjungtas. Funkcijos testavimo išjungimas laikomas paskutine išeitimi produktų komandos, jei randama kritinė problema ir dažnai sprendžiama kaip individualaus kliento atvejis.
 
 ### <a name="do-features-ever-get-flighted-off-without-the-customer-knowing-about-it"></a>Ar funkcijų testavimas kada nors yra išjungiamas be kliento žinios? 
 Taip, jei funkcija veikia aplinkos funkcionalumą, jei ji nedaro įtakos, ji gali būti įjungta pagal numatytuosius nustatymus.
 
 ### <a name="how-can-feature-enablement-be-checked-in-code"></a>Kaip galima patikrinti, ar funkcija yra įjungta, naudojant kodą?
-Naudokite metodą **isFeatureEnabled**, priklausantį klasei **FeatureStateProvider**, ir perduokite funkcijos klasės egzempliorių. Pavyzdys: 
+Naudokite metodą **isFeatureEnabled**, priklausantį klasei **FeatureStateProvider**, ir perduokite funkcijos klasės egzempliorių. Pavyzdys:
 
 ```xpp
 if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))
@@ -190,7 +190,7 @@ if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::ins
 Nustatyti, kad kai kurie metaduomenis yra susiję su funkcija, galima naudojant ypatybę **FeatureClass**. Turi būti naudojamas klasės pavadinimas, kuris yra naudojamas funkcijai, pvz., **BatchContentionPreventionFeature**. Šie metaduomenys matomi tik toje funkcijoje. Ypatybę **FeatureClass** gali turėti meniu, meniu elementai, sąrašo reikšmės ir lentelės / peržiūros laukai.
 
 ### <a name="what-is-a-feature-class"></a>Kas yra funkcijos klasė?
-Funkcijų valdymo funkcijos apibrėžiamos kaip *funkcijų klasės*. Funkcijų klasė realizuoja **IFeatureMetadata** ir naudoja funkcijų klasės atributą, kad galėtų identifikuoti save funkcijų valdymo darbo srityje. Yra daug galimų funkcijų klasių pavyzdžių, kurių įjungimą kode galima patikrinti naudojant ypatybę **FeatureStateProvider** API, o metaduomenyse – naudojant ypatybę **FeatureClass**. Pavyzdys: 
+Funkcijų valdymo funkcijos apibrėžiamos kaip *funkcijų klasės*. Funkcijų klasė realizuoja **IFeatureMetadata** ir naudoja funkcijų klasės atributą, kad galėtų identifikuoti save funkcijų valdymo darbo srityje. Yra daug galimų funkcijų klasių pavyzdžių, kurių įjungimą kode galima patikrinti naudojant ypatybę **FeatureStateProvider** API, o metaduomenyse – naudojant ypatybę **FeatureClass**. Pavyzdys:
 
 ```xpp
 [ExportAttribute(identifierStr(Microsoft.Dynamics.ApplicationPlatform.FeatureExposure.IFeatureMetadata))]
@@ -199,10 +199,7 @@ internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMet
 
 ### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>Kas yra IFeatureLifecycle, realizuotas kai kurių funkcijų klasių?
 IFeatureLifecycle yra „Microsoft“ vidinis mechanizmas, skirtas nurodyti funkcijos ciklo etapą. Funkcijos gali būti:
-- PrivatePreview – reikia, aktyvinti, kad būtų matoma.
-- PublicPreview – rodoma pagal numatytuosius parametrus, bet su perspėjimu, kad funkcijos versija yra peržiūros.
-- Paskelbta – visiškai paskelbta.
+- `PrivatePreview` – reikia, aktyvinti, kad būtų matoma.
+- `PublicPreview` – rodoma pagal numatytuosius parametrus, bet su perspėjimu, kad funkcijos versija yra peržiūros.
+- `Released` – visiškai išleista.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
