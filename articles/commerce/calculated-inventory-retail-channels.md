@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: de4ee98198f441b8f42a8a55aa5ff1015f485234
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 68fa26daac055cd0fd72035683f05ed36052b3a3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414334"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995825"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas
 
@@ -114,6 +113,3 @@ Jums nerekomenduojama naudoti tų darbų paketų per dažnai (kas keletą minuč
 > Dėl našumo priežasčių, kai kanalo atsargų pasiekiamumo skaičiavimai naudojami atsargų pasiekiamumo užklausai įvykdyti naudojant el. prekybos API arba naują EKA kanalo atsargų logiką, skaičiuojant naudojama talpykla, kad būtų nustatyta, ar praėjo pakankamai laiko, kad būtų protinga skaičiavimo logiką vykdyti dar kartą. Numatytoji talpykla nustatyta kaip 60 sekundžių. Pavyzdžiui, jūs įjungėte kanalo skaičiavimą savo parduotuvei ir peržiūrėjote turimas produkto atsargas puslapyje **Atsargų peržvalga**. Jei tada vienas produkto vienetas parduodamas, puslapyje **Atsargų peržvalga** nebus rodomos sumažėjusios atsargos, kol talpykla nebus išvalyta. Po to, kai vartotojai užregistruos operacijas EKA, turi praeiti 60 sekundžių, kad būtų matomas turimų atsargų sumažėjimas.
 
 Jei pagal jūsų verslo scenarijų reikia trumpesnio talpyklos laiko, pagalbos kreipkitės į savo produktų palaikymo tarnybos atstovą.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

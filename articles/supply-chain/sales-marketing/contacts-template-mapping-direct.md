@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: a252c3ecb12cb6a4dc429f35c8aeab6bd3914d03
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 8cbc2909c3f4533b4ea68e522f0874873989f3ce
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528954"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994051"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Tiesioginis „Sales“ kontaktų sinchronizavimas su „Supply Chain Management“ kontaktais arba klientais
 
@@ -33,9 +32,9 @@ ms.locfileid: "4528954"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> Prieš naudodami sprendimą Potencialūs klientai ir grynieji pinigai, turėtumėte būti susipažinę su [Duomenų integravimas į „Common Data Service“, skirtą programoms](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> Prieš naudodami sprendimą Potencialūs klientai ir grynieji pinigai, turėtumėte būti susipažinę su [Duomenų integravimas į „Microsoft Dataverse“, skirtą programoms](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
-Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Dynamics 365 Sales“ objektus Kontaktas (Kontaktai) ir Kontaktas (Klientai) tiesiogiai sinchronizuojant su „Dynamics 365 Supply Chain Management“.
+Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Dynamics 365 Sales“ lenteles Kontaktas (Kontaktai) ir Kontaktas (Klientai) tiesiogiai sinchronizuojant su „Dynamics 365 Supply Chain Management“.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Duomenų srautas sprendime Potencialūs klientai ir grynieji pinigai
 
@@ -47,7 +46,7 @@ Sprendime Potencialūs klientai ir grynieji pinigai naudojant funkciją Duomenų
 
 Norėdami gauti prieigą prie pasiekiamų šablonų, atidarykite [„PowerApps“ administravimo centrą](https://preview.admin.powerapps.com/dataintegration). Pasirinkite **Projektai**, tada viršutiniame dešiniajame kampe – **Naujas projektas** ir pasirinkite viešuosius šablonus.
 
-Toliau pateikti šablonai ir pagrindinės užduotys yra naudojami sinchronizuojant „Sales“ kontakto (kontaktai) objektą su „Supply Chain Management“ kontakto (klientai) objektu.
+Toliau pateikti šablonai ir pagrindinės užduotys yra naudojami sinchronizuojant „Sales“ kontakto (kontaktai) lenteles su „Supply Chain Management“ kontakto (klientai) lentele.
 
 - **Šablonų pavadinimai naudojant funkciją Duomenų integravimas**
 
@@ -63,9 +62,9 @@ Toliau nurodytą sinchronizavimo užduotį būtina atlikti prieš įvykstant kon
 
 ## <a name="entity-sets"></a>Objektų rinkiniai
 
-| Pardavimas    | „Supply Chain Management” |
+| Pardavimas    | Tiekimo grandinės valdymas |
 |----------|------------------------|
-| Kontaktai | CDS kontaktai           |
+| Kontaktai | „Dataverse” kontaktai           |
 | Kontaktai | Klientai V2           |
 
 ## <a name="entity-flow"></a>Objekto srautas
@@ -79,13 +78,13 @@ Kontaktai valdomi programoje „Sales“ ir sinchronizuojami su „Supply Chain 
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>„Sales“ skirtas potencialių klientų ir grynųjų pinigų sprendimas
 
-Kontaktui įtrauktas naujas **Yra aktyvus klientas** laukas. Šis laukas naudojamas kontaktams, pasižymintiems pardavimo veikla, ir kontaktams, nepasižymintiems pardavimo veikla, atskirti. Lauko **Yra aktyvus klientas** reikšmė nustatyta į **Taip** tik kontaktams, turintiems susijusių pasiūlymų, užsakymų ar sąskaitų faktūrų. Su „Supply Chain Management“ sinchronizuojami tik kaip klientai pažymėti „Sales“ kontaktai.
+Kontaktui įtrauktas naujas **Yra aktyvus klientas** stulpelis. Šis stulpelis naudojamas kontaktams, pasižymintiems pardavimo veikla, ir kontaktams, nepasižymintiems pardavimo veikla, atskirti. Lauko **Yra aktyvus klientas** reikšmė nustatyta į **Taip** tik kontaktams, turintiems susijusių pasiūlymų, užsakymų ar sąskaitų faktūrų. Su „Supply Chain Management“ sinchronizuojami tik kaip klientai pažymėti „Sales“ kontaktai.
 
-Kontaktui įtrauktas naujas **IsCompanyAnAccount** laukas. Šis laukas nurodo, ar kontaktas susietas su **sąskaitos** tipo įmone (pirmine sąskaita / kontaktu). Ši informacija naudojama nustatant kontaktus, kuriuos su „Supply Chain Management“ reikia sinchronizuoti kaip kontaktus.
+Kontaktui įtrauktas naujas **„IsCompanyAnAccount”** stulpelis. Šis stulpelis nurodo, ar kontaktas susietas su **sąskaitos** tipo įmone (pirmine sąskaita / kontaktu). Ši informacija naudojama nustatant kontaktus, kuriuos su „Supply Chain Management“ reikia sinchronizuoti kaip kontaktus.
 
-Kontaktui įtrauktas naujas **Kontakto numeris**, kad būtų užtikrintas srities ir unikalus integravimo raktas. Sukūrus naują kontaktą, lauko **Kontakto numeris** vertė sugeneruojama automatiškai, naudojant numeraciją. Vertę sudaro raidės **CON**, tada didėjanti numeracija ir iš šešių simbolių sudarytas priedėlis. Pavyzdys: **CON-01000-BVRCPS**
+Kontaktui įtrauktas naujas stulpelis **Kontakto numeris** tam, kad būtų užtikrintas srities ir unikalus integravimo raktas. Sukūrus naują kontaktą, lauko **Kontakto numeris** vertė sugeneruojama automatiškai, naudojant numeraciją. Vertę sudaro raidės **CON**, tada didėjanti numeracija ir iš šešių simbolių sudarytas priedėlis. Pavyzdys: **CON-01000-BVRCPS**
 
-Pritaikius „Sales“ skirtą integravimo sprendimą, atnaujinimo scenarijus, naudodamas pirmiau minėtą numeraciją, nustato esamų kontaktų lauką **Kontakto numeris**. Taip pat atnaujinimo scenarijus visiems pardavimo veikla pasižymintiems klientams nustato lauko **Yra aktyvus klientas** reikšmę į **Taip**.
+Pritaikius „Sales“ skirtą integravimo sprendimą, atnaujinimo scenarijus nustato esamų kontaktų stulpelį **Kontakto numeris** naudodamas anksčiau minėtą numeraciją. Taip pat atnaujinimo scenarijus nustato lauko **Yra aktyvus klientas** reikšmę į **Taip** visiems pardavimo veikla pasižymintiems klientams.
 
 ## <a name="in-supply-chain-management"></a>„Supply Chain Management“
 
@@ -95,7 +94,7 @@ Kontaktai žymimi naudojant ypatybę **IsContactPersonExternallyMaintained**. Š
 
 ### <a name="contact-to-customer"></a>Iš kontakto į klientą
 
-- Laukas **CustomerGroup** būtinas „Supply Chain Management“. Siekdami padėti išvengti sinchronizavimo klaidų, susiejime galite nurodyti numatytąją vertę. Tokiu atveju, jei „Sales“ laukas paliekamas tuščias, bus naudojama numatytoji reikšmė.
+- Laukas **CustomerGroup** būtinas „Supply Chain Management“. Siekdami padėti išvengti sinchronizavimo klaidų, susiejime galite nurodyti numatytąją vertę. Bus naudojama numatytoji reikšmė, jei „Sales“ stulpelis yra paliktas tuščias.
 
     Numatytoji šablono vertė yra **10**.
 
@@ -118,7 +117,7 @@ Kontaktai žymimi naudojant ypatybę **IsContactPersonExternallyMaintained**. Š
 Toliau pateiktose iliustracijose vaizduojamas šablono susiejimo pavyzdys naudojant funkciją Duomenų integravimas. 
 
 > [!NOTE]
-> Susiejime rodoma, kuri lauko informacija bus sinchronizuota atliekant „Sales“ sinchronizavimą su „Supply Chain Management“.
+> Susiejime rodoma, kuri stulpelio informacija bus sinchronizuota atliekant „Sales“ sinchronizavimą su „Supply Chain Management“.
 
 ### <a name="contact-to-contact"></a>Iš kontakto į kontaktą
 
@@ -142,6 +141,3 @@ Toliau pateiktose iliustracijose vaizduojamas šablono susiejimo pavyzdys naudoj
 [Tiesioginis „Supply Chain Management“ pardavimo SF antraščių ir eilučių sinchronizavimas su „Sales“](sales-invoice-template-mapping-direct.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

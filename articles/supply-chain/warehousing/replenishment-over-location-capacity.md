@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 8e9ae16fea892d1d6b6a6b5d06137576623e7f5b
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 3f94053920b475ef9190b5ac65a5f9ca01dcd4a1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433983"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996128"
 ---
 # <a name="replenishment-over-location-capacity"></a>Papildymas pagal vietos erdvę
 
@@ -69,9 +68,9 @@ Tam, kad dirbtumėte su [pavyzdiniu scenarijumi](#example-scenario) naudodami pa
 
             Jei ši parinktis yra pasirinkta, nustatykite **Per didelio srauto procento** laukelį į procentą, kuriame daugiau papildomo darbo yra prieinama.
 
-        - *Kokybė* – Pasirinkite šią parinktį, kad naudotumėte konkrečią kiekio vertę. Pasirenkant šią parinktį išjungiamas **Per didelio srauto procentai** laukelis ir įjungiami **Per didelis  kiekis** ir **Per didelio srauto padalinys** laukeliai.
+        - *Kokybė* – Pasirinkite šią parinktį, kad naudotumėte konkrečią kiekio vertę. Pasirenkant šią parinktį išjungiamas **Per didelio srauto procentai** laukelis ir įjungiami **Per didelis kiekis** ir **Per didelio srauto padalinys** laukeliai.
 
-            Naudokite šią parinktį, kai nenaudojate tūrio vietose, kurios yra papildomos arba kai turite nuolatinius kiekius, kuriuose norite, kad daugiau atsargų būtų atvesta į vietą. 
+            Naudokite šią parinktį, kai nenaudojate tūrio vietose, kurios yra papildomos arba kai turite nuolatinius kiekius, kuriuose norite, kad daugiau atsargų būtų atvesta į vietą.
 
            Jei ši parinktis pasirinkta, nustatykite **Per didelio srauto kiekį** ir **Per didelio srauto padalinio** laukelius ir padalinį, kuriame daugiau papildomo darbo yra prieinama.
 
@@ -238,7 +237,7 @@ Po to, kai atliksite visus anksčiau aprašytus pavyzdžio duomenis esančius ir
 
 1. Atkreipkite dėmesį į darbo ID prekybos užsakymuose.
 
-Priklausomai nuo turimų kiekių, sukurti darbo kiekiai gali nežymiai skiris. Nepaisant to, bendros sukurtos darbo antraštės turėtų atitikti šį scenarijaus pavyzdį. 
+Priklausomai nuo turimų kiekių, sukurti darbo kiekiai gali nežymiai skiris. Nepaisant to, bendros sukurtos darbo antraštės turėtų atitikti šį scenarijaus pavyzdį.
 
 #### <a name="on-hand-inventory-license-plate-id"></a>Turimų atsargų licencijos numerio ID
 
@@ -255,7 +254,7 @@ Tam, kad rastumėte vėliau jums reikalingų licencijos numerių ID, atlikite š
 
 1. Pasirinkite **Taikyti**.
 1. Veiksmų juostoje, pasirinkite **Dimensijos**.
-1.  **Dimensijos rodymo** teksto laukelyje,**Dimensijų talpinimas** skyriuje pasirinkite visas vertes.
+1. **Dimensijos rodymo** teksto laukelyje,**Saugojimo dimensijos** skyriuje pasirinkite visas vertes.
 1. **Perlaidos** skyriuje pasirinkite **Elemento numerį** ir **Kiekį \<\> 0**.
 1. Kai pabaigsite pasirinkite **Gerai** tam, kad uždarytumėte teksto laukelį.
 1. **Turimas** tinklelis rodo licencijos numerio numerius elementui *T0100* kiekvienoje vietoje. Atkreipkite dėmesį į licencijos numerį esantį kiekvienoje vietoje, nes jums šios informacijos reikės vėliau.
@@ -315,7 +314,7 @@ Prieš likusios papildymo darbo užduoties užbaigimą, paėmimo vieta turi būt
 1. **LP** laukelyje įveskite licencijos numerį elementui vietoje, kuris yra rodomas.
 1. Pasirinkite **Gerai** mygtuką (pažymint simbolį).
 
-    **Prekybos užsakymai: Padėjimas** puslapis rodo jums, kad turite atidėti abu pabaigtus paėmimo darbus į išorės etapo vietą. 
+    **Prekybos užsakymai: Padėjimas** puslapis rodo jums, kad turite atidėti abu pabaigtus paėmimo darbus į išorės etapo vietą.
 
 1. Pasirinkite **Gerai**.
 
@@ -339,7 +338,7 @@ Prieš likusios papildymo darbo užduoties užbaigimą, paėmimo vieta turi būt
 
     Gaunate Pabaigtas darbas pranešimą.
 
-Prekybos užsakymas 2 yra užblokuotas dėl paėmimo, nes su juo susieta papildymo užduotis nėra baigta.  Šiuo metu dar nėra 30 ea kiekio paėmimo vietoje ir papildymo kiekis prekybos užsakymui 2 yra 60 ea. Turimų atsargų suma ir papildymo atsargos (90 ea) viršija perviršio kiekį 0,65 PL (arba 65 ea). Prieš tai, kai papildymo darbas bus užbaigtas, prekybos užsakymas 3 turi būti paimtas.
+Prekybos užsakymas 2 yra užblokuotas dėl paėmimo, nes su juo susieta papildymo užduotis nėra baigta. Šiuo metu dar nėra 30 ea kiekio paėmimo vietoje ir papildymo kiekis prekybos užsakymui 2 yra 60 ea. Turimų atsargų suma ir papildymo atsargos (90 ea) viršija perviršio kiekį 0,65 PL (arba 65 ea). Prieš tai, kai papildymo darbas bus užbaigtas, prekybos užsakymas 3 turi būti paimtas.
 
 1. Įveskite pirmojo darbo ID prekybos užsakymui 3.
 
@@ -408,6 +407,3 @@ Dabar galite paimti prekybos užsakymą 2. Jis taps atblokuotas, kai papildymo d
 - Galite rankiniu būdu viršyti papildymo darbo prieinamumą kiekvienai darbo antraštei iš norimo **Darbo informacijos** puslapio.
 - Kai sistema nustato papildymo darbo prieinamumą, ji svarsto visas atsargas, kurios jau yra vietoje prieš pabaigiant darbą
 - Kiekvienas prekybos užsakymo elementas yra susiejamas su konkrečiu papildymo darbu. Nėra jokių atitinkamų prekybos užsakymo darbo prieinamumo funkcijų.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

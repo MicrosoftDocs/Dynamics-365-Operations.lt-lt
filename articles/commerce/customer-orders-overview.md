@@ -3,7 +3,7 @@ title: Kliento užsakymai elektroniniame kasos aparate (EKA)
 description: Šioje temoje pateikta informacija apie kliento užsakymus elektroniniame kasos aparate (EKA). Kliento užsakymai dar vadinami specialiais užsakymais. Šioje temoje pateikta susijusių parametrų ir operacijų srautų apžvalga.
 author: josaw1
 manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 01/06/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 260594
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 9e5770de82638e6cef6d4c1dffd1dc85549fb11f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6fec80dd2836a5400a7178e732fe1d5da41aca4a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414333"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995800"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Kliento užsakymai elektroniniame kasos aparate (EKA)
 
@@ -52,9 +51,9 @@ Norėdami naudoti kliento užsakymus, turite sukonfigūruoti pristatymo būdus, 
 
 ### <a name="set-up-fulfillment-groups"></a>Įvykdymo grupių nustatymas
 
-Kai kurios parduotuvės ar sandėlių vietos gali neįvykdyti klientų užsakymų. Konfigūruodama įvykdymo grupes, organizacija gali nurodyti, kurios parduotuvės ir sandėlio vietos rodomos kaip parinktys vartotojams, kuriantiems kliento užsakymus EKA. Įvykdymo grupės konfigūruojamos puslapyje **Įvykdymo grupės**. Organizacijos gali sukurti tiek įvykdymo grupių, kiek joms reikia. Apibrėžus įvykdymo grupę, ji susiejama su parduotuve naudojant mygtuką puslapio **Parduotuvės** veiksmų srities skirtuke **Nustatymas**.
+Kai kurios parduotuvės ar sandėlių vietos gali neįvykdyti klientų užsakymų. Konfigūruodama įvykdymo grupes, organizacija gali nurodyti, kurios parduotuvės ir sandėlio vietos rodomos kaip parinktys vartotojams, kuriantiems kliento užsakymus EKA. Įvykdymo grupės konfigūruojamos puslapyje **Įvykdymo grupės**. Organizacijos gali sukurti tiek įvykdymo grupių, kiek joms reikia. Nustačiu įgyvendinimo grupę, susiekite ją su parduotuve pasirinkdami **Įgyvendinimo grupės priskyrimas** iš **Nustatyti** skirtuko veiksmų juostoje **Parduotuvės** puslapyje.
 
-„Commerce” versijoje 10.0.14 ir vėlesnėje organizacijos gali nurodyti, ar sandėlio arba sandėlio / parduotuvės deriniai, apibrėžti įvykdymo grupėse, gali būti naudojami siuntimui, paėmimui, ar ir siuntimui, ir paėmimui. Todėl parduotuvė turi papildomo lankstumo valdydama sandėlio ir parduotuvės parinktis, rodomas vartotojams, kuriantiems paėmimo užsakymą, o ne siuntimo užsakymą. Norėdami pasinaudoti šiomis konfigūravimo parinktimis, turite įjungti funkciją **Galimybė nurodyti vietas kaip „Siuntimas“ arba „Paėmimas“, įjungta įvykdymo grupėje**. Jei sandėlis, susietas su įvykdymo grupe, nėra parduotuvė, jį galima sukonfigūruoti tik kaip siuntimo vietą. Jo negalima naudoti, kai paėmimo užsakymai yra sukonfigūruoti EKA.
+„Commerce“ versijoje 10.0.12 ir vėlesnėse, organizacijos gali nustatyti, ar sandėlis arba sandėlio ir parduotuvės deriniai, nustatyti įgyvendinimo grupėse, gali būti naudojami siuntimui, paėmimui ar ir siuntimui, ir paėmimui. Tai leidžia įtraukti lankstumo į verslą siekiant nustatyti, kurie sandėliai gali būti pasirinkti sukuriant kliento užsakymą siunčiamiems objektams pagal parduotuves, kurias galima pasirinkti sukuriant kliento užsakymą paimamiems objektams. Norėdami konfigūruoti šias parinktis, įjunkite **Galimybė nurodyti vietas kaip „Siuntimas“ ar „Paėmimas“ įjungtas įgyvendinimo grupėje** funkciją. Jei sandėlis susietas su įgyvendinimo grupe nėra parduotuvė, jis gali būti konfigūruojamas tik kaip siuntimo vieta. Jo negalima naudoti, kai paėmimo užsakymai yra sukonfigūruoti EKA.
 
 ![Puslapis Įvykdymo grupės](media/customer-order-fulfillment-group.png)
 
@@ -99,7 +98,10 @@ Prieš pradėdami kurti kliento užsakymus EKA, turite sukonfigūruoti tinkamus 
 
 ![Operacijos EKA operacijų ekrane](media/customer-order-screen-layout.png)
 
-## <a name="working-with-customer-orders-in-pos"></a>Darbas su klientų užsakymais EKA
+## <a name="work-with-customer-orders-in-pos"></a>Darbas su kliento užsakymais POS
+
+> [!NOTE]
+> Pajamų atpažinimo funkcija šiuo metu palaikoma „Commerce“ kanaluose (e-komercijoje, POS, skambučių centruose). Objektai sukonfigūruoti su pajamų atpažinimu neturėtų būti įtraukti į užsakymus sukurtus „Commerce“ kanaluose. 
 
 ### <a name="create-a-customer-order-for-products-that-will-be-shipped-to-the-customer"></a>Kliento užsakymo kūrimas produktams, kurie bus išsiųsti klientui
 
@@ -116,23 +118,21 @@ Prieš pradėdami kurti kliento užsakymus EKA, turite sukonfigūruoti tinkamus 
 
 1. EKA operacijų ekrane įtraukite klientą į operaciją.
 2. Įtraukite produktų į krepšelį.
-3. Pasirinkite **Paimti pasirinktus** arba **Paimti visus**, norėdami inicijuoti užsakymo paėmimo konfigūraciją.
+3. Rinkitės **Paimti parinktus** ar **Paimti visus** tam, kad pradėtumėte užsakymo paėmimo konfigūravimą.
 4. Pasirinkite parduotuvės vietą, kur klientas paims pasirinktus produktus.
-5. Pasirinkite paėmimo datą.
+5. Rinkitė datą, kai objektas bus paimtas.
 6. Naudokite mokėjimo funkcijas, kad sumokėtumėte visas apskaičiuotas mokėtinas sumas, arba naudokite operaciją **Įmokos keitimas**, norėdami pakeisti mokėtinas sumas, tada taikykite mokėjimą.
-7. Jei visa užsakymo suma nebuvo sumokėta, pasirinkite, ar klientas mokėjimą pateiks vėliau (paėmimo metu), ar kredito kortelė bus nurodyta dabar, o tada naudojama fiksavimui paėmimo metu.
+7. Jei visas užsakymas nebuvo sumokėtas, pasirinkite, ar klientas pateiks mokėjimą vėliau (paėmimo metu), ar kredito kortelė bus pažymima dabar ir tuomet naudojama ir paimama paėmimo metu.
 
 ### <a name="edit-an-existing-customer-order"></a>Esamo kliento užsakymo redagavimas
 
 Mažmeninės prekybos užsakymus, sukurtus internetiniame arba parduotuvės kanale, galima atšaukti ir redaguoti naudojant EKA, jei reikia.
 
 > [!IMPORTANT]
-> Užsakymų, sukurtų skambučių centro kanale, negalima redaguoti naudojant EKA, jei parametras [Įjungti užsakymų užbaigimą](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) įjungtas skambučių centro kanalui. Norint užtikrinti teisingą mokėjimų apdorojimą, užsakymus, gautus iš skambučių centro kanalo ir naudojančius funkciją Įjungti užsakymų užbaigimą, reikia redaguoti naudojant skambučių centro programą, esančią „Commerce Headquarters“.
+> Ne mažmeniniai užsakymai gali būti redaguojami per POS programą. Užsakymų, sukurtų skambučių centro kanale, negalima redaguoti naudojant EKA, jei parametras [Įjungti užsakymų užbaigimą](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) įjungtas skambučių centro kanalui. Norint užtikrinti teisingą mokėjimų apdorojimą, užsakymus, gautus iš skambučių centro kanalo ir naudojančius funkciją Įjungti užsakymų užbaigimą, reikia redaguoti naudojant skambučių centro programą, esančią „Commerce Headquarters“.
 
-„Commerce” versijoje 10.0.13 ir ankstesnėje vartotojai gali redaguoti palaikomus klientų užsakymus naudodami EKA tik tada, jei užsakymai yra visiškai atidaryti. Jei kuri nors užsakymo eilutė jau buvo apdorota iki įvykdymo (paėmimo, pakavimo ir pan.), užsakymas užrakinamas redagavimui EKA.
+10.0.17 versijoje ir vėlesnėse, vartotojai gali redaguoti galiojančius užsakymus per POS programą, net jei užsakymas yra įvykdytas iš dalies. Tačiau užsakymų, kurių visos SF išrašytos, vis tiek negalima redaguoti naudojant EKA. Norėdami įjungti šią galimybę, įjunkite **Redaguoti iš dalies įvykdytus užsakymos prekybos taške** funkciją **Funkcijos valdymas** darbo srityje. Jei ši funkcija neįjungta arba jei naudojate 10.0.16 versiją ar ankstesnę, vartotojai galės tik redaguoti kliento užsakymus POS, jei užsakyams yra atidarytas iki galo. Taip pat, jei funkcija įjungta, galite apriboti, kurios parduotuvės gali redaguoti iš dalies įvykdytus užsakymus. Parinktis skirta išjungti šią galimybę konkrečioms parduotuvėms gali būti konfigūruojama per **Funkcijų profilį** „FastTab“ **Bendri**.
 
-> [!NOTE]
-> „Commerce” versijos 10.0.14 [viešojoje peržiūroje](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms) išleista funkcija leidžia EKA vartotojams redaguoti klientų užsakymus naudojant EKA, net jei dalis užsakymo jau įvykdyta. Tačiau užsakymų, kurių visos SF išrašytos, vis tiek negalima redaguoti naudojant EKA. Norėdami patikrinti šią peržiūros funkciją ir pateikti papildomų atsiliepimų, įjunkite funkciją **(Peržiūra) Redaguoti dalinai įgyvendintus užsakymus elektroniniame kasos aparate** darbo srityje **Funkcijų valdymas**. Klientų užsakymai, gauti iš skambučių centro kanalo ir naudojantys funkciją Įjungti užsakymų užbaigimą, negali būti redaguojami net ir įgalinus šią funkciją.
 
 1. Pažymėkite **Atšaukti užsakymą**.
 2. Naudokite **Ieška**, norėdami įvesti filtrus ir rasti užsakymą, tada pasirinkite **Taikyti**.
@@ -170,6 +170,3 @@ Kai parinktis **Kurti kliento užsakymą asinchroniniu režimu** nustatyta į **
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Hibridiniai kliento užsakymai](hybrid-customer-orders.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

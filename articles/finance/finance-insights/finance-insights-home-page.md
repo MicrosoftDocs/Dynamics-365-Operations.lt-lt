@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d7d167c4a8035231ea3c5630001d3aeccbcd7988
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 9920d24ea92196331ea318cab2f67501801937bd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644926"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995095"
 ---
 # <a name="finance-insights-home-page-preview"></a>Finansinių įžvalgų pagrindinis puslapis (peržiūra)
 
@@ -67,7 +66,7 @@ Bus atlikti „Microsoft Dynamics 365 Finance“, „Microsoft Dynamics Lifecycl
 - „Active Directory“ nuomotojo administratorius turės autorizuoti „AI Builder“ programą, kad būtų suteikta prieiga prie duomenų telkinio.
 - Funkcija bus įjungta „Dynamics 365“.
 
-„Azure“, „Common Data Service“ ir LCS išteklių kūrimo ir valdymo proceso išmanymas bus naudingas, kai įvykdysite šį procesą.
+„Azure“, „Microsoft Dataverse“ ir LCS išteklių kūrimo ir valdymo proceso išmanymas bus naudingas, kai įvykdysite šį procesą.
 
 ## <a name="configure-finance-insights"></a>Finansinių įžvalgų konfigūravimas
 
@@ -130,6 +129,3 @@ Jei norite pateikti atsiliepimų ar reikia pagalbos, atsiųskite el. laišką [k
 ## <a name="privacy-notice"></a>Privatumo pranešimas
 
 Peržiūros versijos (1) gali naudoti mažiau privatumo ir mažiau saugos priemonių nei „Dynamics 365 Finance and Operations“ paslauga, (2) jos nėra įtrauktos į aptarnavimo lygio sutartį (SLA), (3) jos neturėtų būti naudojamos apdoroti asmens duomenims ar kitiems duomenims, kuriems taikomi teisiniai ir atitikimo teisės aktai (4) ir jų palaikymas yra ribotas.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

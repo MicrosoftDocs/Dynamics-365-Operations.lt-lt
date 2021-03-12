@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 6a330ddccbd17c92443232fc8488e36a59235773
-ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
+ms.openlocfilehash: 297792e90b3d2da0d738f5cbaa14779bc17ea3c8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "4512335"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996203"
 ---
 # <a name="putaway-clusters"></a>Atidėjimo klasteriai
 
@@ -118,7 +117,7 @@ Atidėjimo klasterio profilis nustato, ar prekė eis pagrindžiant vieta, kuri y
 
 ### <a name="mobile-device-menu-items"></a>Mobiliojo įrenginio meniu elementai
 
-Du nauji mobiliojo įrenginio meniu prekės yra prieinamos šiai funkcijai. **Gauti ir rūšiuoti klasterį** meniu prekė yra naudojama siekiant rūšiuoti gautą inventorių į atidėjimo klasterį po gavimo. **Klasterio atidėjimo** meniu prekė yra naudojama norint atidėti klasterį po jo priskyrimo. 
+Du nauji mobiliojo įrenginio meniu prekės yra prieinamos šiai funkcijai. **Gauti ir rūšiuoti klasterį** meniu prekė yra naudojama siekiant rūšiuoti gautą inventorių į atidėjimo klasterį po gavimo. **Klasterio atidėjimo** meniu prekė yra naudojama norint atidėti klasterį po jo priskyrimo.
 
 #### <a name="receive-and-sort-cluster"></a>Gauti ir rūšiuoti klasterį
 
@@ -296,6 +295,3 @@ Prieš tai, kai prekės klasteryje gali būti atidėtos, klasterį reikia užver
 ## <a name="notes-and-tips"></a>Pastabos ir patarimai
 
 Dėl atvejų, kai klasterio ID tampa valdančia licencijos plokštele pakrautam padėklui, padėjimo padėtis automatiškai suteikiama, kai nuskaitomas atitinkamas klasterio ID. Negalima nuskaityti jokios tolesnės licencijos plokštelės, net jei licencijos plokštelės sukūrimas nustatytas į rankinį.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

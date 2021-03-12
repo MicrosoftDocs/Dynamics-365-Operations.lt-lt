@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace, RCS
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 04c46824123906eccbfff18a03974c8043729e0a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0973d36a8fddd16d02776ac6567d424ac6ebc3ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4446053"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994317"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>„Regulatory Configuration Service“ (RCS) bendrojoje saugykloje esančių elektroninių ataskaitų (ER) konfigūracijų bendrinimas su išorinėmis organizacijomis
 
@@ -50,7 +49,7 @@ Norėdami patikrinti, ar konfigūracija, kurią norite bendrinti, jau nusiųsta 
 
 1. Darbo srityje **Elektroninės ataskaitos** prie savo konfigūracijos teikėjo pasirinkite **Saugyklos**.
 
-    ![Konfigūracijos teikėjai](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_config_provider.JPG)
+    ![Konfigūracijos teikėjai](media/1_RCS_Repo_for_config_provider.JPG)
 
 2. Pasirinkite **Bendroji saugykla** \> **Atidaryti**.
 3. Ieškoktie konfigūracijos, kurią norite bendrinti. Ieškai susiaurinti galite naudoti filtravimo lauką. Jei bendrojoje saugykloje negalite rasti konfigūracijos, atlikite veiksmus, pateiktus dalyje [Naujos elektroninės ataskaitos (ER) konfigūracijos versijos kūrimas ir nusiuntimas](rcs-global-repo-upload.md).
@@ -64,17 +63,12 @@ Sukūrus jūsų konfigūracijos teikėjo konfigūraciją, galite ją tiesiogiai 
 3. Pasirinkite konfigūraciją, kurią norite bendrinti.
 4. „FastTab“ konteineryje **Bendrinama su** pasirinkite **Organizacija**.
 
-    ![Bendrinama su „FastTab“](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_org.JPG)
+    ![Bendrinama su „FastTab“](media/1_RCS_Repo_for_Share_with_org.JPG)
 
 5. Dialogo lange įveskite išorinės organizacijos domeno pavadinimą ir pasirinkite **Gerai**.
 
-    ![Konfigūracijos versijos bendrinimo su išorine organizacija dialogo langas](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_form.JPG)
+    ![Konfigūracijos versijos bendrinimo su išorine organizacija dialogo langas](media/1_RCS_Repo_for_Share_with_form.JPG)
 
 Konfigūracija yra bendrinama su išorine organizacija ir šiai organizacijai pasiekiama bendrojoje saugykloje. Iš ten ji gali būti importuota į organizacijos RCS egzempliorių arba į „Finance and Operations“ programų egzempliorius.
 
-![Su išorine organizacija bendrinama konfigūracija](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_test.com)
-
 6. Norėdami atšaukti anksčiau su išorine organizacija bendrintos konfigūracijos bendrinimą, pasirinkite konfigūraciją ir spustelėkite **Atšaukti bendrinimą**, tada pasirinkite **Gerai**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
