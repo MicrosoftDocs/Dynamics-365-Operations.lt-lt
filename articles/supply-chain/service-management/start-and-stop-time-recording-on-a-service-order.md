@@ -11,56 +11,55 @@ ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9590a4924442ceccf6f30c35e1dce907f54d368e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c0ce68881e7b39fac314e3bafe022e30a10dcbe2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433263"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991619"
 ---
-# <a name="start-and-stop-time-recording-on-a-service-order"></a><span data-ttu-id="cf8bc-103">Aptarnavimo užsakymo laiko įrašymo pradžia ir sustabdymas</span><span class="sxs-lookup"><span data-stu-id="cf8bc-103">Start and stop time recording on a service order</span></span> 
+# <a name="start-and-stop-time-recording-on-a-service-order"></a><span data-ttu-id="98f03-103">Aptarnavimo užsakymo laiko įrašymo pradžia ir sustabdymas</span><span class="sxs-lookup"><span data-stu-id="98f03-103">Start and stop time recording on a service order</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="cf8bc-104">Naudokite šią procedūrą norėdami pradėti ir sustabdyti laiko įrašymą paslaugos užsakyme, kurį apibrėžia teikiamų paslaugų lygio sutartis.</span><span class="sxs-lookup"><span data-stu-id="cf8bc-104">Use this procedure to start and stop time recording for a service order for which a service level agreement is defined.</span></span>
+<span data-ttu-id="98f03-104">Naudokite šią procedūrą norėdami pradėti ir sustabdyti laiko įrašymą paslaugos užsakyme, kurį apibrėžia teikiamų paslaugų lygio sutartis.</span><span class="sxs-lookup"><span data-stu-id="98f03-104">Use this procedure to start and stop time recording for a service order for which a service level agreement is defined.</span></span>
 
-## <a name="start-time-recording"></a><span data-ttu-id="cf8bc-105">Pradėti laiko įrašymą</span><span class="sxs-lookup"><span data-stu-id="cf8bc-105">Start time recording</span></span>
+## <a name="start-time-recording"></a><span data-ttu-id="98f03-105">Pradėti laiko įrašymą</span><span class="sxs-lookup"><span data-stu-id="98f03-105">Start time recording</span></span>
 
-1.  <span data-ttu-id="cf8bc-106">Spustelėkite **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**.</span><span class="sxs-lookup"><span data-stu-id="cf8bc-106">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="98f03-106">Spustelėkite **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**.</span><span class="sxs-lookup"><span data-stu-id="98f03-106">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="cf8bc-107">Spustelėkite skirtuką **Aptarnavimo užsakymas**. Srities **Veiksmų sritis** grupėje **Aptarnavimo lygio sutartis** spustelėkite **Pradėti**.</span><span class="sxs-lookup"><span data-stu-id="cf8bc-107">Click the **Service order** tab. On the **Action Pane**, in the **Service level agreement** group, click **Start**.</span></span>
+2.  <span data-ttu-id="98f03-107">Spustelėkite skirtuką **Aptarnavimo užsakymas**. Srities **Veiksmų sritis** grupėje **Aptarnavimo lygio sutartis** spustelėkite **Pradėti**.</span><span class="sxs-lookup"><span data-stu-id="98f03-107">Click the **Service order** tab. On the **Action Pane**, in the **Service level agreement** group, click **Start**.</span></span>
 
-3.  <span data-ttu-id="cf8bc-108">Įveskite datą ir laiką, kada turi būti pradėtas laiko įrašymas.</span><span class="sxs-lookup"><span data-stu-id="cf8bc-108">Enter the date and time that the time recording should be started.</span></span>
+3.  <span data-ttu-id="98f03-108">Įveskite datą ir laiką, kada turi būti pradėtas laiko įrašymas.</span><span class="sxs-lookup"><span data-stu-id="98f03-108">Enter the date and time that the time recording should be started.</span></span>
 
-## <a name="stop-time-recording"></a><span data-ttu-id="cf8bc-109">Sustabdyti laiko įrašymą</span><span class="sxs-lookup"><span data-stu-id="cf8bc-109">Stop time recording</span></span>
+## <a name="stop-time-recording"></a><span data-ttu-id="98f03-109">Sustabdyti laiko įrašymą</span><span class="sxs-lookup"><span data-stu-id="98f03-109">Stop time recording</span></span>
 
-1.  <span data-ttu-id="cf8bc-110">Spustelėkite **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**.</span><span class="sxs-lookup"><span data-stu-id="cf8bc-110">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="98f03-110">Spustelėkite **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**.</span><span class="sxs-lookup"><span data-stu-id="98f03-110">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="cf8bc-111">Spustelėkite skirtuką **Aptarnavimo užsakymas**. Srities **Veiksmų sritis** grupėje **Aptarnavimo lygio sutartis** spustelėkite **Stabdyti**.</span><span class="sxs-lookup"><span data-stu-id="cf8bc-111">Click the **Service order** tab. On the **Action Pane**, in the **Service level agreement** group, click **Stop**.</span></span>
+2.  <span data-ttu-id="98f03-111">Spustelėkite skirtuką **Aptarnavimo užsakymas**. Srities **Veiksmų sritis** grupėje **Aptarnavimo lygio sutartis** spustelėkite **Stabdyti**.</span><span class="sxs-lookup"><span data-stu-id="98f03-111">Click the **Service order** tab. On the **Action Pane**, in the **Service level agreement** group, click **Stop**.</span></span>
 
-3.  <span data-ttu-id="cf8bc-112">Įveskite datą ir laiką, kada turi būti sustabdytas laiko įrašymas.</span><span class="sxs-lookup"><span data-stu-id="cf8bc-112">Enter the date and time that the time recording should be stopped.</span></span>
+3.  <span data-ttu-id="98f03-112">Įveskite datą ir laiką, kada turi būti sustabdytas laiko įrašymas.</span><span class="sxs-lookup"><span data-stu-id="98f03-112">Enter the date and time that the time recording should be stopped.</span></span>
 
-4.  <span data-ttu-id="cf8bc-113">Pažymėkite **Įtraukti galiojimo sustabdymo priežastį** ir sąraše **Etapo priežasties kodas** pasirinkę priežasties kodą pateikite laiko įrašymo sustabdymo priežastį.</span><span class="sxs-lookup"><span data-stu-id="cf8bc-113">Select **Add a revocation reason**, and select a reason code in the **Stage reason code** list to provide a reason for stopping the time recording.</span></span>
+4.  <span data-ttu-id="98f03-113">Pažymėkite **Įtraukti galiojimo sustabdymo priežastį** ir sąraše **Etapo priežasties kodas** pasirinkę priežasties kodą pateikite laiko įrašymo sustabdymo priežastį.</span><span class="sxs-lookup"><span data-stu-id="98f03-113">Select **Add a revocation reason**, and select a reason code in the **Stage reason code** list to provide a reason for stopping the time recording.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="cf8bc-114">Jeigu formoje <STRONG>Aptarnavimo valdymo parametrai</STRONG> pažymėta <STRONG>Laiko viršijimo priežasties kodas</STRONG>, norėdami sustabdyti laiko įrašymą, turite nurodyti priežasties kodą.</span><span class="sxs-lookup"><span data-stu-id="cf8bc-114">If <STRONG>Reason code on exceeding time</STRONG> is selected in the <STRONG>Service management parameters</STRONG> form, you must provide a reason code before you can stop the time recording.</span></span></P>
+> <P><span data-ttu-id="98f03-114">Jeigu formoje <STRONG>Aptarnavimo valdymo parametrai</STRONG> pažymėta <STRONG>Laiko viršijimo priežasties kodas</STRONG>, norėdami sustabdyti laiko įrašymą, turite nurodyti priežasties kodą.</span><span class="sxs-lookup"><span data-stu-id="98f03-114">If <STRONG>Reason code on exceeding time</STRONG> is selected in the <STRONG>Service management parameters</STRONG> form, you must provide a reason code before you can stop the time recording.</span></span></P>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="cf8bc-115">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="cf8bc-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="98f03-115">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="98f03-115">See also</span></span>
 
-<span data-ttu-id="cf8bc-116">[ALS laiko įrašymo pradžia (forma)](https://technet.microsoft.com/library/hh242297\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="cf8bc-116">[Start SLA time recording (form)](https://technet.microsoft.com/library/hh242297\(v=ax.60\))</span></span>
+<span data-ttu-id="98f03-116">[ALS laiko įrašymo pradžia (forma)](https://technet.microsoft.com/library/hh242297\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="98f03-116">[Start SLA time recording (form)](https://technet.microsoft.com/library/hh242297\(v=ax.60\))</span></span>
 
-<span data-ttu-id="cf8bc-117">[ALS laiko įrašymo sustabdymas (forma)](https://technet.microsoft.com/library/hh242241\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="cf8bc-117">[Stop SLA time recording (form)](https://technet.microsoft.com/library/hh242241\(v=ax.60\))</span></span>
+<span data-ttu-id="98f03-117">[ALS laiko įrašymo sustabdymas (forma)](https://technet.microsoft.com/library/hh242241\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="98f03-117">[Stop SLA time recording (form)](https://technet.microsoft.com/library/hh242241\(v=ax.60\))</span></span>
 
   
 

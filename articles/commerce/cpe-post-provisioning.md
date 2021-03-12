@@ -10,157 +10,156 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6a1ae960f0f530104af7bdea9a8fcb78b01571f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fa92a581a96de6bed26b4a0c6601ebd9d5088347
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414240"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993430"
 ---
-# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a><span data-ttu-id="563ae-103">Sukonfigūruokite „Dynamics 365 Commerce“ vertinimo aplinką</span><span class="sxs-lookup"><span data-stu-id="563ae-103">Configure a Dynamics 365 Commerce evaluation environment</span></span>
+# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a><span data-ttu-id="ea428-103">Sukonfigūruokite „Dynamics 365 Commerce“ vertinimo aplinką</span><span class="sxs-lookup"><span data-stu-id="ea428-103">Configure a Dynamics 365 Commerce evaluation environment</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="563ae-104">Šiame skyriuje paaiškinama, kaip sukonfigūruoti pirkimą internetu, pasiėmimą parduotuvėje „Microsoft Dynamics 365 Commerce“ vertinimo aplinką, po to kai ji buvo parengta.</span><span class="sxs-lookup"><span data-stu-id="563ae-104">This topic explains how to configure a Microsoft Dynamics 365 Commerce evaluation environment after it's provisioned.</span></span>
+<span data-ttu-id="ea428-104">Šiame skyriuje paaiškinama, kaip sukonfigūruoti pirkimą internetu, pasiėmimą parduotuvėje „Microsoft Dynamics 365 Commerce“ vertinimo aplinką, po to kai ji buvo parengta.</span><span class="sxs-lookup"><span data-stu-id="ea428-104">This topic explains how to configure a Microsoft Dynamics 365 Commerce evaluation environment after it's provisioned.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="563ae-105">Peržiūra</span><span class="sxs-lookup"><span data-stu-id="563ae-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="ea428-105">Peržiūra</span><span class="sxs-lookup"><span data-stu-id="ea428-105">Overview</span></span>
 
-<span data-ttu-id="563ae-106">Pabaikite šio skyriaus procedūras po to, kai jūsų Komercijos vertinimo aplinka buvo parengta ir sukonfigūruota.</span><span class="sxs-lookup"><span data-stu-id="563ae-106">Complete the procedures in this topic only after your Commerce evaluation environment has been provisioned.</span></span> <span data-ttu-id="563ae-107">Dėl informacijo, kaip nustatyti savo Komercijos vertinimo aplinką po jos nustatymo, žr. [Komercijos vertinimo aplinkos nustatymas](provisioning-guide.md).</span><span class="sxs-lookup"><span data-stu-id="563ae-107">For information about how to provision your Commerce evaluation environment, see [Provision a Commerce evaluation environment](provisioning-guide.md).</span></span>
+<span data-ttu-id="ea428-106">Pabaikite šio skyriaus procedūras po to, kai jūsų Komercijos vertinimo aplinka buvo parengta ir sukonfigūruota.</span><span class="sxs-lookup"><span data-stu-id="ea428-106">Complete the procedures in this topic only after your Commerce evaluation environment has been provisioned.</span></span> <span data-ttu-id="ea428-107">Dėl informacijo, kaip nustatyti savo Komercijos vertinimo aplinką po jos nustatymo, žr. [Komercijos vertinimo aplinkos nustatymas](provisioning-guide.md).</span><span class="sxs-lookup"><span data-stu-id="ea428-107">For information about how to provision your Commerce evaluation environment, see [Provision a Commerce evaluation environment](provisioning-guide.md).</span></span>
 
-<span data-ttu-id="563ae-108">Po to kai jūsų Komercijos vertinimo aplinka buvo parengta iki galo, papildomas jos parengimo konfigūravimo žingsniai turi būti pateikti iki tol, kol pradėsite vertinti aplinką.</span><span class="sxs-lookup"><span data-stu-id="563ae-108">After your Commerce evaluation environment has been provisioned end to end, additional post-provisioning configuration steps must be completed before you can start to evaluate the environment.</span></span> <span data-ttu-id="563ae-109">Norėdami atlikti šiuos veiksmus, turite naudoti „Microsoft Dynamics Lifecycle Services“ (LCS) ir „Dynamics 365 Commerce“.</span><span class="sxs-lookup"><span data-stu-id="563ae-109">To complete these steps, you must use Microsoft Dynamics Lifecycle Services (LCS) and Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="ea428-108">Po to kai jūsų Komercijos vertinimo aplinka buvo parengta iki galo, papildomas jos parengimo konfigūravimo žingsniai turi būti pateikti iki tol, kol pradėsite vertinti aplinką.</span><span class="sxs-lookup"><span data-stu-id="ea428-108">After your Commerce evaluation environment has been provisioned end to end, additional post-provisioning configuration steps must be completed before you can start to evaluate the environment.</span></span> <span data-ttu-id="ea428-109">Norėdami atlikti šiuos veiksmus, turite naudoti „Microsoft Dynamics Lifecycle Services“ (LCS) ir „Dynamics 365 Commerce“.</span><span class="sxs-lookup"><span data-stu-id="ea428-109">To complete these steps, you must use Microsoft Dynamics Lifecycle Services (LCS) and Dynamics 365 Commerce.</span></span>
 
-## <a name="before-you-start"></a><span data-ttu-id="563ae-110">Prieš pradedant</span><span class="sxs-lookup"><span data-stu-id="563ae-110">Before you start</span></span>
+## <a name="before-you-start"></a><span data-ttu-id="ea428-110">Prieš pradedant</span><span class="sxs-lookup"><span data-stu-id="ea428-110">Before you start</span></span>
 
-1. <span data-ttu-id="563ae-111">Prisijunkite prie [LCS portalo](https://lcs.dynamics.com).</span><span class="sxs-lookup"><span data-stu-id="563ae-111">Sign in to the [LCS portal](https://lcs.dynamics.com).</span></span>
-1. <span data-ttu-id="563ae-112">Nueikite į savo projektą.</span><span class="sxs-lookup"><span data-stu-id="563ae-112">Go to your project.</span></span>
-1. <span data-ttu-id="563ae-113">Viršutiniame meniu pasirinkite **Aplinkos diegimo debesyje įrankis**.</span><span class="sxs-lookup"><span data-stu-id="563ae-113">On the top menu, select **Cloud-hosted environments**.</span></span>
-1. <span data-ttu-id="563ae-114">Sąraše pasirinkite savo aplinką.</span><span class="sxs-lookup"><span data-stu-id="563ae-114">Select your environment in the list.</span></span>
-1. <span data-ttu-id="563ae-115">Aplinkos informacijoje dešinėje, pasirinkite **Prisijungti prie aplinkos**.</span><span class="sxs-lookup"><span data-stu-id="563ae-115">In the environment information on the right, select **Log on to environment**.</span></span> <span data-ttu-id="563ae-116">Būsite nukreipti į komercijos būstinę.</span><span class="sxs-lookup"><span data-stu-id="563ae-116">You will be sent to Commerce headquarters.</span></span>
-1. <span data-ttu-id="563ae-117">Įsitikinkite, kad viršutiniame dešiniajame kampe pasirinktas juridinis subjektas **USRT**.</span><span class="sxs-lookup"><span data-stu-id="563ae-117">Make sure that the **USRT** legal entity is selected in the upper-right corner.</span></span>
+1. <span data-ttu-id="ea428-111">Prisijunkite prie [LCS portalo](https://lcs.dynamics.com).</span><span class="sxs-lookup"><span data-stu-id="ea428-111">Sign in to the [LCS portal](https://lcs.dynamics.com).</span></span>
+1. <span data-ttu-id="ea428-112">Nueikite į savo projektą.</span><span class="sxs-lookup"><span data-stu-id="ea428-112">Go to your project.</span></span>
+1. <span data-ttu-id="ea428-113">Viršutiniame meniu pasirinkite **Aplinkos diegimo debesyje įrankis**.</span><span class="sxs-lookup"><span data-stu-id="ea428-113">On the top menu, select **Cloud-hosted environments**.</span></span>
+1. <span data-ttu-id="ea428-114">Sąraše pasirinkite savo aplinką.</span><span class="sxs-lookup"><span data-stu-id="ea428-114">Select your environment in the list.</span></span>
+1. <span data-ttu-id="ea428-115">Aplinkos informacijoje dešinėje, pasirinkite **Prisijungti prie aplinkos**.</span><span class="sxs-lookup"><span data-stu-id="ea428-115">In the environment information on the right, select **Log on to environment**.</span></span> <span data-ttu-id="ea428-116">Būsite nukreipti į komercijos būstinę.</span><span class="sxs-lookup"><span data-stu-id="ea428-116">You will be sent to Commerce headquarters.</span></span>
+1. <span data-ttu-id="ea428-117">Įsitikinkite, kad viršutiniame dešiniajame kampe pasirinktas juridinis subjektas **USRT**.</span><span class="sxs-lookup"><span data-stu-id="ea428-117">Make sure that the **USRT** legal entity is selected in the upper-right corner.</span></span>
 
-<span data-ttu-id="563ae-118">Po parengimo veiksmų komercijos būstinėje, įsitikinkite, kad **USRT** juridinis asmuo yra visuomet pasirinktas.</span><span class="sxs-lookup"><span data-stu-id="563ae-118">During post-provisioning activities in Commerce headquarters, make sure that the **USRT** legal entity is always selected.</span></span>
+<span data-ttu-id="ea428-118">Po parengimo veiksmų komercijos būstinėje, įsitikinkite, kad **USRT** juridinis asmuo yra visuomet pasirinktas.</span><span class="sxs-lookup"><span data-stu-id="ea428-118">During post-provisioning activities in Commerce headquarters, make sure that the **USRT** legal entity is always selected.</span></span>
 
-## <a name="configure-the-point-of-sale"></a><span data-ttu-id="563ae-119">Sukonfigūruokite prekybos tašką</span><span class="sxs-lookup"><span data-stu-id="563ae-119">Configure the point of sale</span></span>
+## <a name="configure-the-point-of-sale"></a><span data-ttu-id="ea428-119">Sukonfigūruokite prekybos tašką</span><span class="sxs-lookup"><span data-stu-id="ea428-119">Configure the point of sale</span></span>
 
-### <a name="associate-a-worker-with-your-identity"></a><span data-ttu-id="563ae-120">Darbuotojo susiejimas su jūsų tapatybe</span><span class="sxs-lookup"><span data-stu-id="563ae-120">Associate a worker with your identity</span></span>
+### <a name="associate-a-worker-with-your-identity"></a><span data-ttu-id="ea428-120">Darbuotojo susiejimas su jūsų tapatybe</span><span class="sxs-lookup"><span data-stu-id="ea428-120">Associate a worker with your identity</span></span>
 
-<span data-ttu-id="563ae-121">Tam, kad susietumėte darbuotoją su savo tapatybe, atlikite šiuos veiksmus Komercijos būstinėje.</span><span class="sxs-lookup"><span data-stu-id="563ae-121">To associate a worker with your identity, follow these steps in Commerce headquarters.</span></span>
+<span data-ttu-id="ea428-121">Tam, kad susietumėte darbuotoją su savo tapatybe, atlikite šiuos veiksmus Komercijos būstinėje.</span><span class="sxs-lookup"><span data-stu-id="ea428-121">To associate a worker with your identity, follow these steps in Commerce headquarters.</span></span>
 
-1. <span data-ttu-id="563ae-122">Naudodami kairėje esantį meniu, nueikite į **Moduliai \> Mažmeninė prekyba ir prekyba \> Darbuotojai \> Darbininkai**.</span><span class="sxs-lookup"><span data-stu-id="563ae-122">Use the menu on the left to go to **Modules \> Retail and commerce \> Employees \> Workers**.</span></span>
-1. <span data-ttu-id="563ae-123">Sąraše raskite ir pasirinkite šį įrašą **000713 - Andrew Collette**.</span><span class="sxs-lookup"><span data-stu-id="563ae-123">In the list, find and select the following record: **000713 - Andrew Collette**.</span></span>
-1. <span data-ttu-id="563ae-124">Veiksmų juostoje pasirinkite **Komercija**.</span><span class="sxs-lookup"><span data-stu-id="563ae-124">On the Action Pane, select **Commerce**.</span></span>
-1. <span data-ttu-id="563ae-125">Pasirinkite **Susieti esamą tapatybę**.</span><span class="sxs-lookup"><span data-stu-id="563ae-125">Select **Associate existing identity**.</span></span>
-1. <span data-ttu-id="563ae-126">Lauko **Ieškoti naudojant el. paštą** dešinėje esančiame lauke **El. paštas** įveskite savo el. pašto adresą.</span><span class="sxs-lookup"><span data-stu-id="563ae-126">In the **Email** field to the right of **Search using email**, enter your email address.</span></span>
-1. <span data-ttu-id="563ae-127">Pasirinkite **Ieškoti**.</span><span class="sxs-lookup"><span data-stu-id="563ae-127">Select **Search**.</span></span>
-1. <span data-ttu-id="563ae-128">Pasirinkite įrašą su savo vardu.</span><span class="sxs-lookup"><span data-stu-id="563ae-128">Select the record that has your name.</span></span>
-1. <span data-ttu-id="563ae-129">Pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="563ae-129">Select **OK**.</span></span>
-1. <span data-ttu-id="563ae-130">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="563ae-130">Select **Save**.</span></span>
+1. <span data-ttu-id="ea428-122">Naudodami kairėje esantį meniu, nueikite į **Moduliai \> Mažmeninė prekyba ir prekyba \> Darbuotojai \> Darbininkai**.</span><span class="sxs-lookup"><span data-stu-id="ea428-122">Use the menu on the left to go to **Modules \> Retail and commerce \> Employees \> Workers**.</span></span>
+1. <span data-ttu-id="ea428-123">Sąraše raskite ir pasirinkite šį įrašą **000713 - Andrew Collette**.</span><span class="sxs-lookup"><span data-stu-id="ea428-123">In the list, find and select the following record: **000713 - Andrew Collette**.</span></span>
+1. <span data-ttu-id="ea428-124">Veiksmų juostoje pasirinkite **Komercija**.</span><span class="sxs-lookup"><span data-stu-id="ea428-124">On the Action Pane, select **Commerce**.</span></span>
+1. <span data-ttu-id="ea428-125">Pasirinkite **Susieti esamą tapatybę**.</span><span class="sxs-lookup"><span data-stu-id="ea428-125">Select **Associate existing identity**.</span></span>
+1. <span data-ttu-id="ea428-126">Lauko **Ieškoti naudojant el. paštą** dešinėje esančiame lauke **El. paštas** įveskite savo el. pašto adresą.</span><span class="sxs-lookup"><span data-stu-id="ea428-126">In the **Email** field to the right of **Search using email**, enter your email address.</span></span>
+1. <span data-ttu-id="ea428-127">Pasirinkite **Ieškoti**.</span><span class="sxs-lookup"><span data-stu-id="ea428-127">Select **Search**.</span></span>
+1. <span data-ttu-id="ea428-128">Pasirinkite įrašą su savo vardu.</span><span class="sxs-lookup"><span data-stu-id="ea428-128">Select the record that has your name.</span></span>
+1. <span data-ttu-id="ea428-129">Pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="ea428-129">Select **OK**.</span></span>
+1. <span data-ttu-id="ea428-130">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="ea428-130">Select **Save**.</span></span>
 
-### <a name="activate-cloud-pos"></a><span data-ttu-id="563ae-131">Aktyvinti debesies EKA</span><span class="sxs-lookup"><span data-stu-id="563ae-131">Activate Cloud POS</span></span>
+### <a name="activate-cloud-pos"></a><span data-ttu-id="ea428-131">Aktyvinti debesies EKA</span><span class="sxs-lookup"><span data-stu-id="ea428-131">Activate Cloud POS</span></span>
 
-<span data-ttu-id="563ae-132">„Cloud POS“ įjungimui, atlikite šiuos veiksmus LCS.</span><span class="sxs-lookup"><span data-stu-id="563ae-132">To activate Cloud POS, follow these steps in LCS.</span></span>
+<span data-ttu-id="ea428-132">„Cloud POS“ įjungimui, atlikite šiuos veiksmus LCS.</span><span class="sxs-lookup"><span data-stu-id="ea428-132">To activate Cloud POS, follow these steps in LCS.</span></span>
 
-1. <span data-ttu-id="563ae-133">Viršutiniame meniu pasirinkite **Aplinkos diegimo debesyje įrankis**.</span><span class="sxs-lookup"><span data-stu-id="563ae-133">On the top menu, select **Cloud-hosted environments**.</span></span>
-1. <span data-ttu-id="563ae-134">Sąraše pasirinkite savo aplinką.</span><span class="sxs-lookup"><span data-stu-id="563ae-134">Select your environment in the list.</span></span>
-1. <span data-ttu-id="563ae-135">Aplinkos informacijoje dešinėje, pasirinkite **Prisijungti prie debesies prekybos taško**.</span><span class="sxs-lookup"><span data-stu-id="563ae-135">In the environment information on the right, select **Log on to Cloud Point of Sale**.</span></span>
-1. <span data-ttu-id="563ae-136">Pasirinkite **Kitas** tam, kad atvertumėte **Prieš pradžią** teksto laukelį.</span><span class="sxs-lookup"><span data-stu-id="563ae-136">Select **Next** to open the **Before you start** dialog box.</span></span>
-1. <span data-ttu-id="563ae-137">Palikite **Serverio URL** laukelį tokį, koks yra.</span><span class="sxs-lookup"><span data-stu-id="563ae-137">Leave the **Server URL** field as it is.</span></span> <span data-ttu-id="563ae-138">Pasirinkite **Toliau**.</span><span class="sxs-lookup"><span data-stu-id="563ae-138">Select **Next**.</span></span>
-1. <span data-ttu-id="563ae-139">Prisijunkite naudodami savo „Microsoft Azure Active Directory“ („Azure AD“) paskyrą.</span><span class="sxs-lookup"><span data-stu-id="563ae-139">Sign in by using your Microsoft Azure Active Directory (Azure AD) account.</span></span>
-1. <span data-ttu-id="563ae-140">**Parduotuvės pavadinimo** laukelyje pasirinkite **San Franciskas** ir tuomet pasirinkite **Kitas**.</span><span class="sxs-lookup"><span data-stu-id="563ae-140">Under **Store name**, select **San Francisco**, and then select **Next**.</span></span>
-1. <span data-ttu-id="563ae-141">Dalyje **Registras ir įrenginys** pasirinkite **SANFRAN-1**.</span><span class="sxs-lookup"><span data-stu-id="563ae-141">Under **Register and device**, select **SANFRAN-1**.</span></span>
-1. <span data-ttu-id="563ae-142">Pasirinkite **Aktyvinti**.</span><span class="sxs-lookup"><span data-stu-id="563ae-142">Select **Activate**.</span></span> <span data-ttu-id="563ae-143">Esate atjungiami ir nukreipiami į EKA prisijungimo puslapį.</span><span class="sxs-lookup"><span data-stu-id="563ae-143">You're signed out and taken to the POS sign-in page.</span></span>
-1. <span data-ttu-id="563ae-144">Dabar galite prisijungti prie debesies EKA funkcijų naudodami operatoriaus ID **000713** ir slaptažodį **123**.</span><span class="sxs-lookup"><span data-stu-id="563ae-144">You can now sign in to the Cloud POS experience by using operator ID **000713** and password **123**.</span></span>
+1. <span data-ttu-id="ea428-133">Viršutiniame meniu pasirinkite **Aplinkos diegimo debesyje įrankis**.</span><span class="sxs-lookup"><span data-stu-id="ea428-133">On the top menu, select **Cloud-hosted environments**.</span></span>
+1. <span data-ttu-id="ea428-134">Sąraše pasirinkite savo aplinką.</span><span class="sxs-lookup"><span data-stu-id="ea428-134">Select your environment in the list.</span></span>
+1. <span data-ttu-id="ea428-135">Aplinkos informacijoje dešinėje, pasirinkite **Prisijungti prie debesies prekybos taško**.</span><span class="sxs-lookup"><span data-stu-id="ea428-135">In the environment information on the right, select **Log on to Cloud Point of Sale**.</span></span>
+1. <span data-ttu-id="ea428-136">Pasirinkite **Kitas** tam, kad atvertumėte **Prieš pradžią** teksto laukelį.</span><span class="sxs-lookup"><span data-stu-id="ea428-136">Select **Next** to open the **Before you start** dialog box.</span></span>
+1. <span data-ttu-id="ea428-137">Palikite **Serverio URL** laukelį tokį, koks yra.</span><span class="sxs-lookup"><span data-stu-id="ea428-137">Leave the **Server URL** field as it is.</span></span> <span data-ttu-id="ea428-138">Pasirinkite **Toliau**.</span><span class="sxs-lookup"><span data-stu-id="ea428-138">Select **Next**.</span></span>
+1. <span data-ttu-id="ea428-139">Prisijunkite naudodami savo „Microsoft Azure Active Directory“ („Azure AD“) paskyrą.</span><span class="sxs-lookup"><span data-stu-id="ea428-139">Sign in by using your Microsoft Azure Active Directory (Azure AD) account.</span></span>
+1. <span data-ttu-id="ea428-140">**Parduotuvės pavadinimo** laukelyje pasirinkite **San Franciskas** ir tuomet pasirinkite **Kitas**.</span><span class="sxs-lookup"><span data-stu-id="ea428-140">Under **Store name**, select **San Francisco**, and then select **Next**.</span></span>
+1. <span data-ttu-id="ea428-141">Dalyje **Registras ir įrenginys** pasirinkite **SANFRAN-1**.</span><span class="sxs-lookup"><span data-stu-id="ea428-141">Under **Register and device**, select **SANFRAN-1**.</span></span>
+1. <span data-ttu-id="ea428-142">Pasirinkite **Aktyvinti**.</span><span class="sxs-lookup"><span data-stu-id="ea428-142">Select **Activate**.</span></span> <span data-ttu-id="ea428-143">Esate atjungiami ir nukreipiami į EKA prisijungimo puslapį.</span><span class="sxs-lookup"><span data-stu-id="ea428-143">You're signed out and taken to the POS sign-in page.</span></span>
+1. <span data-ttu-id="ea428-144">Dabar galite prisijungti prie debesies EKA funkcijų naudodami operatoriaus ID **000713** ir slaptažodį **123**.</span><span class="sxs-lookup"><span data-stu-id="ea428-144">You can now sign in to the Cloud POS experience by using operator ID **000713** and password **123**.</span></span>
 
-## <a name="set-up-your-site-in-commerce"></a><span data-ttu-id="563ae-145">Svetainės nustatymas programoje „Commerce“</span><span class="sxs-lookup"><span data-stu-id="563ae-145">Set up your site in Commerce</span></span>
+## <a name="set-up-your-site-in-commerce"></a><span data-ttu-id="ea428-145">Svetainės nustatymas programoje „Commerce“</span><span class="sxs-lookup"><span data-stu-id="ea428-145">Set up your site in Commerce</span></span>
 
-<span data-ttu-id="563ae-146">Jūsų vertinimo vietos komercijoje nustatymo pradžiai, atlikite šiuos žingsnius.</span><span class="sxs-lookup"><span data-stu-id="563ae-146">To start to set up your evaluation site in Commerce, follow these steps.</span></span>
+<span data-ttu-id="ea428-146">Jūsų vertinimo vietos komercijoje nustatymo pradžiai, atlikite šiuos žingsnius.</span><span class="sxs-lookup"><span data-stu-id="ea428-146">To start to set up your evaluation site in Commerce, follow these steps.</span></span>
 
-1. <span data-ttu-id="563ae-147">Prisijunkite prie vietos kūrėjo naudodami URL, kurį užsirašėte pradėdami „e-Commerce“ parengimo metu (žr. [Pradėti „e-Commerce“](provisioning-guide.md#initialize-e-commerce)).</span><span class="sxs-lookup"><span data-stu-id="563ae-147">Sign in to site builder by using the URL that you made a note of when you initialized e-Commerce during provisioning (see [Initialize e-Commerce](provisioning-guide.md#initialize-e-commerce)).</span></span>
-1. <span data-ttu-id="563ae-148">Pasirinkite svetainę **„Fabrikam“**, kad atidarytumėte svetainės sąrankos dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="563ae-148">Select the **Fabrikam** site to open the site setup dialog box.</span></span>
-1. <span data-ttu-id="563ae-149">Pasirinkite domeną, kurį įvedėte inicijuodami el. prekybą.</span><span class="sxs-lookup"><span data-stu-id="563ae-149">Select the domain that you entered when you initialized e-Commerce.</span></span>
-1. <span data-ttu-id="563ae-150">Kaip numatytąjį kanalą pasirinkite **„Fabrikam“ išplėstinė internetinė parduotuvė**.</span><span class="sxs-lookup"><span data-stu-id="563ae-150">Select **Fabrikam extended online store** as the default channel.</span></span> <span data-ttu-id="563ae-151">(Įsitikinkite, kad pasirinkote **išplėstinę** internetinę parduotuvę.)</span><span class="sxs-lookup"><span data-stu-id="563ae-151">(Make sure that you select the **extended** online store.)</span></span>
-1. <span data-ttu-id="563ae-152">Kaip numatytąją kalbą pasirinkite **lt-lt**.</span><span class="sxs-lookup"><span data-stu-id="563ae-152">Select **en-us** as the default language.</span></span>
-1. <span data-ttu-id="563ae-153">Lauko **Kelias** reikšmę palikite tokią, kokia yra.</span><span class="sxs-lookup"><span data-stu-id="563ae-153">Leave the value of the **Path** field as it is.</span></span>
-1. <span data-ttu-id="563ae-154">Pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="563ae-154">Select **OK**.</span></span> <span data-ttu-id="563ae-155">Atsiranda svetainės puslapių sąrašas.</span><span class="sxs-lookup"><span data-stu-id="563ae-155">The list of pages on the site appears.</span></span>
+1. <span data-ttu-id="ea428-147">Prisijunkite prie vietos kūrėjo naudodami URL, kurį užsirašėte pradėdami „e-Commerce“ parengimo metu (žr. [Pradėti „e-Commerce“](provisioning-guide.md#initialize-e-commerce)).</span><span class="sxs-lookup"><span data-stu-id="ea428-147">Sign in to site builder by using the URL that you made a note of when you initialized e-Commerce during provisioning (see [Initialize e-Commerce](provisioning-guide.md#initialize-e-commerce)).</span></span>
+1. <span data-ttu-id="ea428-148">Pasirinkite svetainę **„Fabrikam“**, kad atidarytumėte svetainės sąrankos dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="ea428-148">Select the **Fabrikam** site to open the site setup dialog box.</span></span>
+1. <span data-ttu-id="ea428-149">Pasirinkite domeną, kurį įvedėte inicijuodami el. prekybą.</span><span class="sxs-lookup"><span data-stu-id="ea428-149">Select the domain that you entered when you initialized e-Commerce.</span></span>
+1. <span data-ttu-id="ea428-150">Kaip numatytąjį kanalą pasirinkite **„Fabrikam“ išplėstinė internetinė parduotuvė**.</span><span class="sxs-lookup"><span data-stu-id="ea428-150">Select **Fabrikam extended online store** as the default channel.</span></span> <span data-ttu-id="ea428-151">(Įsitikinkite, kad pasirinkote **išplėstinę** internetinę parduotuvę.)</span><span class="sxs-lookup"><span data-stu-id="ea428-151">(Make sure that you select the **extended** online store.)</span></span>
+1. <span data-ttu-id="ea428-152">Kaip numatytąją kalbą pasirinkite **lt-lt**.</span><span class="sxs-lookup"><span data-stu-id="ea428-152">Select **en-us** as the default language.</span></span>
+1. <span data-ttu-id="ea428-153">Lauko **Kelias** reikšmę palikite tokią, kokia yra.</span><span class="sxs-lookup"><span data-stu-id="ea428-153">Leave the value of the **Path** field as it is.</span></span>
+1. <span data-ttu-id="ea428-154">Pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="ea428-154">Select **OK**.</span></span> <span data-ttu-id="ea428-155">Atsiranda svetainės puslapių sąrašas.</span><span class="sxs-lookup"><span data-stu-id="ea428-155">The list of pages on the site appears.</span></span>
 
-## <a name="enable-jobs"></a><span data-ttu-id="563ae-156">Užduočių įgalinimas</span><span class="sxs-lookup"><span data-stu-id="563ae-156">Enable jobs</span></span>
+## <a name="enable-jobs"></a><span data-ttu-id="ea428-156">Užduočių įgalinimas</span><span class="sxs-lookup"><span data-stu-id="ea428-156">Enable jobs</span></span>
 
-<span data-ttu-id="563ae-157">Norėdami programoje „Commerce“ įjungti užduotis, atlikite toliau nurodytus veiksmus.</span><span class="sxs-lookup"><span data-stu-id="563ae-157">To enable jobs in Commerce, follow these steps.</span></span>
+<span data-ttu-id="ea428-157">Norėdami programoje „Commerce“ įjungti užduotis, atlikite toliau nurodytus veiksmus.</span><span class="sxs-lookup"><span data-stu-id="ea428-157">To enable jobs in Commerce, follow these steps.</span></span>
 
-1. <span data-ttu-id="563ae-158">Prisijunkite prie aplinkos (būstinėje).</span><span class="sxs-lookup"><span data-stu-id="563ae-158">Sign in to the environment (HQ).</span></span>
-1. <span data-ttu-id="563ae-159">Naudodami kairėje esantį meniu, nueikite į **Mažmeninė prekyba ir prekyba \> Užklausos ir ataskaitos \> Paketines užduotys**.</span><span class="sxs-lookup"><span data-stu-id="563ae-159">Use the menu on the left to go to **Retail and commerce \> Inquiries and reports \> Batch jobs**.</span></span>
+1. <span data-ttu-id="ea428-158">Prisijunkite prie aplinkos (būstinėje).</span><span class="sxs-lookup"><span data-stu-id="ea428-158">Sign in to the environment (HQ).</span></span>
+1. <span data-ttu-id="ea428-159">Naudodami kairėje esantį meniu, nueikite į **Mažmeninė prekyba ir prekyba \> Užklausos ir ataskaitos \> Paketines užduotys**.</span><span class="sxs-lookup"><span data-stu-id="ea428-159">Use the menu on the left to go to **Retail and commerce \> Inquiries and reports \> Batch jobs**.</span></span>
 
-    <span data-ttu-id="563ae-160">Likusius šios procedūros veiksmus reikia atlikti su kiekviena iš tolesnių užduočių.</span><span class="sxs-lookup"><span data-stu-id="563ae-160">The remaining steps of this procedure must be completed for each of the following jobs:</span></span>
+    <span data-ttu-id="ea428-160">Likusius šios procedūros veiksmus reikia atlikti su kiekviena iš tolesnių užduočių.</span><span class="sxs-lookup"><span data-stu-id="ea428-160">The remaining steps of this procedure must be completed for each of the following jobs:</span></span>
 
-    * <span data-ttu-id="563ae-161">Apdoroti mažmeninės prekybos el. paštu siunčiamą pranešimą</span><span class="sxs-lookup"><span data-stu-id="563ae-161">Process retail order email notification</span></span>
-    * <span data-ttu-id="563ae-162">Produkto prieinamumas</span><span class="sxs-lookup"><span data-stu-id="563ae-162">Product availability</span></span>
-    * <span data-ttu-id="563ae-163">P-0001</span><span class="sxs-lookup"><span data-stu-id="563ae-163">P-0001</span></span>
-    * <span data-ttu-id="563ae-164">Užsakymų sinchronizavimo užduotis</span><span class="sxs-lookup"><span data-stu-id="563ae-164">Synchronize orders job</span></span>
+    * <span data-ttu-id="ea428-161">Apdoroti mažmeninės prekybos el. paštu siunčiamą pranešimą</span><span class="sxs-lookup"><span data-stu-id="ea428-161">Process retail order email notification</span></span>
+    * <span data-ttu-id="ea428-162">Produkto prieinamumas</span><span class="sxs-lookup"><span data-stu-id="ea428-162">Product availability</span></span>
+    * <span data-ttu-id="ea428-163">P-0001</span><span class="sxs-lookup"><span data-stu-id="ea428-163">P-0001</span></span>
+    * <span data-ttu-id="ea428-164">Užsakymų sinchronizavimo užduotis</span><span class="sxs-lookup"><span data-stu-id="ea428-164">Synchronize orders job</span></span>
 
-1. <span data-ttu-id="563ae-165">Naudodami spartųjį filtrą, užduoties galite ieškoti pagal pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="563ae-165">Use the Quick Filter to search for the job by name.</span></span>
-1. <span data-ttu-id="563ae-166">Jei darbo būsena yra **Vykdoma**, atlikite šiuos žingsnius:</span><span class="sxs-lookup"><span data-stu-id="563ae-166">If the status of the job is **Executing**, follow these steps:</span></span>
+1. <span data-ttu-id="ea428-165">Naudodami spartųjį filtrą, užduoties galite ieškoti pagal pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="ea428-165">Use the Quick Filter to search for the job by name.</span></span>
+1. <span data-ttu-id="ea428-166">Jei darbo būsena yra **Vykdoma**, atlikite šiuos žingsnius:</span><span class="sxs-lookup"><span data-stu-id="ea428-166">If the status of the job is **Executing**, follow these steps:</span></span>
 
-    1. <span data-ttu-id="563ae-167">Pasirinkite įrašą.</span><span class="sxs-lookup"><span data-stu-id="563ae-167">Select the record.</span></span>
-    1. <span data-ttu-id="563ae-168">Veiksmų srities skirtuke **Paketinė užduotis** pasirinkite **Keisti būseną**.</span><span class="sxs-lookup"><span data-stu-id="563ae-168">On the Action Pane, on **Batch job** tab, select **Change status**.</span></span>
-    1. <span data-ttu-id="563ae-169">Pasirinkite **Atšaukti**, tuomet pasirinkite **OK**.</span><span class="sxs-lookup"><span data-stu-id="563ae-169">Select **Canceling**, and then select **OK**.</span></span>
+    1. <span data-ttu-id="ea428-167">Pasirinkite įrašą.</span><span class="sxs-lookup"><span data-stu-id="ea428-167">Select the record.</span></span>
+    1. <span data-ttu-id="ea428-168">Veiksmų srities skirtuke **Paketinė užduotis** pasirinkite **Keisti būseną**.</span><span class="sxs-lookup"><span data-stu-id="ea428-168">On the Action Pane, on **Batch job** tab, select **Change status**.</span></span>
+    1. <span data-ttu-id="ea428-169">Pasirinkite **Atšaukti**, tuomet pasirinkite **OK**.</span><span class="sxs-lookup"><span data-stu-id="ea428-169">Select **Canceling**, and then select **OK**.</span></span>
 
-<span data-ttu-id="563ae-170">Pasirinktinai, taip pat galite nustatyti sutapimo intervalą ties (1) minute šiems veiksmams:</span><span class="sxs-lookup"><span data-stu-id="563ae-170">Optionally, you can also set the recurrence interval to one (1) minute for the following jobs:</span></span>
+<span data-ttu-id="ea428-170">Pasirinktinai, taip pat galite nustatyti sutapimo intervalą ties (1) minute šiems veiksmams:</span><span class="sxs-lookup"><span data-stu-id="ea428-170">Optionally, you can also set the recurrence interval to one (1) minute for the following jobs:</span></span>
 
-* <span data-ttu-id="563ae-171">Mažmenos užsakymo elektroninio pašto pranešimo darbo apdorojimas</span><span class="sxs-lookup"><span data-stu-id="563ae-171">Process retail order email notification job</span></span>
-* <span data-ttu-id="563ae-172">P-0001 darbas</span><span class="sxs-lookup"><span data-stu-id="563ae-172">P-0001 job</span></span>
-* <span data-ttu-id="563ae-173">Užsakymų sinchronizavimo užduotis</span><span class="sxs-lookup"><span data-stu-id="563ae-173">Synchronize orders job</span></span>
+* <span data-ttu-id="ea428-171">Mažmenos užsakymo elektroninio pašto pranešimo darbo apdorojimas</span><span class="sxs-lookup"><span data-stu-id="ea428-171">Process retail order email notification job</span></span>
+* <span data-ttu-id="ea428-172">P-0001 darbas</span><span class="sxs-lookup"><span data-stu-id="ea428-172">P-0001 job</span></span>
+* <span data-ttu-id="ea428-173">Užsakymų sinchronizavimo užduotis</span><span class="sxs-lookup"><span data-stu-id="ea428-173">Synchronize orders job</span></span>
 
-### <a name="run-full-data-synchronization"></a><span data-ttu-id="563ae-174">Vykdyti visą duomenų sinchronizavimą</span><span class="sxs-lookup"><span data-stu-id="563ae-174">Run full data synchronization</span></span>
+### <a name="run-full-data-synchronization"></a><span data-ttu-id="ea428-174">Vykdyti visą duomenų sinchronizavimą</span><span class="sxs-lookup"><span data-stu-id="ea428-174">Run full data synchronization</span></span>
 
-<span data-ttu-id="563ae-175">Visų duomenų sinchronizavimo komercijoje vykdymui, atlikite šiuos veiksmus komercijos būstinėje.</span><span class="sxs-lookup"><span data-stu-id="563ae-175">To run full data synchronization in Commerce, follow these steps in Commerce headquarters.</span></span>
+<span data-ttu-id="ea428-175">Visų duomenų sinchronizavimo komercijoje vykdymui, atlikite šiuos veiksmus komercijos būstinėje.</span><span class="sxs-lookup"><span data-stu-id="ea428-175">To run full data synchronization in Commerce, follow these steps in Commerce headquarters.</span></span>
 
-1. <span data-ttu-id="563ae-176">Naudodami kairėje esantį meniu, nueikite į **Moduliai \> Mažmeninė prekyba ir prekyba \> Būstinės sąranka \> Prekybos tvarkaraštis \> Kanalo duomenų bazė**.</span><span class="sxs-lookup"><span data-stu-id="563ae-176">Use the menu on the left to go to **Modules \> Retail and commerce \> Headquarters setup \> Commerce scheduler \> Channel database**.</span></span>
-1. <span data-ttu-id="563ae-177">Pasirinkite kanalą pavadinimu **scXXXXXXXXX**.</span><span class="sxs-lookup"><span data-stu-id="563ae-177">Select the channel that is named **scXXXXXXXXX**.</span></span>
-1. <span data-ttu-id="563ae-178">Veiksmų srityje pasirinkite **Visas duomenų sinchronizavimas**.</span><span class="sxs-lookup"><span data-stu-id="563ae-178">On the Action Pane, select **Full data sync**.</span></span>
-1. <span data-ttu-id="563ae-179">Įveskite **9999** kaip paskirstymo grafiką.</span><span class="sxs-lookup"><span data-stu-id="563ae-179">Enter **9999** as the distribution schedule.</span></span>
-1. <span data-ttu-id="563ae-180">Pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="563ae-180">Select **OK**.</span></span>
-1. <span data-ttu-id="563ae-181">Pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="563ae-181">Select **OK**.</span></span>
+1. <span data-ttu-id="ea428-176">Naudodami kairėje esantį meniu, nueikite į **Moduliai \> Mažmeninė prekyba ir prekyba \> Būstinės sąranka \> Prekybos tvarkaraštis \> Kanalo duomenų bazė**.</span><span class="sxs-lookup"><span data-stu-id="ea428-176">Use the menu on the left to go to **Modules \> Retail and commerce \> Headquarters setup \> Commerce scheduler \> Channel database**.</span></span>
+1. <span data-ttu-id="ea428-177">Pasirinkite kanalą pavadinimu **scXXXXXXXXX**.</span><span class="sxs-lookup"><span data-stu-id="ea428-177">Select the channel that is named **scXXXXXXXXX**.</span></span>
+1. <span data-ttu-id="ea428-178">Veiksmų srityje pasirinkite **Visas duomenų sinchronizavimas**.</span><span class="sxs-lookup"><span data-stu-id="ea428-178">On the Action Pane, select **Full data sync**.</span></span>
+1. <span data-ttu-id="ea428-179">Įveskite **9999** kaip paskirstymo grafiką.</span><span class="sxs-lookup"><span data-stu-id="ea428-179">Enter **9999** as the distribution schedule.</span></span>
+1. <span data-ttu-id="ea428-180">Pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="ea428-180">Select **OK**.</span></span>
+1. <span data-ttu-id="ea428-181">Pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="ea428-181">Select **OK**.</span></span>
 
-### <a name="test-credit-card-information-to-do-test-purchases"></a><span data-ttu-id="563ae-182">Bandomosios kredito kortelės informacija bandomiesiems pirkimams atlikti</span><span class="sxs-lookup"><span data-stu-id="563ae-182">Test credit card information to do test purchases</span></span>
+### <a name="test-credit-card-information-to-do-test-purchases"></a><span data-ttu-id="ea428-182">Bandomosios kredito kortelės informacija bandomiesiems pirkimams atlikti</span><span class="sxs-lookup"><span data-stu-id="ea428-182">Test credit card information to do test purchases</span></span>
 
-<span data-ttu-id="563ae-183">Norėdami svetainėje atlikti bandomąsias operacijas, galite naudoti tolesnę bandomosios kredito kortelės informaciją.</span><span class="sxs-lookup"><span data-stu-id="563ae-183">To perform test transactions on the site, you can use the following test credit card information:</span></span>
+<span data-ttu-id="ea428-183">Norėdami svetainėje atlikti bandomąsias operacijas, galite naudoti tolesnę bandomosios kredito kortelės informaciją.</span><span class="sxs-lookup"><span data-stu-id="ea428-183">To perform test transactions on the site, you can use the following test credit card information:</span></span>
 
-- <span data-ttu-id="563ae-184">**Kortelės numeris:** 4111-1111-1111-1111</span><span class="sxs-lookup"><span data-stu-id="563ae-184">**Card number:** 4111-1111-1111-1111</span></span>
-- <span data-ttu-id="563ae-185">**Galiojimo pabaigos data:** 10/20</span><span class="sxs-lookup"><span data-stu-id="563ae-185">**Expiration date:** 10/20</span></span>
-- <span data-ttu-id="563ae-186">**Kortelės tikrinimo vertės (CVV) kodas:** 737</span><span class="sxs-lookup"><span data-stu-id="563ae-186">**Card verification value (CVV) code:** 737</span></span>
+- <span data-ttu-id="ea428-184">**Kortelės numeris:** 4111-1111-1111-1111</span><span class="sxs-lookup"><span data-stu-id="ea428-184">**Card number:** 4111-1111-1111-1111</span></span>
+- <span data-ttu-id="ea428-185">**Galiojimo pabaigos data:** 10/20</span><span class="sxs-lookup"><span data-stu-id="ea428-185">**Expiration date:** 10/20</span></span>
+- <span data-ttu-id="ea428-186">**Kortelės tikrinimo vertės (CVV) kodas:** 737</span><span class="sxs-lookup"><span data-stu-id="ea428-186">**Card verification value (CVV) code:** 737</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="563ae-187">Bandomojoje svetainėje niekada esant jokioms aplinkybėms nenaudokite faktinės kredito kortelės informacijos.</span><span class="sxs-lookup"><span data-stu-id="563ae-187">Never, under any circumstances, try to use actual credit card information on the test site.</span></span>
+> <span data-ttu-id="ea428-187">Bandomojoje svetainėje niekada esant jokioms aplinkybėms nenaudokite faktinės kredito kortelės informacijos.</span><span class="sxs-lookup"><span data-stu-id="ea428-187">Never, under any circumstances, try to use actual credit card information on the test site.</span></span>
 
-## <a name="next-steps"></a><span data-ttu-id="563ae-188">Kiti veiksmai</span><span class="sxs-lookup"><span data-stu-id="563ae-188">Next steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="ea428-188">Kiti veiksmai</span><span class="sxs-lookup"><span data-stu-id="ea428-188">Next steps</span></span>
 
-<span data-ttu-id="563ae-189">Po parengimo ir konfigūravimo žingsnių atlikimo, galite pradėti naudoti savo vertinimo aplinką.</span><span class="sxs-lookup"><span data-stu-id="563ae-189">After the provisioning and configuration steps are completed, you can start to use your evaluation environment.</span></span> <span data-ttu-id="563ae-190">Naudokite komercijos vietos kūrėjo URL tam, kad eitumėte į autorizavimo patirtį.</span><span class="sxs-lookup"><span data-stu-id="563ae-190">Use the Commerce site builder URL to go to the authoring experience.</span></span> <span data-ttu-id="563ae-191">Naudokite komercijos vietos kūrėjo URL tam, kad eitumėte į mažmenos kliento vietos patirtį.</span><span class="sxs-lookup"><span data-stu-id="563ae-191">Use the Commerce site URL to go to the retail customer site experience.</span></span>
+<span data-ttu-id="ea428-189">Po parengimo ir konfigūravimo žingsnių atlikimo, galite pradėti naudoti savo vertinimo aplinką.</span><span class="sxs-lookup"><span data-stu-id="ea428-189">After the provisioning and configuration steps are completed, you can start to use your evaluation environment.</span></span> <span data-ttu-id="ea428-190">Naudokite komercijos vietos kūrėjo URL tam, kad eitumėte į autorizavimo patirtį.</span><span class="sxs-lookup"><span data-stu-id="ea428-190">Use the Commerce site builder URL to go to the authoring experience.</span></span> <span data-ttu-id="ea428-191">Naudokite komercijos vietos kūrėjo URL tam, kad eitumėte į mažmenos kliento vietos patirtį.</span><span class="sxs-lookup"><span data-stu-id="ea428-191">Use the Commerce site URL to go to the retail customer site experience.</span></span>
 
-<span data-ttu-id="563ae-192">Tam, kad sukonfigūruotumėte pasirenkamas jūsų Komercijos vertinimo aplinkos savybes, žr. [Konfigūruoti pasirenkamas savybes savo Komercijos vertinimo aplinkoje](cpe-optional-features.md).</span><span class="sxs-lookup"><span data-stu-id="563ae-192">To configure optional features for your Commerce evaluation environment, see [Configure optional features for a Commerce evaluation environment](cpe-optional-features.md).</span></span>
+<span data-ttu-id="ea428-192">Tam, kad sukonfigūruotumėte pasirenkamas jūsų Komercijos vertinimo aplinkos savybes, žr. [Konfigūruoti pasirenkamas savybes savo Komercijos vertinimo aplinkoje](cpe-optional-features.md).</span><span class="sxs-lookup"><span data-stu-id="ea428-192">To configure optional features for your Commerce evaluation environment, see [Configure optional features for a Commerce evaluation environment](cpe-optional-features.md).</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="563ae-193">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="563ae-193">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="ea428-193">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="ea428-193">Additional resources</span></span>
 
-[<span data-ttu-id="563ae-194">„Dynamics 365 Commerce“ vertinimo aplinkos peržiūra</span><span class="sxs-lookup"><span data-stu-id="563ae-194">Dynamics 365 Commerce evaluation environment overview</span></span>](cpe-overview.md)
+[<span data-ttu-id="ea428-194">„Dynamics 365 Commerce“ vertinimo aplinkos peržiūra</span><span class="sxs-lookup"><span data-stu-id="ea428-194">Dynamics 365 Commerce evaluation environment overview</span></span>](cpe-overview.md)
 
-[<span data-ttu-id="563ae-195">Parenkite „Dynamics 365 Commerce“ vertinimo aplinką</span><span class="sxs-lookup"><span data-stu-id="563ae-195">Provision a Dynamics 365 Commerce evaluation environment</span></span>](provisioning-guide.md)
+[<span data-ttu-id="ea428-195">Parenkite „Dynamics 365 Commerce“ vertinimo aplinką</span><span class="sxs-lookup"><span data-stu-id="ea428-195">Provision a Dynamics 365 Commerce evaluation environment</span></span>](provisioning-guide.md)
 
-[<span data-ttu-id="563ae-196">Konfigūruokite pasirinktas savybes „Dynamics 365 Commerce“ vertinamoje aplinkoje</span><span class="sxs-lookup"><span data-stu-id="563ae-196">Configure optional features for a Dynamics 365 Commerce evaluation environment</span></span>](cpe-optional-features.md)
+[<span data-ttu-id="ea428-196">Konfigūruokite pasirinktas savybes „Dynamics 365 Commerce“ vertinamoje aplinkoje</span><span class="sxs-lookup"><span data-stu-id="ea428-196">Configure optional features for a Dynamics 365 Commerce evaluation environment</span></span>](cpe-optional-features.md)
 
-[<span data-ttu-id="563ae-197">Sukonfigūruokite „BOPIS“ „Dynamics 365 Commerce“ vertinamoje aplinkoje</span><span class="sxs-lookup"><span data-stu-id="563ae-197">Configure BOPIS in a Dynamics 365 Commerce evaluation environment</span></span>](cpe-bopis.md)
+[<span data-ttu-id="ea428-197">Sukonfigūruokite „BOPIS“ „Dynamics 365 Commerce“ vertinamoje aplinkoje</span><span class="sxs-lookup"><span data-stu-id="ea428-197">Configure BOPIS in a Dynamics 365 Commerce evaluation environment</span></span>](cpe-bopis.md)
 
-[<span data-ttu-id="563ae-198">„Dynamics 365 Commerce“ vertinimo aplinkos DUK</span><span class="sxs-lookup"><span data-stu-id="563ae-198">Dynamics 365 Commerce evaluation environment FAQ</span></span>](cpe-faq.md)
+[<span data-ttu-id="ea428-198">„Dynamics 365 Commerce“ vertinimo aplinkos DUK</span><span class="sxs-lookup"><span data-stu-id="ea428-198">Dynamics 365 Commerce evaluation environment FAQ</span></span>](cpe-faq.md)
 
-[<span data-ttu-id="563ae-199">„Microsoft Lifecycle Services“ (LCS)</span><span class="sxs-lookup"><span data-stu-id="563ae-199">Microsoft Lifecycle Services (LCS)</span></span>](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[<span data-ttu-id="ea428-199">„Microsoft Lifecycle Services“ (LCS)</span><span class="sxs-lookup"><span data-stu-id="ea428-199">Microsoft Lifecycle Services (LCS)</span></span>](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[<span data-ttu-id="563ae-200">„Retail Cloud Scale Unit“ (RCSU)</span><span class="sxs-lookup"><span data-stu-id="563ae-200">Retail Cloud Scale Unit (RCSU)</span></span>](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[<span data-ttu-id="ea428-200">„Retail Cloud Scale Unit“ (RCSU)</span><span class="sxs-lookup"><span data-stu-id="ea428-200">Retail Cloud Scale Unit (RCSU)</span></span>](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
-[<span data-ttu-id="563ae-201">„Microsoft Azure“ portalas</span><span class="sxs-lookup"><span data-stu-id="563ae-201">Microsoft Azure portal</span></span>](https://azure.microsoft.com/features/azure-portal)
+[<span data-ttu-id="ea428-201">„Microsoft Azure“ portalas</span><span class="sxs-lookup"><span data-stu-id="ea428-201">Microsoft Azure portal</span></span>](https://azure.microsoft.com/features/azure-portal)
 
-[<span data-ttu-id="563ae-202">„Dynamics 365 Commerce“ svetainė</span><span class="sxs-lookup"><span data-stu-id="563ae-202">Dynamics 365 Commerce website</span></span>](https://aka.ms/Dynamics365CommerceWebsite)
+[<span data-ttu-id="ea428-202">„Dynamics 365 Commerce“ svetainė</span><span class="sxs-lookup"><span data-stu-id="ea428-202">Dynamics 365 Commerce website</span></span>](https://aka.ms/Dynamics365CommerceWebsite)
