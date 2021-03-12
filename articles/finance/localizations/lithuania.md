@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Lithuania
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9036bb371150054508acfa24d2c0a3415006d892
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bae65e0882c3fc7c9dd0dd79b591e1da1ae84acc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408217"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964621"
 ---
 # <a name="lithuania-overview"></a>Lietuvos apžvalga
 
@@ -34,6 +33,3 @@ ms.locfileid: "4408217"
 - [Sąskaitų faktūrų ir važtaraščių numeravimas](emea-invoices-packing-slips-numbering.md)
 - [PVM išrašo informacija](emea-ltu-vat-statement-details.md)
 - [i.SAF ataskaitos](emea-ltu-isaf.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d36f60a13fbee91100e406150e7f5ca890320436
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5df497a8590c6d60a5f0bc39469cf048c3448572
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433408"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963743"
 ---
 # <a name="weighted-average-date"></a>Svertinio vidurkio data
 
@@ -32,7 +31,7 @@ ms.locfileid: "4433408"
 
 Svertinio vidurkio diena yra atsargų modelis, kuris remiasi svertinio vidurkio principu. Svertinio vidurkio principo taikymui atsargų išdavimai vertinami naudojant vidutinę prekių, gautų į atsargas kiekvieną atskirą atsargų uždarymo laikotarpio dieną, vertę. 
 
-Kai vykdote atsargų uždarymą, naudodami svertinio vidurkio dieną, visi dienos gavimai sudengiami prieš virtualų išdavimą. Šis virtualus išdavimas turi bendrą gautą kiekį ir vertę tą dieną. Virtualus išdavimas turi atitinkamą virtualų gavimą, pagal kurį bus sudengti išdavimai. Todėl visų išdavimų vidutinės išlaidos būna tokios pačios. Virtualus išdavimas ir virtualus gavimas gali būti suprantamas kaip virtualus perkėlimas, vadinamasis *svertinio vidurkio atsargų uždarymo perkėlimas*. 
+Kai vykdote atsargų uždarymą, naudodami svertinio vidurkio dieną, visi dienos gavimai sudengiami prieš virtualų išdavimą. Šiame virtualiame leidime pateikti tos dienos bendras gautas kiekis ir vertė. Virtualus išdavimas turi atitinkamą virtualų gavimą, pagal kurį bus sudengti išdavimai. Todėl visų išdavimų vidutinės išlaidos būna tokios pačios. Virtualus leidimas ir virtualus kvitas gali būti laikomi kaip virtualus perkėlimas, vadinamas *svertinio vidurkio atsargų uždarymo perkėlimu*. 
 
 Jei tą dieną arba iki tos dienos įvyko tik vienas gavimas, vidurkio vertinti nereikės. Visi išdavimai sutvarkomi nuo to gavimo, todėl nereikės kurti virtualaus perdavimo. Taip pat, jei vieninteliai išdavimai įvykdomi tą dieną, nėra gavimų, iš kurių būtų galima vertinti vidurkį, ir virtualusis perkėlimas taip pat nebus sukurtas. Kai naudojate svertinę vidutinę datą, galite pažymėti atsargų operacijas, kad tam tikros prekės gavimas būtų sudengiamas su tam tikru išdavimu. Šiuo atveju nereikia naudoti svertinio vidurkio dienos taisyklės. Naudojant svertinio vidurkio datos atsargų modelį, rekomenduojame kas mėnesį uždaryti atsargas. 
 
@@ -51,10 +50,10 @@ Atsargų operacijos, paliekančios atsargas, įskaitant pardavimo užsakymus, at
 
 Sudengimai yra atsargų uždarymo registravimas, per kurį išdavimai nustatomi pagal pataisytą svertinį vidurkį uždarymo datą. 
 
-**Pastaba.** Jei reikia daugiau informacijos apie sudengimus, žr. straipsnį apie atsargų uždarymą. Pateiktame pavyzdyje parodytas svertinio vidurkio naudojimo su penkiomis konfigūracijomis poveikis:
+**Pastaba.** Daugiau informacijos apie atsiskaitymus, žr. straipsnį apie atsargų uždarymą. Pateiktame pavyzdyje parodytas svertinio vidurkio naudojimo su penkiomis konfigūracijomis poveikis:
 
 -   Svetinio vidurkio dienos tiesioginis sudengimas be pasirinkties **Įtraukti faktinę vertę**
--   Svetinio vidurkio dienos apibendrintas sudengimas be pasirinkties **Įtraukti faktinę vertę**
+-   Svetinio vidurkio dienos apibendrintas atsikaitymas, **Įtraukti faktinę vertę** parinktis nenaudojama
 -   Svetinio vidurkio dienos tiesioginis sudengimas su pasirinktimi **Įtraukti faktinę vertę**
 -   Svertinio vidurkio dienos suvestinis sudengimas su pasirinktimi **Įtraukti faktinę vertę**
 -   Svertinio vidurkio diena su žymėjimu
@@ -125,9 +124,9 @@ Atsargų uždarymas atliktas. Reikės naudotis tiesioginiu sudengimu, nes per ke
 -   7a. Svertinio vidurkio atsargų uždarymo operacijos finansinis išdavimas sukuriamas 2 vienetams, kurių kiekvieno kaina 32,00 USD, kad visų atsargų finansinių gavimų sudengimai būtų suvedami į datą, kuri dar nebuvo uždaryta.
 -   7b. Svertinio vidurkio atsargų uždarymo operacijos finansinis gavimas sukuriamas kaip 7a balansas.
 
-Sistemoje sugeneruojama ir užregistruojama apibendrinta atsargų perkėlimo operacija. Be to, sistemoje visi dienos gavimai bei ankstesnių dienų turimos atsargos sudengiamos su apibendrinta atsargų perkėlimo išdavimo operacija. Visi tos dienos išdavimai sudengiami pagal naujai sukurtos atsargų perkėlimo operacijos gavimą. Apskaičiuota svertinio vidurkio savikaina 16,00 USD. Išdavimas bus koreguojamas 1,00 USD prie svertinio vidurkio kainos prisitaikyti. Nauja slankiojo vidurkio savikaina yra 16,00 USD. 
+Sistemoje sugeneruojama ir užregistruojama apibendrinta atsargų perkėlimo operacija. Be to, sistemoje visi dienos gavimai bei ankstesnių dienų turimos atsargos sudengiamos su apibendrinta atsargų perkėlimo išdavimo operacija. Visi tos dienos leidimai yra tvarkomi pagal atsargų perkėlimo gavimo operacijos suvestinę. Apskaičiuota svertinio vidurkio savikaina 16,00 USD. Išdavimas bus koreguojamas 1,00 USD prie svertinio vidurkio kainos prisitaikyti. Nauja slankiojo vidurkio savikaina yra 16,00 USD. 
 
-Toliau pateikiamoje iliustracijoje rodoma ši operacijų seka su rezultatais, pasirinkus svertinio vidurkio atsargų modelį ir suvestinio sudengimo principą be **Įtraukti faktinę vertę** pasirinkties. 
+Toliau pateikiamoje iliustracijoje rodoma ši operacijų seka, ir svertinio vidurkio atsargų modelio naudojimo poveikis, suvestinio atsiskaitymo principas, bet be **Įtraukti faktinę vertę** parinkties. 
 
 ![Svertinio vidurkio datos suvestinis sudengimas be pasirinkties Įtraukti faktinę vertę](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
@@ -176,7 +175,7 @@ Galite pažymėti išdavimo operaciją su gavimu prieš užregistruodami operaci
 -   6a. 1 vieneto, kurio savikaina 21,25 USD, atsargų faktinis išdavimas.
 -   7. Atsargų uždarymas atliktas. Dėl to, kad finansiškai atnaujinta operacija yra pažymėta kaip jau esamas gavimas, šios operacijos sudengiamos ir joks koregavimas neatliekamas.
 
-Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų operacijų vidurkį – 27,50 USD. Toliau iliustruojama operacijų serija, kai pasirenkamas svertinio vidurkio atsargų modelis su žymėjimu.
+Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų operacijų vidurkį – 27,50 USD. Šioje iliustracijoje pateikta operacijų serija ir svertinio vidurkio atsargų modelis su žymėjimu naudojimo rezultatas.
 
 ![Svertinio vidurkio data su žymėjimu](./media/weightedaveragedatewithmarking.gif) 
 
@@ -196,6 +195,3 @@ Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų op
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

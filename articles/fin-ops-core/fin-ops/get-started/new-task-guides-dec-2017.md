@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 0829296d01e474437e8080db8b03d047e3a613fc
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: c24fed0027f1c1f6aeab823b22bc3b36b814f814
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4695018"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4799067"
 ---
 # <a name="new-or-updated-task-guides-december-2017"></a>Nauji ar atnaujinti užduočių vedliai (2017 m. gruodžio mėn.)
 
@@ -154,7 +154,7 @@ ms.locfileid: "4695018"
 - BR-00067 Tiekėjo mokėjimų elektroninio mokėjimo valdymas (2017 m. liepos mėn.)
 - BR-00061 Išskaitomi tiekėjų mokėjimų mokesčiai (2017 m. liepos mėn.)
 - BR-00024 Gauti tiekėjo finansinį dokumentą (produktai) (2017 m. liepos mėn.)
-- BR-00082 Gauti tiekėjo finansinį dokumentą (ilgalaikis turtas – ICMS ilgalaikis grąžinimas) (2017 m. liepos mėn.) 
+- BR-00082 Gauti tiekėjo finansinį dokumentą (ilgalaikis turtas – ICMS ilgalaikis grąžinimas) (2017 m. liepos mėn.)
 - BR-00014 Gauti tiekėjo finansinį dokumentą (ilgalaikis turtas – PIS ir COFINS ilgalaikis grąžinimas) (2017 m. liepos mėn.)
 - BR-00033 Išduoti tiekėjų finansinius dokumentus (2017 m. liepos mėn.)
 - BR-00002 Finansinio padalinio mokesčių atributai (2017 m. liepos mėn.)
@@ -206,7 +206,7 @@ ms.locfileid: "4695018"
 - MX-00006 Nustatyti PVM kodus (2016 m. vasario mėn.)
 - MX-00010 Nustatyti elektroninės sąskaitos faktūros parametrus (2016 m. vasario mėn.)
 - MX-00010 Užklausos pateikimas ir elektroninės SF spausdinimas (2016 m. vasario mėn.)
-- MX-00010 Atšaukti elektroninę SF (2016 m.  vasario mėn.)
+- MX-00010 Atšaukti elektroninę SF (2016 m. vasario mėn.)
 - MX-00010 Registruoti laisvos formos SF (2016 m. vasario mėn.)
 - MY-00010 GST – GAF failų generavimas reikiamu formatu (2016 m. vasario mėn.)
 - Peržiūrėti užregistruotas PVM operacijas (2016 m. vasario mėn.)
@@ -368,6 +368,3 @@ Panaikinus BPM eilutę, užduoties vadovas, kuris buvo susietas su BPM eilute, t
 **Panaikinta BPM eilutė**
 
 - Perkelti suplanuotas „kanban“ užduotis
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

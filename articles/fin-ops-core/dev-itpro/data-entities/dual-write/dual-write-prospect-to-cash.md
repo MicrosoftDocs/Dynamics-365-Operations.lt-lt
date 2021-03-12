@@ -3,7 +3,7 @@ title: Potencialių klientų pavertimas grynaisiais pinigais dvigubo rašymo fun
 description: Šioje temoje pateikiama informacija apie potencialų klientą pavertimą grynaisiais pinigais dvigubo rašymo funkcijoje.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 01/27/2020
+ms.date: 01/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 3b482a2754bb4bcaca5410da72c21897fd066a41
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3f88d7249af515670c0a3e73a5ef890f04133d19
+ms.sourcegitcommit: 6af7b37b1c8950ad706e684cc13a79e662985b34
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683652"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4959606"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potencialių klientų pavertimas grynaisiais pinigais dvigubo rašymo funkcijoje
 
@@ -37,6 +37,11 @@ Programos sąsajose galite pasiekti apdorojimo būsenas ir informaciją apie są
 
 ![Dvigubo rašymo duomenų srautas potencialių klientų pavertime grynaisiais pinigais](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
+Informacijos apie klientų ir kontaktų integravimą ieškokite [Integruotas kliento šablonas](customer-mapping.md). Daugiau informacijos apie produkto integravimą žiūrėkite [Bendroji produkto patirtis](product-mapping.md).
+
+> [!NOTE]
+> „Dynamics 365 Sales” tiek klientas, tiek potencialus klientas nurodo į lentelės **Sąskaita** įrašą, kur stulpelis **Ryšio tipas** yra **Potencialus klientas** arba **Klientas**. Jei į jūsų verslo logiką įtrauktas **Sąskaitos** kvalifikacijos procesas, kuriame sukuriamas įrašas **Sąskaita** ir pirmiausia jis kvalifikuojamas kaip potencialus klientas, o tada kaip klientas, tas įrašas sinchronizuojamas į „Finance and Operations” programą tik tada, kai tai yra klientas (`RelationshipType=Customer`). Jei norite, kad eilutė **Sąskaita** būtų sinchronizuojama kaip potencialus klientas, tada reikalinga pasirinktinė schema potencialaus kliento duomenų integravimui.
+
 ## <a name="prerequisites-and-mapping-setup"></a>Būtinosios sąlygos ir susiejimo sąranka
 
 Kad galėtumėte sinchronizuoti pardavimo pasiūlymus, turite atnaujinti šiuos parametrus.
@@ -46,11 +51,11 @@ Kad galėtumėte sinchronizuoti pardavimo pasiūlymus, turite atnaujinti šiuos 
 Pardavimuose eikite į **Parametrai \> Administravimas \> Sistemos parametrai \> Pardavimai** ir įsitikinkite, kad naudojami toliau nurodyti parametrai:
 
 - Sistemos parinktis **Naudoti sistemos prizų skaičiavimą** nustatyta į **Taip**.
-- Laukas **Nuolaidos skaičiavimo būdas** nustatytas į **Eilutės elementas**.
+- Stulpelis **Nuolaidos skaičiavimo būdas** nustatytas į **Eilutės elementas**.
 
 ### <a name="sites-and-warehouses"></a>Svetainės ir sandėliai
 
-„Supply Chain Management“ programoje laukai **Svetainė** ir **sandėlys** yra privalomi pasiūlymo eilutėms ir užsakymo eilutėms. Jei nustatysite svetainę ir sandėlį numatytuose užsakymo parametruose, tie laukai bus automatiškai nustatyti, kai pridėsite produktą į pasiūlymo eilutę ar užsakymo eilutę. 
+„Supply Chain Management“ stulpeliai **Svetainė** ir **sandėlis** yra privalomi pasiūlymo ir užsakymo eilutėms. Jei nustatysite svetainę ir sandėlį numatytuose užsakymo parametruose, tie stulpeliai bus automatiškai nustatyti, kai pridėsite produktą į pasiūlymo eilutę ar užsakymo eilutę. 
 
 ### <a name="number-sequences-for-quotations-and-orders"></a>Pasiūlymų ir užsakymų numeracijos
 
@@ -62,11 +67,11 @@ Pavyzdžiui, numeracija „Supply Chain Management“ programoje yra **1, 2, 3, 
 
 Pardavimo pasiūlymai gali būti kuriami programose „Sales“ arba „Supply Chain Management“. Jei kuriate pasiūlymą „Sales“ programoje, jis bus sinchronizuojamas su „Supply Chain Management“ realiuoju laiku. Taip pat jei kuriate pasiūlymą „Supply Chain Management“ programoje, jis bus sinchronizuojamas su „Sales“ realiuoju laiku. Atkreipkite dėmesį į toliau nurodytus punktus.
 
-+ Pasiūlyme galite pridėti nuolaidą produktui. Šiuo atveju nuolaida bus sinchronizuojama su „Supply Chain Management“. Antraštės laukus **Nuolaida**, **Išlaidos** ir **Mokesčiai** valdo Tiekimo grandinės valdymo sąranka. Šioje sąrankoje nepalaikomas integravimo susiejimas. Vietoje to, laukai **Kaina**, **Nuolaida**, **Išlaidos** ir **Mokesčiai** išlaikyti ir tvarkomi „Supply Chain Management“ programoje.
-+ Laukai **Nuolaidos %**, **Nuolaida** ir **Transportavimo suma**, esantys pardavimo pasiūlymo antraštėje yra skirti tik skaitymui.
-+ Laukai **Transportavimo sąlygos**, **Pristatymo sąlygos** **Siuntimo būdas** ir **Pristatymo būdas** neįtraukti į numatytuosius susiejimus. Norėdami susieti šiuos laukus, turite nustatyti reikšmių susiejimą, kuris atitinka organizacijų, tarp kurių objektas sinchronizuojamas, duomenis.
++ Pasiūlyme galite pridėti nuolaidą produktui. Šiuo atveju nuolaida bus sinchronizuojama su „Supply Chain Management“. Antraštės stulpelius **Nuolaida**, **Išlaidos** ir **Mokesčiai** valdo „Supply Chain Management” sąranka. Šioje sąrankoje nepalaikomas integravimo susiejimas. Vietoj to, stulpeliai **Kaina**, **Nuolaida**, **Išlaidos** ir **Mokesčiai** yra pralaikomi ir tvarkomi „Supply Chain Management“.
++ Stulpeliai **Nuolaidos %**, **Nuolaida** ir **Transportavimo suma**, esantys pardavimo pasiūlymo antraštėje yra tik skaitymui skirti stulpeliai.
++ Stulpeliai **Transportavimo sąlygos**, **Pristatymo sąlygos**, **Siuntimo būdas** ir **Pristatymo būdas** nėra įtraukti į numatytuosius susiejimus. Norėdami susieti šiuos stulpelius, turite nustatyti reikšmių schemą, atitinkančią organizacijų, tarp kurių lentelė sinchronizuojama, duomenis.
 
-Jei taip pat naudojate sprendimą „Field Service”, nepamirškite iš naujo įjungti parametro **Kainos linijos greitasis kūrimas**. Iš naujo įgalinus parametrą galima toliau kurti pasiūlymo eilutes naudojant greitojo kūrimo funkciją.
+Jei taip pat naudojate sprendimą „Field Service”, nepamirškite iš naujo įjungti parametro **Kainos linijos greitasis kūrimas**. Iš naujo įgalinus parametrą galite toliau kurti pasiūlymo eilutes naudojant greitojo kūrimo funkciją.
 1. Pereikite į „Dynamics 365 Sales” programą.
 2. Viršutinėje naršymo juostoje pasirinkite parametrų piktogramą.
 3. Pasirinkite **Išplėstiniai parametrai**.
@@ -82,7 +87,7 @@ Pardavimo užsakymai gali būti kuriami programose „Sales“ arba „Supply Ch
 + Nuolaidų skaičiavimas ir apvalinimas:
 
     - „Sales“ nuolaidos skaičiavimo modelis skiriasi nuo Tiekimo grandinės valdymo nuolaidos skaičiavimo modelio. Tiekimo grandinės valdyme galutinė nuolaidos suma pardavimo eilutėje gali būti nuolaidos sumų ir nuolaidos procentų kombinacijos suma. Jei ši galutinė nuolaidos suma eilutėje padalinama pagal kiekį, gali būti taikomas apvalinimas. Tačiau apvalinimo taikymas nėra svarstomas, jei suapvalinta vieneto nuolaidos suma sinchronizuojama su „Sales“. Norint padėti užtikrinti, kad visa nuolaidos suma iš pardavimo eilutės „Supply Chain Management“ programoje yra tinkamai sinchronizuota su „Sales“, visa suma turi būti sichronizuota neskirstant jos pagal eilutės kiekį. Todėl turite apibrėžti nuolaidos apskaičiavimo būdą kaip **EIlutės elementas** „Sales“ programoje.
-    - „Sales“ pardavimo užsakymo eilutę sinchronizuojant su „Supply Chain Management“, naudojama visos eilutės nuolaidos suma. Tiekimo grandinės valdyme nėra lauko, kuriame būtų galima saugoti visą nuolaidos eilutės sumą, todėl suma yra suskirstoma pagal kiekį ir saugoma lauke **Eilutės nuolaida**. Skirstymo metu bet koks įvykstantis apvalinimas išsaugomas pardavimo eilutės lauke **Pardavimo mokesčiai**.
+    - „Sales“ pardavimo užsakymo eilutę sinchronizuojant su „Supply Chain Management“, naudojama visos eilutės nuolaidos suma. „Supply Chain Management” nėra stulpelio, kuriame būtų galima saugoti visą nuolaidos eilutės sumą, todėl suma yra suskirstoma pagal kiekį ir saugoma **Eilutės nuolaida** stulpelyje. Skirstymo metu bet koks įvykstantis apvalinimas išsaugomas **Pardavimo mokesčiai** pardavimo eilutės stulpelyje.
 
 ### <a name="example-synchronization-from-sales-to-supply-chain-management"></a>Pavyzdys: Sinchronizavimas iš „Sales“ į „Supply Chain Management“
 
@@ -98,7 +103,7 @@ Jeigu sinchronizuojate „Supply Chain Management“ su „Sales“, gausite tok
 
 ## <a name="dual-write-solution-for-sales"></a>Dvigubo rašymo sprendimas, skirtas „Sales“
 
-Į objektą **Užsakymas** buvo įtraukti nauji laukai, rodomi puslapyje. Dauguma šių laukų rodomi „Sales“ skirtuke **Integravimas**. Daugiau informacijos apie tai, kaip susieti būsenos laukai, žr. [Pardavimo užsakymo būsenos laukų susiejimo nustatymas](sales-status-map.md).
+Į lentelę **Užsakymas** buvo įtraukti nauji stulpeliai, rodomi puslapyje. „Sales“ skirtuke **Integravimas** rodoma dauguma šių stulpelių. Daugiau informacijos apie tai, kaip susieti būsenos stulpeliai, žiūrėkite [Pardavimo užsakymo būsenos stulpelių susiejimo nustatymas](sales-status-map.md).
 
 + Mygtukai **Kurti sąskaitą faktūrą** ir **Atšaukti užsakymą** puslapyje **Pardavimų užsakymai** yra paslėpti „Sales“.
 + Reikšmė **Pardavimų užsakymo būsena** išliks **Aktyvi**, kad padėtų užtikrinti, jog „Supply Chain Management“ keitimai galėtų būti perkelti į „Sales“ pardavimų užsakymą. Norėdami valdyti šią veikimo būdą, numatytąją **Būsenos kodas \[Būsena\]** reikšmę nustatykite į **Aktyvi**.
@@ -107,18 +112,18 @@ Jeigu sinchronizuojate „Supply Chain Management“ su „Sales“, gausite tok
 
 Pardavimo sąskaitos faktūros kuriamos „Supply Chain Management“ programoje ir sinchronizuojamos su „Sales“. Atkreipkite dėmesį į toliau nurodytus punktus.
 
-+ Į objektą **Sąskaita faktūra** įtrauktas ir puslapyje rodomas laukas **Sąskaitos faktūros numeris**.
++ Į lentelę **Sąskaita faktūra** įtrauktas ir puslapyje rodomas **Sąskaitos faktūros numeris** stulpelis.
 + Puslapyje **Pardavimo užsakymas** esantis mygtukas **Kurti sąskaitą faktūrą** yra paslėptas, nes sąskaitos faktūros bus kuriamos „Supply Chain Management“ programoje ir sinchronizuojamos su „Sales“. Puslapio **Sąskaita faktūra** redaguoti negalima, nes sąskaitos faktūros bus sinchronizuojamos iš „Supply Chain Management“.
 + **Pardavimų užsakymo būsenos** reikšmė automatiškai keičiama į **Išrašyta sąskaita faktūra**, kai susijusi „Supply Chain Management“ sąskaita faktūra sinchronizuojama į „Sales“. Be to, pardavimo užsakymo, iš kurio buvo sukurta sąskaita faktūra, savininkas priskiriamas sąskaitos faktūros savininku. Todėl pardavimo užsakymo savininkas gali peržiūrėti sąskaitą faktūrą.
-+ Laukai **Transportavimo sąlygos**, **Pristatymo sąlygos** ir **Pristatymo būdas** neįtraukti į numatytuosius susiejimus. Norėdami susieti šiuos laukus, turite nustatyti reikšmių susiejimą, kuris atitinka organizacijų, tarp kurių objektas sinchronizuojamas, duomenis.
++ Stulpeliai **Transportavimo sąlygos**, **Pristatymo sąlygos** ir **Pristatymo būdas** neįtraukti į numatytuosius susiejimus. Norėdami susieti šiuos stulpelius, turite nustatyti reikšmių schemą, atitinkančią organizacijų, tarp kurių lentelė sinchronizuojama, duomenis.
 
 ## <a name="templates"></a>Šablonai
 
 Potencialių klientų pavertimą grynaisiais pinigais sudaro pagrindinių lentelių schemų, veikiančių kartu interaktyviai naudojant duomenis, rinkinys, kaip parodyta tolesnėje lentelėje.
 
-| „Finance and Operations” programėlės | Modeliu grįstos programos „Dynamics 365“ | Aprašymas |
+| „Finance and Operations” programėlės | „Customer engagement“ programos | Aprašymas |
 |-----------------------------|-----------------------------------|-------------|
-| Pardavimo SF antraštės V2    | SF                          |             |
+| Pardavimo SF antraštės V2    | SF                          | „Finance and Operations” programos pardavimo sąskaitos faktūros antraštės V2 lentelėje yra pardavimo užsakymo ir laisvos formos sąskaitų faktūrų. „Dataverse” taikomas dvigubo rašymo filtras, kuris išfiltruos visus laisvos formos sąskaitos faktūros dokumentus. |
 | Pardavimo sąskaitos faktūros eilutės V2      | invoicedetails                    |             |
 | CDS pardavimo užsakymų antraštės     | salesorders                       |             |
 | CDS pardavimo užsakymo eilutės       | salesorderdetails                 |             |
@@ -135,6 +140,11 @@ Potencialių klientų pavertimą grynaisiais pinigais sudaro pagrindinių lentel
 + [Visi produktai su msdyn_globalproducts](product-mapping.md#all-products-to-msdyn_globalproducts)
 + [Kainoraštis](product-mapping.md)
 
+## <a name="limitations"></a>Apribojimai
+- Grąžinimo užsakymai nėra palaikomi.
+- Kredito pažymos nėra palaikomos.
+- Bendriesiems duomenims, pavyzdžiui, klientui ir tiekėjui, turi būti nustatytos finansinės dimensijos. Kai klientas įtraukiamas į pasiūlymą arba pardavimo užsakymą, su kliento įrašu susijusios finansinės dimensijos į užsakymą įtraukiamos automatiškai. Šiuo metu dvigubas rašymas neapima finansinių dimensijų duomenų, skirtų bendriesiems duomenims. 
+
 [!include [symbols](../../includes/dual-write-symbols.md)]
 
 [!include [sales invoice](includes/SalesInvoiceHeaderV2Entity-invoice.md)]
@@ -150,6 +160,3 @@ Potencialių klientų pavertimą grynaisiais pinigais sudaro pagrindinių lentel
 [!include [sales quotation header](includes/SalesQuotationHeaderCDSEntity-quote.md)]
 
 [!include [sales quotation line](includes/SalesQuotationLineCDSEntity-QuoteDetails.md)]
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

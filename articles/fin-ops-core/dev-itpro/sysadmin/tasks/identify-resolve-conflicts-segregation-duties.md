@@ -3,7 +3,7 @@ title: Pareigų atskyrimo nesuderinamumų nustatymas ir pašalinimas
 description: Šioje temoje paaiškinama, kaip nustatyti ir pašalinti pareigų atskyrimo nesuderinamumus.
 author: peakerbl
 manager: AnnBe
-ms.date: 07/08/2019
+ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,34 +15,47 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b7e25a568b86ce3161e2c52045ff2361c0bc4a0e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: deff97c7728db91089d3ea834d15de738da500fa
+ms.sourcegitcommit: 316200579dd5b04ad76f276a2ed6b0f55fa8c812
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681599"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "4826373"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>Pareigų atskyrimo nesuderinamumų nustatymas ir pašalinimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nustatyti ir pašalinti pareigų atskyrimo nesuderinamumus. Galite nustatyti taisykles, kad atskirtumėte užduotis, kurias turi atlikti skirtingi vartotojai. Ši koncepcija vadinama pareigų atskyrimu. Kai saugos vaidmens apibrėžimas arba vartotojo vaidmens priskyrimai pažeidžia taisykles, registruojamas neatitikimas. Visus neatitikimus turi išspręsti administratorius. Norėdami identifikuoti ir išspręsti neatitikimus, atlikite šią procedūrą. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
+Šioje temoje paaiškinama, kaip nustatyti ir pašalinti pareigų atskyrimo nesuderinamumus. Galite nustatyti taisykles, kad atskirtumėte pareigas, kurias turi atlikti skirtingi vartotojai. Ši koncepcija vadinama pareigų atskyrimu. Kai saugos vaidmens apibrėžimas arba vartotojo vaidmens priskyrimai pažeidžia taisykles, registruojamas neatitikimas. Visus neatitikimus turi išspręsti administratorius. Norėdami identifikuoti ir išspręsti neatitikimus, atlikite šią procedūrą.
 
+Pridėję taisyklę patikrinkite, ar visi esami vaidmenys yra suderinami. 
 
-## <a name="verify-whether-user-role-assignments-comply-with-new-rules-for-segregation-of-duties"></a>Patikrinti, ar vartotojo vaidmens priskyrimai atitinka naujas pareigų atskyrimo taisykles
-1. Eikite į **Naršymo sritis > Moduliai > Sistemos administravimas > Sauga > Pareigų atskyrimas > Tikrinti vartotojo vaidmenų priskyrimo atitikimą**.
-2. Pasirinkite **Gerai**. Pranešime rodomi tikrinimo rezultatai. Jei yra neatitikimas, galite atidaryti puslapį **Vartotojai** ir pakeisti vartotojo vaidmens priskyrimus. Neatitikimai taip pat registruojami puslapyje **Pareigų atskyrimo nesuderinamumai**. Norėdami tikrinimo procesą paleisti kaip paketinę užduotį, pasirinkite **Paketinis vykdymas** ir nustatykite kitus paketo parametrus. Paleidę paketinę užduotį, puslapyje **Pareigų atskyrimo nesuderinamumai** galėsite peržiūrėti neatitikimus.  
+## <a name="verify-that-existing-roles-and-duties-comply-with-new-rules-for-segregation-of-duties"></a>Patikrinkite, ar esami vaidmenys ir pareigos atitinka naujas pareigų atskyrimo taisykles
+1. Eikite į **Sistemos administravimas** > **Sauga** > **Pareigų atskyrimas** > **Pareigų atskyrimo taisyklės**.
+3. Pasirinkite **Tikrinti pareigas ir vaidmenis**. Jei esami vaidmenys pažeidžia taisykles, parodomas pranešimas, kuriame pateikiamas taisyklės pavadinimas, vaidmuo ir nesuderinamų pareigų pavadinimai. Nesuderinamus vaidmenis būtina redaguoti naudojant **Saugos konfigūravimas** ir jie negali turėti nesuderinamų pareigų. Jei nėra vaidmenų, kurie pažeistų pasirinktą taisyklę, pranešime rodoma, kad visi vaidmenys suderinami.   
+
+> [!NOTE]
+> Patvirtinimas atliekamas tik pasirinktai taisyklei. Svarbu patikrinti kiekvienos taisyklės atitikimą.   
+
+Kuriant arba modifikuojant vaidmenį, automatiškai taikomos pareigų atskyrimo taisyklės. Vaidmeniui negalima priskirti nesuderinamų pareigų.
+
+Tada patikrinkite, ar visi esami vaidmenų priskyrimai yra suderinami.
+
+## <a name="verify-that-user-role-assignments-comply-with-new-rules-for-segregation-of-duties"></a>Patikrinimas, ar vartotojo vaidmens priskyrimai atitinka naujas pareigų atskyrimo taisykles
+1. Eikite į **Sistemos administravimas > Sauga > Pareigų atskyrimas > Tikrinti vartotojo vaidmenų priskyrimo atitikimą**.
+2. Pasirinkite **Gerai**. Pranešime rodomi tikrinimo rezultatai. Neatitikimai registruojami **Pareigų atskyrimo neišspręsti nesuderinamumai** puslapyje.   
+
+Priskiriant vartotojus vaidmenims, automatiškai taikomos pareigų atskyrimo taisyklės. Jei bandysite priskirti vartotoją vaidmenims, kuriuose yra nesuderinamų pareigų, gausite klaidos pranešimą. Tada turite išspręsti nesuderinamumą leisdami arba neleisdami papildomą vaidmens priskyrimą. Leidus priskyrimą bus priskirtas papildomas vaidmuo. 
+
+> [!NOTE]
+> Šiuo metu nėra tikrinami vartotojų, kuriems priskirti vaidmenys pagal „Active Directory” domenų grupes, nesuderinamumai.
 
 ## <a name="view-and-resolve-conflicting-user-role-assignments"></a>Peržiūrėti ir išspręsti nesuderinamus vartotojo vaidmenų priskyrimus
-1. Eikite į **Naršymo sritis > Moduliai > Sistemos administravimas > Sauga > Pareigų atskyrimas > Pareigų atskyrimo nesuderinamumai.** Pasirinkite konfliktą, tada pasirinkite vieną iš šių mygtukų: **Atmesti priskyrimą – atmesti naudotojo priskyrimą papildomam saugos vaidmeniui**. Jei atmesite automatinį vaidmens priskyrimą, vartotojas pažymimas kaip pašalintas iš vaidmens. Pašalintam vartotojui nesuteikiama su vaidmeniu susieta prieiga ir šio vartotojo negalima priskirti vaidmeniui tol, kol administratorius nepanaikins pašalinimo. Leisti priskirti – **nepaisyti** neatitikimo ir leisti vartotoją priskirti abiems saugos vaidmenims. Jei nepaisote neatitikimo, lauke **Nepaisymo priežastis** turite įvesti priežastį.  
-2. Uždarykite puslapį.
-3. Eikite į **Naršymo sritis > Moduliai > Sistemos administravimas > Sauga > Pareigų atskyrimas > Neišspręsti pareigų atskyrimo nesuderinamumai.** Pasirinkite konfliktą, tada pasirinkite vieną iš šių mygtukų: **Atmesti priskyrimą – atmesti naudotojo priskyrimą papildomam saugos vaidmeniui**. Jei atmesite automatinį vaidmens priskyrimą, vartotojas pažymimas kaip pašalintas iš vaidmens. Pašalintam vartotojui nesuteikiama su vaidmeniu susieta prieiga ir šio vartotojo negalima priskirti vaidmeniui tol, kol administratorius nepanaikins pašalinimo. Leisti priskirti – **nepaisyti** neatitikimo ir leisti vartotoją priskirti abiems saugos vaidmenims. Jei nepaisote neatitikimo, lauke **Nepaisymo priežastis** turite įvesti priežastį.    
-4. Uždarykite puslapį.
+1. Eikite į **Sistemos administravimas** > **Sauga** > **Pareigų atskyrimas** > **Neišspręsti pareigų atskyrimo nesuderinamumai**. 
+2. Pasirinkite nesuderinamumą ir tada pasirinkite vieną iš tolesnių veiksmų: 
 
-## <a name="verify-whether-existing-roles-comply-with-new-rules-for-segregation-of-duties"></a>Patikrinti, ar esami vaidmenys atitinka naujas pareigų atskyrimo taisykles
-1. Eikite į **Naršymo sritis > Moduliai > Sistemos administravimas > Sauga > Pareigų atskyrimas > Pareigų atskyrimo taisyklės**. Pasirinkite taisyklę.  
-2. Pasirinkite **Tikrinti pareigas ir vaidmenis**. Jei esami vaidmenys pažeidžia pasirinktą taisyklę, rodomas pranešimas, kuriame pateikiamas vaidmens pavadinimas ir nesuderinamų pareigų pavadinimai. Administratorius turi nurodyti saugos rizikos mažinimą arba modifikuoti vaidmenį, kad jis nepažeistų pareigų atskyrimo taisyklių. Jei nėra vaidmenų, kurie pažeistų pasirinktą taisyklę, pranešime rodoma, kad visi vaidmenys atitinka.  
+  - **Atmesti priskyrimą**: Tai atmes papildomą saugos vaidmens priskyrimą vartotojui. Jei atmesite automatinį vaidmens priskyrimą, vartotojas pažymimas kaip pašalintas iš vaidmens. Pašalintam vartotojui nesuteikiama su vaidmeniu susieta prieiga ir jo negalima priskirti vaidmeniui tol, kol administratorius nepanaikins pašalinimo. 
+-  **Leisti priskyrimą**: Tai nepaisys neatitikimo ir leis vartotoją priskirti papildomam saugos vaidmeniui. Jei nepaisote neatitikimo, lauke **Nepaisymo priežastis** turite įvesti priežastį. Visus nepaisomus vaidmenų priskyrimus galima peržiūrėti **Pareigų atskyrimo nesuderinamumai** puslapyje.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+> [!NOTE]
+> Jei keli nesuderinamumai išvardyti tam pačiam vartotojui, pasirinkite vartotojo įrašą ir įvertinkite priskirtus vaidmenis **Vartotojai** puslapyje. Norėdami išvengti šio nesuderinamumo, patvirtinkite kiekvieną taisyklę ją pridėjus arba modifikavus.

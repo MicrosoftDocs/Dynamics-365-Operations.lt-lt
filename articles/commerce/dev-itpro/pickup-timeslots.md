@@ -3,7 +3,7 @@ title: Kurti ir naujinti laiko vietas kliento atsiėmimui
 description: Šioje temoje aprašoma, kaip kurti, konfigūruoti ir naujinti kliento paėimimo laikų vietas „Commerce“ štabe.
 author: anupamar-ms
 manager: AnnBe
-ms.date: 11/06/2020
+ms.date: 01/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: f86eb47ec64dff230223ed0ecbe792373aca649f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 125696e8f32c2452a572a2316f512779f399f5c4
+ms.sourcegitcommit: 8b4cb7b6ad4aab37566bcc91e426bd56db771416
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681547"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "4828216"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Kurti ir naujinti laiko vietas kliento atsiėmimui
 
@@ -49,17 +49,15 @@ Laiko vieta yra nustatyta naudojant tolesnes ypatybes:
 
     **Mažiausia dienų** ypatybė užtikrina, kad yra pakankamai laiko mažmeniniam prekeiviui siekiant apdoroti užsakymą prieš tai, kai jis yra parengtas atsiėmimui. Ypatybė **Daugiausia dienų** užtikrina, kad vartotojas negalėtų pasirinkti datos, kuri yra toli ateityje. Pavyzdžiui, jei minimali vertė yra nustatyta į **1**, o užsakymas yra padarytas rugsėjo 20 dieną, anksčiausią dieną, kai užsakymas bus prieinamas atsiėmimui kitą galiojančią dieną (rugsėjo 21 d.). Panašiu būdu, maksimalios vertės nustatymui, galite nustatyti maksimalų dienų skaičių, per kurį galima atsiimti užsakymą. Kai minimalios ir maksimalios vertės yra nustatytos, svetainės vartotojai gali matyti ar pasirinkti tik konkretų dienų rinkinį jų išsiregistravimo patirtyje.
 
-    Galite nustatyti minimalią vertę iki dešimtainės, kuri yra mažesnė nei 1. Pavyzdžiui, jei atsiėmimas yra prieinamas keturias valandas po to, kai užsakymas yra padarytas, nustatykite minimalią vertę į **0,17** (= 4 ÷ 24, suapvalinta iki dviejų dešimtainių vietų). Nepaisant to, jei nustatote minimalią vertę iki dešimtainės vertės, kuri yra daugiau nei 1, ji visuomet suapvalinta iki artimiausio sveiko skaičiaus (didesnio ar mažesnio).
-
-    Jei nustatote maksimalią vertę iki dešimtainės vertės, ji visada apvalinama. Pavyzdžiui, vertė **1,2** bus suapvalinta iki **2**.
+    Galite nustatyti minimalią vertę iki dešimtainės, kuri yra mažesnė nei 1. Pavyzdžiui, jei atsiėmimas yra prieinamas keturias valandas po to, kai užsakymas yra padarytas, nustatykite minimalią vertę į **0,17** (= 4 ÷ 24, suapvalinta iki dviejų dešimtainių vietų). Nepaisant to, jei nustatote minimalią vertę iki dešimtainės vertės, kuri didesnė nei 1, ji visuomet apvalinama iki artimiausio sveiko skaičiaus. Pavyzdžiui, vertė **1,2** bus suapvalinta iki **2**. Panašiai, jei nustatote maksimalią vertę iki dešimtainės vertės, ji yra visuomet apvalinama iki artimiausio sveiko skaičiaus. 
 
 - **Pradžios data** ir **Pabaigos data** – Nurodykite pradžios ir pabaigos datas laiko vietai. Kas kartą kai laiko vietos įrašas turi pradžios ir pabaigos datą. Dėl to, galite būti lankstūrs ir įtraukti kitą laiko vietą per metus (pavyzdžiui, paėmimui per atostogų valandas). Jei laiko vietos pradžios ir datos yra keičiamos padarius užsakymą, pakeitimai nebus taikomi tam užsakymui. Jums nustatčius pradžios ir pabaigos datas, turite apgalvoti parduotuvės užsidarymo datas (pavyzdžiui, Kalėdų dieną) ir įsitikinti, kad laiko vietos nėra nustatytos tomis dienomis.
-- **Veikiančios pristatymo valandos** – Nurodykite laikotarpį, kai leidžiamas paėmimas. Pavyzdžiui, paėmimo laikai gali būti nuo 14:00 iki 17:00 kas dieną. Ši ypatybė leidžia atsiėmimo laikus, kurie priklauso nuo parduotuvės valandų. Dėl to, pardavėjas gali konfigūruoti atsiėmimo laikus, kurie atitinka jo konkrečius įmonės reikalavimus. Jums nustačius veikiančias atsiėmimo valandas, privaltoe apgalvoti parduotuvės valandas ir užtikrinti, kad atsiėmimo laikai nėra nustatyti laiku, kai parduotuvė užverta.
+- **Aktyvios valandos atsiėmimui** – Nurodykite laikotarpį, kai atsiėmimas yra leidžiamas. Pavyzdžiui, paėmimo laikai gali būti nuo 14:00 iki 17:00 kas dieną. Ši ypatybė leidžia atsiėmimo laikus, kurie priklauso nuo parduotuvės valandų. Dėl to, pardavėjas gali konfigūruoti atsiėmimo laikus, kurie atitinka jo konkrečius įmonės reikalavimus. Jums nustačius veikiančias atsiėmimo valandas, privaltoe apgalvoti parduotuvės valandas ir užtikrinti, kad atsiėmimo laikai nėra nustatyti laiku, kai parduotuvė užverta.
 
     > [!NOTE]
     > Atsiėmimo parduotuvėje valandos turi būti nustatytos parduotuvę atitinkančioje laiko zonoje.
 
-- **Laiko vietos intervalas** – Nurodykite laiką, kuris gali būti priskirtas kiekvienai laiko vietai. Pavyzdžiui, kiekvienos laiko vietos trukmė gali būti didėjanti 15, 30 minučių ar viena valanda.
+- **Laiko vietos intervalas** – Nurodykite laiką, kuris gali būti priskirtas kiekvienai laiko vietai. Pavyzdžiui, kiekvienos laiko vietos trukmė gali būti didėjanti 15, 30 minučių ar viena valanda. Jei laiko vietos vertė yra 0, laiko vieta yra prieinama per visą laiką nuo pradžios iki pabaigos laiko.
 - **Vietos vienam intervalui** – Nurodykite klientų ar užsakymų skaičių, kuris gali būti aptarnautas atsiėmimo metu per kiekvieną laiko intervalą. Pavyzdžiui, įveskite **1**, **2**, **3** ar bet kokį kitą sveiką skaičių.
 - **Aktyvios dienos** – Nurodykite savaitės dienas, kai atsiėmimo laiko vieta yra veikianti. Ši ypatybė leidžia prekeiviui nustatyti dienas, kai jis nori palaikyti atsiėmimo užsakymus.
 - **Mažmeniniai kanalai** – Nurodyktie mažmeninius kanalus. Visos laiko vietos gali būti susietos su viena ar keliomis mažmenos parduotuvėmis. Priklausomai nuo kiekvienos parduotuvės darbo valandų, vienas ar daugiau laiko vietų gali būti sukurti ir susieti su kanalu. 
@@ -84,7 +82,7 @@ Norėdami konfigūruoti laiko vietos funkciją „Commerce“ štabe, atlikite �
 1. „FastTab“**Užsakymo atsiėmimas - Laiko nustatymai** rinkitės **Įtraukti**.
 1. Teksto laukelyje **Užsakymo atsiėmimas - Laiko nustatymai** nustatykite datos intervalą, pristatymo būdą, veikiančias pristatymo valandas, veikiančias dienas, laiko vietos intervalą, vietas vienam intervalui ir kitus nustatymus.
 
-    Jei laiko vietos bus statinės numatytai ateičiai, palikite **Pabaigos data** laukelį tuščią.
+    Jei laiko vietos bus statiškos numatytai ateičiai, nustatykite **Pabaigos datos** laukelį į **Niekada**.
 
     > [!NOTE]
     > Galite sukurti keletą šablonų, tačiau tik vienas gali būti susietas su vienu kanalu ar parduotuve.
@@ -118,11 +116,14 @@ Dėl informacijos, kaip padaryti laiko vietos pasirinkimą prieinamą e-komercij
 
 Tolesnis paveikslėlis rodo laiko vietos pavyzdžio pasirinkimą e-komercijos užsakymui, kai atsiėmimo laiko vieta buvo pasirinkta.
 
-![E-komercijos užsakymo pavyzdys atsiėmimo laiko vietai buvo pasirinktas](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![El. komercijos užsakymo pavyzdys, kai atsiėmimo laiko vieta buvo pasirinkta](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+
+## <a name="time-slot-selection-for-call-center-orders"></a>Laiko vietos pasirinkimas skambučių centro užsakymams
+
+Jei skambučių centro programa, skambučių centro agentai gali pasirinkti atsiėmimo parduotuvę ar vietą, taip pat kaip datos ir vietos laiką kaip parodyta tolesniame paveikslėlyje.
+
+![Skambučių centro užsakymo pavyzdys, kai atsiėmimo laiko veita buvo pasirinkta](../dev-itpro/media/Curbside_timeslot_callcenter.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Paėmimo informacijos modulis](../pickup-info-module.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

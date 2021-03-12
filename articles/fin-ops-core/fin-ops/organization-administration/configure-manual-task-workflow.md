@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 109c047a35154f6d4c0ebcd71e1c72990d0f4971
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: f61e0f7ee16519767192fb379f20c1ed20b69caa
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693383"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798810"
 ---
 # <a name="configure-manual-tasks-in-a-workflow"></a>Neautomatizuotų darbo eigos užduočių konfigūravimas
 
@@ -381,6 +381,3 @@ Vartotojas turi atlikti veiksmą su užduotimi, kai neautomatizuota užduotis yr
 5. Jei norite, kad vartotojas galėtų perduoti užduotį kitam vartotojui, pažymėkite žymės langelį **Perduoti**.
 6. Jei norite, kad vartotojas galėtų perskirti užduotį kitam darbo elementų eilės vartotojui, pažymėkite žymės langelį **Perskirti**.
 7. Jei norite, kad vartotojas galėtų išleisti užduotį darbo elementų eilei, pažymėkite žymės langelį **Išleisti**. Tada kitas vartotojas galės baigti užduotį.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

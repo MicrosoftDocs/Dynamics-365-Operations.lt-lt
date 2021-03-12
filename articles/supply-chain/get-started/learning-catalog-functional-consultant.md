@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 601977cc5b8aa992b8576d30eb1412fb4e119154
-ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
+ms.openlocfilehash: 3bd028e7d61fd57ed434a8a598bf24329a54ac1c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4666799"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963640"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-functional-consultants"></a>Mokymosi katalogas „Dynamics 365 Supply Chain Management“ funkcijų konsultantams
 
@@ -114,6 +113,3 @@ Kalbant apie funkcijų konsultantus, mūsų užduočių analizės tyrimai parod�
 | [Egzaminas MB-300: „Microsoft Dynamics 365 Unified Operations“ pagrindinės užduotys](https://docs.microsoft.com/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Šis egzaminas leidžia įvertinti jūsų sugebėjimą atlikti šias technines užduotis: naudoti įprastas funkcijas ir diegimo įrankius, konfigūruoti saugumo parametrus, procesus ir pasirinktis, atlikti duomenų perkėlimą bei įvertinti ir palaikyti sprendimą. | Egzamino kaina priklauso nuo regiono |
 | [Egzaminas MB-330: Microsoft Dynamics 365 for Finance and Operations, „Supply Chain Management“](https://docs.microsoft.com/learn/certifications/exams/mb-330?wt.mc_id=learningredirect_certs-web-wwl) | Šis egzaminas leidžia įvertinti jūsų sugebėjimą atlikti šias technines užduotis: įdiegti produktų informacijos valdymą, įdiegti atsargų valdymą, įdiegti ir valdyti tiekimo grandinės procesus, įdiegti sandėlio valdymo ir transportavimo valdymo funkcijas bei vykdyti verslo procesus. | Egzamino kaina priklauso nuo regiono |
 | [Egzaminas MB-320: „Microsoft Dynamics 365 for Finance and Operations“, gamyba](https://www.microsoft.com/learning/exam-MB-320.aspx) | Šis egzaminas leidžia įvertinti jūsų sugebėjimą atlikti šias technines užduotis: nustatyti ir konfigūruoti gamybą, kurti ir valdyti gamybą ir „lean“ užsakymus, kurti, apdoroti ir valdyti paketinės gamybos užsakymus. | Egzamino kaina priklauso nuo regiono |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: Naujų vartotojų kūrimas
 description: Vartotojai yra vidiniai jūsų organizacijos darbuotojai arba išoriniai klientai bei tiekėjai, kuriems reikalinga prieiga prie sistemos, kad galėtų atlikti savo užduotis.
 author: peakerbl
 manager: AnnBe
-ms.date: 06/08/2020
+ms.date: 01/12/2021
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,46 +15,69 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6f861b7493d039b332358be7df7d0198cbadcb7a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: ca062ddd49f1c206c503fb6160ed436fe2d6f7e9
+ms.sourcegitcommit: 9e27a097b7eb3c8f2df66011ccc597ad18bc5445
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679845"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "4878662"
 ---
 # <a name="create-new-users"></a>Naujų vartotojų kūrimas
 
 [!include [banner](../../includes/banner.md)]
 
-Vartotojai yra vidiniai jūsų organizacijos darbuotojai arba išoriniai klientai bei tiekėjai, kuriems reikalinga prieiga prie sistemos, kad galėtų atlikti savo užduotis.
+Kad galėtumėte pasiekti „Finance and Operations” programas, pirmiausia turite būti pridėti prie **Vartotojai** puslapio (**Sistemos administravimas \> Vartotojai \> Vartotojai**). Vartotojai apima vidinius jūsų organizacijos vidinius darbuotojus arba išorinius klientus ir tiekėjus. Vartotojus galima importuoti arba pridėti neautomatiniu būdu. Visi vartotojai turi turėti tinkamą licenciją atitinkamam naudojimui.
 
-## <a name="associate-a-user-with-a-license-new-license-types-only"></a>Susiekite vartotoją su licencija (tik naujų licencijų tipais)
-Klientams, kurių licencija yra viena iš naujų licencijų tipų, įtrauktų 2019 m. spalio mėn., vartotojai turi būti susieti su licencija. Vartotojai, kurie susieti su licencija, automatiškai pridedami kaip sistemos vartotojai, kurie neturi vaidmenų pirmą kartą prisiregistravus.
+Informaciją apie tai, kaip įsigyti ir licencijuoti „Finance and Operations programoms, rasite [„Microsoft Dynamics 365” licencijavimo vadove](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
+## <a name="assign-a-license-to-a-user"></a>Licencijos priskyrimas vartotojui
 Sistemos administratoriai gali [priskirti licencijas vartotojams](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) [„Microsoft 365” administravimo centre](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide).
 
-## <a name="associate-an-external-user-with-a-license-new-license-types-only"></a>Išorinio vartotojo susiejimas su licencija (tik su naujais licencijų tipais)
-Vartotojai, nepriklausantys nuomotojui, kuriame buvo įdiegta aplinka, turi būti pateikiami pagrindinio nuomotojo kataloge („Azure Active Directory“ („Azure AD“)), kad jiems būtų galima priskirti licencijas. Minėtus išorinius vartotojus reikia įtraukti į „Azure AD“ esantį nuomotoją kaip vartotojus svečius ir priskirti jiems atitinkamas licencijas. Norėdami gauti daugiau informacijos, žr. [„Azure Active Directory“ B2B bendradarbiavimo vartotojų įtraukimas „Azure“ portale](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
+## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Išorinio vartotojo pridėjimas „Azure AD” ir licencijos priskyrimas 
+Išoriniai vartotojai turi būti atstovaujami jūsų nuomotojo kataloge („Azure Active Directory” („Azure AD”)) tam, kad jiems galėtų būti priskirtos licencijos. Minėtus išorinius vartotojus reikia įtraukti į „Azure AD“ esantį nuomotoją kaip vartotojus svečius ir priskirti jiems atitinkamas licencijas. Reikalavimas „Finance and Operations” programoms yra toks, kad vartotojo svečio įmonė turi naudoti „Azure AD”. Norėdami gauti daugiau informacijos, žr. [„Azure Active Directory“ B2B bendradarbiavimo vartotojų įtraukimas „Azure“ portale](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
 
-## <a name="add-a-new-user"></a>Naujo vartotojo įtraukimas
-1. Eikite į **Sistemos administravimas \> Vartotojai \> Vartotojai**.
-2. Veiksmų srityje pasirinkite **Naujas**.
-3. Lauke **Vartotojo ID** įveskite vartotojo unikalųjį identifikatorių (ID). Reikės vartotojo ID.  
-4. Lauke **Vartotojo vardas** įveskite vartotojo vardą.  
-5. Lauke **Domenas** įveskite vartotojo domeną.  
-6. Lauke **Pseudonimas** įveskite vartotojo pseudonimą.  
-7. Lauke **Įmonė** pasirinkite norimą įmonę. 
-8. „FastTab” **Vartotojo vaidmenys** pasirinkite **Priskirti vaidmenis**, kad priskirtumėte vartotojams saugos vaidmenis. Norėdami gauti daugiau informacijos, žr. [Vartotojų priskyrimas saugos vaidmenims](assign-users-security-roles.md).
-9. Pasirinkite **Gerai**.
-10. Pasirinkite **Įrašyti**.
-
-## <a name="import-users"></a>Importuoti vartotojus
-1. Eikite į **Sistemos administravimas \> Vartotojai \> Vartotojai**.
+## <a name="import-new-users-from-azure-ad"></a>Naujų vartotojų importavimas iš „Azure AD“ 
+1. Eikite į **Sistemos administravimas** \> **Vartotojas** \> **Vartotojai**.
 2. Veiksmų srityje pasirinkite **Importuoti vartotojus**.
-3. Sąraše pažymėkite pasirinktą eilutę.
+3. Pasirinkite importuotinus vartotojus. Sąrašas apima „Azure AD” vartotojus, kurie šiuo metu nėra šios aplinkos vartotojai.
 4. Pasirinkite **Importuoti vartotojus**.
 5. Pasirinkite **Uždaryti**.
 
+> [!NOTE]
+> Lauko **Įmonė** reikšmė bus nustatyta pagal dabartinę administratoriaus seanso įmonę. Po importavimo, turite priskirti vaidmenis ir organizacijas kaip taikomas. Norėdami gauti daugiau informacijos, žr. [Vartotojų priskyrimas saugos vaidmenims](assign-users-security-roles.md). Sąlygiškai gali reikėti susieti vartotoją su **Asmeniu** ir atnaujinti vartotojo pasirinktis, pavyzdžiui, kalbą.
 
+## <a name="manually-add-a-new-user"></a>Naujo vartotojo įtraukimas rankiniu būdu
+1. Eikite į **Sistemos administravimas** \> **Vartotojai** \> **Vartotojai**.
+2. Veiksmų srityje pasirinkite **Naujas**.
+3. Lauke **Vartotojo ID** įveskite vartotojo unikalųjį identifikatorių (ID).   
+4. Lauke **Vartotojo vardas** įveskite vartotojo vardą.  
+5. Lauke **Teikėjas**:
+ - Vidiniams vartotojams naudokite numatytąją vertę. Pavyzdžiui, jūsų „Azure AD” nuomotoją su priešvardžiu https://sts.windows.net/.  
+ - Ne „Azure AD” vartotojams, pavyzdžiui, „Service-2-Service” paskyroms, įveskite pagrindinę teksto vertę. Pavyzdžiui, NA. Ši vertė padės išvengti neteisingų autentifikavimo skambučių, kurie gali sukelti klaidas, jei naudojama tinkama tapatybės tiekėjo vertė.  
+ - Išoriniams arba svečiams vartotojams pridėkite „Azure AD” nuomotojo pavadinimą po https://sts.windows.net/.
+6. Lauke **El. paštas** įveskite vartotojo visą el. pašto/vartotojo principo pavadinimą.  
+7. Lauke **Įmonė** pasirinkite numatytąją vartotojo paleisties įmonę. 
+8. Pasirinkite **Įrašyti**.
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+Tapatybės teikėjo ir telemetrijos ID vertės bus atnaujintos remiantis [„Microsoft” diagramos](https://docs.microsoft.com/graph/overview) iškvietimu, kai išsaugomas vartotojo įrašas. Telemetrijos ID remiasi vartotojo objekto ID/saugos identifikatoriumi (SID) „Azure AD”.
+
+> [!NOTE]
+> Kai įtraukiate vartotoją, privalote priskirti vaidmenis ir organizacijas kaip taikomas. Norėdami gauti daugiau informacijos, žr. [Vartotojų priskyrimas saugos vaidmenims](assign-users-security-roles.md). Sąlygiškai gali reikėti susieti vartotoją su **Asmeniu** ir atnaujinti **Vartotojo pasirinktis**, pavyzdžiui, kalbą.
+
+## <a name="change-a-user-id"></a>Vartotojo ID keitimas
+Norėdami pakeisti vartotojo ID, turite pervardyti raktą duomenų bazėje. Kai keičiate vartotojo ID naudodami šią procedūrą, visi susiję vartotojo parametrai yra modifikuojami, kad būtų galima naudoti naują vartotojo ID. Pavyzdžiui, naudojimo informacija lentelėje **„SysLastValue”** yra atnaujinama, kad būtų galima nurodyti naują vartotojo ID.
+
+> [!NOTE]
+> Šis vartotojo ID yra vartotojo informacijos lentelės pirminis raktas. Esamų vartotojų pirminio rakto pervardijimas gali šiek tiek užtrukti, nes visos nuorodos į raktą taip pat atnaujinamos duomenų bazėje. 
+
+1. Eikite į **Sistemos administravimas \> Vartotojai \> Vartotojai**.
+2. Pasirinkite vartotoją iš sąrašo ir **Pasirinktys\> Įrašo informacija**.
+3. Pasirinkite **Pervardyti**.
+4. Įveskite naują ir unikalią vartotojo ID reikšmę ir pasirinkite **Gerai**. 
+5. Pasirinkite **Taip** patvirtinimui.
+
+## <a name="additional-resources"></a>Papildomi ištekliai
+
+Norėdami gauti daugiau B2B vartotojų įgyvendinimo pasirinkčių, žiūrėkite [B2B vartotojų eksportavimas į „Azure AD”](../implement-b2b.md).
+
+Informaciją apie iš anksto sukonfigūruotas sistemos sąskaitas rasite [Iš anksto sukonfigūruotos sistemos sąskaitos](../pre-configured-system-accounts.md)

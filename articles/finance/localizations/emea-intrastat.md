@@ -3,7 +3,7 @@ title: Intrastat apžvalga
 description: Šioje temoje pateikta informacija apie Intrastat ataskaitas už prekybą prekėmis ir, kai kuriais atvejais, paslaugomis Europos Sąjungos (ES) šalyse / regionuose. Jame pateikta ataskaitų proceso apžvalga ir aprašyti reikiami parametrai ir būtinosios sąlygos.
 author: EvgenyPopovMBS
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: Intrastat
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 28581
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a70108696d6187126c23eca1779553210cd4a9d6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9396637c27707f1732d06ec704c7e609aa6c170b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408243"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962729"
 ---
 # <a name="intrastat-overview"></a>Intrastat apžvalga
 
@@ -197,7 +196,7 @@ Norėdami nustatyti toliau pateiktos lentelės parametrus, naudokite **Užsienio
 <td><ul>
 <li><strong>Bendra</strong> – nurodykite toliau pateiktą informaciją.
 <ul>
-<li>Pardavimo užsakymų, pirkimo užsakymų, kredito pažymų ir perkėlimo užsakymų numatytuosius operacijų kodus. Nustatytas kredito pažymų operacijų kodas taip pat naudojamas kaip fizinių prekių grąžinimo kodas bei naudojamas gretinti nuokrypio fizinių prekių grąžinimams ir koregavimo kredito pažymoms.</li>
+<li>Pardavimo užsakymų, pirkimo užsakymų, kredito pažymų ir perkėlimo užsakymų numatytuosius operacijų kodus. Nustatytas kredito pažymų operacijų kodas taip pat naudojamas kaip fizinių prekių grąžinimo kodas bei naudojamas gretinti nuokrypio fizinių prekių grąžinimams ir koregavimo kredito pažymoms. Fizinių prekių grąžinimai yra pranešami „Intrastat“ perdavime su kita kryptimi. Atvykimo grąžinimas yra pranešamas kaip siuntimas ir siuntimo grąžinimas pranešamas kaip atvykimas.</li>
 <li>Darbuotojas, atsakingas už Intrastat ataskaitų rengimą.</li>
 </ul></li>
 <li><strong>Minimali riba</strong> – nurodykite nuostatas, skirtas naujinti operacijoms, kurios yra žemiau ribinės reikšmės.
@@ -240,6 +239,3 @@ Norėdami nustatyti toliau pateiktos lentelės parametrus, naudokite **Užsienio
 </tbody>
 </table>
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
