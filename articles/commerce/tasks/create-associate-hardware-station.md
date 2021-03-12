@@ -11,50 +11,49 @@ ms.technology: ''
 ms.search.form: RetailHardwareStation, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 305308b0e4ba99aae4bf6f8f94041db570a25893
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: adbd5ef1cafe778cf897aafb05c77fca89be3e20
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414403"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964925"
 ---
-# <a name="create-and-associate-a-hardware-station"></a><span data-ttu-id="a28bc-103"> Kurti ir susieti aparatūros stotį</span><span class="sxs-lookup"><span data-stu-id="a28bc-103">Create and associate a hardware station</span></span>
+# <a name="create-and-associate-a-hardware-station"></a><span data-ttu-id="18bdb-103"> Kurti ir susieti aparatūros stotį</span><span class="sxs-lookup"><span data-stu-id="18bdb-103">Create and associate a hardware station</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="a28bc-104">Šioje procedūroje nurodyta, kaip kurti naują aparatūros stotį.</span><span class="sxs-lookup"><span data-stu-id="a28bc-104">This procedure walks through how to create a new hardware station.</span></span> <span data-ttu-id="a28bc-105">Naujos aparatūros šablonas bus sukurtas ir naudojamas naujoms aparatūros stotims į iš anksto nustatytą parduotuvę (kanalą) įtraukti.</span><span class="sxs-lookup"><span data-stu-id="a28bc-105">A new hardware profile will be created and used to add new hardware stations to a pre-defined store (channel).</span></span> <span data-ttu-id="a28bc-106">Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.</span><span class="sxs-lookup"><span data-stu-id="a28bc-106">This procedure uses the USRT company in demo data.</span></span>
+<span data-ttu-id="18bdb-104">Šioje procedūroje nurodyta, kaip kurti naują aparatūros stotį.</span><span class="sxs-lookup"><span data-stu-id="18bdb-104">This procedure walks through how to create a new hardware station.</span></span> <span data-ttu-id="18bdb-105">Naujos aparatūros šablonas bus sukurtas ir naudojamas naujoms aparatūros stotims į iš anksto nustatytą parduotuvę (kanalą) įtraukti.</span><span class="sxs-lookup"><span data-stu-id="18bdb-105">A new hardware profile will be created and used to add new hardware stations to a pre-defined store (channel).</span></span> <span data-ttu-id="18bdb-106">Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.</span><span class="sxs-lookup"><span data-stu-id="18bdb-106">This procedure uses the USRT company in demo data.</span></span>
 
-1. <span data-ttu-id="a28bc-107">Eikite į Prekybos pagrindai > Kanalai >...</span><span class="sxs-lookup"><span data-stu-id="a28bc-107">Go to Commerce essentials > Channels > ..</span></span> <span data-ttu-id="a28bc-108">> ..</span><span class="sxs-lookup"><span data-stu-id="a28bc-108">> ..</span></span> <span data-ttu-id="a28bc-109">> ..</span><span class="sxs-lookup"><span data-stu-id="a28bc-109">> ..</span></span> <span data-ttu-id="a28bc-110">> Aparatūros stoties profiliai.</span><span class="sxs-lookup"><span data-stu-id="a28bc-110">> Hardware station profiles.</span></span>
-2. <span data-ttu-id="a28bc-111">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="a28bc-111">Click New.</span></span>
-3. <span data-ttu-id="a28bc-112">Lauke Aparatūros stoties ID įveskite „TestHWProfile“.</span><span class="sxs-lookup"><span data-stu-id="a28bc-112">In the Hardware station ID field, type 'TestHWProfile'.</span></span>
-4. <span data-ttu-id="a28bc-113">Lauke Pavadinimas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a28bc-113">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="a28bc-114">Lauke Prievado numeris įveskite numerį.</span><span class="sxs-lookup"><span data-stu-id="a28bc-114">In the Port number field, enter a number.</span></span>
-6. <span data-ttu-id="a28bc-115">Lauke Aparatūros profilis spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="a28bc-115">In the Hardware profile field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="a28bc-116">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="a28bc-116">In the list, find and select the desired record.</span></span>
-8. <span data-ttu-id="a28bc-117">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="a28bc-117">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="a28bc-118">Lauke Paketo pavadinimas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="a28bc-118">In the Package name field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="a28bc-119">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="a28bc-119">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="a28bc-120">Tai yra standartinis paketas, teikiamas su nauja aplinka.</span><span class="sxs-lookup"><span data-stu-id="a28bc-120">This is the standard package that comes with a new environment.</span></span> <span data-ttu-id="a28bc-121">Versijos numeris gali skirtis.</span><span class="sxs-lookup"><span data-stu-id="a28bc-121">The version number may vary.</span></span>  
-11. <span data-ttu-id="a28bc-122">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="a28bc-122">Click Save.</span></span>
-12. <span data-ttu-id="a28bc-123">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="a28bc-123">Close the page.</span></span>
-13. <span data-ttu-id="a28bc-124">Eikite į „Retail and Commerce“ > Kanalai > Visos parduotuvės.</span><span class="sxs-lookup"><span data-stu-id="a28bc-124">Go to Retail and Commerce > Channels > All stores.</span></span>
-14. <span data-ttu-id="a28bc-125">Sąraše pasirinkite 17 eilutę.</span><span class="sxs-lookup"><span data-stu-id="a28bc-125">In the list, select row 17.</span></span>
-    * <span data-ttu-id="a28bc-126">Jei naudojate demonstracinių duomenų įmonę USRT, tai yra „Houston“ parduotuvė.</span><span class="sxs-lookup"><span data-stu-id="a28bc-126">If you are using the USRT demo data company, this is the Houston store.</span></span>  
-15. <span data-ttu-id="a28bc-127">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="a28bc-127">In the list, click the link in the selected row.</span></span>
-16. <span data-ttu-id="a28bc-128">Perjunkite sekcijos Aparatūros stotys išplėtimą.</span><span class="sxs-lookup"><span data-stu-id="a28bc-128">Toggle the expansion of the Hardware stations section.</span></span>
-17. <span data-ttu-id="a28bc-129">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="a28bc-129">Click Add.</span></span>
-18. <span data-ttu-id="a28bc-130">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="a28bc-130">In the list, mark the selected row.</span></span>
-19. <span data-ttu-id="a28bc-131">Lauke Šablono ID spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="a28bc-131">In the Profile ID field, click the drop-down button to open the lookup.</span></span>
-20. <span data-ttu-id="a28bc-132">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="a28bc-132">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="a28bc-133">Tai turi būti naujas aparatūros stoties šablonas, sukurtas atliekant ankstesnius veiksmus.</span><span class="sxs-lookup"><span data-stu-id="a28bc-133">This must be the new hardware station profile that was created in the previous steps.</span></span>  
-21. <span data-ttu-id="a28bc-134">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="a28bc-134">In the list, click the link in the selected row.</span></span>
-22. <span data-ttu-id="a28bc-135">Lauke Pagrindinio kompiuterio vardas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a28bc-135">In the Host name field, type a value.</span></span>
-23. <span data-ttu-id="a28bc-136">Lauke EFT terminalo ID įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a28bc-136">In the EFT terminal ID field, type a value.</span></span>
-24. <span data-ttu-id="a28bc-137">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="a28bc-137">Click Save.</span></span>
+1. <span data-ttu-id="18bdb-107">Eikite į Prekybos pagrindai > Kanalai >...</span><span class="sxs-lookup"><span data-stu-id="18bdb-107">Go to Commerce essentials > Channels > ..</span></span> <span data-ttu-id="18bdb-108">> ..</span><span class="sxs-lookup"><span data-stu-id="18bdb-108">> ..</span></span> <span data-ttu-id="18bdb-109">> ..</span><span class="sxs-lookup"><span data-stu-id="18bdb-109">> ..</span></span> <span data-ttu-id="18bdb-110">> Aparatūros stoties profiliai.</span><span class="sxs-lookup"><span data-stu-id="18bdb-110">> Hardware station profiles.</span></span>
+2. <span data-ttu-id="18bdb-111">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="18bdb-111">Click New.</span></span>
+3. <span data-ttu-id="18bdb-112">Lauke Aparatūros stoties ID įveskite „TestHWProfile“.</span><span class="sxs-lookup"><span data-stu-id="18bdb-112">In the Hardware station ID field, type 'TestHWProfile'.</span></span>
+4. <span data-ttu-id="18bdb-113">Lauke Pavadinimas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="18bdb-113">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="18bdb-114">Lauke Prievado numeris įveskite numerį.</span><span class="sxs-lookup"><span data-stu-id="18bdb-114">In the Port number field, enter a number.</span></span>
+6. <span data-ttu-id="18bdb-115">Lauke Aparatūros profilis spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="18bdb-115">In the Hardware profile field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="18bdb-116">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="18bdb-116">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="18bdb-117">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="18bdb-117">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="18bdb-118">Lauke Paketo pavadinimas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="18bdb-118">In the Package name field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="18bdb-119">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="18bdb-119">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="18bdb-120">Tai yra standartinis paketas, teikiamas su nauja aplinka.</span><span class="sxs-lookup"><span data-stu-id="18bdb-120">This is the standard package that comes with a new environment.</span></span> <span data-ttu-id="18bdb-121">Versijos numeris gali skirtis.</span><span class="sxs-lookup"><span data-stu-id="18bdb-121">The version number may vary.</span></span>  
+11. <span data-ttu-id="18bdb-122">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="18bdb-122">Click Save.</span></span>
+12. <span data-ttu-id="18bdb-123">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="18bdb-123">Close the page.</span></span>
+13. <span data-ttu-id="18bdb-124">Eikite į „Retail and Commerce“ > Kanalai > Visos parduotuvės.</span><span class="sxs-lookup"><span data-stu-id="18bdb-124">Go to Retail and Commerce > Channels > All stores.</span></span>
+14. <span data-ttu-id="18bdb-125">Sąraše pasirinkite 17 eilutę.</span><span class="sxs-lookup"><span data-stu-id="18bdb-125">In the list, select row 17.</span></span>
+    * <span data-ttu-id="18bdb-126">Jei naudojate demonstracinių duomenų įmonę USRT, tai yra „Houston“ parduotuvė.</span><span class="sxs-lookup"><span data-stu-id="18bdb-126">If you are using the USRT demo data company, this is the Houston store.</span></span>  
+15. <span data-ttu-id="18bdb-127">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="18bdb-127">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="18bdb-128">Perjunkite sekcijos Aparatūros stotys išplėtimą.</span><span class="sxs-lookup"><span data-stu-id="18bdb-128">Toggle the expansion of the Hardware stations section.</span></span>
+17. <span data-ttu-id="18bdb-129">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="18bdb-129">Click Add.</span></span>
+18. <span data-ttu-id="18bdb-130">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="18bdb-130">In the list, mark the selected row.</span></span>
+19. <span data-ttu-id="18bdb-131">Lauke Šablono ID spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="18bdb-131">In the Profile ID field, click the drop-down button to open the lookup.</span></span>
+20. <span data-ttu-id="18bdb-132">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="18bdb-132">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="18bdb-133">Tai turi būti naujas aparatūros stoties šablonas, sukurtas atliekant ankstesnius veiksmus.</span><span class="sxs-lookup"><span data-stu-id="18bdb-133">This must be the new hardware station profile that was created in the previous steps.</span></span>  
+21. <span data-ttu-id="18bdb-134">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="18bdb-134">In the list, click the link in the selected row.</span></span>
+22. <span data-ttu-id="18bdb-135">Lauke Pagrindinio kompiuterio vardas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="18bdb-135">In the Host name field, type a value.</span></span>
+23. <span data-ttu-id="18bdb-136">Lauke EFT terminalo ID įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="18bdb-136">In the EFT terminal ID field, type a value.</span></span>
+24. <span data-ttu-id="18bdb-137">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="18bdb-137">Click Save.</span></span>
 
