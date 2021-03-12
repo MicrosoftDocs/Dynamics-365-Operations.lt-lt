@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSReservationHierarchy, WHSWorkTrans, WHSWorkInventTrans, WHSInventTableReservationHierarchy, WHSReservationHierarchyCreate, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b9bd4e67ed64218f9c4ac87bd143f73680af9ac4
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: bf50b0b8da2859caab4db2394f2d56f7b76793ca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433921"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004807"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Pritaikomų sandėlio lygio dimensijų rezervavimo strategija
 
@@ -196,7 +195,7 @@ Toliau pateiktame pavyzdyje parodytas visapusis srautas.
 
 Šiame scenarijuje, bendrovė naudoja sandėlio tvarkymą ir darbo aprodojimą bei tvarko krovimo planavimą individualių padėklų ar konteinerių lygmeniu, ne „Supply Chain Management“ prieš sukuriant darbą. Šie konteineriai yra rodomi licencijos numeriuose inventoriaus dimensijose. Dėl to, šiai prieigai specialūs licencijos numeriai turi būti paskirti iš anksto prie prekybos užsakymo linijų prieš paėmimo darbo pabaigą. Bendrovė ieško lankstumo taip, kad licencijos numerio rezervavimo taisyklės būtų sutvarkytos ir atsitiktų tokia įvykių seka:
 
-- Licencijos numeris gali būti įrašytas ir rezervuotas, kai užsakymas yra paimtas prekybos apdorojimo ir jo paimti negali kiti poreikio prašytojai. Toks elgesys padeda užtikrinti, kad suplanuotas licencijos numeris yra išsiųstas klientui. 
+- Licencijos numeris gali būti įrašytas ir rezervuotas, kai užsakymas yra paimtas prekybos apdorojimo ir jo paimti negali kiti poreikio prašytojai. Toks elgesys padeda užtikrinti, kad suplanuotas licencijos numeris yra išsiųstas klientui.
 - Jei licencijos numeris dar nėra priskirtas prekybos užsakymo eilutei, sandėlio personalas gali pasirinkti licencijos numerį paėmimo darbo metu po prekybos užsakymo registravimo ir rezervacija yra baigta.
 
 ### <a name="turn-on-flexible-license-plate-reservation"></a>Įjungti lanksčią licencijos numerio rezervaciją
@@ -854,6 +853,3 @@ Toliau esančiose lentelėse pateikiama apžvalga, nurodanti, kaip sistema apdor
     - Perkėlimo užsakymai ir žaliavų paėmimas
 
 - Konteinerių konsolidavimo taisyklė, taikoma pakuotei pagal nurodomąjį vienetą, turi trūkumų. Įvykdyto užsakymo rezervavimams rekomenduojame nenaudoti konteinerio kūrimo šablonų, kai laukas **Pakuoti pagal nurodomąjį vienetą** yra įjungtas. Dabartiniame kūrimo įrankyje vietos nurodymai nenaudojami, kai sukuriamas sandėlio darbas. Todėl per krovimo į konteinerius bangos veiksmą taikoma tik mažiausia vienetų sekų grupė (atsargų vienetas).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

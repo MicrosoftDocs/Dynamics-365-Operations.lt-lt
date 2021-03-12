@@ -11,23 +11,22 @@ ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSWorkTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3ae2826b54cb2ff516840443e01185a5342aedcc
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f8d5e4d82c66d178ceafcdbfb3eb9a941172aa01
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433914"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004632"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Vietos nurodymo atsargų paėmimo skirstymas pagal terminus
 
 [!include [banner](../includes/banner.md)]
 
-Šiame skyriuje paaiškinama, kaip naudoti pirmą įvesties, išvesties (FIFO) ir paskutinį įvesties, pirmą išvesties (LIFO) vietos direktyvos stategijas paėmimo metu. Šios strategijos dirba kartu su amžiaus duomenimis, kurie yra įrašyti į vietas sekimui, kai inventorius pirmąkart patenka į sandėlį.  *Vietos direktyvos inventoriaus paėmimo amžiaus* savybė naudoja vietos duomenis tam, kad nustatytų amžių. *Sandėli ovietos būsenos* savybė atnaujina duomenis vietoej pagal duomenis iš licencijos numerio.
+Šiame skyriuje paaiškinama, kaip naudoti pirmą įvesties, išvesties (FIFO) ir paskutinį įvesties, pirmą išvesties (LIFO) vietos direktyvos stategijas paėmimo metu. Šios strategijos dirba kartu su amžiaus duomenimis, kurie yra įrašyti į vietas sekimui, kai inventorius pirmąkart patenka į sandėlį. *Vietos direktyvos inventoriaus paėmimo amžiaus* savybė naudoja vietos duomenis tam, kad nustatytų amžių. *Sandėli ovietos būsenos* savybė atnaujina duomenis vietoej pagal duomenis iš licencijos numerio.
 
 Galite naudoti FIFO ir LIFO strategijas tiek paketų sekamų elementų siuntimui, tiek ir nesupakuotų elementų sekimui pagal duomenis, kai inventorius patenka į sandėlį. Ši funkcija gali būti ypatingai naudinga nesupakuoto inventoriaus sekimui, kurio galiojimo data nėra prieinama rūšiavimo naudojimui.
 
@@ -120,7 +119,7 @@ FIFO strategija suranda vietą, turinčią seniausius amžiaus duomenis ir prisk
 1. **Prekybos užsakymo** puslapyje, veiksmų juostoje **Sandėlio** skirtuke, **Veiksmai** grupėje, pasirinkite **Paleisti į sandėlį**. Gausite informacinį pranešimą. Sistema sukuria siuntą, įtraukia ją į naują krovinį ir sukuria reikiamą darbo užduotį.
 1. **Prekybos užsakymo eilučių** „FastTab“,  **Sandėlio** meniu, pasirinkite **Darbo informacija** tam, kad atidarytumėte šiam prekybos užsakymui sukurtą darbą. Atkreipkite dėmesį, kad eilutė, kurioje **Darbo tipo** vertė yra *Paimti*, rodo **Vietos** vertę *FL-002*. Ši vieta apima licencijos numerį, kuris turi seniausius amžiaus duomenis (FIFO).
 1. Pasirinkite **Sandėlis \> Siuntimo informacija**.
-1. **Bendri** „FastTab“, užsirašykite bangos identifikavimo numerį, kad galėtumėte jį naudoji scenarijaus 2 metu.
+1. „FastTab“ **_Bendra_* užsirašykite bangos identifikavimo numerį, kad galėtumėte jį naudoji scenarijaus 2 metu.
 
 ### <a name="scenario-2-set-up-and-use-lifo-location-aging"></a>Scenarijus 2: Nustatykite ir naudokite LIFO vietos amžių
 
@@ -140,6 +139,3 @@ LIFO strategija suranda vietą, turinčią naujausius amžiaus duomenis ir prisk
 1. Atkreipkite dėmesį, kad eilutė, kurioje **Darbo tipo** vertė yra *Paimti*, rodo **Vietos** vertę *FL-001*. Ši vieta apima licencijos numerį, kuris turi naujausius amžiaus duomenis (LIFO).
 
 Šiuose scenarijuose, jūs matėte, kaip vietos amžiaus strategija valdo darbą inventoriaus vietoje, kuri turi seniausią arba naujausią inventorių priklausomai nuo pasirinktos strategijos.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

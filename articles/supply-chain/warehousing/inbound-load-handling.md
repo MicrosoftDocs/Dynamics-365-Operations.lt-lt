@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 41a05bcd0148d0a553cb50575cae47f48397ae9b
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 991da4a1056bec933698d043fe45fe4e280f555a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433919"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004832"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Pirkimo užsakymų gaunamų krovinių sandėlio tvarkymas
 
@@ -478,6 +477,3 @@ Pirmojo krovinio gavimo užduotis dabar baigta. Buvo sukurti du produkto gavimo 
     - **Kiekis** – įveskite reikšmę _7_, kuri reiškia likusį kiekį, kurį tiekėjas turi teisę pristatyti kaip bendro pirkimo užsakymo kiekio (12) dalį (kur 10 yra pradinis užsakymo kiekis, o 2 yra leidžiamas 20 procentų pristatymo pertekliaus kiekis). Atminkite, kad 5 vienetai jau buvo užregistruoti su pirmuoju kroviniu.
 
 Antrojo krovinio kiekis dabar atnaujintas į 7, ir pagal šį kieki gali būti atnaujintas produkto gavimas.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

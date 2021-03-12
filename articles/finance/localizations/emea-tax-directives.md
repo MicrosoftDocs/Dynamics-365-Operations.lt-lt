@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Latvia, Lithuania, Netherlands, Norway, Poland, Spain, Sweden, Switzerland, Turkey, United Kingdom
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2f0da36e2be20d5ae8c838ed73c6e8aa1c19b621
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e6fa4867df51d39c268446077de27366784e1cd7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408241"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005934"
 ---
 # <a name="tax-directives-for-europe"></a>Europos mokesčių direktyvos
 
@@ -33,6 +32,3 @@ ES direktyvoje nurodomos taisyklės, kurių turi laikytis visos šalys narės, d
 
 > [!NOTE]
 > Patikrinkite, ar laukas **PVM specifikacija** nustatytas į **Registracijos valiuta** arba **Registracijos ir įmonės valiuta** puslapio **Formos nustatymas** skirtuke **Bendra** (**Gautinos sumos > Nustatymas > Formos > Formos nustatymas** arba **Projektų valdymas ir apskaita > Nustatymas > Formos > Formos nustatymas**).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

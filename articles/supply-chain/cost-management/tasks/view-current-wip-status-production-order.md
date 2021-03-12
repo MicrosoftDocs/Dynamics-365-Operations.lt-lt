@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, CostAdminWorkspace, CostLastInventoryCloseCard, CostLastBackflushCostingCard, CostStatementCacheCard, CostReleasedProductsMissingCostingDataFormPart, CostCalculationPeriodTopVariancesChartFormPart, ProdTable, CostStatement
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e8e55ccfe158146a48fd372d6f0f687d169b7632
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f76a7589de13237ba822296d357df3e0300f11ad
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433724"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002028"
 ---
 # <a name="view-current-wip-status-on-a-production-order"></a>Peržiūrėti gamybos užsakymo dabartinę NG būseną
 
@@ -38,6 +37,3 @@ ms.locfileid: "4433724"
 6. Lauke Pradžios data nustatykite datą „2012-12-01“.
 7. Lauke Pabaigos data nustatykite datą „2012-12-31“.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

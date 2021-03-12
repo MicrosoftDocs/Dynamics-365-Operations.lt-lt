@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: TaxAuthority, TaxReportCollection, TaxReportVoucher, TaxTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 266884
 ms.search.region: Lithuania
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 3e19624ae049cbd5629aed67ef41b8012ce289c8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 279bb4eebcdc181222addd2a35516a4b18469f3e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408238"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002894"
 ---
 # <a name="vat-statement-details-for-lithuania"></a>PVM išrašo informacija, skirta Lietuvai
 
@@ -73,6 +72,3 @@ Norėdami generuoti PVM XML failą, puslapyje **PVM mokėjimai** pasirinkite vie
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

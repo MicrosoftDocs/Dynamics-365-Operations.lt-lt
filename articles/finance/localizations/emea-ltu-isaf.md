@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: TaxAuthority, TaxReportCollection, TaxReportVoucher, TaxTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 266884
 ms.search.region: Lithuania
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: d4f148c9ea5053384c2547ffc2a4d9cc362c11ef
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: aae72fca8c219633759df4bc73035cae7e08f0e3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408239"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002909"
 ---
 # <a name="isaf-reporting-for-lithuania"></a>i.SAF ataskaitų pateikimas Lietuvoje
 
@@ -281,6 +280,3 @@ Jei norite neįtraukti SF į i.SAF ataskaitą, veiksmų srityje pasirinkite **At
 Jei norite atidėti SF įtraukimą į i.SAF ataskaitą, veiksmų srityje pasirinkite **Atnaujinti būseną**, kad pranešimų prekių būsena būtų pakeista į **Atidėta**. SF, kurių būsena yra **Atidėta**, į ataskaitą įtrauktos nebus. Dialogo puslapyje **Atnaujinti būseną** pasirinkite **i.SAF** apdorojimą, pasirinkite **Pakeisti į Atidėta** lauke **Veiksmas**, tada pasirinkite **Atidėta** lauke **Nauja būsena**. Galite nustatyti papildomų kriterijų, naudodami funkciją **Filtras**, kad nurodytumėte, kuri (-ios) SF turi būti atidėta (-os) pagal kriterijus.
 
 Galite bet kada pakeisti pranešimų prekių būseną **Neįtraukta** arba **Atidėta**, naudodami veiksmą **Atnaujinti į pradinę būseną**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

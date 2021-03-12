@@ -12,17 +12,16 @@ ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 71d35d47a703f0931ba3b4ab5df21c7199c7ea5b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5f327d1d0b38ad724da6a302cefc115262317812
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433881"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001704"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Produkto varianto matavimo vieneto konvertavimas
 
@@ -59,7 +58,7 @@ Norėdami konfigūruoti bendrąjį produktą, kad būtų palaikomas kiekvieno va
     - **Produktas** – jei pasirinksite šią reikšmę, galite nustatyti bendrojo produkto vieneto konvertavimą. Toks vieneto konvertavimas bus naudojamas kaip atsarginis visų produkto variantų, kuriems neapibrėžtas vienetų konvertavimas, konvertavimo būdas.
     - **Produkto variantas** – jei pasirinksite šią reikšmę, galite nustatyti konkretaus produkto varianto vieneto konvertavimą. Norėdami pasirinkti variantą, naudokite lauką **Produkto variantas**.
 
-    ![![Naujo vieneto konvertavimo įtraukimas](media/uom-new-conversion.png "Naujo vieneto konvertavimo įtraukimas")](media/uom-new-conversion.png "Adding a new unit conversion")
+    ![Naujo vieneto konvertavimo įtraukimas](media/uom-new-conversion.png "Naujo vieneto konvertavimo įtraukimas")
 
 1. Vienetų konvertavimui nustatyti naudokite kitus pateikiamus laukus.
 1. Norėdami įrašyti naują vieneto konvertavimą, pasirinkite **Gerai**.
@@ -107,6 +106,3 @@ Norėdami eksportuoti vienetų konvertavimus į „Excel“, puslapio **Vienetų
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Matavimo vieneto valdymas](tasks/manage-unit-measure.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

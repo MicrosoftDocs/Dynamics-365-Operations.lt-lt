@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgEcoResProductLifecycleStateChange
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 69ee39479424c1b629388c18e8bfefd023036d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 989cfd3846e4921d24f5dcf809f1735d2cf62dbb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4434045"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005332"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Produkto gyvavimo ciklo būsenos ir perlaidos
 
@@ -57,7 +56,7 @@ Nustatykite tolesnius laukelius „FastTab“ **Bendri**.
 
 | Laukas | aprašymas |
 |---|---|
-| Numatytieji parametrai išleidžiant į juridinį asmenį | Standrtiniam produktams, nustatykite parinktį  į *Taip*, jei gyvavimo ciklo būsena turi būti taikoma visiems produktams pagal nutylėjimą kai jie išleisti pirmą kartą. Nustatykite jį į *Ne* jei ši gyvavimo ciklo būsena bus taikoma vėliau rankiniu būdu.<p>Šie nustatymai nėra taikomi inžinerijos produktams. Inžinerijos produkto versijos gyvavimo ciklo būsena po jos sukūrimo inžinerijos įmonėje yra nurodyta jos inžinerijos keitimo kategorijoje. Paleidus produkta veikiančioje įmonėje, produkto gyvavimo ciklo būsena yra nukopijuojama. Kitaip tariant, kai inžinerijos produktas išleidžiamas į veikiančią įmonę, jis turi tą pačią gyvavimo ciklo būseną, kurią turėjo inžinerijos įmonė. Gyvavimo ciklo būsena gali būti užrašyta veikiančioje įmonėje.</p> |
+| Numatytieji parametrai išleidžiant į juridinį asmenį | Standartiniams produktams, nustatykite parinktį į *Taip*, jei gyvavimo ciklo būsena turi būti taikoma visiems produktams pagal nutylėjimą kai jie išleisti pirmą kartą. Nustatykite jį į *Ne* jei ši gyvavimo ciklo būsena bus taikoma vėliau rankiniu būdu.<p>Šie nustatymai nėra taikomi inžinerijos produktams. Inžinerijos produkto versijos gyvavimo ciklo būsena po jos sukūrimo inžinerijos įmonėje yra nurodyta jos inžinerijos keitimo kategorijoje. Paleidus produkta veikiančioje įmonėje, produkto gyvavimo ciklo būsena yra nukopijuojama. Kitaip tariant, kai inžinerijos produktas išleidžiamas į veikiančią įmonę, jis turi tą pačią gyvavimo ciklo būseną, kurią turėjo inžinerijos įmonė. Gyvavimo ciklo būsena gali būti užrašyta veikiančioje įmonėje.</p> |
 | Galima planuoti | Nustatykite šią parinktį į *Taip* tam, kad ji apimtų produktus esančius šioje gyvavimo ciklo būsenoje apskaičiavimuose pagrindiniame planavime ir važtaraščio (BOM) lygyje. Nustatykite jį į *Ne* tam, kad neapimtų prodoktų esančių šioje gyvavimo ciklo būsenoje iš skaičiavimų. |
 
 ### <a name="enabled-business-processes-fasttab"></a>Įjungti verslo procesai „FastTab“
@@ -76,6 +75,3 @@ Tolesni laukeliai yra prieinami kiekvienam procesui, kuris išvardytas **Įjungt
 | Polisas | Pasirinkite vieną iš tolesnių verčių, kad valdytumėte, ar ir kaip esamas procesas leis produktus esančius jų gyvavimo ciklo būsenoje:<ul><li>**Įjungta** – Verslo procesas leidžiamas.</li><li>**Blokuotas** – Procesas neleidžiamas. Jei vartotojas bando naudoti procesą produkte, kuris yra gyvavimo ciklo būsenos, sistema užblokuos bandymą ir rodys klaidą. Pavyzdžiui, galite užblokuoti iki gyvavimo galo esančius produktus neleisdami jų įsigyti.</li><li>**Įjungti su įspėjimu** – Procesas leidžiamas, bet rodomas įspėjimas. Pavyzdžiui, galbūt jums reikės, kad produkto prototipas būtų padėtas į prekybos užsakymą, kuris yra sukurtas mokslo ir vystymo skyriaus. Nepaisant to, kiti skyriai turėtų žinoti, kad jie neturėtų gaminti gaminio.</li></ul> |
 
 Jei įtraukiate daugiau gyvavimo ciklo būsenos taisyklių į savo tinkinimą, galite peržiūrėti šias taisykles vartotojo sąsajoje (UI) pasirinkę **Naujinti procesus** viršutinėje juostoje. Mygtukas **Naujinti proceuss** yra prieinamas tik administratoriams.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

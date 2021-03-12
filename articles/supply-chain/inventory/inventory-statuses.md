@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, WHSInventStatus, WHSWarehouseStatusChange
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 21331
 ms.assetid: b35f495f-de4f-48a0-9d09-4d06781d7650
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eca9d3e4e15d11d2a9a1b531028de230ffc43913
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: 0c4cad56389c7a8fd6d37591c1ff335fff715707
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594607"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001829"
 ---
 # <a name="inventory-statuses"></a>Atsargų būsenos
 
@@ -50,7 +49,7 @@ Atlikdami siuntimo darbus naudokite prekes, kurių atsargų būsena yra „pasie
 
 Nustatę atsargų būseną, galite nustatyti svetainės, prekės ir sandėlio numatytąją atsargų būseną. Taip pat galite nustatyti numatytąją pardavimų, perkėlimų ir pirkimo užsakymų būseną. Numatytosios pardavimo užsakymų ir siuntimo perkėlimo užsakymo būsenos parinkčiai **Atsargų blokavimas** negali būti nustatyta reikšmė *Taip*. Atsargų būseną, kuri gaunama pagal numatytuosius vietos, sandėlio, prekės, pirkimo užsakymo, perkėlimo užsakymo arba pardavimo užsakymo nustatymus, galima keisti naudojant mobilųjį įrenginį arba pirkimo užsakymo, pardavimo užsakymo ar perkėlimo užsakymo eilutėje.
 
-Norėdami suplanuoti prekių, kurių atsargų būsena yra pasiekiama, padengimą,  pasirinkite saugojimo dimensijos parinktį **Padengimo planas dimensijomis** puslapyje **Saugojimo dimensijų grupės**. Kai atidarote vedlį **Prekės padengimas**, prekės, kurių būsena yra pasiekiama, rodomos puslapyje **Būsena**. Norėdami kurti tokių prekių padengimo parametrus, pasirinkite pasiekiamų atsargų būsenų atsargų būsenos ID. Pagal padengimo parametrus galite apskaičiuoti prekių poreikius ir prognozuoti pasiekiamų prekių pasiūlą ir paklausą bendrojo planavimo metu. Negalima kurti prekės padengimo nustatymo, kai prekės atsargų būsena „blokuota“. Arba naudodami puslapį **Prekės padengimas** sukurkite arba modifikuokite prekių padengimo parametrus.
+Norėdami suplanuoti prekių, kurių atsargų būsena yra pasiekiama, padengimą, pasirinkite saugojimo dimensijos parinktį **Padengimo planas dimensijomis** puslapyje **Saugojimo dimensijų grupės**. Kai atidarote vedlį **Prekės padengimas**, prekės, kurių būsena yra pasiekiama, rodomos puslapyje **Būsena**. Norėdami kurti tokių prekių padengimo parametrus, pasirinkite pasiekiamų atsargų būsenų atsargų būsenos ID. Pagal padengimo parametrus galite apskaičiuoti prekių poreikius ir prognozuoti pasiekiamų prekių pasiūlą ir paklausą bendrojo planavimo metu. Negalima kurti prekės padengimo nustatymo, kai prekės atsargų būsena „blokuota“. Arba naudodami puslapį **Prekės padengimas** sukurkite arba modifikuokite prekių padengimo parametrus.
 
 ## <a name="change-inventory-statuses"></a>Keisti inventoriaus būsenas
 
@@ -65,6 +64,3 @@ Galite keisti inventoriaus būsnas naudodami **Turimos vietos** puslapį arba na
 > - Puslapyje **Turima pagal vietą** galite grupuoti eilutes pagal rodomus matmenis naudodami **Rodomi matmenys** mygtuką ir keisti pasirinktų eilučių būseną.
 > - Puslapyje **Turima pagal vietą** puslapyje galtie pasirinkti keletą įrašų ir tada naudoti **Inventoriaus būsenos keitimo** mygtuką, kad pakeistumėte visus juos vienu metu.
 > - Periodinėje **Inventoriaus būsenos keitimo** užduotyje galite filtruoti pagal sekimo matmenis.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

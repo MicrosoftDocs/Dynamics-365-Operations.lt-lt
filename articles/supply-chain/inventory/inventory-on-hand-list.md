@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventOnhandItem, InventOnHandItemListPage, WHSOnHand
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 33e5ccc454191e27e33835a05094b823ec54e891
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 94e54220a68889fd31ac3b269f7a7f6f8dd98c8e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4434009"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005207"
 ---
 # <a name="inventory-on-hand-list"></a>Turimų atsargų sąrašas
 
@@ -60,7 +59,7 @@ Kiekvienam sutinkančiam elementui, **Turimas** tinklelis pateikia tolesnius ats
 
 Naudokite **Filtrų** juostą tam, kad filtruotumėte turimų atsargų sąrašą taip, kad jis apimtų tik įrašus, kuriuose laukelio vertės atitinka filtravimo kriterijus. Filtro nustatymui, atlikite šiuos žingsnius.
 
-1.  **Filtrai** juostoje, suraskite laukelį, kurį norite filtruoti.
+1. **Filtrai** juostoje, suraskite laukelį, kurį norite filtruoti.
 2. Tolesniame laukelyje galutinio laukelio pavadinime, pasirinkite loginį operatorių (pavyzdžiui, *prasideda su*, *lygus* arba *didesnis nei*).
 3. Įveskite ar pasirinkite vertę, kurios ieškote.
 
@@ -146,6 +145,3 @@ Jūsų sistema apima išsamią (neapibendrintą) atsargų lentelę, kuri rodo to
 | IA0001 | 1 | 2 | 2 |
 
 Atkreipkite dėmesį, kad nustatymai **Filtrų** juostoje taikomi išsamiai (neapibendrintai) atsargų lentelei, kuri yra rodoma šio skyriaus pradžioje. Dėl to, kriterijus **Faktiškai turima** \| **mažiau arba lygu** \| _1_ randa dvi eilutes iš tos lentelės (pirmąją ir trečiąją eilutę, kurių kiekviena rodo **Faktiškai turima** _1_ vertę). Nepaisant to, šiame scenarijuje **Turimo sąrašo** puslapis nėra nustatytas taip, kad rodytų **Sandėlio** dimensiją. Dėl to, jis apibendrina dvi originalias reilutes į vietą rezultatų eilutę, nes abi eilutės turi identiškas vetes visose rodomose dimensijose. Ši eilutė pasirodo pažeisdama filtravimo kriterijus, nes **Faktiškai turima** vertė rodoma kaip _2_. Nepaisant to, rezultatas yra teisingas, nes nustatymai **Filtrų** juostoje taikomi šaltinio lentelei, o ne apibendrintai lentelei, kuri yra rodoma **Turimo sąrašo** puslapyje.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

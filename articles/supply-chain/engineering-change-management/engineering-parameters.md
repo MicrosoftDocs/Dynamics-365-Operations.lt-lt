@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 0cf0e56a8aece98379aa0f181d7b7ff665767544
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: dee5429c31bfc872afedfa76ced89633b4b72c96
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4434046"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005382"
 ---
 # <a name="engineering-change-management-parameters"></a>Inžinierinių pakeitimų valdymo parametrai
 
@@ -57,6 +56,3 @@ Tolesnė lentelė aprašo laukelius, kurie yra prienami **Inžinerijos keitimo v
 | Svarbos taisyklė | Pasirinkite, kaip inžinerijos keitimo užsakymo sunkumas turi būti įsteigtas. Pasirinkite *Rankinis*, jei vartotojas turi įvesti vertę **Sunkumo** laukelyje. Rinkitės *Apskaičiuoti* tam, kad sistema apskaičiuotų **Sunkumo** laukelio vertę jums pasirinkus **Skaičiuoti sunkumą** inžinerijos keitimo užsakymo veiksmų juostoje. šiuo atveju sistema naudos sunkumo taisykles, kurios nustatytos **Sunkumo taisyklių rinkinio** puslapyje. Rinkitės *Skaičiuoti automatiškai* tam, kad vertė **Sunkumo** laukelyje būtų skaičiuojama automatiniu būdu ir užpildoma pagal sunkumo taisyklių rinkinius. |
 | Pakartotinai išleisti paveiktus produktus | Šis laukelis taikomas jums išleidžiant produktus per inžinerijos keitimo užsakymą. Jums pasirinkus, ar visi produktai ar tik paveikti produktai turi būti siūlomi **Leidimų** teksto laukelyje. |
 | KS lygiai, kuriuos reikia išleisti | BOM lygio gylis leidimo metu. Jei BOM turi daugiau lygių (tai yra, jei jis gilesnis), tuomet vertė yra nurodyta čia, bus išleisti tik nurodytos vertės didesni lygiai. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
