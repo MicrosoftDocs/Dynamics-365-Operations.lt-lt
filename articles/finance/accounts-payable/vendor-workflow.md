@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Vendor
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 00cdc657fa075e84e62682e33ed3c1bace3f4ad0
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 1fad41fa4fb3562ab94adde522d3899271c85467
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4446219"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979169"
 ---
 # <a name="vendor-workflow"></a>Tiekėjo darbo eiga
 
@@ -61,6 +60,3 @@ Kai pateikiamas bent vienas siūlomas pakeitimas, veiksmų srityje rodomi du pap
     Puslapio būsena pakeičiama į **Patvirtinimo laukiantys keitimai**.
 
 Ši darbo eiga vykdoma pagal standartinį darbo eigų procesą. Tvirtintojas nukreipiamas į puslapį **Tiekėjas**, kuriame galima peržiūrėti pakeitimus puslapyje **Siūlomi pakeitimai**, pasirinkti **Darbo eiga \> Patvirtinti** ir patvirtinti darbo eigą. Viską patvirtinus, laukai yra atnaujinami jūsų pasiūlytomis reikšmėmis.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

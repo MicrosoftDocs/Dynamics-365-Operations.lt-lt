@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: VendPosting
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 24691
 ms.assetid: 18def866-7655-4f0b-b299-eec83098d23a
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43450c5f7ab8295b896b591880da9d0bddd955cf
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8b6447228f00d91fd2dddd43c1ceb57dff0c6df9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445825"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979194"
 ---
 # <a name="vendor-posting-profiles"></a>Tiekėjų registravimo šablonai
 
@@ -61,7 +60,7 @@ Jei norite, kad visų tiekėjo operacijų registravimo šablonas būtų tas pats
 <tbody>
 <tr class="odd">
 <td><strong>Registravimo šablonas</strong></td>
-<td>Įveskite registravimo šablono kodą. Pavyzdžiui, galite sukurti du registravimo profilius, kad turėtumėte vieną sąskaitą tiekėjo balansams nacionaline valiuta ir kitą – tiekėjo balansams užsienio valiuta. Vieną sąskaitą galite pavadinti Nacionalinė, kitą – Užsienio.</td>
+<td>Įveskite registravimo šablono kodą. Pavyzdžiui, galite sukurti du registravimo profilius, kad turėtumėte vieną sąskaitą tiekėjo balansams nacionaline valiuta ir kitą – tiekėjo balansams užsienio valiuta. Vieną sąskaitą galite pavadinti Nacionaline, kitą – Užsienio.</td>
 </tr>
 <tr class="even">
 <td><strong>Aprašymas</strong></td>
@@ -119,6 +118,3 @@ Norėdami nustatyti registravimo šabloną, nurodykite toliau pateiktas reikšme
 | **Atsiskaitymas** | Pasirinkite šią parinktį, kad įgalintumėte automatinį operacijų, kurių registravimo profilis yra šis, sudengimą. Jei ši parinktis atžymėta, sudengti operacijas turite rankiniu būdu puslapyje **Sudengti atidarytas operacijas**. |
 | **Atšaukti**     | Pasirinkite šią parinktį, jei norite atšaukti operacijas, kurių registravimo profilis yra šis.                                                                                                               |
 | **Uždaryti**      | Pasirinkite registravimo profilį, į kurį bus pakeičiama, kai operacijos, kurioms taikomas šis registravimo profilis, bus uždarytos. Operacija laikoma uždaryta, kai ji yra visiškai sudengta.                                       |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

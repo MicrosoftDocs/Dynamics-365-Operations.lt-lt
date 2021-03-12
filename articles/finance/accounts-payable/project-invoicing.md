@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ba2f9d69295f9f5cfb4a2a791be781de32b50f46
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5a6a29b180564dc4e4dd768b9e4b97c8877ce00c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445945"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979593"
 ---
 # <a name="project-invoicing"></a>Projekto SF išrašymas
 
@@ -75,7 +74,7 @@ Jei jūsų organizacija reikalauja, kad sąskaitų pasiūlymai būtų atnaujinti
 
 ### <a name="view-grant-information-on-project-invoice-list-pages"></a>Peržiūrėkite suteiktą informaciją apie projekto sąskaitos sąrašo puslapius
 
-Viešojo sektoriaus naudotojai gali įtraukti **Suteikti ID** ir **Suteikti vardą** į **Projekto sąskaitos pasiūlymus** ir **Projekto sąskaitų** sąrašo puslapius. Šie stulpeliai yra šjungti naudojant **Įtraukti suteikiamą informaciją projekto sąskaitų sąrašo puslapiams** funkciją. Ši funkcija išjungta pagal nutylėjimą ir gali būti įjungta **Darbo sritys > Funkcijos valdymas**. Susiekite su savo sistemos administratoriumi dėl pagalbos įjungiant šią funkciją.
+Viešojo sektoriaus naudotojai gali įtraukti **Suteikti ID** ir **Suteikti vardą** į **Projekto sąskaitos pasiūlymus** ir **Projekto sąskaitų** sąrašo puslapius. Šie stulpeliai yra šjungti naudojant **Įtraukti suteikiamą informaciją projekto sąskaitų sąrašo puslapiams** funkciją. Ši funkcija yra išjungta pagal nutylėjimą ir gali būti įjungta **Darbo sritys > Funkcijų valdymas**. Susiekite su savo sistemos administratoriumi dėl pagalbos įjungiant šią funkciją.
 
 ## <a name="on-account-invoicing"></a>Aktyvus SF išrašymas
 Projekto suma, kurią įvedate laisvos formos SF, yra pagrįsta laiku, įvykdymo procentu ir kitomis atsiskaitymo sąlygomis, nurodytomis susijusioje projekto sutartyje. Suma nėra skaičiuojama pagal valandas, prekes, išlaidas arba projekte įregistruotus mokesčius. 
@@ -132,6 +131,3 @@ Galite sukurti SF su neigiama suma; tokia sąskaita faktūra klasifikuojama kaip
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

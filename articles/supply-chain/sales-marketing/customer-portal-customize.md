@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7849f354817f189bf7c844bbe2944f94c8fffe83
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 1e491100bc24718b8e5bc0f62de241835787f7ea
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527368"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980861"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Kliento portalo tinkinimas ir naudojimas
 
@@ -40,9 +39,9 @@ Toliau nurodytose temose pateikiama pagrindinė informacija apie „Power Apps�
 - [Portalo turinio tvarkymas](https://docs.microsoft.com/dynamics365/portals/manage-portal-content) – šioje temoje paaiškinama, kaip galite tvarkyti ir tinkinti turinį, kurį pateikiate savo portale.
 - [CSS redagavimas](https://docs.microsoft.com/powerapps/maker/portals/edit-css) – ši tema padeda atlikti sudėtingesnius jūsų portalo vartotojo sąsajos (UI) tinkinimus.
 - [Portalo temos kūrimas](https://docs.microsoft.com/dynamics365/portals/create-theme) – ši tema padeda sukurti jūsų portalo vartotojo sąsajos temą.
-- [Kaip paprastai kurti ir rodyti portalo turinį](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) – ši tema padeda jums tvarkyti pagrindinius duomenis ir objektus, kuriuos naudojate savo portale.
+- [Kaip paprastai kurti ir rodyti portalo turinį](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) – ši tema padeda jums tvarkyti jūsų portale naudojamus pagrindinius duomenis ir lenteles.
 - [Portale naudojamo kontakto konfigūravimas](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) – šioje temoje paaiškinama, kaip kurti ir tinkinti vartotojų vaidmenis ir kaip veikia sauga ir autentifikavimas „Power Apps“ portaluose.
-- [Objektų formų ir interneto formų pastabų konfigūravimas portaluose](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) – šioje temoje paaiškinama, kaip įtraukti dokumentus ir papildomą saugyklą į jūsų portalą.
+- [Lentelių formų ir interneto formų pastabų konfigūravimas portaluose](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) – šioje temoje paaiškinama, kaip įtraukti dokumentus ir papildomą saugyklą į jūsų portalą.
 - [Portalo svetainės klaidų tvarkymas](https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log) – šioje temoje paaiškinama, kaip peržiūrėti portalo klaidų žurnalus ir kaip juos įrašyti į „Microsoft Azure“ didelių dvejetainių objektų saugyklos paskyrą.
 
 ## <a name="customize-the-order-creation-process"></a>Užsakymų kūrimo proceso tinkinimas
@@ -91,7 +90,7 @@ Kai vartotojas pateikia užsakymą naudodamas kliento portalą, užsakymas autom
 
 Siekiant užtikrinti sklandžią vartotojo patirtį, kliento portalas automatiškai įveda kelių privalomų laukų vertes. Šios vertės paremtos užsakymą teikiančio kliento kontakto įraše esančia informacija.
 
-Kiekvieno [kontakto įrašo](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts), priklausančio klientui, kuris naudos kliento portalą užsakymams pateikti, vertės turi būti nurodytos toliau pateiktuose privalomuose laukuose. To nepadarius įvyks klaidų.
+Kiekvienai klientui, kuris naudos kliento portalą užsakymams pateikti, priklausančio [kontakto eilutės](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) vertės turi būti nurodytos toliau pateiktuose privalomuose laukuose. To nepadarius įvyks klaidų.
 
 - **Įmonė** – juridinis subjektas, kuriam priklauso užsakymas
 - **Potencialus klientas** – kliento paskyra, kuri susijusi su pasirinktu užsakymu
@@ -99,7 +98,7 @@ Kiekvieno [kontakto įrašo](https://docs.microsoft.com/powerapps/maker/portals/
 - **Valiuta** – kainos valiuta
 - **Siuntimo šalis / regionas** – šalis arba regionas, į kurį bus pristatomos prekės
 
-Toliau nurodyti pardavimo užsakymo objekto laukai nustatomi automatiškai.
+Toliau nurodyti pardavimo užsakymo lentelės laukai nustatomi automatiškai:
 
 - **Kalba** – užsakymo kalba (pagal numatytuosius parametrus vertė paimama iš kontakto įrašo.)
 - **Siuntimo šalis / regionas** – šalis ar regionas, į kurį bus pristatytos prekės (pagal numatytuosius nustatymus, vertė paimama iš kontakto įrašo.)
@@ -116,7 +115,7 @@ Toliau nurodyti pardavimo užsakymo objekto laukai nustatomi automatiškai.
 
 Galite laisvai modifikuoti kliento portalo vartotojo sąsajos išvaizdą, jei nepakeičiate pagrindinio užsakymo kūrimo proceso. Jei norite pakeisti užsakymo kūrimo procesą, atminkite kelis dalykus.
 
-Nepašalinkite toliau nurodytų laukų iš „Common Data Service“ esančio pardavimo užsakymo objekto, nes šie laukai reikalingi norint sukurti pardavimo užsakymą naudojant dvigubo rašymo funkciją.
+Nepašalinkite toliau nurodytų stulpelių iš „Microsoft Dataverse“ esančio pardavimo užsakymo lentelės, nes šie laukai reikalingi norint sukurti pardavimo užsakymą naudojant dvigubo rašymo funkciją.
 
 - **Įmonė** – juridinis subjektas, kuriam priklauso užsakymas
 - **Pavadinimas** – pardavimo užsakymo pavadinimas
@@ -127,7 +126,7 @@ Nepašalinkite toliau nurodytų laukų iš „Common Data Service“ esančio pa
 - **Kalba** – užsakymo kalba (paprastai ši kalba yra potencialaus kliento kalba.)
 - **Pristatymo adreso aprašas** – pardavimo užsakymo pristatymo adresas
 
-Prekėms reikia nurodyti toliau išvardytus laukus.
+Prekėms reikia nurodyti toliau išvardytus stulpelius:
 
 - **Produktas** – užsakomas produktas
 - **Kiekis** – pasirinkto produkto kiekis
@@ -135,11 +134,11 @@ Prekėms reikia nurodyti toliau išvardytus laukus.
 - **Siuntimo šalis / regionas** – pristatymo šalis ar regionas
 - **Pristatymo adreso aprašas** – užsakymo pristatymo adresas
 
-Turite įsitikinti, kad jūsų kliento portalas pateikia visų šių laukų vertes.
+Turite įsitikinti, kad jūsų kliento portalas pateikia visų šių stulpelių vertes:
 
-Jei norite įtraukti laukų į puslapį arba juos pašalinti, žr. [Sparčiųjų formų kūrimas ar redagavimas, siekiant užtikrinti supaprastintą duomenų įvestį](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
+Jei norite įtraukti stulpelių į puslapį arba juos pašalinti, žiūrėkite [Sparčiųjų formų kūrimas ar redagavimas, siekiant užtikrinti supaprastintą duomenų įvestį](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
 
-Jei norite pakeisti laukų išankstines nuostatas ir tai, kaip nustatomos vertės, kai puslapis įrašomas, žr. toliau pateiktą informaciją, kuri pateikta „Power Apps“ portalų dokumentacijoje.
+Jei norite pakeisti stulpelių išankstines nuostatas ir tai, kaip nustatomos vertės, kai puslapis įrašomas, žiūrėkite toliau pateiktą informaciją „Power Apps“ portalų dokumentacijoje.
 
 - [Išankstinis lauko užpildymas](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
 - [Vertės nustatymas įrašius](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
@@ -176,6 +175,3 @@ Norėdami sužinoti daugiau apie tai, kaip galima nustatyti ir tinkinti kliento 
 - [Portalo naujovinimas](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
 - [Portalo konfigūracijos perkėlimas](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Sprendimo ciklo valdymas – „Dynamics 365 for Customer Engagement“ programos](https://www.microsoft.com/download/details.aspx?id=57777)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

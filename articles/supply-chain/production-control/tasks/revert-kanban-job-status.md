@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: KanbanBoardWorkCell, KanbanJobStatusUpdate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9cca5ea3a4c33c7f36acd18a8af7034466b3b580
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9bc147ec517b8141b4764f67d21b4c4a2e4d6e6e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433555"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4981161"
 ---
 # <a name="revert-kanban-job-status"></a>Grąžinti „kanban“ užduoties būseną
 
@@ -48,13 +47,10 @@ ms.locfileid: "4433555"
     * Pasirinkite pirmą paruoštą užduotį.  
 2. Veiksmų srityje spustelėkite Gamyba.
 3. Spustelėkite Grąžinti būseną.
-    * Galite naudoti alternatyvią „kanban“ taisyklę, kai teisingi šie teiginiai: – abiejų taisyklių papildymo strategija yra ta pati;  - abiejų taisyklių gamybos eigos versija yra ta pati;  - abiejų taisyklių tiekiamas produktas yra tas pats;  - bet kokios abiejų taisyklių vėliausiai sukonfigūruotos „kanban“ taisyklių proceso pabaigos veiklos yra tos pačios;  - sukonfigūruotos tos pačios abiejų taisyklių pateiktos atsargų dimensijos;  - sandėliavimo vieneto būsena yra Nepriskirtas;  - įvykio „kanban“ konfigūracija yra pati.  
+    * Galite naudoti alternatyvią „kanban“ taisyklę, kai teisingi šie teiginiai: – abiejų taisyklių papildymo strategija yra ta pati;  - abiejų taisyklių gamybos eigos versija yra ta pati;  - abiejų taisyklių tiekiamas produktas yra tas pats;  - bet kokios abiejų taisyklių vėliausiai sukonfigūruotos „kanban“ taisyklių proceso pabaigos veiklos yra tos pačios;  - sukonfigūruotos tos pačios abiejų taisyklių pateiktos atsargų dimensijos;  - Sandėliavimo vieneto būsena yra Nepriskirta;  - įvykio „kanban“ konfigūracija yra pati.  
     * Įsitikinkite, kad naujoji būsena yra Suplanuota.  
 4. Spustelėkite GERAI.
 5. Sąraše atžymėkite pasirinktą eilutę.
     * Pasirinkite tą pačią užduotį.  
     * Atkreipkite dėmesį, kad „kanban“ užduoties būsena grąžinama į Suplanuota (tai nurodo tuščia „kanban“ piktograma).  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

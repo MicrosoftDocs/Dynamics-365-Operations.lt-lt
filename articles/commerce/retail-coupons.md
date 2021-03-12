@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb3b505af826b1881aa8245fff66e6f05ad7486a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414276"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979680"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Mažmeninės prekybos pardavimo kuponų nustatymas
 
@@ -82,6 +81,3 @@ Kuponų funkcijos apima kelias atskiras funkcijas. „Commerce“ būstinė (ang
 - **Būstinė yra iš dalies atnaujinama, tačiau „Commerce Scale Unit“ ir EKA nėra atnaujinami.** Atnaujinant būstinę, atnaujinami kuponų ir nuolaidų puslapiai, taip pat atnaujinamas „Commerce“ kainų mechanizmas. Jei atnaujinamas tik vienas iš šių dviejų komponentų, kai kurie „Commerce“ puslapiai neatitiks kainos apskaičiavimo duomenų. Todėl skaičiuojant nuolaidas galima gauti netikėtų rezultatų arba gali įvykti klaidų.
 - **Būstinė yra iš dalies atnaujinama, tačiau „Commerce Scale Unit“ ir EKA nėra atnaujinami (N-1).** Kadangi ne visas parduotuves galima atnaujinti tuo pačiu metu, prieš atnaujindami parduotuves rekomenduojame atnaujinti būstinę. Scenarijuje N-1 naujų su kuponais susijusių funkcijų nebus galima naudoti dar neatnaujintose parduotuvėse. Pavyzdžiui, kuponų funkcijos pradeda naudoti „neįtraukimo“ eilutes. Jei naudodami nuolaidą pašalinsite eilutes, jos nebus pritaikytos parduotuvėje, kurioje veikia senesnė versija.
 - **Būstinė nėra atnaujinama, tačiau „Commerce Scale Unit“ ir EKA yra atnaujinami (N+1).** Kadangi atnaujintas „Commerce Scale Unit“ kainų mechanizmas gali apskaičiuoti kainą seniems nuolaidų kodams, atnaujinimas tam neturėtų daryti jokios įtakos.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

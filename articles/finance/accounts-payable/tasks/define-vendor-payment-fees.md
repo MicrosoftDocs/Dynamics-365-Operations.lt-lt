@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: VendPaymFee, VendPaymModeFee, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 404bd1e22caa8098f114a2dcc67dd420509cce2b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 52321851a1aa588a0bbe238e366a28d503665988
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445832"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979343"
 ---
 # <a name="define-vendor-payment-fees"></a>Nustatyti tiekėjo mokėjimo mokesčius
 
@@ -59,6 +58,3 @@ Nustatykite tiekėjų mokėjimų mokesčius. Šioje užduotyje naudojama demonst
     * Tai – mokesčio valiuta. Mokėjimo valiuta naudojama apibrėžti, kada mokesčių taisyklė turėtų būti taikoma pagal mokėjimo valiutą. Pvz., bankas gali taikyti mokestį, kai mokėjimas atliekamas eurais, tačiau visiems kitiems mokėjimams mokestis netaikomas.  
 18. Spustelėkite Įrašyti.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

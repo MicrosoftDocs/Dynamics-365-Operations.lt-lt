@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: OMHierarchyManager, EcoResCategoryHierarchyFactbox
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 15851
 ms.assetid: dfa11d41-2a0c-4cde-99b6-058c49176c94
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8f7e4d01970f459f66934fe434ec7307104b39b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 94b391ab5028f76debb75d25ac9469e25361cb12
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414440"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979621"
 ---
 # <a name="commerce-hierarchies"></a>„Commerce“ hierarchijos
 
@@ -45,6 +44,3 @@ Toliau nurodytoje lentelėje pateikiami galimi kategorijų hierarchijų tipai ir
 | Naršymo hierarchija   | Naudokite šio tipo hierarchiją, norėdami grupuoti ir tvarkyti produktus į kategorijas, kad produktus būtų galima naršyti internete arba EKA. |
 
 Naudodami kategorijų hierarchiją savo produktams struktūruoti, galite nustatyti ir prižiūrėti produkto atributus ir savybes kategorijos lygiu. Šie atributai ir ypatybės apima produktų dimensijų ir EKA parametrus. Visiems produktams, kuriuos priskiriate kategorijoms, automatiškai priskiriami jūsų nurodyti atributai ir ypatybės. Taip pat galite nukopijuoti bet kurio produkto ypatybių parametrus, norėdami vienu metu padidinti pasirinktos kategorijos produktų skaičių.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

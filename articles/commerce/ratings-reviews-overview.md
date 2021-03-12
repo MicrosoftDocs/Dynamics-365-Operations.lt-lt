@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1248ce660d765ddade1df7d79786202235019990
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ed31982dad8af4509d8dd0615ae53e3d3806640f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414449"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979783"
 ---
 # <a name="ratings-and-reviews-overview"></a>Įvertinimų ir atsiliepimų apžvalga
 
@@ -59,6 +58,3 @@ Toliau pateiktame paveikslėlyje parodyta, kaip veikia įvertinimų ir apžvalg�
 [Įvertinimų ir atsiliepimų konfigūravimas](configure-ratings-reviews.md)
 
 [Produktų įvertinimų sinchronizavimas sprendime „Dynamics 365 Commerce“](sync-product-ratings.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

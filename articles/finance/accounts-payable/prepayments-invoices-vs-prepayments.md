@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, PurchTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15871
 ms.assetid: a0bb5220-73d4-48ae-84d0-46a171c224fa
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4247193732a49cf0d26f0437f57f3ed66061a118
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d9c29529aa57eb7685e36f5407f4279544fdb701
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445947"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979543"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Išankstinio mokėjimo SF ir išankstiniai mokėjimai
 
@@ -38,24 +37,24 @@ Organizacijos gali tiekėjams išduoti išankstinius mokėjimus (mokėjimus iš 
 | Išankstinio mokėjimo SF išrašymas                                                                | Išankstiniai mokėjimai                                                              |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | Nurodykite išankstinio mokėjimo vertę pirkimo užsakyme.                                    | Pirkimo užsakyme išankstinio mokėjimo vertė nenurodyta.                    |
-| Raktas: išankstinio mokėjimo SF ir paskutinė SF turi būti užregistruotos.                       | Išankstinio apmokėjimo SF registruoti nereikia.                                    |
+| Raktas: išankstinio apmokėjimo sąskaita ir paskutinė sąskaita turi būti publikuotos.                       | Išankstinio apmokėjimo SF registruoti nereikia.                                    |
 | Išankstinio mokėjimo įsipareigojimai saugomi išankstinio mokėjimo sąskaitoje, o ne AP sąskaitoje. | Išankstinio mokėjimo įsipareigojimai saugomi AP sąskaitoje.                  |
 | Tiekėjo balansas neatspindi išankstinio mokėjimo vertės visos proceso metu.     | Tiekėjo balansas atspindi išankstinio mokėjimo vertę visos proceso metu. |
 | Išankstinio mokėjimo SF išrašyti galima tik naudojant mokėtinas sumas.                         | Išankstinius mokėjimus atlikti galima naudojant mokėtinas sumas ir gautinas sumas.    |
 
 ## <a name="overview-of-the-prepayment-process"></a>Išankstinio mokėjimo proceso apžvalga
-Daugelyje šalių/regionų norint atlikti apskaitą, reikia, kad išankstiniai apmokėjimai iš kliento arba tiekėjui nebūtų registruojami į įprastas sumines kliento ar tiekėjo sąskaitas. Vietoj to šie išankstiniai apmokėjimai registruojami į specialias DK sąskaitas, skirtas išankstiniams apmokėjimams. Kai sukuriamas pardavimo arba pirkimo užsakymas, išrašoma SF klientui arba iš tiekėjo. Apmokant SF, išankstinis apmokėjimas ir PVM išankstinio mokėjimo kvitas, esantys išankstinių apmokėjimų DK sąskaitoje, atšaukiami, o SF sumos automatiškai užregistruojamos įprastose suminėse sąskaitose. Atlikite toliau nurodytus veiksmus, norėdami sukurti išankstinį mokėjimą.
+Apskaitos praktikos daugelyje šalių ir regionų reikalauja, kad išankstiniai mokėjimai iš kliento ar pardavėjo nebūtų publikuojami į įprastas santraukų kliento ar pardavėjo ataskaitas. Vietoj to šie išankstiniai apmokėjimai registruojami į specialias DK sąskaitas, skirtas išankstiniams apmokėjimams. Kai prekybos užsakymas ar pirkimo užsakymas yra sukuriami, sąskaita yra išraoma klientui ar pardavėjo. Apmokant SF, išankstinis apmokėjimas ir PVM išankstinio mokėjimo kvitas, esantys išankstinių apmokėjimų DK sąskaitoje, atšaukiami, o SF sumos automatiškai užregistruojamos įprastose suminėse sąskaitose. Atlikite toliau nurodytus veiksmus, norėdami sukurti išankstinį mokėjimą.
 
 1.  Nustatykite išankstinių mokėjimų registravimo šablonus.
 2.  Puslapiuose Gautinų sumų parametrai ir Mokėtinų sumų parametrai, esančiuose dalyje **DK ir PVM**, pasirinkite naują registravimo šabloną naudodami parametrą **Registravimo šablonas, skirtas mokėjimo žurnalui, su išankstiniu mokėjimu**.
-3.  Sukurkite mokėjimo žurnalą, o tada sukurkite naują mokėjimą.
-4.  Mokėjimą galite pažymėti kaip išankstinį mokėjimą. Jei mokėjimas pažymėtas kaip išankstinis mokėjimas, mokėjimas užregistruojamas DK sąskaitose, nurodytose registravimo šablone, kurį nustatėte atlikdami 1 ir 2 veiksmus. Be to, jei mokėjimas pažymėtas kaip išankstinis mokėjimas, skaičiuojami mokesčiai. Kai kurios vyriausybės reikalauja, kad mokesčiai būtų sumokami, kai įrašomas išankstinis apmokėjimas, net jei SF nėra.
+3.  Kurkite mokėjimo žurnalą ir tada kurkite naują mokėjimą.
+4.  Mokėjimą galite pažymėti kaip išankstinį mokėjimą. Jei mokėjimas yra pažymėtas kaip išankstinis mokėjimas, jis yra publikuojamas į buhalterinės knygos sąskaitas, kurios yra nustatomos publikavimo profilyje, kurį nustatėte žingsnyje 1 ir 2. Be to, jei mokėjimas pažymėtas kaip išankstinis mokėjimas, skaičiuojami mokesčiai. Kai kurios vyriausybės prašo, kad mokesčiai būtų sumokėti, kai registruojamas išankstini mokėjimas net ir be sąskaitos.
 5.  Užregistruokite išankstinį apmokėjimą.
-6.  Pasirinktinai: išankstinį mokėjimą galite sudengti pagal pirkimo arba pardavimo užsakymą prieš kurdami SF.Pardavimo užsakymo arba pirkimo užsakymo puslapio veiksmų srityje pasirinkite **Sudengti operacijas**.
-7.  Po to, kai tiekėjas pristato prekes arba paslaugas, įrašykite SF. Jei išankstinį mokėjimą sudengiate pagal pirkimo arba pardavimo užsakymą (6 veiksmas), išankstinis mokėjimas yra automatiškai sudengiamas pagal jūsų sukurtą SF. Jei išankstinio mokėjimo pagal pirkimo arba pardavimo užsakymą nesudengėte, galite jį neautomatiškai sudengti pagal SF, kliento arba tiekėjo puslapyje pasirinkdami **Sudengti operacijas**. Tada išankstinio mokėjimo suma yra atšaukiama iš laikinos AP/AR DK sąskaitos. Be to, jei buvo apskaičiuoti mokesčiai, jie bus atšaukti, nes SF pateikiami faktiniai mokesčiai.
+6.  Pasirinktinai: galite nustatyti išankstinį mokėjimą pagal įsigijimo užsakymą ar pardavimo užsakymą prieš sukurdami sąskaitą. Prekybos užsakyme ar pirkimo užsakymo puslapyje, veiksmų juostoje naudokite **Nustatyti transakcijas**.
+7.  Po to, kai tiekėjas pristato prekes arba paslaugas, įrašykite SF. Jei išankstinį mokėjimą sudengiate pagal pirkimo arba pardavimo užsakymą (6 veiksmas), išankstinis mokėjimas yra automatiškai sudengiamas pagal jūsų sukurtą SF. Jei nenustatėte išankstinio mokėjima pagal pirkimo ar pardavimo užsakymą, galite rankiniu būdu nustatyti jį pagal sąskaitą naudodami **Nustatyti transakcijas** kliento ar pardavėjo puslapyje. Tada išankstinio mokėjimo suma yra atšaukiama iš laikinos AP/AR DK sąskaitos. Be to, jei buvo apskaičiuoti mokesčiai, jie bus atšaukti, nes SF pateikiami faktiniai mokesčiai.
 
 ## <a name="overview-of-the-prepayment-invoicing-process"></a>Išankstinio mokėjimo SF išrašymo proceso apžvalga
-Išankstinio mokėjimo SF versle yra įprastos. Tiekėjas išduoda išankstinio mokėjimo SF, reikalaudamas pirkimo depozito prieš pirkimo užsakymo vykdymą. Pvz., kai kurie tiekėjai gali prašyti iš anksto sumokėti už tam tikras prekes arba paslaugas. Jei tiekėjas išduoda SF, pagal kurią reikalingas išankstinis mokėjimas, galite naudoti išankstinio mokėjimo SF išrašymo funkciją. Išankstinio mokėjimo vertę galima nurodyti pirkimo užsakyme, išankstinio apmokėjimo SF yra užregistruojama ir apmokama, o tada išankstinio mokėjimo SF taikoma paskutinei SF. Atlikite toliau nurodytus veiksmus, norėdami sukurti išankstinį mokėjimą.
+Išankstinio mokėjimo sąskaitos yra bendra verslo praktika. Tiekėjas išduoda išankstinio mokėjimo SF, reikalaudamas pirkimo depozito prieš pirkimo užsakymo vykdymą. Pavyzdžiui, kai kurie pardavėjai prašo išankstinio mokėjimo už tinkintas prekes ar paslaugas. Jei tiekėjas išduoda SF, pagal kurią reikalingas išankstinis mokėjimas, galite naudoti išankstinio mokėjimo SF išrašymo funkciją. Išankstinio mokėjimo vertė gali būti nustatyta prekybos užsakyme, išankstinio mokėjimo sąskaita yra užregistruojama ir mokama ir tuomet išankstinio mokėjimo sąskaita taikoma paskutinei sąskaitai. Atlikite toliau nurodytus veiksmus, norėdami sukurti išankstinį mokėjimą.
 
 1.  Pirkimo agentas kuria, tvirtina ir tada pateikia pirkimo užsakymą, už kurį tiekėjas prašė išankstinio mokėjimo. Išankstinio mokėjimo vertė pirkimo užsakyme nurodoma kaip sutarties dalis.
 2.  Tiekėjas pateikia išankstinio mokėjimo SF.
@@ -66,6 +65,3 @@ Išankstinio mokėjimo SF versle yra įprastos. Tiekėjas išduoda išankstinio 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
