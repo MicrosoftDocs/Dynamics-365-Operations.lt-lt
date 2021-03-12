@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails, PCProductConfigurationModelListPage, PCModalWaitDialog, PCTemplateConfigurationManager, PCConfigurationUIGrouping
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 4031
 ms.assetid: 70b968e8-e550-4731-823d-d713b8910f7b
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87d61203d36722194b98a247609fa126b71b846c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e82eb3fcfe4347b7faa4c775e9909a792e2b9baf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433365"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983321"
 ---
 # <a name="product-configuration-models-overview"></a>Produkto konfigūracijos modelių apžvalga
 
@@ -56,8 +55,8 @@ Produkto konfigūracijos modeliai yra skirti nepatentuotų produktų struktūrai
 <td>Atributais vadinamos visos produkto konfigūracijos modelio funkcijos. Atributus galite naudoti nurodydami funkcijas, kurias galima pasirinkti, kai sukonfigūruojamas atskiras produktas. Atributai naudojami apribojimuose ir sąlygose. Kai atributai yra sukuriami ir pridedami prie produkto konfigūracijos modelio, nurodomi susiję atributų tipai. Atributui gali būti priskirta numatytoji vertė. Numatytoji vertė yra naudojama konfigūracijos vartotojo sąsajoje (UI), kai konfigūruojamas produkto konfigūracijos modelis. Galite nurodyti, kad atributas yra privalomas, tik skaitomas arba paslėptas.
 <ul>
 <li><strong>Privaloma</strong> – kai produktas konfigūruojamas, atributui turi būti nustatyta reikšmė.</li>
-<li><strong>Tik skaityti</strong> – atributo reikšmė rodoma konfigūracijos seanso metu, tačiau ji negali būti keičiama.</li>
-<li><strong>Paslėpta</strong> – atributo reikšmė yra įtraukta į apribojimus ir sąlygas, bet nerodoma konfigūracijos seanso metu.</li>
+<li><strong>Tik skaityti</strong> – atributo reikšmė rodoma konfigūracijos seanso metu, tačiau ji negali&#39; būti keičiama.</li>
+<li><strong>Paslėpta</strong> – atributo reikšmė yra įtraukta į apribojimus ir sąlygas, bet nerodoma&#39; konfigūracijos seanso metu.</li>
 </ul>
 Taip pat galite nurodyti atributo sąlygas. Jei sąlygos įvykdytos, privalomam atributui turi būti įvesta vertė. Sąlygos yra išraiškos, kurias turi atitikti atributai, KS eilutės ir maršruto operacijos, kurios turi būti įtrauktos į produkto konfigūracijos modelį. Bet kuris atributas, kuris yra nurodomas sąlygose, tampa privalomas. Rekomenduojame skirtuke <strong>Atributai</strong> atributus pasirinkti kaip privalomus. Tokiu būdu atpažinti privalomus atributus bus lengviau. Atributo vertės yra svarbios pakartotinai naudojamų konfigūracijų dalys. Atributo reikšmės sistemoje naudojamos siekiant nustatyti, ar konfigūracija atitinka pasirinkimus, kuriuos vartotojas atliko konfigūracijos seanso metu.</td>
 </tr>
@@ -76,7 +75,7 @@ Jei atributo tipas yra <strong>Bulio logika</strong>, <strong>Sveikasis skaičiu
 <td>Apribojimai</td>
 <td>Apribojimais vadinami produkto modelio konfigūracijos apribojimai. Apribojimai naudojami siekiant užtikrinti, kad būtų pasirinktos tik tinkamos reikšmės, kai konfigūruojamas produktas. Apribojimai gali būti išraiškos arba lentelės apribojimai.
 <ul>
-<li>Išraiškos apribojimai gali būti naudojami tik su susijusiais komponentais. Komponento išraiškos apribojimai gali nurodyti komponento pakomponenčio atributus. Produktų konfigūravimo sprendimų priemonė naudojama siekiant išspręsti apribojimus, ir rašydami apribojimus turite naudoti sprendimų priemonės sintaksę. Daugiau informacijos rasite naudodami temos saitą apie išraiškos apribojimus ir lentelių apribojimus.</li>
+<li>Išraiškos apribojimai gali būti naudojami tik su susijusiais komponentais. Komponento išraiškos apribojimai gali nurodyti komponento&#39; pakomponenčio atributus. Produktų konfigūravimo sprendimų priemonė naudojama siekiant išspręsti apribojimus, ir rašydami apribojimus turite naudoti sprendimų priemonės sintaksę. Daugiau informacijos rasite naudodami temos saitą apie išraiškos apribojimus ir lentelių apribojimus.</li>
 <li>Lentelės apribojimai turi būti nurodomi prieš juos taikant produkto konfigūracijos modelio komponentui. Lentelės apribojimai gali būti nustatomi vartotojui arba sistemai. Vartotojo apibrėžtos lentelės apribojimas yra matricos tipas, kuris gali būti naudojamas derinių rinkinio atributo reikšmėms apibūdinti, kurios yra apibrėžiamos atributo tipo. Pavyzdžiui, jei gaminami garsiakalbiai, naudotojo apibrėžto lentelės apribojimo matricoje gali būti stulpeliai, skirti garsiakalbio apdailai ir grotelėms.</li>
 </ul>
 <strong>Pavyzdys</strong> Garsiakalbių apdailos yra keturios: juoda, ąžuolo, palisandro ir balta. Garsiakalbiai gali turėti vienas iš trijų priekinių grotelių: juodas, metalo arba baltas. Juodos gali būti visos grotelės, tačiau kitos apdailos naudojamos tik tam tikroms grotelėms. Toliau pateiktoje lentelėje rodomas informacijos, rodomos skirtuke <strong>Leistini deriniai</strong>, puslapyje <strong>Redaguoti lentelės apribojimą</strong> pavyzdys.
@@ -132,15 +131,15 @@ Sistemos apibrėžtas lentelės apribojimas apibūdina sąsają tarp atributo ti
 <li>Lauke <strong>Produkto potipis</strong> pasirinkite <strong>Bendrasis produktas</strong>.</li>
 <li>Lauke <strong>Konfigūravimo technologija</strong> pasirinkite <strong>Konfigūravimas pagal apribojimus</strong>.</li>
 </ul>
-Peržiūrėti, ar išleistas produktas gali būti naudojamas kaip komponentas arba pakomponentis, galite peržiūrėti puslapio <strong>Išleisto produkto informacija</strong> skirtuke <strong>Bendra</strong>. Jei lauke <strong>Konfigūravimo technologija</strong> pasirinkta <strong>Konfigūravimas pagal apribojimus</strong>, produktą galima naudoti kaip komponentą ar pakomponentį. Pakomponenčius galite paslėpti, kad konfigūracijos seanso metu jie nebūtų rodomi naudotojui. Atributai, pakomponenčiai ir vartotojo reikalavimai, kurie yra susiję su pakomponenčiais, taip pat paslėpti.</td>
+Peržiūrėti, ar išleistas produktas gali būti naudojamas kaip komponentas arba pakomponentis, galite peržiūrėti puslapio <strong>Išleisto produkto informacija</strong> skirtuke <strong>Bendra</strong>. Jei lauke <strong>Konfigūravimo technologija</strong> pasirinkta <strong>Konfigūravimas pagal apribojimus</strong>, produktą galima naudoti kaip komponentą ar pakomponentį. Pakomponenčius galite paslėpti, kad konfigūracijos seanso metu jie nebūtų&#39; rodomi naudotojui. Atributai, pakomponenčiai ir vartotojo reikalavimai, kurie yra susiję su pakomponenčiais, taip pat paslėpti.</td>
 </tr>
 <tr class="odd">
 <td>Vartotojo reikalavimai</td>
-<td>Vartotojo reikalavimai apibūdina abstrakciją tarp vartotojo reikalavimų, tam tikrų komponentų ir atributų. Jūs negalite susieti naudotojo reikalavimo ir prekės. Pavyzdžiui, klientas perka namų kino sistemą. Pardavėjas gali pasiteirauti, koks kliento kambario dydis, kuriame jis planuoja įrengti sistemą, kad nustatytų, kokio galingumo sistema geriausiai atitiktų jo poreikius. Šiame pavyzdyje kambario dydis gali tapti vartotojo reikalavimu, kuris suteiks galimybę nustatyti atitinkamas atributo vertes tam tikram komponentui. Kad konfigūracijos seanso metu vartotojas nematytų reikalavimų, galite juos paslėpti. Atributai, pakomponenčiai ir vartotojo reikalavimai, kurie yra susiję su vartotojo reikalavimais, taip pat paslėpti. Norėdami kontroliuoti arba paslėpti vartotojo reikalavimus, galite įrašyti sąlygą, Sąlyga turi būti įrašyta naudojant optimizavimo modeliavimo kalbos (OML) sintaksę.</td>
+<td>Vartotojo reikalavimai apibūdina abstrakciją tarp vartotojo reikalavimų, tam tikrų komponentų ir atributų. Jūs negalite&#39; susieti naudotojo reikalavimo ir prekės. Pavyzdžiui, klientas perka namų kino sistemą. Pardavėjas gali pasiteirauti, koks kliento kambario dydis, kuriame jis planuoja įrengti sistemą, kad nustatytų, kokio galingumo sistema geriausiai atitiktų jo poreikius. Šiame pavyzdyje kambario dydis gali tapti vartotojo reikalavimu, kuris suteiks galimybę nustatyti atitinkamas atributo vertes tam tikram komponentui. Kad konfigūracijos seanso metu vartotojas nematytų&#39; reikalavimų, galite juos paslėpti. Atributai, pakomponenčiai ir vartotojo reikalavimai, kurie yra susiję su vartotojo reikalavimais, taip pat paslėpti. Norėdami kontroliuoti arba paslėpti vartotojo reikalavimus, galite įrašyti sąlygą, Sąlyga turi būti įrašyta naudojant optimizavimo modeliavimo kalbos (OML) sintaksę.</td>
 </tr>
 <tr class="even">
 <td>KS eilutės</td>
-<td>KS eilutės rodo atskiras komponentų medžiagas produkto konfigūracijos modelyje. Puslapyje <strong>KS eilutės informacija</strong> galima pasirinkti visas prekes. Sąlyga gali būti pridėta į KS eilutę, kad KS eilutės, kurios yra parenkamos atskiram produkto variantui, skirtųsi atsižvelgiant į naudotojo pasirinktį, kai produkto konfigūracijos modelis buvo nustatytas. Sąlygos yra išraiškos, kurias turi atitikti atributai, KS eilutės ir maršruto operacijos, kurios turi būti įtrauktos į produkto konfigūracijos modelį. Puslapyje <strong>KS eilutės informacija</strong> galite pasirinkti atskirą reikšmę. Taip pat galite susieti su atributu, kuriam reikšmė buvo parinkta, kai buvo nustatomas produkto konfigūracijos modelis.</td>
+<td>KS eilutės rodo atskiras komponentų medžiagas produkto konfigūracijos modelyje. Puslapyje <strong>KS eilutės informacija</strong> galima pasirinkti visas prekes. Sąlyga gali būti pridėta į KS eilutę, kad KS eilutės, kurios yra parenkamos atskiram produkto variantui, skirtųsi atsižvelgiant į naudotojo&#39; pasirinktį, kai produkto konfigūracijos modelis buvo nustatytas. Sąlygos yra išraiškos, kurias turi atitikti atributai, KS eilutės ir maršruto operacijos, kurios turi būti įtrauktos į produkto konfigūracijos modelį. Puslapyje <strong>KS eilutės informacija</strong> galite pasirinkti atskirą reikšmę. Taip pat galite susieti su atributu, kuriam reikšmė buvo parinkta, kai buvo nustatomas produkto konfigūracijos modelis.</td>
 </tr>
 <tr class="odd">
 <td>Maršruto operacijos</td>
@@ -153,6 +152,3 @@ Peržiūrėti, ar išleistas produktas gali būti naudojamas kaip komponentas ar
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

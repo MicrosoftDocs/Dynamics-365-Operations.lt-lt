@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b7975088be898ccecceb1f7be009cecff107f6e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c29ede7ad8916a97b4a04b68f41961f79810e0c8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433566"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983574"
 ---
 # <a name="approve-planned-orders"></a>Suplanuotų užsakymų tvirtinimas
 
@@ -43,6 +42,3 @@ Laukas **Būsena** padeda sekti jūsų procesą naudojant toliau pateiktas reik�
 - **Patvirtinta:** jei norite palikti pakeitimus arba planuojate tvirtinti suplanuotą užsakymą, pakeiskite būseną į *Patvirtinta*. Suplanuoti užsakymai, kurių būsena yra *Patvirtinta*, laikomi fiksuotais ir numatyto tiekimo bendrojo planavimo metu, kad nebūtų modifikuojami ar panaikinami vėlesnių pagrindinio planavimo vykdymų metu. Norint tai pasiekti, planavimo logika kopijuoja *patvirtintus* suplanuotus užsakymus iš senosios plano versijos į naująją plano versiją bendrojo planavimo metu. Atkreipkite dėmesį, kad suplanuoti užsakymai, kurių būsena *Patvirtinta*, laikomi numatyto tiekimo tik konkrečiame pagrindiniame plane.
 
 Suplanuotus užsakymus galite valdyti naudodami darbo sritį **Bendrasis planavimas**, sąrašą **Suplanuoti užsakymai** arba sąrašus **Suplanuoti gamybos užsakymai**, **Suplanuoti pirkimo užsakymai** ir **Suplanuotas perkėlimas**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

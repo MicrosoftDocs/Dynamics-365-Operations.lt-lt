@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e57c51011f1d93a6f62eb88c9cc45a38f2d0a5f3
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 59cfc629e7c6e978715f08bc4a3383ba6f9bb089
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528749"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984989"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-developers"></a>„Dynamics 365 Finance“ kūrėjų mokymosi katalogas
 
@@ -49,8 +48,8 @@ Toliau pateiktas katalogas yra sutvarkytas taip, kad žinios būtų išdėstytos
 | [„Finance and Operations”: „Dynamics 365 for Finance and Operations” išplėtimas naudojant „PowerApps” (DYN558PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extending-dynamics-365-with-powerapps-2-6-2019) | Sužinokite, kaip paprasta naudoti „Microsoft PowerApps” ir kaip ją galima integruoti su „Dynamics 365 for Finance and Operations”, kad skaitmeniniu būdu būtų transformuojamos įmonės ir didinamas vartotojo produktyvumas. | Nemokamas internetinės konferencijos įrašymas | 43 minučių |
 | [Finance and Operations: išplečiamumas (DYN518PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extensibility-10-26-18) | Pateiksime „Microsoft” praplėtimo planų apžvalgą ir naujinimą. Išsamiai aptarsime įvairius sprendimo išplėtimo būdus, žvelgdami giliau į metaduomenų išplėtimo funkcijas bei galimybę pildyti ir išplėsti kodą, įskaitant galingą eiliškumo modelio funkciją. | Nemokamas internetinės konferencijos įrašymas | 50 min. |
 | [„Visual Studio Team Services“ (VSTS) sąranka (VIR782PAL) ](https://community.dynamics.com/365/b/techtalks/posts/visual-studio-team-services-vsts-setup-january-17-2017) | Šioje techninėje kalboje apžvelgsime reikiamus veiksmus konfigūruojant VSTS egzempliorių ir projektą, norint prisijungti prie LCS diegimo projekto kūrimo / testavimo aplinkos konfigūravimui. | Nemokamas internetinės konferencijos įrašymas | 41 minučių |
-| [CDS duomenų integratorius (DYN451PAL2)](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | Prisijunkite prie šios techninės kalbos apie „Common Data Service” (CDS) duomenų integratoriaus galimybes. Diskutuosime integravimo parinktis tarp „Dynamics 365 Customer Engagement“ ir „Dynamics 365 Finance and Operations“, taip pat integravimą su kitos, trečiosios šalies sprendimais. | Nemokamas internetinės konferencijos įrašymas | 61 minučių |
-| [Integravimas tarp „Dynamics 365 for Sales“ ir „Dynamics 365 for Finance & Operations“ per CDS (DYN340PAL) ](https://community.dynamics.com/365/b/techtalks/posts/integration-between-dynamics-365-for-sales-and-dynamics-365-for-finance-amp-operations-via-cds-september-25-2017) | Šioje techninėje kalboje pristatysime integravimo scenarijų, žinomą kaip „Potencialus klientas ir grynieji pinigai“ kartu su pardavimo ir rinkodaros veiklomis „Dynamics 365 for Sales“ ir įgyvendinimu „Dynamics 365 for Finance and Operations“ Mes taip pat apžvelgsime duomenų integratorių ir kaip modifikuoti integravimą. | Nemokamas internetinės konferencijos įrašymas | 54 minučių |
+| [„Dataverse“ duomenų integratorius (DYN451PAL2)](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | Prašome prijungti mus prie šios techninės diskusijos apie „Dataverse“ duomenų integratoriaus galimybes. Diskutuosime integravimo parinktis tarp „Dynamics 365 Customer Engagement“ ir „Dynamics 365 Finance and Operations“, taip pat integravimą su kitos, trečiosios šalies sprendimais. | Nemokamas internetinės konferencijos įrašymas | 61 minučių |
+| [Integravimas tarp „Dynamics 365 for Sales“ ir „Dynamics 365 for Finance & Operations“ per „Dataverse“ (DYN340PAL)](https://community.dynamics.com/365/b/techtalks/posts/integration-between-dynamics-365-for-sales-and-dynamics-365-for-finance-amp-operations-via-cds-september-25-2017) | Šioje techninėje kalboje pristatysime integravimo scenarijų, žinomą kaip „Potencialus klientas ir grynieji pinigai“ kartu su pardavimo ir rinkodaros veiklomis „Dynamics 365 for Sales“ ir įgyvendinimu „Dynamics 365 for Finance and Operations“ Mes taip pat apžvelgsime duomenų integratorių ir kaip modifikuoti integravimą. | Nemokamas internetinės konferencijos įrašymas | 54 minučių |
 | [Duomenų valdymas (DYN757PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-scm-data-management-february-14-2020) | Prašome prisijungti prie šio mūsų pokalbio apie duomenų valdymą. Sužinokite apie galimas parinktis ir scenarijus, kuriems ji rekomenduojama. Mes aptarsime „Data Management“ sistemą, šablonus, duomenų bazės kopijavimą, duomenų mainus tarp įmonių ir našumo klausimus. | Nemokamas internetinės konferencijos įrašymas | 58 minutės |
 | [„Dynamics 365 for Finance and Operations“ skirti „Azure“ integravimo įrankiai (DYN386PAL) ](https://community.dynamics.com/365/b/techtalks/posts/azure-integration-tools-for-dynamics-365-for-finance-and-operations-november-2-2017) | Šioje techninėje kalboje apžvelgsime įrankių, kuriuos galite naudoti integracijai su „Dynamics 365 for Finance & Operations“, tipus, o tada apžvelgsime, kokį konkretų integravimo įrankį rinktis atsižvelgiant į situaciją. Seanso metu taip pat apžvelgsime kai kuriuos integravimo scenarijus, vykdomus naudojant „Azure“ integravimo tarnybas. | Nemokamas internetinės konferencijos įrašymas | 63 minučių |
 | [„Dynamics 365 for Finance & Operations“ integravimo sistema (DYN385PAL) ](https://community.dynamics.com/365/b/techtalks/posts/integration-frameworks-within-dynamics-365-for-finance-amp-operations-october-31-2017) | Šio seanso metu bus pateikta „Dynamics 365 for Finance & Operations“ integravimo sistemų apžvalga ir aptariama, kada šios sistemos galėtų būti naudojamos. | Nemokamas internetinės konferencijos įrašymas | 64 minučių |
@@ -94,6 +93,3 @@ Toliau pateiktas katalogas yra sutvarkytas taip, kad žinios būtų išdėstytos
 | Turinys | aprašymas  | Formatuoti  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 |[Exam MB-500: „Microsoft Dynamics 365“: „Finance and Operations“ programų kūrėjas](https://docs.microsoft.com/learn/certifications/exams/mb-500) | Šis tyrimas vertina jūsų galimybę užbaigti tolesnes technines užduotis: suplanuoti architektūros ir sprendimo dizainą; taikyti kūrimo įrankius, projektuoti ir vystyti AOT elementus; vystyti ir bandyti kodą; įgyvendinti ataskaitų kūrimą; integruoti ir valdyti duomenų sprendimus; įgyvendinti saugumą ir optimizuoti vykdymą. | Egzamino kaina priklauso nuo regiono |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

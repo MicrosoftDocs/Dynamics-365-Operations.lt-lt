@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails, InventValueProcess, InventValueReportSetup, InventClosing
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: riluan
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e84bb167395c06295b0e8ef8b9fd98aa4bc0cc14
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: b8c527e578fee6abfeeade99fba8070365c020bd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4434038"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983855"
 ---
 # <a name="troubleshoot-cost-management"></a>Trikčių šalinimo kaštų valdymas
 
@@ -48,13 +47,13 @@ Galite vykdyti bandyminį balansą tam, kad gautumėte inventoriaus sąskaitas i
 
 „Microsoft“ pristatė tolesnius patvirtinimus siekiant išvengti problemų, kurias sukėlė netinkamas laikotarpio pabaigos procesas dėl kaštų. Jei susiduriate su bet kuriuo iš šių klaidos pranešimų, žr. [KB 4561987](https://fix.lcs.dynamics.com/Issue/Details?kb=4561987&bugId=445351&dbType=3&qc=f514f2adcddcddceec43af58c26ae8a9020effdc7cdfe085d9d0deeb8cc7b6a3) dėl išsamesnės informacijos apie tai, kaip spręsti šias problemas.
 
-- Rengiatės vykdyti pakartotinį skaičiavimą su data %1 (10-02-2019). Paskutinis registruotas pakartotinis skaičiavimas buvo vykdytas ankstesniu laikotarpiu su data %2 (20-01-2019). Nėra jokio inventoriaus uždarymo vykdymo su data %3 (31-01-2019), kuris atitinka registruotą laikotarpio pabaigą. Prašome atsiminti, kad turite vykdyti inventoriaus uždarymą %3 (31-01-2019) pagla atitinkančio laikotarpio pabaigą. Inventorių vertinimas, parduotų prekių kaštai ir pakeitimai gali būti neteisingi papildomoje buhalterijos knygoje ar pagrindinėje knygoje, kol jis nebus atliktas.
+- Rengiatės vykdyti pakartotinį skaičiavimą su data %1 (10-02-2019). Paskutinis registruotas pakartotinis skaičiavimas buvo vykdytas ankstesniu laikotarpiu su data %2 (20-01-2019). Nėra jokio inventoriaus uždarymo vykdymo su data %3 (31-01-2019), kuris atitinka registruotą laikotarpio pabaigą. Prašome atsiminti, kad turite vykdyti inventoriaus uždarymą %3 (31-01-2019) pagla atitinkančio laikotarpio pabaigą. Atsargų vertinimas, parduotų prekių išlaidos ir nuokrypiai gali būti neteisingi papildomoje buhalterijos knygoje ar pagrindinėje knygoje, kol šis veiksmas nebus atliktas.
 
-- Rengiatės pakeisti buhalterinės laikotarpio knygose būseną %1 į %2. Nėra jokio inventoriaus uždarymo vykdymo su data %3, kuris atitinka registruotą laikotarpio pabaigą. Prašome vykdyti inventoriaus uždarymą %3 pagal atitinkančio laikotarpio pabaigą prieš pakeisdami būseną. Inventorių vertinimas, parduotų prekių kaštai ir pakeitimai gali būti neteisingi papildomoje buhalterijos knygoje ar pagrindinėje knygoje, kol jis nebus atliktas. Pranešta iš juridinio asmens %4. Kol kas šis veiksmas yra informacinio pobūdžio, tačiau ateityje jums reikės atlikti tokį veiksmą.
+- Rengiatės pakeisti buhalterinės laikotarpio knygose būseną %1 į %2. Nėra jokio inventoriaus uždarymo vykdymo su data %3, kuris atitinka registruotą laikotarpio pabaigą. Prašome vykdyti inventoriaus uždarymą %3 pagal atitinkančio laikotarpio pabaigą prieš pakeisdami būseną. Atsargų vertinimas, parduotų prekių išlaidos ir nuokrypiai gali būti neteisingi papildomoje buhalterijos knygoje ar pagrindinėje knygoje, kol šis veiksmas nebus atliktas. Pranešta iš juridinio asmens %4. Kol kas šis veiksmas yra informacinio pobūdžio, tačiau ateityje jums reikės atlikti tokį veiksmą.
 
 - Buhalterijos struktūra %1 buvo pakeista. Viena ar daugiau pagrindinių sąskaitų %2 nebeegzistuoja. Šios pagrindinės sąskaitos turi būti pagal %3 datą %4. Prašome įtraukti šias pagrindines sąskaitas į buhalterijos struktūrą %1 prieš tai, kai galėsite tęsti %3 darbą. Kol kas šis veiksmas yra informacinio pobūdžio, tačiau ateityje jums reikės atlikti tokį veiksmą.
 
-- Rengiatės vykdyti inventoriaus uždarymą su data %1 (31-01-2019). Nėra jokio atgalinio nuleidimo kaštų apskaičiavimo vykdymo su data %2 (2019 01 31), kuris atitinka registruotą laikotarpio pabaigą. Prašome nepamiršti vykdyti atgalinio nuleidimo kaštų apskaičiavimo vykdymo su data %3 (2019 01 31), kuris atitinka registruotą laikotarpio pabaigą. Inventorių vertinimas, parduotų prekių kaštai ir pakeitimai gali būti neteisingi papildomoje buhalterijos knygoje ar pagrindinėje knygoje, kol jis nebus atliktas.
+- Rengiatės vykdyti inventoriaus uždarymą su data %1 (31-01-2019). Nėra jokio atgalinio nuleidimo kaštų apskaičiavimo vykdymo su data %2 (2019 01 31), kuris atitinka registruotą laikotarpio pabaigą. Prašome nepamiršti vykdyti atgalinio nuleidimo kaštų apskaičiavimo vykdymo su data %3 (2019 01 31), kuris atitinka registruotą laikotarpio pabaigą. Atsargų vertinimas, parduotų prekių išlaidos ir nuokrypiai gali būti neteisingi papildomoje buhalterijos knygoje ar pagrindinėje knygoje, kol šis veiksmas nebus atliktas.
 
 - Rengiatės vykdyti atgalinio nuleidimo kaštų skaičiavimą su data %1 (2019 02 28). Paskutinis registruotas atgalinis kaštų skaičiavimas buvo vykdytas ankstesniu laikotarpiu su data %2 (2019 01 31). Nėra jokio inventoriaus uždarymo vykdymo su data %3 (2019 01 31), kuris atitinka registruotą laikotarpio pabaigą.
 Prašome atsiminti, kad turite vykdyti inventoriaus uždarymą %3 (2019 01 31) pagal atitinkančio laikotarpio pabaigą. Inventorių vertinimas, parduotų prekių kaštai ir pakeitimai gali būti neteisingi papildomoje buhalterijos knygoje ar pagrindinėje knygoje, kol inventoriaus uždarymas nebus įvykdytas.
@@ -63,5 +62,22 @@ Prašome atsiminti, kad turite vykdyti inventoriaus uždarymą %3 (2019 01 31) p
 
 **Inventoriaus senėjimo ataskaita** rodo kitas vertes, kai žvelgiate į skirtingus talpinimo matmenis (tokius kaip vieta ar sandėlis). Dėl išsamesnės informacijos apie ataskaitų teikimo logiką, žr. [Inventoriaus senėjimo ataskaitos pavyzdžiai ir logika](inventory-aging-report.md).
 
+## <a name="an-update-conflict-occurs-when-the-inventory-valuation-method-is-either-standard-cost-or-moving-average"></a>Atnaujinimo nesuderinamumas įvyksta, kai atsargų vertinimo metodas yra Standartinė savikaina arba Slankusis vidurkis
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Kai lygiagrečiai registruojate dokumentus, pvz., atsargų žurnalus, pirkimų užsakymų ir pardavimų užsakymų sąskaitas faktūras, norėdami lengviau pritaikyti ir pasiekti geresnį našumą, galite gauti klaidos pranešimą apie įvykusį atnaujinimo nesuderinamumą ir kai kurie dokumentai gali būti nepaskelbti. Ši klaida gali įvykti, kai atsargų vertinimo metodas yra *Standartinė savikaina* arba *Slankusis vidurkis*. Abu šie metodai yra nuolatiniai įkainojimo metodai. Kitaip tariant, galutinės išlaidos nustatomos registravimo metu.
+
+Jei naudojate *Slankusis vidurkis* metodą, klaidos pranešimas gali būti toks:
+
+> Atsargų vertė xx.xx nėra numatyta atlikus proporcinį išlaidų skaičiavimą
+
+Jei naudojate *Standartinė savikaina* metodą, klaidos pranešimas gali būti toks:
+
+> Standartiniai kaštai neatitinka su finansine inventoriaus verte po naujinimo. Vertė = xx.xx, kiekis = yy.yy, standartinė savikaina = zz.zz
+
+Kol „Microsoft” išleis problemos sprendimą, apsvarstykite galimybę naudoti toliau nurodytus problemos sprendimus, kad išvengtumėte arba sumažintumėte šias klaidas:
+
+- Iš naujo paskelbkite neįvykdytus dokumentus.
+- Kurkite dokumentus, turinčius mažiau eilučių.
+- Venkite naudoti dešimtaines standartinėje kainoje. Bandykite apibrėžti standartinę savikainą, kad laukas **Kainos kiekis** nustatytas *1*. Jei reikia nurodyti **Kainos kiekis** vertę, didesnę nei *1*, pabandykite sumažinti dešimtainių skaičių vieneto standartinėje savikainoje. (Būtų geriausia, jei būtų mažiau nei du dešimtainiai skaičiai.) Pavyzdžiui, venkite apibrėžti standartinės savikainos nustatymus, pavyzdžiui,  **Kaina** = *10* ir **Kainos kiekis** = *3*, nes jie sukurs 3,333333 vieneto standartinę kainą (kai dešimtainio skaičiaus vertė kartojasi).
+- Daugelyje dokumentuose venkite naudoti kelias eilutes, turinčias tą pačią produkto kombinaciją ir finansines atsargų dimensijas.
+- Sumažinkite paralelizavimo laipsnį. (Šiuo atveju jūsų sistema gali tapti spartesnė, nes atsiranda mažiau atnaujinimo nesuderinamumų ir atsiranda pakartotinių bandymų.)

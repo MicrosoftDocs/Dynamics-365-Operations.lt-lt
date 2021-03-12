@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 99a52c03e519384955d68d7101a7b73b7e9a7af6
-ms.sourcegitcommit: fe21a3a98dcf6fe4eb9351941493f2c0443d8696
+ms.openlocfilehash: 236e1955dd80564e748aab1c595b017cb78e9418
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672199"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983496"
 ---
 # <a name="inventory-marking-with-planning-optimization"></a>Inventoriaus ženklinimas su „Planning Optimization“
 
@@ -49,6 +48,3 @@ Kai patvirtinate suplanuotą užsakymą, **Patvirtinimo** teksto laukelis rodo *
 - **Ne** – Joks inventoriaus ženklinimas nėra taikomas.
 - **Standartinis** – Inventoriaus ženklinimas yra naujinamas pagal fiksavimą. Reikalavimo užsakymas (paklausa) yra ženklinamas pagal įgyvendinimo užsakymą (pasiūlą). Jei keletas kiekių lieka įgyvendinimo užsakyme, jis neženklinamas ir atitinkama informacija paliekama tuščia. Pavyzdžiui, jei pardavimo užsakymas 100 ea yra fiksuojamas pagal pirkimo užsakymą 150 ea, atitinkama informacija bus priskirta tik pardavimo užsakymui.
 - **Išplėstas** – Tiek reikalavimo užsakymas (paklausa), tiek įgyvendinimo užsakymas (pasiūla) bus paženklinti nepriklausomai nuo bet kokio kiekio, kuris lieka įgyvendinimo užsakyme. Pavyzdžiui, jei pardavimo užsakymas 100 ea yra fiksuojamas pagal pirkimo užsakymą 150 ea, atitinkama informacija bus priskirta tiek pardavimo užsakymui, tiek pirkimo užsakymui.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
