@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1d33dbbd37daaa75f4b64359194a2328728b27f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a2aa1980ebc1fa8412fc388e7837bc40b6902bc0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445864"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991260"
 ---
 # <a name="credit-management-setup"></a>Kredito valdymo nustatymas 
 
@@ -153,6 +152,3 @@ Atlikite toliau nurodytus veiksmus, kad įtrauktumėte eilutes, kurios nurodo kr
 2. Pasirinkite palyginimo operatorių, nurodantį, kaip turėtų būti įvertinama vertinimo grupės informacija.
 3. Įveskite reikšmę, kuri turėtų būti palyginama su vertinimo grupei nurodyta reikšme.
 4. Įveskite kredito limitą, kuris turėtų būti priskirtas, jei kliento informacija atitinka reikšmę, nurodytą vertinimo grupėje. Pavyzdžiui, kuriate automatinį kredito limitą vertinimo grupei, kurios balas **Žemas**. Jei verslo metai yra viena iš vertinimo grupių, galite nurodyti vieną eilutę, kuri priskiria 100 000 kredito limitą, jei klientas versle dirba penkerius metus, ir kitą eilutę, kuri priskiria 200 000 kredito limitą, jei klientas versle dirba 10 metų.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

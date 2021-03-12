@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670e6be595fb891408b1b0804c68a41650b0da0b
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 4b371e6c87c65e707bf1468eb8df4be892f7750d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4446211"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990950"
 ---
 # <a name="budget-control-overview"></a>Biudžeto kontrolės apžvalga
 
@@ -127,6 +126,3 @@ Kai biudžeto kontrolė įjungta, dokumentuose, kuriuose sukonfigūruota biudže
 Iš šio puslapio vartotojai gali detalizuoti puslapį **Biudžeto kontrolės statistika pagal laikotarpį** norėdami peržiūrėti biudžeto tinkamumo informaciją ir pasirinktos biudžeto valdymo dimensijos kombinacijos rezervacijas. Vartotojai taip pat gali detalizuoti puslapį **Biudžeto kontrolės statistika** norėdami peržiūrėti biudžeto tinkamumą visoms finansinių dimensijų kombinacijoms, kurios naudojamos biudžeto kontrolėje. 
 
 Jei biudžeto kontrolė įjungta pirkimo užsakymams, biudžeto vadybininkas gali naudodamas darbo sritį **Didžiosios knygos biudžetai ir prognozės** norėdamas peržiūrėti visų nepatvirtintų pirkimo užsakymų, turinčių biudžeto patikros įspėjimų ir klaidų, eilę. Jei biudžeto vadybininkui sukonfigūruotos biudžeto viršijimo teisės, pirkimo užsakymai gali būti patvirtinami tiesiogiai darbo srityje.    
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

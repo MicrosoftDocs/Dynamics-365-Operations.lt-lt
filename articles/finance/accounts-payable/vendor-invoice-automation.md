@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6d19d0e10f477e498e8f0fff1f431bc4bfdd9a1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0e5c08fc09439ce3889ade4f1da44120275ee075
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445935"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993296"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Sąskaitų faktūrų automatizavimas dirbant su nuskaitytais dokumentais
 
@@ -232,6 +231,3 @@ Nurodyti priedų žiūryklės veiksmai kontroliuojami naudojant vaidmenimis pagr
 + **Mokėtinų sumų klerkas** ir **Mokėtinų sumų vadovas** – tiekėjo SF tvarkymo pareiga priskiriama šiems vaidmenims.
 
 Pagal numatytuosius nustatymus, jei vartotojo vaidmuo suteikia bet kurio puslapio redagavimo teises, vartotojas taip pat turės redagavimo teises priedų žiūryklėje ir galės atlikti žymėjimo, blokavimo bei komentavimo veiksmus. Tačiau jei yra scenarijų, kai tam tikras vaidmuo turi turėti redagavimo teises puslapyje, bet ne priedų žiūryklėje, tada galima naudoti tinkamas teises iš ankstesnio sąrašo.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

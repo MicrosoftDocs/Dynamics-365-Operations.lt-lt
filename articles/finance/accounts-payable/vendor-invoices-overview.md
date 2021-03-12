@@ -1,9 +1,9 @@
 ---
 title: Tiekėjų sąskaitų faktūrų apžvalga
-description: Šioje temoje pateikiama bendra informacija apie tiekėjo SF. Tiekėjo SF yra mokėjimo už gautus produktus ir paslaugas užklausos. Tiekėjo SF gali būti atitikti sąskaitą už vykdomas paslaugas, arba jos gali būti pagrįstos konkrečių prekių ir paslaugų pirkimo užsakymais.
+description: Šioje temoje pateikiama bendra informacija apie tiekėjo SF.
 author: abruer
 manager: AnnBe
-ms.date: 07/17/2019
+ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,31 +11,30 @@ ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d51a5ff2dca764a534ea4bf92c30bcf0bf0a5dad
-ms.sourcegitcommit: 51cd470ee885d12f7d51c66201b092aaa16dfaa6
+ms.openlocfilehash: 0299eb3470f500bf469c3367f1c426715067a5dc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "4701681"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993321"
 ---
 # <a name="vendor-invoices-overview"></a>Tiekėjų sąskaitų faktūrų apžvalga
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama bendra informacija apie tiekėjo SF. Tiekėjo SF yra mokėjimo už gautus produktus ir paslaugas užklausos. Tiekėjo SF gali būti atitikti sąskaitą už vykdomas paslaugas, arba jos gali būti pagrįstos konkrečių prekių ir paslaugų pirkimo užsakymais.
+Šioje temoje pateikiama bendra informacija apie tiekėjo SF. Tiekėjo sąskaitos yra užklausas gautiems mokėjimams produktams ir paslaugoms. Tiekėjo sąskaitos gali rodyti sąskaitą esamoms paslaugoms arba gali būti paremtos pirkimo užsakymais konkrečioms prekėms ir paslaugoms.
 
 ## <a name="vendor-invoices"></a>Tiekėjo SF
 
-Tiekėjo SF iš pirkimo užsakymo yra SF, sukuriama, kai pagal pirkimo užsakymą, pateiktą tiekėjui, gaunami produktai ar paslaugos. Tiekėjo SF yra antraštė ir viena arba kelios prekių arba paslaugų eilutės. Tiekėjo SF užbaigia ciklą, prasidedantį pirkimo užsakymu ir pasibaigiantį produktų gavimu bei tiekėjo SF išrašymu.
+Pardavėjo sąskaita pirkimo užsakyme yra sukuriama, kai prekės ir paslaugos gautos pagal pirkimo užsakymą padarytą su tiekėju. Tiekėjo SF yra antraštė ir viena arba kelios prekių arba paslaugų eilutės. Tiekėjo SF užbaigia ciklą, prasidedantį pirkimo užsakymu ir pasibaigiantį produktų gavimu bei tiekėjo SF išrašymu.
 
-Nors kai kurios tiekėjo SF yra susijusios su pirkimo užsakymu, jose taip pat gali būti eilučių, kurios neatitinka pirkimo užsakymo eilučių. Taip pat galite kurti tiekėjo SF, kurios nėra susijusios su jokiu pirkimo užsakymu. Šios tiekėjo SF gali būti naudojamos nuolatinėms paslaugoms, pvz., sąskaitai už komunalines paslaugas, ir, jas pridedant, nereikia nurodyti į pirkimo užsakymą.
+Nepaisant to, kad kai kurios tiekėjo sąskaitos susijusios su pirkimo užsakymu, tiekėjo sąskaitose taip pat yra eilučių neatitinkančių pirkimo užsakymo eilučių. Taip pat galite kurti tiekėjo SF, kurios nėra susijusios su jokiu pirkimo užsakymu. Šios tiekėjo sąskaitos gali rodyti esančias paslaugas, tokias kaip komunaliniai mokesčiai. Neturite nurodyti į pirkimo užsakymą įtraukdami esamas paslaugas.
 
 Įvesti tiekėjo SF galima keliais toliau nurodytais būdais.
 
@@ -48,12 +47,12 @@ Toliau pateikiamame aptarime pateikiama daugiau informacijos apie tai, kaip naud
 
 ## <a name="understanding-invoice-line-quantities"></a>SF eilučių kiekių supratimas
 
-Kai tiekėjo SF atidarote iš susijusio pirkimo užsakymo, SF eilutės kuriamos iš pirkimo užsakymo. Pagal numatytąsias nuostatas kiekiai paimami iš produkto gavimo kvito kiekio. Tačiau galite naudoti bet kurią iš toliau nurodytų numatytųjų veiksenų.
+Jums atvėrus tiekėjo sąskaitą iš susijusio užsakymo, sistema sukuria sąskaitos eilutes iš perkybos užsakymo. Pagal nutylėjimą, sistema paima kiekius iš produkto kvito. Tačiau galite naudoti bet kurią iš toliau nurodytų numatytųjų veiksenų.
 
-- **Dabartinio gavimo kiekis** – šią parinktį naudokite dalinėms siuntoms. Numatytoji lauke **Kiekis** nurodyta reikšmė paimama iš pirkimo užsakymo lauke **Gauti dabar** nurodyto kiekio.
-- **Užsakytas kiekis** – šią parinktį naudokite baigtoms siuntoms. Numatytoji lauke **Kiekis** nurodyta reikšmė paimama iš pirkimo užsakymo lauke **Užsakyta** nurodyto kiekio.
+- **Dabartinio gavimo kiekis** – šią parinktį naudokite dalinėms siuntoms. Sistema nustato numatytą vertę **Kiekyje** iš kiekio nurodyto **Gauta dabar** laukelyje pirkimo užsakyme.
+- **Užsakytas kiekis** – šią parinktį naudokite baigtoms siuntoms. Sistema nustato numatytą vertę **Kiekyje** iš kiekio nurodyto **Užsakyta** laukelyje pirkimo užsakyme.
 - **Užregistruotas kiekis** – šią parinktį naudokite, jei prekę reikia registruoti, kaip nurodyta **Prekių modelių grupių** puslapyje. Numatytoji reikšmė lauke **Kiekis** yra fizinis užregistruotas naujinimo kiekis.
-- **Produkto gavimo kvito kiekis** – šią parinktį naudokite, jei jau gautas užsakymo produkto gavimo kvitas. Numatytoji reikšmė lauke **Kiekis** paimama iš viso galimų produktų gavimo kvitų kiekio.
+- **Produkto gavimo kvito kiekis** – šią parinktį naudokite, jei jau gautas užsakymo produkto gavimo kvitas. Sistema paima numatytąją vertę **Kiekio** laukelyje iš bendro esamų produkto kvitų kiekio.
 - **Užregistruotas kiekis ir paslaugos** – šią parinktį naudokite, jei gavimo žurnaluose užregistruoti atsargose laikomų arba nelaikomų prekių kiekiai. Ši parinktis taip pat apima paslaugas, nepaisant, ar jos užregistruotos.
 
 Jei jūsų juridinis subjektas naudoja SF gretinimą, kiekio gretinimo rezultatus galite peržiūrėti **Produkto gavimo kvito kiekio gretinimo** stulpelyje. Norėdami peržiūrėti kiekio gretinimo rezultatus, taip pat galite naudoti mygtuką **Gretinimo informacija**, esantį veiksmų srities skirtuke **Peržiūra**.
@@ -64,23 +63,25 @@ Jei jūsų juridinis subjektas naudoja SF gretinimą, kiekio gretinimo rezultatu
 
 ## <a name="submitting-a-vendor-invoice-for-review"></a>Tiekėjo SF pateikimas peržiūrai
 
-Jūsų organizacija gali naudoti darbo eigas, kad galėtų valdyti tiekėjų SF peržiūros procesą. Darbo eigos peržiūros gali būti reikalaujama sąskaitos faktūros antraštei, sąskaitos faktūros eilutei arba abiem. Darbo eigos valdikliai taikomi antraštei arba eilutei, tai priklauso nuo židinio vietos pasirenkant valdiklį. Vietoj mygtuko **Registruoti** matysite mygtuką **Pateikti**, kurį galite naudoti siųsti tiekėjo SF pro peržiūros procesą.
+Jūsų organizacija gali naudoti darbo eigas, kad galėtų valdyti tiekėjų SF peržiūros procesą. Darbo eigos peržiūros gali būti reikalaujama sąskaitos faktūros antraštei, sąskaitos faktūros eilutei arba abiem. Darbo eigos valdikliai taikomi antraštei arba eilutei, tai priklauso nuo židinio vietos pasirenkant valdiklį. Vietoje **Publikavimo** mygtuko, **Pateikimo** mygtukas rodo nusiųstą tiekėjo sąskaitą per peržiūros procesą.
 
 ### <a name="preventing-invoice-from-being-submitted-to-workflow"></a>Apsauga, kad SF nebūtų pateikta į darbo eigą 
 
 Toliau pateikiami keli būdai, kaip galima išvengti SF pateikimo į darbo eigą.
 
-- **Bendroji SF suma ir užregistruota bendroji suma nėra lygios.** Asmuo, kuris pateikė SF, gaus įspėjimą, kad bendrosios sumos nėra lygios, todėl jis galės pakoreguoti balansus prieš pateikdamas SF į darbo eigą. Ši funkcija galima tik tada, kai parametras **Uždrausti pateikti į darbo eigą, kai sąskaitos faktūros ir registruotos sąskaitos faktūros sumos nesutampa** puslapyje **Funkcijų valdymas** yra įjungtas. 
+- **Bendroji SF suma ir užregistruota bendroji suma nėra lygios.** Asmuo pateikęs sąskaitą gaus įspėjimą, kad bendros sumos nesutampa. Įspėjime pateikta galimybė taisyti balansus prieš pateikiant sąskaitą į darbo eigą dar kartą. Ši funkcija galima tik tada, kai parametras **Uždrausti pateikti į darbo eigą, kai sąskaitos faktūros ir registruotos sąskaitos faktūros sumos nesutampa** puslapyje **Funkcijų valdymas** yra įjungtas. 
 
 - **SF yra nepriskirtų išlaidų.** Asmuo, kuris pateikė SF, gaus įspėjimą, kad sąskaitoje yra nepriskirtų išlaidų, todėl jis galės pakoreguoti SF prieš pateikdamas ją į darbo eigą. Ši funkcija galima tik tada, kai parametras **Uždrausti pateikti į darbo eigą, kai tiekėjo SF yra nepriskirtų išlaidų** puslapyje **Funkcijų valdymas** yra įjungtas.
 
-- **SF numeris yra toks pats kaip kitos užregistruotos SF.** Asmuo, kuris pateikė SF, gaus įspėjimą, kad rasta sąskaita tokiu pačiu numeriu, todėl jis galės ją pakoreguoti prieš pateikdamas į darbo eigą. Šis įspėjimas bus rodomas, kai mokėtinų sumų pažymėtas parametras **Patikrinti naudojamą SF numerį** yra nustatytas kaip **Neleisti dubliuoti**. Ši funkcija galima, jei parametras **Drausti pateikimą į darbo eigą, kai SF numerį jau turi kita užregistruota SF, o sistema nenustatyta, kad leistų priimti dubliuotus SF numerius** puslapyje **Funkcijų valdymas** yra įjungtas.  
+- **SF numeris yra toks pats kaip kitos užregistruotos SF.** Asmuo, kuris pateikė SF, gaus įspėjimą, kad rasta sąskaita tokiu pačiu numeriu, todėl jis galės ją pakoreguoti prieš pateikdamas į darbo eigą. Šis pranešimas bus rodomas kai **Tikrinti sąskaitos numerį naudotą** parametras mokėtinose Sąskaitose yra nustatytas **Atmestas dublikatas**. Ši funkcija galima, jei parametras **Drausti pateikimą į darbo eigą, kai SF numerį jau turi kita užregistruota SF, o sistema nenustatyta, kad leistų priimti dubliuotus SF numerius** puslapyje **Funkcijų valdymas** yra įjungtas.  
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Tiekėjo SF ir produkto gavimo kvitų gretinimas
 
 Galite įvesti ir įrašyti informaciją apie tiekėjo SF, taip pat galite gretinti sąskaitų faktūrų eilutes su produkto gavimo kvitų eilutėmis. Taip pat galite gretinti dalinius eilutės kiekius.
 
 Galite sukurti tiekėjo SF, kuri paremta produkto gavimo kvito eilutės prekėmis, kurios gautos iki nurodytos dienos, net jei gautos dar ne visos konkretaus pirkimo užsakymo prekės. Pavyzdžiui, šią parinktį galite naudoti, jei tiekėjas siunčia vieną SF per mėnesį, apimančią visus per mėnesį jo išsiųstus pristatymus. Kiekvienas produkto gavimo kvitas parodo dalinį arba visą prekių pristatymą pagal pirkimo užsakymą.
+
+Kai sąskaita yra darbo eigoje, tvirtintojas gali naujinti sąskaitos kiekius taip, kad jie atitiktų vertę **Produkto gautas kiekis atitikmeniui** laukelyje. Tam, kad tą atliktumėte, pasirinkite **Naujinti sąskaitos kiekius, kad jie atitiktų produkto gautus kiekius darbo eigoje** funkciją **Funkcijos valdymas** darbo eigoje ir rinkitės **Įjungti**. Jei patvirtinantis asmuo darbo eigos procese panaikino visus atitikimus nuo produkto gavimo iš sąskaitos eilutės, sąskaitos eilutė bus panaikinta. Jai ši funkcija išjungta, sąskaitos kiekiai nėra naujinami sąskaitoms darbo eigoje.
 
 Kai registruojate SF, kiekvienos prekės **SF likučio** kiekis atnaujinamas visu gautu kiekiu iš pasirinktų produkto gavimo kvitų. Jei visų prekių **SF likučio** kiekis ir **Pristatymo likučio** kiekis pirkimo užsakyme yra 0 (nulis), pirkimo užsakymo būsena pakeičiama į **SF išrašyta**. Jeigu **SF likučio** kiekis nėra 0, pirkimo užsakymo būsena lieka nepakitusi ir galima įvesti papildomas SF.
 
@@ -128,6 +129,3 @@ SF sumą galite peržiūrėti puslapyje **Laukiančios tiekėjo SF**, įjungdami
 - [Pagrindiniai SF duomenys mokėtinose sumose naudojant patvirtinimo žurnalą](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 - [Pagrindiniai SF duomenys AP sistemoje naudojant SF telkinį](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
 - [Įrašyti tiekėjo SF į SF žurnalą](tasks/record-vendor-invoice-invoice-journal.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
