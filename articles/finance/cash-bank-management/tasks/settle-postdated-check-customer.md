@@ -11,48 +11,47 @@ ms.technology: ''
 ms.search.form: CustPostDatedChecks, SystemDate, LedgerJournalTable, LedgerJournalTransDaily, LedgerTransVoucher
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0bc6f90e7adb3facdfa1facb50fecb0de4ccb04d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7f8f2f8fe0dfd0eccd61ef76242e2a77c75b3983
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4446057"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976246"
 ---
-# <a name="settle-a-postdated-check-from-a-customer"></a><span data-ttu-id="4e53a-103">Vėlesnio čekio iš kliento sudengimas</span><span class="sxs-lookup"><span data-stu-id="4e53a-103">Settle a postdated check from a customer</span></span>
+# <a name="settle-a-postdated-check-from-a-customer"></a><span data-ttu-id="17eef-103">Vėlesnio čekio iš kliento sudengimas</span><span class="sxs-lookup"><span data-stu-id="17eef-103">Settle a postdated check from a customer</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="4e53a-104">Galite sudengti vėlesnį čekį, kai čekis apdorojamas banko.</span><span class="sxs-lookup"><span data-stu-id="4e53a-104">You can settle a postdated check after the check has been cleared by the bank.</span></span> <span data-ttu-id="4e53a-105">Ši finansinė operacija taip pat apdoroja vėlesnio čekio tarpinės sąskaitos operaciją.</span><span class="sxs-lookup"><span data-stu-id="4e53a-105">This financial transaction also clears the bridge account transaction for the postdated check.</span></span> 
+<span data-ttu-id="17eef-104">Galite sudengti vėlesnį čekį, kai čekis apdorojamas banko.</span><span class="sxs-lookup"><span data-stu-id="17eef-104">You can settle a postdated check after the check has been cleared by the bank.</span></span> <span data-ttu-id="17eef-105">Ši finansinė operacija taip pat apdoroja vėlesnio čekio tarpinės sąskaitos operaciją.</span><span class="sxs-lookup"><span data-stu-id="17eef-105">This financial transaction also clears the bridge account transaction for the postdated check.</span></span> 
 
-<span data-ttu-id="4e53a-106">Prieš pradėdami šitą, turite įvykdyti toliau nurodytas užduotis.</span><span class="sxs-lookup"><span data-stu-id="4e53a-106">The following tasks must be complete before you start this one.</span></span>
+<span data-ttu-id="17eef-106">Prieš pradėdami šitą, turite įvykdyti toliau nurodytas užduotis.</span><span class="sxs-lookup"><span data-stu-id="17eef-106">The following tasks must be complete before you start this one.</span></span>
 
-1) <span data-ttu-id="4e53a-107">Vėlesnių čekių nustatymas</span><span class="sxs-lookup"><span data-stu-id="4e53a-107">Set up postdated checks</span></span>
+1) <span data-ttu-id="17eef-107">Vėlesnių čekių nustatymas</span><span class="sxs-lookup"><span data-stu-id="17eef-107">Set up postdated checks</span></span>
 
-2) <span data-ttu-id="4e53a-108">Registruoti kliento vėlesnį čekį</span><span class="sxs-lookup"><span data-stu-id="4e53a-108">Register and post a postdated check for a customer</span></span> 
-
-
-
-<span data-ttu-id="4e53a-109">Šio užduočių vadovo vaidmuo yra Iždininkas.</span><span class="sxs-lookup"><span data-stu-id="4e53a-109">The role of this task guides is Treasurer.</span></span>
+2) <span data-ttu-id="17eef-108">Registruoti kliento vėlesnį čekį</span><span class="sxs-lookup"><span data-stu-id="17eef-108">Register and post a postdated check for a customer</span></span> 
 
 
 
-<span data-ttu-id="4e53a-110">Šioje procedūroje naudojama demonstracinė įmonė USMF.</span><span class="sxs-lookup"><span data-stu-id="4e53a-110">This procedure uses the USMF demo company.</span></span>
+<span data-ttu-id="17eef-109">Šio užduočių vadovo vaidmuo yra Iždininkas.</span><span class="sxs-lookup"><span data-stu-id="17eef-109">The role of this task guides is Treasurer.</span></span>
 
-1. <span data-ttu-id="4e53a-111">Pasirinkite Kreditas ir mokėjimai > Užklausos ir ataskaitos > Mokėjimai > Kliento vėlesni čekiai.</span><span class="sxs-lookup"><span data-stu-id="4e53a-111">Go to Credit and collections > Inquiries and reports > Payments > Customer postdated checks.</span></span>
-2. <span data-ttu-id="4e53a-112">Spustelėkite Sudengimas.</span><span class="sxs-lookup"><span data-stu-id="4e53a-112">Click Settle.</span></span>
-3. <span data-ttu-id="4e53a-113">Spustelėkite Sudengti atsiskaitymo įrašus.</span><span class="sxs-lookup"><span data-stu-id="4e53a-113">Click Settle clearing entries.</span></span>
-    * <span data-ttu-id="4e53a-114">Apmokėkite kliento čekio operacijos sąskaitą.</span><span class="sxs-lookup"><span data-stu-id="4e53a-114">Settle the customer account for the check transaction.</span></span>  
-4. <span data-ttu-id="4e53a-115">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="4e53a-115">Close the page.</span></span>
-5. <span data-ttu-id="4e53a-116">Pasirinkite Didžioji knyga > Žurnalų įrašai > Bendrieji žurnalai.</span><span class="sxs-lookup"><span data-stu-id="4e53a-116">Go to General ledger > Journal entries > General journals.</span></span>
-6. <span data-ttu-id="4e53a-117">Lauke Rodyti pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="4e53a-117">In the Show field, select an option.</span></span>
-7. <span data-ttu-id="4e53a-118">Pažymėkite arba išvalykite žymės langelį Rodyti tik vartotojo sukurtus.</span><span class="sxs-lookup"><span data-stu-id="4e53a-118">Select or clear the Show user-created only check box.</span></span>
-8. <span data-ttu-id="4e53a-119">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="4e53a-119">In the list, find and select the desired record.</span></span>
-9. <span data-ttu-id="4e53a-120">Spustelėkite Eilutės.</span><span class="sxs-lookup"><span data-stu-id="4e53a-120">Click Lines.</span></span>
-10. <span data-ttu-id="4e53a-121">Spustelėkite Kvitas.</span><span class="sxs-lookup"><span data-stu-id="4e53a-121">Click Voucher.</span></span>
-11. <span data-ttu-id="4e53a-122">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="4e53a-122">Close the page.</span></span>
+
+
+<span data-ttu-id="17eef-110">Šioje procedūroje naudojama demonstracinė įmonė USMF.</span><span class="sxs-lookup"><span data-stu-id="17eef-110">This procedure uses the USMF demo company.</span></span>
+
+1. <span data-ttu-id="17eef-111">Pasirinkite Kreditas ir mokėjimai > Užklausos ir ataskaitos > Mokėjimai > Kliento vėlesni čekiai.</span><span class="sxs-lookup"><span data-stu-id="17eef-111">Go to Credit and collections > Inquiries and reports > Payments > Customer postdated checks.</span></span>
+2. <span data-ttu-id="17eef-112">Spustelėkite Sudengimas.</span><span class="sxs-lookup"><span data-stu-id="17eef-112">Click Settle.</span></span>
+3. <span data-ttu-id="17eef-113">Spustelėkite Sudengti atsiskaitymo įrašus.</span><span class="sxs-lookup"><span data-stu-id="17eef-113">Click Settle clearing entries.</span></span>
+    * <span data-ttu-id="17eef-114">Apmokėkite kliento čekio operacijos sąskaitą.</span><span class="sxs-lookup"><span data-stu-id="17eef-114">Settle the customer account for the check transaction.</span></span>  
+4. <span data-ttu-id="17eef-115">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="17eef-115">Close the page.</span></span>
+5. <span data-ttu-id="17eef-116">Pasirinkite Didžioji knyga > Žurnalų įrašai > Bendrieji žurnalai.</span><span class="sxs-lookup"><span data-stu-id="17eef-116">Go to General ledger > Journal entries > General journals.</span></span>
+6. <span data-ttu-id="17eef-117">Lauke Rodyti pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="17eef-117">In the Show field, select an option.</span></span>
+7. <span data-ttu-id="17eef-118">Pažymėkite arba išvalykite žymės langelį Rodyti tik vartotojo sukurtus.</span><span class="sxs-lookup"><span data-stu-id="17eef-118">Select or clear the Show user-created only check box.</span></span>
+8. <span data-ttu-id="17eef-119">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="17eef-119">In the list, find and select the desired record.</span></span>
+9. <span data-ttu-id="17eef-120">Spustelėkite Eilutės.</span><span class="sxs-lookup"><span data-stu-id="17eef-120">Click Lines.</span></span>
+10. <span data-ttu-id="17eef-121">Spustelėkite Kvitas.</span><span class="sxs-lookup"><span data-stu-id="17eef-121">Click Voucher.</span></span>
+11. <span data-ttu-id="17eef-122">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="17eef-122">Close the page.</span></span>
 
