@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: BudgetTransaction, BudgetAccountStructureLookup, BudgetTransactionMultiPost
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 05e8059f44000fd305ed2c2555511da29b130af9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 22538d58cc3499bd030848699d6c5831dfd8888a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4446084"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975165"
 ---
 # <a name="create-a-preliminary-budget-for-public-sector"></a>Viešojo sektoriaus preliminaraus biudžeto sukūrimas
 
@@ -53,6 +52,3 @@ Galite kurti konkretaus biudžeto modelio preliminaraus biudžeto registro įra�
 19. Spustelėkite Naujinti.
     * Norėdami pamatyti naujinimo rezultatus, mėlynoje juostoje spustelėkite Pranešimo informacija.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

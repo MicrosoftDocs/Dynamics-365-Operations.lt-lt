@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,16 +18,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 3eaa25f0befcff448250ba2cce8e568fa4a4c707
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ddc6159480d1ff9fb823dbd95465c991ae51f9c4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433787"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974990"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Tiesioginis pardavimo užsakymų sinchronizavimas tarp „Sales“ ir Tiekimo grandinės valdymo
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Dynamics 365 Sales“ pardavimo užsakymus tiesiogiai sinchronizuojant su „Dynamics 365 Supply Chain Management“.
 
@@ -64,8 +65,8 @@ Prieš sinchronizuojant pardavimo sąskaitų faktūrų antraštes ir eilutes, b�
 
 | Tiekimo grandinės valdymas  | Pardavimas             |
 |-------------------------|-------------------|
-| CDS pardavimo užsakymų antraštės | SalesOrders       |
-| CDS pardavimo užsakymo eilutės   | SalesOrderDetails |
+| „Dataverse” pardavimo užsakymo antraštės | SalesOrders       |
+| „Dataverse” pardavimo užsakymo eilutės   | SalesOrderDetails |
 
 ## <a name="entity-flow"></a>Objekto srautas
 
@@ -75,7 +76,7 @@ Pardavimo užsakymai sprendime „Sales“ kuriami ir su Tiekimo grandinės vald
 
 Tiekimo grandinės valdyme naudojant šablono filtrus padedama užtikrinti, kad sinchronizuojant būtų įtraukiami tik aktualūs pardavimo užsakymai.
 
-- Norint, kad į sinchronizavimą būtų įtraukti pardavimo užsakyme nurodyti užsakantis klientas ir sąskaitą faktūrą išrašantis klientas, jie abu turi būti pateikiami „Sales“ . Tiekimo grandinės valdymo laukai **OrderingCustomerIsExternallyMaintained** ir **InvoiceCustomerIsExternallyMaintained** naudojami duomenų objektų pardavimo užsakymams filtruoti.
+- Norint, kad į sinchronizavimą būtų įtraukti pardavimo užsakyme nurodyti užsakantis klientas ir sąskaitą faktūrą išrašantis klientas, jie abu turi būti pateikiami „Sales“ . „Supply Chain Management” **OrderingCustomerIsExternallyMaintained** ir **InvoiceCustomerIsExternallyMaintained** stulpeliai naudojami išfiltruoti pardavimų užsakymus iš duomenų lentelių.
 - Tiekimo grandinės valdyme pardavimo užsakymą reikia patvirtinti. Su „Sales“ sinchronizuojami tik patvirtinti pardavimo užsakymai arba pardavimo užsakymai, kurių apdorojimo būsena aukštesnė, pavyzdžiui, **Išsiųsta** arba **Išrašyta SF**.
 - Sukūrus arba modifikavus pardavimo užsakymą, Tiekimo grandinės valdyme reikia vykdyti paketinę užduotį **Skaičiuoti bendrąsias pardavimo sumas**. Su „Sales“ bus sinchronizuojami tik tie pardavimo užsakymai, kuriuose apskaičiuotos bendrosios pardavimo sumos.
 
@@ -103,10 +104,10 @@ Tiekimo grandinės valdyme naudojant šablono filtrus padedama užtikrinti, kad 
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>„Sales“ skirtas potencialių klientų ir grynųjų pinigų sprendimas
 
-Į objektą **Užsakymas** įtraukiami nauji toliau nurodyti laukai, rodomi puslapyje.
+Nauji stulpeliai pridėti į **Užsakymas** lentelę ir pasirodo puslapyje:
 
 - **Tvarkomas išoriškai** – šioje parinktyje nustatykite **Taip**, kai užsakymas yra iš Tiekimo grandinės valdymo.
-- **Apdorojimo būsena** – šiame lauke rodoma Tiekimo grandinės valdymo užsakymo apdorojimo būsena. Galimos šios vertės:
+- **Apdorojimo būsena** – šiame stulpelyje rodoma „Supply Chain Management” užsakymo apdorojimo būsena. Galimos šios vertės:
 
     - **Juodraštis** – pradinė būsena, kai „Sales“ sukuriamas pardavimo užsakymas. „Sales“ galima redaguoti tik šią apdorojimo būseną turinčius užsakymus.
     - **Aktyvus** – būsena, kai užsakymas „Sales“ suaktyvinamas naudojant mygtuką **Aktyvinti**.
@@ -141,7 +142,7 @@ Prieš sinchronizuojant pardavimo užsakymus, svarbu atnaujinti toliau nurodytus
 - Eikite į **Parametrai** &gt; **Administravimas** &gt; **Sistemos parametrai** &gt; **Pardavimai** ir įsitikinkite, kad naudojami toliau nurodyti parametrai.
 
     - Parinktis **Naudoti sistemos prizų skaičiavimo sistemą** nustatyta į **Taip**.
-    - Laukas **Nuolaidos skaičiavimo būdas** nustatytas į **Eilutės elementas**.
+    - Stulpelis **Nuolaidos skaičiavimo būdas** nustatytas į **Eilutės elementas**.
 
 ### <a name="setup-in-supply-chain-management"></a>„Supply Chain Management“ nustatymas
 
@@ -151,10 +152,10 @@ Jei taip pat naudojate darbo užsakymo integravimą, turite nustatyti pardavimo 
 
 1. Pasirinkite **Pardavimas ir rinkodara** \> **Sąranka** \> **Pardavimo užsakymai** \> **Pardavimo kilmė**.
 2. Norėdami kurti naują pardavimo kilmę, pasirinkite **Nauja**.
-3. Lauke **Pardavimo kilmė** įveskite pardavimo kilmės pavadinimą, pavyzdžiui, **SalesOrder**.
-4. Lauke **Aprašas** įveskite aprašą, pvz., **Pardavimo užsakymas iš pardavimo**.
+3. Stulpelyje **Pardavimo kilmė** įveskite pardavimo kilmės pavadinimą, pavyzdžiui, **SalesOrder**.
+4. Stulpelyje **Aprašas** įveskite aprašą, pvz., **Pardavimo užsakymas iš pardavimų**.
 5. Pasirinkite žymės langelį **Kilmės tipo priskyrimas**.
-6. Nustatykite lauko **Pardavimo kilmės tipas** reikšmę **Pardavimo užsakymo integravimas**.
+6. Nustatykite stulpelio **Pardavimo kilmės tipas** vertę į **Pardavimo užsakymo integravimas**.
 7. Pasirinkite **Įrašyti**.
 
 ### <a name="setup-in-the-sales-orders-sales-to-supply-chain-management---direct-data-integration-project"></a>Pardavimo užsakymų sąranka (iš „Sales“ į Tiekimo grandinės valdymą) – tiesioginis projektas Duomenų integravimas
@@ -181,12 +182,12 @@ Jei taip pat naudojate darbo užsakymo integravimą, turite nustatyti pardavimo 
 ## <a name="template-mapping-in-data-integration"></a>Šablono susiejimas naudojant funkcija Duomenų integravimas
 
 > [!NOTE]
-> Laukai **Mokėjimo sąlygos**, **Transportavimo sąlygos**, **Pristatymo sąlygos**, **Siuntimo būdas** ir **Pristatymo būdas** į numatytuosius susiejimus neįtraukti. Norėdami susieti šiuos laukus, turite nustatyti reikšmių schemą, kuri atitinka organizacijų, tarp kurių objektas sinchronizuojamas, duomenis.
+> Stulpeliai **Mokėjimo sąlygos**, **Transportavimo sąlygos**, **Pristatymo sąlygos**, **Siuntimo būdas** ir **Pristatymo būdas** į numatytuosius susiejimus neįtraukti. Norėdami susieti šiuos stulpelius, turite nustatyti reikšmių schemą, kuri atitinka organizacijų, tarp kurių lentelė sinchronizuojama, duomenis.
 
 Toliau pateiktose iliustracijose vaizduojamas šablono susiejimo pavyzdys naudojant funkciją Duomenų integravimas.
 
 > [!NOTE]
-> Susiejime rodoma, kuri lauko informacija bus sinchronizuota atliekant „Sales“ sinchronizavimą su Tiekimo grandinės valdymu arba Tiekimo grandinės valdymo sinchronizavimą su „Sales“.
+> Susiejime rodoma, kuri stulpelio informacija bus sinchronizuota iš pardavimų į „Supply Chain Management” ar iš „Supply Chain Management” į pardavimus.
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Pardavimo užsakymai (iš Tiekimo grandinės valdymo į „Sales“) – tiesioginis: OrderHeader
 
@@ -207,6 +208,3 @@ Toliau pateiktose iliustracijose vaizduojamas šablono susiejimo pavyzdys naudoj
 ## <a name="related-topics"></a>Susijusios temos
 
 [Potencialūs klientai ir grynieji pinigai](prospect-to-cash.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 7addb1f26a33db84d947e6fede876be648d2c654
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: de9328f69938151c5558d41263d36b873d117e4b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645175"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975488"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Papildomos knygos perkėlimas į didžiąją knygą
 
@@ -42,6 +41,3 @@ Galimos toliau nurodytos papildomos knygos paketų perkėlimo parinktys.
 10.0.8 versijoje buvo atlikti patobulinimai, siekiant padidinti parinkties Asinchroninis efektyvumą. Ši funkcija aktyvinama funkcijos pavadinimu **Papildomos knygos perkėlimas į didžiosios knygos našumo optimizavimą**. 
  
 Ši funkcija pagerina duomenų perkėlimą iš papildomos knygos į didžiąją knygą. Tai leidžia vykdyti procesą efektyviau, sugrupuojant kartu mažesnes perkeltinas operacijas. Tai leidžia efektyviau naudoti paketinio apdorojimo serverį. Norint naudoti šią funkciją, reikia nustatyti, kad paketinio apdorojimo serveris būtų nustatytas, tinkle ir veiktų, kad veiktų asinchroninio perkėlimo parinktis. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

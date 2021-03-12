@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 10444
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88436b4a5d6be4172e15fa4a9dadc34696417fb9
-ms.sourcegitcommit: eec96c64f44d1b4877d49ee15665a774019d42d7
+ms.openlocfilehash: 24d57982981ca7b72e43c086ace381e420acb06c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672449"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975691"
 ---
 # <a name="get-started-with-financial-reporting"></a>Pradėkite su „Financial reporting“ 
 
@@ -48,6 +47,8 @@ Norėdami sukurti ir generuoti juridinio subjekto finansinių ataskaitų, turite
 -   Ledger
 -   Sąskaitų planas
 -   Valiuta
+-   Publikuokite transakciją mažiausiai į vieną sąskaitą
+-   Pagrindinė sąskaita yra įrašyta į pasirinktą stulpelį **Bendra pagrindinė sąskaitų knygą > Sąskaitų knygos nustatymai > „Financial Reporting“ nustatymai**
 
 ## <a name="granting-security-access-to-financial-reporting"></a>Saugios prieigos prie „Financial Reporting“
 Finansinių ataskaitų funkcijomis gali naudotis naudotojai, kuriems, naudojant jų saugos vaidmenis, priskirtos atitinkamos teisės ir pareigos. Tolesniuose skyriuose išvardijamos šios teisės ir pareigos bei susietieji vaidmenys.
@@ -173,6 +174,3 @@ Triktis 3: Galite praeiti pro „ClickOnce Report Designer“ prisijungimo pusla
 ## <a name="additional-resources"></a>Papildomi ištekliai
 - [Peržiūrėti finansines ataskaitas](view-financial-reports.md)
 - [Ataskaitų dizaino įrankio ataskaitų medžio apibrėžtys](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

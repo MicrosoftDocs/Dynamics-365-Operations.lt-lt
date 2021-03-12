@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, InventDimParmFixed, InventProductDimensionLookup, SalesTotals
 audience: Application User, SalesTableDelete, SalesTableListPagePreviewPage, SalesUpdateRemain
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9aa353ad771844abc0860f06d9bc22b9f4adce92
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8bb4c7a542106161f8bc1b8db0976c24faebf907
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433397"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974815"
 ---
 # <a name="create-sales-orders"></a>Pardavimo užsakymų kūrimas
 
@@ -39,7 +38,7 @@ ms.locfileid: "4433397"
 
 ## <a name="enter-sales-order-line-details"></a>Įvesti pardavimo užsakymo eilutės informaciją
     
-Jūsų organizacijos parduodami produktai gali būti kelių variantų, kuriuos skiria dimensijos, pavyzdžiui, konfigūracija, spalva, dydis ir stilius. Taip pat gali būti nustatyta, kad su produktais būtų naudojamos saugojimo dimensijos, pavyzdžiui, teritorija, sandėlis ir padėklas, bei sekimo dimensijos, pavyzdžiui, paketo ir serijos numeriai. Priskyrus šias dimensijas, užsakymo eilutėje reikia pasirinkti tų dimensijų reikšmes. Norint pagerinti užsakymo įvedimo efektyvumą, rekomenduojama į užsakymo tinklelį įtraukti atitinkamus dimensijų laukus.
+Jūsų organizacijos parduodami produktai gali būti kelių variantų, kuriuos skiria dimensijos, pavyzdžiui, konfigūracija, spalva, dydis ir stilius. Be to, gali būti nustatyta, kad su produktais būtų naudojamos saugojimo dimensijos, pavyzdžiui, teritorija, sandėlis ir padėklas, taip pat sekimo dimensijos, pavyzdžiui, paketo ir serijos numeriai. Priskyrus šias dimensijas, užsakymo eilutėje reikia pasirinkti tų dimensijų reikšmes. Norint pagerinti užsakymo įvedimo efektyvumą, rekomenduojama į užsakymo tinklelį įtraukti atitinkamus dimensijų laukus.
     
 1. Skyriuje **Pardavimo užsakymo eilutės** pasirinkite **Pardavimo užsakymo eilutė**.
 2. Pasirinkite **Dimensijos**.
@@ -68,6 +67,3 @@ Jūsų organizacijos parduodami produktai gali būti kelių variantų, kuriuos s
     Puslapyje **Bendrosios sumos** rodoma išsami informacija apie visą užsakymą. Ji apima tarpinę sumą, kuri yra visų eilučių grynųjų sumų, pakoreguotų atsižvelgiant į galimas eilučių nuolaidas, suma, visą SF sumą, kuri yra tarpinė suma, pakoreguota atsižvelgiant į galimą užsakymo lygio nuolaidą, išlaidas ir PVM, kliento kredito limito situaciją ir kt. SF suma – tai suma, kuri bus rodoma kliento SF dokumente.  
     
 3. Pasirinkite **Gerai**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

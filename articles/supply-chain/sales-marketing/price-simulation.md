@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SalesQuotationPriceSimulation, SalesQuotationsTableLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 12254
 ms.assetid: 92be7c85-73cf-4f77-833c-d37ce779a031
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18214ae3801b5fb0f927020041e997b7ea4f0df4
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: 7ef40fb01352bce3c4f9848e0268ac548771120c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4433895"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975040"
 ---
 # <a name="price-simulation"></a>Kainos modeliavimas
 
@@ -35,7 +34,7 @@ Pasiūlymo kainos modeliavimas parodo naują bendrąją sumą remiantis nauja si
 
 Kainų modeliavimas nekeičia pasiūlymo kainos. Jei kainų modeliavimas taikomas visam pasiūlymui, jis laikomas specialia nuolaida pasiūlymo antraštėje. Jei kainų modeliavimas taikomas konkrečioms prekėms, jis laikomas specialia nuolaida pasiūlymo eilutėse. Vieneto pardavimo kaina sukurtoje pasiūlymo eilutėje nesikeičia pritaikius kainos modeliavimą. Vietoje to, taikomas nuolaidos procentas, atitinkantis pasiūlymo eilutės kainos sumažinimą. Kai pritaikomas kainų modeliavimas, vieneto pardavimo kaina ir nuolaidos procentas yra perkeliami į pasiūlymo eilutę arba pasiūlymo antraštę.  
 
->[Pastaba!] Vykdant kainų simuliaciją, tik valiutos pardavimo valiuta yra naudojama siekiant ją sukurti. Tačiau, kai peržiūrite bendrąsias pasiūlymo sumas, matote įmonės valiutos ir pardavimo valiutos derinį.  
+>[Pastaba!] Atliekant kainos modeliavimą, modeliui kurti naudojama tik dabartinė pardavimo valiuta. Tačiau, kai peržiūrite bendrąsias pasiūlymo sumas, matote įmonės valiutos ir pardavimo valiutos derinį.  
 
 Papildomos prekės, pridėtos į pasiūlymo eilutes, gali paleisti eilutės nuolaidas arba kelių eilučių nuolaidas. Jos taip pat gali paleisti bendrąsias nuolaidas, keičiančias pasiūlymo eilučių ir visos nuolaidos pelningumo maržas ir pelningumo koeficientą.  
 
@@ -145,6 +144,3 @@ Kainų modeliavimas paveikia tik tą eilutę, kuriai jis taikomas, ir sumažina 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
