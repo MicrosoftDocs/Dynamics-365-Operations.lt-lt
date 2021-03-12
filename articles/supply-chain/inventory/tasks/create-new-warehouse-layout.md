@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: InventParameters, DefaultDashboard, InventLocation, WMSLocationWizard
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 09666e95cc90913f1bf8555b9ff2c48aa55369ed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f07fee1787cc2719bafbe2bb6d54849edda14018
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433858"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000039"
 ---
 # <a name="create-a-new-warehouse-layout"></a>Naujo sandėlio maketo kūrimas
 
@@ -57,12 +56,9 @@ ms.locfileid: "4433858"
 1. Veiksmų srityje pažymėkite **Sandėlis**.
 2. Pažymėkite **Vietos vedlys**.
 3. Pasirinkite **Toliau**.
-4. Atžymėkite parinktį **Pakrovimo rampos** 
-5. Atžymėkite parinktį **Palaidų krovinių vietos** 
+4. Atžymėkite parinktį **Pakrovimo rampos**
+5. Atžymėkite parinktį **Palaidų krovinių vietos**
 6. Spauskite **Toliau**, kol galėsite pažymėti **Baigti**.
 7. Uždarykite puslapį.
 8. Atnaujinkite puslapį.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

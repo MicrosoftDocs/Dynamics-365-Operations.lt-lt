@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, ReqPlanSched
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d8b9d5712dd1b4f9958de775e1a2224b64485d05
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d4af946a8dd4e5311bcb90386c88d5e7f205c4eb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433614"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999861"
 ---
 # <a name="generate-a-constrained-plan"></a>Plano su apribojimais kūrimas
 
@@ -53,6 +52,3 @@ Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. �
 3. Pasirinkite **Gerai**.
 4. Pažymėkite **Suplanuoti užsakymai**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

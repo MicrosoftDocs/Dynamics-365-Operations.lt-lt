@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f87d29a8cffb70e4dea211cea7538e5e4c85295c
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: 3f7e9a3acde508f405ce85f125db552c3ae3656b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517311"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000730"
 ---
 # <a name="enable-location-based-store-detection"></a>Įgalinti parduotuvės nustatymą pagal vietą
 
@@ -58,7 +57,7 @@ Norėdami įjungti parduotuvės nustatymą pagal vietą programoje „Commerce�
 
 [Susiekite „Dynamics 365 Commerce“ saitą su interneto kanalu](associate-site-online-store.md)
 
-[„robots.txt” failų tvarkymas](manage-robots-txt-files.md)
+[robots.txt failų tvarkymas](manage-robots-txt-files.md)
 
 [Masinis URL peradresavimų nusiuntimas](upload-bulk-redirects.md)
 
@@ -69,6 +68,3 @@ Norėdami įjungti parduotuvės nustatymą pagal vietą programoje „Commerce�
 [„Commerce” aplinkos kelių B2Ck nuomotojų konfigūravimas](configure-multi-B2C-tenants.md)
 
 [Turinio pristatymo tinklo (CDN) palaikymo įtraukimas](add-cdn-support.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

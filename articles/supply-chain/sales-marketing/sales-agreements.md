@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage, SalesAgreementInvoiceJournal, SalesAgreementInvoicePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 9554
 ms.assetid: c5d55c8d-99f2-44f9-a897-5b0dee85fc81
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b848a0450c1cce1b3c6f7954397c75a44526d2b1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7d86e7b9c6c2c21083ec79f798038a74b133577d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433519"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001479"
 ---
 # <a name="sales-agreements-overview"></a>Pardavimo sutarčių apžvalga
 
@@ -37,7 +36,7 @@ Pardavimo sutarties galiojimo laikotarpis apibrėžiamas sutarties laukuose **Į
 
 Galite sukurti pardavimo užsakymą tiesiogiai iš pardavimo sutarties naudodami veiksmą **Išleisti užsakymą**. Arba galite pasirinkti galiojančią pardavimo sutartį atlikdami užsakymus (žr. šio straipsnio skyrių „Pardavimo sutarčių taikymas užsakymo procese“).  
 
-> [Pastaba!] Ankstesnėse versijose pardavimo sutartys buvo laikomos tuščiais pardavimo užsakymais.
+> [Pastaba!] Ankstesnėse versijose pardavimo sutartys buvo vadinamos bendrais pardavimo užsakymais.
 
 ## <a name="commitment-types"></a>Įsipareigojimo tipai
 Kiekviena pardavimo sutarties eilutė įpareigoja ką nors parduoti. Iš esmės yra dvi įsipareigojimų kategorijos:
@@ -113,6 +112,3 @@ Galite nukopijuoti finansines dimensijas į dokumento antraštes arba į atskira
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
