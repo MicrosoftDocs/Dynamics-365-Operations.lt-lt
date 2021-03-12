@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSWaveTableListPage, WHSWaveTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9cbc0b6655de740628bcf3709d250ac02238038b
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: b422eb432e579d4ae914fbc0efa79aaa15f1de27
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4434003"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998383"
 ---
 # <a name="wave-template-grouping"></a>Bangos šablonų grupavimas
 
@@ -201,6 +200,3 @@ Buvo sukurta nauja šios siuntos banga, nes ji naudoja kitą vežėjo paslaugą 
 1. Pasirinkite bangos ID, kuri buvo sukurta iš trečiojo pardavimo užsakymo.
 1. Pasirinkite bangos ID saitą, kad atidarytumėte puslapį Bangos išsami informacija.
 1. Atkreipkite dėmesį, kad siunta buvo pridėta į „FastTab” skirtuką **Bangos eilutės** kartu su pirma pardavimo užsakymo siunta.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

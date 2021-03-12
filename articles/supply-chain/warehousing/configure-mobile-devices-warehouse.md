@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSRFMenuItem, WHSRFSysDirSort, WHSWorkUserDisplaySettings
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 29941
 ms.assetid: 6dff6313-dc6e-4f06-9c0c-dab24eefe4da
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bb256514175166621847a5d40c16b9b749b1ddc
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f710403baef02173c39016406a19c82f604cc99d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433958"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996390"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiliųjų įrenginių nustatymas darbui sandėlyje
 
@@ -188,7 +187,7 @@ Galite nustatyti meniu elementą, kuris kuria darbą kitam darbuotojui, kai mobi
 </tr>
 <tr>
 <td>Numerio lentelės įkėlimas</td>
-<td>Naudokite šią parinktį, kai nustatote savo sandėlį pirmą kartą. Nuskaitykite visas numerių lenteles visose sandėlio vietose. Tokios vietos turi būti kontroliuojamos numerio lentelių. Šios parinkties naudoti negalite, jei atsargų rezervavimo hierarchijoje <strong>Serijos numeris</strong> arba <strong>Paketo numeris</strong> yra aukščiau už <strong>Vieta</strong>.</td>
+<td>Naudokite šią parinktį, kai nustatote&#39; savo sandėlį pirmą kartą. Nuskaitykite visas numerių lenteles visose sandėlio vietose. Tokios vietos turi būti kontroliuojamos numerio lentelių. Šios parinkties naudoti negalite&#39;, jei atsargų rezervavimo hierarchijoje <strong>Serijos numeris</strong> arba <strong>Paketo numeris</strong> yra aukščiau už <strong>Vieta</strong>.</td>
 </tr>
 <tr>
 <td rowspan="3">Ciklo skaičiavimas</td>
@@ -223,7 +222,7 @@ Be meniu elementų sandėlio darbams kurti nustatymo, galite nustatyti meniu ele
 <tbody>
 <tr class="odd">
 <td>Nėra</td>
-<td>Pagal šią numatytąją reikšmę darbas neapdorojamas.</td>
+<td>Pagal šią numatytąją reikšmę&#39; darbas neapdorojamas.</td>
 </tr>
 <tr class="even">
 <td>Sistemos nurodyta</td>
@@ -252,7 +251,7 @@ Be meniu elementų sandėlio darbams kurti nustatymo, galite nustatyti meniu ele
 <li><strong>Patikrintas vartotojo nurodymu laukas</strong> – pasirinkite lauką, kurį darbuotojas nuskaito norėdamas grupuoti darbus.</li>
 <li><strong>Patikrinta vartotojo nurodymu žymė</strong> – įvesdami tekstą nurodykite darbuotojui, ką reikia nuskaityti, kai išrinkimo darbus grupuoja sistema.</li>
 </ul>
-Ši parinktis naudinga, kai, pavyzdžiui, kroviniui išdėstyti keli padėklai. Jei lauke <strong>Patikrinta vartotojo nurodymu</strong> pasirinksite <strong>LoadId</strong>, darbuotojas galės išrinkti bet kokį su kroviniu susietą padėklą. Darbuotojui pateikiamas klaidos pranešimas, jei jis nuskaito su kroviniu nesusietą prekę.</td>
+Ši parinktis naudinga, kai, pavyzdžiui, kroviniui išdėstyti keli padėklai. Jei lauke <strong>Patikrinta vartotojo nurodymu</strong> pasirinksite <strong>LoadId</strong>, darbuotojas galės išrinkti bet kokį su kroviniu susietą padėklą. Darbuotojui pateikiamas klaidos pranešimas, jei jis nuskaito su kroviniu nesusietą&#39; prekę.</td>
 </tr>
 <tr class="odd">
 <td>Klasterio paėmimas</td>
@@ -296,7 +295,7 @@ Pateiktoje lentelėje aprašomos šios pasirinktys.
 </tr>
 <tr class="odd">
 <td>Užfiksavęs asmuo</td>
-<td>Jei naudojate fiksavimo funkciją, reikia nurodyti, ar fiksuoti pagal siuntą, ar pagal krovinį.</td>
+<td>Jei naudojate&#39; fiksavimo funkciją, reikia nurodyti, ar fiksuoti pagal siuntą, ar pagal krovinį.</td>
 </tr>
 <tr class="even">
 <td>Audito šablono ID</td>
@@ -320,11 +319,11 @@ Pateiktoje lentelėje aprašomos šios pasirinktys.
 </tr>
 <tr class="odd">
 <td>Išjungti ciklų skaičiavimo ribines vertes</td>
-<td>Pažymėkite šią parinktį, jei norite nepaisyti ciklo skaičiavimo ribinių reikšmių. Jei pažymite šią parinktį, viršijus ribines reikšmes ciklo skaičiavimo darbas nekuriamas.</td>
+<td>Pažymėkite šią parinktį, jei norite nepaisyti ciklo skaičiavimo ribinių reikšmių. Jei pažymite šią parinktį, viršijus ribines reikšmes ciklo skaičiavimo darbas&#39; nekuriamas.</td>
 </tr>
 <tr class="even">
 <td>Rodyti paketo perdavimo kodą</td>
-<td>Pasirinkite šią parinktį, kad būtų rodomi paketų perdavimo kodai. Pavyzdžiui, paketų perdavimo kodai gali būti rodomi, kai gaunate grąžintą paketą. Tada darbuotojai gali įvertinti paketo būseną arba kokybę ir pasirinkti reikiamą kodą. Paketo perdavimo kodo taisyklės lemia, ar paketas bus pasiekiamas kitiems sandėlio procesams. Jei nepasirinksite šios parinkties, bus naudojamas vienas iš šių paketo perdavimo kodų.
+<td>Pasirinkite šią parinktį, kad būtų rodomi paketų perdavimo kodai. Pavyzdžiui, paketų perdavimo kodai gali būti rodomi, kai gaunate grąžintą paketą. Tada darbuotojai gali įvertinti paketo būseną arba kokybę ir pasirinkti reikiamą kodą. Paketo perdavimo kodo taisyklės lemia, ar paketas bus pasiekiamas kitiems sandėlio procesams. Jei nepasirinksite&#39; šios parinkties, bus naudojamas vienas iš šių paketo perdavimo kodų.
 <ul>
 <li>Jei gaunate naują paketo numerį, numatytasis paketo perdavimo kodas, nurodytas prekės modelių grupėje.</li>
 <li>Paketo perdavimo kodas, kuris jau priskirtas paketui.</li>
@@ -371,8 +370,8 @@ Pateiktoje lentelėje aprašomos šios pasirinktys.
 <td>Nurodykite, ar darbuotojas pirmiausia turi išrinkti seniausią vietoje esantį paketą. Galimos toliau nurodytos pasirinktys:
 <ul>
 <li><strong>Nėra</strong> – darbuotojas gali išrinkti bet kokį vietoje esantį paketą. Darbuotojui nepateikiamas joks pranešimas.</li>
-<li><strong>Įspėti</strong> – darbuotojas gali išrinkti bet kokį vietoje esantį paketą, bet jei tai nėra seniausias paketas, pateikiamas įspėjamasis pranešimas.</li>
-<li><strong>Priversti</strong> – darbuotojas privalo išrinkti seniausią vietoje esantį paketą. Darbuotojui pateikiamas klaidos pranešimas, jei paketas nėra seniausias paketas. <strong>Pastaba.</strong> Ši parinktis aktuali tik jei <strong>Paketo numeris</strong> vertė yra žemesnė nei <strong>Vieta</strong> prekei priskirtoje rezervavimo hierarchijoje.</li>
+<li><strong>Įspėti</strong> – darbuotojas gali išrinkti bet kokį vietoje esantį paketą, bet jei tai nėra&#39; seniausias paketas, pateikiamas įspėjamasis pranešimas.</li>
+<li><strong>Priversti</strong> – darbuotojas privalo išrinkti seniausią vietoje esantį paketą. Darbuotojui pateikiamas klaidos pranešimas, jei paketas nėra&#39; seniausias paketas. <strong>Pastaba.</strong> Ši parinktis aktuali tik jei <strong>Paketo numeris</strong> vertė yra žemesnė nei <strong>Vieta</strong> prekei priskirtoje rezervavimo hierarchijoje.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -385,7 +384,7 @@ Pateiktoje lentelėje aprašomos šios pasirinktys.
 </tr>
 <tr class="odd">
 <td>Sistemos grupavimo žyma</td>
-<td>Įvesdami tekstą nurodykite darbuotojui, ką reikia nuskaityti, kai išrinkimo darbus grupuoja „Supply Chain Management“. Pavyzdžiui, jei naudojate lauką <strong>ShipmentId</strong> norėdami grupuoti išrinkimo darbus pagal siuntą, lauke galite įvesti <strong>Siuntos ID</strong>. Šiam laukui reikia sukurti meniu elementą, kuris naudos esamus sistemos sugrupuotus darbus. Be to, lauke <strong>Sistemos grupavimas</strong> reikia pasirinkti lauką, pagal kurį grupuosite.</td>
+<td>Įvesdami tekstą nurodykite darbuotojui, ką reikia nuskaityti, kai išrinkimo darbus grupuoja „Supply Chain Management“. Pavyzdžiui, jei naudojate&#39; lauką <strong>ShipmentId</strong> norėdami grupuoti išrinkimo darbus pagal siuntą, lauke galite įvesti <strong>Siuntos ID</strong>. Šiam laukui reikia sukurti meniu elementą, kuris naudos esamus sistemos sugrupuotus darbus. Be to, lauke <strong>Sistemos grupavimas</strong> reikia pasirinkti lauką, pagal kurį grupuosite.</td>
 </tr>
 <tr class="even">
 <td>Naudoti numatytuosius duomenis</td>
@@ -401,7 +400,7 @@ Pateiktoje lentelėje aprašomos šios pasirinktys.
 </tr>
 <tr class="odd">
 <td>Darbo šablono kodas</td>
-<td>Pasirinkite darbo šabloną, kuris sukurs proceso darbą. Pavyzdžiui, jei gaunate pirkimo užsakymo prekę, atidėjimo darbas bus sukurtas remiantis darbo šablonu. Jei nepasirinksite darbo šablono, „Supply Chain Management“ priskirs šabloną pagal užklausos kriterijus. Daugiau informacijos apie darbo šablonus žr. <a href="control-warehouse-location-directives.md">Sandėlio darbo kontroliavimas darbo šablonais ir vietų nurodymais</a>.</td>
+<td>Pasirinkite darbo šabloną, kuris sukurs proceso darbą. Pavyzdžiui, jei gaunate pirkimo užsakymo prekę, atidėjimo darbas bus sukurtas remiantis darbo šablonu. Jei nepasirinksite&#39; darbo šablono, „Supply Chain Management“ priskirs šabloną pagal užklausos kriterijus. Daugiau informacijos apie darbo šablonus žr. <a href="control-warehouse-location-directives.md">Sandėlio darbo kontroliavimas darbo šablonais ir vietų nurodymais</a>.</td>
 <tr class="even">
 <td>Rodyti darbo eilučių sąrašą</td>
 <td>Pasirinkite parinktį, nurodančią, kaip darbuotojai galės peržiūrėti ir sąveikauti su šiuo metu pasirinkto paėmimo darbo eilutėmis. Daugiau informacijos apie šią parinktį žr. <a href="pick-line-overview.md">Mobiliojo įrenginio meniu elemento nustatymas paėmimo eilučių peržiūrai pateikti</a>.</td>
@@ -439,6 +438,3 @@ Toliau pateikiamoje lentelėje aprašomi įvairūs darbo tipai, su kuriais galit
 [Atsargų būsenos](../inventory/inventory-statuses.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

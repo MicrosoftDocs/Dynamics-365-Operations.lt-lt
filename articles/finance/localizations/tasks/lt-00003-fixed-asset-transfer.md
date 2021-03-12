@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: VehicleModelTable_W, LtInvoiceAutoNumberingGroups, LtInvoiceAutonumberingTable, AssetWarehouseTransfer, HcmWorkerLookUp, SysQueryForm, LtAssetPackingSlip, TransportationDocument, LogisticsPostalAddressLookup
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Lithuania
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 82f7b62a4ef62f46659e172b5c8d448c939c677c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 35702609419034d504c3fc578fcd23d298266533
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408235"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997441"
 ---
 # <a name="lt-00003-generate-a-fixed-asset-transfer-between-warehouses-document"></a>LT-00003: generuoti ilgalaikio turto perkėlimo iš vieno sandėlio į kitą dokumentą
 
@@ -94,6 +93,3 @@ Procedūra buvo sukurta naudojant demonstracinių duomenų įmonę USMF, todėl 
 3. Spustelėkite GERAI.
     * Sugeneravus ataskaitą bus spausdinama visa transportavimo informacija.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

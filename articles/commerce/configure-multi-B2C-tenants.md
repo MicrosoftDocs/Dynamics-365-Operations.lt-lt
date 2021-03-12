@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: da27e3ed0a0e50126590609d09575befe17a7aa2
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: 9a1af453349d69ef94d725e138a898c73ea052fa
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517133"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997605"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Kelių B2C nuomotojų konfigūravimas „Commerce“ aplinkoje
 
@@ -120,7 +119,7 @@ Dabar jūsų naujas „Azure AD“ B2C nuomotojas turi pasirodyti sąraše po **
 
 [Susiekite „Dynamics 365 Commerce“ saitą su interneto kanalu](associate-site-online-store.md)
 
-[„robots.txt” failų tvarkymas](manage-robots-txt-files.md)
+[robots.txt failų tvarkymas](manage-robots-txt-files.md)
 
 [Masinis URL peradresavimų nusiuntimas](upload-bulk-redirects.md)
 
@@ -131,6 +130,3 @@ Dabar jūsų naujas „Azure AD“ B2C nuomotojas turi pasirodyti sąraše po **
 [Turinio pristatymo tinklo (CDN) palaikymo įtraukimas](add-cdn-support.md)
 
 [Parduotuvės nustatymo pagal vietą įgalinimas](enable-store-detection.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

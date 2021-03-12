@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e2001d5c0b17ecadf4cb42529d9beb4b3b81805a
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 0fd390e5e0054ff301c18c2507c600f954e6ce89
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528298"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996781"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Kliento portalo vartotojų kūrimas ir valdymas
 
@@ -39,11 +38,11 @@ Kai vartotojai užsiregistruoja patys, jiems automatiškai sukuriami kontaktų �
 
 ## <a name="prerequisite-setup"></a>Būtinieji nustatymo veiksmai
 
-„Power Apps“ portaluose esantys kontaktai saugomi kaip įrašai „Common Data Service“ objekte **Kontaktai**. Tada dvigubo rašymo funkcija pagal poreikį sinchronizuoja šiuos įrašus su „Microsoft Dynamics 365 Supply Chain Management“.
+„Power Apps“ portaluose esantys kontaktai saugomi kaip įrašai „Microsoft Dataverse“ lentelėje **Kontaktai**. Tada dvigubo rašymo funkcija pagal poreikį sinchronizuoja šiuos įrašus su „Microsoft Dynamics 365 Supply Chain Management“.
 
 ![Kliento portalo kontaktų sistemos schema](media/customer-portal-contacts.png "Kliento portalo kontaktų sistemos schema")
 
-Prieš pradėdami kviesti naujus klientus, įsitikinkite, kad dvigubo rašymo funkcijoje įjungėte susiejimą su objektu **Kontaktas**.
+Prieš pradėdami kviesti naujus klientus, įsitikinkite, kad dvigubo rašymo funkcijoje įjungėte susiejimą su lentele **Kontaktas**.
 
 ## <a name="the-invitation-process"></a>Pakvietimo procesas
 
@@ -58,15 +57,15 @@ Sukūrę kontaktą, galėsite jį peržiūrėti „Supply Chain Management“ si
 
 Norėdami gauti daugiau informacijos, žr. temą [Portale naudojamo kontakto konfigūravimas](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) „Power Apps“ portalų dokumentacijoje.
 
-## <a name="out-of-box-web-roles-and-entity-permissions"></a>Parengti naudoti žiniatinklio vaidmenys ir objektų teisės
+## <a name="out-of-box-web-roles-and-table-permissions"></a>Parengti naudoti žiniatinklio vaidmenys ir lentelių teisės
 
-Vartotojų vaidmenis „Power Apps“ portaluose nurodo [žiniatinklio vaidmenys](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) ir [objektų teisės](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions). Kliento portale iš karto yra nustatyti keli vaidmenys. Galite kurti naujus vaidmenis ir modifikuoti arba pašalinti esamus vaidmenis.
+Vartotojų vaidmenis „Power Apps“ portaluose nurodo [žiniatinklio vaidmenys](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) ir [lentelių teisės](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions). Kliento portale iš karto yra nustatyti keli vaidmenys. Galite kurti naujus vaidmenis ir modifikuoti arba pašalinti esamus vaidmenis.
 
 ### <a name="out-of-box-web-roles"></a>Iš anksto parengti tinklapio vaidmenys
 
 Šiame skyriuje aprašomi žiniatinklio vaidmenys, kurie tiekiami su kliento portalu.
 
-Norėdami gauti daugiau informacijos apie tai, kaip modifikuoti iš anksto parengtus vartotojų vaidmenis, žr. temas [Žiniatinklio vaidmenų kūrimas portaluose](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) ir [Įrašu pagrįstos saugos įtraukimas į portalus naudojant objektų teises](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) „Power Apps“ portalų dokumentacijoje.
+Norėdami gauti daugiau informacijos apie tai, kaip modifikuoti iš anksto parengtus vartotojų vaidmenis, žiūrėkite [Žiniatinklio vaidmenų kūrimas portaluose](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) ir [Įrašu pagrįstos saugos įtraukimas į portalus naudojant lentelių teises](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) „Power Apps“ portalų dokumentacijoje.
 
 #### <a name="administrator"></a>Administratorius
 
@@ -96,6 +95,3 @@ Toliau pateiktoje lentelėje parodyta, kuriuos pardavimo užsakymus sistemoje ga
 
 > [!NOTE]
 > Nors tiek Sam, tiek Jane yra kontaktai, kurie dirba klientui X, jie gali matyti tik tuos užsakymus, kuriuos pateikė patys, ir nieko daugiau. Nors May sistemoje pateikė užsakymą, ji negali matyti to užsakymo kliento portale, nes ji yra teisių neturinti vartotoja. (Be to, ji užsakymą pateikė per kitą kanalą, o ne per kliento portalą.)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

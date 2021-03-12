@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLoadTemplate,WHSWorkTemplateTable,WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6104e457a62f340951c187d0f2dbe48b0dffdf7f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6ccfbe30e9d4a0fc4580c7036d222bfca9203a21
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433360"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996331"
 ---
 # <a name="confirm-and-transfer"></a>Tvirtinimas ir perkėlimas
 
@@ -170,7 +169,7 @@ Krovinio planavimo darbo sritis naudos krovinio šablono ID, kad būtų galima k
 
 ### <a name="step-2-set-up-the-execution-flow-for-mobile-devices"></a>2-as veiksmas: nustatykite mobiliųjų įrenginių vykdymo eigą
 
-Mobiliojo įrenginio užduotyse reikės įvesti vartotojo informaciją, pvz., darbo ID arba numerio lentelės ID. Laukuose ši informacija paprastai teikiama sandėlio vartotojams brūkšninių kodų forma, kurie randami dokumentuose, pakuotėse ar  išdėstyme. Norėdami atlikti scenarijų mobiliesiems įrenginiams skirtus veiksmus, įsitikinkite, kad nustatėte operacijų darbo ID ir operacijų prekės bei vietos numerio lentelės ID.
+Mobiliojo įrenginio užduotyse reikės įvesti vartotojo informaciją, pvz., darbo ID arba numerio lentelės ID. Laukuose ši informacija paprastai teikiama sandėlio vartotojams brūkšninių kodų forma, kurie randami dokumentuose, pakuotėse ar išdėstyme. Norėdami atlikti scenarijų mobiliesiems įrenginiams skirtus veiksmus, įsitikinkite, kad nustatėte operacijų darbo ID ir operacijų prekės bei vietos numerio lentelės ID.
 
 1. Prisijunkite prie mobiliojo įrenginio naudodami sandėlio *51* vartotojo ID ir slaptažodį sandėlio vartotojo ID ir slaptažodį.
 1. Pasirinkite **Siunčiama**.
@@ -230,6 +229,3 @@ Taip pat galite patvirtinti, kad operacijų ryšiai atnaujinti šiais būdais:
 - **Išskaidytas kiekis į naują krovinį** pasirinktis taip pat veikia, kai kai kurių likusių darbo antraščių būsena yra *vykdoma*. Todėl vis dar galite naudoti funkcijas, net jei darbuotojai jau vykdo paėmimo užsakymus.
 - Jei pasirinksite **Atšaukti neįvykdytą kiekį**, kai yra likęs darbas, kurio būsena yra *Atviras* arba *Vykdomas*, gaunate tokį klaidos pranešimą: „Nepavyko atšaukti likusio krovinio kiekio. Yra krovinio darbas.“
 - Jei pasirinksite **Atšaukti neįvykdytą kiekį**, kai nėra likusio darbo, bet yra neišleistų krovinio eilučių kroviniui, gausite tokį klaidos pranešimą: „Krovinio siuntos nepavyksta patvirtinti, nes prekės kiekis viršija procentinę dalį, kuri nurodyta pristatymo metu.“ Norėdami išvengti šios klaidos, galite nustatyti, kad **Pristatymo metu** neišleistos krovinio eilutės procentus į 100 procentų. Neišleistos eilutės nebus perkeltos į naują krovinį, bet dabartinis krovinys bus patvirtintas kaip pristatymo trūkumas. Tokiu atveju negalėsite iš naujo paleisti pradinio užsakymo. Todėl jums reikės kitaip išspręsti šią problemą.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
