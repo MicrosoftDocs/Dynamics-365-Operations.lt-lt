@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 1205393
 ms.assetid: 2f13e9cf-55b5-458b-8c32-3f8cd98c9ecf
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0ab8456d81fbe2dca495b65b932395572242a25c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b0a5ca1e116e931ba992eab51a06dae9fdf92756
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414408"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006140"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>„Retail Modern POS“ (MPOS) ir „Cloud POS“ užduočių įrašymo priemonė bei žinynas
 
@@ -32,9 +31,9 @@ ms.locfileid: "4414408"
 
 Šioje temoje aprašoma, kaip naudoti užduočių įrašymo priemonę „Retail Modern POS“ ir „Cloud POS“.
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Peržiūra
 
-Užduočių įrašymo priemonė „Retail Modern POS“ arba „Cloud POS“ yra naujas sprendimas, kurį kuriant didelis dėmesys skirtas modifikavimo galimybėms padidinti. Ji pateikia lanksčią tarnybos programavimo sąsają (API), kuri užtikrina išplėtimą ir sklandų integravimą su verslo proceso įrašų vartotojais. Be to, pristatytas užduočių įrašymo priemonės integravimas su „Microsoft Dynamics Lifecycle Services“ verslo procesų modeliavimo (BPM) įrankiu ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)). Todėl vartotojai gali toliau iš įrašų kurti vaizdingas verslo procesų diagramas, kad galėtų analizuoti ir kurti savo programas.
+Užduoties registratorius „Retail Modern POS“ ar „Cloud POS“ yra naujas sprendimas, kuris buvo sukurtas koncentruojantis į greitą reagavimą. Ji pateikia lanksčią tarnybos programavimo sąsają (API), kuri užtikrina išplėtimą ir sklandų integravimą su verslo proceso įrašų vartotojais. Be to, pristatytas užduočių įrašymo priemonės integravimas su „Microsoft Dynamics Lifecycle Services“ verslo procesų modeliavimo (BPM) įrankiu ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)). Todėl vartotojai gali toliau iš įrašų kurti vaizdingas verslo procesų diagramas, kad galėtų analizuoti ir kurti savo programas.
 
 ## <a name="architecture"></a>Architektūra
 
@@ -56,7 +55,7 @@ Norėdami įjungti užduočių įrašymą EKA, atlikite toliau nurodytus veiksmu
 Atlikite šiuos veiksmus, jei norite kurti naują įrašą naudodami užduočių įrašymo priemonę.
 
 1. Paleiskite „Retail Modern POS“ arba „Cloud POS“ ir prisijunkite.
-2. Puslapio **Parametrai** dalyje **Užduočių įrašymo priemonė** spustelėkite **Atidaryti užduočių įrašymo priemonę**. Pasirodo sritis **Užduočių įrašymo priemonė**. Galite spustelėti mygtuką **Uždaryti** (**X**) viršutiniame dešiniajame kampe, kad prieš pradėdami naują įrašymo veiksmą uždarytumėte sritį **Užduočių įrašymo priemonė**. Norėdami vėl atidaryti sritį, pakartokite 2 veiksmą.
+2. Puslapio **Parametrai** dalyje **Užduočių įrašymo priemonė** spustelėkite **Atidaryti užduočių įrašymo priemonę**. Pasirodo sritis **Užduočių įrašymo priemonė**. Galite spustelėti mygtuką **Uždaryti** (**X**) viršutiniame dešiniajame kampe, kad prieš pradėdami naują įrašymo veiksmą uždarytumėte sritį **Užduočių įrašymo priemonė**. Norėdami atidaryti juostą dar kartą, kartokite žingsnį 2.
 
     [![Sritis Užduočių įrašymo priemonė](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
 
@@ -146,6 +145,3 @@ Ieškos rezultatuose spustelėjus užduočių vedlį, veiksmus galima peržiūr�
 
 > [!NOTE]
 > „Retail Modern POS“ ir „Cloud POS“ žinyno sistema neatidarys užduočių vedlių pagal jūsų atidarytą formą ar atliekamą operaciją. Proceso pavadinimą turite įvesti į ieškos lauką ir spustelėti **Ieškoti**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
