@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 65531
 ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb0472a0d2ac9b552cd16e4d6bf516a876ea4a0e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0957fee111ec1fd5bb66951126869cf46d88b36e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433434"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967488"
 ---
 # <a name="moving-average"></a>Slankusis vidurkis
 
@@ -93,7 +92,7 @@ Jei reikia koreguoti produkto slankiojo vidurkio kainą, atsargų koregavimus le
 
 Šiame pavyzdyje slankiojo vidurkio savikaina pakoreguota pagal produktą.
 
-1. Pasirinkite produktą, kurio slankiojo vidurkio savikainą norite koreguoti. 
+1. Pasirinkite produktą, kuriam norite redaguoti slankiojo vidurkio savikainą. 
 
  > [!NOTE]
  > Puslapyje **Slankiojo vidurkio pakartotinis įvertinimas** tikrinamos turimos produkto atsargos. Pasirinkto produkto užregistruotas kiekis yra 1, užregistruota vertė 12,00, užregistruota vieneto savikaina 12,00 ir vieneto kaina 12,00.
@@ -141,7 +140,7 @@ Jei po operacijos naujas turimas kiekis teigiamas, operacija padalinama į dvi d
 
 ## <a name="inventory-value-report"></a>Atsargų vertės ataskaita
 
-Šiame slankiojo vidurkio pavyzdyje atsargų vertės ataskaita spausdinama siekiant palaikyti esamą produkto slankiojo vidurkio skaičiavimą. Naudojant atsargų vertės ataskaitą operacijas galima spausdinti chronologine tvarka, kartu su savikaina, kad būtų palaikomas produkto slankiojo vidurkio savikainos skaičiavimas. Ataskaitoje rodoma produkto slankiojo vidurkio savikaina. Dialogo lange **Atsargų vertės ataskaitos** datos intervalas leidžia pasirinkti **Operacijos laikas** arba **Registravimo data** ir pagal tai rūšiuoti ataskaitą. Paprastai ataskaita spausdinama nustačius parinktį **Registravimo data**. Parinktis **operacijos laikas** yra faktinė data, kurią pranešama apie operaciją ir atnaujinama produkto slankiojo vidurkio savikaina. Atsargų vertės ataskaitą galite spausdinti naudodami parinktį **Rūšiavimas pagal operacijos laiką**, jei norite pamatyti slankiojo vidurkio savikainos apskaičiavimą per tam tikrą laiką. Toliau pateiktoje lentelėje rodomos produktų operacijos, kurioms spausdinama ataskaita, kai naudojama parinktis **Rūšiavimas pagal operacijos laiką**.
+Šiame slankiojo vidurkio pavyzdyje atsargų vertės ataskaita spausdinama siekiant palaikyti esamą produkto slankiojo vidurkio skaičiavimą. Naudojant atsargų vertės ataskaitą operacijas galima spausdinti chronologine tvarka, kartu su savikaina, kad būtų palaikomas produkto slankiojo vidurkio savikainos skaičiavimas. Ataskaitoje rodoma produkto slankiojo vidurkio savikaina. Dialogo lange **Atsargų vertės ataskaitos** datos intervalas leidžia jums pasirinkti **Operacijos laikas** arba **Registravimo data** ir pagal tai rūšiuoti ataskaitą. Paprastai ataskaita spausdinama nustačius parinktį **Registravimo data**. Parinktis **operacijos laikas** yra faktinė data, kurią pranešama apie operaciją ir atnaujinama produkto slankiojo vidurkio savikaina. Atsargų vertės ataskaitą galite spausdinti naudodami parinktį **Rūšiavimas pagal operacijos laiką**, jei norite pamatyti slankiojo vidurkio savikainos apskaičiavimą per tam tikrą laiką. Toliau pateiktoje lentelėje rodomos produktų operacijos, kurioms spausdinama ataskaita, kai naudojama parinktis **Rūšiavimas pagal operacijos laiką**.
 
 | Operacijos laikas | Data         | Operacijos tipas           | Kiekis | Suma | Vidutinė vieneto savikaina |
 |------------------|--------------|----------------------------|----------|--------|-------------------|
@@ -155,6 +154,3 @@ Jei po operacijos naujas turimas kiekis teigiamas, operacija padalinama į dvi d
 
 > [!NOTE]
 > Negalite suderinti su atsargų DK naudodami parinktį **Rūšiavimas pagal operacijos laiką**. Ataskaita turi būti spausdinama naudojant parinktį **Registravimo data**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

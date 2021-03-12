@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13851
 ms.assetid: 0fa2f71a-596c-414c-a6e6-8f7405a0bf81
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c12ca59203d6cad7f5699bc930f2af27427ca41b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d2414ea97fefbec1e975498e171496e33057541c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4446109"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969009"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>Tiesiogiai proporcingas likutinės vertės nusidėvėjimas
 
@@ -38,7 +37,7 @@ Puslapio **Nusidėvėjimo profiliai** lauke **Nusidėvėjimo metai** galite pasi
 
 ### <a name="calendar"></a>Kalendorius
 
-Lauke ***Nusidėvėjimo metai*** pasirinkus **Kalendorius**, metais laikomas laikotarpis nuo sausio 1 d. iki gruodžio 31 d., net jei finansinį kalendorių esate nustatę kitaip. Parinktimi **Kalendoriniai** nusidėvėjimo pagrindas atnaujinamas kiekvienų metų sausio 1 d. Paprastai nusidėvėjimo pagrindas apskaičiuojamas iš balansinės vertės atėmus likvidacinę vertę. Toliau šioje temoje pateiktame pavyzdyje nusidėvėjimo pagrindas yra skaičiavimų stulpelyje nurodytas pirmos išraiškos skaitiklis. Jei kaip nusidėvėjimo metus pasirinksite **Kalendoriniai**, galimos toliau nurodytos lauko **Laikotarpio dažnis** parinktys.
+Jei renkatės **Kalendorius** laukelyje **_Nebegaliojimo metai_*_ , metai nuo sausio 1 iki gruodžio 31 yra apimami, net jei nustatėte mokestinį kalendorių kitaip. _* Kalendoriaus** parinktis naujina nebegaliojimą nuo kiekvienerių metų sausio 1 dienos. Paprastai nusidėvėjimo pagrindas apskaičiuojamas iš balansinės vertės atėmus likvidacinę vertę. Toliau šioje temoje pateiktame pavyzdyje nusidėvėjimo pagrindas yra skaičiavimų stulpelyje nurodytas pirmos išraiškos skaitiklis. Jei kaip nusidėvėjimo metus pasirinksite **Kalendoriniai**, galimos toliau nurodytos lauko **Laikotarpio dažnis** parinktys.
 
 -   Pasirinkus **Kasmet**, suma registruojama gruodžio 31 d.
 -   Pasirinkus **Kas mėnesį**, mėnesio suma registruojama kiekvieno kalendorinio mėnesio pabaigoje.
@@ -80,6 +79,3 @@ Nusidėvėjimo suma yra ta pati kiekvienais metais: (įsigijimo išlaidos – li
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

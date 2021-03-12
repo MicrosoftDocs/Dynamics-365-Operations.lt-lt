@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 1219713
 ms.search.region: Czech Republic, Germany, Hungary, Latvia, Lithuania, Poland, Russia
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ee8f3f5c850ad0ae519c83a689d12b9a1471712
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9ee59d879a0500b5addfd9540f35cd818d7126c5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408245"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968323"
 ---
 # <a name="storno-accounting"></a>Storno apskaita
 
@@ -29,10 +28,10 @@ ms.locfileid: "4408245"
 
 Storno apskaita yra neigiamų skaičių naudojimo praktika, norint pakeisti pradinius žurnalo sąskaitos įrašus.
 
-*Storno apskaita* yra neigiamų debeto arba kredito sumų naudojimo praktika, norint pakeisti pradinius žurnalo sąskaitos įrašus. Kadangi finansininkai paprastai Storno įrašus rašo raudonu rašalu, šis apskaitos praktika dar vadinama *raudonuoju Storno*. Storno apskaita suteikia galimybę atšaukti dokumentą su neteisingomis sumomis, tačiau po atšaukimo visada reikia įvesti teisingą dokumento sumą.
+*Storno apskaita* yra neigiamų debeto arba kredito sumų naudojimo praktika, norint pakeisti pradinius žurnalo sąskaitos įrašus. Kadangi finansininkai paprastai Storno įrašus rašo raudonu rašalu, šis apskaitos praktika dar vadinama *raudonuoju Storno*. Naudodami „Storno“ apskaitą galite atšaukti dokumentą su netiksliomis sumomis, bet turite visuomet įvesti tinkamą dokumento sumą po atšaukimo.
 
 ## <a name="example"></a>Pavyzdys
-Finansininkas užregistruoja tiekėjo SF už 120 USD. Mokėjimo proceso metu finansininkas klaidingai įveda 120 USD, o ne 102 USD. Dabar finansininkas turi sukurti pradinio dokumento Storno ir tada sukurti teisingą 102 USD vertės SF. Norėdami gauti daugiau informacijos, žr. [Tiekėjų sąskaitų faktūrų apžvalga](../accounts-payable/vendor-invoices-overview.md). Toliau pateikiamoje lentelėje parodytas bendrasis Storno įrašas.
+Buhalteris publikuoja sąskaitą iš pardavėjo 120 USD. Mokėjimo proceso metu nustatoma, kad buhalteris per klaidą įvedė 120 USD, o ne 102 USD. Dabar buhalteriui reikia sukurti „Storno“ originaliam dokumentui ir tuomet sukurti tinkamą sąskaitą 102 USD. Dėl daugiau informacijos, žr. [Pardavėjo sąskaitų apžvalga](../accounts-payable/vendor-invoices-overview.md). Toliau pateikiamoje lentelėje parodytas bendrasis Storno įrašas.
 
 | **Dokumento ID** | **Sąskaita** | **Debetas** | **Kreditas** | **Komentaras**                  |
 |-----------------|-------------|-----------|------------|------------------------------|
@@ -53,7 +52,7 @@ Finansininkas užregistruoja tiekėjo SF už 120 USD. Mokėjimo proceso metu fin
 | Tiekėjo kodas | 0     | 102    | -102    |
 
 ## <a name="differences-between-storno-and-reverse-entries"></a>Storno ir atvirkštinių įrašų skirtumai
-Registravimo įrašus – atvirkštinius ir storno – galima ištaisyti dviem būdais. Jei naudojate atvirkštinį įrašą, sukuriama pradinio bendrojo įrašo kopija su atvirkštinėmis debeto ir kredito sąskaitomis, ir sumų ženklas lieka toks pat. Jei naudojate Storno, sistema sukuria pradinio bendrojo įrašo kopiją, tačiau sumos įrašomos naudojant neigiamą ženklą. Toliau pateikiamoje lentelėje parodytas bendrasis Storno įrašas.
+Yra du būdai, kuriais galima tinkamai publikuoti įrašus - atvirkštinis ir „Storno“. Jei naudosite atvirkštinį įrašą, originalaus bendro įrašo kopija bus sukurta su atvirkštine skola ir kredito sumomis, o sumos liks tame pačiame ženkle. Jei naudojate Storno, sistema sukuria pradinio bendrojo įrašo kopiją, tačiau sumos įrašomos naudojant neigiamą ženklą. Toliau pateikiamoje lentelėje parodytas bendrasis Storno įrašas.
 
 | **Dokumento ID** | **Sąskaita** | **Debetas** | **Kreditas** | **Komentaras**                  |
 |-----------------|-------------|-----------|------------|------------------------------|
@@ -73,10 +72,10 @@ Registravimo įrašus – atvirkštinius ir storno – galima ištaisyti dviem b
 | Pirkimo sąskaita  | 222   | 120    | 102     |
 | Tiekėjo kodas | 120   | 222    | -102    |
 
-Atkreipkite dėmesį, kad atvirkštinių ir storno įrašų balansai yra lygūs. Debeto apyvarta ir kredito apyvarta skiriasi, nes atvirkštiniuose įrašuose debeto ir kredito apyvarta tampa perteklinė. Atšaukti įrašai naudojami šalyse / regionuose, kuriuose apyvarta naudojama retai. Kitose šalyse / regionuose naudojama Storno apskaita.
+Atkreipkite dėmesį, kad atvirkštinių ir storno įrašų balansai yra lygūs. Esama skirtumo tarp skolos pajamų ir kredito pajamų, nes atvirkštinis įrašas padaro skolos ir kredito pajamas nereikalingas. Atšaukti įrašai naudojami šalyse / regionuose, kuriuose apyvarta naudojama retai. Kitose šalyse / regionuose naudojama Storno apskaita.
 
 ## <a name="partial-storno"></a>Dalinis Storno
-*Dalinis Storno* yra neigiamų debeto arba kredito sumų naudojimo apskaitos praktika, norint pakeisti pradinius žurnalo sąskaitos įrašų dalį. Kai kuriose šalyse / regionuose galima naudoti dalinį Storno. Pavyzdžiui, finansininkas užregistruoja tiekėjo SF už 120 USD. Mokėjimo proceso metu nustatoma, kad finansininkas klaidingai įvedė neteisingą numeraciją. Pradinės 102 USD vertės SF numeracijoje buvo klaida.Naudodamas dalinį Storno, finansininkas turėtų sukurti 18 USD vertės Storno. Toliau pateikiamoje lentelėje parodytas dalinio Storno įrašas.
+*Dalinis „Storno“* yra apskaitos praktika naudojanti neigiamas skolos ir kredito sumas siekiant atgręžti pradinio žurnalo apskaitos įrašus. Kai kuriose šalyse / regionuose galima naudoti dalinį Storno. Pavyzdžiui, buhalteris publikuoja sąskaitą iš pardavėjo 120 USD. Mokėjimo proceso metu nustatoma, kad buhalteris per klaidą įvedė klaidingą skaičių seką. Pradinė sąskaita 102 USD turėjo klaidą skaičių sekoje. Naudodamas dalinį „Storno“, buhalteris turėtų sukurti „Storno“ 18 USD. Tolesnė lentelė rodo bendrą įrašą daliniam „Storno“.
 
 | **Dokumento ID** | **Sąskaita** | **Debetas** | **Kreditas** | **Komentaras**                  |
 |-----------------|-------------|-----------|------------|------------------------------|
@@ -93,13 +92,13 @@ Atkreipkite dėmesį, kad atvirkštinių ir storno įrašų balansai yra lygūs.
 | Pirkimo sąskaita  | 102   | 0      | 102     |
 | Tiekėjo kodas | 0     | 102    | -102    |
 
-Dalinis Storno gali sukelti problemą pradinėje spausdinimo formoje.Jei skiriasi pradinio dokumento ir storno datos, gali būti sunku tiksliai apskaičiuoti valiutos sumą. Todėl dalinį Storno galima naudoti tik tam tikruose dokumentuose. „Dynamics 365 Finance“ teikia dalinio Storno funkciją, skirtą tik dokumentams ir šalims / regionams, kuriuose ją galima naudoti.
+Dalinis Storno gali sukelti problemą pradinėje spausdinimo formoje. Jei esama skirtumo tarp originalaus dokumento datos ir „Storno“ datos, gali būti sunku gauti tikslią valiutos sumą. Dėl to, dalinis „Storno“ leidžiamas tik tam tikriems dokumentams. „Dynamics 365 Finance“ teikia dalinio Storno funkciją, skirtą tik dokumentams ir šalims / regionams, kuriuose ją galima naudoti.
 
-## <a name="how-to-enter-stornoon-journal-lines"></a>Kaip įvesti Storno žurnalo eilutes
-Įveskite debeto arba kredito sumą su neigiamu ženklu žurnalo eilutėje, kad sukurtumėte Storno įrašą. Laukas **Koregavimas** nustatomas registravimo proceso metu. 
+## <a name="how-to-enter-storno-on-journal-lines"></a>Kaip įvesti „Storno“ žurnalų eilutėse
+Įveskite skolos ir kredito sumas su neigiamu ženklu žurnalo eilutėje tam, kad sukurtumėte „Storno“ įrašą. Laukelis **Taisymas** yra nustatomas publikavimo proceso metu. 
 
 ## <a name="how-storno-is-displayed"></a>Kaip Storno rodomas
-„Finance“ neigiamas žurnalo sumas tvarko specialiu būdu. Bendrojo žurnalo įrašas, kliento operacija, tiekėjo operacija ir kitos operacijos teikia Storno funkciją, kaip parodyta toliau.
+„Finance“ neigiamas žurnalo sumas tvarko specialiu būdu. Bendras žurnalo įrašas, kliento transakcija, pardavėjo transakcijos ir kitos transakcijos suteikia „Storno“ funkciją, kaip parodyta toliau.
 
 <table>
 <thead>
@@ -121,7 +120,7 @@ Dalinis Storno gali sukelti problemą pradinėje spausdinimo formoje.Jei skirias
 </thead>
 <tbody>
 <tr class="row-2">
-<td class="column-1"> Debetas</td>
+<td class="column-1"> Debetas</td>
 <td class="column-2">Nr.</td>
 <td class="column-3">&gt;0</td>
 <td class="column-4" align="right">Suma</td>
@@ -131,7 +130,7 @@ Dalinis Storno gali sukelti problemą pradinėje spausdinimo formoje.Jei skirias
 <td class="column-8">Padidėja</td>
 </tr>
 <tr class="row-3">
-<td class="column-1"> Kreditas</td>
+<td class="column-1"> Kreditas</td>
 <td class="column-2">Nr.</td>
 <td class="column-3">&lt;0</td>
 <td class="column-4" align="right">–Suma</td>
@@ -163,13 +162,10 @@ Dalinis Storno gali sukelti problemą pradinėje spausdinimo formoje.Jei skirias
 </tbody>
 </table>
 
-Storno rodinį formose, tinkleliuose, stulpeliuose ir laukuose galite tinkinti. Pavyzdžiui, galite išjungti ženklo rodymą arba keisti neigiamų sumų užpildymą. Taip pat galite naudoti lauką **Koregavimas** su visais rodymo parametrais, jei lauko **Koregavimas** parinktis yra Taip, tada tai yra Storno įrašas.
+Storno rodinį formose, tinkleliuose, stulpeliuose ir laukuose galite tinkinti. Pavyzdžiui, galite išjungti rodymą ar keisti išplėtimą neigiamoms sumoms. Taip pat, galite naudoti **Koregavimo** laukelį visiems rodomams nustatymams, jei **Koregavimo** laukelis turi „Taip“, kai tai yra „Storno“ įrašas.
 
 ![Žurnalo įrašo Storno sumos](./media/journal-storno.png)
 
 ## <a name="how-documents-create-storno"></a>Kaip dokumentai kuria Storno
-Tam tikri dokumentai kuria atšaukimo operacijas. Pvz., DK, mokėtinų sumų ir gautinų sumų dokumentų užsienio valiutos kurso pasikeitimo operacija atšaukia negautą pelną ir nuostolį. Norėdami gauti daugiau informacijos, žr. [Užsienio valiutos kurso pasikeitimas modulyje Didžioji knyga](../general-ledger/foreign-currency-revaluation-general-ledger.md) arba [Užsienio valiutos kurso pasikeitimas moduliuose Mokėtinos sumos ir Gautinos sumos](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md). Sukūrus atšaukimo operaciją, sukuriamos naujos operacijos su negautu pelnu ir nuostoliu. Taip pat sukuriamos atsargų atšaukimo operacijos. Daugiau informacijos žr.  [Atsargų uždarymas](../../supply-chain/cost-management/inventory-close.md). Tam tikri dokumentai suteikia galimybę atšaukti anksčiau užregistruotą dokumentą. Pavyzdžiui, vartotojas gali sukurti kredito pažymą, norėdamas atšaukti anksčiau sukurtą SF. Dokumentuose naudojami konkretūs parametrai, kad būtų sukurtos atvirkštinės arba Storno operacijos. Pavyzdžiui, užsienio valiutos kurso pasikeitimo operacija sukuria atvirkštines arba Storno operacijas pagal DK koregavimo parametrą. Kliento kredito pažyma sukuria atvirkštines arba Storno operacijas pagal gautinų sumų kredito pažymos koregavimo parametrą.
+Kai kurie dokumentai sukuria atšaukimo transakcijas. Pvz., DK, mokėtinų sumų ir gautinų sumų dokumentų užsienio valiutos kurso pasikeitimo operacija atšaukia negautą pelną ir nuostolį. Norėdami gauti daugiau informacijos, žr. [Užsienio valiutos kurso pasikeitimas modulyje Didžioji knyga](../general-ledger/foreign-currency-revaluation-general-ledger.md) arba [Užsienio valiutos kurso pasikeitimas moduliuose Mokėtinos sumos ir Gautinos sumos](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md). Po atšaukimo transakcijos sukūrimo, naujos transakcijos bus sukurtos su nesuprastais padidėjimais ar praradimais. Transakcijų atšaukimai taip pat kuriami inventoriui. Dėl daugiau informacijos, žr. [Inventoriaus uždarymas](../../supply-chain/cost-management/inventory-close.md). Tam tikri dokumentai suteikia galimybę atšaukti anksčiau užregistruotą dokumentą. Pavyzdžiui, vartotojas gali sukurti kredito pažymą, norėdamas atšaukti anksčiau sukurtą SF. Dokumentai naudoti konkrečius parametrus, kad sukurtų atvirkštines ir „Storno“ transakcijas. Pavyzdžiui, užsienio valiutos pervertinimas sukuria atvirkštines ir „Storno“ transakcijas pagal bendrą buhalterinės knygos korekcijos parametrą. Kliento kredito pažyma sukuria atvirkštines arba Storno operacijas pagal gautinų sumų kredito pažymos koregavimo parametrą.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: TaxAccountGroup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 90fe7f3ab08e9417af3f857f04934a9b5df3d82d
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 6cc96cbdb11f24d727bddfa5fd4aaa579537802a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644902"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968459"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Nustatyti PVM skirtas DK registravimo grupes
 
@@ -42,6 +41,3 @@ PVM yra skaičiuojamas ir registruojamas į pagrindines sąskaitas, kurios yra n
 11. Lauke **Kliento atvejo nuolaida** pasirinkite pagrindinę sąskaitą, kurioje bus registruojama mokėjimo nuolaida pagal **PVM kodus**, susietus su šia **DK registravimo grupe**. Tai neprivaloma – jei neįvedama jokia sąskaita, bus naudojama srityje **Mokėjimo nuolaidų kodai** nurodyta pagrindinė sąskaita. Gali būti naudinga kiekvienai **DK registravimo grupei** naudoti skirtingas sąskaitas, jei **PVM grupėse** naudojama PVM atšaukimo mokėjimo nuolaidai parinktis.  
 12. Spustelėkite **Įrašyti**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

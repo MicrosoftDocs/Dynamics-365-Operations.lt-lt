@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4315f70e7959e2576e9b87dfb3898318f47aa46d
-ms.sourcegitcommit: 0efa93f11847a2b75d13cd0a49e716c76130ec44
+ms.openlocfilehash: bd0153b5d735e1d565b67db6c66c854ff738509c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4446153"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969208"
 ---
 # <a name="fixed-asset-depreciation-conventions"></a>Ilgalaikio turto nusidėvėjimo konvencijos
 
@@ -43,6 +42,3 @@ Nusidėvėjimo konvencijas galima priskirti ilgalaikio turto grupės knygos sąr
 | Mėnesio vidurys (mėnesio 15 d.) | Norėdami apskaičiuoti metų, kuriais nuosavybė atiduota eksploatuoti, nusidėvėjimą, visų metų nusidėvėjimą padauginkite iš trupmenos. Šios trupmenos skaitiklis (viršutinis skaitmuo) yra metų, kuriais nuosavybė eksploatuojama, visų mėnesių skaičius plius 1/2 arba (0,5). Vardiklis (apatinis skaitmuo) yra 12. Jei nuosavybė nurašoma prieš atkūrimo laikotarpio pabaigą, naudokite tą patį metodą skaičiuodami perdavimo metų nusidėvėjimą. |
 | Pusė metų (metų pradžia) | Turto, kurio lauke <strong>Atiduota eksploatuoti</strong> nurodyta data yra pirmoje metų pusėje, nusidėvėjimas prasideda pirmąją metų dieną (visi metai). Turto, kurio lauke <strong>Atiduota eksploatuoti</strong> nurodyta data yra antroje metų pusėje, nusidėvėjimas prasideda metų viduryje. |
 | Pusė metų (kiti metai)     | Turto, kurio lauke <strong>Atiduota eksploatuoti</strong> nurodyta data yra pirmoje metų pusėje, nusidėvėjimas prasideda pirmąją metų dieną (visi metai). Turto, kurio lauke <strong>Atiduota eksploatuoti</strong> nurodyta data yra antroje metų pusėje, nusidėvėjimas prasideda pirmąją kitų metų dieną. Laikoma, kad turtas, kuris grąžinamas per pirmąją metų pusę, yra grąžinamas nusidėvėjimo tikslais paskutiniąją ankstesnių metų dieną. Nusidėvėjimas, kuris užregistruotas einamaisiais metais, turi būti atšauktas arba pakoreguotas. Laikoma, kad turtas, kuris grąžinamas per antrąją metų pusę, yra grąžinamas nusidėvėjimo tikslais paskutiniąją grąžinimo metų dieną. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

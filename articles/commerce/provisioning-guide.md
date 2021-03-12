@@ -3,14 +3,13 @@ title: „Dynamics 365 Commerce“ vertinimo aplinkos parengimas
 description: Ši tema paaiškina, kaip galite parengti „Microsoft Dynamics 365 Commerce“ vertinimo aplinką.
 author: psimolin
 manager: annbe
-ms.date: 11/05/2020
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b54216a565c264dfcfe821581fee9df7b5e22323
-ms.sourcegitcommit: 715508547f9a71a89a138190e8540686556c753d
+ms.openlocfilehash: 8cda79a6be1aca7ad3826b9409e110524e6560e3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4414502"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969906"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>„Dynamics 365 Commerce“ vertinimo aplinkos parengimas
 
@@ -117,7 +116,7 @@ Atlikite toliau pateikiamus veiksmus, norėdami įdiegti aplinką.
 
 ### <a name="initialize-the-commerce-scale-unit-cloud"></a>Inicijuoti „Commerce Scale Unit“ (debesyje)
 
-Norėdami inicijuoti CSU, atlikite toliau nurodytus veiksmus.
+Norėdami pradėti CSU, atlikite šiuos veiksmus.
 
 1. Rodinyje **Aplinkos diegimo debesyje įrankis** sąraše pasirinkite savo aplinką.
 1. Aplinkos rodinyje dešinėje pasirinkite **Visa išsami informacija**. Rodomas aplinkos išsamios informacijos rodinys.
@@ -130,6 +129,22 @@ Norėdami inicijuoti CSU, atlikite toliau nurodytus veiksmus.
 1. Prieš tęsdami įsitikinkite, kad jūsų CSU būsena yra **Pavyko**. Inicijavimas trunka maždaug dvi–penkias valandas.
 
 Jei negalite surasti **Tvarkyti** nuorodos aplinkos informacijos peržiūroje, susisiekite su savo „Microsoft“ pagalbos centru.
+
+Talpinimo proceso metu, galite gauti šią klaidos žinutę:
+
+> Demonstracinės ar testinės aplinkos vertinimas turi būti registruojamas skalės vieneto jungties programoje \<application ID\> būstinėje.
+
+Jei CSU pradžia nepavyksta ir gaunate šią klaidos žinutę, užsirašykite programos ID, kuris bendrai yra unikalus identifikatorius (GUID) ir tuomet atlikite veiksmus kitame skyriuje siekiant registruoti CSU talpinimo programą „Commerce“ būstinėje.
+
+### <a name="register-the-csu-deployment-application-in-commerce-headquarters-if-required"></a>Registruoktie CSU talpinimo programą „Commerce“ būstinėje (jei būtina)
+
+Norėdami registruoti CSU talpinimo programą „Commerce“ būstinėje, imkitės šių veiksmų.
+
+1. „Commerce“ būstinėje, eikite į **Sistemos administravimas \> Nustatymai \> „Azure Active Directory“ programos**.
+1. Stulpelyje **Kliento Id** įveskite programos ID iš CSU pradžios klaidos pranešimo, kurį gavote.
+1. Stulpelyje **Pavadinimas** įveskite bet kokį aprašantį tekstą (pavyzdžiui, **„CSU Eval“**).
+1. Stulpelyje **Vartotojo ID** įveskite **RetailServiceAccount**.
+1. Dar kartą bandykite CSU pradžia ir talpinimas iš LCS.
 
 ### <a name="initialize-e-commerce"></a>El. prekybos inicijavimas
 
@@ -176,6 +191,3 @@ Jūsų Komercijos vertinimo aplinkos parengimo ir konfigūravimo proceso tąsai,
 [„Microsoft Azure“ portalas](https://azure.microsoft.com/features/azure-portal)
 
 [„Dynamics 365 Commerce“ svetainė](https://aka.ms/Dynamics365CommerceWebsite)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

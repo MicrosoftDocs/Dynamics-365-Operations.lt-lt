@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 508fda28d8f815f030e7b163709393f70904a5fd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 330646da075e3fc8c0c3f7fe54b790ed42615395
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414255"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970108"
 ---
 # <a name="choose-between-modern-pos-mpos-and-cloud-pos"></a>Pasirinkite „Modern POS“ (MPOS) arba „Cloud POS“
 
@@ -105,6 +104,3 @@ Planuodami EKA diegimą parduotuvėse, atsižvelkite į toliau nurodytą informa
 - **Aparatūros įrenginiai arba išoriniai įrenginiai**. Vienas svarbus „Retail POS“ sistemos aspektas yra jos galimybė naudoti EKA periferinius įrenginius, pvz., spausdintuvus, kasos stalčius ir mokėjimo terminalus. Nors visi galimi EKA variantai naudoja periferinius įrenginius, tik MPOS, skirtas „Windows“, palaiko juos tiesiogiai. Naudojant visas kitas programas, būtina viena arba daugiau aparatūros stočių. Nors šis metodas padidina lankstumą, būtina įdiegti, sukonfigūruoti ir prižiūrėti papildomus komponentus.
 - **Sistemos reikalavimai**. EKA programos sistemos reikalavimai skiriasi. Prieš priimdami sprendimą, būtinai patikrinkite naujausią informaciją. Pavyzdžiui, kadangi CPOS veikia naršyklėje, jis palaiko daugiau operacinių sistemų. Daugiau informacijos apie sistemos reikalavimus žr. [Sistemos reikalavimai įdiegtims debesyje](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/system-requirements).
 - **Diegimas ir priežiūra**. Diegimo ir priežiūros reikalavimų sudėtingumas gali skirtis, atsižvelgiant į programos ir diegimo pasirinkimus. Pavyzdžiui, diegiant debesies CPOS nereikia įdiegti ir atnaujinti kiekviename įrenginyje. Todėl šis metodas labai sumažina sudėtingumą ir išlaidas. Tačiau jei diegiate MPOS kiekviename kasos aparate ir įgalinate atjungties režimą bei taip pat diegiate bendrai naudojamas aparatūros stotis, gerokai padidinate galinių punktų, kuriuos reikia valdyti, skaičių.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13871
 ms.assetid: 3abc263e-59d6-4f1a-986d-1be388948bd3
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5af050fb6099b583be4e9c60ba56dacf38d31c08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9511917d72a1bb45daf2ce7e4b56d94c17825daf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4446111"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969233"
 ---
 # <a name="125-percent-reducing-balance-depreciation"></a>125 procentų mažėjančios vertės metodas
 
@@ -75,7 +74,7 @@ Jei kaip nusidėvėjimo metus pasirinksite **Ataskaitiniai**, galimos toliau nur
 | Aptarnavimo laikas metais             | 5      |
 | Metinio nusidėvėjimo procentas | 25 %    |
 
-Naudojant 125 % mažėjančios vertės metodą, 125 procentai padalijami iš dėvėjimo metų skaičiaus. Kad būtų nustatyta nusidėvėjimo per metus suma, gauta procentinė dalis bus padauginta iš ilgalaikio turto balansinės vertės.
+125 % mažinančio balanso metodas padalija 125 procentų iš paslaugų gyvavimo metų. Kad būtų nustatyta nusidėvėjimo per metus suma, gauta procentinė dalis bus padauginta iš ilgalaikio turto balansinės vertės.
 
 | Laikotarpis | Metinio nusidėvėjimo sumos skaičiavimas | Knygos vertė                    | Balansinės vertė metų pabaigoje |
 |--------|-----------------------------------------------|-------------------------------|---------------------------------------|
@@ -88,6 +87,3 @@ Naudojant 125 % mažėjančios vertės metodą, 125 procentai padalijami iš dė
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

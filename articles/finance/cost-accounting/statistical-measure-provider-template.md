@@ -1,5 +1,5 @@
 ---
-title: Statistinių dimensijų nariai ir statistinių priemonių teikimo įrankio šablonai
+title: Tiekėjo šablonai statistinės dimensijos nariams ir matavimo tiekėjams
 description: Šioje temoje pateikiama informacijos apie statistinių dimensijų narius ir statistinių priemonių teikimo įrankių šablonus. Statistinių dimensijų narius galima naudoti kaip strategijų, pvz., išlaidų paskirstymo ir išlaidų priskyrimo, paskirstymo bazę. Juos taip pat galima naudoti nepiniginių išlaidų naudojimui pranešti.
 author: AndersGirke
 manager: AnnBe
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,14 +18,14 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ec8ec7bc7785b1ddec58b78bd14ce164ad1ce032
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 79e8bf0714871ffd342bb6053153e6e4d0f5c668
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4446102"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969458"
 ---
-# <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Statistinių dimensijų nariai ir statistinių priemonių teikimo įrankio šablonai
+# <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>Tiekėjo šablonai statistinės dimensijos nariams ir matavimo tiekėjams
 
 [!include [banner](../includes/banner.md)]
 
@@ -346,6 +345,3 @@ Jei kaštų paskirstymo taisyklėje kaip paskirstymo bazė priskiriamas iš anks
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Paskirstymo bazės](allocation-bases.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

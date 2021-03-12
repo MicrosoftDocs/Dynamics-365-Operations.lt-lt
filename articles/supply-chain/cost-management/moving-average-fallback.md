@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-03-25
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 0538701588b9c71dff4c538711606913a359de6a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 541b7ecca5c1c36999f573d6d0f2dc0c9e901631
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433780"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967588"
 ---
 # <a name="moving-average-fallback-cost-sequence"></a>Slankiojo vidurkio atsarginės savikainos seka
 
@@ -46,6 +45,3 @@ Norėdami pasirinkti slankiojo vidurkio skaičiavimų atsarginės savikainos sek
     - **Aktyvi savikaina, Prekės kaina** – organizacijoms gali kilti našumo problemų, jei jos naudoja verslo procesus, kuriuose atsargos reguliariai tampa neigiamos, ir tuo pačiu metu yra didelis operacijų kiekis. Šis parametras gali padėti sušvelninti šias našumo problemas.
 
 ![Atsargų apskaitos parametrai](media/inventory-accounting-parameters.png "Atsargų apskaitos parametrai")
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

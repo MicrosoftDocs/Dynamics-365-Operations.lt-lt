@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ec49a621e24b6373532497b499e8b9d45c9bed14
-ms.sourcegitcommit: 30c541426cf2037b768e3556e1b170a64991f64a
+ms.openlocfilehash: baa2f1f55dfb9bb93b4f27c45db563e39850dd37
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "4446164"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969731"
 ---
 # <a name="view-vendor-invoice-automation-results"></a>Tiekėjo SF automatizavimo rezultatų peržiūra
 
@@ -38,6 +37,3 @@ Jei importuota sąskaita faktūra yra įtraukta į pateikimo į darbo eigą proc
 - **Pristabdyta** – automatizuoti procesai, apibrėžti puslapyje **Mokėtinų sumų parametrai** buvo paleisti, tačiau ne mažiau nei vienas veiksmas buvo nesėkmingas. Būsena **Pristabdyta** taip pat taikoma, jei nustatyta lauko **Įtraukti į automatizuotą apdorojimą** reikšmė yra **Ne**. Klaidas galite peržiūrėti pasirinkę **Peržiūrėti naujausius rezultatus**.
 - **Darbo eigoje** – importuota sąskaita faktūra buvo pateikta darbo eigos sistemai naudojant automatizuotą pateikimo į darbo eigą procesą arba rankiniu būdu.
 - **Darbo eiga baigta** – importuotos sąskaitos faktūros darbo eigos procesas yra baigtas.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
