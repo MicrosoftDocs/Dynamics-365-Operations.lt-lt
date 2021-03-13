@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 53111
 ms.assetid: 5c12b1f2-eb89-4648-a755-de412f2eadd6
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be9d9ae48d21db077928ba7bd5615fea47ea5181
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bc07d5b915e0b878cc7b2ef1d5f3253de8776608
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433791"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007714"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Produkto konfigūravimo modelių išraiškos ir lentelės apribojimai
 
@@ -110,90 +109,90 @@ Galite rašyti išraiškos apribojimą naudodami galimus prefiksų operatorius a
 <tr class="odd">
 <td>Implikuoja</td>
 <td>Gaunama teisinga, jei pirmoji sąlyga yra klaidinga, jei antroji sąlyga yra teisinga, arba jei pirmoji sąlyga yra klaidinga, o antroji sąlyga yra teisinga.</td>
-<td>Implikuota[a, b], įtarpą: a -: b</td>
+<td>Implies[a, b], infix: a -: b</td>
 <td><ul>
-<li><strong>Operatorius:</strong> Implikuoja[x != 0, y &gt;= 0]</li>
+<li><strong>Operatorius:</strong> Implies[x != 0, y &gt;= 0]</li>
 <li><strong>Intarpo ženklas:</strong> x != 0 -: y &gt;= 0</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Ir</td>
 <td>Gaunama teisinga, jei visos sąlygos yra teisingos. Jei sąlygų kiekis yra 0 (nulis), gaunama <strong>Teisinga</strong>.</td>
-<td>Ir[args], įtarpas: a &amp; b &amp; ... &amp; z</td>
+<td>And[args], infix: a &amp; b &amp; ... &amp; z</td>
 <td><ul>
-<li><strong>Operatorius:</strong> Ir[x == 2, y &lt;= 2]</li>
+<li><strong>Operatorius:</strong> And[x == 2, y &lt;= 2]</li>
 <li><strong>Intarpo ženklas:</strong> x == 2 &amp; y &lt;= 2</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Arba</td>
 <td>Gaunama teisinga, jei bet kuri sąlyga yra teisinga. Jei sąlygų kiekis yra 0 (nulis), gaunama <strong>Klaidinga</strong>.</td>
-<td>Ar[args], įtarpas: a | b | ... | z</td>
+<td>Or[args], infix: a | b | ... | z</td>
 <td><ul>
-<li><strong>Operatorius:</strong> Ar[x == 2, y &lt;= 2]</li>
+<li><strong>Operatorius:</strong> Or[x == 2, y &lt;= 2]</li>
 <li><strong>Intarpo ženklas:</strong> x == 2 | y &lt;= 2</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Plius</td>
 <td>Naudojant šį operatorių, sąlygos sudedamos. Jei sąlygų kiekis yra 0 (nulis), gaunama <strong>0</strong>.</td>
-<td>Plius[args], įtarpas: a + b + ... + z</td>
+<td>Plus[args], infix: a + b + ... + z</td>
 <td><ul>
-<li><strong>Operatorius:</strong> Plius[x, y, 2] == z</li>
+<li><strong>Operatorius:</strong> Plus[x, y, 2] == z</li>
 <li><strong>Intarpo ženklas:</strong> x + y + 2 == z</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Minus</td>
 <td>Naudojant šį operatorių, argumentas paneigiamas. Turi būti nurodyta tik viena sąlyga.</td>
-<td>Atėmus[expr], įtarpas: -expr</td>
+<td>Minus[expr], infix: -expr</td>
 <td><ul>
-<li><strong>Operatorius:</strong> Atėmus[x] == y</li>
+<li><strong>Operatorius:</strong> Minus[x] == y</li>
 <li><strong>Intarpo ženklas:</strong> -x == y</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Abs</td>
 <td>Naudojant šį operatorių, gaunama absoliučioji sąlygos vertė. Turi būti nurodyta tik viena sąlyga.</td>
-<td>Abs[išreikšta]</td>
+<td>Abs[expr]</td>
 <td><strong>Operatorius:</strong> Abs[x]</td>
 </tr>
 <tr class="odd">
-<td>Laikai</td>
+<td>Laikas</td>
 <td>Naudojant šį operatorių, gaunamas sąlygų produktas. Jei sąlygų kiekis yra 0 (nulis), gaunama <strong>1</strong>.</td>
-<td>Kart[args], įtarpas: a * b * ... * z</td>
+<td>Times[args], infix: a * b * ... * z</td>
 <td><ul>
-<li><strong>Operatorius:</strong> Kart[x, y, 2] == z</li>
+<li><strong>Operatorius:</strong> Times[x, y, 2] == z</li>
 <li><strong>Intarpo ženklas:</strong> x * y * 2 == z</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Galia</td>
-<td>Naudojant šį operatorių, gaunama eksponentė. Keliama laipsniu iš dešinės į kairę. (Kitaip tariant, jis&#39;yra susiejamas.) Dėl to, <strong>Galia[a, b, c]</strong> yra lygi <strong>Galiai[a, Galia[b, c]]</strong>. <strong>Power</strong> gali būti naudojamas tik jei laipsnio rodiklis yra teigiama konstanta.</td>
-<td>Galia[args], įtarpas: a ^ b ^ ... ^ z</td>
+<td>Laipsnis</td>
+<td>Naudojant šį operatorių, gaunama eksponentė. Keliama laipsniu iš dešinės į kairę. (Kitaip tariant, šis&#39; operatorius susietas su dešine puse.) Todėl <strong>Power[a, b, c]</strong> yra lygu <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> gali būti naudojamas tik jei laipsnio rodiklis yra teigiama konstanta.</td>
+<td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
-<li><strong>Operatorius:</strong> Galia[x, 2] == y</li>
+<li><strong>Operatorius:</strong> Power[x, 2] == y</li>
 <li><strong>Intarpo ženklas:</strong> x ^ 2 == y</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Maks.</td>
+<td>Didžiausia</td>
 <td>Naudojant šį operatorių, gaunama didžiausia sąlyga. Jei sąlygų kiekis yra 0 (nulis), gaunama <strong>Begalybė</strong>.</td>
-<td>Maks.[args]</td>
-<td><strong>Operatorius:</strong> Maks.[x, y, 2] == z</td>
+<td>Max[args]</td>
+<td><strong>Operatorius:</strong> Max[x, y, 2] == z</td>
 </tr>
 <tr class="even">
-<td>Min.</td>
+<td>Mažiausia</td>
 <td>Naudojant šį operatorių, gaunama mažiausia sąlyga. Jei sąlygų kiekis yra 0 (nulis), gaunama <strong>Begalybė</strong>.</td>
-<td>Min.[args]</td>
-<td><strong>Operatorius:</strong> Min.[x, y, 2] == z</td>
+<td>Min[args]</td>
+<td><strong>Operatorius:</strong> Min[x, y, 2] == z</td>
 </tr>
 <tr class="odd">
 <td>Ne</td>
 <td>Naudojant šį operatorių, gaunama sąlygos loginė priešingybė. Turi būti nurodyta tik viena sąlyga.</td>
-<td>Ne[expr], įtarpas: !expr</td>
+<td>Not[expr], infix: !expr</td>
 <td><ul>
-<li><strong>Operatorius:</strong> Ne[x] &amp; Ne[y == 3]</li>
+<li><strong>Operatorius:</strong> Not[x] &amp; Not[y == 3]</li>
 <li><strong>Intarpo ženklas:</strong> !x!(y == 3)</li>
 </ul></td>
 </tr>
@@ -222,7 +221,7 @@ Kitos lentelės pavyzdžiuose nurodyta, kaip rašyti intarpo ženklą.
 |        (x)        |                           Skliausteliuose perrašomas numatytasis pirmumas.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Kodėl išraiškos apribojimai teisingai nepatvirtinami?
-Produkto konfigūracijos modelyje negalite naudoti rezervuotų raktažodžių kaip atributų, komponentų ar pakomponenčių sprendimo priemonės pavadinimų.Toliau pateikiamas rezervuotų raktažodžių, kuriuos galite naudoti, sąrašas.
+Produkto konfigūracijos modelyje negalite naudoti rezervuotų raktažodžių kaip atributų, komponentų ar pakomponenčių sprendimo priemonės pavadinimų. Toliau pateikiamas rezervuotų raktažodžių, kurių negalite naudoti, sąrašas:
 
 -   Lubos
 -   Elementas
@@ -254,6 +253,3 @@ Produkto konfigūracijos modelyje negalite naudoti rezervuotų raktažodžių ka
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

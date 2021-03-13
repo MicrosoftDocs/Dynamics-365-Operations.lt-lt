@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-11-04
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 87b04998889b86a79fd8dabde422147c5494b003
-ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
+ms.openlocfilehash: 4c505ccfd1998acd40dbae715c7fa572e315af2e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4516841"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007521"
 ---
 # <a name="troubleshoot-product-information"></a>Produkto informacijos trikties šalinimas
 
@@ -152,6 +151,3 @@ Jei produkto variantas jau buvo išleistas bendrovėje A ir bandote jį išleist
 Mygtukas **Naujas** puslapyje **Išleisto produkto variantai** sukuria variantą ir išleidžia jį į bendrovės kontekstą. Jei variantas jau buvo sukurtas, negalite naudoti **Naujas** mygtiko, kad išleistumėte jį į kitą bendrovę.
 
 Norėdami ištaisyti šią problemą, atverkite **Pagrindinio produkto** puslapį ir rinkitės **Išleisti produktą** norėdami išleisti esantį variantą norimoje bendrovėje.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

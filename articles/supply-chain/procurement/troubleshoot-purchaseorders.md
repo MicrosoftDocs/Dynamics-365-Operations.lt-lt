@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 234458f865e37a2d962aee8ab218b9521847081d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 7b65c23fc7ac04fc30c0001bee9541a475026018
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4434016"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007496"
 ---
 # <a name="troubleshoot-purchase-orders"></a>Pirkimo užsakymų trikčių diagnostika
 
@@ -132,7 +131,7 @@ Galite pratęsti tik tokį laikotarpį, kuriam tiekėjas yra patvirtintas. Galio
 
 Scenarijaus pavyzdyje, kuris aprašytas problemos aprašyme, kur įrašo įsigaliojimo data yra *11/01/2018* ir galiojimo pabaigos data yra *Niekada* galite importuoti naują įrašą, kurio įsigaliojimo data yra *10/01/2018* ir galiojimo pabaigos data yra *Niekada*. Tačiau negalite sutrumpinti laikotarpio taip, kad įsigaliojimo data būtų atnaujinta į *12/01/2018* per duomenų valdymą. Turite atlikti šį keitimą per vartotojo sąsają.
 
-## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-nameisnt-synced"></a>Pakeitus pristatymo adresą pirkimo užsakymo antraštėje, pristatymo pavadinimas nėra sinchronizuojamas.
+## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-name-isnt-synced"></a>Pakeitus pristatymo adresą pirkimo užsakymo antraštėje, pristatymo pavadinimas nėra sinchronizuojamas.
 
 ### <a name="issue-description"></a>Problemos aprašas
 
@@ -145,6 +144,3 @@ Toks veikimo būdas yra numatytas. Pasirinktas adresas turi būti klasifikuojama
 ## <a name="can-i-find-the-user-who-canceled-a-purchase-order"></a>Ar galima rasti vartotoją, kuris atšaukė pirkimo užsakymą?
 
 Ši informacija sekama tik tada, kai pirkimo užsakymui taikomas pakeitimų valdymas. Jei naudojate keitimų valdymą, galite matyti, kas pateikė pakeitimą (atšaukimą) ir kas jį patvirtino.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

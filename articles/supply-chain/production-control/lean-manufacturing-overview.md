@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow, Kanban, KanbanQuantityOverview, KanbanAssignCard, KanbanCirculatingCards, KanbanRules, WHSKanbanWaveTableManagePickingListPool
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19371
 ms.assetid: 026c5605-6be7-4fdb-a6f2-8e37a806796c
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 63a9856035088642254fd43d14cb324a89bc19d6
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 5ba514a6af360074696814278b51ba41327a294d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433939"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006996"
 ---
 # <a name="lean-manufacturing-overview"></a>„Lean manufacturing“ apžvalga
 
@@ -43,21 +42,21 @@ ms.locfileid: "4433939"
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | „Supply Chain Management‟ galite naudoti, kad būtų palaikomas „lean manufacturing‟ su „kanban‟ įgyvendinimas Tačiau sėkmingas „lean‟ principų įgyvendinimas priklauso nuo naudojamų vidinių verslo procesų ir faktinių gamybos sąlygų bei aplinkos. |
 
-## <a name="modeling-manufacturing-and-logistics-processes-as-production-flows"></a> Gamybos ir logistikos procesų modeliavimas kaip gamybos eigų
+## <a name="modeling-manufacturing-and-logistics-processes-as-production-flows"></a>Gamybos ir logistikos procesų modeliavimas kaip gamybos eigų
 Norėdami sukurti „lean manufacturing‟ platformą, gamybos ir logistikos procesus modeliuokite kaip gamybos eigas. Šią veiklą sudaro toliau pateiktos užduotys.
 1.  Identifikuokite procesus, kuriems norite įgyvendinti „lean‟ papildymo strategiją, ir šiuos procesus modeliuokite kaip gamybos eigas. Tada galite analizuoti ir racionalizuoti procesus. Vienas iš „lean‟ įgyvendinimo tikslų yra sumažinti atliekų, gerinant medžiagos ir informacijos srautą.
 2.  Gamybos eigą apibrėžkite kaip veiklų seką, apibūdinančią medžiagos srautą. Perkėlimo veikla apibrėžia produkto ar produktų judėjimą iš vienos vietos į kitą. Proceso veikla apibrėžia pridėtinės vertės operaciją, kuri taikoma produktui.
 3.  Sukurkite gamybos eigos versiją, apibrėžiančią vieneto gamybos laiko reikalavimus. Šie reikalavimai naudojami norint apskaičiuoti kiekvienos gamybos eigos veiklos ciklo laikus. Galite kurti kelias gamybos eigų versijas ir tada šias versijas naudoti procesams tobulinti.
 
-## <a name="using-kanbans-to-signal-demand-requirements"></a> „Kanban‟ naudojamas siekiant signalizuoti paklausos reikalavimus
+## <a name="using-kanbans-to-signal-demand-requirements"></a>„Kanban‟ naudojamas siekiant signalizuoti paklausos reikalavimus
 Traukimo sistema prekes gamina tik kai jų reikia. Ši praktika sumažina pristatymo vykdymo laiką ir atsargų perviršį. Galite naudoti „kanban‟ planuoti, stebėti ir apdoroti reikalavimams, paremtiems gamybos eigomis. Norėdami sukurti „kanban“ sistemą, sukurkite „kanban“ taisykles, apibrėžiančias, kada „kanban“ kuriamos ir kaip vykdomi reikalavimai. Galite kurti dviejų tipų „kanban“ taisykles. Gamybos taisyklės kuria „kanban‟ apdorojimo užduotis, o išėmimo „kanban“ taisyklės kuria „kanban‟ perkėlimo užduotis. Galite nustatyti šias papildymo strategijas:
--   **Fiksuoto kiekio** „kanban“ taisyklės yra susijusios su fiksuotu sandėliavimo vienetų skaičiumi, o tai reiškia, kad aktyvių „kanban‟ skaičius yra pastovus. Kai sunaudojami visi „kanban“ produktai ir rankiniu būdu ištuštinami sandėliavimo vienetai, sukuriama nauja to paties tipo „kanban“.Kurdami fiksuoto kiekio „kanban“ taisykles, galite apskaičiuoti optimalius naudojamus „kanban“ kiekius ir produktų kiekius. Skaičiuojant atsižvelgiama į prognozę, faktinį poreikį iš atidarytų užsakymų, prekių papildymo vykdymo laiką ir praeities poreikius.
+-   **Fiksuoto kiekio** „kanban“ taisyklės yra susijusios su fiksuotu sandėliavimo vienetų skaičiumi, o tai reiškia, kad aktyvių „kanban” skaičius yra pastovus. Kai sunaudojami visi „kanban“ produktai ir rankiniu būdu ištuštinami sandėliavimo vienetai, sukuriamas naujas to paties tipo „kanban“. Kurdami fiksuoto kiekio „kanban“ taisykles galite apskaičiuoti optimalius naudojamus „kanban“ kiekius ir produktų kiekius. Skaičiuojant atsižvelgiama į prognozę, faktinį poreikį iš atvirų užsakymų, prekių papildymo vykdymo laiką ir praeities poreikius.
 -   **Suplanuotos** „kanban“ taisyklės papildo reikalavimus, apskaičiuotus atliekant bendrąjį planavimą. Bendrasis planavimas generuoja suplanuotas „kanban‟, kurios gali būti patvirtintos ir tapti „kanban‟.
--   **Įvykio** „kanban“ taisyklės papildo reikalavimus, kurie kyla iš pardavimo užsakymų eilučių, gamybos KS eilučių, „kanban“ eilučių ar minimalių atsargų nuostatų. Kai sugeneruojamos įvykio „kanban‟, jos susiejamos su šaltinio reikalavimais.
+-   **Įvykio** „kanban“ taisyklės papildo reikalavimus, kylančius iš pardavimo užsakymų eilučių, gamybos KS eilučių, „kanban“ eilučių ar minimalių atsargų nuostatų. Kai sugeneruojamos įvykio „kanban‟, jos susiejamos su šaltinio reikalavimais.
 
 Kuriant „kanban‟, pagal „kanban“ srauto veiklas, kurios yra apibrėžtos „kanban“ taisyklėse, generuojama viena ar kelios „kanban‟ užduotys.
 
-## <a name="monitoring-and-maintaining-kanban-jobs"></a> „Kanban“ užduočių stebėjimas ir tvarkymas
+## <a name="monitoring-and-maintaining-kanban-jobs"></a>„Kanban“ užduočių stebėjimas ir tvarkymas
 Naudojant „lean manufacturing‟, galima matyti dabartinę gamybos ir logistikos veiklų, kurias valdo „kanban“ taisyklės, būseną. Todėl galite planuoti ir nustatyti prioritetą toliau nurodytoms užduotims.
 
 -   Apžvelgti dabartinį „kanban“ užduočių grafiką.
@@ -65,9 +64,9 @@ Naudojant „lean manufacturing‟, galima matyti dabartinę gamybos ir logistik
 -   Sekti ir registruoti „kanban“ užduočių būseną.
 
 Toliau pateiktame sąraše aprašomos specializuotos „kanban“ sritys.
--   „Kanban“ užduočių planavimas – apžvelgiamos „kanban“ užduotys. Srityje rodomos vieno ar kelių darbo elementų „kanban“ užduotys ir jų būsena. Užduotys išvardytos pagal planavimo laikotarpius (dienas ar savaites), kurie yra apibrėžti gamybos eigos modelyje. Srityje taip pat rodomos kiekvieno planavimo laikotarpio pajėgumų sąnaudos, kad galėtumėte stebėti suplanuotą apkrovą. Galite keisti „kanban“ užduočių būseną, „kanban“ užduotis perplanuoti skirtingiems planavimo laikotarpiams ir atlikti kitas užduotis.
+-   „Kanban“ užduočių planavimas – pateikiama „kanban“ užduočių apžvalga. Srityje rodomos vieno ar kelių darbo elementų „kanban“ užduotys ir jų būsena. Užduotys išdėstytos pagal planavimo laikotarpius (dienas ar savaites), kurie yra apibrėžti gamybos eigos modelyje. Srityje taip pat rodomos kiekvieno planavimo laikotarpio pajėgumų sąnaudos, kad galėtumėte stebėti suplanuotą apkrovą. Galite keisti „kanban“ užduočių būseną, „kanban“ užduotis perplanuoti skirtingiems planavimo laikotarpiams ir atlikti kitas užduotis.
 -   Perkėlimo užduočių „kanban“ sritis – šioje srityje apžvelgiamos dabartinės perkėlimo užduotys. Galite atnaujinti ir registruoti išrinkimo dokumentus, pradėti ir užbaigti perkėlimo užduotis ir atlikti kitas užduotis.
--   Apdorojimo užduočių „kanban“ sritis – ši sritis skirta palaikyti įprastai gamybos eigai ir apžvelgti dabartinei situacijai viename ar keliuose darbo elementuose. Šioje srityje galima nustatyti „kanban‟ prioritetus, jas parinkti ar gaminti. Sritis taip pat skirta palaikyti brūkšninių kodų nuskaitymui teikiant „kanban‟ ataskaitas.
+-   Apdorojimo užduočių „kanban“ sritis – ši sritis skirta palaikyti įprastai gamybos eigai ir apžvelgti dabartinei situacijai viename ar keliuose darbo elementuose. Šioje srityje galima teikti pirmenybę, pasirinkti arba gaminti „kanban”. Sritis taip pat skirta palaikyti brūkšninių kodų nuskaitymui teikiant „kanban‟ ataskaitas.
 
 ## <a name="kanban-jobs-and-integration-with-supply-chain-management-processes"></a>"Kanban" užduotys ir integravimas su „Supply Chain Management“ valdymo procesais
 „Kanban‟ užduotys yra visiškai integruotos su dabartiniais „Supply Chain Management‟ atsargų operacijų procesais.
@@ -83,6 +82,3 @@ Be to, „lean manufacturing‟ palaiko paslaugų, į kurias nurodo subrangos ve
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

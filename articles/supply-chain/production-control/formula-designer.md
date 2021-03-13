@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8778d6a4d834af2151e0bced0b0f27d98f088a34
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 49ec2ac0ce32da13239f3b7789d6f73f22f6e61b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433530"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007207"
 ---
 # <a name="formula-designer"></a>Formulės konstruktorius
 
@@ -67,7 +66,7 @@ Formulės konstruktoriaus antraštėje rodomas filtras, taikomas formulei ir mar
 <tbody>
 <tr class="odd">
 <td>Produktų dimensijos</td>
-<td>Jei pasirinktas baigtas produktas yra bendrasis produktas, galite nurodyti pagrindines pasirinktas aktyvias produkto dimensijas. Atkreipkite dėmesį, kad atidarius ne bendrojo produkto formulės konstruktorių dialogo lange <strong>Filtras</strong> produkto dimensijų pasirinkti negalima.</p></td>
+<td>Jei pasirinktas baigtas produktas yra bendrasis produktas, galite nurodyti pagrindines pasirinktas aktyvias produkto dimensijas. Atkreipkite dėmesį, kad atidarius ne&#39; bendrojo produkto formulės konstruktorių dialogo lange <strong>Filtras</strong> produkto dimensijų pasirinkti negalima.</p></td>
 </tr>
 <tr class="even">
 <td>Svetainė</td>
@@ -87,7 +86,7 @@ Formulės konstruktoriaus antraštėje rodomas filtras, taikomas formulei ir mar
 </tr>
 <tr class="odd">
 <td>Pradinis kiekis</td>
-<td>Filtruokite versijas pasirinkdami konkretų pradinį kiekį („nuo“). Nustačius vertę gali būti pasirinktos kitos formulės ir maršruto versijos.</td>
+<td>Filtruokite versijas pasirinkdami konkretų pradinį &quot;kiekį&quot; („nuo“). Nustačius vertę gali būti pasirinktos kitos formulės ir maršruto versijos.</td>
 </tr>
 <tr class="even">
 <td>Rodyti tiktai galiojančius</td>
@@ -121,6 +120,3 @@ Norėdami tinkinti informaciją, rodomą formulės konstruktoriaus medžio rodin
 |     KS     | Pasirinkite kriterijus, kuriuos norite rodyti medžio struktūroje, naudodami žymės langelius. Formulės konstruktorius pasirinktus kriterijus rodo abiejų skirtukų apačioje. |
 |    Maršrutas    |                                           Pasirinkite norimus rodyti maršrutų kriterijus naudodami žymės langelius.                                           |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

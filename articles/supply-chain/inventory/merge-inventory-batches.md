@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa571fb7392f6f7154f7f1bfd908e11e1bebd3a6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d4c9443c6e659602ae09e4744396651186874ad3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433763"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5008021"
 ---
 # <a name="merge-inventory-batches"></a>Susieti atsargų paketus
 
@@ -60,12 +59,12 @@ Taip, yra keletas dalykų, kuriuos reikia nustatyti prieš naudojant paketų sus
 <td>Patvirtinti produktai</td>
 <td>Toliau pateikti rekomenduojami prekės parametrai.
 <ul>
-<li>Norėdami automatiškai sugeneruoti sulietų paketų numerius, išleistą produktą turite priskirti paketų numerių grupei. Be to, paketo numerį galite įvesti neautomatiškai, kai kuriate susietą paketą, arba galite pasirinkti esamą paketo numerį. Jei pasirenkate esamą paketo numerį, įsitikinkite, kad pasirinktas paketas nebuvo įtrauktas į jokias atsargų operacijas.</li>
-<li>Jei naudojate pateikto produkto laikymo trukmės ar galiojimo pabaigos datas, sulieto paketo datos apskaičiuojamos remiantis lauko <strong>Paketo suliejimo datos skaičiavimas</strong> pasirinkimu. Galimos toliau nurodytos pasirinktys:
+<li>Norėdami automatiškai sugeneruoti sulietų paketų numerius, išleistą produktą turite priskirti paketų numerių grupei. Be to, paketo numerį galite įvesti neautomatiškai, kai kuriate susietą paketą, arba galite pasirinkti esamą paketo numerį. Jei pasirenkate esamą paketo numerį, įsitikinkite, kad pasirinktas paketas nebuvo&#39; įtrauktas į jokias atsargų operacijas.</li>
+<li>Jei&#39; naudojate pateikto produkto laikymo trukmės ar galiojimo pabaigos datas, sulieto paketo datos apskaičiuojamos remiantis lauko <strong>Paketo suliejimo datos skaičiavimas</strong> pasirinkimu. Galimos toliau nurodytos pasirinktys:
 <ul>
 <li><strong>Anksčiausia</strong> – skaičiuojama pagal anksčiausią datą, nurodytą pasirinktam paketo suliejimo šaltinio paketui.</li>
 <li><strong>Vėliausia</strong> – skaičiuojama pagal vėliausią datą, nurodytą pasirinktam paketo suliejimo šaltinio paketui.</li>
-<li><strong>Rankinis</strong> – neskaičiuojama. Jei data visuose šaltinio paketuose vienoda, ji pasiūloma. Tą datą galima pakeisti. Jei data šaltinio paketuose nesutampa, ją įvesti galite rankiniu būdu.</li>
+<li><strong>Rankinis</strong> – neskaičiuojama. Jei data visuose šaltinio paketuose vienoda, ji pasiūloma. Tą datą galima pakeisti. Jei data šaltinio paketuose nesutampa&#39;, ją įvesti galite rankiniu būdu.</li>
 </ul></li>
 </ul></td>
 </tr>
@@ -140,6 +139,3 @@ Galite patvirtinti paketų suliejimo atsargų žurnalą sąrašo puslapyje **Vis
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Kai susieju esamo svorio prekę, kodėl esamo svorio informacijos negaliu matyti atsargų žurnale?
 Esamo svorio prekių paketus galite sulieti kaip ir visas kitas prekes. Tačiau esamo svorio informacija nerodoma atsargų žurnale. Prieš perkeliant paketų suliejimą į atsargų žurnalą rekomenduojame patikrinti esamo svorio informaciją.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

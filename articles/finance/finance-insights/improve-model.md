@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 23c9062dcc13951792306c955b54cae6f656fec5
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 2bcdea4a2a8f4386b274077cd1e95398fb6fac37
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646084"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009374"
 ---
 # <a name="improve-the-prediction-model-preview"></a>Prognozės modelio tobulinimas (peržiūros versija)
 
@@ -42,19 +41,19 @@ Jei jūsų organizacijai reikalingi tik du rezultatai, pakeiskite **Vėlavimas**
 
 ## <a name="select-fields"></a>Pasirinkti laukus
 
-Pasirinkus laukus, kuriuos reikia įtraukti į modelį, reikia žinoti, kad sąraše yra visi galimi „Common Data Service“ objekto laukai, kurie susieti su duomenimis, kurie yra „Azure“ duomenų telkinyje. Kai kurie šių laukų **neturėtų** būti pasirenkami. Laukai, kurie neturėtų būti parenkami, patenka į vieną iš trijų kategorijų.
+Jums renkantis laukelius, kuriuo reikia įtraukti į modelį, įsitikinkite, kad sąraše yra visi prieinami laukeliai „Microsoft Dataverse“ lentelėje, kuri yra žemėlapyje duomenyse „Azure“ duomenų ežere. Kai kurie šių laukų **neturėtų** būti pasirenkami. Laukai, kurie neturėtų būti parenkami, patenka į vieną iš trijų kategorijų.
 
-- Laukas reikalingas „Common Data Service“ objektui, tačiau duomenų telkinyje nėra atsarginių duomenų.
+- Laukelis turi būti „Dataverse“ lentelei, tačiau nėra jokių atsarginės kopijos duomenų jam duomenų ežere.
 - Šis laukas yra ID, todėl jo mašininio mokymo funkcija nesupranta.
 - Lauke yra informacijos, kuri bus nepasiekiama prognozuojant.
 
 Toliau esančiuose skyriuose pateikiami laukai, kurie galimi SF ir kliento objektams, ir nurodomi laukai, kurie **neturėtų** būti parenkami mokymui. Kiekvienam iš šių laukų nurodyta kategorija nurodo ankstesnio sąrašo kategorijas.
  
-### <a name="invoice-common-data-model-entity"></a>SF „Common Data Model“ objektas
+### <a name="invoice-dataverse-table"></a>Sąskaitos „Dataverse“ lentelė
 
-Tolesnėje iliustracijoje parodyti SF objekto laukai.
+Šiame paveiksle parodyti laukeliai, kurie yra prieinami sąskaitos lentelei.
 
-[![Galimi SF objekto laukai](./media/available-fields.png)](./media/available-fields.png)
+[![Prieinami laukeliai sąskaitos lentelei](./media/available-fields.png)](./media/available-fields.png)
 
 Šie laukai neturėtų būti parenkami mokymui.
 
@@ -65,11 +64,11 @@ Tolesnėje iliustracijoje parodyti SF objekto laukai.
 - **Šaltinio įrašas** (2 kategorija)
 - **Šaltinio lentelė** (2 kategorija)
 
-### <a name="customer-common-data-model-entity"></a>Kliento „Common Data Model“ objektas
+### <a name="customer-dataverse-table"></a>Kliento „Dataverse“ lentelė
 
-Tolesnėje iliustracijoje parodyti kliento objekto laukai.
+Šiame paveiksle parodyti laukeliai, kurie yra prieinami kliento lentelei.
 
-[![Galimi kliento objekto laukai](./media/related-entities.png)](./media/related-entities.png)
+[![Prieinami laukeliai kliento lentelei](./media/related-entities.png)](./media/related-entities.png)
 
 Šis laukas neturėtų būti parenkamas mokymui.
 
@@ -83,6 +82,3 @@ Tolesnėje iliustracijoje parodyti kliento objekto laukai.
 
 #### <a name="privacy-notice"></a>Privatumo pranešimas
 Peržiūros versijos (1) gali naudoti mažiau privatumo ir mažiau saugos priemonių nei „Dynamics 365 Finance and Operations“ paslauga, (2) jos nėra įtrauktos į aptarnavimo lygio sutartį (SLA), (3) jos neturėtų būti naudojamos apdoroti asmens duomenims ar kitiems duomenims, kuriems taikomi teisiniai ir atitikimo teisės aktai (4) ir jų palaikymas yra ribotas.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

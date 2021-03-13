@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: d3573aa5f8f986fa4fbf1c9ea8b322a1256aee36
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3836273b1c782fe80172443f4d4c29001ccea83a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433790"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007671"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>Pavojingos medžiagos produktuose, užsakymuose, siuntose ir kroviniuose
 
@@ -39,7 +38,7 @@ Kad nustatytumėte išleistą produktą kaip pavojingą medžiagą, atlikite ši
 
 1. Eikite į **Produkto informacijos valdymas \> Produktai \> Išleisti produktai**.
 1. Pasirinkite ar sukurkite produktą, kad atidarytumėte jo **Išleisto produkto informacija** puslapį.
-1.  „FastTab” **Tvarkyti atsargas**, parinkčiai **Pavojingos medžiagos** nustatykite **Taip**. Šis parametras identifikuoja elementą kaip pavojingą prekę ir yra naudojamas kai siuntimo dokumentacija atspausdinta.
+1. „FastTab” **Tvarkyti atsargas**, parinkčiai **Pavojingos medžiagos** nustatykite **Taip**. Šis parametras identifikuoja elementą kaip pavojingą prekę ir yra naudojamas kai siuntimo dokumentacija atspausdinta.
 1. Veiksmų srityje, skirtuke **Tvarkyti atsargas**, grupėje **Atitiktis**, pasirinkite **Prekė su pavojingomis medžiagomis**.
 1. Užpildykite puslapį **Prekė su pavojingomis medžiagomis** pasirinktai prekei, naudodami laukus, aprašytus tolimesniuose poskyriuose.
 
@@ -64,7 +63,7 @@ Kad nustatytumėte išleistą produktą kaip pavojingą medžiagą, atlikite ši
 | Techninis pavadinimas | Pasirinkite medžiagos bendrą pavadinimą. Šis medžiagos pavadinimas gali būti pavadinimu, kurį jūsų įmonė naudoja viduje. |
 | Kitu atveju nebūdingas (not-otherwise-specific) | Pasirinkite šį žymės langelį, kad nurodytumėte, jog reikšmė **Tinkamas siuntimo pavadinimas** yra kitu atveju nebūdingas (N.O.S.) prekės siuntimo pavadinimas. Kitu atveju nebūdingas (not-otherwise-specific) siuntimo pavadinimai naudojami panašių cheminių preparatų ir medžiagų grupėms, kurie turi tam tikrus galutinius panaudojimus, bet jie gali būti nenurodyti pagal pavadinimą „hazmat” lentelėje konkrečiame reglamente. |
 
-### <a name="item-ship-text-translation-fasttab"></a>Prekės siuntimo teksto vertimas „FastTab” 
+### <a name="item-ship-text-translation-fasttab"></a>Prekės siuntimo teksto vertimas „FastTab”
 
 **Prekės siuntimo teksto vertimas**” „FastTab” yra tinklelis, kuris rodo reikšmių **Tinkamas siuntimo pavadinimas** vertimus, kurios yra nustatytos pirmine kalba **Aprašymai** „FastTab” . Šie vertimai gali būti naudojami atspausdintame siuntimo tekste viena ar daugiau papildomų kalbų.
 
@@ -172,7 +171,7 @@ Po to, kai pardavimo užsakymas yra užbaigtas ir paruoštas išsiuntimui, jis g
 
 ## <a name="shipments-that-include-hazardous-materials"></a><a name="hazmat-shipments"></a>Siuntos, kuriose yra pavojingų medžiagų
 
-### <a name="view-hazardous-material-scores-for-each-shipment-line"></a>Peržiūrėkite pavojingos medžiagos balus kiekvienai siuntimo eilutei 
+### <a name="view-hazardous-material-scores-for-each-shipment-line"></a>Peržiūrėkite pavojingos medžiagos balus kiekvienai siuntimo eilutei
 
 Puslapis **Siuntos informacija** rodo bendrą pavojingos medžiagos svorį ir taškų vertes, kurios buvo apskaičiuotos kiekvienai įkelties eilutei, kuri yra įtraukta į tą siuntą. Norėdami peržiūrėti vertinimus ir svorius, atlikite šiuos veiksmus.
 
@@ -197,7 +196,7 @@ Gausite pranešimą, kuris jus informuos apie patikros rezultatus.
 
 ## <a name="loads-that-include-hazardous-materials"></a><a name="hazmat-loads"></a>Įkeltys, kuriose yra pavojingų medžiagų
 
-### <a name="view-hazardous-material-scores-for-each-load-line"></a>Peržiūrėkite pavojingų medžiagų balus kiekvienai įkelties eilutei 
+### <a name="view-hazardous-material-scores-for-each-load-line"></a>Peržiūrėkite pavojingų medžiagų balus kiekvienai įkelties eilutei
 
 Puslapis **Įkelties informacija** rodo bendrą pavojingų medžiagų svorį ir taškų vertes, kurios buvo apskaičiuotos tai įkelčiai ir kiekvienai įkelties eilutei. Norėdami peržiūrėti vertinimus ir svorius, atlikite šiuos veiksmus.
 
@@ -221,6 +220,3 @@ Norėdami vykdyti suderinamumo tikrinimą, atlikite šiuos veiksmus.
 1. Veiksmų srityje, skirtuke **Įkeltys**, grupėje **Veiksmai**, pasirinkite **Suderinamumo tikrinimas**.
 
 Gausite pranešimą, kuris jus informuos apie patikros rezultatus.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

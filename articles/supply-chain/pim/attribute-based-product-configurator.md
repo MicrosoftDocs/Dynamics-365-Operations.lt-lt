@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: c0f9c1bb94b4dcc3c3c1e7656868ef6e6bd903db
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cba4b1eac33ae53e214297728c1cdf2710ebd9d9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433258"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007921"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Produkto konfigūravimo pagal apribojimus atributais pagrįstos pardavimo kainos
 
@@ -141,6 +140,3 @@ Paskutinis veiksmas yra produkto modelio versijos atributais pagrįstų pardavim
 1. Veiksmų srityje atidarykite skirtuką **Modelis** ir grupėje **Produkto modelio informacija** pasirinkite **Versijos**.
 1. Atidaromas puslapis **Versijos**. Įsitikinkite, kad **Kainodaros metodas** nustatytas į **Pagrįstas atributais**.
     ![Kainodaros metodo nustatymas į pagrįstą atributais](media/prod-config-versions.png "Kainodaros metodo nustatymas į pagrįstą atributais")
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
