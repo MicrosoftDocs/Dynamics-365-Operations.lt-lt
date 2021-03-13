@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectDocument
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1e251dbbede23466109f6219671db7f62d6d420
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0f8bcae99a96ccd83dc4543b1c56007a4263a19b
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433502"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021684"
 ---
 # <a name="asset-documents"></a>Nustatyti dokumentą kaip
 
@@ -50,6 +49,3 @@ Modulyje „Turto valdymas“ galite konfigūruoti dokumentus, kad jie būtų au
 
 4. Pasirinkite **Priedai**. Rodomas standartinis puslapis **Dokumentų tvarkymas**.
 5. Nustatykite dokumentus arba pastabas, kurios turėtų būti pridėtos prie turto dokumento įrašo. Kai pridėsite dokumentus, lauke **Priedai** bus rodomas su įrašu susijusių dokumentų skaičius.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
