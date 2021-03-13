@@ -1,6 +1,6 @@
 ---
-title: Ataskaitų dizaino įrankio ataskaitų medžio aprašai
-description: Šiame straipsnyje pateikiama informacija ataskaitų medžių aprašus. Ataskaitų medžio aprašas yra ataskaitos komponentas, arba kūrimo blokas, kuris padeda nustatyti organizacijos struktūrą ir hierarchiją.
+title: Ataskaitų dizaino įrankio ataskaitų medžio apibrėžtys
+description: Šiame straipsnyje aprašomi ataskaitų medžio apibrėžimai. Ataskaitų medžio apibrėžimas yra ataskaitos komponentas, apibūdinantis organizacijos struktūrą.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/07/2019
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8ae024c2d791e1219c7383dc95283219a9300eac
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 17f749863af3c37658935d5065cf053d0a165c1e
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682679"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093906"
 ---
-# <a name="reporting-tree-definitions-in-financial-reports"></a>Ataskaitų dizaino įrankio ataskaitų medžio aprašai
+# <a name="reporting-tree-definitions-in-financial-reports"></a>Ataskaitų dizaino įrankio ataskaitų medžio apibrėžtys
 
 [!include [banner](../includes/banner.md)]
 
@@ -41,10 +41,10 @@ Prieš kurdami ataskaitų medį, pasidomėkite geriausia praktika.
 - Taip pat turite apsvarstyti, kokiu būdu geriausia kurti medžius. Galite naudoti automatinio kūrimo procesą ataskaitų medžiui generuoti arba galite patys kurti ataskaitų medį. Prieš kuriant medžius svarbu suprasti abu būdus.
 - Galite naudoti ataskaitinius vienetus, kurie yra apibrėžti jūsų finansinių duomenų sistemoje, norėdami pridėti ataskaitinius vienetus prie ataskaitų medžio aprašo.
 
-## <a name="create-multiple-reporting-trees"></a> Kelių ataskaitų medžių kūrimas
+## <a name="create-multiple-reporting-trees"></a>Kelių ataskaitų medžių kūrimas
 Galite sukurti neribotą skaičių ataskaitų medžių, kad galėtumėte peržiūrėti organizacijos duomenis įvairiais būdais. Ataskaitų medį gali sudaryti bet koks padalinių ir suvestinės vienetų derinys. Ataskaitos apraše vienu metu gali būti saitas tik su vienu ataskaitų medžiu. Pertvarkydami ataskaitinių vienetų struktūrą galite sukurti įvairių ataskaitų medžių. Tada galite naudoti tą patį eilučių ir stulpelių aprašą su kiekvienu ataskaitų medžiu. Tokiu būdu galite greitai kurti įvairius finansinių ataskaitų maketus. Sukūrę kelis ataskaitų medžius, kiekvieną mėnesį galėsite spausdinti finansinių ataskaitų sekas, kuriose įvairiais būdais analizuojamos ir pateikiamos jūsų įmonės operacijos. Norėdami daugiau informacijos žr. ataskaitinių vienetų struktūros pavyzdžius šio straipsnio pabaigoje.
 
-## <a name="create-a-reporting-tree-definition"></a> Ataskaitų medžio aprašo kūrimas
+## <a name="create-a-reporting-tree-definition"></a>Ataskaitų medžio aprašo kūrimas
 Ataskaitų medžio apraše yra šioje lentelėje aprašytų stulpelių.
 
 | Ataskaitų medžio stulpelis | Aprašymas |
@@ -111,7 +111,7 @@ Naudodami ataskaitų medį, galite telkti sumas iš antrinių ataskaitinių vien
 
 Kiekvieno ataskaitų medžio aprašo rodinys unikalus. Yra grafinis vaizdas, skirtas pirminio ir antrinio vienetų hierarchijai vizualizuoti, ir darbalapio rodinys, kuriame rodoma konkreti kiekvieno ataskaitinio vieneto informacija. Grafinis vaizdas ir darbalapio rodinys yra susiję. Viename rodinyje pasirinkus ataskaitinį vienetą, jis taip pat pasirinkamas kitame rodinyje. Galite kurti kelių dimensijų hierarchijas pagal finansinių duomenų dimensijų ryšius. Kurdami ataskaitų medžio aprašą, galite naudoti tuos pačius eilučių aprašus kelis kartus tiek generuodami padalinio pajamų išrašą, tiek konsoliduotą suvestinės pajamų išrašą. Dimensijas, apibrėžtas eilutės apraše, galima derinti su dimensijomis ataskaitų medžio apraše, kad būtų pateikta įvairių jūsų organizacijos efektyvumo rodinių.
 
-### <a name="reporting-unit-structure"></a> Ataskaitinio vieneto struktūra
+### <a name="reporting-unit-structure"></a>Ataskaitinio vieneto struktūra
 
 Finansinėse ataskaitose naudojami toliau nurodytų tipų ataskaitiniai vienetai.
 
@@ -120,7 +120,7 @@ Finansinėse ataskaitose naudojami toliau nurodytų tipų ataskaitiniai vienetai
 
 Pirminis ataskaitinis vienetas yra suvestinės vienetas, kuris sujungia apibendrintą informacijos vieneto informaciją. Suvestinės vienetas gali būti tiek informacijos vienetas, tiek suvestinės vienetas. Todėl suvestinės vienetas gali imti informaciją iš žemesnio lygio vieneto, finansinių duomenų arba „Excel“ darbalapio. Pirminis vienetas gali būti antrinis aukštesnio lygio pirminio vieneto vienetas. Antrinis ataskaitinis vienetas gali būti informacijos vienetas, gaunantis informaciją tiesiogiai iš finansinių duomenų arba „Excel“ darbalapio. Antrinis ataskaitinis vienetas taip pat gali būti tarpinis suvestinės vienetas. Kitaip tariant, jis gali būti žemesnio lygio vieneto pirminis vienetas ir aukštesnio lygio suvestinės vieneto antrinis vienetas. Dažniausiai ataskaitiniai vienetai turi pirminius vienetus su tuščiu langeliu stulpelyje **Dimensijos** ir antrinius vienetus su saitais į konkrečius arba pakaitos dimensijų derinius.
 
-### <a name="organize-reporting-units"></a> Ataskaitinių vienetų tvarkymas
+### <a name="organize-reporting-units"></a>Ataskaitinių vienetų tvarkymas
 
 Ataskaitų medžio aprašo organizacinę struktūrą galite pertvarkyti perkeldami ataskaitinius vienetus grafiniame rodinyje. Taip pat galite perkelti ataskaitinius vienetus į aukštesnį arba žemesnį ataskaitų medžio lygį.
 
@@ -129,7 +129,7 @@ Ataskaitų medžio aprašo organizacinę struktūrą galite pertvarkyti perkelda
 3. Nuvilkite vienetą į naują vietą. Arba spustelėkite vienetą dešiniuoju pelės klavišu ir tada pasirinkite **Perkelti ataskaitinį vienetą į aukštesnį lygį** arba **Perkelti ataskaitinį vienetą žemesnį lygį**.
 4. Norėdami įrašyti pakeitimus, spustelėkite **Failas** &gt; **Įrašyti**.
 
-### <a name="add-text-about-a-reporting-unit"></a> Pridėti tekstą apie ataskaitinį vienetą
+### <a name="add-text-about-a-reporting-unit"></a>Pridėti tekstą apie ataskaitinį vienetą
 
 Papildomas teksto įrašas yra statinė teksto eilutė, kurią sudaro iki 255 simbolių, įtraukianti į ataskaitų medžio aprašą informacijos. Pvz., papildomas tekstas gali būti trumpas įmonės aprašymas. Galite sukurti iki dešimties kiekvieno ataskaitinio vieneto, esančio ataskaitų medyje, papildomų teksto įrašų. Ataskaitinio vieneto, kuriam priskiriamas tekstas, ataskaitoje rodomas papildomas tekstas. Galite pridėti teksto įrašų iš eilutės aprašo stulpelio **Aprašas** ir iš ataskaitos aprašo skirtuko **Antraštės ir poraštės**.
 
@@ -220,6 +220,3 @@ Gautas ataskaitų medžio aprašas surūšiuotas pagal verslo vienetą, tada –
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Finansinės ataskaitos](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

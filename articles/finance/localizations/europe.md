@@ -3,24 +3,23 @@ title: Europos apžvalga
 description: Šioje temoje pateikiami „Microsoft Dynamics 365 Finance“ dokumentų išteklių, skirtų Europai, saitai.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d63d5682521b1991c387604c2cc219c7f147c8d
-ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
+ms.openlocfilehash: aca45011b39240da6634ce604cff49697f95a299
+ms.sourcegitcommit: 7cdec5469ff0da145ac4e01caf3287d0627ae2dc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "4512216"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5099904"
 ---
 # <a name="europe-overview"></a>Europos apžvalga
 
@@ -64,8 +63,9 @@ ms.locfileid: "4512216"
 - [SF išdavimo terminas](emea-invoice-issue-deadline.md)
 - [SF apdorojimas](emea-invoice-processing.md)
 - [ES įrašo sertifikato išdavimas](tasks/eur-00012-issue-eu-entry-certificate.md)
-- [Elektroninių sąskaitų išrašymo palaikomi standartai](emea-oioubl-standards-electronic-invoicing.md)
-- [Originali SF nuoroda (Rytų Europa)](tasks/ee-00004-original-invoice-reference.md)
+- [Elektroninių sąskaitų faktūrų išrašymo palaikomi standartai](emea-oioubl-standards-electronic-invoicing.md)
+- [Priverstinis elektroninių sąskaitų faktūrų generavimas](emea-eur-forced-einvoices.md)
+- [Originali sąskaitos faktūros nuoroda (Rytų Europa)](tasks/ee-00004-original-invoice-reference.md)
 - [Šalies ieška naudojant PVM ID](tasks/eur-00015-party-search-vat-id.md)
 - [Mokėjimo nuorodų generavimo įrankis](tasks/ee-00015-payment-reference-generation-tool.md)
 - [Mokėjimo kvito ataskaita](emea-eur-payment-slip-report-giro.md)
@@ -99,6 +99,3 @@ ms.locfileid: "4512216"
 
 - [Elektroninių ataskaitų apžvalga](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

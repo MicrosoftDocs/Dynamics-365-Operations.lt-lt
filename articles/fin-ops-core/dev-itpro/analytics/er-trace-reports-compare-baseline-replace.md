@@ -1,6 +1,6 @@
 ---
 title: Sugeneruotų ER ataskaitų rezultatų sekimo ir palyginimo su bazinėmis vertėmis patobulinimai
-description: Šioje temoje pateikiama informacija apie tai, kaip pagerinta ER pagrindinės informacijos funkcija „Microsoft Dynamics 365 for Finance and Operations“ 10.0.3 versijoje (2019 m. birželio mėn.).
+description: Šioje temoje aprašomi ER bazinio plano funkcijos 10.0.3 „Microsoft Dynamics 365 for Finance and Operations” versijoje (2019 m. birželio mėn) patobulinimai.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2019
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 55e821b27f80383d8a8dc7a2d46f87e17c554078
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1c00a5d9e2804f6ec0f6cb4c544029a1235ee58d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682852"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094009"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Sugeneruotų ER ataskaitų rezultatų sekimo ir palyginimo su bazinėmis vertėmis patobulinimai
 
@@ -59,7 +59,7 @@ Norėdami atlikti šiame pavyzdyje nurodytus veiksmus, pirmiausia turite atlikti
 
 Įtraukta pasirinkto formato **Formatas, kuris turi mokytis ER pagrindinę informaciją** pagrindinė informacija, tačiau dar neįtrauktos šios pagrindinės informacijos pagrindinės taisyklės.
 
-![Elektroninės ataskaitos formato bazinis puslapis](media/GER-BaselineSample-AddBaseline2.PNG "Elektroninės ataskaitos (ER) formato bazinio puslapio ekrano kopija")
+![Elektroninės ataskaitos formato bazinis puslapis, dar nėra taisyklių](media/GER-BaselineSample-AddBaseline2.PNG "Elektroninės ataskaitos (ER) formato bazinio puslapio ekrano kopija")
 
 ### <a name="make-a-new-baseline-rule"></a>Naujos pagrindinės taisyklės kūrimas
 
@@ -72,7 +72,7 @@ Norėdami atlikti šiame pavyzdyje nurodytus veiksmus, pirmiausia turite atlikti
 7. Pasirinkite **Gerai**.
 8. Pasirinkite **Pagrindinė informacija**.
 
-    ![Elektroninės ataskaitos formato bazinis puslapis](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Elektroninės ataskaitos (ER) formato bazinio puslapio ekrano kopija")
+    ![Elektroninės ataskaitos formato bazinio puslapis, bazinės linijos pasirinktos](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Elektroninės ataskaitos (ER) formato bazinio puslapio ekrano kopija")
 
     Sugeneruotas siuntimo failas buvo automatiškai pridėtas prie vykdyto ER formato pagrindinės informacijos. Pagrindinė taisyklė buvo automatiškai įtraukta į šią pagrindinę informaciją; joje yra ir nuoroda į pridėtą failą.
 
@@ -130,7 +130,7 @@ Norėdami atlikti šiame pavyzdyje nurodytus veiksmus, pirmiausia turite atlikti
 3. Pagrindinės informacijos sąraše pasirinkite pagrindinę informaciją, kuri sukonfigūruota formatui **Formatas, kuris turi mokytis ER pagrindinę informaciją**.
 4. Norėdami pašalinti anksčiau sukonfigūruotą pagrindinę taisyklę „FastTab“ **Pagrindinė informacija** pasirinkite **Naikinti**.
 
-![Elektroninės ataskaitos formato bazinis puslapis](media/GER-BaselineSample-AddBaseline3.PNG "Elektroninės ataskaitos (ER) formato bazinio puslapio ekrano kopija")
+![Elektroninės ataskaitos formato bazinis puslapis, panaikinta](media/GER-BaselineSample-AddBaseline3.PNG "Elektroninės ataskaitos (ER) formato bazinio puslapio ekrano kopija")
 
 ### <a name="define-replacements-for-bindings-of-designed-er-format"></a>Apibrėžkite sukurto ER formato susiejimų keitimus
 
@@ -138,7 +138,7 @@ Norėdami atlikti šiame pavyzdyje nurodytus veiksmus, pirmiausia turite atlikti
 2. Formato komponentų medyje išplėskite **Išvestis**, išplėskite **Išvestis\\Dokumentas**, tada pažymėkite žymės langelį **Išvestis\\Dokumentas\\ProcessingDateTime**.
 3. Pasirinkite **Gerai**.
 
-![Elektroninės ataskaitos formato bazinis puslapis](media/GER-BaselineSample-AddBaseline4.PNG "Elektroninės ataskaitos (ER) formato bazinio puslapio ekrano kopija")
+![Elektroninės ataskaitos formato bazinis puslapis, komponentai](media/GER-BaselineSample-AddBaseline4.PNG "Elektroninės ataskaitos (ER) formato bazinio puslapio ekrano kopija")
 
 Pasirinktas ER formato komponentas buvo įtrauktas į komponentų sąrašą „FastTab“ **Pakeitimai**. Kai pagrindinis ER formatas vykdomas derinimo režimu, kiekvieno komponento formato susiejimas bus pakeistas susiejiimu, kuris parodytas stulpelyje **Susiejimas**. Norėdami pakeisti numatytąjį susiejimą komponento, kuris yra nurodytas „FastTab“ **Pakeitimai**, pasirinkite **Redaguoti**.
 
@@ -207,6 +207,3 @@ Norėdami importuoti pagrindinės informacijos parametrus iš XML failo, kuris s
 
 - [Sugeneruotų ataskaitų rezultatų sekimas ir jų palyginimas su bazinėmis vertėmis](er-trace-reports-compare-baseline.md)
 - [Užduoties įrašymo ištekliai](../user-interface/task-recorder.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

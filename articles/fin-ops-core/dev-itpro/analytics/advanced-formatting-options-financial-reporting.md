@@ -1,7 +1,7 @@
 ---
 title: Išplėstinės finansinių ataskaitų formatavimo parinktys
-description: Kai finansinėse ataskaitose sukuriate ataskaitą, galima naudoti papildomas formatavimo funkcijas, įskaitant dimensijų filtrus, stulpelių ir ataskaitų vienetų apribojimų, nespausdinamas eilutes ir IF / THEN / ELSE sakinius skaičiavimuose.
-author: ryansandness
+description: Šioje temoje aprašomos išplėstinės formatavimo funkcijos, įskaitant filtrus, apribojimus, nespausdinimo eilutes ir sąlyginius sakinius skaičiavimuose.
+author: panolte
 manager: AnnBe
 ms.date: 04/26/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3508099dfa3c6671da8dddc9061f737a97e825ce
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f0417ac1007fc94431aeb11d2464ee699e3f3441
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683168"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093167"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Išplėstinės finansinių ataskaitų formatavimo parinktys
 
@@ -310,6 +310,3 @@ Skaičiavimo eilutė gali nurodyti skaičiavimo eilutę arba finansinių duomen�
 Galite kurti ataskaitas naudodami dimensijų vertes, kuriose yra ampersando (&) simbolis.
 
 Bet kuriame lauke **Saitas su finansine dimensija** galite įvesti vertę, pvz., **'P&L'**. Viengubos kabutės ('') abiejose dimensijos vertės pusėse nurodo, kad naudojate tiesioginę vertę, pvz., įskaitant (&) ampersendo simbolį.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

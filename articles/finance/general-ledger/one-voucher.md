@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 68ec3cb028462865e914cbcb25ff28dbaf9a4f01
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cada62078b71dd304e90951ab0f4c1643beaa48c
+ms.sourcegitcommit: bd4763cc6088e114818e80bb1c27c6521b039743
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4446048"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5107725"
 ---
 # <a name="one-voucher"></a>Vienas kvitas
 
@@ -55,25 +54,26 @@ Naudojantis funkcija Vienas kvitas iškyla problemų atsiskaitant, skaičiuojant
 
 Pavyzdžiui, registruojate toliau nurodytą kelių eilučių kvitą.
 
-[![Pavyzdys](./media/example.png)](./media/example.png)
+[![Kelių eilučių kvito pavyzdys](./media/example.png)](./media/example.png)
 
 Po to darbo srityje **Finansinės įžvalgos** sugeneruojate ataskaitą **Išlaidos pagal tiekėją**. Šioje ataskaitoje išlaidų sąskaitos balansai sugrupuoti pagal tiekėjo grupę, o tada pagal tiekėją. Kai ataskaita sugeneruojama, sistema negali nustatyti, kurios tiekėjų grupės / tiekėjai patyrė 250,00 vienetų apimties išlaidų. Kadangi trūksta operacijos informacijos, sistema daro prielaidą, kad visas 250,00 vienetų apimties išlaidas patyrė pirmas kvite nurodytas tiekėjas. Todėl 250,00 vienetų apimties išlaidos, kurios įtrauktos į pagrindinės sąskaitos 600120 balansą, rodomos toje tiekėjų grupėje / tiekėjo srityje. Tačiau labai tikėtina, kad pirmasis tiekėjas kvite nurodytas neteisingai. Dėl to gali būti, kad ataskaita yra neteisinga.
 
-[![Išlaidos](./media/expenses.png)](./media/expenses.png)
+[![Išlaidos pagal pardavėjo ataskaitą](./media/expenses.png)](./media/expenses.png)
 
 ## <a name="the-future-of-one-voucher"></a>Funkcijos Vienas kvitas ateitis
 
-Dėl pirmiau minėtų problemų funkcija Vienas kvitas naudotis nebebus galima. Tačiau esama nuo šios funkcijos priklausančių funkcinių spragų, todėl nebus taip, kad funkcija visiškai negalėtumėte naudotis visą laiką. Bus naudojamas toliau nurodytas grafikas.
+Dėl problemų, kurios gali nutikti kai naudojamas vienas kvitas, ši funkcija galiausiai nebegalios. Nepaisant to, kadangi esama funkcijų tarpų, kurie priklauso nuo šios funkcijos, nebegaliojimas įvyks visas iš karto. Bus naudojamas toliau nurodytas grafikas.
 
-- **2018 m. pavasario leidimas** – pagal numatytuosius parametrus, naudojantis parametru **Leisti kelias vieno kvito operacijas**, pasiekiamu skirtuke **Bendra**, kuris pateikiamas puslapyje **DK parametrai**, funkcija bus išjungta. Tačiau, jei jūsų organizacijoje yra scenarijus, kuriame yra viena iš šioje temoje nurodytų funkcinių spragų, funkciją įjungti galite.
+- **2018 m. pavasario versija** – Ši funkcija buvo išjungta pagal nutylėjimą per **Leisti kelias transakcijas viename kvite** parametre **Bendri** skirtuke **Bendros mokesčių knygos parametrai** puslapyje. Nepaisant to, galite jį vėl įjungti, jei jūsų organizacija turi scenarijų, kuris patenka į vieną iš funkcijų tarpų, įvardytų vėliau šioje temoje.
 
-    - Jei klientai turi verslo scenarijų, pagal kurį funkcija Vienas kvitas nereikalinga, jie šios funkcijos įjungti neturėtų. Jei bus naudojamasi šia funkcija, „Microsoft“ negalės išspręsti toliau šioje temoje nurodytose srityse kylančių klaidų, net jei esama kitų sprendimų.
-    - Nebenaudokite funkcijos Vienas kvitas integracijoms, nebent būtų reikalinga naudoti šią funkciją dėl vienos iš funkcinių spragų.
+    - Jei verslo scenarijui nereikia vieno kvito, rekomenduojame jums palikti funkciją išjungtą. Jei naudojate jį net kai ir yra kitas sprendimas, „Microsoft“ neištaisys „klaidų“ srityse, kurios yra nurodomos vėliau šioje temoje.
+    - Rekomenduojame jums nustoti naudoti vieną kvitą integravimams, išskyrus atvejus, kai jums reikia funkcijų vienam iš dokumentuotų funkcijų tarpų.
 
-- **Vėlesni leidimai** – visos funkcinės spragos bus užpildytos. **Užpildžius funkcines spragas ir įtraukus naujų funkcijų, iki funkcijos Vienas kvitas išjungimo visam laikui bus likę bent metai**, nes klientams ir nepriklausomiems programinės įrangos tiekėjams (ISV) reikia palikti pakankamai laiko tam, kad jie galėtų prisitaikyti prie naujų funkcijų. Pavyzdžiui, jiems gali reikėti atnaujinti savo verslo procesus, objektus ir integracijas.
+- **Vėlesni leidimai** – Keli verslo reikalavimai gali būti įgyvendinti naudojant vieną kvitą. „Microsoft“ privalo užtikrinti, kad visi atpažinti verslo reikalavimai dar galėtų būti įgyvendinti sistemoje nurašius funkciją. Dėl to, naujos funkcijos greičiausiai turės būti įtrauktos siekiant užpildyti funkcijų tarpus. „Microsoft“ negali pateikti konkretaus sprendimo, nes kiekvienas funkcijos tarpas skiriasi ir turi būti vertinamas pagal verslo reikalavimus. Kai kurių funkcijų tarpai greičiausiai bus pakeisti su funkcijomis, kurios padeda atitikti konkrečius verslo reikalavimus. Nepaisant to, kiti tarpai gali būti užpildyti ir toliau leidžiant įvesti žurnalą, kai naudojamas vienas kvitas, bet jis pagerina sistemos sekimą daugiau informacijos.
 
-> [!IMPORTANT]
-> Parinktis **Tik vienas kvito numeris** **nebuvo** pašalinta iš žurnalo pavadinimo sąrankos. Ši parinktis vis dar palaikoma, kai kvite nurodyti tik DK sąskaitų tipai. Klientai turi būti atsargūs naudodami šį parametrą, nes kvitas nebus registruojamas, jei naudojant parinktį **Tik vienas kvito numeris** jie įves daugiau nei vieną klientą, tiekėją, banką, ilgalaikį turtą arba projektą. Be to, klientai vis dar gali įvesti mišrius antrinės DK sąskaitos tipus, pvz., mokėjimą naudojant vieną kvitą, kuriame nurodyti sąskaitų tipai **Tiekėjas**/**Bankas**.
+Užpildžius visus kitus funkcijų tarpus, „Microsoft“ praneš, kad funkcija nebegalios. Nepaisant to, negaliojimas neįsigalios mažiausiai vienerius metus po pranešimo. Nepaisant to, kad „Microsoft“ pateikia tikslų apskaičiavimą apie tai, kada vieno kvito veikimas nebegalios, tai nutinka dažniausiai likus dviem metams iki galiojimo pabaigos. „Microsoft“ politika yra palikti mažiausiai 12 mėnesių nuo negaliojančios funkcijos paskelbimo iki realaus nebegaliojimo, todėl klientai ir nepriklausomi programinės įrangos pardavėjai (ISV) turi laiko sureaguoti į keitimą. Pavyzdžiui, organizacijai gali reikėti naujinti savo verslo procesus, objektus ir integravimus.
+
+Vieno kvito nebegaliojimas yra svarbus pokytis, kuris bus praneštas plačiai. Kaip komunikavimo dalis, „Microsoft“ naujins šią temą, publikuos naują tinklaraščio įrašą „Microsoft Dynamics 365 Finance“ tinklaraštyje, naujins „Pašalintos ar nebegaliojančios funkcijos“ temą, praneš pakeitimą atitinkamoms „Microsoft“ konferencijoms ir t.t.
 
 ## <a name="why-use-one-voucher"></a>Kodėl verta naudotis funkcija Vienas kvitas?
 
@@ -186,6 +186,3 @@ Jei būtina koreguoti Gautinų arba Mokėtinų sumų DK sąskaitą, tai turi bū
 ### <a name="the-system-allows-it"></a>„Sistema tai leidžia“
 
 Organizacijos dažnai naudojasi funkcija Vienas kvitas tik todėl, kad sistema leidžia ja naudotis, nesuprasdamos, ką tai reiškia.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

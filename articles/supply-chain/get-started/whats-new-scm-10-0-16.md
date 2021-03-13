@@ -1,5 +1,5 @@
 ---
-title: „Dynamics 365 Supply Chain Management“ 10.0.16 išankstinė peržiūra (2021 m. vasaris)
+title: Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.16 (2021 m. vasario mėn.)
 description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.16 versijos funkcijos.
 author: kamaybac
 manager: annbe
@@ -10,26 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 963979c9d24c275f77347ec5d682f318db18f915
-ms.sourcegitcommit: be4b9d557511bbb43e71a93f2c3b23b5f1a4669d
+ms.openlocfilehash: 1ffd98a94b9ed3201be3c4530b8fba7e2820c268
+ms.sourcegitcommit: 289e9183d908825f4c8dcf85d9affd4119238d0c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4626807"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104994"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10016-february-2021"></a>„Dynamics 365 Supply Chain Management“ 10.0.16 išankstinė peržiūra (2021 m. vasaris)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.16 (2021 m. vasario mėn.)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šioje temoje pristatomos funkcijos, kurios yra naujos arba pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.16 peržiūros versijoje. Šios versijos komponavimo numeris yra 10.0.689 ir jis pasiekiamas tokius būdu:
+Šioje temoje pateikiamos naujos ir pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.16 versijos funkcijos. Šios versijos komponavimo numeris yra 10.0.689 ir jis pasiekiamas tokius būdu:
 
 - **Leidimo peržiūra:** 2020 m. lapkričio mėn.
 - **Bendras leidimo prieinamumas (savaiminis naujinimas):** 2021 m. sausio mėnuo
@@ -40,8 +38,11 @@ ms.locfileid: "4626807"
 Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Kai kurios išvardytos funkcijos vis dar yra peržiūros versijos, o kitos funkcijos jau gali būti prieinamos bendrai. Norėdami peržiūrėti kiekvienos funkcijos oficialią leidimo datą, vadovaukitės saitais su [leidimų planu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features).
 
 - [Tinkintos parduotuvės aukšto įgyvendinimo sąsaja](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Dėl daugiau informacijos, žr. [Nustatykite prietaisą, kuris vykdys gamybos aukšto vykdymo sąsają](../production-control/production-floor-execution-setup.md).
+
 - [Inventoriaus matomumo papildinys „Dynamics 365 Supply Chain Management“](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Dėl daugiau informacijos, žr. [Inventoriaus matomumo papildinys ](../inventory/inventory-visibility.md)
+
 - [Įjungti licencijos lenteles šaltinio dokumentų eilutėms](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Dėl daugiau informacijos, žr. [Sandėlio konfigūravimo apžvalga](../warehousing/warehouse-configuration.md).
+
 - [Sandėlio valdymo išvesties darbo apkrovos rodymas](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)<br> - Dėl daugiau informacijos, žr. [Išvesties darbo apkrovos rodymas](../warehousing/outbound-workload-visualization.md)
 
 Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis.
@@ -88,7 +89,7 @@ Neseniai įtraukėme ir reikšmingai atnaujinome tolesnias pagalbos temas. Jos n
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>„Finance and Operations” programų platformos naujinimai
 
-„Microsoft Dynamics 365 Supply Chain Management“ 10.0.16 versijoje yra platformos naujinimų. Dėl daugiau informacijos, žr. [Platformos naujinimas 10.0.16 „Finance and Operations“ programų versijai (2020 m. spalio mėn.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md).
+„Microsoft Dynamics 365 Supply Chain Management“ 10.0.16 versijoje yra platformos naujinimų. Daugiau informacijos, žr. [ „Finance and Operations“ programų 10.0.16 versijos platformos atnaujinimai (2021 m. vasaris)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md).
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
 
@@ -110,6 +111,3 @@ Temoje [Pašalintos arba pasenusios funkcijos „Dynamics 365 Supply Chain Manag
 Prieš pašalinant iš produkto bet kokią funkciją, pranešimas apie nebenaudojimą bus paskelbtas [Pašalintos arba pasenusios funkcijos „Dynamics 365 Supply Chain Management“](removed-deprecated-features-scm-updates.md) temoje 12 mėnesių prieš pašalinimą.
 
 Atlikus keitimus, kurie paveikia tik kompiliavimo laiką, bet yra dvejatainiškai suderinami su smėlio dėžės ir gamybos aplinka, nebenaudojimo laikas bus trumpesnis nei 12 mėnesių. Paprastai, tai yra funkciniai naujinimai, kuriuos reikia atlikti kompiliatoriui.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

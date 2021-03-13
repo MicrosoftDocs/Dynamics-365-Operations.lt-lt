@@ -1,6 +1,6 @@
 ---
 title: Ekrano ER paskirties vietos tipas
-description: Šioje temoje pateikiama informacija apie tai, kaip sukonfigūruoti elektroninių ataskaitų (ER) formato, kuris sukonfigūruotas siunčiamiems dokumentams generuoti, kiekvieno aplanko ar failo komponento ekrano paskirties vietą.
+description: Šioje temoje pateikiama informacija apie tai, kaip konfigūruoti ekrano paskirties vietą kiekvienam aplanko ar failo komponentui elektroninių ataskaitų (ER) formatu.
 author: NickSelin
 manager: AnnBe
 ms.date: 01/23/2020
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 08bbde23cde6dcecea398b84bb3d7f78e2204a71
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c687a435f50b54fd7bdf5b4802f4c07abd0f0e3e
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679539"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094059"
 ---
 # <a name="screen-destination"></a>Ekrano paskirties vieta
 
@@ -38,6 +38,3 @@ Jei parinktį **Įjungta** nustatysite į **Taip**, sukuriama išeigos peržiūr
 
 - [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)
 - [Elektroninių ataskaitų (ER) paskirties vietos](electronic-reporting-destinations.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

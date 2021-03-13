@@ -3,7 +3,7 @@ title: Elektroninių SF išrašymo priedo apžvalga
 description: Šioje temoje pateikiama informacija apie elektroninių SF išrašymo priedą „Microsoft Dynamics 365 Finance” ir „Dynamics 365 Supply Chain Management”.
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ffd48e173b66cc6d2571e666d5452a5eff05176c
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: 2c35b810151349384f105d9ac1d93e1885031450
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4446169"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104213"
 ---
 # <a name="electronic-invoicing-add-on-overview"></a>Elektroninių SF išrašymo priedo apžvalga
 
@@ -41,13 +40,13 @@ Elektroninių SF išrašymo priedas gali padėti pasiekti toliau nurodytus tiksl
 - Lengvai koreguojamos konfigūracijos, nereikalaujančios kodo pakeitimų
 - Supaprastintas konfigūracijos pakavimas
 - Įtaisytas eksportavimas, importavimas ir integravimas bei lengvas išplečiamumas apdorojant el. SF dokumentus
-- Paprastas pakartotinis tų pačių eksportavimo, importavimo ir integravimo konfigūracijų naudojimas visose įmonėse
+- Paprastas to paties eksportavimo, importavimo ir integravimo konfigūravimų pakartotinis naudojimas visose įmonėse
 
 Norėdami naudoti elektroninių SF išrašymo priedą, turite jį įdiegti iš jūsų projekto, esančio „Microsoft Dynamics Lifecycle Services” (LCS). Tada atlikite nustatymo procedūrą, norėdami įjungti integravimą su „Finance” arba „Supply Chain Management”. Daugiau informacijos žr. [Darbo su elektroninių SF išrašymo priedu pradžia](e-invoicing-get-started.md).
 
-## <a name="availability"></a>Prieinamumas
+## <a name="service-availability"></a><a name="availability"></a>Paslaugų prieinamumas
 
-Iš pradžių elektroninių SF išrašymo priedas pasiekiamas pasirinktiems klientams peržiūros programoje. Vėliau peržiūra bus pasiekiama daugiau klientų. Galiausiai paslauga taps visuotinai prieinama. Kadangi funkcijos, vykdančios konkrečių šalių / regionų reikalavimus, gali būti ribojamos skirtinguose leidimo etapuose, visada turite patikrinti naujausius dokumentus, nurodančius konkrečių šalių / regionų palaikomų sprendimų padengimą ir aprėptį.
+Šiuo metu elektroninių sąskaitų išrašymo priedai yra prieinami klientams per peržiūros programą ir kitame etape, paslaugos bus prieinamos bendrai. Kadangi funkcijos, vykdančios konkrečių šalių / regionų reikalavimus, gali būti ribojamos skirtinguose leidimo etapuose, visada turite patikrinti naujausius dokumentus, nurodančius konkrečių šalių / regionų palaikomų sprendimų padengimą ir aprėptį.
 
 Elektroninių SF išrašymo priedas diegiamas toliau nurodytuose „Azure” regionuose.
 
@@ -76,7 +75,7 @@ Elektroninių SF išrašymo priedas gali būti naudojamas scenarijuose, kai turi
     - Įtaisytas, lengvai išplečiamas ir konfigūruojamas integravimas su papildomu kelių šalių turiniu
 
     > [!NOTE]
-    > Šiuo metu palaikomas ribotas tiesioginių pateikimų skaičius. Daugiau informacijos žr. ankstesniame šios temos skyriuje [Pasiekiamumas](#availability). Palaikymas bus išplėstas ateityje.
+    > Šiuo metu palaikomas ribotas tiesioginių pateikimų skaičius. Dėl daugiau informacijos, žr. [Paslaugų prieinamumas](#availability) skyrių toliau šioje temoje. Palaikymas bus išplėstas ateityje.
 
 - Atsakymų iš žiniatinklio tarnybų tvarkymas, įskaitant konfigūruojamų išimties pranešimų tvarkymą
 - Elektroninių parašų palaikymas (pvz., naudojant XMLDSig pasirašymo algoritmą)
@@ -104,15 +103,9 @@ Toliau pateiktame paveikslėlyje vaizduojama, kaip duomenų srautai juda į ir i
 ![Elektroninių SF išrašymo priedo duomenų srautas](media/e-invoicing-service-data-flow-diagram-overview.png)
 
 ## <a name="privacy-notice"></a>Privatumo pranešimas
-Įgalinant ir naudojant elektroninių SF išrašymą gali reikėti siųsti ribotus duomenis, įskaitant organizacijos mokesčių registracijos ID. Jie bus persiųsti mokesčių inspekcijų patvirtintoms trečiųjų šalių agentūroms, kad būtų galima siųsti elektronines SF iš anksto nustatytais formatais, reikalingais integravimui su šiomis vyriausybės žiniatinklio tarnybomis. Duomenims, importuotiems iš šių išorinių sistemų į šią „Dynamics 365” internetinę paslaugą, taikomos [privatumo nuostatos](https://go.microsoft.com/fwlink/?LinkId=512132). Daugiau informacijos ieškokite skyriuose Privatumo pranešimas, esančiuose konkrečios šalies funkcijos dokumentacijoje.
+Dėl elektroninių sąskaitų išrašymo priedų įjungimo ir naudojimo gali prireikti siųsti limituotus duomenis, kurie apima organizacijos mokesčių registracijos ID. Jie bus persiųsti mokesčių inspekcijų patvirtintoms trečiųjų šalių agentūroms, kad būtų galima siųsti elektronines SF iš anksto nustatytais formatais, reikalingais integravimui su šiomis vyriausybės žiniatinklio tarnybomis. Duomenims, importuotiems iš šių išorinių sistemų į šią „Dynamics 365” internetinę paslaugą, taikomos [privatumo nuostatos](https://go.microsoft.com/fwlink/?LinkId=512132). Daugiau informacijos ieškokite skyriuose Privatumo pranešimas, esančiuose konkrečios šalies funkcijos dokumentacijoje.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
-
-- [Darbo su elektroninių SF išrašymo priedu pradžia](e-invoicing-get-started.md)
-- [Darbo su Brazilijos elektroninių SF išrašymo priedu pradžia](e-invoicing-bra-get-started.md)
-- [Darbo su Meksikos elektroninių SF išrašymo priedu pradžia](e-invoicing-mex-get-started.md)
-- [Darbo su Italijos elektroninių SF išrašymo priedu pradžia](e-invoicing-ita-get-started.md)
-- [Elektroninių SF išrašymo priedo nustatymas](e-invoicing-setup.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- [Paslaugų administravimas](e-invoicing-service-administration.md)
+- [Elektroninių sąskaitų konfigūravimas RCS](e-invoicing-configuration-rcs.md)
+- [Išduoti elektronines sąskaitas „Finance and Supply Chain Management”](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)

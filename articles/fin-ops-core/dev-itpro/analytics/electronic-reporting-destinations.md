@@ -1,9 +1,9 @@
 ---
 title: Elektroninių ataskaitų (ER) paskirties vietos
-description: Šioje temoje pateikiama informacija apie elektroninių ataskaitų (ER) paskirties vietų valdymą, palaikomus paskirties vietų tipus ir saugumo klausimus.
+description: Šioje temoje pateikiama informacija apie elektroninių ataskaitų paskirties vietų valdymą, palaikomų paskirties vietų tipus ir saugumo klausimus.
 author: nselin
 manager: AnnBe
-ms.date: 04/27/2020
+ms.date: 01/21/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e4da9e09fe9e2c76426a117b6c4d83f5bc33851f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 725ded9d777a65e5a38a7971c1da8cb74cf0dd47
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687163"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097286"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroninių ataskaitų (ER) paskirties vietos
 
@@ -62,7 +62,7 @@ Jei nustatysite parinktį **Paketinis vykdymas** į **Ne**, dialogo lango **Intr
 Jei nustatysite parinktį **Paketinis vykdymas** į **Taip**, ER formatas vykdomas [paketiniu](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview) režimu. Sukuriama reikiama paketinė užduotis, remiantis parametrais, nurodytais dialogo lango **ER parametrai** skirtuke **Vykdyti fone**.
 
 > [!NOTE]
-> Inicijuojamas užduoties aprašas, kad jums būtų pranešta apie ER formato susiejimo vykdymą. Jame taip pat yra vykdyto ER komponento pavadinimas.
+> Užduoties apraše jums pranešama apie ER formato susiejimo vykdymą. Jame taip pat yra įvykdyto ER komponento pavadinimas.
 
 [![ER formato vykdymas](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
 
@@ -95,6 +95,8 @@ Paskui dialogo lange **Paskirties vietų parametrai** galite įjungti ir išjung
 Pavyzdžiui, galite naudoti šią funkciją norėdami konfigūruoti failo komponento, kuris naudojamas generuojant siuntimo dokumentą „Excel“ formatu, failų paskirties vietas. Vieną paskirties vietą ([Archyvuoti](er-destination-type-archive.md)) galima sukonfigūruoti, kad ER užduočių archyve būtų saugomas pradinis „Excel“ failas, o kitą paskirties vietą ([El. paštas](er-destination-type-email.md)) galima sukonfigūruoti, kad „Excel“ failas būtų vienu metu [konvertuojamas](#OutputConversionToPDF) į PDF formatą ir siunčiamas PDF formatu el. paštu.
 
 [![Vieno formato elemento keleto paskirties vietų konfigūravimas](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
+
+Paleidus ER formatą, visada paleidžiamos visos sukonfigūruotos formato komponentų paskirties vietos. Be to, „Finance” **10.0.17 ir naujesnėse versijose** ER paskirties vietų funkcionalumas pagerėjo ir dabar suteikia jums galimybę viename ER formate konfigūruoti skirtingus paskirties vietų rinkinius. Ši konfigūracija pažymi kiekvieną rinkinį kaip sukonfigūruotą konkrečiam vartotojo veiksmui. ER API buvo [išplėsta](er-apis-app10-0-17.md) tam, kad būtų galima pateikti veiksmą, kurį atlieka vartotojas paleisdamas ER formatą. Pateiktas veiksmo kodas perduodamas į ER paskirties vietas. Atsižvelgdami į pateiktą veiksmo kodą, galite vykdyti skirtingas ER formato paskirties vietas. Daugiau informacijos ieškokite [Nuo veiksmo priklausomų ER paskirties vietų konfigūravimas](er-action-dependent-destinations.md).
 
 ## <a name="destination-types"></a>Paskirties vietų tipai
 
@@ -154,7 +156,7 @@ Jei išvalysite žymės langelį **Nutraukti apdorojimą trikties atveju** paski
 
 ## <a name="output-conversion-to-pdf"></a><a name="OutputConversionToPDF"></a>Išvesties konvertavimas į PDF formatą
 
-Galite naudoti PDF konvertavimo parinktį, norėdami konvertuoti išvestį „Microsoft Office“ formatu („Excel“ / „Word“) į PDF formatą.
+Galite naudoti PDF konvertavimo parinktį, norėdami konvertuoti išvestį „Microsoft Office“ („Excel“ arba „Word“) formatu į PDF formatą.
 
 ### <a name="make-pdf-conversion-available"></a>PDF konvertavimo įgalinimas
 
@@ -164,21 +166,20 @@ Norėdami, kad PDF konvertavimo parinktis būtų prieinama dabartiniame „Finan
 
 ### <a name="applicability"></a>Taikymas
 
-PDF konvertavimo parinktį galima įjungti tik failų komponentams, kurie naudojami generuojant išvestį „Microsoft Office Excel“ arba „Word“ formatu (**„Excel“ failas**). Kai ši parinktis įjungta, išvestis, generuojama „Office“ formatu, automatiškai konvertuojama į PDF formatą.
+PDF konvertavimo parinktį galima įjungti tik failų komponentams, kurie naudojami generuojant išvestį „Office” („Excel“ arba „Word“) formatu (**„Excel“ failas**). Kai ši parinktis įjungta, išvestis, generuojama „Office“ formatu, automatiškai konvertuojama į PDF formatą.
 
 ### <a name="limitations"></a>Apribojimai
 
 > [!NOTE]
 > Ši funkcija yra peržiūros funkcija ir jai taikomos naudojimo sąlygos, aprašytos skyriuje [Papildomos „Microsoft Dynamics 365” peržiūrų naudojimo sąlygos](https://go.microsoft.com/fwlink/?linkid=2105274).
 
-> [!NOTE]
-> PDF konvertavimo parinktis galima tik naudojant debesies įdiegtis.
->
-> Didžiausias gaunamų PDF puslapių skaičius yra 300.
->
-> „Microsoft Dynamics 365 Finance” 10.0.9 versijos (2020 m. balandžio mėn.) PDF dokumente, gaunamame naudojant „Excel“ išvestį, palaikoma tik gulsčia puslapio padėtis. „Dynamics 365 Finance” 10.0.10 versijos (2020 m. gegužės mėn.) leidime galite [nurodyti puslapio padėtį](#SelectPdfPageOrientation) PDF dokumente, sukurtame naudojant „Excel” išvestį, kol konfigūruojate ER paskirties vietą.
->
-> Tik įprasti operacinės sistemos „Windows“ sistemos šriftai naudojami konvertuojant išvestį, kurioje nėra įdėtųjų šriftų.
+PDF konvertavimo parinktis galima tik debesies diegimams.
+
+Didžiausias gaunamo PDF dokumento dydis yra 300 puslapių.
+
+„Finance” **10.0.9 versijoje** PDF dokumente, gaunamame naudojant „Excel“ išvestį, palaikoma tik gulsčia puslapio padėtis. „Finance” **10.0.10 versijoje (2020 m. gegužės mėn) ir naujesnėse** galite [nurodyti puslapio padėtį](#SelectPdfPageOrientation) PDF dokumente, sukurtame naudojant „Excel” išvestį, kol konfigūruojate ER paskirties vietą.
+
+Tik įprasti „Windows“ operacinės sistemos šriftai naudojami konvertuoti išvestį, kurioje nėra įdėtųjų šriftų.
 
 ### <a name="use-the-pdf-conversion-option"></a>PDF konvertavimo parinkties naudojimas
 
@@ -188,16 +189,16 @@ Norėdami įjungti failo paskirties vietos PDF konvertavimą, pažymėkite žym�
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">Pasirinkite PDF konvertavimui skirtą puslapio padėtį</a>
 
-Jei sugeneruojate ER konfigūraciją „Excel” formatu ir norite konvertuoti ją į PDF formatą, galite nurodyti PDF puslapio padėtį. Kai pasirenkate žymės langelį **Konvertuoti į PDF**, kad įjungtumėte PDF konvertavimą failo paskirties vietai, kurioje gaunamas išvesties failas „Excel” formatu, laukas **Puslapio padėtis** tampa pasiekiamas „FastTab” elemente **PDF konvertavimo parametrai**. Lauke **Puslapio padėtis** pasirinkite pageidaujamą padėtį.
+Jei sugeneruojate ER konfigūraciją „Excel” formatu ir norite konvertuoti ją į PDF formatą, galite nurodyti PDF dokumento puslapio padėtį. Kai pasirenkate žymės langelį **Konvertuoti į PDF**, kad įjungtumėte PDF konvertavimą failo paskirties vietai, kurioje gaunamas išvesties failas „Excel” formatu, laukas **Puslapio padėtis** tampa pasiekiamas „FastTab” elemente **PDF konvertavimo parametrai**. Lauke **Puslapio padėtis** pasirinkite pageidaujamą padėtį.
 
 [![PDF konvertavimui skirtos puslapio padėties pasirinkimas](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
 > [!NOTE]
-> Jei norite turėti parinktį pasirinkti PDF puslapio padėtį, turite įdiegti „Microsoft Dynamics 365 Finance” 10.0.10 (2020 m. gegužės mėn.) arba naujesnę versiją.
+> Jei norite turėti parinktį pasirinkti PDF puslapio padėtį, turite įdiegti „Finance ” 10.0.10 arba naujesnę versiją.
 >
 > Pasirinkto puslapio padėtis taikoma visoms ER konfigūracijoms, kurios yra generuojamos „Excel” formatu ir konvertuojamos į PDF formatą.
 >
-> Jei konvertuotas PDF yra sukurtas naudojant ER konfigūraciją „Word” formatu, PDF puslapio padėtis gaunama iš „Word” dokumento.
+> Jei ER konfigūracija „Word” formatu yra konvertuojama į PDF formatą, PDF dokumento padėtis gaunama iš „Word” dokumento.
 
 ## <a name="security-considerations"></a>Saugos klausimai
 
@@ -225,7 +226,7 @@ Nr. Naudojama numatytoji „Microsoft Azure‟ didelių dvejetainių objektų sa
 
 ### <a name="what-is-the-purpose-of-the-file-destination-in-the-destination-settings-what-does-that-setting-do"></a>Kokia yra paskirties vietos parametrų parinkties Failas paskirties vieta paskirtis? Kam šis parametras skirtas?
 
-Paskirties vieta **Failas** yra naudojama dialogo langui valdyti. Įjungus šią paskirties vietą arba konfigūracijoje nenurodžius paskirties vietos, sukūrus išvesties failą bus rodomas atidarymo arba įrašymo dialogo langas.
+Paskirties vieta **Failas** naudojama žiniatinklio naršyklės dialogo langui valdyti, kai vykdote ER formatą interaktyviu režimu. Įjungus šią paskirties vietą arba konfigūracijoje nenurodžius paskirties vietos, jūsų naršyklėje bus rodomas atidarymo arba įrašymo dialogo langas po išvesties failo sukūrimo.
 
 ### <a name="can-you-give-an-example-of-the-formula-that-refers-to-a-vendor-account-that-i-can-send-email-to"></a>Ar galite pateikti formulės, nurodančios tiekėjo kodą, kuriam galėčiau siųsti el. laišką, pavyzdį?
 
@@ -239,5 +240,4 @@ Pirma norimas formatas turi būti įgalintas ER konfigūracijose. Jei ši būtin
 
 [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[Nuo veiksmo priklausomų ER paskirties vietų konfigūravimas](er-action-dependent-destinations.md)

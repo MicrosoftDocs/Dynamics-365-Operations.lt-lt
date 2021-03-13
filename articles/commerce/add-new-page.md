@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b0f1e290526c25aa6e6300c65e24044a325bee53
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 54e690b0dde048b17ce074fcc30cf20a9ff7a4ca
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414293"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097134"
 ---
 # <a name="add-a-new-site-page"></a>Įtraukti naują svetainės puslapį
 
@@ -90,7 +89,6 @@ Norėdami į savo svetainę įtraukti naują puslapį, atlikite tolesnius veiksm
 
 [Papildyti kategorijos nukreipimo puslapį](enrich-category-page.md)
 
-[Puslapio turinio pritaikymo neįgaliesiems patikra](verify-accessibility.md)
+[Patikrinti puslapio turinio pritaikymą neįgaliesiems](verify-accessibility.md)
 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Sukurti dinaminius e-komercijos puslapius pagal URL parameterus](create-dynamic-pages.md)

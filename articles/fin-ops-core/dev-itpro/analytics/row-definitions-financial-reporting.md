@@ -1,6 +1,6 @@
 ---
 title: Finansinių ataskaitų dizaino įrankio eilučių aprašai
-description: Eilutės aprašas yra ataskaitos komponentas, arba kūrimo blokas, kuris nurodo kiekvienos finansinės ataskaitos eilutės turinį. Eilutės aprašą galima derinti su stulpelių aprašais, ataskaitų medžio aprašais ir ataskaitų aprašais, taip sukuriant kūrimo blokų grupę, kurią gali naudoti kelios įmonės.
+description: Eilutės aprašas yra ataskaitos komponentas, arba kūrimo blokas, kuris nurodo kiekvienos finansinės ataskaitos eilutės turinį.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 214a36a1284756e47aa1d28af99234657f1861c0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 274fa4bd137407c504f74335291e4c8e7999625b
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688288"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093270"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Finansinių ataskaitų dizaino įrankio eilučių aprašai
 
@@ -40,7 +40,7 @@ Eilutės aprašas yra ataskaitos komponentas, arba kūrimo blokas, kuris nurodo 
 2. Dukart spustelėkite norimo atidaryti eilutės apibrėžimo pavadinimą.
 3. Norėdami peržiūrėti kūrimo blokus, susietus su eilutės apibrėžimu, dešiniuoju pelės klavišu spustelėkite eilutės apibrėžimą, tada pasirinkite **Susiejimai**.
 
-## <a name="contents-of-a-row-definition"></a> Eilutės apibrėžimo turinys
+## <a name="contents-of-a-row-definition"></a>Eilutės apibrėžimo turinys
 Eilutės apraše gali būti iki 20 000 finansinės dimensijos eilučių ir jame gali būti pateikiama tolesnė informacija.
 
 - Aprašomasis tekstas, suteikiantis ataskaitai reikšmę, kai sukuriamos skyriaus antraštės, eilutės ir tarpai, pavyzdžiui, **Grynieji pinigai** arba **Visos įplaukos**.
@@ -62,7 +62,7 @@ Informaciją įvesti į eilutės aprašą galima dviem būdais.
 - Patiems įvesti eilutės informaciją į naują eilutės aprašą. Daugiau informacijos rasite dalyje [Eilutės apibrėžimo langelių keitimas](modify-row-definition-cells-financial-reporting.md).
 - Naudojant ataskaitų dizaino įrankį gauti eilutės informaciją tiesiogiai iš finansinių dimensijų. Norėdami daugiau informacijos, žr. skyrių „Susijusios formulės / eilutės / vienetai“ dalyje [Eilutės apibrėžimo langelių keitimas](modify-row-definition-cells-financial-reporting.md).
 
-## <a name="add-dimensions-in-a-row-definition"></a> Dimensijų įtraukimas į eilutės apibrėžimą
+## <a name="add-dimensions-in-a-row-definition"></a>Dimensijų įtraukimas į eilutės apibrėžimą
 Dimensija yra duomenų ir reikšmių sankirta. Ataskaitų dizaino įrankyje galite grupuoti duomenis ir reikšmes. Tada galite išsamiau klasifikuoti ir analizuoti operacijas. Galite naudoti dialogo langą **Eilučių įterpimas iš dimensijų** ir vienu metu į eilutės apibrėžimą įtraukti kelias eilutes. Dialogo lange rodoma po vieną kiekvienos dimensijos stulpelį. Tolesnėje lentelėje nurodyta, kokią informaciją galite nurodyti kiekvienoje dimensijoje.
 
 | Parinktis                | Prekės/Paslaugos pavadinimas |
@@ -187,6 +187,3 @@ Kad būtų lengviau peržiūrėti stulpelius, su kuriais dirbate eilutės apraš
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Finansinės ataskaitos](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

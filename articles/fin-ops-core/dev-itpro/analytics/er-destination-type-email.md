@@ -1,6 +1,6 @@
 ---
 title: El. pašto ER paskirties vietos tipas
-description: Šioje temoje paaiškinama, kaip sukonfigūruoti elektroninių ataskaitų (ER) formato, kuris sukonfigūruotas siunčiamiems dokumentams generuoti, kiekvieno APLANKO ar FAILO komponento el. pašto paskirties vietą.
+description: Šioje temoje paaiškinama, kaip konfigūruoti el. pašto paskirties vietą kiekvienam APLANKO ar FAILO komponentui elektroninių ataskaitų (ER) formatu.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/03/2020
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c6242ecb44a206aacc0e1b1b3c4f588eadd18882
-ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
+ms.openlocfilehash: e2e0da1c724269e0956be2f402b34ff376ed1990
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4690131"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094109"
 ---
 # <a name="email-er-destination-type"></a>El. pašto ER paskirties vietos tipas
 
@@ -65,8 +65,6 @@ Jei pasirinksite **Spausdinimo valdymo el. laiškas** kaip el. pašto adreso t
 - Lauke **El. pašto šaltinis** pasirinkite **Nėra**.
 - Lauke **Papildomi el. pašto adresai, atskirti „;“** įveskite fiksuotus el. pašto adresus.
 
-![Fiksuotų el. pašto adresų konfigūravimas](./media/er_destinations-emailfixedaddress.png)
-
 Taip pat galite gauti el. pašto adresus iš šalies, kurios siuntimo dokumentas generuojamas, kontaktinės informacijos. Norėdami naudoti nefiksuotus el. pašto adresus, lauke **El. pašto šaltinis** pasirinkite failo paskirties vietos [vaidmenį](../../fin-ops/organization-administration/overview-global-address-book.md#party-roles). Palaikomi toliau nurodyti vaidmenys.
 
 - Klientas
@@ -92,8 +90,6 @@ Puslapio **Formulės dizino įrankis** lauke **Formulė** įveskite konkretaus d
 
 Jei sukonfigūruoto vaidmens sąskaitų numeriai yra unikalūs visame „Microsoft Dynamics 365 Finance“ egzemplioriuje, dialogo lango **Siųsti el. laišką** laukas **El. pašto šaltinio įmonė** gali likti tuščias.
 
-![Tuščias laukas El. pašto šaltinio įmonė](./media/er_destinations-emaildefineaddresssourceformula.png)
-
 Taip pat gali būti, kad skirtingose įmonėse ([juridiniuose subjektuose](../../fin-ops/organization-administration/organizations-organizational-hierarchies.md#legal-entities)) užregistruotos skirtingos [bendrosios adresų knygelės](../../fin-ops/organization-administration/overview-global-address-book.md) šalys taip, kad jos naudoja tą patį sąskaitos numerį, kad užpildytų sukonfigūruotą vaidmenį. Šiuo atveju sukonfigūruoto vaidmens sąskaitų numeriai nėra unikalūs visame „Finance“ egzemplioriuje. Todėl tam, kad tiesiogiai pasirinktumėte šalį, negalite nurodyti tik sąskaitos numerio. Taip pat turite nurodyti įmonę, kurioje šalis buvo įregistruota, kad būtų galima įvesti sukonfigūruotą vaidmenį. Pasirinkę mygtuką **Susieti** (grandinės simbolis), esantį greta dialogo lango **Siųsti el. laišką** lauko **El. pašto šaltinio įmonė**, kad atidarytumėte puslapį [Formulės dizaino įrankis](general-electronic-reporting-formula-designer.md). Tada galite naudoti šį puslapį, kad sukonfigūruotumėte formulę, kuri vykdymo metu pateikė, įmonės, kuriai reikia surasti pageidaujamą šaltinį, kodą.
 
 > [!TIP]
@@ -109,8 +105,6 @@ Norėdami nurodyti el. pašto adresų, kurie turi būti naudojami vykdymo metu, 
 
 > [!NOTE]
 > Jei lauke **Paskirtis** pasirenkami tikslai ir parinktis **Pagrindinis kontaktas** nustatoma į parametrą **Taip** tuo pačiu metu, kiekvienas el. laiškas, atitinkantis bent vieną sukonfigūruotą kriterijų, bus naudojamas vykdymo metu.
-
-![El. pašto šaltinio atributų sąskaitos konfigūravimas](./media/er_destinations-emaildefineaddresssourceattributes.png)
 
 ### <a name="configuration-email"></a>Konfigūravimo el. laiškas
 
@@ -145,6 +139,3 @@ Toliau pateiktoje iliustracijoje parodytas šioje temoje aprašytas atskirų kom
 - [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)
 - [Elektroninių ataskaitų (ER) paskirties vietos](electronic-reporting-destinations.md)
 - [Elektroninių ataskaitų (ER) formulių kūrimo įrankis](general-electronic-reporting-formula-designer.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

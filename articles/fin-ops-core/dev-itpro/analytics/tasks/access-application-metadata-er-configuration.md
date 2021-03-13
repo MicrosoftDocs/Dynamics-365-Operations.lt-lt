@@ -1,6 +1,6 @@
 ---
 title: Prieiga prie programos metaduomenų naudojant ER konfigūraciją
-description: Šioje temoje pateikti veiksmai paaiškina, kaip „Regulatory configuration service“ (RCS) vartotojas gali kurti naują elektroninės ataskaitos (ER) modelio susiejimą naudodamas „Finance and Operations“ metaduomenis.
+description: Šioje temoje paaiškinama, kaip „Regulatory configuration service“ vartotojas gali kurti naują elektroninės ataskaitos modelio susiejimą naudodamas metaduomenis.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/28/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fa8e9ac4940bbc1252819ebcc3de2e21c9e0933f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 58697148ecf83f4962bd64a221945b6d911e11a6
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682170"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093310"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>Prieiga prie programos metaduomenų naudojant ER konfigūraciją
 
@@ -125,6 +125,3 @@ Toliau nurodyti veiksmai paaiškina, kaip „Regulatory configuration service“
 > [!NOTE]
 > Tai yra vienintelis būdas gauti informaciją apie programos metaduomenis, prieinamas naudojant vietinėje sistemoje įdiegtas programas (kai naudojamas vietos verslo duomenų (LBD) arba vietinio diegimo modelis).
         
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

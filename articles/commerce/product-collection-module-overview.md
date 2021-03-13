@@ -3,35 +3,32 @@ title: Produktų rinkinio moduliai
 description: Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ produktų rinkinio modulių apžvalga.
 author: v-chgri
 manager: annbe
-ms.date: 09/15/2020
+ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2d19cac142b870d8ecc677665443602b0a8837d2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4bae9ca722c2b6e776abb0e1da9694edc8afadf8
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414218"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097108"
 ---
 # <a name="product-collection-modules"></a>Produktų rinkinio moduliai
 
-
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ produktų rinkinio modulių apžvalga.
-
-## <a name="overview"></a>Peržiūrėti
 
 Produkto atradimas yra pirminis įrankis, kurį pardavėjai naudoja įtraukti savo klientus, esančius el. prekybos svetainėje. Produktų rinkinių moduliais pardavėjai gali sukurti įtikinamą apsipirkimo patirtį, suteikdami intuityvią vaizdo sąsają, kurią galima naudoti norint greitai pateikti produktų rinkinius.
 
@@ -67,6 +64,10 @@ Toliau pateikiamoje lentelėje aprašomi „Dynamics 365 Commerce“ įvairių t
 | Dažnai perkama kartu | Dirbtinis intelektas / mašininis mokymas | Modulis, kuriame naudojamas mašininis mokymas, skirtas vartotojų pirkimo tendencijoms analizuoti ir rekomenduoti susijusias prekes, kurios dažnai perkamos kartu su konkrečiu produktu. Šiame sąraše prisiregistravusiam vartotojui gali būti rodomi personalizuoti rezultatai, jei svetainės autorius nustato atitinkamą parinktį. |
 | Žmonėms taip pat patinka           | Dirbtinis intelektas / mašininis mokymas | Šiame modulyje naudojamas mašininis mokymas, skirtas vartotojų pirkimo tendencijoms analizuoti ir rekomenduoti prekes, susijusias su konkrečiu produktu. Šiame sąraše prisiregistravusiam vartotojui gali būti rodomi personalizuoti rezultatai, jei svetainės autorius nustato atitinkamą parinktį. |
 | Parinkta jums              | Dirbtinis intelektas / mašininis mokymas | Šiame modulyje naudojamas mašininis mokymas. skirtas analizuoti prisijungusio vartotojo pirkimo modelius ir pateikti personalizuotų rekomendacijų, paremtų šiais pirkimo modeliais. Vartotojui svečiui bus rodomas sutrauktas sąrašas. |
+
+## <a name="supported-modules"></a>Palaikomi moduliai 
+
+Produkto kolekcijos modulis palaiko [greito rodinio modulį](quick-view-module.md), kuris leidžia vartotojams peržiūrėti produkto informaciją ir įtraukti prekes į vežimėlį iš produkto kolekcijos puslapio.
 
 ## <a name="add-a-product-collection-module-to-a-category-page"></a>Įtraukti produktų rinkinio modulį į kategorijos puslapį
 
@@ -110,5 +111,4 @@ Norėdami įtraukti produktų rinkinio modulį į kategorijos puslapį, atlikite
 
 [Produktų rekomendacijų apžvalga](product-recommendations.md)
 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Greito rodinio modulis](quick-view-module.md)

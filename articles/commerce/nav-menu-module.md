@@ -3,14 +3,13 @@ title: Naršymo meniu modulis
 description: Šioje temoje aprašomi naršymo meniu moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/01/2020
+ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +17,19 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: b0e8168ca9ec9ca68011650a73cc09983deca645
-ms.sourcegitcommit: eee3523be26369aecdb36c0143a6ee3dab4b7966
+ms.openlocfilehash: 65f8b6128b140f3fa776659d8920dfc5e095213f
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4414483"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097395"
 ---
 # <a name="navigation-menu-module"></a>Naršymo meniu modulis
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šioje temoje aprašomi naršymo meniu moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
-
-## <a name="overview"></a>Peržiūra
 
 Pagrindinė naršymo meniu modulių paskirtis yra leisti svetainių vartotojams naršyti produktus ir svetainių puslapius pagal kanalo naršymo hierarchiją, nustatytą „Dynamics 365 Commerce Headquarters”. Naršymo meniu modulyje sukonfigūruotos prekės rodomos kaip svetainės antraštės naršymo elementai. Naršymo meniu moduliai taip pat palaiko statinius meniu elementus, kurie susieti su kitais „e-Commerce” svetainės puslapiais.
 
@@ -46,7 +44,9 @@ Toliau pateiktoje iliustracijoje parodytas „Fabrikam” svetainės naršymo me
 |---------------------------|-----------------------|-------------|
 | Šaltinis                  | **„Retail”** , **Kūrimas neautomatiniu būdu** , **„Retail” ir kūrimas neautomatiniu būdu** | Reikšmė **„Retail”** leidžia naršymo meniu rodyti „Commerce Headquarters” kanalų naršymo hierarchiją. Reikšmė **Kūrimas neautomatiniu būdu** leidžia kuruoti statinius meniu elementus. Reikšmė **„Retail” ir kūrimas neautomatiniu būdu** leidžia abiejų reikšmių derinį. |
 | Rodyti kategorijos vaizdus | **Teisinga** arba **Klaidinga**    | Įjungus Ši ypatybė naršymo meniu rodo kategorijos atvaizdus, kaip nurodyta kiekvienos kategorijos "Commerce Headquarters". Įtraukta į „Commerce” 10.0.14 leidimą. |
-| Įjungti kelių lygių naršymo meniu | **Teisinga** arba **Klaidinga** | Kai ši ypatybė įjungta, naršymo meniu gali rodyti kelis naršymo hierarchijos lygius. Ši funkcija pasiekiama „Dynamics 365 Commerce“ 10.0.15 leidime. |
+| Rodyti akcijas | **Teisinga** arba **Klaidinga** | Kai ypatybė yra įjungta, akcijos gali būti konfigūruojamos naudojant paveikslėlius, nuorodas ir tekstą. Ši ypatybė buvo įtraukta į „Commerce“ versijos 10.0.17 leidimą. |
+| Įtraukti akcijas | Tekstas, paveikslėlis ar nuoroda | Kai **Rodyti akcijas** ypatybė yra įjungta, galite įtraukti tekstą, paveikslėlį ar nuorodą kaip akcijos turinį naršymo meniu. |
+| Įjungti kelių lygių naršymo meniu | **Teisinga** arba **Klaidinga** | Kai ši ypatybė įjungta, naršymo meniu gali rodyti kelis naršymo hierarchijos lygius. Ši funkcija yra prieinama „Commerce“ versijos 10.0.15 leidime. |
 | Lygių skaičius | sveikasis skaičius | Ši ypatybė nurodo lygių, kurie turėtų būti rodomi, jei ypatybė **Įjungti kelių lygių naršymo meniu** nustatyta į **Teisinga**, skaičių. |
 | Statinis meniu elementas| Reikšmių masyvas| Statiniai meniu elementai, susiejantys meniu elemento pavadinimą su statinio svetainės puslapio saitu. Galite kurti meniu elementus po kitais meniu elementais. Pagal numatytuosius nustatymus statiniai meniu rodomi šakniniame lygyje ir yra pridedami prie kanalų naršymo hierarchijos, jei tokia yra. |
 | Rodyti šakninį meniu | **Teisinga** arba **Klaidinga** | Kai ši ypatybė įjungta, naršymo meniu gali būti nustatytas pagal pasirinktinę šaknį (pvz., **Pirkti dabar**). Ši funkcija pasiekiama „Dynamics 365 Commerce“ 10.0.15 leidime. |
@@ -72,6 +72,3 @@ Daugiau informacijos apie tai, kaip įtraukti naršymo meniu modulį į antrašt
 [Slapukų atitiktis](cookie-compliance.md)
 
 [Antraštės modulis](author-header-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

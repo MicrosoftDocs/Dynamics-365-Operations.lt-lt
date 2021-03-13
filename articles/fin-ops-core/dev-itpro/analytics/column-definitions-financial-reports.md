@@ -1,6 +1,6 @@
 ---
 title: Finansinių ataskaitų stulpelių aprašai
-description: Šiame straipsnyje pateikiama informacija apie stulpelių aprašus. Stulpelio aprašas yra ataskaitos komponentas, arba kūrimo blokas, kuris nurodo ataskaitos stulpelių turinį. Kaip ir eilučių aprašai, pagrindiniai stulpelių aprašai gali būti naudojami keli ataskaitose.
+description: Šiame straipsnyje pateikiama informacija apie stulpelių aprašus. Stulpelio aprašas yra ataskaitos komponentas, kuris nurodo ataskaitos stulpelių turinį.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/10/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 611e5cdfd2289bb2c690a72659e9ba47d6309cfe
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 820604fac96f5c86be3f7206ca88b3eb1fc6c32a
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687235"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093114"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Finansinių ataskaitų stulpelių aprašai
 
@@ -226,7 +226,7 @@ Vartotojas kuria dinaminės šešių mėnesių prognozės ataskaitą. Vartotojas
 | Stulpelio plotis        | 30   | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            |
 | Spausdinimo valdiklis       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
 
-Vartotojas dukart spusteli stulpelio antraštės langelį, kad atidarytų dialogo langą **Stulpelio antraštė**, kuriame įveda toliau nurodomą informaciją.
+Vartotojas dukart paspaudžia stulpelio B antraštės langelį, kad atidarytų dialogo langą **Stulpelio antraštė**, kuriame įveda toliau nurodomą informaciją.
 
 | Laukas              | Reikšmė                 |
 |--------------------|-----------------------|
@@ -236,7 +236,6 @@ Vartotojas dukart spusteli stulpelio antraštės langelį, kad atidarytų dialog
 | Pagrindimas      | Niekas nepasirinkta. |
 | Paskirstyti nuo        | Mlrd.                     |
 | Paskirstyti iki          | PAGRINDINIS                  |
-| Biudžeto antraštė      | Nuo PAGRINDINIS+1 iki pabaigos stulpelio  |
 
 Įvedęs informaciją, vartotojas spusteli **Gerai**. Tada vartotojas dukart spusteli stulpelio C antraštės langelį, kad atidarytų dialogo langą **Stulpelio antraštė**, kuriame įveda toliau nurodomą informaciją.
 
@@ -244,10 +243,10 @@ Vartotojas dukart spusteli stulpelio antraštės langelį, kad atidarytų dialog
 |--------------------|-----------------------|
 | Stulpelio antraštės tekstas | Biudžetas                |
 | Įterpti automatinį tekstą    | Niekas nepasirinkta. |
-| Formatavimo pasirinktys     | Langelis                   |
+| Formatavimo pasirinktys     | Laukas                   |
 | Pagrindimas      | Niekas nepasirinkta. |
-| Paskirstyti nuo        | C                     |
-| Paskirstyti iki          | PAGRINDINIS+2                |
+| Paskirstyti nuo        | PAGRINDAS+1                |
+| Paskirstyti iki          | P                     |
 
 Dabar kiekvieną kartą generuojant ataskaitą žodis „Faktinis“ bus išspausdintas stulpeliuose, kuriuose yra faktiniai duomenys, o žodis „Biudžetas“ bus išspausdintas stulpeliuose, kuriuose yra biudžeto prognozės. Be to, stulpelių skaičius kiekvieną mėnesį bus koreguojamas.
 
@@ -599,6 +598,3 @@ Galite padalyti stulpelio sumą į nurodytą laikotarpių skačių. Pavyzdžiui,
 [Finansinių ataskaitų dizaino įrankio eilučių aprašai](row-definitions-financial-reporting.md)
 
 [Išplėstinės finansinių ataskaitų formatavimo parinktys](advanced-formatting-options-financial-reporting.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

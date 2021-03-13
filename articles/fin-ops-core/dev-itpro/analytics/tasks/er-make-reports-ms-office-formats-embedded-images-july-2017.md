@@ -1,6 +1,6 @@
 ---
 title: Ataskaitų generavimo „Office“ formatu su įdėtaisiais vaizdais konfigūracijų kūrimas
-description: Šios temos veiksmuose pateikiama informacijos apie tai, kaip kurti elektroninių ataskaitų (ER) konfigūracijas, generuojančias „Microsoft Office“ formatų („Excel“ ir „Word“) elektroninius dokumentus, kuriuose yra įdėtųjų vaizdų.
+description: Šioje temoje apibūdinama, kaip sukurti elektroninių ataskaitų kūrimo (ER) konfigūracijas, generuojančias elektroninius dokumentus „Excel” ir „Word” formatais, kuriuose yra įdėtųjų vaizdų.
 author: NickSelin
 manager: AnnBe
 ms.date: 01/23/2018
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0145565ba060308162620f29a42499b0bffe6496
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b60ed6b07851c44ceb4b8f313bc65f04b802e646
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684408"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093675"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Ataskaitų generavimo „Office“ formatu su įdėtaisiais vaizdais konfigūracijų kūrimas
 
@@ -90,6 +90,3 @@ Norėdami atlikti šios procedūros veiksmus, pirmiausia atlikite procedūrą �
  30. Lauke Leisti kurti išankstinį pranešimą neaktyviuose banko koduose: pasirinkite Taip.  
  31. Spustelėkite Įrašyti.  
  32. Uždarykite puslapį.  
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

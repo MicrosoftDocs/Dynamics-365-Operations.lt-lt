@@ -11,33 +11,22 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5a883011bbff6d82504497d739c07f1ada9e5f69
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: d076aa5230437d1ef90f6b46d49ee4dea526db24
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4446170"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104234"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>„Azure” saugyklos abonemento ir raktų saugyklos kūrimas
 
 [!include [banner](../includes/banner.md)]
-
-
-
-Elektroninių SF išrašymo priedo paslauga yra atsakinga už visų jūsų verslo duomenų saugojimą „Microsoft Azure” ištekliuose, kurie priklauso jūsų įmonei. Siekiant užtikrinti, kad paslauga veiktų tinkamai ir kad visus verslo duomenis, kurių reikia elektroninių SF išrašymo priedui ir kuriuos jis sugeneravo, galėtų pasiekti tik priedas, turite sukurti du pagrindinius toliau pateiktus „Azure” išteklius.
-
-- „Azure” saugyklos abonementas (didelių dvejetainių objektų saugykla), skirtas elektroninėms SF saugoti
-- „Azure” raktų saugykla, skirta sertifikatams ir saugyklos abonemento vieningajam išteklių identifikatoriui (URI) saugoti
-
-> [!NOTE]
-> Paskirti raktų saugyklos ištekliai ir kliento didelių dvejetainių objektų saugykla turi būti priskirti tik elektroninių SF išrašymo priedo naudojimui.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
@@ -91,6 +80,3 @@ Norėdami atlikti šioje temoje esančius veiksmus, turite įsitikinti, kad atli
 9. Dialogo lange **Pagrindas** pasirinkite pagrindą, įtraukdami **Elektroninių SF išrašymo priedas**.
 10. Pasirinkite **Įtraukti**, tada pasirinkite **Įrašyti „Key Vault” keitimus**.
 11. Puslapyje **Apžvalga** nukopijuokite raktų saugyklos reikšmę **DNS pavadinimas**. Ši reikšmė bus naudojama paslaugos nustatymo metu RCS ir bus vadinama *raktų saugyklos URI*.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

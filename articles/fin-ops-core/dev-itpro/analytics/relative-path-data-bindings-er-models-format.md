@@ -1,6 +1,6 @@
 ---
 title: Santykinio kelio naudojimas ER modelių ir formatų duomenų sąsajose
-description: Naudodami elektroninių ataskaitų (ER) įrankį vartotojai gali nustatyti elektroninio formato struktūras ir tada aprašyti, kaip šias struktūras reikia pildyti naudojant programoje esančius duomenis ir algoritmus.
+description: Naudodami elektroninių ataskaitų įrankį vartotojai nustatote elektroninio formato struktūras ir tada aprašote, kaip šias struktūras reikia pildyti.
 author: NickSelin
 manager: AnnBe
 ms.date: 07/03/2019
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5e2554dc33514185fa16868ee239c3e44ff675dd
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 321a85c675439b91b99ec5988494d7514a5c53f4
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687476"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093142"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Santykinio kelio naudojimas ER modelių ir formatų duomenų sąsajose
 
@@ -57,6 +57,3 @@ Jei patvirtinsite įdėtųjų elementų sąsają, naujas pirminis elementas bus 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [ER formulės kalba](er-formula-language.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
