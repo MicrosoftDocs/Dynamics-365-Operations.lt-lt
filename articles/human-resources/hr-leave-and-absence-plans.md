@@ -2,7 +2,7 @@
 title: Atostogų ir neatvykimų plano kūrimas
 description: Atostogų planų, skirtų skirtingoms atostogų rūšims, kūrimas programoje „Dynamics 365 Human Resources“.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 90a3d624dac6c78dfbf2479c5ac7eab76dd4b542
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419771"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115953"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Atostogų ir neatvykimų plano kūrimas
 
@@ -383,6 +383,3 @@ Prognozuojamas balansas (30) = sukaupta suma (10 x 1) + esamas balansas (40) –
 - [Atostogų ir neatvykimų apžvalga](hr-leave-and-absence-overview.md)
 - [Atostogų ir neatvykimų tipų konfigūravimas](hr-leave-and-absence-types.md)
 - [Atostogų ir neatvykimų kaupimo planai](hr-leave-and-absence-accrue.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

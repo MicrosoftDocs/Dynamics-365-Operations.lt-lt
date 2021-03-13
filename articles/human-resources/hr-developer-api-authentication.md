@@ -2,7 +2,7 @@
 title: Autentifikavimas
 description: Šiame straipsnyje pateikiama peržiūros informacija apie tai, kaip autentifikuoti „Microsoft Dynamics 365 Human Resources“ duomenų taikomojo programavimo sąsają (API).
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a0509ce99205d49d516e180203ffb65a1dc09a7c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 963bec2b817c59e3b5860c5ff5885e165ec8656a
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419652"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115565"
 ---
 # <a name="authentication"></a>Autentifikavimas
 
@@ -185,6 +185,3 @@ namespace TalentODataPoC
 ```
 
 Nuskaitę prieigos atpažinimo ženklą, perduosite šį ženklą autorizavimo antraštėje kaip pateikėjo atpažinimo ženklą kartu su kiekviena užklausa, kurią siunčiate duomenų API, kaip aprašyta anksčiau.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

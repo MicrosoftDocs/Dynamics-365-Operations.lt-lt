@@ -2,7 +2,7 @@
 title: Gyvenimo įvykių tipų konfigūravimas
 description: „Microsoft Dynamics 365 Human Resources“ vartotojų gyvenimo įvykių tipai, apibrėžiantys įvykius, kurie tinka darbuotojų išmokų registracijai atnaujinti.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5286bcd940f4068531bae624876c8a35e64db4c3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c382299014e3f823bc2cd210749aae8c091c5f23
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419706"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113582"
 ---
 # <a name="configure-life-event-types"></a>Gyvenimo įvykių tipų konfigūravimas
 
@@ -88,6 +88,3 @@ Kurdami gyvenimo įvykio tipą galite rinktis iš šių gyvenimo planų:
 | **Tinkamumo taisyklės perrašymo galiojimo pabaiga (taikoma ne tik JAV)** | Išplėstiniai žmogiškieji ištekliai > Išmokos > Planai > Išmokos > Tinkamumo taisyklės perrašymas | Naudoti gyvenimo įvykio keitimo apdorojimą. Pavyzdžiui, jeigu redaguojate plano tinkamumo taisyklės perrašymo galiojimo pabaigą kaip šiandien 17.00 val., bet koks laikas po 17.00 val. arba kitos dienos, o tada vykdote gyvenimo įvykio pasikeitimo apdorojimą, rodomas pranešimas, nurodantis, kad tinkamumo taisyklės perrašymo galiojimas baigėsi. |
 | **Naujas išmokos planas (taikomas ne tik JAV)** | Išplėstiniai žmogiškieji ištekliai > Išmokos > Planai > Naujas | <ul><li>Tinkamumo pasirinktys įtraukiamos į dabartinį planą</li><li>Pridedamas naujas planas su pridėtomis tinkamumo parinktimis</li></ul></br></br>Personalo darbuotojai turėtų vykdyti šio egzemplioriaus gyvenimo įvykio tinkamumo apdorojimą. |
 | **Tinkamumo taisyklės pasikeitimas (taikoma ne tik JAV)** | Išplėstiniai žmogiškieji ištekliai > Išmokos > Taisyklės / parinktys > Tinkamumo taisyklės | Naudoti gyvenimo įvykio tinkamumo apdorojimą. Registruojama, kai pasikeitė šios įrašų **EhrBenefitEligibilityRule** reikšmės: **UseEmplCategory**, **UseEmplStatus** arba **UseEmplType**. Atnaujinamos tik tos gyvenimo įvykių operacijos, kurios jau yra taikomos pasikeitusiai taisyklei arba tinkamumo kriterijui. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

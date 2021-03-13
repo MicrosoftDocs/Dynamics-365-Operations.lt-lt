@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 67f6d567c7e8d4cc6332c2d661abb04d1b28d2e9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9aaf24147900c890a14c60ab969da7124c538911
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682776"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115733"
 ---
 # <a name="financial-insights"></a>Finansinės įžvalgos
 
@@ -66,9 +66,10 @@ Darbo srities **Finansinės įžvalgos** duomenys imami iš objektų saugyklos (
 
 Kad darbo srityse **Finansinės įžvalgos** ir **CFO apžvalga** matytumėte duomenis, turite atnaujinti tolesnius objektus.
 
-- 2 finansinių ataskaitų operacijų duomenų versija (**Pastaba:** tai nauja 10.0.1 versija ir ji pakeičia ankstesnį objektą.)
-- Finansinių ataskaitų operacijų duomenys
+- „BudgetActivityMeasure”
+- Finansinių ataskaitų 3 versijos operacijų duomenys 
 - CustCollectionsBIMeasurements
+- „LedgerActivityMeasure”
 - LedgerCovLiquidityMeasurement
 - Pirkimo kubas
 - Pardavimo kubas
@@ -88,7 +89,7 @@ Galite nustatyti pasikartojančią paketinę užduotį, kuri reguliariai atnauji
 
 
 ## <a name="financial-reporting-vs-financial-insights"></a>Finansinės ataskaitos ir finansinės įžvalgos
-**Finansinės įžvalgos** apima finansines ataskaitas, tačiau  nepakeičia programos modulio Finansinės ataskaitos. Numatytųjų darbo srities **Finansinės įžvalgos** finansinių ataskaitų aprėptis yra ribota ir į šią darbo sritį įtraukti ne visi finansinių ataskaitų tipai. Modulis Finansinės ataskaitos vis dar yra pagrindinis įstatymų nustatytų finansinių ataskaitų projektavimo, kūrimo ir generavimo įrankis.
+**Finansinės įžvalgos** apima finansines ataskaitas, tačiau nepakeičia programos modulio Finansinės ataskaitos. Numatytųjų darbo srities **Finansinės įžvalgos** finansinių ataskaitų aprėptis yra ribota ir į šią darbo sritį įtraukti ne visi finansinių ataskaitų tipai. Modulis Finansinės ataskaitos vis dar yra pagrindinis įstatymų nustatytų finansinių ataskaitų projektavimo, kūrimo ir generavimo įrankis.
 
 Ši palyginamoji diagrama padės atskirti šias dvi parinktis:
 
@@ -247,6 +248,3 @@ Norint gamybos aplinkoje įjungti įdėtąsias darbo sričių **CFO apžvalga** 
 - [Analizės darbo sričių ir ataskaitų naudojimas prie 1 langelio aplinkoje](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 
 - [Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

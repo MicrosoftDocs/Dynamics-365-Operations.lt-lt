@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cbf00f7428c9b1852a5bf54fd7e30a3bddc1a31e
-ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
+ms.openlocfilehash: c5041d515b261bb3e4b14885e0ec0ce788edf729
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4668950"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113539"
 ---
 # <a name="go-live-faq"></a>DUK apie įgyvendinimo pradžią 
 
@@ -66,7 +66,7 @@ Nors negalite tiesiogiai pasiekti „Azure” išteklių ar „Dynamics 365 Huma
 
 - „Azure SQL” duomenų bazę galite įdiegti savo „Azure” nuomotojuje ir naudoti savo duomenų bazės naudojimo (BYOD) funkciją duomenims sinchronizuoti. Daugiau informacijos žr. [Savo duomenų bazės naudojimas (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database).
 
-- Galite naudoti „Common Data Service” integravimą, norėdami sinchronizuoti pasirinktus objektus su „Common Data Service” duomenų baze. Daugiau informacijos žr. [„Common Data Service” objektai](hr-developer-entities.md). 
+- Galite naudoti „Dataverse” integravimą, norėdami sinchronizuoti pasirinktus objektus su „Dataverse” duomenų baze. Dėl daugiau informacijos, žr. [„Dataverse“ lentelės](hr-developer-entities.md). 
 
 ## <a name="how-often-is-my-production-database-backed-up"></a>Kaip dažnai sukuriamos mano gamybos duomenų bazės atsarginės kopijos? 
 
@@ -99,6 +99,3 @@ Norėdami pranešti apie gamybos sutrikimus, vykdykite procesą, aprašytą  [
  ## <a name="see-also"></a>Taip pat žiūrėkite
 
  [Rengimasis įgyvendinimo pradžiai](hr-admin-go-live-prepare.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

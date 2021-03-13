@@ -2,7 +2,7 @@
 title: „Human Resources“ parengimas
 description: Šiame straipsnyje pateikiami veiksmai, skirti paruošti naują gamybos aplinką programai „Microsoft Dynamics 365 Human Resources“.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 106976edfa2bd7efba41887d5e8f4243b56e7b2f
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 1a57180c60be4b4686c274aecbf86f0bc6c8b2fb
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527802"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113495"
 ---
 # <a name="provision-human-resources"></a>„Human Resources“ parengimas
 
@@ -32,6 +32,23 @@ ms.locfileid: "4527802"
 Šiame straipsnyje pateikiami veiksmai, skirti paruošti naują gamybos aplinką programai „Microsoft Dynamics 365 Human Resources“. Šiame straipsnyje laikoma, kad įsigijote „Human Resources“ iš debesies sprendimų teikėjo (CSP) arba pagal įmonės architektūros (EA) sutartį. Jei turite esamą „Microsoft Dynamics 365“ licenciją, kurioje jau yra „Human Resources“ paslaugos planas, ir negalite atlikti šiame straipsnyje nurodytų veiksmų, susisiekite su palaikymo tarnyba.
 
 Norint pradėti, visuotinis administratorius turi prisijungti prie [„Microsoft Dynamics Lifecycle Services“](https://lcs.dynamics.com) (LCS) ir sukurti naują „Human Resources“ projektą. Išskyrus atvejus, kai problema dėl licencijos neleidžia paruošti „Human Resources“, palaikymo tarnybos arba „Dynamics‟ paslaugų inžinierių (DSE) atstovų pagalba nėra būtina.
+
+## <a name="plan-human-resources-environments"></a>Planuokite „Human Resources“ aplinkas
+
+Prieš jums sukuriant pirma „Human Resources“ aplinką, turėtumėte atsargiai suplanuoti aplinkos poreikius savo projektui. Pagrindinė prenumerata „Human Resources“ apima dvi aplinkas: gamybos ir smėlio dėžės. Priklausomai nuo projekto kompleksiškumo, jums gali reikėti įsigyti papildomas smėlio dėžės aplinkas, kad palaikytumėte projekto veiklas. 
+
+Svarstymai dėl papildomų aplinkų įtraukimo, tačiau neapsiribojantys, yra tokie:
+
+- **Duomenų perkėlimas**: Jums gali reikėti apgalvoti papildomą aplinką dėl duomenų perkėlimo veiksmų, kad leistumėte savo smėlio dėžės aplinkai būti naudojamai testavimo tikslais per projektą. Papildomos aplinkos turėjimas leidžia duomenų perkėlimo veiksmus tęsti testuojant ir konfigūruojant veiklas kartu kitoje aplinkoje.
+- **Integravimas**: Jums gali reikėti apgalvoti papildomas aplinkas tam, kad konfigūruotumėte ir testuotumėte integravimus. Tai gali apimti įgimtus integravimus, tokius kaip „Ceridian Dayforce LinkedIn Talent Hub“ integravimus ar tinkintus integravimus, tokius kaip algalapio, aplikanto sekimo sistemos ar išmokų sistemos ir tiekėjai.
+- **Mokymai**: Jums gali reikėti atskiros aplinkos, kuri konfigūruota su nustatytais mokymų duomenimis tam, kad apmokytumėte savo darbuotojus naudoti naują sistemą. 
+- **Kelių etapų projektas**: Jums gali reikėti apgalvoti papildomą aplinką siekiant palaikyti konfigūravimą, duomenų perkėlimą, testavimą ir kitas veiklas projekt etape, kuris suplanuotas po pradinio paleidimo projekto į internetą.
+
+ > [!IMPORTANT]
+ > Rekomenduojame jums naudoti savo gamybos aplinką projekto metu, kaip jūsų GOLD konfigūravimo aplinką. Tai yra svarbu, nes negalite nukopijuoti smėlio dėžės aplinkos į gamybos aplinką. Dėl to, kai paleisite į internetą, jūsų GOLD aplinka bus jūsų gamybos aplinka ir jūs baigsite nukirpimo veiklas šioje aplinkoje.</br></br>
+ > Jums rekomenduojame naudoti jūsų smėlio dėžę ir kitą aplinką siekiant atlikti nukirpimą prieš paleidimą į internetą. Galite tai padaryti iš naujo paleisdami gamybos aplinką su savo GOLD konfigūravimu į savo smėlio dėžės aplinką.</br></br>
+ > Rekomenduojame jums laikyti išsamų nupjovimo patikrų sąrašą, kuris apima visus duomenų paketus, būtinus perkelti galutinius duomenis į gamybos aplinką paleidimo į internetą nukirpimo metu.</br></br>
+ > Taip pat rekomenduojame jums naudoti jūsų smėlio dėžės aplinką per projektą, kaip jūsų TESTAVIMO aplinką. Jei jums reikia papildomų aplinkų, jūsų organizacija gali įsigyti jas už papildomą kainą.</br></br>
 
 ## <a name="create-an-lcs-project"></a>LCS projekto kūrimas
 
@@ -88,7 +105,7 @@ Svarstydami, kurioje „Power Apps“ aplinkoje diegti „Human Resources“, pa
 
 2. Viena „Human Resources“ aplinka susieta su viena „Power Apps“ aplinka.
 
-3. „Power Apps“ aplinkoje kartu su programa „Human Resources“ pateikiamos atitinkamos „Power Apps“, „Power Automate“ ir „Common Data Service“ programos. Panaikinus „Power Apps“ aplinką, panaikinamos ir joje pateikiamos programos. Rengiant „Human Resources“ aplinką, galima sukonfigūruoti aplinkas **Bandomoji versija** arba **Gamyba**. Pagal tai, kaip aplinka bus naudojama, pasirinkite aplinkos tipą. 
+3. „Power Apps“ aplinkoje kartu su programa „Human Resources“ pateikiamos atitinkamos „Power Apps“, „Power Automate“ ir „Dataverse“ programos. Panaikinus „Power Apps“ aplinką, panaikinamos ir joje pateikiamos programos. Rengiant „Human Resources“ aplinką, galima sukonfigūruoti aplinkas **Bandomoji versija** arba **Gamyba**. Pagal tai, kaip aplinka bus naudojama, pasirinkite aplinkos tipą. 
 
 4. Apsvarstykite, ar nereikėtų numatyti duomenų integravimo ir bandymo strategijų, pvz., smėlio dėžės, UAT arba gamybos. Atidžiai apsvarstykite diegimo padarinius, nes pakeisti su „Power Apps“ aplinka susietą „Human Resources“ aplinką nėra paprasta.
 
@@ -108,6 +125,3 @@ Svarstydami, kurioje „Power Apps“ aplinkoje diegti „Human Resources“, pa
 ## <a name="grant-access-to-the-environment"></a>Prieigos prie aplinkos suteikimas
 
 Pagal numatytuosius nustatymus, aplinką sukūręs visuotinis administratorius turi prie jos prieigą. Papildomiems programos vartotojams prieiga turi būti aiškiai suteikta. Turite pridėti vartotojų ir priskirti jiems tinkamus vaidmenis „Human Resources“ aplinkoje. „Human Resources“ įdiegęs visuotinis administratorius taip pat turi paleisti „Attract“ ir „Onboard“ programas, kad užbaigtų inicijavimą ir suteiktų prieigą kitiems vartotojams, kurie yra nuomotojai. Kol tai nebus atlikta, kiti vartotojai neturės prieigos prie „Attract“ ir „Onboard“ programų ir matys prieigos pažeidimo klaidas. Daugiau informacijos rasite [Naujų vartotojų kūrimas](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) ir [Vartotojų priskyrimas saugos vaidmenims](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

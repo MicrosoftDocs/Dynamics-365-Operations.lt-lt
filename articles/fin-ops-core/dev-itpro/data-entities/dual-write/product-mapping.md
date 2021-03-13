@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 46f2f846f1259d433630a69f17f7b8db9514e6fa
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 20203a342b2bead4eb211597f4b73bbf35477a03
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680053"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115685"
 ---
 # <a name="unified-product-experience"></a>Bendrosios produkto funkcijos
 
@@ -53,8 +53,8 @@ Produkto informacija apima visą su produktu ir jo apibrėžtimi susijusią info
 
 „Finance and Operations” programėlės | Kitos „Dynamics 365” programos | aprašymas
 -----------------------|--------------------------------|---
-Išleisti produktai V2 | msdyn\_sharedproductdetails | **msdyn\_sharedproductdetails** objektas apima programų „Finance and Operations“ laukus, kurie apibūdina produktą ir kuriuose yra produkto finansinė ir valdymo informacija. 
-„Dataverse“ išleisti išskirtieji produktai | Produktas | Objekte **Produktas** yra laukų, kurie apibrėžia produktą. Tai yra atskirų produktų (produktų su potipio produktu) ir produkto variantų informacija. Toliau esančioje lentelėje nurodyti ryšiai.
+Išleisti produktai V2 | msdyn\_sharedproductdetails | Lentelė **msdyn\_sharedproductdetails** apima programų „Finance and Operations“ stulpelius, kurie apibūdina produktą ir kuriuose yra produkto finansinė ir valdymo informacija. 
+„Dataverse“ išleisti išskirtieji produktai | Produktas | Lentelėje **Produktas** yra stulpelių, apibrėžiančių produktą. Tai yra atskirų produktų (produktų su potipio produktu) ir produkto variantų informacija. Toliau esančioje lentelėje nurodyti ryšiai.
 Identifikuotas produkto numerio brūkšninis kodas | msdyn\_productbarcodes | Produktų brūkšniniai kodai naudojami siekiant unikaliai identifikuoti produktus.
 Numatytieji užsakymo parametrai | msdyn\_productdefaultordersettings
 Konkretaus produkto numatytieji užsakymo parametrai | msdyn_productdefaultordersettings
@@ -65,36 +65,38 @@ Spalvos | msdyn\_productcolors
 Dydžiai | msdyn\_productsizes
 Stiliai | msdyn\_productsytles
 Konfigūracijos | msdyn\_productconfigurations
-Bendrojo produkto spalvos | msdyn_sharedproductcolors | Objektas **Bendrojo produkto spalva** nurodo spalvas, kurias gali turėti tam tikras bendrasis produktas. Siekiant užtikrinti duomenų vientisumą, ši koncepcija perkelta į „Dataverse“.
-Bendrojo produkto dydžiai | msdyn_sharedproductsizes | Objektas **Bendrojo produkto dydis** nurodo dydžius, kurių gali būti konkretus bendrasis produktas. Siekiant užtikrinti duomenų vientisumą, ši koncepcija perkelta į „Dataverse“.
-Bendrojo produkto stiliai | msdyn_sharedproductstyles | Objektas **Bendrojo produkto stilius** nurodo stilius, kuriuos gali turėti tam tikras bendrasis produktas. Siekiant užtikrinti duomenų vientisumą, ši koncepcija perkelta į „Dataverse“.
-Bendrojo produkto konfigūracijos | msdyn_sharedproductconfigurations | Objektas **Bendrojo produkto konfigūracija** nurodo konfigūracijas, kurias gali turėti tam tikras bendrasis produktas. Siekiant užtikrinti duomenų vientisumą, ši koncepcija perkelta į „Dataverse“.
-Visi produktai | msdyn_globalproducts | Visų produktų objekte yra tiek jau išleisti produktai, tiek neišleisti produktai, ir juos galima rasti programose „Finance and Operations“.
+Bendrojo produkto spalvos | msdyn_sharedproductcolors | Lentelė **Bendrojo produkto spalva** nurodo spalvas, kurias gali turėti tam tikras bendrasis produktas. Siekiant užtikrinti duomenų vientisumą, ši koncepcija perkelta į „Dataverse“.
+Bendrojo produkto dydžiai | msdyn_sharedproductsizes | Lentelė **Bendrojo produkto dydis** nurodo dydžius, kurių gali būti konkretus bendrasis produktas. Siekiant užtikrinti duomenų vientisumą, ši koncepcija perkelta į „Dataverse“.
+Bendrojo produkto stiliai | msdyn_sharedproductstyles | Lentelė **Bendrojo produkto stilius** nurodo stilius, kuriuos gali turėti tam tikras bendrasis produktas. Siekiant užtikrinti duomenų vientisumą, ši koncepcija perkelta į „Dataverse“.
+Bendrojo produkto konfigūracijos | msdyn_sharedproductconfigurations | Lentelė **Bendrojo produkto konfigūracija** nurodo konfigūracijas, kurias gali turėti tam tikras bendrasis produktas. Siekiant užtikrinti duomenų vientisumą, ši koncepcija perkelta į „Dataverse“.
+Visi produktai | msdyn_globalproducts | Visų produktų lentelėje yra tiek jau išleisti produktai, tiek neišleisti produktai, ir juos galima rasti „Finance and Operations“ programose.
 Vienetas | mat. vnt.
 Vienetų konvertavimas | msdyn_ unitofmeasureconversions
 Būdingo produkto matavimo vieneto konvertavimas | msdyn_productspecificunitofmeasureconversion
-Produkto kategorijos | msdyn_productcategories | Kiekviena produktų kategorija ir informacija apie jos struktūrą bei charakteristikas yra įtraukta į produktų kategorijos objektą. 
-Produktų kategorijų hierarchijos | msdyn_productcategoryhierarhies | Produktų klasifikavimui ar grupavimui naudojamos produktų hierarchijos. Kategorijų hierarchijos galimos tarnyboje „Dataverse” naudojant produkto kategorijų hierarchijos objektą. 
-Produktų kategorijų hierarchijų vaidmenys | msdyn_productcategoryhierarchies | Produktų hierarchijos gali būti naudojamos skirtingoms „D365 Finance and Operations“ užduotims. Jomis nurodoma, kuri kategorija naudojama su kiekvienu vaidmeniu ar kuris naudojamas produktų kategorijos vaidmens objektas. 
-Produktų kategorijos priskyrimai | msdyn_productcategoryassignments | Norint produktą priskirti kategorijai, galima naudoti produktų kategorijų priskyrimų objektą.
+Produkto kategorijos | msdyn_productcategories | Kiekviena produktų kategorija ir informacija apie jos struktūrą bei charakteristikas yra įtraukta į produktų kategorijos lentelę. 
+Produktų kategorijų hierarchijos | msdyn_productcategoryhierarhies | Produktų klasifikavimui ar grupavimui naudojamos produktų hierarchijos. Kategorijų hierarchijos galimos tarnyboje „Dataverse” naudojant produkto kategorijų hierarchijos lentelę. 
+Produktų kategorijų hierarchijų vaidmenys | msdyn_productcategoryhierarchies | Produktų hierarchijos gali būti naudojamos skirtingoms „D365 Finance and Operations“ užduotims. Jomis nurodoma, kuri kategorija naudojama su kiekvienu vaidmeniu ar kuris naudojamas produktų kategorijos vaidmens lentelė. 
+Produktų kategorijos priskyrimai | msdyn_productcategoryassignments | Norint produktą priskirti kategorijai galima naudoti produktų kategorijų priskyrimų lentelę.
 
 ## <a name="integration-of-products"></a>Produktų integravimas
 
-Šiame modelyje produktą atitinka dviejų lentelių kombinacija „Dataverse“: **Produktas** ir **msdyn\_sharedproductdetails**, kombinacija. Pirmasis objektas apima produkto apibrėžtį (unikalų produkto identifikatorių, produkto pavadinimą ir aprašą), o antrasis objektas apima laukus, saugomus produkto lygyje. Šių dviejų lentelių kombinacija naudojama produktui apibrėžti pagal sandėliavimo vieneto (SKU) koncepciją. Kiekvieno išleisto produkto informacija bus įrašyta minėtose lentelėse (produkto ir bendrai naudojamo produkto informacija). Visiems produktams (išleistiems ir neišleistiems) sekti naudojamas objektas **Visuotiniai produktai**. 
+Šiame modelyje produktą atitinka dviejų lentelių kombinacija „Dataverse“: **Produktas** ir **msdyn\_sharedproductdetails**, kombinacija. Pirmoji lentelė apima produkto apibrėžtį (unikalų produkto identifikatorių, produkto pavadinimą ir aprašą), o antroji lentelė apima laukus, saugomus produkto lygyje. Šių dviejų lentelių kombinacija yra naudojama produktui apibrėžti pagal sandėliavimo vieneto (SKU) koncepciją. Kiekvieno išleisto produkto informacija bus įrašyta minėtose lentelėse (produkto ir bendrai naudojamo produkto informacija). Visiems produktams (išleistiems ir neišleistiems) sekti naudojama **Visuotiniai produktai** lentelė. 
 
 Kadangi produktą atitinka SKU, išskirtųjų produktų, bendrųjų produktų ir produkto variantų koncepcijas „Dataverse“ galima gauti tokiu būdu:
 
-- **Produktai su potipio produktu** yra patys save apibrėžiantys produktai. Nereikia nurodyti jokių dimensijų. Pavyzdys yra konkreti knyga. Šiems produktams vienas įrašas sukuriamas **produkto** objekte, o kitas įrašas sukuriamas **msdyn\_sharedproductdetails** objekte. Nesukuriamas produktų šeimos įrašas.
-- **Bendrieji produktai** naudojami kaip bendri produktai, turintys aprašą ir taisykles, apibrėžiančias verslo procesų veikimo būdą. Remiantis šiais apibrėžimais galima generuoti išskirtuosius produktus, žinomus kaip produkto variantus. Pavyzdžiui, marškinėliai yra bendrasis produktas, kuris gali turėti spalvos ir dydžio dimensijas. Galima kurti variantus, turinčius skirtingas šių dimensijų kombinacijas, pavyzdžiui, mažus mėlynus marškinėlius arba vidutinio dydžio žalius marškinėlius. Integruojant, produkto lentelėje sukuriamas vienas įrašas kiekvienam variantui. Šis įrašas apima konkretaus varianto informaciją, pavyzdžiui, skirtingas dimensijas. Bendroji produkto informacija saugoma objekte **msdyn\_sharedproductdetails**. (Ši bendra informacija laikoma produkto vadove.) Produkto vadovo informacija sinchronizuojama į „Dataverse“ iš karto po to, kai išleistas produkto vadovas yra sukuriamas (prieš tai kai išleidžiami variantai).
+- **Produktai su potipio produktu** yra patys save apibrėžiantys produktai. Nereikia nurodyti jokių dimensijų. Pavyzdys yra konkreti knyga. Šiems produktams viena eilutė sukuriama **Produkto** lentelė, o kita eilutė sukuriama **msdyn\_sharedproductdetails** lentelėje. Nesukuriama produktų šeimos eilutė.
+- **Bendrieji produktai** naudojami kaip bendri produktai, turintys aprašą ir taisykles, apibrėžiančias verslo procesų veikimo būdą. Remiantis šiais apibrėžimais galima generuoti išskirtuosius produktus, žinomus kaip produkto variantus. Pavyzdžiui, marškinėliai yra bendrasis produktas, kuris gali turėti spalvos ir dydžio dimensijas. Galima kurti variantus, turinčius skirtingas šių dimensijų kombinacijas, pavyzdžiui, mažus mėlynus marškinėlius arba vidutinio dydžio žalius marškinėlius. Integruojant produkto lentelėje sukuriama viena eilutė kiekvienam variantui. Ši eilutė apima konkretaus varianto informaciją, pavyzdžiui, skirtingas dimensijas. Bendroji produkto informacija saugoma **msdyn\_sharedproductdetails** lentelėje. (Ši bendra informacija laikoma produkto vadove.) Produkto vadovo informacija sinchronizuojama į „Dataverse“ iš karto po to, kai išleistas produkto vadovas yra sukuriamas (prieš tai kai išleidžiami variantai).
 - **Išskirtieji produktai** nurodo visus produktų potipio produktus ir visus produkto variantus. 
 
 ![Produktų duomenų modelis](media/dual-write-product.png)
 
-Įgalinus dvigubo rašymo funkciją, „Finance and Operations“ programos bus sinchronizuojamos kituose „Dynamics 365“ produktuose, būsenoje **Juodraštis**. Jie pridedami prie pirmo kainoraščio su ta pačia valiuta. Kitaip tariant, jie pridedami prie pirmojo „Dynamics 365“ programos kainoraščio, atitinkančio jūsų juridinio subjekto, kuriame produktas išleidžiamas programoje „Finance and Operations“, valiutą. 
+Įgalinus dvigubo rašymo funkciją, „Finance and Operations“ programos bus sinchronizuojamos kituose „Dynamics 365“ produktuose, būsenoje **Juodraštis**. Jie yra pridedami prie pirmo kainoraščio su ta pačia valiuta. Kitaip tariant, jie pridedami prie pirmojo „Dynamics 365“ programos kainoraščio, atitinkančio jūsų juridinę lentelę, kurioje produktas išleidžiamas „Finance and Operations“ programoje, valiutą. Jei nėra pateiktos valiutos kainoraščio, jis bus automatiškai sukurtas ir priskirtas produktui. 
 
 Pagal numatytuosius nustatymus produktai, esantys programoje „Finance and Operations“, sinchronizuojami kitose „Dynamics 365“ programose, būsenoje **Juodraštis**. Norint sinchronizuoti produktą, jam esant būsenos **Aktyvus**, kad jį, pavyzdžiui, galėtumėte tiesiogiai naudoti pardavimo užsakymų pasiūlymuose, reikia pasirinkti šį parametrą: skirtuke **Sistema > Administravimas > Sistemos administravimas > Sistemos parametrai > Pardavimas** pasirinkite **Kurti aktyvios būsenos produktus = taip**. 
 
-Atminkite, kad produktai sinchronizuojami iš programų „Finance and Operations“ į „Dataverse“. Tai reiškia, kad produkto objekto laukų vertes galima pakeisti „Dataverse“, tačiau suaktyvinus sinchronizavimą (kai produkto laukas modifikuojamas programoje „Finance and Operations“), bus perrašytos „Dataverse“ esančios vertės. 
+Kai produktai sinchronizuojami, „Finance and Operations” programos lauke **Pardavimo vienetas** turite įvesti reikšmę, nes tai yra privalomas „Sales” laukas.
+
+Produktų sinchronizavimas vyksta iš „Finance and Operations“ programos į „Dataverse“. Tai reiškia, kad produkto lentelės stulpelių vertes galima pakeisti „Dataverse“, tačiau suaktyvinus sinchronizavimą (kai produkto stulpelis modifikuojamas „Finance and Operations“ programoje), bus perrašytos „Dataverse“ esančios vertės. 
 
 [!include [symbols](../../includes/dual-write-symbols.md)]
 
@@ -142,7 +144,7 @@ Numatytuose užsakymo parametruose nurodyta vieta ir sandėlys, iš kurių bus p
 
 ## <a name="unit-of-measure-and-unit-of-measure-conversions"></a>Matavimo vienetas ir matavimo vieneto konvertavimai
 
-Matavimo vienetai ir atitinkamas konvertavimas tarnyboje „Dataverse“ pasiekiami pagal diagramoje pavaizduotą duomenų modelį.
+Matavimo vienetai ir atitinkamas konvertavimas pasiekiami „Dataverse“ pagal diagramoje pavaizduotą duomenų modelį.
 
 ![Matavimo vieneto duomenų modelis](media/dual-write-product-three.png)
 
@@ -166,7 +168,7 @@ Pirmiausia svarbu pažymėti, kad vieneto integravimo raktas yra msdyn_symbol. T
 
 Skirta vienetams, atitinkantiems / sutampantiems programose „Finance and Operations“ ir kitose „Dynamics 365“ programose.
 
-+ **Kitose „Dynamics 365“ programose vienetas priklauso vienetų grupei, kuri atitinka susietą vienetų klasę programose „Finance and Operations“**. Tokiu atveju laukas „msdyn_symbol“ kitose „Dynamics 365“ programose turi būti užpildytas vieneto simboliu iš programų „Finance and Operations“. Taip gretinant duomenis vienetų grupė kitose „Dynamics 365“ programose bus nustatyta kaip „Tvarkoma išorėje”.
++ **Kitose „Dynamics 365“ programose vienetas priklauso vienetų grupei, kuri atitinka susietą vienetų klasę programose „Finance and Operations“**. Tokiu atveju, stulpelis „msdyn_symbol“ kitose „Dynamics 365“ programose turi būti užpildytas vieneto simboliu iš „Finance and Operations“ programų. Taip gretinant duomenis vienetų grupė kitose „Dynamics 365“ programose bus nustatyta kaip „Tvarkoma išorėje”.
 + **Vienetas priklauso vienetų grupei kitose „Dynamics 365“ programose, kurios neatitinka susietos vienetų klasės programose „Finance and Operations“ (vienetų klasė neegzistuoja programose „Finance and Operations“, skirtose vienetų klasei kitose „Dynamics 365“ programose).** Tokiu atveju lauką msdyn_symbol reikia užpildyti atsitiktine eilute. Atkreipkite dėmesį, kad ši reikšmė kitose „Dynamics 365“ programose turi būti unikali.
 
 Jei vienetai ir vienetų klasės, esančios programose „Finance and Operations“, neegzistuoja kitose „Dynamics 365“ programose:
@@ -175,7 +177,7 @@ Kaip dvigubo rašymo funkcijos dalis, vienetų grupės, esančios „Finance and
 
 Skirta vienetams kitose „Dynamics 365“ programose, kurie neegzistuoja programose „Finance and Operations“.
 
-Lauką msdyn_symbol reikia užpildyti visuose vienetuose. Vienetus visada galima sukurti programose „Finance and Operations“, atitinkamoje vienetų klasėje (jei ji egzistuoja). Jei vieneto klasės nėra, pirmiausia reikia sukurti vienetų klasę (įsidėmėkite, kad vienetų klasės negalite sukurti „Finance and Operations“ programose, išskyrus atvejus, kai praplečiate išvardijimą), atitinkančią kitą „Dynamics 365“ programų vienetų grupę. Tada galite sukurti vienetą. Įsidėmėkite, kad vieneto simbolis programose „Finance and Operations“ turi būti „msdyn_symbol“, kuris nurodytas anksčiau kitose vieneto „Dynamics 365“ programose.
+Stulpelį „msdyn_symbol” reikia užpildyti visuose vienetuose. Vienetus visada galima sukurti programose „Finance and Operations“, atitinkamoje vienetų klasėje (jei ji egzistuoja). Jei vieneto klasės nėra, pirmiausia reikia sukurti vienetų klasę (įsidėmėkite, kad vienetų klasės negalite sukurti „Finance and Operations“ programose, išskyrus atvejus, kai praplečiate išvardijimą), atitinkančią kitą „Dynamics 365“ programų vienetų grupę. Tada galite sukurti vienetą. Įsidėmėkite, kad vieneto simbolis programose „Finance and Operations“ turi būti „msdyn_symbol“, kuris nurodytas anksčiau kitose vieneto „Dynamics 365“ programose.
 
 ## <a name="product-policies-dimension-tracking-and-storage-groups"></a>Produktų strategijos: dimensija, sekimas ir saugojimo grupės
 
@@ -202,7 +204,7 @@ Produktų strategijos yra strategijų rinkiniai, naudojami produktams apibrėžt
 
 Siekiant unikaliai identifikuoti „Dynamics 365 for Finance and Operations“ ir „Dataverse“ produktus, naudojami integravimo raktai. Tarnyboje „Dataverse“ produktas identifikuojamas unikaliu raktu **(productnumber)**. Jį sudaro jungtinis elementas **(company, msdyn_productnumber)**. **Įmonė** nurodo juridinį subjektą, esantį „Finance and Operations“, ir **„msdyn_productnumber“** nurodo konkretaus produkto „Finance and Operations“ produkto numerį. 
 
-Kitų „Dynamics 365“ programų vartotojams produktas vartotojo sąsajoje identifikuojamas kaip **msdyn_productnumber** (atkreipkite dėmesį, kad lauko žyma yra **Produkto numeris**). Produkto formoje rodoma ir company, ir msydn_productnumber. Tačiau laukas (productnumber) – unikalus produkto raktas – nerodomas. 
+Kitų „Dynamics 365“ programų vartotojams produktas vartotojo sąsajoje identifikuojamas kaip **msdyn_productnumber** (atkreipkite dėmesį, kad stulpelio žyma yra **Produkto numeris**). Produkto formoje rodoma ir company, ir msydn_productnumber. Tačiau stulpelis („productnumber”) – unikalus produkto raktas – nerodomas. 
 
 Jei kuriate programas, naudodami „Dataverse“, turėtumėte atkreipti dėmesį į **productnumber** (unikalaus produkto ID) naudojimą kaip integravimo kodą. Nenaudokite **msdyn_productnumber**, nes jis nėra unikalus. 
 
@@ -210,12 +212,12 @@ Jei kuriate programas, naudodami „Dataverse“, turėtumėte atkreipti dėmes�
 
 ### <a name="initial-synchronization-of-products"></a>Pradinis produktų sinchronizavimas 
 
-Kai įjungta dvigubo rašymo funkcija, „Finance and Operations“ programų produktai sinchronizuojami su „Dataverse“ ir kitomis modeliu paremtomis „Dynamics 365“ programomis. Produktai, kurie buvo sukurti „Dataverse“ ir kitose „Dynamics 365“ programose prieš išleidžiant dvigubą rašymą, nebus atnaujinti arba suderinti su „Finance and Operations“ programų produktų duomenimis.
+Kai įjungta dvigubo rašymo funkcija, „Finance and Operations“ programos yra sinchronizuojamos su „Dataverse“ ir „Customer Engagement” programomis. Produktai, kurie buvo sukurti „Dataverse“ ir kitose „Dynamics 365“ programose prieš išleidžiant dvigubą rašymą, nebus atnaujinti arba suderinti su „Finance and Operations“ programų produktų duomenimis.
 
 ### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Produkto duomenų suderinimas iš „Finance and Operations“ ir kitų „Dynamics 365“ programų.
 
-Jei „Finance and Operations“ ir „Dataverse“ bei kitose „Dynamics 365“ programose laikomi tie patys produktai (sutampa / atitinka), įgalinus dvigubo rašymo funkciją, susinchronizuojami produktai iš „Finance and Operations“, o įrašų kopijos atsiranda to paties produkto „Dataverse“.
-Jei kitose „Dynamics 365“ programose yra produktų, kurie sutampa / atitinka „Finance and Operations“, tada prieš produktų susinchronizavimą, dvigubo rašymo funkciją įgalinantis administratorius privalo perkrauti laukus **Įmonė** (pvz., „USMF“) ir **msdyn_productnumber** (pvz., „1234: Black:S“). Kitaip tariant, šiuos du „Dataverse“ produkto laukus reikia užpildyti atitinkamai „Finance and Operations“ įmonei, kuriai produktas turi būti suderintas su produkto numeriu. 
+Jei „Finance and Operations“ ir „Dataverse“ bei kitose „Dynamics 365“ programose laikomi tie patys produktai (sutampa / atitinka), įgalinus dvigubo rašymo funkciją, susinchronizuojami produktai iš „Finance and Operations“, o eilučių kopijos atsiranda „Dataverse“ tam pačiam produktui.
+Jei kitose „Dynamics 365“ programose yra produktų, kurie sutampa / atitinka „Finance and Operations“, tada prieš produktų susinchronizavimą, dvigubo rašymo funkciją įgalinantis administratorius privalo perkrauti stulpelius **Įmonė** (pavyzdžiui, „USMF“) ir **„msdyn_productnumber”** (pavyzdžiui, „1234: Black:S“). Kitaip tariant, šiuos du „Dataverse“ produkto stulpelius reikia užpildyti atitinkamai „Finance and Operations“ įmonei, kuriai produktas turi būti suderintas su produkto numeriu. 
 
 Kai vyksta sinchronizacija, „Finance and Operations“ produktai sinchronizuojami su suderintais „Dataverse“ ir kitose „Dynamics 365“ programose esančiais produktais. Tai taikoma ir išskirtiesiems produktams, ir produktų variantams. 
 
@@ -223,6 +225,3 @@ Kai vyksta sinchronizacija, „Finance and Operations“ produktai sinchronizuoj
 ### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>Produktų duomenų perkėlimas iš kitų „Dynamics 365“ programų į „Finance and Operations.“
 
 Jei kitose „Dynamics 365“ programose yra produktų, kurių nėra „Finance and Operations“, administratorius pirmiausia gali naudoti **EcoResReleasedProductCreationV2Entity**, importuodamas tuos produktus į „Finance and Operations“. Taip pat suderinkite „Finance and Operations“ ir kitų „Dynamics 365“ programų produktų duomenis, kaip aprašyta aukščiau. 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

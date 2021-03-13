@@ -1,8 +1,8 @@
 ---
-title: Funkcijų valdymas
+title: Valdyti funkcijas „Human Resources“
 description: Sužinokite, kaip įjungti arba išjungti naujas funkcijas programoje „Dynamics 365 Human Resources“.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d400604bf1b044de52457b3f7a6eb858220a1972
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419759"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113606"
 ---
-# <a name="manage-features"></a>Funkcijų valdymas
+# <a name="manage-features-in-human-resources"></a>Valdyti funkcijas „Human Resources“
 
 Mūsų nuolatinis naujų galimybių, skirtų „Microsoft Dynamics 365 Human Resources“, išleidimas apima norą leisti vartotojams kuo greičiau išbandyti naujas funkcijas. Teikiamos peržiūros funkcijos, kurios yra beveik paruoštos visuotinai pasiekti, ir kurioms jau buvo atlikta daug bandymų. Mes tiesiog laukiame galutinio klientų atsiliepimų etapo ir tikrinimo prieš jas bendrai išleisdami.
 
@@ -94,5 +94,3 @@ Neįtraukite asmeninių duomenų (bet kokios informacijos, kuri gali jus identif
 
 - [Kas nauja programoje „Human Resources“](hr-admin-whats-new.md)
 - [„Dynamics 365“ ir „Power Platform“ leidimo planas](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

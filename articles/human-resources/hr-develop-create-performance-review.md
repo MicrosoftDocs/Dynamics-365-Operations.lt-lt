@@ -2,7 +2,7 @@
 title: Našumo apžvalgų kūrimas
 description: Šioje temoje aiškinama, kaip sukurti efektyvumo vertinimą, ir paaiškinamas kiekvieno vertinimo skyriaus tikslas.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmEmployeeDevelopmentWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 99825dd580d617bb47b4f0ece784afbf6573ae8a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e83bcf60e494e6f04387727bedf41175faa07557
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419713"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115805"
 ---
 # <a name="create-performance-reviews"></a>Našumo apžvalgų kūrimas
 
@@ -78,6 +78,3 @@ ms.locfileid: "4419713"
 34. Pažymėkite skirtuką **Apžvalga**. Kadangi galima keisti vertinimo būsenas, darbuotojas ir vadovas gali įtraukti komentarų kiekvienam tikslui ar kompetencijai.  
 35. Pažymėkite skirtuką **Baigimo etapai**. Darbuotojas ir vadovas užbaigti vertinimą. Kai užbaigti visi privalomi baigimo etapai, būsena pakeičiama į **Užbaigta** ir daugiau negalima atlikti keitimų.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

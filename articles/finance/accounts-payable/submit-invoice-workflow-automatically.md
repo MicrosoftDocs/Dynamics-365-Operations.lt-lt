@@ -1,5 +1,5 @@
 ---
-title: Sąskaitų faktūrų pateikimas į darbo eigos sistemą ir produkto gavimo kvito eilučių sugretinimas (peržiūros versija)
+title: Sąskaitų faktūrų pateikimas darbo eigos sistemai ir produkto gavimo kvito eilučių sugretinimas
 description: Šioje temoje paaiškinama, kaip pateikti tiekėjo sąskaitas faktūras į darbo eigos sistemą ir automatiškai sugretinti užregistruotų produktų gavimo kvito eilutes su tiekėjo sąskaitomis faktūromis.
 author: abruer
 manager: AnnBe
@@ -11,23 +11,21 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cde164ee89b542d769d81d8d483049fb7ca001c4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 03c9f6752a0bb9641f67d65580aca18276e43e9a
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445835"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115661"
 ---
-# <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines-preview"></a>Sąskaitų faktūrų pateikimas į darbo eigos sistemą ir produkto gavimo kvito eilučių sugretinimas (peržiūros versija)
+# <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Sąskaitų faktūrų pateikimas darbo eigos sistemai ir produkto gavimo kvito eilučių sugretinimas
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šioje temoje paaiškinama, kaip pateikti tiekėjo sąskaitas faktūras į darbo eigos sistemą ir automatiškai sugretinti užregistruotų produktų gavimo kvito eilutes su tiekėjo sąskaitomis faktūromis.
 
@@ -47,13 +45,10 @@ Procesas bus vykdomas, kol sugretinto produkto gavimo kvito kiekis bus lygus SF 
 
 Sąskaitos faktūros eilutės, kurioms taikoma trišalė atitikimo strategija, kai sugretintas gautas kiekis yra mažesnis nei sąskaitoje faktūroje nurodytas kiekis, bus įtrauktos į automatizuoto sugretinimo su produkto gavimo kvitu procesą.
 
-Norėdami peržiūrėti **Paskutinis sugretinimas** būseną sąskaitų faktūrų, kurios nėra automatizuoto pateikimo darbo eigai proceso dalis, atidarykite sąskaitą faktūrą puslapyje **Tiekėjo sąskaitos faktūros**. Kai peržiūrite sąskaitą faktūrą, sutampanti patvirtinimo informacija yra atnaujinama.
+Norėdami peržiūrėti **Paskutinis sugretinimas** būseną sąskaitų faktūrų, kurios nėra automatizuoto pateikimo darbo eigai proceso dalis, atidarykite sąskaitą faktūrą puslapyje **Tiekėjo sąskaitos faktūros**. Kai peržiūrite sąskaitą faktūrą, sutampanti patvirtinimo informacija yra atnaujinama. Būsena **Paskutinis sutapimas** gali būti naujinama automatiškai naudojant **Patvirtinimo sąskaitos atitikimo** fono užduotį. Galite konfigūruoti automatinį procesą naujinant **Paskutinio atitikimo** būseną **Fono procesuose** skirtuke **Tvarkyti automatizavimus** puslapyje (**Sistemos administravimas\> Nustatymai\> Tvarkyti automatizavimus**).
 
 Sąskaitos faktūros eilutė bus pašalinta iš automatizuoto vykdymo, jei tenkinama kuri nors iš šių sąlygų:
 
 - Sąskaitos faktūros eilutės **Automatizuoto kvito sugretinimo būsena** vertė yra **Nepavyko**.
 - Sąskaita faktūra yra naudojama.
 - Sąskaita faktūra yra darbo eigos sistemoje.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

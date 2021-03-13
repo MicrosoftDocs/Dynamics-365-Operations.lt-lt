@@ -1,8 +1,8 @@
 ---
-title: Peržiūrėti
+title: Administravimo apžvalga
 description: Vadovaudamiesi šiuo administratoriaus vadovu galėsite nustatyti, valdyti programą „Dynamics 365 Human Resources“ bei šalinti jos gedimus.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 38a8845ec4ae4c61ea969efdee60a12cfb644a3b
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527866"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113616"
 ---
-# <a name="overview"></a>Peržiūrėti
+# <a name="administration-overview"></a>Administravimo apžvalga
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -41,7 +41,7 @@ Vadovaudamiesi šiuo administratoriaus vadovu galėsite nustatyti, valdyti progr
 
 - Duomenų integravimo nustatymas
   - [Duomenų integravimo technologijos pasirinkimas](hr-admin-integration-choose-technology.md)
-  - [„Common Data Service“ integravimo konfigūravimas](hr-admin-integration-common-data-service.md)
+  - [„Dataverse“ integravimo konfigūravimas](hr-admin-integration-common-data-service.md)
   - [Integravimo su „Finance“ konfigūravimas](hr-admin-integration-finance.md)
   - [Integravimo su „Dayforce“ konfigūravimas](hr-admin-integration-dayforce.md)
   - [Pasikartojančių duomenų eksportavimo programos kūrimas](hr-admin-integration-recurring-data-export.md)
@@ -102,5 +102,3 @@ Vadovaudamiesi šiuo administratoriaus vadovu galėsite nustatyti, valdyti progr
 - [Kas nauja ar pasikeitė programoje „Human Resources”](hr-admin-whats-new.md)
 - [Kūrėjo vadovas](hr-developer-overview.md)
 - [Vartotojo vadovas](hr-hrpro-overview.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

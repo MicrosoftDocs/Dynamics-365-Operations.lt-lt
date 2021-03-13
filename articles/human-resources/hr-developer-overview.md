@@ -1,8 +1,8 @@
 ---
-title: Peržiūra
+title: Kūrimo apžvalga
 description: Šiame kūrėjo vadove pateikiama API ir pasirinktinių laukų rekomendacija. Jame taip pat pateikiama informacija apie integravimą su kitomis programomis.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 010920cc84897dc5d2cfc008aa04544db6b08a73
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 517febd7967350956a28dfd9d11e4042456c7da0
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528322"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115395"
 ---
-# <a name="overview"></a>Peržiūra
+# <a name="development-overview"></a>Kūrimo apžvalga
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -35,13 +35,13 @@ ms.locfileid: "4528322"
 
 - [Išplėtimas su „Power Apps“ ir „Power Automate“](hr-developer-power-apps.md)
 
-- [„Human Resources“ objektai programoje „Common Data Service“](hr-developer-entities.md)
+- [„Human Resources“ objektai programoje „Dataverse“](hr-developer-entities.md)
 
 - [Pasirinktiniai laukai](hr-developer-custom-fields.md)
 
 - Duomenų integravimo sąranka
   - [Duomenų integravimo technologijos pasirinkimas](hr-admin-integration-choose-technology.md)
-  - [„Common Data Service“ integravimo konfigūravimas](hr-admin-integration-common-data-service.md)
+  - [„Dataverse“ integravimo konfigūravimas](hr-admin-integration-common-data-service.md)
   - [Integravimo su „Finance“ konfigūravimas](hr-admin-integration-finance.md)
   - [Integravimo su „Dayforce“ konfigūravimas](hr-admin-integration-dayforce.md)
   - [Pasikartojančių duomenų eksportavimo programos kūrimas](hr-admin-integration-recurring-data-export.md)
@@ -62,6 +62,3 @@ ms.locfileid: "4528322"
 - [Kas nauja ar pasikeitė programoje „Human Resources”](hr-admin-whats-new.md)
 - [Administratoriaus vadovas](hr-admin-overview.md)
 - [Vartotojo vadovas](hr-hrpro-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

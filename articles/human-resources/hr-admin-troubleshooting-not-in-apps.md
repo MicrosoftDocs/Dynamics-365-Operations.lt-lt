@@ -2,7 +2,7 @@
 title: „Human Resources“ nėra „Microsoft Dynamics 365“ programose
 description: Šiame straipsnyje aiškinama, ką daryti, jei klientas nemato programos „Dynamics 365 Human Resources“ tarp „Microsoft Dynamics 365“ programų.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cbf47b4673e1c97965bba7728e5669b7639c4d56
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d78199cf0e76ffd0676a26961a8e646938dc7333
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419698"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113601"
 ---
 # <a name="human-resources-doesnt-appear-in-microsoft-dynamics-365-apps"></a>„Human Resources“ nėra „Microsoft Dynamics 365“ programose
 
@@ -55,6 +55,3 @@ Vartotojas turi būti įtrauktas į „Microsoft Power Apps“ aplinkai skirtą 
     ![Sinchronizavimo mygtukas](media/get-more.png)
 
     Baigus sinchronizuoti, „Human Resources“ bus rodoma pagrindiniame puslapyje.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

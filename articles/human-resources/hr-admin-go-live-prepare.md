@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 59d7274c3b40e78209d90960c4514321b736876a
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: b4196532be8ad40bacb8d614c6b0c86215b00bdb
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4419795"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113513"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Rengimasis „Human Resources” įgyvendinimo pradžiai
 
@@ -53,28 +53,36 @@ Toliau pateiktoje lentelėje pateikiami visi proceso veiksmai, numatoma trukmė 
 
 ## <a name="completing-the-lcs-methodology"></a>LCS metodikos užbaigimas
 
-Pagrindinis kiekvieno įgyvendinimo projekto etapas yra perėjimas prie gamybos aplinkos. 
-
-Siekiant padėti užtikrinti, kad gamybos aplinka būtų naudojama atliekant įgyvendinimo operacijas, „Microsoft” konfigūruoja gamybos egzempliorių tik tada, kai įgyvendinimas artėja prie etapo **Vykdymas** ir kai reikiamos LCS metodikos veiklos yra užbaigtos. Daugiau informacijos apie jūsų prenumeratos aplinkas žr.  [„Dynamics 365” licencijavimo vadovas](https://go.microsoft.com/fwlink/?LinkId=866544). 
-
-Klientai turi užbaigti LCS metodikos etapus **Analizė**, **Kūrimas ir vystymas** ir **Testavimas** prieš atsirandant užklausos dėl gamybos aplinkos pateikimo mygtukui  **Konfigūruoti** . Norėdami baigti LCS etapą, pirmiausia turite užbaigti kiekvieną reikalingą to etapo veiksmą. Kai visi etapo veiksmai baigti, galite užbaigti visą etapą. Vėliau, jei reikia atlikti keitimus, galite bet kada iš naujo atidaryti etapą. Daugiau informacijos žr.  [„Lifecycle Services (LCS)“, skirtas „Finance and Operations“ programų klientams](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
-
-Veiksmo užbaigimo procesą sudaro dvi dalys: 
+Pagrindinis kiekvieno įgyvendinimo projekto etapas yra perėjimas prie gamybos aplinkos. Veiksmo užbaigimo procesą sudaro dvi dalys: 
 
 - Faktinio darbo, pvz., tinkamumo / trūkumų analizės arba vartotojo priėmimo testavimo (UAT), atlikimas. 
 - Atitinkamo LCS metodikos veiksmo pažymėjimas kaip baigtas. 
 
-Naudinga užbaigti metodikos veiksmus vykdant įgyvendinimą. Nelaukite iki paskutinės minutės. Negalima tiesiog spustelėti visų veiksmų, kad gamybos aplinka būtų gauta. Klientui naudinga turėti patikimą įgyvendinimą. 
+Naudinga užbaigti metodikos veiksmus vykdant įgyvendinimą. Nelaukite iki paskutinės minutės. Klientui naudinga turėti patikimą įgyvendinimą. 
 
 ## <a name="uat-for-your-solution"></a>Jūsų sprendimo UAT
 
 UAT etapo metu turite tikrinti visus jūsų įdiegtus verslo procesus ir atliktus tinkinimus įgyvendinimo projekto smėlio dėžės aplinkoje. Norėdami užtikrinti sėkmingą įgyvendinimą, turite atkreipti dėmesį į toliau pateiktą informaciją, baigdami UAT etapą. 
 
+- Rekomenduojame, kad jūsų UAT procesas prasidėtų su švaria ir šviežia aplinka, kurioje duomenys iš jūsų GOLD konfigūracijos būtų nukopijuoti į aplinką prieš UAT proceso pradžią. Rekomenduojame jums naudoti gamybos aplinką, nes jūsų GOLD aplinka iki jūsų paleidimo į internetą, į kurią taiko aplinka, tampa gamyba.
 - Testavimo atvejai apima visą reikalavimų aprėptį. 
 - Testuokite naudodami perkeltus duomenis. Šiuose duomenyse turi būti pagrindiniai duomenys, pvz., darbuotojai, užduotys ir pareigos. Taip pat įtraukite pradinius balansus, pvz., atostogų ir neatvykimų kaupimus. Galiausiai įtraukite atidarytas operacijas, pvz., dabartinių išmokų registravimus. Atlikite testavimą naudodami visų tipų duomenis, net jei duomenų rinkiniai nėra baigti. 
 - Testuokite naudodami teisingus saugos vaidmenis (numatytuosius ir pasirinktinius vaidmenis), priskirtus vartotojams. 
 - Įsitikinkite, kad sprendimas atitinka bet kokius konkrečios įmonės ir konkrečios pramonės šakos reglamentavimo reikalavimus. 
 - Dokumentuokite visas funkcijas ir gaukite kliento patvirtinimą bei išsiregistravimą. 
+
+## <a name="mock-go-live"></a>Netikras paleidimas į internetą
+
+Prieš jūsų paleidimą į internetą, turite atlikti netikrą paleidimą siekiant išbandyti žingsnius, kurių reikia nukirpti jūsų ankstesnę sistemą į naują sistemą. Turite atlikti savo netikrą paleidimą smėlio dėžės aplinkoje ir apimti visus žingsnius jūsų pjovimo plane.
+
+- Rekomenduojame jums naudoti gamybos aplinką kaip GOLD konfigūravimo aplinką iki paleidžiant į internetą.
+- Įsitikinkite, kad turite stiprų valdymo procesą siekiant apsaugoti gamybos aplinką nuo atsitiktinių transakcijų ar naujinimų prieš paleidimą į internetą.
+- Jums pasirengus atlikti UAT ar netikrą paleidimą į internetą, atnaujinkite smėlio dėžės aplinką iš gamybos aplinkos. Dėl daugiau informacijos, žr. [Kopijuoti elementą](hr-admin-setup-copy-instance.md).
+- Bandykite kiekvieną savo nupjovimo plano žingsnį smėlio dėžės aplinkoje ir tuomet patvirtinkite smėlio dėžės aplinką atlikdami vietų patikras ar atlikdami testus iš jūsų UAT scenarijų aplinkoje.
+  - Bandymai turi apimti visus duomenų perkėlimus, įskaitant transformacija, kurių reikia paleisti į internetą.
+  - Procesas turi apimti visų senų sistemų praktikos nupjovimą.
+  - Įsitikinkite, kad apėmėte visus integravimo nupjovimo žingsnius ar išorės sistemų žingsnius jūsų netikrame nupjovime.
+- Jei radote bet kokių problemų netikrame nupjovime, gali reikėti antro netikro nupjovimo. Dėl to, rekomenduojame suplanuoti du netikrus nupjovimus jūsų projekto plane.
 
 ## <a name="fasttrack-go-live-assessment"></a>„FastTrack” įgyvendinimo įvertinimas
 
@@ -91,5 +99,3 @@ Pateikus kontrolinį sąrašą, jūsų „FastTrack” sprendimų architektas pe
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 [DUK apie įgyvendinimo pradžią](hr-admin-go-live-faq.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

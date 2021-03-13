@@ -2,7 +2,7 @@
 title: Sistemos reikalavimai
 description: Šiame straipsnyje aprašomi „Microsoft Dynamics 365 Human Resources“ reikalavimai.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f68b8f642ada1345e7097b5e7220e222b132b1dd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1e7d7389c1bcf0f6024464e37b36d39efae5b832
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419752"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113530"
 ---
 # <a name="system-requirements"></a>Sistemos reikalavimai
 
@@ -64,6 +64,3 @@ Galite atsisiųsti „Human Resources“ palaikomų šalių, regionų ir kalbų 
 > Nors vartotojo sąsaja lokalizuojama į įvairias kalbas, visi vartotojo duomenys yra saugomi kalba, kuria jie buvo įvesti. Galite kurti el. laiškus ir šablonus kitomis kalbomis, bet tokie duomenys, kaip planavimo informacija, šiuo metu pasiekiami tik anglų kalba.
 
 Jei esate kūrėjas, ir norėtumėte kurti konkrečiai šaliai arba regionui skirtus tinkinimus arba sukurti sprendimą šaliai arba regionui, kurio šiuo metu „Microsoft“ nepalaiko, žr. [Globalizacija](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

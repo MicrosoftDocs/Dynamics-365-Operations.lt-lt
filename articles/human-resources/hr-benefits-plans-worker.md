@@ -2,7 +2,7 @@
 title: Darbininko išmokų planų kūrimas
 description: Galite sukurti darbininkų išmokų planus programoje „Microsoft Dynamics 365 Human Resources“, norėdami pasirinkti darbuotojams skirtus išmokų planus ir patvirtinti išmokų planų pasirinkimus.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0ebd19cba8dd7cac8ccf6d17d4206731be87a225
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2083d3b18621ec7759b658b5ec34f2371c2ea1df
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419671"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113596"
 ---
 # <a name="create-worker-benefit-plans"></a>Darbininko išmokų planų kūrimas
 
@@ -49,6 +49,3 @@ Galite sukurti darbininkų išmokų planus programoje „Microsoft Dynamics 365 
    | Planai | Sparčiajame skirtuke Planai pateikiami planai, atitinkantys nurodytus filtro kriterijus. Atitinkamos konfigūracijos parinktys, kurias nustatė HR darbuotojai ir registracijos pasirinkimai, kuriuos pasirinko darbuotojai, yra įtraukti į kiekvieną eilutę. Apibrėžtas laukas nurodo, ar yra tikrinimo nesutapimų dėl plano pasirinkimo. |
 
 4. Pasirinkite **Įrašyti**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

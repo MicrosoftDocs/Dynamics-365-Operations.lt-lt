@@ -2,7 +2,7 @@
 title: Tarifų konfigūravimas
 description: Tarifai programoje „Microsoft Dynamics 365 Human Resources“ nustato, kiek darbdaviai ir darbuotojai prisideda prie išmokos.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e397e20b6b6307349020c8dfd238b4b59eeca527
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0f5c2ce14f6a0ff830ce2645496a35fb98d6a6ab
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419744"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113538"
 ---
 # <a name="configure-rates"></a>Tarifų konfigūravimas
 
@@ -93,6 +93,3 @@ Taip pat galite naudoti dvigubas pakopas. Jeigu formoje **Tarifų sąranka** pas
    | **Lanksčiųjų kreditų tarifas, taikomas rūkantiesiems** | Lanksčiųjų kreditų, kuriuos kainuoja išmoka, skaičius, remiantis skaičiavimu, nustatytu rūkančiųjų pakopos lygyje. |
 
 5. Pasirinkite **Įrašyti**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

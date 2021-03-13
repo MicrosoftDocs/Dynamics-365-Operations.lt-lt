@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 4fda9d85b459d233e6239f3fcffbb48e596d4085
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527890"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113623"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Integravimas su „LinkedIn Talent Hub“
 
@@ -127,14 +127,14 @@ Reikia sukurti „LinkedIn Talent Hub” adapterio programos vartotoją, kad ada
     - **Pavadinimas**: įveskite „Power Apps” saugos vaidmens, kurį sukūrėte anksčiau, pavadinimą, pvz., **„LinkedIn Talent Hub” HRIS integravimas**.
     - **Vartotojo ID**: pasirinkite vartotoją, kuris turi teises įrašyti duomenis personalo valdyme.
 
-### <a name="create-the-entity-in-common-data-service"></a>Objekto kūrimas „Common Data Service”
+### <a name="create-the-table-in-dataverse"></a>Kurti lenteles „Dataverse“
 
 > [!IMPORTANT]
-> Integravimas su „LinkedIn Talent Hub” priklauso nuo virtualių objektų, esančių „Common Data Service”, skirtoje „Human Resources”. Būtina šio sąrankos veiksmo sąlyga yra sukonfigūruoti virtualius objektus. Informacijos apie tai, kaip konfigūruoti virtualius objektus, žr. [„Common Data Service” virtualių objektų konfigūravimas](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+> Integravimas su „LinkedIn Talent Hub“ priklauso nuo virtalių lentelių  Dataverse“ „Human Resources“. Kaip išankstines sąlygas šiam veiksmui nustatymuose, turite konfigūruoti virtualias lenteles. Dėl informacijos apie tai, kaip konfigūruoti virtualias lenteles, žr. [Konfigūruoti „Dataverse“ virtualias lenteles](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
 
-1. „Human Resources“ atidarykite puslapį **„Common Data Service“ (CDS) integravimas**.
+1. „Human Resources“, atverkite **„Dataverse“ integravimo** puslapį.
 
-2. Pasirinkite skirtuką **Virtualūs objektai**.
+2. Rinkitės **Virtualių lentelių** skirtuką.
 
 3. Filtruokite objektų sąrašą pagal objektų žymas, norėdami rasti **„LinkedIn” eksportuotas kandidatas**.
 
@@ -142,7 +142,7 @@ Reikia sukurti „LinkedIn Talent Hub” adapterio programos vartotoją, kad ada
 
 ## <a name="exporting-candidate-records"></a>Kandidatų įrašų eksportavimas
 
-Baigus sąranką, darbdaviai ir „Human resources” (HR) specialistai gali naudoti funkciją **Eksportuoti į HRIS**, esančią „LinkedIn Talent Hub”, norėdami eksportuoti pasamdyto kandidato įrašus iš „LinkedIn Talent Hub” į „Human Resources”.
+Užbaigus nustatymus, įdarbintojai ir žmogiškųjų išteklių (HR) darbuotojai gali naudoti **Eksportuoti į HRIS** funkciją „LinkedIn Talent Hub“ siekiant eksportuoti pasamdyto kandidato įrašus iš „LinkedIn Talent Hub“ į „Human Resources“.
 
 ### <a name="export-records-from-linkedin-talent-hub"></a>Įrašų eksportavimas iš „LinkedIn Talent Hub”
 
@@ -188,8 +188,5 @@ Toliau pateikta informacija importuojama ir įtraukiama į naują darbuotojo įr
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
-[„Common Data Service“ virtualių objektų konfigūravimas](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[Kas yra „Common Data Service“?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Konfigūruokite „Dataverse“ virtualias lenteles](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Kas yra „Microsoft Dataverse“?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)

@@ -2,7 +2,7 @@
 title: Kurti naują išmoką
 description: Ši užduotis parodys, kaip kurti išmokų elementus, kurie bus naudojami kuriant naują išmoką.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBenefitPlanLookup, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: f9618e62e33655bfc1a0653cb767abe0094d1e79
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2c64bd4eddab0de9db457c6d8d4464303917c438
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419677"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113526"
 ---
 # <a name="create-a-new-benefit"></a>Kurti naują išmoką
 
@@ -53,6 +53,3 @@ ms.locfileid: "4419677"
 6. Lauke Įsigalioja įveskite datą ir laiką.
 7. Spustelėkite Kurti išmoką.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

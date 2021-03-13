@@ -1,7 +1,7 @@
 ---
 title: Inventoriaus matomumo papildinys
 description: Ši tema aprašo, kaip įdiegti ir konfigūruoti inventoriaus matomumo papildinį „Dynamics 365 Supply Chain Management“.
-author: chuzheng
+author: sherry-zheng
 manager: tfehr
 ms.date: 10/26/2020
 ms.topic: article
@@ -10,28 +10,28 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 2976153a6a7e4b4130e8f7673ed128945aeabf65
-ms.sourcegitcommit: 03c2e1717b31e4c17ee7bb9004d2ba8cf379a036
+ms.openlocfilehash: 4e6f7e0a3978bbf7e520f8cbcfd27c4cfe507777
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4625070"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114675"
 ---
 # <a name="inventory-visibility-add-in"></a>Inventoriaus matomumo papildinys
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
+[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 Inventoriaus matomumo papildinys yra nepriklausomos ir labai išdidinamos mirkopaslaugos, kuriso įjungia realaus laiko turimo inventoriaus sekimą ir taip suteikia bendrą inventoriaus vaizdą.
 
 Visa informacija susijusi su turimu inventoriumi yra eksportuojama į paslaugas esančias šalia realaus laiko per žemo lygio SQL integravimą. Išorės sistemos prieiga prie paslaugų per RESTful API, kurios leidžia laukti turimos informacijos pagal turimą dimensijų rinkinį ir gauti esamų turimų padėčių sąrašą.
 
-Inventoriaus matomumas yra mikropaslaugos esančios „Common Data Service“, o tai reiškia, kad galite jas plėsti kurdami „Power Apps“ ir taikydami „Power BI“ norėdami tinkintų funkcijų, kurios atitiktų jūsų verslo reikalavimus. Taip pat galima pagerinti indeksavimą inventoriaus užklausoms.
+Inventoriaus matomumas yra mikrotarnyba, esanti „Microsoft Dataverse“, o tai reiškia, kad galite ją plėsti kurdami „Power Apps“ ir taikydami „Power BI“ norėdami tinkintų funkcijų, atitinkančių jūsų verslo reikalavimus. Taip pat galima pagerinti indeksavimą inventoriaus užklausoms.
 
 Inventoriaus matomumas suteikia konfigūravimo parinktis, kurios leidžia jį integruoti su keliomis trečiųjų šalių sistemomis. Jis palaiko standartizuotą inventoriaus dimensiją, tinkintą plėtinį ir standartizuotus ir konfigūruojamus skaičiuojamus kiekius.
 
@@ -78,30 +78,57 @@ Norėdami įdiegti inventoriaus matomumo papildinį, atlikite šiuos veiksmus:
 
 ### <a name="get-a-security-service-token"></a>Gaukite saugos paslaugų žymą
 
-Gaukite saugos paslaugų žymą atlikdami taip:
+Gaukite saugos paslaugų žymą atlikdami šiuos veiksmus:
 
-1. Gaukite savo `aadToken` ir skambinkite galutiniam taškui: https://securityservice.operations365.dynamics.com/token.
-1. Pakeiskite `client_assertion` tekste su savo `aadToken`.
-1. Pakeiskite kontekstą tekste su aplinka, kurioje norite talpinti papildinį.
-1. Pakeiskite teksto tikslą tokiu būdu:
+1. Prisijunkite prie „Azure” portalo ir naudokite jį rasti `clientId` ir `clientSecret` jūsų „Supply Chain Management” programai.
+1. Iškvieskite „Azure Active Directory” atpažinimo ženklą (`aadToken`) pateikdami HTTP užklausą su šiomis ypatybes:
+    - **„URL”** - `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+    - **Metodas** - `GET`
+    - **Teksto turinys (formos duomenys)**:
 
-    - Tikslas MCK - "https://inventoryservice.operations365.dynamics.cn/.default"  
-    (Galite rasti „Azure Active Directory“ programos ID ir nuomotojo ID skirtą MCK `appsettings.mck.json`.)
-    - Tikslas PROD - "https://inventoryservice.operations365.dynamics.com/.default"  
-    (Galite rasti „Azure Active Directory“ programos ID ir nuomotojo ID skirtą PROD `appsettings.prod.json`.)
+        | raktas | vertė |
+        | --- | --- |
+        | „client_id” | „${aadAppId}“ |
+        | „client_secret” | „${aadAppSecret}“ |
+        | „grant_type” | „client_credentials” |
+        | ištekliai | „0cdb527f-a8d1-4bf8-9436-b352c68682b2“ |
+1. Turėtumėte gauti `aadToken` kaip atsakymą, panašų į šį pavyzdį.
 
-    Rezultatas turi rodyti tolesnį pavyzdį.
+    ```json
+    {
+    "token_type": "Bearer",
+    "expires_in": "3599",
+    "ext_expires_in": "3599",
+    "expires_on": "1610466645",
+    "not_before": "1610462745",
+    "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+    "access_token": "eyJ0eX...8WQ"
+    }
+    ```
+
+1. Suformuluokite JSON užklausą, panašią į šią:
 
     ```json
     {
         "grant_type": "client_credentials",
         "client_assertion_type":"aad_app",
-        "client_assertion": "{**Your_AADToken**}",
-        "scope":"**https://inventoryservice.operations365.dynamics.com/.default**",
-        "context": "**5dbf6cc8-255e-4de2-8a25-2101cd5649b4**",
+        "client_assertion": "{Your_AADToken}",
+        "scope":"https://inventoryservice.operations365.dynamics.com/.default",
+        "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
         "context_type": "finops-env"
     }
     ```
+
+    Kur:
+    - Reikšmė `client_assertion` turi būti `aadToken`, kurį gavote ankstesniame veiksme.
+    - Reikšmė `context` turi būti aplinkos ID, kuriame norite diegti papildinį.
+    - Nustatykite visas kitas reikšmes, kaip parodyta pavyzdyje.
+
+1. Pateikite HTTP užklausą su šiomis ypatybes:
+    - **„URL”** - `https://securityservice.operations365.dynamics.com/token`
+    - **Metodas** - `POST`
+    - **HTTP antraštė** – įtraukite API versiją (raktas yra `Api-Version` ir reikšmė yra `1.0`)
+    - **Teksto turinys** – įtraukite JSON užklausą, kurią sukūrėte ankstesniu veiksmu.
 
 1. Gausite  `access_token` atsakyme. Dėl to jums reikia geresnės žymos siekiant iškviesti inventoriaus papildinio API. Toliau pateikiamas pavyzdys.
 
@@ -500,6 +527,3 @@ Laukimas rodomas ankstesniuose pavyzdžiuose gali grįžti kaip rezultatas.
 ```
 
 Pastebėkite, kad kiekių laukeliai yra struktūruoti kaip priemonių žodynas ir su jomis susijusios vertės.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

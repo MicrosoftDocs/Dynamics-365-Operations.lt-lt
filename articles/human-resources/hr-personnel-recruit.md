@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9a35abcb8a2f6aa8031c8d84a44c2a8ad93883ac
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: f615584785ba48a140e4e97991a4594047fea8ee
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669181"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113481"
 ---
 # <a name="recruit-job-candidates"></a>Įdarbinti darbo kandidatai
 
@@ -38,7 +38,7 @@ ms.locfileid: "4669181"
 Jei nenaudojate atskiros įdarbinimo parašikos, galite taip pat rankiniu būdu valdyti kandidatus žmogiškuosiuose ištekliuose.
 
 >[!NOTE]
->Jei esate administratorius ar kūrėjas ir norite integruoti žmogiškiuosius išteklius su trečiosios šalies įdarbinimo paraiška, žr. [Konfigūruoti „Common Data Service“ integravimą](hr-admin-integration-common-data-service.md) and [Configure Common Data Service virtual entities](hr-admin-integration-common-data-service-virtual-entities.md)
+>Jei esate administratorius ar kūrėjas ir norite integruoti „Human Resources“ su trečiosios šalies įdarbinimo programa, žr. [Konfigūruoti „Dataverse“ integravimą](hr-admin-integration-common-data-service.md) ir [Konfigūruoti „Dataverse“ virtualias lenteles](hr-admin-integration-common-data-service-virtual-entities.md)
 >
 > Galite taip pat surasti įdarbinimo integravimo programas [„AppSource“](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics).
 >
@@ -46,15 +46,13 @@ Jei nenaudojate atskiros įdarbinimo parašikos, galite taip pat rankiniu būdu 
 
 ## <a name="enable-recruiting-requests"></a>Įjungti įdarbinimo užklausas
 
-Jei norite pateikti įdarbinimo užklausas žmogiškuosiuos ištekliuose, pirma turite įjungti funkciją **Žmogiškųjų išteklių parametruose**.
+Jei norite pateikti įdarbinimo užklausas „Human Resources“, pirmiausia turite įjungti funkcijas **Žmogiškųjų išteklių bendrintuose parametruose**.
 
 1. Darbo erdvėje **Personalo valdymas** rinkitės **Nuorodos**.
 
-2. Dalyje **Sąranka** pasirinkite **Žmogiškųjų išteklių parametrai**.
+2. Skyriuje **Nustatymai**, Rinkitės **žmogiškųjų išteklių bendrinti parametrai**.
 
-3. Skirtuke **Bendri** skyriuje **ĮDARBINIMAS**, nustatykite **Įjungti įdarbinimo užklausas** į **Taip**.
-
-   ![Įjungti įdarbinimo užklausas](./media/hr-recruit-0-enable-requests.png)
+3. Skirtuke **Įdarbinimas** skyriuje **ĮDARBINIMAS**, nustatykite **Įjungti įdarbinimo užklausas** į **Taip**.
 
 ## <a name="add-a-recruiting-request-location"></a>Įtrauktei įdarbinimo užklausos vietą
 
@@ -224,8 +222,6 @@ Jei reikia, galite atmesti kandidatą po jo pasamdymo. Pavyzdžiui, kandidatas g
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
-[„Common Data Service“ virtualių objektų konfigūravimas](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Konfigūruokite „Dataverse“ virtualias lenteles](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Darbo jėgos organizavimas](hr-personnel-departments-jobs-positions.md)<br>
 [Užduoties komponentų nustatymas](hr-personnel-jobs.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
