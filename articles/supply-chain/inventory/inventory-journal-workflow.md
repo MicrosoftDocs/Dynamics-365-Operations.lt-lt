@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventJournalTableWorkflowDropDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 623c628f3359efc1f76e1d06387905f981deca0b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d9f57d35adac0820d0635ab97a4cb4cefc1d504c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433351"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011677"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Atsargų žurnalų patvirtinimo darbo eigos
 
@@ -31,6 +30,13 @@ ms.locfileid: "4433351"
 
 > [!NOTE]
 > Atsargų žurnalo darbo srautai taikomi tik perlaidoms įrašytoms naudojant atsargų tvarkymo modulį. Jie neveikia su atsargų žurnalais, kurie yra sukurti iš atsargų valdymo modulio.
+
+## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Atsargų žurnalų patvirtinimo darbo eigos funkcijos įjungimas
+
+Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+
+- **Modulis:** *Atsargų ir sandėlio valdymas*
+- **Funkcijos pavadinimas:** *Atsargų žurnalo patvirtinimo darbo eiga*
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>Sukurkite savo atsargų žurnalo tvirtinimo darbo srautus
 
@@ -89,7 +95,7 @@ Tam, kad atšauktumėte patvirtinimo prašymą, atidarykite atitinkamą žurnal�
 
 Kai jūsų žurnalas yra patvirtintas, galėsite jį publikuoti. Žurnalo publikavimui, pasirinkite **Publikuoti** veiksmų juostoje. Jei **Publikuoti** mygtukas nėra aktyvus, žurnalas dar nėra patvirtintas.
 
-## <a name="respond-to-an-inventory-journal-approval-request"></a>Atsakykite į atsargų žurnalo patvirtinimo užklausą 
+## <a name="respond-to-an-inventory-journal-approval-request"></a>Atsakykite į atsargų žurnalo patvirtinimo užklausą
 
 Jei esate tvirtintojas, turėtumėte gauti žinutę kas kartą, kai jūsų tvirtinimas yra reikalingas (kaip sukonfigūruota atitinkamame darbo sraute). Tuomet galite patvirtinti ar atmesti žurnalo patvirtinimo užklausą atlikdami šiuos veiksmus:
 
@@ -112,6 +118,3 @@ Tam, kad peržiūrėtumėte žurnalo darbo srauto istoriją:
 1. Naršymo juostoje, išplėskite **Atsargų valdymas \> Žurnalo įrašai \> Elementai** ir tuomet pasirinkite atsargų žurnalo tipą.
 1. Atidarykite atitinkamą žurnalą.
 1. Pasirinkite **Darbo srauto** mygtuką veiksmų juostoje, kurią norite atidaryti iškrentančiame teksto lauke. Pasirinkite **Darbo srauto**. - Norėdami gauti daugiau informacijos, žr. [Peržiūrėti darbo srauto istoriją](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

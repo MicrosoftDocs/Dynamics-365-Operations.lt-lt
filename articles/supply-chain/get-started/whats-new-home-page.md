@@ -3,26 +3,25 @@ title: Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“
 description: Šioje temoje nurodomos temos, kuriose aprašomos naujos ir pakeistos funkcijos kiekviename „Dynamics 365 Supply Chain Management“ leidime.
 author: kamaybac
 manager: tfehr
-ms.date: 07/23/2020
+ms.date: 12/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 77649e310be218fdea8578e974885101c5587722
-ms.sourcegitcommit: 0eb33909a419d526eb84b4e4b64d3595d01731ef
+ms.openlocfilehash: 3350afc5f9537a0bd97b9c5257a66039b9dcb55c
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700986"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014563"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“
 
@@ -34,6 +33,7 @@ Norėdami sužinoti, kas nauja ar pasikeitė kiekviename „Dynamics 365 Supply 
 
 | Versija | Versijos numeris | Automatinių naujinimų pasiekiamumas | Sužinokite daugiau |
 |---|---|---|---|
+| 10.0.16 | 10.0.689 | 2021 m. vasario mėn. | [Kas naujo ar pasikeitusio „Dynamics 365 Supply Chain Management“ versijoje 10.0.16](whats-new-scm-10-0-16.md) |
 | 10.0.15 | 10.0.644 | Sausio 2021 d. | [Kas naujo ar pasikeitusio „Dynamics 365 Supply Chain Management“ versijoje 10.0.15](whats-new-scm-10-0-15.md) |
 | 10.0.14 | 10.0.605 | 2020 m. lapkričio mėn. | [Kas naujo ar pasikeitusio „Dynamics 365 Supply Chain Management“ versijoje 10.0.14](whats-new-scm-10-0-14.md) |
 | 10.0.13 | 10.0.569 | 2020 m. spalio mėn. | [Kas naujo ar pasikeitusio „Dynamics 365 Supply Chain Management“ versijoje 10.0.13](whats-new-scm-10-0-13.md) |
@@ -67,6 +67,3 @@ Norėdami sužinoti, kas nauja ar pasikeitė leidimuose iki 2019 m. lapkričio m
 | „Microsoft Dynamics 365 for Operations“                                 | 1611        | 7.1.1541.3036    | 2016 m. lapkričio mėn.    | [Kas nauja ar pasikeitė „Dynamics 365 for Operations“ 1611 versijoje (2016 m. lapkričio mėn.)](../../fin-ops-core/fin-ops/get-started/whats-new-dynamics-365-operations-1611.md)                |
 | „Microsoft Dynamics AX“                                                 | 7.0.1       | 7.0.1265.23014   | 2016 m. gegužės mėn.         | [Kas nauja ar pasikeitė „Dynamics AX“ 7.0.1 versijoje (2016 m. gegužės mėn.)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-application-version-7-0-1-may-2016.md)          |
 | „Microsoft Dynamics AX“                                                 | 7.0         | 7.0.1265.3015    | 2016 m. vasario mėn.    | [Kas nauja ar pasikeitė programoje „Dynamics AX 7.0“ (2016 m. vasario mėn.)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-7-0-february-2016.md)                                            |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

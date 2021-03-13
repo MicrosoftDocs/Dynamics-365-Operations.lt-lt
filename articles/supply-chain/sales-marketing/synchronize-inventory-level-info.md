@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,16 +18,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 1228339c12d26f7b91875d15f0daa8da2869cba0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 828dd1324c2692b7b3f4bc15c5e50b3dbee8b72c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433476"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010927"
 ---
 # <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>Tiekimo grandinės valdymo atsargų lygio informacijos sinchronizavimas su „Field Service“ 
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami sinchronizuojant „Dynamics 365 Supply Chain Management“ atsargų lygio informaciją su „Dynamics 365 Field Service“.
 
@@ -51,7 +52,7 @@ Prieš sinchronizuojant atsargų lygius būtina atlikti toliau nurodytas sinchro
 
 | „Field Service“                      | Tiekimo grandinės valdymas                |
 |------------------------------------|----------------------------------------|
-| msdynce_externalproductinventories | CDS turimos atsargos pagal sandėlį     |
+| msdynce_externalproductinventories | Turimos „Dataverse” atsargos sandėlyje     |
 
 ## <a name="entity-flow"></a>Objekto srautas
 Atsargų lygio informacija iš „Finance and Operations“ siunčiama į pasirinktų produktų „Field Service“. Atsargų lygio informacija apima 
@@ -91,6 +92,3 @@ Galite taikyti filtrus su išplėstine užklausa ir filtravimu, norėdami kontro
 ### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>Produktų atsargos (iš Tiekimo grandinės valdymo į „Field Service“): produktų atsargos
 
 [![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

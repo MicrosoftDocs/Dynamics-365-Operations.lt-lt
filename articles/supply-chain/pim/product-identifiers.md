@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c16818f1dc52c9e21130539213e7e8d1053fef1d
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f28193f9671bcae1345d5c1085ea3f2446e6e088
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529191"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011376"
 ---
 # <a name="product-identifiers"></a>Produkto identifikatoriai
 
@@ -44,7 +43,7 @@ Daugeliu atvejų produkto numerio „Dynamics 365 Supply Chain Management“ iš
 
 Tiekimo grandinės valdymo diegimo metu produktų numerių strategiją reikia ypač gerai apsvarstyti. Gera numeravimo sistema pagerina logistikos srautus ir padeda išvengti klaidų. Geras produkto identifikatorius turi būti sudarytas iš ne daugiau kaip 15 simbolių. Geriausia, jei jis būtų sudarytas iš mažiau nei 10 ir ne daugiau kaip penkių klasifikavimo simbolių. Norėdami įgalinti sparčiąsias ieškas, taip pat galite naudoti ieškos pavadinimus. Ieškos pavadinimas – tai papildomas pavadinimas, kuriuo nurodomos produkto klasifikacijos.
 
-Naudojant „Common Data Service“, produkto numeris Tiekimo grandinės valdyme taip pat yra produkto numeris „Common Data Service“. Produkto variantai su „Common Data Service“ sinchronizuojami kaip skirtingi produktai.
+Naudojant „Microsoft Dataverse“, produkto numeris „Supply Chain Management” taip pat yra produkto numeris „Microsoft Dataverse“. Produkto variantai su „Dataverse“ sinchronizuojami kaip išskirtieji produktai.
 
 ## <a name="item-number-and-product-dimensions"></a>Prekės numeris ir produkto dimensijos
 
@@ -167,7 +166,7 @@ Toliau esančioje lentelėje pateikiama importavimo ir neautomatinio kūrimo, ka
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Produkto subjekto identifikatorius (visų produkto identifikatorių eksportavimas)
 
-Produkto subjekto identifikatorius modelis sukurtas, siekiant įjungti CDS versijos 1.0 konfigūravimą su visais identifikatoriais, naudojamais produktui įvardyti. Siekiant palengvinti šią užduotį, visi identifikatoriai sujungti į vieną bendrą identifikatorių lentelę, kad juos būtų galima eksportuoti kaip vieną modelį. Atkreipkite dėmesį, kad šioje CDS versijoje nenaudojamas produkto identifikatorių modelis. Dėl šios priežasties subjektas **Produkto subjekto „Common Data Service“ identifikatoriaus subjektas** ir šis procesas praktiškai bus naudojamas labai ribotai, o ateityje jokių galimų keitimų nenumatyta.
+Produkto objekto identifikatoriaus modelis sukurtas siekiant įjungti 1.0 versijos „Dataverse” konfigūravimą su visais identifikatoriais, naudojamais produktui įvardyti. Siekiant palengvinti šią užduotį, visi identifikatoriai sujungti į vieną bendrą identifikatorių lentelę, kad juos būtų galima eksportuoti kaip vieną modelį. Atkreipkite dėmesį, kad šioje „Dataverse” versijoje nenaudojamas produkto identifikatorių modelis. Dėl šios priežasties subjektas **Produkto subjekto „Common Data Service“ identifikatoriaus subjektas** ir šis procesas praktiškai bus naudojamas labai ribotai, o ateityje jokių galimų keitimų nenumatyta.
 
 Produkto identifikatorių lentelė yra bendroji, t. y. yra sukurta remiantis visomis pagrindinio juridinio subjekto nuorodų lentelėmis, atlikus pasikartojančią paketinę užduotį. Kaip visuotinio bendrojo produkto aprėpties apibrėžimą turite pasirinkti juridinį subjektą ir produktų kategorijų hierarchiją. Bendrosios produkto identifikatorių lentelės generavimas yra ribojamas produktams, išleistiems pagal pasirinktą juridinį subjektą, ir produktams, kurie priklauso produkto hierarchijai, kategorijų hierarchijoje parinktai pagal **„Common Data Service“** priskirtą vaidmenį.
 
@@ -175,7 +174,7 @@ Atliekant šį procesą manoma, kad produkto bendrieji duomenys pirmiausia tvark
 
 Atlikite šiuos veiksmus, norėdami sukonfigūruoti aplinką.
 
-1. Pasirinkite CDS kategorijų hierarchiją. Jei puslapyje **Kategorijų hierarchijos vaidmenų susiejimai** su vaidmeniu **„Common Data Service“** nesusieta jokia hierarchija, turite sukurti naują susiejimą. Pasirinkite vaidmenį **„Common Data Service“**, tada susiekite kategorijų hierarchiją, atspindinčią produktų portfelį, kurį reikia sinchronizuoti su CDS.
+1. Pasirinkite „Dataverse” kategorijų hierarchiją. Jei puslapyje **Kategorijų hierarchijos vaidmenų susiejimai** su vaidmeniu **„Common Data Service“** nesusieta jokia hierarchija, turite sukurti naują susiejimą. Pasirinkite **„Common Data Service“** vaidmenį ir tada susiekite kategorijų hierarchiją, atspindinčią produktų portfelį, kurį reikia sinchronizuoti su „Dataverse”.
 2. Pasirinkite visuotinio produkto bendrųjų duomenų juridinį subjektą. Puslapyje **Produkto informacijos valdymo parametrai** pateikiamame skirtuke **Produkto atributai** pasirinkite bendrąją įmonę, kurioje pirmiausia tvarkomas produktas ir prekės identifikatoriai.
 3. Nustatykite identifikatorius kodų tipus ir kodus, kuriuos norite eksportuoti. Eikite į parinktį **Produktų informacijos valdymas** &gt; **Sąranka** &gt; **Produkto identifikatoriaus kodai**. Norėdami sugeneruoti identifikatorius kodų tipus, pasirinkite **Generuoti kodus**. Kiekvienam identifikatoriui, randamam pasirinktame juridiniame subjekte, bus sugeneruota kodo tipo įvestis.
 
@@ -190,6 +189,3 @@ Dabar identifikatoriams iš bet kurios paskirties sistemos eksportuoti galite na
 ## <a name="related-topic"></a>Susijusi tema
 
 [Ieškoti produktų ir produkto variantų įvedant užsakymą](search-products-product-variants.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

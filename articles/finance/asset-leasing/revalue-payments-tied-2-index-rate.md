@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 83684afbd5e11b890a59bc1469ddefffd1777c4e
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 2cbe54ad92aff2f8a85e47301635fe4b6819e9a7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4446184"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012066"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>Nuomos mokesčių, susietų su indeksuojama palūkanų norma, pervertinimas
 
@@ -68,6 +67,3 @@ Norėdami peržiūrėti nuomos perkainojimo proceso įtaką IFRS 16 nuomai, atsi
 Galite peržiūrėti naujai sugeneruotą įmokų grafiką, kuris pradedamas skaičiuoti nuo perkainojimo datos, ir rodyti visą atnaujintą apmokėjimo sumą. Taip pat sukurtas naujas nuomos įsipareigojimų amortizavimo grafikas ir turto nusidėvėjimo grafikas, siekiant atsižvelgti į pakoreguotą mokėjimo grafiką.
 
 Žurnalo įrašas automatiškai užregistruoja derinimo žurnalo įrašą, skirtą pakeisti nuomos mokėjimus, susietus su indekso perkainojimu.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

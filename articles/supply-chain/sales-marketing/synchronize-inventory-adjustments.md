@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,16 +18,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: ff64f28af570b792f73b51aa9caf06dd2445b2ca
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a598f0356034a22ee7fc0902360b8862a1944558
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433478"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010977"
 ---
 # <a name="synchronize-inventory-transfers-and-adjustments-from-field-service-to-supply-chain-management"></a>„Field Service“ atsargų perkėlimo ir koregavimo sinchronizavimas su Tiekimo grandinės valdymu
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami sinchronizuojant „Dynamics 365 Supply Chain Management“ atsargų koregavimą ir perkėlimą su „Dynamics 365 Field Service“.
 
@@ -45,27 +46,27 @@ Toliau pateiktas šablonas ir pagrindinės užduotys yra naudojami sinchronizuoj
 - Atsargų koregavimas
 - Atsargų perkėlimas
 
-## <a name="entity-set"></a>Objektų rinkinys
-| „Field Service“                     | Tiekimo grandinės valdymas                          |
+## <a name="table-set"></a>Lentelės rinkinys
+| „Field service“                     | Tiekimo grandinės valdymas                          |
 |-----------------------------------|----------------------------------------------------|
-| msdyn_inventoryadjustmentproducts |   CDS atsargų koregavimo žurnalo antraštės ir eilutės |
-| msdyn_inventoryadjustmentproducts | CDS atsargų perkėlimo žurnalo antraštės ir eilutės   |
+| msdyn_inventoryadjustmentproducts | „Dataverse” atsargų koregavimo žurnalo antraštės ir eilutės |
+| msdyn_inventoryadjustmentproducts | „Dataverse” atsargų perkėlimo žurnalo antraštės ir eilutės   |
 
-## <a name="entity-flow"></a>Objekto srautas
+## <a name="table-flow"></a>Lentelių srautas
 „Field Service“ atliktas atsargų koregavimas ir perkėlimas sinchronizuojamas su Tiekimo grandinės valdymu, kai **Registruoti būseną** pasikeičia iš **Sukurta** į **Užregistruota**. Tokiu atveju koregavimo arba perkėlimo užsakymas užrakinamas ir tampa tik skaitomas. Tai reiškia, kad koregavimas ir perkėlimas gali būti registruojami Tiekimo grandinės valdyme, bet jų modifikuoti negalima. Tiekimo grandinės valdyme galite nustatyti paketinę užduotį automatiškai registruoti koregavimą ir perkelti atsargų žurnalus, sugeneruotus atliekant integravimą. Išsamesnės būtinos informacijos apie tai, kaip įgalinti paketinę užduotį, žr. toliau.
 
 ## <a name="field-service-crm-solution"></a>„Field Service“ CRM sprendimas 
-Laukas **Atsargų vienetas** įtrauktas į objektą **Produktas**. Šis laukas reikalingas, nes pardavimo ir atsargų vienetas Tiekimo grandinės valdyme ne visada yra tas pats, o atsargų vienetas reikalingas naudojant sandėlio atsargas Tiekimo grandinės valdyme.
-Nustatant į atsargų koregavimo produktą įtrauktą produktą, skirtą atsargų koregavimui ir atsargų perkėlimui, vieneto bus ieškoma pagal produktų atsargų produkto reikšmę. Jei nustatoma vertė, atsargų koregavimo produkto laukas **Vienetas** užrakinamas.
+Stulpelis **Atsargų vienetas** įtrauktas į lentelę **Produktas**. Šis stulpelis reikalingas, nes Pardavimo ir atsargų vienetas „Supply Chain Management” ne visada yra tas pats, o Atsargų vienetas reikalingas naudojant Sandėlio atsargas „Supply Chain Management”.
+Nustatant į atsargų koregavimo produktą įtrauktą produktą, skirtą atsargų koregavimui ir atsargų perkėlimui, vieneto bus ieškoma pagal produktų atsargų produkto reikšmę. Jei vertė randama, stulpelis **Vienetas** bus užrakintas ties Atsargų koregavimo produktu.
 
-Laukas **Registruoti būseną** įtraukiamas į objektą **Atsargų koregavimas** ir į objektą **Atsargų perkėlimas**. Šis laukas naudojamas kaip filtras siunčiant koregavimą ar perkėlimą į Tiekimo grandinės valdymą. Numatytoji šio lauko reikšmė yra Sukurta (1), tačiau ji nėra siunčiama į Tiekimo grandinės valdymą. Kai atnaujinate reikšmę į Užregistruota (2), ji siunčiama į Tiekimo grandinės valdymą, tačiau po to nebegalėsite atlikti jokių koregavimo ar perkėlimo keitimų arba įtraukti naujų eilučių.
+Stulpelis **Paskelbti būseną** įtraukiamas į lentelę **Atsargų koregavimas** ir į lentelę **Atsargų perkėlimas**. Šis stulpelis naudojamas kaip filtras siunčiant koregavimą ar perkėlimą į „Supply Chain Management”. Numatytoji šio stulpelio vertė yra Sukurta (1), tačiau ji nėra siunčiama į „Supply Chain Management”. Kai atnaujinate reikšmę į Užregistruota (2), ji siunčiama į Tiekimo grandinės valdymą, tačiau po to nebegalėsite atlikti jokių koregavimo ar perkėlimo keitimų arba įtraukti naujų eilučių.
 
-Laukas **Numeracija** įtrauktas į objektą **Atsargų koregavimo produktas**. Šis laukas užtikrina, kad integravimui būtų priskirtas unikalus numeris ir integravimas galėtų kurti bei atnaujinti koregavimą. Kuriant pirmąjį atsargų koregavimo produktą, sukuriamas naujas įrašas objekte **P2C automatinė numeracija**, kad būtų palaikoma numerių serija ir naudojamas prefiksas.
+Stulpelis **Numeracija** įtrauktas į lentelę **Atsargų koregavimo produktas**. Šis stulpelis užtikrina, kad integravimui būtų priskirtas unikalus numeris ir integravimas galėtų kurti bei atnaujinti koregavimą. Kuriant pirmąjį atsargų koregavimo produktą, sukuriamas naujas įrašas lentelėje **P2C automatinė numeracija**, kad būtų palaikoma numerių serija ir naudojamas prefiksas.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Būtinosios sąlygos ir susiejimo sąranka
 
 ### <a name="supply-chain-management"></a>Tiekimo grandinės valdymas
-Integravimo sugeneruotus integravimo atsargų žurnalus galima automatiškai registruoti naudojant paketinę užduotį. Tai įgalinama iš: **Atsargų valdymas > Periodinės užduotys > CDS integravimas > Registruoti integravimo atsargų žurnalus**.
+Integravimo sugeneruotus integravimo atsargų žurnalus galima automatiškai registruoti naudojant paketinę užduotį. Tai įgalinama **Atsargų tvarkymas > Periodinės užduotys > „Dataverse” integravimas > Atsargų žurnalai po integracijos**.
 
 ## <a name="template-mapping-in-data-integration"></a>Šablono susiejimas naudojant funkcija Duomenų integravimas
 
@@ -79,6 +80,3 @@ Toliau pateiktose iliustracijose vaizduojamas šablono susiejimas naudojant funk
 ### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>Atsargų perkėlimas (iš „Field Service“ į Tiekimo grandinės valdymą): atsargų perkėlimas
 
 [![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSTrans1.png)](./media/FSTrans1.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

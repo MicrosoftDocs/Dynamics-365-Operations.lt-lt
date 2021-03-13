@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 9d01c577fc33564d3517d242e9b01f73cc8e079c
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f045b9686bbdfcf3e82f5158f0fd28860354b7d7
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433978"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014488"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Sandėlio valdymo turimų įrašų valymo užduotis
 
@@ -50,7 +49,12 @@ Kai užduotis vykdoma, jos vykdymo dydis yra 100. Kitaip tariant, ji bus vykdoma
 
 ## <a name="possible-user-impact"></a>Galimas poveikis vartotojams
 
-Vartotojai gali pajusti poveikį, jei turimų įrašų valymo užduotis panaikina visus nurodyto lygio įrašus (pvz., numerio lentelės lygį). Tokiu atveju numerio lentelės atsargos gali būti nerodomos kaip numatyta, nes atitinkamų turimi įrašų nebėra. (Ši funkcija patikrina sąlygą **Kiekis \<\> 0** **Dimensijos rodinio** parametruose, kai vartotojai peržiūri turimą informaciją.) Tačiau našumo pagerėjimas, kurį suteikia valymo užduotis, turėtų kompensuoti šį nežymų funkcionalumo praradimą.
+Vartotojai gali pajusti poveikį, jei turimų įrašų valymo užduotis panaikina visus nurodyto lygio įrašus (pvz., numerio lentelės lygį). Tokiu atveju turimos atsargos numerio lentelėje gali būti nerodomos kaip tikimasi, nes atitinkamų turimų atsargų įrašų nebėra. Taip, pavyzdžiui, gali nutikti šiose situacijose:
+
+- Kai vartotojas **Turimo kiekio sąraše**, atšaukia sąlygos **Kiekis \<\> „0”** pasirinkimą arba pasirenka **Uždarytos operacijos** sąlygą, esančią **Dimensijų rodymas** parametruose.
+- Ataskaitoje **Faktinės atsargos pagal atsargų dimensiją** apie praėjusius laikotarpius, kai vartotojas nustato **Iki datos** parametrą.
+
+Tačiau efektyvumo patobulinimas, kurį suteikia valymo užduotis, turėtų padengti šiuos smulkius funkcionalumo nuostolius.
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>Maksimalaus vykdymo laiko parametro įgalinimas
 
@@ -58,6 +62,3 @@ Pagal numatytuosius nustatymus **Maksimalaus vykdymo laiko** parametras yra nepa
 
 - **Modulis:** *sandėlio valdymas*
 - **Funkcijos pavadinimas:** *maksimalus vykdymo laikas sandėlio valdymo turimų įrašų valymo užduočiai*
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

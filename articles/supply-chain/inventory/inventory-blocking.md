@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventBlocking, InventQualityOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2094
 ms.assetid: 1968e32f-eff9-4c17-8f7f-a870f0c38fbc
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8807756f16a08f9818f998ce19a8088c7dd37405
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 646ddc231b1ee25b13fdeb779b2bbeae6dd8c2a9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433663"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011602"
 ---
 # <a name="inventory-blocking"></a>Atsargų blokavimas
 
@@ -58,7 +57,7 @@ Jei kokybės procese nurodyta, kad prekę reikia patikrinti, prekių kiekis blok
 | Kokybės susiejimas nurodo, kad reikia sugeneruoti kokybės užsakymą, kai registruojamas pirkimo užsakymo važtaraštis. Kokybės užsakymo prekių pavyzdžių ėmimo nustatymas nurodo, kad turi būti tikrinama 10 procentų pirkimo užsakymo eilutės kiekio. Be to, kadangi pavyzdžių ėmimo nustatyme pasirinkta parinktis **Visiškas blokavimas**, per patikrinimą turi būti užblokuotas visas pirkimo užsakymo eilutės kiekis, neatsižvelgiant į tikrinimui siunčiamą kiekį. | Važtaraštis užregistruotas. | Sugeneruotas kokybės užsakymas. Dešimt procentų pirkimo užsakymo prekės kiekio siunčiama tikrinti. Visas pirkimo užsakymo eilutės kiekis yra užblokuotas. |
 
 ## <a name="blocking-items-by-using-inventory-status-blocking"></a>Prekių blokavimas naudojant atsargų būsenos blokavimo funkciją
-Galite nurodyti, kurių atsargų būsenos yra blokavimo būsenos, naudodami parametrą **Atsargų blokavimas**, esantį puslapyje **Atsargų būsenos**.  Negalite naudoti atsargų būsenų kaip gamybos užsakymų, pardavimo užsakymų, perkėlimo užsakymų, siuntimo operacijų arba projekto integravimų blokavimo būsenų. Atlikdami siuntimo darbus naudokite prekes, kurių atsargų būsena yra „pasiekiama“. Jei prekių būsena yra **Sugadinta** ir su tomis prekėmis atliekamas bendrasis planavimas, prekės laikomos trūkstamomis ir atsargos automatiškai papildomos.
+Galite nurodyti, kurių atsargų būsenos yra blokavimo būsenos, naudodami parametrą **Atsargų blokavimas**, esantį puslapyje **Atsargų būsenos**. Negalite naudoti atsargų būsenų kaip gamybos užsakymų, pardavimo užsakymų, perkėlimo užsakymų, siuntimo operacijų arba projekto integravimų blokavimo būsenų. Atlikdami siuntimo darbus naudokite prekes, kurių atsargų būsena yra „pasiekiama“. Jei prekių būsena yra **Sugadinta** ir su tomis prekėmis atliekamas bendrasis planavimas, prekės laikomos trūkstamomis ir atsargos automatiškai papildomos.
 
 
 
@@ -70,6 +69,3 @@ Galite nurodyti, kurių atsargų būsenos yra blokavimo būsenos, naudodami para
 [Kokybės valdymo procesai](quality-management-processes.md)
 
 [Tikrinti prekių kokybę](tasks/inspect-quality-goods.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

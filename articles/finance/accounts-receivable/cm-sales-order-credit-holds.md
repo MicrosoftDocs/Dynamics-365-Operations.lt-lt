@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 102ea4285407a4f4985cc8dd46ebc1ad21fc6f67
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 754b34d9d522451082ba6010297431788e4151f4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445865"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012268"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Pardavimo užsakymų kredito sulaikymai
 [!include [banner](../includes/banner.md)]
@@ -265,6 +264,3 @@ Pardavimo užsakymai, kurie turi priverstinio sulaikymo priežastį, negali būt
 Kredito valdymą šiuo metu galima naudoti tik pardavimo užsakymams. Laisvos formos SF, elektroniniai kasos aparatai ir skambučių centro užsakymai naudos laikinus kredito limitus ir draudimą / garantijas, kurias įtraukiate, kad galėtumėte keisti kredito limitą. Jos nenaudos blokavimo taisyklių ir nebus patalpintos sulaikymo sąraše, jei kyla problemų dėl kredito limito.
 
 Projektų SF kredito valdyme nėra palaikomos.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

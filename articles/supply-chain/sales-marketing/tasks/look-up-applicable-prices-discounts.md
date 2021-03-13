@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2cfdbda55c2f83ee2b470cab8a5e4f9ce728b852
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9bd85d9cd2d7273ad6e05d794a96e4d6a8d7c526
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433394"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010777"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Peržiūrėti taikytinas kainas ir nuolaidas
 
@@ -49,7 +48,7 @@ ms.locfileid: "4433394"
 10. Uždarykite puslapį.
 
 ## <a name="find-the-applicable-discount"></a>Rasti taikomą nuolaidą
-Įsitikinkite, kad lauke „Kliento sąskaita“ yra kliento numeris US-001    
+Įsitikinkite, kad lauke „Kliento sąskaita“ yra kliento numeris US-001   
 1. Lauke „Prekės numeris“ įveskite „T0012“.
     * Įsitikinkite, kad lauko „Kiekis“ reikšmė yra 1.  
     * Tokie produktui T0012 taikomi įkainiai nustatyti pagal vieną ar daugiau prekybos sutarčių: vieneto kaina yra 1000 CAD, o nuolaidos procentas yra 5.  
@@ -60,6 +59,3 @@ ms.locfileid: "4433394"
     * Yra dvi eilutės nuolaidos sutartys produktui T0012, nurodančios 5 proc. nuolaidą užsakymo eilutės kiekiui nuo 1 iki 10 ir 7 proc. nuolaidą užsakymams, viršijantiems 10. Atkreipkite dėmesį, kad šiame pavyzdyje nuolaidos taikomos produktų grupei (grupės kodas 01), kurios narys yra T0012 produktas.  
 4. Uždarykite puslapį.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
