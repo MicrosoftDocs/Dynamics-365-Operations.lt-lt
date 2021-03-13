@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e43abd4644eec8c91606ec48bbecf30f12600856
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b04549700b51f73a3629fe9cd67a3e1f6c1bafbb
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433656"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021035"
 ---
 # <a name="update-maintenance-budgets"></a>Priežiūros biudžeto atnaujinimas
 
@@ -75,6 +74,3 @@ Puslapyje **Priežiūros biudžeto eilutės** galite rankiniu būdu įtraukti na
 
 - Žinote, kad planuojamas kai kurio turto atnaujinimas, tačiau modulyje Turto valdymas dar nėra sukurta susijusių užduočių. Tačiau norite, kad šių užduočių biudžeto išlaidos būtų įtrauktos į priežiūros biudžetą.
 - Nuo tada, kai sudarėte priežiūros biudžetą, buvo sukurta naujo turto ar turto tipų, tačiau dar nėra nustatyta šio turto ar turto tipų priežiūros planų. Tačiau norite, kad šių turto tipų išlaidos būtų įtrauktos į priežiūros biudžetą.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

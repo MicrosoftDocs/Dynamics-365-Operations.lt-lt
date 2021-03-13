@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetJobTypeDefaultForecast, EntAssetJobTrade, EntAssetJobTypeDefaultCopy, EntAssetChecklistVariableValueLookup, EntAssetChecklistTemplateCreate, EntAssetJobVariant, EntAssetJobTypeDefaultReference, EntAssetJobTypeDefaultChecklist, EntAssetJobTypeDefault, EntAssetJobType, EntAssetJobTypeDefaultChecklistCopy, EntAssetChecklistTemplate, EntAssetJobTypeDefaultDescription, EntAssetJobTypeLookup, EntAssetJobTypeDefaultToolCopy, EntAssetJobTypePreviewPart, EntAssetJobTypeDefaultTool, EntAssetJobTypeDefaultForecastCopy, EntAssetChecklistTemplateLookup, EntAssetJobGroup, EntAssetChecklistVariable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8bf7c53a6150a2beeca5c6e9b5ab4ea98584158d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a335d642457fdd84ec42e285425fdc6212889cc0
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433575"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021288"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Priežiūros užduočių tipų kategorijos ir priežiūros užduočių tipai, priežiūros užduočių tipų variantai, priežiūros užduočių pardavimas ir prižiūrimo turto kontroliniai sąrašai
 
@@ -142,7 +141,7 @@ Prižiūrimo turto kontrolinių sąrašų šablonus galima naudoti kaip dažnų 
         > [!NOTE]
         > Visos tipo **Matavimas** eilutės, kuriose nėra skaitiklio sąrankos, laikomos nepriklausomomis matavimo registracijomis, kurioms modulyje Turto valdymas nepriskirti automatiškai atliekami tolesni veiksmai. Taip pat jei pasirinkto skaitiklio tipo nėra su darbo užsakymu susijusiame turte, prižiūrimo turto kontrolinis sąrašas laikomas nepriklausomu matavimu. Skaitiklio reikšmę galima keisti keletą kartų. Ji neregistruojama, kol [darbo užsakymo ciklo būsena](work-order-lifecycle-states.md) nepasikeis į būseną, kurioje parinktyje **Proceso prižiūrimo turto kontrolinis sąrašas** nustatyta **Taip**.
 
-    „FastTab“ **Išsami informacija** esančiame lauke **Patikrinimai** rodomas bendras kontrolinio sąrašo eilučių skaičius šablone. Į šį skaičių įeina visų esamų šablonų įdėtosios eilutės, panaudotos šablone. 
+    „FastTab“ **Išsami informacija** esančiame lauke **Patikrinimai** rodomas bendras kontrolinio sąrašo eilučių skaičius šablone. Į šį skaičių įeina visų esamų šablonų įdėtosios eilutės, panaudotos šablone.
 
 ![Puslapis Prižiūrimo turto kontrolinio sąrašo šablonai](media/05-setup-for-work-orders.png)
 
@@ -267,6 +266,3 @@ Modulyje Turto valdymas galima automatiškai naujinti priežiūros užduočių t
 2. Dialogo lango **Naujinti priežiūros užduoties tipo prognozę** FastTab **Įtrauktini įrašai** pagal poreikį galite pasirinkti konkrečių priežiūros užduočių tipų parametrus. Pasirinkite **Filtras**, tada pasirinkite **Pasirinkti**, kad pasirinktumėte parametrus.
 3. FastTab **Vykdyti fone** pagal poreikį galite nustatyti automatinio naujinimo paketinę užduotį.
 4. Pasirinkus **Gerai**, pradedamas prognozės naujinimas.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
