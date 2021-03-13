@@ -3,24 +3,23 @@ title: Reguliavimo naujinimai
 description: Šioje temoje pateikiamas suplanuotų ir išleistų reguliavimo „Microsoft Dynamics 365 Finance“ naujinimų sąrašas.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/13/2020
+ms.date: 02/04/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 46e9b3c3d47207715d0eee689913073d363f3af3
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: a09ac2c3c198bf7d7d34a1ae1739af6b62d8dce7
+ms.sourcegitcommit: 2093c9dc31d1b60b3114085d9cef48fdbbb0ca0d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517505"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5118660"
 ---
 # <a name="regulatory-updates"></a>Reguliavimo naujinimai
 
@@ -43,43 +42,34 @@ Naujausių reglamentavimo naujinių planų ieškokite toliau pateiktoje lentelė
 |Šalis|Išleidimo data|Leidimo versija|Reguliavimo naujinimas|
 |--------------------|---------------|-------|-------|
 |      Austrija         |   2020 m. rugsėjo mėn.      | 10.0.15      |   2020 m. ataskaitų PVM deklaracijos formatas U30 buvo atnaujintas   |
-|      Bahreinas         |   2020 m. birželio mėn.      | 10.0.13      |   SF išdavimo terminas (GCC)   |
-|      Bahreinas         |   2020 m. rugsėjo mėn.      | 10.0.13      |   Bahreino projekto SF   |
-|      Bahreinas         |   2020 m. birželio mėn.      | 10.0.13      |   Bahreino PVM deklaracija – įjungti operacijos aprašą   |   
-|      Brazilija         |   2020 m. rugpjūčio mėn.      | 10.0.14, 10.0.13      |   ADRCST deklaracija PR   |
-|      Brazilija         |   2020 m. gegužės mėn.      | 10.0.13      |   SPED ECF 6 maketas   |
-|      Brazilija         |   Liepos 2020 d.      | 10.0.13      |   SPED Fiscal - Įrašas C176 - RS valstija   |
-|      Brazilija         |   2020 m. spalio mėn.      | 10.0.16, 10.0.15HF, 10.0.14HF, 10.0.13HF      |   NF-e NT2019.001 v1.51 – patvirtinimo taisyklių priėmimas, kai išmokos kodas Distrito Federal   |
-|      Brazilija         |   2020 m. spalio mėn.      | 10.0.16      |   SPED Fiscal – 015 maketas   |
-|      Brazilija         |   2020 m. lapkričio mėn.      | 10.0.15HF      |   SPED Fiscal ICMS / IPI įrašo C176 naujinimas, skirtas RS valstijai   |
+|      Belgija         |   2020 m. gruodžio mėn.      | 10.0.16      |   Belgija: „Eksportavimo buhalterinės knygos perlaidos” ataskaitos vykdymo pagerinimai „Dynamics 365 Finance“   |   
+|      Brazilija         |   2020 m. lapkričio mėn.      | 10.0.15HF      |   SPED Mokesčio ICMS/IPI - Įrašo C176 - RS būsenos   |
+|      Brazilija         |   2020 m. spalio mėn.      | 10.0.16, 10.0.15HF      |   NF-e NT2019.001 v1.51 – patvirtinimo taisyklių priėmimas, kai išmokos kodas Distrito Federal   |
+|      Brazilija         |   2020 m. spalis, 2020 m. lapkritis      | 10.0.16, 10.0.15HF      |   SPED Fiscal – 015 maketas   |
 |      Brazilija         |   2020 m. spalio mėn.      | 10.0.16      |   DRCST deklaracija SC – SEF 262/2020   |
 |      Brazilija         |   2020 m. spalio mėn.      | 10.0.16      |   SPED Fiscal ICMS / IPI įrašas C176   |
-|      Čekijos Respublika      |   Liepos 2020 d.      | 10.0.13      |   PVM kontroliavimo pranešimo pakeitimai XML schemoje (sąskaitų sąrašas)   |
-|      Čekijos Respublika         |   Liepos 2020 d.      | 10.0.13      |   PVM deklaracija XML, PVM deklaracijos peržiūra „Excel“ ir PVM kontrolės pareiškimas XML formatais pagal mokesčių deklaravimo modelį   |
-|      Europa        |   2020 m. rugpjūčio mėn.       | 10.0.14      |   Partnerio PVM ID perkėlimas į „Intrastat“  |
-|      Suomija         |   Liepos 2020 d.       | 10.0.13      |   Suomijos elektroninių SF palaikymas  |
-|      Indija         |   Liepos 2020 d.      | 10.0.13      |   TCS taikymas prekių pardavimuose, kaip nurodyta skyriuje 206C (1H) – ribinė vertė pagal PAN pagrįstą operacijų sankaupą.  |
-|      Indija         |   2020 m. rugpjūčio mėn., 2020 m. birželio mėn.      | 10.0.13      |   Kredito / debeto pažyma su eksportavimo SF  |
-|      Indija         |   2020 m. rugpjūčio mėn.      | 10.0.13      |   Elektroninė SF pagal GST  |
-|      Indija         |   Liepos 2020 d.      | 10.0.13      |   Naujas GSTR (ANX-1 ir ANX-2) grąžinimo neprisijungus įrankis (beta versija)  |
-|      Indija         |   2020 m. spalio mėn.      | 10.0.14HF, 10.0.13HF      |   El. SF pagal GST atsargų perkėlimo užsakymą Indijoje|
-|      Indija         |   2020 m. spalio mėn.      | 10.0.14HF, 10.0.13HF      |   El. SF pagal Indijos GST su keliomis GSTIN registracijomis|
-|      Indija         |   2020 m. rugsėjo mėn.      | 10.0.13HF      |   Išskaitomo mokesčio koeficientas 3 / 5 dešimtainio skyriklio vietomis|
-|      Indija         |   2020 m. rugsėjo mėn.      | 10.0.14HF      |   Numeracijos grupė: GSTNSG, operacijos tipas: GST SF, kad būtų galima nustatyti mokesčių informacijos 0073 GST nuorodos numeracijų grupę|
-|      Italija         |   Liepos 2020 d.      | 10.0.13      |   Pasikeitimai Italijos elektroninių sąskaitų formate - „FatturaPA“ |
-|      Malaizija         |   Liepos 2020 d.      | 10.0.13      |   SST ataskaita |
-|      Meksika         |   2020 m. rugsėjo mėn.      | 10.0.13HF      |   CFDI URL schemos vieta pagrįsta dokumentu „Anexo 20” |
+|      Brazilija         |   2020 m. gruodžio mėn.      | 10.0.17, 10.0.16HF, 10.0.15HF      |   NF-e NT2020.006  - Skaitmeninės plaformos tarpininkas (Išdėstymas ir patvirtinimo taisyklių naujinimai)   |
+|      Europa        |   Sausio 2021 d.       | 10.0.17, 10.0.16HF, 10.0.15HF      |   Brexit - Šiaurės Airijos protokolo poveikis tarp Bendrijos vidaus prekybos ataskaitos ES šalyse  |
+|      Vokietija        |   Sausio 2021 d.       | 10.0.16HF      |   ELSTER UstVA VAT išankstinio pranešimo formatai buvo išplėsti su dviem naujomis dėžėmis 37,50 neatšaukiamoms nurašomoms skoloms  |
+|      Vokietija        |   Sausio 2021 d.       | 10.0.17      |   Pasikeitimai ELSTER PVM pradžios pranešimo XML struktūroje (UstVA)  |
+|      Bendroji        |   Sausio 2021 d.       | 10.0.16      |   Įjungti PVM / GST schemos atvirkštinio mokesčio mechanizmą  |
+|      Indija         |   2020 m. gruodžio mėn.      | 10.0.16, HF, 10.0.15HF      |   TCS apie prekių pardavimo skyrių 206 9(1H) keitimą pagal CBDT žiniasklaidos leidimą  |
+|      Latvija         |   2020 m. gruodžio mėn.      | 10.0.17      |   Intrastat formatas atnaujinamas pradedant nuo 2021 m.  |
+|      Meksika         |   2020 m. gruodžio mėn.      | 10.0.17, 10.0.16, 10.0.15      |   Atributo „Monto“ naujinimas |
 |      Olandija         |   2020 m. spalio mėn.      | 10.0.16     |   Intrastat formatas atnaujinamas pradedant nuo 2021 m. |
-|      Norvegija         |   2020 m. rugpjūčio mėn.      | 10.0.14     |   SAF-T – operacijų grupavimo lygis pagal kvitą turi būti nurodytas operacijos elemento lygiu, o ne žurnalo. |
-|      Lenkija          |   2020 m. rugsėjo mėn.     | 10.0.14     |   Lenkija: JPK-V7M (VDEK) „Excel” formatas – SSRS ataskaitai pakeisti  |
-|      Lenkija          |   Liepos 2020 d.     | 10.0.15, 10.0.14HF, 10.0.13     |   Neprivalomi paskirstymo mokėjimo gerinimai |
-|      Lenkija          |   2020 m. spalio mėn.     | 10.0.13HF     |   Privalomi paskirstymo mokėjimo gerinimai |
-|      Lenkija          |   2020 m. lapkričio mėn.     | 10.0.16, 10.0.15, 10.0.14, 10.0.13     |   JPK-V7M (VDEK) – pardavimo dokumento tipas FP ir RO, skirtas mažmeninės prekybos operacijoms |
+|      Olandija         |   2020 m. gruodžio mėn.      | 10.0.167     |   Nauja Nyderlandų mokesčių politikos versija NT15 |
+|      Lenkija          |   2020 m. rugsėjo mėn.     | 10.0.15     |   Neprivalomi paskirstymo mokėjimo gerinimai |
+|      Lenkija          |   2020 m. lapkričio mėn.     | 10.0.16, 10.0.15     |   JPK-V7M (VDEK) – pardavimo dokumento tipas FP ir RO, skirtas mažmeninės prekybos operacijoms |
 |      Lenkija          |   2020 m. rugsėjo mėn.     | 10.0.15     |   Lenkija: JPK-V7M (VDEK) – atrakinti galimybę vykdyti ataskaitos generavimą dalimis |
 |      Lenkija          |   2020 m. spalio mėn.     | 10.0.16     |   JPK-V7M (VDEK) ataskaita – parametro „savanoriškai paskirstyti apmokėjimą“ įsisavinimas |
-|      Rusija          |   2020 m. rugpjūčio mėn.     | 10.0.14    |   Apskaitos ataskaitų formatas keičiamas nuo 2020 m.  |
-|      Rusija          |   Liepos 2020 d.     | 10.0.13    |   Nuvertėjimo apskaičiavimas pagal Pirkimo kainą ir pagrindinius remonto darbus taikant Nuvertėjimu priedą Mokesčių apskaitoje  |
+|      Lenkija          |   2020 m. lapkričio mėn.     | 10.0.16, 10.0.15HF     |   Mažmeninės rinkos - Sąskaitų išrašymas mažmeniniams klientams pagal užklausą |
+|      Lenkija          |   Sausio 2021 d.     | 10.0.17, 10.0.16HF, 10.0.15HF     |   Lenkija: JPK_KR (SAF Apskaitos knygos) išaiškinimai, galioja nuo 2021 m. sausio mėn. |
 |      Rusija          |   2020 m. lapkričio mėn.     | 10.0.16    |   PVM deklaracijos formatas atnaujinamas iki versijos 5.07, pradedant nuo 2020 m. 4 ketvirčio|
+|      Rusija          |   2020 m. spalio mėn.     | 10.0.16    |   Pardavimai PBU18 apskaitos ataskaitoms 2020 m.|
+|      Rusija          |   Sausio 2021 d.     | 10.0.17    |   Naujo formato nuosavybės mokesčių deklaracija (techninė versija 5.07, o ne 5.06) 2020 m. ataskaitoms|
+|      Ispanija          |   2020 m. lapkričio mėn.     | 10.0.17    |   SII naujinimo tvirtinimas ir klaidos v.2.1(bis) nuo 2021 m. sausio 1 d.|
+|      Jungtinė Karalystė         |   2020 m. gruodžio mėn.     | 10.0.17, 10.0.16, 10.0.15    |   Bendrovės mokesčių registracija muitinės sąskaitos (Brexit - Šiaurės Airijos Protokolas)|
+|      Jungtinė Karalystė          |   2020 m. gruodžio mėn.     | 10.0.17, 10.0.16HF. 10.0.15HF    |   Brexit - Šiaurės Airijos protokolo poveikis bendrovėms prekiaujančioms prekėmis JK ir Nyderlanduose|
 
 
 
@@ -87,6 +77,3 @@ Naujausių reglamentavimo naujinių planų ieškokite toliau pateiktoje lentelė
 - Visus suplanuotus ir išleistus reguliavimo naujinimus galite rasti puslapyje [„Lifecycle Services“ – problemų ieška](https://lcs.dynamics.com/Logon/Index) (būtina prisijungti).
 - Palaikomų lokalių sąrašą žr. puslapyje [Tarptautinio pasiekiamumo vadovas](https://aka.ms/dynamics_365_international_availability_deck).
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

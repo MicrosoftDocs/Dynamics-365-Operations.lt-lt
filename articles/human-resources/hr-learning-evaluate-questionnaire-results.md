@@ -2,7 +2,7 @@
 title: Klausimynų rezultatų peržiūra ir įvertinimas
 description: Šiame straipsnyje paaiškinama, kaip galite peržiūrėti ir įvertinti respondentų užpildytų klausimynų rezultatus.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorCollection, KMKnowledgeCollectorUserResults, HcmLearningWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 17444
 ms.assetid: 6570206a-b2c4-4025-8715-432fe6652b78
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: ceb21af75dca2756d8e07f315ddee0246554c854
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ff2136e1f0a87b7d77968ca1163e64f8838b234b
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419779"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5116121"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>Klausimynų rezultatų peržiūra ir įvertinimas
 
@@ -31,8 +31,8 @@ ms.locfileid: "4419779"
 
 Respondentams užpildžius klausimyną, jo rezultatus peržiūrėti ir įvertinti galite tolesniais būdais.
 
--   **Užpildyti atsakymų seansai** – peržiūrėkite informaciją apie respondentų užpildytus klausimynus ir generuokite ataskaitas sumuoti atsakymams bei visiems gautiems taškams.
--   **Rezultatų grupės** – Peržiūrėkite klausimynų rezultatų grupių informaciją ir statistiką. Galima generuoti vieno klausimyno atsakymų seanso arba visų atsakymų seansų rezultatų grupių statistiką.
+-   **Užbaigto atsakymo seansas** – Rodyti išsamią informaciją apie klausimynus, kuriuos respondentai užbaigė ir sukurti ataskaitas siekiant apibendrinti atsakymus ir visus taškus, kuriuos jie uždirbo.
+-   **Rezultatų grupės** – Peržiūrėkite klausimynų rezultatų grupių informaciją ir statistiką. Rezultato grupės statistika gali būti sukurta vieno atsakymo klausimyno seansui ar visiems seansams.
 -   **Klausimyno statistika** – nurodykite kriterijus skaičiuoti tam tikros respondentų grupės statistikai.
 
 Taip pat galite generuoti įvairias ataskaitas ir peržiūrėti rezultatus, surūšiuotus pagal asmenį, atsakymų seansą ar rezultatų grupę. Galimos tolesnės su užpildytais klausimynais susijusios ataskaitos.
@@ -44,7 +44,7 @@ Taip pat galite generuoti įvairias ataskaitas ir peržiūrėti rezultatus, sur�
 
 ## <a name="answer-session-results"></a>Atsakymų seansų rezultatai
 
-Respondentams užpildžius klausimyną, galite peržiūrėti užpildytų atsakymų seansų rezultatus. Atsakymų seansas yra vieno naudotojo atsakymas į klausimyną. Išsamią informaciją apie užpildytus atsakymų seansus galite peržiūrėti **Atsakymų** puslapyje. Atsakymų seansai, įtraukti **Atsakymų** puslapyje, filtruojami įvairiais būdais – tai priklauso nuo to, kaip puslapį atidarote.
+Respondentams užpildžius klausimyną, galite peržiūrėti užpildytų atsakymų seansų rezultatus. Atsakymų seansas yra vieno naudotojo atsakymas į klausimyną. Išsamią informaciją apie užpildytus atsakymų seansus galite peržiūrėti **Atsakymų** puslapyje. Atsakymo seansai, kurie yra apimami **Atsakymų** puslapyje yra filtruojami įvairiais būdais priklausomai nuo to, kaip atvėrėtė puslapį:
 
 -   Visi klausimynai
 -   Konkretus klausimynas
@@ -52,9 +52,9 @@ Respondentams užpildžius klausimyną, galite peržiūrėti užpildytų atsakym
 
 **Atsakymų** puslapyje galite peržiūrėti išsamią informaciją apie atsakymus, gautus taškus, kiekvienos rezultatų grupės respondento atsakymus ir klausimų hierarchiją, naudotą pasirinktame klausimyne, jei klausimų hierarchija buvo naudojama. Taip pat galite generuoti ir spausdinti tolesnes ataskaitas.
 
--   **Rezultatų ataskaita** – šioje ataskaitoje pagal pasirinkto atsakymų seanso rezultatų grupę grafiškai vaizduojami gauti taškai.
+-   **Rezultato ataskaita** – Ši ataskaita rodo grafinį atvaizdavimą taškų, kurie buvo uždirbti rezultato grupei pagal pasirinktą atsakymo seansą.
 -   **Atsakymų ataskaita** – šioje ataskaitoje rodomi atsakymai, kuriuos respondentas pasirinko kiekviename klausimyno klausime.
--   **Neteisingi atsakymai** – šioje ataskaitoje rodoma informacija, susijusi su respondento pasirinktais neteisingais atsakymais.
+-   **Netinkami atsakymai** – Ši ataskaita rodo informaciją, kuri yra susijusi su neteisingais atsakymais, kuriuos respondentas pasirinko.
 
 > [!NOTE]
 > Ataskaita **Rezultatai** pasiekiama, tik jei naudojate klausimyno rezultatų grupę ir jei pasirinkote **Rezultatų puslapis** puslapyje **Klausimynai**. **Atsakymų** ataskaita ir **Neteisingų atsakymų** ataskaita galimos tik tada, jei **Klausimynų** puslapyje pasirinkote **Atsakymų ataskaita**.
@@ -68,9 +68,7 @@ Naudodami klausimyno statistiką pagal apsibrėžtus skaičiavimus galite analiz
     -   Pasirinkite diagramos tipą, kuris bus naudojamas peržiūrint rezultatus.
     -   Pasirinkite tinklo žmonių tipus, pvz., darbuotojus, kontaktinius asmenis ar pretendentus, kuriems reikia įtraukti atsakymus. Taip pat galite įtraukti anonimiškai užpildytų klausimynų atsakymus.
     -   Analizuoti rezultatams nustatykite intervalus, paremtus amžiumi ar stažu.
--   Pasirinkite arba patikrinkite nuostatas, kuriomis patikslinamas statistikos objektas. Pavyzdžiui, pasirinkę pašto kodą, galite analizuoti visų respondentų, esančių konkrečioje geografinėje vietovėje, rezultatus.
+-   Pasirinkite arba patikrinkite nuostatas, kuriomis patikslinamas statistikos objektas. Pavyzdžiui, pasirinkę ZIP kodą ar pašto kodą galite analizuoti rezultatus visiems respondentams konkrečioje geografinėje vietoje.
 -   Pasirinkite arba patikrinkite rezultatų analizavimo pagal respondentą ar klausimyno charakteristikas kriterijus. Pvz., pasirinkę **Pašto kodas**, galite analizuoti koreliaciją tarp respondento vietos ir teisingų atsakymų.
 
 Jūsų nustatytos nuostatos įrašomos ir gali būti naudojamos periodiškai perskaičiuojant rezultatus.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

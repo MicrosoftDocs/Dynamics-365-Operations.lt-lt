@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerConsolidate
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13151
 ms.assetid: 9d8f55cb-b2cf-4e01-89cf-0e21f5c8ae1f
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 566b1ecef3f9e540c651fe214accadcf32f4fbed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ee029e6cf1f271c5839e8d0dc1b1e4b7f91fb9a2
+ms.sourcegitcommit: f51ef395f0c0cb2203ce26b4091bbf0296e7916e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4446113"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "5120484"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Konsolidavimo ir šalinimo peržiūra
 
@@ -60,11 +59,12 @@ Pasirinktis **Finansinės ataskaitos** turi neribotas ataskaitų valiutas. Duome
 Pasirinktis **Finansinės ataskaitos** yra sprendimas, nes operacijos lygio informaciją galima peržiūrėti apie tiek įmonių, kiek jų įtraukta į ataskaitų medžio aprašą.
 
 4.  Mes naudojame biudžeto planavimą arba biudžeto kontrolę ir tai turi būti konsoliduota.
+
 Pasirinktis **Finansinės ataskaitos** yra sprendimas, skirtas konsoliduoti bet kokius biudžeto planavimo arba biudžeto kontrolės duomenis.
 
 5.  Mūsų filialai išsidėstę visame pasaulyje ir mes turime kelis sąskaitų planus. Koks yra geriausias būdas konsoliduoti mūsų duomenis?
 
-Kai reikia tvarkyti kelis sąskaitų planus galite naudoti kelias pasirinktis. Galite naudoti pasirinktį **Konsoliduoti internetu**, o po to pasirinkti naudoti pagrindinėje sąskaitoje arba konsolidavimo sąskaitos grupėje nurodytą konsolidavimo sąskaitą. Taip pat galite naudoti pasirinktį **Finansinės ataskaitos**, įtraukti keletą nuorodų į eilutės apibrėžimo finansines dimensijas ir susieti sąskaitas.
+Kai reikia tvarkyti kelis sąskaitų planus galite naudoti kelias pasirinktis. Galite naudoti **Konsoliduoti internete** parinktį ir tuomet rinktis naudoti konsolidavimo paskyrą, kuri yra nustatoma pagrindinėje paskyroje ar konsolidavimo paskyros grupę. Taip pat galite naudoti pasirinktį **Finansinės ataskaitos**, įtraukti keletą nuorodų į eilutės apibrėžimo finansines dimensijas ir susieti sąskaitas.
 
 6.  Mes reikalaujame kelių lygių konsolidavimo. Kitaip tariant, pirmiausia konsoliduojame visus mūsų Europos filialus į Britanijos svarą (GBP). Tada paimame tuos duomenis ir konvertuojame konsoliduotą sumą į JAV dolerius. Kaip galime tai padaryti?
 
@@ -86,10 +86,10 @@ Pasirinktis **Finansinės ataskaitos** yra sprendimas. Apie organizacijas, turin
 
 Naudodami pasirinktį **Įmonės balansų eksportavimas**, skirtą eksportuoti iš vieno egzemplioriaus, o po to kitame egzemplioriuje naudodami pasirinktį **Konsoliduoti su importu** galite konsoliduoti duomenis.
 
+11. Ar galiu atlikti konsolidavimą su savo biudžetu **ŠABLONO** būsenoje? 
+            
+Negalėsite apdoroti ar užbaigti savo biudžetų konsolidavimo įmonėje. Rekomenduojame naudoti „Financial Reporting“ tam, kad konsoliduotumėte šablono biudžetus.
 
 Daugiau informacijos rasite [Valiutos kurso pasikeitimas konsoliduotoje įmonėje](../general-ledger/currency-revaluation-consolidation-company.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

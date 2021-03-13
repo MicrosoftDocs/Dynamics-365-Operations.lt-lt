@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle, EcoResVersionNameLookup, RetailStyleGroupTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 19171
 ms.assetid: 81fa3709-4ab8-4fbf-9806-359892a05985
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: bdfd9482d30bd65cf84fae032df78e1243e05239
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 285e9d2d184a899f1ffa502d59a853ba83cda491
+ms.sourcegitcommit: 2093c9dc31d1b60b3114085d9cef48fdbbb0ca0d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433366"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5118686"
 ---
 # <a name="product-dimensions"></a>Produktų dimensijos
 
@@ -122,7 +121,7 @@ Prieš naudodami versijos matmenis, turite jas įjungti savo sistemoje. Šiai u�
 
 ### <a name="areas-where-the-version-dimension-isnt-supported"></a>Sritys, kuriose versijos matmenys nėra palaikomi
 
-Tolesnės sritys nepalaiko versijos matmenų, nes šių matmenų nustatymas sukeltų sugedimo pakeitimus:
+Toliau nurodytos sritys nepalaiko versijos dimensijos (vis dar galite naudoti šias sritis, bet negalėsite įtraukti versijos produktų (produktai, kuriuose naudojama versijos dimensija) į jas). Pavyzdžiui, negalite įtraukti versijos prekės į tiekėjo katalogą. Taip yra todėl, kad įtraukus produktus su versijos dimensija į šias sritis, gali kilti pakeitimų.
 
 - Mėnesio pareiškimo objekto kaina
 - Išlaidų objektų išrašų podėlis
@@ -146,6 +145,3 @@ Versijos matmenys veikia taip pat kaip kiti produkto matmenys. Nepaisant to, dė
 
 > [!IMPORTANT]
 > Jei įjungiate ir naudojate versijos matmenims, kai kurie sprendimai rodantys atsargų matmenis gali nustoti veikti kaip tikėtasi. Šių problemų patvirtinimui ir išsprendimui, susisiekite su nepriklausomu programinės įrangos tiekėjui (ISV) dėl jūsų paveiktų sprendimų. Dėl platesnės informacijos, žr. [Įjungti versijos matmenis](#enable-version-dim).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
