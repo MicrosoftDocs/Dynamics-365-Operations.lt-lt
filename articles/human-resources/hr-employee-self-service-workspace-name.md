@@ -2,7 +2,7 @@
 title: Pakeiskite Darbuotojo savitarnos paslaugų darbo srities pavadinimą
 description: Šiame skyriuje aprašoma, kaip pakeisti rodomą Darbuotojo savitarnos paslaugų darbo srities pavadinimą „Dynamics 365 Human Resources“.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 07/09/2020
 ms.topic: article
 ms.prod: ''
@@ -18,30 +18,30 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2ce008c44ba84c919f4538be4d8e4ff95be018e7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 383af930e7ea5b14584069dff09e45b92808df23
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419791"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115203"
 ---
-# <a name="change-employee-self-service-workspace-name"></a><span data-ttu-id="84c4d-103">Pakeiskite Darbuotojo savitarnos paslaugų darbo srities pavadinimą</span><span class="sxs-lookup"><span data-stu-id="84c4d-103">Change Employee self service workspace name</span></span>
+# <a name="change-employee-self-service-workspace-name"></a><span data-ttu-id="369fe-103">Pakeiskite Darbuotojo savitarnos paslaugų darbo srities pavadinimą</span><span class="sxs-lookup"><span data-stu-id="369fe-103">Change Employee self service workspace name</span></span>
 
-<span data-ttu-id="84c4d-104">Jei turite savanorių ar kitų ne darbuotojų, galbūt norėsite pakeisti **Darbuotojo savitarnos paslaugų** darbo srities pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="84c4d-104">If you have volunteers or other non-employees, you might want to change the name of the **Employee self-service** workspace.</span></span> <span data-ttu-id="84c4d-105">Galite pakeisti šią darbo sritį į **Savitarnos paslaugos**.</span><span class="sxs-lookup"><span data-stu-id="84c4d-105">You can change this workspace to **Self service** instead.</span></span>
+<span data-ttu-id="369fe-104">Jei turite savanorių ar kitų ne darbuotojų, galbūt norėsite pakeisti **Darbuotojo savitarnos paslaugų** darbo srities pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="369fe-104">If you have volunteers or other non-employees, you might want to change the name of the **Employee self-service** workspace.</span></span> <span data-ttu-id="369fe-105">Galite pakeisti šią darbo sritį į **Savitarnos paslaugos**.</span><span class="sxs-lookup"><span data-stu-id="369fe-105">You can change this workspace to **Self service** instead.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="84c4d-106">**Darbuotojo savitarnos paslaugų** darbo srities papvadinimo keitimas taip pat pakeičia meniu elementą, naudojamą „Dynamics 365 Human Resources“ viduje.</span><span class="sxs-lookup"><span data-stu-id="84c4d-106">Changing the name of the **Employee self-service** workspace also changes the menu item that is used internally by Dynamics 365 Human Resources.</span></span> <span data-ttu-id="84c4d-107">Jei anksčiau pritaikėte saugos tinkinimus **Hcmdarbuotojosavitarnospaslaugųdarbo sritis** meniu elemente, rekomenduojame pritaikyti tokį patį pakeitimą **Hcmsavitarnospaslaugųdarbo sritis** tam, kad darbo sritys būtų suvienodintos.</span><span class="sxs-lookup"><span data-stu-id="84c4d-107">If you previously applied security customizations to the **HcmEmployeeSelfServiceWorkspace** menu item, we recommend applying the same changes to **HcmSelfServiceWorkspace** to maintain parity.</span></span>
+> <span data-ttu-id="369fe-106">**Darbuotojo savitarnos paslaugų** darbo srities papvadinimo keitimas taip pat pakeičia meniu elementą, naudojamą „Dynamics 365 Human Resources“ viduje.</span><span class="sxs-lookup"><span data-stu-id="369fe-106">Changing the name of the **Employee self-service** workspace also changes the menu item that is used internally by Dynamics 365 Human Resources.</span></span> <span data-ttu-id="369fe-107">Jei anksčiau pritaikėte saugos tinkinimus **Hcmdarbuotojosavitarnospaslaugųdarbo sritis** meniu elemente, rekomenduojame pritaikyti tokį patį pakeitimą **Hcmsavitarnospaslaugųdarbo sritis** tam, kad darbo sritys būtų suvienodintos.</span><span class="sxs-lookup"><span data-stu-id="369fe-107">If you previously applied security customizations to the **HcmEmployeeSelfServiceWorkspace** menu item, we recommend applying the same changes to **HcmSelfServiceWorkspace** to maintain parity.</span></span>
 
-1. <span data-ttu-id="84c4d-108">Žmogiškuosiuose ištekliuose, pasirinkite **Personalo valdymas**, pasirinkite **Nuorodos** ir tuomet pasirinkite **Žmogiškųjų išteklių parametrai**.</span><span class="sxs-lookup"><span data-stu-id="84c4d-108">In Human Resources, select **Personnel management**, select **Links**, and then select **Human resources parameters**.</span></span>
+1. <span data-ttu-id="369fe-108">Žmogiškuosiuose ištekliuose, pasirinkite **Personalo valdymas**, pasirinkite **Nuorodos** ir tuomet pasirinkite **Žmogiškųjų išteklių parametrai**.</span><span class="sxs-lookup"><span data-stu-id="369fe-108">In Human Resources, select **Personnel management**, select **Links**, and then select **Human resources parameters**.</span></span>
 
-2. <span data-ttu-id="84c4d-109">Pasirinkite **Darbuotojo savitarnos paslaugų** skirtuką.</span><span class="sxs-lookup"><span data-stu-id="84c4d-109">Select the **Employee self-service** tab.</span></span>
+2. <span data-ttu-id="369fe-109">Pasirinkite **Darbuotojo savitarnos paslaugų** skirtuką.</span><span class="sxs-lookup"><span data-stu-id="369fe-109">Select the **Employee self-service** tab.</span></span>
 
-3. <span data-ttu-id="84c4d-110">Skiltyje **Pavadinimo rodymas**, pasirinkite **Savitarnos paslaugos**.</span><span class="sxs-lookup"><span data-stu-id="84c4d-110">Under **Display name**, select **Self service**.</span></span>
+3. <span data-ttu-id="369fe-110">Skiltyje **Pavadinimo rodymas**, pasirinkite **Savitarnos paslaugos**.</span><span class="sxs-lookup"><span data-stu-id="369fe-110">Under **Display name**, select **Self service**.</span></span>
 
    ![Pakeiskite Darbuotojo savitarnos paslaugų darbo srities pavadinimą į Savitarnos paslaugos](./media/hr-employee-self-service-workspace-name.png)
 
-4. <span data-ttu-id="84c4d-112">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="84c4d-112">Select **Save**.</span></span>
+4. <span data-ttu-id="369fe-112">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="369fe-112">Select **Save**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="84c4d-113">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="84c4d-113">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="369fe-113">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="369fe-113">Additional resources</span></span>
 
-- [<span data-ttu-id="84c4d-114">Darbuotojų ir vadovų savitarnos apžvalga</span><span class="sxs-lookup"><span data-stu-id="84c4d-114">Employee and Manager self-service overview</span></span>](hr-employee-manager-self-service-overview.md)
+- [<span data-ttu-id="369fe-114">Darbuotojų ir vadovų savitarnos apžvalga</span><span class="sxs-lookup"><span data-stu-id="369fe-114">Employee and Manager self-service overview</span></span>](hr-employee-manager-self-service-overview.md)

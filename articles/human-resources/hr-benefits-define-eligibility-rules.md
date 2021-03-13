@@ -2,7 +2,7 @@
 title: Teisės į išmoką taisyklių ir strategijų nustatymas
 description: Šiame straipsnyje sužinosite, kaip sukurti išmokų tinkamumo taisykles bei strategijas ir priskirti išmokoms taisykles.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
@@ -11,61 +11,59 @@ ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysPolicyListPage, SysPolicy, HcmBenefitEligibilityPolicy, HcmBenefit, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: f46437fef342ab1a4e368063d8b74205ca8e8c05
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc80549eaffa72a22dec51829c86d04a763de96a
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419712"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113525"
 ---
-# <a name="define-benefit-eligibility-rules-and-policies"></a><span data-ttu-id="6f844-103">Teisės į išmoką taisyklių ir strategijų nustatymas</span><span class="sxs-lookup"><span data-stu-id="6f844-103">Define benefit eligibility rules and policies</span></span>
+# <a name="define-benefit-eligibility-rules-and-policies"></a><span data-ttu-id="8348f-103">Teisės į išmoką taisyklių ir strategijų nustatymas</span><span class="sxs-lookup"><span data-stu-id="8348f-103">Define benefit eligibility rules and policies</span></span>
 
-<span data-ttu-id="6f844-104">Šiame straipsnyje sužinosite, kaip sukurti išmokų tinkamumo taisykles bei strategijas ir priskirti išmokoms taisykles.</span><span class="sxs-lookup"><span data-stu-id="6f844-104">This article shows you how you can create benefit eligibility rules and policies and then assign rules to Benefits.</span></span>  
+<span data-ttu-id="8348f-104">Šioje temoje parodyta, kaip galite sukurti teisių į išmoką taisykles ir politiką bei priskirti taisykles išmokoms.</span><span class="sxs-lookup"><span data-stu-id="8348f-104">This topic shows you how you can create benefit eligibility rules and policies and then assign rules to benefits.</span></span>  
 
-<span data-ttu-id="6f844-105">Kuriant šį įrašą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="6f844-105">The demo data company used to create this recording is USMF.</span></span>
+## <a name="create-benefit-eligibility-policy-rule-type"></a><span data-ttu-id="8348f-105">Sukurti išmokų tinkamumo strategijos taisyklių tipą</span><span class="sxs-lookup"><span data-stu-id="8348f-105">Create benefit eligibility policy rule type</span></span>
 
+1. <span data-ttu-id="8348f-106">Eikite į **Žmogiškieji ištekliai > Išmokos > Teisės > Politikos taisyklių tipai teisėms į išmokas**.</span><span class="sxs-lookup"><span data-stu-id="8348f-106">Go to **Human resources > Benefits > Eligibility > Benefit eligibility policy rule types**.</span></span>
+2. <span data-ttu-id="8348f-107">Pasirinkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="8348f-107">Select **New**.</span></span>
+3. <span data-ttu-id="8348f-108">Laukelyje **Taisyklės pavadinimas** įveskite vertę.</span><span class="sxs-lookup"><span data-stu-id="8348f-108">In the **Rule name** field, enter a value.</span></span>
+4. <span data-ttu-id="8348f-109">Lauke **Aprašas** įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="8348f-109">In the **Description** field, enter a value.</span></span>
+5. <span data-ttu-id="8348f-110">Laukelyje **Užklausos pavadinimas** rinkitės iškrentantį meniu mygtuką, kad atvertumėte paiešką.</span><span class="sxs-lookup"><span data-stu-id="8348f-110">In the **Query name** field, select the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="8348f-111">Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="8348f-111">In the list, select the link in the selected row.</span></span>
+7. <span data-ttu-id="8348f-112">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="8348f-112">Select **Save**.</span></span>
+8. <span data-ttu-id="8348f-113">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="8348f-113">Close the page.</span></span>
 
-## <a name="create-benefit-eligibility-policy-rule-type"></a><span data-ttu-id="6f844-106">Sukurti išmokų tinkamumo strategijos taisyklių tipą</span><span class="sxs-lookup"><span data-stu-id="6f844-106">Create benefit eligibility policy rule type</span></span>
-1. <span data-ttu-id="6f844-107">Eikite į Žmogiškieji ištekliai > Išmokos > Tinkamumas > Išmokų tinkamumo strategijos taisyklių tipai.</span><span class="sxs-lookup"><span data-stu-id="6f844-107">Go to Human resources > Benefits > Eligibility > Benefit eligibility policy rule types.</span></span>
-2. <span data-ttu-id="6f844-108">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="6f844-108">Click New.</span></span>
-3. <span data-ttu-id="6f844-109">Lauke Taisyklės pavadinimas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="6f844-109">In the Rule name field, type a value.</span></span>
-4. <span data-ttu-id="6f844-110">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="6f844-110">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="6f844-111">Lauke Užklausos pavadinimas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="6f844-111">In the Query name field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="6f844-112">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="6f844-112">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="6f844-113">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="6f844-113">Click Save.</span></span>
-8. <span data-ttu-id="6f844-114">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="6f844-114">Close the page.</span></span>
+## <a name="benefit-eligibility-policy"></a><span data-ttu-id="8348f-114">Išmokos tinkamumo strategija</span><span class="sxs-lookup"><span data-stu-id="8348f-114">Benefit eligibility policy</span></span>
 
-## <a name="benefit-eligibility-policy"></a><span data-ttu-id="6f844-115">Išmokos tinkamumo strategija</span><span class="sxs-lookup"><span data-stu-id="6f844-115">Benefit eligibility policy</span></span>
-1. <span data-ttu-id="6f844-116">Eikite į Žmogiškieji ištekliai > Išmokos >Tinkamumas > Išmokų tinkamumo strategijos.</span><span class="sxs-lookup"><span data-stu-id="6f844-116">Go to Human resources > Benefits > Eligibility > Benefit eligibility policies.</span></span>
-2. <span data-ttu-id="6f844-117">Pasirinkite esamą išmokų strategiją.</span><span class="sxs-lookup"><span data-stu-id="6f844-117">Select an existing benefit policy.</span></span>
-3. <span data-ttu-id="6f844-118">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="6f844-118">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="6f844-119">Perjunkite dalies „Strategijos organizacijos“ išplėtimą.</span><span class="sxs-lookup"><span data-stu-id="6f844-119">Toggle the expansion of the Policy organizations sections.</span></span>  <span data-ttu-id="6f844-120">Čia galite pridėti arba pašalinti organizacijas, kurias norite įtraukti į strategiją.</span><span class="sxs-lookup"><span data-stu-id="6f844-120">Here you can add or remove any organizations you want to include in the policy.</span></span>
-5. <span data-ttu-id="6f844-121">Išplėskite arba sutraukite dalį Strategijos taisyklės.</span><span class="sxs-lookup"><span data-stu-id="6f844-121">Expand or collapse the Policy rules section.</span></span>
-6. <span data-ttu-id="6f844-122">Sąraše raskite anksčiau sukurtą strategijos taisyklę.</span><span class="sxs-lookup"><span data-stu-id="6f844-122">In the list find the policy rule previously created.</span></span>
-7. <span data-ttu-id="6f844-123">Spustelėkite Kurti strategijos taisyklę.</span><span class="sxs-lookup"><span data-stu-id="6f844-123">Click Create policy rule.</span></span>
-8. <span data-ttu-id="6f844-124">Lauke „Įsigaliojimo data“ įveskite norimą strategijos įsigaliojimo datą.</span><span class="sxs-lookup"><span data-stu-id="6f844-124">In the Effective date field, enter the date in which you want the policy to become effective.</span></span>
-    * <span data-ttu-id="6f844-125">Įsigaliojimo ir pabaigos datų nustatymas leidžia daryti ateityje įsigaliojančius strategijos taisyklių pakeitimus – jums nebereikės grįžti į strategiją, kad šie pakeitimai įsigaliotų.</span><span class="sxs-lookup"><span data-stu-id="6f844-125">Setting effective and end dates allows you to make future changes to policy rules and removing the need to come back to the policy when you want those changes to take effect.</span></span>  
-9. 
-    * <span data-ttu-id="6f844-126">Pvz., jei norite, kad taisyklė būtų taikoma tik pardavimo vadybininkams, galite sukurti „Kai“ sąlygą: kai pareigų aprašas – pardavimo vadybininkas.</span><span class="sxs-lookup"><span data-stu-id="6f844-126">For example if you wanted the rule to only apply to Sales Managers you could create the Where clause to say: Where position description equals Sales Manager.</span></span>  <span data-ttu-id="6f844-127">Kartu su „Kai“ sąlygomis taisyklėje galite naudoti keletą „Ir“ arba „Ar“.</span><span class="sxs-lookup"><span data-stu-id="6f844-127">You can And or Or multiple Where statements together in the rule.</span></span>  
-10. <span data-ttu-id="6f844-128">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="6f844-128">Click OK.</span></span>
-11. <span data-ttu-id="6f844-129">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="6f844-129">Close the page.</span></span>
-12. <span data-ttu-id="6f844-130">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="6f844-130">Close the page.</span></span>
+1. <span data-ttu-id="8348f-115">Eikite į **Žmogiškieji ištekliai > Išmokos > Teisės > Teisių į išmokas politikos**.</span><span class="sxs-lookup"><span data-stu-id="8348f-115">Go to **Human resources > Benefits > Eligibility > Benefit eligibility policies**.</span></span>
+2. <span data-ttu-id="8348f-116">Pasirinkite esamą išmokų strategiją.</span><span class="sxs-lookup"><span data-stu-id="8348f-116">Select an existing benefit policy.</span></span>
+3. <span data-ttu-id="8348f-117">Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="8348f-117">In the list, select the link in the selected row.</span></span>
+4. <span data-ttu-id="8348f-118">Įjunkite plėtinį **Politnės organizacijos** skyriuje.</span><span class="sxs-lookup"><span data-stu-id="8348f-118">Toggle the expansion of the **Policy organizations** sections.</span></span> <span data-ttu-id="8348f-119">Galite įtraukti ar pašalinti bet kurią norimą organizaciją, kurią norite įtraukti į politiką.</span><span class="sxs-lookup"><span data-stu-id="8348f-119">You can add or remove any organizations you want to include in the policy.</span></span>
+5. <span data-ttu-id="8348f-120">Išplėskite arba sutraukite sekciją **Strategijos taisyklės**.</span><span class="sxs-lookup"><span data-stu-id="8348f-120">Expand or collapse the **Policy rules** section.</span></span>
+6. <span data-ttu-id="8348f-121">Sąraše raskite politikos taisyklę, kurią sukūrėte anksčiau.</span><span class="sxs-lookup"><span data-stu-id="8348f-121">In the list, find the policy rule previously created.</span></span>
+7. <span data-ttu-id="8348f-122">Pasirinkite **Kurti strategijos taisyklę**.</span><span class="sxs-lookup"><span data-stu-id="8348f-122">Select **Create policy rule**.</span></span>
+8. <span data-ttu-id="8348f-123">Laukelyje **Įsigaliojimo data** įveskite datą, nuo kurios įsigalios jūsų politika.</span><span class="sxs-lookup"><span data-stu-id="8348f-123">In the **Effective date** field, enter the date in which you want the policy to become effective.</span></span>
+    * <span data-ttu-id="8348f-124">Nustatydami įsigaliojimo pabaigos datas galėsite atlikti keitimus ateityje politikos taisyklėms tam, kad nebereikėtų grįžti į politiką, kai norėsite pradėti keitimų įsigaliojimą.</span><span class="sxs-lookup"><span data-stu-id="8348f-124">Setting effective end dates allows you to make future changes to policy rules so you don't need to come back to the policy when you want those changes to take effect.</span></span>  
+9. <span data-ttu-id="8348f-125">Jei reikia, įtraukite sąlygą **Įtraukti sąlygą** į laukelį.</span><span class="sxs-lookup"><span data-stu-id="8348f-125">If needed, add a where clause to the **Add condition** field.</span></span>
+    * <span data-ttu-id="8348f-126">Pavyzdžiui, jei norite, kad taisyklė būtų tiakoma tik prekybos vadovams, galite sukurti sąlygą sakančią: Kai pareigų aprašas yra lygus pardavimo vadovui.</span><span class="sxs-lookup"><span data-stu-id="8348f-126">For example if you wanted the rule to only apply to Sales Managers you could create the where clause to say: Where position description equals Sales Manager.</span></span> <span data-ttu-id="8348f-127">Galite įtraukti kelis pareiškimus kartu su taisykle.</span><span class="sxs-lookup"><span data-stu-id="8348f-127">You can add multiple where statements together in the rule.</span></span>  
+10. <span data-ttu-id="8348f-128">Pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="8348f-128">Select **OK**.</span></span>
+11. <span data-ttu-id="8348f-129">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="8348f-129">Close the page.</span></span>
 
-## <a name="assign-rule-to-benefit"></a><span data-ttu-id="6f844-131">Priskirti išmokai taisyklę</span><span class="sxs-lookup"><span data-stu-id="6f844-131">Assign rule to benefit</span></span>
-1. <span data-ttu-id="6f844-132">Pasirinkite Personalas > Išmokos > Išmokos.</span><span class="sxs-lookup"><span data-stu-id="6f844-132">Go to Human resources > Benefits > Benefits.</span></span>
-2. <span data-ttu-id="6f844-133">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="6f844-133">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="6f844-134">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="6f844-134">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="6f844-135">Išplėskite arba sutraukite dalį Tinkamumo taisyklės.</span><span class="sxs-lookup"><span data-stu-id="6f844-135">Expand or collapse the Eligibility rules section.</span></span>
-5. <span data-ttu-id="6f844-136">Spustelėkite Redaguoti.</span><span class="sxs-lookup"><span data-stu-id="6f844-136">Click Edit.</span></span>
-6. <span data-ttu-id="6f844-137">Lauke „Tinkamumas“ pasirinkite „Pagal taisyklę iš sąrašo“.</span><span class="sxs-lookup"><span data-stu-id="6f844-137">In the Eligibility field, select Rule based from the list.</span></span>
-7. <span data-ttu-id="6f844-138">Lauke „Taisyklės tipas“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="6f844-138">In the Rule type field, click the drop down button to open the lookup.</span></span>
-8. <span data-ttu-id="6f844-139">Sąraše raskite ir pasirinkite anksčiau sukurtą taisyklę.</span><span class="sxs-lookup"><span data-stu-id="6f844-139">In the list find and select the rule you previously created.</span></span>
-9. <span data-ttu-id="6f844-140">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="6f844-140">In the list, click the link in the selected row.</span></span>
-10. <span data-ttu-id="6f844-141">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="6f844-141">Click Save.</span></span>
-11. <span data-ttu-id="6f844-142">Uždarykite formą.</span><span class="sxs-lookup"><span data-stu-id="6f844-142">Close the form.</span></span>
+## <a name="assign-rule-to-benefit"></a><span data-ttu-id="8348f-130">Priskirti išmokai taisyklę</span><span class="sxs-lookup"><span data-stu-id="8348f-130">Assign rule to benefit</span></span>
+
+1. <span data-ttu-id="8348f-131">Eikite į **Žmogiškieji ištekliai > Išmokos > Išmokos**.</span><span class="sxs-lookup"><span data-stu-id="8348f-131">Go to **Human resources > Benefits > Benefits**.</span></span>
+2. <span data-ttu-id="8348f-132">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="8348f-132">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="8348f-133">Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="8348f-133">In the list, select the link in the selected row.</span></span>
+4. <span data-ttu-id="8348f-134">Išplėskite ar sutraukite **Teisių taisyklės** skyrių.</span><span class="sxs-lookup"><span data-stu-id="8348f-134">Expand or collapse the **Eligibility rules** section.</span></span>
+5. <span data-ttu-id="8348f-135">Pasirinkite **Redaguoti**.</span><span class="sxs-lookup"><span data-stu-id="8348f-135">Select **Edit**.</span></span>
+6. <span data-ttu-id="8348f-136">Laukelyje **Teisės** rinkitės taisyklę.</span><span class="sxs-lookup"><span data-stu-id="8348f-136">In the **Eligibility** field, select the rule.</span></span>
+7. <span data-ttu-id="8348f-137">Laukelyje **Taisyklės tipas** rinkitės anksčiau sukurtą taisyklę.</span><span class="sxs-lookup"><span data-stu-id="8348f-137">In the **Rule type** field, select the rule you previously created.</span></span>
+9. <span data-ttu-id="8348f-138">Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="8348f-138">In the list, select the link in the selected row.</span></span>
+10. <span data-ttu-id="8348f-139">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="8348f-139">Select **Save**.</span></span>
+11. <span data-ttu-id="8348f-140">Uždarykite formą.</span><span class="sxs-lookup"><span data-stu-id="8348f-140">Close the form.</span></span>
 
