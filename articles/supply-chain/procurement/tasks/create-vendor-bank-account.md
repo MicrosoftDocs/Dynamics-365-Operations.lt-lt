@@ -1,7 +1,7 @@
 ---
 title: Sukurti tiekėjo banko sąskaitą
 description: Šia procedūra parodoma, kaip kurti tiekėjo banko kodą.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: VendTable, VendBankAccounts, LogisticsPostalAddressSingle
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f8092ab7f960fd36515afb8448dfe1e262197595
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f3523dec15363bd42219d40ed8048681c56829ac
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433459"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019258"
 ---
 # <a name="create-a-vendor-bank-account"></a>Sukurti tiekėjo banko sąskaitą
 
@@ -58,6 +57,3 @@ ms.locfileid: "4433459"
 25. Lauke **Banko sąskaita** pažymėkite ką tik sukurtą sąskaitą.
 26. Spustelėkite **Įrašyti**. Adresą galima nuskaityti iš bankų grupės, jei ji nurodyta, arba galima jį įtraukti čia.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

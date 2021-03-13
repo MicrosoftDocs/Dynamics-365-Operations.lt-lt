@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetOutboundObjectsListPage, EntAssetOutboundObjectsDeliver, EntAssetInboundObjectsListPage, EntAssetInboundObjectsRecieve
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a7239bf5f8e53e61c4259abbcbf2ff740f4cef55
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e6dfadf6824c6a3df7be9b3b6f3d9f5dd2749e34
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433652"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018076"
 ---
 # <a name="inbound-and-outbound-assets"></a>Gaunamas ir siunčiamas turtas
 
@@ -71,6 +70,3 @@ Atlikę priežiūros arba remonto užduotį, galite užregistruoti turtą kaip g
 2. Pasirinkite turtą arba priežiūros užklausą.
 3. Pasirinkite **Pristatyti turtą**.
 4. Lauke **Pristatyta** įveskite datą ir laiką. Tada pasirinkite **Gerai**. Įrašas pašalinamas iš **Siunčiamas turtas** sąrašo puslapio.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

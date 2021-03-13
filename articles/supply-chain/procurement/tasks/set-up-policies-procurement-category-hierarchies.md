@@ -1,7 +1,7 @@
 ---
 title: Nustatyti įsigijimo kategorijų hierarchijų strategijas
 description: Naudokite šią procedūrą norėdami nustatyti taisykles užsisakyti produktų kategorijoje.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 07/22/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicy, ProcCategoryAccessPolicyRule, ProcCategoryPolicyRule, EcoResCategorySingleLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d113181b5c78c0f35292b5f14cedd12bacdc7364
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3fc01793ee83444e5c7097021c19aeda80a132e6
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433532"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017103"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Nustatyti įsigijimo kategorijų hierarchijų strategijas
 
@@ -52,6 +51,3 @@ Naudokite šią procedūrą norėdami nustatyti taisykles užsisakyti produktų 
 6. Lauke **Tiekėjo pasirinkimas** pasirinkite parinktį. Pasirinkite taisyklę, norėdami valdyti, kokius kategorijos tiekėjus galima pasirinkti kuriant paraiškas.  
 7. Spustelėkite **Uždaryti**. Jūsų nustatytos strategijos taisyklės taikomos tipo Suvartojimas paraiškoms. Jei norite apibrėžti tipo Papildymas paraiškų strategijas, sukurkite Strategijos taisyklių tipo taisyklę pavadinimu „Papildymo kategorijos prieigos strategijos taisyklė“.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

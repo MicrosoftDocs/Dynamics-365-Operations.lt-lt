@@ -1,7 +1,7 @@
 ---
 title: Pirkimo paraiškos apžvalga
 description: Šioje temoje aprašoma pirkimo paraiškos darbo eiga ir skirtingos galimos pirkimo paraiškos būsenos.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 11/02/2017
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage, PurchReqConsolidationPartByVendor, PurchReqConsolidationLineDetail, PurchReqConsolidationCreate, PurchReqConsolidationBulkEdit, PurchReqConsolidationAddLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a14ae2771890085308b560cea59240556c6a55a3
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 189debe46ea28808cf3081a7d8f49686298e8c8e
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4434029"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020084"
 ---
 # <a name="purchase-requisition-overview"></a>Pirkimo paraiškos apžvalga
 
@@ -68,7 +67,7 @@ Bendrąją pirkimo paraiškos būseną nustato pirkimo paraiškos eilučių būs
 <tr class="odd">
 <td>Juodraštis</td>
 <td>Juodraštis</td>
-<td>Pirkimo paraiška bei pirkimo paraiškos eilutė buvo sukurtos, bet jos dar nebuvo pateiktos peržiūrėti. Pirkimo paraišką ir pirkimo paraiškos eilutes, kurių būsena <strong>Juodraštis</strong>, galima modifikuoti. Pirkimo paraiškos arba pirkimo paraiškos eilutės, kuri buvo atšaukta, bet dar nėra pateikta peržiūrėti, būsena irgi yra <strong>Juodraštis</strong>. <strong>Pastaba:</strong> pirkimo paraišką galite pateikti arba atšaukti dokumento lygiu. Tačiau negalima pateikti arba atšaukti vienos pirkimo paraiškos eilutės.</td>
+<td>Pirkimo paraiška bei pirkimo paraiškos eilutė buvo sukurtos, bet jos dar nebuvo&#39; pateiktos peržiūrėti. Pirkimo paraišką ir pirkimo paraiškos eilutes, kurių būsena <strong>Juodraštis</strong>, galima modifikuoti. Pirkimo paraiškos arba pirkimo paraiškos eilutės, kuri buvo atšaukta, bet dar nėra&#39; pateikta peržiūrėti, būsena irgi yra <strong>Juodraštis</strong>. <strong>Pastaba:</strong> pirkimo paraišką galite pateikti arba atšaukti dokumento lygiu. Tačiau negalima&#39; pateikti arba atšaukti vienos pirkimo paraiškos eilutės.</td>
 </tr>
 <tr class="even">
 <td>Peržiūrima</td>
@@ -98,7 +97,7 @@ Jei iš naujo pateikiate pirkimo paraiškos eilutę, kuri buvo atmesta, peržiū
 <td>Visų pirkimo paraiškos eilučių peržiūros procesas baigtas ir nebeliko jokių šios pirkimo paraiškos peržiūros proceso veiksmų.
 <ul>
 <li><strong>Patvirtinta</strong> – pirkimo paraiškos eilutės peržiūros procesas baigtas, eilutė yra patvirtinta.</li>
-<li><strong>Atšaukta</strong> – pirkimo paraiškos eilutė buvo patvirtinta, bet ji buvo atšaukta, nes ji nebebus reikalinga. Galima atšaukti tik tas pirkimo paraiškos eilutes, kurios buvo patvirtintos.</li>
+<li><strong>Atšaukta</strong> – pirkimo paraiškos eilutė buvo patvirtinta, bet ji buvo atšaukta, nes ji&#39; nebebus reikalinga. Galima atšaukti tik tas pirkimo paraiškos eilutes, kurios buvo patvirtintos.</li>
 <li><strong>Uždaryta</strong> – pirkimo paraiškos eilutė buvo patvirtinta ir dokumentai buvo sugeneruoti atsižvelgiant į paraiškos paskirtį.
 <ul>
 <li>Jei paraiškos paskirtis yra suvartojimas, sugeneruojamas pirkimo paraiškos eilutės pirkimo užsakymas.</li>
@@ -124,7 +123,7 @@ Jei iš naujo pateikiate pirkimo paraiškos eilutę, kuri buvo atmesta, peržiū
 <li>Jei paraiškos paskirtis yra suvartojimas, sugeneruojamas pirkimo paraiškos eilutės pirkimo užsakymas.</li>
 <li>Jei paraiškos paskirtis yra papildymas, sugeneruojami vienas ar keli įvykdymo dokumentai.</li>
 </ul></li>
-<li><strong>Atšaukta</strong> – pirkimo paraiškos eilutė buvo patvirtinta, bet ji buvo atšaukta, nes ji nebebus reikalinga. Galima atšaukti tik tas pirkimo paraiškos eilutes, kurios buvo patvirtintos.</li>
+<li><strong>Atšaukta</strong> – pirkimo paraiškos eilutė buvo patvirtinta, bet ji buvo atšaukta, nes ji&#39; nebebus reikalinga. Galima atšaukti tik tas pirkimo paraiškos eilutes, kurios buvo patvirtintos.</li>
 </ul>
 <strong>Pastaba:</strong> jei jums nebereikia prekės, nurodytos uždarytoje pirkimo paraiškos eilutėje, turite atšaukti eilutę įvykdymo dokumente, kuris buvo sugeneruotas pirkimo paraiškos eilutei.</td>
 </tr>
@@ -202,6 +201,3 @@ Norėdami konsoliduoti patvirtintas pirkimo paraiškos eilutes, atlikite toliau 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectTree, EntAssetFunctionalLocationTree
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc4cd9ada9c1f64b434cd657eb5f5654c1328ef4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d0256cc86dc306c8addb37d2c8f335470b19177a
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433728"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019409"
 ---
 # <a name="asset-view"></a>Turto rodinys
 
@@ -48,6 +47,3 @@ Funkcinės vietos ID / Funkcinės vietos ID (jei yra daugiau nei viena funkcinė
 Jei medžio rodinyje pasirinkote turtą, galite pasirinkti **Aktyviosios užklausos** arba **Aktyvieji darbo užsakymai**, kad peržiūrėtumėte priežiūros užklausas arba darbo užsakymus, susijusius su turtu. Taip pat galite pasirinkti **Atidaryti** \> **Funkcinė vieta**, **Turtas** arba **Turto BOM,** kad būtų atidarytas susijęs vaizdas.
 
 Parinktis **Turto funkcinės vietos**, kurią galite pasirinkti lauke **Rodinys**, taip pat yra pasiekiama visose turto peržvalgose, kuriose galite pasirinkti turtą. Medžio rodinys yra rodomas skirtuke **Turto rodinys**, pavyzdžiui, ten, kur galite [kurti turtą](../objects/create-an-object.md), sukurti priežiūros užklausą arba sukurti darbo užsakymą.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

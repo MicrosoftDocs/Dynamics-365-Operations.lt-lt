@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2505f5f334c3f86959023812880e956f0ebaac09
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5e4b76ba90ab03cd35e72eff8acc89f780659fa5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433700"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020659"
 ---
 # <a name="asset-management-parameters"></a>Turto valdymo parametrai
 
@@ -34,25 +33,24 @@ Turto valdymo srityje būtina nustatyti bendruosius parametrus, susijusius su tu
 > [!NOTE]
 > Jei norite nustatyti sistemą, kuri apima demonstracinius turto valdymo funkcijų tikrinimo duomenis, žr. [Demonstracinės aplinkos diegimas](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md).
 
-**Turto** nuoroda
+## <a name="the-assets-tab"></a>Skirtukas Turtas
+
+Skirtuke **Turtas** pateikiami šie parametrai:
 
 - **Numatytoji funkcinė vieta** yra standartinė funkcinė vieta, kuri kuriant naują turtą automatiškai pasirenkama turtui.  
 - Lauke **Standartinis kalendorius** pasirinkite kalendorių, kuris bus naudojamas skaičiuojant turto KPI, jei turtui nepasirinktas joks išteklius.  
 - Lauke **Rodinys** pasirinkite standartinį rodinį, rodomą, kai atidaromas **Turto rodinys**(**Turto valdymas** > **Bendra** > **Turtas** > **Turto rodinys**).
 - **Numatytasis užklausos tipas** yra standartinis priežiūros užklausos tipas, kuris automatiškai pasirenkamas kuriant naują užklausą.  
-- Jei norite kurti su turtu susijusius projektus, projekto ryšius, susijusius su **Pagrindinio projekto**, **Projekto hierarchijos** pasirinkimu ir galimybe **Automatiškai kurti projektus**, nustatykite **Turto valdymo parametrus**.  
-- Lauke **Darbo užsakymo projekto šablonas** galite nustatyti darbo užsakymams ir antriniam turtui leistinų antrinių projektų skaičių. Darbo užsakymo šablonas naudojamas nustatyti, kiek darbo užsakymų galima sukurti turtui ir naudoti susijusiame darbo užsakymo užduoties projekte. Darbo užsakymo šablonas nustatytas lauke **Susijusio darbo užsakymo šablonas** srityje **Turto valdymo parametrai** (**Turto valdymas** > **Sąranka** > **Turto valdymo parametrai** > **Darbo užsakymai**).  
-    >[!NOTE]
-    >Susijusio darbo užsakymo šablono formatas yra maišos ženklų (#) skaičius, priklausomai nuo maksimalaus darbo užsakymų, kuriuos tikitės sukurti turtui, skaičiaus. Pavyzdys: ## leidžia sukurti iki 99 antrinių projektų.  
 - Užduočių tipų prognozės saugomos projekte, pasirinktame lauke **Prognozės projektas**. Kiekvienam užduoties tipui prognozės projekte automatiškai sukuriama nauja veikla. Užduoties tipo prognozės išsaugomos prognozės projekte.  
-- Lauke **Modelis** pasirinkite prognozės modelį, naudojamą užduoties tipui ir darbo užsakymo prognozėms.  
+- Lauke **Modelis** pasirinkite prognozės modelį, naudojamą užduoties tipui ir darbo užsakymo prognozėms.
 
+## <a name="the-work-orders-tab"></a>Skirtukas Darbo užsakymai
 
-**Darbo užsakymų** saitas
+Skirtuke **Darbo užsakymai** pateikiami šie parametrai:
 
 - **Numatytasis darbo užsakymo tipas** apibrėžia standartinius parametrus kuriant darbo užsakymą.  
 - **Prevencinis darbo užsakymo tipas** apibrėžia darbo užsakymo tipą, naudojamą kuriant darbo užsakymus iš priežiūros planų. Jei šis laukas paliekamas tuščias, naudojamas lauke **Numatytasis darbo užsakymo tipas** esantis darbo užsakymo tipas.  
-- Lauke **Susijęs darbo užsakymo šablonas** nurodomas maksimalus darbo užsakymų, kurie gali būti susieti su darbo užsakymu, skaičius. Pavyzdžiui, ## leidžia naudoti iki 99 susietų darbo užsakymų. Jei nustatote kaip kaukę aprašytą čią, susiję darbų užsakymai bus suskaityti [darbo užsakymo ID darbo užsakymas, su kuriuo susijęs darbo užsakymas] -01, -02, -03 ir taip toliau. Jei šiame lauke neapibrėžiate šablono, susijęs darbo užsakymas gaus kitą nuoseklų darbo užsakymo ID.  
+- Lauke **Susijęs darbo užsakymo šablonas** nurodomas maksimalus darbo užsakymų, kurie gali būti susieti su darbo užsakymu, skaičius. Pavyzdžiui, ## leidžia naudoti iki 99 susietų darbo užsakymų. Jei apibrėžiate šabloną, kaip aprašyta čia, susiję darbo užsakymai bus sunumeruoti [darbo užsakymo, su kuriuo susietas darbo užsakymas, ID]-01, -02, -03 ir t. t. Jei šiame lauke neapibrėžiate šablono, susijęs darbo užsakymas gaus kitą nuoseklų darbo užsakymo ID.  
 - Mygtuke **Kopijuoti gedimus** pasirinkite **Taip**, jei norite automatiškai nukopijuoti klaidas, užregistruotas darbo užsakymuose, į susijusias priežiūros užklausas. 
 - Lauke **Lygis** galite apibrėžti funkcinės vietos lygį, kuris automatiškai įterpiamas į darbo užsakymą, jei visos susijusios darbo užsakymo užduotys nurodo tą pačią funkcinę vieta. Jei darbo užsakymo užduotys ne visos susijusios su ta pačia funkcine vieta apibrėžtame lygyje, darbo užsakymo laukas **Funkcinė vieta** paliekamas tuščias. Pavyzdžiui, jei šiame lauke įterpiate skaičių „1“, jis nurodo aukščiausią funkcinės vietos struktūros lygį. Jei šiame lauke įterpiate skaičių „0“, vadinasi nesate apibrėžę konkretaus funkcinės vietos lygio, o tik tai, kad visos darbo užsakymo užduotys turi būti susietos su ta pačia funkcine vieta, kurioje ta funkcinė vieta turi būti pridėta prie darbo užsakymo.  
 - Žurnalai, naudojami registruojant suvartojimą darbo užsakyme, gali būti pasirinkti FastTab **Bendra** laukuose **Valanda**, **Prekė** ir **Išlaidos**.  
@@ -67,8 +65,9 @@ Turto valdymo srityje būtina nustatyti bendruosius parametrus, susijusius su tu
     - priežiūros ciklų nustatymui  
 - „FastTab“ **Kategorija** galima apibrėžti numatytąsias kategorijas, susijusias su vartojimu darbo užsakymuose.  
 
+## <a name="the-work-order-scheduling-tab"></a>Skirtukas Darbo užsakymo planavimas
 
-**Darbo užsakymo planavimo** saitas
+Skirtuke **Darbo užsakymo planavimas** pateikiami šie parametrai **Bendra** „FastTab”:
 
 - **Grafiko laiko ribos** apibrėžia laikotarpį dienomis, apskaičiuotą pagal numatomą darbo užsakymo pradžios datą, kai buvo suplanuotos darbo užsakymo užduotys.  
 - **Bendrasis planas** susijęs su ištekliais modulyje **Organizacijos administravimas**. Jei šiame lauke pasirinksite bendrąjį planą, galėsite peržiūrėti pajėgumo rezervavimus, susijusius su darbo užsakymais **Pajėgumų užsakymuose** (**Organizacijos administravimas** > **Ištekliai** > **Ištekliai** > pasirinkite išteklių > skirtukas **Išteklių** > mygtukas **Pajėgumų rezervavimai**). Jei šį lauką paliksite tuščią, galėsite peržiūrėti pajėgumą, susijusį su darbo užsakymais **Pajėgumų užsakymai** (**Organizacijos administravimas** \>**Ištekliai** \>**Ištekliai** \> pasirinkite išteklių \> skirtukas **Išteklių** mygtukas \> **Pajėgumas**).  
@@ -100,13 +99,10 @@ Toliau pateiktame sąraše aprašyti visis laukai, susiję su vertinimo rezultat
   - Darant prielaidą, kad joks atsakingas darbuotojas ir atsakinga darbuotojų grupė nebuvo parinkti planuojamam darbo užsakymui – sudėjus ir atėmus vertinimo rezultatų reikšmes pavyzdžio laukuose **Pageidaujamas darbuotojas**, **Pageidaujamų darbuotojų grupė**, **Turto vieta** ir **Pradžios data**, gaunate bendrą 3 010,00 įvertinimą. Tai reiškia aukštą balą darbuotojui, kuris jau pasirinktas kaip pageidaujamas darbuotojas ir įtrauktas į pageidaujamų darbuotojų grupė darbo užsakymą, darbuotojas taip pat yra toje pačioje vietoje, kaip turtas, kuriam būtina planuoti užduotį. Tai reiškia, kad yra didelė tikimybė, jog atitinkamas darbuotojas bus pasirinktas atlikti darbą planuojant darbo užsakymą.  
   - Jei į vieną iš aštuonių anksčiau nurodytų laukų įterpiama reikšmė „0,00“, rezultato balas nebus naudojamas atliekant darbo užsakymo planavimą.  
 
-**Dokumentų tipų** saitas
+## <a name="the-document-types-tab"></a>Skirtukas Dokumentų tipai
 
 Pasirinkite dokumentų tipus, kurie turėtų būti pasiekiami kaip spausdinimo priedai, susiję su darbo užsakymo ataskaita. Tai atliekama pasirinkus dokumento tipą dalyje **Pasiekiama** ir pasirinkus ![rodyklę pirmyn](media/15-setup-for-objects.png). Jei norite pašalinti pasirinktą dokumento tipą, pasirinkite dokumento tipą dalyje **Pasirinkta**, tada pasirinkite ![rodyklę atgal](media/16-setup-for-objects.png).
 
-**Numeravimo sekų** saitas
+## <a name="the-number-sequences-tab"></a>Skirtukas Numeravimas
 
 Šioje dalyje pasirinkite reikiamas numeravimo sekas. Turtui taikomos dvi numeravimo sekos: viena skirta neautomatiniu būdu sukurtam turtui, o kita – turtui, sukurtam laukiant turto.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -10,18 +10,17 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Retail, Operations
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
 ms.search.industry: Retail
-ms.author: v-kikozl
+ms.author: epopov
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b7c7c63083dceebe73bfa04169a0b2da3228c8b1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 91a3e35c973405f3b0eefb42d83847f5dd3fc60c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408223"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017231"
 ---
 # <a name="petty-cash-management-for-commerce-for-eastern-europe"></a>„Commerce“ smulkių išlaidų valdymas (Rytų Europa)
 
@@ -93,6 +92,3 @@ Naudokite šią procedūrą norėdami nustatyti mokėjimų grynaisiais pinigais 
 
 > [!NOTE]
 > Parduotuvėje būtina nustatyti ir mokėjimo grynaisiais pinigais priemonės, ir mokėjimo priemonės šalinimo arba pinigų srauto įrašo mokėjimo būdo korespondentines sąskaitas. Tokiu būdu sukuriami subalansuoti mokėjimo priemonės šalinimo arba pinigų srauto operacijų DK įrašai.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

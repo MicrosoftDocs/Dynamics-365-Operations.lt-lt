@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectTableCopyStructure, EntAssetObjectTableCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 045bb59642d766ac23939dee0900ea6911fe50fe
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 28c4685c3b6f543324953cd03646d5b15fdb8c59
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433372"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019434"
 ---
 # <a name="create-an-asset"></a>Turto kūrimas
 
@@ -94,7 +93,7 @@ Spustelėkite **Įtraukti eilutę**, tada pasirinkite atributo tipą. Tada įter
 
 „FastTab“ **Tiekėjas** pasirinkite turto tiekėjo sąskaitą. Be to, jei buvo suteikta tiekėjo garantija, galite čia įterpti garantijos informaciją.
 
-## <a name="address"></a>Adresas 
+## <a name="address"></a>Adresas
 
 „FastTab“ **Adresas** galite įterpti įrangos adresą. Jei į turtą neįtraukiamas joks adresas, turtas naudoja pagrindinio turto adresą, jei pagrindinis turtas turi adresą. Jei turto hierarchijoje adresas nėra susietas su turtu arba pagrindiniais elementais, gali būti naudojamas funkcinės vietos, kurioje įdiegtas turtas, adresas. Jei ta funkcinė vieta neturi su juos susieto adreso, turtui naudojamas pagrindinės funkcinės vietos adresas.
 
@@ -116,6 +115,3 @@ Priežiūros planai naudojami turto prevencinės priežiūros darbų reguliariai
 ## <a name="financial-dimensions"></a>Finansinės dimensijos
 
 Turtui galima pasirinkti finansines dimensijas.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

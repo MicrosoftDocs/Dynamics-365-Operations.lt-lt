@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetRoundTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 63cb2614b2037fac1129c7d2f82a26dac41a3490
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a3a64593a2155d35e78b0d854c7367fa65d1c5c8
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433627"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018551"
 ---
 # <a name="maintenance-rounds"></a>Priežiūros ciklai
 
@@ -31,7 +30,7 @@ ms.locfileid: "4433627"
 
  
 
-Skiltyje **Turto valdymas** galite sukurti priežiūros ciklus įvairiam turtui, kuriam būtina atlikti panašias užduotis reguliariais intervalais. Pavyzdžiui, sutepimo darbai arba saugos tikrinimo darbai, kurie turi būti atliekami keletui mašinų tais pačiais intervalais.  Pirmas žingsnis – sukurti priežiūros ciklą, apimantį turtą, kuriam reikalinga tokia pati priežiūros užduoties forma. Kitame žingsnyje planuokite priežiūros ciklus. Kai įvykdysite priežiūros ciklų grafiką, galėsite matyti visus užduoties įrašus, susijusius su ciklu, skiltyse **Visi priežiūros grafikai** ir **Atidaryti priežiūros grafiko eilutes**.
+Skiltyje **Turto valdymas** galite sukurti priežiūros ciklus įvairiam turtui, kuriam būtina atlikti panašias užduotis reguliariais intervalais. Pavyzdžiui, sutepimo darbai arba saugos tikrinimo darbai, kurie turi būti atliekami keletui mašinų tais pačiais intervalais. Pirmas žingsnis – sukurti priežiūros ciklą, apimantį turtą, kuriam reikalinga tokia pati priežiūros užduoties forma. Kitame žingsnyje planuokite priežiūros ciklus. Kai įvykdysite priežiūros ciklų grafiką, galėsite matyti visus užduoties įrašus, susijusius su ciklu, skiltyse **Visi priežiūros grafikai** ir **Atidaryti priežiūros grafiko eilutes**.
 
 >[!NOTE]
 >Priežiūros ciklai taip pat gali būti nustatyti funkcinėms vietoms, kuriose priežiūra atliekama funkcinėje vietoje įdiegtam turtui, kai sukuriamas pasikartojantis darbo užsakymas. Daugiau informacijos apie priežiūros ciklų arba funkcinių vietų sąranką žr. [Kurti funkcines vietas](../functional-locations/create-functional-locations.md).
@@ -117,6 +116,3 @@ Toliau esančiuose dviejuose paveikslėliuose pavaizduota grafiko užduotis dial
 - Galite nustatyti paketinę užduotį, esančią „FastTab“ **Vykdyti fone**, kad grafiko ciklai būtų vykdomi reguliariais intervalais.  
 - Jei ciklas yra įtrauktas į kelis darbo užsakymų telkinius (žr. [Darbo užsakymų telkiniai](../work-orders/work-order-pools.md)), kiekviename įrašo telkinyje pasirinkus **Atidaryti priežiūros grafiko telkinius** rodomas vienas įrašas. Taip siekiama optimizuoti darbo užsakymų telkinių filtravimo parinktis.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

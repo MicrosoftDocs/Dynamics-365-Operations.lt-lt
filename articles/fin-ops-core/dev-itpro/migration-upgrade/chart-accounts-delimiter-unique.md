@@ -1,7 +1,7 @@
 ---
 title: Sąskaitų plano skyriklio nustatymas, kad jis būtų unikalus
 description: Šioje temoje paaiškinama, kad sąskaitų plano ir dimensijų reikšmių skyrikliai negali būti tokie patys. Atnaujinę turite pakeisti skyriklio reikšmes.
-author: ryansandness
+author: panolte
 manager: AnnBe
 ms.date: 03/30/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 2ce91557334a4342fa85848fc1b746b6b12c8992
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 72965e9c6182bdac123feb1bc5cc4b82d91cd588
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688532"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020109"
 ---
 # <a name="make-the-chart-of-accounts-delimiter-unique"></a>Sąskaitų plano skyriklio nustatymas, kad jis būtų unikalus
 
@@ -41,6 +41,3 @@ Jei tarp sąskaitų plano, sąskaitų plano skyriklio ir projekto / subprojekto 
 
 ## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a>Kaip nustatyti, ar jūsų aplinkoje reikia atnaujinti skyriklius 
 Jei skyrikliai atnaujintoje aplinkoje neatitinka, segmentuoto įrašo valdiklyje arba dimensijų įrašo valdiklyje įvedant reikšmes gali kilti nestabilumų. Tai reiškia, kad įvesdami sąskaitos ir dimensijos kombinacijas visada turėsite naudoti peržvalgas arba iškeliamąjį meniu.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
