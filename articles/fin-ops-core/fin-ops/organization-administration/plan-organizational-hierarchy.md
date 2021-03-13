@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 986d8986375aac9454483d89c46c1b2b6f52e68e
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 4c779b5948370444b0b474568bb63b347c4a0831
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694694"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154414"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Organizacijos hierarchijos planavimas
 
@@ -166,7 +166,7 @@ Valdymo vienetai naudoja pirminio juridinio subjekto šalies aplinką. Tam pači
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Ar organizacija modeliuojama kaip juridinis subjektas
 
-Palaikomiems šalims / regionams galima sukurti daugumą įstatymuose numatytų ataskaitų. Informacijos apie tai, kokios ataskaitos prieinamos kiekvienoje šalyje / regione, žr. [„Microsoft Dynamics“ lokalizavimo portale](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). (Reikia „CustomerSource“ prisijungimo.)
+Palaikomiems šalims / regionams galima sukurti daugumą įstatymuose numatytų ataskaitų. Informacijos apie tai, kokios ataskaitos prieinamos kiekvienoje šalyje / regione, žr. [„Microsoft Dynamics“ lokalizavimo portale](https://docs.microsoft.com/dynamics/s-e/). (Reikia „CustomerSource“ prisijungimo.)
 
 > [!NOTE]
 > Didžiosios knygos registravimo sluoksnis suteikia galimybę atlikti koregavimo įrašus pirminei įmonei, naudojančiai kitą apskaitos standartą nei antrinė įmonė. Pavyzdžiui, įmonėje, kuri naudoja Jungtinės Karalystės visuotinai priimtą apskaitos praktiką (UK GAAP), galite atlikti koregavimo įrašus registravimo sluoksnyje. Šiuos įrašus galima konsoliduoti į pirminę įmonę, kuri naudoja JAV visuotinai priimtus apskaitos principus (GAAP). Koregavimo įrašai neturi įtakos UK GAAP ataskaitoms.
@@ -241,6 +241,3 @@ Keisti įmonių nereikia norint pasiekti duomenis iš kelių valdymo vienetų. K
 - Prieš modeliuodami pagrindinius pertvarkymo scenarijus, poveikio analizei ir tikrinimo bandymui atlikti naudokite hierarchijos įsigaliojimo datas.
 - Naudodami juodraščio režimą pakeiskite hierarchiją prieš publikuodami naują versiją gamybos aplinkoje.
 - Ribokite skaičių žmonių, turinčių teisę įtraukti organizacijos į hierarchiją arba šalinti iš jos gamybos aplinkoje. Mažesnis skaičius sumažina brangių klaidų ir reikalingų taisymų pavojų.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

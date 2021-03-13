@@ -3,7 +3,7 @@ title: Pašalintos arba nebenaudojamos platformos funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti iš „Finance and Operations“ programų platformos naujinių.
 author: sericks007
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ffd98016079ccab47864c821116c821b5df22e3b
-ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
+ms.openlocfilehash: d57182aa34c4897ef3703d0f8ed08d032c261170
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689571"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154092"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Pašalintos arba nebenaudojamos platformos funkcijos
 
@@ -32,7 +32,55 @@ ms.locfileid: "4689571"
 
 Šis sąrašas skirtas suteikti jums informacijos apie pašalintas ir nebenaudojamas funkcijas, kad galėtumėte geriau planuoti savo darbą. 
 
-Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
+Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](https://docs.microsoft.com/dynamics/s-e/). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
+
+## <a name="feature-removed-effective-january-28-2021"></a>Funkcija bus pašalinta nuo 2021 m. sausio mėn 28 d.
+
+### <a name="batch-job-to-handle-sql-index-defragmentation"></a>Paketinė užduotis SQL indekso defragmentavimui apdoroti
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo/pašalinimo priežastis** | Ši funkcija buvo pašalinta norint sumažinti klientų rodyklės valdymo vykdymo, stebėjimo ir priežiūros pridėtines išlaidas. |
+| **Pakeitė kita funkcija?**   | Ateityje rodyklės priežiūrą atliks „Microsoft” tarnybos. Tai bus daroma nuolat, nepaveikiant vartotojo darbo krūvių. |
+| **Paveiktos produkto sritys**         | „Finance and Operations” programėlės|
+| **Visuotinio diegimo parinktis**              | Debesies diegimas – paveikia „Microsoft” valdomas gamybos ir 2‑5 pakopų smėlio dėžės aplinkas. |
+| **Būsena**                         | Ši funkcija yra pašalinta. |
+
+
+## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>„Finance and Operations” programų 10.0.17 versijos platformos naujinimai
+
+> [!IMPORTANT]
+> 10.0.17 versija prieinama kaip peržiūros versijos leidimo dalis. Turinys ir funkcijos gali būti keičiami. Norėdami apie peržiūros leidimus gauti daugiau informacijos, žr. [DUK apie vienos versijos paslaugų naujinimus](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+
+### <a name="visual-studio-2015"></a>„Visual Studio 2015“
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo/pašalinimo priežastis** | Norint, kad būtų palaikomos naujausios „Visual Studio” versijos, reikia atlikti tam tikrus X + + plėtinių, skirtų „Visual Studio”, keitimus. Šie pakeitimai nesuderinami su „Visual Studio” 2015. |
+| **Pakeitė kita funkcija?**   | „Visual Studio 2017” bus pakeista „Visual Studio 2015” kaip įdiegta ir reikalinga versija. |
+| **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Nebenaudojama. Atnaujinus, ankstesni X++ įrankiai bus pašalinti iš 2015 m. „Visual Studio”, o atnaujinti įrankiai nebus įdiegti 2015 m. „Visual Studio”. Tai neturės įtakos nuomojamoms komponavimo versijoms. Komponavimo versijos virtualiosios mašinos pardavimo galimybės (komponavimo versijos apibrėžimas) turi būti atnaujintos rankiniu būdu tam, kad pakeisti priklausomybę iš „MSBuild 14.0” (2015 m. „Visual Studio”) į „MSBuild 15.0” (2017 m. „Visual Studio”), kaip aprašyta [Senstelėjusių pardavimo galimybių atnaujinimas „Azure” Pardavimo galimybės](../dev-tools/pipeline-msbuild-update.md). |
+
+### <a name="user-avatar"></a>Vartotojo pseudoportretas 
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo/pašalinimo priežastis** | Vartotojo pseudoportretas, rodomas dešinėje naršymo juostos pusėje, buvo nuskaitytas naudojant API iš „Dynamics 365” antraštės valdiklio, kuris yra nerekomenduojamas. |
+| **Pakeitė kita funkcija?**   | Vietoj to vartotojai matys savo inicialus naršymo juostos apskritime. Tai tas pats vaizdinis elementas, šiuo metu naudojamas programavimo mašinose. |
+| **Paveiktos produkto sritys**         | Žiniatinklio klientas |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Pašalinta iš 10.0.17 versijos |
+
+### <a name="enterprise-portal-ep-deprecation"></a>Įmonės portalo (EP) netinkamumas  
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo/pašalinimo priežastis** | Metaduomenų artefaktai, susieti su 2012 m. „Dynamics AX” įmonės portalu (EP), yra nerekomenduojami, nes EP niekada nebuvo palaikomas „Finance and Operations” programose. |
+| **Pakeitė kita funkcija?**   | Ne |
+| **Paveiktos produkto sritys**         | Žiniatinklio klientas |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Nebenaudojama. Numatyta, kad visas EP kodas bus pašalintas 2021 m. spalio mėn leidime. |
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>„Finance and Operations” programų 10.0.15 versijos platformos naujinimai
 
@@ -192,6 +240,3 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Ankstesni pranešimai apie pašalintas arba nebenaudojamas funkcijas
 Norėdami sužinoti daugiau apie funkcijas, kurios buvo pašalintos arba nebenaudojamos ankstesniuose leidimuose, žr. skyrių [Ankstesniuose leidimuose pašalintos arba nebenaudojamos funkcijos](../migration-upgrade/deprecated-features.md).
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

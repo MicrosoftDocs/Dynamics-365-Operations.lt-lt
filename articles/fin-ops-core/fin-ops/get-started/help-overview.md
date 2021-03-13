@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: bcf58a7005a8e61c5fba9c5065d75ebae8b909cc
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4695144"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154158"
 ---
 # <a name="help-system"></a>Žinyno sistema
 
@@ -163,7 +163,4 @@ Galite sukurti pasirinktinių užduočių vedlių ir tokiu būdu sukurti vartoto
 | [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | Šioje svetainėje laikomas ankstesnių leidimų turinys. |
 | [„Dynamics‟ bendruomenė](https://community.dynamics.com/) | Šioje svetainėje saugomi tinklaraščiai, forumai ir vaizdo įrašai. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Šioje svetainėje pateikiama vertinimo ir pardavimo informacija. |
-| [CustomerSource](https://mbs.microsoft.com/customersource/)\* | Šioje svetainėje pateikiami mokymo ištekliai, galimos atsisiųsti ataskaitos ir techninė dokumentacija ir tai yra pagrindinė aptarnavimo plano turėtojams skirta svetainė. Norint pasiekti kai kuriuos svetainės išteklius, gali prireikti paslaugos plano. |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+| [„CustomerSource”](https://docs.microsoft.com/dynamics/s-e/)\* | Šioje svetainėje pateikiami mokymo ištekliai, galimos atsisiųsti ataskaitos ir techninė dokumentacija ir tai yra pagrindinė aptarnavimo plano turėtojams skirta svetainė. Norint pasiekti kai kuriuos svetainės išteklius, gali prireikti paslaugos plano. |

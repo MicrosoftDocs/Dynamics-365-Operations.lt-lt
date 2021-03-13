@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34ebb9c6262defa5ccf520ad51101eb3bc613fef
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 53dbf90b09ce532731ecaabc45418926da6083d5
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682750"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154366"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>Finansinio našumo „PowerBI.com“ turinys
 
@@ -87,7 +87,4 @@ Toliau pateikti objektai buvo naudojami kaip „PowerBI.com‟ sprendimo **Finan
 - Didžiosios knygos
 - ChartofAccounts
 
-Šie objektai buvo naudojami skaičiuojamiems matams duomenų modelyje sukurti. Skaičiuojami matai naudojami skaičiuojant pagrindinius efektyvumo indikatorius (KPI) ir ataskaitas, naudojamas turinyje. Pagal numatytuosius parametrus turinyje pastarųjų trejų metų duomenys sutelkti į vienerius būsimus metus. Norėdami ataskaitas ir ataskaitų sritį įtraukti papildomų skaičiavimų, galite modifikuoti [„Microsoft Excel“ darbaknygę](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Ši darbaknygė yra numatytasis duomenų modelis, kuris buvo naudojamas turiniui kurti.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+Šie objektai buvo naudojami skaičiuojamiems matams duomenų modelyje sukurti. Skaičiuojami matai naudojami skaičiuojant pagrindinius efektyvumo indikatorius (KPI) ir ataskaitas, naudojamas turinyje. Pagal numatytuosius parametrus turinyje pastarųjų trejų metų duomenys sutelkti į vienerius būsimus metus. Norėdami ataskaitas ir ataskaitų sritį įtraukti papildomų skaičiavimų, galite modifikuoti [„Microsoft Excel“ darbaknygę](https://docs.microsoft.com/dynamics/s-e/). Ši darbaknygė yra numatytasis duomenų modelis, kuris buvo naudojamas turiniui kurti.

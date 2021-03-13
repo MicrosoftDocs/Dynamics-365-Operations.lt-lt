@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4103c0630b72b9b92a116f7fe702a777dd295e25
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: ac72489c3b2dacfde280606a83221e8514793701
+ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527415"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5152202"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ 2020 m. rugsėjo 26 d.
 
@@ -31,7 +30,7 @@ ms.locfileid: "4527415"
 
 Šioje temoje aprašomos naujos, pasikeitusios ar netrukus pasirodysiančios „Dynamics 365 Human Resources“ funkcijos. Daugiau informacijos apie mūsų atnaujinimo procesą ir grafiką žr. [Atnaujinimo procesas](hr-admin-setup-update-process.md).
 
-Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo datas žr. [„Dynamics 365 Human Resources” 2020 m. 2-os leidimo bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/dynamics365-human-resources/).
+Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo datas žr. [„Dynamics 365 Human Resources” 2020 m. 2-os leidimo bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>Šiame leidime
 
@@ -58,7 +57,7 @@ Toliau nurodyti klaidų ištaisymai įtraukti į šį leidimą.
 | 481401 | Kaupimo apdorojimas pakimba, kai kaupimo datos pagrindas yra po kaupimo pradžios datos ir mėnesio pabaigoje | Kaupimo apdorojimas atnaujintas, kad nebūtų delsos, jei kaupimo datos pagrindas yra po kaupimo pradžios datos ir mėnesio pabaigoje. |
 | 447167 | Baigiančių galioti įrašų sąrašuose yra neaktyvių darbuotojų | **Personalo valdymo** skirtuke **Baigiantys galioti įrašai** yra neaktyvių darbuotojų. Dabar jame yra tik aktyvūs darbuotojai. |
 | 486840 | Sąraše **Man priskirti darbo elementai** atidaromas netinkamas atostogų prašymas | Pasirinkus atostogų prašymą iš sąrašo **Man priskirti darbo elementai**, daugiau neatidaromas naujausias dabartiniam vartotojui priskirtas atostogų prašymas. |
-| 506868 | „Common Data Service” objekto **Pareigos** laukas **Pavadinimas** nenustatytas | Laukas **Pavadinimas**, esantis objektuose **Darbas** ir **Pareigos**, buvo rodomas kaip nenustatytas. Dabar laukas **Pavadinimas** rodomas. |
+| 506868 | „Dataverse” objekto **Pareigos** laukas **Pavadinimas** nenustatytas | Laukas **Pavadinimas**, esantis objektuose **Darbas** ir **Pareigos**, buvo rodomas kaip nenustatytas. Dabar laukas **Pavadinimas** rodomas. |
 | 430359 | Nepavyksta pasiekti atleidimo kontrolinio sąrašo užduočių, kai priskirti vadovo ir darbuotojo vaidmenys | Darbuotojai, kurių atleidimo data ateityje, negalėjo pasiekti jų kontrolinio sąrašo užduočių, jei jie buvo tik darbuotojo ar vadovo vaidmens vartotojai. Dabar tik darbuotojo ar vadovo vaidmens vartotojai, kurių atleidimo data ateityje, gali pasiekti atleidimo užduotis. |
 | 458102 | Sukurtas naujas darbuotojas neatsiranda objekte **Darbuotojo algalapio informacija** | Nauji darbuotojai įtraukiami į darbuotojo algalapio informacijos objektą neatidarant tų darbuotojų algalapių informacijos prieš eksportuojant objektą. |
 
@@ -85,6 +84,3 @@ Norėdami gauti visą planuojamų funkcijų ir jų suplanuotų leidimų sąraš�
 [„Dynamics 365 Human Resources“ 2020 m. 2 leidimo bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
 [Atnaujinimo procesas](hr-admin-setup-update-process.md)
 [Funkcijų valdymas](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
