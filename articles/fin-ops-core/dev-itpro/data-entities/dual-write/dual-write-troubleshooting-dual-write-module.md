@@ -1,5 +1,5 @@
 ---
-title: Trikčių, susijusių su dvigubo rašymo moduliu „Finance and Operations” programose, šalinimas
+title: Dvigubo rašymo „Finance and Operations“ programų problemų šalinimas
 description: Šioje temoje pateikiama trikčių šalinimo informacija, kuri gali padėti išspręsti problemas, susijusias su dvigubo rašymo moduliu „Finance and Operations” programose.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2241e7e6219f95115f55bc45a4d94550276e1e21
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3ffeb2de0acc1761bccf62a1a124852c504e2a3a
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683628"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5131250"
 ---
-# <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a>Trikčių, susijusių su dvigubo rašymo moduliu „Finance and Operations” programose, šalinimas
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Dvigubo rašymo „Finance and Operations“ programų problemų šalinimas
 
 [!include [banner](../../includes/banner.md)]
 
@@ -44,7 +44,7 @@ Jeigu negalite atidaryti **dvigubo rašymo** puslapio darbo srityje **Duomenų v
 
 **Reikiami kredencialai, norint išspręsti problemą:** tas pats vartotojas, nustatęs dvigubą rašymą.
 
-Kai bandote konfigūruoti naują dvigubo rašymo objektą, galite gauti toliau pateiktą klaidos pranešimą. Vienintelis vartotojas, galintis sukurti schemą, yra vartotojas, nustatęs dvigubo rašymo ryšį.
+Kai bandote konfigūruoti naują dvigubo rašymo lentelę, galite gauti toliau pateiktą klaidos pranešimą. Vienintelis vartotojas, galintis sukurti schemą, yra vartotojas, nustatęs dvigubo rašymo ryšį.
 
 *Atsakymo būsenos kodas nenurodo sėkmės: 401 (neautorizuota)*
 
@@ -77,7 +77,7 @@ Kai bandote sustabdyti susiejimus su lentele, galite gauti tokį klaidos praneš
 
 Norėdami išspręsti šią problemą, sukurkite duomenų integravimo komandai skirtą bilietą. Pridėkite tinklo sekimą, kad duomenų integravimo komanda galėtų pažymėti vidines schemas kaip **Nevykdomos**.
 
-## <a name="error-while-trying-to-start-an-table-mapping"></a>Bandant pradėti lentelių susiejimą įvyko klaida
+## <a name="error-while-trying-to-start-a-table-mapping"></a>Klaida, įvykusi bandant pradėti lentelių susiejimą
 
 Bandydami nustatyti susiejimo būseną į **Vykdoma**, galite gauti klaidos pranešimą, panašų į pateiktą toliau:
 
@@ -86,7 +86,4 @@ Bandydami nustatyti susiejimo būseną į **Vykdoma**, galite gauti klaidos pran
 Šios klaidos sprendimas priklauso nuo klaidos priežasties.
 
 + Jei susiejime yra priklausomieji susiejimai, įsitikinkite, kad įgalinote šios lentelės susiejimo priklausomuosius susiejimus.
-+ Gali trūkti susiejimo šaltinio arba paskirties laukų. Jei „Finance and Operations” programoje trūksta lauko, atlikite veiksmus, aprašytus skyriuje [Trūkstamų objektų laukų problema schemose](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps). Jei „Dataverse” trūksta lauko, spustelėkite susiejimo mygtuką **Atnaujinti lenteles**, kad laukai būtų automatiškai įvesti į susiejimą.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
++ Gali trūkti susiejimo šaltinio arba paskirties stulpelių. Jei „Finance and Operations” programoje trūksta stulpelio, atlikite veiksmus, aprašytus skyriuje [Trūkstamų lentelių stulpelių problema schemose](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Jei „Dataverse” trūksta stulpelio, spustelėkite susiejimo mygtuką **Atnaujinti lenteles** tam, kad stulpeliai būtų automatiškai įvesti į susiejimą.

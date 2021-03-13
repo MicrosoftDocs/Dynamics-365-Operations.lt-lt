@@ -1,6 +1,6 @@
 ---
 title: Formato keitimas siekiant generuti dokumentus, kuriuose yra prašymo duomenys
-description: Norėdami atlikti šios procedūros veiksmus, turite pirma užbaigti procedūrą „ER generuoti dokumentus su programos duomenų atnaujinimu (3 dalis – modifikuoti modelį ir susiejimą)“.
+description: Šioje temoje aprašoma, kaip kurti elektroninių ataskaitų konfigūraciją, norint generuoti elektroninį dokumentą ir atnaujinti programos duomenis.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7dfa8fcb3525876da66659fe3bd8bbe3b81a37a3
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: e820e909bcd80b4747c06ccaaeb05c03f52b6963
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684552"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129402"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Formato keitimas siekiant generuti dokumentus, kuriuose yra prašymo duomenys
 
@@ -149,6 +149,3 @@ Veiksmai šioje procedūroje paaiškina, kaip kurti elektroninių ataskaitų (ER
 46. Uždarykite puslapį.
 47. Uždarykite puslapį.
 48. Uždarykite puslapį.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

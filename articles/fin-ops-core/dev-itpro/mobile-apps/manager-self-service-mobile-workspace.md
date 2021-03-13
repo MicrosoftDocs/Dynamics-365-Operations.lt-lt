@@ -1,6 +1,6 @@
 ---
 title: Mobilioji darbo sritis Mano komanda
-description: Šioje temoje pateikiama informacija apie mobiliąją darbo sritį Mano komanda, kuri leidžia vadovams peržiūrėti komandos tiesiogines ataskaitas ir matyti išplėstinį personalą. Vartotojai taip pat gali pagirti asmenis, esančius jų ataskaitų grandinėje.
+description: Šioje temoje pateikiama informacija apie mobiliąją darbo sritį Mano komanda, kuri leidžia vadovams peržiūrėti komandos tiesiogines ataskaitas ir matyti išplėstinį personalą.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 12/01/2017
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6ac3bf0a6ce20866f749b0c14030b70770e5589c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 79678c42545a07054af00cd408e04e9d1a42caed
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680975"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127550"
 ---
-# <a name="my-team-mobile-workspace"></a>Mobilioji darbo sritis Mano komanda
+# <a name="my-team-mobile-workspace"></a>Mobilioji darbo sritis „Mano komanda”
 
 [!include [banner](../includes/banner.md)]
 
@@ -97,6 +97,3 @@ Mobiliosios programos „Finance and Operations“ atsisiuntimas ir diegimas.
 1.  Pasirinkite **Siųsti pagyrimą**. 
 1. Įveskite pagyrimo tekstą, kurį norite siųsti. 
 1. Pasirinkite **Atlikta**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

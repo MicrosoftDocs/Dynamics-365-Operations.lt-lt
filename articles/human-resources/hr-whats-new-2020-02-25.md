@@ -1,8 +1,8 @@
 ---
 title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. vasario 25 d.)
 description: Šiame straipsnyje aprašomos naujos arba pasikeitusios „Microsoft Dynamics 365 Human Resources” funkcijos 2020 m. vasario 25 d.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/25/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1302686aeba52de484ad520efe292fafefc39ebf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 4faecb83518f3ef8af825872abc2a6ffb94162fc
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526815"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128027"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-25-2020"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. vasario 25 d.)
 
@@ -55,15 +55,15 @@ Atlikus šį pakeitimą, nuo šiol, kai bandysite pašalinti pareigas ir darbuot
 
 Šis pakeitimas pataiso problemą, kai prie našumo peržiūros pridedami papildomi išsiregistravimo dalyviai.
 
-## <a name="worker-position-assignment-not-created-in-common-data-service-when-selected-on-the-new-worker-dialog-413479"></a>Darbuotojo pareigų priskyrimas Common Data Service nėra sukuriamas, kai pasirinktas naujo darbuotojo dialogo lange (413479)
+## <a name="worker-position-assignment-not-created-in-dataverse-when-selected-on-the-new-worker-dialog-413479"></a>Darbuotojo pareigų priskyrimas Dataverse nėra sukuriamas, kai pasirinktas naujo darbuotojo dialogo lange (413479)
 
-Šis pakeitimas pataiso problemą, kai darbuotojas įdarbinamas ir į naujas pareigas paskiriamas per dialogo langą **Naujas darbuotojas**. Dabar pareigų priskyrimas atsispindi Common Data Service.
+Šis pakeitimas pataiso problemą, kai darbuotojas įdarbinamas ir į naujas pareigas paskiriamas per dialogo langą **Naujas darbuotojas**. Dabar pareigų priskyrimas atsispindi Dataverse.
 
 ## <a name="coming-soon"></a>Jau greitai
 
-### <a name="updated-common-data-service-solution"></a>Atnaujintas „Common Data Service“ sprendimas
+### <a name="updated-dataverse-solution"></a>Atnaujintas „Dataverse“ sprendimas
 
-Nauju „Common Data Service” sprendimu greitai galėsite naudotis atlikdami šiuos keitimus:
+Nauju „Dataverse” sprendimu greitai galėsite naudotis atlikdami šiuos keitimus:
 
 | Aprašymas | Keitimas |
 | ----------------------------------------- | --- |
@@ -74,9 +74,9 @@ Nauju „Common Data Service” sprendimu greitai galėsite naudotis atlikdami �
 | Nauji kintamosios atlyginimo dalies sąrankos objektai | **Kompensacijų kitimo plano tipas**</br>**Kompensacijų kitimo planas**</br>**Kintamosios atlyginimo dalies paskirstymo taisyklės**</br>**Kompensacijų kitimo plano lygis** |
 | Naujas objektas **Darbuotojo įdarbinimo kalendorius** | Pridėta **Darbo kalendoriaus objektas** |
 | Naujas objektas **Algalapio pareigų informacija** | Pridėta **Algalapio pareigų informacija** |
-| Naujas subjektas **Pavadinimas** | Pridėtas **Pavadinimas**. Į „Human Resources“ ir „Common Data Service“ sinchronizavimo procesą bus įtrauktas naujas objektas **Pavadinimas**. Jis iš pradžių nebus nurodomas iš objektų **Pareigos** ar **Darbas**. |
+| Naujas subjektas **Pavadinimas** | Pridėtas **Pavadinimas**. Į „Human Resources“ ir „Dataverse“ sinchronizavimo procesą bus įtrauktas naujas objektas **Pavadinimas**. Jis iš pradžių nebus nurodomas iš objektų **Pareigos** ar **Darbas**. |
 
-Per artimiausias kelias savaites šie objektų pakeitimai bus galimi visose aplinkose. Norėdami rankiniu būdu įdiegti naujausią Common Data Service sprendimą, skirtą „Human Resources“:
+Per artimiausias kelias savaites šie objektų pakeitimai bus galimi visose aplinkose. Norėdami rankiniu būdu įdiegti naujausią Dataverse sprendimą, skirtą „Human Resources“:
 
 1.  Eikite į [„Power Platform“ administravimo centrą](https://admin.powerplatform.microsoft.com).
 
@@ -106,5 +106,3 @@ Per artimiausias kelias savaites šie objektų pakeitimai bus galimi visose apli
 [„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
 [Funkcijų valdymas](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

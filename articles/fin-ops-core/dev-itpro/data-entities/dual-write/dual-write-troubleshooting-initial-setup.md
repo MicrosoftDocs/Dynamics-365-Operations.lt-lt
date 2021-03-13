@@ -1,6 +1,6 @@
 ---
-title: Trikčių šalinimas pradinės sąrankos metu
-description: Šioje temoje pateikiama trikčių šalinimo informacija, kuri gali padėti išspręsti problemas, kurios gali kilti pradinės dvigubos rašymo integracijos tarp „Finance and Operations” programų ir „Dataverse” sąrankos metu.
+title: Problemų šalinimas pradinio nustatymo metu
+description: Šioje temoje pateikiama informacija, kuri gali padėti išspręsti problemas, kylančias pradinės dvigubos rašymo integracijos sąrankos metu.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 03/16/2020
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5ac6ec5003794fb5875fed6a2c4403c1444ab8b2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cfbc1ab3ef6d47f6ec2d8ca4ca4b8940784e6e49
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685592"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129986"
 ---
-# <a name="troubleshoot-issues-during-initial-setup"></a>Trikčių šalinimas pradinės sąrankos metu
+# <a name="troubleshoot-issues-during-initial-setup"></a>Problemų šalinimas pradinio nustatymo metu
 
 [!include [banner](../../includes/banner.md)]
 
@@ -71,13 +71,13 @@ Norėdami suteikti programos sutikimą, atlikite šiuos veiksmus.
 
 ## <a name="verify-that-company-data-and-dual-write-teams-are-set-up-correctly-during-linking"></a>Patikrinkite, ar susiejimo metu yra tinkamai nustatyti įmonės duomenys ir dvigubo rašymo komandos
 
-Siekiant užtikrinti, kad dvigubas rašymas veiktų tinkamai, įmonės, kurias pasirenkate konfigūravimo metu, yra kuriamos „Dataverse” aplinkoje. Pagal numatytuosius parametrus, šios įmonės yra tik skaitomas, o ypatybė **IsDualWriteEnable** yra nustatyta kaip **Teisinga**. Be to, sukuriami numatytasis verslo struktūros vieneto savininkas ir komanda ir įtraukiamas įmonės pavadinimas. Prieš įgalindami schemas, patikrinkite, ar nurodytas numatytasis komandos savininkas. Norėdami rasti objektą **Įmonės (CDM\_įmonė)**, atlikite šiuos veiksmus.
+Siekiant užtikrinti, kad dvigubas rašymas veiktų tinkamai, įmonės, kurias pasirenkate konfigūravimo metu, yra kuriamos „Dataverse” aplinkoje. Pagal numatytuosius parametrus, šios įmonės yra tik skaitomas, o ypatybė **IsDualWriteEnable** yra nustatyta kaip **Teisinga**. Be to, sukuriami numatytasis verslo struktūros vieneto savininkas ir komanda ir įtraukiamas įmonės pavadinimas. Prieš įgalindami schemas, patikrinkite, ar nurodytas numatytasis komandos savininkas. Norėdami rasti lentelę **Įmonės (CDM\_įmonė)**, atlikite šiuos veiksmus.
 
 1. Modeliu grįstos „Dynamics 365” programos viršutiniame dešiniajame kampe pasirinkite filtrą.
 2. Išplečiamajame sąraše pasirinkite **Įmonė**.
 3. Norėdami pamatyti rezultatus, pasirinkite **Vykdyti**.
 4. Pasirinkite įmonę, kuri buvo susieta konfigūruojant dvigubą rašymą.
-5. Patikrinkite, ar lauke **Numatytoji komanda savininkė** yra reikšmė. Šioje iliustracijoje laukas **Numatytoji komanda savininkė** nustatytas kaip **USMF dvigubas rašymas**.
+5. Patikrinkite, ar stulpelyje **Numatytoji komanda savininkė** yra reikšmė. Šioje iliustracijoje stulpelis **Numatytoji komanda savininkė** nustatytas kaip **USMF dvigubas rašymas**.
 
     ![Numatytosios komandos savininkės tikrinimas](media/default_owning_team.png)
 
@@ -88,6 +88,3 @@ Kai bandote įgalinti schemas, galite gauti tokį klaidos pranešimą:
 *Dvigubo rašymo funkcijos klaida – nepavyko registruoti priedo: \[(nepavyko gauti skaidinio schemos projektui DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea. Klaida. Viršijamas maksimalus susiejimui leidžiamų skaidinių skaičius DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea)\], įvyko viena ar daugiau klaidų.*
 
 Dabartinis limitas susiejant aplinkas yra maždaug 40 juridinių lentelių. Ši klaida įvyksta, jei bandote įgalinti schemas, o daugiau nei 40 juridinių lentelių yra susieti su aplinkomis.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

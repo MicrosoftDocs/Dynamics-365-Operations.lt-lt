@@ -1,8 +1,8 @@
 ---
 title: Kas nauja ar pasikeitė „Dynamics 365 Human Resources” (2020 m. liepos 8 d.)
 description: Šioje temoje aprašomos naujos arba pasikeitusios „Microsoft Dynamics 365 Human Resources” funkcijos 2020 m. liepos 8 d.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 07/08/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba0bb54b44f66aa73056667a93a3f8e6f7f618ee
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 14dfd925009cb2a9d40044e27f28521ff4d331b7
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528478"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130402"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Human Resources” (2020 m. liepos 8 d.)
 
@@ -71,9 +71,9 @@ Sukurti ir pakeisti sistemos laukeliai dabar yra įjungti **WorkCalendarEmployme
 
 Šis leidimas pataiso klaidą (jokios nuorodos) rodomame darbuotojų įraše, kai jūs priimate į darbą darbuotoją naudodami parinktį **Samdyti ir įtraukti informaciją**.
 
-## <a name="changes-made-in-the-common-data-service-worker-entity-dont-reflect-in-human-resources-455652"></a>Pakeitimai atlikti „Common Data Service Worker“ objekte nepasirodo Žmogiškuosiuose ištekliuose (455652)
+## <a name="changes-made-in-the-dataverse-worker-entity-dont-reflect-in-human-resources-455652"></a>Pakeitimai atlikti „Dataverse Worker“ objekte nepasirodo Žmogiškuosiuose ištekliuose (455652)
 
-Toliau pateiktų laukelių pakeitimai **Darbutoojas** objekte „Common Data Service“ nepasirodys Žmogiškuosiuose ištekliuose:
+Toliau pateiktų laukelių pakeitimai **Darbutoojas** objekte „Dataverse“ nepasirodys Žmogiškuosiuose ištekliuose:
 
 - **Darbas iš namų**
 - **Paaukštinimo data**
@@ -131,9 +131,9 @@ DMF objektas dabar pasiekiamas kaupimo sustabdymams.
 
 ## <a name="coming-soon"></a>Jau greitai
 
-## <a name="checklist-entities-included-in-common-data-service"></a>Kontrolinio sąrašo objektai, nurodyti „Common Data Service”
+## <a name="checklist-entities-included-in-dataverse"></a>Kontrolinio sąrašo objektai, nurodyti „Dataverse”
 
-Tikrinimo objektai Įtraukimo, Atleidimo, Perleidimo ir Verslo procesams bus greitai prieinami „Common Data Service“.
+Tikrinimo objektai Įtraukimo, Atleidimo, Perleidimo ir Verslo procesams bus greitai prieinami „Dataverse“.
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
@@ -141,6 +141,3 @@ Tikrinimo objektai Įtraukimo, Atleidimo, Perleidimo ir Verslo procesams bus gre
 [„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
 [Funkcijų valdymas](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

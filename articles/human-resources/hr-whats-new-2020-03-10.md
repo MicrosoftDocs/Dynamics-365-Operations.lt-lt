@@ -1,8 +1,8 @@
 ---
 title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. kovo 10 d.)
 description: Šiame straipsnyje aprašomos naujos arba pasikeitusios „Microsoft Dynamics 365 Human Resources” funkcijos 2020 m. kovo 10 d.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 03/10/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-03-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 944481727f3222a10f128ac3078c117f5ae7d193
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: b1819ddb996d83b03151eb228ec740f603f98409
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526925"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127998"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-10-2020"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. kovo 10 d.)
 
@@ -45,7 +45,7 @@ Darbuotojo užduoties priežiūros formoje pateikiamos visos darbuotojo užduoty
 
 Pavyzdys: Benjamin Martin yra išmokos administratorius. Atliekant darbuotojo įleidimą į kolektyvą, užduotys sukuriamos Benjaminui, kad būtų galima peržiūrėti naujo darbuotojo išmokų pasirinkimą. Rodomos Benjamino užduotys, kurias jis yra atlikęs, ir būsimos užduotys, kurias jis turi atlikti. Benjaminas nusprendė palikti įmonę, todėl jo užduotys turi būti arba iš naujo priskirtos, arba pašalintos. Užduoties priežiūros forma (formos **Darbuotojas** veiksmų srityje) leidžia visas Benjamino užduotis iš naujo priskirti kitam darbuotojui arba pašalinti.  
 
-## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>Common Data Service sprendimas dabar galimas su šiais pakeitimais:
+## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>Dataverse sprendimas dabar galimas su šiais pakeitimais:
 
 | aprašymas | Pakeitimas |
 | --- | --- |
@@ -57,18 +57,18 @@ Pavyzdys: Benjamin Martin yra išmokos administratorius. Atliekant darbuotojo į
 | Nauji kintamosios atlyginimo dalies sąrankos objektai | <ul><li>**Kompensacijų kitimo plano tipas**</li><li>**Kompensacijų kitimo planas**</li><li>**Kintamosios atlyginimo dalies paskirstymo taisyklės**</li><li>**Kompensacijų kitimo plano lygis**</li></ul> |
 | Naujas objektas **Darbuotojo įdarbinimo kalendorius** | <ul><li>Pridėta **Darbo kalendoriaus objektas**</li></ul> |
 | Naujas objektas **Algalapio pareigų informacija** | <ul><li>Pridėta **Algalapio pareigų informacija**</li></ul> |
-| Naujas subjektas **Pavadinimas** | <ul><li>**Pavadinimas** pridėtas</li></ul> Naujas objektas **Pavadinimas** įtrauktas į Common Data Service, bet šiuo metu nėra nurodomas iš objektų **Pareigos** arba **Darbas**. |
+| Naujas subjektas **Pavadinimas** | <ul><li>**Pavadinimas** pridėtas</li></ul> Naujas objektas **Pavadinimas** įtrauktas į Dataverse, bet šiuo metu nėra nurodomas iš objektų **Pareigos** arba **Darbas**. |
 
 > [!NOTE]
-> Abiejų pareigų ir įdarbinimo finansinės dimensijos suteikia vienos krypties integraciją, skirtą atnaujinimams iš „Human Resources“ į Common Data Service. Finansinių dimensijų atnaujinimai dabar nesinchronizuojami iš Common Data Service į „Human Resources“.
+> Abiejų pareigų ir įdarbinimo finansinės dimensijos suteikia vienos krypties integraciją, skirtą atnaujinimams iš „Human Resources“ į Dataverse. Finansinių dimensijų atnaujinimai dabar nesinchronizuojami iš Dataverse į „Human Resources“.
 
-Per artimiausias kelias savaites šie objektų pakeitimai bus galimi visose aplinkose. Norėdami rankiniu būdu įdiegti naujausią Common Data Service sprendimą, skirtą „Human Resources“:
+Per artimiausias kelias savaites šie objektų pakeitimai bus galimi visose aplinkose. Norėdami rankiniu būdu įdiegti naujausią Dataverse sprendimą, skirtą „Human Resources“:
 
 1.  Eikite į [„Power Platform“ administravimo centrą](https://admin.powerplatform.microsoft.com).
 
 2.  Pasirinkite **Aplinkos**.
 
-3.  Raskite aplinką, kurią norite atnaujinti. Aplinka turėtų atitikti „Human Resources“ formoje **Apie** esančios sekcijos **Common Data Service informacija** reikšmę **Aplinkos pavadinimas**.
+3.  Raskite aplinką, kurią norite atnaujinti. Aplinka turėtų atitikti „Human Resources“ formoje **Apie** esančios sekcijos **Dataverse informacija** reikšmę **Aplinkos pavadinimas**.
 
 4.  Pasirinkite aplinką, kad peržiūrėtumėte detalią aplinkos informaciją.
 
@@ -106,5 +106,3 @@ Per artimiausias kelias savaites šie objektų pakeitimai bus galimi visose apli
 [„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
 [Funkcijų valdymas](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

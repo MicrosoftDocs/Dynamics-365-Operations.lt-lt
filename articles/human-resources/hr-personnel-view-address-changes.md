@@ -2,7 +2,7 @@
 title: Peržiūrėti ir valdyti adresų pakeitimus
 description: Ši tema aiškina, kaip jūs galite peržiūrėti ir valdyti adresų keitimus „Dynamics 365 Human Resources“.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 269074
 ms.assetid: 426c6127-42ee-4163-8dd0-b2867f95581d
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a69d723b45e834b022491c8eaf2a7fb580e54f1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8746f449f2b30b2e2119446c1912842c420acbfc
+ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419664"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5152058"
 ---
 # <a name="view-and-manage-address-changes"></a>Peržiūrėti ir valdyti adresų pakeitimus
 
@@ -125,9 +125,6 @@ Kai kuriais atvejais, jums gali reikėti atnaujinti adresą tam, kad pakeistumė
 Kai pasirenkate **Adreso keitimas** plytelę, naujas puslapis rodo visų adresų keitimų išsamią informaciją. Galite pasirinktinai pasirinkti **Įtraukti ateities adreso keitimus** dešiniame viršutiniame kampe tam, kad rodytumėte adreso keitimus su ateities data.
 
 > [!NOTE]
-> Jei norite gauti pranešimą ar elektroninį laišką apie šio adreso keitimus, galite sukurti naujo pranešimo taisyklę **Parinktys** skirtuke veiksmų juostoje. Dėl išsamesnės informacijos apie pranešimo taisykles, žr. [Sukurti pranešimo taisykles](/fin-ops-core/fin-ops/get-started/create-alert-rules.md).<br><br>
+> Jei norite gauti pranešimą ar elektroninį laišką apie šio adreso keitimus, galite sukurti naujo pranešimo taisyklę **Parinktys** skirtuke veiksmų juostoje. Dėl išsamesnės informacijos apie pranešimo taisykles, žr. [Sukurti pranešimo taisykles](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts).<br><br>
 
-> Jei norite konfigūruoti darbo srautą adreso keitimams, galite pasirinkite **Siųsti į išorę** parinktį savo pranešimo taisyklėje ir tuomet naudoti „Power Automate“ tam, kad paskatintumėte verslo įvykį ir konfigūruotumėte darbo srautą. Dėl platesnės informacijos, žr. [Pranešimai kaip verslo įvykiai](/fin-ops-core/dev-itpro/business-events/alerts-business-events.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> Jei norite konfigūruoti darbo srautą adreso keitimams, galite pasirinkite **Siųsti į išorę** parinktį savo pranešimo taisyklėje ir tuomet naudoti „Power Automate“ tam, kad paskatintumėte verslo įvykį ir konfigūruotumėte darbo srautą. Dėl platesnės informacijos, žr. [Pranešimai kaip verslo įvykiai](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts#alerts-as-business-events).

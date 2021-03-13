@@ -1,9 +1,9 @@
 ---
 title: Darbo užsakymų kūrimas
 description: Šioje temoje aiškinama, kaip sukurti darbo užsakymus turto valdyme.
-author: josaw1
+author: johanhoffmann
 manager: tfehr
-ms.date: 08/27/2019
+ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,47 +11,87 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
-ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f94f8bc20753e38ce1cb6eccdfbc85c2e491ffad
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: 876aef9f3f470490bb385e1861c837dcfa82db69
+ms.sourcegitcommit: 1e615288db245f83c5d5e0cd45315400f8946beb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433633"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "5131798"
 ---
 # <a name="creating-work-orders"></a>Darbo užsakymų kūrimas
 
 [!include [banner](../../includes/banner.md)]
 
- 
+Suplanavus prevencines priežiūros užduotis, kitas žingsnis yra sukurti jų darbo užsakymą. Šį veiksmą atlikti galite naudodami vieną iš priežiūros grafikų. Suplanuotos užduotys priežiūros grafike gali turėti skirtingus nuorodos numerius, kaip apibūdinta šioje lentelėje.
 
-Kai suplanavote prevencinės priežiūros užduotis, kitas žingsnis yra sukurti šių užduočių darbo užsakymą. Tai atliekame viename iš priežiūros grafikų. Suplanuotos užduotys priežiūros grafike gali turėti skirtingus nuorodos numerius.
+| Nuorodos tipas | Aprašymas |
+|---|---|
+| Priežiūros planai | Prevencinės priežiūros užduotys, pagrįstos *Laikas* arba *Skaitiklis* priežiūros plano tipu. |
+| Priežiūros ciklai | Prevencinės priežiūros užduotys, turinčios kelis turtus, kuriems reikia atlikti panašaus tipo priežiūrą. |
+| Priežiūros užklausa | Rankiniu būdu sukurta turto priežiūros ar atkūrimo užklausa. Šią užklausą galima konvertuoti į darbo užsakymą. |
 
-| Nuorodos tipas | Aprašymas                    |
-|-----------------------|------------------------------------------------------------------------------------------------------------|
-| Priežiūros planai     | Prevencinės priežiūros užduotys, pagrįstos priežiūros plano tipais Laikas arba Skaitiklis.                       |
-| Priežiūros ciklai    | Prevencinės priežiūros užduotys, kuriose yra keli turtai, kuriems reikia atlikti panašaus tipo priežiūrą.           |
-| Priežiūros užklausa   | Rankiniu būdu sukurta turto priežiūros arba remonto užklausa, kurią galima pakeisti į darbo užsakymą. |
+## <a name="create-work-orders-based-on-your-maintenance-schedule"></a>Darbo užsakymų, remiantis jūsų priežiūros grafiku, kūrimas
 
+Norėdami sukurti darbo užsakymus pagal jūsų priežiūros grafiką, atlikite šiuos veiksmus.
 
-1. Spustelėkite **Turto valdymas** > **Bendrieji dalykai** > **Visi priežiūros grafikai** arba **Atviros priežiūros grafiko eilutės**, arba **Atviri priežiūros grafiko telkiniai**.
+1. Atidarykite vieną iš šių puslapių, atsižvelgiant į tai, kaip norite pasirinkti jūsų darbo užsakymų grafiko elementus:
 
-2. Pasirinkite suplanuotas priežiūros užduotis, kurioms norite sukurti darbo užsakymą, tada spustelėkite **Darbo užsakymas**. Dialogo lange **Darbo užsakymų kūrimas** bendras pasirinktų eilučių numatytų valandų skaičius rodomas lauke **Numatytos priežiūros valandos**.
+    - Visi priežiūros grafikai (**Turto valdymas \> Valdymo grafikas \> Visi priežiūros grafikai**)
+    - Atviros priežiūros grafiko eilutės (**Turto valdymas \> Valdymo grafikas \> Atviros priežiūros grafiko eilutės**)
+    - Atviri priežiūros grafiko telkiniai (**Turto valdymas \> Valdymo grafikas \> Atviri priežiūros grafiko telkiniai**)
 
-3. Skyriuje **Parametrai** pasirinkite, kiek darbo užsakymų turi būti sukurta. Vienai priežiūros grafiko eilutei galite sukurti vieną darbo užsakymą arba kelis darbo užsakymus pagal pasirinkimus skyriuje **Vienas darbo užsakymas vienai**.
+1. Tinklelyje pažymėkite žymės langelį kiekvienai suplanuotai priežiūros užduočiai, kuriai norite sukurti darbo užsakymą. Tada veiksmų srityje pasirinkite **Darbo užsakymas**.
 
-4. Pažymėkite **Darbo užsakymo tipas**, kuris bus naudojamas visiems sukurtiems darbo užsakymams. Toliau pateiktame paveikslėlyje parodytas dialogo lango **Darbo užsakymų kūrimas** pavyzdys.
+    Atsiranda **Kurti darbo užsakymus** dialogo langas. Lauke **Priežiūros prognozės valandos** rodomas bendras prognozuojamų valandų skaičius pasirinktoms eilutėms.
 
-![1 pav.](media/18-preventive-maintenance.png)
+    ![Dialogo langas Kurti darbo užsakymus](media/18-preventive-maintenance.png)
 
-5. Spustelėkite **Gerai**. Sukurtas vienas arba keli darbo užsakymai.
+1. Skyriuje **Parametrai** nurodykite skaičių darbo užsakymų, kurie turi būti sukurti. Pasirinkite vieną iš toliau pateiktų pasirinkčių:
 
+    - **Vienas darbo užsakymas vienai eilutei** – Kurkite vieną darbo užsakymą vienai priežiūros grafiko eilutei.
+    - **Vienas darbo užsakymas pagal** – Kurkite darbo užsakymus, sugrupuotus pagal kitų parinkčių, kurios tampa galimos pasirinkus šią parinktį, nustatymus.
 
+1. Lauke **Darbo užsakymo tipas** pasirinkite darbo užsakymo tipą, kuris bus naudojamas visiems jūsų kuriamiems darbo užsakymams.
+1. Pasirinkite **Gerai** darbo užsakymų kūrimui pagal savo parametrus.
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Darbo užsakymo eilučių, sukuriamų automatiškai priežiūros plano vykdymo metu, grupavimas
+
+> [!IMPORTANT]
+> Šiame skyriuje aprašytos funkcijos yra galimos kaip peržiūros versijos leidimo dalis. Turinys ir funkcijos gali būti keičiami. Norėdami apie peržiūros leidimus gauti daugiau informacijos, žr. [DUK apie vienos versijos paslaugų naujinimus](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+
+Ši funkcija leidžia jums nustatyti darbo užsakymo eilučių grupavimo pagal vieną darbo užsakymą taisykles, kai sistema yra nustatyta generuoti darbo užsakymus automatiškai, atsižvelgiant į priežiūros planą. Anksčiau automatiškai sugeneruotuose darbo užsakymuose galėjo būti tik viena eilutė. Tačiau dabar galite grupuoti darbo užsakymus pagal, pavyzdžiui, turtą, turto tipą ar funkcinę vietą. (Rankiniu būdu sugeneruotus darbo užsakymus tokiu būdų jau buvo galima grupuoti, kaip aprašyta ankstesniame šios temos skyriuje.)
+
+### <a name="enable-grouping-for-automatically-generated-work-orders"></a>Automatiškai sugeneruotų darbo užsakymų grupavimo įgalinimas
+
+Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+
+- **Modulis:** *Turto valdymas*
+- **Funkcijos pavadinimas:** *(Peržiūros versija) Taikyti darbo užsakymų grupavimo taisykles vykdant priežiūros planą*
+
+### <a name="set-up-grouping-for-automatically-generated-work-orders"></a>Automatiškai sugeneruotų darbo užsakymų grupavimo nustatymas
+
+Norėdami nustatyti automatiškai sugeneruotų darbo užsakymų grupavimą, atlikite šiuos veiksmus.
+
+1. Eikite į **Turto valdymas \> Sąranka \> Prevencinė priežiūra \> Priežiūros planai**.
+1. Kiekvienam planui, kuriame norite generuoti sugrupuotus darbo užsakymus, atlikite šiuos veiksmus:
+
+    1. Pasirinkite planą iš sąrašo srities.
+    1. „FastTab” **Eilutės** įsitikinkite, kad žymės langelis **Automatinis kūrimas** yra pažymėtas kiekvienoje eilutėje.
+
+1. Eikite į **Turto valdymas \> Laikotarpio \> Prevencinė priežiūra \> Planuoti priežiūros planus**.
+1. Dialogo lango **Planuoti priežiūros planus** skyriuje **Laikotarpis** nurodykite plano laiko perspektyvas (kaip toli žvelgti į ateitį ieškant suplanuotų priežiūros užduočių, kurioms generuoti darbą).
+1. Nustatykite parinktį **Automatiškai kurti darbo užsakymą iš grafiko** į *Taip*.
+1. Skyriuje **Darbo užsakymas** pasirinkite vieną iš šių parinkčių:
+
+    - **Vienas darbo užsakymas vienai eilutei** – Kurkite vieną darbo užsakymą vienai priežiūros grafiko eilutei. (Ši parinktis suteikia tas pačias funkcijas, kurios galimos, kai išjungta *Taikyti darbo užsakymų grupavimo taisykles, kai vykdomas priežiūros planas* funkcija.)
+    - **Vienas darbo užsakymas pagal** – Kurkite darbo užsakymus, sugrupuotus pagal kitų parinkčių, kurios tampa galimos pasirinkus šią parinktį, nustatymus.
+
+1. Jei norite, kad parinktys būtų taikomos vykdant tik kai kuriuos jūsų priežiūros planus, „FastTab” **Įtrauktini įrašai** pridėkite tiek filtrų, kiek jums reikia, kaip ir kitose „Microsoft Dynamics 365 Supply Chain Management” paketinėse užduotyse.
+1. „FastTab” **Vykdyti fone** nustatykite paketo ir planavimo parinktis taip, kaip jums reikia, kaip ir kitoms „Supply Chain Management” paketinėms užduotims.
+1. Pasirinkite **Gerai** tam, kad būtų vykdomi ir (arba) suplanuoti pasirinkti priežiūros planai.

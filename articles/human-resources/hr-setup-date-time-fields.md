@@ -1,8 +1,8 @@
 ---
 title: Susipažinkite su datos ir laiko laukais
-description: Supraskite, ko tikėtis naudojant laukus Data ir laikas programoje „Microsoft Dynamics 365 Human Resources”. Išsiaiškinkite, ko galima tikėtis sąveikaujant su laukų Data ir laikas duomenimis formoje „Human Resources”, išoriniame šaltinyje arba „Common Data Service”.
-author: Darinkramer
-manager: AnnBe
+description: Supraskite, ko tikėtis naudojant laukus Data ir laikas programoje „Microsoft Dynamics 365 Human Resources”.
+author: andreabichsel
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -15,21 +15,21 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 027e46d53fd9704f5483e90409be53c1510e8cd4
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: d843eb8cefcd0f2f45c8956cd451f88ca6336efb
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529857"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130452"
 ---
 # <a name="understand-date-and-time-fields"></a>Susipažinkite su datos ir laiko laukais
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-**Datos ir laiko** laukai yra pagrindinės „Dynamics 365 Human Resources” sąvokos. Svarbu suprasti, kaip dirbti su lauko **Data ir laikas** duomenimis „Dynamics 365 Human Resources” formose, „Common Data Service” ir išoriniuose šaltiniuose.
+**Datos ir laiko** laukai yra pagrindinės „Dynamics 365 Human Resources” sąvokos. Svarbu suprasti, kaip dirbti su **Data ir laiku** duomenimis formose, „Dataverse“ ir išorės šaltiniuose.
 
 ## <a name="understanding-the-difference-between-date-and-date-and-time-field-data-types"></a>Skirtumo tarp laukų Data bei Data ir laikas duomenų tipų supratimas
 
@@ -41,39 +41,39 @@ Kai duomenys rodomi lauke **Data ir laikas**, „Human Resources” koreguoja da
 
 ## <a name="understanding-date-and-time-fields-in-forms"></a>Datos ir laiko laukų formose supratimas 
 
-Įvedant duomenis lauke **Data ir laikas**, ekrane rodomi duomenys nėra tokie patys kaip duomenų bazėje saugomi duomenys, jei vartotojo laiko juosta nėra nustatyta kaip universalusis laikas (UTC). Laukuose **Data ir laikas** duomenys visada saugomi kaip UTC.
+**Data ir laikas** duomenys ya rodomi ekrane nėra tokie patys kaip duomenys laikomi duomenų bazėje, jei vartotojo laiko zona nėra nustatyta koordinuotame universaliame laike (UTC). Laukuose **Data ir laikas** duomenys visada saugomi kaip UTC.
 
-[![Darbininko forma](./media/worker-form.png)](./media/worker-form.png)
+[![Darbuotojo forma UTC](./media/worker-form.png)](./media/worker-form.png)
 
 ## <a name="understand-date-and-time-fields-in-the-database"></a>Datos ir laiko laukų duomenų bazėje supratimas 
 
-Kai „Human Resources” įrašo lauko **Data ir laikas** reikšmę į duomenų bazę, jis išsaugo duomenis UTC. Tai leidžia vartotojams matyti visus lauko **Data ir laikas** duomenis, susijusius su jų vartotojo parinktyse apibrėžta laiko juosta.
+Kai „Human Resources“ rašo **Datos ir laiko** vertę į duomenų bazę, jie laiko duomenis UTC. Tai leidžia vartotojams matyti visus lauko **Data ir laikas** duomenis, susijusius su jų vartotojo parinktyse apibrėžta laiko juosta.
  
-Aukščiau pateiktame pavyzdyje pradžios laikas yra laiko taškas, o ne konkreti data. Keičiant prisijungusio vartotojo laiko juostą iš GMT +12:00 į GMT UTC, toks pats ką tik sukurtas įrašas rodo 2019-04-30 12:00:00 vietoj 2019-05-01 12:00:00.
+Aukščiau pateiktame pavyzdyje pradžios laikas yra laiko taškas, o ne konkreti data. Keisdamas laiko juostą prisijungęs vartotojas iš GMT +12:00 į GMT UTC, tas pats įrašas rodo 04/30/2019 12:00:00, o ne 05/01/2019 12:00:00.
   
 Toliau pateiktame pavyzdyje darbuotojo 000724 įdarbinimas tampa aktyvus tuo pačiu metu, neatsižvelgiant į laiko juostą. Darbuotojas bus aktyvus 2019-04-30 GMT laiko juostoje, kuri yra tokia pati kaip 2019-05-01, GMT +12:00 laiko juosta. Abu nurodo tą patį laiko tašką, o ne konkrečią datą. 
 
-[![Darbininko forma](./media/worker-form2.png)](./media/worker-form2.png)
+[![Darbuotojo forma GMT](./media/worker-form2.png)](./media/worker-form2.png)
 
-## <a name="date-and-time-data-in-data-management-framework-excel-common-data-service-and-power-bi"></a>Datos ir laiko duomenys duomenų valdymo sistemoje, „Excel Common Data Service” ir „Power BI” 
+## <a name="date-and-time-data-in-data-management-framework-excel-dataverse-and-power-bi"></a>Datos ir laiko duomenys duomenų valdymo sistemoje, „Excel Dataverse” ir „Power BI” 
 
-Duomenų valdymo sistema, „Excel” papildinys, „Common Data Service” ir „Power BI” ataskaitos yra sukurti taip, kad galėtų sąveikauti su duomenimis duomenų bazės lygiu. Kadangi nėra kliento, kad būtų galima koreguoti lauko **Data ir laikas** duomenis pagal vartotojo laiko juostą, visos lauko **Data ir laikas** reikšmės yra UTC, o tai gali sukelti tam tikrų klaidingų prielaidų įvedant arba peržiūrint duomenis.  
+Duomenų valdymo sistema, „Excel” papildinys, „Dataverse” ir „Power BI” ataskaitos yra sukurti taip, kad galėtų sąveikauti su duomenimis duomenų bazės lygiu. Kadangi nėra jokio kliento, kuris taiso **Datos ir laiko** vartotojo duomenis laiko zonai, visos **Datos ir laiko** vertės yra UTC, kurios gali vesti į kai kurias neteisingas prielaidas įvedant ar peržiūrint duomenis.  
  
-Duomenų bazė lauko **Data ir laikas** duomenis, pateikiamus per DMF, „Excel” ar „Common Data Service”, laiko UTC. Tai gali sukelti tam tikrą painiavą, kai pateikta lauko **Data ir laikas** reikšmė nėra tokia, kokios tikėtasi, nes duomenis peržiūrintis vartotojas nenustatęs vartotojo laiko juostos į UTC. 
+**Datos ir laiko** duomenys pateikti per DMF, „Excel“ ar „Dataverse“ yra priimami būti UTC duomenų bazės. Tai gali sukelti tam tikrą painiavą, kai pateikta lauko **Data ir laikas** reikšmė nėra tokia, kokios tikėtasi, nes duomenis peržiūrintis vartotojas nenustatęs vartotojo laiko juostos į UTC. 
  
-Tas pats gali įvykti atvirkštiniu procesu, kai duomenys yra eksportuojami. Lauko **Data ir laikas** duomenys eksportuotame DMF objekte gali skirtis nuo to, kas rodoma „Dynamics” kliente. 
+Tas pats gali įvykti atvirkštiniu procesu, kai duomenys yra eksportuojami. Duomenys **Data ir laikas** eksportuoti DMF objekte gali skirtis nei tie, kurie rodomi „Dynamics“ kliente. 
  
-Kai naudojate išorinius šaltinius, pvz., DMF, norėdami peržiūrėti arba autorizuoti duomenis, svarbu nepamiršti, kad lauko **Data ir laikas** reikšmės pagal numatytuosius parametrus laikomos UTC, neatsižvelgiant į vartotojo kompiuterio laiko juostą ar dabartinius vartotojo laiko juostos parametrus. 
+Naudojant išorės šaltinius, tokius kaip DMF tam, kad peržiūrėtumėte ir suteiktumėte leidimą duomenims, atminkite, kad **Datos ir laiko** vertės yra laikomos pagal nutylėjimą UTC nepriklausomai nuo vartotojo kompiuterio ar esamo vartotojo laiko zonos ar jos nustatymų. 
 
 ## <a name="examples-of-the-same-record-being-displayed-in-different-product-areas"></a>Atvejų, kai tas pats įrašas rodomas skirtingose produkto srityse, pavyzdžiai 
 
 **„Human Resources“ vartotojo laiko zona nustatyta į UTC**
 
-[![Darbininko forma](./media/worker-form3.png)](./media/worker-form3.png)
+[![Darbuotojo forma nustatyta į UTC](./media/worker-form3.png)](./media/worker-form3.png)
 
 **„Human Resources” vartotojo laiko zona nustatyta į GMT + 12:00** 
 
-[![Darbininko forma](./media/worker-form4.png)](./media/worker-form4.png)
+[![Darbuotojo forma nustatyta į GMT](./media/worker-form4.png)](./media/worker-form4.png)
 
 **„Excel”, naudojant „OData”**
 
@@ -85,16 +85,13 @@ Kai naudojate išorinius šaltinius, pvz., DMF, norėdami peržiūrėti arba aut
 
 **DMF eksportavimas**
 
-[![DMF paruošimas](./media/DMFexport.png)](./media/DMFexport.png)
+[![DMF eksportavimas](./media/DMFexport.png)](./media/DMFexport.png)
 
-**„Excel”, naudojant „Common Data Service”**
+**„Excel”, naudojant „Dataverse”**
 
-[![Excel, naudojant „Common Data Service”](./media/ExcelCDS.png)](./media/ExcelCDS.png)
+[![Excel, naudojant „Dataverse”](./media/ExcelCDS.png)](./media/ExcelCDS.png)
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 [Datos ir laiko duomenys](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/date-time-zones)<br></br>
 [Vartotojo pageidaujamos laiko zonos](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-users-preferred-time-zone) 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

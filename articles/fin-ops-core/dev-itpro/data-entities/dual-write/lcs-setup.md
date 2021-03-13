@@ -1,6 +1,6 @@
 ---
 title: Dvigubo rašymo sąranka iš „Lifecycle Services“
-description: Šioje temoje paaiškinama, kaip nustatyti dvigubo rašymo ryšį tarp naujos Finance and Operations aplinkos ir naujos Dataverse aplinkos iš „Microsoft Dynamics Lifecycle Services“ (LCS).
+description: Šioje temoje paaiškinama, kaip nustatyti dvigubo rašymo ryšį iš „Microsoft Dynamics Lifecycle Services” (LCS).
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 01/06/2020
@@ -18,18 +18,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 25db9c58c3d09e44dcf11b48cae1a9eda4241c35
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: df67e498b963af3ded7464f46f37bb4b2ca7d852
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683530"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127598"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Dvigubo rašymo sąranka iš „Lifecycle Services“
 
 [!include [banner](../../includes/banner.md)]
-
-[!include [preview-banner](../../includes/preview-banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -56,7 +54,7 @@ Norėdami nustatyti dvigubo rašymo ryšį, atlikite toliau nurodytus veiksmus.
     - Jei Dataverse aplinka jau parengta jūsų nuomininkui, ją galite pasirinkti.
 
         1. Parinktį **Konfigūruoti Dataverse** nustatykite į **Taip**.
-        2. Lauke **Galimos aplinkos** pasirinkite aplinką, į kurią norite integruoti savo Finance and Operations duomenis. Į sąrašą įeina visos aplinkos, kuriose turite administratoriaus privilegijas.
+        2. Stulpelyje **Galimos aplinkos** pasirinkite aplinką, į kurią norite integruoti savo Finance and Operations duomenis. Į sąrašą įeina visos aplinkos, kuriose turite administratoriaus privilegijas.
         3. Norėdami nurodyti, kad sutinkate su pateiktomis sąlygomis, pasirinkite žymės langelį **Sutinku**.
 
         ![Skirtukas Dataverse, kai aplinka Dataverse parengta jūsų nuomotojui](../dual-write/media/lcs_setup_1.png)
@@ -76,9 +74,9 @@ Norėdami nustatyti dvigubo rašymo ryšį, atlikite toliau nurodytus veiksmus.
         ![Skirtukas Dataverse, kai jūsų nuomotojas dar neturi Dataverse aplinkos](../dual-write/media/lcs_setup_2.png)
 
 7. Atlikite likusius veiksmus vedlyje **Diegimo parametrai**.
-8. Kai aplinka įgyja statusą **Įdiegta**, atidarykite aplinkos išsamios informacijos puslapį. Skyriuje **Dataverse aplinkos informacija** pateikiami susietų Finance and Operations ir Dataverse aplinkų pavadinimai.
+8. Kai aplinka įgyja statusą **Įdiegta**, atidarykite aplinkos išsamios informacijos puslapį. Skyriuje **Power Platform integravimas** pateikiami susietų Finance and Operations ir Dataverse aplinkų pavadinimai.
 
-    ![Dataverse aplinkos informacijos skyrius](../dual-write/media/lcs_setup_3.png)
+    ![„Power Platform” integravimo skyrius](../dual-write/media/lcs_setup_3.png)
 
 9. Finance and Operations aplinkos administratorius turi prisijungti prie LCS ir pasirinkti **Programėlių CDS saitas**, kad susiejimas būtų užbaigtas. Aplinkos informacijos puslapyje pateikiama administratoriaus kontaktinė informacija.
 
@@ -86,10 +84,8 @@ Norėdami nustatyti dvigubo rašymo ryšį, atlikite toliau nurodytus veiksmus.
 
 10. Norėdami atidaryti aplinkoje Finance and Operations esančią darbo sritį **Duomenų integravimas** ir valdyti pasiekiamus šablonus, pasirinkite **Programėlių CDS saitas**.
 
-    ![Mygtukas „Programėlių CDS saitas“, esantis Dataverse aplinkos informacijos sekcijoje](../dual-write/media/lcs_setup_4.png)
+    ![Mygtukas CDS programoms, esantis Power Platform integravimo skyriuje](../dual-write/media/lcs_setup_4.png)
 
 > [!NOTE]
 > Negalite atsieti aplinkos naudodami LCS. Norėdami atsieti aplinką, aplinkoje Finance and Operations atidarykite darbo sritį **Duomenų integravimas** ir pasirinkite **Atsieti**.
 
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

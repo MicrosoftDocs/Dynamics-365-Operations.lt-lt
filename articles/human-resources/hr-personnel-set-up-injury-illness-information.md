@@ -2,7 +2,7 @@
 title: Nustatyti sužeidimų ir ligų informaciją
 description: Darbdaviai turi žinoti, kada jų samdomi darbuotai susižeidžia arba suserga dėl pavojingų darbo vietos sąlygų.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: HRMInjurySetup, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 117ae1d690221dbbe0cf4287a3f986cdb3606623
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 39c569bb4f3f532feb9e716309878617c136989b
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419734"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128214"
 ---
 # <a name="set-up-injury-and-illness-information"></a>Nustatyti sužeidimų ir ligų informaciją
 
@@ -65,6 +65,3 @@ Darbdaviai turi žinoti, kada jų samdomi darbuotai susižeidžia arba suserga d
     * Priežiūros institucijos yra įstaigos, kurioms turi būti pranešama apie incidentą. Pasirinkite numatytosios institucijos, kuriai reikia pranešti apie sužalojimus ir ligas, numatytąjį žymės langelį.  
 23. Spustelėkite Įrašyti.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

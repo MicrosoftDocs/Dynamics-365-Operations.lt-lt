@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 267694
 ms.assetid: d95d43b2-13ff-4189-a71a-3a1fb57d55ed
 ms.search.region: global
@@ -19,19 +18,22 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 88bce09a6d3bf154592955a6fb2dada6247f1993
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 411a97427bbb16388e0f60b8ecb5dd3e5a79e87e
+ms.sourcegitcommit: bd53794cb94f8c1ce29a7d6102119a0975f155e3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433809"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "5142280"
 ---
-# <a name="install-and-connect-the-warehouse-app"></a>Sandėliavimo programėlės diegimas ir prijungimas
+# <a name="install-and-connect-the-warehouse-app"></a>Sandėlio programos diegimas ir prijungimas
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Šioje temoje aprašoma, kaip sukonfigūruoti visuotinėms debesies įdiegtims skirtą sandėliavimo funkciją. Jei ieškote informacijos, kaip konfigūruoti vietinėms visuotinėms įdiegtims skirtą sandėliavimo funkciją, žr. [Vietinėms visuotinėms įdiegtims skirtas sandėliavimas](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> Šioje temoje aprašoma, kaip konfigūruoti senąją sandėlio programos versiją. Jei ieškote informacijos apie tai, kaip konfigūruoti naująją sandėlio valdymo mobiliųjų įrenginių programėlę (šiuo metu – viešojoje peržiūros versijoje), žiūrėkite [Sandėlio valdymo mobiliųjų įrenginių programėlės diegimas ir sujungimas](install-configure-warehouse-management-app.md).
+
+> [!NOTE]
+> Šioje temoje aprašoma, kaip sukonfigūruoti sandėliavimo programą debesies diegimams. Jei ieškote informacijos, kaip konfigūruoti vietiniams visuotiniams diegimams skirtą sandėlio programą, žiūrėkite [Vietinėms visuotinėms įdiegtims skirtas sandėliavimas](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 Sandėliavimo programėlę galima atsisiųsti iš „Google Play Store" parduotuvės ir „Microsoft Store“. Ji teikiamas kaip atskiras komponentas. Todėl ją turite atsisiųsti į kiekvieną įrenginį ir sukonfigūruoti, kad būtų galima prisijungti prie „Microsoft Dynamics 365 Supply Chain Management“ aplinkos.
 
@@ -274,6 +276,3 @@ Jei įrenginys buvo pamestas arba pažeista jo sauga, turite pašalinti įrengin
 1. Įsitikinkite, kad programos kliento ID sutampa su kliento ID, kurį pasižymėjote atlikdami 2 veiksmą.
 1. Įrankių juostoje pasirinkite **Naikinti**.
 1. Pasirodžiusiame patvirtinimo pranešime pasirinkite **Taip**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

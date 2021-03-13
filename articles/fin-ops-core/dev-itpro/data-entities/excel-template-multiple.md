@@ -1,5 +1,5 @@
 ---
-title: Duomenų importavimas iš „Excel“ duomenų objekto šablonų, kuriuose yra keletas darbalapių
+title: Duomenų šablonai su keliais darbalapiais
 description: Šioje temoje aprašoma, kaip naudojant „Excel“ duomenų objekto šablonus importuoti duomenis į „Finance and Operations“.
 author: Sunil-Garg
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 618b62364353f409f6971ddd9adc7d55297d09cf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: fb505f33e497cf16cd6cdeddee1f88d01797f3ef
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688084"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130586"
 ---
-# <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>Duomenų importavimas iš „Excel“ duomenų objekto šablonų, kuriuose yra keletas darbalapių
+# <a name="data-templates-with-multiple-worksheets"></a>Duomenų šablonai su keliais darbalapiais
 
 [!include [banner](../includes/banner.md)]
 
@@ -49,6 +49,3 @@ Tais atvejais, kai duomenų projekte reikia nusiųsti esamų objektų to pačio 
 ## <a name="upload-a-file-using-run-project"></a>Failo nusiuntimas naudojant parinktį Vykdyti projektą
 
 Galite įkelti „Excel“ failą naudodami parinktį **Vykdyti projektą**, norėdami vykdyti importavimo projektą. Turite būti atsargūs ir nusiųsti tik failus, kuriuose yra darbalapiai, atitinkantys duomenų projekto duomenų objektų esamus susiejimus. Jei naujai nusiųstame faile darbalapių nerasta, sistema rodo klaidą ir importavimas sustabdomas. Jei objekto susiejimą su darbalapiu reikia keisti, pirmiausia reikia atnaujinti duomenų projekto susiejimus pačiame duomenų objekte, kad būtų galima naudoti failą formoje **Vykdyti projektą**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
