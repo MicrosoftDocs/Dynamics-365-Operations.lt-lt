@@ -1,7 +1,7 @@
 ---
 title: Audito strategijos taisyklės
 description: Norėdami įvertinti išlaidų ataskaitas, tiekėjo SF ir pirkimo užsakymus ir įsitikinti, kad jie atitinka jūsų kuriamas strategijos taisyklės, galite naudoti audito strategijas. Visos su audito strategija susietos taisyklės vykdomos paketiniu režimu pagal jūsų nurodytą grafiką.  Kiekviena strategijos taisyklė yra strategijos taisyklės tipo egzempliorius. Vienu metu gali būti aktyvi tik viena strategijos taisyklės tipo strategijos taisyklė.
-author: ryansandness
+author: panolte
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
@@ -11,30 +11,29 @@ ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 12991
 ms.assetid: 8d787017-71dc-418f-b8c2-4ea9763d9978
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de6406029aa88424863dd9a47505f5b3ad27f237
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 998d4dbabec74528b4acb9e797faef0c449e7c28
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445952"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021246"
 ---
-# <a name="audit-policy-rules"></a><span data-ttu-id="cc532-106">Audito strategijos taisyklės</span><span class="sxs-lookup"><span data-stu-id="cc532-106">Audit policy rules</span></span>
+# <a name="audit-policy-rules"></a><span data-ttu-id="9f30b-106">Audito strategijos taisyklės</span><span class="sxs-lookup"><span data-stu-id="9f30b-106">Audit policy rules</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="cc532-107">Norėdami įvertinti išlaidų ataskaitas, tiekėjo SF ir pirkimo užsakymus ir įsitikinti, kad jie atitinka jūsų kuriamas strategijos taisyklės, galite naudoti audito strategijas.</span><span class="sxs-lookup"><span data-stu-id="cc532-107">You can use audit policies to evaluate expense reports, vendor invoices, and purchase orders to make sure that they comply with policy rules that you create.</span></span> <span data-ttu-id="cc532-108">Visos su audito strategija susietos taisyklės vykdomos paketiniu režimu pagal jūsų nurodytą grafiką.</span><span class="sxs-lookup"><span data-stu-id="cc532-108">All of the rules that are associated with an audit policy are run in batch mode, according to a schedule that you specify.</span></span>  <span data-ttu-id="cc532-109">Kiekviena strategijos taisyklė yra strategijos taisyklės tipo egzempliorius.</span><span class="sxs-lookup"><span data-stu-id="cc532-109">Each policy rule is an instance of a policy rule type.</span></span> <span data-ttu-id="cc532-110">Vienu metu gali būti aktyvi tik viena strategijos taisyklės tipo strategijos taisyklė.</span><span class="sxs-lookup"><span data-stu-id="cc532-110">For each policy rule type, only one policy rule can be active at a time.</span></span> 
+<span data-ttu-id="9f30b-107">Norėdami įvertinti išlaidų ataskaitas, tiekėjo SF ir pirkimo užsakymus ir įsitikinti, kad jie atitinka jūsų kuriamas strategijos taisyklės, galite naudoti audito strategijas.</span><span class="sxs-lookup"><span data-stu-id="9f30b-107">You can use audit policies to evaluate expense reports, vendor invoices, and purchase orders to make sure that they comply with policy rules that you create.</span></span> <span data-ttu-id="9f30b-108">Visos su audito strategija susietos taisyklės vykdomos paketiniu režimu pagal jūsų nurodytą grafiką.</span><span class="sxs-lookup"><span data-stu-id="9f30b-108">All of the rules that are associated with an audit policy are run in batch mode, according to a schedule that you specify.</span></span>  <span data-ttu-id="9f30b-109">Kiekviena strategijos taisyklė yra strategijos taisyklės tipo egzempliorius.</span><span class="sxs-lookup"><span data-stu-id="9f30b-109">Each policy rule is an instance of a policy rule type.</span></span> <span data-ttu-id="9f30b-110">Vienu metu gali būti aktyvi tik viena strategijos taisyklės tipo strategijos taisyklė.</span><span class="sxs-lookup"><span data-stu-id="9f30b-110">For each policy rule type, only one policy rule can be active at a time.</span></span> 
 
-<a name="queries-and-query-types"></a><span data-ttu-id="cc532-111">Užklausos ir užklausų tipai</span><span class="sxs-lookup"><span data-stu-id="cc532-111">Queries and query types</span></span>
+<a name="queries-and-query-types"></a><span data-ttu-id="9f30b-111">Užklausos ir užklausų tipai</span><span class="sxs-lookup"><span data-stu-id="9f30b-111">Queries and query types</span></span>
 -----------------------
 
-<span data-ttu-id="cc532-112">Kai kuriate audito strategijos taisyklę, pirmiausia pasirenkate strategijos taisyklės tipą.</span><span class="sxs-lookup"><span data-stu-id="cc532-112">When you create an audit policy rule, you first select a policy rule type.</span></span> <span data-ttu-id="cc532-113">Strategijos taisyklės tipas nurodo programos objektų medžio (AOT) užklausą, kuri turi būti naudojama kaip pradinis strategijos taisyklės kūrimo taškas.</span><span class="sxs-lookup"><span data-stu-id="cc532-113">The policy rule type specifies the Application Object Tree (AOT) query to use as the starting point for creating the policy rule.</span></span> <span data-ttu-id="cc532-114">Jis taip pat nurodo naudotiną strategijos taisyklės užklausos tipą.</span><span class="sxs-lookup"><span data-stu-id="cc532-114">It also specifies the query type to use for the policy rule.</span></span> <span data-ttu-id="cc532-115">Užklausa nurodo šaltinio dokumentą, kurį įvertina strategijos taisyklė.</span><span class="sxs-lookup"><span data-stu-id="cc532-115">The query determines the source document that the policy rule evaluates.</span></span> <span data-ttu-id="cc532-116">Ji taip pat apibrėžia šaltinio dokumento laukus, nurodančius juridinį subjektą ir datą, kurie bus naudojami pasirinkus dokumentus auditui atlikti.</span><span class="sxs-lookup"><span data-stu-id="cc532-116">It also specifies the fields in the source document that identify both the legal entity and the date to use when documents are selected for audit.</span></span> <span data-ttu-id="cc532-117">Užklausos tipas valdo numatytuosius laukus užklausos puslapyje ir audito strategijos taisyklių puslapyje.</span><span class="sxs-lookup"><span data-stu-id="cc532-117">The query type controls the default fields in the query page and in the Audit policy rule page.</span></span> <span data-ttu-id="cc532-118">Toliau pateiktoje lentelėje nurodyti galimi audito strategijos taisyklių užklausų tipai.</span><span class="sxs-lookup"><span data-stu-id="cc532-118">The following table shows the query types that are available for audit policy rules.</span></span>
+<span data-ttu-id="9f30b-112">Kai kuriate audito strategijos taisyklę, pirmiausia pasirenkate strategijos taisyklės tipą.</span><span class="sxs-lookup"><span data-stu-id="9f30b-112">When you create an audit policy rule, you first select a policy rule type.</span></span> <span data-ttu-id="9f30b-113">Strategijos taisyklės tipas nurodo programos objektų medžio (AOT) užklausą, kuri turi būti naudojama kaip pradinis strategijos taisyklės kūrimo taškas.</span><span class="sxs-lookup"><span data-stu-id="9f30b-113">The policy rule type specifies the Application Object Tree (AOT) query to use as the starting point for creating the policy rule.</span></span> <span data-ttu-id="9f30b-114">Jis taip pat nurodo naudotiną strategijos taisyklės užklausos tipą.</span><span class="sxs-lookup"><span data-stu-id="9f30b-114">It also specifies the query type to use for the policy rule.</span></span> <span data-ttu-id="9f30b-115">Užklausa nurodo šaltinio dokumentą, kurį įvertina strategijos taisyklė.</span><span class="sxs-lookup"><span data-stu-id="9f30b-115">The query determines the source document that the policy rule evaluates.</span></span> <span data-ttu-id="9f30b-116">Ji taip pat apibrėžia šaltinio dokumento laukus, nurodančius juridinį subjektą ir datą, kurie bus naudojami pasirinkus dokumentus auditui atlikti.</span><span class="sxs-lookup"><span data-stu-id="9f30b-116">It also specifies the fields in the source document that identify both the legal entity and the date to use when documents are selected for audit.</span></span> <span data-ttu-id="9f30b-117">Užklausos tipas valdo numatytuosius laukus užklausos puslapyje ir audito strategijos taisyklių puslapyje.</span><span class="sxs-lookup"><span data-stu-id="9f30b-117">The query type controls the default fields in the query page and in the Audit policy rule page.</span></span> <span data-ttu-id="9f30b-118">Toliau pateiktoje lentelėje nurodyti galimi audito strategijos taisyklių užklausų tipai.</span><span class="sxs-lookup"><span data-stu-id="9f30b-118">The following table shows the query types that are available for audit policy rules.</span></span>
 
 <table>
 <colgroup>
@@ -44,61 +43,61 @@ ms.locfileid: "4445952"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="cc532-119">Užklausos tipas</span><span class="sxs-lookup"><span data-stu-id="cc532-119">Query type</span></span></th>
-<th><span data-ttu-id="cc532-120">Paskirtis</span><span class="sxs-lookup"><span data-stu-id="cc532-120">Purpose</span></span></th>
-<th><span data-ttu-id="cc532-121">Daugiau informacijos</span><span class="sxs-lookup"><span data-stu-id="cc532-121">More information</span></span></th>
+<th><span data-ttu-id="9f30b-119">Užklausos tipas</span><span class="sxs-lookup"><span data-stu-id="9f30b-119">Query type</span></span></th>
+<th><span data-ttu-id="9f30b-120">Paskirtis</span><span class="sxs-lookup"><span data-stu-id="9f30b-120">Purpose</span></span></th>
+<th><span data-ttu-id="9f30b-121">Daugiau informacijos</span><span class="sxs-lookup"><span data-stu-id="9f30b-121">More information</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="cc532-122">Sąlyginis</span><span class="sxs-lookup"><span data-stu-id="cc532-122">Conditional</span></span></td>
-<td><span data-ttu-id="cc532-123">Įvertinti šaltinio dokumento atributus pagal nurodytas vertes.</span><span class="sxs-lookup"><span data-stu-id="cc532-123">Evaluate source document attributes against specified values.</span></span></td>
+<td><span data-ttu-id="9f30b-122">Sąlyginis</span><span class="sxs-lookup"><span data-stu-id="9f30b-122">Conditional</span></span></td>
+<td><span data-ttu-id="9f30b-123">Įvertinti šaltinio dokumento atributus pagal nurodytas vertes.</span><span class="sxs-lookup"><span data-stu-id="9f30b-123">Evaluate source document attributes against specified values.</span></span></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="cc532-124">Agreguoti</span><span class="sxs-lookup"><span data-stu-id="cc532-124">Aggregate</span></span></td>
-<td><span data-ttu-id="cc532-125">Įvertinti kelis šaltinio dokumentus arba šaltinio dokumento eilutes pagal strategijos taisyklę sudedant skaitines vertes.</span><span class="sxs-lookup"><span data-stu-id="cc532-125">Evaluate multiple source documents or source document lines against a policy rule by aggregating numeric values.</span></span></td>
+<td><span data-ttu-id="9f30b-124">Agreguoti</span><span class="sxs-lookup"><span data-stu-id="9f30b-124">Aggregate</span></span></td>
+<td><span data-ttu-id="9f30b-125">Įvertinti kelis šaltinio dokumentus arba šaltinio dokumento eilutes pagal strategijos taisyklę sudedant skaitines vertes.</span><span class="sxs-lookup"><span data-stu-id="9f30b-125">Evaluate multiple source documents or source document lines against a policy rule by aggregating numeric values.</span></span></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="cc532-126">Pavyzdžio ėmimas</span><span class="sxs-lookup"><span data-stu-id="cc532-126">Sampling</span></span></td>
-<td><span data-ttu-id="cc532-127">Atsitiktine tvarka pasirinkti nurodytą šaltinio dokumentų procentinį dydį strategijos pažeidimams įvertinti.</span><span class="sxs-lookup"><span data-stu-id="cc532-127">Randomly select a specified percentage of the source documents to evaluate for policy violations.</span></span></td>
-<td><span data-ttu-id="cc532-128">Kai pasirenkate šią parinktį, naudokite audito strategijos taisyklių puslapį, nurodydami, kiek procentų dokumentų reikia atsitiktine tvarka pasirinkti auditui.</span><span class="sxs-lookup"><span data-stu-id="cc532-128">When you select this option, use the Audit policy rule page to specify the percentage of documents to randomly select for audit.</span></span></td>
+<td><span data-ttu-id="9f30b-126">Pavyzdžio ėmimas</span><span class="sxs-lookup"><span data-stu-id="9f30b-126">Sampling</span></span></td>
+<td><span data-ttu-id="9f30b-127">Atsitiktine tvarka pasirinkti nurodytą šaltinio dokumentų procentinį dydį strategijos pažeidimams įvertinti.</span><span class="sxs-lookup"><span data-stu-id="9f30b-127">Randomly select a specified percentage of the source documents to evaluate for policy violations.</span></span></td>
+<td><span data-ttu-id="9f30b-128">Kai pasirenkate šią parinktį, naudokite audito strategijos taisyklių puslapį, nurodydami, kiek procentų dokumentų reikia atsitiktine tvarka pasirinkti auditui.</span><span class="sxs-lookup"><span data-stu-id="9f30b-128">When you select this option, use the Audit policy rule page to specify the percentage of documents to randomly select for audit.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="cc532-129">Dublikatas</span><span class="sxs-lookup"><span data-stu-id="cc532-129">Duplicate</span></span></td>
-<td><span data-ttu-id="cc532-130">Įvertinti šaltinio dokumentus, siekiant nustatyti, ar nurodytuose jų laukuose yra įrašų dublikatų.</span><span class="sxs-lookup"><span data-stu-id="cc532-130">Evaluate source documents to determine whether they contain duplicate entries in specified fields.</span></span></td>
-<td><span data-ttu-id="cc532-131">Kai pasirenkate šią parinktį, naudokite audito strategijos taisyklių puslapį, kad nurodytumėte, kiek dienų įtraukti į dokumentų pasirinkimo datų intervalo pradžią, kai įvertinama, ar dokumentuose nėra įrašų dublikatų.</span><span class="sxs-lookup"><span data-stu-id="cc532-131">When you select this option, use the Audit policy rule page to specify the number of days to add to the start of the document selection date range when documents are evaluated for duplicate entries.</span></span></td>
+<td><span data-ttu-id="9f30b-129">Dublikatas</span><span class="sxs-lookup"><span data-stu-id="9f30b-129">Duplicate</span></span></td>
+<td><span data-ttu-id="9f30b-130">Įvertinti šaltinio dokumentus, siekiant nustatyti, ar nurodytuose jų laukuose yra įrašų dublikatų.</span><span class="sxs-lookup"><span data-stu-id="9f30b-130">Evaluate source documents to determine whether they contain duplicate entries in specified fields.</span></span></td>
+<td><span data-ttu-id="9f30b-131">Kai pasirenkate šią parinktį, naudokite audito strategijos taisyklių puslapį, kad nurodytumėte, kiek dienų įtraukti į dokumentų pasirinkimo datų intervalo pradžią, kai įvertinama, ar dokumentuose nėra įrašų dublikatų.</span><span class="sxs-lookup"><span data-stu-id="9f30b-131">When you select this option, use the Audit policy rule page to specify the number of days to add to the start of the document selection date range when documents are evaluated for duplicate entries.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="cc532-132">Sąrašo ieška</span><span class="sxs-lookup"><span data-stu-id="cc532-132">List search</span></span></td>
-<td><span data-ttu-id="cc532-133">Įvertinti šaltinio dokumentus, ar juose yra konkrečių objektų.</span><span class="sxs-lookup"><span data-stu-id="cc532-133">Evaluate source documents for specific entities.</span></span></td>
-<td><span data-ttu-id="cc532-134">Šakninis užklausos dokumentas apibrėžia dokumentą, kurio auditas atliekamas.</span><span class="sxs-lookup"><span data-stu-id="cc532-134">The root document of the query defines the document that is being audited.</span></span> <span data-ttu-id="cc532-135">Užklausa turi būti sąrašo užklausa, apimanti nuorodą į „dirpartytable“ lentelę.</span><span class="sxs-lookup"><span data-stu-id="cc532-135">The query must be a list query that includes a reference to the dirpartytable table.</span></span> <span data-ttu-id="cc532-136">Šią parinktį galima naudoti tik su toliau nurodytomis AOT užklausomis.</span><span class="sxs-lookup"><span data-stu-id="cc532-136">This option can be used only with the following AOT queries:</span></span>
+<td><span data-ttu-id="9f30b-132">Sąrašo ieška</span><span class="sxs-lookup"><span data-stu-id="9f30b-132">List search</span></span></td>
+<td><span data-ttu-id="9f30b-133">Įvertinti šaltinio dokumentus, ar juose yra konkrečių objektų.</span><span class="sxs-lookup"><span data-stu-id="9f30b-133">Evaluate source documents for specific entities.</span></span></td>
+<td><span data-ttu-id="9f30b-134">Šakninis užklausos dokumentas apibrėžia dokumentą, kurio auditas atliekamas.</span><span class="sxs-lookup"><span data-stu-id="9f30b-134">The root document of the query defines the document that is being audited.</span></span> <span data-ttu-id="9f30b-135">Užklausa turi būti sąrašo užklausa, apimanti nuorodą į „dirpartytable“ lentelę.</span><span class="sxs-lookup"><span data-stu-id="9f30b-135">The query must be a list query that includes a reference to the dirpartytable table.</span></span> <span data-ttu-id="9f30b-136">Šią parinktį galima naudoti tik su toliau nurodytomis AOT užklausomis.</span><span class="sxs-lookup"><span data-stu-id="9f30b-136">This option can be used only with the following AOT queries:</span></span>
 <ul>
-<li><span data-ttu-id="cc532-137"><span class="ui">AuditPolicyExpenseList</span> (Išlaidų ataskaitoje stebimi darbuotojai)</span><span class="sxs-lookup"><span data-stu-id="cc532-137"><span class="ui">AuditPolicyExpenseList</span> (Expense report monitored employees)</span></span></li>
-<li><span data-ttu-id="cc532-138"><span class="ui">AuditPolicyPurchList</span> (Pirkimo užsakyme stebimi tiekėjai)</span><span class="sxs-lookup"><span data-stu-id="cc532-138"><span class="ui">AuditPolicyPurchList</span> (Purchase order monitored vendors)</span></span></li>
-<li><span data-ttu-id="cc532-139"><span class="ui">AuditPolicyVendInvoiceList</span> (Tiekėjo SF stebimi tiekėjai)</span><span class="sxs-lookup"><span data-stu-id="cc532-139"><span class="ui">AuditPolicyVendInvoiceList</span> (Vendor invoice monitored vendors)</span></span></li>
+<li><span data-ttu-id="9f30b-137"><span class="ui">AuditPolicyExpenseList</span> (Išlaidų ataskaitoje stebimi darbuotojai)</span><span class="sxs-lookup"><span data-stu-id="9f30b-137"><span class="ui">AuditPolicyExpenseList</span> (Expense report monitored employees)</span></span></li>
+<li><span data-ttu-id="9f30b-138"><span class="ui">AuditPolicyPurchList</span> (Pirkimo užsakyme stebimi tiekėjai)</span><span class="sxs-lookup"><span data-stu-id="9f30b-138"><span class="ui">AuditPolicyPurchList</span> (Purchase order monitored vendors)</span></span></li>
+<li><span data-ttu-id="9f30b-139"><span class="ui">AuditPolicyVendInvoiceList</span> (Tiekėjo SF stebimi tiekėjai)</span><span class="sxs-lookup"><span data-stu-id="9f30b-139"><span class="ui">AuditPolicyVendInvoiceList</span> (Vendor invoice monitored vendors)</span></span></li>
 </ul>
-<span data-ttu-id="cc532-140">Kai pasirenkate šią parinktį, nurodykite stebimus objektus audito strategijos taisyklių puslapyje.</span><span class="sxs-lookup"><span data-stu-id="cc532-140">When you select this option, specify the monitored entities in the Audit policy rule page.</span></span></td>
+<span data-ttu-id="9f30b-140">Kai pasirenkate šią parinktį, nurodykite stebimus objektus audito strategijos taisyklių puslapyje.</span><span class="sxs-lookup"><span data-stu-id="9f30b-140">When you select this option, specify the monitored entities in the Audit policy rule page.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="cc532-141">Raktažodžių ieška</span><span class="sxs-lookup"><span data-stu-id="cc532-141">Keyword search</span></span></td>
-<td><span data-ttu-id="cc532-142">Įvertinti šaltinio dokumentus, siekiant nustatyti, ar juose yra tam tikrų žodžių.</span><span class="sxs-lookup"><span data-stu-id="cc532-142">Evaluate source documents to determine whether they contain certain words.</span></span></td>
-<td><span data-ttu-id="cc532-143">Kai pasirenkate šią parinktį, įveskite žodžius, kurių reikia ieškoti audito strategijos taisyklių puslapyje.</span><span class="sxs-lookup"><span data-stu-id="cc532-143">When you select this option, enter the words to look for in the Audit policy rule page.</span></span> <span data-ttu-id="cc532-144">Audito strategijos taisyklių puslapyje taip pat yra parinkčių, leidžiančių nurodyti lenteles ir laukus, kuriuos norite įvertinti pagal įvestus žodžius.</span><span class="sxs-lookup"><span data-stu-id="cc532-144">The Audit policy rule page also includes options that let you specify the tables and fields to evaluate for the words you entered.</span></span></td>
+<td><span data-ttu-id="9f30b-141">Raktažodžių ieška</span><span class="sxs-lookup"><span data-stu-id="9f30b-141">Keyword search</span></span></td>
+<td><span data-ttu-id="9f30b-142">Įvertinti šaltinio dokumentus, siekiant nustatyti, ar juose yra tam tikrų žodžių.</span><span class="sxs-lookup"><span data-stu-id="9f30b-142">Evaluate source documents to determine whether they contain certain words.</span></span></td>
+<td><span data-ttu-id="9f30b-143">Kai pasirenkate šią parinktį, įveskite žodžius, kurių reikia ieškoti audito strategijos taisyklių puslapyje.</span><span class="sxs-lookup"><span data-stu-id="9f30b-143">When you select this option, enter the words to look for in the Audit policy rule page.</span></span> <span data-ttu-id="9f30b-144">Audito strategijos taisyklių puslapyje taip pat yra parinkčių, leidžiančių nurodyti lenteles ir laukus, kuriuos norite įvertinti pagal įvestus žodžius.</span><span class="sxs-lookup"><span data-stu-id="9f30b-144">The Audit policy rule page also includes options that let you specify the tables and fields to evaluate for the words you entered.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="common-parameters"></a><span data-ttu-id="cc532-145">Bendri parametrai</span><span class="sxs-lookup"><span data-stu-id="cc532-145">Common parameters</span></span>
-<span data-ttu-id="cc532-146">Visos tam tikros audito strategijos taisyklės bendrai naudoja tuos pačius paketinius parametrus ir tą patį dokumentų pasirinkimo datų intervalą.</span><span class="sxs-lookup"><span data-stu-id="cc532-146">All of the policy rules for a particular audit policy share the same batch parameters and the same document selection date range.</span></span> <span data-ttu-id="cc532-147">Šie parametrai strategijai nurodomi puslapyje „Papildomos parinktys“.</span><span class="sxs-lookup"><span data-stu-id="cc532-147">These parameters are specified for the policy in the Additional options page.</span></span>
+## <a name="common-parameters"></a><span data-ttu-id="9f30b-145">Bendri parametrai</span><span class="sxs-lookup"><span data-stu-id="9f30b-145">Common parameters</span></span>
+<span data-ttu-id="9f30b-146">Visos tam tikros audito strategijos taisyklės bendrai naudoja tuos pačius paketinius parametrus ir tą patį dokumentų pasirinkimo datų intervalą.</span><span class="sxs-lookup"><span data-stu-id="9f30b-146">All of the policy rules for a particular audit policy share the same batch parameters and the same document selection date range.</span></span> <span data-ttu-id="9f30b-147">Šie parametrai strategijai nurodomi puslapyje „Papildomos parinktys“.</span><span class="sxs-lookup"><span data-stu-id="9f30b-147">These parameters are specified for the policy in the Additional options page.</span></span>
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="cc532-148">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="cc532-148">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="9f30b-148">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="9f30b-148">Additional resources</span></span>
 --------
 
-<span data-ttu-id="cc532-149">[Audito strategijos pažeidimai ir atvejai](audit-policy-violations-cases.md)
-[Apibrėžti šaltinio dokumento audito strategijas](tasks/define-audit-policies-source-documents.md)</span><span class="sxs-lookup"><span data-stu-id="cc532-149">[Audit policy violations and cases](audit-policy-violations-cases.md)
+<span data-ttu-id="9f30b-149">[Audito strategijos pažeidimai ir atvejai](audit-policy-violations-cases.md)
+[Apibrėžti šaltinio dokumento audito strategijas](tasks/define-audit-policies-source-documents.md)</span><span class="sxs-lookup"><span data-stu-id="9f30b-149">[Audit policy violations and cases](audit-policy-violations-cases.md)
 [Define audit policies for source documents](tasks/define-audit-policies-source-documents.md)</span></span>
 
 

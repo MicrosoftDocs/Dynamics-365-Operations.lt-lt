@@ -11,44 +11,43 @@ ms.technology: ''
 ms.search.form: EntAssetWorkOrderType
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b8e43908e3f13c9e4fd6fab6f1e17a171866b803
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9111ffa552059883696cf8248a02dfe70bc12ee7
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433697"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021534"
 ---
-# <a name="work-order-types"></a><span data-ttu-id="3d3da-103">Darbo užsakymų tipai</span><span class="sxs-lookup"><span data-stu-id="3d3da-103">Work order types</span></span>
+# <a name="work-order-types"></a><span data-ttu-id="cc99d-103">Darbo užsakymų tipai</span><span class="sxs-lookup"><span data-stu-id="cc99d-103">Work order types</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-<span data-ttu-id="3d3da-104">Darbo užsakymų tipai naudojami siekiant suskirstyti darbo užsakymus į kategorijas.</span><span class="sxs-lookup"><span data-stu-id="3d3da-104">Work order types are used to categorize work orders.</span></span> <span data-ttu-id="3d3da-105">Pavyzdžiui, galite turėti darbo užsakymų, susijusių su prevencine arba taisomąja priežiūra.</span><span class="sxs-lookup"><span data-stu-id="3d3da-105">For example, you might have work orders that are related to preventive maintenance or corrective maintenance.</span></span>
+<span data-ttu-id="cc99d-104">Darbo užsakymų tipai naudojami siekiant suskirstyti darbo užsakymus į kategorijas.</span><span class="sxs-lookup"><span data-stu-id="cc99d-104">Work order types are used to categorize work orders.</span></span> <span data-ttu-id="cc99d-105">Pavyzdžiui, galite turėti darbo užsakymų, susijusių su prevencine arba taisomąja priežiūra.</span><span class="sxs-lookup"><span data-stu-id="cc99d-105">For example, you might have work orders that are related to preventive maintenance or corrective maintenance.</span></span>
 
-<span data-ttu-id="3d3da-106">Pagal darbo užsakymo tipą apibrėžiama sąsaja su darbo užsakymo ciklo modeliu.</span><span class="sxs-lookup"><span data-stu-id="3d3da-106">A work order type defines an affiliation with a work order lifecycle model.</span></span> <span data-ttu-id="3d3da-107">Pagal darbo užsakymo ciklo modelį apibrėžiamos darbo užsakymo ciklo būsenos, kurios gali būti nustatytos darbo užsakyme.</span><span class="sxs-lookup"><span data-stu-id="3d3da-107">A work order lifecycle model defines the work order lifecycle states that can be set on a work order.</span></span> <span data-ttu-id="3d3da-108">(Darbo užsakymo ciklo būsenų pavyzdžiai, be kita ko, yra **Sukurtas**, **Vykdomas** ir **Užbaigtas**.)</span><span class="sxs-lookup"><span data-stu-id="3d3da-108">(Examples of work order lifecycle states include **Created**, **In Process**, and **Finished**.)</span></span>
+<span data-ttu-id="cc99d-106">Pagal darbo užsakymo tipą apibrėžiama sąsaja su darbo užsakymo ciklo modeliu.</span><span class="sxs-lookup"><span data-stu-id="cc99d-106">A work order type defines an affiliation with a work order lifecycle model.</span></span> <span data-ttu-id="cc99d-107">Pagal darbo užsakymo ciklo modelį apibrėžiamos darbo užsakymo ciklo būsenos, kurios gali būti nustatytos darbo užsakyme.</span><span class="sxs-lookup"><span data-stu-id="cc99d-107">A work order lifecycle model defines the work order lifecycle states that can be set on a work order.</span></span> <span data-ttu-id="cc99d-108">(Darbo užsakymo ciklo būsenų pavyzdžiai, be kita ko, yra **Sukurtas**, **Vykdomas** ir **Užbaigtas**.)</span><span class="sxs-lookup"><span data-stu-id="cc99d-108">(Examples of work order lifecycle states include **Created**, **In Process**, and **Finished**.)</span></span>
 
-<span data-ttu-id="3d3da-109">Daugiau informacijos apie darbo užsakymo ciklo būsenas ir projekto etapus žr. [Darbo užsakymo ciklo būsenos](work-order-lifecycle-states.md).</span><span class="sxs-lookup"><span data-stu-id="3d3da-109">For more information about work order lifecycle states and project stages, see [Work order lifecycle states](work-order-lifecycle-states.md).</span></span>
+<span data-ttu-id="cc99d-109">Daugiau informacijos apie darbo užsakymo ciklo būsenas ir projekto etapus žr. [Darbo užsakymo ciklo būsenos](work-order-lifecycle-states.md).</span><span class="sxs-lookup"><span data-stu-id="cc99d-109">For more information about work order lifecycle states and project stages, see [Work order lifecycle states](work-order-lifecycle-states.md).</span></span>
 
-1. <span data-ttu-id="3d3da-110">Pasirinkite **Turto valdymas** \> **Sąranka** \> **Darbo užsakymai** \> **Darbo užsakymų tipai**.</span><span class="sxs-lookup"><span data-stu-id="3d3da-110">Select **Asset management** \> **Setup** \> **Work orders** \> **Work order types**.</span></span>
-2. <span data-ttu-id="3d3da-111">Norėdami sukurti darbo užsakymo tipą, pasirinkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="3d3da-111">Select **New** to create a work order type.</span></span>
-3. <span data-ttu-id="3d3da-112">Lauke **Darbo užsakymo tipas** įveskite darbo užsakymo tipo ID.</span><span class="sxs-lookup"><span data-stu-id="3d3da-112">In the **Work order type** field, enter an ID for the work order type.</span></span>
-4. <span data-ttu-id="3d3da-113">Tada lauke **Pavadinimas** įveskite pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="3d3da-113">In the **Name** field, enter a name.</span></span>
-5. <span data-ttu-id="3d3da-114">Lauke **Darbo užsakymo ciklo modelis** pasirinkite ciklo modelį.</span><span class="sxs-lookup"><span data-stu-id="3d3da-114">In the **Work order lifecycle model** field, select a lifecycle model.</span></span>
-5. <span data-ttu-id="3d3da-115">Parinktyje **Vienas priežiūros darbuotojas** pasirinkite **Taip**, jeigu visos su šio tipo darbo užsakymu susijusios darbo užsakymo užduotys turėtų būti paskirtos tam pačiam priežiūros darbuotojui.</span><span class="sxs-lookup"><span data-stu-id="3d3da-115">Set the **One maintenance worker** option to **Yes** if all work order jobs that are related to a work order of this type should be scheduled to the same maintenance worker.</span></span>
-6. <span data-ttu-id="3d3da-116">Lauke **Išlaidų tipas** tinkamai pasirinkite **Taisomosios**, **Prevencinės** arba **Investicinės**.</span><span class="sxs-lookup"><span data-stu-id="3d3da-116">In the **Cost type** field, select **Corrective**, **Preventive**, or **Investment**, as appropriate.</span></span> <span data-ttu-id="3d3da-117">Visoms darbo užsakyme nurodytoms darbo užsakymo užduotims turi būti nustatytas toks pat išlaidų tipas.</span><span class="sxs-lookup"><span data-stu-id="3d3da-117">All work order jobs on a work order must have the same cost type.</span></span>
-7. <span data-ttu-id="3d3da-118">Atitinkamose skyriaus **Privaloma** parinktyse pažymėkite **Taip**, kad patikslintumėte, kuri su gedimais arba prižiūrimo turto prastova susijusi informacija įtraukta į šio tipo darbo užsakymą.</span><span class="sxs-lookup"><span data-stu-id="3d3da-118">In the **Mandatory** section, set the relevant options to **Yes** to specify which fault-related or maintenance downtime–related information is added to a work order of this type.</span></span>
+1. <span data-ttu-id="cc99d-110">Pasirinkite **Turto valdymas** \> **Sąranka** \> **Darbo užsakymai** \> **Darbo užsakymų tipai**.</span><span class="sxs-lookup"><span data-stu-id="cc99d-110">Select **Asset management** \> **Setup** \> **Work orders** \> **Work order types**.</span></span>
+2. <span data-ttu-id="cc99d-111">Norėdami sukurti darbo užsakymo tipą, pasirinkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="cc99d-111">Select **New** to create a work order type.</span></span>
+3. <span data-ttu-id="cc99d-112">Lauke **Darbo užsakymo tipas** įveskite darbo užsakymo tipo ID.</span><span class="sxs-lookup"><span data-stu-id="cc99d-112">In the **Work order type** field, enter an ID for the work order type.</span></span>
+4. <span data-ttu-id="cc99d-113">Tada lauke **Pavadinimas** įveskite pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="cc99d-113">In the **Name** field, enter a name.</span></span>
+5. <span data-ttu-id="cc99d-114">Lauke **Darbo užsakymo ciklo modelis** pasirinkite ciklo modelį.</span><span class="sxs-lookup"><span data-stu-id="cc99d-114">In the **Work order lifecycle model** field, select a lifecycle model.</span></span>
+5. <span data-ttu-id="cc99d-115">Parinktyje **Vienas priežiūros darbuotojas** pasirinkite **Taip**, jeigu visos su šio tipo darbo užsakymu susijusios darbo užsakymo užduotys turėtų būti paskirtos tam pačiam priežiūros darbuotojui.</span><span class="sxs-lookup"><span data-stu-id="cc99d-115">Set the **One maintenance worker** option to **Yes** if all work order jobs that are related to a work order of this type should be scheduled to the same maintenance worker.</span></span>
+6. <span data-ttu-id="cc99d-116">Lauke **Išlaidų tipas** tinkamai pasirinkite **Taisomosios**, **Prevencinės** arba **Investicinės**.</span><span class="sxs-lookup"><span data-stu-id="cc99d-116">In the **Cost type** field, select **Corrective**, **Preventive**, or **Investment**, as appropriate.</span></span> <span data-ttu-id="cc99d-117">Visoms darbo užsakyme nurodytoms darbo užsakymo užduotims turi būti nustatytas toks pat išlaidų tipas.</span><span class="sxs-lookup"><span data-stu-id="cc99d-117">All work order jobs on a work order must have the same cost type.</span></span>
+7. <span data-ttu-id="cc99d-118">Atitinkamose skyriaus **Privaloma** parinktyse pažymėkite **Taip**, kad patikslintumėte, kuri su gedimais arba prižiūrimo turto prastova susijusi informacija įtraukta į šio tipo darbo užsakymą.</span><span class="sxs-lookup"><span data-stu-id="cc99d-118">In the **Mandatory** section, set the relevant options to **Yes** to specify which fault-related or maintenance downtime–related information is added to a work order of this type.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="3d3da-119">Parinktys skyriuje **Privaloma** yra susijusios su „FastTab” **Tikrinti** parinktimis puslapyje **Darbo užsakymo ciklo būsenos** (**Turto valdymas** \> **Sąranka** \> **Darbo užsakymai** \> **Ciklo būsenos**).</span><span class="sxs-lookup"><span data-stu-id="3d3da-119">The options in the **Mandatory** section are related to the options on the **Validate** FastTab of the **Work order lifecycle states** page (**Asset management** \> **Setup** \> **Work orders** \> **Lifecycle states**).</span></span>
+    > <span data-ttu-id="cc99d-119">Parinktys skyriuje **Privaloma** yra susijusios su „FastTab” **Tikrinti** parinktimis puslapyje **Darbo užsakymo ciklo būsenos** (**Turto valdymas** \> **Sąranka** \> **Darbo užsakymai** \> **Ciklo būsenos**).</span><span class="sxs-lookup"><span data-stu-id="cc99d-119">The options in the **Mandatory** section are related to the options on the **Validate** FastTab of the **Work order lifecycle states** page (**Asset management** \> **Setup** \> **Work orders** \> **Lifecycle states**).</span></span>
 
-8. <span data-ttu-id="3d3da-120">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="3d3da-120">Select **Save**.</span></span>
+8. <span data-ttu-id="cc99d-120">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="cc99d-120">Select **Save**.</span></span>
 
 ![Darbo užsakymų tipai](media/16-setup-for-work-orders.png)
