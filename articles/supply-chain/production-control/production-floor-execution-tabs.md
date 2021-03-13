@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 81c5c83128bb81523dee6ede549eece7b0d80e30
-ms.sourcegitcommit: d9d1ddce6a334ade8b32b5ea3ac4c1e1a8f72715
+ms.openlocfilehash: 786ea9a3da98e9f1812b007d4301cb47680e6894
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "4664277"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077583"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Sukurti gamybos aukšto vykdymo sąsają
 
@@ -57,7 +56,7 @@ Norėdami sukurti ir konfigūruoti naują skirtuką, atlikite šiuos žingsnius:
 1. Nustatykite tolesnius nustatymus antraštės puslapyje:
 
     - **Skirtuko pavadinimas** - Nurodykite skirtuko pavadinimą.
-    - **Pagrindinis rodinys** - Pasirinkite tarp dviejų iš anksto nustatytų darbo sąrašų (*Įjungti darbai* ar *Visi darbai*).
+    - **Pagrindinis rodinys** - Pasirinkite tarp dviejų iš anksto nustatytų darbo sąrašų (*Įjungti darbai*, *Visi darbai* arba *Mano mašina*).
     - **Išsamios informacijos rodinys** - Pasirinkite tarp tuščios vertės ar **Išsamios darbo informacijos**. Jei pasirinkote tuščią vertę, nebus jokio išsamios informacijos rodinio skirtuke. Jei pasirinkote **Išsami darbo informacija**, išsamiame rodinyje bus išsamus darbo aprašas iš pasirinkto darbo aprašo pagrindiniame rodinyje.
 
 1. Skyriuje **Pirminė įrankių juosta** pasirinkite, kurie mygtukai turi būti prieinami pirminėje įrankių juostoje. Stulpelis **Prieinami veiksmai** rodo visų mygtukų sąrašą, kurie gali būti įtraukti. Stulpelis **Pasirinkti veiksmai** rodo visų mygtukų, įtrauktų į esamą organizaciją, sąrašą. Naudokite mygtukus tarp stulpelių, kad judintumėte pasirinktas prekes tarp stuleplių, kaip būtina. Naudokite mygtukus į viršų ir į apačią šalia **Pasirinkti veiksmai** stulpelius, kad valdytumėte užsakymą, kuriame mygtukai yra rodomi vartotojo sąsajoje.
@@ -79,6 +78,3 @@ Jums sukūrųs visus būtinus skirtukus, galite susieti juos su konfigūravimu.
 1. Tęskite įtraukdami papildomus skirtukus, kaip būtina.
 
 1. Naudokite mygtukus **Judėti aukštyn** ir **Judėti žemyn** įrankių juostoje, kad sudėliotumėte skirtukus kaip reikia. Skirtukai bus rodomi iš kairės į dešinę tvarka rodoma virš momentinės ekrano nuotraukos (skirtukos viršuje rodomas kairėje).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

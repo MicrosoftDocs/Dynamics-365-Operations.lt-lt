@@ -1,6 +1,6 @@
 ---
-title: Elektroninių ataskaitų formatų modifikavimas iš naujo pritaikant „Excel‟ šablonus
-description: Šioje temoje pateikiama informacija apie tai, kaip galite modifikuoti elektroninių ataskaitų (ER) formatą, naudojamą verslo dokumentams generuoti, iš naujo pritaikant modifikuotą „Excel“ šabloną.
+title: Elektroninių ataskaitų formatų modifikavimas iš naujo pritaikant „Excel“ šablonus
+description: Šioje temoje aprašoma, kaip modifikuoti elektroninių ataskaitų (ER) formatą, naudojamą verslo dokumentams generuoti, iš naujo pritaikant modifikuotą „Excel“ šabloną.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/01/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa15ae3111f7b91fd63afedb3ef21709d7d866d8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3d828412e0d804acf6e6141778512e899bc78a7d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682222"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092849"
 ---
 # <a name="modify-electronic-reporting-formats-by-reapplying-excel-templates"></a>Elektroninių ataskaitų formatų modifikavimas iš naujo pritaikant „Excel‟ šablonus
 
@@ -33,6 +33,3 @@ Elektroninės ataskaitos (ER) įrankis naudojamas verslo dokumentams elektronini
 ER įrankį galima naudoti verslo dokumentams kaip „Microsoft Excel“ failams generuoti. Kaip šių dokumentų šabloną galite naudoti „Excel“ dokumentą. Norėdami nurodyti dokumento maketą ER kūrimo priemonėje, kaip šablonas norimo naudoti „Excel“ dokumento turinį galite importuoti į nurodytą ER formatą. Jei norite gauti daugiau informacijos ir išbandyti šį scenarijų, paleiskite užduočių vedlį **ER konfigūracijos, skirtos generuoti ataskaitas OPENXML formatu, kūrimas** (verslo proceso 7.5.4.3 Įsigyti / sukurti IT paslaugų / sprendimų komponentų (10677) dalis).
 
 Jei redaguosite kaip verslo dokumento šabloną naudojamą „Excel“ dokumentą, nauja ER funkcija leis iš naujo pritaikyti atnaujintą ER formato šabloną. Tada ER formatas bus atnaujintas, kad atitiktų atnaujintą šabloną. Jei norite gauti daugiau informacijos apie šią funkciją, paleiskite užduočių vedlį **ER formato modifikavimas iš naujo pritaikant „Excel‟ šabloną** (verslo proceso 7.5.5.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10683) dalis). Vykdydami užduočių vedlio veiksmą, kurio metu importuojate atnaujintą šabloną, kaip šabloną naudokite modifikuotą „Excel“ failo Mokėjimo ataskaita, SampleVendPaymWsReport2, šabloną.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

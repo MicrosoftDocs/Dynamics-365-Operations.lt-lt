@@ -1,104 +1,166 @@
 ---
-title: ER konfigūracijų kūrimas siekiant generuoti ataskaitas „Word“ formatu
-description: Toliau nurodytuose veiksmuose paaiškinta, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmens vartotojas gali konfigūruoti elektroninių ataskaitų formatus, norėdamas ataskaitas generuoti kaip „Microsoft Word“ failus.
+title: ER konfigūracijų su „Excel” šablonais, skirtų ataskaitų „Word” formatu generavimui, pakartotinis naudojimas
+description: Šioje temoje aprašoma, kaip ataskaitai formatai, skirti generuoti ataskaitoms kaip „Excel” darbaknygėms, gali būti konfigūruojami ataskaitų kaip „Word” dokumentų konfigūravimui.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/12/2019
+ms.date: 01/11/2021
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
+ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner, LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9d4959b511022e1aa98544d23da6afcda1f6adf2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 769913fd0344eb276b3b1bd055255272ca5dfffd
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681930"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092721"
 ---
-# <a name="design-er-configurations-to-generate-reports-in-word-format"></a>ER konfigūracijų kūrimas siekiant generuoti ataskaitas „Word“ formatu
+# <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>ER konfigūracijų su „Excel” šablonais, skirtų ataskaitų „Word” formatu generavimui, pakartotinis naudojimas
 
 [!include [banner](../../includes/banner.md)]
 
-Toliau nurodytuose veiksmuose paaiškinta, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmens vartotojas gali konfigūruoti elektroninių ataskaitų (ER) formatus, norėdamas ataskaitas generuoti kaip „Microsoft Word“ failus. Šiuos veiksmus galima atlikti GBSI įmonėje.
+Norėdami generuoti ataskaitas kaip „Microsoft Word” dokumentus, galite [konfigūruoti](../er-design-configuration-word.md) naują [Elektroninių ataskaitų (ER)](../general-electronic-reporting.md) [formatą](../general-electronic-reporting.md#FormatComponentOutbound). Arba galite pakartotinai naudoti ER formatą, kuris iš pradžių buvo sukurtas generuoti ataskaitoms kaip „Excel” darbaknygėms. Šiuo atveju turite pakeisti „Excel” šabloną į „Word” šabloną.
 
-Norėdami atlikti šiuos veiksmus, pirmiausia turite užbaigti užduočių vadovo „ER konfigūracijos, skirtos generuoti ataskaitoms OPENXML formatu, kūrimas“ veiksmus. Iš anksto taip pat turite atsisiųsti ir įrašyti šiuos šablonus vietoje ataskaitos pavyzdžiui:
+Tolesnės procedūros rodo, kaip vartotojas sistemos administratoriaus vaidmenyje arba elektroninės ataskaitos kūrėjo vaidmenyje gali konfigūruoti ER formatą, skirtą generuoti ataskaitoms kaip „Word” failams, pakartotinai naudodamas ER formatą, kuris buvo sukurtas generuoti ataskaitoms kaip „Excel” failams.
 
-- [Mokėjimo ataskaitos šablonas](https://go.microsoft.com/fwlink/?linkid=862266)
-- [Susietas mokėjimo ataskaitos šablonas](https://go.microsoft.com/fwlink/?linkid=862266)
+Šias procedūras galima užbaigti GBSI įmonėje.
 
+## <a name="prerequisites"></a>Būtinieji komponentai
 
-Ši procedūra yra skirta į 1611 „Microsoft Dynamics 365 for Operations“ versiją įtrauktai funkcijai aprašyti.
+Norėdami užbaigti šias procedūras, pirmiausia turite atlikti užduočių vedlyje [Konfigūracijos, skirtos ataskaitoms „OPENXML” formatu generuoti, kūrimas](er-design-reports-openxml-2016-11.md) nurodytus veiksmus.
 
+Taip pat turite atsisiųsti ir įrašyti vietoje šiuos šablonus ataskaitos pavyzdžiui:
+
+- [Mokėjimo ataskaitos šablonas (SampleVendPaymDocReport.docx)](https://go.microsoft.com/fwlink/?linkid=862266)
+- [Susietas mokėjimo ataskaitos šablonas („SampleVendPaymDocReportBounded.docx”)](https://go.microsoft.com/fwlink/?linkid=862266)
+
+Šios procedūros skirtos funkcijai, kuri buvo įtraukta į 1611 „Dynamics 365 for Operations” versiją (2016 m. lapkričio mėn).
 
 ## <a name="select-the-existing-er-report-configuration"></a>Pasirinkite esamą ER ataskaitos konfigūraciją
-1. **Naršymo srityje eikite į Moduliai > Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos**. Įsitikinkite, kad konfigūracijos teikėjas „Litware, Inc.“ pasirinktas kaip aktyvus.  
-2. Spustelėkite **Ataskaitų konfigūracijos**. Pakartotinai naudosime esamą ER konfigūraciją, kuri iš pradžių buvo skirta ataskaitos išvesčiai OPENXML formatu generuoti.  
-3. Medyje išplėskite „Mokėjimo modelis‟.
-4. Medyje pasirinkite Mokėjimo modelis\Darbalapio ataskaitos pavyzdys.
-5. Spustelėkite Konstruktorius.
 
-## <a name="replace-the-excel-template-with-the-word-template"></a>„Excel” šabloną pakeiskite „Word“ šablonu
+1. „Dynamics 365 Finance” eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
+2. Įsitikinkite, kad konfigūracijos teikėjas **„Litware, Inc.“** yra pasirinktas kaip **Aktyvus**. Jeigu nėra, atlikite veiksmus, nurodytus [Kurkite konfigūracijos teikėjus ir pažymėkite juos kaip aktyvius](er-configuration-provider-mark-it-active-2016-11.md) užduočių vedlyje.
+3. Pasirinkite **Ataskaitų konfigūracijos**. Pakartotinai naudosite esamą ER konfigūraciją, kuri iš buvo sukurta ataskaitos išvesčiai „OPENXML” formatu generuoti.
+4. Puslapio **Konfigūracijos** konfigūracijų medžio kairėje srityje išskleiskite **Mokėjimo modelis**, o tada pasirinkite **Pavyzdinė darbalapio ataskaita**.
 
-Šiuo metu „Excel” dokumentas naudojamas kaip šablonas OPENXML formato išvesčiai generuoti. Importuosime ataskaitos šabloną „Word“ formatu.
+    > [!NOTE]
+    > Pasirinktos ER formato konfigūracijos šablono versiją galima redaguoti **Versijos** „FastTab” skirtuke.
 
-1. Spustelėkite **Priedai**. Esamą „Excel” šabloną pakeiskite „Word“ šablonu SampleVendPaymDocReport.docx, kurį atsisiuntėte anksčiau. Atkreipkite dėmesį, kad šiame šablone yra tik dokumento maketas, kurį norime sugeneruoti kaip ER išvestį.  
-2. Spustelėkite **Naikinti**.
-3. Spustelėkite **Taip**.
-4. Spustelėkite **Naujas**.
-5. Spustelėkite **Failas**.
-6. Spustelėkite **Naršyti**. Suraskite ir pasirinkite anksčiau atsisiųstą failą SampleVendPaymDocReport.docx. Spustelėkite **Gerai**. Pasirinkite šabloną, kurį atsisiuntėte vykdydami ankstesnį veiksmą.  
-7. Lauke **Šablonas** įveskite arba pasirinkite reikšmę.
+5. Pasirinkite **Dizaino įrankis**.
+6. Puslapyje **Formato dizaino įrankis** atkreipkite dėmesį, kad šakninio formato elemento pavadinimas nurodo, kad šiuo metu naudojamas „Excel” šablonas.
 
-## <a name="extend-the-word-template-by-adding-a-custom-xml-part"></a>Išplėskite „Word“ šabloną įtraukdami pasirinktinę XML dalį
-1. Spustelėkite **Įrašyti**. Be to, norėdami išsaugoti konfigūracijos pakeitimus, atlikite veiksmą Įrašyti, kuriuo taip pat atnaujinamas pridėtas „Word” šablonas. Sukurto formato struktūra perkeliama į pridėtą „Word” dokumentą kaip nauja pasirinktinė XML dalis, kurios pavadinimas „Ataskaita“. Atminkite, kad pridėtame „Word” šablone yra ne tik dokumento maketas, kurį norime sugeneruoti kaip ER išvestį, bet ir duomenų struktūra, kuri apdorojimo metu ER perkels į šį šabloną.  
-2. Spustelėkite **Priedai**.
-    + Dabar turite susieti pasirinktinės XML dalies „Ataskaita“ elementus su „Word” dokumento dalimis.  
-    + Jei esate susipažinę su „Word“ dokumentais, kurie gali būti sukurti kaip formos, turinčios su pasirinktinių XML dalių elementais susietų turinio valdiklių, paleiskite visus kitos papildomos užduoties veiksmus, kad sukurtumėte tokį dokumentą. Daugiau informacijos ieškokite temoje [Formų, kurias vartotojai užbaigia ar spausdina programoje „Word“, kūrimas](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US). Priešingu atveju praleiskite visus kitos papildomos užduoties veiksmus.  
+![Esamos konfigūracijos pasirinkimas](../media/er-design-configuration-word-2016-11-image01.gif)
 
-## <a name="get-word-with-custom-xml-part-to-do-data-bindings"></a>Norėdami gauti „Word“ dokumentą su pasirinktine XML dalimi, susiekite duomenis
+## <a name="review-the-downloaded-word-template"></a>Peržiūrėkite atsisiųstą „Word” šabloną
 
-Atidarykite šį dokumentą programoje „Word“ ir atlikite toliau nurodytus veiksmus:  
-1. Atidarykite skirtuką „Word“ programų kūrėjas (tinkinkite juostelę, jei ji dar neįjungta).
-2. Pasirinkite XML susiejimo sritį.
-3. Peržvalgoje pažymėkite pasirinktinę XML dalį Ataskaita.
-4. Susiekite pažymėtos pasirinktinės XML dalies ir „Word“ dokumento turinio valdiklio elementus.  5. Įrašykite atnaujintą „Word“ dokumentą vietiniame diske.  
+1. „Word” darbalaukio programoje atidarykite **„SampleVendPaymDocReport.docx”** šablono failą, kurį atsisiuntėte anksčiau.
+2. Patvirtinkite, kad šiame šablone yra tik dokumento maketas, kurį norite sugeneruoti kaip ER išvestį.
 
-## <a name="upload-the-word-template-with-custom-xml-part-bounded-to-content-controls"></a>Įkelkite „Word“ šabloną su turinio valdikliais susieta pasirinktine XML dalimi
-1. Spustelėkite **Naikinti**.
-2. Spustelėkite **Taip**. Įtraukite naują šabloną. Jei atlikote ankstesnės papildomos užduoties veiksmus, pasirinkite paruoštą ir įrašytą vietoje „Word“ dokumentą. Priešingu atveju pasirinkite „MS Word” šabloną SampleVendPaymDocReportBounded.docx, kurį atsisiuntėte anksčiau.  
-3. Spustelėkite **Naujas**.
-4. Spustelėkite **Failas**.
-5. Spustelėkite **Naršyti**. Suraskite ir pasirinkite anksčiau atsisiųstą failą SampleVendPaymDocReportBounded.docx. Spustelėkite **Gerai**.
-6. Lauke **Šablonas** pasirinkite ankstesniame žingsnyje atsisiųstą dokumentą.
-7. Spustelėkite **Įrašyti**.
-8. Uždarykite puslapį.
+![„Word” šablono maketas darbalaukio programoje](../media/er-design-configuration-word-2016-11-image02.png)
 
-## <a name="execute-the-format-to-create-word-output"></a>Formato paleidimas norint kurti „Word“ išvestį
-1. **Veiksmų srityje** spustelėkite **Konfigūracijos**.
-2. Spustelėkite **Vartotojo parametrai**.
-3. Pažymėkite Taip lauke **Paleisti parametrus**.
-4. Spustelėkite **Gerai**.
-5. Spustelėkite **Redaguoti**.
-6. Pažymėkite Taip lauke **Paleisti juodraštį**.
-7. Spustelėkite **Įrašyti**.
-8. Uždarykite puslapį.
-9. Uždarykite puslapį.
-10. **Naršymo srityje** eikite į **Moduliai > Mokėtinos sumos > Mokėjimai > Mokėjimo žurnalas**.
-11. Spustelėkite **Eilutės**.
-12. Pažymėkite arba atžymėkite visas sąrašo eilutes.
-13. Spustelėkite **Mokėjimo būsena**.
-14. Spustelėkite **Nėra**.
-15. Spustelėkite **Generuoti mokėjimus**.
-16. Spustelėkite **Gerai**.
-17. Spustelėkite **Gerai**. Analizuokite sugeneruotą išvestį. Įsidėmėkite, kad sukurta išvestis pateikiama „Word” formatu kartu su informacija apie apdorotus mokėjimus.  
+## <a name="replace-the-excel-template-with-the-word-template-and-add-a-custom-xml-part"></a>Pakeiskite „Excel” šabloną į „Word” šabloną ir įtraukite pasirinktinę XML dalį
 
+Šiuo metu „Excel” dokumentas naudojamas kaip šablonas OPENXML formato išvesčiai generuoti. Šį šabloną pakeisite į „Word” šablono failą „SampleVendPaymDocReport.docx”, kurį atsisiuntėte anksčiau. Taip pat išplėsite „Word“ šabloną įtraukdami pasirinktinę XML dalį.
 
+1. „Finance” puslapio **Formato dizaino įrankis** skirtuke **Formatas** pasirinkite **Priedai**.
+2. Puslapyje **Priedai** pasirinkite **Naikinti** esamo „Excel” šablono pašalinimui. Pasirinkite **Taip** pakeitimo patvirtinimui.
+3. Pasirinkite **Naujas** \> **Failas**.
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+    > [!NOTE]
+    > Turite pasirinkti dokumento tipą, kuris buvo [sukonfigūruotas](../electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) naudojant ER parametrus, kad išsaugotumėte ER formato šablonus.
+
+4. Pasirinkite **Naršyti**, o tada pereikite ir pasirinkite **„SampleVendPaymDocReport.docx”** failą, kurį atsisiuntėte anksčiau.
+5. Pasirinkite **Gerai**.
+6. Uždarykite puslapį **Priedai**.
+7. Puslapio **Formato dizaino įrankis** lauke **Šablonas** įveskite arba pasirinkite **„SampleVendPaymDocReport.docx”** failą naudoti „Word” šablonui, vietoj anksčiau naudoto „Excel” šablono.
+8. Pasirinkite **Įrašyti**.
+
+    Be to, kad išsaugomi konfigūracijos pakeitimai, veiksmas **Įrašyti** atnaujinamą pridėtą „Word” šabloną. Sukurto formato hierarchinė struktūra įtraukiama į pridėtą „Word” dokumentą kaip nauja pasirinktinė XML dalis, pavadinta **Ataskaita**. Pridėtame „Word” šablone yra dokumento maketas, kuris bus sugeneruotas kaip ER išvestis, ir duomenų struktūra, kurią apdorojimo metu ER įves į šį šabloną.
+
+9. Atkreipkite dėmesį, kad šakninio formato elemento pavadinimas nurodo, kad šiuo metu naudojamas „Word” šablonas.
+
+    ![„Excel” šablono pakeitimas „Word” šablonu ir pasirinktinės XML dalies įtraukimas](../media/er-design-configuration-word-2016-11-image03.gif)
+
+10. Skirtuke **Formatas** pasirinkite **Priedai.**
+
+Dabar galite susieti pasirinktinės XML dalies **Ataskaita** elementus su „Word“ dokumento turinio valdikliais.
+
+Jei esate susipažinę su „Word“ dokumentų kaip formų, turinčių [turinio valdiklius](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word), susietus su [pasirinktinių XML dalių](https://docs.microsoft.com/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) elementais, kūrimo procesu, atlikite visus tolesnės procedūros veiksmus, kad sukurtumėte tokį dokumentą. Daugiau informacijos žiūrėkite [Formų, kurias vartotojai užbaigia ar spausdina programoje „Word“, kūrimas](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b). Kitu atveju praleiskite tolesnę procedūrą.
+
+## <a name="get-a-word-document-that-has-a-custom-xml-part-and-do-data-mapping"></a><a id='get-word-doc'></a>Gaukite „Word” dokumentą su pasirinktine XML dalimi ir atlikite duomenų susiejimą
+
+1. „Finance” puslapyje **Priedai** pasirinkite **Atidaryti** šablono atsisiuntimui iš „Finance” ir jo saugojimui vietoje kaip „Word” dokumento.
+3. „Word” darbalaukio programoje atidarykite ką tik atsisiųstą dokumentą.
+4. Skirtuke **Kūrėjas** pasirinkite **XML susiejimo sritis**.
+
+    > [!NOTE]
+    > Jei juostelėje nerodomas **Programuotojo** skirtukas, tinkinkite juostelę jam įtraukti.
+
+5. Srities **XML susiejimas** lauke **Pasirinktinė XML dalis** pasirinkite **Ataskaitos** pasirinktinę XML dalį.
+6. Susiekite pasirinktos **Ataskaitos** pasirinktinės XML dalies elementus ir „Word“ dokumento turinio valdiklius.
+7. Įrašykite vietoje atnaujintą „Word” dokumentą kaip **„SampleVendPaymDocReportBounded.docx”**.
+
+## <a name="review-the-word-template-where-the-custom-xml-part-is-mapped-to-content-controls"></a>Peržiūrėti „Word“ šabloną, kuriame pasirinktinė XML dalis yra susieta su turinio valdikliais
+
+1. „Word” darbalaukio programoje atidarykite **„SampleVendPaymDocReportBounded.docx”** šablono failą.
+2. Patvirtinkite, kad šiame šablone yra dokumento maketas, kurį norite sugeneruoti kaip ER išvestį. Turinio valdikliai, kurie yra naudojami kaip vietos rezervavimo ženklai duomenims, ER įvedamiems į šį šabloną vykdymo metu, yra paremti susiejimais, sukonfigūruotais tarp **Ataskaitos** pasirinktinės XML dalies elementų ir „Word” dokumento turinio valdiklių.
+
+![„Word” šablono peržiūra darbalaukio programoje](../media/er-design-configuration-word-2016-11-image04.png)
+
+## <a name="upload-the-word-template-where-the-custom-xml-part-is-mapped-to-content-controls"></a>Įkelkite „Word“ šabloną, kuriame pasirinktinė XML dalis yra susieta su turinio valdikliais
+
+1. „Finance” puslapyje **Priedai** pasirinkite **Naikinti** „Word” šabloną, kuriame nėra susiejimų tarp **Ataskaitos** pasirinktinės XML dalies ir turinio valdiklių. Pasirinkite **Taip** pakeitimo patvirtinimui.
+2. Pasirinkite **Nauja** \> **Failas** pridėti naujam šablonui, kuriame yra susiejimai tarp **Ataskaitos** pasirinktinės XML dalies elementų ir turinio valdiklių.
+
+    > [!NOTE]
+    > Turite pasirinkti dokumento tipą, kuris buvo [sukonfigūruotas](../electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) naudojant ER parametrus, kad išsaugotumėte ER formato šablonus.
+
+3. Pasirinkite **Naršyti**, o tada naršykite ir pasirinkite **„SampleVendPaymDocReportBounded.docx”** failą, kurį atsisiuntėte ar paruošėte atlikdami procedūrą, aprašytą [Gaukite „Word” su pasirinktine XML dalimi duomenų susiejimui](#get-word-doc) skyriuje.
+4. Pasirinkite **Gerai**.
+5. Uždarykite puslapį **Priedai**.
+6. Puslapio **Formato dizaino įrankis** lauke **Šablonas** pasirinkite ką tik atsisiųstą dokumentą.
+7. Pasirinkite **Įrašyti**.
+8. Uždarykite puslapį **Formato dizaino įrankis**.
+
+## <a name="mark-the-configured-format-as-runnable"></a>Pažymėkite sukonfigūruotą formatą kaip vykdytiną
+
+Norėdami paleisti redaguojamo formato juodraščio versiją, turite ją padaryti [vykdytina](../er-quick-start2-customize-report.md#MarkFormatRunnable).
+
+1. „Finance” puslapio **Konfigūracijos** veiksmų srities skirtuko **Konfigūracijos** grupėje **Papildomi parametrai** pasirinkite **Vartotojo parametrai**.
+2. **Vartotojo parametrai** dialogo lange nustatykite **Leisti parametrus** parinktį į **Taip** ir pasirinkite **Gerai**.
+3. Pasirinkite **Redaguoti**, kad pagal poreikį galėtumėte redaguoti esamą puslapį.
+4. Šiuo metu pasirinktai **Pavyzdinio darbalapio ataskaitos** konfigūracijai nustatykite parinktį **Vykdyti juodraštį** į **Taip**.
+5. Pasirinkite **Įrašyti**.
+
+## <a name="run-the-format-to-create-output-in-word-format"></a>Vykdykite formatą išvesties „Word” formatu sukūrimui
+
+1. „Finance” eikite į **Mokėtinos sumos** \> **Mokėjimai** \> **Mokėjimų žurnalas**.
+2. Anksčiau įvestame mokėjimo žurnale pasirinkite **Eilutės**.
+3. Puslapyje **Tiekėjo mokėjimai** pasirinkite visas tinklelio eilutes.
+4. Pasirinkite **Mokėjimo būsena** \> **Nėra**.
+
+    ![Apdorotini mokėjimai puslapyje Tiekėjo mokėjimai](../media/er-design-configuration-word-2016-11-image05.png)
+
+5. Veiksmų srityje pasirinkite **Generuoti mokėjimus**.
+6. Atsiradusiame dialogo lange atlikite toliau nurodytus veiksmus:
+
+    1. Lauke **Mokėjimo būdas** pasirinkite **Elektroninis**.
+    2. Lauke **Banko sąskaita** įveskite **GBSI OPER**.
+    3. Pasirinkite **Gerai**.
+
+7. Dialogo lange **Elektroninių ataskaitų parametrai** pasirinkite **Gerai**.
+8. Sugeneruota išvestis pateikiama „Word” formatu kartu su informacija apie apdorotus mokėjimus. Analizuokite sugeneruotą išvestį.
+
+    ![Sugeneruota išvestis „Word” formatu](../media/er-design-configuration-word-2016-11-image06.png)
+
+## <a name="additional-resources"></a>Papildomi ištekliai
+
+- [Naujos ER konfigūracijos, skirtos ataskaitų generavimui „Word“ formatu, kūrimas](../er-design-configuration-word.md)
+- [Vaizdų ir figūrų įterpimas generuojamuose dokumentuose naudojant ER](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)

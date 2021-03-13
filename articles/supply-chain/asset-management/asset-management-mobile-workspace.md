@@ -1,36 +1,33 @@
 ---
-title: Mobilioji darbo sritis Turto valdymas
+title: Turto valdymo mobiliosios darbo srities naudojimas
 description: Šioje temoje pateikiama informacijos apie mobiliąją darbo sritį Turto valdymas.
 author: josaw1
 manager: tfehr
-ms.date: 10/01/2019
+ms.date: 01/15/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 525f21d076027f1bf339e59fd0e346706044839c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: afda807714f14efb1cbab4ecfdd273aac52f4558
+ms.sourcegitcommit: 995c678b4715be267f1f97148902a6b3dde3bcab
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433421"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "5033157"
 ---
-# <a name="asset-management-mobile-workspace"></a>Mobilioji darbo sritis Turto valdymas
+# <a name="use-the-asset-management-mobile-workspace"></a>Turto valdymo mobiliosios darbo srities naudojimas
 
 [!include [banner](../../includes/banner.md)]
 
-
-Šioje temoje pateikiama informacijos apie mobiliąją darbo sritį Turto valdymas. Ši darbo sritis leidžia vartotojams peržiūrėti ir kurti priežiūros užklausas bei darbo užsakymus. Be to, vartotojai gali peržiūrėti priskirtas darbo užsakymo užduotis kalendoriuje arba sąrašo rodinyje. Taip pat galima peržiūrėti ir ieškoti turto ir funkcinių vietų.
-
+Šioje temoje pateikiama informacija apie **Turto valdymas** mobiliąją darbo sritį. Ši darbo sritis leidžia vartotojams peržiūrėti ir kurti priežiūros užklausas bei darbo užsakymus. Be to, vartotojai gali peržiūrėti priskirtas darbo užsakymo užduotis kalendoriuje arba sąrašo rodinyje. Taip pat galima peržiūrėti ir ieškoti turto ir funkcinių vietų.
 
 ## <a name="overview"></a>Apžvalga
 
@@ -44,215 +41,201 @@ Tiksliau sakant, naudodami mobiliąją darbo sritį **Turto valdymas** vartotoja
 - Kurti, peržiūrėti ir redaguoti darbo užsakymo užduotį, atnaujinti turto skaitiklius, peržiūrėti prižiūrimo turto kontrolinį sąrašą, peržiūrėti ir redaguoti darbo užsakymo užduoties pastabas, peržiūrėti darbo užsakymo užduočiai reikalingus įrankius.
 - Peržiūrėti arba ieškoti konkretaus turto arba funkcinės vietos.
 
-
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
-Būtinosios sąlygos skiriasi priklausomai nuo jūsų organizacijoje visuotinai įdiegtos „Dynamics 365 Supply Chain Management“ versijos.
-
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-supply-chain-management"></a>Būtinosios sąlygos, jeigu naudojate „Microsoft Dynamics 365 Supply Chain Management“ 
-Jei jūsų organizacijoje visuotinai įdiegtas „Microsoft Dynamics 365 Supply Chain Management“, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Turto valdymas**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Norėdami naudoti **Turto valdymas** mobiliąją darbo sritį, jūsų administratorius turi nustatyti reikiamus vartotojų ir darbuotojų abonementus bei publikuoti darbo sritį. Daugiau informacijos rasite [Turto valdymo mobiliosios darbo srities nustatymas](set-up-asset-management-mobile.md).
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobiliosios programos atsisiuntimas ir diegimas
+
 Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Operations“:
 
 - [„Android“ telefonams](https://go.microsoft.com/fwlink/?linkid=850662)
 - [„iPhone“ telefonams](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Prisijunkite prie mobiliosios programos
+
 1. Paleiskite programą savo mobiliajame įrenginyje.
 
-2. Įveskite savo „Dynamics 365“ URL.
+1. Įveskite savo „Dynamics 365“ URL.
 
-3. Kai prisijungsite pirmą kartą, bus rodomas raginimas įvesti savo vartotojo vardą ir slaptažodį. Įveskite savo kredencialus.
+1. Kai prisijungsite pirmą kartą, bus rodomas raginimas įvesti savo vartotojo vardą ir slaptažodį. Įveskite savo kredencialus.
 
-4. Prisijungus rodomos galimos jūsų įmonės darbo sritys. Atkreipkite dėmesį, kad sistemos administratoriui paskelbus naują darbo sritį vėliau turėsite atnaujinti mobiliųjų darbo sričių sąrašą.
+1. Prisijungus rodomos galimos jūsų įmonės darbo sritys. Atkreipkite dėmesį, kad sistemos administratoriui paskelbus naują darbo sritį vėliau turėsite atnaujinti mobiliųjų darbo sričių sąrašą.
 
-![1 pav.](media/am-mobile-01.png)
-
+    ![Darbo srities pasirinkimas](media/am-mobile-01.png "Darbo srities pasirinkimas")
 
 ## <a name="view-assigned-work-order-jobs-in-calendar-view"></a>Peržiūrėti priskirtas darbo užsakymo užduotis kalendoriaus rodinyje
 
 1. Savo mobiliajame įrenginyje atidarykite darbo sritį **Turto valdymas**.
 
-2. Pasirinkite **Mano darbo užsakymo užduočių kalendorius**.
+1. Pasirinkite **Mano darbo užsakymo užduočių kalendorius**.
 
-3. Pasirinkite norimų peržiūrėti darbo užsakymo užduočių datą. Sąraše matysite kiekvienos darbo užsakymo užduoties turto ID ir funkcinės vietos ID.
+1. Pasirinkite norimų peržiūrėti darbo užsakymo užduočių datą. Sąraše matysite kiekvienos darbo užsakymo užduoties turto ID ir funkcinės vietos ID.
 
-4. Norėdami peržiūrėti užduoties informaciją, – turto ir funkcinės vietos informaciją bei kitus naršymo saitus, kuriuose galima peržiūrėti **priedus**, **kontrolinius sąrašus**, **įrankius**, **turto skaitiklius**, **pastabas**, **žurnalus**, – pasirinkite darbo užsakymo užduotį sąraše.
+1. Norėdami peržiūrėti užduoties informaciją, – turto ir funkcinės vietos informaciją bei kitus naršymo saitus, kuriuose galima peržiūrėti **priedus**, **kontrolinius sąrašus**, **įrankius**, **turto skaitiklius**, **pastabas**, **žurnalus**, – pasirinkite darbo užsakymo užduotį sąraše.
 
-![2 pav.](media/am-mobile-02.png)
-
+    ![Peržiūrėti priskirtas darbo užsakymo užduotis kalendoriaus rodinyje](media/am-mobile-02.png "Peržiūrėti priskirtas darbo užsakymo užduotis kalendoriaus rodinyje")
 
 ## <a name="create-a-work-order-job"></a>Darbo užsakymo užduoties kūrimas
 
 1. Savo mobiliajame įrenginyje atidarykite darbo sritį **Turto valdymas**.
 
-2. Pasirinkite **Visi priežiūros darbo užsakymai**.
+1. Pasirinkite **Visi priežiūros darbo užsakymai**.
 
-3. Pasirinkite darbo užsakymą, kurio naują darbo užsakymo užduotį norite sukurti.
+1. Pasirinkite darbo užsakymą, kurio naują darbo užsakymo užduotį norite sukurti.
 
-4. Pasirinkite mygtuką **Įtraukti eilutę**.
+1. Pasirinkite mygtuką **Įtraukti eilutę**.
 
-5. Pasirinkite **turtą**, kurio naują darbo užsakymo užduotį norite sukurti.
+1. Pasirinkite **turtą**, kurio naują darbo užsakymo užduotį norite sukurti.
 
-6. Pasirinkite **Priežiūros užduoties tipas**, **Priežiūros užduoties tipo variantas** ir **Prekybos šaka**.
+1. Pasirinkite **Priežiūros užduoties tipas**, **Priežiūros užduoties tipo variantas** ir **Prekybos šaka**.
 
-7. Pasirinkite **Atlikta**.
+1. Pasirinkite **Atlikta**.
 
-![3 pav.](media/am-mobile-03.png)
+    ![Ekranas Įtraukti eilutę](media/am-mobile-03.png "Ekranas Įtraukti eilutę")
 
 
 ## <a name="add-attachment-to-a-work-order-job"></a>Priedo įtraukimas į darbo užsakymo užduotį
 
 1. Savo mobiliajame įrenginyje atidarykite darbo sritį **Turto valdymas**.
 
-2. Pasirinkite **Visi priežiūros darbo užsakymai**.
+1. Pasirinkite **Visi priežiūros darbo užsakymai**.
 
-3. Pasirinkite darbo užsakymą, tada darbo užsakymo užduotį, į kurią norite įtraukti priedą.
+1. Pasirinkite darbo užsakymą, tada darbo užsakymo užduotį, į kurią norite įtraukti priedą.
     - Taip pat pagrindiniame puslapyje galite pasirinkti **Mano darbo užsakymo užduočių kalendorius** arba **Mano darbo užsakymo užduočių sąrašas**, kad galėtumėte pereiti į puslapį **Darbo užsakymo užduoties informacija**.
 
-4. Puslapyje **Darbo užsakymo užduoties informacija** pasirinkite **Priedai**.
+1. Puslapyje **Darbo užsakymo užduoties informacija** pasirinkite **Priedai**.
 
-5. Matysite esamus darbo užsakymo užduoties priedus. Pasirinkite **Įtraukti priedą**.
+1. Matysite esamus darbo užsakymo užduoties priedus. Pasirinkite **Įtraukti priedą**.
 
-6. Įveskite priedo **pavadinimą** ir **pastabas**.
+1. Įveskite priedo **pavadinimą** ir **pastabas**.
 
-7. Pasirinkite **Pasirinkti vaizdą**, kad pasirinktumėte nuotrauką iš mobiliosios galerijos, arba **Fotografuoti**, kad nufotografuotumėte.
+1. Pasirinkite **Pasirinkti vaizdą**, kad pasirinktumėte nuotrauką iš mobiliosios galerijos, arba **Fotografuoti**, kad nufotografuotumėte.
 
-8. Pasirinkite **Atlikta**.
+1. Pasirinkite **Atlikta**.
 
-![4 pav.](media/am-mobile-04.png)
-
+    ![Peržiūrėti ir įtraukti priedus darbo užsakymo užduočiai](media/am-mobile-04.png "Peržiūrėti ir įtraukti priedus darbo užsakymo užduočiai")
 
 ## <a name="view-maintenance-checklist-on-a-work-order-job"></a>Darbo užsakymo užduoties prižiūrimo turto kontrolinio sąrašo peržiūra
 
 1. Savo mobiliajame įrenginyje atidarykite darbo sritį **Turto valdymas**.
 
-2. Pasirinkite **Visi priežiūros darbo užsakymai**.
+1. Pasirinkite **Visi priežiūros darbo užsakymai**.
 
-3. Pasirinkite darbo užsakymą, tada darbo užsakymo užduotį, kurios kontrolinius sąrašus norite peržiūrėti.
+1. Pasirinkite darbo užsakymą, tada darbo užsakymo užduotį, kurios kontrolinius sąrašus norite peržiūrėti.
     - Taip pat pagrindiniame puslapyje galite pasirinkti **Mano darbo užsakymo užduočių kalendorius** arba **Mano darbo užsakymo užduočių sąrašas**, kad galėtumėte pereiti į puslapį **Darbo užsakymo užduoties informacija**.
 
-4. Puslapyje **Darbo užsakymo užduoties informacija** pasirinkite **Kontroliniai sąrašai**.
+1. Puslapyje **Darbo užsakymo užduoties informacija** pasirinkite **Kontroliniai sąrašai**.
 
-5. Matysite kontrolinio sąrašo eilučių, susijusių su darbo užsakymo užduotimi, sąrašą. Pasirinkite kontrolinio sąrašo eilutę, kad peržiūrėtumėte **instrukcijas** ir įtrauktumėte **pastabų**.
+1. Matysite kontrolinio sąrašo eilučių, susijusių su darbo užsakymo užduotimi, sąrašą. Pasirinkite kontrolinio sąrašo eilutę, kad peržiūrėtumėte **instrukcijas** ir įtrauktumėte **pastabų**.
 
-6. Norėdami vėl atidaryti ankstesnį puslapį, pasirinkite mygtuką Atgal(**<**).
+1. Norėdami vėl atidaryti ankstesnį puslapį, pasirinkite mygtuką Atgal(**<**).
 
-![5 pav.](media/am-mobile-05.png)
-
+    ![Prižiūrimo turto kontrolinis sąrašo ir eilučių informacija](media/am-mobile-05.png "Prižiūrimo turto kontrolinis sąrašo ir eilučių informacija")
 
 ## <a name="view-and-update-asset-counters-on-a-work-order-job"></a>Darbo užsakymo užduoties turto skaitiklių peržiūra ir atnaujinimas
 
 1. Savo mobiliajame įrenginyje atidarykite darbo sritį **Turto valdymas**.
 
-2. Pasirinkite **Visi priežiūros darbo užsakymai**.
+1. Pasirinkite **Visi priežiūros darbo užsakymai**.
 
-3. Pasirinkite darbo užsakymą, tada darbo užsakymo užduotį, kurios turto skaitiklius norite peržiūrėti.
+1. Pasirinkite darbo užsakymą, tada darbo užsakymo užduotį, kurios turto skaitiklius norite peržiūrėti.
     - Taip pat pagrindiniame puslapyje galite pasirinkti **Mano darbo užsakymo užduočių kalendorius** arba **Mano darbo užsakymo užduočių sąrašas**, kad galėtumėte pereiti į puslapį **Darbo užsakymo užduoties informacija**.
 
-4. Puslapyje **Darbo užsakymo užduoties informacija** pasirinkite **Turto skaitikliai**.
+1. Puslapyje **Darbo užsakymo užduoties informacija** pasirinkite **Turto skaitikliai**.
 
-5. Matysite turto skaitiklių eilučių, susijusių su darbo užsakymo užduotimi, sąrašą. Pasirinkite pieštuko piktogramą turto skaitiklio eilutėje, kad atnaujintumėte skaitiklio vertę.
+1. Matysite turto skaitiklių eilučių, susijusių su darbo užsakymo užduotimi, sąrašą. Pasirinkite pieštuko piktogramą turto skaitiklio eilutėje, kad atnaujintumėte skaitiklio vertę.
 
-6. Įveskite naują skaitiklio vertę ir pasirinkite **Atlikta**.
+1. Įveskite naują skaitiklio vertę ir pasirinkite **Atlikta**.
 
-![6 pav.](media/am-mobile-06.png)
-
+    ![Turto skaitiklių peržiūra ir naujinimas](media/am-mobile-06.png "Turto skaitiklių peržiūra ir naujinimas")
 
 ## <a name="register-consumption-on-a-work-order-job"></a>Suvartojimo atliekant darbo užsakymo užduotį registravimas
 
 1. Savo mobiliajame įrenginyje atidarykite darbo sritį **Turto valdymas**.
 
-2. Pasirinkite **Visi priežiūros darbo užsakymai**.
+1. Pasirinkite **Visi priežiūros darbo užsakymai**.
 
-3. Pasirinkite darbo užsakymą, tada darbo užsakymo užduotį, į kurią norite įtraukti suvartojimo registracijas.
+1. Pasirinkite darbo užsakymas > darbo užsakymo užduotis, į kurią norite įtraukti suvartojimo registracijas.
     - Taip pat pagrindiniame puslapyje galite pasirinkti **Mano darbo užsakymo užduočių kalendorius** arba **Mano darbo užsakymo užduočių sąrašas**, kad galėtumėte pereiti į puslapį **Darbo užsakymo užduoties informacija**.
 
-4. Puslapyje **Darbo užsakymo užduoties informacija** pasirinkite **Žurnalai**.
+1. Puslapyje **Darbo užsakymo užduoties informacija** pasirinkite **Žurnalai**.
 
-5. Norėdami sukurti darbo valandų registracijas, pasirinkite **Įtraukti valandas**.
+1. Norėdami sukurti darbo valandų registracijas, pasirinkite **Įtraukti valandas**.
     1. Pasirinkite **kategoriją** peržvalgos lauke.
-    2. Lauke **Valandos** įveskite darbo valandų, sugaištų darbo užsakymo užduočiai, skaičių.
-    3. Pasirinkite tinkamą **eilutės ypatybę**.
-    4. Pasirinkite **Atlikta**.
+    1. Lauke **Valandos** įveskite darbo valandų, sugaištų darbo užsakymo užduočiai, skaičių.
+    1. Pasirinkite tinkamą **eilutės ypatybę**.
+    1. Pasirinkite **Atlikta**.
 
-6. Pasirinkite **Įtraukti prekių**, kad sukurtumėte prekių registracijas.
+1. Pasirinkite **Įtraukti prekių**, kad sukurtumėte prekių registracijas.
     1. Pasirinkite **prekės numerį** peržvalgos lauke.
-    2. Pasirinkite **vietą** peržvalgos lauke.
-    3. Įveskite suvartotų prekių **kiekį**.
-    4. Pasirinkite **Atlikta**.
+    1. Pasirinkite **vietą** peržvalgos lauke.
+    1. Įveskite suvartotų prekių **kiekį**.
+    1. Pasirinkite **Atlikta**.
 
-7. Norėdami sukurti išlaidų registracijas, pasirinkite **Įtraukti išlaidas**.
+1. Norėdami sukurti išlaidų registracijas, pasirinkite **Įtraukti išlaidas**.
     1. Pasirinkite **kategoriją** peržvalgos lauke.
-    2. Įveskite išlaidų registracijų kiekį.
-    3. Pasirinkite **pardavimo valiutą** peržvalgos lauke.
-    4. Įveskite išlaidų registracijų **savikainą**.
-    5. Pasirinkite **Atlikta**.
+    1. Įveskite išlaidų registracijų kiekį.
+    1. Pasirinkite **pardavimo valiutą** peržvalgos lauke.
+    1. Įveskite išlaidų registracijų **savikainą**.
+    1. Pasirinkite **Atlikta**.
 
-![7 paveikslėlis](media/am-mobile-07.png)
-
+    ![Darbo užsakymo žurnalo atnaujinimas](media/am-mobile-07.png "Darbo užsakymo žurnalo atnaujinimas")
 
 ## <a name="update-lifecycle-state-on-a-work-order"></a>Darbo užsakymo ciklo būsenos naujinimas
 
 1. Savo mobiliajame įrenginyje atidarykite darbo sritį **Turto valdymas**.
 
-2. Pasirinkite **Visi priežiūros darbo užsakymai**.
+1. Pasirinkite **Visi priežiūros darbo užsakymai**.
 
-3. Pasirinkite darbo užsakymą, kurio ciklo būseną norite atnaujinti.
+1. Pasirinkite darbo užsakymą, kurio ciklo būseną norite atnaujinti.
 
-4. Pasirinkite mygtuką **Atnaujinti būseną**, esantį ekrano apačioje.
+1. Pasirinkite mygtuką **Atnaujinti būseną**, esantį ekrano apačioje.
 
-5. Pasirinkite naują ciklo būseną iš sąrašo.
+1. Pasirinkite naują ciklo būseną iš sąrašo.
 
-6. Pasirinkite **Atlikta**.
+1. Pasirinkite **Atlikta**.
 
-![8 paveikslėlis](media/am-mobile-08.png)
-
+    ![Darbo užsakymo ciklo būsenos naujinimas](media/am-mobile-08.png "Darbo užsakymo ciklo būsenos naujinimas")
 
 ## <a name="create-a-maintenance-request"></a>Priežiūros užklausos kūrimas
 
 1. Savo mobiliajame įrenginyje atidarykite darbo sritį **Turto valdymas**.
 
-2. Pasirinkite **Visos priežiūros užklausos**.
+1. Pasirinkite **Visos priežiūros užklausos**.
 
-3. Pasirinkite **Veiksmai** ekrano apačioje, o tada **Kurti priežiūros užklausą**.
+1. Pasirinkite **Veiksmai** ekrano apačioje, o tada **Kurti priežiūros užklausą**.
 
-4. Jei darbo srityje **Turto valdymas** priežiūros užklausoms yra įgalinta numerių seka, laukas **Priežiūros užklausa** yra paslėptas, nes jis automatiškai įrašomas. Jei rodomas laukas **Priežiūros užklausa**, įveskite priežiūros užklausos ID.
+1. Jei darbo srityje **Turto valdymas** priežiūros užklausoms yra įgalinta numerių seka, laukas **Priežiūros užklausa** yra paslėptas, nes jis automatiškai įrašomas. Jei rodomas laukas **Priežiūros užklausa**, įveskite priežiūros užklausos ID.
 
-5. Pasirinkite **priežiūros užklausos tipą**.
+1. Pasirinkite **priežiūros užklausos tipą**.
 
-6. Įveskite priežiūros užklausos **aprašymą**.
+1. Įveskite priežiūros užklausos **aprašymą**.
 
-7. Pasirinkite **turtą**, kuriam norite kurti užklausą.
+1. Pasirinkite **turtą**, kuriam norite kurti užklausą.
 
-8. Pasirinkite priežiūros užklausos **paslaugos lygį**.
+1. Pasirinkite priežiūros užklausos **paslaugos lygį**.
 
-9. Pasirinkite **Atlikta**.
+1. Pasirinkite **Atlikta**.
 
-![9 pav.](media/am-mobile-09.png)
-
+    ![Priežiūros užklausos kūrimas](media/am-mobile-09.png "Priežiūros užklausos kūrimas")
 
 ## <a name="add-attachment-to-a-maintenance-request"></a>Priedo įtraukimas į priežiūros užklausą
 
 1. Savo mobiliajame įrenginyje atidarykite darbo sritį **Turto valdymas**.
 
-2. Pasirinkite **Visos priežiūros užklausos**.
+1. Pasirinkite **Visos priežiūros užklausos**.
 
-3. Pasirinkite priežiūros užklausą, į kurią norite įtraukti priedą.
+1. Pasirinkite priežiūros užklausą, į kurią norite įtraukti priedą.
 
-4. Pasirinkite **Priedai** ekrano apačioje.
+1. Pasirinkite **Priedai** ekrano apačioje.
 
-5. Pasirinkite **Įtraukti priedus**.
+1. Pasirinkite **Įtraukti priedus**.
 
-6. Įveskite priedo **pavadinimą** ir **pastabas**.
+1. Įveskite priedo **pavadinimą** ir **pastabas**.
 
-7. Pasirinkite **Pasirinkti vaizdą**, kad pasirinktumėte nuotrauką iš mobiliosios galerijos, arba **Fotografuoti**, kad nufotografuotumėte.
+1. Pasirinkite **Pasirinkti vaizdą** tam, kad pasirinktumėte nuotrauką iš mobiliosios galerijos arba **Fotografuoti** tam, kad nufotografuotumėte.
 
-8. Pasirinkite **Atlikta**.
+1. Pasirinkite **Atlikta**.
 
-![10 pav.](media/am-mobile-10.png)
-
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+    ![Įtraukti priedą į priežiūros užklausą](media/am-mobile-10.png "Įtraukti priedą į priežiūros užklausą")

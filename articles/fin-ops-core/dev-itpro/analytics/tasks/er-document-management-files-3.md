@@ -1,6 +1,6 @@
 ---
 title: ER dokumentų valdymo failų naudojimas formato išvestyse (3 dalis – formato kūrimas)
-description: Toliau nurodytuose veiksmuose paaiškinta, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų formatą, norėdamas dokumentų valdymo failus naudoti ER išvestyje.
+description: Šioje temoje aprašoma, kaip sukonfigūruoti elektroninių ataskaitų formatą, kad būtų galima naudoti dokumentų valdymo failus ER išvestyje. (3 dalis)
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bfcc03fa7470d4f2fa45ef012e30acef0712bf99
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 432cf4c41a7a223ab07b02edf6da7eac9965cff0
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681858"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092621"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-3---create-format"></a>ER dokumentų valdymo failų naudojimas formato išvestyse (3 dalis – formato kūrimas)
 
@@ -119,6 +119,3 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus
 23. Spustelėkite Įrašyti.
 24. Uždarykite puslapį.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

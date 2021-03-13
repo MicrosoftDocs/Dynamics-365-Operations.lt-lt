@@ -1,6 +1,6 @@
 ---
 title: Konfigūracijos nusiuntimas į „Lifecycle Services‟
-description: Šioje temoje aiškinama, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali sukurti naują elektroninių ataskaitų (ER) konfigūraciją ir ją nusiųsti į „Microsoft Dynamics Lifecycle Services‟ (LCS).
+description: Šioje temoje paaiškinama, kaip sukurti naują elektroninių ataskaitų (ER) konfigūraciją ir nusiųsti ją į „Microsoft Dynamics Lifecycle Services“ (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 09/14/2020
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ebafb52882fd33f4f0ef140c5d23d3288af97a2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 92fc6d7a8b2508c9a1f7b56ca8115adbd6ae00ea
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684168"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092546"
 ---
-# <a name="upload-a-configuration-into-lifecycle-services"></a>Konfigūracijos nusiuntimas į „Lifecycle Services‟
+# <a name="upload-a-configuration-into-lifecycle-services"></a>Konfigūracijos nusiuntimas į „Lifecycle Services”
 
 [!include [banner](../../includes/banner.md)]
 
@@ -145,6 +145,3 @@ ms.locfileid: "4684168"
     Turi būti nurodyta ER konfigūracija, kurią nusiuntėte.
 
     Atkreipkite dėmesį, kad, jei tiekėjai turi prieigą prie šio LCS projekto, nusiųstąją LCS konfigūraciją galima importuoti į kitą egzempliorių.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

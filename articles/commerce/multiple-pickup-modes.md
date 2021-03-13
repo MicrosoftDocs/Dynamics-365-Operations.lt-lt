@@ -10,22 +10,21 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 768b20ecc8d15353258c9b3af69b897957d3de60
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: c0879343f100fa1fe6e0a4b4fbf085574225e898
+ms.sourcegitcommit: bea695707d1e7b4e2713b62405ad0e7a7a893420
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594983"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5053418"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Įjungti keletą paėmimo pristatymo režimų kliento užsakymams
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 „Microsoft Dynamics 365 Commerce“ versijoje 10.0.16 ir vėlesnėse, organizacijos gali nustatyti keletą pristatymo režimų, kuriuos pardavėjai ar pardavimo agentai gali pasirinkti jiems sukuriant užsakymą, kuris bus atsiimtas parduotuvėje. Tokiu būdu, organizacijos gali suteikti keletą atsiėmimo parinkčių jų prekybininkams. Pavyzdžiui, daugelis mažmenininkų dabar siūlo prekybininkams pasirinkimą atsiimti parduotuvėse arba atsiimti per langelį užsakymus. „Commerce“ palaiko šių skirtingų paėmimo pristatymo režimų konfigūravimą. Vartotojai gali pasinaudoti jais kurdami kliento užsakymus bet kuriame palaikomame „Commerce“ kanale (e-komercija, skambučių centras ar parduotuvę).
 
@@ -86,6 +85,3 @@ Kai daugelis pasiėmimo pristatymo režimų yra prieiname kanale, papildoma pati
 ## <a name="considerations-for-distributed-order-management"></a>Pasvarstymai dėl pristatyto užsakymo valdymo
 
 [Pristatyto užsakymo valdymas (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) funkcijos „Commerce“ ignoruoja visas pardavimo eilutes, kurios buvo sužymėtos atsiėmimui parduotuvėje. Šios funkcijos buvo atnaujintos siekiant užtikrinti, kad prekybos eilutės, susietos su konfigūruotu atsiėmimo pristatymo būdu apietų DOM logiką ir nebūtų iš naujo priskiriamos naujam įgyvendinimo sandėliui.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

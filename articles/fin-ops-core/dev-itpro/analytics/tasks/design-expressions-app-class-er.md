@@ -1,6 +1,6 @@
 ---
 title: ER išraiškų kūrimas siekiant iškviesti programos klasių metodus
-description: Šiame vadove pateikiama informacija, kaip pakartotinai naudoti esamą programos logiką naudojantis elektroninių ataskaitų (ER) konfigūracijomis ir iškviečiant reikiamus ER išraiškų programos klasių metodus.
+description: Šioje temoje aprašoma, kaip pakartotinai naudoti esamą programos logiką naudojantis elektroninių ataskaitų konfigūracijomis iškviečiant reikiamus ER išraiškų programos klasių metodus.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3d79d1a4e86731a62de4896a489a13f624ce159f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a2de6464aaceadd60a82a70f428f42cd4f864eb8
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682026"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092090"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>ER išraiškų kūrimas siekiant iškviesti programos klasių metodus
 
@@ -143,8 +143,8 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus
 40. Uždarykite puslapį.
     * Sukonfigūruota, kad bet kuriuo netinkamo IBAN kodo atveju tikrinimo sąlygos pateiktų rezultatą FALSE (klaidinga), o esamas programos klasės „ISO7064“ metodas būtų pavadintas „verifyMOD1271_36“. Atkreipkite dėmesį į tai, kad IBAN kodo vertė nurodoma dinamiškai vykdymo laiku kaip metodo iškvietimo argumentas pagal analizavimo TXT failo turinį.   
 41. Spustelėkite Redaguoti pranešimą.
-42. Lauke Formulė įveskite „CONCATENATE("Invalid IBAN code has been found:  ", format.Root.Rows.Fields.IBAN)“.
-    * CONCATENATE("Invalid IBAN code has been found:  ", format.Root.Rows.Fields.IBAN)  
+42. Lauke Formulė įveskite „CONCATENATE("Invalid IBAN code has been found: ", format.Root.Rows.Fields.IBAN)“.
+    * CONCATENATE("Invalid IBAN code has been found: ", format.Root.Rows.Fields.IBAN)  
 43. Spustelėkite Įrašyti.
 44. Uždarykite puslapį.
 45. Spustelėkite Įrašyti.
@@ -157,6 +157,3 @@ Bandymams atlikti formato susiejimą vykdykite naudodami anksčiau atsisiųstą 
 2. Spustelėkite GERAI.
     * Peržiūrėkite išvestį XML formatu, kuriuo rodomi iš pasirinkto failo importuoti ir į duomenų modelį perkelti duomenys. Atkreipkite dėmesį, kad apdorotos tik 3 importuojamo TXT failo eilutės. 4 eilutėje esantis netinkamas IBAN kodas praleistas ir sistemos pranešime pateikiamas klaidos pranešimas.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

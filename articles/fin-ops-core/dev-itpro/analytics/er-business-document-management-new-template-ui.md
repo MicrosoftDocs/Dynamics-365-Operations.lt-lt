@@ -1,6 +1,6 @@
 ---
 title: Naujo dokumento vartotojo sąsaja funkcijoje Verslo dokumentų valdymas
-description: Šioje temoje pateikiama informacija apie tai, kaip naudoti naujo dokumento vartotojo sąsają (UI) elektroninių ataskaitų (ER) sistemos funkcijoje Verslo dokumentų valdymas.
+description: Šioje temoje pateikiama informacija apie tai, kaip naudoti naujo dokumento vartotojo sąsają elektroninių ataskaitų funkcijoje Verslo dokumentų valdymas.
 author: v-anamir
 manager: AnnBe
 ms.date: 05/12/2019
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2cb6e0da4af07b9b8486bf1e5bda29523cbd08e9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 64ac52385ae6145f7428ebbc3cb77e395557bce2
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681357"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092230"
 ---
-# <a name="new-document-user-interface-in-business-document-management"></a>Naujo dokumento vartotojo sąsaja funkcijoje Verslo dokumentų valdymas
+# <a name="new-document-user-interface-in-business-document-management"></a>Nauja dokumento vartotojo sąsaja verslo dokumentų valdyme
 
 [!include [banner](../includes/banner.md)]
 
@@ -64,6 +64,3 @@ Atlikite tolesnius veiksmus, norėdami įjungti šią funkciją visiems juridini
 Paspaudus mygtuką **Naujas dokumentas**, sukuriamas ir redaguojamas šablonas ER formato konfigūracijoje, kurią pateikia kitas teikėjas. Šiame pavyzdyje teikėjas yra „Microsoft“. Pasirinkę **Naujas dokumentas**, peržiūrėsite visus šablonus, priklausančius dabartiniam ir kitiems teikėjams. Pasirinktas šablonas atidaromas ir jį galima redaguoti. Redaguotas šablonas bus išsaugotas naujoje automatiškai sugeneruotoje ER formato konfigūracijoje.
 
 Daugiau informacijos žr. [Verslo dokumentų valdymo apžvalga](er-business-document-management.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

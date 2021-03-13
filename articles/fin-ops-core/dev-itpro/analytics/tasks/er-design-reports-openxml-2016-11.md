@@ -1,6 +1,6 @@
 ---
 title: 'ER: konfigūracijos, skirtos generuoti ataskaitoms OPENXML formatu, kūrimas (2016 m. lapkričio mėn.)'
-description: Šioje temoje aiškinama, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali kurti naują elektroninių ataskaitų (ER) konfigūraciją, kurioje yra šablonas, skirtas generuoti elektroniniams dokumentams OPENXML formatu.
+description: Šioje temoje aprašoma, kaip sukurti naują elektroninių ataskaitų konfigūraciją, kurioje būtų šablonas elektroninių dokumentų generavimui OPENXML formatu.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/12/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bf909efbac5dce8e22d9713ad2e694ce624ffeb0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3b832961061d05e3f1ae046f820bc7a37baaf90c
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681906"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092671"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER: konfigūracijos, skirtos generuoti ataskaitoms OPENXML formatu, kūrimas (2016 m. lapkričio mėn.)
 
@@ -150,6 +150,3 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus
 17. Lauke **Banko sąskaita** įveskite `GBSI OPER`.
 18. Pasirinkite **Gerai**, tada dar kartą – **Gerai**. Peržiūrėkite sukurtąjį darbalapį – išsamią mokėjimo eilučių informaciją bei kiekvieno šiame mokėjimo pranešime naudojamo valiutos kodo bendrąsias sumas.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

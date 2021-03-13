@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 54ad180b7f4691ead3563b077eadadc3b9b20588
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: a41f69958d84fb67b7cd8b6b4c7de38da23552f3
+ms.sourcegitcommit: 2b76d4443b2867205db156648125a894f395a495
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4434039"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5091090"
 ---
 # <a name="get-started-with-planning-optimization"></a>Darbo su planavimo optimizavimu pradžia
 
@@ -41,21 +40,42 @@ Jei šiuo metu naudojate integruotą bendrojo planavimo mechanizmą, turite prad
 
 Prieš įjungiant „Planning Optimization“, primygtinai rekomenduojame įvertinti „Planning Optimization“ tinkamumo analizės rezultatus. Daugiau informacijos žr. [„Planning Optimization“ tinkamumo analizė](planning-optimization-fit-analysis.md).
 
-### <a name="availability"></a>Prieinamumas
-Šiuo metu planavimo optimizavimas pasiekiamas tolesniuose „Azure” regionuose: Jungtinės Valstijos, Kanada, Europa, Jungtinė Karalystė ir Australija. Jei bandote įdiegti papildinį kitame geografiniame regione, LCS rodys pranešimą, nurodantį, kad šis regionas nepalaikomas.
+## <a name="availability"></a>Prieinamumas
+
+Šiuo metu planavimo optimizavimas pasiekiamas tolesniuose „Azure” regionuose: Jungtinėse Valstijose, Kanadoje, Europoje, Jungtinėje Karalystėje, Australijoje ir Azijos ir Ramiojo vandenyno. Jei bandote įdiegti papildinį kitame geografiniame regione, LCS rodys pranešimą, nurodantį, kad šis regionas nepalaikomas.
 
 Turėkite omenyje, kad planavimo optimizavimas nepalaiko vietinių visuotinių „Dynamics 365 Supply Chain Management” diegimų.
 
-### <a name="licensing"></a>Licencijavimas
+## <a name="licensing"></a>Licencijavimas
 
 Jei galite vykdyti bendrąjį planavimą naudodami esamą licenciją, jums nereikia įsigyti papildomos licencijos, kad galėtumėte pradėti naudoti „Planning Optimization“.
 
-### <a name="install-the-add-in"></a>Papildinio įdiegimas
+## <a name="install-and-enable-planning-optimization"></a>„Planning Optimization“ diegimas ir įgalinimas
 
-Norėdami naudoti „Planning Optimization“, įdiekite „Planning Optimization“ papildinį, skirtą „Dynamics 365 Supply Chain Management“. Galite pasiekti papildinį savo LCS projekte ir įjungti „Planning Optimization“ funkciją „Supply Chain Management“ vartotojo sąsajoje (UI).
+Norėdami naudoti „Planning Optimization”, turite įsitikinti, kad sistemoje yra visos būtinosios sąlygos, tada įgalinti jos licencijos raktą ir įdiegti „Planning Optimization” priedą, skirtą „Dynamics 365 Supply Chain Management”.
 
-> [!NOTE]
-> Planavimo optimizavimo reikalavimas yra su įgalintais LCS plačiai pasiekiama 2 ar aukštesnės pakopos aplinka (ne „OneBox” aplinka), turinti „Dynamics 365 Supply Chain Management” versiją 10.0.7 arba naujesnę versiją. Jei bandote įdiegti papildinį „OneBox” aplinkoje, diegimas nebus užbaigtas ir jį reikės atšaukti.
+### <a name="prerequisites"></a>Būtinieji komponentai
+
+Prieš diegiant „Planning Optimization” priedą, turi būti įgyvendintos šios būtinosios sąlygos:
+
+- Privalote vykdyti „Supply Chain Management” su įgalinta LCS plačiai pasiekiama 2 ar aukštesnės pakopos aplinka (ne „OneBox” aplinka), turinčia „Dynamics 365 Supply Chain Management” 10.0.7 arba naujesnę versiją. Jei bandote įdiegti papildinį „OneBox” aplinkoje, diegimas nebus užbaigtas ir jį reikės atšaukti.
+
+- Jūsų sistema turi būti nustatyta „Power Platform” integravimui. Daugiau informacijos žiūrėkite [Būtinosios priedų nustatymo sąlygos](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#prerequisites-for-setting-up-add-ins) ir [Priedų nustatymas](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#set-up-add-ins).
+
+### <a name="enable-the-planning-optimization-license"></a>„Planning Optimization“ licencijos įgalinimas
+
+Norėdami naudoti „Planning Optimization”, turite įgalinti jo konfigūracijos raktą. Norėdami tai padaryti:
+
+1. Įdėkite savo sistemą į priežiūros režimą kaip aprašyta [Priežiūros režime](../../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+1. Eikite į **Sistemos administravimas \> Sąranka \> Licencijos konfigūracija**.
+1. Skirtuke **Konfigūracijos raktai** pasirinkite žymės langelį **Planavimo optimizavimas**.
+1. Išjunkite priežiūros režimą kaip aprašyta [Priežiūros režime](../../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+
+### <a name="install-the-planning-optimization-add-in"></a>„Planning Optimization“ priedo diegimas
+
+Turite įdiegti papildinį savo LCS projekte ir tada įjungti „Planning Optimization“ funkciją „Supply Chain Management“ vartotojo sąsajoje.
+
+Norėdami įdiegti „Planning Optimization“ priedą:
 
 1. Prisijunkite prie LCS ir atsidarykite pageidaujamą aplinką.
 1. Eikite į **Išsami informacija**.
@@ -64,16 +84,16 @@ Norėdami naudoti „Planning Optimization“, įdiekite „Planning Optimizatio
 1. Pasirinkite **Planning Optimization**.
 1. Vadovaukitės diegimo vadovu ir sutikite su sąlygomis ir nuostatomis.
 1. Pasirinkti **Diegti**.
-1. „FastTab“ **Aplinkos papildiniai** turėtumėte matyti, kad diegiamas planavimo optimizavimas.
-1. Po kelių minučių būsena **Diegiama** turėtų pakisti į **Įdiegta** (jums gali prireikti atnaujinti puslapį). Baigus diegti galite aktyvinti planavimo optimizavimą programoje „Dynamics 365 Supply Chain Management“.
+1. „FastTab“ **Aplinkos papildiniai** turėtumėte matyti, kad planavimo optimizavimas yra diegiamas.
+1. Po kelių minučių būsena **Diegiama** turėtų pasikeisti į **Įdiegta** (jums gali prireikti atnaujinti puslapį). Baigus diegti galite aktyvinti planavimo optimizavimą programoje „Dynamics 365 Supply Chain Management“.
 
-Pagrindinis „Planning Optimization“ papildinio įdiegimo tikslas yra susieti paslaugas ir aplinką. Dėl to, privalote įdiegti papildinį atskirai kiekvienoje aplinkoje, kurioje naudosite „Planning Optimization“ nepriklausomai nuo bet kokio kodo perkelto tarp aplinkų.
+Pagrindinis „Planning Optimization“ papildinio diegimo tikslas yra susieti paslaugas ir aplinką. Dėl to, privalote įdiegti papildinį atskirai kiekvienoje aplinkoje, kurioje naudosite „Planning Optimization“ nepriklausomai nuo bet kokio kodo perkelto tarp aplinkų.
 
-### <a name="planning-optimization-integration"></a>„Planning Optimization“ integravimas
+## <a name="integrate-planning-optimization-with-your-system"></a>„Planning Optimization” integravimas su jūsų sistema
 
 Norėdami sukonfigūruoti, ar planavimo optimizavimo papildinys turi būti naudojamas bendrajam planavimui, eikite į **Bendrasis planavimas** \> **Sąranka** \> **Planavimo optimizavimo parametrai**.
 
-#### <a name="connection-status"></a>Ryšio būsena
+### <a name="connection-status"></a>Ryšio būsena
 
 Ryšio būsena rodo dabartinę ryšio tarp „Supply Chain Management“ ir „Planning Optimization“ paslaugos būseną. Lentelėje pateiktos galimės reikšmės.
 
@@ -85,7 +105,7 @@ Ryšio būsena rodo dabartinę ryšio tarp „Supply Chain Management“ ir „P
 | Išjungiamas ryšys | Šiuo metu apdorojama užklausa, ar išjungti ryšį su „Planning Optimization“ paslauga. | Ne |
 | Gavimo būsena | Sistema laukia būsenos informacijos iš „Planning Optimization“ paslaugos. | Ne |
 
-#### <a name="the-use-planning-optimization-option"></a>„Planning Optimization“ parinkties naudojimas
+### <a name="the-use-planning-optimization-option"></a>„Planning Optimization“ parinkties naudojimas
 
 Parinkties **Naudoti „Planning Optimization“** parametras apibrėžia, kuris planavimo mechanizmas naudojamas pagrindiniam planavimui:
 
@@ -112,6 +132,3 @@ Jei „Planning Optimization“ yra įjungtas, pagrindinis planavimas yra atliek
 [Filtrų taikymas planui](plan-filters.md)
 
 [Planavimo užduoties atšaukimas](cancel-planning-job.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

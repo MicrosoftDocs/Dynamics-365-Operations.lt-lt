@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 40c6794fdf25da44a75aba4a502a89966c0ec4d0
-ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
+ms.openlocfilehash: 4b89e911f3c6eb8ffa0cfe049ef9bfc2ed306021
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4433903"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077636"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kaip darbuotojai naudoja gamybos cecho vykdymo sąsają
 
@@ -41,11 +40,11 @@ Likę šios temos skyriai apibūdina, kaip darbuotojai naudoja sąsają.
 
 ## <a name="all-jobs-tab"></a>Skirtukas Visos užduotys
 
-Skirtuke **Visos užduotys** pateikiamas užduočių sąrašas, kuriame nurodytos visos gamybos užduotys, kurių būsena yra *Nepradėta*, *Sustabdyta* arba *Pradėta*.
+Skirtuke **Visos užduotys** pateikiamas užduočių sąrašas, kuriame nurodytos visos gamybos užduotys, kurių būsena yra *Nepradėta*, *Sustabdyta* arba *Pradėta*. (Šį skirtuko pavadinimą galima tinkinti ir jūsų sistemoje jis gali būti kitoks.)
 
 ![Skirtukas Visos užduotys](media/pfei-all-jobs-tab.png "Skirtukas Visos užduotys")
 
-Užduočių sąraše yra toliau pateikti stulpeliai. (Skaičiai atitinka skaičius ankstesnėje iliustracijoje.)
+Užduočių sąraše yra toliau pateikti stulpeliai. Skaičiai atitinka skaičius ankstesnėje iliustracijoje.
 
 1. **Pasirinkimo stulpelis** – kairioje pusėje esantis stulpelis naudoja žymės varneles užduotims, kurias pasirinko darbuotojas, nurodyti. Vienu metu darbuotojai gali pasirinkti kelias sąrašo užduotis. Norėdami pasirinkti visas sąrašo užduotis, pažymėkite žymės langelį stulpelio antraštėje. Pasirinkus vieną užduotį, informacija apie šią užduotį rodoma apatinėje puslapio dalyje.
 1. **Užduoties būsenos stulpelis** – šiame stulpelyje naudojami simboliai kiekvienos užduoties būsenai nurodyti. Užduočių, kurių simbolio šiame stulpelyje nėra, būsena yra *Nepradėta*. Žalias trikampis nurodo užduotis, kurių būsena yra *Pradėta*. Dvi geltonos vertikalios linijos nurodo užduotis, kurių būsena yra *Sustabdyta*.
@@ -60,9 +59,11 @@ Užduočių sąraše yra toliau pateikti stulpeliai. (Skaičiai atitinka skaiči
 
 ## <a name="active-jobs-tab"></a>Skirtukas Aktyvios užduotys
 
+Skirtukuose **Aktyvios užduotys** rodomas visų užduočių, kurias prisijungęs darbuotojas jau pradėjo, sąrašas. (Šį skirtuko pavadinimą galima tinkinti ir jūsų sistemoje jis gali būti kitoks.)
+
 ![Skirtukas Aktyvios užduotys](media/pfei-active-jobs-tab.png "Skirtukas Aktyvios užduotys")
 
-Skirtuko **Aktyvios užduotys** užduočių sąraše yra toliau pateikti stulpeliai.
+Aktyvių užduočių sąraše yra toliau pateikti stulpeliai:
 
 - **Pasirinkimo stulpelis** – kairioje pusėje esantis stulpelis naudoja žymės varneles užduotims, kurias pasirinko darbuotojas, nurodyti. Vienu metu darbuotojai gali pasirinkti kelias sąrašo užduotis. Norėdami pasirinkti visas sąrašo užduotis, pažymėkite žymės langelį stulpelio antraštėje. Pasirinkus vieną užduotį, informacija apie šią užduotį rodoma apatinėje puslapio dalyje.
 - **Užsakymas** – šiame stulpelyje rodomas užduoties gamybos užsakymo numeris.
@@ -72,6 +73,28 @@ Skirtuko **Aktyvios užduotys** užduočių sąraše yra toliau pateikti stulpel
 - **Užbaigta** – šiame stulpelyje rodomas jau užbaigtas užduoties kiekis.
 - **Nurašyta** – šiame stulpelyje rodomas nurašytas užduoties kiekis.
 - **Liko** – šiame stulpelyje rodomas kiekis, kurį užduotis dar turi atlikti.
+
+## <a name="my-machine-tab"></a>Skirtukas Mano mašina
+
+Skirtukas **Mano mašina** leidžia darbuotojams pasirinkti turtą, kuris yra sujungtas su įrenginio ištekliais, esančiais skirtuko **Visos užduotys** filtrų rinkinyje. Tada darbuotojas gali peržiūrėti pasirinkto turto būseną ir sveikatą skaitydamas vertes (ne daugiau keturių pasirinktų skaitiklių) ir naujausių priežiūros užklausų bei užregistruotų prastovų sąrašus. Darbuotojas taip pat gali reikalauti pasirinkto turto priežiūros ir registruoti bei redaguoti įrenginio prastovą. (Šį skirtuko pavadinimą galima tinkinti ir jūsų sistemoje jis gali būti kitoks.)
+ 
+![Mano mašina skirtukas](media/pfei-my-machine-tab.png "Skirtukas Mano mašina")
+
+Skirtuke **Mano mašina** yra šie stulpeliai. Skaičiai atitinka skaičius ankstesnėje iliustracijoje.
+
+1. **Mašinos turtas** – pasirinkite įrenginio turtą, kurį norite sekti. Pradėkite vesti pavadinimą, kurį norite pasirinkti iš sutampančių turtų sąrašo arba pasirinkite padidinamo stiklo piktogramą, kad pasirinktumėte iš viso turto, susieto su užduočių sąrašo filtro ištekliais, sąrašo.
+
+    > [!NOTE]
+    > „Supply Chain Management” vartotojai gali priskirti išteklius kiekvienam turtui, kaip reikalinga, naudodami **Visas turtas** puslapį (skirtuke **Ilgalaikis turtas** naudojant **Ištekliai** išplečiamąjį sąrašą). Daugiau informacijos žiūrėkite[Turto kūrimas](../asset-management/objects/create-an-object.md).
+
+1. **Nustatymai** – pasirinkite pavarų piktogramą atidaryti dialogo langui, kuriame galėsite pasirinkti, kuriuos skaitiklius peržiūrėti pasirinktam įrenginio turtui. Šių skaitiklių reikšmės rodomos skirtuko **Turto valdymas** viršuje. Meniu **Parametrai** (rodomas toliau pateiktoje ekrano nuotraukoje) leidžia įgalinti ne daugiau keturių skaitiklių. Skaitiklio pasirinkimui naudokite peržvalgos lauką, esantį plytelės viršuje, kiekvienam skaitikliui, kurį norite įgalinti. Peržvalgos lauke pateikiami visi su turtu susiję skaitikliai, pasirinkti puslapio **Turto valdymas** viršuje. Nustatykite kiekvieną skaitiklį stebėti arba **Bendrą** arba **Faktinę** skaitiklio reikšmę. Pavyzdžiui, jei nustatote skaitiklį sekti, kiek valandų veikia mašina, tada turite nustatyti jį kaip **Bendra**. Jei nustatote skaitiklį matuoti vėliausią atnaujintą temperatūrą ar slėgį, tada turite nustatyti jį kaip **Faktinė**. Norėdami įrašyti parametrus ir uždaryti dialogo langą, pasirinkite **Gerai**.
+
+    ![Skirtukas Mano mašina](media/pfei-my-machine-tab-settings.png "Skirtukas Mano mašina")
+
+1. **Priežiūros užklausa** – pasirinkite šį mygtuką, jei norite atidaryti dialogo langą, kuriame galite sukurti priežiūros užklausą. Galėsite pateikti aprašą ir pastabą. Užklausa bus pateikta „Supply Chain Management” vartotojui, kuris tada galės konvertuoti priežiūros užklausą į priežiūros darbo užsakymą.
+1. **Registruoti prastovą** – pasirinkite šį mygtuką, jei norite atidaryti dialogo langą, kuriame galite registruoti įrenginio prastovą. Galėsite pasirinkti priežasties kodą ir įvesti prastovos datos / laiko trukmę. Įrenginių prastovos registracija naudojama skaičiuojant įrenginio turto efektyvumą.
+1. **Peržiūrėti arba redaguoti** – pasirinkite šį mygtuką, jei norite atidaryti dialogo langą, kuriame galite redaguoti arba peržiūrėti esamus prastovos įrašus.
+
 
 ## <a name="starting-and-completing-production-jobs"></a>Gamybos užduočių pradžia ir pabaiga
 
@@ -124,7 +147,7 @@ Pavyzdžiui, „Contoso” cecho darbuotoja Shannon nori dalyvauti įmonės susi
 
 Abiem atvejais, kai Shannon patvirtina jos pasirinkimą, ji pereina prie prisijungimo puslapio arba puslapio, laukiančio, kol ji patvirtins, kad sugrįžo po netiesioginės veiklos. Atsiradęs puslapis priklauso nuo gamybos cecho vykdymo sąsajos konfigūracijos. (Daugiau informacijos žr. [Gamybos cecho vykdymo sąsajos konfigūravimas](production-floor-execution-configure.md).)
 
-## <a name="working-on-breaks"></a>Darbas su pertraukomis
+## <a name="registering-breaks"></a>Pertraukų registravimas
 
 Darbuotojai gali registruoti pertraukas. Pertraukas galima lanksčiai apibrėžti, kaip aprašyta [Apmokėjimas pagal registracijas](pay-based-on-registrations.md).
 
@@ -146,6 +169,3 @@ Darbuotojai gali atidaryti dokumentą, pridėtą prie užduoties, pasirinkdami *
 1. Darbuotojas dirba su vadovu, kad sužinotų apie užduotį.
 
 Daugiau informacijos apie tai, kaip kurti, priskirti ir naudoti „HoloLens” vadovus, žr. [Mišriosios realybės vadovų teikimas vadovams gamybos metu](instruction-guides-in-production-overview.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

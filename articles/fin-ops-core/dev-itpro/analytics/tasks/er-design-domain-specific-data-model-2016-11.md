@@ -1,6 +1,6 @@
 ---
 title: ER konkretaus domeno duomenų modelio kūrimas
-description: Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali sukurti naują elektroninių ataskaitų (ER) konfigūraciją, apimančią elektroninio mokėjimo dokumentų duomenų modelį.
+description: Šioje temoje aprašoma, kaip sukurti naują elektroninių ataskaitų (ER) konfigūraciją, kurioje būtų elektroninių mokėjimo dokumentų duomenų modelis.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 268f661079b80551b36ad2e1877615d878350051
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1eb2c6e5b5f186fb6db7c32a9982807274e5ea1b
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681954"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092696"
 ---
 # <a name="er-design-domain-specific-data-model"></a>ER konkretaus domeno duomenų modelio kūrimas
 
@@ -187,6 +187,3 @@ Kuriate naują pasirinktos konfigūracijos duomenų modelį. Šios konfigūracij
 65. Spustelėkite Įrašyti.
 66. Uždarykite puslapį.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

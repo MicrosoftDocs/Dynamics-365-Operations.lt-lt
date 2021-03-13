@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: ff68761ce1cf2174be8ebb9732b9348439a53a32
-ms.sourcegitcommit: d24ebce50421f8656d23bb1e47cd636ad2e2ca0a
+ms.openlocfilehash: e822463ac80be3b1e498f02cb1aad2b214fed815
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "4664301"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077482"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Gamybos cecho vykdymo sąsajos konfigūravimas
 
@@ -65,6 +64,12 @@ Tai yra pirminė šioje temoje aprašyta funkcija. Ji įtraukia gamybos aukšto 
 
 - Funkcija skirta užrakinti darbo kortelės prietaisą ir darbo kortelės terminalą jų valymui
 
+### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Turto valdymo funkcijos gamybos vietos vykdymo sąsajai
+
+Ši funkcija įtraukia turto valdymo skirtuką į gamybos vietos vykdymo sąsają. Darbuotojai gali naudoti šį skirtuką norėdami pasirinkti turtą, prijungtą prie įrenginio išteklių, kurie yra pasirinktame užduočių sąrašo filtre. Darbuotojas gali peržiūrėti pasirinkto įrenginio turto būseną ir sveikatą iš skaitiklio verčių (ne daugiau keturių pasirinktų skaitiklių). Norėdami naudoti šią funkciją, įjunkite tolesnę funkciją [Funkcijos valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- Turto valdymo funkcijos gamybos vietos vykdymo sąsajai
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Darbas su gamybos cecho vykdymo konfigūracijomis
 
 Norėdami kurti ir tvarkyti įrenginio konfigūracijas, eikite į **Gamybos kontrolė \> Sąranka \> Gamybos vykdymas \> Gamybos cecho vykdymo konfigūravimas**. Puslapyje **Gamybos cecho vykdymo konfigūravimas** rodomas esamų konfigūracijų sąrašas. Šiame puslapyje galite atlikti toliau pateiktus veiksmus.
@@ -94,6 +99,3 @@ Paketinė užduotis periodiškai išvalo įrenginių, neužregistravusių veiklo
 1. Veiksmų srityje pasirinkite **Valyti kliento konfigūracijas**.
 1. Dialogo lange **Valyti kliento konfigūracijas** nustatykite lauką **Dienų skaičius** į neaktyvumo dienų skaičių (iki šios dienos), į kurį reikia atsižvelgti. Pašalinsite visas įrenginių, kurie nebuvo aktyvūs tuo metu, konfigūracijas ir prisijungimo įrašus.
 1. Pasirinkite **Gerai**, norėdami išvalyti atitinkamas konfigūracijas pagal parametrą **Dienų skaičius**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

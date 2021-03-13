@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
-ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
+ms.openlocfilehash: 203d12956825286b77a107bb9fd91c451ecfd1e6
+ms.sourcegitcommit: dc3deca942864c4a8354096183c9e1b9b88992f6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4414479"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "5032938"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>EKA vartotojo sąsajos vaizdo konfigūracijos
 
@@ -117,6 +116,9 @@ Kompaktiniuose EKA išdėstymuose mygtukynai automatiškai išdėstomi iš virš
 
 ![Kompaktinių išdėstymų mygtukynai](../commerce/media/Compact-View-Button-Grids.png)
 
+> [!NOTE]
+> Mygtuko dydis kūrimo įrankyje prisitaikys taip, kad tiktų prie lango, dėl to jis gali netiksliai atsipindėti esamus mygtukus nustatytus POS. Siekiant geriausiai simuliuoti mygtuko tinklelio išdėstymą, reguliuokite kūrimo įrankio langus tokiam pačiam dydžiui kaip ir POS.
+
 ### <a name="images"></a>Vaizdai
 
 Kiekvienam ekrano išdėstymo dydžiui galite nurodyti į EKA UI įtrauktinus vaizdus. Viso dydžio EKA išdėstymuose galima nurodyti vieną darbo pradžios ekrano vaizdą. Šis vaizdas rodomas kaip pirmas UI elementas iš kairės. **Operacijų** ekrane vaizdai gali būti naudojami kaip skirtukų vaizdai arba kaip logotipas. Kompaktiniuose EKA išdėstymuose šie vaizdai nenaudojami.
@@ -205,6 +207,3 @@ Mygtukynų dizaino įrankis leidžia konfigūruoti mygtukynus, kuriuos galima na
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Mažmeninės prekybos elektroninio kasos aparato (EKA) maketo dizaino įrankio diegimas](install-pos-layout-designer.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

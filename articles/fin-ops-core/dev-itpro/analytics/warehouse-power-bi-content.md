@@ -1,6 +1,6 @@
 ---
 title: „Power BI“ turinys Sandėlio našumas
-description: Šioje temoje paaiškinama, kas įtraukta į sandėlio efektyvumo „Power BI“ turinį. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
+description: Šioje temoje paaiškinama, kas įtraukta į sandėlio efektyvumo „Power BI“ turinį.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/18/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 4594c6c09abdac72a03ac1338701d2291b234106
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: be4acbb8eae3fd7d8dd0db4f99c3a2db06808f21
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687406"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092821"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>„Power BI“ turinys Sandėlio našumas
 
@@ -111,6 +111,3 @@ Tolesniais duomenimis pildomi „Power BI“ turinio **Sandėlio našumas** atas
 | Siuntimo efektyvumas        | Išsiųsta pagal produktą                       | CustPackingSlipOnTimeStatus           | Anksti, Laiku ir Pavėluotai (žr. anksčiau šioje lentelėje pateiktus aprašymus). |
 | Siuntimo efektyvumas        | Išsiųsta pagal klientą                      | CustPackingSlipOnTimeStatus           | Anksti, Laiku ir Pavėluotai (žr. anksčiau šioje lentelėje pateiktus aprašymus). |
 | Siuntimo efektyvumas        | Išsiųsta pagal teritoriją / sandėlį              | CustPackingSlipOnTimeStatus           | Anksti, Laiku ir Pavėluotai (žr. anksčiau šioje lentelėje pateiktus aprašymus). |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

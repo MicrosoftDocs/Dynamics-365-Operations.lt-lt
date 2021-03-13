@@ -1,6 +1,6 @@
 ---
 title: Duomenų tikrinimo kontrolinio sąrašo darbo sritis
-description: Naudodami duomenų tikrinimo kontrolinio sąrašo darbo sritį galite sekti visų įmonių, sričių ir žmonių duomenų tikrinimo procesus. Kontrolinį sąrašą galima naudoti atliekant naują diegimą, po atnaujinimo arba perkėlus.
+description: Naudodami duomenų tikrinimo kontrolinio sąrašo darbo sritį galite sekti visų įmonių, sričių ir žmonių duomenų tikrinimo procesus.
 author: bking
 manager: AnnBe
 ms.date: 01/12/2018
@@ -14,12 +14,12 @@ ms.reviewer: rhaertle
 ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.openlocfilehash: a3ac338670fdc9fc7cb526cdcdc1e7199904da8f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4e50d4c94c0b8468a80ad214a21c8f5e0dedae71
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687580"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092336"
 ---
 # <a name="data-validation-checklist-workspace"></a>Duomenų tikrinimo kontrolinio sąrašo darbo sritis
 
@@ -39,8 +39,7 @@ Išklotinėse **Suvestinė** pateikiama proceso apžvalga ir indikatoriai, paded
 
 Skyriuje **Užduotys ir būsena** bendra duomenų tikrinimo projekto būsena rodoma įvairiais būdais: būsena pagal juridinį subjektą, pagal sritį ir pagal užduočių sąrašą. Norėdami peržiūrėti konkrečios įmonės būseną, galite pasirinkti filtrą. Kiekviename būsenos skirtuke pateikiamas suskaidymas pagal baigimo procentinę dalį ir likusių užduočių skaičių.
 
-Paskutinis skirtukas skirtas išsamiam užduočių sąrašui. Šiame sąraše išvardijamos visos užduotys.
-Užduočių sąrašą galite filtruoti keliais būdais. Norėdami pakeisti užduoties būseną arba priskirti užduotį, spustelėkite **Redaguoti užduotį**. Norėdami peržiūrėti užduoties priedus, spustelėkite **Priedai**.
+Paskutinis skirtukas skirtas išsamiam užduočių sąrašui. Šiame sąraše išvardijamos visos užduotys. Užduočių sąrašą galite filtruoti keliais būdais. Norėdami pakeisti užduoties būseną arba priskirti užduotį, spustelėkite **Redaguoti užduotį**. Norėdami peržiūrėti užduoties priedus, spustelėkite **Priedai**.
 
 Užduoties pavadinimas yra nuorodą į puslapį arba kitą tinklalapį, kuriame turi apsilankyti vartotojas, norėdamas užbaigti darbą. Šį hipersaitą galite nustatyti naudodami lauką **Meniu elemento pavadinimas**, kai redaguojate arba kuriate užduotį naudodami formą **Konfigūruoti duomenų tikrinimo projektą**.
 
@@ -57,6 +56,3 @@ Prieš naudodami darbo sritį **Duomenų tikrinimo kontrolinis sąrašas** turit
 Norėdami grupuoti savo organizacijos duomenų tikrinimo užduotis į logines nuosavybės sritis, naudokite užduočių sritis. Pavyzdžiui, kaip užduočių sritis galima naudoti Mokėtinos sumos, Gautinos sumos arba Didžioji knyga.
 
 **Meniu elemento pavadinimas** susietas su užduoties darbo pastanga ir gali būti naudojamas norint pereiti iš darbo srities užduoties saito tiesiogiai į susietą puslapį. Pvz., duomenų tikrinimo užduotį, kuri skirta parengti mokėtinų sumų ataskaitą **Mokėtinų sumų skirstymas pagal terminus**, galima susieti su puslapiu **Mokėtinų sumų skirstymo pagal terminus ataskaita**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

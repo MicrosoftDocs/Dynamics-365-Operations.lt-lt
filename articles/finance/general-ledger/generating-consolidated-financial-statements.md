@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a32fb8cce4353f57155fc7a723aa90e3c17178e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dda102b993ecc92a5089eb54d2708c2adebc572f
+ms.sourcegitcommit: f59df61799915f6a79aec7e3e8664c02df6597da
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4446044"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5044026"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Konsoliduotų finansinių ataskaitų generavimas
 
@@ -67,14 +66,14 @@ Toliau nurodytoje iliustracijoje rodomas stulpelio aprašas viena šalia kitos p
 ![Stulpelio apibrėžimas gretimu formatu](./media/column-definition-side-by-side-format.png "Stulpelio apibrėžimas gretimu formatu")
 
 ## <a name="consolidations-that-use-organization-structures-that-are-created-from-legal-entities"></a>Konsolidavimas naudojant organizacijų struktūras, kurios sukurtos iš juridinių subjektų
-Organizacijų hierarchijos, kuriose yra dimensijų arba juridinių subjektų, dinamiškai kuria ataskaitų medžio aprašus finansinėse ataskaitose. Lengvas būdas supaprastinti konsolidacijas yra įtraukti organizacijos hierarchiją į ataskaitą finansinėse ataskaitose. Priklausomai nuo ataskaitos datos, finansinės ataskaitos pasirinks organizacijos hierarchiją įsigaliojimo dieną arba anksčiau, kaip parodyta tolesnėje iliustracijoje.
+Organizacijų hierarchijos, kuriose yra dimensijų arba juridinių subjektų, dinamiškai kuria ataskaitų medžio aprašus finansinėse ataskaitose. Lengvas būdas supaprastinti konsolidacijas yra įtraukti organizacijos hierarchiją į ataskaitą finansinėse ataskaitose. Priklausomai nuo ataskaitos datos, „Financial reporting“ pasirinks organizacijos hierarchiją įsigaliojimo dieną arba anksčiau, kaip parodyta tolesnėje iliustracijoje.
 
 ![Ataskaitų medžio apibrėžimo dinaminis kūrimas](./media/dynamically-create-reporting-tree-definitions.png "Ataskaitų medžio apibrėžimo dinaminis kūrimas")
 
 ## <a name="consolidations-that-involve-eliminations"></a>Konsolidavimas, apimantis pašalinimus
 Pašalinimo operacijos yra įprasta konsolidavimo proceso dalis. Šiame pavyzdyje penkios sąskaitos pašalinamos konsolidavimo metu: 142600, 211400, 401420, 401180 ir 510820. Įmonės gali nustatyti savo vidinių įmonių sąskaitas skirtingai. Pavyzdžiui, kai kurios įmonės paskutinį skaitmenį nustato kaip 9, jei sąskaita yra naudojama vidinės įmonės operacijose. Nepriklausomai nuo naudojamo metodo, jei žinote vidinių įmonių sąskaitas, galite rodyti pašalinimus savo konsoliduotose finansinėse ataskaitose.
 
-Toliau pateiktoje iliustracijoje rodomas konsoliduotos pelno ataskaitos stulpelio aprašas. Trys vidinių įmonių pelno ir nuostolių sąskaitos nurodytos ir priskirtos kiekvienai įmonei naudojant dimensijos filtrą. Stulpelis D apima pašalinimo sąskaitas, priklausančias tik USMF įmonei, o stulpelis E apima pašalinimus, priklausančius tik DEMF įmonei. Stulpelis D ir stulpelis E yra nustatyti taip, kad jie **nebūtų** spausdinami finansinėje ataskaitoje.
+Toliau pateiktoje iliustracijoje rodomas konsoliduotos pelno ataskaitos stulpelio aprašas. Trys vidinių įmonių pelno ir nuostolių sąskaitos nurodytos ir priskirtos kiekvienai įmonei naudojant dimensijos filtrą. Stulpeliai F, G ir H apima pašalinamas sąskaitas tik USMF, USRT ir DEMF įmonėms. Šie stulpeliai yra nustatyti taip, kad **nebūtų** spausdinami finansinėje ataskaitoje.
 
 ![Stulpelio apibrėžimo konsoliduota pajamų deklaracija](./media/column-definition-consolidated-income-statement.png "Stulpelio apibrėžimo konsoliduota pajamų deklaracija")
 
@@ -140,7 +139,7 @@ Gali būti, kad skirtingi juridiniai subjektai naudoja skirtingus finansinius ka
 - Sukurkite stulpelio aprašą ir naudokite laikotarpio bei metus, kad susietumėte atitinkamus kiekvienos įmonės laikotarpius.
 - Pasirinkite **Parametrai** \> **Kita** \> **Papildomos pasirinktys**, tada pasirinkite, ar norite konsoliduoti naudodami laikotarpio pabaigos datą, ar laikotarpio numerį.
 
-Kai kuriate stulpelio aprašą, skirtą kelioms įmonėms, kuriose skaičiuojami ataskaitiniai laikotarpiai, svarbu nuspręsti, kuri įmonė bus nurodyta ataskaitos aprašo lauke **Įmonės pavadinimas**. Tos įmonės finansinis kalendorius bus naudojamas kaip pagrindinis ataskaitos aprašo finansinis kalendorius. Pavyzdžiui, toliau pateikiamoje lentelėje parodyta ataskaitinio laikotarpio sąranka, skirta įmonėms USMF ir INMF. Konsoliduotose ataskaitose naudokite finansinį kalendorių, kurį naudoja USMF. Stulpelyje Susiejimas rodomi kiekvienos įmonės atitinkami metai ir laikotarpis, jei ataskaita sugeneruota 2018 m. birželio 30 d.
+Kai kuriate stulpelio aprašą, skirtą kelioms įmonėms, kuriose skaičiuojami ataskaitiniai laikotarpiai, svarbu nuspręsti, kuri įmonė bus nurodyta ataskaitos aprašo lauke **Įmonės pavadinimas**. Tos įmonės finansinis kalendorius bus naudojamas kaip pagrindinis ataskaitos aprašo finansinis kalendorius. Pavyzdžiui, tolesnėje lentelėje rodomas mokestinis laikotarpis, kuris buvo nustatytas USMF ir INMF įmonėms. Konsoliduotose ataskaitose naudokite finansinį kalendorių, kurį naudoja USMF. Stulpelyje Susiejimas rodomi kiekvienos įmonės atitinkami metai ir laikotarpis, jei ataskaita sugeneruota 2018 m. birželio 30 d.
 
 | Įmonė   | Finansiniai metai                                  | Išdėstymas                     |
 |-----------|----------------------------------------------|-----------------------------|
@@ -193,7 +192,7 @@ Valiutų kursus finansinėse ataskaitose galima apskaičiuoti keturiais būdais.
 Finansinėse ataskaitose bet kurią ataskaitą galima pateikti naudojant bet kokį ataskaitų valiutų skaičių. Toliau nurodyti ataskaitos aprašo laukai palaiko šią parinktį.
 
 - Puslapio **Ataskaitos aprašas** skiltis **Valiutos informacija**. Šioje skiltyje rodoma valiuta, kuria reikšmės pateikiamos generuojant ataskaitą.
-- Naujas žymės langelis **Įtraukti visas ataskaitų valiutas**. Kai pažymėtas šis žymės langelis, sugeneravus ataskaitą, kurioje naudojama pagrindinė įmonės valiuta, kiekvienos ataskaitų valiutos ataskaita įtraukiama į ataskaitų eilę. Jei žymės langelis nepažymėtas, ataskaitų valiuta vis tiek galite pasirinkti žiniatinklio peržiūros programoje. Šiuo atveju ataskaitų valiuta bus apdorojama tik tada, kai ją pasirinksite.
+- Naujas žymės langelis **Įtraukti visas ataskaitų valiutas**. Kai žymimas laukelis yra pasirinktas, ataskaita kiekvienai ataskaitos valiutai bus įtraukta į ataskaitos laukimą iki tol, kol ataskaita, naudojanti įmonės esamą valiutą, bus sukurta. Jei žymės langelis nepažymėtas, ataskaitų valiuta vis tiek galite pasirinkti žiniatinklio peržiūros programoje. Šiuo atveju ataskaitų valiuta bus apdorojama tik tada, kai ją pasirinksite.
 
 Ataskaitos aprašo parinktys suteikia galimybę lengvai konvertuoti ataskaitą į visas ataskaitų valiutas. Todėl galėsite panaikinti pasikartojančius ataskaitų aprašus, kurie skiriasi tik naudojama valiuta. Jei reikia ataskaitos, kurioje kelios valiutos pateikiamos viena šalia kitos, galite naudoti puslapio **Stulpelio aprašas** lauką **Valiutos rodymas**, kad į alternatyvią ataskaitų valiutą konvertuotumėte tik tą ataskaitos stulpelį.
 
@@ -224,6 +223,3 @@ Finansinės ataskaitos naudoja toliau nurodytus balansų skaičiavimo metodus, k
 Daugiau informacijos apie konsolidavimą ir valiutų konvertavimą žr. pagrindinėje šios temos temoje [Finansinio konsolidavimo ir valiutų konvertavimo apžvalga](./financial-consolidations-currency-translation.md).
 
 Daugiau informacijos apie tai, kaip įvesti konsolidavimo informaciją internete, žr. [Internetinis finansinis konsolidavimas](./consolidate-online.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
