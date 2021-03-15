@@ -272,3 +272,6 @@ Filtras: (msdynce_headersystemstatus ne 690970005) ir (msdynce_headersystemstatu
 Filtras: (msdynce_headersystemstatus ne 690970005) ir (msdynce_headersystemstatus ne 690970000) ir (msdynce_orderhasexternalmaintainedproductsonly lygtis teisinga) ir ((msdyn_linestatus lygtis 690970001) arba (msdynce_headersystemstatus lygtis 690970004) arba (msdyn_allocated ne teisinga))
 
 [![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

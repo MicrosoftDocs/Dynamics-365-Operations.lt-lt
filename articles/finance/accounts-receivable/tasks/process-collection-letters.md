@@ -87,3 +87,6 @@ Norėdami nepaisyti mokėjimų ir kredito pažymų apskaičiuojant priminimo lai
 
 1. Eikite į **Naršymo sritis > Moduliai > Kreditas ir mokesčių rinkimas > Sąranka >Gautinų sumų parametrai** ir paspauskite skirtuką **Mokesčių rinkimas**. 
 2. Pakeiskite parametro **Nepaisyti mokėjimų ir kredito pažymų apskaičiuojant priminimo laiško kodą** vertę į **Taip**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Uždari klausimai leidžia suteikti respondentui pasirinkimo variantų. Pirmiaus
 5. Lauke Atsakymų grupė įveskite arba pasirinkite reikšmę.
 6. Lauke „Tekstas“ įveskite reikšmę.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

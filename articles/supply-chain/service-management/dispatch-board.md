@@ -53,3 +53,6 @@ Informacijos, kaip atlikti konkrečias užduotis išsiuntimo informacijos lentoj
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

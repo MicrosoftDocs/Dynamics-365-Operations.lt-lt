@@ -68,3 +68,6 @@ Kad būtų lanksčiai išnaudojamos visos įvairių režimų planavimo galimybė
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

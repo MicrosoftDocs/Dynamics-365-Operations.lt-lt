@@ -44,3 +44,6 @@ Kai iš naujo nustatote pakartotinio konfigūracijos naudojimo funkciją, anksč
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Norėdami gauti daugiau informacijos, žr. [Turto pirkimas įsigyjant](acquire-a
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

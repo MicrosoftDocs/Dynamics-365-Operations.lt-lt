@@ -71,3 +71,6 @@ Sukurdami ataskaitą **Sandėlio apkrovos efektyvumas** galite numatyti vietos n
 
 4. Lauke **Apkrovos tipas** pasirinkę **Tūris** arba **Svoris** nurodykite sandėlio valdymo vienetą, kurio erdvę numatysite.
 5. Lauke **Vietos naudojimo sąranka** pasirinkite vietos naudojimo sąranką, kuria bus grindžiama projekcija.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

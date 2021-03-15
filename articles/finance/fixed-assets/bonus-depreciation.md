@@ -64,3 +64,6 @@ Papildomas nusidėvėjimas įvedamas arba procentais, arba fiksuota suma. Kai u�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

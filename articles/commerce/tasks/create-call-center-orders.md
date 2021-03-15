@@ -61,3 +61,6 @@ ms.locfileid: "4964850"
 
 [Pristatymo režimo keitimas EKA](../pos-change-delivery-mode.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Konsoliduotas juridinis asmuo dabar yra nustatytas **Konsolidavimo** periodiniam
 
 > [!NOTE]
 > Prieš tai, kai galite sutvarkyti konsolidavimą, turite parengti dukterinį juridinį asmenį konsolidavimui. Dėl daugiau informacijos, žr. [Nustatykite dukterinį juridinį asmenį konsolidavimui](set-up-subsidiary-company-for-consolidation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

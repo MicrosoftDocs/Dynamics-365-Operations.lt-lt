@@ -253,3 +253,6 @@ Produkto konfigūracijos modelyje negalite naudoti rezervuotų raktažodžių ka
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

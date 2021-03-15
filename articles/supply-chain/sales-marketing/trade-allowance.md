@@ -199,3 +199,6 @@ Norėdami išsamiau išanalizuoti įvairius akcijos efektyvumo rodiklius, galite
 
 Norėdami išsamiau išanalizuoti įvairius akcijos efektyvumo rodiklius, galite naudoti rodinį Analizė. Norėdami atidaryti rodinį Analizė, spustelėkite **Pardavimas ir rinkodara** \> **Prekybos nuolaidos** \> **Prekybos nuolaidų sutartys**. Veiksmų srityje spustelėkite **Analizė**. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

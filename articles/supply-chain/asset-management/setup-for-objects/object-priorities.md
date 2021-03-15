@@ -52,3 +52,6 @@ Daugiau informacijos apie konfigūraciją, susijusią su darbo užsakymo planavi
 
 > [!NOTE]
 > Jei puslapyje **Turto aptarnavimo lygiai** pakeisite turto aptarnavimo lygio įrašą, kurį jau naudojote darbo užsakyme, priežiūros užklausų ir darbo užsakymų aptarnavimo lygis nebus atitinkamai atnaujintas.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

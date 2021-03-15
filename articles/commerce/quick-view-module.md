@@ -77,3 +77,6 @@ Norėdami įtraukti greito rodinio modulį į produkto kolekcijos modulį „Com
 [Produktų atsiėmimo modulis](product-collection-module-overview.md)
 
 [Ieškokite rezultatų modulio](search-result-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

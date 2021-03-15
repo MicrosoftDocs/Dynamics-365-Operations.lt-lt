@@ -55,3 +55,6 @@ ms.locfileid: "4985117"
 16. Sukurkite projektą, tada atidarykite programą, kad peržiūrėtumėte rezultatus.
 
     [![Baigta darbo sritis](./media/workspace.png)](./media/workspace.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Galite sukurti darbininkų išmokų planus programoje „Microsoft Dynamics 365 
    | Planai | Sparčiajame skirtuke Planai pateikiami planai, atitinkantys nurodytus filtro kriterijus. Atitinkamos konfigūracijos parinktys, kurias nustatė HR darbuotojai ir registracijos pasirinkimai, kuriuos pasirinko darbuotojai, yra įtraukti į kiekvieną eilutę. Apibrėžtas laukas nurodo, ar yra tikrinimo nesutapimų dėl plano pasirinkimo. |
 
 4. Pasirinkite **Įrašyti**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

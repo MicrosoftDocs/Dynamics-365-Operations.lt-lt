@@ -72,3 +72,6 @@ Jei susidomėjote galimybe išbandyti kliento mokėjimo įžvalgas (peržiūra),
 Peržiūros (1) gali naudoti mažiau privatumo ir saugos priemonių nei „Dynamics 365 Finance and Operations“ paslauga, (2) jos nėra įtrauktos į susitarimą dėl šios paslaugos lygio, (3) jos neturėtų būti naudojamos apdoroti asmens duomenims ar kitiems duomenims, kuriems taikomi teisiniai ir atitikimo teisės aktai (4) ir jų palaikymas yra ribotas.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

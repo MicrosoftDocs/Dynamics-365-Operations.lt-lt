@@ -41,3 +41,6 @@ Valdymo vienetas yra organizacija, kuri yra naudojama ekonominiams ištekliams v
     + Įveskite informaciją apie komunikacijos priemones, pvz., elektroninio pašto adresus, URL ir telefono numerius. Norėdami įvesti naują komunikacijos įrašą, spustelėkite „Naujas“. Norėdami modifikuoti esamą komunikacijos įrašą, spustelėkite **Daugiau parinkčių > Išplėstiniai nustatymai**.   
 6. Arba, jei reikia, pakeiskite **Valdymo vieneto numeris**. Atkreipkite dėmesį, kad šis numeris yra atitinkamos **Šalies** unikalus identifikatorius ir negali būti toks pats, kaip bet kuris kitas valdymo vienetas.
 7. Pasirinkite **Įrašyti**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

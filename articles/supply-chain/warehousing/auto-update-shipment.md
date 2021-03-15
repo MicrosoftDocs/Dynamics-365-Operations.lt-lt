@@ -139,3 +139,6 @@ Banga apdorojama ir sukuriamas rezervuotų kiekių, esančių krovinio eilutėse
 Jei siuntos būsena yra **Bangos** arba aukštesnė, kiekio pardavimo užsakymo eilutėje atnaujinimai neatsispindi arba nepatvirtinami atsižvelgiant į su siunta susietą krovinio eilutę. Kiekio pasikeitimai krovinio eilutėje turi būti atliekami tiesiogiai krovinio eilutėje.
 
 Tikrinimas atliekamas po to, kai sukuriamas krovinio eilutės darbas ir užrezervuojama. Tada kiekio pardavimo užsakymo eilutėje sumažėjimas yra patvirtinamas atsižvelgiant į darbo eilutės rezervavimą.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

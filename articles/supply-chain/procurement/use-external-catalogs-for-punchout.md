@@ -54,3 +54,5 @@ Kai paraiška paruošta, naudokite veiksmą **Darbo eiga** > **Pateikti** norėd
 
 - [Išorinio katalogo nustatymas el. pirkimo išėjimo laikui žymėti](set-up-external-catalog-for-punchout.md)
 - [Pirkimo „cXML“ patobulinimai](purchasing-cxml-enhancements.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

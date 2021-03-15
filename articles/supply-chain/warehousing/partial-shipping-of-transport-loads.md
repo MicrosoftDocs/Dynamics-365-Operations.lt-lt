@@ -65,3 +65,6 @@ Turite sukurti naują meniu elementą, kad būtų galima pakrauti transporto pri
 
 1. Pasirinkite **Sandėlio valdymas** \> **Kroviniai** \> **Transportuojami kroviniai**.
 2. Veiksmų srities skirtuko **Siuntimas ir gavimas** grupėje **Patvirtinimas** spustelėkite **Transportas**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

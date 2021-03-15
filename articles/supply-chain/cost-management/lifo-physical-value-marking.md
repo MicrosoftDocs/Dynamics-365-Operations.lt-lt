@@ -150,3 +150,6 @@ Toliau pateiktoje iliustracijoje parodomas LIFO atsargų modelio poveikis tokiom
 - Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme *Atsargų uždarymas*.
 - Iki atsargų uždarymo atlikti sudengimai rodomi raudonomis įstrižomis punktyrinėmis rodyklėmis, einančiomis nuo gavimo prie išdavimo.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

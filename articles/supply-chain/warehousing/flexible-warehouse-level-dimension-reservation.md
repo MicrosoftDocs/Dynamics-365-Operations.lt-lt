@@ -853,3 +853,6 @@ Toliau esančiose lentelėse pateikiama apžvalga, nurodanti, kaip sistema apdor
     - Perkėlimo užsakymai ir žaliavų paėmimas
 
 - Konteinerių konsolidavimo taisyklė, taikoma pakuotei pagal nurodomąjį vienetą, turi trūkumų. Įvykdyto užsakymo rezervavimams rekomenduojame nenaudoti konteinerio kūrimo šablonų, kai laukas **Pakuoti pagal nurodomąjį vienetą** yra įjungtas. Dabartiniame kūrimo įrankyje vietos nurodymai nenaudojami, kai sukuriamas sandėlio darbas. Todėl per krovimo į konteinerius bangos veiksmą taikoma tik mažiausia vienetų sekų grupė (atsargų vienetas).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

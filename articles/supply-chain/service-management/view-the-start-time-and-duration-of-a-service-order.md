@@ -58,3 +58,6 @@ Taip pat galima pažiūrėti, kada pradėtas ir sustabdytas aptarnavimo užsakym
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

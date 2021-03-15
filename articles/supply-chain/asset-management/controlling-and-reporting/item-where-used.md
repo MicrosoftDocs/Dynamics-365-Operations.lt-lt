@@ -70,3 +70,6 @@ Toliau pateiktoje ekrano kopijoje rodomas apskaičiavimo Kur naudota prekė, kai
 
 ![Apskaičiavimo Kur naudota prekė pavyzdys](media/12-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

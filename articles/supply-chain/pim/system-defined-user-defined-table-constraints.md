@@ -66,3 +66,6 @@ Prieš lentelių apribojimus įsigaliojant produkto konfigūracijos modelio komp
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

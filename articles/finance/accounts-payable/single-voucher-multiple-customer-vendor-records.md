@@ -232,3 +232,6 @@ Norint išvengti nepageidaujamų problemų su būsimais šios operacijos sudengi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Norėdami į naują puslapį įtraukti karuselės modulį ir nustatyti reikiamas
 [Turinio bloko modulis](add-hero-module.md)
 
 [Vaizdo įrašų leistuvo modulis](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

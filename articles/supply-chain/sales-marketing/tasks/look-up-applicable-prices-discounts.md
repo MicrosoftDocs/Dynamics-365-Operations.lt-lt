@@ -59,3 +59,6 @@ ms.locfileid: "5010777"
     * Yra dvi eilutės nuolaidos sutartys produktui T0012, nurodančios 5 proc. nuolaidą užsakymo eilutės kiekiui nuo 1 iki 10 ir 7 proc. nuolaidą užsakymams, viršijantiems 10. Atkreipkite dėmesį, kad šiame pavyzdyje nuolaidos taikomos produktų grupei (grupės kodas 01), kurios narys yra T0012 produktas.  
 4. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

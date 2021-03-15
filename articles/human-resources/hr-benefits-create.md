@@ -53,3 +53,6 @@ ms.locfileid: "5113526"
 6. Lauke Įsigalioja įveskite datą ir laiką.
 7. Spustelėkite Kurti išmoką.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

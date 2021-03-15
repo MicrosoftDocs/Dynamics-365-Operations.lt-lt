@@ -102,3 +102,6 @@ Atkreipkite dėmesį, kad poreikio UOM prognozė neprivalo turėti jokios konkre
 [Pašalinių reikšmių šalinimas iš praeities operacijų duomenų skaičiuojant poreikio prognozę](remove-historical-outliers-calculating-demand-forecast.md)
 
 [Poreikio prognozių funkcijų išplėtimas](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

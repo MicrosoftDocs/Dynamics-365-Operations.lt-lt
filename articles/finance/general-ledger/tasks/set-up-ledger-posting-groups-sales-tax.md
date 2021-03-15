@@ -41,3 +41,6 @@ PVM yra skaičiuojamas ir registruojamas į pagrindines sąskaitas, kurios yra n
 11. Lauke **Kliento atvejo nuolaida** pasirinkite pagrindinę sąskaitą, kurioje bus registruojama mokėjimo nuolaida pagal **PVM kodus**, susietus su šia **DK registravimo grupe**. Tai neprivaloma – jei neįvedama jokia sąskaita, bus naudojama srityje **Mokėjimo nuolaidų kodai** nurodyta pagrindinė sąskaita. Gali būti naudinga kiekvienai **DK registravimo grupei** naudoti skirtingas sąskaitas, jei **PVM grupėse** naudojama PVM atšaukimo mokėjimo nuolaidai parinktis.  
 12. Spustelėkite **Įrašyti**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

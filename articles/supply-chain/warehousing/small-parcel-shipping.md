@@ -279,3 +279,6 @@ Norėdami supakuoti siuntą, atlikite toliau nurodytus veiksmus.
     ![Siuntimo žymės pavyzdys](media/sps-label-example.png "Siuntimo žymės pavyzdys")
 
 1. Atkreipkite dėmesį, kad **Konteinerio deklaracijos ID** ir **Bendras krovinys** vertės pridėtos tokios, kokios gautos iš vežėjo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

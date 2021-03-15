@@ -36,3 +36,6 @@ ms.locfileid: "5113553"
 3. Nurodykite dalių **Darbuotojo tipas**, **Įdarbinimo kategorija** ir **Aprašas** vertes.
 
 4. Pasirinkite **Įrašyti**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

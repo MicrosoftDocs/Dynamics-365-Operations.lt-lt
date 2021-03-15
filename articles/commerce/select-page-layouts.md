@@ -79,3 +79,6 @@ Norėdami pasirinkti kitą esamo puslapio maketą, atlikite toliau nurodytus vei
 
 [Sukurti dinaminius e-komercijos puslapius pagal URL parameterus](create-dynamic-pages.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

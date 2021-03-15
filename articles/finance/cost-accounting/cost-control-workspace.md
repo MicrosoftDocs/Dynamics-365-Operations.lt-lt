@@ -157,3 +157,6 @@ Papildomi ištekliai
 [Savikainos objekto valdiklių prieigos teisių apibrėžimas](access-rights-cost-object-controller.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

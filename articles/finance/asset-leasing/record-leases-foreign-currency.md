@@ -52,3 +52,6 @@ Kai sukuriate nusidėvėjimo išlaidų žurnalo įrašus su nuoma, išreikšta u
 Galutinę nusidėvėjimo išlaidų sumą galima apskaičiuoti naudojant šiek tiek kitokį valiutos kursą, kad naudojimo teise valdomas turtas būtų visiškai nusidėvėjęs tiek apskaitos valiuta, tiek ataskaitų valiuta.
 
 Jei nuoma buvo perklasifikuota kaip **Atidėtasis nuomos mokėjimas**, sistema automatiškai panaikina apskaitos ir ataskaitų valiutų kursus, jei jie jau nustatyti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

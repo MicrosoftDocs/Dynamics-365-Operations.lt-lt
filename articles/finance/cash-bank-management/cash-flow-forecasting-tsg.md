@@ -52,3 +52,6 @@ Patikrinkite, ar „Grynųjų eigos matmuo V2" ir „LedgerCovLiquidityMeasureme
 ## <a name="have-the-entity-store-entities-been-refreshed"></a>Ar Objekto parduotuvės objektai buvo atnaujinti?
 
 Turite periodiškai atnaujinti jūsų objektus siekiant užsitikrinti, kad duomenys būtų dabartiniai ir tikslūs. Norėdami rankiniu būdu atnaujinti konkretų objektą, eikite į **Sistemos administravimas \> Nustatymai \> Objekto parduotuvė**, rinkitės objektą ir tada **Naujinti**. Duomenys taip pat gali būti naujinami automatiniu būdu. Puslapyje **Objekto parduotuvė** nustatykite **Automatinis naujinimas įjungtas** parinktį į **Taip**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

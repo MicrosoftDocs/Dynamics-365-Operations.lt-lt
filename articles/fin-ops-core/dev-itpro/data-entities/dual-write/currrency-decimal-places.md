@@ -95,3 +95,6 @@ Jei jums reikia, kad valiutos tikslumas konkrečiai valiutai skirtųsi nuo valiu
 ### <a name="tables-currency-column"></a>lentelės: stulpelis Valiuta
 
 Galima tik keturis kartus koreguoti dešimtainių skaičių, skirtų konkrečios valiutos stulpeliams, kiekius.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

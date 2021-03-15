@@ -49,3 +49,6 @@ Tai yra penktoji iš penkių procedūrų, kuriose aprašomas kliento mokėjimo n
     3.    Lauke **Failo pavadinimas** suveskite reikšmę. Šiame pavyzdyje sugeneroro uostotas failas bus suderinamas su SEPA, nes mokėjimas – eurais. ISO20022 kredito pavedimas ir kiti tiekėjo mokėjimo formatai taip pat gali būti naudojami generuojant mokėjimus kitomis valiutomis.
     4.    Lauke **Banko sąskaita** įveskite arba pasirinkite reikšmę.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

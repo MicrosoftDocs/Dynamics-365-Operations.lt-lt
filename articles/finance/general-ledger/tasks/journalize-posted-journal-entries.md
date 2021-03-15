@@ -39,3 +39,6 @@ ms.locfileid: "4968534"
 9. Spustelėję **Gerai**, uždarykite filtro puslapį.
 10. Spustelėję **Gerai**, pradėkite įtraukimo į žurnalą procesą. Kai procesas bus baigtas, bus sugeneruota ataskaita.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

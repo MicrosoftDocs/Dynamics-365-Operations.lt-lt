@@ -175,3 +175,6 @@ Dabar bus pasiekiama jūsų įtraukta kalba, kad galėtumėte sukonfigūruoti sv
 [Įtraukti informaciją apie autorių teises](add-copyright-notice.md)
 
 [Įtraukite scenarijaus kodą į svetainės puslapius, kad būtų palaikoma telemetrija](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

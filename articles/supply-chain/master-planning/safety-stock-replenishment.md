@@ -115,3 +115,6 @@ Pakankamų atsargų poreikio pildymo operacijos prioritetas sumažinamas, jei si
 Bendrojo planavimo padengimo etapo metu pakankamų atsargų papildymo prioritetas nebėra mažinamas. Turimas atsargas galima naudoti prieš bet kokį kitą poreikio tipą. Skaičiuojant atidėjimą, įtraukiama nauja logika atidėtų pardavimo eilučių, KS eilučių poreikiams ir visų kitų tipų poreikiui patikrinti, kad būtų nustatyta, ar jie gali pristatyti laiku, jei naudojamos pakankamos atsargos. Jei sistema nustato, kad atidėjimas gali būti sumažintas naudojant pakankamas atsargas, tada pradinis pardavimo eilučių arba KS eilučių padengimas bus pakeistas pakankamomis atsargomis, o sistema suaktyvins papildymą naudojant pakankamas atsargas.
 
 Jei nenustatytas plano ar prekės atidėjimo skaičiavimas, tada pakankamų atsargų apribojimo prioritetas bus toks pat kaip bet kurio kito tipo poreikio prioritetas. Tai reiškia, kad yra turimų ir kitų atsargų rezervas prieš kitų tipų poreikį.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

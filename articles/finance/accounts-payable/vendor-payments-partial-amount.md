@@ -53,3 +53,6 @@ Galite atlikti dalinį mokėjimą, kai suma, kurią vis dar reikia sudengti, yra
 
 
 Daugiau informacijos žr. [Tiekėjo mokėjimų apžvalga](../cash-bank-management/tasks/vendor-payment-overview.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

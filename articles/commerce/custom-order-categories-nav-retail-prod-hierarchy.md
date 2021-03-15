@@ -87,3 +87,6 @@ Kanalo naršymo hierarchijos rodymo tvarka atsispindi HQ, kataloge ir kanaluose.
 
 > [!NOTE]
 > Pagal numatytuosius parametrus, pasirinktinio rūšiavimo tvarka yra išjungta. Kaip įjungti šią funkciją ir kitas funkcijas, žr. [Funkcijų valdymas](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ Privalote nurodyti inžinerijos kategoriją, kuriai priklauso produktas. Kategor
 Galite naudoti inžinerijos atributo paiešką, kad rastumėte produktus ieškodami jų inžinerijos atributų verčių. Dėl to, galite paprastai rasti inžinerijos produktus pagal jų savybes. Galite ieškoti produktų priklausančių inžinerijos produktų kategorijai arba galite ieškoti visų inžinerijos produktų.
 
 Paieška prieinama pagal produkto pagrindinius duomenų puslapius ir perdavimo prekes sistemoje, tokias kaip prekybos užsakymai. Perlaidos prekei, galite naudoti **Inžinerijos atributo paieškos** puslapį, kad ieškotumėte produkto. Tada galite naudoti **Įtraukti kaip naują eilutę** mygtuką, kad įtrauktumėte produktą į prekybos užsakymo eilutes. Produktai paieškos rezultatuose taip pat gali būti įtraukti tiesiogiai į užsakymą.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

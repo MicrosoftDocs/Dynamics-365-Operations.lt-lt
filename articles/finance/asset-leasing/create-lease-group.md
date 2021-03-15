@@ -49,3 +49,6 @@ Sukūrę nuomos grupes, kiekvienai grupei galite priskirti knygų. Kai kuriate n
 1. Eikite į **Turto nuoma \> Sąranka \> Nuomos grupė**.
 2. Pasirinkite nuomos grupę ir **Knygos**.
 3. Pasirinkite **Nauja**, tada lauke **Knygos tipas** pasirinkite knygą, kuri bus priskirta nuomos grupei. Galite priskirti keletą knygų nuomos grupei, jei nuoma turi būti apskaitoma skirtingais būdais.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

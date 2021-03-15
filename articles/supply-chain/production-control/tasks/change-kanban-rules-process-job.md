@@ -48,3 +48,6 @@ ms.locfileid: "4981361"
 7. Spustelėkite Baigti.
     * Dabar „kanban“ užduotis naudoja kitą „kanban“ taisyklę. Tai gali būti naudinga norint išlyginti krovinio darbo elementus.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

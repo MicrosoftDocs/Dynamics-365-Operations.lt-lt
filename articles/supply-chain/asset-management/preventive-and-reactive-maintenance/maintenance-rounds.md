@@ -116,3 +116,6 @@ Toliau esančiuose dviejuose paveikslėliuose pavaizduota grafiko užduotis dial
 - Galite nustatyti paketinę užduotį, esančią „FastTab“ **Vykdyti fone**, kad grafiko ciklai būtų vykdomi reguliariais intervalais.  
 - Jei ciklas yra įtrauktas į kelis darbo užsakymų telkinius (žr. [Darbo užsakymų telkiniai](../work-orders/work-order-pools.md)), kiekviename įrašo telkinyje pasirinkus **Atidaryti priežiūros grafiko telkinius** rodomas vienas įrašas. Taip siekiama optimizuoti darbo užsakymų telkinių filtravimo parinktis.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

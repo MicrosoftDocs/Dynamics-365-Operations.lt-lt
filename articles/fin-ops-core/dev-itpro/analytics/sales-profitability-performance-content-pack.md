@@ -107,3 +107,6 @@ Tolesnės pagrindinės pardavimo kubo dimensijos naudojamos kaip filtrai agreguo
 | Datos            | Datos                                                |
 
 Pagal numatytuosius parametrus turinyje rodomi esamų kalendorinių metų duomenys. Tačiau ataskaitos filtrų skyriuje datos filtrą galima pakeisti. Taip pat galite pakeisti įmonės filtrą.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

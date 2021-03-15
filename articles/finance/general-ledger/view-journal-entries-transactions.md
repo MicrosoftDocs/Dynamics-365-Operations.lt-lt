@@ -60,3 +60,6 @@ Be finansinių ataskaitų, galite naudoti šias DK ataskaitas, kad peržiūrėtu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

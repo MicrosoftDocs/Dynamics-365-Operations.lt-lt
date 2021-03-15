@@ -101,3 +101,6 @@ Kai vykdomas bendrasis planavimas, sukuriami du suplanuoti užsakymai: vienas �
 > Kai patvirtinamas suplanuotas užsakymas, iškviestas pirkimo paraiškai, planavimo modulis išlaiko iškvietimą į pirkimo paraišką. Jei patvirtintame užsakyme vėliau pritrūksta tam tikro kiekio, reikalingo pirkimo paraiškai įvykdyti, sistema sukurs naują suplanuotą užsakymą skirtumui padengti.
 
 Daugiau informacijos apie pirkimo paraiškas žiūrėkite [Pirkimo paraiškos apžvalga](../../procurement/purchase-requisitions-overview.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ ms.locfileid: "4990444"
 - Įsigijimo pasiūlyme bus įtrauktas tik ilgalaikis turtas su knygoje nustatyta įsigijimo data ir įsigijimo kaina.  
 11. Kurkite knygas puslapyje **Knygos**.
 12. Pasirinkite **Registruoti**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

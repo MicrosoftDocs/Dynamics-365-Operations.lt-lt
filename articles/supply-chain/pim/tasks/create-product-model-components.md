@@ -37,3 +37,6 @@ Produkto konfigūravimo pagal apribojimus modeliai naudoja komponentus kaip kūr
 7. Lauke Aprašas įveskite reikšmę.
 8. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

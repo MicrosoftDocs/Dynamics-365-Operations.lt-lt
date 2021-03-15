@@ -66,3 +66,6 @@ ms.locfileid: "4964799"
 3. Naudodami 1070 paskirstymo grafiką sinchronizuokite kanalo duomenų bazės pakeitimus. 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

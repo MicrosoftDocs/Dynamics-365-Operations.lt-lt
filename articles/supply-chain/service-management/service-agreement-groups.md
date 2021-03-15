@@ -41,3 +41,6 @@ Puslapyje **Aptarnavimo valdymo parametrai** esančiame lauke **Aptarnavimo suta
 ## <a name="related-topics"></a>Susijusios temos
 
 [Aptarnavimo sutarčių grupių kūrimas](create-service-agreement-groups.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ ms.locfileid: "5006115"
 24. Spustelėkite žymės langelį Numatytasis naujų kredito kortelių procesorius.
 25. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

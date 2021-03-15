@@ -63,3 +63,6 @@ Prieš atlikdami šią procedūrą, turite nustatyti PVM ID. Ši procedūra taik
 25. Lauke Neapmokestinimo kodas įveskite arba pasirinkite vertę.
 26. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

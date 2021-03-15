@@ -86,3 +86,6 @@ Norėdami naudoti integruotą paslaugą [„Microsoft Accessibility Insights“]
 [Papildyti kategorijos nukreipimo puslapį](enrich-category-page.md)
 
 [Sukurti dinaminius e-komercijos puslapius pagal URL parameterus](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

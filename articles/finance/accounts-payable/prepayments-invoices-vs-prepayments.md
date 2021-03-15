@@ -65,3 +65,6 @@ Išankstinio mokėjimo sąskaitos yra bendra verslo praktika. Tiekėjas išduoda
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

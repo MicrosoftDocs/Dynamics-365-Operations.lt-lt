@@ -208,3 +208,6 @@ Katalogo, kategorijos, darbuotojo ir kliento vaizdus, kuriuos reikia naudoti atj
 5. Tokiu pat būdu nustatykite kitų objektų, pvz., Kategorija, Darbuotojas arba Klientas, vaizdus.
 
     [![Autonominis vaizdas](./media/offline2.png)](./media/offline2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

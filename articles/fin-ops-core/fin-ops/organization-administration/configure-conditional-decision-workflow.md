@@ -52,3 +52,6 @@ Patikrinusi pateiktą dokumentą sistema nustato, kurią šaką naudoti, ir nust
     2. Formos srityje **Tikrinti sąlygą** pasirinkite įrašą.
     3. Spustelėkite **Išbandyti**. Įvertinusi įrašą sistema nustatys, ar jis tenkina jūsų nurodytą sąlygą.
     4. Spustelėkite **Gerai** arba **Atšaukti**, norėdami vėl atidaryti formą **Ypatybės**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

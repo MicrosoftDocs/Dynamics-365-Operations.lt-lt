@@ -87,3 +87,6 @@ Kai skelbiate ataskaitą, pardavimo ataskaitoje sukuriami pardavimo užsakymai i
 - Pardavimai, už kuriuos klientas buvo įtrauktas į operaciją, esančią EKA, sukuria atskirus pardavimo užsakymus ir SF, po vieną kiekvienam atskiram klientui.
 
 Išrašo mokėjimams automatiškai sukuriami mokėjimų žurnalai, o EKA parduotuvėje atnaujinamos atsargos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

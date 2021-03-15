@@ -82,3 +82,6 @@ Brūkšninių kodų skaičių sekos prieš naudojant turi būti priskirtos brūk
 5. Spustelėkite **Įrašyti**.
 
 Brūkšninio kodo skaičių seką dabar galima naudoti produktams kuriant brūkšninius kodus. Aukščiau nurodyti veiksmai yra pavyzdžiai, kaip sukurti produktų brūkšninių kodų skaičių sekas, bet jie iliustruoja ir tai, kaip kurti brūkšninio kodo sekas bet kuriems kitiems palaikomiems brūkšninių kodų tipams. Brūkšninių kodų skaičių sekos, tipai ir ilgiai turi būti koreguojami naudoti jūsų konkrečioje aplinkoje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -139,3 +139,6 @@ Liepos 20 d. Eglė sukuria 200,00 galutinį mokėjimą. Nepritaikoma jokia nuola
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

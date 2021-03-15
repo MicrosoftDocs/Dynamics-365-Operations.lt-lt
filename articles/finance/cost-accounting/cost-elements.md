@@ -75,3 +75,6 @@ Kadangi savikainos elementai atitinka žemiausią savikainos informacijos lygį,
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

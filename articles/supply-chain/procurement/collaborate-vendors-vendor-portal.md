@@ -103,3 +103,6 @@ Toliau pateikiamoje lentelėje rodomas pavyzdys, kaip gali būti vykdomi PU būs
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

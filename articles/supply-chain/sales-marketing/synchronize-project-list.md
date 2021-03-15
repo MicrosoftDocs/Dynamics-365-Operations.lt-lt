@@ -66,3 +66,6 @@ Projektai sukuriami Tiekimo grandinės valdyme. Projektai, kurių **Projekto tip
 ### <a name="projects-supply-chain-management-to-field-service-projects"></a>Projektai (iš Tiekimo grandinės valdymo į „Field Service“): projektai
 
 [![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSProject1.png)](./media/FSProject1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -107,3 +107,6 @@ Toliau pateiktoje ekrano kopijoje rodomas rezultatų **Darbo užsakymo datos val
 ![„Darbo užsakymo datos valdymas“ skaičiavimo rezultatų pavyzdys](media/03-controlling-and-reporting.png)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

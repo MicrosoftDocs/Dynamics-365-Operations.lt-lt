@@ -121,3 +121,6 @@ NSF mokėjimus galite tvarkyti pasirinkę **NSF mokėjimas** puslapyje **Mokėji
 [Pardavimo užsakymų kredito sulaikymai](./cm-sales-order-credit-holds.md)
 
 [Periodinės kliento kredito valdymo užduotys](./cm-periodic-tasks.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Atkreipkite dėmesį į toliau nurodytus punktus.
 
 - Galite nustatyti skaitiklius, susietus su kitu skaitikliu. Šiuo atveju, atnaujinus skaitiklį, tuo pačiu metu automatiškai atnaujinami susiję skaitikliai. Daugiau informacijos, kaip nustatyti susijusius skaitiklius, žr. [Skaitikliai](../setup-for-objects/counters.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

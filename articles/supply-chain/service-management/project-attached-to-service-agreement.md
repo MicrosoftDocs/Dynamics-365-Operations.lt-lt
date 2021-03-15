@@ -36,3 +36,6 @@ Aptarnavimo užsakymo operacijas registruokite naudodami projektą, kurį prided
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

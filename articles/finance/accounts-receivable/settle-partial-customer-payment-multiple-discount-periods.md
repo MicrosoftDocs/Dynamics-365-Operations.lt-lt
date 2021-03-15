@@ -97,3 +97,6 @@ Dabar SF balansas yra 0,00. Arnas peržiūri šią operaciją puslapyje **Klient
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

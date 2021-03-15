@@ -80,3 +80,6 @@ Norėdami atlikti šioje temoje esančius veiksmus, turite įsitikinti, kad atli
 9. Dialogo lange **Pagrindas** pasirinkite pagrindą, įtraukdami **Elektroninių SF išrašymo priedas**.
 10. Pasirinkite **Įtraukti**, tada pasirinkite **Įrašyti „Key Vault” keitimus**.
 11. Puslapyje **Apžvalga** nukopijuokite raktų saugyklos reikšmę **DNS pavadinimas**. Ši reikšmė bus naudojama paslaugos nustatymo metu RCS ir bus vadinama *raktų saugyklos URI*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -120,3 +120,6 @@ Norėdami naudoti vieną iš darbo eigoje nustatytų išlaidų peržiūrėtojų,
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

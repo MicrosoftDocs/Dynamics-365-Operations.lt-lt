@@ -276,3 +276,6 @@ Kiekvienos šalies PVM išrašas turi atitikti šalies teisės reikalavimus. Tol
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

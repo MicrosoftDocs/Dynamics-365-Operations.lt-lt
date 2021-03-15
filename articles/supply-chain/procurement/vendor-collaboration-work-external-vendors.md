@@ -258,3 +258,6 @@ Vartotojas, kuris nustato RFQ proceso parametrus, gali kurti kelis el. laiškų 
 - %createddate%
 
 Jei pakeitimas yra būtinas ir yra išsiunčiamas po to, kai išsiunčiama RFQ, RFQ bus pakartotinai išsiųsta visiems pakviestiems tiekėjams. Publikuotas dokumentas taip pat bus atnaujinamas puslapyje **Atviri paskelbti pasiūlymų patvirtinimai**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

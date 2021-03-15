@@ -350,3 +350,6 @@ Jei sprendimas turi būti priimtas per tam tikrą laiką, atlikite šiuos veiksm
     - **Metai** – pasirinkite dieną, savaitę ir mėnesį, iki kurių sprendimas turi būti priimtas. Pavyzdžiui, galbūt norite, kad sprendimas būtų priimtas iki trečios gruodžio mėn. savaitės penktadienio.
 
 4. Jei viršijamas laiko limitas, sistema priims sprendimą. Sąraše **Veiksmas** pasirinkite parinktį, kurią sistema turi pasirinkti.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

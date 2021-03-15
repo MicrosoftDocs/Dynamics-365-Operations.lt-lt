@@ -241,3 +241,6 @@ Keisti įmonių nereikia norint pasiekti duomenis iš kelių valdymo vienetų. K
 - Prieš modeliuodami pagrindinius pertvarkymo scenarijus, poveikio analizei ir tikrinimo bandymui atlikti naudokite hierarchijos įsigaliojimo datas.
 - Naudodami juodraščio režimą pakeiskite hierarchiją prieš publikuodami naują versiją gamybos aplinkoje.
 - Ribokite skaičių žmonių, turinčių teisę įtraukti organizacijos į hierarchiją arba šalinti iš jos gamybos aplinkoje. Mažesnis skaičius sumažina brangių klaidų ir reikalingų taisymų pavojų.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -221,3 +221,6 @@ Išslenkančioje srityje rodomi naujausi proceso vykdymo rezultatai. Galite per�
 [Kurti ir redaguoti virtualias lenteles, kuriose yra duomenys iš išorės duomenų šaltinio](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
 [Kas yra „Power Apps“ portalai?](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
 [Programų kūrimo „Power Apps“ apžvalga](https://docs.microsoft.com/powerapps/maker/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

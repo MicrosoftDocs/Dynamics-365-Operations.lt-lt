@@ -163,3 +163,6 @@ Susidūrę su problemomis pirmiausia perskaitykite „Modern POS” arba informa
 [Internetinių mokėjimo priemonių įrašymas naudojant „Adyen“ jungtį](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
 
 [Integruotų kanalų mokėjimų apžvalga](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -145,3 +145,6 @@ Tam, kad sukonfigūruotumėte selektoriaus modulį ir jis rodytų esamas parduot
 [„Bing Maps REST“ API](https://docs.microsoft.com/bingmaps/rest-services/)
 
 [Žemėlapių modulis](map-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

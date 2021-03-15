@@ -58,3 +58,6 @@ ms.locfileid: "5006090"
 24. Spustelėkite skirtuką Kategorijos kainų taisyklės.
     * Šiame sąraše bus rodomos konkretaus kanalo kategorijos kainų taisyklės.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

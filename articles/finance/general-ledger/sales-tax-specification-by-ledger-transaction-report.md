@@ -57,3 +57,6 @@ Kai generuojate ataskaitą, galimi šie numatytieji laukai. Šiuos laukus galite
 Norėdami, kad ataskaitoje būtų rodomos tik ne mokesčių ataskaitos, nustatykite filtro sąlygą, pvz., žvaigždutę (\*), kaip parodyta toliau pateiktoje iliustracijoje.
 
 ![Ataskaita, kurioje rodomos ne mokesčių ataskaitos](media/taxspecperledgertrans.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

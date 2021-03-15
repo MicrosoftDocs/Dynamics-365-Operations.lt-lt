@@ -65,3 +65,6 @@ Norėdami įtraukti krepšelio piktogramos modulį, žr. [Antraštės modulis](a
 [Išsamios užsakymo informacijos modulis](order-confirmation-module.md)
 
 [Dovanų kortelės modulis](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -101,3 +101,6 @@ Aptarnavimo užsakymą galima sukurti formoje **Pardavimo užsakymai** naudodami
 
 [Aptarnavimo užsakymų kūrimas (klasės forma)](https://technet.microsoft.com/library/aa553901\(v=ax.60\)) 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

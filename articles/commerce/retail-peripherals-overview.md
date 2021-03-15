@@ -835,3 +835,6 @@ Toliau nurodyti išoriniai įrenginiai buvo išbandyti naudojant bendrinamą IIS
 [„Commerce“ periferinis simuliatorius](dev-itpro/retail-peripheral-simulator.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

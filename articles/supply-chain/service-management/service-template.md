@@ -57,3 +57,6 @@ Lengviau nustatyti, kurias aptarnavimo šablono eilutes norite kopijuoti, jei su
 ## <a name="related-topics"></a>Susijusios temos
 
 [Aptarnavimo šablonų eilučių kopijavimas](copy-service-template-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

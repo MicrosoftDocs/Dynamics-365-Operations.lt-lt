@@ -43,3 +43,6 @@ Siekdami palengvinti išlaidų objekto dimensijos narių importavimą ir gauti v
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

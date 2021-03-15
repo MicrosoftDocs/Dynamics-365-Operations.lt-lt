@@ -80,3 +80,6 @@ Toliau pateiktose iliustracijose vaizduojamas šablono susiejimas naudojant funk
 ### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>Atsargų perkėlimas (iš „Field Service“ į Tiekimo grandinės valdymą): atsargų perkėlimas
 
 [![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSTrans1.png)](./media/FSTrans1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

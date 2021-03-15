@@ -41,3 +41,6 @@ Atšaukiamos ilgalaikio turto likvidavimo operacijos, sukurtos užregistravus kr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

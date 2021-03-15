@@ -931,3 +931,6 @@ Galite peržiūrėti ir iš naujo atspausdinti bangos etiketes tolesniuose pusla
 - Bangos žymos retrospektyva
 
 Didžiojoje dalyje šių puslapių, galite rasti atitinkamą funkciją pasirinkę **Bangos žymės**  **Susijusi informacija** grupėje **Siuntimai** skirtuke veiksmų juostoje.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ ms.locfileid: "5004882"
 9. Lauke **Tranzito laiko mechanizmas** išplečiamajame meniu pažymėkite parinktį.
 10. Pasirinkite **Įrašyti**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

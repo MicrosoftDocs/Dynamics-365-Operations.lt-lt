@@ -48,3 +48,6 @@ ms.locfileid: "4968934"
     * Pagal numatytąsias nuostatas naudojamas specialiosios nusidėvėjimo nuolaidos sąrankoje nustatytas procentas ar suma.  
 8. Lauke Prioritetas įveskite skaičių.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

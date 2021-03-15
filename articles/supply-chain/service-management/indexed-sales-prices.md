@@ -42,3 +42,6 @@ Pvz., jei bazinė kaina yra 1000 eurų, o indeksas – 110, pardavimo kaina yra 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Užregistravus žurnalą, grąžintos prekės registruojamos į atsargas, o form
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ Siūlome tam tikrų su užsienio prekybos operacijomis susijusių metaduomenų, 
 3.    Spustelėkite **Gerai**. 
     
 Sukurta ER metaduomenų konfigūracija įrašyta kaip XML failas, kurį galima importuoti į RCS ir naudoti kaip užsienio prekybos verslo srities metaduomenų informacijos šaltinį. Remdamiesi šia informacija, galime nurodyti susiejimą tarp programos metaduomenų ir ER duomenų modelio.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

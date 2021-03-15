@@ -381,3 +381,6 @@ Vartotojas turi atlikti veiksmą su užduotimi, kai neautomatizuota užduotis yr
 5. Jei norite, kad vartotojas galėtų perduoti užduotį kitam vartotojui, pažymėkite žymės langelį **Perduoti**.
 6. Jei norite, kad vartotojas galėtų perskirti užduotį kitam darbo elementų eilės vartotojui, pažymėkite žymės langelį **Perskirti**.
 7. Jei norite, kad vartotojas galėtų išleisti užduotį darbo elementų eilei, pažymėkite žymės langelį **Išleisti**. Tada kitas vartotojas galės baigti užduotį.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

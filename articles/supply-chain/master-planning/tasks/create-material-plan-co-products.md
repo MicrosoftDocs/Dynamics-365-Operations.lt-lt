@@ -110,3 +110,6 @@ Gamybos planuotojas planuoja medžiagų poreikius prekėms, kurios yra formulės
 19. Lauke Išjungti visus planavimo procesus pasirinkite Ne.
 20. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

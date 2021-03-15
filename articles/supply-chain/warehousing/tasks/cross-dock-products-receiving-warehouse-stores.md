@@ -48,3 +48,6 @@ ms.locfileid: "4977193"
 15. Sąraše raskite ir pasirinkite produktus gavusį sandėlį
 16. Spustelėkite Užsakymas, norėdami peržiūrėti sukurtus pasirinkto sandėlio užsakymus
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

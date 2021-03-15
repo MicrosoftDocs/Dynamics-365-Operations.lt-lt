@@ -159,3 +159,6 @@ Toliau esančiose lentelėse rodomos reikšmės, kurios yra nustatytos visų pav
 
 > [!NOTE]
 > Jei anuiteto tipas pakeičiamas į **Laikotarpio pradžios anuitetas**, mokėjimas mokamas sausio mėn., o ne gruodžio mėn.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Užduoties kortelė pateikia atskirų užduočių numerius tam tikrai operacijai
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

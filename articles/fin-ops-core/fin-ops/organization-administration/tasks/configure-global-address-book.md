@@ -45,3 +45,6 @@ Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USMF. Ši
 13. Sąraše raskite ir pasirinkite norimą įrašą. Paspauskite klavišą Shift, jei norite pasirinkti kelis vaidmenis ir įtraukti į sritį **Pasirinkti vaidmenys**, tada spustelėkite rodyklę ir įtraukite pasirinktus vaidmenis.  
 14. Spustelėkite **Įrašyti**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

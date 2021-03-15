@@ -256,3 +256,6 @@ Atskirų produktų atributų numatytųjų reikšmių galima nepaisyti produkto l
 
     > [!NOTE]
     > Jei sukuriama bendrai naudojama produktų medija ir bendrai naudojami produktų atributai, jie taikomi visiems produktams.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Sukūrus svetainę, tik tie vartotojai, kurie yra saugos grupėse, susietose su 
 [Ieškos modulio optimizavimo (SEO) aplinkybės jūsų svetainei](search-engine-optimization-considerations.md)
 
 [Tvarkyti turinio saugos strategiją (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Jei nenurodėte ilgalaikio turto numerio „Excel” papildinio šablone arba du
 
 > [!WARNING]
 > Ilgalaikio turto įrašas nebus panaikintas, jei operacijos buvo užregistruotos susijusioje knygoje arba jei naujai sukurtas ilgalaikis turtas yra įvedamas į žurnalo eilutę, bet neužregistruojamas. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

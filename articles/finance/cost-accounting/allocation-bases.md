@@ -429,3 +429,6 @@ Toliau pateikiamas išlaidų paskirstymo taisyklės pavyzdys, kai fiksuota elekt
 |    CC002    |     FI      | 3,075.00  | (3 075,00 ÷ 18 162,50) × suma  |
 |    CC003    |     AP      | 13,250.00 | (13 250,00 ÷ 18 162,50) × suma |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

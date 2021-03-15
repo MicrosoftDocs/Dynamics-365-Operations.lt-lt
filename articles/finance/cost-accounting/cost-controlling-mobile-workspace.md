@@ -144,3 +144,6 @@ Mobiliosios programos „Finance and Operations“ atsisiuntimas ir diegimas.
 11. Peržiūrėkite atskirų išlaidų elementų efektyvumą.
 12. Taip pat galite ieškoti konkrečių išlaidų elementų.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

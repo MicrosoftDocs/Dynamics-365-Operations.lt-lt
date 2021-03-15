@@ -85,3 +85,6 @@ Aplinkos atkūrimui:
 
 > [!Warning]
 > „Power Apps“ aplinkos yra saugojamos tik septynias dienas po pašalinimo. Privalote atkurti aplinką per septynių dienų laikotarpį.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

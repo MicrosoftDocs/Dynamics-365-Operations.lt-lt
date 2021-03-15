@@ -105,3 +105,6 @@ Norėdami į naują puslapį įtraukti vaizdo įrašų leistuvo modulį ir nusta
 [Teksto bloko modulis](add-content-rich-block.md)
 
 [Turinio bloko modulis](add-hero-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

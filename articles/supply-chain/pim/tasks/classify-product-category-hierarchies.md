@@ -42,3 +42,6 @@ ms.locfileid: "4987009"
 11. Lauke **Kategorija** įveskite arba pasirinkite reikšmę.
 12. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

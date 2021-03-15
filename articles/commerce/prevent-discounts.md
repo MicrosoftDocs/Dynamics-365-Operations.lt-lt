@@ -40,3 +40,6 @@ Yra įvairių priežasčių, dėl kurių mažmenininkai gali norėti nesuteikti 
 > Šie parametrai neapriboja kainos perrašymo operacijos, nes nustatoma bazinė kaina, kuri nėra laikoma nuolaida.
 
 [![Neleisti nuolaidų lauko](./media/prevent-discounts.png)](./media/prevent-discounts.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

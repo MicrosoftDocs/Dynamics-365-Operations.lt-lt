@@ -39,3 +39,6 @@ Nusidėvėjimo šablonai nustato turto nusidėvėjimo tipą ir dažnį.   Šis �
 7. Lauke **Laikotarpio dažnumas** pasirinkite parinktį.
 8. Uždarykite formą.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

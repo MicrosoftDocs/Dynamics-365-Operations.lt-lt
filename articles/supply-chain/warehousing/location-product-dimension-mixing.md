@@ -238,3 +238,5 @@ Jūs sukursite pirkimo užsakymas, turintį tris eilutes: dvi eilutės yra to pa
 
 > [!TIP]
 > Galite pakartoti šį scenarijų, bet šį kartą nustatykite *KROVINYS* **Vietos profiliai** „FastTab“ skirtuko **Leisti produkto dimensijos maišymą** **Dydį** - *Ne*, kad nebūtų galima maišyti nė vienos produkto dimensijos. Tokiu atveju, kai gausite pirkimo užsakymą, kiekvienas produkto variantas bus įtrauktas į naują vietą.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

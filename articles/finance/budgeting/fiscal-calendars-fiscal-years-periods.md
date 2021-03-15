@@ -63,3 +63,6 @@ Puslapyje DK kalendorius galite peržiūrėti informaciją apie jūsų organizac
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

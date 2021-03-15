@@ -43,3 +43,6 @@ Darbo laiko planavimo ypatybės naudojamos kategorizuoti darbo laiko intervalams
 3. Lauke Reikšmė surinkite reikšmę.
 4. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

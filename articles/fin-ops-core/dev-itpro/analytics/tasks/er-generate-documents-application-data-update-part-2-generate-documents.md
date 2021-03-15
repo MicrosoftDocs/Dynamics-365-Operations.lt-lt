@@ -58,3 +58,6 @@ Prieš pradėdami pakeisti šalies kontekstą DEMF įmonei iš DEU (Vokietija) �
 10. Uždarykite puslapį.
 11. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -239,3 +239,6 @@ Be to, toliau nurodytas kainodaros funkcijas palaiko **tik** kainodaros mechaniz
 Kaina yra vienas iš svarbiausių veiksnių, nuo kurių priklauso daugelio klientų pirkimo sprendimai, ir dauguma klientų prieš įsigydami palygina kainas įvairiose svetainėse. Siekdami užtikrinti, kad būtų pateiktos konkurencingos kainos, mažmenininkai atidžiai stebi savo konkurentus ir dažnai organizuoja akcijas. Siekiant padėti šiems mažmenininkams pritraukti klientų, labai svarbu, kad atliekant produktų paiešką, naudojantis naršymo funkcija, sąrašais ir produkto informacijos puslapiu būtų rodomos tiksliausios kainos.
 
 Naujesnėje „Commerce“ versijoje programėlės programavimo sąsaja (API)**„GetActivePrices“** grąžins kainas, į kurias įeina paprastos nuolaidos (pavyzdžiui, vienos eilutės nuolaidos, nepriklausančios nuo kitų krepšelio prekių). Tokiu būdu rodomos kainos beveik atitinka faktinę sumą, kurią klientai moka už prekes. Ši API apima visų tipų paprastas nuolaidas: pagal priskyrimą, pagal lojalumą, pagal katalogą ir pagal kanalą. Be to, API nurodomi pavadinimai ir pateikiama informacija apie taikomas nuolaidas, kad mažmenininkai galėtų pateikti išsamesnį kainos aprašymą ir sukurti skubos jausmą, jei nuolaidos galiojimo laikas greitai baigsis.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

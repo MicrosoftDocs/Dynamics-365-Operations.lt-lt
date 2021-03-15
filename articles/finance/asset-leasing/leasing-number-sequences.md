@@ -36,3 +36,6 @@ ms.locfileid: "5128960"
 4. Pasirinkite nuorodos **Nuomos ID** numeraciją. Ši numeracija bus naudojama kiekvienos nuomos unikaliam identifikatoriui generuoti.
 5. Pasirinkite nuorodos **Proceso ID** numeraciją. Ši numeracija bus naudojama kiekvieno indekso perkainojimo proceso unikaliam identifikatoriui generuoti.
 6. Rinkitės skaičių seką **Pasiūlymo pabaigos ID** nuorodai. Ši skaičių seka bus naudojama siekiant sukurti unikalų identifikatorių kiekvienam pabaigos pasiūlymui.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Pažangiosios gamybos planavimo grupės apibrėžtos grupuoti ir atskirti produk
 3. Lauke Prekės susiejimo raktas spustelėję išplečiamąjį mygtuką atidarykite peržvalgą.
 4. Sąraše spustelėkite saitą pasirinktoje eilutėje.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

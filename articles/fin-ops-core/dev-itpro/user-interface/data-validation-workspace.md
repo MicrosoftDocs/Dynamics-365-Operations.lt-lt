@@ -56,3 +56,6 @@ Prieš naudodami darbo sritį **Duomenų tikrinimo kontrolinis sąrašas** turit
 Norėdami grupuoti savo organizacijos duomenų tikrinimo užduotis į logines nuosavybės sritis, naudokite užduočių sritis. Pavyzdžiui, kaip užduočių sritis galima naudoti Mokėtinos sumos, Gautinos sumos arba Didžioji knyga.
 
 **Meniu elemento pavadinimas** susietas su užduoties darbo pastanga ir gali būti naudojamas norint pereiti iš darbo srities užduoties saito tiesiogiai į susietą puslapį. Pvz., duomenų tikrinimo užduotį, kuri skirta parengti mokėtinų sumų ataskaitą **Mokėtinų sumų skirstymas pagal terminus**, galima susieti su puslapiu **Mokėtinų sumų skirstymo pagal terminus ataskaita**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

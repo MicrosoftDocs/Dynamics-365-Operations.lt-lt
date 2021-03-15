@@ -59,3 +59,6 @@ Puslapyje **Darbo eigos parametrai** esančio lauko **Darbo eigos elementų skai
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>Kas yra patobulinta darbo eigos klaidos funkcija?
 Darbo eigos patobulinta klaidos funkcija, esanti versijoje 10.0.13, įtraukia klaidų kodus, kad būtų galima atskirti skirtingas darbo eigos klaidų klases. Klaidos pranešimai, apie kuriuos pranešama, dažniausiai bus panašūs su nedideliais skirtumais, kad jie būtų aiškesni.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Norėdami užregistruoti perėjimo derinimą, laikydamasis naujų apskaitos stan
 
 5. Norėdami peržiūrėti žurnalo įrašą, pasirinkite **Turto nuomos žurnalai**.
 6. Pasirinkite naują žurnalą ir pasirinkite **Registruoti**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

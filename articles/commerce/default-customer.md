@@ -112,3 +112,6 @@ Toliau pateiktame vaizde parodytas kliento konfigūravimo pavyzdys.
 [Kanalų apžvalga](channels-overview.md)
 
 [Kanalo sąrankos būtinieji komponentai](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Norėdami peržiūrėti funkciją vykdymo aplinkoje, atlikite atitinkamą proced
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 - [XML elementų ER formatais vykdymo atidėjimas](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

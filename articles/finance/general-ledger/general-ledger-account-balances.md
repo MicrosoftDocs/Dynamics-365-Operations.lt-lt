@@ -50,3 +50,6 @@ Išsamesnės informacijos žr. [Peržiūrėti finansines ataskaitas](view-financ
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

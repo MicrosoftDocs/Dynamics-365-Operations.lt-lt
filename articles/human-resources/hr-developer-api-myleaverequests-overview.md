@@ -64,3 +64,5 @@ Objektas MyLeaveRequests programoje „Microsoft Dynamics 365 Human Resources“
 
 - [Prašymo išeiti atostogų pateikimas darbo eigai](hr-developer-api-myleaverequests-submit.md)
 - [Autentifikavimas](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

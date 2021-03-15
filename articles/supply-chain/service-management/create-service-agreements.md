@@ -61,3 +61,6 @@ ms.locfileid: "4965976"
 [Sutarčių sudarymo ir pasirašymo apžvalga](service-agreements.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

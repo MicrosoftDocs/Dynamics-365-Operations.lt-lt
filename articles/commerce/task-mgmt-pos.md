@@ -63,3 +63,6 @@ Tolesnėje iliustracijoje pavaizduotas skirtukas **Užduočių sąrašai**.
 [Užduočių sąrašų kūrimas ir užduočių įtraukimas](task-mgmt-create-lists.md)
 
 [Užduočių sąrašų priskyrimas parduotuvėms arba darbuotojams](task-mgmt-assign-lists.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

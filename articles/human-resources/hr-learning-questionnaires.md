@@ -44,3 +44,6 @@ Tolesnėje lentelėje pateikiami saitai į informaciją apie pagrindines klausim
 | [Klausimyno sudarymas](hr-learning-design-questionnaires.md) | Šiame straipsnyje pateikiama informacija apie tai, kaip kurti klausimyną. Dizaino proceas apima išankstinių sąlygų, atsakymų ir klausimų nustatymą ir tuomet visų jų įtraukimą į klausimyną. |
 | [Klausimynų platinimas ir planavimas](hr-learning-distribute-questionnaires.md) | Šiame straipsnyje pateikiama informacija apie tai, kaip klausimyną platinti respondentams ir kaip klausimynus pildyti. |
 | [Klausimyno rezultatų peržiūra ir įvertinimas](hr-learning-evaluate-questionnaire-results.md) | Šiame straipsnyje pateikiama informacija apie tai, kaip peržiūrėti ir įvertinti užpildytų klausimynų rezultatus. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

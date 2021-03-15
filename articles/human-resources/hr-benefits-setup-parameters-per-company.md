@@ -42,3 +42,5 @@ Kiekvienai organizacijai, kuri siūlo priedus, turite sukonfigūruoti nustatymus
    | **Numatytojo el. pašto siuntėjo adresas** | El. pašto adresas naudojamas siunčiant patvirtinimo el. laišką. |
 
 3. Pasirinkite **Įrašyti**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

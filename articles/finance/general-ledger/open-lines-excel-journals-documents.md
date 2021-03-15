@@ -54,3 +54,6 @@ Norint į šabloną įtraukti finansinių dimensijų, reikalingi papildomi poky�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

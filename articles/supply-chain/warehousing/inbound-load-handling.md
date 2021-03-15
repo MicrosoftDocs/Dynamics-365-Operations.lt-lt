@@ -477,3 +477,6 @@ Pirmojo krovinio gavimo užduotis dabar baigta. Buvo sukurti du produkto gavimo 
     - **Kiekis** – įveskite reikšmę _7_, kuri reiškia likusį kiekį, kurį tiekėjas turi teisę pristatyti kaip bendro pirkimo užsakymo kiekio (12) dalį (kur 10 yra pradinis užsakymo kiekis, o 2 yra leidžiamas 20 procentų pristatymo pertekliaus kiekis). Atminkite, kad 5 vienetai jau buvo užregistruoti su pirmuoju kroviniu.
 
 Antrojo krovinio kiekis dabar atnaujintas į 7, ir pagal šį kieki gali būti atnaujintas produkto gavimas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

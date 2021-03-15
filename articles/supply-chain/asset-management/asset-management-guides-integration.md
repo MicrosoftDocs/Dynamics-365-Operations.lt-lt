@@ -113,3 +113,6 @@ Norėdami susieti vadovą su prižiūrimo turto kontrolinio sąrašo šablonu, a
 
 - [Dvigubo rašymo apžvalga](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview.md)
 - [Išteklių valdymo apžvalga](index.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

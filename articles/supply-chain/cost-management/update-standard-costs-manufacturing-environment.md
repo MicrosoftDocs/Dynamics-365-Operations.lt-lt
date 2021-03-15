@@ -47,3 +47,6 @@ Kiekvienu atveju reikia kruopščiai įvertinti, kaip atnaujinti standartines i�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

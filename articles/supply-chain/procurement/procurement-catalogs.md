@@ -75,3 +75,6 @@ Naujinimai publikuojami automatiškai arba neautomatiškai, atsižvelgiant į ka
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

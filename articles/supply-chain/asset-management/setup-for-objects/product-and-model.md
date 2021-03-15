@@ -59,3 +59,6 @@ ms.locfileid: "5022261"
 2. Stulpelyje **Turtas** pasirinkite turto saitą. Pasirodo puslapis **Detalės**.
 3. Pasirinkite **Redaguoti**.
 4. „FastTab“ skirtuko **Bendra** laukuose **Gamintojas** ir **Modelis** pasirinkite reikšmes.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

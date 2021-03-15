@@ -141,3 +141,6 @@ Negaliu pranešti klaidos kiekio gamybos užsakyme, nebent galite taip pat prane
 ## <a name="can-i-trace-the-serial-numbers-of-finished-goods-against-the-serial-numbers-of-consumed-goods"></a>Ar galiu sekti serijinius baigtų prekių numerius lyginant su suvartotų prekių serijiniais numeriais?
 
 Negalite sekti baigtų prekių serijinius numerius lyginant su medžiagos serijiniais numeriais, kurią suvartoja gamybos užsakymas tam, kad būtų užbaigtos prekės. Šis scenarijus šiuo metu nepalaikomas. Apėjimą galima atlikti sukuriant gamybos užsakymus 1 kiekiui.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

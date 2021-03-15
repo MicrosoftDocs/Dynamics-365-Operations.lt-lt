@@ -57,3 +57,6 @@ ms.locfileid: "4988607"
 4. Medyje patikrinkite „grupę, kuriai norite leisti registruoti šiam žurnalo pavadinimui.".
 5. Spustelėkite **Gerai**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

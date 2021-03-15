@@ -156,3 +156,6 @@ Kai registruojate PVM, pagrindinė sąskaita gaunama iš DK registravimo grupės
 | Gautinas PVM | Neigiamas              | Gautino mokesčio sąskaita | Neigiamas (kreditas)  |
 | Mokėtinas PVM    | Teigiama              | Mokėtino mokesčio sąskaita    | Neigiamas (kreditas)  |
 | Mokėtinas PVM    | Neigiamas              | Mokėtino mokesčio sąskaita    | Teigiama (debetas)  |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

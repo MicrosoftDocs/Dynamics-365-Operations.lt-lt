@@ -71,3 +71,6 @@ ms.locfileid: "5130273"
 33. Perjunkite dalies Išsilavinimas išplėtimą.
 34. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

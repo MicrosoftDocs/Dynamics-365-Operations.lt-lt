@@ -67,3 +67,6 @@ Prekių pirkimo kainos įrašai taip pat naudojami kaip nuorodos informacija. Pr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

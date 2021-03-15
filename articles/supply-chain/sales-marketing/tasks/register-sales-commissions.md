@@ -70,3 +70,6 @@ Atkreipkite dėmesį į savo pasirinktus komisinių proceso kliento ir prekės n
 3. Uždarykite puslapį.
 4. Pasirinkite **Kvitas**. Galite peržiūrėti komisinių sumų, kurios užregistruotos iš anksto numatytų komisinių išlaidų ir mokėtinų komisinių sąskaitose, kvitų operacijas.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

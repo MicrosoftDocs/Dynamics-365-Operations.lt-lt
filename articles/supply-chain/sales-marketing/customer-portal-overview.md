@@ -68,3 +68,6 @@ Kliento portalas pateikiamas kaip „Power Apps“ portalų šablonas. Jis prikl
 ![Kliento portalo priklausomybės](media/customer-portal-elements.png "Kliento portalo priklausomybes")
 
 Kliento portalas veikia kaip atspirties taškas organizacijoms, kurios nori naudotis „Power Apps“ portalais ir sukurti išorinę svetainę, naudojančią duomenis iš organizacijos „Supply Chain Management“ sistemos. Jis padeda organizacijoms sujungti dvigubo rašymo funkciją, „Supply Chain Management“ ir „Power Apps“ portalus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

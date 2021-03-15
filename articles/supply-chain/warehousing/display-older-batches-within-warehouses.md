@@ -39,3 +39,6 @@ Konfigūraciją **Senesnių paketų sandėlyje rodymas** galima naudoti mobilioj
 
 - Parinktyje **Sandėlio valdymas** > **Sąranka** > **Mobilusis įrenginys** > **Mobiliojo įrenginio meniu elementai** nustatykite meniu elemento parinktį **Naudoti esamą darbą** į **Taip** ir lauke **Paimti seniausią paketą** pasirinkite **Įspėti**. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

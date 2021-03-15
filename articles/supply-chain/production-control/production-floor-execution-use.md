@@ -169,3 +169,6 @@ Darbuotojai gali atidaryti dokumentą, pridėtą prie užduoties, pasirinkdami *
 1. Darbuotojas dirba su vadovu, kad sužinotų apie užduotį.
 
 Daugiau informacijos apie tai, kaip kurti, priskirti ir naudoti „HoloLens” vadovus, žr. [Mišriosios realybės vadovų teikimas vadovams gamybos metu](instruction-guides-in-production-overview.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ Planuodami ir valdydami savo mažmeninės prekybos asortimentus, apsvarstykite t
 - **Į asortimentus neįtrauktų produktų pardavimas ir grąžinimas** – ši galimybė mažmenininkams padeda efektyviai valdyti savo asortimentus – leidžiama prieinamus produktus apriboti iki produktų, kurie priklauso pagrindiniam parduotuvės produktų deriniui. Ši galimybė mažmenininkams taip pat padeda valdyti situacijas, kai produktas buvo klaidingai neįtrauktas į asortimentą arba kai produktas buvo grąžintas pasibaigus asortimento galiojimui.
 
 Jei kanalo duomenų bazėje nėra produktų duomenų, EKA realiuoju laiku kreipiasi į būstinę, kad gautų reikiamą informaciją ir kad produktą būtų galima parduoti, grąžinti ar įtraukti į kliento užsakymą. Taip gauta produktų informacija prieinama tik tos operacijos aprėptyje. Produktas į asortimento apibrėžtį neįtraukiamas. Todėl vėliau realiuoju laiku kreiptis į būstinę reikės pagal poreikį.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

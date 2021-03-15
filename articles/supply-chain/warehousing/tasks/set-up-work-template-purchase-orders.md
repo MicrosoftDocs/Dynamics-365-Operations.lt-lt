@@ -60,3 +60,6 @@ ms.locfileid: "4976868"
 6. Lauke **Darbo klasės ID** įveskite reikšmę. Paėmimo ir padėjimo instrukcijos yra rinkinys. Kiekvienas paėmimo / padėjimo rinkinys turi būti tos pačios darbo klasės. Naudokite tą pačią darbo klasę, kurią nurodėte paėmimo instrukcijoje.  
 7. Pasirinkite **Įrašyti**. Atkreipkite dėmesį, kad žymimasis langelis **Galioja** dabar yra pažymėtas.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

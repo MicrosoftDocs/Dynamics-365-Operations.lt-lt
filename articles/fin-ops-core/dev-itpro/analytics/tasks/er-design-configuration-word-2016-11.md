@@ -164,3 +164,6 @@ Norėdami paleisti redaguojamo formato juodraščio versiją, turite ją padaryt
 
 - [Naujos ER konfigūracijos, skirtos ataskaitų generavimui „Word“ formatu, kūrimas](../er-design-configuration-word.md)
 - [Vaizdų ir figūrų įterpimas generuojamuose dokumentuose naudojant ER](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

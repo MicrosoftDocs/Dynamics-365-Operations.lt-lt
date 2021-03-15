@@ -58,3 +58,6 @@ Nustatykite tiekėjų mokėjimų mokesčius. Šioje užduotyje naudojama demonst
     * Tai – mokesčio valiuta. Mokėjimo valiuta naudojama apibrėžti, kada mokesčių taisyklė turėtų būti taikoma pagal mokėjimo valiutą. Pvz., bankas gali taikyti mokestį, kai mokėjimas atliekamas eurais, tačiau visiems kitiems mokėjimams mokestis netaikomas.  
 18. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

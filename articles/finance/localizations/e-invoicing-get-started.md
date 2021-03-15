@@ -235,3 +235,6 @@ Priklausomai nuo šalies ar regiono, elektroninės sąskaitos funkcijai gali rei
 - [Darbo su Meksikos elektroninių SF išrašymo priedu pradžia](e-invoicing-mex-get-started.md)
 - [Darbo su Italijos elektroninių SF išrašymo priedu pradžia](e-invoicing-ita-get-started.md)
 - [Kliento elektroninės sąskaitos Egipte](emea-egy-e-invoices.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

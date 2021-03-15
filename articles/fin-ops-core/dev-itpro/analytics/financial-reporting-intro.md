@@ -96,3 +96,6 @@ Puslapyje **Finansinių ataskaitų nustatymas** yra du skyriai, kurie nustato du
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 [Finansinių ataskaitų generavimas](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

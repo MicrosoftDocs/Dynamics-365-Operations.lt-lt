@@ -123,3 +123,6 @@ Tolesniais duomenimis pildomi „Power BI“ turinio **Kaštų apskaitos analiz�
 | Finansiniai kalendoriai                   | Kalendorius, kalendoriaus aprašymas                                                                                       |
 | Finansiniai metai                       | Kalendoriniai metai                                                                                                        |
 | Ataskaitiniai laikotarpiai                     | Kalendorinių metų laikotarpis                                                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

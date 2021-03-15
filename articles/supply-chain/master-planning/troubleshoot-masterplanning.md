@@ -88,3 +88,6 @@ Vienas būdas skirtas pagerinti vykdymą su inkorporuotu pagrindinio planavimo v
 
 > [!NOTE]
 > Toks bus ribojimas sprogimų laikotarpiui, kurie įvyko per šį pagrindinį planavimą ir vienos dienos metu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

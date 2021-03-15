@@ -52,3 +52,6 @@ Jei dėl kokių nors priežasčių reikia koreguoti jūsų variacijas, atlikite 
 
 ## <a name="next-step"></a>Kitas veiksmas
 [Variacijos skatinimas ir eksperimento užbaigimas](experimentation-review-complete.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

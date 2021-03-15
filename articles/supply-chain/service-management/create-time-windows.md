@@ -39,3 +39,6 @@ Galite naudoti laiko langus, kad optimizuotumėte aptarnavimo užsakymo eiluči�
 ## <a name="related-topics"></a>Susijusios temos
 
 [Laiko langai](time-windows.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

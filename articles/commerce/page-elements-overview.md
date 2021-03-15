@@ -63,3 +63,6 @@ Toliau pateikiamoje lentelėje pateikiama terminų, kuriuos reikia žinoti, kai 
 [Šablonų ir maketų apžvalga](templates-layouts-overview.md)
 
 [Svetainės naršymo tinkinimas](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

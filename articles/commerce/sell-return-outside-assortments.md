@@ -45,3 +45,6 @@ Tokios dažnos situacijos mažmenininkams pateikiamos sprendime „Commerce“. 
 + Produktus paimti dabartinėje parduotuvėje arba kitoje parduotuvėje.
 + Užsakymą atšaukti dabartinėje parduotuvėje arba kitoje parduotuvėje.
 + Grąžinti užsakymą su kvitu ar be jo dabartinėje parduotuvėje arba kitoje parduotuvėje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

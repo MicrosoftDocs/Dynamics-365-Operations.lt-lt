@@ -86,3 +86,6 @@ Mobiliosios programos „Finance and Operations“ atsisiuntimas ir diegimas.
 7.  Pasirinkite **Priedai**, kad peržiūrėtumėte prie sąskaitos faktūros pridėtas pastabas ar failus.
 8.  Puslapyje **Sąskaitos faktūros informacija** pasirinkite atitinkamą darbo eigos veiksmą, kad užbaigtumėte savo peržiūros procesą.
 9.  Pasirinkite **Atlikta**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

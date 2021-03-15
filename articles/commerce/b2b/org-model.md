@@ -62,3 +62,6 @@ Kai administratorius įtraukia daugiau naudotojų į verslo partnerio organizaci
 [Konfigūruoti kliento sąskaitos mokėjimo metodą B2B el. komercijos saitams](payment-method.md)
 
 [Nustatykite produkto kiekio apribojimus B2B el. komercijos saitams](quantity-limits.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

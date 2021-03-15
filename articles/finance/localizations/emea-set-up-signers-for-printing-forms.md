@@ -164,3 +164,6 @@ Funkcija Tarnautojai nurodo numatytuosius iš anksto nustatytus pasirašančiuos
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

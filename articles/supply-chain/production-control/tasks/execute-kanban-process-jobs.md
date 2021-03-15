@@ -56,3 +56,6 @@ ms.locfileid: "4994159"
 6. Lauke Tinkamas kiekis įveskite skaičių.
 7. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Prekės standartinių išlaidų duomenys gali būti kopijuojami į kitą įkaino
 
 [Pagamintų prekių standartinių savikainų paruošimas priežiūrai](update-standard-costs-manufacturing-environment.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

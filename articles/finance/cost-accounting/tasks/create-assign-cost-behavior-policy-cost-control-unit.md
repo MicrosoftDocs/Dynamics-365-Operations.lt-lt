@@ -85,3 +85,6 @@ Išlaidų taisyklė yra išlaidų klasifikavimas kaip fiksuotų arba kintamų. K
 15. Lauke Savikainos kontrolės įtaisas įveskite arba pasirinkite reikšmę.
 16. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

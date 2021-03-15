@@ -42,3 +42,6 @@ Galite nustatyti taisykles, kad atskirtumėte užduotis, kurias turi atlikti ski
 
 > [!IMPORTANT] 
 > Sukuriant taisyklę, pareigų atskyrimo taisyklių laikymasis nėra patvirtintas. Galite sukurti taisyklę, kuri sukurs esamų vaidmenų nesuderinamumą. Esami vartotojo vaidmens priskyrimai gali būti nesuderinami su nauja taisykle. Sukūrę arba modifikuodami taisyklę, turite patikrinti atitikimą. Daugiau informacijos žr. [Pareigų atskyrimo konfliktų nustatymas ir sprendimas](identify-resolve-conflicts-segregation-duties.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

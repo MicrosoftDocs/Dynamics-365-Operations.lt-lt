@@ -75,3 +75,6 @@ Ankstesniame pavyzdyje buvo rodomi puslapio viršuje esančios veiksmų srities 
 ## <a name="action-search-vs-navigation-search"></a>Veiksmo ieška ir naršymo ieška
 
 Veiksmo ieška skirta rasti ir vykdyti veiksmus puslapyje, bet yra atskiras ieškos mechanizmas, skirtas ieškoti ir naršyti puslapius. Daugiau informacijos apie šią funkciją ieškokite straipsnyje [Naršymo ieška](navigation-search.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

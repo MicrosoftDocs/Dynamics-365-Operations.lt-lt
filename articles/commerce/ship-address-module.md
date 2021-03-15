@@ -71,3 +71,6 @@ Siuntimo adreso modulis gali būti įtrauktas tik į galutinį modulį. Dėl iš
 [Išsamios užsakymo informacijos modulis](order-confirmation-module.md)
 
 [Dovanų kortelės modulis](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

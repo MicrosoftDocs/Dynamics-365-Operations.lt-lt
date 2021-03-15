@@ -33,3 +33,6 @@ ms.locfileid: "4964621"
 - [Sąskaitų faktūrų ir važtaraščių numeravimas](emea-invoices-packing-slips-numbering.md)
 - [PVM išrašo informacija](emea-ltu-vat-statement-details.md)
 - [i.SAF ataskaitos](emea-ltu-isaf.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

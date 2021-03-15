@@ -63,3 +63,6 @@ Komercijos vertinimo aplinkos parengimui, žr. [Komercijos vertinimo aplinkos nu
 [Konfigūruokite pasirinktas savybes „Dynamics 365 Commerce“ vertinamoje aplinkoje](cpe-optional-features.md)
 
 [„Dynamics 365 Commerce“ vertinimo aplinkos DUK](cpe-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

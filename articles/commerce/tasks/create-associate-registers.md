@@ -43,3 +43,6 @@ ms.locfileid: "4964900"
     * EFT EKA registro numeris naudojamas siekiant informuoti mokėjimo procesorių apie tai, kuris mokėjimo terminalas siunčia autorizavimo užklausas. Ši reikšmė dažnai yra vadinama Terminalo ID arba TID. Paprastai TID galima rasti ant mokėjimo įrenginio lipduko.  
 9. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

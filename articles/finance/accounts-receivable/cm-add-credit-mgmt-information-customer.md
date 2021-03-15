@@ -101,3 +101,6 @@ Galite kurti draudimo polisus ir garantijas puslapyje **Visi klientai** (**Gauti
     Šiuo atveju faktinis kredito limitas yra 125 000 (= A + \[B × C\]).
     
     Tačiau, jei pažymėsite žymės langelį **įtrauktas į išlaikymą**, vertė **Atnaujinti kredito limitą**, lygi 50 000 (=50,00 procentų vertės 100 000), pašalinama, o išlaikymo vertė yra 75 000 (= A + \[B × C\] – B).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

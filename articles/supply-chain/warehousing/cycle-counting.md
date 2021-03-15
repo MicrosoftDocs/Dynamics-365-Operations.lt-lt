@@ -139,3 +139,6 @@ Koreguoti apskaičiuotos reikšmės skirtumus ir patvirtinti apskaičiuotą reik
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

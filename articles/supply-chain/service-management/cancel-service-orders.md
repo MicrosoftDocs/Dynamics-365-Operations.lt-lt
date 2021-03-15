@@ -77,3 +77,6 @@ Pasirinkti aptarnavimo užsakymai yra arba atšaukti, arba jų eigos būsena **A
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

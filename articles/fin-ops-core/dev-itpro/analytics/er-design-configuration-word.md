@@ -72,3 +72,6 @@ Kai vykdote sukonfigūruotą ER formatą, pridėtas „Word” šablonas naudoja
 
 - [ER konfigūracijų su „Excel” šablonais, skirtų ataskaitų „Word” formatu generavimui, pakartotinis naudojimas](./tasks/er-design-configuration-word-2016-11.md)
 - [Vaizdų ir figūrų įterpimas generuojamuose dokumentuose naudojant ER](electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

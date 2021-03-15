@@ -151,3 +151,6 @@ Jei produkto variantas jau buvo išleistas bendrovėje A ir bandote jį išleist
 Mygtukas **Naujas** puslapyje **Išleisto produkto variantai** sukuria variantą ir išleidžia jį į bendrovės kontekstą. Jei variantas jau buvo sukurtas, negalite naudoti **Naujas** mygtiko, kad išleistumėte jį į kitą bendrovę.
 
 Norėdami ištaisyti šią problemą, atverkite **Pagrindinio produkto** puslapį ir rinkitės **Išleisti produktą** norėdami išleisti esantį variantą norimoje bendrovėje.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

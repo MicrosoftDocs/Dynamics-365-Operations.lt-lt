@@ -82,3 +82,6 @@ ms.locfileid: "4994695"
 23. Pagal numatytuosius parametrus uždarymo metų pabaigoje procesas vykdomas paketiniu režimu. Geriausia ilgai trunkančius procesus vykdyti paketiniu režimu. Paprastai tai yra vienas iš tokių procesų, todėl įprasta naudoti paketinį režimą.  
 24. Spustelėkite **Gerai**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -174,3 +174,6 @@ Naudodami galimo tiekėjo registravimo užklausos veiksmą **Naikinti**, galite 
 |         Aprobuota         |                                                                               Tiekėjo užklausa patvirtinama.                                                                               |                                                                                                   Galimo tiekėjo registravimo užklausa, tiekėjo registravimo vedlyje įvesti duomenys ir tiekėjo užklausa panaikinami.                                                                                                    |
 |         Atmestas         |                                                                               Tiekėjo užklausa atmetama.                                                                               |                                                                                                   Galimo tiekėjo registravimo užklausa, tiekėjo registravimo vedlyje įvesti duomenys ir tiekėjo užklausa panaikinami.                                                                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

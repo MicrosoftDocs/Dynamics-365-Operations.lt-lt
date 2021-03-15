@@ -81,3 +81,6 @@ Norėdami greitai ir lengvai atšaukti sustabdytą operaciją, nuskaitykite ant 
 ### <a name="void-a-suspended-transaction"></a>Anuliuoti sustabdytą operaciją
 
 Galite anuliuoti sustabdytas operacijas atšaukdami operaciją, o paskui atlikdami operaciją **Anuliuoti operaciją**, arba pasirinkdami operaciją sąraše **Atšaukti operaciją** ir programos juostoje pasirinkdami **Anuliuoti**. Taip pat galima sukonfigūruoti parduotuvę, kad vartotojai būtų raginami anuliuoti sustabdytas operacijas, kai jie baigia savo pamainą.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

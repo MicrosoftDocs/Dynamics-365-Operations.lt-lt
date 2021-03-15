@@ -67,3 +67,6 @@ ms.locfileid: "4979293"
 13. Pasirinkite **Operacijos**.
 14. Pasirinkite savo sukurtą sąskaitą faktūrą. SF registro kaupimas buvo atšauktas ir užregistruotas į atitinkamą išlaidų sąskaitą.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

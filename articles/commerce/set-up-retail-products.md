@@ -39,3 +39,6 @@ Prieš pradėdami perparduoti produktus savo prekybos kanaluose, turite juos suk
 4. **Įtraukite produktų į asortimentą.** Asortimentas yra produktų, kuriuos parduodate savo kanalais, rinkinys. Galite apibrėžti vieną ar daugiau asortimentų ir kiekvieną produktą priskirti vienam ar daugiau asortimentų. Norėdami priskirti produktus kanalams, tiems kanalams priskirkite asortimentus. Kurdami asortimentą galite įtraukti produktų, kurie dar nebuvo išleisti juridiniam subjektui. Tačiau privalote tuos produktus išleisti juridiniam subjektui prieš tai, kai jie tampa prieinami kanalams.
 5. **Įtraukite produktus į naršymo hierarchijas.** Prieš tai, kai produktus galima naršyti internete arba elektroniniame kasos aparate (EKA), jie turi būti suklasifikuoti „Commerce” naršymo hierarchijoje.
 6. **Įtraukite produktus į katalogus.** Nors šis veiksmas nebūtinas naudojant EKA, internetinėse parduotuvėse reikalaujama įtraukti produktus į bent vieną katalogą.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

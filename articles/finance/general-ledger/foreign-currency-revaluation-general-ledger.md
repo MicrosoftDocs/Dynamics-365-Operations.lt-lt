@@ -112,3 +112,6 @@ Galite atšaukti perkainojimo, įvykdyto neatsižvelgiant į datų tvarką, rezu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

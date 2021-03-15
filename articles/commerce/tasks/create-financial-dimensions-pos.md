@@ -47,3 +47,6 @@ ms.locfileid: "4964776"
 17. Sąraše raskite ir pasirinkite naujinamo registro dimensijos reikšmę.
 18. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

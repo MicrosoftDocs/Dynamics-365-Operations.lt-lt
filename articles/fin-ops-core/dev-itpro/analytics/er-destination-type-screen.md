@@ -38,3 +38,6 @@ Jei parinktį **Įjungta** nustatysite į **Taip**, sukuriama išeigos peržiūr
 
 - [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)
 - [Elektroninių ataskaitų (ER) paskirties vietos](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -225,3 +225,6 @@ Jei reikia, galite atmesti kandidatą po jo pasamdymo. Pavyzdžiui, kandidatas g
 [Konfigūruokite „Dataverse“ virtualias lenteles](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Darbo jėgos organizavimas](hr-personnel-departments-jobs-positions.md)<br>
 [Užduoties komponentų nustatymas](hr-personnel-jobs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

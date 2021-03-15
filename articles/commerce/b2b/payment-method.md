@@ -76,3 +76,6 @@ Norėdami patvirtinti, kad kliento sąskaitos sumokėjimo metodas buvo įjungtas
 [Nustatykite produkto kiekio apribojimus B2B el. komercijos saitams](quantity-limits.md)
 
 [SDK ir Modulio biliotekos naujinimai](../e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

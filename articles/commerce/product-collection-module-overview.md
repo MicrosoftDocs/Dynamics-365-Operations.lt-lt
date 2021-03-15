@@ -112,3 +112,6 @@ Norėdami įtraukti produktų rinkinio modulį į kategorijos puslapį, atlikite
 [Produktų rekomendacijų apžvalga](product-recommendations.md)
 
 [Greito rodinio modulis](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

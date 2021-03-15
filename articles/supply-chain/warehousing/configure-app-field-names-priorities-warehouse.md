@@ -143,3 +143,6 @@ Likę metaduomenys, pvz., vieta, užduočių puslapyje rodomi nebus, bet bus rod
 --------
 
 [Sandėliavimo programos diegimo ir konfigūravimo apžvalga](install-configure-warehousing-app.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ ms.locfileid: "5021609"
 
 > [!NOTE]
 > Jei, kuriant turto, kuriam taikoma tiekėjo garantija, darbo užsakymą, yra numatyta darbo užsakymo garantijos laikotarpio pradžios data, gaunate pranešimą apie garantijos sutartį. Tada, jei reikia, darbo užsakymą galite atšaukti.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

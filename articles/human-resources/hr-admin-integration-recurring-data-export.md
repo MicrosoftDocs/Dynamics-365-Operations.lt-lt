@@ -205,3 +205,6 @@ Toliau pateiktoje iliustracijoje parodyta, kaip atrodo įrankis „Logic Apps De
 Šiose mokymo priemonės jūs sužinojote, kaip naudoti loginę programą eksportuoti duomenis iš „Human Resources“ ir įrašyti eksportuotus duomenis į „OneDrive“ verslo aplanką. Galite modifikuoti šių mokymo priemonių veiksmus, reikalingus patenkinti jūsų verslo poreikius.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

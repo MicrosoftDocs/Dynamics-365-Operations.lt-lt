@@ -53,3 +53,6 @@ Norite sukurti 10 dienų aptarnavimo intervalą.
 ## <a name="related-topics"></a>Susijusios temos
 
 [Aptarnavimo intervalai ](service-intervals.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

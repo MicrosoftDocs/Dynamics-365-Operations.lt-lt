@@ -135,3 +135,6 @@ Fragmentą taip pat galite redaguoti pasirinkę jį puslapyje, šablone arba pir
 [Darbas su esamais maketais](work-with-layouts.md)
 
 [Darbas su publikavimo grupėmis](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

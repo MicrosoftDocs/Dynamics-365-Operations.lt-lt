@@ -202,3 +202,6 @@ Daugiau informacijos apie tai, kaip konfigūruoti el. laiškus „Dynamics 365 C
 [El. paštu siunčiamų kvitų nustatymas](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts)
 
 [Kvitų iš „Modern POS“ siuntimas el. paštu](email-receipts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

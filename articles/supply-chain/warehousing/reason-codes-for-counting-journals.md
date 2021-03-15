@@ -143,3 +143,6 @@ Prieš patvirtinant skaičiavimą, vartotojas gali keisti priežasties kodą, su
 - Numatytasis skaičiavimo priežasties kodas
 - Rodyti skaičiavimo priežasties kodą
 - Redaguoti skaičiavimo priežasties kodą
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

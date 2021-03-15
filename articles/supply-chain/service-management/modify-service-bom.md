@@ -71,3 +71,6 @@ Aptarnavimo KS galite įrašyti elementų retrospektyvą. Kiekvieną kartą, kai
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -206,3 +206,6 @@ Prieš nustatant sistemos nukreiptą klasterio paėmimą, turite sukurti tinkam�
 1. Paskutinis mobiliajame įrenginyje atliktinas veiksmas yra **Padėti** klasterį į galutinę vietą. Pasirinkite **Gerai**
     - Patvirtinus padėjimo operaciją, klasteris uždaromas ir skaidomas, atsižvelgiant į vertę, kurią nustatėte klasterio šablono lauke **Skaidyti klasterį**. Darbo ID taip pat yra uždaromi.
 1. Mobiliajame įrenginyje rodomas pranešimas „Klasteris baigtas“.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

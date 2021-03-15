@@ -161,3 +161,6 @@ Norėdami įrašyti „Redis“ talpyklos ryšio eilutės slaptąjį raktą, atl
 > Atnaujindami vieną iš ryšio eilučių, taip pat turite atnaujinti slaptųjų raktų reikšmes.
 
 Dabar baigėte rengti reikiamus „Azure“ išteklius. Kitas veiksmas – [portale „Microsoft Dynamics Lifecycle Services“ (LCS) įdiegti IoT analizės papildinį](iot-lcs-setup.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

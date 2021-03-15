@@ -82,3 +82,6 @@ Kurį metodą benaudotumėte, duomenų naujinimo scenarijus taip pat taikys nauj
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Yra daug tipų nuolaidų:
 - **Siuntimo nuolaida** – Nuolaida, kuri yra taikoma, kai perlaidos bendra suma yra didesnė nei nurodyta suma ir konkretus pristatymo būdas (pavyzdžiui, dviejų dienų siuntimas ar siuntimas per naktį) naudojamas užsakyme.
 
 Tiek kainų korekcijas, tiek nuolaidas galima susieti su kainų grupėmis. Kainų grupės gali būti susietos su kanalais, katalogais, priskyrimais ir lojalumo programomis.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

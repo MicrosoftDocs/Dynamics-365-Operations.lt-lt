@@ -42,3 +42,6 @@ ms.locfileid: "5021459"
 12. Spustelėkite **Registruoti.**
 13. Spustelėkite **Kvitas**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

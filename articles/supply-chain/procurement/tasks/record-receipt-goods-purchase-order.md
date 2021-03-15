@@ -48,3 +48,6 @@ ms.locfileid: "5022663"
 6. Nustatykite **Kiekis** lauke „4“. Čia galite patys nurodyti kiekvienos užsakymo eilutės gaunamą kiekį.  
 7. Pasirinkite **Gerai**. Dabar pirkimo užsakyme prekės užregistruotos kaip gautos, o tai atsispindi sukurtame produktų gavimo kvitų žurnale. Galite naudoti veiksmą Produkto gavimo kvitas, norėdami peržiūrėti žurnalus, sukurtus su pirkimo užsakymu, ir sužinoti, kas ir kada buvo gauta.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

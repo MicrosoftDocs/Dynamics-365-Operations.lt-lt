@@ -118,3 +118,6 @@ Naudojant šį šabloną sinchronizuojami duomenys tarp „Finance and Operation
 
 
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

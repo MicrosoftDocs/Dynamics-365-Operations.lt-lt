@@ -45,3 +45,6 @@ Samdytojas sukurūrė masinės samdos projektą ir sugeneravo pareigas, kitas ž
 8. Sąraše atžymėkite pasirinktą eilutę.
     * Pasirinkite kitas projekto pareigas ir toliau veskite kiekvieno jūsų samdomo darbuotojo informaciją.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

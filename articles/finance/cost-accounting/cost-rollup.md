@@ -300,3 +300,6 @@ Aiškiai atskiriant **Išlaidų paskirstymo** ir **Išlaidų sumavimo strategija
 -  [Savikainos elemento dimensijos](cost-elements.md)
 -  [Dimensijų hierarchija](dimension-hierarchy.md)
 -  [Pridėtinių išlaidų skaičiavimas](overhead-calculation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

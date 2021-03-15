@@ -49,3 +49,6 @@ Nustatę tęstinumo programą, kaip aprašyta aukščiau, klientui galite sukurt
 - **Išplėsti tęstinumo eilutes** (jei reikia) – padidinkite tęstinumo įvykio kartojimo kartų skaičių. Tada siuntų kartojimą galima išplėsti už skambučių centro parametrų lauke **Tęstinumo kartojimo slenkstis** nustatytos ribos.
 - **Atlikti tęstinumo atnaujinimą** (jei reikia) – sinchronizuokite tęstinumo programos ir pirminių tęstinumo pardavimo užsakymų pakeitimus.
 - **Uždaryti pirmines tęstinumo eilutes ir užsakymus** – uždarykite tęstinumo užsakymus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

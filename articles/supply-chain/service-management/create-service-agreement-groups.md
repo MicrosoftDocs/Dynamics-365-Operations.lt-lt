@@ -42,3 +42,6 @@ Aptarnavimo sutarčių grupės yra naudingos aptarnavimo sutartims rūšiuoti ir
 ## <a name="related-topics"></a>Susijusios temos
 
 [Aptarnavimo sutarties apžvalga](service-agreement-groups.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Norėdami naudoti konkrečią [puslapio padėtį](electronic-reporting-destinati
 
 - [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)
 - [Elektroninių ataskaitų (ER) paskirties vietos](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

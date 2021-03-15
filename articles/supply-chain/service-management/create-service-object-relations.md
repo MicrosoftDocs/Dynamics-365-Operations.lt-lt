@@ -71,3 +71,6 @@ Norėdami sukurti aptarnavimo objekto ryšį aptarnavimo užsakymui, atlikite š
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

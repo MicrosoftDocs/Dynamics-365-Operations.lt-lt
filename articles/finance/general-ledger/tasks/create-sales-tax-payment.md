@@ -36,3 +36,6 @@ PVM sudengimo ir registravimo užduoties procedūra PVM balansus sudengia PVM s�
 5. Lauke **Operacijos data** įveskite datą.
 6. Spustelėkite **Gerai**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

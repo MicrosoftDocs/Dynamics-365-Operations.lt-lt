@@ -123,3 +123,6 @@ Darbo eigos **Kredito limito koregavimai** gali būti naudojamos norint siųsti 
 
 > [!NOTE]
 > Sukūrę darbo eigą **Kredito limito koregavimai**, galite nustatyti ją taip, kad koregavimai būtų registruojami automatiškai po to, kai eilutės patvirtinamos. Tiesiog užduotį **Automatiškai registruoti žurnalą** įtraukite į darbo eigą.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ ms.locfileid: "5016407"
 5. Spustelėkite GERAI.
     * Dabar pirkimo užsakymą galima baigti ir apdoroti kaip bet kurį kitą užsakymą. Nėra jokių specialių charakteristikų, susijusių su tuo, kaip tai daroma. SF bus apskaityta apmokėtina tiekėjo kodo, sukurto kartu su užsakymu, operacija ir tada mokėjimas bus apdorotas.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

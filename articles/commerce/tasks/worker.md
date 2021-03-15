@@ -56,3 +56,6 @@ ms.locfileid: "5003608"
 6. Lauke Numatytoji grupė įveskite arba pasirinkite reikšmę.
 7. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

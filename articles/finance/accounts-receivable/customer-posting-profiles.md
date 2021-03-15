@@ -139,3 +139,6 @@ Norėdami nustatyti savo registravimo profilį, nurodykite toliau pateiktas reik
 
 Daugiau informacijos žr. [Kliento mokėjimų apžvalga](../cash-bank-management/tasks/customer-payment-overview.md).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

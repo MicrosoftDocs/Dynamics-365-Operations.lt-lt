@@ -124,3 +124,6 @@ Išankstinė SF yra tokia sąskaita, kuri parengiama kaip faktinių sąskaitos s
 #### <a name="blogs"></a>Tinklaraščiai
 
 Galite rasti užregistruotą pardavimo proceso apžvalgą [Kaip pardavimai veikia „Dynamics 365 for Finance and Operations“](https://financefunction.tech/2018/05/15/how-sales-work-in-dynamics-365-for-finance-and-operations).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

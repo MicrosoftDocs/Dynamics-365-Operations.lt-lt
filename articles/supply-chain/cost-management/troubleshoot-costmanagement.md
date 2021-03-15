@@ -81,3 +81,6 @@ Kol „Microsoft” išleis problemos sprendimą, apsvarstykite galimybę naudot
 - Venkite naudoti dešimtaines standartinėje kainoje. Bandykite apibrėžti standartinę savikainą, kad laukas **Kainos kiekis** nustatytas *1*. Jei reikia nurodyti **Kainos kiekis** vertę, didesnę nei *1*, pabandykite sumažinti dešimtainių skaičių vieneto standartinėje savikainoje. (Būtų geriausia, jei būtų mažiau nei du dešimtainiai skaičiai.) Pavyzdžiui, venkite apibrėžti standartinės savikainos nustatymus, pavyzdžiui,  **Kaina** = *10* ir **Kainos kiekis** = *3*, nes jie sukurs 3,333333 vieneto standartinę kainą (kai dešimtainio skaičiaus vertė kartojasi).
 - Daugelyje dokumentuose venkite naudoti kelias eilutes, turinčias tą pačią produkto kombinaciją ir finansines atsargų dimensijas.
 - Sumažinkite paralelizavimo laipsnį. (Šiuo atveju jūsų sistema gali tapti spartesnė, nes atsiranda mažiau atnaujinimo nesuderinamumų ir atsiranda pakartotinių bandymų.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

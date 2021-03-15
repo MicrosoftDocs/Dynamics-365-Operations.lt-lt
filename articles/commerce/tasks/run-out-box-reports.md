@@ -63,3 +63,6 @@ Kuriant šį įrašą naudojama demonstracinių duomenų įmonė yra USRT. Šis 
 5. Spustelėkite Eksportuoti.
 6. Spustelėkite PDF.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

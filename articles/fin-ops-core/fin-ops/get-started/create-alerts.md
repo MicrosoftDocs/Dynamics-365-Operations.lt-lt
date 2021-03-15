@@ -102,3 +102,6 @@ Negalite kurti įspėjimų kai kuriuose formų antrinių duomenų šaltiniuose. 
     ```
 2. Sukurkite įspėjimą iš formos SysTableBrowser.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

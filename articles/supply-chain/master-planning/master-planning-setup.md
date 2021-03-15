@@ -226,3 +226,6 @@ gamybos laikas + neigiamos dienos + esama data – poreikio data
 Sistema naudoja tik šiose laiko ribose suplanuotus tiekimo užsakymus, o kitu atveju ji sukuria naują planuojamą užsakymą. Dinaminių neigiamų dienų privalumas yra tai, kad bus įtrauktas atskiro produkto gamybos laikas, siekiant pakartotinai naudoti esamus užsakymus ir nekurti naujų užsakymų, kurie bus įvykdyti vėliau tą pačią dieną, užfiksuotas atidėjimas dėl gamybos laiko. 
 
 Norėdami gauti daugiau informacijos žr. [Neigiamos dienos ir dinaminės neigiamos dienos](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

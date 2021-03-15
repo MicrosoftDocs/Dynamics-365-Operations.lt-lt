@@ -162,3 +162,6 @@ Dabar jūsų CDN turėtų būti tinkamai sukonfigūruotas, kad jį būtų galima
 [„Commerce” aplinkos kelių B2Ck nuomotojų konfigūravimas](configure-multi-B2C-tenants.md)
 
 [Parduotuvės nustatymo pagal vietą įgalinimas](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

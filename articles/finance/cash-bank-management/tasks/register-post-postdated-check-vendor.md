@@ -55,3 +55,6 @@ Nustatykite vėlesnius čekius grynųjų pinigų ir banko valdymo puslapyje.
 16. Uždarykite puslapį.
 17. Spustelėkite skirtuką Vėlesni čekiai.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

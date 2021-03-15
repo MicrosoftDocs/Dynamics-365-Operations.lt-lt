@@ -41,3 +41,6 @@ Atnaujinę turto nusidėvėjimo konvenciją, galite vykdyti kiekvieno turto vien
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

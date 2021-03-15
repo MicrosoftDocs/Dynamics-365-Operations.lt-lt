@@ -52,3 +52,6 @@ Kai kuriate tiesioginį pristatymą, prekės, kurias parduodate, niekada fizišk
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

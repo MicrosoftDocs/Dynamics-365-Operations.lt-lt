@@ -61,3 +61,6 @@ Turto valdyme galite apskaičiuoti turto gedimo registracijų kaštus, kad perž
     ![1 pav.](media/05-controlling-and-reporting.png)
 
 Informacijos, kaip nustatyti gedimus, žr. temoje [Gedimų valdymas](../setup-for-work-orders/fault-management.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

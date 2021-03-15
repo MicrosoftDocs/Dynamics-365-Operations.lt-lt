@@ -68,3 +68,6 @@ ms.locfileid: "4976918"
 5. Pasirinkite rodyklę, kuri rodo į dešinę.
 6. Pasirinkite **Įrašyti**.
 7. Uždarykite puslapį.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

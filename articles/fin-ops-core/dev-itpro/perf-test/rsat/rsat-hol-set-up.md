@@ -803,3 +803,6 @@ Viena iš pagrindinių RSAT funkcijų – testavimo atvejų sujungimas (t. y. te
 2. Patikrinkite, ar abiejų testavimo atvejų rezultatai teigiami.
 
     ![Rezultatų laukas nustatytas kaip Sėkmingas abiejų testavimo atvejų](./media/setup_rsa_tool_105.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

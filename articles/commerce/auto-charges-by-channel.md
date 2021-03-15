@@ -127,3 +127,6 @@ EKA programoje pasirinkę **Operacijų parinktys \> Išlaidos \> Valdyti išlaid
 [Integruoto kanalo išplėstinės automatinės išlaidos](omni-auto-charges.md)
 
 [Proporcingas antraštės išlaidų paskirstymas atitinkančioms pardavimo eilutėms](pro-rate-charges-matching-lines.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

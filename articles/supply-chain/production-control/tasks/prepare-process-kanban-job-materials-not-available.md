@@ -51,3 +51,6 @@ ms.locfileid: "4994096"
 6. Spustelėkite „Parengti“.
     * Atkreipkite dėmesį – užduoties būsenos piktograma nurodo, kad užduotis jau parengta.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

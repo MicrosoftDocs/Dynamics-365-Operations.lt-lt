@@ -166,3 +166,6 @@ Toliau nurodyti laukai keičia registravimo proceso veikseną.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

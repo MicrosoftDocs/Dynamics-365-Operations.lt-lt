@@ -64,3 +64,6 @@ EKA vartotojo kalbos parametras nustatomas puslapyje **Darbininkas**, skyriuje *
 | **Įmonė** | Numatytoji                    | Numatytoji                                                       |
 | **Parduotuvė**   | Perrašoma įmonė          | Perrašoma įmonė                                             |
 | **Vartotojas**    | Perrašoma parduotuvė arba įmonė | Niekada                                                         |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

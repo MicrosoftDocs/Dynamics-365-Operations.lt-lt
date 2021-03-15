@@ -47,3 +47,6 @@ Galite peržiūrėti išsamią informaciją apie pasirinkto užsakymo būsimuosi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

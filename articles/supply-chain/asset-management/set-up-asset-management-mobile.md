@@ -84,3 +84,6 @@ Norėdami įgalinti turto valdymo funkcijas „Finance and Operations” („Dyn
 Daugiau informacijos apie tai, kaip dirbti su **Turto valdymas** mobiliąja darbo sritimi, žr. [žr. Turto valdymo mobiliosios darbo srities naudojimas](asset-management-mobile-workspace.md).
 
 Norėdami gauti daugiau informacijos apie „Finance and Operations” („Dynamics 365”) mobiliąją programėlę, žr. [Mobiliosios programėlės pagrindinis puslapis](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

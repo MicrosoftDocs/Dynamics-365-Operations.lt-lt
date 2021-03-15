@@ -141,3 +141,6 @@ Valdymo įrankio paslauga yra paslauga, kuri valdo jūsų įdiegtį ir su LCS su
 ## <a name="virtualization-and-oversubscription"></a>Virtualizavimas ir perviršinis rezervavimas
 
 Kritiškai svarbios tarnybos, pavyzdžiui, AOS, turi būti nuomojamos virtualiuosiuose kompiuteriuose, turinčiuose tam skirtus išteklius – branduolius, atmintį ir diską.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

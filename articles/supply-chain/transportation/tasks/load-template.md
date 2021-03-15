@@ -53,3 +53,6 @@ Jums sukūrus naują krovinį, galtie priskirti krovinio šabloną. Krovinio ša
 1. Veiksmų srities **Tiekti ir pareikalauti** skirtuke **Pridėti** grupėje pasirinkite **Į naują krovinį**.
 1. Teksto laukelyje **Krovinio šablonas** **Krovinio šablono ID** laukelyje pasirinkite taikomą šabloną.
 1. Pasirinkite **GERAI** norėdami pritaikyti šabloną.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

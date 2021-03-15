@@ -83,3 +83,6 @@ Abiejuose SEPA tiesioginio debeto planuose klientai turi tam tikras teises į gr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

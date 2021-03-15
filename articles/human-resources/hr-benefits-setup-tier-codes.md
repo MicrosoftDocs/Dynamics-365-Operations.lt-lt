@@ -41,3 +41,6 @@ ms.locfileid: "5113535"
    | **Aprašymas** | Išmokos pakopų kodo aprašas. |
 
 4. Pasirinkite **Įrašyti**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

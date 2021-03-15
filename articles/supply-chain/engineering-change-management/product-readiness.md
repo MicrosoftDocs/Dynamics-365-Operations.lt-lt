@@ -147,3 +147,6 @@ Kiekvienai įtrauktai eilutei, nustatykite tolesnius laukelius.
 | Klausimynas | Rinkitės klausimyną, kuris turi būti naudojamas patikrų sąraše. Patikrų sąrašas yra vietinis patikrų sąrašas bendrovėje, kai pasirengimo patikra yra atlikta. Sistema privalo galėti įvertinti, ar patikrų sąrašas yra tinkamai sudarytas. Dėl to, patikrų sąrašą reikia nustatyti taip, kad vertinimas būtų atliktas pagal tinkamus atsakymus. Dėl išsamesnės informacijos apie tai, kaip sukurti klausimynus, žr. [Naudoti klausimynus](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/using-questionnaires) ir su jais susijusias temas. |
 | Automatinis patvirtinimas | Pasirengimo patikros įrašai apima **Patvirtinta** žymimą laukelį, kuris rodo patvirtinimo būseną. Pasirinkite **Automatinis patvirtinimas** žymimą laukelį patikroms, kurias reikia nustatyti kaip patvirtintas iš karto po jų priskyrimo vartotojams, kurie jas užbaigia. Atžymėkite šį laukelį, kad pareikalautumėte atskiro patvirtinimo kaip papildomo žingsnio. |
 | Privalomas | Pasirinkite šį laukelį patikroms, kurias turi užbaigti paskirtas vartotojas. Privalomos patikros negali būti praleistos. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

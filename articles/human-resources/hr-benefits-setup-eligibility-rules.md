@@ -176,3 +176,6 @@ Programos – tai išmokų planų, turinčių bendrų tinkamumo taisyklių, rink
    | **Tinkamumo taisyklės** | Pasirinkite išmokos programai taikomas tinkamumo taisykles. Šio puslapio skirtuke **Tinkamumo taisyklės** galite apibrėžti tinkamumo taisykles. |
    
 4. Pasirinkite **Įrašyti**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

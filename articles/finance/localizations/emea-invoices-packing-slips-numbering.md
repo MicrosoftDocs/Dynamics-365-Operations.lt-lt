@@ -127,3 +127,6 @@ Laukas **Dokumentai naujinti** turi įtakos puslapių **Važtaraščių žurnala
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

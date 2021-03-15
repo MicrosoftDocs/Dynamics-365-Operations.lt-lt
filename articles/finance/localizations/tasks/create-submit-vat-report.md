@@ -34,3 +34,6 @@ ms.locfileid: "4964521"
 5. Lauke Kurti elektroninį mokesčių dokumentą pasirinkite Taip.
 6. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

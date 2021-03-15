@@ -82,3 +82,6 @@ Mygtukai, esantys veiksmų srityje, tvarkomi skirtukuose. Toliau pateikiamoje le
 | Gedimai                              | Atidaromas puslapis **Turto gedimai**, kuriame galima peržiūrėti su pasirinkta funkcine vieta susijusių užregistruotų turto gedimų sąrašą. |
 | Naujinti funkcinės vietos būseną    | Atnaujinamas pasirinktos funkcinės vietos etapas.                                                                                        |
 | Ciklo būsenų žurnalas                 | Peržiūrimas žurnalas, kuriame rodomi pasirinktos funkcinės vietos etapai.                                                                        |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

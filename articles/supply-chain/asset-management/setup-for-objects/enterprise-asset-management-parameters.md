@@ -106,3 +106,6 @@ Pasirinkite dokumentų tipus, kurie turėtų būti pasiekiami kaip spausdinimo p
 ## <a name="the-number-sequences-tab"></a>Skirtukas Numeravimas
 
 Šioje dalyje pasirinkite reikiamas numeravimo sekas. Turtui taikomos dvi numeravimo sekos: viena skirta neautomatiniu būdu sukurtam turtui, o kita – turtui, sukurtam laukiant turto.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

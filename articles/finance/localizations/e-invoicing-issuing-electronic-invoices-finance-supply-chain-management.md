@@ -93,3 +93,6 @@ Pateikimo žurnaluose yra šios papildomos funkcijos:
 - **Atšaukti pateikimus** – ši funkcija įgalina specialų pateikimo procesą scenarijuose, kuriuose elektroninę SF turi patvirtinti išorinė žiniatinklio tarnyba. Jis nurodo elektroninių SF išrašymo papildinį, kad žiniatinklio tarnybai būtų siunčiamas konkretus pranešimas, skirtas atšaukti patvirtintų elektroninių SF būseną žiniatinklio tarnybos duomenų bazėje.
 - **Iš naujo pateikti dokumentą** – iš naujo pateikti elektroninį dokumentą, kuris jau buvo pateiktas elektroninio SF išrašymo priedui. Puslapyje **Pateikimo informacija** sukuriamas visiškai naujas žurnalas.
 - **Siųsti susijusį pateikimą**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

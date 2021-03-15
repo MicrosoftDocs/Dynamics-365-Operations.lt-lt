@@ -57,3 +57,6 @@ Išteklių grupė yra operacijų išteklių rinkinys, kurie paprastai atitinka f
 6. Sąraše raskite ir pasirinkite norimą įrašą.
 7. Sąraše spustelėkite saitą pasirinktoje eilutėje.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

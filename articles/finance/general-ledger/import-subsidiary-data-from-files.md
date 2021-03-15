@@ -60,3 +60,6 @@ ms.locfileid: "4988830"
 8. Nustatykite **Paketo tvarkymo** parinktį į **Taip** tam, kad vykdytumėte konsolidavimą kaip paketo darbą konkrečiu laiku. Norėdami vykdyti konsolidavimą nedelsiant, rinkitės **Gerai**. 
 
 Perlaidos ir balansai nurodyti konsolidavimui papildomose įmonėse yra įtraukiami į atitinkamas sąskaitas konsoliduojamame juridiniame asmenyje.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

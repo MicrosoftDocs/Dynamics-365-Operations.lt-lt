@@ -150,3 +150,6 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus
 17. Lauke **Banko sąskaita** įveskite `GBSI OPER`.
 18. Pasirinkite **Gerai**, tada dar kartą – **Gerai**. Peržiūrėkite sukurtąjį darbalapį – išsamią mokėjimo eilučių informaciją bei kiekvieno šiame mokėjimo pranešime naudojamo valiutos kodo bendrąsias sumas.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

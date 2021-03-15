@@ -54,3 +54,6 @@ Be to, jei **Pradžios data** sumažinimo laikotarpyje yra sausio 21 d. (31 minu
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

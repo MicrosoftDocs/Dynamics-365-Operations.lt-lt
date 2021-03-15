@@ -64,3 +64,6 @@ Toliau nurodyta procedūra apibūdinama turto, darbo užsakymų, darbo užsakymo
 
 7. Norėdami peržiūrėti projektus, susijusius su ilgalaikiu turtu, pasirinkite **Ilgalaikis turtas** > **Ilgalaikis turtas** > **Ilgalaikis turtas**, o tada lauke **Ilgalaikio turto numeris** pasirinkite ilgalaikio turto saitą, kad atidarytumėte informacijos rodinį. Išskleiskite dešinėje puslapio pusėje esančią sritį **Susijusi informacija** ir pasirinkite „FastTab“ **Susiję projektai**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

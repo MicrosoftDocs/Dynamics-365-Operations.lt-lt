@@ -65,3 +65,6 @@ Naudodamiesi forma **Aptarnavimo objektai** galite priskirti aptarnavimo objektu
 [Aptarnavimo objektų kūrimas](create-service-objects.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

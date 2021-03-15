@@ -101,3 +101,6 @@ Toliau esančiose lentelėse rodomos reikšmės, kurios yra nustatytos šio pavy
 7. Norėdami peržiūrėti grynąjį nuvertėjimo poveikį, atidarykite atsakomybės ir turto operacijų lenteles. Atkreipkite dėmesį, kad dėl nuvertėjimo išlaidų sumažėjo naudojimo teise valdomas turtas, bet nuomos įsipareigojimo apskaitinė vertė nepasikeitė.
 
 Šis nuvertėjimas turi dar vieną poveikį, kurį reikia apsvarstyti. Kadangi dabar naudojimo teise valdomo turto suma yra daug mažesnė už nuomos įsipareigojimą, suma turi būti nusidėvėti kitaip nei anksčiau. Tiksliau sakant, turtas dabar apskaičiuojamas tiesiogiai per likusius 84 nuomos mėnesius, pradedant operacijos data.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

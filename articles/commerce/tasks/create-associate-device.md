@@ -40,3 +40,6 @@ ms.locfileid: "4964978"
 9. Sąraše spustelėkite saitą pasirinktoje eilutėje.
 10. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Papildykite kanalą įtraukdami kanalo ir produkto atributus. Prieš nustatydami
 33. Spustelėkite GERAI.
 34. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

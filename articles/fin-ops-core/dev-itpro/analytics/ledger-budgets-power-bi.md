@@ -57,3 +57,6 @@ Tolesnėje lentelėje pateikiama informacija apie metrikas, pateikiamas kiekvien
 | Didžiosios knygos                   | Didžiosios knygos, kurias galima naudoti norint filtruoti dabartinės didžiosios knygos ataskaitą              |
 | Biudžeto kodai              | Biudžeto kodai, pagal kuriuos filtruojamos ataskaitos                                                |
 | Juridiniai subjektai            | Juridiniai subjektai, kurias galima naudoti norint filtruoti dabartinio juridinio subjekto ataskaitą |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

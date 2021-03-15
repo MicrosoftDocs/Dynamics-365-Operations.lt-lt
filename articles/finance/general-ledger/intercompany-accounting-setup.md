@@ -49,3 +49,6 @@ Abipusį ryšį galima lengvai nustatyti puslapyje **Vidinės įmonės apskaita*
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Kad būtų geriau laikomasi nuolatinio tobulinimo principo, gamybos eigos proces
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

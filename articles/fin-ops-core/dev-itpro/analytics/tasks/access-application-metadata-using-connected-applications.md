@@ -113,3 +113,6 @@ Toliau nurodyti veiksmai paaiškina, kaip „Regulatory configuration service“
 11. Uždarykite puslapį. 
 
 Jei reikia įvertinti šio modelio susiejimą naudojant skirtingos programos versijos metaduomenis, užregistruokite kitą prijungtą programą, priskirkite ją šiam modelio susiejimui ir patikrinkite ją naudodami naujus metaduomenis.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

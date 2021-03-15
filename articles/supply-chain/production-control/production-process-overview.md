@@ -87,3 +87,6 @@ Visų mišriojo režimo gamybos užsakymų tipų gamybos cikle galimi toliau nur
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

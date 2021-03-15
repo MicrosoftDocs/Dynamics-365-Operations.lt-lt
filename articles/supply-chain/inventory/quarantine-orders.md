@@ -66,3 +66,6 @@ Sulaikymo užsakymo proceso metu galite nurašyti atsargas. Apdorojant nurašym�
 --------
 
 [Atsargų blokavimas](inventory-blocking.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

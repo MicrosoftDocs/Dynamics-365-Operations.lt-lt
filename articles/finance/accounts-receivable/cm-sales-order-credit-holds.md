@@ -264,3 +264,6 @@ Pardavimo užsakymai, kurie turi priverstinio sulaikymo priežastį, negali būt
 Kredito valdymą šiuo metu galima naudoti tik pardavimo užsakymams. Laisvos formos SF, elektroniniai kasos aparatai ir skambučių centro užsakymai naudos laikinus kredito limitus ir draudimą / garantijas, kurias įtraukiate, kad galėtumėte keisti kredito limitą. Jos nenaudos blokavimo taisyklių ir nebus patalpintos sulaikymo sąraše, jei kyla problemų dėl kredito limito.
 
 Projektų SF kredito valdyme nėra palaikomos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

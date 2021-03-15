@@ -94,3 +94,6 @@ Informacijos, kaip konfigūruoti įvertinimus ir atsiliepimų modulius produkto 
 [Įvertinimų ir atsiliepimų modulių produkto informacijos puslapiuose konfigūravimas](ratings-reviews-modules.md)
 
 [Produktų įvertinimų sinchronizavimas sprendime „Dynamics 365 Retail“](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

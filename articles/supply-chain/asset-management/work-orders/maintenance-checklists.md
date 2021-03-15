@@ -79,3 +79,6 @@ Toliau pateikiamoje iliustracijoje rodomas prižiūrimo turto kontrolinio sąra�
 
 ![1 pav.](media/14-work-orders.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

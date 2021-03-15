@@ -94,3 +94,5 @@ Neįtraukite asmeninių duomenų (bet kokios informacijos, kuri gali jus identif
 
 - [Kas nauja programoje „Human Resources“](hr-admin-whats-new.md)
 - [„Dynamics 365“ ir „Power Platform“ leidimo planas](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -139,3 +139,6 @@ Norėdami įtraukti verslo partnerius ir vartotojus tiesiai „Commerce“ būst
 [Nustatykite produkto kiekio apribojimus B2B el. komercijos saitams](quantity-limits.md)
 
 [Numeracijų apžvalga](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

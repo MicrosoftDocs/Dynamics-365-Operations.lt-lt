@@ -162,3 +162,6 @@ Jei yra keli sumų, kurias reikia paskirstyti, šaltiniai, galite nurodyti, kad 
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

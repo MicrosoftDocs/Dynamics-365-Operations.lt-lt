@@ -61,3 +61,6 @@ Importavus retrospektyvinius poreikio duomenis, galima generuoti pagrindinę por
 
 [Pagrindinės statistinės prognozės generavimas](generate-statistical-baseline-forecast.md)  
 [Duomenų importavimo ir eksportavimo užduočių apžvalga](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

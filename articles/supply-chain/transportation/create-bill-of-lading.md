@@ -42,3 +42,6 @@ Jei krovinyje yra daugiau nei viena siunta, galite generuoti bendrąjį važtara
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

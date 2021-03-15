@@ -254,3 +254,6 @@ Pateiktame scenarijuje parodytos ER duomenų importavimo galimybės. Tai apima t
 27. Uždarykite puslapį.
 28. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

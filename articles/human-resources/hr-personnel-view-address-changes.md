@@ -128,3 +128,6 @@ Kai pasirenkate **Adreso keitimas** plytelę, naujas puslapis rodo visų adresų
 > Jei norite gauti pranešimą ar elektroninį laišką apie šio adreso keitimus, galite sukurti naujo pranešimo taisyklę **Parinktys** skirtuke veiksmų juostoje. Dėl išsamesnės informacijos apie pranešimo taisykles, žr. [Sukurti pranešimo taisykles](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts).<br><br>
 
 > Jei norite konfigūruoti darbo srautą adreso keitimams, galite pasirinkite **Siųsti į išorę** parinktį savo pranešimo taisyklėje ir tuomet naudoti „Power Automate“ tam, kad paskatintumėte verslo įvykį ir konfigūruotumėte darbo srautą. Dėl platesnės informacijos, žr. [Pranešimai kaip verslo įvykiai](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts#alerts-as-business-events).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

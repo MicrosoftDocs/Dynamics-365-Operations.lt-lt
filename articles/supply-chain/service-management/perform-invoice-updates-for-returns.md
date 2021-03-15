@@ -56,3 +56,6 @@ Kai nustatote paketinio vykdymo SF atnaujinimą, pardavimo užsakymo, kurio tipa
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

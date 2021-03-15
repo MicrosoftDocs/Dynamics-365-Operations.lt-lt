@@ -54,3 +54,6 @@ ms.locfileid: "4982371"
 1. Spustelėkite Publikuoti.
 2. Spustelėkite Taip.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

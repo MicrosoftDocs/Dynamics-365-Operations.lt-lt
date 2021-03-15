@@ -109,3 +109,6 @@ Norėdami peržiūrėti gamybos darbų istoriją, kurie buvo sutvarkyti skalės 
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>Gamybos centras į skalės vieneto pranešimo tvarkytuvo darbą
 
 _Gamybos centras į skalės vieneto pranešimo tvarkytuvą_ darbas tvarko duomenis iš centro į skalės vienetą. Šis darbas automatiniu būdu pradedamas, kai gamybos vykdymo darbo krūvis yra patalpintas. Nepaisant to, galite vykdyti rankiniu būdu jį bet kuriuo metu patekę į **Gamybos valdymas \> Periodinės užduotys \> Galinio skyriaus darbo krūvio valdymas \>Gamybos centras į skalės vieneto pranešimo tvarkytuvą**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

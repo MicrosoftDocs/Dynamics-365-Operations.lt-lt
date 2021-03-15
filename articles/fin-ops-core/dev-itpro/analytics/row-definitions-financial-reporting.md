@@ -187,3 +187,6 @@ Kad būtų lengviau peržiūrėti stulpelius, su kuriais dirbate eilutės apraš
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Finansinės ataskaitos](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

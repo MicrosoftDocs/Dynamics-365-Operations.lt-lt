@@ -57,3 +57,6 @@ Jei turite tipo **Personalas** operacijų išteklių, susijusių su personalo da
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

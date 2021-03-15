@@ -116,3 +116,6 @@ Naudojant šią procedūrą pateikiama informacija apie tai, kaip sukurti naują
 68. Spustelėkite Įrašyti.
     * Atkreipkite dėmesį, kad lauke „Vykdymas“ nurodoma, kad šis grupavimas bus atliekamas vykdymo laiku atmintyje, nors nėra nurodytų telkimų, o pasirinktas tipo „Lentelės įrašai“ duomenų šaltinis paremtas ta pačia „Intrastat“ lentele. Taip yra todėl, kad duomenų šaltinyje yra keletas apskaičiuotų laukų, kurie dar negali būti konvertuoti į SQL duomenų bazės lygį.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

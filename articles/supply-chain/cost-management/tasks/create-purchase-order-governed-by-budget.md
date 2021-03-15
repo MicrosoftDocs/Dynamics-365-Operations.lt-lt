@@ -61,3 +61,6 @@ ms.locfileid: "4963718"
 4. Spustelėkite Biudžeto tikrinimo klaidos arba įspėjimai.
 5. Spustelėkite Uždaryti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

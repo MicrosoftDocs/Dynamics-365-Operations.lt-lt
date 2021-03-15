@@ -46,3 +46,6 @@ Galite planuoti būsimus gyvenimo įvykius programoje „Dynamics 365 Human Reso
    | Eilutė | Būsimo gyvenimo įvykio eilutės numeris. |
 
 4. Pasirinkite **Įrašyti**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

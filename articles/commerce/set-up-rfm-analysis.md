@@ -96,3 +96,6 @@ Naudokite šią procedūrą norėdami peržiūrėti arba išvalyti RFM analizės
 2. Puslapyje **RFM analizė** pasirinkite norimą peržiūrėti įrašą.
 3. Norėdami peržiūrėti įrašo retrospektyvą, pasirinkite „FastTab“**Retrospektyva**.
 4. Norėdami išvalyti įrašo retrospektyvą, pasirinkite **Išvalyti retrospektyvą**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

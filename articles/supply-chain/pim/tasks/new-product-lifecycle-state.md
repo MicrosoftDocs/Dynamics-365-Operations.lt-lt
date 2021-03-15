@@ -34,3 +34,6 @@ ms.locfileid: "4986834"
 3. Lauke Būsena įveskite reikšmę.
 4. Lauke Aprašas įveskite reikšmę.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

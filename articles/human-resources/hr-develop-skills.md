@@ -62,3 +62,6 @@ Naudodami įgūdžių išdėstymo šablonus galite rasti esamus darbuotojus arba
 Galite sukurti įgūdžių šablono analizę ir peržiūrėti darbuotojo, pretendento arba kontaktinio asmens kompetencijų sąrašą pagal konkrečią datą. Galite sukurti įgūdžių trūkumo analizę ir palyginti asmens įgūdžius su įgūdžiais, kurių reikia konkrečiam darbui.  
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

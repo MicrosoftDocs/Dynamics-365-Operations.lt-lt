@@ -78,3 +78,6 @@ ms.locfileid: "5115805"
 34. Pažymėkite skirtuką **Apžvalga**. Kadangi galima keisti vertinimo būsenas, darbuotojas ir vadovas gali įtraukti komentarų kiekvienam tikslui ar kompetencijai.  
 35. Pažymėkite skirtuką **Baigimo etapai**. Darbuotojas ir vadovas užbaigti vertinimą. Kai užbaigti visi privalomi baigimo etapai, būsena pakeičiama į **Užbaigta** ir daugiau negalima atlikti keitimų.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

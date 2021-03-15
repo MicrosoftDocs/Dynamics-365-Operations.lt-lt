@@ -88,3 +88,6 @@ Vaizdo įrašas [Kaip naudoti įspėjimus filtruojamiems duomenis stebėti](http
 Vaizdo įrašas [Įspėjimo taisyklės parinktys](https://youtu.be/cpzimwOjicM) (pateiktas pirmiau) yra įtrauktas į [„Finance and Operations“ grojaraštį](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) „YouTube“.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

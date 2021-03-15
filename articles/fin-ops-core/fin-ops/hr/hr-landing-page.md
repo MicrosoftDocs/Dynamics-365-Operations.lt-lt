@@ -93,3 +93,6 @@ Galite sudaryti ir administruoti klausimynus informacijai įvairiems tikslams ri
 - [Klausimynų sudarymas](../../../talent/design-questionnaires.md)
 - [Klausimynų platinimas ir planavimas](../../../talent/distribute-questionnaires.md)
 - [Klausimynų rezultatų peržiūra ir įvertinimas](../../../talent/evaluate-questionnaire-results.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

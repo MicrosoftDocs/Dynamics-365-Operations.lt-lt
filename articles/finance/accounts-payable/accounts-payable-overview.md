@@ -147,3 +147,6 @@ Papildomi sąrankos puslapiai sisteminami pagal funkcijas.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

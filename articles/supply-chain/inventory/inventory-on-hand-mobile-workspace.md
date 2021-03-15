@@ -129,3 +129,6 @@ Mobiliosios programos „Finance and Operations“ atsisiuntimas ir diegimas.
     -   Pagal faktines atsargas (Šis rodinys nurodo bendrą sumą.)
     -   Pagal faktines rezervuotas atsargas (Šis rodinys nurodo rezervuotą sumą.)
     -   Pagal turimas faktines atsargas (Šis rodinys nurodo turimą sumą, kuri nėra rezervuota.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

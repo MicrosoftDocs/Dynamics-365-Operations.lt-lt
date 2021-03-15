@@ -119,3 +119,6 @@ Tolesni veiksmai paaiškina, kaip sistemos administratoriaus arba „Elektronini
 23. Spustelėkite Gerai.
     * Peržiūrėkite sukurtą išvestį. Išvestis sugeneruota kaip „Word“ dokumentas su įdėtaisiais vaizdais, pateikiant įmonės logotipą, įgalioto asmens parašą ir pažymėtą vandenženklio tekstą.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Galimi tolesni parametrai.
 
 - **Automatinio gretinimo bandymų skaičius** – nustatykite, kiek kartų sistema turi bandyti sugretinti produktų gavimo kvitus su sąskaitos faktūros eilute iki tol, kol procesas bus nesėkmingai užbaigtas. Pasiekus nurodytą bandymų skaičių, sąskaita faktūra pašalinama iš automatino apdorojimo.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

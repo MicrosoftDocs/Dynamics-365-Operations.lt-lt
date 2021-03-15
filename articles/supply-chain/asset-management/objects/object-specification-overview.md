@@ -39,3 +39,6 @@ Puslapyje **Turto atributų apžvalga** rodoma atskira kiekvieno turto eilutė. 
 3. Pasirinkite **Gerai**. Sąraše rodomas visas turtas, kuris naudoja pasirinktą turto tipą. Su kiekvienu turtu susiję turto atributų tipai rodomi toje pačioje eilutėje.
 
 Puslapyje **Turto atributas** rodoma atskira kiekvieno atributo tipo, naudojamo su turtu, eilutė. Norėdami atidaryti šį puslapį, pasirinkite **Turto valdymas** \> **Paklausimai** \> **Turtas** \> **Turto atributas**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Vėliau pakeistos konfigūracijos taisyklės neturi įtakos esamoms konfigūraci
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

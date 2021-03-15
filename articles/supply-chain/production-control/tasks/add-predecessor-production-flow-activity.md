@@ -51,3 +51,6 @@ Norėdami sužinoti daugiau, skaitykite dokumentą „Lean manufacturing“ gamy
     * Numatytasis veiklos ryšio ciklo laiko koeficientas yra 1. Tai reiškia, kad abi veiklos yra vykdomos tuo pačiu tempu ir jų vieneto gamybos laikai sutampa. Jei ankstesnė veikla vykdoma didesniu tempu (trumpesnis vieneto gamybos laikas), koeficientas turėtų būti mažesnis už 1, jei ankstesnė veikla vykdoma mažesniu tempu (ilgesnis vieneto gamybos laikas), ciklo laiko koeficientas yra didesnis už 1.  
 5. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

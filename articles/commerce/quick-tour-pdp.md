@@ -87,3 +87,6 @@ Jeigu rinkodaros turinys yra unikalus konkrečiam produktui, bet koks rinkodaros
 [Paskyrų tvarkymo puslapių apžvalga](quick-tour-account-management.md)
 
 [„Papildyti produkto aprašymo puslapį“.](enrich-product-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

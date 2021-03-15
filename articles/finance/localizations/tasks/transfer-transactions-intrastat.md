@@ -152,3 +152,6 @@ ms.locfileid: "4982100"
     
 Peržiūrėkite perkeltus duomenis – paskirties / išsiuntimo šalį / regioną, kilmės šalį, svorį, kiekį, kiekį papildomais vienetais, prekę, operacijos kodą, SF sumas ir statistines sumas. Jei reikia, duomenis galite modifikuoti.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

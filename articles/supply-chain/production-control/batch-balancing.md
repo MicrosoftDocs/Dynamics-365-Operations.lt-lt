@@ -186,3 +186,6 @@ Yra dvi išimtis taisyklei, kad paketiniams užsakymams galima taikyti paketų b
 1. Jei formulės matavimo vienetas skiriasi nuo aktyviojo ingrediento atsargų matavimo vieneto, partijų balansavimas netaikomas paketo užsakymui.
 
 Paketiniam užsakymui, kuriam negalima taikyti paketų balansavimo funkcijos, taikomas įprastas paketinių užsakymų apdorojimo ciklas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

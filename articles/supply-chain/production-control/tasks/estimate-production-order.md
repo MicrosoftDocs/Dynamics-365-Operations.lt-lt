@@ -41,3 +41,6 @@ ms.locfileid: "4994209"
 1. Veiksmų srityje spustelėkite Valdyti išlaidas.
 2. Spustelėkite Peržiūrėti skaičiavimo informaciją.
     * Šiame puslapyje rodomas išlaidų paskirstymas. Pavyzdžiui, pirmoje eilutėje galite peržiūrėti baigto produkto vieneto bendrąją savikainą. Kitose eilutėse pateikiamos išlaidos pagal komplektavimo specifikaciją, gamybos maršrutą ir netiesiogines išlaidas.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -99,3 +99,6 @@ Jei norite bendradarbiauti su „Microsoft“ įrankiais ir procesais, kad galė
 [Užduoties įrašymo ištekliai](../../dev-itpro/user-interface/task-recorder.md)  
 [Dokumentų ar mokymų kūrimas naudojant užduočių įrašymo priemonę](../../dev-itpro/user-interface/task-recorder-training-docs.md)  
 [Pasirinktinio žinyno „GitHub“ saugykla](https://github.com/microsoft/dynamics356f-o-custom-help)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

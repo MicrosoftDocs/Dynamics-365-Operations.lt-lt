@@ -99,3 +99,6 @@ Toliau esančiame paveikslėlyje pateiktas puslapio **Pirkimo užsakymas** pavyz
 
 Atitinkamai, norėdami peržiūrėti arba įvesti veiklos numerį, susijusį su darbo užsakymo pirkimo paraiška, sąrašo puslapyje **Darbo užsakymo pirkimo paraiška** pasirinkite pirkimo paraiškos įrašą, tada stulpelyje **Pirkimo paraiška** pasirinkite pirkimo paraiškos saitą. Lauką **Veiklos numeris** galite rasti skirtuke **Projektas**, esančiame „FastTab“ **Eilutės informacija**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

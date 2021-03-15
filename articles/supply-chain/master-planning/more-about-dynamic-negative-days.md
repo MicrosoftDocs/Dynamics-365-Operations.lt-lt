@@ -250,3 +250,6 @@ Norėdami padėti užtikrinti, kad būtų įvedamos teisingos jūsų įmonės re
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 Išsamaus aptarimo ieškokite pradiniame tinklaraščio įraše [Daugiau apie (dinamines) neigiamas dienas](https://blogs.msdn.microsoft.com/axmfg/2015/02/19/more-about-dynamic-negative-days/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

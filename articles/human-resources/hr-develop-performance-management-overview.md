@@ -163,3 +163,5 @@ Našumo žurnalo šaltinių tipai aprašo, iš kur gauti našumo žurnalai. Gali
 ### <a name="review-types"></a>Peržiūros tipai
 
 Našumo apžvalgos tipai padeda kontroliuoti apžvalgos veikimą. Galite įjungti arba išjungti apžvalgos darbo eigą. Jei apžvalga nenaudoja darbo eigos, galite nurodyti numatytąją būseną, kuri bus naudojama sukūrus apžvalgą. Be to, galite nuspręsti, ar darbuotojas, ar vadovas, ar jie abu turi išsiregistruoti iš apžvalgos.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

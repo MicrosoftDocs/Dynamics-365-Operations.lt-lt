@@ -47,3 +47,6 @@ Naudokite šią procedūrą, norėdami valdyti didžiosios knygos duomenų šalt
 14. Lauke Registravimo sluoksnis pasirinkite Dabartinis.
 15. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

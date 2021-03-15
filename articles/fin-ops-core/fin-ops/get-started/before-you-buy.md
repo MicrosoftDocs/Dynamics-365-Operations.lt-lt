@@ -93,3 +93,6 @@ Papildomus išteklius žr.:
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Jei naujinate iš „Dynamics AX 2012“ arba pereinate iš „AX 2009“
 
 Jei esate klientas, naujinantis iš „Microsoft Dynamics AX 2012“ arba pereinantis iš „Microsoft Dynamics AX 2009“, jums gali būti skirta ilgesnė bandomoji versija. Jei reikia daugiau informacijos, susisiekite adresu <daxcf@microsoft.com>.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -259,3 +259,6 @@ Todėl pasirinkus funkcijos Persidengimas aktyvinimą, likę nustatymai (užduot
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

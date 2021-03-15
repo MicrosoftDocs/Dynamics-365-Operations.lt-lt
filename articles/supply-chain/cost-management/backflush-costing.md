@@ -125,3 +125,6 @@ Norėdami periodiškai įvertinti NG ir sukurti laikotarpio pabaigos būseną, p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

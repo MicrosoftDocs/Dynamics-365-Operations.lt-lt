@@ -41,3 +41,6 @@ Galimos toliau nurodytos papildomos knygos paketų perkėlimo parinktys.
 10.0.8 versijoje buvo atlikti patobulinimai, siekiant padidinti parinkties Asinchroninis efektyvumą. Ši funkcija aktyvinama funkcijos pavadinimu **Papildomos knygos perkėlimas į didžiosios knygos našumo optimizavimą**. 
  
 Ši funkcija pagerina duomenų perkėlimą iš papildomos knygos į didžiąją knygą. Tai leidžia vykdyti procesą efektyviau, sugrupuojant kartu mažesnes perkeltinas operacijas. Tai leidžia efektyviau naudoti paketinio apdorojimo serverį. Norint naudoti šią funkciją, reikia nustatyti, kad paketinio apdorojimo serveris būtų nustatytas, tinkle ir veiktų, kad veiktų asinchroninio perkėlimo parinktis. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

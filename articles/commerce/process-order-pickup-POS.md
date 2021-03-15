@@ -57,3 +57,6 @@ Jei turite keisti atsiėmimo kiekį pasirinkę prekes, kurios bus atsiimtos, gal
 Jei **Gerinti vartotojo patirtį atsiėmimo užsakymo tvarkymui prekybos vietoje** funkcija yra įjungta, organizacijos gali įtraukti mygtuką **Keisti paėmimo eilutes** veiksmą į ekrano išdėstymą transakcijos puslapyje. Jums sukūrus atsiėmimo transakcijos vežimėlį POS ir pasirinkus prekes, galite pasirinkti **Keisti paėmimo eilutes**, jei privalote keisti paėmimo prekes, bet nenorite panaikinti visos transakcijos. Pasirodžiusiame teksto laukelyje **Keisti atsiėmimo eilutes**, galite keisti atsiimamas prekes ir kiekius. Transakcijos vežimėlis tuomet yra naujinamas, kad atsipindėtų jūsų keitimus.
 
 ![Keisti atsiimamų prekių teksto laukelį](media/pickupchange.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

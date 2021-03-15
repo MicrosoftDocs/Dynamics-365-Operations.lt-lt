@@ -36,3 +36,6 @@ Organizacijos gali teikti pirmenybę atsargų tvarkymui pagal standartines išla
 ## <a name="related-resources"></a>Susiję ištekliai
 
 [Darbo su kaštų apskaitos paslauga pradžia](cost-accounting-service-get-started.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

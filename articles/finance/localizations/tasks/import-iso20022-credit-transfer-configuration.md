@@ -44,3 +44,6 @@ Tai yra pirmoji iš penkių užduočių, kuriose bendrai aprašomas kliento mok�
     * Jei mygtuko Importuoti naudoti negalima, tai reiškia, kad ši konfigūracija jau importuota.  
 9. Spustelėkite Taip.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

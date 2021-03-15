@@ -133,3 +133,6 @@ Toliau pateiktame vaizde parodytas vykdymo grupės priskyrimo sąrankos pavyzdys
 [Skambučių centro kanalo nustatymas](channel-setup-callcenter.md)
 
 [„Dynamics 365“ mokėjimo jungtis, skirta sprendimui „Adyen“](../retail/dev-itpro/adyen-connector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

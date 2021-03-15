@@ -97,3 +97,6 @@ Konfigūracijos versija panaikinama ir parodomas patvirtinimo pranešimas.
 > [!NOTE]
 > Konfigūracijas panaikinti gali tik jas sukūręs konfigūracijos teikėjas. Jei konfigūracija buvo bendrai naudojama su kita organizacija, turėsite atsieti konfigūraciją, prieš ją naikindami.
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

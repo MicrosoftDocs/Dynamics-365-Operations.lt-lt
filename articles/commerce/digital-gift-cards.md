@@ -100,3 +100,6 @@ Norėdami konfigūruoti tinkintą sumą skaitmeninei kortelei „Commerce“ sai
 [Internetinių funkcijų šablono kūrimas](online-functionality-profile.md)
 
 [Išorinių dovanų kortelių palaikymas](./dev-itpro/gift-card.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

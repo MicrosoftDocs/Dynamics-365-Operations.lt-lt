@@ -90,3 +90,6 @@ Kiekvienam taisyklių rinkiniui nustatykite tolesnį laukelį:
 - **Sunkumas** – Rinkitės sunkumo lygį, pagal kurį įvesite taisykles. Naudojate **INžinerijos keitimo sunkumo** puslapį, kad sukurtumėte ir įvardytumėte lygius. (Dėl daugiau informacijos, žr. ankstesnį skyrių.)
 
 Naudokite mygtukus **Taisykles** „FastTab“ norėdami įtraukti ar panaikinti taisyklę iš esamo sunkumo nustatymo. Visos taisyklės turi **Taisyklės** laukelį ir **Pavadinimo** laukelį. Taisyklės nustatytos sistemos ir rodo pokyčių tipus, kuriuos produktas gali turėti. Pavadinimas rodo pakeitimo tipą.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

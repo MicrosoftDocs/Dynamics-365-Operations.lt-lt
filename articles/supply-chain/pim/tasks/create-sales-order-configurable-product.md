@@ -52,3 +52,6 @@ ms.locfileid: "4992325"
 
 ## <a name="select-the-product-configuration"></a>Produkto konfigūracijos pasirinkimas
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

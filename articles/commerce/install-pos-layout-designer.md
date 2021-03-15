@@ -62,3 +62,6 @@ MPOS ir „Cloud POS“ grafinio dizaino sąsają kontroliuoja kasos stalčiaus 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [„Retail Modern POS“ (MPOS) konfigūravimas, diegimas ir aktyvinimas](retail-modern-pos-device-activation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

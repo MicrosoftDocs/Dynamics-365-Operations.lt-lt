@@ -57,3 +57,6 @@ ms.locfileid: "5019258"
 25. Lauke **Banko sąskaita** pažymėkite ką tik sukurtą sąskaitą.
 26. Spustelėkite **Įrašyti**. Adresą galima nuskaityti iš bankų grupės, jei ji nurodyta, arba galima jį įtraukti čia.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

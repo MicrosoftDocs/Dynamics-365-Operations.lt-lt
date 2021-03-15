@@ -145,3 +145,6 @@ Ieškos rezultatuose spustelėjus užduočių vedlį, veiksmus galima peržiūr�
 
 > [!NOTE]
 > „Retail Modern POS“ ir „Cloud POS“ žinyno sistema neatidarys užduočių vedlių pagal jūsų atidarytą formą ar atliekamą operaciją. Proceso pavadinimą turite įvesti į ieškos lauką ir spustelėti **Ieškoti**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

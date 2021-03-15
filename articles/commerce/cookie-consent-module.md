@@ -61,3 +61,6 @@ Daugiau informacijos apie antraščių fragmentus ir modulius žr. [Antraštės 
 [Antraštės modulis](author-header-module.md) 
 
 [Slapukų atitiktis](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -136,3 +136,6 @@ Dabar, jei naudosite pagrindinį kanalo URL ir eisite į tos svetainės kelių k
 [Dokumentų būsenos ir vykdymo ciklas](document-states-overview.md)
 
 [Darbas su publikavimo grupėmis](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

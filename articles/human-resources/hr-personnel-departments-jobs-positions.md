@@ -165,3 +165,6 @@ Galite keisti lentelėje pateiktą informaciją, susijusią su pareigomis ar už
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

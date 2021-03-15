@@ -50,3 +50,6 @@ Sukurkite mokėjimų klientams mokesčius.
 18. Lauke **Mokesčio valiuta** pasirinkite mokesčio valiutą. Tai valiuta, kuria bus sukurta mokestis.  
 19. Spustelėkite **Įrašyti**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

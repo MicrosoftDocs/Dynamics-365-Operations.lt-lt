@@ -223,3 +223,6 @@ Finansinės ataskaitos naudoja toliau nurodytus balansų skaičiavimo metodus, k
 Daugiau informacijos apie konsolidavimą ir valiutų konvertavimą žr. pagrindinėje šios temos temoje [Finansinio konsolidavimo ir valiutų konvertavimo apžvalga](./financial-consolidations-currency-translation.md).
 
 Daugiau informacijos apie tai, kaip įvesti konsolidavimo informaciją internete, žr. [Internetinis finansinis konsolidavimas](./consolidate-online.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

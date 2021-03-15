@@ -82,3 +82,6 @@ Norėdami nustatyti būsenos kodo klaidų atsako puslapio peradresavimą, atliki
 [Įtraukti naują svetainės puslapį](add-new-page.md)
 
 [Kurti puslapio URL](create-page-url.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

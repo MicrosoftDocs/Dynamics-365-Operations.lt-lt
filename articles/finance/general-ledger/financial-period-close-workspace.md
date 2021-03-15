@@ -107,3 +107,6 @@ Taip pat turite nurodyti įmones, kurios bus susietos su uždarymo grafiku. Jei 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

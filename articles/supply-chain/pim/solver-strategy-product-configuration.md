@@ -72,3 +72,6 @@ Tolesnėje lentelėje pateikiama rekomendacijų apie tai, kurią sprendimo priem
 [Euristika](https://techterms.com/definition/heuristic)
 
 [Apribojimų patenkinimo problema](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

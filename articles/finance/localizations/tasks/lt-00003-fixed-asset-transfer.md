@@ -93,3 +93,6 @@ Procedūra buvo sukurta naudojant demonstracinių duomenų įmonę USMF, todėl 
 3. Spustelėkite GERAI.
     * Sugeneravus ataskaitą bus spausdinama visa transportavimo informacija.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

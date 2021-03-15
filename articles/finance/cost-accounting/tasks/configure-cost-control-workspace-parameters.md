@@ -58,3 +58,6 @@ Naudokite šią procedūrą norėdami konfigūruoti savikainos kontrolės darbo 
 27. Lauke Savikainos objekto dimensijų hierarchijos mazgas įveskite arba pasirinkite reikšmę.
     * Pasirinkę savikainos objekto dimensijų hierarchiją, išplėskite savikainos elemento dimensijų hierarchiją, kad pamatytumėte pageidaujamas savikainos vertes. Pavyzdžiui, galite išplėsti hierarchiją iki gamybos pridėtinių išlaidų, kad pamatytumėte vertę.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

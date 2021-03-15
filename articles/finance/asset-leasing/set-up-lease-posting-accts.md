@@ -83,3 +83,6 @@ Norėdami priskirti sąskaitą nuomos knygoms ir grupėms, kurios buvo sukurtos,
     > [!NOTE]
     > Pasirinktas finansavimas arba operacinė sąskaita bus debetuojama, kai užregistruojama numatyto išlaidų SF.
     > **Nuomos išlaidų korespondentinė** sąskaita bus naudojama kaip eksploatavimo išlaidų operacijų registravimo tipas, bet registruojama į nurodytą **korespondentinę sąskaitą** **eksploatavimo išlaidų apmokėjimo grafiko eilutėse** nuomos informacijoje arba nuomos knygos formoje.   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

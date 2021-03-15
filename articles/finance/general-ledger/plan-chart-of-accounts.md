@@ -59,3 +59,6 @@ Daugiau informacijos ieškokite šiose temose:
 
 - [Finansinės dimensijos](financial-dimensions.md)
 - [Kurti ir priskirti išplėstinės taisyklės struktūras](tasks/create-assign-advanced-rule-structures.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

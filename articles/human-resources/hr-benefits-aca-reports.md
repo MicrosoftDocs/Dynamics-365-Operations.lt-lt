@@ -87,3 +87,6 @@ Jums reikia pranešti apdraustus asmenis, nes suteikiate savarankišką draudim�
 
 > [!NOTE]
 > Tik išmokų planai pažymėti kaip **ACA pranešami** rodomi užklausos lange.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

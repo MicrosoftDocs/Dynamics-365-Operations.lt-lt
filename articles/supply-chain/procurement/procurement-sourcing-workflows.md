@@ -79,3 +79,6 @@ Galite priskirti patvirtinimo veiksmą toliau nurodytoms dalyvių grupėms.
 - [Pirkimo paraiškų verslo procesų darbo eigų nustatymas](https://www.microsoft.com/download/details.aspx?id=101821)
 - [Pirkimo paraiškos darbo eiga](purchase-requisitions-workflow.md)
 - [Tiekėjų supažindinimas](vendor-onboarding.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

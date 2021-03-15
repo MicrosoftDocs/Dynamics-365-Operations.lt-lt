@@ -39,3 +39,6 @@ Pagamintos prekės išlaidos visada įtrauktos į prekės vieneto savikainą, ka
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

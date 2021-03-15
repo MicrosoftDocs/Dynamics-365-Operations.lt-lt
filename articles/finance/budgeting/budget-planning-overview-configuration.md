@@ -204,3 +204,6 @@ Galite taip pat naudoti meniu **Veiksmai** nukopijuoti esamą procesą ir sukurt
 Kita naudinga meniu **Veiksmai** komanda yra **Peržiūrėti biudžeto proceso būseną**. Ši komanda grafiškai atvaizduoja vykdomus biudžeto planus kartu su atitinkamais duomenimis, pvz., planų darbo eigos būsena, suvestinės pagal sumą ir vienetą ir nukėlimas į pačius biudžeto planus vienu paspaudimu.
 
 [![Biudžeto planavimo proceso būsena](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

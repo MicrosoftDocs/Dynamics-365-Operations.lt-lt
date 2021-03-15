@@ -79,3 +79,6 @@ Jei nurodyta klaidinga informacija, kurdami ataskaitą **Darbo krūvio pajėguma
 3. Lauke **Užsakymo tipas** pasirinkę **Suplanuotas ir patvirtintas**, **Suplanuotas** arba **Patvirtintas** nurodykite užsakymų tipą, kurio prognozės pateikiamos ataskaitoje.
 4. Lauke **Load type** pasirinkę apkrovos tipą nurodykite, ar turėtų būti prognozuojami tūrio ar svorio darbo krūvio pajėgumai.
 5. Lauke **Darbo krūvio pajėgumas** pasirinkite darbo krūvio pajėgumų nustatymą.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

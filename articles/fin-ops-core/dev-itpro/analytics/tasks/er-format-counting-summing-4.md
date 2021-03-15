@@ -103,3 +103,6 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus
 21. Spustelėkite Atidaryti.
     * Peržiūrėkite sukurtą XML failą, kuriame yra skaičiavimo ir sumavimo informacija, surinkta vykdant pasirinktą konfigūraciją.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

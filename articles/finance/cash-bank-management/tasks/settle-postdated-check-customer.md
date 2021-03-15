@@ -55,3 +55,6 @@ Prieš pradėdami šitą, turite įvykdyti toliau nurodytas užduotis.
 10. Spustelėkite Kvitas.
 11. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

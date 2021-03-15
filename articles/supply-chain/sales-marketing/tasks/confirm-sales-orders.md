@@ -63,3 +63,6 @@ ms.locfileid: "4991820"
 11. Spustelėkite **Gerai**.
 12. Spustelėkite **Gerai**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

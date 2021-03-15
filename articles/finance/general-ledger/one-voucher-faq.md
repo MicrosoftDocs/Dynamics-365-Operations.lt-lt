@@ -51,3 +51,6 @@ Kaip ir kiekvienai naujai funkcijai, klientai privalo stebėti leidimo planą ir
 ## <a name="when-the-deprecation-date-is-identified-where-will-it-be-communicated"></a>Kai nebegaliojimo data bus paskelbta, kur ji bus paviešinta?
 
 Vieno kvito nebegaliojimas yra svarbus pokytis, kuris bus praneštas plačiai. Apie ją bus pranešta per produkto dokumentus, tinklaraščio įrašą ir skelbimus „Microsoft“ konferencijose ir tai bus padaryta gerokai iki galiojimo pabaigos datos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

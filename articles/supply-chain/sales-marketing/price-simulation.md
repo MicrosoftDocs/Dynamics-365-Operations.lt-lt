@@ -144,3 +144,6 @@ Kainų modeliavimas paveikia tik tą eilutę, kuriai jis taikomas, ir sumažina 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

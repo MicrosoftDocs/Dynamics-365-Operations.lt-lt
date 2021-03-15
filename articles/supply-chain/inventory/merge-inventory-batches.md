@@ -139,3 +139,6 @@ Galite patvirtinti paketų suliejimo atsargų žurnalą sąrašo puslapyje **Vis
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Kai susieju esamo svorio prekę, kodėl esamo svorio informacijos negaliu matyti atsargų žurnale?
 Esamo svorio prekių paketus galite sulieti kaip ir visas kitas prekes. Tačiau esamo svorio informacija nerodoma atsargų žurnale. Prieš perkeliant paketų suliejimą į atsargų žurnalą rekomenduojame patikrinti esamo svorio informaciją.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

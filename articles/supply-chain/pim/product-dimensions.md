@@ -145,3 +145,6 @@ Versijos matmenys veikia taip pat kaip kiti produkto matmenys. Nepaisant to, dė
 
 > [!IMPORTANT]
 > Jei įjungiate ir naudojate versijos matmenims, kai kurie sprendimai rodantys atsargų matmenis gali nustoti veikti kaip tikėtasi. Šių problemų patvirtinimui ir išsprendimui, susisiekite su nepriklausomu programinės įrangos tiekėjui (ISV) dėl jūsų paveiktų sprendimų. Dėl platesnės informacijos, žr. [Įjungti versijos matmenis](#enable-version-dim).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -239,3 +239,6 @@ Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Ope
 1. Pasirinkite **Atlikta**.
 
     ![Įtraukti priedą į priežiūros užklausą](media/am-mobile-10.png "Įtraukti priedą į priežiūros užklausą")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

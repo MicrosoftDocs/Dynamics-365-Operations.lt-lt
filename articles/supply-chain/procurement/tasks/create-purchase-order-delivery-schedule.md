@@ -73,3 +73,6 @@ Pirkimo užsakymas turi būti patvirtintas, kad produkto gavimą būtų galima a
 6. Sutraukite sekciją **Eilutės**.
 7. Spustelėkite **Gerai**, kad registruotumėte gavimą.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

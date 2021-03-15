@@ -45,3 +45,6 @@ Norėdami pasirinkti slankiojo vidurkio skaičiavimų atsarginės savikainos sek
     - **Aktyvi savikaina, Prekės kaina** – organizacijoms gali kilti našumo problemų, jei jos naudoja verslo procesus, kuriuose atsargos reguliariai tampa neigiamos, ir tuo pačiu metu yra didelis operacijų kiekis. Šis parametras gali padėti sušvelninti šias našumo problemas.
 
 ![Atsargų apskaitos parametrai](media/inventory-accounting-parameters.png "Atsargų apskaitos parametrai")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

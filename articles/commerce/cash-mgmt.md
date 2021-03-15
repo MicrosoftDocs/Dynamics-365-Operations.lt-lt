@@ -61,3 +61,6 @@ Norėdami nustatyti naują grynųjų pinigų valdymo funkciją, atlikite toliau 
 - Jei derinant pažymėta operacija nėra subalansuojama, vartotojas turi įvesti nesubalansuoto suderinimo priežasties aprašą. Vartotojai gali pasirinkti vieną operaciją ir suderinti ją pagal poreikį naudodami atitinkamą priežasties aprašą.
 - Vartotojai gali ir toliau derinti operacijas bei naikinti operacijų suderinimą, kol pamaina neuždaryta. Uždarius pamainą, operacijų suderinimo panaikinti negalima.
 - Kai vartotojas pasirenka uždaryti pamainą, „Commerce“ patikrina, ar pamainoje nėra nesuderintų grynųjų pinigų valdymo operacijų. Vartotojai negali uždaryti pamainos, jei yra nesuderintų operacijų.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

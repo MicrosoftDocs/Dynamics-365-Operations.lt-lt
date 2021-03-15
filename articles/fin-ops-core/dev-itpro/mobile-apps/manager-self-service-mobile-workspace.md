@@ -97,3 +97,6 @@ Mobiliosios programos „Finance and Operations“ atsisiuntimas ir diegimas.
 1.  Pasirinkite **Siųsti pagyrimą**. 
 1. Įveskite pagyrimo tekstą, kurį norite siųsti. 
 1. Pasirinkite **Atlikta**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

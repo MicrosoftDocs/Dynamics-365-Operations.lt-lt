@@ -110,3 +110,6 @@ Galite siųsti pranešimus žmonėms, kai automatizuota užduotis buvo vykdoma a
     </table>
 
 8. Pakartokite veiksmus 3–7 kiekvienam įvykiui, kurį pasirinkote 2 veiksme.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

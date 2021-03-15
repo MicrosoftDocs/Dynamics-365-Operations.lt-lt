@@ -85,3 +85,6 @@ Papildoma pagalba prieinama kaip užduočių vadovai. Norėdami pasiekti užduo�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

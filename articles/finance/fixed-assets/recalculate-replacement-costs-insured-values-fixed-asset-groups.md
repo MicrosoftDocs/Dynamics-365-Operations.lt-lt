@@ -77,3 +77,6 @@ Kitą dieną vadybininkas jus informuoja, kad kompiuterių vertė sumažėjo 8 p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

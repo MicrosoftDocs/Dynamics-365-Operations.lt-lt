@@ -70,3 +70,6 @@ Naudodami banko išrašo sudarymo atšaukimo funkciją galėsite atšaukti banko
 Banko išrašo suderinimus atšaukti galima tik chronologine tvarka pagal jų įvedimo laiką. Atšaukus banko išrašo suderinimą, naujos operacijos ir taisymai bus anuliuoti, o visos kitos operacijos bus pažymėtos kaip nesuderinamos.
  
 Norėdami atšaukti banko išrašo suderinimą, pasirinkite banko išrašą ir pasirinkite **Banko išrašas > Atšaukti banko suderinimą**. Puslapyje **Atšaukti banko suderinimą** pateikite **Priežasties kodą**, **Priežasties komentarą** ir **Atšaukimo datą**. Spustelėkite **Gerai**, kad pradėtumėte atšaukimą. Atkreipkite dėmesį, kad banko išrašo atšaukimo data turi sutapti arba būti vėlesnė nei banko išrašo data. Atšaukus banko išrašo suderinimą, banko išrašo laukas **Atšaukimo data** bus atnaujintas pateikta **Atšaukimo data**. Spustelėkite mygtuką **Operacijos**, kad peržiūrėtumėte operacijas, kurių suderinimas buvo atšauktas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USMF. Ši
 7. Spustelėkite rodyklę ir į adresų knygelę įtraukite pasirinktas galimas komandas.
 8. Spustelėkite **Įrašyti**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

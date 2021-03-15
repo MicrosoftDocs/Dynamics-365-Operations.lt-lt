@@ -59,3 +59,6 @@ PVM dokumentuose skaičiuojamas dokumentų eilutėse nurodant PVM grupę ir prek
 29. Spustelėkite PVM.
 30. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

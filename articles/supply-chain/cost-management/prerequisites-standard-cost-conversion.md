@@ -53,3 +53,6 @@ Prieš atlikdami standartinių išlaidų konvertavimą, atlikite šiuos veiksmus
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

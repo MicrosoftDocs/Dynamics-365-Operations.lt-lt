@@ -72,3 +72,6 @@ ms.locfileid: "4962488"
 37. Spustelėkite skirtuką Bendra.
     * Raskite naujai sukurtą eilutę ir patikrinkite, ar siuntėjas prekes išsiuntė iš Italijos.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

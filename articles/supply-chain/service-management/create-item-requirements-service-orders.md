@@ -71,3 +71,6 @@ Prekės poreikiai aptarnavimo užsakymuose apdorojami vykdant projektą. Norint 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

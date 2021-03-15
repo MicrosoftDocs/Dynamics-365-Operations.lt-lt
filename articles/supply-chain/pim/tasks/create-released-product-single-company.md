@@ -102,3 +102,6 @@ ms.locfileid: "4999686"
 12. Sąraše raskite ir pasirinkite norimą įrašą.
 13. Sąraše spustelėkite saitą pasirinktoje eilutėje.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

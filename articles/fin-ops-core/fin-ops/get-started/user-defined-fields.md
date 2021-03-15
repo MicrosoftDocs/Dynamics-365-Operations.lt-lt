@@ -162,3 +162,6 @@ Dėl našumo ir techninių priežasčių pasirinktinių laukų galima įtraukti 
 ### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>Ar galiu nurodyti pasirinktinius laukus iš programavimo įrankių?  
 
 Pasirinktinius laukus galima valdyti tik vartotojo sąsajoje ir jų negalima nurodyti pagal kodą. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

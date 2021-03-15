@@ -137,3 +137,5 @@ Parinkties rinkiniai:
 [Kas yra „Microsoft Dataverse“?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
 [Naudokite „Microsoft Dataverse“ žiniatinklio API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)<br>
 [Kurti ir naujinti parinkčių rinkinius naudojant žiniatinklio API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

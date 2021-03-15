@@ -114,3 +114,6 @@ Be to, rodinyje **Dimensijų matrica** galima atlikti daugiau veiksmų ir tokiu 
 | Prieinamumas         | Rodykite ATP informaciją apie pasirinktą variantų derinį pasirinktoje vietoje. |
 | Visų vietų rodymas   | Pereikite į standartinį atsargų peržvalgos rodinį ir pažymėkite informaciją apie prekės varianto atsargų likučius visose parduotuvėse parduotuvių lokatorių grupėje, taip pat **Standartinio / Numatytojo** tipo platinimo centruose. |
 | Peržiūrėti produkto informaciją | Nukreipkite vartotoją į susieto bendrojo produkto puslapį **Produkto informacija**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

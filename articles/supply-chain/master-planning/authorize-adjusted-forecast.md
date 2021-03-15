@@ -50,3 +50,6 @@ Labai svarbu suprasti, kokia yra žymės langelio **Įrašyti atliktus pagrindin
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -99,3 +99,6 @@ Norėdami gauti informacijos apie tai, kaip įtraukti produkto rekomendacijų pu
 [Kuruojamų rekomendacijų kūrimas rankiniu būdu](create-editorial-recommendation-lists.md)
 
 [Rekomendacijų su demonstraciniais duomenimis kūrimas](product-recommendations-demo-data.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

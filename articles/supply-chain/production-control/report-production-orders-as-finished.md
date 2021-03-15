@@ -47,3 +47,6 @@ Gamybos užsakymas gali būti nustatytas kaip **Skelbti baigtu** naudojant stand
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

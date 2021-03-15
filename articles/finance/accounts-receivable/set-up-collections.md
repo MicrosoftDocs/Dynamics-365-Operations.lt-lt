@@ -114,3 +114,6 @@ Daugiau informacijos ieškokite šiose temose:
 
  - [Peržiūrėti mokėjimų priežiūros informaciją](tasks/review-collections-information.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

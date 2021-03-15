@@ -50,3 +50,6 @@ Atlikite šiuos veiksmus, norėdami kurti ir konfigūruoti lygiagrečios šakos 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Darbo eigų kūrimo apžvalga](create-workflow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

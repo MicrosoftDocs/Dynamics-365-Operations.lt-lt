@@ -40,3 +40,5 @@ Didžioji dalis „Dataverse“ lentelių palaiko tinkintus laukelius. Dėl viso
 [„Dataverse“ lentelės](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
 [Pasirinktinių laukų kūrimas ir naudojimas](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
 [Pasirinktinių laukų rodymas duomenų objektuose](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

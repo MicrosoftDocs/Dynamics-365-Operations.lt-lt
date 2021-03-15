@@ -38,3 +38,6 @@ Numerių sekos naudojamos generuojant perskaitomus, unikalius identifikatorius b
 4. Pasirinkite **Toliau**.
 5. Pasirinkite **Baigti**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

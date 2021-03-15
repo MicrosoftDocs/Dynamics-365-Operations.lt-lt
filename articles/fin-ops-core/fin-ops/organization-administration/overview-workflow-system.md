@@ -71,3 +71,6 @@ Darbo eigos sistemos naudojimas jūsų organizacijoje duoda keleriopos naudos:
 + [Lygiagrečių darbo eigos šakų konfigūravimas](configure-parallel-branch-workflow.md)
 + [Eilutės elemento darbo eigų konfigūravimas](configure-line-item-workflow.md)
 + [DUK apie darbo eigas](workflow-FAQ.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

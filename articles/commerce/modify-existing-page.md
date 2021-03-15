@@ -88,3 +88,6 @@ Norėdami nedelsiant publikuoti savo keitimus, komandų juostoje pasirinkite **P
 [Patikrinti puslapio turinio pritaikymą neįgaliesiems](verify-accessibility.md)
 
 [Sukurti dinaminius e-komercijos puslapius pagal URL parameterus](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

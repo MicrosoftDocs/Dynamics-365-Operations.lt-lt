@@ -109,3 +109,6 @@ Dėl elektroninių sąskaitų išrašymo priedų įjungimo ir naudojimo gali pri
 - [Paslaugų administravimas](e-invoicing-service-administration.md)
 - [Elektroninių sąskaitų konfigūravimas RCS](e-invoicing-configuration-rcs.md)
 - [Išduoti elektronines sąskaitas „Finance and Supply Chain Management”](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Tolesniame paveikslėlyje parodyta, kaip vyksta bendrojo planavimo poreikio išs
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -110,3 +110,6 @@ NSF mokėjimus galite tvarkyti paspaudę NSF mokėjimą Mokėjimų priežiūros 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

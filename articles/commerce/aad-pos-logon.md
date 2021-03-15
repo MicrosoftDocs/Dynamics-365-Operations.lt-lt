@@ -73,3 +73,6 @@ Darbininko informacijos puslapio laukai **Pseudonimas**, **UPN**, **Išorinis an
 [Mažmeninės prekybos funkcijų šablono kūrimas](retail-functionality-profile.md)
 
 [ Konfigūruoti darbininką](https://docs.microsoft.com/dynamics365/commerce/tasks/worker)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

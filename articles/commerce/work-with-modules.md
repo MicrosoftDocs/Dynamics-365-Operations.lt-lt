@@ -172,3 +172,6 @@ Norėdami konfigūruoti konteinerio modulį puslapyje, atlikite šiuos veiksmus.
 
 [Darbas su publikavimo grupėmis](publish-groups.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

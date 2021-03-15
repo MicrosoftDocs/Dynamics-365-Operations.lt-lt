@@ -66,3 +66,6 @@ Jei automatinis patvirtinimas yra įjungtas „Planning Optimization“ vykdymui
 - Automatinis patvirtinimas yra pagrįstas reikalavimo data (pabaigos data).
 - Siekiant užtikrinti, kad užsakymai būtų patvirtinti laiku, patvirtinimo laiko riba turi būti ilgesnė už gamybos laiką.
 - Jei norite patvirtinti visus užsakymus, kurie turi prasidėti šią savaitę, patvirtinimo laiko riba turi būti gamybos laikas ir viena savaitė.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

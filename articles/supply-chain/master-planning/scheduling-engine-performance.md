@@ -328,3 +328,6 @@ Planavimo mechanizmo efektyvumą galima optimizuoti naudojant parametrus, pateik
 
 > [!NOTE]
 > Nustatytos skirtojo laiko reikšmės bus taikomos paskelbtų gamybos užsakymų ir suplanuotų užsakymų planavimui, kuris yra MRP dalis. Todėl nustačius labai dideles reikšmes gali žymiai pailgėti MRP vykdymo laikas, jei vykdomas planas su daugeliu suplanuotų gamybos užsakymų.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -177,3 +177,6 @@ Jūs turite likti **Projekto sąrankos** puslapyje (**Turto valdymas \> Sąranka
 1. Veiksmų srities skirtuke **Sąskaitų faktūrų išrašymas** pasirinkite **Naujas sąskaitos faktūros pasiūlymas**.
 1. Dialogo lango **Kurti sąskaitos faktūros pasiūlymą** skyriuje **Projekto operacijos** pasirinkite žymės langelį **Pasirinkti** kiekvienai eilutei, kuriai norite sukurti sąskaitą faktūrą.
 1. Pasirinkite **Gerai** tam, kad uždarytumėte dialogo langą ir peržiūrėtumėte naują sąskaitos faktūros pasiūlymą.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Puslapyje **Klientai** kiekvienam klientui, kuris sutiko mokėti naudojantis įs
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

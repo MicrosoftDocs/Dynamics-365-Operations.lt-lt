@@ -141,3 +141,6 @@ Mobiliosios programos „Finance and Operations“ atsisiuntimas ir diegimas.
 4.  Pasirinkite klientą.
 5.  Pasirinkite **Kontaktinė informacija** arba **Pardavimo užsakymai**. Pasirinkus **Pardavimo užsakymai**, rodomas kliento pardavimo užsakymų sąrašas.
 6.  Pasirinkite **Pardavimo užsakymas**. Dabar galite peržiūrėti informaciją apie pardavimo užsakymo eilutes, siuntas, kliento kontaktinę informaciją ir užsakymo priėmėjo kontaktinę informaciją.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

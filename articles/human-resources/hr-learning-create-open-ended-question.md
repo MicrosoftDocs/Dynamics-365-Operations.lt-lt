@@ -38,3 +38,6 @@ Atviri klausimai leidžia respondentams pateikti savo atsakymą. Galite kontroli
     * Atviram klausimui naudojamas įvesties tipo tekstas arba pastaba.  
 6. Lauke „Tekstas“ įveskite savo klausimą.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

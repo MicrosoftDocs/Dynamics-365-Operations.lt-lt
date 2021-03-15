@@ -135,3 +135,6 @@ Patvirtinimai serijiniams numeriams taip pat vyks, kai vartotojas atliks paėmim
 [Atvežamų atsargų operacija EKA](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
 [Siunčiamų atsargų operacija EKA](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Atskirose ataskaitose pateikiama informacija apie kiekvieną operacijų tipą. N
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

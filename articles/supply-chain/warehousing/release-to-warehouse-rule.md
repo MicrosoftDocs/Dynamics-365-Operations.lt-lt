@@ -130,3 +130,6 @@ Taip pat galite naudoti šiuos scenarijus kaip vedlį, kaip naudotis funkcija di
 
 > [!NOTE]
 > Toks pat rezultatas tikėtinas, kai antra eilutė yra rezervuota iš dalies. Šiuo atveju darbas bus sukurtas rezervuotam, o ne nerezervuotam eilutės kiekiui.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

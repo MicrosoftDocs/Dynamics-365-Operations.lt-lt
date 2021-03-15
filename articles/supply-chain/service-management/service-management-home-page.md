@@ -70,3 +70,6 @@ Paslaugų valdymas gali būti integruotas į šiuos modulius:
 
   
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

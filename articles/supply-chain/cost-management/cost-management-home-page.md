@@ -64,3 +64,5 @@ Nuomonių, naujienų ir kitos informacijos apie išlaidų valdymą galima rasti 
 #### <a name="task-guides"></a>Užduočių vedliai
 
 Papildoma pagalba prieinama kaip užduočių vadovai. Norėdami pasiekti užduočių vedlius, bet kuriame puslapyje spustelėkite mygtuką Žinynas.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Prieš sukuriant „Dynamics 365 Commerce“ kanalą reikia atlikti keletą būt
 [Mažmeninės prekybos kanalo nustatymas](channel-setup-retail.md)
     
 [Interneto kanalo nustatymas](channel-setup-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

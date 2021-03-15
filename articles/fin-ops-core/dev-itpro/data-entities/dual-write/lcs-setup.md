@@ -89,3 +89,6 @@ Norėdami nustatyti dvigubo rašymo ryšį, atlikite toliau nurodytus veiksmus.
 > [!NOTE]
 > Negalite atsieti aplinkos naudodami LCS. Norėdami atsieti aplinką, aplinkoje Finance and Operations atidarykite darbo sritį **Duomenų integravimas** ir pasirinkite **Atsieti**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

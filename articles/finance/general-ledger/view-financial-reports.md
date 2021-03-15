@@ -86,3 +86,6 @@ Norėdami eksportuoti finansinę ataskaitą, veiksmų srityje spustelėkite **Ek
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

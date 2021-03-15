@@ -251,3 +251,6 @@ Globalizacijos paslaugų vartotojai gali valdyti aplinką, kad nustatytų Global
 10. Pasirinkite **Publikuoti**, kad publikuotumėte aplinką.
 
     ![Publikuota aplinka](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

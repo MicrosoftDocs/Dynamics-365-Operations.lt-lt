@@ -45,3 +45,6 @@ Skirtuke **Pareigos** nurodykite, ar pagal numatytuosius nustatymus naujas parei
 
 -   **Visada** – galima priskirti darbuotojus naujoms pareigoms kuriant pareigas. Sukūrus pareigas **Galima priskirti** data ir laikas bus automatiškai nustatyti į sukūrimo datą ir laiką skirtuke **Bendra**, esančiame puslapyje **Pareigos**.
 -   **Niekada** – negalima priskirti darbuotojų naujoms pareigoms kuriant pareigas. Pasirinkus šią pasirinktį, reikės atidaryti puslapį **Pareigos** apdorojant kiekvienas naujas pareigas, kai jas bus galima naudoti, ir tada skirtuke **Bendra** įvesti **Galima priskirti** datą , kad būtų suaktyvintas darbuotojo priskyrimas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

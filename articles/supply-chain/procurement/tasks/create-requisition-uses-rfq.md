@@ -98,3 +98,6 @@ Kitos užduoties metu kuriamas RFQ, siekiant gauti tiekėjų kainų pasiūlymus 
 8. Pasirinkite puslapį.
 9. Pasirinkite Baigti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

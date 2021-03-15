@@ -135,3 +135,6 @@ Norėdami į naują puslapį įtraukti pirkimo langelio modulį ir nustatyti rei
 [Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas](calculated-inventory-retail-channels.md)
 
 [SDK ir modulių bibliotekos naujinimai](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

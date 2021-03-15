@@ -76,3 +76,6 @@ Siekiant įtraukti „iframe“ modulį į puslapį ir parodyti išorinį vaizdo
 [Modulių bibliotekos apžvalga](starter-kit-overview.md)
 
 [Turinio saugos strategijos (CSP) tvarkymas](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

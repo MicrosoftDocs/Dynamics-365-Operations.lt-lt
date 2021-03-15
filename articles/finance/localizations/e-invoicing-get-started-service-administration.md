@@ -150,3 +150,6 @@ Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išanksti
 
 3. Laukelyje **Aplinka** įveskite elektroninės sąskaitos priedo aplinką.
 4. Pasirinkite **Įrašyti** ir uždarykite puslapį.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

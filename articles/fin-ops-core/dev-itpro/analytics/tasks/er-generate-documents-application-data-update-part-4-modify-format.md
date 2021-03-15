@@ -149,3 +149,6 @@ Veiksmai šioje procedūroje paaiškina, kaip kurti elektroninių ataskaitų (ER
 46. Uždarykite puslapį.
 47. Uždarykite puslapį.
 48. Uždarykite puslapį.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

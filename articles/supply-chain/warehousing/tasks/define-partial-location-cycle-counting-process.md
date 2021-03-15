@@ -72,3 +72,6 @@ Kai naudojate ciklo skaičiavimo planus skaičiavimo darbui sukurti, galite nukr
 14. Spustelėkite GERAI.
 15. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Dėl šio dvigubo konvertavimo, datos gali pasikeisti tarp programų. Pavyzdžiu
 4. Pakeiskite **Laiko zoną** į **Universaliojo laiko zoną** ir pakeiskite **Kalbą** į **„En-US”**.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

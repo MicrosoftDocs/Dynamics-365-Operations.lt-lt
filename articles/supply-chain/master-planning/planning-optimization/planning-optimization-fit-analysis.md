@@ -113,3 +113,6 @@ Tolesnėje lentelėje pateikiami skirtingi rezultatai, rodomi po tinkamumo anali
 [Filtrų taikymas planui](plan-filters.md)
 
 [Planavimo užduoties atšaukimas](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

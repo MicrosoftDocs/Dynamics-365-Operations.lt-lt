@@ -46,3 +46,6 @@ ms.locfileid: "4978642"
 8. Lauke Konsolidavimo sąskaita įveskite reikšmę.
 9. Lauke Konsolidavimo sąskaitos pavadinimas įveskite reikšmę.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

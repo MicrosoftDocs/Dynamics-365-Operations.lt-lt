@@ -170,3 +170,6 @@ Kad galėtumėte nustatyti paėmimo eilutės grupavimą, turite sukurti tinkamą
 >   - Darbo eilutės, kuriose nebaigtas papildymo darbas
 >   - Viršytas paėmimo kiekis
 >   - Nevisiškas paėmimas ir prekių perskirstymas
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

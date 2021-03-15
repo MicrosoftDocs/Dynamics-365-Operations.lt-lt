@@ -55,3 +55,6 @@ LCS sąranka dabar baigta. Kitas veiksmas – [nustatyti scenarijus](iot-scenari
 2. LCS eikite į „Supply Chain Management” aplinkos informaciją.
 3. Slinkite iki dalies **Aplinkos papildiniai**.
 4. Prie IoT analizės papildinio pasirinkite **Šalinti**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

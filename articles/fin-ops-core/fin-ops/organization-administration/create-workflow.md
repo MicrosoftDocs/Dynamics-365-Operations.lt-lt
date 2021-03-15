@@ -83,3 +83,6 @@ Kai būsite pasirengę įrašyti ir suaktyvinti darbo eigą, atlikite toliau nur
 
     - Norėdami aktyvinti šią darbo eigos versiją, spustelėkite **Aktyvinti naują versiją**. Kai darbo eiga aktyvi, vartotojai galės pateikti dokumentus apdoroti.
     - Jei šios versijos aktyvinti nenorite, spustelėkite **Neaktyvinti naujos versijos**. Darbo eigą galite suaktyvinti vėliau.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

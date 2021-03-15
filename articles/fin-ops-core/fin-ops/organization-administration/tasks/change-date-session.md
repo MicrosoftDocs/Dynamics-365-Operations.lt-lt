@@ -32,3 +32,6 @@ ms.locfileid: "4796878"
 2. Lauke **Data** įveskite datą.
 3. Pasirinkite **Gerai**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Tolesnėje lentelėje yra importavimo formatai, kuriuos turėtumėte naudoti kon
 | 6            | BusinessUnit, 1 Department, 2 | Finansinės dimensijos atributai, kurie nustatomi segmento tvarkoje.<p>Galite naudoti **Eksportuoti** puslapį, kad patvirtintumėte, kaip atributai nustatomi.</p> |
 | 7            | 002,1,658 | <ul><li>Finansinės dimensijos vertė</li><li>FInansinė dimensija kaip indeksas, kuris pateiktas Įrašo dimensijose</li><li>Kaip dviprasmiškas, unikalus įrašo ID, kuris susietas su unikaliu įrašo ID iš „RecordTrans“ ar „RecordTrans2“</li></ul> |
 | 8            | 002,1,1 | <ul><li>Dimensijos vertės, kurios susietos su transakcija iš „RecordBudget“</li><li>FInansinė dimensija kaip indeksas, kuris pateiktas Įrašo dimensijose</li><li>Dviprasmiškas eilutės įrašo ID, kuris yra suderintas su transakcijos eilučių užsakymu faile</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

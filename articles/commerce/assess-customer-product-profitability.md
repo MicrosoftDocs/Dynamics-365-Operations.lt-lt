@@ -55,3 +55,6 @@ Taip pat vartotojai gali tirti svarbiausių produktų (10–100) pelningumą ski
 - Darbo sritis **Parduotuvės valdymas** &gt; **Mažmeninė prekyba ir prekyba** &gt; **Kanalai** &gt; **Parduotuvės valdymas** &gt; **Ataskaitos** &gt; **Svarbiausių produktų ataskaita**
 - Darbo sritis **Kategorijų ir produktų valdymas** &gt; **Mažmeninė prekyba ir prekyba** &gt; **Produktai ir kategorijos** &gt; **Parduotuvių valdymas** &gt; **Ataskaitos** &gt; **Svarbiausių produktų ataskaita**.
 - Skyrius **Užklausos ir ataskaitos**&gt; **Mažmeninė prekyba ir prekyba** &gt; **Užklausos ir ataskaitos** &gt; **Pardavimo ataskaitos** &gt; **Svarbiausių produktų ataskaita**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

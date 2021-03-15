@@ -61,3 +61,6 @@ ms.locfileid: "4961645"
 2. Spustelėkite **Pirmyn**. Atkreipkite dėmesį, kad užduotis sąraše perkeliama viena eilute žemyn. 
 
 3. Spustelėkite **Atgal**. Atkreipkite dėmesį, kad užduotis sąraše perkeliama viena eilute aukštyn.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

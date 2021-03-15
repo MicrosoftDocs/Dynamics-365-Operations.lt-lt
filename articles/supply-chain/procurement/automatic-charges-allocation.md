@@ -176,3 +176,6 @@ Toliau pateikta procedūra nurodo, kaip paskirstyti antraštės lygio išlaidas 
         > Kai dirbate su tinkleliu **Pasirinkti eilutes, kurias reikia pašalinti iš paskirstymo**, įsitikinkite, kad tinklelis lieka atidarytas jums pasirinkus **Paskirstyti**. Jei prieš pasirinkdami **Paskirstyti** tinklelį uždarysite, tinklelio nustatymai bus prarasti. Todėl išlaidos bus paskirstytos pagal jūsų anksčiau apibrėžtus kriterijus.
 
 1. Pasirinkite **Paskirstyti**, norėdami pritaikyti jūsų nustatymus ir uždaryti dialogo langą.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

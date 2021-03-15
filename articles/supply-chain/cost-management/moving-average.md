@@ -154,3 +154,6 @@ Jei po operacijos naujas turimas kiekis teigiamas, operacija padalinama į dvi d
 
 > [!NOTE]
 > Negalite suderinti su atsargų DK naudodami parinktį **Rūšiavimas pagal operacijos laiką**. Ataskaita turi būti spausdinama naudojant parinktį **Registravimo data**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

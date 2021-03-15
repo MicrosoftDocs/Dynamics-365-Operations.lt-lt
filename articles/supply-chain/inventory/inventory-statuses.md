@@ -64,3 +64,6 @@ Galite keisti inventoriaus būsnas naudodami **Turimos vietos** puslapį arba na
 > - Puslapyje **Turima pagal vietą** galite grupuoti eilutes pagal rodomus matmenis naudodami **Rodomi matmenys** mygtuką ir keisti pasirinktų eilučių būseną.
 > - Puslapyje **Turima pagal vietą** puslapyje galtie pasirinkti keletą įrašų ir tada naudoti **Inventoriaus būsenos keitimo** mygtuką, kad pakeistumėte visus juos vienu metu.
 > - Periodinėje **Inventoriaus būsenos keitimo** užduotyje galite filtruoti pagal sekimo matmenis.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -276,3 +276,6 @@ Norėdami peržiūrėti tiekėjo patvirtinimo ar klaidos atsakymo turinį, pasir
 
 - [Išorinio katalogo nustatymas el. pirkimo išėjimo laikui žymėti](set-up-external-catalog-for-punchout.md)
 - [Išorinių katalogų naudojimas el. įsigijimų išėjimo laikui žymėti](use-external-catalogs-for-punchout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

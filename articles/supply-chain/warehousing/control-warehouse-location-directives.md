@@ -76,3 +76,6 @@ Vietos kryptys nustato *ar* prekės turi būti paimamos ir *kur* jos turi būti 
 
 - Vaizdo įrašas: [Sandėlio valdymo konfigūravimo gili analizė](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Pagalbos tema: [Sukurkite vietos kryptis](create-location-directive.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

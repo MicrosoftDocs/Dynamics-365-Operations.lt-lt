@@ -108,3 +108,6 @@ Toliau pateikiamoje lentelėje rasite A ir B teritorijų užsakymo įvedimo term
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

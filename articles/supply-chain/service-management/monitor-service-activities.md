@@ -59,3 +59,6 @@ Spustelėkite **Aptarnavimo valdymas** \> **Periodinis** \> **Išsiuntimo inform
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

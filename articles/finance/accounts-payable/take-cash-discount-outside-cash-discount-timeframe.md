@@ -90,3 +90,6 @@ Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas** apačio
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

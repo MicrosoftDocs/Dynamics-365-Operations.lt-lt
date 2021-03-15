@@ -134,3 +134,6 @@ Toliau pateiktoje iliustracijoje pateikiamas produkto įvertinimų skambučių c
 [Įvertinimų ir atsiliepimų tvarkymas](manage-reviews.md)
 
 [Įvertinimų ir atsiliepimų konfigūravimas](configure-ratings-reviews.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

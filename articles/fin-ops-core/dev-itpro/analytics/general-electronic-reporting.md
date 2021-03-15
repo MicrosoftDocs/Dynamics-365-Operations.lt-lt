@@ -298,3 +298,6 @@ ER suteikia galimybę automatiškai priimti naujausios pagrindinio komponento ve
 
 - [Elektroninių ataskaitų (ER) konfigūracijų kūrimas](electronic-reporting-configuration.md)
 - [Elektroninių ataskaitų (ER) konfigūracijų ciklo valdymas](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

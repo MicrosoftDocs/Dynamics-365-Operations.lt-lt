@@ -74,3 +74,6 @@ Puslapyje **Priežiūros biudžeto eilutės** galite rankiniu būdu įtraukti na
 
 - Žinote, kad planuojamas kai kurio turto atnaujinimas, tačiau modulyje Turto valdymas dar nėra sukurta susijusių užduočių. Tačiau norite, kad šių užduočių biudžeto išlaidos būtų įtrauktos į priežiūros biudžetą.
 - Nuo tada, kai sudarėte priežiūros biudžetą, buvo sukurta naujo turto ar turto tipų, tačiau dar nėra nustatyta šio turto ar turto tipų priežiūros planų. Tačiau norite, kad šių turto tipų išlaidos būtų įtrauktos į priežiūros biudžetą.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ ms.locfileid: "4978869"
 21. Lauke **Mokėjimo nuoroda** įveskite mokėjimo nuorodą. Mokėjimo nuorodos reikia tik tuomet, jei pažymėsite, kad mokėjimas būtų įtrauktas į mokėjimo kvitą.  
 22. **Veiksmų srityje** spustelėkite **Registruoti**, kad užregistruotumėte kliento mokėjimus. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

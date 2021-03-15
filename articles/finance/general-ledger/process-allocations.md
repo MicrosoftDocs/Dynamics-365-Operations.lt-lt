@@ -43,3 +43,6 @@ DK paskirstymo taisykles galima naudoti biudžeto planams. Kai DK paskirstymo ta
 > [!NOTE]
 > Biudžetui planuoti negalima naudoti vidinės įmonės DK paskirstymo taisyklių.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

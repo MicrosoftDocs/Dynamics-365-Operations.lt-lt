@@ -39,3 +39,6 @@ Jei pardavimo pasiūlymo eilutėje bandysite nustatyti prekės, kurios tipas yra
 
 Negalite nustatyti produktų, kurie yra aptarnavimo prekės, pardavimų kiekio. Pavyzdžiui, jei jūs siūlote paslaugą prekei įdiegti, nėra prasminga įrašyti kiekį, nes nėra faktinių prekių. Yra tik paslauga.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

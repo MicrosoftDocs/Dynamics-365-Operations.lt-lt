@@ -119,3 +119,6 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus
 23. Spustelėkite Įrašyti.
 24. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

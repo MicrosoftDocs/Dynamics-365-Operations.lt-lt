@@ -105,3 +105,6 @@ Kitas šio pavyzdžio rankinio gretinimo būdas yra elgtis taip:
 1. Sugretinti Inv1 ir Inv 2 su FB vieną po kito. FB yra visiškai sugretinta.
 
 Kaip rodo šis pavyzdys, transportavimo sąskaitos faktūrų su neigiamomis sumomis gretinimą reikia atlikti tik rankiniu būdu. Taip užtikrinsite, kad visada galima sugretinti transportavimo sąskaitas faktūras, turinčias neigiamas sumas, su nevisiškai sugretintomis transportavimo sąskaitomis, kas leidžia valdyti gretinimo seką.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -112,3 +112,6 @@ Norėdami išvalyti pavienius pardavimo užsakymų įrašus, vykdykite *Pardavim
 Paketo elementas negalimas pirkimo užsakyme, nes, jei patikrinsite paketo elemento pardavimo užsakymo eilutes, pastebėsite, kad kiekis yra *0* (nulis), o būsena *Atšaukta*. Toks veikimo būdas yra numatytas. Pardavimo užsakymas perka tik paketo elemento komponentus. Jis neperka pačio paketo elemento.
 
 Jei privalote įsigyti paketą, apsvarstykite, ar reikės jį pažymėti kaip paketo elementą, nes šis funkcionalumas yra skirtas pelno atpažinimo scenarijams. Daugiau informacijos apie paketo elementus žr. [Paketai](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

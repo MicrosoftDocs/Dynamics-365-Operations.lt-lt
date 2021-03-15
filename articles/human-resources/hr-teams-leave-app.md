@@ -228,3 +228,6 @@ Norėdami apriboti prieigą prie „Human Resources” programėlės, esančios 
 [„Microsoft Teams“ atsisiuntimas ir diegimas](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
 [„Microsoft Teams“ pagalbos centras](https://support.office.com/teams)</br>
 [„Human Resources“ programa „Teams“](hr-admin-teams-leave-app.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

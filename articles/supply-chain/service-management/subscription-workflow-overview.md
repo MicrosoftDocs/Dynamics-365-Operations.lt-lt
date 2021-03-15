@@ -56,3 +56,6 @@ Kiekvieno mėnesio pabaigoje vieno mėnesio kliento abonemento įplaukas galima 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

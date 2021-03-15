@@ -302,3 +302,6 @@ Norėdami sukurti sąskaitos išsamios informacijos puslapį saito kūrimo įran
 [Turinio bloko modulis](../add-hero-module.md)
 
 [Produkto kolekcija](../product-collection-module-overview.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

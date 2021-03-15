@@ -59,3 +59,6 @@ Medžio aukščiausias mazgas nurodo pasirinktos prekės ir paketo turimų atsar
 9. Spustelėkite **Išsiųsti pardavimo užsakymai**.
 10. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Toliau pateiktame paveiksle rodoma keturių turtų KPI skaičiavimo ekrano kopij
 - **Visas turtas** galite pažymėti kelis turtus, tada spustelėkite skirtuko **Bendra** mygtuką **Turto KPI**. Tada dialogo lange **Skaičiuoti turto KPI** spustelėkite **Gerai**, kad apskaičiuotumėte pasirinkto turto KPI.  
 - Į KPI skaičiavimo rezultatus gali arba negali būti įtrauktos [prižiūrimo turto prastovos registracijos](../work-orders/maintenance-downtime.md) atsižvelgiant į sąranką ir prižiūrimo turto prastovos priežasčių kodų naudojimą. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

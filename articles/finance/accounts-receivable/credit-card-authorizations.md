@@ -79,3 +79,6 @@ Norėdami anuliuoti kreditinių kortelių autorizavimą, galite pakeisti mokėji
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -84,3 +84,6 @@ Norėdami įjungti B2B užsakymo kiekių apribojimų funkciją „Commerce“ sa
 [Valdykite verslo partnerio vartotojus B2B el. komercijos saituose](manage-b2b-users.md)
 
 [Konfigūruoti kliento sąskaitos mokėjimo metodą B2B el. komercijos saitams](payment-method.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -186,3 +186,6 @@ Tolesni atpažinimo ženklai pakeičiami kiekvieno užsakymo produkto reikšmėm
 [„Microsoft Azure“ portalas](https://azure.microsoft.com/features/azure-portal)
 
 [„Dynamics 365 Commerce“ svetainė](https://aka.ms/Dynamics365CommerceWebsite)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ ms.locfileid: "4990772"
 ## <a name="view-the-imported-cost-centers"></a>Importuotų išlaidų centrų peržiūra
 1. Spustelėkite Peržiūrėti dimensijos narius.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

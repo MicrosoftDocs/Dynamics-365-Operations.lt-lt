@@ -122,3 +122,6 @@ ms.locfileid: "4994820"
 88. Lauke **Pagrindinė sąskaita** nustatykite norimas reikšmes.
 89. Lauke **Korespondentinė sąskaita** nustatykite norimas reikšmes.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

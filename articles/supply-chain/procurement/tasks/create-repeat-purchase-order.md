@@ -69,3 +69,6 @@ Užuot kopijavus visą užsakymą, dažniau yra kuriamas naujas PU ir įvedama P
 4. Pasirinkite eilutę pageidaujamam pirkimo užsakymui. Atkreipkite dėmesį, kad taip pat pažymima viena užsakymo eilutę, esanti šiame PU.  
 5. Pasirinkite **Gerai**. Papildoma užsakymo eilutė buvo įtraukta į pirkimo užsakymą.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

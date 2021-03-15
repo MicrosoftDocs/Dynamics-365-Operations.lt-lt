@@ -86,3 +86,6 @@ Toliau pateiktoje lentelėje nurodomi objektai, kuriais pagrįstas turinys.
 | Darbuotojų tendencija           | Darbininkai per tam tikrą laiką, darbininkų skaičius, įmonė ir pareigos                                 | Įmonė, kompensacija, geografinė vieta, darbuotojo vardas ir pavardė, atskaitingas (kam), kalendoriaus poslinkis, data, darbuotojo pareigos, demografiniai duomenys, darbas, užduotis |
 | Masinės samdos projektas        | Masinės samdos projektų skaičius, projekto savininkas ir projekto būsena                     | Įmonė, masinės samdos eilutė |
 | Masinės samdos eilutė           | Padalinys, įdarbinimo tipas ir pareigos                                           | Data, darbas, masinės samdos projektas |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

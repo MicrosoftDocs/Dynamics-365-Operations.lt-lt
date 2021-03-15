@@ -43,3 +43,6 @@ Kalendoriuje apibūdinamas operacijos išteklius ir pajėgumas ir darbo laikas. 
 12. Pasirinkite **Gerai**.
 13. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Pateiktoje procedūroje paaiškinama, kaip sistemos administratoriaus vaidmens v
 5. Lauke **Laiko juosta** pasirinkite parinktį iš išplečiamojo meniu.
 6. Pasirinkite **Įrašyti**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

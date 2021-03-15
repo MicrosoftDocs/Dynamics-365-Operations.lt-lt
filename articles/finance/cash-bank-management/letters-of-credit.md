@@ -52,3 +52,6 @@ Daugiau informacijos ieškokite šiose temose:
 [Akredityvo banko priemonės sutarties kūrimas](tasks/create-bank-facility-agreement-letter-credit.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -330,3 +330,6 @@ Grąžinimo užsakymas nenurodo į kliento sąskaitą faktūrą. Grąžinta prek
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

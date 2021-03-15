@@ -60,3 +60,6 @@ Temoje [Puslapio elementai](page-elements-overview.md) pateikiama įvairių doku
 [Šablonų ir maketų apžvalga](templates-layouts-overview.md)
 
 [Svetainės naršymo tinkinimas](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -118,3 +118,6 @@ Norėdami nustatyti registravimo šabloną, nurodykite toliau pateiktas reikšme
 | **Atsiskaitymas** | Pasirinkite šią parinktį, kad įgalintumėte automatinį operacijų, kurių registravimo profilis yra šis, sudengimą. Jei ši parinktis atžymėta, sudengti operacijas turite rankiniu būdu puslapyje **Sudengti atidarytas operacijas**. |
 | **Atšaukti**     | Pasirinkite šią parinktį, jei norite atšaukti operacijas, kurių registravimo profilis yra šis.                                                                                                               |
 | **Uždaryti**      | Pasirinkite registravimo profilį, į kurį bus pakeičiama, kai operacijos, kurioms taikomas šis registravimo profilis, bus uždarytos. Operacija laikoma uždaryta, kai ji yra visiškai sudengta.                                       |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

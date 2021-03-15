@@ -88,3 +88,6 @@ Kai bandote įgalinti schemas, galite gauti tokį klaidos pranešimą:
 *Dvigubo rašymo funkcijos klaida – nepavyko registruoti priedo: \[(nepavyko gauti skaidinio schemos projektui DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea. Klaida. Viršijamas maksimalus susiejimui leidžiamų skaidinių skaičius DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea)\], įvyko viena ar daugiau klaidų.*
 
 Dabartinis limitas susiejant aplinkas yra maždaug 40 juridinių lentelių. Ši klaida įvyksta, jei bandote įgalinti schemas, o daugiau nei 40 juridinių lentelių yra susieti su aplinkomis.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

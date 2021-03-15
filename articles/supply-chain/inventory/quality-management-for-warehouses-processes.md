@@ -621,3 +621,6 @@ Nustatėte 51 sandėlio darbo ir vietos duomenis, kad užtikrintumėte, jog atli
 
 > [!NOTE]
 > Apsvarstykite galimybę įtraukti perkėlimo iš kokybės kontrolės įrašą į mobiliojo įrenginio meniu elementą, kai veiklos kodas *Rodyti atidarytą užduočių sąrašą*. Pavyzdžiui, demonstraciniuose duomenyse yra mobiliojo įrenginio meniu elementas, pavadintas **Darbų sąrašas**. Pirmiausia į vartotojo nukreiptą meniu elementą įtraukite darbo klasę *Kokybės užsakymas*, nes šiai darbo klasei reikia, kad darbas būtų rodomas darbų sąraše. Tada darbo klasę *Kokybės užsakymas* įtraukite į meniu elementą **Darbų sąrašas**. Tada vartotojai, turintys prieigą prie darbų sąrašo, galės paimti ir apdoroti darbą, kuris automatiškai sugeneruojamas atliekant kokybės užsakymo tikrinimą.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

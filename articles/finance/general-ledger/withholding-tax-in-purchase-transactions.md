@@ -75,3 +75,6 @@ Atskaitomas mokestis yra skaičiuojamas **Pardavėjo mokėjimo žurnale**. Galit
 Išvestas atskaitoma mokesčio suma bus atskaičiuojama iš pardavėjo mokėjimo ir publikuojama **Atskaitomo mokesčio sąskaitos** susijusiame kvite.
 
 ![Atskaitomo mokesčio sąskaita rodo susijusį kvitą](media/withholding-tax-adjusted.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -97,3 +97,6 @@ Išmaniuosiuose telefonuose ir kituose mažuose ekranuose valdikliai ir formos m
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Gairės, skirtos padėti kūrėjams ir klientams savo tinkinimus labiau pritaikyti neįgaliesiems
 
 Norėdami sužinoti daugiau apie „Microsoft“ geriausią praktiką pritaikant neįgaliesiems, žr. [Formų, produktų ir valdiklių pritaikymas neįgaliesiems](../../dev-itpro/user-interface/enable-accessibility.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

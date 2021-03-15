@@ -90,3 +90,6 @@ Norėdami įtraukti paieškos rezultatų modulį į kategorijų puslapį, atliki
 [Modulių bibliotekos peržiūra](starter-kit-overview.md)
 
 [Greito rodinio modulis](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

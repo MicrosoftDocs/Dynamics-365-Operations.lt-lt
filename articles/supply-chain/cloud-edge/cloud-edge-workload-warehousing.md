@@ -292,3 +292,6 @@ Darbo krūvio skalės vienetuose, galite valdyti tolesnes paketines užduotis **
 - Tvarkyti bangos lentelės įrašus
 - Iš sandėlio telkinio į skalės vienetą pranešimų procesorius
 - Apdoroti sandėlio užsakymo eilučių kiekio atnaujinimo užklausas
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

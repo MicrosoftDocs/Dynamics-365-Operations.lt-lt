@@ -80,3 +80,6 @@ Nepriklausomai nuo to, ar talpinote žemėlapio sąskaitas, pašalinkite **Naudo
 
 > [!NOTE]
 > Galite naudoti šį metodą siekiant sukurti sąskaitų grafiką konsoliduotame juridiniame asmenyje iš sąskaitų grafiko papildomuose juridiniusoe asmenyse. (Dėl papildomos informacijos, žr. [Konsolidavimo paskyros grupės ir papildomos konsolidavimo sąskaitos](../budgeting/consolidation-account-groups-consolidation-accounts.md).) Tuomet priskirkite atitinkamą konsolidavimo konvertavimo principą kiekvienai konsoliduotai pagrindinei sąskaitai ir vykdykite konsolidavimą visiems dukteriniams juridiniams asmenims.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

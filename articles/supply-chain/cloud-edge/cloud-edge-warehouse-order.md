@@ -72,3 +72,6 @@ Rodinyje **Sandėlio užsakymo eilutės** galite stebėti gavimo eigą peržiūr
 
 - Eikite į **Sandėlio valdymas \> Užklausos ir ataskaitos \> Sandėlio užsakymo eilutės** ir naudokite filtrą rasti ieškomoms eilutėms.
 - Eikite į **Įsigijimas ir šaltiniai \> Pirkimo užsakymai \> Visi pirkimo užsakymai** ir atidarykite reikiamą pirkimo užsakymą. Skyriuje **Pirkimo užsakymo eilutės** pasirinkite vieną ar daugiau eilučių ir tada įrankių juostoje pasirinkite **Sandėlis \> Sandėlio gavimo įrašai**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

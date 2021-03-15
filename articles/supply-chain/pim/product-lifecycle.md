@@ -108,3 +108,6 @@ Naudokite toliau nurodytus išleistų produktų arba produkto variantų pasirink
 - [Produkto ciklo būsenos priskyrimas išleistam produktui](tasks/product-lifecycle-state-released-product.md)
 - [Pasenusių produkto variantų radimas ir produkto ciklo būsenos priskyrimas](tasks/obsolete-product-variants.md)
 - [Produkto ciklo būsenos kūrimas norint pašalinti produktus iš bendrojo planavimo](tasks/exclude-products-master-planning.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

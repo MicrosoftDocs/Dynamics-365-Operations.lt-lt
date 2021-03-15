@@ -44,3 +44,6 @@ Visuotino išskaitomo mokesčio funkcijos yra padidintos pardavėjo ir kliento t
 
 > [!NOTE]
 > Visuotinio išskaitomo mokesčio funkcija negali būti įjungta šalims ar regionams, kuriuose lokalizuojami išskaitomo mokesčio sprendimai jau egzistuoja. Šios sritys apima, tačiau neapsiriboja Indija, Brazilija, Tailandu, Saudo Arabija, Airija, Didžiąja Britanija ir Jungtinėmis Amerikos Valstijomis.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

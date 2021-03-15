@@ -159,3 +159,6 @@ Ganto diagramą galima atidaryti iš šių puslapių.
 
 [Vaizdinis gamybos planavimas (demonstracinis scenarijus)](https://docs.microsoft.com/dynamics/s-e/)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -97,3 +97,6 @@ Spausdindami laisvą tekstą, klientą ir projekto kredito pažymą, jis apims n
 
 > [!NOTE]
 > Įsitikinkite, kad spausdinami dokumentų formatai yra tinkamai sukonfigūruoti remiantis prielaida, kad nuorodos į originalias sąskaitas bus atspausdintos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

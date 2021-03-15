@@ -84,3 +84,6 @@ Taip pat galite atlikti neautomatinius prognozės koregavimus puslapyje **Poreik
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

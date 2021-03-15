@@ -115,3 +115,6 @@ Toliau pateiktas paveikslėlis rodo **Apsipirkti panašia mada nuorodos įjungim
 [Rekomendacijų su demonstraciniais duomenimis kūrimas](product-recommendations-demo-data.md)
 
 [DUK apie produktų rekomendacijas](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

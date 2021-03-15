@@ -99,3 +99,6 @@ Darbo elementas yra konkreti išteklių grupių forma, kurios gali būti naudoja
 ## <a name="save"></a>Įrašyti
 1. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

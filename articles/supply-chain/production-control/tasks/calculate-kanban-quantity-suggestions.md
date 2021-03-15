@@ -84,3 +84,6 @@ ms.locfileid: "4981386"
     * Atkreipkite dėmesį, kad tai yra fiksuotas 4 „kanban“ kiekis iš „kanban“ kiekio skaičiavimo.  
 5. Spustelėkite skirtuką „ListPanel“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ Dabar galite pastoviosios atlyginimo dalies planui priskirti darbuotoją. Atidar
 
 Sistema patikrina, kad nurodyta kategorijos arba intervalo tipo kompensacijos plano suma yra tarp mažiausio ir didžiausio atskaitos taškų pagal darbuotojo užduočiai priskirtą kompensacijos lygį. Jei kompensacijos suma nepatenka į leidžiamą diapazoną, rodomas perspėjimas arba klaidos pranešimas, atsižvelgiant į pastoviosios atlyginimo dalies plano nuokrypio lygį.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

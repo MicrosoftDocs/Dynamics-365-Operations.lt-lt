@@ -41,3 +41,6 @@ Galite nustatyti įvairių tipų užklausas, kurias naudotumėte įmonėje. Vien
 Paveikslėlyje pavaizduotas sąrašo puslapio **Visos priežiūros užklausos** pavyzdys.
 
 ![Visų priežiūros užklausų sąrašo puslapis](media/01-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

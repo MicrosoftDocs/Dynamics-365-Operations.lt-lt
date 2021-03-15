@@ -65,3 +65,6 @@ Kiekvienam papildymo metodui priskiriamas vienas toliau pateiktų padengimo kod�
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Bendrųjų planų apžvalga](master-plans.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

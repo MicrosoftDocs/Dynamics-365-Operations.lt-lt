@@ -81,3 +81,6 @@ Gamybos planuotojas gali sukurti pagrindinę prognozę naudodamas laiko serijos 
 5. Spustelėkite „Prognozės eilutės informacija“.
     * Šiame puslapyje galite matyti tikslumo reikšmes, praeities poreikį ir prognozę. Taip pat galite keisti ir prognozę.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

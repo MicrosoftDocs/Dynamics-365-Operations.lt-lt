@@ -67,3 +67,6 @@ Jūsų organizacijos parduodami produktai gali būti kelių variantų, kuriuos s
     Puslapyje **Bendrosios sumos** rodoma išsami informacija apie visą užsakymą. Ji apima tarpinę sumą, kuri yra visų eilučių grynųjų sumų, pakoreguotų atsižvelgiant į galimas eilučių nuolaidas, suma, visą SF sumą, kuri yra tarpinė suma, pakoreguota atsižvelgiant į galimą užsakymo lygio nuolaidą, išlaidas ir PVM, kliento kredito limito situaciją ir kt. SF suma – tai suma, kuri bus rodoma kliento SF dokumente.  
     
 3. Pasirinkite **Gerai**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

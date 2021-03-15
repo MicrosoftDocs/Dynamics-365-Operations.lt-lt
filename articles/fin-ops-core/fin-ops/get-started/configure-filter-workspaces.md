@@ -63,3 +63,6 @@ Jei atskiruose darbo srities skyriuose yra filtrai, galite filtruoti kiekvieną 
 [![workspace-section-filters](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 
 Kaip ir su visos darbo srities filtru, pasirinkite arba įveskite vertę į lauką, norėdami filtruoti skyriaus turinį.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

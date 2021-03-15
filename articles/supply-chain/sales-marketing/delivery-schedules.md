@@ -56,3 +56,6 @@ Kai patvirtinsite pardavimo pasiūlymus, gautuose pardavimo užsakymuose rodomas
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

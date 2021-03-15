@@ -61,3 +61,6 @@ Jei reikia daugiau informacijos, žr. temą [Tiekėjų bendradarbiavimas su išo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

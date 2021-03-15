@@ -106,3 +106,6 @@ Galite įvesti kainos pasiūlymą kaip tiekėjas arba įsigijimo specialistas. D
 ## <a name="view-the-purchase-order-that-is-generated"></a>Sugeneruojama pirkimo užsakymo peržiūra
 
 Veiksmų srities skirtuke **Bendra** pasirinkite **Pirkimo užsakymas**. Pasirodžiusiame puslapyje galite peržiūrėti pirkimo užsakymą, kuris buvo sugeneruotas, kai priėmėte kainos pasiūlymą.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

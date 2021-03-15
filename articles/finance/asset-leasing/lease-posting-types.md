@@ -153,3 +153,6 @@ Sąskaita, kuri pasirenkama kiekvienam išlaidų tipui, debetuojama, kai sugener
 
 > [!NOTE]
 > Korespondentinė sąskaita pasirenkama nuomos lygyje eilutėse, skirtose eksploatavimo išlaidų mokėjimo grafikui. Ši korespondentinė sąskaita gali būti susieta su tiekėju arba su DK sąskaita.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

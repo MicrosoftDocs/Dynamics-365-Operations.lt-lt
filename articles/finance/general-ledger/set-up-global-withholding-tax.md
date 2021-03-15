@@ -47,3 +47,6 @@ ms.locfileid: "5060770"
 7. Nustatykite išskaitomo mokesčio grupes **Prekės išskaitymo mokesčio grupių** puslapyje prekei ar paslaugoms.
 
 8. Nustatykite **Mažiausią sąskaitos sumą** puslapyje **Bendrosios apskaitos knygos parametrai > Išskaitymo mokesčio** puslapyje.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

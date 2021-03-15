@@ -133,3 +133,6 @@ Galite išsaugoti dabartines reikšmes kaip numatytąsias reikšmes. Galima naud
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

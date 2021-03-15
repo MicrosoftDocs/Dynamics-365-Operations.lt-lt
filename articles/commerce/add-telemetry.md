@@ -121,3 +121,6 @@ Norėdami svetainių daryklėje įtraukti išorinį scenarijų tiesiai į šablo
 [Įtraukti informaciją apie autorių teises](add-copyright-notice.md)
 
 [Kalbų įtraukimas į savo svetainę](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

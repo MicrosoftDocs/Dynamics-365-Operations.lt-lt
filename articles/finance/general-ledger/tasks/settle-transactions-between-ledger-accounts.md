@@ -48,3 +48,6 @@ ms.locfileid: "4994420"
 7. Spustelėkite DK sudengimai.
 8. Sąraše pažymėkite pasirinktą eilutę.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

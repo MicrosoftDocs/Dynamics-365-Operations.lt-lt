@@ -53,3 +53,6 @@ Toliau pateiktame paveikslėlyje pateikiami priežiūros grafiko savikainos skai
 
 ![1 pav.](media/17-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

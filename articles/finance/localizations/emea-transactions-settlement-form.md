@@ -47,3 +47,6 @@ Su sudengimu susijusi informacija yra išsaugoma ir ją galima peržiūrėti pus
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

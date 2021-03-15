@@ -54,3 +54,6 @@ Našumo žurnale pateikiama informacija, susijusi su tuo, kaip jus pasiekėte sa
 20. Lauke Aprašas įveskite „Ačiū už pagalbą konferencijoje!“.
 21. Spustelėkite Siųsti.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

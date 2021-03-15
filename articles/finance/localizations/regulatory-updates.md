@@ -77,3 +77,6 @@ Naujausių reglamentavimo naujinių planų ieškokite toliau pateiktoje lentelė
 - Visus suplanuotus ir išleistus reguliavimo naujinimus galite rasti puslapyje [„Lifecycle Services“ – problemų ieška](https://lcs.dynamics.com/Logon/Index) (būtina prisijungti).
 - Palaikomų lokalių sąrašą žr. puslapyje [Tarptautinio pasiekiamumo vadovas](https://aka.ms/dynamics_365_international_availability_deck).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

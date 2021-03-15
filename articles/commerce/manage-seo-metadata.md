@@ -96,3 +96,6 @@ Norėdami modifikuoti metaduomenis, atlikite šiuos veiksmus.
 [Patikrinti puslapio turinio pritaikymą neįgaliesiems](verify-accessibility.md)
 
 [Sukurti dinaminius e-komercijos puslapius pagal URL parameterus](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

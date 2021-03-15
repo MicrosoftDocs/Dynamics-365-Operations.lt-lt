@@ -45,3 +45,6 @@ ms.locfileid: "4977818"
 1. Veiksmų srityje spustelėkite Valdyti išlaidas.
 2. Spustelėkite Peržiūrėti savikainos palyginimą.
     * Pabaigę gamybos užsakymą galite palyginti įvertintą savikainą su realizuota savikaina ir peržiūrėti gamybos nuokrypius.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

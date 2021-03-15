@@ -396,3 +396,6 @@ Dėl išsamesnės informacijos apie kokybės valdymą, žr. [Kokybės valdymo pe
 1. Pasirinkite meniu mygtuką (**≡**) puslapio viršuje ir tuomet meniu pasirinkite **Atšaukti** grįžimui į meniu.
 
 Dabar galite uždaryti mobiliąją programą.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

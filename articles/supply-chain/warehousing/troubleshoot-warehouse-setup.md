@@ -39,3 +39,6 @@ Negalite naudoti jokių vaidmenų išskyrus administratoriaus vaidmens, kad prie
 ### <a name="issue-resolution"></a>Problemos paaiškinimas
 
 Mobilaus įrenginio programos emuliatorius yra nustatytas taip, kad dirbtų tik su administratoriaus paskyra. Visiems testavimo ir gyvojo proceso tikslams, rekomenduojame jums naudoti sandėlio programą.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

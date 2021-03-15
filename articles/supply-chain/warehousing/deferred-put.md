@@ -109,3 +109,6 @@ Yra keli scenarijai, kai atidėto padėjimo apdorojimas nėra taikomas, net jei 
 ## <a name="deleting-completed-tasks"></a>Baigtų užduočių naikinimas
 
 Galima panaikinti atidėto padėjimo apdorojimo užduotis, kurios buvo baigtos jas pasirenkant ir panaikinant puslapyje.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

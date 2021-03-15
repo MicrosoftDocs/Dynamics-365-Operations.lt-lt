@@ -63,3 +63,6 @@ Svetainės išrinkiklio modulį galima įtraukti į [antraštės modulį](author
 [Naršymo kelio modulis](add-breadcrumb.md)
 
 [Naršymo meniu modulis](nav-menu-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Galite apibrėžti strategijos taisyklės apimtį. Pavyzdžiui, jei sukuriate i�
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

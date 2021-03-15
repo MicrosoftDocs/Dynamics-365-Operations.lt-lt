@@ -75,3 +75,6 @@ Tolesni laukeliai yra prieinami kiekvienam procesui, kuris išvardytas **Įjungt
 | Polisas | Pasirinkite vieną iš tolesnių verčių, kad valdytumėte, ar ir kaip esamas procesas leis produktus esančius jų gyvavimo ciklo būsenoje:<ul><li>**Įjungta** – Verslo procesas leidžiamas.</li><li>**Blokuotas** – Procesas neleidžiamas. Jei vartotojas bando naudoti procesą produkte, kuris yra gyvavimo ciklo būsenos, sistema užblokuos bandymą ir rodys klaidą. Pavyzdžiui, galite užblokuoti iki gyvavimo galo esančius produktus neleisdami jų įsigyti.</li><li>**Įjungti su įspėjimu** – Procesas leidžiamas, bet rodomas įspėjimas. Pavyzdžiui, galbūt jums reikės, kad produkto prototipas būtų padėtas į prekybos užsakymą, kuris yra sukurtas mokslo ir vystymo skyriaus. Nepaisant to, kiti skyriai turėtų žinoti, kad jie neturėtų gaminti gaminio.</li></ul> |
 
 Jei įtraukiate daugiau gyvavimo ciklo būsenos taisyklių į savo tinkinimą, galite peržiūrėti šias taisykles vartotojo sąsajoje (UI) pasirinkę **Naujinti procesus** viršutinėje juostoje. Mygtukas **Naujinti proceuss** yra prieinamas tik administratoriams.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

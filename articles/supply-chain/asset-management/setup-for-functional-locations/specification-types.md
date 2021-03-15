@@ -63,3 +63,6 @@ Galite sukurti savo atributų tipus. Be to, galite perkelti produkto dimensijas 
 9. Įrašykite įrašą.
 
     Lauke **Funkcinių vietovių tipai** rodomas funkcinių vietovių, kurios naudoja šį atributo tipą, skaičius. Lauke **Turto tipai** rodomas jį naudojančių turto tipų skaičius.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

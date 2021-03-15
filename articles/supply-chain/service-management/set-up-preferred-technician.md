@@ -67,3 +67,6 @@ Galite pasirinkti bet kurį darbuotoją, kaip pageidaujamą techniką aptarnavim
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

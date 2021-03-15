@@ -109,3 +109,6 @@ Kai pavojingų medžiagų funkcija yra įjungta Jūsų sistemoje, ataskaitoje **
 ## <a name="packing-list-report"></a>Pakavimo sąrašo ataskaita
 
 Kai pavojingų medžiagų funkcija yra įjungta Jūsų sistemoje, pakavimo sąrašuose yra papildoma informacija, susijusi su siuntimo spausdinimo tekstu prekei. Ši ataskaita, kaip įprastai, yra prieinama **Visi kroviniai** puslapyje.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

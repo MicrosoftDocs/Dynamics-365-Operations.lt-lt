@@ -42,3 +42,6 @@ ms.locfileid: "5020134"
 1. Eikite į Tiekėjo bendradarbiavimas > Konsignacijos atsargos > Turimos konsignacijos atsargos.
     * Puslapyje Turimos konsignacijos atsargos rodomos jūsų kliento sandėlyje turimos atsargos. Galima rodyti papildomas dimensijas, pvz., teritoriją ir sandėlį, spustelėjus skirtuką Rodyti dimensijas.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

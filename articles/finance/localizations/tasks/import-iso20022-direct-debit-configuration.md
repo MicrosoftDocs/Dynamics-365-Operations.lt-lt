@@ -48,3 +48,6 @@ Tai yra pirmoji iš penkių procedūrų, kuriose apibūdinamas kliento mokėjimo
     * Jei mygtuko Importuoti naudoti negalima, tai reiškia, kad ši konfigūracija jau importuota.  
 9. Spustelėkite Taip.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -129,3 +129,6 @@ Norėdami patikrinti pateiktą vartotojo veiksmo kodą, atlikite šiuos veiksmus
 [Elektroninių ataskaitų (ER) paskirties vietos](electronic-reporting-destinations.md)
 
 [„Application Update 10.0.17“ elektroninės ataskaitų sistemos API pakeitimai](er-apis-app10-0-17.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ ms.locfileid: "4968409"
 9. Lauke Pradinis židinys pasirinkite dimensiją, kuri turės židinį, kai bus naudojamas pseudonimas.
     * Po to, kai įvesite nuorodą ir bus nustatyta sąskaita ir dimensijos, žymeklis arba židinys persikels į lauką Pradinis židinys.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

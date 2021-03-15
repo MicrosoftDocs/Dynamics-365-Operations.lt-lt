@@ -96,3 +96,6 @@ Paveikslėlyje pavaizduotas informacijos rodinio **Prižiūrimo turto prastovos 
 - Galite kopijuoti turtą iš vienos prižiūrimo turto prastovos veiklos į kitą. Iš **Visos prižiūrimo turto prastovos veiklos** pasirinkite mygtuką **Kopijuoti prižiūrimo turto prastovos veiklą** ir pasirinkite atrankos kriterijus laukuose **Iš prižiūrimo turto prastovos veiklų** ir **Prižiūrimo turto prastovos veiklos**, tada spustelėkite **Gerai**.
 - **Visos prižiūrimo turto prastovos veiklos** spustelėkite mygtuką **Priežiūros grafiko eilutės** arba mygtuką **Aktyvūs darbo užsakymai**, kad būtų atidaryti susiję sąrašai ir galėtumėte peržiūrėti eilutes, susijusias su pasirinkta prižiūrimo turto prastovos veikla.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Atlikite šiuos veiksmus, jei norite peržiūrėti dokumento, pateikto darbo eig
     - Spustelėjus mygtuką **Iš naujo priskirti** iš naujo atidaromas dialogo langas, kuriame galima iš naujo priskirti darbo elementą kitam vartotojui.  
     - Įsitikinkite, kad dalis **Sekimo informacija** yra išskleista. Šioje dalyje galite peržiūrėti pasirinkto dokumento darbo eigos retrospektyvą.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

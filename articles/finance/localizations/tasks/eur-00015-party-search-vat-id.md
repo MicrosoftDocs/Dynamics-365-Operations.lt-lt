@@ -41,3 +41,6 @@ ms.locfileid: "4984845"
 7. Spauskite Rasti.
     * Bus rodomos visos šalys su tuo registracijos ID.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

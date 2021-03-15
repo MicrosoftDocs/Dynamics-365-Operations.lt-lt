@@ -53,3 +53,6 @@ Daugiau informacijos žr. [Konsolidavimo grupių ir papildomų konsolidavimo są
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

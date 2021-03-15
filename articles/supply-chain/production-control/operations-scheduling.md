@@ -83,3 +83,6 @@ Jei dirbate su ribotomis medžiagomis, planavimas taip pat priklauso nuo medžia
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

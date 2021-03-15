@@ -72,3 +72,6 @@ Jei norite įkainodami naudoti nukreipimo informaciją, reikia atlikti papildomu
 
 [Produktų, kuriuos galima gaminti arba įsigyti, nustatymas](manufactured-items-treated-as-purchased-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

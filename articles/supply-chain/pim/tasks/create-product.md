@@ -38,3 +38,6 @@ ms.locfileid: "4992275"
 8. Lauke „Produkto numeris“ įveskite reikšmę.
 9. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -246,3 +246,6 @@ C. Pasirinkite Biudžeto sudarymas &gt; Sąranka &gt; Biudžeto planavimas &gt; 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

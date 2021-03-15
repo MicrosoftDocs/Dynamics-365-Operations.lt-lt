@@ -142,3 +142,6 @@ Norėdami išjungti scenarijų, atlikite toliau nurodytus veiksmus.
 2. Scenarijaus plytelėje pasirinkite **Konfigūruoti** .
 3. Norėdami pereiti į paskutinį vedlio puslapį, pasirinkite **Pirmyn**.
 4. Pasirinkite parinktį, norėdami išjungti scenarijų.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

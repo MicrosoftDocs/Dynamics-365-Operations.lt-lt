@@ -87,3 +87,6 @@ Toliau nurodyti aštuoni užduočių vedliai išvardyti tokia tvarka, kokia juos
 7.  [Konfigūracijos taisyklių kūrimas](tasks/create-configuration-rules.md)
 8.  [Konfigūracijų pagal dimensijas kūrimas](tasks/create-dimension-based-configurations.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

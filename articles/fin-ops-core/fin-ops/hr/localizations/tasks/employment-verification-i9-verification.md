@@ -54,3 +54,6 @@ Imigracinės reformos ir kontrolės įstatymas reikalauja, kad JAV darbdaviai ti
 22. Lauke Dokumento numeris įveskite arba pasirinkite reikšmę.
 23. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

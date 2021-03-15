@@ -63,3 +63,6 @@ Puslapyje **Turto skaitikliai** (**Turto valdymas** > **Užklausos** > **Turtas*
 >[!NOTE]
 >Galite nustatyti intervalą, kad nustatytumėte nuokrypius, kurie atsiranda rankiniu būdu registruojant skaitiklius. Taip pat galite nurodyti pranešimo, kuris rodomas, jei registruojant nukrypstama nuo nurodyto intervalo, tipą. Daugiau informacijos, kaip nustatyti skaitiklius, žr. [Skaitikliai](../setup-for-objects/counters.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

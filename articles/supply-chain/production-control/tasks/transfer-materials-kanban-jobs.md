@@ -65,3 +65,6 @@ ms.locfileid: "4981036"
 2. Spustelėkite Baigti.
     * Tai užbaigs abiejų užduočių perkėlimą.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

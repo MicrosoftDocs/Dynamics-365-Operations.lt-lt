@@ -73,3 +73,6 @@ Išsamios informacijos rodinyje galite atnaujinti įvairią informaciją. Štai 
 
 > [!NOTE]
 > Jei kurdami priežiūros užklausą pasirenkate turtą, prie jo galite pridėti vieną gedimą. Sukūrę priežiūros užklausą, pagal poreikius galite pridėti ir daugiau gedimų. Norėdami pridėti daugiau gedimų, puslapyje **Visos priežiūros užklausos** pasirinkite **Turto gedimas**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

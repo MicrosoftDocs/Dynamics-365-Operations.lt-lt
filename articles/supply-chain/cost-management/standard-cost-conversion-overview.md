@@ -101,3 +101,6 @@ Ataskaita **Nuokrypių analizės išrašas** leidžia analizuoti perkainojimo nu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -110,3 +110,6 @@ Toliau nurodyti esminiai ieškos rezultatų puslapio komponentai.
 
 [Paskyrų tvarkymo puslapių apžvalga](quick-tour-account-management.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

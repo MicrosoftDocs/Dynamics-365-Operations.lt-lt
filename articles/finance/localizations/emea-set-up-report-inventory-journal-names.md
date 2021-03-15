@@ -47,3 +47,6 @@ Norėdami nustatyti ryšį tarp konkrečios ataskaitos ir žurnalo tipo, puslapy
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

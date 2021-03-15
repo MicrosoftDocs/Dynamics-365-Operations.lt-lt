@@ -43,3 +43,6 @@ ms.locfileid: "5011002"
 3. Spustelėkite GERAI.
     * Atkreipkite dėmesį, kad sukuriama „kanban“ taisyklės 000017 kopija.    
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

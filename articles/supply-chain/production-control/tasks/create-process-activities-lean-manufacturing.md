@@ -93,3 +93,6 @@ Išankstiniai reikalavimai:
 12. Spustelėkite Baigti.
 13. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

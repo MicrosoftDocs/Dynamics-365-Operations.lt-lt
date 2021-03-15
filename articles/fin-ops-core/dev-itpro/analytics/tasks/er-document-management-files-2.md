@@ -91,3 +91,6 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus
 26. Spustelėkite Baigti.
 27. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

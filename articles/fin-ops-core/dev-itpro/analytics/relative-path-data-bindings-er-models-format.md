@@ -57,3 +57,6 @@ Jei patvirtinsite įdėtųjų elementų sąsają, naujas pirminis elementas bus 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [ER formulės kalba](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

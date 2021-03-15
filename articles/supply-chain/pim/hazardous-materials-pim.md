@@ -60,3 +60,6 @@ Norėdami pirmiausia konfigūruoti šią informaciją, sukurkite nuostatą, kuri
 ## <a name="warehouse-management"></a>Sandėlio valdymas
 
 Kai ruošiama siunta, galima atspausdinti kelias naujas ataskaitas. Šiose ataskaitose naudojama informacija, nustatyta produkto informacijos valdyme.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

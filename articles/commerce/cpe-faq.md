@@ -70,3 +70,6 @@ Laikotarpio pratęsimas yra išimtis iš taisyklės ir vertinamas kiekvienu atsk
 [Sukonfigūruokite „BOPIS“ „Dynamics 365 Commerce“ vertinamoje aplinkoje](cpe-bopis.md)
 
 [Konfigūruokite pasirinktas savybes „Dynamics 365 Commerce“ vertinamoje aplinkoje](cpe-optional-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ Sukūrus naują aptarnavimo sutarties, kuriai priskirta ALS, aptarnavimo užsaky
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

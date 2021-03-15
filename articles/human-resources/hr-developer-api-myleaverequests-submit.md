@@ -108,3 +108,5 @@ Iškviesdama pateikimo API, prieš pateikdama, „Human Resources“ atlieka ver
 
 - [MyLeaveRequests apžvalga](hr-developer-api-myleaverequests-overview.md)
 - [Autentifikavimas](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

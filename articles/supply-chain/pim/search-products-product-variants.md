@@ -86,3 +86,6 @@ Galite įgalinti šią funkciją, nuėję į **Pardavimas ir rinkodara &gt; Sąr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

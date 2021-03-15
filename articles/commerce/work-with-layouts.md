@@ -108,3 +108,6 @@ Kai peržiūrėsite iš anksto nustatyto maketo keitimus, atlikite vieną iš to
 [Šablonų ir maketų apžvalga](templates-layouts-overview.md)
 
 [Darbas su šablonais](work-with-templates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

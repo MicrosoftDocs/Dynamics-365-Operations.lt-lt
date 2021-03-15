@@ -84,3 +84,6 @@ Naudojant metodą Mažėjanti vertė, 30 procentų nusidėvėjimo pagrindo (iš 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ ms.locfileid: "5003683"
 8. Spustelėkite Gerai.
 9. Spustelėkite Gerai.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

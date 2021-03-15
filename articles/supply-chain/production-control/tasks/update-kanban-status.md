@@ -47,3 +47,6 @@ Kai per klaidą ištuštinamas „kanban‟ arba reikia ištuštinti gautą „k
 2. Sąraše pažymėkite pasirinktą eilutę.
     * Atkreipkite dėmesį, kad sandėliavimo vieneto būsena yra Ištuštintas.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ ms.locfileid: "4797169"
 [Kas nauja ar pasikeitė „Finance and Operations“ pagrindiniame puslapyje](whats-new-changed.md)
 
 [Nauji ar atnaujinti užduočių vedliai (2016 m. gegužės mėn.)](new-updated-task-guides-available-may-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

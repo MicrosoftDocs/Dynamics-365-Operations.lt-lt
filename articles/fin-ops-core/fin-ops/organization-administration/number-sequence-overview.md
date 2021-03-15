@@ -115,3 +115,6 @@ Rekomenduojame naudoti netęstines numeracijas, kad užtikrintumėte geresnį na
 Nutrūkus maitinimui, įvykus klaidai arba kitai netikėtai trikčiai, sistema negali perskirstyti tęstinių numeracijų skaičių automatiškai. Galite vykdyti valymo procesą rankiniu būdu arba automatiškai atkurti prarastus numerius.
 
 Atidžiai apsvarstykite serverio naudojimą, kai planuojate valymo procesą. Rekomenduojame ne piko valandomis atlikti valymą kaip paketinę užduotį.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Galite patikslinti iešką pasirinkdami dokumento tipą, pvz., tiekėjo SF, ir s
 [![Verslo dokumento tipo filtravimas ir importavimas](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG) 
 
 Filtruotus rezultatus galima importuoti į vartotojo RCS saugyklą arba „Dynamics 365 Finance” aplinką atskirai arba kaip rinkinį. Norėdami tai atlikti, pasirinkite konfigūracijų grupę ir spustelėkite **Importuoti**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -92,3 +92,6 @@ Naudokite šią procedūrą norėdami nustatyti mokėjimų grynaisiais pinigais 
 
 > [!NOTE]
 > Parduotuvėje būtina nustatyti ir mokėjimo grynaisiais pinigais priemonės, ir mokėjimo priemonės šalinimo arba pinigų srauto įrašo mokėjimo būdo korespondentines sąskaitas. Tokiu būdu sukuriami subalansuoti mokėjimo priemonės šalinimo arba pinigų srauto operacijų DK įrašai.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

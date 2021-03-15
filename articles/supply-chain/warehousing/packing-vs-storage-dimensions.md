@@ -133,3 +133,6 @@ Parengę sistemą, kaip aprašyta ankstesniame skyriuje, esate pasiruošę vykdy
 1. Atidarykite mobilųjį įrenginį, prisijunkite prie 63 sandėlio ir eikite į **Atsargos \> Koregavimas**.
 1. Įveskite **Vieta** = *TRUMPA-01*. Sukurkite naują numerio lentelę su **Preke** = *„A0001”* ir **Kiekiu** = *1 vnt*.
 1. Pasirinkite **Gerai**. Gausite klaidą „Vieta TRUMPA-01 nepavyko, nes prekė „A0001” neatitinka nurodytų vietos dimensijų.” Taip nutinka dėl to, kad produkto *Saugojimo* tipo dimensijos yra didesnės nei vietos profilyje nurodytos dimensijos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

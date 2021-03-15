@@ -69,3 +69,6 @@ Tolesnis paveikslėlis rodo e-komercijos išsiregistravimo puslapio pavyzdį, ku
 [Užsakymo patvirtinimo modulis](order-confirmation-module.md)
 
 [Išsamios užsakymo informacijos modulis](account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

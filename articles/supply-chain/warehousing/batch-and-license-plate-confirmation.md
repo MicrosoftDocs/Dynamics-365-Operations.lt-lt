@@ -47,3 +47,6 @@ Paketo ir numerio lentelės patvirtinimą galite konfigūruoti pagal mobiliojo �
 
 1. Mobiliojo įrenginio meniu elementuose įveskite darbo patvirtinimo sąranką.  
 1. Pasirinkite paketo arba numerio lentelės patvirtinimo parinktį. Abi parinktys taikomos darbo tipo paėmimams, kuriems neįgalinta automatinio patvirtinimo funkcija.  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

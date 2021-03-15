@@ -102,3 +102,6 @@ Paprastai subrangos išteklių grupės išeigos sandėlis ir vieta yra tiesiogia
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

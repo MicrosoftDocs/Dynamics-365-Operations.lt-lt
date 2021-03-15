@@ -63,3 +63,6 @@ Norėdami įtraukti banko išrašo importavimo objektą, kad būtų palaikomas M
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Norėdami peržiūrėti ir priskirti lizingo sutartį, atlikite šiuos žingsniu
 3. Pasirinkite **Įrašyti**.
 
 Sukūrus nuomą, kiekvienos knygos pradžios diena yra automatiškai įvedama pagal pradžios dieną, kuri įvedama už nuomą ir nuomos sutartį nurodytą knygoje.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Visuotinėje adresų knygelėje nustatyti parametrai apibrėžia vaidmenis, kuri
     - Norėdami įkelti nuotrauką, pasirinkite **Įkelti naują nuotrauką**.
     - Norėdami pašalinti nuotrauką, pasirinkite nuotrauką ir pasirinkite **Pašalinti**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

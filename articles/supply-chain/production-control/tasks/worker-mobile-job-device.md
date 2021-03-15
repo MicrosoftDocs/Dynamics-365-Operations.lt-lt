@@ -67,3 +67,6 @@ Pavyzdys: prieš sukonfigūruodami darbuotojo abonementą patikrinkite, ar varto
 6. Lauke **Gamybos vienetas** galite nustatyti numatytąjį darbuotojo filtrą. Tai užtikrins, kad bus rodomos tik pasirinkto gamybos vieneto gamybos užduotys, kai darbuotojas prisiregistruoja prie įrenginio. Įvesti reikšmę.
 7. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

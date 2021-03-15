@@ -48,3 +48,6 @@ Kai patvirtinate suplanuotą užsakymą, **Patvirtinimo** teksto laukelis rodo *
 - **Ne** – Joks inventoriaus ženklinimas nėra taikomas.
 - **Standartinis** – Inventoriaus ženklinimas yra naujinamas pagal fiksavimą. Reikalavimo užsakymas (paklausa) yra ženklinamas pagal įgyvendinimo užsakymą (pasiūlą). Jei keletas kiekių lieka įgyvendinimo užsakyme, jis neženklinamas ir atitinkama informacija paliekama tuščia. Pavyzdžiui, jei pardavimo užsakymas 100 ea yra fiksuojamas pagal pirkimo užsakymą 150 ea, atitinkama informacija bus priskirta tik pardavimo užsakymui.
 - **Išplėstas** – Tiek reikalavimo užsakymas (paklausa), tiek įgyvendinimo užsakymas (pasiūla) bus paženklinti nepriklausomai nuo bet kokio kiekio, kuris lieka įgyvendinimo užsakyme. Pavyzdžiui, jei pardavimo užsakymas 100 ea yra fiksuojamas pagal pirkimo užsakymą 150 ea, atitinkama informacija bus priskirta tiek pardavimo užsakymui, tiek pirkimo užsakymui.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

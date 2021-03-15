@@ -80,3 +80,6 @@ Toliau pateiktose iliustracijose vaizduojamas šablono susiejimas naudojant funk
 ### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>Sandėliai (iš Tiekimo grandinės valdymo į „Field Service“): sandėliai
 
 [![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/Warehouse1.png)](./media/Warehouse1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

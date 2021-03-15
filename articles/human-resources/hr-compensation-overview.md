@@ -132,3 +132,6 @@ Paleidę apdorojimo įvykį, pagal apskaičiuotas apdorojimo įvykio gaires gali
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

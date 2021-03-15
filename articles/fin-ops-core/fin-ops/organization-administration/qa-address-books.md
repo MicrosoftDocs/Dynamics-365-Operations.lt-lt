@@ -67,3 +67,6 @@ Kartais galbūt norėsite du arba kelis šalių įrašus sulieti į vieną įra�
 ## <a name="can-i-translate-address-information-for-party-records"></a>Ar galima išversti šalių įrašų adreso informaciją?
 
 Galite nustatyti adreso informacijos vertimus, kad programoje informacija būtų rodoma vartotojo kalba (sistemos kalba), o dokumentuose, pvz., pardavimo užsakymuose – kita kalba. Galite įvesti šalių / regionų pavadinimų, adresų ir vardų sekų vertimus. Pavyzdžiui, jūsų sistemos kalba yra danų, ir pardavimo užsakymą sukuriate klientui Prancūzijoje. Šiuo atveju programoje kliento įrašą galite peržiūrėti danų kalba, tačiau išspausdintame pardavimo užsakyme adreso informaciją rodyti prancūzų kalba. Nustatydami vertimus, turėtumėte įvesti kiekvienos sąrašo prekės vertimą. Visos prekės, kurioms neįvesite vertimo, bus rodomos sistemos kalba. Pavyzdžiui, jūsų sistemos kalba yra danų, ir dokumentą siunčiate klientui Ispanijoje. Jei neįvedėte adreso informacijos vertimų į ispanų (ESP) kalbą, ta informacija danų kalba bus rodoma ir programoje, ir išspausdintame dokumente.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

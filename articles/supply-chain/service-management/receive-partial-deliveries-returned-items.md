@@ -50,3 +50,6 @@ Jei grąžinimo siuntą sudaro ne visas grąžinimo užsakymo eilutėje nurodyta
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

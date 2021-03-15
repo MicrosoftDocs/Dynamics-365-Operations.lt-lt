@@ -88,3 +88,6 @@ Kaip rodoma pirmesnėje lentelėje, žurnale išskaitytu laikomas tik prekės nu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

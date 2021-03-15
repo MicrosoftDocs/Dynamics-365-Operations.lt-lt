@@ -273,3 +273,6 @@ Prekės padengimo grupei turi būti priskirtas prognozės mažinimo raktas. Atli
 ### <a name="reduce-a-forecast-by-transactions"></a>Prognozės mažinimas naudojant operacijas
 
 Kai parinktį **Operacijos – mažinimo raktas** arba **Operacijos – dinaminis laikotarpis** pasirenkate kaip prognozės poreikių mažinimo metodą, galite nurodyti, kurios operacijos sumažina prognozę. Puslapio **Padengimo grupės** „FastTab“ konteinerio **Kita** lauke **Prognozę sumažina** pasirinkite **Visos operacijos**, jei visos operacijos turėtų mažinti prognozę, arba **Užsakymai**, jei tik pardavimo užsakymai turėtų mažinti prognozę.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

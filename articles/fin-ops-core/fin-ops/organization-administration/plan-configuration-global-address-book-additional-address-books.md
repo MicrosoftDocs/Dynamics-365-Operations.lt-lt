@@ -57,3 +57,6 @@ Sukūrę visuotinę adresų knygelę, pagal poreikį galite kurti papildomų adr
 **Sprendimas:**
 
 - Kiek sukursite papildomų adresų knygelių?
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

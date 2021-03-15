@@ -48,3 +48,6 @@ Norint paleisti šią procedūrą, reikia, kad būtų galimas bent vienas produk
     * Aktyvinkite produkto modelio versiją. Vienu metu vieno produkto modeliui aktyvus gali būti tik vienas produktas.  
 13. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

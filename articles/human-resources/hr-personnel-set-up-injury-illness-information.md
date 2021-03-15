@@ -65,3 +65,6 @@ Darbdaviai turi žinoti, kada jų samdomi darbuotai susižeidžia arba suserga d
     * Priežiūros institucijos yra įstaigos, kurioms turi būti pranešama apie incidentą. Pasirinkite numatytosios institucijos, kuriai reikia pranešti apie sužalojimus ir ligas, numatytąjį žymės langelį.  
 23. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

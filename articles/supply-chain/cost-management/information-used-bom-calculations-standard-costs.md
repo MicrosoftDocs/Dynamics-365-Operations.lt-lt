@@ -83,3 +83,6 @@ Pradedant KS skaičiavimą gali būti nurodomi keli informacijos šaltiniai. Tar
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

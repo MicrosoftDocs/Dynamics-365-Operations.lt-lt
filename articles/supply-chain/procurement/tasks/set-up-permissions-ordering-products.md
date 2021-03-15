@@ -44,3 +44,6 @@ ms.locfileid: "5017297"
 2. Naudokite spartųjį filtrą, norėdami rasti darbuotoją, kurį ką tik įtraukėte kaip prašytoją.
 3. Pasirinkite prašytoją. Sąraše Rengėjas rodomi asmenys, kurie turi teisę prekes užsakyti kairiojoje srityje pasirinkto prašytojo vardu.  Čia galite įtraukti papildomų rengėjų. Šiame rodinyje taip pat galite prašytojui suteikti teisę kurti paraiškas juridiniame subjekte ar valdymo vienete, kuris nėra to asmens pagrindinis juridinis subjektas ar valdymo vienetas.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

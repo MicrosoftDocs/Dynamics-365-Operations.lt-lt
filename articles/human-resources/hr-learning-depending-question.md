@@ -56,3 +56,6 @@ Sąlyginiai klausimai leidžia nurodyti, kokie kiti klausimai bus pateikiami res
 10. Medyje pasirinkite „Klausimai \ Ar man sąžiningai atlyginama už mano atliekamą darbą?“.
     * Atkreipkite dėmesį, kad atsinaujino klausimų medis parodydamas priklausomybę.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

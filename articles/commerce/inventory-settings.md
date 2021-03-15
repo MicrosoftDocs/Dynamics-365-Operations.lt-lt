@@ -92,3 +92,6 @@ Toliau pateiktame paveikslėlyje rodomas krepšelis, kuriame pateikiamas praneš
 [Parduotuvės išrinkiklio modulis](store-selector.md)
 
 [SDK ir modulių bibliotekos naujinimai](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

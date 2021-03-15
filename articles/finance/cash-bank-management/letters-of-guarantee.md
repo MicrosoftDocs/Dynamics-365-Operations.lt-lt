@@ -64,3 +64,6 @@ Daugiau informacijos ieškokite šiose temose:
 [Nustatyti garantinio rašto banko priemones ir registravimo šablonus](tasks/set-up-bank-facilities-posting-profiles.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

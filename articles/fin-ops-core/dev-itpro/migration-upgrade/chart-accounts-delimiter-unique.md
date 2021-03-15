@@ -41,3 +41,6 @@ Jei tarp sąskaitų plano, sąskaitų plano skyriklio ir projekto / subprojekto 
 
 ## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a>Kaip nustatyti, ar jūsų aplinkoje reikia atnaujinti skyriklius 
 Jei skyrikliai atnaujintoje aplinkoje neatitinka, segmentuoto įrašo valdiklyje arba dimensijų įrašo valdiklyje įvedant reikšmes gali kilti nestabilumų. Tai reiškia, kad įvesdami sąskaitos ir dimensijos kombinacijas visada turėsite naudoti peržvalgas arba iškeliamąjį meniu.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

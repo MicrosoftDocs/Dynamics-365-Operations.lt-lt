@@ -81,3 +81,6 @@ Patobulintos „Dynamics 365 Commerce“ rikiavimo galimybės klientams leidžia
 [Numatytojo kategorijos nukreipimo puslapio ir ieškos rezultatų puslapio apžvalga](category-search-page-overview.md)
 
 [Tvarkyti SEO metaduomenis](manage-seo-metadata.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

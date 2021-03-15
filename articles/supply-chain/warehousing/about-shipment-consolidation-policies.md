@@ -134,3 +134,6 @@ Tolesnėje lentelėje apibendrinama, kaip veikia siuntos konsolidacija, kai nena
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 - [Siuntos konsolidacijos strategijų konfigūravimas](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Naujasis **Išlaidų įrašų** puslapis leidžia peržiūrėti ir valdyti kieki
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

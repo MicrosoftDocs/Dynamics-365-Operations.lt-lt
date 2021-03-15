@@ -93,3 +93,6 @@ Sukurtos trys aptarnavimo užsakymo eilutės patenka į laiko ribas, kurias nuro
 
 [Aptarnavimo intervalų nustatymas](set-up-service-intervals.md)  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

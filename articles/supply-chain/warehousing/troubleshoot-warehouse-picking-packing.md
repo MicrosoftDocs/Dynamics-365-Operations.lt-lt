@@ -109,3 +109,6 @@ Jums naudojant *Sistemos kreipiamą klasterio paėmimo* procesą, jei konfigūru
 ### <a name="issue-resolution"></a>Problemos paaiškinimas
 
 Siekiant ištaisyti šią problemą, redaguokite klasterio profilį ir nustatykite **Įjungti padėtis** parinktį į *Ne*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

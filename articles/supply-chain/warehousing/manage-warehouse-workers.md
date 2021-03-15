@@ -56,3 +56,6 @@ Laiko, reikalingo darbo elementams apdoroti, analizė gali padėti gerinti sand�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

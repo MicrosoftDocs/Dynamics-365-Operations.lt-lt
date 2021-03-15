@@ -98,3 +98,6 @@ Kadangi lentelės **Produktai** duomenis yra skirti vienpusiam srautui, iš „F
 ## <a name="quote-and-quote-product-tables"></a>Pasiūlymo ir pasiūlymo produktų lentelės
 
 Lentelei **Pasiūlymas** vadovaukitės instrukcijomis, pateiktomis ankstesniame šios temos skyriuje [Užsakymo lentelė](#order-table). Lentelei **Pasiūlymo produktas** vadovaukitės instrukcijomis, pateiktomis [Užsakymo produktų lentelė](#order-products-table) skyriuje.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

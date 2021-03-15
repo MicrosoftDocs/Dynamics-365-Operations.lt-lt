@@ -112,3 +112,6 @@ Likusiuose šios temos skyriuose pateikiamos lentelės, kurios aprašo standarti
 | Visos bangos | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Įrašytas rodinys bangos apdorojimui |
 | Krovinio planavimo darbo sritis | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Įrašytas darbo planavimo darbo srityje skirtas rodinys |
 | Darbo informacija | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Įrašytas išsamios darbo informacijos puslapio rodinys |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

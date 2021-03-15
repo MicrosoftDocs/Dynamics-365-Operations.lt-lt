@@ -48,3 +48,6 @@ Prieš naudodami funkciją **Atidaryti naujame lange**, turėtumėte sukonfigūr
 Funkciją **Atidaryti naujame lange** galima naudoti tik kai lange atidarytas daugiau nei vienas puslapis. Be to, kai nebėra atidarytų puslapių (tai yra, kai uždarote to lango paskutinį puslapį), iššokantysis langas automatiškai užsidaro. Sistema taip pat uždaro atidarytus puslapius, kai pereinate į kitą programos sritį. Todėl, jei yra atidarytų iššokančiųjų langų ir jūs pereinate į kitą programos sritį, iššokantieji langai uždaromi automatiškai, nes sistema uždarė tų langų puslapius.
 
 Iššokančiųjų langų viršutinėje juostoje rodoma informacija apie įmonę, kurioje puslapis buvo atidarytas, ir juostą galima tik skaityti. Iššokantieji langai taip pat priklauso nuo pagrindinio naršyklės lango. Jei pagrindinis langas uždaromas ar atnaujinamas, visus atidarytus iššokančiuosius langus bus galima tik skaityti. Jei susiklosto tokia situacija, tai reiškia, kad vis dar galite peržiūrėti tų langų informaciją, bet negalėsite su ja sąveikauti.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

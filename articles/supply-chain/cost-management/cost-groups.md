@@ -53,3 +53,6 @@ Išlaidų grupei gali būti priskirtas išlaidų grupės tipas ir papildomo segm
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

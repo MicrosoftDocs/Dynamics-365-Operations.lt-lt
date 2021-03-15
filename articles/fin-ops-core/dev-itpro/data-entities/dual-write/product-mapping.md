@@ -225,3 +225,6 @@ Kai vyksta sinchronizacija, „Finance and Operations“ produktai sinchronizuoj
 ### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>Produktų duomenų perkėlimas iš kitų „Dynamics 365“ programų į „Finance and Operations.“
 
 Jei kitose „Dynamics 365“ programose yra produktų, kurių nėra „Finance and Operations“, administratorius pirmiausia gali naudoti **EcoResReleasedProductCreationV2Entity**, importuodamas tuos produktus į „Finance and Operations“. Taip pat suderinkite „Finance and Operations“ ir kitų „Dynamics 365“ programų produktų duomenis, kaip aprašyta aukščiau. 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

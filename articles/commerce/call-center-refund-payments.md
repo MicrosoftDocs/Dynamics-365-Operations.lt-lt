@@ -108,3 +108,6 @@ Kitu atveju, organizacija gali nustatyti **Leistim mokėjimo viršijimo** parink
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Mokėjimo būdai skambučių centruose](work-with-payments.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

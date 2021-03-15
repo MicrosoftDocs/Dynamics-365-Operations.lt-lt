@@ -55,3 +55,6 @@ Jei norite atlikti šią užduotį, turite sukurti gamybos eigos versiją ir vei
 3. Lauke Veikla įveskite arba pasirinkite reikšmę.
 4. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -220,3 +220,6 @@ Dokumentui įgijus būseną **Pageidaujama**, jis matomas skirtuke **Aktyvieji**
 ## <a name="related-topics"></a>Susijusios temos
 
 [Siunčiamų atsargų operacijos EKA](pos-outbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

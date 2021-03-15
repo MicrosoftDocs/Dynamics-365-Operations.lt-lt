@@ -77,3 +77,6 @@ Naudokite šią procedūrą norėdami nustatyti elektroninius parašus. Elektron
 10. Spustelėkite Įrašyti.
 11. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

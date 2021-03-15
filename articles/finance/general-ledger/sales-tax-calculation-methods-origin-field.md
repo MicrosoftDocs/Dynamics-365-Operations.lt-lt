@@ -130,3 +130,6 @@ Dokumento / žurnalo parametras Sumos, įskaitant PVM = Ne Operacijos eilutės s
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ ms.locfileid: "4991495"
 [robots.txt failų tvarkymas](manage-robots-txt-files.md)
 
 [Parduotuvės nustatymo pagal vietą įgalinimas](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

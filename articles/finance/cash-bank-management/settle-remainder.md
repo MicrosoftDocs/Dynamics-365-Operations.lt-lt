@@ -69,3 +69,6 @@ Norėdami sudengti likutį, atlikite toliau nurodytus veiksmus.
 7)  Taip pat galite pasirinkti sukurti mokėjimų žurnalą su sudengimo likučiu arba tiesiog jį registruoti be žurnalo. Funkcijai **Redaguoti žurnale** pasirinkite **Taip** mokėjimų žurnalui sukurti. Galėsite redaguoti kuriamą mokėjimų žurnalą.
 8)  Spustelėkite **Sudengti likutį**. Pasirinkus sukurti žurnalą, mygtukas pasikeičia į **Kurti žurnalą**. Spustelėkite **Kurti žurnalą**.
 9)  Jei sukūrėte mokėjimų žurnalą, jo puslapį atidarysite spustelėję **Sudengti likutį**. Į žurnalą bus įtraukta žurnalo eilutė su likučio sudengimo suma kaip suma ir su sudengimo likučio sąskaita kaip korespondentine sąskaita. Jei įtraukėte klientą arba tiekėją, kad galėtumėte perkelti sudengimo sumą kitam klientui arba tiekėjui, tada į žurnalą bus įtraukta papildoma eilutė, kad sudengimo suma būtų perkelta tam klientui arba tiekėjui.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

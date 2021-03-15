@@ -61,3 +61,6 @@ Puslapyje **Mokėtinų sumų parametrai** įsitikinkite, kad pasirinkta parinkti
 9. Veiksmų srityje spustelėkite **Peržiūrėti**.
 10. Spustelėkite **Gretinimo informacija**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

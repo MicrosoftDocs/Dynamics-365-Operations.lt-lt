@@ -64,3 +64,6 @@ Sistema teikia prioritetą žurnalo antraštės parametrui. Esant numatytiesiems
 4. Skirtuke **Sąranka** nustatykite parinkties **Uždelstas mokesčių skaičiavimas** reikšmę **Taip**.
 
 ![Bendrojo žurnalo puslapio vaizdas](media/delayed-tax-calculation-journal-header.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

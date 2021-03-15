@@ -125,3 +125,6 @@ Kai generuojate mokėjimus, sugeneruojamas mokėjimo failas ir jūs raginami jį
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

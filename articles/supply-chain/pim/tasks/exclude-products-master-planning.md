@@ -43,3 +43,6 @@ ms.locfileid: "4986884"
 5. Sąraše pažymėkite pasirinktą eilutę.
 6. Lauke Produkto ciklo būsena įveskite arba pasirinkite reikšmę.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

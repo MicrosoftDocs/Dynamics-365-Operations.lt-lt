@@ -43,3 +43,6 @@ Jei identifikavę nesutapimą manote, kad SF informacija yra neteisinga, kreipki
 Daugiau informacijos žr. [Išnagrinėti / pašalinti išimtis](tasks/research-resolve-exceptions.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

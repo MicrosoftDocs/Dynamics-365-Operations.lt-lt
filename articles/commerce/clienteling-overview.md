@@ -132,3 +132,6 @@ Po to, kai atnaujinote laukelius, rinkitės **Tvirtinti** norėdami užtikrinti,
 8. „Commerce“ **„Commerce“ parametrų** puslapyje, **Klientai** skirtuke **„Dynamics 365 Customer Insights“** „FastTab“ nustatykite **Programos ID** į „CI_Access_AppID" (nuo žingsnio 1 prieš tai). **Rakto pavadinimui**, rinkitės rakto pavadinimą įvestą 7 žingsnyje prieš tai („CISecret"). Nustatykite **Įjungti „Customer Insights“** parinktį į **Taip**. Jei nustatymas kažkodėl nesėkmingas, klaidos pranešimas bus rodomas ir ši parinktis nustatyta į **Ne**. 
 
 Programoje „Customer Insights“ galimos kelios aplinkos, pavyzdžiui, bandymų ir gamybos aplinkos. Laukelyje **Aplinkos egzemplioriaus ID** įveskite reikiamą aplinką. Laukelyje **Papildomas kliento ID** įveskite „Customer Insights“ ypatybę, susietą su kliento abonemento numeriu. („Commerce“, kliento paskyros numeris yra kliento ID.) Likusios trys ypatybės yra rodmenys, kurie bus rodomi kliento kortelėje kliento knygoje. Galite pasirinkti, kad kliento kortelėje būtų rodoma iki trijų matų. Nepaisant to, jūsų nereikalaujama pasirinkti kokius nors rodmenis. Kaip minėta anksčiau, sistema rodo šias vertes pirmiausia ir tuomet rodo vertes kliento knygos atributo grupei.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Pavyzdžiui, 61 sandėlyje turi būti skaičiuojamas tik prekės numeris A0001.
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Ciklų skaičiavimas](cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

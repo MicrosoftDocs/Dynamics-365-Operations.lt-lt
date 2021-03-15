@@ -117,3 +117,6 @@ Norėdami į naują puslapį įtraukti krepšelio modulį ir nustatyti reikiamas
 [Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas](calculated-inventory-retail-channels.md)
 
 [Internetinių funkcijų šablono kūrimas](online-functionality-profile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

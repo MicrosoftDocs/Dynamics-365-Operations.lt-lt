@@ -165,3 +165,6 @@ Tiekėjo filtrų kodų nustatymui atlikite šiuos veiksmus.
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 [Daugiau informacijos ieškokite tinklaraščio įraše WMS-sandėlio filtrų kodai](http://blog.dynamics-for-operations.com/2017/09/26/wms-warehouse-filter-codes/)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

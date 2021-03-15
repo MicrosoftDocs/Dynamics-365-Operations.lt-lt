@@ -86,3 +86,6 @@ Kartais jums gali reikėti atšaukti atliktą atsargų uždarymą, taip grąžin
 > [!NOTE] 
 > Vėl atidaryti galima tik paskutinį uždarytą atsargų laikotarpį. Norėdami atšaukti ankstesnį atsargų uždarymą, po vieną, pradėdami nuo naujausio, turite atšaukti kiekvieną tolesnį atsargų uždarymą.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

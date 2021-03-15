@@ -107,3 +107,6 @@ Tarkime, kad per 2 metus to paties ilgalaikio turto įsigijimo suma pakoreguojam
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

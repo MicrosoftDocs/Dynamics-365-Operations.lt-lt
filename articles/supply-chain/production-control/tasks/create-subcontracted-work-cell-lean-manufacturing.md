@@ -70,3 +70,6 @@ Norėdami modeliuoti subrangovo darbą „lean manufacturing“, turite sukurti 
 24. Lauke Vienetas spustelėję išplečiamąjį mygtuką atidarykite peržvalgą.
 25. „ResolveChanges“ Vienetas.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

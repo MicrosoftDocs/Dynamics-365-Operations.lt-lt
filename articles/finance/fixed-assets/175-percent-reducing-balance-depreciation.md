@@ -87,3 +87,6 @@ Jei kaip nusidėvėjimo metus pasirinksite **Ataskaitiniai**, galimos toliau nur
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

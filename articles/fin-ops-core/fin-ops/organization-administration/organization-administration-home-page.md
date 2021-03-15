@@ -101,3 +101,6 @@ Planuojant, sekant ir analizuojant atvejus galima sukurti efektyvius sprendimus,
 - [Dokumentų valdymo konfigūravimas](configure-document-management.md)
 - [El. pašto konfigūravimas ir siuntimas](configure-email.md)
 - [Datos / laiko duomenys ir laiko juostos](date-time-zones.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

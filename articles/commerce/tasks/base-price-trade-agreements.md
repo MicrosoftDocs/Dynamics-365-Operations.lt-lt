@@ -69,3 +69,6 @@ ms.locfileid: "5006063"
 38. **Veiksmų sritis** spustelėkite Parduoti.
 39. Spustelėkite **Pardavimo kaina**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

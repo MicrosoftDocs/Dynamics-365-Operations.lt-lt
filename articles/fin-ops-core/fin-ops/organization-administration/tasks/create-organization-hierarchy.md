@@ -48,3 +48,6 @@ Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
     - Pagal poreikį įtraukite organizacijų.  
     - Norėdami įtraukti organizaciją, spustelėkite **Redaguoti**, tada – **Įterpti**, kad įtrauktumėte organizaciją. Atlikę keitimus, galite **Įrašyti** juodraštį ir (arba) **Publikuoti** keitimus.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

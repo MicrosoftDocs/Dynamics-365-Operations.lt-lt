@@ -61,3 +61,6 @@ Darbuotojai gali atlikti įvairių tipų gamybos vykdymo registracijas, kad atli
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

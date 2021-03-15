@@ -44,3 +44,6 @@ Jei aptarnavimo sutarties eilutės laiko lango nenurodysite, iš aptarnavimo sut
 
 [Laiko langų kūrimas](create-time-windows.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Norėdami įjungti parduotuvės nustatymą pagal vietą programoje „Commerce�
 [„Commerce” aplinkos kelių B2Ck nuomotojų konfigūravimas](configure-multi-B2C-tenants.md)
 
 [Turinio pristatymo tinklo (CDN) palaikymo įtraukimas](add-cdn-support.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

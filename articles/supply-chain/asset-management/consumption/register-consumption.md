@@ -94,3 +94,6 @@ Registruojant suvartojimą į registracijas konkrečia seka įtraukiamos finansi
 >[!NOTE]
 >Visuose trijuose registracijų tipuose patikrinamas finansinių dimensijų derinys, o netinkami deriniai uždengiami. Tai standartinė sąranka su kitomis „Finance and Operations” programomis.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

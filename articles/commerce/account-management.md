@@ -88,3 +88,6 @@ Norint prisijungti prie lojalumo programos, rinkodaros puslapį galima sukurti n
 [Antraštės modulis](author-header-module.md)
 
 [Poraštės modulis](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

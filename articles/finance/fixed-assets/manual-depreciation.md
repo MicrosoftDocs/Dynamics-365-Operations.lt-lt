@@ -75,3 +75,6 @@ Bendra procentinių dydžių suma neturi būti 100. Tačiau, jei reikšmė lauke
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Norėdami nustatyti automatiškai sugeneruotų darbo užsakymų grupavimą, atli
 1. Jei norite, kad parinktys būtų taikomos vykdant tik kai kuriuos jūsų priežiūros planus, „FastTab” **Įtrauktini įrašai** pridėkite tiek filtrų, kiek jums reikia, kaip ir kitose „Microsoft Dynamics 365 Supply Chain Management” paketinėse užduotyse.
 1. „FastTab” **Vykdyti fone** nustatykite paketo ir planavimo parinktis taip, kaip jums reikia, kaip ir kitoms „Supply Chain Management” paketinėms užduotims.
 1. Pasirinkite **Gerai** tam, kad būtų vykdomi ir (arba) suplanuoti pasirinkti priežiūros planai.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

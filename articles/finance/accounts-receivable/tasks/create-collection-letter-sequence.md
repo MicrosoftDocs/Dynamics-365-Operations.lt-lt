@@ -58,3 +58,6 @@ Naudodami šį užduočių vadovą, sukurkite priminimo laiškų seką. Šioje u
 26. Išplėskite „FastTab“ **Pastaba**.
 27. Įveskite tekstą, kuris bus rodomas pasirinkto priminimo laiško kodo priminimo laiške. Naudodami meniu Vertimai, esantį virš pastabų langelio, šį tekstą galite išversti į kelias kalbas.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Funkcinės vietos ID / Funkcinės vietos ID (jei yra daugiau nei viena funkcinė
 Jei medžio rodinyje pasirinkote turtą, galite pasirinkti **Aktyviosios užklausos** arba **Aktyvieji darbo užsakymai**, kad peržiūrėtumėte priežiūros užklausas arba darbo užsakymus, susijusius su turtu. Taip pat galite pasirinkti **Atidaryti** \> **Funkcinė vieta**, **Turtas** arba **Turto BOM,** kad būtų atidarytas susijęs vaizdas.
 
 Parinktis **Turto funkcinės vietos**, kurią galite pasirinkti lauke **Rodinys**, taip pat yra pasiekiama visose turto peržvalgose, kuriose galite pasirinkti turtą. Medžio rodinys yra rodomas skirtuke **Turto rodinys**, pavyzdžiui, ten, kur galite [kurti turtą](../objects/create-an-object.md), sukurti priežiūros užklausą arba sukurti darbo užsakymą.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

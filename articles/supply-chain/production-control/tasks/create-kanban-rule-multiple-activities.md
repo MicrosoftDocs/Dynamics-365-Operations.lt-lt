@@ -58,3 +58,6 @@ ms.locfileid: "4977918"
     * Atkreipkite dėmesį, kad „kanban“ priskirtos dvi gamybos eigos proceso užduotys. Pirmoji yra SpeakerAssemblyAndPolish, o antroji – SpeakerTestAndPackaging.  
     * Tai paskutinis veiksmas!  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

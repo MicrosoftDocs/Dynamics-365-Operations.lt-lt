@@ -57,3 +57,6 @@ Periodiniai žurnalai kartais vadinami pasikartojančias žurnalais nes suma, te
 27. Lauke **Periodinio žurnalo numeris** įveskite arba pasirinkite reikšmę.
 28. Sąraše spustelėkite saitą pasirinktoje eilutėje.
 29. Spustelėkite **Gerai**. Laikotarpio žurnalą dabar galima peržiūrėti, patvirtinti arba registruoti – tai priklauso nuo poreikio ir nustatymo.   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

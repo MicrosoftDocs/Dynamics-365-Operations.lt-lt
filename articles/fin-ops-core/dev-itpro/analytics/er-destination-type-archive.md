@@ -57,3 +57,6 @@ Kai nustatyta dokumento tipo vieta yra **„Azure“ saugykla**, galite įrašyt
 - [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)
 - [Elektroninių ataskaitų (ER) paskirties vietos](electronic-reporting-destinations.md)
 - [Dokumentų valdymo konfigūravimas](../../fin-ops/organization-administration/configure-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

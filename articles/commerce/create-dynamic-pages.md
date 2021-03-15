@@ -96,3 +96,6 @@ Po tinkinto puslapio publikavimo, jis gali būti naudojamas vietoje dinaminio pu
 [Patikrinti puslapio turinio pritaikymą neįgaliesiems](verify-accessibility.md)
 
 [Interneto kanalo išplečiamumas](e-commerce-extensibility/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

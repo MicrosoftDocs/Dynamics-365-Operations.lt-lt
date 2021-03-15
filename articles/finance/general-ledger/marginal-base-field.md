@@ -185,3 +185,6 @@ Daugiau informacijos žr. temose [Visa suma ir PVM kodų intervalo skaičiavimo 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

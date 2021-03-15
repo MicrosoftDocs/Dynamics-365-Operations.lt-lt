@@ -122,3 +122,6 @@ Norėdami iš naujo įgalinti formos parinktį **Informacija**, atlikite toliau 
 2. Formų mazge raskite formą **Informacija**. 
 3. Pasirinkite formą **Informacija** ir spustelėkite **Įgalinti saugos vaidmenis**. 
 4. Pakeiskite saugos parametro parinktį į **Rodyti visiems**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Viršutinėje toliau pateiktos iliustracijos dalyje rodoma, kaip sąsaja atrodo 
 Pagal numatytuosius nustatymus gamybos cecho vykdymo sąsaja automatiškai atsijungia, jei ji nenaudojama 12 valandų. „Supply Chain Management” vartotojas tokiu atveju turi vėl prisijungti. Tačiau galite pratęsti skirtojo laiko ribą iki 90 dienų.
 
 Norėdami pratęsti skirtojo laiko ribą, prisijunkite prie „Supply Chain Management” ir eikite į **Sistemos administravimas \> Vartotojai \> Seanso pratęsimas**. Nurodykite „Supply Chain Management” vartotojo abonementą, kuris naudojamas prisijungimui prie įrenginio, ir valandų, per kurias seansas turėtų išlikti aktyvus, skaičių.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

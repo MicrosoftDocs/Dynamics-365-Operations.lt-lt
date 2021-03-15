@@ -42,3 +42,6 @@ Numatyto vykdymo sąranka, kuri yra susijusi su darbo užsakymais, gali būti be
 6. Pasirinkite **Įrašyti**.
 
 ![Numatytas vykdymas](media/20-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

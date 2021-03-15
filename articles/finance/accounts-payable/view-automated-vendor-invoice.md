@@ -37,3 +37,6 @@ Jei importuota sąskaita faktūra yra įtraukta į pateikimo į darbo eigą proc
 - **Pristabdyta** – automatizuoti procesai, apibrėžti puslapyje **Mokėtinų sumų parametrai** buvo paleisti, tačiau ne mažiau nei vienas veiksmas buvo nesėkmingas. Būsena **Pristabdyta** taip pat taikoma, jei nustatyta lauko **Įtraukti į automatizuotą apdorojimą** reikšmė yra **Ne**. Klaidas galite peržiūrėti pasirinkę **Peržiūrėti naujausius rezultatus**.
 - **Darbo eigoje** – importuota sąskaita faktūra buvo pateikta darbo eigos sistemai naudojant automatizuotą pateikimo į darbo eigą procesą arba rankiniu būdu.
 - **Darbo eiga baigta** – importuotos sąskaitos faktūros darbo eigos procesas yra baigtas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

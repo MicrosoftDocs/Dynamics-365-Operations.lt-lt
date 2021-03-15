@@ -50,3 +50,6 @@ Toliau pateiktame paveikslėlyje pateiktas darbo užsakymo ataskaitos, sugeneruo
 
 ![2 pav.](media/21-work-orders.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

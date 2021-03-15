@@ -62,3 +62,6 @@ Ieškos rezultatų sąrašas apribotas iki 10 elementų. Jei rezultatuose nerand
 ## <a name="development"></a>Plėtra
 
 Programavimo požiūriu naršymo ieškos funkciją labai lengva įdiegti, nes tarp meniu elementų diegimo ir jų rodymo ieškos rezultatuose praktiškai nėra vėlavimo. Kol į meniu elementus nurodoma iš naršymo srities ar ataskaitų srities, jie automatiškai tampa ieškotinais.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

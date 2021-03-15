@@ -170,3 +170,6 @@ ms.locfileid: "4990046"
 12. Uždarykite puslapį.
 13. Spustelėkite Operacijos.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

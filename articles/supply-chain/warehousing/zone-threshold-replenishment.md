@@ -343,3 +343,6 @@ Pateikiame kelias pastabas ir patarimus, kaip dirbti su funkcija:
 
 - Jei naudojate dinamines vietas, papildymo darbas bus pirmiausia sukurtas pirmoje galimoje vietoje arba toje vietoje, kurioje jau yra atsargų, jei vietos nustatymo veiksmas nustatomas taip, kad būtų galima naudoti **Konsolidavimo** strategiją.
 - Jei naudojate fiksuotas vietas, o ne zonas, turite naudoti [standartinį min. / maks. papildymą](tasks/set-up-min-max-replenishment-process.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

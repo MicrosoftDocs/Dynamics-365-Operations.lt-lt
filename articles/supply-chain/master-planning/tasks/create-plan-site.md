@@ -54,3 +54,6 @@ Gamybos planuotojas apskaičiuoja konkrečios prekės gamybos medžiagų ir paj�
 2. Spustelėkite Patvirtinti.
 3. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

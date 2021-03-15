@@ -150,3 +150,6 @@ Pristatymo datos valdymo metodas nurodo tai, kaip sistema nustato pristatymo dat
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Užsakymų vykdymo perspektyva](delivery-dates-available-promise-calculations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

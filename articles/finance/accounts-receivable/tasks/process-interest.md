@@ -67,3 +67,6 @@ ms.locfileid: "4992944"
 5. Spustelėkite **Gerai**.
 6. Lauke **Būsena** pasirinkite „Įregistruota“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

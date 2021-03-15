@@ -38,3 +38,6 @@ Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. �
 7. Lauke Pradžios data įveskite datą.
 8. Lauke Pabaigos data įveskite datą.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

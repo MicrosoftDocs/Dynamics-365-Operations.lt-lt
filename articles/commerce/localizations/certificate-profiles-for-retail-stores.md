@@ -121,3 +121,6 @@ Jei įdiegiama nauja sertifikato versija, bet jos negalima atnaujinti visose par
 
 > [!NOTE]
 > „Commerce Runtime” pirmiausia bus iškviesta nauja sertifikato versija. Jei sertifikatas dar neatnaujintas konkrečioje parduotuvėje arba terminale, bus iškviesta ankstesnė versija.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

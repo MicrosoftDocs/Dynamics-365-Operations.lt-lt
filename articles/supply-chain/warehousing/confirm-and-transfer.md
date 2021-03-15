@@ -229,3 +229,6 @@ Taip pat galite patvirtinti, kad operacijų ryšiai atnaujinti šiais būdais:
 - **Išskaidytas kiekis į naują krovinį** pasirinktis taip pat veikia, kai kai kurių likusių darbo antraščių būsena yra *vykdoma*. Todėl vis dar galite naudoti funkcijas, net jei darbuotojai jau vykdo paėmimo užsakymus.
 - Jei pasirinksite **Atšaukti neįvykdytą kiekį**, kai yra likęs darbas, kurio būsena yra *Atviras* arba *Vykdomas*, gaunate tokį klaidos pranešimą: „Nepavyko atšaukti likusio krovinio kiekio. Yra krovinio darbas.“
 - Jei pasirinksite **Atšaukti neįvykdytą kiekį**, kai nėra likusio darbo, bet yra neišleistų krovinio eilučių kroviniui, gausite tokį klaidos pranešimą: „Krovinio siuntos nepavyksta patvirtinti, nes prekės kiekis viršija procentinę dalį, kuri nurodyta pristatymo metu.“ Norėdami išvengti šios klaidos, galite nustatyti, kad **Pristatymo metu** neišleistos krovinio eilutės procentus į 100 procentų. Neišleistos eilutės nebus perkeltos į naują krovinį, bet dabartinis krovinys bus patvirtintas kaip pristatymo trūkumas. Tokiu atveju negalėsite iš naujo paleisti pradinio užsakymo. Todėl jums reikės kitaip išspręsti šią problemą.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

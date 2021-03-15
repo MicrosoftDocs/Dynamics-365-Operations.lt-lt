@@ -49,3 +49,6 @@ Jei kaupimai apdorojami, kol darbuotojo atostogos sustabdytos, nebus atlikti jok
 - [Atostogų ir neatvykimų tipų konfigūravimas](hr-leave-and-absence-types.md)
 - [Atostogų ir neatvykimų kaupimo planai](hr-leave-and-absence-accrue.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

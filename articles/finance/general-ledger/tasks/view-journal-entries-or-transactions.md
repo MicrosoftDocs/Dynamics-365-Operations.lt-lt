@@ -42,3 +42,6 @@ ms.locfileid: "4994395"
 12. Veiksmų srityje spustelėkite **Originalus dokumentas**.
 13. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

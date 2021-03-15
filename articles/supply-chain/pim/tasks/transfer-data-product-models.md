@@ -36,3 +36,6 @@ Produkto konfigūracijos modelio duomenų eksportavimui atlikti reikia turėti b
 5. Spustelėkite Eksportuoti produkto modelį.
     * Atsisiuntimo veikimas skiriasi skirtingose naršyklėse, atsižvelgiant į tai, kaip nustatyti saugos parametrai.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

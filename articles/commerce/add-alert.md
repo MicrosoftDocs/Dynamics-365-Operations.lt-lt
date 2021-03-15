@@ -95,3 +95,6 @@ Norėdami į puslapį įtraukti reklaminės juostos modulį ir nustatyti reikiam
 [Turinio bloko modulis](add-hero-module.md)
 
 [Vaizdo įrašų leistuvo modulis](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

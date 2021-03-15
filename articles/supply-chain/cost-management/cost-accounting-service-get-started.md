@@ -110,3 +110,6 @@ Norėdami nustatyti kaštų apskaitos paslaugos ir „Dynamics 365 Supply Chain 
 ## <a name="related-resources"></a>Susiję ištekliai
 
 [Kaštų apskaitos paslaugos pagrindinis puslapis](cost-accounting-service-home.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

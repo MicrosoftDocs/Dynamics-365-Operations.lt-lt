@@ -140,3 +140,6 @@ Paskutinis veiksmas yra produkto modelio versijos atributais pagrįstų pardavim
 1. Veiksmų srityje atidarykite skirtuką **Modelis** ir grupėje **Produkto modelio informacija** pasirinkite **Versijos**.
 1. Atidaromas puslapis **Versijos**. Įsitikinkite, kad **Kainodaros metodas** nustatytas į **Pagrįstas atributais**.
     ![Kainodaros metodo nustatymas į pagrįstą atributais](media/prod-config-versions.png "Kainodaros metodo nustatymas į pagrįstą atributais")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

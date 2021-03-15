@@ -88,3 +88,6 @@ Norėdami į naują puslapį įtraukti teksto bloko modulį ir nustatyti reikiam
 
 [Vaizdo įrašų leistuvo modulis](add-video-player.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

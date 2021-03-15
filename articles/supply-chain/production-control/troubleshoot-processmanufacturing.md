@@ -40,3 +40,6 @@ Ankstesnėse nei 10.0.13 versijose, jei nenaudojate pasvirų gamybos kaštų sra
 > Jūs norite atlikti inventoriaus uždarymą su data %1. Nevykdomas „Backflush“ kaštų skaičiavimas su data %1 atitikties periodo pabaiga buvo registruota. Prašome prisiminti, kad turite atlikti „Backflush“ kaštų skaičiavimą pagal datą %1 su atitikties periodo pabaiga. Inventoriaus įvertinimas, parduotų prekių kaina ir pakeitimai gali būti neteisingi papildomoje ar pagrindinėje buhalterijos knygoja, kol ji nebus įgyvendinta.
 
 Ši klaida buvo ištaisyta 10.0.13 leidime ir vėliau. Dėl išsamesnės informacijos: [KB 4582468](https://fix.lcs.dynamics.com/Issue/Details?kb=4582468&bugId=468844&dbType=3&qc=fcd64080446a27382cfde3e4c3bdcfb714279185932259cd11ceb0d500617296).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -104,3 +104,6 @@ Daugiau informacijos apie mobiliojo įrenginio meniu elementus žr. [Mobiliųjų
 Daugiau informacijos apie *Pranešti kaip baigta* gamybos scenarijų rasite [Sandėlio darbo strategijų peržiūroje](warehouse-work-policies.md).
 
 Daugiau informacijos apie gaunamos apkrovos valdymą rasite [Sandėlio pirkimų užsakymų gaunamos apkrovos tvarkymas](inbound-load-handling.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

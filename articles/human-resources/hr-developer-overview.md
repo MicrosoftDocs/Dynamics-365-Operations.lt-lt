@@ -62,3 +62,6 @@ ms.locfileid: "5115395"
 - [Kas nauja ar pasikeitė programoje „Human Resources”](hr-admin-whats-new.md)
 - [Administratoriaus vadovas](hr-admin-overview.md)
 - [Vartotojo vadovas](hr-hrpro-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

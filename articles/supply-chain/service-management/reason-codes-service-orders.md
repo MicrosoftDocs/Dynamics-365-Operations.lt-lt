@@ -49,3 +49,6 @@ Priežasčių kodai yra pasirinktiniai. Galite nuspręsti, ar reikalauti prieža
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

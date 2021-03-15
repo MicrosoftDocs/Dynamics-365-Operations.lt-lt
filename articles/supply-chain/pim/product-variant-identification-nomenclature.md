@@ -197,3 +197,6 @@ Priklausomai nuo nomenklatūros, sistema gali bandyti konfigūracijai priskirti 
 
 [Sukonfigūruotų produkto variantų produkto numerių nomenklatūros kūrimas](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

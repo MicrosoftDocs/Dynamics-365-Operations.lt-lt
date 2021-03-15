@@ -95,3 +95,6 @@ Banko išrašo operacijos, kurių būseną derinimo darbalapyje pažymėjote kai
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

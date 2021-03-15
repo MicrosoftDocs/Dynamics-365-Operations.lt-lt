@@ -47,3 +47,6 @@ Daugiau informacijos rasite [Registravimas naudojant išvestines knygas](post-de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

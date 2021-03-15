@@ -63,3 +63,6 @@ Numatyta Atskaitomo mokesčio grupė ir prekės atskaitomo mokesčio grupė bus 
 Atskaitomas mokestis yra skaičiuojamas ir publikuojamas **Kliento mokėjimo žurnalas**. Galite rankiniu būdu keisti taikomą atskaitomo mokesčio kodą, taip pat kaip realią atskaitomo mokesčio sumą **Atskaitomo mokesčio** skirtuke **Nustatytos transakcijos** puslapyje.
 
 Apskaičiuota atskaitoma mokesčio suma bus atskaičiuojama iš kliento mokėjimo ir publikuojama **Atskaitomo mokesčio nustatymas** sąskaita susijusiame kvite.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

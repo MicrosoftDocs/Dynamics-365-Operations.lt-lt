@@ -52,3 +52,6 @@ Sąskaitos faktūros eilutė bus pašalinta iš automatizuoto vykdymo, jei tenki
 - Sąskaitos faktūros eilutės **Automatizuoto kvito sugretinimo būsena** vertė yra **Nepavyko**.
 - Sąskaita faktūra yra naudojama.
 - Sąskaita faktūra yra darbo eigos sistemoje.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ ms.locfileid: "4995461"
 16. Pasirinkite **Gerai**.
 17. Norėdami grįžti į neregistruotų tabelių puslapį, uždarykite puslapius.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

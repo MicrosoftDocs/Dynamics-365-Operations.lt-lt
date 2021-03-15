@@ -67,3 +67,6 @@ Norėdami pasirinkti svetainei taikomą temą, atlikite toliau nurodytus veiksmu
 
 [Sukurkite naują temą](e-commerce-extensibility/create-theme.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

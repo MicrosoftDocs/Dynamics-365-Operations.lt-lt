@@ -81,3 +81,6 @@ Kuponų funkcijos apima kelias atskiras funkcijas. „Commerce“ būstinė (ang
 - **Būstinė yra iš dalies atnaujinama, tačiau „Commerce Scale Unit“ ir EKA nėra atnaujinami.** Atnaujinant būstinę, atnaujinami kuponų ir nuolaidų puslapiai, taip pat atnaujinamas „Commerce“ kainų mechanizmas. Jei atnaujinamas tik vienas iš šių dviejų komponentų, kai kurie „Commerce“ puslapiai neatitiks kainos apskaičiavimo duomenų. Todėl skaičiuojant nuolaidas galima gauti netikėtų rezultatų arba gali įvykti klaidų.
 - **Būstinė yra iš dalies atnaujinama, tačiau „Commerce Scale Unit“ ir EKA nėra atnaujinami (N-1).** Kadangi ne visas parduotuves galima atnaujinti tuo pačiu metu, prieš atnaujindami parduotuves rekomenduojame atnaujinti būstinę. Scenarijuje N-1 naujų su kuponais susijusių funkcijų nebus galima naudoti dar neatnaujintose parduotuvėse. Pavyzdžiui, kuponų funkcijos pradeda naudoti „neįtraukimo“ eilutes. Jei naudodami nuolaidą pašalinsite eilutes, jos nebus pritaikytos parduotuvėje, kurioje veikia senesnė versija.
 - **Būstinė nėra atnaujinama, tačiau „Commerce Scale Unit“ ir EKA yra atnaujinami (N+1).** Kadangi atnaujintas „Commerce Scale Unit“ kainų mechanizmas gali apskaičiuoti kainą seniems nuolaidų kodams, atnaujinimas tam neturėtų daryti jokios įtakos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

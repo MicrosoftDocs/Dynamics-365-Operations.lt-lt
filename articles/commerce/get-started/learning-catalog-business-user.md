@@ -51,3 +51,6 @@ Dėl mokymosi apie funkcijas bendrintas su kitomis „Finance and Operations“ 
 | Turinys | aprašymas  | Formatuoti   | Ilgis    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
 | [Konfigūruoti ir dirbti su el. prekyba „Dynamics 365 Commerce“](https://docs.microsoft.com/learn/paths/configure-work-e-commerce/) | „Dynamics 365 Commerce“ interneto kanalai ir el. prekybos vieta leidžia prekybininkams sukurti jų prekės ženklo buvimą internete. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 4 valandos   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

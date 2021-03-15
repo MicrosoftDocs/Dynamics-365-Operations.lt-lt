@@ -79,3 +79,6 @@ Taip, elektroninis kasos aparatas (EKA) paskatins vartotoją įvesti serijos num
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

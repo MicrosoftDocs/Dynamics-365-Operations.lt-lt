@@ -47,3 +47,6 @@ Deponuokite kliento mokėjimus. Šioje užduotyje naudojama demonstracinė įmon
 17. Pasirinkite **Gerai**. Pirmasis puslapis naudojamas kurti depozito kvitui.  
 18. Pasirinkite **Gerai**. Antrasis veiksmas yra spausdinti depozito kvitą, tačiau šis veiksmas nebūtinas.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

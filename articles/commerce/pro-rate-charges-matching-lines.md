@@ -174,3 +174,6 @@ Kai šis skaičiavimo metodas naudojamas dalinio grąžinimo scenarijuje, jei i�
 [Integruoto kanalo išplėstinės automatinės išlaidos](omni-auto-charges.md)
 
 [Automatinių išlaidų įjungimas ir konfigūravimas pagal kanalą](auto-charges-by-channel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

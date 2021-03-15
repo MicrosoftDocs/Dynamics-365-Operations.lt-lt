@@ -150,3 +150,6 @@ Naudojant tiek daug skirtingų integravimo technologijų, sprendžiant, kurį in
 <sup>2</sup>„Microsoft“ daug investuoja į didėjančią duomenų aprėptį „Dataverse“ lentelėms. Rekomenduojame naudoti „Dataverse”, kai aprėptis yra prieinama. Šiuo metu „Dataverse“ duomenų aprėptis yra maža, palyginus su DMF ir „OData“ palaikomais objektais.
 
 <sup>3</sup>SQL duomenų bazė gali būti prieinama programiškai.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

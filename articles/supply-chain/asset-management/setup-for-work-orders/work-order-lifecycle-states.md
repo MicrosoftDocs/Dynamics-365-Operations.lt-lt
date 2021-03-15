@@ -138,3 +138,6 @@ Sukūrus reikiamas darbo užsakymų ciklo būsenas, jas galima suskirstyti į da
 9. Darbo užsakymo ciklo modelį įrašykite.
 
 ![Darbo užsakymo ciklo modelių puslapis](media/15-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Norėdami įgalinti neatitikimo valdymą, atlikite toliau nurodytus veiksmus:
 [Kokybės valdymo procesai](quality-management-processes.md)
 
 [Neatitikimo valdymo būtinųjų sąlygų nustatymas](tasks/set-up-prerequisites-nonconformance-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

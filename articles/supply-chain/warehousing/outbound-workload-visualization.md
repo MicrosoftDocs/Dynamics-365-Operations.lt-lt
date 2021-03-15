@@ -97,3 +97,6 @@ Tolesnis paveikslėlis rodo esančio grafiko pavyzdį.
 ![Zona prieš darbo būsenos vizualizacija](media/work-viz-chart.png "Zona prieš darbo būsenos vizualizacija")
 
 Šis grafikas rodo dvi zonos, kurių pavadinimas **AUKŠTAS** ir **BENDRI**, taip pat zoną pavadinimu **Tuščia**. **Tuščia** zona rodo visas darbo eilutes, kurios nėra jokios zonos narės. Grafikas visada rodo visus nesusijusius filtruotus duomenis, tokius kaip **Tušti**, tam, kad pateiktų kiek įmanoma daugiau vaizdo. Zonoje **AUKŠTAS** grafikas rodo tris užvertas eilutes ir keturias atvertas. Zonoje **BENDRI** grafikas rodo keturias užvertas eilutes ir vieną atvertą ir 24 atšauktų. Galiausiai, grafikas rodo aštuonias užvertas eilutes, kurios nėra jokios zonos dalis ir dėl to išvardytos kaip **Tuščios**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

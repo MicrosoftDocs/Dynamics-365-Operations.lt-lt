@@ -308,3 +308,6 @@ Po to, kai įjungiate funkciją **Konfigūruojamas elektroninių SF išrašymo p
 - [Elektroninių SF išrašymo priedo apžvalga](e-invoicing-service-overview.md)
 - [Darbo su elektroninių SF išrašymo priedu pradžia](e-invoicing-get-started.md)
 - [Elektroninių SF išrašymo priedo nustatymas](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

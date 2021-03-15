@@ -50,3 +50,6 @@ Apskaitos šaltinių naršyklėje nuo šių dokumentų taip pat galima pereiti p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

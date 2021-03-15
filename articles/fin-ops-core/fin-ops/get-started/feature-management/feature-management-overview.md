@@ -203,3 +203,6 @@ IFeatureLifecycle yra „Microsoft“ vidinis mechanizmas, skirtas nurodyti funk
 - `PublicPreview` – rodoma pagal numatytuosius parametrus, bet su perspėjimu, kad funkcijos versija yra peržiūros.
 - `Released` – visiškai išleista.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

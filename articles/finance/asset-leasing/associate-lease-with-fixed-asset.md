@@ -53,3 +53,6 @@ Ilgalaikį turtą dabar galima nudėvėti naudojant standartinę ilgalaikio turt
 
 > [!NOTE]
 > Jei susiejate ilgalaikį turtą su nuoma, mygtukai **Turto nusidėvėjimas** ir **Nuomos nuvertėjimas** modulyje Turto nuoma yra išjungti. Ilgalaikio turto nusidėvėjimo ir nuomos nuvertėjimo operacijas galite peržiūrėti dalyje Ilgalaikis turtas. Mygtukas **Turto operacijos**, kuriuo atidaroma užklausos forma, taip pat išjungtas. Taip pat galite atidaryti **ilgalaikio turto operacijų** užklausos formą dalyje Ilgalaikis turtas.  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

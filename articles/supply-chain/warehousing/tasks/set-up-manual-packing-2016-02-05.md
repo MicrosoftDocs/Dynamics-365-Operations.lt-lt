@@ -94,3 +94,6 @@ Atliekant pakavimo procesą, produktus galima tikrinti ir pakuoti į konteineriu
 8. Lauke Svorio vienetas įveskite arba pasirinkite reikšmę.
 9. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

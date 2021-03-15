@@ -54,3 +54,6 @@ Baigę skirstyti, galite sukurti asortimentą ir priskirti jį savo kanalams. No
 2. Pasirinkite kanalus arba aukšto lygio kanalų grupes, kurioms taikomas asortimentas.
 3. Pridėti produktų kategorijas, atskirus produktus ar produktų variantus į asortimentą. Galite įtraukti visus produktus į tam tikrą kategoriją arba pašalinti pasirinktus produktus iš kategorijos, kuri yra įtraukta į asortimentą.
 4. Paskelbkite asortimentą. Paskelbus asortimentą, automatiškai paleidžiama asortimento planuoklė. Šis procesas generuoja produktų sąrašą. Baigus procesą, produktai tampa prieinami kanaluose, kuriems yra priskirtas asortimentas. Jei daromi paskelbto asortimento pakeitimai arba keičiami kanalai, kuriems priskirtas asortimentas, jis turi būti atnaujintas. Norėdami atnaujinti asortimentą po pakeitimų, galite paleisti asortimento planuoklę kaip paketinę užduotį.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Galima kopijuoti vietas iš vieno sandėlio į kitą ir kurti vietas naudojant v
 --------
 
 [Naujo sandėlio maketo kūrimas](tasks/create-new-warehouse-layout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Darbo sritį sudaro plytelių ir dviejų sąrašų suvestinė. Sąraše **Atviri
 ### <a name="manually-creating-a-new-released-product"></a>Naujo pateikto produkto kūrimas rankiniu būdu
 
 Rankiniu būdu sukurti pateiktą produktą galite vienu veiksmu – tai priklauso nuo organizacijos verslo procesų ir taisyklių, nurodančių, ar turi būti naudojama ši funkcija. Naudojant šią funkciją sukuriamas naujas produktas, kuris automatiškai pateikiamas dabartiniam juridiniam subjektui. Norėdami sukurti naują produktą, darbo srityje **Pateiktų produktų priežiūra** arba sąrašo puslapyje **Pateiktas produktas** spustelėkite **Pateikti produktai**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

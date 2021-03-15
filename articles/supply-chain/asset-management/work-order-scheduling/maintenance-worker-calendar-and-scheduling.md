@@ -38,3 +38,6 @@ Toliau esančioje ekrano kopijoje galite matyti priežiūros darbuotojo pavyzdį
 
 Nebūtina planuojant darbo užsakymą nustatyti kalendoriuje įrankius ir turtą. Yra manoma, kad įrankių ir turto priežiūra gali būti vykdoma visą parą.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

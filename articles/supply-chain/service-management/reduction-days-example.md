@@ -120,3 +120,6 @@ Kai išrašoma SF už 2011 m. kovo mėn. operacijas, 200 EUR pardavimo kaina yra
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

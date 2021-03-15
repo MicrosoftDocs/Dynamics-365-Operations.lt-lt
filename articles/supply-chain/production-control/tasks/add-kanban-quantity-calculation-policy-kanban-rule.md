@@ -62,3 +62,6 @@ ms.locfileid: "4998823"
 8. Sąraše spustelėkite saitą pasirinktoje eilutėje.
     * Pasirinkite „Speaker2016“ strategiją, kurią ką tik sukūrėte ankstesnėje papildomoje užduotyje.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

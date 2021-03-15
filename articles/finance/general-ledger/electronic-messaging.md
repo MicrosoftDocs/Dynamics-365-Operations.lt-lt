@@ -535,3 +535,6 @@ Dabar galite panaikinti arba atnaujinti pranešimo būseną. Norėdami atnaujint
 ![Atnaujinti pranešimo būseną](media/update-status.png)
 
 Pranešimo būsena atnaujinta į **Parengta** ir dabar galite generuoti ataskaitą pasirinkdami **Generuoti ataskaitą**. Ataskaita sugeneruota, o pranešimo būsena ir veiksmų žurnalas atnaujinti. Norėdami peržiūrėti sugeneruotą ataskaitą, pasirinkite viršutiniame dešiniajame puslapio kampe esantį mygtuką **Priedas** (sąvaržėlės simbolis).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

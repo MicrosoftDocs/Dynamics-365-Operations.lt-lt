@@ -42,3 +42,6 @@ Turite pasirinkti **indeksuojamos palūkanų normos vertės skirtumą** arba **i
 
 - Pasirinkite metodą **Indeksuojamos palūkanų normos vertės skirtumas** naujam nuomos mokėjimui apskaičiuoti, atsižvelgiant į skirtumą tarp indekso kurso pradžios data ir naujausio indekso kurso. Indeksuojama palūkanų norma nustatoma lauke **Indeksuojama palūkanų norma (%)**.
 - Pasirinkite metodą **Indeksuojamos palūkanų normos vertė**, norėdami apskaičiuoti nuomos mokestį pagal procentinę dalį, nurodytą lauke **Indeksuojama palūkanų norma (%)**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Kai turto tipai įtraukiami į skaitiklio tipą dalyje **Skaitikliai**, šis ska
 
 ![1 pav.](media/071-setup-for-objects.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

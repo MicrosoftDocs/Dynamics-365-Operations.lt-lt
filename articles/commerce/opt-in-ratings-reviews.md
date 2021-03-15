@@ -63,3 +63,6 @@ Norėdami sutikti naudoti įvertinimus ir apžvalgas savo svetainėje, atlikite 
 [Produktų įvertinimų sinchronizavimas sprendime „Dynamics 365 Commerce“](sync-product-ratings.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

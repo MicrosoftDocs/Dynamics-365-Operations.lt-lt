@@ -127,3 +127,6 @@ Jei skambučių centro programa, skambučių centro agentai gali pasirinkti atsi
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Paėmimo informacijos modulis](../pickup-info-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

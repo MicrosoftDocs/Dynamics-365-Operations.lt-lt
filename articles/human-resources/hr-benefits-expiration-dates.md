@@ -46,3 +46,6 @@ ms.locfileid: "5113545"
 15. Spustelėkite „Išmokos“.
 16. Sąraše raskite išmoką ir pasirinkite įrašą. Užsirašykite naują padengimo pabaigos datą.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

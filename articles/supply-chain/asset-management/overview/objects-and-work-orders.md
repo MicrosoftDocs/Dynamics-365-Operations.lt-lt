@@ -54,3 +54,6 @@ Kai norite planuoti ir vykdyti darbo užsakymo priežiūros užduotį, reikia at
 
 > [!NOTE]
 > Kai dirbate programoje Dynamics 365 Supply Chain Management ir modulyje **Turto valdymas**, norėdami sukurti naują įrašą, pasirenkate **Naujas**, norėdami atnaujinti esamą įrašą, pasirenkate **Redaguoti** ir norėdami įrašyti naujus ar redaguotus duomenis, pasirenkate **Saugoti**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

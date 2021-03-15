@@ -208,3 +208,6 @@ Vedlyje „Contoso Retailer“ įvedamos šios reikšmės:
     - **Atsakymas:** „Taip, kaip apibrėžta šiame bendrajame plane.“ Įdedama **1 diena**.
 
     „Contoso“ naudoja patvirtintas savo parduotuvių paraiškas, kad sukurtų planuojamus pirkimo užsakymus ir papildytų tas parduotuves. Bendrasis planavimas vykdomas kiekvieną dieną, todėl paraiškos iš paskutinės dienos bus įtrauktos į planavimą.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Puslapyje **Skaičiavimas pagal žymes** kurdami eilutes, kiekvienai atsargų pr
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Ciklų skaičiavimas](../warehousing/cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

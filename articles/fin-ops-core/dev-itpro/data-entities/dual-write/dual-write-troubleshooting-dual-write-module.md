@@ -87,3 +87,6 @@ Bandydami nustatyti susiejimo būseną į **Vykdoma**, galite gauti klaidos pran
 
 + Jei susiejime yra priklausomieji susiejimai, įsitikinkite, kad įgalinote šios lentelės susiejimo priklausomuosius susiejimus.
 + Gali trūkti susiejimo šaltinio arba paskirties stulpelių. Jei „Finance and Operations” programoje trūksta stulpelio, atlikite veiksmus, aprašytus skyriuje [Trūkstamų lentelių stulpelių problema schemose](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Jei „Dataverse” trūksta stulpelio, spustelėkite susiejimo mygtuką **Atnaujinti lenteles** tam, kad stulpeliai būtų automatiškai įvesti į susiejimą.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

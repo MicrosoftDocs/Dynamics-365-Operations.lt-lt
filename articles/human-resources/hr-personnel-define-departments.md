@@ -52,3 +52,6 @@ Padaliniai yra valdymo vienetai, kurie atstovauja funkcines verslo sritis, pvz.,
 16. Lauke Aprašyti keitimus įveskite reikšmę.
 17. Spustelėkite Publikuoti.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

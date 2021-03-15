@@ -204,3 +204,6 @@ Papildoma su aktyvinimu susijusi informacija apima darbuotoją, kuris pakeitė �
 ### <a name="client-data-synchronization"></a>Kliento duomenų sinchronizavimas
 
 Visi EKA kliento keitimai, išskyrus įrenginio aktyvinimo būsenos keitimus, turi būti sinchronizuoti su kanalo duomenų baze, kad įsigaliotų. Norėdami sinchronizuoti keitimus su kanalo duomenų baze, pasirinkite **Mažmeninė prekyba ir prekyba** &gt; **Mažmeninės prekybos ir prekybos IT** &gt; **Paskirstymo grafikas** ir vykdykite reikiamą paskirstymo grafiką. Atlikę kliento keitimų, turėtumėte vykdyti paskirstymo grafikus **Registrai** ir **Kanalo konfigūracija**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

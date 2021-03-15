@@ -120,3 +120,6 @@ Dėl informacijos apie tai, kaip valdyti jūsų saito turinį, žr. tolesnes tem
 [Įgalinti parduotuvės nustatymą pagal vietą](enable-store-detection.md)
 
 [Vartotojo prisijungimo pasirinktinių puslapių sąranka](custom-pages-user-logins.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

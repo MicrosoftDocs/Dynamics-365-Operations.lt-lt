@@ -72,3 +72,6 @@ Jei nurodėte, kad priežasties kodas yra reikalingas, reikia įvesti priežasti
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

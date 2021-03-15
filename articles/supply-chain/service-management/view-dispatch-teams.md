@@ -52,3 +52,6 @@ Informaciją apie tai, kaip komandai priskirti darbuotoją, žr. [Pageidaujamo t
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

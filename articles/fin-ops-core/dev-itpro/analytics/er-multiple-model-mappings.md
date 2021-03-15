@@ -182,3 +182,6 @@ Susiejimo modelis **Projekto sąskaitos faktūros kopija** iš **Projekto sąska
 - [Atskirų ER konfigūracijų ER modelio susiejimo valdymas](./tasks/er-manage-model-mapping-configurations-july-2017.md)
 - [Nuo šalies konteksto priklausomo ER modelio susiejimų konfigūravimas](er-country-dependent-model-mapping.md)
 - [Elektroninių ataskaitų sistemos API pakeitimai](er-apis-app10-0-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -118,3 +118,6 @@ Darbuotojams, kurių atliekamų užduočių greitas grįžtamasis ryšys nėra b
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

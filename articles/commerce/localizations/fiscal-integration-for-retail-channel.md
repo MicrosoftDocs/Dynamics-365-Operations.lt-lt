@@ -149,3 +149,6 @@ Toliau nurodyta fiskalinės integracijos funkcija taip pat teikiama „Retail SD
 Ši senoji fiskalinės integracijos funkcija, kuri pasiekiama „Retail SDK“ rinkinyje, nenaudoja fiskalinio integravimo sistemos ir nebus pasiekiama vėlesniuose naujinimuose:
 
 - [Švedijos kontrolės įtaiso integracijos pavyzdys (senoji)](./retail-sdk-control-unit-sample.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

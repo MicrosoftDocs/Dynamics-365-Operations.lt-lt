@@ -51,3 +51,6 @@ Norėdami patikslinti, pakoreguoti arba atnaujinti standartines naujų prekių i
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -204,3 +204,6 @@ Išrašai yra už išlaidų valdymą atsakingiems vadovams skirti rodiniai. Išr
 Norint modeliuoti, peržiūrėti ir palyginti įvairius rezultatus, naudojamos versijos. Pagal numatytuosius parametrus visos faktinės išlaidos rodomos vienoje pagrindinėje versijoje, vadinamoje *faktine*. Dirbdami su biudžetais ir atlikdami skaičiavimus galite dirbti su tiek versijų, kiek jums reikia. Pavyzdžiui, galite importuoti biudžeto duomenis į pradinę versiją, o po to peržiūrėti biudžetą pataisytoje versijoje. Atlikdami skaičiavimus galite sukurti kelias versijas. Tada šiose įvairiose versijose naudodami skirtingas skaičiavimo taisykles, kurios bus taikomos išlaidų paskirstymui, galite sukurti skaičiavimus.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

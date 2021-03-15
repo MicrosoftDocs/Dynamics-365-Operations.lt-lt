@@ -290,3 +290,6 @@ Kai viena iš kitos išvedama viena elektroninio SF išrašymo priemonė **Kurti
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 - [Išduoti elektronines sąskaitas „Finance and Supply Chain Management”](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

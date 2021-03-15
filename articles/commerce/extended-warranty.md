@@ -238,3 +238,6 @@ Garantija yra paslauga, teikiama konkrečiam, unikaliam produktui. „Dynamics 3
 [Asortimentų nustatymas](set-up-assortments.md)
 
 [Numeracijų apžvalga](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

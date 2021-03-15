@@ -63,3 +63,6 @@ Plano tipas gali nurodyti padengimo pasirinktis. Padengimo parinktys nustatytos 
    | **Ataskaitų teikimo langas** | Nurodo gyvenimo įvykio ataskaitų teikimo langą dienomis. **Pastaba**. Jei neįvesite reikšmės, sistema laikys, kad ataskaitų lango reikšmė yra nulis ir gyvenimo įvykio neapdoros. |
 
 5. Pasirinkite **Įrašyti**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

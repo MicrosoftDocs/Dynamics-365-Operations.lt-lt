@@ -121,3 +121,6 @@ Kai kūrimo įrankis įkeltas, pasirinkę **Pradžia** galite grįžti į kūrim
 [Ieškos modulio optimizavimo (SEO) aplinkybės jūsų svetainei](search-engine-optimization-considerations.md)
 
 [Tvarkyti turinio saugos strategiją (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

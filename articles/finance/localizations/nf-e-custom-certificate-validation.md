@@ -35,3 +35,6 @@ Sertifikato V5 ypatybę **Serverio autentifikavimo paskirtis** suteikia Brazilij
 Šis naujinimas leidžia naudoti alternatyvų sprendimą sertifikato patvirtinimui, o tai reiškia galimybę užmegzti saugų ryšį.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Norėdami gauti daugiau informacijos žr. [Nusidėvėjimo metodai ir konvencijos
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

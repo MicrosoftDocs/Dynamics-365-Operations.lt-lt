@@ -51,3 +51,6 @@ Daugiau informacijos apie darbo užsakymo ciklo būsenas ir projekto etapus žr.
 8. Pasirinkite **Įrašyti**.
 
 ![Darbo užsakymų tipai](media/16-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

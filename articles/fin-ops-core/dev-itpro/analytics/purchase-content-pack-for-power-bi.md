@@ -154,3 +154,6 @@ Toliau pateiktoje lentelėje nurodomi pagrindiniai turinyje naudojami matavimo v
 | Datos                  | Datos, metų poslinkis                                    |
 
 Pagal numatytuosius parametrus turinyje rodomi esamų kalendorinių metų duomenys. Tačiau ataskaitos filtrų skyriuje datos filtrą galima pakeisti. Taip pat galite pakeisti įmonės filtrą.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

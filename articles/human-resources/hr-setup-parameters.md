@@ -50,3 +50,6 @@ Skirtuko **Numeracija** parametrai nurodo sekas, naudojamas ID automatiškai pri
 
 > [!NOTE]
 > Išdirbtų valandų skaičius negali viršyti 1 250, o įdarbinimo trukmė negali viršyti 12 mėnesių. Šios didžiausios galimos reikšmės atitinka Jungtinių Amerikos Valstijų federalinę teisę. Galiausiai skirtuko **Darbuotojų savitarna** parametrai apibrėžia informaciją, kurią vadybininkai gali įvesti savo darbuotojų vardu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

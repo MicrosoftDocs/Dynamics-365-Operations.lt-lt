@@ -61,3 +61,6 @@ ms.locfileid: "4966910"
 > [!NOTE]
 > Tarkime, kad nustatėte aktyvią būseną, todėl dabar galite pasirinkti tokią aktyvią būseną, kuri leistų naudoti produktą vykstant procesams Bendrasis planavimas ir Lygio KS skaičiavimas. Žinoma, tai prasminga tik tuo atveju, jei nurodyta visa norint atlikti nuoseklų planavimą reikalinga produkto informacija.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

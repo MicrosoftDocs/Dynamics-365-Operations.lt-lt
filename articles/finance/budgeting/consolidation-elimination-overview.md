@@ -93,3 +93,6 @@ Negalėsite apdoroti ar užbaigti savo biudžetų konsolidavimo įmonėje. Rekom
 Daugiau informacijos rasite [Valiutos kurso pasikeitimas konsoliduotoje įmonėje](../general-ledger/currency-revaluation-consolidation-company.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

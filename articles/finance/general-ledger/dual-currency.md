@@ -208,3 +208,6 @@ DK konsolidacijoje pridėta nauja parinktis, su kuria galima konsoliduoti šalti
 -  Dabar galite pasirinkti ar norite naudoti šaltinio įmonės apskaitos valiutą ar ataskaitų valiutą kaip operacijos valiutą konsolidacijos įmonėje.
 
 - Šaltinio įmonės apskaitos arba ataskaitų valiutų sumos bus tiesiogiai nukopijuotos į konsolidacijos įmonės apskaitos arba ataskaitų valiutų sumas, jei bet kuri iš šių valiutų yra vienoda. Konsolidacijos įmonės apskaitos ir ataskaitų valiutų sumos skaičiuojamos naudojant valiutos kursą, jei nei viena iš valiutų nėra vienoda.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -579,3 +579,6 @@ Tikėtina, kad prisijungėte prie dabartinio „Azure AD“ domeno programos egz
 |                             | Pardavimo užsakymo važtaraštis (LT) („Excel”)           |
 |                             | Pardavimo užsakymo važtaraštis (PL) („Excel”)           |
 |                             | Pardavimo užsakymo važtaraštis („Word”)                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

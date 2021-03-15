@@ -64,3 +64,6 @@ Nauja įvesties apkrovos tvarkymo funkcija, *Per krovinio kiekių gavimą*, išt
 1. Krovinio kiekio perviršis
 
 Dėl išsamesnės informacijos, žr. [Publikuoti registruotus produktų kiekius pagal pirkimo užsakymus](inbound-load-handling.md#post-registered-quantities).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

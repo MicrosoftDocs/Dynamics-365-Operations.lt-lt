@@ -59,3 +59,6 @@ Tai naudinga, jei norite peržiūrėti numatytą elementų naudojimą (atsargini
 8. Spustelėkite mygtuką **Rodyti matmenis**, jei norite matyti elementus, susijusius su produktu, saugykla arba sekimo matmenimis. Pažymėkite atitinkamus žymės langelius ir spustelėkite **Gerai**.
 
 ![1 pav.](media/02-capacity-planning.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

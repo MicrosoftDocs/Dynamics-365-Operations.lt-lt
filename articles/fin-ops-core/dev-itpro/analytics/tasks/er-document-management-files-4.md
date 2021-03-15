@@ -69,3 +69,6 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus
 11. Spustelėkite Gerai.
     * Peržiūrėkite sugeneruotą išvestį. Atkreipkite dėmesį, kad kiekvienam priedui sukuriamas vienas XML mazgas. Priedo turinys įvedamas į XML išvestį MIME (base64) teksto formatu.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

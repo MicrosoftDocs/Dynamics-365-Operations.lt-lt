@@ -99,3 +99,6 @@ Galite naudoti skirtuką **Nepaisymai**, kad nepaisytumėte konkrečių darbuoto
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

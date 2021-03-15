@@ -96,3 +96,6 @@ Sistema veikia taip pat, nepaisant to, ar puslapio **DK parametrai** dalies **Op
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

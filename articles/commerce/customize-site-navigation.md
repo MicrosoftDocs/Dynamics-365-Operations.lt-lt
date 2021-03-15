@@ -109,3 +109,6 @@ Norėdami į naršymo meniu įtraukti pasirinktines naršymo parinktis, atlikite
 [Kurti puslapio URL](create-page-url.md)
 
 [Darbas su publikavimo grupėmis](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

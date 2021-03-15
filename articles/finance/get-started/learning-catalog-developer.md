@@ -93,3 +93,6 @@ Toliau pateiktas katalogas yra sutvarkytas taip, kad žinios būtų išdėstytos
 | Turinys | aprašymas  | Formatuoti  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 |[Exam MB-500: „Microsoft Dynamics 365“: „Finance and Operations“ programų kūrėjas](https://docs.microsoft.com/learn/certifications/exams/mb-500) | Šis tyrimas vertina jūsų galimybę užbaigti tolesnes technines užduotis: suplanuoti architektūros ir sprendimo dizainą; taikyti kūrimo įrankius, projektuoti ir vystyti AOT elementus; vystyti ir bandyti kodą; įgyvendinti ataskaitų kūrimą; integruoti ir valdyti duomenų sprendimus; įgyvendinti saugumą ir optimizuoti vykdymą. | Egzamino kaina priklauso nuo regiono |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

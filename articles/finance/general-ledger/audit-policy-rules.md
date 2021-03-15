@@ -100,3 +100,6 @@ Visos tam tikros audito strategijos taisyklės bendrai naudoja tuos pačius pake
 [Apibrėžti šaltinio dokumento audito strategijas](tasks/define-audit-policies-source-documents.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

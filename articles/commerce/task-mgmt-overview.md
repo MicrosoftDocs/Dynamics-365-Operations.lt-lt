@@ -52,3 +52,6 @@ Toliau pateiktame paveikslėlyje vaizduojama užduočių valdymo programoje „C
 [Užduočių sąrašų priskyrimas parduotuvėms arba darbuotojams](task-mgmt-assign-lists.md)
 
 [Užduočių valdymas EKA programoje](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

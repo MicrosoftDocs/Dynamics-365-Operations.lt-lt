@@ -54,3 +54,6 @@ Norėdami papildomą lauką BankTransactionType įtraukti į sudėtinį BankJour
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

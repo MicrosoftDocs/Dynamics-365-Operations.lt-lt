@@ -57,3 +57,6 @@ Jei skaičiavimui pasirinkote pajėgumo tipus **Pajėgumas** arba **Likutis**, j
 
 Informacijos apie tai, kaip skaičiuoti priežiūros grafiko eilučių ir nesuplanuotų darbo užsakymų pajėgumą, žr. [Pajėgumo skaičiavimas](../capacity-planning/calculate-capacity-load.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

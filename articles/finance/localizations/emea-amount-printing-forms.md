@@ -53,3 +53,6 @@ Norėdami nustatyti valiutos vienetų ir antrinių vienetų visus pavadinimus be
 
 5. Pasirinkite **Įrašyti**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -101,3 +101,6 @@ Skirtuke **Paskirstymo raktai** galite nustatyti **prognozės algoritmo parametr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

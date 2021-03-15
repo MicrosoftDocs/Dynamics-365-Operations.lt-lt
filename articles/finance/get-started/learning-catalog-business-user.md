@@ -60,3 +60,6 @@ Toliau pateiktas katalogas yra sutvarkytas taip, kad žinios būtų išdėstytos
 | Turinys | aprašymas  | Formatuoti  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [„Dynamics 365“ pagrindai](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl)    | Įrodykite, kad suprantate „Microsoft Dynamics 365“, „Power Platform“, debesų koncepcijas, licencijavimo parinktis bei diegimo ir išleidimo parinktis. | Egzamino kaina priklauso nuo regiono |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

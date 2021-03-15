@@ -65,3 +65,6 @@ Jūsų juridinio subjekto apskaitos valiuta yra EUR, o toliau pateikti valiutų 
 > [!NOTE]
 > Jei apskaičiuotos grynųjų pinigų nuolaidos dalinių mokėjimų parinkčiai yra pasirenkami Paskyrų gaunamusoe parametruose ar Paskyrų mokėtinų parametrų puslapiuose, naudojamas kiekvieno mokėjimo dieną galiojantis keitimo kursas. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

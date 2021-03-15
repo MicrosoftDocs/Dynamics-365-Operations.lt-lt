@@ -540,3 +540,6 @@ Jei rūšiavimo padėtys turi būti uždarytos rankiniu būdu, **Automatinio už
 
 > [!IMPORTANT]
 > Po to, kai judėjimo darbas yra sukurti pagal rūšiavimo vietą, privalote neatšaukti darbo. Kitu atveju, pozicija ir talpyklos jame bus pašalintos iš sistemos ir neprieinamos tolesniam apdorojimui. Inventorius taip pat bus pašalintas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

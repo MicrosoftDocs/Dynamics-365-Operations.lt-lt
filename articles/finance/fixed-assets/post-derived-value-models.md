@@ -58,3 +58,6 @@ Daugiau informacijos ieškokite [Išvestinės knygos](derived-books.md).
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

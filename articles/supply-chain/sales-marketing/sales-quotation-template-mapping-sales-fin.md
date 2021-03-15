@@ -142,3 +142,6 @@ Tolesnėse iliustracijose pateikiamas šablono susiejimo pavyzdys duomenų integ
 
 [Potencialūs klientai ir grynieji pinigai](prospect-to-cash.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

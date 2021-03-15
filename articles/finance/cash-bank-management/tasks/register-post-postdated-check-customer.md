@@ -49,3 +49,6 @@ Galite užregistruoti išsamią vėlesnio čekio informaciją, gautą iš klient
 15. Spustelėkite Registruoti.
 16. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

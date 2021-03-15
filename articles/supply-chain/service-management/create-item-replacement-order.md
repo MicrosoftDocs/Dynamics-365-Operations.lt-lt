@@ -67,3 +67,6 @@ Prekių pakeitimo užsakymai dažniausiai kuriami tada, kai produktas yra jau gr
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

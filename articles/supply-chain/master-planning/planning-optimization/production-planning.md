@@ -83,3 +83,6 @@ Planavimo scenarijuose, apimančiuose gamybą, rekomenduojame vengti vykdyti fil
 Nors priklausomos antrinės prekės yra automatiškai aptinkamos ir įtraukiamos į bendrojo planavimo vykdymą, kai naudojamas įtaisytasis bendrojo planavimo mechanizmas, planavimo optimizavimas neatlieka šio veiksmo.
 
 Pavyzdžiui, jei vienas varžtas iš produkto A KS struktūros taip pat naudojamas produktui B gaminti, visi A ir B produktų KS struktūros produktai turi būti įtraukti į filtrą. Kadangi gali būti labai sudėtinga užtikrinti, kad visi produktai būtų filtro dalis, rekomenduojame vengti filtruoto bendrojo planavimo vykdymo, kai įtraukiami gamybos užsakymai.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

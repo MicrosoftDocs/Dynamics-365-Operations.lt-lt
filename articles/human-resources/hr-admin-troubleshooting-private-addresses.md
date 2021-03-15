@@ -39,3 +39,6 @@ Norėdamas išspręsti šią problemą, klientas turi atlikti nurodytus besidubl
 3. Pasirinkite **Įrašyti**.
 
 ![Visuotinės adresų knygelės parametrų puslapis](media/GAD-parameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

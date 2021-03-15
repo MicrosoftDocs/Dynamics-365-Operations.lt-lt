@@ -79,3 +79,6 @@ Kai taikomas klasterio pasirinkimas, būtina patvirtinti prekes, kad būtų gali
 1. Mobiliojo įrenginio meniu elemente atidarykite darbo patvirtinimo sąrankos formą: **Sandėlio valdymas** \> **Sandėlio valdymas** \> **Sąranka** \> **Mobilusis įrenginys** \> **Mobiliojo įrenginio meniu elementai**.
 
 1. Mobiliojo įrenginio meniu elemente atidarykite **Darbo patvirtinimo sąranka**. Naudodamiesi parinktimi **Produkto patvirtinimas** mobiliuoju įrenginiu nuskaitydami galite patikrinti kiekvieną atsargų dalį.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

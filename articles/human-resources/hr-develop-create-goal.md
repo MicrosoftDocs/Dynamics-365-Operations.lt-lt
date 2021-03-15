@@ -58,3 +58,6 @@ Galite kurti tikslus, įtraukti į tikslus veiklų, sekti matavimus ir susieti t
     * Dažnai būna keli tikslai, kurie yra bendri komandos nariams arba visiems darbuotojams.     Jūsų personalo administratorius arba vadovas gali kurti tikslų grupes, kuriose yra vienas ar daugiau tikslų šablonų. Galite įtraukti tikslų iš tikslų grupės, o tada juos modifikuoti, kad jie atitiktų jūsų laiko planavimo juostą.  
     * Sukūrę apžvalgą, galite į ją įtraukti tikslų. Žr. užduočių vedlio dalį, skirtą apžvalgoms, kad sužinotumėte, kaip į apžvalgas galite įtraukti tikslų.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

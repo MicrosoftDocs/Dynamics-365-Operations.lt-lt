@@ -158,3 +158,6 @@ Toliau esančiose lentelėse rodomos reikšmės, kurios yra nustatytos šio pavy
 11. Norėdami peržiūrėti grynąjį nutraukimo poeikį, kai ROU turtas ir nuomos teisės bus 0 (nulis), atverkite teisių ir turto transakcijų lenteles.
 
 Nuomos būsena dabar turi būti **Nutraukta**. Jokių papildomų žurnalų įrašų nebus publikuojama pagal nuomą, nebent nutraukimas bus grąžinamas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

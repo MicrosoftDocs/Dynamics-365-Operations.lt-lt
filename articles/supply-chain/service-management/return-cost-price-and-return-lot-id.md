@@ -111,3 +111,6 @@ Kai grąžinimo savikainą nurodote grąžinimo užsakymo eilutės lauke **Grą�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

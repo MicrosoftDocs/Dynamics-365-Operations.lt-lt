@@ -45,3 +45,6 @@ Nusprendę, kurias sąskaitas naudoti, galite nurodyti, kaip kuriamas kvito nume
 
 
 Daugiau informacijos žr. [Kurti kaupimo schemas](tasks/create-accrual-schemes.md) ir [Kurti DK kaupimo operacijas](tasks/create-ledger-accrual-transactions.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -192,3 +192,6 @@ Visiškai išsiųsti perkėlimo užsakymai perkeliami į skirtuką **Atlikta** d
 ## <a name="related-topics"></a>Susijusios temos
 
 [Atvežamų atsargų operacija EKA](pos-inbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

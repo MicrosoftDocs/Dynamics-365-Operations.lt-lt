@@ -136,3 +136,6 @@ Bus pasiekiami tolesni puslapiai ir meniu elementai, susiję su funkcijų sąran
  - **Užsienio prekybos parametrai** (**Mokesčiai** > **Sąranka** > **PVM** > **Užsienio prekyba** > **Užsienio prekybos parametrai**). Žr. [Šalies / regiono ypatybių nustatymas](#Set-up-Country/region-properties).
 
 Žymės langelis **Atvirkštinis apmokestinimas** bus pasiekiamas puslapiuose **PVM grupė** ir **Užregistruotas PVM**. Norėdami gauti daugiau informacijos, žr. skyrius [PVM grupių ir prekių PVM grupių nustatymas](#sales-tax-item-sales-tax-groups), [Pardavimo SF atvirkštinis apmokestinimas](#reverse-charge-sale) ir [Pirkimo SF atvirkštinis apmokestinimas](#reverse-charge-purchase).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

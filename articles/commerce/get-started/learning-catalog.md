@@ -140,3 +140,6 @@ Raskite tinkamą internetinį mokymą, seminarus grupėse ir renginius, skirtus 
 
     :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

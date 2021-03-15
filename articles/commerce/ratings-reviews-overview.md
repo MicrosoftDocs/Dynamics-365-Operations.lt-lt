@@ -58,3 +58,6 @@ Toliau pateiktame paveikslėlyje parodyta, kaip veikia įvertinimų ir apžvalg�
 [Įvertinimų ir atsiliepimų konfigūravimas](configure-ratings-reviews.md)
 
 [Produktų įvertinimų sinchronizavimas sprendime „Dynamics 365 Commerce“](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

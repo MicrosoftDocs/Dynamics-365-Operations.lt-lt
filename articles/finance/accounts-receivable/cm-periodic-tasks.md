@@ -43,3 +43,6 @@ Kai verslas vystosi ir pasikeičia aplinkybės, tam tikro kliento kredito rizika
 Galite vykdyti procesą **Kliento balanso statistikos naujinimas** norėdami atnaujinti balanso statistikos, rodomos puslapyje **Balanso statistikos užklausos**, skaičiavimą. Ši informacija naudojama norint apskaičiuoti rizikos balus ir reikšmes, kurios rodomos statistikos „FactBox“ puslapyje **Klientas**.
 
 Paleidus procesą, jis atnaujina vieno kliento balanso statistiką. Norėdami nustatyti paketines užduotis, kad būtų galima vykdyti procesą keliems klientams, galite naudoti puslapį **Skaičiuoti balanso statistiką** (**Kreditų valdymas \> Periodinės užduotys \> Skaičiuoti balanso statistiką**).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

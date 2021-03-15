@@ -211,3 +211,6 @@ Jei eilutės kliento lentelėje turi verčių **KontaktinioAsmensId** ir **Sąsk
     Pradinė eilučių sinchronizacija baigta.
 
 8. „Finance and Operations” programoje vėl įjunkite **Klientai V3** lentelės keitimų sekimą.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

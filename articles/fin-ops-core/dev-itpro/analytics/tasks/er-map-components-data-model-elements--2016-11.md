@@ -113,3 +113,6 @@ Kiekvieną formato versiją galima sukonfigūruoti taip,kad ji būtų parengta n
 1. Išplėskite dalį ISO šalies / regiono kodai.
     * Kiekvieną formato prieigą galima apriboti nustatant konkrečias šalis / regionus, kuriuose veiks šis formatas. Kai konkretaus formato šalių / regionų sąrašas yra tuščias, šį formatą galima naudoti bet kurioje įmonėje. Į šalių / regionų sąrašą įterpus ISO šalių / regionų kodus, formatą bus galima naudoti tik įmonėse, kurių pagrindinis adresas yra šalyje / regione.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

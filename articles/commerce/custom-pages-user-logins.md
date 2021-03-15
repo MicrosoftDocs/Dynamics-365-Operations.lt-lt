@@ -213,3 +213,6 @@ Atnaujinus global.json failą ir publikavus keitimus, naujas saito tekstas atsir
 [Turinio pristatymo tinklo (CDN) palaikymo įtraukimas](add-cdn-support.md)
 
 [Parduotuvės nustatymo pagal vietą įgalinimas](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

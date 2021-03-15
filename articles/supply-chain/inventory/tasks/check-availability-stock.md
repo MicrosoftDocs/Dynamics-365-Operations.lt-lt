@@ -59,3 +59,6 @@ ms.locfileid: "5000164"
 5. Spustelėkite **Gerai**.
 6. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

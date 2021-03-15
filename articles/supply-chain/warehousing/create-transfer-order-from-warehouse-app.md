@@ -333,3 +333,6 @@ Perkėlimo užsakymai kuriami nenaudojant **Pristatymo datos valdymas** galimybi
 #### <a name="can-i-use-a-license-plate-having-physical-negative-inventory-on-hand"></a>Ar galima naudoti numerio lentelę, kurioje faktinės turimos atsargos yra neigiamos?
 
 Funkcija palaiko tik teigiamus faktinius turimus kiekius. Įsitikinkite, kad faktiniai turimi kiekiai sandėlyje ir atsargų būsenos lygis yra teigiami, prieš priskirdami numerio lenteles perkėlimo užsakymui.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

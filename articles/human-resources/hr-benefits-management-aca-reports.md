@@ -207,3 +207,6 @@ Aprėpties informacija darbuotojo išlaikytiniams yra rodoma.
 
 > [!NOTE]
 > Puslapis rodo tik išmokų planus, kurie pažymėti kaip **ACA pranešami**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

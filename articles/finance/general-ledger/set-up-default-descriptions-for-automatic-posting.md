@@ -86,3 +86,6 @@ Atlikę veiksmus, nurodytus [Numatytųjų aprašų nustatymas](#set-up-default-d
 2. Lauke **Nuorodų lentelė** pasirinkite duomenų bazės lentelę, iš kurios norite įtraukti parametro duomenis į aprašą.
 3. Lauke **Nuorodos laukas** pasirinkite lauką, iš kurio norite įtraukti parametro duomenis į aprašą.
 4. Norėdami pridėti daugiau parametrų, kartokite 1–3 veiksmus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

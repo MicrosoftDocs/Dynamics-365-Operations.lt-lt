@@ -43,3 +43,6 @@ Tinkama KS versija, konkrečios teritorijos ar bendroji, turi atitikti nurodytus
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

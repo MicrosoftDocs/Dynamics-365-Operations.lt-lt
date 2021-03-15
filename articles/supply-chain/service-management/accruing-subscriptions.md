@@ -151,3 +151,6 @@ Galite valdyti DK operacijų, sukurtų registruojant sukauptas įplaukas, skaič
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

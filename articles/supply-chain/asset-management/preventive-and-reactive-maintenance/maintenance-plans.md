@@ -238,3 +238,6 @@ Galite konfigūruoti sistemą taip, kad ji automatiškai iš naujo nustatytų sk
 1. Eikite į **Turto valdymas \> Sąranka \> Darbo užsakymai \> Ciklo būsenos**.
 1. Sąrašo srityje pasirinkite darbo užsakymo ciklo būseną, kada reikia nustatyti iš naujo atitinkamą skaitiklį.
 1. „FastTab“ **Bendra** nustatykite parinktį **Nustatyti skaitiklį iš naujo** į *Taip*.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

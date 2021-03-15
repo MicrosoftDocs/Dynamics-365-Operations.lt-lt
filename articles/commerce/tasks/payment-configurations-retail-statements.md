@@ -52,3 +52,6 @@ ms.locfileid: "4982320"
     * Pasirinkite, į kurią sąskaitą registruoti įnešimo į įmonės kasą sumas.  
 8. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

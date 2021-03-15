@@ -97,3 +97,6 @@ Galite nustatyti kelias KS skaičiavimo grupės, priklausomai nuo to, kiek skirt
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

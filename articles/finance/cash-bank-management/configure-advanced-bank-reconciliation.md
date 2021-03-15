@@ -60,3 +60,6 @@ Pasirinkus parinktį **Derinti importavus**, bus automatiškai patvirtintas bank
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

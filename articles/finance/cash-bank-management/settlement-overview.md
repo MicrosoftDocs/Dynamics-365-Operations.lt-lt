@@ -77,3 +77,6 @@ Kai bandote sudengti operaciją, galite pastebėti simbolį, nurodantį, kad ope
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 - [Sudengti likutį](settle-remainder.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

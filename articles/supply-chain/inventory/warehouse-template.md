@@ -97,3 +97,6 @@ Norėdami daugiau sužinoti apie tai, kaip naudojant sandėlio šabloną nukopij
 ## <a name="related-topic"></a>Susijusi tema
 
 [Konfigūracijos duomenų šablonai](../../dev-itpro/data-entities/configuration-data-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Siekiant konfigūruoti el. laiško šablonus konkretiems pristatymo būdams „C
 [Skambučių centro užsakymų kūrimas](tasks/create-call-center-orders.md)
 
 [Pristatymo režimo keitimas EKA](pos-change-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

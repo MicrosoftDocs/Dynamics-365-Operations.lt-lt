@@ -82,3 +82,6 @@ Jei nustatysite paketinio vykdymo langą, įspėjimas bus siunčiamas, kai apdor
 
 1. Pasirinkite **Sistemos administravimas** &gt; **Periodinės užduotys** &gt; **Įspėjimai** &gt; **Termino įspėjimai**.
 2. Dialogo lange **Termino įspėjimai** įveskite atitinkamą informaciją.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

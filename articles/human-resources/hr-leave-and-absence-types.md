@@ -82,3 +82,6 @@ Atostogų tipai programoje „Dynamics 365 Human Resources“ apibrėžia neatvy
 - [Darbo laiko kalendoriaus kūrimas](hr-leave-and-absence-working-time-calendar.md)
 - [Atostogų sustabdymas](hr-leave-and-absence-suspend-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

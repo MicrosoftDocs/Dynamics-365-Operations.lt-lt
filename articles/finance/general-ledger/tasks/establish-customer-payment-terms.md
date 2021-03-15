@@ -56,3 +56,6 @@ ms.locfileid: "4968559"
 26. Lauke **Pagrindinė sąskaita, skirta tiekėjo nuolaidoms** įveskite pagrindinę sąskaitą, kuri bus naudojama pateikiant tiekėjo SF su mokėjimo nuolaida.
 27. Spustelėkite **Įrašyti**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

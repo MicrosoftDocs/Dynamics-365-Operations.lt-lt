@@ -51,3 +51,6 @@ Tai yra antroji iš penkių procedūrų, kuriose aprašomas kliento mokėjimo na
 4. Lauke Banko sąskaita įveskite arba pasirinkite reikšmę.
 5. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

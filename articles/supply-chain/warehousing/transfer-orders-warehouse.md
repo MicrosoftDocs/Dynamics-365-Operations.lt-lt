@@ -52,3 +52,6 @@ Turite taip pat nustatyti transportavimo tarp sandėlių vykdymo laiką puslapyj
 2. Lauke **Gavimo vieta** pasirinkite **sandėlį**.
 3. Pasirinkite **Siuntimo sandėlis**, **Gavimo sandėlis** ir **Transportavimo dienos**. 
 4. (Pasirinktinai) Taip pat galite nustatyti transportavimo laiką, atsižvelgdami į pristatymo būdą, skirtuke **Transportavimo dienos pagal pristatymo būdą**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

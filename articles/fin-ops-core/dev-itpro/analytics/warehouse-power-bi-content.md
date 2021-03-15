@@ -111,3 +111,6 @@ Tolesniais duomenimis pildomi „Power BI“ turinio **Sandėlio našumas** atas
 | Siuntimo efektyvumas        | Išsiųsta pagal produktą                       | CustPackingSlipOnTimeStatus           | Anksti, Laiku ir Pavėluotai (žr. anksčiau šioje lentelėje pateiktus aprašymus). |
 | Siuntimo efektyvumas        | Išsiųsta pagal klientą                      | CustPackingSlipOnTimeStatus           | Anksti, Laiku ir Pavėluotai (žr. anksčiau šioje lentelėje pateiktus aprašymus). |
 | Siuntimo efektyvumas        | Išsiųsta pagal teritoriją / sandėlį              | CustPackingSlipOnTimeStatus           | Anksti, Laiku ir Pavėluotai (žr. anksčiau šioje lentelėje pateiktus aprašymus). |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

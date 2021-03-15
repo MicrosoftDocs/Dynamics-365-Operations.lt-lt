@@ -56,3 +56,6 @@ Kadangi jūsų organizacija auga, turite pradėti tęstinumo planą. Tęstinumo 
 27. Rinkitės **Rezultatas**.
 28. Rinkitės **Ataskaita**. Ataskaitoje pateikiami geriausi atitikmenys ataskaitos viršuje. Galite matyti įvardytą tarpo elementą. Tarpas yra skirtumas tarp įgūdžių žemėlapio lygio ir asmens įgūdžių lygio.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

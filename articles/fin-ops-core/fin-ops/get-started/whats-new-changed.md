@@ -50,3 +50,6 @@ Norėdami sužinoti, kas nauja ar pasikeitė „Lifecycle Services“, žr. ši�
 - [Kas nauja ar pasikeitė „Lifecycle Services” (LCS)](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

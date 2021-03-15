@@ -67,3 +67,6 @@ ms.locfileid: "5017064"
 4. Lauke **Produkto gavimo kvitas** įveskite vertę. Šiame lauke įvedama nuoroda, kuri naudojama kaip produktų gavimo žurnalo kvitas.  
 5. Spustelėkite **Gerai**. Dabar pirkimo grąžinimo užsakyme prekės užregistruotos kaip išsiųstos ir produktų gavimo kvitų žurnalas sukurtas. Galite naudoti veiksmą Produkto gavimo kvitas, norėdami peržiūrėti žurnalus, sukurtus su pirkimo užsakymu, ir sužinoti, kas ir kada buvo gauta arba grąžinta.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus
 8. Medyje išplėskite „Intrastat“ modelis.
 9. Medyje pasirinkite Intrastat model\Intrastat (DE).
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

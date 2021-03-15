@@ -103,3 +103,6 @@ Siekiant paaiškinti šią akivaizdžią nesėkmę, turite suprasti kriterijų s
 
 > [!NOTE]
 > Negalite naudoti sandėliavimo vietos limitų siekiant valdyti, pavyzdžiui, prekių papildymo, kuris turi kitus kiekius toje pačioje vietoje. Tokiu atveju, naudokite *papildymo pavyzdį*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

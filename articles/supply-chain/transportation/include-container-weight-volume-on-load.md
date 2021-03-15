@@ -44,3 +44,6 @@ Kiek konteinerių turėtų reikėti kroviniui, apskaičiuojama pagal konteinerio
 -   Norėdami nustatyti konteinerio svorį ir tūrį, spustelėkite **Sandėlio valdymas** \> **Sąranka** \> **Konteineriai** \> **Konteinerių tipai**.
 
 -   Norėdami nustatyti konteinerio naudojimo procentą, spustelėkite **Sandėlio valdymas** \> **Sąranka** \> **Konteineriai** \> **Konteinerių grupės** ir lauke **Konteinerio naudojimo procentas** įveskite reikšmę.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

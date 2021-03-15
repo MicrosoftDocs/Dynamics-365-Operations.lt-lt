@@ -69,3 +69,6 @@ Galite paleisti funkciją **Laukiančio turto skaičiavimas**, norėdami patikri
 3. Galite nustatyti, kad ši užduotis būtų vykdoma kaip paketinė užduotis, pvz., kartą per dieną.
 
 **Atsargiai:** Įspėjimas: jei pirkimo užsakymo duomenys pakeičiami *jau* sukūrus turtą pagal jam priklausantį elementą, pakeitimai neturės turtui jokios įtakos.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

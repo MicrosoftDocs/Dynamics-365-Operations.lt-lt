@@ -54,3 +54,6 @@ Tam tikrais atvejais nerekomenduojame iš naujo nustatyti duomenų sritį. Šiai
 > Šie aspektai pabrėžia du dalykus, kurių duomenų srities atkūrimas *neatliks*. <br>
 > - Atkūrimo procedūra neišvalo ataskaitų kūrimo įrankių. <br>
 > - Atkūrimo procedūra neišvalo pasirinktų įmonės ar vartotojų duomenų.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

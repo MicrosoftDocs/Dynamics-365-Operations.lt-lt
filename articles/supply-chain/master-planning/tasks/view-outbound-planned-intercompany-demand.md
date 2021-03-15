@@ -42,3 +42,6 @@ ms.locfileid: "5001779"
 8. Išplėskite skyrių Poreikio proceso pradžioje informacija.
     * Šiame skyriuje galite peržiūrėti informaciją apie tai, kaip poreikis bus patenkintas. Gali tekti palaukti, kol bendrasis planavimas bus įvykdytas tiekimo įmonėje, kad čia galėtumėte peržiūrėti papildomą informaciją.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

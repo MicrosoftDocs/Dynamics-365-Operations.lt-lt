@@ -143,3 +143,6 @@ Daugiau informacijos ieškokite šiose temose:
 - [Dvi valiutos](dual-currency.md)
 - [PVM apžvalga](indirect-taxes-overview.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

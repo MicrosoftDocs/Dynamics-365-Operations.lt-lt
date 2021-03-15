@@ -87,3 +87,6 @@ ms.locfileid: "5021434"
 57. Išplėskite skyrių **Sąsajos**.
 58. Sąraše raskite ir pasirinkite norimą įrašą.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

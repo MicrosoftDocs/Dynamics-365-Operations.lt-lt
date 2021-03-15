@@ -62,3 +62,6 @@ Prieš suskaidant visiškai nusidėvusį turtą, turto knygos būseną reikia ra
     - Sukuriama tos pačios sumos naujojo turto įsigijimo operacija.
 
 4. Pasirinkite **Registruoti**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

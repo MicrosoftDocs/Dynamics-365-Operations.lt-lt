@@ -80,3 +80,6 @@ Sukūrę ciklo būsenas, kurios yra reikalingos jūsų priežiūros užklausoms,
 Paveikslėlyje pateiktas puslapio **Priežiūros užklausos ciklo būsenos** pavyzdys.
 
 ![Priežiūros užklausos ciklo modelių puslapis](media/06-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ ms.locfileid: "4994595"
 9. Lauke **Dimensijos reikšmė** įveskite jūsų finansinės dimensijos reikšmę aprašantį pavadinimą.
 10. Lauke **Aprašas** įveskite aprašymą, kuris apibūdina jūsų finansinės dimensijos reikšmę.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

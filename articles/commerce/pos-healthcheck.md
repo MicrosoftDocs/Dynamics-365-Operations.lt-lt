@@ -82,3 +82,6 @@ Pasirinktines sveikatos patikras taip pat galima sukurti norint išbandyti paren
 ## <a name="related-articles"></a>Susiję straipsniai
 
 [Modernūs EKA (MPOS) paleidikliai ir spausdinimas](dev-itpro/pos-trigger-printing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

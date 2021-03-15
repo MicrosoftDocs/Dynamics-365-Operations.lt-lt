@@ -54,3 +54,6 @@ Komplektavimo specifikacijos šablonas gali būti pridėtas prie aptarnavimo obj
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

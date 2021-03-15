@@ -45,3 +45,6 @@ ms.locfileid: "5113568"
    | **Amžius** | Maksimalus terminas, per kurį asmeninis kontaktas turi teisę gauti išmokų planą. Šis laukas aktyvus tik tada, kai pasirenkate ryšį. Šis terminas lyginamas su apskaičiuotu asmeninio kontakto terminu. Apskaičiuotas terminas yra: (padengimo data – asmeninio kontakto gimimo data / 365). Šis skaičius visada yra sveikasis skaičius. |
 
 4. Pasirinkite **Įrašyti**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ PU apdorojus produkto gavimą, PU būsena nustatoma kaip **Gauta**, siekiant nur
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ ms.locfileid: "5006796"
     - į grąžinimo kaupimo sąskaitą įskaitytos lėšos siekiant nurodyti būsimą įsipareigojimą klientui;
     - iš grąžinimo išlaidų sąskaitos atskaitytos lėšos siekiant nurodyti išlaidas, kurios buvo patirtos parduodant.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

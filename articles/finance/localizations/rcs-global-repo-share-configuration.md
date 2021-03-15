@@ -72,3 +72,6 @@ Sukūrus jūsų konfigūracijos teikėjo konfigūraciją, galite ją tiesiogiai 
 Konfigūracija yra bendrinama su išorine organizacija ir šiai organizacijai pasiekiama bendrojoje saugykloje. Iš ten ji gali būti importuota į organizacijos RCS egzempliorių arba į „Finance and Operations“ programų egzempliorius.
 
 6. Norėdami atšaukti anksčiau su išorine organizacija bendrintos konfigūracijos bendrinimą, pasirinkite konfigūraciją ir spustelėkite **Atšaukti bendrinimą**, tada pasirinkite **Gerai**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

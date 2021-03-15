@@ -239,3 +239,6 @@ Norėdami nustatyti toliau pateiktos lentelės parametrus, naudokite **Užsienio
 </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

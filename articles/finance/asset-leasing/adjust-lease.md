@@ -134,3 +134,6 @@ Jei nuoma buvo pakoreguota, galite peržiūrėti skirtingas jos versijas. Taip p
 
 2. Norėdami peržiūrėti istorinius grafikus, atidarykite pakeistą nuomą puslapyje **Nuomos suvestinė**, pasirinkite norimą knygą, tada veiksmų srityje pasirinkite **Knygos versijų retrospektyva**.
 3. Puslapyje **Knygos versija** rinkitės versiją ir nustatyti rodinio grafiką.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ Norėdami į naują puslapį įtraukti pagrindinės reklaminės juostos modulį 
 [Teksto bloko modulis](add-content-rich-block.md)
 
 [Vaizdo įrašų leistuvo modulis](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

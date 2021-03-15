@@ -81,3 +81,6 @@ Norėdami pakeisti vartotojo ID, turite pervardyti raktą duomenų bazėje. Kai 
 Norėdami gauti daugiau B2B vartotojų įgyvendinimo pasirinkčių, žiūrėkite [B2B vartotojų eksportavimas į „Azure AD”](../implement-b2b.md).
 
 Informaciją apie iš anksto sukonfigūruotas sistemos sąskaitas rasite [Iš anksto sukonfigūruotos sistemos sąskaitos](../pre-configured-system-accounts.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

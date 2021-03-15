@@ -154,3 +154,6 @@ Pasirinktie įmonę, kuri yra konsoliduotų duomenų šaltinis, o tada pasirinkt
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

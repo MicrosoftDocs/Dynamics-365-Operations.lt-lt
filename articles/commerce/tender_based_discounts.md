@@ -71,3 +71,6 @@ Pardavėjai dažnai pasirenka netaikyti nuolaidų kai kuriems produktams, pvz., 
 
 > [!NOTE]
 > Kaip konfigūracija **Neleisti jokių nuolaidų** nustatyta į **Taip**, produktui nebus taikoma jokių nuolaidų. Nebus taikomos netgi nuolaidos pagal mokėjimo būdą.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

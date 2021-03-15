@@ -80,3 +80,6 @@ Nurodę pagrindinę informaciją apie RFQ, galite nurodyti prekes arba paslaugas
 4. Uždarykite puslapį.
 5. Uždarykite puslapį.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

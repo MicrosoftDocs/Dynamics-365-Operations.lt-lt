@@ -89,3 +89,6 @@ Kai kaip nusidėvėjimo metai pasirinkta **Finansiniai**, galimos šios lauko **
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

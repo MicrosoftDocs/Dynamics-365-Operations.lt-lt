@@ -159,3 +159,6 @@ Galite pateikti plano aprašą, kad darbuotojams būtų lengviau rinktis išmoka
 1. Darbo srities **Išmokų valdymas** dalyje **Planai** pasirinkite **Išmokų planai**.
 
 2. Pasirinkite **Lanksčiųjų kreditų programos**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ ms.locfileid: "5017322"
 4. Pasirinkite produktus, kuriuos norite įtraukti į įsigijimo kategoriją.
 5. Pasirinkę rodyklę, įtraukite produktus į lentelę **Pasirinkta**.
 6. Pasirinkite **Gerai**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

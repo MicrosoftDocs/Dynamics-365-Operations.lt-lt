@@ -157,3 +157,6 @@ Kai bandote užregistruoti atsargų operaciją arba atsargų rezervavimą, gauna
 
 > [!IMPORTANT]
 > Itin rekomenduojame, kad atidžiai redaguotumėte scenarijų, kaip to reikalaujama jūsų aplinkoje, atliktumėte testavimą testavimo aplinkoje ir patikrintumėte rezultatų duomenis prieš paleisdami scenarijų gamybos aplinkoje.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

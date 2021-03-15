@@ -104,3 +104,6 @@ Galimybė atšaukti žurnalą darbo eigoje, kurio būsena yra „neištaisoma“
 
 ## <a name="delete-journal-lines"></a>Naikinti žurnalo eilutes
 Galimybė greitai panaikinti visas žurnalo eilutes yra įjungta žurnale **Funkcijos** > **Naikinti žurnalo eilutes**. Norėdami suaktyvinti šią funkciją, **Funkcijų valdymas** pasirinkite **Naikinti žurnalo našumo optimizavimus**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

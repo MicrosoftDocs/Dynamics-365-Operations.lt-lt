@@ -51,3 +51,6 @@ Toliau pateikiamose temose aprašoma, kaip veikia planavimo mechanizmas, kai pas
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

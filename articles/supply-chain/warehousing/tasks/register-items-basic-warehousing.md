@@ -57,3 +57,6 @@ ms.locfileid: "4977068"
 2. Spustelėkite Produkto gavimo kvitas.
 3. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

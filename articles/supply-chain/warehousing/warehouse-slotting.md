@@ -383,3 +383,6 @@ Po to, kai visi reikiami elementai yra, galite nustatyti automatinį valdymą, a
 1. Jei norėsite, pakartojimas paleidžiamas automatiškai.
 
 Norėdami atlikti scenarijų pratimus, **ne** nustatykite automatinio intervalo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

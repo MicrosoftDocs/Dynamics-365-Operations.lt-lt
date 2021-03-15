@@ -82,3 +82,6 @@ Pristatymo parinkčių modulis gali būti įtrauktas tik į galutinį modulį. D
 [Paskirstyti antraštės mokesčius tam, kad jie atitiktų prekybos eilutes](pro-rate-charges-matching-lines.md)
 
 [Nustatyti pristatymo būdus](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

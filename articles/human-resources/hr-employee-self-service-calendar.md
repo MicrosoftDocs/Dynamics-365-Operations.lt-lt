@@ -72,3 +72,6 @@ Taip pat galite filtruoti kalendorius pagal vadovą arba padalinį. Pagrindinis 
 
 Informacijos apie kalendoriaus parametrus žr. skyriuje [Kalendoriaus parametrų konfigūravimas](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ ms.locfileid: "4991047"
 3. Pasirinkite klientą, prie kurio pridėjote įgaliojimą.
 4. Lauke **Tiesioginio debeto įgaliojimo ID** įveskite arba pažymėkite reikšmę.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

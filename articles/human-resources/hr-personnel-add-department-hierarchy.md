@@ -54,3 +54,6 @@ Norėdami padalinį įtraukti į padalinių hierarchiją, atlikite toliau nurody
 
 ## <a name="steps-for-creating-a-department"></a>Skyriaus kūrimo veiksmai
 Nuoseklios naujo skyriaus kūrimo procedūros žr. straipsnyje [Naujų skyrių nustatymas](../fin-and-ops/hr/tasks/define-new-departments.md). 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

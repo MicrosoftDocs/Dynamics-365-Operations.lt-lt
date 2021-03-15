@@ -68,3 +68,6 @@ Norėdami nustatyti mobiliojo įrenginio meniu elementą paėmimo eilučių per�
     - Naudokite likusius **Rodymo lauko** laukus, norėdami pridėti ne daugiau septynių jums reikalingų papildomų rodymo laukų. Kiekviename lauke **Rodymo laukas** pasirinkite darbo eilutės lauko pavadinimą. Tada kiekvienoje eilutėje bus rodoma to lauko reikšmė. Reikšmės bus rodomos tokia tvarka, kurią pasirenkate čia. Galite palikti kai kuriuos **Rodymo lauko** laukus tuščius, jeigu jums nėra reikalingos visos septynios reikšmės.
 
 1. Veiksmų srityje pasirinkite **Įrašyti** ir uždarykite **Laukų sąrašo** puslapį.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

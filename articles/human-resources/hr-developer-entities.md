@@ -183,3 +183,6 @@ Tolesnės „Dataverse“ lentelės yra prieinamos pagal „Human Resources“ o
 [„Human Resources“ virtualių lentelių DUK](hr-admin-virtual-entity-faq.md)<br>
 [Kas yra „Microsoft Dataverse“?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
 [Terminologijos naujinimai](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

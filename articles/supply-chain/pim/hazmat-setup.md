@@ -283,3 +283,6 @@ Norėdami nustatyti šios specifikacijos reikšmes, eikite į **Produkto informa
 Specifikacija *Pavojingos medžiagos tunelis* apriboja tunelių, kuriais pavojingos medžiagos gali būti transportuojamos, tipus nustatydami tunelių, kurie turi būti naudojami, tipus. Tunelio kategorijos yra nustatomos pagal taikomas pavojingų medžiagų transportavimo nuostatas. Ši specifikacija įprastai taikoma tik sausumos transportui.
 
 Norėdami nustatyti šios specifikacijos reikšmes, eikite į **Produkto informacijos valdymas \> Sąranka \> Pavojingų medžiagų siuntimo dokumentacija \> Pavojingos medžiagos tunelis**. Puslapyje **Pavojingos medžiagos tunelis** galite sukurti tiek tunelio identifikatorių, kiek norite ir konfigūruoti kiekvieną jų su identifikacijos kodu ir trumpu aprašu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

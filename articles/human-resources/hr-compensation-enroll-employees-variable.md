@@ -41,3 +41,6 @@ Kompensacijų ir išmokų vadovas gali darbuotojus įtraukti į kintamosios atly
 8. Perjunkite dalies Organizacijos struktūros nepaisymai išplėtimą.
     * Jei, vertinant darbuotojo našumą, reikėtų atsižvelgti į kitų skyrių našumą, ar kito, ne darbuotojo pareigoms priskirto skyriaus našumą, skyriaus galima nepaisyti. Visa Procento stulpelio suma turėtų būti 100.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

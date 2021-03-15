@@ -60,3 +60,6 @@ Daugiau informacijos žr. dalyje [Audito strategijos taisyklės](audit-policy-ru
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

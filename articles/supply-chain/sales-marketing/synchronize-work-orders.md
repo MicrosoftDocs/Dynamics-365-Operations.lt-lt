@@ -76,3 +76,6 @@ Toliau pateiktose iliustracijose vaizduojamas šablono susiejimas naudojant funk
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderservice"></a>Darbo užsakymai su projektu (iš „Field Service“ į Tiekimo grandinės valdymą): WorkOrderService
 
 [![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSWOP4.png)](./media/FSWOP4.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

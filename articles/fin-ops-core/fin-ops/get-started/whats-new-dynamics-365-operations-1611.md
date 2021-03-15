@@ -945,3 +945,6 @@ Parduotuvės sistema yra mažmenininkams skirtas diegimo pasirinkimas, padedanti
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Kas nauja ar pasikeitė „Finance and Operations“ pagrindiniame puslapyje](whats-new-changed.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

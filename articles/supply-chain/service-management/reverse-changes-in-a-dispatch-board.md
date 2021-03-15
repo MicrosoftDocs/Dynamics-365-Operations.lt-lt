@@ -50,3 +50,6 @@ Norėdami atšaukti neįrašytus pakeitimus išsiuntimo informacijos lentoje, at
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

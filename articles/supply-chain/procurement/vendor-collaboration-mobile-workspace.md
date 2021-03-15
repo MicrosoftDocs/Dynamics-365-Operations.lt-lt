@@ -169,3 +169,6 @@ Rodomi visi pakeitimai, atlikti užsakymo eilutės atsakyme. Tačiau nerodomos �
 
 ### <a name="open-confirmed-orders"></a>Atidaryti patvirtintus užsakymus
 Kai klientas patvirtins pirkimo užsakymą (t. y. jo būsena bus pakeista į **Patvirtinta**), užsakymas pasirodys atidarytame patvirtiname užsakyme. Šiame sąraše jis bus rodomas tol, kol bus užregistruotas kaip gautas kliento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

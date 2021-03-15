@@ -108,3 +108,6 @@ Kaip aprašyta ankstesniame skyriuje, kurdami darbo užsakymų telkinį, į jį 
 
 Norėdami pašalinti pasirinktą darbo užsakymą iš darbo užsakymų telkinio, pakartokite šiuos veiksmus, tačiau atlikdami 3 veiksmą pasirinkite **Šalinti**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

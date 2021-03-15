@@ -78,3 +78,6 @@ Užuot poreikį sumuodami paskirstymo proceso pabaigoje ir papildymo procesą at
 |   Vietos nurodymai   |                                                       Vietų nurodymai yra būtini, siekiant nukreipti darbą į vietas, kurias reikia papildyti, ir į vietas, iš kurių paimamos atsargos.                                                        |
 |     Darbo šablonai      |                                                   Tipo <strong>Papildymas</strong> darbo šablonas yra būtini, siekiant sukurti papildymo darbą, kad atsargas būtų galima perkelti į norimas vietas.                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -598,3 +598,6 @@ Darbuotojui darbo dieną neatvykus į darbą ir tą dieną nesant suplanuotų da
 - Automatinis neatvykimo įvedimas
 
 Skaičiuojant darbuotojo, turinčio galimybę naudotis kintamomis valandomis, kasdienes registracijas lauke **Automatinis Nukrypimas- įvedimas** nurodytas neatvykimo kodas naudojamas kaip numatytasis neatvykimo kodas. Jei darbuotojas negali pasinaudoti kintamomis valandomis, naudojamas lauke **Automatinis neatvykimo įvedimas** nurodytas neatvykimo kodas. Jei įmonėje yra ne tik kintamomis valandomis galinčių pasinaudoti darbuotojų, bet ir darbuotojų, kurie kintamomis valandomis pasinaudoti negali, privaloma nustatyti abu parametrus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

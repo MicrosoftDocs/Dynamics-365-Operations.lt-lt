@@ -82,3 +82,6 @@ Kai pasiekiami nustatymų duomenys, būsite pasirengę kurti turtą.
 1. Puslapyje **Visos funkcinės vietos** įsitikinkite, kad funkcinėje vietoje, kurioje norite automatiškai kurti turtą, naudojamas funkcinės vietos tipas, kurį sukūrėte šiam tikslui.
 2. Sąraše pasirinkite funkcinę vietą.
 3. Pasirinkite **Naujinti funkcinės vietos būseną**, tada pasirinkite ciklo būseną, kurią sukūrėte šiuo tikslu. Vienas turtas dabar automatiškai įdiegiamas funkcinėje vietoje. Turtas turi tokį patį pavadinimą, kaip funkcinė vieta.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

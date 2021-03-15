@@ -522,3 +522,6 @@ Kai bus sukurti ir užregistruoti visi šie žurnalo įrašai, matysite tolesnes
 | 11         | Sukauptas nusidėvėjimas |                                                   |                                                   |                                                   | 0 \. 00                   |   |                                                 |                                                |                                                |                                                | –949,75                                      | –949,75                               |
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

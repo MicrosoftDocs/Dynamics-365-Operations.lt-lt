@@ -812,3 +812,6 @@ Norėdami sužinoti, kaip formato struktūra gali būti sinchronizuojama su ER �
 [ER formatų vykdymo sekimas siekiant diagnozuoti našumo problemas](trace-execution-er-troubleshoot-perf.md)
 
 [Verslo dokumentų valdymo apžvalga](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

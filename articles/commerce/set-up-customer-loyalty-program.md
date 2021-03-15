@@ -150,3 +150,6 @@ Be to, mažmenininkai gali nustatyti didžiausią lojalumo atlygio taškų ribą
 
     > [!NOTE]
     > Skirtingai nuo kitų laikotarpio nuolaidų, pvz., kiekio, paprastos, nuolaidos prekių rinkiniui ir ribinės vertės nuolaidos, siuntimo nuolaida nesukuria nuolaidos eilučių, bet redaguoja siuntimo išlaidas tiesiogiai ir prideda nuolaidos pavadinimą prie išlaidų aprašymo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -118,3 +118,6 @@ Kad būtų lengviau ir greičiau apibrėžti veiksmus, susietus su kiekviena vie
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ ms.locfileid: "4977043"
 11. Lauke **Laukų pasirinkimas** įveskite arba pasirinkite reikšmę.
 12. Pasirinkite **Gerai**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

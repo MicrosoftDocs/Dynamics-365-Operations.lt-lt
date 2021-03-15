@@ -82,3 +82,6 @@ Jei nėra jokio vartotojo nustatyto sudengimo prioriteto, automatiškai pasirenk
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

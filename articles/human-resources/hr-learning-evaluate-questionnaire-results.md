@@ -72,3 +72,5 @@ Naudodami klausimyno statistiką pagal apsibrėžtus skaičiavimus galite analiz
 -   Pasirinkite arba patikrinkite rezultatų analizavimo pagal respondentą ar klausimyno charakteristikas kriterijus. Pvz., pasirinkę **Pašto kodas**, galite analizuoti koreliaciją tarp respondento vietos ir teisingų atsakymų.
 
 Jūsų nustatytos nuostatos įrašomos ir gali būti naudojamos periodiškai perskaičiuojant rezultatus.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

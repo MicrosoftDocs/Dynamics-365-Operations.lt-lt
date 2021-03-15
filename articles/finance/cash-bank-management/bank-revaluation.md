@@ -87,3 +87,6 @@ Be to, užsienio valiutos kurso pasikeitimo operacija išskaidoma po dimensijas,
 Jei perkainojimo operaciją reikia atšaukti, pasirinkite puslapio **Užsienio valiutos kurso pasikeitimas** veiksmų srityje pateiktą mygtuką **Atšaukti operaciją**. Sukuriamas naujas užsienio valiutos kurso pasikeitimo retrospektyvos įrašas, skirtas audito retrospektyvai tvarkyti ir naudojamas norint sekti, kada perkainojimas buvo vykdytas arba atšauktas.
 
 Norėdami atšaukti kelis perkainojimus, pirmiausia turite atšaukti naujausią perkainojimą. Tada datų tvarka toliau atšaukite senesnius perkainojimus. Tai atlikę galite vykdyti naujus perkainojimus, susijusius su laikotarpiais, kada atliktus perkainojimus atšaukėte.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

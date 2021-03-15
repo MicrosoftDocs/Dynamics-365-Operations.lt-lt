@@ -137,3 +137,6 @@ Norėdami sugeneruoti ataskaitą **Organizacijos pardavimai**, atlikite šiuos v
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 - [Komercijos pagrindinis puslapis](../retail/index.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

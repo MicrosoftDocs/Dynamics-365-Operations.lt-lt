@@ -56,3 +56,6 @@ ms.locfileid: "5017039"
 4. Pasirinkite **Uždaryti**.
 - Dabar galite nustatyti kitas pirkimo strategijos taisykles. Atkreipkite dėmesį, tipe Strategijos taisyklė negali būti persidengiančių taisyklių, kurios vienu metu yra aktyvios vienoje įsigijimo strategijoje.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

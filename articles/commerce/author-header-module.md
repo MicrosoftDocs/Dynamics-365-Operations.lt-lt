@@ -118,3 +118,6 @@ Norėdami padėti užtikrinti, kad antraštė būtų rodoma kiekviename puslapyj
 [Svetainės išrinkiklio modulis](site-selector.md)
 
 [Parduotuvės išrinkiklio modulis](store-selector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

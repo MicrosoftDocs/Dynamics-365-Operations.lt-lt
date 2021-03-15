@@ -67,3 +67,6 @@ Pareigos yra svarbus žemesniojo organizacijos hierarchijos lygio elementas. Par
 30. Lauke Padalinys įveskite arba pasirinkite reikšmę.
 31. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

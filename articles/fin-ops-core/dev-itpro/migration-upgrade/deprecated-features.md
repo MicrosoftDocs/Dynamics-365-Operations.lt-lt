@@ -1373,3 +1373,6 @@ Virtualių įmonių funkcija programoje „Dynamics AX“ nebepalaikoma. Virtual
 |     <strong>Paveiktos produkto sritys</strong>     |                                              Didžioji knyga                                              |
 |             <strong>Būsena</strong>             |                                      Pašalinta iš „Dynamics AX 2012“                                      |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Toliau pateiktame pavyzdyje iliustruojamos užduotys, atliekamos nustatant kanal
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Kainų koregavimas ir nuolaidos](price-adjustments-discounts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

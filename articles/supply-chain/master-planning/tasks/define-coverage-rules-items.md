@@ -101,3 +101,6 @@ Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. �
 11. Lauke **Pirkimo laikas** įveskite 5.
 12. Spustelėkite **Įrašyti**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

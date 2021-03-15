@@ -54,3 +54,6 @@ ms.locfileid: "5113494"
 25. Atidarykite Būsenos stulpelio filtrą.
 26. Rikiuoti nuo A iki Z
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

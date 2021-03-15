@@ -66,3 +66,6 @@ Pasirinkus plytelę, atidaromas puslapis **Visos gamybos bangos**. Šis puslapis
 Plytelėje **Atidarytas sandėlio darbas, į kurį reikia atkreipti dėmesį** rodomas KS ir formulės eilučių, kurios išleistos į sandėlį, turi neapdoroto darbo ir kurių žaliavų data yra ankstesnė arba tokia pati kaip darbo srities data, skaičius. Eilutes taip pat turi suvartoti operacijos išteklius, taikomas darbo srities filtrui.
 
 Pasirinkus plytelę, atidaromas puslapis **Visas darbas**. Šis puslapis filtruojamas pagal atidarytų darbo antraščių, kuriose yra išleistų KS ir formulės eilučių darbo eilučių, atitinkančių plytelės kriterijus, skaičių. Puslapyje **Visas darbas** galite neautomatiškai apdoroti darbą.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

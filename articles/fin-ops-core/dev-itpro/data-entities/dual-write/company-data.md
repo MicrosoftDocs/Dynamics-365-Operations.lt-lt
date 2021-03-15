@@ -102,3 +102,6 @@ Norėdami taikyti filtravimą, paremtą įmonės kontekstu Jūsų pasirinktinės
 
 :::image type="content" source="media/apply-company-context.png" alt-text="Įmonės konteksto taikymas":::
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

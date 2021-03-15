@@ -66,3 +66,6 @@ Kiekviena iš standartinių „Dataverse“ lentelių yra išplečiamas per nuor
 8. Po to, kai **Pasiūlymai** išplečiami, pritaikykite filtrą su `CUSTGROUP != "<company>"` užklausos eilute.
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Redaguoti CDS pardavimų pasiūlymo antraštės užklausos dialogo langą":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

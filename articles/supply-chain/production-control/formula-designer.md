@@ -120,3 +120,6 @@ Norėdami tinkinti informaciją, rodomą formulės konstruktoriaus medžio rodin
 |     KS     | Pasirinkite kriterijus, kuriuos norite rodyti medžio struktūroje, naudodami žymės langelius. Formulės konstruktorius pasirinktus kriterijus rodo abiejų skirtukų apačioje. |
 |    Maršrutas    |                                           Pasirinkite norimus rodyti maršrutų kriterijus naudodami žymės langelius.                                           |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ PVM ataskaitų kodai – tai lauko numeris PVM ataskaitoje. Jie naudojami konkre
 6. Lauke **Trumpas aprašas**: įveskite aprašą vidiniam naudojimui.
 7. Spustelėkite **Įrašyti**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

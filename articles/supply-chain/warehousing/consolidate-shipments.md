@@ -38,3 +38,6 @@ Tolesni scenarijai apžvelgs siuntos konsolidacijos procesą, naudojantį siunto
 
 - [Siuntos konsolidacijos strategijos](about-shipment-consolidation-policies.md)
 - [Siuntos konsolidacijos strategijų konfigūravimas](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -198,3 +198,6 @@ Jei pavyko sėkmingai importuoti, bus rodomas pranešimas, kuriame teigiama, kad
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

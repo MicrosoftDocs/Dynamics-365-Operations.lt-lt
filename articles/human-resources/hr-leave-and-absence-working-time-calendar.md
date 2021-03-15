@@ -75,3 +75,6 @@ Jeigu įgalinote atostogų ir neatvykimų koregavimų peržiūros funkciją, „
 
 - [Atostogų ir neatvykimų apžvalga](hr-leave-and-absence-overview.md)
 - [Atostogų ir neatvykimų tipai konfigūravimas](hr-leave-and-absence-types.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

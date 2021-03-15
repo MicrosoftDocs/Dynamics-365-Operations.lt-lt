@@ -79,3 +79,6 @@ Atšaukus pirkimo užsakymus, kurių būsena buvo *Patvirtinta*, atšaukti pirki
 
 Ši problema kyla tik pirkimo užsakymams, kuriems taikomas keitimų valdymas. Tai įvyksta, nes atšaukimas laikomas pakeitimu, kuris turi būti patvirtintas. Šį patvirtinimą sistema gali atlikti automatiškai. Todėl reikalingas procesas pateikti atšauktą pirkimo užsakymą į patvirtinimo darbo eigą, kad jis galėtų patekti į *Patvirtintą* būseną. Tuo metu pirkimo užsakymas nebebus rodomas **Pirkimo užsakymo paruošimo** darbo srities pirkimo užsakymų juodraščių sąraše.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

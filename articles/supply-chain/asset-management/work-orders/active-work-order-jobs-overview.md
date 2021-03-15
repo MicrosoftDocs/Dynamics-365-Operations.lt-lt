@@ -42,3 +42,6 @@ Toliau pateiktame paveikslėlyje parodytas puslapio **Aktyvios darbo užsakymo p
 
 Trumpus mygtukų sąrašo puslapyje **Aktyvios darbo užsakymo priežiūros užduotys** aprašus žr. [Darbo užsakymų įvadas](../work-orders/introduction-to-work-orders.md), kur aprašomi identiški mygtukai.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

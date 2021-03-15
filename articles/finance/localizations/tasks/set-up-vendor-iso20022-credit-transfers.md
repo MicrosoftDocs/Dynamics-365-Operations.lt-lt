@@ -51,3 +51,6 @@ Tai yra ketvirtoji iš penkių procedūrų, kuriose aprašomas kliento mokėjimo
 4. Sąraše spustelėkite saitą eilutėje SEPA CT.
 5. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

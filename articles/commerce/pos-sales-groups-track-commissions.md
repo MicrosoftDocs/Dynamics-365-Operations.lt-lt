@@ -87,3 +87,6 @@ Naudodamiesi EKA vartotojai gali konfigūruoti į ekrano išdėstymus įtraukiam
 ## <a name="calculating-commissions"></a>Komisinių skaičiavimas
 
 Nurodytų pardavimo grupių darbuotojų komisiniai skaičiuojami registruojant išrašą arba pardavimo užsakymą. Komisinio mokesčio sąskaita yra nustatoma pagal darbuotojo komisinę dalį, kaip nustatyta prekybos grupėje ir susieto komisinio mokesčio skaičiavimo nustatymuose klientui ir (arba) produktams transakcijoje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

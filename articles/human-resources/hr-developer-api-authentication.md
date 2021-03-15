@@ -185,3 +185,6 @@ namespace TalentODataPoC
 ```
 
 Nuskaitę prieigos atpažinimo ženklą, perduosite šį ženklą autorizavimo antraštėje kaip pateikėjo atpažinimo ženklą kartu su kiekviena užklausa, kurią siunčiate duomenų API, kaip aprašyta anksčiau.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

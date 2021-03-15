@@ -166,3 +166,6 @@ Tiekėjo grąžinimų tvarkymo procesas apima kelias rankines sekimo užduotis, 
 - Generuoti tikslias grąžinimo paraiškas
 - Didžiojoje knygoje kaupti numatomas gautinas sumas ir tarpinį pelną
 - Suteiktina nuolaida atnaujinti tiekėjo balansą ir pajamų ataskaitą
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

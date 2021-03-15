@@ -64,3 +64,6 @@ Galite atsisiųsti „Human Resources“ palaikomų šalių, regionų ir kalbų 
 > Nors vartotojo sąsaja lokalizuojama į įvairias kalbas, visi vartotojo duomenys yra saugomi kalba, kuria jie buvo įvesti. Galite kurti el. laiškus ir šablonus kitomis kalbomis, bet tokie duomenys, kaip planavimo informacija, šiuo metu pasiekiami tik anglų kalba.
 
 Jei esate kūrėjas, ir norėtumėte kurti konkrečiai šaliai arba regionui skirtus tinkinimus arba sukurti sprendimą šaliai arba regionui, kurio šiuo metu „Microsoft“ nepalaiko, žr. [Globalizacija](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

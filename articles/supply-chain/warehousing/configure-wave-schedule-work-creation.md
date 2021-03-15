@@ -110,3 +110,6 @@ Puslapyje **Suplanuoto darbo informacija** (**Sandėlio valdymas \> Darbas \> Su
 Norėdami peržiūrėti paketines užduotis bangų apdorojimui pasirinkite **Paketines užduotis** veiksmų srityje, **Visos bangos** puslapyje.
 
 Čia galite peržiūrėti visą paketinės užduoties informaciją apie kiekvieną paketinės užduoties ID.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

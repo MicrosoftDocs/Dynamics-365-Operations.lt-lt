@@ -63,3 +63,6 @@ Programų juostoje vartotojas gali pasirinkti operaciją. Atsižvelgiant į užs
 - **Redaguoti** – leidžia vartotojams atlikti pasirinkto kliento užsakymo keitimus.
 
 - **Paimti** – paleidžia paėmimo srautą, leidžiantį vartotojui pasirinkti produktus, kurie bus paimti, ir sukuria paėmimo pardavimo operaciją.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

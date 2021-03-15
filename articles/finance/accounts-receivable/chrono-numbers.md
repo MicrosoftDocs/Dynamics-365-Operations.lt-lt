@@ -105,3 +105,6 @@ Jums publikuojant dokumentą, atitinkama skaičių sekos grupė yra priskirta do
 
 > [!NOTE]
 > Kai kuriose šalyse yra konkreti jau dokumento numeravimui taikoma logika. Tokiu atveju, šaliai galiojanti konkreti logika viršys **Chronologinio numeravimo** funkciją.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

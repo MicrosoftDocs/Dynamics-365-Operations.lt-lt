@@ -47,3 +47,6 @@ Tai yra trečioji iš penkių procedūrų, kuriose aprašomas kliento mokėjimo 
 10. Lauke Mokėjimo sąskaita nurodykite reikšmes „DEMF OPER‟.
 11. Spustelėkite Įrašyti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Norėdami importuoti ir eksportuoti produktų duomenis, turite naudoti duomenų 
 
 > [!NOTE]
 > Naudodami duomenų objektą **Išleisti produktai V2**, produktų į sistemą galite importuoti, tik jei jau sukurtas bendrai naudojamas produktas. Kitu atveju, norėdami į sistemą importuoti produktų, turite naudoti duomenų objektą **Produktų kūrimas**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Gamybos grįžtamojo ryšio funkcija suteikia darbuotojams atsiliepimų apie gam
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

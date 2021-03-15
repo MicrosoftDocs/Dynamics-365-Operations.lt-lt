@@ -47,3 +47,6 @@ ms.locfileid: "5005107"
 7. Spustelėkite Pateikti.
 8. Pasirinkite maršrutą.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

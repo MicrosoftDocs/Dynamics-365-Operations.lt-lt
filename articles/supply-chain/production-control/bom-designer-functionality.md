@@ -120,3 +120,6 @@ Norėdami tinkinti informaciją, rodomą KS konstruktoriaus medžio rodinyje, sp
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

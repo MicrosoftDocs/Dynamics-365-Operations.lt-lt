@@ -80,3 +80,6 @@ Apibrėžkite šiuos modelio susiejimo duomenų šaltinius:
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Konteinerio funkcijos](er-functions-category-container.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

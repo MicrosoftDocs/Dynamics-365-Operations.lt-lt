@@ -1414,3 +1414,6 @@ Finansinėje apskaitoje 10 000,00 išlaidos už elektrą registruojamos fiktyvia
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Jei laukas **Atšaukti kreditavimo kaupimus**, esantis formoje **Aptarnavimo val
 
 
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

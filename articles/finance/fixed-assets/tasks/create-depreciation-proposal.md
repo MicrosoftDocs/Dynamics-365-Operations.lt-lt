@@ -47,3 +47,6 @@ ms.locfileid: "4968909"
 3. Pasirinkite **Eilutės**.
 4. Pasirinkite **Registruoti**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

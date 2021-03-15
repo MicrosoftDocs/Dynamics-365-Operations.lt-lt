@@ -78,3 +78,6 @@ Kelios kreditų valdymo statistikos yra įtrauktos į „FactBox“ **Kliento kr
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Numeracijos ir bendrinami numeracijos parametrai
 
 Norint apdoroti kredito limito koregavimus, reikalingas žurnalo ID. Turite įtraukti kredito limito koregavimo numerį, kuris turi būti naudojamas žurnalo ID generavimui.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

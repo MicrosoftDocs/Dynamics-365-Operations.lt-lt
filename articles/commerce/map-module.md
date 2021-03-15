@@ -81,3 +81,6 @@ Dėl išsamesnės informacijos apie tai, kaip konfigūruoti žemėlapio modulį 
 [„Bing“ žemėlapių valdymas jūsų organizacijoje](./dev-itpro/manage-bing-maps.md)
 
 [„Bing Maps V8 Web Control“](https://docs.microsoft.com/bingmaps/v8-web-control/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

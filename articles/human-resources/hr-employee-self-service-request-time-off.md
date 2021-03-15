@@ -62,3 +62,6 @@ Atnaujindami esamą laiką išleidimo iš darbo užklausos, galite pridėti prie
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 - [Atostogų ir neatvykimų apžvalga](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Mokesčių mokėjimo sustabdymo darbo procedūra nustato mokesčių balanso sust
 7. Spustelėkite **Gerai**.
 
 ![Sustabdymo mokesčio mokėjimo parametrai](media/withholding-tax-payment.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

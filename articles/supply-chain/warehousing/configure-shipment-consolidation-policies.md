@@ -353,3 +353,6 @@ Tolesniuose scenarijuose vaizduojama, kaip galima naudoti siuntų konsolidacijos
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 - [Siuntos konsolidacijos strategijos](about-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

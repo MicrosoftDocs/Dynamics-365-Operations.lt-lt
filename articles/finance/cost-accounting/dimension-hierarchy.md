@@ -332,3 +332,6 @@ Prieigos sąrašo hierarchijos parametrai naudojami norint valdyti toliau nurody
 > [!NOTE] 
 > - Tam, kad prieigos sąrašo hierarchija galėtų turėti įtakos „Power BI“, turi būti susieta prieigos sąrašo hierarchija ir „Power BI“ eilučių lygio sauga. Daugiau informacijos rasite dalyje [Kaštų apskaitos turinio paketo saugos nustatymas](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Prieigos sąrašo hierarchija negali padėti užtikrinti, kad duomenys bus eksportuoti į „Excel“. Todėl tą ataskaitų įrankį turi naudoti tik išlaidų buhalteriai ir vadovai, kuriems suteikiama neribota prieiga peržiūrėti duomenis.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

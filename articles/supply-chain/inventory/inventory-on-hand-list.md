@@ -145,3 +145,6 @@ Jūsų sistema apima išsamią (neapibendrintą) atsargų lentelę, kuri rodo to
 | IA0001 | 1 | 2 | 2 |
 
 Atkreipkite dėmesį, kad nustatymai **Filtrų** juostoje taikomi išsamiai (neapibendrintai) atsargų lentelei, kuri yra rodoma šio skyriaus pradžioje. Dėl to, kriterijus **Faktiškai turima** \| **mažiau arba lygu** \| _1_ randa dvi eilutes iš tos lentelės (pirmąją ir trečiąją eilutę, kurių kiekviena rodo **Faktiškai turima** _1_ vertę). Nepaisant to, šiame scenarijuje **Turimo sąrašo** puslapis nėra nustatytas taip, kad rodytų **Sandėlio** dimensiją. Dėl to, jis apibendrina dvi originalias reilutes į vietą rezultatų eilutę, nes abi eilutės turi identiškas vetes visose rodomose dimensijose. Ši eilutė pasirodo pažeisdama filtravimo kriterijus, nes **Faktiškai turima** vertė rodoma kaip _2_. Nepaisant to, rezultatas yra teisingas, nes nustatymai **Filtrų** juostoje taikomi šaltinio lentelei, o ne apibendrintai lentelei, kuri yra rodoma **Turimo sąrašo** puslapyje.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

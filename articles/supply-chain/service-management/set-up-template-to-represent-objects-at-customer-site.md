@@ -54,3 +54,6 @@ Naudokite šią procedūrą norėdami nustatyti šabloną, kuris nurodo kliento 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

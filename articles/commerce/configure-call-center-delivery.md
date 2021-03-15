@@ -94,3 +94,6 @@ Pagreitinimo kodą su bet kokiu sukonfigūruotu pristatymo būdu galite susieti 
 Pvz., užsakymų, kurie kitą dieną bus išsiųsti oru, atveju, paėmimą sandėlyje reikia atlikti kasdien iki 13 val. Tokiu atveju pagreitinimo kodą sukurti galima ir jis bus susietas su bet kuriuo pristatymo kitą dieną būdu, sukonfigūruotu sistemoje. Kai sandėlyje sukuriama išrinkimo banga, atitinkamą pagreitinimo kodą, nurodytą lauke **Pagreitinimas**, galima naudoti kaip filtrą, kad išrinkimas būtų vykdomas tik tiems užsakymams, kurių pristatymo būdai susieti su tuo kodu.
 
 Be to, įvedus skambučių centro užsakymą, pagreitinimo kodą galima rankiniu būdu taikyti pardavimo užsakymo antraštei arba atskirai pardavimo užsakymo eilutei. Taip pat kodą galima naudoti rūšiavimo arba ataskaitų kūrimo tikslais. Kartais užsakymą reikia apdoroti kruopščiai dėl iškilusios klientų aptarnavimo tarnybos problemos. Tokiu atveju užsakymo antraštei arba eilutėms galima taikyti konkretų pagreitinimo kodą, kad vykdymo proceso metu užsakymas būtų greičiau identifikuotas ir greičiau nustatyti jo prioritetai.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

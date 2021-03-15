@@ -41,3 +41,6 @@ ms.locfileid: "4977768"
 6. Spustelėkite „Parengti“.
     * Dabar paruošimo procesas baigtas. Pasirinktas visų išrinkimo dokumente esančių eilučių žymės langelis nurodo, kad tiekimo būsena paimta.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

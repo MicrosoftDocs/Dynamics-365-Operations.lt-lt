@@ -79,3 +79,5 @@ Matysite reklaminę juostą **Nuorodos** puslapyje **Išmokų valdymas** darbo s
 Po to, kai priežasties kodai perkeliami į personalo valdymą, parinktis jų naudojimui išmokų valdyme yra automatiškai nustatomas į **Taip**.
 
 [![Naudokite priežasties kodą išmokų valdyme](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

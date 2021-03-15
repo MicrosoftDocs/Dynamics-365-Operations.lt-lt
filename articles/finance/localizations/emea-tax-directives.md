@@ -32,3 +32,6 @@ ES direktyvoje nurodomos taisyklės, kurių turi laikytis visos šalys narės, d
 
 > [!NOTE]
 > Patikrinkite, ar laukas **PVM specifikacija** nustatytas į **Registracijos valiuta** arba **Registracijos ir įmonės valiuta** puslapio **Formos nustatymas** skirtuke **Bendra** (**Gautinos sumos > Nustatymas > Formos > Formos nustatymas** arba **Projektų valdymas ir apskaita > Nustatymas > Formos > Formos nustatymas**).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

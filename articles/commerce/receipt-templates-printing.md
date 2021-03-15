@@ -85,3 +85,6 @@ Kvitų šablonai yra tiesiogiai priskiriami spausdintuvams naudojant aparatūros
 
 > [!NOTE]
 > Jei naudojami du spausdintuvai, vieną spausdintuvą galima naudoti standartiniams 40 stulpelių terminiams kvitams spausdinti. Antrasis spausdintuvas paprastai yra naudojamas gavimo tipams, kuriuose reikia pateikti daugiau informacijos, per visą puslapį spausdinti. Šie gavimo tipai apima kliento užsakymų kvitus ir kliento SF.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -97,3 +97,6 @@ Turite apdoroti kai kuriuos keitimus, kad jie būtų aktyvūs.
 - [Gyvenimo įvykio tinkamumo apdorojimas](hr-benefits-process-life-event-eligibility.md)
 - [Tarifo pakeitimų apdorojimas](hr-benefits-process-rate-changes.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

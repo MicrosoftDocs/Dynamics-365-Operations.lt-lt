@@ -47,3 +47,6 @@ Puslapyje **Turto operacijos** parodomos operacijos, kurios didina arba sumažin
 Norėdami peržiūrėti išlaidų įsipareigojimų operacijas, puslapyje **Nuomos suvestinė** pasirinkite nuomą ir pasirinkite **Knygos**, kad būtų atidaromos nuomos knygos, pridėtos prie nuomos įrašo. Tada pasirinkite **Išlaidų operacijos**.
 
 Puslapis **Išlaidų operacijos** parodo visas išlaidas, kurios buvo užregistruotos pagal nuomos sutartį, pvz., palūkanų išlaidas, nusidėvėjimo išlaidas ir bet kurias vykdomas išlaidas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

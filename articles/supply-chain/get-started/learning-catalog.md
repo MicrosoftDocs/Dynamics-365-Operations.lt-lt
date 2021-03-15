@@ -186,3 +186,6 @@ Raskite „Dynamics 365 Supply Chain“ programos vartotojo vaidmeniui tinkamus 
 
     :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

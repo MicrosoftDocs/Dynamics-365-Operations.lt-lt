@@ -241,3 +241,6 @@ Pirma norimas formatas turi būti įgalintas ER konfigūracijose. Jei ši būtin
 [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)
 
 [Nuo veiksmo priklausomų ER paskirties vietų konfigūravimas](er-action-dependent-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

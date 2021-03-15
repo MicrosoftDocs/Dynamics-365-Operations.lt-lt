@@ -48,3 +48,6 @@ Išteklių pajėgumai apibūdina, ką gali atlikti operacijų ištekliai. Planuo
 5. Lauke Lygis įveskite skaičių.
     * Kai nurodote, kad užduočiai arba operacijai atlikti reikia konkrečių pajėgumų, taip pat galite nurodyti minimalų reikiamą lygį. Pajėgumų lygį naudokite norėdami diferencijuoti išteklius, kurie gali atlikti tą pačią užduotį, tik skirtingu greičiu, pajėgumu, mastu ir t. t.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

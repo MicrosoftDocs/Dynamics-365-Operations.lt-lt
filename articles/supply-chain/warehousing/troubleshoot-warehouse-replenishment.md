@@ -39,3 +39,6 @@ Paėmimo darbas blokuojamas dėl priklausančio papildymo darbo.
 ### <a name="issue-resolution"></a>Problemos paaiškinimas
 
 Jums naudojant bangos poreikio papildymą, jei paėmimo vieta turi būti papildoma siekiant įgyvendinti šaltinio užsakymo poreikį, sistema sukuria papildymo darbą ir paėmimo darbą. Nepaisant to, ji blokuoja paėmimo darbą, kol bus užbaigtas papildymo darbas. Šis elgesys yra tyčinis, nes paėmimo vieta neturės pakankamai inventoriaus, nebent papildymo darbas bus užbaigtas. Užbaikite papildymo darbą ir tada apdorokite paėmimo darbą.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

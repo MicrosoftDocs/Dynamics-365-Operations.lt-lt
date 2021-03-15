@@ -503,3 +503,6 @@ Turite apibrėžti kiekvieno verslo proceso varianto, kuriam reikalingas automat
 [Neatitikimo valdymas](enable-nonconformance-management.md)
 
 [Sandėlio procesų kokybės valdymas](quality-management-for-warehouses-processes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

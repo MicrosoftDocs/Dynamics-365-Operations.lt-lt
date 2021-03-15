@@ -73,3 +73,6 @@ ms.locfileid: "4998633"
 2. Spustelėkite Peržiūrėti iškvietimo medį.
     * Atkreipkite dėmesį, kad sukuriamas „kanban“, kurio kiekis toks pat, kaip pardavimo eilutė. Taip pat galite matyti, kokios medžiagos turi būti išduotos norint pagaminti L0050. Tai yra paskutinis šios procedūros veiksmas.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

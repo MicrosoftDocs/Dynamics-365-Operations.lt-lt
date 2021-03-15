@@ -66,3 +66,6 @@ ms.locfileid: "5008097"
 2. Pažymėkite **Uždaryti neatitikimą**.
 3. Pasirinkite **Taip**.
 4. Uždarykite puslapius.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

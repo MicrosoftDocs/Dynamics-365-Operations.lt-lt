@@ -81,3 +81,6 @@ Norint pateikti skirtingus informacijos ir finansinių duomenų lygius, stulpeli
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

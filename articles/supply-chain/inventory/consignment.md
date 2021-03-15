@@ -102,3 +102,6 @@ Jei jūsų tiekėjai naudoja tiekėjų bendradarbiavimo sąsają, jie gali ją p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

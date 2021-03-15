@@ -534,3 +534,6 @@ Galima vykdyti tolesnius 1 scenarijaus variantus, atsižvelgiant į 2 scenarijau
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

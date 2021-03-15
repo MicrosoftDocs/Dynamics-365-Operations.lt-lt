@@ -55,3 +55,6 @@ Taip nurodysite sistemai sukurti sulaikymo užsakymą, o asmuo arba padalinys, a
 
 [Nustatymas, kaip išmesti grąžintas prekes](specify-how-to-dispose-of-returned-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

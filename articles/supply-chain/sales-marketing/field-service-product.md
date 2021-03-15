@@ -72,3 +72,6 @@ Toliau pateiktose iliustracijose vaizduojamas šablono susiejimas naudojant funk
 ### <a name="field-service-products-supply-chain-management-to-field-service-products---products"></a>„Field Service“ produktai (iš „Supply Chain Management“ į „Field Service“): Produktai – Produktai
 
 [![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSProduct.png)](./media/FSProduct.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

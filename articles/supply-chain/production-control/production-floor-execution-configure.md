@@ -99,3 +99,6 @@ Paketinė užduotis periodiškai išvalo įrenginių, neužregistravusių veiklo
 1. Veiksmų srityje pasirinkite **Valyti kliento konfigūracijas**.
 1. Dialogo lange **Valyti kliento konfigūracijas** nustatykite lauką **Dienų skaičius** į neaktyvumo dienų skaičių (iki šios dienos), į kurį reikia atsižvelgti. Pašalinsite visas įrenginių, kurie nebuvo aktyvūs tuo metu, konfigūracijas ir prisijungimo įrašus.
 1. Pasirinkite **Gerai**, norėdami išvalyti atitinkamas konfigūracijas pagal parametrą **Dienų skaičius**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

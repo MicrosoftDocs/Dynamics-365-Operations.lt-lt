@@ -114,3 +114,6 @@ Norėdami pašalinti esamą prižiūrimo turto ir ilgalaikio turto susiejimą, a
 1. Raskite ir atidarykite ilgalaikį turtą.
 1. „FastTab“ konteineryje **Ilgalaikis turtas** išvalykite lauko **Funkcinė vieta** reikšmę.
 1. Veiksmų srityje pasirinkite **Įrašyti**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

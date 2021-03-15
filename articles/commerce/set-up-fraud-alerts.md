@@ -68,3 +68,6 @@ Užsakymas įrašomas, bet jis pažymimas žyme **Neapdoroti**. Ši žymė paded
 Norėdami peržiūrėti ir tvarkyti užsakymus, kurie sulaikyti ir kuriuos reikia peržiūrėti dėl apgaulės, eikite į **Mažmeninė prekyba ir prekyba** \> **Klientai** \> **Užsakymo sulaikymas**. Puslapyje **Užsakymo sulaikymas** esančiame sąraše pasirinkite įrašą ir spustelėkite **Užsakymo sulaikymas**, kad pamatytumėte išsamesnį rodinį, kuriame pateikiama informacija apie sulaikymo priežastį. „FastTab“ **Apgaulės informacija** galite peržiūrėti sistemoje nustatytus apgaulės kriterijus, pagal kuriuos rasta atitikmenų užsakyme, ir pritaikytas rezultatų vertes. Jei užsakymas buvo sulaikytas rankiniu būdu, galite peržiūrėti užsakymą sulaikiusio vartotojo įvestus komentarus „FastTab“ **Pastabos** skyriuje **Apgaulės pastabos**.
 
 Daugiau informacijos apie tai, kaip dirbti su sulaikytais užsakymais, žr. [Užsakymo sulaikymas](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

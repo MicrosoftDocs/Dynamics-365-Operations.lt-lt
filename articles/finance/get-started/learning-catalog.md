@@ -178,3 +178,6 @@ Raskite jūsų „Dynamics 365 Finance“ programos vartotojo vaidmeniui tinkamu
 
     :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

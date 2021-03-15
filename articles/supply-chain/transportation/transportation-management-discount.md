@@ -32,3 +32,6 @@ Norėdami nustatyti nuolaidas gabenimo valdymui, eikite į **Gabenimo valdymas \
 Galite pasirinkti, ar perleisti nuolaidą klientui (nustatydami nuolaidos tipą klientui) ar pasilikti ją įmonei (nustatydami nuolaidos tipą siuntėjui). Tai leidžia jums pasirinkti nustatymus, kuriame uždirbsite maržą už skaičiuojamus siuntimo mokesčius.
 
 Galite nustatyti keletą kvalifikavimo faktorių kiekvienai nuolaidai, tokių kaip vežėjas, vežėjo paslaugos, pristatymo sąlygos, klientas, paskirties vieta ir daugiau.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

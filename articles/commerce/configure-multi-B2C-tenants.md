@@ -130,3 +130,6 @@ Dabar jūsų naujas „Azure AD“ B2C nuomotojas turi pasirodyti sąraše po **
 [Turinio pristatymo tinklo (CDN) palaikymo įtraukimas](add-cdn-support.md)
 
 [Parduotuvės nustatymo pagal vietą įgalinimas](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -127,3 +127,6 @@ Produktų informacijos vertimai gali būti tvarkomi bet kuriuo metu. Atnaujinus 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

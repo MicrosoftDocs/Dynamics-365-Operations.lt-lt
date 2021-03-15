@@ -49,3 +49,6 @@ Pavyzdžiui, yra 5001 ilgalaikio turto ID, trys knygos yra susietos su kiekvienu
 
 > [!Note] 
 > Jei **Santrauko nebegaliojimo** parametras yra įjungtas jums kuriant nebegaliojimo pasiūlymą, tuomet vertė **Knygų skaičius žurnale - Nebegaliojimo pasiūlymas** laukelyje neturi jokio poveikio. Šiuo atveju, knygų skaičius žurnale yra 6000, o tai vidaus nustatytas apribojimas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

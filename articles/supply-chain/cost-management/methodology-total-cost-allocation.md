@@ -61,3 +61,6 @@ Laukas **Šalutinių produktų savikainos paskirstymas**, esantis puslapyje **Su
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

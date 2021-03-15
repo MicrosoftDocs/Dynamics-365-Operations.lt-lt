@@ -84,3 +84,6 @@ Norėdami gauti visą planuojamų funkcijų ir jų suplanuotų leidimų sąraš�
 [„Dynamics 365 Human Resources“ 2020 m. 2 leidimo bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
 [Atnaujinimo procesas](hr-admin-setup-update-process.md)
 [Funkcijų valdymas](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

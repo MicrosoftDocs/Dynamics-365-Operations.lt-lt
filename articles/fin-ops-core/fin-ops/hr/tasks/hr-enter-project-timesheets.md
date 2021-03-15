@@ -51,3 +51,6 @@ ms.locfileid: "5055944"
 21. Spustelėkite **Pateikti**.
 22. Spustelėkite **Pateikti**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

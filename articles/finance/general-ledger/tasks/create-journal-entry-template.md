@@ -62,3 +62,6 @@ Užregistruoti žurnalo kvitai gali būti įrašyti kaip kvitų šablonai ir tai
 29. Lauke **Suma** įveskite piniginę sumą, kuri bus taikoma kvite. Laukas **Suma** rodomas, tik jei kvito šablonas yra procento tipo.  
 30. Spustelėkite **Gerai**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

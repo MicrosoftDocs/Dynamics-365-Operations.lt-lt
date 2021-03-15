@@ -107,3 +107,6 @@ Informacijos apie įvairius būdus, kaip rasti puslapius, žr. ankstesnėje šio
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Laukų aprašų tinkinimas](../../dev-itpro/user-interface/customize-field-help.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

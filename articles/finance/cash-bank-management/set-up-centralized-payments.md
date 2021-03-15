@@ -57,3 +57,6 @@ Galite nustatyti numatytuosius vidinės įmonės sudengimo kvitų aprašus. Numa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

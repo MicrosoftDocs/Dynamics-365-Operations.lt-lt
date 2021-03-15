@@ -66,3 +66,5 @@ Samdymo projektai jums padeda valdyti jūsų samdymo procesą. Sukūrę samdymo 
 32. Rinkitės **Samdymo projekto būsena**.
 33. Pasirinkite **Paleisti**. Būsena **Pradėta** reiškia, kad projektas yra parengtas gauti paraiškas.  
 34. Pasirinkite **Gerai**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

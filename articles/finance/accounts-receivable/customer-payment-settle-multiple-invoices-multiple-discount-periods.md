@@ -100,3 +100,6 @@ Arnas peržiūri šią operaciją puslapyje **Kliento operacijos**.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

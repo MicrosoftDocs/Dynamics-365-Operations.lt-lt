@@ -87,3 +87,6 @@ Atlikite šiuos veiksmus, kad dokumentus būtų galima spausdinti iš EKA naudoj
 
 4. Eikite į **Mažmeninė prekyba ir prekyba \> Mažmeninės prekybos ir prekybos IT \> Paskirstymo grafikas**.
 5. Pasirinkite užduotį **1090**, paskui paspauskite **Vykdyti dabar**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

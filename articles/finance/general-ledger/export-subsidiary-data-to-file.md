@@ -70,3 +70,6 @@ Naudojate **Eksportuoti** puslapį (**Sistemos administravimas \> Darbo aplinkos
 5. Rinkitės **Gerai** tam, kad vykdytumėte eksportavimą.
 
 Užbaigus eksportavimą, gausite pranešimą, kuriame bus rodomas įrašų skaičius, įrašytas į kiekvieną failą. Tuomet galite importuoti failus į konsoliduotą juridinį asmenį.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

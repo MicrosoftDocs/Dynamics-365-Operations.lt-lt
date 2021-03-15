@@ -66,3 +66,6 @@ Kadangi Inžinerijos bendrovė reiškia įmonę, kuri turi inžinerijos duomenis
 
     - Kai šie dokumentai išleisti į kitus juridinius asmenis, dokumentai yra apsaugoti nuo panaikinimo jų veikiančios bendrovės.
     - Kiti juridinia asmenys gali įtraukti visai naujus, vietinius dokumentus. Veikianti bendrovė turi ir palaiko šiuos vietinius dokumentus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

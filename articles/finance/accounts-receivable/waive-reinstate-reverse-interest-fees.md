@@ -94,3 +94,6 @@ Naudodami puslapio **Klientas** skirtuko **Surinkimas** mygtuką **Retrospektyva
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

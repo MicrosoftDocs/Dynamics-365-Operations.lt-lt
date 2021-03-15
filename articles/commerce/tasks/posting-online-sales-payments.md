@@ -108,3 +108,6 @@ Norėdami rankiniu būdu vieną kartą paleisti „Sinchronizuoti užsakymus“ 
 - RetailTransactionMarkupTrans
 - RetailTransactionPaymentTrans
 - RetailTransactionAttributeTrans
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

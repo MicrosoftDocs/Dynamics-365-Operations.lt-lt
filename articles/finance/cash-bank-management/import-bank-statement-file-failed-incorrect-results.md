@@ -107,3 +107,6 @@ Tolesnėje lentelėje pateikiami išplėstinio banko derinimo importavimo failo 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

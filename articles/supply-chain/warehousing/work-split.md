@@ -154,3 +154,6 @@ Jei bandote naudoti sandėlio programą, kad vykdytumėte paėmimo darbą pagal 
 ## <a name="other-blocked-operations"></a>Kitos užblokuotos operacijos
 
 Bet kurios operacijos, kurios keičia darbo eilutes, darbo inventoriaus perdavimus ar papildymo nuoradas, kurios susijusios su atskiriamu darbu neveiks ir bus rodomas tolesnis klaidos pranešimas : „Darbas su ID \#\#\#\# šiuo metu yra atskiriamas."
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

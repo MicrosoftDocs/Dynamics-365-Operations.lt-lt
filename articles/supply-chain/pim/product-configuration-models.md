@@ -152,3 +152,6 @@ Peržiūrėti, ar išleistas produktas gali būti naudojamas kaip komponentas ar
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -407,3 +407,6 @@ Dabar galite paimti prekybos užsakymą 2. Jis taps atblokuotas, kai papildymo d
 - Galite rankiniu būdu viršyti papildymo darbo prieinamumą kiekvienai darbo antraštei iš norimo **Darbo informacijos** puslapio.
 - Kai sistema nustato papildymo darbo prieinamumą, ji svarsto visas atsargas, kurios jau yra vietoje prieš pabaigiant darbą
 - Kiekvienas prekybos užsakymo elementas yra susiejamas su konkrečiu papildymo darbu. Nėra jokių atitinkamų prekybos užsakymo darbo prieinamumo funkcijų.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

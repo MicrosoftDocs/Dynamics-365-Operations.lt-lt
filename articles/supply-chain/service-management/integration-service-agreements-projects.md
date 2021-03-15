@@ -82,3 +82,6 @@ Taip pat, jei norite įvesti pradžios ir pabaigos laiką aptarnavimo užsakymo 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Kai darbo tipas yra paėmimas arba skaičiavimas, galima pasirinkti šias parink
 | Vienetų paėmimo patvirtinimas | Pasiekiama paėmimo ir skaičiavimo darbo tipų atveju. Automatiškai pasirenkamas produkto patvirtinimas. Suteikia galimybę mobiliuoju įrenginiu patvirtinti kiekvieną atsargų vienetą. |
 |  Maksimalus vienetų skaičius  |                   Pasiekiama paėmimo darbo atveju, jei įgalintas vienetų paėmimo patvirtinimas. Nustato vienetų, kuriuos turite patvirtinti, skaičiaus apribojimus.                   |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

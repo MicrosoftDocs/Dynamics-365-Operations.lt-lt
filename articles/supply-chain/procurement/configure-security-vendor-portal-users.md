@@ -49,3 +49,6 @@ Jei asmeniui reikia suteikti tiekėjo portalo prieigą prie kelių tiekėjų pas
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

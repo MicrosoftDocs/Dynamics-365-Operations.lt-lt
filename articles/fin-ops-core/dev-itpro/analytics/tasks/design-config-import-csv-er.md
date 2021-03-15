@@ -124,3 +124,6 @@ Bandymams atlikti formato susiejimą vykdykite naudodami anksčiau atsisiųstą 
     * Peržiūrėkite išvestį XML formatu, kuriuo rodomi iš pasirinkto failo importuoti ir į duomenų modelį perkelti duomenys. Atkreipkite dėmesį, kad apdorojamos visos 7 importuojamo CSV failo eilutės. Praleista 1 eilutė, kurioje nurodomi laukų pavadinimai, 4 operacijos išanalizuotos tinkamai, o 2 operacijos pripažintos netinkamomis.
 3. Uždarykite puslapį.
 4. Uždarykite puslapį.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

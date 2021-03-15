@@ -42,3 +42,6 @@ Turto likvidavimo operacija mažos vertės telkinyje sumažina mažos vertės te
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

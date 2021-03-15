@@ -49,3 +49,6 @@ Modulyje „Turto valdymas“ galite konfigūruoti dokumentus, kad jie būtų au
 
 4. Pasirinkite **Priedai**. Rodomas standartinis puslapis **Dokumentų tvarkymas**.
 5. Nustatykite dokumentus arba pastabas, kurios turėtų būti pridėtos prie turto dokumento įrašo. Kai pridėsite dokumentus, lauke **Priedai** bus rodomas su įrašu susijusių dokumentų skaičius.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

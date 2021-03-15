@@ -51,3 +51,6 @@ Naujos standartinės kainos aktyvinimas paprastai perkainos turimų atsargų ver
 - **Nėra** – Jokios finansinės dimensijos nėra užregistruotos perkainojimo operacijose. Jeigu jūsų sąskaitos struktūroje yra reikiama finansinė dimensija, perkainojimo procesas vis dar vykdomas, bet bus sukuriami apskaitos įrašai, neturintys finansinių dimensijų. Šiuo atveju vartotojai pirmiausia gaus įspėjimo pranešimą, taigi, jie galės atšaukti perkainojimą, jei reikalinga.
 - **Lentelė** – Prekės finansinės dimensijos yra užregistruojamos perkainojimo operacijose. Tai yra numatytasis parametras ir jis atitinka pradinę sistemos elgseną, neįjungus funkcijos *Numatytųjų finansinių dimensijų atsargų standartiniam savikainos perkainojimui parinktys*.
 - **Registravimas** – Perkainojamos operacijos finansinės dimensijos yra registruojamos perkainojimo operacijose. Pagal numatytuosius nustatymus, finansinės dimensijos iš pradinės operacijos atsargų paskyros bus naudojamos tiek atsargų sąskaitai, tiek perkainojimo sąskaitai.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

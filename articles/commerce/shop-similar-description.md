@@ -98,3 +98,6 @@ Tolesnis paveikslėlis rodo **Įjungti į parduotuvę panašaus aprašo nuorodą
 [Kuruojamų rekomendacijų kūrimas rankiniu būdu](create-editorial-recommendation-lists.md)
 
 [DUK apie produktų rekomendacijas](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

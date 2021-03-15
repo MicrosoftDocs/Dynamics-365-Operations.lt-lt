@@ -68,3 +68,6 @@ Prieš tai, kai nustatysite priedų planus „Microsoft Dynamics 365 Human Resou
 3. Pasirinkite **Įrašyti**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

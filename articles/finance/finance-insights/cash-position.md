@@ -50,3 +50,6 @@ Norėdami įrašyti ir redaguoti grynųjų pinigų padėtį, sukurkite momentin�
 
 #### <a name="privacy-notice"></a>Privatumo pranešimas
 Peržiūros versijos (1) gali naudoti mažiau privatumo ir mažiau saugos priemonių nei „Dynamics 365 Finance and Operations“ paslauga, (2) jos nėra įtrauktos į aptarnavimo lygio sutartį (SLA), (3) jos neturėtų būti naudojamos apdoroti asmens duomenims ar kitiems duomenims, kuriems taikomi teisiniai ir atitikimo teisės aktai (4) ir jų palaikymas yra ribotas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

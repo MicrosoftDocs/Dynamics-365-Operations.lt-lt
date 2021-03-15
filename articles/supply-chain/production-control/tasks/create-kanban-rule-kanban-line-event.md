@@ -68,3 +68,6 @@ ms.locfileid: "4981260"
     * Atkreipkite dėmesį, kad kiekio 27 „kanban“ buvo sukurtas siekiant apdoroti veiklą pagal sukurtą „kanban“ taisyklę.  
     * Tai paskutinis veiksmas.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

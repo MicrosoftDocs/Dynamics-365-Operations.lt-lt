@@ -129,3 +129,6 @@ Klausimyno planavimo funkcija suteikia galimybę planuoti ir platinti klausimynu
 2. Spustelėkite Baigti.
 3. Spustelėkite GERAI.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

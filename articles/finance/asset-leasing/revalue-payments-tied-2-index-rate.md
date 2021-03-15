@@ -67,3 +67,6 @@ Norėdami peržiūrėti nuomos perkainojimo proceso įtaką IFRS 16 nuomai, atsi
 Galite peržiūrėti naujai sugeneruotą įmokų grafiką, kuris pradedamas skaičiuoti nuo perkainojimo datos, ir rodyti visą atnaujintą apmokėjimo sumą. Taip pat sukurtas naujas nuomos įsipareigojimų amortizavimo grafikas ir turto nusidėvėjimo grafikas, siekiant atsižvelgti į pakoreguotą mokėjimo grafiką.
 
 Žurnalo įrašas automatiškai užregistruoja derinimo žurnalo įrašą, skirtą pakeisti nuomos mokėjimus, susietus su indekso perkainojimu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

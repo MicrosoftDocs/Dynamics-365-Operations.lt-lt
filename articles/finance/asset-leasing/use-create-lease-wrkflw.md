@@ -44,3 +44,6 @@ Prieš pradėdami naudoti šią procedūrą, įsitikinkite, kad buvo sukurta ben
 
 8. Norėdami išjungti darbo eigą, puslapyje **Darbo eigos retrospektyva** pasirinkite **Atšaukti**. Pasirodžiusiame dialogo lange įveskite komentarą, tada pasirinkite **Gerai**.
 9. Norėdami išjungti darbo eigą arba suaktyvinti anksčiau sukurtą darbo eigą, pasirinkite **Turto nuoma \> Sąranka \> Nuomos darbo eiga**. Tada puslapyje **Nuomos darbo eiga** pasirinkite **Darbo eiga \> Versijos**. Norėdami, kad dabartinė darbo eiga būtų neaktyvi, pasirinkite aktyvią nuomos ir nuomos versijos dialogo langą ir pasirinkite **Išjungti**. Norėdami suaktyvinti esamą darbo eigą, pasirinkite darbo eigą ir pasirinkite **Suaktyvinti**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

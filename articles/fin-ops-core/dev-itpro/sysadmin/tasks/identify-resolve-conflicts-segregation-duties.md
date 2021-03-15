@@ -59,3 +59,6 @@ Priskiriant vartotojus vaidmenims, automatiškai taikomos pareigų atskyrimo tai
 
 > [!NOTE]
 > Jei keli nesuderinamumai išvardyti tam pačiam vartotojui, pasirinkite vartotojo įrašą ir įvertinkite priskirtus vaidmenis **Vartotojai** puslapyje. Norėdami išvengti šio nesuderinamumo, patvirtinkite kiekvieną taisyklę ją pridėjus arba modifikavus.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

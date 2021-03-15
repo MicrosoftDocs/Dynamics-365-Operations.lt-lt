@@ -40,3 +40,6 @@ ms.locfileid: "4977018"
 6. Lauke „Grąžinti perdavimo kodą“ įveskite reikšmę.
     * Grąžinimo perdavimo kodas nulemia registruotų prekių grąžinimo užsakymo proceso likutį. Šiame pavyzdyje klientas turėtų gauti kredito pažymą. Įtraukite grąžinimo perdavimo kodą, kuriame yra veiksmas „Kreditas“.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
