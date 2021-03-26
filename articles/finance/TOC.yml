@@ -72,7 +72,9 @@
                   items:
                     - name: Kas nauja ar pasikeitė „Finance“ pagrindinis puslapis
                       href: get-started/whats-new-home-page.md
-                    - name: „Finance 10.0.17“ (2021 m. kovo mėn.)
+                    - name: „Finance 10.0.18“ (2021 m. gegužės mėn.)
+                      href: get-started/whats-new-changed-10-0-18.md
+                    - name: „Finance 10.0.17“ (2021 m. balandžio mėn.)
                       href: get-started/whats-new-changed-10-0-17.md
                     - name: „Finance 10.0.16“ (2021 m. vasario mėn.)
                       href: get-started/whats-new-changed-10-0-16.md
@@ -80,6 +82,8 @@
                       href: get-started/whats-new-changed-10-0-15.md
             - name: Pašalintos arba nebenaudojamos funkcijos
               items:
+                - name: Pašalintų arba nebenaudojamų funkcijų pagrindinis puslapis
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
                 - name: Pašalintos arba nebenaudojamos „Dynamics 365 Finance“ funkcijos
                   href: get-started/removed-deprecated-features-finance.md
                 - name: Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
@@ -474,6 +478,8 @@
               href: accounts-receivable/tasks/create-collection-letter-sequence.md
             - name: Priminimo laiškų apdorojimas
               href: accounts-receivable/tasks/process-collection-letters.md
+            - name: Priminimo laiškų apdorojimo pavyzdys
+              href: accounts-receivable/process-collection-letters-example.md
             - name: Gautinų sumų skirstymo pagal terminus informacijos nustatymas ir generavimas
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
             - name: Klientų skirstymo pagal terminus ataskaita
@@ -486,6 +492,8 @@
               href: accounts-receivable/original-invoice-numbers-credit-notes.md
             - name: Dokumentų ir kvitų numeravimas chronologiškai
               href: accounts-receivable/chrono-numbers.md
+            - name: Archyvuoti atspausdintas klientų sąskaitas faktūras su maišos numeriais
+              href: accounts-receivable/archive-printed-invoices.md
         - name: Biudžeto sudarymas
           items:
             - name: Pagrindinis biudžeto sudarymo puslapis
@@ -1318,6 +1326,8 @@
                   href: public-sector/tasks/create-vendor-certification-type-public-sector.md
                 - name: Kelių vienkartinių viešojo sektoriaus tiekėjų ir SF importavimas ir kūrimas
                   href: public-sector/tasks/import-multiple-one-time-vendors.md
+                - name: Apskaitos paskirstymo arba sąskaitų faktūrų redagavimo apribojimas
+                  href: public-sector/restrict-edit-accounting-distributions.md
                 - name: Vienkartinių tiekėjų planas viešajame sektoriuje
                   href: public-sector/plan-one-time-vendors-public-sector.md
                 - name: Prieigos prie viešojo sektoriaus pirkimo sutarčių valdymas
@@ -1428,8 +1438,8 @@
                       href: localizations/e-invoicing-get-started.md
                     - name: Darbo su elektroninių SF priedu Brazilijai pradžia
                       href: localizations/e-invoicing-bra-get-started.md
-                    - name: Kliento elektroninės sąskaitos faktūros Egipte
-                      href: localizations/emea-egy-e-invoices.md
+                    - name: Darbo su elektroninių SF priedu Egiptui pradžia
+                      href: localizations/e-invoicing-eg-get-started.md
                     - name: Darbo su elektroninių SF priedu Italijai pradžia
                       href: localizations/e-invoicing-ita-get-started.md
                     - name: Darbo su elektroninių SF priedu Meksikai pradžia
@@ -1580,6 +1590,8 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: Finansinio padalinio NF-e parametrų nustatymas
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: 'NT2020.006 – tarpinio pardavimo skaitmeninė platforma, skirta NF-e'
+                      href: localizations/latam-bra-nf-e-nt2020-006-v1-00.md
                     - name: 'NT2019.001 – mokesčių lengvatų ir atleidimo nuo mokesčių taisyklės, skirtos NF-e / NFC-e'
                       href: localizations/bra-use-tax-exemption-nf-e.md
                 - name: SPED ECD
@@ -1784,6 +1796,8 @@
                   href: localizations/emea-egy-reg-numbers.md
                 - name: 'Sąskaitos faktūros maketo, skirto Egiptui, konfigūravimas'
                   href: localizations/emea-egy-invoice-layout.md
+                - name: Kliento elektroninės sąskaitos faktūros Egipte
+                  href: localizations/emea-egy-e-invoices.md
             - name: Estija
               items:
                 - name: Estijos apžvalga
@@ -2008,12 +2022,14 @@
                   items:
                     - name: Vokietijos audito failo apžvalga
                       href: localizations/emea-deu-gdpdu-audit-data-export.md
-                    - name: Audito failo konfigūracijos tinkinimas
-                      href: localizations/tasks/customize-german-audit-file-configuration.md
-                    - name: Audito failo generavimas
-                      href: localizations/tasks/german-audit-file.md
                     - name: Audito failo konfigūracijos importavimas
                       href: localizations/tasks/import-german-audit-file-configuration.md
+                    - name: Audito failo generavimas
+                      href: localizations/tasks/german-audit-file.md
+                    - name: Audito failo konfigūracijos tinkinimas
+                      href: localizations/tasks/customize-german-audit-file-configuration.md
+                    - name: Filtrų įtraukimas į audito failo konfigūraciją
+                      href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: Papildomų įsigijimų antraisiais metais nusidėvėjimo koregavimai
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: Elektroninis PVM deklaracijos perkėlimas (ELSTER)
@@ -2306,9 +2322,9 @@
                   href: localizations/emea-ita-quarterly-vat-communication.md
                 - name: Juodojo sąrašo ataskaita
                   href: localizations/emea-ita-black-list-report.md
-                - name: Tinkamumo data
+                - name: Tinkamumo data ir finansinis žurnalas
                   href: localizations/emea-ita-competence-date.md
-                - name: Ilgalaikių išteklių nusidėvėjimas
+                - name: Ilgalaikio turto nusidėvėjimas
                   href: localizations/emea-ita-depreciation-of-fixed-assets.md
                 - name: „Modello 770“
                   href: localizations/emea-ita-modello770.md
@@ -3253,7 +3269,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/expense-management-content-pack.md?toc=/dynamics365/finance/toc.json
                 - name: Finansinės veiklos rezultatai
                   href: ../fin-ops-core/dev-itpro/analytics/financial-performance-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
-                - name: Finansinės įžvalgos
+                - name: Finansinė analizė
                   href: ../fin-ops-core/dev-itpro/analytics/financial-insights.md?toc=/dynamics365/finance/toc.json
                 - name: Ilgalaikio turto valdymas
                   href: fixed-assets/Fixed-asset-management-workspace.md
@@ -3493,12 +3509,18 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-and.md?toc=/dynamics365/finance/toc.json
                         - name: Case
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-case.md?toc=/dynamics365/finance/toc.json
+                        - name: Contains
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-contains.md?toc=/dynamics365/finance/toc.json
+                        - name: EndsWith
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-endswith.md?toc=/dynamics365/finance/toc.json
                         - name: If
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-if.md?toc=/dynamics365/finance/toc.json
                         - name: Not
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-not.md?toc=/dynamics365/finance/toc.json
                         - name: Or
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-or.md?toc=/dynamics365/finance/toc.json
+                        - name: StartsWith
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-startswith.md?toc=/dynamics365/finance/toc.json
                         - name: ValueIn
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valuein.md?toc=/dynamics365/finance/toc.json
                         - name: ValueInLarge
@@ -3675,6 +3697,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/finance/toc.json
                     - name: 'Pakartotinis ER konfigūracijų naudojimas su „Excel“ šablonais, kad būtų galima generuoti ataskaitas „Word“ formatu'
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: Sulaikyti Word turinio valdiklius sugeneruotose ataskaitose
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word-suppress-controls.md?toc=/dynamics365/finance/toc.json
                 - name: Konfigūracijų kūrimas pildymui PDF šablonuose
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
                 - name: Vaizdų ir figūrų įdėjimas
@@ -3759,6 +3783,8 @@
                           href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
                         - name: Konfigūracijų bendrinimas GR
                           href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+                        - name: Konfigūracijų RCS visuotinėje saugykloje naudojimo nutraukimas
+                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
             - name: Greito pasirengimo darbui vadovai
               items:
                 - name: ER formato koregavimas pasirinktiniam elektroniniam dokumentui sugeneruoti

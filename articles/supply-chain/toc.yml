@@ -70,16 +70,18 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Kas nauja ar pasikeitė „Supply Chain Management“
                   items:
-                    - name: Kas nauja ar pasikeitė „Supply Chain Management“ pagrindiniame puslapyje
+                    - name: Kas nauja ar pasikeitė „Supply Chain Management“ pagrindinis puslapis
                       href: get-started/whats-new-home-page.md
+                    - name: „Supply Chain Management 10.0.18“ (2021 m. gegužės mėn.)
+                      href: get-started/whats-new-scm-10-0-18.md
                     - name: „Supply Chain Management 10.0.17“ (2021 m. balandžio mėn.)
                       href: get-started/whats-new-scm-10-0-17.md
                     - name: „Supply Chain Management 10.0.16“ (2021 m. vasario mėn.)
                       href: get-started/whats-new-scm-10-0-16.md
-                    - name: „Supply Chain Management 10.0.15“ (2021 m. sausio mėn.)
-                      href: get-started/whats-new-scm-10-0-15.md
                 - name: Pašalintos arba nebenaudojamos funkcijos
                   items:
+                    - name: Pašalintų arba nebenaudojamų funkcijų pagrindinis puslapis
+                      href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management“ funkcijos
                       href: get-started/removed-deprecated-features-scm-updates.md
                     - name: Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
@@ -527,9 +529,9 @@
               href: ../finance/cost-accounting/tasks/configure-cost-control-workspace-parameters.md?toc=/dynamics365/supply-chain/toc.json
             - name: Supažindinimas su „Microsoft Power BI‟ prieigos sąrašo sauga ir RLS
               href: ../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/dynamics365/supply-chain/toc.json
-            - name: „Microsoft Power BI‟ ataskaitų turinio paketo naudojimas
+            - name: „Microsoft Power BI“ ataskaitų turinio paketo naudojimas
               href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/supply-chain/toc.json
-            - name: „Finance and Operations“ mobiliosios programos kaštų kontrolės darbo srities naudojimas
+            - name: „Finance and Operations‟ mobiliosios programos kaštų kontrolės darbo srities naudojimas
               href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
         - name: Kaštų valdymas
           items:
@@ -1349,9 +1351,11 @@
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: Atsargų dimensijos einamosios vidutinės kainos sekimas
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
+            - name: Atsargų operacijų archyvavimas
+              href: inventory/archive-inventory-transactions.md
             - name: Atsargų matomumo papildinys
               href: inventory/inventory-visibility.md
-        - name: IoT įžvalgos
+        - name: „IoT” įžvalgos
           items:
             - name: Pagrindinis IoT įžvalgų puslapis
               href: iot/iot-intelligence-home-page.md
@@ -2021,6 +2025,8 @@
               href: engineering-change-management/engineering-attributes-and-search.md
             - name: Inžinerinės versijos ir inžinerinių produktų kategorijos
               href: engineering-change-management/engineering-versions-product-category.md
+            - name: Pakeitimų valdymo įjungimas esamiems produktams
+              href: engineering-change-management/change-management-existing-products.md
             - name: Produkto ciklo būsena ir operacijos
               href: engineering-change-management/product-lifecycle-state-transactions.md
             - name: Inžinierinių produktų keitimų valdymas
@@ -2129,6 +2135,8 @@
                           href: production-control/production-floor-execution-setup.md
                         - name: Kaip darbuotojai naudoja gamybos vietos vykdymo sąsają
                           href: production-control/production-floor-execution-use.md
+                        - name: 'Vartotojo sąsajos valdymo stiliai, skirti gamybos laiko vykdymui'
+                          href: production-control/production-floor-execution-styles.md
                     - name: Įrenginių užduoties kortelių konfigūravimas
                       href: production-control/config-job-card-device.md
                     - name: Skelbimas baigtu iš užduoties kortelės įrenginio
@@ -2729,6 +2737,54 @@
               href: transportation/tasks/set-up-shipping-carriers.md
             - name: Prekės transportavimo apribojimų nustatymas
               href: transportation/tasks/set-up-transportation-constraints-item.md
+        - name: Gabenimo išlaidos
+          items:
+            - name: Gabenimo išlaidų modulio peržiūra
+              href: landed-cost/landed-cost-overview.md
+            - name: Kaip gabenimo išlaidos prilygsta transportavimo valdymui
+              href: landed-cost/landed-cost-vs-tms.md
+            - name: Gabenimo išlaidų modulio nustatymas ir konfigūravimas
+              items:
+                - name: Gabenimo išlaidų parametrai
+                  href: landed-cost/landed-cost-parameters.md
+                - name: Gabenimo išlaidų įsigijimo ir tiekimo parametrai
+                  href: landed-cost/landed-cost-procurement-parameters.md
+                - name: Reiso būsenos nustatymas
+                  href: landed-cost/voyage-status-setup.md
+                - name: Krovininio konteinerio nustatymas
+                  href: landed-cost/shipping-container-setup.md
+                - name: Pristatymo informacijos sąranka
+                  href: landed-cost/delivery-information-setup.md
+                - name: Kelių atkarpų kelionės sąranka
+                  href: landed-cost/multi-leg-journey-setup.md
+                - name: Siuntimo informacijos sąranka
+                  href: landed-cost/shipping-information-setup.md
+                - name: Įkainojimo parametrų verčių sąranka
+                  href: landed-cost/costing-parameters-setup.md
+                - name: Numatytieji didžiosios knygos aprašai
+                  href: landed-cost/defult-descriptions.md
+            - name: Tiekėjo parametrai įtraukti gabenimo išlaidoms
+              href: landed-cost/vendors-landed-cost-settings.md
+            - name: 'Darbas su reisais, konteineriais ir važtaraščiais'
+              items:
+                - name: Reisų tvarkymas
+                  href: landed-cost/manage-voyages.md
+                - name: Krovininių konteinerių tvarkymas
+                  href: landed-cost/manage-shipping-containers.md
+                - name: Važtaraščių tvarkymas
+                  href: landed-cost/manage-folios.md
+            - name: Įeinančių reisų ir krovininių konteinerių sekimas
+              href: landed-cost/inbound-tracking.md
+            - name: Gabenimo išlaidų apskaičiavimas ir valdymas
+              href: landed-cost/estimate-manage-landed-costs.md
+            - name: Tranzito apdorojimas
+              href: landed-cost/in-transit-processing.md
+            - name: Pertekliaus / stygiaus operacijų apdorojimas
+              href: landed-cost/over-under-transactions.md
+            - name: Gabenimo išlaidų užklausos
+              href: landed-cost/landed-cost-inquiries.md
+            - name: Gabenimo išlaidų ataskaitos
+              href: landed-cost/landed-cost-reports.md
         - name: Sandėlio valdymas
           items:
             - name: Sandėlio valdymo apžvalga
@@ -2925,10 +2981,12 @@
                       href: warehousing/change-work-pool-on-work.md
                     - name: Prekės konsolidacija – vietos naudojimas
                       href: warehousing/item-consolidation-location-utilization.md
-                    - name: Sandėlio darbo trikčių šalinimas
-                      href: warehousing/troubleshoot-warehouse-work.md
                     - name: Darbo skaidymas
                       href: warehousing/work-split.md
+                    - name: Medžiagų tvarkymo įrangos sąsaja (MHAX)
+                      href: warehousing/mhax.md
+                    - name: Sandėlio darbo trikčių šalinimas
+                      href: warehousing/troubleshoot-warehouse-work.md
             - name: Sandėlio nustatymas
               items:
                 - name: Sandėlio konfigūracija
@@ -2987,6 +3045,8 @@
                   items:
                     - name: Sandėli valdymo mobiliųjų įrenginių programėlės diegimas ir prijungimas
                       href: warehousing/install-configure-warehouse-management-app.md
+                    - name: Mobiliojo įrenginio naudotojo nustatymai
+                      href: warehousing/mobile-device-user-settings.md
                     - name: Sandėlio programos diegimas ir prijungimas
                       href: warehousing/install-configure-warehousing-app.md
                     - name: Brūkšninių kodų nuskaitymas sandėlio programėle naudojant kamerą
