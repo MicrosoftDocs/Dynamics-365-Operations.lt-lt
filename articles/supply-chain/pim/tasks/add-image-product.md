@@ -15,24 +15,27 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd18d93c53a213b1b110da27c601590cabd17d4d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f36ea345a436a4ea24e6a57f3b9364a9095beb4b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4987084"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218662"
 ---
-# <a name="add-an-image-to-a-product"></a><span data-ttu-id="42b26-103">Vaizdo pridėjimas prie produkto</span><span class="sxs-lookup"><span data-stu-id="42b26-103">Add an image to a product</span></span>
+# <a name="add-an-image-to-a-product"></a><span data-ttu-id="71226-103">Vaizdo pridėjimas prie produkto</span><span class="sxs-lookup"><span data-stu-id="71226-103">Add an image to a product</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="42b26-104">Šioje procedūroje parodoma, kaip įtraukti vaizdą į produktą. Demonstracinė duomenų įmonė, naudota kuriant šią užduotį, yra USMF.</span><span class="sxs-lookup"><span data-stu-id="42b26-104">This procedure shows how to add an image to a product The demo data company used to create this task is USMF.</span></span>
+<span data-ttu-id="71226-104">Šioje procedūroje parodoma, kaip įtraukti vaizdą į produktą. Demonstracinė duomenų įmonė, naudota kuriant šią užduotį, yra USMF.</span><span class="sxs-lookup"><span data-stu-id="71226-104">This procedure shows how to add an image to a product The demo data company used to create this task is USMF.</span></span>
 
-1. <span data-ttu-id="42b26-105">Eikite į Produkto informacijos valdymas > Produktai > Patvirtinti produktai.</span><span class="sxs-lookup"><span data-stu-id="42b26-105">Go to Product information management > Products > Released products.</span></span>
-2. <span data-ttu-id="42b26-106">Išplėskite „FactBox“ Produkto vaizdas.</span><span class="sxs-lookup"><span data-stu-id="42b26-106">Expand the Product image FactBox.</span></span>
-3. <span data-ttu-id="42b26-107">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="42b26-107">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="42b26-108">Pavyzdžiui, pasirinkite prekės numerį C0002.</span><span class="sxs-lookup"><span data-stu-id="42b26-108">For example, select the item number C0002.</span></span>  
-4. <span data-ttu-id="42b26-109">Spustelėkite Keisti vaizdą.</span><span class="sxs-lookup"><span data-stu-id="42b26-109">Click Change image.</span></span>
-5. <span data-ttu-id="42b26-110">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="42b26-110">Click New.</span></span>
-    * <span data-ttu-id="42b26-111">Spustelėkite Naršyti.</span><span class="sxs-lookup"><span data-stu-id="42b26-111">Click Browse.</span></span> <span data-ttu-id="42b26-112">Suraskite vaizdą, kurį norite naudoti, pasirinkite jį ir tada uždarykite dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="42b26-112">Find the image that you want to use, select it, and then close the dialog box.</span></span>    
+1. <span data-ttu-id="71226-105">Eikite į Produkto informacijos valdymas > Produktai > Patvirtinti produktai.</span><span class="sxs-lookup"><span data-stu-id="71226-105">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="71226-106">Išplėskite „FactBox“ Produkto vaizdas.</span><span class="sxs-lookup"><span data-stu-id="71226-106">Expand the Product image FactBox.</span></span>
+3. <span data-ttu-id="71226-107">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="71226-107">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="71226-108">Pavyzdžiui, pasirinkite prekės numerį C0002.</span><span class="sxs-lookup"><span data-stu-id="71226-108">For example, select the item number C0002.</span></span>  
+4. <span data-ttu-id="71226-109">Spustelėkite Keisti vaizdą.</span><span class="sxs-lookup"><span data-stu-id="71226-109">Click Change image.</span></span>
+5. <span data-ttu-id="71226-110">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="71226-110">Click New.</span></span>
+    * <span data-ttu-id="71226-111">Spustelėkite Naršyti.</span><span class="sxs-lookup"><span data-stu-id="71226-111">Click Browse.</span></span> <span data-ttu-id="71226-112">Suraskite vaizdą, kurį norite naudoti, pasirinkite jį ir tada uždarykite dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="71226-112">Find the image that you want to use, select it, and then close the dialog box.</span></span>    
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

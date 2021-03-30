@@ -17,36 +17,39 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7b450dde5e9028d4a1eab671bbec240fd33dfb7e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: aec2344c27bc645ada53dcec61f519920838c604
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006546"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220709"
 ---
-# <a name="prioritize-service-orders"></a><span data-ttu-id="02933-103">Aptarnavimo užsakymų prioritetų nustatymas</span><span class="sxs-lookup"><span data-stu-id="02933-103">Prioritize service orders</span></span> 
+# <a name="prioritize-service-orders"></a><span data-ttu-id="c0dbd-103">Aptarnavimo užsakymų prioritetų nustatymas</span><span class="sxs-lookup"><span data-stu-id="c0dbd-103">Prioritize service orders</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="02933-104">Spustelėkite **Aptarnavimo valdymas** \> **Periodinis** \> **Išsiuntimo informacijos lenta**.</span><span class="sxs-lookup"><span data-stu-id="02933-104">Click **Service management** \> **Periodic** \> **Dispatch board**.</span></span>
+1.  <span data-ttu-id="c0dbd-104">Spustelėkite **Aptarnavimo valdymas** \> **Periodinis** \> **Išsiuntimo informacijos lenta**.</span><span class="sxs-lookup"><span data-stu-id="c0dbd-104">Click **Service management** \> **Periodic** \> **Dispatch board**.</span></span>
 
-2.  <span data-ttu-id="02933-105">Norėdami, kad formos viršuje būtų rodoma Gantt diagrama, o apatinėje naršymo srityje – skirtukai, spustelėkite **Išplėstiniai parametrai**.</span><span class="sxs-lookup"><span data-stu-id="02933-105">Click **Advanced** to display the Gantt chart at the top of the form and the tabs in the lower pane.</span></span>
+2.  <span data-ttu-id="c0dbd-105">Norėdami, kad formos viršuje būtų rodoma Gantt diagrama, o apatinėje naršymo srityje – skirtukai, spustelėkite **Išplėstiniai parametrai**.</span><span class="sxs-lookup"><span data-stu-id="c0dbd-105">Click **Advanced** to display the Gantt chart at the top of the form and the tabs in the lower pane.</span></span>
 
-3.  <span data-ttu-id="02933-106">Išplėskite kiekvieną išsiuntimo komandos sąrašą.</span><span class="sxs-lookup"><span data-stu-id="02933-106">Expand each dispatch team list.</span></span>
+3.  <span data-ttu-id="c0dbd-106">Išplėskite kiekvieną išsiuntimo komandos sąrašą.</span><span class="sxs-lookup"><span data-stu-id="c0dbd-106">Expand each dispatch team list.</span></span>
 
-4.  <span data-ttu-id="02933-107">Pasirinkite spalvomis užkoduotą grafinį vaizdą, vaizduojantį aptarnavimo veiklą.</span><span class="sxs-lookup"><span data-stu-id="02933-107">Select the color-coded graphic that represents a service activity.</span></span>
+4.  <span data-ttu-id="c0dbd-107">Pasirinkite spalvomis užkoduotą grafinį vaizdą, vaizduojantį aptarnavimo veiklą.</span><span class="sxs-lookup"><span data-stu-id="c0dbd-107">Select the color-coded graphic that represents a service activity.</span></span>
 
-5.  <span data-ttu-id="02933-108">Skirtuke **Visi**, **Komanda**, **Neišsiųsta** arba **Susijusios** pakeiskite pasirinkimą lauke **Prioritetas**.</span><span class="sxs-lookup"><span data-stu-id="02933-108">On the **All** tab, **Team** tab, **Undispatched** tab, or **Related** tab, change the selection in the **Priority** field.</span></span>
+5.  <span data-ttu-id="c0dbd-108">Skirtuke **Visi**, **Komanda**, **Neišsiųsta** arba **Susijusios** pakeiskite pasirinkimą lauke **Prioritetas**.</span><span class="sxs-lookup"><span data-stu-id="c0dbd-108">On the **All** tab, **Team** tab, **Undispatched** tab, or **Related** tab, change the selection in the **Priority** field.</span></span>
 
-6.  <span data-ttu-id="02933-109">Spustelėkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="02933-109">Click **Save**.</span></span>
+6.  <span data-ttu-id="c0dbd-109">Spustelėkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="c0dbd-109">Click **Save**.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="02933-110">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="02933-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c0dbd-110">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="c0dbd-110">See also</span></span>
 
-[<span data-ttu-id="02933-111">Išsiuntimo informacijos lenta</span><span class="sxs-lookup"><span data-stu-id="02933-111">Dispatch board</span></span>](dispatch-board.md)
+[<span data-ttu-id="c0dbd-111">Išsiuntimo informacijos lenta</span><span class="sxs-lookup"><span data-stu-id="c0dbd-111">Dispatch board</span></span>](dispatch-board.md)
 
-[<span data-ttu-id="02933-112">Aptarnavimo užsakymų būsenos peržiūra</span><span class="sxs-lookup"><span data-stu-id="02933-112">View the status of service orders</span></span>](view-the-status-of-service-orders.md)
+[<span data-ttu-id="c0dbd-112">Aptarnavimo užsakymų būsenos peržiūra</span><span class="sxs-lookup"><span data-stu-id="c0dbd-112">View the status of service orders</span></span>](view-the-status-of-service-orders.md)
 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

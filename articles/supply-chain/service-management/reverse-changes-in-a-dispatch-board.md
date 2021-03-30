@@ -17,36 +17,39 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f7f11cfb66951dea15bd1650adb7b75f35a106e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7ef7312243cf7e9b890456fbeeeefb85728b4b5b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006571"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219250"
 ---
-# <a name="reverse-changes-in-a-dispatch-board"></a><span data-ttu-id="cc531-103">Pakeitimų išsiuntimo informacijos lentoje atšaukimas</span><span class="sxs-lookup"><span data-stu-id="cc531-103">Reverse changes in a dispatch board</span></span> 
+# <a name="reverse-changes-in-a-dispatch-board"></a><span data-ttu-id="5eab3-103">Pakeitimų išsiuntimo informacijos lentoje atšaukimas</span><span class="sxs-lookup"><span data-stu-id="5eab3-103">Reverse changes in a dispatch board</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="cc531-104">Šioje temoje aprašoma, kaip atšaukti neįrašytus pakeitimus, kuriuos atliekate išsiuntimo informacijos lentoje.</span><span class="sxs-lookup"><span data-stu-id="cc531-104">This topic describes how to reverse unsaved modifications that you make in a dispatch board.</span></span> <span data-ttu-id="cc531-105">Pvz., darbuotojui priskiriate aptarnavimo veiklą, informaciją įrašote ir vėliau nusprendžiate aptarnavimo veiklai priskirti kitą darbuotoją.</span><span class="sxs-lookup"><span data-stu-id="cc531-105">For example, you assign a worker to a service activity, save the information, and then later decide to assign a different worker to the service activity.</span></span> <span data-ttu-id="cc531-106">Modifikuojate darbuotoją išsiuntimo informacijos lentoje ir prieš įrašydami pakeitimą sužinote, kad ką tik priskirtas darbuotojas yra nepasiekiamas.</span><span class="sxs-lookup"><span data-stu-id="cc531-106">You modify the worker in the dispatch board, and then, before saving the change, learn that the worker just assigned is not available.</span></span> <span data-ttu-id="cc531-107">Galite atšaukti neįrašytą pakeitimą, kad pradinis darbuotojas būtų iš naujo priskirtas aptarnavimo užsakymui.</span><span class="sxs-lookup"><span data-stu-id="cc531-107">You can reverse the unsaved modification so that the original worker is reassigned to the service order.</span></span>
+<span data-ttu-id="5eab3-104">Šioje temoje aprašoma, kaip atšaukti neįrašytus pakeitimus, kuriuos atliekate išsiuntimo informacijos lentoje.</span><span class="sxs-lookup"><span data-stu-id="5eab3-104">This topic describes how to reverse unsaved modifications that you make in a dispatch board.</span></span> <span data-ttu-id="5eab3-105">Pvz., darbuotojui priskiriate aptarnavimo veiklą, informaciją įrašote ir vėliau nusprendžiate aptarnavimo veiklai priskirti kitą darbuotoją.</span><span class="sxs-lookup"><span data-stu-id="5eab3-105">For example, you assign a worker to a service activity, save the information, and then later decide to assign a different worker to the service activity.</span></span> <span data-ttu-id="5eab3-106">Modifikuojate darbuotoją išsiuntimo informacijos lentoje ir prieš įrašydami pakeitimą sužinote, kad ką tik priskirtas darbuotojas yra nepasiekiamas.</span><span class="sxs-lookup"><span data-stu-id="5eab3-106">You modify the worker in the dispatch board, and then, before saving the change, learn that the worker just assigned is not available.</span></span> <span data-ttu-id="5eab3-107">Galite atšaukti neįrašytą pakeitimą, kad pradinis darbuotojas būtų iš naujo priskirtas aptarnavimo užsakymui.</span><span class="sxs-lookup"><span data-stu-id="5eab3-107">You can reverse the unsaved modification so that the original worker is reassigned to the service order.</span></span>
 
-<span data-ttu-id="cc531-108">Norėdami atšaukti neįrašytus pakeitimus išsiuntimo informacijos lentoje, atlikite šiuos veiksmus:</span><span class="sxs-lookup"><span data-stu-id="cc531-108">Use the following steps to reverse unsaved changes in a dispatch board:</span></span>
+<span data-ttu-id="5eab3-108">Norėdami atšaukti neįrašytus pakeitimus išsiuntimo informacijos lentoje, atlikite šiuos veiksmus:</span><span class="sxs-lookup"><span data-stu-id="5eab3-108">Use the following steps to reverse unsaved changes in a dispatch board:</span></span>
 
-1.  <span data-ttu-id="cc531-109">Spustelėkite **Aptarnavimo valdymas** \> **Periodinis** \> **Išsiuntimo informacijos lenta**.</span><span class="sxs-lookup"><span data-stu-id="cc531-109">Click **Service management** \> **Periodic** \> **Dispatch board**.</span></span>
+1.  <span data-ttu-id="5eab3-109">Spustelėkite **Aptarnavimo valdymas** \> **Periodinis** \> **Išsiuntimo informacijos lenta**.</span><span class="sxs-lookup"><span data-stu-id="5eab3-109">Click **Service management** \> **Periodic** \> **Dispatch board**.</span></span>
 
-2.  <span data-ttu-id="cc531-110">Formos **Išsiuntimo informacijos lenta** laukuose įveskite susijusią informaciją ir spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="cc531-110">In the **Dispatch board** form, enter relevant information in the fields, and then click **OK**.</span></span> 
+2.  <span data-ttu-id="5eab3-110">Formos **Išsiuntimo informacijos lenta** laukuose įveskite susijusią informaciją ir spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="5eab3-110">In the **Dispatch board** form, enter relevant information in the fields, and then click **OK**.</span></span> 
 
-3.  <span data-ttu-id="cc531-111">Norėdami atšaukti vėliausiąjį pakeitimą, kuris neįrašytas, spustelėkite **Anuliuoti**.</span><span class="sxs-lookup"><span data-stu-id="cc531-111">To reverse the most recent change that is not saved, click **Undo**.</span></span>
+3.  <span data-ttu-id="5eab3-111">Norėdami atšaukti vėliausiąjį pakeitimą, kuris neįrašytas, spustelėkite **Anuliuoti**.</span><span class="sxs-lookup"><span data-stu-id="5eab3-111">To reverse the most recent change that is not saved, click **Undo**.</span></span>
 
-4.  <span data-ttu-id="cc531-112">Neįrašytas pakeitimų sekas galite atšaukti spustelėdami **Anuliuoti**, kol visi pakeitimai, kuriuos norite atmesti, bus atšaukti.</span><span class="sxs-lookup"><span data-stu-id="cc531-112">To reverse a series of changes that are not saved, continue clicking **Undo** until each change that you want to discard is reversed.</span></span>
+4.  <span data-ttu-id="5eab3-112">Neįrašytas pakeitimų sekas galite atšaukti spustelėdami **Anuliuoti**, kol visi pakeitimai, kuriuos norite atmesti, bus atšaukti.</span><span class="sxs-lookup"><span data-stu-id="5eab3-112">To reverse a series of changes that are not saved, continue clicking **Undo** until each change that you want to discard is reversed.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="cc531-113">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="cc531-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5eab3-113">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="5eab3-113">See also</span></span>
 
-[<span data-ttu-id="cc531-114">Išsiuntimo informacijos lenta</span><span class="sxs-lookup"><span data-stu-id="cc531-114">Dispatch board</span></span>](dispatch-board.md)
+[<span data-ttu-id="5eab3-114">Išsiuntimo informacijos lenta</span><span class="sxs-lookup"><span data-stu-id="5eab3-114">Dispatch board</span></span>](dispatch-board.md)
 
-[<span data-ttu-id="cc531-115">Aptarnavimo operacijos</span><span class="sxs-lookup"><span data-stu-id="cc531-115">Service activities</span></span>](service-activities.md)
+[<span data-ttu-id="5eab3-115">Aptarnavimo operacijos</span><span class="sxs-lookup"><span data-stu-id="5eab3-115">Service activities</span></span>](service-activities.md)
 
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
