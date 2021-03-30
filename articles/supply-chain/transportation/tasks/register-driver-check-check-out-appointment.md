@@ -16,32 +16,35 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9de0609db95e5b76d04ae78202762cfdf2159f04
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d7d2f368b933054f4ea1248868b97808d05ed229
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5004982"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233780"
 ---
-# <a name="register-driver-check-in-and-check-out-for-an-appointment"></a><span data-ttu-id="3b4b8-103">Vairuotojo paskyros įregistravimas ir išregistravimas</span><span class="sxs-lookup"><span data-stu-id="3b4b8-103">Register driver check-in and check-out for an appointment</span></span>
+# <a name="register-driver-check-in-and-check-out-for-an-appointment"></a><span data-ttu-id="c34ed-103">Vairuotojo paskyros įregistravimas ir išregistravimas</span><span class="sxs-lookup"><span data-stu-id="c34ed-103">Register driver check-in and check-out for an appointment</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="3b4b8-104">Šioje procedūroje parodoma, kaip tvarkyti vairuotojo registravimą ir vairuotojo išsiregistravimą. Paprastai tą daro transportavimo koordinatorius.</span><span class="sxs-lookup"><span data-stu-id="3b4b8-104">This procedure shows how to register a driver check-in and a driver check-out. This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="3b4b8-105">Šią procedūrą galite naudoti USMF demonstracinių duomenų įmonėje.</span><span class="sxs-lookup"><span data-stu-id="3b4b8-105">You can use this procedure in the USMF demo data company.</span></span> <span data-ttu-id="3b4b8-106">Prieš pradedant, turi būti nustatyta krovinio paskyra.</span><span class="sxs-lookup"><span data-stu-id="3b4b8-106">Before you start, there must be an appointment set up for a load.</span></span> <span data-ttu-id="3b4b8-107">Norėdami sukurti paskyrą, būtina paleisti procedūrą „Nustatyti apkrovos paskyrą“.</span><span class="sxs-lookup"><span data-stu-id="3b4b8-107">To create an appointment, you can run the "Set up an appointment for a load" procedure as a prerequisite.</span></span>
+<span data-ttu-id="c34ed-104">Šioje procedūroje parodoma, kaip tvarkyti vairuotojo registravimą ir vairuotojo išsiregistravimą. Paprastai tą daro transportavimo koordinatorius.</span><span class="sxs-lookup"><span data-stu-id="c34ed-104">This procedure shows how to register a driver check-in and a driver check-out. This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="c34ed-105">Šią procedūrą galite naudoti USMF demonstracinių duomenų įmonėje.</span><span class="sxs-lookup"><span data-stu-id="c34ed-105">You can use this procedure in the USMF demo data company.</span></span> <span data-ttu-id="c34ed-106">Prieš pradedant, turi būti nustatyta krovinio paskyra.</span><span class="sxs-lookup"><span data-stu-id="c34ed-106">Before you start, there must be an appointment set up for a load.</span></span> <span data-ttu-id="c34ed-107">Norėdami sukurti paskyrą, būtina paleisti procedūrą „Nustatyti apkrovos paskyrą“.</span><span class="sxs-lookup"><span data-stu-id="c34ed-107">To create an appointment, you can run the "Set up an appointment for a load" procedure as a prerequisite.</span></span>
 
 
-## <a name="select-an-appointment"></a><span data-ttu-id="3b4b8-108">Paskyros pasirinkimas</span><span class="sxs-lookup"><span data-stu-id="3b4b8-108">Select an appointment</span></span>
-1. <span data-ttu-id="3b4b8-109">Eikite į Transportavimo valdymas > Planavimas > Rampos paskyros planavimas > Vairuotojo prisiregistravimas ir išsiregistravimas.</span><span class="sxs-lookup"><span data-stu-id="3b4b8-109">Go to Transportation management > Planning > Dock appointment scheduling > Driver check-in and check-out.</span></span>
-2. <span data-ttu-id="3b4b8-110">Paskyros pasirinkimas.</span><span class="sxs-lookup"><span data-stu-id="3b4b8-110">Select an appointment.</span></span>
+## <a name="select-an-appointment"></a><span data-ttu-id="c34ed-108">Paskyros pasirinkimas</span><span class="sxs-lookup"><span data-stu-id="c34ed-108">Select an appointment</span></span>
+1. <span data-ttu-id="c34ed-109">Eikite į Transportavimo valdymas > Planavimas > Rampos paskyros planavimas > Vairuotojo prisiregistravimas ir išsiregistravimas.</span><span class="sxs-lookup"><span data-stu-id="c34ed-109">Go to Transportation management > Planning > Dock appointment scheduling > Driver check-in and check-out.</span></span>
+2. <span data-ttu-id="c34ed-110">Paskyros pasirinkimas.</span><span class="sxs-lookup"><span data-stu-id="c34ed-110">Select an appointment.</span></span>
 
-## <a name="register-driver-check-in"></a><span data-ttu-id="3b4b8-111">Vairuotojo registravimas</span><span class="sxs-lookup"><span data-stu-id="3b4b8-111">Register driver check-in</span></span>
-1. <span data-ttu-id="3b4b8-112">Spustelėkite Vairuotojo registravimas.</span><span class="sxs-lookup"><span data-stu-id="3b4b8-112">Click Driver check-in.</span></span>
-2. <span data-ttu-id="3b4b8-113">Lauke Priekabos numeris įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="3b4b8-113">In the Trailer number field, type a value.</span></span>
-3. <span data-ttu-id="3b4b8-114">Lauke Vairuotojo vardas ir pavardė įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="3b4b8-114">In the Driver name field, type a value.</span></span>
-4. <span data-ttu-id="3b4b8-115">Lauke Vairuotojo pažymėjimas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="3b4b8-115">In the Driver license field, type a value.</span></span>
-5. <span data-ttu-id="3b4b8-116">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="3b4b8-116">Click OK.</span></span>
+## <a name="register-driver-check-in"></a><span data-ttu-id="c34ed-111">Vairuotojo registravimas</span><span class="sxs-lookup"><span data-stu-id="c34ed-111">Register driver check-in</span></span>
+1. <span data-ttu-id="c34ed-112">Spustelėkite Vairuotojo registravimas.</span><span class="sxs-lookup"><span data-stu-id="c34ed-112">Click Driver check-in.</span></span>
+2. <span data-ttu-id="c34ed-113">Lauke Priekabos numeris įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="c34ed-113">In the Trailer number field, type a value.</span></span>
+3. <span data-ttu-id="c34ed-114">Lauke Vairuotojo vardas ir pavardė įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="c34ed-114">In the Driver name field, type a value.</span></span>
+4. <span data-ttu-id="c34ed-115">Lauke Vairuotojo pažymėjimas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="c34ed-115">In the Driver license field, type a value.</span></span>
+5. <span data-ttu-id="c34ed-116">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="c34ed-116">Click OK.</span></span>
 
-## <a name="register-driver-check-out"></a><span data-ttu-id="3b4b8-117">Vairuotojo išregistravimas</span><span class="sxs-lookup"><span data-stu-id="3b4b8-117">Register driver check-out</span></span>
-1. <span data-ttu-id="3b4b8-118">Spustelėkite Vairuotojo išregistravimas.</span><span class="sxs-lookup"><span data-stu-id="3b4b8-118">Click Driver check-out.</span></span>
-2. <span data-ttu-id="3b4b8-119">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="3b4b8-119">Click OK.</span></span>
+## <a name="register-driver-check-out"></a><span data-ttu-id="c34ed-117">Vairuotojo išregistravimas</span><span class="sxs-lookup"><span data-stu-id="c34ed-117">Register driver check-out</span></span>
+1. <span data-ttu-id="c34ed-118">Spustelėkite Vairuotojo išregistravimas.</span><span class="sxs-lookup"><span data-stu-id="c34ed-118">Click Driver check-out.</span></span>
+2. <span data-ttu-id="c34ed-119">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="c34ed-119">Click OK.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

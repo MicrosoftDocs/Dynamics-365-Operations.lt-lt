@@ -17,40 +17,43 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae2486d08e89c06d76ab9945ccce25c5e97f1500
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 65cd852ca3ce0446550f9ac148a14bbc6bcae500
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010574"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234782"
 ---
-# <a name="reduce-the-days-on-subscription-fees"></a><span data-ttu-id="47a90-103">Abonementinio mokesčio dienų sumažinimas</span><span class="sxs-lookup"><span data-stu-id="47a90-103">Reduce the days on subscription fees</span></span> 
+# <a name="reduce-the-days-on-subscription-fees"></a><span data-ttu-id="15580-103">Abonementinio mokesčio dienų sumažinimas</span><span class="sxs-lookup"><span data-stu-id="15580-103">Reduce the days on subscription fees</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="47a90-104">Norėdami sumažinti esamo abonementinio mokesčio dienų skaičių, galite sukurti naują operaciją, į kurią perkelsite laikotarpį, kuris turi nebebūti abonementinio mokesčio intervalo dalimi.</span><span class="sxs-lookup"><span data-stu-id="47a90-104">To reduce the number of days of an existing subscription fee, you can create a new transaction in which you remove the period of time that should no longer be part of the subscription fee interval.</span></span>
+<span data-ttu-id="15580-104">Norėdami sumažinti esamo abonementinio mokesčio dienų skaičių, galite sukurti naują operaciją, į kurią perkelsite laikotarpį, kuris turi nebebūti abonementinio mokesčio intervalo dalimi.</span><span class="sxs-lookup"><span data-stu-id="15580-104">To reduce the number of days of an existing subscription fee, you can create a new transaction in which you remove the period of time that should no longer be part of the subscription fee interval.</span></span>
 
-## <a name="reduce-the-days-on-a-subscription-fee"></a><span data-ttu-id="47a90-105">Abonementinio mokesčio dienų sumažinimas</span><span class="sxs-lookup"><span data-stu-id="47a90-105">Reduce the days on a subscription fee</span></span>
+## <a name="reduce-the-days-on-a-subscription-fee"></a><span data-ttu-id="15580-105">Abonementinio mokesčio dienų sumažinimas</span><span class="sxs-lookup"><span data-stu-id="15580-105">Reduce the days on a subscription fee</span></span>
 
-1.  <span data-ttu-id="47a90-106">Spustelėkite **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo abonementai** \> **Visi aptarnavimo abonementai**.</span><span class="sxs-lookup"><span data-stu-id="47a90-106">Click **Service management** \> **Common** \> **Service subscriptions** \> **All service subscriptions**.</span></span> <span data-ttu-id="47a90-107">Pasirinkite aptarnavimo abonementas ir veiksmų srityje spustelėkite **Abonementiniai mokesčiai**</span><span class="sxs-lookup"><span data-stu-id="47a90-107">Select the service subscription, and on the Action Pane, click **Subscription fees**</span></span>
+1.  <span data-ttu-id="15580-106">Spustelėkite **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo abonementai** \> **Visi aptarnavimo abonementai**.</span><span class="sxs-lookup"><span data-stu-id="15580-106">Click **Service management** \> **Common** \> **Service subscriptions** \> **All service subscriptions**.</span></span> <span data-ttu-id="15580-107">Pasirinkite aptarnavimo abonementas ir veiksmų srityje spustelėkite **Abonementiniai mokesčiai**</span><span class="sxs-lookup"><span data-stu-id="15580-107">Select the service subscription, and on the Action Pane, click **Subscription fees**</span></span>
 
-2.  <span data-ttu-id="47a90-108">Lauke **Abonemento tipas** pasirinkite **Mažinimo dienos**.</span><span class="sxs-lookup"><span data-stu-id="47a90-108">In the **Subscription type** field, select **Reduction days**.</span></span>
+2.  <span data-ttu-id="15580-108">Lauke **Abonemento tipas** pasirinkite **Mažinimo dienos**.</span><span class="sxs-lookup"><span data-stu-id="15580-108">In the **Subscription type** field, select **Reduction days**.</span></span>
 
-3.  <span data-ttu-id="47a90-109">Laukuose **Pradžios data** ir **Pabaigos data** nustatykite abonementinio mokesčio dienų intervalą, kurį norite pašalinti iš abonementinio mokesčio laikotarpio, ir spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="47a90-109">Use the **From date** field and the **To date** fields to define the date interval of the subscription fee that you want to remove from the subscription fee period, and then click **OK**.</span></span>
+3.  <span data-ttu-id="15580-109">Laukuose **Pradžios data** ir **Pabaigos data** nustatykite abonementinio mokesčio dienų intervalą, kurį norite pašalinti iš abonementinio mokesčio laikotarpio, ir spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="15580-109">Use the **From date** field and the **To date** fields to define the date interval of the subscription fee that you want to remove from the subscription fee period, and then click **OK**.</span></span>
 
-<span data-ttu-id="47a90-110">Norėdami peržiūrėti sukurtą operaciją, formoje **Abonementas** spustelėkite **Mokesčių operacijos**.</span><span class="sxs-lookup"><span data-stu-id="47a90-110">To view the transaction that was created, in the **Subscription** form, click **Fee transactions**.</span></span>
+<span data-ttu-id="15580-110">Norėdami peržiūrėti sukurtą operaciją, formoje **Abonementas** spustelėkite **Mokesčių operacijos**.</span><span class="sxs-lookup"><span data-stu-id="15580-110">To view the transaction that was created, in the **Subscription** form, click **Fee transactions**.</span></span>
 
-## <a name="example"></a><span data-ttu-id="47a90-111">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="47a90-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="15580-111">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="15580-111">Example</span></span>
 
-<span data-ttu-id="47a90-112">Jei abonementinės operacijos laikotarpis trunka nuo sausio 1 d iki sausio 31 d., o jūs norite sumažinti šį laikotarpį 10 dienų, sukurkite naują operaciją, kurioje sumažinimo laikotarpis bus nuo sausio 1 d. iki sausio 10 d.</span><span class="sxs-lookup"><span data-stu-id="47a90-112">If a subscription transaction period runs from January 1 to January 31, and you want to reduce the period by 10 days, create a new transaction in which the reduction period is January 1 to January 10.</span></span> <span data-ttu-id="47a90-113">(Sumažinimo laikotarpis taip pat gali būti nuo sausio 5 d. iki sausio 15 d. arba bet kuris kitas dešimties dienų laikotarpis).</span><span class="sxs-lookup"><span data-stu-id="47a90-113">(The reduction period could also be January 5 to January 15, or any other ten day period).</span></span>
+<span data-ttu-id="15580-112">Jei abonementinės operacijos laikotarpis trunka nuo sausio 1 d iki sausio 31 d., o jūs norite sumažinti šį laikotarpį 10 dienų, sukurkite naują operaciją, kurioje sumažinimo laikotarpis bus nuo sausio 1 d. iki sausio 10 d.</span><span class="sxs-lookup"><span data-stu-id="15580-112">If a subscription transaction period runs from January 1 to January 31, and you want to reduce the period by 10 days, create a new transaction in which the reduction period is January 1 to January 10.</span></span> <span data-ttu-id="15580-113">(Sumažinimo laikotarpis taip pat gali būti nuo sausio 5 d. iki sausio 15 d. arba bet kuris kitas dešimties dienų laikotarpis).</span><span class="sxs-lookup"><span data-stu-id="15580-113">(The reduction period could also be January 5 to January 15, or any other ten day period).</span></span>
 
-<span data-ttu-id="47a90-114">Be to, jei **Pradžios data** sumažinimo laikotarpyje yra sausio 21 d. (31 minus 10), kaip **Pabaigos datą** galite nustatyti bet kurią datą po sausio 31 d. ir vis tiek iš mokesčio operacijos laikotarpio bus pašalintos 10 dienų.</span><span class="sxs-lookup"><span data-stu-id="47a90-114">Also, if the **From date** on the reduction period is January 21 (31 minus 10), you could set the **To date** to any date after January 31, and 10 days will still be removed from the fee transaction period.</span></span>
+<span data-ttu-id="15580-114">Be to, jei **Pradžios data** sumažinimo laikotarpyje yra sausio 21 d. (31 minus 10), kaip **Pabaigos datą** galite nustatyti bet kurią datą po sausio 31 d. ir vis tiek iš mokesčio operacijos laikotarpio bus pašalintos 10 dienų.</span><span class="sxs-lookup"><span data-stu-id="15580-114">Also, if the **From date** on the reduction period is January 21 (31 minus 10), you could set the **To date** to any date after January 31, and 10 days will still be removed from the fee transaction period.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="47a90-115">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="47a90-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="15580-115">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="15580-115">See also</span></span>
 
-[<span data-ttu-id="47a90-116">Mažinimo dienų pavyzdys</span><span class="sxs-lookup"><span data-stu-id="47a90-116">Reduction days example</span></span>](reduction-days-example.md)
+[<span data-ttu-id="15580-116">Mažinimo dienų pavyzdys</span><span class="sxs-lookup"><span data-stu-id="15580-116">Reduction days example</span></span>](reduction-days-example.md)
 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
