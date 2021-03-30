@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: pjacobse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 044b098b24d8cdf8008824b7ed1359f2b0566a8f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8971774a0a4a41d9a0a5f05e0c3071a543a4801a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4961505"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244284"
 ---
 # <a name="trace-an-item-or-raw-material"></a>Prekės arba žaliavos sekimas
 
@@ -44,10 +44,10 @@ ms.locfileid: "4961505"
 Medžio aukščiausias mazgas nurodo pasirinktos prekės ir paketo turimų atsargų kiekį. Norėdami rasti prekę, kuriai turėtų būti vykdomas sekimas į priekį, turite išplėsti medžio mazgus.   
 1. Medyje išplėskite toliau aprašytus mazgus ir pasirinkite paskutinį mazgą.
     
-    Išplėskite: „P9100 / 1 / 10 / as-12-344-01 ● 2 statinės ● 7,00 gal \P9100 ● Paimta ● Pardavimo užsakymas 000072 ● 2015-12-22  ● -1 statinė ● -4,00 gal ● Vieta=1, Sandėlis=10, Paketo numeris=as-12-344-01 \P9100 ● Gamyba B-000050 ● 2015-12-09● 7 statinės ● 27,00 gal ● Vieta=1,Sandėlis=10,Paketo numeris=as-12-344-01 ● Sudėtiniai produktai: P9101‟ ir pasirinkite tą mazgą.     
+    Išplėskite: „P9100 / 1 / 10 / as-12-344-01 ● 2 statinės ● 7,00 gal \P9100 ● Paimta ● Pardavimo užsakymas 000072 ● 2015-12-22 ● -1 statinė ● -4,00 gal ● Vieta=1, Sandėlis=10, Paketo numeris=as-12-344-01 \P9100 ● Gamyba B-000050 ● 2015-12-09● 7 statinės ● 27,00 gal ● Vieta=1,Sandėlis=10,Paketo numeris=as-12-344-01 ● Sudėtiniai produktai: P9101‟ ir pasirinkite tą mazgą.     
 2. Medyje išplėskite toliau aprašytą mazgą ir tą mazgą pasirinkite.
     
-    Pradėkite nuo ką tik pasirinkto mazgo, išplėskite „M9103“ ● Gamybos linija B-000050 ● 2015-09-12  ● -160,00 lb ● Dydis = 70, Spalva = Gerai, Vieta = 1, Sandėlis = 10, Paketo numeris = „App01“ ir pasirinkite tą mazgą.  
+    Pradėkite nuo ką tik pasirinkto mazgo, išplėskite „M9103“ ● Gamybos linija B-000050 ● 2015-09-12 ● -160,00 lb ● Dydis = 70, Spalva = Gerai, Vieta = 1, Sandėlis = 10, Paketo numeris = „App01“ ir pasirinkite tą mazgą.  
 3. Spustelėkite **Sekti nuo mazgo**.
 4. Spustelėkite **Pirmyn**.
 5. **Veiksmų srityje** spustelėkite **Sekimas**.

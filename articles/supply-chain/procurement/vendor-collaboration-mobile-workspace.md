@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: riluan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 5cd8a2b2db7147aca6bdc29ba15d99a619ddb4f8
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 2c81a5a1bf34706254479a99af253b2b8d743828
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020841"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246698"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Tiekėjo bendradarbiavimo mobilioji darbo sritis
 
@@ -74,9 +74,9 @@ Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Oper
 </thead>
 <tbody>
 <tr class="odd">
-<td>KB 3216943 reikia įdiegti, jei naudojate platformos 3 naujinimą.</td>
+<td>KB 3216943 reikia įdiegti, jei&#39;naudojate platformos 3 naujinimą.</td>
 <td>Sistemos administratorius</td>
-<td>KB 3216943 yra dvejetainis naujinimas, būtinas, jei naudojate platformos 3 naujinimą. Norėdamas įdiegti šią KB, sistemos administratorius turi atlikti šiuos veiksmus.
+<td>KB 3216943 yra dvejetainis naujinimas, būtinas, jei&#39;naudojate platformos 3 naujinimą. Norėdamas įdiegti šią KB, sistemos administratorius turi atlikti šiuos veiksmus.
 <ol>
 <li>Atsisiųskite KB 3216943 iš „Microsoft Dynamics Lifecycle Services“ (LCS).</li>
 <li>Įdiekite dvejetainį naujinimą, kuris pristatomas kaip įdiegiamas paketas. Informacijos apie tai, kaip taikyti įdiegiamą paketą, rasite <a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Visuotinai įdiegiamo paketo taikymas</a>.</li>

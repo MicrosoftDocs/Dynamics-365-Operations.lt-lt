@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 530abffb4c80a2d2f0e58e0c5a34294f7cba0b1a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3e7814790bce0aee648421e3a69d702fd0012404
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4998458"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5248552"
 ---
 # <a name="work-policies"></a>Darbo strategijos
 
@@ -31,7 +31,7 @@ ms.locfileid: "4998458"
 Darbo politika valdo, ar sandėlio darbas yra kuriamas, kai ataskaitoje pagamintas elementas yra paskelbiamas baigtu, ar kai prekės yra gaunamos naudojant sandėlio programą. Jūs nustatote visas darbo politikas nustatydami sąlygas, kai jos yra taikomos: darbo užsakymo tipai ir procesai, inventoriaus vieta ir (pasirinktinai) gaminiai. Pavyzdžiui, produkto įsigjimo užsakymas *A0001* turi būti gaunamas *RECV* vietoje sandėlyje *24*. Vėliau, produktas vartojamas kitame procese *RECV* vietoje. Šiuo atveju, galite nustatyti darbo politiką siekiant apsaugoti atidedamą darbą nuo sukūrimo, kai darbuotojas praneša apie produktą *A0001* kaip gautą vietoje *RECV*.
 
 > [!NOTE]
-> - Tam, kad darbo politika būtų aktyvi, privalote nustatyti mažiausiai vieną jai vietą **Inventoriaus vietose** **Darbo politikų** puslapyje  „FastTab“. 
+> - Tam, kad darbo politika būtų aktyvi, privalote nustatyti mažiausiai vieną jai vietą **Inventoriaus vietose** **Darbo politikų** puslapyje „FastTab“. 
 > - Negalite nurodyti tos pačios kelių darbo strategijų vietos.
 > - **Spausdinti etiketęl** parinktis mobilaus prietaiso meniu elementams neatspausdins licencijos numerio etiketės, nebent darbas bus sukurtas.
 
@@ -56,7 +56,7 @@ Darbo politikų nustatymui, eikite į **Darbo valdymas \> Parametrai \> Darbas \
 | Sudėtinis produktas ir šalutinis produktas atidėti | Visi susiję procesai |
 | Baigtos atidedamos prekės | Visi susiję procesai |
 | Perkelti gavimą | Gaunamas licencijos ženklas (ir atidėjimas) |
-| Pirkimo užsakymai | <ul><li>Gaunamas licencijos ženklas (ir atidėjimas)</li><li>Gaunamas kraunamas elementas (ir atidėjimas)</li><li>Įsigijimo užsakymo eilutė (ir atidėjimas)</li><li>Gaunamas įsigijimo užsakymo elementas  (ir atidėjimas)</li></ul> |
+| Pirkimo užsakymai | <ul><li>Gaunamas licencijos ženklas (ir atidėjimas)</li><li>Gaunamas kraunamas elementas (ir atidėjimas)</li><li>Įsigijimo užsakymo eilutė (ir atidėjimas)</li><li>Gaunamas įsigijimo užsakymo elementas (ir atidėjimas)</li></ul> |
 
 Darbo politikos nustatymui, kuri taikoma keliems to paties darbo užsakymo tipo darbo procesams, įtraukite atskirą eilutę kiekvienam darbo procesui tinklelyje.
 
@@ -90,7 +90,7 @@ Anksčiau sistema palaikė tik numatytąją vietą, nurodytą kiekvienam sandėl
 - Gaunamas licencijos ženklas (ir atidėjimas)
 - Gaunamas kraunamas elementas (ir atidėjimas)
 - Įsigijimo užsakymo eilutė (ir atidėjimas)
-- Gaunamas įsigijimo užsakymo elementas  (ir atidėjimas)
+- Gaunamas įsigijimo užsakymo elementas (ir atidėjimas)
 
 **Į vietą** parametrai meniu elemente viršija nustatytąją gaunamą vietą sandėlyje, visiems užsakymams, kurie yra apdorojami naudojant tą meniu elementą.
 
