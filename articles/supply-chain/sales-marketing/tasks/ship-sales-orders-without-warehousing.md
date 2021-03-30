@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 45884bd5ff70b31c62a7e0affafb6c5ddb457be3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9a2079ae02c01d30eb648e9cc95ee9cf6599048b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974865"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205886"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Pardavimo užsakymų siuntimas be sandėliavimo
 
@@ -37,7 +37,7 @@ ms.locfileid: "4974865"
 6. Lauke **Kiekis** pasirinkite **Visi**.
     - Kitos parinktys – **Pristatyti dabar** ir **Paimta**. Jei užsakymo eilutė turi būti siunčiama iš dalies, o užsakymo eilutės lauke **Pristatyti dabar** nurodytas kiekis, pasirinktumėte **Pristatyti dabar**. Jei jūsų organizacijos vykdymo eiga kaip atskirą procesą apima išrinkimą, kuris valdomas ir registruojamas naudojant išrinkimo sąrašą, reikia pasirinkti **Paimta**.  
     - Patikrinkite, ar nustatyta parinkties **Registravimas** nuostata **Taip**.  
-7. Nustatykite parinkties **Spausdinti važtaraštį** nuostatą **Taip**.  Skirtuke **Apžvalga** pateiktas važtaraščių, kurie bus sugeneruoti šiame registravime, sąrašas. Jei siunčiate individualų užsakymą, paprastai būna vienas važtaraštis. Tačiau jei to užsakymo eilutės turi būti siunčiamos iš skirtingų vietų, registravimas bus automatiškai padalintas į atitinkamą skaičių dokumentų. Tai būtina sąlyga, kurios negalima keisti. Jei užsakymo eilutės bus siunčiamos skirtingais pristatymo adresais, o siuntimo strategijoje nustatyta, kad juos reikia padalyti, registravimas taip pat bus padalintas į kelis dokumentus panašiu būdu.  
+7. Nustatykite parinkties **Spausdinti važtaraštį** nuostatą **Taip**. Skirtuke **Apžvalga** pateiktas važtaraščių, kurie bus sugeneruoti šiame registravime, sąrašas. Jei siunčiate individualų užsakymą, paprastai būna vienas važtaraštis. Tačiau jei to užsakymo eilutės turi būti siunčiamos iš skirtingų vietų, registravimas bus automatiškai padalintas į atitinkamą skaičių dokumentų. Tai būtina sąlyga, kurios negalima keisti. Jei užsakymo eilutės bus siunčiamos skirtingais pristatymo adresais, o siuntimo strategijoje nustatyta, kad juos reikia padalyti, registravimas taip pat bus padalintas į kelis dokumentus panašiu būdu.  
 8. Skirtuke **Eilutės** pasirinkite užsakymo eilutės, kurią reikia išsiųsti, eilutę.
 9. Lauke **Naujinimas** įveskite skaičių, kuris yra mažesnis nei pradinis kiekis.
 10. Pasirinkite **Gerai**.
