@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a13fc645560fcdbda9638d3ce9e8517d84474dce
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 22ad53e333e6c85f8e55f04c27c6573c5738ec84
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980886"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226694"
 ---
 # <a name="time-and-attendance-registration-overview"></a>Laiko ir dalyvavimo registravimo apžvalga
 
@@ -42,7 +42,7 @@ Laiko registravimo darbuotojai gali įvesti skirtingų tipų laiko registracijas
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Jei vykdote laiko ir lankomumo registracijas vykdydami gamybą, visos projektų, projekto veiklų, netiesioginių veiklų, neatvykimo kodų ir viršvalandžių bei nukrypimo laiko registracijos bus įrašytos ir naudojamos atlyginimams abiejuose moduliuose apskaičiuoti. |
 
-## <a name="time-registrations-workers"></a> Laiko registracijų darbuotojai
+## <a name="time-registrations-workers"></a>Laiko registracijų darbuotojai
 Norėdami registruoti laiką ir neatvykimą, darbuotojus reikia nustatyti kaip laiko registracijos darbuotojus įmonėje, kurioje jie dirba.
 
 Atlikus sąranką darbuotojai gali įvesti skirtingų tipų registracijas.
@@ -84,7 +84,7 @@ Kaip laiko registracijos darbuotojui priskiriate skaičiavimo grupę, taip turit
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Jei tam tikriems darbuotojams buvo skaičiuojami viršvalandžiai, viršvalandžiai gali būti paskirstyti specialiems darbams dienos metu. Tai tinka, jei darbo išlaidos skaičiuojamos pagal darbuotojo mokėjimą. |
 
-## <a name="approving-registrations-using-workflow"></a> Registracijų tvirtinimas naudojant darbo eigą
+## <a name="approving-registrations-using-workflow"></a>Registracijų tvirtinimas naudojant darbo eigą
 Galite nustatyti darbo eigos tvirtinimo procesą, kurio metu automatiškai patvirtinamos registracijos, atitinkančios darbo eigos taisykles, paliekant tik nuokrypius, kurie turi būti tvarkomi neautomatiškai. Jei darbo eigos tvirtinimo funkcija yra suaktyvinta, komandos vadovas arba prižiūrėtojas pateikia apskaičiuotas registracijas patvirtinti. Darbo eigos procesas sukurs atitinkamus patvirtinimus bei užduotis ir tada juos priskirs tinkamiems vartotojams bei vaidmenims, kaip nurodyta darbo eigoje. Galima naudoti du laiko ir lankomumo darbo eigos patvirtinimus.
 
 | Darbo eiga                                  | Paskirtis                                                                                                   | Registracijos tipas                                                                                                                                                                                                                                     |
