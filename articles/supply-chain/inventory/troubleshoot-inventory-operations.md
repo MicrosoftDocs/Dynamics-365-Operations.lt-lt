@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 3a22229106753d265a90f0ef05f5ac82dc745bbd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ee1bfbf1b5aa736e1ee5bd38403b6c94c2bd036b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967160"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225007"
 ---
 # <a name="troubleshoot-inventory-operations"></a>Atsargų operacijų trikčių šalinimas
 
@@ -111,7 +111,7 @@ Filtro srities filtrai **Turimas sąrašas**  puslapyje nefiltruoja rezultatų
 
 Toks veikimo būdas yra numatytas.
 
- **Turimas sąrašas** puslapis sudėliotas iš detalizuotos turimų atsargų lentelės, kurioje pateiktos visos galimos dimensijos. Nepaisant to, sąrašas šiame puslapyje santrauka. Dėl to, tai gali apimti eilutes iš šaltinio lentelės apimant vertes pagal rodomas dimensijas.
+Puslapis  **Turimas sąrašas** sudėliotas iš detalizuotos turimų atsargų lentelės, kurioje pateiktos visos galimos dimensijos. Nepaisant to, sąrašas šiame puslapyje santrauka. Dėl to, tai gali apimti eilutes iš šaltinio lentelės apimant vertes pagal rodomas dimensijas.
 
 Filtrai, nustatyti filtrų srityje, taikomi šaltinio lentelei, tačiau ne apibendrintam sąrašui. Šis veikimas kartais gali lemti netikėtus rezultatus kaip nurodyta [šiuose pavyzdžiuose](inventory-on-hand-list.md#examples).
 
