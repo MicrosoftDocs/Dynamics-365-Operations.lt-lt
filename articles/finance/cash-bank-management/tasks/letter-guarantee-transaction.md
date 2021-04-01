@@ -15,135 +15,138 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5f13ea1f9acd48cc1e7dce794369e89901bdb582
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 566849cfcedd29f4bb92d08a17b67e16b1cbc372
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976336"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225374"
 ---
-# <a name="letter-of-guarantee-transaction"></a><span data-ttu-id="aa5f7-103">Garantinio rašto operacija</span><span class="sxs-lookup"><span data-stu-id="aa5f7-103">Letter of guarantee transaction</span></span>
+# <a name="letter-of-guarantee-transaction"></a><span data-ttu-id="93af4-103">Garantinio rašto operacija</span><span class="sxs-lookup"><span data-stu-id="93af4-103">Letter of guarantee transaction</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="aa5f7-104">Ši procedūra padeda apdoroti garantinius raštus.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-104">This procedure walks through the Letter of guarantee process.</span></span>
+<span data-ttu-id="93af4-104">Ši procedūra padeda apdoroti garantinius raštus.</span><span class="sxs-lookup"><span data-stu-id="93af4-104">This procedure walks through the Letter of guarantee process.</span></span>
 
 
 
-<span data-ttu-id="aa5f7-105">Prieš baigdami šitą procedūrą, turite įvykdyti toliau nurodytas užduotis:</span><span class="sxs-lookup"><span data-stu-id="aa5f7-105">The following tasks must be complete before completing this procedure:</span></span>
+<span data-ttu-id="93af4-105">Prieš baigdami šitą procedūrą, turite įvykdyti toliau nurodytas užduotis:</span><span class="sxs-lookup"><span data-stu-id="93af4-105">The following tasks must be complete before completing this procedure:</span></span>
 
-- <span data-ttu-id="aa5f7-106">Nustatyti garantinio rašto banko priemones ir registravimo šablonus.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-106">Set up bank facilities and posting profiles for a letter of guarantee.</span></span>
+- <span data-ttu-id="93af4-106">Nustatyti garantinio rašto banko priemones ir registravimo šablonus.</span><span class="sxs-lookup"><span data-stu-id="93af4-106">Set up bank facilities and posting profiles for a letter of guarantee.</span></span>
 
-- <span data-ttu-id="aa5f7-107">Kurti garantinio rašto banko priemonės sutartį.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-107">Create a bank facility agreement for a letter of guarantee.</span></span>
-
-
-
-<span data-ttu-id="aa5f7-108">Šioje procedūroje naudojama demonstracinė įmonė USMF.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-108">This procedure uses the USMF demo company.</span></span>
+- <span data-ttu-id="93af4-107">Kurti garantinio rašto banko priemonės sutartį.</span><span class="sxs-lookup"><span data-stu-id="93af4-107">Create a bank facility agreement for a letter of guarantee.</span></span>
 
 
-## <a name="create-sales-order-with-letter-of-guarantee"></a><span data-ttu-id="aa5f7-109">Kurti pardavimo užsakymą su garantiniu raštu</span><span class="sxs-lookup"><span data-stu-id="aa5f7-109">Create Sales Order with Letter of Guarantee</span></span>
-1. <span data-ttu-id="aa5f7-110">Pasirinkite Gautinos sumos > Užsakymai > Visi pardavimo užsakymai.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-110">Go to Accounts receivable > Orders > All sales orders.</span></span>
-2. <span data-ttu-id="aa5f7-111">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-111">Click New.</span></span>
-3. <span data-ttu-id="aa5f7-112">Lauke Kliento sąskaita įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-112">In the Customer account field, enter or select a value.</span></span>
-4. <span data-ttu-id="aa5f7-113">Išplėskite skyrių Bendra.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-113">Expand the General section.</span></span>
-5. <span data-ttu-id="aa5f7-114">Lauke Teritorija įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-114">In the Site field, enter or select a value.</span></span>
-6. <span data-ttu-id="aa5f7-115">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-115">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="aa5f7-116">Lauke Sandėlis įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-116">In the Warehouse field, enter or select a value.</span></span>
-8. <span data-ttu-id="aa5f7-117">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-117">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="aa5f7-118">Lauke Banko dokumento tipas pasirinkite „Garantinis raštas“.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-118">In the Bank document type field, select 'Letter of guarantee'.</span></span>
-10. <span data-ttu-id="aa5f7-119">Spustelėkite Gerai.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-119">Click OK.</span></span>
-11. <span data-ttu-id="aa5f7-120">Lauke Prekės numeris įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-120">In the Item number field, enter or select a value.</span></span>
-12. <span data-ttu-id="aa5f7-121">Lauke Vieneto kaina įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-121">In the Unit price field, enter a number.</span></span>
-13. <span data-ttu-id="aa5f7-122">Išplėskite skyrių Eilutės informacija.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-122">Expand the Line details section.</span></span>
-14. <span data-ttu-id="aa5f7-123">Spustelėkite skirtuką Pristatymas.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-123">Click the Delivery tab.</span></span>
-    * <span data-ttu-id="aa5f7-124">Pastaba: pristatymo datos valdymo pasirinkimas = nėra</span><span class="sxs-lookup"><span data-stu-id="aa5f7-124">Note: Select Delivery date control = None</span></span>  
-15. <span data-ttu-id="aa5f7-125">Lauke Pageidaujama siuntimo data įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-125">In the Requested ship date field, enter a date.</span></span>
-16. <span data-ttu-id="aa5f7-126">Lauke Patvirtinta siuntimo data įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-126">In the Confirmed ship date field, enter a date.</span></span>
 
-## <a name="process-letter-of-guarantee_request"></a><span data-ttu-id="aa5f7-127">Apdoroti garantinį raštą Užklausa</span><span class="sxs-lookup"><span data-stu-id="aa5f7-127">Process letter of guarantee_Request</span></span>
-1. <span data-ttu-id="aa5f7-128">Veiksmų srityje spustelėkite Valdyti.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-128">On the Action Pane, click Manage.</span></span>
-2. <span data-ttu-id="aa5f7-129">Spustelėkite Garantinis raštas.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-129">Click Letter of guarantee.</span></span>
-3. <span data-ttu-id="aa5f7-130">Veiksmų srityje spustelėkite Garantinis raštas.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-130">On the Action Pane, click Letter of guarantee.</span></span>
-4. <span data-ttu-id="aa5f7-131">Spustelėdami Užklausa atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-131">Click Request to open the drop dialog.</span></span>
-5. <span data-ttu-id="aa5f7-132">Lauke Tipas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-132">In the Type field, enter or select a value.</span></span>
-6. <span data-ttu-id="aa5f7-133">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-133">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="aa5f7-134">Lauke Vertė įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-134">In the Value field, enter a number.</span></span>
-8. <span data-ttu-id="aa5f7-135">Lauke Galiojimo data įveskite datą ir laiką.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-135">In the Expiration date field, enter a date and time.</span></span>
-9. <span data-ttu-id="aa5f7-136">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-136">Click OK.</span></span>
-10. <span data-ttu-id="aa5f7-137">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-137">Close the page.</span></span>
+<span data-ttu-id="93af4-108">Šioje procedūroje naudojama demonstracinė įmonė USMF.</span><span class="sxs-lookup"><span data-stu-id="93af4-108">This procedure uses the USMF demo company.</span></span>
 
-## <a name="process-letter-of-guarantee_submit-to-bank"></a><span data-ttu-id="aa5f7-138">Apdoroti garantinį raštą Pateikti bankui</span><span class="sxs-lookup"><span data-stu-id="aa5f7-138">Process letter of guarantee_Submit to bank</span></span>
-1. <span data-ttu-id="aa5f7-139">Pasirinkite Grynųjų pinigų ir banko valdymas > Garantiniai raštai > Garantiniai raštai.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-139">Go to Cash and bank management > Letters of guarantee > Letters of guarantee.</span></span>
-2. <span data-ttu-id="aa5f7-140">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-140">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="aa5f7-141">Spustelėdami Pateikti bankui atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-141">Click Submit to bank to open the drop dialog.</span></span>
-4. <span data-ttu-id="aa5f7-142">Lauke Banko sąskaita įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-142">In the Bank account field, enter or select a value.</span></span>
-5. <span data-ttu-id="aa5f7-143">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-143">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="aa5f7-144">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-144">Click OK.</span></span>
 
-## <a name="process-letter-of-guarantee_receive-from-bank"></a><span data-ttu-id="aa5f7-145">Apdoroti garantinį raštą Gauti iš banko</span><span class="sxs-lookup"><span data-stu-id="aa5f7-145">Process letter of guarantee_Receive from bank</span></span>
-1. <span data-ttu-id="aa5f7-146">Spustelėdami Gauti iš banko, atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-146">Click Receive from bank to open the drop dialog.</span></span>
-2. <span data-ttu-id="aa5f7-147">Lauke Banko numeris įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-147">In the Bank number field, type a value.</span></span>
-    * <span data-ttu-id="aa5f7-148">Patikrinkite apskaičiuotų laukų Marža ir Išlaidos reikšmes.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-148">Verify the values in the calculated Margin and Expense fields.</span></span>  
-3. <span data-ttu-id="aa5f7-149">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-149">Click OK.</span></span>
-4. <span data-ttu-id="aa5f7-150">Išplėskite sekciją Veiksmai.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-150">Expand the Actions section.</span></span>
-    * <span data-ttu-id="aa5f7-151">Patikrinkite įrašą „Gauti iš banko“.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-151">Verify the 'Receive from bank' record.</span></span>  
-5. <span data-ttu-id="aa5f7-152">Spustelėkite, kad būtumėte nukreipti pagal saitą lauke Žurnalo paketo numeris.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-152">Click to follow the link in the Journal batch number field.</span></span>
-6. <span data-ttu-id="aa5f7-153">Spustelėkite Eilutės.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-153">Click Lines.</span></span>
-    * <span data-ttu-id="aa5f7-154">Patikrinkite žurnalo įrašų registravimą.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-154">Verify the posting of journal entries.</span></span>  
-7. <span data-ttu-id="aa5f7-155">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-155">Close the page.</span></span>
+## <a name="create-sales-order-with-letter-of-guarantee"></a><span data-ttu-id="93af4-109">Kurti pardavimo užsakymą su garantiniu raštu</span><span class="sxs-lookup"><span data-stu-id="93af4-109">Create Sales Order with Letter of Guarantee</span></span>
+1. <span data-ttu-id="93af4-110">Pasirinkite Gautinos sumos > Užsakymai > Visi pardavimo užsakymai.</span><span class="sxs-lookup"><span data-stu-id="93af4-110">Go to Accounts receivable > Orders > All sales orders.</span></span>
+2. <span data-ttu-id="93af4-111">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="93af4-111">Click New.</span></span>
+3. <span data-ttu-id="93af4-112">Lauke Kliento sąskaita įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="93af4-112">In the Customer account field, enter or select a value.</span></span>
+4. <span data-ttu-id="93af4-113">Išplėskite skyrių Bendra.</span><span class="sxs-lookup"><span data-stu-id="93af4-113">Expand the General section.</span></span>
+5. <span data-ttu-id="93af4-114">Lauke Teritorija įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="93af4-114">In the Site field, enter or select a value.</span></span>
+6. <span data-ttu-id="93af4-115">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="93af4-115">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="93af4-116">Lauke Sandėlis įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="93af4-116">In the Warehouse field, enter or select a value.</span></span>
+8. <span data-ttu-id="93af4-117">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="93af4-117">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="93af4-118">Lauke Banko dokumento tipas pasirinkite „Garantinis raštas“.</span><span class="sxs-lookup"><span data-stu-id="93af4-118">In the Bank document type field, select 'Letter of guarantee'.</span></span>
+10. <span data-ttu-id="93af4-119">Spustelėkite Gerai.</span><span class="sxs-lookup"><span data-stu-id="93af4-119">Click OK.</span></span>
+11. <span data-ttu-id="93af4-120">Lauke Prekės numeris įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="93af4-120">In the Item number field, enter or select a value.</span></span>
+12. <span data-ttu-id="93af4-121">Lauke Vieneto kaina įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="93af4-121">In the Unit price field, enter a number.</span></span>
+13. <span data-ttu-id="93af4-122">Išplėskite skyrių Eilutės informacija.</span><span class="sxs-lookup"><span data-stu-id="93af4-122">Expand the Line details section.</span></span>
+14. <span data-ttu-id="93af4-123">Spustelėkite skirtuką Pristatymas.</span><span class="sxs-lookup"><span data-stu-id="93af4-123">Click the Delivery tab.</span></span>
+    * <span data-ttu-id="93af4-124">Pastaba: pristatymo datos valdymo pasirinkimas = nėra</span><span class="sxs-lookup"><span data-stu-id="93af4-124">Note: Select Delivery date control = None</span></span>  
+15. <span data-ttu-id="93af4-125">Lauke Pageidaujama siuntimo data įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="93af4-125">In the Requested ship date field, enter a date.</span></span>
+16. <span data-ttu-id="93af4-126">Lauke Patvirtinta siuntimo data įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="93af4-126">In the Confirmed ship date field, enter a date.</span></span>
 
-## <a name="process-letter-of-guarantee_give-to-beneficiary"></a><span data-ttu-id="aa5f7-156">Apdoroti garantinį raštą Duoti gavėjui</span><span class="sxs-lookup"><span data-stu-id="aa5f7-156">Process letter of guarantee_Give to beneficiary</span></span>
-1. <span data-ttu-id="aa5f7-157">Pasirinkite Gautinos sumos > Užsakymai > Visi pardavimo užsakymai.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-157">Go to Accounts receivable > Orders > All sales orders.</span></span>
-2. <span data-ttu-id="aa5f7-158">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-158">In the list, click the link in the selected row.</span></span>
-3. <span data-ttu-id="aa5f7-159">Veiksmų srityje spustelėkite Valdyti.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-159">On the Action Pane, click Manage.</span></span>
-4. <span data-ttu-id="aa5f7-160">Spustelėkite Garantinis raštas.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-160">Click Letter of guarantee.</span></span>
-5. <span data-ttu-id="aa5f7-161">Veiksmų srityje spustelėkite Garantinis raštas.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-161">On the Action Pane, click Letter of guarantee.</span></span>
-6. <span data-ttu-id="aa5f7-162">Spustelėdami Duoti gavėjui, atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-162">Click Give to beneficiary to open the drop dialog.</span></span>
-7. <span data-ttu-id="aa5f7-163">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-163">Click OK.</span></span>
-8. <span data-ttu-id="aa5f7-164">Pasirinkite Grynųjų pinigų ir banko valdymas > Garantiniai raštai > Garantiniai raštai.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-164">Go to Cash and bank management > Letters of guarantee > Letters of guarantee.</span></span>
-9. <span data-ttu-id="aa5f7-165">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-165">In the list, find and select the desired record.</span></span>
-10. <span data-ttu-id="aa5f7-166">Spustelėdami Duoti gavėjui, atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-166">Click Give to beneficiary to open the drop dialog.</span></span>
-11. <span data-ttu-id="aa5f7-167">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-167">Click OK.</span></span>
-12. <span data-ttu-id="aa5f7-168">Išplėskite sekciją Veiksmai.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-168">Expand the Actions section.</span></span>
-    * <span data-ttu-id="aa5f7-169">Patikrinkite įrašą „Duoti gavėjui“.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-169">Validate the 'Give to beneficiary' record.</span></span>  
+## <a name="process-letter-of-guarantee_request"></a><span data-ttu-id="93af4-127">Apdoroti garantinį raštą Užklausa</span><span class="sxs-lookup"><span data-stu-id="93af4-127">Process letter of guarantee_Request</span></span>
+1. <span data-ttu-id="93af4-128">Veiksmų srityje spustelėkite Valdyti.</span><span class="sxs-lookup"><span data-stu-id="93af4-128">On the Action Pane, click Manage.</span></span>
+2. <span data-ttu-id="93af4-129">Spustelėkite Garantinis raštas.</span><span class="sxs-lookup"><span data-stu-id="93af4-129">Click Letter of guarantee.</span></span>
+3. <span data-ttu-id="93af4-130">Veiksmų srityje spustelėkite Garantinis raštas.</span><span class="sxs-lookup"><span data-stu-id="93af4-130">On the Action Pane, click Letter of guarantee.</span></span>
+4. <span data-ttu-id="93af4-131">Spustelėdami Užklausa atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="93af4-131">Click Request to open the drop dialog.</span></span>
+5. <span data-ttu-id="93af4-132">Lauke Tipas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="93af4-132">In the Type field, enter or select a value.</span></span>
+6. <span data-ttu-id="93af4-133">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="93af4-133">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="93af4-134">Lauke Vertė įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="93af4-134">In the Value field, enter a number.</span></span>
+8. <span data-ttu-id="93af4-135">Lauke Galiojimo data įveskite datą ir laiką.</span><span class="sxs-lookup"><span data-stu-id="93af4-135">In the Expiration date field, enter a date and time.</span></span>
+9. <span data-ttu-id="93af4-136">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="93af4-136">Click OK.</span></span>
+10. <span data-ttu-id="93af4-137">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="93af4-137">Close the page.</span></span>
 
-## <a name="process-letter-of-guarantee_increase-value"></a><span data-ttu-id="aa5f7-170">Apdoroti garantinį raštą Didinti vertę</span><span class="sxs-lookup"><span data-stu-id="aa5f7-170">Process letter of guarantee_Increase value</span></span>
-1. <span data-ttu-id="aa5f7-171">Pasirinkite Gautinos sumos > Užsakymai > Visi pardavimo užsakymai.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-171">Go to Accounts receivable > Orders > All sales orders.</span></span>
-2. <span data-ttu-id="aa5f7-172">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-172">In the list, click the link in the selected row.</span></span>
-3. <span data-ttu-id="aa5f7-173">Veiksmų srityje spustelėkite Valdyti.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-173">On the Action Pane, click Manage.</span></span>
-4. <span data-ttu-id="aa5f7-174">Spustelėkite Garantinis raštas.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-174">Click Letter of guarantee.</span></span>
-5. <span data-ttu-id="aa5f7-175">Veiksmų srityje spustelėkite Garantinis raštas.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-175">On the Action Pane, click Letter of guarantee.</span></span>
-6. <span data-ttu-id="aa5f7-176">Spustelėdami Didinti vertę, atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-176">Click Increase value to open the drop dialog.</span></span>
-7. <span data-ttu-id="aa5f7-177">Lauke Įtrauktina vertė įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-177">In the Value to add field, enter a number.</span></span>
-8. <span data-ttu-id="aa5f7-178">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-178">Click OK.</span></span>
-9. <span data-ttu-id="aa5f7-179">Pasirinkite Grynųjų pinigų ir banko valdymas > Garantiniai raštai > Garantiniai raštai.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-179">Go to Cash and bank management > Letters of guarantee > Letters of guarantee.</span></span>
-10. <span data-ttu-id="aa5f7-180">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-180">In the list, find and select the desired record.</span></span>
-11. <span data-ttu-id="aa5f7-181">Spustelėdami Didinti vertę, atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-181">Click Increase value to open the drop dialog.</span></span>
-12. <span data-ttu-id="aa5f7-182">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-182">Click OK.</span></span>
-13. <span data-ttu-id="aa5f7-183">Išplėskite sekciją Veiksmai.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-183">Expand the Actions section.</span></span>
-    * <span data-ttu-id="aa5f7-184">Patikrinkite įrašą „Didinti vertę“.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-184">Verify the 'Increase value' record.</span></span>  
-14. <span data-ttu-id="aa5f7-185">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-185">In the list, find and select the desired record.</span></span>
-15. <span data-ttu-id="aa5f7-186">Spustelėkite, kad būtumėte nukreipti pagal saitą lauke Žurnalo paketo numeris.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-186">Click to follow the link in the Journal batch number field.</span></span>
-16. <span data-ttu-id="aa5f7-187">Spustelėkite Eilutės.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-187">Click Lines.</span></span>
-    * <span data-ttu-id="aa5f7-188">Patikrinkite užregistruotus žurnalo įrašus.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-188">Verify the posted journal entries.</span></span>  
+## <a name="process-letter-of-guarantee_submit-to-bank"></a><span data-ttu-id="93af4-138">Apdoroti garantinį raštą Pateikti bankui</span><span class="sxs-lookup"><span data-stu-id="93af4-138">Process letter of guarantee_Submit to bank</span></span>
+1. <span data-ttu-id="93af4-139">Pasirinkite Grynųjų pinigų ir banko valdymas > Garantiniai raštai > Garantiniai raštai.</span><span class="sxs-lookup"><span data-stu-id="93af4-139">Go to Cash and bank management > Letters of guarantee > Letters of guarantee.</span></span>
+2. <span data-ttu-id="93af4-140">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="93af4-140">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="93af4-141">Spustelėdami Pateikti bankui atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="93af4-141">Click Submit to bank to open the drop dialog.</span></span>
+4. <span data-ttu-id="93af4-142">Lauke Banko sąskaita įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="93af4-142">In the Bank account field, enter or select a value.</span></span>
+5. <span data-ttu-id="93af4-143">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="93af4-143">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="93af4-144">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="93af4-144">Click OK.</span></span>
 
-## <a name="process-letter-of-guarantee_liquidate"></a><span data-ttu-id="aa5f7-189">Apdoroti garantinį raštą Likviduoti</span><span class="sxs-lookup"><span data-stu-id="aa5f7-189">Process letter of guarantee_Liquidate</span></span>
-1. <span data-ttu-id="aa5f7-190">Pasirinkite Gautinos sumos > Užsakymai > Visi pardavimo užsakymai.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-190">Go to Accounts receivable > Orders > All sales orders.</span></span>
-2. <span data-ttu-id="aa5f7-191">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-191">In the list, click the link in the selected row.</span></span>
-3. <span data-ttu-id="aa5f7-192">Veiksmų srityje spustelėkite Valdyti.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-192">On the Action Pane, click Manage.</span></span>
-4. <span data-ttu-id="aa5f7-193">Spustelėkite Garantinis raštas.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-193">Click Letter of guarantee.</span></span>
-5. <span data-ttu-id="aa5f7-194">Veiksmų srityje spustelėkite Garantinis raštas.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-194">On the Action Pane, click Letter of guarantee.</span></span>
-6. <span data-ttu-id="aa5f7-195">Spustelėdami Likviduoti, atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-195">Click Liquidate to open the drop dialog.</span></span>
-7. <span data-ttu-id="aa5f7-196">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-196">Click OK.</span></span>
-8. <span data-ttu-id="aa5f7-197">Pasirinkite Grynųjų pinigų ir banko valdymas > Garantiniai raštai > Garantiniai raštai.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-197">Go to Cash and bank management > Letters of guarantee > Letters of guarantee.</span></span>
-9. <span data-ttu-id="aa5f7-198">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-198">In the list, find and select the desired record.</span></span>
-10. <span data-ttu-id="aa5f7-199">Spustelėdami Likviduoti, atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-199">Click Liquidate to open the drop dialog.</span></span>
-11. <span data-ttu-id="aa5f7-200">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-200">Click OK.</span></span>
-12. <span data-ttu-id="aa5f7-201">Išplėskite sekciją Veiksmai.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-201">Expand the Actions section.</span></span>
-    * <span data-ttu-id="aa5f7-202">Patikrinkite įrašą „Likviduoti“.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-202">Verify the 'Liquidate' record.</span></span>  
-13. <span data-ttu-id="aa5f7-203">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-203">In the list, find and select the desired record.</span></span>
-14. <span data-ttu-id="aa5f7-204">Spustelėkite, kad būtumėte nukreipti pagal saitą lauke Žurnalo paketo numeris.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-204">Click to follow the link in the Journal batch number field.</span></span>
-15. <span data-ttu-id="aa5f7-205">Spustelėkite Eilutės.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-205">Click Lines.</span></span>
-    * <span data-ttu-id="aa5f7-206">Patikrinkite užregistruotus žurnalo įrašus.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-206">Verify the posted journal entries.</span></span>  
-16. <span data-ttu-id="aa5f7-207">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="aa5f7-207">Close the page.</span></span>
+## <a name="process-letter-of-guarantee_receive-from-bank"></a><span data-ttu-id="93af4-145">Apdoroti garantinį raštą Gauti iš banko</span><span class="sxs-lookup"><span data-stu-id="93af4-145">Process letter of guarantee_Receive from bank</span></span>
+1. <span data-ttu-id="93af4-146">Spustelėdami Gauti iš banko, atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="93af4-146">Click Receive from bank to open the drop dialog.</span></span>
+2. <span data-ttu-id="93af4-147">Lauke Banko numeris įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="93af4-147">In the Bank number field, type a value.</span></span>
+    * <span data-ttu-id="93af4-148">Patikrinkite apskaičiuotų laukų Marža ir Išlaidos reikšmes.</span><span class="sxs-lookup"><span data-stu-id="93af4-148">Verify the values in the calculated Margin and Expense fields.</span></span>  
+3. <span data-ttu-id="93af4-149">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="93af4-149">Click OK.</span></span>
+4. <span data-ttu-id="93af4-150">Išplėskite sekciją Veiksmai.</span><span class="sxs-lookup"><span data-stu-id="93af4-150">Expand the Actions section.</span></span>
+    * <span data-ttu-id="93af4-151">Patikrinkite įrašą „Gauti iš banko“.</span><span class="sxs-lookup"><span data-stu-id="93af4-151">Verify the 'Receive from bank' record.</span></span>  
+5. <span data-ttu-id="93af4-152">Spustelėkite, kad būtumėte nukreipti pagal saitą lauke Žurnalo paketo numeris.</span><span class="sxs-lookup"><span data-stu-id="93af4-152">Click to follow the link in the Journal batch number field.</span></span>
+6. <span data-ttu-id="93af4-153">Spustelėkite Eilutės.</span><span class="sxs-lookup"><span data-stu-id="93af4-153">Click Lines.</span></span>
+    * <span data-ttu-id="93af4-154">Patikrinkite žurnalo įrašų registravimą.</span><span class="sxs-lookup"><span data-stu-id="93af4-154">Verify the posting of journal entries.</span></span>  
+7. <span data-ttu-id="93af4-155">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="93af4-155">Close the page.</span></span>
 
+## <a name="process-letter-of-guarantee_give-to-beneficiary"></a><span data-ttu-id="93af4-156">Apdoroti garantinį raštą Duoti gavėjui</span><span class="sxs-lookup"><span data-stu-id="93af4-156">Process letter of guarantee_Give to beneficiary</span></span>
+1. <span data-ttu-id="93af4-157">Pasirinkite Gautinos sumos > Užsakymai > Visi pardavimo užsakymai.</span><span class="sxs-lookup"><span data-stu-id="93af4-157">Go to Accounts receivable > Orders > All sales orders.</span></span>
+2. <span data-ttu-id="93af4-158">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="93af4-158">In the list, click the link in the selected row.</span></span>
+3. <span data-ttu-id="93af4-159">Veiksmų srityje spustelėkite Valdyti.</span><span class="sxs-lookup"><span data-stu-id="93af4-159">On the Action Pane, click Manage.</span></span>
+4. <span data-ttu-id="93af4-160">Spustelėkite Garantinis raštas.</span><span class="sxs-lookup"><span data-stu-id="93af4-160">Click Letter of guarantee.</span></span>
+5. <span data-ttu-id="93af4-161">Veiksmų srityje spustelėkite Garantinis raštas.</span><span class="sxs-lookup"><span data-stu-id="93af4-161">On the Action Pane, click Letter of guarantee.</span></span>
+6. <span data-ttu-id="93af4-162">Spustelėdami Duoti gavėjui, atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="93af4-162">Click Give to beneficiary to open the drop dialog.</span></span>
+7. <span data-ttu-id="93af4-163">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="93af4-163">Click OK.</span></span>
+8. <span data-ttu-id="93af4-164">Pasirinkite Grynųjų pinigų ir banko valdymas > Garantiniai raštai > Garantiniai raštai.</span><span class="sxs-lookup"><span data-stu-id="93af4-164">Go to Cash and bank management > Letters of guarantee > Letters of guarantee.</span></span>
+9. <span data-ttu-id="93af4-165">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="93af4-165">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="93af4-166">Spustelėdami Duoti gavėjui, atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="93af4-166">Click Give to beneficiary to open the drop dialog.</span></span>
+11. <span data-ttu-id="93af4-167">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="93af4-167">Click OK.</span></span>
+12. <span data-ttu-id="93af4-168">Išplėskite sekciją Veiksmai.</span><span class="sxs-lookup"><span data-stu-id="93af4-168">Expand the Actions section.</span></span>
+    * <span data-ttu-id="93af4-169">Patikrinkite įrašą „Duoti gavėjui“.</span><span class="sxs-lookup"><span data-stu-id="93af4-169">Validate the 'Give to beneficiary' record.</span></span>  
+
+## <a name="process-letter-of-guarantee_increase-value"></a><span data-ttu-id="93af4-170">Apdoroti garantinį raštą Didinti vertę</span><span class="sxs-lookup"><span data-stu-id="93af4-170">Process letter of guarantee_Increase value</span></span>
+1. <span data-ttu-id="93af4-171">Pasirinkite Gautinos sumos > Užsakymai > Visi pardavimo užsakymai.</span><span class="sxs-lookup"><span data-stu-id="93af4-171">Go to Accounts receivable > Orders > All sales orders.</span></span>
+2. <span data-ttu-id="93af4-172">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="93af4-172">In the list, click the link in the selected row.</span></span>
+3. <span data-ttu-id="93af4-173">Veiksmų srityje spustelėkite Valdyti.</span><span class="sxs-lookup"><span data-stu-id="93af4-173">On the Action Pane, click Manage.</span></span>
+4. <span data-ttu-id="93af4-174">Spustelėkite Garantinis raštas.</span><span class="sxs-lookup"><span data-stu-id="93af4-174">Click Letter of guarantee.</span></span>
+5. <span data-ttu-id="93af4-175">Veiksmų srityje spustelėkite Garantinis raštas.</span><span class="sxs-lookup"><span data-stu-id="93af4-175">On the Action Pane, click Letter of guarantee.</span></span>
+6. <span data-ttu-id="93af4-176">Spustelėdami Didinti vertę, atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="93af4-176">Click Increase value to open the drop dialog.</span></span>
+7. <span data-ttu-id="93af4-177">Lauke Įtrauktina vertė įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="93af4-177">In the Value to add field, enter a number.</span></span>
+8. <span data-ttu-id="93af4-178">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="93af4-178">Click OK.</span></span>
+9. <span data-ttu-id="93af4-179">Pasirinkite Grynųjų pinigų ir banko valdymas > Garantiniai raštai > Garantiniai raštai.</span><span class="sxs-lookup"><span data-stu-id="93af4-179">Go to Cash and bank management > Letters of guarantee > Letters of guarantee.</span></span>
+10. <span data-ttu-id="93af4-180">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="93af4-180">In the list, find and select the desired record.</span></span>
+11. <span data-ttu-id="93af4-181">Spustelėdami Didinti vertę, atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="93af4-181">Click Increase value to open the drop dialog.</span></span>
+12. <span data-ttu-id="93af4-182">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="93af4-182">Click OK.</span></span>
+13. <span data-ttu-id="93af4-183">Išplėskite sekciją Veiksmai.</span><span class="sxs-lookup"><span data-stu-id="93af4-183">Expand the Actions section.</span></span>
+    * <span data-ttu-id="93af4-184">Patikrinkite įrašą „Didinti vertę“.</span><span class="sxs-lookup"><span data-stu-id="93af4-184">Verify the 'Increase value' record.</span></span>  
+14. <span data-ttu-id="93af4-185">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="93af4-185">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="93af4-186">Spustelėkite, kad būtumėte nukreipti pagal saitą lauke Žurnalo paketo numeris.</span><span class="sxs-lookup"><span data-stu-id="93af4-186">Click to follow the link in the Journal batch number field.</span></span>
+16. <span data-ttu-id="93af4-187">Spustelėkite Eilutės.</span><span class="sxs-lookup"><span data-stu-id="93af4-187">Click Lines.</span></span>
+    * <span data-ttu-id="93af4-188">Patikrinkite užregistruotus žurnalo įrašus.</span><span class="sxs-lookup"><span data-stu-id="93af4-188">Verify the posted journal entries.</span></span>  
+
+## <a name="process-letter-of-guarantee_liquidate"></a><span data-ttu-id="93af4-189">Apdoroti garantinį raštą Likviduoti</span><span class="sxs-lookup"><span data-stu-id="93af4-189">Process letter of guarantee_Liquidate</span></span>
+1. <span data-ttu-id="93af4-190">Pasirinkite Gautinos sumos > Užsakymai > Visi pardavimo užsakymai.</span><span class="sxs-lookup"><span data-stu-id="93af4-190">Go to Accounts receivable > Orders > All sales orders.</span></span>
+2. <span data-ttu-id="93af4-191">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="93af4-191">In the list, click the link in the selected row.</span></span>
+3. <span data-ttu-id="93af4-192">Veiksmų srityje spustelėkite Valdyti.</span><span class="sxs-lookup"><span data-stu-id="93af4-192">On the Action Pane, click Manage.</span></span>
+4. <span data-ttu-id="93af4-193">Spustelėkite Garantinis raštas.</span><span class="sxs-lookup"><span data-stu-id="93af4-193">Click Letter of guarantee.</span></span>
+5. <span data-ttu-id="93af4-194">Veiksmų srityje spustelėkite Garantinis raštas.</span><span class="sxs-lookup"><span data-stu-id="93af4-194">On the Action Pane, click Letter of guarantee.</span></span>
+6. <span data-ttu-id="93af4-195">Spustelėdami Likviduoti, atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="93af4-195">Click Liquidate to open the drop dialog.</span></span>
+7. <span data-ttu-id="93af4-196">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="93af4-196">Click OK.</span></span>
+8. <span data-ttu-id="93af4-197">Pasirinkite Grynųjų pinigų ir banko valdymas > Garantiniai raštai > Garantiniai raštai.</span><span class="sxs-lookup"><span data-stu-id="93af4-197">Go to Cash and bank management > Letters of guarantee > Letters of guarantee.</span></span>
+9. <span data-ttu-id="93af4-198">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="93af4-198">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="93af4-199">Spustelėdami Likviduoti, atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="93af4-199">Click Liquidate to open the drop dialog.</span></span>
+11. <span data-ttu-id="93af4-200">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="93af4-200">Click OK.</span></span>
+12. <span data-ttu-id="93af4-201">Išplėskite sekciją Veiksmai.</span><span class="sxs-lookup"><span data-stu-id="93af4-201">Expand the Actions section.</span></span>
+    * <span data-ttu-id="93af4-202">Patikrinkite įrašą „Likviduoti“.</span><span class="sxs-lookup"><span data-stu-id="93af4-202">Verify the 'Liquidate' record.</span></span>  
+13. <span data-ttu-id="93af4-203">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="93af4-203">In the list, find and select the desired record.</span></span>
+14. <span data-ttu-id="93af4-204">Spustelėkite, kad būtumėte nukreipti pagal saitą lauke Žurnalo paketo numeris.</span><span class="sxs-lookup"><span data-stu-id="93af4-204">Click to follow the link in the Journal batch number field.</span></span>
+15. <span data-ttu-id="93af4-205">Spustelėkite Eilutės.</span><span class="sxs-lookup"><span data-stu-id="93af4-205">Click Lines.</span></span>
+    * <span data-ttu-id="93af4-206">Patikrinkite užregistruotus žurnalo įrašus.</span><span class="sxs-lookup"><span data-stu-id="93af4-206">Verify the posted journal entries.</span></span>  
+16. <span data-ttu-id="93af4-207">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="93af4-207">Close the page.</span></span>
+
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

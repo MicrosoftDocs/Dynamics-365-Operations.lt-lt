@@ -15,42 +15,45 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1e1d934bffd0a5daacf27fcd5a2e00043fe3daf8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cd65cb77872b3e2f74402cf8c92c8b8989cea6ee
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009223"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5224698"
 ---
-# <a name="set-up-depreciation-books"></a><span data-ttu-id="98df3-103">Nusidėvėjimo knygų nustatymas</span><span class="sxs-lookup"><span data-stu-id="98df3-103">Set up depreciation books</span></span> 
+# <a name="set-up-depreciation-books"></a><span data-ttu-id="b9272-103">Nusidėvėjimo knygų nustatymas</span><span class="sxs-lookup"><span data-stu-id="b9272-103">Set up depreciation books</span></span> 
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="98df3-104">Šioje procedūroje aprašomas naujos nusidėvėjimo knygos kūrimo procesas ir susiejimas su ilgalaikio turto grupe.</span><span class="sxs-lookup"><span data-stu-id="98df3-104">This procedure walks through the process of creating a new depreciation book and associate it with a fixed asset group.</span></span> 
+<span data-ttu-id="b9272-104">Šioje procedūroje aprašomas naujos nusidėvėjimo knygos kūrimo procesas ir susiejimas su ilgalaikio turto grupe.</span><span class="sxs-lookup"><span data-stu-id="b9272-104">This procedure walks through the process of creating a new depreciation book and associate it with a fixed asset group.</span></span> 
 
-## <a name="create-a-depreciation-book"></a><span data-ttu-id="98df3-105">Kurti nusidėvėjimo knygą</span><span class="sxs-lookup"><span data-stu-id="98df3-105">Create a depreciation book</span></span>
-1. <span data-ttu-id="98df3-106">Pasirinkite Ilgalaikis turtas > Nustatymas > Nusidėvėjimo knygos.</span><span class="sxs-lookup"><span data-stu-id="98df3-106">Go to Fixed assets > Setup > Depreciation books.</span></span>
-2. <span data-ttu-id="98df3-107">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="98df3-107">Click New.</span></span>
-3. <span data-ttu-id="98df3-108">Lauke Nusidėvėjimo knyga surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="98df3-108">In the Depreciation book field, type a value.</span></span>
-4. <span data-ttu-id="98df3-109">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="98df3-109">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="98df3-110">Pažymėkite arba atžymėkite žymės langelį Skaičiuoti nusidėvėjimą.</span><span class="sxs-lookup"><span data-stu-id="98df3-110">Check or uncheck the Calculate depreciation checkbox.</span></span>
-6. <span data-ttu-id="98df3-111">Lauke Nusidėvėjimo šablonas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="98df3-111">In the Depreciation profile field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="98df3-112">Sąraše raskite ir pasirinkite norimą nusidėvėjimo šabloną.</span><span class="sxs-lookup"><span data-stu-id="98df3-112">In the list, find and select the desired depreciation profile.</span></span>
-8. <span data-ttu-id="98df3-113">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="98df3-113">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="98df3-114">Lauke Alternatyvus nusidėvėjimo šablonas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="98df3-114">In the Alternative depreciation profile field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="98df3-115">Sąraše pasirinkite norimą nusidėvėjimo šabloną.</span><span class="sxs-lookup"><span data-stu-id="98df3-115">In the list, select the desired depreciation profile.</span></span>
-11. <span data-ttu-id="98df3-116">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="98df3-116">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="98df3-117">Visiško nusidėvėjimo šablonas naudojamas neįprastas atvejais papildomai skaičiuojant turto nusidėvėjimą.</span><span class="sxs-lookup"><span data-stu-id="98df3-117">The Extraordinary depreciation profile is used for additional depreciation of an asset in unusual circumstances.</span></span> <span data-ttu-id="98df3-118">Pavyzdžiui, galite tai naudoti norėdami įrašyti nusidėvėjimą įvykus gamtos katastrofai.</span><span class="sxs-lookup"><span data-stu-id="98df3-118">For example, you might use this to record depreciation that results from a natural disaster.</span></span>  
-12. <span data-ttu-id="98df3-119">Pažymėkite arba atžymėkite žymės langelį Kurti nusidėvėjimo koregavimus su pagrindo koregavimais.</span><span class="sxs-lookup"><span data-stu-id="98df3-119">Check or uncheck the Create depreciation adjustments with basis adjustments checkbox.</span></span>
-13. <span data-ttu-id="98df3-120">Lauke Kalendorius spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="98df3-120">In the Calendar field, click the drop-down button to open the lookup.</span></span>
-14. <span data-ttu-id="98df3-121">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="98df3-121">In the list, click the link in the selected row.</span></span>
+## <a name="create-a-depreciation-book"></a><span data-ttu-id="b9272-105">Kurti nusidėvėjimo knygą</span><span class="sxs-lookup"><span data-stu-id="b9272-105">Create a depreciation book</span></span>
+1. <span data-ttu-id="b9272-106">Pasirinkite Ilgalaikis turtas > Nustatymas > Nusidėvėjimo knygos.</span><span class="sxs-lookup"><span data-stu-id="b9272-106">Go to Fixed assets > Setup > Depreciation books.</span></span>
+2. <span data-ttu-id="b9272-107">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="b9272-107">Click New.</span></span>
+3. <span data-ttu-id="b9272-108">Lauke Nusidėvėjimo knyga surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="b9272-108">In the Depreciation book field, type a value.</span></span>
+4. <span data-ttu-id="b9272-109">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="b9272-109">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="b9272-110">Pažymėkite arba atžymėkite žymės langelį Skaičiuoti nusidėvėjimą.</span><span class="sxs-lookup"><span data-stu-id="b9272-110">Check or uncheck the Calculate depreciation checkbox.</span></span>
+6. <span data-ttu-id="b9272-111">Lauke Nusidėvėjimo šablonas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="b9272-111">In the Depreciation profile field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="b9272-112">Sąraše raskite ir pasirinkite norimą nusidėvėjimo šabloną.</span><span class="sxs-lookup"><span data-stu-id="b9272-112">In the list, find and select the desired depreciation profile.</span></span>
+8. <span data-ttu-id="b9272-113">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="b9272-113">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="b9272-114">Lauke Alternatyvus nusidėvėjimo šablonas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="b9272-114">In the Alternative depreciation profile field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="b9272-115">Sąraše pasirinkite norimą nusidėvėjimo šabloną.</span><span class="sxs-lookup"><span data-stu-id="b9272-115">In the list, select the desired depreciation profile.</span></span>
+11. <span data-ttu-id="b9272-116">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="b9272-116">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="b9272-117">Visiško nusidėvėjimo šablonas naudojamas neįprastas atvejais papildomai skaičiuojant turto nusidėvėjimą.</span><span class="sxs-lookup"><span data-stu-id="b9272-117">The Extraordinary depreciation profile is used for additional depreciation of an asset in unusual circumstances.</span></span> <span data-ttu-id="b9272-118">Pavyzdžiui, galite tai naudoti norėdami įrašyti nusidėvėjimą įvykus gamtos katastrofai.</span><span class="sxs-lookup"><span data-stu-id="b9272-118">For example, you might use this to record depreciation that results from a natural disaster.</span></span>  
+12. <span data-ttu-id="b9272-119">Pažymėkite arba atžymėkite žymės langelį Kurti nusidėvėjimo koregavimus su pagrindo koregavimais.</span><span class="sxs-lookup"><span data-stu-id="b9272-119">Check or uncheck the Create depreciation adjustments with basis adjustments checkbox.</span></span>
+13. <span data-ttu-id="b9272-120">Lauke Kalendorius spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="b9272-120">In the Calendar field, click the drop-down button to open the lookup.</span></span>
+14. <span data-ttu-id="b9272-121">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="b9272-121">In the list, click the link in the selected row.</span></span>
 
-## <a name="associate-the-depreciation-book-with-a-fixed-asset-group"></a><span data-ttu-id="98df3-122">Susieti nusidėvėjimo knygą su ilgalaikio turto grupe</span><span class="sxs-lookup"><span data-stu-id="98df3-122">Associate the depreciation book with a fixed asset group</span></span>
-1. <span data-ttu-id="98df3-123">Spustelėkite Ilgalaikio turto grupės.</span><span class="sxs-lookup"><span data-stu-id="98df3-123">Click Fixed asset groups.</span></span>
-2. <span data-ttu-id="98df3-124">Lauke Ilgalaikio turto grupė spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="98df3-124">In the Fixed asset group field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="98df3-125">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="98df3-125">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="98df3-126">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="98df3-126">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="98df3-127">Lauke Nusidėvėjimo konvencija pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="98df3-127">In the Depreciation convention field, select an option.</span></span>
-6. <span data-ttu-id="98df3-128">Lauke Dėvėjimo laikas įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="98df3-128">In the Service life field, enter a number.</span></span>
-    * <span data-ttu-id="98df3-129">Atkreipkite dėmesį, kad lauko Nusidėvėjimo laikotarpiai reikšmė apskaičiuojama nustačius dėvėjimo laiką.</span><span class="sxs-lookup"><span data-stu-id="98df3-129">Notice the Depreciation periods field value is calculated after setting the Service life.</span></span>  
+## <a name="associate-the-depreciation-book-with-a-fixed-asset-group"></a><span data-ttu-id="b9272-122">Susieti nusidėvėjimo knygą su ilgalaikio turto grupe</span><span class="sxs-lookup"><span data-stu-id="b9272-122">Associate the depreciation book with a fixed asset group</span></span>
+1. <span data-ttu-id="b9272-123">Spustelėkite Ilgalaikio turto grupės.</span><span class="sxs-lookup"><span data-stu-id="b9272-123">Click Fixed asset groups.</span></span>
+2. <span data-ttu-id="b9272-124">Lauke Ilgalaikio turto grupė spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="b9272-124">In the Fixed asset group field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="b9272-125">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="b9272-125">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="b9272-126">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="b9272-126">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="b9272-127">Lauke Nusidėvėjimo konvencija pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="b9272-127">In the Depreciation convention field, select an option.</span></span>
+6. <span data-ttu-id="b9272-128">Lauke Dėvėjimo laikas įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="b9272-128">In the Service life field, enter a number.</span></span>
+    * <span data-ttu-id="b9272-129">Atkreipkite dėmesį, kad lauko Nusidėvėjimo laikotarpiai reikšmė apskaičiuojama nustačius dėvėjimo laiką.</span><span class="sxs-lookup"><span data-stu-id="b9272-129">Notice the Depreciation periods field value is calculated after setting the Service life.</span></span>  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

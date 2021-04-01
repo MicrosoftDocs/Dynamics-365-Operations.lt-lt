@@ -16,69 +16,72 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d21ce20b2c7ac8c656a718749dabd76f33893da8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ee2f74581ded6020d075377f931c465d7c89f9e5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991470"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211110"
 ---
-# <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a><span data-ttu-id="bc636-103">Kurti pasirinktinius 4xx/5xx būsenos kodo klaidų atsakymų puslapius</span><span class="sxs-lookup"><span data-stu-id="bc636-103">Build custom response pages for 4xx/5xx status code errors</span></span>
+# <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a><span data-ttu-id="31270-103">Kurti pasirinktinius 4xx/5xx būsenos kodo klaidų atsakymų puslapius</span><span class="sxs-lookup"><span data-stu-id="31270-103">Build custom response pages for 4xx/5xx status code errors</span></span>
 
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="bc636-104">Šioje temoje aprašoma, kaip, naudojant „Microsoft Dynamics 365 Commerce“ kūrimo įrankius, kurti pasirinktinius atsako į 4xx ir 5xx būsenos kodo klaidas puslapius.</span><span class="sxs-lookup"><span data-stu-id="bc636-104">This topic describes how to build custom response pages for 4xx and 5xx status code errors by using the authoring tools in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="31270-104">Šioje temoje aprašoma, kaip, naudojant „Microsoft Dynamics 365 Commerce“ kūrimo įrankius, kurti pasirinktinius atsako į 4xx ir 5xx būsenos kodo klaidas puslapius.</span><span class="sxs-lookup"><span data-stu-id="31270-104">This topic describes how to build custom response pages for 4xx and 5xx status code errors by using the authoring tools in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="bc636-105">Peržiūrėti</span><span class="sxs-lookup"><span data-stu-id="bc636-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="31270-105">Peržiūra</span><span class="sxs-lookup"><span data-stu-id="31270-105">Overview</span></span>
 
-<span data-ttu-id="bc636-106">Jei užklausa nėra sėkminga, serveris pateikia HTTP būsenos kodo klaidų atsakus.</span><span class="sxs-lookup"><span data-stu-id="bc636-106">If a request isn't successful, the server issues HTTP status code error responses.</span></span> <span data-ttu-id="bc636-107">Būsenos kodas 404 užfiksuojamas ir pateikiamas neradus puslapio, o būsenos kodas 500 – įvykus serverio klaidai.</span><span class="sxs-lookup"><span data-stu-id="bc636-107">The 404 status code is captured and returned if a page isn't found, and the 500 status code is captured and returned if a server error occurs.</span></span> <span data-ttu-id="bc636-108">Programos „Dynamics 365 Commerce“ vartotojai gali kurti pasirinktinius būsenos kodo klaidų atsako puslapių, kurie rodomi vartotojams dėl tokių būsenos kodo klaidų atsako.</span><span class="sxs-lookup"><span data-stu-id="bc636-108">In Dynamics 365 Commerce, application users can build custom status code error response pages that are shown to users for these status code error responses.</span></span>
+<span data-ttu-id="31270-106">Jei užklausa nėra sėkminga, serveris pateikia HTTP būsenos kodo klaidų atsakus.</span><span class="sxs-lookup"><span data-stu-id="31270-106">If a request isn't successful, the server issues HTTP status code error responses.</span></span> <span data-ttu-id="31270-107">Būsenos kodas 404 užfiksuojamas ir pateikiamas neradus puslapio, o būsenos kodas 500 – įvykus serverio klaidai.</span><span class="sxs-lookup"><span data-stu-id="31270-107">The 404 status code is captured and returned if a page isn't found, and the 500 status code is captured and returned if a server error occurs.</span></span> <span data-ttu-id="31270-108">Programos „Dynamics 365 Commerce“ vartotojai gali kurti pasirinktinius būsenos kodo klaidų atsako puslapių, kurie rodomi vartotojams dėl tokių būsenos kodo klaidų atsako.</span><span class="sxs-lookup"><span data-stu-id="31270-108">In Dynamics 365 Commerce, application users can build custom status code error response pages that are shown to users for these status code error responses.</span></span>
 
-## <a name="build-a-status-code-error-response-page"></a><span data-ttu-id="bc636-109">Būsenos kodo klaidų atsako puslapio kūrimas</span><span class="sxs-lookup"><span data-stu-id="bc636-109">Build a status code error response page</span></span>
+## <a name="build-a-status-code-error-response-page"></a><span data-ttu-id="31270-109">Būsenos kodo klaidų atsako puslapio kūrimas</span><span class="sxs-lookup"><span data-stu-id="31270-109">Build a status code error response page</span></span>
 
-<span data-ttu-id="bc636-110">Norėdami pradėti kurti būsenos kodo klaidų atsako puslapį, atlikite tolesnius veiksmus.</span><span class="sxs-lookup"><span data-stu-id="bc636-110">To start to build a status code error response page, follow these steps.</span></span>
+<span data-ttu-id="31270-110">Norėdami pradėti kurti būsenos kodo klaidų atsako puslapį, atlikite tolesnius veiksmus.</span><span class="sxs-lookup"><span data-stu-id="31270-110">To start to build a status code error response page, follow these steps.</span></span>
 
-1. <span data-ttu-id="bc636-111">Savo pageidaujamoje žiniatinklio naršyklėje prisijunkite prie „Dynamics 365 Commerce“.</span><span class="sxs-lookup"><span data-stu-id="bc636-111">In your preferred web browser, sign in to Dynamics 365 Commerce.</span></span> 
-1. <span data-ttu-id="bc636-112">Pasirinkite svetainę, kuriai norite sukurti 4xx / 5xx būsenos kodo klaidų atsako puslapį.</span><span class="sxs-lookup"><span data-stu-id="bc636-112">Select the site that you want to build a 4xx/5xx status code error response page for.</span></span>
+1. <span data-ttu-id="31270-111">Savo pageidaujamoje žiniatinklio naršyklėje prisijunkite prie „Dynamics 365 Commerce“.</span><span class="sxs-lookup"><span data-stu-id="31270-111">In your preferred web browser, sign in to Dynamics 365 Commerce.</span></span> 
+1. <span data-ttu-id="31270-112">Pasirinkite svetainę, kuriai norite sukurti 4xx / 5xx būsenos kodo klaidų atsako puslapį.</span><span class="sxs-lookup"><span data-stu-id="31270-112">Select the site that you want to build a 4xx/5xx status code error response page for.</span></span>
 
-### <a name="build-the-template"></a><span data-ttu-id="bc636-113">Šablono kūrimas</span><span class="sxs-lookup"><span data-stu-id="bc636-113">Build the template</span></span>
+### <a name="build-the-template"></a><span data-ttu-id="31270-113">Šablono kūrimas</span><span class="sxs-lookup"><span data-stu-id="31270-113">Build the template</span></span>
 
-<span data-ttu-id="bc636-114">Norėdami sukurti būsenos kodo klaidų atsako puslapio šabloną, atlikite tolesnius veiksmus.</span><span class="sxs-lookup"><span data-stu-id="bc636-114">To build the template for the status code error response page, follow these steps.</span></span>
+<span data-ttu-id="31270-114">Norėdami sukurti būsenos kodo klaidų atsako puslapio šabloną, atlikite tolesnius veiksmus.</span><span class="sxs-lookup"><span data-stu-id="31270-114">To build the template for the status code error response page, follow these steps.</span></span>
 
-1. <span data-ttu-id="bc636-115">Eikite į parinktį **Šablonai**.</span><span class="sxs-lookup"><span data-stu-id="bc636-115">Go to **Templates**.</span></span>
-1. <span data-ttu-id="bc636-116">Pasirinkite **Naujas**, kad sukurtumėte puslapio šabloną.</span><span class="sxs-lookup"><span data-stu-id="bc636-116">Select **New** to create a page template.</span></span>
-1. <span data-ttu-id="bc636-117">Dialogo lango **Naujas šablonas** dalyje **Šablono pavadinimas** įveskite naujo šablono pavadinimą ir pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="bc636-117">In the **New Template** dialog box, under **Template Name**, enter a name for the new template, and then select **OK**.</span></span>
-1. <span data-ttu-id="bc636-118">Sukurkite šabloną su norima būsenos kodo klaidų atsako puslapio struktūra.</span><span class="sxs-lookup"><span data-stu-id="bc636-118">Build the template, based on the structure that you want the status code error response page to have.</span></span>
-1. <span data-ttu-id="bc636-119">Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.</span><span class="sxs-lookup"><span data-stu-id="bc636-119">Select **Save**, select **Finish editing** to check in the template, and then select **Publish** to publish it.</span></span> 
+1. <span data-ttu-id="31270-115">Eikite į parinktį **Šablonai**.</span><span class="sxs-lookup"><span data-stu-id="31270-115">Go to **Templates**.</span></span>
+1. <span data-ttu-id="31270-116">Pasirinkite **Naujas**, kad sukurtumėte puslapio šabloną.</span><span class="sxs-lookup"><span data-stu-id="31270-116">Select **New** to create a page template.</span></span>
+1. <span data-ttu-id="31270-117">Dialogo lango **Naujas šablonas** dalyje **Šablono pavadinimas** įveskite naujo šablono pavadinimą ir pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="31270-117">In the **New Template** dialog box, under **Template Name**, enter a name for the new template, and then select **OK**.</span></span>
+1. <span data-ttu-id="31270-118">Sukurkite šabloną su norima būsenos kodo klaidų atsako puslapio struktūra.</span><span class="sxs-lookup"><span data-stu-id="31270-118">Build the template, based on the structure that you want the status code error response page to have.</span></span>
+1. <span data-ttu-id="31270-119">Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.</span><span class="sxs-lookup"><span data-stu-id="31270-119">Select **Save**, select **Finish editing** to check in the template, and then select **Publish** to publish it.</span></span> 
 
-### <a name="build-the-status-code-error-response-page"></a><span data-ttu-id="bc636-120">Būsenos kodo klaidų atsako puslapio kūrimas</span><span class="sxs-lookup"><span data-stu-id="bc636-120">Build the status code error response page</span></span>
+### <a name="build-the-status-code-error-response-page"></a><span data-ttu-id="31270-120">Būsenos kodo klaidų atsako puslapio kūrimas</span><span class="sxs-lookup"><span data-stu-id="31270-120">Build the status code error response page</span></span>
 
-<span data-ttu-id="bc636-121">Norėdami kurti būsenos kodo klaidų atsako puslapį, atlikite tolesnius veiksmus.</span><span class="sxs-lookup"><span data-stu-id="bc636-121">To build the status code error response page, follow these steps.</span></span>
+<span data-ttu-id="31270-121">Norėdami kurti būsenos kodo klaidų atsako puslapį, atlikite tolesnius veiksmus.</span><span class="sxs-lookup"><span data-stu-id="31270-121">To build the status code error response page, follow these steps.</span></span>
 
-1. <span data-ttu-id="bc636-122">Eiti į **Puslapiai**.</span><span class="sxs-lookup"><span data-stu-id="bc636-122">Go to **Pages**.</span></span>
-1. <span data-ttu-id="bc636-123">Pasirinkite **Naujas**, kad sukurtumėte puslapį.</span><span class="sxs-lookup"><span data-stu-id="bc636-123">Select **New** to create a page.</span></span>
-1. <span data-ttu-id="bc636-124">Dialogo lange **Pasirinkti šabloną** pasirinkite šabloną, tada dalyje **Puslapio pavadinimas** įveskite būsenos kodo klaidų atsako puslapio pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="bc636-124">In the **Choose a template** dialog box, select a template, and then, under **Page name**, enter a name for the status code error response page.</span></span> <span data-ttu-id="bc636-125">Lauką **Puslapio URL** palikite tuščią.</span><span class="sxs-lookup"><span data-stu-id="bc636-125">Leave the **Page URL** field blank.</span></span>
-1. <span data-ttu-id="bc636-126">Sukurkite puslapį.</span><span class="sxs-lookup"><span data-stu-id="bc636-126">Build the page.</span></span>
-1. <span data-ttu-id="bc636-127">Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.</span><span class="sxs-lookup"><span data-stu-id="bc636-127">Select **Save**, select **Finish editing** to check in the page, and then select **Publish** to publish it.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="bc636-128">Galite sukurti atskirus būsenos kodo klaidų atsako puslapius, skirtus 4xx ir 5xx būsenos kodo klaidoms.</span><span class="sxs-lookup"><span data-stu-id="bc636-128">You can create separate status code error response pages for 4xx and 5xx status code errors.</span></span> <span data-ttu-id="bc636-129">Taip pat galite naudoti tą patį bendrą būsenos kodo klaidų atsako puslapį abiem klaidų kategorijoms.</span><span class="sxs-lookup"><span data-stu-id="bc636-129">Alternatively, you can use the same general status code error response page for both error categories.</span></span>
-
-### <a name="set-up-a-redirect-for-the-status-code-error-response-page"></a><span data-ttu-id="bc636-130">Būsenos kodo klaidų atsako puslapio peradresavimo nustatymas</span><span class="sxs-lookup"><span data-stu-id="bc636-130">Set up a redirect for the status code error response page</span></span>
-
-<span data-ttu-id="bc636-131">Norėdami nustatyti būsenos kodo klaidų atsako puslapio peradresavimą, atlikite tolesnius veiksmus.</span><span class="sxs-lookup"><span data-stu-id="bc636-131">To set up a redirect for the status code error response page, follow these steps.</span></span>
-
-1. <span data-ttu-id="bc636-132">Nueikite į **URL \> Naujas \> Naujas pseudonimas** ir pasirinkite anksčiau sukurtą būsenos kodo klaidų atsako puslapį.</span><span class="sxs-lookup"><span data-stu-id="bc636-132">Go to **URLs \> New \> New Alias**, and select the status code error response page that you built earlier.</span></span>
-1. <span data-ttu-id="bc636-133">Lauke **Pseudonimas** įveskite **numatytasis-4xx** arba **numatytasis-5xx**, atsižvelgdami į būsenos kodo klaidų atsako puslapį, kurio peradresavimą nustatote.</span><span class="sxs-lookup"><span data-stu-id="bc636-133">In the **Alias** field, enter either **default-4xx** or **default-5xx**, depending on the status code error response page that you're setting up a redirect for.</span></span> <span data-ttu-id="bc636-134">Šiuos pseudonimus reikia publikuoti.</span><span class="sxs-lookup"><span data-stu-id="bc636-134">These aliases must be published.</span></span> <span data-ttu-id="bc636-135">Kitu atveju peradresavimas neveiks.</span><span class="sxs-lookup"><span data-stu-id="bc636-135">Otherwise, the redirect won't work.</span></span>
-1. <span data-ttu-id="bc636-136">Pasirinkite **Gerai**, kad patvirtintumėte susiejimą.</span><span class="sxs-lookup"><span data-stu-id="bc636-136">Select **OK** to commit the linking.</span></span>
+1. <span data-ttu-id="31270-122">Eiti į **Puslapiai**.</span><span class="sxs-lookup"><span data-stu-id="31270-122">Go to **Pages**.</span></span>
+1. <span data-ttu-id="31270-123">Pasirinkite **Naujas**, kad sukurtumėte puslapį.</span><span class="sxs-lookup"><span data-stu-id="31270-123">Select **New** to create a page.</span></span>
+1. <span data-ttu-id="31270-124">Dialogo lange **Pasirinkti šabloną** pasirinkite šabloną, tada dalyje **Puslapio pavadinimas** įveskite būsenos kodo klaidų atsako puslapio pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="31270-124">In the **Choose a template** dialog box, select a template, and then, under **Page name**, enter a name for the status code error response page.</span></span> <span data-ttu-id="31270-125">Lauką **Puslapio URL** palikite tuščią.</span><span class="sxs-lookup"><span data-stu-id="31270-125">Leave the **Page URL** field blank.</span></span>
+1. <span data-ttu-id="31270-126">Sukurkite puslapį.</span><span class="sxs-lookup"><span data-stu-id="31270-126">Build the page.</span></span>
+1. <span data-ttu-id="31270-127">Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.</span><span class="sxs-lookup"><span data-stu-id="31270-127">Select **Save**, select **Finish editing** to check in the page, and then select **Publish** to publish it.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="bc636-137">Jei abiem klaidų kategorijoms naudojate vieną būsenos kodo klaidų atsako puslapį, pakartokite šią procedūrą, kad kitos klaidų kategorijos pseudonimą susietumėte su tuo pačiu puslapiu.</span><span class="sxs-lookup"><span data-stu-id="bc636-137">If you're using a single status code error response page for both error categories, repeat this procedure to link an alias for the other error category to the same page.</span></span>
+> <span data-ttu-id="31270-128">Galite sukurti atskirus būsenos kodo klaidų atsako puslapius, skirtus 4xx ir 5xx būsenos kodo klaidoms.</span><span class="sxs-lookup"><span data-stu-id="31270-128">You can create separate status code error response pages for 4xx and 5xx status code errors.</span></span> <span data-ttu-id="31270-129">Taip pat galite naudoti tą patį bendrą būsenos kodo klaidų atsako puslapį abiem klaidų kategorijoms.</span><span class="sxs-lookup"><span data-stu-id="31270-129">Alternatively, you can use the same general status code error response page for both error categories.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="bc636-138">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="bc636-138">Additional resources</span></span>
+### <a name="set-up-a-redirect-for-the-status-code-error-response-page"></a><span data-ttu-id="31270-130">Būsenos kodo klaidų atsako puslapio peradresavimo nustatymas</span><span class="sxs-lookup"><span data-stu-id="31270-130">Set up a redirect for the status code error response page</span></span>
 
-[<span data-ttu-id="bc636-139">Darbas su šablonais</span><span class="sxs-lookup"><span data-stu-id="bc636-139">Work with templates</span></span>](work-with-templates.md)
+<span data-ttu-id="31270-131">Norėdami nustatyti būsenos kodo klaidų atsako puslapio peradresavimą, atlikite tolesnius veiksmus.</span><span class="sxs-lookup"><span data-stu-id="31270-131">To set up a redirect for the status code error response page, follow these steps.</span></span>
 
-[<span data-ttu-id="bc636-140">Įtraukti naują svetainės puslapį</span><span class="sxs-lookup"><span data-stu-id="bc636-140">Add a new site page</span></span>](add-new-page.md)
+1. <span data-ttu-id="31270-132">Nueikite į **URL \> Naujas \> Naujas pseudonimas** ir pasirinkite anksčiau sukurtą būsenos kodo klaidų atsako puslapį.</span><span class="sxs-lookup"><span data-stu-id="31270-132">Go to **URLs \> New \> New Alias**, and select the status code error response page that you built earlier.</span></span>
+1. <span data-ttu-id="31270-133">Lauke **Pseudonimas** įveskite **numatytasis-4xx** arba **numatytasis-5xx**, atsižvelgdami į būsenos kodo klaidų atsako puslapį, kurio peradresavimą nustatote.</span><span class="sxs-lookup"><span data-stu-id="31270-133">In the **Alias** field, enter either **default-4xx** or **default-5xx**, depending on the status code error response page that you're setting up a redirect for.</span></span> <span data-ttu-id="31270-134">Šiuos pseudonimus reikia publikuoti.</span><span class="sxs-lookup"><span data-stu-id="31270-134">These aliases must be published.</span></span> <span data-ttu-id="31270-135">Kitu atveju peradresavimas neveiks.</span><span class="sxs-lookup"><span data-stu-id="31270-135">Otherwise, the redirect won't work.</span></span>
+1. <span data-ttu-id="31270-136">Pasirinkite **Gerai**, kad patvirtintumėte susiejimą.</span><span class="sxs-lookup"><span data-stu-id="31270-136">Select **OK** to commit the linking.</span></span>
 
-[<span data-ttu-id="bc636-141">Kurti puslapio URL</span><span class="sxs-lookup"><span data-stu-id="bc636-141">Create a page URL</span></span>](create-page-url.md)
+> [!NOTE]
+> <span data-ttu-id="31270-137">Jei abiem klaidų kategorijoms naudojate vieną būsenos kodo klaidų atsako puslapį, pakartokite šią procedūrą, kad kitos klaidų kategorijos pseudonimą susietumėte su tuo pačiu puslapiu.</span><span class="sxs-lookup"><span data-stu-id="31270-137">If you're using a single status code error response page for both error categories, repeat this procedure to link an alias for the other error category to the same page.</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="31270-138">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="31270-138">Additional resources</span></span>
+
+[<span data-ttu-id="31270-139">Darbas su šablonais</span><span class="sxs-lookup"><span data-stu-id="31270-139">Work with templates</span></span>](work-with-templates.md)
+
+[<span data-ttu-id="31270-140">Įtraukti naują svetainės puslapį</span><span class="sxs-lookup"><span data-stu-id="31270-140">Add a new site page</span></span>](add-new-page.md)
+
+[<span data-ttu-id="31270-141">Kurti puslapio URL</span><span class="sxs-lookup"><span data-stu-id="31270-141">Create a page URL</span></span>](create-page-url.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
