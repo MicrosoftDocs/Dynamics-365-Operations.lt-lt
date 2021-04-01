@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 32d99d9e90b65f7cac74176d21fa4b053ae8f62c
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: f11dbd6dc67ffccb087f67f5ce6267fe94e0ee65
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130760"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219992"
 ---
 # <a name="adjust-leases"></a>Nuomos koregavimas
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Šioje temoje paaiškinama, kaip koreguoti nuomą. Koreguoti gali reikėti, jei pakeičiamos nuomos sąlygos, nuoma pratęsiama arba pasikeičia kitos aplinkybės. Turto nuoma atitinka rekomendacijas, kurios pateiktos 842 apskaitos standartų kodifikavimo temos (ASC 842) ir 16 tarptautinių finansinių ataskaitų standarto (16 TFAS) dalyse apie nuomos keitimą. ASC 842-20-15-1 nuomos keitimą apibrėžia kaip bet kokį sutarties sąlygų pakeitimą, kuris lemia nuomos apimties ar nagrinėjimo pasikeitimą. IFRS 16 39 pastraipoje nurodyta, kad nuomininkas turi perkainoti nuomos įsipareigojimą taip, kad jame atspindėtų nuomos mokesčių pasikeitimai.
 

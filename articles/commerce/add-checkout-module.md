@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cb32b014ac35e33db28d3dee03b01dfa43f5d6a5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5e800daa6eeb54a2eda535cb57aa45559b59b4ea
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980511"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206468"
 ---
 # <a name="checkout-module"></a>Pirkimo užbaigimo modulis
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip į puslapį įtraukti pirkimo užbaigimo modulį ir nustatyti reikiamas ypatybes.
-
-## <a name="overview"></a>Peržiūrėti
 
 Pirkimo užbaigimo modulis yra specialus konteineris, kuriame yra visi moduliai, reikalingi užsakymui sukurti. Jame pateikiama nuosekli veiksmų eiga, kurią naudodamas klientas įvedas visą aktualią informaciją, kad galėtų pirkti. Jis fiksuoja siuntimo adresą, siuntimo būdą ir atsiskaitymo informaciją. Jame taip pat pateikiama užsakymo suvestinė ir kita informacija, susijusi su kliento užsakymu.
 

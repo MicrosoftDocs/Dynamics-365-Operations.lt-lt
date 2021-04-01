@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 14244ccfef69a8bff3390539ff7b851a8f5b5ec1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: db7f296a99da0eb106e8a10158340eef5642ef39
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009573"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208876"
 ---
 # <a name="settle-remainder"></a>Sudengti likutį
 
@@ -33,7 +33,7 @@ Prieš naudodami funkciją Sudengti likutį, turite ją įgalinti ir nustatyti n
 
 1)  Spustelėkite **Gautinos sumos > Parametrai > Sudengimai** arba **Mokėtinos sumos > Parametrai > Sudengimai**
 2)  Pasirinkite skirtuką **Sudengimas** ir spustelėkite **Įgalinti likučio sudengimą**
-3)  Lauke **Numatytasis priežasties kodas** pasirinkite numatytąjį priežasties kodą. Priežasčių kodai turi būti jau nustatyti **Gautinos sumos >  Sąranka > Kliento nurašymo priežasčių kodai** arba **Mokėtinos sumos > Sąranka > Kliento nurašymo priežasčių kodai**. **Numatytoji likučio sudengimo sąskaita** bus numatytoji nurašymo priežasties kodui priskirta sąskaita.
+3)  Lauke **Numatytasis priežasties kodas** pasirinkite numatytąjį priežasties kodą. Priežasčių kodai turi būti jau nustatyti **Gautinos sumos > Sąranka > Kliento nurašymo priežasčių kodai** arba **Mokėtinos sumos > Sąranka > Kliento nurašymo priežasčių kodai**. **Numatytoji likučio sudengimo sąskaita** bus numatytoji nurašymo priežasties kodui priskirta sąskaita.
 3)  Atnaujinti **Numatytoji likučio sudengimo sąskaita**, jei reikia.
 4)  Lauke **Numatytasis žurnalo pavadinimas** pasirinkite mokėjimų žurnalą, kurį naudosite norėdami sukurti mokėjimų žurnalą, kai tik sudengsite atidarytas operacijas. Jei įgalinsite likučio sudengimo funkciją, turėsite įtraukti numatytąjį žurnalo pavadinimą.
 

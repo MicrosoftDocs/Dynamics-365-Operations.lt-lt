@@ -16,21 +16,21 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 89e24496d35ea0a02bd985f76d7579e1914d9290
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2e1462c10dfe1c858429e9f4cc5d720ca43df609
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972987"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5221334"
 ---
-# <a name="create-a-channel-navigation-hierarchy"></a>Kanalo naršymo hierarchijos kūrimas
+# <a name="create-a-channel-navigation-hierarchy"></a>Kanalų naršymo hierarchijos kūrimas
 
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip „Microsoft Dynamics 365 Commerce“ sukurti kanalo naršymo hierarchiją.
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Peržiūra
 
 Kanalo naršymo hierarchija naudojama, norint grupuoti ir skirstyti produktus į kategorijas, kad produktus būtų galima naršyti internete arba elektroniniame kasos aparate (EKA).
 

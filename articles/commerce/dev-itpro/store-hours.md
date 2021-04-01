@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 4706432234437d2dc7943fb194cd01004ab7e6b7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 00c532dfa9ceed2cda6652496d874cb82785dc7b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687516"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230645"
 ---
 # <a name="create-and-update-store-hours"></a>Parduotuvės darbo valandų kūrimas ir atnaujinimas
 
@@ -35,7 +35,7 @@ Skirtinguose kanaluose galima sukonfigūruoti įvairias parduotuvės darbo valan
 
 Jei klientas turi kitos parduotuvės paėmimo užsakymą, kasininkas gali pasirinkti datas, kada toje parduotuvėje bus galima paimti prekes. Parduotuvių peržvalgoje bus pateikta nuoroda į datas ir parduotuvių darbo laiką. Kasininkas gali pasirinkti datą ir vietą bei atspausdinti paėmimo kvitą, kuriame bus nurodytos parduotuvės darbo valandos.
 
-Ši funkcija pasiekiama „Microsoft“ „Dynamics 365 Retail“ 8.1.2 ir naujesnėse versijose.
+Ši funkcija pasiekiama „Microsoft Dynamics 365 Retail“ 8.1.2 ir naujesnėse versijose.
 
 ## <a name="configure-store-hours"></a>Parduotuvės darbo valandų konfigūravimas
 

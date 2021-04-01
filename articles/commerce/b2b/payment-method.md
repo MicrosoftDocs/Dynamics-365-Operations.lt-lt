@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 754e2f83d6c8ff5d3698d98062e54bba7ccd9836
-ms.sourcegitcommit: f9df202aefef761be52c0360b0e22da88773914c
+ms.openlocfilehash: 82dfd6ac7e97d838ef442fd6ded4a4f165fc795b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035941"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211206"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>Konfigūruoti kliento sąskaitos mokėjimo metodą B2B el. komercijos saitams
 
@@ -29,7 +29,7 @@ ms.locfileid: "5035941"
 
 Ši tema aprašo, kaip konfigūruoti kliento sąskaitos mokėjimo metodą verslo su verslu (B2B) el. komercijos saitams.
 
-Mažmeniniai prekybininkai gali priimti įvairius mokėjimo tipus vietoje produktų ir paslaugų, kuriuos jie parduoda el. komercijos kanale. Visi mokėjimo tipai, kuriuos mažmenininkas priima, turi būti konfigūruojami „Microsoft Dynamics 365 Commerce“ nustatant sistemą. Kliento sąskaitos (ar „sąskaitoje“) mokėjimo metodas turi būti palaikomas B2B el. komercijos saituose. 
+Mažmeniniai prekybininkai gali priimti įvairius mokėjimo tipus vietoje produktų ir paslaugų, kuriuos jie parduoda el. komercijos kanale. Nustačius sistemą, „Microsoft Dynamics 365 Commerce“ reikia sukonfigūruoti kiekvieną mokėjimo tipą, kurį pardavėjas priima. Kliento sąskaitos (ar „sąskaitoje“) mokėjimo metodas turi būti palaikomas B2B el. komercijos saituose. 
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 

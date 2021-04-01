@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec62af4ec62de0d63b590c79db6a8164d59e72c4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 05de2748b0cf7a2b09618aee5c41c8c797f2b3d3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971283"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210414"
 ---
 # <a name="budget-planning"></a>Biudžeto planavimas
 
@@ -105,7 +105,7 @@ Biudžeto planavimas naudoja specialias saugos strategijas, kad sukonfigūruotų
 
 2.5. Pasirinkite „Suteikti prieigą tik tam tikroms organizacijoms“. Pasirinkite organizacinę hierarchiją, sukurtą pirmuoju veiksmu. Pasirinkite finansų mazgą ir spustelėkite „Suteikti su antriniais elementais“. 
 
-**_Svarbu!_* _ _Įsitikinkite, kad esate DEMF juridinio subjekto kontekste atlikdami šią užduotį, nes Organizacijos saugumas yra taikomas kiekvienam juridiniam asmeniui* 
+***Svarbu!** _ _Kai atliekate šią užduotį, įsitikinkite, kad esate DEMF juridinio subjekto kontekste, nes organizacinė sauga taikoma kiekvienam juridiniam subjektui atskirai* 
 
 ### <a name="task-3-create-scenarios"></a>3 užduotis: sukurkite scenarijus
 3.1. Pasirinkite Biudžeto sudarymas &gt; Sąranka &gt; Biudžeto planavimas &gt; Biudžeto planavimo konfigūracija. Puslapyje „Scenarijai“ atkreipkite dėmesį į scenarijus, kuriuos naudosime toliau šiame laboratoriniame darbe: ankstesnių metų faktinės ir planuojamos sumos. 

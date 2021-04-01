@@ -1,6 +1,6 @@
 ---
 title: Sukonfigūruokite „BOPIS“ esantį „Dynamics 365 Commerce“ vertinimo aplinkoje
-description: Šiame skyriuje paaiškinama, kaip sukonfigūruoti pirkimą internetu, pasiėmimą parduotuvėje (BOPIS) „Microsoft Dynamics 365 Commerce“ vertinimo aplinkoje, po to kai ji buvo parengta.
+description: Šioje temoje paaiškinama, kaip konfigūruoti „pirkimas internetu, atsiėmimas parduotuvėje“ (BOPIS) „Microsoft Dynamics 365 Commerce” vertinimo aplinkoje po to, kai ji parengta.
 author: rubendel
 manager: annbe
 ms.date: 07/16/2020
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ec1c556a70ed92a40d3cb2bf45fb6156b7dbf7fd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 71f2fb3882b51cdaed9b231cd605949195deca17
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993480"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213871"
 ---
-# <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>Sukonfigūruokite „BOPIS“ esantį „Dynamics 365 Commerce“ vertinimo aplinkoje
+# <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>BOPIS konfigūravimas „Dynamics 365 Commerce“ vertinimo aplinkoje
 
 [!include [banner](includes/banner.md)]
 
-Šiame skyriuje paaiškinama, kaip sukonfigūruoti pirkimą internetu, pasiėmimą parduotuvėje (BOPIS) „Microsoft Dynamics 365 Commerce“ vertinimo aplinkoje, po to kai aplinka buvo parengta.
+Šioje temoje paaiškinama, kaip konfigūruoti „pirkimas internetu, atsiėmimas parduotuvėje“ (BOPIS) „Microsoft Dynamics 365 Commerce” vertinimo aplinkoje po to, kai aplinka parengta.
 
 ## <a name="prerequisite"></a>Būtinoji sąlyga
 

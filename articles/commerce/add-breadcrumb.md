@@ -1,6 +1,6 @@
 ---
 title: Naršymo kelio modulis
-description: Šioje temoje aprašomi naršymo kelio moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
+description: Šioje temoje aprašomi „duonos trupinėlių“ (angl. breadcrumb) moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
 manager: annbe
 ms.date: 10/20/2020
@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1883281c62575ae0b48b6e584876185bb179b4f4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 06f8ffdecd1f77468ed88043929f29b6957c2e6f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986084"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206564"
 ---
 # <a name="breadcrumb-module"></a>Naršymo kelio modulis
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomi naršymo kelio moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
-
-## <a name="overview"></a>Peržiūra
+Šioje temoje aprašomi „duonos trupinėlių“ (angl. breadcrumb) moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 
 Naršymo kelio moduliai naudojami antrinei navigacijai svetainės puslapiuose. Jis paprastai rodomas puslapio viršuje, po antrašte. Nors naršymo kelio modulius galima įtraukti į bet kurį puslapį, dažniausiai jie naudojami produkto informacijos puslapiuose (PDP), kad būtų rodoma produktų kategorijų hierarchija ir būtų užtikrintas greitas būdas naršyti po svetainę. Naršymo kelio modulis taip pat gali būti naudojamas siekiant parodyti saitą „Atgal į rezultatus“, kai vartotojai atidaro PDP ieškos ar sąrašo puslapyje. Šitaip vartotojai gali greitai grįžti prie filtruoto sąrašo puslapio ir tęsti apsipirkimą.
 

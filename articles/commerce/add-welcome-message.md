@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5910ab85b1b0b2df992a24ad3cf7a032e7b98ea9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d17ad7cfd6f11e84fdd1c8ebccca6f786b83c62d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980137"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209160"
 ---
 # <a name="add-a-welcome-message"></a>Įtraukti pasveikinimo pranešimą
 
@@ -30,7 +30,7 @@ ms.locfileid: "4980137"
 
 Šioje temoje aprašoma, kaip į savo „Microsoft Dynamics 365 Commerce“ svetainę įtraukti pasisveikinimo pranešimą.
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Peržiūra
 
 Pasisveikinimo pranešimas jūsų el. prekybos svetainėje gali lankytojus informuoti apie vykstančius išpardavimus, svetainės naujienas ar esamas sezonines kolekcijas. Pasisveikinimo pranešimas nustatomas naudojant įspėjimo modulį.
 

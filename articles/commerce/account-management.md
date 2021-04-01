@@ -1,5 +1,5 @@
 ---
-title: Paskyros valdymo puslapiai ir moduliai
+title: Sąskaitos valdymo puslapiai ir moduliai
 description: Šioje temoje aprašomi „Microsoft Dynamics 365 Commerce“ paskyros valdymo puslapiai ir moduliai.
 author: v-chgri
 manager: annbe
@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6c465b8883438eee886b177274bf89ddb86aa00b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 29523d03fb687684dae7d0ce08208905cce702df
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980561"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206636"
 ---
-# <a name="account-management-pages-and-modules"></a>Paskyros valdymo puslapiai ir moduliai
+# <a name="account-management-pages-and-modules"></a>Sąskaitos valdymo puslapiai ir moduliai
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašomi „Microsoft Dynamics 365 Commerce“ paskyros valdymo puslapiai ir moduliai.
-
-## <a name="overview"></a>Peržiūrėti
 
 Paskyros valdomos keliuose „Dynamics 365 Commerce“ puslapiuose, kuriuose valdoma su vartotoju susijusi informacija. Paskyros valdymo puslapiai apima paskyros valdymo nukreipimo puslapį, vartotojo profilio puslapį, vartotojo adresų puslapį, užsakymų retrospektyvos puslapį, išsamios užsakymų informacijos puslapį, lojalumo puslapį ir pageidavimų sąrašo puslapį.
 

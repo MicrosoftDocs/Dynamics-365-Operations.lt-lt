@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f4a64735a1259f05de95aa6e129e4b12cbf5f197
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 41fb0be51f7af25faba1b860319aea84ae7a8b56
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972962"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207804"
 ---
 # <a name="work-with-css-override-files"></a>Darbas su CSS perrašymo failais
 
@@ -30,7 +30,7 @@ ms.locfileid: "4972962"
 
 Šioje temoje aprašoma, kodėl, kada ir kaip programoje „Microsoft Dynamics 365 Commerce“ naudoti pakopinių stilių sąrašo (CSS) perrašymo failus.
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Peržiūra
 
 Nuolatiniai svetainės stiliai paprastai turėtų būti tvarkomi naudojant svetainės temą. Naudojant temas pasiekiami pagrindiniai bet kurio svetainės puslapio CSS ir stilių parametrai. Temos kuriamos naudojant „Dynamics 365 Commerce“ internetinį programinės įrangos kūrimo rinkinį (SDK), o į svetaines įdiegiamos naudojant „Microsoft Dynamics Lifecycle Services“ (LCS). Naudodami temų derinimo galimybes ir modulių sąsajos konfigūracijas SDK žinyno svetainėje, svetainių programuotojai gali lengviau kurti tinkinamus ir darnius svetainių dizaino paketus. Kai šie dizaino paketai įdiegiami į svetainę, jos autoriai gali sutelkti dėmesį į turinio kūrimą, redagavimą ir publikavimą, o ne į svetainės programavimą.
 

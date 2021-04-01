@@ -16,18 +16,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 450efd595a1cc1b72b2e62afbdd4518bcca59cb0
-ms.sourcegitcommit: f9df202aefef761be52c0360b0e22da88773914c
+ms.openlocfilehash: 91cb01637faa69bd3c7fefefae69c60cb948510e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035940"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211230"
 ---
 # <a name="create-org-modeling-hierarchies-for-b2b-organizations"></a>Kurkite organizacijos modeliavimo hierarchijas B2B organizacijoms
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoja aprašoma, kaip kurti organizacijos modelio hierarchijas verslo su verslu (B2B) organizacijoms „Microsoft Dynamics 365 Commerce“.
+Šioje temoja aprašoma, kaip kurti organizacijos modelio hierarchijas verslo su verslu (B2B) organizacijoms programoje „Microsoft Dynamics 365 Commerce”.
 
 „Commerce“ štabe, verslo partnerio organizacijos yra atstovaujamos kliento ir kliento hierarchijos objektų. Verslo partnerio organizacija ir jos vartotojai yra atstovaujami kaip klientai ir kliento hierarchijos yra naudojamas siekiant susieti klientus tarpusavyje.
 

@@ -1,5 +1,5 @@
 ---
-title: Įkelti ir aptarnauti statinius failus
+title: Statinių failų nusiuntimas ir pateikimas
 description: Šioje temoje paaiškina, kaip įkelti statinį failą į „Microsoft Dynamics 365 Commerce“ vietos kūrimo įrankį ir kaip sukurti tinkintą URL ir failo pavadinimą, kurį galima naudoti prašant to failo.
 author: StuHarg
 manager: annbe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 1d709d99737ad05af1fb19d9f3ef7b87a8db80d3
-ms.sourcegitcommit: da17648c296b22d517eadb2f71c7803672e5648d
+ms.openlocfilehash: aba9dde2ed9d5fa09e92fcdd784a53f208930eda
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5031825"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211024"
 ---
-# <a name="upload-and-serve-static-files"></a>Įkelti ir aptarnauti statinius failus
+# <a name="upload-and-serve-static-files"></a>Statinių failų nusiuntimas ir pateikimas
 
 [!include [banner](includes/banner.md)]
 

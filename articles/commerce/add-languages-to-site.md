@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c8d72f3a613deef80685955c21708e32a770539a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6ed1e2eae18b381c21b63a5cc403ddee0336f784
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980337"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207608"
 ---
 # <a name="add-languages-to-your-site"></a>Kalbų įtraukimas į savo svetainę
 
@@ -30,7 +30,7 @@ ms.locfileid: "4980337"
 
 Šioje temoje paaiškinama, kaip į „Microsoft Dynamics 365 Commerce“ svetainę įtraukti papildomų kalbų palaikymą.
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Peržiūra
 
 Savo svetainę galite lokalizuoti į bet kurią „Commerce“ palaikomą kalbą. (Palaikomų kalbų sąrašas parodytas tolesnėje šios temos dalyje). Norėdami į savo svetainę įtraukti kalbą, pirmiausia ją turite įtraukti į internetinę parduotuvę, susietą su jūsų svetaine.
 

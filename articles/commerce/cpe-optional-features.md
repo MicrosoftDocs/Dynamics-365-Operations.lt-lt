@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6639de250557ce9a25fc2cde3807abf64b0ddc18
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: def99a34404357e28501de5ccf11c6130d53f34f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993455"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213823"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Konfigūruokite pasirinktas savybes „Dynamics 365 Commerce“ vertinimo aplinkoje
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Pasirinktinių „Dynamics 365 Commerce” vertinimo aplinkos funkcijų konfigūravimas
 
 [!include [banner](includes/banner.md)]
 
@@ -102,7 +102,7 @@ Kiekvieno operacinio įvykio, dėl kurio norite siųsti el. laiškus, el. laišk
 
 Galbūt norėsite el. laiškų šablonus tinkinti, kad juose būtų naudojami skirtingi vaizdai. Arba jums reikėtų atnaujinti nuorodas į šablonus tam, kad jie galėtų patekti į jūsų vertinimo aplinką. Šia procedūra paaiškinama, kaip atsisiųsti numatytuosius šablonus, juos tinkinti ir atnaujinti sistemos šablonus.
 
-1. Tinklo naršyklėje, atsisiųskite [„Microsoft Dynamics 365 Commerce Evaluation“ nustatytuosius elektroninio pašto šablonų archyvuotą failą](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) į savo vietos kompiuterį. Šiame faile yra tolesni HTML dokumentai.
+1. Tinklo naršyklėje atsisiųskite [„Microsoft Dynamics 365 Commerce“ vertinimo numatytųjų el. pašto šablonų archyvuotą failą](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) į savo vietos kompiuterį. Šiame faile yra tolesni HTML dokumentai.
 
     - Užsakymo patvirtinimo šablonas
     - Dovanų kortelės išdavimo šablonas
@@ -135,15 +135,15 @@ Toliau nurodyti atpažinimo ženklai taikomi bendram pardavimo užsakymui.
 
 | Atpažinimo ženklo pavadinimas | Atpažinimo ženklas |
 |-------------------|-------|
-| Užsakymo numeris      | %salesid% |
-| Kliento pavadinimas   | %customername% |
-| Pristatymo adresas  | %deliveryaddress% |
-| Sąskaitų siuntimo adresas   | %customeraddress% |
-| Užsakymo data        | %shipdate% |
-| Pristatymo režimas     | %modeofdelivery% |
-| Nuolaida          | %discount% |
-| PVM         | %tax% |
-| Užsakymo suma       | %total% |
+| Užsakymo numeris      | „%salesid%“ |
+| Kliento pavadinimas   | „%customername%“ |
+| Pristatymo adresas  | „%deliveryaddress%“ |
+| Sąskaitų siuntimo adresas   | „%customeraddress%“ |
+| Užsakymo data        | „%shipdate%“ |
+| Pristatymo režimas     | „%modeofdelivery%“ |
+| Nuolaida          | „%discount%“ |
+| PVM         | „%tax%“ |
+| Užsakymo suma       | „%total%“ |
 
 #### <a name="sales-line"></a>Pardavimo eilutė
 
@@ -156,16 +156,16 @@ Tolesni atpažinimo ženklai pakeičiami kiekvieno užsakymo produkto reikšmėm
 |------------------------|-------|
 | Produktų sąrašas – pradžia   | \<!--%tablebegin.salesline% --\> |
 | Produktų sąrašas – pabaiga     | \<!--%tableend.salesline%--\> |
-| Produkto pavadinimas           | %lineproductname% |
-| aprašymas            | %lineproductdescription% |
-| Kiekis               | %linequantity% |
-| Eilutės vieneto kaina        | %lineprice% (tikrinti) |
-| Iš viso eilutės elementų        | %linenetamount% |
-| eilutės nuolaida          | %linediscount% |
-| Siuntimo data              | %lineshipdate% |
-| Įsigijimo metodas     | %linedeliverymode% |
-| pristatymo adresas       | %linedeliveryaddress% |
-| Eilutės pardavimo vienetas | %lineunit% |
+| Produkto pavadinimas           | „%lineproductname%“ |
+| aprašymas            | „%lineproductdescription%“ |
+| Kiekis               | „%linequantity%“ |
+| Eilutės vieneto kaina        | %lineprice% (patikrinti) |
+| Iš viso eilutės elementų        | „%linenetamount%“ |
+| eilutės nuolaida          | „%linediscount%“ |
+| Siuntimo data              | „%lineshipdate%“ |
+| Įsigijimo metodas     | „%linedeliverymode%“ |
+| pristatymo adresas       | „%linedeliveryaddress%“ |
+| Eilutės pardavimo vienetas | „%lineunit%“ |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

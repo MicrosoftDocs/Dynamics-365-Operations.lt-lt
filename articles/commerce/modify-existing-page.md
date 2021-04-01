@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 47a7d17b97631ba469a9b68f5f6cf492ebccde6f
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 6afd19a01520813e54871f4849aeb18f4424173c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097311"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223052"
 ---
 # <a name="modify-an-existing-site-page"></a>Modifikuoti esamą svetainės puslapį
 
@@ -30,7 +30,7 @@ ms.locfileid: "5097311"
 
 Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“ modifikuoti esamą svetainės puslapį.
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Peržiūra
 
 Kai reikia modifikuoti puslapį, pirmausia jį atidarykite puslapio rengyklėje. Eikite į svetainę, kurioje yra jūsų puslapis, tada puslapių sąraše susiraskite norimą puslapį. Jei negalite rasti puslapio, galite naudoti kūrimo įrankio sudėtinės ieškos funkciją. Įveskite tikslų puslapio pavadinimą arba įveskite pirmas kelias jo raides, o tada – žvaigždutę (\*). Atsiranda filtruotas puslapių sąrašas. Galite naudoti šį sąrašą, norėdami rasti norimą puslapį. Radę teisingą puslapį, pasirinkite puslapio pavadinimą, kad puslapis būtų atidaromas puslapio rengyklėje.
 

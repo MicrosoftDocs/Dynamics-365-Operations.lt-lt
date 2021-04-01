@@ -1,5 +1,5 @@
 ---
-title: Apkarpyti vaizdai
+title: Vaizdų apkarpymas
 description: Šioje temoje aprašoma, kaip apkarpyti vaizdus „Microsoft Dynamics 365 Commerce“ svetainės generatoriuje.
 author: psimolin
 manager: annbe
@@ -17,14 +17,14 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2cf8d43062ec527755fdf1a28f0ea3ceac1fbc15
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7af1378e26368c4f35f4661f41c066baeaa09803
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5003833"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222590"
 ---
-# <a name="crop-images"></a>Apkarpyti vaizdai
+# <a name="crop-images"></a>Vaizdų apkarpymas
 
 [!include [banner](includes/banner.md)]
 

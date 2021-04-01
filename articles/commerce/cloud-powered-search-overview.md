@@ -1,5 +1,5 @@
 ---
-title: Debesų technologija valdoma ieškos peržiūra
+title: Debesų technologija valdomos ieškos apžvalga
 description: Šioje temoje apžvelgiama „Microsoft Dynamics 365 Commerce“ debesų technologija paremta ieška.
 author: ashishmsft
 manager: annbe
@@ -16,21 +16,21 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5a9cb82053640b7abdba420e087d0707208979de
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2e94338cb55f3298d0a33d7b086480f16e83f271
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997655"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220661"
 ---
-# <a name="cloud-powered-search-overview"></a>Debesų technologija valdoma ieškos peržiūra
+# <a name="cloud-powered-search-overview"></a>Debesų technologija valdomos ieškos apžvalga
 
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje apžvelgiama „Microsoft Dynamics 365 Commerce“ debesų technologija paremta ieška.
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Peržiūra
 
 Produktų aptinkamumas padeda užtikrinti, kad vartotojai galėtų greitai ir lengvai rasti produktus naršydami kategorijas, ieškodami bei filtruodami. Pardavėjai produktų atradimą laiko pirminiu įrankiu, skirtu bendrauti su klientais visuose kanaluose.
 

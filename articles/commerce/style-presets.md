@@ -1,5 +1,5 @@
 ---
-title: Darbas su išankstinėmis stilių parinktimis
+title: Darbas su iš anksto nustatytų stilių rinkiniais
 description: Šioje temoje aprašoma, kaip svetainių daryklėje „Microsoft Dynamics 365 Commerce“ dirbti su išankstinėmis stilių parinktimis.
 author: phinneyridge
 manager: annbe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1bd8f6e31afa300c5e7687a657ae2807995af8d3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 55d333c3ae94b17dabaef3c697c698f068a06543
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006315"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226596"
 ---
-# <a name="work-with-style-presets"></a>Darbas su išankstinėmis stilių parinktimis
+# <a name="work-with-style-presets"></a>Darbas su iš anksto nustatytų stilių rinkiniais
 
 [!include [banner](includes/banner.md)]
 
@@ -49,7 +49,7 @@ Norėdami peržiūrėti išankstinę stiliaus parinktį svetainėje svetainės d
     Jei **Galimos išankstinės parinktys** sąraše šiuo metu nėra išankstinių parinkčių, peržiūrėkite [Pasirinktos išankstinės parinkties kūrimas](#create-a-custom-style-preset), kad sužinotumėte, kaip sukurti pasirinktinę išankstinę stiliaus parinktį.
 
     > [!NOTE]
-    > Išankstinės parinktys, įtrauktos į temą, pažymėtos **Integruota** ženkleliu. Šios integruotos išankstinės parinktys yra skirtos tik skaityti. Norėdami nukopijuoti integruotą išankstinę parinktį kaip naują tinkinamą išankstinę parinktį , pasirinkite elipsės mygtuką (**...**)  parinkčiai ir pasirinkite **Įrašyti kaip**.
+    > Išankstinės parinktys, įtrauktos į temą, pažymėtos **Integruota** ženkleliu. Šios integruotos išankstinės parinktys yra skirtos tik skaityti. Norėdami nukopijuoti integruotą išankstinę parinktį kaip naują tinkinamą išankstinę parinktį , pasirinkite elipsės mygtuką (**...**) parinkčiai ir pasirinkite **Įrašyti kaip**.
 
 1. Komandų juostoje pasirinkite **Peržiūrėti**.
 1. Pasirinkite URL iš savo svetainės, kad galėtumėte peržiūrėti išankstinę stiliaus parinktį, tada pasirinkite **Gerai**.
