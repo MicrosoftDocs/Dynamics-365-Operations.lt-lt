@@ -18,44 +18,47 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 7cee11e6d9e8bc2fe83f5369554ae9ff9ee2b741
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5aadf7fb94bb2d836892064837f9cb1c5790d657
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5008221"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5238019"
 ---
-# <a name="cancel-a-planning-job"></a><span data-ttu-id="c2ecf-103">Planavimo užduoties atšaukimas</span><span class="sxs-lookup"><span data-stu-id="c2ecf-103">Cancel a planning job</span></span>
+# <a name="cancel-a-planning-job"></a><span data-ttu-id="eda6a-103">Planavimo užduoties atšaukimas</span><span class="sxs-lookup"><span data-stu-id="eda6a-103">Cancel a planning job</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="c2ecf-104">Programoje „Microsoft Dynamics 365 Supply Chain Management“ galite atšaukti aktyvią planavimo užduotį, naudojančią planavimo optimizavimo funkciją.</span><span class="sxs-lookup"><span data-stu-id="c2ecf-104">In Microsoft Dynamics 365 Supply Chain Management, you can cancel an active planning job that uses the Planning optimization functionality.</span></span> <span data-ttu-id="c2ecf-105">Kai dialogo lange pasirenkate **Atšaukti**, kai planavimo optimizavimo užduotis suaktyvinama tiesiogiai iš vartotojo sąsajos (ne fone), planavimo optimizavimo užduotis atšaukta nebus.</span><span class="sxs-lookup"><span data-stu-id="c2ecf-105">When you select **Cancel** in the dialog box when a Planning optimization job is triggered directly from the user interface (not in the background), this will not cancel the Planning optimization job.</span></span> <span data-ttu-id="c2ecf-106">Net jei gaunate įspėjimą, pvz., Operacija atšaukta, vis tiek reikės atlikti šiuos veiksmus, kad būtų atšaukta planavimo optimizavimo užduotis.</span><span class="sxs-lookup"><span data-stu-id="c2ecf-106">Even if you receive a warning such as “Operation canceled”, you will still need to use the following steps to cancel a planning job with Planning optimization.</span></span>
+<span data-ttu-id="eda6a-104">Programoje „Microsoft Dynamics 365 Supply Chain Management“ galite atšaukti aktyvią planavimo užduotį, naudojančią planavimo optimizavimo funkciją.</span><span class="sxs-lookup"><span data-stu-id="eda6a-104">In Microsoft Dynamics 365 Supply Chain Management, you can cancel an active planning job that uses the Planning optimization functionality.</span></span> <span data-ttu-id="eda6a-105">Kai dialogo lange pasirenkate **Atšaukti**, kai planavimo optimizavimo užduotis suaktyvinama tiesiogiai iš vartotojo sąsajos (ne fone), planavimo optimizavimo užduotis atšaukta nebus.</span><span class="sxs-lookup"><span data-stu-id="eda6a-105">When you select **Cancel** in the dialog box when a Planning optimization job is triggered directly from the user interface (not in the background), this will not cancel the Planning optimization job.</span></span> <span data-ttu-id="eda6a-106">Net jei gaunate įspėjimą, pvz., Operacija atšaukta, vis tiek reikės atlikti šiuos veiksmus, kad būtų atšaukta planavimo optimizavimo užduotis.</span><span class="sxs-lookup"><span data-stu-id="eda6a-106">Even if you receive a warning such as “Operation canceled”, you will still need to use the following steps to cancel a planning job with Planning optimization.</span></span>
 
 
-<span data-ttu-id="c2ecf-107">Norėdami atšaukti aktyvią planavimo užduotį, atlikite šiuos veiksmus.</span><span class="sxs-lookup"><span data-stu-id="c2ecf-107">To cancel an active planning job, follow these steps.</span></span> 
-
-> [!NOTE]
-> <span data-ttu-id="c2ecf-108">Atšaukti galima tik aktyvias užduotis.</span><span class="sxs-lookup"><span data-stu-id="c2ecf-108">Only active jobs can be canceled.</span></span>
-
-1. <span data-ttu-id="c2ecf-109">Eikite į **Bendrasis planavimas \>Sąranka \>Planai**.</span><span class="sxs-lookup"><span data-stu-id="c2ecf-109">Go to **Master planning \> Setup \> Plans**.</span></span>
-2. <span data-ttu-id="c2ecf-110">Pasirinkite planavimo vykdymui tinkamą planą.</span><span class="sxs-lookup"><span data-stu-id="c2ecf-110">Select an appropriate plan for the planning run.</span></span>
-3. <span data-ttu-id="c2ecf-111">Pasirinkite **Istorija**.</span><span class="sxs-lookup"><span data-stu-id="c2ecf-111">Select **History**.</span></span>
-4. <span data-ttu-id="c2ecf-112">Pasirinkite planavimo užduotį, kurią reikia atšaukti.</span><span class="sxs-lookup"><span data-stu-id="c2ecf-112">Select the planning job to cancel.</span></span>
-5. <span data-ttu-id="c2ecf-113">Pasirinkite **Atšaukti**.</span><span class="sxs-lookup"><span data-stu-id="c2ecf-113">Select **Cancel**.</span></span>
-
-<span data-ttu-id="c2ecf-114">Užduoties būsena bus **Atšaukiama**, kol planavimo optimizavimo tarnyba patvirtins, kad užduotis atšaukta.</span><span class="sxs-lookup"><span data-stu-id="c2ecf-114">The job status will be **Canceling** until the Planning Optimization service confirms that the job has been canceled.</span></span> <span data-ttu-id="c2ecf-115">Būsena tada bus pakeista į **Atšaukta**.</span><span class="sxs-lookup"><span data-stu-id="c2ecf-115">The status will then be changed to **Canceled**.</span></span>
+<span data-ttu-id="eda6a-107">Norėdami atšaukti aktyvią planavimo užduotį, atlikite šiuos veiksmus.</span><span class="sxs-lookup"><span data-stu-id="eda6a-107">To cancel an active planning job, follow these steps.</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="c2ecf-116">Norėdami pamatyti būsenos pasikeitimus, turite atnaujinti puslapį pasirinkdami mygtuką **Atnaujinti**.</span><span class="sxs-lookup"><span data-stu-id="c2ecf-116">To see status changes, you must refresh the page by selecting the **Refresh** button.</span></span>
+> <span data-ttu-id="eda6a-108">Atšaukti galima tik aktyvias užduotis.</span><span class="sxs-lookup"><span data-stu-id="eda6a-108">Only active jobs can be canceled.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="c2ecf-117">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="c2ecf-117">Additional resources</span></span>
+1. <span data-ttu-id="eda6a-109">Eikite į **Bendrasis planavimas \>Sąranka \>Planai**.</span><span class="sxs-lookup"><span data-stu-id="eda6a-109">Go to **Master planning \> Setup \> Plans**.</span></span>
+2. <span data-ttu-id="eda6a-110">Pasirinkite planavimo vykdymui tinkamą planą.</span><span class="sxs-lookup"><span data-stu-id="eda6a-110">Select an appropriate plan for the planning run.</span></span>
+3. <span data-ttu-id="eda6a-111">Pasirinkite **Istorija**.</span><span class="sxs-lookup"><span data-stu-id="eda6a-111">Select **History**.</span></span>
+4. <span data-ttu-id="eda6a-112">Pasirinkite planavimo užduotį, kurią reikia atšaukti.</span><span class="sxs-lookup"><span data-stu-id="eda6a-112">Select the planning job to cancel.</span></span>
+5. <span data-ttu-id="eda6a-113">Pasirinkite **Atšaukti**.</span><span class="sxs-lookup"><span data-stu-id="eda6a-113">Select **Cancel**.</span></span>
 
-[<span data-ttu-id="c2ecf-118">Planavimo optimizavimo apžvalga</span><span class="sxs-lookup"><span data-stu-id="c2ecf-118">Planning Optimization overview</span></span>](planning-optimization-overview.md)
+<span data-ttu-id="eda6a-114">Užduoties būsena bus **Atšaukiama**, kol planavimo optimizavimo tarnyba patvirtins, kad užduotis atšaukta.</span><span class="sxs-lookup"><span data-stu-id="eda6a-114">The job status will be **Canceling** until the Planning Optimization service confirms that the job has been canceled.</span></span> <span data-ttu-id="eda6a-115">Būsena tada bus pakeista į **Atšaukta**.</span><span class="sxs-lookup"><span data-stu-id="eda6a-115">The status will then be changed to **Canceled**.</span></span>
 
-[<span data-ttu-id="c2ecf-119">Darbo su planavimo optimizavimu pradžia</span><span class="sxs-lookup"><span data-stu-id="c2ecf-119">Get started with Planning Optimization</span></span>](get-started.md)
+> [!NOTE]
+> <span data-ttu-id="eda6a-116">Norėdami pamatyti būsenos pasikeitimus, turite atnaujinti puslapį pasirinkdami mygtuką **Atnaujinti**.</span><span class="sxs-lookup"><span data-stu-id="eda6a-116">To see status changes, you must refresh the page by selecting the **Refresh** button.</span></span>
 
-[<span data-ttu-id="c2ecf-120">Planavimo optimizavimo tinkamumo analizė</span><span class="sxs-lookup"><span data-stu-id="c2ecf-120">Planning Optimization fit analysis</span></span>](planning-optimization-fit-analysis.md)
+## <a name="additional-resources"></a><span data-ttu-id="eda6a-117">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="eda6a-117">Additional resources</span></span>
 
-[<span data-ttu-id="c2ecf-121">Plano retrospektyvos ir planavimo žurnalų peržiūra</span><span class="sxs-lookup"><span data-stu-id="c2ecf-121">View plan history and planning logs</span></span>](plan-history-logs.md)
+[<span data-ttu-id="eda6a-118">Planavimo optimizavimo apžvalga</span><span class="sxs-lookup"><span data-stu-id="eda6a-118">Planning Optimization overview</span></span>](planning-optimization-overview.md)
 
-[<span data-ttu-id="c2ecf-122">Filtrų taikymas planui</span><span class="sxs-lookup"><span data-stu-id="c2ecf-122">Apply filters to a plan</span></span>](plan-filters.md)
+[<span data-ttu-id="eda6a-119">Darbo su planavimo optimizavimu pradžia</span><span class="sxs-lookup"><span data-stu-id="eda6a-119">Get started with Planning Optimization</span></span>](get-started.md)
+
+[<span data-ttu-id="eda6a-120">Planavimo optimizavimo tinkamumo analizė</span><span class="sxs-lookup"><span data-stu-id="eda6a-120">Planning Optimization fit analysis</span></span>](planning-optimization-fit-analysis.md)
+
+[<span data-ttu-id="eda6a-121">Plano retrospektyvos ir planavimo žurnalų peržiūra</span><span class="sxs-lookup"><span data-stu-id="eda6a-121">View plan history and planning logs</span></span>](plan-history-logs.md)
+
+[<span data-ttu-id="eda6a-122">Filtrų taikymas planui</span><span class="sxs-lookup"><span data-stu-id="eda6a-122">Apply filters to a plan</span></span>](plan-filters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
