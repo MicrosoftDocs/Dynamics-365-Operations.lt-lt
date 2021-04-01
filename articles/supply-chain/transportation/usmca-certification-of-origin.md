@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: de0917f6734d81248f8aa588bd0c5dec7d056219
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a0395f74065cf656e286186d619824d88836c45a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006421"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233300"
 ---
 # <a name="usmca-certification-of-origin"></a>USMCA kilmės sertifikatas
 
@@ -27,7 +27,7 @@ ms.locfileid: "5006421"
 
 Ši funkcija leidžia jums spausdinti kilmės dokumentų sertifikatą, kurio reikia pagal JAV-Meksikos-Kanados sutartį (USMCA).
 
-*USMCA dokumento kilmės sertifikate* yra mažiausių duomenų elementai, kurių reikia deklaracijai.  Kai kurie duomenų elementai gali būti filtruoti iš anksto spausdinant, kai kiti turi būti užpildyti rankiniu būdu po spausdinimo. Norėdami gauti pirmenybinį tarifo tvarkymą, dokumentas turi būti užpildytas ir jį turėti importuotas deklaracijos padarymo metu. Dokumentą gali užbaigti importuotojas, eksportuotojas ar gamintojas.
+*USMCA dokumento kilmės sertifikate* yra mažiausių duomenų elementai, kurių reikia deklaracijai. Kai kurie duomenų elementai gali būti filtruoti iš anksto spausdinant, kai kiti turi būti užpildyti rankiniu būdu po spausdinimo. Norėdami gauti pirmenybinį tarifo tvarkymą, dokumentas turi būti užpildytas ir jį turėti importuotas deklaracijos padarymo metu. Dokumentą gali užbaigti importuotojas, eksportuotojas ar gamintojas.
 
 Galite spausdinti dokumentą vienam siuntimui iš **Visų siuntimų** sąrašo puslapio arba iš **Siuntimo išsamios informacijos** puslapio.
 

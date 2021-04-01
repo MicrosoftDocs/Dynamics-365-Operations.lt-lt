@@ -16,12 +16,12 @@ ms.search.region: Lithuania
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 279bb4eebcdc181222addd2a35516a4b18469f3e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 01c5055a58a0d9502e27861d2ce588057d8266ba
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5002894"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5235122"
 ---
 # <a name="vat-statement-details-for-lithuania"></a>PVM išrašo informacija, skirta Lietuvai
 

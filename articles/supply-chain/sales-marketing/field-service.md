@@ -1,6 +1,6 @@
 ---
 title: Integravimo su „Microsoft Dynamics 365 Field Service“ apžvalga
-description: Šioje temoje pateikiama integravimo su „Microsoft Dynamics 365 Field Service“ apžvalga.
+description: Šioje temoje pateikiama integravimo su „Microsoft Dynamics 365 Field Service“.
 author: ChristianRytt
 manager: tfehr
 ms.date: 07/25/2019
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 1b1f88c77ed891839adb57c2ba5e2f72f35fda6d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9b0fafd46143979a734151b4011e537991347862
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4998483"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237899"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Integravimo su „Microsoft Dynamics 365 Field Service“ apžvalga
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fca83ef2c80ed6df9cfbdedd2805e453df3f737a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 511cc3459ce5d99f0a3e6dae0a70af0109326118
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006496"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233396"
 ---
 # <a name="transportation-management-overview"></a>Transportavimo valdymo apžvalga
 
@@ -49,17 +49,17 @@ Modulis Transportavimo valdymas suteikia galimybę naudoti jūsų įmonės trans
 <td>Transportavimo valdymo naudojimas gaunamam ir / arba siunčiamam transportavimui.</td>
 </tr>
 <tr class="even">
-<td>Pristatant / paimant galima naudoti pačios įmonės transporto priemonių parką, o pristatymo išlaidos perkeliamos klientams.</td>
-<td>Vykstant siuntimo procesams, naudodami Transportavimo valdymą galite nustatyti transportavimo išlaidas ir jas perkelti klientams. Tačiau nebūtina atlikti vežėjo sąskaitų faktūrų derinimo proceso.</td>
+<td>Pristatant / paimant galima naudoti pačios įmonės&#39;transporto priemonių parką, o pristatymo išlaidos perkeliamos klientams.</td>
+<td>Vykstant siuntimo procesams, naudodami Transportavimo valdymą galite nustatyti transportavimo išlaidas ir jas perkelti klientams. Tačiau nebūtina&#39;atlikti vežėjo sąskaitų faktūrų derinimo proceso.</td>
 </tr>
 <tr class="odd">
-<td>Pristatant / paimant galima naudoti pačios įmonės transporto priemonių parką, tačiau pristatymo išlaidos nėra perkeliamos vartotojams, nes į produktų kainas įtrauktas transportavimas.</td>
-<td>Daugelio Transportavimo valdymo funkcijų nereikia. Tačiau naudodami Transportavimo valdymą galite nustatyti transportavimo tarifus ir atitinkamai pakoreguoti pardavimo kainą.</td>
+<td>Pristatant / paimant galima naudoti pačios įmonės&#39;transporto priemonių parką, tačiau pristatymo išlaidos nėra&#39;perkeliamos vartotojams, nes į produktų kainas įtrauktas transportavimas.</td>
+<td>Daugelio Transportavimo valdymo funkcijų&#39;nereikia. Tačiau naudodami Transportavimo valdymą galite nustatyti transportavimo tarifus ir atitinkamai pakoreguoti pardavimo kainą.</td>
 </tr>
 <tr class="even">
 <td>Logistikos paslaugą teikia kitas tos pačios įmonės juridinis subjektas.</td>
 <td><ul>
-<li>Naudoti Transportavimo valdymą galite kitą juridinį subjektą traktuodami kaip bet kokį kitą vežėją. Ekonominių operacijų tarp juridinių subjektų automatizuoti negalite. Todėl šias operacijas turite tvarkyti rankiniu būdu (pvz., sukurdami pirkimo užsakymą).</li>
+<li>Naudoti Transportavimo valdymą galite kitą juridinį subjektą traktuodami kaip bet kokį kitą vežėją. Ekonominių operacijų tarp juridinių subjektų automatizuoti&#39;negalite. Todėl šias operacijas turite tvarkyti rankiniu būdu (pvz., sukurdami pirkimo užsakymą).</li>
 <li>Juridiniame subjekte, teikiančiame logistikos paslaugas, naudojant Transportavimo valdymą galima nustatyti transportavimo tarifus.</li>
 </ul></td>
 </tr>
