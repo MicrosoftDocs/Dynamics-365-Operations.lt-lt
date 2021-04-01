@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a9b7fe1722c366eb504882c61a337a95500c92ab
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4f7c708aa7f1a858e78cdbda809b90b944606022
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000514"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244796"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Krepšelio ir pirkimo užbaigimo puslapių apžvalga
 
@@ -29,7 +29,7 @@ ms.locfileid: "5000514"
 
 Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ krepšelio valdymo puslapių apžvalga.
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Peržiūra
 
 El. prekybos svetainės krepšelio puslapyje pateikiamos visos prekės, kurias klientas įtraukė į krepšelį. Krepšelio puslapis sukurtas naudojant krepšelio modulį. Krepšelio modulis yra konteineris, kuris turi visus modulius, kurių reikia norint rodyti krepšelio elementus. Be to, krepšelio modulyje galima naudoti ir kitus modulius rodyti užsakymo suvestinę ir visus reklaminius kodus, kurie buvo taikomi kliento užsakymui.
 

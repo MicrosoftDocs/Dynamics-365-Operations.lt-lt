@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b3338e1837496605ce94a54eb57a32b1b83145b
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d0338447cba847f3677f5e3de7144fc75da01ddf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016936"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237381"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Pasiūlymų patvirtinimų (RFQ) apžvalga
 
@@ -80,21 +80,21 @@ Pasirinkite tiekėjui siunčiamo el. pašto pranešimo šabloną puslapyje **Par
 - %Kainos pasiūlymo grąžinimo priežastis%
 - %Pakeitimo priežastis%
 - %Pakeitimą parengė%
-- %Įmonė%
+- „%Company%“
 - %RFQ atvejo pavadinimas%
 - %Galiojimo pabaigos data ir laikas%
-- %Date%
+- „%Date%“
 
-Atpažinimo ženklus %Kainos pasiūlymo grąžinimo priežastis% ir %Pakeitimo priežastis% įsigijimo specialistas pakeičia tekstu, kurį gali įvesti atlikęs šiuos pakeitimus naudodamas vedlį **Pakeitimas**. Atpažinimo ženklų %Pakeitimą parengė% ir %Įmonė% vertės automatiškai paimamos iš RFQ. Atpažinimo ženklas %Date% pakeičiamas esama data.
+Atpažinimo ženklus %Kainos pasiūlymo grąžinimo priežastis% ir %Pakeitimo priežastis% įsigijimo specialistas pakeičia tekstu, kurį gali įvesti atlikęs šiuos pakeitimus naudodamas vedlį **Pakeitimas**. Atpažinimo ženklų %Amendment prepared by% ir %Company% vertės automatiškai paimamos iš RFQ. Atpažinimo ženklas %Date% pakeičiamas esama data.
 
 Jei norite atšaukti RFQ po to, kai jis buvo išsiųstas, tai galite atlikti iš RFQ atvejo. Norint atšaukti, atšaukimo pranešimui nusiųsti tiekėjo kontaktiniams asmenims turi būti naudojamas el. laiško šablonas. Šabloną reikia pasirinkti puslapyje **Paraiškų parametrai**. Kai sukuriamas šablonas, jame gali būti toliau nurodytų pakeitimo atpažinimo ženklų.
 
 - %Nutraukimo priežastis%
 - %RFQ atvejis%
 - %RFQ nutraukta%
-- %Įmonė%
+- „%Company%“
 - %RFQ atvejo pavadinimas%
-- %Date%
+- „%Date%“
 
 Atpažinimo ženklas %Reason for cancellation% pakeičiamas tekstu, kurį įsigijimo specialistas gali įvesti vedlyje **Atšaukimas**. Atpažinimo ženklas %Date% pakeičiamas esama data.
 
