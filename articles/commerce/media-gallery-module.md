@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 045568797722a621ea4e6c82d10dbb266b9e8162
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e9b5a8123c64dce2ba65758f0312a899646cf948
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982471"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252563"
 ---
 # <a name="media-gallery-module"></a>Medijos galerijos modulis
 
 [!include [banner](includes/banner.md)]
 
 Šis skyrius aprašo medijos galerijos modulius ir tia, kaip įtraukti juos į vietos puslapius „Microsoft Dynamics 365 Commerce“.
-
-## <a name="overview"></a>Peržiūra
 
 Medijos galerijos moduliai rodo vieną ar keletą paveikslėlių galerijos peržiūroje. Medijos galerijos moduliai palaiko miniatūros vaizdus, kurie gali būti tvarkomi horizontaliai (kaip toliau esantis paveikslėlis) ar vertikaliai (kaip stulpelis šalia paveikslėlio). Medijos galerijos moduliai taip pat pateikia galimybes, kurios įjungia paveikslėlio priartinimą (pagerintą) ar peržiūrą visame ekrane. Tam, kad būtų sukurtas medijos galerijos režime, paveikslėlis turi būti prieinamas prekybos sveitainės kūrimo įrankyje „Media Library“. Šiuo metu medijos galerijos moduliai palaiko tik paveikslėlius.
 
