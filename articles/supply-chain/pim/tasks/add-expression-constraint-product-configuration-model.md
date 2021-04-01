@@ -15,38 +15,41 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 411e20bd8631b70df981c5785f502693d5ba3705
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 81026d8622d3f03b3b87747800f4845cda823569
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4987134"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5256164"
 ---
-# <a name="add-an-expression-constraint-to-a-product-configuration-model"></a><span data-ttu-id="180b5-103">Įtraukti išraiškos apribojimą į produkto konfigūravimo modelį</span><span class="sxs-lookup"><span data-stu-id="180b5-103">Add an expression constraint to a product configuration model</span></span>
+# <a name="add-an-expression-constraint-to-a-product-configuration-model"></a><span data-ttu-id="21655-103">Įtraukti išraiškos apribojimą į produkto konfigūravimo modelį</span><span class="sxs-lookup"><span data-stu-id="21655-103">Add an expression constraint to a product configuration model</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="180b5-104">Ši procedūra nurodo, kaip į produkto konfigūracijos modelį galima įtraukti naują apribojimo išraišką.</span><span class="sxs-lookup"><span data-stu-id="180b5-104">This procedure shows how you can add a new constraint expression to a product configuration model.</span></span> <span data-ttu-id="180b5-105">Jame parodoma, kaip galima įgalioti, kad kampo apsauga turi būti taikoma garsiakalbiui, jei vartotojas pasirinko priekines metalo groteles.</span><span class="sxs-lookup"><span data-stu-id="180b5-105">It shows how you can mandate that corner protection must be applied to a speaker if the user has selected a front grill in metal.</span></span> <span data-ttu-id="180b5-106">Procedūros metu naudojamas aukščiausios klasės garsiakalbio komponentas demonstracinės įmonės USMF.</span><span class="sxs-lookup"><span data-stu-id="180b5-106">The procedure uses the High end speaker component in the demo company USMF.</span></span>
+<span data-ttu-id="21655-104">Ši procedūra nurodo, kaip į produkto konfigūracijos modelį galima įtraukti naują apribojimo išraišką.</span><span class="sxs-lookup"><span data-stu-id="21655-104">This procedure shows how you can add a new constraint expression to a product configuration model.</span></span> <span data-ttu-id="21655-105">Jame parodoma, kaip galima įgalioti, kad kampo apsauga turi būti taikoma garsiakalbiui, jei vartotojas pasirinko priekines metalo groteles.</span><span class="sxs-lookup"><span data-stu-id="21655-105">It shows how you can mandate that corner protection must be applied to a speaker if the user has selected a front grill in metal.</span></span> <span data-ttu-id="21655-106">Procedūros metu naudojamas aukščiausios klasės garsiakalbio komponentas demonstracinės įmonės USMF.</span><span class="sxs-lookup"><span data-stu-id="21655-106">The procedure uses the High end speaker component in the demo company USMF.</span></span>
 
 
-## <a name="create-an-expression-constraint"></a><span data-ttu-id="180b5-107">Kaip sukurti išraiškos apribojimą</span><span class="sxs-lookup"><span data-stu-id="180b5-107">Create an expression constraint</span></span>
-1. <span data-ttu-id="180b5-108">Spustelėkite Produkto varianto modelio aprašą.</span><span class="sxs-lookup"><span data-stu-id="180b5-108">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="180b5-109">Spustelėkite Produkto konfigūracijos modeliai.</span><span class="sxs-lookup"><span data-stu-id="180b5-109">Click Product configuration models.</span></span>
-3. <span data-ttu-id="180b5-110">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="180b5-110">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="180b5-111">Šiame pavyzdyje naudojamas aukščiausios klasės garsiakalbio modelis.</span><span class="sxs-lookup"><span data-stu-id="180b5-111">This example uses the high end speaker model.</span></span>  
-4. <span data-ttu-id="180b5-112">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="180b5-112">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="180b5-113">Išplėskite skyrių Apribojimai.</span><span class="sxs-lookup"><span data-stu-id="180b5-113">Expand the Constraints section.</span></span>
-6. <span data-ttu-id="180b5-114">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="180b5-114">Click Add.</span></span>
-7. <span data-ttu-id="180b5-115">Spustelėkite Kurti.</span><span class="sxs-lookup"><span data-stu-id="180b5-115">Click Create.</span></span>
-8. <span data-ttu-id="180b5-116">Lauke Pavadinimas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="180b5-116">In the Name field, type a value.</span></span>
+## <a name="create-an-expression-constraint"></a><span data-ttu-id="21655-107">Kaip sukurti išraiškos apribojimą</span><span class="sxs-lookup"><span data-stu-id="21655-107">Create an expression constraint</span></span>
+1. <span data-ttu-id="21655-108">Spustelėkite Produkto varianto modelio aprašą.</span><span class="sxs-lookup"><span data-stu-id="21655-108">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="21655-109">Spustelėkite Produkto konfigūracijos modeliai.</span><span class="sxs-lookup"><span data-stu-id="21655-109">Click Product configuration models.</span></span>
+3. <span data-ttu-id="21655-110">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="21655-110">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="21655-111">Šiame pavyzdyje naudojamas aukščiausios klasės garsiakalbio modelis.</span><span class="sxs-lookup"><span data-stu-id="21655-111">This example uses the high end speaker model.</span></span>  
+4. <span data-ttu-id="21655-112">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="21655-112">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="21655-113">Išplėskite skyrių Apribojimai.</span><span class="sxs-lookup"><span data-stu-id="21655-113">Expand the Constraints section.</span></span>
+6. <span data-ttu-id="21655-114">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="21655-114">Click Add.</span></span>
+7. <span data-ttu-id="21655-115">Spustelėkite Kurti.</span><span class="sxs-lookup"><span data-stu-id="21655-115">Click Create.</span></span>
+8. <span data-ttu-id="21655-116">Lauke Pavadinimas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="21655-116">In the Name field, type a value.</span></span>
 
-## <a name="enter-expression"></a><span data-ttu-id="180b5-117">Įvesti išraišką</span><span class="sxs-lookup"><span data-stu-id="180b5-117">Enter expression</span></span>
-1. <span data-ttu-id="180b5-118">Spustelėkite Redaguoti išraišką.</span><span class="sxs-lookup"><span data-stu-id="180b5-118">Click Edit expression.</span></span>
-    * <span data-ttu-id="180b5-119">Jei atrakinsite vartotojo sąsają užduočių įrašymo metu šiame etape, galite naudoti „IntelliSense“ ir simbolių sąrašą apribojimo išraiškai sukurti.</span><span class="sxs-lookup"><span data-stu-id="180b5-119">If you unlock the user interface in the task recording at this stage, you can use IntelliSense and the list of symbols to build the constraint expression .</span></span>  
-2. <span data-ttu-id="180b5-120">Lauke „ConstraintBody“ įveskite 'Implies[FrontGrill=="Metal", CornerProtection]'.</span><span class="sxs-lookup"><span data-stu-id="180b5-120">In the ConstraintBody field, enter 'Implies[FrontGrill=="Metal", CornerProtection] '.</span></span>
-    * <span data-ttu-id="180b5-121">Šios išraiškos logika nurodo: jei priekyje grotelės yra metalinės, tada turi būti pasirinkta kampo apsaugos pasirinktis.</span><span class="sxs-lookup"><span data-stu-id="180b5-121">This expression logic states: If the Front grill is  metal, then the corner protection option must be selected.</span></span>  
-3. <span data-ttu-id="180b5-122">Spustelėkite Tikrinti.</span><span class="sxs-lookup"><span data-stu-id="180b5-122">Click Validate.</span></span>
-    * <span data-ttu-id="180b5-123">Patikrinimo funkcija patikrina apribojimo išraišką, ar joje nėra sintaksės klaidų.</span><span class="sxs-lookup"><span data-stu-id="180b5-123">The validate function runs through the constraint expression and checks for syntax errors.</span></span>  
-4. <span data-ttu-id="180b5-124">Spustelėkite Uždaryti.</span><span class="sxs-lookup"><span data-stu-id="180b5-124">Click Close.</span></span>
-5. <span data-ttu-id="180b5-125">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="180b5-125">Click OK.</span></span>
+## <a name="enter-expression"></a><span data-ttu-id="21655-117">Įvesti išraišką</span><span class="sxs-lookup"><span data-stu-id="21655-117">Enter expression</span></span>
+1. <span data-ttu-id="21655-118">Spustelėkite Redaguoti išraišką.</span><span class="sxs-lookup"><span data-stu-id="21655-118">Click Edit expression.</span></span>
+    * <span data-ttu-id="21655-119">Jei atrakinsite vartotojo sąsają užduočių įrašymo metu šiame etape, galite naudoti „IntelliSense“ ir simbolių sąrašą apribojimo išraiškai sukurti.</span><span class="sxs-lookup"><span data-stu-id="21655-119">If you unlock the user interface in the task recording at this stage, you can use IntelliSense and the list of symbols to build the constraint expression .</span></span>  
+2. <span data-ttu-id="21655-120">Lauke „ConstraintBody“ įveskite 'Implies[FrontGrill=="Metal", CornerProtection]'.</span><span class="sxs-lookup"><span data-stu-id="21655-120">In the ConstraintBody field, enter 'Implies[FrontGrill=="Metal", CornerProtection] '.</span></span>
+    * <span data-ttu-id="21655-121">Šios išraiškos logika nurodo: jei priekyje grotelės yra metalinės, tada turi būti pasirinkta kampo apsaugos pasirinktis.</span><span class="sxs-lookup"><span data-stu-id="21655-121">This expression logic states: If the Front grill is  metal, then the corner protection option must be selected.</span></span>  
+3. <span data-ttu-id="21655-122">Spustelėkite Tikrinti.</span><span class="sxs-lookup"><span data-stu-id="21655-122">Click Validate.</span></span>
+    * <span data-ttu-id="21655-123">Patikrinimo funkcija patikrina apribojimo išraišką, ar joje nėra sintaksės klaidų.</span><span class="sxs-lookup"><span data-stu-id="21655-123">The validate function runs through the constraint expression and checks for syntax errors.</span></span>  
+4. <span data-ttu-id="21655-124">Spustelėkite Uždaryti.</span><span class="sxs-lookup"><span data-stu-id="21655-124">Click Close.</span></span>
+5. <span data-ttu-id="21655-125">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="21655-125">Click OK.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
