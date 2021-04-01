@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a09ac2c3c198bf7d7d34a1ae1739af6b62d8dce7
-ms.sourcegitcommit: 2093c9dc31d1b60b3114085d9cef48fdbbb0ca0d
+ms.openlocfilehash: 16ae9ac066f30744dc99c6fa1c671a0a96fd803d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5118660"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5242861"
 ---
 # <a name="regulatory-updates"></a>Reguliavimo naujinimai
 
@@ -48,7 +48,7 @@ Naujausių reglamentavimo naujinių planų ieškokite toliau pateiktoje lentelė
 |      Brazilija         |   2020 m. spalis, 2020 m. lapkritis      | 10.0.16, 10.0.15HF      |   SPED Fiscal – 015 maketas   |
 |      Brazilija         |   2020 m. spalio mėn.      | 10.0.16      |   DRCST deklaracija SC – SEF 262/2020   |
 |      Brazilija         |   2020 m. spalio mėn.      | 10.0.16      |   SPED Fiscal ICMS / IPI įrašas C176   |
-|      Brazilija         |   2020 m. gruodžio mėn.      | 10.0.17, 10.0.16HF, 10.0.15HF      |   NF-e NT2020.006  - Skaitmeninės plaformos tarpininkas (Išdėstymas ir patvirtinimo taisyklių naujinimai)   |
+|      Brazilija         |   2020 m. gruodžio mėn.      | 10.0.17, 10.0.16HF, 10.0.15HF      |   NF-e NT2020.006 - Skaitmeninės plaformos tarpininkas (Išdėstymas ir patvirtinimo taisyklių naujinimai)   |
 |      Europa        |   Sausio 2021 d.       | 10.0.17, 10.0.16HF, 10.0.15HF      |   Brexit - Šiaurės Airijos protokolo poveikis tarp Bendrijos vidaus prekybos ataskaitos ES šalyse  |
 |      Vokietija        |   Sausio 2021 d.       | 10.0.16HF      |   ELSTER UstVA VAT išankstinio pranešimo formatai buvo išplėsti su dviem naujomis dėžėmis 37,50 neatšaukiamoms nurašomoms skoloms  |
 |      Vokietija        |   Sausio 2021 d.       | 10.0.17      |   Pasikeitimai ELSTER PVM pradžios pranešimo XML struktūroje (UstVA)  |

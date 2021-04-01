@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 594a5bc8762d4c3fdc0bfd901ab97262b0f67a53
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: b375e1916344d94c2eaf2d951cd72744917d9edf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016758"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246650"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Tiekėjo bendradarbiavimas su išoriniais tiekėjais
 
@@ -92,7 +92,7 @@ Toliau pateikiamoje lentelėje parodomas įprastas keitimasis informacija, atsi�
 <tbody>
 <tr class="even">
 <td>Tiekėjas <strong>priima</strong> užsakymą ir Tiekimo grandinės valdymas sukonfigūruotas automatiškai patvirtinti PU, kai juos priima tiekėjas.</td>
-<td>Užsakymo būsena atnaujinama į <strong>Patvirtinta</strong>. Jei dėl kokios nors priežasties užsakymo atnaujinti nepavyksta, tiekėjo atsakymas vis tiek įrašomas kaip <strong>Priimta</strong>, tačiau PU būsena lieka <strong>Peržiūrima išorėje</strong>. 
+<td>Užsakymo būsena atnaujinama į <strong>Patvirtinta</strong>. Jei dėl kokios nors priežasties užsakymo atnaujinti&#39;nepavyksta, tiekėjo atsakymas vis tiek įrašomas kaip <strong>Priimta</strong>, tačiau PU būsena lieka <strong>Peržiūrima išorėje</strong>. 
 
 PU, kuris buvo išsiųstas tiekėjui ir kurio būsena <strong>Peržiūrima išorėje</strong>, atnaujinamas eilutėse patvirtintomis pristatymo datomis. Šis naujinimas inicijuoja naują versiją, kuri automatiškai nustatoma į būseną <strong>Patvirtinta</strong>. Kai PU patvirtinamas, jis pasirodys tiekėjo bendradarbiavimo sąsajoje.</td>
 </tr>
@@ -104,7 +104,7 @@ PU, kuris buvo išsiųstas tiekėjui ir kurio būsena <strong>Peržiūrima išor
 </tr>
 <tr class="even">
 <td>Tiekėjas <strong>atmeta</strong> užsakymą.</td>
-<td>Tiekėjo atsakymas įrašomas kaip <strong>Atmesta</strong> ir PU būsena lieka <strong>Peržiūrima išorėje</strong>. Atmetimas gaunamas kartu su tiekėjo pastaba.</td>
+<td>Tiekėjo atsakymas įrašomas kaip <strong>Atmesta</strong> ir PU būsena lieka <strong>Peržiūrima išorėje</strong>. Atmetimas gaunamas kartu su tiekėjo&#39;pastaba.</td>
 </tr>
 <tr class="odd">
 <td>Tiekėjas <strong>priima</strong> užsakymą <strong>su pakeitimais</strong>. Pakeitimai siūlomi eilutės lygiu. Tiekėjas gali priimti arba atmesti atskiras eilutes. Toliau nurodyti kai kurie kiti pakeitimai, kuriuos tiekėjas gali pasiūlyti.
@@ -113,7 +113,7 @@ PU, kuris buvo išsiųstas tiekėjui ir kurio būsena <strong>Peržiūrima išor
 <li>Suskaldykite eilutes naudodami skirtingas pristatymo datas arba kiekius.</li>
 <li>Pakeisti prekę.</li>
 </ul>
-Tiekėjas negali keisti kainų informacijos ir išlaidų. Tačiau tiekėjas gali pasiūlyti šiuos pakeitimus naudodamas pažymas.</td>
+Tiekėjas negali&#39;keisti kainų informacijos ir išlaidų. Tačiau tiekėjas gali pasiūlyti šiuos pakeitimus naudodamas pažymas.</td>
 <td>Tiekėjo atsakymas įrašomas kaip <strong>Priimtas su pakeitimais</strong>, o PU būsena lieka <strong>Peržiūrima išorėje</strong>. Būsenos rodo, kokių tipų pakeitimus tiekėjas pasiūlė. Informacijos apie automatinį pakeitimų naudojimą rasite tolesniame šios temos skyriuje &quot;PU naujinimas, kai tiekėjas pasiūlo pakeitimų&quot;. </td>
 </tr>
 </tbody>
@@ -246,16 +246,16 @@ Viešajame sektoriuje išplėstinės funkcijos suteikia galimybę RFQ atvejį i�
 
 Vartotojas, kuris nustato RFQ proceso parametrus, gali kurti kelis el. laiškų šablonus. Šie el. laiškų šablonai gali apimti statinį tekstą ir toliau nurodytus pakeitimo atpažinimo ženklus. Atpažinimo ženklai bus pakeisti kontekstinėmis reikšmėmis, kai el. laiškas bus sukurtas.
 
-- %RFQCase%
-- %RFQCaseName%
-- %bidType%
-- %inviteOnly%
-- %expiryDateTime%
-- %requester%
-- %requestingDepartment%
-- %accountnum%
-- %todaysdate%
-- %createddate%
+- „%RFQCase%“
+- „%RFQCaseName%“
+- „%bidType%“
+- „%inviteOnly%“
+- „%expiryDateTime%“
+- „%requester%“
+- „%requestingDepartment%“
+- „%accountnum%“
+- „%todaysdate%“
+- „%createddate%“
 
 Jei pakeitimas yra būtinas ir yra išsiunčiamas po to, kai išsiunčiama RFQ, RFQ bus pakartotinai išsiųsta visiems pakviestiems tiekėjams. Publikuotas dokumentas taip pat bus atnaujinamas puslapyje **Atviri paskelbti pasiūlymų patvirtinimai**.
 
