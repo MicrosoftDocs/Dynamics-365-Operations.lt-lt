@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 51be70edbe1439340377fd01b9760d49d3a75348
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: aeb3d66ad24f96efea1b0ea9828a537f8853c94b
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115517"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465491"
 ---
 # <a name="submit-a-leave-request-to-workflow"></a>Prašymo išeiti atostogų pateikimas darbo eigai
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 „Microsoft Dynamics 365 Human Resources“ galite naudoti „MyLeaveRequests submit()“ taikomojo programavimo sąsają (API), kad pateiktumėte atostogų prašymų į darbo eigą. Ši API pateikiamas kaip veiksmas „MyLeaveRequestst OData“ objekte.
 

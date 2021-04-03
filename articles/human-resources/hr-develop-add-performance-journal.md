@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 574925f0e278ad7bd3c654432fd0f862fd3c3259
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: a865ee37ed650c564961f6b3dd8773eea4f7b9ea
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115877"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465635"
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Našumo žurnalo įtraukimas ir tam tikro asmens pagyrimo siuntimas
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Našumo žurnale pateikiama informacija, susijusi su tuo, kaip jus pasiekėte savo tikslus arba koks buvo jūsų našumas per pasirinktą laikotarpį. Taip pat galite pagirti bendradarbio veiksmus naudodami žurnalą. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Ši procedūra yra skirta į 1611 „Dynamics 365 for Operations“ versiją įtrauktai funkcijai aprašyti.
 

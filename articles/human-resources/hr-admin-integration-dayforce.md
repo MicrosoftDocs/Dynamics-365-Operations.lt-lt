@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 044a2d2f632b2c98ce94b6d61c2582a861640b68
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 2d5f65672960716bee3f58c98ccce249fdbf8697
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113548"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467150"
 ---
 # <a name="configure-integration-with-dayforce"></a>Integravimo su „Dayforce “ konfigūravimas
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Integravimas tarp „Microsoft Dynamics 365 Human Resources“ ir „Ceridian Dayforce“ paremtas keliais konfigūravimo veiksmais, aprašytais šiame straipsnyje. Prieš mokėjimo vykdymo apdorojimą turite sukonfigūruoti integravimą tiek „Human Resources“, tiek „Dayforce“.
 

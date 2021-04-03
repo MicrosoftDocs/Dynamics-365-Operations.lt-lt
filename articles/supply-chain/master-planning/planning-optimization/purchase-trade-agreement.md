@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: e060f20b65153a7bbe70996e6ff4c3930468348a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d8d5b8c7ac5da9c68926d7fbb4f37b81b56665cb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992250"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264727"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Bendrasis planavimas su įsigijimo prekybos sutartimis
 
@@ -73,12 +73,12 @@ Kai jūsų sistema bus parengta, kaip aprašyta ankstesniame skyriuje, atlikite 
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Planavimo optimizavimo, kuris nustato tiekėjo ir gamybos laiką, pavyzdžiai
 
-Tolesnėje lentelėje pateikiami pavyzdžiai, kurie rodo, kaip įvairūs išleistų produktų parametrai ir su jais susijusios pirkimo prekybos sutartys lemia sukurto suplanuoto pirkimo užsakymo reikšmes. **Paryškintos** reikšmės dviejuose dešiniausiuose stulpeliuose yra planavimo optimizavimo pasirinktos reikšmės. Kituose stulpeliuose esančios **_paryškintos ir pasviros_* _ reikšmės yra parametrai, pagal kuriuos buvo sudarytos kiekvienos eilutės reikšmės.
+Tolesnėje lentelėje pateikiami pavyzdžiai, kurie rodo, kaip įvairūs išleistų produktų parametrai ir su jais susijusios pirkimo prekybos sutartys lemia sukurto suplanuoto pirkimo užsakymo reikšmes. **Paryškintos** reikšmės dviejuose dešiniausiuose stulpeliuose yra planavimo optimizavimo pasirinktos reikšmės. Kituose stulpeliuose esančios **_paryškintos ir pasviros_** reikšmės yra parametrai, pagal kuriuos buvo sudarytos kiekvienos eilutės reikšmės.
 
 | Išleistas produktas: tiekėjas | Numatytieji užsakymo parametrai: gamybos laikas | Prekės padengimas: nepaisyti tiekėjo | Prekės padengimas: nepaisyti gamybos laiko | Prekybos sutartis: tiekėjas | Prekybos sutartis: gamybos laikas | Prekybos sutartis: nepaisyti gamybos laiko | Gautas tiekėjas | Gautas gamybos laikas |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| _*_„US001”_*_ | _*_„1”_*_ | nr. | nr. | US003 | 3 | nr. | _ *„US001”** | **1** |
-| US001 | 1 | **_Taip: US002_* _ | _*_Taip: 2_*_ | US003 | 3 | nr. | _ *„US002”** | **2** |
+| ***„US001”** _ | _*_„1”_*_ | nr. | nr. | US003 | 3 | nr. | _ *„US001”** | **1** |
+| US001 | 1 | ***Taip: US002** _ | _*_Taip: 2_*_ | US003 | 3 | nr. | _ *„US002”** | **2** |
 | *(tuščia)* | 1 | nr. | nr. | ***„US003”** _ | _*_„3”_*_ | nr. | _ *„US003”** | **3** |
 | *(tuščia)* | ***„1”** _ | nr. | nr. | _*_„US003”_*_ | 3 | Taip | _ *„US003”** | **1** |
 | *(tuščia)* | ***„1”** _ | _*_Taip: US002_*_ | nr. | US003 | 3 | nr. | _ *„US002”** | **1** |

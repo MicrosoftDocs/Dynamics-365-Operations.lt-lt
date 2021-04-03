@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2943d0095e4c9421725b90e579b7cbb841038ab7
-ms.sourcegitcommit: d02fae79d5c02a4bc4f4b16a410c2f5ce026c204
+ms.openlocfilehash: 31f30c3d268132327074e931b714b5b2ee3ec5ac
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "4984605"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466645"
 ---
 # <a name="configure-benefits-management-parameters-per-company"></a>Konfigūruoti priedų valdymo parametrus įmonei
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Kiekvienai organizacijai, kuri siūlo priedus, turite sukonfigūruoti nustatymus skirtus priedų patvirtinimo el. laiškams.
 
@@ -38,7 +40,7 @@ Kiekvienai organizacijai, kuri siūlo priedus, turite sukonfigūruoti nustatymus
    | Laukas | aprašymas |
    | --- | --- |
    | **Siųsto patvirtinimo el. laišką** | Įjungus šią funkciją, patvirtinimo el. laiškas bus nusiųstas darbuotojams, kai jie išsiregistruos iš naudų įtraukimo patirties darbuotojo savitarnoje. |
-   | **Patvirtinimo el. laiško šablonas** | Pasirinkite organizacijos el. laiško šabloną, kuris bus naudojamas siunčiant įsitraukimo patvirtinimą. Jei nepsirinksite šablono, tolesnis bendras el. laiškas bus nusiųstas:<br><br>%Darbuotojovardas%,<br><br>Sveikiname! Sėkmingai užbaigėte priedų įtraukimą.<br><br>Dėkojame,<br><Įmonės/Organizacijos pavadinimas> Priedai. |
+   | **Patvirtinimo el. laiško šablonas** | Pasirinkite organizacijos el. laiško šabloną, kuris bus naudojamas siunčiant įsitraukimo patvirtinimą. Jei nepsirinksite šablono, tolesnis bendras el. laiškas bus nusiųstas:<br><br>%EmployeeFirstName%,<br><br>Sveikiname! Sėkmingai užbaigėte priedų įtraukimą.<br><br>Dėkojame,<br><Įmonės/Organizacijos pavadinimas> Priedai. |
    | **Numatytojo el. pašto siuntėjo adresas** | El. pašto adresas naudojamas siunčiant patvirtinimo el. laišką. |
 
 3. Pasirinkite **Įrašyti**.

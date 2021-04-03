@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c382299014e3f823bc2cd210749aae8c091c5f23
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 7b1f2fd953c1678a5099f4f3b5cf08fa6674f4db
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113582"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466043"
 ---
 # <a name="configure-life-event-types"></a>Gyvenimo įvykių tipų konfigūravimas
 
-„Microsoft Dynamics 365 Human Resources“ vartotojų gyvenimo įvykių tipai, apibrėžiantys įvykius, kurie tinka darbuotojų išmokų registracijai atnaujinti. Pavyzdžiui, santuoka ar vaiko gimimas. Kiekvienas gyvenimo įvykio tipo ID gali būti susietas tik su vienu gyvenimo įvykio tipu. Pavyzdžiui, jei sukūrėte gyvenimo įvykio ID pavadinimu „Adreso pasikeitimas“, kuris yra susietas su gyvenimo įvykio tipu „Darbuotojo adreso pasikeitimas“, negalite sukurti kito ID pavadinimu „Darbuotojo adreso pasikeitimas“, ir susieti jį su gyvenimo įvykio tipu „Darbuotojo adreso pasikeitimas“. 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+„Dynamics 365 Human Resources“ vartotojų gyvenimo įvykių tipai, apibrėžiantys įvykius, kurie tinka darbuotojų išmokų registracijai atnaujinti. Pavyzdžiui, santuoka ar vaiko gimimas. Kiekvienas gyvenimo įvykio tipo ID gali būti susietas tik su vienu gyvenimo įvykio tipu. Pavyzdžiui, jei sukūrėte gyvenimo įvykio ID pavadinimu „Adreso pasikeitimas“, kuris yra susietas su gyvenimo įvykio tipu „Darbuotojo adreso pasikeitimas“, negalite sukurti kito ID pavadinimu „Darbuotojo adreso pasikeitimas“, ir susieti jį su gyvenimo įvykio tipu „Darbuotojo adreso pasikeitimas“. 
 
 Sukūrę gyvenimo įvykių tipus, turite susieti juos su planų tipais. Daugiau informacijos žr. dalyje [Planų tipų kūrimas](hr-benefits-setup-plan-types.md).
 
