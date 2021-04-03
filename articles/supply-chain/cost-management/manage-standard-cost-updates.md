@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CostingVersion, InventItemPrice
+ms.search.form: CostingVersion, InventItemPrice, InventParameters
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 69992
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 166d12d707deabc59f7613a5016851b30fcc42d8
-ms.sourcegitcommit: 41baf654a2553cfe5c715feb9cc03e48cfc12598
+ms.openlocfilehash: fc4ae40e9740ce76e79b76c2bff2c690568abff2
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024675"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500603"
 ---
 # <a name="manage-standard-cost-updates"></a>Standartinių savikainos atnaujinimų valdymas
 
@@ -45,6 +45,8 @@ Dviejų versijų būdui naudojama viena versija, kurioje yra pradinės savikaino
 Šiame pavyzdyje naudojama viena papildoma įkainojimo versija naujinimų valdymui 2020 m. Gali būti naudojama daugiau nei viena papildoma įkainojimo versija, pavyzdžiui, atskira versija kiekvienam naujinimo paketui. Kai naudojamas daugiau nei vienas papildomas sąnaudų skaičiavimas, atsarginius duomenis reikia išreikšti kaip aktyvią savikainą, nes aktyvi savikaina paskirstoma kelioms savikainos versijoms.
 
 ## <a name="financial-dimensions-for-the-standard-cost-revaluation"></a>Standartinio savikainos perkainojimo finansinės dimensijos
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Naujos standartinės kainos aktyvinimas paprastai perkainos turimų atsargų vertę naudojant standartines savikainos perkainojimo operacijas. Paprastai tada prekės finansinės dimensijos yra užregistruojamos operacijose. Tačiau, jei norite kontroliuoti, ar ir kaip finansinės dimensijos yra registruojamos, naudokite [funkcijos valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tam, kad įjungtumėte funkciją *Numatytųjų finansinių dimensijų atsargų standartiniam savikainos perkainojimui parinktys*. Įgalinę šią funkciją eikite į **Išlaidų valdymas > Atsargų apskaitos strategijų nustatymas > Parametrai** ir nustatykite naują išplečiamąjį sąrašą **Finansinės dimensijos kilmė** į vien iš šių reikšmių:
 

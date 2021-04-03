@@ -3,7 +3,7 @@ title: El. laiškų šablonų, skirtų operacijų įvykiams, kūrimas
 description: Šioje temoje aprašoma, kaip kurti, įkelti ir konfigūruoti operacijų įvykių el. laiškų šablonus „Microsoft Dynamics 365 Commerce”.
 author: bicyclingfool
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 245ca998ef3e6d172df3525f06d7901f3f41b650
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 756e2a64ef4c33c347106968eb6bc79a413c3ff7
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000790"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555250"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>El. laiškų šablonų, skirtų operacijų įvykiams, kūrimas
 
@@ -39,7 +39,7 @@ Kad galėtumėte susieti konkretų operacijų įvykį su el. laiško šablonu, t
 
 Norėdami sukurti el. pašto šabloną, atlikite toliau nurodytus veiksmus.
 
-1. „Commerce“ pagrindiniame komponente eikite į **Organizacijos el. laiškų šablonai**, kurie yra **Mažmeninė prekyba ir prekyba \> Būstinės sąranka \> Organizacijos el. laiškų šablonai** arba **Organizacijos administravimas \> Sąranka \> Organizacijos el. laiškų šablonai**.
+1. „Commerce“ valdymo srityje eikite į **Mažmeninė prekyba ir komercija \> Valdymo srities sąranka \> Įmonės el. laiškų šablonai** arba **Įmonės administravimas\> Sąranka \> Įmonės el. laiškų šablonai**.
 1. Pasirinkite **Naujas**.
 1. Dalyje **Bendra** nustatykite tolesnius laukus.
 
@@ -78,28 +78,29 @@ Toliau pateikiamas pavyzdys.
 
 Tolesni vietos rezervavimo ženklai nuskaito ir rodo duomenis, nurodytus pardavimo užsakymo lygiu (o ne pardavimo eilutės lygiu).
 
-| Vietos rezervavimo ženklo pavadinimas    | Vietos rezervavimo ženklo reikšmė                                                |
-|---------------------|------------------------------------------------------------------|
-| customername        | Kliento, kuris pateikė užsakymą, vardas.                   |
-| salesid             | Užsakymo pardavimo ID.                                       |
-| deliveryaddress     | Išsiųstų užsakymų pristatymo adresas.                         |
-| customeraddress     | Kliento adresas.                                     |
-| deliverydate        | Pristatymo data.                                               |
-| shipdate            | Siuntimo data.                                                   |
-| modeofdelivery      | Užsakymo pristatymo būdas.                                  |
-| charges             | Bendros užsakymo išlaidos.                                 |
-| tax                 | Bendra užsakymo mokesčių suma.                                     |
-| total               | Bendroji užsakymo suma.                                  |
-| ordernetamount      | Bendroji užsakymo suma, atėmus bendrą mokesčių sumą.             |
-| discount            | Bendra užsakymo nuolaida.                                |
-| storename           | Parduotuvės, kurioje buvo pateiktas užsakymas, pavadinimas.                |
-| storeaddress        | Parduotuvės, pateikusios užsakymą, adresas.                  |
-| storeopenfrom       | Parduotuvės, pateikusios užsakymą, atidarymo laikas.             |
-| storeopento         | Parduotuvės, pateikusios užsakymą, uždarymo laikas.             |
-| pickupstorename     | Parduotuvės, kurioje bus paimtas užsakymas, pavadinimas.         |
-| pickupstoreaddress  | Parduotuvės, kurioje bus paimtas užsakymas, adresas.      |
-| pickupopenstorefrom | Parduotuvės, kurioje bus paimtas užsakymas, atidarymo laikas. |
-| pickupopenstoreto   | Parduotuvės, kurioje bus paimtas užsakymas, uždarymo laikas. |
+| Vietos rezervavimo ženklo pavadinimas     | Vietos rezervavimo ženklo reikšmė                                            |
+| -------------------- | ------------------------------------------------------------ |
+| customername         | Kliento, kuris pateikė užsakymą, vardas.               |
+| salesid              | Užsakymo pardavimo ID.                                   |
+| deliveryaddress      | Išsiųstų užsakymų pristatymo adresas.                     |
+| customeraddress      | Kliento adresas.                                 |
+| kliento el. pašto adresas | El. pašto adresas, kurį klientas įvedė išsiregistruodamas.     |
+| deliverydate         | Pristatymo data.                                           |
+| shipdate             | Siuntimo data.                                               |
+| modeofdelivery       | Užsakymo pristatymo būdas.                              |
+| charges              | Bendros užsakymo išlaidos.                             |
+| tax                  | Bendra užsakymo mokesčių suma.                                 |
+| total                | Bendroji užsakymo suma.                              |
+| ordernetamount       | Bendroji užsakymo suma, atėmus bendrą mokesčių sumą.         |
+| discount             | Bendra užsakymo nuolaida.                            |
+| storename            | Parduotuvės, kurioje buvo pateiktas užsakymas, pavadinimas.            |
+| storeaddress         | Parduotuvės, pateikusios užsakymą, adresas.              |
+| storeopenfrom        | Parduotuvės, pateikusios užsakymą, atidarymo laikas.         |
+| storeopento          | Parduotuvės, pateikusios užsakymą, uždarymo laikas.         |
+| pickupstorename      | Parduotuvės, kurioje bus paimtas užsakymas, pavadinimas.     |
+| pickupstoreaddress   | Parduotuvės, kurioje bus paimtas užsakymas, adresas.  |
+| pickupopenstorefrom  | Parduotuvės, kurioje bus paimtas užsakymas, atidarymo laikas. |
+| pickupopenstoreto    | Parduotuvės, kurioje bus paimtas užsakymas, uždarymo laikas. |
 
 ### <a name="order-line-placeholders-sales-line-level"></a>Užsakymo eilučių vietos rezervavimo ženklai (pardavimo eilutės lygiu)
 
@@ -169,11 +170,8 @@ Toliau pateikiamas pavyzdys.
 
 Kvitus galima siųsti el. paštu klientams, perkantiems mažmeninės prekybos elektroniniame kasos aparate (EKA). Paprastai veiksmai, skirti el. paštu siunčiamų kvitų šablonui kurti, yra tokie patys kaip veiksmai, skirti kitų operacijų įvykių šablonams kurti. Tačiau būtini tolesni keitimai.
 
-- El. laiško šablono el. pašto ID turi būti **emailRecpt**.
-- Kvito tekstas įterpiamas į el. laišką naudojant vietos rezervavimo ženklą **%message%**. Norėdami užtikrinti, kad kvito tekstas būtų tinkamai atvaizduotas, apsupkite vietos rezervavimo ženklą **%message%** HTML žymėmis **&lt;pre&gt;** and **&lt;/pre&gt;**.
-- El. laiško antraštės ir poraštės HTML eilučių lūžiai konvertuojami į HTML žymes **&lt;br /&gt;**, kad kvito tekstas būtų tinkamai atvaizduotas. Norėdami pašalinti nepageidaujamą vertikalią vietą kvitų el. laiškuose, pašalinkite eilučių lūžius bet kurioje HTML vietoje, kur nereikia vertikalios vietos.
-
-Daugiau informacijos apie tai, kaip konfigūruoti el. paštu siunčiamus kvitus, žr. [El. paštu siunčiamų kvitų nustatymas](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts).
+- Kvito tekstas įterpiamas į el. laišką naudojant rezervavimo ženklą **%message%**. Kad užtikrintumėte, jog kvito tekstas tinkamai atvaizduotas, apsupkite **%message%** rezervavimo ženklą HTML žymėmis **&lt;pre&gt;** ir **&lt;/pre&gt;**.
+- Rezervavimo ženklą **%receiptid%** galima naudoti QR kodui arba brūkšniniam kodui, nurodančiam gavimo ID, rodyti. (QR kodus ir brūkšninius kodus dinamiškai generuoja ir pristato trečiosios šalies tarnyba.) Norėdami gauti daugiau informacijos apie tai, kaip rodyti QR kodą arba brūkšninį kodą el. paštu siunčiamame kvite, žr. skyrių [QR kodo arba brūkšninio kodo pridėjimas prie sandorių ir gavimo el. laiškų](add-qr-code-barcode-email.md).
 
 ## <a name="upload-the-email-html"></a>El. laiško HTML nusiuntimas
 

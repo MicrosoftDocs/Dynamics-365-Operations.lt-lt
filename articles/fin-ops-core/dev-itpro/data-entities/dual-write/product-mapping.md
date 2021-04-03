@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 20203a342b2bead4eb211597f4b73bbf35477a03
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: b46e49ec3510c93383216fdffeca2793a9076872
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115685"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560464"
 ---
 # <a name="unified-product-experience"></a>Bendrosios produkto funkcijos
 
@@ -92,9 +91,13 @@ Kadangi produktą atitinka SKU, išskirtųjų produktų, bendrųjų produktų ir
 
 Įgalinus dvigubo rašymo funkciją, „Finance and Operations“ programos bus sinchronizuojamos kituose „Dynamics 365“ produktuose, būsenoje **Juodraštis**. Jie yra pridedami prie pirmo kainoraščio su ta pačia valiuta. Kitaip tariant, jie pridedami prie pirmojo „Dynamics 365“ programos kainoraščio, atitinkančio jūsų juridinę lentelę, kurioje produktas išleidžiamas „Finance and Operations“ programoje, valiutą. Jei nėra pateiktos valiutos kainoraščio, jis bus automatiškai sukurtas ir priskirtas produktui. 
 
+Dabartinis dvigubo rašymo priedų, kurie susieja numatytąjį kainoraštį su vienetu, diegimas ieško valiutos, susijusios su programa Finance and Operations, ir randa pirmą kainoraštį klientų įtraukimo programoje, naudodamas rūšiavimą abėcėlės tvarka kainoraščio pavadinime. Norėdami nustatyti numatytąjį tam tikros valiutos kainoraštį, kai yra keletas tos valiutos kainoraščių, turite atnaujinti kainoraščio pavadinimą į tokį, kuris pagal abėcėlės tvarką yra ankstesnis nei bet kuris kitas tos pačios valiutos kainoraštis.
+
 Pagal numatytuosius nustatymus produktai, esantys programoje „Finance and Operations“, sinchronizuojami kitose „Dynamics 365“ programose, būsenoje **Juodraštis**. Norint sinchronizuoti produktą, jam esant būsenos **Aktyvus**, kad jį, pavyzdžiui, galėtumėte tiesiogiai naudoti pardavimo užsakymų pasiūlymuose, reikia pasirinkti šį parametrą: skirtuke **Sistema > Administravimas > Sistemos administravimas > Sistemos parametrai > Pardavimas** pasirinkite **Kurti aktyvios būsenos produktus = taip**. 
 
 Kai produktai sinchronizuojami, „Finance and Operations” programos lauke **Pardavimo vienetas** turite įvesti reikšmę, nes tai yra privalomas „Sales” laukas.
+
+Produktų šeimų kūrimas „Dynamics 365 Sales” nepalaikomas su produktų dvigubo rašymo sinchronizavimu.
 
 Produktų sinchronizavimas vyksta iš „Finance and Operations“ programos į „Dataverse“. Tai reiškia, kad produkto lentelės stulpelių vertes galima pakeisti „Dataverse“, tačiau suaktyvinus sinchronizavimą (kai produkto stulpelis modifikuojamas „Finance and Operations“ programoje), bus perrašytos „Dataverse“ esančios vertės. 
 

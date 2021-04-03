@@ -16,14 +16,17 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 78cb1c5a90061af224fcd5933af81b6c5cd7e57d
-ms.sourcegitcommit: 5d62c53d84f2ec27136427acfd4314d055298a7b
+ms.openlocfilehash: 08002a1ff40c8baca475bc19a1220fe4c4b23bcd
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5123473"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500699"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>„Supply Chain Management” standartiniai įrašyti rodiniai
+
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 „Microsoft Dynamics 365 Supply Chain Management” įtraukia keletą įrašytų rodinių, kuriuos prireikus galite įgalinti ir naudoti. Kai kurie iš šių standartinių įrašytų rodinių yra optimizuoti ir pavadinti konkrečiam vaidmeniui arba užduočiai (pvz., „Kokybės kontrolė” arba „Gavimas”). Kitos yra optimizuotos taip, kad juose būtų tik laukai ir parametrai, kurie nurodyti „Microsoft” naudojimo statistikoje, ir klientų dažniausiai naudojami. Šie įrašyti rodiniai yra įprastai vadinami kaip *supaprastinti* rodiniai. Šioje temoje aprašomi standartiniai galimi įrašyti rodiniai ir paaiškinama, kaip juos įgalinti ir pritaikyti.
 
