@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c7f9762b5e00a04f189874a3695c33fe989b579c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 11c440663214f4991770390c0757c92ef02755f5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979858"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244769"
 ---
 # <a name="home-page-overview"></a>Pagrindinio puslapio apžvalga
 
@@ -29,7 +29,7 @@ ms.locfileid: "4979858"
 
 Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ pagrindinio puslapio apžvalga.
 
-## <a name="overview"></a>Apžvalga
+## <a name="overview"></a>Peržiūra
 
 Pagrindinis puslapis yra numatytasis puslapis, į kurį pirkėjai įeina, kai apsilanko el. prekybos svetainėje. Paprastai šiame puslapyje pateikiami produktai ir akcijos naudojant rinkodaros modulių derinį. Pagrindiniame puslapyje turėtų būti daug vaizdų ir teksto pirkėjams sudominti.
 

@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 08/16/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceDetails
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 260fae39d9a98feb7bfa82188c5b05de9a533136
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 6ae2fb85bfca6c6a30ec5bd7a13838628a6376f9
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796635"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560512"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Atskirų numeracijų nustatymas
 
@@ -34,9 +33,9 @@ ms.locfileid: "4796635"
 4. Lauke **Pavadinimas** įveskite reikšmę.
 5. „FastTab“ skirtuke **Aprėpties parametrai** pasirinkite numeracijos aprėptį ir aprėpties reikšmes ir pasirinkite reikšmes iš sąrašo. Apimtis nustato, kokios organizacijos naudoja numeraciją. Be to, numeracijose, kurių aprėptis ne **Bendrinama**, o kitokia, gali būti segmentų, atitinkančių jų aprėptį. Pvz., numeracijoje, kurios aprėptis **Juridinis subjektas**, gali būti juridinio subjekto segmentas. Daugiau informacijos apie aprėptis žr. žinyno temoje [Numeracijos apžvalga](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview). 
 6. Išplėskite skyrių **Segmentai**.
-    - Būdami „FastTab“  nustatykite numeracijos formatą įtraukdami, pašalindami ir pertvarkydami segmentus.  
+    - Būdami „FastTab“ nustatykite numeracijos formatą įtraukdami, pašalindami ir pertvarkydami segmentus.  
     - Visų aprėpčių numeracijose gali būti *Pastovūs segmentai* ir *Raidiniai-skaitiniai segmentai*. Pastoviuosiuose segmentuose yra raidinių-skaitinių simbolių, kurie nekinta. Naudokite šį segmentų tipą, kad tarp numeracijos segmentų įtrauktumėte brūkšnelį ar kitų skyriklių. Skaitiniuose-raidiniuose segmentuose yra skaičių ženklų (#) ir ampersandų (&). Šie simboliai nurodo raides ir skaičius, kurie padidėja kaskart panaudojus skaičių iš sekos. Naudokite skaičiaus ženklą (#) norėdami nurodyti didėjančius skaičius ir ampersandus (&) norėdami nurodyti didėjančias raides. Pvz., pagal formatą `#####_2014`sukuriamos sekos,`00002_2014` `00001_2014`ir t.t. Turi būti bent vienas segmentas, sudarytas ir raidžių ir skaitmenų. Apimties segmentai, pvz., įmonė arba juridinis subjektas, nėra būtini. Tačiau jei neįtrauksite apimties segmentų į formatą, pasirinktos nuorodos skaičiai bus vis tiek generuojami pagal apimtį.  
-7. Išplėskite dalį **Nurodos**. Būdami „FastTab“  pasirinkite dokumento tipą arba įrašą, kuriam norite priskirti šią numeraciją. Šis veiksmas nėra būtinas dirbant su sekomis, kurios nurodomos pagal specialius programos naudojimo modelius. Šiais scenarijais naujas skaičius generuojamas naudojant numeracijos kodo arba ID reikšmę nenaudojant nuorodos. Specialiojo programos naudojimo modelio pavyzdys yra kvitų seriją, kuri naudojama konkrečiuose žurnalo pavadinimuose. Tačiau nerekomenduojama naudoti tokių modelių.  
+7. Išplėskite dalį **Nurodos**. Būdami „FastTab“ pasirinkite dokumento tipą arba įrašą, kuriam norite priskirti šią numeraciją. Šis veiksmas nėra būtinas dirbant su sekomis, kurios nurodomos pagal specialius programos naudojimo modelius. Šiais scenarijais naujas skaičius generuojamas naudojant numeracijos kodo arba ID reikšmę nenaudojant nuorodos. Specialiojo programos naudojimo modelio pavyzdys yra kvitų seriją, kuri naudojama konkrečiuose žurnalo pavadinimuose. Tačiau nerekomenduojama naudoti tokių modelių.  
 8. Išplėskite skyrių **Bendra**. „FastTab“ skirtuke Bendra nurodykite, ar numeracija yra neautomatinė, ar tęstinė, ar netęstinė. Be to, galite įvesti mažiausią ir didžiausią skaičius, kuriuos galima naudoti numeracijoje. Nerekomenduojama keisti netęstinių numeracijų į tęstines numeracijas. Numeracija nebus tikrai tęstinė. Dėl tokio keitimo taip pat gali įvykti besidubliuojančių raktų pažeidimų duomenų bazėje. Be to, tęstinės numeracijos turi daugiau įtakos našumui.   
 9. Spustelėkite **Įrašyti**.
 

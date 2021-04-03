@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 34f4e22f571569a6276f8a801d33c6afef8480dc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ff97aaf22cfbac9ce68cf0436c6caec4e1b69bd2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979568"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252226"
 ---
 # <a name="vendor-payments-workspace"></a>Tiekėjo mokėjimų darbo sritis
 
 [!include [banner](../includes/banner.md)]
 
-**Tiekėjų mokėjimo** darbo srityje rodoma informacija, susijusi su tiekėjų mokėjimo apdorojimu. Šioje darbo srityje yra rodinys **Mano darbas** ir puslapis **Analizė**. **Mano darbo** rodinyje rodomos suvestinės plytelės, tiekėjų operacijų tinkleliai ir susijusi tiekėjų informacija. Puslapyje **Analizė** naudojantis „Microsoft Power BI“ galimybėmis parodomi su tiekėjų mokėjimais susiję vaizdiniai elementai.
+**Tiekėjų mokėjimo** darbo srityje rodoma informacija, susijusi su tiekėjų mokėjimo apdorojimu. Šioje darbo srityje yra rodinys **Mano darbas** ir puslapis **Analizė**. Rodinyje **Mano darbas** rodomos suvestinės plytelės, tiekėjų operacijų tinkleliai ir susijusi tiekėjų informacija. Puslapyje **Analizė** naudojantis „Microsoft Power BI“ galimybėmis parodomi su tiekėjų mokėjimais susiję vaizdiniai elementai.
 
 ## <a name="setup-needed-to-view-power-bi-content"></a>Norint peržiūrėti „Power BI“ turinį reikia atlikti sąranką
 

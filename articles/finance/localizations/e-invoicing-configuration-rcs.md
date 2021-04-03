@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: bb4a426bb54ee21197f9954d946d60ea55f5eb76
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 99fac9a42dc2b180c220612c66fe753d43e5bd7f
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104416"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592627"
 ---
 # <a name="configure-the-electronic-invoicing-add-on-in-regulatory-configuration-services-rcs"></a>Konfigūruoti elektroninių sąskaitų priedus „Regulatory Configuration Services“ (RCS)
 
@@ -64,7 +64,6 @@ Toliau pateikiamoje lentelėje rodomos šiuo metu peržiūrimos elektroninių SF
 | Belgija        | Belgijos elektroninė SF (BE)      | Prdavimo SF ir prjekto Sf |
 | Brazilija         | Brazilijos NF–e (BR)                  | 55 finansinio dokumento modelis, koregavimo laiškai, atšaukimas ir atsisakyta |
 | Brazilija         | Brazilijos NFS-e ABRASF Curitiba (BR) | Paslaugų mokestiniai dokumentai |
-| Brazilija         | Brazilijos NFS–e San Paulo (BR)       | Paslaugų mokestiniai dokumentai |
 | Danija        | Danijos elektroninė SF (DK)       | Prdavimo SF ir prjekto Sf |
 | Egiptas          | Egipto elektroninė SF (EG) | Prdavimo SF ir prjekto Sf |
 | Estija        | Estijos elektroninė SF (EE)     | Prdavimo SF ir prjekto Sf |
@@ -119,10 +118,6 @@ Toliau pateikti sąrašai rodo ER formato konfigūracijas, galimas elektroninių
 
 - NFS-e ABRASF Curitiba (BR)
 - NFS-e ABRASF Užklausa Curitiba (BR)
-
-#### <a name="brazilian-br-nfs-e-nfs-e-so-paulo-city"></a>Brazilian (BR) NFS-e: NFS-e San Paulo miestas
-
-- NFS-e San Paulo (BR)
 
 #### <a name="danish-dk-electronic-invoice-sales-and-project-invoices-for-denmark"></a>Danijos (DK) elektroninės SF: Danijos pardavimo ir projekto SF
 
@@ -210,7 +205,7 @@ Toliau pateikti sąrašai rodo ER formato konfigūracijas, galimas elektroninių
 | Paskambinti Brazilijos SEFAZ tarnybai                  | Integruoti su Brazilijos SEFAZ tarnyba, skirta finansinio dokumento pateikimui.       | Peržiūros režimu           |
 | Skambinti Meksikos PAC tarnybai                      | Integruokite su Meksikos ABA tarnyba CFDI pateikimui.                      | Peržiūros režimu           |
 | Apdoroti atsakymą                              | Analizuoti iš žiniatinklio tarnybos iškvietimo gautą atsakymą.                     | Bendrai prieinama  |
-| Naudoti MS „Power Automate“                         | Integruokite su "Microsoft Power Automate“ sukurtais srautais.                       | Peržiūros režimu           |
+| Naudoti MS „Power Automate“                         | Integruokite su „Microsoft Power Automate“ sukurtais srautais.                       | Peržiūros režimu           |
 
 ## <a name="configuration-providers"></a>Konfigūracijos teikėjai
 

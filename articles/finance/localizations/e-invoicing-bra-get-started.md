@@ -1,9 +1,9 @@
 ---
 title: Darbo su Brazilijos elektroninių SF išrašymo priedu pradžia
-description: Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis Brazilijos elektroninių SF išrašymo priedu „Microsoft Dynamics 365 Finance” ir „Dynamics 365 Supply Chain Management”.
+description: Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis Brazilijos elektroninių SF išrašymo priedu „Finance” ir „Supply Chain Management”.
 author: gionoder
 manager: AnnBe
-ms.date: 09/04/2020
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,297 +17,125 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 0320bd1d9e93cc30ed75f28e387ac2ec8dbfc226
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: eaf9433ad2d9ccf3d3c5632d0f2d4fe772ff8bde
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962840"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592675"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-brazil"></a>Darbo su Brazilijos elektroninių SF išrašymo priedu pradžia 
 
 [!include [banner](../includes/banner.md)]
 
-
-> [!IMPORTANT]
-> Brazilijos elektroninių SF išrašymo priedas šiuo metu nepalaiko visų funkcijų, pasiekiamų finansinio dokumento integravime, įtaisytame „Microsoft Dynamics 365 Finance” ir „Dynamics 365 Supply Chain Management”.
-
-Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis Brazilijos elektroninių SF išrašymo priedu. Ji padės atlikti konfigūracijos veiksmus, priklausančius nuo šalies, programose „Regulatory Configuration Services” (RCS) ir „Finance” bei „Supply Chain Management”. Ji taip pat paaiškina, kaip pateikti NF-e finansinį dokumentą (elektroninio finansinio dokumento 55 modelis) naudojant paslaugą, ir kaip peržiūrėti apdorojimo rezultatus ir finansinių dokumentų būsenas.
-
-## <a name="prerequisites"></a>Būtinieji komponentai
-
-Prieš atlikdami šioje temoje nurodytus veiksmus, turite atlikti veiksmus, esančius [Darbo su elektroninių SF išrašymo priedu pradžia](e-invoicing-get-started.md).
-
-## <a name="rcs-setup"></a>RCS sąranka
-
-RCS nustatymo metu galėsite atlikti toliau pateiktas užduotis.
-
-1. Importuoti el. SF išrašymo funkciją, skirtą NF-e finansiniams dokumentams.
-2. Peržiūrėti failų formatus, kurių reikia norint pateikti NF-e finansinius dokumentus autorizuoti.
-3. Peržiūrėti failų formatus, kurių reikia norint prašyti atšaukti patvirtintą NF-e.
-4. Konfigūruoti įvykį, kurio reikia norint pateikti NF-e finansinius dokumentus autorizuoti.
-5. Konfigūruoti įvykį, kurio reikia norint prašyti atšaukti patvirtintą NF-e.
-6. Priskirti el. SF išrašymo funkciją elektroninių SF išrašymo priedo aplinkai.
-7. Publikuoti el. SF išrašymo funkciją.
-
-> [!NOTE]
-> „El. SF išrašymo funkcija” yra bendras išteklių, sukonfigūruotų ir publikuotų siekiant naudoti elektroninių SF išrašymo priedo serverį, pavadinimas. El. SF išrašymo funkcijos nustatymas be viso kito apima elektroninių ataskaitų (ER) konfigūracijos formatų naudojimą konfigūruojamiems eksportavimo ir importavimo failams kurti ir veiksmų bei veiksmų srautų naudojimą konfigūruojamų taisyklių kūrimui įgalinti, kad būtų galima siųsti užklausas, importuoti atsakymus ir analizuoti atsakymo turinį.
-
-## <a name="import-the-e-invoicing-feature"></a>El. SF išrašymo funkcijos importavimas
-
-1. Prisijunkite prie jūsų RCS abonemento
-2. Darbo srities **Globalizacijos funkcijos** dalyje **Funkcijos** pasirinkite plytelę **El. SF išrašymas**.
-3. Puslapyje **El. SF išrašymo funkcijos** pasirinkite **Importuoti**, norėdami importuoti NF-e finansinio dokumento el. SF išrašymo funkciją iš visuotinės saugyklos.
-
-    ![Mygtukas Importuoti](media/e-Invoicing-services-get-started-BRA-Select-Import-e-Invoicing-feature.png)
-
-4. Pasirinkite funkciją NF-e finansinis dokumentas ir pasirinkite **Importuoti**.
-
-    ![NF-e funkcijos importavimas](media/e-Invoicing-services-get-started-BRA-Select-Import-NF-e-feature.png)
-
-### <a name="create-a-new-version-of-the-nf-e-fiscal-document-feature"></a>Naujos funkcijos NF-e finansinis dokumentas versijos kūrimas
-
-- Puslapio **El. SF išrašymo funkcijos** skirtuke **Versijos** pasirinkite **Naujas**.
-
-![Naujos el. SF išrašymo funkcijos versijos įtraukimas](media/e-Invoicing-services-get-started-BRA-Select-New-e-Invoicing-feature-version.png)
-
-### <a name="update-the-configuration-version"></a>Konfigūracijos versijos naujinimas
-
-1. Puslapio **El. SF išrašymo funkcijos** skirtuke **Konfigūracijos** pasirinkite **Įtraukti** arba **Naikinti**, norėdami valdyti konfigūracijos versijas (ER failo formato konfigūracijas).
-
-    ![El. SF išrašymo funkcijos konfigūracijų valdymas](media/e-Invoicing-services-get-started-BRA-Manage-e-Invoicing-feature-configurations.png)
-
-    - Kai kuriate naują funkcijos NF-e finansinis dokumentas versiją, visos konfigūracijos versijos (ER failų formatai) perduodamos iš naujausios versijos.
-    - Norėdami pateikti NF-e finansinį dokumentą autorizavimui, būtinos toliau pateiktos konfigūracijos versijos.
-
-        - NFe pateikimo eksportavimo formatas
-        - NFe atsakymo pranešimo importavimas
-        - NFe klaidų žurnalo importavimas
-
-    - Norėdami pateikti NF-e atšaukimą, būtina toliau pateikta konfigūracijos versija.
-
-        - NFe atšaukimo eksportavimo formatas
-
-2. Sąraše pasirinkite konfigūracijos versiją, tada pasirinkite **Redaguoti** arba **Peržiūrėti**, kad būtų atidarytas puslapis **Formato dizaino įrankis**, kuriame galite redaguoti arba peržiūrėti konfigūraciją.
-
-    ![Puslapio Formato dizaino įrankis atidarymas](media/e-Invoicing-services-get-started-BRA-Configuration-ER-fomat-designer.png)
-
-3. Norėdami redaguoti arba peržiūrėti ER formato failo konfigūracijas, naudokite puslapį **Formato dizaino įrankis**. Daugiau informacijos žr. [Elektroninių dokumentų konfigūracijų kūrimas](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration).
-
-    ![Formato dizaino įrankio puslapis](media/e-Invoicing-services-get-started-BRA-ER-Format-designer.png)
-
-### <a name="manage-the-e-invoicing-feature-setups"></a>El. SF išrašymo funkcijos nustatymų valdymas
-
-- Puslapio **El. SF išrašymo funkcijos** skirtuke **Nustatymai** pasirinkite **Įtraukti** arba **Naikinti**, norėdami valdyti el. SF išrašymo funkcijos nustatymus (t. y., NF-e įvykius).
-
-![El. SF išrašymo funkcijos nustatymų valdymas](media/e-Invoicing-services-get-started-BRA-Manage-e-Invoicing-feature-setup.png)
-
-Kai sukuriate naują funkcijos NF-e finansinis dokumentas, kuri išvedama iš kitos el. SF išrašymo funkcijos, versiją, visi funkcijos nustatymai (NF-e įvykiai) perduodami iš naujausios versijos.
-
-Norint pateikti NF-e finansinius dokumentus autorizuoti, reikalingas funkcijos **Pateikti** nustatymas.
-
-Norint pateikti NF-e atšaukimą, reikalingas funkcijos **Atšaukimas** nustatymas.
-
-#### <a name="configure-the-submit-feature-setup"></a>Funkcijos Pateikti nustatymo konfigūravimas
-
-1. Puslapio **El. SF išrašymo funkcijos** skirtuko **Nustatymai** stulpelyje **Funkcijos nustatymas** pasirinkite **Pateikti**.
-2. Pasirinkite **Redaguoti**.
-
-    ![El. SF išrašymo funkcijos nustatymo redagavimas](media/e-Invoicing-services-get-started-BRA-Edit-e-Invoicing-feature-setup.png)
-
-3. Puslapyje **Funkcijos versijos nustatymas** pasirinkite skirtuką **Veiksmai**, norėdami valdyti veiksmų sąrašą.
-
-    ![Skirtukas Veiksmai](media/e-Invoicing-services-get-started-BRA-Select-Actions.png)
-
-4. Peržiūrėkite veiksmus, kurių reikia norint pateikti NF-e autorizuoti.
-
-    | Veiksmo ID | Veiksmo pavadinimas                  | Veiksmo aprašas                                                |
-    |-----------|------------------------------|-------------------------------------------------------------------|
-    | 1         | Pakeisti dokumentą           | Sukurkite NF-e XML failą pateikimui.                          |
-    | 2         | Pasirašyti dokumentą                | Pritaikykite skaitmeninį sertifikatą XML failui.                    |
-    | 3         | Iškviesti Brazilijos SEFAZ tarnybą | Pateikite pasirašytą XML failą žiniatinklio tarnyboms autorizuoti. |
-    | 4         | Apdoroti atsakymą             | Gaukite žiniatinklio tarnybos atsakymą.                                     |
-    | 5         | Pakeisti dokumentą           | Analizuokite failo, kuris gaunamas kaip atsakymas, turinį.     |
-    | 6         | Pakeisti dokumentą           | Sukurkite XML failą, norėdami pateikti užklausą dėl pateikimo būsenos.    |
-    | 7         | Iškviesti Brazilijos SEFAZ tarnybą | Pateikite XML failą, pateikiantį užklausą dėl pateikimo būsenos.          |
-    | 8         | Apdoroti atsakymą             | Gaukite žiniatinklio tarnybos atsakymą.                                     |
-
-#### <a name="set-up-the-url-for-sefaz-web-services"></a>SEFAZ žiniatinklio tarnybų URL nustatymas 
-
-1. Puslapio **Funkcijos versijos nustatymas** skirtuko **Veiksmai** „FastTab” **Veiksmai** pasirinkite **Iškviesti Brazilijos SEFAZ tarnybą** (**3** veiksmo ID).
-2. „FastTab” **Parametrai** lauke **URL adreso parametras** įveskite NF-e pateikimo SEFAZ žiniatinklio tarnybos URL.
-3. „FastTab” **Veiksmai** pasirinkite **Iškviesti Brazilijos SEFAZ tarnybą** (**7** veiksmo ID).
-4. „FastTab” **Parametrai** lauke **URL adreso parametras** įveskite NF-e pateikimo SEFAZ žiniatinklio tarnybos URL.
-
-#### <a name="configure-the-cancellation-feature-setup"></a>Funkcijos Atšaukimas nustatymo konfigūravimas
-
-1. Puslapio **El. SF išrašymo funkcijos** skirtuko **Nustatymai** stulpelyje **Funkcijos nustatymas** pasirinkite **Atšaukimas**.
-2. Pasirinkite **Redaguoti**.
-3. Puslapyje **Funkcijos versijos nustatymas** pasirinkite skirtuką **Veiksmai**, norėdami valdyti veiksmų sąrašą.
-4. Peržiūrėkite veiksmus, kurių reikia norint prašyti atšaukti patvirtintą NF-e.
-
-    | Veiksmo ID | Veiksmo pavadinimas                  | Veiksmo aprašas                                               |
-    |-----------|------------------------------|------------------------------------------------------------------|
-    | 1         | Pakeisti dokumentą           | Sukurkite NF-e atšaukimo XML failą pateikimui.            |
-    | 2         | Pasirašyti dokumentą                | Pritaikykite skaitmeninį sertifikatą XML failui.                   |
-    | 3         | Iškviesti Brazilijos SEFAZ tarnybą | Pateikite pasirašytą XML failą žiniatinklio tarnyboms atšaukti. |
-    | 4         | Apdoroti atsakymą             | Gaukite žiniatinklio tarnybos atsakymą.                                    |
-
-#### <a name="set-up-the-url-for-sefaz-web-services"></a>SEFAZ žiniatinklio tarnybų URL nustatymas
-
-1. Puslapio **Funkcijos versijos nustatymas** skirtuko **Veiksmai** „FastTab” **Veiksmai** pasirinkite **Iškviesti Brazilijos SEFAZ tarnybą** (**3** veiksmo ID).
-2. „FastTab” **Parametrai** lauke **URL adreso parametras** įveskite patvirtintos NF-e atšaukimo SEFAZ žiniatinklio tarnybos URL.
-
-### <a name="make-an-e-invoicing-environment-available-and-assign-a-draft-version"></a>El. SF išrašymo aplinkos įgalinimas ir juodraščio versijos priskyrimas
-
-1. Puslapio **El. SF išrašymo funkcijos** skirtuke **Aplinkos** pasirinkite **Įjungti**.
-2. Lauke **Aplinka** pasirinkite aplinką.
-3. Lauke **Galioja nuo** pasirinkite datą, kada aplinka turėtų įsigalioti.
-4. Pasirinkite **Įjungti**.
-
-![El. SF išrašymo aplinkos įgalinimas](media/e-Invoicing-services-get-started-BRA-Enable-e-Invoicing-environment.png)
-
-### <a name="change-the-status-to-completed"></a>Būsenos keitimas į Baigta
-
-1. Puslapio **El. SF išrašymo funkcijos** skirtuke **Versijos** pasirinkite el. SF išrašymo funkcijos versiją, kurios būsena yra **Juodraštis**.
-2. Pasirinkite **Keisti būseną \> Baigta**.
-
-### <a name="change-the-status-to-publish"></a>Būsenos keitimas į Publikuoti
-
-1. Puslapio **El. SF išrašymo funkcijos** skirtuke **Versijos** pasirinkite el. SF išrašymo funkcijos versiją, kurios būsena yra **Baigta**.
-2. Pasirinkite **Keisti būseną \> Publikuoti**.
-
-![El. SF išrašymo funkcijos publikavimas](media/e-Invoicing-services-get-started-BRA-Publish-e-Invoicing-feature.png)
-
-## <a name="set-up-electronic-invoicing-add-on-integration-in-finance-or-supply-chain-management"></a>Elektroninių SF išrašymo priedo integravimo nustatymas „Finance” arba „Supply Chain Management”
-
-Nustatymo metu galėsite atlikti toliau pateiktas užduotis.
-
-1. Įjungti Brazilijos „NF-e Federal” funkciją.
-2. Importuoti konkretų ER duomenų modelį, duomenų modelio susiejimą ir formatus, reikalingus NF-e finansiniams dokumentams.
-3. Importuoti ER konfigūraciją ir nustatyti atsakymų tipus, kurių reikia norint atnaujinti finansinio dokumento būseną po pateikimo proceso grąžinimo.
-
-### <a name="turn-on-the-nf-e-federal-feature-for-brazil"></a>Brazilijos „NF-e Federal” funkcijos įjungimas
-
-1. Eikite į **Organizacijos administravimas \> Nustatymas \> Elektroninių dokumentų parametrai**.
-2. Skirtuke **Funkcijos** pažymėkite žymės langelį **Įjungti** eilutėje, skirtoje funkcijos nuorodai **BR00053**.
-
-### <a name="import-the-er-data-model-mapping-required-for-nf-e-fiscal-documents"></a>ER duomenų modelio susiejimo, skirto NF-e finansiniams dokumentams, importavimas
-
-1. Prisijunkite prie „Finance“.
-2. Darbo srities **Elektroninės ataskaitos** dalyje **Konfigūracijų teikėjai** pasirinkite plytelę **„Microsoft”**. Įsitikinkite, kad šis konfigūracijos teikėjas nustatytas kaip **Aktyvus**. Daugiau informacijos apie tai, kaip nustatyti teikėją į **Aktyvus**, žr. [Konfigūracijų teikėjų kūrimas ir jų pažymėjimas kaip aktyviais](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
-3. Pasirinkite **Saugyklos**.
-4. Pasirinkite **Visuotiniai ištekliai \> Atidaryti**.
-5. Importuokite **finansinių dokumentų susiejimo** konfigūracijas.
-
-### <a name="import-er-configurations-and-set-up-the-response-types-for-fiscal-documents"></a>ER konfigūracijų importavimas ir finansinių dokumentų atsakymų tipų nustatymas
-
-1. Darbo srities **Elektroninės ataskaitos** dalyje **Konfigūracijų teikėjai** pasirinkite plytelę **„Microsoft”**.
-2. Pasirinkite **Saugyklos**.
-3. Pasirinkite **Visuotiniai ištekliai \> Atidaryti**.
-4. Importuokite **NF-e klaidos žurnalo importavimas (BR)**, **NF-e atsakymo duomenų importavimo formatas (BR)** ir **NF-e atsakymo pranešimo importavimas (BR)**.
-5. Eikite į **Organizacijos administravimas \> Nustatymas \> Elektroninių dokumentų parametrai**.
-6. Skirtuke **Elektroninis dokumentas** pasirinkite **Įtraukti**.
-6. Lauke **Lentelės pavadinimas** įveskite **Finansinio dokumento antraštė**.
-7. Lauke **Dokumento kontekstas** pasirinkite **Kliento SF konteksto modelis – finansinio dokumento kontekstas**.
-8. Pasirinkti **Atsakymų tipai**.
-9. Pasirinkite **Naujas**, tada lauke **Atsakymo tipas** pasirinkite **Atsakymas**.
-10. Lauke **Pateikimo būsena** pasirinkite **Laukiama**.
-11. Lauke **Modelio susiejimas** pasirinkite **Atsakymo pranešimo importavimo formatas – modelio susiejimas iš atsakymo pranešimo**.
-12. Pasirinkite **Įrašyti**.
-13. Pasirinkite **Naujas**, tada lauke **Atsakymo tipas** įveskite **Atsakymo duomenys**.
+Ši tema paaiškina, kaip pradėti su elektroninės sąskaitos priedo paslaugų administravimu Brazilijai. Šios temos aprašytos procedūros padės jums atlikti konfigūravimo veiksmus, priklausančius nuo „Regulatory Configuration Services” (RCS), ir papildyti temoje [Darbo su elektroniniu SF išrašymo priedu pradžia](e-invoicing-get-started.md) aprašytus veiksmus.
+
+## <a name="country-specific-configuration-for-brazilian-nf-e-br-electronic-invoicing-feature"></a>Šaliai skirta Brazilijos NF-e (BR) elektroninių SF išrašymo priemonės konfigūracija
+
+Konfigūruojant Brazilijos NF-e (BR) elektroninių SF išrašymo priemonę reikia, kad atlikti konkrečius veiksmus. Kai kurie konfigūracijų parametrai publikuojami su numatytosiomis vertėmis, todėl juos reikia peržiūrėti ir atnaujinti, kad jie geriau atitiktų jūsų verslo operaciją.
+
+### <a name="prerequisites"></a>Būtinieji komponentai
+
+Prieš atlikdami šiame skyriuje aprašytą procedūrą, sukurkite Brazilijos NF-e (BR) elektroninių SF išrašymo funkciją savo įmonei, kaip aprašoma temos skyriuje **Elektroninės SF kūrimas vadovaujant jūsų įmonės teikėjui**, [Darbo su elektroninių SF išrašymo priedu pradžia](e-invoicing-get-started.md).
+
+1. RCS pasirinkus dalį **Funkcijos**, esančią darbo srityje **Globalizacijos funkcija**, pasirinkite plytelę **Elektroninių SF priedas**.
+2. Puslapyje **Elektroninių SF išrašymo priedo funkcijos** patikrinkite, ar pasirinkta jūsų sukurta elektroninio SF išrašymo funkcija **Brazilijos NF-e (BR)**.
+3. Skirtuke **Versijos** patikrinkite, ar pasirinkta versija **Šablonas**.
+4. Skirtuke **Nustatymai**, tinklelyje pasirinkite **Pateikti**, tada pasirinkite **Redaguoti.**
+5. Skirtuke **Veiksmai**, laukelių grupėje **Veiksmai** pasirinkite veiksmą **(Peržiūra) pasirašytas xml dokumentas**.
+6. Laukelių grupėje **Parametrai** pasirinkite **Sertifikato pavadinimas**, o laukelyje **Vertė** įveskite su jūsų raktų saugykla susieto sertifikato pavadinimą.
+7. Skirtuke **Veiksmai**, laukelių grupėje **Veiksmai** pasirinkite veiksmą **(Peržiūra) Skambinti Brazilijos SEFAZ tarnybai**.
+8. Laukelių grupėje **Parametrai** pasirinkite parametrą **URL adresas**.
+9. Jei reikia, laukelyje **Vertė** peržiūrėkite ir atnaujinkite SEFAZ dokumentacijos paskelbtų tinklo tarnybų URL savo būsenai ir pasirinkite **Išsaugoti**.
+10. Skirtuke **Pritaikymo taisyklės**, laukelių grupėje **Pritaikymo taisyklės sąranka** peržiūrėkite ir prireikus atnaujinkite laukelio **Būsena** kriterijus tai pačiai būsenai, kurią nurodo tinklo tarnybų URL.
+11. Pasirinkite **Išsaugoti** ir uždarykite puslapį.
+12. Norėdami sukonfigūruoti programos nustatymą, žr. skyrių [Darbo su elektroninių SF išrašymo priedu pradžia](e-invoicing-get-started.md).
+
+## <a name="country-specific-configuration-of-application-setup-for-brazilian-nf-e-br-electronic-invoicing-feature"></a>Šaliai skirta Brazilijos NF-e (BR) elektroninių SF išrašymo priemonės programos sąrankos konfigūracija
+
+Konfigūruojant Brazilijos NF-e (BR) elektroninių SF išrašymo priemonės programos sąranką reikia, kad atlikti konkrečius veiksmus. Prieš diegdami elektroninių SF išrašymo funkciją savo elektroninio SF išrašymo paslaugų aplinkoje, atlikite šiuos veiksmus.
+
+### <a name="prerequisites"></a>Būtinieji komponentai
+
+Prieš atlikdami šiame skyriuje aprašytą procedūrą, sukurkite ir paleiskite Brazilijos NF-e (BR) elektroninių SF išrašymo funkcijos programos konfigūraciją savo įmonei, kaip aprašoma temos skyriuje **Programos sąrankos konfigūravimas**, [Darbo su elektroninių SF išrašymo priedu pradžia](e-invoicing-get-started.md).
+
+1. RCS pasirinkus dalį **Funkcijos**, esančią darbo srityje **Globalizacijos funkcija**, pasirinkite plytelę **Elektroninių SF priedas**.
+2. Puslapyje **Elektroninių SF išrašymo priedo funkcijos** patikrinkite, ar pasirinkta elektroninio SF išrašymo funkcija **Brazilijos NF-e (BR)**.
+3. Skirtuke **Versijos** patikrinkite, ar pasirinkta versija **Šablonas**.
+4. Skirtuke **Nustatymai** pasirinkite **Programos sąranka** ir laukelyje **Prijungta programa** pasirinkite programą, kurioje norite diegti.
+5. Laukelyje **Lentelės pavadinimas** patikrinkite, ar pasirinkta funkcija **Finansinio dokumento antraštė**.
+6. Pasirinkite **Atsakymų tipai**, o tada pasirinkite **Nauja**.
+7. Laukelyje **Atsakymo tipas** atsakymą įveskite kaip fiksuotą reikšmę, o laukelyje **Aprašas** įveskite „Aprašas“.
+8. Lauke **Pateikimo būsena** pasirinkite **Laukiama**.
+9. Laukelyje **Modelio susiejimas** pasirinkite funkciją **Modelio susiejimas iš atsakymo pranešimo** bei **(Peržiūra) Atsakymo pranešimo importavimo formatas**, o tada pasirinkite **Išsaugoti**.
+10. Pasirinkite **Naujas** ir laukelyje **Atsakymo tipas** įveskite „Atsakymo duomenys“ kaip fiksuotą reikšmę ir laukelyje **Aprašas** įveskite „Aprašas“.
+11. Lauke **Pateikimo būsena** pasirinkite **Laukiama**.
+12. Laukelyje **Modelio susiejimas** pasirinkite funkciją **Atsakymo duomenų importavimas** bei **NF-e atsakymo importavimo formatas (BR)**, o tada pasirinkite **Išsaugoti**.
+13. Norėdami įdiegti elektroninių SF išrašymo funkciją, žr. skyrių [Darbo su elektroninių SF išrašymo priedu pradžia](e-invoicing-get-started.md).
+
+## <a name="country-specific-configuration-for-brazilian-nfs-e-abrasf-curitiba-br-electronic-invoicing-feature"></a>Šaliai skirta Brazilijos NFS-e ABRASF Kuritibos (BR) elektroninių SF išrašymo priemonės konfigūracija
+
+Konfigūruojant Brazilijos NF-e ABRASF Kuritibos (BR) elektroninių SF išrašymo priemonę reikia, kad atlikti konkrečius veiksmus. Kai kurie konfigūracijų parametrai publikuojami su numatytosiomis vertėmis, todėl juos reikia peržiūrėti ir atnaujinti, kad jie geriau atitiktų jūsų verslo operaciją.
+
+### <a name="prerequisites"></a>Būtinieji komponentai
+
+Prieš užbaigdami procedūrą šiame skyriuje, savo įmonėje sukurkite Brazilijos NFS-e ABRASF Kuritibos (BR) elektroninių SF išrašymo funkciją. Tai aprašyta temos skyriuje **Elektroninės SF konfigūravimas**, [Darbo su elektroninių SF išrašymo priedu pradžia](e-invoicing-get-started.md).
+
+1. RCS pasirinkus dalį **Funkcijos**, esančią darbo srityje **Globalizacijos funkcija**, pasirinkite plytelę **Elektroninių SF priedas**.
+2. Puslapyje **Elektroninių SF išrašymo priedo funkcijos** patikrinkite, ar pasirinkta jūsų sukurta elektroninio SF išrašymo funkcija **Brazilijos NFS-e ABRASF Kuritiba (BR)**.
+3. Skirtuke **Versijos** patikrinkite, ar funkcija **Šablonas** pasirinkta, o skirtuke **Nustatymai**, tinklelyje, pasirinkite **Pateikti**.
+4. Pasirinkite **Redaguoti** ir skirtuke **Veiksmai**, laukelių grupėje **Veiksmai** pasirinkite pirmąjį **(Peržiūra) pasirašyto xml dokumento** variantą.
+5. Laukelių grupėje **Parametrai** pasirinkite **Sertifikato pavadinimas**.
+6. Laukelyje **Reikšmė** įveskite su jūsų raktų saugyklos parametru susieto sertifikato pavadinimą.
+7. Laukelių grupėje **Veiksmai** pasirinkite antrąjį **(Peržiūra) pasirašytą xml dokumentą**.
+8. Laukelių grupėje **Parametrai** pasirinkite **Sertifikato pavadinimas**.
+9. Laukelyje **Reikšmė** įveskite su jūsų raktų saugyklos parametru susieto sertifikato pavadinimą.
+10. Skirtuke **Veiksmai**, laukelių grupėje **Veiksmai** pasirinkite veiksmą **(Peržiūra) Skambinti Brazilijos SEFAZ tarnybai**.
+11. Laukelių grupėje **Parametrai** pasirinkite parametrą **URL adresas**.
+12. Jei reikia, laukelyje **Vertė** peržiūrėkite ir atnaujinkite Kuritibos mokesčių inspekcijos paskelbtų tinklo tarnybų URL ir pasirinkite **Išsaugoti**.
+13. Skirtuke **Nustatymai**, tinklelyje pasirinkite **Teirautis**, tada pasirinkite **Redaguoti.**
+14. Skirtuke **Veiksmai**, laukelių grupėje **Veiksmai** pasirinkite veiksmą **(Peržiūra) Skambinti Brazilijos SEFAZ tarnybai**.
+15. Laukelių grupėje **Parametrai** pasirinkite parametrą **URL adresas**.
+16. Jei reikia, laukelyje **Vertė** peržiūrėkite ir atnaujinkite Kuritibos mokesčių inspekcijos paskelbtų tinklo tarnybų URL.
+17. Pasirinkite **Įrašyti** ir uždarykite puslapį.
+18. Norėdami sukonfigūruoti programos nustatymą, žr. skyrių [Darbo su elektroninių SF išrašymo priedu pradžia](e-invoicing-get-started.md).
+
+## <a name="country-specific-configuration-of-application-setup-for-brazilian-nfs-e-abrasf-curitiba-br-electronic-invoicing-feature"></a>Šaliai skirta Brazilijos NFS-e ABRASF Kuritibos (BR) elektroninių SF išrašymo priemonės programos sąrankos konfigūracija
+
+Konfigūruojant Brazilijos NFS-e ABRASF Kuritibos (BR) elektroninių SF išrašymo funkciją reikia, kad prieš diegiant savo elektroninių SF išrašymo priemonę į savo elektroninių SF išrašymo priedų aptarnavimo aplinką, būtų atlikti konkretūs veiksmai.
+
+### <a name="prerequisites"></a>Būtinieji komponentai
+
+Prieš atlikdami šiame skyriuje aprašytą procedūrą, sukurkite ir paleiskite Brazilijos NFS-e ABRASF Kuritibos (BR) elektroninių SF išrašymo funkcijos programos konfigūraciją savo įmonei, kaip aprašoma temos skyriuje **Programos sąrankos konfigūravimas**, [Darbo su elektroninių SF išrašymo priedu pradžia](e-invoicing-get-started.md).
+
+1. RCS pasirinkus dalį **Funkcijos**, esančią darbo srityje **Globalizacijos funkcija**, pasirinkite plytelę **Elektroninių SF priedas**.
+2. Puslapyje **Elektroninių SF išrašymo priedo funkcijos** patikrinkite, ar pasirinkta elektroninio SF išrašymo funkcija **Brazilijos NFS-e ABRASF Kuritiba (BR)**.
+3. Skirtuke **Versijos** patikrinkite, ar funkcija **Šablonas** pasirinkta, o skirtuke **Nustatymai**, pasirinkite **Programos sąranka**.
+4. Laukelyje **Prijungta programa** pasirinkite programą, kurią norite diegti.
+5. Laukelyje **Lentelės pavadinimas** patikrinkite, ar pažymėta finansinio dokumento antraštė.
+6. Pasirinkite **Atsakymų tipai** ir pasirinkite **Nauja**.
+7. Laukelyje **Atsakymo tipas** ABRASF Kuritibos pateikimo atsakymą įveskite kaip fiksuotą reikšmę, o laukelyje **Aprašas** įveskite „Aprašas“.
+8. Lauke **Pateikimo būsena** pasirinkite **Laukiama**.
+9. Laukelyje **Modelio susiejimas** pasirinkite funkciją **Atsakymo pranešimo importavimas** bei **NFS-e ABRASF Kuritibos atsakymo pranešimo importavimas (BR)**, o tada pasirinkite **Išsaugoti**.
+10. Pasirinkite **Naujas** ir laukelyje **Atsakymo tipas** įveskite „ABRASF Kuritibos atsakymo pateikimo duomenys“ ir laukelyje **Aprašas** įveskite „Aprašas“.
+11. Lauke **Pateikimo būsena** pasirinkite **Laukiama**.
+12. Laukelyje **Modelio susiejimas** pasirinkite funkciją **Atsakymo duomenų importavimas** bei **(Peržiūra) NFS-e ABRASF atsakymo importavimo formatas (BR)**, o tada pasirinkite **Išsaugoti**.
+13. Pasirinkite **Naujas** ir laukelyje **Atsakymo tipas** įveskite „ABRASF Kuritibos atsakymo prašymas“ kaip fiksuotą reikšmę ir laukelyje **Aprašas** įveskite „Aprašas“.
 14. Lauke **Pateikimo būsena** pasirinkite **Laukiama**.
-15. Lauke **Modelio susiejimas** pasirinkite **NFe atsakymo duomenų importavimo formatas – atsakymo duomenų importavimas**.
-16. Pasirinkite **Įrašyti**.
-
-## <a name="electronic-invoice-processing"></a>El. SF apdorojimas
-
-Apdorojimo „Finance” metu atliksite toliau pateiktas užduotis.
-
-1. Pateikti finansinį dokumentą naudodami elektroninių SF išrašymo priedą.
-2. Peržiūrėti pateikimo vykdymo žurnalus ir apdorojimo rezultatus.
-3. Pateikti finansinio dokumento atšaukimą naudodami elektroninių SF išrašymo priedą.
-
-### <a name="submit-nf-e-fiscal-documents-for-sefaz-authorization"></a>NF-e finansinių dokumentų pateikimas SEFAZ autorizavimui 
-
-Po to, kai įjungiate funkciją **Konfigūruojamas elektroninių SF išrašymo priedo integravimas**, seno proceso, skirto NF-e finansiniams dokumentams pateikti autorizuoti (**NF-e proceso eksportavimas / importavimas**), nebegalima naudoti. Jis pakeičiamas nauju procesu pavadinimu **Pateikti elektroninius dokumentus**.
-
-> [!NOTE]
-> Prieš tęsdami įsitikinkite, kad turite vieną ar daugiau kliento 55 modelio finansinių dokumentų, kuriuos išdavė kliento finansinis padalinys. Šių finansinių dokumentų kryptis turi būti nustatyta į **Siunčiama**, o būsena turi būti **Sukurta**. Daugiau informacijos žr. [Kliento finansinio dokumento išdavimas (Brazilija)](https://docs.microsoft.com/dynamics365/finance/localizations/tasks/br-00038-issuing-customer-fiscal-document).
-
-1. Eikite į **Organizacijos administravimas \> Laikotarpio \> Elektroniniai dokumentai \> Pateikti elektroninius dokumentus**.
-2. Pirmą kartą pateikę bet kokį dokumentą, visada nustatykite parinktį **Iš naujo pateikti dokumentus** į **Ne**. Jei turite iš naujo pateikti dokumentą naudodami paslaugą, nustatykite šią parinktį į **Taip**.
-3. „FastTab” **Įtrauktini įrašai** pasirinkite **Filtruoti**, kad būtų atidarytas dialogo langas **Užklausa**, kuriame galite kurti užklausą, norėdami pasirinkti dokumentus pateikimui.
-4. Skirtuke **Diapazonas** pasirinkite **Įtraukti**.
-5. Lauke **Lentelė** pasirinkite **Finansinio dokumento antraštė**.
-6. Lauke **Išvestinė lentelė** pasirinkite **Finansinio dokumento antraštė**.
-6. Lauke **Laukas** pasirinkite **Numeris**.
-7. Lauke **Kriterijai** įveskite finansinio dokumento, kuris turi būti pateiktas, numerį.
-8. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą **Užklausa**.
-8. Pasirinkti **Gerai**, norėdami pateikti pasirinktus dokumentus.
-
-> [!NOTE]
-> Pirmą kartą bandant pateikti dokumentą naudojant paslaugą, būsite paraginti patvirtinti ryšį su elektroninių SF išrašymo priedu. Pasirinkite **Spustelėkite čia, kad prisijungtumėte prie elektroninių dokumentų pateikimo paslaugos**.
-
-### <a name="view-all-submission-logs"></a>Visų pateikimo žurnalų peržiūra
-
-Įjungus funkciją **Konfigūruojamas elektroninių SF išrašymo priedo integravimas**, galima naudoti naują puslapį, leidžiantį sekti dokumento pateikimo procesą. Galite naudoti šį puslapį norėdami peržiūrėti visų pateiktų dokumentų pateikimo žurnalus.
-
-1. Eikite į **Organizacijos administravimas \> Laikotarpio \> Elektroniniai dokumentai \> Elektroninio dokumento pateikimo žurnalas**.
-2. Lauke **Dokumento tipas** pasirinkite **Finansinio dokumento antraštė**, norėdami filtruoti tik pagal finansinius dokumentus.
-3. Norėdami peržiūrėti išsamią pateikimo vykdymo žurnalų informaciją, veiksmų srityje pasirinkite **Užklausos \> Pateikimo informacija**.
-
-![Pateikimo žurnalo informacijos peržiūra](media/e-Invoicing-services-get-started-BRA-View-Submission-log-details.png)
-
-> [!NOTE] 
-> Apdorojant NF-e finansinius dokumentus, stulpelyje **Klaidos kodas** rodomas grąžinimo kodas, kurį pateikė SEFAZ žiniatinklio tarnybos.
-
-### <a name="view-submission-logs-through-the-fiscal-document-page"></a>Pateikimo žurnalų peržiūra naudojant finansinio dokumento puslapį
-
-Įjungę funkciją **Konfigūruojamas elektroninių SF išrašymo priedo integravimas**, taip pat galite peržiūrėti pateikimo žurnalus naudodami finansinio dokumento puslapį.
-
-1. Eikite į **Didžioji knyga \> Užklausos ir ataskaitos \> Finansiniai dokumentai \> Visi finansiniai dokumentai**.
-2. Pasirinkite finansinį dokumentą, kuris buvo pateiktas anksčiau naudojant elektroninių SF išrašymo priedą.
-3. Veiksmų srities skirtuke **„NF-e Federal”** pasirinkite **Elektroninio dokumento žurnalas**.
-
-![Pateikimo žurnalų peržiūra iš finansinio dokumento puslapio](media/e-Invoicing-services-get-started-BRA-View-Submission-log-from-Fiscal-document-viewer.png)
-
-### <a name="submit-approved-nf-e-fiscal-documents-for-sefaz-cancellation"></a>Patvirtintų NF-e finansinių dokumentų pateikimas SEFAZ atšaukimui
-
-Įjungus funkciją **Konfigūruojamas elektroninių SF išrašymo priedo integravimas**, nebegalima naudoti senojo NF-e finansinių dokumentų atšaukimo proceso. Jis pakeičiamas nauju atšaukimo procesu, kuris įdėtas puslapyje **Elektroninių dokumentų pateikimo žurnalas**.
-
-> [!NOTE]
-> Įsitikinkite, kad įvykdėte patvirtinto NF-e finansinio dokumento kliento finansinio dokumento atšaukimą. Daugiau informacijos žr. [Kliento finansinio dokumento atšaukimas (Brazilija)](https://docs.microsoft.com/dynamics365/finance/localizations/latam-bra-cancel-customer-fiscal-documents).
-
-1. Eikite į **Organizacijos administravimas \> Laikotarpio \> Elektroniniai dokumentai \> Elektroninio dokumento pateikimo žurnalas**.
-2. Pasirinkite finansinį dokumentą, tada pasirinkite **Funkcijos \> Siųsti susijusius pateikimus**.
-3. Įveskite susijusio pateikimo aprašą ir pasirinkite **Gerai**.
-
-### <a name="view-cancellation-submission-logs"></a>Atšaukimo pateikimo žurnalų peržiūra
-
-1. Eikite į **Organizacijos administravimas \> Laikotarpio \> Elektroniniai dokumentai \> Elektroninio dokumento pateikimo žurnalas**.
-2. Lauke **Dokumento tipas** pasirinkite **Finansinio dokumento antraštė**, norėdami filtruoti tik pagal finansinius dokumentus.
-3. Pasirinkite finansinį dokumentą, tada veiksmų srityje pasirinkite **Užklausos \> Susijęs pateikimas**.
-
-    Susiję pateikimai yra pateikimai, kurie susiję su pagrindiniu pateikimu, atliktu pirmiausia. Pavyzdžiui, pateikimas, kuris įgalioja konkrečią NF-e, yra pagrindinis pateikimas. Pateikimas, kuris pateikia užklausą atšaukti tą pačią NF-e SEFAZ, yra susijęs pateikimas. Jis egzistuoja tik todėl, kad pateikia užklausą atšaukti užduotį, atliktą naudojant kitą pateikimą.
-
-    Puslapyje **Susiję pateikimai** rodomi visi susiję pateikimai ir konkrečių finansinių dokumentų pateikimo būsenos. Toliau pateiktoje iliustracijoje pirmoji eilutė nurodo pateikimą, kuris pateikė finansinio dokumento patvirtinimo užklausą. Antroji eilutė nurodo pateikimą, atšaukusį finansinį dokumentą.
-
-    ![Atšaukimo pateikimo žurnalų peržiūra](media/e-Invoicing-services-get-started-BRA-View-Cancellation-Submission-log.png)
-
-4. Norėdami peržiūrėti išsamią pateikimo vykdymo žurnalų informaciją, veiksmų srityje pasirinkite **Užklausos \> Pateikimo informacija**.
-
-    ![Atšaukimo pateikimo žurnalų informacijos peržiūra](media/e-Invoicing-services-get-started-BRA-View-Cancellation-Submission-log-details.png)
+15. Laukelyje **Modelio susiejimas** pasirinkite funkciją **Atsakymo pranešimo importavimas** bei **(Peržiūra) NFS-e ABRASF Kuritibos atsakymo pranešimo importavimas (BR).**
+16. Pasirinkite **Išsaugoti**, tada grįžkite prie temos, [Darbo su elektroninių SF išrašymo priedu pradžia](e-invoicing-get-started.md), kad išskleistumėte elektroninių SF išrašymo funkciją.
 
 ## <a name="privacy-notice"></a>Privatumo pranešimas
-Įgalinant funkciją BR-00053 („NF-e Federal”) gali reikėti siųsti ribotus duomenis, įskaitant organizacijos mokesčių registracijos ID. Jie bus persiųsti mokesčių inspekcijos patvirtintoms trečiųjų šalių agentūroms, kad būtų galima siųsti elektronines SF šiai mokesčių inspekcijai iš anksto nustatytu formatu, reikalingu integravimui su vyriausybės žiniatinklio tarnyba. Administratorius gali įjungti ir išjungti funkciją BR-00053 („NF-e Federal”), nuėjęs į **Organizacijos administravimas \> Nustatymas \> Elektroninių dokumentų parametrai**. Pasirinkite skirtuką **Funkcijos**, pasirinkite eilutę, kurioje yra funkcija BR-00053, tada atlikite reikiamą žymėjimą. Duomenims, importuotiems iš šių išorinių sistemų į šią „Dynamics 365” internetinę paslaugą, taikomos [privatumo nuostatos](https://go.microsoft.com/fwlink/?LinkId=512132). Daugiau informacijos ieškokite skyriuose Privatumo pranešimas, esančiuose konkrečios šalies funkcijos dokumentacijoje.
+Įjungus funkciją **NF-e federalinė Brazilijos elektroninė SF (BR)** ir **NFS-e Brazilijos tarnybos (miesto) elektroninė SF** gali prireikti siųsti ribotus duomenis, įskaitant įmonės mokesčių registracijos ID. Šie duomenys persiunčiami mokesčių inspekcijos patvirtintoms trečiųjų šalių agentūroms, kad būtų galima siųsti elektronines SF šiai mokesčių inspekcijai iš anksto nustatytu formatu, reikalingu integravimui su vyriausybės žiniatinklio tarnyba. Kaip administratorius, galite įjungti arba išjungti **NF-e federalinę Brazilijos elektroninių SF (BR)** ir **NFS-e Brazilijos tarnybos (miestas) elektroninių SF** funkcijas. Toliau parodyta kaip tai padaryti: 
 
+1. Eikite į **Organizacijos administravimas** > **Nustatymas** > **Elektroninių dokumentų parametrai**. 
+2. Skirtuke **Funkcijos** pasirinkite eilutę, kurioje yra funkcija **NF-e federalinė Brazilijos elektroninė SF (BR)** arba **NFS-e Brazilijos tarnybos (miestas) elektroninė SF**, o tada pasirinkite funkciją. Duomenims, importuotiems iš šių išorinių sistemų į šią „Dynamics 365” internetinę paslaugą, taikomos [privatumo nuostatos](https://go.microsoft.com/fwlink/?LinkId=512132). Daugiau informacijos ieškokite skyriuose Privatumo pranešimas, esančiuose konkrečios šalies funkcijos dokumentacijoje.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 - [Elektroninių SF išrašymo priedo apžvalga](e-invoicing-service-overview.md)
-- [Darbo su elektroninių SF išrašymo priedu pradžia](e-invoicing-get-started.md)
-- [Elektroninių SF išrašymo priedo nustatymas](e-invoicing-setup.md)
+- [Darbo su elektroninių SF priedu tarnybos administravimui pradžia](e-invoicing-get-started-service-administration.md)
+- [Darbo su elektroninių SF priedu pradžia](e-invoicing-get-started.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 67c0bb169bee8a7ea90edb4db7233111a8ee6e34
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 772c7584549b30a34e371a7911131edc01214ed8
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993658"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477639"
 ---
 # <a name="warehouse-set-up"></a>Sandėlio nustatymas
-
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip nustatyti sandėlį, kurį reikia naudoti su nauju „Microsoft Dynamics 365 Commerce“ kanalu.
-
-## <a name="overview"></a>Peržiūrėti
 
 Kiekvieną „Commerce“ kanalą reikia susieti su sukonfigūruotu sandėliu. Toliau pateiktos procedūros yra minimalios konfigūracijos, kurias reikia atlikti norint nustatyti „Commerce“ kanalo sandėlį. Daugiau informacijos apie sandėlio nustatymą žr. [Sandėlio valdymo peržiūra](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json).
 
