@@ -18,30 +18,34 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 488745388312f0a2ef936dac2f8252431123fe33
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: c20d0da62724202e5b6c750e646bc205542191aa
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5116073"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468160"
 ---
-# <a name="view-analytics-for-leave-and-absence"></a><span data-ttu-id="f8a96-103">Peržiūrėti atostogų ir neatvykimų analizę</span><span class="sxs-lookup"><span data-stu-id="f8a96-103">View analytics for leave and absence</span></span>
+# <a name="view-analytics-for-leave-and-absence"></a><span data-ttu-id="42578-103">Peržiūrėti atostogų ir neatvykimų analizę</span><span class="sxs-lookup"><span data-stu-id="42578-103">View analytics for leave and absence</span></span>
 
-<span data-ttu-id="f8a96-104">„Dynamics 365 Human Resources“ teikiami analizės duomenis, kad gautumėte įžvalgą apie organizacijos atostogų ir neatvykimų tendencijas.</span><span class="sxs-lookup"><span data-stu-id="f8a96-104">Dynamics 365 Human Resources provides analytics to help give you insight into your organization's leave and absence trends.</span></span>
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-## <a name="view-leave-and-absence-analytics"></a><span data-ttu-id="f8a96-105">Peržiūrėti atostogų ir neatvykimų analizę</span><span class="sxs-lookup"><span data-stu-id="f8a96-105">View Leave and absence analytics</span></span>
+<span data-ttu-id="42578-104">„Dynamics 365 Human Resources“ teikiami analizės duomenis, kad gautumėte įžvalgą apie organizacijos atostogų ir neatvykimų tendencijas.</span><span class="sxs-lookup"><span data-stu-id="42578-104">Dynamics 365 Human Resources provides analytics to help give you insight into your organization's leave and absence trends.</span></span>
 
-1. <span data-ttu-id="f8a96-106">Darbo srityje **Atostogos ir neatvykimai** pasirinkite skirtuką **Analizė**.</span><span class="sxs-lookup"><span data-stu-id="f8a96-106">In the **Leave and absence** workspace, select the **Analytics** tab.</span></span>
+## <a name="view-leave-and-absence-analytics"></a><span data-ttu-id="42578-105">Peržiūrėti atostogų ir neatvykimų analizę</span><span class="sxs-lookup"><span data-stu-id="42578-105">View Leave and absence analytics</span></span>
 
-2. <span data-ttu-id="f8a96-107">Pasirinkite vieną iš šių rodinių, pateikiamų apačioje esančiuose skirtukuose:</span><span class="sxs-lookup"><span data-stu-id="f8a96-107">Choose one of the following views from the tabs along the bottom:</span></span>
+1. <span data-ttu-id="42578-106">Darbo srityje **Atostogos ir neatvykimai** pasirinkite skirtuką **Analizė**.</span><span class="sxs-lookup"><span data-stu-id="42578-106">In the **Leave and absence** workspace, select the **Analytics** tab.</span></span>
 
-   - <span data-ttu-id="f8a96-108">**Atostogų ir neatvykimų peržiūra** – peržiūrėkite atostogų planų registravimų procentines sumas ir naudingumo koeficientus, mėnesinius kaupimus ir balansus bei atostogų planus pagal vadovą.</span><span class="sxs-lookup"><span data-stu-id="f8a96-108">**Leave and Absence Overview** - View enrollment percentages and utilization rates for your leave plans, monthly accruals and balances, and time-off balances by manager.</span></span>
+2. <span data-ttu-id="42578-107">Pasirinkite vieną iš šių rodinių, pateikiamų apačioje esančiuose skirtukuose:</span><span class="sxs-lookup"><span data-stu-id="42578-107">Choose one of the following views from the tabs along the bottom:</span></span>
 
-   - <span data-ttu-id="f8a96-109">**Dabartinio balanso analizė** – peržiūrėti išsamią informaciją apie atostogų balansus ir kaupimus.</span><span class="sxs-lookup"><span data-stu-id="f8a96-109">**Current Balance Analysis** - View detailed information about leave balances and accruals.</span></span>
+   - <span data-ttu-id="42578-108">**Atostogų ir neatvykimų peržiūra** – peržiūrėkite atostogų planų registravimų procentines sumas ir naudingumo koeficientus, mėnesinius kaupimus ir balansus bei atostogų planus pagal vadovą.</span><span class="sxs-lookup"><span data-stu-id="42578-108">**Leave and Absence Overview** - View enrollment percentages and utilization rates for your leave plans, monthly accruals and balances, and time-off balances by manager.</span></span>
 
-   - <span data-ttu-id="f8a96-110">**Balanso tendencijų analizė** – peržiūrėti atostogų balanso tendencijas pagal mėnesį ir pagal metus ir peržiūrėti paskutinių 12 mėnesių tendencijas.</span><span class="sxs-lookup"><span data-stu-id="f8a96-110">**Balance Trend Analysis** - View trends in leave balances by month and by year, and view trends over the past 12 months.</span></span>
+   - <span data-ttu-id="42578-109">**Dabartinio balanso analizė** – peržiūrėti išsamią informaciją apie atostogų balansus ir kaupimus.</span><span class="sxs-lookup"><span data-stu-id="42578-109">**Current Balance Analysis** - View detailed information about leave balances and accruals.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="f8a96-111">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="f8a96-111">See also</span></span>
+   - <span data-ttu-id="42578-110">**Balanso tendencijų analizė** – peržiūrėti atostogų balanso tendencijas pagal mėnesį ir pagal metus ir peržiūrėti paskutinių 12 mėnesių tendencijas.</span><span class="sxs-lookup"><span data-stu-id="42578-110">**Balance Trend Analysis** - View trends in leave balances by month and by year, and view trends over the past 12 months.</span></span>
 
-- [<span data-ttu-id="f8a96-112">Atostogų ir neatvykimų apžvalga</span><span class="sxs-lookup"><span data-stu-id="f8a96-112">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
-- [<span data-ttu-id="f8a96-113">Atostogų ir neatvykimų plano kūrimas</span><span class="sxs-lookup"><span data-stu-id="f8a96-113">Create a leave and absence plan</span></span>](hr-leave-and-absence-plans.md)
+## <a name="see-also"></a><span data-ttu-id="42578-111">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="42578-111">See also</span></span>
+
+- [<span data-ttu-id="42578-112">Atostogų ir neatvykimų apžvalga</span><span class="sxs-lookup"><span data-stu-id="42578-112">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
+- [<span data-ttu-id="42578-113">Atostogų ir neatvykimų plano kūrimas</span><span class="sxs-lookup"><span data-stu-id="42578-113">Create a leave and absence plan</span></span>](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
