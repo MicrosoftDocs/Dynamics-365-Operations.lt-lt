@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSPhysDimUOM
+ms.search.form: EcoResPhysicalProductDimensions, WHSPhysDimUOM
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,16 +16,17 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 004d9b4522335b481b640ef0fe35f4db66e3c9f5
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: aa5cbf807e809238489c539d3ad8c0bc34421774
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5078290"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501299"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Skirtingų pakavimo ir saugojimo dimensijų nustatymas
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Kai kurios prekės yra supakuotos arba saugomos taip, kad jums gali reikėti sekti kiekvieno iš kelių skirtingų procesų faktines dimensijas atskirai. Funkcija *Produkto pakavimo dimensijos* leidžia jums nustatyti vieną ar kelis kiekvieno produkto dimensijų tipus. Kiekvienas dimensijos tipas pateikia faktinių matavimų (svorio, pločio, gylio ir aukščio) rinkinį ir nustato procesą, kuriame taikomos šių faktinių matavimų vertės. Kai ši funkcija yra įgalinta, jūsų sistema palaiko šiuos dimensijų tipus:
 

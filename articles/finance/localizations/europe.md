@@ -3,7 +3,7 @@ title: Europos apžvalga
 description: Šioje temoje pateikiami „Microsoft Dynamics 365 Finance“ dokumentų išteklių, skirtų Europai, saitai.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aca45011b39240da6634ce604cff49697f95a299
-ms.sourcegitcommit: 7cdec5469ff0da145ac4e01caf3287d0627ae2dc
+ms.openlocfilehash: b5aed9d3b5a82b88bb7d1e237aea0aa24dae102f
+ms.sourcegitcommit: 08ac570bece3e4ee4a0f632f51623e328536dfcf
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5099904"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5557429"
 ---
 # <a name="europe-overview"></a>Europos apžvalga
 
@@ -40,6 +40,7 @@ ms.locfileid: "5099904"
 - [ES pardavimo sąrašo ataskaitos](emea-eu-sales-list.md)
 - [Valiutų kursų koregavimai](emea-exchange-rate-adjustments.md)
 - [Failo formatai mokėjimo metodams](emea-select-file-formats-for-the-method-of-payments.md)
+- [Finansų (globalizavimo) gairės dėl „Brexit” poveikio](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [Finansų tarnybos (ESR) integravimas](emea-fiscal-service-integration.md)
 - [Ilgalaikio turto likvidavimas Estijoje ir Lietuvoje](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Atsargų perkėlimo įmonės viduje perkėlimo dokumento generavimas](tasks/transfer-document-internal-inventory-transfer.md)
@@ -65,7 +66,7 @@ ms.locfileid: "5099904"
 - [ES įrašo sertifikato išdavimas](tasks/eur-00012-issue-eu-entry-certificate.md)
 - [Elektroninių sąskaitų faktūrų išrašymo palaikomi standartai](emea-oioubl-standards-electronic-invoicing.md)
 - [Priverstinis elektroninių sąskaitų faktūrų generavimas](emea-eur-forced-einvoices.md)
-- [Originali sąskaitos faktūros nuoroda (Rytų Europa)](tasks/ee-00004-original-invoice-reference.md)
+- [Pradinės sąskaitos faktūros nuoroda (Rytų Europa)](tasks/ee-00004-original-invoice-reference.md)
 - [Šalies ieška naudojant PVM ID](tasks/eur-00015-party-search-vat-id.md)
 - [Mokėjimo nuorodų generavimo įrankis](tasks/ee-00015-payment-reference-generation-tool.md)
 - [Mokėjimo kvito ataskaita](emea-eur-payment-slip-report-giro.md)

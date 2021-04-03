@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ebb9833be5e51fe59e9895e67cd8e55058078aa
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 265709f298d9310d5d647eaa029ece778d2e226e
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001353"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470646"
 ---
 # <a name="repair-management"></a>Remonto valdymas       
 
@@ -37,15 +37,11 @@ Galite nustatyti požymių, diagnozės ir sprendimo parametrus. Visus juos bus g
 
 Toliau pateiktose nustatymo formose Įveskite informaciją, kuri bus naudojama nurodant remonto požymius, diagnozę ir sprendimą.
 
-1.  Spustelėkite **Aptarnavimo valdymas** \> **Nustatymas** \> **Remontas** \> **Sąlygos**.
-
-2.  Spustelėkite **Aptarnavimo valdymas** \> **Nustatymas** \> **Remontas** \> **Požymių sritys**.
-
-3.  Spustelėkite **Aptarnavimo valdymas** \> **Nustatymas** \> **Remontas** \> **Diagnozės sritys**.
-
-4.  Spustelėkite **Aptarnavimo valdymas** \> **Nustatymas** \> **Remontas** \> **Sprendimai**.
-
-5.  Spustelėkite **Aptarnavimo valdymas** \> **Nustatymas** \> **Remontas** \> **Remonto etapai**.
+- **Aptarnavimo valdymas** \> **Nustatymas** \> **Remontas** \> **Sąlygos**.
+- **Aptarnavimo valdymas** \> **Nustatymas** \> **Remontas** \> **Požymių sritys**.
+-  **Aptarnavimo valdymas** \> **Nustatymas** \> **Remontas** \> **Diagnozės sritys**.
+- **Aptarnavimo valdymas** \> **Nustatymas** \> **Remontas** \> **Sprendimai**.
+- **Aptarnavimo valdymas** \> **Nustatymas** \> **Remontas** \> **Remonto etapai**.
 
 ## <a name="symptoms-and-conditions"></a>Požymiai ir sąlygos
 
@@ -81,19 +77,19 @@ Remonto eilutes galite kurti kiekvienam remonto proceso žingsniui.
 
 ## <a name="create-a-repair-line-on-a-service-order"></a>Aptarnavimo užsakymo remonto eilutės kūrimas
 
-1.  Spustelėkite **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**.
+1.  Eikite į **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**.
 
 2.  Pasirinkite aptarnavimo užsakymą su aptarnavimo objektu, kuriam reikia remonto.
 
-3.  Spustelėkite **Remontas** \> **Remonto eilutės**, kad atidarytumėte formą **Remonto eilutės**.
+3.  Pasirinkite **Remontas** \> **Remonto eilutės**, kad atidarytumėte formą **Remonto eilutės**.
 
-4.  Paspauskite Ctrl+N, kad sukurtumėte naują eilutę.
+4.  Pasirinkite **Naujas**, kad sukurtumėte naują eilutę.
 
 5.  Pasirinkite aptarnavimo objektą. Jūs galite pasirinkti bet kurį aptarnavimo objektą, kuris aptarnavimo užsakyme buvo nustatytas su objekto ryšiu.
 
 6.  Remonto eilutėje pasirinkite bet kuriuos reikiamus iš anksto nustatytus požymius, diagnozes ir vykdymo vertes, tada spustelėję skirtuką **Pastaba** remonto eilutėje sukurkite pastabą (jei reikia).
 
-7.  Norėdami išsaugoti naują remonto eilutę, paspauskite CTRL+S. Formos **Remonto eilutės** skirtuke **Bendra** esančiame lauke **Sukūrimo data ir laikas** atnaujinamas įrašymo laikas.
+7.  Pasirinkite **Įrašyti** naujai remonto eilutei įrašyti. Formos **Remonto eilutės** skirtuke **Bendra** esančiame lauke **Sukūrimo data ir laikas** atnaujinamas įrašymo laikas.
 
 ## <a name="tracking-progress-and-resolving-a-repair-issue"></a>Remonto eigos sekimas ir problemos sprendimas
 

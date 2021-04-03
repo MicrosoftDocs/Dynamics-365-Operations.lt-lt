@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: fb598b3ac7dd72e8c500f0c2eaf07462009c67f7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 722b004e607cb2e6b7de292d92b67b18c2024696
+ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970311"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556271"
 ---
 # <a name="planned-cross-docking"></a>Suplanuotas prekių skirstymas
 
@@ -37,12 +37,12 @@ Gaunamo užsakymo gavimo metu, prekių skirstymo nustatymas automatiškai identi
 > [!NOTE]
 > Atsargų operacijos yra **ne** registruojamos atšaukus prekių skirstymo darbą, net jei šios galimybės nustatymas yra įjungtas sandėlio valdymo parametruose.
 
-## <a name="turn-on-the-planned-cross-docking-feature"></a>Įjungti suplanuoto prekių skirstymo funkciją
+## <a name="turn-on-the-planned-cross-docking-features"></a>Įjungti suplanuoto prekių skirstymo funkcijas
 
-Norėdami naudoti išplėstinę prekių skirstymo funkciją, įjunkite ją savo sistemoje. Administratoriai gali naudoti [Funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Ten ši funkcija pateikiama taip:
+Jei jūsų sistemoje dar nėra funkcijų, aprašytų šioje temoje, eikite į [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir toliau pateikiama tvarka įjunkite šias funkcijas:
 
-- **Modulis:** *sandėlio valdymas*
-- **Funkcijos pavadinimas:** *Suplanuotas prekių skirstymas*
+1. *Suplanuotas prekių skirstymas*
+2. *Prekių skirstymo šablonai su vietovės nurodymais*
 
 ## <a name="setup"></a>Sąranka
 
@@ -89,6 +89,10 @@ Suplanuotas prekių skirstymas yra įgyvendinamas kaip krovinio registravimo met
     - **Iš naujo patikrinti tiekimo kvitą:** *Ne*
 
         Ši pasirinktis nurodo, ar turi būti iš naujo patikrinta pasiūla gavimo metu. Jei ši pasirinktis nustatyta kaip *Taip,* tikrinamas ir maksimalus laiko langą, ir galiojimo dienų intervalas.
+
+    - **Nurodymo kodas:** palikite šį lauką tuščią
+
+        Ši parinktis įgalina sistemą naudoti vietos nurodymus, kad padėtų nustatyti geriausią vietą, į kurią bus perkeliamos prekių skirstymo atsargos. Galite ją nustatyti, priskirdami nurodymo kodą kiekvienam susijusiam prekių skirstymo šablonui. Kiekvienas nurodymo kodas identifikuoja unikalų vietos nurodymą.
 
     - **Patikrinti laiko langą:** *Taip*
 

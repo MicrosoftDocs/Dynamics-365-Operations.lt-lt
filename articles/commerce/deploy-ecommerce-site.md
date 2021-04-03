@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3b750ee89a85688dcebe673f9c3ff13693e9fcad
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d31e3e7248809a00ad51183b80205d1351567ab3
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976743"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477881"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Talpinkite naują e-komercijos nuomotoją
-
 
 [!include [banner](includes/banner.md)]
 
 Šiame skyriuje aprašoma, kaip talpinti naują „Dynamics 365 Commerce“ e-komercijos svetainę naudojant „Microsoft Dynamics  Lifecycle Services“ (LCS).
-
-## <a name="overview"></a>Peržiūra
 
 „Microsoft Dynamics“ „Lifecycle Services“ (LCS) yra debesiu pagrįsta bendradarbiavimo darbo sritis, kurią partneriai ir klientai gali naudoti savo projektams ir aplinkoms tvarkyti, peržiūrėti naujausią informaciją apie „Microsoft Dynamics“ produktus ir funkcijas bei kurti, sekti ir naršyti palaikymo incidentus. E-komercijos valdymo funkcijos yra integruotos į LCS.
 

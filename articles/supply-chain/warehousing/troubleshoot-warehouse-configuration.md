@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 09b5770190fea9591f422b61ce6deedb2b9fa790
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1fe285f05e5f1ddcb7bd206290b9954cbdaffc75
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994008"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487102"
 ---
 # <a name="troubleshoot-warehouse-configuration"></a>Trikties šalinimo sandėlio konfigūravimas
 
@@ -109,5 +109,32 @@ Norėdami leisti darbuotojams atlikti šį keitimą, galite sukurti meniu prekę
 
 Galite nustatyti kitus laukelius puslapyje, kaip būtina.
 
+## <a name="the-dock-management-profile-of-a-location-profile-is-not-preventing-inventory-types-from-being-mixed"></a>Vietos profilio rampos valdymo profilis nekliudo atsargų tipų susimaišymui.
+
+### <a name="issue-description"></a>Problemos aprašas
+
+Jūs naudojate *siuntos konsolidacijų strategijas*. Nustatėte *rampos valdymo profilį* kaip *vietos profilį*, tačiau sukūrus darbą, atsargų tipai susimaišo galutinėje vietoje.
+
+### <a name="issue-resolution"></a>Problemos paaiškinimas
+
+Rampos valdymo profiliai reikalauja iš anksto suskaidyti darbą. Kitaip tariant, rampos valdymo profilis tikisi, kad darbo antraštėje nebus kelių padėjimo vietų.
+
+Norint, kad rampos valdymo profilis efektyviai valdytų atsargų maišymą, reikia nustatyti darbo antraštės lūžį.
+
+Šiame pavyzdyje mūsų rampos valdymo profilis sukonfigūruotas taip, kad **Atsargų tipai, kurių negalima maišyti** būtų nustatytas į *Siuntos ID*, o mes jam nustatysime darbo antraštės lūžį:
+
+1. Eikite į **Sandėlio valdymas \> Sąranka \> Darbas \> Darbo šablonai**.
+1. Pasirinkite **Darbo užsakymo tipą** redagavimui (pavyzdžiui, *Pirkimo užsakymai*).
+1. Pasirinkite darbo šabloną redagavimui.
+1. Veiksmų srityje pasirinkite **Redaguoti užklausą**.
+1. Atidarykite **Rikiavimo** skirtuką ir pridėkite eilutę su šiais parametrais:
+    - **Lentelė** - *Laikinos darbo operacijos*
+    - **Išvestinė lentelė** - *Laikinos darbo operacijos*
+    - **Laukas** - *Siuntos ID*
+1. Pasirinkite **Gerai**.
+1. Grįžtate į **Darbo šablonų** puslapį. Veiksmų juostoje pasirinkite **Darbo antraštės lūžiai**.
+1. Veiksmų srityje pasirinkite **Redaguoti**.
+1. Pasirinkite žymės langelį, susietą su **Lauko pavadinimo** *Siuntos ID*.
+1. Veiksmų srityje pasirinkite **Įrašyti**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

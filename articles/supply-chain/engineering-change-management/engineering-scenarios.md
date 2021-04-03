@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 19fab4f6b81eaf6e3605b6668212eece10606360
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 56e868f3050432db8d3b1721da435665f554d90d
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4987584"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487926"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Inžinerinių keitimų valdymo funkcijos gairės
 
@@ -397,7 +397,6 @@ Inžinierius dabar peržiūri užklausą iš kliento ir sukuria keitimo užsakym
 
 1. Veiksmų juostoje skirtuke **Keisti užsakymą** grupėje **Keitimo būsenos** grupėje rinkitės **Tvirtinti**.
 1. Rinkitės **Tvarkyti** norėdami atnaujinti produkto informaciją.
-1. Rinkitės **Užbaigti** tam, kad pažymėtumėte keičiamą užsakymą baigtu.
 
 ## <a name="release-the-changed-product"></a>Išleisti pakeistą produktą
 
@@ -411,5 +410,8 @@ Produktas dabar gali būti išleistas dar kartą į *USMF* bendrovę ir tada nus
 1. Rinkitės **Gerai** tam, kad užvertumėte **Leidimių** teksto laukelį ir grįžtumėte į užsakymo keitimą.
 1. Veiksmų juostoje, **Pokyčių užsakymas** skirtuke, grupėje **Produkto leidimai** rinkitės **Procesas** norėdami išleisti paveiktus produktus pasirinktoms bendrovėms. Kitu atveju, rinkitės **Leisti produkto struktūrą** tam, kad pradėtumėte leidimo procesą.
 
+## <a name="complete-the-change-order"></a>Keitimo užsakymo baigimas
+
+Kad keitimo užsakymą pažymėtumėte kaip atliktą (tai reiškia, kad nebereikia atlikti jokių tolesnių veiksmų), veiksmų srityje pasirinkite **Baigta**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

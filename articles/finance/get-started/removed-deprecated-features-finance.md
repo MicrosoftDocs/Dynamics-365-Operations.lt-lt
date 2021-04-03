@@ -3,7 +3,7 @@ title: Pašalintos arba nebenaudojamos „Dynamics 365 Finance“ funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama pašalinti iš „Dynamics 365 Finance“.
 author: roschlom
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,15 +11,15 @@ ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: sericks
+ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7090a7461c7b77d74f081afd8f22db100cdf0792
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 14428491383883c1fc2a8cdcd1975e1f1cb71b40
+ms.sourcegitcommit: e9d19f25e64cf4d1c1d07c8031a7081454a6f79e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154182"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5474068"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Pašalintos arba nebenaudojamos „Dynamics 365 Finance“ funkcijos
 
@@ -33,7 +33,19 @@ ms.locfileid: "5154182"
 Šis sąrašas skirtas suteikti jums informacijos apie pašalintas ir nebenaudojamas funkcijas, kad galėtumėte geriau planuoti savo darbą. 
 
 > [!NOTE]
-> Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](https://docs.microsoft.com/dynamics/s-e/). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
+> Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Finance“ 10.0.17 versijoje
+
+### <a name="lcs-repository-as-a-storage-option-for-electronic-reporting-configurations"></a>LCS saugykla kaip elektroninių ataskaitų konfigūracijų saugojimo parinktis
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo/pašalinimo priežastis** | Pakeista nauja „Regulatory Configuration Services” (RCS) visuotine saugykla |
+| **Pakeitė kita funkcija?**   | Taip |
+| **Paveiktos produkto sritys**         | „Dynamics 365 Finance”, „Supply Chain Management” ir „Project Operations” produktai|
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Nebenaudojama: nuo 2022 m. balandžio 1 d. nebepalaikysime „Microsoft Dynamics Lifecycle Services” (LCS) saugyklos kaip elektroninių ataskaitų (ER) konfigūracijų saugojimo parinkties. Naujos „Microsoft” ER konfigūracijos bus publikuojamos ir jas bus galima atsisiųsti tik iš visuotinės saugyklos. Visuotinę saugyklą galima pasiekti iš „Dynamics 365” produktų ir RCS. Daugiau informacijos žr. [ER konfigūracijų importavimas iš RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Finance“ 10.0.16 versijoje
 
