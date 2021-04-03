@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d91f377af2514af932ea585adb75a56bdee13871
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ec7417d44a7c2aa413a9cda75996c153727632dd
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988488"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592651"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-mexico"></a>Darbo su Meksikos elektroninių SF išrašymo priedu pradžia
 
@@ -291,7 +291,7 @@ Kai pateikta CFDI SF patvirtinama, jos būsena atnaujinama į **Patvirtinta**.
     ![Atšaukimo pateikimo žurnalų informacijos peržiūra](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log-details.png)
 
 ## <a name="privacy-notice"></a>Privatumo pranešimas
-Įgalinant funkcijas MX-00010 ir MX-00016 (CFDI SF ir CFDI atšaukimas) gali reikėti siųsti ribotus duomenis, įskaitant organizacijos mokesčių registracijos ID. Jie bus persiųsti mokesčių inspekcijos patvirtintoms trečiųjų šalių agentūroms, kad būtų galima siųsti elektronines SF šiai mokesčių inspekcijai iš anksto nustatytu formatu, reikalingu integravimui su vyriausybės žiniatinklio tarnyba. Administratorius gali įjungti ir išjungti funkcijas MX-00010 ir MX-00016 (CFDI SF ir CFDI atšaukimas), nuėjęs į **Organizacijos administravimas \> Nustatymas \> Elektroninių dokumentų parametrai**. Pasirinkite skirtuką **Funkcijos**, pasirinkite eilutes, kuriose yra funkcijos MX-00010 ir MX-00016, tada atlikite reikiamą žymėjimą. Duomenims, importuotiems iš šių išorinių sistemų į šią „Dynamics 365” internetinę paslaugą, taikomos [privatumo nuostatos](https://go.microsoft.com/fwlink/?LinkId=512132). Daugiau informacijos ieškokite skyriuose Privatumo pranešimas, esančiuose konkrečios šalies funkcijos dokumentacijoje.
+Norint įjungti funkciją **CFDI Meksikos elektroninė SF (MX)** gali prireikti siųsti ribotus duomenis, kurie apima įmonės mokesčių registravimo ID. Jie bus persiųsti mokesčių inspekcijos patvirtintoms trečiųjų šalių agentūroms, kad būtų galima siųsti elektronines SF šiai mokesčių inspekcijai iš anksto nustatytu formatu, reikalingu integravimui su vyriausybės žiniatinklio tarnyba. Administratorius gali įjungti ir išjungti funkciją **CFDI Meksikos elektroninė SF (MX)**, nuėjęs į **Organizacijos administravimas \> Nustatymas \> Elektroninių dokumentų parametrai**. Skirtuke **Funkcijos** pasirinkite eilutes, kuriose yra funkcija **CFDI Meksikos elektroninė SF (MX)**, ir tinkamai pasirinkite. Duomenims, importuotiems iš šių išorinių sistemų į šią „Dynamics 365” internetinę paslaugą, taikomos [privatumo nuostatos](https://go.microsoft.com/fwlink/?LinkId=512132). Daugiau informacijos ieškokite skyriuose Privatumo pranešimas, esančiuose konkrečios šalies funkcijos dokumentacijoje.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

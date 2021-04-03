@@ -8,18 +8,19 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: JmgProductionFloorExecutionConfiguration, JmgProductionFloorExecutionConfigurationTab
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 786ea9a3da98e9f1812b007d4301cb47680e6894
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: 282785799b6d61a00a356fcc2ae86ff0e3b7b39f
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5077583"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501035"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Sukurti gamybos aukšto vykdymo sąsają
 
@@ -45,7 +46,7 @@ Tolesni elementai rodomi paveikslėlyje:
 
 Norėdami sukurti ir konfigūruoti naują skirtuką, atlikite šiuos žingsnius:
 
-1. Eikite į **Gamybos valdymą &gt; Nusttymai &gt; Gamybos vykdymas**.
+1. Eikite į **Gamybos kontrolė \> Sąranka \> Gamybos vykdymas \> Gamybos cecho vykdymo konfigūravimas**.
 
 1. Rinkitės **Sukurti skirtukus** veiksmų juostoje, tam, kad atvertumėte **Kūrimo skirtukų** puslapį.
 
@@ -67,7 +68,7 @@ Norėdami sukurti ir konfigūruoti naują skirtuką, atlikite šiuos žingsnius:
 
 Jums sukūrųs visus būtinus skirtukus, galite susieti juos su konfigūravimu.
 
-1. Eikite į **Gamybos valdymą &gt; Nusttymai &gt; Konfigūravimo gamybos aukšto vykdymas**.
+1. Eikite į **Gamybos kontrolė \> Sąranka \> Gamybos vykdymas \> Gamybos cecho vykdymo konfigūravimas**.
 
     ![Konfigūruoti gamybos vietos vykdymą](media/pfe-config-prod-floor-execution.png "Konfigūruoti gamybos vietos vykdymą")
 

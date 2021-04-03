@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 4e6f7e0a3978bbf7e520f8cbcfd27c4cfe507777
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 4e588be2ac5aae395ca66e3c9a743a67d71db7c0
+ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114675"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5574227"
 ---
 # <a name="inventory-visibility-add-in"></a>Inventoriaus matomumo papildinys
 
@@ -48,11 +48,64 @@ Dėl daugiau informacijos, žr. [„Lifecycle Services“ ištekliai](https://do
 Prieš jums įdiegiant inventoriaus matomumo papildinį, atlikite šiuos veiksmus:
 
 - Gaukite LCS implementavimo projektą su mažiausiai viena patalpinta aplinka.
-- Sukurkite beta raktus siūlydami LCS.
-- Įjunkite beta raktus siūlydami LCS savo vartotojui.
-- Susisiekite su „Microsoft Inventory Visibility“ produkto komanda ir pateikite aplinkos ID, kurioje norite talpinti papildinį.
+- Įsitikinkite, kad baigtos būtinosios priedų nustatymo sąlygos, pateikiamos skyriuje [Priedų apžvalga](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md) buvo patenkintos. Atsargų matomumui nereikia dvigubo rašymo susiejimo.
+- Kreipkitės į atsargų matomumo komandą el. paštu [inventvisibilitysupp@microsoft.com ](mailto:inventvisibilitysupp@microsoft.com), kad gautumėte šiuos tris reikalingus failus:
+
+    - `Inventory Visibility Dataverse Solution.zip`
+    - `Inventory Visibility Configuration Trigger.zip`
+    - `Inventory Visibility Integration.zip` (jei jūsų vykdoma „Supply Chain Management” versija yra ankstesnė nei 10.0.18 versija)
+
+> [!NOTE]
+> Šiuo metu palaikomos šalys ir regionai yra Kanada, Jungtinės Valstijos ir Europos Sąjunga (ES).
 
 Jei turite kokių klausimų apie šias būtinąsias sąlygas, susisiekite su papildinio produkto komanda.
+
+### <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>„Dataverse“ nustatymas
+
+Atlikite šiuos veiksmus, kad nustatytumėte „Dataverse“.
+
+1. Prie savo nuomininko pridėkite aptarnavimo principą:
+
+    1. Įdiekite „Azure AD“ „PowerShell“ v2 modulį, kaip aprašyta skyriuje [„Azure Active Directory“ „PowerShell for Graph“ diegimas](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2).
+    1. Paleiskite šią „PowerShell“ komandą.
+
+        ```powershell
+        Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+
+        New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
+        ```
+
+1. Sukurkite programos naudotoją „Dataverse“ atsargų matomumui:
+
+    1. Atidarykite savo „Dataverse“ aplinkos URL.
+    1. Eikite į **Išplėstiniai nustatymai \> Sistema \> Sauga \> Naudotojai** ir sukurkite programos naudotoją. Naudokite peržiūros meniu, kad puslapio rodinį pakeistumėte į **Programos naudotojai**.
+    1. Pasirinkite **Naujas**. Programos ID nustatykite kaip *3022308a-b9bd-4a18-b8ac-2ddedb2075e1*. (Išsaugant keitimus objekto ID įkeliamas automatiškai.) Pavadinimą galima pritaikyti. Pavyzdžiui, jį galima pakeisti į *Atsargų matomumas*. Jums pabaigus, pasirinkite **Įrašyti**.
+    1. Pasirinkite **Priskirti vaidmenį**, tada pasirinkite **Sistemos administratorius**. Jei yra vaidmuo pavadinimu **„Common Data Service“ naudotojas**, pasirinkite ir jį.
+
+    Daugiau informacijos žr. skyriuje [Programos naudotojo kūrimas](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+
+1. Importuokite failą `Inventory Visibility Dataverse Solution.zip`, kuriame yra su „Dataverse“ konfigūracija susiję objektai ir „Power Apps“:
+
+    1. Eikite į puslapį **Sprendimai**.
+    1. Pasirinkite **Importuoti**.
+
+1. Importuokite konfigūracijos atnaujinimo paleidiklio eigą:
+
+    1. Eikite į puslapį „Microsoft Flow“.
+    1. Patikrinkite, ar yra ryšys, pavadintas „*Dataverse“ (senesnis)*. (Jei ne, sukurkite jį.)
+    1. Importuokite failą `Inventory Visibility Configuration Trigger.zip`. Jį importavus srityje **Mano srautai** bus rodomas paleidiklis.
+    1. Inicijuokite šiuos keturis kintamuosius, atsižvelgdami į aplinkos informaciją:
+
+        - „Azure“ nuomininko ID
+        - „Azure“ programos kliento ID
+        - „Azure“ programos kliento raktas
+        - Atsargų matomumo galinis punktas
+
+            Daugiau informacijos apie šį kintamąjį žr. toliau šioje temoje pateikiamame skyriuje [Atsargų matomumo integravimo nustatymas](#setup-inventory-visibility-integration).
+
+        ![Konfigūracijos paleidiklis](media/configuration-trigger.png "Konfigūracijos paleidiklis")
+
+    1. Pasirinkite **Įjungti**.
 
 ### <a name="install-the-add-in"></a><a name="install-add-in"></a>Papildinio įdiegimas
 
@@ -61,14 +114,16 @@ Norėdami įdiegti inventoriaus matomumo papildinį, atlikite šiuos veiksmus:
 1. Prisijunkite prie [„Lifecycle Services“ (LCS)](https://lcs.dynamics.com/Logon/Index) portalo.
 1. Pagrindiniame puslapyje pasirinkite projektą, kuriame jūsų aplinka talpinta.
 1. Projekto puslapyje pasirinkite aplinką, kurioje norite įdiegti papildinį.
-1. Aplinkos puslapyje eikite žemyn, kol pamatysite **Aplinkos papildiniai** skyrių. Jei skyrisu nematomas, įsitikinkite, kad būtinųjų sąlygų beta raktai yra visiškai sutvarkyti.
-1. Skyriuje **Aplinkos papildiniai** rinkitės **Diegti naują papildinį**.
+1. Aplinkos puslapyje slinkite žemyn, kol pamatysite skyrių **Aplinkos priedai**, skyriuje **„Power Platform“ integravimas**, kuriame rasite „Dataverse“ aplinkos pavadinimą.
+1. Skyriuje **Aplinkos papildiniai** pasirinkite **Diegti naują papildinį**.
+
     ![Aplinkos puslapis LCS](media/inventory-visibility-environment.png "Aplinkos puslapis LCS")
+
 1. Rinkitės **Diegti naują papildinį** nuorodą. Esamų atvirų papildinių sąrašas.
-1. Rinkitės **Inventoriaus paslaugos** iš sąrašo. (Atsiminkite, kad tai gali būti išvardyta kaip **Inventoriaus matomumo papildinys „Dynamics 365 Supply Chain Management“**.)
+1. Sąraše pasirinkite **Atsargų matomumas**.
 1. Įveskite tolesnes vertes tolesniiuose savo aplinkos laukeliuose:
 
-    - **ĮTRAUKITE programos ID**
+    - **AAD programos (kliento) ID**
     - **ĮTRAUKITE nuomotojo ID**
 
     ![Įtraukite į nustatymų puslapį](media/inventory-visibility-setup.png "Papildinio nustatymus puslapis")
@@ -76,7 +131,70 @@ Norėdami įdiegti inventoriaus matomumo papildinį, atlikite šiuos veiksmus:
 1. Sutikite su sąlygomis ir terminais pasirinkę **Sąlygos ir terminai** žymimą laukelį.
 1. Pasirinkti **Diegti**. Papildinio būsena bus rodoma kaip **diegiama**. Kai pasibaigs, paleiskite iš naujo puslapį, kad matytumėte būsenos keitimą į **Diegta**.
 
-### <a name="get-a-security-service-token"></a>Gaukite saugos paslaugų žymą
+### <a name="uninstall-the-add-in"></a><a name="uninstall-add-in"></a>Papildinio šalinimas
+
+Norėdami išdiegti papildinį, pasirinkite **Išdiegti**. Atnaujinus LCS inventoriaus matomumo papildinys bus panaikintas. Atlikus išdiegimo procesą pašalinama papildinio registracija ir pradedamas darbas siekiant išvalyti visus verslo duomenis laikomus paslaugose.
+
+## <a name="consume-on-hand-inventory-data-from-supply-chain-management"></a>Turimų atsargų duomenų iš „Supply Chain Management” naudojimas
+
+### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Aplinkos matomumo integravimo paketo diegimas
+
+Jei naudojate „Supply Chain Management” 10.0.17 ar senesnę versiją, susisiekite su atsargų matomumo samdymo palaikymo komanda el. paštu [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com), kad gautumėte paketo failą. Tada įdiekite paketą LCS.
+
+> [!NOTE]
+> Jei diegiant įvyksta versijų neatitikimo klaida, turite rankiniu būdu importuoti X++ projektą į savo programavimo aplinką. Tada sukurkite diegiamą paketą savo programavimo aplinkoje ir įdiekite jį savo gamybos aplinkoje.
+> 
+> Kodas įtrauktas į „Supply Chain Management” 10.0.18 versiją. Jei naudojate tą ar vėlesnę versiją, įdiegti nereikia.
+
+Įsitikinkite, kad šios priemonės yra įjungtos jūsų „Supply Chain Management” aplinkoje. (Numatyta, kad jos yra įjungtos.)
+
+| Funkcijos aprašymas | Kodo versija | Klasės kaitaliojimas |
+|---|---|---|
+| Atsargų dimensijų naudojimo „InventSum“ lentelėje įjungimas arba išjungimas | 10.0.11 | InventUseDimOfInventSumToggle |
+| Atsargų dimensijų naudojimo „InventSumDelta“ lentelėje įjungimas arba išjungimas | 10.0.12 | InventUseDimOfInventSumDeltaToggle |
+
+### <a name="set-up-inventory-visibility-integration"></a><a name="setup-inventory-visibility-integration"></a>Atsargų matomumo integravimo nustatymas
+
+1. „Supply Chain Management” atidarykite darbo sritį **[Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** ir įjunkite funkciją **Atsargų matomumo integravimas**.
+1. Eikite į **Atsargų valdymas \> Nustatymas \> Atsargų matomumo integravimo parametrai** ir įveskite aplinkos, kurioje paleidžiamas atsargų matomumas, URL.
+
+    Raskite savo LCS aplinkos „Azure“ regioną, o tada įveskite URL. URL forma yra tokia:
+
+    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com/`
+
+    Pavyzdžiui, jei esate Europoje, jūsų aplinkos URL bus vienas iš šių:
+
+    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com/`
+    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com/`
+
+    Šiuo metu naudojami nurodyti regionai.
+
+    | „Azure“ regionas | Trumpas regiono pavadinimas |
+    |---|---|
+    | Rytų Australija | eau |
+    | Pietryčių Australija | seau |
+    | Centrinė Kanada | cca |
+    | Rytų Kanada | eca |
+    | Šiaurės Europa | neu |
+    | Vakarų Europa | weu |
+    | Rytų JAV | eus |
+    | Vakarų JAV | wus |
+
+1. Eikite į **Atsargų valdymas \> Periodinis \> Atsargų matomumo integravimas** ir įjunkite užduotį. Visi atsargų keitimo įvykiai iš „Supply Chain Management” dabar bus užregistruoti atsargų matomumo srityje.
+
+## <a name="the-inventory-visibility-add-in-public-api"></a><a name="inventory-visibility-public-api"></a>Vieša inventoriaus matomumo API
+
+Vieša REST API inventoriaus matomumo papildinio nustatymuose nurodo kai kuriuos integravimo galutinius taškus. Jis palaiko tris pagrindines sąveikos rūšis:
+
+- Turimų atsargų pakeitimų į papildinio formą išorės sistemoje registravimas
+- Dabartinių turimų kiekių užklausos iš išorės sistemos
+- Automatinis sinchronizavimas su turimomis „Supply Chain Management“ atsargomis.
+
+Automatinis sinchronizavimas nėra viešosios API dalis. Vietoje to jis tvarkomas fone, aplinkoms, kuriose įjungtas atsargų matomumo priedas.
+
+### <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Autentifikavimas
+
+Platformos saugos atpažinimo ženklas naudojamas atsargų matomumo priedui iškviesti. Todėl turite sugeneruoti *„Azure Active Directory“ („Azure AD“) atpažinimo ženklą*, naudodami savo „Azure AD“ programą. Tada turite naudoti „Azure AD“ atpažinimo ženklą, kad iš saugos tarnybos gautumėte *prieigos atpažinimo ženklą*.
 
 Gaukite saugos paslaugų žymą atlikdami šiuos veiksmus:
 
@@ -140,27 +258,7 @@ Gaukite saugos paslaugų žymą atlikdami šiuos veiksmus:
     }
     ```
 
-### <a name="uninstall-the-add-in"></a>Papildinio šalinimas
-
-Norėdami išdiegti papildinį, pasirinkite **Išdiegti**. Paleiskite iš naujo LCS ir inventoriaus matomumo papildinys bus panaikintas. Išdiegimo procesas pašalins papildinio registraciją ir taip pat pradės darbą siekiant išvalyti visus verslo duomenis laikomus paslaugose.
-
-## <a name="inventory-visibility-add-in-public-api"></a>Inventoriaus matomumo vieša API
-
-Vieša REST API inventoriaus matomumo papildinio nustatymuose nurodo kai kuriuos integravimo galutinius taškus. Jis palaiko tris pagrindines sąveikos rūšis:
-
-- Publikavimas turimų pakeitimų į papildinio formą išorės sistemoje.
-- Laukimo turimi esami kiekiai iš išorės sistemos.
-- Automatinis sinchronizavimas su „Supply Chain Management“ turimu.
-
-Automatinis sinchronizavimas nėra viešos API dalis, tačiau vietoje to tvarkomas kontekste aplinkose, kurios įjungia inventoriaus matomumo papildinius.
-
-### <a name="authentication"></a>Autentifikavimas
-
-Platformos saugos žyma yra naudojama siekiant paskambinti inventoriaus matomumo papildiniui, todėl turite sukurti „Azure Active Directory“ žymą naudodami savo „Azure Active Directory“ programą.
-
-Dėl daugiau informacijos apie tai, kaip gauti saugos žymą, žr. [Diegti inventoriaus matomumo papildinį](#install-add-in).
-
-### <a name="configure-the-inventory-visibility-api"></a>Konfigūruoti Inventoriaus matomumo vieša API
+### <a name="configure-the-inventory-visibility-api"></a><a name="inventory-visibility-configuration"></a>Konfigūruoti Inventoriaus matomumo vieša API
 
 Prieš naudodami paslaugas, turite užbaigti konfigūravimus aprašytus tolesniuose poskyriuose. Konfigūravimas gali skirtis priklausomai nuo jūsų aplinkos išsamios informacijos. Jis iš esmės turi keturias dalis:
 
@@ -257,7 +355,7 @@ Galite padėti savo laukimo kriterijus pagal būtiną tekstą.
 
 #### <a name="custom-measurement"></a>Tinkintas matavimas
 
-Numatytasis matavimo kiekiai yra susieti su „Supply Chain Management“, nepaisant to galite norėti turėti kiekį, kuris sudarytas iš numatytųjų priemonių derinių. Tam, turite turėti tinkintų kiekių konfigūravimą, kuris bus įtrauktas į išvesties turimus laukimus.
+Numatytieji matavimo kiekiai yra siejami su „Supply Chain Management”. Tačiau gali reikėti kiekio, kuris būtų pagamintas iš numatytųjų matavimų kombinacijos. Tam, turite turėti tinkintų kiekių konfigūravimą, kuris bus įtrauktas į išvesties turimus laukimus.
 
 Ši funkcija paprasčiausiai leidžia jums nustatyti priemonės rinkinį, kuris bus įtrauktas ir (arba) nustatys priemones išimtas siekiant suformuoti tinkintą priemonę.
 

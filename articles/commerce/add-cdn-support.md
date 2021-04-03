@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1d9482a45cb8f2ea52e7f58d55e30cfe56694d04
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d653b072eca134c765a5db5659b228648fc13c4a
+ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985959"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5582724"
 ---
-# <a name="add-support-for-a-content-delivery-network-cdn"></a>Turinio pristatymo tinklo (CDN) palaikymo įtraukimas
-
+# <a name="add-support-for-a-content-delivery-network-cdn"></a>Turinio pateikimo tinklo (CDN) palaikymo įtraukimas
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip į savo „Microsoft Dynamics 365 Commerce“ aplinką įtraukti turinio pristatymo tinklą (CDN).
-
-## <a name="overview"></a>Peržiūra
 
 Jums nustatant e-komercijos aplinką „Dynamics 365 Commerce“, galite konfigūruoti ją darbui su jūsų CDN paslaugomis. 
 
@@ -96,8 +93,8 @@ Norėdami sprendime „Azure Front Door Service“ nustatyti maršruto parinkimo
 1. Lauke **Pavadinimas** įveskite **numatytoji**.
 1. Lauke **Pripažįstamas protokolas** pasirinkite **HTTP ir HTTPS**.
 1. Lauke **Sąsajos serverio pagrindiniai kompiuteriai** įveskite **dynamics-el.prek-nuomotojo-vardas.azurefd.net**.
-1. Skyriuje **Atitinkančios iškarpos**, viršutiniame laukelyje įveskite **/\** _.
-1. Skyriuje **Maršruto išsami informacija**, nustatykite **Maršruto tipo** parinktį į **Pirmyn**.
+1. Viršutiniame dalies **Gretintini šablonai** lauke įveskite **/\***.
+1. Dalyje **Išsami maršruto informacija** parinktį **Maršruto tipas** nustatykite kaip **Pirmyn**.
 1. Lauke **Vidinio serverio telkinys** pasirinkite **el.prek-vidinisserveris**.
 1. Laukų grupėje **Persiuntimo protokolas** pasirinkite parinktį **Gretinimo užklausa**. 
 1. Parinktį **URL perrašymas** nustatykite kaip **Išjungta**.
@@ -109,8 +106,8 @@ Norėdami sprendime „Azure Front Door Service“ nustatyti kaupimo talpykloje 
 1. Lauke **Pavadinimas** įveskite **statika**.
 1. Lauke **Pripažįstamas protokolas** pasirinkite **HTTP ir HTTPS**.
 1. Lauke **Sąsajos serverio pagrindiniai kompiuteriai** įveskite **dynamics-el.prek-nuomotojo-vardas.azurefd.net**.
-1. Skyriuje **Atitinkančios iškarpos**, viršutiniame laukelyje **/\_msdyn365/\_scnr/\** _.
-1. Skyriuje **Maršruto išsami informacija**, nustatykite **Maršruto tipo** parinktį į **Pirmyn**.
+1. Viršutiniame dalies **Gretintini šablonai** lauke įveskite **/\_msdyn365/\_scnr/\***.
+1. Dalyje **Išsami maršruto informacija** parinktį **Maršruto tipas** nustatykite kaip **Pirmyn**.
 1. Lauke **Vidinio serverio telkinys** pasirinkite **el.prek-vidinisserveris**.
 1. Laukų grupėje **Persiuntimo protokolas** pasirinkite parinktį **Gretinimo užklausa**.
 1. Parinktį **URL perrašymas** nustatykite kaip **Išjungta**.
@@ -143,25 +140,7 @@ Dabar jūsų CDN turėtų būti tinkamai sukonfigūruotas, kad jį būtų galima
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Jūsų domeno vardo konfigūravimas](configure-your-domain-name.md)
-
-[Talpinkite naują e-komercijos nuomotoją](deploy-ecommerce-site.md)
-
-[Sukurkite e-komercijos saitą](create-ecommerce-site.md)
-
-[Susiekite „Dynamics 365 Commerce“ saitą su interneto kanalu](associate-site-online-store.md)
-
-[robots.txt failų tvarkymas](manage-robots-txt-files.md)
-
-[Masinis URL peradresavimų nusiuntimas](upload-bulk-redirects.md)
-
-[B2C nuomotojo nustatymas „Commerce“ aplinkoje](set-up-B2C-tenant.md)
-
-[Vartotojo prisijungimo pasirinktinių puslapių sąranka](custom-pages-user-logins.md)
-
-[„Commerce” aplinkos kelių B2Ck nuomotojų konfigūravimas](configure-multi-B2C-tenants.md)
-
-[Parduotuvės nustatymo pagal vietą įgalinimas](enable-store-detection.md)
+[Turinio pristatymo tinklo diegimo parinktys](cdn-options.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 13415f68f41555f3e86cbe699cf921e9a2cf6d5c
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: b7e68ec4d172ced7ac66837e9580971d22b23b5f
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113492"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465755"
 ---
 # <a name="set-up-compensation-grids"></a>Kompensavimo tinklelių nustatymas
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Kompensavimo tinkleliai naudojami nustatyti ir prižiūrėti pastoviųjų atlyginimo dalių planų mokėjimo struktūras. Kompensacijos tinklelius galima bendrai naudoti keliems planams arba nukopijuoti kuriant naują kompensavimo planą.  Prieš kuriant kompensacijos tinklelį, Lygiai ir Nuorodos taškai turi būti nustatyti. Šiame pavyzdyje bus sukurtas naujas kompensacijos tinklelio Klasės tipas naudojant demonstracinius duomenis Lygiams ir Nuorodos taškams. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

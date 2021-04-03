@@ -3,10 +3,9 @@ title: Organizacijos hierarchijos planavimas
 description: Prieš nustatydami organizacijas ir hierarchijas įsitikinkite, kad suprantate, kaip geriausia modeliuoti savo verslą.
 author: sericks007
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 02/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c779b5948370444b0b474568bb63b347c4a0831
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 7bf683487a20203d49fbab680373fbf48a5c58b6
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154414"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569366"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Organizacijos hierarchijos planavimas
 
@@ -166,7 +165,7 @@ Valdymo vienetai naudoja pirminio juridinio subjekto šalies aplinką. Tam pači
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Ar organizacija modeliuojama kaip juridinis subjektas
 
-Palaikomiems šalims / regionams galima sukurti daugumą įstatymuose numatytų ataskaitų. Informacijos apie tai, kokios ataskaitos prieinamos kiekvienoje šalyje / regione, žr. [„Microsoft Dynamics“ lokalizavimo portale](https://docs.microsoft.com/dynamics/s-e/). (Reikia „CustomerSource“ prisijungimo.)
+Palaikomiems šalims / regionams galima sukurti daugumą įstatymuose numatytų ataskaitų. 
 
 > [!NOTE]
 > Didžiosios knygos registravimo sluoksnis suteikia galimybę atlikti koregavimo įrašus pirminei įmonei, naudojančiai kitą apskaitos standartą nei antrinė įmonė. Pavyzdžiui, įmonėje, kuri naudoja Jungtinės Karalystės visuotinai priimtą apskaitos praktiką (UK GAAP), galite atlikti koregavimo įrašus registravimo sluoksnyje. Šiuos įrašus galima konsoliduoti į pirminę įmonę, kuri naudoja JAV visuotinai priimtus apskaitos principus (GAAP). Koregavimo įrašai neturi įtakos UK GAAP ataskaitoms.

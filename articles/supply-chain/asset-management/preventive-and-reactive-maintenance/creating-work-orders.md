@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EntAssetMaintenancePlan, EntAssetObjectCalendarListPage, EntAssetObjectCalendarListPagePoolsOpen
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 876aef9f3f470490bb385e1861c837dcfa82db69
-ms.sourcegitcommit: 1e615288db245f83c5d5e0cd45315400f8946beb
+ms.openlocfilehash: 76306fb31e7e5297e6a5d64b97b5bd09b64349ee
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "5131798"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500579"
 ---
 # <a name="creating-work-orders"></a>Darbo užsakymų kūrimas
 
@@ -62,8 +62,7 @@ Norėdami sukurti darbo užsakymus pagal jūsų priežiūros grafiką, atlikite 
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Darbo užsakymo eilučių, sukuriamų automatiškai priežiūros plano vykdymo metu, grupavimas
 
-> [!IMPORTANT]
-> Šiame skyriuje aprašytos funkcijos yra galimos kaip peržiūros versijos leidimo dalis. Turinys ir funkcijos gali būti keičiami. Norėdami apie peržiūros leidimus gauti daugiau informacijos, žr. [DUK apie vienos versijos paslaugų naujinimus](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
 
 Ši funkcija leidžia jums nustatyti darbo užsakymo eilučių grupavimo pagal vieną darbo užsakymą taisykles, kai sistema yra nustatyta generuoti darbo užsakymus automatiškai, atsižvelgiant į priežiūros planą. Anksčiau automatiškai sugeneruotuose darbo užsakymuose galėjo būti tik viena eilutė. Tačiau dabar galite grupuoti darbo užsakymus pagal, pavyzdžiui, turtą, turto tipą ar funkcinę vietą. (Rankiniu būdu sugeneruotus darbo užsakymus tokiu būdų jau buvo galima grupuoti, kaip aprašyta ankstesniame šios temos skyriuje.)
 

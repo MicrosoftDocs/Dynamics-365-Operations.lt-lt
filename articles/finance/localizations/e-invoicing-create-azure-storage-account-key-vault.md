@@ -3,7 +3,7 @@ title: „Azure” saugyklos abonemento ir raktų saugyklos kūrimas
 description: Šioje temoje paaiškinama, kaip sukurti „Azure” saugyklos abonementą ir raktų saugyklą.
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 02/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d076aa5230437d1ef90f6b46d49ee4dea526db24
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 14463abe7782d786d286fcc619dee00ce85bb620
+ms.sourcegitcommit: 4adc57b0e43d9627dca70762ac941762ec4934e2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104234"
+ms.lasthandoff: 02/22/2021
+ms.locfileid: "5479350"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>„Azure” saugyklos abonemento ir raktų saugyklos kūrimas
 
@@ -77,9 +77,12 @@ Norėdami atlikti šioje temoje esančius veiksmus, turite įsitikinti, kad atli
 
     ![Sertifikatų teisių suteikimas](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
 
-9. Dialogo lange **Pagrindas** pasirinkite pagrindą, įtraukdami **Elektroninių SF išrašymo priedas**.
-10. Pasirinkite **Įtraukti**, tada pasirinkite **Įrašyti „Key Vault” keitimus**.
-11. Puslapyje **Apžvalga** nukopijuokite raktų saugyklos reikšmę **DNS pavadinimas**. Ši reikšmė bus naudojama paslaugos nustatymo metu RCS ir bus vadinama *raktų saugyklos URI*.
+9. Laukelyje **Pasirinkti pagrindą** pasirinkite **Nieko nepasirinkta**.
+10. Dialogo lange **Pagrindas** pasirinkite pagrindą, įtraukdami **El. SF išrašymo paslaugą**.
+11. Pasirinkite **Įtraukti**, tada pasirinkite **Įrašyti „Key Vault” keitimus**.
+12. Puslapyje **Apžvalga** nukopijuokite raktų saugyklos reikšmę **DNS pavadinimas**. Ši reikšmė bus naudojama paslaugos nustatymo metu RCS ir bus vadinama *raktų saugyklos URI*.
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

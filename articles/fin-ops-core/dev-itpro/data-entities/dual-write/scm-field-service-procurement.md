@@ -6,7 +6,6 @@ manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: rhaertle
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: c2b0d5be38425b5ceebb38b7964f5ec600b1c838
-ms.sourcegitcommit: ca05440ee503bf15fe98fe138d317c1cdf21ad16
+ms.openlocfilehash: 79a971e3de43cb0161d4ac5012f657a947bc567c
+ms.sourcegitcommit: afbdc268bcdb1755d7f1bc79ad1b7fc801b2e2f5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5141909"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5579977"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Įsigijimo tarp „Supply Chain Management” ir „Field Service” integracija
 
@@ -47,8 +46,8 @@ Norėdami integruoti „Supply Chain Management” su „Field Service”, turit
 
 ### <a name="prerequisites"></a>Būtinieji komponentai
 
-+ **Dvigubas rašymas** – norėdami sužinoti daugiau žr. [Dvigubo rašymo pagrindinis puslapis](dual-write-home-page.md#dual-write-setup).
-+ **„Dynamics 365 Field Service”** – Daugiau informacijos žr. [„Dynamics 365 Field Service” įdiegimas](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
+- **Dvigubas rašymas** – norėdami sužinoti daugiau žr. [Dvigubo rašymo pagrindinis puslapis](dual-write-home-page.md#dual-write-setup).
+- **„Dynamics 365 Field Service”** – Daugiau informacijos žr. [„Dynamics 365 Field Service” įdiegimas](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
 
 Kai jos yra įgalintos „Microsoft Dataverse”, dvigubo rašymo funkcija ir „Field Service” pateikia kelis sprendimų sluoksnius, praplečiančius aplinką naujais metaduomenimis, formomis, peržiūromis ir logika. Šie sprendimai gali būti įgalinti bet kokia tvarka, tačiau paprastai juos diegiate čia pateikiama tvarka:
 
@@ -57,8 +56,8 @@ Kai jos yra įgalintos „Microsoft Dataverse”, dvigubo rašymo funkcija ir �
 3. **„Supply Chain Management Extended”** – „Supply Chain Management Extended” yra automatiškai įdiegiama, kai aplinkoje įgalintas dvigubas rašymas. 
 4. **„OneFSSCM” sprendimas** – „OneFSSCM” automatiškai įdiegiamas pagal tai, kuris sprendimas („Field Service” ar „Supply Chain Management”) yra įdiegtas paskutinis.
 
-    + Jei „Field Service” jau įdiegta aplinkoje ir įgalinate dvigubo rašymo funkciją, kuri įdiegia tiekimo grandinės „Supply Chain Management Extended”, įdiegiama „OneFSSCM”.
-    + Jei „Supply Chain Management Extended” jau įdiegta aplinkoje, įdiegiate „Field Service”, „OneFSSCM” taip pat yra įdiegiama.
+    - Jei „Field Service” jau įdiegta aplinkoje ir įgalinate dvigubo rašymo funkciją, kuri įdiegia tiekimo grandinės „Supply Chain Management Extended”, įdiegiama „OneFSSCM”.
+    - Jei „Supply Chain Management Extended” jau įdiegta aplinkoje, įdiegiate „Field Service”, „OneFSSCM” taip pat yra įdiegiama.
 
 ## <a name="initial-synchronization"></a>Pirminis sinchronizavimas
 
@@ -124,22 +123,22 @@ Be to, „Dataverse” pateikiama logika, pagal kurią tiekėjai susieti su susi
 
 ## <a name="supported-scenarios"></a>Palaikomi scenarijai
 
-+ Pirkimo užsakymus gali kurti ir atnaujinti „Dataverse” vartotojai. Tačiau procesą ir duomenis kontroliuoja „Supply Chain Management”. „Supply Chain Management” pirkimų užsakymų stulpelių naujinimų apribojimai taikomi, kai naujinimai ateina iš „Field Service”. Pavyzdžiui, negalima atnaujinti pirkimo užsakymo, jei jis buvo baigtas. 
-+ Jei pirkimo užsakymas kontroliuojamas „Supply Chain Management”, „Field Service” vartotojas gali atnaujinti pirkimo užsakymą tik tada, kai „Supply Chain Management” patvirtinimo būsena yra *Juodraštis*.
-+ Tik keli stulpeliai yra tvarkomi „Supply Chain Management” ir jie negali būti atnaujinti „Field Service”. Norėdami sužinoti, kurių stulpelių negalima atnaujinti, peržiūrėkite produkto susiejimo lenteles. Siekiant paprastumo, dauguma šių stulpelių yra nustatyta tik skaityti „Dataverse” puslapiuose. 
+- Pirkimo užsakymus gali kurti ir atnaujinti „Dataverse” vartotojai. Tačiau procesą ir duomenis kontroliuoja „Supply Chain Management”. „Supply Chain Management” pirkimų užsakymų stulpelių naujinimų apribojimai taikomi, kai naujinimai ateina iš „Field Service”. Pavyzdžiui, negalima atnaujinti pirkimo užsakymo, jei jis buvo baigtas. 
+- Jei pirkimo užsakymas kontroliuojamas „Supply Chain Management”, „Field Service” vartotojas gali atnaujinti pirkimo užsakymą tik tada, kai „Supply Chain Management” patvirtinimo būsena yra *Juodraštis*.
+- Tik keli stulpeliai yra tvarkomi „Supply Chain Management” ir jie negali būti atnaujinti „Field Service”. Norėdami sužinoti, kurių stulpelių negalima atnaujinti, peržiūrėkite produkto susiejimo lenteles. Siekiant paprastumo, dauguma šių stulpelių yra nustatyta tik skaityti „Dataverse” puslapiuose. 
 
     Pvz., kainos informacijos stulpeliai yra valdomi „Supply Chain Management”. „Supply Chain Management” turi prekybos sutarčių, kurios gali būti naudingos „Field Service”. stulpeliai, pvz., **Vieneto kaina**, **Nuolaida**, ir **Grynasis kiekis** ateina iš „Supply Chain Management”. Norėdami užtikrinti, kad kaina yra sinchronizuojama „Field Service”, turėtumėte naudoti **Sinchronizuoti** funkciją **Pirkimo užsakymas** ir **Pirkimo užsakymo produktas** puslapius „Dataverse”, kai pirkimo užsakymo duomenys yra įvesti. Daugiau informacijos žr. [„Dynamics 365 Supply Chain Management” įsigijimo duomenų sinchronizacija pagal poreikį](#sync-procurement).
 
-+ **Bendra suma** stulpelis yra prieinamas „Field Service”, nes nėra „Supply Chain Management” pirkimo užsakymo bendrosios sumos. „Supply Chain Management” bendrosios sumos apskaičiuojamos remiantis keliais parametrais, kurių nėra „Field Service”.
-+ Pirkimo užsakymo eilutes, kuriose nurodyta tik įsigijimo kategorija arba kurių nurodytas produktas yra nurodytas kaip *Paslauga* produkto tipo ar „Field Service” produkto tipo prekė, gali būti inicijuotos tik „Supply Chain Management”. Tada eilutės sinchronizuojamos su „Dataverse”  ir yra matomos „Field Service”.
-+ Jei įdiegta tik „Field Service”, o ne „Supply Chain Management”, pirkimo užsakyme **Sandėlis** stulpelis yra būtinas. Tačiau, jei „Supply Chain Management” yra įdiegta, šis reikalavimas nėra būtinas, nes „Supply Chain Management” leidžia naudoti pirkimo užsakymo eilutes, kai tam tikrose situacijose nenurodytas sandėlis.
-+ Produktų kvitai (pirkimo užsakymo kvitai „Dataverse”) yra tvarkomi „Supply Chain Management” ir negali būti sukurti iš „Dataverse”, jei įdiegta „Supply Chain Management”. Produktų kvitai iš „Supply Chain Management” yra sinchronizuojami „Supply Chain Management” į „Dataverse”.
-+ Pristatymo išlaidos leidžiamos „Supply Chain Management”. „OneFSSCM” suteikia logikos, kad kai produkto kvito eilutė (arba pirkimo užsakymo kvito produktas „Dataverse”) yra sukuriamas ir atnaujinamas, atsargų žurnalo eilutė sukuriama „Dataverse” likusiam kiekiui, kuris yra užsakyme tam tikrais pristatymo perviršio atvejais, konfigūruoti.
+- **Bendra suma** stulpelis yra prieinamas „Field Service”, nes nėra „Supply Chain Management” pirkimo užsakymo bendrosios sumos. „Supply Chain Management” bendrosios sumos apskaičiuojamos remiantis keliais parametrais, kurių nėra „Field Service”.
+- Pirkimo užsakymo eilutes, kuriose nurodyta tik įsigijimo kategorija arba kurių nurodytas produktas yra nurodytas kaip *Paslauga* produkto tipo ar „Field Service” produkto tipo prekė, gali būti inicijuotos tik „Supply Chain Management”. Tada eilutės sinchronizuojamos su „Dataverse” ir yra matomos „Field Service”.
+- Jei įdiegta tik „Field Service”, o ne „Supply Chain Management”, pirkimo užsakyme **Sandėlis** stulpelis yra būtinas. Tačiau, jei „Supply Chain Management” yra įdiegta, šis reikalavimas nėra būtinas, nes „Supply Chain Management” leidžia naudoti pirkimo užsakymo eilutes, kai tam tikrose situacijose nenurodytas sandėlis.
+- Produktų kvitai (pirkimo užsakymo kvitai „Dataverse”) yra tvarkomi „Supply Chain Management” ir negali būti sukurti iš „Dataverse”, jei įdiegta „Supply Chain Management”. Produktų kvitai iš „Supply Chain Management” yra sinchronizuojami „Supply Chain Management” į „Dataverse”.
+- Pristatymo išlaidos leidžiamos „Supply Chain Management”. „OneFSSCM” suteikia logikos, kad kai produkto kvito eilutė (arba pirkimo užsakymo kvito produktas „Dataverse”) yra sukuriamas ir atnaujinamas, atsargų žurnalo eilutė sukuriama „Dataverse” likusiam kiekiui, kuris yra užsakyme tam tikrais pristatymo perviršio atvejais, konfigūruoti.
 
 ## <a name="unsupported-scenarios"></a>Nepalaikomi scenarijai
 
-+ „Field Service” neleidžia įtraukti eilučių į atšauktą pirkimo užsakymą „Supply Chain Management”. Kaip problemos sprendimą galite pakeisti pirkimo užsakymo sistemos būseną „Field Service”, tada įtraukti naują eilutę į „Field Service” arba „Supply Chain Management”.
-+ Nors įsigijimo eilutės paveikia atsargų lygius abiejose sistemose, ši integracija užtikrina atsargų suderinamumą „Supply Chain Management” ir „Field Service”. Abu „Field Service” ir „Supply Chain Management” turi kitus procesus, atnaujinančius atsargų lygius. Šie procesai nepatenka į įsigijimo sritį.
+- „Field Service” neleidžia įtraukti eilučių į atšauktą pirkimo užsakymą „Supply Chain Management”. Kaip problemos sprendimą galite pakeisti pirkimo užsakymo sistemos būseną „Field Service”, tada įtraukti naują eilutę į „Field Service” arba „Supply Chain Management”.
+- Nors įsigijimo eilutės paveikia atsargų lygius abiejose sistemose, ši integracija užtikrina atsargų suderinamumą „Supply Chain Management” ir „Field Service”. Abu „Field Service” ir „Supply Chain Management” turi kitus procesus, atnaujinančius atsargų lygius. Šie procesai nepatenka į įsigijimo sritį.
 
 ## <a name="status-management"></a>Būsenos valdymas
 
@@ -161,13 +160,13 @@ Eilučių patvirtinimo būsenos yra aktyvios tik tada, kai yra eilutės darbo ei
 
 Būsenos stulpeliams taikomos šios taisyklės:
 
-+ „Supply Chain Management” būsena negali būti atnaujinta „Field Service”. Tačiau kai kuriais atvejais būsena „Field Service” bus atnaujinta, kai bus pakeista „Supply Chain Management” pirkimo užsakymo būsena.
-+ Jei „Supply Chain Management” ketinama keisti pirkimo užsakymą, o pakeitimas apdorojamas, patvirtinimo būsena *Juodraštis* arba *Peržiūra*. Šiuo atveju „Field Service” patvirtinimo būsena bus nustatyta kaip *Null*.
-+ Jei pirkimo užsakymo patvirtinimo būsena yra „Supply Chain Management” nustatyta į *Patvirtinta*, *Išorinės peržiūros režime*, *Patvirtinta* arba *Baigta*, „Field Service” pirkimo užsakymo patvirtinimo būsena bus nustatyta į *Patvirtinta*.
-+ Jei pirkimo užsakymo patvirtinimo būsena yra „Supply Chain Management” yra nustatyta į *Atmesta*, „Field Service” pirkimo užsakymo patvirtinimo būsena bus nustatyta į *Atmesta*.
-+ Jei dokumento antraštės būsena „Supply Chain Management” yra pakeista į *Atviras užsakymas (užlaikytas užsakymas)*, ir „Field Service” pirkimo užsakymo būsena yra *Juodraštis* arba *Atšaukta*, „Field Service” pirkimo užsakymo būsena bus nustatyta į *Pateikta*.
-+ Jei dokumento antraštės būsena „Supply Chain Management” pakeista į *Atšaukta* ir nėra pirkimo užsakymo kvito produktų „Field Service” yra susieti su pirkimo užsakymu (per pirkimo užsakymo produktus), „Field Service” sistemos būsena yra nustatyta į *Atšaukta*.
-+ Jei pirkimo užsakymo eilutės būsena „Supply Chain Management” yra *Atšaukta*, pirkimo užsakymo produkto būsena „Field Service” yra nustatyta į *Atšaukta*. Be to, jei pirkimo užsakymo eilutės būsena „Supply Chain Management” yra pakeista iš *Atšaukta* į *Užlaikytas užsakymas* pirkimo užsakymo produkto prekės būsena yra „Field Service” nustatyta į *Laukiama*.
+- „Supply Chain Management” būsena negali būti atnaujinta „Field Service”. Tačiau kai kuriais atvejais būsena „Field Service” bus atnaujinta, kai bus pakeista „Supply Chain Management” pirkimo užsakymo būsena.
+- Jei „Supply Chain Management” ketinama keisti pirkimo užsakymą, o pakeitimas apdorojamas, patvirtinimo būsena *Juodraštis* arba *Peržiūra*. Šiuo atveju „Field Service” patvirtinimo būsena bus nustatyta kaip *Null*.
+- Jei pirkimo užsakymo patvirtinimo būsena yra „Supply Chain Management” nustatyta į *Patvirtinta*, *Išorinės peržiūros režime*, *Patvirtinta* arba *Baigta*, „Field Service” pirkimo užsakymo patvirtinimo būsena bus nustatyta į *Patvirtinta*.
+- Jei pirkimo užsakymo patvirtinimo būsena yra „Supply Chain Management” yra nustatyta į *Atmesta*, „Field Service” pirkimo užsakymo patvirtinimo būsena bus nustatyta į *Atmesta*.
+- Jei dokumento antraštės būsena „Supply Chain Management” yra pakeista į *Atviras užsakymas (užlaikytas užsakymas)*, ir „Field Service” pirkimo užsakymo būsena yra *Juodraštis* arba *Atšaukta*, „Field Service” pirkimo užsakymo būsena bus nustatyta į *Pateikta*.
+- Jei dokumento antraštės būsena „Supply Chain Management” pakeista į *Atšaukta* ir nėra pirkimo užsakymo kvito produktų „Field Service” yra susieti su pirkimo užsakymu (per pirkimo užsakymo produktus), „Field Service” sistemos būsena yra nustatyta į *Atšaukta*.
+- Jei pirkimo užsakymo eilutės būsena „Supply Chain Management” yra *Atšaukta*, pirkimo užsakymo produkto būsena „Field Service” yra nustatyta į *Atšaukta*. Be to, jei pirkimo užsakymo eilutės būsena „Supply Chain Management” yra pakeista iš *Atšaukta* į *Užlaikytas užsakymas* pirkimo užsakymo produkto prekės būsena yra „Field Service” nustatyta į *Laukiama*.
 
 ## <a name="sync-with-the-supply-chain-management-procurement-data-on-demand"></a><a id="sync-procurement"></a>Sinchronizavimas su „Supply Chain Management“ įsigijimo duomenimis pagal poreikį
 
