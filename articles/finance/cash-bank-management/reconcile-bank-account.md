@@ -16,12 +16,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1abc86aa5c3863eba34f726b543792408a542383
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: da8558f42bcd9daf95cacb17cebf4d9371dd514c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976371"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5262867"
 ---
 # <a name="reconcile-a-bank-account"></a>Banko sąskaitos suderinimas
 
@@ -31,13 +31,13 @@ Gavę banko išrašą, turėtumėte periodiškai suderinti juridinio subjekto ba
 
 Negalite suderinti banko sąskaitos išrašo su banko sąskaita, jei nors vieno iš čekių ar mokėjimo kvitų, kurie išvardinti išraše, būsena yra **Laukiama atšaukimo**. Kai redaktorius užregistruoja arba atmeta čekių atšaukimą arba mokėjimo kvitų mokėjimų atšaukimus, būsena nebėra **Laukiama atšaukimo**, ir jūs galite suderinti banko sąskaitą.
 
-1.  Eikite į  **Grynųjų pinigų ir banko valdymas** \> **Banko sąskaitos** \> **Banko sąskaitos**. Pasirinkite banko sąskaitą, kurią norite suderinti su banko išrašu, ir pasirinkite **Suderinti** > **Sąskaitos suderinimas**.
+1.  Eikite į **Grynųjų pinigų ir banko valdymas** \> **Banko sąskaitos** \> **Banko sąskaitos**. Pasirinkite banko sąskaitą, kurią norite suderinti su banko išrašu, ir pasirinkite **Suderinti** > **Sąskaitos suderinimas**.
 
 2.  Laukeliuose **Banko išrašo data** ir **Banko išrašas** įveskite informaciją. Lauke **Pabaigos likutis** įveskite banko sąskaitos balansą taip, kaip jis pateikiamas banko sąskaitos išraše.
 
 3.  Pasirinkite **Operacijos**, kad atidarytumėte puslapį **Sąskaitos suderinimas**.
 
-4.  Kiekvienos operacijos, kuri įtraukta į banko sąskaitos išrašą, metu – jei  suma atitinka banko sąskaitos išraše nurodytą sumą Dynamics 365 Finance – pažymėkite žymės langelį **Išvalyta**. Taip pat galite įvesti arba keisti laukelio **Banko operacijos tipas** reikšmę. Tai svarbu jūsų banko operacijų statistikai ir kai kurioms ataskaitoms.
+4.  Kiekvienos operacijos, kuri įtraukta į banko sąskaitos išrašą, metu – jei suma atitinka banko sąskaitos išraše nurodytą sumą Dynamics 365 Finance – pažymėkite žymės langelį **Išvalyta**. Taip pat galite įvesti arba keisti laukelio **Banko operacijos tipas** reikšmę. Tai svarbu jūsų banko operacijų statistikai ir kai kurioms ataskaitoms.
     
 
     > [!NOTE]

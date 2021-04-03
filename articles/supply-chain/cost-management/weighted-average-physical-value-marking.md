@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60ffd74363056babdd9d50df5be93d3ae466d860
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a8d62dbcd0e9aee55486f6e46a30a3cc0d3bf327
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011727"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5262410"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>Svertinis vidurkis su faktine verte ir žymėjimu
 
@@ -101,7 +101,7 @@ Tolesniame grafike parodytos šios operacijos:
 
 Toliau pateiktoje diagramoje parodytas šių operacijų serijos poveikis, pasirinkus svertinio vidurkio atsargų modelį ir apibendrinto sudengimo principą be pasirinkties Įtraukti faktinę vertę. 
 
-![Svertinio vidurkio apibendrintas sudengimas su faktinės vertės įtraukimu    ](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Svertinio vidurkio apibendrintas sudengimas su faktinės vertės įtraukimu](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Diagramos paaiškinimas**
 - Atsargų operacijos parodomos vertikaliomis rodyklėmis.

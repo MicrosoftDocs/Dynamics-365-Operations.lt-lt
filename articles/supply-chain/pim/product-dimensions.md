@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 285e9d2d184a899f1ffa502d59a853ba83cda491
-ms.sourcegitcommit: 2093c9dc31d1b60b3114085d9cef48fdbbb0ca0d
+ms.openlocfilehash: ca0a7233004522de2af7281416169f0393feeb11
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5118686"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260652"
 ---
 # <a name="product-dimensions"></a>Produktų dimensijos
 
@@ -106,7 +106,7 @@ Jums bandant jūsų sprendimą suderinamumui su versijos matmenimis, ieškokite 
     - PCVariantConfiguration::findByProductMasterAndDimensions
 
 1. **Žemėlapiai:** Jei bet kurie žemėlapiai naudoja atsargų dimensijas, atitinkantis susijęs žemėlapio kūrimas su šiais žemėlapiais turi būti atnaujintas taip, kad apimtų versijos matmenis. Praplėstame modelyje ar lentelės plėtiniuose ieškokite lentelių, kuriose laukeliai apima atsargų matmenis.
-1. „**Microsoft Dynamics 365 Commerce“ funkcijos:** Jį įjungus, versijos matmenys pasirodys per prekybai priskirtą kodą „Dynamics 365 Supply Chain Management“. Nepaisant to, versijos matmenys nėra dar palaikomi prekybos kanalo duomenų bazėse, elektroninio kasos aparato (EKA) ir „E-commerce“ programose. Šios prekybos programos nepalaikys atsargų pardavimo/siuntimo arba grąžinimo/gavimo vartotojams pagal versijos dimensiją. Atsargų prieinamumo peržvalgos funkcijos negalės išskirti atsargų pagal versijos dimensiją prekybos programose. Šis elgesys atspindi esamą konfigūravimo matmenų elgesį per prekybą.
+1. **„Microsoft Dynamics 365 Commerce“ funkcijos:** Jį įjungus, versijos matmenys pasirodys per prekybai priskirtą kodą „Dynamics 365 Supply Chain Management“. Nepaisant to, versijos matmenys nėra dar palaikomi prekybos kanalo duomenų bazėse, elektroninio kasos aparato (EKA) ir „E-commerce“ programose. Šios prekybos programos nepalaikys atsargų pardavimo/siuntimo arba grąžinimo/gavimo vartotojams pagal versijos dimensiją. Atsargų prieinamumo peržvalgos funkcijos negalės išskirti atsargų pagal versijos dimensiją prekybos programose. Šis elgesys atspindi esamą konfigūravimo matmenų elgesį per prekybą.
 
 #### <a name="turn-on-the-version-dimension"></a>Matmenų versijos matmenų įjungimas
 
