@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: b081cd8d56217b8cf76db824c29482d453fc9ea3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3fde9194ece4774c4d39785e337caf2413052159
+ms.sourcegitcommit: ee7a890e3e4ed6436898e5ab6eff309082a073f8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001953"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476680"
 ---
 # <a name="engineering-change-management-overview"></a>Inžinerijos keitimo valdymo apžvalga
 
@@ -44,20 +44,24 @@ Inžinerijos keitimo valdymo apžvalgą, kuri padeda jums planuoti ir valdyti pr
 
 Ankstesnis vaizdo įrašas ([Keitimo valdymo galimybės „Dynamics 365 Supply Chain Management“](https://youtu.be/N313FqvRuBc)) yra įtrauktos į [„Finance and Operations“ grojaraštį](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) prieinamą „YouTube“.
 
-## <a name="turn-on-engineering-change-management-for-your-system"></a>Įjunkite inžinerijos keitimo valdymą savo sistemai
+## <a name="turn-on-the-engineering-change-management-and-version-dimension-features-for-your-system"></a>Įjunkite jūsų sistemos inžinerinių pakeitimų valdymą ir versijos dimensijų funkcijas
 
-Pirmiausia įjunkite inžinerijos keitimo valdymą šiais žingsniais.
+Prieš pradedami naudoti inžinerinių pakeitimų valdymą, turite įgalinti ir funkciją *Inžinerinių pakeitimų valdymas*, ir jos konfigūracijos raktą. Jei norite sekti operacijų produktų versijos dimensiją (pasirinktinai), turite įgalinti funkciją *Produkto versijos dimensija* ir jos konfigūracijos raktą.
+
+Pirmiausia įjunkite šias funkcijas atlikdami toliau nurodytus veiksmus.
 
 1. Eikite į [Funkcijos valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 1. Tikrinkite naujinimus.
 1. Įjunkite funkciją pavadinimu **Inžinerijos keitimo valdymas**.
+1. Jei norite ją naudoti, įjunkite ir funkciją, kuri pavadinta **Produkto dimensijos versija**.
 
-Po to įjunkite **Inžinerijos keitimo valdymo** konfigūravimo mygtuką šiais žingsniais.
+Tada įjunkite konfigūracijos raktus atlikdami toliau nurodytus veiksmus.
 
 1. Įdėkite savo sistemą į priežiūros režimą kaip aprašyta [Priežiūros režime](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. Eikite į **Sistemos administravimas \> Sąranka \> Licencijos konfigūracija**.
-1. Išplėskite **Prekybos** mazgą ir pasirinkite **Inžinerijos keitimo valdymo** žymimą laukelį.
+1. Išplėskite mazgą **Prekyba**
+1. Pažymėkite žymės langelį **Inžinerinių pakeitimų valdymas**.
+1. Jei norite jį naudoti, tada taip pat pažymėkite žymės langelį **Produkto dimensija – versija**.
 1. Išjunkite priežiūros režimą kaip aprašyta [Priežiūros režime](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

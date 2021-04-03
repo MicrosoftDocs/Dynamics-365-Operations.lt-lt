@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6b21d4d631bcdf603b38212f5f76bb78937d3d3c
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: f1c3ced43b1f5693c5d5466fd97a20beb358fa20
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115081"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463339"
 ---
 # <a name="configure-leave-and-absence-types"></a>Atostogų ir neatvykimų tipų konfigūravimas
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Atostogų tipai programoje „Dynamics 365 Human Resources“ apibrėžia neatvykimų, kuriuos gali nurodyti darbuotojai, tipus. Galite pritaikyti atostogų tipus atsižvelgdami į savo organizacijos poreikius. Atostogų tipų pavyzdžiai:
 
@@ -72,8 +74,7 @@ Atostogų tipai programoje „Dynamics 365 Human Resources“ apibrėžia neatvy
    
  3. Nustatykite **Perkeliamų atostogų tipą** atostogų tipui. Pasirinkus šią parinktį, visi perkeliami likučiai bus perkelti į nurodytą atostogų tipą. Perkeliamų atostogų tipas taip pat turi būti nurodytas atostogų plane. 
  
- 4. Apibrėžkite **Galiojimo taisykles** atostogų tipui. Konfigūruodami šią parinktį, galite pasirinkti dienų ar mėnesių vienetą ir nustatyti galiojimo pabaigos trukmę. Taip pat galite nustatyti galiojimo taisyklės įsigaliojimo datą. Visi galiojimo pabaigos metu esantys atostogų likučiai bus atimami iš atostogų tipo ir bus įtraukti į atostogų likutį. 
- 
+ 4. Apibrėžkite **Galiojimo taisykles** atostogų tipui. Konfigūruodami šią parinktį, galite pasirinkti dienų ar mėnesių vienetą ir nustatyti galiojimo pabaigos trukmę. Taip pat galite nustatyti galiojimo taisyklės įsigaliojimo datą. Įsigaliojimo data naudojama norint nustatyti, kada pradėti paketinę užduotį, kuri apdoroja atostogų galiojimo pabaigą arba datą, kada įsigalioja taisyklė. Kai paketinė užduotis bus nustatyta apdoroti, pats galiojimo laikas visada bus nustatomas atostogų plano pradžios dieną. Pavyzdžiui, plano pradžios data gali būti 2020-01-01, bet taisyklė nebuvo sukurta iki 2020-01-06. Nustatant galiojimo datą 2020-01-06, taisyklė bus apdorota atsižvelgiant į kitų metų ribą, t. y. 2021-01-01. Visi galiojimo pabaigos metu esantys atostogų likučiai bus atimami iš atostogų tipo ir bus įtraukti į atostogų likutį. 
  
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

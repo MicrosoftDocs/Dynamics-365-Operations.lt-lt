@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 518b70223b2f6bf86809ccce77a2cf67c30e4168
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bcfca0ddd52245ae2206f15ef9fa979675fca825
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977543"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470696"
 ---
 # <a name="set-up-disposition-codes"></a>Nustatyti perdavimo kodus 
 
@@ -33,15 +33,15 @@ Galite nustatyti perdavimo kodus ir nurodyti, kaip apdoroti kliento grąžintą 
 
 Taip pat galite nustatyti priežasties kodą, kuris padės paaiškinti, kodėl prekė buvo grąžinta. Daugiau informacijos apie priežasties kodus žr. [Grąžinimo priežasties kodų nustatymas](set-up-return-reason-code.md).
 
-1.  Spustelėkite **Pardavimas ir rinkodara** \> **Sąranka** \> **Pardavimo užsakymai** \> **Grąžinimai** \> **Perdavimo kodai**.
+1.  Eikite į **Pardavimas ir rinkodara** \> **Sąranka** \> **Pardavimo užsakymai** \> **Grąžinimai** \> **Perdavimo kodai**.
 
-2.  Spustelėkite **Naujas** arba paspauskite CTRL + N, kad sukurtumėte naują perdavimo kodą.
+2.  Pasirinkite **Naujas** naujo perdavimo kodo sukūrimui.
 
 3.  Įveskite unikalų aprašomąjį pavadinimą, pasirinkite veiksmą ir įveskite perdavimo kodo aprašą.
 
-4.  Jei norite susieti kokias nors kliento išlaidas su šiuo perdavimo kodu, spustelėję mygtuką **Išlaidos** atidarykite formą **Nustatyti išlaidas**.
+4.  Jei norite susieti kokius nors kliento mokesčius su šiuo perdavimo kodu, pasirinkę mygtuką **Mokesčiai** atidarykite formą **Nustatyti išlaidas**.
 
-5.  Jei norite nurodyti kokius nors išorinius kodus, kurie atitiktų įmonės perdavimo kodus, spustelėję mygtuką **Išoriniai kodai** atidarykite formą **Išoriniai kodai**.
+5.  Jei norite nurodyti kokius nors išorinius kodus, kurie atitiktų įmonės perdavimo kodus, pasirinkę mygtuką **Išoriniai kodai** atidarykite formą **Išoriniai kodai**.
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

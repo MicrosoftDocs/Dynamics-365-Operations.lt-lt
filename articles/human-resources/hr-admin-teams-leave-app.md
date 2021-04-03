@@ -3,7 +3,7 @@ title: „Human Resources“ programa platformoje „Teams“
 description: Šioje temoje pristatoma „Microsoft Dynamics 365 Human Resources” programa, veikianti platformoje „Microsoft Teams“.
 author: andreabichsel
 manager: tfehr
-ms.date: 09/30/2020
+ms.date: 02/23/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba520f873de5b20111f9134e87281bcdf4025785
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 86abe32f76f2cc21c773727be07a44be49cdbac7
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113561"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487878"
 ---
 # <a name="human-resources-app-in-teams"></a>„Human Resources“ programa platformoje „Teams“
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 „Microsoft Teams“ veikianti programa „Microsoft Dynamics 365 Human Resources“ leidžia darbuotojams greitai prašyti išleisti iš darbo ir peržiūrėti savo ne darbo laiko balanso informaciją programoje „Microsoft Teams“. Norėdami prašyti informacijos, darbuotojai gali bendrauti su robotu. Skirtuke **Ne darbo laikas** pateikiama išsamesnė informacija. Be to, jie gali siųsti žmonėms informaciją apie būsimą ne darbo laiką skiltyse „Komandos” ir „Pokalbiai” už „Human Resources” programėlės ribų.
 
-![„Human Resources Teams“ atostogų programos robotas](./media/hr-admin-teams-leave-app-bot.png)
+![„Human Resources Teams“ atostogų programos robotas](./media/hr-teams-leave-app-bot.png)
 
 ![„Human Resources Teams“ atostogų programos skirtukas Ne darbo laikas](./media/hr-teams-leave-app-timeoff-tab.png)
 
@@ -39,16 +39,18 @@ ms.locfileid: "5113561"
 
 ## <a name="install-and-setup"></a>Diegimas ir nustatymas
 
-Programą „Human Resources“ galite rasti „Teams“ parduotuvėje. Daugiau informacijos, kaip įdiegti „Teams“ programą, žr. [Atostogų prašymų valdymas „Teams“](hr-teams-leave-app.md).
+Programą „Dynamics 365 Human Resources“ galite rasti „Teams“ parduotuvėje. Daugiau informacijos, kaip įdiegti „Teams“ programą, žr. [Atostogų prašymų valdymas „Teams“](hr-teams-leave-app.md).
 
 Informacijos apie programų teisių valdymą „Teams“ žr. [Programų teisių strategijų valdymas programoje „Microsoft Teams“](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
 
+Jei norite, kad jūsų naudotojai programėlėje peržiūrėti atostogų ir neatvykimo kalendorių, funkcijų valdymo srityje turėsite įjungti **Atostogų ir neatvykimo kalendorių komandose**. Daugiau informacijos apie funkcijų įjungimą žr. skyrių [Funkcijų valdymas](hr-admin-manage-features.md).
+
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>„Human Resources“ programos „Teams“ pranešimų įjungimas
 
-Jei norite, kad vartotojai gautų atostogų užklausų pranešimus „Teams” programoje, turite įjungti pranešimus „Human Resources”.
+Jei norite, kad vartotojai gautų atostogų užklausų pranešimus „Teams” programoje, turite įjungti pranešimus „Dynamics 365 Human Resources”.
 
 >[!NOTE]
->Pranešimus gaus tik tie vartotojai, kurie yra prisijungę prie „Teams” ir naudoja „Human Resources Teams” programą.
+>Pranešimus gaus tik tie vartotojai, kurie yra prisijungę prie „Teams” ir naudoja „Dynamics 365 Human Resources” programą.
 
 1. Programoje „Human Resources“ pasirinkite **Sistemos administravimas**.
 
@@ -66,7 +68,7 @@ Jei norite, kad vartotojai gautų atostogų užklausų pranešimus „Teams” p
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>„Teams” pranešimų įjungimas arba išjungimas atskiriems vartotojams
 
-Įjungę „Human Resources Teams” programos pranešimus, galite įjungti arba išjungti pranešimus atskiriems vartotojams.
+Įjungę „Dynamics 365 Human Resources” komandų programos pranešimus, galite įjungti arba išjungti pranešimus atskiriems vartotojams.
 
 1. Programoje „Human Resources“ pasirinkite **Sistemos administravimas**.
 
@@ -82,9 +84,28 @@ Jei norite, kad vartotojai gautų atostogų užklausų pranešimus „Teams” p
 
 6. Pasirinkite **Įrašyti**.
 
-## <a name="known-issues"></a>Žinomos problemos
+## <a name="supported-languages"></a>Palaikomos kalbos
 
-| Išdavimas | Būsena |
+Programa „Dynamics 365 Human Resources“ komandose palaiko šias kalbas:
+
+| Vietos ID | Kalba |
+| --- | --- |
+| de-DE | Vokiečių (Vokietija) |
+| es-ES | Ispanų (Ispanija) |
+| es-MX | Ispanų (Meksika) |
+| fr-CA | Prancūzų (Kanada) |
+| fr-FR | Prancūzų (Prancūzija) |
+| it-IT | Italų (Italija) |
+| nl-NL | Olandų (Nyderlandai) |
+| pt-BR | Portugalų (Brazilija) |
+| tr-TR | Turkų (Turkija) |
+| zh-CN | Kinų (supaprastintoji) |
+
+## <a name="notes"></a>Pastabos
+
+Toliau nurodyti darbo elementai perduodami tolesniems leidimams:
+
+| Darbo elementas | Būsena |
 | --- | --- |
 | Balansas yra netinkamas, kai ne darbo laikas pateikiamas būsimo laikotarpio datai. | Prognozavimas dar negalimas. Rodomas dabartinio laikotarpio balansas. |
 | Nepavyksta atšaukti užklausos **Peržiūrima**. | Ši funkcija šiuo metu nepalaikoma ir bus įtraukta į būsimą leidimą. |
@@ -96,11 +117,11 @@ Jei vartotojui kyla problemų prisijungiant arba naudojant „Human Resources Te
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Nepavyksta prisijungti prie „Teams“ programos „Human Resources“
 
-Jei vartotojas susisiekia su jumis, nes jis negali prisijungti prie programos, patikrinkite, ar vartotojas „Human Resources“ turi susijusį darbuotojo įrašą.
+Jei naudotojas susisiekia su jumis, nes jis negali prisijungti prie programos, patikrinkite, ar jis turi „Human Resources“ turi susijusį darbuotojo įrašą.
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Klaida tvirtinant atostogų prašymus „Teams“ programoje „Human Resources“
 
-Jei vartotojas gauna klaidą bandydamas patvirtinti atostogų prašymą programoje „Teams“, atlikite šiuos trikčių šalinimo veiksmus:
+Jei vartotojas gauna klaidą bandydamas patvirtinti atostogų prašymą programoje „Teams“, išbandykite šiuos trikčių šalinimo veiksmus:
 
 1. Įsitikinkite, kad jo „Teams“ paskyra sutampa su naudojama prieigai prie „Human Resources“ paskyra.
 

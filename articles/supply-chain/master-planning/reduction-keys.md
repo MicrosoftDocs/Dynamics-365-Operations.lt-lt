@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8732d0a032b7dd44918955354c56321d065d4a77
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4d16de8c339fadff074ef8ec30b0b4d6e3412569
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001854"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470774"
 ---
 # <a name="forecast-reduction-keys"></a>Prognozės mažinimo raktai
 
@@ -198,7 +198,7 @@ Todėl kuriami toliau nurodyti suplanuoti užsakymai.
 Prognozės mažinimo raktas naudojamas su prognozės poreikių mažinimo metoduose **Operacijos – mažinimo raktas** ir **Procentai – mažinimo raktas**. Atlikite toliau nurodytus veiksmus, kad sukurtumėte ir nustatytumėte mažinimo raktą.
 
 1. Pasirinkite **Bendrasis planavimas \> Sąranka \> Padengimas \> Mažinimo raktai**.
-2. Pasirinkite **Naujas** arba paspauskite **Ctrl + N**, kad sukurtumėte mažinimo raktą.
+2. Pasirinkite **Naujas**, kad sukurtumėte mažinimo raktą.
 3. Lauke **Mažinimo raktas** įveskite prognozės mažinimo rakto unikalų identifikatorių. Tada lauke **Pavadinimas** įveskite pavadinimą. 
 4. Nurodykite laikotarpius ir kiekvieno laikotarpio mažinimo rakto procentus.
 
