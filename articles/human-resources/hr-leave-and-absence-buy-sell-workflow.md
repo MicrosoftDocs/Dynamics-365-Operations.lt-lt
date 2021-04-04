@@ -18,66 +18,71 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4732b5dafc8074c5c59f10f02bbee7e22f51960a
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 16260c66c2e92fb06664a8f20a5fc3ed4a964609
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5116049"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468136"
 ---
-# <a name="create-a-buy-and-sell-leave-request-workflow"></a><span data-ttu-id="56228-103">Sukurkite darbo eigą atostogų pirkimo ir pardavimo užklausai</span><span class="sxs-lookup"><span data-stu-id="56228-103">Create a buy and sell leave request workflow</span></span>
+# <a name="create-a-buy-and-sell-leave-request-workflow"></a><span data-ttu-id="22b4c-103">Sukurkite darbo eigą atostogų pirkimo ir pardavimo užklausai</span><span class="sxs-lookup"><span data-stu-id="22b4c-103">Create a buy and sell leave request workflow</span></span>
 
-<span data-ttu-id="56228-104">Galite sukurti darbo eigą Dynamics 365 Human Resources platformoje, tam, kad nuosekliai tvarkytumėte savo atostogų pirkimo ir pardavimo užklausas.</span><span class="sxs-lookup"><span data-stu-id="56228-104">You can create a workflow in Dynamics 365 Human Resources to consistently manage your buy and sell leave requests.</span></span> <span data-ttu-id="56228-105">**Atostogų pirkimo ir pardavimo** darbo eiga jums leidžia:</span><span class="sxs-lookup"><span data-stu-id="56228-105">A **Buy and sell leave** workflow lets you:</span></span>
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-- <span data-ttu-id="56228-106">Nustatyti užduotis</span><span class="sxs-lookup"><span data-stu-id="56228-106">Define tasks</span></span>
-- <span data-ttu-id="56228-107">Nustatyti, kas turi atlikti užduotis</span><span class="sxs-lookup"><span data-stu-id="56228-107">Determine who must complete the tasks</span></span>
-- <span data-ttu-id="56228-108">Nurodyti, kas gali patvirtinti arba atmesti užklausas</span><span class="sxs-lookup"><span data-stu-id="56228-108">Specify who can approve or reject requests</span></span>
+<span data-ttu-id="22b4c-104">Galite sukurti darbo eigą Dynamics 365 Human Resources platformoje, tam, kad nuosekliai tvarkytumėte savo atostogų pirkimo ir pardavimo užklausas.</span><span class="sxs-lookup"><span data-stu-id="22b4c-104">You can create a workflow in Dynamics 365 Human Resources to consistently manage your buy and sell leave requests.</span></span> <span data-ttu-id="22b4c-105">**Atostogų pirkimo ir pardavimo** darbo eiga jums leidžia:</span><span class="sxs-lookup"><span data-stu-id="22b4c-105">A **Buy and sell leave** workflow lets you:</span></span>
 
-## <a name="create-a-buy-and-sell-leave-request-workflow"></a><span data-ttu-id="56228-109">Sukurkite darbo eigą atostogų pirkimo ir pardavimo užklausai</span><span class="sxs-lookup"><span data-stu-id="56228-109">Create a buy and sell leave request workflow</span></span>
+- <span data-ttu-id="22b4c-106">Nustatyti užduotis</span><span class="sxs-lookup"><span data-stu-id="22b4c-106">Define tasks</span></span>
+- <span data-ttu-id="22b4c-107">Nustatyti, kas turi atlikti užduotis</span><span class="sxs-lookup"><span data-stu-id="22b4c-107">Determine who must complete the tasks</span></span>
+- <span data-ttu-id="22b4c-108">Nurodyti, kas gali patvirtinti arba atmesti užklausas</span><span class="sxs-lookup"><span data-stu-id="22b4c-108">Specify who can approve or reject requests</span></span>
 
-1. <span data-ttu-id="56228-110">Puslapyje **Atostogos ir neatvykimai** pasirinkite skirtuką **Saitai**.</span><span class="sxs-lookup"><span data-stu-id="56228-110">On the **Leave and absence** page, select the **Links** tab.</span></span>
+## <a name="create-a-buy-and-sell-leave-request-workflow"></a><span data-ttu-id="22b4c-109">Sukurkite darbo eigą atostogų pirkimo ir pardavimo užklausai</span><span class="sxs-lookup"><span data-stu-id="22b4c-109">Create a buy and sell leave request workflow</span></span>
 
-2. <span data-ttu-id="56228-111">Dalyje **Sąranka** pasirinkite **Žmogiškųjų išteklių darbo eigos**.</span><span class="sxs-lookup"><span data-stu-id="56228-111">Under **Setup**, select **Human resource workflows**.</span></span>
+1. <span data-ttu-id="22b4c-110">Puslapyje **Atostogos ir neatvykimai** pasirinkite skirtuką **Saitai**.</span><span class="sxs-lookup"><span data-stu-id="22b4c-110">On the **Leave and absence** page, select the **Links** tab.</span></span>
 
-3. <span data-ttu-id="56228-112">Pasirinkite **Naujas**, o tada pasirinkite **Atostogų pirkimo ir pardavimo užklausa**.</span><span class="sxs-lookup"><span data-stu-id="56228-112">Select **New**, and then select **Buy and sell leave request**.</span></span> 
+2. <span data-ttu-id="22b4c-111">Dalyje **Sąranka** pasirinkite **Žmogiškųjų išteklių darbo eigos**.</span><span class="sxs-lookup"><span data-stu-id="22b4c-111">Under **Setup**, select **Human resource workflows**.</span></span>
 
-4. <span data-ttu-id="56228-113">Kai pasirodys pranešimo langelis **Atidaryti šį failą?**, pasirinkite **Atidaryti** ir prisijunkite, naudodami įmonės kredencialus.</span><span class="sxs-lookup"><span data-stu-id="56228-113">When the **Open this file?** message box appears, select **Open** and sign in with your company credentials.</span></span>
+3. <span data-ttu-id="22b4c-112">Pasirinkite **Naujas**, o tada pasirinkite **Atostogų pirkimo ir pardavimo užklausa**.</span><span class="sxs-lookup"><span data-stu-id="22b4c-112">Select **New**, and then select **Buy and sell leave request**.</span></span> 
 
-5. <span data-ttu-id="56228-114">Naudokite darbo eigos doroklį, kad sukurtumėte savo atostogų užklausų darbo eigą.</span><span class="sxs-lookup"><span data-stu-id="56228-114">Use the workflow editor to create a workflow for your leave requests.</span></span> <span data-ttu-id="56228-115">Daugiau informacijos apie darbą su darbo eigomis žr. skyriuje [Darbo eigų apžvalgos kūrimas](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/create-workflow?toc=/dynamics365/commerce/toc.json.)</span><span class="sxs-lookup"><span data-stu-id="56228-115">For more information about working with workflows, see [Create workflows overview](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/create-workflow?toc=/dynamics365/commerce/toc.json.)</span></span>
+4. <span data-ttu-id="22b4c-113">Kai pasirodys pranešimo langelis **Atidaryti šį failą?**, pasirinkite **Atidaryti** ir prisijunkite, naudodami įmonės kredencialus.</span><span class="sxs-lookup"><span data-stu-id="22b4c-113">When the **Open this file?** message box appears, select **Open** and sign in with your company credentials.</span></span>
 
-## <a name="leave-and-absence-request-workflow-data-elements"></a><span data-ttu-id="56228-116">Atostogų ir neatvykimų darbo eigos duomenų elementai</span><span class="sxs-lookup"><span data-stu-id="56228-116">Leave and absence request workflow data elements</span></span>
+5. <span data-ttu-id="22b4c-114">Naudokite darbo eigos doroklį, kad sukurtumėte savo atostogų užklausų darbo eigą.</span><span class="sxs-lookup"><span data-stu-id="22b4c-114">Use the workflow editor to create a workflow for your leave requests.</span></span> <span data-ttu-id="22b4c-115">Daugiau informacijos apie darbą su darbo eigomis žr. skyriuje [Darbo eigų apžvalgos kūrimas](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/create-workflow?toc=/dynamics365/commerce/toc.json.)</span><span class="sxs-lookup"><span data-stu-id="22b4c-115">For more information about working with workflows, see [Create workflows overview](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/create-workflow?toc=/dynamics365/commerce/toc.json.)</span></span>
 
-<span data-ttu-id="56228-117">Galite naudotis šiais informacijos elementais, kad sukurtumėte sąlyginius ir automatinius patvirtinimus atostogų pirkimo ir pardavimo užklausoms darbo eigose: </span><span class="sxs-lookup"><span data-stu-id="56228-117">You can use the following data elements to create conditional or automatic approvals in workflows for buy and sell leave requests:</span></span>
+## <a name="leave-and-absence-request-workflow-data-elements"></a><span data-ttu-id="22b4c-116">Atostogų ir neatvykimų darbo eigos duomenų elementai</span><span class="sxs-lookup"><span data-stu-id="22b4c-116">Leave and absence request workflow data elements</span></span>
 
-- <span data-ttu-id="56228-118">**Suma**</span><span class="sxs-lookup"><span data-stu-id="56228-118">**Amount**</span></span>
-- <span data-ttu-id="56228-119">**Atostogų pirkimo ir pardavimo strategija**</span><span class="sxs-lookup"><span data-stu-id="56228-119">**Buy and sell leave policy**</span></span>
-- <span data-ttu-id="56228-120">**Įmonė**</span><span class="sxs-lookup"><span data-stu-id="56228-120">**Company**</span></span>
-- <span data-ttu-id="56228-121">**Sukūrė**</span><span class="sxs-lookup"><span data-stu-id="56228-121">**Created by**</span></span>
-- <span data-ttu-id="56228-122">**Sukūrimo data ir laikas**</span><span class="sxs-lookup"><span data-stu-id="56228-122">**Created date and time**</span></span>
-- <span data-ttu-id="56228-123">**Pabaigos data**</span><span class="sxs-lookup"><span data-stu-id="56228-123">**End date**</span></span>
-- <span data-ttu-id="56228-124">**Atostogų tipas**</span><span class="sxs-lookup"><span data-stu-id="56228-124">**Leave type**</span></span>
-- <span data-ttu-id="56228-125">**Modifikavo**</span><span class="sxs-lookup"><span data-stu-id="56228-125">**Modified by**</span></span>
-- <span data-ttu-id="56228-126">**Pakeitimo data ir laikas**</span><span class="sxs-lookup"><span data-stu-id="56228-126">**Modified date and time**</span></span>
-- <span data-ttu-id="56228-127">**Užklausos ID**</span><span class="sxs-lookup"><span data-stu-id="56228-127">**Request ID**</span></span>
-- <span data-ttu-id="56228-128">**Pradžios data**</span><span class="sxs-lookup"><span data-stu-id="56228-128">**Start date**</span></span>
-- <span data-ttu-id="56228-129">**Būsena**</span><span class="sxs-lookup"><span data-stu-id="56228-129">**Status**</span></span> 
-- <span data-ttu-id="56228-130">**Pateikimo data**</span><span class="sxs-lookup"><span data-stu-id="56228-130">**Submission date**</span></span>
-- <span data-ttu-id="56228-131">**Pateikė**</span><span class="sxs-lookup"><span data-stu-id="56228-131">**Submitted by**</span></span>
-- <span data-ttu-id="56228-132">**Pateikė personalas**</span><span class="sxs-lookup"><span data-stu-id="56228-132">**Submitted by Human resources**</span></span>
-- <span data-ttu-id="56228-133">**Pateikė vadovas**</span><span class="sxs-lookup"><span data-stu-id="56228-133">**Submitted by Manager**</span></span>
-- <span data-ttu-id="56228-134">**Pateikė kito vardu**</span><span class="sxs-lookup"><span data-stu-id="56228-134">**Submitted on behalf**</span></span>
-- <span data-ttu-id="56228-135">**Darbuotojas**</span><span class="sxs-lookup"><span data-stu-id="56228-135">**Worker**</span></span>
+<span data-ttu-id="22b4c-117">Galite naudotis šiais informacijos elementais, kad sukurtumėte sąlyginius ir automatinius patvirtinimus atostogų pirkimo ir pardavimo užklausoms darbo eigose: </span><span class="sxs-lookup"><span data-stu-id="22b4c-117">You can use the following data elements to create conditional or automatic approvals in workflows for buy and sell leave requests:</span></span>
 
-## <a name="workflow-examples"></a><span data-ttu-id="56228-136">Darbo eigos pavyzdžiai</span><span class="sxs-lookup"><span data-stu-id="56228-136">Workflow examples</span></span>
+- <span data-ttu-id="22b4c-118">**Suma**</span><span class="sxs-lookup"><span data-stu-id="22b4c-118">**Amount**</span></span>
+- <span data-ttu-id="22b4c-119">**Atostogų pirkimo ir pardavimo strategija**</span><span class="sxs-lookup"><span data-stu-id="22b4c-119">**Buy and sell leave policy**</span></span>
+- <span data-ttu-id="22b4c-120">**Įmonė**</span><span class="sxs-lookup"><span data-stu-id="22b4c-120">**Company**</span></span>
+- <span data-ttu-id="22b4c-121">**Sukūrė**</span><span class="sxs-lookup"><span data-stu-id="22b4c-121">**Created by**</span></span>
+- <span data-ttu-id="22b4c-122">**Sukūrimo data ir laikas**</span><span class="sxs-lookup"><span data-stu-id="22b4c-122">**Created date and time**</span></span>
+- <span data-ttu-id="22b4c-123">**Pabaigos data**</span><span class="sxs-lookup"><span data-stu-id="22b4c-123">**End date**</span></span>
+- <span data-ttu-id="22b4c-124">**Atostogų tipas**</span><span class="sxs-lookup"><span data-stu-id="22b4c-124">**Leave type**</span></span>
+- <span data-ttu-id="22b4c-125">**Modifikavo**</span><span class="sxs-lookup"><span data-stu-id="22b4c-125">**Modified by**</span></span>
+- <span data-ttu-id="22b4c-126">**Pakeitimo data ir laikas**</span><span class="sxs-lookup"><span data-stu-id="22b4c-126">**Modified date and time**</span></span>
+- <span data-ttu-id="22b4c-127">**Užklausos ID**</span><span class="sxs-lookup"><span data-stu-id="22b4c-127">**Request ID**</span></span>
+- <span data-ttu-id="22b4c-128">**Pradžios data**</span><span class="sxs-lookup"><span data-stu-id="22b4c-128">**Start date**</span></span>
+- <span data-ttu-id="22b4c-129">**Būsena**</span><span class="sxs-lookup"><span data-stu-id="22b4c-129">**Status**</span></span> 
+- <span data-ttu-id="22b4c-130">**Pateikimo data**</span><span class="sxs-lookup"><span data-stu-id="22b4c-130">**Submission date**</span></span>
+- <span data-ttu-id="22b4c-131">**Pateikė**</span><span class="sxs-lookup"><span data-stu-id="22b4c-131">**Submitted by**</span></span>
+- <span data-ttu-id="22b4c-132">**Pateikė personalas**</span><span class="sxs-lookup"><span data-stu-id="22b4c-132">**Submitted by Human resources**</span></span>
+- <span data-ttu-id="22b4c-133">**Pateikė vadovas**</span><span class="sxs-lookup"><span data-stu-id="22b4c-133">**Submitted by Manager**</span></span>
+- <span data-ttu-id="22b4c-134">**Pateikė kito vardu**</span><span class="sxs-lookup"><span data-stu-id="22b4c-134">**Submitted on behalf**</span></span>
+- <span data-ttu-id="22b4c-135">**Darbuotojas**</span><span class="sxs-lookup"><span data-stu-id="22b4c-135">**Worker**</span></span>
 
-<span data-ttu-id="56228-137">Šie pavyzdžiai rodo, kaip galima sukurti skirtingus darbo eigos sąlygų tipus naudojant tolesnius duomenų elementus.</span><span class="sxs-lookup"><span data-stu-id="56228-137">These examples show how you can create different types of workflow conditions by using these data elements:</span></span>
+## <a name="workflow-examples"></a><span data-ttu-id="22b4c-136">Darbo eigos pavyzdžiai</span><span class="sxs-lookup"><span data-stu-id="22b4c-136">Workflow examples</span></span>
 
-- <span data-ttu-id="56228-138">Naudokite **Pateikė personalas** ir **Pateikė vadovas** automatiniame veiksme, tam, kad automatiškai būtų patvirtintos atostogų pirkimo ir pardavimo užklausos, ir kad šie vaidmenys būtų pateikti darbuotojų vardu.</span><span class="sxs-lookup"><span data-stu-id="56228-138">Use **Submitted by Human resources** and **Submitted by manager** in an automatic action to automatically approve buy and sell leave requests that these roles submit on behalf of employees.</span></span> <span data-ttu-id="56228-139">Daugiau informacijos apie automatinius veiksmus žr. [Darbo eigos patvirtinimo procesų konfigūravimas](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow).</span><span class="sxs-lookup"><span data-stu-id="56228-139">For more information about automatic actions, see [Configure approval processes in a workflow](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow).</span></span>
+<span data-ttu-id="22b4c-137">Šie pavyzdžiai rodo, kaip galima sukurti skirtingus darbo eigos sąlygų tipus naudojant tolesnius duomenų elementus.</span><span class="sxs-lookup"><span data-stu-id="22b4c-137">These examples show how you can create different types of workflow conditions by using these data elements:</span></span>
 
-- <span data-ttu-id="56228-140">Sąlyginiame išraše arba automatiniame veiksme naudokite **Atostogų tipas**, norėdami valdyti, kaip darbo eiga nukreipia tam tikrų atostogų tipų užklausas.</span><span class="sxs-lookup"><span data-stu-id="56228-140">Use **Leave type** in a conditional statement or automatic action to control how the workflow routes requests with certain leave types.</span></span>
+- <span data-ttu-id="22b4c-138">Naudokite **Pateikė personalas** ir **Pateikė vadovas** automatiniame veiksme, tam, kad automatiškai būtų patvirtintos atostogų pirkimo ir pardavimo užklausos, ir kad šie vaidmenys būtų pateikti darbuotojų vardu.</span><span class="sxs-lookup"><span data-stu-id="22b4c-138">Use **Submitted by Human resources** and **Submitted by manager** in an automatic action to automatically approve buy and sell leave requests that these roles submit on behalf of employees.</span></span> <span data-ttu-id="22b4c-139">Daugiau informacijos apie automatinius veiksmus žr. [Darbo eigos patvirtinimo procesų konfigūravimas](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow).</span><span class="sxs-lookup"><span data-stu-id="22b4c-139">For more information about automatic actions, see [Configure approval processes in a workflow](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="56228-141">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="56228-141">See also</span></span>
+- <span data-ttu-id="22b4c-140">Sąlyginiame išraše arba automatiniame veiksme naudokite **Atostogų tipas**, norėdami valdyti, kaip darbo eiga nukreipia tam tikrų atostogų tipų užklausas.</span><span class="sxs-lookup"><span data-stu-id="22b4c-140">Use **Leave type** in a conditional statement or automatic action to control how the workflow routes requests with certain leave types.</span></span>
 
-[<span data-ttu-id="56228-142">Atostogų ir neatvykimų apžvalga</span><span class="sxs-lookup"><span data-stu-id="56228-142">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)<br>
-[<span data-ttu-id="56228-143">Atostogų pirkimo ir pardavimo strategijų valdymas</span><span class="sxs-lookup"><span data-stu-id="56228-143">Manage buy and sell leave policies</span></span>](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+## <a name="see-also"></a><span data-ttu-id="22b4c-141">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="22b4c-141">See also</span></span>
 
+[<span data-ttu-id="22b4c-142">Atostogų ir neatvykimų apžvalga</span><span class="sxs-lookup"><span data-stu-id="22b4c-142">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)<br>
+[<span data-ttu-id="22b4c-143">Atostogų pirkimo ir pardavimo strategijų valdymas</span><span class="sxs-lookup"><span data-stu-id="22b4c-143">Manage buy and sell leave policies</span></span>](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
