@@ -3,7 +3,7 @@ title: Išduokite elektroniens sąskaitas „Finance and Supply Chain Management
 description: Ši tema paaiškina, kaip išduoti elektronines sąskaitas „Microsoft Dynamics 365 Finance“ ir „Dynamics 365 Supply Chain Management“ per elektroininių sąskaitų priedus.
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 02/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 187f5a20d088b4fcd7af2a6576357a69c2efc2c6
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 099ebb56710e920f7b1453f32f23f59a80486ebf
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104414"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5486958"
 ---
 # <a name="issue-electronic-invoices-in-finance-and-supply-chain-management"></a>Išduokite elektroniens sąskaitas „Finance and Supply Chain Management“
 
@@ -35,25 +35,35 @@ ms.locfileid: "5104414"
 
 ## <a name="feature-activation"></a>Funkcijų aktyvinimas
 
-Norėdami pradėti išduoti elektroninės sąskaitas per elektroninių sąskaitų priedą, būtina įjungti funkcijų nuorodą „Finance and Supply Chain Management“.
+Norėdami išduoti elektroninės sąskaitas per elektroninių sąskaitų priedą, turite įjungti funkciją „Finance“ ir „Supply Chain Management”.
 
-Kiekviena funkcijų nuoroda atitinka konkrečią elektroninių sąskaitų funkciją, kuri atitinka elektroninių sąskaitų reikalavimus pagal šalį ar regioną.
+Kiekviena funkcija atitinka konkrečią elektroninių sąskaitų funkciją, kuri atitinka elektroninių sąskaitų reikalavimus konkrečiai šaliai / regionui.
 
-Tolesnėje lentelėje parodytas funkcijų nuorodų sąrašas, kurį palaiko elektroninės sąskaitos priedas.
+Tolesnėje lentelėje parodytas funkcijų sąrašas, kurį gali palaikyti elektroninės sąskaitos priedas.
 
-| Funkcijos nuoroda | Pavadinimas / vardas ir (arba) pavardė                                              | Šalis/regionas |
-|-------------------|---------------------------------------------------|----------------|
-| BR-00053          | NF-e Federalinis - Brazilijos elektroninės sąskaitos       | Brazilija         |
-| BR-00095          | NFS-e Brazilijos elektroninės sąskaitos               | Brazilija         |
-| DK-00001          | Elektroninės sąskaitos viešajam sektoriui (OIOUBL) – DK    | Danija        |
-| EG-00008          | El. sąskaitos faktūros Egiptui                             | Egiptas          |
-| ES-00025          | Elektroninės sąskaitos viešajam sektoriui           | Ispanija          |
-| EUR-00023         | Europos Sąjungos elektroninės sąskaitos viešajam sektoriui       | Europa         |
-| ITA-00036         | IT - Elektroninės sąskaitos viešajam sektoriui (FatturaPA) | Italija          |
-| MX-00010          | El. SF išrašymo CFDI                                  | Meksika         |
-| MX-00016          | El. sąskaitų CFDI - atšaukimo procesas           | Meksika         |
+| Pavadinimas / vardas ir (arba) pavardė                                              | Šalis/regionas |
+|---------------------------------------------------|----------------|
+|Austrijos elektroninė sąskaita faktūra                        |Austrija         |
+|Belgijos elektroninė sąskaita faktūra                         |Belgija         |
+|„NF-e Federal“ – Brazilijos elektroninė sąskaita faktūra       |Brazilija          |
+|NFS-e – Brazilijos paslaugų (miesto) elektroninė sąskaita faktūra|Brazilija          |
+|Danijos elektroninė sąskaita faktūra                          |Danija         |
+|Egipto elektroninė sąskaita faktūra                        |Egiptas           |
+|Estijos elektroninė sąskaita faktūra                        |Estija         |
+|Suomijos elektroninė sąskaita faktūra                         |Suomija         |
+|Prancūzijos elektroninė sąskaita faktūra                          |Prancūzija          |
+|Vokietijos elektroninė sąskaita faktūra                          |Vokietija         |
+|PEPPOL – visuotinė elektroninė sąskaita faktūra                 |Bendroji          |
+|Italijos elektroninė sąskaita faktūra                         |Italija           |
+|CFDI – Meksikos elektroninė sąskaita faktūra                  |Meksika          |
+|Nyderlandų elektroninė sąskaita faktūra                           |Olandija     |
+|Norvegijos elektroninė sąskaita faktūra                       |Norvegija          |
+|Ispanijos elektroninė sąskaita faktūra                         |Ispanija           |
 
-Tais atvejais, kai yra senesnė elektroninio SF išrašymo priemonė, palaikoma šalių lokalizavimo aprėptis, funkcijos nuorodos suaktyvinimas įgalina elektroninių SF išdavimą naudojant elektroninių SF išrašymo priedą ir išjungia ankstesnę funkciją.
+Kai naudojama senesnė elektroninių SF išrašymo funkcija, kuri palaikoma šalies / regiono lokalizavimo aprėptyje, aktyvinus vieną iš šių funkcijų išjungiama senesnė funkcija ir įjungiamos elektroninės SF, kurios išduodamos naudojant elektroninių SF išrašymo priedą.
+
+> [!IMPORTANT]
+> Kai elektroninių SF išrašymo integravimo priemonė yra įgalinta, numatyta, kad nauja elektroninių SF išrašymo funkcija išsijungia. Funkcijos sąvoką galima naudoti norint pasirinktinai įgalinti naują juridinių subjektų patirtį, naudojant šaliai / regionui būdingas funkcijas. Parinktis **Visuotinis** valdo naują likusių šalių / regionų, kurie nėra įvardyti lentelėje, patirtį.
 
 ## <a name="submit-electronic-documents"></a>Pateikti elektroninius dokumentus
 
