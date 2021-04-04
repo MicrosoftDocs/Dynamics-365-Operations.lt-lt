@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 07/07/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56b6666310309817ff30ccb3902721880b829ee0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0c2600ad8f441e6b73b143c27afa08ad0a5c2748
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679819"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5571010"
 ---
 # <a name="import-users-from-azure-active-directory"></a>Vartotojų importavimas iš „Azure Active Directory“
 
@@ -46,11 +45,11 @@ Atkreipkite dėmesį, kad naudojant paketinio importavimo pasirinktį vartotojo 
 2. Pasirinkite **Sistemos administravimas > Vartotojai > Vartotojai**.
 3. Spustelėkite **Paketinis importavimas**.
 4. Išplėskite skyrių **Vykdyti fone**.
-4. Pasirinkite **Taip lauke **Paketinis vykdymas**.
+4. Pasirinkite **Taip** lauke **Paketinis vykdymas**.
 6. Lauke **Paketinė grupė** įveskite arba pasirinkite vertę. Tai pasirinktinis veiksmas.  
 7. Lauke **Privatus** pasirinkite **Taip**. Tai pasirinktinis veiksmas.  
-8. Lauke **Kritinė užduotis** pasirinkite **Taip**. bTai pasirinktinis veiksmas.  
-9. Lauke **Stebėjimo kategorija pasirinkite parinktį.
+8. Lauke **Kritinė užduotis** pasirinkite **Taip**. Tai pasirinktinis veiksmas.  
+9. Lauke **Stebėjimo kategorija** pasirinkite parinktį.
 10. Spustelėkite **Gerai**.
 
 Baigus importavimą bus reikalaujama, kad vartotojai priskirtų vaidmenis.

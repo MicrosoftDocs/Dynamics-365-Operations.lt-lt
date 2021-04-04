@@ -1,5 +1,5 @@
 ---
-title: Sukonfigūruokite „Dynamics 365 Commerce“ vertinimo aplinką
+title: „Dynamics 365 Commerce“ vertinimo aplinkos konfigūravimas
 description: Šiame skyriuje paaiškinama, kaip sukonfigūruoti pirkimą internetu, pasiėmimą parduotuvėje „Microsoft Dynamics 365 Commerce“ vertinimo aplinką, po to kai ji buvo parengta.
 author: psimolin
 manager: annbe
@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fa92a581a96de6bed26b4a0c6601ebd9d5088347
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9b11ab600bb2aa17cf330947304f5b22dd522081
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993430"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477978"
 ---
-# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Sukonfigūruokite „Dynamics 365 Commerce“ vertinimo aplinką
+# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>„Dynamics 365 Commerce“ vertinimo aplinkos konfigūravimas
 
 [!include [banner](includes/banner.md)]
 
 Šiame skyriuje paaiškinama, kaip sukonfigūruoti pirkimą internetu, pasiėmimą parduotuvėje „Microsoft Dynamics 365 Commerce“ vertinimo aplinką, po to kai ji buvo parengta.
-
-## <a name="overview"></a>Peržiūra
 
 Pabaikite šio skyriaus procedūras po to, kai jūsų Komercijos vertinimo aplinka buvo parengta ir sukonfigūruota. Dėl informacijo, kaip nustatyti savo Komercijos vertinimo aplinką po jos nustatymo, žr. [Komercijos vertinimo aplinkos nustatymas](provisioning-guide.md).
 

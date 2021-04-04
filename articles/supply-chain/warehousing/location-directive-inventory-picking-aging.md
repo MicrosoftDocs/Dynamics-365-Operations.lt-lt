@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f8d5e4d82c66d178ceafcdbfb3eb9a941172aa01
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9107a14a79883dc0e33de311baeec5fd6d692a35
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5004632"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500507"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Vietos nurodymo atsargų paėmimo skirstymas pagal terminus
 
@@ -119,7 +119,7 @@ FIFO strategija suranda vietą, turinčią seniausius amžiaus duomenis ir prisk
 1. **Prekybos užsakymo** puslapyje, veiksmų juostoje **Sandėlio** skirtuke, **Veiksmai** grupėje, pasirinkite **Paleisti į sandėlį**. Gausite informacinį pranešimą. Sistema sukuria siuntą, įtraukia ją į naują krovinį ir sukuria reikiamą darbo užduotį.
 1. **Prekybos užsakymo eilučių** „FastTab“,  **Sandėlio** meniu, pasirinkite **Darbo informacija** tam, kad atidarytumėte šiam prekybos užsakymui sukurtą darbą. Atkreipkite dėmesį, kad eilutė, kurioje **Darbo tipo** vertė yra *Paimti*, rodo **Vietos** vertę *FL-002*. Ši vieta apima licencijos numerį, kuris turi seniausius amžiaus duomenis (FIFO).
 1. Pasirinkite **Sandėlis \> Siuntimo informacija**.
-1. „FastTab“ **_Bendra_* užsirašykite bangos identifikavimo numerį, kad galėtumėte jį naudoji scenarijaus 2 metu.
+1. „FastTab“ **Bendra** užsirašykite bangos identifikavimo numerį, kad galėtumėte jį naudoji scenarijaus 2 metu.
 
 ### <a name="scenario-2-set-up-and-use-lifo-location-aging"></a>Scenarijus 2: Nustatykite ir naudokite LIFO vietos amžių
 
