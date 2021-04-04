@@ -16,50 +16,50 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a53fc77a7d457534428929bd431175be7cf450f7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 14da5fd2b409790de2269036ccb941ffa6d3311c
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979652"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478313"
 ---
-# <a name="create-a-retail-functionality-profile"></a><span data-ttu-id="ff4f0-103">Mažmeninės prekybos funkcijų šablono kūrimas</span><span class="sxs-lookup"><span data-stu-id="ff4f0-103">Create a retail functionality profile</span></span>
-
+# <a name="create-a-retail-functionality-profile"></a><span data-ttu-id="699ad-103">Mažmeninės prekybos funkcijų šablono kūrimas</span><span class="sxs-lookup"><span data-stu-id="699ad-103">Create a retail functionality profile</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="ff4f0-104">Šioje temoje aprašoma, kaip sukurti funkcionalumo profilį, naudojant „Microsoft Dynamics 365 Commerce“.</span><span class="sxs-lookup"><span data-stu-id="ff4f0-104">This topic describes how to create a functionality profile in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="699ad-104">Šioje temoje aprašoma, kaip sukurti funkcionalumo profilį, naudojant „Microsoft Dynamics 365 Commerce“.</span><span class="sxs-lookup"><span data-stu-id="699ad-104">This topic describes how to create a functionality profile in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="ff4f0-105">Peržiūrėti</span><span class="sxs-lookup"><span data-stu-id="ff4f0-105">Overview</span></span>
+<span data-ttu-id="699ad-105">Prekybos funkcionalumo profilyje pateikiami įvairūs interneto kanalų parametrai.</span><span class="sxs-lookup"><span data-stu-id="699ad-105">The commerce functionality profile provides various settings used for online channels.</span></span> <span data-ttu-id="699ad-106">Kiekvienas kanalas turi nurodyti funkcionalumo profilį.</span><span class="sxs-lookup"><span data-stu-id="699ad-106">Each channel must specify a functionality profile.</span></span>
 
-<span data-ttu-id="ff4f0-106">Prekybos funkcionalumo profilyje pateikiami įvairūs interneto kanalų parametrai.</span><span class="sxs-lookup"><span data-stu-id="ff4f0-106">The commerce functionality profile provides various settings used for online channels.</span></span> <span data-ttu-id="ff4f0-107">Kiekvienas kanalas turi nurodyti funkcionalumo profilį.</span><span class="sxs-lookup"><span data-stu-id="ff4f0-107">Each channel must specify a functionality profile.</span></span>
+## <a name="create-a-functionality-profile"></a><span data-ttu-id="699ad-107">Kurti funkcijų šabloną</span><span class="sxs-lookup"><span data-stu-id="699ad-107">Create a functionality profile</span></span>
 
-## <a name="create-a-functionality-profile"></a><span data-ttu-id="ff4f0-108">Kurti funkcijų šabloną</span><span class="sxs-lookup"><span data-stu-id="ff4f0-108">Create a functionality profile</span></span>
+<span data-ttu-id="699ad-108">Norėdami sukurti funkcionalumo profilį, atlikite toliau nurodytus veiksmus.</span><span class="sxs-lookup"><span data-stu-id="699ad-108">To create a functionality profile, follow these steps.</span></span>
 
-<span data-ttu-id="ff4f0-109">Norėdami sukurti funkcionalumo profilį, atlikite toliau nurodytus veiksmus.</span><span class="sxs-lookup"><span data-stu-id="ff4f0-109">To create a functionality profile, follow these steps.</span></span>
-
-1. <span data-ttu-id="ff4f0-110">Naršymo srityje eikite į **Moduliai \> Kanalo sąranka \> EKA profiliai \> Funkcionalumo profiliai**.</span><span class="sxs-lookup"><span data-stu-id="ff4f0-110">In the navigation pane, go to **Modules \> Channel setup \> POS profiles \> Functionality profiles**.</span></span>
-1. <span data-ttu-id="ff4f0-111">Veiksmų srityje pasirinkite **Nauja**.</span><span class="sxs-lookup"><span data-stu-id="ff4f0-111">On the action pane, select **New**.</span></span>
-1. <span data-ttu-id="ff4f0-112">Lauke **Profilis** įveskite profilio ID (toliau nurodytame paveikslėlyje „FN006“).</span><span class="sxs-lookup"><span data-stu-id="ff4f0-112">In the **Profile** field, enter an ID for the profile ("FN006" in the example image below).</span></span>
-1. <span data-ttu-id="ff4f0-113">Lauke **Aprašymas** įveskite vertę (toliau nurodytame paveikslėlyje„Adventure Works Profile“).</span><span class="sxs-lookup"><span data-stu-id="ff4f0-113">In the **Description** field, enter a value ("Adventure Works Profile" in the example image below).</span></span>
-1. <span data-ttu-id="ff4f0-114">Skyriuje **Bendra** pasirinkite **ISO** lokalės šalį.</span><span class="sxs-lookup"><span data-stu-id="ff4f0-114">In the **General** section, select a country for the **ISO** locale.</span></span>
-1. <span data-ttu-id="ff4f0-115">Skyriuje **Bendra** pakeiskite, jei reikia, kitus nustatymus.</span><span class="sxs-lookup"><span data-stu-id="ff4f0-115">In the **General** section, modify other settings, as needed.</span></span>
-1. <span data-ttu-id="ff4f0-116">Skyriuje **Bendra** el. pašto kvitams pasirinkite **Kvito profilio ID**.</span><span class="sxs-lookup"><span data-stu-id="ff4f0-116">In the **General** section, select a **Receipt profile ID** for email receipts.</span></span>
-1. <span data-ttu-id="ff4f0-117">Jei reikia, skyriuje **Funkcijos** pakeiskite kitus nustatymus.</span><span class="sxs-lookup"><span data-stu-id="ff4f0-117">In the **Functions** section, modify settings, as needed.</span></span>
-1. <span data-ttu-id="ff4f0-118">Jei reikia, skyriuje **Suma** pakeiskite nustatymus.</span><span class="sxs-lookup"><span data-stu-id="ff4f0-118">In the **Amount** section, modify settings as, needed.</span></span>
-1. <span data-ttu-id="ff4f0-119">Jei reikia, skyriuje **Informacijos kodai** pakeiskite kitus nustatymus.</span><span class="sxs-lookup"><span data-stu-id="ff4f0-119">In the **Info Codes** section, modify settings, as needed.</span></span>
-1. <span data-ttu-id="ff4f0-120">Jei reikia, skyriuje **Kvitų numeravimas** pakeiskite kitus nustatymus.</span><span class="sxs-lookup"><span data-stu-id="ff4f0-120">In the **Receipt numbering** section, modify settings, as needed.</span></span> 
+1. <span data-ttu-id="699ad-109">Naršymo srityje eikite į **Moduliai \> Kanalo sąranka \> EKA profiliai \> Funkcionalumo profiliai**.</span><span class="sxs-lookup"><span data-stu-id="699ad-109">In the navigation pane, go to **Modules \> Channel setup \> POS profiles \> Functionality profiles**.</span></span>
+1. <span data-ttu-id="699ad-110">Veiksmų srityje pasirinkite **Nauja**.</span><span class="sxs-lookup"><span data-stu-id="699ad-110">On the action pane, select **New**.</span></span>
+1. <span data-ttu-id="699ad-111">Lauke **Profilis** įveskite profilio ID (toliau nurodytame paveikslėlyje „FN006“).</span><span class="sxs-lookup"><span data-stu-id="699ad-111">In the **Profile** field, enter an ID for the profile ("FN006" in the example image below).</span></span>
+1. <span data-ttu-id="699ad-112">Lauke **Aprašymas** įveskite vertę (toliau nurodytame paveikslėlyje„Adventure Works Profile“).</span><span class="sxs-lookup"><span data-stu-id="699ad-112">In the **Description** field, enter a value ("Adventure Works Profile" in the example image below).</span></span>
+1. <span data-ttu-id="699ad-113">Skyriuje **Bendra** pasirinkite **ISO** lokalės šalį.</span><span class="sxs-lookup"><span data-stu-id="699ad-113">In the **General** section, select a country for the **ISO** locale.</span></span>
+1. <span data-ttu-id="699ad-114">Skyriuje **Bendra** pakeiskite, jei reikia, kitus nustatymus.</span><span class="sxs-lookup"><span data-stu-id="699ad-114">In the **General** section, modify other settings, as needed.</span></span>
+1. <span data-ttu-id="699ad-115">Skyriuje **Bendra** el. pašto kvitams pasirinkite **Kvito profilio ID**.</span><span class="sxs-lookup"><span data-stu-id="699ad-115">In the **General** section, select a **Receipt profile ID** for email receipts.</span></span>
+1. <span data-ttu-id="699ad-116">Jei reikia, skyriuje **Funkcijos** pakeiskite kitus nustatymus.</span><span class="sxs-lookup"><span data-stu-id="699ad-116">In the **Functions** section, modify settings, as needed.</span></span>
+1. <span data-ttu-id="699ad-117">Jei reikia, skyriuje **Suma** pakeiskite nustatymus.</span><span class="sxs-lookup"><span data-stu-id="699ad-117">In the **Amount** section, modify settings as, needed.</span></span>
+1. <span data-ttu-id="699ad-118">Jei reikia, skyriuje **Informacijos kodai** pakeiskite kitus nustatymus.</span><span class="sxs-lookup"><span data-stu-id="699ad-118">In the **Info Codes** section, modify settings, as needed.</span></span>
+1. <span data-ttu-id="699ad-119">Jei reikia, skyriuje **Kvitų numeravimas** pakeiskite kitus nustatymus.</span><span class="sxs-lookup"><span data-stu-id="699ad-119">In the **Receipt numbering** section, modify settings, as needed.</span></span> 
   
-<span data-ttu-id="ff4f0-121">Toliau pateiktame vaizde parodytas funkcionalumo profilio pavyzdys.</span><span class="sxs-lookup"><span data-stu-id="ff4f0-121">The following image shows an example functionality profile.</span></span>
+<span data-ttu-id="699ad-120">Toliau pateiktame vaizde parodytas funkcionalumo profilio pavyzdys.</span><span class="sxs-lookup"><span data-stu-id="699ad-120">The following image shows an example functionality profile.</span></span>
   
 ![Funkcionalumo profilio pavyzdys](media/retail-functionality-profile.png)
 
-## <a name="additional-resources"></a><span data-ttu-id="ff4f0-123">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="ff4f0-123">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="699ad-122">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="699ad-122">Additional resources</span></span>
 
-[<span data-ttu-id="ff4f0-124">Informacijos kodai ir informacijos kodų grupės</span><span class="sxs-lookup"><span data-stu-id="ff4f0-124">Info codes and info code groups</span></span>](info-codes-retail.md)           
+[<span data-ttu-id="699ad-123">Informacijos kodai ir informacijos kodų grupės</span><span class="sxs-lookup"><span data-stu-id="699ad-123">Info codes and info code groups</span></span>](info-codes-retail.md)           
 
-[<span data-ttu-id="ff4f0-125">Naujos adresų knygos kūrimas</span><span class="sxs-lookup"><span data-stu-id="ff4f0-125">Create new address book</span></span>](new-address-book.md) 
+[<span data-ttu-id="699ad-124">Naujos adresų knygos kūrimas</span><span class="sxs-lookup"><span data-stu-id="699ad-124">Create new address book</span></span>](new-address-book.md) 
 
-[<span data-ttu-id="ff4f0-126">Ekrano maketo apžvalga</span><span class="sxs-lookup"><span data-stu-id="ff4f0-126">Screen layout overview</span></span>](pos-screen-layouts.md)       
+[<span data-ttu-id="699ad-125">Ekrano maketo apžvalga</span><span class="sxs-lookup"><span data-stu-id="699ad-125">Screen layout overview</span></span>](pos-screen-layouts.md)       
 
-[<span data-ttu-id="ff4f0-127">Konfigūruoti ir diegti „Retail Hardware Station“</span><span class="sxs-lookup"><span data-stu-id="ff4f0-127">Configure and install Retail hardware station</span></span>](retail-hardware-station-configuration-installation.md) 
+[<span data-ttu-id="699ad-126">Konfigūruoti ir diegti „Retail Hardware Station“</span><span class="sxs-lookup"><span data-stu-id="699ad-126">Configure and install Retail hardware station</span></span>](retail-hardware-station-configuration-installation.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

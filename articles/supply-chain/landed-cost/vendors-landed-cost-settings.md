@@ -1,0 +1,44 @@
+---
+title: Įtraukti tiekėjo parametrai, skirti įkeltoms išlaidoms
+description: Šioje temoje aprašomi nauji laukai, kurie įtraukiami į esamų tiekėjų puslapį, kai įgalinate įkeltų išlaidų modulį. Šiuos laukus naudojate nustatyti tiekėjams, kuriuos naudosite kartu su įkeltų išlaidų funkcijomis.
+author: sherry-zheng
+manager: tfehr
+ms.date: 12/07/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: VendTable
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: chuzheng
+ms.search.validFrom: 2020-12-07
+ms.dyn365.ops.version: Release 10.0.17
+ms.openlocfilehash: 8cc0622cd761a671ebb88addc36b777cfefb7dc7
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500915"
+---
+# <a name="vendor-settings-added-for-landed-cost"></a><span data-ttu-id="58005-104">Įtraukti tiekėjo parametrai, skirti įkeltoms išlaidoms</span><span class="sxs-lookup"><span data-stu-id="58005-104">Vendor settings added for Landed cost</span></span>
+
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
+<span data-ttu-id="58005-105">Kai įgalinate **Įkeltų išlaidų** modelį, į esamų **Tiekėjų** puslapį įtraukiami keli nauji laukai.</span><span class="sxs-lookup"><span data-stu-id="58005-105">When you enable the **Landed cost** module, several new fields are added to the existing **Vendors** page.</span></span> <span data-ttu-id="58005-106">Šiuos laukus naudojate nustatyti tiekėjams, kuriuos naudosite kartu su įkeltų išlaidų funkcijomis.</span><span class="sxs-lookup"><span data-stu-id="58005-106">You use these fields to set up the vendors that you will use together with Landed cost features.</span></span>
+
+<span data-ttu-id="58005-107">Atitinkamų laukų nustatymui eikite į **Įsigijimas ir tiekimas \> Tiekėjai \> Visi tiekėjai**.</span><span class="sxs-lookup"><span data-stu-id="58005-107">To set the relevant fields, go to **Procurement and sourcing \> Vendors \> All vendors**.</span></span> <span data-ttu-id="58005-108">Atidarykite esamą tiekėją arba sukurkite naują tiekėją, o tada pasirinkite **Įvairi informacija** „FastTab”.</span><span class="sxs-lookup"><span data-stu-id="58005-108">Open an existing vendor, or create a new vendor, and then select the **Miscellaneous details** FastTab.</span></span> <span data-ttu-id="58005-109">Visi nauji laukai, kuriuos prideda **Įkeltų išlaidų** modulis, rodomi **Reisų** antraštėje.</span><span class="sxs-lookup"><span data-stu-id="58005-109">All the new fields that the **Landed cost** module adds appear under the **Voyages** heading.</span></span> <span data-ttu-id="58005-110">Toliau pateiktoje lentelėje aprašomi šie laukai.</span><span class="sxs-lookup"><span data-stu-id="58005-110">The following table describes these fields.</span></span>
+
+| <span data-ttu-id="58005-111">Laukas</span><span class="sxs-lookup"><span data-stu-id="58005-111">Field</span></span> | <span data-ttu-id="58005-112">Aprašymas</span><span class="sxs-lookup"><span data-stu-id="58005-112">Description</span></span> |
+|---|---|
+| <span data-ttu-id="58005-113">Gabenimo tipas</span><span class="sxs-lookup"><span data-stu-id="58005-113">Shipping type</span></span> | <p><span data-ttu-id="58005-114">Pasirinkite tiekėjo vaidmenį, ryšium su Įkeltomis išlaidomis:</span><span class="sxs-lookup"><span data-stu-id="58005-114">Select the vendor's role in relation to Landed cost:</span></span></p><ul><li><span data-ttu-id="58005-115">**Jokia** – Tiekėjas neturi konkretaus vaidmens, susijusio su Įkeltomis išlaidomis.</span><span class="sxs-lookup"><span data-stu-id="58005-115">**None** – The vendor has no specific role that is related to Landed cost.</span></span> <span data-ttu-id="58005-116">Ši reikšmė yra numatytasis parametras, nes daugelis tiekėjų tikriausiai neturės konkretaus vaidmens.</span><span class="sxs-lookup"><span data-stu-id="58005-116">This value is the default setting, because most vendors will probably have no specific role.</span></span></li><li><span data-ttu-id="58005-117">**Siuntimo įmonė** – Tiekėjas yra siuntimo įmonė.</span><span class="sxs-lookup"><span data-stu-id="58005-117">**Shipping company** – The vendor is a shipping company.</span></span> <span data-ttu-id="58005-118">Šio siuntimo tipo tiekėjus galima pasirinkti puslapio **Reisai** lauke **Siuntimo įmonė**.</span><span class="sxs-lookup"><span data-stu-id="58005-118">Vendors that have this shipping type are available for selection in the **Shipping company** field on the **Voyages** page.</span></span></li><li><span data-ttu-id="58005-119">**Muitinės tarpininkas** – Tiekėjas yra muitinės tarpininkas.</span><span class="sxs-lookup"><span data-stu-id="58005-119">**Customs broker** – The vendor is a customs broker.</span></span> <span data-ttu-id="58005-120">Šio siuntimo tipo tiekėjus galima pasirinkti puslapio **Registravimo lapai** lauke **Muitinės tarpininkas**.</span><span class="sxs-lookup"><span data-stu-id="58005-120">Vendors that have this shipping type are available for selection in the **Customs broker** field on the **Folios** page.</span></span></li><li><span data-ttu-id="58005-121">**Agentas** – Tiekėjas yra agentas.</span><span class="sxs-lookup"><span data-stu-id="58005-121">**Agent** – The vendor is an agent.</span></span> <span data-ttu-id="58005-122">Šio siuntimo tipo tiekėjus galima pasirinkti puslapių **Tiekėjai** ir **Pirkimo užsakymai** lauke **Agentas**.</span><span class="sxs-lookup"><span data-stu-id="58005-122">Vendors that have this shipping type are available for selection in the **Agent** field on the **Vendors** and **Purchase orders** pages.</span></span></li></ul> |
+| <span data-ttu-id="58005-123">Išlaidų tipo grupė</span><span class="sxs-lookup"><span data-stu-id="58005-123">Cost type group</span></span> | <span data-ttu-id="58005-124">Priskirkite tiekėją išlaidų tipo grupei, kad būtų galima pasirinkti [automatines išlaidas](auto-cost-setup.md).</span><span class="sxs-lookup"><span data-stu-id="58005-124">Assign the vendor to a cost type group for the purpose of selecting [auto costs](auto-cost-setup.md).</span></span> |
+| <span data-ttu-id="58005-125">Kilmės uostas</span><span class="sxs-lookup"><span data-stu-id="58005-125">From port</span></span> | <span data-ttu-id="58005-126">Pasirinkite reiso kilmės uostą.</span><span class="sxs-lookup"><span data-stu-id="58005-126">Select the port of origin for the voyage.</span></span> |
+| <span data-ttu-id="58005-127">Agentas</span><span class="sxs-lookup"><span data-stu-id="58005-127">Agent</span></span> | <span data-ttu-id="58005-128">Numatytasis agentas, kai perkama iš tiekėjo.</span><span class="sxs-lookup"><span data-stu-id="58005-128">The default agent when purchases are made from the vendor.</span></span> |
+| <span data-ttu-id="58005-129">Importuoti įkainojimo tiekėją</span><span class="sxs-lookup"><span data-stu-id="58005-129">Import costing vendor</span></span> | <p><span data-ttu-id="58005-130">Nurodykite, ar tiekėjas yra Įkeltų išlaidų tiekėjas.</span><span class="sxs-lookup"><span data-stu-id="58005-130">Indicate whether the vendor is a Landed cost vendor.</span></span></p><p><span data-ttu-id="58005-131">**Patarimas:** Šį lauką galite naudoti kartu su įrašo lygio sauga, norėdami apriboti pirkimo užsakymus, kurie rodomi kuriant reisą.</span><span class="sxs-lookup"><span data-stu-id="58005-131">**Tip:** You can use this field together with record-level security to limit the purchase orders that are shown when a voyage is created.</span></span></p> |
+| <span data-ttu-id="58005-132">Gabenimo įmonė</span><span class="sxs-lookup"><span data-stu-id="58005-132">Shipping company</span></span> | <span data-ttu-id="58005-133">Pasirinkite numatytąją siuntimo įmonę, naudojamą kuriant pirkimo užsakymus tiekėjui.</span><span class="sxs-lookup"><span data-stu-id="58005-133">Select the default shipping company that is used when purchase orders are created for the vendor.</span></span> |
+| <span data-ttu-id="58005-134">Paslaugų teikėjas</span><span class="sxs-lookup"><span data-stu-id="58005-134">Services provider</span></span> | <span data-ttu-id="58005-135">Nurodykite, ar tiekėjas yra paslaugų teikėjas.</span><span class="sxs-lookup"><span data-stu-id="58005-135">Indicate whether the vendor is services provider.</span></span> |
+| <span data-ttu-id="58005-136">Leistino perviršio/trūkumo grupė</span><span class="sxs-lookup"><span data-stu-id="58005-136">Over/Under tolerance group</span></span> | <span data-ttu-id="58005-137">Pasirinkite numatytąją leistino perviršio/trūkumo grupę tiekėjui.</span><span class="sxs-lookup"><span data-stu-id="58005-137">Select the default over/under tolerance group for the vendor.</span></span> |

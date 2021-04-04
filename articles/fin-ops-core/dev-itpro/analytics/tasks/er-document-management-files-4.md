@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenInvoicesListPage, CustInvoiceJournal, SalesTable, ERSolutionTable
 audience: Application User
@@ -15,57 +14,60 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d437b31b8a55f345ebc3567bc8c6a2c5ecfd2eec
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: ede71118f64eec27b150a4c575aead97d3174509
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5092521"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559730"
 ---
-# <a name="er-use-document-management-files-in-format-outputs-part-4---run-format"></a><span data-ttu-id="02aea-104">ER dokumentų valdymo failų naudojimas formato išvestyse (4 dalis – formato paleidimas)</span><span class="sxs-lookup"><span data-stu-id="02aea-104">ER Use Document Management files in format outputs (Part 4 - Run format)</span></span>
+# <a name="er-use-document-management-files-in-format-outputs-part-4---run-format"></a><span data-ttu-id="260ea-104">ER dokumentų valdymo failų naudojimas formato išvestyse (4 dalis – formato paleidimas)</span><span class="sxs-lookup"><span data-stu-id="260ea-104">ER Use Document Management files in format outputs (Part 4 - Run format)</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="02aea-105">Toliau nurodytuose veiksmuose paaiškinta, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) formatą, norėdamas dokumentų valdymo failus (priedus) naudoti ER išvestyje.</span><span class="sxs-lookup"><span data-stu-id="02aea-105">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to use Document Management files (attachments) in ER output.</span></span> <span data-ttu-id="02aea-106">Šiuos veiksmus galima atlikti DEMF įmonėje.</span><span class="sxs-lookup"><span data-stu-id="02aea-106">These steps can be performed in the DEMF company.</span></span>
+<span data-ttu-id="260ea-105">Toliau nurodytuose veiksmuose paaiškinta, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) formatą, norėdamas dokumentų valdymo failus (priedus) naudoti ER išvestyje.</span><span class="sxs-lookup"><span data-stu-id="260ea-105">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to use Document Management files (attachments) in ER output.</span></span> <span data-ttu-id="260ea-106">Šiuos veiksmus galima atlikti DEMF įmonėje.</span><span class="sxs-lookup"><span data-stu-id="260ea-106">These steps can be performed in the DEMF company.</span></span>
 
-<span data-ttu-id="02aea-107">Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus procedūroje „ER: dokumentų valdymo failų naudojimas formato išvestyse (3 dalis. Formato kūrimas)“.</span><span class="sxs-lookup"><span data-stu-id="02aea-107">To complete these steps, you must first complete the steps in the "ER Use Document Management files in format outputs (Part 3: Create format)" procedure.</span></span>
+<span data-ttu-id="260ea-107">Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus procedūroje „ER: dokumentų valdymo failų naudojimas formato išvestyse (3 dalis. Formato kūrimas)“.</span><span class="sxs-lookup"><span data-stu-id="260ea-107">To complete these steps, you must first complete the steps in the "ER Use Document Management files in format outputs (Part 3: Create format)" procedure.</span></span>
 
-<span data-ttu-id="02aea-108">Ši procedūra yra skirta į 1611 „Dynamics 365 for Operations“ versiją įtrauktai funkcijai aprašyti.</span><span class="sxs-lookup"><span data-stu-id="02aea-108">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="260ea-108">Ši procedūra yra skirta į 1611 „Dynamics 365 for Operations“ versiją įtrauktai funkcijai aprašyti.</span><span class="sxs-lookup"><span data-stu-id="260ea-108">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="add-necessary-attachments-for-sales-order-of-a-single-invoice"></a><span data-ttu-id="02aea-109">Pridėkite reikiamus vienos SF pardavimo užsakymo priedus</span><span class="sxs-lookup"><span data-stu-id="02aea-109">Add necessary attachments for sales order of a single invoice</span></span>
-1. <span data-ttu-id="02aea-110">Pasirinkite Gautinos sumos > Sąskaitos faktūros > Atidarytos klientų SF.</span><span class="sxs-lookup"><span data-stu-id="02aea-110">Go to Accounts receivable > Invoices > Open customer invoices.</span></span>
-2. <span data-ttu-id="02aea-111">Norėdami rasti įrašus, naudokite spartųjį filtrą.</span><span class="sxs-lookup"><span data-stu-id="02aea-111">Use the Quick Filter to find records.</span></span> <span data-ttu-id="02aea-112">Pvz., filtruokite lauką SF reikšme CIV-000148.</span><span class="sxs-lookup"><span data-stu-id="02aea-112">For example, filter on the Invoice field with a value of 'CIV-000148'.</span></span>
-    * <span data-ttu-id="02aea-113">CIV-000148</span><span class="sxs-lookup"><span data-stu-id="02aea-113">CIV-000148</span></span>  
-3. <span data-ttu-id="02aea-114">Spustelėkite norėdami sekti pažymėtos SF saitą.</span><span class="sxs-lookup"><span data-stu-id="02aea-114">Click to follow the selected invoice's link.</span></span>
-    * <span data-ttu-id="02aea-115">CIV-000148</span><span class="sxs-lookup"><span data-stu-id="02aea-115">CIV-000148</span></span>  
-4. <span data-ttu-id="02aea-116">Spustelėkite, jei norite atidaryti lauke Pardavimo užsakymas esantį saitą.</span><span class="sxs-lookup"><span data-stu-id="02aea-116">Click to follow the link in the Sales order field.</span></span>
-    * <span data-ttu-id="02aea-117">000148</span><span class="sxs-lookup"><span data-stu-id="02aea-117">000148</span></span>  
-5. <span data-ttu-id="02aea-118">Lauke Eilutės arba antraštė pasirinkite parinktį Antraštė.</span><span class="sxs-lookup"><span data-stu-id="02aea-118">In the Lines or header field, select the option of Header.</span></span>
-    * <span data-ttu-id="02aea-119">Pasirinkite Antraštė, norėdami nurodyti, kad tai bus priedų pridėjimo paskirties vieta.</span><span class="sxs-lookup"><span data-stu-id="02aea-119">Select Header to indicate that this will be the target for adding attachments.</span></span>  
-6. <span data-ttu-id="02aea-120">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="02aea-120">Click Attach.</span></span>
-    * <span data-ttu-id="02aea-121">Įtraukite kelis failus kaip šio pardavimo užsakymo priedus.</span><span class="sxs-lookup"><span data-stu-id="02aea-121">Add a few files as attachments for this sales order.</span></span> <span data-ttu-id="02aea-122">Naudokite dokumentų tipų, kuriuos palaiko dokumentų valdymas, failus (su failų plėtiniais DOCX, DPF, XML, JPG, ir pan.).</span><span class="sxs-lookup"><span data-stu-id="02aea-122">Use the files of the document types that are supported by the Document Management (with file extensions DOCX, DPF, XML, JPG, etc.).</span></span> <span data-ttu-id="02aea-123">Naršykite ir pasirinkite failus, kuriuos norite pridėti ir apdoroti su susijusia SF ER el. laiške.</span><span class="sxs-lookup"><span data-stu-id="02aea-123">Browse and select files to be attached and further processed with the related invoice in the ER electronic message.</span></span>  
-7. <span data-ttu-id="02aea-124">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="02aea-124">Click New.</span></span>
-8. <span data-ttu-id="02aea-125">Spustelėkite Failas.</span><span class="sxs-lookup"><span data-stu-id="02aea-125">Click File.</span></span>
-9. <span data-ttu-id="02aea-126">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="02aea-126">Click New.</span></span>
-10. <span data-ttu-id="02aea-127">Spustelėkite Failas.</span><span class="sxs-lookup"><span data-stu-id="02aea-127">Click File.</span></span>
-11. <span data-ttu-id="02aea-128">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="02aea-128">Close the page.</span></span>
-12. <span data-ttu-id="02aea-129">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="02aea-129">Close the page.</span></span>
-13. <span data-ttu-id="02aea-130">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="02aea-130">Close the page.</span></span>
-14. <span data-ttu-id="02aea-131">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="02aea-131">Close the page.</span></span>
+## <a name="add-necessary-attachments-for-sales-order-of-a-single-invoice"></a><span data-ttu-id="260ea-109">Pridėkite reikiamus vienos SF pardavimo užsakymo priedus</span><span class="sxs-lookup"><span data-stu-id="260ea-109">Add necessary attachments for sales order of a single invoice</span></span>
+1. <span data-ttu-id="260ea-110">Pasirinkite Gautinos sumos > Sąskaitos faktūros > Atidarytos klientų SF.</span><span class="sxs-lookup"><span data-stu-id="260ea-110">Go to Accounts receivable > Invoices > Open customer invoices.</span></span>
+2. <span data-ttu-id="260ea-111">Norėdami rasti įrašus, naudokite spartųjį filtrą.</span><span class="sxs-lookup"><span data-stu-id="260ea-111">Use the Quick Filter to find records.</span></span> <span data-ttu-id="260ea-112">Pvz., filtruokite lauką SF reikšme CIV-000148.</span><span class="sxs-lookup"><span data-stu-id="260ea-112">For example, filter on the Invoice field with a value of 'CIV-000148'.</span></span>
+    * <span data-ttu-id="260ea-113">CIV-000148</span><span class="sxs-lookup"><span data-stu-id="260ea-113">CIV-000148</span></span>  
+3. <span data-ttu-id="260ea-114">Spustelėkite norėdami sekti pažymėtos SF saitą.</span><span class="sxs-lookup"><span data-stu-id="260ea-114">Click to follow the selected invoice's link.</span></span>
+    * <span data-ttu-id="260ea-115">CIV-000148</span><span class="sxs-lookup"><span data-stu-id="260ea-115">CIV-000148</span></span>  
+4. <span data-ttu-id="260ea-116">Spustelėkite, jei norite atidaryti lauke Pardavimo užsakymas esantį saitą.</span><span class="sxs-lookup"><span data-stu-id="260ea-116">Click to follow the link in the Sales order field.</span></span>
+    * <span data-ttu-id="260ea-117">000148</span><span class="sxs-lookup"><span data-stu-id="260ea-117">000148</span></span>  
+5. <span data-ttu-id="260ea-118">Lauke Eilutės arba antraštė pasirinkite parinktį Antraštė.</span><span class="sxs-lookup"><span data-stu-id="260ea-118">In the Lines or header field, select the option of Header.</span></span>
+    * <span data-ttu-id="260ea-119">Pasirinkite Antraštė, norėdami nurodyti, kad tai bus priedų pridėjimo paskirties vieta.</span><span class="sxs-lookup"><span data-stu-id="260ea-119">Select Header to indicate that this will be the target for adding attachments.</span></span>  
+6. <span data-ttu-id="260ea-120">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="260ea-120">Click Attach.</span></span>
+    * <span data-ttu-id="260ea-121">Įtraukite kelis failus kaip šio pardavimo užsakymo priedus.</span><span class="sxs-lookup"><span data-stu-id="260ea-121">Add a few files as attachments for this sales order.</span></span> <span data-ttu-id="260ea-122">Naudokite dokumentų tipų, kuriuos palaiko dokumentų valdymas, failus (su failų plėtiniais DOCX, DPF, XML, JPG, ir pan.).</span><span class="sxs-lookup"><span data-stu-id="260ea-122">Use the files of the document types that are supported by the Document Management (with file extensions DOCX, DPF, XML, JPG, etc.).</span></span> <span data-ttu-id="260ea-123">Naršykite ir pasirinkite failus, kuriuos norite pridėti ir apdoroti su susijusia SF ER el. laiške.</span><span class="sxs-lookup"><span data-stu-id="260ea-123">Browse and select files to be attached and further processed with the related invoice in the ER electronic message.</span></span>  
+7. <span data-ttu-id="260ea-124">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="260ea-124">Click New.</span></span>
+8. <span data-ttu-id="260ea-125">Spustelėkite Failas.</span><span class="sxs-lookup"><span data-stu-id="260ea-125">Click File.</span></span>
+9. <span data-ttu-id="260ea-126">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="260ea-126">Click New.</span></span>
+10. <span data-ttu-id="260ea-127">Spustelėkite Failas.</span><span class="sxs-lookup"><span data-stu-id="260ea-127">Click File.</span></span>
+11. <span data-ttu-id="260ea-128">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="260ea-128">Close the page.</span></span>
+12. <span data-ttu-id="260ea-129">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="260ea-129">Close the page.</span></span>
+13. <span data-ttu-id="260ea-130">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="260ea-130">Close the page.</span></span>
+14. <span data-ttu-id="260ea-131">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="260ea-131">Close the page.</span></span>
 
-## <a name="run-the-designed-report-for-the-selected-invoice"></a><span data-ttu-id="02aea-132">Paleiskite sukurtą pasirinktos SF ataskaitą</span><span class="sxs-lookup"><span data-stu-id="02aea-132">Run the designed report for the selected invoice</span></span>
-1. <span data-ttu-id="02aea-133">Eikite į Organizacijos administravimas > Elektroninės ataskaitos > Konfigūracijos.</span><span class="sxs-lookup"><span data-stu-id="02aea-133">Go to Organization administration > Electronic reporting > Configurations.</span></span>
-2. <span data-ttu-id="02aea-134">Medyje išplėskite Kliento SF modelis.</span><span class="sxs-lookup"><span data-stu-id="02aea-134">In the tree, expand 'Customer invoice model'.</span></span>
-3. <span data-ttu-id="02aea-135">Medyje išplėskite dalį Kliento SF modelis / kliento SF modelis (pasirinktinis).</span><span class="sxs-lookup"><span data-stu-id="02aea-135">In the tree, expand 'Customer invoice model\Customer invoice model (custom)'.</span></span>
-4. <span data-ttu-id="02aea-136">Medyje pasirinkite Kliento SF modelis / kliento SF modelis (pasirinktinis) / elektroninės SF pranešimo pavyzdys.</span><span class="sxs-lookup"><span data-stu-id="02aea-136">In the tree, select 'Customer invoice model\Customer invoice model (custom)\Electronic invoice sample message'.</span></span>
-5. <span data-ttu-id="02aea-137">Spustelėkite Vykdyti.</span><span class="sxs-lookup"><span data-stu-id="02aea-137">Click Run.</span></span>
-6. <span data-ttu-id="02aea-138">Išplėskite dalį Įtrauktini įrašai ().</span><span class="sxs-lookup"><span data-stu-id="02aea-138">Expand the Records to include () section.</span></span>
-7. <span data-ttu-id="02aea-139">Spustelėkite Filtras.</span><span class="sxs-lookup"><span data-stu-id="02aea-139">Click Filter.</span></span>
-8. <span data-ttu-id="02aea-140">Pasirinkite kliento SF žurnalo eilutę ir lauką Pardavimo užsakymas.</span><span class="sxs-lookup"><span data-stu-id="02aea-140">Select the row of the Customer invoice journal and the Sales order field.</span></span>
-9. <span data-ttu-id="02aea-141">Lauke Kriterijai įveskite 000148.</span><span class="sxs-lookup"><span data-stu-id="02aea-141">In the Criteria field, type '000148'.</span></span>
-    * <span data-ttu-id="02aea-142">Kriterijų lauke „Pardavimo užsakymas“ įveskite užsakymo numerį 000148.</span><span class="sxs-lookup"><span data-stu-id="02aea-142">In the criteria "Sales order" field, type the order number 000148.</span></span>  
-10. <span data-ttu-id="02aea-143">Spustelėkite Gerai.</span><span class="sxs-lookup"><span data-stu-id="02aea-143">Click OK.</span></span>
-11. <span data-ttu-id="02aea-144">Spustelėkite Gerai.</span><span class="sxs-lookup"><span data-stu-id="02aea-144">Click OK.</span></span>
-    * <span data-ttu-id="02aea-145">Peržiūrėkite sugeneruotą išvestį.</span><span class="sxs-lookup"><span data-stu-id="02aea-145">Review the generated output.</span></span> <span data-ttu-id="02aea-146">Atkreipkite dėmesį, kad kiekvienam priedui sukuriamas vienas XML mazgas.</span><span class="sxs-lookup"><span data-stu-id="02aea-146">Note that for each attachment a single XML node has been created.</span></span> <span data-ttu-id="02aea-147">Priedo turinys įvedamas į XML išvestį MIME (base64) teksto formatu.</span><span class="sxs-lookup"><span data-stu-id="02aea-147">The attachment's content is populated to the XML output in MIME (base64) text format.</span></span>  
+## <a name="run-the-designed-report-for-the-selected-invoice"></a><span data-ttu-id="260ea-132">Paleiskite sukurtą pasirinktos SF ataskaitą</span><span class="sxs-lookup"><span data-stu-id="260ea-132">Run the designed report for the selected invoice</span></span>
+1. <span data-ttu-id="260ea-133">Eikite į Organizacijos administravimas > Elektroninės ataskaitos > Konfigūracijos.</span><span class="sxs-lookup"><span data-stu-id="260ea-133">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="260ea-134">Medyje išplėskite Kliento SF modelis.</span><span class="sxs-lookup"><span data-stu-id="260ea-134">In the tree, expand 'Customer invoice model'.</span></span>
+3. <span data-ttu-id="260ea-135">Medyje išplėskite dalį Kliento SF modelis / kliento SF modelis (pasirinktinis).</span><span class="sxs-lookup"><span data-stu-id="260ea-135">In the tree, expand 'Customer invoice model\Customer invoice model (custom)'.</span></span>
+4. <span data-ttu-id="260ea-136">Medyje pasirinkite Kliento SF modelis / kliento SF modelis (pasirinktinis) / elektroninės SF pranešimo pavyzdys.</span><span class="sxs-lookup"><span data-stu-id="260ea-136">In the tree, select 'Customer invoice model\Customer invoice model (custom)\Electronic invoice sample message'.</span></span>
+5. <span data-ttu-id="260ea-137">Spustelėkite Vykdyti.</span><span class="sxs-lookup"><span data-stu-id="260ea-137">Click Run.</span></span>
+6. <span data-ttu-id="260ea-138">Išplėskite dalį Įtrauktini įrašai ().</span><span class="sxs-lookup"><span data-stu-id="260ea-138">Expand the Records to include () section.</span></span>
+7. <span data-ttu-id="260ea-139">Spustelėkite Filtras.</span><span class="sxs-lookup"><span data-stu-id="260ea-139">Click Filter.</span></span>
+8. <span data-ttu-id="260ea-140">Pasirinkite kliento SF žurnalo eilutę ir lauką Pardavimo užsakymas.</span><span class="sxs-lookup"><span data-stu-id="260ea-140">Select the row of the Customer invoice journal and the Sales order field.</span></span>
+9. <span data-ttu-id="260ea-141">Lauke Kriterijai įveskite 000148.</span><span class="sxs-lookup"><span data-stu-id="260ea-141">In the Criteria field, type '000148'.</span></span>
+    * <span data-ttu-id="260ea-142">Kriterijų lauke „Pardavimo užsakymas“ įveskite užsakymo numerį 000148.</span><span class="sxs-lookup"><span data-stu-id="260ea-142">In the criteria "Sales order" field, type the order number 000148.</span></span>  
+10. <span data-ttu-id="260ea-143">Spustelėkite Gerai.</span><span class="sxs-lookup"><span data-stu-id="260ea-143">Click OK.</span></span>
+11. <span data-ttu-id="260ea-144">Spustelėkite Gerai.</span><span class="sxs-lookup"><span data-stu-id="260ea-144">Click OK.</span></span>
+    * <span data-ttu-id="260ea-145">Peržiūrėkite sugeneruotą išvestį.</span><span class="sxs-lookup"><span data-stu-id="260ea-145">Review the generated output.</span></span> <span data-ttu-id="260ea-146">Atkreipkite dėmesį, kad kiekvienam priedui sukuriamas vienas XML mazgas.</span><span class="sxs-lookup"><span data-stu-id="260ea-146">Note that for each attachment a single XML node has been created.</span></span> <span data-ttu-id="260ea-147">Priedo turinys įvedamas į XML išvestį MIME (base64) teksto formatu.</span><span class="sxs-lookup"><span data-stu-id="260ea-147">The attachment's content is populated to the XML output in MIME (base64) text format.</span></span>  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
