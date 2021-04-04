@@ -18,12 +18,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 91e614889c719ae700b13e54150e5025d64e2b97
-ms.sourcegitcommit: 289e9183d908825f4c8dcf85d9affd4119238d0c
+ms.openlocfilehash: 9b5d8c9e77fb98dfb7031a3868303970fe3bf865
+ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104945"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5580970"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Sandėlio valdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams
 
@@ -85,7 +85,14 @@ Centras turi tolesnius duomenis:
 > [!NOTE]
 > Gaunamų ir siunčiamų pirkimo užsakymų srautai skiriasi savo konceptais. Galite dirbti su tuo pačiu sandėliu skalės vienetu arba centru, atsižvelgiant ar pirkimo užsakymas buvo išleistas į sandėlį. Užsakymą išleidę į sandėlį, su tuo užsakymu galite dirbti tik prisijungę į skalės vienetą.
 
-Jei naudojate *paleidimo į sandėlį* procesą, sukuriami [*sandėlio užsakymai*](cloud-edge-warehouse-order.md) ir susijusios gavimo eigos nuosavybė priskiriama skalės vienetui. Centras nebegalės registruoti gavimo.
+Jei naudojate procesą *Paleisti į sandėlį*, sukuriami [*sandėlio užsakymai*](cloud-edge-warehouse-order.md) ir susijusios gavimo eigos nuosavybė priskiriama skalės vienetui. Centras nebegalės registruoti gavimo.
+
+Norėdami naudoti procesą *Išleisti į sandėlį* turite prisijungti prie šakotuvo. Norėdami jį paleisti arba suplanuoti, eikite į vieną iš šių puslapių:
+
+- **Įsigijimas ir šaltiniai > Pirkimo užsakymai > Visi pirkimo užsakymai > Sandėlis > Veiksmai > Išleisti į sandėlį**
+- **Sandėlio valdymas > Išleisti į sandėlį > Automatinis pirkimo užsakymų išleidimas**
+
+Naudodami funkciją **Automatinis pirkimo užsakymų išleidimas** galite pasirinkti konkrečias pirkimo užsakymo eilutes, grindžiamas užklausa. Įprastas scenarijus būtų nustatyti pasikartojančią paketinę užduotį, kuri išleidžia visas patvirtintas pirkimo užsakymo eilutes, kurias numatoma gauti kitą dieną.
 
 Darbuotojas gali vykdyti gavimo procesą naudodamas sandėlio programą, sujungtą su skalės vienetu. Duomenys tuomet įrašomi pagal skalės vienetą ir pranešami pagal gavimo sandėlio užsakymą. Tolesnio atidėjimo tvarkymas ir kūrimas taip pat bus tvarkomas pagal skalės vienetą.
 
@@ -222,7 +229,7 @@ Tolesnė lentelė rodo, kurios gavimo funkcijos palaikomos ir kada jos palaikomo
 | Pirkimo užsakymo eilutės perkėlimas ir atidėjimas                        | Taip | Ne |
 | Darbo (siuntimo) atšaukimas                                              | <p>Taip, kai nėra sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | <p>Taip, bet tik tada, kai <b>Išregistruoti gavimą atšaukiant darbą</b> parinktis (esanti <b>Sandėlio valdymo parametrų</b> puslapyje) yra išvalyta</p> |
 | Pirkimo užsakymo gamybos kvito tvarkymas                          | Taip | Ne |
-| Pirkimo užsakymo gavimas su pristatymo trūkumu                        | <p>Taip, kai nėra sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | Ne, nes galite atšaukti tik viso sandėlio užsakymo eilutės kiekius |
+| Pirkimo užsakymo gavimas su pristatymo trūkumu                        | <p>Taip, kai nėra sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | Taip, bet tik atšaukus užklausą iš šakotuvo |
 | Pirkimo užsakymas su pristatymo pertekliumi                        | <p>Taip, kai nėra sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | Taip  |
 | Gavimas su *Prekių skirstymo* darbo kūrimu                   | <p>Taip, kai nėra sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | Ne |
 | Gavimas su *Kokybės užsakymo* darbo kūrimu                  | <p>Taip, kai nėra sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | Ne |

@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 53c9d6343422f64aed74ce436bafd2c8b2ce1c3e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4e757ce585b16b23d65506068dcc337211107199
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680941"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568495"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“
 
@@ -28,12 +27,12 @@ ms.locfileid: "4680941"
 > [!NOTE]
 > Šią funkcija palaiko 7.2 arba vėlesnės versijos „Finance and Operations“.
 
-## <a name="introduction"></a>Įžanga
+## <a name="introduction"></a>Įvadas
 Šioje temoje rodoma, kaip įterpti „Microsoft Power BI“ ataskaitą darbo srities skirtuke **Analizė**. Čia pateiktame pavyzdyje išplėsime Transporto parko valdymo programos darbo sritį **Rezervacijų valdymas**, kad skirtuke **Analizė** galėtume įterpti analizės darbo sritį.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 + Prieiga prie projektuotojo terpės, kurioje veikia 8-asis ar naujesnis platformos atnaujinimas.
-+ Naudojant „Microsoft Power BI Desktop Dekstop“ programą sukurta analizės ataskaita (.pbix failas), kurioje yra iš objekto parduotuvės duomenų bazės gaunamas duomenų modelis.
++ Naudojant „Microsoft Power BI Desktop“ programą sukurta analizės ataskaita (.pbix failas), kurioje yra iš objekto parduotuvės duomenų bazės gaunamas duomenų modelis.
 
 ## <a name="overview"></a>Apžvalga
 Nesvarbu, ar išplečiate esamą, ar sukuriate naują asmeninę programos darbo sritį, informatyviems ir interaktyviems verslo duomenų rodiniams pristatyti galite naudoti įdėtuosius analizės rodinius. Analizės darbo srities įtraukimo procesą sudaro keturi veiksmai.

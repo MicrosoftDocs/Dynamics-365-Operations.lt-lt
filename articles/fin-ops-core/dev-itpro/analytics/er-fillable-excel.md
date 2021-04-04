@@ -3,10 +3,9 @@ title: Konfigūracijų kūrimas dokumentams „Excel“ formatu generuoti
 description: Šioje temoje apibūdinama, kaip kurti Elektroninės ataskaitos (ER) formatą, kad būtų galima pildyti „Excel“ šabloną, o tada generuoti siunčiamus „Excel“ formato dokumentus.
 author: NickSelin
 manager: AnnBe
-ms.date: 11/02/2020
+ms.date: 03/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c8d6a18741d57829d1929fb8362dc4ba8e03a1bd
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: a82afcdeb45bad79a008c3135ef332cf01c0b580
+ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5094034"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5574178"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfigūracijos, skirtos dokumentams „Excel“ formatu generuoti, kūrimas
 
@@ -54,7 +53,7 @@ Jei siunčiamą dokumentą norite generuoti „Excel“ formatu, į sukonfigūru
 Norėdami nurodyti siunčiamo dokumento maketą, prie komponento **Excel\\Failas** kaip siunčiamų dokumentų šabloną pridėkite „Excel“ darbaknygę, kurios plėtinys – .xlsx.
 
 > [!NOTE]
-> Kai šabloną pridedate neautomatiniu būdu, turite naudoti [dokumento tipą](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types), kuris buvo sukonfigūruotas tam tikslui [ER parametruose](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
+> Kai šabloną pridedate neautomatiniu būdu, turite naudoti [dokumento tipą](../../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md#configure-document-types), kuris buvo sukonfigūruotas tam tikslui [ER parametruose](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
 ![Priedo pridėjimas prie komponento „Excel\Failas“](./media/er-excel-format-add-file-component2.png)
 
@@ -140,6 +139,36 @@ Norėdami sužinoti daugiau, kaip įterpti paveikslėlius ir figūras, žr. [Vai
 
 Komponentas **Puslapio lūžis** priverčia programą „Excel“ pradėti naują puslapį. Šis komponentas nerekalingas, kai norite naudoti numatytąją „Excel“ puslapių kaitą, bet turite jį naudoti, jei norite, kad programa „Excel“ puslapių kaitai taikytų jūsų ER formatą.
 
+## <a name="footer-component"></a>Poraštės komponentas
+
+**Poraštė** komponentas naudojamas norint užpildyti poraštes sugeneruoto darbalapio „Excel” darbaknygėje apačioje.
+
+> [!NOTE]
+> Šį komponentą galite įtraukti į kiekvieną **Lapas** komponentą, kad sugeneruotoje „Excel” darbaknygėje būtų galima nurodyti skirtingas skirtingų darbalapių poraštes.
+
+Konfigūruodami atskirą **Poraštė** komponentą, galite naudoti **Antraštės / poraštės išvaizda** ypatybę, kad nurodytumėte puslapius, kuriuose poraštė naudojama. Galimos šios vertės:
+
+- **Bet kokia** – paleiskite sukonfigūruotą **Poraštė** komponentą, kuris skirtas bet kuriam pirminio „Excel” darbalapio puslapiui.
+- **Pirma** – paleiskite sukonfigūruotą **Poraštė** komponentą, kuris skirtas tik pirmam pirminio „Excel” darbalapio puslapiui.
+- **Lyginis** – paleiskite sukonfigūruotą **Poraštė** komponentą, kuris skirtas lyginiams pirminio „Excel” darbalapio puslapiams.
+- **Nelyginis** – paleiskite sukonfigūruotą **Poraštė** komponentą, kuris skirtas nelyginiams pirminio „Excel” darbalapio puslapiams.
+
+Vienam **Lapas** komponentui, galite pridėti kelis **Poraštė** komponentus, kurio kiekvieno **Antraštės / poraštės išvaizda** ypatybė turi skirtingą vertę. Tokiu būdu „Excel” darbalapyje galite sugeneruoti skirtingas skirtingo tipo puslapių poraštes.
+
+> [!NOTE]
+> Įsitikinkite, kad kiekvienas jūsų pridėtas **Poraštė** komponentas vienam **Lapas** komponentui turi skirtingą **Antraštės / poraštės išvaizda** ypatybės vertę. Priešingu atveju įvyksta [tikrinimo klaida](er-components-inspections.md#i16). Klaidos pranešimas, kurį gaunate, praneša apie nesutapimą.
+
+Po pridėto **Poraštė** komponentu pridėkite **Tekstas\\Eilutė**, **Tekstas\\Datos laikas** arba kito tipo būtinus įdėtus komponentus. Norėdami nurodyti, kaip užpildoma jūsų puslapio poraštė, sukonfigūruokite tų komponentų susiejimus.
+
+Taip pat galite naudoti specialius [formatavimo kodus](https://docs.microsoft.com/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) norėdami teisingai suformuoti sugeneruotos poraštės turinį. Norėdami sužinoti, kaip naudoti šį būdą, atlikite [1 pavyzdyje](#example-1) žemiau šioje temoje aprašytus veiksmus.
+
+> [!NOTE]
+> Konfigūruodami ER formatus, nepamirškite atsižvelgti į „Excel” [limitą](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) ir didžiausią vienos antraštės ar poraštės simbolių skaičių.
+
+## <a name="header-component"></a>Antraštės komponentas
+
+**Antraštė** komponentas naudojamas norint užpildyti antraštes sugeneruoto darbalapio „Excel” darbaknygėje viršuje. Jis naudojamas kaip **Poraštė** komponentas.
+
 ## <a name="edit-an-added-er-format"></a>Pridėto ER formato redagavimas
 
 ### <a name="update-a-template"></a>Šablono naujinimas
@@ -175,6 +204,48 @@ Kai sugeneruojamas siunčiamas dokumentas „Microsoft Excel“ darbaknygės for
     >[!NOTE]
     > Formulių perskaičiavimas neautomatiškai vykdomas, kai sugeneruotas dokumentas atidaromas peržiūrėti naudojant „Excel“.
     > Nenaudokite šios pasirinkties, jei konfigūruosite ER paskirties vietą, kuri naudoja sugeneruotą dokumentą jo neperžiūrėdama programoje „Excel“ (PDF konvertavimas, siuntimas el. paštu ir t.t.), kadangi sugeneruoto dokumento langeliuose, kuriuose yra formulių, gali nebūti reikšmių.
+
+## <a name="example-1-format-footer-content"></a><a name="example-1"></a>1 pavyzdys – formato poraštės turinys
+
+1. Naudokite pateiktas ER konfigūracijas [sugeneruoti](er-generate-printable-fti-forms.md) spausdintiną laisvos formos SF (FTI) dokumentą.
+2. Peržiūrėkite sugeneruoto dokumento poraštę. Atkreipkite dėmesį, kad joje yra informacijos apie dabartinio puslapio numerį ir bendrą dokumento puslapių skaičių.
+
+    ![Peržiūrėti sugeneruoto dokumento poraštę „Excel” formatu](./media/er-fillable-excel-footer-1.gif)
+
+3. ER formato kūrimo įrankyje, [atidarykite](er-generate-printable-fti-forms.md#features-that-are-implemented-in-the-sample-er-format) ER formato pavyzdį jį peržiūrėti.
+
+    **Sąskaita faktūra** darbalapio poraštė sugeneruota pagal dviejų **Eilutė** komponentų, priklausančių **Poraštė** komponentui, nustatymus:
+
+    - Pirmasis **Eilutė** komponentas užpildo šiuos specialius formatavimo kodus, dėl to „Excel” pritaikys specialų formatavimą:
+
+        - **&C** – lygiuoti poraštės tekstą centre.
+        - **& "Segoe UI,Reguliarus"&8** – pateikti poraštės tekstą "Segoe UI Regular"8 taškų šriftu.
+
+    - Antrasis **Eilutė** komponentas užpildo tekstą, kuriame yra dabartinis puslapio numeris ir bendras puslapių skaičius dabartiniame dokumente.
+
+    ![Peržiūrėkite ER formato komponento poraštę Formato kūrimo įrankio puslapyje](./media/er-fillable-excel-footer-2.png)
+
+4. Pritaikykite ER formato pavyzdį, kad modifikuotumėte dabartinę puslapio poraštę:
+
+    1. [Kurkite](er-quick-start2-customize-report.md#DeriveProvidedFormat) išvestinį **Laisvos formos teksto pasirinktinė SF (Excel)** ER formatą, pagrįstą ER formato pavyzdžiu.
+    2. Pridėkite primą naują **Eilutė** komponentų porą, skirtą **Poraštė** **Sąskaita faktūra** darbalapio komponentui:
+
+        1. Pridėkite **Eilutė** komponentą, sulygiuojantį įmonės pavadinimą kairėje ir pateikiantį "Segoe UI Regular" 8 dydžio šriftu (**"&L&"Segoe UI,Regular"&8"**).
+        2. Pridėkite **Eilutė** komponentą, užpildančią įmonės pavadinimą (**model.InvoiceBase.CompanyInfo.Name**).
+
+    3. Pridėkite antrą naują **Eilutė** komponentų porą, skirtą **Poraštė** **Sąskaita faktūra** darbalapio komponentui:
+
+        1. Pridėkite **Eilutė** komponentą, sulygiuojantį apdorojimo datą dešinėje ir pateikiantį "Segoe UI Regular" 8 dydžio šriftu (**"&R&"Segoe UI,Regular"&8"**).
+        2. Pridėkite **Eilutė** komponentą, užpildantį apdorojimo datą pasirinktame formate (**"&nbsp;„&DATEFORMAT(SESSIONTODAY(), „metai-mėnuo-diena”)**).
+
+        ![ER formato komponento poraštės Formato kūrimo įrankio puslapyje peržiūra](./media/er-fillable-excel-footer-3.png)
+
+    4. [Užpildykite](er-quick-start2-customize-report.md#CompleteDerivedFormat) išvestinę **Laisvos formos teksto pasirinktinė SF (Excel)** ER formato juodraščio versiją.
+
+5. [Sukonfigūruokite](er-generate-printable-fti-forms.md#configure-print-management) spausdinimo tvarkymą, kad pasinaudotumėte išvestine **Laisvos formos teksto pasirinktinė SF (Excel)** ER formato versija, o ne ER formato pavyzdžiu.
+6. Sugeneruokite spausdintiną FTI dokumentą ir peržiūrėkite sugeneruoto dokumento poraštę.
+
+    ![Sugeneruoto dokumento poraštę „Excel” formatu poraštės peržiūra](./media/er-fillable-excel-footer-4.gif)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

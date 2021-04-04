@@ -3,7 +3,7 @@ title: Atostogų prašymų valdymas „Teams“
 description: Šioje temoje parodyta, kaip prašyti išleisti iš darbo programoje „Dynamics 365 Human Resources“ naudojant „Microsoft Teams“.
 author: andreabichsel
 manager: tfehr
-ms.date: 10/28/2020
+ms.date: 02/23/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 342106ad09db3a5d9c2dec8ab18e824d70e0f6bf
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 79bded5a241a8d5de1847adff3e663359ce1b26f
+ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5128166"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5571733"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Atostogų prašymų valdymas „Teams“
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-„Microsoft Teams“ veikianti programa „Microsoft Dynamics 365 Human Resources“ leidžia greitai prašyti išleisti iš darbo ir peržiūrėti savo ne darbo laiko balanso informaciją programoje „Microsoft Teams“. Galite sąveikauti su robotu, kad prašytumėte informacijos ir pradėtumėte atostogų užklausą. Skirtuke **Ne darbo laikas** pateikiama išsamesnė informacija. Galite taip pat nusiųsti asmenų informacija apie jūsų ateinantį nebuvimo laiką komandose ir pokalbius ne žmogiškųjų išteklių programoje.
+„Microsoft Teams“ veikianti programa „Dynamics 365 Human Resources“ leidžia greitai prašyti išleisti iš darbo ir peržiūrėti savo ne darbo laiko balanso informaciją programoje „Microsoft Teams“. Galite sąveikauti su robotu, kad prašytumėte informacijos ir pradėtumėte atostogų užklausą. Skirtuke **Ne darbo laikas** pateikiama išsamesnė informacija. Galite taip pat nusiųsti asmenų informacija apie jūsų ateinantį nebuvimo laiką komandose ir pokalbius ne personalo programoje.
 
 ## <a name="install-the-app"></a>Programos diegimas
 
-Programą „Human Resources“ galite rasti „Teams“ parduotuvėje.
+Programą „Dynamics 365 Human Resources“ galite rasti „Teams“ parduotuvėje.
 
 1. Programoje „Microsoft Teams“ pasirinkite daugtaškius.
 
@@ -70,29 +70,21 @@ Kai programa įdiegiama, rodomas pasveikinimo pranešimas, kuriame informuojama,
 
 Roboto galite prašyti toliau pateiktų dalykų.
 
-- Rodyti kiekvieno atostogų tipo, kuriam esate užsiregistravę, ne darbo laiko balanso informaciją.
-
-   ![„Human Resources Teams“ atostogų programos rodomi balansai](./media/hr-teams-leave-app-bot-balances.png)
- 
-- Rodyti papildomą informaciją apie konkretų atostogų tipą.
-
-   ![„Human Resources Teams“ atostogų programos rodoma informacija](./media/hr-teams-leave-app-bot-details.png)
-
 - Pateikti atostogų prašymą už jus.
 
-   ![„Human Resources Teams“ atostogų programos atostogų prašymas](./media/hr-teams-leave-app-bot-request.png)
- 
-Pateikus atostogų užklausą, galite koreguoti dienas pačioje kortelėje.
+  ![Atostogų užklausos paleidimas komandos pokalbyje](./media/hr-teams-leave-app-initiate.png)
 
-![„Human Resources Teams“ atostogų programos redagavimo prašymas](./media/hr-teams-leave-app-bot-edit.png)
- 
-Kai užpildysite visą informaciją, pasirinkite **Pateikti**, kad pateiktumėte patvirtinimą. Taip pat galite pasirinkti **Įrašyti kaip juodraštį** ir grįžti prie jo vėliau.
+- Pokalbių robotas jums užpildys prašymą išeiti atostogų. Pasirinkite **Prašyti išleisti iš darbo** ir redaguokite savo prašymo duomenis.
 
-![„Human Resources Teams“ atostogų programos prašymo pateikimas](./media/hr-teams-leave-app-bot-submit.png)
+  ![Prašymo išeiti atostogų duomenų redagavimas](./media/hr-teams-leave-app-details.png)
+
+- Kai baigsite redaguoti savo prašymo išeiti atostogų duomenis, pasirinkite **Pateikti** ir pateikite jį patvirtinti.
+
+  ![Prašymo išeiti atostogų pateikimas](./media/hr-teams-leave-app-submit.png)
 
 ## <a name="manage-your-leave-in-teams"></a>Atostogų valdymas programoje „Teams“
 
-Skirtuke **Ne darbo laikas** galite peržiūrėti:
+Skirtuke **Ne darbo laikas** galite peržiūrėti: 
 
 - Kiekvieno atostogų tipo, kuriam esate užsiregistravę, balanso informaciją
 
@@ -164,21 +156,51 @@ Jeigu esate vadovas, valdantis tiesiogines ataskaitas, galite peržiūrėti jūs
 
 1. „Human Resources“ programoje „Teams“ pasirinkite **Ne darbo laikas**.
 
-2. Pasirinkite **Komandos kalendorius**.
+2. Pasirinkite **Komandos kalendorius**. Kalendorius rodo jūsų tiesioginių ataskaitų patvirtintą ir laukiamą ne darbo laiką.
 
    ![Kalendoriaus peržiūra „Human Resources Teams“ programoje](./media/hr-teams-leave-app-view-calendar.png)
 
-Kalendorius rodo jūsų tiesioginių ataskaitų patvirtintą ir laukiamą ne darbo laiką.
+   > [!NOTE]
+   > Jei nematote komandos kalendoriaus, paprašykite savo administratoriaus, kad jį įjungtų Daugiau informacijos žr. skyriuje [Diegimas ir sąranka](hr-admin-teams-leave-app.md#install-and-setup).
 
-![Ne darbo laiko kalendorius „Human Resources Teams“ programoje](./media/hr-teams-leave-app-calendar.png)
+## <a name="supported-languages"></a>Palaikomos kalbos
+
+Programa „Dynamics 365 Human Resources“ komandose palaiko šias kalbas:
+
+| Vietos ID | Kalba |
+| --- | --- |
+| de-DE | Vokiečių (Vokietija) |
+| es-ES | Ispanų (Ispanija) |
+| es-MX | Ispanų (Meksika) |
+| fr-CA | Prancūzų (Kanada) |
+| fr-FR | Prancūzų (Prancūzija) |
+| it-IT | Italų (Italija) |
+| nl-NL | Olandų (Nyderlandai) |
+| pt-BR | Portugalų (Brazilija) |
+| tr-TR | Turkų (Turkija) |
+| zh-CN | Kinų (supaprastintoji) |
 
 ## <a name="troubleshooting"></a>Trikčių šalinimas
 
-Jei kyla problemų prisijungiant arba naudojant „Human Resources Teams“ programą, bandykite vadovautis šiomis trikčių šalinimo instrukcijomis. Jei atlikus trikčių šalinimą problemų vis dar nepavyko išspręsti, kreipkitės į pagalbos tarnybą. Norėdami gauti daugiau informacijos, [Gauti pagalbos](hr-admin-troubleshooting-support.md).
+Jei kyla problemų prisijungiant arba naudojant „Dynamics 365 Human Resources“ programą, bandykite vadovautis šiomis trikčių šalinimo instrukcijomis. Jei atlikus trikčių šalinimą problemų vis dar nepavyko išspręsti, kreipkitės į pagalbos tarnybą. Norėdami gauti daugiau informacijos, [Gauti pagalbos](hr-admin-troubleshooting-support.md).
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Nepavyksta prisijungti prie „Teams“ programos „Human Resources“
 
 Jei negalite prisijungti prie programos, gali būti, kad paskyra, kurią naudojate prisijungimui prie „Microsoft Teams“, nėra susieta su darbuotojo įrašu „Dynamics 365 Human Resources“. Kreipkitės į sistemos administratorių, kad įsitikintumėte, kad jūsų darbuotojo įrašas yra tinkamai susietas.
+
+### <a name="translations-dont-display-correctly"></a>Vertimai rodomi neteisingai
+
+Jei vertimai nerodomi taip, kaip turėtų, patikrinkite, ar kalba, kurią pasirinkote komandose, sutampa su kalba, kurią pasirinkote personalo skiltyje **Naudotojo parinktys**.
+
+Komandose peržiūrėkite **Programos kalba**, dalyje **Nustatymai**.
+
+![Komandų nustatymai](./media/hr-teams-leave-app-settings.png)
+
+Personalo dalyje pasirinkite **Nustatymai**, o tada pasirinkite **Naudotojo parinktys**. Patikrinkite, ar laukelis **Kalba** sutampa su komandų laukeliu **Programos kalba**.
+
+![Personalo naudotojo parinktys](./media/hr-teams-leave-app-user-options.png)
+
+Jei vis dar kyla problemų dėl vertimo, praneškite mums. Išsamesnės informacijos, žr. skyriuje [Gauti pagalbą „Finance and Operations“ programoms arba „Lifecycle Services (LCS)“](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-support?toc=/dynamics365/human-resources/toc.json).
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Klaida tvirtinant atostogų prašymus „Teams“ programoje „Human Resources“
 
@@ -198,7 +220,6 @@ Jei gaunate klaidą, kai bandote patvirtinti atostogų užklausas „Teams“ pr
 | Skirtuke **Nebuvimo laikas** perėmimas praneša mygtuko veiksmą skaitant antraštę iš nebuvimo tinklelio. | Antraštė ir elementai tinklelyje yra sugrupuoti pagal metus ir jie gali pradingti. Perėmimas interpretuoja tai kaip įjungiamą prekę, bet taip nėra. |
 | Skirtuke **Nebuvimas** yra papildomas paslinkimo gestas naršant į **Priežasties kodą** naujame prašyme. | Nėra jokio paslėpto valdiklio, kurį bando gauti paslinkimo naršymas. |
 | Skirtuke **Nebuvimas** jums paslinkus, kai yra atidarytas kalendorius, baigsite ne valdiklyje, o naujos užklausos viršuje arba redaguodami užklausą. | Jums pasiekus **Eiti šiandien**, pagalvokite apie valdiklio pabaigą ir paslinkite atgaline kryptimi, kad grįžtumėte į viršų. |
-| Perėmimas nenuskaito datų žymų. | Datos yra skaitomos poromis ir visada yra **Pradžios data** ir **Pabaigos data**. |
 | Skirtuke **Pokalbis** koncentravimasis nušoka atgal į viršų jums įvedant datą ir naudojant padedantį įrankį ar klaviatūros naršymą. | Naudokite skirtuką, kol pasieksite savo įvesties sritį dar kartą. |
 
 ## <a name="privacy-notice"></a>Privatumo pranešimas

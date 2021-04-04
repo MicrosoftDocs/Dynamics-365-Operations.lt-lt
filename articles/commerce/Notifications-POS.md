@@ -3,7 +3,7 @@ title: Užsakymų pranešimų rodymas elektroniniame kasos aparate (EKA)
 description: Šioje temoje aprašyta, kaip įjungti užsakymų pranešimų rodymą elektroniniame kasos aparate ir pranešimų sistemoje.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 04/30/2019
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -16,46 +16,54 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c3b8e2774a189f2afefa757e7c4f3885b674918c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5ea902b5d65f806fc88e688d10bdad9ae75611ef
+ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976793"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5585087"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Užsakymų pranešimų rodymas elektroniniame kasos aparate (EKA)
 
 [!include [banner](includes/banner.md)]
 
-Modernioje mažmeninės prekybos aplinkoje parduotuvės atstovams priskiriamos įvairios užduotys, pvz., pagalba klientams, operacijų įvedimas, inventorizacijos atlikimas ir užsakymų parduotuvėje priėmimas. Elektroninio kasos aparato (EKA) klientas – tai viena programa, kurioje atstovai gali atlikti visas šias užduotis ir daug kitų. Kadangi per dieną reikia atlikti įvairias užduotis, gali reikėti, kad atstovams būtų pranešama, kai kažkam reikia skirti dėmesio. EKA pranešimų sistema mažmenininkams padeda leisdama konfigūruoti pranešimus pagal vaidmenį. „Dynamics 365 for Retail“, turinčiam 5 programos naujinį, šie pranešimai gali būti sukonfigūruoti tik vykdant EKA operacijas.
+Parduotuvės atstovams gali būti priskirtos įvairios parduotuvės užduotys, pvz., užsakymų vykdymas arba atsargų gavimo ar inventorizacijos atlikimas. Elektroninio kasos aparato (EKA) klientas – tai viena programa, kurioje atstovams gali būti pranešta apie visas šias užduotis. EKA pranešimų sistema mažmenininkams padeda leisdama konfigūruoti pranešimus pagal vaidmenį. Programoje „Dynamics 365 Retail“ su 5 programos naujinimu šiuos pranešimus galima konfigūruoti EKA operacijoms.
 
+Sistema gali rodyti *užsakymo vykdymo* operacijos pranešimus, o „Commerce“ versijoje 10.0.18 taip pat gali būti rodomi *užsakymo atšaukimo* operacijos pranešimai. Tačiau kadangi sistema sukurta taip, kad ją būtų galima išplėsti, programuotojai gali [parašyti bet kokios operacijos pranešimų apdorojimo programą](dev-itpro/extend-pos-notification.md) ir tos operacijos pranešimus rodyti el. kasos aparate.
 
-Šiuo metu sistema gali rodyti tik pranešimus apie užsakymų vykdymo operacijas. Tačiau kadangi sistema sukurta taip, kad ją būtų galima išplėsti, programuotojai ilgainiui galės parašyti bet kokios operacijos pranešimų apdorojimo programą ir tos operacijos pranešimus rodyti el. kasos aparate.
+## <a name="enable-notifications-for-order-fulfillment-or-recall-order-operations"></a>Užsakymo įvykdymo ar atšaukimo operacijų pranešimų įjungimas
 
-## <a name="enable-notifications-for-order-fulfillment-operations"></a>Užsakymo įvykdymo operacijų pranešimų įjungimas
+Norėdami įjungti užsakymų vykdymo ar atšaukimo operacijų pranešimus, atlikite toliau nurodytus veiksmus.
 
-Norėdami įjungti užsakymų vykdymo operacijų pranešimus, atlikite toliau nurodytus veiksmus.
+1. Eikite į **„Retail” ir „Commerce” \> Kanalo sąranka \> EKA sąranka \> EKA \> Operacijos**.
+1. Suraskite operaciją **Užsakymo vykdymas** arba **Atšaukti užsakymą** ir tada pasirinkite operacijos parinktį **Įjungti pranešimus**, kad nurodytumėte, jog pranešimų sistema turi klausyti šios operacijos apdorojimo programos. Jei apdorojimo programa įdiegta, tada šios operacijos pranešimai bus rodomi el. kasos aparate.
+1. Eikite į **„Retail“ ir „Commerce“ \> Darbuotojai \> Darbininkai**.
+1. Pasirinkite skirtuką **„Commerce”**, darbuotojo eilutę ir tada – **EKA teisės**. Pasirinkite „FastTab” **Pranešimai**, kad jį išplėstumėte, tada įtraukite operacijas, kurių pranešimus įgalinote. Jei konfigūruojamas vienas darbuotojo pranešimas, įsitikinkite, kad nustatyta reikšmė **Rodymo tvarka** nustatyta į **1**. Konfigūruodami daugiau nei vieną operaciją, nustatykite vertes **Rodymo tvarka**, kad nurodytumėte tvarką, kuria turi būti rodomi pranešimai. 
 
-1. Eikite į **„Retail and Commerce“** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA** &gt; **Operacijos**.
-2. Suraskite operaciją **Užsakymų vykdymas** ir prie jos pažymėkite žymės langelį **Įjungti pranešimus**, kad nurodytumėte, jog pranešimų sistema turi klausyti šios operacijos apdorojimo programos. Jei apdorojimo programa įdiegta, tada šios operacijos pranešimai bus rodomi el. kasos aparate.
-3. Skirtuke „Commerce“ eikite į **„Retail and Commerce“** &gt; **Darbuotojai** &gt; **Darbininkai** &gt; ir atidarykite su darbuotoju susijusius EKA leidimus. Išplėskite „FastTab“ **Pranešimai**, įtraukite operaciją **Užsakymų vykdymas** ir lauką **Rodymo tvarka** nustatykite kaip **1**. Jei sukonfigūruotas daugiau nei vienas pranešimas, šis laukas naudojamas išdėstyti pranešimus. Pranešimai, kurių lauko **Rodymo tvarka** reikšmė yra mažesnė, rodomi virš pranešimų, kurių reikšmė didesnė. Pranešimai, kurių lauko **Rodymo tvarka** reikšmė yra **1**, rodomi viršuje.
-
-    Pranešimai rodomi tik apie tas operacijas, kurios yra įtrauktos į „FastTab“ **Pranešimai**, ir ten įtraukti operacijų galite, tik jei puslapyje **EKA operacijos** prie tų operacijų pažymėtas žymės langelis **Įjungti pranešimus**. Be to, pranešimai apie tam tikrą operaciją darbininkams rodomi, tik jei ta operacija įtraukta į tų darbininkų EKA teises.
+      Rodomi tik operacijų, kurios įtrauktos į „FastTab” **Pranešimai**, pranešimai. Ten operacijas galite įtraukti tik tada, jei tų operacijų žymės langeliai **Įgalinti pranešimus** yra pasirinkti puslapyje **EKA operacijos**. Be to, pranešimai apie tam tikrą operaciją darbininkams rodomi, tik jei ta operacija įtraukta į tų darbininkų EKA teises.
 
     > [!NOTE]
-    > Pranešimų galima nepaisyti vartotojo lygiu. Atidarykite darbininko įrašą, pasirinkite **EKA teisės** ir redaguokite vartotojo pranešimų prenumeratą.
+    > Pranešimų galima nepaisyti vartotojo lygiu. Norėdami tai atlikti, atidarykite darbininko įrašą, pasirinkite **EKA teisės** ir redaguokite vartotojo pranešimų prenumeratą.
 
-4. Eikite į **„Retail and Commerce“** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA profiliai** &gt; **Funkcionalumo profiliai**. Lauke **Pranešimų intervalas** nurodykite, kaip dažnai turi būti rodomi pranešimai. Dėl kai kurių pranešimų EKA turi realiuoju laiku kreiptis į tarnybinio biuro programą. Tokie kreipimaisi naudoja jūsų tarnybinio biuro programos skaičiavimo pajėgumus. Todėl, nustatydami pranešimų intervalą, turite atsižvelgti į savo verslo poreikius ir kreipimųsi realiuoju laiku poveikį tarnybinio biuro programai. Reikšmė **0** (nulis) pranešimus išjungia.
-5. Eikite į **„Retail and Commerce“** &gt; **„Retail and Commerce IT“** &gt; **Paskirstymo grafikas**. Pasirinkite grafiką **1060** (**Darbuotojai**), kad sinchronizuotumėte pranešimų prenumeratos parametrus, tada pasirinkite **Vykdyti dabar**. Tada pasirinkite grafiką **1070** (**Kanalo konfigūravimas**), kad sinchronizuotumėte teisių intervalą, tada pasirinkite **Vykdyti dabar**.
+1. Eikite į **„Retail and Commerce“\> Kanalo sąranka \> EKA sąranka \> EKA profiliai \> Funkcionalumo profiliai**. Lauke **Pranešimų intervalas** nurodykite, kaip dažnai turi būti rodomi pranešimai. Dėl kai kurių pranešimų EKA turi realiuoju laiku kreiptis į tarnybinio biuro programą. Tokie kreipimaisi naudoja jūsų tarnybinio biuro programos skaičiavimo pajėgumus. Todėl, nustatydami pranešimų intervalą, turite atsižvelgti į savo verslo poreikius ir kreipimųsi realiuoju laiku poveikį tarnybinio biuro programai. Reikšmė **0** (nulis) pranešimus išjungia.
+1. Eikite į **Mažmeninė prekyba ir prekyba \> Mažmeninės prekybos ir prekybos IT \> Paskirstymo grafikas**. Pasirinkite grafiką **1060** (**Darbuotojai**), kad sinchronizuotumėte pranešimų prenumeratos parametrus, tada pasirinkite **Vykdyti dabar**. Tada pasirinkite grafiką **1070** (**Kanalo konfigūravimas**), kad sinchronizuotumėte teisių intervalą, tada pasirinkite **Vykdyti dabar**.
 
 ## <a name="view-notifications-in-the-pos"></a>Pranešimų peržiūra el. kasos aparate
 
-Jums atlikus ankstesnius veiksmus, darbininkai el. kasos aparate galės peržiūrėti pranešimus. Norėdami peržiūrėti pranešimus, spustelėkite viršutiniame dešiniajame EKA kampe esančią pranešimų piktogramą. Rodomas pranešimų centras, kuriame rodomi užsakymų vykdymo operacijos pranešimai. Pranešimų centras turėtų rodyti toliau nurodytas užsakymų vykdymo operacijos grupes.
+Jums atlikus ankstesnius veiksmus, darbininkai el. kasos aparate galės peržiūrėti pranešimus. Norėdami peržiūrėti pranešimus, spustelėkite viršutiniame dešiniajame EKA kampe esančią pranešimų piktogramą. Atsiranda pranešimų sritis, kurioje rodomi pranešimai apie darbuotojui sukonfigūruotas operacijas. 
 
-- **Paėmimas parduotuvėje** – šioje grupėje rodomas užsakymų, kurių pristatymo būdas **Paėmimas**, o paėmimas suplanuotas dabartinėje parduotuvėje, skaičius. Galite paspausti grupėje rodomą skaičių, kad atidarytumėte puslapį **Užsakymų vykdymas**. Tokiu atveju puslapis bus filtruojamas, kad jame būtų rodomi tik aktyvūs užsakymai, kuriuos nustatyta paimti iš dabartinės parduotuvės.
-- **Siųsti iš parduotuvės** – šioje grupėje rodomas užsakymų, kurių pristatymo būdas **Siuntimas**, o siuntimas suplanuotas iš dabartinės parduotuvės, skaičius. Galite paspausti grupėje rodomą skaičių, kad atidarytumėte puslapį **Užsakymų vykdymas**. Tokiu atveju puslapis bus filtruojamas, kad jame būtų rodomi tik aktyvūs užsakymai, kuriuos nustatyta siųsti iš dabartinės parduotuvės.
+Pranešimų sritis rodys toliau nurodytas **užsakymo vykdymo** operacijos grupes.
 
-Kai parduotuvei priskiriami nauji vykdytini užsakymai, pranešimų piktograma pasikeičia ir nurodo, kad yra naujų pranešimų, o atitinkamose grupėse rodomas skaičius atnaujinamas. Nors grupės atnaujinamos reguliariai, EKA vartotojai gali bet kada grupes atnaujinti rankiniu būdu, pasirinkdami prie grupės esantį mygtuką **Atnaujinti**. Galiausiai, jei grupėje yra nauja prekė, kurios darbininkas neperžiūrėjo, grupėje rodomas sprogimo simbolis, nurodantis naują turinį.
+- **Paėmimas parduotuvėje** – šioje grupėje rodomas atskirų užsakymo eilučių, kurių paėmimas suplanuotas dabartinėje parduotuvėje, skaičius. Galite pasirinkti grupės numerį, kad operacija **Užsakymo vykdymas** būtų atidaryta naudojant filtrą, kad joje būtų rodomos tik aktyvios užsakymo eilutės, nustatytos paėmimui iš dabartinės parduotuvės.
+- **Siųsti iš parduotuvės** – šioje grupėje rodomas atskirų užsakymų eilučių, sukonfigūruotų siuntimui iš dabartinės vartotojo parduotuvės, skaičius. Galite pasirinkti grupės numerį, kad operacija **Užsakymo vykdymas** būtų atidaryta naudojant filtruotą rodinį, kad joje būtų rodomos tik aktyvios užsakymo eilutės, nustatytos siuntimui iš dabartinės parduotuvės.
+
+Pranešimų sritis rodys toliau nurodytas **užsakymo atšaukimo** operacijos grupes.
+
+- **Užsakymai, kuriuos reikia įvykdyti** – ši grupė nurodo užsakymų, sukonfigūruotų paėmimui iš dabartinės vartotojo parduotuvės arba siuntimui iš jos, skaičių. Galite pasirinkti grupės numerį, kad operacija **Atšaukti užsakymą** būtų atidaryta naudojant filtruotą rodinį, rodantį tik tuos atidarytus užsakymus, kuriuos turi įvykdyti dabartinė vartotojo parduotuvė, naudodama paėmimo iš parduotuvės arba siuntimo iš parduotuvės scenarijų.
+- **Užsakymai, kuriuos reikia paimti** – šioje grupėje rodomas užsakymų, kurių paėmimas suplanuotas dabartinėje parduotuvėje, skaičius. Galite pasirinkti grupės numerį, kad operacija **Atšaukti užsakymą** būtų atidaryta naudojant filtruotą rodinį, rodantį tik tuos atidarytus užsakymus, kuriuos turi paimti iš dabartinės vartotojo parduotuvės.
+- **Užsakymai, kuriuos reikia išsiųsti** – šioje grupėje rodomas užsakymų, kuriuos reikia išsiųsti iš dabartinės vartotojo parduotuvės, skaičius. Galite pasirinkti grupės numerį, kad operacija **Atšaukti užsakymą** būtų atidaryta naudojant filtruotą rodinį, rodantį tik tuos atidarytus užsakymus, kuriuos turi išsiųsti iš dabartinės vartotojo parduotuvės.
+
+Tiek užsakymo vykdymo, tiek užsakymo atšaukimo pranešimo atveju, kai nauji užsakymai paimami proceso metu, pranešimo piktograma pasikeičia, siekiant nurodyti, kad yra naujų pranešimų ir kad atnaujinamas atitinkamų grupių skaičius. Nors grupės atnaujinamos reguliariai, EKA vartotojai gali bet kada grupes atnaujinti rankiniu būdu, pasirinkdami prie grupės esantį mygtuką **Atnaujinti**. Galiausiai, jei grupėje yra nauja prekė, kurios darbininkas neperžiūrėjo, grupėje rodomas sprogimo simbolis, nurodantis naują turinį.
 
 ## <a name="enable-live-content-on-pos-buttons"></a>Tiesioginio turinio įjungimas ant EKA mygtukų
 
@@ -70,12 +78,10 @@ Tolesnėje iliustracijoje rodomi tiesioginio turinio parametrai mygtukyno dizain
 
 Norėdami rodyti pranešimų skaičių ant mygtuko, turite užtikrinti, kad būtų atnaujintas teisingas ekrano maketas. Norėdami nustatyti ekrano maketą, kurį naudos EKA, viršutiniame dešiniajame kampe pasirinkite piktogramą **Parametrai** ir įsidėmėkite **Ekrano maketo ID** ir **Maketo skiriamąją gebą**. Dabar naudodami naršyklę „Edge“ eikite į puslapį **Ekrano maketas**, suraskite anksčiau įsidėmėtą **Ekrano maketo ID** ir **Maketo skiriamąją gebą** ir pažymėkite žymės langelį **Įjungti tiesioginį turinį**. Eikite į **„Retail and Commerce“ \> „Retail and Commerce IT“ \> Paskirstymo grafikas** ir paleiskite 1090 (registrai) užduotį, kad susinchronizuotumėte maketo pakeitimus.
 
-
 ![Raskite EKA naudojamą ekrano maketą](./media/Choose_screen_layout.png "Raskite ekrano maketą")
 
 Tolesnėje iliustracijoje rodoma, kaip įvairių dydžių mygtukus veikia lauko **Turinio lygiuotė** parinktys **Viršuje, dešinėje** ir **Centre**.
 
 ![Tiesioginis turinys EKA mygtukuose](./media/ButtonsWithLiveContent.png "Tiesioginis turinys EKA mygtukuose")
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

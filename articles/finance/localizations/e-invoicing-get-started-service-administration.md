@@ -3,7 +3,7 @@ title: Pradėti su elektroninės sąskaitos priedo paslaugų administravimu
 description: Ši tema paaiškina, kaip pradėti su elektroninės sąskaitos priedo paslaugų administravimu.
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 111ec65aa826795125d4a9ce835f72e1a0f41b7b
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 05b00380cec7511adad2467d3f252799a4aaee5c
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104413"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592531"
 ---
 # <a name="get-started-with-electronic-invoicing-add-on-service-administration"></a>Pradėti su elektroninės sąskaitos priedo paslaugų administravimu
 
@@ -35,7 +35,7 @@ ms.locfileid: "5104413"
 Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išankstines sąlygas:
 
 - Turite turėti savo „Microsoft Dynamics Lifecycle Services“ (LCS) paskyrą.
-- Turite turėti LCS projektą, kuris apima versiją 10.0.13 ar vėlesnę „Microsoft Dynamics 365 Finance“ ir „Dynamics 365 Supply Chain Management“. Taip pat, šios programos turi būti talpintos vienoje iš tolesnių „Azure“ geografijų:
+- Turite turėti LCS projektą, kuris apima versiją 10.0.17 ar vėlesnę „Microsoft Dynamics 365 Finance“ ir „Dynamics 365 Supply Chain Management“. Taip pat, šios programos turi būti talpintos vienoje iš tolesnių „Azure“ geografijų:
 
     - Rytų JAV
     - Vakarų JAV
@@ -52,6 +52,13 @@ Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išanksti
 2. Rinkitės **Išankstinis funkcijos valdymo** plytelę.
 3. Skyriuje **Viešo išankstinio rodymo funkcijos** rinkitės **el. sąskaitų paslaugos**.
 4. Įsitikinkite, kad **Išankstinės funkcijos įjungimas** parinktis yra nustatyta į **Taip**.
+5. LCS skelbimų lentoje pasirinkite LCS diegimo projektą. Turi būti vykdomas LCS projektas.
+7. „FastTab“ skirtuke **Aplinkos papildiniai** pasirinkite **Diegti naują papildinį**.
+8. Pasirinkite **El. SF paslaugos** ir laukelyje **AAD programos ID** įveskite **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Tai – fiksuota vertė.
+10. Lauke **AAD nuomotojo ID** įveskite savo „Azure” prenumeratos abonemento savininko ID.
+11. Peržiūrėkite sąlygas ir nuostatas, o tada pažymėkite žymės langelį.
+12. Pasirinkti **Diegti**.
+
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-the-electronic-invoicing-add-on"></a>Nustatykite parametrus RCS integravimui su elektroninės sąskaitos priedu
 
@@ -73,7 +80,7 @@ Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išanksti
 ## <a name="create-key-vault-secret"></a>Kurkite pagrindinį raktą
 
 1. Prisijunkite prie jūsų RCS abonemento.
-2. Darbo srityje **Globalizavimo funkcija** rinkitės **Aplinka** skyriuje rinkitės **E-sąskaitos** pavadinimą.
+2. Darbo srities **Globalizacijos funkcijos** dalyje **Aplinka** pasirinkite plytelę **Elektroninių SF išrašymo priedas**.
 3. Puslapyje **Aplinkos nustatymai** veiksmų juostoje rinkitės **Paslaugų aplinka** ir tada rinkitės **Pagrindiniai parametrai**.
 4. Pasirinkite **Naujas** jei norite sukurti rakto saugyklos slaptą.
 5. **Pavadinimas** laukelyje įveskite pagrindinės talpyklos pavadinimą. Lauke **Aprašas** įveskite aprašą.
@@ -82,22 +89,31 @@ Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išanksti
 
 ## <a name="create-storage-account-secret"></a>Kurti Saugyklos paskyros raktą
 
-1. **Rakto saugyklos parametrų** puslapyje, skyriuje **Sertifikatai** pasirinkite **Įtraukti**.
-2. **Pavadinimas** laukelyje įveskite tą patį talpyklos paskyros raktą. Lauke **Aprašas** įveskite aprašą.
-3. Lauke **Tipas** pasirinkite **Sertifikatas**.
-4. Pasirinkite **Įrašyti** ir uždarykite puslapį.
+1. Eikite į **Sistemos administravimas** > **Sąranka** > **Raktų saugyklos parametrai** ir pasirinkite slaptą raktų saugyklą.
+2. Skyriuje **Sertifikatai** pasirinkite **Pridėti**.
+3. Laukelyje **Pavadinimas** įveskite slaptos saugyklos paskyros pavadinimą ir laukelyje **Aprašas** įveskite aprašą.
+4. Lauke **Tipas** pasirinkite **Sertifikatas**.
+5. Pasirinkite **Įrašyti** ir uždarykite puslapį.
+
+## <a name="create-a-digital-certificate-secret"></a>Slapto skaitmeninio sertifikato kūrimas
+
+1. Eikite į **Sistemos administravimas** > **Sąranka** > **Raktų saugyklos parametrai** ir pasirinkite slaptą raktų saugyklą.
+2. Skyriuje **Sertifikatai** pasirinkite **Pridėti**.
+3. Laukelyje **Pavadinimas** įveskite slapto skaitmeninio sertifikato pavadinimą ir laukelyje **Aprašas** įveskite aprašą.
+4. Lauke **Tipas** pasirinkite **Sertifikatas**.
+5. Pasirinkite **Įrašyti** ir uždarykite puslapį.
 
 ## <a name="create-an-electronic-invoicing-add-on-environment"></a>Elektroninių SF išrašymo priedo aplinkos kūrimas
 
 1. Prisijunkite prie jūsų RCS abonemento.
-2. Darbo srityje **Globalizavimo funkcija** rinkitės **Aplinka** skyriuje rinkitės **E-sąskaitos** pavadinimą.
+2. Darbo srities **Globalizacijos funkcijos** dalyje **Aplinka** pasirinkite plytelę **Elektroninių SF išrašymo priedas**.
 
 ## <a name="create-a-service-environment"></a>Aptarnavimo aplinkos kūrimas
 
-1. **Aplinkos nustatymų** puslapyje, veiksmų juostoje pasirinkite **Aptarnavimo aplinka**.
+1. Puslapyje **Aplinkos nustatymai**, veiksmų juostoje pasirinkite **Aptarnavimo aplinka**.
 2. Pasirinkite **Nauja**, kad sukurtumėte naują paslaugų aplinką.
 3. **Pavadinimas** laukelyje įveskite vietos elektroninių sąskaitų aplinkos pavadinimą. Lauke **Aprašas** įveskite aprašą.
-4. **Talpyklos SAS atpažinimo rakto** lauke pasirinkite sertifikato, kuris turi būti naudojamas, jei norima autentifikuoti prieigą prie saugyklos sąskaitos, pavadinimą.
+4. **Talpyklos SAS atpažinimo rakto** lauke pasirinkite slaptos saugyklos paskyros, kuri turi būti naudojama, jei norima autentifikuoti prieigą prie saugyklos sąskaitos, pavadinimą.
 5. Skyriuje **Vartotojai** rinkitės **Įtraukti** norėdami įtraukti vartotoją, kuriam leidžiama pateikti elektronines SF naudojant aplinką, ir taip pat prisijungti prie saugojimo sąskaitos.
 6. Lauke **Vartotojo ID** įveskite vartotojo pravardę. Lauke **El. paštas** įveskite vartotojo el. pašto adresą.
 7. Pasirinkite **Įrašyti**.

@@ -3,10 +3,9 @@ title: DUK apie adresų knygeles
 description: Šioje temoje pateikiami atsakymai į dažnai užduodamus klausimus, susijusius su adresų knygelėmis.
 author: msftbrking
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
@@ -17,16 +16,17 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 922900b20b878dd8b479158d47a9f7792caa684d
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: ad2be27d406928222ca00fe696f49b8578fc8cb3
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796903"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559946"
 ---
 # <a name="address-books-faq"></a>DUK apie adresų knygeles
 
 [!include [banner](../includes/banner.md)]
+[!include [preview-banner](../includes/preview-banner.md)]
 
 ## <a name="how-do-i-check-for-duplicate-records"></a>Kaip patikrinti, ar nėra besidubliuojančių įrašų?
 
@@ -68,5 +68,10 @@ Kartais galbūt norėsite du arba kelis šalių įrašus sulieti į vieną įra�
 
 Galite nustatyti adreso informacijos vertimus, kad programoje informacija būtų rodoma vartotojo kalba (sistemos kalba), o dokumentuose, pvz., pardavimo užsakymuose – kita kalba. Galite įvesti šalių / regionų pavadinimų, adresų ir vardų sekų vertimus. Pavyzdžiui, jūsų sistemos kalba yra danų, ir pardavimo užsakymą sukuriate klientui Prancūzijoje. Šiuo atveju programoje kliento įrašą galite peržiūrėti danų kalba, tačiau išspausdintame pardavimo užsakyme adreso informaciją rodyti prancūzų kalba. Nustatydami vertimus, turėtumėte įvesti kiekvienos sąrašo prekės vertimą. Visos prekės, kurioms neįvesite vertimo, bus rodomos sistemos kalba. Pavyzdžiui, jūsų sistemos kalba yra danų, ir dokumentą siunčiate klientui Ispanijoje. Jei neįvedėte adreso informacijos vertimų į ispanų (ESP) kalbą, ta informacija danų kalba bus rodoma ir programoje, ir išspausdintame dokumente.
 
+## <a name="after-importing-addresses-when-i-access-the-records-why-am-i-unable-to-edit-imported-addresses"></a>Kodėl importavęs adresus ir pasiekęs įrašus negaliu redaguoti importuotų adresų?
+
+Importuojant adresus yra laukas, pažymėtas **IsLocationOwner**, kuris nurodo, ar šalis, susieta su vieta (adresu), yra adreso savininkė. Jei šalis yra adreso savininkas, adresas gali būti redaguojamas, kai jis pasiekiamas naudojant šalį visuotinėje adresų knygelėje arba pagrindinio įrašo formoje (pvz., kliento, tiekėjo ar darbuotojo). Jei šalis nėra adreso savininkė, įrašo negalima redaguoti iš anksčiau išvardytų formų. Importuojant adresus, reikšmė **IsLocationOwner** turi būti nustatyta į **Taip**, jei norite, kad adresą būtų galima redaguoti naudojant susietą šalį. Tačiau kartais šis laukas importuojamas neteisingai. Norint išspręsti šią problemą, vietos savininką galima atnaujinti šalies įrašo visuotinėje adresų knygelėje arba puslapyje **Patvirtinti vietos savininkus**. Norėdami atnaujinti vieną šalies įrašą, eikite į **Visuotinė adresų knygelė > Adresas**. Norėdami paleisti puslapį **Redaguoti adresą** ir pakeisti vietos savininką, pasirinkite **Redaguoti**. Pasirinkite **Keisti vietos savininką**, norėdami peržiūrėti ankstesnį vietos savininką, jei dabartinė pasirinkta šalis yra nauja vietos savininkė. Jei ankstesnio vietos savininko reikšmė tuščia, tai reiškia, kad vietos savininkas nebuvo nustatytas. Pasirinkus parinktį **Išplėstinės**, atidaromas puslapis **Tvarkyti adresus**, kuriame taip pat galima nustatyti vietos savininką. Pasirinkite vietą, kurią norite atnaujinti, tada meniu pasirinkite **Nustatyti vietos savininką**. Norėdami atnaujinti kelių įrašų vietos savininką, eikite į **Visuotinė adresų knygelė > Vietos > Patvirtinti vietų savininkus**. Sąraše yra vietų, susietų su viena šalimi, kuri nėra savininkė. Pasirinkus **Patvirtinti savininką**, **Siūlomo savininko šalies ID** bus nustatytas kaip susieto adreso savininkas. Kai šalis nustatyta kaip savininkė, susietą adresą bus galima redaguoti šalies įraše. Norėdami pakeisti vietos savininką, puslapyje **Saugos konfigūracija** jums turi būti priskirta teisė **Nustatyti vietos savininką**.  Sistemos administratoriui ši teisė suteikiama pagal numatytuosius nustatymus.
+
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

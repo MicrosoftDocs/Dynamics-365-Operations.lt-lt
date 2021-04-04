@@ -1,9 +1,9 @@
 ---
 title: Mokėjimų priežiūros proceso automatizavimas
-description: Šioje temoje aprašomas mokėjimų priežiūros proceso strategijų, kurios automatiškai identifikuoja klientų SF, kurioms reikalingas priminimas el. paštu, mokėjimų veikla (pvz., telefono skambutis) ar priminimo laiškas, kuris bus išsiųstas klientui, nustatymo procesas.
+description: Šioje temoje aprašomas mokėjimų priežiūros proceso strategijų, kurios automatiškai identifikuoja klientų SF, kurioms reikalingas priminimas el. paštu, mokėjimų veikla ar priminimo laiškas, kuris bus išsiųstas klientui, nustatymo procesas.
 author: panolte
 manager: AnnBe
-ms.date: 08/26/2020
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,23 +15,25 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: a63058904df72a7fda5a67ed1e6a846eed393ce0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a5f5d65f3f757163b22d35c3c99b4d6b7fbdfafb
+ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969706"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5582756"
 ---
-# <a name="collections-process-automation"></a>Mokėjimų priežiūros proceso automatizavimas
+# <a name="collections-process-automation"></a>Surinkimo proceso automatizavimas
 
 [!include [banner](../includes/banner.md)]
 
 Šioje temoje aprašomas mokėjimų priežiūros proceso strategijų, kurios automatiškai identifikuoja klientų SF, kurioms reikalingas priminimas el. paštu, mokėjimų veikla (pvz., telefono skambutis) ar priminimo laiškas, kuris bus išsiųstas klientui, nustatymo procesas. 
 
-Organizacijos išleidžia daug laiko tirdamos suskirstytų pagal terminus balansų ataskaitas, klientų sąskaitas ir atviras SF, kad nustatytų, su kuriais klientais reikia susisiekti dėl atviros SF ar sąskaitos balanso. Šie tyrimai užima laiką, kurį mokėjimų priežiūros agentas galėtų praleisti bendraudamas su klientais, kad būtų surinkti pasibaigusio termino balansai, ar spręsdamas su SF susijusius konfliktus. Mokėjimų priežiūros proceso automatizavimas leidžia nustatyti strategija pagrįstą jūsų mokėjimų priežiūros proceso metodą. Tai padeda nuosekliai taikyti mokėjimų priežiūros veiklas pateikiant tinkintus priminimus el. paštu arba suprogramuotą priminimo laiškų siuntimo procesą. 
+Organizacijos išleidžia daug laiko tirdamos suskirstytų pagal terminus balansų ataskaitas, klientų sąskaitas ir atviras SF, kad sužinotų, su kuriais klientais reikėtų susisiekti dėl atviros SF ar sąskaitos balanso. Šie tyrimai užima laiką, kurį mokėjimų priežiūros agentas galėtų praleisti bendraudamas su klientais, kad būtų surinkti pasibaigusio termino balansai, ar spręsdamas su SF susijusius konfliktus. Mokėjimų priežiūros proceso automatizavimas leidžia nustatyti strategija pagrįstą jūsų mokėjimų priežiūros proceso metodą. Tai padeda nuosekliai taikyti mokėjimų priežiūros veiklas pateikiant tinkintus priminimus el. paštu arba suprogramuotą priminimo laiškų siuntimo procesą. 
 
 ## <a name="collections-process-setup"></a>Mokėjimų priežiūros proceso sąranka
 Galite naudoti puslapį **Mokėjimų priežiūros proceso sąranka** (**Kredito ir mokėjimų priežiūra > Sąranka > Mokėjimų priežiūros proceso sąranka**), kad būtų sukurtas automatizuotas mokėjimų priežiūros procesas, skirtas veikloms planuoti, el. laiškams siųsti ir klientų priminimo laiškams kurti bei registruoti. Proceso veiksmai yra pagrįsti pagrindine arba seniausia atvira SF. Kiekvienas veiksmas naudoja šią SF, kad nustatytų, kokie konkretaus kliento ryšiai ar veikla turi įvykti.  
+
+Mokėjimų priežiūros komandos paprastai siunčia ankstyvą pranešimą, susijusį su kiekviena neapmokėta SF, kad klientas būtų informuojamas, kai SF reikia sumokėti. **Išankstinio bandymo** pasirinkimą galima nustatyti taip, kad vienas kiekvieno proceso hierarchijos žingsnis būtų įgyvendintas kiekvienai SF, nes SF laikas pasiekia tą veiksmą.
 
 ### <a name="process-hierarchy"></a>Proceso hierarchija
 Kiekvieną kliento telkinį galima priskirti tik vienai proceso hierarchijai. Šio veiksmo hierarchijos rangas nurodo, kuris procesas bus viršesnis, jei klientas įtrauktas į daugiau nei vieną telkinį, kuriam priskirta proceso hierarchija. Telkinio ID nustato, kurie klientai bus priskirti procesui. 
@@ -82,6 +84,7 @@ Toliau pateiktose lentelėse pateikiamas puslapių ir laukų, iš kurių galima 
 |                                                           |     Verslo dokumentas                           |     Apibrėžia veiklą arba el. laiško šabloną, kuris naudojamas proceso veiksmo metu.                                                                        |
 |                                                           |     Kada                                          |     Nurodo, ar proceso veiksmas bus vykdomas prieš arba po pagrindinės SF apmokėjimo termino, ir nurodo lauką **Dienos, susijusios su SF apmokėjimo terminu**.        |
 |                                                           |     Dienos, susijusios su sąskaitos faktūros termino data        |     Kartu su lauku **Kada** nurodo proceso veiksmo laiką.                                                                          |
+|                                                           |     Išankstinis priminimas                                   |     Šis pasirinkimas leidžia nustatyti vieną kiekvienos SF proceso hierarchijos veiksmą ir jį vykdyti pagal kiekvieną SF, jai pasiekus laiko kriterijus.                                                |
 |                                                           |     Gavėjas                                     |     Nurodo, ar el. laiškas bus išsiųstas klientui, pardavimo grupei ar mokėjimų priežiūros agentui.                                                   |
 |                                                           |     Verslo paskirties kontaktas                    |     Nurodo, kuris gavėjo el. pašto adresas naudojamas el. pašto pranešimams.                                                                                 |
 
@@ -100,7 +103,7 @@ Toliau pateiktose lentelėse pateikiamas puslapių ir laukų, iš kurių galima 
 ### <a name="collections-history"></a>Mokėjimų retrospektyva 
 |     Puslapis                              |     Laukas     |      Aprašas                                                          |
 |------------------------------------   |-------------- |---------------------------------------------------------------------  |
-|     Mokėjimų priežiūros proceso sąranka       |               |     Peržiūrėkite naujausią pasirinktos proceso hierarchijos retrospektyvą.     |
+|     Mokėjimų priežiūros proceso sąranka       |               |     Peržiūrėkite naujausią pasirinktos proceso hierarchijos retrospektyvą.       |
 
 ### <a name="collection-process-assignment"></a>Mokėjimų priežiūros proceso priskyrimas
 |     Puslapis                              |     Laukas     |      Aprašas                                                  |
@@ -110,13 +113,19 @@ Toliau pateiktose lentelėse pateikiamas puslapių ir laukų, iš kurių galima 
 |     Peržiūrėti proceso priskyrimą      |               |     Peržiūrėkite klientus, kurie bus priskirti vykdomai strategijai.   |
 |     Peržiūrėti kliento priskyrimą     |               |     Peržiūrėkite strategiją, kuriai priskirtas konkretus klientas.    |
  
+ ### <a name="process-simulation"></a>Proceso imitavimas
+|     Puslapis                              |     Laukas     |      aprašymas                                                  |
+|------------------------------------   |-------------- |-----------------------------------------------------------    |
+|    Proceso imitavimas                 |               |     Peržiūrėkite veiksmus, kurie bus sukurti, jei šiuo metu bus vykdomas pasirinkto proceso automatizavimas. |
+
 ### <a name="parameters"></a>Parametrai
-|     Puslapis                                                                  |     Laukas                                             |      Aprašas                              |
+|     Puslapis                                                                  |     Laukas                                             |      aprašymas                              |
 |-------------------------------------------------------------------------- |------------------------------------------------------ |-------------------------------------  |
 |     Gautinų sumų parametrai > Mokėjimų priežiūros proceso automatizavimas     |     Procentas klientų vienai paketinei užduočiai          |     Parametras, skirtas nustatyti paketinių užduočių skaičių viename automatizavimo procese.                                          |
 |     Gautinų sumų parametrai > Mokėjimų priežiūros proceso automatizavimas     |     Registruoti priminimo laiškus automatiškai           |     Priminimo laiškų veiksmų tipai užregistruos laišką automatizavimo metu.                                      |
 |     Gautinų sumų parametrai > Mokėjimų priežiūros proceso automatizavimas     |     Automatizavimo veiklų kūrimas                |     Kurkite ir uždarykite ne veiklų veiksmo tipų veiklas, kad būtų galima peržiūrėti visus automatizuotus veiksmus, atliktus sąskaitoje.        |
 |     Gautinų sumų parametrai > Mokėjimų priežiūros proceso automatizavimas     |     Dienų, kiek truks mokėjimų priežiūros proceso automatizavimas, skaičius     |     Apibrėžia dienų, kiek saugoma mokėjimų priežiūros retrospektyva, skaičių.                                                       |
+|     Gautinų sumų parametrai > Mokėjimų priežiūros proceso automatizavimas     |     Neįtraukti sąskaitos faktūros suaktyvinus paskutinį proceso veiksmą    |     SF, kuri pasiekia paskutinį mokėjimų priežiūros proceso veiksmą, nebus naudojama kuriant būsimus procesų automatizavimo veiksmų tipus. Kita seniausia SF nustatys kitą proceso automatizavimo veiksmą, kad būtų užtikrinti tolesni mokėjimų priežiūros proceso automatizavimo veiksmai.                                                        |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 971ff16b862a48581365523edc6b64052b29c380
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c1304d3277e12bc602fa5bc25a61e1f95edba59c
+ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967237"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5580920"
 ---
 # <a name="release-product-structures"></a>Išleidžiamo produkto struktūros
 
@@ -76,8 +76,6 @@ Dėl pavyzdžio, kaip priima produktą, žr. [Peržiūrėti ir priimti produktą
 ## <a name="release-policies"></a>Išleidimo politika
 
 Ne visos veikiančios bendrovės reikalauja tų pačių produkto duomenų. Bendrai, veikiančios bendrovės gaminančios inžinerinius produktus reikalauja BOM, o veikiančios bendrovės, kuriso tik parduoda inžinerijos produktus, nereikalauja BOM. Galite naudoti išleidimo politikas, kad nustatytumėte parametrus naudojamus produktų išleidimui/
-
-Inžineriniams produktams išleidimo politika priskiriama prie inžinerijos produkto kategorijos, o laukelis yra privalomas. Standartiniams produktams išleidimo politika priskiriama prie bendrinto produkto kategorijos, o laukelis yra pasirenkamas.
 
 Dėl daugiau informacijos apie inžinerijos produktų kategorijas, žr. [Inžinerijos versijos ir inžinerijos produkto kategorijos](engineering-versions-product-category.md).
 

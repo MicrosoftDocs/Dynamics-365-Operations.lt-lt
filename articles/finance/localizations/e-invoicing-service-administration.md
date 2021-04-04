@@ -3,7 +3,7 @@ title: Elektroninių sąskaitų priedo administravimo komponentai
 description: Šioje temoje pateikta informacija apie kompnentus, kurie susiję su elektroninių sąskaitų priedų administravimu.
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6f630ebb694217c3bd52378a649933a670c090f2
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 70ef47dd45200a14c9d780f3c280c554d0e52ac3
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104415"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592579"
 ---
 # <a name="electronic-invoicing-add-on-administration-components"></a>Elektroninių sąskaitų priedo administravimo komponentai
 
@@ -39,11 +39,15 @@ Naudokite „Microsoft Azure“ norėdami sukurti rakto saugyklos ir saugyklos s
 
 Naudokite „Microsoft Dynamics Lifecycle Services“ LCS tam, kad įgalintumėte mikroservices priedą LCS diegimo projektui.
 
-LCS pasirinkite **peržiūros funkcijų valdymo išklotinės** plytelę ir tada įjunkite **el. SF išrašymo paslaugos** funkciją.
+> [!NOTE]
+> Mikropaslaugos LCS priedo įdiegimui reikalingas bent 2 pakopos virtualusis įrenginys. Daugiau informacijos apie aplinkų planavimą ieškokite skyriuje [Aplinkos planavimas](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+ 
 
 ## <a name="regulatory-configuration-services"></a>„Regulatory Configuration Services“ (RCS)
 
 „Dynamics 365 Regulatory Configuration Services“ (RCS) yra sąsaja, naudojama elektroninio SF išrašymo priedams konfigūruoti. Tokie ištekliai kaip aplinkos ir elektroninių SF išrašymo priemonės kuriamos, prižiūrimos ir laikomos RCS. Kai ištekliai parengti, jie publikuojami elektroninių SF išrašymo papildomų paslaugų svetainėje.
+
+Norėdami sužinoti RCS prisijungimą, žr. skyrių [„Regulatory Services”](https://marketing.configure.global.dynamics.com/).
 
 Daugiau informacijos apie RCS žr. [„Regulatory Configuration Services“ (RCS) – globalizacijos funkcijos](rcs-globalization-feature.md)
 
@@ -53,22 +57,14 @@ Prieš konfigūruojant elektronines SF naudojant RCS, būtina sukonfigūruoti RC
 
 #### <a name="service-endpoint"></a>Paslaugos galinis punktas
 
-Elektroninio SF išrašymo galinio punkto URL gali skirtis, atsižvelgiant į "Azure" duomenų centro geografijos metodą. Toliau esančioje lentelėje pateikiamas pasiekiamumo sąrašas pagal regioną:
+Elektroninių SF išrašymo priedas yra keliuose „Azure” duomenų centro regionuose. Toliau esančioje lentelėje pateikiamas pasiekiamumo sąrašas pagal regioną.
 
-| „Azure" duomenų centro geografija | Paslaugos galinio punkto URL                                                       |
-|----------------------------|----------------------------------------------------------------------------|
-| Rytų JAV                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-| Vakarų JAV                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-| Šiaurės ES                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-| Vakarinė ES                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
-
-#### <a name="application-id"></a>Programos ID
-
-Prašymo ID yra elektroninio SF išrašymo priedo prašymo ID. Šiuo atveju, vertė yra fiksuota: **0cdb527f-a8d1-4bf8-9436-b352c68682b2**.
-
-#### <a name="lcs-environment-id"></a>LCS aplinkos ID
-
-LCS aplinkos ID yra jūsų organizacijos LCS abonemento ID.
+| „Azure" duomenų centro geografija |
+|----------------------------|
+| Rytų JAV                    |
+| Vakarų JAV                    |
+| Šiaurės ES                   |
+| Vakarų ES                    |
 
 ### <a name="service-environments"></a>Paslaugų aplinkos
 
