@@ -8,18 +8,19 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: JmgProductionFloorExecutionConfiguration
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e822463ac80be3b1e498f02cb1aad2b214fed815
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: d34f9c235df480658a0935d731f7267a87894067
+ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5077482"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556319"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Gamybos cecho vykdymo sąsajos konfigūravimas
 
@@ -41,7 +42,8 @@ Gamybos aukšto vykdymo sąsaja pati kartu su keletu pasirenkamų nustatymų yra
 
 ### <a name="the-production-floor-execution-interface"></a>Gamybos aukšto vykdymo sąsaja
 
-Tai yra pirminė šioje temoje aprašyta funkcija. Ji įtraukia gamybos aukšto vykdymo sąsają į jūsų sistemą. Norėdami ją įjungti, įjunkite tolesnę funkciją [Funkcijos valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):  
+Tai yra pirminė šioje temoje aprašyta funkcija. Ji įtraukia gamybos aukšto vykdymo sąsają į jūsų sistemą. Norėdami ją įjungti, įjunkite tolesnę funkciją [Funkcijos valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
 - Gamybos aukšto vykdymas
 
 ### <a name="generate-license-plates"></a>Kurti licencijos plokšteles
@@ -79,6 +81,7 @@ Norėdami kurti ir tvarkyti įrenginio konfigūracijas, eikite į **Gamybos kont
 
 Tada konfigūruokite įvairius pasirinktos įrenginio konfigūracijos parametrus. Galimi šie laukai:
 
+- **Tik atėjus į darbą ir išėjus iš darbo** – nustatykite šią parinktį į *Taip*, norėdami sukurti supaprastintą sąsają, leidžiančią naudoti tik atėjimo ir išėjimo iš darbo funkcijas. Taip išjungsite daugelį kitų šio puslapio parinkčių. Prieš įgalindami šią parinktį, pirmiausia turite pašalinti visas eilutes iš „FastTab” **Skirtuko pasirinkimas**.
 - **Teikti kiekio ataskaitą išeinant iš darbo** – nustatykite šią parinktį į *Taip*, kad darbuotojai būtų paraginti pateikti atsiliepimų apie vykdomas užduotis prieš išeidami iš darbo. Kai parinktis nustatyta į *Ne*, darbuotojai nebus raginami.
 - **Užrakinti darbuotoją** – kai ši parinktis nustatyta į *Ne*, darbuotojai bus atjungiami iš karto jiems pateikus registraciją (pvz., naujos užduoties). Tada įrenginys pereis prie prisijungimo puslapio. Kai ši parinktis nustatyta į *Taip*, darbuotojai liks prisijungę prie užduoties kortelės įrenginio. Tačiau darbuotojas gali atsijungti rankiniu būdu, kad kitas darbuotojas galėtų prisijungti, jei užduoties kortelės įrenginys vykdomas naudojant tą pačią sistemos vartotojo paskyrą. Daugiau informacijos apie šių tipų paskyras žr. [Priskirti vartotojai](config-job-card-device.md#assigned-users).
 - **Naudoti faktinį registravimo laiką** – nustatykite šią parinktį į *Taip*, norėdami nustatyti kiekvienos naujos registracijos laiką į laiką, kada darbuotojas pateikė registraciją. Jei ši parinktis nustatyta į *Ne*, naudojamas prisijungimo laikas. Paprastai norėsite nustatyti šią parinktį į *Taip*, jei nustatėte parinktis **Užrakinti darbuotoją** ir (arba) **Vienas darbuotojas** į *Taip* ir jei darbuotojai dažnai būna prisijungę ilgesnį laikotarpį.

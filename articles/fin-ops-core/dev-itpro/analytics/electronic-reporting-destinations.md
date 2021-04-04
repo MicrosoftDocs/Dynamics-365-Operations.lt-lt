@@ -2,11 +2,10 @@
 title: Elektroninių ataskaitų (ER) paskirties vietos
 description: Šioje temoje pateikiama informacija apie elektroninių ataskaitų paskirties vietų valdymą, palaikomų paskirties vietų tipus ir saugumo klausimus.
 author: nselin
-manager: AnnBe
-ms.date: 01/21/2021
+manager: tfehr
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 725ded9d777a65e5a38a7971c1da8cb74cf0dd47
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 0fe0992412edf6f78be4ed293052e3501a7224ad
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097286"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569724"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroninių ataskaitų (ER) paskirties vietos
 
@@ -166,12 +165,14 @@ Norėdami, kad PDF konvertavimo parinktis būtų prieinama dabartiniame „Finan
 
 ### <a name="applicability"></a>Taikymas
 
-PDF konvertavimo parinktį galima įjungti tik failų komponentams, kurie naudojami generuojant išvestį „Office” („Excel“ arba „Word“) formatu (**„Excel“ failas**). Kai ši parinktis įjungta, išvestis, generuojama „Office“ formatu, automatiškai konvertuojama į PDF formatą.
-
-### <a name="limitations"></a>Apribojimai
+PDF konvertavimo parinktį galima įjungti tik failų komponentams, kurie naudojami generuojant išvestį „Office” („Excel“ arba „Word“) formatu (**„Excel“ failas**). Kai ši parinktis įjungta, išvestis, generuojama „Office“ formatu, automatiškai konvertuojama į PDF formatą. Ankstesnėse nei **10.0.18** „Finance“ versijose šią funkciją galima įjungti tik **„Excel“\\failo** tipo komponentus, kurie yra naudojami išvesčiai generuoti [„Excel“](er-fillable-excel.md) arba [„Word“](er-design-configuration-word.md) formatu. Tačiau **10.0.18 ir naujesnėse versijose** taip pat galima įjungti šią funkciją **bendrojo\\failo** tipo komponentams.
 
 > [!NOTE]
-> Ši funkcija yra peržiūros funkcija ir jai taikomos naudojimo sąlygos, aprašytos skyriuje [Papildomos „Microsoft Dynamics 365” peržiūrų naudojimo sąlygos](https://go.microsoft.com/fwlink/?linkid=2105274).
+> Atkreipkite dėmesį į įspėjimo pranešimą, kurį gausite, kai įjungsite PDF keitimo parinktį **bendrojo\\failo** tipo ER komponentui. Šis pranešimas informuoja, kad nėra būdo projektavimo metu užtikrinti, kad pasirinktas failo komponentas turinį rodys PDF formatu arba PDF konvertuojamu turiniu vykdymo metu. Todėl šią parinktį turėtumėte įjungti tik tada, kai būsite tikri, kad pasirinktas failo komponentas buvo sukonfigūruotas rodyti turinį PDF formatu arba PDF konvertuojamu turiniu vykdyklėje.
+> 
+> PDF konvertavimo parinktį įjungus **„Excel“\\failo** tipo komponentui, jei tas komponentas turinį rodo kitu nei PDF formatu ir jei rodomo turinio neįmanoma pakeisti į PDF formatą, vykdymo metu bus rodoma išimtis. Gaunamas pranešimas informuoja, kad sugeneruoto turinio negalima konvertuoti į PDF formatą.
+
+### <a name="limitations"></a>Apribojimai
 
 PDF konvertavimo parinktis galima tik debesies diegimams.
 

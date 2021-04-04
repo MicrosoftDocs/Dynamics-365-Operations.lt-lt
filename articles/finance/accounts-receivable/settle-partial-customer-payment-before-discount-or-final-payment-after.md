@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad922bc6c9378078012b7a838909e4074b48f263
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 87408e864ab8e6101fc908e744231f10d0d2e664
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979069"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5250559"
 ---
 # <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Nustatyti dalinį mokėjimą prieš nuolaidos datą su galutiniu mokėjimu po nuolaidos datos
 
@@ -46,7 +46,7 @@ Liepos 2 d. 4027 klientas atlieka dalinį 297,00 SF mokėjimą. Mokėjimui yra g
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|----------|------------------|
 | Pasirinkta | Įprastas            | LFSF-10020 | 4027    | 2015-06-25 | 2015-07-25 | 10020   | 1000,00                             | USD      | 297,00           |
 
-Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas** apačioje. Jei lauko **Sudengtina suma** reikšmės nepakeisite į 297,00, rodomos lauko **Mokėjimo nuolaidos suma** reikšmės skirsis. Tačiau užregistravus mokėjimą bus taikoma 3,00 mokėjimo nuolaida, nes sudengimo funkcija automatiškai koreguoja lauko **Sudengtina suma **vertę.
+Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas** apačioje. Jei lauko **Sudengtina suma** reikšmės nepakeisite į 297,00, rodomos lauko **Mokėjimo nuolaidos suma** reikšmės skirsis. Tačiau užregistravus mokėjimą bus taikoma 3,00 mokėjimo nuolaida, nes sudengimo funkcija automatiškai koreguoja lauko **Sudengtina suma** vertę.
 
 |                              |           |
 |------------------------------|-----------|

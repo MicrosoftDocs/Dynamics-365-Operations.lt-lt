@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b34cc2e9921df6e3ef619e2b2adaf8d2069fbac
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5afcb8171b674281faf8100d5c01fdff8d6ff764
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974565"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470790"
 ---
 # <a name="create-a-template-bom"></a>Šabloninės KS kūrimas   
 
@@ -33,9 +33,9 @@ Galite sukurti šabloninę KS naudodamiesi bet kuriuo iš toliau pateiktų būd�
 
 ## <a name="create-a-template-bom-manually"></a>KS ruošinio kūrimas rankiniu būdu
 
-1.  Spustelėkite **Aptarnavimo valdymas** \> **Sąranka** \> **Aptarnavimo objektai** \> **Šabloninės KS**.
+1.  Eikite į **Aptarnavimo valdymas** \> **Sąranka** \> **Aptarnavimo objektai** \> **Šabloninės KS**.
 
-2.  Paspaudę CTRL+N atidarykite formą **Kurti šabloninę KS**.
+2.  Pasirinkę **Naujas** atidarykite formą **Kurti šabloninę KS**.
 
 3.  Dalyje **Kopijuoti KS eilutes iš nuorodos** pasirinkite parinktį **Rankiniu būdu**.
 
@@ -45,15 +45,15 @@ Galite sukurti šabloninę KS naudodamiesi bet kuriuo iš toliau pateiktų būd�
 
 6.  Laukuose **Pradžios data** ir **Pabaigos data** įveskite laiko intervalą, kuriuo bus aktyvi šabloninė KS.
 
-7.  Spustelėkite **GERAI**.
+7.  Pasirinkite **Gerai**.
 
 Sukuriama nauja tuščia šabloninė KS.
 
 ## <a name="create-a-template-bom-based-on-another-template-bom"></a>KS ruošinio, paremto kitu KS ruošiniu, kūrimas
 
-1.  Spustelėkite **Aptarnavimo valdymas** \> **Sąranka** \> **Aptarnavimo objektai** \> **Šabloninės KS**.
+1.  Pasirinkite **Aptarnavimo valdymas** \> **Sąranka** \> **Aptarnavimo objektai** \> **Šabloninės KS**.
 
-2.  Paspaudę CTRL+N atidarykite formą **Kurti šabloninę KS**.
+2.  Pasirinkę **Naujas** atidarykite formą **Kurti šabloninę KS**.
 
 3.  Dalyje **Kopijuoti KS eilutes iš nuorodos** pasirinkite parinktį **Šabloninė KS**.
 
@@ -63,15 +63,15 @@ Sukuriama nauja tuščia šabloninė KS.
 
 6.  Laukuose **Pradžios data** ir **Pabaigos data** įveskite laiko intervalą, kuriuo bus aktyvi šabloninė KS.
 
-7.  Spustelėkite **GERAI**.
+7.  Pasirinkite **Gerai**.
 
 Sukuriama nauja šabloninė KS su eilutėmis, atitinkančiomis eilutes originalioje šabloninėje KS.
 
 ## <a name="create-a-template-bom-based-on-an-item-bom"></a>KS ruošinio, paremto prekės KS kūrimas
 
-1.  Spustelėkite **Aptarnavimo valdymas** \> **Sąranka** \> **Aptarnavimo objektai** \> **Šabloninės KS**.
+1.  Pasirinkite **Aptarnavimo valdymas** \> **Sąranka** \> **Aptarnavimo objektai** \> **Šabloninės KS**.
 
-2.  Paspaudę CTRL+N atidarykite formą **Kurti šabloninę KS**.
+2.  Pasirinkę **Naujas** atidarykite formą **Kurti šabloninę KS**.
 
 3.  Dalyje **Kopijuoti KS eilutes iš nuorodos** pasirinkite **KS**.
 
@@ -81,15 +81,15 @@ Sukuriama nauja šabloninė KS su eilutėmis, atitinkančiomis eilutes originali
 
 6.  Laukuose **Pradžios data** ir **Pabaigos data** įveskite laiko intervalą, kuriuo bus aktyvi šabloninė KS.
 
-7.  Spustelėkite **GERAI**.
+7.  Pasirinkite **Gerai**.
 
 Naujas KS ruošinys sukurtas, naudojant eilutes, atitinkančias KS eilutes, išvardytas **Komplektavimo specifikacijos**.
 
 ## <a name="create-a-template-bom-based-on-a-production-bom"></a>KS ruošinio, paremto gamybos KS, kūrimas
 
-1.  Spustelėkite **Aptarnavimo valdymas** \> **Sąranka** \> **Aptarnavimo objektai** \> **Šabloninės KS**.
+1.  Pasirinkite **Aptarnavimo valdymas** \> **Sąranka** \> **Aptarnavimo objektai** \> **Šabloninės KS**.
 
-2.  Paspaudę CTRL+N atidarykite formą **Kurti šabloninę KS**.
+2.  Pasirinkę **Naujas** atidarykite formą **Kurti šabloninę KS**.
 
 3.  Dalyje **Kopijuoti KS eilutes iš nuorodos** pasirinkite **Gamyba**.
 
@@ -99,7 +99,7 @@ Naujas KS ruošinys sukurtas, naudojant eilutes, atitinkančias KS eilutes, išv
 
 6.  Laukuose **Pradžios data** ir **Pabaigos data** įveskite laiko intervalą, kuriuo bus aktyvi šabloninė KS.
 
-7.  Spustelėkite **GERAI**.
+7.  Pasirinkite **Gerai**.
 
 Naujas KS ruošinys sukurtas, naudojant eilutes, atitinkančias KS eilutes, išvardytas **KS**.
 

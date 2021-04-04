@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e2ffd12011b133bb13b69b49d6e894c6a887a8a0
-ms.sourcegitcommit: bd53794cb94f8c1ce29a7d6102119a0975f155e3
+ms.openlocfilehash: e1e8c8b1464a38a0145cbdcdcb4882db00d3c4c1
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5142328"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487030"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Sandėlio valdymo mobiliųjų įrenginių programėlės diegimas ir prijungimas
 
@@ -31,11 +31,9 @@ ms.locfileid: "5142328"
 [!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> Šioje temoje aprašoma, kaip konfigūruoti naują sandėlio valdymo mobiliųjų įrenginių programėlę, kuri šiuo metu yra viešojoje peržiūros versijoje. Jei ieškote informacijos apie tai, kaip konfigūruoti seną sandėlio programą, žiūrėkite [Sandėlio programos diegimas ir prijungimas](../../supply-chain/warehousing/install-configure-warehousing-app.md).
+> Šioje temoje aprašoma, kaip sukonfigūruoti naująją „Warehouse Management“ mobiliąją programėlę. Jei ieškote informacijos apie tai, kaip konfigūruoti seną sandėlio programą, žiūrėkite [Sandėlio programos diegimas ir prijungimas](../../supply-chain/warehousing/install-configure-warehousing-app.md).
 
-Sandėlio valdymo mobiliųjų įrenginių programėlės viešąją peržiūros versiją galima atsisiųsti iš „Microsoft App Center”. Ji teikiamas kaip atskiras komponentas. Todėl ją turite atsisiųsti į kiekvieną įrenginį ir sukonfigūruoti, kad būtų galima prisijungti prie „Microsoft Dynamics 365 Supply Chain Management“ aplinkos.
-
-Šioje temoje paaiškinama, kaip įdiegti sandėlio valdymą programėlę kiekviename mobiliajame įrenginyje ir sukonfigūruoti ją, kad prijungtumėte prie „Supply Chain Management“ aplinkos. Kiekvieną įrenginį galite konfigūruoti neautomatiniu būdu arba galite importuoti ryšio parametrus naudodami failą arba nuskaitydami QR kodą.
+Šioje temoje paaiškinama, kaip atsisiųsti ir įdiegti „Warehouse Management“ programėlę kiekviename mobiliajame įrenginyje ir sukonfigūruoti programėlę, kad prijungtumėte prie „Supply Chain Management“ aplinkos. Kiekvieną įrenginį galite konfigūruoti neautomatiniu būdu arba galite importuoti ryšio parametrus naudodami failą arba nuskaitydami QR kodą.
 
 ## <a name="system-requirements"></a>Sistemos reikalavimai
 
@@ -53,17 +51,27 @@ Norint naudoti programą, susijusi funkcija turi būti įjungta jūsų sistemoje
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>Gauti Sandėlio valdymo mobiliųjų įrenginių programėlę
 
-Norėdami atsisiųsti programą, naudokite vieną iš toliau nurodytų saitų.
+Nedidelių diegimų atveju paprastai galite įdiegti programą iš atitinkamos parduotuvės kiekviename įrenginyje, o tada neautomatiniu būdu sukonfigūruoti ryšį su naudojamomis aplinkomis.
 
-- **„Windows” (UWP):** [Programų centro peržiūros versijos programa – „Windows”](https://go.microsoft.com/fwlink/?linkid=2154406)
+Diegdami didesniu mastu, galite automatizuoti programos diegimą ir (arba) konfigūraciją, nes taip gali būti patogiau valdant daug įrenginių. Pavyzdžiui, galite naudoti mobiliojo įrenginio valdymo ir mobiliųjų programų valdymo sprendimą, pvz., [„"Microsoft Intune“](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Norėdami gauti informacijos apie tai, kaip naudojant „Intune“ įtraukti programas, žr. [Programų įtraukimas į „Microsoft Intune“](https://docs.microsoft.com/mem/intune/apps/apps-add).
 
-    Kadangi ši programa yra peržiūros versijos, jai įdiegti reikia kelių papildomų veiksmų. Norėdami gauti daugiau informacijos, žiūrėkite [Komponavimo versijos diegimas iš programų centro](https://docs.microsoft.com/appcenter/distribution/installation).
+### <a name="install-the-app-from-an-app-store"></a>Programos diegimas iš programų parduotuvės
 
-- **Android”:** [Programų centro peržiūros versijos programa – Android](https://go.microsoft.com/fwlink/?linkid=2154613)
+Paprasčiausias būdas įdiegti programą viename įrenginyje yra įdiegti ją iš programų parduotuvės, kur visada pateikiama naujausia bendrai prieinama versija. „Microsoft Intune“ taip pat gali rasti programėles iš programėlių parduotuvių. Norėdami įdiegti programą iš programų parduotuvės, naudokite vieną iš nurodytų nuorodų:
 
-    Kadangi ši programa yra peržiūros versijos, jai įdiegti reikia kelių papildomų veiksmų. Norėdami gauti daugiau informacijos, žiūrėkite [Android programų testavimas](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
+- **„Windows“ (UWP):**[Sandėlio valdymas „Microsoft Store“](https://www.microsoft.com/store/apps/9pd35cdqcmg3)
 
-Nedidelių diegimų atveju galite įdiegti programą iš atitinkamos parduotuvės kiekviename įrenginyje, o tada neautomatiniu būdu sukonfigūruoti ryšį su naudojamomis aplinkomis. Tačiau taip pat galite automatizuoti programos diegimą ir (arba) konfigūraciją. Šis būdas patogus, jei valdote daug įrenginių ir naudojate mobiliųjų įrenginių bei mobiliųjų programų valdymo sprendimą, pavyzdžiui, [„Intune“](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Norėdami gauti informacijos apie tai, kaip naudojant „Intune“ įtraukti programas, žr. [Programų įtraukimas į „Microsoft Intune“](https://docs.microsoft.com/mem/intune/apps/apps-add).
+- **„Android”:** [„Warehouse Management“ „Google Play“ parduotuvėje](https://play.google.com/store/apps/details?id=com.Microsoft.WarehouseManagement)
+
+### <a name="download-the-app-from-microsoft-app-center"></a>Atsisiųskite programą iš „Microsoft App Center“
+
+Vietoje diegimo iš programų parduotuvės galite atsisiųsti programą iš „Microsoft App Center“. „App Center“ rasite įdiegiamus paketus, kuriuos galėsite perduodami naudodami artimojo ryšio duomenų perdavimą. Be dabartinės versijos, programų centre taip pat galėsite atsisiųsti ankstesnes versijas ir gauti ankstesnes versijas su būsimomis funkcijomis, kurias galite išbandyti. Norėdami atsisiųsti dabartines, ankstesnes arba peržiūrėti „Warehouse Management“ mobiliųjų įrenginių programos versijas iš „Microsoft App Center“, naudokite vieną iš šių nuorodų:
+
+- **„Windows“ (UWP):** [„Warehouse Management“ („Windows“)](https://go.microsoft.com/fwlink/?linkid=2154406)  
+    Instrukcijų apie tai, kaip įdiegti atsisiųstą paketą į „Windows“ įrenginį ir tada nustatyti reikiamus sertifikatus, ieškokite skyriuje [diegti versiją iš „App Center“](https://docs.microsoft.com/appcenter/distribution/installation).
+
+- **„Android“:** [„Warehouse Management“ („Android“)](https://go.microsoft.com/fwlink/?linkid=2154613)  
+    Jei atsisiųsite peržiūros versiją, jai įdiegti turėsite atlikti kelis papildomus veiksmus. Norėdami gauti daugiau informacijos, žiūrėkite [Android programų testavimas](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Žiniatinklio tarnybos programos kūrimas naudojant „Azure Active Directory“
 
