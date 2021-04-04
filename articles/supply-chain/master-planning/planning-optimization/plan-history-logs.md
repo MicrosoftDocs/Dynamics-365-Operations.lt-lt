@@ -18,31 +18,34 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d2616c613e5f6b99c19afad33860aaf0e84d16fe
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7cf79b5754f507e90aeb501508d76c7afcf656a6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4999911"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5239379"
 ---
-# <a name="view-plan-history-and-planning-logs"></a><span data-ttu-id="6522e-103">Plano retrospektyvos ir planavimo žurnalų peržiūra</span><span class="sxs-lookup"><span data-stu-id="6522e-103">View plan history and planning logs</span></span>
+# <a name="view-plan-history-and-planning-logs"></a><span data-ttu-id="55c8f-103">Plano retrospektyvos ir planavimo žurnalų peržiūra</span><span class="sxs-lookup"><span data-stu-id="55c8f-103">View plan history and planning logs</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="6522e-104">Šioje temoje paaiškinama, kaip peržiūrėti planavimo užduočių, kurias suaktyvino „Planning Optimization“ funkcija „Microsoft Dynamics 365 Supply Chain Management“, istoriją.</span><span class="sxs-lookup"><span data-stu-id="6522e-104">This topic explains how to view the history of planning jobs that are triggered by the Planning Optimization functionality in Microsoft Dynamics 365 Supply Chain Management.</span></span>
+<span data-ttu-id="55c8f-104">Šioje temoje paaiškinama, kaip peržiūrėti planavimo užduočių, kurias suaktyvino „Planning Optimization“ funkcija „Microsoft Dynamics 365 Supply Chain Management“, istoriją.</span><span class="sxs-lookup"><span data-stu-id="55c8f-104">This topic explains how to view the history of planning jobs that are triggered by the Planning Optimization functionality in Microsoft Dynamics 365 Supply Chain Management.</span></span>
 
-<span data-ttu-id="6522e-105">Norėdami peržiūrėti plano istoriją, atidarykite planą eidami į **Pagrindinis planavimas** \> **Sąranka** \> **Planai** \> **Bendrieji planai** ir pasirinkite **Istorija**.</span><span class="sxs-lookup"><span data-stu-id="6522e-105">To view the history for a plan, open the plan by going to **Master planning** \> **Setup** \> **Plans** \> **Master plans** and selecting **History**.</span></span> <span data-ttu-id="6522e-106">Istorijoje išvardintos visos pasirinkto plano užduotys.</span><span class="sxs-lookup"><span data-stu-id="6522e-106">The history lists all the jobs for the selected plan.</span></span> <span data-ttu-id="6522e-107">Į sąrašą įtrauktos baigtos ir aktyvios užduotys.</span><span class="sxs-lookup"><span data-stu-id="6522e-107">The list includes completed and active jobs.</span></span>
+<span data-ttu-id="55c8f-105">Norėdami peržiūrėti plano istoriją, atidarykite planą eidami į **Pagrindinis planavimas** \> **Sąranka** \> **Planai** \> **Bendrieji planai** ir pasirinkite **Istorija**.</span><span class="sxs-lookup"><span data-stu-id="55c8f-105">To view the history for a plan, open the plan by going to **Master planning** \> **Setup** \> **Plans** \> **Master plans** and selecting **History**.</span></span> <span data-ttu-id="55c8f-106">Istorijoje išvardintos visos pasirinkto plano užduotys.</span><span class="sxs-lookup"><span data-stu-id="55c8f-106">The history lists all the jobs for the selected plan.</span></span> <span data-ttu-id="55c8f-107">Į sąrašą įtrauktos baigtos ir aktyvios užduotys.</span><span class="sxs-lookup"><span data-stu-id="55c8f-107">The list includes completed and active jobs.</span></span>
 
-<span data-ttu-id="6522e-108">Be užduočių pradžios laiko ir būsenos, taip pat galite peržiūrėti konkrečios užduoties žurnalą.</span><span class="sxs-lookup"><span data-stu-id="6522e-108">In addition to seeing the start time and status of jobs, you can view the log for a specific job.</span></span> <span data-ttu-id="6522e-109">Žurnale pateikiama papildoma informacija ir įspėjimai.</span><span class="sxs-lookup"><span data-stu-id="6522e-109">The log includes additional information and warnings.</span></span> <span data-ttu-id="6522e-110">Ne visos užduotys turi žurnalą.</span><span class="sxs-lookup"><span data-stu-id="6522e-110">Not all jobs have a log.</span></span> <span data-ttu-id="6522e-111">Norėdami peržiūrėti užduoties žurnalą, pasirinkite **Žurnalas.**</span><span class="sxs-lookup"><span data-stu-id="6522e-111">To view the log for a job, select **Log**.</span></span>
+<span data-ttu-id="55c8f-108">Be užduočių pradžios laiko ir būsenos, taip pat galite peržiūrėti konkrečios užduoties žurnalą.</span><span class="sxs-lookup"><span data-stu-id="55c8f-108">In addition to seeing the start time and status of jobs, you can view the log for a specific job.</span></span> <span data-ttu-id="55c8f-109">Žurnale pateikiama papildoma informacija ir įspėjimai.</span><span class="sxs-lookup"><span data-stu-id="55c8f-109">The log includes additional information and warnings.</span></span> <span data-ttu-id="55c8f-110">Ne visos užduotys turi žurnalą.</span><span class="sxs-lookup"><span data-stu-id="55c8f-110">Not all jobs have a log.</span></span> <span data-ttu-id="55c8f-111">Norėdami peržiūrėti užduoties žurnalą, pasirinkite **Žurnalas.**</span><span class="sxs-lookup"><span data-stu-id="55c8f-111">To view the log for a job, select **Log**.</span></span>
 
-## <a name="related-resources"></a><span data-ttu-id="6522e-112">Susiję ištekliai</span><span class="sxs-lookup"><span data-stu-id="6522e-112">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="55c8f-112">Susiję ištekliai</span><span class="sxs-lookup"><span data-stu-id="55c8f-112">Related resources</span></span>
 
-[<span data-ttu-id="6522e-113">„Planning Optimization“ apžvalga</span><span class="sxs-lookup"><span data-stu-id="6522e-113">Planning Optimization overview</span></span>](planning-optimization-overview.md)
+[<span data-ttu-id="55c8f-113">„Planning Optimization“ apžvalga</span><span class="sxs-lookup"><span data-stu-id="55c8f-113">Planning Optimization overview</span></span>](planning-optimization-overview.md)
 
-[<span data-ttu-id="6522e-114">Darbo su „Planning Optimization“ pradžia</span><span class="sxs-lookup"><span data-stu-id="6522e-114">Get started with Planning Optimization</span></span>](get-started.md)
+[<span data-ttu-id="55c8f-114">Darbo su „Planning Optimization“ pradžia</span><span class="sxs-lookup"><span data-stu-id="55c8f-114">Get started with Planning Optimization</span></span>](get-started.md)
 
-[<span data-ttu-id="6522e-115">Planavimo optimizavimo tinkamumo analizė</span><span class="sxs-lookup"><span data-stu-id="6522e-115">Planning Optimization fit analysis</span></span>](planning-optimization-fit-analysis.md)
+[<span data-ttu-id="55c8f-115">Planavimo optimizavimo tinkamumo analizė</span><span class="sxs-lookup"><span data-stu-id="55c8f-115">Planning Optimization fit analysis</span></span>](planning-optimization-fit-analysis.md)
 
-[<span data-ttu-id="6522e-116">Filtrų taikymas planui</span><span class="sxs-lookup"><span data-stu-id="6522e-116">Apply filters to a plan</span></span>](plan-filters.md)
+[<span data-ttu-id="55c8f-116">Filtrų taikymas planui</span><span class="sxs-lookup"><span data-stu-id="55c8f-116">Apply filters to a plan</span></span>](plan-filters.md)
 
-[<span data-ttu-id="6522e-117">Planavimo užduoties atšaukimas</span><span class="sxs-lookup"><span data-stu-id="6522e-117">Cancel a planning job</span></span>](cancel-planning-job.md)
+[<span data-ttu-id="55c8f-117">Planavimo užduoties atšaukimas</span><span class="sxs-lookup"><span data-stu-id="55c8f-117">Cancel a planning job</span></span>](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
