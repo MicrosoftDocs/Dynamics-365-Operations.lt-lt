@@ -1,5 +1,5 @@
 ---
-title: Naujos adresų knygos kūrimas
+title: Naujos adresų knygelės kūrimas
 description: Šioje temoje aprašoma, kaip sukurti adresų knygas, naudojant „Microsoft Dynamics 365 Commerce“.
 author: samjarawan
 manager: annbe
@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a2887bdb09b9c5754a2bb17b2cd8053b5d4fb273
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6b25e4d560d94c3481b717939e28f1eaa2f2ecde
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976644"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477856"
 ---
 # <a name="create-new-address-book"></a>Naujos adresų knygos kūrimas
-
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip sukurti naują adresų knygą, naudojant „Microsoft Dynamics 365 Commerce“.
-
-## <a name="overview"></a>Peržiūrėti
 
 Adresų knygos „Commerce“ naudojamos dėl įvairių priežasčių, įskaitant kanalo klientų ir darbuotojų sąrašų saugojimą. Adresų knygas galima naudoti vienam kanalui arba dalintis skirtinguose kanaluose.
 

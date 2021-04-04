@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: b1b3bafb24ff6eb0c42d901fac3b6668cedf39ef
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 84821fe4e7c5054b2121dbd7f9e536c80080b978
+ms.sourcegitcommit: 1f23adbc6c7e6f9ffe8c48c10659b9fae2155aeb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963315"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470524"
 ---
 # <a name="work-with-location-directives"></a>Darbas su vietos nurodymais
 
@@ -239,7 +239,7 @@ Galite nurodyti kelis kiekvienos eilutės vietos nurodymo veiksmus. Primename, k
     - **Apvalinkite iki viso LP ir FEFO bendrų** – Ši strategija suderina elementus *FEFO bendros rezervacijos* ir *Apvalinimo iki viso LP* strategijas. Ji galio ja tik bendrų įjungtoms prekėms ir vietų kryptims, kurių darbo tipas yra *Paimti*. Eilutę turi būti įjungta bendriems siekiant naudoti *FEFO bendrų rezervavimo* strategiją ir *Apvalinimo iki viso LP* strategiją, kuri gali būti naudojama tik papildymui. Jei ši strategija konfigūruojama kartu su vietos talpos apribojimu, ji gali sukelti pasirinktimo padėjimo darbo vietos perpildymą ir atsargų apribojimus, kurie ignoruojami.
     - **Apvalinti iki pilno LP** – Ši strategija naudojama siekiant suapvalinti inventoriaus kiekį taip, kad jis atitiktų licencijos numerio kiekį priskirtą prekėms, kurias reikia paimti. Galite naudoti šią strategiją tik papildymo vietos nurodymams *Paėmimo* tipe. Jei ši strategija konfigūruojama kartu su vietos talpos apribojimu, ji gali sukelti pasirinktimo padėjimo darbo vietos perpildymą ir atsargų apribojimus, kurie ignoruojami.
     - **Licencijos numerio vedlys** – Naudokite šią strategiją išleisdami užsakymą į sandėlį siekiant sukurti paėmimo ir padėjimo darbą. Galite naudoti šią prieigą keliems licencijų numeriams. Ši strategija bandys rezervuoti ir kurti paėmimo darbą lyginant su vietomis, kurios paima būtinus licencijos numerius, susietus su perdavimo užsakymo eilutėmis. Nepaisant to, jei šie veiksmai negali būti užbaigti, bet vis dar norite sukurti paėmimo darbą, turėtumėte eiti į kitą strategiją vietos nurodymų veiksmams. Priklausomai nuo jūsų verslo proceso reikalavimų, jums gali reikėti ieškoti inventoriaus kitoje sandėlio srityje.
-    - **Tuščia vieta be jokio ateinančio darbo** – Naudokite šią strategiją, kad nustatytumėte tuščias vietas. Vieta laikoma tuščia, jei ji neturi jokių fizinių atsargų ir jokio tikimosi ateinančio darbo. Galite naudoti šią strategiją tik papildymo vietos nurodymams, kurių darbo tipas yra *Paėmimas*.
+    - **Tuščia vieta be jokio ateinančio darbo** – Naudokite šią strategiją, kad nustatytumėte tuščias vietas. Vieta laikoma tuščia, jei ji neturi jokių fizinių atsargų ir jokio tikimosi ateinančio darbo. Galite naudoti šią strategiją tik papildymo vietos nurodymams, kurių darbo tipas yra *Padėti*.
     - **Pasenusio FIFO nustatymas** – Naudokite pirmojo įeinančiojo, pirmojo išeinančio (FIFO) strategiją norėdami siųsti tiek bendrai sekamas prekes, tiek ir nesekamas prekes pagal datą, kai inventorius pateko į sandėlį. Ši galimybė gali būti ypatingai naudinga nebendram sekamam inventoriaus, kai nėra jokios galiojimo datos prieinamos siekiant naudoti rūšiavimą. FIFO strategija suranda vietą, kurioje yra seniausia pasenusi data ir tuomet nustato paėmimą pagal tą pasenusią datą.
     - **Pasenusio LIFO nustatymas** – Naudokite paskutinio įeinančiojo, paskutinio išeinančio (LIFO) strategiją norėdami siųsti tiek bendrai sekamas prekes, tiek ir nesekamas prekes pagal datą, kai inventorius pateko į sandėlį. Ši galimybė gali būti ypatingai naudinga nebendram sekamam inventoriaus, kai nėra jokios galiojimo datos prieinamos siekiant naudoti rūšiavimą. LIFO strategija suranda vietą, kurioje yra naujausia pasenusi data ir tuomet nustato paėmimą pagal tą pasenusią datą.
 

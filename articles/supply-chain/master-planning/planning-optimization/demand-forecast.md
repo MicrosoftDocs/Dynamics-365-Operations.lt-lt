@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
+ms.search.form: ReqPlanSched, ReqGroup, ReqReduceKey, ForecastModel
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cb696c365e02ab3e3b28da19b8b33f1975c142f8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7bd1268893d0869d2414b944493c8b8859f27abc
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983549"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501131"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Pagrindinis planavimas su paklausos prognozėmis
 
@@ -249,7 +249,7 @@ Todėl kuriami toliau nurodyti suplanuoti užsakymai.
 Prognozės mažinimo raktas naudojamas su prognozės poreikių mažinimo metoduose **Operacijos – mažinimo raktas** ir **Procentai – mažinimo raktas**. Atlikite toliau nurodytus veiksmus, kad sukurtumėte ir nustatytumėte mažinimo raktą.
 
 1. Pasirinkite **Bendrasis planavimas \> Sąranka \> Padengimas \> Mažinimo raktai**.
-2. Pasirinkite **Naujas** arba paspauskite **Ctrl + N**, kad sukurtumėte mažinimo raktą.
+2. Pasirinkite **Naujas**, kad sukurtumėte mažinimo raktą.
 3. Lauke **Mažinimo raktas** įveskite prognozės mažinimo rakto unikalų identifikatorių. Tada lauke **Pavadinimas** įveskite pavadinimą. 
 4. Nurodykite laikotarpius ir kiekvieno laikotarpio mažinimo rakto procentus.
 
@@ -265,8 +265,8 @@ Prekės padengimo grupei turi būti priskirtas prognozės mažinimo raktas. Atli
 2. „FastTab“ **Kita** lauke **Mažinimo raktas** pasirinkite mažinimo raktą, kurį priskirsite padengimo grupei. Tada mažinimo raktas taikomas visoms prekėms, kurios priklauso padengimo grupei.
 3. Jei norite naudoti mažinimo raktą, kad apskaičiuotumėte prognozės mažinimą bendrojo planavimo metu, šį parametrą turite nustatyti prognozės plane arba bendrajame plane. Atidarykite vieną iš toliau nurodytų vietų.
 
-    - Bendrasis planavimas \> Sąranka \> Planai \> Prognozės planai
-    - Bendrasis planavimas \> Sąranka \> Planai \> Bendrieji planai
+    - **Bendrasis planavimas \> Nustatymas \> Planai \> Prognozės planai**
+    - **Bendrasis planavimas \> Sąranka \> Planai \> Bendrieji planai**
 
 4. Puslapio **Prognozės planai** arba **Bendrieji planai** „FastTab“ **Bendra** lauke **Prognozes poreikių mažinimo metodas** pasirinkite **Procentai – mažinimo raktas** arba **Operacijos – mažinimo raktas**.
 
@@ -274,5 +274,69 @@ Prekės padengimo grupei turi būti priskirtas prognozės mažinimo raktas. Atli
 
 Kai parinktį **Operacijos – mažinimo raktas** arba **Operacijos – dinaminis laikotarpis** pasirenkate kaip prognozės poreikių mažinimo metodą, galite nurodyti, kurios operacijos sumažina prognozę. Puslapio **Padengimo grupės** „FastTab“ konteinerio **Kita** lauke **Prognozę sumažina** pasirinkite **Visos operacijos**, jei visos operacijos turėtų mažinti prognozę, arba **Užsakymai**, jei tik pardavimo užsakymai turėtų mažinti prognozę.
 
+## <a name="forecast-models-and-submodels"></a>Prognozės modeliai ir antriniai modeliai:
+
+Šiame skyriuje aprašoma, kaip kurti prognozės modelius ir kaip sujungti kelis prognozės modelius nustatant antrinius modelius.
+
+*Prognozės modelis* įvardija ir identifikuoja konkrečią prognozę. Sukūrę prognozės modelį, prie jo galite pridėti prognozės eilutes. Norėdami įtraukti kelių prekių prognozės eilutes, naudokite puslapį **Poreikio prognozės eilutės**. Norėdami konkrečiai pasirinktai prekei pridėti prognozės eilutes, naudokite puslapį **Išleisti produktai**.
+
+Prognozės modelis gali apimti prognozes iš kitų prognozės modelių. Norėdami pasiekti šį rezultatą, kitus prognozės modelius galite pridėti kaip pirminio prognozės modelio *antrinius modelius*. Kad jį galėtumėte pridėti kaip pirminio prognozės modelio antrinį modelį, turite sukurti kiekvieną atitinkamą modelį.
+
+Gauta struktūra leidžia valdyti prognozes galingu būdu, nes ji leidžia sujungti (telkti) įvestį iš kelių atskirų prognozių. Todėl planavimo požiūriu yra nesunku suderinti modeliavimų prognozes. Pavyzdžiui, galite nustatyti modeliavimą, pagrįstą įprastos prognozės ir pavasario akcijos prognozės deriniu.
+
+### <a name="submodel-levels"></a>Antrinio modelio lygiai
+
+Antrinių modelių, kuriuos galima pridėti prie pirminio prognozės modelio, skaičius neribojamas. Tačiau struktūra gali būti tik vieno lygio. Kitaip tariant, prognozės modelis, kuris yra kito prognozės modelio antrinis modelis, negali turėti savo antrinio modelio. Kaip prie prognozės modelio pridedate antrinius modelius, sistema tikrina, ar tas prognozės modelis jau yra kito prognozės modelio antrinis modelis.
+
+Jei bendrojo planavimo metu susiduriama su antriniu modeliu, kuris turi savo antrinius modelius, gausite klaidos pranešimą.
+
+#### <a name="submodel-levels-example"></a>Antrinių modelių lygių pavyzdys
+
+Prognozės A modelio prognozės B modelis yra antrinis modelis. Todėl B prognozės modelis negali turėti savo antrinių modelių. Jei prie B prognozės modelio bandysite pridėti antrinį modelį, gausite šį klaidos pranešimą: „B prognozės modelis yra A modelio antrinis modelis“.
+
+### <a name="aggregating-forecasts-across-forecast-models"></a>Prognozių telkimas prognozių modeliuose
+
+Tą pačią dieną įvykstančios prognozės eilutės telkiamos jų prognozės modelyje ir antriniuose modeliuose.
+
+#### <a name="aggregation-example"></a>Telkimo pavyzdys
+
+Prognozės A modelio prognozės B ir C modeliai yra antriniai modeliai.
+
+- Prognozės A modelis apima 2 vienetų (vnt.) poreikio prognozę birželio 15 d.
+- Prognozės B modelis apima 3 vnt. poreikio prognozę birželio 15 d.
+- Prognozės C modelis apima 4 vnt. poreikio prognozę birželio 15 d.
+
+Gauta poreikio prognozė bus vienas poreikis 9 vnt. (2 + 3 + 4) birželio 15 d.
+
+> [!NOTE]
+> Kiekvienas antrinis modelis naudoja savo, o ne pirminio prognozės modelio parametrus.
+
+### <a name="create-a-forecast-model"></a>Prognozės modelio kūrimas
+
+Norėdami kurti prognozės modelį, atlikite nurodytus veiksmus.
+
+1. Eikite į **Bendrasis planavimas \> Nustatymas \> Poreikio prognozė \> Prognozės modeliai**.
+1. Veiksmų srityje pasirinkite **Naujas**.
+1. Naujam prognozės modeliui nustatykite tokius laukelius:
+
+    - **Modelis** – įveskite unikalų modelio identifikatorių.
+    - **Pavadinimas** – įveskite modelį aprašantį pavadinimą.
+    - **Sustabdyta** – paprastai šią parinktį reikėtų nustatyti kaip *Ne*. Nustatykite *Taip* tik jei norite uždrausti redaguoti visas modeliui priskirtas prognozės eilutes.
+
+    > [!NOTE]
+    > Laukelis **Įtraukti biudžeto srautų prognozes** ir laukeliai „FastTab“ skirtuke **Projektas** nėra susiję su bendruoju planavimu. Todėl šiame kontekste galite jų nepaisyti. Turite juos apsvarstyti tik kai dirbate su modulio **Projekto valdymas ir apskaita** prognozėmis.
+
+### <a name="assign-submodels-to-a-forecast-model"></a>Prognozės modelio kaip antrinio modelio priskyrimas
+
+Kad prognozės modeliui priskirtumėte produkto savininką, atlikite nurodytus veiksmus.
+
+1. Eikite į **Atsargų valdymas \> Nustatymas \> Prognozė \> Prognozės modeliai**.
+1. Sąrašo srityje pasirinkite prognozės modelį, kuriam norite nustatyti antrinį modelį.
+1. „FastTab“ skirtuke **Antrinis modelis** pasirinkite **Pridėti** ir prie tinklelio pridėkite eilutę.
+1. Naujoje eilutėje nustatykite šiuos laukus:
+
+    - **Antrinis modelis** – pasirinkite prognozės modelį, kurį norite pridėti kaip antrinį modelį. Šis prognozės modelis jau turi egzistuoti ir neturi turėti savo antrinių modelių.
+    - **Pavadinimas** – antriniam modeliui įveskite aprašantį pavadinimą. Pavyzdžiui, šis pavadinimas gali nurodyti antrinio modelio ryšį su pirminiu prognozės modeliu.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

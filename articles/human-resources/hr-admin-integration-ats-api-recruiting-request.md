@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 572ee0755e331d19b41442e3614effb92db95a92
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: b89d257e3874ad7395c0a2c02f259c2f063aa8d0
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125430"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500627"
 ---
 # <a name="recruiting-request"></a>Įdarbinimo užklausa
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Šioje temoje aprašomas samdytino užklausos objektas „Dynamics 365 Human Resources“.
 
@@ -98,7 +100,8 @@ Aprašo prašymą pasamdyti darbui.
 | **Darbo tipo ID vertė**<br>_mshr_fk_jobtype_id_value<br>*GUID* | Tik skaitomas<br>Pasirinktinai<br>Užsienio raktas: mshr_hcmjobtypeentityid mshr_hcmjobtypenentity objektas | Sistemos sukurtas unikalus idnetifikatorius darbo tipas susietas su darbo samdymo užklausa. |
 | **Neapmokestinimo būsena**<br>mshr_exemptstatus<br>*JobExemptStatus* parinkties nustatymas | Tik skaitomas<br>Pasirinktinai | FLSA išlygos statusas pagal darbo tipą. |
 | **Apskaičiuota pradžios data**<br>mshr_estimatedstartdate<br>*Data* | Skaitymas/rašymas<br>Būtina | Apskaičiuota data, kai pretendentas pradės dirbti. |
-| **Išorės aprašas**<br>mshr_externaldescription<br>*Eilutė* | Skaitymas/rašymas<br>Pasirinktinai | Kandidatui suteiktas darbo ar pareigų aprašas. | Užmokesčio apatinis slenkstis<br>mshr_compensationlowthreshold<br>*Dvigubas* | Skaitymas/rašymas<br>Pasirinktinai | Apatinė užmokesčio lygio riba. |
+| **Išorės aprašas**<br>mshr_externaldescription<br>*Eilutė* | Skaitymas/rašymas<br>Pasirinktinai | Kandidatui suteiktas darbo ar pareigų aprašas. | 
+| **Užmokesčio apatinis slenkstis**<br>mshr_compensationlowthreshold<br>*Dvigubas* | Skaitymas/rašymas<br>Pasirinktinai | Apatinė užmokesčio lygio riba. |
 | **Užmokesčio valdymo taškas**<br>mshr_compensationcontrolpoint<br>*Dvigubas* | Skaitymas/rašymas<br>Pasirinktinai | Užmokesčio lygio valdymo taškas. |
 | **Užmokesčio viršutinis slenkstis**<br>mshr_compensationhighthreshold<br>*Dvigubas* | Skaitymas/rašymas<br>Pasirinktinai | Viršutinė užmokesčio lygio riba. |
 | **Užmokesčio lygis**<br>mshr_compensationlevelid<br>*Eilutė* | Skaitymas/rašymas<br>Pasirinktinai | Užmokesčio už darbą lygis. Darbas gali būti nustatytas su keliais užmokesčio lygiais. Šis atributas rodo pasirinktą darbo užmokesčio lygį užklausai. |

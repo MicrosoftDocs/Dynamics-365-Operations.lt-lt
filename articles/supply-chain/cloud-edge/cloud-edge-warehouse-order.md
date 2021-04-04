@@ -19,12 +19,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c04127b9fe621d962be2d7fe06358b3bd1b78916
-ms.sourcegitcommit: 289e9183d908825f4c8dcf85d9affd4119238d0c
+ms.openlocfilehash: 9102f53ab1b63d08b8bba7b0ae505416ec5a83fd
+ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5105720"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556367"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Sandėlio užsakymai, skirti debesies ir briaunos skalės vienetams
 
@@ -51,6 +51,8 @@ Norėdami sukurti sandėlio užsakymą, atlikite toliau nurodytus veiksmus.
 1. Eikite į **Pirkimas ir tiekėjų parinkimas \> Pirkimo užsakymai \> Visi pirkimo užsakymai**.
 1. Veiksmų srities skirtuke **Sandėlis** grupėje **Veiksmai** pasirinkite **Išleisti į sandėlį**.
 1. Norėdami peržiūrėti susijusias sandėlio užsakymo eilutes, atidarykite reikiamą pirkimo užsakymą, pasirinkite eilutę, esančią skyriuje **Pirkimo užsakymo eilutės** ir tada įrankių juostoje pasirinkite **Sandėlis \> Sandėlio užsakymo eilutės**. Norėdami peržiūrėti visas eilutes, eikite į **Sandėlio valdymas \> Užklausos ir ataskaitos \> Sandėlio užsakymo eilutės**.
+
+Taip pat procesą *Išleisti į sandėlį* galima paleisti iš paketinės užduoties, einant į **Sandėlio tvarkymas > Išleisti į sandėlį > Automatinis pirkimo užsakymų išleidimas**. Nustatydami paketinę užduotį galite pasirinkti konkrečias pirkimo užsakymo eilutes pagal užklausą. Įprastas scenarijus būtų nustatyti pasikartojančią paketinę užduotį, kuri išleidžia visas patvirtintas pirkimo užsakymo eilutes, kurias numatoma gauti kitą dieną.
 
 ## <a name="cancel-a-warehouse-order"></a>Sandėlio užsakymo atšaukimas
 

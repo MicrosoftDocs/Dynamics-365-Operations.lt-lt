@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e5fd978c1e9db7e7ce3c06bbeb45b59854f1582
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ea5952376fe30f489d385c8f8295fbf86f2af085
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974665"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470742"
 ---
 # <a name="create-service-task-relations"></a>Aptarnavimo užduočių ryšių kūrimas    
 
@@ -32,13 +32,13 @@ Aptarnavimo užduotis galima susieti su aptarnavimo sutartimis arba aptarnavimo 
 
 ## <a name="create-a-relation-with-a-service-agreement"></a>Ryšio su aptarnavimo sutartimi kūrimas
 
-1.  Spustelėkite **Aptarnavimo valdymas** \> **Bendrasis** \> **Aptarnavimo sutartys** \> **Aptarnavimo sutartys**.
+1.  Eikite į **Aptarnavimo valdymas** \> **Bendrasis** \> **Aptarnavimo sutartys** \> **Aptarnavimo sutartys**.
 
 2.  Pasirinkite esamą aptarnavimo sutartį arba sukurkite naują.
 
-3.  Veiksmų srityje spustelėkite mygtuką **Aptarnavimo užduotys**.
+3.  Veiksmų srityje pasirinkite mygtuką **Aptarnavimo užduotys**.
 
-4.  Formoje **Aptarnavimo užduotys** paspaudę CTRL+N sukursite naują eilutę, tada iš sąrašo **Aptarnavimo užduotis** pasirinkite aptarnavimo užduotį ir prie aptarnavimo sutarties pridėkite aptarnavimo užduotį.
+4.  Formoje **Aptarnavimo užduotys** pasirinkę **Naujas** sukursite naują eilutę, tada iš sąrašo **Aptarnavimo užduotis** pasirinkite aptarnavimo užduotį ir prie aptarnavimo sutarties pridėkite aptarnavimo užduotį.
 
 5.  Skirtuke **Aprašas** esančiuose laisvos formos teksto laukuose įveskite bet kurių vidinių ir išorinių pastabų aprašus.
 
@@ -50,13 +50,13 @@ Aptarnavimo užduočių ryšys, sukurtas aptarnavimo užduotyje, prieinamas iš 
 
 ## <a name="create-a-relation-with-a-service-order"></a>Ryšio su aptarnavimo užsakymu kūrimas
 
-1.  Spustelėkite **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**.
+1.  Eikite į **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**.
 
 2.  Pasirinkite esamą aptarnavimo užsakymą arba sukurkite naują.
 
-3.  Veiksmų srityje spustelėkite mygtuką **Aptarnavimo užduotys**.
+3.  Veiksmų srityje pasirinkite mygtuką **Aptarnavimo užduotys**.
 
-4.  Formoje **Aptarnavimo užduotys** paspaudę CTRL+N sukursite naują eilutę, tada iš sąrašo **Aptarnavimo užduotis** pasirinkite aptarnavimo užduotį ir prie aptarnavimo užsakymo pridėkite aptarnavimo užduotis.
+4.  Formoje **Aptarnavimo užduotys** pasirinkę **Naujas** sukursite naują eilutę, tada iš sąrašo **Aptarnavimo užduotis** pasirinkite aptarnavimo užduotį ir prie aptarnavimo užsakymo pridėkite aptarnavimo užduotis.
 
 5.  Skirtuke **Aprašas** esančiuose laisvos formos teksto laukuose įveskite bet kurių vidinių ir išorinių pastabų aprašus.
 

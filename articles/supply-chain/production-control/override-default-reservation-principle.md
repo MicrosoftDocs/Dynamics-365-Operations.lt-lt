@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8756dc22ffd64f836740124ce08dadca84207147
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: 2391ec11bd497c69ddb19e29533f5441d7374877
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5078287"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501107"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Numatytojo medžiagų gamybos rezervavimo principo perrašymas
 
@@ -38,11 +39,11 @@ Pavyzdžiui, jei turite žaliavų ar ingredientų, kuriems reikia paėmimo darbo
 Prieš naudodami šią funkciją, turite ją įjungti savo sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
 
 - **Modulis:** *Gamybos kontrolė*
-- **Funkcijos pavadinimas:** *Numatytojo gamybos rezervavimo perrašymas*
+- **Funkcijos pavadinimas:** *Numatytojo gamybos rezervavimo perrašymas (peržiūros versija)*
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Priskirkite gamybos rezervavimo strategiją prekių modelių grupei
 
-1. Eikite į **Išlaidų valdymas &gt; Atsargų apskaitos strategijų nustatymas &gt; Prekių modelių grupės**.
+1. Eikite į **Išlaidų valdymas \> Atsargų apskaitos strategijų nustatymas \> Prekių modelių grupės**.
 1. Sukurkite arba pasirinkite prekių modelių grupę.
 1. „FastTab” **Atsargų strategijos** pasirinkite **Perrašyti prekės gamybos rezervavimą** žymės langelį.
 1. Lauke **Rezervavimas** pasirinkite rezervavimo principą prekėms, kurios priklauso pasirinktai modelių grupei. (Šios prekės apima prekes, esančias KS arba formulės eilutėje.)

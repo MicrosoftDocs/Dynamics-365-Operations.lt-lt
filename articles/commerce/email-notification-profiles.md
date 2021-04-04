@@ -1,9 +1,9 @@
 ---
 title: El. paštu siunčiamų pranešimų šablono nustatymas
 description: Šioje temoje aprašoma, kaip „Microsoft Dynamics 365 Commerce“ sukurti el. paštu siunčiamų pranešimų šabloną.
-author: samjarawan
+author: bicyclingfool
 manager: annbe
-ms.date: 03/31/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -13,26 +13,23 @@ ms.reviewer: v-chgri
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: samjar
+ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9378fb200a239433f2023bb90f72840dace1c0eb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d82a1abe68ff6e162acb75c6fdc1e207af11c279
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000829"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555312"
 ---
-# <a name="set-up-an-email-notification-profile"></a>El. paštu siunčiamų pranešimų šablono nustatymas
-
+# <a name="set-up-an-email-notification-profile"></a>El. paštu siunčiamo pranešimo šablono nustatymas
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip „Microsoft Dynamics 365 Commerce“ sukurti el. paštu siunčiamų pranešimų šabloną.
 
-## <a name="overview"></a>Peržiūrėti
-
-Prieš kurdami kanalus, nustatykite šabloną, kad būtų užtikrinta, jog el. paštu siunčiami pranešimai būtų siunčiami įvairių įvykių, pvz., užsakymo kūrimo, užsakymo siuntimo būsenos ir mokėjimo klaidos, atvejais.
+Kurdami kanalus galite nustatyti el. paštu siunčiamo pranešimo profilį. Tokiu būdu el. laiškus galima siųsti klientams dėl įvairių operacijų įvykių, pvz., užsakymo sukūrimo, užsakymo siuntimo būsenos ir mokėjimo trikties.
 
 Papildomos informacijos apie tai, kaip konfigūruoti el. paštą, žr. [El. laiškų konfigūravimas ir siuntimas](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
@@ -48,7 +45,7 @@ Norėdami sukurti el. paštu siunčiamų pranešimų šabloną, atlikite tolesni
 
 ### <a name="create-an-email-template"></a>El. laiško šablono kūrimas
 
-Prieš sukuriant el. paštu siunčiamą pranešimą, reikia sukurti organizacijos el. pašto šabloną, kuriame būtų siuntėjo el. pašto informacija ir el. pašto šablonas.
+Kad būtų galima įgalinti el. paštu siunčiamo pranešimo tipą, „Commerce“ valdymo srityje reikia sukurti organizacijos el. laiško šabloną. Šiame šablone apibrėžiamas kiekvienos norimos palaikyti kalbos el. laiško tema, siuntėjas, numatytoji kalba ir el. laiško tekstas.
 
 Norėdami sukurti el. pašto šabloną, atlikite toliau nurodytus veiksmus.
 
@@ -58,7 +55,7 @@ Norėdami sukurti el. pašto šabloną, atlikite toliau nurodytus veiksmus.
 1. Lauke **Siuntėjo vardas, pavardė** įveskite siuntėjo vardą, pavardę.
 1. Lauke **El. pašto aprašas** įveskite reikšmingą aprašą.
 1. Lauke **Siuntėjo el. paštas** įveskite siuntėjo el. pašto adresą.
-1. Skyriuje **Bendra** įrašykite visą reikiamą neprivalomą informaciją (pvz., el. pašto prioritetą).
+1. Dalyje **Bendra** pasirinkite numatytąją el. laiško šablono kalbą. Numatytoji kalba bus naudojama, kai nėra jokio lokalizuoto šablono nurodyta kalba.
 1. Išplėskite skyrių **El. laiško turinys** ir pasirinkite **Naujas**, kad sukurtumėte šablono turinį. Pasirinkite kiekvieno turinio elemento kalbą ir nurodykite el. pašto temą. Jei el. laiške bus teksto, užtikrinkite, kad pažymėtas žymės langelis **Yra teksto**.
 1. Veiksmų srityje pasirinkite **El. laiško tekstas** ir sukurkite el. laiško teksto šabloną.
 

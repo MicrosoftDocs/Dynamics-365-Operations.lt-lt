@@ -3,7 +3,7 @@ title: Palūkanų tarifų nustatymas palūkanų kodui
 description: Delspinigių koduose yra parametrų, kurie nustato, kokie delspinigiai taikomi laiku neapmokėtoms sąskaitoms ir kaip jie apskaičiuojami.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 01/12/2018
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1169a397dfdd32f728a09e2ad279842edc289c19
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5d9ff856e34eb894c5d0ab5fe17c8e95f62fff57
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971634"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555370"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Palūkanų tarifų nustatymas palūkanų kodui
 
@@ -46,10 +46,19 @@ Galite nustatyti delspinigių tarifus, kurie apskaičiuoja nurodytą procentą.
 
 - Delspinigių suma taikoma visoms valiutoms.
 - Galima įvesti pasirinktinius delspinigių sumos limitus.
-- Puslapio <strong>Nustatyti delspinigių kodus</strong> lauke **Skaičiuoti delspinigius pagal<strong> pasirenkama** </strong> <strong>Procentą</strong>.
+- Puslapio **Nustatyti delspinigių kodus** lauke **Skaičiuoti delspinigius pagal** pasirenkama  **Procentą**.
 
 Pvz., norėdami nustatyti palūkanų kodą, kuris apskaičiuoja 5 proc. palūkanas už kiekvienus du mėnesius, kiek vėluojama apmokėti sąskaitą faktūrą, lauke **Skaičiuoti palūkanas kas** turėtumėte įvesti 2 ir pasirinkti **Mėn.**.
 
+> [!NOTE] 
+> Naujas delspinigių pažymos apskaičiavimo algoritmas įtraukiamas naudojant funkcijų valdymą. Norėdami naudoti šį algoritmą, įgalinkite funkciją **(GBL) Leisti apskaičiuoti dienines palūkanas metinį procentą padalijant iš 365**. Daugiau informacijos apie tai, kaip įjungti funkciją, žr. temoje [Funkcijų valdymo apžvalga](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+> 
+> Toliau pateikta delspinigių pažymos sumos apskaičiavimo formulė. 
+>  
+> Delspinigių pažymos suma = Pasiskolinta suma * Metinės palūkanos % / 365 * Vėlavimo dienų skaičius
+>  
+> Ši funkcija pasiekiama 10.0.18 arba vėlesnėje versijoje.    
+ 
 ## <a name="interest-rates-based-on-amounts"></a>Delspinigių tarifai pagal sumas
 Galite nustatyti delspinigių tarifus, kurie apskaičiuoja nurodytą sumą pagal valiutą.
 - Delspinigių kode nurodoma kiekvienos valiutos delspinigių suma.

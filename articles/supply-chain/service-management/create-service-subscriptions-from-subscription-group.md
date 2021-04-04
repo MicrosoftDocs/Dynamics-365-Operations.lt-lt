@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c486567934f90a69aad3650d689fbff3256d397
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 777dfa2078adf31d651003f1075203c9b016ab1a
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974714"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470719"
 ---
-# <a name="create-service-subscriptions-from-a-subscription-group"></a>Aptarnavimo abonementų kūrimas naudojant abonementų grupę 
+# <a name="create-service-subscriptions-from-a-subscription-group"></a>Aptarnavimo prenumeratų kūrimas naudojant prenumeratų grupę 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  Spustelėkite **Aptarnavimo valdymas** \> **Sąranka** \> **Aptarnavimo abonementai** \> **Abonementų grupės**.
+1.  Pasirinkite **Aptarnavimo valdymas** \> **Sąranka** \> **Aptarnavimo abonementai** \> **Abonementų grupės**.
 
 2.  Pasirinkite abonemento grupę.
 
-3.  Spustelėkite mygtuką **Aptarnavimo abonementai**.
+3.  Pasirinkite mygtuką **Aptarnavimo abonementai**.
 
-4.  Norėdami sukurti naują abonementą, paspauskite CTRL+N. Abonementų grupės lauke rodoma informacija iš abonemento grupės formoje **Abonementas**.
+4.  Pasirinkite **Naujas**, kad sukurtumėte naują prenumeratą. Abonementų grupės lauke rodoma informacija iš abonemento grupės formoje **Abonementas**.
 
 5.  Įveskite informaciją likusiuose laukuose.
 
