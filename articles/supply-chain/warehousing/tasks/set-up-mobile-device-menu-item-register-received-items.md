@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d6f9cf258a991b88faa0d2db90cd3c21f9703267
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 81282e8db199c0d81e4f10de964b2fd09a5734fe
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976968"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5255996"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>Mobiliojo įrenginio meniu elemento gautoms prekėms registruoti nustatymas
 
@@ -37,7 +37,7 @@ ms.locfileid: "4976968"
 2. Pasirinkite **Naujas**.
 3. Lauke **Meniu elemento pavadinimas** įveskite reikšmę. Tai šio mobiliojo įrenginio meniu elemento unikalus identifikatorius. Pavyzdžiui, galite įvesti `My PO registration`.  
 4. Lauke **Pavadinimas** įveskite reikšmę. Tai yra pavadinimas, kuris bus rodomas vartotojui mobiliajame įrenginyje. Pavyzdžiui, galite įvesti `PO registration`.  
-5. Lauke **Režimas** pasirinkite **Darbas**. Užregistravus turimus kiekius, gautus pirkimo užsakymo eilutei, bus sukuriamas darbas, kad būtų galima perkelti prekes iš gavimo skyriaus į atsargas. Darbas sukuriamas tik tada, kai prekės užregistruotos. Todėl palikite parinkties **Naudoti esamą darbą** nuostatą **Ne**. 
+5. Lauke **Režimas** pasirinkite **Darbas**. Užregistravus turimus kiekius, gautus pirkimo užsakymo eilutei, bus sukuriamas darbas, kad būtų galima perkelti prekes iš gavimo skyriaus į atsargas. Darbas sukuriamas tik tada, kai prekės užregistruotos. Todėl palikite parinkties **Naudoti esamą darbą** nuostatą **Ne**.
 6. Skyriaus **Bendra** lauke **Darbo kūrimo procesas** pasirinkite **Pirkimo užsakymo prekės gavimas**.
     - Norint užregistruoti turimą kiekį sandėlyje, pirkimo užsakymo eilutė turi būti unikaliai identifikuota. Šiuo atveju mobilusis įrenginys užregistruos pirkimo užsakymo numerį ir prekės numerį ir taip sistema galės identifikuoti PO eilutę. Bus sukurtas atidėjimo laikas ir galės išrinkti kitas darbuotojas. Nuo pasirinkto darbo kūrimo metodo priklauso, kurie laukai bus pasiekiami „FastTab“ **Bendra**.  
     - Jei pažymėsite parinktį **Naudoti numatytuosius duomenis**, bus įjungtas mygtukas **Numatytieji duomenys**. Čia galite pasirinkti laukus, kuriuose bus rodomi duomenys, paprastai reikalingi darbuotojui kasdieniame jo darbe, kad šios reikšmės būtų rodomos mobiliajame įrenginyje.  

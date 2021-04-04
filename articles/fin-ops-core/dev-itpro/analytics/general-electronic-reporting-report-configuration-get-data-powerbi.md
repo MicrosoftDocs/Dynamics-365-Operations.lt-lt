@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 34d4ad9106b2751c77db4fd03d83932e587a5332
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6e4bdb7be83bff8fc9491e360a480f44189730d2
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680125"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568706"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Įrankio Elektroninės ataskaitos (ER) konfigūravimas duomenims perkelti į „Power BI“
 
@@ -29,7 +28,7 @@ ms.locfileid: "4680125"
 
 Šioje temoje paaiškinama, kaip galima naudoti elektroninio ataskaitų (ER) konfigūraciją, norint išdėstyti duomenų perkėlimą iš egzemplioriaus į „Power BI“ tarnybas. Šioje temoje pateikiamame pavyzdyje „Intrastat“ operacijos naudojamos kaip verslo duomenys, kuriuos reikia perkelti. „Power BI“ schemos vizualizacijoje naudojami šie „Intrastat“ operacijų duomenys, kad „Power BI“ ataskaitoje būtų pateiktas įmonės importavimo / eksportavimo veiklų analizės rodinys.
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Peržiūra
 
 „Microsoft Power BI“ yra programinės įrangos paslaugų, programų ir jungčių, kurios kartu naudojamos norint išorinius duomenų šaltinius paversti nuosekliomis, vizualiai įtraukiančiomis ir interaktyvių įžvalgomis, rinkinys. Elektroninės ataskaitos (ER) vartotojams suteikia galimybę lengvai konfigūruoti duomenų šaltinius ir išdėstyti duomenų perkėlimą iš programos į „Power BI“. Duomenys perkeliami kaip failai „OpenXML“ darbalapio („Microsoft Excel“ darbaknygės failų) formatu. Perkelti failai saugomi „Microsoft SharePoint Server“, kuris šiuo tikslu sukonfigūruotas. Saugomi failai naudojami „Power BI“ norint kurti ataskaitas su vizualizacijomis (lentelėmis, diagramomis, schemomis ir t.t.). „Power BI“ ataskaitas bendrai naudoja „Power BI“ vartotojai, ir jas galima pasiekti „Power BI“ ataskaitų srityse bei programos puslapiuose. Šioje temoje paaiškinamos toliau nurodytos užduotys.
 
