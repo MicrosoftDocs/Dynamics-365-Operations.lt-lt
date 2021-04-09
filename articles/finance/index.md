@@ -2,11 +2,9 @@
 title: „Finance“ pagrindinis puslapis
 description: Šioje temoje pateikiamas „Microsoft Dynamics 365 Finance“ finansų valdymo funkcijų žinyno temų ir kitų išteklių sąrašas.
 author: roschlom
-manager: AnnBe
 ms.date: 06/20/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7b2338bcb727e0a513430c74b28b54f2101f2e3b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8fcd7be16d20d93adaa81e6183912c89be0a301d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218888"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813488"
 ---
 # <a name="finance-home-page"></a>„Finance“ pagrindinis puslapis
 
@@ -71,8 +69,10 @@ Peržiūrėkite mokomuosius vaizdo įrašus, kuriuos dabar galite rasti [„Micr
 
 ### <a name="additional-content"></a>Papildomas turinys
 
-Tiekimo grandinės valdymo funkcijos apima įsigijimo ir apmokėjimo proceso dalis, į kurias įeina pareikalavimas, užsakymas, gavimas, sąskaitų faktūrų išrašymas ir apmokėjimas už organizacijos įsigytas prekes ir paslaugas. Informaciją apie pirkimo, atsargų ir gamybos pajėgumus žr. [pagrindiniame „Supply Chain Management” puslapyje](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md). 
+Tiekimo grandinės valdymo funkcijos apima įsigijimo ir apmokėjimo proceso dalis, į kurias įeina pareikalavimas, užsakymas, gavimas, sąskaitų faktūrų išrašymas ir apmokėjimas už organizacijos įsigytas prekes ir paslaugas. Informaciją apie pirkimo, atsargų ir gamybos pajėgumus žr. [pagrindiniame „Supply Chain Management” puslapyje](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md).
 
+## <a name="elearning-courses"></a>El. mokymosi kursai
 
+Internetinių kursų ir mokymų ieškokite [Dynamics 365 Finance, esančiame Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-finance&resource_type=learning%20path).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

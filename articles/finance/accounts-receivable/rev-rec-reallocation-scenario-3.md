@@ -2,11 +2,9 @@
 title: Įplaukų pripažinimo perskirstymas – 3 scenarijus
 description: Šioje temoje aptariamas perskirstymo scenarijus, kai į esamą pardavimo užsakymą, kuriam išrašyta dalinė SF, įtraukiama nauja eilutė. Kai į sutartį įtraukiama nauja prekė, ją galima įtraukti į naują pardavimo užsakymą arba į esamą pardavimo užsakymą.
 author: kweekley
-manager: aolson
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ca61a64199d9a61d0ddaa95c49e847e4be35c07b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2105973470877f59fd9c4e8d1b1bfc1875a394b3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238333"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833142"
 ---
 # <a name="revenue-recognition-reallocation--scenario-3"></a>Įplaukų pripažinimo perskirstymas – 3 scenarijus
 

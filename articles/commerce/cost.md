@@ -2,11 +2,9 @@
 title: Savikainos konfigūravimas naudojant paskirstytų užsakymų tvarkymo (DOM) funkciją
 description: Šioje temoje aprašomas savikainos konfigūravimas naudojant „Dynamics 365 Commerce“ paskirstytų užsakymų tvarkymo (DOM) funkciją.
 author: josaw1
-manager: AnnBe
 ms.date: 12/05/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-12-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: bfdfee76840380b7dc7ea5043d7e188e3deebf05
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f3ed387bf7925785c33e2f0c07e9aba898334567
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213919"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795984"
 ---
 # <a name="cost-configuration-for-distributed-order-management-dom"></a>Savikainos konfigūravimas naudojant paskirstytų užsakymų tvarkymo (DOM) funkciją
 

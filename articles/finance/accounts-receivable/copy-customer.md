@@ -2,11 +2,9 @@
 title: Klientų kopijavimas naudojant bendrinamas numeracijas
 description: Šioje temoje paaiškinama, kaip, naudojant bendrinamas numeracijas, klientą nukopijuoti į kitą juridinį subjektą, bet išlaikyti tą patį kliento ID.
 author: mikefalkner
-manager: aolson
 ms.date: 08/31/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 57ee142d3611aeae8da3f9335ea5837910ffa636
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9f7d3648514bcdb3ad249c657f34ecc5e1d817d3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217559"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827607"
 ---
 # <a name="copy-customers-by-using-shared-number-sequences"></a>Klientų kopijavimas naudojant bendrinamas numeracijas
 
