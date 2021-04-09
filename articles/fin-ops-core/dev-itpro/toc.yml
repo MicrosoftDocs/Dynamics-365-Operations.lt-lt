@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-17.md
                 - name: "„Platform“ naujinimai, skirti 10.0.16 (2021\_m. vasario mėn.)"
                   href: get-started/whats-new-platform-updates-10-0-16.md
-                - name: "„Platform“ naujinimai, skirti 10.0.15 (2021\_m. sausio mėn.)"
-                  href: get-started/whats-new-platform-updates-10-0-15.md
             - name: Pašalintos arba nebenaudojamos funkcijos
               items:
                 - name: Pašalintų arba nebenaudojamų funkcijų pagrindinis puslapis
@@ -226,6 +224,10 @@
                               href: data-entities/dual-write/inventory-availability.md
                             - name: 'Integruotas darbininkas, užduotis ir padėtis'
                               href: data-entities/dual-write/integrated-hr.md
+                            - name: Šalis ir visuotinė adresų knygelė
+                              href: data-entities/dual-write/party-gab.md
+                            - name: „Power Portal“ naudojimas su šalies duomenų modeliu
+                              href: data-entities/dual-write/party-gab-portal.md
                             - name: Pastabų integravimas
                               href: data-entities/dual-write/notes-integration.md
                             - name: Susiejimo nuoroda
@@ -526,13 +528,15 @@
                   items:
                     - name: Vietinių projektų LCS nustatymas
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: Vietinių aplinkų nustatymas ir visuotinis diegimas
+                    - name: Vietinių aplinkų nustatymas ir diegimas („Platform update 41“ar naujesnės versijos)
+                      href: deployment/setup-deploy-on-premises-pu41.md
+                    - name: Vietinių aplinkų nustatymas ir diegimas („Platform update“ nuo 12 iki 40 versijos)
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: „Retail“ kanalų komponentų vietinėje aplinkoje diegimo veiksmai
                       href: deployment/deploy-retail-onprem.md
                     - name: Pasirinktinių modelių kūrimas ir visuotinis diegimas vietinėse aplinkose
                       href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: Aplinkos priežiūra
+                - name: Aplinkos operacijos
                   items:
                     - name: Vietinio visuotinio diegimo naujinimų taikymas
                       href: deployment/apply-updates-on-premises.md
@@ -542,6 +546,8 @@
                       href: user-interface/client-disconnected.md
                     - name: Tik paketo ir tik interaktyvių AOS mazgų konfigūravimas vietinėse įdiegtyse
                       href: deployment/onprem-batchonly.md
+                    - name: Didelio SQL serverio ataskaitų tarnybos (SSRS) mazgų pasiekiamumo konfigūravimas
+                      href: deployment/onprem-SSRSHA.md
                     - name: Vietinių aplinkų tarpinių serverių konfigūravimas
                       href: deployment/onprem-reverseproxy.md
                     - name: Vietinė diagnostika
@@ -1136,20 +1142,24 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: „Microsoft Power Platform“ integravimas
           items:
-            - name: „Microsoft Power Platform“ integravimas su „Finance and Operations“
-              href: power-platform/overview.md
-            - name: Priedų peržiūra
-              href: power-platform/add-ins-overview.md
-            - name: Objekto modeliavimas
-              href: power-platform/entity-modeling.md
-            - name: Programos ciklo valdymas
-              href: power-platform/application-lifecycle-management.md
-            - name: „Finance and Operations“ ir „Dataverse“ administravimo nuoroda
-              href: power-platform/admin-reference.md
-            - name: „Power Apps“ portalai su „Finance and Operations“
-              href: power-platform/power-portal-reference.md
-            - name: DUK apie „Finance and Operations“ virtualius objektus
-              href: power-platform/faq.md
+            - name: Virtualūs objektai
+              items:
+                - name: „Microsoft Power Platform“ integravimas su „Finance and Operations“
+                  href: power-platform/overview.md
+                - name: Objekto modeliavimas
+                  href: power-platform/entity-modeling.md
+                - name: Programos ciklo valdymas
+                  href: power-platform/application-lifecycle-management.md
+                - name: „Finance and Operations“ ir „Dataverse“ administravimo nuoroda
+                  href: power-platform/admin-reference.md
+                - name: „Power Apps“ portalai su „Finance and Operations“
+                  href: power-platform/power-portal-reference.md
+                - name: DUK apie „Finance and Operations“ virtualius objektus
+                  href: power-platform/faq.md
+            - name: Priedai
+              items:
+                - name: Priedų peržiūra
+                  href: power-platform/add-ins-overview.md
         - name: Mobilioji platforma
           items:
             - name: Mobiliosios platformos ištekliai
@@ -1390,6 +1400,8 @@
               href: perf-test/rsat/rsat-derived-test-cases.md
             - name: „Regression Suite Automation Tool“ mokymo programa
               href: perf-test/rsat/rsat-tutorial.md
+            - name: Ne administratoriaus vartotojų konfigūravimas
+              href: perf-test/rsat/rsat-configure-nonadmin.md
             - name: Geriausia praktika
               href: perf-test/rsat/rsat-best-practices.md
             - name: Agnostinis duomenų testavimas naudojant „Regression Suite Automation Tool“

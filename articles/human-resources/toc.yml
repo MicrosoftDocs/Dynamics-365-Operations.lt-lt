@@ -1,17 +1,19 @@
-- name: „Dynamics 365 Human Resources“
+- name: Dynamics 365 Human Resources
   href: hr-welcome.md
   items:
     - name: Kas nauja
       items:
         - name: Kas nauja ar pasikeitė „Human Resources”
           href: hr-admin-whats-new.md
-        - name: "2021\_m. kovo 8\_d."
+        - name: 2021 m. kovo 22 d.
+          href: hr-whats-new-2021-03-22.md
+        - name: 2021 m. kovo 8 d.
           href: hr-whats-new-2021-03-08.md
-        - name: "2021\_m. vasario 22\_d."
+        - name: 2021 m. vasario 22 d.
           href: hr-whats-new-2021-02-22.md
-        - name: "2021\_m. sausio 28\_d."
+        - name: 2021 m. sausio 28 d.
           href: hr-whats-new-2021-01-28.md
-        - name: "2021\_m. sausio 21\_d."
+        - name: 2021 m. sausio 21 d.
           href: hr-whats-new-2021-01-21.md
         - name: "2020\_m. gruodžio 2\_d."
           href: hr-whats-new-2020-12-02.md
@@ -265,6 +267,8 @@
               href: hr-admin-troubleshooting-batch-jobs.md
             - name: Efektyvumo optimizavimas naudojant automatinio valymo užduotis
               href: hr-admin-troubleshooting-batch-history.md
+            - name: Užstrigusių paketinių užduočių nustatymas iš naujo
+              href: hr-admin-troubleshooting-batch-execution.md
             - name: Neatnaujinamos analizės ataskaitos
               href: hr-admin-troubleshooting-analytic-reports.md
             - name: Nepavyksta sukurti aplinkos „Power Apps“ administravimo centre
