@@ -2,11 +2,9 @@
 title: Pranešti kaip baigtą iš užduoties kortelės įrenginio
 description: Šioje temoje aprašoma, kaip konfigūruoti sistemą, kad užduočių kortelės įrenginio vartotojai galėtų pranešti apie gatavus produktus iš gamybos užsakymo į atsargas.
 author: johanhoffmann
-manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistrationSetupTouch
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7eabcb23681a9b2427fa1065b045e639cc98f9d7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bd21bdf532e1e607e66bb8f5ef032f0855c99612
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262146"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811635"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Pranešti kaip baigtą iš užduoties kortelės įrenginio
 
@@ -64,7 +62,7 @@ Užduoties kortelės įrenginys palaiko tris paketo elementų ataskaitų scenari
 Norėdami įjungti savo užduoties kortelės įrenginius, kad būtų galima priimti paketo numerį ataskaitos metu, kad baigta, turite naudoti [funkcijų valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad įjungtumėte šias funkcijas (šia tvarka):
 
 1. Patobulinta Ataskaitos eigos dialogo lango vartotojo patirtis Užduoties kortelės įrenginyje
-1. Įjunkite, kad galėtumėte įvesti paketo ir serijos numerius, kai pranešate apie baigimą Užduoties kortelės įrenginiu (peržiūra)
+1. Įgalinkite paketo ir serijos numerių įvedimą, kai pranešate apie baigimą darbo kortelės įrenginiu
 
 ### <a name="configure-products-that-require-batch-number-reporting"></a>Konfigūruoti produktus, kuriems reikia paketo numerio ataskaitos
 
@@ -142,7 +140,7 @@ Darbo kortelės prietaisas palaiko tris raportavimo scenarijus serijinėms kontr
 Tam, kad įjungtumėte savo užduoties kortelės prietaisą, kad jis priimtų serijinį numerį po ataskaitų rengimo pabaigos, turite naudoti [funkcijos valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tam, kad įjungtumėte vieną iš tolesnių funkcijų (tokia tvarka):
 
 1. Patobulinta Ataskaitos eigos dialogo lango vartotojo patirtis Užduoties kortelės įrenginyje
-1. Įjunkite, kad galėtumėte įvesti paketo ir serijos numerius, kai pranešate apie baigimą Užduoties kortelės įrenginiu (peržiūra)
+1. Įgalinkite paketo ir serijos numerių įvedimą, kai pranešate apie baigimą darbo kortelės įrenginiu
 
 ### <a name="configure-products-that-require-serial-number-reporting"></a>Konfigūruoti produktus, kuriems reikia serijinio numerio ataskaitos
 

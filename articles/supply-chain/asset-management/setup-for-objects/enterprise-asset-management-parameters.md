@@ -1,12 +1,10 @@
 ---
 title: Turto valdymo parametrai
 description: Turto valdymo srityje būtina nustatyti bendruosius parametrus, susijusius su turtu, darbo užsakymais ir darbo užsakymų planavimu.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99ef5169d2c6a31efd3e7a7c92beade994f6e5f5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8df8e6204e9c64305387e6aed304142d7f13b33a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5252014"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808333"
 ---
 # <a name="asset-management-parameters"></a>Turto valdymo parametrai
 
@@ -85,7 +83,7 @@ Toliau pateiktame sąraše aprašyti visis laukai, susiję su vertinimo rezultat
 - **Apriboti iki atsakingų** – tai riboja darbo užsakymų planavimui prieinamų darbuotojų skaičių. Pasirinkite **Ne**, jei norite apskaičiuoti visų darbuotojų įvertinimą, neatsižvelgiant į tai, ar jie nustatyti kaip atsakingi darbuotojai ar atsakingų darbuotojų grupės dalis. Pasirinkite **Taip**, jei norite apskaičiuoti įvertinimą darbuotojų, kurie darbo užsakyme nustatyti kaip atsakingi darbuotojai ir (arba) įtraukti į darbo užsakyme pasirinktą atsakingų darbuotojų grupę.  
 - **Pageidaujamas darbuotojas** – vertinimo balas, apskaičiuojamas kartu su įvertinimo balo reikšmėmis **Atsakingas darbuotojas**, **Pageidaujamas darbuotojas**, **Pageidaujama darbuotojų grupė**, **Turto vieta** ir **Pradžios data**. Keturi įvertinimo balai apskaičiuojami ir sudedami, kad būtų pateiktas rezultatas, naudojamas pasirenkant, kuris darbuotojas turėtų būti priskirtas darbo užsakymui darbo užsakymo planavimo metu. Jei šiame lauke įterpiama reikšmė „10,00“ ir darbo užsakyme pasirinktas kaip pageidaujamas darbuotojas, darbo užsakymo planavimo metu tas darbuotojas gauna 10 taškų atliekant bendrąjį darbuotojo skaičiavimą.  
 - **Pageidaujamų darbuotojų grupė** – vertinimo balas, apskaičiuojamas kartu su įvertinimo balo reikšmėmis **Atsakingas darbuotojas**, **Pageidaujamas darbuotojas**, **Pageidaujama darbuotojų grupė**, **Turto vieta** ir **Pradžios data**. Jei šiame lauke įterpiama reikšmė „10,00“ ir darbuotojas darbo užsakyme priskirtas pageidaujamų darbuotojų grupei, darbo užsakymo planavimo metu tas darbuotojas gauna 10 taškų atliekant bendrąjį darbuotojo skaičiavimą.  
-- **Apriboti iki pageidajamų** – tai riboja darbo užsakymų planavimui prieinamų darbuotojų skaičių. Pasirinkite **Ne**, jei norite apskaičiuoti visų darbuotojų įvertinimą, neatsižvelgiant į tai, ar jie nustatyti kaip pageidaujami darbuotojai ar pageidaujamų darbuotojų grupės dalis. Pasirinkite **Taip**, jei norite apskaičiuoti įvertinimą tik darbuotojų, kurie yra nustatyti kaip pageidaujami darbuotojai ir (arba) įtraukti į pageidaujamų darbuotojų grupę.  
+- **Apriboti iki pageidaujamų** – tai riboja darbo užsakymų planavimui prieinamų darbuotojų skaičių. Pasirinkite **Ne**, jei norite apskaičiuoti visų darbuotojų įvertinimą, neatsižvelgiant į tai, ar jie nustatyti kaip pageidaujami darbuotojai ar pageidaujamų darbuotojų grupės dalis. Pasirinkite **Taip**, jei norite apskaičiuoti įvertinimą tik darbuotojų, kurie yra nustatyti kaip pageidaujami darbuotojai ir (arba) įtraukti į pageidaujamų darbuotojų grupę.  
 - **Vieta** – vertinimo balas, apskaičiuojamas kartu su įvertinimo balo reikšmėmis **Atsakingas darbuotojas**, **Pageidaujamas darbuotojas**, **Pageidaujama darbuotojų grupė**, **Turto vieta** ir **Pradžios data**. Jei šiame lauke įterpiama reikšmė „3 000,00“, skaičiuojant darbuotojas gauna 3 000 taškų, jei darbuotojas yra toje pačioje gamykloje ar objekte kaip ir turtas, kuriam planuojama užduotis.  
   - Jei įmonė naudoja funkcines vietas, darbuotojai gauna visą balą, jei jie yra funkcinėje vietoje, susijusioje su turtu. Jei turto funkcinė vieta turi pirminį turtą, toje funkcinėje vietoje esantys darbuotojai gauna 1/2 balo. Jei ta vieta taip pat turi pirminę vietą, tos vietos darbuotojai gauna 1/3 balo. Jei ta vieta taip pat turi pirminę vietą, tos vietos darbuotojai gauna 1/4 balo ir t. t.  
   - Jei įmonė naudoja turto buvimo vietą, ko mes nerekomenduojame, skaičiuojant vietos vertinimą naudojama vieta, sritis ir zona. Darbuotojai gauna visą balą, jei jie yra su turtu susietoje vietoje, srityje ir zonoje. Jei darbuotojo vieta sutampa tik su vieta ir sritimi, darbuotojo įvertinimo balas yra 2/3 nuo viso balo. Jei darbuotojo vieta sutampa tik su vieta, darbuotojo įvertinimo balas yra 1/3 nuo viso balo.  

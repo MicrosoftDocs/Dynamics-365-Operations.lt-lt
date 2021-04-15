@@ -2,11 +2,9 @@
 title: Duomenų bazės registravimo konfigūravimas ir valdymas
 description: Galite sekti lentelių ir laukų pakeitimus „Dynamics 365 Human Resources” naudodami duomenų bazės registravimą.
 author: andreabichsel
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8057ebd0bc061c6bf78d8674c45e0885ffce681c
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: d22ff9f3ce68c81f37840342c795d7d162eb027b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467654"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801340"
 ---
 # <a name="configure-and-manage-database-logging"></a>Duomenų bazės registravimo konfigūravimas ir valdymas
 
@@ -68,7 +66,22 @@ Norėdami padidinti našumą, apribokite žurnalo įrašus pasirinkdami konkreč
 Galite naudoti **Duomenų bazės pakeitimų registravimas** vedlį, kad nustatytumėte duomenų bazės registravimą. Vedlys suteikia lanksčią galimybę nustatyti lentelių arba laukų registravimą.
 
 1. Eikite į **Sistemos administravimas > Saitai > Duomenų bazė > Duomenų bazės žurnalo nustatymas**. Pasirinkite **Nauja**, kad įjungtumėte **Registravimo duomenų bazės pakeitimai** vedlį.
-2. Baikite vykdyti vedlio žingsnius.
+2. Pasirinkite **Toliau**. 
+3. Vedlio puslapyje Lentelės ir laukai pasirinkite lenteles ir laukus, kuriuose norite įgalinti duomenų **bazės** registravimą, ir pasirinkite **Pirmyn**.
+
+   > [!Note]
+   > Duomenų bazės registravimas negalimas visose Personalo duomenų bazės lentelėse. Pasirinkus Rodyti visas lenteles sąraše išplečiamas lentelių ir laukų sąrašas, kad būtų parodytos visos duomenų bazės lentelės, kuriose galimas duomenų bazės registravimas, bet tai bus viso duomenų bazių lentelių sąrašo **subrinkinyje**.
+
+4. Vedlio pakeitimų tipų puslapyje pasirinkite duomenų operacijas, kurių kiekvienos lentelės ir laukų keitimus norite sekti, ir **pasirinkite** **Pirmyn**. Informacijos apie duomenų operacijas, kurias galima registruoti, ieškokite toliau esančioje lentelėje.
+5. Puslapyje **Baigti** peržiūrėkite atliktus keitimus ir pasirinkite **Baigti**.
+
+| Operacija | Aprašas |
+| -- | -- |
+| Sekti naujas operacijas | Kurti naujų lentelėje sukurtų įrašų žurnalą. |
+| Atnaujinimas | Kurti lentelių įrašų naujinimų žurnalą arba atnaujinimų į atskirai pasirinktus lentelės laukus žurnalą. Jei pasirenkate registruoti lentelės atnaujinimus, žurnalo įrašas sukuriamas kiekvieną kartą, kai atnaujinamas bet kurio lentelės įrašo laukas. Jei pasirenkate registruoti tam tikrų laukų atnaujinimus, žurnalo įrašas sukuriamas tik tų lentelės įrašų laukų atnaujinimų metu. |
+| Panaikinti | Kurti iš lentelės panaikintų įrašų žurnalą. |
+| Pervadinti raktą | Pervardijus lentelės raktą, sukurti žurnalo įrašą. |
+
 
 ## <a name="clean-up-database-logs"></a>Valyti duomenų bazės žurnalus
 

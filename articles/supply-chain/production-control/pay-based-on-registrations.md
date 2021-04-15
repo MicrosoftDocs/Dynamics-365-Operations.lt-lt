@@ -2,11 +2,9 @@
 title: Apmokėjimas pagal registracijas
 description: Šioje temoje paaiškinama, kaip apskaičiuojamas užmokestis pagal darbuotojo registracijas.
 author: johanhoffmann
-manager: tfehr
 ms.date: 03/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgCalcApproveWeekView, JmgProdStatusListPagePayrollCostDetails, JmgPayCountTable, JmgPayStatConfig, JmgOvertimeSlize, JmgPayAgreementOverride, JmgPayCountSum, JmgPayAdjustSetup, JmgPayAdjustCostType, JmgPayEmployee, JmgMESBreak, JmgPayAddTable, JmgPayAddTransSelectTransId, JmgPayrollCostDetailsPart, jmgProdStatusListPagePayrollCosts, JmgPayrollCostPart, JmgPayEvents, JmgTermRegPayStatSetup, JmgPayStatGroup, JmgPayAddTrans, JmgPayStatTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: ed2ee6c09f8b8a404d36c635eb5dbd9383653f81
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c511558735e89db32e88f6efdd2d0cc88a04b61c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250411"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814831"
 ---
 # <a name="pay-based-on-registrations"></a>Apmokėjimas pagal registracijas
 
@@ -41,7 +39,7 @@ ms.locfileid: "5250411"
 
 ## <a name="the-use-of-flex-time"></a>Nukrypimo laiko naudojimas
 
-Nukrypimo laiko laikotarpiai nustatomi laiko šablonuose, kurie naudojami srityje Laikas ir buvimas darbe. Yra du nukrypimo šablonų tipai: **Nukrypimas+** ir **Nukrypimas-**. Darbuotojui užregistravus laiką pasirenkant laikotarpį Nukrypimas+, darbuotojo nukrypimo balansas didėja pagal atidirbtų darbo valandų skaičių. Už valandas, atidirbtas laikotarpiu Nukrypimas+, darbuotojas jokios kompensacijos negauna. Tačiau darbuotojas gali atostogauti laikotarpiais Nukrypimas- ir gauti kompensaciją, panaudodamas savo nukrypimo balanso valandas. Todėl atostogas nukrypimo laikotarpias sistema laiko neatvykimu į darbą.
+Nukrypimo laiko laikotarpiai nustatomi laiko šablonuose, kurie naudojami srityje Laikas ir buvimas darbe. Yra du nukrypimo šablonų tipai: **Nukrypimas+** ir **Nukrypimas-**. Darbuotojui užregistravus laiką pasirenkant laikotarpį Nukrypimas+, darbuotojo nukrypimo balansas didėja pagal atidirbtų darbo valandų skaičių. Už valandas, atidirbtas laikotarpiu Nukrypimas+, darbuotojas jokios kompensacijos negauna. Tačiau darbuotojas gali atostogauti laikotarpiais Nukrypimas- ir gauti kompensaciją, panaudodamas savo nukrypimo balanso valandas. Todėl atostogas nukrypimo laikotarpiais sistema laiko neatvykimu į darbą.
 
 ## <a name="scenarios-based-on-flex-periods"></a>Scenarijai pagal nukrypimo laikotarpius
 
@@ -441,7 +439,7 @@ Registruojant darbuotojo neatvykimo laikotarpį naudojamas neatvykimo kodas. Kai
 
 Puslapyje **Suplanuoto neatvykimo kūrimas** (**Laikas ir buvimas darbe** &gt; **Suplanuoto neatvykimo kūrimas**) galite kurti darbuotojų suplanuotus neatvykimus. Šiame puslapyje suplanuotas neatvykimas registruojamas kaip nurodytą dieną ir nurodytu laiku atliekama neatvykimo užduotis.
 
-Užduotis kuriama pagal užklausą. Todėl galite kurti kelių darbuotojų suplanuotą neatvykimą, pavydžiui, tai pačiai skaičiavimo grupei priklausančių darbuotojų neatvykimą. Jei suplanuotas neatvykimas sukurtas vienam darbuotojui, registraciją galima įvesti puslapyje **Buvimas darbe** arba **Laiko registracijos darbuotojai**.
+Užduotis kuriama pagal užklausą. Todėl galite kurti kelių darbuotojų suplanuotą neatvykimą, pavyzdžiui, tai pačiai skaičiavimo grupei priklausančių darbuotojų neatvykimą. Jei suplanuotas neatvykimas sukurtas vienam darbuotojui, registraciją galima įvesti puslapyje **Buvimas darbe** arba **Laiko registracijos darbuotojai**.
 
 - Norėdami neatvykimo registraciją įvesti puslapyje **Buvimas darbe**, pasirinkite **Laikas ir buvimas darbe** &gt; **Užklausos ir ataskaitos** &gt; **Buvimas darbe** &gt; **Buvimas darbe**, po to pasirinkite **Neatvykimo registracija**.
 - Norėdami neatvykimo registraciją įvesti puslapyje *<strong><em>Laiko registracijos darbuotojai</em></strong>* pasirinkite <strong>Laikas ir buvimas darbe</strong> &gt; <strong>Sąranka</strong> &gt; <strong>Laiko registracijos darbuotojai</strong>, po to srities <strong>Laiko paskyrimas</strong> skirtuke <strong>Laikas</strong> pasirinkite <strong>Neatvykimo registracijos</strong>.

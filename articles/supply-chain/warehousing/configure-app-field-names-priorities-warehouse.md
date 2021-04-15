@@ -1,12 +1,10 @@
 ---
-title: Programos laukų pavadinimų konfigūravimas sandėliavimo programoje
-description: Šioje temoje aprašoma, kaip nurodyti ir konfigūruoti sandėlio programos laukų pavadinimus ir prioritetus programoje „Dynamics 365 Supply Chain Management“.
+title: Sandėlio valdymo mobiliųjų įrenginių programėlės laukų konfigūravimas
+description: Šioje temoje aprašoma, kaip apibrėžti ir konfigūruoti laukų, rodomų sandėlio valdymo mobiliųjų įrenginių programėlėje, pavadinimus ir prioritetus.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
@@ -18,21 +16,21 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4c22a4314c36ba7112456ef264df500af98996f3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c6ed726536085b836f4014c59ea8df4755577ab5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232964"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808827"
 ---
-# <a name="configure-app-field-names-in-the-warehouse-app"></a>Programos laukų pavadinimų konfigūravimas sandėliavimo programoje
+# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Sandėlio valdymo mobiliųjų įrenginių programėlės laukų konfigūravimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip nurodyti ir konfigūruoti sandėlio programos laukų pavadinimus ir prioritetus programoje „Dynamics 365 Supply Chain Management“. 
+Šioje temoje aprašoma, kaip apibrėžti ir konfigūruoti laukų, rodomų sandėlio valdymo mobiliųjų įrenginių programėlėje, pavadinimus ir prioritetus.
 
 > [!NOTE]
-> Ši tema taikoma sandėlio valdymo funkcijoms. Ji netaikoma atsargų valdymo funkcijoms. „Warehousing” yra programa, kurią galite naudoti sandėlio užduotims atlikti. Galite nurodyti ir konfigūruoti programoje naudojamų laukų pavadinimus, taip pat galite konfigūruoti prioritetą, kuriam laukų pavadinimai turėtų būti priskirti. Šioje temoje paaiškinama, kaip nurodyti ir konfigūruoti šiuos sandėlio programos laukų pavadinimus bei prioritetus ir kaip jie naudojami „Warehousing“. Daugiau informacijos apie prisijungimo prie Fsandėliavimo konfigūravimą, žr. mokymo programoje [Sandėliavimo programos diegimo ir konfigūravimo apžvalga](install-configure-warehousing-app.md).
+> Ši tema taikoma sandėlio valdymo funkcijoms. Ji netaikoma atsargų valdymo funkcijoms. Sandėlio valdymo mobiliųjų įrenginių programėlė yra programa, kurią galite naudoti sandėlio užduotims atlikti. Galite nurodyti ir konfigūruoti programoje naudojamų laukų pavadinimus, taip pat galite konfigūruoti prioritetą, kuriam laukų pavadinimai turėtų būti priskirti. Šioje temoje paaiškinama, kaip nurodyti ir konfigūruoti šiuos sandėlio valdymo mobiliųjų įrenginių programėlės laukų pavadinimus bei prioritetus ir, kaip jie naudojami.
 
 ## <a name="configure-warehouse-app-field-names"></a>Sandėlio programos laukų pavadinimų konfigūravimas
 
@@ -142,7 +140,7 @@ Likę metaduomenys, pvz., vieta, užduočių puslapyje rodomi nebus, bet bus rod
 <a name="additional-resources"></a>Papildomi ištekliai
 --------
 
-[Sandėliavimo programos diegimo ir konfigūravimo apžvalga](install-configure-warehousing-app.md)
+[Sandėli valdymo mobiliųjų įrenginių programėlės diegimas ir prijungimas](../warehousing/install-configure-warehouse-management-app.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

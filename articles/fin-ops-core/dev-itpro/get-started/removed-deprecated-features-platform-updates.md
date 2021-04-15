@@ -2,7 +2,6 @@
 title: Pašalintos arba nebenaudojamos platformos funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti iš „Finance and Operations“ programų platformos naujinių.
 author: sericks007
-manager: AnnBe
 ms.date: 02/16/2021
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: f363b122e30990f5b36e69fd8fe271bdc15e2e79
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: ac3b5274aaea2e267685e80d051c81489ece50eb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563999"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814325"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Pašalintos arba nebenaudojamos platformos funkcijos
 
@@ -37,7 +36,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 ### <a name="batch-job-to-handle-sql-index-defragmentation"></a>Paketinė užduotis SQL indekso defragmentavimui apdoroti
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo/pašalinimo priežastis** | Ši funkcija buvo pašalinta norint sumažinti klientų rodyklės valdymo vykdymo, stebėjimo ir priežiūros pridėtines išlaidas. |
 | **Pakeitė kita funkcija?**   | Ateityje rodyklės priežiūrą atliks „Microsoft” tarnybos. Tai bus daroma nuolat, nepaveikiant vartotojo darbo krūvių. |
@@ -48,12 +47,10 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 ## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>„Finance and Operations” programų 10.0.17 versijos platformos naujinimai
 
-> [!IMPORTANT]
-> 10.0.17 versija prieinama kaip peržiūros versijos leidimo dalis. Turinys ir funkcijos gali būti keičiami. Norėdami apie peržiūros leidimus gauti daugiau informacijos, žr. [DUK apie vienos versijos paslaugų naujinimus](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
 
 ### <a name="visual-studio-2015"></a>„Visual Studio 2015“
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo/pašalinimo priežastis** | Norint, kad būtų palaikomos naujausios „Visual Studio” versijos, reikia atlikti tam tikrus X + + plėtinių, skirtų „Visual Studio”, keitimus. Šie pakeitimai nesuderinami su „Visual Studio” 2015. |
 | **Pakeitė kita funkcija?**   | „Visual Studio 2017” bus pakeista „Visual Studio 2015” kaip įdiegta ir reikalinga versija. |
@@ -63,7 +60,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 ### <a name="user-avatar"></a>Vartotojo pseudoportretas 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo/pašalinimo priežastis** | Vartotojo pseudoportretas, rodomas dešinėje naršymo juostos pusėje, buvo nuskaitytas naudojant API iš „Dynamics 365” antraštės valdiklio, kuris yra nerekomenduojamas. |
 | **Pakeitė kita funkcija?**   | Vietoj to vartotojai matys savo inicialus naršymo juostos apskritime. Tai tas pats vaizdinis elementas, šiuo metu naudojamas programavimo mašinose. |
@@ -73,7 +70,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 ### <a name="enterprise-portal-ep-deprecation"></a>Įmonės portalo (EP) netinkamumas  
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo/pašalinimo priežastis** | Metaduomenų artefaktai, susieti su 2012 m. „Dynamics AX” įmonės portalu (EP), yra nerekomenduojami, nes EP niekada nebuvo palaikomas „Finance and Operations” programose. |
 | **Pakeitė kita funkcija?**   | Ne |
@@ -85,7 +82,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>„Internet Explorer 11“ palaikymas „Dynamics 365“ yra nutrauktas
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo/pašalinimo priežastis** | Nuo 2020 m. gruodžio „Microsoft Internet Explorer 11“ palaikymas visuose „Dynamics 365“ produktuose yra nutraukiamas, o „Internet Explorer 11“ nebus palaikomas nuo 2021m. rugpjūčio.<br><br>Tai paveiks klientus, kurie naudoja „Dynamics 365“ produktus, skirtus naudoti „Internet Explorer 11“ sąsają. Nuo 2021m. rugpjūčio „Internet Explorer 11“ nebus palaikomas tokiuose „Dynamics 365“ produktuose. |
 | **Pakeitė kita funkcija?**   | Rekomenduojame klientams naudoti „Microsoft Edge“.|
@@ -96,7 +93,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>„Visual Studio“ papildinys, skirtas metaduomenų karštųjų pataisų pritaikymui
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo/pašalinimo priežastis** | Metaduomenų karštosios pataisos nepalaikomos pristačius [vienos versijos](../../fin-ops/get-started/one-version.md) paslaugų naujinimus, kurie buvo pateikti 2018 m. liepą kartu su 8.1 versija. |
 | **Pakeitė kita funkcija?**   | Nėra atskirų metaduomenų karštųjų pataisų, kurios būtų skirtos palaikomoms versijoms. Vietoje jų taikomi kaupiamieji kokybiniai naujinimai. |
@@ -109,7 +106,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 ### <a name="online-users-page"></a>Prisijungusių vartotojų puslapis 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo/pašalinimo priežastis** | Tai yra ankstesnio kliento/serverio architektūroje sukurtas senstelėjęs puslapis. Šiame puslapyje pateikta informacija ne visada tiksli ir dėl to gali būti paini ir klaidinanti. |
 | **Pakeitė kita funkcija?**   | Sekančiame atnaujinime pateiksime naują puslapį.|
@@ -123,7 +120,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 ### <a name="custom-code-defined-in-ssrs-report-properties"></a>Tinkintas kodas nustatytas SSRS ataskaitos ypatybėse 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo/pašalinimo priežastis** | Bendrai, tinkintas kodas siūlo apribotas naudas ir tuo pat metu reikalauja reikšmingų šaltinių papildymų ir paramos skyrimo. Tinkintas kodas daugiausiai naudojamas ataskaitų autorių siekiant iškviesti viešus metodus iš tinkinto kodo surinkimo. Nepaisant to, debesyje patalpintos paslaugos nepalaiko sąsajų su tinkintais susirinkimais SSRS ataskaitoms. |
 | **Pakeitė kita funkcija?**   | Ataskaitų autoriai gali pasirinkti, ar tęsti susiejimą su viešomis .NET API matematikos, pavertimo ir formato veiksmams iš bet kurios teksto laukelio išraiškos. Dėl išsamesnės informacijos, žr. [Įtraukti kodą į ataskaitą (SSRS)](https://docs.microsoft.comsql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
@@ -133,7 +130,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 ### <a name="upgrade-of-three-jquery-component-libraries"></a>Trijų „jQuery” komponentų bibliotekų atnaujinimas 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Trijų „jQuery” komponentų bibliotekos atnaujintos dėl saugumo spragų, kad būtų tvarkoma valiuta.   
 | **Pakeitė kita funkcija?**   | Šiose bibliotekose matysis pakeitimai: „jQuery” (3.5.0 versiją iš 2.1.4 versijos), „jQuery UI” (1.12.1 versiją iš 1.11.4 versijos), „jQuery qTip” (3.0.3 versiją iš 2.2.1 versijos). „jQuery” internetu pateikė perkėlimo nurodymus.  |
@@ -143,7 +140,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 ### <a name="existing-grid-controlforcelegacygrid-api"></a>Esamas tinklelio valdymas/forceLegacyGrid() API
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Esamas tinklelio valdymas yra pakeičiamas nauju tinklelio valdymu. |
 | **Pakeitė kita funkcija?**   | [Naujas tinklelio valdymas](../..//fin-ops/get-started/grid-capabilities.md) |
@@ -153,7 +150,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 ### <a name="personalization-without-saved-views"></a>Personalizavimas be įrašytų peržiūrų 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Personalizavimo papildoma sistema buvo perdaryta su naujomis įrašytomis peržiūros funkcijomis taip, kad ji galėtų geriau veikti ir siūlytų papildomas galimybes. |
 | **Pakeitė kita funkcija?**   | Įrašyti rodiniai |
@@ -166,7 +163,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Tinklelio arba grupės valdiklio formų plėtiniai, kuriuose yra netinkamų laukų nuorodų
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Tinklelio arba grupės valdiklių duomenų grupės ypatybė naudojama automatiškai rodyti visus laukų grupės laukus. Tinklelyje arba grupės valdiklyje, pridėtame prie plėtinio, gali būti laukų, kurie nebėra apibrėžti laukų grupėje, arba jame gali būti trūkstamų laukų, kurie apibrėžti laukų grupėje. Tai gali sukelti nenuoseklų veikimą apdorojimo laiko metu. Platformos naujiniai, skirti „Finance and Operations” programų 10.0.12 versijai, dabar klasifikuoja šią problemą kaip kompiliatoriaus *įspėjimą*. Norėdami išspręsti šią problemą, atidarykite formos plėtinį ir jį įrašykite.
 | **Pakeitė kita funkcija?**   | Atliekant būsimą naujinimą, šis kompiliatoriaus įspėjimas bus pakeistas kompiliavimo klaidos pranešimu. |
@@ -178,7 +175,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 ### <a name="explicit-safe-lists-for-self-service-environments"></a>Išsamūs baltieji sąrašai savitarnos aplinkoms
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | IP perkėlimo procesas į baltuosius sąrašus pasikeitė. Savitarna nebepalaiko IP baltųjų sąrašų. |
 | **Pakeitė kita funkcija?**   | Daugiau informacijos rasite [„Azure Active Directory” sąlyginės prieigos konfigūracija](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access).|
@@ -188,7 +185,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 ### <a name="visual-studio-2015"></a>„Visual Studio 2015“
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Norint, kad būtų palaikomos naujausios „Visual Studio” versijos, reikia atlikti tam tikrus X + + plėtinių, skirtų „Visual Studio”, keitimus. Šie pakeitimai nesuderinami su „Visual Studio” 2015. |
 | **Pakeitė kita funkcija?**   | „Visual Studio 2017” bus pakeista „Visual Studio 2015” kaip įdiegta ir reikalinga versija. |
@@ -198,7 +195,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 ### <a name="field-groups-containing-invalid-field-references"></a>Laukų grupės, kuriose pateiktos netinkamos laukų nuorodos
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo/pašalinimo priežastis** | Lentelės metaduomenų aprašuose gali būti laukų grupių, kuriose yra netinkamų laukų nuorodų. Įdiegus šias laukų grupes gali kiti vykdymo gedimų programose „Financial Reporting“ ir „Microsoft SQL Server Reporting Services“ (SSRS). 23 platformos naujinimas pristatė kompiliatoriaus *įspėjimą*, kuris įgalina šios metaduomenų problemos sprendimą. „Finance and Operations” programų 10.0.11 versijos platformos naujinimai klasifikuoja šią problemą kaip kompiliatoriaus *klaidą*.<p>Norėdami ištaisyti šią klaidą, atlikite toliau nurodytus veiksmus.</p><ol><li>Pašalinkite netinkamą lauko nuorodą iš lentelės lauko grupės aprašo.</li><li>Perkompiliuokite.</li><li>Įsitikinkite, kad pašalintos visos klaidos.</li></ol> |
 | **Pakeitė kita funkcija?**   | Ši kompiliatoriaus klaida visam laikui pakeičia kompiliatoriaus įspėjimą.  |
@@ -208,7 +205,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>ISV licencijos, sukurtos naudojant SHA1 maišos algoritmą
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Pasikeitė nepriklausomo programinės įrangos tiekėjo (ISV) licencijų kūrimo procesas. Daugiau informacijos žr. [Nepriklausomo programinės įrangos tiekėjo (ISV) licencijavimas](../dev-tools/isv-licensing.md#appendix-create-self-signed-certificates-for-test-purposes). |
 | **Pakeitė kita funkcija?**   | Taip. Norėdami sukurti licencijas, naudokite „Windows PowerShell”. |
@@ -219,7 +216,8 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 ## <a name="platform-update-32"></a>Platformos „update 32“
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>Darbo eigos užklausos keitimo dialogo lange nebėra vartotojų pasirinkimo išplečiamojo sąrašo
-|   |  |
+
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Dėl sąrašo galėjo kilti saugos problemų, nes keitimo užklausa galėjo būti nusiųsta nenumatytam vartotojui. Taip pat kilo tinkamumo naudoti problema, nes vartotojas buvo verčiamas nustatyti darbo eigos iniciatorių ir pasirinkti jį rankiniu būdu.  |
 | **Pakeitė kita funkcija?**   | Ne |
@@ -228,7 +226,8 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | **Būsena**                         | Vartotojų pasirinkimo išplečiamasis sąrašas buvo pašalintas iš „Platform update 32“ keitimo užklausos dialogo lango. Užklausos keitimo užklausos bus automatiškai siunčiamos iniciatoriui, kaip numatyta. Norėdami gauti daugiau informacijos apie šią funkciją, žr. skyrių [Darbo eigos patvirtinimo procesų veiksmai](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/workflow-actions?toc=%2Fdynamics365%2Fcommerce%2Ftoc.json#request-change). |
 
 ### <a name="embedded-drill-through-links-are-no-longer-supported-in-paginated-documents-rendered-by-the-cloud-hosted-service"></a>Sunumeruoti dokumentai, kuriuos generuoja debesies paslauga, nebepalaiko įterptųjų detalizuotų nuorodų 
-|   |  |
+
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Naršymo URL, įterpti į paslaugos generuojamus dokumentus, gali būti slaptų verslo duomenų. Norėdami apsaugoti kliento duomenis, saugumo sumetimais pašalinsime įterptųjų detalizuotų nuorodų, esančių dokumentuose, palaikymą. Dėl šio pakeitimo vartotojai galės kurti dokumentus našiai ir interaktyviai.  |
 | **Pakeitė kita funkcija?**   | nr. |

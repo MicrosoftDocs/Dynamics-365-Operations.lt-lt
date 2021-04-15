@@ -2,11 +2,9 @@
 title: Talpinkite naują e-komercijos nuomotoją
 description: Šiame skyriuje aprašoma, kaip talpinti naują „Dynamics 365 Commerce“ e-komercijos svetainę naudojant „Microsoft Dynamics  Lifecycle Services“ (LCS).
 author: psimolin
-manager: annbe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d31e3e7248809a00ad51183b80205d1351567ab3
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 0fff5d47d6eb3e08288d17853fcd94f9eab843c3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477881"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801954"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Talpinkite naują e-komercijos nuomotoją
 
@@ -60,7 +58,7 @@ Be to, galite rinkti tokią pasirinktinę informaciją:
     - Atsakymo URL.
     - Registracijos prisijungimo strategijos ID.
     - Slaptažodžio nustatymo iš naujo strategijos ID.
-    - Redagagavimo profilio strategijos ID.
+    - Redagavimo profilio strategijos ID.
 
 > [!NOTE]
 > Šią informaciją galima įtraukti vėliau, naudojant paslaugos užklausą.
@@ -76,7 +74,7 @@ Jums surinkus reikiamą informaciją, atlikite šiuos žingsnius, kad pradėtum�
 1. Kitame puslapyje įveskite reikiamą informaciją ir pateikite formą. Jūs grąžinami į skirtuką **El. prekyba**, kur turėtumėte matyti, kad inicijavimas pradėtas.
 1. Norėdami peržiūrėti inicijavimo būseną, **atnaujinkite** arba grįžkite į skirtuką **El. prekyba**.
     
-Kai e-komercija yra pradėta iš LCS, sistemos suteikia keletą komponentų, kurie yra būtini e-komercijai ir susieja juos su aplinka. Pasibaigus parengimui, skirtukas **El. prekyba** puslapyje **„Retail“ valdymas** atnaujinamas, kad atsispindėtų parengimą. Puslapyje pateikiami naujausi tinkinimo diegimai ir bet kurių kitų vykdomų diegimų būsena. Ji taip pat apima nuorodas į e-komercijos saitą ir komercijos saitos kūrimo įrankį, kuriame saitai yra leidžiami.
+Kai e-komercija yra pradėta iš LCS, sistemos suteikia keletą komponentų, kurie yra būtini e-komercijai ir susieja juos su aplinka. Pasibaigus parengimui, skirtukas **El. prekyba** puslapyje **„Retail“ valdymas** atnaujinamas, kad atsispindėtų parengimą. Puslapyje pateikiami naujausi tinkinimo diegimai ir bet kurių kitų vykdomų diegimų būsena. Ji taip pat apima nuorodas į e-komercijos saitą ir komercijos saito kūrimo įrankį, kuriame saitai yra leidžiami.
 
 ## <a name="access-commerce-site-builder"></a>Prieiga prie komercijos saito kūrimo įrankio
 
@@ -85,7 +83,7 @@ Norėdami patekti į komercijos saito kūrimo įrankį, eikite į **e-komercijos
 - Modifikuoti nuomotojo lygio parametrus.
 - Pereiti į bet kurią sukurtą svetainę, kurią turite teisę peržiūrėti. 
 - Naudotis peržiūros funkcijomis, pvz., priežiūra ir ataskaitų pateikimu.
-- Sukurkite naują svetainę. Dėl daugiau informacijos apie tai, kaip sukurti naują saitą, žr. [Sukurit e-komercijos saitą](create-ecommerce-site.md) . 
+- Sukurkite naują svetainę. Dėl daugiau informacijos apie tai, kaip sukurti naują saitą, žr. [Sukurkite e-komercijos svetainę](create-ecommerce-site.md) . 
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

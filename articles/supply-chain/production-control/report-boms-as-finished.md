@@ -2,11 +2,9 @@
 title: KS skelbimas baigtomis
 description: Šiame straipsnyje pateikiama informacija apie KS skelbimą baigtomis.
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMReportFinish, BOMReportFinishMax, BOMSetupReportFinish
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef7b342ff90c066f6f2cccca08f2ec0e05cf9f8c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0befb8c985a5184be915c7f00b8176589d3ef2ba
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232283"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811659"
 ---
 # <a name="report-boms-as-finished"></a>KS skelbimas baigtomis
 
@@ -37,7 +35,7 @@ Puslapiai **Skelbti baigtu** ir **Maks. skelbti baigtu** naudojami skelbti kompl
 Jei puslapį **Skelbti baigtu** atidarote iš išleisto produkto, puslapyje jums siūloma standartinių atsargų numatytąjį kiekį skelbti baigtu. Pagal numatytąsias nuostatas rodoma aktyvi KS versija, tačiau, jei yra kitų patvirtintų versijų, KS versiją galite keisti. Šiame puslapyje taip pat galima naikinti įrašus ir kurti naujus išleistų produktų, kuriuos reikėtų skelbti baigtais, įrašus. Norėdami naudojant užklausą pasirinkti produktus, spustelėkite meniu elementą **Pasirinkti**. Galite rankiniu būdu patvirtinti pasirinktų produktų skelbimą baigtais spustelėdami **Gerai**. Arba, galite nustatyti, kad procesas būtų vykdomas paketu. Kai skelbimo baigtu procesas patvirtintas, sistema sugeneruoja KS žurnalą, kuriame apdorojamas registravimas atsargose. Šį žurnalą sudaro viena galutinio produkto eilutės prekė ir kiekvienos KS eilutės prekė. Galite kontroliuoti, ar žurnalas automatiškai registruojamas, ar paliekamas atidarytas, kad būtų galima papildomai koreguoti.
 
 ## <a name="max-report-as-finished-page"></a>Maks. puslapis Skelbti baigtu
-Puslapyje **Maks. skelbti baigtu** kiekviena KS eilutė nurodo produkto vienetų, kuriuos galima skelbti baigtais, skaičių. Šis skaičiavimas yra paremtas faktinėmis turimomis kiekvienos medžiagos eilutės atsargomis. Šiame pavyzdyje vienas prekės numerio FG vienetas sunaudoja du žaliavos RM10 vinetus ir vieną žaliavos RM20 vienetą. Kadangi turima tik 10 RM10 vienetų, maksimalus FG, kurį galima skelbti baigtu, kiekis yra penki vienetai. Ši reikšmė rodoma lauke **Maks. skelbti baigtu**.
+Puslapyje **Maks. skelbti baigtu** kiekviena KS eilutė nurodo produkto vienetų, kuriuos galima skelbti baigtais, skaičių. Šis skaičiavimas yra paremtas faktinėmis turimomis kiekvienos medžiagos eilutės atsargomis. Šiame pavyzdyje vienas prekės numerio FG vienetas sunaudoja du žaliavos RM10 vienetus ir vieną žaliavos RM20 vienetą. Kadangi turima tik 10 RM10 vienetų, maksimalus FG, kurį galima skelbti baigtu, kiekis yra penki vienetai. Ši reikšmė rodoma lauke **Maks. skelbti baigtu**.
 
 | Lygis | Prekės numeris | Kiekis | Turima | Maks. Skelbti baigtu |
 |-------|-------------|----------|---------|-------------------------|

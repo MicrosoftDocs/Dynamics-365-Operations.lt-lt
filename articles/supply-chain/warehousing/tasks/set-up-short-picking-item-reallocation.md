@@ -2,11 +2,9 @@
 title: Prekių perskirstymo nustatymas nevisiško paėmimo atveju
 description: Ši procedūra padeda įgalinti sandėlio darbuotojus greitai surasti kitas vietas, jei toje vietoje, į kurią jie buvo nukreipti, nėra pakankamai atsargų.
 author: ShylaThompson
-manager: tfehr
 ms.date: 06/29/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkException, WHSWorker, WHSLocationWithWorkException
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3ecd05add44bacae517109f8bab2cb43376fe07c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 90aeb860dc95a348b000a0f994fadc5cc9aea7e6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216816"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814421"
 ---
 # <a name="set-up-short-picking-item-reallocation"></a>Prekių perskirstymo nustatymas nevisiško paėmimo atveju
 
@@ -33,8 +31,8 @@ Perskirstymo procesą kontroliuoja **Darbo išimtys** ir naudoja sandėlio **dar
 
 Galima naudoti Automatinius, Neautomatinius arba abu perskirstymo procesus:
 
-- Automatiniame perskirstyme naudojami vietos nurodymai siekiant sužinoti, ar prekės yra pasiekiamos kitoje vietoje. Jei įmanoma, darbas bus atnaujintas ir „Warehousing“ programos naudotojas bus nukreiptas į kitą vietą.
-- Neautomatinis perskirstymas leidžia „Warehousing“ programos naudototojui pasirinkti iš vienos ar daugiau vietų, kuriose yra nerezervuoti prekių kiekiai. 
+- Automatiniame perskirstyme naudojami vietos nurodymai siekiant sužinoti, ar prekės yra pasiekiamos kitoje vietoje. Jei įmanoma, darbas bus atnaujintas ir sandėlio programos vartotojas bus nukreiptas į kitą vietą.
+- Neautomatinis perskirstymas leidžia sandėlio programos vartotojui pasirinkti iš vienos ar daugiau vietų, kuriose yra nerezervuoti prekių kiekiai. 
 - Automatinis ir neautomatinis – jei sistemai nepavyko atlikti automatinio perskirstymo, o vietos su nerezervuotais kiekiais yra pasiekiamos, naudotojas bus paragintas pasirinkti vietą.
 
 ## <a name="set-up-work-exceptions"></a>Nustatyti užduočių išimtis

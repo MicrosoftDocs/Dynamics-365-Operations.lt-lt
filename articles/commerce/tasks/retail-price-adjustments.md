@@ -1,12 +1,10 @@
 ---
-title: " Tvarkyti mažmeninės prekybos kainos koregavimus"
+title: Tvarkyti mažmeninės prekybos kainos koregavimus
 description: Ši procedūra padės nustatyti prekybos kainą.
 author: josaw1
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, RetailDiscountPricingWorkspace, RetailPeriodicDiscount, RetailDiscountPriceGroup
 audience: Application User
@@ -16,14 +14,14 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dbd2f818930424313e1d76aea4a257efa7c7b3be
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0e6ce8ca1d9f63e7ddf6af897a6de5544e4edd9b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232790"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802580"
 ---
-# <a name="retail-price-adjustments"></a> Tvarkyti mažmeninės prekybos kainos koregavimus
+# <a name="retail-price-adjustments"></a>Tvarkyti mažmeninės prekybos kainos koregavimus
 
 [!include [banner](../includes/banner.md)]
 

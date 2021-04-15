@@ -2,11 +2,9 @@
 title: USMCA kilmės sertifikatas
 description: Ši funkcija leidžia jums spausdinti kilmės dokumentų sertifikatą, kurio reikia pagal JAV-Meksikos-Kanados sutartį (USMCA).
 author: Henrikan
-manager: tfehr
 ms.date: 10/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: a0395f74065cf656e286186d619824d88836c45a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e479c7686ab9445b012d335ddc9fc4cdc6b2275c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233300"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5807709"
 ---
 # <a name="usmca-certification-of-origin"></a>USMCA kilmės sertifikatas
 
@@ -55,15 +53,15 @@ USMCA dokumento kilmės sertifikate yra mažiausių tolesnių duomenų elementai
 - Parašo sertifikuotojas
 - Puslapių skaičius
 
-Dėl daugiau informacijso apie kiekvieną iš šių elementų ir jų verčių, žr. tolesnius skyrius šioje temoje.
+Daugiau informacijos apie kiekvieną iš šių elementų ir jų verčių rasite tolesniuose šios temos skyriuose.
 
 ## <a name="print-a-usmca-certification-of-origin-document"></a>Spausdinkite USMCA kilmės sertifikato dokumentą
 
 Norėdami atspausdinti USMCA dokumento kilmės sertifikatą siuntimui, darykite taip:
 
 1. Atlikite vieną iš toliau nurodytų veiksmų.
-    - Eikite į **Gabenimo valdymas > Siuntimai > Visi siuntimai** ir pasirinkite siuntimą, kuram norite spausdinti dokumentą.
-    - Atverkite **Siuntimo išsami informacija** puslapį siuntimui, kuriam norite spausdint dokumentą (yra keli būdai ten patekti, įskaitant **Visi siuntimai** puslapį).
+    - Eikite į **Gabenimo valdymas > Siuntimai > Visi siuntimai** ir pasirinkite siuntimą, kuriam norite spausdinti dokumentą.
+    - Atverkite **Siuntimo išsami informacija** puslapį siuntimui, kuriam norite spausdinti dokumentą (yra keli būdai ten patekti, įskaitant **Visi siuntimai** puslapį).
 1. Veiksmų juostoje atverkite **Siuntimų** skirtuką esantį grupėje **Spausdinti** ir rinkitės **USMCA kilmės sertifikatas**.
 1. Teksto laukelis **Kilmės sertifikatas** atidaromas. Nustatykite kaip aprašyta tolesniuose poskyriuose ir tada rinkitės **Gerai**, kad sukurtumėte dokumentą.
 1. Dokumento peržiūra atsidaro. Naudokite komandas veiksmų juostoje, kad spausdintumėte ar eksportuotumėte dokumentą, kaip būtina.
@@ -97,7 +95,7 @@ Kai **Sertifikuojanti šalis** nustatyta į *Eksportuotojo ir gamintojo* ar *Gam
 
 ### <a name="blanket-period"></a>Bendras laikotarpis
 
-Naudokite **Bendro laikotarpio formą** ir **Bendras laikotarpis į** nustatymus, kad sukurtumėte bendrą laikotarpį, per kurį dokumentas apims keletą identiškų prekių siuntimų, net jei dokumentas spausdinamas vienam siuntimui. Galite nustatyti bendro laikotarpio datas be jokių apribojimų ir jos bus įtrauktos į dokumentą. Galite taip pat palikti šiuos nustatymus tuščius ar nustatyti juos praietyje.
+Naudokite **Bendro laikotarpio formą** ir **Bendras laikotarpis į** nustatymus, kad sukurtumėte bendrą laikotarpį, per kurį dokumentas apims keletą identiškų prekių siuntimų, net jei dokumentas spausdinamas vienam siuntimui. Galite nustatyti bendro laikotarpio datas be jokių apribojimų ir jos bus įtrauktos į dokumentą. Taip pat galite palikti šiuos nustatymus tuščius ar nustatyti juos anksčiau.
 
 ### <a name="is-single-shipment"></a>Vieno siuntimo metu
 
@@ -108,7 +106,7 @@ Teksto laukelyje **Kilmės sertifikatas** nustatykite **Vienas siuntimas** toki�
 
 ## <a name="other-information-included-in-the-document"></a>Kita informacija įtraukta į dokumentą
 
-Kartu su pasirinktinais elementais, kuriuos pasirenkate naudodami **Sertifikatą ar kilmę** teksto laukelį, USMCA kilmės sertifikato dokumentas apims informaciją ir tinkintus laukelius apibendrintus tolesniuose poskyriuose. Šios informacijos dalis turi būti įvedamas rankiniu būdu jums sukūrus dokumenta.
+Kartu su pasirinktinais elementais, kuriuos pasirenkate naudodami **Sertifikatą ar kilmę** teksto laukelį, USMCA kilmės sertifikato dokumentas apims informaciją ir tinkintus laukelius apibendrintus tolesniuose poskyriuose. Šios informacijos dalis turi būti įvedama rankiniu būdu jums sukūrus dokumentą.
 
 ### <a name="invoice-number"></a>SF numeris
 

@@ -2,11 +2,9 @@
 title: Darbo su Turto nuoma pradžia
 description: Šioje temoje aprašoma funkcija Turto nuoma ir nurodomi veiksmai, reikalingi norint sukurti turto nuomą ir peržiūrėti tos nuomos informaciją.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b4f1bdf74dc5319f0b3ba145969b064ad33d5010
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6d5b51e89ec0e64182671872573ec0140939a836
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229603"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814133"
 ---
 # <a name="asset-leasing-get-started"></a>Darbo su Turto nuoma pradžia
 
@@ -41,16 +39,16 @@ Nuomojame turte yra toliau pateikti pagrindiniai komponentai.
 
 - **Nuomos sutartis** – nuomotojas valdo turtą ir sutinka išnuomoti jį nuomininkui konkrečiam laikotarpiui už periodinius nuomos mokesčius. Be teisinės nuomotojo ir nuomininko sutarties, nuomos sutartyje nurodomi valdymo sprendimai, pvz., tikimybė pasinaudoti pratęsimo galimybe ir nuosavybės perkėlimas.
 
-- **Nuomos skaičiavimas ir klasifikavimas pagal apskaitos standartą** – nuomos skaičiavimas ir klasifikavimas nustato apskaitos standartą, kuris bus taikomas atliekant pradinį ir vėlesnį įvertinimą, ir klasifikavimo tikrinimą, nustatantį, koks bus nuomos tipas. Nuoma gali būti finansinė nuoma, veiklos nuoma, trumpalaikė nuoma arba mažos vertės turto nuoma. Sistema taip pat apskaičiuoja dabartinę būsimų minimalių nuomos mokesčių vertę siekiant atlikti vertinimą ir klasifikavimą.
+- **Nuomos skaičiavimas ir klasifikavimas pagal apskaitos standartą** – nuomos skaičiavimas ir klasifikavimas nustato apskaitos standartą, kuris bus taikomas atliekant pradinį ir vėlesnį įvertinimą, ir klasifikavimo tikrinimą, nustatantį, koks bus nuomos tipas. Nuoma gali būti finansinė nuoma, veiklos nuoma, trumpalaikė nuoma arba mažos vertės turto nuoma. Sistema taip pat apskaičiuoja dabartinę būsimų minimalių grynąją nuomos mokesčių vertę siekiant atlikti vertinimą ir klasifikavimą.
 
-- **Nuomos operacijos** – Turto nuoma palaiko pradinį naudojimo teise valdomo turto balanso nuomos pripažinimą, ir vėlesnį balanso nuomos arba ne balanso nuomos įvertinimą. Pradinio pripažinimo operacija apskaičiuoja dabartinę būsimų minimalių nuomos mokesčių vertę. Šie duomenys naudojami norint nustatyti pradinio naudojimo teise valdomo turto ir nuomos įsipareigojimo vertę, kuri turi įtakos organizacijos balansui. Vėlesnis mėnesinis nuomos operacijų įvertinimas apima nuomos įsipareigojimo palūkanų kaupimą, didinantį nuomos įsipareigojimą. Jis taip pat apskaičiuoja nuomos mokesčių, mažinančių nuomos įsipareigojimą, kaupimą, kuris vėliau bus sumokėtas nuomotojui. Įvertinimas taip pat apima naudojimo teise valdomo turto amortizaciją.
+- **Nuomos operacijos** – Turto nuoma palaiko pradinį naudojimo teise valdomo turto balanso nuomos pripažinimą, ir vėlesnį balanso nuomos arba ne balanso nuomos įvertinimą. Pradinio pripažinimo operacija apskaičiuoja dabartinę grynąją būsimų minimalių nuomos mokesčių vertę. Šie duomenys naudojami norint nustatyti pradinio naudojimo teise valdomo turto ir nuomos įsipareigojimo vertę, kuri turi įtakos organizacijos balansui. Vėlesnis mėnesinis nuomos operacijų įvertinimas apima nuomos įsipareigojimo palūkanų kaupimą, didinantį nuomos įsipareigojimą. Jis taip pat apskaičiuoja nuomos mokesčių, mažinančių nuomos įsipareigojimą, kaupimą, kuris vėliau bus sumokėtas nuomotojui. Įvertinimas taip pat apima naudojimo teise valdomo turto amortizaciją.
 
   Jei nuoma yra ne balanso, sistema apskaičiuoja tiesiogiai proporcingas nuomos išlaidas arba pagal turto ekonominį laiką, arba nuomos terminą, t. y. tą dydį, kuris mažesnis. Nuomos koregavimai matuoja sutarties keitimus, pvz., nuomos plėtinį arba išplėtimą ir nuvertėjimo operaciją, naudojančią naudojimo teise valdomą turtą išlaidoms, kurių negalima grąžinti.
 
   Turto nuoma integruojama su Didžioji knyga siekiant užtikrinti, kad visos užregistruotos nuomos operacijos atnaujins jūsų sąskaitų planą. Turto nuoma integruojama su Mokėtinos sumos siekiant sekti nuomotojo SF modulyje Mokėtinos sumos ir ateityje atlikti mokėjimus. Integravimas su Ilgalaikis turtas leidžia sekti nuomą ilgalaikio turto registre ir registruoti naudojimo teise valdomo turto operacijas, įskaitant pradinį turto pripažinimą, nusidėvėjimą ir nuvertėjimą, modulyje Ilgalaikis turtas.   
 
 ## <a name="asset-leasing-components"></a>Turto nuomos komponentai 
-Turto nuoma susieja nuomos informaciją, mokėjimo grafikus, pradžios ir pabaigos datas bei mokėjimo dažnumą. Ji taip pat automatizuoja esamos vertės, mėnesinių nuomos mokesčių, palūkanų ir nuomos amortizacijos skaičiavimus. Sistema vykdo nuomos klasifikacijos testus atsižvelgdama į konfigūraciją. Sistema taip pat sukuria ir registruoja atitinkamas nuomos operacijas, paremtas sistema, kurią apibrėžia apskaitos standartas, kurio laikotės.
+Turto nuoma susieja nuomos informaciją, mokėjimo grafikus, pradžios ir pabaigos datas bei mokėjimo dažnumą. Ji taip pat automatizuoja esamos grynosios vertės, mėnesinių nuomos mokesčių, palūkanų ir nuomos amortizacijos skaičiavimus. Sistema vykdo nuomos klasifikacijos testus atsižvelgdama į konfigūraciją. Sistema taip pat sukuria ir registruoja atitinkamas nuomos operacijas, paremtas sistema, kurią apibrėžia apskaitos standartas, kurio laikotės.
 
 Toliau pateiktoje diagramoje vaizduojama nuomos knyga, nuoma, apskaičiuotas mokėjimo grafikas, nuomos ir nuomos knygų klasifikacijos testai bei atitinkamos apskaitos operacijos.
 
@@ -62,13 +60,13 @@ Toliau pateiktoje diagramoje vaizduojama nuomos knyga, nuoma, apskaičiuotas mok
 
 - **Turto naudingo naudojimo laikas** – tai yra likę turto naudingo naudojimo laikotarpiai nuo nuomos pradžios datos. Į turto naudingo naudojimo laiką bus atsižvelgiama klasifikacijos testo lygtyje. Jis skiriasi nuo naudingo naudojimo laiko, kaip nurodyta Ilgalaikis turtas.
 
-- **Apskaičiuota skolinimosi palūkanų norma** – tai palūkanų norma, kuri bus naudojama dabartinei vertei apskaičiuoti. Sistema naudos numanomą normą, jei ji apibrėžiama nuomos duomenyse, kad apskaičiuotų dabartinę nuomos mokesčių vertę. Jei numanoma norma nenurodyta, sistema naudos apskaičiuotą skolinimosi palūkanų normą.
+- **Apskaičiuota skolinimosi palūkanų norma** – tai palūkanų norma, kuri bus naudojama dabartinei grynajai vertei apskaičiuoti. Sistema naudos numanomą normą, jei ji apibrėžiama nuomos duomenyse, kad apskaičiuotų dabartinę grynąją nuomos mokesčių vertę. Jei numanoma norma nenurodyta, sistema naudos apskaičiuotą skolinimosi palūkanų normą.
 
 - **Anuiteto tipas** – tai nuomos mokestis, kurį reikia sumokėti arba mokėjimo laikotarpio pradžioje, arba laikotarpio pabaigoje. Tai gali būti išanksinis mokėjimas ar laikotarpio pradžios anuitetas (nuomos mokėjimo laikotarpio pradžioje) arba įprastas anuitetas (nuomos mokėjimo laikotarpio pabaigoje).
 
   Pirmasis mėnuo bus laikomas nuliniu išankstinio mokėjimo laikotarpiu; pirmasis mėnuo bus laikomas pirmuoju mokėjimo skolų laikotarpiu.
 
-- **Sudėjimo intervalas** – jis nurodo laikotarpių, kurių metu skaičiuojamos palūkanos, skaičių per metus. Jis gali būti mėnesinis (12 laikotarpių per metus), ketvirtinis (4 laikotarpiai per metus), pusmetinis (2 laikotarpiai per metus) arba metinis (1 laikotarpis per metus). Į laikotarpių skaičių bus atsižvelgiama dabartinės vertės skaičiavime.
+- **Sudėjimo intervalas** – jis nurodo laikotarpių, kurių metu skaičiuojamos palūkanos, skaičių per metus. Jis gali būti mėnesinis (12 laikotarpių per metus), ketvirtinis (4 laikotarpiai per metus), pusmetinis (2 laikotarpiai per metus) arba metinis (1 laikotarpis per metus). Į laikotarpių skaičių bus atsižvelgiama dabartinės grynosios vertės skaičiavime.
 
 - **Pradžios data** – tai data, kai nuomotojas leidžia nuomininkui naudoti turtą. Visi nuomos skaičiavimai ir operacijos bus pagrįsti pradžios data. Pradžios data turi būti laikotarpio pradžioje (pirmą mėnesio dieną), siekiant užtikrinti vėlesnių skaičiavimų tikslumą. Galite naudoti lauką **Sutarties pasirašymo data**, norėdami įvesti faktinę datą, kai sutartis buvo pasirašyta.
 
@@ -81,7 +79,7 @@ Toliau pateiktoje diagramoje vaizduojama nuomos knyga, nuoma, apskaičiuotas mok
 
 - **Mokėjimo dažnumas** – nurodo, ar mokama kas mėnesį, kas ketvirtį, kas pusmetį, ar kas metus. Pabaigos data apskaičiuojama automatiškai, remiantis pradžios data ir įvestų laikotarpių skaičiumi.
 
-- **Mokėjimo grafikas** – tai apskaičiuota dabartinė vertė, paremta nuomos mokesčių mokėjimo trukme, mokesčių suma, sudėjimo laikotarpiais ir anuiteto tipu.
+- **Mokėjimo grafikas** – tai apskaičiuota dabartinė grynoji vertė, paremta nuomos mokesčių mokėjimo trukme, mokesčių suma, sudėjimo laikotarpiais ir anuiteto tipu.
 
 - **Laikotarpiai** – tai nuomos laikotarpiai, nurodantys sudėjimo intervalą ir anuiteto tipą. Sudėjimo intervalas nustato, kaip laikotarpiai bus suskirstyti. Galite nustatyti toliau nurodytus sudėjimo intervalus.
 
@@ -92,10 +90,10 @@ Toliau pateiktoje diagramoje vaizduojama nuomos knyga, nuoma, apskaičiuotas mok
 
 Pirmas laikotarpis prasidės nuliniu laikotarpiu, jei anuiteto tipas yra laikotarpio pradžios anuitetas. Kitu atveju pirmas laikotarpis prasidės pirmuoju, jei anuiteto tipas yra mokėjimo skolos.
 
-- **Mėnesiai** – nurodo kalendorinių mėnesių skaičių nuomos trukmės laikotarpiu. Mokėjimo suma yra mokėtina suma, nurodyta pagal mokėjimo dažnumą. Apskaičiuotą dabartinę vertę sudaro dabartinis verte paremtas nuomos mokestis per laikotarpį, sudėjimo intervalai ir apskaičiuota skolinimosi palūkanų norma.
+- **Mėnesiai** – nurodo kalendorinių mėnesių skaičių nuomos trukmės laikotarpiu. Mokėjimo suma yra mokėtina suma, nurodyta pagal mokėjimo dažnumą. Apskaičiuotą dabartinę grynąją vertę sudaro dabartinis grynąja verte paremtas nuomos mokestis per laikotarpį, sudėjimo intervalai ir apskaičiuota skolinimosi palūkanų norma.
 
 > [!NOTE] 
-> Dabartinė vertė apskaičiuojama pagal diskontuoto pinigų srauto lygtį.
+> Dabartinė grynoji vertė apskaičiuojama pagal diskontuoto pinigų srauto lygtį.
 
 - **Knygos** – tai iš anksto sukonfigūruota sąranka, kuris bus susieta su kiekviena nuoma. Knyga apibrėžia taikomą apskaitos standartą, nuomos tipus ir ribines vertes, naudojamas kaip klasifikacijos testų pagrindą. Klasifikacijos testai naudojami norint nurodyti nuomos tipą automatiškai.
 
@@ -107,7 +105,7 @@ Pirmas laikotarpis prasidės nuliniu laikotarpiu, jei anuiteto tipas yra laikota
 
   - **Nuomos terminas** – tai naudingo naudojimo laiko, kuris bus naudojamas klasifikacijos teste, procentinė dalis. Sistema klasifikuos nuomą kaip finansinę, jei nustatytas automatinis nuomos tipas ir jei nuomos terminas per visą turto naudingo naudojimo laiką yra didesnis arba lygus čia apibrėžtai procentinei daliai.
 
-  - **Dabartinė vertė** – tai turto tikrosios vertės, kuri bus naudojama klasifikacijos teste, procentinė dalis. Sistema klasifikuos nuomą kaip finansinę, jei nustatytas automatinis nuomos tipas ir jei būsimų nuomos mokesčių dabartinė vertė kartu su turto tikrąja verte yra didesnė arba lygi čia apibrėžtai procentinei daliai.
+  - **Dabartinė grynoji vertė** – tai turto tikrosios vertės, kuri bus naudojama klasifikacijos teste, procentinė dalis. Sistema klasifikuos nuomą kaip finansinę, jei nustatytas automatinis nuomos tipas ir jei būsimų nuomos mokesčių dabartinė grynoji vertė kartu su turto tikrąja verte yra didesnė arba lygi čia apibrėžtai procentinei daliai.
 
   - **Trumpalaikė nuoma** – jei nuomos terminas yra mažesnis arba lygus apibrėžtai vertei, nuoma bus klasifikuojama kaip trumpalaikė nuoma.
 
@@ -115,7 +113,7 @@ Pirmas laikotarpis prasidės nuliniu laikotarpiu, jei anuiteto tipas yra laikota
 
   - **Nuomos klasifikacija ir operacijos** – nuomos klasifikacija yra automatizuotas procesas, skirtas nuomai klasifikuoti pagal nustatytas knygų ribines vertes ir kitus klasifikacijos testo kriterijus, siekiant nustatyti, ar nuoma yra finansinė nuoma, veiklos nuoma, trumpalaikė nuoma ar mažos vertės turto nuoma. Jis taip pat naudojamas norint nustatyti, ar laikomasi atidėtojo nuomos mokėjimo proceso.
 
-Klasifikacijos testai apima nuosavybės perkėlimą, pirkimo galimybę, nuomos terminą, dabartinę vertę ir unikalų turtą. Toliau pateiktoje diagramoje pateikiami nuomos klasifikacijos testai.
+Klasifikacijos testai apima nuosavybės perkėlimą, pirkimo galimybę, nuomos terminą, dabartinę grynąją vertę ir unikalų turtą. Toliau pateiktoje diagramoje pateikiami nuomos klasifikacijos testai.
 
 [![Nuomos klasifikacijos testai](./media/overview-03.png)](./media/overview-03.png)
 
@@ -124,22 +122,22 @@ Kiekvieno nuomos tipo skirtingų nuomos operacijų apskaita vykdoma skirtingai. 
 ## <a name="asset-leasing-transactions"></a>Turto nuomos operacijos
 
 #### <a name="initial-recognition"></a>Pradinis pripažinimas 
-Pradinis nuomojamo turto pripažinimas naudoja apskaičiuotą dabartinę vertę, kad ją būtų galima nurodyti balanse. Apskaitos įrašas sugeneruojamas automatiškai. Ši operacija debetuoja naudojimo teise valdomo turto sąskaitą ir kredituoja veiklos nuomos įsipareigojimo sąskaitą, kaip nurodyta toliau. Jei ilgalaikis turtas susietas su nuoma, pradinio pripažinimo įrašas nurodys ilgalaikio turto įsigijimą. Šiame scenarijuje turite nustatyti ilgalaikio turto registravimo šabloną, kad būtų galima registruoti į naudojimo teise valdomo turto sąskaitą. 
+Pradinis nuomojamo turto pripažinimas naudoja apskaičiuotą dabartinę grynąją vertę, kad ją būtų galima nurodyti balanse. Apskaitos įrašas sugeneruojamas automatiškai. Ši operacija debetuoja naudojimo teise valdomo turto sąskaitą ir kredituoja veiklos nuomos įsipareigojimo sąskaitą, kaip nurodyta toliau. Jei ilgalaikis turtas susietas su nuoma, pradinio pripažinimo įrašas nurodys ilgalaikio turto įsigijimą. Šiame scenarijuje turite nustatyti ilgalaikio turto registravimo šabloną, kad būtų galima registruoti į naudojimo teise valdomo turto sąskaitą. 
 
 > [!NOTE]
 > Veiklos nuomą palaiko tik JAV GAAP ASC 842.
 
 |     Tipas                                          |     Debetas                     |     Kreditas                            |
 |-----------------------------------------------    |-----------------------------  |------------------------------------   |
-|     Veiklos nuoma pagal JAV GAAP              |     Naudojimo teise valdomas turtas      |     Veiklos nuomos įsipareigojimas       |
-|     Finansinė nuoma pagal IFRS ir JAV GAAP        |     Naudojimo teise valdomas turtas      |     Veiklos nuomos įsipareigojimas       |
+|     Veiklos nuoma pagal JAV GAAP            |     Naudojimo teise valdomas turtas        |     Veiklos nuomos įsipareigojimas     |
+|     Finansinė nuoma pagal IFRS ir JAV GAAP      |     Naudojimo teise valdomas turtas        |     Finansinės nuomos įsipareigojimas       |
 
 #### <a name="lease-liability-amortization-interest-expense"></a>Nuomos įsipareigojimo amortizacija (palūkanų sąnaudos) 
 Nuomos palūkanos pripažįstamos skaičiuojant nuomos pradžios balanso palūkanas, laikotarpio nuomos mokesčius, skolinimosi palūkanų normą ir sudėjimo intervalų laikotarpius per metus. Palūkanų suma didina veiklos nuomos įsipareigojimo sąskaitą ją kredituodama, o tai bus nurodyta organizacijos balanse. Operacija taip pat įtraukia debeto įrašą į palūkanų sąnaudų sąskaitą (tai nurodoma finansinės nuomos pelno ir nuostolio išraše) ir į veiklos nuomos išlaidų sąskaitą.
 
 |     Tipas                                          |     Debetas                     |     Kreditas                            |
 |-----------------------------------------------    |-----------------------------  |------------------------------------   |
-|     Veiklos nuomos įsipareigojimo įrašas pagal JAV GAAP ASC 842    |     Palūkanų išlaidos          |     Veiklos nuomos įsipareigojimas         |
+|     Veiklos nuomos įsipareigojimo įrašas pagal JAV GAAP ASC 842    |     Nuomos išlaidos         |     Veiklos nuomos įsipareigojimas         |
 |     Finansinės nuomos įsipareigojimo įrašas pagal IFRS ir JAV GAAP      |     Palūkanų išlaidos          |     Finansinės nuomos įsipareigojimas           |
 
 #### <a name="accrued-lease-payment"></a>Sukauptas nuomos mokestis
@@ -151,7 +149,7 @@ Sukauptas nuomos mokestis pripažįstamas kaip būsimas nuomos mokestis, kuris b
 |     Finansinė nuoma pagal IFRS ir JAV GAAP        |  Finansinės nuomos įsipareigojimas      |   Tiekėjo įsipareigojimas (papildoma knyga) / mokėtinos pažymos  |
 
 #### <a name="asset-depreciation"></a>Turto nusidėvėjimas
-Naudojimo teise valdomas turtas nusidėvi per turto naudingo naudojimo laiką arba nuomos terminą, t. y. per tą, kuris trumpesnis. JAV GAAP (ASC 842) nusidėvėjimo skaičiavimo būdas yra paremtas skirtumu tarp tiesiogiai proporcingų nuomos išlaidų ir palūkanų sumos. Finansinės nuomos palūkanos apskaičiuojamos naudojant standartinį tiesioginio proporcingumo būdą. Nuomos nusidėvėjimas turi įtakos pelno ir nuostolio išrašui, debetuodamas palūkanų sąnaudas. Sukauptos finansinės nuomos naudojimo teise valdomo turto sąskaitos kreditavimas turi įtakos balansui. Jei nuoma yra veiklos, nusidėvėjimas yra nuomos išlaidų sąskaitos kreditavimas. Jei nuoma yra susieta su ilgalaikiu turtu, nusidėvėjimo operacijos bus vykdomos tik pagal ilgalaikio turto modulį. 
+Naudojimo teise valdomas turtas nusidėvi per turto naudingo naudojimo laiką arba nuomos terminą, t. y. per tą, kuris trumpesnis. JAV GAAP (ASC 842) veiklos nuomos nusidėvėjimo skaičiavimo būdas yra paremtas skirtumu tarp tiesiogiai proporcingų nuomos išlaidų ir palūkanų sumos. Finansinės nuomos nusidėvėjimas apskaičiuojamos naudojant standartinį tiesioginio proporcingumo būdą. Nuomos nusidėvėjimas turi įtakos pelno ir nuostolio išrašui, debetuodamas palūkanų sąnaudas. Sukauptos finansinės nuomos naudojimo teise valdomo turto sąskaitos kreditavimas turi įtakos balansui. Jei nuoma yra susieta su ilgalaikiu turtu, nusidėvėjimo operacijos bus vykdomos tik pagal ilgalaikio turto modulį. 
 
 |     Tipas                                          |     Debetas                     |     Kreditas                            |
 |-----------------------------------------------    |-----------------------------  |------------------------------------   |

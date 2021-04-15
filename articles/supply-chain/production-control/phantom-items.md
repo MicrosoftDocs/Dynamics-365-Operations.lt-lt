@@ -2,11 +2,9 @@
 title: Fiktyvios prekės
 description: Šioje temoje išsamiai aprašoma, kaip eilutės tipą Fiktyvi galima naudoti komplektavimo specifikacijos (KS) ir formulės eilutėms programoje „Dynamics 365 Supply Chain Management“.
 author: ShylaThompson
-manager: tfehr
 ms.date: 06/15/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validfrom: ''
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f927337a317d623ac948e79250343fa6782c20fb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1118d7334602e450e5d503632895f73ba19066a1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250386"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814783"
 ---
 # <a name="phantom-items"></a>Fiktyvios prekės
 
@@ -40,7 +38,7 @@ Pirmesnėje iliustracijoje vaizduojama produkto H inžinerinė KS. Ši struktūr
 
 Pavyzdžiui, pirmesnėje iliustracijoje vaizduojamoje inžinerinėje KS matoma, kad elektrinis įrenginys F surinktas kaip atskira dalis atskirame darbo užsakyme. Tačiau renkant elektrinį įrenginį ant parduotuvės grindų gali būti tikslingiau jį surinkti kaip bendro mašinos rinkinio dalį, ne kaip atskirą darbo užsakymą.
 
-Šioje inžinerinėje KS taip pat vaizduojama, kad G dalis yra atskira dalis. Tačiau šioje struktūroje G dalis yra ne fizinė dals, o pakavimo medžiagų rinkinys. 
+Šioje inžinerinėje KS taip pat vaizduojama, kad G dalis yra atskira dalis. Tačiau šioje struktūroje G dalis yra ne fizinė dalis, o pakavimo medžiagų rinkinys. 
 
 Todėl, nors inžinerinė KS yra itin naudinga kuriant produktą ir jį plėtojant, tai gali būti ne pats logiškiausias būdas produkto gamybos vykdymo procesui palaikyti. Priešingai, gamybos KS yra geriausias būdas sukurti produktą.
 

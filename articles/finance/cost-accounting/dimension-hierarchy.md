@@ -2,11 +2,9 @@
 title: Dimensijų hierarchija
 description: Šioje temoje pateikiama informacijos apie dimensijų hierarchijas. Dimensijų hierarchija naudojama kaštų apskaitoje norint nurodyti ataskaitų struktūrą, išlaidų strategijas ir saugos nustatymus.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2a2e48b15bedd25b685686fa18a91f30b600331c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fdf280031e2ad2356a1a2ef3bba75d1f74c8e4de
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217391"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810179"
 ---
 # <a name="dimension-hierarchy"></a>Dimensijų hierarchija
 
@@ -124,12 +122,13 @@ Organizacijos ataskaitoms keliamus reikalavimus atitinkančią dimensijos hierar
 
 Ataskaitų rengimui skirtą dimensijų hierarchiją galima nustatyti kaip parodyta čia.
 
-|                   | Dimensijos narių intervalai   |                         |
+**Dimensijos narių intervalai**
+
+|   Mazgai           |   Iš dimensijos nario   |   Į dimensijos narį   |
 |-------------------|---------------------------|-------------------------|
-| **Mazgai**         | **Iš dimensijos nario** | **Į dimensijos narį** |
 | Organizacija      |                           |                         |
 | &nbsp;&nbsp;Administratorius         |                           |                         |
-|&nbsp;&nbsp;&nbsp;&nbsp;Finansai   | CC002                     | CC003                   |
+| &nbsp;&nbsp;&nbsp;&nbsp;Finansai   | CC002                     | CC003                   |
 |                   | CC007                     | CC007                   |
 | &nbsp;&nbsp;&nbsp;&nbsp;Personalas        | CC001                     | CC001                   |
 | &nbsp;&nbsp;Gamyba    |                           |                         |
@@ -146,12 +145,13 @@ Strategijai keliamus reikalavimus atitinkančią dimensijos hierarchiją galima 
 
 Strategijos dimensijų hierarchiją galima nustatyti kaip parodyta čia.
 
-|                   | Dimensijos narių intervalai   |                         |
+**Dimensijos narių intervalai**
+
+|   Mazgai           |   Iš dimensijos nario   |   Į dimensijos narį   |
 |-------------------|---------------------------|-------------------------|
-| **Mazgai**         | **Iš dimensijos nario** | **Į dimensijos narį** |
 | Savikainos veikimo būdas     |                           |                         |
 | &nbsp;&nbsp;Fiksuotos išlaidos    | 10001                     | 10011                   |
-|&nbsp;&nbsp;Kintamos išlaidos | 40001                     | 40010                   |
+| &nbsp;&nbsp;Kintamos išlaidos | 40001                     | 40010                   |
 
 > [!NOTE]
 > Dalies **Dimensijos narių intervalai** mazge gali būti dimensijos narių intervalų – 1:_n_. Galite įvesti dimensijos nariais dar netapusių dimensijos narių ID. Taikant šį metodą hierarchija tampa atsparesnė ateities pokyčiams.  
@@ -297,9 +297,10 @@ Gali būti, kad visi vadovai galės pasiekti itin slaptus verslo duomenis, pvz.,
 
 Hierarchijos kūrimo įrankyje galima naudoti naują „FastTab“ skirtuką **Vartotojai**. Čia kiekviename hierarchijos mazge galite įterpti vieną ar kelis vartotojų ID.
 
-|                 | Vartotojai            | Dimensijos narių intervalai   |                         |
+**Vartotojų ir dimensijos narių intervalai**
+
+|   Mazgai         |   Vartotojo ID        |   Iš dimensijos nario   |   Į dimensijos narį   |
 |-----------------|------------------|---------------------------|-------------------------|
-| **Mazgai**       | **Vartotojo ID**      | **Iš dimensijos nario** | **Į dimensijos narį** |
 | Organizacija    | Benjamin, Claire |                           |                         |
 | &nbsp;&nbsp;Administratorius         | Balandžio            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Finansai   | Alicia           | CC002                     | CC003                   |

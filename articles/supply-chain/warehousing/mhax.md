@@ -2,7 +2,6 @@
 title: Medžiagų tvarkymo įrangos sąsaja (MHAX)
 description: Šioje temoje aprašoma, kaip nustatyti medžiagų tvarkymo įrangos sąsają (MHAX), kad galėtumėte prisijungti prie išorinių faktinių medžiagų tvarkymo (MH) sistemų.
 author: Mirzaab
-manager: tfehr
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ea021529d7417fb3170c859c7fffcb2cfd23a43f
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: 9273e4a1f6b3f57086c921c4beb0530a67ccd976
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571847"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810515"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Medžiagų tvarkymo įrangos sąsaja (MHAX)
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 *Medžiagų tvarkymo įrangos sąsają* (MHAX) galite naudoti išorinių faktinių medžiagų tvarkymo (MH) sistemoms prijungti prie sandėlio, kuris valdomas pagal išplėstinį sandėlio valdymą (WMS) programoje „Microsoft Dynamics 365 Supply Chain Management”. WMS ir MH sistemų sąsają sudaro dvi eilės: viena skirta siuntimo įvykiams (iš WMS į MH), kita – gavimo įvykiams (iš MH į WMS). WMS sistema sugeneruoja siuntimo įvykius pagal darbo eilutes, sukurtas įvairių darbo kūrimo ir vykdymo procesų metu. Tada MH sistema reguliariai apklausia WMS sistemą dėl naujų įvykių ir apdoroja atsakymus. Po to, kai MH sistema baigia tvarkyti įvykius pagal darbo instrukcijas, ji išsiunčia gavimo įvykius, pavyzdžiui, darbo eilutės baigimą ir nevisišką paėmimą.
 
@@ -102,7 +100,7 @@ Norėdami nustatyti abonemento susiejimą, pasirinkite reikiamą abonementą pus
 
 #### <a name="work-creation-events"></a>Darbo kūrimo įvykiai
 
-Darbo kūrimo įvykiai sukuriami programai sugenerus darbą. Tai taikoma daugumai darbo kūrimo procesų tipų, dažniausiai paėmimo ir papildymo darbo kūrimui. Apskritai, jei darbas sukurtas esant būsenai *Atidaryta*, kuri nurodo, kad darbuotojas darbą jau gali paleisti, bus sugeneruotas darbo kūrimo įvykis. Be to, bus generuojami pagrindinio perkėlimo darbo (ne perkėlimo pagal šabloną darbo) kūrimo įvykiai, net jei darbas nesukurtas kaip atidarytas darbas.
+Darbo kūrimo įvykiai sukuriami programai sugeneravus darbą. Tai taikoma daugumai darbo kūrimo procesų tipų, dažniausiai paėmimo ir papildymo darbo kūrimui. Apskritai, jei darbas sukurtas esant būsenai *Atidaryta*, kuri nurodo, kad darbuotojas darbą jau gali paleisti, bus sugeneruotas darbo kūrimo įvykis. Be to, bus generuojami pagrindinio perkėlimo darbo (ne perkėlimo pagal šabloną darbo) kūrimo įvykiai, net jei darbas nesukurtas kaip atidarytas darbas.
 
 Įsidėmėtina šio elgesio išimtis yra ciklų skaičiavimo darbai, kurie šiuo metu nepalaikomi. Inventorizacijos MH sistemoje nepatenka į MHAX aprėptį, o inventorizacijos rezultatai turi būti importuoti į atsargų skaičiavimo žurnalą.
 

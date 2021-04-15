@@ -2,11 +2,9 @@
 title: Poreikio prognozių nustatymas
 description: Šioje temoje aprašomos nustatymo užduotys, kurias turite atlikti, norėdami prognozuoti poreikį.
 author: roxanadiaconu
-manager: tfehr
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanDefaultAlgorithmParameters, ReqDemPlanForecastParameters
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 623e9efc1c8fc1001b9aedc42c563eaa25afb3ba
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4d2f1820f79798488c73f20f9c688fa877af4f1b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207068"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816537"
 ---
 # <a name="demand-forecasting-setup"></a>Poreikio prognozių nustatymas
 
@@ -82,13 +80,13 @@ Norėdami peržiūrėti poreikio prognozės tarnybos parametrus, kuriuos galima 
 Skirtuke **Paskirstymo raktai** galite nustatyti **prognozės algoritmo parametrus** kiekvienam prekių paskirstymo raktui. Galimos toliau nurodytos pasirinktys.
 - **Patikimumo lygis procentais**. Patikimumo intervalą sudaro reikšmės, kurios nurodo tinkamus poreikio prognozės įvertinimus. 95 procentų patikimumo lygio procentas nurodo 5 procentų tikimybę, kad ateities poreikis nepateks į patikimumo intervalo diapazoną.
 - **Priverstinis sezoniškumas**. Nurodo, ar reikia priverstinai naudoti modelį, kad būtų naudojamas tam tikras sezoniškumas. Tai taikoma tik pasirinktims ARIMA ir ETS. Pasirinktys: AUTO (numatytoji), NONE, ADDITIVE, MULTIPLICATIVE.
-- **Prognozės modelis**. Pasirinktys: ARIMA, ETS, STL, ETS+ARIMA, ETS+STL, ALL. Norėdami pasirinkti tinkamiausią modelį, naudokite pasirinktį **ALL**.
+- **Prognozės modelis**. Pasirinktys: ARIMA, ETS, STL, ETS+ARIMA, ETS+STL, ALL. Norėdami pasirinkti tinkamiausią modelį, naudokite pasirinktį **VISI**.
 - **Didžiausia prognozuota vertė**. Nurodo didžiausią vertę, kurią reikia naudoti prognozėje. Formatas: +1E[n] arba skaitinė konstanta.
 - **Mažiausia prognozuota vertė**. Nurodo mažiausią vertę, kurią reikia naudoti prognozėje. Formatas: ‑1E[n] arba skaitinė konstanta.
 - **Trūkstamos vertės pakaitalai**. Nurodo, kaip užpildomos praeities duomenų spragos. Pasirinktys: skaitinė vertė, MEAN, PREVIOUS, INTERPOLATE LINEAR, INTERPOLATE POLYNOMIAL.
 - **Trūkstamos vertės pakaitalų apimtis**. Nurodo, ar vertės keitimas taikomas tik kiekvienam atskiram duomenų diapazono detalumo atributui ar visam duomenų rinkiniui. Pasirinktys: GRANULARITY_ATTRIBUTE (numatytoji), GLOBAL.
 - **Užuomina apie sezoniškumą**. Jei naudojate sezoninius duomenis, pateikite prognozės modeliui užuominą, kad pagerintumėte prognozės tikslumą. Formatas: sveikasis skaičius, nurodantis poreikio kartojimosi šabloną. Pavyzdžiui, įvesdami 6 nurodykite duomenis, kurie kartojasi kas 6 mėnesius.
-- **Rinkinio dydžio procento tikrinimas**. Praeities duomenų procentas, kurį reikia naudoti kaip testinį rinkinį skaičiuojant prognozės tikslumą. 
+- **Rinkinio dydžio procento tikrinimas**. Praeities duomenų procentas, kurį reikia naudoti kaip bandomąjį rinkinį skaičiuojant prognozės tikslumą. 
 
 <a name="additional-resources"></a>Papildomi ištekliai
 --------

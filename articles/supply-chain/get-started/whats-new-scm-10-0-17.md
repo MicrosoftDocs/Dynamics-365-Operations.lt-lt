@@ -1,12 +1,10 @@
 ---
-title: „Dynamics 365 Supply Chain Management” 10.0.17 (2021 m. balandžio mėn.) peržiūra
+title: Kas nauja arba pasikeitė „Dynamics 365 Supply Chain Management” 10.0.17 versijoje (2021 m. balandžio mėn.)?
 description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.17 versijos funkcijos.
 author: kamaybac
-manager: annbe
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,19 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 985879ef765bf3074387a909d508f0f93a4771ed
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: 4b4e551f5c687f0021ddba0c9f5b73af528b7140
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571817"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813176"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10017-april-2021"></a>„Dynamics 365 Supply Chain Management” 10.0.17 (2021 m. balandžio mėn.) peržiūra
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Kas nauja arba pasikeitė „Dynamics 365 Supply Chain Management” 10.0.17 versijoje (2021 m. balandžio mėn.)?
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šioje temoje pristatomos funkcijos, kurios yra naujos arba pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.17 peržiūros versijoje. Šios versijos komponavimo numeris yra 10.0.761 ir jis pasiekiamas tokius būdu:
+Šioje temoje pateikiamos naujos ir pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.17 versijos funkcijos. Šios versijos komponavimo numeris yra 10.0.761 ir jis pasiekiamas tokius būdu:
 
 - **Leidimo peržiūra** 2021 m. vasario mėn
 - **Bendras leidimo prieinamumas (savaiminis naujinimas):** 2021 m. kovo mėn.
@@ -36,9 +33,9 @@ ms.locfileid: "5571817"
 
 ## <a name="features-included-in-this-release"></a>Funkcijos, įtrauktos į šį leidimą
 
-Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Kai kurios išvardytos funkcijos vis dar yra peržiūros versijos, o kitos funkcijos jau gali būti prieinamos bendrai. Norėdami peržiūrėti kiekvienos funkcijos oficialią leidimo datą, vadovaukitės saitais su [leidimų planu](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features).
+Toliau nurodytos funkcijos yra įtrauktos į šį leidimą.  Norėdami peržiūrėti kiekvienos funkcijos oficialią leidimo datą, vadovaukitės saitais su [leidimų planu](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features).
 
-Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis.
+Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis. Kai kurios išvardytos funkcijos gali būti vis dar yra peržiūros versijoje, tačiau dauguma jų dabar yra prieinamos bendrai.
 
 ### <a name="asset-management"></a>Turto valdymas
 
@@ -68,9 +65,13 @@ Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fi
 
 - [Sandėlio valdymo mobilioji programėlė](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)<br> - Daugiau informacijos rasite [Sandėlio valdymo programos diegimas ir prijungimas](../warehousing/install-configure-warehouse-management-app.md) bei [Mobiliųjų įrenginių vartotojo parametrai](../warehousing/mobile-device-user-settings.md).
 
+- Bangos vykdymo pranešimai<br> - Daugiau informacijos rasite [Bangos vykdymo pranešimai](../warehousing/wave-execution-notifications.md)
+
 ### <a name="manufacturing"></a>Gamyba
 
-- [Turto valdymo gebėjimai gamybos vietos vykdymo sąsajai](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - Daugiau informacijos žr. [Kaip darbuotojai naudoja gamybos cecho vykdymo sąsają](../production-control/production-floor-execution-use.md).
+- [Turto valdymo gebėjimai gamybos vietos vykdymo sąsajai](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - Daugiau informacijos rasite [Gamybos cecho vykdymo sąsajos konfigūravimas](../production-control/production-floor-execution-configure.md).
+
+- Bendra užduočių ID numerių seka<br> - Daugiau informacijos rasite 
 
 - [Numatytojo gamybos medžiagų rezervavimo principo nepaisymas](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - Daugiau informacijos žr. [Numatytojo medžiagų gamybos rezervavimo principo perrašymas](../production-control/override-default-reservation-principle.md).
 
