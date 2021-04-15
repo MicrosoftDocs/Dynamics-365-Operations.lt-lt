@@ -2,11 +2,9 @@
 title: Atsargų buferių ir atsargų lygių konfigūravimas
 description: Šioje temoje paaiškinama, kaip konfigūruoti atsargų buferius ir atsargų lygius, kurie apibrėžia atsargų pasiekiamumo pranešimus „Microsoft Dynamics 365 Commerce“ svetainėse.
 author: boycezhu
-manager: annbe
 ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -14,12 +12,12 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: ea6844307e63b351ef914134b7d8392b0910019a
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: ca6cea9e0e7f1fd3eba3082c5a33e8b2d6dec878
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5478393"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798918"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>Atsargų buferių ir atsargų lygių konfigūravimas
 
@@ -93,7 +91,7 @@ Kai sukuriamas naujas produktas, laukas **Atsargų lygio profilis** kaip ir daug
 
 Norėdami sinchronizuoti atsargų lygio profilių konfigūracijas su kanalais, atlikite tolesnius veiksmus.
 
-1. Eikite į **„Retail and Commerce“** \> **„Retail and Commerce IT“** \> **Paskirstymo grafikas**.
+1. Eikite į **Mažmeninė prekyba ir prekyba** \> **Mažmeninės prekybos ir prekybos IT“** \> **Paskirstymo grafikas**.
 1. Paleiskite paskirstymo grafiką **1040** (**Produktas**).
 
 ## <a name="configure-an-inventory-buffer"></a>Atsargų buferio konfigūravimas
@@ -122,14 +120,14 @@ Kai sukuriamas naujas produktas, laukas **Atsargų buferis** bus nustatytas į r
 
 Norėdami sinchronizuoti atsargų buferių konfigūracijas su kanalais, atlikite tolesnius veiksmus.
 
-1. Eikite į **„Retail and Commerce“** \> **„Retail and Commerce IT“** \> **Paskirstymo grafikas**.
+1. Eikite į **Mažmeninė prekyba ir prekyba** \> **Mažmeninės prekybos ir prekybos IT** \> **Paskirstymo grafikas**.
 1. Paleiskite paskirstymo grafiką **1040** (**Produktas**).
 
 ## <a name="use-inventory-buffers-and-inventory-levels-in-e-commerce-scenario"></a>Atsargų buferių ir atsargų lygių naudojimas el. prekybos scenarijuje
 
 „Commerce“ svetainės kūrimo priemonė naudoja atsargų buferio ir atsargų lygio galimybes „Commerce“ būstinėje, kad galėtų nustatyti atsargų pasiekiamumo pranešimus el. prekybos svetainėse. Daugiau informacijos žr. [Atsargų parametrų taikymas](inventory-settings.md).
 
-Taip pat, jei integruosite trečiosios šalies el. prekybos sprendimą, galite naudoti API **„GetEstimatedAvailability“** ir **„GetEstimatedProductWarehouseAvailability“**, kad produkto atsargų pasiekiamumas būtų rodomas jūsų el. prekybos scenarijuje. Norėdami gauti daugiau informacijos apie šias API, žr [Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas](calculated-inventory-retail-channels.md).
+Taip pat, jei integruosite trečiosios šalies el. prekybos sprendimą, galite naudoti API **„GetEstimatedAvailability“** ir **„GetEstimatedProductWarehouseAvailability“**, kad produkto atsargų pasiekiamumas būtų rodomas jūsų el. prekybos scenarijuje. Norėdami gauti daugiau informacijos apie šias API, žr. [Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas](calculated-inventory-retail-channels.md).
 
 Atsargų buferio ir atsargų lygių įvedimas suteikia šioms API galimybę pateikti atsargų lygio kodus ir etikečių pranešimus, kurie nustatomi atsižvelgiant į iš viso pasiekiamų ir fiziškai pasiekiamų atsargų reikšmes. API gali būti sukonfigūruota taip, kad būtų galima nustatyti, ar atsargų kiekis pateikiamas kartu su pranešimu, ar galimas kiekis sumažinamas atsargų buferio reikšme.
 

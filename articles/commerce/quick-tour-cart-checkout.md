@@ -2,11 +2,9 @@
 title: Krepšelio ir pirkimo užbaigimo puslapių apžvalga
 description: Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ krepšelio valdymo puslapių apžvalga.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4f7c708aa7f1a858e78cdbda809b90b944606022
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d0b5a74a9880a5cabfdbc124f557998540c94a4d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244796"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792248"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Krepšelio ir pirkimo užbaigimo puslapių apžvalga
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ krepšelio valdymo puslapių apžvalga.
-
-## <a name="overview"></a>Peržiūra
 
 El. prekybos svetainės krepšelio puslapyje pateikiamos visos prekės, kurias klientas įtraukė į krepšelį. Krepšelio puslapis sukurtas naudojant krepšelio modulį. Krepšelio modulis yra konteineris, kuris turi visus modulius, kurių reikia norint rodyti krepšelio elementus. Be to, krepšelio modulyje galima naudoti ir kitus modulius rodyti užsakymo suvestinę ir visus reklaminius kodus, kurie buvo taikomi kliento užsakymui.
 
@@ -43,7 +39,7 @@ Toliau pateiktame paveikslėlyje parodytas krepšelio puslapio pavyzdys, kuris b
 
 ![Krepšelio puslapio pavyzdys](./media/cart2.PNG)
 
-Pagrindinėje krepšelio puslapio struktūroje pateikiamos visos prekės, kurias klientas įdėjo į krepšelį. Yra pademonstratos visos taikomos nuolaidos. Šios nuolaidos apima sudėtines nuolaidas. Pavyzdžiui, „Pirkite 3 prekes ir gaukite 10% nuolaidą“ arba „įsigykite buteliuką ir kuprinę ir gaukite 10% nuolaidą.“ Užsakymo suvestinės modulyje rodoma suma, mokėtina pritaikius nuolaidas, su siuntimo išlaidomis, mokesčiais ir t. t. Taip pat yra reklaminio kodo modulis, kuris leidžia klientui taikyti arba pašalinti reklaminius kodus.
+Pagrindinėje krepšelio puslapio struktūroje pateikiamos visos prekės, kurias klientas įdėjo į krepšelį. Yra pademonstruotos visos taikomos nuolaidos. Šios nuolaidos apima sudėtines nuolaidas. Pavyzdžiui, „Pirkite 3 prekes ir gaukite 10% nuolaidą“ arba „įsigykite buteliuką ir kuprinę ir gaukite 10% nuolaidą.“ Užsakymo suvestinės modulyje rodoma suma, mokėtina pritaikius nuolaidas, su siuntimo išlaidomis, mokesčiais ir t. t. Taip pat yra reklaminio kodo modulis, kuris leidžia klientui taikyti arba pašalinti reklaminius kodus.
 
 Klientas gali apsipirkti anonimiškai arba kaip prisiregistravęs vartotojas. Jei klientas prisiregistravęs, krepšelio elementai išsaugomi tarp seansų. Tokiu būdu klientas gali toliau apsipirkti iš kelių įrenginių.
 

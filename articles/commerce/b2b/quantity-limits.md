@@ -2,11 +2,9 @@
 title: Nustatykite produkto kiekio apribojimus B2B el. komercijos saitams
 description: Šioje temoje aprašoma, kaip nustatyti produkto kiekio apribojimus verslo su verslu (B2B) el. komercijos saitams.
 author: josaw1
-manager: AnnBe
 ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailOperations
 audience: Application User, IT Pro
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1208b968e476ccbc7a726facf1db896c7bf3c36f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e9f14bc9aa6586e87f3e8ccb82e63d0ec2e46534
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211182"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799786"
 ---
 # <a name="set-product-quantity-limits-for-b2b-e-commerce-sites"></a>Nustatykite produkto kiekio apribojimus B2B el. komercijos saitams
 
@@ -49,13 +47,13 @@ Norėdami įjungti numatytą užsakymo nustatymų funkciją, atlikite šiuos vei
 1. Raskite ir pasirinkite **Palaikyti saitą ir numatytus užsakymo nustatymus tinkintame užsakyme** funkciją.
 1. Dešiniosios juostos apačioje rinkitės **Įjungti dabar**. 
 
-## <a name="define-quantity-settings"></a>Nustatyktie kiekio nustatymus 
+## <a name="define-quantity-settings"></a>Nustatykite kiekio nustatymus 
 
 Galite nustatyti kiekio nustatymus **Numatyti užsakymo nustatymai** puslapyje.
 
 Norėdami nustatyti kiekio nustatymus, atlikite šiuos veiksmus. 
 
-1. Eikite į porduktą **Mažmeninė prekyba ir komercija\> Produktai ir kategorijos \> Išleisti produktai pagal kategorijas**.
+1. Eikite į produktą **Mažmeninė prekyba ir komercija\> Produktai ir kategorijos \> Išleisti produktai pagal kategorijas**.
 1. Rinkitės išleistą produktą.
 1. Veiksmų juostoje **Valdyti inventorių** skirtuke, **Užsakymo nustatymai** grupėje, rinkitės **Numatyto užsakymo nustatymai**. 
 1. Puslapyje **Numatyto užsakymo nustatymai**, „FastTabe“ **Prekybos užsakymas** skyriuje **Prekybos kiekis**, nustatykite produkto pardavimo kiekius:

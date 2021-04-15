@@ -2,11 +2,9 @@
 title: Parduotuvės parinkiklio modulis
 description: Šioje temoje paaiškinamas parduotuvės išrinkiklio modulis ir aprašoma, kaip pridėti jį prie svetainių puslapių, esančių „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 785ff004adcd94e7c4c6c5918d632ce662aa7989
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e73338666c0bd8c0dc8df840b308ec758ee812dd
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205127"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798638"
 ---
 # <a name="store-selector-module"></a>Parduotuvės išrinkiklio modulis
 
@@ -32,7 +30,7 @@ ms.locfileid: "5205127"
 
 Klientai gali naudoti parduotuvės parinkėjo modulį tam, kad paimtų gaminį pasirinktoje parduotuvėje po pirkimo internetu. Prekybos versijoje 10.0.13, parduotuvės išrinkiklio modulis taip pat apima papildomas galimybes, kurios gali rodyti **Rasti parduotuvę** puslapį, kuris rodo šalia esančias parduotuves.
 
-Parduotuvės selektoriaus modulis leidžia vartotojui įvesti veitą (miestą, valstybę, adresą ir taip toliau) parduotuvių paieškai paieškos spindulyje. Kai modulis yra atidaromas pirmą kartą, jis naudoja kliento naršymo vietą tam, kad surastų parduotuves (jei sutikimas yra duotas).
+Parduotuvės selektoriaus modulis leidžia vartotojui įvesti vietą (miestą, valstybę, adresą ir taip toliau) parduotuvių paieškai paieškos spindulyje. Kai modulis yra atidaromas pirmą kartą, jis naudoja kliento naršymo vietą tam, kad surastų parduotuves (jei sutikimas yra duotas).
 
 ## <a name="store-selector-module-usage-in-e-commerce"></a>Parduotuvės parinkiklio modulio naudojimas „e-Commerce“
 
@@ -55,7 +53,7 @@ Dėl automatinio„REST API“, privalote užtikrinti, kad tolesni URL yra leid�
 
 Parduotuvės selektoriaus modulis palaiko **Atsiėmimas parduotuvėje** režimą, kuris rodo parduotuvių sąrašą, kuriose produktas yra prieinamas paėmimui. Jis taip pat rodo parduotuvės valandas ir produkto atsargas kiekvienai parduotuvei sąraše. Parduotuvės selektoriaus modulis reikalauja produkto turinio sukurti produkto prieinamumą ir leisti naudotojui įtraukti produktą į vežimėlį, jei produkto pristatymo režimas yra nustatytas į **paėmimą** pasirinktoje parduotuvėje. Norėdami gauti daugiau informacijos, žr. [inventoriaus parametrai](inventory-settings.md). 
 
-Parduotuvės selektoriaus modulis gali būti įtrauktas siekiant įsigyti dėžutės modulį PDP tam, kad būtų parodytos parduotuvės, kuriose produktas yra prieinamas pasiėmimui. Jį taip pat galima pridėti prie krepšelio modulio. Šiuo atveju, parduotuvės selektoriaus modulis rodo pasiėmimo parinktis keikvienos linijos elementui vežimėlyje. Parduotuvės selektoriaus modulis gali taip pat būti įtrauktas į kitus puslapius ar modulius per plėtinius ir tinkinimus.
+Parduotuvės selektoriaus modulis gali būti įtrauktas siekiant įsigyti dėžutės modulį PDP tam, kad būtų parodytos parduotuvės, kuriose produktas yra prieinamas pasiėmimui. Jį taip pat galima pridėti prie krepšelio modulio. Šiuo atveju, parduotuvės selektoriaus modulis rodo pasiėmimo parinktis kiekvienos linijos elementui vežimėlyje. Parduotuvės selektoriaus modulis gali taip pat būti įtrauktas į kitus puslapius ar modulius per plėtinius ir tinkinimus.
 
 Šiam scenarijui veikti, produktai turi būti sukonfigūruoti taip, kad **paėmimo** pristatymo režimas būtų naudojamas. Kitu atveju, modulis nebus rodomas produkto puslapiuose. Dėl daugiau informacijos apie tai, kaip konfigūruoti pristatymo režimą, žr. [Nustatyti pristatymo režimus](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 

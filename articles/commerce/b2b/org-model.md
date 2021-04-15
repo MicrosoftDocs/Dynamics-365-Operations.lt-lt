@@ -2,11 +2,9 @@
 title: Kurkite organizacijos modeliavimo hierarchijas B2B organizacijoms
 description: Šioje temoja aprašoma, kaip kurti organizacijos modelio hierarchijas verslo su verslu (B2B) organizacijoms.
 author: josaw1
-manager: AnnBe
 ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailOperations
 audience: Application User, IT Pro
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 91cb01637faa69bd3c7fefefae69c60cb948510e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 487af939f92ece8bc3e543b3beeffa239baa1863
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211230"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799834"
 ---
 # <a name="create-org-modeling-hierarchies-for-b2b-organizations"></a>Kurkite organizacijos modeliavimo hierarchijas B2B organizacijoms
 
@@ -33,7 +31,7 @@ ms.locfileid: "5211230"
 
 Kai verslo partneris užklausa prisijungti B2B el. komercijos saitas yra patvirtintas, atliekami tolesni veiksmai:
 
-- Du nauji kleitno įrašai yra suukuriami sistemoje: **Organizacijos tipo** kliento įrašas verslo partnerio organizacijai ir **Asmens tipas** kliento įrašo besikreipiančiam asmeniui (tai reiškia, verslo partnerio vartotojas, kuris pateikė užklausą).
+- Du nauji kliento įrašai yra sukuriami sistemoje: **Organizacijos tipo** kliento įrašas verslo partnerio organizacijai ir **Asmens tipas** kliento įrašo besikreipiančiam asmeniui (tai reiškia, verslo partnerio vartotojas, kuris pateikė užklausą).
 - Naujas kliento hierarchijos įrašas yra sukuriamas **Klientas \> Kliento hierarchija**. Šis įrašas turi tolesnes antraštės ypatybes:
 
     - **Kliento hierarchijos ID** – Unikalus ID kliento hierarchijai. Šis ID naudoja skaičių seką, kuris yra nustatyta „Commerce“ bendrintuose parametruose „Commerce“ būstinėje.
@@ -51,7 +49,7 @@ Kai administratorius įtraukia daugiau naudotojų į verslo partnerio organizaci
 > [!NOTE]
 > Didžiojoje dalyje atvejų, atitinkamos nuosavybės visų kliento įrašų vertės hierarchijoje turėtų sutapti. Pavyzdžiui, kadangi visi verslo partnerio vartotojai turėtų gauti panašias kainas už produktus, jų kainos grupė ir susieti konfigūravimai turėtų sutapti. Nepaisant to, sistema neįgalina tokio nuoseklumo. Dėl to, atitinkami „Commerce“ štabo vartotojai yra atsakingi už nuosavybės verčių ir konfigūravimo atitikimą visiems klientams toje hierarchijoje.
 
-„Commerce“ štabo vartotojai gali ieškoti nuosavybės verčių visuose kliento įrašuose hierarchijoje šalia esančiame rodinyje. Rinkitės atitinkamą kliento įrašo nuosavybę pasirinkdami skirtuko pavadinimus iškrentančiame meniu. Vartotojai gali tiesiogiai peržiūrėti ir redaguoti nuosavybės vertes šiame rodinyje. Kitu atveju, jei norite taikyti vertes administratoriaus kliento įrašui visies klientų įrašams, rinkitės **Viršyti** kliento išsamios informacijos hierarchijoje.
+„Commerce“ štabo vartotojai gali ieškoti nuosavybės verčių visuose kliento įrašuose hierarchijoje šalia esančiame rodinyje. Rinkitės atitinkamą kliento įrašo nuosavybę pasirinkdami skirtuko pavadinimus iškrentančiame meniu. Vartotojai gali tiesiogiai peržiūrėti ir redaguoti nuosavybės vertes šiame rodinyje. Kitu atveju, jei norite taikyti vertes iš administratoriaus kliento įrašo visiems klientų įrašams, rinkitės **Viršyti** kliento išsamios informacijos hierarchijoje.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

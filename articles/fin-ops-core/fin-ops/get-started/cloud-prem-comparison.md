@@ -2,7 +2,6 @@
 title: Debesies ir vietinių funkcijų palyginimas
 description: Temoje parodyta, kurios funkcijos palaikomos debesies ir vietinėje versijose.
 author: sericks007
-manager: AnnBe
 ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 52dfff77fa7d14e560ce20596a4d79edeadb5390
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: e2126983fef2b59af5c8082a6495f808afeb5f9c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566641"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744056"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Debesies ir vietinių funkcijų palyginimas
 
@@ -43,9 +42,9 @@ Tolesnėse lentelėse išvardytos programų sritys. Nurodomas visos funkcijos pa
 |---------------------|-----------------------------|-----------|-----------------|
 | Atitiktis ir sertifikavimai        |                                                                                           | Taip       | Taip             |
 |                                      | SOC 1 1 tipo sertifikavimas                                                                | Taip       | Ne              |
-| Duomenų valdymas ir integravimas      |                                                                                           | Taip       | Taip             
+| Duomenų valdymas ir integravimas      |                                                                                           | Taip       | Taip             |
 |                                      | Duomenų eksportavimas į savo duomenų sandėlį                                                    | Taip       | Taip             |
-|                                      | Papildančiųjų naujinimų eksportavimo į duomenų objektą funkcijos įjungimas                                 | Taip       | Taip              |
+|                                      | Papildančiųjų naujinimų eksportavimo į duomenų objektą funkcijos įjungimas                                 | Taip       | Taip             |
 |                                      | Duomenų integravimai                                                                         | Taip       | Taip             |
 | Dokumentų tvarkymas                  |                                                                                           | Taip       | Taip             |
 | Finansų valdymas                 |                                                                                           | Taip       | Taip             |
@@ -62,8 +61,8 @@ Tolesnėse lentelėse išvardytos programų sritys. Nurodomas visos funkcijos pa
 |                                      | Analizės darbo sritys                                                                     | Taip       | nr.              |
 |                                      | Sumanaus verslo procesas: rekomendacijos                                             | Taip       | nr.              |
 |                                      | „Power BI“ ataskaitų kūrimas su „OData“ naudojant „Power BI“ arba „Excel PowerQuery“ įrankius    | Taip       | nr.              |
-|                                      | „SQL Server Reporting Services“ (SSRS) palaiko išplėtimą                                 | Taip       | Ne              |
-|                                      | Telemetrija perkeliama į debesį                                                   | Taip       | Ne              |
+|                                      | „SQL Server Reporting Services“ (SSRS) palaiko išplėtimą                                 | Taip       | Taip             |
+|                                      | Telemetrija perkeliama į debesį                                                   | Taip       | nr.              |
 | „Lifecycle Services“                   |                                                                                           | Taip       | Taip             |
 |                                      | Konfigūruojamieji verslo procesai                                                           | Taip       | Ne              |
 | Lokalizacijos                        |                                                                                           | Taip       | Taip             |
@@ -85,7 +84,7 @@ Tolesnėse lentelėse išvardytos programų sritys. Nurodomas visos funkcijos pa
 
 | **Sritis**                | **Funkcija**             | **Debesis** | **Vietoje** |
 |-------------------------|-------------------|-----------|-----------------|
-| Turto valdymas                     |                                                                                           | Taip       | nr. |
+| Turto valdymas                     |                                                                                           | Taip       | nr.              |
 | Atitiktis ir sertifikavimai        |                                                                                           | Taip       | Taip             |
 |                                      | SOC 1 1 tipo sertifikavimas                                                                | Taip       | nr.              |
 | Kaštų apskaita                      |                                                                                           | Taip       | Taip             |
@@ -96,7 +95,7 @@ Tolesnėse lentelėse išvardytos programų sritys. Nurodomas visos funkcijos pa
 | Duomenų valdymas ir integravimas      |                                                                                           | Taip       | Taip             |
 |                                      | Konfigūracijomis paremtas plėtinys                                                            | Taip       | Nr.              |
 |                                      | Duomenų eksportavimas į savo duomenų sandėlį                                                    | Taip       | Taip             |
-|                                      | Papildančiųjų naujinimų eksportavimo į duomenų objektą funkcijos įjungimas                                 | Taip       | Taip              |
+|                                      | Papildančiųjų naujinimų eksportavimo į duomenų objektą funkcijos įjungimas                                 | Taip       | Taip             |
 |                                      | Duomenų integravimai                                                                         | Taip       | Taip             |
 | Dokumentų tvarkymas                  |                                                                                           | Taip       | Taip             |
 | Žinynas                                 |                                                                                           | Taip       | Ne              |
@@ -111,8 +110,8 @@ Tolesnėse lentelėse išvardytos programų sritys. Nurodomas visos funkcijos pa
 |                                      | Analizės darbo sritys                                                                     | Taip       | nr.              |
 |                                      | Sumanaus verslo procesas: rekomendacijos                                             | Taip       | nr.              |
 |                                      | „Power BI“ ataskaitų kūrimas su „OData“ naudojant „Power BI“ arba „Excel PowerQuery“ įrankius    | Taip       | nr.              |
-|                                      | „SQL Server Reporting Services“ (SSRS) palaiko išplėtimą                                 | Taip       | Nr.              |
-|                                      | Telemetrija perkeliama į debesį                                                   | Taip       | Nr.              |
+|                                      | „SQL Server Reporting Services“ (SSRS) palaiko išplėtimą                                 | Taip       | Taip             |
+|                                      | Telemetrija perkeliama į debesį                                                   | Taip       | nr.              |
 | Atsargų valdymas                 |                                                                                           | Taip       | Taip             |
 | „Lifecycle Services“                   |                                                                                           | Taip       | Taip             |
 |                                      | Konfigūruojamieji verslo procesai                                                           | Taip       | Nr.              |

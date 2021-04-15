@@ -2,11 +2,9 @@
 title: Mažmeninės prekybos pardavimo kainos valdymas
 description: Šioje temoje aprašomos pardavimo kainų kūrimo ir valdymo „Dynamics 365 Commerce“ koncepcijos.
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3411be3be44b5ca72bcd6b52b335662b1fc16aa4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 85f6188bff4d3535369e4af145f8f55a3263c4a3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231181"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794168"
 ---
 # <a name="retail-sales-price-management"></a>„Retail“ pardavimo kainų valdymas
 
@@ -107,7 +105,7 @@ O štai kainodaros prioriteto funkcija mažmenininkui leidžia parduotuvės kain
 
 Pažiūrėkime į pavyzdį, kur parduotuvių kainoms taikoma pirmenybė prieš kitas kainas.
 
-Nacionalinis mažmenininkas daugumą kainų nustato pagal regioną, o regionų yra keturi: Šiaurės Rytų, Pietryčių, Vidurio Vakarų ir Vakarų. Jis nustatė keletą brangių rinkų, kurios gali pakelti didesnes kainas. Šios rinkos yra Niujorkas, Čikaga ir San Fransisko įlankos regionas.
+Nacionalinis mažmenininkas daugumą kainų nustato pagal regioną, o regionų yra keturi: Šiaurės Rytų, Pietryčių, Vidurio Vakarų ir Vakarų. Jis nustatė keletą brangių rinkų, kurios gali pakelti didesnes kainas. Šios rinkos yra Niujorkas, Čikaga ir San Francisko įlankos regionas.
 
 Šiame pavyzdyje bandysime įsigilinti į Šiaurės Rytų regioną. 1 parduotuvė yra Bostone, o 2 parduotuvė – Manhetene. Su Bostono parduotuvės kanalu yra susietos dvi kainų grupės: Šiaurės Rytų ir 1 parduotuvės. Su Manheteno parduotuvės kanalu yra susietos trys kainų grupės: Šiaurės Rytų, Niujorko ir 2 parduotuvės.
 

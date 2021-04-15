@@ -2,11 +2,9 @@
 title: Įtraukti naują svetainės puslapį
 description: Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“ įtraukti naują svetainės puslapį.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2d96f173c68bd6a7d9c7a559ed7f18329c3508af
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4a2ecc3ef3ff3f708cec50e42777b50ec4576e25
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208044"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797556"
 ---
 # <a name="add-a-new-site-page"></a>Įtraukti naują svetainės puslapį
-
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“ įtraukti naują svetainės puslapį.
-
-## <a name="overview"></a>Peržiūra
 
 Svetainei sukūrus šablonų ir fragmentų, kitas veiksmas yra pradėti kurti puslapius, kuriuose jie naudojami. Norėdami pradėti, turite pasirinkti šabloną arba maketą, puslapio pavadinimą ir puslapio URL.
 
@@ -65,7 +60,7 @@ Norėdami į savo svetainę įtraukti naują puslapį, atlikite tolesnius veiksm
 1. Pasirinkite **Raiškiojo turinio blokas** ir **Gerai**.
 1. Pasirinkite **Raiškiojo turinio blokas**, tada – daugtaškio mygtuką ir **Įtraukti modulį**.
 1. Pasirinkite **Raiškiojo turinio bloko elementas** ir **Gerai**.
-1. Dešinėje esančioje ypatybių srityje pasirinkite **Pastraipa**, tada lauke įveskite **Mano testinis tekstas**.
+1. Dešinėje esančioje ypatybių srityje pasirinkite **Pastraipa**, tada lauke įveskite **Mano bandomasis tekstas**.
 1. Pasirinkite **Įrašyti**, tada – **Baigti redagavimą**.
 1. Lauke **Komentarai** įveskite **Įtrauktas naujas puslapis** ir pasirinkite **Gerai**.
 1. Norėdami peržiūrėti puslapį, pasirinkite **Peržiūra**. Baigę uždarykite peržiūros skirtuką – grįšite į kūrimo įrankį.
@@ -91,7 +86,7 @@ Norėdami į savo svetainę įtraukti naują puslapį, atlikite tolesnius veiksm
 
 [Patikrinti puslapio turinio pritaikymą neįgaliesiems](verify-accessibility.md)
 
-[Sukurti dinaminius e-komercijos puslapius pagal URL parameterus](create-dynamic-pages.md)
+[Sukurti dinaminius e-komercijos puslapius pagal URL parametrus](create-dynamic-pages.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Skambučių centro kanalų nustatymas
 description: Šioje temoje pateikiama informacija apie tai, kaip apdoroti skambučių centrų užsakymus naudojant „Dynamics 365 Commerce“.
 author: josaw1
-manager: AnnBe
 ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: MCROrderParameters, MCRSalesTableOrderHistory, SalesOrderProcessingWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2feb789e8942708bdad533dbdc28b2070a06e6be
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5ec0e13c8ecfb6003cbb905e66fc102074e7b9b6
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264485"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795530"
 ---
 # <a name="set-up-call-center-channels"></a>Skambučių centro kanalų nustatymas
 
@@ -33,7 +31,7 @@ Programoje „Dynamics 365 Commerce“ įmonė gali nurodyti keletą skambučių
 
 Sukūrus naują skambučių centro kanalą jam sistemingai priskiriamas valdymo vieneto numeris. Kadangi skambučių centrai kuriami kaip valdymo vienetai, vartotojai gali susieti skambučių centro kanalą su įvairiomis „Commerce” funkcijomis, pavyzdžiui, asortimentais, katalogais ir konkrečiais pristatymo būdais.
 
-Numatytasis sandėlis gali būti konfigūruojamas skambučių centro kanale. Tame kanale sukūrus pardavimo užsakymų numatytasis sandėlys pardavimo užsakymo antraštėje įvedamas automatiškai, išskyrus tais atvejais, kai nurodomas kitas pardavimo užsakymui pasirinkto kliento sandėlis. Tokiu atveju kliento sandėlis įvedamas pagal numatytuosius nustatymus.
+Numatytasis sandėlis gali būti konfigūruojamas skambučių centro kanale. Tame kanale sukūrus pardavimo užsakymų numatytasis sandėlis pardavimo užsakymo antraštėje įvedamas automatiškai, išskyrus tais atvejais, kai nurodomas kitas pardavimo užsakymui pasirinkto kliento sandėlis. Tokiu atveju kliento sandėlis įvedamas pagal numatytuosius nustatymus.
 
 Norėdami naudotis skambučių centro funkcijomis, vartotojai turi būti susieti su skambučių centro kanalu. Visi vartotojo srityje sukurti pardavimo užsakymai automatiškai susiejami su to vartotojo skambučių centro kanalu. Šiuo metu nėra galimybės vieną vartotoją vienu metu susieti su keliais skambučių centro kanalais.
 
@@ -51,7 +49,7 @@ Skambučių centro kanalo lygiu galite nurodyti kitas numatytąsias su finansin�
 
 Skambučių centro kanalo nustatymas **Įgalinti užsakymo baigimą** turi didelės įtakos įvestų to kanalo pardavimo užsakymų apdorojimo eigai. Įjungus šį nustatymą prieš patvirtinant pardavimo užsakymus visi jie turi būti patikrinami vadovaujantis tam tikru taisyklių rinkiniu. Šios taisyklės paleidžiamos paspaudus pardavimo užsakymo puslapio srityje Veiksmų sritis esantį mygtuką **Baigti**. Visiems įjungus nustatymą **Įgalinti užsakymo baigimą** sukurtiems pardavimo užsakymams privalo būti atliktas užsakymo baigimo procesas. Vykstant šiam procesui vykdomas mokėjimo fiksavimas ir mokėjimo patvirtinimo logika. Vykstant užsakymo pateikimo procesui ne tik vykdomas mokėjimas, taip pat gali būti sukuriami jūsų sistemoje konfigūruojami [apgaulingi čekiai](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts). Tokie elementai kaip užsakymai, kurių nepavyksta apmokėti, taip pat apgaulingos patikros sustabdomi ir jų negalima paleisti tolesniam apdorojimui (pvz., paėmimui arba siuntimui) kol neišsprendžiama sustabdymą sukėlusi problema.
 
-Įjungus skambučių centro kanalo nustatymą **Įgalinti užsakymo baigimą**, jei pardavimo užsakyme įvedami eilutės elementai ir kanalo vartotojas bando uždaryti pardavimo užsakymo formą arba pereiti prie kitos formos nepasirinkęs **Užbaigti**, sistema vykdo užsakymo baigimo procesą – atidaromas pardavimo užsakymo apžvalgos puslapis ir reikalaujama, kad vartotojas tinkmai pateiktų užsakymą. Jei užsakymo negalima tinkamai pateikti kartu su mokėjimu, vartotojas gali pasinaudoti funkcija [užsakymų sulaikymas](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds) ir sulaikyti užsakymą. Jei vartotojas bando atšaukti užsakymą, jis turi būti atšaukiamas tinkamai naudojantis funkcija Atšaukti arba Naikinti, priklausomai nuo to, kokia funkcija leidžiama pagal vartotojo saugą.
+Įjungus skambučių centro kanalo nustatymą **Įgalinti užsakymo baigimą**, jei pardavimo užsakyme įvedami eilutės elementai ir kanalo vartotojas bando uždaryti pardavimo užsakymo formą arba pereiti prie kitos formos nepasirinkęs **Užbaigti**, sistema vykdo užsakymo baigimo procesą – atidaromas pardavimo užsakymo apžvalgos puslapis ir reikalaujama, kad vartotojas tinkamai pateiktų užsakymą. Jei užsakymo negalima tinkamai pateikti kartu su mokėjimu, vartotojas gali pasinaudoti funkcija [užsakymų sulaikymas](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds) ir sulaikyti užsakymą. Jei vartotojas bando atšaukti užsakymą, jis turi būti atšaukiamas tinkamai naudojantis funkcija Atšaukti arba Naikinti, priklausomai nuo to, kokia funkcija leidžiama pagal vartotojo saugą.
 
 Jei įjungtas skambučių centro kanalo nustatymas **Įgalinti užsakymo baigimą** bus pažymėtas užsakymo laukas **Mokėjimo būsena**. Pateikus pardavimo užsakymą sistema apskaičiuoja **Mokėjimo būseną**. Sistema praleidžia ir toliau apdoroja (pvz., paima ir išsiunčia) tik tuos užsakymus, kurių mokėjimo būsena Patvirtinta. Jei mokėjimai atmesti, įgalinama išsamios užsakymo būsenos žymė **neapdoroti** ir užsakymas sulaikomas, kol bus išspręsta mokėjimo problema.
 
@@ -61,7 +59,7 @@ Net jei nustatymas **Įgalinti užsakymo baigimą** išjungtas, vartotojai vis t
 
 ### <a name="enable-direct-selling"></a>Įgalinti tiesioginį pardavimą
 
-Jei įjungtas skambučių centro kanalo nustatymas **Įgalinti tiesioginį pardavimą**, vartotojai gali pasinaudoti „Commerce” papildomo ir kryžminio pardavimo funkcijomis. Tokiu atveju įvedant užsakymą rodomi iššokantieji langai ir siūloma pasirinkti kitus produktus, kuriuos skambučių centro vartotojas galėtų pasiūlyti klientui. Produkai siūlomi pagal ką tik pardavimo užsakymo eilutėje nurodytą užsakytą produktą. Šiuo metu papildomo ir kryžminio pardavimo pasiūlymai konfigūruojami prekės lygiu pagal produktus ar katalogus. Jei skambučių centro kanalo nustatymas **Įgalinti tiesioginį pardavimą** išjungtas, įvedant užsakymą iššokantieji langai nerodomi net jei buvo nurodyta tinkama užsakomos prekės papildomo arba kryžminio pardavimo vertė.
+Jei įjungtas skambučių centro kanalo nustatymas **Įgalinti tiesioginį pardavimą**, vartotojai gali pasinaudoti „Commerce” papildomo ir kryžminio pardavimo funkcijomis. Tokiu atveju įvedant užsakymą rodomi iššokantieji langai ir siūloma pasirinkti kitus produktus, kuriuos skambučių centro vartotojas galėtų pasiūlyti klientui. Produktai siūlomi pagal ką tik pardavimo užsakymo eilutėje nurodytą užsakytą produktą. Šiuo metu papildomo ir kryžminio pardavimo pasiūlymai konfigūruojami prekės lygiu pagal produktus ar katalogus. Jei skambučių centro kanalo nustatymas **Įgalinti tiesioginį pardavimą** išjungtas, įvedant užsakymą iššokantieji langai nerodomi net jei buvo nurodyta tinkama užsakomos prekės papildomo arba kryžminio pardavimo vertė.
 
 Jei nustatymas **Įgalinti tiesioginį pardavimą** įjungtas, taip pat įjungiami pardavimo užsakymo įvedimo puslapio scenarijai bei vaizdų funkcijos. Tokiu atveju atliekant užsakymo įvedimą dešinėje puslapio pusėje matoma informacijos sritis. Šioje srityje gali būti rodomi su bendruoju užsakymo įvedimo procesu susiję scenarijai, taikytas katalogo šaltinio kodas arba su užsakomomis prekėmis susiję scenarijai. Be to, vaizdų srityje gali būti rodomas užsakomų prekių paveikslėlis, jei toks paveikslėlis nurodytas produkto sąrankoje.
 

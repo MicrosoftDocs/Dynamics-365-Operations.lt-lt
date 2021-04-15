@@ -2,11 +2,9 @@
 title: Parduotuvės atsargų valdymas
 description: Šioje temoje aprašyti dokumentų, kuriuos galite naudoti atsargoms valdyti, tipai.
 author: rubencdelgado
-manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,18 +15,18 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 43625d17e0e2827396edb69a1d1d73a8472294ea
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c4891f9dcb031f4cb8dfb91f3fe1a301aad9838e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5252539"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793878"
 ---
 # <a name="commerce-inventory-management"></a>„Commerce“ inventoriaus valdymas
 
 [!include [banner](includes/banner.md)]
 
-Jums dirbant su inventoriumi „Microsoft Dynamics 365 Commerce“ ir naudojant bet kurią iš „Commerce“ programų sujungtų su „Commerce Scale Unit“ (CSU), svarbu žinoti, kad užsakymo apdorojimo logika CSU suteikia apribotą palaikymą kai kurioms inventoriaus dimensijoms ir kai kuriems inventoriaus prekės tipams. „Commerce“ programos nepalaiko viso interval prekių konfigūravimo galimybių, kurios yra prieinamos per prekės konfigūravimo parinktis „Dynamics 365 Supply Chain Management“.
+Jums dirbant su inventoriumi „Microsoft Dynamics 365 Commerce“ ir naudojant bet kurią iš „Commerce“ programų sujungtų su „Commerce Scale Unit“ (CSU), svarbu žinoti, kad užsakymo apdorojimo logika CSU suteikia apribotą palaikymą kai kurioms inventoriaus dimensijoms ir kai kuriems inventoriaus prekės tipams. „Commerce“ programos nepalaiko viso intervalo prekių konfigūravimo galimybių, kurios yra prieinamos per prekės konfigūravimo parinktis „Dynamics 365 Supply Chain Management“.
 
 „Commerce“ programos veikiančios CSU nepalaiko tolesnių produkto dimensijų ir prekės konfigūravimų:
 
@@ -52,7 +50,7 @@ Jums dirbant su inventoriumi „Microsoft Dynamics 365 Commerce“ ir naudojant 
 - **Atsargų būsena** – prekėms, kurios naudoja sandėlio valdymo procesą ir kurioms reikalinga atsargų būsena, šis būsenos laukas negali būti nustatytas arba modifikuotas EKA programoje. Numatytoji atsargų būsena, kuri yra apibrėžta parduotuvės sandėlio konfigūracijoje, naudojama, kai prekės gaunamos į atsargas.
 
 > [!NOTE]
-> Visos organizacijos privalo bandyti prekės konfigūravimus per „Commerce“ programas kūrimo ar testavimo aplinkose prieš prekių konfigūravimų talpinimą į gamybos aplinkas. Testuokite savo prekes naudodami jas siekiant atlikti reguliarias grynųjų ir paėmimo prekybos transakcijas POS ir sukurti kliento užsakymus (jei taikoma) per POS, skambučių centrą ar el. komerciją siekiant patvirtinti, kad jos yra visiškai palaikomos. Taip pat prieš diegdami bet kokias naujas prekių konfigūracijas turite patikrinti EKA vykdymo ir atsargų procesus (pvz., atsargų gavimo ir užsakymų įvykdymo operacijas), kad įsitikintumėte, jog EKA programa gali juos palaikyti. Testavimas turi apimti viso pareiškimo/užsakymo publikavimo proceso vykdymą jūsų testinėje aplinkoje ir patvirtinti, kad nėra jokių problemų, kurios gali atsitikti, kai užsakymai šioms prekėms yra kuriami ir publikuojami „Commerce“ štabe.
+> Visos organizacijos privalo bandyti prekės konfigūravimus per „Commerce“ programas kūrimo ar testavimo aplinkose prieš prekių konfigūravimų talpinimą į gamybos aplinkas. Testuokite savo prekes naudodami jas siekiant atlikti reguliarias grynųjų ir paėmimo prekybos transakcijas POS ir sukurti kliento užsakymus (jei taikoma) per POS, skambučių centrą ar el. komerciją siekiant patvirtinti, kad jos yra visiškai palaikomos. Taip pat prieš diegdami bet kokias naujas prekių konfigūracijas turite patikrinti EKA vykdymo ir atsargų procesus (pvz., atsargų gavimo ir užsakymų įvykdymo operacijas), kad įsitikintumėte, jog EKA programa gali juos palaikyti. Testavimas turi apimti viso pareiškimo/užsakymo publikavimo proceso vykdymą jūsų testavimo aplinkoje ir patvirtinti, kad nėra jokių problemų, kurios gali atsitikti, kai užsakymai šioms prekėms yra kuriami ir publikuojami „Commerce“ štabe.
 >
 > Jei prekės yra konfigūruojamas taip, kad nėra palaikomos „Commerce“ programose ir atitinkamas testavimas nėra atliekamas, duomenų klaidos nėra paprastai ištaisomos ir negali būti ištaisytos jokiais būdais.
 
@@ -66,7 +64,7 @@ Perkėlimo užsakymai gali būti kuriami „Commerce“ pagrindiniame komponente
 
 ## <a name="stock-counts"></a>Inventorizacijos
 
-Inventorizacijos gali būti planinės arba neplaninės. Suplanuoti inventorizacijos kuriamos „Commerce“ pagrindiniame komponente sukuriant inventorizacijos žurnalo dokumentą, susietą su parduotuvės sandėliu. Šis žurnalas nurodo prekes, kurios turi būti inventorizuotos. Tada parduotuvė gali pasiekti šiuos iš anksto apibrėžtus inventorizacijos žurnalus ir veikti pagal juos naudodama EKA operaciją **Inventorizacija**. Kai parduotuvės vartotojai naudoja EKA operaciją **Inventorizacija**, jie inicijuoja nesuplanuotą inventorizaciją, nes ji yra reikalinga. Skirtingai nei planinės inventorizacijos, neplaninės inventorizacijos neturi iš anksto apibrėžto prekių sąrašo. EKA alikus bet kurio tipo inventorizaciją, ji fiksuojama ir siunčiama į pagrindinį biurą. Tada pagrindiniame biure inventorizacija turi būti patikrinta ir užregistruota „Commerce“ pagrindiniame komponente kaip atskiras veiksmas.
+Inventorizacijos gali būti planinės arba neplaninės. Suplanuoti inventorizacijos kuriamos „Commerce“ pagrindiniame komponente sukuriant inventorizacijos žurnalo dokumentą, susietą su parduotuvės sandėliu. Šis žurnalas nurodo prekes, kurios turi būti inventorizuotos. Tada parduotuvė gali pasiekti šiuos iš anksto apibrėžtus inventorizacijos žurnalus ir veikti pagal juos naudodama EKA operaciją **Inventorizacija**. Kai parduotuvės vartotojai naudoja EKA operaciją **Inventorizacija**, jie inicijuoja nesuplanuotą inventorizaciją, nes ji yra reikalinga. Skirtingai nei planinės inventorizacijos, neplaninės inventorizacijos neturi iš anksto apibrėžto prekių sąrašo. EKA atlikus bet kurio tipo inventorizaciją, ji fiksuojama ir siunčiama į pagrindinį biurą. Tada pagrindiniame biure inventorizacija turi būti patikrinta ir užregistruota „Commerce“ pagrindiniame komponente kaip atskiras veiksmas.
 
 ## <a name="inventory-lookup"></a>Atsargų peržvalga
 

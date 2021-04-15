@@ -1,12 +1,10 @@
 ---
-title: " Nustatyti lojalumo programas"
+title: Nustatyti lojalumo programas
 description: Ši procedūra padeda nustatyti lojalumo programą su dviem lojalumo pakopomis.
 author: jashanno
-manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,20 +13,20 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69424cdaae84ffe5ca8157f061ba5876b9eeeff9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8013ffc0727fddd7acde58e75182ee9f3165c09d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256906"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796831"
 ---
-# <a name="define-loyalty-programs"></a> Nustatyti lojalumo programas
+# <a name="define-loyalty-programs"></a>Nustatyti lojalumo programas
 
 [!include [banner](../includes/banner.md)]
 
 Ši procedūra padeda nustatyti lojalumo programą su dviem lojalumo pakopomis. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.
 
-1. Eikite į Mažmeninė prekyba ir prekyba> ... > Lojalumo programos.
+1. Eikite į Mažmeninė prekyba ir prekyba> .. > Lojalumo programos.
 2. Spustelėkite Naujas.
 3. Lauke Pavadinimas surinkite reikšmę.
 4. Lauke Aprašas įveskite reikšmę.
@@ -50,7 +48,7 @@ ms.locfileid: "5256906"
     * Pakopos taisyklės nurodo mažiausią atlygio taškų skaičių, kurį reikia surinkti per tam tikrą laikotarpį, norint pakopą priskirti.  
 19. Perjunkite sekcijos Pakopos taisyklės išplėtimą.
 20. Spustelėkite Naujas.
-    * Vienai pakopai galite nustatyti daugiau nei vieną pakopos taisyklę. Pavyzdžiui, galite pasirinkti tris skirtingus kriterijus pakopai gauti: išleidžiant 500 JAV dolerių per mėnesį, išleidžiant 500 JAV dolerių per metus ir įvykdant 20 operacijų per metus. Norėdami tai padaryti, turėsite sukurti tris pakopos taisykles.  
+    * Vienai pakopai galite nustatyti daugiau nei vieną pakopos taisyklę. Pavyzdžiui, galite pasirinkti tris skirtingus kriterijus pakopai gauti: išleidžiant 500 JAV dolerių per mėnesį, išleidžiant 1000 JAV dolerių per metus ir įvykdant 20 operacijų per metus. Norėdami tai padaryti, turėsite sukurti tris pakopos taisykles.  
 21. Lauke Atlygio taškas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
     * Tai turėtų būti neišnaudojami atlygio už lojalumą taškai.  
 22. Sąraše spustelėkite saitą pasirinktoje eilutėje.

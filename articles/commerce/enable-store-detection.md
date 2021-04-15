@@ -2,11 +2,9 @@
 title: Įgalinti parduotuvės nustatymą pagal vietą
 description: Šioje temoje aprašoma, kaip įjungti parduotuvės nustatymą pagal vietą jūsų „Dynamics 365 Commerce“ svetainei.
 author: brianshook
-manager: annbe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b34f156642b23f7b9754dac1ee81c7d0004872d8
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 71e523cab20281d5db7efff40b5ef4f7293a4765
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5478193"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799136"
 ---
 # <a name="enable-location-based-store-detection"></a>Įgalinti parduotuvės nustatymą pagal vietą
 
@@ -33,7 +31,7 @@ ms.locfileid: "5478193"
 
 ## <a name="privacy-notice"></a>Privatumo pranešimas
 
-Jei įjungiate parduotuvės nustatymo pagal vietą funkciją, kliento naršyklės informacija siunčiama „Microsoft“ vietos paslaugai. Tada ši informacija naudojama kliento turiniui, kuris yra aktualus jo arba jos vietai, teikti. Ir informacijai, siunčiamai iš kliento naršyklės, ir informacijai pagal vietą, kuri grįžta klientui, taikoma privatumo ir slapukų atitikites strategija.
+Jei įjungiate parduotuvės nustatymo pagal vietą funkciją, kliento naršyklės informacija siunčiama „Microsoft“ vietos paslaugai. Tada ši informacija naudojama kliento turiniui, kuris yra aktualus jo arba jos vietai, teikti. Ir informacijai, siunčiamai iš kliento naršyklės, ir informacijai pagal vietą, kuri grįžta klientui, taikoma privatumo ir slapukų atitikties strategija.
 
 ## <a name="turn-on-location-based-store-detection"></a>Parduotuvės nustatymo pagal vietą įjungimas
 

@@ -2,11 +2,9 @@
 title: Naujos produkto hierarchijos kūrimas
 description: Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“ sukuti naują produkto hierarchiją.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 540a4a9c48ed958abb56a393e99b8060e1b7aa8e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8aef33a501f43105730eaa21a9159eb1398a1b36
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207876"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799570"
 ---
 # <a name="create-a-new-product-hierarchy"></a>Naujos produktų hierarchijos kūrimas
 

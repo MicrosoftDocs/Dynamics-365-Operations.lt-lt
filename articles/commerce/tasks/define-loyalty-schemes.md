@@ -1,12 +1,10 @@
 ---
-title: " Nustatyti lojalumo planus"
+title: Nustatyti lojalumo planus
 description: Ši procedūra nurodo, kaip nustatyti lojalumo planą.
 author: jashanno
-manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,14 +13,14 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b469bd9de6d7ef2edb117d52c2f101e27adcb0b7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e76bb7ea8319ad1f366692090435e47e9bf0d7b2
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229917"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796807"
 ---
-# <a name="define-loyalty-schemes"></a> Nustatyti lojalumo planus
+# <a name="define-loyalty-schemes"></a>Nustatyti lojalumo planus
 
 [!include [banner](../includes/banner.md)]
 

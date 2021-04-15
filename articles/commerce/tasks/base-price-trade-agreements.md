@@ -1,12 +1,10 @@
 ---
-title: " Bazinė kaina ir prekybos sutartys"
+title: Bazinė kaina ir prekybos sutartys
 description: Ši procedūra padeda kurti konkretaus kanalo pardavimo kainos prekybos sutartis.
 author: josaw1
-manager: AnnBe
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PriceDiscGroup, RetailStoreTable, RetailChannelPriceGroup, EcoResProductDetailsExtended, PriceDiscAdmTable, PriceDiscAdm
 audience: Application User
@@ -16,14 +14,14 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bab25988a9d4aad4d4e36fd9bdffbbf52473435e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: df4d0042e51524c1d50568e969b59923a7ba4a65
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259477"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5789809"
 ---
-# <a name="base-price-and-trade-agreements"></a> Bazinė kaina ir prekybos sutartys
+# <a name="base-price-and-trade-agreements"></a>Bazinė kaina ir prekybos sutartys
 
 [!include [banner](../includes/banner.md)]
 
@@ -63,7 +61,7 @@ ms.locfileid: "5259477"
 32. Lauke **Elemento ryšiai** įveskite reikšmę.
 33. Lauke **Sumos valiuta** įveskite skaičių.
 34. „fastTab“ **Išsami informacija** pažymėkite arba atžymėkite žymės langelį **Surasti kitą**. Kai **Surasti kitą** nustatytas kaip Taip, kainodaros modulis toliau ieškos taikytinų prekybos sutarčių su mažesne pardavimo kaina. Kai **Surasti kitą** nustatytas kaip Ne, kainodaros modulis nebeieško ir naudoja prekybos sutartį.  
-35. Spustelėkite **Registruoti.**
+35. Spustelėkite **Registruoti**.
 36. Spustelėkite **Gerai**.
 37. Uždarykite puslapį.
 38. **Veiksmų sritis** spustelėkite Parduoti.
