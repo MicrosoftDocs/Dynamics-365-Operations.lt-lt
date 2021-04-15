@@ -2,11 +2,9 @@
 title: Įdiekite EKA maketo dizaino įrankį
 description: Norėdami parduotuvėms, registrams, kasininkams ir valdytojams sukurti skirtingus „Modern POS“ (MPOS) ir „Cloud POS“ maketus tiek gulsčiuoju, tiek stačiuoju režimu, galite naudoti vieno spustelėjimo dizaino įrankį.
 author: athinesh99
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d96343e4258c84988a675599ab35d93f18ab36b9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e4d18d6fcf54fc74382f0d7d344de2aa74252ae4
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213143"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797001"
 ---
 # <a name="install-the-pos-layout-designer"></a>Įdiekite EKA maketo dizaino įrankį
 
@@ -35,8 +33,8 @@ MPOS ir „Cloud POS“ grafinio dizaino sąsają kontroliuoja kasos stalčiaus 
 
 ## <a name="install-the-one-click-designer"></a>Vieno spustelėjimo dizaino įrankio diegimas
 
-1. „Commerce“ naudokite meniu, esantį viršutiniame kairiajame kampe, kad galėtumėte pereiti į **„Retail and Commerce“** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA** &gt; **Ekrano maketai**.
-2. Pasirinkite maketą, kurio programos tipas yra **Modern POS for Windows** arba **Cloud POS**, o tada spustelėkite **Maketo dizaino įrankis**.
+1. „Commerce“ naudokite meniu, esantį viršutiniame kairiajame kampe, kad galėtumėte pereiti į **Mažmeninė prekyba ir prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA** &gt; **Ekrano maketai**.
+2. Pasirinkite maketą, kurio programos tipas yra **„Modern POS for Windows”** arba **„Cloud POS”**, o tada spustelėkite **Maketo dizaino įrankis**.
 3. „Internet Explorer“ apačioje rodomoje pranešimų juostoje spustelėkite **Atidaryti**, kad diegtumėte vieno spustelėjimo dizaino įrankį. (Kitose naršyklėse pranešimų juosta gali būti rodoma kitoje vietoje.)
 4. Pasirodančiame pranešimo lauke **Programos paleidimas – saugos įspėjimas** spustelėkite **Paleisti**, kad įdiegtumėte „Retail“ dizaino įrankį. Vykdymo indikatorius rodo diegimo proceso eigą.
 5. Kai diegimas baigtas, puslapyje **Prisijungimas** įveskite savo „Commerce“ vartotojo vardą ir slaptažodį, tada spustelėkite **Prisijungti**, kad paleistumėte dizaino įrankį.

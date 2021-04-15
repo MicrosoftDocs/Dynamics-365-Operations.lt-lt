@@ -1,8 +1,7 @@
 ---
-title: Personalo valdymo apžvalga
-description: Personalo valdymo modulis racionalizuoja daugelį kasdienių registravimo užduočių ir automatizuoja daugelį procesų, susijusių su jūsų organizacijos personalu. Jis taip pat padeda už personalo valdymą atsakingiems darbuotojams valdyti prižiūrimas sritis. Šios sritys apima įdarbinimą ir darbuotojų išlaikymą, išmokų administravimą, mokymą, našumo apžvalgas ir keitimų valdymą.
+title: „Human Resources“ apžvalga
+description: Žmogiškųjų išteklių srauto maršruto įrašų laikymo užduotys automatizuoja procesus, susijusius su jūsų organizacijos personalu ir suteikia darbotvarkę žmogiškiesiems ištekliams siekiant valdyti peržiūros sritis.
 author: andreabichsel
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -14,14 +13,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fb04ed91c28dc87bdcf4e218cbeaf99f5442ab4
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d6f70e7626100646feb12e8544b5ab943097b1a3
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566703"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752185"
 ---
-# <a name="human-resources-overview"></a>Personalo valdymo apžvalga
+# <a name="human-resources-overview"></a>„Human Resources“ apžvalga
 
 [!include [banner](../includes/banner.md)]
 

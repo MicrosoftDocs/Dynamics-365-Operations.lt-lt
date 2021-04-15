@@ -2,11 +2,9 @@
 title: Konteinerio modulis
 description: Šioje temoje konteinerio akordeono moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 43017cbb76c38eed6951a9e87c763cf919c3bd93
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8e1d2d600a00ab71348fbef2bc2f30cc53bc5314
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206420"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797796"
 ---
 # <a name="container-module"></a>Konteinerio modulis
 
@@ -50,7 +48,7 @@ Toliau pateiktame paveikslėlyje parodytas „Commerce“ svetainių daryklėje 
 
 | Ypatybės pavadinimas     | Reikšmės | aprašymas |
 |-------------------|--------|-------------|
-| Antraštė           | Antraštės tekstas ir antraštės žymė (**H1**, **H2**, **H3**, **H4**, **H5** arba **H6**) | Galima nurodyti pasirenkamą konteinerio antraštę. Numatyta, kad naudojama antrašės žymė **H2**. Tačiau žymę galima pakeisti, kad ji atitiktų pritaikymo neįgaliesiems reikalavimus. |
+| Antraštė           | Antraštės tekstas ir antraštės žymė (**H1**, **H2**, **H3**, **H4**, **H5** arba **H6**) | Galima nurodyti pasirenkamą konteinerio antraštę. Numatyta, kad naudojama antraštės žymė **H2**. Tačiau žymę galima pakeisti, kad ji atitiktų pritaikymo neįgaliesiems reikalavimus. |
 | Plotis             | **Priderinti prie konteinerio** arba **Užpildyti ekraną** | Jei reikšmė nustatoma kaip **Priderinti prie konteinerio** (numatytoji reikšmė), konteineryje esantys moduliai ribojami pagal konteinerio plotį. Jei reikšmė nustatoma kaip **Užpildyti ekraną**, moduliai neribojami pagal konteinerio plotį, tačiau jie gali užpildyti ekraną. |
 | Stulpelių skaičius | **1**, **2**, **3**, **4**, **6** arba **12** | Ši ypatybė nustato konteinerio stulpelių skaičių. Konteineryje gali būti iki 12 stulpelių. |
 
@@ -58,7 +56,7 @@ Toliau pateiktame paveikslėlyje parodytas „Commerce“ svetainių daryklėje 
 
 Konteinerio su 2 vietomis tipas yra optimizuotas dviejų stulpelių maketui. Šio tipo konteineryje yra dvi vietos, kad jo moduliai galėtų būti vaizduojami vienas šalia kito.
 
-Naudojant papildomus parametrus, maketą galima optimizuoti skirtingiems rodiniams (mobiliesiems įrenginiams, planšetiniams bei įprastiesms kompiuteriams ir t. t.). Kiekviename rodinyje galima nustatyti kiekvieno stulpelio plotį. Galimi tolesni stulpelių pločio parametrai.
+Naudojant papildomus parametrus, maketą galima optimizuoti skirtingiems rodiniams (mobiliesiems įrenginiams, planšetiniams bei įprastiems kompiuteriams ir t. t.). Kiekviename rodinyje galima nustatyti kiekvieno stulpelio plotį. Galimi tolesni stulpelių pločio parametrai.
 
 - **75 % / 25 %** – pirmojo modulio stulpelių plotis yra 75 procentai, o antrojo – 25 procentai. Taip pat galima naudoti parinktį **25 % / 75 %**.
 - **50 % / 50 %** – abiejų modulių stulpelių plotis yra vienodas.
@@ -112,7 +110,7 @@ Norėdami į naują puslapį įtraukti konteinerio leistuvo modulį ir nustatyti
 1. Vietoje **Konteineris** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
 1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Turinio blokas**, tada pasirinkite **Gerai**.
 1. Turinio bloko modulio ypatybių srityje sukonfigūruokite antraštę, vaizdą ir išdėstymą.
-1. Norėdami peržiūrėti puslapį, pasirinkite **Įrašyti** ir **Peržiūrėti**. Turėtumėte matyti vieną ypatybių modulį, priderintą pire konteinerio modulio pločio.
+1. Norėdami peržiūrėti puslapį, pasirinkite **Įrašyti** ir **Peržiūrėti**. Turėtumėte matyti vieną ypatybių modulį, priderintą prie konteinerio modulio pločio.
 1. Konteinerio modulio ypatybių srityje ypatybės **Stulpelių skaičius** reikšmę pakeiskite į **3**.
 1. Pridėkite dar du turinio blokų modulius į konteinerio modulį ir sukonfigūruokite juos.
 1. Norėdami peržiūrėti puslapį, pasirinkite **Įrašyti** ir **Peržiūrėti**. Dabar turėtumėte matyti tris turinio bloko modulius, rodomus vienas šalia kito.

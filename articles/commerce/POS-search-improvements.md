@@ -2,11 +2,9 @@
 title: Produktų ir klientų paieška elektroniniame kasos aparate (EKA)
 description: Šioje temoje apžvelgiama, kaip patobulinta „Dynamics 365 Commerce“ produktų ir klientų ieškos funkcija.
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 03/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 23b556e72e1ec76be48336bed21d02abd9d31087
-ms.sourcegitcommit: db9b35ce6968cad8874b3c13d4c02d84e2617c8b
+ms.openlocfilehash: 1392b767815722c17b1cc72d27fe2bb8a7c32281
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "5574724"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796371"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Produktų ir klientų paieška elektroniniame kasos aparate (EKA)
 
@@ -138,7 +136,7 @@ Norėdami atnaujinti debesija paremtą ieškos funkciją „Commerce” būstin�
 
 ### <a name="functional-differences-from-the-existing-search"></a>Funkciniai esamos ieškos skirtumai
 
-Toliau pateiktame sąraše parodyta, kaip debesija paremtos klientų ieškos funkcijos skiriasi nuo esamų ieškos funkcijų. 
+Toliau pateiktame sąraše parodyta, kaip debesimi paremtos klientų ieškos funkcijos skiriasi nuo esamų ieškos funkcijų. 
 
 - „Commerce” būstinėje sukurti ir redaguojami klientai nusiunčiami į „Azure” ieškos indeksą, kai **1010_KlientoPaieška** užduotis yra paleista. Šie atnaujinimai užtruks nuo 15 iki 20 minučių indeksui atnaujinti. EKA vartotojai galės ieškoti naujų klientų (arba ieškoti pagal atnaujintą informaciją) nuo 15 iki 20 minučių po įvykdytų atnaujinimų „Commerce” būstinėje. Jei jūsų verslo procesui reikia, kad klientai, sukurti „Commerce” būstinėje, būtų ieškomi EKA nedelsiant, tai gali būti ne jums tinkama paslauga.
 - Nauji klientai, sukurti EKA, siunčiami į „Azure” ieškos indeksą iš „Commerce Scale Unit” ir nedelsdami ieškomi bet kurioje parduotuvėje. Tačiau jei „Asinchroninis” kliento kūrimo funkcija įjungta, nauji klientų įrašai nebus publikuojami „Azure” ieškos indekse iš „Commerce Scale Unit” ir nebus ieškomi iš EKA, kol kliento informacija nebus sinchronizuojama su „Commerce” būstinėje ir „Asinchroninis” klientams sukuriama klientų ID. Vėliau **1010_KlientoPaieška** užduotis galės išsiųsti „Asinchroninis” kliento įrašus į „Azure” ieškos indeksą. Vidutiniškai tai užtruks apie 30 minučių prieš tai, kai EKA bus ieškoma naujai sukurtų „Asinchroninis” klientų. Šiame apskaičiavime numatoma, kad **1010_KlientoPaieška**, **P-užduotis** ir **Sinchronizuoti klientus ir verslo partnerius iš asinchroninio režimo** užduotys ura numatytos vykdyti kas 15 minučių.

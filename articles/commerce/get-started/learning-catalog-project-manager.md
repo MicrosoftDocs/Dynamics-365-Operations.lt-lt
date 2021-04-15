@@ -6,19 +6,18 @@ ms.topic: article
 ms.date: 07/27/2020
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 35b1efa3cbcaac99c637562ae00f8c43d3d9f5e3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e17f1fe2200426a91fa3fafd0772f269c9324acd
+ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240274"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "5640663"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-commerce"></a>Mokymosi katalogas įgyvendinimo projekto vadovams dirbantiems su „Dynamics 365 Commerce“
 
@@ -32,7 +31,7 @@ Dėl mokymosi apie funkcijas bendrintas su kitomis „Finance and Operations“ 
 
 | Turinys | aprašymas  | Formatuoti  | Ilgis    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|-----------|
-| [Sužinokite apie „Microsoft Dynamics 365“ ir „Power Platform“ naudą verslui](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Šis mokymosi patirtis bus tarsi kelionė, kuri prasidės parodant, kaip skaitmeninė transformacija ir verslo programų galia gali pakeisti jūsų verslą. Mes apžvelgsime, kaip „Dynamics 365“ ir „Power Platform“ padeda priimti pagrįstus sprendimus, paremtus jūsų organizacijos poreikiais ir tikslais, pasitelkiant keturis skaitmeninės transformacijos blokus – modernų, vieningą, išmanų ir prisitaikantį. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus   | 6.5 valandos   |
+| [Sužinokite apie „Microsoft Dynamics 365“ ir „Power Platform“ naudą verslui](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Šis mokymosi patirtis bus tarsi kelionė, kuri prasidės parodant, kaip skaitmeninė transformacija ir verslo programų galia gali pakeisti jūsų verslą. Mes apžvelgsime, kaip „Dynamics 365“ ir „Power Platform“ padeda priimti pagrįstus sprendimus, paremtus jūsų organizacijos poreikiais ir tikslais, pasitelkiant keturis skaitmeninės transformacijos blokus – modernų, vieningą, išmanų ir prisitaikantį. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus   | 6,5 valandos   |
 | [Darbo su „Dynamics 365 Commerce“ pradžia](https://docs.microsoft.com/learn/paths/get-started-dynamics-365-commerce/)  | „Dynamics 365 Commerce“, paremtas patikrintomis „Dynamics 365 Retail“ galimybėmis, pristato išsamų daugiakanalį sprendimą, vienijantį operacijų skyrių, parduotuvę, skambučių centrą ir skaitmeninę patirtį. Programoje „Dynamics 365 Commerce“ galite formuoti lojalumą prekės ženklui, naudojant suasmenintus kliento įtraukimo būdus, didinti įplaukas, siekiant pagerinti darbuotojų produktyvumą, optimizuoti operacijas, siekiant sumažinti išlaidas ir valdyti tiekimo grandinės efektyvumą, galiausiai užtikrinti geresnius verslo rezultatus. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus   | 2 valandos   |
 | [Darbo su „Dynamics 365 Fraud Protection“ pradžia](https://docs.microsoft.com/learn/modules/get-started-fraud-protection/)| „Dynamics 365 Fraud Protection“ yra debesimi pagrįstas sprendimas sukurtas el. prekybai, plytų ir skiedinio parduotuvėms ir vieno kanalo prekeiviams siekiant padėti apsaugoti jų pajamas ir reputaciją suteikiant įrankius ir galimybes mažinti apgaulę ir piktnaudžiavimą, sumažinti operacines išlaidas ir padidinti priimamus mokesčius, taip apsaugant naudotojų paskyras nuo apgaulės poveikio. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 35 minučių |
 

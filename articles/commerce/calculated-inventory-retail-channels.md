@@ -2,11 +2,9 @@
 title: Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas
 description: Šioje temoje aprašomos parinktys, kurias galima naudoti, kad būtų rodomos parduotuvės ir interneto kanalų turimos atsargos.
 author: hhainesms
-manager: annbe
 ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: ff60ef23c7e19e3f2f97d56fd416e0018a0c324d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 29efccab017d9dff98872871bfe953fba19d2c30
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213263"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799690"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas
 
@@ -49,7 +47,7 @@ Abi šios API teikia duomenis iš „Commerce Server“ ir nurodo tam tikro prod
 
 ### <a name="get-started-with-e-commerce-calculated-inventory-availability"></a>Pradėkite naudoti el. prekybos apskaičiuotą atsargų pasiekiamumą
 
-Prieš jums naudojant abi anksčiau paminėtas API programas, turite išjungti realaus laiko paslaugų skambučius atsargų paieškai iš POS programos, pirmiausia turite įjungti **Optimizuoto produkto prieinamumo skaičiavimo** funkciją per **Funkcijų valdymo** darbo sritį komercijos štabe.
+Prieš jums naudojant abi anksčiau paminėtas API programas, turite išjungti realaus laiko paslaugų skambučius atsargų paieškai iš EKA programos, pirmiausia turite įjungti **Optimizuoto produkto prieinamumo skaičiavimo** funkciją per **Funkcijų valdymo** darbo sritį komercijos štabe.
 
 Kad API galėtų tiksliai apskaičiuoti prekės atsargų pasiekiamumą, „Commerce Headquarters“ turi būti padaryta momentinė turimų atsargų kopija ir nusiųsta į kanalo duomenų bazę, kurią naudoja el. prekybos „Commerce Scale Unit“. Momentinė kopija rodo informaciją, kurią „Commerce Headquarters“ turi apie atsargų pasiekiamumą pagal tam tikrą produktą arba produkto variantą ir sandėlį. Joje gali būti ir atsargų koregavimai arba perkėlimai, kuriuos sukėlė atsargų gavimai, siuntimai arba kiti procesai, atlikti „Commerce Headquarters“ ir žinomi el. prekybos kanalui tik dėl sinchronizavimo proceso.
 
@@ -83,7 +81,7 @@ Siekiant naudoti kanalo pusės apskaičiavimo logiką ir išjungti realaus laiko
 
 Norėdami pakeisti **funkcijų profilį**, atlikite toliau nurodytus veiksmus.
 
-1. Eikite į **„Retail and Commerce“\> Kanalo sąranka \> EKA sąranka \> EKA profiliai \> Funkcionalumo profiliai**.
+1. Eikite į **Mažmeninė prekyba ir prekyba \> Kanalo sąranka \> EKA sąranka \> EKA profiliai \> Funkcionalumo profiliai**.
 1. Pasirinkite funkcijų šabloną.
 1. „FastTab“ **Funkcijos**, skyriuje **Atsargų pasiekiamumo skaičiavimas**, pakeiskite lauko **Atsargų pasiekiamumo skaičiavimo būdas** vertę iš **Paslauga realiu laiku** į **Kanalas**. Pagal numatytuosius parametrus visi funkcijų profiliai naudoja paslaugos realiu laiku iškvietimus. Todėl, jei norite naudoti kanalo skaičiavimo logiką, turite pakeisti šio lauko vertę. Atlikus šį pakeitimą bus paveiktos visos mažmeninės prekybos parduotuvės, kurios yra susijusios su pasirinktu funkcijų šablonu.
 
@@ -100,7 +98,7 @@ EKA **Užsakymo vykdymas** ekranai taip pat įvertina kanalo skaičiavimą, kad 
 
 Norint užtikrinti, kad atsargos būtų įvertintos kuo tiksliau, svarbu naudoti šias „Commerce“ paketines užduotis ir dažnai jas paleisti:
 
-- **P-job** – P užduotis yra puslapyje **Paskirstymo grafikai** ir turi būti vykdoma dažnai. Ši užduotis pateikia el. prekybos užsakymus, asinchroninius kliento užsakymus, kuriuos sukūrė EKA, ir grynųjų pinigų užsakymus, kuriuos EKA sukūrė iš kanalo duomenų bazių, į „Commerce Headquarters“, kad juos būtų galima apdoroti vėliau. Kol šie duomenys sinchronizuojami iš kanalo į „Commerce Headquarters", „Commerce Headquarters" neturi informacijos apie produktų, esančių sandėliuose, kurie susiję su šiomis operacijomis, atsargų koregavimus.
+- **P-užduotis** – P užduotis yra puslapyje **Paskirstymo grafikai** ir turi būti vykdoma dažnai. Ši užduotis pateikia el. prekybos užsakymus, asinchroninius kliento užsakymus, kuriuos sukūrė EKA, ir grynųjų pinigų užsakymus, kuriuos EKA sukūrė iš kanalo duomenų bazių, į „Commerce Headquarters“, kad juos būtų galima apdoroti vėliau. Kol šie duomenys sinchronizuojami iš kanalo į „Commerce Headquarters", „Commerce Headquarters" neturi informacijos apie produktų, esančių sandėliuose, kurie susiję su šiomis operacijomis, atsargų koregavimus.
 - **Sinchronizuoti užsakymus** – ši užduotis apdoroja neapdorotus operacijų duomenis „Commerce Headquarters“, kuriuos P užduotis teikia ir konvertuoja el. prekybos bei asinchronines kliento užsakymų operacijas į „Commerce Headquarters“ pardavimo užsakymus. Kol bus apdorota ši užduotis ir sukurti pardavimo užsakymai, nebus sukurtos jokios atsargų operacijos. Todėl „Commerce Headquarters“ turimose atsargose neatsispindės operacijos.
 - **Atlikti operacijų išrašų paketinį skaičiavimą** – grynųjų pinigų operacijų, kurios sukurtos parduotuvėje, atveju duomenų perdavimo mažais kiekiais registravimo procesas užtikrina, kad su pardavimu susiję atsargų procesai bus veiksmingai atnaujinami. Norėdami pasiekti efektyviausią užsakymų už grynuosius pinigus atsargų operacijų apdorojimą įsitikinkite, kad sukonfigūravote savo sistemą naudoti [duomenų perdavimo mažais kiekiais registravimas](https://docs.microsoft.com/dynamics365/commerce/trickle-feed).
 - **Atlikti operacijų išrašų paketinį registravimą** – ši užduotis taip pat reikalinga duomenų perdavimo mažais kiekiais registravimui. Po jos eina užduotis **Atlikti operacijų išrašų paketinį skaičiavimą**. Ši užduotis sistemingai registruoja apskaičiuotas sumas, kad „Commerce Headquarters“ būtų sukurti pardavimo už grynuosius pinigus pardavimo užsakymai ir „Commerce Headquarters“ tiksliau atspindėtų parduotuvės atsargas.

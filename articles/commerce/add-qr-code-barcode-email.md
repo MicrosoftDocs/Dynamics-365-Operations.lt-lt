@@ -2,7 +2,6 @@
 title: QR kodo arba brūkšninio kodo pridėjimas prie operacijų ir kvitų el. laiškų
 description: Šioje temoje paaiškinama, kaip įterpti QR kodus ir brūkšninius kodus, užsakymų ID pateikiančius „Microsoft Dynamics 365 Commerce“ operacijų ir gavimo el. laiškuose.
 author: bicyclingfool
-manager: annbe
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-02-16
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 3cc4fcb1237f8409a89b3d4818c132c60c57b5a0
-ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
+ms.openlocfilehash: f8d9408090846799c1bb421c4b6e5e248d37fa07
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "5555427"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797508"
 ---
 # <a name="add-a-qr-code-or-bar-code-to-transactional-and-receipt-emails"></a>QR kodo arba brūkšninio kodo pridėjimas prie operacijų ir kvitų el. laiškų
 
@@ -59,7 +58,7 @@ Norėdami įterpti QR kodą arba brūkšninį kodą į operacijų el. laišką, 
 
 ## <a name="add-a-qr-code-or-bar-code-to-a-receipt-email"></a>QR kodo arba brūkšninio kodo pridėjimas prie gavimo el. laiško 
 
-Norėdami įterpti QR kodą arba brūkšninią kodą į gavimo el. laišką, kurį galim siųsti atlikus pirkimą elektroniniu kasos aparatu (EKA), atlikite nurodytus veiksmus.
+Norėdami įterpti QR kodą arba brūkšninį kodą į gavimo el. laišką, kurį galim siųsti atlikus pirkimą elektroniniu kasos aparatu (EKA), atlikite nurodytus veiksmus.
 
 1. Atidarykite gavimo el. laiško šablono šaltinio HTML ir pridėkite HTML **\<img\>** žymę, kuri nurodo jūsų QR kodo ar brūkšninio kodo tarnybą. Toliau pateikiamas pavyzdys.
 

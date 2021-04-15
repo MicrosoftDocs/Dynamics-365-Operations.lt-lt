@@ -2,11 +2,9 @@
 title: „Iframe“ modulis
 description: Šis skyrius aprašo „iframe“ modulį ir tai, kaip įtraukti jį į vietos puslapius „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 178469d58e5cb619c3eacfa6760f0eaec18be0dc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7b397b91d1b8a45347ef2d05f42fb7c610ab3912
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206137"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797075"
 ---
 # <a name="iframe-module"></a>„Iframe“ modulis
 
@@ -32,7 +30,7 @@ ms.locfileid: "5206137"
 
 „iframe“ modulis suteikia „iframe“ (rėmelį pagal liniją), kuris apima išorės turinį svetainėje. Pavyzdžiui, jis gali būti naudojamas „YouTube“ vaizdo įrašo ar PDF failo peržiūros patalpinimui bet kuriame svetainės puslapyje. 
 
-„iframe“ modulis reikalauja galutinio URL. Tuomet jis patalpina galutinio puslapio turinį HTML **„iframe“** elemente. Išorės URL turi būti leidžiamųjų sąraše vietos turinio saugumo politikos (CSP) direktyvoms. „iframe“ turinui, URL turi būti leidžiami naudojant **rėmelio protėvio** gairę. - Norėdami gauti daugiau informacijos, žr. [turinio saugumo politikos valdymas (CSP)](manage-csp.md).
+„iframe“ modulis reikalauja galutinio URL. Tuomet jis patalpina galutinio puslapio turinį HTML **„iframe“** elemente. Išorės URL turi būti leidžiamųjų sąraše vietos turinio saugumo politikos (CSP) direktyvoms. URL, skirti „iframe“ turiniui, turi būti leidžiami naudojant **rėmelio protėvio** gairę. - Norėdami gauti daugiau informacijos, žr. [turinio saugumo politikos valdymas (CSP)](manage-csp.md).
 
 > [!NOTE]
 > „iframe“ modulį galima naudoti „Dynamics 365 Commerce“ 10.0.13 leidime.
@@ -48,7 +46,7 @@ Toliau pateiktas paveikslėlis rodo „iframe“ modulių pavyzdžius, kurie ili
 | Antraštė | Tekstas | Modulio antraštė. |
 | Paskirties URL | URL | URL, kuris yra patalpintas modulyje. |
 | Aukštis | Procentų skaičius | Modulio aukštis pikseliais arba procentais. Pavyzdžiui,**100** vertė bus laikoma pikselių numeriais, o vertė **100%** traktuojama kaip procentai. |
-| ARIA žyma | Tekstas | Prieinamų praturtinto interneto programų (ARIA) etiketės gali būti nustatytoas prieinamumo tikslais. |
+| ARIA žyma | Tekstas | Prieinamų praturtinto interneto programų (ARIA) etiketės gali būti nustatytas prieinamumo tikslais. |
 
 ## <a name="add-an-iframe-module-to-a-page"></a>Įtraukti „iframe“ modulį į puslapį
 

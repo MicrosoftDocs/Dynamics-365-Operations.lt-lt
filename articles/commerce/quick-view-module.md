@@ -2,11 +2,9 @@
 title: Greito rodinio modulis
 description: Šioje temoje aprašomi greito rodinio moduliai ir aprašoma, kaip juos įtraukti į saito puslapius „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
-manager: annbe
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,17 +14,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2020-01-08
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 07fbf8d4115561808b7c61489b343e1c72dd1b6d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d7e88163fd9b8dc4f5636ed29e2c4248aece52bf
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243798"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792176"
 ---
 # <a name="quick-view-module"></a>Sparčiosios peržiūros modulis
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Šioje temoje aprašomi greito rodinio moduliai ir aprašoma, kaip juos įtraukti į saito puslapius „Microsoft Dynamics 365 Commerce“.
 
@@ -39,7 +36,7 @@ Greito rodinio modulis yra palaikomas [produkto kolekcijos](product-collection-m
 
 Tolesnis paveikslėlis rodo greito rodinio modulio pavyzdžio produkto sąrašą puslapyje.
 
-![Greito rodinio modulio produkto sąrašo puslapyej pavyzdys](./media/ecommerce-quickview.PNG)
+![Greito rodinio modulio produkto sąrašo puslapyje pavyzdys](./media/ecommerce-quickview.PNG)
 
 ## <a name="module-properties"></a>Modulio ypatybės
 
@@ -47,14 +44,14 @@ Greito rodinio modulis palaiko kelias tas pačias funkcijas, tokias kaip pirkimo
 
 | Ypatybė | Reikšmės | aprašymas |
 |----------------|--------|-------------|
-| Antraštės žymė | **H1**, **H2**, **H3**, **H4**, **H5** ar **H6** | Šios ypatybės nustato antraštęs skirtuką produkto pavadinimui. Jei greito rodinio modulis yra puslapio viršuje, ši ypatybė turi būti nustatyta į **H1** tam, kad atitiktų prieinamumo standartus. |
+| Antraštės žymė | **H1**, **H2**, **H3**, **H4**, **H5** ar **H6** | Šios ypatybės nustato antraštės skirtuką produkto pavadinimui. Jei greito rodinio modulis yra puslapio viršuje, ši ypatybė turi būti nustatyta į **H1** tam, kad atitiktų prieinamumo standartus. |
 | Leisti pasirinktinę kainą | **Teisinga** arba **Klaidinga** | Jei ši ypatybė yra nustatyta į **Teisingą**, vartotojas gali įvesti tinkintą kainą. |
 | Minimali kaina | Sveikasis skaičius | Ši ypatybė yra taikoma tik, jei **Leisti tinkintą kainą** ypatybė yra nustatyta į **Teisingą**. Ji nustato minimalią kainą, kurią vartotojas gali įvesti (pavyzdžiui, $1). |
 | Maksimali kaina | Sveikasis skaičius | Ši ypatybė yra taikoma tik, jei **Leisti tinkintą kainą** ypatybė yra nustatyta į **Teisingą**. Ji nustato maksimalią kainą, kurią vartotojas gali įvesti (pavyzdžiui, $1,000). |
 
 ## <a name="commerce-site-builder-settings"></a>„Commerce“ saito kūrimo įrankio nustatymai
 
-Kaip ir pirkimo laukelio modulis, greito rodinio modulis laikosi nustatymų **Saito nustatymai \> Plėtiniai \> Įtraukti produktą į vežimėlį**. Nepaisant to, **Naršyti į vežimėlio puslapį** nustatymai yra ignoruojami, nes jie nėra nenuosėklūs su greito rodinio modulio tikslu, kuris skirtas įjungti vartotojams galimybę naršyti keliuose produktuose puslapio sąraše ir įtraukti juos į vežimėlį neatsitraukiant nuo sąrašo puslapio.
+Kaip ir pirkimo laukelio modulis, greito rodinio modulis laikosi nustatymų **Saito nustatymai \> Plėtiniai \> Įtraukti produktą į vežimėlį**. Nepaisant to, **Naršyti į vežimėlio puslapį** nustatymai yra ignoruojami, nes jie nėra nenuoseklūs su greito rodinio modulio tikslu, kuris skirtas įjungti vartotojams galimybę naršyti keliuose produktuose puslapio sąraše ir įtraukti juos į vežimėlį neatsitraukiant nuo sąrašo puslapio.
 
 ## <a name="add-a-quick-view-module-to-a-product-collection-module"></a>Įtraukite greito rodinio modulį į produkto kolekcijos modulį
 

@@ -2,11 +2,9 @@
 title: Dinaminių el. prekybos puslapių kūrimas pagal URL parametrus
 description: Šioje temoje aprašoma, kaip nustatyti „Microsoft Dynamics 365 Commerce“ e-komercijos puslapį, kuris gali pateikti dinaminį turinį pagal URL parametrus.
 author: StuHarg
-manager: AnnBe
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ROBOTS: ''
 audience: Application user
@@ -17,23 +15,22 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8d6b4756fc81dc99786da251d5d9a575a71ccc49
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8f59b80880e6947e1b45c110df0e78d4bdd57c5d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208020"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795816"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>Dinaminių el. prekybos puslapių kūrimas pagal URL parametrus
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Šioje temoje aprašoma, kaip nustatyti „Microsoft Dynamics 365 Commerce“ e-komercijos puslapį, kuris gali pateikti dinaminį turinį pagal URL parametrus.
 
 El. komercijos puslapis gali būti konfigūruotas siekiant talpinti kitą turinį pagal segmentą URL kelyje. Dėl to, puslapis yra žinomas kaip dinaminis puslapis. Segmentas yra naudojamas kaip parametras siekiant gauti puslapio turinį. Pavyzdžiui, puslapis pavadinimu **tinklaraščio\_rodinys** yra sukuriamas ir susiejamas su URL `https://fabrikam.com/blog`. Šis puslapis tuomet gali būti naudojamas siekiant rodyti kitą turinį pagal paskutinį segmentą URL kelyje. Pavyzdžiui, paskutinis segmentas URL `https://fabrikam.com/blog/article-1` yra **straipsnis-1**.
 
-Atskiri kliento puslpiai, viršijantys dinaminį puslapį, gali būti taip pat siejami su segmentais URL kelyje. Pavyzdžiui, puslapis pavadinimu **tinklaraščio\_santrauka** yra sukuriamas ir susiejamas su URL `https://fabrikam.com/blog/about-this-blog`. Kai URL yra reikalaujamas, **tinklaraštis\_santrauka** puslapis yra susiejamas su **/apie-šį-blogą** parametru ir grąžinamas vietoje **tinklaraštis\_rodinys** puslapio.
+Atskiri kliento puslapiai, viršijantys dinaminį puslapį, gali būti taip pat siejami su segmentais URL kelyje. Pavyzdžiui, puslapis pavadinimu **tinklaraščio\_santrauka** yra sukuriamas ir susiejamas su URL `https://fabrikam.com/blog/about-this-blog`. Kai URL yra reikalaujamas, **tinklaraštis\_santrauka** puslapis yra susiejamas su **/apie-šį-blogą** parametru ir grąžinamas vietoje **tinklaraštis\_rodinys** puslapio.
 
 > [!NOTE]
 > Talpinimo, gavimo ir rodymo dinaminio puslapio funkcijos turinys yra įgyvendinamas naudojant tinkintą modulį. Dėl daugiau informacijos, žr. [Interneto kanalo plėtinys](e-commerce-extensibility/overview.md).
@@ -70,7 +67,7 @@ Po to, kai maršrutas sukonfigūruotas, visos užklausos URL keliui su parametra
 Norėdami viršyti URL su parametrais su tinkintu puslapiu „Commerce“ saito kūrimo įrankiu, vadovaukitės šiais žingsniais.
 
 1. Eikite į **URL** ir rinkitės **Naujas \> Naujas URL**.
-1. Teksto laukelyje **Kurti naują URL** rinkitės **Vidinis puslapis**. Skyriuje **URL kelias**, įveskite kelią, kuris įtraukia segmentą viršijiamą (šiuo atveju, **/tinklaraštis/apie-šį-tinklaraštį**). Tada rinkitės **Kitas**.
+1. Teksto laukelyje **Kurti naują URL** rinkitės **Vidinis puslapis**. Skyriuje **URL kelias**, įveskite kelią, kuris įtraukia keistiną segmentą (šiuo atveju, **/tinklaraštis/apie-šį-tinklaraštį**). Tada rinkitės **Kitas**.
 1. Teksto laukelyje **Rinktis puslapį** rinkitės tinkintą puslapį ir tada **Įrašyti**.
 1. Pasirinkite **Publikuoti**.
 1. Jei tinkintas puslapis dar nebuvo publikuotas, eikite į **Puslapiai**, rinkitės tinkintą puslapį ir tada **Publikuoti**.

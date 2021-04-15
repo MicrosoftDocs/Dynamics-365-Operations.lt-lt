@@ -2,11 +2,9 @@
 title: Pagrindinio puslapio apžvalga
 description: Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ pagrindinio puslapio apžvalga.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 11c440663214f4991770390c0757c92ef02755f5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f083115f5dc0cfe0e9ba4786bf79ec4083ab7e78
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244769"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792200"
 ---
 # <a name="home-page-overview"></a>Pagrindinio puslapio apžvalga
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ pagrindinio puslapio apžvalga.
-
-## <a name="overview"></a>Peržiūra
 
 Pagrindinis puslapis yra numatytasis puslapis, į kurį pirkėjai įeina, kai apsilanko el. prekybos svetainėje. Paprastai šiame puslapyje pateikiami produktai ir akcijos naudojant rinkodaros modulių derinį. Pagrindiniame puslapyje turėtų būti daug vaizdų ir teksto pirkėjams sudominti.
 
@@ -47,16 +43,16 @@ Pagrindinėje pagrindinio puslapio sekcijoje galima išskirti produktus, kategor
 
     ![Pagrindinės reklaminės juostos modulio pavyzdys](./media/Hero.PNG)
 
-- **Reklamaa** – turinio bloko modulio produktų ar akcijų reklamos maketas, sukurtas naudojant vaizdų ir teksto derinį. Reklamų maketai gali būti naudojami atskirai arba talpinami karuselės modulyje.
+- **Reklama** – turinio bloko modulio produktų ar akcijų reklamos maketas, sukurtas naudojant vaizdų ir teksto derinį. Reklamų maketai gali būti naudojami atskirai arba talpinami karuselės modulyje.
 
     Toliau parodytame paveikslėlyje pateiktas turinio bloko modulio reklamos maketo pagrindiniame puslapyje pavyzdys.
 
     ![Reklamuojamų produktų modulių pavyzdžiai](./media/Feature.PNG)
 
-- **Išklotinė** – turinio bloko modulio išklotinės maketas, kuris parodo kelis produktus ar produktų kategorijas, naudojant vaizdų ir teksto derinį kelių stulpelių makete. Anksčiau pateiktoje pagrindinio puslapio paliustracijoje išklotinės maketas sugeneruoja elementus trijuose stulpeliuose: **Apsipirkti moterų skyriuje**, **Apsipirkti vyrų skyriuje** ir **Pirkti aksesuarus**.
+- **Išklotinė** – turinio bloko modulio išklotinės maketas, kuris parodo kelis produktus ar produktų kategorijas, naudojant vaizdų ir teksto derinį kelių stulpelių makete. Anksčiau pateiktoje pagrindinio puslapio iliustracijoje išklotinės maketas sugeneruoja elementus trijuose stulpeliuose: **Apsipirkti moterų skyriuje**, **Apsipirkti vyrų skyriuje** ir **Pirkti aksesuarus**.
 - **Vaizdo įrašų leistuvas** – vaizdo įrašų leistuvo modulis gali būti naudojamas vaizdo įrašų turiniui pagrindiniame puslapyje rodyti. Anksčiau pateiktoje pagrindinio puslapio iliustracijoje yra ir vaizdo įrašų leistuvo modulis.
 - **Teksto blokas** – turinio bloko modulis gali būti naudojamas teksto turiniui pagrindiniame puslapyje pateikti vieno stulpelio arba kelių stulpelių maketo forma.
-- **Produktų rekomendacijos** – produktų rekomendacijų moduliai naudojami sąrašams, tokiems kaip **Naujas**, **Populiariausi** ir **Parduodamiausia** rodyti pagrindiniame puslapyje. Šiuose sąrašuose pateikiami produktai pagal apsipirkimo tendencijas ir jie gali būti sugeneruojami algoritmiškai arba kuruojami rankiniu būdu. Taip klientai gali greitai atrasti geriausius produktus ir tęsti apsipirkimą.
+- **Produktų rekomendacijos** – produktų rekomendacijų moduliai naudojami sąrašams, tokiems kaip **Nauja**, **Populiariausia** ir **Perkamiausia** rodyti pagrindiniame puslapyje. Šiuose sąrašuose pateikiami produktai pagal apsipirkimo tendencijas ir jie gali būti sugeneruojami algoritmiškai arba kuruojami rankiniu būdu. Taip klientai gali greitai atrasti geriausius produktus ir tęsti apsipirkimą.
 
     Toliau pateikta iliustracija – produktų rekomendacijų modulių pagrindiniame puslapyje pavyzdys.
 

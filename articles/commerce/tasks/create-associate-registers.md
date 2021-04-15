@@ -1,12 +1,10 @@
 ---
-title: " Registrų kūrimas ir susiejimas"
-description: Šioje procedūroje parodoma, kaip kurti elektroninio kasos aparato (POS) registrą.
+title: Registrų kūrimas ir susiejimas
+description: Šioje procedūroje parodoma, kaip kurti elektroninio kasos aparato (EKA) registrą.
 author: rubencdelgado
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailTerminalTable
 audience: Application User
@@ -16,18 +14,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: af9743f17cebb3484c3ec5b0315347c575a474bd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ba978a3d895394760687386197dbb3512c62ef98
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247001"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798566"
 ---
-# <a name="create-and-associate-registers"></a> Registrų kūrimas ir susiejimas
+# <a name="create-and-associate-registers"></a>Registrų kūrimas ir susiejimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje procedūroje parodoma, kaip kurti elektroninio kasos aparato (POS) registrą. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.
+Šioje procedūroje parodoma, kaip kurti elektroninio kasos aparato (EKA) registrą. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.
 
 1. Eikite į Mažmeninė prekyba ir prekyba > Kanalo sąranka > EKA sąranka > Registrai.
 2. Spustelėkite Naujas.

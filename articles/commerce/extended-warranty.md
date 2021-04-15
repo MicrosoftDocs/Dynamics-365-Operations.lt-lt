@@ -2,11 +2,9 @@
 title: Prailgintų garantijų kūrimas ir konfigūravimas
 description: Šioje temoje aptariamos prailgintos garantijos ir aprašoma, kaip sukurti ir sukonfigūruoti jas „Microsoft Microsoft Dynamics 365 Commerce“.
 author: sijoshi
-manager: annbe
 ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2457f2cf1d6bfb228aae63a0aebaca0d159b7323
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 567f102cfe78a92e2e6f1243fb531dd3366c9bf2
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209082"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792468"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Išplėstinių garantijų kūrimas ir konfigūravimas
 
@@ -194,7 +192,7 @@ Norėdami apdoroti garantijų operacijas „Commerce“ būstinėje, atlikite š
 
 ## <a name="warranty-policies"></a>Garantijų politikos
 
-Pardavus prailgintą garantiją, automatiškai sukuriamas garantinės strategijos objektas. Garantijos politikos numerius galite bendrinti su klientais, kad jie turėtų jų įsigytos garantinės prekės nuorodą. Į garantinės politiką pradžią įeina įsigaliojimo pradžia ir garantijos galiojimo data, sąlygos ir galimai garantinės prekės, kuriai parduota garantija, serijos numeris. 
+Pardavus prailgintą garantiją, automatiškai sukuriamas garantinės strategijos objektas. Garantijos politikos numerius galite bendrinti su klientais, kad jie turėtų jų įsigytos garantinės prekės nuorodą. Į garantinės politiką pradžią įeina įsigaliojimo pradžia ir garantijos galiojimo data, sąlygos ir galimai garantinės prekės, kuriai parduota garantija, serijos numeris.
 
 > [!NOTE]
 > Garantinės politikos ypatybės yra automatiškai sugeneruojamos, kai sukuriami politikų objektai. Šiuo metu jų negalima sukonfigūruoti arba redaguoti įprastiniu būdu.

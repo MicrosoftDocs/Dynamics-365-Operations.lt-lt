@@ -2,11 +2,9 @@
 title: Antraštės modulis
 description: Šioje temoje aprašomi antraštės moduliai ir tai, kaip juos kurti puslapio antraštėse „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
-manager: annbe
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 569fb5ac3d30be30044ef9b928ecf1f6dde20aab
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6b14178431b281daa827749781dd16481f8bfb74
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211429"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799921"
 ---
 # <a name="header-module"></a>Antraštės modulis
 
@@ -80,7 +78,7 @@ Norėdami sukurti antraštės fragmentą, atlikite toliau nurodytus veiksmus.
 1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Naršymo meniu** ir **Gerai**.
 1. Naršymo meniu modulio ypatybių srityje, dalyje **Naršymo meniu šaltinis**, pasirinkite **„Retail Server“**.
 1. Naršymo meniu modulio ypatybių srityje, dalyje **Statiniai meniu elementai**, pasirinkite **Įtraukti meniu elementą**, tada pasirinkite **Meniu elementas**. 
-1. Dialogo lango **Meniu elementas** dalyje **Meniu elemento tekstas** įveskite „Kontaktas”.
+1. Dialogo lango **Meniu elementas** dalyje **Meniu elemento tekstas** įveskite „Kontaktas.”
 1. Dialogo lango **Meniu elementas** dalyje **Meniu elemento saito paskirtis** pasirinkite **Įtraukti saitą**.
 1. Dialogo lange **Saito įtraukimas** pasirinkite svetainės puslapio „Kontaktas” URL, o tada – **Gerai**.  
 1. Dialogo lange **Meniu elementas** pasirinkite **Gerai**.

@@ -2,11 +2,9 @@
 title: Įvertinti klientų ir produktų pelningumą
 description: Šiame straipsnyje paaiškinama, kaip, naudodami atminties ir realaus laiko analitiką, galite pasiekti, ištirti ir suprasti klientus ir produktų pelningumą pagal savo „Dynamics 365 Commerce“ duomenis.
 author: ashishmsft
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: SysOperationsTemplateForm, RetailStoreManagementWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e0589748247cf9195116687cf70228b4ef36e29b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 80a2f38f2b3f039b17556116d6aea738faa1db50
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211551"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797334"
 ---
 # <a name="assess-customer-and-product-profitability"></a>Klientų ir produktų pelningumo vertinimas
 
@@ -53,7 +51,7 @@ Taip pat vartotojai gali tirti svarbiausių produktų (10–100) pelningumą ski
 Šiam vertinimui atlikti galite naudoti parengtą naudoti ataskaitą **Svarbiausi produktai**, kurią galite atidaryti bet kurioje iš toliau pateiktų vietų.
 
 - Darbo sritis **Parduotuvės valdymas** &gt; **Mažmeninė prekyba ir prekyba** &gt; **Kanalai** &gt; **Parduotuvės valdymas** &gt; **Ataskaitos** &gt; **Svarbiausių produktų ataskaita**
-- Darbo sritis **Kategorijų ir produktų valdymas** &gt; **Mažmeninė prekyba ir prekyba** &gt; **Produktai ir kategorijos** &gt; **Parduotuvių valdymas** &gt; **Ataskaitos** &gt; **Svarbiausių produktų ataskaita**.
+- Darbo sritis **Kategorijų ir produktų valdymas** &gt; **Mažmeninė prekyba ir prekyba** &gt; **Produktai ir kategorijos** &gt; **Parduotuvių valdymas** &gt; **Ataskaitos** &gt; **Svarbiausių produktų ataskaita**
 - Skyrius **Užklausos ir ataskaitos**&gt; **Mažmeninė prekyba ir prekyba** &gt; **Užklausos ir ataskaitos** &gt; **Pardavimo ataskaitos** &gt; **Svarbiausių produktų ataskaita**
 
 

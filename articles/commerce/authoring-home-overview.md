@@ -2,11 +2,9 @@
 title: Turinio kūrimo puslapio apžvalga
 description: Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ kūrimo puslapio apžvalga.
 author: brendans
-manager: annbe
 ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application USer
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 030fa93e938df0ab22dd3e85c2d48d149ac239df
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b5e1e7dd669a9608d385086cf24d388b065c9ca6
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211302"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799882"
 ---
 # <a name="authoring-page-overview"></a>Turinio kūrimo puslapio apžvalga
 
@@ -29,8 +27,6 @@ ms.locfileid: "5211302"
  [!include [banner](includes/banner.md)]
 
 Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ kūrimo puslapio apžvalga.
-
-## <a name="overview"></a>Peržiūra
 
 Svetaines galima kurti siekiant patenkinti įvairius verslo poreikius. Jos gali perteikti visą įmonę, pasiūlyti vieną verslo kanalą ar būti orientuotos į konkrečią auditoriją arba auditorijos segmentą. Pavyzdžiui, drabužių gamintojas gali turėti svetainę, kurioje parodomi visi jam priklausantys prekių ženklai. Tas pats drabužių gamintojas gali turėti atskirą svetainę kiekvienam iš šių prekinių ženklų bei svetainių, skirtų prabangiems drabužiams, lauko drabužiams ir vaikų drabužiams.
 
@@ -80,7 +76,7 @@ Norėdami prisijungti prie kūrimo įrankio arba nuo jo atsijungti, atlikite vie
 
 ## <a name="change-the-display-language-of-the-authoring-tool"></a>Kūrimo įrankio rodymo kalbos keitimas
 
-Naudodami mygtuką **Mano paskyra**, taip pat galte pakeisti teksto eilučių, rodomų kūrimo įrankyje, kalbą.
+Naudodami mygtuką **Mano paskyra**, taip pat galite pakeisti teksto eilučių, rodomų kūrimo įrankyje, kalbą.
 
 Norėdami pakeisti rodymo kalbą, atlikite toliau nurodytus veiksmus.
 

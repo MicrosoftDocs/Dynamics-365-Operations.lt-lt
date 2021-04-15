@@ -2,11 +2,9 @@
 title: Įtraukti informaciją apie autorių teises
 description: Šioje temoje aprašoma, kaip į el. prekybos svetainę įtraukti informaciją apie autorių teises.
 author: psimolin
-manager: AnnBe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2ea04854636fdd0c2b3223bb19d5f06a19836151
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 11195cc4e792820d88f820c7365a803ac75b5704
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206372"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797748"
 ---
 # <a name="add-a-copyright-notice"></a>Įtraukti informaciją apie autorių teises
 
@@ -51,7 +49,7 @@ Norėdami kiekvieno puslapio, kuriame naudojamas konkretus šablonas, apačioje 
 1. Dešinėje esančios ypatybių srities lauke **Pastraipa** įtraukite pranešimą apie autorių teises. Pavyzdžiui, įveskite **Autorių teisės priklauso „Fabrikam“, 2019 m.**
 1. Pasirinkite **Įrašyti**, **Baigti redagavimą**, tada – **Publikuoti**.
 1. Eikite į **Šablonai**, pasirinkite šabloną, tada – **Redaguoti**.
-1. Dalyje **Puslapio struktūa** išplėskite **Pagrindinis tekstas**, tada – **Numatytasis puslapis**.
+1. Dalyje **Puslapio struktūra** išplėskite **Pagrindinis tekstas**, o tada – **Numatytasis puslapis**.
 1. Pasirinkite prie elemento **Poraštės vieta** esantį daugtaškio mygtuką, tada – **Įtraukti fragmentą**.
 1. Pasirinkite anksčiau sukurtą fragmentą, tada – **Pasirinkti**.
 1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
