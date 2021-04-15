@@ -2,11 +2,9 @@
 title: „Modern POS“ (MPOS) ir „Cloud POS“ demonstracinių duomenų ekrano maketai
 description: Šioje temoje pateikiama informacija apie ekrano maketus, kurie kartu su demonstraciniais duomenimis, nustatytais elektroniniam kasos aparate (EKA), įtraukti į „Dynamics 365 Commerce“.
 author: josaw1
-manager: AnnBe
 ms.date: 10/05/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 5e75210e77d1187f482d716f795ec0155553cb3f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a3daa2286eb444d3aaad1fd29eb6be5737415a08
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213631"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801984"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>„Modern POS“ (MPOS) ir „Cloud POS“ demonstracinių duomenų ekrano maketai
 
@@ -53,9 +51,9 @@ Ekrano maketo ID gali būti sudaryti iš ne daugiau nei 10 simbolių. ID yra eil
 
 | Laiškas | Įmonė         |
 |--------|-----------------|
-| A      | Adventure Works |
-| F      | Fabrikam        |
-| M      | „Contoso“         |
+| A      | „Adventure Works” |
+| F      | „Fabrikam”        |
+| C      | „Contoso“         |
 
 ### <a name="layout-version"></a>Maketo versija
 
@@ -120,7 +118,7 @@ Kiekviena fiktyvi įmonė yra priskiriama atskiram mažmeninės prekybos segment
 
 | Įmonė         | Buvimo vieta | Segmentas        | Pabrėžti | Tema |
 |-----------------|----------|----------------|--------|-------|
-| Adventure Works | Sietlas  | Sporto prekės | Mėlyna   | Tamsus  |
+| „Adventure Works” | Sietlas  | Sporto prekės | Mėlyna   | Tamsus  |
 | „Fabrikam“        | San Franciskas  | Madingos prekės        | Žalia  | Šviesus |
 | „Contoso“         | Bostonas   | Elektronika    | Raudona    | Tamsus  |
 
@@ -129,13 +127,13 @@ Kiekviena fiktyvi įmonė yra priskiriama atskiram mažmeninės prekybos segment
 
 Toliau pateiktose iliustracijose pavaizduoti trijų fiktyvių įmonių darbo pradžios puslapio ir operacijos puslapio pavyzdžiai.
 
-### <a name="adventure-works"></a>Adventure Works
+### <a name="adventure-works"></a>„Adventure Works”
 
 ![„Adventure Works“ darbo pradžios puslapio demonstraciniai duomenys](../commerce/media/demo-screen-layouts-fig-4-1a.png)
 
 ![„Adventure Works“ operacijos puslapio demonstraciniai duomenys](../commerce/media/demo-screen-layouts-fig-4-1b.png)
 
-### <a name="fabrikam"></a>Fabrikam
+### <a name="fabrikam"></a>„Fabrikam”
 
 ![„Fabrikam“ darbo pradžios puslapio demonstraciniai duomenys](../commerce/media/demo-screen-layouts-fig-4-2a.png)
 
@@ -151,9 +149,9 @@ Vartotojams pateikiami įvairūs ekrano maketai. Naudodamiesi toliau pateikta le
 
 | Įmonė         | Ekrano maketo ID | Asmenys       | Operatoriaus ID           |
 |-----------------|------------------|---------------|------------------------|
-| Adventure Works | A3MGR            | Parduotuvės vadovas | 000154, 000137, 000073 |
-| Adventure Works | A3CSH            | Kasa       | 000150, 000175, 000165 |
-| Adventure Works | A3STK            | Sandėliavimo tarnautojas   | 000155, 000181, 000152 |
+| „Adventure Works” | A3MGR            | Parduotuvės vadovas | 000154, 000137, 000073 |
+| „Adventure Works” | A3CSH            | Kasa       | 000150, 000175, 000165 |
+| „Adventure Works” | A3STK            | Sandėliavimo tarnautojas   | 000155, 000181, 000152 |
 | „Fabrikam“        | F4MGR            | Parduotuvės vadovas | 000160, 000713         |
 | „Fabrikam“        | F3CSH            | Kasa       | 000161, 000113, 000114 |
 | „Fabrikam“        | F3STK            | Sandėliavimo tarnautojas   | 000164, 000112, 000123 |

@@ -2,11 +2,9 @@
 title: 'Išlaidų elementų kūrimas  '
 description: Kaštų apskaitoje išlaidų elementus galima kurti keliais būdais.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimension, CAMAXMainAccountDimensionMemberProviderConfiguration, CAMDimensionMember
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 11107993fe91e39409ccf06615a21574ad51d079
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0c4c1e2aee7ba98c1cca378286afb643eaca1600
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236823"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810083"
 ---
 # <a name="create-cost-elements"></a>Išlaidų elementų kūrimas   
 

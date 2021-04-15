@@ -1,31 +1,29 @@
 ---
 title: Vartojimo paraiškos kūrimas
 description: Šioje temoje aprašomas vartojimo paraiškos kūrimo procesas.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b742e83cb538a0ebfe3b055ceb38fd8d1bfcf068
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3c35ff67d90860bef82130f61eeec0af94fe0f2e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211867"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812115"
 ---
 # <a name="create-a-requisition-for-consumption"></a>Vartojimo paraiškos kūrimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aprašomas vartojimo paraiškos kūrimo procesas. Ji parodo skirtingus produktų paieškos įsigijimo kataloge būdus ir kaip įtraukti produktą, kurio nėra kataloge. Prieš pradėdami šią procedūrą, pirkimo strategiją numatytuoju paraiškos tipu turite nustatyti suvartojimą. Šią procedūrą galite atlikti naudodami demonstracinių duomenų įmonę USMF arba savo duomenis. Procedūrą galima atlikti tik iš vartotojo profilio, kuris nustatytas kaip darbuotojo. Šiią užduotį paprastai atlieka darbuotojas. Užduotis galėsite atlikti per darbuotojo saugos **Darbuotojas** vaidmenį arba, jei naudojate USMF, galite prisijungti kaip **Alicia**.
+Šioje temoje aprašomas vartojimo paraiškos kūrimo procesas. Ji parodo skirtingus produktų paieškos įsigijimo kataloge būdus ir kaip įtraukti produktą, kurio nėra kataloge. Prieš pradėdami šią procedūrą, pirkimo strategiją numatytuoju paraiškos tipu turite nustatyti suvartojimą. Šią procedūrą galite atlikti naudodami demonstracinių duomenų įmonę USMF arba savo duomenis. Procedūrą galima atlikti tik iš vartotojo profilio, kuris nustatytas kaip darbuotojo. Šią užduotį paprastai atlieka darbuotojas. Užduotis galėsite atlikti per darbuotojo saugos **Darbuotojas** vaidmenį arba, jei naudojate USMF, galite prisijungti kaip **Alicia**.
 
 
 ## <a name="create-a-new-requisition"></a>Kurti naują paraišką
@@ -36,7 +34,7 @@ ms.locfileid: "5211867"
 5. Lauke **Apskaitos data** įveskite datą. Apskaitos data naudojama įrašant apskaitos įrašą didžiojoje knygoje bei tikrinant, ar yra biudžeto lėšų.  
 6. Pasirinkite **Gerai**.
 7. Lauke **„Priežastis“** pasirinkite parinktį išplečiamajame meniu. Pagal nustatytuosius parametrus, jūsų pasirinkta verslo pagrindimo priežastis rodoma pirkimo paraiškos eilutėse, bet galite ją pakeisti eilutės lygmeniu.  
-8. Pasirinkti priežastį
+8. Pasirinkite priežastį.
 9. Laukelyje **išsami informacija** įveskite išsamesnį paraiškos pagrindimą.
 
 ## <a name="add-a-line-to-the-requisition"></a>Įtraukti eilutę į paraišką
@@ -63,7 +61,7 @@ ms.locfileid: "5211867"
 13. Pasirinkite **Gerai**.
 14. Lauke **Prekės aprašas** pridėkite produkto aprašą.
 15. Lauke **Kiekis** įveskite skaičių.
-16. Lauke **Vieneto kaina** įveskite skaičių. Jei žinote konkretaus tiekėjo kainą (kurią pasirenkate tiekėjo sąskaitos lauke), tada galite įvesti šią kainą   
+16. Lauke **Vieneto kaina** įveskite skaičių. Jei žinote konkretaus tiekėjo kainą (kurią pasirenkate tiekėjo sąskaitos lauke), tada galite įvesti šią kainą.   
 17. Lauke **Tiekėjo sąskaita** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą. Kokie tiekėjai bus šiame lauke priklauso nuo pirkimo strategijų ir tiekėjo būsenos esamoje įsigijimo kategorijoje. Tiekėją galite pasirinkti ne tik čia – taip pat galite spustelėti mygtuką **Siūlyti tiekėją**.    
 18. Sąrašo pasirinkite tiekėją, kurį norite naudoti.
 19. Lauke **Išorinis prekės numeris** įveskite reikšmę. Tai yra produkto nuorodos numeris, kurį žino tiekėjas. Pvz., tai gali būti prekės numeris tiekėjo produktų kataloge.  

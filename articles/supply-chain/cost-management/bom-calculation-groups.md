@@ -2,11 +2,9 @@
 title: KS skaičiavimo grupės
 description: Šiame straipsnyje pateikiama informacija apie komplektavimo specifikacijų (KS) skaičiavimo grupes ir tai, kaip jas nustatyti. Norėdami vykdyti KS skaičiavimą, turite nustatyti skaičiavimo grupes ir priskirti jas atskiroms prekėms arba nustatyti numatytąją skaičiavimo grupę. Tada skaičiuojant KS skaičiavimo grupės skaičiavimo parametrai naudojami kaip numatytosios reikšmės puslapyje KS skaičiavimas.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCalcGroup, BOMCalcTable, BOMCalcTrans, InventItemPrice
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5927b1c31cf15e2fb92c15d4abc06bfa0403e33d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ce954b61b4d6a12f2bc62a71ef2e1bc69732a4c0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5266300"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813296"
 ---
 # <a name="bom-calculations-groups"></a>KS skaičiavimo grupės
 
@@ -38,7 +36,7 @@ KS skaičiavimo grupę prekėms priskirti galima dėl kelių priežasčių.
 
 -   Nustatant lauką **Savikainos modelis** nurodomas nupirkto komponento išlaidų įnašo duomenų šaltinis skaičiuojant planuojamas pagamintos prekės išlaidas. Kai kurie gamintojai skaičiuoja planuojamas išlaidas naudodami nupirktų komponentų pirkimo kainos prekybos sutartis ar kitus pagrindus, pvz., pirkimo kainos įrašus įkainojimo versijoje.
 -   Nustatant lauką **Pardavimo kainos modelis** nurodoma, kaip prekės duomenys bus naudojami skaičiuoti siūlomas pardavimo kainas. Galite nurodyti prekės pardavimo kainą arba išlaidų grupę. Kai kurie gamintojai siekia skaičiuoti pagamintų prekių siūlomas pardavimo kainas. Suskaičiuota pardavimo kaina gali atspindėti grąžinamų kainų metode, pagrįstame komponento pardavimo kainos įrašu. Arba suskaičiuota pardavimo kaina gali atspindėti išlaidų ir antkainio metode, pagrįstame komponento išlaidų ir taikomais pelno procentais, susietais su komponento išlaidų grupe.
--   Nustačius lauką **Stabdyti išskleidimą** nurodoma, kad pagaminta prekė turi būti laikoma nupirkta preke, siekiant susumuoti išlaidas, kai skaičiuojama KS. Įprastais atvejais nupirkta preke yra laikoma prekė, kuri kartais yra pagaminta arba dabar perkama pagaminta prekė. Prekė pradžioje bus priskirta kaip pagaminta prekė, kad būtų galima apibūdinti KS ir maršruto informaciją, ir palaikyti prekės gamybos užsakymus. Tačiau vėlevėlė **Stabdyti išskleidimą** neleidžia skaičiuojant išlaidas naudoti prekės KS ir maršruto. Vietoj to KS skaičiavimas naudoja prekės nurodytas išlaidas.
+-   Nustačius lauką **Stabdyti išskleidimą** nurodoma, kad pagaminta prekė turi būti laikoma nupirkta preke, siekiant susumuoti išlaidas, kai skaičiuojama KS. Įprastais atvejais nupirkta preke yra laikoma prekė, kuri kartais yra pagaminta arba dabar perkama pagaminta prekė. Prekė pradžioje bus priskirta kaip pagaminta prekė, kad būtų galima apibūdinti KS ir maršruto informaciją, ir palaikyti prekės gamybos užsakymus. Tačiau vėliavėlė **Stabdyti išskleidimą** neleidžia skaičiuojant išlaidas naudoti prekės KS ir maršruto. Vietoj to KS skaičiavimas naudoja prekės nurodytas išlaidas.
 
 ## <a name="calculation-groups"></a>Skaičiavimo grupės
 Skaičiavimo grupės nurodomos modulio Savikainos valdymas dalyje **Iš anksto nustatytos savikainos strategijų nustatymas**. Prekėms priskirtos skaičiavimo grupės suteikia galimybę nustatyti, iš kur skaičiuojant nuskaitoma prekių savikaina arba pardavimo kaina, kaip apibūdinta skaičiavimo grupėje. Puslapyje **Skaičiavimo grupės** galite nustatyti savikainos modelį, alternatyvių savikainos modelį, pardavimo modelį ir įspėjimus.
@@ -56,7 +54,7 @@ Lauke **Savikainos modelis** galima pasirinkti keturias parinktis.
 
 Lauke **Alternatyvi savikaina** galimos tos pačios parinktys kaip lauke **Savikainos modelis**. Tačiau šis laukas naudojamas tik tada, kai kainos negalima rasti pirminiame savikainos modelyje.
 
-### <a name="sales-price-model"></a>Pard. kainos modelis
+### <a name="sales-price-model"></a>Pardavimo kainos modelis
 
 Lauko **Pardavimo kainos** reikšmę galima apskaičiuoti dviem būdais.
 

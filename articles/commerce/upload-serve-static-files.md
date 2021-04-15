@@ -2,11 +2,9 @@
 title: Statinių failų nusiuntimas ir pateikimas
 description: Šioje temoje paaiškina, kaip įkelti statinį failą į „Microsoft Dynamics 365 Commerce“ vietos kūrimo įrankį ir kaip sukurti tinkintą URL ir failo pavadinimą, kurį galima naudoti prašant to failo.
 author: StuHarg
-manager: annbe
 ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: aba9dde2ed9d5fa09e92fcdd784a53f208930eda
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d5f092042b3dda65b041ab2f25f7319dd8e158d1
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211024"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801390"
 ---
 # <a name="upload-and-serve-static-files"></a>Statinių failų nusiuntimas ir pateikimas
 
@@ -84,13 +82,13 @@ Norėdami naujinti turinio tipą, į kurį rodo URL, atlikite šiuos žingsnius.
 
 ## <a name="change-the-url-path"></a>Keiskite URL kelią
 
-Sukūrus URL, jo kelio keisti nebepavyks. Jei privaltoe keisti URL kelią, kuris reikalingas failui ar kito tipo ištekliams, turite sukurti naują URL, sudaryti jo žemėlapį į esantį failą ar kitą resursą ir tada nebepublikuoti bei panaikinti seną URL.
+Sukūrus URL, jo kelio keisti nebepavyks. Jei privalote keisti URL kelią, kuris reikalingas failui ar kito tipo ištekliams, turite sukurti naują URL, sudaryti jo žemėlapį į esantį failą ar kitą išteklių ir tada nebepublikuoti bei panaikinti seną URL.
 
 Norėdami keisti URL kelią, atlikite šiuos žingsnius.
 
-1. Norėdami sukurti naują URL ir sudaryti jo žemėlapį į esantį failą ar kitą resursą, laikykitės šių instrukcijų [Sukurti saito URL, kuris grąžina statinį failą](#create-a-site-url-that-returns-a-static-file) skyrių anksčiau šiame skyriuje.
+1. Norėdami sukurti naują URL ir sudaryti jo žemėlapį į esantį failą ar kitą išteklių, laikykitės šių instrukcijų [Sukurti saito URL, kuris grąžina statinį failą](#create-a-site-url-that-returns-a-static-file) skyrių anksčiau šiame skyriuje.
 1. Pasirinkite naują URL ir rinkitės **Publikuoti** komandos juostoje. Naujas URL yra publikuotas.
-1. Norėdami nepublikuoti seno URL, pasirinkte jį ir tada rinkitės **Nepublikuoti** komandų juostoje. Dabar jei norite, galite panaikinti seną URL.
+1. Norėdami nepublikuoti seno URL, pasirinkite jį ir tada rinkitės **Nepublikuoti** komandų juostoje. Dabar jei norite, galite panaikinti seną URL.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

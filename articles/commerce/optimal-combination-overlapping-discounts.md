@@ -2,11 +2,9 @@
 title: Optimalaus persidengiančių nuolaidų derinio nustatymas
 description: Kai nuolaidos persidengia, turite nustatyti persidengiančių nuolaidų derinį, kurį naudojant bus sukuriama mažiausia bendroji operacijos suma arba didžiausia bendroji nuolaidos suma. Kai nuolaidos suma kinta priklausomai nuo įsigytų produktų kainos, pavyzdžiui, kaip dažnai pasitaikančiu mažmeninės prekybos nuolaidų atveju „Pirkdami 1 gaukite 1 X procentų nuolaidą“ (BOGO), šis procesas tampa kombinacinio optimizavimo problema.
 author: kfend
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount,
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: fee9289820d3df821036412147994e227d68d1dc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3c7dafe55fc7072aa12b98ff42ed7d9e4719f4cd
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5257176"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804702"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Optimalaus persidengiančių nuolaidų derinio nustatymas
 
@@ -61,7 +59,7 @@ Norėdami perskaityti šias lenteles, naudokite vieną produktą iš eilutės ir
 
 ![Pavyzdys, naudojantis keturis produktus, kuriems taikomos dvi tos pačios nuolaidos](./media/overlapping-discount-combo-03.jpg)
 
-Pirmiausia randame didžiausią galimą nuolaidą, kuri gali būti pritaikyta bet kuriems dviem produktams naudojant bet kurią nuolaidą. Dviejose lentelėse nurodomos visų galimų derinių iš dviejų produktų nuolaidos sumos. Pilkos spalvos lentelių dalyse nurodomi atvejai, kai produktas susiejamas pats su savimi, ko padaryti mes negalime, arba kai du produktai siejami atvirkštiniu būdu ir gaunama ta pati nuolaidos suma, kurios galima nepaisyti. Žiūrėdami į lenteles galite pamatyti, kad 1 nuolaida, kuri taikoma dviems 20 dol. vertės prekėms, yra didžiausia nuolaida, kuri gali būti taikoma bet kuriam iš keturių produktų. (Ši nuolaida pirmoje lentelėje paryškinama žalia spalva.) Taigi lieka tik 15 dol. vertės produktas ir 5 dol. vertės produktas. Dar kartą pažvelgę į dvi lenteles galite pamatyti, kad šiems dviems produktams 1 nuolaida suteikia 2,50 dol. nuolaidą, o 2 nuolaida suteikia 4 dol. nuolaidą. Nodėl mes pasirenkame 2 nuolaidą. Bendra nuolaida sudaro 14 dol. Siekiant, kad būtų lengviau įsivaizduoti tai, kas pasakyta anksčiau, pateikiamos dvi papildomos lentelės, kuriose nurodomos visų galimų derinių iš dviejų produktų 1 ir 2 nuolaidos įsigaliojimo procentinės dalys. Įtraukiama tik pusė derinių sąrašo, nes išdėstymo tvarka, pagal kurią dviems produktams pritaikomos šios dvi nuolaidos, yra nesvarbi. Didžiausia nuolaidos įsigaliojimo procentinė dalis (25 procentai) paryškinama žalia spalva, o mažiausia nuolaidos įsigaliojimo procentinė dalis (10 procentų) paryškinama raudona spalva.
+Pirmiausia randame didžiausią galimą nuolaidą, kuri gali būti pritaikyta bet kuriems dviem produktams naudojant bet kurią nuolaidą. Dviejose lentelėse nurodomos visų galimų derinių iš dviejų produktų nuolaidos sumos. Pilkos spalvos lentelių dalyse nurodomi atvejai, kai produktas susiejamas pats su savimi, ko padaryti mes negalime, arba kai du produktai siejami atvirkštiniu būdu ir gaunama ta pati nuolaidos suma, kurios galima nepaisyti. Žiūrėdami į lenteles galite pamatyti, kad 1 nuolaida, kuri taikoma dviems 20 dol. vertės prekėms, yra didžiausia nuolaida, kuri gali būti taikoma bet kuriam iš keturių produktų. (Ši nuolaida pirmoje lentelėje paryškinama žalia spalva.) Taigi lieka tik 15 dol. vertės produktas ir 5 dol. vertės produktas. Dar kartą pažvelgę į dvi lenteles galite pamatyti, kad šiems dviems produktams 1 nuolaida suteikia 2,50 dol. nuolaidą, o 2 nuolaida suteikia 4 dol. nuolaidą. Todėl mes pasirenkame 2 nuolaidą. Bendra nuolaida sudaro 14 dol. Siekiant, kad būtų lengviau įsivaizduoti tai, kas pasakyta anksčiau, pateikiamos dvi papildomos lentelės, kuriose nurodomos visų galimų derinių iš dviejų produktų 1 ir 2 nuolaidos įsigaliojimo procentinės dalys. Įtraukiama tik pusė derinių sąrašo, nes išdėstymo tvarka, pagal kurią dviems produktams pritaikomos šios dvi nuolaidos, yra nesvarbi. Didžiausia nuolaidos įsigaliojimo procentinė dalis (25 procentai) paryškinama žalia spalva, o mažiausia nuolaidos įsigaliojimo procentinė dalis (10 procentų) paryškinama raudona spalva.
 
 ![Nuolaidos įsigaliojimo procentas, skirtas visiems abiejų nuolaidų dviejų produktų deriniams](./media/overlapping-discount-combo-04.jpg)
 
@@ -70,7 +68,7 @@ Pirmiausia randame didžiausią galimą nuolaidą, kuri gali būti pritaikyta be
 
 ## <a name="total-possible-combinations"></a>Visos galimos kombinacijos
 
-Šiame skyriuje tęsiamas ankstesniame skyriuje pateikto pavyzdžio aprašymas. Įtrauksime daugiau produktų ir kitą nuolaidą ir paziuresime, kiek turi būti apskaičiuojama ir palyginama derinių. Toliau pateiktoje lentelėje nurodomas galimų nuolaidų derinių skaičius, kai didėja produkto kiekis. Lentelėje pavaizduota, kas įvyksta, kai yra dvi persidengiančios nuolaidos, kaip nurodyta ankstesniame pavyzdyje, ir kai yra trys persidengiančios nuolaidos. Turimų įvertinti galimų nuolaidų derinių skaičius greitai tampa toks, kurio apskaičiuoti ir pakankamai greitai palyginti, kad būtų tinkamas mažmeninės prekybos operacijoms, negali net spartus kompiuteris.
+Šiame skyriuje tęsiamas ankstesniame skyriuje pateikto pavyzdžio aprašymas. Įtrauksime daugiau produktų ir kitą nuolaidą ir pažiūrėsime, kiek turi būti apskaičiuojama ir palyginama derinių. Toliau pateiktoje lentelėje nurodomas galimų nuolaidų derinių skaičius, kai didėja produkto kiekis. Lentelėje pavaizduota, kas įvyksta, kai yra dvi persidengiančios nuolaidos, kaip nurodyta ankstesniame pavyzdyje, ir kai yra trys persidengiančios nuolaidos. Turimų įvertinti galimų nuolaidų derinių skaičius greitai tampa toks, kurio apskaičiuoti ir pakankamai greitai palyginti, kad būtų tinkamas mažmeninės prekybos operacijoms, negali net spartus kompiuteris.
 
 ![Galimų nuolaidų derinių skaičius, kai didėja produkto kiekis](./media/overlapping-discount-combo-05.jpg)
 

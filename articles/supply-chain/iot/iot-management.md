@@ -2,11 +2,9 @@
 title: IoT analizės stebėjimas ir valdymas
 description: Šioje temoje aiškinama, kaip stebėti ir valdyti IoT analizę.
 author: robinarh
-manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8a037cb31e297926b1bcb66bff91bdd7eb5c40b7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 94665b3646456b689a8e65e94b098e86e467d5e3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264853"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813080"
 ---
 # <a name="monitor-and-manage-iot-intelligence"></a>IoT analizės stebėjimas ir valdymas
 
@@ -37,7 +35,7 @@ IoT analizės apdorojimą galite stebėti keliose vietose.
 + **Moduliai \> Gamybos kontrolė \> Užklausos ir ataskaitos \> IoT analizė \> Uždaryti pranešimai** – peržiūrėkite išspręstų arba atmestų pranešimų sąrašą.
 + **Moduliai \> Gamybos kontrolė \> Užklausos ir ataskaitos \> IoT analizė \> Metrikos raktai** – peržiūrėkite laiko sekų diagramų **Išteklių būsena** metrikos raktus.
 + **Moduliai \> Gamybos kontrolė \> Gamybos vykdymas \> Išteklių būsena** – sekite specifinę metriką naudodami dialogo langą **Konfigūruoti**. Jei scenarijus aptinka išimtį, pranešime pateikiama išsami išimties informacija.
-+ **Darbo sritys \> Gamybos vietos valdymas \> Pranešimai** – peržiūrėite neišspręstų pranešimų sąrašą.
++ **Darbo sritys \> Gamybos vietos valdymas \> Pranešimai** – Peržiūrėkite neišspręstų pranešimų sąrašą.
 
 ## <a name="modify-a-running-iot-intelligence-scenario"></a>Vykdomo IoT analizės scenarijaus modifikavimas
 

@@ -2,11 +2,9 @@
 title: Skambučių centro kanalo nustatymas
 description: Šioje temoje aprašoma, kaip „Microsoft Dynamics 365 Commerce“ sukurti naują skambučių centro kanalą.
 author: samjarawan
-manager: annbe
 ms.date: 03/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 878774c8e5485211525e7e7b63973173f6874b26
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e89c63c90aa8d46fd23900897a54165e14fb635d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218374"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800668"
 ---
 # <a name="set-up-a-call-center-channel"></a>Skambučių centro kanalo nustatymas
 
@@ -94,7 +92,7 @@ Norėdami pakeisti arba pridėti pristatymo būdą, kuris bus susietas su skambu
 1. Skambučių centro pristatymo būdo parinktyse pasirinkite **Valdyti pristatymo būdus**
 1. Veiksmų srityje pasirinkite **Naujas**, kad sukurtumėte naują pristatymo režimą, arba pasirinkite esamą režimą.
 1. Skyriuje **Mažmeninės prekybos kanalai** spustelėkite **Įtraukti eilutę**, kad galėtumėte įtraukti skambučių centro kanalą. Kanalų įtraukimas naudojant organizacijos mazgus, užuot įtraukus kiekvieną kanalą atskirai, gali racionalizuoti kanalų įtraukimą.
-1. Įsitikinkite, kad pristatymo būdas sukonfigūruotas su duomenimis, nurodytais „FastTab“**Produkai** ir „FastTab“ **Adresai**. Jei pristatymo būdui nėra tinkamų prekių ar pristatymo adresų, pasirenkant jį užsakymo įvedimo metu atsiras klaidų.
+1. Įsitikinkite, kad pristatymo būdas sukonfigūruotas su duomenimis, nurodytais „FastTab“**Produktai** ir „FastTab“ **Adresai**. Jei pristatymo būdui nėra tinkamų prekių ar pristatymo adresų, pasirenkant jį užsakymo įvedimo metu atsiras klaidų.
 1. Po to, kai buvo atlikti bet kokie skambučių centro pristatymo būdo konfigūracijų keitimai, užduotis **Apdoroti pristatymo būdus** turi būti vykdoma, kad išskleistumėte keitimo matricą. Šią užduotį galima surasti pereinant į **Mažmeninė prekyba ir prekyba \>Mažmeninės prekybos ir prekybos IT \>Apdoroti pristatymo būdus**.
 
 Toliau pateiktame vaizde parodytas pristatymo būdo pavyzdys.

@@ -2,11 +2,9 @@
 title: Papildymo strategijos
 description: Šiame skyriuje aprašyta informacija apie papildymo strategijas ir paaiškinta, kaip galite naudoti papildymo strategijos laukelį bangos paklausos papildymo šablono eilutės siekiant pasirinkti, kaip atliekamas papildymas.
 author: mirzaab
-manager: tfehr
 ms.date: 10/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: a66d48c6636f9f2012c92945868728d8430c1cbe
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 84c97bdbe00285d7992a25edbf5d42ffe9b58903
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256044"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814517"
 ---
 # <a name="replenishment-strategies"></a>Papildymo strategijos
 
@@ -27,7 +25,7 @@ ms.locfileid: "5256044"
 
 Šablonai, kurie nustatyti **Papildymo šablonuose** puslapyje apima bangos paklausos papildymo šablono eilutes, leidžiančias jums pasirinkti, kaip papildymas atliekamas. Kiekviena eilutė apima **Papildymo strategijos** laukelį.
 
-Strategija *Bangos paklausos kokybė* yra nustatytoji. Tai papildymo strategija naudojama anksčiau įžanogs **Papildymo strategijos** laukelyje. Ji naudoja papildymo vietos kryptis, kad rastų papildytinas vietas. Ji tada pildo tas vietas, kol paklausa bus padengta.
+Strategija *Bangos paklausos kokybė* yra nustatytoji. Tai papildymo strategija naudojama anksčiau įžangos **Papildymo strategijos** laukelyje. Ji naudoja papildymo vietos kryptis, kad rastų papildytinas vietas. Ji tada pildo tas vietas, kol paklausa bus padengta.
 
 Strategija *Maksimali vietos talpa* pristato keletą naujų funkcijų. Kaip *Bangos paklausos kokybės* strategija ji naudoja papildymo vietos kryptis, kad rastų papildytinas vietas ir tada pildo jas iki kol padengs paklausą. Jis skiriasi nuo *Bangos paklausos kiekio* strategijos, kurioje visos papildymo vietos yra pildomos iki jų maksimalios talpos kaip nustatyta vietos talpos apribojimuose. Strategija *Maksimali vietos talpa* stengiasi sukurti darbą tam, kad paimtų šį būtiną kiekį, kartu su papildomu kiekiu ir užpildytų pildomas vietas. Nepaisant to, kai kuriais atvejais tai nepavyksta. Pavyzdžiui, palaidos vietos gali neturėti pakankamai inventoriaus, kad padengtų papildomą kiekį. Tais atvejais, sistema aptinka problemą ir bando atkurti.
 
@@ -38,7 +36,7 @@ Piko seansas yra vienas pavyzdys, kai *Maksimali vietos talpos* strategija yra s
 
 ## <a name="turn-on-the-replenish-to-max-based-on-stocking-limits-feature"></a>Įjunkite papildymą iki maksimalaus pagal talpos apribojimų funkciją
 
-Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Adminsitratoriai gali naudoti [Funkcijos valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo erdvę tam, kad patikrintų funkcijos būseną ir ją įjungtų, jei jos reikia. Ten ši funkcija pateikiama taip:
+Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [Funkcijos valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo erdvę tam, kad patikrintų funkcijos būseną ir ją įjungtų, jei jos reikia. Ten ši funkcija pateikiama taip:
 
 - **Modulis:** *Sandėlio valdymas*
 - **Funkcijos pavadinimas:** *Pildymas iki maksimalaus pagal talpos apribojimus*
@@ -52,13 +50,13 @@ Norėdami prieiti prie šablonų, eikite į **Sandėlio valdymas \> Nustatymai \
 Jei **Papildymo strategijos** stulpelis nepasirodo tinklelyje **Papildymo šablono išsamios informacijos** skyriuje, įsitikinkite, kad funkcija buvo įjungta ir kad pasirinktas papildymo šablonas turi papildymo tipą *Bangos paklausa*.
 
 > [!NOTE]
-> Strategija *Bangos paklausos kokybė* yra nustatytoji. Dėl to, turite tik naujinti papildymo šablono eilutes, kuriose norite naudoti *Maksimalio vietos talpos* strategiją vietoje kitos.
+> Strategija *Bangos paklausos kokybė* yra nustatytoji. Dėl to, turite tik naujinti papildymo šablono eilutes, kuriose norite naudoti *Maksimalios vietos talpos* strategiją vietoje kitos.
 
 ## <a name="example-scenarios"></a>Scenarijų pavyzdžiai
 
 ### <a name="example-1"></a>1 pavyzdys
 
-Šiame pavyzdyje yrar tik vienas papildymo šablonas, kuris turi vieną šablono eilutę.
+Šiame pavyzdyje yra tik vienas papildymo šablonas, kuris turi vieną šablono eilutę.
 
 Sukuriate prekybos užsakymą 130 vienetams (vnt) prekei A0001. Prieš jums išleidžiant užsakymą į sandėlį, jis nustatytas tokiu būdu:
 
@@ -67,7 +65,7 @@ Sukuriate prekybos užsakymą 130 vienetams (vnt) prekei A0001. Prieš jums išl
 - Papildymo padėjimo vietos yra tokios pačios kaip paėmimo.
 - Papildymo vienetas yra dėžė (1 dėžė = 20 vnt).
 
-Užsakymo metu, tolesnis inventorius turimas prekybos paėimimo vietoje:
+Užsakymo metu tolesnis inventorius turimas prekybos paėmimo vietoje:
 
 - **Pick-001:** 20 vnt (1 dėžė)
 - **Pick-002:** 0 vnt
@@ -109,7 +107,7 @@ Priklausomai nuo **Leisti atskyrimą** parinkties nustatymų vietos kryptyse pap
     - **Papildymo darbas 1:** Imkite 4 dėžes iš bendros vietos ir padėkite jas į vietą pick-001.
     - **Papildymo darbas 2:** Imkite 2 dėžes iš bendros vietos ir padėkite jas į vietą pick-002.
 
-Pasekmė skiriasi dėl informacijos, kuri prieinama jums sukūrus darbą. Kai **Leisti atskyrimą** nustayta į *Taip* vieto kryptyse papildymo paėmimui, žinote, kad sugebėjote surasti 160 vnt. Dėl to, galite sukurti darbą tam kiekiui. Nepaisant to, kai **Leisti atskyrimą** parinktis nustatyta į *Ne*, nežinote apie esančius 160 vnt. Kadangi papildomas kiekis, kurį nusprendėte papildyti buvo 3 dėžės, numetėte papildomą kiekį ir bandote ankstesnį kiekį dar kartą.
+Pasekmė skiriasi dėl informacijos, kuri prieinama jums sukūrus darbą. Kai **Leisti atskyrimą** nustatyta į *Taip* vietos kryptyse papildymo paėmimui, žinote, kad sugebėjote surasti 160 vnt. Dėl to, galite sukurti darbą tam kiekiui. Nepaisant to, kai **Leisti atskyrimą** parinktis nustatyta į *Ne*, nežinote apie esančius 160 vnt. Kadangi papildomas kiekis, kurį nusprendėte papildyti buvo 3 dėžės, numetėte papildomą kiekį ir bandote ankstesnį kiekį dar kartą.
 
 [![2 pavyzdys](media/ReplenTemp_example_2.png "2 pavyzdys")](media/ReplenTemp_example_2_large.png)
 

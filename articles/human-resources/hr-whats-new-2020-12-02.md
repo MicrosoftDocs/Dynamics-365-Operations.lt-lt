@@ -2,11 +2,9 @@
 title: Kas naujo ar pasikeitusio „Dynamics 365 Human Resources“ 2020 m. gruodžio 2 d.
 description: Ši tema aprašo funkcijas, kurios yra naujos arba pakeistos „Microsoft Dynamics 365 Human Resources“ nuo 2020 m. gruodžio 2 d.
 author: marcelbf
-manager: tfehr
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 89c5dbab58679dfe36f5eec0d6c5724f81c18523
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: b7d9ecea08f5095e7fa8501d690bbabbd54e6501
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5463459"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802244"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Kas naujo ar pasikeitusio „Dynamics 365 Human Resources“ 2020 m. gruodžio 2 d.
 

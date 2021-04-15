@@ -2,11 +2,9 @@
 title: Trikties šalinimo diskretiška gamyba
 description: Šioje temoje aprašoma, kaip ištaisyti bendras klaidas, su kuriomis galite dirbdami su diskretiška gamyba.
 author: SmithaNataraj
-manager: tfehr
 ms.date: 11/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-11-04
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2004a48455939855df54c3087a11c8003d825566
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b9c43d59e8022a365853f4b9cbb32ac3c3074e3f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222758"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810923"
 ---
 # <a name="troubleshoot-discrete-manufacturing"></a>Trikties šalinimo diskretiška gamyba
 
@@ -44,7 +42,7 @@ Norėdami ištaisyti šią klaidą, atlikite vieną iš tolesnių veiksmų.
 
 Čia pateikiamas funkcijų *Išpakuoti* ir *Stabdyti* paaiškinimas:
 
-- **Išpakuoti** – Ši funkcija atkeičia inventoriaus perlaidų būseną medžiagų važtaraščiui (BOM) eilutėms ir formulės eilutes, kurios turi būseną iš *Paimta* iki *Užsakyme*. Kai darbas žaiavų paėmimui yra užbaigtas, būsena eilutėms nustatyta į *Paimta*. Ši būsena neleidžia gamybos užsakymo paleisti iš naujo į *Sukurta* būseną. Šiuo atveju, galite naudoti *Išpakuoti* funkciją, kad grąžintumėte perlaidas iš *Paimta* būsenos ir tada paleistumėte iš naujo gamybos užsakymą į *Sukurta* būseną.
+- **Išpakuoti** – Ši funkcija atkeičia inventoriaus perlaidų būseną medžiagų važtaraščiui (BOM) eilutėms ir formulės eilutes, kurios turi būseną iš *Paimta* iki *Užsakyme*. Kai darbas žaliavų paėmimui yra užbaigtas, būsena eilutėms nustatyta į *Paimta*. Ši būsena neleidžia gamybos užsakymo paleisti iš naujo į *Sukurta* būseną. Šiuo atveju, galite naudoti *Išpakuoti* funkciją, kad grąžintumėte perlaidas iš *Paimta* būsenos ir tada paleistumėte iš naujo gamybos užsakymą į *Sukurta* būseną.
 - **Stabdyti** – Ši funkcija nustato **Sustabdyta** vėliavą gamybos užsakyme siekiant apsaugoti bet kokią naujinimo užsakymo būseną. Galite rasti **Sustabdyta** vėliavą **Sandėlio** „FastTab“ gamybos užsakymo išsamios informacijos puslapyje.
 
 > [!NOTE]
@@ -52,7 +50,7 @@ Norėdami ištaisyti šią klaidą, atlikite vieną iš tolesnių veiksmų.
 > - Mygtukai yra matomi tik, kai gamybos užsakymas yra sukuriamas prekėms įjungtoms sandėlio procesuose.
 > - **Stabdymo** grupė yra matoma tik **Sandėlio** skirtuke gamybos užsakymo veiksmų juostos išsamios informacijos puslapyje. Ji nėra matoma **Sandėlio** „FastTab“ puslapyje **Gamybos užsakymai**.
 
-## <a name="the-matching-resource-name-isnt-updated-after-i-change-a-worker-name-in-the-global-address-book"></a>Atitikties resurso pavadinimas nėra naujintas po to, kai keičiu darbuotojo pavadinimą bendroje adresų knygoje.
+## <a name="the-matching-resource-name-isnt-updated-after-i-change-a-worker-name-in-the-global-address-book"></a>Atitikties ištekliaus pavadinimas nėra naujintas po to, kai keičiu darbuotojo pavadinimą bendroje adresų knygoje.
 
 ### <a name="issue-description"></a>Problemos aprašas
 
@@ -60,9 +58,9 @@ Jei keičiate darbuotojo vardą bendrų adresų knygyne, atitinkamas resursų pa
 
 ### <a name="issue-resolution"></a>Problemos paaiškinimas
 
-Šis scenarijus šiuo metu nepalaikomas. Norėdami ištaisyti problemą, turite rankiniu būdu naujinti resurso pavadinimą.
+Šis scenarijus šiuo metu nepalaikomas. Norėdami ištaisyti problemą, turite rankiniu būdu naujinti ištekliaus pavadinimą.
 
-## <a name="when-i-create-a-new-production-order-i-dont-receive-the-following-message-insert-the-active-version-of-bill-of-material-and-route"></a>Man sukuriant naują gamybos užsakymą, negaunu tolesnio pavadinimo: „Įveskite vekiančią važtaraščio versiją ir maršrutą?“
+## <a name="when-i-create-a-new-production-order-i-dont-receive-the-following-message-insert-the-active-version-of-bill-of-material-and-route"></a>Man sukuriant naują gamybos užsakymą, negaunu tolesnio pavadinimo: „Įveskite veikiančią važtaraščio versiją ir maršrutą?“
 
 ### <a name="issue-description"></a>Problemos aprašas
 
@@ -92,7 +90,7 @@ Produktai turintys tolesnį konfigūravimą nėra prieinami ženklinimui. Dėl t
 
 Ši problema buvo ištaisyta 10.0.15 leidime.
 
-## <a name="when-the-status-of-a-production-order-is-changed-from-reported-as-finished-to-end-i-receive-the-following-error-messages-update-conflict-the-standard-cost-does-not-match-with-the-financial-inventory-value-after-the-update-and-a-critical-error-has-occurred-in-function-inventcostmovementcheckvariance"></a>Kai gamybos užsakymo būsena yra keičiama iš „Reported“ į baigtus kaip „End“, gaunu šį tolesnį klaidos pranešimą: „Naujinti konfiktą“. Standartiniai kaštai neatitinka su finansinio inventoriaus verte po naujinimo“ ir „Kritinė klaida atsitinka InventCostMovement.checkVariance funkcijoje."
+## <a name="when-the-status-of-a-production-order-is-changed-from-reported-as-finished-to-end-i-receive-the-following-error-messages-update-conflict-the-standard-cost-does-not-match-with-the-financial-inventory-value-after-the-update-and-a-critical-error-has-occurred-in-function-inventcostmovementcheckvariance"></a>Kai gamybos užsakymo būsena yra keičiama iš „Reported“ į baigtus kaip „End“, gaunu šį tolesnį klaidos pranešimą: „Naujinti konfliktą“. Standartiniai kaštai neatitinka su finansinio inventoriaus verte po naujinimo“ ir „Kritinė klaida atsitinka InventCostMovement.checkVariance funkcijoje."
 
 Ši klaida atsitinka, nes pagrindiniai duomenys buvo pakeisti kito proceso. Procesas bandys naujinti duomenis iki penkių kartų. Jei konfliktas vis dar yra po penkių bandymų, gausite tolesnį klaidos pranešimą:
 
@@ -102,7 +100,7 @@ Produktai turintys tolesnį konfigūravimą nėra prieinami ženklinimui. Dėl t
 
 Toks veikimo būdas yra numatytas. Norėdami sustabdyti šią problemą, tęskite bendro kiekio darbą. Jis turėtų užbaigti vykdymą.
 
-Jei bendro kiekio darbas nuolatos nepavyksta po jo naujinimo, patikrinkite, ar apvalinimo tikslumas buhalterinės klaidos nustatytajai valiutai atitinka apvalnimą taikomą vertės „InventSum“ lentelėje. Jei apvalinimo tikslumas buvo pakeistas į neatitinkančią vertę, greičiausiai turite atkeisti ją atgal į atitinkančią vertę. Ieškokite **ModifiedDateTime**. Šiuo atveju, vertė dažniausiai rodys, kad apvalinimo tikslumas neseniai buvo pakeistas.
+Jei bendro kiekio darbas nuolatos nepavyksta po jo naujinimo, patikrinkite, ar apvalinimo tikslumas buhalterinės klaidos nustatytajai valiutai atitinka apvalinimą taikomą vertės „InventSum“ lentelėje. Jei apvalinimo tikslumas buvo pakeistas į neatitinkančią vertę, greičiausiai turite atkeisti ją atgal į atitinkančią vertę. Ieškokite **ModifiedDateTime**. Šiuo atveju, vertė dažniausiai rodys, kad apvalinimo tikslumas neseniai buvo pakeistas.
 
 ## <a name="when-i-release-to-a-warehouse-i-receive-the-following-error-message-item-rm-could-not-be-fully-reserved-ensure-that-the-full-quantity-is-available-or-reserve-the-items-manually-if-the-reservation-field-on-the-bom-line-is-set-to-manual-or-started-could-not-release-the-order-to-warehouse-because-some-materials-could-not-be-reserved-however-the-status-is-updated-to-released"></a>Paleisdamas į sandėlį gaunu tolesnį klaidos pranešimą: „Prekė RM negali būti pilnai rezervuota. Įsitikinkite, kad visas kiekis yra prieinamas arba rezervuokite prekes rankiniu būdu, jei rezervacijos laukelis BOM eilutėje yra nustatytas į rankinį ar pradėtą. Nepavyko paleisti užsakymo į sandėlį dėl to, kad kai kurių medžiagų nepavyko rezervuoti.“ Nepaisant to, būsena yra naujinta į išleistą.
 
@@ -116,7 +114,7 @@ Jei ne visos BOM eilutės prekės yra fiziškai prieinamos, kai gamybos užsakym
 
 Šis elgesys yra suprojektuotas tokiu būdu ir veikia kaip tikėtasi.
 
-## <a name="when-i-try-to-end-a-production-order-and-report-as-finished-i-receive-the-following-error-message-total-good-quantity-reported-as-finished-for-the-production-will-be-1-feedback-for-the-last-operation-is-000-in-total"></a>Bandydamas užbaigti gamybos užsakymą ir pranešti kaip baigtą, gaunu tolesnį klaidos pranešimą: „Bendras prekių kiekis, apie kurį pranšta kaip baigtą gamybai, bus %1. Paskutinės operacijos atsiliepimas yra 0,00 bendrai."
+## <a name="when-i-try-to-end-a-production-order-and-report-as-finished-i-receive-the-following-error-message-total-good-quantity-reported-as-finished-for-the-production-will-be-1-feedback-for-the-last-operation-is-000-in-total"></a>Bandydamas užbaigti gamybos užsakymą ir pranešti kaip baigtą, gaunu tolesnį klaidos pranešimą: „Bendras prekių kiekis, apie kurį pranešta kaip baigtą gamybai, bus %1. Paskutinės operacijos atsiliepimas yra 0,00 bendrai."
 
 ### <a name="issue-description"></a>Problemos aprašas
 

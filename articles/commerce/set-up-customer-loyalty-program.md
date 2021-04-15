@@ -2,11 +2,9 @@
 title: Lojalumo apžvalga
 description: Šioje temoje aprašomos lojalumo galimybės programoje „Dynamics 365 Commerce“ ir atitinkami nustatymo veiksmai, padedantys mažmenininkui lengvai pradėti dirbti su savo lojalumo programomis.
 author: scott-tucker
-manager: AnnBe
 ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 1697c377c8291190f27b2057463ddb98aac1f9b9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 25f02517bf333716bdb7c74ce1decebcd4e30c6d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264557"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801896"
 ---
 # <a name="loyalty-overview"></a>Lojalumo apžvalga
 
@@ -138,7 +136,7 @@ Be to, mažmenininkai gali nustatyti didžiausią lojalumo atlygio taškų ribą
     - Nustatymas, kad įvyko veikla, kuri turi būti atlyginta.
     - Atitinkamo taškų kiekio skyrimas.
 
-    Pirmas veiksmas yra išorinis „Commerce“ veiksmas, pavyzdžiui, „Twitter“ žinutės apie prekių ženklą paskelbimas arba „Facebook“ paspaudimas „Patinka“. Kai ši veikla nustatyta, mažmenininkai gali iškviesti pirmiau minėtą „Commerce Scale Unit“ API ir skirti lojalumo taškų tikruoju laiku. Tokiais atvejais peržiūros veiksmas nereikalingas, nes veikla įvyko ir atitinkamas taškų kiekis turi būti skirtas. Tačiau yra scenarijų, kai mažmenininkas nori peržiūrėti įrašus prieš skirdamas taškus. Pavyzdžiui, mažmenininkas nustatė darbo grupę parduotuvėje, prie kurios klientai prisiregistruoja naudodami el. prekybos svetainę arba bet kurią kitą įvykių registravimo programą. Tačiau tik dalyvaujantys klientai turėtų gauti lojalumo taškų. Tokiais atvejais 10.0 leidime mes pristatėme duomenų objektą pavadinimu **Mažmeninės prekybos lojalumo kitos veiklos tipo eilutės**. Šis duomenų objektas suteikia galimybę mažmenininkams naudoti duomenų importavimo / eksportavimo sistemą (DIXF) arba „OData“ API norint įrašyti veiklas, už kurias klientams turėtų būti skiriama lojalumo taškų. Duomenų objektas išsaugo veikloas žurnale pavadinimu **Kitų veiklų lojalumo eilutės**, kurį galima naudoti peržiūros ir modifikavimo tikslais. Peržiūrėjus duomenis, IT vartotojas gali neautomatiškai registruoti veiklos eilutes arba vykdyti užduotį pavadinimu **Apdoroti lojalumo eilučių kitos veiklos tipą**, kuri užregistruos neužregistruotas veiklos eilutes ir skirs taškų klientams pagal uždarbio taisykles. Pirmiau pateiktame scenarijuje įvykių registravimo programa iškviestų „OData“ API siųsti kliento informaciją į „Commerce“. Tačiau IT vartotojas gali registruoti tik tų klientų, kurie dalyvavo darbo grupėje, veiklos eilutes, o kitų klientų veiklos eilutes jis gali panaikinti. 
+    Pirmas veiksmas yra išorinis „Commerce“ veiksmas, pavyzdžiui, „Twitter“ žinutės apie prekių ženklą paskelbimas arba „Facebook“ paspaudimas „Patinka“. Kai ši veikla nustatyta, mažmenininkai gali iškviesti pirmiau minėtą „Commerce Scale Unit“ API ir skirti lojalumo taškų tikruoju laiku. Tokiais atvejais peržiūros veiksmas nereikalingas, nes veikla įvyko ir atitinkamas taškų kiekis turi būti skirtas. Tačiau yra scenarijų, kai mažmenininkas nori peržiūrėti įrašus prieš skirdamas taškus. Pavyzdžiui, mažmenininkas nustatė darbo grupę parduotuvėje, prie kurios klientai prisiregistruoja naudodami el. prekybos svetainę arba bet kurią kitą įvykių registravimo programą. Tačiau tik dalyvaujantys klientai turėtų gauti lojalumo taškų. Tokiais atvejais 10.0 leidime mes pristatėme duomenų objektą pavadinimu **Mažmeninės prekybos lojalumo kitos veiklos tipo eilutės**. Šis duomenų objektas suteikia galimybę mažmenininkams naudoti duomenų importavimo / eksportavimo sistemą (DIXF) arba „OData“ API norint įrašyti veiklas, už kurias klientams turėtų būti skiriama lojalumo taškų. Duomenų objektas išsaugo veiklos žurnale pavadinimu **Kitų veiklų lojalumo eilutės**, kurį galima naudoti peržiūros ir modifikavimo tikslais. Peržiūrėjus duomenis, IT vartotojas gali neautomatiškai registruoti veiklos eilutes arba vykdyti užduotį pavadinimu **Apdoroti lojalumo eilučių kitos veiklos tipą**, kuri užregistruos neužregistruotas veiklos eilutes ir skirs taškų klientams pagal uždarbio taisykles. Pirmiau pateiktame scenarijuje įvykių registravimo programa iškviestų „OData“ API siųsti kliento informaciją į „Commerce“. Tačiau IT vartotojas gali registruoti tik tų klientų, kurie dalyvavo darbo grupėje, veiklos eilutes, o kitų klientų veiklos eilutes jis gali panaikinti. 
 
     > [!NOTE]
     > Šiuo metu sistema liepia vartotojams nustatyti objekto „kitos veiklos tipai“ numeraciją, tačiau būsimuose leidimuose tai nebus būtinas veiksmas. Norėdami nustatyti numeraciją, pasirinkite **Bendrai naudojami prekybos parametrai** \> **Numeracijos** ir pasirinkite objekto **Lojalumo kitos veiklos tipo ID** numeraciją.

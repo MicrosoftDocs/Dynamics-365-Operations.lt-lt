@@ -2,11 +2,9 @@
 title: Gamybos vykdymo darbo apkrovos debesies ir krašto skalės vienetams
 description: Ši tema aprašo, kaip dirbti su gamybos vykdymo darbo apkrovos debesies ir krašto skalės vienetais.
 author: cabeln
-manager: ''
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6bef28d16236a7862550f3ab87f73baf8dab97b0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a8c263104e209a81e33ea0db9e5fecddff3bc95b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5251079"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809787"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Gamybos vykdymo darbo apkrovos debesies ir krašto skalės vienetams
 
@@ -33,10 +31,10 @@ ms.locfileid: "5251079"
 > [!WARNING]
 > Kai kurios verslo funkcijos nėra visiškai palaikomos viešoje peržiūroje, kai darbo apkrovos skalės vienetai yra naudojami.
 
-Gamybos vykdyme, debesiesi ir krašto skalės pajėgumai pristato tolesnius pajėgumus, net kai krašto vienetai nėra sujungti su centru:
+Gamybos vykdyme, debesies ir krašto skalės pajėgumai pristato tolesnius pajėgumus, net kai krašto vienetai nėra sujungti su centru:
 
-- Mašinos operatoriai ir parduotuvės aukšto vadovai gali prieiti prie oepracijos gamybos plano.
-- Mašinos operatiria gali turėti atnaujintą planą diskretiškam vykdymui ir proceso gamybos darbus.
+- Mašinos operatoriai ir parduotuvės aukšto vadovai gali prieiti prie operacijos gamybos plano.
+- Mašinos operatoriai gali turėti atnaujintą planą diskretiškam vykdymui ir proceso gamybos darbus.
 - Parduotuvės aukšto vadovas gali keisti operacijos planą.
 - Darbuotojai gali prieiti prie laiko ir lankymosi su laikrodžiu ir be jo veikiančiame krašte siekiant pataisyti darbuotojo užmokesčio skaičiuoklę.
 
@@ -60,7 +58,7 @@ Kaip rodo kitas paveikslėlis, kai skalės vienetai naudojami, _Vykdymo_ etapas 
 
 Modelis dabar eina nuo vieno elemento diegimo iki modelio, kuris yra pagrįstas centru ir skalės vienetais. Etapai _Planavimas_ ir _Užbaigimas_ vyksta, kai ne su klientais susijusios operacijos vykdomos centre ir gamybos vykdymo darbo apkrova vykdoma skalės vienetuose. Duomenys yra perduodami nesinchroniniu būdu tarp centro ir skalės vienetų.
 
-Kai gamybos užsakymas išleidžiamas į centrą, visi duomenys yra būtini siekiant apdoroti gamybos darbus, kuries perduodami į skalės vienetą. Šie duomenys apima gamybos užsakymus, maršrutus, medžiagų aprašus ir gaminius. Duomenys nėra susiję su gamybos užsakymu (tokiu kaip netiesioginės veiklos, nebuvimo kodai ir gamybos parametrai) yra taip pat perduodami iš centro į skalės vienetą. Kaip taisyklės, duomenys ateinantys iš centro ir perduodami į skalės vienetą negali būti sukruti ar naujinti tik centre. Pavyzdžiui, naujas nebuvimo kodas ar netiesioginė veikla negali būti sukurta skalės vienete&mdash;jie gali būti panaudojami tik registravimui. Registravimai atlikti skalės vienete vykdymo metu yra tada perduodami į centrą, kuriame laikas ir buvimo patvirtinimas, inventorius ir finansiniai naujiniai yra apdorojami.
+Kai gamybos užsakymas išleidžiamas į centrą, visi duomenys yra būtini siekiant apdoroti gamybos darbus, kurie perduodami į skalės vienetą. Šie duomenys apima gamybos užsakymus, maršrutus, medžiagų aprašus ir gaminius. Duomenys nėra susiję su gamybos užsakymu (tokiu kaip netiesioginės veiklos, nebuvimo kodai ir gamybos parametrai) yra taip pat perduodami iš centro į skalės vienetą. Kaip taisyklės, duomenys ateinantys iš centro ir perduodami į skalės vienetą negali būti sukruti ar naujinti tik centre. Pavyzdžiui, naujas nebuvimo kodas ar netiesioginė veikla negali būti sukurta skalės vienete&mdash;jie gali būti panaudojami tik registravimui. Registravimai atlikti skalės vienete vykdymo metu yra tada perduodami į centrą, kuriame laikas ir buvimo patvirtinimas, inventorius ir finansiniai naujiniai yra apdorojami.
 
 ## <a name="manufacturing-execution-tasks-that-can-be-run-on-workloads"></a>Gamybos vykdymo užduotys, kurios gali vykti darbo apkrovose
 
@@ -80,15 +78,15 @@ Dažniausiai, procesai, kuriems reikia vykdyti gamybos darbo krūvius veikia aut
 
 ### <a name="manually-process-raw-registrations"></a>Rankiniu būdu tvarkykite neapdorotas registracijas
 
-Palaidų vienetų darbas „Supply Chain Management“ veikia automatiniu būdu ir tvarko visas registacijas, gautas iš darbo krūvių. Sukurtiems darbams reikia gamybos žurnalų ir žurnalų knygos įrašų, kai registracija yra apdorojama baigtam darbui darbo krūvyje.
+Palaidų vienetų darbas „Supply Chain Management“ veikia automatiniu būdu ir tvarko visas registracijas, gautas iš darbo krūvių. Sukurtiems darbams reikia gamybos žurnalų ir žurnalų knygos įrašų, kai registracija yra apdorojama baigtam darbui darbo krūvyje.
 
 Nepaisant to, kad darbas dažniausiai vyksta automatiniu būdu, galite vykdyti jį rankiniu būdu bet kuriuo metu prisijungę prie centro ir patekę į **Gamybos valdymas \> Periodinės užduotys \> Galinio skyriaus darbo krūvio valdymas \> Neapdorotų registracijų tvarkymas**.
 
 ### <a name="check-the-raw-registration-processing-log"></a>Patikrinkite neapdorotos registracijos tvarkymo žurnalą
 
-Norėdami peržiūrėti registacijos aprodojimo žurnalą, prisijunkite prie centro ir eikite į **Gamybos valdymas \> Periodinės užduotys \> Galinio skyriaus darbo krūvio valdymas \> Neapdorotų registracijų tvarkymo žurnalas**. Puslapyje **Neapdorotų registracijų tvarkymo žurnalas** rodomos apdorotos žalios registracijos ir visų registracijų būsena.
+Norėdami peržiūrėti registracijos apdorojimo žurnalą, prisijunkite prie centro ir eikite į **Gamybos valdymas \> Periodinės užduotys \> Galinio skyriaus darbo krūvio valdymas \> Neapdorotų registracijų tvarkymo žurnalas**. Puslapyje **Neapdorotų registracijų tvarkymo žurnalas** rodomos apdorotos žalios registracijos ir visų registracijų būsena.
 
-![Žialiavų registracijos tvarkymo žurnalo puslapis](media/mes-processing-log.png "Žialiavų registracijos tvarkymo žurnalo puslapis")
+![Žaliavų registracijos tvarkymo žurnalo puslapis](media/mes-processing-log.png "Žaliavų registracijos tvarkymo žurnalo puslapis")
 
 Galite dirbti su bet kuria registracija sąraše pasirinkę ją ir tada pasirinkę vieną iš tolesnių mygtukų veiksmų juostoje:
 

@@ -2,11 +2,9 @@
 title: Nustatyti dalinį mokėjimą prieš nuolaidos datą ir galutinį mokėjimą po nuolaidos datos
 description: Šiame straipsnyje žingsnis po žingsnio pateiktas scenarijus, kuriame atliekami keli daliniai mokėjimai, kai kurie mokėjimo nuolaidos laikotarpiu, o kiti ne mokėjimo nuolaidos laikotarpiui.
 author: abruer
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e125ca5fbebcf062eb17f56a2ef6669d1b6d6ae3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d34a9dd53b6a287ef512a5479c0ad1a51211577b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227333"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810347"
 ---
 # <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>Nustatyti dalinį mokėjimą prieš nuolaidos datą ir galutinį mokėjimą po nuolaidos datos
 
@@ -46,12 +44,12 @@ Liepos 2 d. Eglė nori sudengti 300,00 šios SF. Mokėjimui gali būti taikoma n
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 | Pasirinkta | Įprastas            | SF-10020 | 3057    | 2015-06-25 | 2015-07-25 | 10020   | –1 000,00                      | USD      | –297,00          |
 
-Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas** apačioje.
+Nuolaidos informacija rodoma puslapio **Sudengti atviras operacijas** apačioje.
 
-|                              |           |
+| Laukas                        | Reikšmė     |
 |------------------------------|-----------|
 | Mokėjimo nuolaidos data           | 2015-07-09 |
-| Mokėjimo nuolaidos suma         | –10,00    |
+| Mokėjimo nuolaidos suma         | -10.00    |
 | Naudokite mokėjimo nuolaidą            | Įprastas    |
 | Pritaikyta mokėjimo nuolaida          | 0,00      |
 | Taikytinos mokėjimo nuolaidos suma | –3,00     |
@@ -73,7 +71,7 @@ Eglė apmoka likusią SF sumą liepos 15 d., kuri yra po mokėjimo nuolaidos lai
 
 Nuolaidos informacija rodoma puslapio **Sudengti operacijas** apačioje. Eglė mato, kad jai jau pritaikyta 3,00 nuolaida.
 
-|                              |           |
+| Laukas                        | Reikšmė     |
 |------------------------------|-----------|
 | Mokėjimo nuolaidos data           | 2015-07-09 |
 | Mokėjimo nuolaidos suma         | 0,00      |
@@ -99,10 +97,10 @@ Jei tiekėjas leidžia Eglei pritaikyti nuolaidą, nors ji sumoka po nuolaidos d
 
 Nuolaidos informacija rodoma puslapio **Sudengti operacijas** apačioje.
 
-|                              |           |
+| Laukas                        | Reikšmė     |
 |------------------------------|-----------|
 | Mokėjimo nuolaidos data           | 2015-07-09 |
-| Mokėjimo nuolaidos suma         | 7,00      |
+| Mokėjimo nuolaidos suma         | 7.00      |
 | Naudokite mokėjimo nuolaidą            | Visada    |
 | Pritaikyta mokėjimo nuolaida          | –3,00     |
 | Taikytinos mokėjimo nuolaidos suma | –7,00     |

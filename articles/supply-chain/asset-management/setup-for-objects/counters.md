@@ -1,12 +1,10 @@
 ---
 title: Turto matai
 description: Šioje temoje paaiškinta, kaip kurti turto matus turto valdyme.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectCounterPart, EntAssetObjectCounterLookup, EntAssetCounterType, EntAssetObjectCounterTotals
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 41bedaaace09f632ca7506f504c3086a1dabf193
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e119eee82b1438dd8c3ccbaf2d54962b59fe6ae3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217154"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808405"
 ---
 # <a name="counters"></a>Skaitikliai
 
@@ -60,7 +58,7 @@ Skaitiklio registraciją galima atnaujinti rankiniu būdu arba automatiškai, at
 
 
 >[!NOTE]
->Susijęs skaitiklis automatiškai atnaujinamas tik tuo atveju, jei skaitiklio nustatymuose susijęs skaitiklis yra turto tipo. Pavyzdžiui, skaitiklį galima nustatyti „Gamybos valandoms“ ir įtraukti turto tipą „Sunkvežimio variklis“. Kai šis skaitiklis atnaujinamas, susijęs skaitiklis „Alyva“ taip pat atnaujinamas pagal tas pačias skaitiklio reikšmes. Nustatymai dalyje **Skaitikliai** apima nustatymus „Valandos“. Be to, skatiklyje „Alyva“ turto tipas „Sunkvežimio variklis“ turi būti įtrauktas į „FastTab“ **Turto tipai**, kad būtų užtikrintas skaitiklio ryšys. Žr. toliau esančias ekrano kopijas, kuriose pateiktas valandų ir alyvos skaitiklių nustatymo pavyzdys.
+>Susijęs skaitiklis automatiškai atnaujinamas tik tuo atveju, jei skaitiklio nustatymuose susijęs skaitiklis yra turto tipo. Pavyzdžiui, skaitiklį galima nustatyti „Gamybos valandoms“ ir įtraukti turto tipą „Sunkvežimio variklis“. Kai šis skaitiklis atnaujinamas, susijęs skaitiklis „Alyva“ taip pat atnaujinamas pagal tas pačias skaitiklio reikšmes. Nustatymai dalyje **Skaitikliai** apima nustatymus „Valandos“. Be to, skaitiklyje „Alyva“ turto tipas „Sunkvežimio variklis“ turi būti įtrauktas į „FastTab“ **Turto tipai**, kad būtų užtikrintas skaitiklio ryšys. Žr. toliau esančias ekrano kopijas, kuriose pateiktas valandų ir alyvos skaitiklių nustatymo pavyzdys.
 
 Kai turto tipai įtraukiami į skaitiklio tipą dalyje **Skaitikliai**, šis skaitiklis automatiškai įtraukiamas į turto tipus „FastTab“ **Skaitikliai**, dalyje [Turto tipai](../setup-for-objects/object-types.md).
 

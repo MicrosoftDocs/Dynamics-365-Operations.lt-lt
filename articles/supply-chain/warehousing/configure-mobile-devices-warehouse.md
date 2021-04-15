@@ -2,11 +2,9 @@
 title: Mobiliųjų įrenginių nustatymas darbui sandėlyje
 description: Šioje temoje aprašoma, kaip konfigūruoti meniu elementus, kuriuos sandėlio darbuotojai naudoja dirbdami mobiliuoju įrenginiu.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem, WHSRFSysDirSort, WHSWorkUserDisplaySettings
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db4c3a8c4bae226b5e154f4761e30b7341bc527b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1d3acbc15b6dc5f698f26aae96c75cc942189c6c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232988"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808803"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiliųjų įrenginių nustatymas darbui sandėlyje
 
@@ -64,7 +62,7 @@ Jei meniu elemento laukas **Režimas** nustatytas kaip **Netiesioginis**, galite
 | Valyti numeravimo talpyklą | Naikinkite numeracijos numerius iš numeracijos talpyklos. Šią veiklą paprastai atlieka sistemos administratorius šalindamas kaupimo talpykloje problemas, kai naudojami mobilieji įrenginiai. |
 | Keisti paketo perdavimą | Leiskite darbuotojui nurodyti prekės paketo perdavimo kodą ir paketą. Ši pasirinktis atnaujina nurodytą paketo perdavimo kodą. |
 | Rodyti atidarytą užduočių sąrašą | Rodyti galimų darbų sąrašą tam tikram vartotojui. Tada vartotojas galės pasirinkti atliktiną darbą ir bus nukreiptas į jį. Šis sąrašas skirtas žiūrėti planšetiniuose įrenginiuose, kurių ekrano įstrižainė – 7 coliai ar daugiau. Jums pasirinkus šią parinktį, tampa galimi meniu elementai **Redaguoti užklausą** ir **Laukų sąrašas**. Puslapyje **Redaguoti užklausą** galima nustatyti darbo, rodomo sąraše, kriterijus. Puslapyje **Laukų sąrašas** galima pasirinkti darbų sąraše rodomus laukus. Pavyzdžiui, galima sumažinti rodomų laukų skaičių, kad vartotojas galėtų greičiau pažymėti tinkamiausią darbo elementą. „FastTab“ skirtuko **Bendra** lauke **Įrašų puslapyje** taip pat galima pasirinkti, kiek darbo įrašų rodoma viename puslapyje. Jei pažymėta parinktis **Leisti vartotojams filtruoti darbą pagal operacijos tipą**, darbų sąraše bus rodomas valdiklis **Filtruoti darbą**, kurį naudodamas vartotojas gali filtruoti darbą pagal operacijos tipą. Vartotojas darbų sąraše matys tik tuos darbus, prie kurių prieiti jis turi teisę. Reikia įsitikinti, kad vartotojai turi teisę prieiti prie vieno ar daugiau vartotojo nurodytų meniu elementų, kurie palaiko konkrečius darbo klasės tipus, prie kurių jie galėtų prieiti. Teisės taip pat patikrinamos, kai vartotojas mėgina atlikti darbą iš sąrašo.|
-| Kurti perkėlimo užsakymą iš numerio lentelių | Tai leidžia sandėlio darbuotojams kurti ir apdoroti perkėlimo užsakymus tiesiai iš sandėlio programos. Sandėlio darbuotojai pirmiausia pasirenka paskirties sandėlį, o tada gali nuskaityti vieną ar daugiau numerio lentelių naudodami programą. Kai sandėlio darbuotojas pasirenka **Užbaigti užsakymą**, paketinė užduotis sukuria reikiamą perkėlimo užsakymą ir užsakymo eilutes pagal turimas atsargas, užregistruotas toms numerio lentelėms. Daugiau informacijos žr. [Perkėlimo užsakymų kūrimas iš sandėlio programos](create-transfer-order-from-warehouse-app.md)
+| Kurti perkėlimo užsakymą iš numerio lentelių | Tai leidžia sandėlio darbuotojams kurti ir apdoroti perkėlimo užsakymus tiesiai iš sandėlio valdymo mobiliųjų įrenginių programėlės. Sandėlio darbuotojai pirmiausia pasirenka paskirties sandėlį, o tada gali nuskaityti vieną ar daugiau numerio lentelių naudodami programą. Kai sandėlio darbuotojas pasirenka **Užbaigti užsakymą**, paketinė užduotis sukuria reikiamą perkėlimo užsakymą ir užsakymo eilutes pagal turimas atsargas, užregistruotas toms numerio lentelėms. Daugiau informacijos žr. [Perkėlimo užsakymų kūrimas iš sandėlio programos](create-transfer-order-from-warehouse-app.md)
 
 
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Meniu elementų konfigūravimas siekiant kurti darbą kitam darbuotojui ar procesui

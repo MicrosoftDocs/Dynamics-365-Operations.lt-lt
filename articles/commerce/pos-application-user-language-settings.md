@@ -2,11 +2,9 @@
 title: Elektroninio kasos aparato (EKA) programos ir vartotojo kalbos parametrai
 description: Šioje temoje aprašoma, kaip pakeisti kalbos parametrus „Modern POS“ (MPOS) ir „Cloud POS“.
 author: jblucher
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: HcmWorker, RetailStoreTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 09824d3b2eb8e3c1602882f19131d9fe312baaac
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0c5087ee04030a76aef774871b88b7970391723c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263161"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804386"
 ---
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>Elektroninio kasos aparato (EKA) programos ir vartotojo kalbos parametrai
 
@@ -59,7 +57,7 @@ Pagal EKA vartotojo kalbos parametrą nustatomi programos vartotojo sąsajoje na
 
 EKA vartotojo kalbos parametras nustatomas puslapyje **Darbininkas**, skyriuje **Visi darbininkai**, **„Retail and Commerce“ &gt; Kalba**. Jis nenustatomas pagrindiniame profilio skirtuke. EKA šio parametro nenaudoja. Jei nenustatyta vartotojo kalba arba nustatyta kalba, kurios vertimų nėra, EKA iš naujo nustatys parduotuvės kalbą.
 
-|             | Vartotojo sąsajos kalba                   | Duomenų kalba (produktų, gavimo kvitų formatų, eilutės rodymo ir kt.) |
+|             | Vartotojo sąsajos kalba                | Duomenų kalba (produktų, gavimo kvitų formatų, eilutės rodymo ir kt.) |
 |-------------|----------------------------|---------------------------------------------------------------|
 | **Įmonė** | Numatytoji                    | Numatytoji                                                       |
 | **Parduotuvė**   | Perrašoma įmonė          | Perrašoma įmonė                                             |
