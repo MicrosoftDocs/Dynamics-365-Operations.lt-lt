@@ -2,7 +2,6 @@
 title: ER TODAY funkcija
 description: Šioje temoje pateikiama informacija apie tai, kaip naudojama modulio Elektroninės ataskaitos (ER) TODAY funkcija.
 author: NickSelin
-manager: kfend
 ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
@@ -16,38 +15,38 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9288baf4e6123a7c03152f524a852eae9b671dde
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 45ee4282acf4d6a5febe4b74b6955410e73e86a3
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567921"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5746752"
 ---
-# <a name="today-er-function"></a><span data-ttu-id="6a38c-103">ER TODAY funkcija</span><span class="sxs-lookup"><span data-stu-id="6a38c-103">TODAY ER function</span></span>
+# <a name="today-er-function"></a><span data-ttu-id="f0e99-103">ER TODAY funkcija</span><span class="sxs-lookup"><span data-stu-id="f0e99-103">TODAY ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="6a38c-104">`TODAY` funkcija pateikia tipo *Data* reikšmę, kuri nurodo dabartinę programos serverio datą.</span><span class="sxs-lookup"><span data-stu-id="6a38c-104">The `TODAY` function returns a *Date* value that represents the current application server date.</span></span>
+<span data-ttu-id="f0e99-104">`TODAY` funkcija pateikia tipo *Data* reikšmę, kuri nurodo dabartinę programos serverio datą.</span><span class="sxs-lookup"><span data-stu-id="f0e99-104">The `TODAY` function returns a *Date* value that represents the current application server date.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6a38c-105">Sintaksė</span><span class="sxs-lookup"><span data-stu-id="6a38c-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f0e99-105">Sintaksė</span><span class="sxs-lookup"><span data-stu-id="f0e99-105">Syntax</span></span>
 
 ```xpp
 TODAY ()
 ```
 
-## <a name="return-values"></a><span data-ttu-id="6a38c-106">Pateikiamos reikšmės</span><span class="sxs-lookup"><span data-stu-id="6a38c-106">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="f0e99-106">Pateikiamos reikšmės</span><span class="sxs-lookup"><span data-stu-id="f0e99-106">Return values</span></span>
 
-<span data-ttu-id="6a38c-107">*Data*</span><span class="sxs-lookup"><span data-stu-id="6a38c-107">*Date*</span></span>
+<span data-ttu-id="f0e99-107">*Data*</span><span class="sxs-lookup"><span data-stu-id="f0e99-107">*Date*</span></span>
 
-<span data-ttu-id="6a38c-108">Gauta datos reikšmė.</span><span class="sxs-lookup"><span data-stu-id="6a38c-108">The resulting date value.</span></span>
+<span data-ttu-id="f0e99-108">Gauta datos reikšmė.</span><span class="sxs-lookup"><span data-stu-id="f0e99-108">The resulting date value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="6a38c-109">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="6a38c-109">Example</span></span>
+## <a name="example"></a><span data-ttu-id="f0e99-109">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="f0e99-109">Example</span></span>
 
-<span data-ttu-id="6a38c-110">`DATEFORMAT (TODAY (), "dd-MM-yyyy")` dabartinę programos serverio datą – 2015 m. gruodžio 24 d. – pagal nurodytą pasirinktinį formatą pateikia kaip eilutę **„24-12-2015“**.</span><span class="sxs-lookup"><span data-stu-id="6a38c-110">`DATEFORMAT (TODAY (), "dd-MM-yyyy")` returns the current application server date, December 24, 2015, as the string **"24-12-2015"**, based on the specified custom format.</span></span>
+<span data-ttu-id="f0e99-110">`DATEFORMAT (TODAY (), "dd-MM-yyyy")` dabartinę programos serverio datą – 2015 m. gruodžio 24 d. – pagal nurodytą pasirinktinį formatą pateikia kaip eilutę **„24-12-2015“**.</span><span class="sxs-lookup"><span data-stu-id="f0e99-110">`DATEFORMAT (TODAY (), "dd-MM-yyyy")` returns the current application server date, December 24, 2015, as the string **"24-12-2015"**, based on the specified custom format.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="6a38c-111">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="6a38c-111">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="f0e99-111">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="f0e99-111">Additional resources</span></span>
 
-[<span data-ttu-id="6a38c-112">Datos ir laiko funkcijos</span><span class="sxs-lookup"><span data-stu-id="6a38c-112">Date and time functions</span></span>](er-functions-category-datetime.md)
+[<span data-ttu-id="f0e99-112">Datos ir laiko funkcijos</span><span class="sxs-lookup"><span data-stu-id="f0e99-112">Date and time functions</span></span>](er-functions-category-datetime.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
