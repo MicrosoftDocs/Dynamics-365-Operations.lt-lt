@@ -2,11 +2,9 @@
 title: Darbininkams paskolintų prekių valdymas
 description: Panaudos objektai yra įrašai, kurie vadovams padeda sekti fizines prekes, kurias įmonė skolina savo darbuotojams.
 author: andreabichsel
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmLoanItem, HcmLoanType, HcmPersonLoan, HcmPersonnelManagementWorkspace
 audience: Application User
@@ -18,42 +16,42 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 5517ee621f1c41b6348dc965e8846d677aa1bb56
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: dccab8cc2b166fe0ca22e05c14ae858f47aaf3e1
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464819"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5803446"
 ---
-# <a name="manage-items-that-are-lent-to-workers"></a><span data-ttu-id="dbbae-103">Darbininkams paskolintų prekių valdymas</span><span class="sxs-lookup"><span data-stu-id="dbbae-103">Manage items that are lent to workers</span></span>
+# <a name="manage-items-that-are-lent-to-workers"></a><span data-ttu-id="84560-103">Darbininkams paskolintų prekių valdymas</span><span class="sxs-lookup"><span data-stu-id="84560-103">Manage items that are lent to workers</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="dbbae-104">Panaudos objektai yra įrašai, kurie vadovams padeda sekti fizines prekes, kurias įmonė skolina savo darbuotojams.</span><span class="sxs-lookup"><span data-stu-id="dbbae-104">Loan items are records that help managers track the physical items that your company lends to its workers.</span></span> 
+<span data-ttu-id="84560-104">Panaudos objektai yra įrašai, kurie vadovams padeda sekti fizines prekes, kurias įmonė skolina savo darbuotojams.</span><span class="sxs-lookup"><span data-stu-id="84560-104">Loan items are records that help managers track the physical items that your company lends to its workers.</span></span> 
 
-<span data-ttu-id="dbbae-105">Toliau pateiktuose punktuose nurodomi elementų, kuriuos įmonė gali paskolinti darbuotojams, pavyzdžiai.</span><span class="sxs-lookup"><span data-stu-id="dbbae-105">The following points list examples of items that a company might lend to workers:</span></span>
--   <span data-ttu-id="dbbae-106">Mobilieji telefonai;</span><span class="sxs-lookup"><span data-stu-id="dbbae-106">Mobile telephones</span></span>
--   <span data-ttu-id="dbbae-107">Automobiliai;</span><span class="sxs-lookup"><span data-stu-id="dbbae-107">Automobiles</span></span>
--   <span data-ttu-id="dbbae-108">Kompiuterinė įranga.</span><span class="sxs-lookup"><span data-stu-id="dbbae-108">Computer equipment</span></span>
+<span data-ttu-id="84560-105">Toliau pateiktuose punktuose nurodomi elementų, kuriuos įmonė gali paskolinti darbuotojams, pavyzdžiai.</span><span class="sxs-lookup"><span data-stu-id="84560-105">The following points list examples of items that a company might lend to workers:</span></span>
+-   <span data-ttu-id="84560-106">Mobilieji telefonai;</span><span class="sxs-lookup"><span data-stu-id="84560-106">Mobile telephones</span></span>
+-   <span data-ttu-id="84560-107">Automobiliai;</span><span class="sxs-lookup"><span data-stu-id="84560-107">Automobiles</span></span>
+-   <span data-ttu-id="84560-108">Kompiuterinė įranga.</span><span class="sxs-lookup"><span data-stu-id="84560-108">Computer equipment</span></span>
 
-<span data-ttu-id="dbbae-109">Kiekviena fizinė prekė turi turėti atitinkamą panaudos objektą.</span><span class="sxs-lookup"><span data-stu-id="dbbae-109">Each physical item must have a corresponding loan item.</span></span> <span data-ttu-id="dbbae-110">Kiekviename panaudos objekto įraše turi būti aprašyta, kas skolinama, kas atsakingas už panaudą ir galimas dienų, kada objektas paskolintas darbuotojui, skaičius.</span><span class="sxs-lookup"><span data-stu-id="dbbae-110">Each loan item record should describe what is being loaned, who is responsible for the loan, and the number of days the item can loaned to a worker.</span></span> <span data-ttu-id="dbbae-111">Vienu kartu galite sukurti keletą tokių objektų kaip raktai, įėjimo kortelės ar uniformos panaudos objektų.</span><span class="sxs-lookup"><span data-stu-id="dbbae-111">You can create multiple loan items, for items such as keys, access cards or uniforms, at the same time.</span></span> 
+<span data-ttu-id="84560-109">Kiekviena fizinė prekė turi turėti atitinkamą panaudos objektą.</span><span class="sxs-lookup"><span data-stu-id="84560-109">Each physical item must have a corresponding loan item.</span></span> <span data-ttu-id="84560-110">Kiekviename panaudos objekto įraše turi būti aprašyta, kas skolinama, kas atsakingas už panaudą ir galimas dienų, kada objektas paskolintas darbuotojui, skaičius.</span><span class="sxs-lookup"><span data-stu-id="84560-110">Each loan item record should describe what is being loaned, who is responsible for the loan, and the number of days the item can loaned to a worker.</span></span> <span data-ttu-id="84560-111">Vienu kartu galite sukurti keletą tokių objektų kaip raktai, įėjimo kortelės ar uniformos panaudos objektų.</span><span class="sxs-lookup"><span data-stu-id="84560-111">You can create multiple loan items, for items such as keys, access cards or uniforms, at the same time.</span></span> 
 
-<span data-ttu-id="dbbae-112">Skolindami objektą, įveskite skolinimo datą ir planuojamą grąžinimo datą.</span><span class="sxs-lookup"><span data-stu-id="dbbae-112">When loaning an item, enter the date that the item was loaned, and the planned return date.</span></span> <span data-ttu-id="dbbae-113">Kai objektas grąžinamas, įveskite faktinę grąžinimo datą.</span><span class="sxs-lookup"><span data-stu-id="dbbae-113">When the item is returned, enter the actual return date.</span></span>
+<span data-ttu-id="84560-112">Skolindami objektą, įveskite skolinimo datą ir planuojamą grąžinimo datą.</span><span class="sxs-lookup"><span data-stu-id="84560-112">When loaning an item, enter the date that the item was loaned, and the planned return date.</span></span> <span data-ttu-id="84560-113">Kai objektas grąžinamas, įveskite faktinę grąžinimo datą.</span><span class="sxs-lookup"><span data-stu-id="84560-113">When the item is returned, enter the actual return date.</span></span>
 
-<span data-ttu-id="dbbae-114">Darbuotojai peržiūrėti objektų, kurie jiems buvo paskolinti, įrašus gali naudodami darbo sritį Darbuotojų savitarna.</span><span class="sxs-lookup"><span data-stu-id="dbbae-114">Employees can view the records of the items that have been loaned to them using the Employee self-service workspace.</span></span> <span data-ttu-id="dbbae-115">Jei darbuotojai gavo papildomų faktinių objektų, jie taip pat gali redaguoti esamus įrašus arba įvesti naujų panaudos objektų.</span><span class="sxs-lookup"><span data-stu-id="dbbae-115">They can also edit the existing records or enter new loan items, if they've received additional physical items.</span></span>  <span data-ttu-id="dbbae-116">Galima nustatyti darbo eigą, kad, naudojant patvirtinimo procesą, pakeitimus būtų galima nukreipti į naujus arba esamus panaudos objektus.</span><span class="sxs-lookup"><span data-stu-id="dbbae-116">Workflow can be set up to route changes to new or existing loan items through an approval process.</span></span> 
+<span data-ttu-id="84560-114">Darbuotojai peržiūrėti objektų, kurie jiems buvo paskolinti, įrašus gali naudodami darbo sritį Darbuotojų savitarna.</span><span class="sxs-lookup"><span data-stu-id="84560-114">Employees can view the records of the items that have been loaned to them using the Employee self-service workspace.</span></span> <span data-ttu-id="84560-115">Jei darbuotojai gavo papildomų faktinių objektų, jie taip pat gali redaguoti esamus įrašus arba įvesti naujų panaudos objektų.</span><span class="sxs-lookup"><span data-stu-id="84560-115">They can also edit the existing records or enter new loan items, if they've received additional physical items.</span></span>  <span data-ttu-id="84560-116">Galima nustatyti darbo eigą, kad, naudojant patvirtinimo procesą, pakeitimus būtų galima nukreipti į naujus arba esamus panaudos objektus.</span><span class="sxs-lookup"><span data-stu-id="84560-116">Workflow can be set up to route changes to new or existing loan items through an approval process.</span></span> 
 
-<span data-ttu-id="dbbae-117">Vadovai gali peržiūrėti savo tiesioginių ataskaitų panaudos objektus.</span><span class="sxs-lookup"><span data-stu-id="dbbae-117">Managers can view loaned items for their direct reports.</span></span> <span data-ttu-id="dbbae-118">Jiems taip pat gali būti suteikta teisė darbuotojų vardu pridėti naujų panaudos objektų.</span><span class="sxs-lookup"><span data-stu-id="dbbae-118">They can also be granted permission to add new loan items on behalf of their employees.</span></span>
+<span data-ttu-id="84560-117">Vadovai gali peržiūrėti savo tiesioginių ataskaitų panaudos objektus.</span><span class="sxs-lookup"><span data-stu-id="84560-117">Managers can view loaned items for their direct reports.</span></span> <span data-ttu-id="84560-118">Jiems taip pat gali būti suteikta teisė darbuotojų vardu pridėti naujų panaudos objektų.</span><span class="sxs-lookup"><span data-stu-id="84560-118">They can also be granted permission to add new loan items on behalf of their employees.</span></span>
 
- <a name="account-for-lost-or-misplaced-loan-items"></a><span data-ttu-id="dbbae-119"> Pamestų arba negrąžintų panaudos objektų sąskaita</span><span class="sxs-lookup"><span data-stu-id="dbbae-119">Account for lost or misplaced loan items</span></span>
+ <a name="account-for-lost-or-misplaced-loan-items"></a><span data-ttu-id="84560-119"> Pamestų arba negrąžintų panaudos objektų sąskaita</span><span class="sxs-lookup"><span data-stu-id="84560-119">Account for lost or misplaced loan items</span></span>
 -----------------------------------------
 
-<span data-ttu-id="dbbae-120">Jei objektas sugadinamas arba negrąžinamas, įveskite fiktyvų grąžinimo įrašą.</span><span class="sxs-lookup"><span data-stu-id="dbbae-120">If an item becomes damaged or misplaced, enter a fictitious return record.</span></span> <span data-ttu-id="dbbae-121">Tada panaikinkite objektą arba saugokite peržiūroje ir pakeiskite aprašymą, kad matytumėte, jog objekto nėra.</span><span class="sxs-lookup"><span data-stu-id="dbbae-121">Then either delete the item or keep it in the overview and change the description to indicate that the item is not available.</span></span>
+<span data-ttu-id="84560-120">Jei objektas sugadinamas arba negrąžinamas, įveskite fiktyvų grąžinimo įrašą.</span><span class="sxs-lookup"><span data-stu-id="84560-120">If an item becomes damaged or misplaced, enter a fictitious return record.</span></span> <span data-ttu-id="84560-121">Tada panaikinkite objektą arba saugokite peržiūroje ir pakeiskite aprašymą, kad matytumėte, jog objekto nėra.</span><span class="sxs-lookup"><span data-stu-id="84560-121">Then either delete the item or keep it in the overview and change the description to indicate that the item is not available.</span></span>
 
 
-<a name="additional-resources"></a><span data-ttu-id="dbbae-122">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="dbbae-122">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="84560-122">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="84560-122">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="dbbae-123">Personalas</span><span class="sxs-lookup"><span data-stu-id="dbbae-123">Human resources</span></span>](index.md)
+[<span data-ttu-id="84560-123">Personalas</span><span class="sxs-lookup"><span data-stu-id="84560-123">Human resources</span></span>](index.md)
 
 
 

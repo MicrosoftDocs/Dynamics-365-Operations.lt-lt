@@ -2,11 +2,9 @@
 title: Filtrų taikymas planui
 description: Šioje temoje paaiškinama, kaip naudoti plano filtrus, kai naudojama „Planning Optimization“ funkcija.
 author: ChristianRytt
-manager: tfehr
 ms.date: 01/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,46 +16,46 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b5262cc5dc72ffcc50770cf5a2e2dda216d7ff8e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7b605f9826d2116f6f52a4b880f4fb5bd24cfdd0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212107"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813056"
 ---
-# <a name="apply-filters-to-a-plan"></a><span data-ttu-id="2f8e3-103">Filtrų taikymas planui</span><span class="sxs-lookup"><span data-stu-id="2f8e3-103">Apply filters to a plan</span></span>
+# <a name="apply-filters-to-a-plan"></a><span data-ttu-id="9df73-103">Filtrų taikymas planui</span><span class="sxs-lookup"><span data-stu-id="9df73-103">Apply filters to a plan</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="2f8e3-104">Kai naudojama „Planning Optimization“ funkcija, galite taikyti plano filtrą.</span><span class="sxs-lookup"><span data-stu-id="2f8e3-104">When the Planning Optimization functionality is used, you can apply a filter to a plan.</span></span> <span data-ttu-id="2f8e3-105">**Plano filtras** bus taikomas visuomet, kai vykdomas bendrasis planavimas.</span><span class="sxs-lookup"><span data-stu-id="2f8e3-105">The **Plan filter** will always be applied during a master planning run.</span></span> <span data-ttu-id="2f8e3-106">**Plano filtras** yra naudingas, kai norite apriboti planą tam tikrai prekių grupei, ir įsitikinti, kad nė viena kita prekė nebūtų įtraukta į gautą bendrąjį planavimą.</span><span class="sxs-lookup"><span data-stu-id="2f8e3-106">A **Plan filter** is useful when you want to limit a plan to a specific group of items and make sure that no other items are included as part of the resulting master planning.</span></span>
+<span data-ttu-id="9df73-104">Kai naudojama „Planning Optimization“ funkcija, galite taikyti plano filtrą.</span><span class="sxs-lookup"><span data-stu-id="9df73-104">When the Planning Optimization functionality is used, you can apply a filter to a plan.</span></span> <span data-ttu-id="9df73-105">**Plano filtras** bus taikomas visuomet, kai vykdomas bendrasis planavimas.</span><span class="sxs-lookup"><span data-stu-id="9df73-105">The **Plan filter** will always be applied during a master planning run.</span></span> <span data-ttu-id="9df73-106">**Plano filtras** yra naudingas, kai norite apriboti planą tam tikrai prekių grupei, ir įsitikinti, kad nė viena kita prekė nebūtų įtraukta į gautą bendrąjį planavimą.</span><span class="sxs-lookup"><span data-stu-id="9df73-106">A **Plan filter** is useful when you want to limit a plan to a specific group of items and make sure that no other items are included as part of the resulting master planning.</span></span>
 
-<span data-ttu-id="2f8e3-107">Jei taikomas **Plano filtras** ir apdorojimo filtras vykdant bendrąjį planavimą, į planavimo vykdymą įtraukiamas tik šių dviejų filtrų sutapimo taškas.</span><span class="sxs-lookup"><span data-stu-id="2f8e3-107">If a **Plan filter** is applied, and a runtime filter is also applied during the master planning run, only the intersection of the two filters is included in the planning run.</span></span>
+<span data-ttu-id="9df73-107">Jei taikomas **Plano filtras** ir apdorojimo filtras vykdant bendrąjį planavimą, į planavimo vykdymą įtraukiamas tik šių dviejų filtrų sutapimo taškas.</span><span class="sxs-lookup"><span data-stu-id="9df73-107">If a **Plan filter** is applied, and a runtime filter is also applied during the master planning run, only the intersection of the two filters is included in the planning run.</span></span>
 
-<span data-ttu-id="2f8e3-108">**Plano filtras** pasiekiamas pasirinkus **Bendrieji planai**, kai naudojamas planavimo optimizavimas.</span><span class="sxs-lookup"><span data-stu-id="2f8e3-108">The **Plan filter** can be accessed from **Master plans** when Planning Optimization is used.</span></span>
+<span data-ttu-id="9df73-108">**Plano filtras** pasiekiamas pasirinkus **Bendrieji planai**, kai naudojamas planavimo optimizavimas.</span><span class="sxs-lookup"><span data-stu-id="9df73-108">The **Plan filter** can be accessed from **Master plans** when Planning Optimization is used.</span></span>
 
-## <a name="example-scenario"></a><span data-ttu-id="2f8e3-109">Pavyzdinis scenarijus</span><span class="sxs-lookup"><span data-stu-id="2f8e3-109">Example scenario</span></span>
+## <a name="example-scenario"></a><span data-ttu-id="9df73-109">Pavyzdinis scenarijus</span><span class="sxs-lookup"><span data-stu-id="9df73-109">Example scenario</span></span>
 
-<span data-ttu-id="2f8e3-110">Plano filtras nustatytas taip, kad jį sudarytų A, B ir C prekės. Tada bendrojo planavimo vykdymai taikomi tam pačiam planui, bet taikomi skirtingi padorojimo filtrai:</span><span class="sxs-lookup"><span data-stu-id="2f8e3-110">A plan filter is set up that includes items A, B, and C. Master planning runs are then run for the same plan, but different runtime filters are applied:</span></span>
+<span data-ttu-id="9df73-110">Plano filtras nustatytas taip, kad jį sudarytų A, B ir C prekės. Tada bendrojo planavimo vykdymai taikomi tam pačiam planui, bet taikomi skirtingi padorojimo filtrai:</span><span class="sxs-lookup"><span data-stu-id="9df73-110">A plan filter is set up that includes items A, B, and C. Master planning runs are then run for the same plan, but different runtime filters are applied:</span></span>
 
-- <span data-ttu-id="2f8e3-111">**Apdorojimo filtras, kuriame yra D prekė:** nėra suplanuotų prekių, nes nėra sutapimo taško tarp plano filtro ir padorojimo filtro.</span><span class="sxs-lookup"><span data-stu-id="2f8e3-111">**Runtime filter that includes item D:** No items are planned, because there is no intersection between the plan filter and the runtime filter.</span></span>
-- <span data-ttu-id="2f8e3-112">**Apdorojimo filtras, kuriame yra A ir D prekės:** tik A prekė įtraukiama į planavimo vykdymą, nes D prekė nėra plano filtro dalis.</span><span class="sxs-lookup"><span data-stu-id="2f8e3-112">**Runtime filter that includes item A and D:** Only item A is included in the planning run, because item D isn't part of the plan filter.</span></span>
-- <span data-ttu-id="2f8e3-113">**Apdorojimo filtras, kuriame yra B prekė:** tik B prekė įtraukiama į planavimo vykdymą ir ankstesnė A prekės planavimo išvestis yra išsaugoma.</span><span class="sxs-lookup"><span data-stu-id="2f8e3-113">**Runtime filter that includes item B:** Only item B is included in the planning run, and the previous planning output for item A is kept.</span></span>
-- <span data-ttu-id="2f8e3-114">**Apdorojimo filtras, kuriame yra visos prekės (tuščias filtras):** A, B ir C yra įtraukiamos į planavimo vykdymą, o ankstesnio prekių A ir B planavimo išvestis perrašoma.</span><span class="sxs-lookup"><span data-stu-id="2f8e3-114">**Runtime filter that includes all items (blank filter):** Items A, B, and C are included in the planning run, and the previous planning output for items A and B is overwritten.</span></span>
+- <span data-ttu-id="9df73-111">**Apdorojimo filtras, kuriame yra D prekė:** nėra suplanuotų prekių, nes nėra sutapimo taško tarp plano filtro ir padorojimo filtro.</span><span class="sxs-lookup"><span data-stu-id="9df73-111">**Runtime filter that includes item D:** No items are planned, because there is no intersection between the plan filter and the runtime filter.</span></span>
+- <span data-ttu-id="9df73-112">**Apdorojimo filtras, kuriame yra A ir D prekės:** tik A prekė įtraukiama į planavimo vykdymą, nes D prekė nėra plano filtro dalis.</span><span class="sxs-lookup"><span data-stu-id="9df73-112">**Runtime filter that includes item A and D:** Only item A is included in the planning run, because item D isn't part of the plan filter.</span></span>
+- <span data-ttu-id="9df73-113">**Apdorojimo filtras, kuriame yra B prekė:** tik B prekė įtraukiama į planavimo vykdymą ir ankstesnė A prekės planavimo išvestis yra išsaugoma.</span><span class="sxs-lookup"><span data-stu-id="9df73-113">**Runtime filter that includes item B:** Only item B is included in the planning run, and the previous planning output for item A is kept.</span></span>
+- <span data-ttu-id="9df73-114">**Apdorojimo filtras, kuriame yra visos prekės (tuščias filtras):** A, B ir C yra įtraukiamos į planavimo vykdymą, o ankstesnio prekių A ir B planavimo išvestis perrašoma.</span><span class="sxs-lookup"><span data-stu-id="9df73-114">**Runtime filter that includes all items (blank filter):** Items A, B, and C are included in the planning run, and the previous planning output for items A and B is overwritten.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="2f8e3-115">Neturėtumėte nustatyti plano filtro plane, kuris yra pasirinktas kaip **Dabartinis dinaminis bendrasis planas** puslapyje **Bendrojo planavimo parametrai**.</span><span class="sxs-lookup"><span data-stu-id="2f8e3-115">You should avoid setting a plan filter on the plan that is selected as **Current dynamic master plan** on the **Master planning parameters** page.</span></span> <span data-ttu-id="2f8e3-116">Kitu atveju dinaminio bendrojo plano funkcija bus apribota filtruotomis prekėmis.</span><span class="sxs-lookup"><span data-stu-id="2f8e3-116">Otherwise, the dynamic master plan functionality will be limited to the filtered items.</span></span> <span data-ttu-id="2f8e3-117">Pavyzdžiui, jei atnaujinami prekės, kuris nėra plano filtro dalis, grynieji poreikiai, nebus sugeneruota jokių rezultatų.</span><span class="sxs-lookup"><span data-stu-id="2f8e3-117">For example, if the net requirements are updated for an item that isn't part of the plan filter, no result will be generated.</span></span>
+> <span data-ttu-id="9df73-115">Neturėtumėte nustatyti plano filtro plane, kuris yra pasirinktas kaip **Dabartinis dinaminis bendrasis planas** puslapyje **Bendrojo planavimo parametrai**.</span><span class="sxs-lookup"><span data-stu-id="9df73-115">You should avoid setting a plan filter on the plan that is selected as **Current dynamic master plan** on the **Master planning parameters** page.</span></span> <span data-ttu-id="9df73-116">Kitu atveju dinaminio bendrojo plano funkcija bus apribota filtruotomis prekėmis.</span><span class="sxs-lookup"><span data-stu-id="9df73-116">Otherwise, the dynamic master plan functionality will be limited to the filtered items.</span></span> <span data-ttu-id="9df73-117">Pavyzdžiui, jei atnaujinami prekės, kuris nėra plano filtro dalis, grynieji poreikiai, nebus sugeneruota jokių rezultatų.</span><span class="sxs-lookup"><span data-stu-id="9df73-117">For example, if the net requirements are updated for an item that isn't part of the plan filter, no result will be generated.</span></span>
 
-## <a name="related-resources"></a><span data-ttu-id="2f8e3-118">Susiję ištekliai</span><span class="sxs-lookup"><span data-stu-id="2f8e3-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="9df73-118">Susiję ištekliai</span><span class="sxs-lookup"><span data-stu-id="9df73-118">Related resources</span></span>
 
-[<span data-ttu-id="2f8e3-119">„Planning Optimization“ apžvalga</span><span class="sxs-lookup"><span data-stu-id="2f8e3-119">Planning Optimization overview</span></span>](planning-optimization-overview.md)
+[<span data-ttu-id="9df73-119">„Planning Optimization“ apžvalga</span><span class="sxs-lookup"><span data-stu-id="9df73-119">Planning Optimization overview</span></span>](planning-optimization-overview.md)
 
-[<span data-ttu-id="2f8e3-120">Darbo su „Planning Optimization“ pradžia</span><span class="sxs-lookup"><span data-stu-id="2f8e3-120">Get started with Planning Optimization</span></span>](get-started.md)
+[<span data-ttu-id="9df73-120">Darbo su „Planning Optimization“ pradžia</span><span class="sxs-lookup"><span data-stu-id="9df73-120">Get started with Planning Optimization</span></span>](get-started.md)
 
-[<span data-ttu-id="2f8e3-121">Planavimo optimizavimo tinkamumo analizė</span><span class="sxs-lookup"><span data-stu-id="2f8e3-121">Planning Optimization fit analysis</span></span>](planning-optimization-fit-analysis.md)
+[<span data-ttu-id="9df73-121">Planavimo optimizavimo tinkamumo analizė</span><span class="sxs-lookup"><span data-stu-id="9df73-121">Planning Optimization fit analysis</span></span>](planning-optimization-fit-analysis.md)
 
-[<span data-ttu-id="2f8e3-122">Plano retrospektyvos ir planavimo žurnalų peržiūra</span><span class="sxs-lookup"><span data-stu-id="2f8e3-122">View plan history and planning logs</span></span>](plan-history-logs.md)
+[<span data-ttu-id="9df73-122">Plano retrospektyvos ir planavimo žurnalų peržiūra</span><span class="sxs-lookup"><span data-stu-id="9df73-122">View plan history and planning logs</span></span>](plan-history-logs.md)
 
-[<span data-ttu-id="2f8e3-123">Planavimo užduoties atšaukimas</span><span class="sxs-lookup"><span data-stu-id="2f8e3-123">Cancel a planning job</span></span>](cancel-planning-job.md)
+[<span data-ttu-id="9df73-123">Planavimo užduoties atšaukimas</span><span class="sxs-lookup"><span data-stu-id="9df73-123">Cancel a planning job</span></span>](cancel-planning-job.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
