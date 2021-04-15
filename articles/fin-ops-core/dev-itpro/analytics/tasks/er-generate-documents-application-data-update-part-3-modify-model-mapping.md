@@ -2,7 +2,6 @@
 title: Modelio modifikavimas ir susiejimas siekiant generuoti dokumentus, kuriuose yra prašymų duomenys
 description: Šioje temoje aprašoma, kaip kurti elektroninių ataskaitų konfigūraciją, norint generuoti elektroninį dokumentą ir atnaujinti programos duomenis. (2 dalis – Dokumentų generavimas).
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64bcf885fe2f5fca6b91589171b5e539eff2c3e5
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 78b1771d0e01702162192ff20c03facbba4f3513
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567097"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751611"
 ---
 # <a name="modify-models-and-mappings-to-generate-documents-that-have-application-data"></a>Modelio modifikavimas ir susiejimas siekiant generuoti dokumentus, kuriuose yra prašymų duomenys
 

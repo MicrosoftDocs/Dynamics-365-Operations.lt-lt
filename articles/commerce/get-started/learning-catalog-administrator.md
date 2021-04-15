@@ -6,19 +6,18 @@ ms.topic: article
 ms.date: 07/23/2020
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: be3e54e412cf8fc4b19f0b6c72908e01ff32d18a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cab21f51f64039156fc74017ed9afd78534afffd
+ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5251458"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "5609244"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-administrators"></a>Mokymosi katalogas „Dynamics 365 Commerce“ administratoriams
 
@@ -30,16 +29,16 @@ Toliau pateiktas katalogas yra sutvarkytas taip, kad žinios būtų išdėstytos
 
 | Turinys  | aprašymas  | Formatuoti  | Ilgis    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
-| [Sužinokite apie „Microsoft Dynamics 365“ ir „Power Platform“ naudą verslui](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/)   | Ši mokymosi patirtis jus nusiųs į kelionę, kuri prasideda rodant jums, kaip skaitmeninė transformacija ir verslo programos galios gali pakeisti jūsų verslą. Mes aprašysime, kaip „Dynamics 365“ ir „Power Platform“ jums padeda priimti sprendimus turint informaciją pagal jūsų organizacijos tikslus ir poreikius, per keturių blokų skaitmeninę transformaciją - modernią, vientisą, protingą ir pritaikomą.| Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 6.5 valandos |
+| [Sužinokite apie „Microsoft Dynamics 365“ ir „Power Platform“ naudą verslui](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/)   | Ši mokymosi patirtis jus nusiųs į kelionę, kuri prasideda rodant jums, kaip skaitmeninė transformacija ir verslo programos galios gali pakeisti jūsų verslą. Mes aprašysime, kaip „Dynamics 365“ ir „Power Platform“ jums padeda priimti sprendimus turint informaciją pagal jūsų organizacijos tikslus ir poreikius, per keturių blokų skaitmeninę transformaciją - modernią, vientisą, protingą ir pritaikomą.| Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 6,5 valandos |
 | [Darbo su „Dynamics 365 Commerce“ pradžia](https://docs.microsoft.com/learn/paths/get-started-dynamics-365-commerce/)| „Dynamics 365 Commerce“, paremtas patikrintomis „Dynamics 365 Retail“ galimybėmis, pristato išsamų daugiakanalį sprendimą, vienijantį operacijų skyrių, parduotuvę, skambučių centrą ir skaitmeninę patirtį. „Dynamics 365 Commerce“ leidžia jums sukurti prekės ženklo lojalumą per personalizuotą kliento įtraukimą, padidinti pajamas su pagerintu darbuotojo produktyvumu, optimizuoti operacijas išlaidų sumažinimui ir vykdyti tiekimo grandinės efektyvumą, galiausiai gauti geresnius verslo rezultatus. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 2 valandos   |
 | [Darbo su „Dynamics 365 Fraud Protection“ pradžia](https://docs.microsoft.com/learn/modules/get-started-fraud-protection/)| „Dynamics 365 Fraud Protection“ yra debesimi pagrįstas sprendimas sukurtas el. prekybai, plytų ir skiedinio parduotuvėms ir vieno kanalo prekeiviams siekiant padėti apsaugoti jų pajamas ir reputaciją suteikiant įrankius ir galimybes mažinti apgaulę ir piktnaudžiavimą, sumažinti operacines išlaidas ir padidinti priimamus mokesčius, taip apsaugant naudotojų paskyras nuo apgaulės poveikio. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 35 minučių |
 
-## <a name="commerce"></a>Commerce<a name="commerce"></a>
+## <a name="commerce"></a>„Commerce”<a name="commerce"></a>
 
 | Turinys  | aprašymas  | Formatuoti  | Ilgis    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
-| [„Dynamics 365 Commerce“ diegimas ir išplėtimas](https://docs.microsoft.com/learn/paths/deploy-dynamics-365-commerce/) | Šis mokymosi kelias aprašo, kaip diegti „Dynamics 365 Commerce“ aplinkas ir vykdyti etapą po įgalinimo žingsnių sėkmingam prekybos įgyvendinimui naudojant tinkamą topologiją visų prekybininkų skirtingiems verslo poreikiams.   | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 5 valandos   |
-| [Konfigūruoti ir naudoti prekybos tašką (POS) „Dynamics 365 Commerce“](https://docs.microsoft.com/learn/paths/configure-use-pos-commerce/)         | Perlaidos duomenys sukuriame prekybos taške (POS) ir tuomet atnaujinamiį į „Dynamics 365 Commerce“ štabą apdorojimui. Mokymosi kelias aprašo, kaip diegti ir aktyvuoti POS, taip pat, kaip sukurti dienos perlaidas jame. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 4.5 valandos |
+| [„Dynamics 365 Commerce“ diegimas ir išplėtimas](https://docs.microsoft.com/learn/paths/deploy-dynamics-365-commerce/) | Šis mokymosi kelias aprašo, kaip diegti „Dynamics 365 Commerce“ aplinkas ir vykdyti etapą po įgalinimo žingsnių sėkmingam prekybos įgyvendinimui naudojant tinkamą topologiją visų prekybininkų skirtingiems verslo poreikiams. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 5 valandos   |
+| [Konfigūruoti ir naudoti prekybos tašką (EKA) „Dynamics 365 Commerce“](https://docs.microsoft.com/learn/paths/configure-use-pos-commerce/)         | Perlaidos duomenys sukuriame elektroniniame kasos aparate (EKA) ir tuomet atnaujinami į „Dynamics 365 Commerce“ štabą apdorojimui. Mokymosi kelias aprašo, kaip diegti ir aktyvuoti EKA, taip pat, kaip sukurti dienos perlaidas jame. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 4,5 valandos |
 | [Konfigūruokite ir dirbkite su skambučių centrais „Dynamics 365 Commerce“](https://docs.microsoft.com/learn/paths/configure-work-call-centers-commerce/) | „Dynamics 365 Commerce“ yra vieno kanalo sprendimas, suteikiantis skambučių centro kanalui galimybes nustatyti iš anksto specialius užsakymo apdorojimo parametrus ir duomenų nustatymus iš anksto į prekybos užsakymus, sukurtus skambučių centro naudotojų.                                  | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 2 valandos   |
 
 ## <a name="e-commerce"></a>El. prekyba<a name="e-commerce"></a>

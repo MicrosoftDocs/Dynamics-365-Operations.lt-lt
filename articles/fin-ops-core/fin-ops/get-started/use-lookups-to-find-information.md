@@ -1,8 +1,7 @@
 ---
 title: Informacijos ieška naudojant peržvalgas
-description: Daugelyje laukų yra peržvalgos, kurias naudodami galite lengvai surasti tinkamą ar norimą reikšmę. Į peržvalgas buvo įtrauktos kelios patobulintos funkcijos, todėl šiuos valdiklius bus galima dažniau naudoti, o vartotojai dirbs našiau. Šioje temoje aprašomos šios naujos peržvalgos funkcijos ir pateikiami keli naudingi patarimai apie optimalų peržvalgų naudojimą sistemoje.
+description: Šioje temoje aprašomos šios naujos peržvalgos funkcijos ir pateikiami keli naudingi patarimai apie optimalų peržvalgų naudojimą sistemoje.
 author: jasongre
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ae5f31c2cc46bf395acfbd053168e88aa69ebdc
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: adb8e1a0fef93fdd66a4cbac82689ff7a19aca4a
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566299"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754781"
 ---
 # <a name="find-information-by-using-lookups"></a>Informacijos ieška naudojant peržvalgas
 

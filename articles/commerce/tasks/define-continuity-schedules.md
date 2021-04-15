@@ -1,12 +1,10 @@
 ---
-title: " Nustatyti tęstinumo grafikus"
+title: Nustatyti tęstinumo grafikus
 description: Šioje temoje parodoma, kaip nustatyti tęstinumo programą (dar vadinamą pasikartojančiais užsakymais).
 author: josaw1
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MCRContinuitySchedule, EcoResProductDetailsExtended
 audience: Application User
@@ -16,14 +14,14 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f385d97ce8c458ada944609e165ebd0db500b546
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8414377ddec0e001f003f842866725eb58bd75a3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229941"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791612"
 ---
-# <a name="define-continuity-schedules"></a> Nustatyti tęstinumo grafikus
+# <a name="define-continuity-schedules"></a>Nustatyti tęstinumo grafikus
 
 [!include [banner](../includes/banner.md)]
 
@@ -35,7 +33,7 @@ ms.locfileid: "5229941"
 2. Spustelėkite Naujas.
 3. Lauke Grafiko ID įveskite tęstinumo grafiko ID.
 4. Lauke Užsakymo pradžia pasirinkite Pirmasis įvykis.
-    * Jei klientas pateikia naują užsakymą tęstinumo programai, yra dvi parinktys, kuris produktas bus siunčiamas: 1. Pirmas įvykis: bus siunčiamas pirmas tęstinumo programos produktas.  2. Dabartinis įvykis: bus siunčiamas pirmasis tęstinumo programos produktas. Pavyzdys:  praėjus trims mėnesiams nuo programos pradžios, klientas gaus trečiąjį programos produktą.  
+    * Jei klientas pateikia naują užsakymą tęstinumo programai, yra dvi parinktys, kuris produktas bus siunčiamas: 1. Pirmas įvykis: bus siunčiamas pirmas tęstinumo programos produktas.  2. Dabartinis įvykis: bus siunčiamas pirmasis tęstinumo programos produktas. Pavyzdys: praėjus trims mėnesiams nuo programos pradžios, klientas gaus trečiąjį programos produktą.  
 5. Pasirinkite Taip, norite paraginti nurodyti užsakymo pradžios datą.
 6. Spustelėkite Pridėti eilutę.
 7. Lauke Prekės numeris įveskite pirmojo produkto (0013) prekės numerį.
