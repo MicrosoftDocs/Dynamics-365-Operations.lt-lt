@@ -2,11 +2,9 @@
 title: Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“
 description: Šioje temoje nurodomos temos, kuriose aprašomos naujos ir pakeistos funkcijos kiekviename „Dynamics 365 Supply Chain Management“ leidime.
 author: kamaybac
-manager: tfehr
 ms.date: 12/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 686f37f4817b3ec33ab362926964cb527df602ad
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 805ff02a8de7948048f96eb37a5ec9a63f3dbc62
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259048"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821230"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“
 
@@ -33,6 +31,7 @@ Norėdami sužinoti, kas nauja ar pasikeitė kiekviename „Dynamics 365 Supply 
 
 | Versija | Versijos numeris | Automatinių naujinimų pasiekiamumas | Sužinokite daugiau |
 |---|---|---|---|
+| 10.0.17 | 10.0.761 | 2021 m. balandžio mėn. | [Kas naujo ar pasikeitusio „Dynamics 365 Supply Chain Management“ versijoje 10.0.17](whats-new-scm-10-0-17.md) |
 | 10.0.16 | 10.0.689 | 2021 m. vasario mėn. | [Kas naujo ar pasikeitusio „Dynamics 365 Supply Chain Management“ versijoje 10.0.16](whats-new-scm-10-0-16.md) |
 | 10.0.15 | 10.0.644 | Sausio 2021 d. | [Kas naujo ar pasikeitusio „Dynamics 365 Supply Chain Management“ versijoje 10.0.15](whats-new-scm-10-0-15.md) |
 | 10.0.14 | 10.0.605 | 2020 m. lapkričio mėn. | [Kas naujo ar pasikeitusio „Dynamics 365 Supply Chain Management“ versijoje 10.0.14](whats-new-scm-10-0-14.md) |

@@ -1,12 +1,10 @@
 ---
-title: " Nustatyti kanalo atributus"
+title: Nustatyti kanalo atributus
 description: Papildykite kanalą įtraukdami kanalo ir produkto atributus.
 author: jashanno
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailInternalOrganization, EcoResAttributeGroup, EcoResAttributeGroupAttribute, RetailAddChannelItems, RetailCatalogProductAttributeValue, RetailMedia
 audience: Application User
@@ -16,14 +14,14 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7f0c774c6fca47bf046fc4f73baac18319e0d125
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c7f70e20dfc2eb8608c5dfae027c87dc457eb842
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256930"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791588"
 ---
-# <a name="define-channel-attributes"></a> Nustatyti kanalo atributus
+# <a name="define-channel-attributes"></a>Nustatyti kanalo atributus
 
 [!include [banner](../includes/banner.md)]
 

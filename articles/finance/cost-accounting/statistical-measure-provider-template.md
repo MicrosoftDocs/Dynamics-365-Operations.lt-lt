@@ -2,11 +2,9 @@
 title: Tiekėjo šablonai statistinės dimensijos nariams ir matavimo tiekėjams
 description: Šioje temoje pateikiama informacijos apie statistinių dimensijų narius ir statistinių priemonių teikimo įrankių šablonus. Statistinių dimensijų narius galima naudoti kaip strategijų, pvz., išlaidų paskirstymo ir išlaidų priskyrimo, paskirstymo bazę. Juos taip pat galima naudoti nepiniginių išlaidų naudojimui pranešti.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1ceb274c05874438206c1b3f8fc279a6f39e2b69
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 330b7dfd3937d0d7c4a394b55972d75e876aea17
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208828"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833071"
 ---
 # <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>Tiekėjo šablonai statistinės dimensijos nariams ir matavimo tiekėjams
 
@@ -162,7 +160,7 @@ Apdorojus statistinės priemonės šaltinio duomenis, modulyje Kaštų apskaita 
 
 **Statistiniai įrašai**
 
-| Išlaidų objektas |    | Ataskaitinė data | Statistinės dimensijos narys |  aprašymas        | Reikšmė |
+| Išlaidų objektas |  Aprašas  | Apskaitos data | Statistinės dimensijos narys |  Aprašas        | Reikšmė |
 |-------------|----|-----------------|------------------------------|---------------------|-----------|
 | CC001       | Personalas | 2017-01-31      | Visu etatu dirbantys darbuotojai                         | Darbuotojai, dirbantys visą darbo dieną | 1,00      |
 | CC002       | FI | 2017-01-31      | Visu etatu dirbantys darbuotojai                         | Darbuotojai, dirbantys visą darbo dieną | 2,00      |
@@ -328,7 +326,7 @@ Norėdami nustatyti ryšį, eikite į **Didžioji kaštų apskaitos knyga** \> *
 
 **Statistiniai įrašai**
 
-| Išlaidų objektas |    | Ataskaitinė data | Statistinės dimensijos narys |      aprašymas                   | Reikšmė  |
+| Išlaidų objektas | Aprašas | Apskaitos data | Statistinės dimensijos narys |      Aprašas                   | Reikšmė  |
 |-------------|----|-----------------|------------------------------|-------------------------|------------|
 | CC001       | Personalas | 2017-01-31      | Elektros energija                  | Elektros energijos suvartojimas | 2,450.00   |
 | CC002       | FI | 2017-01-31      | Elektros energija                  | Elektros energijos suvartojimas | 4,100.00   |
@@ -336,11 +334,11 @@ Norėdami nustatyti ryšį, eikite į **Didžioji kaštų apskaitos knyga** \> *
 
 Jei kaštų paskirstymo taisyklėje kaip paskirstymo bazė priskiriamas iš anksto nustatytas elektros dimensijos nario paskirstymo pagrindas, kaštai bus paskirstomi naudojant tolesnį paskirstymo koeficientą.
 
-| Išlaidų objektas |    | Reikšmė | Paskirstymo koeficientas          |
-|-------------|----|-----------|----------------------------|
-| CC001       | Personalas | 2,450.00  | (2 450 ÷ 21 550) × suma  |
-| CC002       | FI | 4,100.00  | (4 100 ÷ 21 550) × suma  |
-| CC003       | AP | 15,000.00 | (15 000 ÷ 21 550) × suma |
+| Išlaidų objektas | Aprašas   | Reikšmė | Paskirstymo koeficientas          |
+|-------------|---------------|-----------|----------------------------|
+| CC001       | Personalas            | 2,450.00  | (2 450 ÷ 21 550) × suma  |
+| CC002       | FI            | 4,100.00  | (4 100 ÷ 21 550) × suma  |
+| CC003       | AP            | 15,000.00 | (15 000 ÷ 21 550) × suma |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

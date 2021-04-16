@@ -2,11 +2,9 @@
 title: Daugiakanalės papildomos automatinės išlaidos
 description: Šioje temoje aprašomos papildomos „Commerce“ kanalo užsakymų mokesčių tvarkymo galimybės naudojant pažangias automatinio apmokestinimo funkcijas.
 author: hhaines
-manager: annbe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: b7a309cc9e8901aa50e1d4ea3be6ee37d9fc5450
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3326f8740874083746c1566063ee7d265ee90faf
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244940"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804678"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Integruoto kanalo išplėstinės automatinės išlaidos
 
@@ -47,11 +45,11 @@ Puslapyje **„Retail and Commerce“ \> Būstinės sąranka \> Parametrai \> �
 
 ![Išplėstinių automatinių išlaidų parametras](media/advancedchargesparameter.png)
 
-Ijungus išplėstines automatines išlaidas, vartotojai neberaginami neautomatiškai įvesti siuntimo išlaidas EKA terminale kuriant tipo „siųsti viską“ arba „siųsti pasirinktus“ kliento užsakyme. EKA užsakymo išlaidos sistematiškai skaičiuojamos ir įtraukiamos į EKA operaciją (jei aptinkama atitinkama automatinių išlaidų lentelė, kuri atitinka kuriamos užsakymo kriterijus). Vartotojai taip pat gali įtraukti arba redaguoti antraštės arba eilutės lygio išlaidas neautomatiškai naudodami naujai sukurtas EKA operacijas, kurias galima įtraukti į EKA ekrano maketus.
+Įjungus išplėstines automatines išlaidas, vartotojai neberaginami neautomatiškai įvesti siuntimo išlaidas EKA terminale kuriant tipo „siųsti viską“ arba „siųsti pasirinktus“ kliento užsakyme. EKA užsakymo išlaidos sistematiškai skaičiuojamos ir įtraukiamos į EKA operaciją (jei aptinkama atitinkama automatinių išlaidų lentelė, kuri atitinka kuriamos užsakymo kriterijus). Vartotojai taip pat gali įtraukti arba redaguoti antraštės arba eilutės lygio išlaidas neautomatiškai naudodami naujai sukurtas EKA operacijas, kurias galima įtraukti į EKA ekrano maketus.
 
 Įgalinus išplėstines automatines išlaidas, esami **„Commerce“ parametrai**, skirti **Siuntimo išlaidų kodas** ir **Grąžinti siuntimo išlaidas**, nebenaudojami. Šie parametrai taikomi tik jei parametras **Naudoti išplėstines automatines išlaidas** nustatytas į parinktį **Ne**.
 
-Prieš įjungdami šią funkciją įsitikinkite, kad patikrinote ir apmokėte savo darbuotojus, nes funkcijos įjungimas pakeis verslo procesų srautą – siuntimo ar kitų išlaidų skaičiavimą ir įtraukimą į EKA pardavimo užsakymus. Įsitikinkite, kad supratate proceso srauto poveikį kuriant operacijas iš EKA. Kuriant skambučių centro ir „e-Commerce“ užsakymus, išplėstinių automatinių išlaidų įjungimo poveikis yra minimalus. Skambučių centro ir „e-Commerce“ programos ir toliau veiks kaip anksčiau – elgsena susijusi su automatinių išlaidų lentelėmis, skirtomis papildomiems užsakymo mokesčiams apskaičiuoti. Skambučių centro kanalo vartotojai ir toliau galės neautomatiškai redaguoti bet kurias sistemos apskaičuotas automatines išlaidas antraštės ar eilutės lygiu arba neautomatiškai įtraukti įvairių išlaidų antraštės ar eilutės lygiu.
+Prieš įjungdami šią funkciją įsitikinkite, kad patikrinote ir apmokėte savo darbuotojus, nes funkcijos įjungimas pakeis verslo procesų srautą – siuntimo ar kitų išlaidų skaičiavimą ir įtraukimą į EKA pardavimo užsakymus. Įsitikinkite, kad suprantate proceso srauto poveikį kuriant operacijas iš EKA. Kuriant skambučių centro ir „e-Commerce“ užsakymus, išplėstinių automatinių išlaidų įjungimo poveikis yra minimalus. Skambučių centro ir „e-Commerce“ programos ir toliau veiks kaip anksčiau – elgsena susijusi su automatinių išlaidų lentelėmis, skirtomis papildomiems užsakymo mokesčiams apskaičiuoti. Skambučių centro kanalo vartotojai ir toliau galės neautomatiškai redaguoti bet kurias sistemos apskaičiuotas automatines išlaidas antraštės ar eilutės lygiu arba neautomatiškai įtraukti įvairių išlaidų antraštės ar eilutės lygiu.
 
 ## <a name="additional-pos-operations"></a>Papildomos EKA operacijos
 

@@ -1,12 +1,10 @@
 ---
 title: Trikčių šalinimo kaštų valdymas
 description: Šioje temoje aprašoma, kaip ištaisyti bendras klaidas, su kuriomis susiduriate dirbdami su kaštų valdymu.
-author: riluan
-manager: tfehr
+author: AndersGirke
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails, InventValueProcess, InventValueReportSetup, InventClosing
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: riluan
+ms.author: aevengir
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: dceaca64132857d796a16c2450a372ba05712cf5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fc6a48a44a529c82c2a9ee818af95569d9bcb249
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262458"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834294"
 ---
 # <a name="troubleshoot-cost-management"></a>Trikčių šalinimo kaštų valdymas
 
@@ -37,7 +35,7 @@ ms.locfileid: "5262458"
 
 Tarpinės sumos gali sukelti problemas, kai rezultatas yra eksportuojamas, ypač jei naudotojai keičia įrašo seką.
 
-Norėdami patikrinti tarpines sumas, galite eksportuoti rezultatą į „Microsoft Excel“. Kitu atveju, jei norite patikrinti tarpines sumas „Supply Chain Management“, naudokite [Funkcijos valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tam, kad įjungtumėte *Naujo tinklelio valdiklį* ir *(Peržiūrą) Grupavimą į tinklelius* funkciją, kuri suteikia lankstesnį būdą matyti tarpines sumas bet kuriai kitai stulpelio grupei. Norėdami gauti daugiau informacijos, žr. [Tinklelio galimybės](../../fin-ops-core/fin-ops/get-started/grid-capabilities.md).
+Norėdami patikrinti tarpines sumas, galite eksportuoti rezultatą į „Microsoft Excel“. Kitu atveju, norėdami patikrinti tarpines sumas „Supply Chain Management“ naudokite [Funkcijos valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tam, kad įjungtumėte funkcijas *Naujo tinklelio valdiklis* ir *Grupavimas į tinklelius*, suteikiančias lankstesnį būdą matyti tarpines sumas bet kuriai kitai stulpelio grupei. Norėdami gauti daugiau informacijos, žr. [Tinklelio galimybės](../../fin-ops-core/fin-ops/get-started/grid-capabilities.md).
 
 ### <a name="inventory-value-storage-report-doesnt-support-ledger-account-information"></a>Inventoriaus vertės talpinimo ataskaita nepalaiko buhalterinės sąskaitos informacijos
 

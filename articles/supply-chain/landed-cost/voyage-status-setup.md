@@ -2,7 +2,6 @@
 title: Reiso būsenos nustatymas
 description: Šioje temoje aprašoma, kaip nustatyti būsenos reikšmes, kurias vartotojai gali priskirti reisams.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: b7180cc9ab2d13f2260635d717adb7aab2177ab9
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 80433c17ed9d790d88b20ecc253c8e4459ffea10
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500891"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829793"
 ---
 # <a name="voyage-status-setup"></a>Reiso būsenos nustatymas
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Puslapyje **Reiso būsenos** jūs nustatote būsenos reikšmių, kurias vartotojai gali priskirti reisams, rinkinį. Vartotojai gali priskirti reiso būsenos reikšmes visiems reiso lygiams: reisui, gabenimo konteineriui, registracijai, pirkimo užsakymui ir prekei (pirkimo eilutėms ir perkėlimo užsakymo eilutėms). Jos yra naudojamos dviem tikslais:
 

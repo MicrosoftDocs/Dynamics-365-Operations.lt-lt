@@ -2,11 +2,9 @@
 title: Automatinis išlaidų paskirstymas
 description: „Microsoft Dynamics 365 Supply Chain Management” išlaidų funkcija padeda automatiškai paskirstyti išlaidas pirkimo arba pardavimo užsakymuose.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: eddcf275c14565dfe77fbe7efa676be4a34da686
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a167e6ba4a3b4161e964e5018944af0901000b01
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244164"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841484"
 ---
 # <a name="automatic-allocation-of-charges"></a>Automatinis išlaidų paskirstymas
 
@@ -126,7 +124,7 @@ Nustatę jūsų išlaidų kodus, atlikite toliau pateiktus veiksmus, norėdami n
     - *Visi* – priskirti išlaidas visiems pristatymo būdams.
 
 1. **Tik dirbant su pardavimo užsakymais:** lauke **Pristatymo būdo ryšys** pasirinkite konkretų pristatymo būdą, jei nustatėte lauką **Pristatymo būdo kodas** į *Lentelė*. Jei nustatėte lauką **Pristatymo būdo kodas** į *Grupė*, pasirinkite pristatymo būdų grupę.
-1. „FastTab“ **Eilutės** nustatykite išlaidas ir išlaidų tarifus, kurie bus naudojami, kai bus taikomos dabartinės automatinės išlaidos. Galite naudoti šiame „FastTab” eančią įrankių juostą, kad įtrauktumėte tiek eilučių, kiek jums reikia. Nustatykite toliau pateiktus laukus kiekvienoje eilutėje.
+1. „FastTab“ **Eilutės** nustatykite išlaidas ir išlaidų tarifus, kurie bus naudojami, kai bus taikomos dabartinės automatinės išlaidos. Galite naudoti šiame „FastTab” esančią įrankių juostą, kad įtrauktumėte tiek eilučių, kiek jums reikia. Nustatykite toliau pateiktus laukus kiekvienoje eilutėje.
 
     - **Valiuta** – pasirinkite valiutą, kuri turėtų būti naudojama apskaičiuojant išlaidas.
     - **Išlaidų kodas** – pasirinkite išlaidų kodą.

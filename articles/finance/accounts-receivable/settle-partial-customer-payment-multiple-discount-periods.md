@@ -2,11 +2,9 @@
 title: Dalinio kliento mokėjimo, turinčio kelis nuolaidos laikotarpius, sudengimas
 description: Šiame straipsnyje parodoma, kaip sudengiami daliniai kliento mokėjimai, kai yra keli nuolaidos laikotarpiai.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c5047debd0f3d035ec5fc8bc24745183b28e9f0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1a15f952671152ac9e8b88e7394ec41220f964c0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241719"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835105"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Dalinio kliento mokėjimo, turinčio kelis nuolaidos laikotarpius, sudengimas
 
@@ -56,7 +54,7 @@ Birželio 28 d. 4031 klientas atliko 294,00 dalinį mokėjimą. Kadangi birželi
 
 Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas** apačioje. Jei lauko **Sudengtina suma** reikšmės nepakeisite į **294,00**, rodomos lauko **Mokėjimo nuolaidos suma** reikšmės skirsis. Tačiau užregistravus mokėjimą bus taikoma 6,00 mokėjimo nuolaida, nes sudengimo funkcija automatiškai koreguoja lauko **Sudengtina suma** reikšmę.
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | Mokėjimo nuolaidos data           | 2015-06-30 |
 | Mokėjimo nuolaidos suma         | 20,00     |
@@ -75,7 +73,7 @@ Liepos 8 d. klientas sumoka likusią SF sumą. Pritaikoma 7,00 nuolaida (1 proce
 
 Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas** apačioje.
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | Mokėjimo nuolaidos data           | 2015-07-09 |
 | Mokėjimo nuolaidos suma         | 30,00     |

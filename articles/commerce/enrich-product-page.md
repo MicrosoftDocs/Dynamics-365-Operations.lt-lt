@@ -2,11 +2,9 @@
 title: Papildyti produkto puslapį
 description: Šioje temoje aprašoma, kaip „Microsoft Dynamics 365 Commerce“ papildyti produkto puslapį.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1d7899ac79805abeb55323bd21f83b3af38e09b4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f6c1a9474ed514426386b1d7b4a72b62129cdb8a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238683"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799054"
 ---
 # <a name="enrich-a-product-page"></a>Papildyti produkto puslapį
-
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip „Microsoft Dynamics 365 Commerce“ papildyti produkto puslapį.
-
-## <a name="overview"></a>Peržiūra
 
 Pagal numatytuosius parametrus, jūsų svetainė naudoja bendrąjį puslapį, kad būtų rodomi produkto duomenys. Šiame puslapyje yra pagrindinė informacija apie produktą ir valdiklius, kurie reikalingi tą produktą parduoti. Tačiau galite papildyti informaciją, kuri gaunama iš „Commerce Scale Unit“, papildomais konkretaus produkto paveikslėliais arba tekstu. Šis procesas žinomas kaip produkto puslapio papildymas.
 
@@ -73,7 +68,7 @@ Norėdami papildyti produkto puslapį, atlikite šiuos veiksmus.
 
 [Patikrinti puslapio turinio pritaikymą neįgaliesiems](verify-accessibility.md)
 
-[Sukurti dinaminius e-komercijos puslapius pagal URL parameterus](create-dynamic-pages.md)
+[Sukurti dinaminius e-komercijos puslapius pagal URL parametrus](create-dynamic-pages.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

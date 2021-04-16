@@ -2,7 +2,6 @@
 title: Reisų valdymas
 description: Ši tema aprašo, kaip dirbti su reisais. Reisas paprastai nurodo laivą. Tačiau, atsižvelgiant į jūsų praktiką ir procedūras, jis gali nurodyti tiekėją, pirkimo užsakymą arba kitą jūsų organizacijai tinkamą prekę.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 850fbb2077a592ec4ba8578cab4795d573464f54
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 0b1414efbdde77af5d7fa15ff066e4ddcfd6bad2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501011"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833790"
 ---
 # <a name="manage-voyages"></a>Reisų valdymas
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Reisas paprastai nurodo laivą. Tačiau, atsižvelgiant į jūsų praktiką ir procedūras, jis gali nurodyti tiekėją, pirkimo užsakymą arba kitą jūsų organizacijai tinkamą prekę.
 
@@ -74,9 +72,9 @@ Toliau pateikta lentelė aprašo veiksmus, pasiekiamus veiksmų srities skirtuke
 | Registruoti SF | Registruokite visų reiso pirkimo užsakymo eilučių SF. Jei reiso prekės bus apdorotos tranzito prekių apdorojimo būdu, pirkimo užsakymo eilučių SF bus išrašytos prieš pasibaigiant gavimo procesui. Kai išrašoma pradinio pirkimo užsakymo SF, bus sukurti tranzito prekių užsakymai, susieti su pradinio pirkimo užsakymo eilutėmis. Tada šiuos užsakymus gali priimti sandėlis. Jei vykdomos kelių įmonių siuntos, kiekvienai įmonei atidaromas naujas SF registravimo dialogo langas. |
 | Siuntimo perkėlimo užsakymas | Registruokite visų reiso perkėlimo užsakymo eilučių perkėlimo užsakymo reisus. Pasirinkus šį mygtuką, bus galima atnaujinti tik perkėlimo užsakymus. |
 | Gauti perkėlimo užsakymą | Registruokite visų reiso perkėlimo užsakymo eilučių perkėlimo užsakymo gavimo kvitus. |
-| Gauti tranzito prekes | Gaukite visas užsakymo eilutes, kurios vykdomos reiso tranzito metu. Šis mygtukas yra viena iš trijų parinkčių, kurias galima naudoti reiso metu gaunant tranzito prekes. (Kitos dvi parinktys yra mygtukas **Kurti gavimo žurnalą**, kuris aprašytas toliau šioje lentelėje, ir sandėlio programa.) Ši parinktis yra paprasčiausia ir ją naudojant tranzito prekės bus apdorojamos iš tranzito sandėlio į galutinį paskirties sandėlį. Norėdami labiau kontroliuoti procesą, naudokite gavimo žurnalą arba mobilųjį įrenginį, kad galėtumėte apdoroti prekių gavimą. |
+| Gauti tranzito prekes | Gaukite visas užsakymo eilutes, kurios vykdomos reiso tranzito metu. Šis mygtukas yra viena iš trijų parinkčių, kurias galima naudoti reiso metu gaunant tranzito prekes. (Kitos dvi parinktys yra mygtukas **Kurti gavimo žurnalą**, kuris aprašytas toliau šioje lentelėje, ir sandėlio valdymo mobiliųjų įrenginių programėlė) Ši parinktis yra paprasčiausia ir ją naudojant tranzito prekės bus apdorojamos iš tranzito prekių sandėlio į galutinės paskirties sandėlį. Norėdami labiau kontroliuoti procesą, naudokite gavimo žurnalą arba mobilųjį įrenginį, kad galėtumėte apdoroti prekių gavimą. |
 | Rasti aut. išlaidas | Raskite visas susijusias reiso išlaidas. Jei šios išlaidos jau buvo surastos arba atnaujintos, gausite šį pranešimą: „Yra išlaidų eilučių, kurių SF neišrašytos. Ar norite perrašyti?” Bus rastos visos išlaidos, kurios sukūrimo metu nebuvo susietos su reisu. Reiso išlaidos, kurios pridėtos prie reiso ir kurių SF išrašytos, nebus perrašytos. |
-| Kurti pristatymo žurnalą | <p>Atidarykite dialogo langą **Kurti gavimo žurnalą**, kuriame galima kurti vietą nurodantį gavimo žurnalą. Šiame dialogo lange pateikiamos toliau nurodytos parinktys.</p><ul><li>**Kurti iš tranzito prekių** arba **Kurti iš perkėlimo užsakymo** – šios parinkties žyma keičiasi atsižvelgiant į tai, ar naudojate tranzito prekių procesą. Nustatykite į *Taip*, norėdami atidaryti gavimo žurnalo puslapį, leidžiantį apdoroti standartinį tranzito prekių, susijusių su reisu, gavimo žurnalą. Jei prekė jau gauta galutiniame paskirties sandėlyje, ji nebus įtraukta į gavimo žurnalo eilutes.</li><li>**Inicijuoti kiekį** – nustatykite šią parinktį į *Taip*, jei norite inicijuoti kiekį, kuris bus gautas, remdamiesi prekių kiekiu, nurodytu reiso eilutėje. Jei reiso eilutė iš dalies gauta, šis kiekis bus likęs kiekis. Rekomenduojame šią pasirinktį nustatyti į *Taip*.</li><li>**Kurti iš užsakymo eilučių** – nustatykite šią pasirinktį į *Taip*, kad būtų galima naudoti vertę iš užsakymo eilučių.</li></ul><p>Šis mygtukas yra viena iš trijų parinkčių, kurias galima naudoti reiso metu gaunant prekes. (Kitos parinktys yra mygtukas **Gauti tranzito prekes**, kuris buvo aprašytas anksčiau šioje lentelėje, ir sandėlio programa.)</p> |
+| Kurti pristatymo žurnalą | <p>Atidarykite dialogo langą **Kurti gavimo žurnalą**, kuriame galima kurti vietą nurodantį gavimo žurnalą. Šiame dialogo lange pateikiamos toliau nurodytos parinktys.</p><ul><li>**Kurti iš tranzito prekių** arba **Kurti iš perkėlimo užsakymo** – šios parinkties žyma keičiasi atsižvelgiant į tai, ar naudojate tranzito prekių procesą. Nustatykite į *Taip*, norėdami atidaryti gavimo žurnalo puslapį, leidžiantį apdoroti standartinį tranzito prekių, susijusių su reisu, gavimo žurnalą. Jei prekė jau gauta galutiniame paskirties sandėlyje, ji nebus įtraukta į gavimo žurnalo eilutes.</li><li>**Inicijuoti kiekį** – nustatykite šią parinktį į *Taip*, jei norite inicijuoti kiekį, kuris bus gautas, remdamiesi prekių kiekiu, nurodytu reiso eilutėje. Jei reiso eilutė iš dalies gauta, šis kiekis bus likęs kiekis. Rekomenduojame šią pasirinktį nustatyti į *Taip*.</li><li>**Kurti iš užsakymo eilučių** – nustatykite šią pasirinktį į *Taip*, kad būtų galima naudoti vertę iš užsakymo eilučių.</li></ul><p>Šis mygtukas yra viena iš trijų parinkčių, kurias galima naudoti reiso metu gaunant prekes. (Kitos parinktys yra mygtukas **Gauti tranzito prekes**, kuris buvo aprašytas anksčiau šioje lentelėje, ir sandėlio valdymo mobiliųjų įrenginių programėlė.)</p> |
 | Kaupti išlaidas | Galite kaupti išlaidas, kai nurodyta išlaidų tipo debeto didžiosios knygos sąskaita. Šis mygtukas paprastai naudojamas, kai atsargos gabenamos tranzitu arba kai prekės yra gautos ir išrašytos jų SF. |
 | Sujungti išlaidas | Perkelkite išlaidas iš gabenimo konteinerio lygio į reiso lygį. Galite naudoti šį mygtuką bendrai naudojamų paslaugų / siuntimo atveju, kai keli objektai dalijasi vieta gabenimo konteineryje arba dėžėje. Pavyzdžiui, reiso metu naudojamas 40 kv. pėdų gabenimo konteineris ir 20 kv. pėdų gabenimo konteineris, o paskirstymas vykdomas pagal tūrį. Tokiu atveju už prekių / objektų, kurie dalijasi vieta 20 kv. pėdų gabenimo konteineryje, gabenimą gali būti baudžiama. Siekdamos sąžiningai paskirstyti išlaidas, kai kurios organizacijos gali norėti perkelti išlaidas į reisą ir paskirstyti jas pagal reiso lygio paskirstymo būdą. |
 | Keisti kelionės šabloną | Atidarykite dialogo langą, kuriame galite pakeisti veiklos ciklo šabloną. Pakeitus šabloną, reiso išlaidos bus panaikintos. Todėl gali tekti pasirinkti **Rasti aut. išlaidas** (žr. aprašymą anksčiau šioje lentelėje) arba dar kartą įtraukti išlaidas rankiniu būdu. |

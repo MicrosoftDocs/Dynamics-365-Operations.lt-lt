@@ -2,11 +2,9 @@
 title: Darbas su vietos nurodymais
 description: Ši tema aprašo, kaip dirbti su vietos nurodymais. Vietos nurodymai yra vartotojui draugiškos taisyklės padedančios identifikuoti paėmimo ir padėjimo vietas inventoriaus judėjime.
 author: Mirzaab
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocDirTable, WHSLocDirHint, WHSLocDirTableUOM, WHSLocDirFailure
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84821fe4e7c5054b2121dbd7f9e536c80080b978
-ms.sourcegitcommit: 1f23adbc6c7e6f9ffe8c48c10659b9fae2155aeb
+ms.openlocfilehash: 91482bb24356a14a8d44e887620548cdf6f4c5d3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470524"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838399"
 ---
 # <a name="work-with-location-directives"></a>Darbas su vietos nurodymais
 
@@ -152,7 +150,7 @@ Laukeliai **Vietos direktyvų** „FastTab“ yra konkretūs siekiant dirbti su 
     > [!IMPORTANT]
     > Norėdami galėti atlikti kelių prekių padėjimą ir vieno SKU padėjimą, turite nurodyti dvi eilutes su ta pačia struktūra ir nustatymais, tačiau turite nustatyti **Kelių SKU** parinktį į *Taip* vienai eilutei ir *Ne* kitai. Dėl to, vietos veiksmams turite du identiškas vietos direktyvas, net jei neturite atskirti atskirų SKU ir kelių SKU darbo ID. Dažnai, jei nenusatote abiejų šių vietos direktyvų, netikėtas verslo proceso vietos bus taikomos vietos direktyvai. Privalote naudoti panašius nustatymus vietos direktyvoms, kurios turi **Darbo tipą** esantį *paėmimo* jei neturite tvarkyti užsakymų su keliais SKU.
 
-    Naudokite **Kelių SKU** parinktį darbo eilutės, kurios tvarko daugiau nei vieną prekės numerį. (Prekės numeris bus tuščias darbo išsamioje informacijoje ir bus rodomas kaip **Keli** tvarkymo puslapiuose sandėlio programoje.)
+    Naudokite **Kelių SKU** parinktį darbo eilutės, kurios tvarko daugiau nei vieną prekės numerį. (Prekės numeris bus tuščias darbo išsamioje informacijoje ir bus rodomas kaip **Keli** tvarkymo puslapiuose sandėlio valdymo mobiliųjų įrenginių programėlėje.)
 
     Dažniausiuo pavyzdžio scenarijuje, darbo šablonas nustatytas taip, kad turėtų daugiau nei vieną paėmimo ar padėjimo porą. Tokiu atveju, jums gali reikėti ieškoti konkrečių platformos vietos norint naudoti eilutes su **Darbo tipu** iš *Padėjimo*.
 
@@ -171,7 +169,7 @@ Laukeliai **Vietos direktyvų** „FastTab“ yra konkretūs siekiant dirbti su 
     > [!NOTE]
     > Šis laukelis prieinamas tik pasirinktiems darbo užsakymo tipams, kai papildymas leidžiamas. Dėl viso sąrašo, žr. [Laukeliai, kurie yra konkretūs darbo užsakymo tipams](#fields-specific-types) skyriuje.
 
-- **Patalpinimo kodas** – Šis laukelis naudojamas vietos nurodymams, kurie turi darbo užsakymo tipą *Pirkimo užsakymai*, *Baigtų prekių atidėjimas* ar *Grąžinimo užsakymai* ir darbo tipą, kuris yra *Padėjimas*. Naudokite jį, kad nukreiptumėte eigą ir ji naudotų konkretų vietos nukreipimą priklausomai nuo talpinimo kodo, kurį darbuotojas pasirinko sandėlio programoje. Pavyzdžiui, galite nukreipti grąžintas prekes į apžiūros vietą prieš tai, kai jos grąžinamos į turimas. Talpinimo kodas gali būti susietas su inventoriaus būsena. Tokiu būdu, jis gali būti naudojamas siekiant pakeisti inventoriaus būseną kaip gavimo proceso dalis. Pavyzdžiui, turite talpinimo kodą, *QA*, kuris nustato inventoriaus būseną į *QA*. Galite tada turėti atskirą vietos nukreipimą tam, kad perkeltumėte inventorių į karantino vietą.
+- **Patalpinimo kodas** – Šis laukelis naudojamas vietos nurodymams, kurie turi darbo užsakymo tipą *Pirkimo užsakymai*, *Baigtų prekių atidėjimas* ar *Grąžinimo užsakymai* ir darbo tipą, kuris yra *Padėjimas*. Naudokite jį eigos nukreipimui, kad ji naudotų konkretų vietos nurodymą, priklausomai nuo talpinimo kodo, kurį darbuotojas pasirinko sandėlio valdymo mobiliųjų įrenginių programėlėje. Pavyzdžiui, galite nukreipti grąžintas prekes į apžiūros vietą prieš tai, kai jos grąžinamos į turimas. Talpinimo kodas gali būti susietas su inventoriaus būsena. Tokiu būdu, jis gali būti naudojamas siekiant pakeisti inventoriaus būseną kaip gavimo proceso dalis. Pavyzdžiui, turite talpinimo kodą, *QA*, kuris nustato inventoriaus būseną į *QA*. Galite tada turėti atskirą vietos nukreipimą tam, kad perkeltumėte inventorių į karantino vietą.
 
     > [!NOTE]
     > Šis laukelis prieinamas tik pasirinktiems darbo užsakymo tipams, kai papildymas leidžiamas. Dėl viso sąrašo, žr. [Laukeliai, kurie yra konkretūs darbo užsakymo tipams](#fields-specific-types) skyriuje.

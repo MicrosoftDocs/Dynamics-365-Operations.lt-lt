@@ -2,11 +2,9 @@
 title: Kas nauja arba pasikeitė „Dynamics 365 Supply Chain Management” 10.0.9 versijoje (2020 m. balandžio mėn.)?
 description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.9 versijos funkcijos.
 author: kamaybac
-manager: tfehr
 ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3cd0e10a7dbdba446341fa2e0ee0dfbf1ed8b42f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f50636eaf633820e5cf746e2c5ee818cf670616b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226128"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813152"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Kas nauja arba pasikeitė „Dynamics 365 Supply Chain Management” 10.0.9 versijoje (2020 m. balandžio mėn.)?
 
@@ -30,7 +28,7 @@ ms.locfileid: "5226128"
 Šioje temoje pateikiamos naujos ir pakeistos „Microsoft Dynamics 365 Supply Chain Management“ apžvalgos 10.0.9 versijos funkcijos. Šios versijos komponavimo numeris yra 10.0.383 ir jis pasiekiamas tokius būdu:
 
 - **Peržiūros leidimas:** 2020 m. vasaris
-- **Bendras pasiekiamumas (automatinis naujinimas):** 2020 kovo mėn
+- **Bendras pasiekiamumas (automatinis naujinimas):** 2020 kovo mėn.
 - **Automatinis atnaujinimas:** 2020 m. balandis
 
 ## <a name="features-included-in-this-release"></a>Funkcijos, įtrauktos į šį leidimą
@@ -57,7 +55,7 @@ Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinima
 
 - [Kintamas sandėlio lygio dimensijos rezervavimas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/flexible-warehouse-level-dimension-reservation)<br> - Dėl platesnės informacijos, žr. [Lanksti sandėlio dimensijų rezervavimo strategija](../warehousing/flexible-warehouse-level-dimension-reservation.md).
 
-- [Pagerintas užduoties kortelės prietaisas](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/improved-job-card-device)<br> - Dėl platesnės informacijos, žr. [Ataskaitos profresas mobiliajame užduoties prietaise](../production-control/tasks/report-progress-mobile-job-device.md) ir [Skelbimas baigtu iš užduoties kortelės įrenginio](../production-control/report-finished-job-device.md).
+- [Pagerintas užduoties kortelės prietaisas](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/improved-job-card-device)<br> - Dėl platesnės informacijos, žr. [Ataskaitos procesas mobiliajame užduoties įrenginyje](../production-control/tasks/report-progress-mobile-job-device.md) ir [Skelbimas baigtu iš užduoties kortelės įrenginio](../production-control/report-finished-job-device.md).
 
 - [aunamas kokybės patikrinimas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inbound-quality-check)
 
@@ -101,7 +99,7 @@ Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinima
 
 ### <a name="platform-update-33"></a>Platformos „update 33“
 
-Į „Microsoft Dynamics 365 Supply Chain Management“ 10.0.9 versiją įtrauktas platformos 33 naujinimas. Norėdami sužinoti daugiau, žr [Peržiūros funkcijos platformos 33 naujinime](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-33.md).
+Į „Microsoft Dynamics 365 Supply Chain Management“ 10.0.9 versiją įtrauktas platformos 33 naujinimas. Norėdami sužinoti daugiau, žr. [Peržiūros funkcijos platformos 33 naujinime](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-33.md).
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
 
@@ -122,7 +120,7 @@ Temoje [Pašalintos arba pasenusios funkcijos „Dynamics 365 Supply Chain Manag
 
 Prieš pašalinant iš produkto bet kokią funkciją, pranešimas apie nebenaudojimą bus paskelbtas [Pašalintos arba pasenusios funkcijos „Dynamics 365 Supply Chain Management“](removed-deprecated-features-scm-updates.md) temoje 12 mėnesių prieš pašalinimą.
 
-Atlikus keitimus, kurie paveikia tik kompiliavimo laiką, bet yra dvejatainiškai suderinami su smėlio dėžės ir gamybos aplinka, nebenaudojimo laikas bus trumpesnis nei 12 mėnesių. Paprastai, tai yra funkciniai naujinimai, kuriuos reikia atlikti kompiliatoriui.
+Atlikus keitimus, kurie paveikia tik kompiliavimo laiką, bet yra dvejetainiškai suderinami su smėlio dėžės ir gamybos aplinka, nebenaudojimo laikas bus trumpesnis nei 12 mėnesių. Paprastai, tai yra funkciniai naujinimai, kuriuos reikia atlikti kompiliatoriui.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

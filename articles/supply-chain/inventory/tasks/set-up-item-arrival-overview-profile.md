@@ -2,11 +2,9 @@
 title: Gaunamų prekių apžvalgos profilio nustatymas
 description: Šioje temoje aprašyta gaunamų prekių apžvalgos profilio sąranka.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/30/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSArrivalOverviewProfile
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 49670e4287faf3e50a824a5cbedd83ea7dbb8152
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b0394d1b4288dac0ff913b125017571a8c0bc95a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244356"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829841"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Gaunamų prekių apžvalgos profilio nustatymas
 
@@ -44,7 +42,7 @@ ms.locfileid: "5244356"
 8. Lauke **Sandėliai** įveskite reikšmę. Filtruokite vieną ar daugiau sandėlių.  
 9. Lauke **Pristatymo būdas** pasirinkite reikšmę. Nustato filtrą, kad būtų rodomos tik šio pristatymo būdo gaunamų prekių eilutės.  
 10. Lauke **Pavadinimas** pasirinkite WHS.
-11. Lauke **Sandėlys** pasirinkite 24 sandėlį. Tai numatytasis sandėlis, kuris bus naudojamas registruotoms šio profilio gaunamų prekių eilutėms.  
+11. Lauke **Sandėlis** pasirinkite 24 sandėlį. Tai numatytasis sandėlis, kuris bus naudojamas registruotoms šio profilio gaunamų prekių eilutėms.  
 12. Lauke **Vieta** pasirinkite **Galinės durys**. Tai numatytoji vieta, kuri bus naudojama registruotoms šio profilio gaunamų prekių eilutėms.  
 13. Išplėskite arba sutraukite skyrių **Gavimo užklausos informacija**.
 14. Lauke **Apriboti į vietą** pasirinkite 2 vietą. Nustato filtrą, kad būtų rodomos tik šios teritorijos gaunamų prekių eilutės.  

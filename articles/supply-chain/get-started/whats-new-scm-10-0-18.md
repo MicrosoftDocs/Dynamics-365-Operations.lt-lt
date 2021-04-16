@@ -2,7 +2,6 @@
 title: „Dynamics 365 Supply Chain Management” peržiūros versija 10.0.18 (2021 m. gegužės mėnesis)
 description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.18 versijos funkcijos.
 author: kamaybac
-manager: annbe
 ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0a75cd0b02c48421edebac0b83576095bea65bb6
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: dc53d2c40414993e43ac90ce4f878c7d1c425eb2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571793"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832135"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10018-may-2021"></a>„Dynamics 365 Supply Chain Management” peržiūros versija 10.0.18 (2021 m. gegužės mėnesis)
 
@@ -36,17 +35,17 @@ ms.locfileid: "5571793"
 
 ## <a name="features-included-in-this-release"></a>Funkcijos, įtrauktos į šį leidimą
 
-Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Kai kurios išvardytos funkcijos vis dar yra peržiūros versijos, o kitos funkcijos jau gali būti prieinamos bendrai. Norėdami peržiūrėti kiekvienos funkcijos oficialią leidimo datą, vadovaukitės saitais su [leidimų planu](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features).
+Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Norėdami peržiūrėti kiekvienos funkcijos oficialią leidimo datą, vadovaukitės saitais su [leidimų planu](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features).
 
 - Automatinis pirkimo užsakymų leidimas (patobulinimas [Sandėlio vykdymui naudojant skalės vienetus debesyje](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud))<br> - Daugiau informacijos rasite[Sandėlio valdymo darbo krūviai debesies ir ribinės skalės vienetams](../cloud-edge/cloud-edge-workload-warehousing.md).
 
 - [Atsargų efektyvumo tobulinimai ir archyvavimas įmonės mastu](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Daugiau informacijos rasite [Atsargų operacijų archyvavimas](../inventory/archive-inventory-transactions.md)
 
-- [Grąžinimų valdymas](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)
+- [Grąžinimų valdymas](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Daugiau informacijos rasite [Grąžinimų valdymo modulio apžvalga](../rebate-management/rebate-management-overview.md)
 
 - Supaprastinta sąsaja, skirta tik darbo pradžios ir pabaigos registravimui, (patobulinimas [Patobulintai gamybos cecho vykdymo sąsajai](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing))<br> - Daugiau informacijos rasite [Gamybos cecho vykdymo sąsajos konfigūravimas](../production-control/production-floor-execution-configure.md).
 
-Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis.
+Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis. Kai kurios išvardytos funkcijos vis dar yra peržiūros versijos, o kitos funkcijos jau gali būti prieinamos bendrai. 
 
 ## <a name="new-and-updated-documentation-resources"></a>Nauji ir naujinti dokumentų šaltiniai
 

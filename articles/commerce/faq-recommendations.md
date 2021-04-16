@@ -2,11 +2,9 @@
 title: DUK apie produktų rekomendacijas
 description: Šioje temoje pateikiama informacija apie procesus ir įrankius, kuriuos galite naudoti problemoms, susijusioms su produkto rekomendacijomis arba jų rezultatais, diagnozuoti.
 author: bebeale
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f0140f798e000ca66c67afa00f788abc560c8a07
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fa845f4d41e0bd7725349a216b9e4ee79efee79d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216704"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792420"
 ---
 # <a name="product-recommendations-faq"></a>DUK apie produktų rekomendacijas
 
@@ -33,7 +31,7 @@ ms.locfileid: "5216704"
 Šioje temoje pateikiama informacija apie procesus ir įrankius, kuriuos galite naudoti problemoms, susijusioms su [produkto rekomendacijomis](product-recommendations.md) arba jų rezultatais, diagnozuoti.
 
 ## <a name="best-practices"></a>Geriausia praktika
-Labai svarbu naudoti bendrųjų produktų ir variantų koncepciją. Pagrįstu variantų grupavimu su pirminiaisi bendraisiais produktais galima sąrašų algoritmais ir tarnyba kurti geresnius modelius. Be to, tarnyba gali naudoti tik vieną produkto egzempliorių, užuot naudojusi visus glaudžiai susijusius sąrašo variantus. Kai visi artimai susiję variantai yra įtraukti į sąrašą, gali atsirasti klaidingi arba pasikartojantys rezultatai.
+Labai svarbu naudoti bendrųjų produktų ir variantų koncepciją. Pagrįstu variantų grupavimu su pirminiais bendraisiais produktais galima sąrašų algoritmais ir tarnyba kurti geresnius modelius. Be to, tarnyba gali naudoti tik vieną produkto egzempliorių, užuot naudojusi visus glaudžiai susijusius sąrašo variantus. Kai visi artimai susiję variantai yra įtraukti į sąrašą, gali atsirasti klaidingi arba pasikartojantys rezultatai.
 
 ## <a name="why-are-products-missing-from-my-recommendation-lists"></a>Kodėl mano rekomendacijų sąrašuose trūksta produktų?
 
@@ -66,7 +64,7 @@ Rekomenduojame atlikti šiuos veiksmus:
 
 Galite pakoreguoti sąrašus, kurie yra algoritmiškai sugeneruoti, jei atsiranda verslo poreikis. Tačiau, jei produktas pašalinamas iš rekomendacijų sąrašo, produktas bus aptinkamas parduotuvėje. Daugiau informacijos apie tai, kaip modifikuoti produktų rekomendacijų rezultatus, žr. [AI-ML pagrįstų produktų rekomendacijų rezultatų valdymas](modify-product-recommendation-results.md).
 
-Jei turite užblokuoti prekę, kuri bus aptikta parduotuvėje, turite pakeisti reikšę **prekių asortimentai** į **Neįtraukti**.
+Jei turite užblokuoti prekę, kuri bus aptikta parduotuvėje, turite pakeisti reikšmę **prekių asortimentai** į **Neįtraukti**.
 
 ## <a name="how-do-i-add-a-list-to-an-e-commerce-page"></a>Kaip pridėti sąrašą prie el. prekybos puslapio?
 

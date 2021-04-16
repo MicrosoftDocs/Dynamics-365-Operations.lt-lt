@@ -1,12 +1,10 @@
 ---
 title: Atsargų skirstymo pagal terminus ataskaitos pavyzdžiai ir logika
 description: Šioje temoje pateikiami pavyzdžiai, rodantys, kaip interpretuoti atsargų skirstymo pagal terminus ataskaitos rezultatus.
-author: RichardLuan
-manager: tfehr
+author: AndersGirke
 ms.date: 5/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: riluan
+ms.author: aevengir
 ms.search.validFrom: 2020-5-29
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1d9c70a7931c009cd53fbd28a3f4c768d04964a4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: edc974bcbd72ef62438fd6271a6fd0e56143f976
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214423"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821590"
 ---
 # <a name="inventory-aging-report-examples-and-logic"></a>Atsargų skirstymo pagal terminus ataskaitos pavyzdžiai ir logika
 
@@ -54,14 +52,14 @@ Pavyzdinėje sistemoje išleistų produktų atsargų modelis yra *FIFO*, o **Sav
 
 Pavyzdžio sistemoje yra šios išleisto produkto atsargų operacijos, kurio prekės numeris *1000*.
 
-| Nuoroda      | Vieta | Sandėlis | Gavimas   | Išdavimas | Faktinė data | Fin. data | Kiekis | Išlaidų suma | Fakt. išlaidų suma |
+| Nuoroda      | Vieta | Sandėlis | Gavimas   | Išdavimas | Faktinė data | Finansinė data | Kiekis | Išlaidų suma | Faktinių išlaidų suma |
 |----------------|------|-----------|-----------|-------|---------------|----------------|----------|-------------|----------------------|
-| Pirkimo užsakymas | 1    | 11        | Nupirkta |       | 15 m. kovo mėn.      | 15 m. kovo mėn.       | 10       | 1000       | 1000                |
-| Pirkimo užsakymas | 2    | 21        | Nupirkta |       | 15 m. kovo mėn.      | 15 m. kovo mėn.       | 10       | 2,000       | 2,000                |
-| Pirkimo užsakymas | 1    | 11        | Gauta  |       | 15 m. balandžio mėn.      |                | 5        |             | 375                  |
-| Perkėlimo užsakymas | 1    | 11        |           | Parduota  | 2 m. gegužės mėn.         | 2 m. gegužės mėn.          | -5       | -458,33     | -458,33              |
-| Perkėlimo užsakymas | 1    | 12        | Nupirkta |       | 2 m. gegužės mėn.         | 2 m. gegužės mėn.          | 5        | 458.33      | 458.33               |
-| Pardavimo užsakymas    | 1    | 12        |           | Parduota  | 3 m. gegužės mėn.         | 3 m. gegužės mėn.          | -1       | -91,67      | -91,67               |
+| Pirkimo užsakymas | 1    | 11        | Nupirkta |       | kovo mėn. 15 d.      | kovo mėn. 15 d.       | 10       | 1000       | 1000                |
+| Pirkimo užsakymas | 2    | 21        | Nupirkta |       | kovo mėn. 15 d.      | kovo mėn. 15 d.       | 10       | 2,000       | 2,000                |
+| Pirkimo užsakymas | 1    | 11        | Gauta  |       | balandžio mėn. 15 d.       |                | 5        |             | 375                  |
+| Perkėlimo užsakymas | 1    | 11        |           | Parduota  | gegužės mėn. 2 d.         | gegužės mėn. 2 d.          | -5       | -458,33     | -458,33              |
+| Perkėlimo užsakymas | 1    | 12        | Nupirkta |       | gegužės mėn. 2 d.         | gegužės mėn. 2 d.          | 5        | 458.33      | 458.33               |
+| Pardavimo užsakymas    | 1    | 12        |           | Parduota  | gegužės mėn. 3 d.         | gegužės mėn. 3 d.          | -1       | -91,67      | -91,67               |
 
 ## <a name="how-quantities-and-amounts-in-each-period-bucket-are-calculated"></a>Kaip apskaičiuojami kiekvieno laikotarpio rinkinio kiekiai ir sumos
 
@@ -78,7 +76,7 @@ Naudodami ankstesniuose skyriuose aprašytus duomenų pavyzdžius, galite paleis
 <table>
 <thead>
 <tr>
-    <th rowspan="2">Prekės Nr.</th>
+    <th rowspan="2">Prekės numeris</th>
     <th rowspan="2">Vieta</th>
     <th rowspan="2">Turimas kiekis</th>
     <th rowspan="2">Turima vertė</th>
@@ -167,7 +165,7 @@ Jei tą pačią ataskaitą paleidote iš naujo, šį kartą nustatykite tiek **V
 <table>
 <thead>
 <tr>
-    <th rowspan="2">Prekės Nr.</th>
+    <th rowspan="2">Prekės numeris</th>
     <th rowspan="2">Vieta</th>
     <th rowspan="2">Sandėlis</th>
     <th rowspan="2">Turimas kiekis</th>
@@ -274,7 +272,7 @@ Naujoji ataskaita bus panaši į toliau pateiktą pavyzdį.
 <table>
 <thead>
 <tr>
-    <th rowspan="2">Prekės Nr.</th>
+    <th rowspan="2">Prekės numeris</th>
     <th rowspan="2">Vieta</th>
     <th rowspan="2">Sandėlis</th>
     <th rowspan="2">Turimas kiekis</th>

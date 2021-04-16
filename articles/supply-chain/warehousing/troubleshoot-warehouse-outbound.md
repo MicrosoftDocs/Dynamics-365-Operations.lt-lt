@@ -2,11 +2,9 @@
 title: Trikties šalinimo išvesties sandėlio operacijos
 description: Šioje temoje aprašoma, kaip ištaisyti bendras klaidas, su kuriomis galite susidurti dirbdami su išvesties sandėlio operacijomis „Microsoft Dynamics 365 Supply Chain Management“.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1344a1c16bf72b31f7aaf18aaeb6e08c7bc9d87e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 919b6f433db47f24adc9a474942557a1467d1f71
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223271"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828183"
 ---
 # <a name="troubleshoot-outbound-warehouse-operations"></a>Trikties šalinimo išvesties sandėlio operacijos
 
@@ -38,7 +36,7 @@ ms.locfileid: "5223271"
 
 ### <a name="issue-resolution"></a>Problemos paaiškinimas
 
-Įtraukite ar naujinkite adresą pardavimo užsakyme ir užsakymo eilutėse ir tuomet paleiskite užsakymą į sandėlį. Užsakymai gali būti išleisti į sandėlį tik jei jie turi galiojantį pristatymo adresą (adreso formato nustatymuose **Organizacijos adminstracijos** modulyje).
+Įtraukite ar naujinkite adresą pardavimo užsakyme ir užsakymo eilutėse ir tuomet paleiskite užsakymą į sandėlį. Užsakymai gali būti išleisti į sandėlį tik jei jie turi galiojantį pristatymo adresą (adreso formato nustatymuose **Organizacijos administracijos** modulyje).
 
 Tirkite sustabdytą užsakymą ir adreso problemas. Tuomet pašalinkite sustabdytą užsakymą ar klientą ir išleiskite užsakymą į sandėlį.
 
@@ -52,7 +50,7 @@ Krovinio siuntimas buvo patvirtintas, bet neįvyko jokio tolesnio publikavimo.
 
 Siuntimo patvirtinimas neveikia publikavimo. Jis tik naujina siuntimą ir krovinio būseną. Publikavimas turi vykti kaip atskiras procesas.
 
-## <a name="i-receive-the-following-error-message-direct-delivery-is-not-able-to-process-for-warehouse-1-as-it-has-warehouse-management-enabled-please-specify-another-warehouse-that-is-not-enabled-for-warehouse-management"></a>Gaunu tolesnį klaidos pranešimą: „Tiesioginis pristatymas negali apdoroti sandėlio 1%, nes jam įjungtas sandėlio valdymas. Prašome nurodyti kitą sandelį, kuris nėra įjungtas sandėlio valdymui."
+## <a name="i-receive-the-following-error-message-direct-delivery-is-not-able-to-process-for-warehouse-1-as-it-has-warehouse-management-enabled-please-specify-another-warehouse-that-is-not-enabled-for-warehouse-management"></a>Gaunu tolesnį klaidos pranešimą: „Tiesioginis pristatymas negali apdoroti sandėlio 1%, nes jam įjungtas sandėlio valdymas. Prašome nurodyti kitą sandėlį, kuris nėra įjungtas sandėlio valdymui."
 
 ### <a name="issue-description"></a>Problemos aprašas
 

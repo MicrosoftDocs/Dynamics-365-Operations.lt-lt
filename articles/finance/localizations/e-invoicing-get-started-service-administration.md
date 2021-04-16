@@ -1,12 +1,10 @@
 ---
-title: Pradėti su elektroninės sąskaitos priedo paslaugų administravimu
+title: Darbo su elektroninių SF priedu tarnybos administravimui pradžia
 description: Ši tema paaiškina, kaip pradėti su elektroninės sąskaitos priedo paslaugų administravimu.
 author: gionoder
-manager: AnnBe
-ms.date: 03/12/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,18 +15,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 05b00380cec7511adad2467d3f252799a4aaee5c
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: ec431cb4a3620459d905f64a80fd820a2113290f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592531"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840153"
 ---
-# <a name="get-started-with-electronic-invoicing-add-on-service-administration"></a>Pradėti su elektroninės sąskaitos priedo paslaugų administravimu
+# <a name="get-started-with-electronic-invoicing-service-administration"></a>Darbo su elektroninių SF priedu tarnybos administravimui pradžia
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
@@ -46,7 +42,7 @@ Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išanksti
 - Turite aktyvuoti globalizavimo funkciją savo RCS paskyrai funkcijos valdyme. Dėl daugiau informacijos, žr. [„Regulatory Configuration Services“ (RCS) - globalizavimo funkcijos](rcs-globalization-feature.md).
 - Turite sukurti pagrindinę vertę ir laikymo paskyrą „Azure“. Daugiau informacijos žr. [Kurti „Azure” saugyklos paskyrą ir talpyklos raktą](e-invoicing-create-azure-storage-account-key-vault.md).
 
-## <a name="install-the-add-on-for-microservices-in-lifecycle-services"></a>Diekite priedą mikro paslaugoms „Lifecycle Services“
+## <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Diekite priedą mikro paslaugoms „Lifecycle Services“
 
 1. Prisijunkite prie jūsų LCS abonemento.
 2. Rinkitės **Išankstinis funkcijos valdymo** plytelę.
@@ -54,13 +50,14 @@ Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išanksti
 4. Įsitikinkite, kad **Išankstinės funkcijos įjungimas** parinktis yra nustatyta į **Taip**.
 5. LCS skelbimų lentoje pasirinkite LCS diegimo projektą. Turi būti vykdomas LCS projektas.
 7. „FastTab“ skirtuke **Aplinkos papildiniai** pasirinkite **Diegti naują papildinį**.
-8. Pasirinkite **El. SF paslaugos** ir laukelyje **AAD programos ID** įveskite **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Tai – fiksuota vertė.
+8. Pasirinkite **el. SF išrašymo** paslaugas.
+9. Lauke **AAD programos ID** įveskite **„091c98b0-a1c9-4b02-b62c-7753395ccabe**. Tai – fiksuota vertė.
 10. Lauke **AAD nuomotojo ID** įveskite savo „Azure” prenumeratos abonemento savininko ID.
 11. Peržiūrėkite sąlygas ir nuostatas, o tada pažymėkite žymės langelį.
 12. Pasirinkti **Diegti**.
 
 
-## <a name="set-up-the-parameters-for-rcs-integration-with-the-electronic-invoicing-add-on"></a>Nustatykite parametrus RCS integravimui su elektroninės sąskaitos priedu
+## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>Nustatykite parametrus RCS integravimui su elektroninės sąskaitos priedu
 
 1. Prisijunkite prie jūsų RCS abonemento.
 2. Darbo srities **Elektroninės ataskaitos** dalyje **Susiję saitai** pasirinkite **Elektroninių ataskaitų parametrai**.
@@ -74,58 +71,56 @@ Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išanksti
     | Vakarų ES                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
 
 4. Patvirtinkite, kad **Programos Id** laukelis yra nustatytas į **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Ši vertė yra fiksuota vertė.
-5. Laukelyje **LCS aplinkos Id** įveskite savo LCS prenumeratos sąskaitos ID.
+5. Laukelyje **LCS aplinkos Id** įveskite savo aplinkos LCS prenumeratos ID.
 6. Pasirinkite **Įrašyti** ir uždarykite puslapį.
 
-## <a name="create-key-vault-secret"></a>Kurkite pagrindinį raktą
+## <a name="create-key-vault-references"></a>Raktų saugyklos nuorodų kūrimas
 
 1. Prisijunkite prie jūsų RCS abonemento.
 2. Darbo srities **Globalizacijos funkcijos** dalyje **Aplinka** pasirinkite plytelę **Elektroninių SF išrašymo priedas**.
 3. Puslapyje **Aplinkos nustatymai** veiksmų juostoje rinkitės **Paslaugų aplinka** ir tada rinkitės **Pagrindiniai parametrai**.
-4. Pasirinkite **Naujas** jei norite sukurti rakto saugyklos slaptą.
-5. **Pavadinimas** laukelyje įveskite pagrindinės talpyklos pavadinimą. Lauke **Aprašas** įveskite aprašą.
-6. Lauke **Rakto talpyklos URI** įklijuokite slaptą kodą iš „Azure Key Vault".
+4. Pasirinkite **Naujas** jei norite sukurti rakto saugyklos nuorodą.
+5. **Pavadinimas** laukelyje įveskite pagrindinės talpyklos nuorodą. Lauke **Aprašas** įveskite aprašą.
+6. Lauke **Rakto talpyklos URI** įklijuokite slaptą nuorodos saugyklą iš „Azure Key Vault". Daugiau informacijos žr. [Kurti „Azure” saugyklos paskyrą ir talpyklos raktą](e-invoicing-create-azure-storage-account-key-vault.md).
 7. Pasirinkite **Įrašyti**.
 
 ## <a name="create-storage-account-secret"></a>Kurti Saugyklos paskyros raktą
 
-1. Eikite į **Sistemos administravimas** > **Sąranka** > **Raktų saugyklos parametrai** ir pasirinkite slaptą raktų saugyklą.
-2. Skyriuje **Sertifikatai** pasirinkite **Pridėti**.
-3. Laukelyje **Pavadinimas** įveskite slaptos saugyklos paskyros pavadinimą ir laukelyje **Aprašas** įveskite aprašą.
-4. Lauke **Tipas** pasirinkite **Sertifikatas**.
-5. Pasirinkite **Įrašyti** ir uždarykite puslapį.
+1. Puslapyje **Aplinkos nustatymai** veiksmų juostoje rinkitės **Paslaugų aplinka** > **Pagrindiniai raktų parametrai**.
+2. Pasirinkite rakto **Saugyklos nuorodą** ir skyriuje  **Sertifikatai** pasirinkite **Įtraukti**.
+3. **Pavadinimas** laukelyje įveskite tą patį talpyklos paskyros pavadinimą. Daugiau informacijos žr. [Kurti „Azure” saugyklos paskyrą ir talpyklos raktą](e-invoicing-create-azure-storage-account-key-vault.md).
+4. Lauke **Aprašas** įveskite aprašą.
+5. Lauke **Tipas** pasirinkite **Raktas**.
+6. Pasirinkite **Įrašyti** ir uždarykite puslapį.
 
 ## <a name="create-a-digital-certificate-secret"></a>Slapto skaitmeninio sertifikato kūrimas
 
-1. Eikite į **Sistemos administravimas** > **Sąranka** > **Raktų saugyklos parametrai** ir pasirinkite slaptą raktų saugyklą.
-2. Skyriuje **Sertifikatai** pasirinkite **Pridėti**.
-3. Laukelyje **Pavadinimas** įveskite slapto skaitmeninio sertifikato pavadinimą ir laukelyje **Aprašas** įveskite aprašą.
-4. Lauke **Tipas** pasirinkite **Sertifikatas**.
-5. Pasirinkite **Įrašyti** ir uždarykite puslapį.
-
-## <a name="create-an-electronic-invoicing-add-on-environment"></a>Elektroninių SF išrašymo priedo aplinkos kūrimas
-
-1. Prisijunkite prie jūsų RCS abonemento.
-2. Darbo srities **Globalizacijos funkcijos** dalyje **Aplinka** pasirinkite plytelę **Elektroninių SF išrašymo priedas**.
+1. Puslapyje **Aplinkos nustatymai** veiksmų juostoje rinkitės **Paslaugų aplinka** ir tada rinkitės **Pagrindiniai parametrai**.
+2. Pasirinkite rakto **Saugyklos nuorodą** ir tada skyriuje  **Sertifikatai** pasirinkite **Įtraukti**.
+3. **Pavadinimas** laukelyje įveskite tą patį skaitmeninį sertifikato raktą. Daugiau informacijos žr. [Kurti „Azure” saugyklos paskyrą ir talpyklos raktą](e-invoicing-create-azure-storage-account-key-vault.md).
+4. Lauke **Aprašas** įveskite aprašą.
+5. Lauke **Tipas** pasirinkite **Sertifikatas**.
+6. Pasirinkite **Įrašyti** ir uždarykite puslapį.
 
 ## <a name="create-a-service-environment"></a>Aptarnavimo aplinkos kūrimas
 
-1. Puslapyje **Aplinkos nustatymai**, veiksmų juostoje pasirinkite **Aptarnavimo aplinka**.
-2. Pasirinkite **Nauja**, kad sukurtumėte naują paslaugų aplinką.
-3. **Pavadinimas** laukelyje įveskite vietos elektroninių sąskaitų aplinkos pavadinimą. Lauke **Aprašas** įveskite aprašą.
-4. **Talpyklos SAS atpažinimo rakto** lauke pasirinkite slaptos saugyklos paskyros, kuri turi būti naudojama, jei norima autentifikuoti prieigą prie saugyklos sąskaitos, pavadinimą.
-5. Skyriuje **Vartotojai** rinkitės **Įtraukti** norėdami įtraukti vartotoją, kuriam leidžiama pateikti elektronines SF naudojant aplinką, ir taip pat prisijungti prie saugojimo sąskaitos.
-6. Lauke **Vartotojo ID** įveskite vartotojo pravardę. Lauke **El. paštas** įveskite vartotojo el. pašto adresą.
-7. Pasirinkite **Įrašyti**.
-8. Jei jūsų šalies ar regiono konkrečios sąskaitos reikalauja sertifikatų grandinės siekiant taikyti skaitmeninį parašą, veiksmų juostoje rinkitės **Pagrindiniai talpyklos parametrai**, tada rinkitės **Sertifikatų grandinė** ir alikite šiuos žingsnius:
-
+1. Prisijunkite prie jūsų RCS abonemento.
+2. Darbo srities **Globalizacijos funkcijos** dalyje **Aplinka** pasirinkite plytelę **Elektroninių SF išrašymo priedas**.
+3. Puslapyje **Aplinkos nustatymai**, veiksmų juostoje pasirinkite **Aptarnavimo aplinka**.
+4. Pasirinkite **Nauja**, kad sukurtumėte naują paslaugų aplinką.
+5. **Pavadinimas** laukelyje įveskite vietos elektroninių sąskaitų aplinkos pavadinimą. Lauke **Aprašas** įveskite aprašą.
+6. **Talpyklos SAS atpažinimo rakto** lauke pasirinkite slaptos saugyklos paskyros, kuri turi būti naudojama, jei norima autentifikuoti prieigą prie saugyklos sąskaitos, pavadinimą.
+7. Skyriuje **Vartotojai** rinkitės **Įtraukti** norėdami įtraukti vartotoją, kuriam leidžiama pateikti elektronines SF naudojant aplinką, ir taip pat prisijungti prie saugojimo sąskaitos.
+8. Lauke **Vartotojo ID** įveskite vartotojo pravardę. Lauke **El. paštas** įveskite vartotojo el. pašto adresą.
+9. Pasirinkite **Įrašyti**.
+10. Jei jūsų šalies ar regiono konkrečios sąskaitos reikalauja sertifikatų grandinės siekiant taikyti skaitmeninį parašą, veiksmų juostoje rinkitės **Pagrindiniai talpyklos parametrai**, tada rinkitės **Sertifikatų grandinė** ir alikite šiuos žingsnius:
     1. Pasirinkite **Naujas** tam, kad sukurtumėte sertifikatų grandinę.
     2. **Pavadinimas** laukelyje įveskite sertifikato grandinės pavadinimą. Lauke **Aprašas** įveskite aprašą.
     3. Skyriuje **Sertifikatai** pasirinkite **Įtraukti** kad į grandinę būtų įtrauktas sertifikatas.
     4. Norėdami pakeisti **Aukštyn** arba **Žemyn** poziciją sertifikato grandinėje.
     5. Pasirinkite **Įrašyti** ir uždarykite puslapį.
     6. Uždarykite puslapį.
-9. Puslapyje **Paslaugų aplinka** veiksmų juostoje rinkitės **Publikuoti** kad publikuotumėte aplinką debesyje. Vertė **Būsena** laukelyje pakeičiama į **Publikuota**.
+11. Puslapyje **Paslaugų aplinka** veiksmų juostoje rinkitės **Publikuoti** kad publikuotumėte aplinką debesyje. Vertė **Būsena** laukelyje pakeičiama į **Publikuota**.
 
 ## <a name="create-a-connected-application"></a>Kurkite sujungtą programą
 
@@ -144,9 +139,9 @@ Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išanksti
 3. Lauke **Aptarnavimo aplinka** pasirinkite darbo užsakymo aptarnavimo aplinką.
 4. Pasirinkite **Įrašyti** ir uždarykite puslapį.
 
-## <a name="set-up-the-electronic-invoicing-add-on-integration-in-finance-and-supply-chain-management"></a>Elektroninių SF išrašymo priedo integravimo nustatymas „Finance and Supply Chain Management”
+## <a name="set-up-electronic-invoicing-integration-in-finance-and-supply-chain-management"></a>Elektroninių SF išrašymo priedo integravimo nustatymas „Finance and Supply Chain Management”
 
-### <a name="turn-on-the-electronic-invoicing-add-on-integration-feature"></a>Elektroninių SF išrašymo priedo integravimo funkcijos įjungimas
+### <a name="turn-on-the-electronic-invoicing-integration-feature"></a>Elektroninių SF išrašymo priedo integravimo funkcijos įjungimas
 
 1. Prisijunkite prie savo „Finance and Supply Chain Management“ elemento.
 2. Darbo srityje **Funkcijų valdymas** ieškokite naujos funkcijos **Elektroninių SF išrašymo priedo integravimas**. Jei ši funkcija nebus rodoma puslapyje, pasirinkite **Tikrinti, ar yra naujinimų**.
@@ -164,8 +159,18 @@ Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išanksti
     | Šiaurės ES                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
     | Vakarų ES                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
 
-3. Laukelyje **Aplinka** įveskite elektroninės sąskaitos priedo aplinką.
+3. Laukelyje **Aplinka** įveskite paslaugų aplinkos publikuotos elektroninėse sąskaitos pavadinimą
 4. Pasirinkite **Įrašyti** ir uždarykite puslapį.
 
+### <a name="enable-flighting-keys"></a>Įgalinti skrydžio raktus
+
+Įgalinkite "Microsoft Dynamics 365 Finance“ ar "Microsoft Dynamics 365 Supply Chain Management“ 10.0.17 ar ankstesnių versijų skrydžio raktus. 
+1. Vykdykite toliau pateiktą SQL komandą.
+
+    INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('BusinessDocumentSubmissionServiceEnabled', 1)
+    
+    INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('ElectronicInvoicingServiceIntegrationFeature', 1)
+
+2. Atlikite IISreset komandą visiems AOS.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

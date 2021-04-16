@@ -2,11 +2,9 @@
 title: Debesų technologija valdomos ieškos apžvalga
 description: Šioje temoje apžvelgiama „Microsoft Dynamics 365 Commerce“ debesų technologija paremta ieška.
 author: ashishmsft
-manager: annbe
 ms.date: 06/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2e94338cb55f3298d0a33d7b086480f16e83f271
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b5182df9d45a3b5d2572a5b6b391c924ef23bf9a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220661"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800426"
 ---
 # <a name="cloud-powered-search-overview"></a>Debesų technologija valdomos ieškos apžvalga
-
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje apžvelgiama „Microsoft Dynamics 365 Commerce“ debesų technologija paremta ieška.
-
-## <a name="overview"></a>Peržiūra
 
 Produktų aptinkamumas padeda užtikrinti, kad vartotojai galėtų greitai ir lengvai rasti produktus naršydami kategorijas, ieškodami bei filtruodami. Pardavėjai produktų atradimą laiko pirminiu įrankiu, skirtu bendrauti su klientais visuose kanaluose.
 
@@ -38,7 +33,7 @@ Klientai yra įpratę prie beveik momentinio interneto ieškos modulių atsako l
 
 Debesų technologija paremta „Dynamics 365 Commerce“ produktų aptinkamumo funkcija pardavėjams padeda vis didinti klientų išlaikymo ir konvertavimo rodiklius visuose kanaluose, tiek el. prekybos, tiek elektroninio kasos aparato (EKA) kanaluose.
 
-„Dynamics 365 Commerce“ ieškos funkcijose yra geresnių galimybių, pardavėjams padedančių pasiekti diesnį produktų aptinkamumo rodiklį. Tuo pačiu metu šie pajėgumai suteikia mastelio keitimo ir našumo galimybių, kurios būtinos el. prekybos srautui.
+„Dynamics 365 Commerce“ ieškos funkcijose yra geresnių galimybių, pardavėjams padedančių pasiekti didesnį produktų aptinkamumo rodiklį. Tuo pačiu metu šie pajėgumai suteikia mastelio keitimo ir našumo galimybių, kurios būtinos el. prekybos srautui.
 
 ## <a name="browse-and-search"></a>Naršymas ir ieška
 

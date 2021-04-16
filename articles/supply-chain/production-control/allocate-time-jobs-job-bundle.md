@@ -2,11 +2,9 @@
 title: Laiko paskirstymas sugrupuotų užduočių užduotims
 description: Užduotis sugrupuoti galite modulyje Gamybos vykdymas. Tada puslapyje Užduočių sąrašas tuo pačiu metu galite pradėti kelias užduotis.
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgBundleSlize, JmgProdParameters, JmgRegistration
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88c75c67cadcde57f981f4e357b40855709d072d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3e0df9177b63619787dba057e9aa532255e68bde
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246506"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811875"
 ---
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Laiko paskirstymas sugrupuotų užduočių užduotims
 
@@ -54,8 +52,8 @@ Toliau pateikiamoje lentelėje nurodytos kiekvienai užduočiai atlikti sugaišt
 
 | Užduotis    | Pradžios laikas | Pabaigos laikas | Grupės laikas |
 |--------|------------|----------|-------------|
-| 1 užduotis  | 09:00      | 11.00    | 2 valandos     |
-| 2 užduotis  | 10:00      | 13.00    | 3 valandos     |
+| 1 užduotis  | 09:00      | 11:00    | 2 valandos     |
+| 2 užduotis  | 10:00      | 13:00    | 3 valandos     |
 | 3 užduotis  | 10:00      | 15:00    | 5 valandos     |
 | Grupuoti | 09:00      | 15:00    | 6 valandos     |
 
@@ -102,9 +100,9 @@ Tarkime, tris užduotis atlieka darbuotojas, kurio valandinis uždarbis yra 12,0
 
 | Užduotis   | Koreguotų išlaidų už valandą skaičiavimas | Koreguotos išlaidos už valandą | Paskirstytas laikas | Bendrosios užduoties išlaidos |
 |-------|----------------------------------------|-------------------------|----------------|-------------------|
-| 1 užduotis | (1,33 ÷ 2) × 12.00 USD                 | 8,00 USD                | 2 valandos        | 16,00 USD         |
-| 2 užduotis | (1,33 ÷ 3) × 12.00 USD                 | 5,33 USD                | 3 valandos        | 16,00 USD         |
-| 3 užduotis | (3,33 ÷ 5) × 12.00 USD                 | 8,00 USD                | 5 valandos        | 40,00 USD         |
+| 1 užduotis | (1,33 ÷ 2) × 12,00 USD                 | 8,00 USD                | 2 valandos        | 16,00 USD         |
+| 2 užduotis | (1,33 ÷ 3) × 12,00 USD                 | 5,33 USD                | 3 valandos        | 16,00 USD         |
+| 3 užduotis | (3,33 ÷ 5) × 12,00 USD                 | 8,00 USD                | 5 valandos        | 40,00 USD         |
 
 Koreguotos išlaidos už valandą ir užduoties laikas registruojamas gamybos žurnale. **Pastaba:** jei pasirinksite pasirinktį **Išlaidų kategorija** skirtuke **Bendra**, esančiame puslapyje **Gamybos užsakymo numatytoji informacija**, faktinis kiekvienos užduoties laikas perkeliamas į gamybos žurnalą, kur savikaina taikoma konkrečios užduoties savikainos kategorijai.
 

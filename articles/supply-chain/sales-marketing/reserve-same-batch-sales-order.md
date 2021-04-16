@@ -2,11 +2,9 @@
 title: To paties pardavimo užsakymo paketo rezervavimas
 description: Šiame straipsnyje paaiškinta, kaip nustatyti produktą, kad būtų leidžiamas atsargų rezervavimas pagal vieną atsargų paketą.
 author: omulvad
-manager: tfehr
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c7745b1306142678760318cc47f54b93d6f727a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e0937be76aa687ed986ff83e67f2db3e2dadd0f0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231821"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5807661"
 ---
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>To paties pardavimo užsakymo paketo rezervavimas
 
@@ -43,7 +41,7 @@ Kai produkto atsargas rezervuojate pardavimo užsakymo eilutėje, su kuria nusta
 - Paketas baigė galioti pagal galiojimo pabaigos datą ir bet kokias taikomas klientų pardavimo dienas. Prekė vis dar gali būti svarstytina rezervuoti, jei prekės modelių grupė yra data valdomas rezervavimas „pirmas baigė galioti – pirmas baigėsi“ (FEFO) ir jei kaip paėmimo kriterijus pasirinkta galiojimo pabaigos data.
 - Liko nepakankamai paketo galiojimo dienų, atsižvelgiant į galiojimo pabaigos datą ir geriausia iki datą bei visas kliento pardavimo dienas.
 
-Elementams, susijusiems su saugyklos dimensijų grupe, kuriuose įjungta funkcija **„Naudoti sandėlio tvarkymo procesus“**, galite rezervuoti konkrečius paketų numerius, naudodami rezervavimo hierarchiją su paketo numerio atsargų dimensija, kuri apibrėžta virš vietos dimensijos. Puslapyje **Paketo rezervacija**, kuris skirtas pardavimams ir užsakymo perkėlimo eilutėms, taip pat galima pasirinkti ir rezervuoti kelias eilutes, atsižvelgiant į galimus paketų numerius. Norėdami gauti daugiau informacijos apie tai, ką daryti, jei naudojate rezervavimo hierarchiją, kurios paketo numerio dimensija yra žemiau už vietos dimensiją, žr. [Lanksti sandėlio lygio dimensijos rezervavimo politika](../warehousing/flexible-warehouse-level-dimension-reservation.md).
+Su saugojimo dimensijų grupe susijusiems elementas, kuriuose įjungta funkcija **Naudoti sandėlio tvarkymo procesus**, galite rezervuoti konkrečius paketų numerius, naudodami rezervavimo hierarchiją, kurioje paketo numerio atsargų dimensija yra apibrėžta aukščiau vietos dimensijos. Tokio tipo rezervavimo hierarchija taip pat yra žinoma kaip *Paketas aukščiau \[vietos\]* rezervavimo hierarchija. Puslapyje **Paketo rezervacija**, kuris skirtas pardavimams ir užsakymo perkėlimo eilutėms, taip pat galima pasirinkti ir rezervuoti kelias eilutes, atsižvelgiant į galimus paketų numerius. Norėdami gauti daugiau informacijos apie tai, ką daryti, jei naudojate rezervavimo hierarchiją, kurios paketo numerio dimensija yra žemiau už vietos dimensiją (*Paketas žemiau \[vietos\]*), žiūrėkite [Lanksti sandėlio lygio dimensijos rezervavimo politika](../warehousing/flexible-warehouse-level-dimension-reservation.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

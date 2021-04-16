@@ -2,11 +2,9 @@
 title: IoT įžvalgų scenarijaus sąranka
 description: Šioje temoje paaiškinama, kaip konfigūruoti IoT įžvalgų scenarijus „Microsoft Dynamics 365 Supply Chain Management”.
 author: robinarh
-manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1632e6df34e2ee2558502597bb94281ab9937824
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2927a976c38e9ed8166c62b030d665a159119ae1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264827"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826424"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>IoT įžvalgų scenarijaus sąranka
 
@@ -102,11 +100,11 @@ Norėdami konfigūruoti scenarijų, atlikite toliau nurodytus veiksmus.
     3. Lentelėje **Verslo įrašo susiejimas** pasirinkite **Naujas**. Numatytoji lauko **Verslo įrašo tipas** reikšmė yra įvesta automatiškai ir jums jos keisti nereikia.
     4. Lauke **Verslo įrašas** pasirinkite „Supply Chain Management“ įrenginio išteklių, iš kurio siunčiama ši signalo reikšmė.
     5. Pasirinkite **Įrašyti**.
-    6. Kartokite šiuos veiksmus, norėdami įtraukti naujo verslo įrašo **Machine1226** susiejimą. Su vienu „Supply Chain Management“ įrašu galite susieti kelias signalo duomenų reikšmes.
+    6. Kartokite šiuos veiksmus, norėdami įtraukti naujo verslo įrašo **Mašina1226** susiejimą. Su vienu „Supply Chain Management“ įrašu galite susieti kelias signalo duomenų reikšmes.
 
 16. Norėdami pasirinkti, kuriuos įrenginius apdoroti, naudokite stulpelį **Pasirinkta**. Jums nebūtina apibrėžti visų signalų reikšmių ir pasirinkti visų įrenginių.
 17. Pasirinkite **Pirmyn**, jei norite pereiti į puslapį **Dalinai sugeneruoto signalo konfigūravimas**.
-18. Lentelėje **Signalo duomenų reikšmės** įtraukite eilutę ir nustatykite lauką **Reikšmė** į **Teisinga**. Ši reikšmė gaunama iš JSON ypatybės **value** „IoT Hub“ pranešime. Savo scenarijuje galite pridėti tiek reikšmių, kiek reikia.
+18. Lentelėje **Signalo duomenų reikšmės** įtraukite eilutę ir nustatykite lauką **Reikšmė** į **Teisinga**. Ši reikšmė gaunama iš JSON ypatybės **reikšmė** „IoT Hub“ pranešime. Savo scenarijuje galite pridėti tiek reikšmių, kiek reikia.
 19. Pasirinkite **Įrašyti**.
 20. Norėdami eiti į puslapį **Įrangos prastovos ribinė vertė** pasirinkite **Pirmyn**. Nurodyti įrenginiai yra anksčiau su signalo reikšmėmis susieti įrenginiai. Šiame puslapyje apibrėžiate ribinę vertę, kad nustatytumėte, ar įrenginys sugedo. Pavyzdžiui, jei nustatysite ribinę vertę į **10**, „Supply Chain Management“ sugeneruos pranešimą, jei 10 minučių iš įrenginio nebus gautas pranešimas **PartOut**.
 21. Norėdami pereiti puslapį **Įgalinti scenarijų**, pasirinkite **Pirmyn**. Pasirinkite parinktį, norėdami įgalinti scenarijų.

@@ -2,11 +2,9 @@
 title: Pirkimo užsakymų gaunamų krovinių sandėlio tvarkymas
 description: Šioje temoje aprašomas pirkimo užsakymų gaunamų krovinių sandėlio tvarkymo procesas.
 author: omulvad
-manager: tfehr
 ms.date: 03/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: fec2e7f39569c52ec17c5d0b2474eca720e0180a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 095ef3bb9fff26915bf4fbeb7e240ae9175e315c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235345"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835635"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Pirkimo užsakymų gaunamų krovinių sandėlio tvarkymas
 
@@ -66,10 +64,10 @@ Kai gaunamas krovinys pirmą kartą atvyksta į sandėlį, sandėlio darbuotojai
 
 - **Mobiliojo įrenginio meniu, sukonfigūruotas palaikyti krovinio gavimą**
 
-    [Sandėliavimo programėlė](install-configure-warehousing-app.md), skirta mobiliesiems įrenginiams, palaiko šiuos darbo kūrimo procesus:
+    Mobiliesiems įrenginiams skirta [Sandėlio valdymo programėlė](../warehousing/install-configure-warehouse-management-app.md) palaiko šiuos darbo kūrimo procesus:
 
-    - Krovinio prekės gavimas
-    - Krovinio prekės gavimas ir atidėjimas
+    - Krovinio prekės gavimą
+    - Krovinio prekės gavimą ir atidėjimą
     - Mišrių numerių lentelių gavimas, kai mobiliojo įrenginio meniu elemento laukas **Šaltinio dokumento eilutės identifikavimo metodas** nustatytas kaip _Krovinio prekės gavimas_. Daugiau informacijos žr. [Mišrių numerio lentelių gavimas](mixed-license-plate-receiving.md).
     - Mišrių numerių lentelių gavimas ir padėjimas, kai mobiliojo įrenginio meniu elemento laukas **Šaltinio dokumento eilutės identifikavimo metodas** nustatytas kaip _Krovinio prekės gavimas_. Daugiau informacijos žr. [Mišrių numerio lentelių gavimas](mixed-license-plate-receiving.md).
 
@@ -285,7 +283,7 @@ Norėdami peržiūrėti šiuos scenarijus naudodami nurodytus įrašų ir reikš
 
 Tam, kad sandėlio priimantys darbuotojai galėtų su kroviniu susijusioms gaunamoms atsargoms registruoti naudoti mobilųjį įrenginį, turite šiam tikslui sukurti mobiliojo įrenginio meniu elementą.
 
-Šiame skyriuje sukusite mobiliojo įrenginio meniu elementą ir įtrauksite jį į esamą meniu. Sandėlio darbuotojas gali pasirinkti meniu elementą sandėliavimo programėlėje.
+Šiame skyriuje sukusite mobiliojo įrenginio meniu elementą ir įtrauksite jį į esamą meniu. Sandėlio darbuotojas gali pasirinkti meniu elementą sandėlio valdymo mobiliųjų įrenginių programėlėje.
 
 1. Eikite į **Sandėlio valdymas \> Sąranka \> Mobilusis įrenginys \> Mobiliojo įrenginio meniu elementai** ir įsitikinkite, kad mobiliojo įrenginio meniu yra meniu elementas, kurio parametrai yra tokie:
 

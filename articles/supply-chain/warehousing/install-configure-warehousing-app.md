@@ -2,11 +2,9 @@
 title: Sandėliavimo programėlės diegimas ir prijungimas
 description: Šioje temoje aiškinama, kaip įdiegti sandėliavimo programėlę kiekviename jūsų mobiliajame įrenginyje ir sukonfigūruoti ją, kad prijungtumėte prie „Microsoft Dynamics 365 Supply Chain Management“ aplinkos. Kiekvieną įrenginį galite konfigūruoti neautomatiniu būdu arba galite importuoti ryšio parametrus naudodami failą arba nuskaitydami QR kodą.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 05/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
@@ -18,19 +16,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3d2920d015aab5e4f0a1966d2a2574fb659a7c80
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: c92fe991c8651d7665de2e850d8649b72f525f4c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5486982"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835576"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Sandėlio programos diegimas ir prijungimas
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Šioje temoje aprašoma, kaip konfigūruoti senąją sandėlio programos versiją. Jei ieškote informacijos apie tai, kaip konfigūruoti naująją sandėlio valdymo mobiliųjų įrenginių programėlę (šiuo metu – viešojoje peržiūros versijoje), žiūrėkite [Sandėlio valdymo mobiliųjų įrenginių programėlės diegimas ir sujungimas](install-configure-warehouse-management-app.md).
+> Šioje temoje aprašoma, kaip konfigūruoti senąją sandėlio programą (kuri dabar yra nerekomenduojama). Jei ieškote informacijos apie tai, kaip konfigūruoti naująją sandėlio valdymo mobiliųjų įrenginių programėlę (šiuo metu – viešojoje peržiūros versijoje), žiūrėkite [Sandėlio valdymo mobiliųjų įrenginių programėlės diegimas ir sujungimas](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
 > Šioje temoje aprašoma, kaip sukonfigūruoti sandėliavimo programą debesies diegimams. Jei ieškote informacijos, kaip konfigūruoti vietiniams visuotiniams diegimams skirtą sandėlio programą, žiūrėkite [Vietinėms visuotinėms įdiegtims skirtas sandėliavimas](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
