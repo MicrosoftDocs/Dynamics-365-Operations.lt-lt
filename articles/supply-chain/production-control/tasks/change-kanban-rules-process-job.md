@@ -2,11 +2,9 @@
 title: Keisti apdorojimo užduoties „kanban“ taisykles
 description: Ši procedūra padės pakeisti naudojamą „kanban“ taisyklę į nurodytą „kanban“.
 author: ChristianRytt
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate, KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, KanbanReassignRuleLookup
 audience: Application User
@@ -15,38 +13,38 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ba77197f51b871f452c2aa94320aa2a68cf314df
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2bdbbbf8a8b3d1596c251224cba996c0631050c4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255378"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829311"
 ---
-# <a name="change-kanban-rules-for-a-process-job"></a><span data-ttu-id="d13ee-103">Keisti apdorojimo užduoties „kanban“ taisykles</span><span class="sxs-lookup"><span data-stu-id="d13ee-103">Change kanban rules for a process job</span></span>
+# <a name="change-kanban-rules-for-a-process-job"></a><span data-ttu-id="c2795-103">Keisti apdorojimo užduoties „kanban“ taisykles</span><span class="sxs-lookup"><span data-stu-id="c2795-103">Change kanban rules for a process job</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="d13ee-104">Ši procedūra padės pakeisti naudojamą „kanban“ taisyklę į nurodytą „kanban“.</span><span class="sxs-lookup"><span data-stu-id="d13ee-104">This procedure focuses on changing the used kanban rule for a given kanban.</span></span> <span data-ttu-id="d13ee-105">Tai naudinga norint išlyginti arba paskirstyti krovinio išteklius.</span><span class="sxs-lookup"><span data-stu-id="d13ee-105">This is useful to level load resources or in case of breakdown.</span></span> <span data-ttu-id="d13ee-106">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="d13ee-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="d13ee-107">Ši procedūra skirta planuotojui, dirbančiam „lean“ gamybos įmonėje, kuri yra atsakinga už vertės srautą.</span><span class="sxs-lookup"><span data-stu-id="d13ee-107">This procedure is intended for the planner, working at a lean manufacturing company, responsible for the value stream.</span></span>
+<span data-ttu-id="c2795-104">Ši procedūra padės pakeisti naudojamą „kanban“ taisyklę į nurodytą „kanban“.</span><span class="sxs-lookup"><span data-stu-id="c2795-104">This procedure focuses on changing the used kanban rule for a given kanban.</span></span> <span data-ttu-id="c2795-105">Tai naudinga norint išlyginti arba paskirstyti krovinio išteklius.</span><span class="sxs-lookup"><span data-stu-id="c2795-105">This is useful to level load resources or in case of breakdown.</span></span> <span data-ttu-id="c2795-106">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="c2795-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="c2795-107">Ši procedūra skirta planuotojui, dirbančiam „lean“ gamybos įmonėje, kuri yra atsakinga už vertės srautą.</span><span class="sxs-lookup"><span data-stu-id="c2795-107">This procedure is intended for the planner, working at a lean manufacturing company, responsible for the value stream.</span></span>
 
 
-## <a name="copy-kanban-rule"></a><span data-ttu-id="d13ee-108">Kopijuokite „kanban“ taisyklę</span><span class="sxs-lookup"><span data-stu-id="d13ee-108">Copy kanban rule</span></span>
-1. <span data-ttu-id="d13ee-109">Eikite į „Kanban“ taisyklės.</span><span class="sxs-lookup"><span data-stu-id="d13ee-109">Go to Kanban rules.</span></span>
-2. <span data-ttu-id="d13ee-110">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="d13ee-110">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="d13ee-111">Pasirinkite L0001 įvykio „Kanban“ taisyklę 000022.</span><span class="sxs-lookup"><span data-stu-id="d13ee-111">Select Event Kanban rule 000022 for L0001.</span></span>  
-3. <span data-ttu-id="d13ee-112">Spustelėkite „Kanban“ taisyklės kopijavimas.</span><span class="sxs-lookup"><span data-stu-id="d13ee-112">Click Duplicate kanban rule.</span></span>
-4. <span data-ttu-id="d13ee-113">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="d13ee-113">Click OK.</span></span>
+## <a name="copy-kanban-rule"></a><span data-ttu-id="c2795-108">Kopijuokite „kanban“ taisyklę</span><span class="sxs-lookup"><span data-stu-id="c2795-108">Copy kanban rule</span></span>
+1. <span data-ttu-id="c2795-109">Eikite į „Kanban“ taisyklės.</span><span class="sxs-lookup"><span data-stu-id="c2795-109">Go to Kanban rules.</span></span>
+2. <span data-ttu-id="c2795-110">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="c2795-110">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="c2795-111">Pasirinkite L0001 įvykio „Kanban“ taisyklę 000022.</span><span class="sxs-lookup"><span data-stu-id="c2795-111">Select Event Kanban rule 000022 for L0001.</span></span>  
+3. <span data-ttu-id="c2795-112">Spustelėkite „Kanban“ taisyklės kopijavimas.</span><span class="sxs-lookup"><span data-stu-id="c2795-112">Click Duplicate kanban rule.</span></span>
+4. <span data-ttu-id="c2795-113">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="c2795-113">Click OK.</span></span>
 
-## <a name="change-kanban-rule"></a><span data-ttu-id="d13ee-114">Keisti „kanban“ taisyklę</span><span class="sxs-lookup"><span data-stu-id="d13ee-114">Change kanban rule</span></span>
-1. <span data-ttu-id="d13ee-115">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="d13ee-115">Close the page.</span></span>
-2. <span data-ttu-id="d13ee-116">Pasirinkite „Kanban“ užduoties planavimas.</span><span class="sxs-lookup"><span data-stu-id="d13ee-116">Go to Kanban job scheduling.</span></span>
-3. <span data-ttu-id="d13ee-117">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="d13ee-117">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="d13ee-118">Pasirinkite eilutę su „Kanban“ 000177.</span><span class="sxs-lookup"><span data-stu-id="d13ee-118">Select line with Kanban 000177.</span></span>  
-4. <span data-ttu-id="d13ee-119">Spustelėkite Naudoti alternatyvią „kanban“ taisyklę.</span><span class="sxs-lookup"><span data-stu-id="d13ee-119">Click Use alternative kanban rule.</span></span>
-5. <span data-ttu-id="d13ee-120">Spustelėkite Pirmyn.</span><span class="sxs-lookup"><span data-stu-id="d13ee-120">Click Next.</span></span>
-6. <span data-ttu-id="d13ee-121">Lauke „Kanban“ taisyklė įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="d13ee-121">In the Kanban rule field, enter or select a value.</span></span>
-    * <span data-ttu-id="d13ee-122">Pasirinkite anksčiau sukurtą „kanban“ taisyklę.</span><span class="sxs-lookup"><span data-stu-id="d13ee-122">Select the kanban rule that was created earlier.</span></span> <span data-ttu-id="d13ee-123">Tai yra „kanban“ taisyklė, kurios numeris didžiausias.</span><span class="sxs-lookup"><span data-stu-id="d13ee-123">This is the kanban rule with the highest number.</span></span>  
-7. <span data-ttu-id="d13ee-124">Spustelėkite Baigti.</span><span class="sxs-lookup"><span data-stu-id="d13ee-124">Click Finish.</span></span>
-    * <span data-ttu-id="d13ee-125">Dabar „kanban“ užduotis naudoja kitą „kanban“ taisyklę.</span><span class="sxs-lookup"><span data-stu-id="d13ee-125">Now the kanban job is using an another kanban rule.</span></span> <span data-ttu-id="d13ee-126">Tai gali būti naudinga norint išlyginti krovinio darbo elementus.</span><span class="sxs-lookup"><span data-stu-id="d13ee-126">This can be useful to level load work cells.</span></span>  
+## <a name="change-kanban-rule"></a><span data-ttu-id="c2795-114">Keisti „kanban“ taisyklę</span><span class="sxs-lookup"><span data-stu-id="c2795-114">Change kanban rule</span></span>
+1. <span data-ttu-id="c2795-115">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="c2795-115">Close the page.</span></span>
+2. <span data-ttu-id="c2795-116">Pasirinkite „Kanban“ užduoties planavimas.</span><span class="sxs-lookup"><span data-stu-id="c2795-116">Go to Kanban job scheduling.</span></span>
+3. <span data-ttu-id="c2795-117">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="c2795-117">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="c2795-118">Pasirinkite eilutę su „Kanban“ 000177.</span><span class="sxs-lookup"><span data-stu-id="c2795-118">Select line with Kanban 000177.</span></span>  
+4. <span data-ttu-id="c2795-119">Spustelėkite Naudoti alternatyvią „kanban“ taisyklę.</span><span class="sxs-lookup"><span data-stu-id="c2795-119">Click Use alternative kanban rule.</span></span>
+5. <span data-ttu-id="c2795-120">Spustelėkite Pirmyn.</span><span class="sxs-lookup"><span data-stu-id="c2795-120">Click Next.</span></span>
+6. <span data-ttu-id="c2795-121">Lauke „Kanban“ taisyklė įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="c2795-121">In the Kanban rule field, enter or select a value.</span></span>
+    * <span data-ttu-id="c2795-122">Pasirinkite anksčiau sukurtą „kanban“ taisyklę.</span><span class="sxs-lookup"><span data-stu-id="c2795-122">Select the kanban rule that was created earlier.</span></span> <span data-ttu-id="c2795-123">Tai yra „kanban“ taisyklė, kurios numeris didžiausias.</span><span class="sxs-lookup"><span data-stu-id="c2795-123">This is the kanban rule with the highest number.</span></span>  
+7. <span data-ttu-id="c2795-124">Spustelėkite Baigti.</span><span class="sxs-lookup"><span data-stu-id="c2795-124">Click Finish.</span></span>
+    * <span data-ttu-id="c2795-125">Dabar „kanban“ užduotis naudoja kitą „kanban“ taisyklę.</span><span class="sxs-lookup"><span data-stu-id="c2795-125">Now the kanban job is using an another kanban rule.</span></span> <span data-ttu-id="c2795-126">Tai gali būti naudinga norint išlyginti krovinio darbo elementus.</span><span class="sxs-lookup"><span data-stu-id="c2795-126">This can be useful to level load work cells.</span></span>  
 
 
 

@@ -2,11 +2,9 @@
 title: Siuntų konsolidacija naudojant siuntų konsolidacijos darbo sritį
 description: Šioje temoje pateikiamas scenarijus, kai į sandėlį išleidžiami keli užsakymai, o vėliau jie konsoliduojami į siuntas naudojant siuntos konsolidacijos darbo sritį.
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationSetShipment
 audience: Application User
@@ -15,257 +13,257 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 9b7dc72d789fd331c3636c406ac6a45566ba81ca
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 29dd403ce2378beb6f4ba71a0b3c0836eed7566a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5242186"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838423"
 ---
-# <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a><span data-ttu-id="b1423-103">Siuntų konsolidacija naudojant siuntų konsolidacijos darbo sritį</span><span class="sxs-lookup"><span data-stu-id="b1423-103">Consolidate shipments by using the shipment consolidation workbench</span></span>
+# <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a><span data-ttu-id="26b61-103">Siuntų konsolidacija naudojant siuntų konsolidacijos darbo sritį</span><span class="sxs-lookup"><span data-stu-id="26b61-103">Consolidate shipments by using the shipment consolidation workbench</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="b1423-104">Šioje temoje pateikiamas scenarijus, kai į sandėlį išleidžiami keli užsakymai, o vėliau jie konsoliduojami į siuntas naudojant siuntos konsolidacijos darbo sritį.</span><span class="sxs-lookup"><span data-stu-id="b1423-104">This topic presents a scenario where multiple orders are released to the warehouse and then consolidated into shipments later by using the shipment consolidation workbench.</span></span>
+<span data-ttu-id="26b61-104">Šioje temoje pateikiamas scenarijus, kai į sandėlį išleidžiami keli užsakymai, o vėliau jie konsoliduojami į siuntas naudojant siuntos konsolidacijos darbo sritį.</span><span class="sxs-lookup"><span data-stu-id="26b61-104">This topic presents a scenario where multiple orders are released to the warehouse and then consolidated into shipments later by using the shipment consolidation workbench.</span></span>
 
-## <a name="make-demo-data-available"></a><span data-ttu-id="b1423-105">Leidimas naudoti demonstracinius duomenis</span><span class="sxs-lookup"><span data-stu-id="b1423-105">Make demo data available</span></span>
+## <a name="make-demo-data-available"></a><span data-ttu-id="26b61-105">Leidimas naudoti demonstracinius duomenis</span><span class="sxs-lookup"><span data-stu-id="26b61-105">Make demo data available</span></span>
 
-<span data-ttu-id="b1423-106">Šioje temoje esantis scenarijus nurodo reikšmes ir įrašus, įtrauktus į standartinius „Microsoft Dynamics 365 Supply Chain Management” demonstracinius duomenis.</span><span class="sxs-lookup"><span data-stu-id="b1423-106">The scenario in this topic references values and records that are included in the standard demo data that is provided for Microsoft Dynamics 365 Supply Chain Management.</span></span> <span data-ttu-id="b1423-107">Jei norite naudoti čia pateiktas reikšmes atlikdami pratimus, įsitikinkite, kad dirbate aplinkoje, kurioje įdiegti demonstraciniai duomenys, ir prieš pradėdami nustatykite juridinį subjektą į **USMF**.</span><span class="sxs-lookup"><span data-stu-id="b1423-107">If you want to use the values that are provided here as you do the exercises, be sure to work in an environment where the demo data is installed, and set the legal entity to **USMF** before you begin.</span></span>
+<span data-ttu-id="26b61-106">Šioje temoje esantis scenarijus nurodo reikšmes ir įrašus, įtrauktus į standartinius „Microsoft Dynamics 365 Supply Chain Management” demonstracinius duomenis.</span><span class="sxs-lookup"><span data-stu-id="26b61-106">The scenario in this topic references values and records that are included in the standard demo data that is provided for Microsoft Dynamics 365 Supply Chain Management.</span></span> <span data-ttu-id="26b61-107">Jei norite naudoti čia pateiktas reikšmes atlikdami pratimus, įsitikinkite, kad dirbate aplinkoje, kurioje įdiegti demonstraciniai duomenys, ir prieš pradėdami nustatykite juridinį subjektą į **USMF**.</span><span class="sxs-lookup"><span data-stu-id="26b61-107">If you want to use the values that are provided here as you do the exercises, be sure to work in an environment where the demo data is installed, and set the legal entity to **USMF** before you begin.</span></span>
 
-## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a><span data-ttu-id="b1423-108">Siuntos konsolidacijos strategijų ir produktų filtrų nustatymas</span><span class="sxs-lookup"><span data-stu-id="b1423-108">Set up shipment consolidation policies and product filters</span></span>
+## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a><span data-ttu-id="26b61-108">Siuntos konsolidacijos strategijų ir produktų filtrų nustatymas</span><span class="sxs-lookup"><span data-stu-id="26b61-108">Set up shipment consolidation policies and product filters</span></span>
 
-<span data-ttu-id="b1423-109">Čia aprašytame scenarijuje laikoma, kad jūs jau įjungėte funkciją, atlikote pratimus, esančius [Siuntos konsolidacijos strategijų konfigūravimas](configure-shipment-consolidation-policies.md), ir sukūrėte ten aprašytas strategijas ir kitus įrašus.</span><span class="sxs-lookup"><span data-stu-id="b1423-109">The scenario that is described here assumes that you've already turned on the feature, done the exercises in [Configure shipment consolidation policies](configure-shipment-consolidation-policies.md), and created the policies and other records that are described there.</span></span> <span data-ttu-id="b1423-110">Nepamirškite atlikti šių pratimų prieš tęsdami darbą su šiuo scenarijumi.</span><span class="sxs-lookup"><span data-stu-id="b1423-110">Be sure to do those exercises before you continue with this scenario.</span></span>
+<span data-ttu-id="26b61-109">Čia aprašytame scenarijuje laikoma, kad jūs jau įjungėte funkciją, atlikote pratimus, esančius [Siuntos konsolidacijos strategijų konfigūravimas](configure-shipment-consolidation-policies.md), ir sukūrėte ten aprašytas strategijas ir kitus įrašus.</span><span class="sxs-lookup"><span data-stu-id="26b61-109">The scenario that is described here assumes that you've already turned on the feature, done the exercises in [Configure shipment consolidation policies](configure-shipment-consolidation-policies.md), and created the policies and other records that are described there.</span></span> <span data-ttu-id="26b61-110">Nepamirškite atlikti šių pratimų prieš tęsdami darbą su šiuo scenarijumi.</span><span class="sxs-lookup"><span data-stu-id="26b61-110">Be sure to do those exercises before you continue with this scenario.</span></span>
 
-## <a name="turn-on-the-manual-shipment-consolidation-feature"></a><span data-ttu-id="b1423-111">Neautomatinės siuntos konsolidacijos funkcijos įjungimas</span><span class="sxs-lookup"><span data-stu-id="b1423-111">Turn on the manual shipment consolidation feature</span></span>
+## <a name="turn-on-the-manual-shipment-consolidation-feature"></a><span data-ttu-id="26b61-111">Neautomatinės siuntos konsolidacijos funkcijos įjungimas</span><span class="sxs-lookup"><span data-stu-id="26b61-111">Turn on the manual shipment consolidation feature</span></span>
 
-<span data-ttu-id="b1423-112">Kad galėtumėte naudoti funkciją *Neautomatinė siuntos konsolidacija*, turite ją įjungti jūsų sistemoje.</span><span class="sxs-lookup"><span data-stu-id="b1423-112">Before you can use the *Manual shipment consolidation* feature, you must turn it on in your system.</span></span> <span data-ttu-id="b1423-113">Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją.</span><span class="sxs-lookup"><span data-stu-id="b1423-113">Admins can use the [feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) settings to check the status of the feature and turn it on.</span></span> <span data-ttu-id="b1423-114">Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.</span><span class="sxs-lookup"><span data-stu-id="b1423-114">In the **Feature management** workspace, the feature is listed in the following way:</span></span>
+<span data-ttu-id="26b61-112">Kad galėtumėte naudoti funkciją *Neautomatinė siuntos konsolidacija*, turite ją įjungti jūsų sistemoje.</span><span class="sxs-lookup"><span data-stu-id="26b61-112">Before you can use the *Manual shipment consolidation* feature, you must turn it on in your system.</span></span> <span data-ttu-id="26b61-113">Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją.</span><span class="sxs-lookup"><span data-stu-id="26b61-113">Admins can use the [feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) settings to check the status of the feature and turn it on.</span></span> <span data-ttu-id="26b61-114">Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.</span><span class="sxs-lookup"><span data-stu-id="26b61-114">In the **Feature management** workspace, the feature is listed in the following way:</span></span>
 
-- <span data-ttu-id="b1423-115">**Modulis:** *sandėlio valdymas*</span><span class="sxs-lookup"><span data-stu-id="b1423-115">**Module:** *Warehouse management*</span></span>
-- <span data-ttu-id="b1423-116">**Funkcijos pavadinimas:** *Neautomatinė siuntos konsolidacija*</span><span class="sxs-lookup"><span data-stu-id="b1423-116">**Feature name:** *Manual shipment consolidation*</span></span>
+- <span data-ttu-id="26b61-115">**Modulis:** *sandėlio valdymas*</span><span class="sxs-lookup"><span data-stu-id="26b61-115">**Module:** *Warehouse management*</span></span>
+- <span data-ttu-id="26b61-116">**Funkcijos pavadinimas:** *Neautomatinė siuntos konsolidacija*</span><span class="sxs-lookup"><span data-stu-id="26b61-116">**Feature name:** *Manual shipment consolidation*</span></span>
 
-<span data-ttu-id="b1423-117">Kaip buvo minėta temoje [Siuntos konsolidacijos strategijų konfigūravimas](configure-shipment-consolidation-policies.md), prieš kurdami strategijas, taip pat turite įjungti funkciją *Konsoliduoti siuntą*.</span><span class="sxs-lookup"><span data-stu-id="b1423-117">As was mentioned in [Configure shipment consolidation policies](configure-shipment-consolidation-policies.md), you must also turn on the *Consolidate shipment* feature before you can create policies.</span></span> <span data-ttu-id="b1423-118">Tačiau jau turėjote atlikti šį veiksmą.</span><span class="sxs-lookup"><span data-stu-id="b1423-118">However, you should already have completed that step.</span></span>
+<span data-ttu-id="26b61-117">Kaip buvo minėta temoje [Siuntos konsolidacijos strategijų konfigūravimas](configure-shipment-consolidation-policies.md), prieš kurdami strategijas, taip pat turite įjungti funkciją *Konsoliduoti siuntą*.</span><span class="sxs-lookup"><span data-stu-id="26b61-117">As was mentioned in [Configure shipment consolidation policies](configure-shipment-consolidation-policies.md), you must also turn on the *Consolidate shipment* feature before you can create policies.</span></span> <span data-ttu-id="26b61-118">Tačiau jau turėjote atlikti šį veiksmą.</span><span class="sxs-lookup"><span data-stu-id="26b61-118">However, you should already have completed that step.</span></span>
 
-## <a name="create-the-sales-orders-for-this-scenario"></a><span data-ttu-id="b1423-119">Šio scenarijaus pardavimo užsakymų kūrimas</span><span class="sxs-lookup"><span data-stu-id="b1423-119">Create the sales orders for this scenario</span></span>
+## <a name="create-the-sales-orders-for-this-scenario"></a><span data-ttu-id="26b61-119">Šio scenarijaus pardavimo užsakymų kūrimas</span><span class="sxs-lookup"><span data-stu-id="26b61-119">Create the sales orders for this scenario</span></span>
 
-<span data-ttu-id="b1423-120">Pirmiausia sukurkite pardavimo užsakymų, su kuriais galite dirbti, rinkinį.</span><span class="sxs-lookup"><span data-stu-id="b1423-120">Start by creating a collection of sales orders that you can work with.</span></span> <span data-ttu-id="b1423-121">Turite dirbti su sandėliu, kuris parengtas naudoti išplėstiniuose sandėlio (WMS) procesuose.</span><span class="sxs-lookup"><span data-stu-id="b1423-121">You must work with a warehouse that is enabled for advanced warehouse (WMS) processes.</span></span> <span data-ttu-id="b1423-122">Jeigu nėra aiškiai nurodyto kito sandėlio, kiekviename iš tolesnių užsakymų rinkinių reikia naudoti tą patį sandėlį.</span><span class="sxs-lookup"><span data-stu-id="b1423-122">Unless a different warehouse is explicitly mentioned, that same warehouse must be used for each of the following sets of orders.</span></span>
+<span data-ttu-id="26b61-120">Pirmiausia sukurkite pardavimo užsakymų, su kuriais galite dirbti, rinkinį.</span><span class="sxs-lookup"><span data-stu-id="26b61-120">Start by creating a collection of sales orders that you can work with.</span></span> <span data-ttu-id="26b61-121">Turite dirbti su sandėliu, kuris parengtas naudoti išplėstiniuose sandėlio (WMS) procesuose.</span><span class="sxs-lookup"><span data-stu-id="26b61-121">You must work with a warehouse that is enabled for advanced warehouse (WMS) processes.</span></span> <span data-ttu-id="26b61-122">Jeigu nėra aiškiai nurodyto kito sandėlio, kiekviename iš tolesnių užsakymų rinkinių reikia naudoti tą patį sandėlį.</span><span class="sxs-lookup"><span data-stu-id="26b61-122">Unless a different warehouse is explicitly mentioned, that same warehouse must be used for each of the following sets of orders.</span></span>
 
-<span data-ttu-id="b1423-123">Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai** ir sukurkite pardavimo užsakymų, kuriuose nustatyti tolesniuose poskirsniuose aprašyti parametrai, rinkinį.</span><span class="sxs-lookup"><span data-stu-id="b1423-123">Go to **Accounts receivable \> Orders \> All sales orders**, and create a collection of sales orders that have the settings that are described in the following subsections.</span></span>
+<span data-ttu-id="26b61-123">Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai** ir sukurkite pardavimo užsakymų, kuriuose nustatyti tolesniuose poskirsniuose aprašyti parametrai, rinkinį.</span><span class="sxs-lookup"><span data-stu-id="26b61-123">Go to **Accounts receivable \> Orders \> All sales orders**, and create a collection of sales orders that have the settings that are described in the following subsections.</span></span>
 
-### <a name="create-order-set-1"></a><span data-ttu-id="b1423-124">1 užsakymų rinkinio kūrimas</span><span class="sxs-lookup"><span data-stu-id="b1423-124">Create order set 1</span></span>
+### <a name="create-order-set-1"></a><span data-ttu-id="26b61-124">1 užsakymų rinkinio kūrimas</span><span class="sxs-lookup"><span data-stu-id="26b61-124">Create order set 1</span></span>
 
-#### <a name="sales-orders-1-1-and-1-2"></a><span data-ttu-id="b1423-125">1-1 ir 1-2 pardavimo užsakymai</span><span class="sxs-lookup"><span data-stu-id="b1423-125">Sales orders 1-1 and 1-2</span></span>
+#### <a name="sales-orders-1-1-and-1-2"></a><span data-ttu-id="26b61-125">1-1 ir 1-2 pardavimo užsakymai</span><span class="sxs-lookup"><span data-stu-id="26b61-125">Sales orders 1-1 and 1-2</span></span>
 
-1. <span data-ttu-id="b1423-126">Sukurkite du vienodus pardavimo užsakymus, kuriuose nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="b1423-126">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="26b61-126">Sukurkite du vienodus pardavimo užsakymus, kuriuose nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="26b61-126">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="b1423-127">**Kliento sąskaita:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="b1423-127">**Customer account:** *US-001*</span></span>
-    - <span data-ttu-id="b1423-128">**Pristatymo būdas:** *Airwa-Air*</span><span class="sxs-lookup"><span data-stu-id="b1423-128">**Mode of delivery:** *Airwa-Air*</span></span>
+    - <span data-ttu-id="26b61-127">**Kliento sąskaita:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="26b61-127">**Customer account:** *US-001*</span></span>
+    - <span data-ttu-id="26b61-128">**Pristatymo būdas:** *Airwa-Air*</span><span class="sxs-lookup"><span data-stu-id="26b61-128">**Mode of delivery:** *Airwa-Air*</span></span>
 
-1. <span data-ttu-id="b1423-129">Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="b1423-129">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="26b61-129">Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="26b61-129">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="b1423-130">**Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)</span><span class="sxs-lookup"><span data-stu-id="b1423-130">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="b1423-131">**Kiekis:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="b1423-131">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="26b61-130">**Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)</span><span class="sxs-lookup"><span data-stu-id="26b61-130">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="26b61-131">**Kiekis:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="26b61-131">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="b1423-132">Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.</span><span class="sxs-lookup"><span data-stu-id="b1423-132">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="26b61-132">Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.</span><span class="sxs-lookup"><span data-stu-id="26b61-132">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
 
-#### <a name="sales-order-1-3"></a><span data-ttu-id="b1423-133">1-3 pardavimo užsakymas</span><span class="sxs-lookup"><span data-stu-id="b1423-133">Sales order 1-3</span></span>
+#### <a name="sales-order-1-3"></a><span data-ttu-id="26b61-133">1-3 pardavimo užsakymas</span><span class="sxs-lookup"><span data-stu-id="26b61-133">Sales order 1-3</span></span>
 
-1. <span data-ttu-id="b1423-134">Sukurkite pardavimo užsakymą, kuriam nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="b1423-134">Create a sales order that has the following settings:</span></span>
+1. <span data-ttu-id="26b61-134">Sukurkite pardavimo užsakymą, kuriam nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="26b61-134">Create a sales order that has the following settings:</span></span>
 
-    - <span data-ttu-id="b1423-135">**Kliento sąskaita:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="b1423-135">**Customer account:** *US-001*</span></span>
-    - <span data-ttu-id="b1423-136">**Pristatymo būdas:** *10*</span><span class="sxs-lookup"><span data-stu-id="b1423-136">**Mode of delivery:** *10*</span></span>
+    - <span data-ttu-id="26b61-135">**Kliento sąskaita:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="26b61-135">**Customer account:** *US-001*</span></span>
+    - <span data-ttu-id="26b61-136">**Pristatymo būdas:** *10*</span><span class="sxs-lookup"><span data-stu-id="26b61-136">**Mode of delivery:** *10*</span></span>
 
-1. <span data-ttu-id="b1423-137">Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="b1423-137">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="26b61-137">Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="26b61-137">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="b1423-138">**Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)</span><span class="sxs-lookup"><span data-stu-id="b1423-138">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="b1423-139">**Kiekis:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="b1423-139">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="26b61-138">**Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)</span><span class="sxs-lookup"><span data-stu-id="26b61-138">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="26b61-139">**Kiekis:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="26b61-139">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="b1423-140">Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.</span><span class="sxs-lookup"><span data-stu-id="b1423-140">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
-1. <span data-ttu-id="b1423-141">Įtraukite antrą pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="b1423-141">Add a second order line that has the following settings:</span></span>
+1. <span data-ttu-id="26b61-140">Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.</span><span class="sxs-lookup"><span data-stu-id="26b61-140">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="26b61-141">Įtraukite antrą pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="26b61-141">Add a second order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="b1423-142">**Prekės numeris:** *A0002* (prekė, kuriai nepriskirtas filtras **4 kodas**)</span><span class="sxs-lookup"><span data-stu-id="b1423-142">**Item number:** *A0002* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="b1423-143">**Kiekis:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="b1423-143">**Quantity:** *1.00*</span></span>
-    - <span data-ttu-id="b1423-144">**Pristatymo būdas:** *Airwa-Air*</span><span class="sxs-lookup"><span data-stu-id="b1423-144">**Mode of delivery:** *Airwa-Air*</span></span>
+    - <span data-ttu-id="26b61-142">**Prekės numeris:** *A0002* (prekė, kuriai nepriskirtas filtras **4 kodas**)</span><span class="sxs-lookup"><span data-stu-id="26b61-142">**Item number:** *A0002* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="26b61-143">**Kiekis:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="26b61-143">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="26b61-144">**Pristatymo būdas:** *Airwa-Air*</span><span class="sxs-lookup"><span data-stu-id="26b61-144">**Mode of delivery:** *Airwa-Air*</span></span>
 
-1. <span data-ttu-id="b1423-145">Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad būtų rezervuota antroji užsakymo eilutė.</span><span class="sxs-lookup"><span data-stu-id="b1423-145">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the second order line.</span></span>
+1. <span data-ttu-id="26b61-145">Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad būtų rezervuota antroji užsakymo eilutė.</span><span class="sxs-lookup"><span data-stu-id="26b61-145">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the second order line.</span></span>
 
-### <a name="create-order-set-2"></a><span data-ttu-id="b1423-146">2 užsakymų rinkinio kūrimas</span><span class="sxs-lookup"><span data-stu-id="b1423-146">Create order set 2</span></span>
+### <a name="create-order-set-2"></a><span data-ttu-id="26b61-146">2 užsakymų rinkinio kūrimas</span><span class="sxs-lookup"><span data-stu-id="26b61-146">Create order set 2</span></span>
 
-#### <a name="sales-orders-2-1-and-2-2"></a><span data-ttu-id="b1423-147">2-1 ir 2-2 pardavimo užsakymai</span><span class="sxs-lookup"><span data-stu-id="b1423-147">Sales orders 2-1 and 2-2</span></span>
+#### <a name="sales-orders-2-1-and-2-2"></a><span data-ttu-id="26b61-147">2-1 ir 2-2 pardavimo užsakymai</span><span class="sxs-lookup"><span data-stu-id="26b61-147">Sales orders 2-1 and 2-2</span></span>
 
-1. <span data-ttu-id="b1423-148">Sukurkite du vienodus pardavimo užsakymus, kuriuose nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="b1423-148">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="26b61-148">Sukurkite du vienodus pardavimo užsakymus, kuriuose nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="26b61-148">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="b1423-149">**Kliento sąskaita:** *US-002*</span><span class="sxs-lookup"><span data-stu-id="b1423-149">**Customer account:** *US-002*</span></span>
-    - <span data-ttu-id="b1423-150">**Pristatymo būdas:** *Airwa-Air*</span><span class="sxs-lookup"><span data-stu-id="b1423-150">**Mode of delivery:** *Airwa-Air*</span></span>
+    - <span data-ttu-id="26b61-149">**Kliento sąskaita:** *US-002*</span><span class="sxs-lookup"><span data-stu-id="26b61-149">**Customer account:** *US-002*</span></span>
+    - <span data-ttu-id="26b61-150">**Pristatymo būdas:** *Airwa-Air*</span><span class="sxs-lookup"><span data-stu-id="26b61-150">**Mode of delivery:** *Airwa-Air*</span></span>
 
-1. <span data-ttu-id="b1423-151">Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="b1423-151">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="26b61-151">Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="26b61-151">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="b1423-152">**Prekės numeris:** *M9200* (prekė, kurios filtras **4 kodas** nustatytas į *Degus*)</span><span class="sxs-lookup"><span data-stu-id="b1423-152">**Item number:** *M9200* (an item where the **Code 4** filter is set to *Flammable*)</span></span>
-    - <span data-ttu-id="b1423-153">**Kiekis:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="b1423-153">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="26b61-152">**Prekės numeris:** *M9200* (prekė, kurios filtras **4 kodas** nustatytas į *Degus*)</span><span class="sxs-lookup"><span data-stu-id="26b61-152">**Item number:** *M9200* (an item where the **Code 4** filter is set to *Flammable*)</span></span>
+    - <span data-ttu-id="26b61-153">**Kiekis:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="26b61-153">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="b1423-154">Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.</span><span class="sxs-lookup"><span data-stu-id="b1423-154">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
-1. <span data-ttu-id="b1423-155">Įtraukite antrą pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="b1423-155">Add a second order line that has the following settings:</span></span>
+1. <span data-ttu-id="26b61-154">Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.</span><span class="sxs-lookup"><span data-stu-id="26b61-154">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="26b61-155">Įtraukite antrą pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="26b61-155">Add a second order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="b1423-156">**Prekės numeris:** *M9201* (prekė, kurios filtras **4 kodas** nustatytas į *Sprogus*)</span><span class="sxs-lookup"><span data-stu-id="b1423-156">**Item number:** *M9201* (an item where the **Code 4** filter is set to *Explosive*)</span></span>
-    - <span data-ttu-id="b1423-157">**Kiekis:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="b1423-157">**Quantity:** *1.00*</span></span>
-    - <span data-ttu-id="b1423-158">**Pristatymo būdas:** *Airwa-Air*</span><span class="sxs-lookup"><span data-stu-id="b1423-158">**Mode of delivery:** *Airwa-Air*</span></span>
+    - <span data-ttu-id="26b61-156">**Prekės numeris:** *M9201* (prekė, kurios filtras **4 kodas** nustatytas į *Sprogus*)</span><span class="sxs-lookup"><span data-stu-id="26b61-156">**Item number:** *M9201* (an item where the **Code 4** filter is set to *Explosive*)</span></span>
+    - <span data-ttu-id="26b61-157">**Kiekis:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="26b61-157">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="26b61-158">**Pristatymo būdas:** *Airwa-Air*</span><span class="sxs-lookup"><span data-stu-id="26b61-158">**Mode of delivery:** *Airwa-Air*</span></span>
 
-1. <span data-ttu-id="b1423-159">Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad būtų rezervuota antroji užsakymo eilutė.</span><span class="sxs-lookup"><span data-stu-id="b1423-159">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the second order line.</span></span>
+1. <span data-ttu-id="26b61-159">Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad būtų rezervuota antroji užsakymo eilutė.</span><span class="sxs-lookup"><span data-stu-id="26b61-159">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the second order line.</span></span>
 
-### <a name="create-order-set-3"></a><span data-ttu-id="b1423-160">3 užsakymų rinkinio kūrimas</span><span class="sxs-lookup"><span data-stu-id="b1423-160">Create order set 3</span></span>
+### <a name="create-order-set-3"></a><span data-ttu-id="26b61-160">3 užsakymų rinkinio kūrimas</span><span class="sxs-lookup"><span data-stu-id="26b61-160">Create order set 3</span></span>
 
-#### <a name="sales-orders-3-1-and-3-2"></a><span data-ttu-id="b1423-161">3-1 ir 3-2 pardavimo užsakymai</span><span class="sxs-lookup"><span data-stu-id="b1423-161">Sales orders 3-1 and 3-2</span></span>
+#### <a name="sales-orders-3-1-and-3-2"></a><span data-ttu-id="26b61-161">3-1 ir 3-2 pardavimo užsakymai</span><span class="sxs-lookup"><span data-stu-id="26b61-161">Sales orders 3-1 and 3-2</span></span>
 
-1. <span data-ttu-id="b1423-162">Sukurkite du vienodus pardavimo užsakymus, kuriuose nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="b1423-162">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="26b61-162">Sukurkite du vienodus pardavimo užsakymus, kuriuose nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="26b61-162">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="b1423-163">**Kliento sąskaita:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="b1423-163">**Customer account:** *US-001*</span></span>
-    - <span data-ttu-id="b1423-164">**Kliento paraiška:** *1*</span><span class="sxs-lookup"><span data-stu-id="b1423-164">**Customer requisition:** *1*</span></span>
+    - <span data-ttu-id="26b61-163">**Kliento sąskaita:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="26b61-163">**Customer account:** *US-001*</span></span>
+    - <span data-ttu-id="26b61-164">**Kliento paraiška:** *1*</span><span class="sxs-lookup"><span data-stu-id="26b61-164">**Customer requisition:** *1*</span></span>
 
-1. <span data-ttu-id="b1423-165">Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="b1423-165">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="26b61-165">Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="26b61-165">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="b1423-166">**Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)</span><span class="sxs-lookup"><span data-stu-id="b1423-166">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="b1423-167">**Kiekis:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="b1423-167">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="26b61-166">**Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)</span><span class="sxs-lookup"><span data-stu-id="26b61-166">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="26b61-167">**Kiekis:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="26b61-167">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="b1423-168">Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.</span><span class="sxs-lookup"><span data-stu-id="b1423-168">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="26b61-168">Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.</span><span class="sxs-lookup"><span data-stu-id="26b61-168">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
 
-#### <a name="sales-orders-3-3-and-3-4"></a><span data-ttu-id="b1423-169">3-3 ir 3-4 pardavimo užsakymai</span><span class="sxs-lookup"><span data-stu-id="b1423-169">Sales orders 3-3 and 3-4</span></span>
+#### <a name="sales-orders-3-3-and-3-4"></a><span data-ttu-id="26b61-169">3-3 ir 3-4 pardavimo užsakymai</span><span class="sxs-lookup"><span data-stu-id="26b61-169">Sales orders 3-3 and 3-4</span></span>
 
-1. <span data-ttu-id="b1423-170">Sukurkite du vienodus pardavimo užsakymus, kuriuose nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="b1423-170">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="26b61-170">Sukurkite du vienodus pardavimo užsakymus, kuriuose nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="26b61-170">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="b1423-171">**Kliento sąskaita:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="b1423-171">**Customer account:** *US-001*</span></span>
-    - <span data-ttu-id="b1423-172">**Kliento paraiška:** *2*</span><span class="sxs-lookup"><span data-stu-id="b1423-172">**Customer requisition:** *2*</span></span>
+    - <span data-ttu-id="26b61-171">**Kliento sąskaita:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="26b61-171">**Customer account:** *US-001*</span></span>
+    - <span data-ttu-id="26b61-172">**Kliento paraiška:** *2*</span><span class="sxs-lookup"><span data-stu-id="26b61-172">**Customer requisition:** *2*</span></span>
 
-1. <span data-ttu-id="b1423-173">Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="b1423-173">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="26b61-173">Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="26b61-173">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="b1423-174">**Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)</span><span class="sxs-lookup"><span data-stu-id="b1423-174">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="b1423-175">**Kiekis:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="b1423-175">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="26b61-174">**Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)</span><span class="sxs-lookup"><span data-stu-id="26b61-174">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="26b61-175">**Kiekis:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="26b61-175">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="b1423-176">Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.</span><span class="sxs-lookup"><span data-stu-id="b1423-176">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="26b61-176">Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.</span><span class="sxs-lookup"><span data-stu-id="26b61-176">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
 
-### <a name="create-order-set-4"></a><span data-ttu-id="b1423-177">4 užsakymų rinkinio kūrimas</span><span class="sxs-lookup"><span data-stu-id="b1423-177">Create order set 4</span></span>
+### <a name="create-order-set-4"></a><span data-ttu-id="26b61-177">4 užsakymų rinkinio kūrimas</span><span class="sxs-lookup"><span data-stu-id="26b61-177">Create order set 4</span></span>
 
-#### <a name="sales-orders-4-1-and-4-2"></a><span data-ttu-id="b1423-178">4-1 ir 4-2 pardavimo užsakymai</span><span class="sxs-lookup"><span data-stu-id="b1423-178">Sales orders 4-1 and 4-2</span></span>
+#### <a name="sales-orders-4-1-and-4-2"></a><span data-ttu-id="26b61-178">4-1 ir 4-2 pardavimo užsakymai</span><span class="sxs-lookup"><span data-stu-id="26b61-178">Sales orders 4-1 and 4-2</span></span>
 
-1. <span data-ttu-id="b1423-179">Sukurkite du vienodus pardavimo užsakymus, kuriuose nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="b1423-179">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="26b61-179">Sukurkite du vienodus pardavimo užsakymus, kuriuose nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="26b61-179">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="b1423-180">**Kliento sąskaita:** *US-003*</span><span class="sxs-lookup"><span data-stu-id="b1423-180">**Customer account:** *US-003*</span></span>
+    - <span data-ttu-id="26b61-180">**Kliento sąskaita:** *US-003*</span><span class="sxs-lookup"><span data-stu-id="26b61-180">**Customer account:** *US-003*</span></span>
 
-1. <span data-ttu-id="b1423-181">Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="b1423-181">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="26b61-181">Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="26b61-181">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="b1423-182">**Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)</span><span class="sxs-lookup"><span data-stu-id="b1423-182">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="b1423-183">**Kiekis:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="b1423-183">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="26b61-182">**Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)</span><span class="sxs-lookup"><span data-stu-id="26b61-182">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="26b61-183">**Kiekis:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="26b61-183">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="b1423-184">Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.</span><span class="sxs-lookup"><span data-stu-id="b1423-184">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="26b61-184">Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.</span><span class="sxs-lookup"><span data-stu-id="26b61-184">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
 
-#### <a name="sales-orders-4-3-and-4-4"></a><span data-ttu-id="b1423-185">4-3 ir 4-4 pardavimo užsakymai</span><span class="sxs-lookup"><span data-stu-id="b1423-185">Sales orders 4-3 and 4-4</span></span>
+#### <a name="sales-orders-4-3-and-4-4"></a><span data-ttu-id="26b61-185">4-3 ir 4-4 pardavimo užsakymai</span><span class="sxs-lookup"><span data-stu-id="26b61-185">Sales orders 4-3 and 4-4</span></span>
 
-1. <span data-ttu-id="b1423-186">Sukurkite du vienodus pardavimo užsakymus, kuriuose nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="b1423-186">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="26b61-186">Sukurkite du vienodus pardavimo užsakymus, kuriuose nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="26b61-186">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="b1423-187">**Kliento sąskaita:** *US-004*</span><span class="sxs-lookup"><span data-stu-id="b1423-187">**Customer account:** *US-004*</span></span>
+    - <span data-ttu-id="26b61-187">**Kliento sąskaita:** *US-004*</span><span class="sxs-lookup"><span data-stu-id="26b61-187">**Customer account:** *US-004*</span></span>
 
-1. <span data-ttu-id="b1423-188">Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="b1423-188">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="26b61-188">Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="26b61-188">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="b1423-189">**Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)</span><span class="sxs-lookup"><span data-stu-id="b1423-189">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="b1423-190">**Kiekis:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="b1423-190">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="26b61-189">**Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)</span><span class="sxs-lookup"><span data-stu-id="26b61-189">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="26b61-190">**Kiekis:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="26b61-190">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="b1423-191">Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.</span><span class="sxs-lookup"><span data-stu-id="b1423-191">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="26b61-191">Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.</span><span class="sxs-lookup"><span data-stu-id="26b61-191">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
 
-#### <a name="sales-orders-4-5-and-4-6"></a><span data-ttu-id="b1423-192">4-5 ir 4-6 pardavimo užsakymai</span><span class="sxs-lookup"><span data-stu-id="b1423-192">Sales orders 4-5 and 4-6</span></span>
+#### <a name="sales-orders-4-5-and-4-6"></a><span data-ttu-id="26b61-192">4-5 ir 4-6 pardavimo užsakymai</span><span class="sxs-lookup"><span data-stu-id="26b61-192">Sales orders 4-5 and 4-6</span></span>
 
-1. <span data-ttu-id="b1423-193">Sukurkite du vienodus pardavimo užsakymus, kuriuose nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="b1423-193">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="26b61-193">Sukurkite du vienodus pardavimo užsakymus, kuriuose nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="26b61-193">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="b1423-194">**Kliento sąskaita:** *US-007*</span><span class="sxs-lookup"><span data-stu-id="b1423-194">**Customer account:** *US-007*</span></span>
-    - <span data-ttu-id="b1423-195">**Vieta:** *6*</span><span class="sxs-lookup"><span data-stu-id="b1423-195">**Site:** *6*</span></span>
-    - <span data-ttu-id="b1423-196">**Sandėlis:** *61*</span><span class="sxs-lookup"><span data-stu-id="b1423-196">**Warehouse:** *61*</span></span>
-    - <span data-ttu-id="b1423-197">**Telkinys:** *ShipCons*</span><span class="sxs-lookup"><span data-stu-id="b1423-197">**Pool:** *ShipCons*</span></span>
+    - <span data-ttu-id="26b61-194">**Kliento sąskaita:** *US-007*</span><span class="sxs-lookup"><span data-stu-id="26b61-194">**Customer account:** *US-007*</span></span>
+    - <span data-ttu-id="26b61-195">**Vieta:** *6*</span><span class="sxs-lookup"><span data-stu-id="26b61-195">**Site:** *6*</span></span>
+    - <span data-ttu-id="26b61-196">**Sandėlis:** *61*</span><span class="sxs-lookup"><span data-stu-id="26b61-196">**Warehouse:** *61*</span></span>
+    - <span data-ttu-id="26b61-197">**Telkinys:** *ShipCons*</span><span class="sxs-lookup"><span data-stu-id="26b61-197">**Pool:** *ShipCons*</span></span>
 
-1. <span data-ttu-id="b1423-198">Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="b1423-198">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="26b61-198">Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="26b61-198">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="b1423-199">**Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)</span><span class="sxs-lookup"><span data-stu-id="b1423-199">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="b1423-200">**Kiekis:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="b1423-200">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="26b61-199">**Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)</span><span class="sxs-lookup"><span data-stu-id="26b61-199">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="26b61-200">**Kiekis:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="26b61-200">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="b1423-201">Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.</span><span class="sxs-lookup"><span data-stu-id="b1423-201">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="26b61-201">Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.</span><span class="sxs-lookup"><span data-stu-id="26b61-201">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
 
-#### <a name="sales-orders-4-7-and-4-8"></a><span data-ttu-id="b1423-202">4-7 ir 4-8 pardavimo užsakymai</span><span class="sxs-lookup"><span data-stu-id="b1423-202">Sales orders 4-7 and 4-8</span></span>
+#### <a name="sales-orders-4-7-and-4-8"></a><span data-ttu-id="26b61-202">4-7 ir 4-8 pardavimo užsakymai</span><span class="sxs-lookup"><span data-stu-id="26b61-202">Sales orders 4-7 and 4-8</span></span>
 
-1. <span data-ttu-id="b1423-203">Sukurkite du vienodus pardavimo užsakymus, kuriuose nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="b1423-203">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="26b61-203">Sukurkite du vienodus pardavimo užsakymus, kuriuose nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="26b61-203">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="b1423-204">**Kliento sąskaita:** *US-007*</span><span class="sxs-lookup"><span data-stu-id="b1423-204">**Customer account:** *US-007*</span></span>
-    - <span data-ttu-id="b1423-205">**Vieta:** *6*</span><span class="sxs-lookup"><span data-stu-id="b1423-205">**Site:** *6*</span></span>
-    - <span data-ttu-id="b1423-206">**Sandėlis:** *61*</span><span class="sxs-lookup"><span data-stu-id="b1423-206">**Warehouse:** *61*</span></span>
-    - <span data-ttu-id="b1423-207">**Telkinys:** šį lauką palikite tuščią.</span><span class="sxs-lookup"><span data-stu-id="b1423-207">**Pool:** Leave this field blank.</span></span>
+    - <span data-ttu-id="26b61-204">**Kliento sąskaita:** *US-007*</span><span class="sxs-lookup"><span data-stu-id="26b61-204">**Customer account:** *US-007*</span></span>
+    - <span data-ttu-id="26b61-205">**Vieta:** *6*</span><span class="sxs-lookup"><span data-stu-id="26b61-205">**Site:** *6*</span></span>
+    - <span data-ttu-id="26b61-206">**Sandėlis:** *61*</span><span class="sxs-lookup"><span data-stu-id="26b61-206">**Warehouse:** *61*</span></span>
+    - <span data-ttu-id="26b61-207">**Telkinys:** šį lauką palikite tuščią.</span><span class="sxs-lookup"><span data-stu-id="26b61-207">**Pool:** Leave this field blank.</span></span>
 
-1. <span data-ttu-id="b1423-208">Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="b1423-208">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="26b61-208">Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.</span><span class="sxs-lookup"><span data-stu-id="26b61-208">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="b1423-209">**Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)</span><span class="sxs-lookup"><span data-stu-id="b1423-209">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="b1423-210">**Kiekis:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="b1423-210">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="26b61-209">**Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)</span><span class="sxs-lookup"><span data-stu-id="26b61-209">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="26b61-210">**Kiekis:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="26b61-210">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="b1423-211">Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.</span><span class="sxs-lookup"><span data-stu-id="b1423-211">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="26b61-211">Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.</span><span class="sxs-lookup"><span data-stu-id="26b61-211">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
 
-## <a name="release-the-orders-to-the-warehouse"></a><span data-ttu-id="b1423-212">Užsakymų išleidimas į sandėlį</span><span class="sxs-lookup"><span data-stu-id="b1423-212">Release the orders to the warehouse</span></span>
+## <a name="release-the-orders-to-the-warehouse"></a><span data-ttu-id="26b61-212">Užsakymų išleidimas į sandėlį</span><span class="sxs-lookup"><span data-stu-id="26b61-212">Release the orders to the warehouse</span></span>
 
-<span data-ttu-id="b1423-213">Atlikite tolesnius veiksmus, kad išleistumėte kiekvieną šiame scenarijuje sukurtą pardavimo užsakymą į sandėlį.</span><span class="sxs-lookup"><span data-stu-id="b1423-213">Follow these steps to release each sales order that you created for this scenario to the warehouse.</span></span>
+<span data-ttu-id="26b61-213">Atlikite tolesnius veiksmus, kad išleistumėte kiekvieną šiame scenarijuje sukurtą pardavimo užsakymą į sandėlį.</span><span class="sxs-lookup"><span data-stu-id="26b61-213">Follow these steps to release each sales order that you created for this scenario to the warehouse.</span></span>
 
-1. <span data-ttu-id="b1423-214">Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai**.</span><span class="sxs-lookup"><span data-stu-id="b1423-214">Go to **Accounts receivable \> Orders \> All sales orders**.</span></span>
-1. <span data-ttu-id="b1423-215">Raskite ir pasirinkite pardavimo užsakymą, kurį norite išleisti.</span><span class="sxs-lookup"><span data-stu-id="b1423-215">Find and select the sales order to release.</span></span>
-1. <span data-ttu-id="b1423-216">Veiksmų srities skirtuke **Sandėlis** pasirinkite **Veiksmai \> Išleisti į sandėlį**, kad būtų išleistas pasirinktas pardavimo užsakymas.</span><span class="sxs-lookup"><span data-stu-id="b1423-216">On the Action Pane, on the **Warehouse** tab, select **Actions \> Release to warehouse** to release the selected sales order.</span></span>
-1. <span data-ttu-id="b1423-217">Kartokite šią procedūrą kiekvienam kitam šiame scenarijuje sukurtam pardavimo užsakymui.</span><span class="sxs-lookup"><span data-stu-id="b1423-217">Repeat this procedure for every other sales order that you created for this scenario.</span></span>
+1. <span data-ttu-id="26b61-214">Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai**.</span><span class="sxs-lookup"><span data-stu-id="26b61-214">Go to **Accounts receivable \> Orders \> All sales orders**.</span></span>
+1. <span data-ttu-id="26b61-215">Raskite ir pasirinkite pardavimo užsakymą, kurį norite išleisti.</span><span class="sxs-lookup"><span data-stu-id="26b61-215">Find and select the sales order to release.</span></span>
+1. <span data-ttu-id="26b61-216">Veiksmų srities skirtuke **Sandėlis** pasirinkite **Veiksmai \> Išleisti į sandėlį**, kad būtų išleistas pasirinktas pardavimo užsakymas.</span><span class="sxs-lookup"><span data-stu-id="26b61-216">On the Action Pane, on the **Warehouse** tab, select **Actions \> Release to warehouse** to release the selected sales order.</span></span>
+1. <span data-ttu-id="26b61-217">Kartokite šią procedūrą kiekvienam kitam šiame scenarijuje sukurtam pardavimo užsakymui.</span><span class="sxs-lookup"><span data-stu-id="26b61-217">Repeat this procedure for every other sales order that you created for this scenario.</span></span>
 
-## <a name="consolidate-the-shipments-by-using-the-shipment-consolidation-workbench"></a><span data-ttu-id="b1423-218">Siuntų konsolidacija naudojant siuntų konsolidacijos darbo sritį</span><span class="sxs-lookup"><span data-stu-id="b1423-218">Consolidate the shipments by using the shipment consolidation workbench</span></span>
+## <a name="consolidate-the-shipments-by-using-the-shipment-consolidation-workbench"></a><span data-ttu-id="26b61-218">Siuntų konsolidacija naudojant siuntų konsolidacijos darbo sritį</span><span class="sxs-lookup"><span data-stu-id="26b61-218">Consolidate the shipments by using the shipment consolidation workbench</span></span>
 
-1. <span data-ttu-id="b1423-219">Eikite į **Sandėlio valdymas \> Išleidimas į sandėlį \> Siuntos konsolidacijos darbo sritis**.</span><span class="sxs-lookup"><span data-stu-id="b1423-219">Go to **Warehouse management \> Release to warehouse \> Shipment consolidation workbench**.</span></span>
-1. <span data-ttu-id="b1423-220">Veiksmų srityje pasirinkite **Redaguoti užklausą**.</span><span class="sxs-lookup"><span data-stu-id="b1423-220">On the Action Pane, select **Edit query**.</span></span>
-1. <span data-ttu-id="b1423-221">Užklausos rengyklės dialogo lango skirtuke **Diapazonas** pasirinkite **Įtraukti**, kad įtrauktumėte eilutę, kuriai nustatyti tolesni parametrai, į tinklelį.</span><span class="sxs-lookup"><span data-stu-id="b1423-221">In the query editor dialog box, on the **Range** tab, select **Add** to add a row that has the following settings to the grid:</span></span>
+1. <span data-ttu-id="26b61-219">Eikite į **Sandėlio valdymas \> Išleidimas į sandėlį \> Siuntos konsolidacijos darbo sritis**.</span><span class="sxs-lookup"><span data-stu-id="26b61-219">Go to **Warehouse management \> Release to warehouse \> Shipment consolidation workbench**.</span></span>
+1. <span data-ttu-id="26b61-220">Veiksmų srityje pasirinkite **Redaguoti užklausą**.</span><span class="sxs-lookup"><span data-stu-id="26b61-220">On the Action Pane, select **Edit query**.</span></span>
+1. <span data-ttu-id="26b61-221">Užklausos rengyklės dialogo lango skirtuke **Diapazonas** pasirinkite **Įtraukti**, kad įtrauktumėte eilutę, kuriai nustatyti tolesni parametrai, į tinklelį.</span><span class="sxs-lookup"><span data-stu-id="26b61-221">In the query editor dialog box, on the **Range** tab, select **Add** to add a row that has the following settings to the grid:</span></span>
 
-    - <span data-ttu-id="b1423-222">**Lentelė:** *pardavimo užsakymai*</span><span class="sxs-lookup"><span data-stu-id="b1423-222">**Table:** *Sales orders*</span></span>
-    - <span data-ttu-id="b1423-223">**Laukas:** *pardavimo užsakymas*</span><span class="sxs-lookup"><span data-stu-id="b1423-223">**Field:** *Sales order*</span></span>
-    - <span data-ttu-id="b1423-224">**Kriterijai:** įveskite kableliais atskirtų pardavimo užsakymų numerių sąrašą kiekvienam užsakymų rinkiniui, sukurtam šiam scenarijui.</span><span class="sxs-lookup"><span data-stu-id="b1423-224">**Criteria:** Enter a comma-separated list of the sales order numbers for each order set that you created for this scenario.</span></span>
+    - <span data-ttu-id="26b61-222">**Lentelė:** *pardavimo užsakymai*</span><span class="sxs-lookup"><span data-stu-id="26b61-222">**Table:** *Sales orders*</span></span>
+    - <span data-ttu-id="26b61-223">**Laukas:** *pardavimo užsakymas*</span><span class="sxs-lookup"><span data-stu-id="26b61-223">**Field:** *Sales order*</span></span>
+    - <span data-ttu-id="26b61-224">**Kriterijai:** įveskite kableliais atskirtų pardavimo užsakymų numerių sąrašą kiekvienam užsakymų rinkiniui, sukurtam šiam scenarijui.</span><span class="sxs-lookup"><span data-stu-id="26b61-224">**Criteria:** Enter a comma-separated list of the sales order numbers for each order set that you created for this scenario.</span></span>
 
-1. <span data-ttu-id="b1423-225">Pasirinkite **Gerai**, kad įrašytumėte jūsų užklausą ir uždarytumėte dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="b1423-225">Select **OK** to save your query and close the dialog box.</span></span>
-1. <span data-ttu-id="b1423-226">Veiksmų srityje pasirinkite **Konsoliduoti siuntas**.</span><span class="sxs-lookup"><span data-stu-id="b1423-226">On the Action Pane, select **Consolidate shipments**.</span></span>
-1. <span data-ttu-id="b1423-227">Pasirinkite visas siuntas, tada veiksmų srityje pasirinkite **Konsoliduoti**.</span><span class="sxs-lookup"><span data-stu-id="b1423-227">Select all the shipments, and then, on the Action Pane, select **Consolidate**.</span></span>
+1. <span data-ttu-id="26b61-225">Pasirinkite **Gerai**, kad įrašytumėte jūsų užklausą ir uždarytumėte dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="26b61-225">Select **OK** to save your query and close the dialog box.</span></span>
+1. <span data-ttu-id="26b61-226">Veiksmų srityje pasirinkite **Konsoliduoti siuntas**.</span><span class="sxs-lookup"><span data-stu-id="26b61-226">On the Action Pane, select **Consolidate shipments**.</span></span>
+1. <span data-ttu-id="26b61-227">Pasirinkite visas siuntas, tada veiksmų srityje pasirinkite **Konsoliduoti**.</span><span class="sxs-lookup"><span data-stu-id="26b61-227">Select all the shipments, and then, on the Action Pane, select **Consolidate**.</span></span>
 
-## <a name="verify-the-shipments"></a><span data-ttu-id="b1423-228">Siuntų tikrinimas</span><span class="sxs-lookup"><span data-stu-id="b1423-228">Verify the shipments</span></span>
+## <a name="verify-the-shipments"></a><span data-ttu-id="26b61-228">Siuntų tikrinimas</span><span class="sxs-lookup"><span data-stu-id="26b61-228">Verify the shipments</span></span>
 
-<span data-ttu-id="b1423-229">Tolesnė procedūra leidžia tikrinti siuntas, sukurtas arba atnaujintas dėl siuntos konsolidacijos.</span><span class="sxs-lookup"><span data-stu-id="b1423-229">The following procedure lets you verify the shipments that have been created or updated as a result of shipment consolidation.</span></span> <span data-ttu-id="b1423-230">Naudokite ją, norėdami peržiūrėti kiekvieną užsakymą, kurį sukūrėte šiam scenarijui, ir tada peržiūrėkite tolesnius poskyrius, kad įsitikintumėte, jog gavote numatytus rezultatus.</span><span class="sxs-lookup"><span data-stu-id="b1423-230">Use it to review each order set that you created for this scenario, and then review the subsections that follow to make sure that you've obtained the expected results.</span></span>
+<span data-ttu-id="26b61-229">Tolesnė procedūra leidžia tikrinti siuntas, sukurtas arba atnaujintas dėl siuntos konsolidacijos.</span><span class="sxs-lookup"><span data-stu-id="26b61-229">The following procedure lets you verify the shipments that have been created or updated as a result of shipment consolidation.</span></span> <span data-ttu-id="26b61-230">Naudokite ją, norėdami peržiūrėti kiekvieną užsakymą, kurį sukūrėte šiam scenarijui, ir tada peržiūrėkite tolesnius poskyrius, kad įsitikintumėte, jog gavote numatytus rezultatus.</span><span class="sxs-lookup"><span data-stu-id="26b61-230">Use it to review each order set that you created for this scenario, and then review the subsections that follow to make sure that you've obtained the expected results.</span></span>
 
-1. <span data-ttu-id="b1423-231">Eikite į **Sandėlio valdymas \> Siuntos \> Visos siuntos**.</span><span class="sxs-lookup"><span data-stu-id="b1423-231">Go to **Warehouse management \> Shipments \> All shipments**.</span></span>
-1. <span data-ttu-id="b1423-232">Raskite ir pasirinkite reikiamą siuntą.</span><span class="sxs-lookup"><span data-stu-id="b1423-232">Find and select the required shipment.</span></span>
-1. <span data-ttu-id="b1423-233">Jei kuriant ar naujinant siuntą buvo naudojama konsolidacijos strategija, turėtumėte ją matyti lauke **Siuntos konsolidacijos strategija**.</span><span class="sxs-lookup"><span data-stu-id="b1423-233">If a consolidation policy was used when the shipment was created or updated, you should see it in the **Shipment consolidation policy** field.</span></span>
+1. <span data-ttu-id="26b61-231">Eikite į **Sandėlio valdymas \> Siuntos \> Visos siuntos**.</span><span class="sxs-lookup"><span data-stu-id="26b61-231">Go to **Warehouse management \> Shipments \> All shipments**.</span></span>
+1. <span data-ttu-id="26b61-232">Raskite ir pasirinkite reikiamą siuntą.</span><span class="sxs-lookup"><span data-stu-id="26b61-232">Find and select the required shipment.</span></span>
+1. <span data-ttu-id="26b61-233">Jei kuriant ar naujinant siuntą buvo naudojama konsolidacijos strategija, turėtumėte ją matyti lauke **Siuntos konsolidacijos strategija**.</span><span class="sxs-lookup"><span data-stu-id="26b61-233">If a consolidation policy was used when the shipment was created or updated, you should see it in the **Shipment consolidation policy** field.</span></span>
 
-### <a name="related-shipments-for-order-set-1"></a><span data-ttu-id="b1423-234">1 užsakymų rinkinio susijusios siuntos</span><span class="sxs-lookup"><span data-stu-id="b1423-234">Related shipments for order set 1</span></span>
+### <a name="related-shipments-for-order-set-1"></a><span data-ttu-id="26b61-234">1 užsakymų rinkinio susijusios siuntos</span><span class="sxs-lookup"><span data-stu-id="26b61-234">Related shipments for order set 1</span></span>
 
-<span data-ttu-id="b1423-235">Turėtų būti sukurtos dvi siuntos.</span><span class="sxs-lookup"><span data-stu-id="b1423-235">Two shipments should have been created:</span></span>
+<span data-ttu-id="26b61-235">Turėtų būti sukurtos dvi siuntos.</span><span class="sxs-lookup"><span data-stu-id="26b61-235">Two shipments should have been created:</span></span>
 
-- <span data-ttu-id="b1423-236">Pirmoje siuntoje yra trys eilutės ir ji buvo sukurta naudojant *CustomerMode* siuntos konsolidacijos strategiją.</span><span class="sxs-lookup"><span data-stu-id="b1423-236">The first shipment contains three lines and was created by using the *CustomerMode* shipment consolidation policy.</span></span>
-- <span data-ttu-id="b1423-237">Antroji siunta, nenaudojanti pristatymo transportavimo būdo *Oro keliai*, buvo sukurta naudojant *CustomerOrderNo* siuntos konsolidacijos strategiją.</span><span class="sxs-lookup"><span data-stu-id="b1423-237">The second shipment, which doesn't use the *Airways* transportation mode of delivery, was created by using the *CustomerOrderNo* shipment consolidation policy.</span></span>
+- <span data-ttu-id="26b61-236">Pirmoje siuntoje yra trys eilutės ir ji buvo sukurta naudojant *CustomerMode* siuntos konsolidacijos strategiją.</span><span class="sxs-lookup"><span data-stu-id="26b61-236">The first shipment contains three lines and was created by using the *CustomerMode* shipment consolidation policy.</span></span>
+- <span data-ttu-id="26b61-237">Antroji siunta, nenaudojanti pristatymo transportavimo būdo *Oro keliai*, buvo sukurta naudojant *CustomerOrderNo* siuntos konsolidacijos strategiją.</span><span class="sxs-lookup"><span data-stu-id="26b61-237">The second shipment, which doesn't use the *Airways* transportation mode of delivery, was created by using the *CustomerOrderNo* shipment consolidation policy.</span></span>
 
-### <a name="related-shipments-for-order-set-2"></a><span data-ttu-id="b1423-238">2 užsakymo rinkinio susijusios siuntos</span><span class="sxs-lookup"><span data-stu-id="b1423-238">Related shipments for order set 2</span></span>
+### <a name="related-shipments-for-order-set-2"></a><span data-ttu-id="26b61-238">2 užsakymo rinkinio susijusios siuntos</span><span class="sxs-lookup"><span data-stu-id="26b61-238">Related shipments for order set 2</span></span>
 
-<span data-ttu-id="b1423-239">Turėtų būti sukurtos trys siuntos.</span><span class="sxs-lookup"><span data-stu-id="b1423-239">Three shipments should have been created:</span></span>
+<span data-ttu-id="26b61-239">Turėtų būti sukurtos trys siuntos.</span><span class="sxs-lookup"><span data-stu-id="26b61-239">Three shipments should have been created:</span></span>
 
-- <span data-ttu-id="b1423-240">Pirmojoje siuntoje yra *degių* prekių.</span><span class="sxs-lookup"><span data-stu-id="b1423-240">The first shipment contains *Flammable* items.</span></span>
-- <span data-ttu-id="b1423-241">Kiekvienoje iš kitų dviejų siuntų yra viena eilutė, turinti *sprogią* prekę.</span><span class="sxs-lookup"><span data-stu-id="b1423-241">Each of the other two shipments contains one line that has the *Explosive* item.</span></span>
+- <span data-ttu-id="26b61-240">Pirmojoje siuntoje yra *degių* prekių.</span><span class="sxs-lookup"><span data-stu-id="26b61-240">The first shipment contains *Flammable* items.</span></span>
+- <span data-ttu-id="26b61-241">Kiekvienoje iš kitų dviejų siuntų yra viena eilutė, turinti *sprogią* prekę.</span><span class="sxs-lookup"><span data-stu-id="26b61-241">Each of the other two shipments contains one line that has the *Explosive* item.</span></span>
 
-### <a name="related-shipments-for-order-set-3"></a><span data-ttu-id="b1423-242">3 užsakymo rinkinio susijusios siuntos</span><span class="sxs-lookup"><span data-stu-id="b1423-242">Related shipments for order set 3</span></span>
+### <a name="related-shipments-for-order-set-3"></a><span data-ttu-id="26b61-242">3 užsakymo rinkinio susijusios siuntos</span><span class="sxs-lookup"><span data-stu-id="26b61-242">Related shipments for order set 3</span></span>
 
-<span data-ttu-id="b1423-243">Turėtų būti sukurtos dvi siuntos.</span><span class="sxs-lookup"><span data-stu-id="b1423-243">Two shipments should have been created:</span></span>
+<span data-ttu-id="26b61-243">Turėtų būti sukurtos dvi siuntos.</span><span class="sxs-lookup"><span data-stu-id="26b61-243">Two shipments should have been created:</span></span>
 
-- <span data-ttu-id="b1423-244">Pirmoje siuntoje yra pardavimo užsakymo eilučių, kuriose laukas **Kliento paraiška** nustatytas į *1*.</span><span class="sxs-lookup"><span data-stu-id="b1423-244">The first shipment contains order lines from the sales order where the **Customer requisition** field is set to *1*.</span></span>
-- <span data-ttu-id="b1423-245">Antroje siuntoje yra pardavimo užsakymo eilučių, kuriose laukas **Kliento paraiška** nustatytas į *2*.</span><span class="sxs-lookup"><span data-stu-id="b1423-245">The second shipment contains order lines from sales order where the **Customer requisition** field is set to *2*.</span></span>
+- <span data-ttu-id="26b61-244">Pirmoje siuntoje yra pardavimo užsakymo eilučių, kuriose laukas **Kliento paraiška** nustatytas į *1*.</span><span class="sxs-lookup"><span data-stu-id="26b61-244">The first shipment contains order lines from the sales order where the **Customer requisition** field is set to *1*.</span></span>
+- <span data-ttu-id="26b61-245">Antroje siuntoje yra pardavimo užsakymo eilučių, kuriose laukas **Kliento paraiška** nustatytas į *2*.</span><span class="sxs-lookup"><span data-stu-id="26b61-245">The second shipment contains order lines from sales order where the **Customer requisition** field is set to *2*.</span></span>
 
-### <a name="related-shipments-for-order-set-4"></a><span data-ttu-id="b1423-246">4 užsakymo rinkinio susijusios siuntos</span><span class="sxs-lookup"><span data-stu-id="b1423-246">Related shipments for order set 4</span></span>
+### <a name="related-shipments-for-order-set-4"></a><span data-ttu-id="26b61-246">4 užsakymo rinkinio susijusios siuntos</span><span class="sxs-lookup"><span data-stu-id="26b61-246">Related shipments for order set 4</span></span>
 
-<span data-ttu-id="b1423-247">Turėtų būti sukurtos keturios siuntos.</span><span class="sxs-lookup"><span data-stu-id="b1423-247">Four shipments should have been created:</span></span>
+<span data-ttu-id="26b61-247">Turėtų būti sukurtos keturios siuntos.</span><span class="sxs-lookup"><span data-stu-id="26b61-247">Four shipments should have been created:</span></span>
 
-- <span data-ttu-id="b1423-248">Dviejų kliento *US-003* užsakymų eilutės buvo sugrupuotos į vieną siuntą naudojant siuntos konsolidacijos strategiją *Užsakymų telkinys*.</span><span class="sxs-lookup"><span data-stu-id="b1423-248">Lines from two orders for customer *US-003* were grouped into one shipment by using the *Order pool* shipment consolidation policy.</span></span>
-- <span data-ttu-id="b1423-249">Dviejų kliento *US-004* užsakymų eilutės buvo sugrupuotos į vieną siuntą naudojant siuntos konsolidacijos strategiją *Užsakymų telkinys*.</span><span class="sxs-lookup"><span data-stu-id="b1423-249">Lines from two orders for customer *US-004* were grouped into one shipment by using the *Order pool* shipment consolidation policy.</span></span>
-- <span data-ttu-id="b1423-250">Kliento *US-007* 4-5 ir 4-6 pardavimų užsakymų eilutės buvo sugrupuotos į vieną siuntą naudojant siuntos konsolidacijos strategiją *Užsakymų telkinys*.</span><span class="sxs-lookup"><span data-stu-id="b1423-250">Lines from sales orders 4-5 and 4-6 for customer *US-007* were grouped into one shipment by using the *Order pool* shipment consolidation policy.</span></span>
-- <span data-ttu-id="b1423-251">Kliento *US-007* 4-7 ir 4-8 pardavimų užsakymų eilutės buvo sugrupuotos į vieną siuntą naudojant *CrossOrder* siuntos konsolidacijos strategiją.</span><span class="sxs-lookup"><span data-stu-id="b1423-251">Lines from sales orders 4-7 and 4-8 for customer *US-007* were grouped into one shipment by using the *CrossOrder* shipment consolidation policy.</span></span>
+- <span data-ttu-id="26b61-248">Dviejų kliento *US-003* užsakymų eilutės buvo sugrupuotos į vieną siuntą naudojant siuntos konsolidacijos strategiją *Užsakymų telkinys*.</span><span class="sxs-lookup"><span data-stu-id="26b61-248">Lines from two orders for customer *US-003* were grouped into one shipment by using the *Order pool* shipment consolidation policy.</span></span>
+- <span data-ttu-id="26b61-249">Dviejų kliento *US-004* užsakymų eilutės buvo sugrupuotos į vieną siuntą naudojant siuntos konsolidacijos strategiją *Užsakymų telkinys*.</span><span class="sxs-lookup"><span data-stu-id="26b61-249">Lines from two orders for customer *US-004* were grouped into one shipment by using the *Order pool* shipment consolidation policy.</span></span>
+- <span data-ttu-id="26b61-250">Kliento *US-007* 4-5 ir 4-6 pardavimų užsakymų eilutės buvo sugrupuotos į vieną siuntą naudojant siuntos konsolidacijos strategiją *Užsakymų telkinys*.</span><span class="sxs-lookup"><span data-stu-id="26b61-250">Lines from sales orders 4-5 and 4-6 for customer *US-007* were grouped into one shipment by using the *Order pool* shipment consolidation policy.</span></span>
+- <span data-ttu-id="26b61-251">Kliento *US-007* 4-7 ir 4-8 pardavimų užsakymų eilutės buvo sugrupuotos į vieną siuntą naudojant *CrossOrder* siuntos konsolidacijos strategiją.</span><span class="sxs-lookup"><span data-stu-id="26b61-251">Lines from sales orders 4-7 and 4-8 for customer *US-007* were grouped into one shipment by using the *CrossOrder* shipment consolidation policy.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="b1423-252">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="b1423-252">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="26b61-252">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="26b61-252">Additional resources</span></span>
 
-- [<span data-ttu-id="b1423-253">Siuntos konsolidacijos strategijos</span><span class="sxs-lookup"><span data-stu-id="b1423-253">Shipment consolidation policies</span></span>](about-shipment-consolidation-policies.md)
-- [<span data-ttu-id="b1423-254">Siuntos konsolidacijos strategijų konfigūravimas</span><span class="sxs-lookup"><span data-stu-id="b1423-254">Configure shipment consolidation policies</span></span>](configure-shipment-consolidation-policies.md)
+- [<span data-ttu-id="26b61-253">Siuntos konsolidacijos strategijos</span><span class="sxs-lookup"><span data-stu-id="26b61-253">Shipment consolidation policies</span></span>](about-shipment-consolidation-policies.md)
+- [<span data-ttu-id="26b61-254">Siuntos konsolidacijos strategijų konfigūravimas</span><span class="sxs-lookup"><span data-stu-id="26b61-254">Configure shipment consolidation policies</span></span>](configure-shipment-consolidation-policies.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Kurti darbo klasę
 description: Ši procedūra nurodo, kaip nustatyti darbo klasę.
 author: ShylaThompson
-manager: tfehr
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkClass
 audience: Application User
@@ -16,28 +14,28 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 49b110b93e6f0f886d180f9f2725245faad7afab
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: be2c037ccc8f5cafc94d9fdee9647605889d0599
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239043"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830983"
 ---
-# <a name="create-a-work-class"></a><span data-ttu-id="b423f-103">Kurti darbo klasę</span><span class="sxs-lookup"><span data-stu-id="b423f-103">Create a work class</span></span>
+# <a name="create-a-work-class"></a><span data-ttu-id="3d315-103">Kurti darbo klasę</span><span class="sxs-lookup"><span data-stu-id="3d315-103">Create a work class</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="b423f-104">Ši procedūra nurodo, kaip nustatyti darbo klasę.</span><span class="sxs-lookup"><span data-stu-id="b423f-104">This procedure shows you how to set up a work class.</span></span> <span data-ttu-id="b423f-105">Darbo klasės naudojamos nukreipti ir (arba) apriboti darbo tipo užsakymo eilutes, kurias sandėlio darbuotojas gali apdoroti mobiliajame įrenginyje.</span><span class="sxs-lookup"><span data-stu-id="b423f-105">Work classes are used to direct and/or limit the type of work order lines that a warehouse worker can process on a mobile device.</span></span> <span data-ttu-id="b423f-106">Eilutės, kurias darbuotojas gali apdoroti, nustatomos pagal mobiliojo įrenginio meniu elementų darbo klases, prie kurių prieigą turi sandėlio darbuotojas, ir pagal darbo klasę, kuri nurodyta darbo eilutėse.</span><span class="sxs-lookup"><span data-stu-id="b423f-106">The lines that a worker can process are determined from the work classes on the mobile device menu items that the warehouse worker has access to and the work class that's specified on the work lines.</span></span> <span data-ttu-id="b423f-107">Darbo klases taip pat galima naudoti tikrinant padėjimo vietą darbo užsakymo eilutėje.</span><span class="sxs-lookup"><span data-stu-id="b423f-107">Work classes can also be used to validate the put location for a work order line.</span></span> <span data-ttu-id="b423f-108">Šią procedūrą galite vykdyti demonstracinėje duomenų įmonėje USMF arba su savo duomenimis.</span><span class="sxs-lookup"><span data-stu-id="b423f-108">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="b423f-109">Ši procedūra skirta sandėlio vadovui.</span><span class="sxs-lookup"><span data-stu-id="b423f-109">This procedure is intended for the warehouse manager.</span></span>
+<span data-ttu-id="3d315-104">Ši procedūra nurodo, kaip nustatyti darbo klasę.</span><span class="sxs-lookup"><span data-stu-id="3d315-104">This procedure shows you how to set up a work class.</span></span> <span data-ttu-id="3d315-105">Darbo klasės naudojamos nukreipti ir (arba) apriboti darbo tipo užsakymo eilutes, kurias sandėlio darbuotojas gali apdoroti mobiliajame įrenginyje.</span><span class="sxs-lookup"><span data-stu-id="3d315-105">Work classes are used to direct and/or limit the type of work order lines that a warehouse worker can process on a mobile device.</span></span> <span data-ttu-id="3d315-106">Eilutės, kurias darbuotojas gali apdoroti, nustatomos pagal mobiliojo įrenginio meniu elementų darbo klases, prie kurių prieigą turi sandėlio darbuotojas, ir pagal darbo klasę, kuri nurodyta darbo eilutėse.</span><span class="sxs-lookup"><span data-stu-id="3d315-106">The lines that a worker can process are determined from the work classes on the mobile device menu items that the warehouse worker has access to and the work class that's specified on the work lines.</span></span> <span data-ttu-id="3d315-107">Darbo klases taip pat galima naudoti tikrinant padėjimo vietą darbo užsakymo eilutėje.</span><span class="sxs-lookup"><span data-stu-id="3d315-107">Work classes can also be used to validate the put location for a work order line.</span></span> <span data-ttu-id="3d315-108">Šią procedūrą galite vykdyti demonstracinėje duomenų įmonėje USMF arba su savo duomenimis.</span><span class="sxs-lookup"><span data-stu-id="3d315-108">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="3d315-109">Ši procedūra skirta sandėlio vadovui.</span><span class="sxs-lookup"><span data-stu-id="3d315-109">This procedure is intended for the warehouse manager.</span></span>
 
-1. <span data-ttu-id="b423f-110">Pasirinkite Sandėlio valdymas > Nustatymas > Darbas > Darbo klasės.</span><span class="sxs-lookup"><span data-stu-id="b423f-110">Go to Warehouse management > Setup > Work > Work classes.</span></span>
-2. <span data-ttu-id="b423f-111">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="b423f-111">Click New.</span></span>
-3. <span data-ttu-id="b423f-112">Lauke Darbo klasės ID surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="b423f-112">In the Work class ID field, type a value.</span></span>
-4. <span data-ttu-id="b423f-113">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="b423f-113">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="b423f-114">Lauke Darbo užsakymo tipas pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="b423f-114">In the Work order type field, select an option.</span></span>
-6. <span data-ttu-id="b423f-115">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="b423f-115">Click New.</span></span>
-7. <span data-ttu-id="b423f-116">Lauke „Vietos tipas“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="b423f-116">In the Location type field, type a value.</span></span>
-    * <span data-ttu-id="b423f-117">Jei pasirinksite vietos tipą, tai apribos vietas, kur galima padėti prekes po to, kai jos bus paimtos.</span><span class="sxs-lookup"><span data-stu-id="b423f-117">If you select a location type, this sets a restriction on where items can be put after they've been picked.</span></span> <span data-ttu-id="b423f-118">Šis nustatymas naudojamas tuomet, kai vietos nurodymas bando rasti vietą, arba kai sandėlio darbuotojas rankiniu būdu nurodo mobiliojo įrenginio meniu elemento vietą.</span><span class="sxs-lookup"><span data-stu-id="b423f-118">This setting is used when a location directive tries to resolve the location, or if a warehouse worker manually provides the location for the mobile device menu item.</span></span>  
-8. <span data-ttu-id="b423f-119">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="b423f-119">Close the page.</span></span>
+1. <span data-ttu-id="3d315-110">Pasirinkite Sandėlio valdymas > Nustatymas > Darbas > Darbo klasės.</span><span class="sxs-lookup"><span data-stu-id="3d315-110">Go to Warehouse management > Setup > Work > Work classes.</span></span>
+2. <span data-ttu-id="3d315-111">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="3d315-111">Click New.</span></span>
+3. <span data-ttu-id="3d315-112">Lauke Darbo klasės ID surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="3d315-112">In the Work class ID field, type a value.</span></span>
+4. <span data-ttu-id="3d315-113">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="3d315-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="3d315-114">Lauke Darbo užsakymo tipas pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="3d315-114">In the Work order type field, select an option.</span></span>
+6. <span data-ttu-id="3d315-115">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="3d315-115">Click New.</span></span>
+7. <span data-ttu-id="3d315-116">Lauke „Vietos tipas“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="3d315-116">In the Location type field, type a value.</span></span>
+    * <span data-ttu-id="3d315-117">Jei pasirinksite vietos tipą, tai apribos vietas, kur galima padėti prekes po to, kai jos bus paimtos.</span><span class="sxs-lookup"><span data-stu-id="3d315-117">If you select a location type, this sets a restriction on where items can be put after they've been picked.</span></span> <span data-ttu-id="3d315-118">Šis nustatymas naudojamas tuomet, kai vietos nurodymas bando rasti vietą, arba kai sandėlio darbuotojas rankiniu būdu nurodo mobiliojo įrenginio meniu elemento vietą.</span><span class="sxs-lookup"><span data-stu-id="3d315-118">This setting is used when a location directive tries to resolve the location, or if a warehouse worker manually provides the location for the mobile device menu item.</span></span>  
+8. <span data-ttu-id="3d315-119">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="3d315-119">Close the page.</span></span>
 
 
 
