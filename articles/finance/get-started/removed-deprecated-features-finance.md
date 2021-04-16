@@ -2,11 +2,9 @@
 title: Pašalintos arba nebenaudojamos „Dynamics 365 Finance“ funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama pašalinti iš „Dynamics 365 Finance“.
 author: roschlom
-manager: AnnBe
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 14428491383883c1fc2a8cdcd1975e1f1cb71b40
-ms.sourcegitcommit: e9d19f25e64cf4d1c1d07c8031a7081454a6f79e
+ms.openlocfilehash: 5a8f5dbc52eab78697de0d3a48d8cceb42c36540
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5474068"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836918"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Pašalintos arba nebenaudojamos „Dynamics 365 Finance“ funkcijos
 
@@ -39,7 +37,7 @@ ms.locfileid: "5474068"
 
 ### <a name="lcs-repository-as-a-storage-option-for-electronic-reporting-configurations"></a>LCS saugykla kaip elektroninių ataskaitų konfigūracijų saugojimo parinktis
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo/pašalinimo priežastis** | Pakeista nauja „Regulatory Configuration Services” (RCS) visuotine saugykla |
 | **Pakeitė kita funkcija?**   | Taip |
@@ -51,7 +49,7 @@ ms.locfileid: "5474068"
 
 ### <a name="vat-declaration-cz-and-control-statement-export-cz-electronic-reporting-formats-for-czech-republic"></a>„PVM deklaravimas (CZ)“ ir „Valdymo pareiškimo eksportavimas (CZ)“ elektroninės sąskaitos formatai Čekijai
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo/pašalinimo priežastis** | Pakeitimas naujais formatais |
 | **Pakeitė kita funkcija?**   | Taip |
@@ -61,7 +59,7 @@ ms.locfileid: "5474068"
 
 ### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>„DK operacijos eksporto formatas (BE)“ elektroninės ataskaitos formatas ir atitinkamas „DK operacijos eksportas (BE)“ modelis, skirtas Belgijai
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo/pašalinimo priežastis** | Pakeičiamas nauju ER formatu modelyje „Standartinis audito failas (SAF-T)“.  |
 | **Pakeitė kita funkcija?**   | Taip |
@@ -71,7 +69,7 @@ ms.locfileid: "5474068"
 
 ### <a name="vat-100-report-for-the-united-kingdom-in-ssrs-format"></a>PVM 100 ataskaita, skirta Jungtinei Karalystei SSRS formatu
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo/pašalinimo priežastis** | Pakeičiamas nauju ER formatu – „PVM deklaracijos „Excel“ (UK)“ formatas, esantis „mokesčių deklaracijos modelyje“.  |
 | **Pakeitė kita funkcija?**   | Taip |
@@ -83,7 +81,7 @@ ms.locfileid: "5474068"
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>„Internet Explorer 11“ palaikymas „Dynamics 365“ yra nutrauktas
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo/pašalinimo priežastis** | Nuo 2020 m. gruodžio „Microsoft Internet Explorer 11“ palaikymas visuose „Dynamics 365“ produktuose yra nutraukiamas, o „Internet Explorer 11“ nebus palaikomas nuo 2021m. rugpjūčio.<br><br>Tai paveiks klientus, kurie naudoja „Dynamics 365“ produktus, skirtus naudoti „Internet Explorer 11“ sąsają. Nuo 2021m. rugpjūčio „Internet Explorer 11“ nebus palaikomas tokiuose „Dynamics 365“ produktuose. |
 | **Pakeitė kita funkcija?**   | Rekomenduojame klientams naudoti „Microsoft Edge“.|
@@ -95,7 +93,7 @@ ms.locfileid: "5474068"
 
 ### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Lenkijos SSRS ataskaitos: pardavimo PVM registras, pirkimo PVM registras, ES suvestinės PVM registras – funkcijos nuoroda PL-00014
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Nėra teisiškai reikalaujama.  |
 | **Pakeitė kita funkcija?**   | Taip (standartinis audito failas, kuriame yra PVM deklaracija, „Excel“ formatu – JPK_VDEK) |
@@ -107,7 +105,7 @@ ms.locfileid: "5474068"
 
 ### <a name="norwegian-standard-main-accounts"></a>Norvegijos standartinės pagrindinės sąskaitos
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Pertvarka  |
 | **Pakeitė kita funkcija?**   | Taip (pakeista programai būdingais ER formato parametrais) |
@@ -118,7 +116,8 @@ ms.locfileid: "5474068"
 ## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Finance“ 10.0.7 versijoje
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>Darbo eigos užklausos keitimo dialogo lange nebėra vartotojų pasirinkimo išplečiamojo sąrašo
-|   |  |
+
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Pakeista į funkciją su sąskaitų grupių pasirinkimu.  |
 | **Pakeitė kita funkcija?**   | Taip |

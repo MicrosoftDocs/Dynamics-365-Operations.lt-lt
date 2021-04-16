@@ -2,11 +2,9 @@
 title: Kokybės valdymo peržiūra
 description: Šioje temoje aprašyta, kaip galima naudoti kokybės valdymą „Dynamics 365 Supply Chain Management“, siekiant pagerinti tiekimo grandinės produktų kokybę.
 author: perlynne
-manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65858838b0fbb245a9330fab4e3b65b36a9eb944
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 23406f68e6ed317025a072eb3377392f0b129626
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219370"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829937"
 ---
 # <a name="quality-management-overview"></a>Kokybės valdymo peržiūra
 
@@ -473,7 +471,7 @@ Turite apibrėžti kiekvieno verslo proceso varianto, kuriam reikalingas automat
 <tr class="odd">
 <td>Bandymo grupės</td>
 <td>Naudodami šį puslapį galite nustatyti, redaguoti ir peržiūrėti bandymų grupei priskirtas bandymų grupes bei atskirus bandymus. Viršutinėje srityje rodomos tikrinimų grupės, o apatinėje srityje rodomi pasirinktai tikrinimų grupei priskirti tikrinimai. Bandymų grupei priskiriate keletą strategijų, pvz., pavyzdžių ėmimo planą, AQL ir ardomojo bandymo reikalavimą. Kai bandymų grupei priskiriate atskirą bandymą, apibrėžiate papildomą informaciją, pvz., seką, dokumentus ir galiojimo datas. Atliekant kiekybinį bandymą, jūsų apibrėžta informacija taip pat apima priimtinas matavimo reikšmes. Atliekant kokybinį bandymą, informacija apima bandymo kintamąjį ir numatytąjį rezultatą. Kokybės užsakymui priskirta bandymų grupė apibrėžia numatytąjį konkrečios prekės bandymų, kuriuos reikia atlikti, rinkinį. Tačiau kokybės užsakymo bandymus galite pridėti, naikinti arba keisti. Pateikiami kiekvieno kokybės užsakymo tikrinimo rezultatai.</td>
-<td>Gamybos įmonė apibrėžia kiekvieno kokybės gairių varianto tikrinimų grupę. Įvairios bandymų grupės atspindi pavyzdžių ėmimo planų skirtumus, bandymų, kuriuos reikia atlikti vienu metu, rinkinius, AQL ir kitus veiksnius. Taip pat skirasi kiekybinių bandymų priimtinos matavimo reikšmės. Kad galiotų įmonės kokybės gairės, ji kiekvienai taisyklei priskiria bandymų grupę, kad <strong>Kokybės susiejimų</strong> puslapyje būtų automatiškai generuojami kokybės užsakymai, ir taip pat bandymų grupę priskiria rankiniu būdu sukurtiems kokybės užsakymams.</td>
+<td>Gamybos įmonė apibrėžia kiekvieno kokybės gairių varianto tikrinimų grupę. Įvairios bandymų grupės atspindi pavyzdžių ėmimo planų skirtumus, bandymų, kuriuos reikia atlikti vienu metu, rinkinius, AQL ir kitus veiksnius. Taip pat skiriasi kiekybinių bandymų priimtinos matavimo reikšmės. Kad galiotų įmonės kokybės gairės, ji kiekvienai taisyklei priskiria bandymų grupę, kad <strong>Kokybės susiejimų</strong> puslapyje būtų automatiškai generuojami kokybės užsakymai, ir taip pat bandymų grupę priskiria rankiniu būdu sukurtiems kokybės užsakymams.</td>
 </tr>
 <tr class="even">
 <td>Prekių kokybės grupės</td>

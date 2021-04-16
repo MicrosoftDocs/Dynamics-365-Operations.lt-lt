@@ -2,11 +2,9 @@
 title: Konfigūruoti įrenginių užduoties kortelę
 description: Šioje temoje aprašomos įvairios užduoties kortelės įrenginio konfigūravimo parinktys.
 author: johanhoffmann
-manager: tfehr
 ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistrationSetupTouch, JmgRegistrationTouchUserConfiguration
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: c139fb7daa0f40b6b7afb0a707f714502d3146d1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2ccfbadb48e2ecd274e68201bbbc7858ab01203a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246362"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836595"
 ---
 # <a name="configure-job-card-for-devices"></a>Konfigūruoti įrenginių užduoties kortelę
 
@@ -50,7 +48,7 @@ Norėdami naudoti šią funkciją, įjunkite toliau išvardytas funkcijas puslap
 
 Norėdami naudoti šią funkciją, įjunkite toliau nurodytą funkciją puslapyje [funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
-- (Peržiūra) Funkcija, skirta užrakinti užduoties kortelės įrenginį ir užduoties kortelės terminalą, kad juos būtų galima dezinfekuoti
+- Funkcija skirta užrakinti darbo kortelės prietaisą ir darbo kortelės terminalą jų valymui
 
 ## <a name="manage-your-device-configurations"></a>Jūsų įrenginio konfigūracijų tvarkymas
 

@@ -2,7 +2,6 @@
 title: Iškrovimo kainos užklausos
 description: Šioje temoje aprašoma, kaip rasti ir naudoti įvairių tipų iškrovimo kainos modulio užklausas.
 author: sherry-zheng
-manager: tfehr
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-21
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 10f5948b4e3df089aef982269143254d9ac1e8a9
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 22a2e76780adb43b053b6cf7fd08411a4a60aeac
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500361"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823366"
 ---
 # <a name="landed-cost-inquiries"></a>Iškrovimo kainos užklausos
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 ## <a name="voyage-line-inquiries"></a>Reiso eilutės užklausos
 
@@ -42,7 +40,7 @@ Skirtuke **Apžvalga**, esančiame užklausos puslapyje **Reiso eilutės** yra t
 |---|---|
 | **Prekės Nr.** | Bendra eilutės prekės kaina. |
 | **Nuoroda** | Užsakymo tipas (pirkimo užsakymas arba perkėlimo užsakymas). |
-| **Number** | Pirkimo užsakymo numeris arba perkėlimo užsakymo numeris. |
+| **Numeris** | Pirkimo užsakymo numeris arba perkėlimo užsakymo numeris. |
 | **Sąskaitos lapas** | Registravimo lapas, siejamas su reiso eilute. |
 | **Gabenimo konteineris** | Gabenimo konteineris, siejamas su reiso eilute. |
 | **Reisas** | Reisas, siejamas su reiso eilute. |
@@ -100,7 +98,7 @@ Kadangi jūsų sistemoje tikriausiai yra labai daug pirkimo užsakymo eilučių,
 
 Norėdami peržiūrėti daugiau informacijos apie neįvykdytus užsakymus, puslapio dešinėje pasirinkite skirtuką **Susijusi informacija**, o tada pasirinkite **Neįvykdyti užsakymai**. Kad peržiūrėtumėte dar daugiau informacijos apie konkretų neįvykdytą užsakymą, pasirinkite jo eilutę ir pasirinkite nuorodą **Daugiau**.
 
-## <a name="individual-shipping-container-tracking"></a>Individualaus gabenimo konteinerio sekimas.
+## <a name="individual-shipping-container-tracking"></a>Individualaus gabenimo konteinerio sekimas
 
 Užklausa **Vieno gabenimo konteinerio sekimas** pateikia filtrą, kuris leidžia rasti gabenimo konteinerį, o tada identifikuoti reiso eilutes tame konteineryje.
 

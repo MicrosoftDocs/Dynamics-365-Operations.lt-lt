@@ -2,11 +2,9 @@
 title: Nuomos registravimo tipai
 description: Šioje temoje aprašomi registravimo tipai, naudojami turto nuomos operacijose.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9b7d8c545c1addaa570d54855bbad6c576783007
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ddc229f3ab8e048390f27503e2c6c26bd1a6f24f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229507"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841146"
 ---
 # <a name="lease-posting-types"></a>Nuomos registravimo tipai
 
@@ -90,15 +88,6 @@ Sąskaita yra susieta su naudojimo teise valdomo turto priešpriešine turto są
 **Žurnalo įrašų pavyzdys:** nusidėvėjimo kaupimas<br>
 **Debetas:** nusidėvėjimo išlaidos XXX<br>
 **Kreditas:** sukauptas nusidėvėjimas XXX
-
-## <a name="retained-earnings"></a>Nepaskirstytas pelnas
-
-Sąskaita yra susieta su išsaugotomis pajamomis. Ši sąskaita gali būti debetuota arba kredituota į perkėlimo koregavimo žurnalo įrašą, naudojant visos retrospektyvos metodą arba kaupiamąjį atgalinės datos parinkties A metodą. Skirtumo tarp pradinio naudojimo teise valdomo turto ir noro uostos įsipareigojimo suma rezervuojama kaip išaugotos pajamos. Retais atvejais nepaskirstytas pelnas taip pat gali būti paveiktas atliekant nuomos modifikaciją, jei nuomos klasifikacija pasikeičia iš finansų į veiklos, kad būtų galima padidinti arba sumažinti naudojimo teise valdomo turto vertę ir prilyginti nuomos įsipareigojimui.
-
-**Žurnalo įrašų pavyzdžiai:** perkėlimo koregavimas (visos retrospektyvos arba kaupiamasis atgalinės datos parinkties A metodas)<br>
-**Debetas:** nuomos įsipareigojimas XXX<br>
-**Kreditas:** nuomos turtas XXX<br>
-**Kreditas:** išsaugotos pajamos XXX
 
 ## <a name="variable-payment"></a>Kintamas mokėjimas
 

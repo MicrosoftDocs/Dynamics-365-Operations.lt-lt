@@ -2,11 +2,9 @@
 title: Lietuvos apžvalga
 description: Šioje temoje pateikiami „Microsoft Dynamics 365 Finance“ dokumentų išteklių, skirtų Lietuvai, saitai.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Lithuania
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e400b85c7af3f6e3238f0e9c41f8976f342a170d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4cfe52408d66a054721dfafb8a2005f28316bb27
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254405"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839741"
 ---
 # <a name="lithuania-overview"></a>Lietuvos apžvalga
 
@@ -33,6 +31,6 @@ ms.locfileid: "5254405"
 - [Sąskaitų faktūrų ir važtaraščių numeravimas](emea-invoices-packing-slips-numbering.md)
 - [PVM išrašo informacija](emea-ltu-vat-statement-details.md)
 - [i.SAF ataskaitos](emea-ltu-isaf.md)
-
+- [Standartinis mokesčio audito failas (SAF-T)](emea-ltu-saf-t.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

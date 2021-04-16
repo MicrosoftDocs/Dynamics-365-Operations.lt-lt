@@ -2,11 +2,9 @@
 title: Sandėlio valdymo mobiliųjų įrenginių programėlės diegimas ir prijungimas
 description: Šioje temoje aiškinama, kaip įdiegti sandėlio valdymo programėlę kiekviename jūsų mobiliajame įrenginyje ir sukonfigūruoti ją, kad prijungtumėte prie „Microsoft Dynamics 365 Supply Chain Management“ aplinkos.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
@@ -18,20 +16,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e1e8c8b1464a38a0145cbdcdcb4882db00d3c4c1
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: 378fff6274902025b1fca487874f37ed30df25ed
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5487030"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835611"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Sandėlio valdymo mobiliųjų įrenginių programėlės diegimas ir prijungimas
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> Šioje temoje aprašoma, kaip sukonfigūruoti naująją „Warehouse Management“ mobiliąją programėlę. Jei ieškote informacijos apie tai, kaip konfigūruoti seną sandėlio programą, žiūrėkite [Sandėlio programos diegimas ir prijungimas](../../supply-chain/warehousing/install-configure-warehousing-app.md).
+> Šioje temoje aprašoma, kaip sukonfigūruoti naująją „Warehouse Management“ mobiliąją programėlę. Jei ieškote informacijos apie tai, kaip konfigūruoti senąją sandėlio programą (dabar nerekomenduojamą), žiūrėkite [Sandėlio programos diegimas ir prijungimas](../../supply-chain/warehousing/install-configure-warehousing-app.md).
 
 Šioje temoje paaiškinama, kaip atsisiųsti ir įdiegti „Warehouse Management“ programėlę kiekviename mobiliajame įrenginyje ir sukonfigūruoti programėlę, kad prijungtumėte prie „Supply Chain Management“ aplinkos. Kiekvieną įrenginį galite konfigūruoti neautomatiniu būdu arba galite importuoti ryšio parametrus naudodami failą arba nuskaitydami QR kodą.
 
@@ -59,7 +56,7 @@ Diegdami didesniu mastu, galite automatizuoti programos diegimą ir (arba) konfi
 
 Paprasčiausias būdas įdiegti programą viename įrenginyje yra įdiegti ją iš programų parduotuvės, kur visada pateikiama naujausia bendrai prieinama versija. „Microsoft Intune“ taip pat gali rasti programėles iš programėlių parduotuvių. Norėdami įdiegti programą iš programų parduotuvės, naudokite vieną iš nurodytų nuorodų:
 
-- **„Windows“ (UWP):**[Sandėlio valdymas „Microsoft Store“](https://www.microsoft.com/store/apps/9pd35cdqcmg3)
+- **„Windows“ (UWP):** [Sandėlio valdymas „Microsoft Store“](https://www.microsoft.com/store/apps/9pd35cdqcmg3)
 
 - **„Android”:** [„Warehouse Management“ „Google Play“ parduotuvėje](https://play.google.com/store/apps/details?id=com.Microsoft.WarehouseManagement)
 

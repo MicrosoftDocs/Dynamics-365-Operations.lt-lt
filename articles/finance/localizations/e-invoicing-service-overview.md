@@ -2,11 +2,9 @@
 title: Elektroninių SF išrašymo priedo apžvalga
 description: Šioje temoje pateikiama informacija apie elektroninių SF išrašymo priedą „Microsoft Dynamics 365 Finance” ir „Dynamics 365 Supply Chain Management”.
 author: gionoder
-manager: AnnBe
-ms.date: 01/22/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,20 +15,20 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 381f5ecdb3d6fc909a8350ba28af9fd21152da7a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a6a8ea3fcad980dc02f489e07a7b21fe1c1b5a5a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228794"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839985"
 ---
-# <a name="electronic-invoicing-add-on-overview"></a>Elektroninių SF išrašymo priedo apžvalga
+# <a name="electronic-invoicing-overview"></a>Elektroninių SF išrašymo priedo apžvalga
 
 [!include [banner](../includes/banner.md)]
 
 Elektroninių SF išrašymo priedas, skirtas „Microsoft Dynamics 365 Finance” ir „Dynamics 365 Supply Chain Management” yra itin keičiamo dydžio kelių nuomotojų paslauga, įgalinanti konfigūruojamą elektroninių SF dokumentų apdorojimą ir konfigūruojamus dokumentų mainus. Apdorojimo ir integravimo taisyklės yra visiškai konfigūruojamos, o logika vykdoma už „Finance” ir „Supply Chain Management” ribų. Ši paslauga iš esmės skirta el. SF apdoroti verslo ir vyriausybės scenarijuose, bet ji gali būti pritaikyta ir sukonfigūruota kitiems tikslams.
 
-Elektroninių SF išrašymo priedas gali padėti pasiekti toliau nurodytus tikslus.
+Elektroninių SF išrašymo priedas gali padėti pasiekti toliau nurodytus tikslus:
 
 - Greitas ir lengvas konkrečių šalių / regionų reikalavimų taikymas
 - Standartizuoti elektroninių SF išrašymo priedo sprendimo diegimai
@@ -48,7 +46,7 @@ Norėdami naudoti elektroninių SF išrašymo priedą, turite jį įdiegti iš j
 
 Šiuo metu elektroninių sąskaitų išrašymo priedai yra prieinami klientams per peržiūros programą ir kitame etape, paslaugos bus prieinamos bendrai. Kadangi funkcijos, vykdančios konkrečių šalių / regionų reikalavimus, gali būti ribojamos skirtinguose leidimo etapuose, visada turite patikrinti naujausius dokumentus, nurodančius konkrečių šalių / regionų palaikomų sprendimų padengimą ir aprėptį.
 
-Elektroninių SF išrašymo priedas diegiamas toliau nurodytuose „Azure” regionuose.
+Elektroninių SF išrašymo priedas diegiamas toliau nurodytuose „Azure” regionuose:
 
 - Jungtinės Valstijos
 - Europa
@@ -103,7 +101,7 @@ Toliau pateiktame paveikslėlyje vaizduojama, kaip duomenų srautai juda į ir i
 ![Elektroninių SF išrašymo priedo duomenų srautas](media/e-invoicing-service-data-flow-diagram-overview.png)
 
 ## <a name="privacy-notice"></a>Privatumo pranešimas
-Dėl elektroninių sąskaitų išrašymo priedų įjungimo ir naudojimo gali prireikti siųsti limituotus duomenis, kurie apima organizacijos mokesčių registracijos ID. Jie bus persiųsti mokesčių inspekcijų patvirtintoms trečiųjų šalių agentūroms, kad būtų galima siųsti elektronines SF iš anksto nustatytais formatais, reikalingais integravimui su šiomis vyriausybės žiniatinklio tarnybomis. Duomenims, importuotiems iš šių išorinių sistemų į šią „Dynamics 365” internetinę paslaugą, taikomos [privatumo nuostatos](https://go.microsoft.com/fwlink/?LinkId=512132). Daugiau informacijos ieškokite skyriuose Privatumo pranešimas, esančiuose konkrečios šalies funkcijos dokumentacijoje.
+Įgalinant ir naudojant elektroninių SF išrašymą gali reikėti siųsti ribotus duomenis, įskaitant organizacijos mokesčių registracijos ID. Jie bus persiųsti mokesčių inspekcijų patvirtintoms trečiųjų šalių agentūroms, kad būtų galima siųsti elektronines SF iš anksto nustatytais formatais, reikalingais integravimui su šiomis vyriausybės žiniatinklio tarnybomis. Duomenims, importuotiems iš šių išorinių sistemų į šią „Dynamics 365” internetinę paslaugą, taikomos [privatumo nuostatos](https://go.microsoft.com/fwlink/?LinkId=512132). Daugiau informacijos ieškokite skyriuose Privatumo pranešimas, esančiuose konkrečios šalies funkcijos dokumentacijoje.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 - [Paslaugų administravimas](e-invoicing-service-administration.md)

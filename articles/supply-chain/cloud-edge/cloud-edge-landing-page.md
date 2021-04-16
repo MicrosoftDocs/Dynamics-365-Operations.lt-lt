@@ -2,11 +2,9 @@
 title: Debesies ir krašto skalės vienetai gamybai ir sandėlio valdymo darbo apkrovoms
 description: Šioje temoje pateikiama informacija apie debesies ir krašto skalės vienetų gamybą ir sandėlio valdymo darbo apkrovas.
 author: cabeln
-manager: ''
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-09-23
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: fb0d8e0226b11e93503979c202da917de1df6319
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3eacc9d0cf53fa8af3ff166006cb8fab32445331
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240442"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836715"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Debesies ir krašto skalės vienetai gamybai ir sandėlio valdymo darbo apkrovoms
 
@@ -124,10 +122,10 @@ Dėl daugiau informacijos, žr. [gamybos skalės vieneto darbo apkrovos išsami 
 Dėl sandėlio valdymo, debesiesi ir krašto skalės pajėgumai pristato tolesnius pajėgumus, net kai krašto vienetai nėra sujungti su debesiu:
 
 - Pasirinktos bangos tvarkymo metodai yra įjungti prekybos užsakymams ir paklausos papildymui.
-- Sandėlio darbuotojai gali vykdyti prekybos ir paklausos papildyma sandėlio darbui naudodami sandėlio programą.
-- Sandėlio darbuotojai gali teirautis apie turimą inventorių su sandėlio programa.
-- Sandėlio darbuotojai gali kurti ir vykdyti inventoriiaus judėjimus su sandėlio programa.
-- Sandėlio darbuotojai gali registruoti įsigijimo užsakymus ir atidėti su sandėlio programa.
+- Sandėlio darbuotojai gali vykdyti prekybą ir pareikalauti sandėlio darbo papildymo naudodami sandėlio valdymo mobiliųjų įrenginių programėlę.
+- Sandėlio darbuotojai gali pateikti turimų atsargų užklausą naudodami sandėlio valdymo mobiliųjų įrenginių programėlę.
+- Sandėlio darbuotojai gali kurti ir vykdyti atsargų perkėlimus naudodami sandėlio valdymo mobiliųjų įrenginių programėlę.
+- Sandėlio darbuotojai gali registruoti pirkimo užsakymus ir atidėti naudodami sandėlio valdymo mobiliųjų įrenginių programėlę.
 
 Dėl daugiau informacijos, žr. [sandėlio skalės vieneto darbo apkrovos išsami informacija](cloud-edge-workload-warehousing.md).
 

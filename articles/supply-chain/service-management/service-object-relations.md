@@ -2,11 +2,9 @@
 title: Aptarnavimo objekto ryšiai
 description: Galite sukurti aptarnavimo objekto ryšius tarp aptarnavimo objekto ir aptarnavimo sutarties arba aptarnavimo užsakymo.
 author: ShylaThompson
-manager: tfehr
 ms.date: 02/21/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceObjectRelation
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82e25c162a33dd8e6e1a0cc4f215a8693fc1080b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1984e4c2d57a03ad27c1f6d417209b806f7d6be6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5266060"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835851"
 ---
 # <a name="service-object-relations"></a>Aptarnavimo objekto ryšiai 
 
@@ -71,7 +69,7 @@ Prieiga prie KS konstruktoriaus, naudojant aptarnavimo objekto ryšį
 2. Dukart spustelėkite aptarnavimo sutartį arba spustelėkite Aptarnavimo sutartis, kad sukurtumėte naują aptarnavimo sutartį.
 3. Spustelėkite skirtuką Nustatymas.
 4. Norėdami prie aptarnavimo sutarties pridėti KS šabloną, spustelėkite Aptarnavimo objektai.
-5. Formoje Aptarnavimo objektai spustelėkite Kūrimo įrankis – atidarysite kūrimo įrankio formą, kuruoje galėsite keisti šabloninę KS.
+5. Formoje Aptarnavimo objektai spustelėkite Kūrimo įrankis – atidarysite kūrimo įrankio formą, kurioje galėsite keisti šabloninę KS.
 
 ## <a name="automatically-created-service-orders"></a>Automatiškai kuriami aptarnavimo užsakymai
 

@@ -2,11 +2,9 @@
 title: Apibrėžti prekių padengimo taisykles
 description: Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqGroup, DefaultDashboard, EcoResProductDetailsExtended, EcoResProductCreate, InventItemOrderSetup, ReqItemTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9b10aa50c4a89b2642262f624ac3a6d89cd6ebb4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ff2d83a01f366517502bfc5c885b6f963bd945ca
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258660"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829718"
 ---
 # <a name="define-coverage-rules-for-items"></a>Apibrėžti prekių padengimo taisykles
 
@@ -36,7 +34,7 @@ Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. �
 4. Lauke **Pavadinimas** įveskite reikšmę.
 5. Lauke **Kalendorius** įveskite reikšmę. Pasirinkite kalendorių, kurį bendrasis planavimas naudos norėdamas sukurti šios grupės prekių papildymo pasiūlymus.  
 6. Lauke **Padengimo kodas** pasirinkite parinktį. Pasirinkite Reikalavimai šiai procedūrai.  
-7. Lauke **Padengimo laik oribos (dienomis)** įveskite 90. Prekėms šioje grupėje bendrasis planavimas iki 90 dienų ateityje kurs papildymo pasiūlymus.  
+7. Lauke **Padengimo laiko ribos (dienomis)** įveskite 90. Prekėms šioje grupėje bendrasis planavimas iki 90 dienų ateityje kurs papildymo pasiūlymus.  
 8. Lauke **Neigiamos dienos** įveskite „1‟.
 9. Lauke **Teigiamos dienos** įveskite „1‟.
 10. Išplėskite arba sutraukite sekciją **Kiti**.

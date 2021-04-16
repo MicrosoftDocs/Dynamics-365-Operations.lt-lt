@@ -2,11 +2,9 @@
 title: Nustatyti tranzito punktų papildomų paslaugų išlaidas ir papildomų paslaugų šablonus
 description: Ši procedūra nurodo, kaip sukurti tranzito punkto papildomų paslaugų šabloną ir jį panaudoti tranzito punkto papildomų paslaugų mokesčiui sukurti.
 author: ShylaThompson
-manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSCarrierAccessorial,TMSAccessorialMaster, TMSHubAccessorial
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cb2e9125c7a38d1dc5e6866a056fb71f25e40928
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8f4c0d3af96e6ef6735b01165a49c1450b3b633b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233684"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837570"
 ---
 # <a name="set-up-hub-accessorial-charges-and-accessorial-masters"></a>Nustatyti tranzito punktų papildomų paslaugų išlaidas ir papildomų paslaugų šablonus
 
@@ -49,7 +47,7 @@ ms.locfileid: "5233684"
     * Galite sukurti mokestį už paėmimą arba atidavimą. Atsižvelgiant į jūsų pasirinkimą, mokestis bus taikomas atitinkamam transportavimo segmentui jūsų maršrute.  
 7. Lauke „Papildomų paslaugų šablonas“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
 8. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-    * Pasirinkite šabloną, kurį ką tik sukurėte.  
+    * Pasirinkite šabloną, kurį ką tik sukūrėte.  
 9. Spustelėkite Įrašyti.
 10. Uždarykite puslapį.
 

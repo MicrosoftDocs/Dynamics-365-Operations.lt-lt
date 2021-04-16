@@ -1,12 +1,10 @@
 ---
-title: Elektroninių sąskaitų priedo administravimo komponentai
+title: Elektroninių SF išrašymo administravimo komponentai
 description: Šioje temoje pateikta informacija apie kompnentus, kurie susiję su elektroninių sąskaitų priedų administravimu.
 author: gionoder
-manager: AnnBe
-ms.date: 03/12/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,17 +15,17 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 70ef47dd45200a14c9d780f3c280c554d0e52ac3
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: 2e859875e124796e49000cd5ea94cfb75ecd768a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592579"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840033"
 ---
-# <a name="electronic-invoicing-add-on-administration-components"></a>Elektroninių sąskaitų priedo administravimo komponentai
+# <a name="electronic-invoicing-administration-components"></a>Elektroninių SF išrašymo administravimo komponentai
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+
 
 Šioje temoje pateikta informacija apie kompnentus, kurie susiję su elektroninių sąskaitų priedų administravimu. Taip pat pateikiama informacija apie tai, kaip konfigūruoti elektroninių SF išrašymo papildomą paslaugą.
 
@@ -51,7 +49,7 @@ Norėdami sužinoti RCS prisijungimą, žr. skyrių [„Regulatory Services”](
 
 Daugiau informacijos apie RCS žr. [„Regulatory Configuration Services“ (RCS) – globalizacijos funkcijos](rcs-globalization-feature.md)
 
-### <a name="integration-with-the-electronic-invoicing-add-on"></a>Darbo su elektroninių SF priedu integravimas
+### <a name="integration-with-electronic-invoicing"></a>Integravimas su elektroninių SF priedu 
 
 Prieš konfigūruojant elektronines SF naudojant RCS, būtina sukonfigūruoti RCS, kad būtų leidžiama susisiekti su elektroninių SF išrašymo papildymu. Šią konfigūraciją užbaikite skirtuko **Elektroninės sąskaitos faktūros priedai** **Elektroninės ataskaitos parametrai** puslapyje.
 
@@ -84,13 +82,13 @@ Aptarnavimo aplinkas galima valdyti naudojant būseną. Galimos parinktys yra š
 
 #### <a name="customer-secrets"></a>Kliento raktai
 
-Elektroninių SF išrašymo priedo paslauga yra atsakinga už visų jūsų verslo duomenų saugojimą „Azure” ištekliuose, kurie priklauso jūsų įmonei. Siekiant užtikrinti, kad paslauga veiktų tinkamai ir kad visus verslo duomenis, kurie būtini elektroninių SF išrašymo priedui ir kuriuos jis sugeneravo, galėtų pasiekti tik priedas, turite sukurti du pagrindinius toliau pateiktus „Azure” išteklius.
+Elektroninių SF išrašymo priedo paslauga yra atsakinga už visų jūsų verslo duomenų saugojimą „Azure” ištekliuose, kurie priklauso jūsų įmonei. Siekiant užtikrinti, kad paslauga veiktų tinkamai ir kad visus verslo duomenis, kurių reikia elektroninių SF išrašymo priedui ir kuriuos jis sugeneravo, galėtų pasiekti tik priedas, turite sukurti du pagrindinius toliau pateiktus „Azure” išteklius:
 
 - „Azure” saugyklos abonementas („Blob“ saugykla) saugos elektronines SF
 - „Azure” raktų saugykla, kuri laikys sertifikatus ir suvienodintą saugyklos paskyros išteklių identifikatorių (URI)
 
 > [!NOTE]
-> Paskirti raktų saugyklos ištekliai ir kliento talpyklos paskyra turi būti priskirti tik elektroninių SF išrašymo priedo naudojimui.
+> Paskirti raktų saugyklos ištekliai ir kliento talpyklos paskyra turi būti priskirti tik elektroninių SF išrašymo priedo naudojimui .
 
 Daugiau informacijos žr. [Kurti „Azure” saugyklos paskyrą ir talpyklos raktą](e-invoicing-create-azure-storage-account-key-vault.md).
 
@@ -110,11 +108,11 @@ Naudodami susijusias programas galite konfigūruoti dalį elektroninių SF išra
 
 ## <a name="finance-and-supply-chain-management"></a>„Finance and Supply Chain Management“
 
-### <a name="integration-with-electronic-invoicing-add-on"></a>Integravimas su elektroninių SF priedu
+### <a name="integration-with-electronic-invoicing"></a>Integravimas su elektroninių SF priedu
 
 Prieš naudojant „Finance and Supply Chain Management“ elektroninėms SF išduoti naudojant elektroninių SF išrašymo priedą, priedas turi būti sukonfigūruotas taip, kad leistų ryšį su tarnyba.
 
-#### <a name="electronic-invoicing-add-on-integration-feature"></a>Elektroninių SF išrašymo priedo funkcijos integravimas
+#### <a name="electronic-invoicing-integration-feature"></a>Elektroninių SF išrašymo priedo funkcijos integravimas
 
 Norėdami įgalinti „Finance and Supply Chain Management“ ir elektroninio SF išrašymo priedo ryšį, turite įjungti integravimo priemonę **Elektroninio SF išrašymo priedo integravimas** funkciją **Funkcijų valdymas** darbo srityje.
 

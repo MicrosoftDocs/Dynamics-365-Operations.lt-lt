@@ -2,11 +2,9 @@
 title: Sandėlio valdymo darbo krūvis debesiui ir krašto skalės vienetams
 description: Šioje temoje pateikta informacija apie funkcijas, kuriso įjungia skalės vienetus siekiant vykdyti pasirinktus procesus iš jūsų sandėlio valdymo darbo krūvio.
 author: perlynne
-manager: tfeyr
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, SysSecRolesEditUsers
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9b5d8c9e77fb98dfb7031a3868303970fe3bf865
-ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
+ms.openlocfilehash: 6372e08b7ec737f3abd2f2bd5d4f387eaf869f03
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "5580970"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832399"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Sandėlio valdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams
 
@@ -70,11 +68,11 @@ Centras turi tolesnius duomenis:
 - Užsakymo paskyrimas ir siuntimo krūvio tvarkymas
 - Paleidimo į sandėlį, siuntimo kūrimo, bangos kūrimo ir bangos užbaigimo procesai
 
-Skalės vienetai turi realų bangos tvarkymą (tokį kaip darbo skyrimą, pildymo darbą ir paklausos darbo kūrimą) po bangos paleidimo. Dėl to, sandėlio darbuotojai gali tvarkyti siuntimo darbą naudodami sandėlio programą, sujungtą su skalės vienetu.
+Skalės vienetai turi realų bangos tvarkymą (tokį kaip darbo skyrimą, pildymo darbą ir paklausos darbo kūrimą) po bangos paleidimo. Todėl sandėlio darbuotojai gali apdoroti siuntimo darbą naudodami sandėlio valdymo mobiliųjų įrenginių programėlę, susietą su skalės vienetu.
 
 ![Bangos tvarkymo eiga](./media/wes-wave-processing-ga.png "Bangos tvarkymo eiga")
 
-## <a name="inbound-process-flow"></a>Gavimo tvarkymo eiga
+## <a name="inbound-process-flow"></a>Gavimo proceso eiga
 
 Centras turi tolesnius duomenis:
 
@@ -94,7 +92,7 @@ Norėdami naudoti procesą *Išleisti į sandėlį* turite prisijungti prie šak
 
 Naudodami funkciją **Automatinis pirkimo užsakymų išleidimas** galite pasirinkti konkrečias pirkimo užsakymo eilutes, grindžiamas užklausa. Įprastas scenarijus būtų nustatyti pasikartojančią paketinę užduotį, kuri išleidžia visas patvirtintas pirkimo užsakymo eilutes, kurias numatoma gauti kitą dieną.
 
-Darbuotojas gali vykdyti gavimo procesą naudodamas sandėlio programą, sujungtą su skalės vienetu. Duomenys tuomet įrašomi pagal skalės vienetą ir pranešami pagal gavimo sandėlio užsakymą. Tolesnio atidėjimo tvarkymas ir kūrimas taip pat bus tvarkomas pagal skalės vienetą.
+Darbuotojas gali vykdyti gavimo procesą naudodamas sandėlio valdymo mobiliųjų įrenginių programėlę, susietą su skalės vienetu. Duomenys tuomet įrašomi pagal skalės vienetą ir pranešami pagal gavimo sandėlio užsakymą. Tolesnio atidėjimo tvarkymas ir kūrimas taip pat bus tvarkomas pagal skalės vienetą.
 
 Jei nenaudojate *leidimo į sandėlį* procesą ir dėl to nenaudojate *sandėlio užsakymų*, centras gali sutvarkyti sandėlio gavimo ir darbo tvarkymą nepriklausomai nuo skalės vienetų.
 
@@ -117,23 +115,23 @@ Vartotojai besielgiantys kaip sandėlio tiek centre, tiek skalės vienetams, tur
 Tolesni sandėlio valdymo procesai gali būti įjungti WES darbo krūviui skalės vienete:
 
 - Pasirinkti pardavimo ir perkėlimo užsakymų bangos metodai (paskirstymas, poreikio papildymas, krovimas į konteinerius, darbo kūrimas ir bangos etikečių spausdinimas)
-- Pardavimo ir perkėlimo užsakymų sandėlio darbo apdorojimas naudojant sandėlio programą (įskaitant papildymo darbą)
-- Laukiantis turimas inventorius su sandėlio programa
-- Inventoriiaus kūrimo ir vykdymo judėjimus su sandėlio programa
-- Pirkimo užsakymų ir atidėjimo darbo darymo registravimas su sandėlio programa
+- Pardavimo ir perkėlimo užsakymų sandėlio darbo apdorojimas naudojant sandėlio valdymo mobiliųjų įrenginių programėlę (įskaitant papildymo darbą)
+- Turimų atsargų užklausų pateikimas naudojant sandėlio valdymo mobiliųjų įrenginių programėlę
+- Atsargų judėjimų kūrimas ir vykdymas naudojant sandėlio valdymo mobiliųjų įrenginių programėlę
+- Pirkimo užsakymų registravimas ir atidėjimo darbas naudojant sandėlio valdymo mobiliųjų įrenginių programėlę
 
 Tolesni darbo užsakymo tipai šiuo metu palaikomi WES darbo krūviuose skalės vieneto talpinimuose:
 
 - Pardavimo užsakymai
 - Perkėlimo išdavimas
 - Papildymas
-- Atsargų perkėlimas
+- Atsargų judėjimas
 - Pirkimo užsakymai (susieti su sandėlio užsakymais)
 
 Jokie kiti šaltinių dokumento tvarkymo arba sandėlio darbo tipo šiuo metu nėra palaikomi skalės vienetuose. Pavyzdžiui, negalite WES darbo krūviui skalės vienete atlikti perkėlimo užsakymo gavimo proceso (perkėlimo gavimo) arba proceso ciklo skaičiavimo darbo.
 
 > [!NOTE]
-> Nepalaikomų funkcijų mobiliojo įrenginio meniu elementai ir mygtukai nėra rodomi _sandėlio programoje_, kai ji yra sujungta su skalės vieneto diegimu.
+> Nepalaikomų funkcijų mobiliojo įrenginio meniu elementai ir mygtukai nėra rodomi _Sandėlio valdymo mobiliųjų įrenginių programėlėje_, kai ji yra susieta su skalės vieneto diegimu.
 
 > [!WARNING]
 > Kai vykdote darbo krūvį skalės vienete, negalite vykdyti nepalaikomų procesų konkretaus sandėlio centre. Toliau šioje temoje pateiktos lentelės dokumentuoja palaikomas galimybes.
@@ -164,7 +162,7 @@ Tolesnės sandėlio valdymo funkcijos šiuo metu nepalaikomos skalės vienetų d
 - Sandėlio darbo apdorojimas su siuntimo pastabomis
 - Sandėlio darbo apdorojimas su ciklų skaičiavimo ribinės vertės suaktyvinimu
 - Sandėlio darbo apdorojimas su medžiagų tvarkymu/„warehouse automation”
-- Bendrojo produkto duomenų vaizdo naudojimas (pavyzdžiui, sandėlio programoje)
+- Produkto bendrųjų duomenų vaizdo naudojimas (pavyzdžiui, sandėlio valdymo mobiliųjų įrenginių programėlėje)
 
 > [!WARNING]
 > Kai kurios sandėlio funkcijos nebus galimos sandėliams, kuriuose vykdomi sandėlio valdymo darbo krūviai skalės vienete, ir taip pat nepalaikoma centro arba skalės vieneto darbo krūvyje.
@@ -252,8 +250,8 @@ Tolesnė lentelė rodo, kurios sandėlio operacijos ir išimčių tvarkymo funkc
 | Sandėlio keitimas                                   | Taip | Taip                          |
 | Judėjimas                                           | Taip | Taip                          |
 | Judėjimas pagal šabloną                               | Taip | Taip                          |
-| Sandėlio perkėlimas                                 | Taip | Ne                           |
-| Perkėlimo užsakymo kūrimas iš sandėlio programos           | Taip | Ne                           |
+| Ilgalaikio turto perkėlimas                                 | Taip | Ne                           |
+| Perkėlimo užsakymo kūrimas iš sandėlio valdymo mobiliųjų įrenginių programėlės           | Taip | Ne                           |
 | Keitimas (į/iš)                                | Taip | Ne                           |
 | Atsargų būsenos keitimas                            | Taip | Ne                           |
 | Ciklo skaičiavimas ir Neatitikimų skaičiavimo tvarkymas | Taip | Ne                           |

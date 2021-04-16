@@ -2,11 +2,9 @@
 title: Išduokite elektroniens sąskaitas „Finance and Supply Chain Management“
 description: Ši tema paaiškina, kaip išduoti elektronines sąskaitas „Microsoft Dynamics 365 Finance“ ir „Dynamics 365 Supply Chain Management“ per elektroininių sąskaitų priedus.
 author: gionoder
-manager: AnnBe
-ms.date: 02/26/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,18 +15,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 099ebb56710e920f7b1453f32f23f59a80486ebf
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: 8d6ef59b64a96e13bdc2e5ddf299ef7ab98e105c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5486958"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840081"
 ---
-# <a name="issue-electronic-invoices-in-finance-and-supply-chain-management"></a>Išduokite elektroniens sąskaitas „Finance and Supply Chain Management“
+# <a name="issue-electronic-invoices-in-finance-and-supply-chain-management"></a>Elektroninių SF išdavimas „Finance“ ir „Supply Chain Management“
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Ši tema paaiškina, kaip išduoti elektronines sąskaitas „Microsoft Dynamics 365 Finance“ ir „Dynamics 365 Supply Chain Management“ per elektroininių sąskaitų priedus.
 
@@ -70,7 +66,7 @@ Kai naudojama senesnė elektroninių SF išrašymo funkcija, kuri palaikoma šal
 Elektroninių dokumentų pateikimo procesas atspindi vieną „Finance and Supply Chain Management“ ir elektroninio SF išrašymo ryšio tašką. Kiekvieno pateikimo įvykio metu ryšio srautai abiem kryptimis:
 
 - **Iš „Finance and Supply Chain Management“ į elektroninių SF išrašymo priedo** – „Finance and Supply Chain Management“ sąskaitos faktūros siunčiamos į elektroninių SF išrašymo priedą. Jei reikia, jie taip pat siunčia kintamųjų, kurie sukonfigūruoti kaip elektroninių SF išrašymo priemonių dalis, turinį.
-- **Iš elektroninių SF išrašymo priedo prie „Finance and Supply Chain Management“**– atsižvelgiant į elektroninių SF išrašymo priemonę, „Finance and Supply Chain Management“ gauna atnaujinimus iš elektroninių SF išrašymo papildomos informacijos apie anksčiau pateiktų SF apdorojimorezultatus. Jie taip pat gauna kintamųjų, kurie sukonfigūruoti kaip elektroninių SF išrašymo priemonių dalis, turinį.
+- **Iš elektroninių SF išrašymo priedo prie „Finance and Supply Chain Management“**– atsižvelgiant į elektroninių SF išrašymo priemonę, „Finance and Supply Chain Management“ gauna atnaujinimus iš elektroninių SF išrašymo papildomos informacijos apie anksčiau pateiktų SF apdorojimo rezultatus. Jie taip pat gauna kintamųjų, kurie sukonfigūruoti kaip elektroninių SF išrašymo priemonių dalis, turinį.
 
 Norėdami pateikti elektroninius dokumentus prie elektroninių SF išrašymo priedo, „Finance and Supply Chain Management“ srityje eikite į **Organizacijos administravimas &gt; Periodiniai &gt; elektroniniai dokumentai &gt; Pateikti elektroninius dokumentus**.
 

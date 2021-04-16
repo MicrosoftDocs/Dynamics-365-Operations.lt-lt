@@ -1,12 +1,10 @@
 ---
-title: Konfigūruoti elektroninių sąskaitų priedus „Regulatory Configuration Services“ (RCS)
+title: Elektroninių SF išrašymo priedų „Regulatory Configuration Services“ (RCS) konfigūravimas
 description: Šioje temoje paaiškinama, kaip konfigūruoti elektroninių sąskaitų priedus „Dynamics 365 Regulatory Configuration Services“ (RCS).
 author: gionoder
-manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,16 +15,14 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 99fac9a42dc2b180c220612c66fe753d43e5bd7f
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: 9958091db4a3d7ce0b625e5adc8e2a6b37878618
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592627"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840249"
 ---
-# <a name="configure-the-electronic-invoicing-add-on-in-regulatory-configuration-services-rcs"></a>Konfigūruoti elektroninių sąskaitų priedus „Regulatory Configuration Services“ (RCS)
-
-[!include [banner](../includes/banner.md)]
+# <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Elektroninių SF išrašymo priedų „Regulatory Configuration Services“ (RCS) konfigūravimas
 
 [!include [banner](../includes/banner.md)]
 

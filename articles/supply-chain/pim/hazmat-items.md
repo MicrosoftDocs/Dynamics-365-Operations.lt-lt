@@ -2,11 +2,9 @@
 title: Pavojingos medžiagos produktuose, užsakymuose, siuntose ir kroviniuose
 description: Šioje temoje paaiškinta kaip nustatyti pavojingų medžiagų ypatybes išleistiems produktams, kaip uždėti atsargų limitus ant pavojingų prekių, ir kaip įtraukti pavojingas medžiagas į pardavimo užsakymą, siuntą ar krovinį.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,17 +12,16 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 7e0564802bc53ce21236ffc6ed065bf6abac7c78
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b0fb2f77b4e95c90e3eb8a4c74929deead34de5c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243158"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829407"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>Pavojingos medžiagos produktuose, užsakymuose, siuntose ir kroviniuose
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šioje temoje paaiškinta kaip nustatyti pavojingų medžiagų ypatybes išleistiems produktams, kaip uždėti atsargų limitus ant pavojingų prekių, ir kaip įtraukti pavojingas medžiagas į pardavimo užsakymą, siuntą ar krovinį.
 
@@ -46,9 +43,9 @@ Kad nustatytumėte išleistą produktą kaip pavojingą medžiagą, atlikite ši
 
 Ši lentelė aprašo laisvus laukus, esančius puslapio **Prekė su pavojingomis medžiagomis** viršuje.
 
-| Laukas | aprašymas |
+| Laukas | Aprašymas |
 |---|---|
-| Prekės Nr. | Išleistas produktas, su kuriuo dirbate. |
+| Prekės numeris | Išleistas produktas, su kuriuo dirbate. |
 | Reglamento kodas | Pasirinkite pavojingos medžiagos reglamentą, taikomą produktui. Reglamentas apibrėžia kaip yra sukuriamas atspausdintas siuntimo tekstas prekei ir susijusius pristatymo būdus. Po reglamento priskyrimo kodas negali būti redaguojamas šiame puslapyje. Tačiau galite priskirti naują reglamento kodą pasirinkdami funkciją **Naujas**. |
 | Medžiagos kodas | (Neprivalomas laukas) Pasirinkite pavojingos medžiagos kodą, taikomą produktui. Medžiagos kodas turi šabloną, kuris apima numatytąsias vertes daugeliui kitų laukų šiame puslapyje. Kai pasirinksite kodą, visos jo pavojingų medžiagų specifikacijos bus nukopijuotos ant dabartinio produkto. Tačiau pirmiausia sistema jus ragina patvirtinti, kad prekės medžiagų duomenys turi būti užpildyti naudojantis medžiagos kodu. |
 | Grupės kodas | (Neprivalomas laukas) Pasirinkite pavojingos medžiagos klasifikacijos grupės kodą, taikomą produktui. Kai pasirinksite kodą lauke **Medžiagos kodas**, visos jo pavojingų medžiagų specifikacijos bus nukopijuotos ant dabartinio produkto. Tačiau pirmiausia sistema jus ragina patvirtinti, kad prekės klasės grupė turi būti įrašyta naudojant grupės kodą. |
@@ -61,7 +58,7 @@ Kad nustatytumėte išleistą produktą kaip pavojingą medžiagą, atlikite ši
 |---|---|
 | Tinkamas siuntimo pavadinimas | Įveskite medžiagos standartinį aprašymą, kaip nurodyta taikomam reglamente. Galite pateikti šios reikšmės vertimus **Prekės siuntimo teksto vertimas** „FastTab”, kaip aprašyta kitame skyriuje. |
 | Techninis pavadinimas | Pasirinkite medžiagos bendrą pavadinimą. Šis medžiagos pavadinimas gali būti pavadinimu, kurį jūsų įmonė naudoja viduje. |
-| Kitu atveju nebūdingas (not-otherwise-specific) | Pasirinkite šį žymės langelį, kad nurodytumėte, jog reikšmė **Tinkamas siuntimo pavadinimas** yra kitu atveju nebūdingas (N.O.S.) prekės siuntimo pavadinimas. Kitu atveju nebūdingas (not-otherwise-specific) siuntimo pavadinimai naudojami panašių cheminių preparatų ir medžiagų grupėms, kurie turi tam tikrus galutinius panaudojimus, bet jie gali būti nenurodyti pagal pavadinimą „hazmat” lentelėje konkrečiame reglamente. |
+| Kitu atveju nebūdingas | Pasirinkite šį žymės langelį, kad nurodytumėte, jog reikšmė **Tinkamas siuntimo pavadinimas** yra kitu atveju nebūdingas (N.O.S.) prekės siuntimo pavadinimas. Kitu atveju nebūdingas siuntimo pavadinimai naudojami panašių cheminių preparatų ir medžiagų grupėms, kurie turi tam tikrus galutinius panaudojimus, bet jie gali būti nenurodyti pagal pavadinimą „hazmat” lentelėje konkrečiame reglamente. |
 
 ### <a name="item-ship-text-translation-fasttab"></a>Prekės siuntimo teksto vertimas „FastTab”
 
@@ -94,37 +91,37 @@ Kad pridėtumėte ar redaguotumėte vertimą, pasirinkite funkciją **Vertimai**
 | Aprašymas | Grupės, kuri buvo pasirinkta lauke **Pakavimo grupė**, aprašymas. Šis laukas skirtas tik skaityti. |
 | Pakavimo aprašymai | Pasirinkite taikytiną pakavimo aprašymo kodą. Šis kodas nurodo aprašymą, kuriame aprašyta kaip produktas turi būti supakuotas. |
 | Pavojingos medžiagos žymos | Pasirinkite kodą, kuris nurodo pavojingų medžiagų žymą, taikytiną produktui. |
-| Ribotas kiekis | Pasirinkite **Taip** parinktį, kad praneštumėte bendrą produkto svorį, įtrauktą kiekvienoje įkeltyje ir kiekvienoje įkelties eilutėje. |
+| Ribotas kiekis | Pasirinkite **Taip** parinktį, kad praneštumėte bendrą produkto svorį, įtrauktą kiekvienoje krovinyje ir kiekvienoje krovinio eilutėje. |
 | Kiekis | Įveskite pavojingos medžiagos kiekį produkte nurodytu vienetu. Ši vertė bus naudojama apskaičiuoti bendrą pavojingos medžiagos balą kroviniams ir siuntoms, kuriuose yra produktas. |
-| Daugiklis | Įveskite daugiklį, kuris yra pritaikomas, kai pavojingos medžiagos balas yra apskaičiuotas kiekvienai įkelties eilutei, kurioje yra produktas. Ši vertė nurodyta taikomajame reglamente, pagal pavojingos medžiagos, esančios produkte, tipą. |
+| Daugiklis | Įveskite daugiklį, kuris yra pritaikomas, kai pavojingos medžiagos balas yra apskaičiuotas kiekvienai krovinio eilutei, kurioje yra produktas. Ši vertė nurodyta taikomajame reglamente, pagal pavojingos medžiagos, esančios produkte, tipą. |
 | Vienetas | Pasirinkite matavimo vienetą, taikytiną pavojingos medžiagos kiekiui produkte, kaip nurodyta lauke **Kiekis**. Ši vertė bus naudojama apskaičiuoti bendrą pavojingos medžiagos balą kroviniams ir siuntoms, kuriuose yra produktas. |
 
 #### <a name="how-the-hazardous-material-score-is-calculated"></a>Kaip pavojingos medžiagos balas yra apskaičiuojamas
 
-Kelios vertės, nurodytos „FastTab” **Medžiagų valdymas**, produktui, naudojamos apskaičiuoti  *pavojingos medžiagos balą* kiekvienai įkelties eilutei, kurioje yra tas produktas. Balas apskaičiuojamas pagal toliau nurodytą formulę:
+Kelios vertės, nurodytos „FastTab” **Medžiagų valdymas**, produktui, naudojamos apskaičiuoti  *pavojingos medžiagos balą* kiekvienai krovinio eilutei, kurioje yra tas produktas. Balas apskaičiuojamas pagal toliau nurodytą formulę:
 
 Pavojingos medžiagos balas = *&lt;LineQty&gt;* × *&lt;HazmatQty&gt;* × *&lt;UnitConversion&gt;* × *&lt;Multiplier&gt;*
 
 Čia yra formulės raktas:
 
-- *&lt;LineQty&gt;* yra produkto kiekis, nustatytas įkelties eilutei.
+- *&lt;LineQty&gt;* yra produkto kiekis, nustatytas krovinio eilutei.
 - *&lt;HazmatQty&gt;* yra pavojingos medžiagos kiekis, nustatytas produktui lauke **Kiekis**, „FastTab” **Medžiagos valdymas**.
-- *&lt;UnitConversion&gt;* yra konvertavimo koeficientas, naudojamas konvertavimui tarp vieneto, naudojamo įkelties eilutės kiekiui, ir vieneto, nustatyto produktui lauke **Vienetas**, „FastTab” **Medžiagų valdymas**.
+- *&lt;UnitConversion&gt;* yra konvertavimo koeficientas, naudojamas konvertavimui tarp vieneto, naudojamo krovinio eilutės kiekiui, ir vieneto, nustatyto produktui lauke **Vienetas**, „FastTab” **Medžiagų valdymas**.
 - *&lt;Multiplier&gt;* yra daugiklis nustatytas produktui lauke **Daugiklis**, „FastTab” **Medžiagos valdymas**.
 
-Šis balas yra paskelbtas kiekvienoje įkelties eilutėje, kurioje yra produktas, kuriame tos vertės yra nurodytos. Kad gautumėte daugiau informacijos, žr. [Siuntos, kuriose yra pavojingų medžiagų](#hazmat-shipments) ir [Įkeltys, kuriose yra pavojingų medžiagų](#hazmat-loads) sekcijas, esančias vėliau šioje temoje.
+Šis balas yra paskelbtas kiekvienoje krovinio eilutėje, kurioje yra produktas, kuriame tos vertės yra nurodytos. Kad gautumėte daugiau informacijos, žr. [Siuntos, kuriose yra pavojingų medžiagų](#hazmat-shipments) ir [Kroviniai, kuriose yra pavojingų medžiagų](#hazmat-loads) sekcijas, esančias vėliau šioje temoje.
 
 #### <a name="how-the-hazardous-material-weight-is-calculated"></a>Kaip pavojingos medžiagos svoris yra apskaičiuojamas
 
-Įkeltys ir įkelčių eilutės, į kuriuos įeina produktai, kur parinktis **Ribotas kiekis**, **Medžiagų valdymas** „FastTab”, nustatyta **Taip**, rodys bendrą pavojingos medžiagos svorį, kaip aprašyta [Siuntos, kuriose yra pavojingų medžiagų](#hazmat-shipments) ir [Įkeltys, kuriose yra pavojingų medžiagų](#hazmat-loads) sekcijose, esančiose vėliau šioje temoje. Pavojingos medžiagos svoris yra apskaičiuojamas pagal toliau nurodytą formulę:
+kroviniai ir krovinių eilutės, į kuriuos įeina produktai, kur parinktis **Ribotas kiekis**, **Medžiagų valdymas** „FastTab”, nustatyta **Taip**, rodys bendrą pavojingos medžiagos svorį, kaip aprašyta [Siuntos, kuriose yra pavojingų medžiagų](#hazmat-shipments) ir [Kroviniai, kuriose yra pavojingų medžiagų](#hazmat-loads) sekcijose, esančiose vėliau šioje temoje. Pavojingos medžiagos svoris yra apskaičiuojamas pagal toliau nurodytą formulę:
 
 Pavojingos medžiagos svoris = *&lt;LineQty&gt;* × *&lt;ProductWeight&gt;* × *&lt;UnitConversion&gt;*
 
 Čia yra formulės raktas:
 
-- *&lt;LineQty&gt;* yra produkto kiekis, nustatytas įkelties eilutei.
+- *&lt;LineQty&gt;* yra produkto kiekis, nustatytas krovinio eilutei.
 - *&lt;ProductWeight&gt;* yra grynasis svoris, nustatytas produktui, pagal atsargų vienetą, nustatytą produktui.
-- *&lt;UnitConversion&gt;* yra konvertavimo koeficientas, naudojamas konvertavimui tarp vieneto, naudojamo įkelties eilutės kiekiui, ir atsargų vieneto, naudojamo *&lt;ProductWeight&gt;*.
+- *&lt;UnitConversion&gt;* yra konvertavimo koeficientas, naudojamas konvertavimui tarp vieneto, naudojamo krovinio eilutės kiekiui, ir atsargų vieneto, naudojamo *&lt;ProductWeight&gt;*.
 
 ### <a name="transport-information-fasttab"></a>„FastTab” – „Transportavimo informacija”
 
@@ -173,14 +170,14 @@ Po to, kai pardavimo užsakymas yra užbaigtas ir paruoštas išsiuntimui, jis g
 
 ### <a name="view-hazardous-material-scores-for-each-shipment-line"></a>Peržiūrėkite pavojingos medžiagos balus kiekvienai siuntimo eilutei
 
-Puslapis **Siuntos informacija** rodo bendrą pavojingos medžiagos svorį ir taškų vertes, kurios buvo apskaičiuotos kiekvienai įkelties eilutei, kuri yra įtraukta į tą siuntą. Norėdami peržiūrėti vertinimus ir svorius, atlikite šiuos veiksmus.
+Puslapis **Siuntos informacija** rodo bendrą pavojingos medžiagos svorį ir taškų vertes, kurios buvo apskaičiuotos kiekvienai krovinio eilutei, kuri yra įtraukta į tą siuntą. Norėdami peržiūrėti vertinimus ir svorius, atlikite šiuos veiksmus.
 
 1. Eikite į **Sandėlio valdymas \> Siuntos \> Visos siuntos**.
 1. Pasirinkite siuntą, kad atidarytumėte **Siuntos informacija** puslapį.
 1. „FastTab” **Krovinio eilutės** patikrinkite eilutes. Matysite pavojingos medžiagos apskaičiavimus kiekvienai eilutei šiuose laukuose:
 
-    - **Pavojingos medžiagos taškai** – Šis laukas rodo pavojingos medžiagos vertinimą įkelties eilutei. Vertė yra apskaičiuojama pagal taisykles ir vertes, kurios buvo nustatytos taikomajame reglamente ir patvirtinto produkto sąrankoje. Apskaičiuojamas kiekis vienoje įkelties eilutėje ir nurodomas daugiklis [Medžiagų valdymo sąranka](#material-management) puslapyje patvirtintam produktui.
-    - **Riboto kiekio grynasis svoris** – Produktams, pažymėtiems kaip riboto kiekio produktai dėl jų pavojingos medžiagos turinio, šis laukas rodo bendrą pavojingo turinio, esančio ant įkelties eilutės, grynąjį svorį. Apskaičiavimas yra pagrįstas produktais, kurie yra pažymėti kaip pavojingos medžiagos patvirtinto produkto sąrankoje. Jei prekė pažymėta kaip riboto kiekio prekė, apskaičiuojamas kiekis ant kiekvienos įkelties eilutės ir nurodomas svoris [Medžiagų valdymo sąranka](#material-management) puslapyje patvirtintam produktui.
+    - **Pavojingos medžiagos taškai** – Šis laukas rodo pavojingos medžiagos vertinimą krovinio eilutei. Vertė yra apskaičiuojama pagal taisykles ir vertes, kurios buvo nustatytos taikomajame reglamente ir patvirtinto produkto sąrankoje. Apskaičiuojamas kiekis vienoje krovinio eilutėje ir nurodomas daugiklis [Medžiagų valdymo sąranka](#material-management) puslapyje patvirtintam produktui.
+    - **Riboto kiekio grynasis svoris** – Produktams, pažymėtiems kaip riboto kiekio produktai dėl jų pavojingos medžiagos turinio, šis laukas rodo bendrą pavojingo turinio, esančio ant krovinio eilutės, grynąjį svorį. Apskaičiavimas yra pagrįstas produktais, kurie yra pažymėti kaip pavojingos medžiagos patvirtinto produkto sąrankoje. Jei prekė pažymėta kaip riboto kiekio prekė, apskaičiuojamas kiekis ant kiekvienos krovinio eilutės ir nurodomas svoris [Medžiagų valdymo sąranka](#material-management) puslapyje patvirtintam produktui.
 
 ### <a name="check-for-compatibility-among-hazardous-materials-that-are-included-in-a-shipment"></a>Suderinamumo tarp pavojingų medžiagų, kurios yra įtrauktos į siuntą, patikrinimas
 
@@ -194,30 +191,30 @@ Norėdami vykdyti suderinamumo tikrinimą, atlikite šiuos veiksmus.
 
 Gausite pranešimą, kuris jus informuos apie patikros rezultatus.
 
-## <a name="loads-that-include-hazardous-materials"></a><a name="hazmat-loads"></a>Įkeltys, kuriose yra pavojingų medžiagų
+## <a name="loads-that-include-hazardous-materials"></a><a name="hazmat-loads"></a>Kroviniai, kuriose yra pavojingų medžiagų
 
-### <a name="view-hazardous-material-scores-for-each-load-line"></a>Peržiūrėkite pavojingų medžiagų balus kiekvienai įkelties eilutei
+### <a name="view-hazardous-material-scores-for-each-load-line"></a>Peržiūrėkite pavojingų medžiagų balus kiekvienai krovinio eilutei
 
-Puslapis **Įkelties informacija** rodo bendrą pavojingų medžiagų svorį ir taškų vertes, kurios buvo apskaičiuotos tai įkelčiai ir kiekvienai įkelties eilutei. Norėdami peržiūrėti vertinimus ir svorius, atlikite šiuos veiksmus.
+Puslapyje **Krovinio informacija** rodomas bendras pavojingų medžiagų svoris ir taškų vertes, kurios buvo apskaičiuotos tam kroviniui ir kiekvienai krovinio eilutei. Norėdami peržiūrėti vertinimus ir svorius, atlikite šiuos veiksmus.
 
-1. Eikite į **Sandėlio valdymas \> Siuntos \> Visos įkeltys**.
-1. Pasirinkite įkeltį, kad atidarytumėte **Įkelties informacija** puslapį. (Taip pat galite atidaryti įkelties informaciją, pasirinkę saitą iš susijusios siuntos.)
-1. „FastTab” **Įkeltis** galite peržiūrėti bendrus pavojingų medžiagų vertinimus ir svorius visai įkelčiai, patikrinę šiuos laukus:
+1. Eikite į **Sandėlio valdymas \> Siuntos \> Visi kroviniai**.
+1. Pasirinkite krovinį, kad atidarytumėte **Krovinio informacija** puslapį. (Taip pat galite atidaryti krovinio informaciją, pasirinkę saitą iš susijusios siuntos.)
+1. „FastTab” **Krovinys** galite peržiūrėti bendrus pavojingų medžiagų vertinimus ir svorius visai kroviniui, patikrinę šiuos laukus:
 
-    - **Pavojingos medžiagos taškai** – Šis laukas rodo pavojingos medžiagos vertinimą vienai įkelčiai. Vertė yra apskaičiuojama pagal taisykles ir vertes, kurios buvo nustatytos taikomajame reglamente ir patvirtinto produkto sąrankoje. Apskaičiuojamas įkelties kiekis ir nurodomas daugiklis [Medžiagų valdymo sąranka](#material-management) puslapyje patvirtintam produktui.
-    - **Riboto kiekio grynasis svoris** – Produktams, pažymėtiems kaip riboto kiekio produktai dėl jų pavojingos medžiagos turinio, šis laukas rodo bendrą pavojingo turinio, esančio įkeltyje, grynąjį svorį. Apskaičiavimas yra pagrįstas produktais, kurie yra pažymėti kaip pavojingos medžiagos patvirtinto produkto sąrankoje. Jei prekė pažymėta kaip riboto kiekio prekė, apskaičiuojamas kiekis kiekvienoje įkeltyje ir nurodomas svoris [Medžiagų valdymo sąranka](#material-management) puslapyje patvirtintam produktui.
+    - **Pavojingos medžiagos taškai** – Šis laukas rodo pavojingos medžiagos vertinimą vienai kroviniui. Vertė yra apskaičiuojama pagal taisykles ir vertes, kurios buvo nustatytos taikomajame reglamente ir patvirtinto produkto sąrankoje. Apskaičiuojamas krovinio kiekis ir nurodomas daugiklis [Medžiagų valdymo sąranka](#material-management) puslapyje patvirtintam produktui.
+    - **Riboto kiekio grynasis svoris** – Produktams, pažymėtiems kaip riboto kiekio produktai dėl jų pavojingos medžiagos turinio, šis laukas rodo bendrą pavojingo turinio, esančio krovinyje, grynąjį svorį. Apskaičiavimas yra pagrįstas produktais, kurie yra pažymėti kaip pavojingos medžiagos patvirtinto produkto sąrankoje. Jei prekė pažymėta kaip riboto kiekio prekė, apskaičiuojamas kiekis kiekvienoje krovinyje ir nurodomas svoris [Medžiagų valdymo sąranka](#material-management) puslapyje patvirtintam produktui.
 
-1. Kad peržiūrėtumėte vertinimus ir svorius atskiroms eilutėms, pasirinkite „FastTab” **Įkelčių eilutės**. Vertės, pateiktos kiekvienai eilutei, yra panašios į vertes, pateiktas visai įkelčiai, kaip aprašyta ankstesniame veiksme.
+1. Kad peržiūrėtumėte vertinimus ir svorius atskiroms eilutėms, pasirinkite „FastTab” **Krovinių eilutės**. Vertės, pateiktos kiekvienai eilutei, yra panašios į vertes, pateiktas visai kroviniui, kaip aprašyta ankstesniame veiksme.
 
-### <a name="check-for-compatibility-among-hazardous-materials-that-are-included-in-a-load"></a>Suderinamumo tarp pavojingų medžiagų, kurios yra įtrauktos į įkelt, patikrinimas
+### <a name="check-for-compatibility-among-hazardous-materials-that-are-included-in-a-load"></a>Suderinamumo tarp pavojingų medžiagų, kurios yra įtrauktos į krovinį, patikrinimas
 
-Sistema gali įvertinti, ar visos pavojingos medžiagos, įtrauktos į įkeltį, yra tinkamos išsiųsti kartu. Kad įvertinti suderinamumą, sistema patikrina suderinamumo grupę, kuri yra priskirta kiekvienam produktui, kuris yra įtrauktas į įkeltį. Daugiau informacijos žr. [Pavojingų medžiagų suderinamumo grupės](hazmat-setup.md#compatibility-groups).
+Sistema gali įvertinti, ar visos pavojingos medžiagos, įtrauktos į krovinį, yra tinkamos išsiųsti kartu. Kad įvertinti suderinamumą, sistema patikrina suderinamumo grupę, kuri yra priskirta kiekvienam produktui, kuris yra įtrauktas į krovinį. Daugiau informacijos žr. [Pavojingų medžiagų suderinamumo grupės](hazmat-setup.md#compatibility-groups).
 
 Norėdami vykdyti suderinamumo tikrinimą, atlikite šiuos veiksmus.
 
-1. Eikite į **Sandėlio valdymas \> Siuntos \> Visos įkeltys**.
-1. Pasirinkite siuntą, kad atidarytumėte **Įkelties informacija** puslapį. (Taip pat galite atidaryti įkelties informaciją, pasirinkę saitą iš susijusios siuntos.)
-1. Veiksmų srityje, skirtuke **Įkeltys**, grupėje **Veiksmai**, pasirinkite **Suderinamumo tikrinimas**.
+1. Eikite į **Sandėlio valdymas \> Siuntos \> Visi kroviniai**.
+1. Pasirinkite siuntą, kad atidarytumėte **Krovinio informacija** puslapį. (Taip pat galite atidaryti krovinio informaciją, pasirinkę saitą iš susijusios siuntos.)
+1. Veiksmų srities skirtuko **Kroviniai** grupėje **Veiksmai** pasirinkite **Suderinamumo tikrinimas**.
 
 Gausite pranešimą, kuris jus informuos apie patikros rezultatus.
 

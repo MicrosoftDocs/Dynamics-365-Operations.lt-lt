@@ -2,11 +2,9 @@
 title: Elemento konsolidavimas - vietos naudojimas
 description: Šiame temoje pateikta informacija apie funkcijas, kurios palengvina sandėlio vadovų vietų kiekio naudojimo peržiūrą ir filtravimą sandėlyje. Vadovai gali pasirinkti vietas ir sukurti inventoriaus judėjimo darbą tiesiai iš elemento konsolidavimo puslapio į konsoliduotus elementus ir taip pagerinti sandėlio vietos naudojimą.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPhysDimUOM, WHSMovementType, WHSItemConsolidationForm, WHSRFMenu, WHSRFMenuItem
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 3b20b41d27e5faeac7ea88940c086ae33390dc29
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 892190ea7bad34dfd308796b93a1828e0e8e11b9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217010"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835581"
 ---
 # <a name="item-consolidation---location-utilization"></a>Elemento konsolidavimas - vietos naudojimas
 
@@ -149,7 +147,7 @@ Prieš pradedant naudoti šiame skyriuje aprašytas savybes, privalote įjungti 
 
 ## <a name="example-scenario"></a>Pavyzdinis scenarijus
 
-Tolesnis scenarijus naudoja sandėlio programą mobiliame prietaise tam, kad sukurtų inventorių *reguliavimą viduje* dvejose sandėlio vietose.
+Tolesnis scenarijus naudoja sandėlio valdymo mobiliųjų įrenginių programėlę tam, kad sukurtų inventoriaus *vidinį koregavimą* dvejose sandėlio vietose.
 
 ### <a name="add-inventory-to-locations"></a>Įtraukti inventorių į vietas
 

@@ -2,11 +2,9 @@
 title: Darbo užsakymų kūrimas
 description: Šioje temoje aiškinama, kaip sukurti darbo užsakymus turto valdyme.
 author: johanhoffmann
-manager: tfehr
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenancePlan, EntAssetObjectCalendarListPage, EntAssetObjectCalendarListPagePoolsOpen
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 76306fb31e7e5297e6a5d64b97b5bd09b64349ee
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 3982232e5008d6f8c283d6cecfaf2fa6e66150a1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500579"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836739"
 ---
 # <a name="creating-work-orders"></a>Darbo užsakymų kūrimas
 
@@ -62,8 +60,6 @@ Norėdami sukurti darbo užsakymus pagal jūsų priežiūros grafiką, atlikite 
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Darbo užsakymo eilučių, sukuriamų automatiškai priežiūros plano vykdymo metu, grupavimas
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 Ši funkcija leidžia jums nustatyti darbo užsakymo eilučių grupavimo pagal vieną darbo užsakymą taisykles, kai sistema yra nustatyta generuoti darbo užsakymus automatiškai, atsižvelgiant į priežiūros planą. Anksčiau automatiškai sugeneruotuose darbo užsakymuose galėjo būti tik viena eilutė. Tačiau dabar galite grupuoti darbo užsakymus pagal, pavyzdžiui, turtą, turto tipą ar funkcinę vietą. (Rankiniu būdu sugeneruotus darbo užsakymus tokiu būdų jau buvo galima grupuoti, kaip aprašyta ankstesniame šios temos skyriuje.)
 
 ### <a name="enable-grouping-for-automatically-generated-work-orders"></a>Automatiškai sugeneruotų darbo užsakymų grupavimo įgalinimas
@@ -71,7 +67,7 @@ Norėdami sukurti darbo užsakymus pagal jūsų priežiūros grafiką, atlikite 
 Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
 
 - **Modulis:** *Turto valdymas*
-- **Funkcijos pavadinimas:** *(Peržiūros versija) Taikyti darbo užsakymų grupavimo taisykles vykdant priežiūros planą*
+- **Funkcijos pavadinimas:** *Taikyti darbo užsakymų grupavimo taisykles vykdant priežiūros planą*
 
 ### <a name="set-up-grouping-for-automatically-generated-work-orders"></a>Automatiškai sugeneruotų darbo užsakymų grupavimo nustatymas
 

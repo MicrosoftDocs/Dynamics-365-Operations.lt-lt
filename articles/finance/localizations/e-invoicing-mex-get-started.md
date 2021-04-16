@@ -1,12 +1,10 @@
 ---
-title: Darbo su Meksikos elektroninių SF išrašymo priedu pradžia
-description: Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis Meksikos elektroninių SF išrašymo priedu „Microsoft Dynamics 365 Finance” ir „Dynamics 365 Supply Chain Management”.
+title: Darbo su elektroninių SF priedu Meksikai pradžia
+description: Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis elektroninių SF išrašymo priedu Meksikai.
 author: gionoder
-manager: AnnBe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,21 +15,21 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ec7417d44a7c2aa413a9cda75996c153727632dd
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: 2f5dd1d6bc520c9f5349c77dfcabdf2d538881ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592651"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840057"
 ---
-# <a name="get-started-with-the-electronic-invoicing-add-on-for-mexico"></a>Darbo su Meksikos elektroninių SF išrašymo priedu pradžia
+# <a name="get-started-with-electronic-invoicing-for-mexico"></a>Darbo su elektroninių SF priedu Meksikai pradžia
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
 > Meksikos elektroninių SF išrašymo priedas šiuo metu gali nepalaikyti visų funkcijų, pasiekiamų „Comprobante Fiscal Digital por Internet” (CFDI) dokumente ir susijusiame integravime, įtaisytame „Microsoft Dynamics 365 Finance” arba „Dynamics 365 Supply Chain Management”.
 
-Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis Meksikos elektroninių SF išrašymo priedu. Ji padės atlikti konfigūracijos veiksmus, priklausančius nuo šalies, „Regulatory Configuration Services” (RCS) ir „Finance”. Ji taip pat padeda jums atlikti veiksmus „Finance”, kurių reikia, kad CFDI SF būtų teikiamos naudojant paslaugą, ir paaiškina, kaip peržiūrėti apdorojimo rezultatus ir CFDI SF būsenas.
+Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis elektroninių SF išrašymo priedu Meksikai. Ji padės atlikti konfigūracijos veiksmus, priklausančius nuo šalies, „Regulatory Configuration Services” (RCS) ir „Finance”. Ji taip pat padeda jums atlikti veiksmus „Finance”, kurių reikia, kad CFDI SF būtų teikiamos naudojant paslaugą, ir paaiškina, kaip peržiūrėti apdorojimo rezultatus ir CFDI SF būsenas.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
@@ -153,7 +151,7 @@ Norint pateikti CFDI SF atšaukimą, reikalingi funkcijų **Atšaukimas** ir **A
 
 ![El. SF išrašymo funkcijos būsenos keitimas](media/e-Invoicing-services-get-started-MEX-Change-status-of-e-Invoicing-feature.png)
 
-## <a name="set-up-electronic-invoicing-add-on-integration-in-finance"></a>Elektroninių SF išrašymo priedo integravimo nustatymas „Finance”
+## <a name="set-up-electronic-invoicing--integration-in-finance"></a>Elektroninių SF išrašymo priedo integravimo nustatymas „Finance”
 
 Norėdami nustatyti elektroninių SF išrašymo priedą „Finance”, atlikite toliau pateiktas užduotis.
 
@@ -206,7 +204,7 @@ Norėdami nustatyti elektroninių SF išrašymo priedą „Finance”, atlikite 
 
 ## <a name="process-electronic-invoices-in-finance"></a>Elektroninių SF apdorojimas „Finance” 
 
-CFDI SF apdorojimo metu „Finance” naudodami elektroninių SF išrašymo priedą galite atlikti toliau pateiktas užduotis.
+CFDI SF apdorojimo metu „Finance” naudodami elektroninių SF išrašymo priedą galite atlikti toliau pateiktas užduotis:
 
 - Pateikti CFDI SF.
 - Peržiūrėti pateikimo vykdymo žurnalus.
@@ -296,8 +294,8 @@ Norint įjungti funkciją **CFDI Meksikos elektroninė SF (MX)** gali prireikti 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 - [Elektroninių SF išrašymo priedo apžvalga](e-invoicing-service-overview.md)
-- [Darbo su elektroninių SF išrašymo priedu pradžia](e-invoicing-get-started.md)
-- [Elektroninių SF išrašymo priedo nustatymas](e-invoicing-setup.md)
+- [Darbo su elektroninių SF priedu pradžia](e-invoicing-get-started.md)
+- [Elektroninių SF nustatymas](e-invoicing-setup.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

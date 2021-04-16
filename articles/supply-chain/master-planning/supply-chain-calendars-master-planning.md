@@ -2,11 +2,9 @@
 title: Kalendoriai ir bendrasis planavimas
 description: Šioje temoje apžvelgiami tiekimo grandinės kalendoriai ir tai, kaip jie paveikia bendrąjį planavimą.
 author: t-benebo
-manager: tfehr
 ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 64a9e356d93b42193c2992fb4029814c5fd63e7e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dcc66549bf6bdd67438bea9ac3c29c3f01e2674e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5261146"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841772"
 ---
 # <a name="calendars-and-master-planning"></a>Kalendoriai ir bendrasis planavimas
 
@@ -45,7 +43,7 @@ Uždarymo datų žymės langelis **Uždaryta paimti** priskiriamas automatiškai
 ### <a name="calendar-for-a-coverage-group"></a>Padengimo grupės kalendorius
 Padengimo grupė nurodo bendrą rinkinį, sudarytą iš parametrų, naudojamų papildant prekes, priklausančias konkretaus padengimo grupei. 
 
-Norėdami įtraukti padengimo grupės kalendoriu, pasirinkite **Bendrasis planavimas > Sąranka > Padengimas > Padengimo grupės**. Raskite padengimo grupę, kuriai norite priskirti kalendorių, tada pasirinkite jį lauke **Kalendorius**.
+Norėdami įtraukti padengimo grupės kalendorių pasirinkite **Bendrasis planavimas > Sąranka > Padengimas > Padengimo grupės**. Raskite padengimo grupę, kuriai norite priskirti kalendorių, tada pasirinkite jį lauke **Kalendorius**.
 
 Padengimo grupę galima priskirti skirtinguose puslapiuose. 
     - Prekės puslapyje **Išleisto produkto informacija**. Norėdami pamatyti prekės padengimo grupę, pasirinkite **Produkto informacijos valdymas > Produktai > Išleisti produktai** ir pasirinkite prekę, kad atidarytumėte puslapį **Išleistų produktų informacija**. Prekės padengimo grupę galite peržiūrėti „FastTab“ **Planas**.
@@ -55,7 +53,7 @@ Padengimo grupę galima priskirti skirtinguose puslapiuose.
 ### <a name="calendar-for-a-vendor"></a>Tiekėjo kalendorius
 Norėdami nurodyti tiekėjo darbo dienas, galite priskirti pirkimo kalendorių tiekėjui tiekėjo puslapyje **Pirkimo užsakymo numatytosios reikšmė**. 
 
-Norėdami nustatyti tiekėjo kalendorių, turite sukurti kalendorių pasirinkdami **Organizacijos administravimas > Kalendoriai > Kalendoriai**. Sukūrus kalendorių, jis turi būti priskirtas tiekėjui. Pasirinkite **Mokėtinos sumos > Tiekėjai > Visi tiekėjai** ir pasirinkite tiekėją, kuram norite priskirti kalendorių. Tada tiekėjo puslapio „FastTab“ **Pirkimo užsakymo numatytosios reikšmė** priskirkite naują pirkimo kalendorių naudodami išplečiamajį meniu. 
+Norėdami nustatyti tiekėjo kalendorių, turite sukurti kalendorių pasirinkdami **Organizacijos administravimas > Kalendoriai > Kalendoriai**. Sukūrus kalendorių, jis turi būti priskirtas tiekėjui. Pasirinkite **Mokėtinos sumos > Tiekėjai > Visi tiekėjai** ir pasirinkite tiekėją, kuriam norite priskirti kalendorių. Tada tiekėjo puslapio „FastTab“ **Pirkimo užsakymo numatytosios reikšmė** priskirkite naują pirkimo kalendorių naudodami išplečiamajį meniu. 
 
 Tiekėjo kalendorius nurodo dienas, kuriomis tiekėjas priima teikiamus pirkimo užsakymus, ir datas, kuriomis tiekėjas pristato užsakymus į jūsų įmonę. Taigi, tiekėjo, kuriam priskirtas pirkimo kalendorius, pirkimo užsakymo datos bus datos, kalendoriuje nurodytos kaip atidarytos. Tų užsakymų pristatymo datos taip pat bus atidarytos dienos ir tokiu būdu paveiks nupirktos prekės gamybos laiką. 
 
