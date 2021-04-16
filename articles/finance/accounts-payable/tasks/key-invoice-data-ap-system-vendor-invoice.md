@@ -2,11 +2,9 @@
 title: Pagrindiniai SF duomenys veiksmų srityje, naudojant tiekėjo SF
 description: Šis užduočių vadovas jums padės iš pirkimo užsakymo sukurti tiekėjo SF ir peržiūrėti pirkimo užsakymo, gavimo kvito ir SF gretinimo (trišalis gretinimas) rezultatus.
 author: abruer
-manager: AnnBe
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines, VendEditInvoice, InventItemIdLookupSimple, VendInvoiceMatchingDetails
 audience: Application User
@@ -15,62 +13,62 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 20a058eb17bcab11056c91ab3570d6cd5b84b631
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5d3f9fc1fb7724632dbc9c4c3e1e28c6e85eaf61
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227213"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827799"
 ---
-# <a name="key-invoice-data-in-ap-using-a-vendor-invoice"></a><span data-ttu-id="500da-103">Pagrindiniai SF duomenys veiksmų srityje, naudojant tiekėjo SF</span><span class="sxs-lookup"><span data-stu-id="500da-103">Key invoice data in AP using a vendor invoice</span></span>
+# <a name="key-invoice-data-in-ap-using-a-vendor-invoice"></a><span data-ttu-id="e5a13-103">Pagrindiniai SF duomenys veiksmų srityje, naudojant tiekėjo SF</span><span class="sxs-lookup"><span data-stu-id="e5a13-103">Key invoice data in AP using a vendor invoice</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="500da-104">Šis užduočių vadovas jums padės iš pirkimo užsakymo sukurti tiekėjo SF ir peržiūrėti pirkimo užsakymo, gavimo kvito ir SF gretinimo (trišalis gretinimas) rezultatus.</span><span class="sxs-lookup"><span data-stu-id="500da-104">This task guide will help you create a vendor invoice from a purchase order and view the results of matching the purchase order, receipt, and invoice (3 way matching).</span></span>
+<span data-ttu-id="e5a13-104">Šis užduočių vadovas jums padės iš pirkimo užsakymo sukurti tiekėjo SF ir peržiūrėti pirkimo užsakymo, gavimo kvito ir SF gretinimo (trišalis gretinimas) rezultatus.</span><span class="sxs-lookup"><span data-stu-id="e5a13-104">This task guide will help you create a vendor invoice from a purchase order and view the results of matching the purchase order, receipt, and invoice (3 way matching).</span></span>
 
 
-## <a name="create-a-purchase-order"></a><span data-ttu-id="500da-105">Pirkimo užsakymo kūrimas</span><span class="sxs-lookup"><span data-stu-id="500da-105">Create a purchase order</span></span>
-1. <span data-ttu-id="500da-106">Naršymo srityje eikite į **Moduliai > Mokėtinos sumos > Pirkimo užsakymai > Visi pirkimo užsakymai**.</span><span class="sxs-lookup"><span data-stu-id="500da-106">In the Navigation pane, go to **Modules > Accounts payable > Purchase orders > All purchase orders**.</span></span>
-2. <span data-ttu-id="500da-107">Spustelėkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="500da-107">Click **New**.</span></span>
-3. <span data-ttu-id="500da-108">Lauke **Tiekėjo sąskaita** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="500da-108">In the **Vendor account** field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="500da-109">Raskite tiekėją, kurį norite pasirinkti.</span><span class="sxs-lookup"><span data-stu-id="500da-109">Find a vendor to select.</span></span> <span data-ttu-id="500da-110">Pavyzdžiui, slinkite žemyn iki US-104.</span><span class="sxs-lookup"><span data-stu-id="500da-110">For example, scroll down to US-104.</span></span>
-5. <span data-ttu-id="500da-111">Pasirinkite tiekėją US-104.</span><span class="sxs-lookup"><span data-stu-id="500da-111">Select vendor US-104.</span></span>
-6. <span data-ttu-id="500da-112">Spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="500da-112">Click **OK**.</span></span>
-7. <span data-ttu-id="500da-113">Lauke **Prekės numeris** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="500da-113">In the **Item number** field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="500da-114">Pasirinkite atsargų prekę.</span><span class="sxs-lookup"><span data-stu-id="500da-114">Select an inventory item.</span></span> <span data-ttu-id="500da-115">Pavyzdžiui, pasirinkite prekės numerį 1000.</span><span class="sxs-lookup"><span data-stu-id="500da-115">For example, select item number 1000.</span></span>
-9. <span data-ttu-id="500da-116">Išplėskite FastTab **Eilutės informacija**.</span><span class="sxs-lookup"><span data-stu-id="500da-116">Expand the **Line details** fastTab.</span></span>
-10. <span data-ttu-id="500da-117">Spustelėkite skirtuką **Sąranka**. Galite netaikyti atitikimo politikos, kad nenaudotumėte atitikimo, dvipusio ar trijų krypčių atitikimo.</span><span class="sxs-lookup"><span data-stu-id="500da-117">Click the **Setup** tab. You can override the matching policy to use no matching, 2-way matching, or 3-way matching.</span></span>  
-11. <span data-ttu-id="500da-118">Veiksmų srityje spustelėkite **Pirkti**.</span><span class="sxs-lookup"><span data-stu-id="500da-118">On the Action Pane, click **Purchase**.</span></span>
-12. <span data-ttu-id="500da-119">Spustelėkite **Patvirtinti**.</span><span class="sxs-lookup"><span data-stu-id="500da-119">Click **Confirm**.</span></span>
+## <a name="create-a-purchase-order"></a><span data-ttu-id="e5a13-105">Pirkimo užsakymo kūrimas</span><span class="sxs-lookup"><span data-stu-id="e5a13-105">Create a purchase order</span></span>
+1. <span data-ttu-id="e5a13-106">Naršymo srityje eikite į **Moduliai > Mokėtinos sumos > Pirkimo užsakymai > Visi pirkimo užsakymai**.</span><span class="sxs-lookup"><span data-stu-id="e5a13-106">In the Navigation pane, go to **Modules > Accounts payable > Purchase orders > All purchase orders**.</span></span>
+2. <span data-ttu-id="e5a13-107">Spustelėkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="e5a13-107">Click **New**.</span></span>
+3. <span data-ttu-id="e5a13-108">Lauke **Tiekėjo sąskaita** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="e5a13-108">In the **Vendor account** field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="e5a13-109">Raskite tiekėją, kurį norite pasirinkti.</span><span class="sxs-lookup"><span data-stu-id="e5a13-109">Find a vendor to select.</span></span> <span data-ttu-id="e5a13-110">Pavyzdžiui, slinkite žemyn iki US-104.</span><span class="sxs-lookup"><span data-stu-id="e5a13-110">For example, scroll down to US-104.</span></span>
+5. <span data-ttu-id="e5a13-111">Pasirinkite tiekėją US-104.</span><span class="sxs-lookup"><span data-stu-id="e5a13-111">Select vendor US-104.</span></span>
+6. <span data-ttu-id="e5a13-112">Spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="e5a13-112">Click **OK**.</span></span>
+7. <span data-ttu-id="e5a13-113">Lauke **Prekės numeris** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="e5a13-113">In the **Item number** field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="e5a13-114">Pasirinkite atsargų prekę.</span><span class="sxs-lookup"><span data-stu-id="e5a13-114">Select an inventory item.</span></span> <span data-ttu-id="e5a13-115">Pavyzdžiui, pasirinkite prekės numerį 1000.</span><span class="sxs-lookup"><span data-stu-id="e5a13-115">For example, select item number 1000.</span></span>
+9. <span data-ttu-id="e5a13-116">Išplėskite FastTab **Eilutės informacija**.</span><span class="sxs-lookup"><span data-stu-id="e5a13-116">Expand the **Line details** fastTab.</span></span>
+10. <span data-ttu-id="e5a13-117">Spustelėkite skirtuką **Sąranka**. Galite netaikyti atitikimo politikos, kad nenaudotumėte atitikimo, dvipusio ar trijų krypčių atitikimo.</span><span class="sxs-lookup"><span data-stu-id="e5a13-117">Click the **Setup** tab. You can override the matching policy to use no matching, 2-way matching, or 3-way matching.</span></span>  
+11. <span data-ttu-id="e5a13-118">Veiksmų srityje spustelėkite **Pirkti**.</span><span class="sxs-lookup"><span data-stu-id="e5a13-118">On the Action Pane, click **Purchase**.</span></span>
+12. <span data-ttu-id="e5a13-119">Spustelėkite **Patvirtinti**.</span><span class="sxs-lookup"><span data-stu-id="e5a13-119">Click **Confirm**.</span></span>
 
-## <a name="receive-the-products"></a><span data-ttu-id="500da-120">Produktų gavimas</span><span class="sxs-lookup"><span data-stu-id="500da-120">Receive the products</span></span>
-1. <span data-ttu-id="500da-121">Veiksmų srityje spustelėkite **Gauti**.</span><span class="sxs-lookup"><span data-stu-id="500da-121">On the Action Pane, click **Receive**.</span></span>
-2. <span data-ttu-id="500da-122">Spustelėkite **Produkto gavimo kvitas**.</span><span class="sxs-lookup"><span data-stu-id="500da-122">Click **Product receipt**.</span></span>
-3. <span data-ttu-id="500da-123">Lauke **Produkto gavimo kvitas** įveskite produkto gavimo kvito numerį.</span><span class="sxs-lookup"><span data-stu-id="500da-123">In the **Product receipt** field, enter the product receipt number.</span></span> <span data-ttu-id="500da-124">Pavyzdžiui, įveskite PR123.</span><span class="sxs-lookup"><span data-stu-id="500da-124">For example, enter PR123.</span></span>
-4. <span data-ttu-id="500da-125">Spustelėkite **Gerai**, kad registruotumėte produkto gavimo kvitą.</span><span class="sxs-lookup"><span data-stu-id="500da-125">Click **OK** to post the product receipt.</span></span>
-5. <span data-ttu-id="500da-126">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="500da-126">Close the page.</span></span>
+## <a name="receive-the-products"></a><span data-ttu-id="e5a13-120">Produktų gavimas</span><span class="sxs-lookup"><span data-stu-id="e5a13-120">Receive the products</span></span>
+1. <span data-ttu-id="e5a13-121">Veiksmų srityje spustelėkite **Gauti**.</span><span class="sxs-lookup"><span data-stu-id="e5a13-121">On the Action Pane, click **Receive**.</span></span>
+2. <span data-ttu-id="e5a13-122">Spustelėkite **Produkto gavimo kvitas**.</span><span class="sxs-lookup"><span data-stu-id="e5a13-122">Click **Product receipt**.</span></span>
+3. <span data-ttu-id="e5a13-123">Lauke **Produkto gavimo kvitas** įveskite produkto gavimo kvito numerį.</span><span class="sxs-lookup"><span data-stu-id="e5a13-123">In the **Product receipt** field, enter the product receipt number.</span></span> <span data-ttu-id="e5a13-124">Pavyzdžiui, įveskite PR123.</span><span class="sxs-lookup"><span data-stu-id="e5a13-124">For example, enter PR123.</span></span>
+4. <span data-ttu-id="e5a13-125">Spustelėkite **Gerai**, kad registruotumėte produkto gavimo kvitą.</span><span class="sxs-lookup"><span data-stu-id="e5a13-125">Click **OK** to post the product receipt.</span></span>
+5. <span data-ttu-id="e5a13-126">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="e5a13-126">Close the page.</span></span>
 
-## <a name="create-a-vendor-invoice"></a><span data-ttu-id="500da-127">Kurti tiekėjo SF</span><span class="sxs-lookup"><span data-stu-id="500da-127">Create a vendor invoice</span></span>
-1. <span data-ttu-id="500da-128">Naršymo srityje eikite į **Moduliai > Mokėtinos sumos > Pirkimo užsakymai > Pirkimo užsakymai gauti, bet SF neišrašyta**.</span><span class="sxs-lookup"><span data-stu-id="500da-128">In the Navigation pane, go to **Modules > Accounts payable > Purchase orders > Purchase orders received but not invoiced**.</span></span>
-2. <span data-ttu-id="500da-129">Pasirinkite savo sukurtą pirkimo užsakymą.</span><span class="sxs-lookup"><span data-stu-id="500da-129">Select the purchase order that you created.</span></span>
-3. <span data-ttu-id="500da-130">Veiksmų srityje spustelėkite **Sąskaita faktūra**.</span><span class="sxs-lookup"><span data-stu-id="500da-130">On the Action Pane, click **Invoice**.</span></span>
-4. <span data-ttu-id="500da-131">Spustelėkite **Sąskaita faktūra**.</span><span class="sxs-lookup"><span data-stu-id="500da-131">Click **Invoice**.</span></span>
-5. <span data-ttu-id="500da-132">Lauke **Numeris** įveskite SF numerį.</span><span class="sxs-lookup"><span data-stu-id="500da-132">In the **Number** field, enter the invoice number.</span></span>
-6. <span data-ttu-id="500da-133">Lauke **Sąskaitos faktūros aprašas** įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="500da-133">In the **Invoice description** field, type a value.</span></span>
-7. <span data-ttu-id="500da-134">Lauke **SF data** įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="500da-134">In the **Invoice date** field, enter a date.</span></span>
-8. <span data-ttu-id="500da-135">Lauke **Vieneto kaina** įveskite 1200.</span><span class="sxs-lookup"><span data-stu-id="500da-135">In the **Unit price** field, enter 1200.</span></span>
-9. <span data-ttu-id="500da-136">Spustelėkite **Pridėti eilutę**.</span><span class="sxs-lookup"><span data-stu-id="500da-136">Click **Add line**.</span></span>
-10. <span data-ttu-id="500da-137">Lauke **Prekės numeris** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="500da-137">In the **Item number** field, click the drop-down button to open the lookup.</span></span>
-11. <span data-ttu-id="500da-138">Sąraše raskite diegimo išlaidų prekės numerį.</span><span class="sxs-lookup"><span data-stu-id="500da-138">In the list, find the installation charge item number.</span></span> <span data-ttu-id="500da-139">Pavyzdžiui, S0001</span><span class="sxs-lookup"><span data-stu-id="500da-139">For example, S0001</span></span>
-12. <span data-ttu-id="500da-140">Pasirinkite diegimo išlaidų prekės numerį.</span><span class="sxs-lookup"><span data-stu-id="500da-140">Select the installation charge item number.</span></span> <span data-ttu-id="500da-141">Atkreipkite dėmesį, kad nuo jūsų pakeitimų negretinta.</span><span class="sxs-lookup"><span data-stu-id="500da-141">Note that matching has not been performed since you made the changes.</span></span>  
-13. <span data-ttu-id="500da-142">Spustelėkite **Naujinti gretinimo būseną**.</span><span class="sxs-lookup"><span data-stu-id="500da-142">Click **Update match status**.</span></span>
-14. <span data-ttu-id="500da-143">Veiksmų srityje spustelėkite **Peržiūrėti**.</span><span class="sxs-lookup"><span data-stu-id="500da-143">On the Action Pane, click **Review**.</span></span>
-15. <span data-ttu-id="500da-144">Spustelėkite **Gretinimo informacija**.</span><span class="sxs-lookup"><span data-stu-id="500da-144">Click **Matching details**.</span></span> <span data-ttu-id="500da-145">Naujos eilutės su paslaugomis gretinti nereikia, todėl būsena yra „Neatlikta‟.</span><span class="sxs-lookup"><span data-stu-id="500da-145">The new line with services does not need to be matched so the status stays "Not performed".</span></span>  
-16. <span data-ttu-id="500da-146">Pasirinkite atsargų prekės, kurią gavote, produkto gavimo kvitą.</span><span class="sxs-lookup"><span data-stu-id="500da-146">Select the product receipt for the inventory item that you received.</span></span> <span data-ttu-id="500da-147">Eilutė, kurioje yra produkto gavimo kvitas, buvo sugretinta, tačiau neatitinka kiekis arba kaina, todėl sugretinti nepavyko.</span><span class="sxs-lookup"><span data-stu-id="500da-147">The line with the product receipt was matched but there is a mismatch of quantity or price so it fails.</span></span>  
-17. <span data-ttu-id="500da-148">Lauke **Vieneto kaina** įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="500da-148">In the **Unit price** field, enter a number.</span></span> <span data-ttu-id="500da-149">Dabar, kai vieneto kaina atitinka, būsena atnaujinama į Pavyko.</span><span class="sxs-lookup"><span data-stu-id="500da-149">Now that the unit price matches, the status is updated to Passed.</span></span> <span data-ttu-id="500da-150">Jei jūsų strategija leidžia nesutapimus arba jei gretinimas yra tik įspėjimas, SF vis tiek galite registruoti.</span><span class="sxs-lookup"><span data-stu-id="500da-150">If your policy allows discrepancies or if matching is only a warning, you can still post the invoice.</span></span>  
-18. <span data-ttu-id="500da-151">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="500da-151">Close the page.</span></span>
-19. <span data-ttu-id="500da-152">Spustelėkite **Registruoti.**</span><span class="sxs-lookup"><span data-stu-id="500da-152">Click **Post**.</span></span>
-20. <span data-ttu-id="500da-153">Uždarykite formą.</span><span class="sxs-lookup"><span data-stu-id="500da-153">Close the form.</span></span> <span data-ttu-id="500da-154">Atkreipkite dėmesį, kad pirkimo užsakymas pateikiamas nebe kaip gautas, o kaip užsakymas, kuriam neišrašyta SF.</span><span class="sxs-lookup"><span data-stu-id="500da-154">Note that the purchase order is no longer listed as received but not invoiced.</span></span>  
+## <a name="create-a-vendor-invoice"></a><span data-ttu-id="e5a13-127">Kurti tiekėjo SF</span><span class="sxs-lookup"><span data-stu-id="e5a13-127">Create a vendor invoice</span></span>
+1. <span data-ttu-id="e5a13-128">Naršymo srityje eikite į **Moduliai > Mokėtinos sumos > Pirkimo užsakymai > Pirkimo užsakymai gauti, bet SF neišrašyta**.</span><span class="sxs-lookup"><span data-stu-id="e5a13-128">In the Navigation pane, go to **Modules > Accounts payable > Purchase orders > Purchase orders received but not invoiced**.</span></span>
+2. <span data-ttu-id="e5a13-129">Pasirinkite savo sukurtą pirkimo užsakymą.</span><span class="sxs-lookup"><span data-stu-id="e5a13-129">Select the purchase order that you created.</span></span>
+3. <span data-ttu-id="e5a13-130">Veiksmų srityje spustelėkite **Sąskaita faktūra**.</span><span class="sxs-lookup"><span data-stu-id="e5a13-130">On the Action Pane, click **Invoice**.</span></span>
+4. <span data-ttu-id="e5a13-131">Spustelėkite **Sąskaita faktūra**.</span><span class="sxs-lookup"><span data-stu-id="e5a13-131">Click **Invoice**.</span></span>
+5. <span data-ttu-id="e5a13-132">Lauke **Numeris** įveskite SF numerį.</span><span class="sxs-lookup"><span data-stu-id="e5a13-132">In the **Number** field, enter the invoice number.</span></span>
+6. <span data-ttu-id="e5a13-133">Lauke **Sąskaitos faktūros aprašas** įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="e5a13-133">In the **Invoice description** field, type a value.</span></span>
+7. <span data-ttu-id="e5a13-134">Lauke **SF data** įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="e5a13-134">In the **Invoice date** field, enter a date.</span></span>
+8. <span data-ttu-id="e5a13-135">Lauke **Vieneto kaina** įveskite 1200.</span><span class="sxs-lookup"><span data-stu-id="e5a13-135">In the **Unit price** field, enter 1200.</span></span>
+9. <span data-ttu-id="e5a13-136">Spustelėkite **Pridėti eilutę**.</span><span class="sxs-lookup"><span data-stu-id="e5a13-136">Click **Add line**.</span></span>
+10. <span data-ttu-id="e5a13-137">Lauke **Prekės numeris** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="e5a13-137">In the **Item number** field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="e5a13-138">Sąraše raskite diegimo išlaidų prekės numerį.</span><span class="sxs-lookup"><span data-stu-id="e5a13-138">In the list, find the installation charge item number.</span></span> <span data-ttu-id="e5a13-139">Pavyzdžiui, S0001</span><span class="sxs-lookup"><span data-stu-id="e5a13-139">For example, S0001</span></span>
+12. <span data-ttu-id="e5a13-140">Pasirinkite diegimo išlaidų prekės numerį.</span><span class="sxs-lookup"><span data-stu-id="e5a13-140">Select the installation charge item number.</span></span> <span data-ttu-id="e5a13-141">Atkreipkite dėmesį, kad nuo jūsų pakeitimų negretinta.</span><span class="sxs-lookup"><span data-stu-id="e5a13-141">Note that matching has not been performed since you made the changes.</span></span>  
+13. <span data-ttu-id="e5a13-142">Spustelėkite **Naujinti gretinimo būseną**.</span><span class="sxs-lookup"><span data-stu-id="e5a13-142">Click **Update match status**.</span></span>
+14. <span data-ttu-id="e5a13-143">Veiksmų srityje spustelėkite **Peržiūrėti**.</span><span class="sxs-lookup"><span data-stu-id="e5a13-143">On the Action Pane, click **Review**.</span></span>
+15. <span data-ttu-id="e5a13-144">Spustelėkite **Gretinimo informacija**.</span><span class="sxs-lookup"><span data-stu-id="e5a13-144">Click **Matching details**.</span></span> <span data-ttu-id="e5a13-145">Naujos eilutės su paslaugomis gretinti nereikia, todėl būsena yra „Neatlikta‟.</span><span class="sxs-lookup"><span data-stu-id="e5a13-145">The new line with services does not need to be matched so the status stays "Not performed".</span></span>  
+16. <span data-ttu-id="e5a13-146">Pasirinkite atsargų prekės, kurią gavote, produkto gavimo kvitą.</span><span class="sxs-lookup"><span data-stu-id="e5a13-146">Select the product receipt for the inventory item that you received.</span></span> <span data-ttu-id="e5a13-147">Eilutė, kurioje yra produkto gavimo kvitas, buvo sugretinta, tačiau neatitinka kiekis arba kaina, todėl sugretinti nepavyko.</span><span class="sxs-lookup"><span data-stu-id="e5a13-147">The line with the product receipt was matched but there is a mismatch of quantity or price so it fails.</span></span>  
+17. <span data-ttu-id="e5a13-148">Lauke **Vieneto kaina** įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="e5a13-148">In the **Unit price** field, enter a number.</span></span> <span data-ttu-id="e5a13-149">Dabar, kai vieneto kaina atitinka, būsena atnaujinama į Pavyko.</span><span class="sxs-lookup"><span data-stu-id="e5a13-149">Now that the unit price matches, the status is updated to Passed.</span></span> <span data-ttu-id="e5a13-150">Jei jūsų strategija leidžia nesutapimus arba jei gretinimas yra tik įspėjimas, SF vis tiek galite registruoti.</span><span class="sxs-lookup"><span data-stu-id="e5a13-150">If your policy allows discrepancies or if matching is only a warning, you can still post the invoice.</span></span>  
+18. <span data-ttu-id="e5a13-151">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="e5a13-151">Close the page.</span></span>
+19. <span data-ttu-id="e5a13-152">Spustelėkite **Registruoti.**</span><span class="sxs-lookup"><span data-stu-id="e5a13-152">Click **Post**.</span></span>
+20. <span data-ttu-id="e5a13-153">Uždarykite formą.</span><span class="sxs-lookup"><span data-stu-id="e5a13-153">Close the form.</span></span> <span data-ttu-id="e5a13-154">Atkreipkite dėmesį, kad pirkimo užsakymas pateikiamas nebe kaip gautas, o kaip užsakymas, kuriam neišrašyta SF.</span><span class="sxs-lookup"><span data-stu-id="e5a13-154">Note that the purchase order is no longer listed as received but not invoiced.</span></span>  
 
 
 
