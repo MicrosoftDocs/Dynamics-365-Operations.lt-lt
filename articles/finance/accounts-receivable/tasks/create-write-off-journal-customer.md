@@ -2,11 +2,9 @@
 title: Kurti kliento nurašymo žurnalą
 description: Šis užduočių vadovas jums parodys, kaip nustatyti nurašymų parametrus ir tada nurašyti operacijas puslapyje Rinkiniai, puslapyje Atidarytos klientų SF ir puslapyje Klientas.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters, CustPosting, DefaultDashboard, CustCollectionsPoolsListPage, CustWriteOff, LedgerJournalTable, LedgerJournalTransDaily, CustCollections, CustOpenInvoicesListPage, CustTable
 audience: Application User
@@ -15,73 +13,73 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 182afb5b105fec6dcac323b4f98db5fb7b3e0d68
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 857d3a224f35c4eeedbf4913aea14011091d5466
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220280"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823124"
 ---
-# <a name="create-a-write-off-journal-for-a-customer"></a><span data-ttu-id="bd5f2-103">Kurti kliento nurašymo žurnalą</span><span class="sxs-lookup"><span data-stu-id="bd5f2-103">Create a write-off journal for a customer</span></span>
+# <a name="create-a-write-off-journal-for-a-customer"></a><span data-ttu-id="00869-103">Kurti kliento nurašymo žurnalą</span><span class="sxs-lookup"><span data-stu-id="00869-103">Create a write-off journal for a customer</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="bd5f2-104">Šis užduočių vadovas jums parodys, kaip nustatyti nurašymų parametrus ir tada nurašyti operacijas puslapyje Rinkiniai, puslapyje Atidarytos klientų SF ir puslapyje Klientas.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-104">This task guide will show you how to set up the parameters for write-offs and then write off transactions from the Collections page, the Open customer invoices page, and the Customer page.</span></span> <span data-ttu-id="bd5f2-105">Šioje užduotyje naudojama demonstracinė įmonė USMF.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-105">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="00869-104">Šis užduočių vadovas jums parodys, kaip nustatyti nurašymų parametrus ir tada nurašyti operacijas puslapyje Rinkiniai, puslapyje Atidarytos klientų SF ir puslapyje Klientas.</span><span class="sxs-lookup"><span data-stu-id="00869-104">This task guide will show you how to set up the parameters for write-offs and then write off transactions from the Collections page, the Open customer invoices page, and the Customer page.</span></span> <span data-ttu-id="00869-105">Šioje užduotyje naudojama demonstracinė įmonė USMF.</span><span class="sxs-lookup"><span data-stu-id="00869-105">This task uses the USMF demo company.</span></span>
 
 
-## <a name="set-up-the-write-off-parameters"></a><span data-ttu-id="bd5f2-106">Nustatyti nurašymo parametrus</span><span class="sxs-lookup"><span data-stu-id="bd5f2-106">Set up the write off parameters</span></span>
-1. <span data-ttu-id="bd5f2-107">Eikite į **Naršymo sritis > Moduliai> Kreditas ir mokėjimų priežiūra > Sąranka > Gautinos sumos parametrai**.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-107">Go to **Navigation pane > Modules > Credit and collections > Setup > Accounts receivable parameters**.</span></span>
-2. <span data-ttu-id="bd5f2-108">Spustelėkite skirtuką **Mokėjimų priežiūra**.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-108">Click the **Collections** tab.</span></span>
-3. <span data-ttu-id="bd5f2-109">Išplėskite arba sutraukite dalį **Nurašyti**.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-109">Expand or collapse the **Write-off** section.</span></span>
-    - <span data-ttu-id="bd5f2-110">**Nurašymo žurnalas** yra bendrasis žurnalas, kuriame saugomos jūsų sukurtos nurašytos operacijos.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-110">The **Write-off journal** is the general journal that will hold the write-off transactions that you create.</span></span>  
-    - <span data-ttu-id="bd5f2-111">Prie kiekvieno nurašymo galite pridėti priežasties kodą.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-111">You can attach a reason code to every write-off.</span></span> <span data-ttu-id="bd5f2-112">Nurašydami šios numatytosios nuostatos galite nepaisyti.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-112">You can override this default at the time of the write-off.</span></span>  
-    - <span data-ttu-id="bd5f2-113">Nustatykite **Atskirti pardavimo mokestį** kaip Taip, jei norite atskirti pardavimo mokestį nuo nurašomos originalios operacijos.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-113">Set the **Separate sales tax** to Yes if you want to separate the sales tax from the original transaction in the write-off.</span></span>  
-4. <span data-ttu-id="bd5f2-114">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-114">Close the page.</span></span>
-5. <span data-ttu-id="bd5f2-115">Pasirinkite **Kreditas ir mokėjimų priežiūra > Sąranka > Klientų registravimo šablonai**.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-115">Go to **Credit and collections > Setup > Customer posting profiles**.</span></span> <span data-ttu-id="bd5f2-116">Nurašyta sąskaita bus naudojama kaip išlaidų sąskaita arba rezervo reguliavimas bendrajame žurnale.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-116">The write-off account will be used as the expense account or reserve adjustment in the general journal.</span></span>
-6. <span data-ttu-id="bd5f2-117">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-117">Close the page.</span></span>
+## <a name="set-up-the-write-off-parameters"></a><span data-ttu-id="00869-106">Nustatyti nurašymo parametrus</span><span class="sxs-lookup"><span data-stu-id="00869-106">Set up the write off parameters</span></span>
+1. <span data-ttu-id="00869-107">Eikite į **Naršymo sritis > Moduliai> Kreditas ir mokėjimų priežiūra > Sąranka > Gautinos sumos parametrai**.</span><span class="sxs-lookup"><span data-stu-id="00869-107">Go to **Navigation pane > Modules > Credit and collections > Setup > Accounts receivable parameters**.</span></span>
+2. <span data-ttu-id="00869-108">Spustelėkite skirtuką **Mokėjimų priežiūra**.</span><span class="sxs-lookup"><span data-stu-id="00869-108">Click the **Collections** tab.</span></span>
+3. <span data-ttu-id="00869-109">Išplėskite arba sutraukite dalį **Nurašyti**.</span><span class="sxs-lookup"><span data-stu-id="00869-109">Expand or collapse the **Write-off** section.</span></span>
+    - <span data-ttu-id="00869-110">**Nurašymo žurnalas** yra bendrasis žurnalas, kuriame saugomos jūsų sukurtos nurašytos operacijos.</span><span class="sxs-lookup"><span data-stu-id="00869-110">The **Write-off journal** is the general journal that will hold the write-off transactions that you create.</span></span>  
+    - <span data-ttu-id="00869-111">Prie kiekvieno nurašymo galite pridėti priežasties kodą.</span><span class="sxs-lookup"><span data-stu-id="00869-111">You can attach a reason code to every write-off.</span></span> <span data-ttu-id="00869-112">Nurašydami šios numatytosios nuostatos galite nepaisyti.</span><span class="sxs-lookup"><span data-stu-id="00869-112">You can override this default at the time of the write-off.</span></span>  
+    - <span data-ttu-id="00869-113">Nustatykite **Atskirti pardavimo mokestį** kaip Taip, jei norite atskirti pardavimo mokestį nuo nurašomos originalios operacijos.</span><span class="sxs-lookup"><span data-stu-id="00869-113">Set the **Separate sales tax** to Yes if you want to separate the sales tax from the original transaction in the write-off.</span></span>  
+4. <span data-ttu-id="00869-114">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="00869-114">Close the page.</span></span>
+5. <span data-ttu-id="00869-115">Pasirinkite **Kreditas ir mokėjimų priežiūra > Sąranka > Klientų registravimo šablonai**.</span><span class="sxs-lookup"><span data-stu-id="00869-115">Go to **Credit and collections > Setup > Customer posting profiles**.</span></span> <span data-ttu-id="00869-116">Nurašyta sąskaita bus naudojama kaip išlaidų sąskaita arba rezervo reguliavimas bendrajame žurnale.</span><span class="sxs-lookup"><span data-stu-id="00869-116">The write-off account will be used as the expense account or reserve adjustment in the general journal.</span></span>
+6. <span data-ttu-id="00869-117">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="00869-117">Close the page.</span></span>
 
-## <a name="write-off-a-customer-balance-from-the-aged-balances-page"></a><span data-ttu-id="bd5f2-118">Nurašyti kliento balansą pagal terminus suskirstytų balansų puslapyje</span><span class="sxs-lookup"><span data-stu-id="bd5f2-118">Write off a customer balance from the aged balances page</span></span>
-1. <span data-ttu-id="bd5f2-119">Pasirinkite **Kreditas ir mokėjimai > Mokėjimų peržiūra > Suskirstyti pagal terminus balansai**.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-119">Go to **Credit and collections > Collections > Aged balances**.</span></span>
-2. <span data-ttu-id="bd5f2-120">Pažymėkite kliento eilutę, kurią norite nurašyti.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-120">Mark the row for the customer that you want to write off.</span></span> <span data-ttu-id="bd5f2-121">Pavyzdžiui, pažymėkite eilutę su Birch Company.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-121">For example, mark the line with Birch Company on it.</span></span>
-3. <span data-ttu-id="bd5f2-122">**Veiksmų sritis** spustelėkite **Surinkti**.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-122">On the **Action Pane**, click **Collect**.</span></span>
-4. <span data-ttu-id="bd5f2-123">Spustelėkite **Nurašyti**.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-123">Click **Write off**.</span></span>
-5. <span data-ttu-id="bd5f2-124">Spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-124">Click **OK**.</span></span>
-6. <span data-ttu-id="bd5f2-125">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-125">Close the page.</span></span>
-7. <span data-ttu-id="bd5f2-126">Eikite į **Naršymo sritis > Moduliai > Bendroji didžioji knyga > Žurnalo įrašai > Bendrieji žurnalai**.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-126">Go to **Navigation pane > Modules > General ledger > Journal entries > General journals**.</span></span>
-8. <span data-ttu-id="bd5f2-127">Pasirinkite žurnalo, kuriame yra jūsų nurašymas, paketo numerį.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-127">Select the journal batch number for the journal that contains your write-off.</span></span> <span data-ttu-id="bd5f2-128">Atšaukti kliento balansui sukuriama viena eilutė.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-128">One line is created to reverse the customer balance.</span></span> <span data-ttu-id="bd5f2-129">Viena ar kelios eilutės sukuriamos registruoti nurašymui nurašymo sąskaitoje.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-129">One or more lines are created to post the write-off to the write-off account.</span></span>  
-9. <span data-ttu-id="bd5f2-130">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-130">Close the page.</span></span>
-10. <span data-ttu-id="bd5f2-131">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-131">Close the page.</span></span>
+## <a name="write-off-a-customer-balance-from-the-aged-balances-page"></a><span data-ttu-id="00869-118">Nurašyti kliento balansą pagal terminus suskirstytų balansų puslapyje</span><span class="sxs-lookup"><span data-stu-id="00869-118">Write off a customer balance from the aged balances page</span></span>
+1. <span data-ttu-id="00869-119">Pasirinkite **Kreditas ir mokėjimai > Mokėjimų peržiūra > Suskirstyti pagal terminus balansai**.</span><span class="sxs-lookup"><span data-stu-id="00869-119">Go to **Credit and collections > Collections > Aged balances**.</span></span>
+2. <span data-ttu-id="00869-120">Pažymėkite kliento eilutę, kurią norite nurašyti.</span><span class="sxs-lookup"><span data-stu-id="00869-120">Mark the row for the customer that you want to write off.</span></span> <span data-ttu-id="00869-121">Pavyzdžiui, pažymėkite eilutę su Birch Company.</span><span class="sxs-lookup"><span data-stu-id="00869-121">For example, mark the line with Birch Company on it.</span></span>
+3. <span data-ttu-id="00869-122">**Veiksmų sritis** spustelėkite **Surinkti**.</span><span class="sxs-lookup"><span data-stu-id="00869-122">On the **Action Pane**, click **Collect**.</span></span>
+4. <span data-ttu-id="00869-123">Spustelėkite **Nurašyti**.</span><span class="sxs-lookup"><span data-stu-id="00869-123">Click **Write off**.</span></span>
+5. <span data-ttu-id="00869-124">Spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="00869-124">Click **OK**.</span></span>
+6. <span data-ttu-id="00869-125">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="00869-125">Close the page.</span></span>
+7. <span data-ttu-id="00869-126">Eikite į **Naršymo sritis > Moduliai > Bendroji didžioji knyga > Žurnalo įrašai > Bendrieji žurnalai**.</span><span class="sxs-lookup"><span data-stu-id="00869-126">Go to **Navigation pane > Modules > General ledger > Journal entries > General journals**.</span></span>
+8. <span data-ttu-id="00869-127">Pasirinkite žurnalo, kuriame yra jūsų nurašymas, paketo numerį.</span><span class="sxs-lookup"><span data-stu-id="00869-127">Select the journal batch number for the journal that contains your write-off.</span></span> <span data-ttu-id="00869-128">Atšaukti kliento balansui sukuriama viena eilutė.</span><span class="sxs-lookup"><span data-stu-id="00869-128">One line is created to reverse the customer balance.</span></span> <span data-ttu-id="00869-129">Viena ar kelios eilutės sukuriamos registruoti nurašymui nurašymo sąskaitoje.</span><span class="sxs-lookup"><span data-stu-id="00869-129">One or more lines are created to post the write-off to the write-off account.</span></span>  
+9. <span data-ttu-id="00869-130">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="00869-130">Close the page.</span></span>
+10. <span data-ttu-id="00869-131">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="00869-131">Close the page.</span></span>
 
-## <a name="write-off-transactions-from-the-collections-form"></a><span data-ttu-id="bd5f2-132">Nurašykite operacijas rinkinių formoje.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-132">Write off transactions from the collections form.</span></span>
-1. <span data-ttu-id="bd5f2-133">Pasirinkite **Kreditas ir mokėjimai > Mokėjimų peržiūra > Suskirstyti pagal terminus balansai**.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-133">Go to **Credit and collections > Collections > Aged balances**.</span></span>
-2. <span data-ttu-id="bd5f2-134">Pasirinkite kliento su operacijomis, kurias norite nurašyti, pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-134">Select the name of the customer that has the transactions that you want to write off.</span></span> <span data-ttu-id="bd5f2-135">Pavyzdžiui, pasirinkite Cave Wholesales (US-004).</span><span class="sxs-lookup"><span data-stu-id="bd5f2-135">For example, select Cave Wholesales (US-004).</span></span>
-3. <span data-ttu-id="bd5f2-136">Pažymėkite pirmosios operacijos eilutę.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-136">Mark the row for the first transaction.</span></span>
-4. <span data-ttu-id="bd5f2-137">Pažymėkite antrosios operacijos eilutę.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-137">Mark the row for the second transaction.</span></span>
-5. <span data-ttu-id="bd5f2-138">Spustelėkite **Nurašyti**.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-138">Click **Write off**.</span></span>
-6. <span data-ttu-id="bd5f2-139">Lauke **Priežasties komentaras** įveskite „Blogosios skolos“.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-139">In the **Reason comment** field, type 'Bad debts'.</span></span>
-7. <span data-ttu-id="bd5f2-140">Spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-140">Click **OK**.</span></span>
-8. <span data-ttu-id="bd5f2-141">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-141">Close the page.</span></span>
-9. <span data-ttu-id="bd5f2-142">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-142">Close the page.</span></span>
-10. <span data-ttu-id="bd5f2-143">Eikite į **Didžio knyga > Žurnalo įrašai > Bendrieji žurnalai**.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-143">Go to **General ledger > Journal entries > General journals**.</span></span>
-11. <span data-ttu-id="bd5f2-144">Pasirinkite žurnalo, kuriame yra jūsų nurašymas, paketo numerį.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-144">Select the journal batch number for the journal that contains your write-off.</span></span> <span data-ttu-id="bd5f2-145">Atšaukti kliento balansui sukuriama viena eilutė.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-145">One line is created to reverse the customer balance.</span></span> <span data-ttu-id="bd5f2-146">Viena ar kelios eilutės sukuriamos registruoti nurašymui nurašymo sąskaitoje.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-146">One or more lines are created to post the write-off to the write-off account.</span></span>  
-12. <span data-ttu-id="bd5f2-147">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-147">Close the page.</span></span>
-13. <span data-ttu-id="bd5f2-148">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-148">Close the page.</span></span>
+## <a name="write-off-transactions-from-the-collections-form"></a><span data-ttu-id="00869-132">Nurašykite operacijas rinkinių formoje.</span><span class="sxs-lookup"><span data-stu-id="00869-132">Write off transactions from the collections form.</span></span>
+1. <span data-ttu-id="00869-133">Pasirinkite **Kreditas ir mokėjimai > Mokėjimų peržiūra > Suskirstyti pagal terminus balansai**.</span><span class="sxs-lookup"><span data-stu-id="00869-133">Go to **Credit and collections > Collections > Aged balances**.</span></span>
+2. <span data-ttu-id="00869-134">Pasirinkite kliento su operacijomis, kurias norite nurašyti, pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="00869-134">Select the name of the customer that has the transactions that you want to write off.</span></span> <span data-ttu-id="00869-135">Pavyzdžiui, pasirinkite Cave Wholesales (US-004).</span><span class="sxs-lookup"><span data-stu-id="00869-135">For example, select Cave Wholesales (US-004).</span></span>
+3. <span data-ttu-id="00869-136">Pažymėkite pirmosios operacijos eilutę.</span><span class="sxs-lookup"><span data-stu-id="00869-136">Mark the row for the first transaction.</span></span>
+4. <span data-ttu-id="00869-137">Pažymėkite antrosios operacijos eilutę.</span><span class="sxs-lookup"><span data-stu-id="00869-137">Mark the row for the second transaction.</span></span>
+5. <span data-ttu-id="00869-138">Spustelėkite **Nurašyti**.</span><span class="sxs-lookup"><span data-stu-id="00869-138">Click **Write off**.</span></span>
+6. <span data-ttu-id="00869-139">Lauke **Priežasties komentaras** įveskite „Blogosios skolos“.</span><span class="sxs-lookup"><span data-stu-id="00869-139">In the **Reason comment** field, type 'Bad debts'.</span></span>
+7. <span data-ttu-id="00869-140">Spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="00869-140">Click **OK**.</span></span>
+8. <span data-ttu-id="00869-141">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="00869-141">Close the page.</span></span>
+9. <span data-ttu-id="00869-142">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="00869-142">Close the page.</span></span>
+10. <span data-ttu-id="00869-143">Eikite į **Didžio knyga > Žurnalo įrašai > Bendrieji žurnalai**.</span><span class="sxs-lookup"><span data-stu-id="00869-143">Go to **General ledger > Journal entries > General journals**.</span></span>
+11. <span data-ttu-id="00869-144">Pasirinkite žurnalo, kuriame yra jūsų nurašymas, paketo numerį.</span><span class="sxs-lookup"><span data-stu-id="00869-144">Select the journal batch number for the journal that contains your write-off.</span></span> <span data-ttu-id="00869-145">Atšaukti kliento balansui sukuriama viena eilutė.</span><span class="sxs-lookup"><span data-stu-id="00869-145">One line is created to reverse the customer balance.</span></span> <span data-ttu-id="00869-146">Viena ar kelios eilutės sukuriamos registruoti nurašymui nurašymo sąskaitoje.</span><span class="sxs-lookup"><span data-stu-id="00869-146">One or more lines are created to post the write-off to the write-off account.</span></span>  
+12. <span data-ttu-id="00869-147">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="00869-147">Close the page.</span></span>
+13. <span data-ttu-id="00869-148">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="00869-148">Close the page.</span></span>
 
-## <a name="write-off-an-invoice-from-the-open-customers-invoices-page"></a><span data-ttu-id="bd5f2-149">Nurašyti SF puslapyje Atidarytos klientų SF</span><span class="sxs-lookup"><span data-stu-id="bd5f2-149">Write off an invoice from the Open customers invoices page</span></span>
-1. <span data-ttu-id="bd5f2-150">Eikite į **Naršymo sritis > Moduliai > Gautinos sumos > Sąskaitos faktūros > Atidarytos kliento sąskaitos faktūros**.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-150">Go to **Navigation pane > Modules > Accounts receivable > Invoices > Open customer invoices**.</span></span>
-2. <span data-ttu-id="bd5f2-151">Pažymėkite SF eilutę.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-151">Mark the line for an invoice.</span></span> <span data-ttu-id="bd5f2-152">Pvz., pažymėkite eilutę, skirtą CIV-000667.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-152">For example, mark the line for CIV-000667.</span></span>
-3. <span data-ttu-id="bd5f2-153">**Veiksmų sritis** spustelėkite **Sąskaita faktūra**.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-153">On the **Action Pane**, click **Invoice**.</span></span>
-4. <span data-ttu-id="bd5f2-154">Spustelėkite **Nurašyti**.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-154">Click **Write off**.</span></span>
-5. <span data-ttu-id="bd5f2-155">Spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-155">Click **OK**.</span></span>
-6. <span data-ttu-id="bd5f2-156">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-156">Close the page.</span></span>
+## <a name="write-off-an-invoice-from-the-open-customers-invoices-page"></a><span data-ttu-id="00869-149">Nurašyti SF puslapyje Atidarytos klientų SF</span><span class="sxs-lookup"><span data-stu-id="00869-149">Write off an invoice from the Open customers invoices page</span></span>
+1. <span data-ttu-id="00869-150">Eikite į **Naršymo sritis > Moduliai > Gautinos sumos > Sąskaitos faktūros > Atidarytos kliento sąskaitos faktūros**.</span><span class="sxs-lookup"><span data-stu-id="00869-150">Go to **Navigation pane > Modules > Accounts receivable > Invoices > Open customer invoices**.</span></span>
+2. <span data-ttu-id="00869-151">Pažymėkite SF eilutę.</span><span class="sxs-lookup"><span data-stu-id="00869-151">Mark the line for an invoice.</span></span> <span data-ttu-id="00869-152">Pvz., pažymėkite eilutę, skirtą CIV-000667.</span><span class="sxs-lookup"><span data-stu-id="00869-152">For example, mark the line for CIV-000667.</span></span>
+3. <span data-ttu-id="00869-153">**Veiksmų sritis** spustelėkite **Sąskaita faktūra**.</span><span class="sxs-lookup"><span data-stu-id="00869-153">On the **Action Pane**, click **Invoice**.</span></span>
+4. <span data-ttu-id="00869-154">Spustelėkite **Nurašyti**.</span><span class="sxs-lookup"><span data-stu-id="00869-154">Click **Write off**.</span></span>
+5. <span data-ttu-id="00869-155">Spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="00869-155">Click **OK**.</span></span>
+6. <span data-ttu-id="00869-156">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="00869-156">Close the page.</span></span>
 
-## <a name="write-off-a-customer-balance-from-the-customer-page"></a><span data-ttu-id="bd5f2-157">Nurašyti kliento balansą kliento puslapyje</span><span class="sxs-lookup"><span data-stu-id="bd5f2-157">Write off a customer balance from the customer page</span></span>
-1. <span data-ttu-id="bd5f2-158">Eikite į **Gautinos sumos > Klientai > Visi klientai**.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-158">Go to **Accounts receivable > Customers > All customers**.</span></span>
-2. <span data-ttu-id="bd5f2-159">Pasirinkti kliento sąskaitą.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-159">Select a customer account.</span></span> <span data-ttu-id="bd5f2-160">Pavyzdžiui, pasirinkite US-001 (Contoso Retail San Diego).</span><span class="sxs-lookup"><span data-stu-id="bd5f2-160">For example, select US-001 (Contoso Retail San Diego).</span></span>
-3. <span data-ttu-id="bd5f2-161">**Veiksmų sritis** spustelėkite **Surinkti**.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-161">On the **Action Pane**, click **Collect**.</span></span>
-4. <span data-ttu-id="bd5f2-162">Spustelėkite **Nurašyti**.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-162">Click **Write off**.</span></span>
-5. <span data-ttu-id="bd5f2-163">Spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-163">Click **OK**.</span></span>
-6. <span data-ttu-id="bd5f2-164">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="bd5f2-164">Close the page.</span></span>
+## <a name="write-off-a-customer-balance-from-the-customer-page"></a><span data-ttu-id="00869-157">Nurašyti kliento balansą kliento puslapyje</span><span class="sxs-lookup"><span data-stu-id="00869-157">Write off a customer balance from the customer page</span></span>
+1. <span data-ttu-id="00869-158">Eikite į **Gautinos sumos > Klientai > Visi klientai**.</span><span class="sxs-lookup"><span data-stu-id="00869-158">Go to **Accounts receivable > Customers > All customers**.</span></span>
+2. <span data-ttu-id="00869-159">Pasirinkti kliento sąskaitą.</span><span class="sxs-lookup"><span data-stu-id="00869-159">Select a customer account.</span></span> <span data-ttu-id="00869-160">Pavyzdžiui, pasirinkite US-001 (Contoso Retail San Diego).</span><span class="sxs-lookup"><span data-stu-id="00869-160">For example, select US-001 (Contoso Retail San Diego).</span></span>
+3. <span data-ttu-id="00869-161">**Veiksmų sritis** spustelėkite **Surinkti**.</span><span class="sxs-lookup"><span data-stu-id="00869-161">On the **Action Pane**, click **Collect**.</span></span>
+4. <span data-ttu-id="00869-162">Spustelėkite **Nurašyti**.</span><span class="sxs-lookup"><span data-stu-id="00869-162">Click **Write off**.</span></span>
+5. <span data-ttu-id="00869-163">Spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="00869-163">Click **OK**.</span></span>
+6. <span data-ttu-id="00869-164">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="00869-164">Close the page.</span></span>
 
 
 

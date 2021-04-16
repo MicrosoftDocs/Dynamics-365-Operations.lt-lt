@@ -2,11 +2,9 @@
 title: Aptarnavimo užduočių ryšių kūrimas
 description: Aptarnavimo užduotis galima susieti su aptarnavimo sutartimis arba aptarnavimo užsakymais, siekiant aprašyti aptarnavimo užduotį, kurią reikia atlikti pagal sutartį arba užsakymą.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
@@ -17,58 +15,58 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea5952376fe30f489d385c8f8295fbf86f2af085
-ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
+ms.openlocfilehash: f9a7808357916ed80ddfa46e1e4f362e0dde1671
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470742"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819069"
 ---
-# <a name="create-service-task-relations"></a><span data-ttu-id="23e93-103">Aptarnavimo užduočių ryšių kūrimas</span><span class="sxs-lookup"><span data-stu-id="23e93-103">Create service task relations</span></span>    
+# <a name="create-service-task-relations"></a><span data-ttu-id="551b3-103">Aptarnavimo užduočių ryšių kūrimas</span><span class="sxs-lookup"><span data-stu-id="551b3-103">Create service task relations</span></span>    
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="23e93-104">Aptarnavimo užduotis galima susieti su aptarnavimo sutartimis arba aptarnavimo užsakymais, siekiant aprašyti aptarnavimo užduotį, kurią reikia atlikti pagal sutartį arba užsakymą.</span><span class="sxs-lookup"><span data-stu-id="23e93-104">You can associate service tasks with service agreements or service orders in order to describe the service task to be completed for the agreement or order.</span></span> <span data-ttu-id="23e93-105">Šią informaciją matys aptarnavimo technikai ir klientai.</span><span class="sxs-lookup"><span data-stu-id="23e93-105">This information is available to service technicians and customers.</span></span>
+<span data-ttu-id="551b3-104">Aptarnavimo užduotis galima susieti su aptarnavimo sutartimis arba aptarnavimo užsakymais, siekiant aprašyti aptarnavimo užduotį, kurią reikia atlikti pagal sutartį arba užsakymą.</span><span class="sxs-lookup"><span data-stu-id="551b3-104">You can associate service tasks with service agreements or service orders in order to describe the service task to be completed for the agreement or order.</span></span> <span data-ttu-id="551b3-105">Šią informaciją matys aptarnavimo technikai ir klientai.</span><span class="sxs-lookup"><span data-stu-id="551b3-105">This information is available to service technicians and customers.</span></span>
 
-## <a name="create-a-relation-with-a-service-agreement"></a><span data-ttu-id="23e93-106">Ryšio su aptarnavimo sutartimi kūrimas</span><span class="sxs-lookup"><span data-stu-id="23e93-106">Create a relation with a service agreement</span></span>
+## <a name="create-a-relation-with-a-service-agreement"></a><span data-ttu-id="551b3-106">Ryšio su aptarnavimo sutartimi kūrimas</span><span class="sxs-lookup"><span data-stu-id="551b3-106">Create a relation with a service agreement</span></span>
 
-1.  <span data-ttu-id="23e93-107">Eikite į **Aptarnavimo valdymas** \> **Bendrasis** \> **Aptarnavimo sutartys** \> **Aptarnavimo sutartys**.</span><span class="sxs-lookup"><span data-stu-id="23e93-107">Go to **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
+1.  <span data-ttu-id="551b3-107">Eikite į **Aptarnavimo valdymas** \> **Bendrasis** \> **Aptarnavimo sutartys** \> **Aptarnavimo sutartys**.</span><span class="sxs-lookup"><span data-stu-id="551b3-107">Go to **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
 
-2.  <span data-ttu-id="23e93-108">Pasirinkite esamą aptarnavimo sutartį arba sukurkite naują.</span><span class="sxs-lookup"><span data-stu-id="23e93-108">Select an existing service agreement, or create a new service agreement.</span></span>
+2.  <span data-ttu-id="551b3-108">Pasirinkite esamą aptarnavimo sutartį arba sukurkite naują.</span><span class="sxs-lookup"><span data-stu-id="551b3-108">Select an existing service agreement, or create a new service agreement.</span></span>
 
-3.  <span data-ttu-id="23e93-109">Veiksmų srityje pasirinkite mygtuką **Aptarnavimo užduotys**.</span><span class="sxs-lookup"><span data-stu-id="23e93-109">On the Action Pane, select the **Service tasks** button.</span></span>
+3.  <span data-ttu-id="551b3-109">Veiksmų srityje pasirinkite mygtuką **Aptarnavimo užduotys**.</span><span class="sxs-lookup"><span data-stu-id="551b3-109">On the Action Pane, select the **Service tasks** button.</span></span>
 
-4.  <span data-ttu-id="23e93-110">Formoje **Aptarnavimo užduotys** pasirinkę **Naujas** sukursite naują eilutę, tada iš sąrašo **Aptarnavimo užduotis** pasirinkite aptarnavimo užduotį ir prie aptarnavimo sutarties pridėkite aptarnavimo užduotį.</span><span class="sxs-lookup"><span data-stu-id="23e93-110">On the **Service tasks** form, select **New** to create a new line, and then select a service task from the **Service task** list to attach the service task to the service agreement.</span></span>
+4.  <span data-ttu-id="551b3-110">Formoje **Aptarnavimo užduotys** pasirinkę **Naujas** sukursite naują eilutę, tada iš sąrašo **Aptarnavimo užduotis** pasirinkite aptarnavimo užduotį ir prie aptarnavimo sutarties pridėkite aptarnavimo užduotį.</span><span class="sxs-lookup"><span data-stu-id="551b3-110">On the **Service tasks** form, select **New** to create a new line, and then select a service task from the **Service task** list to attach the service task to the service agreement.</span></span>
 
-5.  <span data-ttu-id="23e93-111">Skirtuke **Aprašas** esančiuose laisvos formos teksto laukuose įveskite bet kurių vidinių ir išorinių pastabų aprašus.</span><span class="sxs-lookup"><span data-stu-id="23e93-111">On the **Description** tab, enter any internal or external note descriptions in the free text fields.</span></span>
+5.  <span data-ttu-id="551b3-111">Skirtuke **Aprašas** esančiuose laisvos formos teksto laukuose įveskite bet kurių vidinių ir išorinių pastabų aprašus.</span><span class="sxs-lookup"><span data-stu-id="551b3-111">On the **Description** tab, enter any internal or external note descriptions in the free text fields.</span></span>
 
-6.  <span data-ttu-id="23e93-112">Norėdami įrašyti įrašą, uždarykite formą.</span><span class="sxs-lookup"><span data-stu-id="23e93-112">Close the form to save the record.</span></span>
+6.  <span data-ttu-id="551b3-112">Norėdami įrašyti įrašą, uždarykite formą.</span><span class="sxs-lookup"><span data-stu-id="551b3-112">Close the form to save the record.</span></span>
 
-<span data-ttu-id="23e93-113">Šią procedūrą kartokite, kol sukursite visus reikalingus aptarnavimo sutarties užduočių ryšius.</span><span class="sxs-lookup"><span data-stu-id="23e93-113">Repeat this procedure until you have created all the necessary service task relations for the service agreement.</span></span> <span data-ttu-id="23e93-114">Tada šias aptarnavimo užduotis galėsite nurodyti bet kuriose pridėtose sutarties eilutėse.</span><span class="sxs-lookup"><span data-stu-id="23e93-114">You can now specify these service tasks for any attached agreement lines.</span></span>
+<span data-ttu-id="551b3-113">Šią procedūrą kartokite, kol sukursite visus reikalingus aptarnavimo sutarties užduočių ryšius.</span><span class="sxs-lookup"><span data-stu-id="551b3-113">Repeat this procedure until you have created all the necessary service task relations for the service agreement.</span></span> <span data-ttu-id="551b3-114">Tada šias aptarnavimo užduotis galėsite nurodyti bet kuriose pridėtose sutarties eilutėse.</span><span class="sxs-lookup"><span data-stu-id="551b3-114">You can now specify these service tasks for any attached agreement lines.</span></span>
 
-<span data-ttu-id="23e93-115">Aptarnavimo užduočių ryšys, sukurtas aptarnavimo užduotyje, prieinamas iš visų aptarnavimo užsakymų, pridėtų prie aptarnavimo sutarties.</span><span class="sxs-lookup"><span data-stu-id="23e93-115">A service tasks relation that is created on a service agreement is available from all service orders that are attached to the service agreement.</span></span>
+<span data-ttu-id="551b3-115">Aptarnavimo užduočių ryšys, sukurtas aptarnavimo užduotyje, prieinamas iš visų aptarnavimo užsakymų, pridėtų prie aptarnavimo sutarties.</span><span class="sxs-lookup"><span data-stu-id="551b3-115">A service tasks relation that is created on a service agreement is available from all service orders that are attached to the service agreement.</span></span>
 
-## <a name="create-a-relation-with-a-service-order"></a><span data-ttu-id="23e93-116">Ryšio su aptarnavimo užsakymu kūrimas</span><span class="sxs-lookup"><span data-stu-id="23e93-116">Create a relation with a service order</span></span>
+## <a name="create-a-relation-with-a-service-order"></a><span data-ttu-id="551b3-116">Ryšio su aptarnavimo užsakymu kūrimas</span><span class="sxs-lookup"><span data-stu-id="551b3-116">Create a relation with a service order</span></span>
 
-1.  <span data-ttu-id="23e93-117">Eikite į **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**.</span><span class="sxs-lookup"><span data-stu-id="23e93-117">Go to **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="551b3-117">Eikite į **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**.</span><span class="sxs-lookup"><span data-stu-id="551b3-117">Go to **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="23e93-118">Pasirinkite esamą aptarnavimo užsakymą arba sukurkite naują.</span><span class="sxs-lookup"><span data-stu-id="23e93-118">Select an existing service order, or create a new service order.</span></span>
+2.  <span data-ttu-id="551b3-118">Pasirinkite esamą aptarnavimo užsakymą arba sukurkite naują.</span><span class="sxs-lookup"><span data-stu-id="551b3-118">Select an existing service order, or create a new service order.</span></span>
 
-3.  <span data-ttu-id="23e93-119">Veiksmų srityje pasirinkite mygtuką **Aptarnavimo užduotys**.</span><span class="sxs-lookup"><span data-stu-id="23e93-119">On the Action Pane, select the **Service tasks** button.</span></span>
+3.  <span data-ttu-id="551b3-119">Veiksmų srityje pasirinkite mygtuką **Aptarnavimo užduotys**.</span><span class="sxs-lookup"><span data-stu-id="551b3-119">On the Action Pane, select the **Service tasks** button.</span></span>
 
-4.  <span data-ttu-id="23e93-120">Formoje **Aptarnavimo užduotys** pasirinkę **Naujas** sukursite naują eilutę, tada iš sąrašo **Aptarnavimo užduotis** pasirinkite aptarnavimo užduotį ir prie aptarnavimo užsakymo pridėkite aptarnavimo užduotis.</span><span class="sxs-lookup"><span data-stu-id="23e93-120">From the **Service tasks** form, select **New** to create a new line, and then select a service task from the **Service task** list to attach the service tasks to the service order.</span></span>
+4.  <span data-ttu-id="551b3-120">Formoje **Aptarnavimo užduotys** pasirinkę **Naujas** sukursite naują eilutę, tada iš sąrašo **Aptarnavimo užduotis** pasirinkite aptarnavimo užduotį ir prie aptarnavimo užsakymo pridėkite aptarnavimo užduotis.</span><span class="sxs-lookup"><span data-stu-id="551b3-120">From the **Service tasks** form, select **New** to create a new line, and then select a service task from the **Service task** list to attach the service tasks to the service order.</span></span>
 
-5.  <span data-ttu-id="23e93-121">Skirtuke **Aprašas** esančiuose laisvos formos teksto laukuose įveskite bet kurių vidinių ir išorinių pastabų aprašus.</span><span class="sxs-lookup"><span data-stu-id="23e93-121">On the **Description** tab, enter any internal or external note descriptions in the free text fields.</span></span>
+5.  <span data-ttu-id="551b3-121">Skirtuke **Aprašas** esančiuose laisvos formos teksto laukuose įveskite bet kurių vidinių ir išorinių pastabų aprašus.</span><span class="sxs-lookup"><span data-stu-id="551b3-121">On the **Description** tab, enter any internal or external note descriptions in the free text fields.</span></span>
 
-6.  <span data-ttu-id="23e93-122">Norėdami įrašyti įrašą, uždarykite formą.</span><span class="sxs-lookup"><span data-stu-id="23e93-122">Close the form to save the record.</span></span>
+6.  <span data-ttu-id="551b3-122">Norėdami įrašyti įrašą, uždarykite formą.</span><span class="sxs-lookup"><span data-stu-id="551b3-122">Close the form to save the record.</span></span>
 
-<span data-ttu-id="23e93-123">Šią procedūrą kartokite, kol sukursite visus reikalingus aptarnavimo sutarties užsakymo ryšius.</span><span class="sxs-lookup"><span data-stu-id="23e93-123">Repeat this procedure until you have created all the necessary service task relations for the service order.</span></span> <span data-ttu-id="23e93-124">Tada, kurdami aptarnavimo užsakymo eilutes, galėsite pasirinkti aptarnavimo užduotis, kurioms sukūrėte ryšį.</span><span class="sxs-lookup"><span data-stu-id="23e93-124">You can now select the service task for which you have created the relation when you create service order lines.</span></span>
+<span data-ttu-id="551b3-123">Šią procedūrą kartokite, kol sukursite visus reikalingus aptarnavimo sutarties užsakymo ryšius.</span><span class="sxs-lookup"><span data-stu-id="551b3-123">Repeat this procedure until you have created all the necessary service task relations for the service order.</span></span> <span data-ttu-id="551b3-124">Tada, kurdami aptarnavimo užsakymo eilutes, galėsite pasirinkti aptarnavimo užduotis, kurioms sukūrėte ryšį.</span><span class="sxs-lookup"><span data-stu-id="551b3-124">You can now select the service task for which you have created the relation when you create service order lines.</span></span>
 
-<span data-ttu-id="23e93-125">Aptarnavimo užsakyme sukurti aptarnavimo užduočių ryšiai prieinami konkrečiame aptarnavimo užsakyme.</span><span class="sxs-lookup"><span data-stu-id="23e93-125">Service task relations that are created on a service order are available on the specific service order.</span></span>
+<span data-ttu-id="551b3-125">Aptarnavimo užsakyme sukurti aptarnavimo užduočių ryšiai prieinami konkrečiame aptarnavimo užsakyme.</span><span class="sxs-lookup"><span data-stu-id="551b3-125">Service task relations that are created on a service order are available on the specific service order.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="23e93-126">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="23e93-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="551b3-126">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="551b3-126">See also</span></span>
 
-[<span data-ttu-id="23e93-127">Aptarnavimo užduočių apžvalga</span><span class="sxs-lookup"><span data-stu-id="23e93-127">Service tasks overview</span></span>](service-tasks.md)
+[<span data-ttu-id="551b3-127">Aptarnavimo užduočių apžvalga</span><span class="sxs-lookup"><span data-stu-id="551b3-127">Service tasks overview</span></span>](service-tasks.md)
 
 
   

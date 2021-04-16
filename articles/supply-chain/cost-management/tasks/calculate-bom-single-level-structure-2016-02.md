@@ -2,11 +2,9 @@
 title: Apskaičiuoti KS naudojant vieno lygio struktūrą (2016 m. vasario mėn.)
 description: Šioje procedūroje nurodoma, kaip apskaičiuoti galutinio produkto savikainą naudojant vieno lygio išskleidimą, paremtą įkainojimo lapu.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventItemPrice, BOMCalcDialog
 audience: Application User
@@ -16,32 +14,32 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7c370c623c29f2b2f3b65ffbd65aabbc941be3cb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 013eddf1ba8e8cab3c87cb1f063d9bf886b0f833
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239475"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821398"
 ---
-# <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016"></a><span data-ttu-id="982a6-103">Apskaičiuoti KS naudojant vieno lygio struktūrą (2016 m. vasario mėn.)</span><span class="sxs-lookup"><span data-stu-id="982a6-103">Calculate a BOM by using a single level structure (February 2016)</span></span>
+# <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016"></a><span data-ttu-id="9e892-103">Apskaičiuoti KS naudojant vieno lygio struktūrą (2016 m. vasario mėn.)</span><span class="sxs-lookup"><span data-stu-id="9e892-103">Calculate a BOM by using a single level structure (February 2016)</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="982a6-104">Šioje procedūroje nurodoma, kaip apskaičiuoti galutinio produkto savikainą naudojant vieno lygio išskleidimą, paremtą įkainojimo lapu.</span><span class="sxs-lookup"><span data-stu-id="982a6-104">This procedure shows how to calculate the cost of a finished product by using single level explosion that is based in the Costing sheet.</span></span> <span data-ttu-id="982a6-105">Tai šeštoji KS skaičiavimo sekų užduotis.</span><span class="sxs-lookup"><span data-stu-id="982a6-105">This is the sixth task in the BOM calculation series.</span></span> <span data-ttu-id="982a6-106">Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="982a6-106">The demo data company used to create this task is USMF.</span></span>
+<span data-ttu-id="9e892-104">Šioje procedūroje nurodoma, kaip apskaičiuoti galutinio produkto savikainą naudojant vieno lygio išskleidimą, paremtą įkainojimo lapu.</span><span class="sxs-lookup"><span data-stu-id="9e892-104">This procedure shows how to calculate the cost of a finished product by using single level explosion that is based in the Costing sheet.</span></span> <span data-ttu-id="9e892-105">Tai šeštoji KS skaičiavimo sekų užduotis.</span><span class="sxs-lookup"><span data-stu-id="9e892-105">This is the sixth task in the BOM calculation series.</span></span> <span data-ttu-id="9e892-106">Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="9e892-106">The demo data company used to create this task is USMF.</span></span>
 
-1. <span data-ttu-id="982a6-107">Eikite į Išleisti produktai.</span><span class="sxs-lookup"><span data-stu-id="982a6-107">Go to Released products.</span></span>
-2. <span data-ttu-id="982a6-108">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="982a6-108">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="982a6-109">Pasirinkite produktą BOM_1.</span><span class="sxs-lookup"><span data-stu-id="982a6-109">Select product BOM_1.</span></span>  
-3. <span data-ttu-id="982a6-110">Veiksmų srityje spustelėkite Valdyti išlaidas.</span><span class="sxs-lookup"><span data-stu-id="982a6-110">On the Action Pane, click Manage costs.</span></span>
-4. <span data-ttu-id="982a6-111">Spustelėkite Prekės kaina.</span><span class="sxs-lookup"><span data-stu-id="982a6-111">Click Item price.</span></span>
-5. <span data-ttu-id="982a6-112">Spustelėkite Skaičiuoti prekės savikainą.</span><span class="sxs-lookup"><span data-stu-id="982a6-112">Click Calculate item cost.</span></span>
-    * <span data-ttu-id="982a6-113">Gali reikėti spustelėti elipsės mygtuką (...), kad šią parinktį matytumėte viršutiniame meniu.</span><span class="sxs-lookup"><span data-stu-id="982a6-113">You may need to click the ellipsis (...) to see this option in the top menu.</span></span>  
-6. <span data-ttu-id="982a6-114">Lauke Įkainojimo versija spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="982a6-114">In the Costing version field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="982a6-115">Norėdami pademonstruoti, pasirinkite 10.</span><span class="sxs-lookup"><span data-stu-id="982a6-115">For this demo, select 10.</span></span> <span data-ttu-id="982a6-116">Tai ta pati įkainojimo versija, naudojama savikainai į komponentus įtraukti.</span><span class="sxs-lookup"><span data-stu-id="982a6-116">This is the same costing version used for adding the cost price to the components.</span></span>  
-7. <span data-ttu-id="982a6-117">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="982a6-117">Click OK.</span></span>
-8. <span data-ttu-id="982a6-118">Spustelėkite Peržiūrėti skaičiavimo informaciją.</span><span class="sxs-lookup"><span data-stu-id="982a6-118">Click View calculation details.</span></span>
-    * <span data-ttu-id="982a6-119">Gali reikėti spustelėti elipsės mygtuką (...), kad šią parinktį matytumėte viršutiniame meniu.</span><span class="sxs-lookup"><span data-stu-id="982a6-119">You may need to click the ellipsis (...) to see this option in the top menu.</span></span>    <span data-ttu-id="982a6-120">Čia yra išlaidų sudėtis: \* 10 išvesta iš ITEM_A, 10 iš ITEM_B, 10 iš BOM_2.</span><span class="sxs-lookup"><span data-stu-id="982a6-120">Here's the composition of the cost:  \*    10 is derived from ITEM_A, 10 from ITEM_B, 10 from BOM_2.</span></span> <span data-ttu-id="982a6-121">Šiuo atveju nėra išsamios informacijos apie BOM_2, nes jis nebuvo apskaičiuotas – tik įvesta BOM_2 standartinės savikainos reikšmė 10.</span><span class="sxs-lookup"><span data-stu-id="982a6-121">In this case there are no details for BOM_2 because it was entered as a standard cost of 10 but not done through calculation.</span></span>  <span data-ttu-id="982a6-122">\* 7 išvedamas iš nustatymo laiko, kuris yra pastovios išlaidos, o papildomas 7 išvedamas iš apdorojimo laiko operacijos (Apdoroti).</span><span class="sxs-lookup"><span data-stu-id="982a6-122">\*    7 is derived from the setup time, which is a constant cost, and additional 7 is derived from the run-time operation (Process).</span></span>  <span data-ttu-id="982a6-123">\* Taip pat yra kitų sumų, sutampančių su netiesioginėmis išlaidomis.</span><span class="sxs-lookup"><span data-stu-id="982a6-123">\*    There are also other amounts that correspond to indirect costs.</span></span>  
-9. <span data-ttu-id="982a6-124">@SysTaskRecorder:_RequestClose</span><span class="sxs-lookup"><span data-stu-id="982a6-124">@SysTaskRecorder:_RequestClose</span></span>
+1. <span data-ttu-id="9e892-107">Eikite į Išleisti produktai.</span><span class="sxs-lookup"><span data-stu-id="9e892-107">Go to Released products.</span></span>
+2. <span data-ttu-id="9e892-108">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="9e892-108">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="9e892-109">Pasirinkite produktą BOM_1.</span><span class="sxs-lookup"><span data-stu-id="9e892-109">Select product BOM_1.</span></span>  
+3. <span data-ttu-id="9e892-110">Veiksmų srityje spustelėkite Valdyti išlaidas.</span><span class="sxs-lookup"><span data-stu-id="9e892-110">On the Action Pane, click Manage costs.</span></span>
+4. <span data-ttu-id="9e892-111">Spustelėkite Prekės kaina.</span><span class="sxs-lookup"><span data-stu-id="9e892-111">Click Item price.</span></span>
+5. <span data-ttu-id="9e892-112">Spustelėkite Skaičiuoti prekės savikainą.</span><span class="sxs-lookup"><span data-stu-id="9e892-112">Click Calculate item cost.</span></span>
+    * <span data-ttu-id="9e892-113">Gali reikėti spustelėti elipsės mygtuką (...), kad šią parinktį matytumėte viršutiniame meniu.</span><span class="sxs-lookup"><span data-stu-id="9e892-113">You may need to click the ellipsis (...) to see this option in the top menu.</span></span>  
+6. <span data-ttu-id="9e892-114">Lauke Įkainojimo versija spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="9e892-114">In the Costing version field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="9e892-115">Norėdami pademonstruoti, pasirinkite 10.</span><span class="sxs-lookup"><span data-stu-id="9e892-115">For this demo, select 10.</span></span> <span data-ttu-id="9e892-116">Tai ta pati įkainojimo versija, naudojama savikainai į komponentus įtraukti.</span><span class="sxs-lookup"><span data-stu-id="9e892-116">This is the same costing version used for adding the cost price to the components.</span></span>  
+7. <span data-ttu-id="9e892-117">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="9e892-117">Click OK.</span></span>
+8. <span data-ttu-id="9e892-118">Spustelėkite Peržiūrėti skaičiavimo informaciją.</span><span class="sxs-lookup"><span data-stu-id="9e892-118">Click View calculation details.</span></span>
+    * <span data-ttu-id="9e892-119">Gali reikėti spustelėti elipsės mygtuką (...), kad šią parinktį matytumėte viršutiniame meniu.</span><span class="sxs-lookup"><span data-stu-id="9e892-119">You may need to click the ellipsis (...) to see this option in the top menu.</span></span>    <span data-ttu-id="9e892-120">Čia yra išlaidų sudėtis: \* 10 išvesta iš ITEM_A, 10 iš ITEM_B, 10 iš BOM_2.</span><span class="sxs-lookup"><span data-stu-id="9e892-120">Here's the composition of the cost:  \*    10 is derived from ITEM_A, 10 from ITEM_B, 10 from BOM_2.</span></span> <span data-ttu-id="9e892-121">Šiuo atveju nėra išsamios informacijos apie BOM_2, nes jis nebuvo apskaičiuotas – tik įvesta BOM_2 standartinės savikainos reikšmė 10.</span><span class="sxs-lookup"><span data-stu-id="9e892-121">In this case there are no details for BOM_2 because it was entered as a standard cost of 10 but not done through calculation.</span></span>  <span data-ttu-id="9e892-122">\* 7 išvedamas iš nustatymo laiko, kuris yra pastovios išlaidos, o papildomas 7 išvedamas iš apdorojimo laiko operacijos (Apdoroti).</span><span class="sxs-lookup"><span data-stu-id="9e892-122">\*    7 is derived from the setup time, which is a constant cost, and additional 7 is derived from the run-time operation (Process).</span></span>  <span data-ttu-id="9e892-123">\* Taip pat yra kitų sumų, sutampančių su netiesioginėmis išlaidomis.</span><span class="sxs-lookup"><span data-stu-id="9e892-123">\*    There are also other amounts that correspond to indirect costs.</span></span>  
+9. <span data-ttu-id="9e892-124">@SysTaskRecorder:_RequestClose</span><span class="sxs-lookup"><span data-stu-id="9e892-124">@SysTaskRecorder:_RequestClose</span></span>
 
 
 

@@ -2,11 +2,9 @@
 title: Standartinių savikainų įkainojimo versijų apribojimai
 description: Šioje temoje aprašomi apribojimai, taikomi standartinių savikainų įkainojimo versijai.
 author: AndersGirke
-manager: tfehr
 ms.date: 01/17/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
@@ -18,37 +16,37 @@ ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f8f5707b6f51372684606d135c0643b36e3a94f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fdbe74f2f71d0fbd3c237cceb6b184747636e9a1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245256"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821494"
 ---
-#  <a name="restrictions-on-costing-versions-for-standard-costs"></a><span data-ttu-id="e4c1c-103">Standartinių savikainų įkainojimo versijų apribojimai</span><span class="sxs-lookup"><span data-stu-id="e4c1c-103">Restrictions on costing versions for standard costs</span></span>
+#  <a name="restrictions-on-costing-versions-for-standard-costs"></a><span data-ttu-id="20e24-103">Standartinių savikainų įkainojimo versijų apribojimai</span><span class="sxs-lookup"><span data-stu-id="20e24-103">Restrictions on costing versions for standard costs</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e4c1c-104">Šioje temoje aprašomi apribojimai, taikomi standartinių savikainų įkainojimo versijai.</span><span class="sxs-lookup"><span data-stu-id="e4c1c-104">This topic describes the restrictions that apply to a costing version for standard costs.</span></span> 
+<span data-ttu-id="20e24-104">Šioje temoje aprašomi apribojimai, taikomi standartinių savikainų įkainojimo versijai.</span><span class="sxs-lookup"><span data-stu-id="20e24-104">This topic describes the restrictions that apply to a costing version for standard costs.</span></span> 
 
-<span data-ttu-id="e4c1c-105">Tolesni apribojimai padeda užtikrinti griežtą standartinių įkainojimo principų laikymąsi.</span><span class="sxs-lookup"><span data-stu-id="e4c1c-105">The following restrictions help guarantee adherence to standard costing principles:</span></span>
+<span data-ttu-id="20e24-105">Tolesni apribojimai padeda užtikrinti griežtą standartinių įkainojimo principų laikymąsi.</span><span class="sxs-lookup"><span data-stu-id="20e24-105">The following restrictions help guarantee adherence to standard costing principles:</span></span>
 
--  <span data-ttu-id="e4c1c-106">Išlaidos turi būti įtrauktos į prekės savikainą.</span><span class="sxs-lookup"><span data-stu-id="e4c1c-106">Charges must be included in an item's cost.</span></span> <span data-ttu-id="e4c1c-107">Pagamintos prekės išlaidos nurodo komplektavimo specifikacijos (KS) ir maršruto informacijos amortizuotas pastovias išlaidas.</span><span class="sxs-lookup"><span data-stu-id="e4c1c-107">The charges for a manufactured item represent the amortized constant costs in the bill of materials (BOM) and route information.</span></span> <span data-ttu-id="e4c1c-108">Todėl išlaidos turi būti įtrauktos į vieneto savikainą.</span><span class="sxs-lookup"><span data-stu-id="e4c1c-108">Therefore, the charges must be included in the unit cost.</span></span> <span data-ttu-id="e4c1c-109">Nupirktos prekės išlaidos taip pat įtrauktos į prekės vieneto savikainą.</span><span class="sxs-lookup"><span data-stu-id="e4c1c-109">The charges for a purchased item are also included in the item's unit cost.</span></span>
+-  <span data-ttu-id="20e24-106">Išlaidos turi būti įtrauktos į prekės savikainą.</span><span class="sxs-lookup"><span data-stu-id="20e24-106">Charges must be included in an item's cost.</span></span> <span data-ttu-id="20e24-107">Pagamintos prekės išlaidos nurodo komplektavimo specifikacijos (KS) ir maršruto informacijos amortizuotas pastovias išlaidas.</span><span class="sxs-lookup"><span data-stu-id="20e24-107">The charges for a manufactured item represent the amortized constant costs in the bill of materials (BOM) and route information.</span></span> <span data-ttu-id="20e24-108">Todėl išlaidos turi būti įtrauktos į vieneto savikainą.</span><span class="sxs-lookup"><span data-stu-id="20e24-108">Therefore, the charges must be included in the unit cost.</span></span> <span data-ttu-id="20e24-109">Nupirktos prekės išlaidos taip pat įtrauktos į prekės vieneto savikainą.</span><span class="sxs-lookup"><span data-stu-id="20e24-109">The charges for a purchased item are also included in the item's unit cost.</span></span>
 
--  <span data-ttu-id="e4c1c-110">Pagamintų prekių standartinių išlaidų skaičiavimas turi būti pagrįstas standartinių išlaidų įkainojimo versijos išlaidų įrašais.</span><span class="sxs-lookup"><span data-stu-id="e4c1c-110">Calculation of standard costs for manufactured items must be based on the cost records in a costing version for standard costs.</span></span> <span data-ttu-id="e4c1c-111">Alternatyvūs išlaidų duomenų šaltiniai gali būti naudojami tik su planuojamų išlaidų įkainojimo versija, pvz., nupirktų prekių pirkimo kainų prekybos sutartimis.</span><span class="sxs-lookup"><span data-stu-id="e4c1c-111">Alternative sources of cost data can be used only with a costing version for planned costs, such as purchase price trade agreements for purchased items.</span></span> <span data-ttu-id="e4c1c-112">Alternatyvius išlaidų duomenų šaltinius nustato KS skaičiavimo grupė.</span><span class="sxs-lookup"><span data-stu-id="e4c1c-112">Alternative sources of cost data are defined by the BOM calculation group.</span></span>
+-  <span data-ttu-id="20e24-110">Pagamintų prekių standartinių išlaidų skaičiavimas turi būti pagrįstas standartinių išlaidų įkainojimo versijos išlaidų įrašais.</span><span class="sxs-lookup"><span data-stu-id="20e24-110">Calculation of standard costs for manufactured items must be based on the cost records in a costing version for standard costs.</span></span> <span data-ttu-id="20e24-111">Alternatyvūs išlaidų duomenų šaltiniai gali būti naudojami tik su planuojamų išlaidų įkainojimo versija, pvz., nupirktų prekių pirkimo kainų prekybos sutartimis.</span><span class="sxs-lookup"><span data-stu-id="20e24-111">Alternative sources of cost data can be used only with a costing version for planned costs, such as purchase price trade agreements for purchased items.</span></span> <span data-ttu-id="20e24-112">Alternatyvius išlaidų duomenų šaltinius nustato KS skaičiavimo grupė.</span><span class="sxs-lookup"><span data-stu-id="20e24-112">Alternative sources of cost data are defined by the BOM calculation group.</span></span>
 
--  <span data-ttu-id="e4c1c-113">KS skaičiavimai turi būti atliekami vieno lygio išskleidimo režimu.</span><span class="sxs-lookup"><span data-stu-id="e4c1c-113">BOM calculations must be performed in a single-level explosion mode.</span></span>
+-  <span data-ttu-id="20e24-113">KS skaičiavimai turi būti atliekami vieno lygio išskleidimo režimu.</span><span class="sxs-lookup"><span data-stu-id="20e24-113">BOM calculations must be performed in a single-level explosion mode.</span></span>
 
-<span data-ttu-id="e4c1c-114">Prekės standartinių išlaidų duomenys gali būti kopijuojami į kitą įkainojimo versiją, į kurią įtrauktos standartinės išlaidos arba planuojamos išlaidos.</span><span class="sxs-lookup"><span data-stu-id="e4c1c-114">The item cost data for standard costs can be copied to another costing version that contains standard costs or planned costs.</span></span> <span data-ttu-id="e4c1c-115">Tačiau prekės planuojamų išlaidų duomenys negali būti kopijuojami į išlaidų versiją, į kurią įtrauktos standartinės savikainos, nes anksčiau šioje temoje išvardyti apribojimai netaikomi planuojamoms išlaidoms.</span><span class="sxs-lookup"><span data-stu-id="e4c1c-115">However, the item cost data for planned costs can't be copied to a cost version that contains standard costs, because the restrictions that are listed earlier in this topic don't apply to planned costs.</span></span>
+<span data-ttu-id="20e24-114">Prekės standartinių išlaidų duomenys gali būti kopijuojami į kitą įkainojimo versiją, į kurią įtrauktos standartinės išlaidos arba planuojamos išlaidos.</span><span class="sxs-lookup"><span data-stu-id="20e24-114">The item cost data for standard costs can be copied to another costing version that contains standard costs or planned costs.</span></span> <span data-ttu-id="20e24-115">Tačiau prekės planuojamų išlaidų duomenys negali būti kopijuojami į išlaidų versiją, į kurią įtrauktos standartinės savikainos, nes anksčiau šioje temoje išvardyti apribojimai netaikomi planuojamoms išlaidoms.</span><span class="sxs-lookup"><span data-stu-id="20e24-115">However, the item cost data for planned costs can't be copied to a cost version that contains standard costs, because the restrictions that are listed earlier in this topic don't apply to planned costs.</span></span>
 
-<a name="related-topics"></a><span data-ttu-id="e4c1c-116">Susijusios temos</span><span class="sxs-lookup"><span data-stu-id="e4c1c-116">Related topics</span></span>
+<a name="related-topics"></a><span data-ttu-id="20e24-116">Susijusios temos</span><span class="sxs-lookup"><span data-stu-id="20e24-116">Related topics</span></span>
 --------
 
-[<span data-ttu-id="e4c1c-117">Įkainojimo versijų apžvalga</span><span class="sxs-lookup"><span data-stu-id="e4c1c-117">Costing versions overview</span></span>](costing-versions.md)
+[<span data-ttu-id="20e24-117">Įkainojimo versijų apžvalga</span><span class="sxs-lookup"><span data-stu-id="20e24-117">Costing versions overview</span></span>](costing-versions.md)
 
-[<span data-ttu-id="e4c1c-118">Ne gamybos aplinkos standartinių išlaidų naujinimas</span><span class="sxs-lookup"><span data-stu-id="e4c1c-118">Update standard costs in a non-manufacturing environment</span></span>](update-standard-costs-non-manufacturing-environment.md)
+[<span data-ttu-id="20e24-118">Ne gamybos aplinkos standartinių išlaidų naujinimas</span><span class="sxs-lookup"><span data-stu-id="20e24-118">Update standard costs in a non-manufacturing environment</span></span>](update-standard-costs-non-manufacturing-environment.md)
 
-[<span data-ttu-id="e4c1c-119">Pagamintų prekių standartinių savikainų paruošimas priežiūrai</span><span class="sxs-lookup"><span data-stu-id="e4c1c-119">Prepare to maintain standard costs for manufactured items</span></span>](update-standard-costs-manufacturing-environment.md)
+[<span data-ttu-id="20e24-119">Pagamintų prekių standartinių savikainų paruošimas priežiūrai</span><span class="sxs-lookup"><span data-stu-id="20e24-119">Prepare to maintain standard costs for manufactured items</span></span>](update-standard-costs-manufacturing-environment.md)
 
 
 
