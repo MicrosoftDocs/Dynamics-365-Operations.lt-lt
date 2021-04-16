@@ -2,11 +2,9 @@
 title: Sąskaitų faktūrų automatizavimas dirbant su nuskaitytais dokumentais
 description: Šioje temoje paaiškinamos funkcijos, pasiekiamos iki galo automatizuojant tiekėjų SF – net ir SF su priedais.
 author: abruer
-manager: AnnBe
-ms.date: 05/22/2020
+ms.date: 03/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05a796e7ea520e7f25be9e0a1f766b08f75254bb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d776ad4eda623f55a69d81eefd0e88842d9da401
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239656"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841242"
 ---
-# <a name="invoice-automation-for-scanned-documents"></a>Sąskaitų faktūrų automatizavimas dirbant su nuskaitytais dokumentais
+# <a name="invoice-automation-for-scanned-documents"></a>Nuskaitytų dokumentų sąskaitų faktūrų automatizavimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinamos funkcijos, pasiekiamos iki galo automatizuojant tiekėjų SF – net ir SF su priedais.
+Šioje temoje paaiškinami duomenų objektai, pasiekiami iki galo automatizuojant tiekėjų SF – net ir SF su priedais.
 
 Organizacijos, kurios nori supaprastinti savo mokėtinų sumų (AP) procesus, dažnai identifikuoja SF apdorojimą kaip vieną iš svarbiausių proceso sričių, kuri turi būti efektyvesnė. Daugeliu atvejų šios organizacijos popierinių SF apdorojimą perduoda trečiųjų šalių optinio ženklų atpažinimo (OCR) paslaugų teikėjui. Tada jie gauna SF metaduomenis, kuriuos galima perskaityti kompiuteriu, kartu su nuskaitytu kiekvienos SF vaizdu. Siekiant padėti automatizuoti sukuriamas „paskutinės mylios“ sprendimas, kad būtų galima panaudoti šiuos artefaktus SF išrašymo sistemoje. Dabar šis „paskutinės mylios“ automatizavimas su SF automatizavimo sprendimu suteikiamas standartiškai.
 
@@ -90,9 +88,9 @@ SF, importuotas naudojant duomenų paketus, galima susieti su juridiniu subjektu
 
 Tokiais atvejais, kai tiekėjo SF pasiekia „Finance and Operations“ naudojant integraciją, mokėtinų sumų komandos narys turi galėti lengvai apdoroti nesėkmingų SF išimtis ir iš tokių SF sukurti laukiančias SF. Šis tiekėjo SF išimčių apdorojimas dabar yra „Finance and Operations“ dalis.
 
-### <a name="exceptions-list-page"></a>Išimčių sąrašo puslapis
+### <a name="vendor-invoices-that-failed-to-import-list-page"></a>Tiekėjo SF, kurių sąrašo puslapio importuoti nepavyko
 
-Naujas SF išimčių sąrašo puslapis yra pasiekiamas atsidarius **Mokėtinos sumos** > **SF** > **Importavimo triktys** > **Tiekėjo SF, kurių nepavyko importuoti**. Šiame puslapyje rodomi visi tiekėjo SF antraščių įrašai iš tiekėjo SF antraščių duomenų objekto išdėstymo lentelės. Atkreipkite dėmesį, kad tuos pačius įrašus galite peržiūrėti iš **Duomenų valdymo** darbo srities, kurioje galite atlikti tuos pačius veiksmus, kurie pateikiami išimčių tvarkymo funkcijoje. Tačiau UI, kurią pateikia išimčių tvarkymo funkcija, yra optimizuota funkciniam vartotojui.
+Naujas SF išimčių sąrašo puslapis yra pasiekiamas atsidarius **Mokėtinos sumos** > **SF** > **Importavimo triktys** > **Tiekėjo SF, kurių nepavyko importuoti**. Šiame puslapyje rodomi visi tiekėjo SF antraščių įrašai iš tiekėjo SF antraščių duomenų objekto išdėstymo lentelės. Atsikreipkite dėmesį, kad jūs galite peržiūrėti tuos pačius **įrašus duomenų valdymo** darbo srityje. Atkreipkite dėmesį, kad tuos pačius įrašus galite peržiūrėti iš **Duomenų valdymo** darbo srities, kurioje galite atlikti tuos pačius veiksmus, kurie pateikiami išimčių tvarkymo funkcijoje. Išimčių tvarkymo funkcija optimizuota funkciniam vartotojui, todėl ją lengviau naudoti.
 
 ![Išimčių sąrašo puslapis](media/vendor_invoice_automation_02.png)
 
@@ -118,24 +116,17 @@ Naujas SF išimčių sąrašo puslapis yra pasiekiamas atsidarius **Mokėtinos s
 Šiame sąrašo puslapyje taip pat yra peržiūros sritis, kurią galite naudoti šiais būdais:
 
 + Peržiūrėkite visą klaidos pranešimą, kad stulpelio **Klaidos pranešimas** nereikėtų išplėsti tinklelyje.
-+ Peržiūrėkite visą SF priedų sąrašą, jei su SF gauta kokių nors priedų.
 
 Sąrašo puslapis palaiko šiuos veiksmus:
 
 + **Redaguoti** – atidarykite išimties įrašą redagavimo režimu, kad būtų galima išspręsti problemas.
 + **Parinktys** – pasiekite standartines parinktis, esančias sąrašo puslapiuose. Galite naudoti parinktį **Įtraukti į darbo sritį** norėdami prisegti išimčių sąrašo puslapį prie darbo srities kaip sąrašą arba plytelę.
 
-### <a name="exception-details-page"></a>Išimčių informacijos puslapis
+### <a name="vendor-invoices-that-failed-to-import-details-page"></a>Tiekėjo SF, kurių sąrašo puslapio importuoti nepavyko
 
-Paleidus redagavimo režimą, rodomas SF, kurioje yra problemų, išimčių informacijos puslapis. Jei yra kokių nors priedų, SF ir numatytasis priedas išimčių informacijos puslapyje rodomi vienas šalia kito.
+Kai paleidžiate redagavimo režimą, atsidarys tiekėjo SF, kurioms nepavyko importuoti **SF**, kuri turi problemų, informacijos puslapio. Jei yra su SF su priedo susijusių problemų, priedas nebus rodomas. Priedas turi būti pridėtas iš naujo prie SF.
 
-![Išimčių informacijos puslapis](media/vendor_invoice_automation_03.png)
-
-Ankstesniame paveikslėlyje nėra jokių gautos tiekėjo SF antraštės eilučių. Todėl eilučių skyrius yra tuščias.
-
-Išimčių informacijos puslapis palaiko šią operaciją:
-
-+ **Kurti laukiančią SF** – kai apdorodami išimtis išsprendžiate SF problemas, galite spustelėti šį mygtuką, kad sukurtumėte laukiančią SF. Laukiančios SF kuriamos fone (kaip nesinchroninė operacija).
+Tiekėjo **SF, kurių nepavyko importuoti informacijos** puslapio, leidžia sukurti laukiančią SF. **Kurti laukiančią SF** – kai apdorodami išimtis išsprendžiate SF problemas, galite spustelėti šį mygtuką, kad sukurtumėte laukiančią SF. Laukianti SF bus sukurta fone. 
 
 ### <a name="shared-service-vs-organization-based-exception-processing"></a>Bendrai naudojama paslauga ir organizacija pagrįstas išimčių apdorojimas
 
@@ -187,7 +178,7 @@ Tik vienas dokumentas gali būti nustatytas kaip numatytasis priedas. Nustačius
 
 Naujas mygtukas, pasiekiamas **Išimčių apdorojimo**, **Laukiančios SF** ir **SF žurnalo** užklausų puslapiuose, leidžia matyti arba paslepia priedų žiūryklę.
 
-### <a name="security"></a>Sauga
+## <a name="security"></a>Sauga
 
 Nurodyti priedų žiūryklės veiksmai kontroliuojami naudojant vaidmenimis pagrįstą saugą:
 
@@ -212,7 +203,7 @@ Nurodyti priedų žiūryklės veiksmai kontroliuojami naudojant vaidmenimis pagr
 + **Mokėtinų sumų klerkas** ir **Mokėtinų sumų vadovas** – tiekėjo SF tvarkymo pareiga priskiriama šiems vaidmenims.
 + **Mokėtinų sumų klerkas**, **Mokėtinų sumų vadovas**, **Mokėtinų sumų centralizuotų mokėjimų klerkas** ir **Mokėtinų sumų mokėjimų klerkas** – užklausų pateikimo dėl tiekėjo SF būsenos pareiga priskiriama šiems vaidmenims.
 
-### <a name="invoice-exception-details-page"></a>SF išimčių informacijos puslapis
+### <a name="vendor-invoice-attachment"></a>Tiekėjo SF priedas
 
 Šios teisės suteikia tik skaitymo prieigą arba skaitymo / rašymo prieigą prie priedų žiūryklės, norint atlikti žymėjimo, blokavimo ir komentavimo veiksmus.
 

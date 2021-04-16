@@ -2,11 +2,9 @@
 title: Produkto konfigūracijos modelių apžvalga
 description: Šiame straipsnyje nurodomos produkto konfigūracijos modeliams svarbios sąlygos ir sąvokos. Naudodami produkto konfigūracijos modelius galite kurti nepatentuotų produktų struktūrą, kurią naudojant galima sukonfigūruoti daug vieno produkto variantų.
 author: cvocph
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails, PCProductConfigurationModelListPage, PCModalWaitDialog, PCTemplateConfigurationManager, PCConfigurationUIGrouping
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26abf7afbbe3c6d0b4e13639d9f57f6e82fc9ad3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8629c2af9d28d821996707532ae0c77b072a8f94
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233804"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820303"
 ---
 # <a name="product-configuration-models-overview"></a>Produkto konfigūracijos modelių apžvalga
 
@@ -78,7 +76,7 @@ Jei atributo tipas yra <strong>Bulio logika</strong>, <strong>Sveikasis skaičiu
 <li>Išraiškos apribojimai gali būti naudojami tik su susijusiais komponentais. Komponento išraiškos apribojimai gali nurodyti komponento&#39; pakomponenčio atributus. Produktų konfigūravimo sprendimų priemonė naudojama siekiant išspręsti apribojimus, ir rašydami apribojimus turite naudoti sprendimų priemonės sintaksę. Daugiau informacijos rasite naudodami temos saitą apie išraiškos apribojimus ir lentelių apribojimus.</li>
 <li>Lentelės apribojimai turi būti nurodomi prieš juos taikant produkto konfigūracijos modelio komponentui. Lentelės apribojimai gali būti nustatomi vartotojui arba sistemai. Vartotojo apibrėžtos lentelės apribojimas yra matricos tipas, kuris gali būti naudojamas derinių rinkinio atributo reikšmėms apibūdinti, kurios yra apibrėžiamos atributo tipo. Pavyzdžiui, jei gaminami garsiakalbiai, naudotojo apibrėžto lentelės apribojimo matricoje gali būti stulpeliai, skirti garsiakalbio apdailai ir grotelėms.</li>
 </ul>
-<strong>Pavyzdys</strong> Garsiakalbių apdailos yra keturios: juoda, ąžuolo, palisandro ir balta. Garsiakalbiai gali turėti vienas iš trijų priekinių grotelių: juodas, metalo arba baltas. Juodos gali būti visos grotelės, tačiau kitos apdailos naudojamos tik tam tikroms grotelėms. Toliau pateiktoje lentelėje rodomas informacijos, rodomos skirtuke <strong>Leistini deriniai</strong>, puslapyje <strong>Redaguoti lentelės apribojimą</strong> pavyzdys.
+<strong>Pavyzdys</strong> Garsiakalbių apdailos yra keturios: juoda, ąžuolo, raudonmedžio ir balta. Garsiakalbiai gali turėti vienas iš trijų priekinių grotelių: juodas, metalo arba baltas. Juodos gali būti visos grotelės, tačiau kitos apdailos naudojamos tik tam tikroms grotelėms. Toliau pateiktoje lentelėje rodomas informacijos, rodomos skirtuke <strong>Leistini deriniai</strong>, puslapyje <strong>Redaguoti lentelės apribojimą</strong> pavyzdys.
 <table>
 <thead>
 <tr class="header">
@@ -104,7 +102,7 @@ Jei atributo tipas yra <strong>Bulio logika</strong>, <strong>Sveikasis skaičiu
 <td>Juoda</td>
 </tr>
 <tr class="odd">
-<td>Palisandro</td>
+<td>Raudonmedžio</td>
 <td>Balta</td>
 </tr>
 <tr class="even">
@@ -117,7 +115,7 @@ Jei atributo tipas yra <strong>Bulio logika</strong>, <strong>Sveikasis skaičiu
 </tr>
 </tbody>
 </table>
-Sistemos apibrėžtas lentelės apribojimas apibūdina sąsają tarp atributo tipo ir lauko „Supply Chain Management“ lentelėje. Sistemos apibrėžtas lentelės apribojimas dinamiškai susieja atributo tipą su lauku. Saitas leidžia atributui produkto konfigūracijos modelyje atspindėti Tiekimo grandinės valdymo lentelės lauko duomenis.</td>
+Sistemos apibrėžtas lentelės apribojimas apibūdina sąsają tarp atributo tipo ir lauko „Supply Chain Management“ lentelėje. Sistemos apibrėžtas lentelės apribojimas dinamiškai susieja atributo tipą su lauku. Saitas leidžia atributui produkto konfigūracijos modelyje atspindėti „Supply Chain Management” lentelės lauko duomenis.</td>
 </tr>
 <tr class="odd">
 <td>Skaičiavimai</td>

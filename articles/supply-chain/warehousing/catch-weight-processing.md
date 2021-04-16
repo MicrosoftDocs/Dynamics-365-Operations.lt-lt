@@ -2,30 +2,27 @@
 title: Esamo svorio produktų apdorojimas naudojant sandėlio valdymą
 description: Šioje temoje aprašoma, kaip naudoti darbo šablonus ir vietos nurodymus, siekiant nustatyti, kaip ir kur sandėlyje atliekamas darbas.
 author: perlynne
-manager: tfehr
 ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench
+ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench, WHSCatchWeightTagRegistration, WHSCatchWeightTagFullDimDiscrepancies, WHSCatchWeightTagChangeWeightDropDownDialog, WHSCatchWeightLinkWorkLineTagDropDownDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 45f8d53b5ac212866a9c693e0039631507e14dd7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3882e40b4083f9246a03db3078cae8e18bec3c1e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233084"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808923"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Esamo svorio produktų apdorojimas naudojant sandėlio valdymą
 
 [!include [banner](../includes/banner.md)]
-
 
 ## <a name="feature-exposure"></a>Funkcijos įjungimas
 
@@ -52,7 +49,7 @@ Kadangi į sandėlį patenkančių atsargų svoris gali skirtis nuo atsargų svo
 > [!NOTE]
 > Mobiliojo įrenginio veikla suaktyvins operacijų koregavimą tik tada, jei elemento esamo svorio elemento „Outbound“ svorio nuokrypio tvarkymo strategija yra **Leisti svorio nuokrypį**.
 
-**1 pavyzdys**
+### <a name="example-1"></a>1 pavyzdys
 
 Gamybos proceso **Skelbti baigtu** metu numerio lentelės, kurioje yra aštuonios esamo svorio produkto dėžės, gaunamas svoris užfiksuotas kaip 80,1 kg. Tada numerio lentelė yra saugoma pagamintų prekių srityje ir saugojimo laikotarpiu ji praranda šiek tiek svorio.
 
@@ -60,7 +57,7 @@ Vėliau vykdant pardavimo užsakymo išrinkimo procesą tos pačios numerio lent
 
 Šiuo atveju sistema automatiškai koreguoja skirtumus registruodama operaciją, skirtą trūkstamam 0,3 kg.
 
-**2 pavyzdys**
+### <a name="example-2"></a>2 pavyzdys
 
 Apraše produktas nustatytas toleruoti minimalų 8 kg svorį ir maksimalų 12 kg svorį esamo svorio vienete **Dėžė**.
 
@@ -106,7 +103,7 @@ Be to, kai prekė yra sekama pagal žymę, yra parametras **Siunčiamo žymės f
 **Kai naudojamas esamo svorio žymės sekimas**,, žymė visada turi būti sukurta ir priskirta kiekvienam gaunamam esamo svorio vienetui, o kiekviena žymė visada turi būti susieta su svoriu.
 
 Pvz., **Dėžė** yra esamo svorio vienetas ir jūs gaunate vieną aštuonių dėžių padėklą. Šiuo atveju turi būti sukurtos aštuonios unikalios esamo svorio žymės, o svoris turi būti susietas su kiekviena žyme. Priklausomai nuo gaunamų prekių esamo svorio žymės, galima užfiksuoti visų aštuonių dėžių svorį ir paskirstyti vidutinį svorį kiekvienai dėžei arba galima užfiksuoti unikalų kiekvienos dėžės svorį.
-Mobiliojo įrenginio meniu elemente su įjungtu procesu naudojant funkciją **Naudoti esamas esamo svorio žymes pranešant, kad gamybos užsakymai yra baigti**, atsargos atnaujinamos atsižvelgiant į esamą esamo svorio žymės informaciją. Todėl sandėlio programa neragina užfiksuoti esamo svorio žymių duomenis, priklausančius gamybos ataskaitai kaip užbaigtą operaciją.
+Mobiliojo įrenginio meniu elemente su įjungtu procesu naudojant funkciją **Naudoti esamas esamo svorio žymes pranešant, kad gamybos užsakymai yra baigti**, atsargos atnaujinamos atsižvelgiant į esamą esamo svorio žymės informaciją. Todėl sandėlio valdymo mobiliųjų įrenginių programėlė neragina užfiksuoti esamo svorio žymių duomenis, priklausančius gamybos ataskaitai kaip užbaigtą operaciją.
 
 **Kai esamo svorio žymės sekimas nenaudojamas**, svorį galima užfiksuoti kiekviename dimensijų rinkinyje (pvz., ir kiekvienoje numerio lentelėje ir sekimo dimensijoje). Taip pat svoris gali būti užfiksuotas sujungtu lygiu, pvz., kaip penkių numerių lentelių (padėklų) svoris.
 
@@ -194,7 +191,11 @@ Ne visos darbo eigos palaiko esamo svorio produktų apdorojimą naudojant sandė
 
 ### <a name="catch-weight-tags"></a>Esamo svorio žymės
 
-Esamo svorio žymę galima sukurti naudojant sandėliavimo programos procesą; jį galima rankiniu būdu sukurti formoje arba sukurti naudojant duomenų objekto procesą. Jei esamo svorio žymė susieta su gaunamo šaltinio dokumento eilute, pvz., pirkimo užsakymo eilute, žymė bus užregistruota. Jei eilutė naudojama siuntimo apdorojimui, žymė bus atnaujinta kaip išsiųsta.
+Esamo svorio žymę galima sukurti naudojant sandėlio valdymo mobiliųjų įrenginių programėlės procesą, ją galima rankiniu būdu sukurti formoje **Sandėlio valdymas > Užklausos ir ataskaitos > Esamo svorio žymė** arba naudojant duomenų objekto procesą. Jei esamo svorio žymė susieta su gaunamo šaltinio dokumento eilute, pvz., pirkimo užsakymo eilute, žymė bus užregistruota. Jei eilutė naudojama siuntimo apdorojimui, žymė bus atnaujinta kaip išsiųsta. Galite peržiūrėti visus retrospektyvinius esamo svorio žymės registracijos įvykius naudodami **Esamo svorio žymės registravimo** parinktį, esančią puslapyje **Esamo svorio žymė**.
+
+Norėdami rankiniu būdu atnaujinti esamo svorio žymės svorio reikšmę, galite naudoti parinktį **Keisti žymės užfiksuotą svorį**. Įsidėmėkite, kad turimų atsargų svoris nebus koreguojamas kaip šio neautomatinio proceso dalis, tačiau galite lengvai naudoti puslapį **Turimų esamo svorio pažymėtų elementų neatitikimai** norėdami peržiūrėti visus neatitikimus tarp esamų aktyvių esamo svorio žymų ir dabartinių atsargų.
+
+Kitos rankinio naudojimo parinktys **Registruoti žymę** šaltinio dokumento eilutei ir **Registruoti darbą** pagal esamą sandėlio darbą.
 
 Be apribojimų, kurie šiuo metu taikomi esamo svorio produktams, pažymėti esamo svorio produktai turi kitus šiuo metu taikomus apribojimus.
 

@@ -2,11 +2,9 @@
 title: Pirkimo užbaigimo modulis
 description: Šioje temoje aprašoma, kaip į puslapį įtraukti pirkimo užbaigimo modulį ir nustatyti reikiamas ypatybes.
 author: anupamar-ms
-manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5e800daa6eeb54a2eda535cb57aa45559b59b4ea
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b1e86cbe1c2b9247f902a8f5777e73f7a9b37929
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206468"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797820"
 ---
 # <a name="checkout-module"></a>Pirkimo užbaigimo modulis
 
@@ -29,7 +27,7 @@ ms.locfileid: "5206468"
 
 Šioje temoje aprašoma, kaip į puslapį įtraukti pirkimo užbaigimo modulį ir nustatyti reikiamas ypatybes.
 
-Pirkimo užbaigimo modulis yra specialus konteineris, kuriame yra visi moduliai, reikalingi užsakymui sukurti. Jame pateikiama nuosekli veiksmų eiga, kurią naudodamas klientas įvedas visą aktualią informaciją, kad galėtų pirkti. Jis fiksuoja siuntimo adresą, siuntimo būdą ir atsiskaitymo informaciją. Jame taip pat pateikiama užsakymo suvestinė ir kita informacija, susijusi su kliento užsakymu.
+Pirkimo užbaigimo modulis yra specialus konteineris, kuriame yra visi moduliai, reikalingi užsakymui sukurti. Jame pateikiama nuosekli veiksmų eiga, pagal kurią klientas įveda visą pirkimui aktualią informaciją. Jis fiksuoja siuntimo adresą, siuntimo būdą ir atsiskaitymo informaciją. Jame taip pat pateikiama užsakymo suvestinė ir kita informacija, susijusi su kliento užsakymu.
 
 Pirkimo užbaigimo modulis duomenis generuoja pagal krepšelio ID. Šis krepšelio ID įrašomas kaip naršyklės slapukas. Krepšelio ID reikia norint vaizduoti informaciją pirkimo užbaigimo modulyje, pvz., užsakymo prekes, visą sumą ir nuolaidas. 
 
@@ -76,9 +74,9 @@ Pirkimo užbaigimo moduliuose rodoma užsakymo suvestinė ir pateikiama užsakym
 
 - **Kontaktinė informacija** – naudodamas šį modulį klientas gali įtraukti arba pakeisti užsakymo kontaktinę informaciją (el. pašto adresą).
 
-- **Teksto blokas** – šiame modulyje yra pranešimai, grindžiami turinio valdymo sistema (TVS). Pavyzdžiui, jame gali būti pranešimas „Jei kyla problemų dėl užsakymo, kreipkitės numeriu 1-800-Fabrikam“. 
+- **Teksto blokas** – šiame modulyje yra pranešimai, grindžiami turinio valdymo sistema (TVS). Pavyzdžiui, jame gali būti pranešimas „Jei kyla problemų dėl užsakymo, kreipkitės numeriu 1-800-Fabrikam.“ 
 
-- **Išsiregistravimo sąlygos ir terminai** – Šis modulis rodo platų tekstą, kuriame pateiktos sąlygos ir terminai ir užbaigimo laukelį kliento indėliui. Žymimas laukelis yra pasirenkamas ir kondigūruojamas. Indėlį apima modulis ir jis gali būti naudojamas kaip kvitas prieš užsakymo pateikimą, tačiau nėra įtrauktas į užsakymo santraukos informaciją. Šis modulis gali būti įtrauktas į užbaigimo talpyklą, užbaigimo skyriaus talpyklą ar sąlygų ir terminų vietą pagal verslo poreikius. Jei jis įtrauktas į užbaigimo talpyklą ar užbaigimo skyriaus talpyklos vietą, jis pasirodys kaip žingsnis užbaigimo procese. Jei jis įtrauktas į sąlygų ir terminų vietą, jis pasirodys šalią užsakymo pateikimo mygtuko.
+- **Išsiregistravimo sąlygos ir terminai** – Šis modulis rodo platų tekstą, kuriame pateiktos sąlygos ir terminai ir užbaigimo laukelį kliento indėliui. Žymimas laukelis yra pasirenkamas ir konfigūruojamas. Indėlį apima modulis ir jis gali būti naudojamas kaip kvitas prieš užsakymo pateikimą, tačiau nėra įtrauktas į užsakymo santraukos informaciją. Šis modulis gali būti įtrauktas į užbaigimo talpyklą, užbaigimo skyriaus talpyklą ar sąlygų ir terminų vietą pagal verslo poreikius. Jei jis įtrauktas į užbaigimo talpyklą ar užbaigimo skyriaus talpyklos vietą, jis pasirodys kaip žingsnis užbaigimo procese. Jei jis įtrauktas į sąlygų ir terminų vietą, jis pasirodys šalia užsakymo pateikimo mygtuko.
 
     Tolesnis paveikslėlis rodo užbaigimo puslapyje esančių terminų ir sąlygų pavyzdį.
 
@@ -101,7 +99,7 @@ Norėdami į naują puslapį įtraukti pirkimo užbaigimo modulį ir nustatyti r
 1. Dialogo lange **Įtraukti modulį** pasirinkite modulius **Siuntimo adresas**, **Pristatymo parinktys**, **Pirkimo užbaigimo skyriaus konteineris** ir **Kontaktinė informacija**, tada pasirinkite – **Gerai**.
 1. Modulyje **Pirkimo užbaigimo skyriaus konteineris** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
 1. Dialogo lange **Įtraukti modulį** dalyje pasirinkite modulius **Dovanų kortelė**, **Lojalumas** ir **Mokėjimas** ir pasirinkite **Gerai**. Taip užtikrinate, kad viename skyriuje kartu rodomi visi mokėjimo būdai.
-1. **Sąlygos ir terminai** vietoje įtraukite **Užbaigimo terminai ir sąlygos** modulį, jei jo reikia. Modulio ypatybių juostoje, sukonfigūruokite teksto sąlygus ir terminus, kaip būtina.
+1. **Sąlygos ir terminai** vietoje įtraukite **Užbaigimo terminai ir sąlygos** modulį, jei jo reikia. Modulio ypatybių juostoje sukonfigūruokite teksto sąlygas ir terminus taip, kaip būtina.
 1. Norėdami peržiūrėti fragmentą, pasirinkite **Įrašyti** ir **Peržiūrėti**. Kai kurie moduliai, kurie neturi krepšelio konteksto, peržiūroje gali būti neatvaizduoti.
 1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte fragmentą, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 1. Sukurkite šabloną, kuriame naudojamas naujasis pirkimo užbaigimo fragmentas.

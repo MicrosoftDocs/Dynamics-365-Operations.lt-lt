@@ -2,11 +2,9 @@
 title: Pagrindinių tarifų nustatymas
 description: Ši procedūra nurodo, kaip nustatyti pagrindinį tarifą.
 author: ShylaThompson
-manager: tfehr
 ms.date: 10/16/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSBreakMaster,TMSRateMaster,TMSRateMasterBase,TMSRateBaseType, TMSRouteWorkbench
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77629cbaec4c4d4608b8941e55ab23a106d38727
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8cb25726e05f11420c7355c39f7e262abca5da62
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233612"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808995"
 ---
 # <a name="set-up-rate-masters"></a>Pagrindinių tarifų nustatymas
 
@@ -48,7 +46,7 @@ ms.locfileid: "5233612"
 1. Laukelyje **Pagrindinių duomenų reitingavimas** įveskite vertę.
 1. Lauke **Pavadinimas** įveskite reikšmę.
 1. Laukelyje **Reitingavimo metaduomenų ID** pasirinkite iškrentantį mygtuką, kad atvertumėte paiešką. Reitingavimo metaduomenų ID nustatys duomenis būtinus pagrindinių duomenų reitingui, nes jie nustato tikėtinus metaduomenis gabenimo valdymo varikliui, kuris reitinguoja pagrindinius duomenis.  
-1. Šiam pavyzdžiui, rinkitės P2P parinktį. Ją jau nustato demontraciniai duomenys.
+1. Šiam pavyzdžiui, rinkitės P2P parinktį. Ją jau nustato demonstraciniai duomenys.
 1. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
 1. Pasirinkite **Įrašyti**.
 
@@ -61,9 +59,9 @@ ms.locfileid: "5233612"
 4. Lauke **Pavadinimas** įveskite reikšmę.
 5. Laukelyje **Pagrindinių duomenų pertraukimo** pasirinkite iškrentantį mygtuką, kad atvertumėte paiešką.
     * Bendrosios ribos naudojamos kainodaros struktūrai ir jos ribiniams taškams apibrėžti. Kainodaros struktūra naudoja pakopinę kainodarą, paremtą faktiniais matmenimis.  
-6. Šiam pavyzdžiui, naudokite svorį. Ją jau nustato demontraciniai duomenys.
+6. Šiam pavyzdžiui, naudokite svorį. Ją jau nustato demonstraciniai duomenys.
 7. Šiame sąraše pasirinkite nuorodą pažymėtoje eilutėje.
-8. Išpėskite **Išsamios informacijos** skyrių.
+8. Išplėskite **Išsamios informacijos** skyrių.
 9. Pasirinkite **Naujas**.
 10. Laukelyje **Pašto kodo rikiavimas pagal**, įveskite „30301".
 11. Laukelyje **Pašto kodo rikiavimas į**, įveskite „30318".

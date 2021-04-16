@@ -2,11 +2,9 @@
 title: Tinkinti centrinius vaizdo taškus
 description: Šioje temoje aprašoma, kaip tinkinti centrinius vaizdo taškus „Microsoft Dynamics 365 Commerce“ svetainės generatoriuje.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,20 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fca209c9827192f50c2f1a5bd9e78146214e1e0e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 962caff0e8e41487231c6075fa7b2df2a59dca48
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222566"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799306"
 ---
 # <a name="customize-image-focal-points"></a>Vaizdų centro tinkinimas
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip tinkinti centrinius vaizdo taškus „Microsoft Dynamics 365 Commerce“ svetainės generatoriuje.
-
-## <a name="overview"></a>Peržiūra
 
 Kai vaizdas įkeliamas į „Commerce“ svetainės generatoriaus medijos biblioteką, sistema bando nustatyti vaizdo centrinę vietą. Pavyzdžiui, jei paveikslėlyje yra žmogus, sistema nustatys asmens veido centrinį tašką pagal numatytuosius nustatymus. Daugeliu atvejų automatiškai nustatomas centrinis taškas gerai tinka visoms peržiūros sritims, tačiau kartais galite norėti pakoreguoti centrinį tašką, kad būtų užtikrinta, jog konkreti vaizdo dalis visada bus matoma.
 
@@ -43,7 +39,7 @@ Norėdami nustatyti pasirinktą centrinį vaizdo tašką, atlikite šiuos veiksm
 1. Komandų juostoje pasirinkite **Redaguoti**.
 1. Pasirinkite vaizdą, kad atsidarytų **Redaguoti režimą** langas.
 1. Po pasirinktimi **Redaguoti režimą** pasirinkite **Pakeisti centrinį tašką**. Virš vaizdo atsiras žiedinis centrinio taško valdiklis.
-1. Pažymėkite centrinio taško valdiklį, kad galėtumėte jį perkeltį į norimą centrinį tašką.
+1. Pažymėkite centrinio taško valdiklį, kad galėtumėte jį perkelti į norimą centrinį tašką.
 1. Kai baigsite, komandų juostoje pasirinkite **Įrašyti** ir pasirinkite **Baigti redagavimą**.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai

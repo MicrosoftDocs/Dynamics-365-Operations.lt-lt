@@ -2,11 +2,9 @@
 title: Išlaidų kategorijos, naudojamos gamybos kelvadose
 description: Šiame straipsnyje pateikiama informacija apie išlaidų kategorijas, taikoma gamybos aplinkoms, naudojančioms kelvadas.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjCategory, RouteCostCategoryPrice
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 58e327e4eddff5d9a6a3f87441149f1f3cdf6cff
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 511ffbe8238f01e83683649a7e6f189bdea80da1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228664"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839444"
 ---
 # <a name="cost-categories-used-in-production-routing"></a>Išlaidų kategorijos, naudojamos gamybos kelvadose
 
@@ -49,7 +47,7 @@ Kiekviena išlaidų kategorija turi su ja susietas išlaidas, kurios paremtos i�
 
 Išlaidų kategorijos išlaidų įrašas gali būti konkrečios vietos ar visos įmonės. Norėdami išlaidų įrašą nustatyti konkrečiai vietai, jam priskirkite vietą. Kitaip tuščia reikšmė nurodo, kad išlaidų įrašas taikomas visoms įmonės vietoms. Kadangi išlaidos gali skirtis (pvz., vietose), išlaidų įrašai turi būti nurodyti pagal vietą. 
 
-Kelvados operacija paprastai paveldėja išlaidų kategorijas, kurios priskirtos operacijų ištekliui arba pagrindinei operacijai. Kai sukuriamas gamybos užsakymas, kelvados operacijos gamybos maršruto ribose rodo pasirinktą maršruto versiją. Galite nepaisyti išlaidų kategorijų, priskirtų operacijoms, esančioms gamybos maršruto ribose. 
+Kelvados operacija paprastai paveldi išlaidų kategorijas, kurios priskirtos operacijų ištekliui arba pagrindinei operacijai. Kai sukuriamas gamybos užsakymas, kelvados operacijos gamybos maršruto ribose rodo pasirinktą maršruto versiją. Galite nepaisyti išlaidų kategorijų, priskirtų operacijoms, esančioms gamybos maršruto ribose. 
 
 Kai kurių tipų gamybos darbą galima taikyti projekto laiko įvertinimui ir ataskaitoms. Šiuo atveju gamybos ir projekto tikslais reikalinga išlaidų kategorija. Kai išlaidų kategorija pažymima naudoti projektuose, turite apibrėžti papildomą su projektais susijusią informaciją.
 

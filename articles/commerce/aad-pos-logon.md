@@ -2,11 +2,9 @@
 title: „Azure Active Directory” EKA prisijungimo autentifikavimo įjungimas
 description: Šioje temoje paaiškinama, kaip sukonfigūruoti „Microsoft Dynamics 365 Commerce” elektroninio kasos aparato (EKA) prisijungimo funkcijas, kad būtų naudojamas „Azure Active Directory” autentifikavimas.
 author: boycezhu
-manager: annbe
 ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -14,12 +12,12 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 234d19bb6659af07c65763e05671742b9581e244
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 50088aee8c2474708682c9041251d2336e84d971
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206684"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796347"
 ---
 # <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>EKA prisijungimo „Azure Active Directory“ autentifikavimo įjungimas
 [!include [banner](includes/banner.md)]
@@ -33,7 +31,7 @@ Norėdami, kad „Azure AD” būtų pasiekiama kaip EKA prisijungimo prie pardu
 
 Norėdami sukonfigūruoti funkcijų šabloną, atlikite toliau nurodytus veiksmus.
 
-1. Eikite į **„Retail and Commerce“** \> **Kanalo sąranka** \> **EKA sąranka** \> **EKA profiliai** \> **Funkcionalumo profiliai**.
+1. Eikite į **Mažmeninė prekyba ir prekyba** \> **Kanalo sąranka** \> **EKA sąranka** \> **EKA profiliai** \> **Funkcionalumo profiliai**.
 1. Pasirinkite funkcijų šabloną, kurį norite pakeisti.
 1. „FastTab” **Funkcijos**, skyriuje **EKA darbuotojų prisijungimas**, pakeiskite lauko **Prisijungimo autentifikavimo būdas** vertę iš **Darbuotojo ID ir slaptažodis** į **„Azure Active Directory”**.
 
@@ -41,7 +39,7 @@ Pagal numatytuosius parametrus visi funkcijų šablonai naudoja **Darbuotojo ID 
 
 Norėdami taikyti parametrus EKA klientams, atlikite toliau pateikiamus veiksmus.
 
-1. Eikite į **„Retail and Commerce“** \> **„Retail and Commerce IT“** \> **Paskirstymo grafikas**.
+1. Eikite į **Mažmeninė prekyba ir prekyba** \> **Mažmeninės prekybos ir prekybos IT“** \> **Paskirstymo grafikas**.
 1. Paleiskite paskirstymo grafiką **1070** (**Kanalo konfigūracija**).
 
 > [!NOTE]

@@ -2,7 +2,6 @@
 title: Keisti reklaminę juostą arba logotipą
 description: Toliau pateiktoje procedūroje išvardijami veiksmai, kuriuos sistemos administratoriai gali naudoti, norėdami atnaujinti reklaminės juostos arba logotipo vaizdą, kuris rodomas juridiniam subjektui.
 author: aneesmsft
-manager: AnnBe
 ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6004bafc721a1ceb3ec531d4f222d0ac93e89728
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 3dd795b86e4aa05ac96123ed6b879d3dbca9166e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566325"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745624"
 ---
 # <a name="change-the-banner-or-logo"></a>Keisti reklaminę juostą arba logotipą
 

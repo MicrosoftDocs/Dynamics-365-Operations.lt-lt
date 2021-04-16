@@ -2,11 +2,9 @@
 title: Trumpalaikės nuomos įsipareigojimo dalies perklasifikavimas
 description: Šioje temoje paaiškinama, kaip sukurti mėnesio žurnalo įrašą, siekiant perklasifikuoti nuomos įsipareigojimo dalį kaip trumpalaikį.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9189033987a3072c7122e1a198768d9de6aa2a52
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7d98d66b5fe9d32a86eb75d937fedfdca6773ac4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254088"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823100"
 ---
 # <a name="reclassify-the-short-term-portion-of-lease-liability"></a>Trumpalaikės nuomos įsipareigojimo dalies perklasifikavimas
 
@@ -38,8 +36,7 @@ Norėdami sukurti ir užregistruoti trumpojo laikotarpio atsakomybės perklasifi
 2. Dialogo lango **Paketinio žurnalo kūrimas** lauke **Pasirinkite grafiką** pasirinkite **Trumpalaikės nuomos įsipareigojimo perklasifikavimas**.
 3. Lauke **Nuomos grupė** pasirinkite nuomos grupę. Arba lauke **Knygos ID** pasirinkite knygos ID.
 4. Įjunkite parametrą **Registruoti**. Taip pat, jei įrašas turi būti sukurtas, bet neužregistruotas, šis parametras bus išjungtas.
-5. Norėdami peržiūrėti įrašą prieš registruodami, įjunkite parametrą **Peržiūrėti prieš registruojant**.
-6. Pasirinkite **Gerai**.
+5. Pasirinkite **Gerai**.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

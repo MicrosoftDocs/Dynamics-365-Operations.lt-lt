@@ -2,11 +2,9 @@
 title: Darbas su iš anksto nustatytų stilių rinkiniais
 description: Šioje temoje aprašoma, kaip svetainių daryklėje „Microsoft Dynamics 365 Commerce“ dirbti su išankstinėmis stilių parinktimis.
 author: phinneyridge
-manager: annbe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 55d333c3ae94b17dabaef3c697c698f068a06543
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7279b52f801c2cb2f156d220d1a456b773d10f33
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226596"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791756"
 ---
 # <a name="work-with-style-presets"></a>Darbas su iš anksto nustatytų stilių rinkiniais
 
@@ -29,15 +27,13 @@ ms.locfileid: "5226596"
 
 Šioje temoje aprašoma, kaip svetainių daryklėje „Microsoft Dynamics 365 Commerce“ dirbti su išankstinėmis stilių parinktimis.
 
-## <a name="overview"></a>Peržiūra
-
 Išankstinė stilių parinktis yra visų autentiškų stilių verčių rinkinys, naudojamas svetainės temoje. Jis gali būti naudojamas norint iš karto pakeisti svetainės įvaizdį iš svetainės daryklės. Išankstinė stilių parinktis suteikia galimybę „Commerce” svetainės daryklės autoriams greitai pakeisti, peržiūrėti ir suaktyvinti savo svetainės stilių vertes nenaudodami „Cascading Style Sheets ” (CSS) arba nediegiant temų. Šrifto stiliai, mygtukų stiliai ir svetainės spalvos yra tipiški stiliaus kintamųjų, kuriuos galima tvarkyti naudojant išankstinėmis stilių parinktimis, pavyzdžiai.
 
 Stiliaus kintamųjų rinkinys, prieinamas svetainėje, nustatomas pagal temą ir modulio biblioteką, kuri įdiegiama į svetainės nuomininką. „Dynamics 365 Commerce” internetinis programinės įrangos kūrimo rinkinys (SDK – angl. software development kit) leidžia kūrėjams pritaikyti didžiausią kiekį (arba tik kelis) reikiamus autentiškus stilių kintamuosius per skirtą laiką. Įgalinę daugiau stilių kintamųjų, temos kūrėjas gali patikėti galutinius svetainės stilių svetainės pakeitimus daryklės autoriams. Todėl ne kūrėjai gali atnaujinti ir peržiūrėti svetainės stilius naudodami įrankių rinkinį. Funkcija taip pat naudinga bet kokiam scenarijui, kai tiesioginiai temų pakeitimai arba „CSS” sukels nereikalingų pridėtinių išlaidų.
 
 Temoms, kuriose įgalinti autentiški stiliaus kintamieji, reikia numatytosios išankstinės stiliaus parinkties. Jie pasirinktinai gali įtraukti papildomas parinktis, nes tai įeina į įdiegtos temos paketą. Pavyzdžiui, galima įdiegti temą, kuri turi vieną numatytąją „šiuolaikiškas šviesus” stiliaus parinktį. Taip pat gali būti ir papildomų išankstinių stiliaus parinkčių be numatytosios, pavyzdžiui, „šiuolaikiškas tamsus”, „senoviškas šviesus” arba „senoviškas tamsus”. Kūrėjai kuria šias integruotas temų išankstines parinktis ir jos gali būti naudojamos kaip pirmieji svetainių stilių potėpiai.
 
-Svetainės daryklėje kūrėjai gali pasirinkti iš integruotų temų parinkčių arba gali sukurti savo pačių stilių išankstines parinktis ir tinkinimą naudojant įgalintus stilių kintamuosius.  Išankstinė stiliaus parinktis gali būti peržiūrėta svetainės daryklėje prieš aktyvuojant ją tiesioginėje svetainėje. Peržiūrėjus kūrėjo stiliaus pakeitimus, išankstinė stiliaus parinktis gali būti nustatyta kaip „aktyvi” tiesioginėje svetainėje.
+Svetainės daryklėje kūrėjai gali pasirinkti iš integruotų temų parinkčių arba gali sukurti savo pačių stilių išankstines parinktis ir tinkinimą naudojant įgalintus stilių kintamuosius. Išankstinė stiliaus parinktis gali būti peržiūrėta svetainės daryklėje prieš aktyvuojant ją tiesioginėje svetainėje. Peržiūrėjus kūrėjo stiliaus pakeitimus, išankstinė stiliaus parinktis gali būti nustatyta kaip „aktyvi” tiesioginėje svetainėje.
 
 ## <a name="preview-a-style-preset"></a>Išankstinės stiliaus parinkties peržiūra
 

@@ -2,11 +2,9 @@
 title: Produkto gyvavimo ciklo būsenos ir perlaidos
 description: Šioje temoje paaiškinta, kaip gali valdyti perlaidas, kurioms leidžiama būti visose gyvavimo ciklo būsenos kai inžinerijos produktas eina per savo gyvavimo ciklą.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgEcoResProductLifecycleStateChange
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 9c6ba9831b84e1220ee158d8186675107b490124
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 421fae6eab20eea50b9ce677a1ae7993add6cb93
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5266180"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842062"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Produkto gyvavimo ciklo būsenos ir perlaidos
 
@@ -56,15 +54,15 @@ Nustatykite tolesnius laukelius „FastTab“ **Bendri**.
 
 | Laukas | aprašymas |
 |---|---|
-| Numatytieji parametrai išleidžiant į juridinį asmenį | Standartiniams produktams, nustatykite parinktį į *Taip*, jei gyvavimo ciklo būsena turi būti taikoma visiems produktams pagal nutylėjimą kai jie išleisti pirmą kartą. Nustatykite jį į *Ne* jei ši gyvavimo ciklo būsena bus taikoma vėliau rankiniu būdu.<p>Šie nustatymai nėra taikomi inžinerijos produktams. Inžinerijos produkto versijos gyvavimo ciklo būsena po jos sukūrimo inžinerijos įmonėje yra nurodyta jos inžinerijos keitimo kategorijoje. Paleidus produkta veikiančioje įmonėje, produkto gyvavimo ciklo būsena yra nukopijuojama. Kitaip tariant, kai inžinerijos produktas išleidžiamas į veikiančią įmonę, jis turi tą pačią gyvavimo ciklo būseną, kurią turėjo inžinerijos įmonė. Gyvavimo ciklo būsena gali būti užrašyta veikiančioje įmonėje.</p> |
-| Galima planuoti | Nustatykite šią parinktį į *Taip* tam, kad ji apimtų produktus esančius šioje gyvavimo ciklo būsenoje apskaičiavimuose pagrindiniame planavime ir važtaraščio (BOM) lygyje. Nustatykite jį į *Ne* tam, kad neapimtų prodoktų esančių šioje gyvavimo ciklo būsenoje iš skaičiavimų. |
+| Numatytieji parametrai išleidžiant į juridinį asmenį | Standartiniams produktams, nustatykite parinktį į *Taip*, jei gyvavimo ciklo būsena turi būti taikoma visiems produktams pagal nutylėjimą kai jie išleisti pirmą kartą. Nustatykite jį į *Ne* jei ši gyvavimo ciklo būsena bus taikoma vėliau rankiniu būdu.<p>Šie nustatymai nėra taikomi inžinerijos produktams. Inžinerijos produkto versijos gyvavimo ciklo būsena po jos sukūrimo inžinerijos įmonėje yra nurodyta jos inžinerijos keitimo kategorijoje. Paleidus produktą veikiančioje įmonėje, produkto gyvavimo ciklo būsena yra nukopijuojama. Kitaip tariant, kai inžinerijos produktas išleidžiamas į veikiančią įmonę, jis turi tą pačią gyvavimo ciklo būseną, kurią turėjo inžinerijos įmonė. Gyvavimo ciklo būsena gali būti užrašyta veikiančioje įmonėje.</p> |
+| Galima planuoti | Nustatykite šią parinktį į *Taip* tam, kad ji apimtų produktus esančius šioje gyvavimo ciklo būsenoje apskaičiavimuose pagrindiniame planavime ir važtaraščio (KS) lygyje. Nustatykite jį į *Ne* tam, kad neapimtų produktų esančių šioje gyvavimo ciklo būsenoje iš skaičiavimų. |
 
 ### <a name="enabled-business-processes-fasttab"></a>Įjungti verslo procesai „FastTab“
 
 Naudokite **Įjungti verslo procesai** „FastTab“ siekiant kontroliuoti, kurie esami verslo procesai gali būti naudojami su produktais esamoje gyvavimo ciklo būsenoje. Šiame „FastTab“ esantys procesai yra automatiškai randami tokiu būdu:
 
 - Pirmą kartą, kai įrašote naują gyvavimo ciklo būseną, puslapis įkelia verslo procesus, kurie šiuo metu yra prieinami.
-- Jei įtraukiate naujus verslo procesus į savo sistemą, galite naujinti sąršą **Įjungti verslo procesai** „FastTab“ esamai gyvavimo ciklo būsenai pasirinkę **TIkrinti naujinimams** veiksmų juostoje.
+- Jei įtraukiate naujus verslo procesus į savo sistemą, galite naujinti sąrašą **Įjungti verslo procesai** „FastTab“ esamai gyvavimo ciklo būsenai pasirinkę **TIkrinti naujinimams** veiksmų juostoje.
 
 Tolesni laukeliai yra prieinami kiekvienam procesui, kuris išvardytas **Įjungti verslo procesai** „FastTab“.
 
@@ -74,7 +72,7 @@ Tolesni laukeliai yra prieinami kiekvienam procesui, kuris išvardytas **Įjungt
 | Proceso sritis | Šis tik skirtas skaityti laukelis rodo esamo verslo proceso sritį. |
 | Polisas | Pasirinkite vieną iš tolesnių verčių, kad valdytumėte, ar ir kaip esamas procesas leis produktus esančius jų gyvavimo ciklo būsenoje:<ul><li>**Įjungta** – Verslo procesas leidžiamas.</li><li>**Blokuotas** – Procesas neleidžiamas. Jei vartotojas bando naudoti procesą produkte, kuris yra gyvavimo ciklo būsenos, sistema užblokuos bandymą ir rodys klaidą. Pavyzdžiui, galite užblokuoti iki gyvavimo galo esančius produktus neleisdami jų įsigyti.</li><li>**Įjungti su įspėjimu** – Procesas leidžiamas, bet rodomas įspėjimas. Pavyzdžiui, galbūt jums reikės, kad produkto prototipas būtų padėtas į prekybos užsakymą, kuris yra sukurtas mokslo ir vystymo skyriaus. Nepaisant to, kiti skyriai turėtų žinoti, kad jie neturėtų gaminti gaminio.</li></ul> |
 
-Jei įtraukiate daugiau gyvavimo ciklo būsenos taisyklių į savo tinkinimą, galite peržiūrėti šias taisykles vartotojo sąsajoje (UI) pasirinkę **Naujinti procesus** viršutinėje juostoje. Mygtukas **Naujinti proceuss** yra prieinamas tik administratoriams.
+Jei įtraukiate daugiau gyvavimo ciklo būsenos taisyklių į savo tinkinimą, galite peržiūrėti šias taisykles vartotojo sąsajoje (UI) pasirinkę **Naujinti procesus** viršutinėje juostoje. Mygtukas **Naujinti procesus** yra prieinamas tik administratoriams.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

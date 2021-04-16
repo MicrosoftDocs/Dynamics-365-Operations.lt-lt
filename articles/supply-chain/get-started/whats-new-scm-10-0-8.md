@@ -2,11 +2,9 @@
 title: Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.8 (2020 m. vasario mėn.)
 description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.8 funkcijos.
 author: kamaybac
-manager: tfehr
 ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 25dfcfffe3fc551f2b45dfe152b72e2d65061d8f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1762425642ee976b32c9daf3fbb90961fa983d19
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207116"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819405"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.8 (2020 m. vasario mėn.)
 
@@ -29,7 +27,7 @@ ms.locfileid: "5207116"
 
 Šioje temoje nurodomos naujos ir pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.8 funkcijos. Šios versijos komponavimo numeris yra 10.0.319 ir jis pasiekiamas tokius būdu:
 
-- **Peržiūros leidimas:** 2019 m. gruodžio mėn
+- **Peržiūros leidimas:** 2019 m. gruodžio mėn.
 - **Bendras pasiekiamumas (automatinis naujinimas):** 2020 m. sausis
 - **Automatinis atnaujinimas:** 2020 m. vasaris
 
@@ -47,7 +45,7 @@ Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinima
 - [Vietos nurodymo atsargų paėmimo skirstymas pagal terminus](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)<br> - Daugiau informacijos žr. [Vietos nurodymo atsargų paėmimo skirstymas pagal terminus](../warehousing/location-directive-inventory-picking-aging.md).
 - [Vietos būsena](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)
 - [Paėmimo eilutės grupavimas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/pick-line-grouping)<br> - Norėdami gauti daugiau informacijos, žr. [Eilutės paėmimo grupavimą](../warehousing/pick-line-grouping.md).
-- [Automatinis siuntų naujinimas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/shipment-auto-update)<br> - Norėdami gauti daugiau informacijos, [žr. Automatinis siunų naujinimas](../warehousing/auto-update-shipment.md).
+- [Automatinis siuntų naujinimas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/shipment-auto-update)<br> - Norėdami gauti daugiau informacijos, žr. [Automatinis siuntų naujinimas](../warehousing/auto-update-shipment.md).
 - [Išskaidyti poreikio papildymo darbą iš paėmimo darbo veiksmo kūrimo](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-demand-replenishment-work-create-pick-work-step)
 - [Išskaidyti darbą](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-work)
 - [Sistemos nukreiptas klasterio paėmimas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/system-directed-cluster-picking)<br> - Norėdami gauti daugiau informacijos, žr. [Sistemos nukreiptas klasterio paėmimas](../warehousing/system-directed-cluster-pick.md).
@@ -62,7 +60,7 @@ Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinima
 
 ### <a name="platform-update-32"></a>Platformos „update 32“
 
-„Microsoft Dynamics 365 Supply Chain Management“ 10.0.8 sudaro platformos 32 naujinimas. Norėdami sužinoti daugiau, žr [Peržiūros funkcijos platformos 32 naujinime](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
+„Microsoft Dynamics 365 Supply Chain Management“ 10.0.8 sudaro platformos 32 naujinimas. Norėdami sužinoti daugiau, žr. [Peržiūros funkcijos platformos 32 naujinime](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai 
 
@@ -83,7 +81,7 @@ Temoje [Pašalintos arba pasenusios funkcijos „Dynamics 365 Supply Chain Manag
 
 Prieš pašalinant iš produkto bet kokią funkciją, pranešimas apie nebenaudojimą bus paskelbtas [Pašalintos arba pasenusios funkcijos „Dynamics 365 Supply Chain Management“](removed-deprecated-features-scm-updates.md) temoje 12 mėnesių prieš pašalinimą.
 
-Atlikus keitimus, kurie paveikia tik kompiliavimo laiką, bet yra dvejatainiškai suderinami su smėlio dėžės ir gamybos aplinka, nebenaudojimo laikas bus trumpesnis nei 12 mėnesių. Paprastai, tai yra funkciniai naujinimai, kuriuos reikia atlikti kompiliatoriui.
+Atlikus keitimus, kurie paveikia tik kompiliavimo laiką, bet yra dvejetainiškai suderinami su smėlio dėžės ir gamybos aplinka, nebenaudojimo laikas bus trumpesnis nei 12 mėnesių. Paprastai, tai yra funkciniai naujinimai, kuriuos reikia atlikti kompiliatoriui.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
