@@ -2,11 +2,9 @@
 title: Produkto parengtis
 description: Šioje temoje paaiškinta, kaip galite naudoti parengtumo patikras siekiant užtikrinti, kad būtini pagrindiniai duomenys yra baigti produktui prieš jo naudojimą perlaidose.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 38ceef3d03fae83f7ac509fb05a4cd9603af2465
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 23ee82922a2103d02a4c1fe0c364fa381c4984c3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5266156"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842015"
 ---
 # <a name="product-readiness"></a>Produkto parengtis
 
@@ -39,20 +37,20 @@ Yra trys parengtumo patikrų tipai:
 
 ## <a name="how-readiness-checks-are-created-for-a-new-product-variant-or-version"></a>Kaip parengtumo patikros sukuriamos naujam produktui, variantui ar versijai
 
-Jums sukūrus naują inžinerijos **produktą**, sistema nustato, ar parengtumo patikros politika buvo nustatyta inžinerijos produkto kategorijai. (Parengtumo patikros politikos gali būti taikomos išleistam produkto lygiui, išleistas varianto lygis ir inžinerijos versijos lygiui.) Jei politika buvo nustatyta, atsitinka tolesni įvykiai:
+Jums sukūrus naują inžinerijos **produktą**, sistema nustato, ar parengtumo patikros strategija buvo nustatyta inžinerijos produkto kategorijai. (Parengtumo patikros strategijos gali būti taikomos išleistam produkto lygiui, išleistas varianto lygis ir inžinerijos versijos lygiui.) Jei strategija buvo nustatyta, atsitinka tolesni įvykiai:
 
-- Parengumo patikros yra sukuriamos produktui pagal taikomą politiką.
-- Inžinerijso versija yra nustatyta kaip neįjungta siekiant užblokuoti produktą nuo naudojimo. Visos versijos konkrečiam produktui, yra neįjungtos.
+- Parengumo patikros yra sukuriamos produktui pagal taikomą strategiją.
+- Inžinerijos versija yra nustatyta kaip neįjungta siekiant užblokuoti produktą nuo naudojimo. Visos versijos konkrečiam produktui, yra neįjungtos.
 
-Jei naujas **variantas** sukuriamas produktui, sistema tikrina, ar parengtumo patikros buvo nustaytos inžinerijos produkto kategorijoje. (Parengtumo patikros politikos gali būti taikomos išleistam produkto lygiui, išleistas varianto lygis ir inžinerijos versijos lygiui.) Jei parengtumo patikra buvo nustatyta, atsitinka tolesni įvykiai:
-
-- Parengtumo patikros sukuriamos produktui.
-- Inžinerijso versija yra nustatyta kaip neįjungta siekiant užblokuoti produktą nuo naudojimo.
-
-Jei nauja inžinerijos **versija** sukuriama produktui, sistema tikrina, ar parengtumo patikros buvo nustaytos inžinerijos produkto kategorijoje. (Parengtumo patikros gali būti taikomos inžinerijos versijos lygiui.) Jei parengtumo patikra buvo nustatyta, atsitinka tolesni įvykiai:
+Jei naujas **variantas** sukuriamas produktui, sistema tikrina, ar parengtumo patikros buvo nustatytos inžinerijos produkto kategorijoje. (Parengtumo patikros strategijos gali būti taikomos išleistam produkto lygiui, išleistas varianto lygis ir inžinerijos versijos lygiui.) Jei parengtumo patikra buvo nustatyta, atsitinka tolesni įvykiai:
 
 - Parengtumo patikros sukuriamos produktui.
-- Inžinerijso versija yra nustatyta kaip neįjungta siekiant užblokuoti produktą nuo naudojimo.
+- Inžinerijos versija yra nustatyta kaip neįjungta siekiant užblokuoti produktą nuo naudojimo.
+
+Jei nauja inžinerijos **versija** sukuriama produktui, sistema tikrina, ar parengtumo patikros buvo nustatytos inžinerijos produkto kategorijoje. (Parengtumo patikros gali būti taikomos inžinerijos versijos lygiui.) Jei parengtumo patikra buvo nustatyta, atsitinka tolesni įvykiai:
+
+- Parengtumo patikros sukuriamos produktui.
+- Inžinerijos versija yra nustatyta kaip neįjungta siekiant užblokuoti produktą nuo naudojimo.
 
 ## <a name="view-readiness-checks"></a>Peržiūrėti parengtumo patikras
 
@@ -73,60 +71,60 @@ Nustatymas, kuris rodo, kam parengtumo patikra priskirta pagal inžinerinio prod
 
 ## <a name="process-open-readiness-checks"></a>Tvarkyti atviras parengtumo patikras
 
-### <a name="process-system-and-manual-readiness-checks"></a>Tvarkyit sistemą ir rankinio parengtumo patikras
+### <a name="process-system-and-manual-readiness-checks"></a>Tvarkykite sistemą ir rankinio parengtumo patikras
 
-Jums atvėrus **Parengtumo patikrų** puslapį galite peržiūrėti sistemos ir rankinių parengtumo patikrų subjektą pasirinkę **Peržiūrėti susijusią informaciją** . Tuomet galite užbaigti ir (arba) patvirtinti duomenis parengtumo patikrai. Atverkite parengtumo patikras, kuriso turi **Būsenos** vertę *Laukianti*. Būsena rodo, kad parengtumo patikra vis dar turi būti sutvarkyta. Norėdami sutvarkyti parengtumo patikrą, atlikite vieną iš tolesnių veiksmų.
+Jums atvėrus **Parengtumo patikrų** puslapį galite peržiūrėti sistemos ir rankinių parengtumo patikrų subjektą pasirinkę **Peržiūrėti susijusią informaciją** . Tuomet galite užbaigti ir (arba) patvirtinti duomenis parengtumo patikrai. Atverkite parengtumo patikras, kurios turi **Būsenos** vertę *Laukianti*. Būsena rodo, kad parengtumo patikra vis dar turi būti sutvarkyta. Norėdami sutvarkyti parengtumo patikrą, atlikite vieną iš tolesnių veiksmų.
 
 - Veiksmų juostoje rinkitės **Patikra/baigta** tam, kad peržiūrėtumėte ir užbaigtumėte parengtumo patikrą. Jums pabaigus **Būsenos** laukelis yra atnaujinamas į *Patvirtintas*.
 - Veiksmų juostoje rinkitės **Praleisti** jei norite praleisti parengtumo patikrą, kuri nėra būtina. Pavyzdžiui, nustatėte parengtumo patikrą kainos apskaičiavimui. Nepaisant to, nusprendėte praleisti šią patikrą, kol produktas vis dar yra kūrimo etape. Tokiu atveju, **Būsenos** laukelis yra naujinamas į *Praleistas*.
 
-Priklausomai nuo parengtumo poltikos konfigūravimo, kai **Būsenos** laukelis pasirengimo patikrai yra naujintas į *Patvirtintas*, papildomo žingsnio gali reikėti siekiant patvirtinti parengtumo patikrą. Tokiu atveju, rinkitės **Patvirtinimą** tam, kad užbaigtumėt parengtumo patikrą. Šis patvirtinimo žingsnis visuomet privalomas, kai parengtumo patikra praleista.
+Priklausomai nuo parengtumo strategijos konfigūravimo, kai **Būsenos** laukelis pasirengimo patikrai yra naujintas į *Patvirtintas*, papildomo žingsnio gali reikėti siekiant patvirtinti parengtumo patikrą. Tokiu atveju, rinkitės **Patvirtinimą** tam, kad užbaigtumėt parengtumo patikrą. Šis patvirtinimo žingsnis visuomet privalomas, kai parengtumo patikra praleista.
 
 Kai visos atviros parengtumo patikros naujam produktui, variantui ar versijai buvo sutvarkytos ir patvirtintos kaip būtina, prekė automatiškai tampa įjungta ir dėl to parengta naudoti.
 
 ### <a name="process-checklist-readiness-checks"></a>Tvarkyti patikrinimo sąrašo parengtumo patikras
 
-Norėdami atverti patikrų sąrašą, atverkite **Parengtumo patikrų** puslapį ir tada veiksmų juostoje pasirinkite **Pradėti patikrumo sąrašą**. Jums užbaigus patikrų sąrašą, sistema patvirtina, ar parengtumo patikra yra patvirtinta pagal klausimyno nustatymus. Jei ši patikra praleidžiama, **Būsenos** laukelis yra atnaujinamas į *Patvirtintas*. Jei parengtumo patikra neprivaloma, galite ją praleisti. Tokiu atveju, **Būsenos** laukelis yra naujinamas į *Praleistas*.
+Norėdami atverti patikrų sąrašą, atverkite **Parengtumo patikrų** puslapį ir tada veiksmų juostoje pasirinkite **Pradėti patikrinimo sąrašą**. Jums užbaigus patikrų sąrašą, sistema patvirtina, ar parengtumo patikra yra patvirtinta pagal klausimyno nustatymus. Jei ši patikra praleidžiama, **Būsenos** laukelis yra atnaujinamas į *Patvirtintas*. Jei parengtumo patikra neprivaloma, galite ją praleisti. Tokiu atveju, **Būsenos** laukelis yra naujinamas į *Praleistas*.
 
-Priklausomai nuo parengtumo poltikos konfigūravimo, kai **Būsenos** laukelis pasirengimo patikrai yra naujintas į *Patvirtintas*, papildomo žingsnio gali reikėti siekiant patvirtinti parengtumo patikrą. Tokiu atveju, rinkitės **Patvirtinimą** tam, kad užbaigtumėt parengtumo patikrą. Šis patvirtinimo žingsnis visuomet privalomas, kai parengtumo patikra praleista.
+Priklausomai nuo parengtumo strategijos konfigūravimo, kai **Būsenos** laukelis pasirengimo patikrai yra naujintas į *Patvirtintas*, papildomo žingsnio gali reikėti siekiant patvirtinti parengtumo patikrą. Tokiu atveju, rinkitės **Patvirtinimą** tam, kad užbaigtumėt parengtumo patikrą. Šis patvirtinimo žingsnis visuomet privalomas, kai parengtumo patikra praleista.
 
 Kai visos atviros parengtumo patikros naujam produktui, variantui ar versijai buvo sutvarkytos ir patvirtintos kaip būtina, prekė automatiškai tampa įjungta ir dėl to parengta naudoti.
 
-## <a name="create-and-manage-product-readiness-policies"></a>Sukurkite ir valdykite produkto parengtumo politikas
+## <a name="create-and-manage-product-readiness-policies"></a>Sukurkite ir valdykite produkto parengtumo strategijas
 
-Naudokite produkto parengtumo politikas, kad valdytumėte parengtumo patikras taikomas produktui. Kadangi parengtumo politika priskirta inžinerijos kategorijai, visos patikros parengtumo politikai taikomos inžinerijos produktams, kruie remiasi inžinerijos kategorija. Dėl daugiau informacijos apie inžinerijos duomenis, žr. [Inžinerijos versijos ir inžinerijos produkto kategorijos](engineering-versions-product-category.md).
+Naudokite produkto parengtumo strategijas, kad valdytumėte parengtumo patikras taikomas produktui. Kadangi parengtumo strategija priskirta inžinerijos kategorijai, visos patikros parengtumo strategijai taikomos inžinerijos produktams, kurie remiasi inžinerijos kategorija. Dėl daugiau informacijos apie inžinerijos duomenis, žr. [Inžinerijos versijos ir inžinerijos produkto kategorijos](engineering-versions-product-category.md).
 
-Kiekviena parengtumo politika turi parengtumo patikrų rinkinį. Kai parengtumo politika priskirta inžinerijos produkto kategorijai, visi produktai sukurti iš to inžinerijos produkto kategorijas turės parengtumo patikras, nurodytas parengtumo politikoje.
+Kiekviena parengtumo strategija turi parengtumo patikrų rinkinį. Kai parengtumo strategija priskirta inžinerijos produkto kategorijai, visi produktai sukurti iš to inžinerijos produkto kategorijas turės parengtumo patikras, nurodytas parengtumo strategijoje.
 
-Tam, kad dirbtumėte su produkto parengtumo politikomis, eikite į **Inžinerijos keitimo valdymą \> Nustatymus \> Produkto parengtumo politikos**. Tuomet atlikite vieną iš šių žingsnių.
+Tam, kad dirbtumėte su produkto parengtumo strategijomis, eikite į **Inžinerijos keitimo valdymą \> Nustatymus \> Produkto parengtumo strategijos**. Tuomet atlikite vieną iš šių žingsnių.
 
-- Norėdami sukurti naują politiką, rinkitės **Naujas** veiksmų juostoje ir tada nustatykite laukelius kaip aprašyta tolesniuose papildomuose skyriuose.
-- Norėdami redaguoti esančią politiką, sąrašo juostoje ją pasirinkite ir rinkitės **Redaguoti** veiksmų juostoje ir tada nustatykite laukelius kaip aprašyta tolesniuose papildomuose skyriuose.
-- Norėdami panaikinti politiką, sąrašo juostoje ją pasirinkite ir rinkitės  **Redaguoti** veiksmų juostoje ir tada **Bendri** „FastTab“, įsitikinkite, kad **Įjungta** parinktis nustatyta į *Ne*. Tada rinkitės **Naikinti** veiksmų juostoje.
+- Norėdami sukurti naują strategiją, rinkitės **Naujas** veiksmų juostoje ir tada nustatykite laukelius kaip aprašyta tolesniuose papildomuose skyriuose.
+- Norėdami redaguoti esančią strategiją, sąrašo juostoje ją pasirinkite ir rinkitės **Redaguoti** veiksmų juostoje ir tada nustatykite laukelius kaip aprašyta tolesniuose papildomuose skyriuose.
+- Norėdami panaikinti strategiją, sąrašo juostoje ją pasirinkite ir rinkitės  **Redaguoti** veiksmų juostoje ir tada **Bendri** „FastTab“, įsitikinkite, kad **Įjungta** parinktis nustatyta į *Ne*. Tada rinkitės **Naikinti** veiksmų juostoje.
 
 ### <a name="header"></a>Antraštė
 
-Nustatykite tolesnius laukelius produkto parengtumo politikai.
+Nustatykite tolesnius laukelius produkto parengtumo strategijai.
 
 | Laukas | aprašymas |
 |---|---|
-| Pavadinimas / vardas ir (arba) pavardė | Įveskite politikos pavadinimą. |
-| aprašymas | Įveskite politikos aprašą. |
+| Pavadinimas / vardas ir (arba) pavardė | Įveskite strategijos pavadinimą. |
+| aprašymas | Įveskite strategijos aprašą. |
 
 ### <a name="general-fasttab"></a>Bendras „FastTab“ skirtukas
 
-Nustatykite tolesnius laukelius **Bendri** produkto parengtumo politikos „FastTab“.
+Nustatykite tolesnius laukelius **Bendri** produkto parengtumo strategijos „FastTab“.
 
 | Laukas | aprašymas |
 |---|---|
-| Produkto tipas | Pasirinkite, ar politika taikoma produktams *Prekės* ar *Paslaugų* tipo. Negalite keisti šio nustatymo po to, kai įrašote įrašą. |
-| Aktyvios | Naudokite šią parinktį, kad padėtumėte išlaikyti savo pasirengimo politikas. Nustatykite į *Taip* visom jūsų naudojamoms parengimo politikoms. Nustatykite į *Ne* tam, kad pažymėtumėte parengimo politiką kaip neaktyvią jos nenaudodami. Įsidėmėkite, kad negali išjungti parengimo politikos, kuri yra priskirta inžinerijos produkto kategorijai ir galite panaikinti tik neaktyvias leidimo politikas. |
+| Produkto tipas | Pasirinkite, ar strategija taikoma produktams *Prekės* ar *Paslaugų* tipo. Negalite keisti šio nustatymo po to, kai įrašote įrašą. |
+| Aktyvios | Naudokite šią parinktį, kad padėtumėte išlaikyti savo pasirengimo strategijas. Nustatykite į *Taip* visom jūsų naudojamoms parengimo strategijoms. Nustatykite į *Ne* tam, kad pažymėtumėte parengimo strategiją kaip neaktyvią jos nenaudodami. Įsidėmėkite, kad negali išjungti parengimo strategijos, kuri yra priskirta inžinerijos produkto kategorijai ir galite panaikinti tik neaktyvias leidimo strategijas. |
 
 ### <a name="readiness-control-fasttab"></a>Parengimo valdymo „FastTab“
 
-Kiekvienam parengimo patikros tipui, kuris jūsų nuomone turi įtraukti politiką, įtraukite eilutę **Parengimo valdymo** „FastTab“. Naudokite tolesnius mygtukus Visi produktai „FastTab“ įrankių juostoje norėdami įtraukti ir pašalinti eilutes, kurių jums reikia:
+Kiekvienam parengimo patikros tipui, kuris jūsų nuomone turi įtraukti strategiją, įtraukite eilutę **Parengimo valdymo** „FastTab“. Naudokite tolesnius mygtukus Visi produktai „FastTab“ įrankių juostoje norėdami įtraukti ir pašalinti eilutes, kurių jums reikia:
 
-- **Įtraukti patikrą** – Įtraukite standartinę parengimo patikrą į poltiką. Jums pasirinkus šį mygtuką, **Įtraukti patikrą** teksto laukelis pasirodo. Dėl to, galite pasirinkti esamas patikras iš sąrašo.
+- **Įtraukti patikrą** – Įtraukite standartinę parengimo patikrą į strategiją. Jums pasirinkus šį mygtuką, **Įtraukti patikrą** teksto laukelis pasirodo. Dėl to, galite pasirinkti esamas patikras iš sąrašo.
 - **Įtraukite esantį klausimyną** – Įtraukti tuščią eilutę į tinklelį. Tuomet galite priskirti esantį klausimyną nustatydami laukelius tolesnėje lentelėje.
 - **Kopijuoti** – Įtraukite pasirinktos eilutės kopiją į tinklelį.
 - **Naikinti** – Panaikinkite pasirinktą eilutę iš tinklelio.

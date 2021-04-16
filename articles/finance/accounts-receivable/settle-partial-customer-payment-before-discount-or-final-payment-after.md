@@ -2,11 +2,9 @@
 title: Nustatyti dalinį mokėjimą prieš nuolaidos datą su galutiniu mokėjimu po nuolaidos datos
 description: Šiame straipsnyje aptariamas mokėjimų sudengimo pagal klientų sąskaitas faktūras poveikis. Scenarijumi dėmesys telkiamas ties poveikiu papildomai knygai, o ne didžiajai knygai.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87408e864ab8e6101fc908e744231f10d0d2e664
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dd10e0c6e426d95aa5e96c4b9b59a8a81017b540
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250559"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835152"
 ---
 # <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Nustatyti dalinį mokėjimą prieš nuolaidos datą su galutiniu mokėjimu po nuolaidos datos
 
@@ -48,7 +46,7 @@ Liepos 2 d. 4027 klientas atlieka dalinį 297,00 SF mokėjimą. Mokėjimui yra g
 
 Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas** apačioje. Jei lauko **Sudengtina suma** reikšmės nepakeisite į 297,00, rodomos lauko **Mokėjimo nuolaidos suma** reikšmės skirsis. Tačiau užregistravus mokėjimą bus taikoma 3,00 mokėjimo nuolaida, nes sudengimo funkcija automatiškai koreguoja lauko **Sudengtina suma** vertę.
 
-|                              |           |
+| Laukas                        | Reikšmė     |
 |------------------------------|-----------|
 | Mokėjimo nuolaidos data           | 2015-07-09 |
 | Mokėjimo nuolaidos suma         | 10,00     |
@@ -71,9 +69,9 @@ Arnas šį mokėjimą užregistruoja. SF balansas dabar yra 700,00. Galima matyt
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|----------|------------------|
 | Pasirinkta | Įprastas            | LFSF-10020 | 4027    | 2015-06-25 | 2015-07-25 | 10020   | 700,00                               | USD      | 700,00           |
 
-Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas** apačioje.
+Nuolaidos informacija rodoma puslapio **Sudengti atviras operacijas** apačioje.
 
-|                              |           |
+| Laukas                        | Reikšmė     |
 |------------------------------|-----------|
 | Mokėjimo nuolaidos data           | 2015-07-09 |
 | Mokėjimo nuolaidos suma         | 0,00      |
@@ -87,12 +85,12 @@ Jei Arnas pakeis lauko **Naudoti mokėjimo nuolaidą** reikšmę į **Visada**, 
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
 | Pasirinkta | Visada            | LFSF-10020 | 4027    | 2015-06-25 | 2015-07-25 | 10020   | 700,00                               |                                       | USD      | 693,00           |
 
-Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas** apačioje.
+Nuolaidos informacija rodoma puslapio **Sudengti atviras operacijas** apačioje.
 
-|                              |           |
+| Laukas                        | Reikšmė     |
 |------------------------------|-----------|
 | Mokėjimo nuolaidos data           | 2015-07-09 |
-| Mokėjimo nuolaidos suma         | 7,00      |
+| Mokėjimo nuolaidos suma         | 7.00      |
 | Naudokite mokėjimo nuolaidą            | Visada    |
 | Pritaikyta mokėjimo nuolaida          | 3,00      |
 | Taikytinos mokėjimo nuolaidos suma | 7,00      |
