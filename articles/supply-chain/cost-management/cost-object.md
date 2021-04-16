@@ -2,11 +2,9 @@
 title: Savikainos objektai
 description: Šiame straipsnyje pateikiama informacija apie savikainos objektus ir paaiškinama, kaip kaupiamos savikainos ir kiekiai. Savikainos objektas yra objektas, kuriam kaupiamos išlaidos ir kiekiai. Savikainos objekto objektas gali būti produktas arba produkto variantas, pvz., stiliaus ir spalvos variantai.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostOnhandItem
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ee7c170d5a330c0080931a67c1548eb0d3522bb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c0a8c39977dacd78afc3bec977501abaf8081dc7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232403"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839348"
 ---
 # <a name="cost-objects"></a>Savikainos objektai
 
@@ -55,8 +53,8 @@ Toliau pateikiamoje lentelėje parodyta, kas yra išlaidų objektas ir kas yra a
 
 ## <a name="accumulation-of-costs-and-quantities"></a>Išlaidų ir kiekių kaupimas
 -   Reikšmė **Vertės** lauke yra tolesnių reikšmių suma.
-    -   Fakt. išlaidų suma
-    -   Fin. išlaidų suma
+    -   Faktinių išlaidų suma
+    -   Finansinių išlaidų suma
     -   Koregavimai
 -   Reikšmė **Kiekio** lauke yra tolesnių reikšmių suma.
     -   Gauta

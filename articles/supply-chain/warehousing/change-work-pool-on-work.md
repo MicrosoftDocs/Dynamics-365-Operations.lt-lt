@@ -2,11 +2,9 @@
 title: Darbo telkinio keitimas
 description: Šiame skyriuje paaiškinama, kaip galite naudoti darbo telkinio keitimo mygtuką darbo elementams tam, kad pakeistumėte esančios užduoties darbo telkinį.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPool,WHSWorkTemplateTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 61b988cf2501812e940f726e02d8fc1bcee2c035
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cdd0a1b6d022c958e00a1ba8fa87a8715ff88ce5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233060"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808899"
 ---
 # <a name="change-work-pool-on-work"></a>Darbo telkinio keitimas
 
@@ -46,7 +44,7 @@ Prieš pradėdami nustatyti ar naudoti šią savybę, privalote įsitikinti, kad
 Darbo baseinai leidžia jums tvarkyti darbo elementus pagal tipą. Darbui su *Darbo baseino keitimu savo darbe* funkcija, privalote turėti mažiausiai du prieinamus darbo baseinus. Darbo baseinų peržiūrai ir įtraukimui, atlikite šiuos žingsnius.
 
 1. Eikite į **Sandėlio tvarkymas \> Sąranka \> Darbas \> Darbo baseinai**.
-1. Jei dirbate su demo duomenimis iš **USMF** bendrovės ir dirbsite vėliau su pavyzdiniu scenarijume šioje temoje, įtraukite du darbo baseinus, kurie turi šiuos nustatymus:
+1. Jei dirbate su demo duomenimis iš **USMF** bendrovės ir dirbsite vėliau su pavyzdiniu scenarijumi šioje temoje, įtraukite du darbo baseinus, kurie turi šiuos nustatymus:
 
     - Darbo baseinas 1:
 
@@ -62,13 +60,13 @@ Darbo baseinai leidžia jums tvarkyti darbo elementus pagal tipą. Darbui su *Da
 
 ### <a name="set-up-work-templates"></a>Nustatyti darbo šablonus
 
-Kiekvienam iš savo darbo šablonų galite nustatyti kokį norite nustatytąjį darbo baseiną. Kiekvienam atitinkamam šablonui, priskiriate darbo baseiną **Darbo baseino identifikavimo kodo** stulpelyje. Šiuo atveju, visi darbo elementai sukurti naudojant duotą šabloną automatiškai paveldės priskirtą darbo baseiną. Jei dirbate su demo duomenimis iš **USMF** bendrovės ir dirbsite vėliau su pavyzdiniu scenarijume šioje temoje, atlikite šiuos žingsnius.
+Kiekvienam iš savo darbo šablonų galite nustatyti kokį norite nustatytąjį darbo baseiną. Kiekvienam atitinkamam šablonui, priskiriate darbo baseiną **Darbo baseino identifikavimo kodo** stulpelyje. Šiuo atveju, visi darbo elementai sukurti naudojant duotą šabloną automatiškai paveldės priskirtą darbo baseiną. Jei dirbate su demo duomenimis iš **USMF** bendrovės ir dirbsite vėliau su pavyzdiniu scenarijumi šioje temoje, atlikite šiuos žingsnius.
 
 1. Eikite į **Sandėlio valdymas \> Sąranka \> Darbas \> Darbo šablonai**.
 1. Veiksmų juostoje pasirinkite **Redaguoti** tam, kad lange įjungtumėte redagavimo režimą.
 1. Redaguokite šabloną nustatydami šias vertes:
 
-    - **Darbo šablonas:** *62 Paėmima pakavimui*
+    - **Darbo šablonas:** *62 Paėmimas pakavimui*
     - **Darbo baseino identifikavimo kodas:** *Tinklo parduotuvė*
 
 1. Pasirinkite **Įrašyti**.
@@ -132,7 +130,7 @@ Kiekvienam iš savo darbo šablonų galite nustatyti kokį norite nustatytąjį 
 Galite naudoti **Darbo informacijos** puslapį tam, kad peržiūrėtumėte sukurtą darbą ir valdytumėte darbo baseiną.
 
 1. Pasirinkite **Sandėlio valdymas \> Darbas \> Darbo išsami informacija**.
-1. Pasirinkite darbo, kurį kątik sukūrėte, eilutę. **Užsakymo numerio** stulpelis rodys prekybos užsakymo numerį.
+1. Pasirinkite ką tik sukurto darbo eilutę. **Užsakymo numerio** stulpelis rodys prekybos užsakymo numerį.
 
     **Darbo baseino identifikavimo kodo** laukelis bus nustatytas į darbo baseino identifikavimo kodą, kuris buvo nustatytas darbo šablone.
 
@@ -141,11 +139,11 @@ Galite naudoti **Darbo informacijos** puslapį tam, kad peržiūrėtumėte sukur
 
 1. Tam, kad pakeistumėte darbo baseiną susietą su darbo identifikavimo kodu, veiksmų juostoje **Darbo** skirtuke pasirinkite **Keisti darbo baseino identifikavimo kodą**.
 1. **Keisti darbo baseiną** teksto laukelyje, **Parametrų** „FastTab“, **Darbo baseino identifikavimo kodo** laukelyje, pasirinkite *Skambučių centras*.
-1. Pasirinkite **OK** keitimo pritaikymui.
+1. Pasirinkite **Gerai** keitimo pritaikymui.
 1. Atkreipkite dėmesį, kad **Darbo baseino identifikavimo kodo** laukelis dabar buvo pakeistas į *Skambučio centrą*.
 
 > [!IMPORTANT]
-> Kai **Darbo baseino keitimo** laukelis pasirodo, **Darbo baseino identifikavimo kodo** laukelis gali būti paliktas tusčias iš anksto. Jei laukelis yra tuščias, kai pasirenkate **OK** keitimų pritaikymui, tuomet visai pašalinsite darbo baseiną iš darbo.
+> Kai **Darbo baseino keitimo** laukelis pasirodo, **Darbo baseino identifikavimo kodo** laukelis gali būti paliktas tuščias iš anksto. Jei laukelis yra tuščias, kai pasirenkate **Gerai** keitimų pritaikymui, tuomet visai pašalinsite darbo baseiną iš darbo.
 >
 > Kartu su darbo baseinų keitimu, galite naudoti šią procedūrą darbo baseino įtraukimui į bet kurį darbo elementą, kuris jo neturi arba darbo baseino pašalinimui iš bet kurio darbo elemento, kuris jį turi.
 

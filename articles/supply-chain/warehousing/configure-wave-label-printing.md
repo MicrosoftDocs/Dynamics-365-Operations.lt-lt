@@ -1,12 +1,10 @@
 ---
-title: Nustatykite ir naudokite bangos žymos spausdinimą
+title: Bangos žymos spausdinimas
 description: Šioje temoje aprašytas bangos žymos spausdinimas ir paaiškinta, kaip ją nustatyti.
 author: GarmMSFT
-manager: PJacobse
 ms.date: 05/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSDocumentRouting, WHSWaveTableListPage, WHSPostMethod, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelType, WHSWaveLabelTemplateGroup, WHSDocumentRoutingLayout
 audience: Application User
@@ -15,20 +13,20 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: a08f10c1f5c3ff5b9023f37614c4e113b3a6b30d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fe04b841dbb3bb237de53f74d73f2b3f9162ae6b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211771"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840442"
 ---
-# <a name="set-up-and-use-wave-label-printing"></a>Nustatykite ir naudokite bangos žymos spausdinimą
+# <a name="wave-label-printing"></a>Bangos žymos spausdinimas
 
 [!include [banner](../includes/banner.md)]
 
 Bangos žymos spausdinimas siūlo alternatyvią prieigą prie žymos spausdinimo įtraukiant naują bangos žingsnio metodą, leidžiantį jums sukurti ir spausdinti žymos tiesiogiai iš bango šablono bangos vykdymo metu. Dėl to, žymės visuomet bus prieinamos prieš tai, kai darbuotojai vykdys darbo užsakymą mobiliame prietaise. Darbuotojai gali įtraukti reikiamas žymes paėmimo metu, o ne po jo.
 
-Bangos žymos spausdinimas naudoja „Zebra Programming Language“ (ZPL) žymos maketo kūrimui. Žymos maketas yra padalintas į tris skyrius (antraštė, vidurye ir poraštė) ir leidžia kurti pasikartojančią struktūra turinčias žymes. Bangos žymos šablonai sako sistemai, kurią žymos maketą reikia naudoti. Vartotojai gali nurodyti, kurį spausdintuvą naudoti. Jie taip pat gali atspausdinti žymes keliuose spausdintuvuose tuo pačiu metu, jei to reikia. **Bangos žymos istorijos** puslapis rodo žymių, kurios buvo sukurtos naudojant šį nustatymą, įrašą.
+Bangos žymos spausdinimas naudoja „Zebra Programming Language“ (ZPL) žymos maketo kūrimui. Žymos maketas yra padalintas į tris skyrius (antraštė, pagrindinis tekstas ir poraštė) ir leidžia kurti pasikartojančią struktūra turinčias žymes. Bangos žymos šablonai sako sistemai, kurią žymos maketą reikia naudoti. Vartotojai gali nurodyti, kurį spausdintuvą naudoti. Jie taip pat gali atspausdinti žymes keliuose spausdintuvuose tuo pačiu metu, jei to reikia. **Bangos žymos istorijos** puslapis rodo žymių, kurios buvo sukurtos naudojant šį nustatymą, įrašą.
 
 Galite atspausdinti ir palyginti žymes pagal darbo antraštes, nes galite atspausdinti padalintas žymes pagal darbo antraštes ir atspausdinti talpyklos turinio žymes, dėžės žymes ir kitas panašias žymes.
 
@@ -40,18 +38,18 @@ Bangos žymos spausdinimas siūlo šiuo pagerinimus:
 - Spausdinkite žymos pagal dėžių numerį vienoje darbo linijoje nenaudojant talpinimo į talpyklas. („dėžė“ yra objektas sukurtas objekto sekos grupės linijose.)
 - Atspausdinkite keletą skirtingų žymių sekų (pavyzdžiui, dėžės ir padėklo žymes).
 - Įtraukite žymos numeravimą (pavyzdžiui, 1/124, 2/124, ... 124/124) ir nustatykite numeravimo intervalą (pavyzdžiui, darbo liniją, apkrovos liniją ar siuntimą).
-- Sukurkite ir atspausdinkite važtarščio identifikavimo numerį žymėse prieš važtaraščio sugeneravimą.
-- Sukurkite unikalų serijinį siuntimo talpyklos kodą (SSCC) kiekvienai dėžėi ir įtraukite jį į kiekvieną žymę.
-- Sukurkite GS1-atitinkančias numerio sekas važtaraščio identifikavimo kodamas ir SSCC kodams.
+- Sukurkite ir atspausdinkite važtaraščio identifikavimo numerį žymėse prieš važtaraščio sugeneravimą.
+- Sukurkite unikalų serijinį siuntimo talpyklos kodą (SSCC) kiekvienai dėžei ir įtraukite jį į kiekvieną žymę.
+- Sukurkite GS1-atitinkančias numerio sekas važtaraščio identifikavimo kodams ir SSCC kodams.
 - Etikečių naujas spausdinimas mobiliame prietaise ir praturtintame kliente.
 - Panaikinkite žymes (pavyzdžiui, trumpo paėmimo scenarijuose) ir spausdinkite juos dar kartą.
 - Išvalykite bangos žymės istoriją.
-- Dokumento maršruto pagerinimais yra dalijimasi tarp dokumento maršruto maketų ir bangos žymos maketų. (Dėl išsamesnės informacijos, žr. [Dokumento maršruto maketas licencijų numeriams](../warehousing/document-routing-layout-for-license-plates.md).)
+- Dokumento maršruto pagerinimais yra dalijimąsi tarp dokumento maršruto maketų ir bangos žymos maketų. (Dėl išsamesnės informacijos, žr. [Dokumento maršruto maketas licencijų numeriams](../warehousing/document-routing-layout-for-license-plates.md).)
 
 Šie pagerinimai padaro žymos dėžes efektyvesnes prieš sudėjimą ant padėklų. Jie ypač pasitarnauja bendrovėms siunčiančioms dideliems prekybininkams, kurie automatiškai patvirtina užsakymo kvitą nuskaitydami kiekvieną dėžę atskirai.
 
 > [!NOTE]
-> Galite įgyvendinti konfigūraciją scenarijams, kurie aprašyti šiame skyriuje atskirai ar kartu, priklausomai nuo verslo reikalavimų. Galite suprojektuoti keletą bangos žymos šablonų, kurie dirba sekoje (kaip parodyta scenarijuje 3). Pavyzdžiui, galite naudoti scenarijų 1 tam, kad atspausdintumėte dėžės žymes ir scnearijų 2, kad atspausdintumėte padėklo žymes (jei padėklai sandėlyje skiriasi dydžiu ir sudėtimi).
+> Galite įgyvendinti konfigūraciją scenarijams, kurie aprašyti šiame skyriuje atskirai ar kartu, priklausomai nuo verslo reikalavimų. Galite suprojektuoti keletą bangos žymos šablonų, kurie dirba sekoje (kaip parodyta scenarijuje 3). Pavyzdžiui, galite naudoti scenarijų 1 tam, kad atspausdintumėte dėžės žymes ir scenarijų 2, kad atspausdintumėte padėklo žymes (jei padėklai sandėlyje skiriasi dydžiu ir struktūra).
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>Įjunkite bangos žymos spausdinimo savybę
 
@@ -75,7 +73,7 @@ Prieš naudodami šią funkciją, *Bangos žymos spausdinimas* savybę, ji turi 
 Jums gali reikėti iš naujo sukurti bangos proceso metodus tam, kad padarytumėte prieinamą bangos etiketės spausdinimo metodą.
 
 1. Eikite į **Sandėlio tvarkymas \> Sąranka \> Bangos \> Bangos apdorojimo metodai**.
-1. Patvirinkite, kad **bangos žymos spausdinimas** yra sąraše. Jei jo nėra, pasirinkite **Iš naujo kurti metodu** veiksmų juostoje ir juos įtraukite.
+1. Patvirtinkite, kad **bangos žymos spausdinimas** yra sąraše. Jei jo nėra, pasirinkite **Iš naujo kurti metodu** veiksmų juostoje ir juos įtraukite.
 
 ### <a name="configure-a-wave-template"></a>Sukonfigūruokite bangos šabloną
 
@@ -118,7 +116,7 @@ Bangos šablonas leidžia jums susieti konkrečius bangų metodų atvejus pagal 
         Šis laukelis parodo eilučių skaičių, kuris gali būti atspausdintas kiekvienoje žymėje.
 
         > [!NOTE]
-        > Šis nustatymas nulems, kad atskira ZPL žymė bus spausdinima kiekvienam įrašui bangos žymių lentelėje.
+        > Šis nustatymas nulems, kad atskira ZPL žymė bus spausdinama kiekvienam įrašui bangos žymių lentelėje.
 
 1. Uždarykite puslapį.
 1. Veiksmų srityje pasirinkite **Redaguoti užklausą**.
@@ -133,7 +131,7 @@ Bangos šablonas leidžia jums susieti konkrečius bangų metodų atvejus pagal 
 
 1. Jei norite galėti atspausdinti važtaraščio identifikavimo kodą **Sujungimai** skirtuke, pasirinkite **Darbo linijų** lentelę ir prijunkite prie jo **Siuntimai** lentelę.
 1. Uždarykite užklausos tvarkylės teksto laukelį.
-1. **Spausdintuvo teksto maketas** „FastTab“ turi tris skyrius, kuriuose galite rašyti spausdintuvo kodą: **Antraštės skyrius**, **Vidurinės dalies skyrius** ir **Poraštės skyrius**. **Antraštės skyrius** skyriuje, **Žymos antraštė** laukelyje įveskite ZPL kodą būtinai antraštei. Pavyzdžiui, jei naudojate „Zebra“ spaudintuvus, galite naudoti šį kodą.
+1. **Spausdintuvo teksto maketas** „FastTab“ turi tris skyrius, kuriuose galite rašyti spausdintuvo kodą: **Antraštės skyrius**, **Vidurinės dalies skyrius** ir **Poraštės skyrius**. Skyriaus **Antraštės skyrius** laukelyje **Žymos antraštė** įveskite kodą reikiamai antraštei. Pavyzdžiui, jei naudojate „Zebra“ spausdintuvus, galite naudoti šį kodą.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -203,11 +201,11 @@ Bangos šablonas leidžia jums susieti konkrečius bangų metodų atvejus pagal 
 
 Jūsų žymė dabar paruošta naudojimui.
 
-### <a name="create-a-wave-label-type"></a>Sukurkite bangos žymostipą
+### <a name="create-a-wave-label-type"></a>Sukurkite bangos žymos tipą
 
-bangos žymostipai naudojami susieti bangos žymosšablonus su padalinio esančio jo sekos grupės linijose.
+Bangos žymos tipai naudojami susieti bangos žymos šablonus su padaliniu sekų grupės eilutėse.
 
-1. Eikite į **Sandėlio tvarkymas \> Sąranka \> Dokumento maršrutas \> bangos žymostipai**.
+1. Eikite į **Sandėlio tvarkymas \> Sąranka \> Dokumento maršrutas \> Bangos žymos tipai**.
 1. Įtraukite bangos etiketės tipą, kuris turi šiuos nustatymus:
 
     - **Žymos tipas:** *Dėžė*
@@ -215,17 +213,17 @@ bangos žymostipai naudojami susieti bangos žymosšablonus su padalinio esanči
 
 ### <a name="set-up-unit-sequence-groups"></a>Nustatyti vienetų sekų grupes
 
-Po to, nustatykite objekto sekos grupę bangos žymostipui.
+Po to, nustatykite objekto sekos grupę bangos žymos tipui.
 
 1. Eikite į **Sandėlio tvarkymas \> Sąranka \> Sandėlis \> Padalinio sekos grupės**.
-1. Pasirinkite **Ea Box PL** grupę.
+1. Pasirinkite **Vieneto dėžutės PL** grupę.
 1. **Dėžutė** linijoje nustatykite **Bangos lygio tipas** laukelį į *Dėžė*.
 
-### <a name="create-a-wave-label-template"></a>Sukurkite bangos žymosšabloną
+### <a name="create-a-wave-label-template"></a>Sukurkite bangos žymos šabloną
 
-Po to, sukurkite bangos žymosšabloną bangos žymostipui.
+Po to, sukurkite bangos žymos šabloną bangos žymos tipui.
 
-1. Eikite į **Sandėlio tvarkymas \> Sąranka \> Dokumento maršrutas \> bangos žymosšablonai**.
+1. Eikite į **Sandėlio tvarkymas \> Sąranka \> Dokumento maršrutas \> Bangos žymos šablonai**.
 1. Įtraukite bangos lygio šabloną ir nustatykite šias vertes antraštėje:
 
     - **Žymos šablono pavadinimas:** *Dėžių žymės*
@@ -233,8 +231,8 @@ Po to, sukurkite bangos žymosšabloną bangos žymostipui.
     - **Bangos žingsnio kodas:** *PrintLabel*
     - **Sandėlis:** *62*
 
-1. **Bendra** „FastTab“, nustatykite **bangos žymostipas** laukelį į *Dėžė*.
-1. **bangos žymosšablono informacijoje** „FastTab“, įtraukite naują eilutę turinčią šiuos nustatymus:
+1. **Bendra** „FastTab“ nustatykite **Bangos žymos tipas** laukelį į *Dėžė*.
+1. „FastTab“ **Bangos žymos šablono informacija** įtraukite naują eilutę, turinčią šiuos nustatymus:
 
     - **Žymos maketo identifikavimo numeris:** *Dėžė*
     - **Spausdintuvo pavadinimas:** Pasirinkite tinkamą ZPL spausdintuvą.
@@ -248,7 +246,7 @@ Po to, sukurkite bangos žymosšabloną bangos žymostipui.
     - **Laukelis:** *Paskyros numeris*
     - **Kriterijai:** Įveskite reikiamą kliento paskyros numerį.
 
-    Kai baigsite, pasirinkite **OK** užklausos tvarkyklės teksto langui uždaryti.
+    Kai baigsite, pasirinkite **Gerai** užklausos tvarkyklės teksto langui uždaryti.
 
 1. Veiksmų juostoje pasirinkite **Redaguoti užklausą** tam, kad atvertumėte užklausos tvarkyklės teksto laukelį visam žymos šablonui.
 1. Užklausos tvarkyklės teksto laukelyje, **Rūšiavimas** skirtuke įtraukite eilutę su šiais nustatymais:
@@ -258,13 +256,13 @@ Po to, sukurkite bangos žymosšabloną bangos žymostipui.
     - **Laukelis:** *Nuorodos krovimo linijos identifikavimo numeris (Record-ID)*
     - **Paieškos kryptis:** *Didėjanti*
 
-1. Pasirinkite **OK** užklausos tvarkyklės teksto langui uždaryti.
-1. Pranšimo laukelis paskatins jus patvirtinti grupavimo perkrovimo veiksmą. Pasirinkite **taip** tam, kad tęstumėte.
+1. Pasirinkite **Gerai** užklausos tvarkyklės teksto langui uždaryti.
+1. Pranešimo laukelis paskatins jus patvirtinti grupavimo perkrovimo veiksmą. Pasirinkite **taip** tam, kad tęstumėte.
 1. Veiksmų juostoje pasirinkite **bangos žymos šablono grupė**.
 1. **bangos žymos šablono grupės** teksto laukelyje, pasirinkite eilutę, kurioje **Nuorodos laukelio pavadinimas** laukelis nustatytas į *Nuorodos krovimo linijos identifikavimo kodas* ir tuomet pasirinkite **Žymos kūrėjo identifikavimo kodas** žymimą laukelį šioje eilutėje.
 
     > [!NOTE]
-    > Šie nustatyimai sukurs vieną žymos seką („Dėžė 1 X“) vienai krovimo linijai bangoje nepriklausomai nuo darbo grupės nustatymų. Ši žymės seka gali būti atspausdinta žymos makete.
+    > Šie nustatymai sukurs vieną žymos seką („Dėžė 1 X“) vienai krovimo linijai bangoje nepriklausomai nuo darbo grupės nustatymų. Ši žymės seka gali būti atspausdinta žymos makete.
 
 ### <a name="configure-number-sequence-extensions"></a>Konfigūruokite numerio sekos plėtinius
 
@@ -300,11 +298,11 @@ Numerio sekos plėtiniai valdo GS1 atitiktį su specifinėmis numerio sekomis. K
 1. Pakartokite 4 ir 5 žingsnius kiekvienai prekybos užsakymo eilutei 2.
 1. Veiksmų srities skirtuke **Sandėlis** pasirinkite **Išleisti į sandėlį**.
 
-    Atistinka šis įvykis:
+    Atsitinka šis įvykis:
 
     - Sistema apdoroja sukurtą siuntimą naudodama šabloną apimantį žymos spausdinimo žingsnį. Žymos maketas bus naudojamas nustatant žymos formatą ir galutinis rezultatas bus žymė turinti penkias eilutes ir ji yra atspausdinta spausdintuve pasirinktame žymos šablone.
     - Bangos žymės yra sukuriamos ir atspausdinamos. Žymių skaičius bus lygus dėžių skaičiui (šiame pavyzdyje, 376 dėžės linijai 1 ir 322 dėžės linijai 2).
-    - Naujas važtaraščio identifikavimo kodas sukuriamas siuntimams. Jei sukonfigūravote numerio sekos plėtinius, bangos žymos identifikavimo kodas seks **SSCC-18** numerio formatą. 
+    - Naujas važtaraščio identifikavimo kodas yra sukuriamas siuntoms Jei sukonfigūravote numerio sekos plėtinius, bangos žymos identifikavimo kodas seks **SSCC-18** numerio formatą. 
 
 Galite peržiūrėti ir iš naujo atspausdinti bangos žymes tolesniuose puslapiuose. Veiksmų juostoje kiekviename puslapyje, **Siuntimai** skirtuke, **Susijusi informacija** grupėje, pasirinkite **Bangos žymės**.
 
@@ -323,7 +321,7 @@ Galite peržiūrėti ir iš naujo atspausdinti bangos žymes tolesniuose puslapi
 - **Bangos žymos šablonai:** Nepasirinksite bangos žymos tipo bangos žymos šablone ir jums nereikės žymos kūrimo grupavimo. Kitu atveju, jūs konfigūruosite bangos žymos šabloną ir susiesite bangos šabloną tokiu pačiu būdu aprašytu scenarijuje 1. Privalote palikti bangos žymos tipą tuščią, kad apsaugotumėte bangos žymą nuo sukūrimo.
 - **Bangos žymos maketai** Sukonfigūruosite bangos žymos maketo eilutės nustatymus darbo linijai vietoje bangos žymos įrašų. Privalote sukonfigūruoti eilutės nustatymus žymos maketui naudodami **WHSWorkLine** lentelę vietoje **WHSWaveLabel** lentelės. **Eilutės puslapyje** nustatymai kontroliuoja eilutės numerius, kuriuos turi vidurinė sritis. 
 
-Šis konfigiūravimas taip pat tinkamas verslo scenarijams, kai daugelis skirtingų objektų yra supakuojami į vieną žymos dėžę ar į padėklą ir toks pakavimo procesas gali būti nustatytas sukuriant darbą (pavyzdžiui, darbą sugrupuotą siuntimo).
+Šis konfigūravimas taip pat tinkamas verslo scenarijams, kai daugelis skirtingų objektų yra supakuojami į vieną žymos dėžę ar į padėklą ir toks pakavimo procesas gali būti nustatytas sukuriant darbą (pavyzdžiui, darbą sugrupuotą siuntimo).
 
 Šis scenarijus parodo srautą nuo pradžios iki galo.
 
@@ -336,7 +334,7 @@ Galite peržiūrėti ir iš naujo atspausdinti bangos žymes tolesniuose puslapi
 Jums gali reikėti iš naujo sukurti bangos proceso metodus tam, kad padarytumėte prieinamą bangos etiketės spausdinimo metodą.
 
 1. Eikite į **Sandėlio tvarkymas \> Sąranka \> Bangos \> Bangos apdorojimo metodai**.
-1. Patvirinkite, kad **bangos žymos spausdinimas** yra sąraše. Jei jo nėra, pasirinkite **Iš naujo kurti metodu** veiksmų juostoje ir juos įtraukite.
+1. Patvirtinkite, kad **bangos žymos spausdinimas** yra sąraše. Jei jo nėra, pasirinkite **Iš naujo kurti metodu** veiksmų juostoje ir juos įtraukite.
 
 ### <a name="set-up-a-wave-template"></a>Bangos šablono nustatymas
 
@@ -344,10 +342,10 @@ Bangos šablonas leidžia jums susieti konkrečius bangų metodų atvejus pagal 
 
 1. Eikite į **Sandėlio valdymas \> Nustatymas \> Bangos \> Bangų šablonai**.
 1. Pasirinkite šabloną, tokį kaip **63 talpinimas į talpyklas**.
-1. **Metodai** „FastTab“, patraukite **bangos žymosspausdinimo** metodą į **Pasirinkti metodai** stulpelį.
-1. **Pasirinkti metodai** stulpelyje, pasirinkite **bangos žymosspausdinimo** metodą ir nustatykite jo **Bangos žingsnio kodo** laukelį į *Spausdinti žymę*. Dėl išsamesnės informacijos apie bangos žingsnio kodus, žr. [Bangos žingsnio kodai](wave-step-codes.md).
+1. „FastTab“ **Metodai** patraukite **Bangos žymos spausdinimo** metodą į **Pasirinkti metodai** stulpelį.
+1. **Pasirinkti metodai** stulpelyje pasirinkite **Bangos žymos spausdinimo** metodą ir nustatykite jo **Bangos žingsnio kodo** laukelį į *Spausdinti žymę*. Dėl išsamesnės informacijos apie bangos žingsnio kodus, žr. [Bangos žingsnio kodai](wave-step-codes.md).
 
-### <a name="create-a-wave-label-layout"></a>Sukurkite bangos žymosmaketą
+### <a name="create-a-wave-label-layout"></a>Sukurkite bangos žymos maketą
 
 1. Eikite į **Sandėlio tvarkymas \> Sąranka \> Dokumento maršrutas \> bangos žymos maketai**.
 1. Sukurkite įrašą, kuris turi šiuos nustatymus:
@@ -356,9 +354,9 @@ Bangos šablonas leidžia jums susieti konkrečius bangų metodų atvejus pagal 
     - **Aprašas:** *Dėžė (SSCC)*
 
 1. Veiksmų srityje pasirinkite **Įrašyti**.
-1. Veiksmų juostoje pasirinkite **bangos žymoseilutės nustatymai**.
+1. Veiksmų juostoje pasirinkite **Bangos žymos eilutės nustatymai**.
 
-    Pasirodo **bangos žymoseilutės nustatymai** langas. Čia galite sukonfigūruoti dinaminę žymos dalį.
+    Pasirodo **Bangos žymos eilutės nustatymai** langas. Čia galite sukonfigūruoti dinaminę žymos dalį.
 
 1. Įtraukite eilutę, kuri turi šiuos nustatymus:
 
@@ -368,7 +366,7 @@ Bangos šablonas leidžia jums susieti konkrečius bangų metodų atvejus pagal 
 
         Šis laukelis apibrėžia vertikalią padėtį, kurioje eilutė prasideda žymėje.
 
-    - **Eilutės aukštis:** *50*
+    - **Eilutės aukštis:** *-50*
 
         Šis laukelis nulemia kiekvienos eilutės aukštį. Eilutės aukštis yra teigiamas horizontalioms žymėms ir neigiamas vertikalioms.
 
@@ -390,7 +388,7 @@ Bangos šablonas leidžia jums susieti konkrečius bangų metodų atvejus pagal 
 
 1. Jei norite galėti atspausdinti važtaraščio identifikavimo kodą **Sujungimai** skirtuke, pasirinkite **Darbo linijų** lentelę ir prijunkite prie jo **Siuntimai** lentelę.
 1. Uždarykite užklausos tvarkylės teksto laukelį.
-1. **Spausdintuvo teksto maketas** „FastTab“ turi tris skyrius, kuriuose galite rašyti spausdintuvo kodą: **Antraštės skyrius**, **Vidurinės dalies skyrius** ir **Poraštės skyrius**. **Antraštės skyrius** skyriuje, **Žymos antraštė** laukelyje įveskite ZPL kodą būtinai antraštei. Pavyzdžiui, jei naudojate „Zebra“ spaudintuvus, galite naudoti šį kodą.
+1. **Spausdintuvo teksto maketas** „FastTab“ turi tris skyrius, kuriuose galite rašyti spausdintuvo kodą: **Antraštės skyrius**, **Vidurinės dalies skyrius** ir **Poraštės skyrius**. Skyriaus **Antraštės skyrius** laukelyje **Žymos antraštė** įveskite kodą reikiamai antraštei. Pavyzdžiui, jei naudojate „Zebra“ spausdintuvus, galite naudoti šį kodą.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -426,9 +424,9 @@ Bangos šablonas leidžia jums susieti konkrečius bangų metodų atvejus pagal 
 
 Jūsų žymė dabar paruošta naudojimui.
 
-### <a name="create-a-wave-label-template"></a>Sukurkite bangos žymosšabloną
+### <a name="create-a-wave-label-template"></a>Sukurkite bangos žymos šabloną
 
-1. Eikite į **Sandėlio tvarkymas \> Sąranka \> Dokumento maršrutas \> bangos žymosšablonai**.
+1. Eikite į **Sandėlio tvarkymas \> Sąranka \> Dokumento maršrutas \> Bangos žymos šablonai**.
 1. Įtraukite bangos lygio šabloną ir nustatykite šias vertes antraštėje:
 
     - **Žymos šablono pavadinimas:** *Talpyklų žymės*
@@ -450,7 +448,7 @@ Jūsų žymė dabar paruošta naudojimui.
     - **Laukelis:** *Paskyros numeris*
     - **Kriterijai:** Įveskite reikiamą kliento paskyros numerį.
 
-    Kai baigsite, pasirinkite **OK** užklausos tvarkyklės teksto langui uždaryti.
+    Kai baigsite, pasirinkite **Gerai** užklausos tvarkyklės teksto langui uždaryti.
 
 ### <a name="configure-number-sequence-extensions"></a>Konfigūruokite numerio sekos plėtinius
 
@@ -499,10 +497,10 @@ Numerio sekos plėtiniai valdo GS1 atitiktį su specifinėmis numerio sekomis. K
 1. Pakartokite 4 ir 5 žingsnius kiekvienai prekybos užsakymo eilutei.
 1. Veiksmų srities skirtuke **Sandėlis** pasirinkite **Išleisti į sandėlį**.
 
-    Atistinka šis įvykis:
+    Atsitinka šis įvykis:
 
     - Sistema apdoroja sukurtą siuntimą naudodama šabloną apimantį žymos spausdinimo žingsnį. Žymos maketas bus naudojamas nustatant žymos formatą ir galutinis rezultatas bus žymė turinti penkias eilutes ir ji yra atspausdinta spausdintuve pasirinktame žymos šablone.
-    - Naujas važtaraščio identifikavimo kodas sukuriamas siuntimams. Jei sukonfigūravote numerio sekos plėtinius, bangos žymos identifikavimo kodas seks **SSCC-18** numerio formatą. 
+    - Naujas važtaraščio identifikavimo kodas yra sukuriamas siuntoms. Jei sukonfigūravote numerio sekos plėtinius, bangos žymos identifikavimo kodas seks **SSCC-18** numerio formatą. 
 
 Galite atspausdinti iš naujo šias bangos žymes eidami į **Sandėlio valdymas \> Užklausos ir atsakymai \> Bangos žymos istorija**.
 
@@ -513,7 +511,7 @@ Galite atspausdinti iš naujo šias bangos žymes eidami į **Sandėlio valdymas
 Pagrindinis skirtumas tarp šio scenarijaus konfigūravimo ir scenarijus 1 konfigūravimo, kartu su tuo, kad tarpo žymės yra įjungtos, yra tas, kad daugelis bangos žymių tipų turi būti susieti su bangos žymos šablonais ir padalinio sekos grupės linijomis. Konfigūravimo užbaigimui, nustatykite toliau apteiktus elementus šiame scenarijui:
 
 - **Bangos apdorojimo metodai:** Pažymėsite bangos žymos metodą kaip „pasikartojantį“, įtrauksite jį du (ar daugiau) laikų bangos šablone ir nustatysite skirtingus bangos žingsnio kodus.
-- **Bangos žymos šablonai:** Sukonfigūruosite bangos žymos šablonus ir susiesite juos su bangos šablonu. Kiekvienas bangos žymos šablonas turi savo bangos žymostipą.
+- **Bangos žymos šablonai:** Sukonfigūruosite bangos žymos šablonus ir susiesite juos su bangos šablonu. Kiekvienas bangos žymos šablonas turi savo bangos žymos tipą.
 - **Bangos žymos maketai:** Sukursite keletą bangos žymos maketų. Bus atskiras žymos maketas kiekvienai žymos kainai ir taip pat bus atstumo žymos maketas.
 
 Šis scenarijus parodo srautą nuo pradžios iki galo.
@@ -525,14 +523,14 @@ Pagrindinis skirtumas tarp šio scenarijaus konfigūravimo ir scenarijus 1 konfi
 ### <a name="set-up-a-wave-process-method"></a>Nustatykite bangos proceso metodą
 
 1. Eikite į **Sandėlio tvarkymas \> Sąranka \> Bangos \> Bangos apdorojimo metodai**.
-1. Patvirinkite, kad **bangos žymos spausdinimas** yra sąraše. Jei jo nėra, pasirinkite **Iš naujo kurti metodu** veiksmų juostoje ir juos įtraukite.
+1. Patvirtinkite, kad **bangos žymos spausdinimas** yra sąraše. Jei jo nėra, pasirinkite **Iš naujo kurti metodu** veiksmų juostoje ir juos įtraukite.
 1. **Bangos žymos spausdinimo** metodui pasirinkite **Padaryti metodą pasikartojantį** žymimą laukelį.
 
 ### <a name="set-up-a-wave-template"></a>Bangos šablono nustatymas
 
 1. Eikite į **Sandėlio valdymas \> Nustatymas \> Bangos \> Bangų šablonai**.
 2. Pasirinkite šabloną, tokį kaip **62 siuntimo nustatytąjį**.
-3. **Metodai** „FastTab“, patraukite **bangos žymosspausdinimo** metodą į **Pasirinkti metodai** stulpelį.
+3. „FastTab“ **Metodai** patraukite **Bangos žymos spausdinimo** metodą į **Pasirinkti metodai** stulpelį.
 4. **Pasirinkti metodai** stulpelyje priskirkite **Bangos žingsnio kodo** vertę, tokią kaip *Dėžė* prie **Bangos žymos spausdinimo** metodo. Dėl išsamesnės informacijos apie bangos žingsnio kodus, žr. [Bangos žingsnio kodai](wave-step-codes.md).
 5. Patraukite **Bangos žymos spausdinimo** metodą į **Pasirinkti metodai** stulpelį antrą kartą.
 6. **Pasirinkti metodai** stulpelyje priskirkite kitą **Bangos žingsnio kodo** vertę, tokią kaip *Padėklas* prie antrojo **Bangos žymos spausdinimo** metodo. Dėl išsamesnės informacijos apie bangos žingsnio kodus, žr. [Bangos žingsnio kodai](wave-step-codes.md).
@@ -546,9 +544,9 @@ Pagrindinis skirtumas tarp šio scenarijaus konfigūravimo ir scenarijus 1 konfi
     - **Aprašas:** *Dėžė (SSCC)*
 
 1. Veiksmų srityje pasirinkite **Įrašyti**.
-1. Veiksmų juostoje pasirinkite **bangos žymoseilutės nustatymai**.
+1. Veiksmų juostoje pasirinkite **bangos žymos eilutės nustatymai**.
 
-    Pasirodo **bangos žymoseilutės nustatymai** langas. Čia galite sukonfigūruoti dinaminę žymos dalį.
+    Pasirodo **Bangos žymos eilutės nustatymai** langas. Čia galite sukonfigūruoti dinaminę žymos dalį.
 
 1. Įtraukite eilutę, kuri turi šiuos nustatymus:
 
@@ -567,7 +565,7 @@ Pagrindinis skirtumas tarp šio scenarijaus konfigūravimo ir scenarijus 1 konfi
         Šis laukelis parodo eilučių skaičių, kuris gali būti atspausdintas kiekvienoje žymėje.
 
         > [!NOTE]
-        > Šis nustatymas nulems, kad atskira ZPL žymė bus spausdinima kiekvienam įrašui bangos žymių lentelėje.
+        > Šis nustatymas nulems, kad atskira ZPL žymė bus spausdinama kiekvienam įrašui bangos žymių lentelėje.
 
 1. Uždarykite puslapį.
 1. Veiksmų srityje pasirinkite **Redaguoti užklausą**.
@@ -582,7 +580,7 @@ Pagrindinis skirtumas tarp šio scenarijaus konfigūravimo ir scenarijus 1 konfi
 
 1. Jei norite galėti atspausdinti važtaraščio identifikavimo kodą **Sujungimai** skirtuke, pasirinkite **Darbo linijų** lentelę ir prijunkite prie jo **Siuntimai** lentelę. 
 1. Uždarykite užklausos tvarkylės teksto laukelį.
-1. **Spausdintuvo teksto maketas** „FastTab“ turi tris skyrius, kuriuose galite rašyti spausdintuvo kodą: **Antraštės skyrius**, **Vidurinės dalies skyrius** ir **Poraštės skyrius**. **Antraštės skyrius** skyriuje, **Žymos antraštė** laukelyje įveskite ZPL kodą būtinai antraštei. Pavyzdžiui, jei naudojate „Zebra“ spaudintuvus, galite naudoti šį kodą.
+1. **Spausdintuvo teksto maketas** „FastTab“ turi tris skyrius, kuriuose galite rašyti spausdintuvo kodą: **Antraštės skyrius**, **Vidurinės dalies skyrius** ir **Poraštės skyrius**. Skyriaus **Antraštės skyrius** laukelyje **Žymos antraštė** laukelyje įveskite kodą reikiamai antraštei. Pavyzdžiui, jei naudojate „Zebra“ spausdintuvus, galite naudoti šį kodą.
 
 
     ```plaintext
@@ -654,13 +652,13 @@ Pagrindinis skirtumas tarp šio scenarijaus konfigūravimo ir scenarijus 1 konfi
 1. Pirmoji žymė dabar paruošta naudojimui.
 1. Sukurkite antrą maketo įrašą, kuris turi šiuos nustatymus:
 
-    - **Žymėas maketo identifikavimo numeris:** *Padėklas*
+    - **Žymės maketo identifikavimo numeris:** *Padėklas*
     - **Aprašas:** *Padėklas*
 
 1. Veiksmų srityje pasirinkite **Įrašyti**.
-1. Veiksmų juostoje pasirinkite **bangos žymoseilutės nustatymai**.
+1. Veiksmų juostoje pasirinkite **Bangos žymos eilutės nustatymai**.
 
-    Pasirodo **bangos žymoseilutės nustatymai** langas. Čia galite sukonfigūruoti dinaminę žymos dalį.
+    Pasirodo **Bangos žymos eilutės nustatymai** langas. Čia galite sukonfigūruoti dinaminę žymos dalį.
 
 1. Įtraukite eilutę, kuri turi šiuos nustatymus:
 
@@ -679,7 +677,7 @@ Pagrindinis skirtumas tarp šio scenarijaus konfigūravimo ir scenarijus 1 konfi
         Šis laukelis parodo eilučių skaičių, kuris gali būti atspausdintas kiekvienoje žymėje.
 
         > [!NOTE]
-        > Šis nustatymas nulemia, kad atskira ZPL žymė bus spausdinima kiekvienam įrašui bangos žymių lentelėje.
+        > Šis nustatymas nulemia, kad atskira ZPL žymė bus spausdinama kiekvienam įrašui bangos žymių lentelėje.
 
 1. Uždarykite puslapį.
 1. Veiksmų srityje pasirinkite **Redaguoti užklausą**.
@@ -694,7 +692,7 @@ Pagrindinis skirtumas tarp šio scenarijaus konfigūravimo ir scenarijus 1 konfi
 
 1. Jei norite galėti atspausdinti važtaraščio identifikavimo kodą **Sujungimai** skirtuke, pasirinkite **Darbo linijų** lentelę ir prijunkite prie jo **Siuntimai** lentelę.
 1. Uždarykite užklausos tvarkylės teksto laukelį.
-1. **Spausdintuvo teksto maketas** „FastTab“ turi tris skyrius, kuriuose galite rašyti spausdintuvo kodą: **Antraštės skyrius**, **Vidurinės dalies skyrius** ir **Poraštės skyrius**. **Antraštės skyrius** skyriuje, **Žymos antraštė** laukelyje įveskite ZPL kodą būtinai antraštei. Pavyzdžiui, jei naudojate „Zebra“ spaudintuvus, galite naudoti šį kodą.
+1. **Spausdintuvo teksto maketas** „FastTab“ turi tris skyrius, kuriuose galite rašyti spausdintuvo kodą: **Antraštės skyrius**, **Vidurinės dalies skyrius** ir **Poraštės skyrius**. Skyriaus **Antraštės skyrius** laukelyje **Žymos antraštė** įveskite kodą reikiamai antraštei. Pavyzdžiui, jei naudojate „Zebra“ spausdintuvus, galite naudoti šį kodą.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -728,7 +726,7 @@ Pagrindinis skirtumas tarp šio scenarijaus konfigūravimo ir scenarijus 1 konfi
 1. Antroji žymė dabar paruošta naudojimui.
 1. Sukurkite trečią maketo įrašą, kuris turi šiuos nustatymus:
 
-    - **Žymėas maketo identifikavimo numeris:** *Tarpas*
+    - **Žymės maketo identifikavimo numeris:** *Tarpas*
     - **Aprašas:** *Tarpo žymė*
 
 1. Veiksmų srityje pasirinkite **Įrašyti**.
@@ -754,7 +752,7 @@ Pagrindinis skirtumas tarp šio scenarijaus konfigūravimo ir scenarijus 1 konfi
 
 ### <a name="create-two-wave-label-types"></a>Sukurkite du bangos žymių tipus
 
-1. Eikite į **Sandėlio tvarkymas \> Sąranka \> Dokumento maršrutas \> bangos žymostipai**.
+1. Eikite į **Sandėlio tvarkymas \> Sąranka \> Dokumento maršrutas \> Bangos žymos tipai**.
 1. Sukurkite įrašą, kuris turi šiuos nustatymus:
 
     - **Žymos tipas:** *Dėžė*
@@ -768,13 +766,13 @@ Pagrindinis skirtumas tarp šio scenarijaus konfigūravimo ir scenarijus 1 konfi
 ### <a name="set-up-unit-sequence-groups"></a>Nustatyti vienetų sekų grupes
 
 1. Eikite į **Sandėlio tvarkymas \> Sąranka \> Sandėlis \> Padalinio sekos grupės**.
-1. Pasirinkite ar sukurkite **Ea Box PL** grupę.
+1. Pasirinkite ar sukurkite **Vieneto dėžutės PL** grupę.
 1. **Dėžutė** linijoje nustatykite **Bangos lygio tipas** laukelį į *Dėžė*.
 1. **PL** linijoje nustatykite **Bangos lygio tipas** laukelį į *Padėklas*.
 
 ### <a name="create-wave-label-templates"></a>Sukurkite bangos žymos šablonus
 
-1. Eikite į **Sandėlio tvarkymas \> Sąranka \> Dokumento maršrutas \> bangos žymosšablonai**.
+1. Eikite į **Sandėlio tvarkymas \> Sąranka \> Dokumento maršrutas \> Bangos žymos šablonai**.
 1. Sukurkite žymos šabloną, kuris turi šiuos nustatymus:
 
     - **Žymos šablono pavadinimas:** *Dėžių žymės*
@@ -797,7 +795,7 @@ Pagrindinis skirtumas tarp šio scenarijaus konfigūravimo ir scenarijus 1 konfi
     - **Laukelis:** *Paskyros numeris*
     - **Kriterijai:** Įveskite reikiamą kliento paskyros numerį.
 
-    Kai baigsite, pasirinkite **OK** užklausos tvarkyklės teksto langui uždaryti.
+    Kai baigsite, pasirinkite **Gerai** užklausos tvarkyklės teksto langui uždaryti.
 
 1. Veiksmų juostoje pasirinkite **Redaguoti užklausą** tam, kad atvertumėte užklausos tvarkyklės teksto laukelį visam žymos šablonui.
 1. Užklausos tvarkyklės teksto laukelyje, **Rūšiavimas** skirtuke įtraukite eilutę su šiais nustatymais:
@@ -814,21 +812,21 @@ Pagrindinis skirtumas tarp šio scenarijaus konfigūravimo ir scenarijus 1 konfi
     - **Laukas:** *Siuntos ID*
     - **Paieškos kryptis:** *Didėjanti*
 
-1. Pasirinkite **OK** užklausos tvarkyklės teksto langui uždaryti.
-1. Pranšimo laukelis paskatins jus patvirtinti grupavimo perkrovimo veiksmą. Pasirinkite **taip** tam, kad tęstumėte.
+1. Pasirinkite **Gerai** užklausos tvarkyklės teksto langui uždaryti.
+1. Pranešimo laukelis paskatins jus patvirtinti grupavimo perkrovimo veiksmą. Pasirinkite **taip** tam, kad tęstumėte.
 1. Veiksmų juostoje pasirinkite **bangos žymos šablono grupė**.
 1. **Bangos žymos šablono grupės** teksto laukelyje, pasirinkite eilutę, kurioje **Nuorodos laukelio pavadinimas** laukelis nustatytas į *Siuntimo identifikavimo kodas*, nustatykite šias vertes:
 
     - **Spausdinimo tarpo žymė:** Pasirinkite šį žymimą laukelį.
-    - **Žymos maketo identifikavimo kodas:** Pasirinkite tarpo žymę. (Pavyzdžiui, pasirinkite *Tarpo* žymos maketą, kurį sukūrėte anksčiau šiame scnarijuje.)
+    - **Žymos maketo identifikavimo kodas:** Pasirinkite tarpo žymę. (Pavyzdžiui, pasirinkite *Tarpo* žymos maketą, kurį sukūrėte anksčiau šiame scenarijuje.)
     - **Spausdintuvo pavadinimas:** Pasirinkite spausdintuvą tarpo žymei. (Dažniausiai, dėl žymių ritinių skaidymo tikslų, turite pasirinkti tą patį spausdintuvą, kuris pasirinktas **Bangos žymos šablono informacijos** „FastTab“. Nepaisant to, kiti scenarijai yra galimi.)
 
 1. Eilutėje, kurioje **Nuorodos žymos pavadinimas** laukelis nustatytas *Nuorodos krovimo linijos identifikavimo kodas*, pasirinkite **Žymos kūrėjo identifikavimo kodas** žymimą laukelį.
 
     > [!NOTE]
-    > Šie nustatyimai sukurs vieną žymos seką („Dėžė 1 X“) vienai krovimo linijai bangoje nepriklausomai nuo darbo grupės nustatymų. Ši žymos seka gali būti atspausdinta viename žymos makete. Taip pat, žymos skirtingiems siuntimams bus atskirtos pasirinkta tarpo žyme.
+    > Šie nustatymai sukurs vieną žymos seką („Dėžė 1 X“) vienai krovimo linijai bangoje nepriklausomai nuo darbo grupės nustatymų. Ši žymos seka gali būti atspausdinta viename žymos makete. Taip pat, žymos skirtingoms siuntoms bus atskirtos pasirinkta tarpo žyme.
 
-1. Pasirinkite **OK** tam, kad uždarytumėte **Bangos žymos šablono grupės** teksto laukelį.
+1. Pasirinkite **Gerai** tam, kad uždarytumėte **Bangos žymos šablono grupės** teksto laukelį.
 1. Sukurkite antrą žymos šabloną, kuris turi šiuos nustatymus:
 
     - **Žymos šablono pavadinimas:** *Padėklo žymės*
@@ -839,7 +837,7 @@ Pagrindinis skirtumas tarp šio scenarijaus konfigūravimo ir scenarijus 1 konfi
 1. **Bendra** „FastTab“, nustatykite **Bangos žymos tipas** laukelyje pasirinkite vertę, tokią kaip *Padėklas*.
 1. **Bangos žymos šablono informacijoje** „FastTab“, įtraukite eilutę turinčią šiuos nustatymus:
 
-    - **Žymėas maketo identifikavimo numeris:** *Padėklas*
+    - **Žymės maketo identifikavimo numeris:** *Padėklas*
     - **Spausdintuvo pavadinimas:** Pasirinkite tinkamą ZPL spausdintuvą.
     - **Vykdykite užklausą:** *Taip* (Šis pasirinkimas yra pasirenkamas, tačiau rekomenduojamas optimaliam veikimui.)
 
@@ -851,7 +849,7 @@ Pagrindinis skirtumas tarp šio scenarijaus konfigūravimo ir scenarijus 1 konfi
     - **Laukelis:** *Paskyros numeris*
     - **Kriterijai:** Įveskite reikiamą kliento paskyros numerį.
 
-    Kai baigsite, pasirinkite **OK** užklausos tvarkyklės teksto langui uždaryti. 
+    Kai baigsite, pasirinkite **Gerai** užklausos tvarkyklės teksto langui uždaryti. 
 
 1. Veiksmų juostoje pasirinkite **Redaguoti užklausą** tam, kad atvertumėte užklausos tvarkyklės teksto laukelį visam žymos šablonui.
 1. Užklausos tvarkyklės teksto laukelyje, **Rūšiavimas** skirtuke įtraukite eilutę su šiais nustatymais:
@@ -868,19 +866,19 @@ Pagrindinis skirtumas tarp šio scenarijaus konfigūravimo ir scenarijus 1 konfi
     - **Laukas:** *Siuntos ID*
     - **Paieškos kryptis:** *Didėjanti*
 
-1. Pasirinkite **OK** užklausos tvarkyklės teksto langui uždaryti.
-1. Pranšimo laukelis paskatins jus patvirtinti grupavimo perkrovimo veiksmą. Pasirinkite **taip** tam, kad tęstumėte.
+1. Pasirinkite **Gerai** užklausos tvarkyklės teksto langui uždaryti.
+1. Pranešimo laukelis paskatins jus patvirtinti grupavimo perkrovimo veiksmą. Pasirinkite **taip** tam, kad tęstumėte.
 1. Veiksmų juostoje pasirinkite **bangos žymos šablono grupė**.
 1. **Bangos žymos šablono grupės** teksto laukelyje, pasirinkite eilutę, kurioje **Nuorodos laukelio pavadinimas** laukelis nustatytas į *Siuntimo identifikavimo kodas*, nustatykite šias vertes:
 
     - **Spausdinimo tarpo žymė:** Pasirinkite šį žymimą laukelį.
-    - **Žymos maketo identifikavimo kodas:** Pasirinkite tarpo žymę. (Pavyzdžiui, pasirinkite *Tarpo* žymos maketą, kurį sukūrėte anksčiau šiame scnarijuje.)
+    - **Žymos maketo identifikavimo kodas:** Pasirinkite tarpo žymę. (Pavyzdžiui, pasirinkite *Tarpo* žymos maketą, kurį sukūrėte anksčiau šiame scenarijuje.)
     - **Spausdintuvo pavadinimas:** Pasirinkite spausdintuvą tarpo žymei. (Dažniausiai, dėl žymių ritinių skaidymo tikslų, turite pasirinkti tą patį spausdintuvą, kuris pasirinktas **Bangos žymos šablono informacijos** „FastTab“. Nepaisant to, kiti scenarijai yra galimi.)
 
 1. Eilutėje, kurioje **Nuorodos žymos pavadinimas** laukelis nustatytas *Nuorodos krovimo linijos identifikavimo kodas*, pasirinkite **Žymos kūrėjo identifikavimo kodas** žymimą laukelį.
 
     > [!NOTE]
-    > Šie nustatyimai sukurs vieną žymos seką („Dėžė 1 X“) vienai krovimo linijai bangoje nepriklausomai nuo darbo grupės nustatymų. Ši žymos seka gali būti atspausdinta viename žymos makete. Taip pat, žymos skirtingiems siuntimams bus atskirtos pasirinkta tarpo žyme.
+    > Šie nustatymai sukurs vieną žymos seką („Dėžė 1 X“) vienai krovimo linijai bangoje nepriklausomai nuo darbo grupės nustatymų. Ši žymos seka gali būti atspausdinta viename žymos makete. Taip pat, žymos skirtingoms siuntoms bus atskirtos pasirinkta tarpo žyme.
 
 ### <a name="configure-number-sequence-extensions"></a>Konfigūruokite numerio sekos plėtinius
 
@@ -916,11 +914,11 @@ Numerio sekos plėtiniai valdo GS1 atitiktį su specifinėmis numerio sekomis. K
 1. Pakartokite 4 ir 5 žingsnius kiekvienai prekybos užsakymo eilutei 2.
 1. Veiksmų srities skirtuke **Sandėlis** pasirinkite **Išleisti į sandėlį**.
 
-    Atistinka šis įvykis: 
+    Atsitinka šis įvykis: 
 
     - Sistema apdoroja sukurtą siuntimą naudodama šabloną apimantį žymos spausdinimo žingsnį. Žymos maketas bus naudojamas nustatant žymos formatą ir galutinis rezultatas bus žymė turinti penkias eilutes ir ji yra atspausdinta spausdintuve pasirinktame žymos šablone.
     - Bangos žymės yra sukuriamos ir atspausdinamos. Žymių skaičius bus lygus dėžių skaičiui (pavyzdžiui, šiuo atveju 376 dėžės žymai eilutėje 1, 322 dėžės žymei linijoje 2, 47 padėklai žymos linijoje 1, 47 padėklai žymos linijoje 2 ir dvi tarpų žymos turinčios siuntimo identifikavimo kodą).
-    - Naujas važtaraščio identifikavimo kodas sukuriamas siuntimams. Jei sukonfigūravote numerio sekos plėtinius, bangos žymos identifikavimo kodas seks **SSCC-18** numerio formatą. 
+    - Naujas važtaraščio identifikavimo kodas yra sukuriamas siuntoms. Jei sukonfigūravote numerio sekos plėtinius, bangos žymos identifikavimo kodas seks **SSCC-18** numerio formatą. 
 
 Galite peržiūrėti ir iš naujo atspausdinti bangos etiketes tolesniuose puslapiuose:
 
@@ -932,5 +930,8 @@ Galite peržiūrėti ir iš naujo atspausdinti bangos etiketes tolesniuose pusla
 
 Didžiojoje dalyje šių puslapių, galite rasti atitinkamą funkciją pasirinkę **Bangos žymės**  **Susijusi informacija** grupėje **Siuntimai** skirtuke veiksmų juostoje.
 
+## <a name="additional-resources"></a>Papildomi ištekliai
+
+- [Pakartotinis bangos žymų spausdinimas ir anuliavimas](reprint-and-void-wave-labels.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

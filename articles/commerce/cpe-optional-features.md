@@ -2,11 +2,9 @@
 title: Konfigūruokite pasirinktas savybes „Dynamics 365 Commerce“ vertinimo aplinkoje
 description: Šiame skyriuje paaiškinama, kaip sukonfigūruoti pasirenkamas funkcija „Microsoft Dynamics 365 Commerce“ vertinimo aplinkoje.
 author: psimolin
-manager: annbe
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: def99a34404357e28501de5ccf11c6130d53f34f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6bc968c2659380bb8c92292ee19e3a7ec8a20a2b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213823"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795912"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Pasirinktinių „Dynamics 365 Commerce” vertinimo aplinkos funkcijų konfigūravimas
 
@@ -77,7 +75,7 @@ Jei norite įvertinti operacines el. pašto funkcijas, turi būti įvykdytos ši
 1. Naudokite meniu kairėje ir eikite į **Moduliai \> Mažmena ir komercija \> Būstinės sąranka \> Parametrai \> Elektroninio pašto parametrai**.
 1. Skirtuko **SMTP parametrai** lauke **Siunčiamo pašto serveris** įveskite savo SMTP serverio ar el. pašto tarnybos FQDN arba IP adresą.
 1. Lauke **SMTP prievado numeris** įveskite prievado numerį. (Jei nenaudojate saugiųjų jungčių lygmens \[SSL\], numatytasis prievado numeris yra **25**.)
-1. Jei reikalinga autentifikacija, įveskite reikšmes laukuose **Vartotojo vardas** ir **Slaptažodis**.
+1. Jei reikalingas autentifikavimas, įveskite reikšmes laukuose **Vartotojo vardas** ir **Slaptažodis**.
 1. Pasirinkite **Įrašyti**.
 1. Pasirinkite **Atnaujinti**.
 1. Skirtuko **Bandomasis el. laiškas** lauke **El. pašto teikėjas** pasirinkite **SMTP**.

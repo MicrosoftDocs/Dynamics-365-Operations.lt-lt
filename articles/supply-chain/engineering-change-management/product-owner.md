@@ -2,11 +2,9 @@
 title: Produktų savininkai
 description: Šioje temoje pateikta informacija apie produkto savininkus. Produkto savininkas yra vartotojų grupė atsakinga už konkrečius produktus. Tik grupės nariai gali išleisti minėtus produktus. Produkto savininkas gali taip pat būti naudojamas patvirtinimo darbo eigoje.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductOwner
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: a1c3bc6f77fed83cfbbd502cdd469baa491fd81f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 679712b2397f220e263da3df07ecd03c99bebf3f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5266132"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842037"
 ---
 # <a name="product-owners"></a>Produktų savininkai
 
@@ -53,13 +51,13 @@ Produkto savininkas yra taip pat matomas **Išleistų produktų** puslapyje.
 
 ## <a name="product-owners-and-product-releases"></a>Produkto savininkai ir produkto leidimai
 
-Tik vartotojai iš produkto produkto savininko grupės gali išleisti tą produktą. Nepaisant to, yra išimtis, kai produktas yra vaikiška prekė ir jos valdanti prekė yra išleidžiama valdančio savininko. Kitaip tarian, jei produktas yra kito produkto BOM dalis, sistema netikrina kiekvienos prekės BOM produkto savininko. Ji tikrina tik valdančios prekės produkto savininką.
+Tik vartotojai iš produkto produkto savininko grupės gali išleisti tą produktą. Nepaisant to, yra išimtis, kai produktas yra vaikiška prekė ir jos valdanti prekė yra išleidžiama valdančio savininko. Kitaip tariant, jei produktas yra kito produkto KS dalis, sistema netikrina kiekvienos prekės KS produkto savininko. Ji tikrina tik valdančios prekės produkto savininką.
 
-Pavyzdžiui, produktas X yra priskirtas *Kūrimo biurų* produkto savininko grupei. Produktas X taip pat yra BOM Y produkto dalis, kuris yra priskirtas *Projektavimo garsiakalbių* produkto savininko grupei. Jei naudotojas iš *Projektavimo garsiakalbių* produkto savininko grupės išleidžia Y produktą ir jo BOM, produktas X bus išleistas kartu su produktu Y.
+Pavyzdžiui, produktas X yra priskirtas *Kūrimo biurų* produkto savininko grupei. Produktas X taip pat yra KS Y produkto dalis, kuris yra priskirtas *Projektavimo garsiakalbių* produkto savininko grupei. Jei naudotojas iš *Projektavimo garsiakalbių* produkto savininko grupės išleidžia Y produktą ir jo KS, produktas X bus išleistas kartu su produktu Y.
 
 ## <a name="product-owners-and-approvals"></a>Produkto savininkai ir patvirtinimai
 
-Kadangi produkto savininkai žino, ar konkretūs inžineriniai pakeitimai tiks jų produktams, dažnai apsimoka įtraukti juos kaip patvirtinimo proceso dalį inžinerijos keitimo valdyme. Galite implementuoti šį požiūrį nustatydami produkto savininkus kaip pagrindinius tiekėjus darbo eigose, kurios naudojamos inžinerijos pokyčio valdymui. Sistema tuomet priskirs patvirtinimo užduotis darbo eigose atsižvelgiant į produktus, kurie yra inžinerijos keitimo užklausose ir inžinerijos keitimo užsakymuose. Dėl daugiau informacijos, žr. [Valdyti keitimus inžinerijos produktams](engineering-change-management.md).
+Kadangi produkto savininkai žino, ar konkretūs inžineriniai pakeitimai tiks jų produktams, dažnai apsimoka įtraukti juos kaip patvirtinimo proceso dalį inžinerijos keitimo valdyme. Galite įgyvendinti šį požiūrį nustatydami produkto savininkus kaip pagrindinius tiekėjus darbo eigose, kurios naudojamos inžinerijos pokyčio valdymui. Sistema tuomet priskirs patvirtinimo užduotis darbo eigose atsižvelgiant į produktus, kurie yra inžinerijos keitimo užklausose ir inžinerijos keitimo užsakymuose. Dėl daugiau informacijos, žr. [Valdyti keitimus inžinerijos produktams](engineering-change-management.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

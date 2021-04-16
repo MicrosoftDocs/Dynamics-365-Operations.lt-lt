@@ -2,11 +2,9 @@
 title: Mobiliojo įrenginio meniu elemento nustatymas paėmimo eilučių peržiūrai pateikti
 description: Šioje temoje paaiškinama, kaip nustatyti, kada visų darbo eilučių sąrašas bus rodomas sandėlio darbuotojams, kurie apdoroja sandėlio darbus mobiliajame įrenginyje. Ši funkcija gali būti naudinga sandėlio darbuotojams, kuriems dažnai reikia peržiūrėti paėmimo eilutes darbo užsakyme, kad jie galėtų optimizuoti savo paėmimų seką.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,21 +12,20 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 22e724b60ec5cc8bf39a520022f43784d3a328eb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6eaba6da313f398c8d30f9a26c959ee971812e21
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232916"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818877"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-provide-a-pick-line-overview"></a>Mobiliojo įrenginio meniu elemento nustatymas paėmimo eilučių peržiūrai pateikti
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šioje temoje paaiškinama, kaip konfigūruoti pasirinktis, susijusias su mobiliųjų įrenginių meniu elementų, kurie naudojami išrinkimo darbui apdoroti, paėmimo eilutės peržiūra. Paėmimo eilutės peržiūra leidžia sandėlio darbuotojams peržiūrėti ir pasirinkti iš visų darbo eilučių, susijusių su jų dabartine užduotimi, sąrašo. Ši funkcija gali padėti darbuotojams optimizuoti savo paėmimų seką. Funkcija suteikia pasirinktis, kurios pakeičia standartinį **Praleidimo** mygtuką, kuris leidžia darbuotojams pereiti per eilutes po vieną pagal pastovią eilučių tvarką. (Tačiau vis tiek galima naudoti šį mygtuką.)
 
-Administratoriai gali konfigūruoti kiekvieną meniu elementą atskirai, kad galėtų kontroliuoti, kaip, kada ir kur sandėlio programa pateikia paėmimo eilučių peržiūrą.
+Administratoriai gali konfigūruoti kiekvieną meniu elementą atskirai, kad galėtų kontroliuoti, kaip, kada ir kur sandėlio valdymo mobiliųjų įrenginių programėlė pateikia paėmimo eilučių peržiūrą.
 
 ## <a name="turn-on-the-work-pick-line-overview-feature"></a>Darbo paėmimo eilutės apžvalgos funkcijos įjungimas
 
@@ -52,17 +49,17 @@ Norėdami nustatyti mobiliojo įrenginio meniu elementą paėmimo eilučių per�
 
 1. „FastTab” skirtuke **Bendra** konfigūruokite šią funkciją nustatydami lauką **Rodyti darbo eilučių sąrašą** į vieną iš šių reikšmių:
 
-    - **Rodyti tik pateikus užklausą** – darbuotojai gali pasirinkti peržiūrėti paėmimo eilučių naudodami mygtuką **Praleisti iki** sandėlio programoje.
-    - **Rodyti kiekvieno paėmimo pradžioje** – darbuotojai mato sąrašą kiekvieną kartą, kai jie pradeda arba baigia paėmimo eilutę. Jie taip pat gali peržiūrėti sąrašą dar kartą pasirinkdami mygtuką **Praleisti iki** sandėlio programoje.
-    - **Rodyti tik pirmo paėmimo pradžioje** – darbuotojai mato sąrašą kiekvieną kartą pradėdami naują paėmimo darbą, tačiau ne po kiekvienos eilutės. Jie taip pat gali peržiūrėti sąrašą dar kartą pasirinkdami mygtuką **Praleisti iki** sandėlio programoje.
-    - **Niekada nerodyti** – įprastas **Praleisti** mygtukas atsiranda sandėlio programoje, o darbo eilučių sąrašo rodymas išjungiamas. Mygtukas **Praleisti** leidžia darbuotojui pereiti per eilutes po vieną pagal pastovią eilučių tvarką. Jie taip pat gali pereiti per sąrašą tiek kartų, kiek reikia, kol visos eilutės bus apdorotos.
+    - **Rodyti tik pateikus užklausą** – darbuotojai gali pasirinkti peržiūrėti paėmimo eilutę pasirinkdami mygtuką **Praleisti iki** sandėlio valdymo mobiliųjų įrenginių programėlėje.
+    - **Rodyti kiekvieno paėmimo pradžioje** – darbuotojai mato sąrašą kiekvieną kartą, kai jie pradeda arba baigia paėmimo eilutę. Jie taip pat gali peržiūrėti sąrašą dar kartą pasirinkdami mygtuką **Praleisti iki** sandėlio valdymo mobiliųjų įrenginių programėlėje.
+    - **Rodyti tik pirmo paėmimo pradžioje** – darbuotojai mato sąrašą kiekvieną kartą pradėdami naują paėmimo darbą, tačiau ne po kiekvienos eilutės. Jie taip pat gali peržiūrėti sąrašą dar kartą pasirinkdami mygtuką **Praleisti iki** sandėlio valdymo mobiliųjų įrenginių programėlėje.
+    - **Niekada nerodyti** – įprastas **Praleisti** mygtukas atsiranda sandėlio valdymo mobiliųjų įrenginių programėlėje, o darbo eilučių sąrašo rodymas išjungiamas. Mygtukas **Praleisti** leidžia darbuotojui pereiti per eilutes po vieną pagal pastovią eilučių tvarką. Jie taip pat gali pereiti per sąrašą tiek kartų, kiek reikia, kol visos eilutės bus apdorotos.
 
 1. Veiksmų srityje pasirinkite **Įrašyti**.
 
     Jei nustatote lauką **Rodyti darbo eilučių sąrašą** kaip bet kokią reikšmę, išskyrus *Niekada nerodyti*, mygtukas **Laukų sąrašas** tampa pasiekiamas veiksmų srityje.
 
 1. Veiksmų srityje pasirinkite **Laukų sąrašas**.
-1. Puslapyje **Laukų sąrašas** konfigūruokite informaciją, kurią kiekvienai sąrašo eilutei nurodo sandėlio programa.
+1. Puslapyje **Laukų sąrašas** konfigūruokite informaciją, kurią kiekvienai sąrašo eilutei rodo sandėlio valdymo mobiliųjų įrenginių programėlė.
 
     - Laukas **Pagrindinis valdiklis** visada nustatomas į *LineNum*. Todėl kiekviena eilutė sąraše prasideda eilutės numeriu.
     - Naudokite likusius **Rodymo lauko** laukus, norėdami pridėti ne daugiau septynių jums reikalingų papildomų rodymo laukų. Kiekviename lauke **Rodymo laukas** pasirinkite darbo eilutės lauko pavadinimą. Tada kiekvienoje eilutėje bus rodoma to lauko reikšmė. Reikšmės bus rodomos tokia tvarka, kurią pasirenkate čia. Galite palikti kai kuriuos **Rodymo lauko** laukus tuščius, jeigu jums nėra reikalingos visos septynios reikšmės.

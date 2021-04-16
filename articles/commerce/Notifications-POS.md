@@ -2,11 +2,9 @@
 title: Užsakymų pranešimų rodymas elektroniniame kasos aparate (EKA)
 description: Šioje temoje aprašyta, kaip įjungti užsakymų pranešimų rodymą elektroniniame kasos aparate ir pranešimų sistemoje.
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailOperations, RetailFunctionalityProfile
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ea902b5d65f806fc88e688d10bdad9ae75611ef
-ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
+ms.openlocfilehash: f7b28a33dff4af6bf2b97db825a5a8304213f3a0
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5585087"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796491"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Užsakymų pranešimų rodymas elektroniniame kasos aparate (EKA)
 
@@ -45,7 +43,7 @@ Norėdami įjungti užsakymų vykdymo ar atšaukimo operacijų pranešimus, atli
     > [!NOTE]
     > Pranešimų galima nepaisyti vartotojo lygiu. Norėdami tai atlikti, atidarykite darbininko įrašą, pasirinkite **EKA teisės** ir redaguokite vartotojo pranešimų prenumeratą.
 
-1. Eikite į **„Retail and Commerce“\> Kanalo sąranka \> EKA sąranka \> EKA profiliai \> Funkcionalumo profiliai**. Lauke **Pranešimų intervalas** nurodykite, kaip dažnai turi būti rodomi pranešimai. Dėl kai kurių pranešimų EKA turi realiuoju laiku kreiptis į tarnybinio biuro programą. Tokie kreipimaisi naudoja jūsų tarnybinio biuro programos skaičiavimo pajėgumus. Todėl, nustatydami pranešimų intervalą, turite atsižvelgti į savo verslo poreikius ir kreipimųsi realiuoju laiku poveikį tarnybinio biuro programai. Reikšmė **0** (nulis) pranešimus išjungia.
+1. Eikite į **Mažmeninį prekyba ir komercija \> Kanalo sąranka \> EKA sąranka \> EKA profiliai \> Funkcionalumo profiliai**. Lauke **Pranešimų intervalas** nurodykite, kaip dažnai turi būti rodomi pranešimai. Dėl kai kurių pranešimų EKA turi realiuoju laiku kreiptis į tarnybinio biuro programą. Tokie kreipimaisi naudoja jūsų tarnybinio biuro programos skaičiavimo pajėgumus. Todėl, nustatydami pranešimų intervalą, turite atsižvelgti į savo verslo poreikius ir kreipimųsi realiuoju laiku poveikį tarnybinio biuro programai. Reikšmė **0** (nulis) pranešimus išjungia.
 1. Eikite į **Mažmeninė prekyba ir prekyba \> Mažmeninės prekybos ir prekybos IT \> Paskirstymo grafikas**. Pasirinkite grafiką **1060** (**Darbuotojai**), kad sinchronizuotumėte pranešimų prenumeratos parametrus, tada pasirinkite **Vykdyti dabar**. Tada pasirinkite grafiką **1070** (**Kanalo konfigūravimas**), kad sinchronizuotumėte teisių intervalą, tada pasirinkite **Vykdyti dabar**.
 
 ## <a name="view-notifications-in-the-pos"></a>Pranešimų peržiūra el. kasos aparate
@@ -76,7 +74,7 @@ Tolesnėje iliustracijoje rodomi tiesioginio turinio parametrai mygtukyno dizain
 
 ![Tiesioginio turinio nustatymai mygtuko dizaino įrankyje](./media/ButtonGridDesigner.png "Tiesioginio turinio nustatymai mygtuko dizaino įrankyje")
 
-Norėdami rodyti pranešimų skaičių ant mygtuko, turite užtikrinti, kad būtų atnaujintas teisingas ekrano maketas. Norėdami nustatyti ekrano maketą, kurį naudos EKA, viršutiniame dešiniajame kampe pasirinkite piktogramą **Parametrai** ir įsidėmėkite **Ekrano maketo ID** ir **Maketo skiriamąją gebą**. Dabar naudodami naršyklę „Edge“ eikite į puslapį **Ekrano maketas**, suraskite anksčiau įsidėmėtą **Ekrano maketo ID** ir **Maketo skiriamąją gebą** ir pažymėkite žymės langelį **Įjungti tiesioginį turinį**. Eikite į **„Retail and Commerce“ \> „Retail and Commerce IT“ \> Paskirstymo grafikas** ir paleiskite 1090 (registrai) užduotį, kad susinchronizuotumėte maketo pakeitimus.
+Norėdami rodyti pranešimų skaičių ant mygtuko, turite užtikrinti, kad būtų atnaujintas teisingas ekrano maketas. Norėdami nustatyti ekrano maketą, kurį naudos EKA, viršutiniame dešiniajame kampe pasirinkite piktogramą **Parametrai** ir įsidėmėkite **Ekrano maketo ID** ir **Maketo skiriamąją gebą**. Dabar naudodami naršyklę „Edge“ eikite į puslapį **Ekrano maketas**, suraskite anksčiau įsidėmėtą **Ekrano maketo ID** ir **Maketo skiriamąją gebą** ir pažymėkite žymės langelį **Įjungti tiesioginį turinį**. Eikite į **Mažmeninė prekyba ir komercija \> Mažmeninės prekybos ir komercijos ID \> Paskirstymo grafikas** ir paleiskite 1090 (registrai) užduotį, kad susinchronizuotumėte maketo pakeitimus.
 
 ![Raskite EKA naudojamą ekrano maketą](./media/Choose_screen_layout.png "Raskite ekrano maketą")
 

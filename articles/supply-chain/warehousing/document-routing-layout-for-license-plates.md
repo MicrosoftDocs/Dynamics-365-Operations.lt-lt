@@ -2,11 +2,9 @@
 title: Numerio lentelės etikečių dokumentų maršrutų planavimo maketas
 description: Šioje temoje aprašoma, kaip naudoti formatavimo metodus spausdinti reikšmėms etiketėse.
 author: perlynne
-manager: tfehr
 ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLicensePlateLabel, WHSLicensePlateLabelBuildConfig, WHSLicensePlateLabel, WHSDocumentRoutingLayout
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 7c20d3d0540f8f1a05928df9aff5253745982da9
-ms.sourcegitcommit: 4ecc1bf82fbb04882d7ef5e1994ef3c07ef953dc
+ms.openlocfilehash: faf54fec2885f868c66987a7b481559d0c5615d0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5558267"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838279"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Numerio lentelės etikečių dokumentų maršrutų planavimo maketas
 
@@ -72,8 +70,8 @@ Toliau pateikiamas šio formato paaiškinimas.
 
 Toliau pateikti pavyzdžiai rodo, kaip galima tinkinti darbo kiekio (**Kiekis**) lauką.
 
-- Naudokite `$Qty:0000$`, norėdami visada matyti keturis skaitmenis (nuliai naudojami kaip vietos rezervavimo ženklai). Pavyzdžiui, jei kiekis yra 10, etiketėje bus rodoma „0010”.
-- Naudokite `$Qty:0.00$`, norėdami visada matyti du skaičius po kablelio. Pavyzdžiui, jei kiekis yra 10, etiketėje bus rodoma „10.00”.
+- Naudokite `$Qty:0000$`, norėdami visada matyti keturis skaitmenis (nuliai naudojami kaip vietos rezervavimo ženklai). Pavyzdžiui, jei kiekis yra 10, etiketėje bus rodoma „0010.”
+- Naudokite `$Qty:0.00$`, norėdami visada matyti du skaičius po kablelio. Pavyzdžiui, jei kiekis yra 10, etiketėje bus rodoma „10,00”.
 
 Norėdami peržiūrėti visą galimų numerių formato eilučių sąrašą, žr. [Pasirinktinės skaitinės formato eilutės](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings).
 
@@ -85,7 +83,7 @@ Galite pašalinti pirmuosius eilutės simbolius naudodami toliau pateiktą lauk�
 $FieldName:#..$
 ```
 
-`#` nurodo praleidžiamų simbolių skaičių. Pavyzdžiui, norėdami išspausdinti gabenimo konteinerio serijos kodo (SSCC) numerio lentelės numerį, kuris neapima pirmų dviejų simbolių, naudokite `$LicensePlateId:2..$`. Šiuo atveju numerio lentelės numeris „0011111111111222221” bus išspausdintas kaip „11111111111222221”.
+`#` nurodo praleidžiamų simbolių skaičių. Pavyzdžiui, norėdami išspausdinti gabenimo konteinerio serijos kodo (SSCC) numerio lentelės numerį, kuris neapima pirmų dviejų simbolių, naudokite `$LicensePlateId:2..$`. Šiuo atveju numerio lentelės numeris „0011111111111222221” bus išspausdintas kaip „11111111111222221.”
 
 ## <a name="custom-datetime-formats"></a>Pasirinktiniai datos / laiko formatai
 
@@ -95,7 +93,7 @@ Toliau pateiktame pavyzdyje parodyta, kaip galima kontroliuoti formatą, kuris n
 $PrintedDate:dd-MM-yyyy$
 ```
 
-Šiame pavyzdyje data 2020 m. balandžio 30 d. bus spausdinama kaip „30-04-2020”.
+Šiame pavyzdyje data 2020 m. balandžio 30 d. bus spausdinama kaip „30-04-2020.”
 
 Norėdami peržiūrėti visą galimų datos / laiko formatų sąrašą, žr. [Pasirinktinės datos ir laiko formato eilutės](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings).
 

@@ -2,11 +2,9 @@
 title: Darbo jėgos organizavimas naudojant padalinius, užduotis ir pareigas
 description: Padaliniai, užduotys ir pareigos yra organizaciniai elementai, tvarkomi modulyje Personalas. Šiame straipsnyje pateikiama abstrakti informacija apie šiuos elementus.
 author: andreabichsel
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: eb0c50d9030be75947c65e921b3c6d3ba729a0d2
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 48427bb52d4e398edba152ff25e28c3625b6a5d3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464481"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5803590"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Darbo jėgos organizavimas naudojant padalinius, užduotis ir pareigas
 

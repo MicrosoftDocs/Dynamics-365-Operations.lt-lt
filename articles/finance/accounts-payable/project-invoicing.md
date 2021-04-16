@@ -2,11 +2,9 @@
 title: Projekto SF išrašymas
 description: Ši tema pateikia sąskaitų išrašymo apžvalgą laikui ir medžiagų projektams bei fiksuotos kainos projektams. Taip pat pateikiama informacija apie SF pasiūlymus (preliminarias SF), SF kontrolę, aktyvių SF išrašymą, tiekėjo SF išrašymą ir kredito pažymas.
 author: TaylorVH
-manager: AnnBe
 ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 41c5e53969b5ee88e869196e8749dddd58047de2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0ec5de48112e473f5570bc4641d58cb1becc0986
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227503"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827967"
 ---
 # <a name="project-invoicing"></a>Projekto SF išrašymas
 

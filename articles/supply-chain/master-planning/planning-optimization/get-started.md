@@ -2,11 +2,9 @@
 title: Darbo su „Planning Optimization“ pradžia
 description: Šioje temoje aiškinama, kaip pradėti naudoti „Planning Optimization“ funkciją.
 author: ChristianRytt
-manager: tfehr
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 50633d1e5dd47b61e074d33a9d77a1f9ece0c223
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e85c18e548d82b2a369a1e8a5573800067b1935c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263379"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808069"
 ---
 # <a name="get-started-with-planning-optimization"></a>Darbo su planavimo optimizavimu pradžia
 
@@ -81,7 +79,7 @@ Norėdami įdiegti „Planning Optimization“ priedą:
 1. Eikite į **Išsami informacija**.
 1. Slinkite žemyn iki „FastTab“ **Aplinkos papildiniai**.
 1. Pasirinkite **Diegti naują papildinį**.
-1. Pasirinkite **Planning Optimization**.
+1. Pasirinkite **Planavimo optimizavimas**.
 1. Vadovaukitės diegimo vadovu ir sutikite su sąlygomis ir nuostatomis.
 1. Pasirinkti **Diegti**.
 1. „FastTab“ **Aplinkos papildiniai** turėtumėte matyti, kad planavimo optimizavimas yra diegiamas.

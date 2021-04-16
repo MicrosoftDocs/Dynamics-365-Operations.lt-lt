@@ -2,11 +2,9 @@
 title: Elektroninio kasos aparato (EKA) operacijos, prisijungus ir neprisijungus prie interneto
 description: Šioje temoje pateikiama informacija apie elektroninio kasos aparato (EKA) veikimą „Dynamics 365 Commerce“. Joje nurodoma, kur programoje galima iškviesti operacijas ir ar jos pasiekiamos neprisijungus.
 author: jblucher
-manager: AnnBe
 ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: fac3f75dd601eaabe47fb4e8ad8d10b33307a5a4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dac3eb0da704e06376d8ca969e06fb177ce15a6b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236007"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804286"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Elektroninio kasos aparato (EKA) operacijos, prisijungus ir neprisijungus prie interneto
 
@@ -101,7 +99,7 @@ Toliau pateiktuose stulpeliuose nurodoma, kur galima iškviesti operacijas.
 | 1201 | Nefiksuotas įrašas | Ši operacija suteikia vartotojui galimybę įtraukti papildomų pinigų į esamą stalčių ar pamainą. | Taip | Taip | Taip | Taip | Nr. |
 | 1218 | Priversti atrakinti išorinį elementą | Sistema naudoja šią operaciją aparato viduje esantiems EKA periferiniams įrenginiams atrakinti. | Netaikoma | Netaikoma | Netaikoma | Netaikoma | Nr. |
 | 520 | Dovanų kortelės likutis | Rodomas dovanų kortelės likutis. | Taip | Taip | Nr. | Nr. | Nr. |
-| 708 | Išjungti įrenginį | Išjunkite dabartinį įrenginį, kad jo nebūtų galima naudoti kaip POS aparato. | Ne | Ne | Ne | Ne | Ne |
+| 708 | Išjungti įrenginį | Išjunkite dabartinį įrenginį, kad jo nebūtų galima naudoti kaip EKA registro. | Ne | Ne | Ne | Ne | Ne |
 | 804 | Gaunamos operacijos | Prieiga prie gaunamų parduotuvės atsargų valdymo funkcijų. | Taip | Ne | Taip | Ne| Ne |
 | 517 | Pajamų sąskaitos | Įrašyti pinigus, įdėtus į kasos stalčių dėl bet kurios priežasties, išskyrus pirkimą. | Taip | Taip | Taip | Taip | Nr. |
 | 801 | Atsargų peržvalga | Ieškokite pasiekiamo, užsakyme pateikto ir prieinamų atsargų (ATP) kiekio, esančio dabartinėje parduotuvėje ir kitose pasiekiamose vietose. | Taip | Taip | Taip | Nr. | Nr. |

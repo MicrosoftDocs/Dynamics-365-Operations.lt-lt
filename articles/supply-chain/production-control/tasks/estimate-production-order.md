@@ -2,11 +2,9 @@
 title: Įvertinti gamybos užsakymą
 description: Šią procedūrą galite paleisti naudodami USMF demonstracinių duomenų įmonę arba savo duomenų rinkinį.
 author: johanhoffmann
-manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -15,12 +13,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 58a0f8e9247e5885b1f148b3b28b7e67b1fa292d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8544f468b7870b265b0c206471ad88e219258a03
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240322"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828663"
 ---
 # <a name="estimate-a-production-order"></a>Įvertinti gamybos užsakymą
 

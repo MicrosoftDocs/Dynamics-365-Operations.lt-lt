@@ -1,12 +1,10 @@
 ---
 title: Importuoti tiekėjų katalogus
 description: Šioje temoje aprašomas tiekėjo katalogo duomenų importavimo procesas.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 03/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests, CatVendorCatalogDetails, CatVendorCatalogReleaseApprovedProducts, CatVendorCMRDetails, CatVendorCatalogProductPerCompanyStatus, CatVendorMaintenanceEventLog, CatVendorCatalogReviewTool, CatVendorCatalogFileUpload, CatVendorCatalogMaintenanceRequest, CatVendorCatalogFileInLegalEntity, CatVendorCatalogSchema, CatVendorCatalogFilePreviewPane, CatVendorCatalogImportParameter
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: f752e6c42653d7ac39e011e71d0d31f936996499
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ee709d72098b4304cf7748cae1a328736fa16188
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260532"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825235"
 ---
 # <a name="import-vendor-catalogs"></a>Importuoti tiekėjų katalogus
 
@@ -54,7 +52,7 @@ Norėdami importuoti tiekėjo katalogo duomenis, turite atlikti toliau nurodytas
 
 7. Peržiūrėkite, patvirtinkite arba atmeskite tiekėjo katalogo produktus. Produktai automatiškai priskiriami įsigijimo kategorijoms. 
 
-Patvirtinti produktai įtraukiami į bendrąjį produktą ir pateikiami pasirinktiems juridiniams subjektams. Į įsigijimo katalogą glima įtraukti tik patvirtintus produktus.
+Patvirtinti produktai įtraukiami į bendrąjį produktą ir pateikiami pasirinktiems juridiniams subjektams. Į įsigijimo katalogą galima įtraukti tik patvirtintus produktus.
 
 ## <a name="generate-a-catalog-import-file-template"></a>Generuoti katalogo importavimo failo šabloną
 

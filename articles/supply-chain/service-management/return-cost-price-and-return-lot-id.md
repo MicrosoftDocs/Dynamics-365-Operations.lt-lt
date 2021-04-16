@@ -2,11 +2,9 @@
 title: Grąžinimo savikaina ir grąžinamos partijos ID
 description: Galite norėti, kad grąžintų produktų savikaina būtų lygi produktų savikainai tuo metu, kai šiuos produktus pardavėte klientui. Tai galite nustatyti naudodami **Grąžinamos partijos ID**.
 author: ShylaThompson
-manager: tfehr
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReturnTableListPage, ReturnInventTransIdLookup, ReturnItemNumLookup
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b420c0716823f587ea3f349a5d654ace23d84f41
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 86e048139da28c04c9f5ca03d71f92e5a7e60652
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219274"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835995"
 ---
 # <a name="return-cost-price-and-return-lot-id"></a>Grąžinimo savikaina ir grąžinamos partijos ID        
 
@@ -30,7 +28,7 @@ ms.locfileid: "5219274"
 
 
 
-Į atsargas grąžintų produktų savaikaina skaičiuojama naudojant dabartinę šių produktų savikainą. Tačiau galite norėti, kad grąžintų produktų savikaina būtų lygi produktų savikainai tuo metu, kai šiuos produktus pardavėte klientui. Tai galite atlikti nustatyti formos **Pardavimo užsakymas** „FastTab“ skirtuko **Eilutės informacija** lauke **Grąžinamos partijos ID** .
+Į atsargas grąžintų produktų savikaina skaičiuojama naudojant dabartinę šių produktų savikainą. Tačiau galite norėti, kad grąžintų produktų savikaina būtų lygi produktų savikainai tuo metu, kai šiuos produktus pardavėte klientui. Tai galite atlikti nustatyti formos **Pardavimo užsakymas** „FastTab“ skirtuko **Eilutės informacija** lauke **Grąžinamos partijos ID** .
 
 Pvz., apsvarstykite toliau pateiktą scenarijų. Klientui nusiunčiate SF. Tada klientas jums grąžina pristatytus produktus. Jūs grąžinate produktus į atsargas. Tokiu atveju, kai kredituojate klientą už grąžintus produktus, šių produktų savikaina apskaičiuojama naudojant dabartinę savikainą. Tačiau, jei naudosite lauką **Grąžinamos partijos ID**, grąžintų produktų savikaina bus apskaičiuojama naudojant savikainą, nurodytą pradinio pardavimo klientui SF.
 
@@ -50,7 +48,7 @@ Pagal numatytuosius nustatymus, kai įtraukiate prekes į grąžinimo užsakymą
 
 5.  Spustelėkite „FastTab‟ skirtuką **Eilutės informacija**.
 
-6.  Skirtuko **Bendra** lauke **Grąžinimo savikaina** įveskitę vertę. Ši vertė naudojama, kai prekės grąžinamos į atsargas. Jei vertės neįvesite, grąžinant prekes į atsargas bus naudojama dabartinė savikaina.
+6.  Skirtuko **Bendra** lauke **Grąžinimo savikaina** įveskite vertę. Ši vertė naudojama, kai prekės grąžinamos į atsargas. Jei vertės neįvesite, grąžinant prekes į atsargas bus naudojama dabartinė savikaina.
 
 ## <a name="method-2-automatically-generate-the-cost-price-based-on-the-customer-invoice-line"></a>2 būdas: automatiškas savikainos generavimas pagal kliento SF eilutę
 
@@ -70,7 +68,7 @@ Tai prioritetinis grąžinimo eilučių kūrimo būdas. Norėdami naudoti produk
 
 ## <a name="cost-calculation-example"></a>Savikainos skaičiavimo pavyzdys
 
-Kai grąžinimo savikainą nurodote grąžinimo užsakymo eilutės lauke **Grąžinamos partijos ID**, naudojama grąžinimo užsakymo eilutėje nurodyta savikaina. Įjungus atsargų uždarymo arba perskaičiavimo funkciją, pradinio pardavimo eilutėje nurodyta savikaina pakoreguojama. Grąžinimo užsakymo eilutėje nurodyta savaikaina automatiškai pakoreguojama, kad atspindėtų tokią pačią vieneto savikainą.
+Kai grąžinimo savikainą nurodote grąžinimo užsakymo eilutės lauke **Grąžinamos partijos ID**, naudojama grąžinimo užsakymo eilutėje nurodyta savikaina. Įjungus atsargų uždarymo arba perskaičiavimo funkciją, pradinio pardavimo eilutėje nurodyta savikaina pakoreguojama. Grąžinimo užsakymo eilutėje nurodyta savikaina automatiškai pakoreguojama, kad atspindėtų tokią pačią vieneto savikainą.
 
 1.  Sukurkite ir išleiskite produktą pavadinimu Testas. Formoje **Išleisto produkto informacija** nurodykite tokią informaciją:
     
@@ -92,7 +90,7 @@ Kai grąžinimo savikainą nurodote grąžinimo užsakymo eilutės lauke **Grą�
 
 4.  Sukurkite grąžinimo užsakymą klientui. Formoje **Rasti pardavimo užsakymą** pasirinkite SF eilutę ir tada spustelėkite **Gerai**.
 
-5.  Formoje **Grąžinimo užsakymas – RMA numeris: %1, %2** patikrinkite, ar testinės prekės grąžinimo užsakymas yra sugeneruotas. Grąžinimo užsakymo kiekis nustatomas kaip -5,00.
+5.  Formoje **Grąžinimo užsakymas – RMA numeris: %1, %2** patikrinkite, ar bandomosios prekės grąžinimo užsakymas yra sugeneruotas. Grąžinimo užsakymo kiekis nustatomas kaip -5,00.
     
     Lauke **Grąžinamos partijos ID** rodomas partijos ID. Šis partijos ID paimamas iš pradinio klientui parduotos prekės pardavimo užsakymo. Lauke **Grąžinimo savikaina** rodoma savikaina iš pradinio pardavimo eilutės.
 

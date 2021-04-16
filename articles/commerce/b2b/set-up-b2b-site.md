@@ -2,11 +2,9 @@
 title: Nustatykite B2B el. komercijos saitą
 description: Šioje temoje aprašoma, kaip nustatyti verslo su verslu (B2B) el. komercijos saitą „Microsoft Dynamics 365 Commerce“.
 author: josaw1
-manager: AnnBe
 ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailOperations
 audience: Application User, IT Pro
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6e39310ac2658ceed3f269249fe8b9d0d05dde21
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3c6ea6118c3ba0ab77fea91b2eafa75c89b8d71d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212584"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799762"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>B2B el. prekybos svetainės nustatymas
 
@@ -33,7 +31,7 @@ Verslo su verslu (B2B) el. komercijos saitas suteikia kelias pagrindines ypatybe
 
 - Norėdami nustatyti B2B el. komercijos saitą, turite galėti įjungti ir konfigūruoti konkrečias funkcijas „Commerce“ būstinėje, kaip aprašoma šioje temoje.
 - Pagrindinės patirtys, tokios kaip produkto atradimas, produkto informacijos puslapiai, vežimėlis ir išsiregistravimas yra valdomi tų pačių modulių, kurie naudojami verslo su verslu (B2C) el. komercijos saituose. Saito autoriai turėtų žinoti su visais moduliais, kuriuos „Dynamics 365 Commerce“ palaiko. Dėl daugiau informacijos, žr. [Modulio bibliotekos apžvalga](../starter-kit-overview.md).
-- Šioje temoje manoma, kad saito autoriai suprantia „Commerce“ saito kūrimo įrankio pagrindus, šablonus, fragmentus ir puslapius taip, kad jie galėtų įjungti B2B funkcijas el. komercijos saitams.
+- Šioje temoje laikoma, kad saito autoriai supranta „Commerce“ saito kūrimo įrankio pagrindus, šablonus, fragmentus ir puslapius taip, kad jie galėtų įjungti B2B funkcijas el. komercijos saitams.
 
 ## <a name="site-level-settings"></a>Saito lygio nustatymai
 
@@ -69,8 +67,8 @@ Norėdami nustatyti ir konfigūruoti verslo partnerio užklausos puslapį saito 
 1. Vietoje **Antraštė** įtraukite antraštės fragmentą, kuris iš anksto konfigūruojamas su saito antrašte.
 1. Vietoje **Poraštė** įtraukite poraštės fragmentą, kuris iš anksto konfigūruojamas su saito porašte.
 1. Vietoje **Pagrindinė** įtraukite **Konteinerio** modulį. Modulio ypatybių juostoje, nustatykite **Pločio** vertę į **Užpildyti konteinerį**.
-1. Vietoje **Konteineris** įtraukite **Džiūvesėlio** modulį. Modulio patybių juostoje, skyriuje **Nuorodos**, konfigūruokite nuorodą į pagrindinį puslapį ir įveskite **Pagrindinis** kaip nuorodos tekstą.
-1. Vietoje **Konteineris** įtraukite **Partnerio prisijungimo** modulį po **Džiūvesėlio** moduliu. Modulio ypatybių juostoje, **Antraštėje** įveskite **Tapti verslo partneriu**.
+1. Vietoje **Konteineris** įtraukite **Džiūvėsėlio** modulį. Modulio ypatybių juostoje, skyriuje **Nuorodos**, konfigūruokite nuorodą į pagrindinį puslapį ir įveskite **Pagrindinis** kaip nuorodos tekstą.
+1. Vietoje **Konteineris** įtraukite **Partnerio prisijungimo** modulį po **Džiūvėsėlio** moduliu. Modulio ypatybių juostoje, **Antraštėje** įveskite **Tapti verslo partneriu**.
 1. Vietoje **Partnerio prisijungimas** įtraukite **Verslo sąskaitos adreso** modulį.
 1. Vietoje **Konteineris** įtraukite **Teksto blokavimo** modulį po **Partnerio prisijungimo** moduliu. Čia galite nustatyti kai kurias sąvokas ir sąlygas prisijungimo procesui.
 1. Norėdami peržiūrėti puslapį, pasirinkite **Įrašyti** ir **Peržiūrėti**.
@@ -142,11 +140,11 @@ Norėdami sukurti ir konfigūruoti B2B sąskaitos valdymo nusileidimo puslapį s
 1. Vietoje **Antraštė** įtraukite antraštės fragmentą, kuris iš anksto konfigūruojamas su saito antrašte.
 1. Vietoje **Poraštė** įtraukite poraštės fragmentą, kuris iš anksto konfigūruojamas su saito porašte.
 1. Vietoje **Pagrindinė** įtraukite **Konteinerio** modulį. Modulio ypatybių juostoje, nustatykite **Pločio** vertę į **Užpildyti konteinerį**. 
-1. Vietoje **Konteineris** įtraukite **Džiūvesėlio** modulį. Modulio patybių juostoje, skyriuje **Nuorodos**, konfigūruokite nuorodą į pagrindinį puslapį ir įveskite **Pagrindinis** kaip nuorodos tekstą.
+1. Vietoje **Konteineris** įtraukite **Džiūvėsėlio** modulį. Modulio ypatybių juostoje, skyriuje **Nuorodos**, konfigūruokite nuorodą į pagrindinį puslapį ir įveskite **Pagrindinis** kaip nuorodos tekstą.
 1. Vietoje **Konteineris** įtraukite **Pasisveikinimo plytelės** modulį. Modulio ypatybių juostoje, **Antraštėje** įveskite **Pasisveikinimas**.
 1. Vietoje **Pagrindinis** įtraukite kitą **Konteinerio** modulį (**Konteineris 2**). Modulio ypatybių juostoje, nustatykite **Pločio** vertę į **Užpildyti konteinerį**. Nustatykite **Vaikų rodymo** vertę į **Du**. 
 1. Vietoje **Konteineris 2** įtraukite **Sąskaitos bendros plytelės** modulį. Modulio ypatybių juostoje, **Antraštėje** įveskite **Mano profilis**. Skyriuje **Nuorodos**, konfigūruokite nuorodą į **Mano profilio** puslapį. 
-1. Vietoje **Konteineris 2** įtraukite kitą **Sąskaitos bendros plytelės** modulį. Modulio ypatybių juostoje, **Antraštėje** įveskite **Užsakymo istorija**. Skyriuje **Nuorodos**, configūruokite nuorodą į užsakymo istorijos puslapį.
+1. Vietoje **Konteineris 2** įtraukite kitą **Sąskaitos bendros plytelės** modulį. Modulio ypatybių juostoje, **Antraštėje** įveskite **Užsakymo istorija**. Skyriuje **Nuorodos** konfigūruokite nuorodą į užsakymo istorijos puslapį.
 1. Vietoje **Pagrindinis** įtraukite kitą **Konteinerio** modulį (**Konteineris 3**). Modulio ypatybių juostoje, nustatykite **Pločio** vertę į **Užpildyti konteinerį**. Nustatykite **Vaikų rodymo** vertę į **Du**. 
 1. Vietoje **Konteineris 3** įtraukite **Sąskaitos adreso plytelės** modulį. Modulio ypatybių juostoje, **Antraštėje** įveskite **Mano adresas**. Skyriuje **Nuorodos**, konfigūruokite nuorodą į **Mano adresas** puslapį. 
 1. Vietoje **Konteineris 3** įtraukite **Sąskaitos norų sąrašo plytelės** modulį. Modulio ypatybių juostoje, **Antraštėje** įveskite **Mano norų sąrašas**. Skyriuje **Nuorodos**, konfigūruokite nuorodą į **Mano norų sąrašas** puslapį.
@@ -174,7 +172,7 @@ Norėdami sukurti kliento balanso puslapį saito kūrimo įrankyje, vadovaukitė
 1. Vietoje **Antraštė** įtraukite antraštės fragmentą, kuris iš anksto konfigūruojamas su saito antrašte.
 1. Vietoje **Poraštė** įtraukite poraštės fragmentą, kuris iš anksto konfigūruojamas su saito porašte.
 1. Vietoje **Pagrindinis** įtraukite kitą **Konteinerio** modulį (**Konteineris 3**). Modulio ypatybių juostoje, nustatykite **Pločio** vertę į **Užpildyti konteinerį**. Nustatykite **Vaikų rodymo** vertę į **Du**.
-1. Vietoje **Konteineris** įtraukite **Džiūvesėlio** modulį. Modulio patybių juostoje, skyriuje **Nuorodos**, konfigūruokite nuorodą sąskaitos valdymo nusileidimo pluslapį ir įveskite **Mano sąskaita** kaip nuorodos tekstą.
+1. Vietoje **Konteineris** įtraukite **Džiūvėsėlio** modulį. Modulio ypatybių juostoje, skyriuje **Nuorodos**, konfigūruokite nuorodą sąskaitos valdymo nusileidimo puslapį ir įveskite **Mano sąskaita** kaip nuorodos tekstą.
 1. Vietoje **Konteineris** įtraukite **Kliento sąskaitos balanso** modulį. Modulio ypatybių juostoje, **Antraštėje** įveskite **Sąskaitos balansas**.
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 1. Publikuoti URL puslapiui.
@@ -198,7 +196,7 @@ Du užsakymo šablono puslapiai gali būti nustatyti B2B el. komercijos saitui: 
 
 Užsakymo šablono sąrašo puslapis rodo užsakymo šablonų sąrašą, kuris yra prieinamas. Jis nustatomas naudojant **Užsakymo šablonų** modulį. Užsakymo šablonų sąrašo puslapis jums leidžia kurti ar naikinti šabloną ir įtraukti prekes šablone į vežimėlį.
 
-Užsakymo šablono eilutės puslapis rodo išsamią užsakymo šablono informaciją, kuri yra pasirinkta užsakymo šablonų sąrašo puslapyje. Jis nustatomas naudojant **Užsakymo šablonų eilučių** modulį. Kai vartototjai pasirenka šablono pavadinimą užsakymo šablonų sąrašo puslapyje, užsakymo šablono eilučių puslapis pasirodo ir rodo išsamią šablono informaciją. Vartotojas gali tuomet peržiūrėti ir redaguoti prekes šablone.
+Užsakymo šablono eilutės puslapis rodo išsamią užsakymo šablono informaciją, kuri yra pasirinkta užsakymo šablonų sąrašo puslapyje. Jis nustatomas naudojant **Užsakymo šablonų eilučių** modulį. Kai vartotojai pasirenka šablono pavadinimą užsakymo šablonų sąrašo puslapyje, užsakymo šablono eilučių puslapis pasirodo ir rodo išsamią šablono informaciją. Vartotojas gali tuomet peržiūrėti ir redaguoti prekes šablone.
 
 ### <a name="create-an-order-templates-list-page"></a>Kurti užsakymo šablonų sąrašo puslapį
 
@@ -208,7 +206,7 @@ Norėdami sukurti užsakymo šablonų sąrašo puslapį saito kūrimo įrankyje,
 1. Vietoje **Antraštė** įtraukite antraštės fragmentą, kuris iš anksto konfigūruojamas su saito antrašte.
 1. Vietoje **Poraštė** įtraukite poraštės fragmentą, kuris iš anksto konfigūruojamas su saito porašte.
 1. Vietoje **Pagrindinė** įtraukite **Konteinerio** modulį. Modulio ypatybių juostoje, nustatykite **Pločio** vertę į **Užpildyti konteinerį**.
-1. Vietoje **Konteineris** įtraukite **Džiūvesėlio** modulį. Modulio patybių juostoje, skyriuje **Nuorodos**, konfigūruokite nuorodą sąskaitos valdymo nusileidimo pluslapį ir įveskite **Mano sąskaita** kaip nuorodos tekstą.
+1. Vietoje **Konteineris** įtraukite **Džiūvėsėlio** modulį. Modulio ypatybių juostoje, skyriuje **Nuorodos**, konfigūruokite nuorodą sąskaitos valdymo nusileidimo puslapį ir įveskite **Mano sąskaita** kaip nuorodos tekstą.
 1. **Konteineris 5** vietoje, įtraukite **Užsakymo šablonų sąrašo** modulį.
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 1. Publikuoti URL puslapiui.
@@ -226,14 +224,14 @@ Norėdami sukurti užsakymo šablonų eilučių puslapį saito kūrimo įrankyje
 1. Vietoje **Antraštė** įtraukite antraštės fragmentą, kuris iš anksto konfigūruojamas su saito antrašte.
 1. Vietoje **Poraštė** įtraukite poraštės fragmentą, kuris iš anksto konfigūruojamas su saito porašte.
 1. Vietoje **Pagrindinė** įtraukite **Konteinerio** modulį. Modulio ypatybių juostoje, nustatykite **Pločio** vertę į **Užpildyti konteinerį**.
-1. Vietoje **Konteineris** įtraukite **Džiūvesėlio** modulį. Modulio patybių juostoje, skyriuje **Nuorodos**, konfigūruokite nuorodą sąskaitos valdymo nusileidimo pluslapį ir įveskite **Mano sąskaita** kaip nuorodos tekstą.
+1. Vietoje **Konteineris** įtraukite **Džiūvėsėlio** modulį. Modulio ypatybių juostoje, skyriuje **Nuorodos**, konfigūruokite nuorodą sąskaitos valdymo nusileidimo puslapį ir įveskite **Mano sąskaita** kaip nuorodos tekstą.
 1. **Konteineris** vietoje, įtraukite **Užsakymo šablono eilutės** modulį.
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 1. Publikuoti URL puslapiui.
 
 ## <a name="onboard-business-partner-users"></a>Įtraukimo verslo partnerio vartotojai
 
-Organizacija naudoja puslapį, kuris leidžia verslo partnerio organizacijos administratoriui įtraukti papildomus vartotojus iš tos organzacijos į B2B el. komercijos saitą. Jis nustatomas naudojant **Verslo organizacijos sąrašo** modulį. Organizacijos vartotojų puslapyje administratorius gali įtraukti ar pašalinti vartotojus, nustatyti sąskaitos balansus ir užklausos pareiškimus vartotojui.
+Organizacija naudoja puslapį, kuris leidžia verslo partnerio organizacijos administratoriui įtraukti papildomus vartotojus iš tos organizacijos į B2B el. komercijos saitą. Jis nustatomas naudojant **Verslo organizacijos sąrašo** modulį. Organizacijos vartotojų puslapyje administratorius gali įtraukti ar pašalinti vartotojus, nustatyti sąskaitos balansus ir užklausos pareiškimus vartotojui.
 
 Norėdami sukurti organizacijos vartotojų puslapį saito kūrimo įrankyje, vadovaukitės šiais žingsniais.
 
@@ -241,7 +239,7 @@ Norėdami sukurti organizacijos vartotojų puslapį saito kūrimo įrankyje, vad
 1. Vietoje **Antraštė** įtraukite antraštės fragmentą, kuris iš anksto konfigūruojamas su saito antrašte.
 1. Vietoje **Poraštė** įtraukite poraštės fragmentą, kuris iš anksto konfigūruojamas su saito porašte.
 1. Vietoje **Pagrindinė** įtraukite **Konteinerio** modulį. Modulio ypatybių juostoje, nustatykite **Pločio** vertę į **Užpildyti konteinerį**.
-1. Vietoje **Konteineris** įtraukite **Džiūvesėlio** modulį. Modulio patybių juostoje, skyriuje **Nuorodos**, konfigūruokite nuorodą sąskaitos valdymo nusileidimo pluslapį ir įveskite **Mano sąskaita** kaip nuorodos tekstą.
+1. Vietoje **Konteineris** įtraukite **Džiūvėsėlio** modulį. Modulio ypatybių juostoje, skyriuje **Nuorodos**, konfigūruokite nuorodą sąskaitos valdymo nusileidimo puslapį ir įveskite **Mano sąskaita** kaip nuorodos tekstą.
 1. Vietoje **Konteineris 4** įtraukite **Verslo organizacijos sąrašo** modulį. Modulio ypatybių juostoje, **Antraštėje** įveskite **Organizacijos vartotojų**.
 1. Modulio ypatybių juostoje **Verslo organizacijos sąrašas** įjunkite **Lentelės rūšiavimą** ir **Lentelės puslapių** ypatybes. Nustatykite puslapių skaičiavimą į **5**.
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
@@ -254,7 +252,7 @@ Norėdami sukurti organizacijos vartotojų puslapį saito kūrimo įrankyje, vad
 
 Sąskaitų sąrašo puslapis rodo esamų sąskaitų sąrašą. Jis nustatomas naudojant **Sąskaitų sąrašo** modulį. Iš sąskaitų sąrašo puslapio, vartotojai gali mokėti ar prašyti sąskaitų. 
 
-Sąskaitos išsamios informacijos puslapis rodo sąskaitos išsamią informaciją, kuris pasirinkta sąskaitos sąrašo puslapyje. Jis nustatomas naudojant **Sąskaitos išsamios informacijos** modulį. Vartotojui pasirinkus sąskaitos ID sąskaitos sąrašo puslapyje, ąskaitos išsamios informacijos puslapis pasirodo išsamios sąskaitos sąskaitoje.
+Sąskaitos išsamios informacijos puslapis rodo sąskaitos išsamią informaciją, kuris pasirinkta sąskaitos sąrašo puslapyje. Jis nustatomas naudojant **Sąskaitos išsamios informacijos** modulį. Vartotojui pasirinkus sąskaitos ID sąskaitos sąrašo puslapyje, sąskaitos išsamios informacijos puslapis pasirodo išsamios sąskaitos sąskaitoje.
 
 ### <a name="create-an-invoices-list-page"></a>Kurti sąskaitų sąrašo puslapį
 
@@ -264,7 +262,7 @@ Norėdami sukurti sąskaitos sąrašo puslapį saito kūrimo įrankyje, vadovauk
 1. Vietoje **Antraštė** įtraukite antraštės fragmentą, kuris iš anksto konfigūruojamas su saito antrašte.
 1. Vietoje **Poraštė** įtraukite poraštės fragmentą, kuris iš anksto konfigūruojamas su saito porašte.
 1. Vietoje **Pagrindinė** įtraukite **Konteinerio** modulį. Modulio ypatybių juostoje, nustatykite **Pločio** vertę į **Užpildyti konteinerį**.
-1. Vietoje **Konteineris** įtraukite **Džiūvesėlio** modulį. Modulio patybių juostoje, skyriuje **Nuorodos**, konfigūruokite nuorodą sąskaitos valdymo nusileidimo pluslapį ir įveskite **Mano sąskaita** kaip nuorodos tekstą.
+1. Vietoje **Konteineris** įtraukite **Džiūvėsėlio** modulį. Modulio ypatybių juostoje, skyriuje **Nuorodos**, konfigūruokite nuorodą sąskaitos valdymo nusileidimo puslapį ir įveskite **Mano sąskaita** kaip nuorodos tekstą.
 1. Vietoje **Konteineris** įtraukite **Sąskaitų sąrašo** modulį. Modulio ypatybių juostoje, **Antraštėje** įveskite **Sąskaitos**.
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 1. Publikuoti URL puslapiui.
@@ -280,7 +278,7 @@ Norėdami sukurti sąskaitos išsamios informacijos puslapį saito kūrimo įran
 1. Vietoje **Antraštė** įtraukite antraštės fragmentą, kuris iš anksto konfigūruojamas su saito antrašte.
 1. Vietoje **Poraštė** įtraukite poraštės fragmentą, kuris iš anksto konfigūruojamas su saito porašte.
 1. Vietoje **Pagrindinė** įtraukite **Konteinerio** modulį. Modulio ypatybių juostoje, nustatykite **Pločio** vertę į **Užpildyti konteinerį**.
-1. Vietoje **Konteineris** įtraukite **Džiūvesėlio** modulį. Modulio patybių juostoje, skyriuje **Nuorodos**, konfigūruokite nuorodą sąskaitos valdymo nusileidimo pluslapį ir įveskite **Mano sąskaita** kaip nuorodos tekstą. Tuomet konfigūruotkite nuroodą į sąskaitos sąrašo puslapį ir įveskite **Sąskaitos sąrašus** kaip nuorodos tekstą.
+1. Vietoje **Konteineris** įtraukite **Džiūvėsėlio** modulį. Modulio ypatybių juostoje, skyriuje **Nuorodos**, konfigūruokite nuorodą sąskaitos valdymo nusileidimo puslapyje ir įveskite **Mano sąskaita** kaip nuorodos tekstą. Tuomet konfigūruokite nuorodą į sąskaitos sąrašo puslapį ir įveskite **Sąskaitos sąrašus** kaip nuorodos tekstą.
 1. Vietoje **Konteineris** įtraukite **Sąskaitos išsamios informacijos** modulį.
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 1. Publikuoti URL puslapiui.

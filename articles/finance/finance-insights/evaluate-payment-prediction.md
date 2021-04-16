@@ -2,11 +2,9 @@
 title: Pradinio kliento mokėjimo prognozavimo modelio įvertinimas (peržiūros versija)
 description: Šioje temoje aprašomi veiksmai, kuriuos galite atlikti, kad suprastumėte kliento mokėjimo prognozavimo modelį ir įvertintumėte jo efektyvumą.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 9cbe0308902071c066d18ce71e6e33422207e8ba
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 56ec9795f0eb8b15dd00578bf35739eaa9e3d086
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245597"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818632"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Pradinio kliento mokėjimo prognozavimo modelio įvertinimas (peržiūros versija)
 
@@ -68,7 +66,7 @@ Norint giliau išanalizuoti rezultatus, geriausiapradėti peržiūrint metriką 
 
 Šiuos duomenis galite išplėstim, kaip nurodyta toliau.
 
-|                          | Prognozuojama laiku | Prognozuojamas vėlavimas | Prognozuojamas žymus vėlavimas |
+| &nbsp;                   | Prognozuojama laiku | Prognozuojamas vėlavimas | Prognozuojamas žymus vėlavimas |
 |--------------------------|-------------------|----------------|---------------------|
 | Faktinis mokėjimas laiku   | **71**            | 0              | 21                  |
 | Faktinis vėluojantis mokėjimas      | 5                 | **0**          | 27                  |

@@ -2,11 +2,9 @@
 title: Išlaidų valdymo pagrindinis puslapis
 description: Išlaidų valdymas leidžia atlikti žaliavų, pusgaminių, pagamintų prekių ir nebaigtos gamybos turto vertinimą ir apskaitą.
 author: AndersGirke
-manager: tfehr
 ms.date: 04/25/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da4e2b4ec74fe073b28b78eb1a21a76b01b872cb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1a1594babd6f27a6af867267d2ae745549355d3c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250983"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839372"
 ---
 # <a name="cost-management-home-page"></a>Išlaidų valdymo pagrindinis puslapis
 
@@ -39,7 +37,7 @@ Išlaidų strategijas galite nustatyti šiose srityse:
 - [Netiesioginių išlaidų apskaita](costing-sheets.md)
 - [DK integracija](production-order-cost-analysis.md)
 
-Pavyzdžiui, galite nurodyti, kuriuos atsargų vertinimo metodus (pvz., [FIFO](fifo-physical-value-marking.md), [Svertinio vidurkio](weighted-average-physical-value-marking.md), [Standartinių išlaidų](prerequisites-standard-costs.md) ar [Slenkančio vidurkio](moving-average.md)) norite taikyti produktams [Prekių modelių grupėje](../inventory/reserve-inventory-quantities.md) atlikdami atsargų apskaitą.
+Pavyzdžiui, galite nurodyti, kuriuos atsargų vertinimo metodus, pavyzdžiui, [FIFO](fifo-physical-value-marking.md), [Svertinio vidurkio](weighted-average-physical-value-marking.md), [Standartinių išlaidų](prerequisites-standard-costs.md) ar [Slenkančio vidurkio](moving-average.md) norite taikyti produktams [Prekių modelių grupėje](../inventory/reserve-inventory-quantities.md) atlikdami atsargų apskaitą.
 
 Atsargų apskaitą ir gamybos apskaitą galite atverti iš darbo sričių **Išlaidų administravimas** ir **Išlaidų analizė**. Šiose darbo srityse pateikta išsami dabartinės būsenos, pagrindinių efektyvumo indikatorių (KPI) ir nuokrypių nustatymo apžvalga. 
 

@@ -1,12 +1,10 @@
 ---
 title: Priežiūros planai
 description: Šioje temoje aptariami priežiūros planai skiltyje Turto valdymas.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenancePlan, EntAssetObjectType, EntAssetCounterType, EntAssetWorkOrderLifecycleModel
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 09ae8b0ce56b08db0ba400b19676bd698c90a561
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 143b9337dc9ca530383575e0f9bb16e4313ce96b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500819"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839612"
 ---
 # <a name="maintenance-plans"></a>Priežiūros planai
 
@@ -195,8 +193,6 @@ Toliau pateiktame paveikslėlyje pateiktas priežiūros planų, sukonfigūruotų
 
 ## <a name="counter-based-maintenance-enhancements"></a>Skaitikliu pagrįsti priežiūros patobulinimai
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 Priemonė *Skaitikliu pagrįsti priežiūros patobulinimai* turi šias funkcijas:
 
 - Parinktį automatiškai įterpti skaitiklį su verte *0 (nulis)* sukūrus turtą. Ši parinktis gali būti naudinga, kai naudojate prognozinę priežiūrą, pagrįstą skaitikliais. Kai funkcija *Skaitikliu pagrįsti priežiūros patobulinimai* nenaudojama, skaitikliai su verte *0 (nulis)* turi būti įterpti rankiniu būdu.
@@ -209,7 +205,7 @@ Priemonė *Skaitikliu pagrįsti priežiūros patobulinimai* turi šias funkcijas
 Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
 
 - **Modulis:** *Turto valdymas*
-- **Funkcijos pavadinimas:** *(Peržiūros versija) Skaitikliu pagrįsti priežiūros patobulinimai*
+- **Funkcijos pavadinimas:** *Skaitikliu pagrįsti priežiūros patobulinimai*
 
 ### <a name="create-and-initialize-counters-when-an-asset-is-created"></a>Skaitiklių kūrimas ir inicijavimas turto kūrimo metu
 

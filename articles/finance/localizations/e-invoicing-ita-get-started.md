@@ -1,12 +1,10 @@
 ---
-title: Darbo su Italijos elektroninių SF išrašymo priedu pradžia
-description: Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis Italijos elektroninių SF išrašymo priedu „Microsoft Dynamics 365 Finance” ir „Dynamics 365 Supply Chain Management”.
+title: Darbo su elektroninių SF priedu Italijai pradžia
+description: Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis elektroninių SF išrašymo priedu Italijai.
 author: gionoder
-manager: AnnBe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,14 +15,14 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9c50000c98bdde2c9da43b3110686aa5d01e8081
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 23cb0523b6d6d065ad19f6c3bddf881b0dc82a7d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259225"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840105"
 ---
-# <a name="get-started-with-the-electronic-invoicing-add-on-for-italy"></a>Darbo su Italijos elektroninių SF išrašymo priedu pradžia
+# <a name="get-started-with-electronic-invoicing-for-italy"></a>Darbo su elektroninių SF priedu Italijai pradžia
 
 [!include [banner](../includes/banner.md)]
 
@@ -32,7 +30,7 @@ ms.locfileid: "5259225"
 > [!IMPORTANT]
 > Italijos elektroninių SF išrašymo priedas šiuo metu gali nepalaikyti visų funkcijų, pasiekiamų elektroninėms SF „Microsoft Dynamics 365 Finance” ir „Dynamics 365 Supply Chain Management”. 
 
-Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis Italijos elektroninių SF išrašymo priedu. Ji padės atlikti konfigūracijos veiksmus, priklausančius nuo šalies, „Regulatory Configuration Services” (RCS) ir „Finance”. Ji taip pat paaiškina, kaip pateikti elektronines SF, sugeneruotas Italijai būdingu formatu **„FatturaPA”**, naudojant paslaugą, ir kaip peržiūrėti apdorojimo rezultatus.
+Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis elektroninių SF išrašymo priedu Italijai. Ji padės atlikti konfigūracijos veiksmus, priklausančius nuo šalies, „Regulatory Configuration Services” (RCS) ir „Finance”. Ji taip pat paaiškina, kaip pateikti elektronines SF, sugeneruotas Italijai būdingu formatu **„FatturaPA”**, naudojant paslaugą, ir kaip peržiūrėti apdorojimo rezultatus.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
@@ -153,7 +151,7 @@ Galite publikuoti el. SF išrašymo funkciją pakeisdami versijos būseną į **
 
 ![El. SF išrašymo funkcijos būsenos keitimas](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
 
-## <a name="set-up-the-electronic-invoicing-add-on-integration-in-finance"></a>Elektroninių SF išrašymo priedo integravimo nustatymas „Finance”
+## <a name="set-up-electronic-invoicing-integration-in-finance"></a>Elektroninių SF išrašymo priedo integravimo nustatymas „Finance”
 
 „Finance” nustatymo metu galėsite atlikti toliau pateiktas užduotis.
 
@@ -243,8 +241,8 @@ Galite peržiūrėti visų pateiktų dokumentų pateikimo žurnalus.
 ## <a name="related-topics"></a>Susijusios temos
 
 - [Elektroninių SF išrašymo priedo apžvalga](e-invoicing-service-overview.md)
-- [Darbo su elektroninių SF išrašymo priedu pradžia](e-invoicing-get-started.md)
-- [Elektroninių SF išrašymo priedo nustatymas](e-invoicing-setup.md)
+- [Darbo su elektroninių SF priedu pradžia](e-invoicing-get-started.md)
+- [Elektroninių SF nustatymas](e-invoicing-setup.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

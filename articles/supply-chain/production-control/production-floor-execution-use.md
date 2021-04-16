@@ -2,11 +2,9 @@
 title: Kaip darbuotojai naudoja gamybos cecho vykdymo sąsają
 description: Šioje temoje aprašoma, kaip darbuotojo atžvilgiu naudoti gamybos cecho vykdymo sąsają.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecution
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 38bc07d37b5c51f143846110c87cff9952d52b0e
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 02046da5e2487e203c9658c255f95a7c403d0b10
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500795"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814661"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kaip darbuotojai naudoja gamybos cecho vykdymo sąsają
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Gamybos cecho vykdymo sąsaja yra optimizuota lietimo sąveikai. Jos dizainas suteikia vaizdo kontrastingumą, atitinkantį pritaikymo neįgaliesiems reikalavimus cecho aplinkose. Jis siūlo visas tas pačias funkcines galimybes kaip ir užduoties kortelės įrenginys. Tačiau ji taip pat leidžia vienu metu pradėti kelias užduočių sąrašo užduotis. (Ši galimybė taip pat vadinama *užduočių grupavimu*.) Be to, užduočių sąraše darbuotojai gali atidaryti vadovą, sukurtą „Microsoft Dynamics 365” vadove. Tokiu būdu galima gauti vaizdines „HoloLens” instrukcijas.
 
@@ -90,7 +87,7 @@ Skirtuke **Mano mašina** yra šie stulpeliai. Skaičiai atitinka skaičius anks
 
 1. **Nustatymai** – pasirinkite pavarų piktogramą atidaryti dialogo langui, kuriame galėsite pasirinkti, kuriuos skaitiklius peržiūrėti pasirinktam įrenginio turtui. Šių skaitiklių reikšmės rodomos skirtuko **Turto valdymas** viršuje. Meniu **Parametrai** (rodomas toliau pateiktoje ekrano nuotraukoje) leidžia įgalinti ne daugiau keturių skaitiklių. Skaitiklio pasirinkimui naudokite peržvalgos lauką, esantį plytelės viršuje, kiekvienam skaitikliui, kurį norite įgalinti. Peržvalgos lauke pateikiami visi su turtu susiję skaitikliai, pasirinkti puslapio **Turto valdymas** viršuje. Nustatykite kiekvieną skaitiklį stebėti arba **Bendrą** arba **Faktinę** skaitiklio reikšmę. Pavyzdžiui, jei nustatote skaitiklį sekti, kiek valandų veikia mašina, tada turite nustatyti jį kaip **Bendra**. Jei nustatote skaitiklį matuoti vėliausią atnaujintą temperatūrą ar slėgį, tada turite nustatyti jį kaip **Faktinė**. Norėdami įrašyti parametrus ir uždaryti dialogo langą, pasirinkite **Gerai**.
 
-    ![Skirtukas Mano mašina](media/pfei-my-machine-tab-settings.png "Skirtukas Mano mašina")
+    ![Skirtuko Mano mašina parametrai](media/pfei-my-machine-tab-settings.png "Skirtuko Mano mašina parametrai")
 
 1. **Priežiūros užklausa** – pasirinkite šį mygtuką, jei norite atidaryti dialogo langą, kuriame galite sukurti priežiūros užklausą. Galėsite pateikti aprašą ir pastabą. Užklausa bus pateikta „Supply Chain Management” vartotojui, kuris tada galės konvertuoti priežiūros užklausą į priežiūros darbo užsakymą.
 1. **Registruoti prastovą** – pasirinkite šį mygtuką, jei norite atidaryti dialogo langą, kuriame galite registruoti įrenginio prastovą. Galėsite pasirinkti priežasties kodą ir įvesti prastovos datos / laiko trukmę. Įrenginių prastovos registracija naudojama skaičiuojant įrenginio turto efektyvumą.
