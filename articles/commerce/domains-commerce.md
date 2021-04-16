@@ -2,11 +2,9 @@
 title: „Dynamics 365 Commerce“ esantys domenai
 description: Šioje temoje aprašoma, kaip domenai valdomi „Microsoft Dynamics 365 Commerce”.
 author: BrShoo
-manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bafa49cc570ddf7e0ff9c3dcb1b6902fb341b790
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8d4381c64b69f8b62dcb509407c4f04dcee696ae
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225794"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792804"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>„Dynamics 365 Commerce“ esantys domenai
 
@@ -40,7 +38,7 @@ Suteikiant e-komercijos aplinką [„Microsoft Dynamics  Lifecycle Services“ (
 
 Tolesnis paveikslėlis rodo LCS e-komercijos suteikimo ekraną su pabrėžtu **Palaikomais šeimininko pavadinimais** laukeliu. 
 
-![LCS e-komercijos suteikimo ekranas su **Palaikomi talpinimo pavadinimiai** pabrėžtas laukelis](./media/Domains_ProvisioningeCommerceScreen.png)
+![LCS e-komercijos suteikimo ekranas su **Palaikomi talpinimo pavadinimai** pabrėžtas laukelis](./media/Domains_ProvisioningeCommerceScreen_publish.png)
 
 Galite sukurti paslaugos užklausą, norėdami įtraukti papildomus domenus į aplinką, jei parengimas jau įvyko. Norėdami sukurti paslaugos užklausą LCS, jūsų aplinkoje eikite į **Palaikymas \> Palaikymo problemos** ir pasirinkite **Pateikti incidentą**.
 

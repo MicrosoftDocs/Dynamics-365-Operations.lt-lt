@@ -2,11 +2,9 @@
 title: Atnaujinimo procesas
 description: „Microsoft Dynamics 365 Human Resources“ yra tipiška programinės įrangos nuomos paslauga („SaaS“), teikianti nepertraukiamus, bekontakčius paslaugų naujinimus, skirtus programai ir platformai keisti.
 author: andreabichsel
-manager: tfehr
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 27561bfd9cb4f115cc507954c837ea93f9c93b72
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 4069e369b1a9f15372d1e29e3809198b90b12c7e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466837"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791538"
 ---
 # <a name="update-process"></a>Atnaujinimo procesas
 
@@ -58,14 +56,14 @@ Kai reikia, „Human Resources“ taip pat teikia šiuos taisymų tipus:
 
 Leidimai yra peržiūrimi, tikrinami ir patvirtinami vidinėje aplinkoje. Kai atsijungiama nuo komponavimo versijų, jos bus įdiegtos gamybai.
 
-## <a name="release-cadence-exceptions-in-2020"></a>Numatomi išleidimo intervalai 2020 m.
+## <a name="release-cadence-exceptions-in-2021"></a>Numatomi išleidimo intervalai 2021 m.
 
-Norint atsiskaityti už atostogas, toliau pateiktas 2020 m. lapkričio ir gruodžio mėn. leidimų grafikas.
+Norint atsiskaityti už atostogas, toliau pateiktas 2021 m. lapkričio ir gruodžio mėn. leidimų grafikas.
 
-- Lapkričio mėn. leidimas: lapkričio 2 d. – lapkričio 13 d.
-- Gruodžio mėn. leidimas: lapkričio 30 d. – gruodžio 11 d.
+- Lapkričio mėn. leidimas: lapkričio 1 d. – lapkričio 14 d.
+- Gruodžio mėn. leidimas: lapkričio 29 d. – gruodžio 12 d.
  
-Dviejų savaičių išleidimo intervalai bus tęsiami kaip įprasta 2021 m. sausio 11 d.
+Dviejų savaičių išleidimo intervalai bus tęsiami kaip įprasta 2022 m. sausio 10 d.
 
 ## <a name="communications"></a>Kontaktai
 

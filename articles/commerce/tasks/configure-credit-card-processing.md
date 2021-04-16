@@ -1,12 +1,10 @@
 ---
-title: " Konfigūruoti kredito kortelės apdorojimą"
+title: Kredito kortelės apdorojimo konfigūravimas
 description: Ši procedūra padeda peržiūrėti mokėjimo paslaugų teikėjų sąrašą ir konfigūruoti gautinų sumų mokėjimo sąskaitą.
 author: jashanno
-manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,14 +13,14 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d365dfce8e8fbd332111d96eeb2a431151d7a342
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 13aa59ab1c6b0170ae9ab8972fb00bcf47e2b754
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234226"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5789761"
 ---
-# <a name="configure-credit-card-processing"></a> Konfigūruoti kredito kortelės apdorojimą
+# <a name="configure-credit-card-processing"></a>Kredito kortelės apdorojimo konfigūravimas
 
 [!include [banner](../includes/banner.md)]
 

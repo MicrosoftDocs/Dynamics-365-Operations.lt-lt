@@ -2,8 +2,7 @@
 title: 'ER: reikiamų konfigūracijų kūrimas norint importuoti duomenis iš išorinio failo'
 description: Šioje temoje aprašoma, kaip kurti elektroninių ataskaitų konfigūracijas, kad iš išorinio failo būtų galima importuoti duomenis į „Microsoft Dynamics 365 Finance“ programą.
 author: NickSelin
-manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 03/24/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +13,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b8a94173c7c5367b79bfcb354f0397515d94445
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 2194bdc918035bf3aebe9b90ddc8a30f9937bb0c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564295"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751467"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER: reikiamų konfigūracijų kūrimas norint importuoti duomenis iš išorinio failo
 
 [!include [banner](../../includes/banner.md)]
 
-Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali kurti elektroninių ataskaitų (ER) konfigūracijas norėdamas importuoti duomenis iš išorinio failo į programą. Šiame pavyzdyje kursite reikiamas kaip pavyzdys pateiktos įmonės „Litware, Inc.“ ER konfigūracijas. Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti užduočių vedlio „ER: konfigūracijų teikėjo sukūrimas ir pažymėjimas aktyviu“ veiksmus“. Šiuos veiksmus galima atlikti naudojant USMF duomenų rinkinį. Be to, naudodami nuorodas į elektroninių ataskaitų apžvalgos temą, turite atsisiųsti ir įrašyti vietoje šiuos failus (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
+Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali kurti elektroninių ataskaitų (ER) konfigūracijas norėdamas importuoti duomenis iš išorinio failo į programą. Šiame pavyzdyje kursite reikiamas kaip pavyzdys pateiktos įmonės „Litware, Inc.“ ER konfigūracijas. Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti užduočių vedlio „ER: konfigūracijų teikėjo sukūrimas ir pažymėjimas aktyviu“ veiksmus“. Šiuos veiksmus galima atlikti naudojant USMF duomenų rinkinį. Taip pat turite atsiųsti ir vietoje įrašyti toliau nurodytus failus: 
+
+| Turinio aprašas                       | Failo vardas                                     |
+|-------------------------------------------|-----------------------------------------------|
+| ER duomenų modelio konfigūracija - 1099 | [1099model.xml](https://download.microsoft.com/download/b/d/9/bd9e8373-d558-4ab8-aa9b-31981adc97ea/1099model.xml)                  |
+| ER formato konfigūracija - 1099    | [1099format.xml](https://download.microsoft.com/download/e/8/7/e87154b0-b53f-431f-8e1e-0b7f7c9805a9/1099format.xml)                  |
+| Gaunamo dokumento XML formatu pavyzdys                          | [1099entries.xml](https://download.microsoft.com/download/4/0/3/403a4958-df24-476a-b8b0-6843a9fa7f89/1099entries.xml)        |
+| Darbaknygės, skirtos tvarkyti gaunamo dokumento duomenis, pavyzdys                          | [1099entries.xlsx](https://download.microsoft.com/download/6/0/0/6001abab-a331-48db-a939-41851fb0f5d0/1099entries.xlsx) |
 
 ER įmonių vartotojams suteikia galimybę konfigūruoti išorinių duomenų failų importavimo į lenteles procesą .XML arba .TXT formatu. Pirma, turi būti sukurta abstraktaus duomenų modelio ir ER duomenų modelio konfigūracija, kad būtų rodomi importuojami duomenys. Tada turite nustatyti importuojamo failo struktūrą ir metodą, kurį naudosite duomenims iš failo į abstraktų duomenų modelį perkelti. ER formato konfigūracija, susiejama su sukurtu duomenų modeliu, turi būti sukurta tam abstrakčiam duomenų modeliui. Tada duomenų modelio konfigūracija turi būti išplėsta įtraukiant susiejimą, kuriame aprašoma, kokiu būdu importuoti duomenys išlaikomi kaip abstraktaus duomenų modelio duomenys ir kaip jie naudojami atnaujinant lenteles.  ER duomenų modelio konfigūracija turi būti pridėta įtraukiant naujo modelio susiejimą, kuriame aprašomas duomenų modelio susiejimas su programos paskirties vietomis.  
 

@@ -2,7 +2,6 @@
 title: Sukonfigūruoto ER komponento patikrinimas, kad nekiltų vykdymo problemų
 description: Šioje temoje paaiškinama, kaip patikrinti sukonfigūruotus elektroninių ataskaitų (ER) komponentus siekiant išvengti galinčių kilti vykdymo problemų.
 author: NickSelin
-manager: AnnBe
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 86db6dc27a8a76e90494e3dc7a7cc9c828f9ec37
-ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
+ms.openlocfilehash: d164dfe10c9736d8b4529a32ffba765f94ad37d9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5574130"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753845"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Sukonfigūruoto ER komponento patikrinimas, kad nekiltų vykdymo problemų
 
@@ -666,19 +665,19 @@ Tolesnėje iliustracijoje rodoma vykdymo klaida, kuri įvyksta, jei nepaisote į
 
 ![Vykdymo klaida, įvykstanti susiejant formatą formato kūrimo įrankio puslapyje](./media/er-components-inspections-10b.png)
 
-### <a name="automatic-resolution"></a>Automatinis sprendimas
+### <a name="automatic-resolution&quot;></a>Automatinis sprendimas
 
 Nėra parinkties šiai problemai išspręsti automatiškai.
 
-### <a name="manual-resolution"></a>Neautomatinis sprendimas
+### <a name=&quot;manual-resolution&quot;></a>Neautomatinis sprendimas
 
-#### <a name="option-1"></a>1 pasirinktis
+#### <a name=&quot;option-1&quot;></a>1 pasirinktis
 
 Pašalinkite vėliavėlę **Talpykla** nuo duomenų šaltinio **Vendor**. Duomenų šaltinis **FilteredVendor** taps vykdomuoju, tačiau lentelėje VendTable nurodytas duomenų šaltinis **Vendor** bus pasiekiamas kiekvieną kartą, kai bus iškviestas duomenų šaltinis **FilteredVendor**.
 
-#### <a name="option-2"></a>2 pasirinktis
+#### <a name=&quot;option-2&quot;></a>2 pasirinktis
 
-Duomenų šaltinio **FilteredVendor** reiškinį iš `FILTER(Vendor, Vendor.AccountNum="US-101")` pakeiskite į `WHERE(Vendor, Vendor.AccountNum="US-101")`. Šiuo atveju lentelėje VendTable nurodytas duomenų šaltinis **Vendor** bus pasiekiamas tik pirmą kartą iškviečiant duomenų šaltinį **Vendor**. Tačiau įrašų parinkimas bus atliekamas atmintyje. Todėl, naudojant šį metodą, gali suprastėti našumas.
+Duomenų šaltinio **FilteredVendor** reiškinį iš `FILTER(Vendor, Vendor.AccountNum=&quot;US-101")` pakeiskite į `WHERE(Vendor, Vendor.AccountNum="US-101")`. Šiuo atveju lentelėje VendTable nurodytas duomenų šaltinis **Vendor** bus pasiekiamas tik pirmą kartą iškviečiant duomenų šaltinį **Vendor**. Tačiau įrašų parinkimas bus atliekamas atmintyje. Todėl, naudojant šį metodą, gali suprastėti našumas.
 
 ## <a name="missing-binding"></a><a id="i11"></a>Trūksta susiejimo
 

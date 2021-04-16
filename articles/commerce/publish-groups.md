@@ -2,11 +2,9 @@
 title: Darbas su publikavimo grupėmis
 description: Šioje temoje aprašoma publikavimo grupių funkcija „Microsoft Dynamics 365 Commerce“.
 author: phinneyridge
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,21 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b623573f598f6b21291cafe95fa04e6777cffe11
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 15ac04721e440dcd7c0f8984c14e86aa0f68963e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244844"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792320"
 ---
 # <a name="work-with-publish-groups"></a>Darbas su publikavimo grupėmis
-
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma publikavimo grupių funkcija „Microsoft Dynamics 365 Commerce“.
-
-## <a name="overview"></a>Peržiūra
 
 „E-commerce“ svetainėse ištisus metus nuolat pateikiamas naujas turinys. Naujinimai dažnai pateikiami paketais svarbių el. prekybos įvykių metu, pvz., per šventes, sezonines rinkodaros kampanijas arba reklaminius paleidimus. Šiuose naujinimuose dažnai reikalaujama, kad svetainės turinio grupės (pavyzdžiui, puslapiai, vaizdai, fragmentai ir šablonai) būtų paruošiami, patvirtinami ir publikuojami tuo pačiu metu vienu veiksmu.
 
@@ -119,7 +114,7 @@ Norėdami atšaukti publikavimo grupės planavimą, atlikite tuos pačius veiksm
 > [!NOTE]
 > Labai didelių publikavimo grupių publikavimas gali užtrukti minutę arba dvi, atėjus jų suplanuotam laikui. Atminkite, kad publikavimo veiksmas nėra momentinis ir kad mažesnės publikavimo grupės bus paskelbtos greičiau.
 
-## <a name="publish-groups-faq"></a>DUK apie publikavimo grupes 
+## <a name="publish-groups-faq"></a>DUK apie publikavimo grupes
 
 **Kiek elementų gali būti publikavimo grupėje?**
 

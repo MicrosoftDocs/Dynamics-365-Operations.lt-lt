@@ -6,19 +6,18 @@ ms.topic: article
 ms.date: 07/27/2020
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d6bb23ead43b8a0e500f6a37167cadd538074005
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e280a5ff938ab17279ea842bb6bc993453369b8a
+ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245208"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "5637293"
 ---
 # <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-supply-chain-management"></a>Mokymosi katalogas „Microsoft Partner“ Prekybos ir Komercijos vaidmenims „Dynamics 365 Supply Chain Management“
 
@@ -31,7 +30,7 @@ Toliau pateiktas katalogas yra sutvarkytas taip, kad žinios būtų išdėstytos
 | Turinys  | aprašymas  | Formatuoti  | Ilgis    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
 | [Sužinokite apie „Microsoft Dynamics 365“ ir „Power Platform“ naudą verslui](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Ar norite sužinoti apie verslo programas? Galbūt nežinote, kur pradėti naudodami „Microsoft Dynamics 365” ir „Power Platform” programas? Sužinokite, kaip verslo programos gali transformuoti jūsų verslą. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 7 valandos |
-| [„Dynamics 365“ ir „Power Platform“ pagrindai](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Ar norite sužinoti apie verslo programas? Pradėkite nuo šio mokymosi scenarijaus, kad sužinotumėte, kaip naudojamos „Dynamics 365“ programos. Sužinokite apie debesų koncepcijas, „Power Platform“ ir apie tai, kaip pradėti naudotis „Dynamics 365“ programomis. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 5.5 valandos |
+| [„Dynamics 365“ ir „Power Platform“ pagrindai](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Ar norite sužinoti apie verslo programas? Pradėkite nuo šio mokymosi scenarijaus, kad sužinotumėte, kaip naudojamos „Dynamics 365“ programos. Sužinokite apie debesų koncepcijas, „Power Platform“ ir apie tai, kaip pradėti naudotis „Dynamics 365“ programomis. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 5,5 valandos |
 | [Darbo su „Finance and Operations“ programomis pradžia](https://docs.microsoft.com/learn/paths/get-started-finance-operations/) | Sužinokite, kaip „Finance and Operations“ programos padeda įmonėms tvarkyti savo globalias finansines sistemas, darbinius verslo procesus ir supaprastintas tiekimo grandines, siekiant suteikti žmonėms galimybę greitai priimti pagrįstus sprendimus. Darydami pirmąjį darbo su „Finance and Operations“ programomis karjeros žingsnį, turite susipažinti su jų funkcijomis ir savybėmis, kad ir kokių pareigų siektumėte. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 2 valandos |
 | [Kursas MB-900T01-A: „Dynamics 365“ pagrindai](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | Šis kursas supažindins besimokantįjį su „Dynamics 365“ funkcijomis ir nauda verslui. Kursas apžvelgs „Dynamics 365“ programas, „Power Platform“, debesų koncepcijas, saugos modelį ir licencijavimo klausimus. | Šis kursas gali būti asmeniškai vedamas mokytojo arba pasiekiamas internetinių mokymų formatu, o kaina priklauso nuo regiono ir partnerio | 1 diena |
 

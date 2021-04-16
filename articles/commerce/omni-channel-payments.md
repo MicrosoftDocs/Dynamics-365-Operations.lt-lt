@@ -2,11 +2,9 @@
 title: Integruotų kanalų mokėjimų apžvalga
 description: Šioje temoje pateikiama informacija apie „Dynamics 365 Commerce“ integruoto kanalo mokėjimus.
 author: rubendel
-manager: AnnBe
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 3fe64dad3c60560363428d76566d910868b87111
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 07d8e740e8f20533272c403446d5e8294c9f37a1
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244916"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791131"
 ---
 # <a name="omni-channel-payments-overview"></a>Integruotų kanalų mokėjimų apžvalga
 
@@ -59,7 +57,7 @@ Kiekvienam šioje temoje aprašytam scenarijui reikalinga mokėjimo jungtis, pal
 
 Mokėjimų SDK priklauso nuo dviejų mokėjimo programų kūrimo sąsajų (API) rinkinių. Pirmas API rinkinys pavadintas **iPaymentProcessor**. Jis naudojamas taikant tipo „kortelės nėra“ jungtis, kurias galima naudoti skambučių centruose ir su „Microsoft Dynamics“ elektroninės prekybos platforma. Norėdami daugiau informacijos apie sąsają **iPaymentProcessor** žr. mokėjimus apimančią dokumentaciją [Mokėjimo jungties ir mokėjimo įrenginio diegimas](https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device_update.pdf). 
 
-Antras API rinkinys pavadintas **iNamedRequestHandler**. Jis palaiko tipo „kortelė yra“ mokėjimo integravimo, naudojančio mokėjimo terminalą, diegimą. Norėdami daugiau informacijos apie sąsają **iNamedRequestHandler** sąsają, žr [Mokėjimų integravimo į mokėjimo terminalą kūrimas](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/end-to-end-payment-extension). 
+Antras API rinkinys pavadintas **iNamedRequestHandler**. Jis palaiko tipo „kortelė yra“ mokėjimo integravimo, naudojančio mokėjimo terminalą, diegimą. Norėdami gauti daugiau informacijos apie sąsają **„iNamedRequestHandler”** sąsają, žr. [Mokėjimų integravimo į mokėjimo terminalą kūrimas](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/end-to-end-payment-extension). 
 
 ### <a name="setup-and-configuration"></a>Nustatymas ir konfigūracija
 
@@ -67,10 +65,10 @@ Būtini toliau nurodyti komponentai ir nustatymo veiksmai.
 
 - **„eCommerce“ integracija:** norint, kad būtų palaikomi scenarijai, kai užsakymas pateikiamas internetinėje parduotuvėje, reikalinga integracija su „Commerce“. Norėdami daugiau informacijos apie „Retail e-Commerce“ SDK, žr. [„e-Commerce“ platformos programinės įrangos kūrimo rinkinys (SDK)](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk). Demonstracinėje aplinkoje nuorodos parduotuvė palaiko integruoto mokėjimo scenarijus. 
 - **Mokėjimų internetu konfigūracija:** internetinio kanalo sąranka turi apimti mokėjimo jungtį, kuri buvo atnaujinta, kad palaikytų integruoto kanalo mokėjimus. Taip pat galima naudoti parengtą naudoti mokėjimo jungtį. Informacijos apie tai, kaip konfigūruoti „Adyen“ mokėjimo jungtį, skirtą internetinėms parduotuvėms, žr. [„Adyen“ mokėjimo jungtis](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce). Reikia ne tik atlikti šioje temoje aprašytus „eCommerce“ sąrankos veiksmus, bet ir „Adyen“ jungties parametruose nustatyti parametro **Leisti įrašyti informaciją Galima įrašyti informaciją apie elektroninėje prekyboje** vertę **True**. 
-- **Daugiakanalių mokėjimų konfigūracija:** operacijų skyriuje eikite į **„Retail and Commerce“ \> Būstinės sąranka \> Parametrai \> Bendrai naudojami „Commerce“ parametrai**. Tada skirtuke **Integruotas kanalas** nustatykite parinkties **Naudoti integruoto kanalo mokėjimus** vertę **Taip**. Prekybos versijose 10.0.12 ir velesnėse šie parametrai yra **Funkcijų valdymo** darbo srityje. Pasirinkite **Vieno kanalo mokėjimai** funkciją ir paspauskite **Įjungti dabar**. 
+- **Daugiakanalių mokėjimų konfigūracija:** operacijų skyriuje eikite į **„Retail and Commerce“ \> Būstinės sąranka \> Parametrai \> Bendrai naudojami „Commerce“ parametrai**. Tada skirtuke **Integruotas kanalas** nustatykite parinkties **Naudoti integruoto kanalo mokėjimus** vertę **Taip**. Prekybos versijose 10.0.12 ir naujesnėse šie parametrai yra **Funkcijų valdymo** darbo srityje. Pasirinkite **Vieno kanalo mokėjimai** funkciją ir paspauskite **Įjungti dabar**. 
 - **Mokėjimo paslaugos:** skambučių centras naudoja numatytąją mokėjimo jungtį puslapyje **Mokėjimo paslaugos**, kad apdorotų mokėjimus. Siekiant palaikyti tokius scenarijus „Pirkimas skambučių centre, atsiėmimas parduotuvėje“, ši numatytoji mokėjimo jungtis turi būti „Adyen“ mokėjimo jungtis arba mokėjimo jungtis, kuri atitinka integruoto kanalo mokėjimų vykdymo reikalavimus.
 - **EFT paslauga:** mokėjimo terminale atliekami mokėjimai turi būti nustatyti aparatinės įrangos profilio „FastTab“**EFT paslauga**. „Adyen“ jungtis iš karto palaiko integruoto kanalo mokėjimus. Kitos mokėjimo jungtys, palaikančios sąsają **iNamedRequestHandler**, taip pat gali būti naudojamos, jei jos palaiko integruoto kanalo mokėjimus.
-- **Mokėjimo jungties pasiekiamumas:** kai užsakymas atšaukiamas, į mokėjimo priemonės eilutes, kurios buvo atšauktos kartu su užsakymu, įtraukiamas mokėjimo jungties, kuri buvo naudojama kuriant su tuo užsakymu susijusius autorizavumus, pavadinimas. Kai užsakymas įvykdomas, mokėjimų SDK bando naudoti tą pačią jungtį, kuri buvo naudojama pradiniam autorizavimui sukurti. Todėl jungtį, kurios prekybininko ypatybės sutampa, turi pavykti fiksuoti. 
+- **Mokėjimo jungties pasiekiamumas:** kai užsakymas atšaukiamas, į mokėjimo priemonės eilutes, kurios buvo atšauktos kartu su užsakymu, įtraukiamas mokėjimo jungties, kuri buvo naudojama kuriant su tuo užsakymu susijusius autorizavimus, pavadinimas. Kai užsakymas įvykdomas, mokėjimų SDK bando naudoti tą pačią jungtį, kuri buvo naudojama pradiniam autorizavimui sukurti. Todėl jungtį, kurios prekybininko ypatybės sutampa, turi pavykti fiksuoti. 
 - **Kortelių tipai:** kad integruoto kanalo scenarijai veiktų tinkamai, kiekvieno kanalo priemonių tipų sąranka turi būti tokia pati ir ją turi būti galima naudoti integruotame kanale. Ši sąranka apima apmokėjimo būdo ID ir kortelės tipo ID. Pvz., jei internetinės parduotuvės sąrankoje priemonės tipo **Kortelės** ID yra **2** , mažmeninės parduotuvės sąrankoje jos ID turi būti toks pat. Tas pats reikalavimas taikomas kortelės tipo ID. Jei internetinėje parduotuvėje kortelės numeris **12** nustatytas kaip **VISA**, mažmeninės prekybos parduotuvėje turi būti nustatytas toks pat ID. 
 - „ Retail Modern POS“ „Windows“ ar „Android“ su įdiegta kompiuterinės įrangos stotimi -arba-
 - Modernus POS iOS ar debesies POS su sujungta bendrinta kompiuterinės įrangos stotimi. 
