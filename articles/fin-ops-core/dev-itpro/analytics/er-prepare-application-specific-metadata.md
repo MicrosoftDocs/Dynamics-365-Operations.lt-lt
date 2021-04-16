@@ -2,7 +2,6 @@
 title: Programos metaduomenų, kurie bus naudojami RCS ir ER, paruošimas
 description: Šioje temoje paaiškinama, kaip paruošti programos metaduomenis, skirtus „Regulatory Configuration Service“ (RCS) ir elektroninėms ataskaitoms (ER).
 author: NickSelin
-manager: AnnBe
 ms.date: 04/04/2019
 ms.topic: article
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 37da06f4ba86594c6368dcd1049456c58bf87e3a
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: f0501fd67da0cbc5c10171b55004cb7f4fd4fd16
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565470"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743708"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Programos metaduomenų, kurie bus naudojami RCS ir ER, paruošimas
 

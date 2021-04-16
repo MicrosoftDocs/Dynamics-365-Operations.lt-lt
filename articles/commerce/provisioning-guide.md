@@ -2,11 +2,9 @@
 title: „Dynamics 365 Commerce” vertinimo aplinkos parengimas
 description: Ši tema paaiškina, kaip galite parengti „Microsoft Dynamics 365 Commerce“ vertinimo aplinką.
 author: psimolin
-manager: annbe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a57cc02c6d62f288f14b65191c2f4927a019963c
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 19cedf01d1b916de785454d55448f41d1f5db1df
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5478169"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792296"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>„Dynamics 365 Commerce” vertinimo aplinkos parengimas
 
@@ -33,7 +31,7 @@ ms.locfileid: "5478169"
 Prieš pradedant konfigūraciją, rekomenduojame perskaityti šią temą, kad suprastumėte proceso eigą.
 
 > [!NOTE]
-> Komercijos vertinimo aplinkos dažniausiai nėra prieinamos ir yra suteikiamos partneriams ir klientams atskyru jų prašymu. Dėl išsamesnės informacijos, susisiekite su „Microsoft“ partnerio pagalbos centru.
+> Komercijos vertinimo aplinkos dažniausiai nėra prieinamos ir yra suteikiamos partneriams ir klientams atskiru jų prašymu. Dėl išsamesnės informacijos, susisiekite su „Microsoft“ partnerio pagalbos centru.
 
 Tam, kad sėkmingai parengtumėte Komercijos vertinimo aplinką privalote sukurti projektą, kuris turi konkretų gaminio pavadinimą ir tipą. Aplinka ir „Commerce Scale Unit“ (CSU) taip pat turi keletą specifinių parametrų, kuriuos privalote naudoti tikėdamiesi vėliau nustatyti „e-Commerce“. Šioje temoje pateiktos instrukcijos aprašo visus žingsnius būtinus užbaigti jūsų privalomą naudoti parengimą ir parametrus.
 
@@ -47,7 +45,7 @@ Toliau pateikti būtinieji komponentai privalo būti pritaikyti prieš jūsų Ko
 
 - Buvote priimtas į vertinimo programą ir jums suteiktos galimybės vertinimo aplinkoje.
 - Turite prieigą prie „Microsoft Dynamics Lifecycle Services“ (LCS) portalo.
-- Esate „Microsoft Dynamics“ 365 partneris ar klientas ir galite sukurti „Dynamics 365 Commerce“ projektą.
+- Esate „Microsoft Dynamics 365” partneris ar klientas ir galite sukurti „Dynamics 365 Commerce“ projektą.
 - Jūs turite administratoriaus prieigą prie savo „Microsoft Azure“ prenumeratos ir galite susisiekti su jos administratoriumi, kuris pagelbės jums esant poreikiui.
 - Turite savo „Azure Active Directory“ („Azure AD“) nuomotojo ID.
 - Sukūrėte „Azure AD“ saugos grupę, kuri gali būti naudojama kaip „e-Commerce“ sistemos administratoriaus grupė, ir turite jos ID.
@@ -130,11 +128,11 @@ Jei negalite surasti **Tvarkyti** nuorodos aplinkos informacijos peržiūroje, s
 
 Talpinimo proceso metu, galite gauti šią klaidos žinutę:
 
-> Demonstracinės ar testinės aplinkos vertinimas turi būti registruojamas skalės vieneto jungties programoje \<application ID\> būstinėje.
+> Demonstracinės ar testavimo aplinkos vertinimas turi būti registruojamas skalės vieneto jungties programoje \<application ID\> būstinėje.
 
 Jei CSU pradžia nepavyksta ir gaunate šią klaidos žinutę, užsirašykite programos ID, kuris bendrai yra unikalus identifikatorius (GUID) ir tuomet atlikite veiksmus kitame skyriuje siekiant registruoti CSU talpinimo programą „Commerce“ būstinėje.
 
-### <a name="register-the-csu-deployment-application-in-commerce-headquarters-if-required"></a>Registruoktie CSU talpinimo programą „Commerce“ būstinėje (jei būtina)
+### <a name="register-the-csu-deployment-application-in-commerce-headquarters-if-required"></a>Registruokite CSU talpinimo programą „Commerce“ būstinėje (jei būtina)
 
 Norėdami registruoti CSU talpinimo programą „Commerce“ būstinėje, imkitės šių veiksmų.
 
@@ -156,8 +154,8 @@ Norėdami inicijuoti „e-Commerce“, atlikite toliau nurodytus veiksmus.
 
 1. Pasirinkite **Pirmyn**, kad tęstumėte.
 1. Lauke **Palaikomi pagrindinių kompiuterių vardai** įveskite bet kurį tinkamą domeną, pvz., `www.fabrikam.com`.
-1. **AAD saugos grupė sistemos administratoriui** laukelyje, pirmiausia įveskite kelias jūsų norimos naudoti saugos grupės pavadinimo raides ir tuomet pasirinkite didinamojo stiklo simbolį ieškos rezultatų peržiūrai.  Pasirinkite tinkamą saugos grupę sąraše.
-1.  **AAD saugos grupė reitingavimo ir peržiūros moderatoriui** laukelyje, pirmiausia įveskite kelias jūsų norimos naudoti saugos grupės pavadinimo raides ir tuomet pasirinkite didinamojo stiklo simbolį ieškos rezultatų peržiūrai.  Pasirinkite tinkamą saugos grupę sąraše.
+1. **AAD saugos grupė sistemos administratoriui** laukelyje, pirmiausia įveskite kelias jūsų norimos naudoti saugos grupės pavadinimo raides ir tuomet pasirinkite didinamojo stiklo simbolį ieškos rezultatų peržiūrai. Pasirinkite tinkamą saugos grupę sąraše.
+1.  **AAD saugos grupė reitingavimo ir peržiūros moderatoriui** laukelyje, pirmiausia įveskite kelias jūsų norimos naudoti saugos grupės pavadinimo raides ir tuomet pasirinkite didinamojo stiklo simbolį ieškos rezultatų peržiūrai. Pasirinkite tinkamą saugos grupę sąraše.
 1. Palikite **Reitingavimo ir peržiūros paslaugų įjungimas** parinktį nustatytą į **Taip**.
 1. Pasirinkite **Inicijuoti**. Vėl rodomas rodinys **„Commerce“ valdymas**, kuriame pasirinktas skirtukas **„e-Commerce“**. „E-Commerce“ inicijavimas pradėtas.
 1. Prieš tęsdami, palaukite, kol „e-Commerce“ inicijavimo būsena bus **Inicijuota sėkmingai**.

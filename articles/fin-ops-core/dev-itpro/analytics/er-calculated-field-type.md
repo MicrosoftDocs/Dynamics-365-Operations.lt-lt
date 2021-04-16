@@ -2,7 +2,6 @@
 title: Apskaičiuoto lauko tipo ER duomenų šaltinių parametrizuotų kvietimų palaikymas
 description: Šioje temoje pateikiama informacija apie tai, kaip naudoti ER duomenų šaltinių apskaičiuoto lauko tipą.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1c2c13cd3f165826e0d5b5ac901ffa61895301e7
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 897133a27f9d3da2f576ce675c0949f824cde881
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569206"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749494"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Apskaičiuoto lauko tipo ER duomenų šaltinių parametrizuotų kvietimų palaikymas
 
@@ -194,7 +193,7 @@ Puslapyje **Formato kūrimo įrankis** sukonfigūruotam parametrizuotam apskaič
 
 ![Išplėstas apskaičiuoto lauko lygių sąrašas](media/er-calculated-field-type-08.png)
 
-### <a name="use-the-configured-calculated-field-for-binding-format-elements"></a>Naudokite sukonfigūruotą apskaičiuotą lauką formato elementams susieti
+### <a name="use-the-configured-calculated-field-for-binding-format-elements&quot;></a>Naudokite sukonfigūruotą apskaičiuotą lauką formato elementams susieti
 
 1. Pasirinkite **Model.Data2.Levels**, kad pasirinktumėte sukonfigūruotą apskaičiuotą lauką.
 2. Pasirinkite formato elementą **Statement.Taxation.Regular**.
@@ -215,7 +214,7 @@ Puslapyje **Formato kūrimo įrankis** sukonfigūruotam parametrizuotam apskaič
 9. Pasirinkite **Susieti**.
 10. Pasirinkite **Taip**, kad patvirtintumėte naudojamo duomenų šaltinio **Level3** pakeitimą nauju duomenų šaltiniu **Lygiai** visuose pasirinkto formato elemento įdėtuosiuose formato elementuose.
 
-   Kai nurodote XML elemento, atitinkančio apmokestinimo lygį, parametrizuoto apskaičiuoto lauko argumentą (pavyzdžiui, **Model.Data2.Levels("Reduced")** kaip tekstinę reikšmę), jums nebereikia to atlikti su įdėtaisiais XML atributais – susiejimuose bus automatiškai paveldėta pirminiame lygyje nurodyta argumento reikšmė (**Model.Data2.Levels.aggregated.Base**, ne **Model.Data2.Levels("Reduced").aggregated.Base**).
+   Kai nurodote XML elemento, atitinkančio apmokestinimo lygį, parametrizuoto apskaičiuoto lauko argumentą (pavyzdžiui, **Model.Data2.Levels(&quot;Reduced")** kaip tekstinę reikšmę), jums nebereikia to atlikti su įdėtaisiais XML atributais – susiejimuose bus automatiškai paveldėta pirminiame lygyje nurodyta argumento reikšmė (**Model.Data2.Levels.aggregated.Base**, ne **Model.Data2.Levels("Reduced").aggregated.Base**).
 
 Negalimi pasikartojantys parametrizuoto apskaičiuoto lauko kvietimai.
 
