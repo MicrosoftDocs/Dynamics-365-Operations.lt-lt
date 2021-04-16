@@ -2,11 +2,9 @@
 title: EUR-00012 ES įrašo sertifikato gavimas
 description: Ši procedūra padės užregistruoti ES įrašo sertifikatą, kurį išdavė trečioji šalis ir kurį gavote iš savo kliento.
 author: mrolecki
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustEntryCertificateJour_W
 audience: Application User
@@ -15,31 +13,31 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a38dc241c48b719c800a4ee2fad6a73adfcfe97
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b7ee14445746f117edbc71fa51b4b013a95adc99
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227954"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822578"
 ---
-# <a name="eur-00012-receive-an-eu-entry-certificate"></a><span data-ttu-id="3415e-103">EUR-00012 ES įrašo sertifikato gavimas</span><span class="sxs-lookup"><span data-stu-id="3415e-103">EUR-00012 Receive an EU entry certificate</span></span>
+# <a name="eur-00012-receive-an-eu-entry-certificate"></a><span data-ttu-id="6a87f-103">EUR-00012 ES įrašo sertifikato gavimas</span><span class="sxs-lookup"><span data-stu-id="6a87f-103">EUR-00012 Receive an EU entry certificate</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="3415e-104">Ši procedūra padės užregistruoti ES įrašo sertifikatą, kurį išdavė trečioji šalis ir kurį gavote iš savo kliento.</span><span class="sxs-lookup"><span data-stu-id="3415e-104">This procedure walks you through registering an EU entry certificate issued by a third-party and received from your customer.</span></span>
+<span data-ttu-id="6a87f-104">Ši procedūra padės užregistruoti ES įrašo sertifikatą, kurį išdavė trečioji šalis ir kurį gavote iš savo kliento.</span><span class="sxs-lookup"><span data-stu-id="6a87f-104">This procedure walks you through registering an EU entry certificate issued by a third-party and received from your customer.</span></span>
 
 
 
-<span data-ttu-id="3415e-105">Juriant šią procedūrą naudojama demonstracinių duomenų įmonė yra DEMF.</span><span class="sxs-lookup"><span data-stu-id="3415e-105">The demo data company used to create this procedure is DEMF.</span></span>
+<span data-ttu-id="6a87f-105">Juriant šią procedūrą naudojama demonstracinių duomenų įmonė yra DEMF.</span><span class="sxs-lookup"><span data-stu-id="6a87f-105">The demo data company used to create this procedure is DEMF.</span></span>
 
-1. <span data-ttu-id="3415e-106">Eikite į Gautinos sumos > Užklausos ir ataskaitos > Įrašo sertifikato žurnalas.</span><span class="sxs-lookup"><span data-stu-id="3415e-106">Go to Accounts receivable > Inquiries and reports > Entry certificate journal.</span></span>
-2. <span data-ttu-id="3415e-107">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="3415e-107">Click New.</span></span>
-3. <span data-ttu-id="3415e-108">Lauke Įrašo sertifikatas įveskite vertę.</span><span class="sxs-lookup"><span data-stu-id="3415e-108">In the Entry certificate field, type a value.</span></span>
-4. <span data-ttu-id="3415e-109">Lauke Kliento sąskaita spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="3415e-109">In the Customer account field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="3415e-110">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="3415e-110">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="3415e-111">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="3415e-111">Click Save.</span></span>
-    * <span data-ttu-id="3415e-112">Prie žurnalo pridėkite papildomos informacijos.</span><span class="sxs-lookup"><span data-stu-id="3415e-112">Attach additional information to the journal.</span></span>  
-    * <span data-ttu-id="3415e-113">Pavyzdžiui, prie žurnalo pridėkite nuskaitytą ES įrašo sertifikato vaizdą.</span><span class="sxs-lookup"><span data-stu-id="3415e-113">For example, attach a scanned image of the EU Entry certificate to the journal.</span></span>  
+1. <span data-ttu-id="6a87f-106">Eikite į Gautinos sumos > Užklausos ir ataskaitos > Įrašo sertifikato žurnalas.</span><span class="sxs-lookup"><span data-stu-id="6a87f-106">Go to Accounts receivable > Inquiries and reports > Entry certificate journal.</span></span>
+2. <span data-ttu-id="6a87f-107">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="6a87f-107">Click New.</span></span>
+3. <span data-ttu-id="6a87f-108">Lauke Įrašo sertifikatas įveskite vertę.</span><span class="sxs-lookup"><span data-stu-id="6a87f-108">In the Entry certificate field, type a value.</span></span>
+4. <span data-ttu-id="6a87f-109">Lauke Kliento sąskaita spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="6a87f-109">In the Customer account field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="6a87f-110">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="6a87f-110">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="6a87f-111">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="6a87f-111">Click Save.</span></span>
+    * <span data-ttu-id="6a87f-112">Prie žurnalo pridėkite papildomos informacijos.</span><span class="sxs-lookup"><span data-stu-id="6a87f-112">Attach additional information to the journal.</span></span>  
+    * <span data-ttu-id="6a87f-113">Pavyzdžiui, prie žurnalo pridėkite nuskaitytą ES įrašo sertifikato vaizdą.</span><span class="sxs-lookup"><span data-stu-id="6a87f-113">For example, attach a scanned image of the EU Entry certificate to the journal.</span></span>  
 
 
 
