@@ -2,11 +2,9 @@
 title: Inžinierinių pakeitimų valdymo parametrai
 description: Šioje temoje paaiškina, kaip konfigūruoti inžinerijos keitimus valdymo funkcijose „Microsoft Dynamics 365 Supply Chain Management“.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d5cf6826aa44e27fae989c73d87d2d3687e0cd0c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 34c2cd1bb7bfaac50f8816e7eecabf754bc714c3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262290"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832231"
 ---
 # <a name="engineering-change-management-parameters"></a>Inžinierinių pakeitimų valdymo parametrai
 
@@ -37,13 +35,13 @@ Tolesnė lentelė aprašo laukelius, kurie yra prienami **Leidimo valdiklio** sk
 
 | Laukas | aprašymas |
 |---|---|
-| Prekės numerio taisyklė | Pasirinkite, kaip prekės skaičius turi būti nustatytas, kai produktas yra išleistas juridiniam asmeniui. Pasirinkite *Inžinerijos produkto skaičius* jei produkto skaičius gaunančiame juridiniame asmenyje turi atitikti produkto skaičių inžinerijos įmonėje. Pasirinkite *Vietinė prekės skaičiaus seka* jei produktas turi paimti koitą skaičių skaičių sekoje produktų skaičiams gaunančiame juridiniame asmenyje. |
-| KS pavadinimo taisyklė | Pasirinkite, kaip medžagų važtaraščio pavadinimas (BOM) yra nustatytas, kai produktas gaunamas (išleidžiamas) juridiniame asmenyje. Pasirinkite ar *Inžinerijos pavadinimą* ar *Gavimo prekės skaičius*. |
-| Maršruto pavadinimo taisyklė | Pasirinkite, kaip maršruto pavadinimas turi būti nustatytas, kai produkto maršrutas yra gaunamas (išleidžiamas) juridiniame asmenyje. Pasirinkite ar *Inžinerijos pavadinimą* ar *Gavimo prekės skaičius*. |
-| Vykdyti KS patikrą | Pasirinkite, ar BOM patikra bus vykdoma, kai produktas gaunamas (išleidžiamas) juridiniame asmenyje. |
-| Neaktyvios KS išleidimo būdas | Pasirinkite, ar produktas gali būti išleistas, jei yra neįjungtas BOM. Pasirinkite *Priimti*, *Tik įspėti* ar *Neleidžiama*. |
+| Prekės numerio taisyklė | Pasirinkite, kaip prekės skaičius turi būti nustatytas, kai produktas yra išleistas juridiniame subjekte. Pasirinkite *Inžinerijos produkto skaičius* jei produkto skaičius gaunančiame juridiniame subjekte turi atitikti produkto skaičių inžinerijos įmonėje. Pasirinkite *Vietinė prekės skaičiaus seka* jei produktas turi paimti kitą skaičių iš skaičių sekos produktų skaičiams gaunančiame juridiniame subjekte. |
+| KS pavadinimo taisyklė | Pasirinkite, kaip komplektavimo specifikacijos (KS) pavadinimas yra nustatytas, kai produktas gaunamas (išleidžiamas) juridiniame subjekte. Pasirinkite ar *Inžinerijos pavadinimą* ar *Gavimo prekės skaičius*. |
+| Maršruto pavadinimo taisyklė | Pasirinkite, kaip maršruto pavadinimas turi būti nustatytas, kai produkto maršrutas yra gaunamas (išleidžiamas) juridiniame subjekte. Pasirinkite ar *Inžinerijos pavadinimą* ar *Gavimo prekės skaičius*. |
+| Vykdyti KS patikrą | Pasirinkite, ar KS patikra bus vykdoma, kai produktas gaunamas (išleidžiamas) juridiniame subjekte. |
+| Neaktyvios KS išleidimo būdas | Pasirinkite, ar produktas gali būti išleistas, jei yra neįjungtas KS. Pasirinkite *Priimti*, *Tik įspėti* ar *Neleidžiama*. |
 | Neaktyvaus maršruto išleidimo būdas | Pasirinkite, ar produktas gali būti išleistas, jei yra neįjungtas maršrutas. Pasirinkite *Priimti*, *Tik įspėti* ar *Neleidžiama*.|
-| Produkto priėmimas | Pasirinkite, ar papildomas priėmimo žingsnis yra būtinas prieš tai, kai produktas gali būti išleistas jurdiniam asmeniui. Pasirinkite *Rankinis* tam, kad įtrauktumėte priėmimo žingsnį. Tokiu atveju, **Atverkite produkto išleidimų** puslapį, kuris rodys produktus. Pasirinkite *Automatinis* tam, kad jis rodytų produktą tiesiogiai **Išleisti produktai** puslapyje tiksliniame juridiniame asmenyje iš karto po to, kai produktas išleistas kartu su išleisto produkto struktūra. |
+| Produkto priėmimas | Pasirinkite, ar papildomas priėmimo žingsnis yra būtinas prieš tai, kai produktas gali būti išleistas juridiniame subjekte Pasirinkite *Rankinis* tam, kad įtrauktumėte priėmimo žingsnį. Tokiu atveju, **Atverkite produkto išleidimų** puslapį, kuris rodys produktus. Pasirinkite *Automatinis* tam, kad jis rodytų produktą tiesiogiai **Išleisti produktai** puslapyje tiksliniame juridiniame subjekte iš karto po to, kai produktas išleistas kartu su išleisto produkto struktūra. |
 
 ## <a name="engineering-change-management-tab"></a>Inžinerijos keitimo valdymo skirtukas
 
@@ -55,7 +53,7 @@ Tolesnė lentelė aprašo laukelius, kurie yra prienami **Inžinerijos keitimo v
 | Pirmenybė | Nustatytoji pirmenybė bus naudojama, kai inžinerijos keitimo užklausa sukuriama. |
 | Svarbos taisyklė | Pasirinkite, kaip inžinerijos keitimo užsakymo sunkumas turi būti įsteigtas. Pasirinkite *Rankinis*, jei vartotojas turi įvesti vertę **Sunkumo** laukelyje. Rinkitės *Apskaičiuoti* tam, kad sistema apskaičiuotų **Sunkumo** laukelio vertę jums pasirinkus **Skaičiuoti sunkumą** inžinerijos keitimo užsakymo veiksmų juostoje. šiuo atveju sistema naudos sunkumo taisykles, kurios nustatytos **Sunkumo taisyklių rinkinio** puslapyje. Rinkitės *Skaičiuoti automatiškai* tam, kad vertė **Sunkumo** laukelyje būtų skaičiuojama automatiniu būdu ir užpildoma pagal sunkumo taisyklių rinkinius. |
 | Pakartotinai išleisti paveiktus produktus | Šis laukelis taikomas jums išleidžiant produktus per inžinerijos keitimo užsakymą. Jums pasirinkus, ar visi produktai ar tik paveikti produktai turi būti siūlomi **Leidimų** teksto laukelyje. |
-| KS lygiai, kuriuos reikia išleisti | BOM lygio gylis leidimo metu. Jei BOM turi daugiau lygių (tai yra, jei jis gilesnis), tuomet vertė yra nurodyta čia, bus išleisti tik nurodytos vertės didesni lygiai. |
+| KS lygiai, kuriuos reikia išleisti | KS lygio gylis leidimo metu. Jei KS turi daugiau lygių (tai yra, jei jis gilesnis), tuomet vertė yra nurodyta čia, bus išleisti tik nurodytos vertės didesni lygiai. |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

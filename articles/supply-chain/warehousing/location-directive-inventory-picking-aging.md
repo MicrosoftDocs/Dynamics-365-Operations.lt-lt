@@ -1,12 +1,10 @@
 ---
 title: Vietos nurodymo atsargų paėmimo skirstymas pagal terminus
-description: Šiame skyriuje paaiškinama, kaip naudoti pirmą įvesties, išvesties (FIFO) ir paskutinį įvesties, pirmą išvesties (LIFO) vietos direktyvos stategijas paėmimo metu.
+description: Šiame skyriuje paaiškinama, kaip naudoti pirmą įvesties, išvesties (FIFO) ir paskutinį įvesties, pirmą išvesties (LIFO) vietos direktyvos strategijas paėmimo metu.
 author: mirzaab
-manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSWorkTable,WHSWaveTableListPage
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9107a14a79883dc0e33de311baeec5fd6d692a35
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 937af7e24fc72b5b8bc741857913899a239a64d3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500507"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835539"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Vietos nurodymo atsargų paėmimo skirstymas pagal terminus
 
 [!include [banner](../includes/banner.md)]
 
-Šiame skyriuje paaiškinama, kaip naudoti pirmą įvesties, išvesties (FIFO) ir paskutinį įvesties, pirmą išvesties (LIFO) vietos direktyvos stategijas paėmimo metu. Šios strategijos dirba kartu su amžiaus duomenimis, kurie yra įrašyti į vietas sekimui, kai inventorius pirmąkart patenka į sandėlį. *Vietos direktyvos inventoriaus paėmimo amžiaus* savybė naudoja vietos duomenis tam, kad nustatytų amžių. *Sandėli ovietos būsenos* savybė atnaujina duomenis vietoej pagal duomenis iš licencijos numerio.
+Šiame skyriuje paaiškinama, kaip naudoti pirmą įvesties, išvesties (FIFO) ir paskutinį įvesties, pirmą išvesties (LIFO) vietos direktyvos strategijas paėmimo metu. Šios strategijos dirba kartu su amžiaus duomenimis, kurie yra įrašyti į vietas sekimui, kai inventorius pirmąkart patenka į sandėlį. *Vietos direktyvos inventoriaus paėmimo amžiaus* savybė naudoja vietos duomenis tam, kad nustatytų amžių. *Sandėlio vietos būsenos* savybė atnaujina duomenis vietoje pagal duomenis iš licencijos numerio.
 
 Galite naudoti FIFO ir LIFO strategijas tiek paketų sekamų elementų siuntimui, tiek ir nesupakuotų elementų sekimui pagal duomenis, kai inventorius patenka į sandėlį. Ši funkcija gali būti ypatingai naudinga nesupakuoto inventoriaus sekimui, kurio galiojimo data nėra prieinama rūšiavimo naudojimui.
 
@@ -52,7 +50,7 @@ Kai inventorius gaunamas pirmą kartą sandėlyje ar sukuriamas jame, sistema at
 
 ### <a name="make-sample-data-available"></a>Įgalinkite duomenų pavyzdį
 
-Norėdami dirbti pagal šiuos scenarijus, naudojant nurodytus įrašų ir reikšmių pavyzdžius, standartiniai [demonstraciniai duomenys](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) turi būti įdiegti Jūsų sistemoje. Be to, turite pasirinkti **USMF** juridinį asmenį prieš pradedant.
+Norėdami dirbti pagal šiuos scenarijus, naudojant nurodytus įrašų ir reikšmių pavyzdžius, standartiniai [demonstraciniai duomenys](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) turi būti įdiegti Jūsų sistemoje. Be to, turite pasirinkti **USMF** juridinį subjektą prieš pradedant.
 
 Galite taip pat naudoti šiuos scenarijus kaip gaires savybės gamybos sistemoje naudojimui. Nepaisant to, tokiu atveju, turėsite pakeisti savo vertes kiekvienam šiame dokumente aprašytam nustatymui.
 
@@ -60,8 +58,8 @@ Galite taip pat naudoti šiuos scenarijus kaip gaires savybės gamybos sistemoje
 
 Demonstraciniai duomenys reikalauja nustatymo ir inventoriaus pakeitimų tam, kad palaikytų scenarijus. Atlikite šiuos žingsnius inventoriaus duomenų sukūrimui, kurie būtini dirbant su FIFO ir LIFO scenarijais.
 
-1. Prisijunkite prie sistemos, kai demonstraciniai duomenys yra įdiegti ir pasirinkite **USMF** juridinį asmenį.
-1. Pasirinkite **Sandėlio valdymas \> Nustatymas \> Sandėlys \> Vietos profiliai**.
+1. Prisijunkite prie sistemos, kai demonstraciniai duomenys yra įdiegti ir pasirinkite **USMF** juridinį subjektą.
+1. Pasirinkite **Sandėlio valdymas \> Nustatymas \> Sandėlis \> Vietos profiliai**.
 1. Veiksmų srityje pasirinkite **Redaguoti**.
 1. Vietų profilių sąraše, pasirinkite **FLOOR-05**.
 1. **Bendra** „FastTab“, nustatykite **Įjungti vietos būsenos** parinktį į *Taip*.
@@ -74,7 +72,7 @@ Demonstraciniai duomenys reikalauja nustatymo ir inventoriaus pakeitimų tam, ka
     - Jei nustatote FIFO scenarijų, pakeiskite **Strategijos** laukelio vertę į *FIFO vietos amžius*.
     - Jei nustatote LIFO scenarijų, pakeiskite **Strategijos** laukelio vertę į *LIFO vietos amžius*.
 
-1. **Vietos direktyvis veiksmų** „FastTab“, pasirinkite **Redaguoti užklausą**.
+1. **Vietos direktyvos veiksmų** „FastTab“, pasirinkite **Redaguoti užklausą**.
 1. Užklausos teksto laukelyje, **Intervalas** skirtuke, pasirinkite **Įtraukti** eilutės įtraukimui ir tuomet nustatykite šias vertes:
 
     - **Lentelė:** *Vietos*
@@ -82,16 +80,16 @@ Demonstraciniai duomenys reikalauja nustatymo ir inventoriaus pakeitimų tam, ka
     - **Laukas:** *Zonos ID*
     - **Kriterijai:** *Grindys*
 
-1. Pasirinkite **OK** tam, kad pritiakytumėte savo nustatymus uždarytumėte teksto laukelį.
+1. Pasirinkite **Gerai** tam, kad pritaikytumėte savo nustatymus uždarytumėte teksto laukelį.
 1. Pasirinkite **Įrašyti** tam, kad išsaugotumėte pakeitimus vietos direktyvoje.
-1. Moviliame prietaise arba „*Dynamics 365 for Finance and Operations“ - Sandėliavimas* programoje savo kompiuteryje atlikite šiuos žingsnius ir pašalinkite esantį inventorių iš sandėlio vietos tam, kad palaikytumėte scenarijus:
+1. Mobiliame įrenginyje arba „*Dynamics 365 for Finance and Operations“ – Sandėliavimas* programoje savo kompiuteryje atlikite šiuos žingsnius ir pašalinkite esantį inventorių iš sandėlio vietos tam, kad palaikytumėte scenarijus:
 
     1. Prisijunkite prie sandėlio *63* naudodami būtiną vartotojo identifikavimo kodą ir slaptažodį.
     1. Pagrindiniame meniu pasirinkite **Kokybė**.
     1. **Kokybės valdymas** meniu pasirinkite **Išmesti**.
     1. **Išmesti** puslapyje pasirinkite **LOC/LP** laukelį ir tuomet įveskite *63\_1*.
-    1. Pasirinkite **Įvesti** arba **OK**.
-    1. Patvirtinkite **Išmesti** informaciją **Reguliavimui išorėje** pasirinkdami **Įvesti** ar **OK**.
+    1. Pasirinkite **Įvesti** arba **Gerai**.
+    1. Patvirtinkite **Išmesti** informaciją **Reguliavimui išorėje** pasirinkdami **Įvesti** arba **Gerai**.
 
     Kai licencijos numerio inventorius yra sureguliuotas išorėje, gausite pranešimą „Darbas baigtas“.
 
@@ -114,7 +112,7 @@ FIFO strategija suranda vietą, turinčią seniausius amžiaus duomenis ir prisk
 1. Pasirinkite **Gerai** pirkimo užsakymui sukurti ir dialogo langui uždaryti.
 1. Naujas pardavimo užsakymas yra atidarytas. Jie apima naują, tuščią eilutę tinklelyje **Prekybos užsakymo eilutės** „FastTab“. Šiai užsakymo eilutei, nustatykite **Elemento numerio** laukelį į *A0001* ir **Kokybės** laukelį į *1*.
 1. Virš tinklelio esančiame meniu **Atsargos** pasirinkite **Rezervavimas**.
-1. **Rezervavimo** puslapyje, pasirinkite **Rezervuoti vietą** tam, kad rezervuotumėte užsakytą kiekį šiam elementui iš pasirinktame sandelyje esančio inventoriaus.
+1. **Rezervavimo** puslapyje, pasirinkite **Rezervuoti vietą** tam, kad rezervuotumėte užsakytą kiekį šiam elementui iš pasirinktame sandėlyje esančio inventoriaus.
 1. Uždarykite **Rezervavimas** puslapį.
 1. **Prekybos užsakymo** puslapyje, veiksmų juostoje **Sandėlio** skirtuke, **Veiksmai** grupėje, pasirinkite **Paleisti į sandėlį**. Gausite informacinį pranešimą. Sistema sukuria siuntą, įtraukia ją į naują krovinį ir sukuria reikiamą darbo užduotį.
 1. **Prekybos užsakymo eilučių** „FastTab“,  **Sandėlio** meniu, pasirinkite **Darbo informacija** tam, kad atidarytumėte šiam prekybos užsakymui sukurtą darbą. Atkreipkite dėmesį, kad eilutė, kurioje **Darbo tipo** vertė yra *Paimti*, rodo **Vietos** vertę *FL-002*. Ši vieta apima licencijos numerį, kuris turi seniausius amžiaus duomenis (FIFO).
@@ -126,7 +124,7 @@ FIFO strategija suranda vietą, turinčią seniausius amžiaus duomenis ir prisk
 LIFO strategija suranda vietą, turinčią naujausius amžiaus duomenis ir priskiria paėmimą pagal tuos amžiaus duomenis. Scenarijuje 2 redaguosite scenarijaus 1 (FIFO) nustatymus ir naudosite dar kartą prekybos užsakymą ir bangą, kurie buvo sukurti scenarijaus metu.
 
 1. Prieš pradėdami šį scenarijų, nustatykite ir užbaikite visą FIFO scenarijų kaip aprašyta [ankstesniame skyriuje](#fifo-demo). Šiame scenarijuje dar kartą naudosite bangą ir didžiąją dalį nustatymų, kurie buvo sukurti šiam scenarijui.
-1. Redaguokite **63 Paėmimo talpinimo į talpyklas** vietos direktyvą taip, kad ji naudotų *Vietos amžiaus LIFO* strategiją, kaip aprašyta primojoje [Scenarijų nustatymo](#demo-set-up) dalies procedūroje.
+1. Redaguokite **63 Paėmimo talpinimo į talpyklas** vietos direktyvą taip, kad ji naudotų *Vietos amžiaus LIFO* strategiją, kaip aprašyta pirmojoje [Scenarijų nustatymo](#demo-set-up) dalies procedūroje.
 
     Po to, keisite bangą, kuri buvo sukurta prekybos užsakymui scenarijuje 1 tam, kad ji naudotų *Vietos amžiaus LIFO* strategiją.
 

@@ -2,13 +2,11 @@
 title: Medžiagų išimčių matomumas
 description: Šioje temoje aprašoma, kaip galima padidinti gamybos užsakymų ir paketinių užsakymų žaliavų išimčių matomumą.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage
+ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage, WHSProdWaveTableManageBOMPool
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 1705903
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 87f82733388501f2f902e7ebba8b547d9ae5ed16
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d06bd5baeb6b8b6995fe1ae47f14bab458b8ecc2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246170"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831991"
 ---
 # <a name="visibility-into-material-exceptions"></a>Medžiagų išimčių matomumas
 
@@ -59,7 +57,11 @@ Kai pasirenkate plytelę, atidaromas puslapis **Išleisti į sandėlį**. Šiame
 
 Išleidus KS arba formulės eilutę, ji įtraukiama į naują gamybos bangą arba esamą atvirą bangą, priklausomai nuo gamybos bangos šablono konfigūracijos. Naudodami bangos šablono konfigūraciją taip pat galite nustatyti bangą, kad ji būtų automatiškai apdorojama išleidus KS arba formulės eilutę. Apdorojus bangą, sugeneruojamas žaliavų paėmimo sandėlio darbas. Jei bangos šablonas sukonfigūruotas taip, kad bangos nebūtų apdorojamos išleidimo metu, banga išlieka neapdorotos būsenos. Plytelėje **Neapdorotos bangos, į kurias reikia atkreipti dėmesį** rodomas KS ir formulės eilučių, kurios išleistos į sandėlį neapdorotomis bangomis ir kurių žaliavų data yra ankstesnė arba tokia pati kaip darbo srities data, skaičius. Eilutes taip pat turi suvartoti operacijos išteklius, taikomas darbo srities filtrui.
 
-Pasirinkus plytelę, atidaromas puslapis **Visos gamybos bangos**. Šis puslapis filtruojamas pagal atidarytų bangų, kuriose yra išleistų KS ir formulės eilučių bangų eilučių, atitinkančių plytelės kriterijus, skaičių. Puslapyje **Visos gamybos bangos** galite neautomatiškai apdoroti bangą.
+Pasirinkus plytelę, atsidaro puslapis **Visos gamybos bangos**. Šis puslapis filtruojamas pagal atidarytų bangų, kuriose yra išleistų KS ir formulės eilučių bangų eilučių, atitinkančių plytelės kriterijus, skaičių.
+
+### <a name="manually-maintain-production-waves"></a>Gamybos bangų tvarkymas rankiniu būdu
+
+Puslapyje **Visos gamybos bangos** galite naudoti veiksmų srities skirtuko **Banga** mygtukus, norėdami rankiniu būdu **Apdoroti** ir **Išleisti** bangą. Taip pat galite naudoti parinktį **Tvarkyti gamybą** peržiūrėti ir tvarkyti **Gamybos KS telkinio** duomenis, naudojamus bangos procesui tvarkyti.
 
 ## <a name="open-warehouse-work-needing-attention"></a>Atidarytas sandėlio darbas, į kurį reikia atkreipti dėmesį
 

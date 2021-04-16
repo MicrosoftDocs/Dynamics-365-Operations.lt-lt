@@ -2,11 +2,9 @@
 title: Naujienos ir pakeitimai „Dynamics 365 Supply Chain Management” 10.0.12 (2020 m. rugpjūtis)
 description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.12 versijos funkcijos.
 author: kamaybac
-manager: tfehr
 ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 8fdd831bd774f65e1737d5dec3046fa5ea978390
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0513dffb6395eaf00f4c71df91938a5db6486daf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258976"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832207"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Naujienos ir pakeitimai „Dynamics 365 Supply Chain Management” 10.0.12 (2020 m. rugpjūtis)
 
@@ -47,11 +45,11 @@ Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinima
 
 - [„IoT“ proto pagrindinės įžvalgos](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - Norėdami gauti daugiau informacijos, žr. [„IoT“ proto pagrindinis puslapis](../iot/iot-intelligence-home-page.md).
 
-- [Su sandėlio programa gaunami numerio lentelės papildymai (tęsinys)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Dėl išsamesnės informacijos, žr. [Licencijos ženklas gaunamas per sandėlio programą](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md)
+- [Su sandėlio programa gaunami numerio lentelės papildymai (tęsinys)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Daugiau informacijos rasite [Numerio lentelės gavimas per sandėlio valdymo mobiliųjų įrenginių programėlę](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
-- [Masinis diegimas sandėlio mobilioje programoje](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Dėl išsamesnės informacijos, žr. [Diegti ir konfigūruoti sandėlio programos peržiūrą](../warehousing/install-configure-warehousing-app.md)
+- [Masinis diegimas sandėlio mobilioje programoje](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Daugiau informacijos rasite [Sandėlio valdymo mobiliųjų įrenginių programėlės įdiegimas ir prijungimas](../warehousing/install-configure-warehouse-management-app.md).
 
-- [Maksimalus vykdymo laikas, skirtas turimo kiekio įrašams ištrinti valdant sandėlį](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Dėl daugiau informacijos, žr. [Sandėlio valdymo turimų įrašų valymo užduotis](../warehousing/onhand-cleanup.md).
+- [Maksimalus vykdymo laikas, skirtas turimo kiekio įrašų ištrynimo užduočiai valdant sandėlį](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Dėl daugiau informacijos, žr. [Sandėlio valdymo turimų įrašų valymo užduotis](../warehousing/onhand-cleanup.md).
 
 - [Planavimo optimizavimas palaikant įsigijimo prekybos sutartis](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - Dėl daugiau informacijos, žr. [Bendrasis planavimas su įsigijimo prekybos sutartimis](../master-planning/planning-optimization/purchase-trade-agreement.md).
 

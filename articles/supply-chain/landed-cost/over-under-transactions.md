@@ -2,7 +2,6 @@
 title: Perviršio / trūkumo operacijos
 description: Šioje temoje pateikiama informacija, kuri padės jums nustatyti perviršio / trūkumo operacijų strategijų informaciją, kad sistema galėtų nustatyti, kaip valdyti prekių perviršio apdorojimą ir trūkumo apdorojimą gavimo metu.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9027d5dc73ebd78a65429f7bc63a1ebf8ef60dac
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: c7e75e39877b36e482dd4aaa5cc7c8f84d57d81b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500987"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833742"
 ---
 # <a name="overunder-transactions"></a>Perviršio/trūkumo operacijos
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Kai reiso užsakymai apdorojami, sistema tikisi, kad galutiniame paskirties sandėlyje gautas vartojimo prekių kiekis atitinka kiekį, nurodytą pirkimo užsakymo eilutėse, kurios susietos su reisu. Tačiau, kadangi tikslus pirkimo užsakymo eilutėse nurodytas kiekis ne visada gaunamas sandėlyje, modulis **Iškrovimo kaina** apibrėžia taisyklių, naudojamų valdant prekių perviršio ar trūkumo apdorojimą, rinkinį. Šios taisyklės itin svarbios, nes pradinio pirkimo užsakymo SF išrašyta ir jos nebegalima modifikuoti. Nustatydami perviršio / trūkumo operacijų strategijų informaciją, įgalinate sistemą, kad ji galėtų nustatyti, kaip valdyti prekių perviršio apdorojimą ir trūkumo apdorojimą gavimo metu. Atsargų perviršį ir trūkumą galite valdyti ir rankiniu būdu, naudodami puslapį **Perviršio / trūkumo operacijos**.
 
@@ -126,7 +124,7 @@ Norėdami peržiūrėti eilutės, pasirinktos viršutiniame skirtuke **Apžvalga
 | Laukas | aprašymas |
 |---|---|
 | Naujo dokumento tipas | Šis laukas nustatytas į *Judėjimo žurnalas* arba *Pirkimo užsakymas*, atsižvelgiant į veiksmą, rodomą pasirinktoje perviršio / trūkumo operacijos eilutėje. |
-| Number | Nuoroda ir saitas į pirkimo užsakymą arba judėjimo žurnalą, susijusį su pasirinkta perviršio / trūkumo operacijos eilute. |
+| Numeris | Nuoroda ir saitas į pirkimo užsakymą arba judėjimo žurnalą, susijusį su pasirinkta perviršio / trūkumo operacijos eilute. |
 | Priežasties perviršis/trūkumas | Priežastis, susieta su pasirinkta perviršio / trūkumo operacijos eilute. |
 | Kiekis | Kiekis, kurį pasirinkote pirkimo užsakyme arba judėjimo žurnale, susijusiame su pasirinkta perviršio / trūkumo operacijos eilute. |
 

@@ -2,11 +2,9 @@
 title: Sandėliavimo limitų vieta
 description: Šioje temoje aprašomas sandėliavimo limitų vietos funkcijos.
 author: perlynne
-manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationLimit
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: e336b54b894669f8a49091473314e1d7d2639e5f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b9fb3c35f2f2e0fd7c0e3afe132efb4c51f163a9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216986"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831271"
 ---
 # <a name="location-stocking-limits"></a>Sandėliavimo limitų vieta
 
@@ -83,7 +81,7 @@ Dėl to, kiekviena vieta, kurioje **Vietos profilio ID** vertė yra nustatyta į
 
 Pirmiausia gausite kiekį *4* prekės *PL* dydžio *S* ir peržiūrėkite padėjimo eilutės vietas darbui, kuris yra sukuriamas. Tada gausite kiekį *4* prekės *PL* dydžio *L* ir peržiūrėkite padėjimo eilutės vietas darbui, kuris yra sukuriamas.
 
-1. Sandėlio programoje, prisijungę naudodami *24* kaip vartotojo ID ir *1* su slaptažodžiu.
+1. Prisijunkite prie sandėlio valdymo mobiliųjų įrenginių programėlės naudodami *24 kaip* vartotojo ID ir *1 kaip* slaptažodį.
 1. Rinkitės **Įvestis** \> **Pirkimo gavimas**.
 1. Gaukite *4* *PL* prekės numerio *D0013* dydžio *S*.
 1. Peržiūrėkite sukurtą atidėjimo darbą. Turėtumėte matyti tolesnius rezultatus:

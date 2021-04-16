@@ -2,11 +2,9 @@
 title: Trikčių šalinimo gerinimo ir perkėlimas į papildomą sandėlio valdymą
 description: Ši tema aprašo, kaip pataisyti bendras problemas, su kuriomis galite susidurti naujindami ir perkeldami siekiant pagerinti sandėlio valdymą.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f5bfee31ce27e919086f978fb3ff88ca61a65eba
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 953b828667a01157767c3ca79349fe972b0fbe9b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208092"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826400"
 ---
 # <a name="troubleshoot-upgrade-and-migration-to-advanced-warehouse-management"></a>Trikčių šalinimo gerinimo ir perkėlimas į papildomą sandėlio valdymą
 
@@ -34,11 +32,11 @@ ms.locfileid: "5208092"
 
 ### <a name="issue-description"></a>Problemos aprašas
 
-Gavote šį klaidos pranešimą sandėlio programoje, nes savaime prisijungusiais sertifikatais nėra pasitikima „Android“ 8+ patalpų aplinkose.
+Gavote šį klaidos pranešimą sandėlio valdymo mobiliųjų įrenginių programėlėje, kadangi „Android“ 8+ vietinėse aplinkose nepasitikima savaime prisijungusiais sertifikatais.
 
 ### <a name="issue-resolution"></a>Problemos paaiškinimas
 
-Naudokite išorės (viešąją) seritfikavimo įstaigą (CA). Šios trikties pašalinimas yra prieinamas sandėlio programose 1.9.0.0 versijoje. Dėl daugiau informacijos apie šią triktį ir kaip ją pataisyti, žr. [Trikties šalinimo sandėlio programos jungties triktys](troubleshoot-warehouse-app-connection.md).
+Naudokite išorės (viešąją) seritfikavimo įstaigą (CA). Šios trikties pašalinimas yra prieinamas sandėlio programose 1.9.0.0 versijoje. Daugiau informacijos apie šią problemą ir kaip ją išspręsti rasite [Sandėlio valdymo mobiliųjų įrenginių programėlės ryšio trikčių diagnostika](troubleshoot-warehouse-app-connection.md).
 
 ## <a name="what-is-the-approved-process-for-moving-from-basic-warehousing-to-advanced-warehousing"></a>Kas yra patvirtintas procesas perkėlimui iš pagrindinio sandėliavimo į pagerintą sandėliavimą?
 

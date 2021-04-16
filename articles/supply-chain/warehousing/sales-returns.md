@@ -2,11 +2,9 @@
 title: Pardavimo grąžinimai
 description: Šioje temoje pateikiama informacija apie grąžinimo užsakymų procesą. Ji apima informaciją apie klientų grąžinimus ir jų poveikį įkainojimui ir turimų atsargų kiekiui.
 author: omulvad
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReturnTableListPage, ReturnTable, ReturnTableListPagePreviewPane, ReturnTableReferences, SalesReturnExpiredOrdersPart, SalesReturnFindOrderFormPart
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c01a945735f6340a0efd3d9c5ff74dd8cebd9ab7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d460cab24ca73d43a0f055c5f65791968841e472
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263329"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835515"
 ---
 # <a name="sales-returns"></a>Pardavimo grąžinimai
 
@@ -52,7 +50,7 @@ Yra dviejų tipų grąžinimo užsakymo procesai: fizinis grąžinimas ir tik kr
 
 ### <a name="credit-only-process"></a>Tik kredito procesas
 
-1.  **Kurti grąžinimo užsakymą.** Formaliai dokumentuokite kliento įgaliojimą gauti kreditą negrąžinanant produktų su defektais arba nepageidaujamų produktų. **Tik kreditas** perdavimo kodas įgalioja sprendimą kredituoti klientą be fizinio grąžinimo.
+1.  **Kurti grąžinimo užsakymą.** Formaliai dokumentuokite kliento įgaliojimą gauti kreditą negrąžinant produktų su defektais arba nepageidaujamų produktų. **Tik kreditas** perdavimo kodas įgalioja sprendimą kredituoti klientą be fizinio grąžinimo.
 2.  **Generuokite sąskaitą faktūrą.** Sugeneruokite kredito pažymą, tada uždarykite grąžinimo užsakymą.
 
 ## <a name="return-material-authorization"></a>Grąžinamų medžiagų autorizavimas
@@ -131,7 +129,7 @@ Be to, kad reikia nustatyti, kaip grąžintos prekės turi būti likviduotos, gr
 <ul>
 <li>Tarp šalių yra pakankamas pasitikėjimas.</li>
 <li>Prekės su defektu grąžinimo savikaina yra draudžiamoji.</li>
-<li>Prekių negalima grąžinti atgal į atsargas. Dėl kitų sąlygų, fizinio grąžinimo nereikalaujama.</li>
+<li>Prekių negalima&#39;grąžinti atgal į atsargas. Dėl kitų sąlygų, fizinio grąžinimo &#39;nereikalaujama.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -163,7 +161,7 @@ Be to, kad reikia nustatyti, kaip grąžintos prekės turi būti likviduotos, gr
 <tr class="odd">
 <td>Grąžinti klientui</td>
 <td>Nėra, išskyrus mokesčius ar išlaidas.</td>
-<td>Prekė grąžinta, bet po patikrinimo išsiųsta atgal klientui. Perdavimo veiksmas gali būti naudojamas, jei prėkė buvo sąmoningai sugadinta, arba jei buvo anuliuota garantija.</td>
+<td>Prekė grąžinta, bet po patikrinimo išsiųsta atgal klientui. Perdavimo veiksmas gali būti naudojamas, jei prekė buvo sąmoningai sugadinta, arba jei buvo anuliuota garantija.</td>
 </tr>
 <tr class="even">
 <td>Nurašyta</td>
@@ -187,7 +185,7 @@ Prieš fiziškai gaunant grąžinamas prekes į sandėlį užregistravus važtar
 -   Jei naudojate Sandėlio valdymą, sugeneruokite padėklų transportavimą. Padėklų transportavimo metu grąžinimo eilutės būsena bus **Gauta**.
 -   Grąžintos prekės gavimą registruokite tiesiogiai iš grąžinimo užsakymo eilutės naudodami funkciją **Registravimas**.
 
-Gavimo proceso metu grąžinimai integruojami su bendruoju sandėlio gavimo procesu. Gavimo procesastaip pat palaiko sulaikymo užsakymų kūrimą grąžinamoms prekėms, kurias reikia atskirai patikrinti.
+Gavimo proceso metu grąžinimai integruojami su bendruoju sandėlio gavimo procesu. Gavimo procesas taip pat palaiko sulaikymo užsakymų kūrimą grąžinamoms prekėms, kurias reikia atskirai patikrinti.
 
 ### <a name="identify-products-in-the-arrival-overview-list"></a>Produktų identifikavimas Gavimo apžvalgos sąraše
 
@@ -200,7 +198,7 @@ Nustatydami parinktį **Sulaikymo valdymas** į **Taip**, grąžinimo eilutei ga
  
 Jei nustatysite prekės atsargų modelio grupės parinkties **Sulaikymo valdymas** reikšmę **Taip**, parinktis **Sulaikymo valdymas** puslapyje **Žurnalo eilutės** bus pažymėta gavimo žurnalo eilutei ir jos nebebus galima keisti. Jei eilutė siunčiama sulaikyti, turite nurodyti atitinkamą sulaikymo sandėlį. 
 
-Jei gavimo eilutė nesiunčiama patikrinti, sandėlio gavimo klerkas turi nurdyti perdavimo kodą tiesiogiai į gavimo žurnalo eilutę, tada užregistruoti gavimo žurnalą. Jei tas pats perdavimo kodas neturėtų būti priskirtas visam grąžinimo eilutės kiekiui, arba visas eilutės kiekis nebuvo gautas, turite skaidyti eilutę. Suskaidę gavimo žurnalo eilutę, kartu suskaidote ir grąžinimo eilutę (**SalesLine**) ir sukuriate naują partijos ID. Eilutę suskaidyti galite sumažinę gavimo žurnalo eilutės kiekį. Kai žurnalas užregistruotas, sukuriama nauja grąžinimo eilutė, kurios likusio kiekio būsena yra **Numatoma**. Be to, eilutę suskaidyti galite spustelėję **Funkcijos** &gt; **Skaidyti**.
+Jei gavimo eilutė nesiunčiama patikrinti, sandėlio gavimo klerkas turi nurodyti perdavimo kodą tiesiogiai į gavimo žurnalo eilutę, tada užregistruoti gavimo žurnalą. Jei tas pats perdavimo kodas neturėtų būti priskirtas visam grąžinimo eilutės kiekiui, arba visas eilutės kiekis nebuvo gautas, turite skaidyti eilutę. Suskaidę gavimo žurnalo eilutę, kartu suskaidote ir grąžinimo eilutę (**SalesLine**) ir sukuriate naują partijos ID. Eilutę suskaidyti galite sumažinę gavimo žurnalo eilutės kiekį. Kai žurnalas užregistruotas, sukuriama nauja grąžinimo eilutė, kurios likusio kiekio būsena yra **Numatoma**. Be to, eilutę suskaidyti galite spustelėję **Funkcijos** &gt; **Skaidyti**.
 
 ### <a name="process-the-quarantine-order"></a>Sulaikymo užsakymo apdorojimas
 
@@ -210,10 +208,10 @@ Galite suskaidyti sulaikomą užsakymą, kaip ir galite suskaidyti gavimo žurna
 
 Jei gavimas sukurtas pagal sulaikymo užsakymą, negalėsite pakeisti perdavimo kodo, kuris priskirtas patikrinimo metu. Jei sulaikymo užsakymą užbaigsite naudodami funkciją **Baigti**, partija užregistruojama automatiškai. Kartais prekė gali būti atsiunčiama atgal iš sulaikymo į Siuntimo ir gavimo skyrių. Pvz., sulaikymo inspektorius gali nežinoti, kur atsargose laikyti prekę. Tokiu atveju atitinkamą važtaraštį reikia atnaujinti, kad būtų tinkamai registruotas ir veiktų pagal perdavimo kodą, kuris nurodytas dėl sulaikymo. 
 
-Kkrąžinimo eilutė užregistruota, klientui galima nusiųsti gavimo patvirtinimą. Ataskaita **Grąžinimo patvirtinimas** atspindi grąžinimo užsakymo dokumentą. Ataskaita **Grąžinimo patvirtinimas** nėra įtraukiama į žurnalą ar kitaip registruojama sistemoje, tai nėra būtinas grąžinimo užsakymo proceso veiksmas.
+Kai grąžinimo eilutė yra užregistruota, klientui galima nusiųsti gavimo patvirtinimą. Ataskaita **Grąžinimo patvirtinimas** atspindi grąžinimo užsakymo dokumentą. Ataskaita **Grąžinimo patvirtinimas** nėra įtraukiama į žurnalą ar kitaip registruojama sistemoje, tai nėra būtinas grąžinimo užsakymo proceso veiksmas.
 
 ## <a name="replace-a-product"></a>Produkto keitimas
-Yra du produkto keitimo valdymo mėtodai:
+Yra du produkto keitimo valdymo metodai:
 
 -   **Išankstinis pakeitimas** – produktas keičiamas dar prieš gaunant grąžinamą produktą iš kliento.
 -   **Pakeitimas pagal perdavimo kodą** – automatiškai kurkite naują pakeitimo užsakymo eilutę.
@@ -276,7 +274,7 @@ Toliau pateikiamame pavyzdyje „CompBuy“ yra perkanti įmonė, o „CompSell�
 
 ### <a name="simple-intercompany-returns"></a>Paprasti vidinės įmonės grąžinimai
 
-Šis scenarijus apima dvi tos pačios organizacijos įmones kaip parodytatoliau pateikiamoje iliustracijoje.  
+Šis scenarijus apima dvi tos pačios organizacijos įmones kaip parodyta toliau pateikiamoje iliustracijoje.  
 
 ![Paprasti vidinės įmonės grąžinimai](./media/SalesReturn07.png)
 

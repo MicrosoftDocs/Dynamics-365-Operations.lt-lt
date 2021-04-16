@@ -2,11 +2,9 @@
 title: Pirkimo užsakymų trikčių diagnostika
 description: Šioje temoje aprašoma, kaip spręsti problemas, kurios gali kilti kol dirbate su pirkimo užsakymais.
 author: SmithaNataraj
-manager: tfehr
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 5959b098082ac1a0c8ea768795fa63b13950a9c7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 964f31c21faae6a947174f637624aca917881297
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5242522"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841460"
 ---
 # <a name="troubleshoot-purchase-orders"></a>Pirkimo užsakymų trikčių diagnostika
 
@@ -117,7 +115,7 @@ Toks veikimo būdas yra numatytas. Pirkimo užsakymuose produktas visada rodomas
 
 ### <a name="issue-description"></a>Problemos aprašas
 
-Produktas turi patvirtintą tiekėją, kurio įsigaliojimo data, pavyzdžiui, yra 2018 m. sausio mėn. 11 d. (*11/01/2018*) ir galiojimo data yra *Niekada*. Jeigu bandysite pakeisti įsigaliojimo datą iki 2018 m. sausio mėn 10 d. (*10/01/2018*) arba 2018 m. sausio mėn. 12 d., (*12/01/2018*), gausite šią klaidą:
+Produktas turi patvirtintą tiekėją, kurio įsigaliojimo data, pavyzdžiui, yra 2018 m. sausio mėn. 11 d. (*11/01/2018*) ir galiojimo data yra *Niekada*. Jeigu bandysite pakeisti įsigaliojimo datą iki 2018 m. sausio mėn. 10 d. (*10/01/2018*) arba 2018 m. sausio mėn. 12 d., (*12/01/2018*), gausite šią klaidą:
 
 > Negalima sukurti įrašo patvirtintame tiekėjų sąraše (PdsApproveVendorList). Vertė „Galiojimas” turi būti didesnė arba lygi vertei „Įsigaliojimas”.
 

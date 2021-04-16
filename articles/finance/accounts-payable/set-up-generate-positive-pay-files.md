@@ -2,11 +2,9 @@
 title: Teigiamų mokėjimų failų nustatymas ir generavimas
 description: Šioje temoje paaiškinama, kaip nustatyti teigiamą mokėjimą ir generuoti teigiamo mokėjimo failus.
 author: panolte
-manager: AnnBe
 ms.date: 03/06/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankPositivePayFormat
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 7d1520828bc626784f1555d8878a1fdad1bd5b9e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9f96e34b8d94f9e83afb39d6ad97aca85386b458
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227381"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830717"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>Teigiamų mokėjimų failų nustatymas ir generavimas
 
@@ -140,6 +138,9 @@ Teigiamo mokėjimo failai kuriami naudojant duomenų objektus. Negalėsite gener
   </xsl:template>
 </xsl:stylesheet>
 ```
+
+> [!NOTE]
+> XSLT XML pavadinimai turi sutapti su mazgų susiejimu XML. XSLT ir XML failai yra keičiasi pagal atvejus. 
 
 ## <a name="assign-the-positive-pay-format-to-a-bank-account"></a>Teigiamo mokėjimo formato priskyrimas banko sąskaitai
 Kiekvienai banko sąskaitai, kuriai norite generuoti teigiamo mokėjimo informaciją, turite priskirti teigiamo mokėjimo formatą, kurį nurodėte ankstesnėje dalyje. Puslapyje **Banko sąskaitos** pasirinkite teigiamo mokėjimo formatą, kuris atitinka banko sąskaitą. Lauke **Teigiamo mokėjimo pradžios data** įveskite pirmąją teigiamo mokėjimo failų generavimo datą. Svarbu šiame lauke įvesti datą. Priešingu atveju pirmasis jūsų sugeneruotas teigiamo mokėjimo failas apims visus kada nors sukurtus šios banko sąskaitos čekius.

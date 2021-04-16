@@ -2,11 +2,9 @@
 title: Pirkimo užsakymo atidėjimo vietos nurodymo nustatymas
 description: Šioje temoje paaiškinta, kaip nustatyti paprastą vietos nurodymą.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSInventFixedLocation
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9e7b8c1f5c5dfb29f1bdf28529ef76e31d8e83f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f02ebbb22e11b116355be42325edd041b10c5cb4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233636"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831487"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Pirkimo užsakymo atidėjimo vietos nurodymo nustatymas
 
@@ -70,7 +68,7 @@ ms.locfileid: "5233636"
 2. Lauke **Pavadinimas** įveskite reikšmę. Tai unikalus šio nurodymo veiksmo identifikatorius.  
 3. Lauke **Fiksuotos vietos naudojimas** pasirinkite parinktį.
     - Fiksuotos ir nefiksuotos vietos: galioja visos nefiksuotos vietos, taip pat ir paties produkto fiksuota vieta, užklausoje nurodytame diapazone.  
-    - Tik produkto fiksuota vieta: galioja produkto fiksuotos vietos ir visiems produkto variantams priskiramas tas pats fiksuotų vietų rinkinys.  
+    - Tik produkto fiksuota vieta: galioja produkto fiksuotos vietos ir visiems produkto variantams priskiriamas tas pats fiksuotų vietų rinkinys.  
     - Tik produkto variantų fiksuota vieta: galioja tik kiekvienam produkto variantui nurodytos fiksuotos vietos.  
 4. Lauke **Strategija** pasirinkite parinktį. Darbo užsakymai, kurių tipas yra Pirkimo užsakymas, palaiko toliau nurodytas strategijas. 
     - Nėra: prekė dedama į tuščią vietą.  

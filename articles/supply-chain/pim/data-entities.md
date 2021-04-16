@@ -2,11 +2,9 @@
 title: Produktų duomenų objektai
 description: Šioje temoje pateikiama informacijos apie skirtingus objektus, kuriuos naudojant galima importuoti ir eksportuoti produktų duomenis.
 author: cvocph
-manager: tfehr
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2019-12-1
-ms.openlocfilehash: 1e7bda8cc900a5ae3ebab8e78254c802a627dc6d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1f19cb309c9cd84106c45d4a4d3ee11b62ca46bd
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243278"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829503"
 ---
 # <a name="product-data-entities"></a>Produktų duomenų objektai
 
@@ -43,8 +41,8 @@ Norėdami importuoti ir eksportuoti produktų duomenis, turite naudoti duomenų 
 | Parduodami išleisti produktai | `EcoResSellableReleasedProductEntity` | Šis objektas naudojamas tik parduodamiesiems produktams eksportuoti. Parduodamieji produktai – tai produktai, apie kuriuos pateikta informacija, reikalinga norint produktus naudoti pardavimo užsakyme. Tos pačios taisyklės taikomos, kai produktas patikrinamas naudojant puslapio **Išleisti produktai** funkciją **Tikrinti**. |
 | Išleisti išskirtieji produktai V2 | `EcoResDistinctProductV2Entity` | Šis objektas naudojamas išskirtiesiems produktams eksportuoti. Išskirtieji produktai gali būti produktai, potipio produktai ir produkto variantai. |
 | Išleisti bendrieji produktai V2 | `EcoResProductMasterV2Entity` | Šis objektas naudojamas bendriesiems produktams importuoti ir eksportuoti. Jis neturi duomenų tvarkymo galimybės. |
-| Elementas - brūkšninsi kodas | `EcoResProductBarcodeEntityV3` | Šis objektas naudojamas produktams ir brūkšniniams kodams eksportuoti. Šis objektas neleidžia keisti sekimo, naujinimų ar panaikinimų, Norėdami naudoti brūkšninių kodų keičiamą sekimą, naujinimus ar naikinimus, naudokite **Elementas - brūkšninio kodo susiejimo** objektą. |
-| Prekė – brūkšninių kodų susiejimas | `EcoResProductBarcodeAssociationEntity` | Šis objektas naudojamas produktams ir brūkšniniams kodams eksportuoti. Jis leidžia keisti sekimą, naujinimus ir panaikinimus. Norėdami naudoti objektą, funkcija  *Elementas - brūkšninio kodo pagerinimai* turi būti įjungta  [funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Tai objekto raktas `AssociationID`, kuris sukuria sąsają tarp brūkšninio kodo ir gaminio. Norėdami įtraukti pagalbą šiam raktui, lentelė `InventitemBarcodeAssociation` bus užpildoma esančiais elemento brūkšinio kodo duomenimis jums įjungus funkciją. Lentelė yra užpildoma naudojant krūvos darbą ir jei jūsų brūkšninio kodo lentelė turi didelį skaičių įrašų, gali užtrukti nemažai laiko krūvos darbo vykdymui. Dėl to, rekomenduojame jums planuoti įjungti funkciją (dėl to, vykdyti krūvos darbą), kai tai suderinta su jūsų verslo grafiku. |
+| Elementas - brūkšninis kodas | `EcoResProductBarcodeEntityV3` | Šis objektas naudojamas produktams ir brūkšniniams kodams eksportuoti. Šis objektas neleidžia keisti sekimo, naujinimų ar panaikinimų, Norėdami naudoti brūkšninių kodų keičiamą sekimą, naujinimus ar naikinimus, naudokite **Elementas - brūkšninio kodo susiejimo** objektą. |
+| Prekė – brūkšninių kodų susiejimas | `EcoResProductBarcodeAssociationEntity` | Šis objektas naudojamas produktams ir brūkšniniams kodams eksportuoti. Jis leidžia keisti sekimą, naujinimus ir panaikinimus. Norėdami naudoti objektą, funkcija  *Elementas - brūkšninio kodo pagerinimai* turi būti įjungta  [funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Tai objekto raktas `AssociationID`, kuris sukuria sąsają tarp brūkšninio kodo ir gaminio. Norėdami įtraukti pagalbą šiam raktui, lentelė `InventitemBarcodeAssociation` bus užpildoma esančiais elemento brūkšninio kodo duomenimis jums įjungus funkciją. Lentelė yra užpildoma naudojant krūvos darbą ir jei jūsų brūkšninio kodo lentelė turi didelį skaičių įrašų, gali užtrukti nemažai laiko krūvos darbo vykdymui. Dėl to, rekomenduojame jums planuoti įjungti funkciją (dėl to, vykdyti krūvos darbą), kai tai suderinta su jūsų verslo grafiku. |
 | Produktų ciklo būsenos | `EcoResProductLifecycleSateEntity` | Naudojant šį objektą, galima importuoti ir eksportuoti skirtingas produktų ciklo būsenas, kurios gali būti priskiriamos produktui. |
 
 > [!NOTE]

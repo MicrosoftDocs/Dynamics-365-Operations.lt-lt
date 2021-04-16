@@ -2,11 +2,9 @@
 title: Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.16 (2021 m. vasario mėn.)
 description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.16 versijos funkcijos.
 author: kamaybac
-manager: annbe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: f9eb0685fcefe5d0734dc01fa82971958c3952d2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 070e1a763977a9b5aad1a4f1336f6202f9f332cc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236080"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829986"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.16 (2021 m. vasario mėn.)
 
@@ -35,11 +33,13 @@ ms.locfileid: "5236080"
 
 ## <a name="features-included-in-this-release"></a>Funkcijos, įtrauktos į šį leidimą
 
-Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Kai kurios išvardytos funkcijos vis dar yra peržiūros versijos, o kitos funkcijos jau gali būti prieinamos bendrai. Norėdami peržiūrėti kiekvienos funkcijos oficialią leidimo datą, vadovaukitės saitais su [leidimų planu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features).
+Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Norėdami peržiūrėti kiekvienos funkcijos oficialią leidimo datą, vadovaukitės saitais su [leidimų planu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features).
 
 - [Tinkintos parduotuvės aukšto įgyvendinimo sąsaja](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Dėl daugiau informacijos, žr. [Nustatykite prietaisą, kuris vykdys gamybos aukšto vykdymo sąsają](../production-control/production-floor-execution-setup.md).
 
 - [Inventoriaus matomumo papildinys „Dynamics 365 Supply Chain Management“](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Dėl daugiau informacijos, žr. [Inventoriaus matomumo papildinys ](../inventory/inventory-visibility.md)
+
+- Bendra užduočių ID numerių seka<br> - Daugiau informacijos rasite [Suvienodinta užduočių ID numeracija](../production-control/unified-job-ids.md).
 
 - [Įjungti licencijos lenteles šaltinio dokumentų eilutėms](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Dėl daugiau informacijos, žr. [Sandėlio konfigūravimo apžvalga](../warehousing/warehouse-configuration.md).
 
@@ -74,8 +74,8 @@ Neseniai įtraukėme ir reikšmingai atnaujinome tolesnias pagalbos temas. Jos n
 - [Trikčių šalinimo rezervacijos sandėlio valdyme](../warehousing/troubleshoot-warehouse-reservations.md)
 - [Pardavimo užsakymų trikčių šalinimas](../sales-marketing/troubleshooting-sales.md)
 - [Pardavimo pasiūlymų trikčių šalinimas](../sales-marketing/troubleshooting-salesquotation.md)
-- [Trikčių šalinimo gerinimo ir perkėlimas į papildomą sandėlio valdymą](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [Sandėlio programos ryšio problemos šalinimas](../warehousing/troubleshoot-warehouse-app-connection.md)
+- [Plėtojimo ir perėjimo į išplėstinio sandėlio valdymo funkciją trikčių šalinimas](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
+- [Sandėlio valdymo mobiliųjų įrenginių programėlės ryšio trikčių diagnostika](../warehousing/troubleshoot-warehouse-app-connection.md)
 - [Trikčių šalinimo sandėlio konfigūravimas](../warehousing/troubleshoot-warehouse-configuration.md)
 - [Trikčių šalinimo sandėlio papildymas](../warehousing/troubleshoot-warehouse-replenishment.md)
 - [Trikčių šalinimo sandėlio nustatymas](../warehousing/troubleshoot-warehouse-setup.md)

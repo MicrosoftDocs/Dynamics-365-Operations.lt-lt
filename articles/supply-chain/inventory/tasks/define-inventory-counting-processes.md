@@ -2,11 +2,9 @@
 title: Atsargų skaičiavimo procesų apibrėžimas
 description: Šioje temoje aprašoma pagrindinių atsargų skaičiavimo procesų konfigūravimas sukuriant skaičiavimo grupę ir skaičiavimo žurnalą.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 07/26/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCountGroup, InventJournalName, InventParameters, EcoResProductDetailsExtended, InventItemLocation, InventLocationIdLookup
 audience: Application User
@@ -16,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e54dfae274b201949d943b3e3e06b0c5b2c61ba
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4166ffd043db24e814bcb85df07f0b940d5328d9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244506"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833886"
 ---
 # <a name="define-inventory-counting-processes"></a>Atsargų skaičiavimo procesų apibrėžimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aprašoma pagrindinių atsargų skaičiavimo procesų konfigūravimas sukuriant skaičiavimo grupę ir skaičiavimo žurnalą. Ji taip pat parodo, kaip įgalinti invetorizavimo strategijas sandėlio ir prekės lygiu. Šias užduotis paprastai turėtų atlikti sandėlio prižiūrėtojas. Būtina turėti keletą esamų išleistų produktų ir sandėlių. Jei naudojate demonstracinių duomenų įmonę, šią procedūrą USMF įmonėje galite vykdyti su bet kokia atsargų preke.
+Šioje temoje aprašoma pagrindinių atsargų skaičiavimo procesų konfigūravimas sukuriant skaičiavimo grupę ir skaičiavimo žurnalą. Ji taip pat parodo, kaip įgalinti inventorizavimo strategijas sandėlio ir prekės lygiu. Šias užduotis paprastai turėtų atlikti sandėlio prižiūrėtojas. Būtina turėti keletą esamų išleistų produktų ir sandėlių. Jei naudojate demonstracinių duomenų įmonę, šią procedūrą USMF įmonėje galite vykdyti su bet kokia atsargų preke.
 
 
 ## <a name="create-a-counting-group"></a>Kurti inventorizacijos grupę

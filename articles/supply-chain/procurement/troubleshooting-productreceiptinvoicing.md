@@ -2,11 +2,9 @@
 title: Gavimo dokumentų ir sąskaitos faktūros (SF) išrašymo trikčių šalinimas
 description: Šioje temoje aprašoma, kaip spręsti problemas, kurios gali kilti kol dirbate su gavimo dokumentais ir SF išrašymu.
 author: SmithaNataraj
-manager: tfehr
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 5fd8ced95c6017c128b77b80047761715b92fc2c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3522a024261ff6dfffb53f2101139460be7669e4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260556"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832015"
 ---
 # <a name="troubleshoot-product-receipts-and-invoicing"></a>Gavimo dokumentų ir sąskaitos faktūros (SF) išrašymo trikčių šalinimas
 
@@ -69,7 +67,7 @@ Toliau aprašyta procedūra pateikia vieną būdą, kaip atkurti problemą.
 
 Operacijos gali būti registruojamos laikinai sustabdytose DK sąskaitose, kai atšaukiami gavimo dokumentai, nes toks veikimo būdas leidžia atlikti teisingus registravimus.
 
-## <a name="a-product-receipt-voucher-number-is-consumed-even-if-no-financial-voucher-is-generated-during-product-receipt"></a>Produkto gavimo kvito numeris sunaudotas, net jei produkto gavimo metu nesukuriamas joks fin. kvitas.
+## <a name="a-product-receipt-voucher-number-is-consumed-even-if-no-financial-voucher-is-generated-during-product-receipt"></a>Produkto gavimo kvito numeris sunaudotas, net jei produkto gavimo metu nesukuriamas joks finansinis kvitas.
 
 Jei pasirinktis **Sukaupti įsipareigojimus gavimo dokumente** prekės modelių grupei nustatyta kaip *Ne*, didžiojoje knygoje nebus vykdomi jokie registravimai. Tačiau faktinis įvykis bus įrašytas papildomos knygos apskaitos tikslais, o tam įvykiui būtinas kvito numeris. Šis kvito numeris yra numeris, nurodomas atsargų operacijose.
 

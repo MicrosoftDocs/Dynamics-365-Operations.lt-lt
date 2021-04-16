@@ -2,11 +2,9 @@
 title: Turto valdymo mobiliosios darbo srities nustatymas
 description: Šioje temoje aprašoma, kaip sukonfigūruoti „Microsoft Dynamics 365 Supply Chain Management” ir „Finance and Operations” („Dynamics 365”) mobiliąją programėlę ir paleisti Turto valdymo mobiliąją darbo sritį, kurią darbuotojai gali naudoti atlikti turto valdymo užduotis.
 author: johanhoffmann
-manager: tfehr
 ms.date: 01/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 54da27a022dcc800438b96224370228aa8eed261
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bc170df2fc58ae6b42fbc8834caad0bb7cd16f69
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226152"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837782"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Turto valdymo mobiliosios darbo srities nustatymas
 
@@ -60,7 +58,7 @@ Norėdami įgalinti turto valdymo funkcijas „Finance and Operations” („Dyn
     - [„Google Android” įrenginiams](https://go.microsoft.com/fwlink/?linkid=850662)
     - [„iOS” įrenginiams](https://go.microsoft.com/fwlink/?linkid=850663)
 
-1. Atidarykite „Finance and Operations” ("Dynamics 365") programėlę. Turėtų pasirodyti prisijungimo puslapis. **Prisijungti** lauke įveskite „Supply Chain Management” URL arba įveskite neseniai naudotą URL **Neseniai naudotos aplinkos**  sąraše ir bakstelėkite **Prsijungti**.
+1. Atidarykite „Finance and Operations” ("Dynamics 365") programėlę. Turėtų pasirodyti prisijungimo puslapis. **Prisijungti** lauke įveskite „Supply Chain Management” URL arba įveskite neseniai naudotą URL **Neseniai naudotos aplinkos**  sąraše ir bakstelėkite **Prisijungti**.
 
     ![Prisijungimo puslapis](media/mobile-app-sign-in.png "Prisijungimo puslapis")
 

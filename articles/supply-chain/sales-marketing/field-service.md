@@ -2,11 +2,9 @@
 title: Integravimo su „Microsoft Dynamics 365 Field Service“ apžvalga
 description: Šioje temoje pateikiama integravimo su „Microsoft Dynamics 365 Field Service“.
 author: ChristianRytt
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 9b0fafd46143979a734151b4011e537991347862
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 73d20958d0efadefc709db524fe16ed85d1ea33a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237899"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824899"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Integravimo su „Microsoft Dynamics 365 Field Service“ apžvalga
 
@@ -50,7 +48,7 @@ Norėdami pamatyti pavyzdį, kaip galima sinchronizuoti darbo užsakymą tarp �
 
 ## <a name="integration-with-field-service-including-inventory-and-project-information"></a>Integravimas su „Field Service“, įskaitant atsargų ir projekto informaciją
 
-Papildomos funkcijos šiame antrajame etape skirtos suteikti vietiniams aptarnavimo darbuotojams įžvalgų apie atsargų informaciją iš „Supply Chain Management“, todėl jie gali atnaujinti atsargų lygius ir atlikti medžiagų perkėlimus. Be to, įmonės, montuojančios ar aptarnaujančios parduotas prekes, galės geriau kontroliuoti ir matyti visą pardavimo ir aptarnavimo procesą, naudodamosios projektų integracija.
+Papildomos funkcijos šiame antrajame etape skirtos suteikti vietiniams aptarnavimo darbuotojams įžvalgų apie atsargų informaciją iš „Supply Chain Management“, todėl jie gali atnaujinti atsargų lygius ir atlikti medžiagų perkėlimus. Be to, įmonės, montuojančios ar aptarnaujančios parduotas prekes, galės geriau kontroliuoti ir matyti visą pardavimo ir aptarnavimo procesą, naudodamos projektų integracija.
 
 ### <a name="functionality-includes-integration-of"></a>Funkcijos apima šių aspektų integravimą:
 - Sandėlių informacija

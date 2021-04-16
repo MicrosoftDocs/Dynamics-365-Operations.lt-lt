@@ -2,11 +2,9 @@
 title: Darbo grafiko kūrimas bangos metu
 description: Šioje temoje aprašoma, kaip nustatyti ir naudoti Darbo grafiko kūrimo bangos apdorojimo metodą.
 author: perlynne
-manager: mirzaab
 ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
@@ -16,42 +14,59 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 36a450f78695f617056875f8d236fe46bc66aaaf
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: e4258c03b12a80a5bd81328ae7418835d68f82e7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501227"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835707"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Darbo grafiko kūrimas bangos metu
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Naudokite funkciją *Darbo grafiko kūrimas* kaip jūsų bangos apdorojimo proceso dalį, kad padidintumėte bangos apdorojimo našumą, sistemoje sukurdami darbą naudojant lygiagretųjį apdorojimą.
 
 Įgalinus funkciją, automatiškai sukuriamas suplanuotas darbas, kurį sistema galiausiai apdoros sukurti faktiniam darbui. Jei bangos įkelties eilučių skaičius pasiekia iš anksto nustatytą ribinę vertę, sistema sukurs faktinį darbą greičiau, pritaikydama lygiagretųjį asinchroninį apdorojimą.
 
-## <a name="enable-the-schedule-work-creation-feature"></a>Darbo grafiko kūrimo funkcijos įgalinimas
+## <a name="turn-on-the-scheduled-work-creation-features-in-feature-management"></a>Suplanuoto darbo kūrimo funkcijų įjungimas funkcijų valdyme
 
-### <a name="enable-the-feature-in-feature-management"></a>Funkcijos įjungimas funkcijų valdymo dalyje
+Norėdami naudoti šioje temoje aprašytas funkcijas, jos turi būti įjungtos jūsų sistemai. Naudokite darbo sritį [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) įjungti šias funkcijas pateikta tvarka:
 
-Prieš jums naudojant *Darbo grafiko kūrimas* funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [Funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Ten ši funkcija pateikiama taip:
+1. **Visos organizacijos darbo blokavimas** – Reikalingas tiek rankiniam, tiek automatiniam suplanuoto darbo kūrimo konfigūravimui.
+1. **Suplanuoto darbo kūrimas** – Reikalingas tiek rankiniam, tiek automatiniam suplanuoto darbo kūrimo konfigūravimui.
+1. **Visos organizacijos „Suplanuoto darbo kūrimo” bangos metodas** – Reikalingas automatiniam suplanuoto darbo kūrimo konfigūravimui. Jums šios funkcijos nereikia, jeigu naudosite tik neautomatinį konfigūravimą.
 
-- **Modulis:** *Sandėlio valdymas*
-- **Funkcijos pavadinimas:** *Darbo grafiko kūrimas*
+<a name="Auto-enable-schedule-work-creation"></a>
 
-> [!NOTE]
-> Prieš įgalinant *Darbo grafiko kūrimą*, turite įgalinti *Visos organizacijos darbo blokavimo* funkciją.
+## <a name="automatically-configure-scheduled-work-creation"></a>Suplanuoto darbo kūrimo automatinis konfigūravimas
+
+Jeigu įgalinate *Visos organizacijos „Suplanuoto darbo kūrimo” bangos metodo* funkciją, jūsų sistemoje automatiškai atsiranda:
+
+- Bangos metodas *Suplanuoto darbo kūrimas*(`WHSScheduleWorkCreationWaveStepMethod`) yra įtraukiamas ir sukonfigūruojamas veikti lygiagrečiai visuose juridiniuose subjektuose.
+- Bangoms šablonams iš visų juridinių subjektų, kurių **Bangos šablono tipas** nustatytas į *Siuntimas* ir **Šablono būsena** nustatyta į *Tinkama*, bus pakeistas metodas *Darbo kūrimas* į metodą *Suplanuoto darbo kūrimas*. Tačiau bangos šablonai iš juridinių subjektų, kuriuose metodą *Darbo kūrimas* leidžiama kartoti, nebus modifikuoti.
+- Metodo *Suplanuoto darbo kūrimas* užduočių konfigūracijos bus sukurtos visiems sandėliams iš visų juridinių subjektų, kuriuose įjungta **Naudoti sandėlio valdymo procesus** funkcija. Tai reiškia, kad pagal numatytuosius nustatymus, metodas *Suplanuoto darbo kūrimas* bus vykdomas lygiagrečiai. Esami sandėliai, kuriems funkciją **Naudoti sandėlio valdymo procesus** pakeičiate iš *Ne* į *Taip*, taip bus vykdys šį metodą lygiagrečiai pagal numatytuosius nustatymus.
+- Visi juridiniai subjektai apdoros bangas paketais ir **Laukti užrakto (ms)** bus nustatyta į numatytąją reikšmę *60 000* ms, jeigu anksčiau ji buvo nustatyta *į 0* ms.
+- Visi jūsų naujai sukurti bangos šablonams turės *Suplanuoto darbo kūrimo* metodą, o ne *Darbo kūrimo* metodą.
+
+Taip pat, esamos užduočių ir bangų apdorojimo konfigūracijos bus išlaikytos visiems juridiniams subjektams, kurie jau yra sukonfigūruoti bangų apdorojimui paketais, ir visiems sandėliams, kurie jau yra sukonfigūruoti lygiagrečiam *Suplanuoto darbo kūrimo* metodo naudojimui.
+
+Jei reikia, galite toliau pateiktu rankiniu būdu grąžinti bet kuriuos arba visus parametrus, sukurtus automatiniu būdu, kai įgalinote *Visos organizacijos suplanuoto darbo kūrimo bangos metodo* funkciją:
+
+- Bangos šablonus rasite **Sandėlio valdymas \> Nustatymas \> Bangos \> Bangų šablonai**. Pakeisti *Suplanuoto darbo kūrimo* metodą į *Darbo kūrimo*.
+- Sandėlio parametrus rasite **Sandėlio valdymas \> Sąranka \> Sandėlio valdymo parametrai**. Skirtuke **Bangos apdorojimas** taikykite pageidaujamas funkcijų **Bangų apdorojimas paketais** ir **Laukite užrakto (ms)** reikšmes.
+- Bangos metodus rasite **Sandėlio tvarkymas \> Sąranka \> Bangos \> Bangos apdorojimo metodai**. Pasirinkite „`WHSScheduleWorkCreationWaveStepMethod`” ir veiksmų srityje pažymėkite **Užduoties konfigūracija**. Jeigu reikia, modifikuokite arba panaikinkite kiekvieno sandėlio paketinių užduočių skaičių ir priskirtą bangos grupę.
+
+## <a name="manually-configure-scheduled-work-creation"></a>Suplanuoto darbo kūrimo konfigūravimas rankiniu būdu
+
+Jeigu neįgalinote [*Visos organizacijos „Suplanuoto darbo kūrimo” bangos metodo* funkcijos](#Auto-enable-schedule-work-creation), tada galite naudoti šiame skyriuje pateiktas procedūras, skirtas sukonfigūruoti jums reikiamo suplanuoto darbo kūrimą.
 
 ### <a name="manually-enable-batch-processing-of-waves"></a>Paketinio bangų apdorojimo įjungimas rankiniu būdu
 
 Norint pasinaudoti lygiagrečiu asinchroniniu metodu kurti sandėlio darbui, jūsų bangos procesas turi būti vykdomas pakete. Norėdami tai nustatyti:
 
 1. Eikite į  **Sandėlio valdymas\> Sąranka \> Sandėlio valdymo parametrai**.
-
 1. Skirtuke **Bendra** nustatykite **Apdoroti bangas pakete** į *Taip*. Pasirinktinai galite pasirinkti paskirtą **Bangos apdorojimo paketų grupę** sustabdyti paketų eilės apdorojimo vykdymą tuo pačiu, kaip ir kitų procesų vykdymo, laiku.
-
 1. Nustatykite **Laukti užrakto (ms)**, kuris taikomas, kai sistema vienu metu apdoroja kelias bangas. Daugumai didesnių bangos procesų rekomenduojame vertę *60 000*.
 
 ### <a name="manually-enable-the-new-wave-step-method-for-existing-wave-templates"></a>Naujo bangos veiksmo metodo neautomatinis įjungimas esamiems bangos šablonams
@@ -59,58 +74,31 @@ Norint pasinaudoti lygiagrečiu asinchroniniu metodu kurti sandėlio darbui, jū
 Pradėkite sukurdami naują bangos veiksmo metodą ir įgalindami jį lygiagrečiam asinchroniniam užduoties apdorojimui.
 
 1. Eikite į **Sandėlio valdymas \>Sąranka \> Bangos \> Bangos apdorojimo metodai**.
-
 1. Pasirinkite  **Pakartotinio generavimo** metodą ir atkreipkite dėmesį, kad *„WHSScheduleWorkCreationWaveStepMethod”* buvo įtrauktas į bangos apdorojimo metodų, kuriuos galite naudoti jūsų siuntimo bangos šablonuose, sąrašą.
-
 1. Pasirinkite įrašą su **Metodo pavadinimu** *„WHSScheduleWorkCreationWaveStepMethod”* ir pasirinkite **Užduoties konfigūraciją**.
-
 1. Norėdami įtraukti naują eilutę į tinklelį, veiksmų srityje pasirinkite **Naujas** ir naudokite šiuos parametrus:
 
     - **Sandėlis** – pasirinkite sandėlį, kurį naudosite darbo grafiko kūrimo apdorojimui.
-
     - **Didžiausias paketinių užduočių skaičius** – nurodykite maksimalų paketinių užduočių skaičių. Daugeliu atvejų ši vertė turi būti diapazone 8‑16, tačiau patariame eksperimentuoti su optimaliu parametru, atsižvelgiant į jūsų scenarijus.
-
     - **Bangos apdorojimo paketų grupė** – pasirinkite paskirtą bangos apdorojimo paketų grupę, kad optimizuotumėte paketų darbo eilės apdorojimą.
 
 Dabar esate pasiruošę atnaujinti esamą bangos šabloną (arba sukurti naują) ir naudoti *Darbo grafiko kūrimo* bangos apdorojimo metodą.
 
 1. Eikite į  **Sandėlio valdymas\>Nustatymas \> Bangos \> Bangų šablonai**.
-
 1. Pasirinkite **Redaguoti** veiksmų srityje.
-
 1. Sąrašo srityje pasirinkite bangos šabloną, kurį norite atnaujinti (jei testuojate naudodami demonstracinius duomenis, tada galite naudoti *24 siuntimo numatytuosius parametrus*).
-
 1. Išplėskite „FastTab” **Metodai** ir pasirinkite eilutę, su **Pavadinimu** *Darbo grafiko kūrimas* tinklelyje **Likę metodai**.
-
-1. Pasirinkite rodyklę, nukreiptą į stulpelį **Pasirinkti metodai** perkelti pasirinktai eilutei į tą stulpelį. (Vienu metu galima pasirinkti tik vieną metodą, kuris naudoja *„WHSScheduleWorkCreationWaveStepMethod”* arba *„createWork”*, taigi, esama eilutė su **Metodo pavadinimu** *„createWork”* yra automatiškai perkeliama į **Likę metodai** tinklelį.)
+1. Pasirinkite rodyklę, nukreiptą į stulpelį **Pasirinkti metodai** perkelti pasirinktai eilutei į tą stulpelį. (Vienu metu galima pasirinkti tik vieną metodą, kuris naudoja „`WHSScheduleWorkCreationWaveStepMethod`” arba „`createWork`”, taigi, esama eilutė su **Metodo pavadinimu** „`createWork`” yra automatiškai perkeliama į tinklelį **Likę metodai**.)
 
 ## <a name="set-wave-task-processing-threshold-data"></a>Nustatykite bangos užduoties apdorojimo ribinės vertės duomenis
 
 Sistema sukurs numatytuosius bangos užduoties apdorojimo ribinės vertės duomenis, kai pirmą kartą vykdomas bangos procesas naudojant bet kokį užduotimis pagrįstą apdorojimą. Duomenys yra naudojami valdymui, kai bangos apdorojimas bus vykdomas asinchroniškai ir bus pagrįstas užduotimis, o tai leidžia apdoroti ir kurti darbą lygiagrečiai.
 
-Iš pradžių numatytieji duomenys naudos 15 ribinę vertę mažiausio krovinio eilučių skaičiaus („MINIMUMWAVELOADLINES”) atveju. Tai reiškia, kad kai sistema apdoros bangą su daugiau nei 15 įkelties eilučių, ji naudos asinchroninį užduoties apdorojimą. Galite rankiniu būdu įterpti/atnaujinti šiuos duomenis **„WHSWaveTaskProcessingThresholdParameters”** lentelėje jūsų bandymo aplinkose, tačiau, jeigu jums reikia pakeisti šį parametrą gamybos aplinkoje, turite susisiekti su „Microsoft” palaikymo tarnyba ir paprašyti atnaujinimo.
+Iš pradžių numatytieji duomenys naudos 15 kaip ribinę mažiausio krovinio eilučių skaičiaus („`MINIMUMWAVELOADLINES`”) vertę. Tai reiškia, kad kai sistema apdoros bangą su daugiau nei 15 įkelties eilučių, ji naudos asinchroninį užduoties apdorojimą. Galite rankiniu būdu įterpti arba atnaujinti šiuos duomenis „`WHSWaveTaskProcessingThresholdParameters`” lentelėje savo testavimo aplinkose. Jeigu jums reikia pakeisti šį parametrą gamybos aplinkoje, turite kreiptis į „Microsoft“ palaikymo tarnybą ir pateikti užklausą naujinimui.
 
-## <a name="work-with-the-feature"></a>Darbas su funkcija
+## <a name="work-with-the-scheduled-work-creation"></a>Darbas su Suplanuoto darbo kūrimo funkcija
 
-Kai *Darbo grafiko kūrimo* funkcija yra įjungta, bangos apdorojimas sukurs suplanuotą darbą, kuris galiausiai bus panaudotas naujo darbo kūrimo procese. Darbo kūrimo metu darbas bus užblokuotas, naudojant *Visos organizacijos darbo blokavimo* funkciją.
-
-Šiose struktūrinėse schemose parodyta, kaip bangos apdorojimo metu sukuriamas suplanuotas darbas.
-
-![Darbo grafiko kūrimas](media/schedule-work-creation-process.png)
-
-### <a name="planned-work"></a>Suplanuotas Darbas
-
-Puslapyje **Suplanuoto darbo informacija** (**Sandėlio valdymas \> Darbas \> Suplanuoto darbo informacija**) rodoma informacija apie suplanuotą darbą, kuris iš pradžių yra sukuriamas bangos apdorojimo metu. Galimos šios **Apdorojimo būsenos** reikšmės:
-
-- **Eilėje** – laukiama, kada suplanuotas darbas bus panaudotas darbui sukurti.
-- **Užbaigta** – suplanuotas darbas buvo panaudotas darbui sukurti.
-- **Nepavyko** – bangos apdorojimas nepavyko. Atkreipkite dėmesį, kad suplanuoto darbo būsena gali būti **Nepavyko** su susijusiu faktiniu darbu arba be jo. Kai faktinio darbo kūrimo procesas nepavyksta, faktinio darbo būsena lieka *Atšaukta*.
-
-### <a name="batch-job-for-the-work-creation-process"></a>Paketinė užduotis darbo kūrimo procesui
-
-Norėdami peržiūrėti paketines užduotis bangų apdorojimui pasirinkite **Paketines užduotis** veiksmų srityje, **Visos bangos** puslapyje.
-
-Čia galite peržiūrėti visą paketinės užduoties informaciją apie kiekvieną paketinės užduoties ID.
+Išsamesnės informacijos apie tai, kaip dirbti su Suplanuoto darbo kūrimo funkciją, rasite [Bangos kūrimas ir apdorojimas](wave-processing.md). 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
