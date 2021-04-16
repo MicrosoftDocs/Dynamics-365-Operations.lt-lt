@@ -2,11 +2,9 @@
 title: Sekimo naudojimas išskleidimo analizės tikslais
 description: Šiame straipsnyje paaiškinta, kaip galite naudoti sekimą užsakymo išskleidimo rezultatų priežastims ištirti.
 author: roxanadiaconu
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransExplosion
 audience: Application User
@@ -18,32 +16,32 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 677b62055d71ee7ba1419fc2d7e6738b9438cb16
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f7f2a50c5e30155c11d653601187c36cb385aa4a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216158"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839202"
 ---
-# <a name="use-tracing-for-explosion"></a><span data-ttu-id="e3b99-103">Sekimo naudojimas išskleidimo analizės tikslais</span><span class="sxs-lookup"><span data-stu-id="e3b99-103">Use tracing for explosion</span></span>
+# <a name="use-tracing-for-explosion"></a><span data-ttu-id="afac7-103">Sekimo naudojimas išskleidimo analizės tikslais</span><span class="sxs-lookup"><span data-stu-id="afac7-103">Use tracing for explosion</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e3b99-104">Šiame straipsnyje paaiškinta, kaip galite naudoti sekimą užsakymo išskleidimo rezultatų priežastims ištirti.</span><span class="sxs-lookup"><span data-stu-id="e3b99-104">This article explains how you can use tracing to explore the causes behind the outcome of an order explosion.</span></span>
+<span data-ttu-id="afac7-104">Šiame straipsnyje paaiškinta, kaip galite naudoti sekimą užsakymo išskleidimo rezultatų priežastims ištirti.</span><span class="sxs-lookup"><span data-stu-id="afac7-104">This article explains how you can use tracing to explore the causes behind the outcome of an order explosion.</span></span>
 
-<span data-ttu-id="e3b99-105">Įgalinę sekimą, galite peržiūrėti informaciją apie veiksnius, kurie prisidėjo prie tam tikro užsakymo išskleidimo rezultato.</span><span class="sxs-lookup"><span data-stu-id="e3b99-105">By enabling tracing, you can view information about the factors that contributed to the outcome of the explosion of a particular order.</span></span> <span data-ttu-id="e3b99-106">Toliau pateiktuose pavyzdžiuose rodoma, kaip galite naudoti sekimo informaciją.</span><span class="sxs-lookup"><span data-stu-id="e3b99-106">The following examples show how you can use the tracing information:</span></span>
+<span data-ttu-id="afac7-105">Įgalinę sekimą, galite peržiūrėti informaciją apie veiksnius, kurie prisidėjo prie tam tikro užsakymo išskleidimo rezultato.</span><span class="sxs-lookup"><span data-stu-id="afac7-105">By enabling tracing, you can view information about the factors that contributed to the outcome of the explosion of a particular order.</span></span> <span data-ttu-id="afac7-106">Toliau pateiktuose pavyzdžiuose rodoma, kaip galite naudoti sekimo informaciją.</span><span class="sxs-lookup"><span data-stu-id="afac7-106">The following examples show how you can use the tracing information:</span></span>
 
--   <span data-ttu-id="e3b99-107">Peržiūrėti ryšius tarp suplanuotų užsakymų veiksmų, siekiant optimizuoti tiekimo grandinės ir atsargų rezervacijas.</span><span class="sxs-lookup"><span data-stu-id="e3b99-107">View relations between the actions on planned orders to optimize the supply chain and inventory reservations.</span></span>
--   <span data-ttu-id="e3b99-108">Peržiūrėti ryšius su jau patvirtintais užsakymais.</span><span class="sxs-lookup"><span data-stu-id="e3b99-108">View relations to orders that are already approved.</span></span> <span data-ttu-id="e3b99-109">Galite telkti dėmesį automatiniam išvestinių reikalavimų tvirtinimui ir tada tiksliau nustatyti užsakymų prioritetus.</span><span class="sxs-lookup"><span data-stu-id="e3b99-109">You can focus on automatically firming derived requirements and then prioritize orders more accurately.</span></span>
--   <span data-ttu-id="e3b99-110">Modeliuoti planavimo rezultatus, siekiant nustatyti, ar planavimo parametrai yra optimalūs.</span><span class="sxs-lookup"><span data-stu-id="e3b99-110">Simulate planning results to determine whether the planning parameters are optimal.</span></span>
--   <span data-ttu-id="e3b99-111">Identifikuoti, kaip buvo nustatyta informacija, pvz., užsakymo gamybos datos, kiekiai ir prioritetai.</span><span class="sxs-lookup"><span data-stu-id="e3b99-111">Identify how information such as production dates, quantities, and priorities for an order were determined.</span></span>
+-   <span data-ttu-id="afac7-107">Peržiūrėti ryšius tarp suplanuotų užsakymų veiksmų, siekiant optimizuoti tiekimo grandinės ir atsargų rezervacijas.</span><span class="sxs-lookup"><span data-stu-id="afac7-107">View relations between the actions on planned orders to optimize the supply chain and inventory reservations.</span></span>
+-   <span data-ttu-id="afac7-108">Peržiūrėti ryšius su jau patvirtintais užsakymais.</span><span class="sxs-lookup"><span data-stu-id="afac7-108">View relations to orders that are already approved.</span></span> <span data-ttu-id="afac7-109">Galite telkti dėmesį automatiniam išvestinių reikalavimų tvirtinimui ir tada tiksliau nustatyti užsakymų prioritetus.</span><span class="sxs-lookup"><span data-stu-id="afac7-109">You can focus on automatically firming derived requirements and then prioritize orders more accurately.</span></span>
+-   <span data-ttu-id="afac7-110">Modeliuoti planavimo rezultatus, siekiant nustatyti, ar planavimo parametrai yra optimalūs.</span><span class="sxs-lookup"><span data-stu-id="afac7-110">Simulate planning results to determine whether the planning parameters are optimal.</span></span>
+-   <span data-ttu-id="afac7-111">Identifikuoti, kaip buvo nustatyta informacija, pvz., užsakymo gamybos datos, kiekiai ir prioritetai.</span><span class="sxs-lookup"><span data-stu-id="afac7-111">Identify how information such as production dates, quantities, and priorities for an order were determined.</span></span>
 
-<span data-ttu-id="e3b99-112">Galite peržiūrėti išsamią informaciją apie pasirinkto užsakymo būsimuosius ir veiksmus.</span><span class="sxs-lookup"><span data-stu-id="e3b99-112">You can view details about futures and actions for a selected order.</span></span> <span data-ttu-id="e3b99-113">**Išskleidimo** puslapyje sekimo informacija prieinama **Paaiškinimo** skirtuke, esančiame viršutinėje srityje.</span><span class="sxs-lookup"><span data-stu-id="e3b99-113">On the **Explosion** page, tracing information is available on the **Explanation** tab in the upper pane.</span></span> <span data-ttu-id="e3b99-114">Sekimo vyksta išskleidžiant užsakymą.</span><span class="sxs-lookup"><span data-stu-id="e3b99-114">Tracing occurs when you explode an order.</span></span> <span data-ttu-id="e3b99-115">Norėdami pradėti sekti užsakymą, spustelėkite **Atnaujinti** ir pasirinkite žymės langelį **Įgalinti sekimą**.</span><span class="sxs-lookup"><span data-stu-id="e3b99-115">To start tracing for the order, click **Update**, and then select the **Enable trace** check box.</span></span> <span data-ttu-id="e3b99-116">Norėdami žurnale ieškoti konkrečios informacijos, galite naudotis lauku **Rasti tekstą**.</span><span class="sxs-lookup"><span data-stu-id="e3b99-116">You can use the **Find text** field to search the log for specific information.</span></span> <span data-ttu-id="e3b99-117">Ieškos rezultatai paryškinti medyje.</span><span class="sxs-lookup"><span data-stu-id="e3b99-117">Search results are highlighted in the tree.</span></span>
+<span data-ttu-id="afac7-112">Galite peržiūrėti išsamią informaciją apie pasirinkto užsakymo būsimuosius ir veiksmus.</span><span class="sxs-lookup"><span data-stu-id="afac7-112">You can view details about futures and actions for a selected order.</span></span> <span data-ttu-id="afac7-113">**Išskleidimo** puslapyje sekimo informacija prieinama **Paaiškinimo** skirtuke, esančiame viršutinėje srityje.</span><span class="sxs-lookup"><span data-stu-id="afac7-113">On the **Explosion** page, tracing information is available on the **Explanation** tab in the upper pane.</span></span> <span data-ttu-id="afac7-114">Sekimo vyksta išskleidžiant užsakymą.</span><span class="sxs-lookup"><span data-stu-id="afac7-114">Tracing occurs when you explode an order.</span></span> <span data-ttu-id="afac7-115">Norėdami pradėti sekti užsakymą, spustelėkite **Atnaujinti** ir pasirinkite žymės langelį **Įgalinti sekimą**.</span><span class="sxs-lookup"><span data-stu-id="afac7-115">To start tracing for the order, click **Update**, and then select the **Enable trace** check box.</span></span> <span data-ttu-id="afac7-116">Norėdami žurnale ieškoti konkrečios informacijos, galite naudotis lauku **Rasti tekstą**.</span><span class="sxs-lookup"><span data-stu-id="afac7-116">You can use the **Find text** field to search the log for specific information.</span></span> <span data-ttu-id="afac7-117">Ieškos rezultatai paryškinti medyje.</span><span class="sxs-lookup"><span data-stu-id="afac7-117">Search results are highlighted in the tree.</span></span>
 
-<a name="additional-resources"></a><span data-ttu-id="e3b99-118">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="e3b99-118">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="afac7-118">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="afac7-118">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="e3b99-119">Bendrųjų planų apžvalga</span><span class="sxs-lookup"><span data-stu-id="e3b99-119">Master plans overview</span></span>](master-plans.md)
+[<span data-ttu-id="afac7-119">Bendrųjų planų apžvalga</span><span class="sxs-lookup"><span data-stu-id="afac7-119">Master plans overview</span></span>](master-plans.md)
 
 
 
