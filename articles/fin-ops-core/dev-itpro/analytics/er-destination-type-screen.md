@@ -2,7 +2,6 @@
 title: Ekrano ER paskirties vietos tipas
 description: Šioje temoje pateikiama informacija apie tai, kaip konfigūruoti ekrano paskirties vietą kiekvienam aplanko ar failo komponentui elektroninių ataskaitų (ER) formatu.
 author: NickSelin
-manager: AnnBe
 ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
@@ -16,27 +15,27 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 5f3fc5a619704c21ebd082a85234e2fc4f3bd909
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 67af34d2c9c583d8c9befbd2675cee41a3db05e0
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561931"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753413"
 ---
-# <a name="screen-destination"></a><span data-ttu-id="bf4ea-103">Ekrano paskirties vieta</span><span class="sxs-lookup"><span data-stu-id="bf4ea-103">Screen destination</span></span>
+# <a name="screen-destination"></a><span data-ttu-id="da113-103">Ekrano paskirties vieta</span><span class="sxs-lookup"><span data-stu-id="da113-103">Screen destination</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="bf4ea-104">Galite sukonfigūruoti elektroninių ataskaitų (ER) formato, kuris sukonfigūruotas siunčiamiems dokumentams generuoti, kiekvieno aplanko ar failo komponento ekrano paskirties vietą.</span><span class="sxs-lookup"><span data-stu-id="bf4ea-104">You can configure a screen destination for each folder or file component of an Electronic reporting (ER) format that is configured to generate outbound documents.</span></span> <span data-ttu-id="bf4ea-105">Remiantis paskirties vietos parametru, sugeneruotą dokumentą galima atidaryti ir peržiūrėti atskirame žiniatinklio naršyklės skirtuke.</span><span class="sxs-lookup"><span data-stu-id="bf4ea-105">Based on the setting of the destination, a generated document is opened for preview in a separate browser tab.</span></span>
+<span data-ttu-id="da113-104">Galite sukonfigūruoti elektroninių ataskaitų (ER) formato, kuris sukonfigūruotas siunčiamiems dokumentams generuoti, kiekvieno aplanko ar failo komponento ekrano paskirties vietą.</span><span class="sxs-lookup"><span data-stu-id="da113-104">You can configure a screen destination for each folder or file component of an Electronic reporting (ER) format that is configured to generate outbound documents.</span></span> <span data-ttu-id="da113-105">Remiantis paskirties vietos parametru, sugeneruotą dokumentą galima atidaryti ir peržiūrėti atskirame žiniatinklio naršyklės skirtuke.</span><span class="sxs-lookup"><span data-stu-id="da113-105">Based on the setting of the destination, a generated document is opened for preview in a separate browser tab.</span></span>
 
-<span data-ttu-id="bf4ea-106">Jei parinktį **Įjungta** nustatysite į **Taip**, sukuriama išeigos peržiūra.</span><span class="sxs-lookup"><span data-stu-id="bf4ea-106">If you set **Enabled** to **Yes**, a preview of the output is created.</span></span> <span data-ttu-id="bf4ea-107">Kai kuriuos failų tipus, pvz., XML, TXT arba PDF, galite peržiūrėti tiesiogiai naršyklės lange.</span><span class="sxs-lookup"><span data-stu-id="bf4ea-107">You can view some file types, such as XML, TXT, or PDF, directly in a browser window.</span></span> <span data-ttu-id="bf4ea-108">Kitiems failų tipams, pvz., „Microsoft Excel“ arba „Word“, peržiūrėti naudojama „Microsoft Office“ internetinė paslauga.</span><span class="sxs-lookup"><span data-stu-id="bf4ea-108">For other file types, such Microsoft Excel or Word, the Microsoft Office Online service is used.</span></span>
+<span data-ttu-id="da113-106">Jei parinktį **Įjungta** nustatysite į **Taip**, sukuriama išeigos peržiūra.</span><span class="sxs-lookup"><span data-stu-id="da113-106">If you set **Enabled** to **Yes**, a preview of the output is created.</span></span> <span data-ttu-id="da113-107">Kai kuriuos failų tipus, pvz., XML, TXT arba PDF, galite peržiūrėti tiesiogiai naršyklės lange.</span><span class="sxs-lookup"><span data-stu-id="da113-107">You can view some file types, such as XML, TXT, or PDF, directly in a browser window.</span></span> <span data-ttu-id="da113-108">Kitiems failų tipams, pvz., „Microsoft Excel“ arba „Word“, peržiūrėti naudojama „Microsoft Office“ internetinė paslauga.</span><span class="sxs-lookup"><span data-stu-id="da113-108">For other file types, such Microsoft Excel or Word, the Microsoft Office Online service is used.</span></span>
 
-<span data-ttu-id="bf4ea-109">[![Paskirties vietos parametrų puslapis](./media/ER_Destinations-EnableScreenDestination.png)](./media/ER_Destinations-EnableScreenDestination.png)</span><span class="sxs-lookup"><span data-stu-id="bf4ea-109">[![Destination setting page](./media/ER_Destinations-EnableScreenDestination.png)](./media/ER_Destinations-EnableScreenDestination.png)</span></span>
+<span data-ttu-id="da113-109">[![Paskirties vietos parametrų puslapis](./media/ER_Destinations-EnableScreenDestination.png)](./media/ER_Destinations-EnableScreenDestination.png)</span><span class="sxs-lookup"><span data-stu-id="da113-109">[![Destination setting page](./media/ER_Destinations-EnableScreenDestination.png)](./media/ER_Destinations-EnableScreenDestination.png)</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="bf4ea-110">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="bf4ea-110">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="da113-110">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="da113-110">Additional resources</span></span>
 
-- [<span data-ttu-id="bf4ea-111">Elektroninių ataskaitų (ER) apžvalga</span><span class="sxs-lookup"><span data-stu-id="bf4ea-111">Electronic reporting (ER) overview</span></span>](general-electronic-reporting.md)
-- [<span data-ttu-id="bf4ea-112">Elektroninių ataskaitų (ER) paskirties vietos</span><span class="sxs-lookup"><span data-stu-id="bf4ea-112">Electronic reporting (ER) destinations</span></span>](electronic-reporting-destinations.md)
+- [<span data-ttu-id="da113-111">Elektroninių ataskaitų (ER) apžvalga</span><span class="sxs-lookup"><span data-stu-id="da113-111">Electronic reporting (ER) overview</span></span>](general-electronic-reporting.md)
+- [<span data-ttu-id="da113-112">Elektroninių ataskaitų (ER) paskirties vietos</span><span class="sxs-lookup"><span data-stu-id="da113-112">Electronic reporting (ER) destinations</span></span>](electronic-reporting-destinations.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

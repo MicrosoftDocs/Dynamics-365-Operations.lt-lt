@@ -2,7 +2,6 @@
 title: TRIM ER funkcija
 description: Šioje temoje pateikiama informacija apie tai, kaip naudojama TRIM elektroninių ataskaitų (ER) funkcija.
 author: NickSelin
-manager: kfend
 ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
@@ -16,44 +15,44 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b671ef72a3558c17fb16db939770394b225656da
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 93b08792a7aab7245d0443da05e0330bf8b2d56e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560042"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5746054"
 ---
-# <a name="trim-er-function"></a><span data-ttu-id="478df-103">TRIM ER funkcija</span><span class="sxs-lookup"><span data-stu-id="478df-103">TRIM ER function</span></span>
+# <a name="trim-er-function"></a><span data-ttu-id="9d03b-103">TRIM ER funkcija</span><span class="sxs-lookup"><span data-stu-id="9d03b-103">TRIM ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="478df-104">`TRIM` funkcija grąžina nurodytą teksto eilutę kaip *Eilutės* reikšmę, sutrumpinus priekinius ir galinius tarpus bei pašalinus perteklinius tarpus tarp žodžių.</span><span class="sxs-lookup"><span data-stu-id="478df-104">The `TRIM` function returns the specified text string as a *String* value after leading and trailing spaces have been truncated, and after multiple spaces between words have been removed.</span></span>
+<span data-ttu-id="9d03b-104">`TRIM` funkcija grąžina nurodytą teksto eilutę kaip *Eilutės* reikšmę, sutrumpinus priekinius ir galinius tarpus bei pašalinus perteklinius tarpus tarp žodžių.</span><span class="sxs-lookup"><span data-stu-id="9d03b-104">The `TRIM` function returns the specified text string as a *String* value after leading and trailing spaces have been truncated, and after multiple spaces between words have been removed.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="478df-105">Sintaksė</span><span class="sxs-lookup"><span data-stu-id="478df-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9d03b-105">Sintaksė</span><span class="sxs-lookup"><span data-stu-id="9d03b-105">Syntax</span></span>
 
 ```vb
 TRIM (text )
 ```
 
-## <a name="arguments"></a><span data-ttu-id="478df-106">Argumentai</span><span class="sxs-lookup"><span data-stu-id="478df-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="9d03b-106">Argumentai</span><span class="sxs-lookup"><span data-stu-id="9d03b-106">Arguments</span></span>
 
-<span data-ttu-id="478df-107">`text`: *Eilutė*</span><span class="sxs-lookup"><span data-stu-id="478df-107">`text`: *String*</span></span>
+<span data-ttu-id="9d03b-107">`text`: *Eilutė*</span><span class="sxs-lookup"><span data-stu-id="9d03b-107">`text`: *String*</span></span>
 
-<span data-ttu-id="478df-108">Tinkamas *Eilutės* tipo duomenų šaltinio maršrutas.</span><span class="sxs-lookup"><span data-stu-id="478df-108">The valid path of a data source of the *String* type.</span></span>
+<span data-ttu-id="9d03b-108">Tinkamas *Eilutės* tipo duomenų šaltinio maršrutas.</span><span class="sxs-lookup"><span data-stu-id="9d03b-108">The valid path of a data source of the *String* type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="478df-109">Grįžties vertės</span><span class="sxs-lookup"><span data-stu-id="478df-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="9d03b-109">Grįžties vertės</span><span class="sxs-lookup"><span data-stu-id="9d03b-109">Return values</span></span>
 
-<span data-ttu-id="478df-110">*Eilutė*</span><span class="sxs-lookup"><span data-stu-id="478df-110">*String*</span></span>
+<span data-ttu-id="9d03b-110">*Eilutė*</span><span class="sxs-lookup"><span data-stu-id="9d03b-110">*String*</span></span>
 
-<span data-ttu-id="478df-111">Gaunama tekstinė reikšmė.</span><span class="sxs-lookup"><span data-stu-id="478df-111">The resulting text value.</span></span>
+<span data-ttu-id="9d03b-111">Gaunama tekstinė reikšmė.</span><span class="sxs-lookup"><span data-stu-id="9d03b-111">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="478df-112">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="478df-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="9d03b-112">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="9d03b-112">Example</span></span>
 
-<span data-ttu-id="478df-113">`TRIM ("`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Sample`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`text`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`")` grąžina **„Teksto pavyzdys“**.</span><span class="sxs-lookup"><span data-stu-id="478df-113">`TRIM ("`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Sample`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`text`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`")` returns **"Sample text"**.</span></span>
+<span data-ttu-id="9d03b-113">`TRIM ("`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Sample`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`text`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`")` grąžina **„Teksto pavyzdys“**.</span><span class="sxs-lookup"><span data-stu-id="9d03b-113">`TRIM ("`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Sample`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`text`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`")` returns **"Sample text"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="478df-114">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="478df-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="9d03b-114">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="9d03b-114">Additional resources</span></span>
 
-[<span data-ttu-id="478df-115">Tekstinės funkcijos</span><span class="sxs-lookup"><span data-stu-id="478df-115">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="9d03b-115">Tekstinės funkcijos</span><span class="sxs-lookup"><span data-stu-id="9d03b-115">Text functions</span></span>](er-functions-category-text.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
