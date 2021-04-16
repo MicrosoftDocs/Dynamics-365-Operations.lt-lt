@@ -1,12 +1,10 @@
 ---
 title: Išankstinio mokėjimo SF ir išankstiniai mokėjimai
-description: Šioje temoje aprašomi ir priešpriešinami du išankstinių mokėjimų būdai, kuriuos gali naudoti organizacijos. Naudojant vieną būdą, sukuriama išankstinio mokėjimo SF, susieta su pirkimo užsakymu. Naudojant kitą būdą, išankstinio mokėjimo žurnalo kvitai kuriami sukuriant žurnalo įrašus ir pažymint juos kaip išankstinio mokėjimo žurnalo kvitus.
+description: Šioje temoje aprašomi ir priešpriešinami du išankstinių mokėjimų būdai, kuriuos gali naudoti organizacijos.
 author: abruer
-manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, PurchTable
 audience: Application User
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c8e882cb2063133324005a8e4585daa1c6a0752b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 64301ac540ce2e6e914b6b23668fddeb295ef84c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227479"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827991"
 ---
-# <a name="prepayment-invoices-vs-prepayments"></a>Išankstinio mokėjimo SF ir išankstiniai mokėjimai
+# <a name="prepayment-invoices-vs-prepayments"></a>Išankstinio mokėjimo sąskaitos faktūros ir išankstiniai mokėjimai
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomi ir priešpriešinami du išankstinių mokėjimų būdai, kuriuos gali naudoti organizacijos. Naudojant vieną būdą, sukuriama išankstinio mokėjimo SF, susieta su pirkimo užsakymu. Naudojant kitą būdą, išankstinio mokėjimo žurnalo kvitai kuriami sukuriant žurnalo įrašus ir pažymint juos kaip išankstinio mokėjimo žurnalo kvitus.
+Šioje temoje aprašomi ir priešpriešinami du išankstinių mokėjimų būdai, kuriuos gali naudoti organizacijos. Vienas metodas sukuria iš anksto mokamą SF, kuri susieta su pirkimo užsakymu. Naudojant kitą būdą, išankstinio mokėjimo žurnalo kvitai kuriami sukuriant žurnalo įrašus ir pažymint juos kaip išankstinio mokėjimo žurnalo kvitus.
 
 Organizacijos gali tiekėjams išduoti išankstinius mokėjimus (mokėjimus iš anksto) už prekes arba paslaugas prieš šių prekių ar paslaugų užsakymų įvykdymą. Tiekėjams galima išduoti išankstinius mokėjimus dviem būdais. Siekdami sumažinti riziką, išankstinius mokėjimus galite sekti, išankstinį mokėjimą nurodydami pirkimo užsakyme. Naudodami šį būdą turite sukurti išankstinio mokėjimo SF, susietą su pirkimo užsakymu. Šis būdas vadinamas išankstinio mokėjimo SF išrašymu. Organizacijos, kurios nenori išankstinių mokėjimų sekti taip atidžiai arba negauna išankstinio mokėjimo SF iš savo tiekėjo, gali naudoti išankstinio mokėjimo žurnalo kvitus, o ne išankstinio mokėjimo SF išrašymo būdą. Išankstinio mokėjimo žurnalo kvitus galite kurti, sukurdami žurnalo įrašus ir pažymėdami juos kaip išankstinio mokėjimo žurnalo kvitus. Naudodami šį būdą negalite sekti, kurie kurių pirkimo užsakymų išankstiniai mokėjimai tiekėjui yra atliekami. Tačiau galite pažymėti užregistruotą išankstinį mokėjimą sudengti pagal pirkimo užsakymą.
 
@@ -37,7 +35,7 @@ Organizacijos gali tiekėjams išduoti išankstinius mokėjimus (mokėjimus iš 
 | Išankstinio mokėjimo SF išrašymas                                                                | Išankstiniai mokėjimai                                                              |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | Nurodykite išankstinio mokėjimo vertę pirkimo užsakyme.                                    | Pirkimo užsakyme išankstinio mokėjimo vertė nenurodyta.                    |
-| Raktas: išankstinio apmokėjimo sąskaita ir paskutinė sąskaita turi būti publikuotos.                       | Išankstinio apmokėjimo SF registruoti nereikia.                                    |
+| Išankstinio apmokėjimo sąskaita ir paskutinė sąskaita turi būti publikuotos.                       | Išankstinio apmokėjimo SF registruoti nereikia.                                    |
 | Išankstinio mokėjimo įsipareigojimai saugomi išankstinio mokėjimo sąskaitoje, o ne AP sąskaitoje. | Išankstinio mokėjimo įsipareigojimai saugomi AP sąskaitoje.                  |
 | Tiekėjo balansas neatspindi išankstinio mokėjimo vertės visos proceso metu.     | Tiekėjo balansas atspindi išankstinio mokėjimo vertę visos proceso metu. |
 | Išankstinio mokėjimo SF išrašyti galima tik naudojant mokėtinas sumas.                         | Išankstinius mokėjimus atlikti galima naudojant mokėtinas sumas ir gautinas sumas.    |
@@ -59,11 +57,41 @@ Išankstinio mokėjimo sąskaitos yra bendra verslo praktika. Tiekėjas išduoda
 1.  Pirkimo agentas kuria, tvirtina ir tada pateikia pirkimo užsakymą, už kurį tiekėjas prašė išankstinio mokėjimo. Išankstinio mokėjimo vertė pirkimo užsakyme nurodoma kaip sutarties dalis.
 2.  Tiekėjas pateikia išankstinio mokėjimo SF.
 3.  Mokėtinų sumų koordinatorius užregistruoja išankstinio mokėjimo SF pagal pirkimo užsakymą, o tada išankstinio mokėjimo SF yra apmokama.
-4.  Po to, kai tiekėjas pristato prekes arba paslaugas, o susijusios tiekėjo SF yra gautos, mokėtinų sumų koordinatorius taiko išankstinio mokėjimo sumą, kuri jau buvo sudengta pagal SF.
-5.  Mokėtinų sumų koordinatorius moka ir sudengia likusią SF sumą.
+4.  Tiekėjas siunčia mokėjimo užklausą, nurodytą kaip standartinė tiekėjo SF. Po to, kai tiekėjas pristato prekes arba paslaugas, o susijusios standartines tiekėjo SF yra gautos, mokėtinų sumų koordinatorius taiko išankstinio mokėjimo sumą, kuri jau buvo sudengta pagal standartinę SF.
+5.  Mokėtinų sumų koordinatorius moka ir sudengia likusią standartinę SF sumą.
 
+## <a name="set-up-parameters-to-enable-the-prepayment-invoicing-process"></a>Nustatyti parametrus, siekiant įgalinti išankstinio mokėjimo SF išrašymo procesą
+Išankstinio apmokėjimo sąskaita turi būti apibrėžta atsargų registravimo puslapio skirtuke **Pirkimo** **užsakymas** **(Atsargų \> valdymo \> nustatymo \> registravimas**). Registruojant išankstinio apmokėjimo SF, išankstinio mokėjimo sąskaita paprastai bus atnaujinta ir debetuojama. Išankstinio mokėjimo sąskaitos balansas bus atšauktas užregistrus standartinę SF, kuri taikoma išankstinio apmokėjimo SF. Jei nesudengisite išankstinio mokėjimo SF su mokėjimu prieš pritaikę išankstinio mokėjimo SF prie standartinės SF, užregistruotos išankstinio apmokėjimo SF apskaitos įrašai bus atšaukti, kai bus užregistruota standartinė SF.
 
+Korespondentinės sąskaitos mokėtinų sumų sąskaita nurodyta tiekėjo **registravimo** šablone. Norėdami nustatyti numatytąjį registravimo šabloną, spustelėkite Mokėtinų sumų nustatymo mokėtinų sumų parametrai DK ir **skirtuke \> PVM \> registravimo\>šablonas su \> išankstinio mokėjimo tiekėjo** SF.
 
+Išankstinio **apmokėjimo programos** strategija nurodo, ar sistema automatiškai tai taikys sudengtas išankstinio apmokėjimo SF galutinai SF, kuri buvo sukurta rankiniu būdu. SF, sukurtos naudojant duomenų objektą, nebus nuorodos į išankstinio **apmokėjimo programos** strategiją. Turite rankiniu būdu taikyti sudengtas išankstinio apmokėjimo SF SF, kurios sukurtos naudojant duomenų objektą. Norėdami nustatyti strategiją, eikite į **Mokėtinų sumų nustatymo mokėtinų sumų parametrus DK ir \>PVM \> skirtuką \> Išankstinio \> apmokėjimo programos** strategija. Jei **išankstinio apmokėjimo** programos strategijos laukas nustatytas kaip **Automatinis**, išankstinio mokėjimo SF bus automatiškai pažymėta sudengti su galutinėje SF. Jei laukas nustatytas kaip Pranešimas, vaizdinis nurodymas, kad galima naudoti išankstinio apmokėjimo SF, bus **rodomas** sukūrus galutinę SF.
+
+## <a name="create-a-purchase-order-that-contains-prepayment-invoice-information"></a>Kurti pirkimo užsakymą, kuriame būtų išankstinio mokėjimo SF informacija
+Kai tiekėjas jums nurodo, kad reikalauja išankstinio apmokėjimo už pirkimo užsakyme esančias prekes ir paslaugas, turite nustatyti susijusio pirkimo užsakymo išankstinio apmokėjimo vertę. Eiti į **Mokėtinas \> sumas \> Bendrieji \> pirkimo užsakymai** Visi pirkimo užsakymai ir rasti tiekėjo pirkimo užsakymą. Veiksmų juostoje pasirinkite skirtuką **Įsigijimas**, tada pasirinkite **Išankstinis mokėjimas**. Įveskite informaciją apie išankstinį mokėjimą, įskaitant aprašą, išankstinio mokėjimo vertę, ar išankstinis mokėjimas yra fiksuota suma, ar procentas, ir išankstinio mokėjimo kategorijos ID. 
+
+Atkreipkite dėmesį, kad keli išankstinių apmokėjimų apibrėžimai pirkimo užsakyme yra negalimi. Jei turite leisti kelis išankstinius apmokėjimus pirkimo užsakyme, užregistruokite mokėjimus naudodami mokėjimų žurnalą, o ne išankstinio apmokėjimo SF.
+
+Išankstinis mokėjimas gali būti pašalintas iš pirkimo užsakymo, nebent jūs jau sudengėte mokėjimą pagal užregistruotą išankstinio mokėjimo SF arba užregistrnote standartinę SF. Norėdami pašalinti išankstinio apmokėjimo informaciją iš pirkimo užsakymo, pasirinkite Mokėtinos sumos Bendrieji pirkimo užsakymai **Visi pirkimo užsakymai \> ir \> raskite \> tiekėjo** pirkimo užsakymą. Veiksmų juostoje pasirinkite skirtuką **Įsigijimas**, tada pasirinkite **Pašalinti išankstinį mokėjimą**.
+
+## <a name="create-and-post-a-prepayment-invoice"></a>Publikuoti ir kurti išankstinio mokėjimo sąskaitą
+Norėdami įrašyti tiekėjo išankstinio apmokėjimo SF, eikite į tiekėjo SF puslapį, pasirinkdami išankstinio apmokėjimo SF pasirinktį pirkimo užsakymų puslapyje Mokėtinos sumos Bendrieji pirkimo **užsakymai** **Visi** **pirkimo** (**užsakymai \> SF \> skirtukas \> Išankstinio \> apmokėjimo \> SF**). Įveskite informaciją apie išankstinio mokėjimo SF, įskaitant SF numerį. Išankstinio mokėjimo SF kiekių keisti negalima. Jei tiekėjas išrašė SF dalį išankstinio mokėjimo vertės, kuri nurodyta pirkimo užsakyme, sumos, galite atnaujinti vieneto kainą, kad atspindėtų dalinę vertę.
+
+Publikuojant išankstinio mokėjimo sąskaitą, bus naujinamas tiekėjo balansas ir išankstinio mokėjimo sąskaita. Bus **atnaujinta ir** išankstinio apmokėjimo prašymo vertė išankstinio apmokėjimo apibrėžime, kuris yra pirkimo užsakyme. Užregistruoti išankstinio mokėjimo kvito numatytieji finansinės dimensijos įrašai bus paimti iš pirkimo užsakymo antraštės informacijos.
+
+## <a name="post-and-settle-payments-for-the-prepayment-invoice"></a>Registruoti ir sudengti išankstinio mokėjimo SF mokėjimus
+Po to išankstinio apmokėjimo SF bus sumokėta iš **mokėjimų žurnalo** puslapio. Norėdami pasiekti mokėjimo žurnalus, spustelėkite **Mokėtinų sumų \> žurnalų \> mokėjimų mokėjimų \> žurnalas**. Užregistrus mokėjimo sudengimą išankstinio mokėjimo SF, bus atnaujinta pirkimo užsakymo išankstinio **apmokėjimo** prašymo likusi vertė.
+
+Prieš registruodami standartinę išankstinio mokėjimo SF SF, galite atšaukti mokėjimo sudengimą iš išankstinio mokėjimo SF. Nepaisant to, prieš registruodami standartinę išankstinio mokėjimo SF SF, galite atšaukti mokėjimo sudengimą iš išankstinio mokėjimo SF.
+
+## <a name="post-the-standard-vendor-invoice-for-the-purchase-order-and-apply-the-prepayment-invoice-to-the-standard-invoice"></a>Registruoti standartinę tiekėjo SF pirkimo užsakymui ir taikyti išankstinio apmokėjimo SF standartinei SF
+Įrašykite standartinę iš tiekėjo gautą SF. Kaip šio proceso dalį galite taikyti sudengtą išankstinio apmokėjimo SF tiekėjo SF taip, kad SF vertė būtų sumažinta iki jau sumokėtos sumos. Pritaikę išankstinio apmokėjimo SF tiekėjo SF užtikrinsite, kad bus atšaukti išankstinio mokėjimo SF apskaitos įrašai.
+
+## <a name="application-of-the-prepayment-invoice-after-posting-the-standard-invoice"></a>Išankstinio mokėjimo SF prašymas užregistrus standartinę SF
+Jeigu pamiršote pritaikyti išankstinį apmokėjimą standartinei tiekėjo SF, registruojant tiekėjo SF, sudengtą išankstinį apmokėjimą bus galima taikyti kitoms šio tiekėjo SF, kurias rasite tiekėjų puslapyje Taikomos mokėtinų **sumų** (**bendrosios \> tiekėjų \> sąskaitos \> visiems \> tiekėjams \> SF**).
+
+## <a name="reversal-of-the-prepayment-application-process"></a>Išankstinio mokėjimo prašymo proceso atšaukimas
+Jei norite atšaukti išankstinio apmokėjimo SF sudengimas ar atšaukti jo taikymą iš standartinės SF, pasirinkite veiksmą Atšaukti iš tiekėjų puslapio **mokėtinų** iš **sumų** bendrųjų (**tiekėjų \> visų \> tiekėjų \> SF \> skirtukas \> Atšaukti**). Atšaukę išankstinio apmokėjimo prašymą, jį galite taikyti kitai standartinei SF. 
 
 
 

@@ -1,12 +1,10 @@
 ---
 title: Grynųjų pinigų srautų prognozavimas
 description: Šioje temoje pateikiama pinigų srautų prognozės proceso apžvalga. Taip pat paaiškinama, kaip pinigų srautų prognozės integruojamos į kitus sistemos modulius.
-author: saraschi2
-manager: AnnBe
-ms.date: 08/03/2020
+author: JodiChristiansen
+ms.date: 12/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 98bf906569f99c74fef747381e8f27b1d9f91a5f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2a0bcb5266472b3d0e936d27c9f599d2c6b16d7a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232470"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819655"
 ---
 # <a name="cash-flow-forecasting"></a>Grynųjų pinigų srautų prognozavimas
 
@@ -45,8 +43,7 @@ Pinigų srauto prognozę galima integruoti į didžiąją knygą, mokėtinas sum
 - **Biudžeto registro įrašai** – Pinigų srautų prognozėms pasirinkti biudžeto registro įrašai.
 - **Poreikio prognozės** – Pinigų srautų prognozėms pasirinktos atsargų prognozės modelio eilutės.
 - **Tiekimo prognozės** – Pinigų srautų prognozėms pasirinktos atsargų prognozės modelio eilutės.
-
-Nors nėra galimybės tiesiogiai integruoti į projektų valdymą ir apskaitą, projekto operacijas į pinigų srautų prognozę galima įtraukti keliais būdais. Užregistruotos projekto SF įtraukiamos į prognozę kaip atvirų kliento operacijų dalis. Projekto paskatinti pardavimo ir pirkimo užsakymai įvedus juos į sistemą įtraukiami į prognozę kaip atviri užsakymai. Taip pat galite perkelti projekto prognozes į DK biudžeto modelį. Tada šis DK biudžeto modelis įtraukiamas į pinigų srautų prognozę kaip biudžeto registro įrašų dalis.
+- **Projekto prognozės** – projektų valdymo ir apskaitos prognozės, naudojant prognozės modelį.
 
 ## <a name="configuration"></a>Konfigūravimas
 
@@ -96,6 +93,14 @@ Atsargų pasiūlos ir paklausos prognozes galima įtraukti į pinigų srautų pr
 Naujas skirtukas puslapyje **Grynųjų pinigų srautų prognozavimo sąranka** leidžia kontroliuoti, kokios finansinės dimensijos gali būti naudojamos filtruojant darbo sritį **Grynųjų pinigų srautų prognozavimas**. Šis skirtukas bus rodomas tik tada, kai bus įjungta funkcija Grynųjų pinigų srautų prognozės. 
 
 Skirtuke **Dimensijos** pasirinkite iš dimensijų, kurias naudosite filtruodami, sąrašo ir naudokite rodyklių klavišus, kad perkeltumėte jas į dešinįjį stulpelį. Grynųjų pinigų srautų prognozavimo duomenims filtruoti galima pasirinkti tik dvi dimensijas. 
+
+### <a name="project-management-and-accounting"></a>Projektų valdymas ir apskaita
+
+Versijoje 10.0.17 nauja funkcija įgalina integravimą su projektų valdymu ir apskaita bei pinigų srautų prognoze. Funkcijų valdymo darbo srityje įjunkite pinigų srautų projekto prognozės priemonę, kad į pinigų srautų prognozę įtraukite prognozuotas **išlaidas** ir **įplaukas**. Projektų valdymo ir apskaitos skirtuke, pinigų srautų prognozės nustatymo puslapyje, pasirinkite projekto tipus ir operacijų tipus, kuriuos reikia įtraukti **į pinigų** srautų **prognozę**. Tada pasirinkite projekto prognozės modelį. Mažinimo tipo submodelis tinka geriausiai. Likvidumo sąskaitos, įvestos gautinų sumų nustatyme, yra naudojamos kaip numatytosios likvidumo sąskaitos. Todėl nustatant pinigų srautų prognozę nereikia įvesti numatytųjų likvidumo sąskaitų. Biudžeto modelį taip pat galima naudoti, tačiau projektų valdymo ir apskaitos pinigų srautų prognozės nustatymo puslapyje **galima pasirinkti tik vieną** tipą. Prognozės modelis suteikia geriausią lankstumo, kai naudojamas projektų valdymas ir apskaita arba „Project Operations“.
+
+Kai pinigų srautų projekto prognozės funkcija įjungta, galima peržiūrėti kiekvieno projekto pinigų srautų prognozę **visų projektų** puslapyje. Veiksmų srities skirtuko **Planas** grupėje **Prognozė** pasirinkite **Pingų srauto prognozė**. **Grynųjų pinigų** darbo sritys (žr. [Ataskaitų](#reporting) skyrių toliau šioje temoje), projekto prognozės operacijos tipas rodo įeinančius srautus (projekto prognozės pajamas) ir išeinančius srautus (projekto prognozės išlaidas). Sumas galima įtraukti tik tuo atveju, jei grynųjų pinigų apžvalgos darbo sričių **projekto** etapo **laukas** nustatytas kaip **Apdorojamas**.
+
+Projekto operacijos vis dar įtrauktos į pinigų srautų prognozę keliais būdais, neatsižvelgiant į tai, ar pinigų srautų projekto **prognozės** funkcija įjungta. Užregistruotos projekto SF įtraukiamos į prognozę kaip atvirų kliento operacijų dalis. Projekto paskatinti pardavimo ir pirkimo užsakymai įvedus juos į sistemą įtraukiami į prognozę kaip atviri užsakymai. Taip pat galite perkelti projekto prognozes į DK biudžeto modelį. Tada šis DK biudžeto modelis įtraukiamas į pinigų srautų prognozę kaip biudžeto registro įrašų dalis. Jei įjungėte pinigų srautų projekto prognozės priemonę, neįkelkite projekto prognozių į DK biudžeto modelį, nes dėl šio veiksmo projekto prognozės bus skaičiuojamos **du** kartus.
 
 ### <a name="calculation"></a>Skaičiavimas
 

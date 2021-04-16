@@ -2,11 +2,9 @@
 title: Inžineriniai atributai ir inžinerinio atributo paieška
 description: Šioje temoje paaiškinama, kaip galite naudoti inžinerinius atributus norėdami nurodyti visas nestandartines savybes ir užtikrinti, kad visi produkto pagrindiniai duomenys būtų registruoti sistemoje. Jis taip pat paaiškina, kaip galite naudoti inžinerinį atributo paiešką tam, kad nesunkiai rastumėte produktus pagal jų registruotas savybes.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductAttributeSearch, EngChgMaintainAttributeInheritance, EngChgAttribute
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3ddb271535f0f2151f46a37a3ab3f3742e67ca87
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 01752bfc9bab662064baf30635ae6879358c5bbe
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262386"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830081"
 ---
 # <a name="engineering-attributes-and-engineering-attribute-search"></a>Inžineriniai atributai ir inžinerinio atributo paieška
 
 [!include [banner](../includes/banner.md)]
 
-Norėdami, kad visi produkto pagrindiniai duomenys būtų registruoti sistemoje, turėtumėte naudoti inžinerinius atributus tam, kad nurodytumėte visas nesatandartines savybes. Tuomet galite naudoti inžinerinį atributo paiešką tam, kad nesunkiai rastumėte produktus pagal jų registruotas savybes.
+Norėdami, kad visi produkto bendrieji duomenys būtų registruoti sistemoje, turėtumėte naudoti inžinerinius atributus tam, kad nurodytumėte visas nestandartines savybes. Tuomet galite naudoti inžinerinį atributo paiešką tam, kad nesunkiai rastumėte produktus pagal jų registruotas savybes.
 
 ## <a name="engineering-attributes"></a>Inžinerijos atributai
 
@@ -34,7 +32,7 @@ Dažniausiai, inžinerijos produktai turi daug savybių ir ypatybių, kurias tur
 
 ### <a name="create-engineering-attributes-and-attribute-types"></a>Sukurkite inžinerinius atributus ir jo tipus
 
-Bet kuris inžinerinis atributas turi priklausyti *atributo tipui*. Toks reikalavimas egzistuoja dėl to, kad visi inžineriniai atributai turi turėti *duomenų tipą*, kuris nustato jo turimus večių tipus. Inžinerinio atributo tipas gali būti standartinis tipas (toks kaip laisvas tekstas, integruojantis ar dešimtainė) arba tinkintas tipas (toks kaip tekstas turinti konkretų verčių rinkinį, iš kurių rinktis). Galite dar kartą panaudoti kiekvieną atributo tipą su bet kuriuo inžinerinių atributų numeriu.
+Bet kuris inžinerinis atributas turi priklausyti *atributo tipui*. Toks reikalavimas egzistuoja dėl to, kad visi inžineriniai atributai turi turėti *duomenų tipą*, kuris nustato jo turimus verčių tipus. Inžinerinio atributo tipas gali būti standartinis tipas (toks kaip laisvas tekstas, integruojantis ar dešimtainė) arba tinkintas tipas (toks kaip tekstas turinti konkretų verčių rinkinį, iš kurių rinktis). Galite dar kartą panaudoti kiekvieną atributo tipą su bet kuriuo inžinerinių atributų numeriu.
 
 #### <a name="set-up-engineering-attribute-types"></a>Nustatykite inžinerijos atributo tipą
 
@@ -47,7 +45,7 @@ Norėdami peržiūrėti, sukurti ar redaguoti inžinerinių pakeitimų užklaus�
     - **Atributo tipo pavadinimas** – Įveskite kainų profilį aprašantį tipą.
     - **Tipas** – Pasirinkite standartinį duomenų tipą (*Valiuta*, *Data ir laikas*, *Dešimtainė*, *Integruojantis*, *Tekstas*, *Boolean* ar *Nuoroda*).
     - **Fiksuotas sąrašas** – Ši parinktis prieinama tik jei nustatėte **Tipo** laukelį į *Tekstas*. Nustatykite jį į *Taip* tam, kad nustatytumėte konkrečias vertes šio tipo atributams. Tokiu atveju, iškrentantis meniu bus sukurtas. Naudojate **Vertės** „FastTab“ siekiant sukurti vertes prieinamas šiam atributo tipui. Nustatykite šią parinktį į *Ne* norėdami leisti vartotojams įvesti bet kurią vertę. Tokiu atveju, įvesties laukelis bus sukurtas.
-    - **Vertės intervalas** – Ši parinktis prieinama tik jei nustatėte **Tipo** laukelį į *Integruojantis*, *Dešimtainė* ar *Valiuta*. Nustatykite jį į *Taip* norėdami sukurti minimalias ir maksimalias vertes, kurios bus priimtos šio tipo atributams. Naudojate **Intervalo** „FastTab“ norėdami sukurti minimalias ir maks. vertes bei (valiutai) valiutą tiakomą jūsų įvestiems apribojimams. Nustatykite šią parinktį į *Ne* norėdami priimti bet kurią vertę. 
+    - **Vertės intervalas** – Ši parinktis prieinama tik jei nustatėte **Tipo** laukelį į *Integruojantis*, *Dešimtainė* ar *Valiuta*. Nustatykite jį į *Taip* norėdami sukurti minimalias ir maksimalias vertes, kurios bus priimtos šio tipo atributams. Naudojate **Intervalo** „FastTab“ norėdami sukurti minimalias ir maksimalias vertes bei (valiutai) valiutą taikomą jūsų įvestiems apribojimams. Nustatykite šią parinktį į *Ne* norėdami priimti bet kurią vertę. 
     - **Matavimo vienetas** – Šis laukelis prieinamas tik jei nustatėte **Tipo** laukelį į *Integruojantis* ar *Dešimtainis*. Pasirinkite matavimo vienetą taikomą šiam atributo tipui. Jei jokio vieneto nereikia, palikite laukelį tuščią.
 
 #### <a name="set-up-engineering-attributes"></a>Nustatykite inžinerijos atributus
@@ -80,7 +78,7 @@ Dėl daugiau informacijos apie tai, kaip dirbti su inžinerijos produktų katego
 
 ### <a name="set-values-for-engineering-attributes"></a>Nustatykite vertes inžinerijos atributams
 
-Inžinerijos atributai sujungti su inžinerijos produkto kategorijomis yra rodomi, kai kuriate naują inžinerijos produktą paremtą ta kategorija. Tuo metu, galite nustatyti vertes atributams. Vėliau, tos vertės gali būti pakeitos **Inžinerijos versijos** puslapyje arba kaip inžinerijos keitimų valdymo dalis inžinerijos keitimo užsakyme. Dėl daugiau informacijos, žr. [Valdyti keitimus inžinerijos produktams](engineering-change-management.md).
+Inžinerijos atributai sujungti su inžinerijos produkto kategorijomis yra rodomi, kai kuriate naują inžinerijos produktą paremtą ta kategorija. Tuo metu, galite nustatyti vertes atributams. Vėliau tos vertės gali būti pakeistos **Inžinerijos versijos** puslapyje arba kaip inžinerijos keitimų valdymo dalis inžinerijos keitimo užsakyme. Dėl daugiau informacijos, žr. [Valdyti keitimus inžinerijos produktams](engineering-change-management.md).
 
 ### <a name="create-an-engineering-product"></a>Sukurkite inžinerijos produktą
 

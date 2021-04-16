@@ -2,11 +2,9 @@
 title: Atsargų blokavimas
 description: Šioje temoje apžvelgiamas atsargų blokavimas, kuris yra „Supply Chain Management‟ kokybės tikrinimo proceso dalis. Naudodami atsargų blokavimą galite neleisti apdoroti ar vartoti prekių.
 author: perlynne
-manager: tfehr
 ms.date: 03/02/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventBlocking, InventQualityOrderTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1d4b006f37904c0ae20691aaa98c75f1d5833b7
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: d07313050b59a32756fa5e31037f1831a2cbe862
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5487902"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829889"
 ---
 # <a name="inventory-blocking"></a>Atsargų blokavimas
 
@@ -67,7 +65,7 @@ Galite nurodyti, kurių atsargų būsenos yra blokavimo būsenos, naudodami para
 
 ## <a name="take-care-when-blocking-items-that-use-both-inventory-status-blocking-and-quality-order-blocking"></a>Pasirūpinkite blokuodami prekes, kurios naudoja ir atsargų būsenos blokavimą, ir kokybės užsakymo blokavimą
 
-Galite sukurti kokybišką užsakymą, susietą su atsargomis, kurių atsargos turi atsargų būseną, kurios **atsargų blokavimo** parametras įjungtas. Šiuo atveju kokybės užsakymas generuos papildomą atsargų blokavimo įrašą kartu su tuo, kurį sukūrė atsargų būsena. Kadangi kokybės užsakymo atsargų blokavimo parametras **Tikėtini kvitai** įjungtas, generuojama papildoma operacija *Užsakytos atsargos*, kurį taip pat blokuoja jo tsargų būsena. Dėl šio derinio gali būti sunku suprasti sugeneruotų atsargų ataskaitų reikšmę, nes atrodys taip, tarsi bendras blokuojamas kiekis yra didesnis nei turimas bendras kiekis. Išnagrinėkime operacijas, imdami pavyzdį, kai gauta 10 prekių A0001 vienetų su kokybės užsakymu, sugeneruotu 1 vieneto mėginiui paimti. Elgesys taip pat priklausys nuo to, ar parinktis **Rezervuoti užsakytas prekes** yra įjungta puslapyje **Atsargų ir sandėlio valdymo parametrai**.
+Galite sukurti kokybišką užsakymą, susietą su atsargomis, kurių atsargos turi atsargų būseną, kurios **atsargų blokavimo** parametras įjungtas. Šiuo atveju kokybės užsakymas generuos papildomą atsargų blokavimo įrašą kartu su tuo, kurį sukūrė atsargų būsena. Kadangi kokybės užsakymo atsargų blokavimo parametras **Tikėtini kvitai** įjungtas, generuojama papildoma operacija *Užsakytos atsargos*, kurį taip pat blokuoja jo atsargų būsena. Dėl šio derinio gali būti sunku suprasti sugeneruotų atsargų ataskaitų reikšmę, nes atrodys taip, tarsi bendras blokuojamas kiekis yra didesnis nei turimas bendras kiekis. Išnagrinėkime operacijas, imdami pavyzdį, kai gauta 10 prekių A0001 vienetų su kokybės užsakymu, sugeneruotu 1 vieneto mėginiui paimti. Elgesys taip pat priklausys nuo to, ar parinktis **Rezervuoti užsakytas prekes** yra įjungta puslapyje **Atsargų ir sandėlio valdymo parametrai**.
 
 >[!NOTE]
 >Jei kartu naudojate atsargų būsenos blokavimo ir kokybiškus užsakymus, labai rekomenduojama įjungti parinktį **Rezervuoti užsakytas prekes**.

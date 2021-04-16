@@ -2,11 +2,9 @@
 title: Naudokite vieną mokėjimą, kad sudarytumėte sąskaitas, kuriose yra keli skirtingi nuolaidų laikotarpiai
 description: Šioje temoje rodoma, kaip sumokamos kelios SF, kai kiekvienai SF gali būti pritaikyta mokėjimo nuolaida. Šio straipsnio scenarijais pabrėžiama, kaip taikomos mokėjimo nuolaidos skiriasi pagal tai, kada atliekamas mokėjimas.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16e255c471ed2f551a6cf62e9750ac0eee57a5b3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e68ef15fed1841bcbf006929f3c6441d62798fc8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236967"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819919"
 ---
 # <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>Naudokite vieną mokėjimą, kad sudarytumėte sąskaitas, kuriose yra keli skirtingi nuolaidų laikotarpiai
 

@@ -2,11 +2,9 @@
 title: Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.11 versijoje (2020 m. birželio mėn.)?
 description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.11 versijos funkcijos.
 author: kamaybac
-manager: tfehr
 ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 16195e8dd99161cd812dea7dd6f3024b10b94713
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fa6a57266838fff4c34384337200fc6f24cbe640
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259000"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821182"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.11 versijoje (2020 m. liepos mėn.)?
 
@@ -39,7 +37,7 @@ Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinima
 
 - [Turimų atsargų ataskaitos saugykla](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
 
-- [Su sandėlio programa gaunami numerio lentelės papildymai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - Dėl išsamesnės informacijos, žr. [Licencijos ženklas gaunamas per sandėlio programą](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md)
+- [Su sandėlio programa gaunami numerio lentelės papildymai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - Daugiau informacijos rasite [Numerio lentelės gavimas per sandėlio valdymo mobiliųjų įrenginių programėlę](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
 - [Linijos rezervavimo papildymai pakuotės numerio rezervavimo formai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - Dėl daugiau informacijos, žr.[To paties pardavimo užsakymo paketo rezervavimas](../sales-marketing/reserve-same-batch-sales-order.md).
 

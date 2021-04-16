@@ -2,11 +2,9 @@
 title: 'LT-00003: generuoti ilgalaikio turto perkėlimo iš vieno sandėlio į kitą dokumentą'
 description: Jei jūsų organizacijai reikia perkelti ilgalaikį turtą iš vieno padalinio į kitą ir du padaliniai nėra toje pačioje vietoje, perkėlimas turi būti patvirtintas važtaraščiu.
 author: KimANelson
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VehicleModelTable_W, LtInvoiceAutoNumberingGroups, LtInvoiceAutonumberingTable, AssetWarehouseTransfer, HcmWorkerLookUp, SysQueryForm, LtAssetPackingSlip, TransportationDocument, LogisticsPostalAddressLookup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Lithuania
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6794924b34dc0aecfccf4579fb59df8577c90ef1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 358559b2b63937630d9031487b7ac1a1c5afed9c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223832"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823576"
 ---
 # <a name="lt-00003-generate-a-fixed-asset-transfer-between-warehouses-document"></a>LT-00003: generuoti ilgalaikio turto perkėlimo iš vieno sandėlio į kitą dokumentą
 

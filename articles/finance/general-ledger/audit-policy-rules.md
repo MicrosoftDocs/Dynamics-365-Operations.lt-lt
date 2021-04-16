@@ -2,11 +2,9 @@
 title: Audito strategijos taisyklės
 description: Norėdami įvertinti išlaidų ataskaitas, tiekėjo SF ir pirkimo užsakymus ir įsitikinti, kad jie atitinka jūsų kuriamas strategijos taisyklės, galite naudoti audito strategijas. Visos su audito strategija susietos taisyklės vykdomos paketiniu režimu pagal jūsų nurodytą grafiką.  Kiekviena strategijos taisyklė yra strategijos taisyklės tipo egzempliorius. Vienu metu gali būti aktyvi tik viena strategijos taisyklės tipo strategijos taisyklė.
 author: panolte
-manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b3a0ffe81f4b56bdd388dc1ce2c00a99e0278cdf
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f1297f405e57c2de4f42f05f78ef52b2d763f0f8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262843"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821990"
 ---
 # <a name="audit-policy-rules"></a>Audito strategijos taisyklės
 

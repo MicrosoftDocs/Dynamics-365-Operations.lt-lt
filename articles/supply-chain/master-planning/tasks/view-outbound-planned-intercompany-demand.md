@@ -2,11 +2,9 @@
 title: Peržiūrėti siunčiamą suplanuotą vidinių įmonių poreikį
 description: Šioje procedūroje parodoma, kaip peržiūrėti visus suplanuotus užsakymus, kuriuos įvykdys vidinės įmonės tiekėjas.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, ReqOutboundIntercompanyDemand
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1bc3addb11d77a5098e80a5826bfea289d232548
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2eb361e1c1d18369d6b945ec18a7e3a6a1ebfb97
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254292"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829599"
 ---
 # <a name="view-outbound-planned-intercompany-demand"></a>Peržiūrėti siunčiamą suplanuotą vidinių įmonių poreikį
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje procedūroje parodoma, kaip peržiūrėti visus suplanuotus užsakymus, kuriuos įvykdys vidinės įmonės tiekėjas. Juriant šią procedūrą naudojama demonstracinių duomenų įmonė yra DEMF.
+Šioje procedūroje parodoma, kaip peržiūrėti visus suplanuotus užsakymus, kuriuos įvykdys vidinės įmonės tiekėjas. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra DEMF.
 
 1. Spustelėkite Bendrasis planavimas.
 2. Lauke Planas įveskite arba pasirinkite vertę.

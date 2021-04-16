@@ -2,11 +2,9 @@
 title: Išleidimo į sandėlį taisyklė
 description: Šioje temoje pateikiama informacija apie išleidimo į sandėlį taisyklę, suteikiančią lankstumo išleidimo į sandėlį metu. Jis prideda konfigūracijos parinktį, kontroliuojančią, ar sistema leidžia išleisti iš dalies rezervuotas užsakymo eilutes.
 author: mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: b23ef104b918f44eed6508319d9b58f2b8355ff1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 77714d6bda27d8d29b10177dd87e61839295e47e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228422"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823268"
 ---
 # <a name="release-to-warehouse-rule"></a>Išleidimo į sandėlį taisyklė
 
@@ -48,7 +46,7 @@ Norėdami inicijuoti funkciją ir nustatyti visų sandėlių išleidimo į sand�
 
 1. Eikite į **Sandėlio valdymas \> Sąranka \> Sandėlio valdymo parametrai**.
 1. Puslapio **Sandėlio valdymo parametrai** skirtuke **Bendra** sekcijoje **Įmonės informacija** pasirinkite saitą į **Išleidimo į sandėlį inicijavimo** taisyklę. (Jei šis saitas nerodomas, funkcija yra neįjungta arba ji jau buvo inicijuota.)
-1. Kai būsitė paraginti patvirtinti veiksmą, pasirinkite **Taip,** jei norite inicijuoti funkciją.
+1. Kai būsite paraginti patvirtinti veiksmą, pasirinkite **Taip,** jei norite inicijuoti funkciją.
 
 ## <a name="set-the-release-to-warehouse-rule-for-each-warehouse"></a><a name="set-option-warehouse"></a>Nustatyti išleidimo į sandėlį taisyklę kiekvienam sandėliui
 

@@ -2,11 +2,9 @@
 title: Produktų informacijos peržiūra
 description: Šioje temoje pateikiama informacijos apie produktų informacijos valdymą. Valdant produktų informaciją, dirbama su bendrinama produkto apibrėžtimi, kategorizacija ir identifikatoriais visuose juridiniuose subjektuose bei konkrečiomis produkto konfigūracijomis, kad būtų galima prisiderinti prie verslo procesų.
 author: t-benebo
-manager: tfehr
 ms.date: 06/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace, EcoResProductVariantPerCompanyImagePart, EcoResProductRelationType,EcoResProductAvailabilityPart,  EcoResProductReleasedSelect, EcoResProductLookup, EcoResProductVariantsPendingReleaseFormPart, EcoResProductSearchLookup, EcoResProductNumberRename, EcoResDimensionBasedConfigWorkspace, EcoResProductVariantImagePart, EcoResProductImagePart, EcoResProductVariantsPerCompanyPart, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleaseSessions, EcoResProductVariantMaintainWorkspaceConfiguration, EcoResProductProcessManufacturingWorkspaceConfiguration, EcoResProductMasterVariantsPart, EcoResProductDiscreteManufacturingWorkspaceConfiguration, EcoResProductVariantAvailabilityPart, EcoResProductInformationFactBox, EcoResProductLookupTest, EcoResProductImageTest, EcoResProductReleasedRecentlyCreatedFormPart, EcoResPhysicalProductDimensions, PdsMRCRegulatedListItem, EcoResProductAvailabilityPart, PdsMRCRestrictionList, InventItemIdLookupAllocationId, EcoResProductAvailability, EcoResProductEntityAttributeTableFieldAssociation, EcoResProductImagePart, EcoResProductRelation, EcoResProductReleaseAddProduct, EcoResProductPerCompanyListPage, EcoResProductParameters, PdsMRCRestrictedItemByCountryState, EngChgCasePreview, InventTablePreview, PdsMRCItemDetails, EngChgCaseAssociate, PdsMRCCustomerHistory, PdsMRCVendorHistory, PdsMRCRestrictedCountryStateByItem, InventItemIdGroupLookup, InventLocationLookup, PdsMRCValidityIntervalbyCountry, PdsMRCValidityIntervalbyCountry, PdsMRCEventTracker, PdsMRCReportingCountry, PdsMRCDocument, PdsMRCReportingList, PdsMRCItemCAS, GraphicsTestForm, EngChgPicklist
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e797e8d9e2c7b30d3f94a03bd0cb8024afe5835
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f1370bc0985a794ab7875b82b96d9d6d99cece44
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247867"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820231"
 ---
 # <a name="product-information-overview"></a>Produktų informacijos peržiūra
 
@@ -56,15 +54,15 @@ Produktą pirmiausia apibrėžia produkto numeris, pavadinimas ir aprašas. Tač
 
 ## <a name="distribution-export-and-import-of-product-data"></a>Produkto duomenų platinimas, eksportavimas ir importavimas
 
-Produkto apibrėžtį galima sukurti Tiekimo grandinės valdyme. Ją taip pat galima importuoti iš produktų ciklo valdymo (PLM), produktų duomenų valdymo (PDM) ar produktų informacijos valdymo (PIM) sistemų. Kai naudojamas daugiau nei vienas Tiekimo grandinės valdymo egzempliorius, vienas iš jų paprastai naudojamas kaip pagrindinis produktų duomenų egzempliorius visiems kitiems egzemplioriams. Taip daryti galima pasitelkiant didelę duomenų objektų grupę, kuriuos naudojant produktų apibrėžčių duomenis galima eksportuoti ir importuoti iš vieno egzemplioriaus į kitą.
+Produkto apibrėžtį galima sukurti „Supply Chain Management”. Ją taip pat galima importuoti iš produktų ciklo valdymo (PLM), produktų duomenų valdymo (PDM) ar produktų informacijos valdymo (PIM) sistemų. Kai naudojamas daugiau nei vienas „Supply Chain Management” egzempliorius, vienas iš jų paprastai naudojamas kaip pagrindinis produktų duomenų egzempliorius visiems kitiems egzemplioriams. Taip daryti galima pasitelkiant didelę duomenų objektų grupę, kuriuos naudojant produktų apibrėžčių duomenis galima eksportuoti ir importuoti iš vieno egzemplioriaus į kitą.
 
-Kad produktų duomenis būtų galima platinti keliuose egzemplioriuose, Tiekimo grandinės valdyme galima naudoti „Microsoft Dataverse“. Produktų apibrėžtis iš Tiekimo grandinės valdymo egzemplioriaus galima eksportuoti į „Microsoft Dataverse“. Tada, naudojant produktų apibrėžtis, galima kitas verslo programas, pvz., „Dynamics 365 for Sales“, užpildyti produktų duomenimis.
+Kad produktų duomenis būtų galima platinti keliuose egzemplioriuose, „Supply Chain Management” galima naudoti „Microsoft Dataverse“. Produktų apibrėžtis iš „Supply Chain Management” egzemplioriaus galima eksportuoti į „Microsoft Dataverse“. Tada, naudojant produktų apibrėžtis, galima kitas verslo programas, pvz., „Dynamics 365 Sales“, užpildyti produktų duomenimis.
 
 Atkreipkite dėmesį, kad dinamiškose ir lanksčiose organizacijose produktų informacijos duomenys keičiasi kiekvieną dieną. Todėl tikslių ir faktinių produktų duomenų priežiūra yra labai svarbus atskiras verslo procesas.
 
 ## <a name="product-masters-and-product-variants"></a>Bendrieji produktai ir produktų variantai
 
-Lanksčiame pasaulyje, kuriame produktus reikia greitai pritaikyti pagal klientų reikalavimus, produktų apibrėžtyse nurodomas produktų rinkinys, o ne išskirtieji produktai. Tiekimo grandinės valdyme tokie produktai vadinami *bendraisiais produktais*. Bendruosiuose produktuose apibrėžiama ir pateikiamos taisyklės, kaip išskirtieji produktai aprašomi ir veikia vykstant verslo procesams. Pagal šias apibrėžtis galima generuoti išskirtuosius produktus. Šie išskirtieji produktai vadinami *produktų variantais*.
+Lanksčiame pasaulyje, kuriame produktus reikia greitai pritaikyti pagal klientų reikalavimus, produktų apibrėžtyse nurodomas produktų rinkinys, o ne išskirtieji produktai. „Supply Chain Management” tokie produktai vadinami *bendraisiais produktais*. Bendruosiuose produktuose apibrėžiama ir pateikiamos taisyklės, kaip išskirtieji produktai aprašomi ir veikia vykstant verslo procesams. Pagal šias apibrėžtis galima generuoti išskirtuosius produktus. Šie išskirtieji produktai vadinami *produktų variantais*.
 
 Bendrasis produktas susiejamas su produktų dimensijų grupe ir konfigūravimo technologija, kad būtų galima nurodyti verslo taisykles. Produktų dimensijos (Spalva, Dydis, Stilius ir Konfigūracija) yra konkretus atributų rinkinys, kurį naudojant programoje galima apibrėžti ir sekti konkretų susijusių produktų veikimą. Šios dimensijos taip pat vartotojams padeda ieškoti produktų ir juos nustatyti.
 
@@ -76,7 +74,7 @@ Galite rinktis iš trijų konfigūravimo technologijų:
 - Konfigūravimo pagal dimensijas funkcija paprastai naudojama gamybos situacijose ir apibrėžiant komplektavimo specifikacijas (KS) ji leidžia naudoti dimensiją Konfigūracija. Pasirinkus konkrečią konfigūraciją sistema naudoja tai konfigūracijai tinkamų planavimo ir gamybos KS eilučių pogrupį. Ši sąvoka taip pat vadinama *visuotine KS*, nes viena bendrai naudojama KS naudojama visoms produkto konfigūracijoms.
 - Konfigūravimo pagal apribojimus funkcija naudoja produkto konfigūracijos modelį ir apibūdina visus galimus atributus ir komponentus, kurių reikia norint viename modelyje apibūdinti visus galimus produkto variantus. Atributų derinių apribojimus galima apibūdinti naudojant reguliariuosius reiškinius ar apribojimus pagal lenteles. Valdant produktų informaciją konfigūracijų modeliai ir konfigūratoriai tampa vis svarbesni ir yra naudojami visose pramonės šakose.
 
-Planuojant diegti Tiekimo grandinės valdymą, labai svarbu verslo procesui parinkti tinkamą konfigūravimo technologiją. Įdiegus produkto negalima konvertuoti iš vieno modelio į kitą.
+Planuojant diegti „Supply Chain Management”, labai svarbu verslo procesui parinkti tinkamą konfigūravimo technologiją. Įdiegus produkto negalima konvertuoti iš vieno modelio į kitą.
 
 ## <a name="product-variant-model-definition-workspace"></a>Darbo sritis Produktų variantų modelių apibrėžimas
 

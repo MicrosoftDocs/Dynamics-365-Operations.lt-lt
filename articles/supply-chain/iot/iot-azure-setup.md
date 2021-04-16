@@ -2,11 +2,9 @@
 title: IoT analizės papildiniui skirtų „Azure“ išteklių konfigūravimas
 description: Šioje temoje aiškinama, kaip kurti ir konfigūruoti „Microsoft Azure“ išteklius, reikalingus IoT analizės papildiniui.
 author: robinarh
-manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f728f3b5736bc7368ffb39bf2be398fb91fb373e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 722904aa75a9d95b99c83f39a1d79b9c796714b3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5224959"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821110"
 ---
 # <a name="set-up-azure-resources-for-iot-intelligence"></a>IoT analizės papildiniui skirtų „Azure“ išteklių konfigūravimas
 
@@ -73,7 +71,7 @@ Norėdami kurti „IoT Hub“ išteklius, atlikite toliau nurodytus veiksmus.
 
 1. Kurkite arba eikite į išteklių grupę.
 2. Pasirinkite **Įtraukti**.
-3. Puslapio **Nauja** ieškos lauke įveskite **IoT Hub**. Paskui paspauskite **Kurti**.
+3. Puslapio **Nauja** ieškos lauke įveskite **„IoT Hub”**. Paskui paspauskite **Kurti**.
 4. Lauke **„IoT Hub“ pavadinimas** įveskite pavadinimą.
 5. Peržiūrėkite numatytąsias reikšmes, tada pasirinkite **Peržiūrėti ir sukurti**.
 6. Pasirinkite **Kurti**.
@@ -123,7 +121,7 @@ Norėdami konfigūruoti raktų saugyklą, atlikite toliau nurodytus veiksmus.
 3. Pasirinkite **Įtraukti prieigos strategiją**.
 4. Puslapyje **Įtraukti prieigos strategiją** esančiame lauke **Slaptos teisės** pasirinkite **Gauti** ir **Sąrašas**.
 5. Spustelėkite **Pasirinkti pagrindinę**.
-6. Dialogo lange **Pagrindis** raskite ir pasirinkite **Microsoft Dynamics ERP Microservices**. Tada pasirinkite **Pasirinkti**.
+6. Dialogo lange **Pagrindinis** suraskite ir pasirinkite **„Microsoft Dynamics ERP Microservices”**. Tada pasirinkite **Pasirinkti**.
 7. Pasirinkite **Įtraukti**.
 8. Pasirinkite **Įrašyti**.
 

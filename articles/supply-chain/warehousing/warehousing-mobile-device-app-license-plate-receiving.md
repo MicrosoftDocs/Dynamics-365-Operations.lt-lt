@@ -1,12 +1,10 @@
 ---
-title: Numerio lentelės gavimas „Warehousing“ programėlėje
-description: Šioje temoje paaiškinama, kaip nustatyti „Warehousing“ programėlę palaikyti numerio lentelės gavimo procesą faktinių atsargų gavimui.
+title: Numerio lentelės gavimas naudojant sandėlio valdymo mobiliųjų įrenginių programėlę
+description: Šioje temoje paaiškinama, kaip nustatyti sandėlio valdymo mobiliųjų įrenginių programėlę, kad faktinių atsargų gavimui būtų palaikomas numerio lentelės gavimo proceso naudojimas.
 author: perlynne
-manager: tfehr
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters, WHSRFMenuItem, WHSLicensePlate, WHSPackingStructure
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: f921d08572038d2ac53948825a8ca2459103b7f7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8c662da296bea7def443cb166bd3f7e501c9abcc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245159"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823196"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-app"></a>Numerio lentelės gavimas „Warehousing“ programėlėje
+# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Numerio lentelės gavimas naudojant sandėlio valdymo mobiliųjų įrenginių programėlę
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nustatyti „Warehousing“ programą palaikyti numerio lentelės gavimo procesui faktinių atsargų gavimui.
+Šioje temoje paaiškinama, kaip nustatyti sandėlio valdymo mobiliųjų įrenginių programėlę, kad faktinių atsargų gavimui būtų palaikomas numerio lentelės gavimo proceso naudojimas.
 
 Šią funkciją galite naudoti norėdami greitai įrašyti gaunamų atsargų gavimą, susijusį su išankstiniu siuntimo pranešimu (ASN). Sistema automatiškai sukuria ASN, kai sandėlio valdymo procesai naudojami perkėlimo užsakymui siųsti. Pirkimo užsakymo procese ASN gali būti įrašytas rankiniu būdu arba automatiškai importuotas naudojant gaunamo ASN duomenų objekto procesą.
 
@@ -72,7 +70,7 @@ Jei norite, kad šios funkcijos būtų prieinamos jūsų sistemoje, turite įjun
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>Gavimo suvestinės puslapio rodymas arba praleidimas
 
-Galite naudoti funkciją *Kontroliuoti, ar mobiliuosiuose įrenginiuose bus rodomas gavimo suvestinės puslapis*, kad numerio lentelės gavimo proceso metu galėtumėte pasinaudoti papildomu išsamiu sandėliavimo programos srautu.
+Galite naudoti funkciją *Kontroliuoti, ar mobiliuosiuose įrenginiuose bus rodomas gavimo suvestinės puslapis*, kad numerio lentelės gavimo proceso metu galėtumėte pasinaudoti papildomu išsamiu sandėlio valdymo mobiliųjų įrenginių programėlės srautu.
 
 Kai ši funkcija įjungta, mobiliojo įrenginio meniu elementai, skirti numerio lentelei gauti arba numerio lentelei gauti ir atidėti, teikia parametrą **Rodyti gavimo suvestinės puslapį**. Šis parametras turi toliau pateiktas parinktis.
 
