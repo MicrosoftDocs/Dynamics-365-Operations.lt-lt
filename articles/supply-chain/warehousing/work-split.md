@@ -2,11 +2,9 @@
 title: Darbo skaidymas
 description: Šiame temoje paaiškinama informacija apie darbo atskyrimo funkciją. Ši funkcija leidžia jums atskirti didelius darbo užsakymus į keletą mažesnių darbo užsakymų, kuriuos galite tuomet priskirti keliems sandėlio darbuotojų. Tokiu būdu tas pats darbas gali būti paimamas vienu metu kelių sandėlio darbuotojų.
 author: mirzaab
-manager: tfehr
 ms.date: 10/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -15,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6dbf0f6dd0c691db74eaad2174d8f9849b4cb26a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: eae1e722a7c4d819cbca398eb14a2b36fa04eec5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245087"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830767"
 ---
 # <a name="work-split"></a>Darbo skaidymas
 
@@ -69,7 +67,7 @@ Toliau, įjunkite *Darbo atskyrimo* funkciją, kuri yra įrašyta tolesne tvarka
 >
 > - Darbą šiuo metu atskiria kitas vartotojas. Jei bandote atverti atskyrimo langą darbui, kurį jau atskiria kitas vartotojas, gausite šį klaidos pranešimą: „Darbas su ID \#\#\#\# šiuo metu atskiriamas. Bandykite po kelių minučių. Jei ir toliau gaunate šį pranešimą, susisiekite su vadovu."
 
-Nauja darbo blokavimo priežastis, *Atskirti darbą*, rodomas, kai darbo ID yra atskyrimo procese. Jis rodomas tiek **Atskirti darbą** puslapyje ir sandėlio programoje, jei vartotojas bando vykdyti darbą. Kai blokavimo priežastys yra naudojamos, **Blokuota bangos** laukelio pavadinimas iš darbo ID yra pakeistas į **Blokuotas**.
+Nauja darbo blokavimo priežastis, *Atskirti darbą*, rodoma, kai darbo ID yra atskyrimo procese. Jei vartotojas bando vykdyti darbą, ji rodoma tiek **Atskirti darbą** puslapyje, tiek sandėlio valdymo mobiliųjų įrenginių programėlėje. Kai blokavimo priežastys yra naudojamos, **Blokuota bangos** laukelio pavadinimas iš darbo ID yra pakeistas į **Blokuotas**.
 
 ## <a name="initiate-a-work-split"></a>Pradėkite darbo atskyrimą
 
@@ -147,9 +145,9 @@ Norėdami pabaigti darbo atskyrimą, *Atskirti darbą* blokavimo priežastis tur
 
 Po to, kai *Atskirti darbą* blokavimo priežastis yra panaikinta, darbas gali vykti mobiliame įrenginyje su sąlyga, kad **Blokuotas** būsena yra nustatyta į *Ne* darbo ID.
 
-## <a name="user-blocking-on-the-warehouse-app"></a>Vartotojo blokavimas sandėlio programoje
+## <a name="user-blocking-on-the-warehouse-management-mobile-app"></a>Vartotojų blokavimas sandėlio valdymo mobiliųjų įrenginių programėlėje
 
-Jei bandote naudoti sandėlio programą, kad vykdytumėte paėmimo darbą pagal atskiriamą darbo ID, gausite tolesnį klaidos pranešimą: „Darbas su ID  \#\#\#\# šiuo metu atskiriamas." Jei gaunate šį pranešimą, pasirinkite **Atšaukti**. Tuomet galite tęsti šio darbo apdorojimą.
+Jei bandote naudoti sandėlio valdymo mobiliųjų įrenginių programėlę, kad vykdytumėte paėmimo darbą pagal atskiriamą darbo ID, gausite tolesnį klaidos pranešimą: „Darbas su ID  \#\#\#\# šiuo metu atskiriamas.” Jei gaunate šį pranešimą, pasirinkite **Atšaukti**. Tuomet galite tęsti šio darbo apdorojimą.
 
 ## <a name="other-blocked-operations"></a>Kitos užblokuotos operacijos
 

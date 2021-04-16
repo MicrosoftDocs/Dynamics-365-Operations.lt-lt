@@ -2,11 +2,9 @@
 title: Siunčiamas rūšiavimas
 description: Šiame skyriuje pateikta informacija apie siunčiamą rūšiavimą. Ši funkcija padeda paprasčiau tvarkyti mažas talpyklas ir sandėlio darbuotojams geriau susiplanuoti ir suorganizuoti padėklų talpą sunkvežimyje.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPack, WHSOutboundSortTemplate, WHSOutboundSortPositionAssignments, WHSLocationType, WHSLoactionProfile
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 44807e8d9915652c1c9d365de47d594a0c4f90e5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3c576209a86f776ac424f7fb9f2b606bea774a67
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225960"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828399"
 ---
 # <a name="outbound-sorting"></a>Siunčiamas rūšiavimas
 
@@ -28,7 +26,7 @@ ms.locfileid: "5225960"
 
 Ši funkcija padeda paprasčiau tvarkyti mažas talpyklas ir sandėlio darbuotojams geriau susiplanuoti ir suorganizuoti padėklų talpą sunkvežimyje. Naudodami siunčiamą rūšiavimą galite rūšiuoti supakuotas talpyklas ant tinkamo padėklo po to, kai jie palieka pakavimo stotį. Taip pat galite pastatyti pakavimo hierarchiją.
 
-Ši funkcija leidžia sustatyti padėklus iš talpyklių, kurie yra supakuoti naudojant pakavimo funkciją. Talpykla nėra siunčiama į galutinę siuntimo vietą taip kaip tai daroma originaliame pakavimo sraute. Šiuo atveju darbuotojai gali uždaryti talpyklą ir patraukti ją į rūšiavimo tipo vietą. Jie gali rūšiuoti talpyklas į padėtis, kurių kiekviena turi licencijos numerį (LP). Po talpyklų rūšiavimo, galima sukurti užduotį, kuri bus siunčiama visą LP į galutinį siuntimo uostą ar tarpinę vietą pagal vietos instrukcijas ar jūsų pačių reikalavimus. Taip pat, rūšiavimo vietos uždarymo veiksmas gali nedelsiant pergabinti inventorių į galutinę siuntimo vietą ir paimti jį į užsakymą.
+Ši funkcija leidžia sustatyti padėklus iš talpyklių, kurie yra supakuoti naudojant pakavimo funkciją. Talpykla nėra siunčiama į galutinę siuntimo vietą taip kaip tai daroma originaliame pakavimo sraute. Šiuo atveju darbuotojai gali uždaryti talpyklą ir patraukti ją į rūšiavimo tipo vietą. Jie gali rūšiuoti talpyklas į padėtis, kurių kiekviena turi licencijos numerį (LP). Po talpyklų rūšiavimo, galima sukurti užduotį, kuri bus siunčiama visą LP į galutinį siuntimo uostą ar tarpinę vietą pagal vietos instrukcijas ar jūsų pačių reikalavimus. Taip pat, rūšiavimo vietos uždarymo veiksmas gali nedelsiant pergabenti inventorių į galutinę siuntimo vietą ir paimti jį į užsakymą.
 
 ## <a name="turn-on-the-outbound-sorting-feature"></a>Įjunkite Siunčiamo rūšiavimo funkciją
 
@@ -61,7 +59,7 @@ Pakavimo stotis yra laikoma vieta. Sandėlio darbuotojai, pasirašantys pakavimo
 1. **Darbuotojo** laukelyje pasirinkite paskirties vartotoją darbuotojų sąraše.
 1. Pasirinkite **Pasirinkti**.
 1. Veiksmų srityje pasirinkite **Įrašyti**.
-1. **Vartotojų** gretajame skirtuke pasirinkite **Naujas** tam, kad sukurtumėte mobilaus prietaiso paskyrą ir nustatykite jai šias vertes:
+1. **Vartotojų** „FastTab” skirtuke pasirinkite **Naujas** tam, kad sukurtumėte mobilaus prietaiso paskyrą ir nustatykite jai šias vertes:
 
     - **Vartotojo identifikavimo numeris** Įveskite unikalų identifikavimo numerį.
     - **Vartotojo vardas:** Įveskite vardą identifikavimo numeriui.
@@ -153,7 +151,7 @@ Esant šiam scenarijui, sukursite siunčiamo rūšiavimo šabloną tam, kad suku
 
 1. Pasirinkite **Išsaugoti** tam, kad **Redaguoti užklausą** mygtuką pastatytumėte į Veiksmų juostą.
 1. Veiksmų srityje pasirinkite **Redaguoti užklausą**.
-1. Užklausos tvartyklėje, **Rūšiavimas** skirtuke įtraukite liniją su šiomis vertėmis:
+1. Užklausos tvarkyklės **Rūšiavimas** skirtuke įtraukite liniją su šiomis vertėmis:
 
     - **Lentelė:** *Siuntos*
     - **Išvestinė lentelė:** *Siuntos*
@@ -295,7 +293,7 @@ Privalote dabar pridėti naujus meniu elementus į mobilaus prietaiso meniu.
 #### <a name="set-up-a-single-sku-directive"></a>Nustatykite vieną SKU direktyvą
 
 1. Eikite į **Sandėlio valdymas \> Nustatymas \> Vietų nurodymai**.
-1. Kairėje jusotoje pakeiskite **Darbo tvarkos tipo** laukelio vertę į *Rūšiuoto inventoriaus paėmimas*.
+1. Kairėje juostoje pakeiskite **Darbo tvarkos tipo** laukelio vertę į *Rūšiuoto inventoriaus paėmimas*.
 1. Veiksmų srityje pasirinkite **Naujas**.
 1. Antraštėje nustatykite šias vertes:
 
@@ -330,7 +328,7 @@ Privalote dabar pridėti naujus meniu elementus į mobilaus prietaiso meniu.
 #### <a name="set-up-a-multiple-sku-directive"></a>Nustatykite kelių SKU direktyvų
 
 1. Eikite į **Sandėlio valdymas \> Nustatymas \> Vietų nurodymai**.
-1. Kairėje jusotoje pakeiskite **Darbo tvarkos tipo** laukelio vertę į *Rūšiuoto inventoriaus paėmimas*.
+1. Kairėje juostoje pakeiskite **Darbo tvarkos tipo** laukelio vertę į *Rūšiuoto inventoriaus paėmimas*.
 1. Veiksmų srityje pasirinkite **Naujas**.
 1. Antraštėje nustatykite šias vertes:
 
@@ -462,7 +460,7 @@ Scenarijus simuliuoja situaciją, kai paimtos talpyklos turėtų automatiškai b
 
 ### <a name="pick-items-for-the-sales-orders"></a>Paėmimo elementai prekybos užsakymui
 
-Užbaigite sukurtą darbą naudodami mobilų prietaisą, kuriuo perkelsite elementus į pakavimo stotį.
+Užbaikite sukurtą darbą naudodami mobilų įrenginį, kuriuo perkelsite elementus į pakavimo stotį.
 
 1. Mobiliame prietaise prisijunkite prie *62* sandėlio naudodami vartotojo identifikavimo kodą, kurį sukūrėte šiam scenarijui (arba esančių demo duomenų vartotojo identifikavimo kodą).
 1. Pagrindiniame meniu pasirinkite **Siunčiama**.
@@ -560,14 +558,14 @@ Užbaigite sukurtą darbą naudodami mobilų prietaisą, kuriuo perkelsite eleme
 1. **Talpyklos uždarymo** teksto laukelyje, pasirinkite **Gauti sistemos svorį** tam, kad sistema atnaujintų **Bendro svorio** laukelį.
 1. Pasirinkite **Gerai**. Talpykla turi būti perkelta į *SORT* vietą ir parengta rūšiavimui.
 
-Talpyklos informacijso peržiūrai, eikite į **Sandėlio valdymas \> Pakavimas ir dėjimas į talpyklas \> Talpyklos** ir ieškokite talpyklos identifikavimo kodo, kuris buvo sukurtas pakavimo metu.
+Talpyklos informacijos peržiūrai, eikite į **Sandėlio valdymas \> Pakavimas ir dėjimas į talpyklas \> Talpyklos** ir ieškokite talpyklos identifikavimo kodo, kuris buvo sukurtas pakavimo metu.
 
 ### <a name="sort-the-containers"></a>Rūšiuokite talpyklas
 
 > [!IMPORTANT]
 > Patekę į **Padėklo kūrimo** meniu elementą mobiliame prietaise rūšiavimo siuntimui, matysite mygtuką pavadinimu **Pilnas**. *Nenaudokite **Pilnas** mygtuko padėties rūšiavimui ir uždarymui.*
 >
-> **Pilnas** mygtukas yra pateikiamas pagal nutylėjimą ir negali būti išjungtas ar pašalinas iš puslapio. Jis nėrra naudojamas *Siunčiamo rūšiavimo* funkcijai.
+> **Pilnas** mygtukas yra pateikiamas pagal nutylėjimą ir negali būti išjungtas ar pašalintas iš puslapio. Jis nėra naudojamas *Siunčiamo rūšiavimo* funkcijai.
 
 #### <a name="sort-the-first-container"></a>Rūšiuokite pirmą talpyklą
 
@@ -576,10 +574,10 @@ Talpyklos informacijso peržiūrai, eikite į **Sandėlio valdymas \> Pakavimas 
 1. **Siunčiama** meniu pasirinkite **Padėklo sukūrimas**.
 1. **LP/Con** laukelyje įveskite pirmosios talpyklos identifikavimo kodą, kuris yra susietas su prekybos užsakymu 1.
 1. Pasirinkite **Gerai**.
-1. Kadangi šiuo metu nėra jokių rūšiavimo padėčių, turite bent vieną nurodyti. **Rūšiavimo padėties identififikavimo kodo** laukelyje įveskite *SP01*.
+1. Kadangi šiuo metu nėra jokių rūšiavimo padėčių, turite bent vieną nurodyti. **Rūšiavimo padėties identifikavimo kodo** laukelyje įveskite *SP01*.
 1. Kadangi šiuo metu nėra susieto jokio LP su esama padėtimi *SP01*, turite bent vieną nurodyti. **LP** laukelyje įveskite *PLP01*.
 1. Pasirinkite **Gerai**.
-1. Kadangi rūšiavimo padėties patvirtinimas yra įjungtas, privalo įvesti rūšiavimo padėties identifikavimo kodą dar kartą. **Rūšiavimo padėties identififikavimo kodo** laukelyje įveskite *SP01*.
+1. Kadangi rūšiavimo padėties patvirtinimas yra įjungtas, privalo įvesti rūšiavimo padėties identifikavimo kodą dar kartą. **Rūšiavimo padėties identifikavimo kodo** laukelyje įveskite *SP01*.
 1. Pasirinkite **Gerai**.
 
     Matysite „Darbas baigtas“ pranešimą.
@@ -597,7 +595,7 @@ Talpyklos informacijso peržiūrai, eikite į **Sandėlio valdymas \> Pakavimas 
 1. **LP/Con** laukelyje įveskite antrosios talpyklos identifikavimo kodą, kuris yra susietas su prekybos užsakymu 1.
 1. Pasirinkite **Gerai**. Kadangi rūšiavimo šablonas yra nustatytas automatiniam rūšiavimui ir kriterijus atitinkantis padėties rūšiavimas jau egzistuoja, esate automatiškai nukreipiami į tinkamą rūšiavimo padėtį.
 1. Pasirinkite **Gerai**.
-1. Patvirtinkite rūšiavimo padėties identifikavimo kodą tam, kad nurodytumėte, jog inventorius yra tinkamoje vietoje. **Rūšiavimo padėties identififikavimo kodo** laukelyje įveskite *SP01*.
+1. Patvirtinkite rūšiavimo padėties identifikavimo kodą tam, kad nurodytumėte, jog inventorius yra tinkamoje vietoje. **Rūšiavimo padėties identifikavimo kodo** laukelyje įveskite *SP01*.
 1. Pasirinkite **Gerai**.
 
     Darbas yra baigtas antrojoje talpykloje iš prekybos užsakymo 1. Dabar rūšiuosite likusias talpyklas iš prekybos užsakymo 2.

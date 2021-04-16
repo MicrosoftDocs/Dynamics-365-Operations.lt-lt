@@ -2,7 +2,6 @@
 title: Įkeltų išlaidų ir transportavimo valdymo palyginimas
 description: „Microsoft Dynamics 365 Supply Chain Management” siūlo du skirtingus modelius darbui su transportavimu – transportavimo valdymą (TMS) ir įkeltas išlaidas. Šioje temoje apibendrinamos abejų modulių tapačios funkcijos ir išryškinami jų skirtumai.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
@@ -15,17 +14,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9349537754d7e6fd0e278c55d5d762267953800c
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: bb5ecaa237eed2a1902c965fd42b31cc1708a4e2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500723"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833862"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Įkeltų išlaidų ir transportavimo valdymo palyginimas
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 „Microsoft Dynamics 365 Supply Chain Management” siūlo du skirtingus modelius darbui su transportavimu: **Transportavimo valdymą (TMS)** ir **Įkeltas išlaidas**. Šioje temoje apibendrinamos abejų modulių tapačios funkcijos ir išryškinami jų skirtumai. Galite naudoti šią informaciją siekiant nuspręsti, kuris modulis geriausiai tinka jūsų veiklos praktikai. Galite pastebėti, jog kai kurioms veiklos praktikoms labiau tinka TMS, o kitoms geriausiai tinka Įkeltos išlaidos. Tada, atsižvelgdami į savo veiklos poreikius, galite pasirinkti naudoti tik vieną modulį arba galite sujungti šiuos du modulius.
 
@@ -158,15 +156,15 @@ Tiek TMS, tiek Įkeltos išlaidos suteikia funkcijas, skirtas tvarkyti prekių g
 
 ### <a name="tms-receiving-by-container-features"></a>TMS gavimo konteineriu ypatybės
 
-TMS palaiko gaunamus ASN, visus gavimo per sandėlio programą variantus ir visus gavimo per „Supply Chain Management” klientą metodus.
+TMS palaiko gaunamus ASN, visus gavimo per sandėlio valdymo mobiliųjų įrenginių programėlę variantus bei visus gavimo per „Supply Chain Management” klientą metodus.
 
 ### <a name="landed-cost-receiving-by-container-features"></a>Įkeltų išlaidų gavimo konteineriu ypatybės
 
 Gavimo konteineriu palaikymui Įkeltos išlaidos sukuria gabenimo konteinerių įrašus ir susieja pirkimo užsakymus su konkrečiu gabenimo konteineriu naudojant to konteinerio ID. Pridėtinės išlaidos tada gali būti pritaikytos tam siuntimo konteineriui ir išskaidytos taip, kad jos būtų susietos su atitinkamais pirkimo užsakymais.
 
-Konteinerius Įkeltose išlaidose galima gauti per naują gavimo tipą, vadinamą *tranzito prekių gavimu*, per pristatymo žurnalus arba per mobilųjį įrenginį. Naudojant gavimo žurnalus kiekiai gali būti inicijuoti iš tranzito prekių užsakymo arba pradinio pirkimo užsakymo eilučių konteineryje. Įkeltos išlaidos pateikia du darbo tipus, kad būtų galima gauti naudojant sandėlio programą.
+Konteinerius Įkeltose išlaidose galima gauti per naują gavimo tipą, vadinamą *tranzito prekių gavimu*, per pristatymo žurnalus arba per mobilųjį įrenginį. Naudojant gavimo žurnalus kiekiai gali būti inicijuoti iš tranzito prekių užsakymo arba pradinio pirkimo užsakymo eilučių konteineryje. Įkeltos išlaidos pateikia du darbo tipus, skirtus gavimui per sandėlio valdymo mobiliųjų įrenginių programėlę.
 
-Įkeltų išlaidų modulyje nėra ASN, skirto elektroniniam prekių gavimo kvitui. Be to, jis nepalaiko sandėlio programų srautų, apdorojančių krovinio, numerio lentelės arba mišrios numerio lentelės gavimą.
+Įkeltų išlaidų modulyje nėra ASN, skirto elektroniniam prekių gavimo kvitui. Be to, jis nepalaiko sandėlio valdymo mobiliųjų įrenginių programėlė srautų, apdorojančių krovinio, numerio lentelės arba mišrios numerio lentelės gavimą.
 
 ## <a name="rate-shopping-by-vendor"></a>Tarifo analizė pagal tiekėją
 

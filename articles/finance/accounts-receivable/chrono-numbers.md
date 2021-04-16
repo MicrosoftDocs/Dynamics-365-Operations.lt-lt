@@ -2,11 +2,9 @@
 title: Dokumentų numeravimas ir kuponų chronologija
 description: Šioje temoje paaiškinta, kaip nustatyti ir naudoti chronologinius numerius taikomiems dokumentams ir susijusiems kuponams.
 author: ikond
-manager: AnnBe
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: NumberSequenceGroup
 audience: Application User
@@ -17,18 +15,17 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4a27b6fdd1e244fb0cb8c5fcefc484494aeb88bd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fe533052b0e5b04a7d27b954ba644761c631d6d7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254531"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838866"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>Dokumentų numeravimas ir kuponų chronologija
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 Kai kuriose šalyse galioja teisiniai reikalavimai numeruoti dokumentus ir susijusius kuponus chronologine tvarka. Chronologiją turi palaikyti laikotarpiai. Visi skaičiai, priklausantys ankstesniems laikotarpiams turi būti mažesni nei skaičiai priklausantys vėlesniems. Norėdami atitikti šį reikalavimą, buvo įdiegta chronologinių numerių funkcija. Šioje temoje paaiškinta, kaip konfigūruoti ir naudoti chronologinius numerius taikomiems dokumentams ir susijusiems kuponams.
 

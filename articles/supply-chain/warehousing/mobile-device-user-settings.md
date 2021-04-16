@@ -2,11 +2,9 @@
 title: Mobiliojo įrenginio vartotojo parametrai
 description: Šioje temoje paaiškinama, kaip valdyti sandėlio darbuotojų mobiliojo įrenginio vartotojo parametrus.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 02/09/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppDeviceBrand,WHSMobileAppUserDisplaySettings
 audience: Application User
@@ -17,17 +15,16 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8090305c1b296d8a8a64df444abb1d1f2235aeee
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 080b84d712a9c634611090f71b9ecca75e13cdcb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501203"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837470"
 ---
 # <a name="mobile-device-user-settings"></a>Mobiliojo įrenginio vartotojo parametrai
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Naujoje Sandėlio valdymo mobiliųjų įrenginių programėlėje yra programai skirtų parametrų rinkinys, padedantis pritaikyti vartotojų patirtį. Programą galima naudoti įvairių ekranų dydžių ir konfigūracijų (pvz., planšetinis kompiuteris, telefonas ar išmanusis laikrodis) įrenginiuose, todėl gali būti naudinga centralizuotai valdyti šiuos parametrus „Microsoft Dynamics 365 Supply Chain Management”.
 

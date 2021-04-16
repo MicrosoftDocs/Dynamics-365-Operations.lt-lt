@@ -1,25 +1,23 @@
 ---
 title: Nustatyti įsigijimo kategorijų hierarchiją
 description: Ši procedūra nurodo, kaip sukurti naujų mazgų įsigijimo kategorijų hierarchijoje ir kaip konfigūruoti įsigijimo kategoriją, kuri bus naudojama įsigijimo procese.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 44fd02d37ec4e6431ca25dc980ed1d1785e45fac
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 206dd5dc8f332268fe7665d84b005b5a7bfd1f9a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239355"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837710"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Nustatyti įsigijimo kategorijų hierarchiją
 
@@ -28,7 +26,7 @@ ms.locfileid: "5239355"
 Ši procedūra nurodo, kaip sukurti naujų mazgų įsigijimo kategorijų hierarchijoje ir kaip konfigūruoti įsigijimo kategoriją, kuri bus naudojama įsigijimo procese. Šias užduotis paprastai atlieka pirkimo vadybininkas. Šią procedūrą galėsite pradėti tik esant įsigijimo tipo kategorijų hierarchijai. Jei naudojate demonstracinių duomenų įmonę, šią procedūrą galite vykdyti su USMF įmonėje.
 
 
-## <a name="add-a-new-procurement-category"></a>Įtraukiti naują įsigijimo kategoriją
+## <a name="add-a-new-procurement-category"></a>Įtraukti naują įsigijimo kategoriją
 1. Eikite į **Naršymo sritis > Moduliai > Įsigijimas ir šaltiniai > Konsignacija > Įsigijimo kategorijos**.
 2. Veiksmų srityje pasirinkite **Redaguoti kategorijų hierarchiją**. Kairiojoje puslapio pusėje rodoma dabartinė įsigijimo kategorijų hierarchija. Ketinate pakeisti hierarchiją.  
 3. Veiksmų srityje pasirinkite **Naujas kategorijos mazgas**. Sistema pasirenka viršutinį mazgą pagal numatytuosius nustatymus. Jei vykdote šią procedūrą kaip užduoties vadovą, galite spustelėti mygtuką „Atrakinti“ ir pasirinkti kitą pirminį mazgą, į kurį galėsite įterpti savo naująjį mazgą. Tai atlikę, vėl užrakinkite užduoties vadovą, o tada spustelėkite „Nauja kategorijos mazgas“.  

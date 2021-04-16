@@ -2,11 +2,9 @@
 title: Produkto konfigūravimo modelių išraiškos ir lentelės apribojimai
 description: Šioje temoje apžvelgiamas išraiškos ir lentelės apribojimų naudojimas. Apribojimais valdomos atributo reikšmės, kurias galite pasirinkti konfigūruodami pardavimo užsakymo, pardavimo pasiūlymo, pirkimo užsakymo arba gamybos užsakymo produktus. Galite naudoti išraiškos apribojimus arba lentelės apribojimus atsižvelgdami į tai, kaip norite sukurti apribojimus.
 author: cvocph
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 989981e6ca8c1075367776ceafe5b88429e004d2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e2480348147144cf3004c872ce90b416e0e5d83e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243230"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829455"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Produkto konfigūravimo modelių išraiškos ir lentelės apribojimai
 
@@ -53,7 +51,7 @@ Kitoje lentelėje nurodyti deriniai, kurie nustatyti pagal lentelės apribojimą
 | Baigti         | Grotelės                       |
 |----------------|-----------------------------|
 | Ąžuolo            | Juoda                       |
-| Palisandro       | Balta                       |
+| Raudonmedžio       | Balta                       |
 | Balta          | Juoda                       |
 | Balta          | Balta                       |
 | Juoda          | Juoda                       |
@@ -168,7 +166,7 @@ Galite rašyti išraiškos apribojimą naudodami galimus prefiksų operatorius a
 </tr>
 <tr class="even">
 <td>Laipsnis</td>
-<td>Naudojant šį operatorių, gaunama eksponentė. Keliama laipsniu iš dešinės į kairę. (Kitaip tariant, šis&#39; operatorius susietas su dešine puse.) Todėl <strong>Power[a, b, c]</strong> yra lygu <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> gali būti naudojamas tik jei laipsnio rodiklis yra teigiama konstanta.</td>
+<td>Naudojant šį operatorių, gaunama eksponentė. Keliama laipsniu iš dešinės į kairę. (Kitaip tariant, šis&#39; operatorius susietas su dešine puse.) Todėl <strong>Power[a, b, c]</strong> yra lygu <strong>Power[a, Power[b, c]]</strong>. <strong>Galia</strong> gali būti naudojamas tik jei laipsnio rodiklis yra teigiama konstanta.</td>
 <td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>Operatorius:</strong> Power[x, 2] == y</li>
@@ -211,7 +209,7 @@ Kitos lentelės pavyzdžiuose nurodyta, kaip rašyti intarpo ženklą.
 |        !x         |                                          Bulio logika ne                                          |
 |      x -: y       |                                      Bulio logikos implikacija                                      |
 |         x         |                                               y                                               |
-|     x & y & z     |                                          Būlio logika ir                                          |
+|     x & y & z     |                                          Bulio logika ir                                          |
 |    x == y == z    |                                           Lygybė                                            |
 |    x != y != z    |                                           Ypatingas                                            |
 |  x &lt; y &lt; z  |                                           Mažesnis nei                                           |

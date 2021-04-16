@@ -2,7 +2,6 @@
 title: Iškrovimo kainos parametrų nustatymas
 description: Šioje temoje aprašoma, kaip nustatyti bendruosius informacijos ir konfigūravimo nustatymus, kurie naudojami iškrovimo kainos modulyje registravimui, būsenos atnaujinimams, numeracijai ir elgesiui.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 489c0db50d52c1e58eab73ad19a73babf22b4de7
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 973f23a18166abeb05bdea660ef69230d9a8c4c0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500771"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833910"
 ---
 # <a name="landed-cost-parameters-setup"></a>Iškrovimo kainos parametrų nustatymas
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Naudodami puslapį **Iškrovimo kainos parametrai** galite nustatyti bendrąją informaciją ir konfigūracijos nustatymus, naudojamus visame modulyje **Iškrovimo kaina** registravimui, būsenos atnaujinimams, numeracijai ir elgesiui. Parametrų nustatymas bendrai naudojamas tarp juridinių subjektų ir jį gali modifikuoti administratorius.
 

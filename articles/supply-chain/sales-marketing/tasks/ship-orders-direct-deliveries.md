@@ -2,11 +2,9 @@
 title: Užsakymų siuntimas kaip tiesioginių pristatymų
 description: Ši procedūra parodo, kaip kurti pardavimo užsakymo tiesioginį pristatymą.
 author: omulvad
-manager: tfehr
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart, PurchEditLines, PurchTable, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 496cbe562234efa981d97b0893a47340381fbdfd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5488ac6d29a99bcaa5ea29ea6da131858070011c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205910"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824803"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Užsakymų siuntimas kaip tiesioginių pristatymų
 
@@ -37,7 +35,7 @@ ms.locfileid: "5205910"
 6. Lauke **Įtraukti viską** pasirinkite **Taip**.
     - Jei tiesioginį pristatymą norite sugeneruoti tik pardavimo užsakymo eilučių pogrupiui, pažymėkite jas atskirai.  
     - Lauke **Tiekėjo sąskaita** gali būti įvestas arba dar nebūti įvestas tiekėjo numeris. Jei yra nustatytas produkto numatytasis tiekėjas (susietame Prekės padengime), šis tiekėjas bus nukopijuotas į eilutę. Priešingu atveju, tiekėją turite įvesti rankiniu būdu. Šiame pavyzdyje, kitame veiksme pasirinksime naują tiekėją, net jei jis jau yra įvestas.   
-7. Lauke **Tiekėjo sąskaita** įveskite arba pasirinkite reikšmę ir tada pasirinkte **Gerai**. Pranešimas informuoja, kad pirkimo užsakymas sukurtas.   
+7. Lauke **Tiekėjo sąskaita** įveskite arba pasirinkite reikšmę, o tada pasirinkite **Gerai**. Pranešimas informuoja, kad pirkimo užsakymas sukurtas.   
 8. Išplėskite skyrių **Eilutės informacija** section.
 9. Pasirinkite skirtuką **Pristatymas** ir patikrinkite, ar laukas **Tiesioginis pristatymas** yra nustatytas į **Taip**.
 10. Veiksmų srityje spustelėkite **Bendra**.

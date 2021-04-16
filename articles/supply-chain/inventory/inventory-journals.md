@@ -2,11 +2,9 @@
 title: Atsargų žurnalai
 description: Šioje temoje aprašyta, kaip galima naudoti atsargų žurnalus įvairių faktinių atsargų operacijų tipams registruoti.
 author: perlynne
-manager: tfehr
 ms.date: 04/05/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c20e17cf9f20fd6317cd61bc6dfc019eb20612af
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a94c5371db10fa4f0090f2d177b1a01233ab0f30
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235022"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826040"
 ---
 # <a name="inventory-journals"></a>Atsargų žurnalai
 
@@ -42,7 +40,7 @@ Galima rinktis iš toliau nurodytų atsargų žurnalų tipų.
 -   Prekių gavimas
 -   Gamybos įvestis
 -   Skaičiavimas
--   Skaičiav. pagal žymę
+-   Skaičiavimas pagal žymę
 
 ### <a name="movement"></a>Perkėlimas
 
@@ -75,7 +73,7 @@ Gamybos įeigos žurnalai veikia kaip prekių gavimo žurnalai, tik jie naudojam
 
 Skaičiavimo žurnalai leidžia taisyti dabartines turimas registruotas prekių ar prekių grupių atsargas, ir tada faktinį fizinį kiekį registruoti, kad galėtumėte atlikti reikiamus koregavimus ir taip suderinti skirtumus. Skaičiavimo strategijas galima susieti su skaičiavimo grupėmis, kad būtų lengviau grupuoti prekes su įvairiomis charakteristikomis ir tas prekes būtų galima įtraukti į skaičiavimo žurnalą. Pvz., galite nustatyti, kad skaičiavimo grupės skaičiuotų prekes, kurios turi konkretų dažnį, arba prekes skaičiuoti, kai atsargos sumažėja iki tam tikro lygio. Informacijos apie tai, kaip apibrėžti skaičiavimo grupes, ieškokite [Apibrėžti atsargų skaičiavimo procesus](tasks/define-inventory-counting-processes.md).
 
-### <a name="tag-counting"></a>Skaičiav. pagal žymę
+### <a name="tag-counting"></a>Skaičiavimas pagal žymę
 
 Žymių skaičiavimo žurnalai naudojami skaičiavimo partijai priskirti žymę su numeriu. Žymėje turėtų būti žymės numeris, prekės numeris ir prekės kiekis. Siekiant užtikrinti, kad žymė būtų naudojama tik vieną kartą, ir kad būtų panaudotos visos žymės, kiekvienas prekės numeris turėtų turėti unikalų žymių rinkinį, kuris turėtų savo numeraciją. Gali būti nustatytos trys kiekvienos žymės būsenos reikšmės.
 

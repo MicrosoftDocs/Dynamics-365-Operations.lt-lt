@@ -2,11 +2,9 @@
 title: Sąskaitų faktūrų pateikimas darbo eigos sistemai ir produkto gavimo kvito eilučių sugretinimas
 description: Šioje temoje paaiškinama, kaip pateikti tiekėjo sąskaitas faktūras į darbo eigos sistemą ir automatiškai sugretinti užregistruotų produktų gavimo kvito eilutes su tiekėjo sąskaitomis faktūromis.
 author: abruer
-manager: AnnBe
 ms.date: 09/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 534b5dbc54a516fea0b3f7090042d247c1076737
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 84699746349024854a4eeb9cee62960ec38bc338
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231547"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827823"
 ---
 # <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Sąskaitų faktūrų pateikimas darbo eigos sistemai ir produkto gavimo kvito eilučių sugretinimas
 
@@ -41,7 +39,9 @@ Darbo eigos vertė **Pateikė** yra vartotojo ID, įvestas foninei užduočiai *
 
 Vykdant bekontakčio mokėtinų sumų sąskaitos faktūros išrašymo procesą, sistema gali automatiškai sugretinti registruotų produktų gavimo kvitus su sąskaitos faktūros eilutėmis. Šiai užduočiai reikia sukonfigūruoti trišalę atitikimo strategiją. Šią funkciją galima naudoti, jei funkcija **Tiekėjo sąskaitų faktūrų automatizavimas** yra įjungta puslapyje **Funkcijų valdymas**.
 
-Procesas bus vykdomas, kol sugretinto produkto gavimo kvito kiekis bus lygus SF kiekiui. Šio proceso metu galite nurodyti maksimalų kartų, kai sistema turi bandyti sugretinti produkto gavimo kvitus su SF eilute prieš padarydama išvadą, kad procesas nepavyko, skaičių. Procesas bus vykdomas fone kas valandą arba kas dieną. Automatizuotą atitikimo procesą galite vykdyti kaip SF pateikimo darbo eigos sistemai proceso dalį. Taip pat jį galite vykdyti kaip atskirą procesą. Produktų kvitų sugretinimo su sąskaitos faktūros eilutėmis parametrus galima konfigūruoti skirtuke **Tiekėjo sąskaitų faktūrų automatizavimas**, esančiame puslapyje **Mokėtinų sumų parametrai** (**Mokėtinos sumos \> Sąranka \> Mokėtinų sumų parametrai**).
+Atitikimo procesas bus vykdomas, kol sugretinto produkto gavimo kvito kiekis bus lygus SF kiekiui. Tačiau, jei vienoje SF eilutėje yra keli produkto gavimo kvitai, norint pasiekti visą kiekį, reikės kelis kartus paleisti procesą, kad būtų pasiektas visas kiekis. Šio proceso metu galite nurodyti maksimalų kartų, kai sistema turi bandyti sugretinti produkto gavimo kvitus su SF eilute prieš padarydama išvadą, kad procesas nepavyko, skaičių. Procesas bus vykdomas fone kas valandą arba kas dieną. 
+
+Automatizuotą atitikimo procesą galite vykdyti kaip SF pateikimo darbo eigos sistemai proceso dalį. Taip pat jį galite vykdyti kaip atskirą procesą. Produktų kvitų sugretinimo su sąskaitos faktūros eilutėmis parametrus galima konfigūruoti skirtuke **Tiekėjo sąskaitų faktūrų automatizavimas**, esančiame puslapyje **Mokėtinų sumų parametrai** (**Mokėtinos sumos \> Sąranka \> Mokėtinų sumų parametrai**).
 
 Sąskaitos faktūros eilutės, kurioms taikoma trišalė atitikimo strategija, kai sugretintas gautas kiekis yra mažesnis nei sąskaitoje faktūroje nurodytas kiekis, bus įtrauktos į automatizuoto sugretinimo su produkto gavimo kvitu procesą.
 
