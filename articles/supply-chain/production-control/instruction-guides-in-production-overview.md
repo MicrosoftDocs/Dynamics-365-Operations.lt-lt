@@ -2,11 +2,9 @@
 title: Mišrios realybės vadovų pateikimas į gamybą įtrauktiems darbuotojams
 description: Šioje temoje paaiškinta, kaip susieti „Microsoft Dynamics 365 Supply Chain Management“ gamybos valdymo modulį su „Dynamics 365 Guides“.
 author: cabeln
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkGuidesManufacturing
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: cabeln
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 48e0dfeba1a9744c90608d4d9009484df91c4b85
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 59fe3996013737198d4fbc86d64f8ef9dbe035e4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246146"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829359"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Mišrios realybės vadovų pateikimas į gamybą įtrauktiems darbuotojams
 
@@ -130,7 +128,7 @@ Užpildykite toliau nurodytus laukus:
 - **QR kodo klaidų taisymo lygis** – nurodykite QR kodo detalumo lygį. Didesnis detalumas gali padėti užtikrinti didesnį kodo patikimumą, bet **QR kodo dydis** turi būti pakankamai didelis, kad būtų užtikrintas detalumo lygis, kurio reikia pasirinktam koregavimo lygiui.
 
 > [!TIP]
-> - QR kodai, kurie yra per dideli jūsų monitoriui, gali būti generuojami šiek tiek ilgiau, o po to jie bus sumažinami, kad atitiktų ekraną. Tai nesuteikia kokių nors pranašumų.
+> - QR kodai, kurie yra per dideli jūsų monitoriui, gali būti generuojami šiek tiek ilgiau, o po to jie bus sumažinami, kad atitiktų ekraną. Tai nesuteikia jokio pranašumo.
 > - Esant per mažiems QR kodams, tam tikrose aplinkose „HoloLens“ gali nepavykti tinkamai nuskaityti kodo.
 > - Rekomenduojame išbandyti kiekvieno įrenginio, kuris rodytis QR kodus „HoloLens“ vartotojams, parametrus. Pasirinkite parametrus, kurie užtikrintų pakankamą patikimumą cecho aplinkoje.  
 
@@ -215,7 +213,7 @@ Formulės lygio vadovai teikia cecho darbuotojams darbo instrukcijas formulės a
 
 > Šiuo metu vadovų negalima pridėti prie atskirų formulės eilučių.
 
-### <a name="add-a-guide-to-a-formula"></a>Vadovo pridėjimas prie fromulės
+### <a name="add-a-guide-to-a-formula"></a>Vadovo pridėjimas prie formulės
 
 Norėdami pridėti vadovą prie formulės:
 
@@ -299,7 +297,7 @@ Norėdami pridėti vadovą prie KS versijos:
 1. Atidarykite skirtuką **Antraštė**, esantį virš viršutinio „FastTab“.
 1. „FastTab“ **KS versijos** pasirinkite versiją, kuriai norite priskirti vadovą.
 1. Įrankių juostoje **KS versijos** pasirinkite **Susiję vadovai**.
-    ![Su pasirinkta KS versija susijusių vadovų atidarymas](media/instruction-guides-BOMVersion.png "Su pasirinkta KS versija susijusių vadovų atidarymas")
+    ![Su pasirinkta KS versija susijusių vadovų atidarymas](media/instruction-guides-BOMVersion.png "Su pasirinkta KS versija susijusių „Guides” atidarymas")
 1. Atidaromas KS versijos puslapis **Susiję vadovai**.
 1. Veiksmų srityje pasirinkite **Įtraukti** ir pridėkite naują eilutę prie tinklelio.
 1. Naujoje eilutėje naudokite stulpelio **Pavadinimas** išskleidžiamąjį sąrašą, kad pasirinktumėte vadovą, kurį norite priskirti.
@@ -342,7 +340,7 @@ Norėdami pridėti vadovą prie maršruto versijos:
 1. Atidarykite maršrutą, kuriam norite priskirti vadovą.
 1. „FastTab“ **Versijos** pasirinkite versiją, kuriai norite priskirti vadovą.
 1. Įrankių juostoje **Versijos** pasirinkite **Susiję vadovai**.
-    ![Su pasirinkta maršruto versija susijusių vadovų atidarymas](media/instruction-guides-RouteVersion.png "Su pasirinkta maršruto versija susijusių vadovų atidarymas")
+    ![Su pasirinkta maršruto versija susijusių vadovų atidarymas](media/instruction-guides-RouteVersion.png "Su pasirinkta maršruto versija susijusių „Guides” atidarymas")
 1. Atidaromas KS versijos puslapis **Susiję vadovai**.
 1. Veiksmų srityje pasirinkite **Įtraukti** ir pridėkite naują eilutę prie tinklelio.
 1. Naujoje eilutėje naudokite stulpelio **Pavadinimas** išskleidžiamąjį sąrašą, kad pasirinktumėte vadovą, kurį norite priskirti.
@@ -370,7 +368,7 @@ Norėdami pridėti vadovą prie maršruto operacijų ryšio:
 1. Viršutiniame tinklelyje pasirinkite operaciją, su kuria susijusias rekomendacijas norite teikti.
 1. Apatiniame tinklelyje pasirinkite konkretų ryšį (arba bendrąjį ryšį **Visi**).
     ![Pasirinkite operaciją, o tada ryšį](media/instruction-guides-RouteOperationRelation.png "Pasirinkite operaciją, o tada ryšį")
-1. Virš apatinio tinklelio atsidarykite skirtuką **Susiję vadovai**.  ![Skirtukas Susiję vadovai](media/instruction-guides-RouteOperationRelation-AddGuide.png "Skirtukas Susiję vadovai")
+1. Virš apatinio tinklelio atsidarykite skirtuką **Susiję vadovai**.  ![Skirtukas Susiję vadovai](media/instruction-guides-RouteOperationRelation-AddGuide.png "Skirtukas Susiję „Guides”")
 1. Apatinio tinklelio viršuje pasirinkite **Įtraukti**, kad į tinklelį įtrauktumėte naują liniją.
 1. Naujoje eilutėje naudokite stulpelio **Pavadinimas** išskleidžiamąjį sąrašą, kad pasirinktumėte vadovą, kurį norite priskirti. Likusioje eilutės dalyje pažymėkite kiekvieno konteksto, kuriame turi būti prieinamas pasirinktas vadovas, žymės langelį.
 
@@ -381,7 +379,7 @@ Norėdami pridėti vadovą prie maršruto operacijų ryšio:
 
 Kai darbuotojas atidaro užduočių sąrašą cecho vykdymo sąsajoje, „Supply Chain Management“ randa atitinkamus vadovus rodomoms užduotims. Norėdami peržiūrėti atitinkamus vadovus, naudokite mygtuką **Vadovai**.
 
-![Vadovų mygtukas cecho vykdymo sąsajoje](media/instruction-guides-Shopfloor1.png "Vadovų mygtukas cecho vykdymo sąsajoje")
+![Vadovų mygtukas cecho vykdymo sąsajoje](media/instruction-guides-Shopfloor1.png "„Guides” mygtukas cecho vykdymo sąsajoje")
 
 Tada pasiruoškite „HoloLens“ ir pasiekite atitinkamą vadovą nukreipdami į QR kodą ir suaktyvindami atitinkamą vadovą.
 
@@ -408,7 +406,7 @@ Kai „Supply Chain Management“ generuoja gamybos cecho užduotis, iš šių �
 - Jei prie gamybos užsakymo pridedate maršruto versiją, tada užduotyje bus rodomi visi vadovai, pridėti prie šios versijos, ir vadovai, pridėti prie pirminio versijos maršruto.
 - Jei nurodysite kelis maršruto operacijų ryšius, apimančius ryšį *Visi*, ir jiems priskirsite vadovus, užduotyje bus rodomi tik labiausiai specifinio ryšio vadovai.  
 
-![Atitinkamų vadovų sprendimo diagrama](media/instruction-guides-Resolve.png "Atitinkamų vadovų sprendimo diagrama")
+![Atitinkamų vadovų sprendimo diagrama](media/instruction-guides-Resolve.png "Atitinkamo „Guides” sprendimo diagrama")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

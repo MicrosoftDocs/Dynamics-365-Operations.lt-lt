@@ -2,11 +2,9 @@
 title: cXML patobulinimų pirkimas
 description: cXML patobulinimų pirkimo funkcija kuriama pagal esamą išorinio katalogo funkciją „PunchOut” (išėjimo laiko žymėjimas), kuri naudojama pirkimo paraiškoms.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatCXMLParameters, CatCXMLPurchRequest
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: d167666e20ef7e1e0fbdb9c11b6e0b1d0b15ebbf
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f3bc63fd4b1017a5c96116ff6c9bbcc387869927
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237405"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825283"
 ---
 # <a name="purchasing-cxml-enhancements"></a>cXML patobulinimų pirkimas
 
@@ -101,7 +99,7 @@ Naudokite numatytąsias ypatybes tokiu būdu:
 - **PIRKĖJO\_SLAPUKAS** – Šis sekimo laukas gali būti naudojamas norint nurodyti konkrečią Jūsų įmonės informaciją. Jei neturite sutarties su tiekėju dėl šios ypatybės naudojimo, tuomet nesvarbu kada siųsti pirkimo užsakymą. Todėl turite ją nustatyti kaip paprastą reikšmę.
 - **PRISTATYTI** – Kai siuntimo adresas įvedamas į pirkimo užsakymo dokumentą, laukas **Svarbi informacija** naudojamas norint nustatyti **Pristatyti** lauką XML pranešime. Jei reikalaujate, kad ši reikšmė būtų prašytojo pavadinimas ir nustatysite lauką prašytojui pirkimo užsakymo antraštėje, įveskite _PRAŠYTOJAS_ reikšmę šiai ypatybei, tam, kad prašytojo pavadinimas būtų įvestas į **Pristatyti** lauką, esantį XML. Šiuo atveju, pagrindinis el. pašto adresas ir telefono numeris, kurie yra naudojami, bus iš prašytojo, o ne užsakovo.
 - **DIEGIMOREŽIMAS** – Nustatykite šią ypatybę, kaip reikalauja tiekėjas. Paprastai reikšmės yra _GAMYBA_ arba _TIKRINIMAS_. Nustatykite reikšmę pagal Jūsų ryšį su tiekėju. Paprastai ji turi atitikti numatytą sistemą, esančią už **UŽSAKYMOPATIKROSURL** reikšmės, kurią tiekėjas nurodo kaip tikrinimo ar gamybos sistemą.
-- **FIKSUOTOADRESOID** – Kai **adresoID** laukas nustatytas XML pranešime, jis paima vietą, nurodytą ant adreso. Jei ID reikšmė, kurią pranešėte tiekėjui, dėl tam tikrų priežasčių skiriasi nuo reikšmės, nurodytos ant adreso vietos, galite priverstinai vykdyti perrašymą, nurodydami reikšmę čia. Prielaida yra ta, kad su tiekėju naudosite tik vieną adresą, ir kad adresas bus nustatytas tiekėjo sistemoje. Saskaitų siuntimo adresas yra pirminis juridinio subjekto, esančio „Supply Chain Management“, SF adresas.
+- **FIKSUOTOADRESOID** – Kai **adresoID** laukas nustatytas XML pranešime, jis paima vietą, nurodytą ant adreso. Jei ID reikšmė, kurią pranešėte tiekėjui, dėl tam tikrų priežasčių skiriasi nuo reikšmės, nurodytos ant adreso vietos, galite priverstinai vykdyti perrašymą, nurodydami reikšmę čia. Prielaida yra ta, kad su tiekėju naudosite tik vieną adresą, ir kad adresas bus nustatytas tiekėjo sistemoje. Sąskaitų siuntimo adresas yra pirminis juridinio subjekto, esančio „Supply Chain Management“, SF adresas.
 - **FIKSUOTOSIUNTIMOADRESOID** – Kai **adresoID** laukas nustatytas XML pranešime, jis paima vietą, nurodytą ant adreso. Jei ID reikšmė, kurią pranešėte tiekėjui, dėl tam tikrų priežasčių skiriasi nuo reikšmės, nurodytos ant adreso vietos, galite priverstinai vykdyti perrašymą, nurodydami reikšmę čia. Prielaida yra ta, kad su tiekėju naudosite tik vieną adresą, ir kad adresas bus nustatytas tiekėjo sistemoje. Siuntimo adresas yra adresas, nurodytas pirkimo užsakymo antraštėje. Dauguma tiekėjų priima tik antraštės adresus, o ne eilutės adresus. Nors XML yra laukų, skirtų eilučių adresams, jie bus nustatyti kaip antraštės adresas.
 - **IŠ\_DOMENO** – Įveskite reikšmę, kuri bus naudojama pirkimo užsakymo dokumentų siuntimui. Šią reikšmę pateikia Jūsų tiekėjas.
 - **IŠ\_TAPATYBĖS** – Įveskite reikšmę, kuri bus naudojama pirkimo užsakymo dokumentų siuntimui. Šią reikšmę pateikia Jūsų tiekėjas.
@@ -130,7 +128,7 @@ Naudokite numatytąsias ypatybes tokiu būdu:
 - **PAKEISTINAUJĄEILUTĘ** – Nustatykite šią ypatybę kaip _TEISINGĄ_, jei iškilo problema, nes tiekėjo sistema siunčia **„PunchOut”atsakymas** pranešimą, į kurį įtraukiami naujos eilutės simboliai (\\n). Ši problema gali kilti, jei tiekėjo pranešimai yra išanalizuoti naudojant programinę įrangą arba įsigijimų stebulę. Jeigu kyla problemų dėl naujo tiekėjo nustatymo, nustatykite **PUNCHOUTSEKIMAS** ypatybę kaip _TEISINGĄ_, kad peržiūrėtumėte **„PunchOut”atsakymo** pranešimą ir nustatytumėte, ar XML žymės išskaidomos naujų eilučių simbolių.
 - **PUKOMENTARAI** – Nustatykite šią ypatybę kaip _TEISINGĄ_, jei norite, kad į cXML dokumentą būtų įtrauktos pastabos, pridėtos prie pirkimo užsakymo „Supply Chain Management“. Priedo tekstas yra įtrauktas į antraštės komentarus pirkimo užsakymo pranešime. Norėdami gauti daugiau informacijos apie tai, kaip sistema pasirenka ir apdoroja šiuos priedus, žr. [Pridėti pastabas pirkimo užsakyme](#attach-po-notes) skyrių, esantį šioje temoje vėliau.
 - **TIEKĖJOKOMENTARAI** – Nustatykite šią ypatybę kaip _TEISINGĄ_, jei norite, kad į cXML dokumentą būtų įtrauktos pastabos, pridėtos prie pirkimo užsakymo „Supply Chain Management“. Priedo tekstas yra įtrauktas į antraštės komentarus pirkimo užsakymo pranešime. Norėdami gauti daugiau informacijos apie tai, kaip sistema pasirenka ir apdoroja šiuos priedus, žr. [Pridėti pastabas prie pirkimo užsakymo](#attach-po-notes) skyrių.
-- **VALYTIAMP** – Nustatykite šią ypatybę kaip _TEISINGĄ_, jei gaunate klaidos pranešimą, kai bandote atlikti „PunchOut” tiekėjui, o tiekėjo grąžinimo URL apima neteisingai užkoduotus ampersandus (\&).
+- **VALYTIAMP** – Nustatykite šią ypatybę kaip _TEISINGĄ_, jei gaunate klaidos pranešimą, kai bandote atlikti „PunchOut” tiekėjui, o tiekėjo grąžinimo URL apima neteisingai užkoduotus ženklus (\&).
 - **PUNCHOUTTZ** – Nustatykite šią ypatybę kaip _TEISINGĄ_, jei tiekėjas su kuriuo dirbate naudoja tarptautinės standartizacijos organizacijos (ISO) 8601 standartą tam, kad būtų galima atlikti „PunchOut” užklausos pranešimo datos/laiko specialų patikrinimą. „Supply Chain Management“ naudoja pasaulinio koordinuotojo laiko (UTC) datą **„PunchOut”sąrankosužklausos** pranešime. Todėl, kai nustatysite šią ypatybę kaip _TEISINGĄ_, *+ 00:00* bus pridėtas prie datos/laiko formato.
 - **WMSADRESOID** – Nustatykite šią ypatybę kaip _TEISINGĄ_, jei norite naudoti sandėlio numerį, esantį pirkimo užsakymo antraštėje, kaip **adresoID** vertę, nurodytą ant pirkimo užsakymo užklausos, kuri siunčiama tiekėjui, **Siuntimogavėjo** adreso. Jei nustatysite vertę **FIKSUOTOSIUNTIMOADRESOID** ypatybei, ta reikšmė bus viršesnė už šią reikšmę. Todėl turėtumėte naudoti vieną iš ypatybių, norėdami **Siuntimogavėjo** adrese nustatyti **adresoID** vertę dokumentui.
 - **PUNCHOUTSIŲSTIVARTOTOJUI** – Ši ypatybė naudojama kartu su **PUNCHOUTGAVĖJO** ypatybe. Jei **PUNCHOUTGAVĖJAS** nustatytas kaip _TEISINGAS_, juridinio subjekto adresas paimamas. Jei **PUNCHOUTSIŲSTIVARTOTOJUI** nustatyta kaip _TEISINGA_, naudojamas „PunchOut” vartotojo pagrindinis adresas vietoj juridinio subjekto adreso.

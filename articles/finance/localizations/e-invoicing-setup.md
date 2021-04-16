@@ -1,12 +1,10 @@
 ---
-title: Elektroninių SF išrašymo priedo nustatymas
+title: Elektroninių SF nustatymas
 description: Šioje temoje paaiškinama, kaip nustatyti elektroninių SF išrašymo priedą „Microsoft Dynamics 365 Finance” ir „Dynamics 365 Supply Chain Management”.
 author: gionoder
-manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,14 +15,14 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5821a512b2beaf7ba2b8015355f04562f7b3b38a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fd0dda0adb292c10eea0a770ae0eae33d5f91f17
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209951"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840009"
 ---
-# <a name="set-up-the-electronic-invoicing-add-on"></a>Elektroninių SF išrašymo priedo nustatymas
+# <a name="set-up-electronic-invoicing"></a>Elektroninių SF nustatymas
 
 [!include [banner](../includes/banner.md)]
 
@@ -35,7 +33,7 @@ Konfigūravimas paremtas elektroninių ataskaitų (ER) formato konfigūracija ka
 
 ## <a name="overview"></a>Peržiūra
 
-„Elektroninių SF išrašymo priedo funkcija” yra bendras išteklių, sukonfigūruotų ir publikuotų siekiant naudoti elektroninių SF išrašymo priedo serverį, pavadinimas. Funkcijos nustatymas be viso kito apima ER konfigūracijos formatų naudojimą konfigūruojamiems eksportavimo ir importavimo failams kurti ir veiksmų bei veiksmų srautų naudojimą konfigūruojamų taisyklių kūrimui įgalinti, kad būtų galima siųsti užklausas, importuoti atsakymus ir analizuoti atsakymo turinį.
+„El. SF išrašymo funkcija” yra bendras išteklių, sukonfigūruotų ir publikuotų siekiant naudoti elektroninių SF išrašymo priedo serverį, pavadinimas. Funkcijos nustatymas be viso kito apima ER konfigūracijos formatų naudojimą konfigūruojamiems eksportavimo ir importavimo failams kurti ir veiksmų bei veiksmų srautų naudojimą konfigūruojamų taisyklių kūrimui įgalinti, kad būtų galima siųsti užklausas, importuoti atsakymus ir analizuoti atsakymo turinį.
 
 Toliau pateiktame paveikslėlyje vaizduojama pagrindiniai elektroninių SF išrašymo priedo funkcijos komponentai.
 
@@ -43,12 +41,12 @@ Toliau pateiktame paveikslėlyje vaizduojama pagrindiniai elektroninių SF išra
 
 Funkcijos nustatymas gali skirtis priklausomai nuo šalies ar regiono arba verslo reikalavimų, nes SF formatai ir veiksmų srautai skiriasi.
 
-## <a name="set-up-the-electronic-invoicing-add-on-feature"></a>Elektroninių SF išrašymo priedo funkcijos nustatymas
+## <a name="set-up-the-electronic-invoicing-feature"></a>Elektroninių SF funkcijų nustatymas
 
 Nustatymo procesas turi būti atliktas jūsų RCS aplinkoje. Atlikite toliau pateiktus veiksmus, norėdami sukurti naują elektroninių SF išrašymo priedo funkciją.
 
 1. Prisijunkite prie jūsų RCS aplinkos.
-2. Darbo srities **Globalizacijos funkcijos** dalyje **Funkcijos** pasirinkite plytelę **Elektroninių SF išrašymo priedas**.
+2. RCS pasirinkus dalį **Visuotinės funkcijos**, esančią darbo srityje **Funkcijos**, pasirinkite plytelę **Elektroninių SF priedas**.
 3. Puslapyje **Elektroninių SF išrašymo priedo funkcijos** pasirinkite **Importuoti**, norėdami importuoti ER duomenų modelio konfigūraciją iš visuotinės saugyklos.
 4. Pasirinkite **Įtraukti**, norėdami sukurti elektroninių SF išrašymo priedo funkciją. Šią funkciją galite kurti nuo pradžių arba išvesti ją iš esamos elektroninių SF išrašymo priedo funkcijos.
 
@@ -339,12 +337,12 @@ Norėdami nustoti bendrinti elektroninių SF išrašymo priedo funkciją su orga
 
 Versijos padeda valdyti elektroninių SF išrašymo priedo funkcijos ciklą valdant jos būseną. Galite sukurti naują esamos elektroninių SF išrašymo priedo funkcijos versiją arba, kai visa elektroninių SF išrašymo priedo funkcijos konfigūracija baigta, galite pakeisti šios funkcijos būseną į **Baigta**, o tada į **Publikuoti**.
 
-### <a name="create-a-new-version-of-an-existing-electronic-invoicing-add-on-feature"></a>Naujos esamos elektroninių SF išrašymo priedo funkcijos versijos kūrimas
+### <a name="create-a-new-version-of-an-existing-electronic-invoicing-feature"></a>Naujos esamos elektroninių SF išrašymo priedo funkcijos versijos kūrimas
 
 1. Puslapio **Elektroninių SF išrašymo priedo funkcijos** kairėje pusėje esančiame tinklelyje pasirinkite elektroninių SF išrašymo priedo funkciją.
 2. Skirtuke **Versijos** pasirinkite **Nauja**, kad įtrauktumėte naują elektroninių SF išrašymo priedo funkcijos versiją.
 
-### <a name="change-the-status-of-the-electronic-invoicing-add-on-feature"></a>Elektroninių SF išrašymo priedo funkcijos būsenos keitimas
+### <a name="change-the-status-of-the-electronic-invoicing-feature"></a>Elektroninių SF išrašymo priedo funkcijos būsenos keitimas
 
 Atlikite toliau pateiktus veiksmus, norėdami valdyti elektroninių SF išrašymo priedo funkcijos ciklą.
 

@@ -2,11 +2,9 @@
 title: „Azure” saugyklos abonemento ir raktų saugyklos kūrimas
 description: Šioje temoje paaiškinama, kaip sukurti „Azure” saugyklos abonementą ir raktų saugyklą.
 author: gionoder
-manager: AnnBe
 ms.date: 02/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 14463abe7782d786d286fcc619dee00ce85bb620
-ms.sourcegitcommit: 4adc57b0e43d9627dca70762ac941762ec4934e2
+ms.openlocfilehash: b7df4933c1373893e00f48ea3a21bd5af40719a9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/22/2021
-ms.locfileid: "5479350"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840225"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>„Azure” saugyklos abonemento ir raktų saugyklos kūrimas
 

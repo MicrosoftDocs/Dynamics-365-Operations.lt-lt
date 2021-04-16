@@ -2,11 +2,9 @@
 title: Kokybės valdymo procesai
 description: Šiame straipsnyje pateikta informacija apie neatitinkančių produktų kokybės valdymo procesą. Aprašyta, kaip galite naudoti kokybės kontrolės funkciją, kaip nustatyti ir prižiūrėti neatitikimus ir kaip tvarkyti taisymus.
 author: perlynne
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventItemSampling, InventNonConformanceHistory, InventNonConformanceTable, InventQualityOrderLineResults, InventQualityOrderTable, InventTestCorrection, InventTestDiagnosticType, InventTestInstrument, InventTestReportSetup, InventTestTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0061030cabda55cf467c0c80b250c45c875b386
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 04955c2941b5f5c96b804d9bc6cc0e208b4bf20f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209639"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834246"
 ---
 # <a name="quality-management-processes"></a>Kokybės valdymo procesai
 
@@ -66,11 +64,11 @@ Toliau pateiktoje lentelėje išvardyti šeši numatytieji neatitikimo tipai ir 
 | Vidinis              | Kokybės užsakymo numeris arba kokybės užsakymo operacijos partijos numeris. Pvz., neatitikimas gali būti susijęs su bandymais, kurie atliekami kaip kokybės užsakymo dalis arba su darbuotojo rūpesčiu dėl produkto kokybės.     |
 | Sudėtinio produkto gamyba | Sudėtinio produkto gamybos užsakymo neatitikimas, susijęs su paketinės gamybos užsakymais.                                                                                                                                                    |
 
-Neatitikimai susieti su problemos tipu. Problemų tipai apibrėžiami puslapyje **Problemų tipai**, kuriame nurodote, kuriuos problemų tipus galima susieti su kiekvienu neatitikimo tipu. Pvz., tipo **Aptarnavimo užklausa** neatitikimo problemų tipai gali atspindėti kliento nusiskundimų klasifikaciją, o **Vidinio**tipo neatitiktimo problemų tipai gali nurodyti defekto kodų klasifikaciją.
+Neatitikimai susieti su problemos tipu. Problemų tipai apibrėžiami puslapyje **Problemų tipai**, kuriame nurodote, kuriuos problemų tipus galima susieti su kiekvienu neatitikimo tipu. Pavyzdžiui, **Aptarnavimo užklausos** tipo neatitikimo problemų tipai gali atspindėti kliento nusiskundimų klasifikaciją, o **Vidinio**tipo neatitikimo problemų tipai gali nurodyti defekto kodų klasifikaciją.
 
 Kuriant naują neatitikimą, pasirenkamas neatitikimo tipas ir problemos tipas. Pradinė patvirtinimo būsena yra **Naujas**, kuri nurodo užklausą veikti. Kitas veiksmas yra patvirtinimo būseną pakeisti į **Patvirtinta** arba **Atsisakyta**, kad nurodytumėte, jog dėl neatitikimo veiksmų imsitės arba ne. Neatitikimą taip pat galite uždaryti (pasirinkdami atskirą žymės langelį), taip nurodydami, kad veiksmus su juo baigėte, arba neatitikimą galite atidaryti iš naujo, kad parodytumėte, jog jį reikia labiau apsvarstyti.
 
-Įvesti neatitikimo komentarus galite pridėdami dokumentą. Naudinga naudojant **Dokumento tipo** puslapį apibrėžti unikalų neatitiktimų dokumento tipą. Tada galite naudoti puslapį **Ataskaitos sąranka** ir apibrėžti, ar neatitikimo ataskaitoje ir neatitikimo žymėje turėtų būti spausdinami šio dokumento tipo komentarai. Atitikimo ataskaita ir neatitikimo žymė gali padėti atlikti medžiagų perdavimą. Pagal pasirinkimo kriterijus, kurie susieti su neatitikimu, galite selektyviai generuoti ataskaitas ir žymes. Šie kriterijai apima neatitikimo numerį, prekę, klientą, tiekėją ir būseną.
+Įvesti neatitikimo komentarus galite pridėdami dokumentą. Naudinga naudojant **Dokumento tipo** puslapį apibrėžti unikalų neatitikimų dokumento tipą. Tada galite naudoti puslapį **Ataskaitos sąranka** ir apibrėžti, ar neatitikimo ataskaitoje ir neatitikimo žymėje turėtų būti spausdinami šio dokumento tipo komentarai. Atitikimo ataskaita ir neatitikimo žymė gali padėti atlikti medžiagų perdavimą. Pagal pasirinkimo kriterijus, kurie susieti su neatitikimu, galite selektyviai generuoti ataskaitas ir žymes. Šie kriterijai apima neatitikimo numerį, prekę, klientą, tiekėją ir būseną.
 
 Neatitikimo ataskaitoje rodomas neatitikimo numeris, prekė ir problemos tipas. Atsižvelgiant į jūsų ataskaitos sąrankos strategiją, ataskaitoje taip pat gali būti rodomos susijusios pastabos apie neatitikimą. Neatitikimo žymėje rodoma panaši informacija, ir ji taip pat apima sulaikymo zoną bei tipą (pvz., **Apriboto naudojimo** ar **Netinkamo naudoti**), kurį priskyrėte neatitikimui norėdami palengvinti brokuotų medžiagų perdavimą.
 

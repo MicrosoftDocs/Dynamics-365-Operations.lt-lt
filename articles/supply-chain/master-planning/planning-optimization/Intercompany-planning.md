@@ -2,11 +2,9 @@
 title: Vidinės įmonės planavimas
 description: Šiame skyriuje paaiškintas vidinės įmonės planavimas ir tai, kaip konfigūruoti jos planavimą su „Planning Optimization“ „Microsoft Dynamics 365 Supply Chain Management“.
 author: ChristianRytt
-manager: tfehr
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: dd498489e18eaba81720757faa14c0bf7b7d67f1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5c9ab724034a9bb40cfe155b748a0c7e25978add
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263403"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833358"
 ---
 # <a name="intercompany-planning"></a>Vidinės įmonės planavimas
 
 [!include [banner](../../includes/banner.md)]
 
-Kai kurios organizacijose, logistinės operacijos priklauso nuo kitų juridinių asmenų (įmonių) organizacijos viduje. Šie veiksmai tvarkomi naudojant vidinės įmonės pardavimus ir pirkimus, nes kiekvienas juridnis asmuo yra atskiras sąskaitų grafikas.
+Kai kurios organizacijose, logistinės operacijos priklauso nuo kitų juridinių asmenų (įmonių) organizacijos viduje. Šie veiksmai tvarkomi naudojant vidinės įmonės pardavimus ir pirkimus, nes kiekvienas juridinis subjektas yra atskiras sąskaitų planas.
 
 Šiame skyriuje paaiškintas vidinės įmonės planavimas ir tai, kaip konfigūruoti jos planavimą su „Planning Optimization“ „Microsoft Dynamics 365 Supply Chain Management“.
 
@@ -47,8 +45,8 @@ Jei vykdote pagrindinį planavimą iš pagrindinio plano, kuris apima suplanuot�
 
 Siekiant naudoti vidinės įmonės planavimą, turite parengti savo sistemą tokiu būdu:
 
-1. Atitinkami produktai turi būti išleisti visose atitinkamose įmonėse. Dėl daugiau informacijos, žr [Konfigūruoti ir naudoti vidinės įmonės prekybą „Dynamics 365 Supply Chain Management“ ](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) on Microsoft Learn.
-1. Pagal srovę paklausa turi būti padengta pirkimo formos tiekėjo, kuris turi vidinės įmonės sąsają su pagal srovės įmonę ir atitinkamą numatytojo inventoriaus matmenis (vietą ir sandėlį) klientui. Dėl daugiau informacijos, žr [Konfigūruoti ir naudoti vidinės įmonės prekybą „Dynamics 365 Supply Chain Management“ ](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) on Microsoft Learn.
+1. Atitinkami produktai turi būti išleisti visose atitinkamose įmonėse. Daugiau informacijos rasite [Konfigūruoti ir naudoti vidinės įmonės prekybą „Dynamics 365 Supply Chain Management“ ](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) on Microsoft Learn.
+1. Pagal srovę paklausa turi būti padengta pirkimo formos tiekėjo, kuris turi vidinės įmonės sąsają su pagal srovės įmonę ir atitinkamą numatytojo inventoriaus matmenis (vietą ir sandėlį) klientui. Daugiau informacijos rasite [Konfigūruoti ir naudoti vidinės įmonės prekybą „Dynamics 365 Supply Chain Management“ ](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) on Microsoft Learn.
 1. Pagrindinis planavimas prieš srovės įmonės turi apimti suplanuotą palei srovės paklausą ir atitinkamą įmonę bei pagrindinis planavimas turi būti nurodytas palei srovės planuose.
 
 ## <a name="include-planned-downstream-demand"></a>Įtraukti proceso pabaigoje suplanuotą poreikį

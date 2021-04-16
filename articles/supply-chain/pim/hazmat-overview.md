@@ -2,11 +2,9 @@
 title: Pavojingų medžiagų apžvalga
 description: Šioje temoje pateikiama funkcijų, susijusių su pavojingų medžiagų tvarkymu ir fiksavimu produkto informacijos valdymo ir sandėlio valdymo metu, apžvalga.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,17 +12,16 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 4ff997214f80d97f6e558d32fbf66663cbc84143
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 15edf61cba03a57b9b4d2c939228fd064b797942
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231893"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829383"
 ---
 # <a name="hazardous-materials-overview"></a>Pavojingų medžiagų apžvalga
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Jog atitiktų siuntimo ir transportavimo nuostatas, organizacijos, siunčiančios medžiagas, klasifikuojamas kaip pavojingos prekės, į savo siuntas privalo įtraukti papildomus popierinius dokumentus. Pavojingų medžiagų funkcija leidžia klientams saugoti informaciją, susijusią su paleistomis prekėmis. Ši informacija gali būti naudojama ruošiant siuntimo dokumentus. Organizacija, siunčianti pavojingas prekes, privalo turėti savo siuntimo proceso valdymo procesus ir procedūras. „Microsoft Dynamics 365 Supply Chain Management” yra tik įrankis, galintis padėti generuoti reikalingus dokumentus.
 
@@ -32,7 +29,7 @@ Jog atitiktų siuntimo ir transportavimo nuostatas, organizacijos, siunčiančio
 
 ![Pavojingų medžiagos funkcijos nustatymas ir naudojimas](media/hazmat-overview.png "Pavojingų medžiagų funkcijos nustatymas ir naudojimas")
 
-Pavojingų medžiagų funkcija yra nustatoma Produkto informacijos valdyme ir pateikia dokumentus, kuriuos galima atsispaudinti per Sandėlio valdymą. Taigi, apskritai kalbant, minėtos sritys yra dvi pagrindinės sritys, kuriose Jūs peržiūrėsite, nustatysite ir naudosite šią funkciją:
+Pavojingų medžiagų funkcija yra nustatoma Produkto informacijos valdyme ir pateikia dokumentus, kuriuos galima atsispausdinti per Sandėlio valdymą. Taigi, apskritai kalbant, minėtos sritys yra dvi pagrindinės sritys, kuriose Jūs peržiūrėsite, nustatysite ir naudosite šią funkciją:
 
 - **Produkto informacijos valdymas** – nustatyti kodus, kurie bus taikomi išleistam produktui.
 - **Sandėlio valdymas** – darbas su papildomais dokumentais, kurie bus atspausdinti siuntoms.
@@ -60,7 +57,7 @@ Daugiau informacijos apie tai, kaip nustatyti pavojingų medžiagų nuostatas ir
 
 ## <a name="warehouse-management"></a>Sandėlio valdymas
 
-Kai ruošite siuntą Sandėlio valdyme, galėsite atspaudinti kelias naujas ataskaitas, naudojančias informaciją, kurią nustatėte Produkto informacijos valdyme. Norėdami gauti daugiau informacijos apie galimas ataskaitas ir kaip jas naudoti, žr. [Pavojingų medžiagų užklausos ir ataskaitos](hazmat-reports.md).
+Kai ruošite siuntą Sandėlio valdyme, galėsite atspausdinti kelias naujas ataskaitas, naudojančias informaciją, kurią nustatėte Produkto informacijos valdyme. Norėdami gauti daugiau informacijos apie galimas ataskaitas ir kaip jas naudoti, žr. [Pavojingų medžiagų užklausos ir ataskaitos](hazmat-reports.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

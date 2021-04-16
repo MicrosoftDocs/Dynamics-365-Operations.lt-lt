@@ -2,11 +2,9 @@
 title: „Kanban“ užduoties, skirtos „lean manufacturing“, planavimas
 description: Šiame straipsnyje pateikiama informacija apie „kanban“ užduočių planavimo vizualinę kontrolę ir įvairius būdus planuoti „kanban“ užduotis.
 author: cvocph
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardScheduleJobForward, KanbanBoardShowJobs, KanbanJobSchedulingListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3616b353d33540bcab6769c51a474d79bf374602
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 25d3de7d9d49cbd05f7d3d3daa42f51e60dc0f8e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246074"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825848"
 ---
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>„Kanban“ užduoties, skirtos „lean manufacturing“, planavimas
 
@@ -41,7 +39,7 @@ Dėl šios koncepcijos „kanban“ dydžiai gali būti mažesni už faktinius e
 ## <a name="manual-scheduling"></a>Rankinis planavimas
 Programoje „Microsoft Dynamics AX 2012“ pradėta naudoti rankiniam planavimui skirta „kanban“ planavimo lenta. Rankinio planavimo funkciją galima kartu naudoti su automatiniu planavimu. Naudodami „kanban“ planavimo lentą galite suplanuoti užduotis ir panaikinti jų planavimą, jas perkelti sekoje arba iš vieno laikotarpio į kitą. Galima rankiniu būdu panaikinti pagal „kanban“ taisyklę, kurioje nustatyta parametro **Automatinis planavimas** vertė didesnė už **0**, sukurtų užduočių planavimą. Tačiau šios užduotys bus perplanuotos įvykus kitam automatinio planavimo įvykiui (t. y. sukūrus naują „kanban“). Galima naudoti toliau nurodytas rankinio planavimo parinktis.
 
--   Naudojant parinktį **Grafikas** pagal terminus suplanuojamos pasirinktos užduotys (ši parinktis panaši į automatinio planavimo parinktį).
+-   Naudojant parinktį **Grafikas** pagal terminus suplanuojamos pasirinktos užduotys. (ši parinktis panaši į automatinio planavimo parinktį).
 -   Naudojant parinktį **Grafikas pirmyn nuo datos** bandoma pagal terminus suplanuoti pasirinktas užduotis, tačiau rezultatas apribojamas naudojant nurodytą anksčiausią pradžios datą.
 -   Naudojant parinktį **Atgal** pasirinktos suplanuotos užduotys sekoje perkeliamos atgal, o jų data išlieka laikotarpio diapazone.
 -   Naudojant parinktį **Pirmyn** pasirinktos suplanuotos užduotys sekoje perkeliamos pirmyn, o jų data išlieka laikotarpio diapazone.

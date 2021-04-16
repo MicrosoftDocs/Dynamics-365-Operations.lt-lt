@@ -1,12 +1,10 @@
 ---
-title: Registruoti prekės, kurios patobulinto sandėliavimo funkcija įjungta, prekes naudojant prekių gavimo žurnalą
-description: Ši procedūra jums parodo, kaip registruoti prekes, naudojant prekių gavimo žurnalą, kai naudojate patobulintus sandėlio valdymo procesus.
+title: Prekių, kurioms įjungta patobulinto sandėliavimo funkcija, registravimas naudojant prekių gavimo žurnalą
+description: Šioje temoje pateikiamas scenarijus, kaip registruoti prekes naudojant prekių gavimo žurnalą, kai naudojate patobulintus sandėlio valdymo procesus.
 author: ShylaThompson
-manager: tfehr
-ms.date: 08/29/2018
+ms.date: 03/24/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSJournalTable, WMSJournalCreate, WHSLicensePlate
 audience: Application User
@@ -16,65 +14,66 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c25fb55afb01ed59b66045f24400e03e2ec60b2a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c58aa1cec6c0bfe33fa1ef90267dcd8ac1218157
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238899"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830839"
 ---
-# <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Registruoti prekės, kurios patobulinto sandėliavimo funkcija įjungta, prekes naudojant prekių gavimo žurnalą
+# <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Prekių, kurioms įjungta patobulinto sandėliavimo funkcija, registravimas naudojant prekių gavimo žurnalą
 
 [!include [banner](../../includes/banner.md)]
 
-Ši procedūra jums parodo, kaip registruoti prekes, naudojant prekių gavimo žurnalą, kai naudojate patobulintus sandėlio valdymo procesus. Paprastai tai atlieka gavimo klerkas. 
+Šioje temoje pateikiamas scenarijus, kaip registruoti prekes naudojant prekių gavimo žurnalą, kai naudojate patobulintus sandėlio valdymo procesus. Paprastai tai atlieka gavimo klerkas.
 
-Šią procedūrą galite vykdyti demonstracinėje duomenų įmonėje USMF arba su savo duomenimis. Prieš pradėdami šį vadovą, turite turėti patvirtintą pirkimo užsakymą su atidaryta pirkimo užsakymo eilute. Prekė eilutėje turi būti laikoma atsargose, nenaudoti produktų variantų ir neturėti sekimo dimensijų. Taip pat prekės turi būti susietos su saugojimo dimensijų grupe, kurioje įgalintas sandėlio valdymo procesas. Naudojamame sandėlyje turi būti įgalinti sandėlio valdymo procesai, o vieta, kurią naudojate prekių gavimui, turi būti kontroliuojama numerio lentelės. Jei naudojate USMF, kurdami savo pirkimo užsakymą, galite naudoti įmonės klientą 1001, sandėlį 51 ir elementą M9200. 
+## <a name="enable-sample-data"></a>Duomenų pavyzdžių įgalinimas
 
-Pasižymėkite savo sukurto pirkimo užsakymo numerį ir prekės numerį bei pirkimo užsakymo eilutėje naudotą vietą.
+Norėdami dirbti pagal šį scenarijų naudojant šioje temoje nurodytus pavyzdinius įrašus ir reikšmes, turite naudoti sistemą, kurioje įdiegti standartiniai demonstraciniai duomenys, ir pasirinkti *„USMF”* juridinį subjektą.
 
+Vietoj to, galite dirbti pagal šį scenarijų pakeisdami reikšmes iš jūsų duomenų, jeigu turite šiuos duomenis:
 
-## <a name="create-an-item-arrival-journal-header"></a>Prekių gavimo žurnalo antraštės kūrimas
-1. Eikite į Prekių gavimas.
-2. Spustelėkite Naujas.
-3. Lauke Pavadinimas surinkite reikšmę.
-    * Jei naudojate USMF, galite surinkti WHS. Jei naudojate kitus duomenis, žurnalas, kurio pavadinimą pasirinksite, turi turėti šias savybes: patikros rinkimo vieta turi būti nustatyta į „Ne“ ir karantino valdymas turi būti nustatytas į „Ne“.  
-4. Lauke Numeris surinkite reikšmę.
-5. Lauke Teritorija surinkite reikšmę.
-    * Pasirinkite vietą, kurią naudojote savo pirkimo užsakymo eilutėje. Tai bus numatytoji visų žurnalo eilučių reikšmė. Jei USMF naudojote 51 sandėlį, pasirinkite 5 vietą.  
-6. Lauke Sandėlis surinkite reikšmę.
-    * Pasirinkite tinkamą jūsų pasirinktos svetainės sandėlį. Tai bus numatytoji visų žurnalo eilučių reikšmė. Jeigu USMF naudojate reikšmių pavyzdžius, pasirinkite „51“.  
-7. Lauke Vieta surinkite reikšmę.
-    * Pasirinkite tinkamą jūsų pasirinktos vietos sandėlį. Vieta turi būti susieta su vietos šablonu, kuris yra kontroliuojamas pagal numerio lentelę. Tai bus numatytoji visų žurnalo eilučių reikšmė. Jeigu USMF naudojate reikšmių pavyzdžius, pasirinkite „Bulk-008“.  
-8. Dešiniuoju pelės mygtuku spustelėkite lauko Numerio lentelė išplečiamąją rodyklę ir pasirinkite Peržiūrėti išsamią informaciją.
-9. Spustelėkite Naujas.
-10. Lauke Numerio lentelė įveskite reikšmę.
-    * Pasižymėkite reikšmę.  
-11. Spustelėkite Įrašyti.
-12. Uždarykite puslapį.
-13. Lauke Numerio lentelė įveskite reikšmę.
-    * Įveskite ką tik sukurtos numerio lentelės reikšmę. Tai bus numatytoji visų žurnalo eilučių reikšmė.  
-14. Spustelėkite GERAI.
+- Turite patvirtintą pirkimo užsakymą su atvira pirkimo užsakymo eilute.
+- Prekė eilutėje turi būti laikoma atsargose. Ji neturi naudoti produkto variantų ir turėti sekimo dimensijų.
+- Prekė turi būti susieta su saugojimo dimensijų grupe, kurioje įgalintas sandėlio valdymo procesas.
+- Naudojamame sandėlyje turi būti įgalinti sandėlio valdymo procesai, o vieta, kurią naudojate prekių gavimui, turi būti kontroliuojama numerio lentelės.
 
-## <a name="add-a-line"></a>Įtraukti eilutę
-1. Spustelėkite Pridėti eilutę.
-2. Lauke Prekės numeris surinkite reikšmę.
-    * Įveskite prekės numerį, kurį naudojote pirkimo užsakymo eilutėje.  
-3. Lauke Kiekis įveskite skaičių.
-    * Įveskite norimą registruoti kiekį.  
-    * Lauke Data nurodoma data, kada atsargose bus užregistruotas turimas šios prekės kiekis.  
-    * Lauką Partijos ID užpildys sistema, jei jį galima identifikuoti pagal pateiktą informaciją. Kitu atveju turite įtraukti jį patys. Tai yra privalomas laukas, kuris susieja šią registraciją su konkrečia šaltinio dokumento eilute.  
+## <a name="create-an-item-arrival-journal-header-that-uses-warehouse-management"></a>Prekių gavimo žurnalo antraštės, naudojančios sandėlio valdymą, kūrimas
 
-## <a name="complete-the-registration"></a>Registracijos užbaigimas
-1. Spustelėkite Tikrinti.
-    * Patikrinama, ar žurnalas parengtas registruoti. Jei patikrinti nepavyksta, norint registruoti žurnalą reikia ištaisyti klaidas.  
-2. Spustelėkite GERAI.
-    * Spustelėję Gerai, patikrinkite pranešimą. Turėtumėte gauti pranešimą, kuriame parašyta, kad žurnale problemų nėra.  
-3. Spustelėkite Registruoti.
-4. Spustelėkite GERAI.
-    * Spustelėję Gerai, patikrinkite pranešimų juostą. Turėtumėte gauti pranešimą, kuriame parašyta, kad operacija baigta.  
-5. Uždarykite puslapį.
+Toliau pateikiamas scenarijus rodo, kaip sukurti prekių gavimo žurnalo antraštę, naudojančią sandėlio valdymą:
 
+1. Įsitikinkite, kad jūsų sistemoje yra patvirtintas pirkimo užsakymas, atitinkantis ankstesniame skyriuje nustatytus reikalavimus. Šis scenarijus naudoja įmonės pirkimo užsakymą, skirtą *„USMF”* įmonei, tiekėjo sąskaitai *1001,* sandėliui *51 su* užsakymo eilute, skirta prekės *„M9200”* numerio *10 PL* (10 padėklų).
+1. Pasižymėkite pirkimo užsakymo numerį, kurį naudosite.
+1. Eikite į **Atsargų valdymas \> Žurnalo įrašai \> Prekių gavimas \> Prekių gavimas**.
+1. Veiksmų srityje pasirinkite **Nauja**.
+1. Atsidaro **Sandėlio valdymo žurnalo kūrimo** dialogo langas. Pasirinkite žurnalo pavadinimą lauke **Pavadinimas**.
+    - Jei naudojate *„USMF”* demonstracinius duomenis, pasirinkite *„WHS”*.
+    - Jei naudojate savo duomenis, jūsų pasirinktame žurnale **Tikrinti paėmimo vietą** turi būti nustatyta į *Ne* ir **Sulaikymo valdymas** taip pat nustatytas į *Ne*.
+1. Nustatykite **Nuoroda** į *Pirkimo užsakymas*.
+1. Nustatykite **Paskyros numeris** į *„1001”*.
+1. Nustatykite **Numeris** į pirkimo užsakymo, kurį nurodėte šiam pratimui, numerį.
+
+    ![Prekių pristatymo žurnalas](../media/item-arrival-journal-header.png "Prekių gavimo žurnalas")
+
+1. Pasirinkite **Gerai** žurnalo antraštės sukūrimui.
+1. Skyriuje **Žurnalo eilutės** pasirinkite **Įtraukti eilutę** ir įveskite šiuos duomenis:
+    - **Prekės numeris** – Nustatykite į *„M9200”*. **Saitas**, **Sandėlis** ir **Kiekis** bus nustatyti pagal atsargų operacijos duomenis 10 padėklų (1000 vnt.).
+    - **Vieta** – Nustatykite į *„001”*. Ši konkreti vieta neseka numerio lentelių.
+
+    ![Prekių gavimo žurnalo eilutė](../media/item-arrival-journal-line.png "Prekių gavimo žurnalo eilutė")
+
+    > [!NOTE]
+    > Lauke **Data** nurodoma data, kada atsargose bus užregistruotas turimas šios prekės kiekis.  
+    >
+    > Lauką **Partijos ID** užpildys sistema, jei jį galima identifikuoti pagal pateiktą informaciją. Kitu atveju turėsite įvesti jį patys. Tai yra būtinasis laukas, kuris susieja šią registraciją su konkrečia šaltinio dokumento eilute.  
+
+1. Pasirinkite **Patvirtinti** veiksmų srityje. Patikrinama, ar žurnalas parengtas registruoti. Jei patikrinti nepavyksta, norint registruoti žurnalą reikia ištaisyti klaidas.  
+1. Atsidaro **Tikrinti žurnalą** dialogo langas. Pasirinkite **Gerai**.
+1. Peržiūrėkite pranešimų juostą. Ten turėtų būti pranešimas apie tai, kad operacija baigta.  
+1. Veiksmų srityje pasirinkite **Skelbti**.
+1. Atsidaro **Skelbti žurnalą** dialogo langas. Pasirinkite **Gerai**.
+1. Peržiūrėkite pranešimų juostą. Ten turėtų būti pranešimai apie tai, kad operacija baigta.
+1. Veiksmų srityje pasirinkite **Funkcijos > Produkto gavimo kvitas** tam, kad atnaujintumėte pirkimo užsakymo eilutę ir užregistruotumėte produkto gavimo kvitą.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

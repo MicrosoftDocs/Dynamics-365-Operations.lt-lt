@@ -2,11 +2,9 @@
 title: „Lean“ organizacijos modeliavimas
 description: Šiame straipsnyje pateikta informacija apie svarbiausias „lean“ organizacijos modeliavimo koncepcijas.
 author: cvocph
-manager: tfehr
 ms.date: 09/24/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, KanbanFlowSelection, KanbanFlow
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c5eb4fb0ea69217b45967c5af8b5b6b0117c0fa
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dfc0497286ae0286cde05412c82fcaac76f4042a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246050"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837638"
 ---
 # <a name="modeling-a-lean-organization"></a>„Lean“ organizacijos modeliavimas
 
@@ -44,7 +42,7 @@ Kad būtų iš naujo nustatytas įvairių pateikiamų „kanban“ scenarijų ga
 Naudojant „lean manufacturing“ vienoje sistemoje integruojami inventorizuotų bei neužbaigtų produktų „kanban“, todėl vartotojai visuomet juos galės naudoti vienoje vietoje. Dėl šios architektūros savybių papildomų KS lygių nebereikia įvesti, siekiant įgalinti „kanban“, kuriuos ketinama naudoti su pusiau baigtais produktais. Ši architektūra taip pat padeda iki minimumo sumažinti atsargų operacijų.
 
 ## <a name="products-and-material-in-work-in-progress"></a>Nebaigtos gamybos produktai ir medžiagos
-Jei vykdant bet kurį išrinkimo procesą arba registruojant „kanban“ bus atliekamos suvartotų prekių operacijos, sumažinus paketų dydžius tiek, kad šie idealiai tiktų „lean manufacturing“ vienos prekės srautui, gali gerokai padaugėti atsargų operacijų. Taikant gamybos eigos architektūrą ir kartu naudojant saugomus išėmimų „kanban“ galima perkelti medžiagas į gamybos eigos procesą arba perkelti sandėliavimo vienetų dydžius. Išduotos medžiagos vertė įtraukiama į nebaigtos gamybos sąskaitą, kuri susieta su gamybos eiga Šis elgesys panašus į elgesį su medžiagomis, kurios išduodamos gamybos užsakymui. Tokį patį principą galima taikyti produktams ir neužbaigtiems produktams. Jei vykdant gamybos eigos procesą šie produktai nebus sukuriami, perkeliami arba suvartojami, nebūtina atlikti atsargų operacijų. Produktus užregistravus atsargose, gamybos eigos NG sąskaitos vertė sumažinama atėmus susijusią standartinę savikainą.
+Jei vykdant bet kurį išrinkimo procesą arba registruojant „kanban“ bus atliekamos suvartotų prekių operacijos, sumažinus paketų dydžius tiek, kad šie idealiai tiktų „lean manufacturing“ vienos prekės srautui, gali gerokai padaugėti atsargų operacijų. Taikant gamybos eigos architektūrą ir kartu naudojant saugomus išėmimų „kanban“ galima perkelti medžiagas į gamybos eigos procesą arba perkelti sandėliavimo vienetų dydžius. Išduotos medžiagos vertė įtraukiama į nebaigtos gamybos sąskaitą, kuri susieta su gamybos eiga. Šis elgesys panašus į elgesį su medžiagomis, kurios išduodamos gamybos užsakymui. Tokį patį principą galima taikyti produktams ir neužbaigtiems produktams. Jei vykdant gamybos eigos procesą šie produktai nebus sukuriami, perkeliami arba suvartojami, nebūtina atlikti atsargų operacijų. Produktus užregistravus atsargose, gamybos eigos NG sąskaitos vertė sumažinama atėmus susijusią standartinę savikainą.
 
 ## <a name="value-streams-and-value-stream-mapping"></a>Vertės srautai ir vertės srautų susiejimas
 „Lean manufacturing“ architektūrą įkvėpė Womack ir Jones suformuluoti penki „lean“ principai: kliento vertė, vertės srautas, srautas, „traukimas“ ir tobulinimas. Rekomenduojamas „lean manufacturing“ sprendimų įgyvendinimo gamybos srityje metodas – verčių srautų susiejimas (VSM). Šį metodą Rother ir Shook aprašė „Lean Manufacturing Institute“ instituto išleistame leidinyje „Learning to See“. 

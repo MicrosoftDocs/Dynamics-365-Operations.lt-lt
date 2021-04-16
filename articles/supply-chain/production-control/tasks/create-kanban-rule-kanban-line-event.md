@@ -2,11 +2,9 @@
 title: Kurti „kanban“ taisyklę naudojant „kanban“ eilutės įvykį
 description: Šios procedūros metu „kanban“ taisyklė sukuriama naudojant „kanban“ eilutės įvykio parametrą, kad iš proceso veiklos būtų suaktyvintas atgalinis planavimas.
 author: ChristianRytt
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, SalesTableListPage, SalesCreateOrder, SalesTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dc838a64e74b561dd17fd2b568fa8c190a1dfcfe
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fe92336c3f80909e5b0865b461e45d55bf08c4b4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255210"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829143"
 ---
 # <a name="create-a-kanban-rule-using-a-kanban-line-event"></a>Kurti „kanban“ taisyklę naudojant „kanban“ eilutės įvykį
 
@@ -34,7 +32,7 @@ ms.locfileid: "5255210"
 1. Pasirinkite Produkto informacijos valdymas > „Lean manufacturing“ > „Kanban“ taisyklės.
 2. Spustelėkite Naujas.
 3. Lauke Papildymo strategija pasirinkite „Įvykis“.
-    * Taip „kanban“ sugeneruojami tiesiogiai pagal poreikį. Ši parinktis naudojama siekiant nustatyti taisykles, apibrėžiančias gamybos pagal užsakymą scenarijų  
+    * Taip „kanban“ sugeneruojami tiesiogiai pagal poreikį. Ši parinktis naudojama siekiant nustatyti taisykles, apibrėžiančias gamybos pagal užsakymą scenarijų.  
 4. Lauke Pirmoji plano veikla įveskite arba pasirinkite reikšmę.
     * Įveskite arba pasirinkite SpeakerAssemblyAndPolish. Pirmoji gamybos „kanban“ taisyklės veikla yra gamybos eigos proceso veikla. Kai pasirenkate veiklą, veiklos galiojimo datos nukopijuojamos į „kanban“ taisyklės galiojimo datas.  
 5. Išplėskite skyrių Išsami informacija.

@@ -2,11 +2,9 @@
 title: Valiutų kursų importavimas
 description: Šioje temoje pateikiama informacija apie reikalavimus, taikomus importuojant užsienio valiutų kursų nuorodas, kurias skelbia valiutų kursų teikėjai.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 37f3897f9f2a0db0bb7ccb6851fba36814ab0c7b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 20b8496bc3074eae6535eea4cfe0b254f2773e6a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249124"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823745"
 ---
 # <a name="import-currency-exchange-rates"></a>Valiutų kursų importavimas
 
@@ -35,9 +33,8 @@ Toliau pateikiamuose skyriuose aprašomas informacijos, kuri naudojama nustatant
 ## <a name="configure-an-exchange-rate-provider"></a>Valiutų kursų teikėjo konfigūravimas
 Prieš importuodami valiutų kursus turite nustatyti informaciją, kurios reikia valiutų kursų teikėjams. Naudokite puslapį **Konfigūruoti valiutų kursų teikėjus**, norėdami pasirinkti valiutų kursų teikėjus. Kai kurie valiutų kursų teikėjai yra įtraukti į „Dynamics 365 Finance“ demonstracinius duomenis. Toliau esančioje lentelėje pateikiami šio puslapio valdiklių aprašymai.
 
-|           |                                                                                                                                                                                                                             |
-|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Laukas** | **Aprašas**                                                                                                                                                                                                             |
+| Laukas | Aprašas                   |
+|-----------|-----------------------------------|
 | **Pavadinimas**  | Valiutų kursų teikėjo pavadinimas.                                                                                                                                                                                     |
 | **Raktas**   | Teikėjo reikalaujamas unikalus kiekvienos konfigūracijos informacijos dalies identifikatorius. Ši informacija automatiškai įtraukiama kiekvienam valiutų kursų teikėjui, kurį įtraukiate. |
 | **Value** | Kiekvieno rakto informacija. Ši informacija įtraukiama kiekvienam valiutų kursų teikėjui, kurį įtraukiate.                                                                                         |
@@ -45,9 +42,8 @@ Prieš importuodami valiutų kursus turite nustatyti informaciją, kurios reikia
 ## <a name="import-currency-exchange-rates"></a>Valiutų kursų importavimas
 Galite importuoti valiutų kursus iš valiutų kursų teikėjų šaltinio ir juos pridėti puslapyje **Valiutų kursai**. Naudokite puslapį **Importuoti valiutų kursus**, norėdami importuoti valiutų kursus. Toliau esančioje lentelėje pateikiami laukų, reikalingų importavimo procesui sėkmingai atlikti, aprašai.
 
-|                                        |                                                                                                                                                                                                                                                                                                                                                                             |
-|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Laukas**                              | **Aprašas**                                                                                                                                                                                                                                                                                                                                                             |
+| Laukas | Aprašas                   |
+|-----------|-----------------------------------|
 | **Valiutos kurso tipas**                 | Valiutos kurso tipas.                                                                                                                                                                                                                                                                                                                                                      |
 | **Valiutų kursų teikėjas**             | Valiutų kursų teikėjas.                                                                                                                                                                                                                                                                                                                                                  |
 | **Importuoti kaip**                       | Pagal šį parametrą nustatoma, ar importuoti šios dienos, ar konkretaus datų intervalo valiutų kursus. Jei norite naudoti datų intervalą, Įveskite arba pasirinkite pradžios ir pabaigos datas.                                                                                                                                                                                                                |

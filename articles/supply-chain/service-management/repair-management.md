@@ -2,11 +2,9 @@
 title: Remonto valdymas
 description: Sistematiškai grupuokite problemas – tai padės rasti sprendimus, sėkmingai panaudotus anksčiau.
 author: ShylaThompson
-manager: tfehr
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAConditionTable, SMASymptomArea, SMADiagnosisArea, SMAResolutionTable, SMARepairStage
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 265709f298d9310d5d647eaa029ece778d2e226e
-ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
+ms.openlocfilehash: 5d0c6ee65713af86378ada79075f969a41f1c0ad
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470646"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836019"
 ---
 # <a name="repair-management"></a>Remonto valdymas       
 
@@ -97,11 +95,11 @@ Galite nustatyti, kad remonto eilutės remonto etapuose būtų sekama remonto ei
 
 Pašalinus problemą, remonto eilutę galima uždaryti. Nustatykite remonto etapą su įjungta ypatybe **Baigta**. Esama data ir laikas yra užregistruojami eilutėje kaip baigimo laikas.
 
-## <a name="close-a-repair-line-for-a-resolved-issue"></a>Pašalinto trikčio remonto eilutės uždarymas
+## <a name="close-a-repair-line-for-a-resolved-issue"></a>Pašalintos trikties remonto eilutės uždarymas
 
 1.  Atidarykite formą **Remonto eilutės**. Sukurkite remonto eilutę atlikdami ankstesnėje šios temos dalyje nurodytą procedūrą.
 
-2.  Pasirinkite norimą uždaryti remonto eilutę, kurioje pateiktas trikčio remontas.
+2.  Pasirinkite norimą uždaryti remonto eilutę, kurioje pateiktas trikties remontas.
 
 3.  Lauke **Remonto etapas** pasirinkite etapą su įjungta ypatybe **Baigta**.
 
