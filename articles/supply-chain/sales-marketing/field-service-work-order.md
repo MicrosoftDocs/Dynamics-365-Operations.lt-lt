@@ -2,11 +2,9 @@
 title: „Field Service“ darbo užsakymų sinchronizavimas su „Supply Chain Management“ pardavimo užsakymais
 description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami sinchronizuojant „Field Service“ darbo užsakymus su „Supply Chain Management“ pardavimo užsakymais.
 author: ChristianRytt
-manager: tfehr
 ms.date: 04/09/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 3453d0f6e6217ab63047410c459dc65d8cc4df5c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 15a61b1fe4a267552708fa02fe482f7702668e06
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235441"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824971"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>„Field Service“ darbo užsakymų sinchronizavimas su „Supply Chain Management“ pardavimo užsakymais
 
@@ -87,7 +85,7 @@ Tipo **Naudojama** reikšmės naudojamos vartojant ir išrašant SF. Tokiais atv
 
 Tolesnėje lentelėje pateikiama įvairių produkto eilučių derinių apžvalga.
 
-| Sistemos būsena <br>(Field Service) | Eilutės būsena <br>(Field Service) | Paskirstytas <br>(Field Service) |Sinchronizuojama reikšmė <br>(„Supply Chain Management“) |
+| Sistemos būsena <br>(„Field Service”) | Eilutės būsena <br>(„Field Service”) | Paskirstytas <br>(„Field Service”) |Sinchronizuojama reikšmė <br>(„Supply Chain Management“) |
 |--------------------|-------------|-----------|---------------------------------|
 | Atidarytas – suplanuotas   | Įvertinta   | Taip       | Įvertinta                       |
 | Atidarytas – suplanuotas   | Įvertinta   | Nr.        | Naudota                            |
@@ -108,7 +106,7 @@ Tolesnėje lentelėje pateikiama įvairių produkto eilučių derinių apžvalga
 
 Tolesnėje lentelėje pateikiama įvairių paslaugos eilučių derinių apžvalga.
 
-| Sistemos būsena <br>(Field Service) | Eilutės būsena <br>(Field Service) | Sinchronizuojama reikšmė <br>(„Supply Chain Management“) |
+| Sistemos būsena <br>(„Field Service”) | Eilutės būsena <br>(„Field Service”) | Sinchronizuojama reikšmė <br>(„Supply Chain Management“) |
 |--------------------|-------------|-----------|
 | Atidarytas – suplanuotas   | Įvertinta   | Įvertinta |
 | Atidarytas – suplanuotas   | Naudota        | Naudota      |
@@ -139,7 +137,7 @@ Tipo **Numatoma** reikšmių sinchronizavimas, lyginant su tipo **Naudojama** re
     - **Produkto eilutė:** numatomas kiekis = 5 vnt., naudojamas kiekis = 0 vnt., eilutės būsena = numatoma, paskirstyta = ne
     - **Paslaugos eilutė:** numatomas kiekis = 2 h, naudojamas kiekis = 0 h, eilutės būsena = numatoma
 
-    Šiame pavyzdyje produkto lauko **Numatomas kiekis** reikšmė **5ea** ir paslaugos lauko **Numatomas kiekis** reikšmė **2 h** sinchronizuojamos su „Supply Chain Management“.
+    Šiame pavyzdyje produkto lauko **Numatomas kiekis** reikšmė **5 vnt.** ir paslaugos lauko **Numatomas kiekis** reikšmė **2 h** sinchronizuojamos su „Supply Chain Management“.
 
 3. Paslaugos technikas pradeda dirbti su darbo užsakymu ir užregistruoja medžiagų naudojimą, nurodydamas kiekį 6.
 
@@ -161,7 +159,7 @@ Tipo **Numatoma** reikšmių sinchronizavimas, lyginant su tipo **Naudojama** re
 
 ## <a name="sales-order-origin-and-status"></a>Pardavimo užsakymo kilmė ir būsena
 
-### <a name="sales-origin"></a>Pard. šaltinis
+### <a name="sales-origin"></a>Pardavimo šaltinis
 
 Norėdami sekti pardavimo užsakymus, kurie sukurti iš darbo užsakymų, galite kurti pardavimo kilmę, kai nustatyta parinkties **Kilmės tipo priskyrimas** reikšmė **Taip** ir nustatyta lauko **Pardavimo šaltinio tipas** reikšmė **Darbo užsakymo integravimas**.
 
@@ -215,7 +213,7 @@ Prieš sinchronizuojant darbo užsakymus, svarbu atnaujinti toliau nurodytus sis
 ### <a name="setup-in-field-service"></a>„Field Service“ sąranka
 
 - Įsitikinkite, kad numerių serija, naudojama „Field Service“ darbo užsakymams, nesutampa su numeracija, naudojama „Supply Chain Management“ pardavimo užsakymams. Kitu atveju esami pardavimo užsakymai gali būti neteisingai atnaujinti „Field Service“ arba „Supply Chain Management“.
-- Turi būti nustatyta lauko **Darbo užsakymo SF kūrimas** reikšmė **Niekada**, nes SF bus išrašoma iš „Supply Chain Management“. Pasirinkite **Field Service** \> **Parametrai** \> **Administravimas** \> **„Field Service“ parametrai** ir įsitikinkite, kad nustatyta lauko **Darbo užsakymo SF kūrimas** reikšmė **Niekada**.
+- Turi būti nustatyta lauko **Darbo užsakymo SF kūrimas** reikšmė **Niekada**, nes SF bus išrašoma iš „Supply Chain Management“. Pasirinkite **„Field Service”** \> **Parametrai** \> **Administravimas** \> **„Field Service“ parametrai** ir įsitikinkite, kad nustatyta lauko **Darbo užsakymo SF kūrimas** reikšmė **Niekada**.
 
 ### <a name="setup-in-supply-chain-management"></a>„Supply Chain Management“ nustatymas
 

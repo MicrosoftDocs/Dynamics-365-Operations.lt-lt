@@ -2,11 +2,9 @@
 title: Maršrutai ir operacijos
 description: Šioje temoje pateikiama informacija apie maršrutus ir operacijas.
 author: sorenva
-manager: tfehr
 ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMDesigner, BOMDesignerRouteVersion, Route, RouteInventProd, RouteOpr, RouteOprTable, ProdRouteJob, ProdRouteTrans, ProdRouteOverview, ProdRouteJobOverview, ProdRouteJobListPagePreviewPane, RouteTable, RouteVersionFeasibility, ProdRouteJobCurrent, RouteGroup, RouteProductionOrder, EngChgCaseRouteTablePart, EcoResProductProdTypeFormulaNoActiveRouteFormPart,
 ms.author: sorenand
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f95ecf7faa9f3c89b0a5f65961c42e6ebe7d51df
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6be472336ce8ea58973e897c42f6ee9ae92c0761
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262122"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819285"
 ---
 # <a name="routes-and-operations"></a>Maršrutai ir operacijos
 
@@ -129,7 +127,7 @@ Kai atidarote puslapį **Maršrutas** iš puslapio **Išleisto produkto informac
 
 Puslapyje **Maršrutas** galite keisti operacijų veiklos ypatybes, pvz., vykdymo laiką ar išlaidų kategorijas. Jūsų pakeitimai saugomi operacijų ryšyje, kuris būdingas maršrutui ir išleistam produktui, kurie nurodyti dabartinėje maršruto versijoje. Jei rodomas operacijų ryšys nėra būdingas maršrutui ir išleistam produktui, prieš išsaugant pakeitimus, sistema sukuria operacijų ryšio kopiją. Ši kopija *yra* būdinga maršrutui ir išleistam produktui. Todėl jūsų pakeitimai neturės poveikio kitiems maršrutams ar išleistiems produktams. Norėdami patikrinti, kuris operacijų ryšys yra keičiamas puslapyje **Maršrutas** pažiūrėkite į laukus **Prekės kodas** ir **Maršruto kodas**.  
 
-Beto, galite rankiniu būdu sukurti operaciją, kuri būdinga maršrutui ir išleistam produktui, naudodami funkciją **Kopijuoti ir redaguoti ryšį**.  
+Be to, galite rankiniu būdu sukurti operaciją, kuri būdinga maršrutui ir išleistam produktui, naudodami funkciją **Kopijuoti ir redaguoti ryšį**.  
 
 > [!NOTE]
 > Jei įtrauksite naują operaciją į maršrutą puslapyje **Maršrutas**, operacijų ryšys sukuriamas tik dabartiniam išleistam produktui. Taigi, jei maršrutas naudojamas ir kitiems išleistiems produktams gaminti, nebus jokio taikomo operacijų ryšio šiems išleistiems produktams, o maršruto nebebus galima naudoti tiems išleistiems produktams.
@@ -226,7 +224,7 @@ Naudojant šį būdą, puslapis **Operacijų ryšiai** tampa pirmine vykdymo lai
 Jei nenurodysite operacijų ištekliaus arba išteklių grupės kaip operacijos išteklių reikalavimų dalies, taikomi ištekliai gali veikti skirtingu greičiu. Todėl laikas, reikalingas operacijai apdoroti, gali skirtis. Norėdami išspręsti šią problemą, naudokite operacijos ryšio lauką **Formulė** nurodyti, kaip apskaičiuojamas apdorojimo laikas. Galimos toliau nurodytos pasirinktys:
 
 - **Standartinė** – (numatytoji parinktis) skaičiuojant naudojami tik laukai iš operacijos ryšio, ir vykdymo laikas padauginamas iš užsakymo kiekio.
-- **Pajėgumas** – skaičiavimas apima lauką **Pajėgumas** iš operacijos ištekliaus. Taigi, laikas priklauso nuo išteklių. Vertė, kuri nurodyta operacijos ištekliuje, yra pajėgumas per valandą. **Proceso laikas** apskaičiuoajamas kaip **Užsakymo kiekis** padalintas iš **Pajėgumo**.
+- **Pajėgumas** – skaičiavimas apima lauką **Pajėgumas** iš operacijos ištekliaus. Taigi, laikas priklauso nuo išteklių. Vertė, kuri nurodyta operacijos ištekliuje, yra pajėgumas per valandą. **Proceso laikas** apskaičiuojamas kaip **Užsakymo kiekis** padalintas iš **Pajėgumo**.
 - **Paketas** – paketo pajėgumas apskaičiuojamas naudojant informaciją iš operacijos ryšio. Paketų skaičius, žinoma, ir apdorojimo laikas apskaičiuojami pagal užsakymo kiekį.
 - **Išteklių paketas** – ši parinktis iš esmės tokia pat kaip ir parinktis **Paketas**. Tačiau skaičiavimas apima lauką **Paketo pajėgumas** iš operacijų ištekliaus. Taigi, laikas priklauso nuo išteklių.
 

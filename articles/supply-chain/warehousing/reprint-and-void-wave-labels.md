@@ -2,10 +2,8 @@
 title: Atspausdinkite iš naujo ir panaikinkite bangos žymes
 description: Šioje temoje paaiškinama, kaip panaikinti ir iš naujo atspausdinti bangos žymes.
 author: GarmMSFT
-manager: PJacobse
 ms.date: 07/09/2020
 ms.topic: article
-ms.service: dynamics-ax-applications
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSWaveTableListPage, WHSWorkException, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelLayout, WHSWaveLabelType, WHSWaveLabelTemplateGroup
 audience: Application User
 ms.reviewer: PJacobse
@@ -13,12 +11,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 3d67052d47cf23acbb51354773fbd306545bbfa7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0b309a0e40541463db4d71fa9e7cac5db2d799be
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228374"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817370"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Atspausdinkite iš naujo ir panaikinkite bangos žymes
 
@@ -57,16 +55,16 @@ Bangos žymės naujam spausdinimui žiniatinklio kliente, atlikite šiuos veiksm
 1. Atlikite vieną ar abu žingsnius:
 
     - Žymės naujam spausdinimui, pasirinkite spausdintuvą **Spausdintuvo pavadinimo** laukelyje. (Palikite šį laukelį tuščią, jei tik norite atnaujinti bangos žymės informaciją be naujo jos atspausdinimo.)
-    - Žymės atnaujinimui, pasirinkite **Atnaujinti bangos žymės informaciją** žymimą laukelį. (Palikite tuščią šį žymimą laukelį, jei tik norite iš naujo atspausdinti ankstenę žymę.)
+    - Žymės atnaujinimui, pasirinkite **Atnaujinti bangos žymės informaciją** žymimą laukelį. (Palikite tuščią šį žymimą laukelį, jei tik norite iš naujo atspausdinti ankstesnę žymę.)
 
     > [!NOTE]
-    > Kas kartą, kai bangos žymė yra atspausdinama ar spausdinama iš naujo, jos duomenys yra konvertuojami per atitinkamą bangos žymės planą ir rezervuotos vietos yra pakeičiamos realiomis vertėmis. Pasirodžiusi juosta yra laikoma kaip įrašas bangos žymės istorijoje. **Atnaujinti bangos žymės informaciją** žymimas laukelis yra išvalytas, laikomi „Zebra Programming Language“ (ZPL) duomenys yra naudojami žymės naujo spausdinimo metu. Jei **Bangos žymės informacijos atnaujinimo** žymimas laukelis yra pasirinktas, naujoji juosta yra sukuriama. Esančios bangos žymės taip pat yra perskaičiuojamos ir per didelis jų kiekis (pavyzdžiui, jei susijės su darbo eilutemės, kurios buvo atšauktos ar pakeistos) yra pažymimos kaip **Panaikintos** ir atspausdintos iš naujo.
+    > Kas kartą, kai bangos žymė yra atspausdinama ar spausdinama iš naujo, jos duomenys yra konvertuojami per atitinkamą bangos žymės planą ir rezervuotos vietos yra pakeičiamos realiomis vertėmis. Pasirodžiusi juosta yra laikoma kaip įrašas bangos žymės istorijoje. **Atnaujinti bangos žymės informaciją** žymimas laukelis yra išvalytas, laikomi „Zebra Programming Language“ (ZPL) duomenys yra naudojami žymės naujo spausdinimo metu. Jei **Bangos žymės informacijos atnaujinimo** žymimas laukelis yra pasirinktas, naujoji juosta yra sukuriama. Esančios bangos žymės taip pat yra perskaičiuojamos ir per didelis jų kiekis (pavyzdžiui, jei susijusios su darbo eilutės buvo atšauktos ar pakeistos) yra pažymimos kaip **Panaikintos** ir atspausdintos iš naujo.
 
 1. Pasirinkite **OK** pasirinkimo patvirtinimui.
 
 ## <a name="scenario-2-reprint-labels-from-the-warehousing-app"></a>Scenarijus 2: Iš naujo spausdinkite etiketes iš sandėlio programos
 
-Šis scenarijus dažniausiai pritaikomas, jei žyms ritinys buvo prarastas ar pažeistas. Jis pateikia pavyzdį, kuris parodo, kaip nustatyti mobilaus prietaiso meniu elementus, leidžiančius darbuotojas iš naujo atspausdinti vieną ar daugiau žymių. Tuomet jis rodo, kaip naudoti minėtus naujus meniu elementus dirbant su mobiliu prietaisu.
+Šis scenarijus dažniausiai pritaikomas, jei žymės ritinys buvo prarastas ar pažeistas. Jis pateikia pavyzdį, kuris parodo, kaip nustatyti mobilaus prietaiso meniu elementus, leidžiančius darbuotojas iš naujo atspausdinti vieną ar daugiau žymių. Tuomet jis rodo, kaip naudoti minėtus naujus meniu elementus dirbant su mobiliu prietaisu.
 
 ### <a name="set-up-the-required-menu-items-and-menu-for-the-mobile-device"></a>Nustatykite reikiamus meniu elementus ir meniu mobiliame prietaise
 
@@ -138,13 +136,13 @@ Atlikite šiuos žingsnius tam, kad sukurtumėte naują meniu elementų kolekcij
 Atlikite šiuos žingsnius tam, kad įtrauktumėte naujus meniu elementus į sandėlio programos meniu.
 
 1. Eikite į **Sandėlio valdymas \> Sąranka \> Mobilusis įrenginys \> Mobiliojo įrenginio meniu**.
-1. Pasirinkite esasntį **Siunčiama** meniu.
-1. Kairiajame sąraše suraskite naujo spausdinimo meniu elementus, kuriuos kątik sukūrėte ir tuomet naudokite dešinės rodyklės mygtuką tam, kad įtrauktumėte juos į sąrašą dešinėje.
+1. Pasirinkite esantį **Siunčiama** meniu.
+1. Kairiajame sąraše suraskite naujo spausdinimo meniu elementus, kuriuos ką tik sukūrėte ir tuomet naudokite dešinės rodyklės mygtuką tam, kad įtrauktumėte juos į sąrašą dešinėje.
 1. Uždarykite puslapį.
 
 ### <a name="use-cases"></a>Atvejų naudojimas
 
-Naudokite atvejus, kurie pateikti šiame dokumente kaip pavyzdžiui, rodančius kaip naudotie įvairius mobilaus prietaiso meniu elementus, kuriuos nustatėte įgalindami darbuotojus atspausdinti bangos žymes.
+Naudokite atvejus, kurie pateikti šiame dokumente kaip pavyzdžiui, rodančius kaip naudoti įvairius mobilaus prietaiso meniu elementus, kuriuos nustatėte įgalindami darbuotojus atspausdinti bangos žymes.
 
 Prieš pradėdami dirbti su šiais naudojamais atvejais šios būtinosios sąlygos turi būti sudarytos:
 
@@ -153,7 +151,7 @@ Prieš pradėdami dirbti su šiais naudojamais atvejais šios būtinosios sąlyg
 
 #### <a name="use-case-21-a-single-wave-label-is-scratched-and-must-be-reprinted"></a>Naudokite atvejį 2.1: Viena bangos žymė yra įbrėžta ir turi būti atspausdinta iš naujo.
 
-1. Prisijunkite prie sandėlio programos kaip vartotojas, kuris turi prieigą prie sandėlio *62*. (Standartiniuose demonstracijos duomenyse galite prisijungti nauudodamas vartotojo identifikavimo kodą *62* ir slaptažodį *1*.)
+1. Prisijunkite prie sandėlio programos kaip vartotojas, kuris turi prieigą prie sandėlio *62*. (Standartiniuose demonstracijos duomenyse galite prisijungti naudodamas vartotojo identifikavimo kodą *62* ir slaptažodį *1*.)
 1. Eikite į **Siunčiamas \> Atspausdinti vieną bangos žymę**.
 1. Įveskite ir nuskaitykite bangos žymės identifikavimo kodą.
 1. Pasirinkite spausdintuvą, kuriame spausdinsite dar kartą.
@@ -161,7 +159,7 @@ Prieš pradėdami dirbti su šiais naudojamais atvejais šios būtinosios sąlyg
 
 #### <a name="use-case-22-several-labels-for-boxes-of-the-same-item-were-damaged-and-must-be-reprinted-each-label-has-a-product-bar-code-but-no-enumeration-or-sscc-number"></a>Naudojimo atvejis 2.2: Keletas žymių to paties elemento dėžėms buvo pažeistos ir turi būti atspausdintos iš naujo. Visos žymės turi produkto brūkšninį kodą, tačiau jokio e-numerio ar SSCC numerio.
 
-1. Prisijunkite prie sandėlio programos kaip vartotojas, kuris gali prieiti prie sandėlio *62*. (Standartiniuose demonstracijos duomenyse galite prisijungti nauudodamas vartotojo identifikavimo kodą *62* ir slaptažodį *1*.)
+1. Prisijunkite prie sandėlio programos kaip vartotojas, kuris gali prieiti prie sandėlio *62*. (Standartiniuose demonstracijos duomenyse galite prisijungti naudodamas vartotojo identifikavimo kodą *62* ir slaptažodį *1*.)
 1. Eikite į **Siunčiamas \> Atspausdinti iš naujo žymes (elementą)**.
 1. Įveskite ar nuskaitykite siuntimo identifikavimo kodą.
 1. Pasirinkite pavadinimą, kuris turi teisingą žymės ritinį jo atspausdinimui iš naujo.
@@ -172,7 +170,7 @@ Prieš pradėdami dirbti su šiais naudojamais atvejais šios būtinosios sąlyg
 
 #### <a name="use-case-23-several-labels-for-boxes-werent-printed-because-of-a-printer-jam-because-the-labels-have-enumeration-you-can-define-the-carton-range-to-reprint"></a>Naudojimo atvejis 2.3: Keletas žymių dėžėms nebuvo atspausdintos dėl spausdintuvo užsikišimo. Kadangi žymės turi e-numeraciją, galite nustatyti iš naujo spausdinamą dėžės intervalą.
 
-1. Prisijunkite prie sandėlio programos kaip vartotojas, kuris gali prieiti prie sandėlio *62*. (Standartiniuose demonstracijos duomenyse galite prisijungti nauudodamas vartotojo identifikavimo kodą *62* ir slaptažodį *1*.)
+1. Prisijunkite prie sandėlio programos kaip vartotojas, kuris gali prieiti prie sandėlio *62*. (Standartiniuose demonstracijos duomenyse galite prisijungti naudodamas vartotojo identifikavimo kodą *62* ir slaptažodį *1*.)
 1. Eikite į **Siunčiamas \> Atspausdinti iš naujo žymes (e-numeris)**.
 1. Įveskite ar nuskaitykite siuntimo identifikavimo kodą.
 1. Pasirinkite pavadinimą, kuris turi teisingą žymės ritinį jo atspausdinimui iš naujo.
@@ -183,7 +181,7 @@ Prieš pradėdami dirbti su šiais naudojamais atvejais šios būtinosios sąlyg
 
 #### <a name="use-case-24-several-labels-for-boxes-werent-printed-because-of-a-printer-jam-the-last-good-label-has-a-wave-label-id-that-is-printed-as-a-bar-code"></a>Naudojimo atvejis 2.4: Keletas žymių dėžėms nebuvo atspausdintos dėl spausdintuvo užsikišimo. Paskutinė prekės žymė turi bangos žymės identifikavimo numerį, kuris atspausdintas kaip brūkšninis kodas.
 
-1. Prisijunkite prie sandėlio programos kaip vartotojas, kuris gali prieiti prie sandėlio *62*. (Standartiniuose demonstracijos duomenyse galite prisijungti nauudodamas vartotojo identifikavimo kodą *62* ir slaptažodį *1*.)
+1. Prisijunkite prie sandėlio programos kaip vartotojas, kuris gali prieiti prie sandėlio *62*. (Standartiniuose demonstracijos duomenyse galite prisijungti naudodamas vartotojo identifikavimo kodą *62* ir slaptažodį *1*.)
 1. Eikite į **Siunčiamas \> Atspausdinti iš naujo žymes (pagal paskutinį)**.
 1. Įveskite ar nuskaitykite siuntimo identifikavimo kodą.
 1. Pasirinkite pavadinimą, kuris turi teisingą žymės ritinį jo atspausdinimui iš naujo.
@@ -212,11 +210,14 @@ Darbo išimtys kontroliuojančios trumpo paėmimo elgesį. Atlikite šiuos žing
 
 ### <a name="void-and-reprint-after-a-short-pick"></a>Pašalinimas ir spausdinimas iš naujo po trumpo paėmimo
 
-1. Prisijunkite prie sandėlio programos kaip vartotojas, kuris gali prieiti prie sandėlio *62*. (Standartiniuose demonstracijos duomenyse galite prisijungti nauudodamas vartotojo identifikavimo kodą *62* ir slaptažodį *1*.)
+1. Prisijunkite prie sandėlio programos kaip vartotojas, kuris gali prieiti prie sandėlio *62*. (Standartiniuose demonstracijos duomenyse galite prisijungti naudodamas vartotojo identifikavimo kodą *62* ir slaptažodį *1*.)
 1. Atidarykite proceso srautą prekybos užsakymui, kuris buvo sukurtas, kai bangos žymės buvo pirmą kartą atspausdintos.
 1. Pasirinkite **Trumpas paėmimas**.
 1. Pasirinkite darbo išimties kodą, kurį sukūrėte šiam scenarijui.
 1. Jei pasirinkote tinkamą išimtį, **Panaikinti ir atspausdinti iš naujo** žymimas laukelis turi būti prieinamas. Pasirinkite šį laukelį ir patvirtinkite. Po patvirtinimo, žymės ritinio seką nustato **Žymės kūrėjo identifikavimo kodo** laukelis, kuris yra perskaičiuojamas pagal pakeistą darbo linijos kiekį. Tuomet jis atspausdinamas iš naujo nurodytame spausdintuve.
 
+## <a name="additional-resources"></a>Papildomi ištekliai
+
+- [Bangos žymos spausdinimas](configure-wave-label-printing.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
-title: i.SAF ataskaitų pateikimas Lietuvoje
+title: Lietuvos i.SAF ataskaitos
 description: Šioje temoje paaiškinama, kaip nustatyti ir dirbti su juridiniams subjektams Lietuvoje skirtu i.SAF ataskaitų pateikimu.
 author: LizaGolub
-manager: AnnBe
-ms.date: 01/28/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority, TaxReportCollection, TaxReportVoucher, TaxTable
 audience: Application User
@@ -16,14 +14,14 @@ ms.search.region: Lithuania
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a3862fb6abc8250be2b9d4e478fbb08be9b70dbb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f95ac9334a10b3721fc7b6a218e3f7fb5375c308
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5230182"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840983"
 ---
-# <a name="isaf-reporting-for-lithuania"></a>i.SAF ataskaitų pateikimas Lietuvoje
+# <a name="isaf-reporting-for-lithuania"></a>Lietuvos i.SAF ataskaitos
 
 [!include [banner](../includes/banner.md)]
 
@@ -33,7 +31,7 @@ Pagal Valstybinės mokesčių inspekcijos prie Lietuvos Respublikos finansų min
 
 Šioje temoje aprašoma, kaip nustatyti i.SAF ataskaitų pateikimo elektroninių ataskaitų (ER) konfigūracijas ir kaip nustatyti bei naudoti funkciją El. pranešimai (EM) programoje „Dynamics 365 Finance“.
 
-Temoje pateikiama toliau nurodyta informacija.
+Šioje temoje pateikta tokia informacija apie:
 
 - Programai būdingų parametrų ir ER konfigūracijų importavimas ir nustatymas
 - EM funkcijos nustatymas
@@ -54,7 +52,7 @@ Importuokite naujausias šių konfigūracijų versijas. Versijos apraše paprast
 > [!NOTE]
 > Importavus visas ER konfigūracijas iš ankstesnės lentelės, nustatykite parinktį **Numatytasis modelio susiejimas** į **Taip** ER konfigūracijai **i.SAF modelio susiejimas**.
 
-Daugiau informacijos apie ER konfigūracijų atsisiuntimą iš „Microsoft Dynamics Lifecycle Services (LCS)“ žr. [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti ER konfigūracijas iš „Microsoft" visuotinės saugyklos, žr. Atsisiųsti [ER konfigūracijas iš visuotinės](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md) saugyklos.
 
 ## <a name="standard-vat-codes-and-application-specific-parameters-setup"></a>Standartinių PVM kodų ir programai būdingų parametrų sąranka
 
@@ -169,7 +167,7 @@ Daugiau informacijos apie duomenų valdymą žr. [Duomenų valdymas](../../dev-i
 
 Gausite pranešimą srityje **Pranešimai** arba galite rankiniu būdu atnaujinti puslapį, kad pamatytumėte duomenų importavimo eigą. Pasibaigus importavimo procesui, matysite rezultatus puslapyje **Vykdymo suvestinė**.
 
-Pakete **LT i.SAF sąranka funkcijai El. pranešimai.zip** pateikiama **„i.SAF“** apdorojimo sąranka, kurioje palaikomas i.SAF ataskaitų pateikimo procesas, paprastai susidedantis iš toliau pateikiamų trijų elementų.
+Pakete **LT i.SAF sąranka funkcijai El. pranešimai.zip** pateikiama **„i.SAF“** apdorojimo sąranka, kurioje palaikomas i.SAF ataskaitų pateikimo procesas, bendrai susidedantis iš toliau pateikiamų trijų elementų.
 
 - **Automatiškai užpildyti sąskaitas faktūras** – sąskaitos faktūros įtraukiamos į lentelę **Pranešimo elementai**.
 - **Atributų įvertinimas** – lauko **Dokumento tipas** vertės įvertinamos visose sąskaitose faktūrose, įtrauktose į lentelę **Pranešimo elementai**.
@@ -181,7 +179,7 @@ Naudojant **i.SAF** apdorojimą, galima rinkti sąskaitas faktūras, apie kurias
 
 1. Eikite į **Mokesčiai** > **Sąranka** > **El. pranešimai** > **Automatinio įrašų įvedimo veiksmai** ir pasirinkite **Automatiškai užpildyti sąskaitas faktūras**. 
 
-Naudojant **i.SAF** apdorojimą, numatytųjų duomenų šaltinių sąrankoje yra toliau pateikiami trys duomenų šaltiniai.
+Naudojant **„i.SAF“** apdorojimą, numatytųjų duomenų šaltinių nustatymuose yra toliau pateikiami trys duomenų šaltiniai.
 
  - **VendInvoiceJour:** eikite į **Mokėtinos sumos** \> **Užklausos ir ataskaitos** \> **Sąskaita faktūra** \> **SF žurnalas**.
  - **CustInvoiceJour:** eikite į **Gautinos sumos** \> **Užklausos ir ataskaitos** \> **Sąskaita faktūra** \> **SF žurnalas**.
@@ -223,9 +221,9 @@ Atlikite toliau nurodytus veiksmus, norėdami apriboti prieigą prie **i.SAF** a
 1. Eikite į **Mokesčiai** \> **Sąranka** \> **El. pranešimai** \> **El. pranešimų apdorojimas**. 
 2. Pasirinkite **i.SAF** apdorojimą ir įtraukite saugos grupes, kurios turi dirbti su šiuo apdorojimu. Jei apdorojime saugos grupių nenurodyta, tik sistemos administratorius gali matyti apdorojimą puslapyje **El. pranešimai**.
 
-## <a name="collect-data-for-isaf-report"></a>i.SAF ataskaitos duomenų rinkimas
+## <a name="collect-data-for-the-isaf-report"></a>i.SAF ataskaitos duomenų rinkimas
 
-**i.SAF** apdorojimo sąranka, pateikiama naudojant duomenų objektų paketą, parodyta toliau pateikiamoje schemoje.
+**„i.SAF“** apdorojimo sąranka, pateikiama naudojant duomenų objektų paketą, parodyta toliau pateikiamoje schemoje.
 
 ![i.SAF el. pranešimų procesas](media/isaf-processing.jpg)
 
@@ -246,13 +244,11 @@ Kai SF sėkmingai užpildomos iš duomenų šaltinių lentelėje **Pranešimo pr
 
 ![i.SAF SF tipo įvertinimas](media/isaf-invoice-type.jpg)
 
-## <a name="generate-isaf-report-in-xml"></a>i.SAF XML ataskaitos generavimas
+## <a name="generate-the-isaf-report-in-xml"></a>i.SAF XML ataskaitos generavimas
 
 i.SAF ataskaita turi būti sugeneruota ir pateikta mokesčių inspekcijai XML formatu.
 
-1. Norėdami sugeneruoti i.SAF ataskaitą, eikite į **Mokesčiai** \> **Užklausos ir ataskaitos** \> **El. pranešimai** \> **Pranešimo prekės** ir veiksmų srityje pasirinkite **Generuoti ataskaitą**. 
-2. Pasirinkite **i.SAF** lauke **Apdorojimas**, paskui pasirinkite **„Generuoti pranešimą“** lauke **Veiksmas**, kad sugeneruotumėte i.SAF ataskaitą. 
-3. Dialogo puslapyje **Elektroninių ataskaitų parametrai** nurodykite toliau pateikiamus parametrus.
+Ataskaitoje i.SAF rodomi šie parametrai:
 
 | **Parametro pavadinimas** | **Aprašas** |
 |----------------|-------------|
@@ -263,21 +259,62 @@ i.SAF ataskaita turi būti sugeneruota ir pateikta mokesčių inspekcijai XML fo
 | **Dalies numeris** | Įveskite ataskaitos dalies numerį. |
 | **Dalių skaičius** | Įveskite dalių skaičių. |
 
-Atlikus veiksmą **„Generuoti pranešimą“**, visoms SF, kurių būsena yra **Įvertinta**, bus sukurtas el. pranešimas, rodomas stulpelyje **Pranešimas** kiekvienos SF atžvilgiu. Į ataskaitą įtrauktų pranešimo prekių **Būsena** bus pakeista į **Pranešta**.
+Šiuos parametrus reikia apibrėžti prieš pradedant generuoti i.SAF ataskaitą.
+
+Jei planuojate generuoti i.SAF ataskaitą paketiniu režimu, patikrinkite, ar pažymėtas žymės langelis Naudoti parametrus naudojant **i.SAF elektroninių pranešimų apdorojimo veiksmą** **Generuoti** **pranešimą**.
+
+![El. pranešimų apdorojimas](media/isaf-use-parameters.png)
+
+Norėdami nustatyti **i.SAF elektroninio pranešimo apdorojimo veiksmo Generuoti** **pranešimą** parametrus, atlikite šiuos veiksmus:
+
+1. Eikite į **Mokesčiai** \> **Sąranka** \> **El. pranešimai** \> **El. pranešimų apdorojimas**.
+2. Pasirinkite **„i.SAF“** elektroninio pranešimo apdorojimą ir **veiksmų** „FastTab" pasirinkite **Generuoti** pranešimą.
+3. Patikrinkite, ar žymimas laukelis **Naudoti parametrus** yra pasirinktas.
+4. „FastTab“ **Veiksmai** veiksmų juostoje rinkitės **Parameterai**.
+5. Nustatyti i.SAF ataskaitos parametrus, kuriuos sistema naudoja i.SAF generavimo metu. Pranešimo **parametro** laukas yra pasirinktinis.
+
+![Parametrų juosta](media/isaf-parameters-setup.png)
+
+6.Pasirinkite **Gerai**.
+
+### <a name="generate-the-isaf-report-in-batch-mode"></a>i.SAF ataskaitos generavimas bendru režimu
+
+Norėdami kurti i.SAF ataskaitą bendru režimu, atlikite šiuos žingsnius.
+
+1. Eikite į **Mokesčiai** \> **Užklausos ir ataskaitos** \> **Elektroniniai pranešimai** \> **Pranešimų objektai**. 
+2. Puslapyje **Pranešimų objektai** veiksmų juostoje rinkitės **Vykdyti apdorojimą** 
+3. Lauke **Apdorojimas** pasirinkite **i.SAF**.
+4. Norėdami **įjungti** pokyčio veiksmo parametrą **Veiksmo** laukelyje kurkite i.SAF ataskaitą. 
+5. Skirtuke Vykdyti fone „FastTab" nurodykite paketo parametrus ir pasirinkite Gerai, kad **sugeneruotumėte** **i.SAF** ataskaitą.
+
+![Vykdyti apdorojimą perkelkite](media/isaf-run-processing.png)
+
+  Dėl veiksmo Generuoti pranešimą kiekvienai elektroninio pranešimo prekei, kurios būsena yra Įvertinta ir atitinka nurodytus ataskaitos parametrus, bus **sukurtas** **elektroninis** pranešimas, **kuris bus rodomas pranešimo stulpelyje kiekvienos SF** atžvilgiu. Į ataskaitą įtrauktų pranešimo prekių **Būsena** bus pakeista į **Pranešta**.
+6. Norėdami peržiūrėti failą, pasirinkite el. pranešimo prekę, tada viršutiniame dešiniajame puslapio kampe pasirinkite **Priedai** (sąvaržėlės piktograma). 
+7. Pasirinkto pranešimo puslapyje **Priedai** pasirinkite paskutinį priedą, tada veiksmų srityje pasirinkite **Atidaryti**.
+
+### <a name="generate-isaf-report-in-non-batch-mode"></a>i.SAF ataskaitos generavimas ne bendru režimu
+
+Norėdami kurti i.SAF ataskaitą ne bendru režimu, atlikite šiuos žingsnius.
+
+1. Norėdami sugeneruoti i.SAF ataskaitą, eikite į **Mokesčiai** \> **Užklausos ir ataskaitos** \> **Pranešimų objektai** \> **Pranešimo prekės** ir veiksmų srityje pasirinkite **Generuoti ataskaitą**. 
+2. Pasirinkite **„i.SAF“** lauke **Apdorojimas**, paskui pasirinkite **„Generuoti pranešimą“** lauke **Veiksmas**, kad sugeneruotumėte i.SAF ataskaitą. 
+3. Elektroninės **ataskaitos parametrų** dialogo puslapyje galite koreguoti parametrus, kurie nurodyti veiksmui Generuoti pranešimą prieš ir pradėti ataskaitos **generavimą**. Ataskaita bus kuriama ne bendru režimu. Jei norite sugeneruoti paketo i.SAF ataskaitą, atlikite ankstesnę procedūrą, aprašantį, kaip generuoti i.SAF ataskaitą pakete.
+4. Dėl veiksmo Generuoti pranešimą visiems EM objektams, kurios būsena yra Įvertinta ir atitinka nurodytus ataskaitos parametrus, bus **sukurtas** **elektroninis** pranešimas, **kuris bus rodomas pranešimo stulpelyje kiekvienos SF** atžvilgiu. Į ataskaitą įtrauktų pranešimo prekių **Būsena** bus pakeista į **Pranešta**.
 5. Norėdami peržiūrėti failą, pasirinkite el. pranešimo prekę, tada viršutiniame dešiniajame puslapio kampe pasirinkite **Priedai** (sąvaržėlės piktograma). 
 6. Pasirinkto pranešimo puslapyje **Priedai** pasirinkite paskutinį priedą, tada veiksmų srityje pasirinkite **Atidaryti**.
 
-## <a name="regenerate-isaf-report"></a>i.SAF ataskaitos generavimas iš naujo 
+## <a name="regenerate-the-isaf-report"></a>i.SAF ataskaitos generavimas iš naujo 
 
-Jei reikia iš naujo sugeneruoti tam tikrų pranešimo prekių i.SAF, veiksmų srityje pasirinkite **Atnaujinti būseną**, kad pakeistumėte pranešimo prekių būseną į pradinę būseną. Dialogo puslapyje **Atnaujinti būseną** pasirinkite **i.SAF** apdorojimą, paskui pasirinkite **Atnaujinti į pradinę būseną**. Norėdami atkurti pradinę SF būseną, pasirinkite vieną iš leistinų verčių: **Automatiškai įvesta** arba **Įvertinta**.
+Jei reikia iš naujo sugeneruoti tam tikrą prekių i.SAF ataskaitą, veiksmų srityje pasirinkite **Atnaujinti būseną**, kad pakeistumėte pranešimo prekių būseną į pradinę būseną. Dialogo puslapyje **Atnaujinti būseną** pasirinkite **i.SAF** apdorojimą, paskui pasirinkite **Atnaujinti į pradinę būseną**. Norėdami atkurti pradinę SF būseną, pasirinkite vieną iš leistinų verčių: **Automatiškai įvesta** arba **Įvertinta**.
 
 ## <a name="exclude-or-postpone-invoice-reporting-in-isaf"></a>SF ataskaitos pateikimo naudojant i.SAF neįtraukimas arba atidėjimas
 
-Jei norite neįtraukti SF į i.SAF ataskaitą, veiksmų srityje pasirinkite **Atnaujinti būseną**, kad pranešimų prekių būsena būtų pakeista į **Neįtraukta**. SF, kurių būsena yra **Neįtraukta**, į ataskaitą įtrauktos nebus. Dialogo puslapyje **Atnaujinti būseną** pasirinkite **i.SAF** apdorojimą, pasirinkite **Neįtraukti pranešimo prekės** lauke **Veiksmas**, tada pasirinkite **Neįtraukta** lauke **Nauja būsena**. Galite nustatyti papildomų kriterijų, naudodami funkciją **Filtras**, ir nurodyti SF, kurios nereikia įtraukti į tolesnį apdorojimą.
+Jei norite neįtraukti SF į i.SAF ataskaitą, veiksmų srityje pasirinkite **Atnaujinti būseną**, kad pranešimų prekių būsena būtų pakeista į **Neįtraukta**. SF, kurių būsena yra **Neįtraukta**, į ataskaitą įtrauktos nebus. Dialogo puslapyje **Atnaujinti būseną** pasirinkite **„i.SAF“** apdorojimą, pasirinkite **Neįtraukti pranešimo prekės** lauke **Veiksmas**, tada pasirinkite **Neįtraukta** lauke **Nauja būsena**. Galite nustatyti papildomų kriterijų, naudodami funkciją **Filtras**, ir nurodyti SF, kurios nereikia įtraukti į tolesnį apdorojimą.
 
 ![i.SAF Pranešimo prekės neįtraukimas į apdorojimą](media/isaf-exclude-message-item.jpg)
 
-Jei norite atidėti SF įtraukimą į i.SAF ataskaitą, veiksmų srityje pasirinkite **Atnaujinti būseną**, kad pranešimų prekių būsena būtų pakeista į **Atidėta**. SF, kurių būsena yra **Atidėta**, į ataskaitą įtrauktos nebus. Dialogo puslapyje **Atnaujinti būseną** pasirinkite **i.SAF** apdorojimą, pasirinkite **Pakeisti į Atidėta** lauke **Veiksmas**, tada pasirinkite **Atidėta** lauke **Nauja būsena**. Galite nustatyti papildomų kriterijų, naudodami funkciją **Filtras**, kad nurodytumėte, kuri (-ios) SF turi būti atidėta (-os) pagal kriterijus.
+Jei norite atidėti SF įtraukimą į i.SAF ataskaitą, veiksmų srityje pasirinkite **Atnaujinti būseną**, kad pranešimų prekių būsena būtų pakeista į **Atidėta**. SF, kurių būsena yra **Atidėta**, į ataskaitą įtrauktos nebus. Dialogo puslapyje **Atnaujinti būseną** pasirinkite **„i.SAF“** apdorojimą, pasirinkite **Pakeisti į Atidėta** lauke **Veiksmas**, tada pasirinkite **Atidėta** lauke **Nauja būsena**. Galite nustatyti papildomų kriterijų, naudodami funkciją **Filtras**, kad nurodytumėte, kuri (-ios) SF turi būti atidėta (-os) pagal kriterijus.
 
 Galite bet kada pakeisti pranešimų prekių būseną **Neįtraukta** arba **Atidėta**, naudodami veiksmą **Atnaujinti į pradinę būseną**.
 
