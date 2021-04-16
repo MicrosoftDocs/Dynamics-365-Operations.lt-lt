@@ -2,11 +2,9 @@
 title: Gabenimo valdymo įvairūs mokesčiai
 description: Šioje temoje paaiškinama, kaip gabenimo sukurti mokesčiai turi būti susieti su mokesčių kodu.
 author: Henrikan
-manager: tfehr
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,22 +12,22 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 4f58db216176832d61bdafbe43831ededd3dd6dc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 53c25f204e98a911e9697f5bb950706555749a55
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233420"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828326"
 ---
-# <a name="transportation-management-miscellaneous-charges"></a><span data-ttu-id="d8688-103">Gabenimo valdymo įvairūs mokesčiai</span><span class="sxs-lookup"><span data-stu-id="d8688-103">Transportation management miscellaneous charges</span></span>
+# <a name="transportation-management-miscellaneous-charges"></a><span data-ttu-id="a17ac-103">Gabenimo valdymo įvairūs mokesčiai</span><span class="sxs-lookup"><span data-stu-id="a17ac-103">Transportation management miscellaneous charges</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d8688-104">Taip kaip ir su visais įvairiais mokesčiais, gabenimo sukurti mokesčiai turi būti susieti su mokesčių kodu.</span><span class="sxs-lookup"><span data-stu-id="d8688-104">As with all miscellaneous charges, transportation-generated charges must be associated with a charge code.</span></span> <span data-ttu-id="d8688-105">Kitu atveju, jie bus įtraukti atgal į užsakymą kaip įvairūs mokesčiai.</span><span class="sxs-lookup"><span data-stu-id="d8688-105">Otherwise, they won't be added back to the order as a miscellaneous charge.</span></span> <span data-ttu-id="d8688-106">Taigi **Mokesčių kodas** nustato, kaip mokestis yra apskaičiuojamas pagal užsakymą ir užsakymo eilutę, į kurią jis įtrauktas.</span><span class="sxs-lookup"><span data-stu-id="d8688-106">The **Charges code** determines how the charge is accounted for in relation to the order and order line where it is added.</span></span>
+<span data-ttu-id="a17ac-104">Taip kaip ir su visais įvairiais mokesčiais, gabenimo sukurti mokesčiai turi būti susieti su mokesčių kodu.</span><span class="sxs-lookup"><span data-stu-id="a17ac-104">As with all miscellaneous charges, transportation-generated charges must be associated with a charge code.</span></span> <span data-ttu-id="a17ac-105">Kitu atveju, jie bus įtraukti atgal į užsakymą kaip įvairūs mokesčiai.</span><span class="sxs-lookup"><span data-stu-id="a17ac-105">Otherwise, they won't be added back to the order as a miscellaneous charge.</span></span> <span data-ttu-id="a17ac-106">Taigi **Mokesčių kodas** nustato, kaip mokestis yra apskaičiuojamas pagal užsakymą ir užsakymo eilutę, į kurią jis įtrauktas.</span><span class="sxs-lookup"><span data-stu-id="a17ac-106">The **Charges code** determines how the charge is accounted for in relation to the order and order line where it is added.</span></span>
 
-<span data-ttu-id="d8688-107">Eikite į **Gabenimo valdymas > Nustatymai > Reitingavimas > Įvairūs mokesčiai** tam, kad nustatytumėte kvalifikavimo kriterijus, nustatančius, kada konkretus **Mokesčių kodas** yra taikomas mokesčiui.</span><span class="sxs-lookup"><span data-stu-id="d8688-107">Go to **Transportation management > Setup > Rating > Miscellaneous charges** to define the qualifying criteria that determine when a specific **Charges code** is applied to a charge.</span></span>
+<span data-ttu-id="a17ac-107">Eikite į **Gabenimo valdymas > Nustatymai > Reitingavimas > Įvairūs mokesčiai** tam, kad nustatytumėte kvalifikavimo kriterijus, nustatančius, kada konkretus **Mokesčių kodas** yra taikomas mokesčiui.</span><span class="sxs-lookup"><span data-stu-id="a17ac-107">Go to **Transportation management > Setup > Rating > Miscellaneous charges** to define the qualifying criteria that determine when a specific **Charges code** is applied to a charge.</span></span>
 
-<span data-ttu-id="d8688-108">Turėtumėte turėti mažiausiai vieną nustatymą kiekvienam svarbiam **Nuskaičiavimo modulio** nustatymui (*Klientas* ir *Tiekėjas*), kai **Įvairūs nuskaičiavimai tipai** yra nustatyti į *Jokių*.</span><span class="sxs-lookup"><span data-stu-id="d8688-108">You should have at least one setup for each relevant **Charges module** setting (*Customer* and *Vendor*) where the **Miscellaneous charge type** is set to *None*.</span></span> <span data-ttu-id="d8688-109">Jei jo nėra, įvairūs mokesčiai *nebus* įtraukti į užsakymą.</span><span class="sxs-lookup"><span data-stu-id="d8688-109">If this is missing, the miscellaneous charge will *not* be added to the order.</span></span>
+<span data-ttu-id="a17ac-108">Turėtumėte turėti mažiausiai vieną nustatymą kiekvienam svarbiam **Nuskaičiavimo modulio** nustatymui (*Klientas* ir *Tiekėjas*), kai **Įvairūs nuskaičiavimai tipai** yra nustatyti į *Jokių*.</span><span class="sxs-lookup"><span data-stu-id="a17ac-108">You should have at least one setup for each relevant **Charges module** setting (*Customer* and *Vendor*) where the **Miscellaneous charge type** is set to *None*.</span></span> <span data-ttu-id="a17ac-109">Jei jo nėra, įvairūs mokesčiai *nebus* įtraukti į užsakymą.</span><span class="sxs-lookup"><span data-stu-id="a17ac-109">If this is missing, the miscellaneous charge will *not* be added to the order.</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

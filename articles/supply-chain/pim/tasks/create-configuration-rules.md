@@ -2,11 +2,9 @@
 title: Kurti konfigūracijos taisykles
 description: Šia procedūra sukuriamos konfigūracijos taisyklės, pagal kurias, naudojant konfigūravimą pagal dimensijas, būtų galima taikyti arba neleisti taikyti tam tikrų KS eilučių kombinacijų.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMTable, BOMConfigRule, ConfigItemIdLookup
 audience: Application User
@@ -15,44 +13,44 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9ef9f4d464fb2a61dd03914efcf7a584fe955ae9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 21cdca1c33b106bd153a436a7fec4f0eeaa0d620
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213383"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820063"
 ---
-# <a name="create-configuration-rules"></a><span data-ttu-id="2ad9c-103">Kurti konfigūracijos taisykles</span><span class="sxs-lookup"><span data-stu-id="2ad9c-103">Create configuration rules</span></span>
+# <a name="create-configuration-rules"></a><span data-ttu-id="6efe7-103">Kurti konfigūracijos taisykles</span><span class="sxs-lookup"><span data-stu-id="6efe7-103">Create configuration rules</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="2ad9c-104">Šia procedūra sukuriamos konfigūracijos taisyklės, pagal kurias, naudojant konfigūravimą pagal dimensijas, būtų galima taikyti arba neleisti taikyti tam tikrų KS eilučių kombinacijų.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-104">This procedure creates configuration rules that can be used for dimension-based configuration to enforce or prevent certain combinations of BOM lines.</span></span> <span data-ttu-id="2ad9c-105">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="2ad9c-106">Tai yra septintoji iš aštuonių procedūrų, kuriomis paaiškinama, kaip kurti konfigūravimo pagal dimensijas kombinacijas.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-106">This is the seventh procedure out of eight that explains how to build combinations for dimension-based configuration.</span></span>
+<span data-ttu-id="6efe7-104">Šia procedūra sukuriamos konfigūracijos taisyklės, pagal kurias, naudojant konfigūravimą pagal dimensijas, būtų galima taikyti arba neleisti taikyti tam tikrų KS eilučių kombinacijų.</span><span class="sxs-lookup"><span data-stu-id="6efe7-104">This procedure creates configuration rules that can be used for dimension-based configuration to enforce or prevent certain combinations of BOM lines.</span></span> <span data-ttu-id="6efe7-105">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="6efe7-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="6efe7-106">Tai yra septintoji iš aštuonių procedūrų, kuriomis paaiškinama, kaip kurti konfigūravimo pagal dimensijas kombinacijas.</span><span class="sxs-lookup"><span data-stu-id="6efe7-106">This is the seventh procedure out of eight that explains how to build combinations for dimension-based configuration.</span></span>
 
-1. <span data-ttu-id="2ad9c-107">Pasirinkite Produkto informacijos valdymas > Komplektavimo specifikacijos ir formulės > Komplektavimo specifikacijos.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-107">Go to Product information management > Bills of materials and formulas > Bills of materials.</span></span>
-2. <span data-ttu-id="2ad9c-108">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-108">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="2ad9c-109">Raskite ir pasirinkite konfigūravimo pagal dimensijas KS.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-109">Find and select the BOM for the dimension-based configuration.</span></span>  
-3. <span data-ttu-id="2ad9c-110">Veiksmų srityje spustelėkite Parinktys.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-110">On the Action Pane, click Options.</span></span>
-4. <span data-ttu-id="2ad9c-111">Spustelėkite Keisti rodinį.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-111">Click Change view.</span></span>
-5. <span data-ttu-id="2ad9c-112">Spustelėkite antraštės rodinį.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-112">Click Header view.</span></span>
-    * <span data-ttu-id="2ad9c-113">Atidarykite antraštės rodinį, kad pasiektumėte konfigūracijos maršrutą „FastTab“.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-113">Open the header view to access the Configuration route FastTab.</span></span>  
-6. <span data-ttu-id="2ad9c-114">Išplėskite arba sutraukite sekciją Konfigūracijos maršrutas.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-114">Expand or collapse the Configuration route section.</span></span>
-    * <span data-ttu-id="2ad9c-115">Konfigūracijos maršrutas „FastTab“ turi būti išplėstiniame režime.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-115">The Configuration route FastTab must be in the expanded mode.</span></span>  
-7. <span data-ttu-id="2ad9c-116">Spustelėkite „Konfigūracijos taisyklės“.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-116">Click Configuration rules.</span></span>
-8. <span data-ttu-id="2ad9c-117">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-117">Click New.</span></span>
-9. <span data-ttu-id="2ad9c-118">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-118">In the list, mark the selected row.</span></span>
-10. <span data-ttu-id="2ad9c-119">Lauke Prekės numeris spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-119">In the Item number field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="2ad9c-120">Rodomos prekės esamoje konfigūracijos grupėje.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-120">The items in the current configuration group are displayed.</span></span> <span data-ttu-id="2ad9c-121">Pasirinkite tą, kuri atitinka taisyklės sąlygą.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-121">Select the one that represents the condition in the rule.</span></span>  
-11. <span data-ttu-id="2ad9c-122">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-122">In the list, click the link in the selected row.</span></span>
-12. <span data-ttu-id="2ad9c-123">Lauke Metodas pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-123">In the Method field, select an option.</span></span>
-    * <span data-ttu-id="2ad9c-124">Įmanoma žymėti arba atžymėti prekę iš kitos konfigūracijos grupės.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-124">It is possible to enforce either a selection or a deselection of an item from another configuration group.</span></span>  
-13. <span data-ttu-id="2ad9c-125">Lauke „Išvestinė grupė“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-125">In the Derived group field, click the drop-down button to open the lookup.</span></span>
-14. <span data-ttu-id="2ad9c-126">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-126">In the list, find and select the desired record.</span></span>
-15. <span data-ttu-id="2ad9c-127">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-127">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="2ad9c-128">Pasirinkite norimą konfigūracijos grupę.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-128">Select the desired configuration group.</span></span>  
-16. <span data-ttu-id="2ad9c-129">Lauke „Išvestinės prekės numeris“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-129">In the Derived item number field, click the drop-down button to open the lookup.</span></span>
-17. <span data-ttu-id="2ad9c-130">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-130">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="2ad9c-131">Pasirinkite prekės numerį, kuris bus pažymėtas arba atžymėtas, atsižvelgiant į pasirinktą metodą.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-131">Select the item number that will be either selected or deselected depending on the chosen method.</span></span>  
-18. <span data-ttu-id="2ad9c-132">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="2ad9c-132">Close the page.</span></span>
+1. <span data-ttu-id="6efe7-107">Pasirinkite Produkto informacijos valdymas > Komplektavimo specifikacijos ir formulės > Komplektavimo specifikacijos.</span><span class="sxs-lookup"><span data-stu-id="6efe7-107">Go to Product information management > Bills of materials and formulas > Bills of materials.</span></span>
+2. <span data-ttu-id="6efe7-108">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="6efe7-108">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="6efe7-109">Raskite ir pasirinkite konfigūravimo pagal dimensijas KS.</span><span class="sxs-lookup"><span data-stu-id="6efe7-109">Find and select the BOM for the dimension-based configuration.</span></span>  
+3. <span data-ttu-id="6efe7-110">Veiksmų srityje spustelėkite Parinktys.</span><span class="sxs-lookup"><span data-stu-id="6efe7-110">On the Action Pane, click Options.</span></span>
+4. <span data-ttu-id="6efe7-111">Spustelėkite Keisti rodinį.</span><span class="sxs-lookup"><span data-stu-id="6efe7-111">Click Change view.</span></span>
+5. <span data-ttu-id="6efe7-112">Spustelėkite antraštės rodinį.</span><span class="sxs-lookup"><span data-stu-id="6efe7-112">Click Header view.</span></span>
+    * <span data-ttu-id="6efe7-113">Atidarykite antraštės rodinį, kad pasiektumėte konfigūracijos maršrutą „FastTab“.</span><span class="sxs-lookup"><span data-stu-id="6efe7-113">Open the header view to access the Configuration route FastTab.</span></span>  
+6. <span data-ttu-id="6efe7-114">Išplėskite arba sutraukite sekciją Konfigūracijos maršrutas.</span><span class="sxs-lookup"><span data-stu-id="6efe7-114">Expand or collapse the Configuration route section.</span></span>
+    * <span data-ttu-id="6efe7-115">Konfigūracijos maršrutas „FastTab“ turi būti išplėstiniame režime.</span><span class="sxs-lookup"><span data-stu-id="6efe7-115">The Configuration route FastTab must be in the expanded mode.</span></span>  
+7. <span data-ttu-id="6efe7-116">Spustelėkite „Konfigūracijos taisyklės“.</span><span class="sxs-lookup"><span data-stu-id="6efe7-116">Click Configuration rules.</span></span>
+8. <span data-ttu-id="6efe7-117">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="6efe7-117">Click New.</span></span>
+9. <span data-ttu-id="6efe7-118">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="6efe7-118">In the list, mark the selected row.</span></span>
+10. <span data-ttu-id="6efe7-119">Lauke Prekės numeris spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="6efe7-119">In the Item number field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="6efe7-120">Rodomos prekės esamoje konfigūracijos grupėje.</span><span class="sxs-lookup"><span data-stu-id="6efe7-120">The items in the current configuration group are displayed.</span></span> <span data-ttu-id="6efe7-121">Pasirinkite tą, kuri atitinka taisyklės sąlygą.</span><span class="sxs-lookup"><span data-stu-id="6efe7-121">Select the one that represents the condition in the rule.</span></span>  
+11. <span data-ttu-id="6efe7-122">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="6efe7-122">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="6efe7-123">Lauke Metodas pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="6efe7-123">In the Method field, select an option.</span></span>
+    * <span data-ttu-id="6efe7-124">Įmanoma žymėti arba atžymėti prekę iš kitos konfigūracijos grupės.</span><span class="sxs-lookup"><span data-stu-id="6efe7-124">It is possible to enforce either a selection or a deselection of an item from another configuration group.</span></span>  
+13. <span data-ttu-id="6efe7-125">Lauke „Išvestinė grupė“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="6efe7-125">In the Derived group field, click the drop-down button to open the lookup.</span></span>
+14. <span data-ttu-id="6efe7-126">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="6efe7-126">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="6efe7-127">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="6efe7-127">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="6efe7-128">Pasirinkite norimą konfigūracijos grupę.</span><span class="sxs-lookup"><span data-stu-id="6efe7-128">Select the desired configuration group.</span></span>  
+16. <span data-ttu-id="6efe7-129">Lauke „Išvestinės prekės numeris“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="6efe7-129">In the Derived item number field, click the drop-down button to open the lookup.</span></span>
+17. <span data-ttu-id="6efe7-130">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="6efe7-130">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="6efe7-131">Pasirinkite prekės numerį, kuris bus pažymėtas arba atžymėtas, atsižvelgiant į pasirinktą metodą.</span><span class="sxs-lookup"><span data-stu-id="6efe7-131">Select the item number that will be either selected or deselected depending on the chosen method.</span></span>  
+18. <span data-ttu-id="6efe7-132">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="6efe7-132">Close the page.</span></span>
 
 
 

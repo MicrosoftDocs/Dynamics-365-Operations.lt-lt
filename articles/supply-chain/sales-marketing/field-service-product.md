@@ -2,11 +2,9 @@
 title: Tiesioginis „Supply Chain Management“ produktų sinchronizavimas su „Field Service“ produktais
 description: Šioje temoje aptariami šablonai ir pagrindinė užduotis, naudojami „Dynamics 365 Supply Chain Management“ produktus sinchronizuojant su „Dynamics 365 Field Service“.
 author: ChristianRytt
-manager: tfehr
 ms.date: 04/09/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,40 +16,40 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d3dc21a39c9866d09e500e2f14ff810bac7d57fe
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9cc8e93259119236093e02924d29df64dcc876bb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5261050"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810899"
 ---
-# <a name="synchronize-products-in-supply-chain-management-to-products-in-field-service"></a><span data-ttu-id="cdd27-103">Tiesioginis „Supply Chain Management“ produktų sinchronizavimas su „Field Service“ produktais</span><span class="sxs-lookup"><span data-stu-id="cdd27-103">Synchronize products in Supply Chain Management to products in Field Service</span></span>
+# <a name="synchronize-products-in-supply-chain-management-to-products-in-field-service"></a><span data-ttu-id="c4bf8-103">Tiesioginis „Supply Chain Management“ produktų sinchronizavimas su „Field Service“ produktais</span><span class="sxs-lookup"><span data-stu-id="c4bf8-103">Synchronize products in Supply Chain Management to products in Field Service</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-<span data-ttu-id="cdd27-104">Šioje temoje aptariami šablonai ir pagrindinė užduotis, naudojami „Dynamics 365 Supply Chain Management“ produktus sinchronizuojant su „Dynamics 365 Field Service“.</span><span class="sxs-lookup"><span data-stu-id="cdd27-104">This topic discusses the templates and underlying task that are used to synchronize products from Dynamics 365 Supply Chain Management to Dynamics 365  Field Service.</span></span>
+<span data-ttu-id="c4bf8-104">Šioje temoje aptariami šablonai ir pagrindinė užduotis, naudojami „Dynamics 365 Supply Chain Management“ produktus sinchronizuojant su „Dynamics 365 Field Service“.</span><span class="sxs-lookup"><span data-stu-id="c4bf8-104">This topic discusses the templates and underlying task that are used to synchronize products from Dynamics 365 Supply Chain Management to Dynamics 365  Field Service.</span></span>
 
-<span data-ttu-id="cdd27-105">Naudojamas šablonas **„Field Service“ produktai (iš „Supply Chain Management“ į „Field Service“)** sukuriamas pagal potencialių klientų ir grynųjų pinigų šabloną **Produktai (iš „Supply Chain Management“ į „Sales“) – tiesioginis**.</span><span class="sxs-lookup"><span data-stu-id="cdd27-105">The used **Field Service Products (Supply Chain Management to Field Service)** template is based on the **Products (Supply Chain Management to Sales) – Direct** template from Prospect to Cash.</span></span> <span data-ttu-id="cdd27-106">Daugiau informacijos žr. [Produktai (iš „Supply Chain Management“ į „Sales“) – tiesioginis](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct).</span><span class="sxs-lookup"><span data-stu-id="cdd27-106">For more information, see [Products (Supply Chain Management to Sales) – Direct](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct).</span></span>
+<span data-ttu-id="c4bf8-105">Naudojamas šablonas **„Field Service“ produktai (iš „Supply Chain Management“ į „Field Service“)** sukuriamas pagal potencialių klientų ir grynųjų pinigų šabloną **Produktai (iš „Supply Chain Management“ į „Sales“) – tiesioginis**.</span><span class="sxs-lookup"><span data-stu-id="c4bf8-105">The used **Field Service Products (Supply Chain Management to Field Service)** template is based on the **Products (Supply Chain Management to Sales) – Direct** template from Prospect to Cash.</span></span> <span data-ttu-id="c4bf8-106">Daugiau informacijos žr. [Produktai (iš „Supply Chain Management“ į „Sales“) – tiesioginis](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct).</span><span class="sxs-lookup"><span data-stu-id="c4bf8-106">For more information, see [Products (Supply Chain Management to Sales) – Direct](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct).</span></span>
 
-<span data-ttu-id="cdd27-107">Šioje temoje aprašomas tik skirtumas tarp šablonų **„Field Service“ produktai (iš Supply Chain Management“ į „Field Service“)** ir **Produktai (iš „Supply Chain Management“ į „Sales“) – tiesioginis**.</span><span class="sxs-lookup"><span data-stu-id="cdd27-107">This topic only describes the differences between the **Field Service Products (Supply Chain Management to Field Service)** and **Products (Supply Chain Management to Sales) – Direct** templates.</span></span>
+<span data-ttu-id="c4bf8-107">Šioje temoje aprašomas tik skirtumas tarp šablonų **„Field Service“ produktai (iš Supply Chain Management“ į „Field Service“)** ir **Produktai (iš „Supply Chain Management“ į „Sales“) – tiesioginis**.</span><span class="sxs-lookup"><span data-stu-id="c4bf8-107">This topic only describes the differences between the **Field Service Products (Supply Chain Management to Field Service)** and **Products (Supply Chain Management to Sales) – Direct** templates.</span></span>
 
-## <a name="templates-and-tasks"></a><span data-ttu-id="cdd27-108">Šablonai ir užduotys</span><span class="sxs-lookup"><span data-stu-id="cdd27-108">Templates and tasks</span></span>
+## <a name="templates-and-tasks"></a><span data-ttu-id="c4bf8-108">Šablonai ir užduotys</span><span class="sxs-lookup"><span data-stu-id="c4bf8-108">Templates and tasks</span></span>
 
-<span data-ttu-id="cdd27-109">**Šablono pavadinimas naudojant funkciją Duomenų integravimas**</span><span class="sxs-lookup"><span data-stu-id="cdd27-109">**Name of the template in Data integration**</span></span>
+<span data-ttu-id="c4bf8-109">**Šablono pavadinimas naudojant funkciją Duomenų integravimas**</span><span class="sxs-lookup"><span data-stu-id="c4bf8-109">**Name of the template in Data integration**</span></span>
 
-- <span data-ttu-id="cdd27-110">„Field Service“ produktai (iš „Supply Chain Management“ į „Field Service“)</span><span class="sxs-lookup"><span data-stu-id="cdd27-110">Field Service Products (Supply Chain Management to Field Service)</span></span>
+- <span data-ttu-id="c4bf8-110">„Field Service“ produktai (iš „Supply Chain Management“ į „Field Service“)</span><span class="sxs-lookup"><span data-stu-id="c4bf8-110">Field Service Products (Supply Chain Management to Field Service)</span></span>
 
-<span data-ttu-id="cdd27-111">**Užduoties pavadinimas projekte Duomenų integravimas**</span><span class="sxs-lookup"><span data-stu-id="cdd27-111">**Name of the task in the Data integration project**</span></span>
+<span data-ttu-id="c4bf8-111">**Užduoties pavadinimas projekte Duomenų integravimas**</span><span class="sxs-lookup"><span data-stu-id="c4bf8-111">**Name of the task in the Data integration project**</span></span>
 
-- <span data-ttu-id="cdd27-112">Produktai – produktai</span><span class="sxs-lookup"><span data-stu-id="cdd27-112">Products - Products</span></span>
+- <span data-ttu-id="c4bf8-112">Produktai – produktai</span><span class="sxs-lookup"><span data-stu-id="c4bf8-112">Products - Products</span></span>
 
-<span data-ttu-id="cdd27-113">Šablonas **„Field Service“ produktai (iš „Supply Chain Management“ į „Field Service“)** apima vieną susiejimą, kuris nėra įtrauktas į šabloną **Produktai (iš „Supply Chain Management“ į „Sales“) – tiesioginis**.</span><span class="sxs-lookup"><span data-stu-id="cdd27-113">The **Field Service Products (Supply Chain Management to Field Service)** template includes one mapping that isn't included in the **Products (Supply Chain Management to Sales) – Direct** template.</span></span> <span data-ttu-id="cdd27-114">Šis susiejimas užtikrina, kad būtinas konkretus laukas **„Field Service“ produkto tipas** bus nustatytas teisingai.</span><span class="sxs-lookup"><span data-stu-id="cdd27-114">This mapping ensures that the required Field Service-specific field **Service Product Type** is set correctly.</span></span>
+<span data-ttu-id="c4bf8-113">Šablonas **„Field Service“ produktai (iš „Supply Chain Management“ į „Field Service“)** apima vieną susiejimą, kuris nėra įtrauktas į šabloną **Produktai (iš „Supply Chain Management“ į „Sales“) – tiesioginis**.</span><span class="sxs-lookup"><span data-stu-id="c4bf8-113">The **Field Service Products (Supply Chain Management to Field Service)** template includes one mapping that isn't included in the **Products (Supply Chain Management to Sales) – Direct** template.</span></span> <span data-ttu-id="c4bf8-114">Šis susiejimas užtikrina, kad būtinas konkretus laukas **„Field Service“ produkto tipas** bus nustatytas teisingai.</span><span class="sxs-lookup"><span data-stu-id="c4bf8-114">This mapping ensures that the required Field Service-specific field **Service Product Type** is set correctly.</span></span>
 
 ```plaintext
 FIELDSERVICEPRODUCTTYPE        Fn        msdyn_fieldserciveproducttype
 ```
 
-<span data-ttu-id="cdd27-115">Naudojamas toliau nurodytas vertės susiejimas.</span><span class="sxs-lookup"><span data-stu-id="cdd27-115">The following value mapping is used.</span></span>
+<span data-ttu-id="c4bf8-115">Naudojamas toliau nurodytas vertės susiejimas.</span><span class="sxs-lookup"><span data-stu-id="c4bf8-115">The following value mapping is used.</span></span>
 
 ```plaintext
 inventory     :  690970000
@@ -59,19 +57,19 @@ nonInventory  :  690970001
 service       :  690970002 
 ```
 
-<span data-ttu-id="cdd27-116">Programoje„Supply Chain Management“ vertė **„Field Service“ produkto tipas** duomenų objekte **Parduodami išleisti produktai** apskaičiuojama taip, kaip nurodyta toliau.</span><span class="sxs-lookup"><span data-stu-id="cdd27-116">In Supply Chain Management, the **Field Service product type** value on the **Sellable released products** data entity is calculated as follows:</span></span>
+<span data-ttu-id="c4bf8-116">Programoje„Supply Chain Management“ vertė **„Field Service“ produkto tipas** duomenų objekte **Parduodami išleisti produktai** apskaičiuojama taip, kaip nurodyta toliau.</span><span class="sxs-lookup"><span data-stu-id="c4bf8-116">In Supply Chain Management, the **Field Service product type** value on the **Sellable released products** data entity is calculated as follows:</span></span>
 
-- <span data-ttu-id="cdd27-117">**Atsargos:** produkto tipas = produkto ir prekės modelio grupė, laikomas produktas = True</span><span class="sxs-lookup"><span data-stu-id="cdd27-117">**Inventory:** Product type = Product and Item model group, Stocked product = True</span></span>
-- <span data-ttu-id="cdd27-118">**Ne atsargos:** produkto tipas = produkto ir prekės modelio grupė, laikomas produktas = False</span><span class="sxs-lookup"><span data-stu-id="cdd27-118">**NonInventory:** Product type = Product and Item model group, Stocked product = False</span></span>
-- <span data-ttu-id="cdd27-119">**„Service“:** produkto tipas = paslauga</span><span class="sxs-lookup"><span data-stu-id="cdd27-119">**Service:** Product type = Service</span></span>
+- <span data-ttu-id="c4bf8-117">**Atsargos:** produkto tipas = produkto ir prekės modelio grupė, laikomas produktas = True</span><span class="sxs-lookup"><span data-stu-id="c4bf8-117">**Inventory:** Product type = Product and Item model group, Stocked product = True</span></span>
+- <span data-ttu-id="c4bf8-118">**Ne atsargos:** produkto tipas = produkto ir prekės modelio grupė, laikomas produktas = False</span><span class="sxs-lookup"><span data-stu-id="c4bf8-118">**NonInventory:** Product type = Product and Item model group, Stocked product = False</span></span>
+- <span data-ttu-id="c4bf8-119">**„Service“:** produkto tipas = paslauga</span><span class="sxs-lookup"><span data-stu-id="c4bf8-119">**Service:** Product type = Service</span></span>
 
-## <a name="template-mapping-in-data-integration"></a><span data-ttu-id="cdd27-120">Šablono susiejimas naudojant funkcija Duomenų integravimas</span><span class="sxs-lookup"><span data-stu-id="cdd27-120">Template mapping in Data integration</span></span>
+## <a name="template-mapping-in-data-integration"></a><span data-ttu-id="c4bf8-120">Šablono susiejimas naudojant funkcija Duomenų integravimas</span><span class="sxs-lookup"><span data-stu-id="c4bf8-120">Template mapping in Data integration</span></span>
 
-<span data-ttu-id="cdd27-121">Toliau pateiktose iliustracijose vaizduojamas šablono susiejimas naudojant funkciją Duomenų integravimas.</span><span class="sxs-lookup"><span data-stu-id="cdd27-121">The following illustrations show the template mapping in Data integration.</span></span>
+<span data-ttu-id="c4bf8-121">Toliau pateiktose iliustracijose vaizduojamas šablono susiejimas naudojant funkciją Duomenų integravimas.</span><span class="sxs-lookup"><span data-stu-id="c4bf8-121">The following illustrations show the template mapping in Data integration.</span></span>
 
-### <a name="field-service-products-supply-chain-management-to-field-service-products---products"></a><span data-ttu-id="cdd27-122">„Field Service“ produktai (iš „Supply Chain Management“ į „Field Service“): Produktai – Produktai</span><span class="sxs-lookup"><span data-stu-id="cdd27-122">Field Service Products (Supply Chain Management to Field Service): Products - Products</span></span>
+### <a name="field-service-products-supply-chain-management-to-field-service-products---products"></a><span data-ttu-id="c4bf8-122">„Field Service“ produktai (iš „Supply Chain Management“ į „Field Service“): Produktai – Produktai</span><span class="sxs-lookup"><span data-stu-id="c4bf8-122">Field Service Products (Supply Chain Management to Field Service): Products - Products</span></span>
 
-<span data-ttu-id="cdd27-123">[![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSProduct.png)](./media/FSProduct.png)</span><span class="sxs-lookup"><span data-stu-id="cdd27-123">[![Template mapping in Data integration](./media/FSProduct.png)](./media/FSProduct.png)</span></span>
+<span data-ttu-id="c4bf8-123">[![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSProduct.png)](./media/FSProduct.png)</span><span class="sxs-lookup"><span data-stu-id="c4bf8-123">[![Template mapping in Data integration](./media/FSProduct.png)](./media/FSProduct.png)</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
