@@ -2,11 +2,9 @@
 title: Atidėjimo klasteriai
 description: Atidėjimo klasteriai siūlo būda paimti keletą licencijos lentelių tuo pačiu metu ir tada paimti jas atidėjimui skirtingose vietose. Jos gali būti labai naudingos mažmenos verslui, kai licencijos lentelės dažniausiai nėra pilni inventoriaus padėklai.
 author: Mirzaab
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5552959068d109bffe32b8074666bcd63b57183a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b3a7d1b7109b83b26c8187a7f0d271f1c82f6d63
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228446"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840370"
 ---
 # <a name="putaway-clusters"></a>Atidėjimo klasteriai
 
@@ -230,7 +228,7 @@ Sukurkite naują mobiliojo įrenginio meniu prekę klasterio atidėjimui po jo p
 
 #### <a name="receive-and-sort-the-inventory-into-a-cluster"></a>Gaukite ir rūšiuokite inventorių į klasterį
 
-1. Prisijunkite prie sandėlio programos kaip vartotojas, kuris nustatė sandėliui *61*.
+1. Prisijunkite prie sandėlio valdymo mobiliųjų įrenginių programėlės kaip vartotojas, nustatytas *61 sandėliui*.
 1. Pagrindiniame meniu pasirinkite **Įvestis**.
 1. Meniu **Įvestis** rinkitės **Gauti ir rūšiuoti klasterį**.
 1. Laukelyje **Ponum** įveskite pirkimo užsakymo numerį.
@@ -272,7 +270,7 @@ Prieš tai, kai prekės klasteryje gali būti atidėtos, klasterį reikia užver
 
 #### <a name="put-the-cluster-away"></a>Klasterio atidėjimas
 
-1. Prisijunkite prie sandėlio programos kaip vartotojas, kuris nustatė sandėliui *61*.
+1. Prisijunkite prie sandėlio valdymo mobiliųjų įrenginių programėlės kaip vartotojas, nustatytas *61 sandėliui*.
 1. Pagrindiniame meniu pasirinkite **Įvestis**.
 1. Meniu **įvestis** rinkitės **Klasterio atidėjimas**.
 1. Rinkitės **Klasterio ID** ir įveskite klasterio ID, kurį įvedėte anksčiau užvertam klasteriui.

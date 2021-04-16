@@ -2,11 +2,9 @@
 title: Tvirtinimas ir perkėlimas
 description: Šioje temoje paaiškinama, kaip naudoti patvirtinimo ir perkėlimo funkciją, leidžiančią vartotojams išsiųsti iš sandėlio krovinius prieš baigiant visus su šiais kroviniais susijusius darbus.
 author: mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTemplate,WHSWorkTemplateTable,WHSLoadPlanningWorkbench
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d4e7476e6c1b0ac404caf32f198a4a62e1dd1200
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2ab2d720f7f0425f0c2fd5d79d684a02b452e4d7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5251799"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828423"
 ---
 # <a name="confirm-and-transfer"></a>Tvirtinimas ir perkėlimas
 
@@ -133,14 +131,14 @@ Norėdami sukurti tinkamą krovinį, pirmiausia kurkite tris pardavimų užsakym
 1. Pakartokite 1–4 veiksmus, kad pridėtumėte antrą pardavimo užsakymą tam pačiam klientui ir sandėliui.
 1. Pridėkite dvi pardavimų eilutes, turinčias šias vertes. Pridėjus kiekvieną eilutę, rezervuokite atsargas kaip aprašyta 6-8 veiksmuose.
 
-    - **1-a eilutė:** nustatykite lauką **Prekės numeris** į *M9200*, lauką **Kiekis** į *30* ir lauką **Vienetas** į *už vnt.*
-    - **2-a eilutė:** nustatykite lauką **Prekės numeris** į *M9201*, lauką **Kiekis** į *20* ir lauką **Vienetas** į *už vnt.*
+    - **1-a eilutė:** nustatykite lauką **Prekės numeris** į *M9200*, lauką **Kiekis** į *30* ir lauką **Vienetas** į *už vnt*.
+    - **2-a eilutė:** nustatykite lauką **Prekės numeris** į *M9201*, lauką **Kiekis** į *20* ir lauką **Vienetas** į *už vnt*.
 
 1. Pakartokite 1–4 veiksmus, kad pridėtumėte trečią pardavimo užsakymą tam pačiam klientui ir sandėliui.
 1. Pridėkite dvi pardavimų eilutes, turinčias šias vertes. Pridėjus kiekvieną eilutę, rezervuokite atsargas kaip aprašyta 6-8 veiksmuose.
 
-    - **1-a eilutė:** nustatykite lauką **Prekės numeris** į *M9201*, lauką **Kiekis** į *20* ir lauką **Vienetas** į *už vnt.*
-    - **2-a eilutė:** nustatykite lauką **Prekės numeris** į *M9202*, lauką **Kiekis** į *60* ir lauką **Vienetas** į *už vnt.*
+    - **1-a eilutė:** nustatykite lauką **Prekės numeris** į *M9201*, lauką **Kiekis** į *20* ir lauką **Vienetas** į *už vnt*.
+    - **2-a eilutė:** nustatykite lauką **Prekės numeris** į *M9202*, lauką **Kiekis** į *60* ir lauką **Vienetas** į *už vnt*.
 
 #### <a name="load-planning-workbench"></a>Krovinio planavimo darbo sritis
 

@@ -2,11 +2,9 @@
 title: Pardavimo komisinių registravimas
 description: Šioje temoje paaiškinta, kaip apskaičiuojami ir registruojami pardavimo komisiniai.
 author: omulvad
-manager: tfehr
 ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  CustInvoiceJournal, CommissionTrans, LedgerTransVoucher, CustClassificationGroup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 82c8dc2f284923b5583bf983413a015b9ece8252
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ee75f3a0c9dea7a7c4a4f927651aaab1d6bdb5c0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205934"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836379"
 ---
 # <a name="register-sales-commissions"></a>Pardavimo komisinių registravimas
 

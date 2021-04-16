@@ -1,12 +1,10 @@
 ---
-title: Siuntimių ir krovinio kūrimo trikčių šalinimas
+title: Siuntimų ir krovinio kūrimo trikčių šalinimas
 description: Šioje temoje aprašoma, kaip ištaisyti bendras klaidas, su kuriomis galite susidurti dirbdami krovinio kūrimu ir siuntimu „Microsoft Dynamics 365 Supply Chain Management“.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,14 +15,14 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: c7dc9cc9de4d5089d497c36759931669ee2e9e55
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e9964376a794661058da78152879d2142dd7ec51
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259511"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828207"
 ---
-# <a name="troubleshoot-load-building-and-shipments"></a>Siuntimių ir krovinio kūrimo trikčių šalinimas
+# <a name="troubleshoot-load-building-and-shipments"></a>Siuntimų ir krovinio kūrimo trikčių šalinimas
 
 [!include [banner](../includes/banner.md)]
 
@@ -36,7 +34,7 @@ ms.locfileid: "5259511"
 
 Gaunate tolesnį klaidos pranešimą bandydami išleisti grąžinimo prekybos užsakymą į sandėlį.
 
-> Gaunu tolesnį klaidos pranešimą: „Negalite sukurti krovinio eilutės šiam užsakymo eilutei, nes joje esantys inventoriaus matmenys negalioja. Neegalite susieti inventoriaus matmenų, kurios yra nustatytos po vietos matmenimis rezervacijos hierarchijoje. Pašalinkite negaliojančius matmenis iš prekybos eilutės.
+> Gaunu tolesnį klaidos pranešimą: „Negalite sukurti krovinio eilutės šiam užsakymo eilutei, nes joje esantys inventoriaus matmenys negalioja. Negalite susieti inventoriaus matmenų, kurios yra nustatytos po vietos matmenimis rezervacijos hierarchijoje. Pašalinkite negaliojančius matmenis iš prekybos eilutės.
 
 ### <a name="issue-resolution"></a>Problemos paaiškinimas
 
@@ -50,13 +48,13 @@ Prekybos užsakymo perlaidose, negalite nurodyti inventoriaus matmenų, kurie yr
 
 Jei rankiniu būdu sukuriate krovinius arba jei nustatote procesą taip, kad kroviniai jau sukuriami prieš prekybos užsakymo eilutės objektą, prielaida yra tokia, kad tolesnis išleidimas bus atliktas rankiniu būdu ir kad maršrutas bei kainos iš krovinio bus naudojamos.
 
-Kitu galimu scenarijumi, bandote atlikti automatinį paleidimą į sandėlį, tačiau bangos procesui nepavyko sukurti darbą. Dėl to, atviras siuntimas ar krovinys vis dar yra sukurtas. Šis atviras siuntimas arba krovinys tuomet užblikuoja vėlesnius bandymus automatiškai paleisti užsakymą iki tol, kol panaikinsite atvirą siuntimą ar krovinį, arba rankiniu būdu iš naujo apdorosite bangą.
+Kitu galimu scenarijumi, bandote atlikti automatinį paleidimą į sandėlį, tačiau bangos procesui nepavyko sukurti darbą. Dėl to, atviras siuntimas ar krovinys vis dar yra sukurtas. Šis atviras siuntimas arba krovinys tuomet užblokuoja vėlesnius bandymus automatiškai paleisti užsakymą iki tol, kol panaikinsite atvirą siuntimą ar krovinį, arba rankiniu būdu iš naujo apdorosite bangą.
 
 ### <a name="issue-resolution"></a>Problemos paaiškinimas
 
 Galite išleisti iš prekybos užsakymo puslapio ar automatinis paleidimas gali būti atliktas iš išleidimo prekybos užsakymo puslapio tik jei nėra jokio krovinio prieš išleidimą į sandėlį. Krovinys bus sukuriamas automatiniu būdu po bangos apdorojimo.
 
-## <a name="i-receive-the-following-error-message-the-delivery-note-correction-cant-be-processed-the-delivery-note-only-contains-items-that-are-subject-to-warehouse-management-processes-as-these-are-not-supported-by-delivery-note-correction"></a>Gaunu tolesnį klaidos pranešimą: „Pristatymo važtaraščio koregavimas negali būti apdorojamas. Pristatymo važtaraštyje yra tik prekės, kurias veikia sandėlio valdymo procesai, nes jų nepalaiko pristatymo važtarščio koregavimas."
+## <a name="i-receive-the-following-error-message-the-delivery-note-correction-cant-be-processed-the-delivery-note-only-contains-items-that-are-subject-to-warehouse-management-processes-as-these-are-not-supported-by-delivery-note-correction"></a>Gaunu tolesnį klaidos pranešimą: „Pristatymo važtaraščio koregavimas negali būti apdorojamas. Pristatymo važtaraštyje yra tik prekės, kurias veikia sandėlio valdymo procesai, nes jų nepalaiko pristatymo pažymos koregavimas.”
 
 ### <a name="issue-description"></a>Problemos aprašas
 
@@ -64,7 +62,7 @@ Po to, kai publikuojate pristatymo važtaraštį, nebegalite jo atšaukti, nes *
 
 ### <a name="issue-resolution"></a>Problemos paaiškinimas
 
-Siekiant tinkamai publikuoti pakavimo kvitus prekėms, kurios įjungtos papildomama sandėlio valdymui (WMS), privalote publikuoti iš krovinio, o ne tiesiogiai iš užsakymo.
+Siekiant tinkamai publikuoti pakavimo kvitus prekėms, kurios įjungtos išplėstiniam sandėlio valdymui (WMS), privalote publikuoti iš krovinio, o ne tiesiogiai iš užsakymo.
 
 ## <a name="how-can-i-create-work-from-outbound-loads-instead-of-waves"></a>Kaip galiu sukurti darbą iš išvesties krovinių, o ne bangų?
 
@@ -78,7 +76,7 @@ Pateikiamas vienas iš būdų pakartotinai sukurti šią problemą.
 
 ### <a name="issue-resolution"></a>Problemos paaiškinimas
 
-Jei darbas turi būti sukurtas nedelsiant, kai krovinys paleiždiamas, turite atitinkamai sukonfigūruoti bangos šabloną. Bangos šablone, nustatykite tolesnes parinktis į *Taip*:
+Jei darbas turi būti sukurtas nedelsiant, kai krovinys paleidžiamas, turite atitinkamai sukonfigūruoti bangos šabloną. Bangos šablone, nustatykite tolesnes parinktis į *Taip*:
 
 - Automatiškai kurti bangą
 - Apdoroti bangą išleidžiant ją į sandėlį

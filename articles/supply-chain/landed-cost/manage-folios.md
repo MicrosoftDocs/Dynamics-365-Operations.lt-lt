@@ -2,7 +2,6 @@
 title: Registravimo lapų tvarkymas
 description: Ši tema aprašo, kaip dirbti su registravimo lapais. Registravimo lapas įprastai susideda iš vieno tiekėjo vienos siuntos prekių vienam objektui ar įmonei. Viename registracijos lape esančios prekės gali būti viename konteineryje arba gali būti paskirstytos keliuose konteineriuose.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2205ad8da1987130e97054b3f20749bce61198dd
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 99159d2197648b8f17a719b74c8cd6ea4bffe550
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500843"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833838"
 ---
 # <a name="manage-folios"></a>Registravimo lapų tvarkymas
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Registravimo lapai dažnai nustatomi pagal muitinės taisykles. Jie gali susidėti iš vieno tiekėjo vienos siuntos prekių vienam objektui ar įmonei. Viename registracijos lape esančios prekės gali būti viename konteineryje arba gali būti paskirstytos keliuose konteineriuose.
 

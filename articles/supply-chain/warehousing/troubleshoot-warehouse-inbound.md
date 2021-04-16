@@ -2,11 +2,9 @@
 title: Trikčių šalinimo įvesties sandėlio veiksmai
 description: Ši tema aprašo, kaip pataisyti bendras problemas, su kuriomis galite susidurti dirbdami su įvesties sandėli veiksmais „Microsoft Dynamics 365 Supply Chain Management“.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6875c3c644b9993a384ba4d8623640536d7307e1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0ea2ee208cdbb8f9fa6668bbcb6e15252a7c1b1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250887"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828231"
 ---
 # <a name="troubleshoot-inbound-warehouse-operations"></a>Trikčių šalinimo įvesties sandėlio veiksmai
 
@@ -65,5 +63,22 @@ Nauja įvesties apkrovos tvarkymo funkcija, *Per krovinio kiekių gavimą*, išt
 
 Dėl išsamesnės informacijos, žr. [Publikuoti registruotus produktų kiekius pagal pirkimo užsakymus](inbound-load-handling.md#post-registered-quantities).
 
+## <a name="when-i-register-inbound-orders-i-receive-the-following-error-message-the-quantity-is-not-valid"></a>Registruodamas gaunamus užsakymus, gaunu tokį klaidos pranešimą: „Netinkamas kiekis.”
+
+### <a name="issue-description"></a>Problemos aprašas
+
+Jeigu laukas **Numerio lentelių grupavimo politika** nustatytas į *Vartotojo apibrėžtas* mobiliojo įrenginio meniu elementui, naudojamam registruoti gaunamiems užsakymams, gausite klaidos pranešimą („Netinkamas kiekis”) ir negalėsite užbaigti registracijos.
+
+### <a name="issue-cause"></a>Problemos priežastis
+
+Kai *Vartotojo apibrėžta* yra naudojama kaip registracijos numerių grupavimo strategija, sistema išskaido gaunamas atsargas į atskiras numerio lenteles, kaip nurodyta pagal vienetų sekų grupę. Jeigu paketo ar serijos numeriai yra naudojami gaunamai prekei sekti, kiekvieno paketo ar serijos kiekiai turi būti nurodyti užregistruotoje numerio lentelėje. Jeigu numerio lentelėje nurodytas kiekis viršija kiekį, kurį vis dar reikia gauti pagal dabartines dimensijas, gausite klaidos pranešimą.
+
+### <a name="issue-resolution"></a>Problemos paaiškinimas
+
+Kai registruojate prekę naudodami mobiliojo įrenginio meniu elementą, kurio laukas **Numerio lentelių grupavimo strategija** nustatytas į *Vartotojo apibrėžta*, sistema gali reikalauti, kad patvirtintumėte arba įvestumėte numerio lentelės, paketo arba serijos numerius.
+
+Numerio lentelės patvirtinimo puslapyje sistema rodys kiekį, priskirtą dabartinei numerio lentelei. Paketo arba serijos patvirtinimo puslapiuose sistema rodys kiekį, kuris vis dar turi būti gautas pagal dabartinę numerio lentelę. Juose taip pat bus laukas, kuriame galite įvesti registruotiną kiekį tam numerio lentelės ir paketo ar serijos numerio deriniui. Tokiu atveju įsitikinkite, kad registruojamas numerio lentelės kiekis neviršija kiekio, kuris vis dar turi būti gautas.
+
+Kitu atveju, jei gavimo užsakymo registracijoje generuojama per daug numerio numerių, lauko **Numerio lentelių grupavimo strategija** reikšmė gali pasikeisti į *Numerio lentelių grupavimas*, nauja vienetų sekos grupės gali būti priskirta prekei arba parinktis **Numerio lentelių grupavimas** vienetų sekos grupei gali būti deaktyvuota.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

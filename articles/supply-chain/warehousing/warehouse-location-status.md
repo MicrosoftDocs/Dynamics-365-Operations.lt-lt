@@ -2,11 +2,9 @@
 title: Sandėlio vietos būsena
 description: Šioje temoje pateikiama sandėlio vietos būsenos funkcijos apžvalga.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSLocation
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: e343fbd33ca616b0e20efb1f1fd66ed4863a72dd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4f31fd424760aa677df9235e53dc4af20cc2ea94
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248624"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837350"
 ---
 # <a name="warehouse-location-status"></a>Sandėlio vietos būsena
 
@@ -53,7 +51,7 @@ Norėdami naudoti *Sandėlio vietos funkcijos* funkciją, įjunkite ją savo sis
 
 ### <a name="prepare-the-sample-data-that-is-required-for-the-example-scenario"></a>Paruošti pavyzdinius duomenis, reikalingus pavyzdžio scenarijui
 
-Prieš pradėdami dirbti pagal scenarijų, turite suaktyvinti pavyzdžio duomenis ir nustatyti šią funkciją, kaip aprašyta šiame skyriuje. Norėdami užbaigti pavyzdžio scenarijų, turite naudoti arba „Warehousing“ programą, arba naršykle pagrįstą emuliatorių. Čia pateikiami veiksmai naudoja „Warehousing“ programą. Veiksmai, skirti naršyklei pagrįstam emuliatoriui yra panašūs.
+Prieš pradėdami dirbti pagal scenarijų, turite suaktyvinti pavyzdžio duomenis ir nustatyti šią funkciją, kaip aprašyta šiame skyriuje. Norėdami užbaigti pavyzdžio scenarijų, turite naudoti arba sandėlio valdymo mobiliųjų įrenginių programėlę, arba naršykle pagrįstą emuliatorių. Čia pateikiami veiksmai naudoja sandėlio valdymo mobiliųjų įrenginių programėlę. Veiksmai, skirti naršyklei pagrįstam emuliatoriui yra panašūs.
 
 #### <a name="use-the-usmf-legal-entity"></a>Naudokite USMF juridinį subjektą
 

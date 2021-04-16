@@ -2,11 +2,9 @@
 title: Sandėlio programos įvykiai
 description: Šioje temoje aprašomas sandėlio programos įvykių apdorojimas, naudojamas siekiant apdoroti sandėlio programos įvykių pranešimus kaip paketinės užduoties dalį.
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 0bafcbd5306860cb80d6e813aabf83853a9011c1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d63cdea8917bed762bf8d970a408e5931aec48b7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248648"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837398"
 ---
 # <a name="warehouse-app-event-processing"></a>Sandėlio programos įvykių apdorojimas
 
 [!include [banner](../includes/banner.md)]
 
-„Supply Chain Management“ vykdomos paketinės užduotys gali naudoti duomenis iš apdorojimo įvykių eilės, kuri yra gaunama iš sandėlio programos, kad, jei reikia, galėtų reaguoti į pateikiamus įvykius. Ši funkcija įtraukia atitinkamus įvykius į eilę, reaguodama į tam tikrų tipų veiksmus, kuriuos atlieka darbuotojai naudodami programą. Pavyzdžiui, kai naudojate funkciją **Kurti ir apdoroti perkėlimo užsakymus iš sandėlio programos**, sistemai vykdant paketinę užduotį **Apdoroti sandėlio programos įvykius** fone sukuriama ir atnaujinama perkėlimo užsakymo antraštė bei eilutės.
+„Supply Chain Management“ vykdomos paketinės užduotys gali naudoti duomenis iš apdorojimo įvykių eilės, kuri yra gaunama iš sandėlio valdymo mobiliųjų įrenginių programėlės tam, kad galėtų reaguoti į pateikiamus įvykius, kaip reikia. Ši funkcija įtraukia atitinkamus įvykius į eilę, reaguodama į tam tikrų tipų veiksmus, kuriuos atlieka darbuotojai naudodami programą. Pavyzdžiui, kai naudojate funkciją *Kurti ir apdoroti perkėlimo užsakymus iš sandėlio programos*, sistemai vykdant paketinę užduotį **Apdoroti sandėlio programos įvykius** fone sukuriama ir atnaujinama perkėlimo užsakymo antraštė bei eilutės.
 
 ## <a name="enable-the-process-warehouse-app-events-feature"></a>Sandėlio programos įvykių apdorojimo funkcijos įjungimas
 
@@ -50,11 +48,11 @@ Sukonfigūruokite suplanuotą paketinę užduotį sandėlio programos įvykių a
 
 ## <a name="query-warehouse-app-events"></a>Pateikite sandėlio programos įvykių užklausą
 
-Sandėlio programos sugeneruotą įvykių eilę ir įvykių pranešimus galite peržiūrėti nuėję į **Sandėlio valdymas \> Užklausos ir ataskaitos \> Mobiliojo įrenginio žurnalai \> Sandėlio programos įvykiai**.
+Sandėlio valdymo mobiliųjų įrenginių programėlės sugeneruotą įvykių eilę ir įvykių pranešimus galite peržiūrėti nuėję į **Sandėlio valdymas \> Užklausos ir ataskaitos \> Mobiliojo įrenginio žurnalai \> Sandėlio programos įvykiai**.
 
 ## <a name="the-standard-event-queue-process"></a>Standartinis įvykių eilės procesas
 
-Sandėlio programos įvykių eilės apdorojimas atliekamas toliau aprašyta tvarka:
+Sandėlio programos įvykių eilės apdorojimas atliekamas tokia tvarka:
 
 1. Įvykis įtraukiamas į eilę kartu su įvykio pranešimu. Iš pradžių naujo pranešimo įvykio būsena yra **Laukiama**, o tai reiškia, kad paketinė užduotis **Apdoroti sandėlio programos įvykius** šio pranešimo neišrinks ir neapdoros.
 1. Iš karto, kai pranešimo būsena atnaujinama į **Eilėje**, įvykių paketinė užduotis **Apdoroti sandėlio programos įvykius** išrinks ir apdoros įvykį.

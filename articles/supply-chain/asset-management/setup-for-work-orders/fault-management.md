@@ -1,12 +1,10 @@
 ---
 title: Gedimų valdymas
 description: Šioje temoje aiškinamas gedimų valdymas modulyje Turto valdymas.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetFaultArea, EntAssetFaultDesigner, EntAssetFaultCopyFromObjectType, EntAssetFaultRemedy, EntAssetObjectFaultRelationRequestInfoPart, EntAssetObjectFaultRelationWorkOrderInfoPart, EntAssetFaultCreateCombinations, EntAssetObjectFaultSymptom, EntAssetObjectFaultSymptomListPage, EntAssetFaultType, EntAssetFaultSymptom, EntAssetFaultCause
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 43f996921ccac0b3c85ecea2460cb9e4614f8c04
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c87bfa057fd2808551674f2acb9d654ad47e9a42
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226814"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825667"
 ---
 # <a name="fault-management"></a>Gedimų valdymas
 
@@ -39,7 +37,7 @@ Gedimų registravimo ir valdymo procesą sudaro toliau pateikiami veiksmai.
 
 Toliau pateikiama pavyzdžių, padėsiančių suprasti skirtumą tarp gedimų požymių, gedimų sričių ir gedimų tipų.
 
-**Gedimų požymiai.**
+**Gedimų požymiai:**
 
 - Įtampų disbalansas
 - Trumpasis jungimas
@@ -47,14 +45,14 @@ Toliau pateikiama pavyzdžių, padėsiančių suprasti skirtumą tarp gedimų po
 - Nuotėkis
 - Vibracija
 
-**Gedimų sritys.**
+**Gedimų sritys:**
 
 - Elektra
 - Mechanika
 - Hidraulika
 - Pneumatika
 
-**Gedimų tipai.**
+**Gedimų tipai:**
 
 - Sugedusi pagrindinė statoriaus apvija
 - Sugedęs diodas

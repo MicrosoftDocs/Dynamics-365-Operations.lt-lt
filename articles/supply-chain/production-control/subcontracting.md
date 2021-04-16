@@ -2,11 +2,9 @@
 title: Subranga
 description: Šioje temoje paaiškinama, kaip sukurti subrangos vadovą kai gamyboje naudojama „Dynamics 365 Supply Chain Management“.
 author: christophernread
-manager: tfehr
 ms.date: 09/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f771c15d98abe3689054d43cc8b33632121522a3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 053dff19da6e51d23383d667c340c49f3eff1b27
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255546"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825187"
 ---
 # <a name="subcontracting"></a>Subranga
 
@@ -210,7 +208,7 @@ Sukuriamas 10 vienetų gamybos užsakymas, skirtas produktui D8100, kuris vadina
 
     ![Puslapyje Darbas rodomi du žaliavų paėmimo darbo rinkiniai](./media/subcontract22_work-page.png)
 
-26. Paleiskite sandėlio programą, kad apdorotumėte 10 operacijos sandėlio darbą.
+26. Paleiskite sandėlio valdymo mobiliųjų įrenginių programėlę, kad apdorotumėte 10 operacijos sandėlio darbą.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -222,13 +220,13 @@ Sukuriamas 10 vienetų gamybos užsakymas, skirtas produktui D8100, kuris vadina
     - Lauke **Šaltinio oper. nr.** pasirinkite **10**.
     - Lauke **Paskirties oper. nr.** pasirinkite **10**.
 
-    ![Skirtuke Bendra nustatomos reikšmės](./media/subcontract23_start-dialog.png)
+    ![Bendra skirtuke 1 nustatytos reikšmės](./media/subcontract23_start-dialog.png)
 
 31. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą **Pradėti** ir vėl atidarytumėte puslapį **Visi gamybos užsakymai**.
 
     Atkreipkite dėmesį, kad dabar gamybos užsakymo būsena yra **Pradėtas**. 10 operacijos medžiagos naudojamos vykdant automatinį išrinkimo žurnalo registravimą. 10 operacijos laiko sąnaudos užregistruojamos vykdant automatinį maršruto kortelės žurnalo registravimą.
 
-32. Paleiskite sandėlio programą, kad apdorotumėte 20 operacijos sandėlio darbą.
+32. Paleiskite sandėlio valdymo mobiliųjų įrenginių programėlę, kad apdorotumėte 20 operacijos sandėlio darbą.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -240,7 +238,7 @@ Sukuriamas 10 vienetų gamybos užsakymas, skirtas produktui D8100, kuris vadina
     - Lauke **Kiekis** įveskite **10**.
     - Nustatykite lauko **Registruoti išrinkimo dokumentą dabar** parinktį **Ne**.
 
-    ![Skirtuke Bendra nustatomos reikšmės](./media/subcontract24_general-tab.png)
+    ![Bendra skirtuke 2 nustatytos reikšmės](./media/subcontract24_general-tab.png)
 
 35. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą **Pradėti** ir vėl atidarytumėte puslapį **Visi gamybos užsakymai**.
 

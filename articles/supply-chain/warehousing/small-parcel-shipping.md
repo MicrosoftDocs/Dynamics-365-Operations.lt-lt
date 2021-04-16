@@ -2,11 +2,9 @@
 title: Mažų siuntinių siuntimas
 description: Šioje temoje pateikiama informacija apie mažų siuntinių siuntimo (angl. SPS) funkciją. Ši funkcija leidžia „Microsoft Dynamics 365 Supply Chain Management” pateikti informaciją apie supakuotą konteinerį vežėjui ir gauti siuntimo žymę, siuntimo įkainį ir vežėjo pateiktą sekimo numerį.
 author: Mirzaab
-manager: tfehr
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSRateEngine, TMSCarrier, CustTable, TMSShippingCarrierCustomerAccount, TMSSmallParcelShippingFeature
 audience: Application User
@@ -16,17 +14,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 37f07139853c30da25c067a3d736b4b9bf4eb361
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 3969ee6b46f38fe2650881fb0183c60aadce6c8a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501179"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831175"
 ---
 # <a name="small-parcel-shipping"></a>Mažų siuntinių siuntimas
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Mažų siuntinių siuntimo (SPS) funkcija leidžia „Microsoft Dynamics 365 Supply Chain Management” sąveikauti su siuntimo vežėjais per vežėjų API susisiekimo sistemą. Ši funkcija naudinga, kai pavienius pardavimo užsakymus siųsite per komercinius vežėjus, o ne rinksitės konteinerio siuntimą, ar ne viso pakrovimo (LTL) siuntimą.
 

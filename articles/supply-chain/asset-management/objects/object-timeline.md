@@ -1,12 +1,10 @@
 ---
 title: Retrospektyvos įvykis
 description: Šioje temoje paaiškinama, kaip pasiekti su turtu susijusių įvykių retrospektyvą modulyje „Turto valdymas“.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bcec99b811c67eca5473242820d8539758a5872
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 09ef901cd65953d026c2aaa73656654e8745e438
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253139"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838591"
 ---
 # <a name="asset-event-history"></a>Retrospektyvos įvykis
 

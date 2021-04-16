@@ -2,11 +2,9 @@
 title: Atsargų būsenos
 description: Šiame straipsnyje aprašyta, kaip galite naudoti atsargų būsenas norėdami skirstyti ir sekti atsargas.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, WHSInventStatus, WHSWarehouseStatusChange
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b5e693bc1c9f4b822543d812f722bc8ea9f7025
-ms.sourcegitcommit: ee7a890e3e4ed6436898e5ab6eff309082a073f8
+ms.openlocfilehash: e3c8b467f29037bbb869189e3607e11f40aad2c2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5476704"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829865"
 ---
 # <a name="inventory-statuses"></a>Atsargų būsenos
 
@@ -45,10 +43,14 @@ Atsargų būsena – ta viena iš dimensijų saugojimo dimensijų grupėje. Atsa
 
 Sandėlio prekes, kurių atsargų būsena yra „pasiekiama“ arba „nepasiekiama“, galite naudoti gavimo darbams. Pavyzdžiui, galite sukurti pasiekiamą būseną, kuri vadinasi *Parengta*, nepasiekiamą būsena, kuri vadinasi *Pažeista* ir užblokuotą būseną, kuri vadinasi *Blokuota*. Kai kuriate gaunamų arba grąžinamų prekių pirkimo užsakymą, jei kurios nors prekės yra pažeistos ar sulaužytos, galite pakeisti šių prekių atsargų būseną pirkimo užsakymo eilutėje į *Pažeista*. Gavus šias prekes, būsena automatiškai nustatoma į *Blokuota*. Jeigu nuskaitote pažeistas prekes naudodami mobilųjį įrenginį, „Supply Chain Management“ gali naudoti vietos nurodymus ir darbo šablonus, kad parodytų informaciją apie atitinkamą vietą ar vietų diapazoną, kur galite padėti šias prekes. Jei prekės grąžinamos, puslapyje **Atsargų operacijos** sukuriamas išdavimo tipas *Rezervavimas*.
 
+Galite nurodyti, kurių atsargų būsena yra blokuota, naudodami žymės langelius **Atsargų blokavimas**, esančius puslapyje **Atsargų būsenos**. Negalite naudoti blokuotų atsargų būsenų pardavimo užsakymams, perkėlimo užsakymams arba projekto integravimams.
+
+Siunčiamam darbui galite naudoti skirtingas neblokuojamas atsargų būsenas tam, kad kontroliuotumėte, pagal ką rezervuoti atsargas. Jei turite prekių, kurių būsena yra *Blokuota*, ir su tokiomis prekėmis atliekamas bendrasis planavimas, prekės laikomos trūkstamomis ir atsargos automatiškai papildomos. Be to, su siunčiamu darbu susietiems kokybės užsakymams nėra įmanoma atnaujinti **Atsargų būsenos** kaip kokybės užsakymo tikrinimo proceso dalies.
+
 > [!NOTE]
 > Negalima pakeisti atsargų būsenos tose vietose, kuriose yra atidarytas darbas. Pavyzdžiui, jei prekę pažymėjote kaip pirkimo gavimą, tačiau neatlikote atidėjimo veiksmo, priimančioje vietoje darbas bus pažymėtas kaip atviras ir gausite klaidos pranešimą, jei bandysite pakeisti atsargų būseną toje vietoje. Užbaigdami arba atšaukdami susijusį darbą galėtumėte pakeisti būseną.
- 
-Atlikdami siuntimo darbus naudokite prekes, kurių atsargų būsena yra „pasiekiama“. Jei turite prekių, kurių būsena yra *Sulaužyta*, ir su tokiomis prekėmis atliekamas bendrasis planavimas, prekės laikomos trūkstamomis ir atsargos automatiškai papildomos.
+>
+> Įprastai, su atidarytu sandėlio darbu susijusių turimų atsargų būseną pakeičia tik darbuotojai, naudojantys sandėlio valdymo mobiliųjų įrenginių programėlę , pavyzdžiui, perkėlimo proceso metu.
 
 Nustatę atsargų būseną, galite nustatyti svetainės, prekės ir sandėlio numatytąją atsargų būseną. Taip pat galite nustatyti numatytąją pardavimų, perkėlimų ir pirkimo užsakymų būseną. Numatytosios pardavimo užsakymų ir siuntimo perkėlimo užsakymo būsenos parinkčiai **Atsargų blokavimas** negali būti nustatyta reikšmė *Taip*. Atsargų būseną, kuri gaunama pagal numatytuosius vietos, sandėlio, prekės, pirkimo užsakymo, perkėlimo užsakymo arba pardavimo užsakymo nustatymus, galima keisti naudojant mobilųjį įrenginį arba pirkimo užsakymo, pardavimo užsakymo ar perkėlimo užsakymo eilutėje.
 

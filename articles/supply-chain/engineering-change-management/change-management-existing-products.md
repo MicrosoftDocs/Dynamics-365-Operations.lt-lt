@@ -2,11 +2,9 @@
 title: Pakeitimų valdymo įjungimas esamiems produktams
 description: Šioje temoje paaiškinama, kaip įgalinti esamų produktų pakeitimų valdymą. Joje taip pat aprašomi atvejai, kuriais jūsų gebėjimas įjungti pakeitimų valdymą yra ribotas.
 author: t-benebo
-manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,17 +12,16 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 8b9f34f5980937da62610d9668a95816ba6054ef
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: be7b17c1049f60379764c5424422ff1ac6ee1770
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500867"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830105"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Pakeitimų valdymo įjungimas esamiems produktams
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šioje temoje paaiškinama, kaip įgalinti esamų produktų pakeitimų valdymą. Joje taip pat aprašomi atvejai, kuriais jūsų gebėjimas įjungti pakeitimų valdymą yra ribotas.
 
@@ -88,7 +85,7 @@ Norėdami paleisti vedlį **Konvertuoti į inžinerijos produktą** ir konvertuo
     - **Inžinerijos kategorija** – pasirinkite inžinerijos produkto kategoriją, kuriai turėtų priklausyti produktas jį konvertavus. Kiekvienam produktui turi būti skirta atitinkama kategorija, kaip paaiškinta ankstesniame šios temos skyriuje. Kiekvienam produktui turite priskirti kategoriją.
     - **Versija** – įveskite pradinę produkto versiją, kurią norite priskirti kiekvienam konvertuotam produktui. Pavyzdžiui, galite pasirinkti skaičių, atitinkantį jau naudojamos numeracijos numerį. Kiekviena inžinerijos versija talpina su inžinerija susijusius duomenis, kurie konkretūs tai versijai. Dėl daugiau informacijos apie inžinerijos duomenis, žr. [Inžinerijos versijos ir inžinerijos produkto kategorijos](engineering-versions-product-category.md).
     - **Produkto ciklo būsena** – pasirinkite produkto ciklo būseną, kurioje produktas turėtų būti jį konvertavus. Produkto ciklo būsena leidžia kontroliuoti, kurios operacijos leidžiamos duotai inžinerijos versijai. Dėl daugiau informacijos, žr. [Produkto gyvavimo ciklo būsenos ir perlaidos](product-lifecycle-state-transactions.md).
-    - **Turi KS** – pažymėtas žymės langelis rodo, kad produktas turi KS. Šio žymės langelio nustatymas gali padėti nuspręsti, kaip žymės langelį **Dabartinė KD bus inžinerinio produkto dalis**.
+    - **Turi KS** – pažymėtas žymės langelis rodo, kad produktas turi KS. Šio žymės langelio nustatymas gali padėti nuspręsti, kaip žymės langelį **Dabartinė KS bus inžinerinio produkto dalis**.
     - **Dabartinė KS bus inžinerijos produkto dalis** – pažymėkite šį žymės langelį, jei produkto dabartinė KS turi būti naudojama kaip inžinerijos produkto KS. Šią KS tvarkys inžinerinio keitimo valdymas. Jei nėra produkto KS arba jei norite rankiniu būdu kurti konvertuoto produkto KS vėliau, išvalykite šį žymės langelį.
     - **Yra klaidų** – pažymėtas žymės langelis rodo, kad produkto nustatyme yra viena ar daugiau klaidų. Pavyzdžiui, produkto tipas arba dimensijų grupė gali nesutapti su kategorija. Produktai, kuriuose yra klaidų, bus praleisti ir nebus konvertuoti.
 

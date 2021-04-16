@@ -2,11 +2,9 @@
 title: Siuntų vežėjų nustatymas
 description: Šioje temoje aprašyta, kaip nustatyti siuntų vežėją ir jo išsamią informaciją, pavyzdžiui, tarnybą, siuntimo būdą, transportavimo mokėjimo priemonę, transportavimo apribojimus ir siuntimo tarifą.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSShippingCarrierCustomerAccount,TMSCarrier
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1ec19288f01ceb0bb3021cf549af1c38746785c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1c292470e6c70af4dfe11bbe324ebcf93438e29d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233588"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840466"
 ---
 # <a name="set-up-shipping-carriers"></a>Siuntų vežėjų nustatymas
 
@@ -66,7 +64,7 @@ ms.locfileid: "5233588"
 3. Lauke **Vertinimo profilis** įveskite reikšmę.
 4. Lauke **Pavadinimas** įveskite reikšmę.
 5. Lauke **Vieta** išplečiamajame meniu pažymėkite parinktį.
-6. Lauke **Sandėlys** išplečiamajame meniu pažymėkite parinktį.
+6. Lauke **Sandėlis** iš išplečiamojo meniu pažymėkite parinktį.
 7. Lauke **Tarifų mechanizmas** išplečiamajame meniu pažymėkite parinktį. Pasirinkite tarifų mechanizmą, kuris atitinka jūsų sutartį su vežėju.  
 8. Lauke **Pagrindinis tarifas** išplečiamajame meniu pažymėkite parinktį.
 9. Lauke **Tranzito laiko mechanizmas** išplečiamajame meniu pažymėkite parinktį.

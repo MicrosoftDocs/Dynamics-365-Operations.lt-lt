@@ -2,7 +2,6 @@
 title: Įkainojimo parametrų verčių nustatymas
 description: Kai nustatote iškrovimo kainos modulį, galite apibrėžti kelis bendrųjų verčių rinkinius, kurie bus prieinami pasirinkus konkrečius įkainojimo parametrų reikšmių tipus kitose programos dalyse. Šioje temoje paaiškinama, kaip nustatyti šiuos verčių rinkinius.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 51c3360afc48f4f9143118ee6139803b95e5df28
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 634635f7b751753033d1df8f56706b1e20479953
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500483"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841940"
 ---
 # <a name="costing-parameter-values-setup"></a>Įkainojimo parametrų verčių nustatymas
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Kai nustatote modulį **Iškrovimo kaina**, galite apibrėžti kelis bendrųjų verčių rinkinius ir susijusius parametrus kiekvienai vertei. Šios vertės bus prieinamos pasirinkus konkrečius įkainojimo parametrų verčių tipus kitose programos dalyse. Šioje temoje paaiškinama, kaip nustatyti šiuos verčių rinkinius.
 
@@ -54,7 +52,7 @@ Norėdami nustatyti savo savikainos tipų kodus, eikite į **Iškrovimo kaina \>
 | Kredito registravimas | Jei laukelis **Kredito tipas** nustatomas kaip *DK sąskaita*, pasirinkite registravimo aprašą. |
 | Kredito sąskaita | Jei laukelis **Kredito tipas** nustatomas kaip *DK sąskaita*, pasirinkite naudojamą DK sąskaitą. |
 | Tarpuskaitos sąskaita | Pasirinkite savikainos tipo kliringo sąskaitą. Suderinimui rekomenduojame kiekvienam savikainos tipui nurodyti atskirą kliringo sąskaitą. |
-| Standartinės savikainos registravimo tipas. | Jei naudojate standartinį įkainojimą, pasirinkite registravimo aprašymą. |
+| Standartinės savikainos registravimo tipas | Jei naudojate standartinį įkainojimą, pasirinkite registravimo aprašymą. |
 | Standartinio išlaidų nuokrypio sąskaita | <p>Jei naudojate standartinį įkainojimą, čia nurodyta sąskaita bus naudojama bet kokiam nuokrypiui registruoti. Šioje sąskaitoje naudojamas iškrovimo kainos paskirstymas puslapyje **Prekių kainos**. Šis paskirstymas sukuriamas naudojant periodinę procedūrą kainoms atnaujinti.</p><p>Pavyzdžiui, standartinė prekės savikaina yra 15,00 USD, FOB – 13,00 USD, o transportavimas 2,00 USD. Atsargoms gavus SF, prekė gaunama už 15,00 USD, bet yra standartinis 2,00 kainos nuokrypis vienai prekei, nes faktinis FOB yra 13,00 USD. Šis nuokrypis registruojamas standartinių kainų nuokrypio sąskaitoje, kuri nustatoma prekės registravimo profilyje. Apskaičiuota transportavimo suma yra 2,00 USD, todėl registruojant atsargų SF nėra nuokrypio. Tačiau gavus SF už transportavimą, transportavimo savikaina yra 2,50 USD vienetui. Todėl nurodytai savikainai registruojamas 0,50 USD nukrypimas. |
 | Slenkančio vidurkio nuokrypio sąskaita | <p>Jei naudojate slankiojo vidurkio įkainojimą, čia nurodyta sąskaita bus naudojama bet kokiam nuokrypiui registruoti.</p><p>Pavyzdžiui, apskaičiuota pervežimo suma yra 2,00 USD. Tačiau gavus SF už transportavimą, transportavimo savikaina yra 2,50 USD vienetui. Todėl reikia registruoti 0,50 USD nukrypimą.</p><p>Kai parinktis **Koregavimus registruoti kaip nuokrypį** nustatyta kaip *Taip* puslapyje **Iškrovimo kainos parametrai** visi nukrypimai tarp įvertintos ir faktinės siuntos savikainos bus registruojami čia nurodytoje slankiojo vidurkio nuokrypio sąskaitoje. Kai parinktis **Koregavimus registruoti kaip nuokrypį** nustatyta kaip *Ne*, naudojamos standartinės funkcijos, o nuokrypis taikomas čia nurodytoje atsargų arba slankiojo vidurkio nuokrypio sąskaitoje, priklausomai nuo turimų atsargų.</p> |
 | Kredito kaupimo sąskaita | Pasirinkite sąskaitą, kuri naudojama numatomai savikainai kaupti registruojant SF. Šis laukelis naudojamas tik tada, kai parinktis **Naudoti savikainos tipo mokesčio kaupimo sąskaitą** nustatoma kaip *Taip* „FastTab“ skirtuke **Įkainojimas**, skirtuke **Bendra**, esančiame puslapyje **Iškrovimo kainos parametrai**. |

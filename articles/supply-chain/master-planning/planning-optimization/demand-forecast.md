@@ -2,11 +2,9 @@
 title: Pagrindinis planavimas su paklausos prognozėmis
 description: Ši tema aiškina, kaip įtraukti paklausos prognozes pagrindinio planavimo metu su „Planning Optimization“.
 author: ChristianRytt
-manager: tfehr
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqPlanSched, ReqGroup, ReqReduceKey, ForecastModel
 audience: Application User
@@ -18,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7bd1268893d0869d2414b944493c8b8859f27abc
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 88e93e7a363bf5db3d25d7fe6a0ab390f79912b0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501131"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833310"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Pagrindinis planavimas su paklausos prognozėmis
 
 [!include [banner](../../includes/banner.md)]
 
-Galite naudoti paklausos prognozę kartu su „Planning Optimization“ siekiant apskaičiuoti tikėtiną paklausą jūsų pagrindiniame planavime. Galite rankiniu būdu sukurti paklauso prognozę, ją importuoti arba sukurti ją naudodami paklauso prognozės funkcijas „Microsoft Dynamics 365 Supply Chain Management“. Dėl išsamesnės informacijos paklauso prognozees, žr. [Paklausos prognozių apžvalga](../introduction-demand-forecasting.md).
+Galite naudoti paklausos prognozę kartu su „Planning Optimization“ siekiant apskaičiuoti tikėtiną paklausą jūsų pagrindiniame planavime. Galite rankiniu būdu sukurti paklauso prognozę, ją importuoti arba sukurti ją naudodami paklauso prognozės funkcijas „Microsoft Dynamics 365 Supply Chain Management“. Išsamesnės informacijos apie poreikio prognozes rasite [Poreikio prognozių apžvalga](../introduction-demand-forecasting.md).
 
 > [!NOTE]
 > Atskiras prognozės planavimas nepalaikomas su „Planning Optimization“. Dėl to, **Esamas prognozės planas** nustatymas puslapyje **Pagrindinio planavimo parametrai** neturi jokio poveikio jums naudojant „Planning Optimization“.
@@ -88,7 +86,7 @@ Kai įtraukiate prognozę į bendrąjį planą, galite pasirinkti, kaip mažinam
 
 Norėdami įtraukti prognozę į bendrąjį planą ir pasirinkti metodą, kuris naudojamas siekiant sumažinti prognozės poreikius, pasirinkite **Bendrasis planavimas \> Sąranka \> Planai \> Bendrieji planai**. Lauke **Prognozės modelis** pasirinkite prognozės modelį. Lauke **Prognozes poreikių mažinimo metodas** pasirinkite metodą. Galimos toliau nurodytos parinktys.
 
-- None
+- Nėra
 - Procentai – mažinimo raktas
 - Perlaidos - sumažinimo raktas (dar nėra palaikomas su „Planning Optimization“).
 - Operacijos – dinaminis laikotarpis
@@ -274,7 +272,7 @@ Prekės padengimo grupei turi būti priskirtas prognozės mažinimo raktas. Atli
 
 Kai parinktį **Operacijos – mažinimo raktas** arba **Operacijos – dinaminis laikotarpis** pasirenkate kaip prognozės poreikių mažinimo metodą, galite nurodyti, kurios operacijos sumažina prognozę. Puslapio **Padengimo grupės** „FastTab“ konteinerio **Kita** lauke **Prognozę sumažina** pasirinkite **Visos operacijos**, jei visos operacijos turėtų mažinti prognozę, arba **Užsakymai**, jei tik pardavimo užsakymai turėtų mažinti prognozę.
 
-## <a name="forecast-models-and-submodels"></a>Prognozės modeliai ir antriniai modeliai:
+## <a name="forecast-models-and-submodels"></a>Prognozės modeliai ir antriniai modeliai
 
 Šiame skyriuje aprašoma, kaip kurti prognozės modelius ir kaip sujungti kelis prognozės modelius nustatant antrinius modelius.
 
@@ -292,7 +290,7 @@ Jei bendrojo planavimo metu susiduriama su antriniu modeliu, kuris turi savo ant
 
 #### <a name="submodel-levels-example"></a>Antrinių modelių lygių pavyzdys
 
-Prognozės A modelio prognozės B modelis yra antrinis modelis. Todėl B prognozės modelis negali turėti savo antrinių modelių. Jei prie B prognozės modelio bandysite pridėti antrinį modelį, gausite šį klaidos pranešimą: „B prognozės modelis yra A modelio antrinis modelis“.
+Prognozės A modelio prognozės B modelis yra antrinis modelis. Todėl B prognozės modelis negali turėti savo antrinių modelių. Jei prie B prognozės modelio bandysite pridėti antrinį modelį, gausite šį klaidos pranešimą: „B prognozės modelis yra A modelio antrinis modelis.“
 
 ### <a name="aggregating-forecasts-across-forecast-models"></a>Prognozių telkimas prognozių modeliuose
 

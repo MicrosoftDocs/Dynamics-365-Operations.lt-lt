@@ -2,11 +2,9 @@
 title: Sandėlio konfigūracijos apžvalga
 description: Šiame straipsnyje paaiškinta, kaip konfigūruoti sandėlį. Pateikiama informacija apie tai, kaip įgalinti sandėlio maketą ir sandėlio procesus.
 author: perlynne
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5196460576d1bd516c5b5449fabf5421343e429d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 734246cde20f5ce76e34dae772ed0ba6b0e361a0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248672"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837374"
 ---
 # <a name="warehouse-configuration-overview"></a>Sandėlio konfigūracijos apžvalga
 
@@ -38,7 +36,7 @@ Sandėlio valdymo sistema programoje „Supply Chain Management“ suteikia lank
 
 -   Galite nustatyti aukšto prioriteto ir žemo prioriteto saugojimo sritis, kad prekės būtų išdėstytos optimaliai.
 -   Savo sandėlį galite padalinti į zonas, kad būtų galima patenkinti įvairius saugojimo poreikius, pvz., temperatūros reikalavimus ar įvairius prekių apyvartos koeficientus.
--   Nurodyti sandėlio vietas galite bet kokiu lygiu (pvz., teritorijos, sandėlo, perėjimo, stelažo, lentynos ir talpyklos padėties).
+-   Nurodyti sandėlio vietas galite bet kokiu lygiu (pvz., teritorijos, sandėlio, perėjimo, stelažo, lentynos ir talpyklos padėties).
 -   Grupuoti vietas galite naudodami fizinių pajėgumų apribojimo nuostatas.
 -   Kontroliuoti, kaip prekės saugomos ir paimamos, galite pagal užklausomis apibrėžtas taisykles.
 
@@ -58,7 +56,7 @@ Objektai, kuriuos kuriate norėdami apibrėžti sandėlio išdėstymą, naudojam
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Vietų sandėliavimo apribojimai, vietų profiliai ir fiksuotos paėmimo vietos
 
-Turite atsižvelgti į fizinį sandėlo išdėstymą: tiek nustatyti saugojimo pajėgumams (vietų sandėliavimo apribojimams ir vietų profiliams), tiek vėlgi mėginant pasiekti optimalių sandėlio procesų. 
+Turite atsižvelgti į fizinį sandėlio išdėstymą: tiek nustatyti saugojimo pajėgumams (vietų sandėliavimo apribojimams ir vietų profiliams), tiek mėginant pasiekti optimalių sandėlio procesų. 
 
 Taikant vietų sandėliavimo apribojimus užtikrinama, kad sukūrus darbą atsargas bus prašoma padėti ne į tokią vietą, kuri būtų fiziškai nepajėgi jų sutalpinti. Pavyzdžiui, jei tam tikrose sandėlio vietose galima sandėliuoti tik po vieną padėklą, tuomet galima įjungti vietų sandėliavimo apribojimus. Konkrečioje vietų profilių grupėje **Kiekio** reikšmę galima nustatyti į **1**, o **Vieneto** reikšmę galima nustatyti į **PL**. 
 
