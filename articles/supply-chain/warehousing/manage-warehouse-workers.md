@@ -1,12 +1,10 @@
 ---
 title: Sandėlio darbuotojų valdymas
-description: Šiame straipsnyje aprašoma, kaip naudoti „Warehousing“ programą stebėti ir valdyti darbo užduotims, kurias atlieka sandėlio darbuotojai.
+description: Šiame straipsnyje aprašoma, kaip galite naudoti sandėlio valdymo mobiliųjų įrenginių programėlę stebėti ir valdyti darbo užduotims, kurias atlieka sandėlio darbuotojai.
 author: perlynne
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage, WHSResetUserPassword
 audience: Application User
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18dbcf32f85bca51bf48e5ed8c64fedc99f66082
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9f5676879f631fce9c9c674250a07723131906fa
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216840"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818973"
 ---
 # <a name="manage-warehouse-workers"></a>Sandėlio darbuotojų valdymas
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje aprašoma, kaip naudoti „Warehousing“ programą stebėti ir valdyti darbo užduotims, kurias atlieka sandėlio darbuotojai.
+Šiame straipsnyje aprašoma, kaip galite naudoti sandėlio valdymo mobiliųjų įrenginių programėlę stebėti ir valdyti darbo užduotims, kurias atlieka sandėlio darbuotojai.
 
 Jei naudojate sandėlio valdymo funkcijas, visos sandėlio darbuotojų operacijos yra vadinamos *darbu*. Darbas, pvz., paėmimas, perkėlimas ir turimų atsargų skaičiavimas, yra registruojamas naudojant mobiliuosius įrenginius. Prieš atlikdamas darbą sandėlio darbuotojas turi būti susietas su personalo darbuotoju. Su kiekviena sąskaita **Darbuotojas** gali būti susieti keli sandėlio darbo vartotojai. Tie darbo vartotojai gali dirbti skirtinguose sandėliuose ir gali turėti skirtingų lygių prieigą prie įvairių mobilių įrenginių meniu. Sandėlio darbo vartotojai gali būti laikomi keliais pasirinkto darbuotojo užsiregistravimais. Kiekvienas darbo vartotojas turi numatytąjį sandėlį ir jam taikomos konkrečios darbo eigos, atsižvelgiant į tam darbo vartotojui pasiekiamus meniu elementus. 
 

@@ -2,11 +2,9 @@
 title: Biudžeto planavimas
 description: Šios laboratorijos tikslas yra pateikti valdomą „Microsoft Dynamics 365 Finance“ funkcijos naujinimų peržiūrą srityje Biudžeto planavimas. Šios laboratorijos tikslas yra iliustruoti greitą biudžeto planavimo modulio konfigūracijos pavyzdį ir pademonstruoti, kaip atlikti biudžeto planavimą naudojant šią konfigūraciją.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/25/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05de2748b0cf7a2b09618aee5c41c8c797f2b3d3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f6223cce4a960d3fa3db1f3a17b324201085ea04
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210414"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822232"
 ---
 # <a name="budget-planning"></a>Biudžeto planavimas
 

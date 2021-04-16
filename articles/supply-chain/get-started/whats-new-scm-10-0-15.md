@@ -2,11 +2,9 @@
 title: Kas naujo ar pasikeitusio „Dynamics 365 Supply Chain Management“ 10.0.15 (2021 m. sausio mėnesį)
 description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.15 versijos funkcijos.
 author: kamaybac
-manager: tfehr
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b1d2aa12e77080b530847bfdbde4dbe3a67431c3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e550f310fe3ec0aaee9c16f3edccd775921a64be
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258904"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821158"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Kas naujo ar pasikeitusio „Dynamics 365 Supply Chain Management“ 10.0.15 (2021 m. sausio mėnesį)
 
@@ -35,7 +33,7 @@ ms.locfileid: "5258904"
 
 ## <a name="features-included-in-this-release"></a>Funkcijos, įtrauktos į šį leidimą
 
-Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Kai kurios išvardytos funkcijos vis dar yra peržiūros versijos, o kitos funkcijos jau gali būti prieinamos bendrai. Norėdami peržiūrėti kiekvienos funkcijos oficialią leidimo datą, vadovaukitės saitais su [leidimų planu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features).
+Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Norėdami peržiūrėti kiekvienos funkcijos oficialią leidimo datą, vadovaukitės saitais su [leidimų planu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features).
 
 - Debesų ir paskirstytų modulių valdymas su gamybos ir sandėlio vykdymo darbo krūviais<br> - Dėl daugiau informacijos, žr. [Debesies ir krašto skalės elementai gamybai ir sandėlio valdymo darbo apkrovoms](../cloud-edge/cloud-edge-landing-page.md).
 
@@ -82,7 +80,7 @@ Temoje [Pašalintos arba pasenusios funkcijos „Dynamics 365 Supply Chain Manag
 
 Prieš pašalinant iš produkto bet kokią funkciją, pranešimas apie nebenaudojimą bus paskelbtas [Pašalintos arba pasenusios funkcijos „Dynamics 365 Supply Chain Management“](removed-deprecated-features-scm-updates.md) temoje 12 mėnesių prieš pašalinimą.
 
-Atlikus keitimus, kurie paveikia tik kompiliavimo laiką, bet yra dvejatainiškai suderinami su smėlio dėžės ir gamybos aplinka, nebenaudojimo laikas bus trumpesnis nei 12 mėnesių. Paprastai, tai yra funkciniai naujinimai, kuriuos reikia atlikti kompiliatoriui.
+Atlikus keitimus, kurie paveikia tik kompiliavimo laiką, bet yra dvejetainiškai suderinami su smėlio dėžės ir gamybos aplinka, nebenaudojimo laikas bus trumpesnis nei 12 mėnesių. Paprastai, tai yra funkciniai naujinimai, kuriuos reikia atlikti kompiliatoriui.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

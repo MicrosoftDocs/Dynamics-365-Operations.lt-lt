@@ -2,11 +2,9 @@
 title: Pavojingų medžiagų nustatymas
 description: Šioje temoje paaiškinama kaip nustatyti duomenis, reikalingus klasifikuoti prekes kaip pavojingas medžiagas. Kai kuriate pardavimo užsakymą, kuriame yra prekė, klasifikuojama kaip pavojinga medžiaga, sistema sugeneruoja pavojingos prekės dokumentaciją tam pardavimo užsakymui, kai jis yra išsiunčiamas.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,17 +12,16 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 0f0b706568048480cf5bf85cfcb4388666432212
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5cf323272926936ba6397a9f98cfff8d8a31d091
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5266108"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820351"
 ---
 # <a name="set-up-hazardous-materials"></a>Pavojingų medžiagų nustatymas
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Kad galėtumėte naudoti pavojingų medžiagų funkciją, pirma turite nustatyti duomenis, reikalingus klasifikuoti prekes kaip pavojingas medžiagas. Tada, kai kuriate pardavimo užsakymą, kuriame yra prekė, klasifikuojama kaip pavojinga medžiaga, sistema sugeneruoja pavojingos prekės dokumentaciją tam pardavimo užsakymui, kai jis yra išsiunčiamas.
 
@@ -70,14 +67,14 @@ Kiekviena nuostata turi kodą ir aprašą. Šioje lentelėje apibūdinami laukai
 
 ### <a name="print-setup-fasttab"></a>Spausdinimo nustatymas „FastTab”
 
-Kiekviena nuostata gali turėt neribotą spausdinimo nustatymų skaičių. Jūs apibrėžiate spausdinimo nustatymus **Spausdinimo nustatymai** „FastTab”. Šioje lentelėje apibūdinami laukai, galimi kiekvienam spausdinimo nustatymui.
+Kiekviena nuostata gali turėti neribotą spausdinimo nustatymų skaičių. Jūs apibrėžiate spausdinimo nustatymus **Spausdinimo nustatymai** „FastTab”. Šioje lentelėje apibūdinami laukai, galimi kiekvienam spausdinimo nustatymui.
 
 | Laukas | Aprašas |
 |---|---|
 | Seka | Apibrėžkite seką, kuria laukai bus nurodomi spausdinimo tekste. |
 | Lauko spausdinimas | Pasirinkite lauką, kurį norite įtraukti į siuntimo tekstą. Ne visus pavojingų medžiagų laukus bus galima spausdinti. Bus galimi tik bendri laukai, naudojami apibrėžti įvairių nuostatų siuntimo tekstui. Jūs turite apibrėžti pirmąjį spausdinimo lauką kaip laukų skyriklį, kurio reikšmė **Seka** yra *0* (nulis), kad jį būtų galima naudoti kaip skyriklį tarp kitų laukų. Reikia tik vienos nuorodos į laukų skyriklį.<p>Galimos šios vertės:</p><ul></li><li>**Laukų skyriklis** – šis spausdinimo laukas naudojamas kaip laukų skyriklis tekstui. Sekai reikalingas tik vienas laukų skyriklis. Įprastai turite nustatyti reikšmę **Seka** šiam spausdinimo laukui į *0* (nulis). Sistema ieškos laukų skyriklio ir naudos pirmąjį, rastą sąraše. Teksto reikšmė, naudojama eilutėje, ateis iš **Spausdinti po** lauko.</li><li>**Identifikacija** – šis spausdinimo laukas įdeda [identifikavimo kodą ir (arba) aprašą](#identification) į spausdinimo tekstą.</li><li>**Klasė** – šis spausdinimo laukas įdeda [klasės kodą ir (arba) aprašą](#classes) į spausdinimo tekstą.</li><li>**Padalinys** – šis spausdinimo laukas įdeda [padalinio kodą ir (arba) aprašą](#divisions) į spausdinimo tekstą.</li><li>**Pakavimo grupė** – šis spausdinimo laukas įdeda [pakavimo grupės kodą ir (arba) aprašą](#packing-group) į spausdinimo tekstą.</li><li>**Tunelio kodas ir (arba) aprašas** – šis spausdinimo laukas įdeda [tunelio kodą ir (arba) aprašą](#tunnel) į spausdinimo tekstą.</li><li>**Tinkamas siuntimo pavadinimas** – šis spausdinimo laukas įdeda [tinkamą siuntimo pavadinimą](hazmat-items.md#hazmat-description) į spausdinimo tekstą.</li><li>**Techninis pavadinimas** – šis spausdinimo laukas įdeda [techninį pavadinimą ir (arba) aprašą](#technical-name) į spausdinimo tekstą.</li><li>**Transportavimo kategorija** – šis spausdinimo laukas įdeda [transportavimo kategorijos kodą ir (arba) aprašą](#transport-category) į spausdinimo tekstą.</li><li>**Laikymas** – šis spausdinimo laukas įdeda [laikymo kodą ir (arba) aprašą](#stowage) į spausdinimo tekstą.</li><li>**Fiksuotas tekstas** – šis spausdinimo laukas įveda tekstą, apibrėžtą **Fiksuotas tekstas** lauke šiai eilutei.</li><li>**Etiketės kodas ir (arba) aprašas** – šis spausdinimo laukas įdeda [etiketės kodą ir (arba) aprašą](#label) į spausdinimo tekstą.</li><li>**Orlaivio pakavimas** – šis spausdinimo laukas įdeda [orlaivio pakavimo instrukcijų kodą ir (arba) aprašą](#packing-instruction) į spausdinimo tekstą.</li><li>**Ribotas kiekis** – šis spausdinimo laukas patikrina ar prekė yra pažymėta kaip [riboto kiekio prekė](hazmat-items.md#material-management) ir, jeigu taip, įveda tekstą, apibrėžtą **Fiksuotas tekstas** lauke šiai eilutei.</li><li>**Pakavimo aprašas** – šis spausdinimo laukas įdeda [pakavimo aprašą](#packing-description) į spausdinimo tekstą.</li></ul> |
-| Spausdinti prieš | Įveskite tekstą, kuris turi būti atspaudintas prieš turinį, apibrėžtą **Spausdinimo lauko** nustatymo. |
-| Spausdinti po | Įveskite tekstą, kuris turi būti atspaudintas po turinio, apibrėžto **Spausdinimo lauko** nustatymo. |
+| Spausdinti prieš | Įveskite tekstą, kuris turi būti atspausdintas prieš turinį, apibrėžtą **Spausdinimo lauko** nustatymo. |
+| Spausdinti po | Įveskite tekstą, kuris turi būti atspausdintas po turinio, apibrėžto **Spausdinimo lauko** nustatymo. |
 | Spausdinti su ankstesniu | Pasirinkite šį žymės langelį, kad neleistumėte atspausdinti laukų skyriklio tarp ankstesnio ir šio lauko. Naudokite šį žymės langelį spausdinimo laukams, kurie yra arba pasirinktiniai arba įtraukti į kitą spausdinimo lauką. |
 | Fiksuotas tekstas | Jei nustatote lauką **Spausdinimo laukas** į **Fiksuotas tekstas** ar **Ribotas kiekis**, įveskite tekstą, kuris turi būti atspausdintas. |
 | Įtraukti į spausdinimą | Pasirinkite reikšmę arba reikšmes, kurios turi būti atspausdintos šiai eilutei, iš pasirinkto spausdinimo lauko. Galite atspausdinti kodą, aprašą arba kodą ir aprašą. |
@@ -268,7 +265,7 @@ Norėdami nustatyti šios specifikacijos reikšmes, eikite į **Produkto informa
 
 ### <a name="hazardous-material-transport-category"></a><a name="transport-category"></a>Pavojingų medžiagų transportavimo kategorija
 
-Specifikacija *Pavojingų medžiagų transportavimo kategorija* įprastai naudojama panašių pavojingų produktų grupavimui ataskaitose. Pavyzdžiui, transportavimo kategorijos yra naudojamos **Siuntos suvestinė** ataskaitoje, kurią galite atsispaudinti iš sandėlio siuntos ataskaitos.
+Specifikacija *Pavojingų medžiagų transportavimo kategorija* įprastai naudojama panašių pavojingų produktų grupavimui ataskaitose. Pavyzdžiui, transportavimo kategorijos yra naudojamos **Siuntos suvestinė** ataskaitoje, kurią galite atsispausdinti iš sandėlio siuntos ataskaitos.
 
 Norėdami nustatyti šios specifikacijos reikšmes, eikite į **Produkto informacijos valdymas \> Sąranka \> Pavojingų medžiagų siuntimo dokumentacija \> Pavojingų medžiagų transportavimo kategorija**. Puslapyje **Pavojingų medžiagų transportavimo kategorija** galite sukurti tiek transportavimo kategorijų, kiek norite ir konfigūruoti kiekvieną jų su rodomu pavadinimu ir trumpu aprašu.
 

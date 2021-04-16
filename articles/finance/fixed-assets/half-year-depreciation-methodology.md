@@ -2,11 +2,9 @@
 title: Pusmečio nusidėvėjimo konvencijos metodika
 description: Šioje temoje aprašomas metodas, kurį ilgalaikis turtas naudoja nusidėvėjimui apskaičiuoti pagal pusmečio konvenciją, apskaičiuojančią šešių mėnesių nusidėvėjimą per pirmuosius ir paskutiniuosius metus, kai turtas eksploatuojamas.
 author: moaamer
-manager: Ann Beebe
 ms.date: 08/17/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: cb027513da086d882942c4677892b15cf8e7b338
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d0e33128c37e970ebf5af87bd601ae30aef96952
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260810"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818589"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>Pusmečio nusidėvėjimo konvencijos metodika
 

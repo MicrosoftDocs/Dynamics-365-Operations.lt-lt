@@ -2,11 +2,9 @@
 title: Planavimo mechanizmo efektyvumo didinimas
 description: Šioje temoje pateikiama informacija apie planavimo mechanizmą ir apie tai, kaip padidinti jo efektyvumą.
 author: ChristianRytt
-manager: tfehr
 ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0b55d0e94b40adf232e6b5cc3a9fb422e4539340
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d1378ae652ea70cba941316f4667052dcb05f717
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246770"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812913"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Planavimo mechanizmo efektyvumo didinimas
 
@@ -199,7 +197,7 @@ Naudojant ribotą pajėgumą, planavimas gali užtrukti ilgiau dėl kelių prie�
 
 Jei užduoties sekoje yra tik standartiniai `FinishStart` saitai (tai reiškia, kad ji yra paprasta grandinė be šakų), optimalų rezultatą (matomas iš vieno užsakymo, ne visų užsakymų) galima pasiekti ieškant geriausio pirmosios užduoties sprendimo, o tada pereinant prie geriausio kitos užduoties sprendimo paieškos. Geriausias užduoties sprendimas reiškia radimą ištekliaus, kuris gali užtikrinti užduoties pradžios ir pabaigos datą, artimiausią užduoties tikslui (vykdant tiesioginį planavimą, tai reiškia kuo ankstesnę užduoties pabaigos datą), kartu laikantis apribojimų.
 
-Kai yra lygiagrečių užduočių, sprendimo paieška gali apimti skirtingų išteklių derinių nagrinėjimą. Galimų išteklių derinių skaičius priklauso nup susijusių lygiagrečių užduočių galimų išteklių skaičiaus. Ypač tada, kai atliekate atgalinį užsakymo planavimą nuo poreikio datos, gali užtrukti, kol loginė procedūra gaus rezultatą, kad nėra problemos sprendimo, kuris leistų vykdyti lygiagrečias užduotis prieš šiandienos datą, nes tam reikia patikrinti visus derinius, kadangi gali būti išteklių, kurių efektyvumas gali būti didesnis arba gali būti kitas kalendorius, kuris leistų gauti rezultatą. Tai reiškia, kad, jei nebuvo nustatyta skirtojo laiko riba, planavimas bus vykdomas ilgą laiką, kol kryptis bus pakeista į tiesioginę.
+Kai yra lygiagrečių užduočių, sprendimo paieška gali apimti skirtingų išteklių derinių nagrinėjimą. Galimų išteklių derinių skaičius priklauso nuo susijusių lygiagrečių užduočių galimų išteklių skaičiaus. Ypač tada, kai atliekate atgalinį užsakymo planavimą nuo poreikio datos, gali užtrukti, kol loginė procedūra gaus rezultatą, kad nėra problemos sprendimo, kuris leistų vykdyti lygiagrečias užduotis prieš šiandienos datą, nes tam reikia patikrinti visus derinius, kadangi gali būti išteklių, kurių efektyvumas gali būti didesnis arba gali būti kitas kalendorius, kuris leistų gauti rezultatą. Tai reiškia, kad, jei nebuvo nustatyta skirtojo laiko riba, planavimas bus vykdomas ilgą laiką, kol kryptis bus pakeista į tiesioginę.
 
 Ši kombinatorinė logika taip pat reiškia, kad pridėjus daugiau taikytinų išteklių mechanizmas gali veikti lėčiau. Jei efektyvumo problemų kyla vykdant lygiagrečias operacijas ir atliekant planavimą su neribotais pajėgumais, jas galima iš dalies išspręsti leidžiant maršruto sudarymo įrankiui priimti sprendimą, kuris išteklius turi būti naudojamas, o tada priskirti išteklių tiesiogiai operacijai (nes daugeliu atvejų mechanizmas galiausiai pasirinks tą patį išteklių, todėl galutinis rezultatas bus toks pats).
 
@@ -292,7 +290,7 @@ Jei planavimas nėra atliekamas naudojant ribotą pajėgumą ir visi galimi išt
 
 Lygiagrečios operacijos (pirminės / antrinės) yra galingas įrankis, kurį galima naudoti modeliuoti scenarijams, kai, pavyzdžiui, įrenginys ir operatorius yra būtini tam tikrai užduočiai atlikti, tačiau jos taip pat yra daugelio efektyvumo problemų priežastis. Jei konkretaus atskiro ištekliaus reikalavimas kartu priskiriamas pirminei ir antrinei operacijai, dažniausiai tai nėra problema. Tačiau jei yra daug galimų išteklių kiekvienai iš operacijų, tai žymiai padidina skaičiavimo sudėtingumą planuojant.
 
-Užduot naudojus lygiagrečias operacijas galima modeliuoti „virtualių“ išteklių poras (kurios atitiks komandą, kuri operacijoje visada yra kartu) arba vienos iš operacijų paprasčiausiai galima nemodeliuoti, jei ji nėra ribojanti.
+Užuot naudojus lygiagrečias operacijas galima modeliuoti „virtualių“ išteklių poras (kurios atitiks komandą, kuri operacijoje visada yra kartu) arba vienos iš operacijų paprasčiausiai galima nemodeliuoti, jei ji nėra ribojanti.
 
 ### <a name="route-with-quantity-of-resources-higher-than-1"></a>Maršrutas, kurio išteklių kiekis yra didesnis už 1
 

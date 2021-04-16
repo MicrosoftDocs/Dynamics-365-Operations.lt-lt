@@ -2,7 +2,6 @@
 title: Iškrovimo kainų vertinimas ir valdymas
 description: Sistema naudoja jūsų automatinės savikainos sąranką, kad nustatytų jūsų iškrovimo kainą. Šioje temoje paaiškinama, kaip galima nurodyti įvairius scenarijus, siekiant pateikti tikslesnį įvertinimą.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/26/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-26
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: cbd652f2b29f7a78ad9e4e1d3dda4a3ef8a9f3f3
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 510f5fc4910dde2f91fe2d666abb23a9bd7381f1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501275"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823438"
 ---
 # <a name="estimate-and-manage-landed-costs"></a>Iškrovimo kainų vertinimas ir valdymas
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Sistema naudoja jūsų [automatinį savikainos nustatymą](auto-cost-setup.md), kad apibrėžtų jūsų iškrovimo kainos vertinimą. Be to, taip pat galite nurodyti įvairius scenarijus, siekiant pateikti tikslesnį įvertinimą. Šie scenarijai saugomi. Todėl juos galėsite peržiūrėti vėliau ir palyginti su faktiniais, pateikiamais ataskaitoje. Taip pat galima atnaujinti prekės kainą.
 
@@ -82,7 +80,7 @@ Skirtuke **Prekės** galite pridėti tiek vertinimo prekių, kiek jums reikia. N
 
 | Laukas | aprašymas |
 |---|---|
-| Prekės Nr. | Pasirinkite prekę, kurios kainą norite nustatyti. (Jei prekės sistemoje dar nėra, sukurkite fiktyvią prekę, pasirinktinai ją pridėkite prie reiso prekių išlaidų grupės, o tada kainą palikite tuščią arba ją sukurkite arba pakeiskite). |
+| Prekės numeris | Pasirinkite prekę, kurios kainą norite nustatyti. (Jei prekės sistemoje dar nėra, sukurkite fiktyvią prekę, pasirinktinai ją pridėkite prie reiso prekių išlaidų grupės, o tada kainą palikite tuščią arba ją sukurkite arba pakeiskite). |
 | Tiekėjo kodas | Pasirinkite tiekėją, kuris bus naudojamas šios prekės vertinimui. Jei prekei priskirtas numatytasis tiekėjas, šis laukelis nustatomas automatiškai. |
 | Kiekis | Pasirinkite kiekį, kurį pirksite. |
 | Savikaina | Pradinei kainai rasti sistema naudoja įkainojimo taisykles, tačiau prireikus tos kainos galima nepaisyti. |
@@ -110,7 +108,7 @@ Puslapio **Savikainos vertinimas** viršuje rodomi nustatymai, kurie buvo naudoj
 | Laukas | aprašymas |
 |---|---|
 | Tiekėjo kodas | Su preke susijusi tiekėjo paskyra. |
-| Prekės Nr. | Prekės numeris. |
+| Prekės numeris | Prekės numeris. |
 | Kiekis | Prekių, naudojamų savikainai nustatyti, skaičius. |
 | Savikaina | Savikainos kaina pagal prekybos sutartį. Ši vertė rodoma vietos valiuta. |
 | Matas | Atskiras matavimo vienetas. Vienetas apibrėžiamas taikomam išleistam produktui. |

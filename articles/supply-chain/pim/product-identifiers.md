@@ -2,11 +2,9 @@
 title: Produkto identifikatoriai
 description: Šioje temoje pateikiama informacija apie įvairių tipų produkto identifikatorius ir paaiškinama, kaip produktų duomenyse galite pridėti produkto identifikatorių.
 author: cvocph
-manager: tfehr
 ms.date: 03/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 1e771d6cbad3faf99f88782d424273f0d8ac98b4
-ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
+ms.openlocfilehash: c3f82834fa7fc5eec6411d92729439dfd49a1fcc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5574202"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820255"
 ---
 # <a name="product-identifiers"></a>Produkto identifikatoriai
 
@@ -33,15 +31,15 @@ ms.locfileid: "5574202"
 
 Šioje temoje pateikiama informacija apie įvairių tipų produkto identifikatorius ir paaiškinama, kaip produktų duomenyse galite pridėti produkto identifikatorių.
 
-Kai su produktais ceche arba sandėlyje dirbate naudodami „Microsoft Dynamics“ ERP arba „Microsoft Dynamics“ CRM, turite būti numatę gerą strategiją produktams ir jų variantams identifikuoti.
+Kai su produktais ceche arba sandėlyje dirbate naudodami „Microsoft Dynamics“ ERP arba „Microsoft Dynamics CRM”, turite būti numatę gerą strategiją produktams ir jų variantams identifikuoti.
 
 ## <a name="unique-product-numberproduct-id"></a>Unikalus produkto numeris / produkto ID
 
 „Dynamics 365 Supply Chain Management“ pirminis produkto identifikatorius yra produkto numeris (t. y. unikalus produkto ID). Šį numerį galima sugeneruoti automatiškai naudojant skaičių seką arba rankiniu būdu susieti su produktu. Produkto variantų atveju numerius galima nustatyti naudojant produkto nomenklatūros šabloną.
 
-Daugeliu atvejų produkto numerio „Dynamics 365 Supply Chain Management“ iš pradžių nesukuria. Vietoj to, numeris su produktu susiejamas produktų ciklo valdymo (PLM) sistemoje arba produktų duomenų valdymo (PDM) sistemoje. Tokius atveju produktams ir produkto variantams importuoti reikia naudoti duomenų objektus. Tada Tiekimo grandinės valdymas naudoja numerius visose operacijose.
+Daugeliu atvejų produkto numerio „Dynamics 365 Supply Chain Management“ iš pradžių nesukuria. Vietoj to, numeris su produktu susiejamas produktų ciklo valdymo (PLM) sistemoje arba produktų duomenų valdymo (PDM) sistemoje. Tokius atveju produktams ir produkto variantams importuoti reikia naudoti duomenų objektus. Tada „Supply Chain Management” naudoja numerius visose operacijose.
 
-Tiekimo grandinės valdymo diegimo metu produktų numerių strategiją reikia ypač gerai apsvarstyti. Gera numeravimo sistema pagerina logistikos srautus ir padeda išvengti klaidų. Geras produkto identifikatorius turi būti sudarytas iš ne daugiau kaip 15 simbolių. Geriausia, jei jis būtų sudarytas iš mažiau nei 10 ir ne daugiau kaip penkių klasifikavimo simbolių. Norėdami įgalinti sparčiąsias ieškas, taip pat galite naudoti ieškos pavadinimus. Ieškos pavadinimas – tai papildomas pavadinimas, kuriuo nurodomos produkto klasifikacijos.
+„Supply Chain Management” diegimo metu produktų numerių strategiją reikia ypač gerai apsvarstyti. Gera numeravimo sistema pagerina logistikos srautus ir padeda išvengti klaidų. Geras produkto identifikatorius turi būti sudarytas iš ne daugiau kaip 15 simbolių. Geriausia, jei jis būtų sudarytas iš mažiau nei 10 ir ne daugiau kaip penkių klasifikavimo simbolių. Norėdami įgalinti sparčiąsias ieškas, taip pat galite naudoti ieškos pavadinimus. Ieškos pavadinimas – tai papildomas pavadinimas, kuriuo nurodomos produkto klasifikacijos.
 
 Naudojant „Microsoft Dataverse“, produkto numeris „Supply Chain Management” taip pat yra produkto numeris „Microsoft Dataverse“. Produkto variantai su „Dataverse“ sinchronizuojami kaip išskirtieji produktai.
 
@@ -60,19 +58,19 @@ Be to, galėsite ieškoti ir filtruoti pagal produkto numerį, produkto pavadini
 
 ## <a name="product-name-and-description"></a>Produkto pavadinimas ir aprašas
 
-Produkto pavadinimas ir aprašas yra žmonėms suprantami produkto identifikatoriai, kuriuos galima tvarkyti įvairiomis kalbomis. Pagal numatytuosius nustatymus Tiekimo grandinės valdymo kliente visų produktų informacija rodoma numatytąja įmonės kalba, o ne vartotojo kalba. Tačiau išversti produkto pavadinimai ir aprašai naudojami bendraujant su visais klientais ir tiekėjais. Vertimai yra paremti pagal kliento ir tiekėjo abonementų kalbos kodą.
+Produkto pavadinimas ir aprašas yra žmonėms suprantami produkto identifikatoriai, kuriuos galima tvarkyti įvairiomis kalbomis. Pagal numatytuosius nustatymus, „Supply Chain Management” kliente visų produktų informacija rodoma numatytąja įmonės kalba, o ne vartotojo kalba. Tačiau išversti produkto pavadinimai ir aprašai naudojami bendraujant su visais klientais ir tiekėjais. Vertimai yra paremti pagal kliento ir tiekėjo abonementų kalbos kodą.
 
 Produkto variantų atveju produkto pavadinimą galima sugeneruoti naudojant produkto nomenklatūros šabloną. Produktų pavadinimai neturi būti unikalūs, todėl galite rasti keletą produktų tuo pačiu pavadinimu.
 
 ## <a name="product-and-item-search-names"></a>Produkto ir prekės ieškos pavadinimai
 
-Tiekimo grandinės valdyme galima nurodyti antrinį produktų ir prekių (patvirtintų produktų) ieškos pavadinimą. Šis ieškos pavadinimas nebūtinai turi būti unikalus ir sukūrus produktą arba produkto variantą jį galima pakeisti. Ieškant produktų pagal kategorijas rekomenduojame naudoti ieškos pavadinimą. Naudojant ieškos pavadinimus galima atlikti sparčiąsias ieškas, ypač pardavimo ir pirkimo procesuose.
+„Supply Chain Management” galima nurodyti antrinį produktų ir prekių (patvirtintų produktų) ieškos pavadinimą. Šis ieškos pavadinimas nebūtinai turi būti unikalus ir sukūrus produktą arba produkto variantą jį galima pakeisti. Ieškant produktų pagal kategorijas rekomenduojame naudoti ieškos pavadinimą. Naudojant ieškos pavadinimus galima atlikti sparčiąsias ieškas, ypač pardavimo ir pirkimo procesuose.
 
 Ieškos pavadinime taip pat gali būti nurodytas kliento arba tiekėjo produkto ID ar kitas išorinis produkto ID, jei šis išorinis ID yra produkto pirminis ieškos kriterijus.
 
 ## <a name="external-product-identifiers-customer-and-vendor-identifiers"></a>Išoriniai produkto identifikatoriai (kliento ir tiekėjo identifikatoriai)
 
-Patvirtintų produktų atveju galite tvarkyti kliento arba tiekėjo naudojamus prekių numerius, prekių pavadinimus ir prekių aprašus. Nuorodos pateikiamos išoriniuose dokumentuose, pvz., pardavimo užsakymuose, pirkimo užsakymuose, važtaraščiuose ir SF. Dabartinės versijos Tiekimo grandinės valdymo išorinės nuorodos nerodomos pagrindinių operacijų puslapiuose. Vienintelė išimtis taikoma tiekėjo prekės numeriui. Jei apibrėžtas patvirtinto produkto numatytasis tiekėjas, šis numeris pateikiamas dialogo lange **Produkto informacija**.
+Patvirtintų produktų atveju galite tvarkyti kliento arba tiekėjo naudojamus prekių numerius, prekių pavadinimus ir prekių aprašus. Nuorodos pateikiamos išoriniuose dokumentuose, pvz., pardavimo užsakymuose, pirkimo užsakymuose, važtaraščiuose ir SF. Dabartinės versijos „Supply Chain Management” išorinės nuorodos nerodomos pagrindinių operacijų puslapiuose. Vienintelė išimtis taikoma tiekėjo prekės numeriui. Jei apibrėžtas patvirtinto produkto numatytasis tiekėjas, šis numeris pateikiamas dialogo lange **Produkto informacija**.
 
 Išorinius produkto identifikatorius galite tvarkyti pagal patvirtintą produktą, patvirtinto produkto variantą, klientą arba klientų grupę, tiekėją arba tiekėjų grupę.
 
@@ -81,7 +79,7 @@ Puslapyje **Patvirtinti produktai** atlikite vieną iš toliau nurodytų veiksm�
 - Klientų atveju skirtuko **Pardavimas** grupėje **Susijusi informacija** pasirinkite **Išorinis prekės aprašas**.
 - Tiekėjų atveju skirtuko **Pirkimas** grupėje **Susijusi informacija** pasirinkite **Išorinis prekės aprašas**.
 
-Puslapyje **Išoriniai prekių aprašai** kliento arba tiekėjo prekės numerį galite susieti su patvirtintu produktu. Šį susiejimą reikia atlikti kiekvienam juridiniam subjektui. Galima užfiksuoti toliau nurodytą informaciją. Deja, dabartinėje Tiekimo grandinės valdymo versijoje etiketės yra šiek tiek netikslios. Tačiau būsimoje versijoje šias etiketes bus galima pakeisti.
+Puslapyje **Išoriniai prekių aprašai** kliento arba tiekėjo prekės numerį galite susieti su patvirtintu produktu. Šį susiejimą reikia atlikti kiekvienam juridiniam subjektui. Galima užfiksuoti toliau nurodytą informaciją. Deja, dabartinėje „Supply Chain Management” versijoje etiketės yra šiek tiek netikslios. Tačiau būsimoje versijoje šias etiketes bus galima pakeisti.
 
 | Laukas | Atitinkama su klientu susijusi informacija | Atitinkama su tiekėju susijusi informacija |
 |-------|------------------------------------|----------------------------------|
@@ -110,7 +108,7 @@ El. komercijai labai svarbu, kad visos šalys bendrautų viena kalba ir produkt�
 
 Rekomenduojame tvarkyti GTIN kaip brūkšninį kodą. Tačiau GTIN taip pat galite tvarkyti ir puslapyje **Prekė – GTIN**. Norėdami atidaryti šį puslapį, puslapyje **Patvirtinti produktai** pateikiamo skirtuko **Atsargų tvarkymas** grupėje **Sandėlis** pasirinkite **GTIN kodai**. GTIN nėra tvarkomas kaip bendrasis numeris. Vietoj to, jis tvarkomas kaip juridinis subjektas.
 
-Tiekimo grandinės valdyme pakavimo variantus reikia nurodyti sandėlio operacijose apibrėžiant konkrečius matavimo vienetus. Pavyzdžiui, prekę galima laikyti vienetais, sugrupavus po šešias, ant padėklų po 18 arba išdėsčius ant viso padėklo ploto. Kiekvienam iš šių pakavimo variantų bus nurodytas konkretus matavimo vienetas. GTIN paprastai yra susijęs su produkto pakavimo vienetu, todėl puslapyje **Prekė – GTIN** galite tvarkyti kelis GTIN produkto kodus ir matavimo vienetą. Tačiau to paties GTIN kodo skirtingoms juridinio subjekto prekėms arba produkto variantams negalite naudoti daugiau nei vieną kartą.
+„Supply Chain Management” pakavimo variantus reikia nurodyti sandėlio operacijose apibrėžiant konkrečius matavimo vienetus. Pavyzdžiui, prekę galima laikyti vienetais, sugrupavus po šešias, ant padėklų po 18 arba išdėsčius ant viso padėklo ploto. Kiekvienam iš šių pakavimo variantų bus nurodytas konkretus matavimo vienetas. GTIN paprastai yra susijęs su produkto pakavimo vienetu, todėl puslapyje **Prekė – GTIN** galite tvarkyti kelis GTIN produkto kodus ir matavimo vienetą. Tačiau to paties GTIN kodo skirtingoms juridinio subjekto prekėms arba produkto variantams negalite naudoti daugiau nei vieną kartą.
 
 Norėdami tvarkyti **GTIN kodus**, puslapyje **Patvirtinti produktai** pateikiamo skirtuko **Atsargų tvarkymas** grupėje **Sandėlis** pasirinkite **GTIN**.
 
@@ -136,7 +134,7 @@ Deja, nėra jokių standartinių funkcijų, kurios leistų ieškoti produktų pa
 | Išleistų produktų variantų išoriniai kodai | Išorinis kodas | Išorinis kodas, išorinio kodo klasės, prekės numeris, produkto dimensijos | Išoriniai kodai priklauso nuo juridinio subjekto. Importuodami turite atsižvelgti į nustatytą kodo klasę. Kodo klases importuokite pasinaudodami subjektu **Patvirtintų produktų išorinio kodo klasės**. Šis objektas nurodo produkto variantus pagal prekės numerį ir produkto dimensijas. |
 | Pagal produkto numerį patvirtintų produkto variantų išorinių kodų identifikatorius | Išorinis kodas | Išorinis kodas, išorinio kodo klasės, produkto numeris | Išoriniai kodai priklauso nuo juridinio subjekto. Importuodami turite atsižvelgti į nustatytą kodo klasę. Kodo klases importuokite pasinaudodami subjektu **Patvirtintų produktų išorinio kodo klasės**. Šis subjektas nurodo produkto variantus pagal varianto produkto numerį. (Nuo kito pagrindinio leidimo) |
 | GTIN | Netaikoma | Netaikoma | Šiuo metu specialių subjektų, naudojamų GTIN kodams importuoti ir eksportuoti, nėra. Vietoj to rekomenduojame naudoti subjektą **Prekės brūkšninis kodas**. |
-| Produkto subjekto „Common Data Service“ identifikatoriaus subjektas | Netaikoma | Prekės numeris, prekės ieškos pavadinimas, produkto ieškos pavadinimas, tiekėjo prekės numeris, kliento prekės numeris, išoriniai kodai, GTIN kodai, brūkšniniai kodai | Šis subjektas visus identifikatorius sujungia į vieną duomenų modelį, kad visus identifikatorius ir susijusius jų tipus būtų galima lengvai eksportuoti naudojant vieną sąsają. Identifikatoriaus kodams ir aprašams eksportuoti naudokite subjektą **Produkto subjekto identifikatoriaus kodas**. Papildomai aprėpties informacijai, pvz., šalis, teisinis subjektas, kiekis ar vienetas, į identifikatorių eksportuoti naudokite subjektą **Produkto subjekto identifikatoriaus aprėptis**. |
+| Produkto subjekto „Common Data Service“ identifikatoriaus subjektas | Netaikoma | Prekės numeris, prekės ieškos pavadinimas, produkto ieškos pavadinimas, tiekėjo prekės numeris, kliento prekės numeris, išoriniai kodai, GTIN kodai, brūkšniniai kodai | Šis subjektas visus identifikatorius sujungia į „One Data Model”, kad visus identifikatorius ir susijusius jų tipus būtų galima lengvai eksportuoti naudojant vieną sąsają. Identifikatoriaus kodams ir aprašams eksportuoti naudokite subjektą **Produkto subjekto identifikatoriaus kodas**. Papildomai aprėpties informacijai, pvz., šalis, teisinis subjektas, kiekis ar vienetas, į identifikatorių eksportuoti naudokite subjektą **Produkto subjekto identifikatoriaus aprėptis**. |
 
 ### <a name="product-and-item-number-sequences"></a>Numeracijos pagal produktą ir prekės numerį
 
@@ -146,7 +144,7 @@ Galite nurodyti dvi skirtingas numeracijas.
 - Atskiro teisinio subjekto prekės numerio numeraciją pagal **prekės numerį**
 
 > [!NOTE]
-> Prekės numerį kaip atskirą identifikatorių turėtumėte naudoti tik tada, kai perkeliate skirtingų šaltinių, kuriuose naudojamos skirtingos numeravimo sistemos, skirtingus teisinius subjektus. Turite stengtis visada naudoti visuose teisiniuose subjektuose unikalų produkto identifikatorių. Dėl šios priežasties parinktį **Neautomatinis**, skirtą numeracijai pagal **prekės numerį**, reikia nustatyti į **Taip**. Tokiu būdu kūrimo metu prekės numeris atitiks produkto numerį. Jei Tiekimo grandinės valdymas nėra pagrindinė naujų produktų numerių sistema, numeracijos pagal **prekės numerį** ir **produkto numerį** parinktį **Neautomatinis** turite nustatyti į **Taip**.
+> Prekės numerį kaip atskirą identifikatorių turėtumėte naudoti tik tada, kai perkeliate skirtingų šaltinių, kuriuose naudojamos skirtingos numeravimo sistemos, skirtingus teisinius subjektus. Turite stengtis visada naudoti visuose teisiniuose subjektuose unikalų produkto identifikatorių. Dėl šios priežasties parinktį **Neautomatinis**, skirtą numeracijai pagal **prekės numerį**, reikia nustatyti į **Taip**. Tokiu būdu kūrimo metu prekės numeris atitiks produkto numerį. Jei „Supply Chain Management” nėra pagrindinė naujų produktų numerių sistema, numeracijos pagal **prekės numerį** ir **produkto numerį** parinktį **Neautomatinis** turite nustatyti į **Taip**.
 
 Kai naudojate subjektą **Išleisto produkto kūrimas V2** produktams kurti, tai, kaip numeracijos naudojamos produkto numeriui ir prekės numeriui kurti, įtakos gali turėti keletas parametrų.
 

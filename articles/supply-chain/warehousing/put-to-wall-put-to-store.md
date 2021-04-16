@@ -2,11 +2,9 @@
 title: Dėjimas prie sienos - dėjimas į parduotuvę
 description: Šioje temoje pateikta informacija apie dėjimo prie sienos - dėjimo į parduotuvę funkcijas. Funkcijos leidžia jums tvarkyti scenarijus, kuriuose privalote konsoliduoti produktą į išankstinio pakavimo sritį pagal konfigūruojamus kriterijus. Jis padeda sumažinti pakavimo laiką, nes leidžia paimti vieną paskirties licencijos numerį ir gali naudoti daugiau padėjimo padėčių klasterinio paėmimo metu.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationType, WHSLocationProfile, WHSLocation, WHSPackProfile, WHSWaveStepCode, WHSOutboundSortTemplate, WHSPostMethod, WHSWaveTemplateTable, WHSLocDirTable, WHSWorkClass, WHSWorkTemplateTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: e2dcfa18af457ea21618704bafa2ed81c615d952
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cf34a61d0b3f784b5a424473588d05bf8703635c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228518"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823292"
 ---
 # <a name="put-to-wall---put-to-store"></a>Dėjimas prie sienos - dėjimas į parduotuvę
 
@@ -524,7 +522,7 @@ Dabar, kai visas inventorius buvo įdėtas į rūšiavimo vietą, jis turi būti
 
 Jei rūšiavimo padėtys turi būti uždarytos rankiniu būdu, **Automatinio uždarymo rūšiavimo padėties** parinktis siunčiamo rūšiavimo šablonui turi būti nustatyta į *Ne* ir uždarymas turi būti atliktas prieš inventoriaus judėjimą į „bay door“ sritį. Padėtys gali būti uždaromos įvariais būdais:
 
-- Per sandėlio programą:
+- Per Sandėlio valdymo mobiliųjų įrenginių programėlę:
 
     - Vartotojai gali nuskaityti vieną iš objektų, kurie jau yra padėtyje ir tuomet pasirinkti **Uždaryti** padėties uždarymui.
     - Jei vartotojas nuskaito talpyklą, kuri jau buvo rūšiuota talpykloje, rodomas klaidos pranešimas. Nepaisant to, vartotojas gali ir toliau tęsti padėties uždarymą.

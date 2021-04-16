@@ -2,11 +2,9 @@
 title: Inventoriaus matomumo papildinys
 description: Ši tema aprašo, kaip įdiegti ir konfigūruoti inventoriaus matomumo papildinį „Dynamics 365 Supply Chain Management“.
 author: sherry-zheng
-manager: tfehr
 ms.date: 10/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 4e588be2ac5aae395ca66e3c9a743a67d71db7c0
-ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
+ms.openlocfilehash: e294ada8dd3e764987aa363adb2614416986575b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5574227"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821134"
 ---
 # <a name="inventory-visibility-add-in"></a>Inventoriaus matomumo papildinys
 
@@ -27,7 +25,7 @@ ms.locfileid: "5574227"
 [!include [preview banner](../includes/preview-banner.md)]
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-Inventoriaus matomumo papildinys yra nepriklausomos ir labai išdidinamos mirkopaslaugos, kuriso įjungia realaus laiko turimo inventoriaus sekimą ir taip suteikia bendrą inventoriaus vaizdą.
+Inventoriaus matomumo papildinys yra nepriklausomos ir labai išdidinamos mirkopaslaugos, kurios įjungia realaus laiko turimo inventoriaus sekimą ir taip suteikia bendrą inventoriaus vaizdą.
 
 Visa informacija susijusi su turimu inventoriumi yra eksportuojama į paslaugas esančias šalia realaus laiko per žemo lygio SQL integravimą. Išorės sistemos prieiga prie paslaugų per RESTful API, kurios leidžia laukti turimos informacijos pagal turimą dimensijų rinkinį ir gauti esamų turimų padėčių sąrašą.
 
@@ -39,7 +37,7 @@ Inventoriaus matomumas suteikia konfigūravimo parinktis, kurios leidžia jį in
 
 ## <a name="install-the-inventory-visibility-add-in"></a>Įdiekite Inventoriaus matomumo papildinį
 
-Jums reikia įdiegtį jį naudjant „Microsoft Dynamics Lifecycle Services“ (LCS). LCS yra bendradarbiavimo portalas suteikiantis aplinką ir reguliariai naujinamų paslaugų rinkinį, kuris padeda jums valdyti programos gyvavimo ciklą jūsų „Dynamics 365 Finance and Operations“ programose.
+Jums reikia įdiegti jį naudojant „Microsoft Dynamics Lifecycle Services“ (LCS). LCS yra bendradarbiavimo portalas suteikiantis aplinką ir reguliariai naujinamų paslaugų rinkinį, kuris padeda jums valdyti programos gyvavimo ciklą jūsų „Dynamics 365 Finance and Operations“ programose.
 
 Dėl daugiau informacijos, žr. [„Lifecycle Services“ ištekliai](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs).
 
@@ -47,7 +45,7 @@ Dėl daugiau informacijos, žr. [„Lifecycle Services“ ištekliai](https://do
 
 Prieš jums įdiegiant inventoriaus matomumo papildinį, atlikite šiuos veiksmus:
 
-- Gaukite LCS implementavimo projektą su mažiausiai viena patalpinta aplinka.
+- Gaukite LCS diegimo projektą su mažiausiai viena patalpinta aplinka.
 - Įsitikinkite, kad baigtos būtinosios priedų nustatymo sąlygos, pateikiamos skyriuje [Priedų apžvalga](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md) buvo patenkintos. Atsargų matomumui nereikia dvigubo rašymo susiejimo.
 - Kreipkitės į atsargų matomumo komandą el. paštu [inventvisibilitysupp@microsoft.com ](mailto:inventvisibilitysupp@microsoft.com), kad gautumėte šiuos tris reikalingus failus:
 
@@ -121,7 +119,7 @@ Norėdami įdiegti inventoriaus matomumo papildinį, atlikite šiuos veiksmus:
 
 1. Rinkitės **Diegti naują papildinį** nuorodą. Esamų atvirų papildinių sąrašas.
 1. Sąraše pasirinkite **Atsargų matomumas**.
-1. Įveskite tolesnes vertes tolesniiuose savo aplinkos laukeliuose:
+1. Įveskite šias vertes savo aplinkos laukeliuose:
 
     - **AAD programos (kliento) ID**
     - **ĮTRAUKITE nuomotojo ID**
@@ -271,14 +269,14 @@ Prieš naudodami paslaugas, turite užbaigti konfigūravimus aprašytus tolesniu
 
 Dalijimas gali stipriai paveikti matomumo papildinio veikimą. Gera mintis būtų nustatyti schemą, kuri leidžia mažoms duomenų grupėms veikti vis dar leidžiant svarbias duomenų užklausa.
 
-Visuomet `organizationId` (`dataAreaId` „Supply Chain Management“) bus dalijimo dalis ir pagal nutylėjimą papildinys nustatytas į dimensijų dalijimą kaip *Saitas + Vieta*. Tai reiškia, kad paslaugos turi būti visuomet laukiamos su šia dimensjia filtruose.
+Visuomet `organizationId` (`dataAreaId` „Supply Chain Management“) bus dalijimo dalis ir pagal nutylėjimą papildinys nustatytas į dimensijų dalijimą kaip *Saitas + Vieta*. Tai reiškia, kad paslaugos turi būti visuomet laukiamos su šia dimensija filtruose.
 
 > [!NOTE]
 > *Saitas* ir *Vieta* yra dvi pagrindinės dimensijos inventoriaus matomume. „Supply Chain Management“ dimensijos yra vadinamos *Saitas* (`InventSiteId`) ir *Sandėlis* (`InventLocationId`)
 
 ### <a name="dimension-configurations"></a>Dimensijos konfigūravimai
 
-Inventoriaus matomumas suteikia pagrindinų numatytų dimensijų sąrašą siekiant integruoti kelis sistemos išteklius.
+Inventoriaus matomumas suteikia pagrindinių numatytų dimensijų sąrašą siekiant integruoti kelis sistemos išteklius.
 
 Tolesnė lentelė pateikia inventoriaus dimensijas, kurios bus numatytieji vardai inventoriaus papildinyje.
 
@@ -302,14 +300,14 @@ Tolesnė lentelė pateikia inventoriaus dimensijas, kurios bus numatytieji varda
 
 Jei tinkinta dimensija yra ir jai reikia patekti į eigą į numatytąją vertę, kai suvartojama inventoriaus matomume, ją galite konfigūruoti **TInkinta dimensija** pavadinime inventoriaus matomume.
 
-Išorės sistemos prieiga prie „Inventory Visibility“ per RESTful API, kurios leidžia turėti informaciją pagal suteiktus laukiančius dimensijų rinkinius. Dėl integravimo, inventoriaus matomumas jums leidžia konfigūruoti *išorės kanalo duomenų šaltinš* ir šaltinio nurodymą *tikslinis nurodymas* inventoriaus matomume.
+Išorės sistemos prieiga prie „Inventory Visibility“ per RESTful API, kurios leidžia turėti informaciją pagal suteiktus laukiančius dimensijų rinkinius. Dėl integravimo inventoriaus matomumas jums leidžia konfigūruoti *išorės kanalo duomenų šaltinį* ir šaltinio nurodymą *tikslinis nurodymas* inventoriaus matomume.
 
 Tikslines nurodymas turi būti vienas iš:
 
-- Numatyti nurodymai Inventoriaus matomumo
+- Numatyti Inventoriaus matomumo nurodymai
 - Pasirinktinės dimensijos
 
-Nurodymo konfigūravimo tikslas yra standartizuoti daugelio sistemų integravimą užklausai nurydmuose ir publikuoti įvykį su nurodymais.
+Nurodymo konfigūravimo tikslas yra standartizuoti daugelio sistemų integravimą užklausai dimensijose ir publikuoti įvykį su dimensijomis.
 
 #### <a name="indexing"></a>Indeksavimas
 
@@ -318,7 +316,7 @@ Didžiąją laiko dalį, inventoriaus turima užklausa nebus tik aukščiausia �
 Inventoriaus matomumas suteikia lankstumo ir leidžia jums nustatyti indeksavimą, kurie paremti nurodymu ir jų deriniu.
 
 > [!NOTE]
-> Šiuo metu galite konfigūruoti indeksu iki daugiausiai penkių. Turite atsargiai apgalvoti, kurie nurodymai ar derinys bus naudojamas siekiant implementuoti užtikrinant, kad atitiks jis jūsų verslo poreikius. Pavyzdžiui, jei norite laukti produktų tokia tvarka:
+> Šiuo metu galite konfigūruoti indeksu iki daugiausiai penkių. Turite atsargiai apgalvoti, kurie nurodymai ar derinys bus naudojamas siekiant įdiegti užtikrinant, kad atitiks jis jūsų verslo poreikius. Pavyzdžiui, jei norite laukti produktų tokia tvarka:
 
 - Laukti bendrintų produktų turimų *Spalva* ir *Dydis* nurodymuose.
 - Kai kada norite tik laukti produkto bendrai.
@@ -355,7 +353,7 @@ Galite padėti savo laukimo kriterijus pagal būtiną tekstą.
 
 #### <a name="custom-measurement"></a>Tinkintas matavimas
 
-Numatytieji matavimo kiekiai yra siejami su „Supply Chain Management”. Tačiau gali reikėti kiekio, kuris būtų pagamintas iš numatytųjų matavimų kombinacijos. Tam, turite turėti tinkintų kiekių konfigūravimą, kuris bus įtrauktas į išvesties turimus laukimus.
+Numatytieji matavimo kiekiai yra siejami su „Supply Chain Management”. Tačiau gali reikėti kiekio, kuris būtų pagamintas iš numatytųjų matavimų kombinacijos. Tam, turite turėti tinkintų kiekių konfigūravimą, kuris bus įtrauktas į išvesties turimas užklausas.
 
 Ši funkcija paprasčiausiai leidžia jums nustatyti priemonės rinkinį, kuris bus įtrauktas ir (arba) nustatys priemones išimtas siekiant suformuoti tinkintą priemonę.
 
@@ -437,7 +435,7 @@ Su tuo, laukimas tinkinto matavimo kiekyje grįš į tolesnę išvestį.
 ]
 ```
 
-Išvestis `MyCustomAvailableforReservation` praemta apskaičiavimo nustatymais tinkintuose matavimuose:  
+Išvestis `MyCustomAvailableforReservation` paremta apskaičiavimo nustatymais tinkintuose matavimuose:  
  *100 + 50 + 80 + 90 + 30 &ndash; 10 &ndash; 20 &ndash; 60 &ndash; 40 = 220*
 
 ### <a name="posting-on-hand-changes"></a>Turimų keitimų publikavimas
@@ -448,7 +446,7 @@ Tikslus URL, į kurį bus publikuojamas įvykis bus publikuojamas priklausomai n
 
 Kai jis autentifikuotas, šis URL gali būti naudojamas kartu su HTTP `POST` metodu, kad siųstumėte turimus keitimo įvykius į paslaugas.
 
-Konkreti antraštė naudojamas siekiant pranešti su „Dynamics 365“ paslaugomis per HTTP užklausas nustatant aplinkos ID „Supply Chain Management“ elementos duomenis su juo susietais. Pvz.:
+Konkreti antraštė naudojamas siekiant pranešti su „Dynamics 365“ paslaugomis per HTTP užklausas nustatant aplinkos ID „Supply Chain Management“ elemento duomenis su juo susietais. Pvz.:
 
 `x-ms-environment-id: 2db79622-f97a-4d64-9844-d12efed41796`
 
@@ -491,7 +489,7 @@ Atsiminkite, kad galite nustatyti `dimensionDataSource` ir naudoti tinkintas dim
 
 #### <a name="posting-on-hand-changes-query-example-2"></a>Publikavimo turimų keitimų laukimo pavyzdys 2
 
-Pavyzdys rodo scenarijų, kuriame jokie žemėlapiai nenustatyti dimensijos konfigūravimui „Power Apps“, todėl publikavimas taip pat turi naudoti pagrindinę dimensiją. Visos dimensijos turi būti pagrindinės, kai  `dimensionDataSource` laukelis yra nulio reiškmės, tuščias ar balta erdvė.
+Pavyzdys rodo scenarijų, kuriame jokie žemėlapiai nenustatyti dimensijos konfigūravimui „Power Apps“, todėl publikavimas taip pat turi naudoti pagrindinę dimensiją. Visos dimensijos turi būti pagrindinės, kai  `dimensionDataSource` laukelis yra nulio reikšmės, tuščias ar balta erdvė.
 
 ```json
 {
@@ -512,7 +510,7 @@ Pavyzdys rodo scenarijų, kuriame jokie žemėlapiai nenustatyti dimensijos konf
 }
 ```
 
-#### <a name="json-document-field-properties"></a>JSON dokumento laukelip ypatybės
+#### <a name="json-document-field-properties"></a>JSON dokumento laukelio ypatybės
 
 Laukeliai iš JSON užklausų pavyzdžių, pateikti anksčiau turi ypatybes išvardytas tolesnėje lentelėje.
 
@@ -521,8 +519,8 @@ Laukeliai iš JSON užklausų pavyzdžių, pateikti anksčiau turi ypatybes išv
 | `id` | Unikalus ID konkrečiam keitimo įvykiui. Šis ID naudojamas siekiant užtikrinti, kad jei komunikacija su paslaugomis nepavyksta publikavimo metu, pakartotinis pateikimo įvykis nevyks tame pačiame taške sistemai skaičiuojant dukart. |
 | `organizationId` | Organizacijos identifikatorius susietas su įvykiu. Tai patalpina „Supply Chain Management“ organizacijas ar duomenų srities ID. |
 | `productId` | Aptariamas produkto identifikatorius. |
-| `quantity` | Kiekis, pagal kurį turimi poreikiai keičiami. Jei pavyzdžiui 10 naujų beigelių įtraukti į lentylą, vertė yra 10. Jei 3 beigeliai buvo pašalinti nuo lentynos ar parduoti, ši vertė bus -3. |
-| `dimensionDataSource` | Duomenų šaltinio dimensijų naudojimas publikavimo keitimo įvykyje ir eilėje. Jei nurodėte duomenų šaltinį, galite naudoti tinkintas dimensijas iš konkretaus duomenų šaltinio. Su dimensijos konfigūravimu, inventoriaus matomumas gali žymėti tinkintas dimensijas į bendras nustatytas dimensijas. Jei `dimensionDataSource` nenurodyta, galite tik naudoti bendras numatytąsias dimenseijas savo eilėse.   |
+| `quantity` | Kiekis, pagal kurį turimi poreikiai keičiami. Jeigu, pavyzdžiui, 10 naujų riestainių buvo įtraukti į lentyną, vertė yra 10. Jei 3 riestainiai buvo pašalinti nuo lentynos ar parduoti, ši vertė bus -3. |
+| `dimensionDataSource` | Duomenų šaltinio dimensijų naudojimas publikavimo keitimo įvykyje ir eilėje. Jei nurodėte duomenų šaltinį, galite naudoti tinkintas dimensijas iš konkretaus duomenų šaltinio. Su dimensijos konfigūravimu, inventoriaus matomumas gali žymėti tinkintas dimensijas į bendras nustatytas dimensijas. Jei `dimensionDataSource` nenurodyta, galite tik naudoti bendras numatytąsias dimensijas savo eilėse.   |
 | `dimensions` | Dinaminis rakto maišas/verčių poros. Jos nustatys keletą dimensijų „Supply Chain Management“, tačiau galite taip pat įtraukti tinkintas dimensijas (tokias kaip *Šaltinis*), kurios nustatys, ar įvykis ateina iš „Supply Chain Management“ ar išorės sistemos. |
 
 ### <a name="querying-current-on-hand"></a>Esamas turimas laukimas
@@ -570,7 +568,7 @@ Atsiminkite, kad galite nustatyti `dimensionDataSource` ir naudoti tinkintas dim
 
 #### <a name="current-on-hand-query-example-2"></a>Esamas turimas laukimo pavyzdys 2
 
-Pavyzdys rodo scenarijų, kuriame jokie žemėlapiai nenustatyti dimensijos konfigūravimui „Power Apps“, todėl publikavimas taip pat turi naudoti pagrindinę dimensiją. Visos dimensijos turi būti pagrindinės, kai `dimensionDataSource` laukelis skyriuje `filters` yra nulio reiškmės, tuščias ar balta erdvė.
+Pavyzdys rodo scenarijų, kuriame jokie žemėlapiai nenustatyti dimensijos konfigūravimui „Power Apps“, todėl publikavimas taip pat turi naudoti pagrindinę dimensiją. Visos dimensijos turi būti pagrindinės, kai `dimensionDataSource` laukelis skyriuje `filters` yra nulio reikšmės, tuščias ar balta erdvė.
 
 ```json
 {

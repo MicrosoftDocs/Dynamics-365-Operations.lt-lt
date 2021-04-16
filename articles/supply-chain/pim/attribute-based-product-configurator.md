@@ -2,11 +2,9 @@
 title: Produkto konfigūravimo pagal apribojimus atributais pagrįstos pardavimo kainos
 description: Šioje temoje aprašoma, kaip sukurti pardavimo kainos modelius, kurių pardavimo kainos pagrįstos komponentais ir atributais, o ne faktine komplektavimo specifikacija ir maršrutu.
 author: sorenva
-manager: tfehr
 ms.date: 10/2/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 65ab96c71fa44d6acad0bcb5cd7a65321109b93d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c42a11055e98da59e0428a156ca127529589abab
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5221972"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812935"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Produkto konfigūravimo pagal apribojimus atributais pagrįstos pardavimo kainos
 
@@ -92,7 +90,7 @@ Toliau pateiktame pavyzdyje _EUR_ yra numatytoji valiuta, o _USD_ buvo įtraukta
 
 Norėdami patikrinti, kaip pardavimo kainos veikia konfigūracijos seanso metu, atidarykite jūsų kainos modelio redagavimo puslapį, kaip aprašyta [Jūsų pardavimo kainos modelių kūrimas](#build-price-model), tada veiksmų srityje pasirinkite **Tikrinti**. Atidaromas dialogo langas **Tikrinti produkto modelį**, kuriame galite atlikti toliau pateiktus veiksmus.
 
-- Naudokite čia siūlomus konfigūracijos parametrus, norėdami pasirinkti produkto parinktis ir pežiūrėti, kaip jos paveikia vertę, esančią dalyje **Kaina ir siuntimo data**.
+- Naudokite čia siūlomus konfigūracijos parametrus, norėdami pasirinkti produkto parinktis ir pažiūrėti, kaip jos paveikia vertę, esančią dalyje **Kaina ir siuntimo data**.
 - Pasirinkite **Rodyti kainos paskirstymą**, norėdami atsisiųsti „Excel” dokumentą, kuriame pateikta išsami informacija apie tai, kaip kaina buvo apskaičiuota.
 
 ![Jūsų produkto modelio tikrinimas](media/prod-config-test.png "Jūsų produkto modelio tikrinimas")

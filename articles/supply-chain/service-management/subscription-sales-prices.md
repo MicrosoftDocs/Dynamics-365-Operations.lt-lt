@@ -2,11 +2,9 @@
 title: Prenumeratos pardavimo kainos
 description: Kai kuriate abonementą, pardavimo kainą gaunate iš pardavimo kainos nustatymo, sukurto formoje Pardavimo kaina (abonementas).
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASalespriceSubscription
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2ed8329e9da08fbe24d9b3982eee562974f0fb3b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3b4b02af0a535e67818751c437482c3663524474
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5242306"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817418"
 ---
 # <a name="subscription-sales-prices"></a>Prenumeratos pardavimo kainos   
 
@@ -151,10 +149,10 @@ Jūs norite nustatyti naujam projektui 9030 nustatyti 500 eurų abonemento parda
 <tr class="header">
 <th><p>Galioja nuo</p></th>
 <th><p>Kategorija</p></th>
-<th><p>Project</p></th>
+<th><p>Projektas</p></th>
 <th><p>Prenumerata</p></th>
 <th><p>Laikotarpio kodas</p></th>
-<th><p>Pardav. valiuta</p></th>
+<th><p>Pardavimo valiuta</p></th>
 <th><p>Pardavimo kaina</p></th>
 </tr>
 </thead>
@@ -188,7 +186,7 @@ Tada sukurkite toliau nurodytus abonementus.
 <thead>
 <tr class="header">
 <th><p>Aptarnavimo abonementas</p></th>
-<th><p>Project</p></th>
+<th><p>Projektas</p></th>
 <th><p>Abonementų grupė</p></th>
 <th><p>Kategorija</p></th>
 <th><p>Valiuta</p></th>
@@ -241,7 +239,7 @@ Abonementiniai mokesčiai, kurių pardavimo kaina lygi 500 EUR, sukuriami abieju
 <tr class="header">
 <th><p>Projekto data</p></th>
 <th><p>Aptarnavimo abonementas</p></th>
-<th><p>Project</p></th>
+<th><p>Projektas</p></th>
 <th><p>Kategorija</p></th>
 <th><p>Pradžios data</p></th>
 <th><p>Pabaigos data</p></th>
@@ -290,7 +288,7 @@ Vėliau, jūs galite nuspręsti, kad norite nurodyti projekto 9030 SubKat1 kateg
 <tr class="header">
 <th><p>Galioja nuo</p></th>
 <th><p>Kategorija</p></th>
-<th><p>Project</p></th>
+<th><p>Projektas</p></th>
 <th><p>Prenumerata</p></th>
 <th><p>Laikotarpio kodas</p></th>
 <th><p>Valiuta</p></th>
@@ -337,7 +335,7 @@ Pakartokite pirmiau aprašytą procedūrą, kad sukurtumėte abonemento mokesči
 <tr class="header">
 <th><p>Projekto data</p></th>
 <th><p>Prenumerata</p></th>
-<th><p>Project</p></th>
+<th><p>Projektas</p></th>
 <th><p>Kategorija</p></th>
 <th><p>Pradžios data</p></th>
 <th><p>Pabaigos data</p></th>

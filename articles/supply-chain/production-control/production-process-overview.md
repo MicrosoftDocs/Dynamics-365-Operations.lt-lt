@@ -2,11 +2,9 @@
 title: Gamybos procesų apžvalga
 description: Šioje temoje apžvelgiami gamybos procesai. Jame aprašomi įvairūs gamybos užsakymų, paketinių užsakymų ir „kanban‟ užduočių etapai – nuo užsakymų kūrimo iki finansinio laikotarpio uždarymo.
 author: cvocph
-manager: tfehr
 ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace, ProdParmCostEstimation, ProdParmRelease, ProdSchedule, ProdTableListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12780fc1fa9f6a9c25495ace34b9731df49d5ae6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dcdd8097279027df2fa5cf22cc38cc8a5e2a13e3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209424"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814589"
 ---
 # <a name="production-process-overview"></a>Gamybos procesų apžvalga
 
@@ -35,12 +33,12 @@ Produktų gamyba, procesas, kartais dar vadinamas gamybos ciklu, vykdoma atlieka
 
 Modulis **Gamybos kontrolė** yra susijęs su kitais moduliais, pavyzdžiui, **Produkto informacijos valdymas**, **Atsargų valdymas**, **Didžioji knyga**, **Sandėlio valdymas**, **Projekto apskaita** ir **Organizacijos administravimas**. Ši integracija palaiko informacijos srautą, reikalingą galutinei prekei pagaminti.  
 
-Gamybos procesui paprastai įtaką daro išlaidų apskaitos ir atsargų vertinimo būdai, kurie pasirenkami konkrečiam gamybos procesui. Tiekimo grandinės valdymas palaiko tiek faktines išlaidas („pirmosios įvestos, pirmosios nurašomos“ \[FIFO\]; „paskutinės įvestos, pirmosios nurašomos“ \[LIFO\]; slankusis vidurkis ir laikotarpio svertinis vidurkis), tiek standartinius išlaidų metodus. „Lean manufacturing“ įdiegiamas pagal įkainojimo atvirkštine tvarka principą.  
+Gamybos procesui paprastai įtaką daro išlaidų apskaitos ir atsargų vertinimo būdai, kurie pasirenkami konkrečiam gamybos procesui. „Supply Chain Management” palaiko tiek faktines išlaidas („pirmosios įvestos, pirmosios nurašomos“ \[FIFO\]; „paskutinės įvestos, pirmosios nurašomos“ \[LIFO\]; slankusis vidurkis ir laikotarpio svertinis vidurkis), tiek standartinius išlaidų metodus. „Lean manufacturing“ įdiegiamas pagal įkainojimo atvirkštine tvarka principą.  
 
 Išlaidų matavimo metodo pasirinkimas taip pat apibrėžia ataskaitų apie medžiagų ir išteklių suvartojimą gamybos proceso metu reikalavimus. Paprastai faktinių išlaidų metodai reikalauja tiksliai kurti užduoties lygio ataskaitas, o periodiniai įkainojimo metodai užtikrina ne tokių smulkių medžiagų ir išteklių suvartojimo ataskaitų kūrimą.
 
 ## <a name="mixed-mode-manufacturing"></a>Gamyba mišriuoju režimu
-Įvairūs produktai ir gamybos topologijos reikalauja taikyti skirtingus užsakymo tipus. Naudodami Tiekimo grandinės valdymą, dirbdami mišriuoju režimu galite taikyti įvairius užsakymo tipus. Kitaip tariant, gaminant vieną baigtą produktą iki galo, proceso metu galimi visi užsakymo tipai.
+Įvairūs produktai ir gamybos topologijos reikalauja taikyti skirtingus užsakymo tipus. Naudodami „Supply Chain Management”, dirbdami mišriuoju režimu galite taikyti įvairius užsakymo tipus. Kitaip tariant, gaminant vieną baigtą produktą iki galo, proceso metu galimi visi užsakymo tipai.
 
 -   **Gamybos užsakymas** – tai klasikinis užsakymo tipas, skirtas konkretaus produkto arba produkto varianto nurodytam kiekiui tam tikrą datą gaminti. Gamybos užsakymai pagrįsti komplektavimo specifikacijomis (KS) ir maršrutais.
 -   **Paketinis užsakymas** – šis užsakymo tipas naudojamas proceso pramonės šakoms ir atskiriems procesams, kur gamybos konvertavimas pagrįstas formule, kurioje sudėtiniai ir šalutiniai produktai gali būti baigti produktai arba kartu su pagrindiniu produktu, arba vietoje jo. Paketiniuose užsakymuose naudojami tipo **Formulė** KS ir maršrutai.

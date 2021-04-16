@@ -2,7 +2,6 @@
 title: Tranzito prekių apdorojimas
 description: Šioje temoje aprašoma, kaip dirbti su tranzito prekių užsakymais. Kai užsakymas arba reisas nustatomas naudoti tranzito prekių apdorojimą, prekėms SF galima išrašyti prieš jas gaunant į sandėlį vartojimui.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 77e30f8679c9422e895432c023997b5ff4768ebd
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 9a1316de8d79f3ce34bb28812993d096cbd0c2ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500409"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823414"
 ---
 # <a name="goods-in-transit-processing"></a>Tranzito prekių apdorojimas
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šioje temoje aprašoma, kaip dirbti su tranzito prekių užsakymais. Tokio tipo užsakymą naudoja tik modulis **Iškrovimo kaina**. Kai užsakymas arba reisas nustatomas naudoti tranzito prekių apdorojimą, nereikia laukti, kol gausite prekes sandėlyje, kad joms galėtumėte išrašyti SF. Vietoje to, prekėms SF išrašoma tada, kai jos išvežamos iš tiekėjo sandėlio arba iš išvykimo uosto, o finansinės išlaidos pripažįstamos prasidėjus reisui. Šios funkcijos leidžia tinkamai perimti atsargų nuosavybę, nes prekės dažnai tampa jūsų organizacijos nuosavybe, kai jos išvežamos iš siuntimo uosto.
 
@@ -135,7 +133,7 @@ Iškrovimo kaina prie mobiliojo įrenginio meniu elementų prideda nurodytus dar
 
 Šių procesų konfigūracijos parametrai yra panašūs į nustatymus [pirkimo užsakymo gavimo ir atidėjimo darbo sukūrimo procesams](https://technet.microsoft.com/library/dn553216.aspx). Tačiau procesas *Tranzito prekių gavimas ir atidėjimas* taip pat prideda nurodytą laukelį.
 
-- **Siuntimo konteinerio įjungimas baigtas** – jei ši parinktis nustatyta kaip *Taip*, baigus atidėjimo darbą sandėlio programa pateikia papildomą parinktį, pavadintą **Siuntimo konteineris baigtas**. Pasirinkus šią parinktį darbuotojo bus prašoma patvirtinti, kad konteineris baigtas. Tuo metu visi trumpi gaviniai bus apdorojami kaip operacijos dalis.
+- **Siuntimo konteinerio įjungimas baigtas** – jei ši parinktis nustatyta kaip *Taip*, baigus atidėjimo darbą sandėlio valdymo mobiliųjų įrenginių programėlė pateikia papildomą parinktį pavadinimu **Siuntimo konteineris baigtas**. Pasirinkus šią parinktį darbuotojo bus prašoma patvirtinti, kad konteineris baigtas. Tuo metu visi trumpi gaviniai bus apdorojami kaip operacijos dalis.
 
 ### <a name="location-directives"></a>Vietos nurodymai
 

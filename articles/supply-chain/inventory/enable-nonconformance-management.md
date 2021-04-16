@@ -2,11 +2,9 @@
 title: Neatitikimų valdymas
 description: Šiame straipsnyje aprašytas pagrindinis nustatymas, kuris reikalingas norint naudoti neatitikimus. Jei norite naudoti kokybės užsakymus, reikalingi papildomi nustatymai.
 author: perlynne
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventParameters, InventProblemType, InventProblemTypeSetup, InventQuarantineZone, InventTestDiagnosticType, InventTestReportSetup, SysUserManagement, InventTestRelatedOperations
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c439747c71751588413444824e1051c3254023e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9505e810ec1a34b2cb774ccde2273b16f92ba9e7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228616"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819381"
 ---
 # <a name="nonconformance-management"></a>Neatitikimų valdymas
 
@@ -35,7 +33,7 @@ Norėdami įgalinti neatitikimo valdymą, atlikite toliau nurodytus veiksmus:
 1.  Apibrėžkite su neatitiktimis susijusius atsargų ir sandėlio valdymo parametrus:
     -   Nustatykite parinkčiai **Naudoti kokybės valdymą** reikšmę **Taip**.
     -   Lauke **Valandinis tarifas** įveskite valandinį darbo tarifą vietine valiuta. Valandinis tarifas naudojamas apskaičiuojant su neatitikimu susijusias operacijų išlaidas. Valandinis tarifas ir apskaičiuotos išlaidos suteikia nuorodinės informacijos apie neatitiktį. Jie nesąveikauja su kitomis funkcijomis.
-    -   Naudokite skirtuką **Kokybės valdymas**> puslapyje **Ataskaitos sąranka** , kad apibrėžtumėte spausdinamo dokumento tipą. Galite atspausdinti neatitikties ataskaitą, neatitikties žymę arba taisymo ataskaitą. Galite nurodyti daugiau nei vieną įrašo tipą, norėdami spausdinti skirtingus dokumentų tipus ant ataskaitos, arba spausdinti vidines ir išorines pastabas. Gali būti paranku naudoti puslapį **Dokumento tipas** apibrėžiant unikalų neatitikties dokumento tipą ir unikalų taisymų dokumento tipą. Pavyzdžiui, norite įvesti pastabas apie neatitiktį naudodami unikalų neatitikties dokumento tipą. Tokiu atveju nustatykite unikalų dokumento tipą ataskaitos parinktyse.
+    -   Naudokite skirtuką **Kokybės valdymas** puslapyje **Ataskaitos sąranka** , kad apibrėžtumėte spausdinamo dokumento tipą. Galite atspausdinti neatitikties ataskaitą, neatitikties žymę arba taisymo ataskaitą. Galite nurodyti daugiau nei vieną įrašo tipą, norėdami spausdinti skirtingus dokumentų tipus ant ataskaitos, arba spausdinti vidines ir išorines pastabas. Gali būti paranku naudoti puslapį **Dokumento tipas** apibrėžiant unikalų neatitikties dokumento tipą ir unikalų taisymų dokumento tipą. Pavyzdžiui, norite įvesti pastabas apie neatitiktį naudodami unikalų neatitikties dokumento tipą. Tokiu atveju nustatykite unikalų dokumento tipą ataskaitos parinktyse.
     -   Įgalinkite neatitikties ir taisymo nuorodų skaičių sekas.
 
 2.  Įgalinkite vartotojo neatitikčių patvirtinimą. Norėdami kiekvienam vartotojui, kuris turi patvirtinti neatitikimą, priskirti darbuotoją naudokite lauką **Vardas** puslapyje **Vartotojai**. Sistema naudoja darbuotojus, kurie keičia neatitikties būseną, sekdama neatitikties istoriją. Vartotojai negali patvirtinti neatitikties, nebent jiems buvo priskirtas darbuotojo identifikatorius.

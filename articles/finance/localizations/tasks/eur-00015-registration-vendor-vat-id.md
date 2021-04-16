@@ -2,11 +2,9 @@
 title: 'EUR-00015: tiekėjo PVM ID registravimas'
 description: Šioje procedūroje parodoma, kaip įtraukti PVM registracijos ID ir neapmokestinimo kodą į tiekėjo kodą.
 author: v-oloski
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, LogisticsPostalAddress, RegNumTaxIdLookup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb72a5f187afe9ebe1081acd6fe0b039c370718e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 578f961fe1b5e3d06b624b78c278c8314df47f5e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227909"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822563"
 ---
 # <a name="eur-00015-registration-of-vendor-vat-id"></a>EUR-00015: tiekėjo PVM ID registravimas
 

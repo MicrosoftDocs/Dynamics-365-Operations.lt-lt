@@ -2,11 +2,9 @@
 title: Produktų dimensijos
 description: Yra penkios produkto dimensijos - spalva, konfigūracija, dydis, stilius ir versija. Produktų dimensijos jungiamos į dimensijų grupes, o dimensijų grupės priskiriamos bendriesiems produktams. Produktų dimensijų kombinacijomis nustatoma, kaip apibrėžiami produktų variantai.
 author: t-benebo
-manager: tfehr
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle, EcoResVersionNameLookup, RetailStyleGroupTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ca0a7233004522de2af7281416169f0393feeb11
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dc7c92287ff88fe46b5aa46e15f7af3344d11e3e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260652"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820279"
 ---
 # <a name="product-dimensions"></a>Produktų dimensijos
 
@@ -49,7 +47,7 @@ Produkto dimensijos vertė dydžio, spalvos ir stiliaus dimensijoms gali būti s
 
 Produkto dimensijos vertės konfigūravimo dimensijai yra dažniausiai sukurti naudojant, ar Produkto konfigūravimo įrankį ar Dimensija pagrįsta konfigūravimo įtaisą. 
 
-Produkto versijos yra dažniausiai sukuriams konkrečioms versijoms, nes produktas vystosi jo naudojimo metu. Produkto versijos yra išsamiai aprašytos toliau šioje temoje.
+Produkto versijos yra dažniausiai sukuriamos konkrečioms versijoms, nes produktas vystosi jo naudojimo metu. Produkto versijos yra išsamiai aprašytos toliau šioje temoje.
 
 Produkto dimensijos taip pat gali būti kuriamos ir tvarkomos puslapyje **Produktų dimensijos**, kurį galima pasiekti šiose vietose:
 
@@ -86,7 +84,7 @@ Kaip įprasti produkto matmenys, versija elgsis panašiai į esančio produkto m
 
 ### <a name="turn-on-the-version-dimension"></a><a name="enable-version-dim"></a>Produkto matmenų versijos dimensija
 
-#### <a name="before-you-turn-on-the-version-dimension"></a>Prieš jums įjungiant versijo dimensiją
+#### <a name="before-you-turn-on-the-version-dimension"></a>Prieš jums įjungiant versijos dimensiją
 
 Jums įjungus versijos matmenis, kai kurios funkcijos gali sugesti arba nustoti veikti kaip tikėtasi, jei jūs įdiegsite kitus sprendimus, apimančius atsargų matmenų tinkinimus. Tam, kad versijos matmenys veiktų visiškai, jums gali reikėti atnaujinti tuos sprendimus, taip, kad jie apimtų versijos matmenis jų ataskaitose atsargų matmenyse.
 
@@ -137,7 +135,7 @@ Versijos matmenys veikia taip pat kaip kiti produkto matmenys. Nepaisant to, dė
 
 - **Nėra jokios versijos grupės.**
 
-    Nepaisant to, kad grupių sąvoka egzistuoja dydžiui, spalvai ir stiliui (spalvos grupė, dydžio grupė ir stiliaus grupė), nėra egzistuojančios jokios sąvokos grupės. Grupės leidžia jums iš anksto nustatyti taikomas vertes taip, kad jums, pavyzdžiui, priskiriant spalvos grupę produktui, produktas gali naudoti visas spalvas toje spalvos grupėje. Ši sąvoka netaikoma versijos matmenims, nes versijos, kurias produktas paima nėra iš anksto nustatytas sukuriant produktą. Vietoje to, versijos yra sukuriams per produkto gyvavimo laiką, kaip tai būtina. Dažniausiai, jei produkto forma, atitikimas ir funkcija lieka nepakitę, sukuriate naują versiją vietoje naujo produkto.
+    Nepaisant to, kad grupių sąvoka egzistuoja dydžiui, spalvai ir stiliui (spalvos grupė, dydžio grupė ir stiliaus grupė), nėra egzistuojančios jokios sąvokos grupės. Grupės leidžia jums iš anksto nustatyti taikomas vertes taip, kad jums, pavyzdžiui, priskiriant spalvos grupę produktui, produktas gali naudoti visas spalvas toje spalvos grupėje. Ši sąvoka netaikoma versijos matmenims, nes versijos, kurias produktas paima nėra iš anksto nustatytas sukuriant produktą. Vietoj to, versijos yra sukuriamos per produkto gyvavimo laiką, kaip tai būtina. Dažniausiai, jei produkto forma, atitikimas ir funkcija lieka nepakitę, sukuriate naują versiją vietoje naujo produkto.
 
 - **Produkto varianto pasiūlymai veikia taip kaip jiems dažniausiai įprasta.**
 

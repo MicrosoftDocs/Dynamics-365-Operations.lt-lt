@@ -2,11 +2,9 @@
 title: Vieno žurnalo knygų skaičius
 description: Šioje temoje aprašomas ryšys tarp žurnalų ir turto knygų kuriant ilgalaikio turto įsigijimo arba nusidėvėjimo pasiūlymą vykdant paketinę užduotį. Galite nurodyti maksimalų knygų, įtrauktų į kiekvieną įsigijimą ir dėl nusidėvėjimo, skaičių.
 author: moaamer
-manager: Ann Beebe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7f266e458802e65f0955ae8f8933f9bee2eca972
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e948b4353d0216f1e09019a98319e343bd535861
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256720"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822038"
 ---
 # <a name="number-of-books-per-journal"></a>Vieno žurnalo knygų skaičius
 
@@ -43,11 +41,14 @@ Norėdami vykdyti nusidėvėjimą tam pačiam įsigyto turto rinkiniui, galite n
 
 Paketinio vykdymo užduotis neįtraukia uždarytų knygų. Pavyzdžiui, atliekant nusidėvėjimo paketinę užduotį, uždaromos 10 iš pirmųjų 2000 knygų. Tokiu atveju pirmajame žurnale bus knygos, susietos su ilgalaikiu turtu, kuris numeruojamas nuo 1 iki 2011. Antrajame žurnale bus knygos, susietos su ilgalaikiu turtu, kuris numeruojamas nuo 2012 iki 4000.
 
+> [!NOTE]
+> Jei turite ilgalaikio turto PVM su skirtingais skyrikliais (pvz., – arba /) ir sukuriate ilgalaikio turto operacijas paketinėse užduotyse, turite paleisti atskirą paketinę užduotį kiekvienam skyriklio tipui. Sistema negali apdoroti skirtingų skyriklių toje pačioje paketinėje užduotyje.
+
 Knygų skaičiaus limitas yra pritaikytas, jei tame pačiame žurnale nėra dubliuotų turto ID. Tačiau, jei turto ID yra toks pats kaip knygos ID, galima viršyti žurnalo žurnalų skaičių, kad turto ID liktų tame pačiame žurnale.
 
 Pavyzdžiui, yra 5001 ilgalaikio turto ID, trys knygos yra susietos su kiekvienu ilgalaikio turto ID, o kiekviena turto knyga užregistruojama tame pačiame registravimo lygmenyje. Vykdote nebegaliojimą tris mėnesius iš eilės be santraukos.  Nusidėvėjimo žurnalas bus sukurtas naudojant paketines užduotis, o sistema sukurs septynis žurnalus, kuriuose yra 667 ilgalaikio turto ID ir trys knygos kiekvienam ilgalaikio turto ID. Rezultatas bus 2001 knyga. Todėl per tris mėnesius bus 6003 žurnalo eilutės, kad būtų išlaikyti tie patys turto ID tame pačiame žurnale. Sistema taip pat sukurs po vieną žurnalą, kuriame yra 332 ilgalaikio turto ID ir trys knygos kiekvienam ilgalaikio turto identifikatoriui. Per tris mėnesius bus 2988 eilutės.
 
-> [!Note] 
+> [!NOTE] 
 > Jei **Santrauko nebegaliojimo** parametras yra įjungtas jums kuriant nebegaliojimo pasiūlymą, tuomet vertė **Knygų skaičius žurnale - Nebegaliojimo pasiūlymas** laukelyje neturi jokio poveikio. Šiuo atveju, knygų skaičius žurnale yra 6000, o tai vidaus nustatytas apribojimas.
 
 

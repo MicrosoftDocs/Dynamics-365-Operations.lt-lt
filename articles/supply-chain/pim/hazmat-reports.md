@@ -2,11 +2,9 @@
 title: Pavojingų medžiagų užklausos ir ataskaitos
 description: Šioje temoje paaiškinama kaip dirbti su įvairiomis ataskaitomis, susijusiomis su pavojingomis medžiagomis. Dauguma šių ataskaitų reikalingos tam, kad Jūs atitiktumėte įvairias pavojingų medžiagų nuostatas siuntimo ir saugojimo metu.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,17 +12,16 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: cee824e9e8f7577d1d4a6c0a21c7341608e1f588
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 07f103680cacc1273b2b28f6e4e905d6dabb006a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243134"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820327"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Pavojingų medžiagų užklausos ir ataskaitos
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 „Microsoft Dynamics 365 Supply Chain Management” pateikia įvairias ataskaitas, susijusias su pavojingomis medžiagomis. Dauguma šių ataskaitų reikalingos tam, kad Jūs atitiktumėte įvairias pavojingų medžiagų nuostatas siuntimo ir saugojimo metu.
 
@@ -45,10 +42,10 @@ Visos šios ataskaitos, išskyrus **Daugiamodalinių pavojingų prekių** ataska
     |---|---|---|
     | Daugiamodalinės pavojingos prekės | Nuostatos kodas | Pasirinkite nuostatą, kuri turi būti naudojama, kai ataskaita **Daugiamodalinės pavojingos prekės** yra generuojama. |
     | Pavojingų medžiagų atsargų limitai | Nuostatos kodas | Pasirinkite nuostatą, kuri turi būti naudojama, kai atsargų limitai yra vertinami. |
-    | Prekių vežimas sausumos transportu | CMR grupės produktas | CMR reiškia „kancerogenines, mutagenines ir toksiškas reprodukcijai medžiagas.” Nustatykite šią parinktį kaip **Taip** sukonfigūruoti sistemą atspaudinti tam tikrus perspėjimus ir pranešimus, susijusius su šių medžiagų tvarkymu. |
+    | Prekių vežimas sausumos transportu | CMR grupės produktas | CMR reiškia „kancerogenines, mutagenines ir toksiškas reprodukcijai medžiagas.” Nustatykite šią parinktį kaip **Taip** sukonfigūruoti sistemą atspausdinti tam tikrus perspėjimus ir pranešimus, susijusius su šių medžiagų tvarkymu. |
     | Prekių vežimas sausumos transportu | Pavojingos medžiagos grupės aprašas | Įveskite tam tikrų perspėjimų, susijusių su CMR ir prekių vežimu sausumos transportu, tekstą. Šis tekstas bus įtrauktas į ataskaitą. |
     | Siuntėjų deklaracija | Perspėjimas | Įveskite perspėjamojo pranešimo tekstą, kuris turi būti atspausdintas siuntėjų deklaracijos formoje (pavyzdžiui, „Perspėjimas: Pavojingos prekės, Degios”). |
-    | Siuntėjų deklaracija | Poraštės deklaracija | Įveskite pranešimo tekstą, kuris turi būti atspaudintas, siuntimo deklaracijos dokumento pabaigoje. |
+    | Siuntėjų deklaracija | Poraštės deklaracija | Įveskite pranešimo tekstą, kuris turi būti atspausdintas, siuntimo deklaracijos dokumento pabaigoje. |
     | Pavojingų prekių ataskaitos kalba | Pavojingų prekių vietinės ataskaitos kalba | Pasirinkite numatytąją kalbą pavojingų medžiagų ataskaitoms, siejamoms su vietiniais siuntimais. |
     | Pavojingų prekių ataskaitos kalba | Pavojingų prekių eksporto ataskaitos kalba | Pasirinkite numatytąją kalbą pavojingų medžiagų ataskaitoms, siejamoms su tarptautiniais siuntimais. |
 
@@ -70,29 +67,29 @@ Nuostata, naudojama atsargų limitams yra apibrėžta **Sandėlio valdymo parame
 
 ## <a name="verified-gross-mass-report"></a>Patvirtintos bendros masės ataskaita
 
-Ataskaita **Patvirtinta bendra masė** leidžia Jums atspaudinti informaciją apie siuntos svorį.
+Ataskaita **Patvirtinta bendra masė** leidžia Jums atspausdinti informaciją apie siuntos svorį.
 
-Norėdami sugeneruoti ir atspaudinti šią ataskaitą, eikite į **Sandėlio valdymas \> Siuntos \> Visos siuntos** ir atidarykite reikiamą siuntą. Tada veiksmų srities skirtuko **Siuntos** grupėje **Pavojingų medžiagų dokumentas** pasirinkite **Patvirtinta bendra masė**.
+Norėdami sugeneruoti ir atspausdinti šią ataskaitą, eikite į **Sandėlio valdymas \> Siuntos \> Visos siuntos** ir atidarykite reikiamą siuntą. Tada veiksmų srities skirtuko **Siuntos** grupėje **Pavojingų medžiagų dokumentas** pasirinkite **Patvirtinta bendra masė**.
 
 ## <a name="multimodal-dangerous-goods-report"></a>Daugiamodalinių pavojingų prekių ataskaita
 
 Ataskaita **Daugiamodalinės pavojingos prekės** pateikiama toms siuntoms, kurios turi būti vežamos naudojant kelis transportavimo metodus. Įprastai ji naudojama tuomet, kai siunta pirma yra transportuojama sausuma, o vėliau – jūra.
 
-Norėdami sugeneruoti ir atspaudinti šią ataskaitą, eikite į **Sandėlio valdymas \> Siuntos \> Visos siuntos** ir atidarykite reikiamą siuntą. Tada veiksmų srities skirtuko **Siuntos** grupėje **Pavojingų medžiagų dokumentas** pasirinkite **Daugiamodalinės pavojingos prekės**.
+Norėdami sugeneruoti ir atspausdinti šią ataskaitą, eikite į **Sandėlio valdymas \> Siuntos \> Visos siuntos** ir atidarykite reikiamą siuntą. Tada veiksmų srities skirtuko **Siuntos** grupėje **Pavojingų medžiagų dokumentas** pasirinkite **Daugiamodalinės pavojingos prekės**.
 
 Kai generuojate šią ataskaitą, informacija yra išsaugoma, kad galėtumėte ją redaguoti ir (arba) perspausdinti ataskaitą, jeigu tai reikalinga. Norėdami redaguoti sugeneruotą ataskaitą, eikite į **Sandėlio valdymas \> Užklausos ir ataskaitos \> Pavojingų medžiagų siuntimo dokumentacija \> Daugiamodalinės pavojingos medžiagos** ir sąraše raskite reikiamą ataskaitą. Baigę redaguoti turinį pagal reikalavimus, veiksmų srityje pasirinkite **Spausdinti** ataskaitos atspausdinimui.
 
 ## <a name="shippers-declaration-report"></a>Siuntėjų deklaracijos ataskaita
 
-Ataskaita **Siuntėjų deklaracija** leidžia atspaudinti informaciją, susijusią su medžiagų, įtrauktų į siuntą, deklaracija.
+Ataskaita **Siuntėjų deklaracija** leidžia atspausdinti informaciją, susijusią su medžiagų, įtrauktų į siuntą, deklaracija.
 
-Norėdami sugeneruoti ir atspaudinti šią ataskaitą, eikite į **Sandėlio valdymas \> Siuntos \> Visos siuntos** ir atidarykite reikiamą siuntą. Tada veiksmų srities skirtuko **Siuntos** grupėje **Pavojingų medžiagų dokumentas** pasirinkite **Siuntėjų deklaracija**.
+Norėdami sugeneruoti ir atspausdinti šią ataskaitą, eikite į **Sandėlio valdymas \> Siuntos \> Visos siuntos** ir atidarykite reikiamą siuntą. Tada veiksmų srities skirtuko **Siuntos** grupėje **Pavojingų medžiagų dokumentas** pasirinkite **Siuntėjų deklaracija**.
 
 ## <a name="carriage-of-merchandise-by-road-report"></a>Prekių vežimo sausumos transportu ataskaita
 
 Ataskaita **Prekių vežimas sausumos transportu** panaši į važtaraštį, tačiau įprastai naudojama sausumos transportavimui Europoje pagal sutartį, susijusią su tarptautinio pavojingų prekių pervežimo sausumos transportu (ADR) nuostatomis. Ši ataskaita naudoja siuntimo spausdinimo tekstą prekei, nebent nustatote **Pavojingos medžiagos grupės aprašas** lauką **Sandėlio valdymo parametrai** puslapyje.
 
-Norėdami sugeneruoti ir atspaudinti šią ataskaitą, eikite į **Sandėlio valdymas \> Siuntos \> Visos siuntos** ir atidarykite reikiamą siuntą. Tada veiksmų srities skirtuko **Siuntos** grupėje **Pavojingų medžiagų dokumentas** pasirinkite **Prekių vežimas sausumos transportu**.
+Norėdami sugeneruoti ir atspausdinti šią ataskaitą, eikite į **Sandėlio valdymas \> Siuntos \> Visos siuntos** ir atidarykite reikiamą siuntą. Tada veiksmų srities skirtuko **Siuntos** grupėje **Pavojingų medžiagų dokumentas** pasirinkite **Prekių vežimas sausumos transportu**.
 
 Kai generuojate šią ataskaitą, informacija yra išsaugoma, kad galėtumėte ją redaguoti ir (arba) perspausdinti ataskaitą, jeigu tai reikalinga. Norėdami redaguoti sugeneruotą ataskaitą, eikite į **Sandėlio valdymas \> Užklausos ir ataskaitos \> Pavojingų medžiagų siuntimo dokumentacija \> Prekių vežimas sausumos transportu** ir sąraše raskite reikiamą ataskaitą. Baigę redaguoti turinį pagal reikalavimus, veiksmų srityje pasirinkite **Spausdinti** ataskaitos atspausdinimui.
 
@@ -100,7 +97,7 @@ Kai generuojate šią ataskaitą, informacija yra išsaugoma, kad galėtumėte j
 
 Ataskaita **Siuntos suvestinė** pateikia informaciją, apibendrintą pagal transportavimo kategoriją, susijusią su išleistoms prekėmis.
 
-Norėdami sugeneruoti ir atspaudinti šią ataskaitą, eikite į **Sandėlio valdymas \> Siuntos \> Visos siuntos** ir atidarykite reikiamą siuntą. Tada veiksmų srities skirtuko **Siuntos** grupėje **Pavojingų medžiagų dokumentas** pasirinkite **Siuntos suvestinė**.
+Norėdami sugeneruoti ir atspausdinti šią ataskaitą, eikite į **Sandėlio valdymas \> Siuntos \> Visos siuntos** ir atidarykite reikiamą siuntą. Tada veiksmų srities skirtuko **Siuntos** grupėje **Pavojingų medžiagų dokumentas** pasirinkite **Siuntos suvestinė**.
 
 ## <a name="bill-of-lading-report"></a>Važtaraščio ataskaita
 

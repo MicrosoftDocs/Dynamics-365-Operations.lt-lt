@@ -2,11 +2,9 @@
 title: Sinchronizuokite „Field Service“ sutarčių SF su „Supply Chain Management“ laisvos formos SF
 description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojamos sinchronizuojant „Dynamics 365 Field Service“ sutarčių SF su „Dynamics 365 Supply Chain Management“ laisvos formos SF.
 author: ChristianRytt
-manager: tfehr
 ms.date: 04/10/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 0942ce83060c186212d7f425f8dbd0a4ca2c09e7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f3066741781bd9058e09d7f577a35df4c9b453d4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5252779"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819213"
 ---
 # <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>Sinchronizuokite „Field Service“ sutarčių SF su „Supply Chain Management“ laisvos formos SF
 
@@ -52,7 +50,7 @@ Prieš sinchronizuojant sutarčių SF, būtina atlikti toliau nurodytą sinchron
 
 ## <a name="entity-set"></a>Objektų rinkinys
 
-| „Field service“  | Tiekimo grandinės valdymas                 |
+| „Field service“  | „Supply Chain Management”                 |
 |----------------|----------------------------------------|
 | SF       | Dataverse kliento laisvos formos sąskaitų faktūrų antraštės |
 | invoicedetails | Dataverse kliento laisvos formos sąskaitų faktūrų eilutės   |

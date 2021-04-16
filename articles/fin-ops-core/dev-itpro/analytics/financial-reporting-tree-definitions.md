@@ -1,27 +1,26 @@
 ---
 title: Ataskaitų dizaino įrankio ataskaitų medžio apibrėžtys
 description: Šiame straipsnyje aprašomi ataskaitų medžio apibrėžimai. Ataskaitų medžio apibrėžimas yra ataskaitos komponentas, apibūdinantis organizacijos struktūrą.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 10/07/2019
+author: jinniew
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: roschlom
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 367df467d20fb7c60821c9de1f86758196f4faf3
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 42612a14b81f78199aa5678d6f8525e4bd87ca8c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568780"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819943"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Ataskaitų dizaino įrankio ataskaitų medžio apibrėžtys
 
@@ -74,7 +73,7 @@ Norėdami sukurti ataskaitų medžio aprašą, atlikite tokius veiksmus.
     | Įtraukti / simbolio padėtis       | Šioje dalyje išvardintos dimensijos, apibrėžtos finansiniuose duomenyse, ir rodomas simbolių, sudarančių ilgiausią apibrėžtą kiekvienos dimensijos reikšmę, skaičius. Pažymėkite dimensijos žymės langelį, jei norite įtraukti tą dimensiją į ataskaitų medžio hierarchiją. |
     | Segmentų hierarchija ir diapazonai     | Šioje dalyje pateikiama dimensijų hierarchija. Dimensijas galima perkelti sąraše norint pakeisti jų ataskaitų tvarką. Nurodykite kiekvienos dimensijos reikšmių diapazoną laukuose **Nuo dimensijos** ir **Iki dimensijos**. Jei nenurodysite diapazono, į ataskaitų medį bus įterptos visos dimensijų reikšmės.<blockquote>[!NOTE] Jei naudojate daugiau kaip vieną dimensiją, rezultatuose bus pateikti tik dimensijų rinkiniai, kuriuose buvo paskelbta.</blockquote> |
 
-    Norėdami peržiūrėti dialogo lango **Įterpti ataskaitinių vienetų iš dimensijų** pavyzdžio ekrano kopiją, žr. tolesnį šio straipsnio skyrių „Dialogo lango Įterpti ataskaitinių vienetų iš dimensijų pavyzdys“.
+    Norėdami peržiūrėti paveikslėlį, kuriame rodomas **Įterpti ataskaitinių vienetų iš dimensijų** pavyzdys, žr. tolesnį šio straipsnio skyrių „Dialogo lango Įterpti ataskaitinių vienetų iš dimensijų pavyzdys“.
 
 5. Norėdami sukurti papildomų segmentų (pavyzdžiui, suskaidyti vieną segmentą į du trumpesnius segmentus), spustelėkite reikiamą vietą lauke **Simbolio padėtis** ir tada spustelėkite **Skaidyti segmentus**.
 6. Norėdami sulieti du segmentus į vieną segmentą, spustelėkite abiejų segmentų langelius, kad juos sujungtumėte, ir tada spustelėkite **Jungti segmentus**.
@@ -186,23 +185,23 @@ Toliau pateikiama ataskaitinių vienetų struktūra šiame ataskaitų medyje.
 - Žemiausio lygio informacijos ataskaitiniai vienetai (Pardavimas vidaus rinkoje, Automatinis pardavimas, Klientų paslaugos ir Operacijos) atitinka finansinių duomenų skyrius. Šie ataskaitiniai vienetai yra šešėliuotoje diagramos srityje.
 - Aukštesnio lygio suvestinės vienetai apibendrina informaciją iš informacijos vienetų.
 
-[![ContosoEntertainmentSummaryReportStructure](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![„Contoso" suvestinės ataskaitos struktūra – 1 pavyzdys](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Ataskaitinio vieneto struktūra – 2 pavyzdys
 
 Šioje diagramoje pateikiamas ataskaitų medis, kuriame parodyta organizacinė struktūra, suskirstyta pagal verslo funkcijas.
 
-[![summaryofallunitscontoso](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![„Contoso" suvestinės ataskaitos struktūra – 2 pavyzdys](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Dialogo lango Įterpti ataskaitinių vienetų iš dimensijų pavyzdys
 
 Tolesnėje iliustracijoje pateikiamas dialogo lango **Įterpti ataskaitinių vienetų iš dimensijų** pavyzdys. Šiame pavyzdyje rezultatai pateiks verslo struktūros vienetų, išlaidų centrų ir padalinių derinį.
 
-[![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png)
+[![Įterpti ataskaitinius vienetus](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
 Gautas ataskaitų medžio aprašas surūšiuotas pagal verslo vienetą, tada – pagal išlaidų centrą, o tada – pagal padalinį. Penktojo ataskaitinio vieneto dimensija yra **Verslo struktūros vienetas = \[001\], Išlaidų centras =\[\], Padalinys = \[022\]** ir ji nurodo nustatytų 001 verslo struktūros vieneto ir 022 padalinio sąskaitų ataskaitinį vienetą.
 
-[![ReportingTree](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+[![Ataskaitų medžio pavyzdys](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Duomenų sumavimo pavyzdžiai
 
@@ -210,11 +209,11 @@ Gautas ataskaitų medžio aprašas surūšiuotas pagal verslo vienetą, tada –
 
 #### <a name="example-1"></a>1 pavyzdys
 
-[![MutliCompanyRollUp](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
+[![Įmonės išsieiga](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>2 pavyzdys
 
-[![CrossCompanyDepartmentRollUp](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
+[![Kryžminės įmonės padalinio susumuoti](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
