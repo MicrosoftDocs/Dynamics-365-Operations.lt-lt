@@ -2,11 +2,9 @@
 title: Sukurti bendras vertes inžinerinio pokyčio valdymui
 description: Šioje temoje paaiškina, kaip sukurti bendras vertes naudojamas parametrams įvairiose inžinerijos pokyčių valdymo dalyse.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductParameters, EngChgEcmSeverityTable, EngChgEcmSeverityRuleSet, EngChgEcmSeverityLookup,EngChgEcmSeverityChart,EngChgEcmRequestSeverityChart,EngChgEcmPriorityTable, EngChgEcmPriorityLookup, EngChgEcmPriorityChart, EngChgEcmMaterialDisposition, EngChgEcmEH
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: ee2be7d59f327876b92386c66433aeaf06df489c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fadfb44b0d332e0c21d1c2bc3f2c2983d0bb8d1d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262362"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830057"
 ---
 # <a name="establish-common-values-for-engineering-change-management"></a>Sukurti bendras vertes inžinerinio pokyčio valdymui
 
 [!include [banner](../includes/banner.md)]
 
-Jums nustatant inžinerijos pokyčių valdymą, turite sukurti keletą verčių rinkinių, kurios bus naudojamos siekian užpildyti iškrentančius sąrašus kitose vartotojo sąsajos dalyse (UI). Turite nurodyti šias vertes pagal produktų tipus, kuriuos sukuriate ir konkrečius jūsų verslo poreikius.
+Jums nustatant inžinerijos pokyčių valdymą, turite sukurti keletą verčių rinkinių, kurios bus naudojamos siekia užpildyti iškrentančius sąrašus kitose vartotojo sąsajos dalyse (UI). Turite nurodyti šias vertes pagal produktų tipus, kuriuos sukuriate ir konkrečius jūsų verslo poreikius.
 
 ## <a name="engineering-change-categories"></a>Inžinerinių pakeitimų kategorijos
 
@@ -36,7 +34,7 @@ Norėdami įsteigti inžinerinių keitimų kategorijų rinkinį, kuris naudojama
 
 ## <a name="engineering-change-priorities"></a>Inžinerinių pakeitimų prioritetai
 
-Naudojate inžinerinių pokyčių pirmenybes, kad jos įtrauktų inžinerinių keitimų tvarkos svarbą ar skubą. Jos gali padėti sekti jums inžinerinių keitimų užsakymo svarbą taip, kad galėtumet paprastai nustatyti, kurie užsakymai turi būti sutvarkyti pirma ir kaip greit.
+Naudojate inžinerinių pokyčių pirmenybes, kad jos įtrauktų inžinerinių keitimų tvarkos svarbą ar skubą. Jos gali padėti sekti jums inžinerinių keitimų užsakymo svarbą taip, kad galėtumėte paprastai nustatyti, kurie užsakymai turi būti sutvarkyti pirma ir kaip greit.
 
 Norėdami įsteigti inžinerinių keitimų kategorijų pirmenybes, kurios naudojamos jūsų bendrovėje, eikite į **Inžinerijos keitimo valdymas \> Nustatymai \> Inžinerinių keitimų valdymas \> Inžinerinių keitimų pirmenybės**. Galite tada naudoti mygtukus veiksmų juostoje, kad įtrauktumėte, pašalintumėte ar redaguotumėte vertes ir jas organizuotumėte taip, kad jos pasirodytų iškrentančiuose sąrašuose, kai jie rodomi.
 
@@ -48,19 +46,19 @@ Norėdami įsteigti inžinerinių keitimų kategorijų priežastis, kurios naudo
 
 ## <a name="material-disposal-codes"></a>Medžiagos likvidavimo kodai
 
-Naudojate medžiagos išmetimo kodus, kad susikrstytumėte medžiagas į kategorijas, kurios naudojamos baigtiems gaminiams ar komponentams, kurie turi būti išmesti konkrečiu būdu ar kuriems reikia tam tikro tvarkymo prieš jų įtraukimą į įprastas atliekas. Jums įtraukiant atitinkamą produktą į inžinerijos keitimo užsakymą, galite priskirti išmetimo kodą kaip keitimo išsamią informaciją.
+Naudojate medžiagos išmetimo kodus, kad suskirstytumėte medžiagas į kategorijas, kurios naudojamos baigtiems gaminiams ar komponentams, kurie turi būti išmesti konkrečiu būdu ar kuriems reikia tam tikro tvarkymo prieš jų įtraukimą į įprastas atliekas. Jums įtraukiant atitinkamą produktą į inžinerijos keitimo užsakymą, galite priskirti išmetimo kodą kaip keitimo išsamią informaciją.
 
 Norėdami įsteigti medžiagų išmetimo kodus, kurie naudojami jūsų bendrovėje, eikite į **Inžinerijos keitimo valdymas \> Nustatymai \> Inžinerinių keitimų valdymas \> Medžiagos išmetimo kodai**. Galite tada naudoti mygtukus veiksmų juostoje, kad įtrauktumėte, pašalintumėte ar redaguotumėte vertes ir jas organizuotumėte taip, kad jos pasirodytų iškrentančiuose sąrašuose, kai jie rodomi.
 
 ## <a name="received-customer-approval"></a>Gautas kliento patvirtinimas
 
-Jums sukuriant konkretaus kliento produktus, kūrimas ir specifikacijos dažnai turi būti tvirtinamos prieš tai, kai gaminys paruošiamas. Laukelis **Gautas tinkintas patvirtinimas** leidžia jums nurodyti, kaip ilgai trunka kliento patvirtinimo procesas, kuriam produkto patvirtiniams yra gautas ir ar yra gautas.
+Jums sukuriant konkretaus kliento produktus, kūrimas ir specifikacijos dažnai turi būti tvirtinamos prieš tai, kai gaminys paruošiamas. Laukelis **Gautas tinkintas patvirtinimas** leidžia jums nurodyti, kaip ilgai trunka kliento patvirtinimo procesas, kuriam produkto patvirtinimas yra gautas ir ar yra gautas.
 
 Norėdami įsteigti gauto kliento patvirtinimo vertes, kurie naudojami jūsų bendrovėje, eikite į **Inžinerijos keitimo valdymas \> Nustatymai \> Inžinerinių keitimų valdymas \> Gauto kliento patvirtinimas**. Galite tada naudoti mygtukus veiksmų juostoje, kad įtrauktumėte, pašalintumėte ar redaguotumėte vertes ir jas organizuotumėte taip, kad jos pasirodytų iškrentančiuose sąrašuose, kai jie rodomi.
 
 ## <a name="engineering-change--environmental-health-and-safety-codes"></a>Inžineriniai keitimai - Aplinkos sveikatos ir saugos kodai
 
-Jei bet kurie standartiniai aplinkos sveikatos ir saugos reikalavimai ar konkretūs įmonės reikalavimai ar procedūros turi būti apgalvote produkto gamybos metu, galite naudoti aplinkos sveikatos ir saugos kodus jų nustatymui. Inžinerijos keitimo užsakyme galite nurodyti, kurie kodai taikomi produkto gamybai jums redaguojant paveikto produkto išsamią informaciją.
+Jei bet kurie standartiniai aplinkos sveikatos ir saugos reikalavimai ar konkretūs įmonės reikalavimai ar procedūros turi būti apgalvoti produkto gamybos metu, galite naudoti aplinkos sveikatos ir saugos kodus jų nustatymui. Inžinerijos keitimo užsakyme galite nurodyti, kurie kodai taikomi produkto gamybai jums redaguojant paveikto produkto išsamią informaciją.
 
 Norėdami įsteigti saugos ir sveikatos vertes, kurios naudojamos jūsų bendrovėje, eikite į **Inžinerijos keitimo valdymas \> Nustatymai \> Inžinerinių keitimų valdymas \> Inžineriniai keitimai - Aplinkos sveikatos ir saugos kodai**. Galite tada naudoti mygtukus veiksmų juostoje, kad įtrauktumėte, pašalintumėte ar redaguotumėte vertes ir jas organizuotumėte taip, kad jos pasirodytų iškrentančiuose sąrašuose, kai jie rodomi.
 
@@ -74,9 +72,9 @@ Galite sukurti taisykles taikomas kiekvienam jūsų sukurtam saugumui lygiui. D�
 
 ## <a name="engineering-change-severity-rule-sets"></a>Inžinerinių pakeitimų svarbos taisyklių rinkiniai
 
-Naudojate inžinerijos keitimo sunkumo taisyklės rinkinius, kad įsteigtumėte taisyklių grupę, kurią galite naudoti norėdami automatiniu būdu apskaičiuoti keitimo užsakymo sunkumą pagal paveiktų produktų keitimo tipą. Norėdami naudoti sunkumo taisykles, atverkite **Inžinertinių keitimų valdymo parametrų** puslapį ir tada nustatykite **Sunkumo taisyklės** laukelį į *Skaičiuoti* ar *Skaičiuoti automatiniu būdu*.
+Naudojate inžinerijos keitimo sunkumo taisyklės rinkinius, kad įsteigtumėte taisyklių grupę, kurią galite naudoti norėdami automatiniu būdu apskaičiuoti keitimo užsakymo sunkumą pagal paveiktų produktų keitimo tipą. Norėdami naudoti sunkumo taisykles, atverkite **Inžinerinių keitimų valdymo parametrų** puslapį ir tada nustatykite **Sunkumo taisyklės** laukelį į *Skaičiuoti* ar *Skaičiuoti automatiniu būdu*.
 
-Kai sistema įvertina sunkumą, ji sutvarko užsakymo taisykles, kuriso pasirodo puslapyje nuo apačios iki viršaus. Tam, kad taisyklė būtų pasirinkta ir turėtų pirmenybę, visos taisyklės rinkinyje turi būti įvertintos.
+Kai sistema įvertina sunkumą, ji sutvarko užsakymo taisykles, kurios pasirodo puslapyje nuo apačios iki viršaus. Tam, kad taisyklė būtų pasirinkta ir turėtų pirmenybę, visos taisyklės rinkinyje turi būti įvertintos.
 
 Norėdami nustatyti taisykles taikomas kiekvienam jūsų nustatytam sunkumo lygiui, eikite į **Inžinerijos keitimo valdymas \> Nustatymai \> Inžinerinių keitimų valdymas \> Inžinerinių keitimų sunkumai**. Tuomet atlikite vieną iš šių žingsnių.
 

@@ -2,11 +2,9 @@
 title: Pardavimo užsakymų kūrimas
 description: Šioje procedūroje parodoma, kaip kurti pardavimo užsakymą.
 author: omulvad
-manager: tfehr
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, InventDimParmFixed, InventProductDimensionLookup, SalesTotals
 audience: Application User, SalesTableDelete, SalesTableListPagePreviewPage, SalesUpdateRemain
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 630e82f737adf2a2c694ba4d6c046f0ae02f2696
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a52c512d630e560afac998e1a35e71204d98f5d1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260460"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841364"
 ---
 # <a name="create-sales-orders"></a>Pardavimo užsakymų kūrimas
 
@@ -64,7 +62,7 @@ Jūsų organizacijos parduodami produktai gali būti kelių variantų, kuriuos s
 1. **Veiksmų srityje** pasirinkite **Pardavimo užsakymas**.
 2. Pasirinkite **Bendrosios sumos**.
     
-    Puslapyje **Bendrosios sumos** rodoma išsami informacija apie visą užsakymą. Ji apima tarpinę sumą, kuri yra visų eilučių grynųjų sumų, pakoreguotų atsižvelgiant į galimas eilučių nuolaidas, suma, visą SF sumą, kuri yra tarpinė suma, pakoreguota atsižvelgiant į galimą užsakymo lygio nuolaidą, išlaidas ir PVM, kliento kredito limito situaciją ir kt. SF suma – tai suma, kuri bus rodoma kliento SF dokumente.  
+    Puslapyje **Bendrosios sumos** rodoma išsami informacija apie visą užsakymą. Ji apima tarpinę sumą, kuri yra visų eilučių grynųjų sumų, pakoreguotų atsižvelgiant į galimas eilučių nuolaidas, suma, visą SF sumą, kuri yra tarpinė suma, pakoreguota atsižvelgiant į galimą užsakymo lygio nuolaidą, išlaidas ir PVM, kliento kredito limito situaciją ir kita. SF suma – tai suma, kuri bus rodoma kliento SF dokumente.  
     
 3. Pasirinkite **Gerai**.
 

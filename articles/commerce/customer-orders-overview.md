@@ -2,11 +2,9 @@
 title: Kliento užsakymai elektroniniame kasos aparate (EKA)
 description: Šioje temoje pateikta informacija apie kliento užsakymus elektroniniame kasos aparate (EKA). Kliento užsakymai dar vadinami specialiais užsakymais. Šioje temoje pateikta susijusių parametrų ir operacijų srautų apžvalga.
 author: josaw1
-manager: AnnBe
 ms.date: 01/06/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: f60e07c1faae9bc3cb6d3c843e72e6000cff7591
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a310c7067b399fb35ccc8a1b17d8bd6822a27a62
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220515"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821013"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Kliento užsakymai elektroniniame kasos aparate (EKA)
 
@@ -61,7 +59,8 @@ Kai kurios parduotuvės ar sandėlių vietos gali neįvykdyti klientų užsakym�
 
 Kai dirbate su kliento užsakymais EKA, turite atsižvelgti į kai kuriuos parduotuvės kanalo parametrus. Šiuos parametrus galima rasti „Commerce Headquarters“ puslapyje **Parduotuvės**.
 
-- **Sandėlis** – šiame lauke nurodomas sandėlis, naudojamas užsakymams, sukonfigūruotiems siuntimui iš parduotuvės, įvykdyti.
+- **Sandėlis** – Šis laukas nurodo sandėlį, kuris bus naudojamas mažėjant atsargoms, skirtoms atsiskaitymo grynaisiais pinigais ir kliento paėmimo užsakymais, susietais su šia parduotuve. Kaip geriausią praktiką, skatiname unikalių sandėlių kiekvienam parduotuvės kanalui naudojimą, kad būtų išvengta veiklos logikos nesuderinamumo problemos tarp parduotuvių.
+- **Siuntimo sandėlis** – Šis laukas nurodo sandėlį, kuris bus naudojamas mažėjant atsargoms, skirtoms klientų užsakymams, kurie bus išsiųsti iš pasirinktos parduotuvės. Jei jūsų aplinkoje įgalinta funkcija **Galimybė nurodyti vietas kaip „Siunčiamos” arba „Paėmimo” įgalinta Įvykdymo grupėje**, EKA vartotojai gali pasirinkti konkretų sandėlį, į kurį siųsti iš EKA, vietoj to, kad pasirinkti parduotuvę, iš kurios siųsti. Todėl, kai ši funkcija yra įgalinta, siuntimo sandėlis yra nebenaudojamas, kadangi vartotojas užsakymo kūrimo metu išrinks konkretų sandėlį, iš kurio bus siunčiamas tas užsakymas.
 - **Įvykdymo grupės priskyrimas** – pasirinkite šį mygtuką (veiksmų srities skirtuke **Nustatymas**), norėdami susieti įvykdymo grupes, kuriomis nurodomos paėmimo vietų ar siuntimo kilmės parinktys, kai klientų užsakymai sukurti EKA.
 - **Naudoti paskirties vietos mokesčius** – ši parinktis nurodo, ar siuntimo adresas naudojamas mokesčių grupei, taikomai užsakymo eilutėms, siunčiamoms kliento adresu, nustatyti.
 - **Naudoti kliento mokesčius** – ši parinktis nurodo, ar mokesčių grupė, apibrėžta kliento pristatymo adresui, naudojama apmokestinti klientų užsakymus, sukurtus EKA, siuntimui į kliento namus.

@@ -2,11 +2,9 @@
 title: Prekių skirstymas iš gamybos užsakymų į pakrovimo rampas
 description: Šioje temoje aprašoma, kaip valdyti prekių skirstymo medžiagos procesą, kai iš gamybos linijos siunčiamų prekių transportavimo rampai pranešama, kad procesas baigtas.
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockOpportunityPolicy, WHSReservationHierarchy, WHSInventTableReservationHierarchy, WHSItemGroupLoadTemplate
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d2f264564f627889d89444a7423179de0c6d4d0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 231c59cea2ca0bcb139079209d2e846e67eb7fed
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246290"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839154"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Prekių skirstymas iš gamybos užsakymų į pakrovimo rampas
 
@@ -85,7 +83,7 @@ Dalyje **Eilės numeris** nurodomas dokumento tipo prioritetas. Šiuo metu palai
 
 ### <a name="cross-docking-policy"></a>Prekių skirstymo strategija
 
-Nustatant prakių skirstymo strategiją taip pat nustatomas perkėlimo tvarkos poreikia pagal svarbą. Pavyzdžiui, jei yra keli to paties produkto perkėlimo užsakymai, užsakymų svarba nustatoma pagal suplanuotus ant krovinio nurodytus ir su perkėlimo užsakymu susietus datą ir laiką. Suplanuotą datą ir laiką galima nustatyti tiesiogiai ant krovinio arba su kroviniu susietoje dalyje **Paskyros grafikas**. Svarba nustatoma pagal prekių skirstymo strategiją. Šiuo metu yra tik viena strategija: **Data ir laikas**.
+Nustatant prekių skirstymo strategiją taip pat nustatomas perkėlimo tvarkos poreikis pagal svarbą. Pavyzdžiui, jei yra keli to paties produkto perkėlimo užsakymai, užsakymų svarba nustatoma pagal suplanuotus ant krovinio nurodytus ir su perkėlimo užsakymu susietus datą ir laiką. Suplanuotą datą ir laiką galima nustatyti tiesiogiai ant krovinio arba su kroviniu susietoje dalyje **Paskyros grafikas**. Svarba nustatoma pagal prekių skirstymo strategiją. Šiuo metu yra tik viena strategija: **Data ir laikas**.
 
 ### <a name="cross-docking-demand-requires-location"></a>Būtina nurodyti prekių skirstymo poreikio vietą
 
@@ -98,7 +96,7 @@ Po to, kai produktas gamybos eilutėje paskeliamas baigtu, jis perkeliamas į į
 1.  Įgalinkite naują prekių skirstymo skaičių seką. Eikite į puslapį **Numeracijos** ir paspauskite mygtuką **Generuoti** . Vedlys padės jums atlikti šį procesą.
 2.  Sukurkite prekių skirstymo strategiją. Eikite į puslapį **Prekių skirstymo strategija** ir sukurkite naują strategiją pavadinimu **Perkėlimo užsakymo prekių skirstymas**. Atkreipkite dėmesį, kad galite pasirinkti tik vieną darbo užsakymo tipą – **Perkėlimo išdavimas**, o vienintelė galima prekių skirstymo strategija yra **Data ir laikas**.
 3.  Sukurkite darbo strategiją. Eikite į puslapį **Darbo strategijos** ir sukurkite naują darbo strategiją pavadinimu **Paskirstymas L0101**.
-4.  Nustatykite, kad perkėlimo užsakymų kroviniai būtų kuriami automatiškai. Naudodami sandėlio parametrus nustatykite, kad sukūrus perkėlimo užsakymus kroriniai būtų kuriami automatiškai. Krovinys yra būtinoji sąlyga, kad perkėlimo užsakymą būtų galima naudoti prekių skirstymui.
+4.  Nustatykite, kad perkėlimo užsakymų kroviniai būtų kuriami automatiškai. Naudodami sandėlio parametrus nustatykite, kad sukūrus perkėlimo užsakymus kroviniai būtų kuriami automatiškai. Krovinys yra būtinoji sąlyga, kad perkėlimo užsakymą būtų galima naudoti prekių skirstymui.
 5.  Nustatykite prekių krovinio susiejimą. Eikite į puslapį **Prekių krovinio siejimas** ir nustatykite standartinį prekių grupės **CarAudio** krovinio šabloną. Atliekant šį susiejimą sukūrus perkėlimo užsakymą krovinio šablonas į krovinį bus įterpiamas automatiškai.
 6.  Sukurkite perkėlimo užsakymą. Sukurkite perkėlimo užsakymą prekės numeriui L0101. Kiekis = 20.
 7.  Paskelbkite perkėlimo užsakymą iš krovinio planavimo darbo srities. Skirtuke **Siuntimas** pasirinkite krovinio planavimo darbo srities meniu elementą ir krovinio eilutės meniu **Išleidimas** pasirinkite **Išleidimas į sandėlį**. Dabar sukuriama perkėlimo užsakymo bangos eilutė, kurios tipas – **Perkėlimo išdavimas**.

@@ -2,11 +2,9 @@
 title: Vietos produkto dimensijos maišymas
 description: Šioje temoje pateikiama informacija apie vietos produkto dimensijos maišymą. Ši vietos profilio funkcija padeda pagerinti vietos valdymą, kai produkto variantai arba produktai, turintys dimensijas, yra naudojami pvz., mados industrijoje. Ji leidžia Jums nuspręsti, ar konfigūracijas, spalvas, stilius ir dydžius galima maišyti tam tikram vietos profiliui, taip pat ar vieną iš šių dimensijų arba jų derinį galima įtraukti į tą pačią vietą.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: b0309c7a7240d7cac9e5b5724a028f2dc70199e4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 28f59052a74b6d8b263c7a8a8b6061f2c4b34c89
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217034"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831295"
 ---
 # <a name="location-product-dimension-mixing"></a>Vietos produkto dimensijos maišymas
 
@@ -206,9 +204,9 @@ Jūs sukursite pirkimo užsakymas, turintį tris eilutes: dvi eilutės yra to pa
 
 1. Pasirinkite **Įrašyti**.
 
-### <a name="receive-purchase-order-lines-in-the-warehouse-app"></a>Pirkimo užsakymo eilutės gavimas „Warehousing“ programoje
+### <a name="receive-purchase-order-lines-in-the-warehouse-management-mobile-app"></a>Pirkimo užsakymo eilučių gavimas sandėlio valdymo mobiliųjų įrenginių programėlėje
 
-1. Prisijunkite prie „Warehousing“ programos kaip vartotojas, įgalintas sandėliui *24*.
+1. Prisijunkite prie sandėlio valdymo mobiliųjų įrenginių programėlės kaip vartotojas, įgalintas *24 sandėliui*.
 1. Pasirinkite **Gaunama** meniu.
 1. Pasirinkite: **PU eilutės gavimas**.
 1. Pasirinkite lauką **PU numeris** ir įveskite pirkimo užsakymo numerį.

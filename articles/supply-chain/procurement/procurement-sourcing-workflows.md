@@ -1,12 +1,10 @@
 ---
 title: Įsigijimo ir šaltinio pasirinkimo darbo eigos
 description: Kai kurios organizacijos reikalauja, kad pirkimo paraiškas ir pirkimo užsakymus patvirtintų ne operaciją įvedęs vartotojas. Jei norite nustatyti patvirtinimo procesą, galite sukurti darbo eigą.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowTableListPageRnr
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2074
 ms.assetid: e54a1d59-b9fb-421b-821d-01f32878aa9b
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e591007a1330fe11b3f586185f9daca845798908
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fd9ee69e180f2ff605c4f373a95d2346ccc73c0e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218470"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5807949"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Paraiškų darbo eigos
 
@@ -49,7 +47,7 @@ Darbo eiga rodo verslo procesą. Ji nustato dokumento kelią sistemoje ir parodo
 | Tiekėjo įtraukimo prašymo darbo eiga | Kurkite naujų tiekėjų įtraukimo naudojant tiekėjo užklausas peržiūros ir patvirtinimo darbo eigas. |
 
 > [!IMPORTANT]
-> Jums įtraukiant naują darbo ėiga, galite taip pat matyti tolesnes nebeveikiančias darbo eigas sąraše **Sukurti darbo eigą** teksto laukelyje. Jos yra susijusios su *gavimo patvirtinimo* funkcija, kuri buvo prieinama [„Dynamics AX“ 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), bet dabar nebegalioja. Šios darbo eigos dabar jau nebepalaikomos.
+> Jums įtraukiant naują darbo eiga, galite taip pat matyti tolesnes nebeveikiančias darbo eigas sąraše **Sukurti darbo eigą** teksto laukelyje. Jos yra susijusios su *gavimo patvirtinimo* funkcija, kuri buvo prieinama [„Dynamics AX“ 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), bet dabar nebegalioja. Šios darbo eigos dabar jau nebepalaikomos.
 > 
 > - Pristatymo termino pranešimo darbo eiga
 > - Pranešimo apie SF gavimą darbo eiga

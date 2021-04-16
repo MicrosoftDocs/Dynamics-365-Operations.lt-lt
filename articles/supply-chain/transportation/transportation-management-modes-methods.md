@@ -2,11 +2,9 @@
 title: Gabenimo valdymo būdai ir metodai
 description: Šioje temoje parodyta, kaip nustatyti gabenimo valdymo būdus ir metodus.
 author: Henrikan
-manager: tfehr
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 0d41d8665252a978962bf6a2e307dce3dad64a5b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 71e37dcd4509813f930906ae3bb3d3b98c9100a0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233444"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828312"
 ---
 # <a name="transportation-management-modes-and-methods"></a>Gabenimo valdymo būdai ir metodai
 
@@ -29,7 +27,7 @@ Gabenimo valdymo būdas parodo gabenimo tipą, kurį vežėjas naudoja krovinių
 
 Būdai ir gabenimo metodai yra naudojami keliuose kontekstuose. Tik būdai yra naudojami maršruto planavimuose, o būdai ir gabenimo metodai yra naudojami nustatant siuntimo vežėjus ir vežėjų paslaugas. Tarp gabenimo metodų ir būdų nėra jokios aiškios hierarchijos ir santykių.
 
-## <a name="create-a-mode"></a>Sukurit būdą
+## <a name="create-a-mode"></a>Sukurkite būdą
 
 Norėdami sukurti būdą, atlikite šiuos žingsnius:
 

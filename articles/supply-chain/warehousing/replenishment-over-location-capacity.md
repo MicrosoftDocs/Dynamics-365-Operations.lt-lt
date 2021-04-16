@@ -2,11 +2,9 @@
 title: Papildymas pagal vietos erdvę
 description: Šioje temoje pateikiama informacija apie vietos pajėgumo papildymo funkciją. Ši funkcija įjungia visus papildymo darbus, kurių bus reikalaujama kūrimo dieną ir valdo papildymo darbo prieinamumą siekiant užtikrinti, kad paėmimo vieta neišeis iš atsargų ir neviršys pajėgumo.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSLocationLimit
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 1e4acfea3484acaafd982d0f22c2303f921f909f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 309df56671bf258e1669ae6d5393de01e2b500f0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228398"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823244"
 ---
 # <a name="replenishment-over-location-capacity"></a>Papildymas pagal vietos erdvę
 
@@ -241,7 +239,7 @@ Priklausomai nuo turimų kiekių, sukurti darbo kiekiai gali nežymiai skiris. N
 
 #### <a name="on-hand-inventory-license-plate-id"></a>Turimų atsargų licencijos numerio ID
 
-Vėliau šiame scenarijuje naudosite sandėlio programą (ar emuliatorių), kuriame turėsite nustatyti licencijos numerį tam, kad pabaigtumėte paėmimą ir papildymo scenarijus.
+Vėliau šiame scenarijuje naudosite sandėlio valdymo mobiliųjų įrenginių programėlę (arba emuliatorių), kuriame turėsite nustatyti licencijos numerį tam, kad pabaigtumėte paėmimą ir papildymo scenarijus.
 
 Tam, kad rastumėte vėliau jums reikalingų licencijos numerių ID, atlikite šiuos veiksmus.
 
@@ -266,7 +264,7 @@ Atliksite sandėlio vietos papildymą pirmiems dviems darbo ID. Dirbas su treči
 
 #### <a name="replenishment"></a>Papildymas
 
-1. Prisijungti prie sandėlio programos kaip naudotojas sandėlyje *61*. (Įveskite *61* kaip vartotojo ID ir *1* slaptažodį.)
+1. Prisijunkite prie sandėlio mobiliųjų įrenginių programėlė kaip vartotojas sandėlyje *61*. (Įveskite *61* kaip vartotojo ID ir *1* slaptažodį.)
 1. Eikite į **Atsargos \> Papildymas**.
 
     Esate paskatintas pabaigti pirmąjį papildymo darbą. Rodomi elemento numeris, kiekis ir paėmimo vieta.
@@ -296,7 +294,7 @@ Kol pakankamai atsargų yra paimta iš vietos tam, kad būtų pristatytas tolesn
 
 Prieš likusios papildymo darbo užduoties užbaigimą, paėmimo vieta turi būti atsargoms priskirta lygmeniu, kuriame likęs papildymo darbas gali būti atblokuotas. Kitaip tariant, turimų atsargų suma vietoje ir papildymo kiekis negali viršyti **Perviršio kiekio** vertės. Kai suma yra mažesnė nei perviršio kiekis, likęs papildymo darbas bus atblokuotas.
 
-1. Prisijungti prie sandėlio programos kaip naudotojas sandėlyje *61*. (Įveskite *61* kaip vartotojo ID ir *1* slaptažodį.)
+1. Prisijunkite prie sandėlio mobiliųjų įrenginių programėlė kaip vartotojas sandėlyje *61*. (Įveskite *61* kaip vartotojo ID ir *1* slaptažodį.)
 1. Eikite į **Išorė \> Prekybos paėmimas**.
 1. Įveskite pirmojo darbo ID prekybos užsakymui 1.
 

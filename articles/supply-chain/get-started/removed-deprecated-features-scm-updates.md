@@ -2,11 +2,9 @@
 title: Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management“ funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama pašalinti iš „Dynamics 365 Supply Chain Management“.
 author: kamaybac
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9c91ffcb03793db2f2ef3a9631ab549ace3f735d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2e41510f1f5810dde9683235384f89008f888471
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259096"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821278"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management“ funkcijos
 
@@ -34,6 +32,18 @@ ms.locfileid: "5259096"
 
 > [!NOTE]
 > Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](https://docs.microsoft.com/dynamics/s-e/). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
+
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Supply Chain Management“ 10.0.18 versijoje
+
+### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>„Dynamics 365 for Finance and Operations” – sandėliavimas (sandėlio programa)
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo/pašalinimo priežastis** | Nuo 2021 m. balandžio mėnesio įsigalioja, jog *„Dynamics 365 for Finance and Operations” – sandėliavimas* (sandėlio programa) yra nerekomenduojama ir nebebus palaikoma po 2022 m. balandžio. Dabar ji pakeista *Sandėlio valdymo mobiliųjų įrenginių programėle*, kuri buvo išleista kartu su „Supply Chain Management” 10.0.17 versija. Nauja programa yra visiškas pakeitimas, tačiau naudoja tą pačią pagrindinę sistemą, kas palengvina perkėlimą. Jei reikia, dvi programas galima naudoti paraleliai tam, kad padėtų vartotojams palaipsniui prisitaikyti, kol jie mokosi naudotis nauja programa.<br><br>Daugiau informacijos apie naująją sandėlio valdymo mobiliųjų įrenginių programėlę rasite [ Sandėlio valdymo mobiliųjų įrenginių programėlė](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) ir [ Sandėlio valdymo mobiliųjų įrenginių programėlės diegimas ir prijungimas](../warehousing/install-configure-warehouse-management-app.md). |
+| **Pakeitė kita funkcija?**   | Taip, pakeista nauja sandėlio valdymo mobiliųjų įrenginių programėle. |
+| **Paveiktos produkto sritys**         | „Supply Chain Management” – sandėlio programa |
+| **Visuotinio diegimo parinktis**              | Debesies ir vietinis |
+| **Būsena**                         | Nerekomenduojama. Sandėlio programa vis dar gaus palaikymą su klaidų ir saugumo pataisomis, tačiau nebebus pateikiami funkcijų patobulinimai. Po 2022 m. balandžio mėnesio, senoji sandėlio programa nebebus palaikoma, o klientų bus prašoma persikelti į naują sandėlio valdymo mobiliųjų įrenginių programėlę. Tada senoji sandėlio programa bus pašalinta iš „Microsoft Store” ir „Google Play” parduotuvės.  |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10015-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Supply Chain Management“ 10.0.15 versijoje
 
