@@ -2,11 +2,9 @@
 title: Komercijos pagrindinis puslapis
 description: Pagrindinis „Dynamics 365 Commerce“ puslapis.
 author: bebeale
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bd9ba8ad0d8b651fc86b54561bb0005720776894
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9eeaac1c9198502b3888c4bf0a2f43edfc75f185
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211077"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797049"
 ---
 # <a name="commerce-home-page"></a>Komercijos pagrindinis puslapis
 
@@ -53,7 +51,7 @@ Pasirinkite funkcijų sritį, apie kurią norite sužinoti daugiau.
 - [Klientų duomenų tvarkymas](set-up-customer-loyalty-program.md)
 - [Finansų valdymas](retail-statements.md)
 - [El. prekybos svetainės valdymas](online-store-overview.md)
-- [Apsauga nuo sukčiavimo](dev-itpro/DFP.md)
+- [„Fraud Protection”](dev-itpro/DFP.md)
 - [Prekybos plėtra ir vystymas](dev-itpro/dev-retail-home-page.md)
 
 

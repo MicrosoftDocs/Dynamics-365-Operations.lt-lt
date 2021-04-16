@@ -2,11 +2,9 @@
 title: Pagrindinio planavimo trikčių šalinimas
 description: Šioje temoje aprašoma, kaip ištaisyti bendras klaidas, su kuriomis galite dirbdami su pagrindiniu planavimu.
 author: SmithaNataraj
-manager: tfehr
 ms.date: 11/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-11-04
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: db336946873fa1b5cc3f669823541af8cab4115b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8e78634c0efb1c401297559ce40b2ca30519f3bf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216110"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809475"
 ---
 # <a name="troubleshoot-master-planning"></a>Pagrindinio planavimo trikčių šalinimas
 
@@ -37,7 +35,7 @@ Patvirtinus gamybos užsakymą, prekės nėra sprogdinamos, kai sprogdinate med�
 
 ### <a name="issue-resolution"></a>Problemos paaiškinimas
 
-Sistema dirba kaip tikėtasi. Sprogimas, įvykstantis kai gamybos užsakymas yra patvirtinamas, rodys į suplanuotą užsakymą, bet bus nerodoma, jog suplanuotas užsakymas šiuo metu ir šiuo atveju yra patvirtintas. Nepaisant to, jei gakybos užsakymas buvo apskaičiuotas, sprogimas yra paskatinamas iš išleisto gamybos užsakymo, kai nėra jokio suplanuoto užsakymo.
+Sistema dirba kaip tikėtasi. Sprogimas, įvykstantis kai gamybos užsakymas yra patvirtinamas, rodys į suplanuotą užsakymą, bet bus nerodoma, jog suplanuotas užsakymas šiuo metu ir šiuo atveju yra patvirtintas. Nepaisant to, ar gamybos užsakymas buvo apskaičiuotas, sprogimas yra paskatinamas iš išleisto gamybos užsakymo, kai nėra jokio suplanuoto užsakymo.
 
 ## <a name="the-delay-value-isnt-updated-when-i-reschedule-a-planned-order"></a>Vėlinimo vertė nėra naujinama, kai iš naujo suplanuoju suplanuotą užsakymą.
 
@@ -77,7 +75,7 @@ Naujinant reikalavimo kiekį ir (arba) pristatymo datą suplanuotame užsakyme, 
 
 ### <a name="issue-resolution"></a>Problemos paaiškinimas
 
-Ši žinoma problema su inkoproporuotu pagrindinio planavimo varikliu. Jį sukelia jį remiantis automatinis sprogimas per BOM struktūrą redagavimo metu. Ši problema pažymėta „Planning Optimization“, kurioje planavimo įrankis gali būti naujinti ir tvirtinti atitinkamus užsakymus ir kai norima, paskatinti planavimo vykdymą siekiant atnaujinti suplanuotus užsakymus po ja esančiai BOM struktūrai.
+Ši žinoma problema su įtaisytuoju pagrindinio planavimo varikliu. Jį sukelia jį remiantis automatinis sprogimas per BOM struktūrą redagavimo metu. Ši problema pažymėta „Planning Optimization“, kurioje planavimo įrankis gali būti naujinti ir tvirtinti atitinkamus užsakymus ir kai norima, paskatinti planavimo vykdymą siekiant atnaujinti suplanuotus užsakymus po ja esančiai BOM struktūrai.
 
 Vienas būdas skirtas pagerinti vykdymą su inkorporuotu pagrindinio planavimo varikliu yra tokia:
 

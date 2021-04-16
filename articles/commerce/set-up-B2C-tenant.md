@@ -2,11 +2,9 @@
 title: „Commerce” B2C nuomotojo sąranka
 description: Šioje temoje aprašoma, kaip nustatyti „Azure Active Directory“ („Azure AD“) verslo ir vartotojų (B2C) nuomotojus, skirtus vartotojo svetainės autentifikavimui „Dynamics 365 Commerce“.
 author: BrianShook
-manager: annbe
-ms.date: 06/22/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4ee667bb49e70e0c881a2db1248b3f0c7fc017ce
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: f062f40c9eb883d02c4a0ee06c797ed1b0b22665
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5478145"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794000"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>„Commerce” B2C nuomotojo sąranka
 
@@ -30,6 +28,12 @@ ms.locfileid: "5478145"
 Šioje temoje aprašoma, kaip nustatyti „Azure Active Directory“ („Azure AD“) verslo ir vartotojų (B2C) nuomotojus, skirtus vartotojo svetainės autentifikavimui „Dynamics 365 Commerce“.
 
 „Dynamics 365 Commerce“ naudoja „Azure AD“ B2C, kad palaikytų vartotojo kredencialus ir autentifikavimo srautus. Vartotojas gali prisiregistruoti, prisijungti ir iš naujo nustatyti savo slaptažodį naudodamas šiuos srautus. „Azure AD“ B2C saugoma vartotojo slapto autentifikavimo informacija, pvz., vartotojo vardas ir slaptažodis. Vartotoje įraše B2C nuomotojuje bus saugomas arba B2C vietos sąskaitos įrašas arba B2C socialinės tapatybės teikimo įrankio įrašas. Šie B2C įrašai bus susieti su kliento įrašu „Commerce“ aplinkoje.
+
+> [!WARNING] 
+> „Azure AD B2C” panaikins senus (senstelėjusius) vartotojų srautus 2021 m. rugpjūčio mėnesio 1 d. Todėl turėtumėte planuoti perkelti savo vartotojų srautus į naują rekomenduojamą versiją. Nauja versija suteikia lygiavertiškas bei naujas funkcijas. „Commerce” 10.0.15 arba naujesnės versijos modulių biblioteka turi būti naudojama su rekomenduojamais B2C vartotojų srautais. Daugiau informacijos rasite [„Azure Active Directory B2C” vartotojų srautai](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview).
+ 
+ > [!NOTE]
+ > Į „Commerce” vertinimo aplinkas yra iš anksto įkeltas „Azure AD B2C” nuomotojas demonstraciniais tikslais. Vertinimo aplinkose nėra būtina įkelti savo „Azure AD B2C” nuomotojo atliekant žemiau nurodytus veiksmus.
 
 ## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>Kūrimas arba susiejimas su esamu AAD B2C nuomotoju „Azure“ portale
 
@@ -70,17 +74,21 @@ ms.locfileid: "5478145"
 
 ## <a name="create-the-b2c-application"></a>B2C programos kūrimas
 
-Sukūrus B2C nuomotoją, bus sukurta B2C programa, skirta dirbti su „Commerce“ veiksmais.
+Sukūrus B2C nuomotoją, naujam jūsų „Azure AD B2C” nuomotojui bus sukurta B2C programa, skirta sąveikauti su „Commerce“.
 
 Norėdami sukurti B2C programą, atlikite tolesnius veiksmus.
 
-1. „Azure“ portale pasirinkite **Programos(ankstesnės)** ir tuomet pasirinkite **Įtraukti**.
-1. Dalyje **Pavadinimas** įveskite pageidaujamos AAD B2C programos pavadinimą.
-1. Dalyje **Web App/Web API** **Įtraukti žiniatinklio programa / žiniatinklio API** pasirinkite **Taip**.
-1. Norėdami **Leisti numanomą srautą** pasirinkite **Taip** (numatytoji reikšmė).
-1. Dalyje **Atsakymo URL** įveskite skirtuosius atsakymo URL. Žr. [Atsakymo URL](#reply-urls) toliau, kur pateikta informacijos apie atsakymo URL ir kaip juos formatuoti.
-1. Norėdami **Įtraukti vietinį klientą**, pasirinkite **Ne** (numatytoji reikšmė).
-1. Pasirinkite **Kurti**.
+1. „Azure“ portale pasirinkite **Programų registracijos**, o tada pasirinkite **Nauja registracija**.
+1. Dalyje **Pavadinimas** įveskite „Azure AD B2C” programai suteikiamą pavadinimą.
+1. Dalyje **Palaikomi abonementų tipai** pasirinkite **Abonementai bet kuriame tapatybės teikėjo arba organizacijos kataloge (vartotojų su vartotojų srautais autentifikavimui)**.
+1. Dalyje **Peradresavimo URI** įveskite jūsų paskirto atsakymo URL kaip **Žiniatinklio** tipą. Daugiau informacijos apie atsakymo URL ir kaip juos formatuoti, rasite [Atsakymo URL](#reply-urls) žemiau.
+1. Dalyje **Teisės** pasirinkite **Suteikti administratoriaus sutikimą „OpenID” ir prieigos neprisijungus teisėms**.
+1. Pasirinkite **Registruotis**.
+1. Pasirinkite naujai sukurtą programą ir pereikite į **Autentifikavimo** meniu. Čia galite įtraukti papildomus **Peradresavimo URL**, jeigu jų reikia (dabar arba vėliau). Pereikite prie kito veiksmo, jei šiuo metu jie nereikalingi.
+1. Dalyje **Netiesioginis suteikiamas** pasirinkite tiek **Prieigos atpažinimo ženklus**, tiek **ID atpažinimo ženklus**, kad įgalintumėte juos programai. Pasirinkite **Įrašyti**.
+1. Eikite į „Azure” portalo **Apžvalgos** meniu ir nukopijuokite **Programos (kliento) ID**. Pasižymėkite šį ID, nes jis bus reikalingas kitiems nustatymo veiksmams (toliau nurodytą kaip **Kliento GUID**).
+
+Papildomų nuorodų apie „Azure AD B2C” programos registracijas rasite [Nauja programų registracijų patirtis „Azure Active Directory B2C”](https://docs.microsoft.com/azure/active-directory-b2c/app-registrations-training-guide)
 
 ### <a name="reply-urls"></a>Atsakymo URL
 
@@ -102,7 +110,7 @@ Vartotojų srautai yra strategijos, kurias „Azure AD“ B2C naudoja, kad sutei
 
 Galite pasirinkti naudoti numatytuosius vartotojo srautus, kuriuos siūlo „Azure AD“ ir kurie bus rodomi AAD B2C puslapyje. Arba galite sukurti HTML puslapį, kad galėtumėte valdyti šios vartotojo srauto patirties apipavidalinimą. 
 
-Norėdami tinkinti vartotojo strategijos puslapius „Dynamics 365 Commerce“ žr. [Pasirinktinių puslapių nustatymas vartotojų prisijungimui](custom-pages-user-logins.md). Daugiau informacijos žr. [Vartotojų patirties sąsajos tinkinimas „Azure Active Directory“ B2C](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-customize-ui).
+Norėdami tinkinti vartotojo strategijos puslapius su „Dynamics 365 Commerce“ platformoje sukurtais puslapiais, skaitykite [Pasirinktinių puslapių nustatymas vartotojų prisijungimui](custom-pages-user-logins.md). Daugiau informacijos žr. [Vartotojų patirties sąsajos tinkinimas „Azure Active Directory“ B2C](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-customize-ui).
 
 ### <a name="create-a-sign-up-and-sign-in-user-flow-policy"></a>Prisiregistravimo ir prisijungimo vartotojo srauto strategijos kūrimas
 
@@ -110,7 +118,7 @@ Norėdami sukurti prisiregistravimo ir prisijungimo vartotojo srauto strategiją
 
 1. „Azure“ portale kairiojoje naršymo srityje pasirinkite **Vartotojo srautai (strategijos)**.
 1. Puslapyje **„Azure AD“ B2C – vartotojo srautai (strategijos)** pasirinkite **Naujas vartotojo srautas**.
-1. Skirtuke **Rekomenduojama** pasirinkite **Registruotis ir prisijungti**.
+1. Pasirinkite **Registravimosi ir prisijungimo** strategiją, o tada pasirinkite **Rekomenduojamą** versiją.
 1. Dalyje **Pavadinimas** įveskite strategijos pavadinimą. Šis pavadinimas bus rodomas su prievardžiu, kurį priskyrė portalas (pavyzdžiui, „B2C_1_“).
 1. Dalyje **Tapatybės teikimo įrankiai** pažymėkite atitinkamą žymės langelį.
 1. Dalyje **Kelių faktorių autentifikavimas** atlikite pasirinkimą pagal savo įmonę. 
@@ -140,9 +148,9 @@ Norėdami sukurti profilio redagavimo vartotojo srauto strategiją, atlikite ši
 
 1. „Azure“ portale kairiojoje naršymo srityje pasirinkite **Vartotojo srautai (strategijos)**.
 1. Puslapyje **„Azure AD“ B2C – vartotojo srautai (strategijos)** pasirinkite **Naujas vartotojo srautas**.
-1. Skirtuke **Rekomenduojama** pasirinkite **Profilio redagavimas**.
+1. Pasirinkite **Profilio redagavimas**, o tada pasirinkite **Rekomenduojamą** versiją.
 1. Dalyje **Pavadinimas** įveskite profilio redagavimo vartotojo srautą. Šis pavadinimas bus rodomas su prievardžiu, kurį priskyrė portalas (pavyzdžiui, „B2C_1_“).
-1. Dalyje **Tapatybės teikimo įrankis** pasirinkite **Prisijungimas prie vietinės sąskaitos**.
+1. Dalyje **Tapatybės teikėjai** pasirinkite **El. pašto prisijungimas**.
 1. Dalyje **Vartotojo atributai** pažymėkite bet kurį iš šių žymės langelių:
     - **El. pašto adresai** (tik **Grąžinti pretenziją**)
     - **Vardas** (**Rinkti atributą** ir **Grąžinti pretenziją**)
@@ -161,7 +169,7 @@ Norėdami sukurti slaptažodžio nustatymo iš naujo vartotojo srauto strategij�
 
 1. „Azure“ portale kairiojoje naršymo srityje pasirinkite **Vartotojo srautai (strategijos)**.
 1. Puslapyje **„Azure AD“ B2C – vartotojo srautai (strategijos)** pasirinkite **Naujas vartotojo srautas**.
-1. Skirtuke **Rekomenduojama** pasirinkite **Slaptažodžio nustatymas iš naujo**.
+1. Pasirinkite **Slaptažodžio nustatymas iš naujo**, o tada pasirinkite **Rekomenduojamą** versiją.
 1. Dalyje **Pavadinimas** įveskite slaptažodžio nustatymo iš naujo vartotojo srauto pavadinimą.
 1. Dalyje **Tapatybės teikimo įrankiai** pasirinkite **Iš naujo nustatyti slaptažodį naudojant el. pašto adresą**.
 1. Pasirinkite **Kurti**.
@@ -225,6 +233,9 @@ Tolesniame paveiksle pateiktas pavyzdys, kaip pasirinkti tapatybės teikimo įra
 
 Toliau pateiktame paveikslėlyje parodytas numatytojo prisijungimo ekrano, kuriame rodomas socialinės tapatybės teikimo įrankio prisijungimo mygtukas, pavyzdys.
 
+> [!NOTE]
+> Jeigu savo vartotojo srautams naudojate pasirinktinius puslapius, įtaisytus „Commerce”, naudojant „Commerce” modulių bibliotekos išplėtimo funkcijas reikės įtraukti socialinės tapatybės teikėjams skirtus mygtukus. Be to, kai nustatote savo programas su konkrečiu socialinės tapatybės teikėju, kai kuriais atvejais URL ar konfigūracijos eilutės gali skirti didžiąsias ir mažąsias raides. Norėdami gauti daugiau informacijos, vadovaukitės savo socialinės tapatybės teikėjo ryšio instrukcijomis.
+ 
 ![Numatytojo prisijungimo ekrano su rodomu socialinės tapatybės teikimo įrankio mygtuku pavyzdys](./media/B2CImage_17.png)
 
 ## <a name="update-commerce-headquarters-with-the-new-azure-ad-b2c-information"></a>„Commerce“ būstinės naujinimas su nauja „Azure AD B2C“ informacija
@@ -250,12 +261,19 @@ Norėdami atnaujinti būstinę su naują „Azure AD“ B2C informaciją, atliki
 ### <a name="obtain-issuer-url"></a>Leidėjo URL gavimas
 
 Norėdami gauti savo tapatybės teikimo įrankio leidėjo URL, atlikite tolesnius veiksmus.
+1. „Azure” portalo puslapyje „Azure AD B2C” pereikite prie savo **Registravimosi ir prisijungimo** vartotojo srauto.
+1. Kairiajame naršymo meniu pasirinkite **Puslapio maketai**, o tada dalyje **Maketo pavadinimas** pasirinkite **Bendras registravimosi arba prisijungimo puslapis** ir **Vykdyti vartotojo srautą**.
+1. Įsitikinkite, kad jūsų programa nustatyta į jūsų aukščiau sukurtą numatomą „Azure AD B2C” programą, ir tada antraštėje **Vykdyti vartotojo srautą** pasirinkite saitą, kuriame yra „``.../.well-known/openid-configuration?p=<B2CSIGN-INPOLICY>``”.
+1. Metaduomenų puslapis rodomas jūsų naršyklės skirtuke Nukopijuokite tapatybės teikėjo išdavėjo URL (**„išdavėjo” reikšmę**).
+   - Pavyzdys: ``https://login.fabrikam.com/011115c3-0113-4f43-b5e2-df01266e24ae/v2.0/``.
+ 
+**ARBA**: Norėdami sukurti tą patį metaduomenų URL rankiniu būdu, atlikite šiuos veiksmus.
 
 1. Sukurkite metaduomenų adreso URL toliau nurodytu formatu, naudodami savo B2C nuomotoją ir strategiją:``https://<B2CTENANTNAME>.b2clogin.com/<B2CTENANTNAME>.onmicrosoft.com/v2.0/.well-known/openid-configuration?p=<B2CSIGN-INPOLICY>``
     - Pavyzdys: ``https://d365plc.b2clogin.com/d365plc.onmicrosoft.com/v2.0/.well-known/openid-configuration?p=B2C_1_signinup``.
 1. Į naršyklės adresų juostą įveskite metaduomenų adreso URL.
 1. Metaduomenyse kopijuokite tapatybės teikimo įrankio leidėjo URL (**„leidėjo“** reikšmę).
-    - Pavyzdys: ``https://login.fabrikam.com/073405c3-0113-4f43-b5e2-df01266e24ae/v2.0/``.
+    - Pavyzdys: ``https://login.fabrikam.com/011115c3-0113-4f43-b5e2-df01266e24ae/v2.0/``.
 
 ## <a name="configure-your-b2c-tenant-in-commerce-site-builder"></a>Konfigūruokite B2C nuomotoją „Commerce“ svetainių daryklėje
 
@@ -348,13 +366,13 @@ Pasirinktinio antrinio administratoriaus sąskaita gali būti įtraukta į jūs�
 
 [Susiekite „Dynamics 365 Commerce“ saitą su interneto kanalu](associate-site-online-store.md)
 
-[„robots.txt” failų tvarkymas](manage-robots-txt-files.md)
+[robots.txt failų tvarkymas](manage-robots-txt-files.md)
 
-[Įkelkite URL nukreipimus bendrai](upload-bulk-redirects.md) Susiekite „Dynamics 365 Commerce“ saitą su interneto kanalu
+[Masinis URL peradresavimų nusiuntimas](upload-bulk-redirects.md)
 
 [Vartotojo prisijungimo pasirinktinių puslapių sąranka](custom-pages-user-logins.md)
 
-[„Commerce” aplinkos kelių B2C nuomotojų konfigūravimas](configure-multi-B2C-tenants.md)
+[„Commerce” aplinkos kelių B2Ck nuomotojų konfigūravimas](configure-multi-B2C-tenants.md)
 
 [Turinio pristatymo tinklo (CDN) palaikymo įtraukimas](add-cdn-support.md)
 

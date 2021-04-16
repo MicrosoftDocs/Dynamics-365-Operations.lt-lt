@@ -2,11 +2,9 @@
 title: Automatiniai siuntos atnaujinimai
 description: Šioje temoje pateikiama funkcijos, leidžiančios automatiškai atnaujinti siuntas, apžvalga.
 author: josaw1
-manager: tfehr
 ms.date: 11/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveTemplateTable,SalesTableListPage,SalesTable,WHSWaveTableListPage
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f10c5c5dd1d287b51a6dda482614d6520bb3a1f9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: efa672bc264a39a4356e1581a6401cb331522c17
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233156"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810539"
 ---
 # <a name="shipment-auto-updates"></a>Automatiniai siuntos atnaujinimai
 
@@ -38,7 +36,7 @@ Automatinio siuntos atnaujinimo funkcija taikoma ir pardavimo užsakymo eilutėm
 
 Automatinio siuntos atnaujinimo funkcija pirmiausia priklauso nuo siuntos būsenos, kad būtų galima nustatyti, ar kiekis krovinio eilutėje turi būti pakeistas, kai atliekami pakeitimai pardavimo užsakymo eilutėje arba perkėlimo užsakymo eilutėje. Ji taip pat pirmiausia priklauso nuo siuntos būsenos, kad būtų galima nustatyti, kada nauja krovinio eilutė turi būti automatiškai įtraukiama į esamą krovinį. Kai siuntos būsena yra **Bangos** arba aukštesnė, automatiškai nenaujinama.
 
-Taip pat automatiniuose naujinimuose atsižvengiama į bangos būseną. Kai su krovinio eilute susijusios bangos būsena yra **Sulaikyta**, **Vykdoma**, **Išleista**, **Paimta** arba **Išsiųsta** ir vartotojas bando sumažinti kiekį krovinio eilutėje (kiekis sumažinamas pardavimo užsakymo eilutėje arba perkėlimo užsakymo eilutėje), rodomas šis klaidos pranešimas: „Rezervacijų šalinti negalima, nes sukurtas šiomis rezervacijomis grindžiamas darbas”. Be to, kai bangos būsena yra viena iš anksčiau minėtų ir vartotojas bando netiesiogiai padidinti krovinio eilutės kiekį padidindamas kiekį pardavimo užsakymo eilutėje arba perkėlimo užsakymo eilutėje, krovinio eilutėje nurodytas kiekis automatiškai nepadidėja. Tokiu atveju krovinio eilutę reikia atnaujinti rankiniu būdu.
+Taip pat automatiniuose naujinimuose atsižvengiama į bangos būseną. Kai su krovinio eilute susijusios bangos būsena yra **Sulaikyta**, **Vykdoma**, **Išleista**, **Paimta** arba **Išsiųsta** ir vartotojas bando sumažinti kiekį krovinio eilutėje (kiekis sumažinamas pardavimo užsakymo eilutėje arba perkėlimo užsakymo eilutėje), rodomas šis klaidos pranešimas: „Rezervacijų šalinti negalima, nes sukurtas šiomis rezervacijomis grindžiamas darbas.” Be to, kai bangos būsena yra viena iš anksčiau minėtų ir vartotojas bando netiesiogiai padidinti krovinio eilutės kiekį padidindamas kiekį pardavimo užsakymo eilutėje arba perkėlimo užsakymo eilutėje, krovinio eilutėje nurodytas kiekis automatiškai nepadidėja. Tokiu atveju krovinio eilutę reikia atnaujinti rankiniu būdu.
 
 ## <a name="scenarios"></a>Scenarijai
 

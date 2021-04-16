@@ -2,11 +2,9 @@
 title: Darbininko konfigūravimas naudojant mobilųjį užduočių įrenginį
 description: Ši procedūra nurodo, kaip priskirti tinkamas roles darbuotojo vartotojo abonementui, tada įgalinti darbuotoją atlikti darbo laiko kontrolės registraciją.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement, HcmWorker, JmgRegistrationSetupTouch, JmgRegistrationSetupAssignUsers
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6210cdeed99f26a6b58b75d9f5405c0e1ee5aef1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3fe4e195763f5329ee7732a2f087094acbad595a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213335"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810947"
 ---
 # <a name="configure-a-worker-using-the-mobile-job-device"></a>Darbininko konfigūravimas naudojant mobilųjį užduočių įrenginį
 

@@ -2,11 +2,9 @@
 title: Grąžinimo mokėjimo tvarkymas skambučių centruose
 description: Šiame skyriuje paaiškinta, kaip mokėjimo grąžinimai yra sukuriam per skambučių centrus, sukuriant grąžinimus ar kai užsakymai ar jų eilutės yra atšaukti.
 author: hhainesms
-manager: annbe
 ms.date: 01/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -14,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fd49835a24dc6ec429ac4b01f363f1be937628ac
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e3837ccebca0e6644ac5ded98344a5135cfb5d7a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214734"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799594"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Grąžinimo mokėjimo tvarkymas skambučių centruose
 
@@ -42,18 +40,18 @@ Skambučių centras naudoja originalaus užsakymo mokėjimo metodą siekiant nus
     ![Skambučių centro grąžinimo metodų konfigūravimas įprastiems ir čekio originaliems mokėjimams](media/callcenterrefundmethods.png)
 
 - **Kredito kortelė** – Kai grąžinimo užsakymas yra sukurtas ir nukreipia į pradinį užsakymą, kuris buvo sumokėtas naudojant kredito kortelę, skambučių centro logika grąžinimo mokėjimams taikoma tai pačiai kredito kortelei grąžinimo užsakymui.
-- **Lojalumo kortelė** – Kai grąžinimo užsakymas yra sukurtas ir nukreipia į pradinį užsakymą, kuris buvo sumokėtas naudojant kliento lojalumo kortelęč, skambučių centro logika grąžinimo mokėjimams taikoma grąžinimui į tą pačią lojalumo kortelę.
+- **Lojalumo kortelė** – Kai grąžinimo užsakymas yra sukurtas ir nukreipia į pradinį užsakymą, kuris buvo sumokėtas naudojant kliento lojalumo kortelę, skambučių centro logika grąžinimo mokėjimams taikoma grąžinimui į tą pačią lojalumo kortelę.
 - **Dovanų kortelė** (vidinė) – Kai grąžinimo užsakymas yra sukuriamas ir nukreipiamas į pradinį užsakymą, kuris buvo sumokėtas naudojant dovanų kortelę, kurią išdavė „Dynamics 365 Commerce“ (vidinės dovanų kortelės funkcijos), skambučių centro logika grąžinimo užsakymams taikoma siekiant grąžinti tą patį originalios dovanų kortelės numerį.
-- **Dovanų kortelė** (Išorinė) – Kai grąžinimo užsakymas yra sukuriamas ir nukreipiamas į pradinį užsakymą, kuris buvo sumokėtas naudojant išorinę trečiųjų šalių dovanų kortelę, skambučių centro logiką grąžinamiems mokėjimams taikoma nustatytam grąžinimo mokėjimo metodui, kkuris nustatytas **RMA/Grąžinimo** skirtuke **Skambučių centro parametrų** puslapyje.
+- **Dovanų kortelė** (Išorinė) – Kai grąžinimo užsakymas yra sukuriamas ir nukreipiamas į pradinį užsakymą, kuris buvo sumokėtas naudojant išorinę trečiųjų šalių dovanų kortelę, skambučių centro logiką grąžinamiems mokėjimams taikoma nustatytam grąžinimo mokėjimo metodui, kuris nustatytas **RMA/Grąžinimo** skirtuke **Skambučių centro parametrų** puslapyje.
 
-Jei pradinis užsakymo mokėjimo tipas yra nežinomas dėl kokios nors priežasties ar keli mokėjimo metodai buvo naudoti siekiant sumokėti pradinį užsakymą, skambučių centro logika yra taikoma nustatam **RMA/Grąžinimo** skirtukui puslapyje **Skambučių centro parametrai**.
+Jei pradinis užsakymo mokėjimo tipas yra nežinomas dėl kokios nors priežasties ar keli mokėjimo metodai buvo naudoti siekiant sumokėti pradinį užsakymą, skambučių centro logika yra taikoma nustatytam **RMA/Grąžinimo** skirtukui puslapyje **Skambučių centro parametrai**.
 
 Tolesniame paveikslėlyje rodomas **Mokėjimo metodo** laukelis skirtuke **RMA/grąžinimas** puslapyje **Skambučių centro parametrai**.
 
 ![Mokėjimo metodo laukelis skirtuke RMA/grąžinimas puslapyje Skambučių centro parametrai](media/callcenterrefundparameters.png)
 
 > [!NOTE]
-> Grąžinimo tvarkymo taisyklės aprašytos anksčiau taip pat yra taikomos užsakymams ar jų eilutėms, kurias skambučių centro vartotojas atšaukia prekybos būstinėje. Jei užsakymo ar konkrečių užsakymo eilučių atšaukimas sudaro kokius nors permokėjimus, tos pačios taisyklės bus naudojams siekiant sukurti grąžinimo mokėjimų eilutes.
+> Grąžinimo tvarkymo taisyklės aprašytos anksčiau taip pat yra taikomos užsakymams ar jų eilutėms, kurias skambučių centro vartotojas atšaukia prekybos būstinėje. Jei užsakymo ar konkrečių užsakymo eilučių atšaukimas sudaro kokius nors permokėjimus, tos pačios taisyklės bus naudojamos siekiant sukurti grąžinimo mokėjimų eilutes.
 
 Dažniausiai, grąžinimo užsakymas pereina per standartinį procesą, kai inventorius yra gaunamas (ar jo atsisakom), pakavimo lapelis yra publikuojamas pagal grąžinimo užsakymą ir tuomet sąskaitos publikavimo procesas yra vykdomas grąžinimo prekybos užsakymui. Grąžinimo prekybos užsakymas yra susietas ir sistemiškai sukuriamas kaip grąžinimo užsakymo sukūrimo proceso dalis. Dažniausiai scenarijais, mokėjimo grąžinimai nėra išduodami klientams, kol sąskaita už grąžinimo prekybos užsakymą yra publikuota.
 
@@ -62,9 +60,9 @@ Dažniausiai, grąžinimo užsakymas pereina per standartinį procesą, kai inve
 Tolesni scenarijai paaiškina, kas atsitinka, kai sąskaita yra publikuojama grąžinimo prekybos užsakyme:
 
 - Jei grąžinamas mokėjimas grąžinimo užsakyme yra kredito kortelei, papildoma logika pasitelkiama, kai sąskaita publikuojama. Ši logika iškviečia paskatina tvarkytoją grąžinti mokėjimą į kliento kredito kortelę. Grąžinamo kliento mokėjimo kuponas taip pat sukuriamas ir sistemiškai publikuojamas pagal kliento sąskaitą. Šis mokėjimo žurnalas bus nustatytas pagal grąžinimo užsakymo kredito pranešimo kuponą.
-- Jei grąžinimo mokėjimas turi būti išduodamas patikrinimo mokėjimo tipui, kliento mokėjimo kuponas, naudojants AR mokėjimo metodą yra sukuriamas ir turi būti rankiniu būdu publikuojamas ar atspausdinamas prieš tai, kai mokėjimo kuponas gali būti publikuojamas pagal kliento sąskaitą. Norėdami sutvarkymo grąžinimo patikrą, klientai gali naudoti **Kliento mokėjimo žurnalo** puslapį Gaunamose sąskaitose ar specializuojamasi **Grąžinimo patikro sutvarkymo** puslapyje Mažmeninėje prekyboje ir komercijoje.
+- Jei grąžinimo mokėjimas turi būti išduodamas patikrinimo mokėjimo tipui, kliento mokėjimo kuponas, naudojantis AR mokėjimo metodą yra sukuriamas ir turi būti rankiniu būdu publikuojamas ar atspausdinamas prieš tai, kai mokėjimo kuponas gali būti publikuojamas pagal kliento sąskaitą. Norėdami sutvarkymo grąžinimo patikrą, klientai gali naudoti **Kliento mokėjimo žurnalo** puslapį Gaunamose sąskaitose ar specializuojamasi **Grąžinimo patikrinimo sutvarkymo** puslapyje Mažmeninėje prekyboje ir komercijoje.
 - Jei grąžinimo mokėjimas turi būti išduodamas vidinei dovanų kortelei ar lojalumo kortelės mokėjimo tipui, kai grąžinimo užsakymas yra įtraukiamas į sąskaitą, gražinimo mokėjimo kuponas sukuriamas ir publikuojamas pagal kliento sąskaitą. Šis sąskaitos išrašymo žingsnis taip pat įtraukia grąžinimo sumą į kliento vidaus sekimo dovanų kortelės balansą ar lojalumo taškų balansą.
-- Jei mokėjimo metodas naudoja **Kliento** funkciją (pavyzdžiui, kliento paskyrą), jis yra susiejamas su grąžinimo prekybos užsakymu, kredito limito patvirtinimai ignoruojami, kai mokėjimas yra apdorojamas. Nesukuriamas ir nepublikuojamas joks mokėjimo kuponas šiame kontekste. Kai kliento mokėjimo tipas yra naudoajmas grąžinimo užsakyme, kredito pranešimo kuponas, kurį sutvarko sąskaitos publikavimas, yra naudojamas kaip kliento kredito kuponas ir nurodo atlyginimą į kliento gautinų sąskaitų balansą.
+- Jei mokėjimo metodas naudoja **Kliento** funkciją (pavyzdžiui, kliento paskyrą), jis yra susiejamas su grąžinimo prekybos užsakymu, kredito limito patvirtinimai ignoruojami, kai mokėjimas yra apdorojamas. Nesukuriamas ir nepublikuojamas joks mokėjimo kuponas šiame kontekste. Kai kliento mokėjimo tipas yra naudojamas grąžinimo užsakyme, kredito pranešimo kuponas, kurį sutvarko sąskaitos publikavimas, yra naudojamas kaip kliento kredito kuponas ir nurodo atlyginimą į kliento gautinų sąskaitų balansą.
 
 ## <a name="advance-credit"></a>Išankstinis kreditas
 
@@ -72,14 +70,14 @@ Kai klientas sutvarko grąžinimo užsakymus kaip skambučių centro vartotojas 
 
 ## <a name="replacement-orders"></a>Pakeitimo užsakymai
 
-Išdavus grąžinimo užsakymą **Užsakymo keitimo** funkcija gali būti naudojama siekiant sukurti naują prekybos užsakymą klientui. Toks požiūris gali būti naudojamas apsikeitimo scenarijais. Funkcija **Pakeitimo užsakymas** sukuria kitą prekybos užsakymą naujiems objektams, kurie turi būti siunčiami, tačiau kryžminė nuorods sąsaja **RMA/Grąžinimo** skirtuke puslapyje **Skambučių centro parametrai** susieja pakeitimo užsakymą, RMA ir grąžinimo prekybos užsakymą.
+Išdavus grąžinimo užsakymą **Užsakymo keitimo** funkcija gali būti naudojama siekiant sukurti naują prekybos užsakymą klientui. Toks požiūris gali būti naudojamas apsikeitimo scenarijais. Funkcija **Pakeitimo užsakymas** sukuria kitą prekybos užsakymą naujiems objektams, kurie turi būti siunčiami, tačiau kryžminė nuorodos sąsaja **RMA/Grąžinimo** skirtuke puslapyje **Skambučių centro parametrai** susieja pakeitimo užsakymą, RMA ir grąžinimo prekybos užsakymą.
 
 Kai mokėjimai pakaitiniame užsakyme yra apdorojami, organizacijos turi dvi parinktis:
 
 - Grąžinti klientui grąžinimo užsakymą pagal pradinio mokėjimo metodą ir tada surinkti atskirą mokėjimą dėl pakaitinio užsakymo. Šiai parinkčiai naudoti nereikia jokios papildomos konfigūracijos.
-- Nustatykite **Taikyti kreditą** parinktį į **Taip** skirtuke **RMA/Grąžinimas** puslapyje **Skambučių centro parametrai**. Tokiu atveju, kliento mokėjimo metodas sistemiškai taikomas grąžinimo užsakymui ir keitimo užsakymui. Ši parinktis gali padėti apsaugoti visus išorinius grąžinimo mokėjimus nuo išdavimo. Tai taip pat padeda apsaugoti visus mokėjimo tvarkymus transakcijoje. Jis gali būti naudingas tada, kai lygus keitimas yra tvarkomas ir organizacija nori naudoti kredito kuponą, sukurtą, kai grąžinimo užsakymas įtraukiamas į sąskaitą siekiant sumokėti už sąskaitą, kuri buvo sukurta keitimo užsakymo. Nustačius **Taikyti kreditą** parinktį į **Taip**, organizacija privalo rankiniu būdu nustatyti kredito pranešimą pagal pakeitimo užsakymo sąskaitą, kai abu minėti finansiniai dokumentai buvo sukurti.
+- Nustatykite **Taikyti kreditą** parinktį į **Taip** skirtuke **RMA/Grąžinimas** puslapyje **Skambučių centro parametrai**. Tokiu atveju, kliento mokėjimo metodas sistemiškai taikomas grąžinimo užsakymui ir keitimo užsakymui. Ši parinktis gali padėti apsaugoti visus išorinius grąžinimo mokėjimus nuo išdavimo. Tai taip pat padeda apsaugoti visus operacijos mokėjimo apdorojimus. Jis gali būti naudingas tada, kai lygus keitimas yra tvarkomas ir organizacija nori naudoti kredito kuponą, sukurtą, kai grąžinimo užsakymas įtraukiamas į sąskaitą siekiant sumokėti už sąskaitą, kuri buvo sukurta keitimo užsakymo. Nustačius **Taikyti kreditą** parinktį į **Taip**, organizacija privalo rankiniu būdu nustatyti kredito pranešimą pagal pakeitimo užsakymo sąskaitą, kai abu minėti finansiniai dokumentai buvo sukurti.
 
-Nustačius **Taip** parinkčiai **Taikyti kreditą**, ji yra taikoma tik grąžinimo užsakymai, kuris bus susietas su pakeitimo užsakymu. Tokiu atveju, kliento mokėjimo metodas bus naudojamas sistemiškai sumokėti už grąžinimo ir pakeitimo užsakymą, kuris nustatomas **Taikydi kreditų mokėjimo metodą** laukelyje **RMA/Grąžinimo** skirtuke **Skambučių centro parametrų** puslapis. Tik **Kliento** funkcijos mokėjimo tipas gali būti pasirenkamas šiame laukelyje.
+Nustačius **Taip** parinkčiai **Taikyti kreditą**, ji yra taikoma tik grąžinimo užsakymai, kuris bus susietas su pakeitimo užsakymu. Tokiu atveju, kliento mokėjimo metodas bus naudojamas sistemiškai sumokėti už grąžinimo ir pakeitimo užsakymą, kuris nustatomas **Taikyti kreditų mokėjimo metodą** laukelyje **RMA/Grąžinimo** skirtuke **Skambučių centro parametrų** puslapis. Tik **Kliento** funkcijos mokėjimo tipas gali būti pasirenkamas šiame laukelyje.
 
 > [!NOTE]
 > Grąžinimo užsakymui, kuris nebuvo susietas su jokiu pakeitimo užsakymu, parinkties **Taip** nustatymas **Taikyti kreditą** niekaip neveiks grąžinimo užsakymo mokėjimo logikos, nes šis nustatymas taikomas tik pakeitimo užsakymams.
@@ -87,15 +85,15 @@ Nustačius **Taip** parinkčiai **Taikyti kreditą**, ji yra taikoma tik grąži
 ![Taikyti kreditų mokėjimo metodo laukelį skirtuke RMA/grąžinimas puslapyje Skambučių centro parametrai](media/callcenterrefundparameters1.png)
 
 > [!IMPORTANT]
-> Jei vartotojai, sukūrę pakeitimo užsakymus, planuoja naudoti **Taikyti kreditą** parinktį, jie neturėtų vykdyti **Užbaigti** funkciją grąžinimo užsakyme prieš nustatę **Taikyti kreditą** parintkį į **Taip**. Įvykdžius funkciją **Užbaigta**, grąžinimo mokėjimas yra apskaičiuojamas ir taikomas grąžinimo prekybos užsakymui. Bet koks bandymas nustatyti **Taikyti kreditą** parinktį į **Taip** po to, kai grąžinimo mokėjimas jau buvo apskaičiuotas ir taikomas, neiššauks grąžinimo mokėjimo perskaičiavimo ir mokėjimo metodas pasirinktas **Taikyti kreditų mokėjimo metodą** laukelyje taikomas nebus. Jei **Taikyti kreditą** parinktis turi būti naudojama šiame kontekste, vartotojas privalo panaikinti keitimo užsakymą ir RMA bei iš naujo pradėti ir sukurti naują RMA. Dabar vartotojas privalo užtikrinti, kad **Taikyti kreditą** parinktis yra nustatyta į **Taip** prieš **Užbaigti** funkcijos vykdymą.
+> Jei vartotojai, sukūrę pakeitimo užsakymus, planuoja naudoti **Taikyti kreditą** parinktį, jie neturėtų vykdyti **Užbaigti** funkciją grąžinimo užsakyme prieš nustatę **Taikyti kreditą** parinktį į **Taip**. Įvykdžius funkciją **Užbaigta**, grąžinimo mokėjimas yra apskaičiuojamas ir taikomas grąžinimo prekybos užsakymui. Bet koks bandymas nustatyti **Taikyti kreditą** parinktį į **Taip** po to, kai grąžinimo mokėjimas jau buvo apskaičiuotas ir taikomas, neiššauks grąžinimo mokėjimo perskaičiavimo ir mokėjimo metodas pasirinktas **Taikyti kreditų mokėjimo metodą** laukelyje taikomas nebus. Jei **Taikyti kreditą** parinktis turi būti naudojama šiame kontekste, vartotojas privalo panaikinti keitimo užsakymą ir RMA bei iš naujo pradėti ir sukurti naują RMA. Dabar vartotojas privalo užtikrinti, kad **Taikyti kreditą** parinktis yra nustatyta į **Taip** prieš **Užbaigti** funkcijos vykdymą.
 
 ## <a name="payment-overrides-for-call-center-returns"></a>Mokėjimas viršija skambučių centrų grąžinimus
 
-Nepaisant to, kad skambučių centro logika sistemiškai nustato grąžinimo mokėjimo metodą aprašytą toliau šioje temoje, vartotojams kartais gali reikėti viršyti šiuos mokėjimus. Pavyzdžiui, vartotojui gali reikėti redaguoti ar pašalinti esančias grąžinimo mokėjimo eilutes ir taikyti naujas mokėjimo eilutes. Sistemos aspakčiuoti grąžinimo mokėjimai gali būti keičiami tik vartotojų, turinčių tinkamas viršijimo teises. Šios teisės gali būti konfigūruojamos **Viršyti teises** puslapyje Mažmenos prekyboje ir Komercijoje. Norėdami atlikti grąžinimo mokėjimo viršijimą, vartotojai turi būti susieti su saugos vaidmeniu, kuriame **Leisti alternatyvų mokėjimą** parinktis yra nustatyta į **Taip** puslapyje **Viršyti leidimus**.
+Nepaisant to, kad skambučių centro logika sistemiškai nustato grąžinimo mokėjimo metodą aprašytą toliau šioje temoje, vartotojams kartais gali reikėti viršyti šiuos mokėjimus. Pavyzdžiui, vartotojui gali reikėti redaguoti ar pašalinti esančias grąžinimo mokėjimo eilutes ir taikyti naujas mokėjimo eilutes. Sistemos apskaičiuoti grąžinimo mokėjimai gali būti keičiami tik vartotojų, turinčių tinkamas viršijimo teises. Šios teisės gali būti konfigūruojamos **Viršyti teises** puslapyje Mažmenos prekyboje ir Komercijoje. Norėdami atlikti grąžinimo mokėjimo viršijimą, vartotojai turi būti susieti su saugos vaidmeniu, kuriame **Leisti alternatyvų mokėjimą** parinktis yra nustatyta į **Taip** puslapyje **Viršyti leidimus**.
 
 ![Leisti alternatyvią mokėjimo parinktį Viršyti teises puslapyje](media/overridepermissions.png)
 
-Kitu atveju, organizacija gali nustatyti **Leistim mokėjimo viršijimo** parinktį į **Taip** puslapyje **RMA/Grąžinimas** skirtuke, **Skambučių centro parametrai** puslapyje. Tokiu atveju, saugos viršijimo kodas turi būti pasirinktas **Saugo viršijimo kodo** laukelyje. Saugumo viršijimo kodas yra skaitinis ir raidnis kodas, kuris turi būti sutvarkytas išorėje, nes vartotojai negali peržiūrėti jo Komercijos būstinėje po jo nustatymo. Saugos viršijimo kodas turi būti žinomas tik keliams pagrindiniams, organizacijoje pasitikėjimą turintiems asmenims. Kai **Leisti mokėjimo viršijimą** parinktis yra nustatyta į **Taip**, jei bet kokie vartotojai, neturintys tinkamo vaidmens teisių bando pakeisti mokėjimo metodą grąžinimo užsakyme, jie turės parinktį įvesti saugos viršijimo kodą. Jei jie jo nežino ar vadovas, arba viršininkas negali jo įvesti puslapyje jų vardu, jie negalės viršyti grąžinimo mokėjimo metodo.
+Kitu atveju, organizacija gali nustatyti **Leisti mokėjimo viršijimo** parinktį į **Taip** puslapyje **RMA/Grąžinimas** skirtuke, **Skambučių centro parametrai** puslapyje. Tokiu atveju, saugos viršijimo kodas turi būti pasirinktas **Saugo viršijimo kodo** laukelyje. Saugumo viršijimo kodas yra skaitinis ir raidinis kodas, kuris turi būti sutvarkytas išorėje, nes vartotojai negali peržiūrėti jo Komercijos būstinėje po jo nustatymo. Saugos viršijimo kodas turi būti žinomas tik keliams pagrindiniams, organizacijoje pasitikėjimą turintiems asmenims. Kai **Leisti mokėjimo viršijimą** parinktis yra nustatyta į **Taip**, jei bet kokie vartotojai, neturintys tinkamo vaidmens teisių bando pakeisti mokėjimo metodą grąžinimo užsakyme, jie turės parinktį įvesti saugos viršijimo kodą. Jei jie jo nežino ar vadovas, arba viršininkas negali jo įvesti puslapyje jų vardu, jie negalės viršyti grąžinimo mokėjimo metodo.
 
 > [!NOTE]
 > Jei saugos viršijimo kodas yra prarastas ar pamirštas, organizacija turės jį paleisti iš naujo nustatydama naują saugos viršijimo kodą **Saugos viršijimo kodo** laukelyje **RMA/Grąžinimo** skirtukas puslapyje **Skambučių centro parametrai**.

@@ -2,11 +2,9 @@
 title: Pritaikymo neįgaliesiems funkcijos ir galimybės
 description: Šioje temoje pateikiama informacijos apie „Microsoft Dynamics 365 Commerce“ pritaikymo neįgaliesiems funkcijas ir galimybes.
 author: BrianShook
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 094ad8d34e13051ce7596be462070ead4cbc4f14
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 13f035a080eb41b4a69cc31b7275d87a5836c686
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206660"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796323"
 ---
 # <a name="accessibility-features-and-capabilities"></a>Pritaikymo neįgaliesiems funkcijos ir galimybės
-
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje pateikiama informacijos apie „Microsoft Dynamics 365 Commerce“ pritaikymo neįgaliesiems funkcijas ir galimybes.
-
-## <a name="overview"></a>Peržiūra
 
 Pritaikymo neįgaliesiems funkcijos ir galimybės – tai funkcinės priemonės visiems vartotojams, kad jie galėtų pasiekti ir atlikti veiksmus bei įgyvendinti tikslus. Šiam plačiam vartotojų ratui gali reikėti pagalbinių klausos, regos, mobilumo ir neurologinės įvairovės įrankių.
 
@@ -73,7 +68,7 @@ Norėdami nusiųsti vaizdo įrašo įprasto garso arba apibūdinamojo garso fail
 > [!NOTE]
 > Paslėptųjų titrų, įprasto garso ir apibūdinamojo garso išteklius taip pat galima įtraukti vaizdo įrašo išteklių nusiuntus. Eikite į **Medijos biblioteka**, pasirinkite vaizdo įrašo išteklių, tada – **Redaguoti**, kad paimtumėte bei užrakintumėte jį. Tada jo ypatybių srityje nusiųskite papildomus išteklius.
 
-#### <a name="edit-cc-and-audio-transcript-files"></a>Paslėpųjų titrų ir garso nuorašų failų redagavimas
+#### <a name="edit-cc-and-audio-transcript-files"></a>Titrų ir garso nuorašų failų redagavimas
 
 Paslėptųjų titrų ir garso nuorašų failus galima redaguoti tiesiogiai kūrimo įrankyje. Redaguojant galima vaizdo įrašo atkūrimo funkcija.
 

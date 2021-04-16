@@ -2,11 +2,9 @@
 title: Ryšių su klientais apžvalga
 description: Šioje temoje pateikiama klientavimo galimybių, teikiamų parduotuvės programoje, apžvalga.
 author: bebeale
-manager: AnnBe
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 8f3135d0a34086b67c6e5ce11a5af47a51479c92
-ms.sourcegitcommit: 8a14eac1c27f10c2b1b02ac9ad82339f5e127602
+ms.openlocfilehash: 8a809b81504fdc31d8f9e0529048269dd7e0c5cc
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "5554999"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800452"
 ---
 # <a name="clienteling-overview"></a>Ryšių su klientais apžvalga
 
@@ -36,13 +34,13 @@ Daugybė mažmenininkų, ypač aukštos klasės prekes parduodančių specializu
 
 Programoje „Microsoft Dynamics 365 Commerce“ mažmenininkai gali naudotis klientų knygos funkcijomis ir taip pardavimo darbuotojams suteikti galimybę paprasčiau užmegzti ilgalaikius ryšius su pagrindiniais klientais.
 
-Kliento knyga apima kliento korteles, kuriso rodo kontaktinę informaciją apie kiekvieną klientą kartu su trimis ypatybėmis, kurios nustatomos mažmeninio prekybininko ir konfigūruojamos būstinės. Mažmenininkai gali nustatyti tris svarbiausius dalykus, kuriuos pardavimo darbuotojai turėtų žinoti apie klientus. Pavyzdžiui, juvelyrinių dirbinių pardavėjui gali prisireikti nurodyti svarbias datas – metines ar gimtadienius, nes šiomis progomis paprastai perkama daugiau papuošalų. Kitas pavyzdys – drabužių pardavėjui gali praversti informacija apie klientų apsipirkimo įpročius ir mėgstamus prekių ženklus.
+Kliento knyga apima kliento korteles, rodančios kontaktinę informaciją apie kiekvieną klientą kartu su trimis ypatybėmis, kurias nustato mažmeninis prekybininkas ir konfigūruoja būstinės. Mažmenininkai gali nustatyti tris svarbiausius dalykus, kuriuos pardavimo darbuotojai turėtų žinoti apie klientus. Pavyzdžiui, juvelyrinių dirbinių pardavėjui gali prisireikti nurodyti svarbias datas – metines ar gimtadienius, nes šiomis progomis paprastai perkama daugiau papuošalų. Kitas pavyzdys – drabužių pardavėjui gali praversti informacija apie klientų apsipirkimo įpročius ir mėgstamus prekių ženklus.
 
-Be to, pardavimo darbuotojai klientų knygoje gali filtruoti sąrašus taip, kad juose būtų rodomi tik klientai, atitinkantys tam tikrus kriterijus. Pavyzdžiui, į parduotuvę buvo pristatyta nauja batų kolekcija ir darbuotojas nori apie tai informuoti klientus, kurie dažnai perka batus.  Šiuo atveju darbuotojas gali atlikti klientų knygos filtravimą, kad rastų atitinkamus klientus, ir tada imtis tolesnių veiksmų.
+Be to, pardavimo darbuotojai klientų knygoje gali filtruoti sąrašus taip, kad juose būtų rodomi tik klientai, atitinkantys tam tikrus kriterijus. Pavyzdžiui, į parduotuvę buvo pristatyta nauja batų kolekcija ir darbuotojas nori apie tai informuoti klientus, kurie dažnai perka batus. Šiuo atveju darbuotojas gali atlikti klientų knygos filtravimą, kad rastų atitinkamus klientus, ir tada imtis tolesnių veiksmų.
 
 Jei tam tikri klientai dėl kokios nors priežasties nebėra laikomi pagrindiniais ir informacijos apie juos tvarkyti nebereikia, pardavimo darbuotojai gali juos pašalinti iš klientų knygos.
 
-Kai kurie mažmenininkai nenori tvarkyti informacijos apie klientus pardavimo darbuotojų lygmeniu. Jiems gali užtekti tvarkyti sąrašą su pagrindiniais klientais parduotuvės lygmeniu. Šie mažmenininkai gali peržiūrėti klientus iš parduotuvės klientų knygų. Naudodami šią parinktį, mažmenininkai gali peržiūrėti klientus iš visų kiekvieno pardavimo darbuotojo klientų knygų, jei jų adresų knygelė atitinka esamos parduotuvės klientų knygą.  Tad jeigu darbuotojas dirba keliose to paties juridinio subjekto parduotuvėse, klientų knygoje rodomi visų šių parduotuvių klientai. Ši funkcija palaiko papildomas galimybes. Pavyzdžiui, klientus galima iš naujo priskirti nuo vieno darbuotojo prie kito darbuotojo. Ši galimybė naudinga, kai darbuotojai perkeliami į kitą darbo vietą ar išeina iš kompanijos.
+Kai kurie mažmenininkai nenori tvarkyti informacijos apie klientus pardavimo darbuotojų lygmeniu. Jiems gali užtekti tvarkyti sąrašą su pagrindiniais klientais parduotuvės lygmeniu. Šie mažmenininkai gali peržiūrėti klientus iš parduotuvės klientų knygų. Naudodami šią parinktį, mažmenininkai gali peržiūrėti klientus iš visų kiekvieno pardavimo darbuotojo klientų knygų, jei jų adresų knygelė atitinka esamos parduotuvės klientų knygą. Tad jeigu darbuotojas dirba keliose to paties juridinio subjekto parduotuvėse, klientų knygoje rodomi visų šių parduotuvių klientai. Ši funkcija palaiko papildomas galimybes. Pavyzdžiui, klientus galima iš naujo priskirti nuo vieno darbuotojo prie kito darbuotojo. Ši galimybė naudinga, kai darbuotojai perkeliami į kitą darbo vietą ar išeina iš kompanijos.
 
 Kiekvienas pardavimo darbuotojas viename juridiniame subjekte gali turėti vieną klientų knygą, o darbuotojai į savo klientų knygą gali įtraukti vieną ar daugiau klientų. Šiuo metu programoje „Commerce“ kiekvieną klientą galima įtraukti tik į vieną klientų knygą. Tačiau „Microsoft“ planuoja pridėti funkcijų, kurios leistų vieną klientą įtraukti į keletą klientų knygų.
 
@@ -108,15 +106,15 @@ Norėdami sukonfigūruoti integraciją, atlikite toliau nurodytus veiksmus.
 1. „Azure“ portale registruokite naują programą ir pasižymėkite programos pavadinimą, jos ID ir raktą. Ši informacija bus naudojama paslaugos paslaugoms autentifikavimui tarp „Commerce“ ir „Customer Insights“. Pasižymėkite raktą saugiai, nes jo reikės įrašymui į raktų saugyklas. Tolesniam pavyzdžiui, naudokite CI_Access_name, CI_Access_AppID, CI_Access_Secret programos pavadinimui ir jos ID bei raktą atitinkamai. Dėl daugiau informacijos, žr. [Greitas vadovas: Registruokite programą „Microsoft“ tapatybės platformoje](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
 
     > [!IMPORTANT]
-    > Užtikrinkite, kad nepamirštumėte pasikeisti slaptadžio prieš jam baigiant galioti. To nepadarius, integracija netikėtai sustos.
+    > Užtikrinkite, kad nepamirštumėte pasikeisti slaptažodžio prieš jam baigiant galioti. To nepadarius, integracija netikėtai sustos.
 
 2. Eikite į savo „Customer Insights“ objektą ir ieškokite prieš tau sukurtos programos pavadinimo (šiuo atveju, „CI_Access_name").
 3. Sukurkite „Azure“ raktų saugyklą ir pasižymėkite pavadinimą bei URL (šiuo atveju, „KeyVaultName", „KeyVaultURL"). Instrukcijas rasite [„Quickstart“: slaptažodžio sukūrimas ir išgavimas iš „Azure“ raktų saugyklos naudojant „Azure“ portalą](https://docs.microsoft.com/azure/key-vault/quick-create-portal).
-4. Įrašykite raktą (šiuo atveju, „CI_Access_Secret") saugykloje. Kai šis raktas yra saugojamas saugykloje, jam suteikiamas vardas. Pasižymėkite rakto varda (šiuo atveju, „SecretName").
+4. Įrašykite raktą (šiuo atveju, „CI_Access_Secret") saugykloje. Kai šis raktas yra saugojamas saugykloje, jam suteikiamas vardas. Pasižymėkite rakto vardą (šiuo atveju, „SecretName").
 5. Norėdami prieiti prie rakto iš „Azure Key Vault“, jums reikia sukurti kitą programą su programos ID ir raktu (šiuo atveju, „KeyVault_Access_AppID" ir „KeyVault_Access_Secret"). Laikykite raktą saugiai, nes jis dar kartą nebus parodytas.
-6. Po to, jums reikia suteikti teises prie programos, kad prieitumėte prie „Key Vault“ iš „Commerce“ su API. Eikite į programos puslapį „Azure“ portale. Skyriuje **Valdyti** rinkitės **API teisės**. Įtraukite teises prieigai prie **„Azure“ rakto saugyklos**. Šiai teisei, rinkitės **Prieigos politika**. Rinktiės šabloną kaip **Rakto valdymas** ir rinkitės **Gauti**, **Išvardyti**, **Iššifruoti** ir **Užšifruoti** parinktis. 
+6. Po to, jums reikia suteikti teises prie programos, kad prieitumėte prie „Key Vault“ iš „Commerce“ su API. Eikite į programos puslapį „Azure“ portale. Skyriuje **Valdyti** rinkitės **API teisės**. Įtraukite teises prieigai prie **„Azure“ rakto saugyklos**. Šiai teisei, rinkitės **Prieigos politika**. Pasirinkite šabloną kaip **Rakto valdymas** ir rinkitės **Gauti**, **Išvardyti**, **Iššifruoti** ir **Užšifruoti** parinktis. 
 5. „Commerce“ būstinėje eikite į **Sistemos administravimas \> Nustatymai \> „Key Vault“ parametrai** ir tuomet įveskite būtiną informaciją rakto saugyklai. Tada laukelyje **Raktų saugyklos klientas** įveskite programos, kurią naudojote 4 veiksme, ID, kad „Commerce“ galėtų pasiekti raktų saugykloje laikomus slaptažodžius.
-6. Norėdami įtraukti programą, kurią sukūrėte žingsnyje 1 į saugių programų sąrašą (kartais vadinamą kaip saugų sąrašą), eiktie į „Customer Insights“ ir tada rinkitės **Peržiūrėti** prieigą prie programos. Instrukcijas rasite [Teisės](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
+6. Norėdami įtraukti programą, kurią sukūrėte žingsnyje 1 į saugių programų sąrašą (kartais vadinamą kaip saugų sąrašą), eikite į „Customer Insights“ ir tada rinkitės **Peržiūrėti** prieigą prie programos. Instrukcijas rasite [Teisės](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
 7. Puslapyje **Sistemos administravimas > Nustatymai > „Key Vault“ parametrai** puslapyje „Commerce HQ“, naujinkite laukelius kaip aprašyta toliau: 
 
 - **„Key Vault“ url**: „KeyVaultURL" (iš 3 veiksmo prieš tai).

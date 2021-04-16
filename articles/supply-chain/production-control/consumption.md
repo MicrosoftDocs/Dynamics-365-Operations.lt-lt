@@ -2,11 +2,9 @@
 title: Medžiagų suvartojimo apskaičiavimas
 description: Šiame straipsnyje pateikiama informacija apie įvairias parinktis, susijusias su medžiagų suvartojimo skaičiavimu.
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMDesignerEditBOM, BOMTable, ProdBOM
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc39df69a22b90a805aa9967d52dafea27c78c2b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 366ae86f09bf975ba0b2df33cfc2355b71b15e54
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246338"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809211"
 ---
 # <a name="calculate-material-consumption"></a>Medžiagų suvartojimo apskaičiavimas
 
@@ -73,11 +71,11 @@ Vartojimas žingsniais naudojamas apskaičiuoti pastovų vartojimą kiekio inter
 
 | Serija Nuo | Kiekis |
 |-------------|----------|
-| 0,00        | 10.0000  |
-| 100,00      | 20.0000  |
-| 200,00      | 40.0000  |
+| 0,00        | 10,0000  |
+| 100,00      | 20,0000  |
+| 200,00      | 40,0000  |
 
-Medžiagų kiekių suvestinėje (KS) nurodytas kiekis yra 1, o pagamintas kiekis yra 110. Suvartojimo formulė „Iš serijos“ (Kiekis) = Suvartojimas. Kadangi pagamintas kiekis yra 110, jis patenka į „Iš 100 serijos“. Todėl kiekis yra 20.
+Medžiagų kiekių suvestinėje (KS) nurodytas kiekis yra 1, o pagamintas kiekis yra 110. Suvartojimo formulė „Iš serijos“ (Kiekis) = Suvartojimas. Kadangi pagamintas kiekis yra 110, jis patenka į „Iš 100 serijos.“ Todėl kiekis yra 20.
 
 
 

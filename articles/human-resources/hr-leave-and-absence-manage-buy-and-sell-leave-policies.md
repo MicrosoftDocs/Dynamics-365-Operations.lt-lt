@@ -2,11 +2,9 @@
 title: Atostogų pirkimo ir pardavimo strategijų valdymas
 description: Galite suteikti darbuotojams galimybę pirkti ir parduoti atostogas programoje „Dynamics 365 Human Resources“.
 author: andreabichsel
-manager: tfehr
 ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeaveBuySellPolicy, LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ccc6bf2e8b070e92cc4dbb98d8ec35ce60723516
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: f03d6055c407b2c3e13831c8b5a6f8b0d6c47897
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5468088"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794714"
 ---
 # <a name="manage-buy-and-sell-leave-policies"></a>Atostogų pirkimo ir pardavimo strategijų valdymas
 

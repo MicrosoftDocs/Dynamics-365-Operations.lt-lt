@@ -2,11 +2,9 @@
 title: Turinio įtraukimo būdai
 description: Šioje temoje pateikiama apžvalga ir parenkami saitai, kur ir kaip pradėti tvarkyti turinį, naudojant „Microsoft Dynamics 365 Commerce“ svetainės generatoriaus žiniatinklio kūrimo įrankių rinkinį.
 author: phinneyridge
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb0b1c3f77bb71ba04c9110ed25fb80c2f2e61f4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e6794e528d9fa6066d7246e99a3307bb1bdc9c78
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208068"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797580"
 ---
 # <a name="ways-to-add-content"></a>Turinio įtraukimo būdai
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje pateikiama apžvalga ir saitai į dokumentus apie tai, kaip tvarkyti turinį, naudojant „Microsoft Dynamics 365 Commerce“ svetainės generatoriaus žiniatinklio kūrimo įrankių rinkinį.
-
-## <a name="overview"></a>Peržiūra
 
 Yra daug būdų, kaip pakeisti svetainės išvaizdą, pojūtį ir turinį. Atsižvelgiant į reikiamą tinkinimo lygį, daugelį šių pakeitimų gali įdiegti ne kūrėjai svetainės generatoriuje, žiniatinklio kūrimo įrankių rinkinyje, įtrauktame į „Dynamics 365 Commerce“. Svetainės generatorius leidžia kurti šablonus, pasirinkti temas ir pasirinkti ir generuoti modulius nerašant kodų. Priešingai, norint sukurti naują temą arba modulį, reikia naudoti programavimo įgūdžius, nes būtina naudoti el. prekybos programinės įrangos kūrimo rinkinį (SDK) ir „Microsoft Dynamics Lifecycle Services“ (LCS) diegimo darbo eigą.
 

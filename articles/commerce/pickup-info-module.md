@@ -2,11 +2,9 @@
 title: Paėmimo informacijos modulis
 description: Ši tema apima paėmimo informacijos modulį ir aprašo, kaip įtraukti jį į išregistravimo puslapius „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
-manager: annbe
 ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 222e8ad79b30e5197f7140958309d442b284f286
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 063701d5cd5714febeb32907346d9f6e5c2a2ca1
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263185"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804410"
 ---
 # <a name="pickup-information-module"></a>Paėmimo informacijos modulis
 
@@ -35,14 +33,14 @@ Paėmimo laikai atitinkamoms parduotuvėms turi būti sukonfigūruoti komercijos
 
 Jei paėmimo informacijos modulis sukuriamas išsiregistravimo puslapyje, bet nėra jokių laiko vietų nustatytų parduotuvei, kuri pasirinkta, modulis rodys informaciją, bet vartotojas negalės pasirinkti laiko vietos. Laiko vietos yra pasirenkamos ir nebūtinos užsakymo padarymui.
 
-Jei kelios prekės pasirenkamos paėmimui keletoje parduotuvių, paėmimo informacijos modulis leidžia vartotojui pasirinkti laiko vietą kiekvienai parduotuvei su sąlyga, kad laiko vietos yra joms prieinamos.
+Jei kelios prekės pasirenkamos paėmimui keliose parduotuvių, paėmimo informacijos modulis leidžia vartotojui pasirinkti laiko vietą kiekvienai parduotuvei su sąlyga, kad laiko vietos yra joms prieinamos.
 
 > [!NOTE]
 > Palaikymas laiko vietoms ir išsiregistravimo paėmimo informacijos modulis prieinamas „Dynamics 365 Commerce“ versijoje 10.0.15 ir vėlesnėse.
 
 Tolesnis paveikslėlis rodo pavyzdį laiko vietos pasirinkimo per paėmimo informacijos modulį išsiregistravimo puslapyje.
 
-![Paėmimo informacijos modulio pavyzdys išsiregsitravimo puslapyje](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Paėmimo informacijos modulio pavyzdys išsiregistravimo puslapyje](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="module-properties"></a>Modulio ypatybės
 

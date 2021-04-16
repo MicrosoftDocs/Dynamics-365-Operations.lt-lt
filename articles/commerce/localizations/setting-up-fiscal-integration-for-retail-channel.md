@@ -2,11 +2,9 @@
 title: Prekybos kanalų fiskalinės integracijos nustatymas
 description: Šioje temoje pateikiamos prekybos kanalų fiskalinės integracijos nustatymo gairės.
 author: josaw
-manager: annbe
 ms.date: 02/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 475459e20bb53a726524311fb66ddd82dee454ef
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bc87972b1cd2e04d31a3d48132cd1de42353698d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231723"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801922"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Prekybos kanalų fiskalinės integracijos nustatymas
 
@@ -60,7 +58,7 @@ Prieš naudodamiesi fiskalinės integracijos funkcija, turėtumėte sukonfigūru
 
     Finansinių dokumentų teikėjas generuoja finansinius dokumentus, kuriuose nurodomos prekybos operacijos ir įvykiai, užregistruoti EKA tokiu formatu, koks naudojamas sąveikaujant su finansiniu įrenginiu arba paslauga. Pvz., finansinių dokumentų teikėjas gali generuoti finansinio kvito versiją XML formatu.
 
-    Fiskalinė jungtis yra atsakinga už ryšį su finansiniu įrenginiu arba paslauga. Pvz., fiskalinė jungtis gali siųsti finansinį kvitą, kurį finansinių dokumentų teikėjas sukurė XML formatu, fiskaliniam spausdintuvui. Daugiau informacijos apie fiskalinės integracijos komponentus žr. [Finansinių įrenginių fiskalinės integracijos procesas ir fiskalinės integracijos pavyzdžiai](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
+    Fiskalinė jungtis yra atsakinga už ryšį su finansiniu įrenginiu arba paslauga. Pvz., fiskalinė jungtis gali siųsti finansinį kvitą, kurį finansinių dokumentų teikėjas sukūrė XML formatu, fiskaliniam spausdintuvui. Daugiau informacijos apie fiskalinės integracijos komponentus žr. [Finansinių įrenginių fiskalinės integracijos procesas ir fiskalinės integracijos pavyzdžiai](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
 
     1. Puslapyje **Fiskalinės jungtys** (**Mažmeninė prekyba ir prekyba \> Kanalų sąranka \> Fiskalinė integracija \> Fiskalinės jungtys**) nusiųskite kiekvieno įrenginio arba paslaugos, kuria planuojate naudotis fiskalinės integracijos tikslais, XML konfigūraciją.
 
@@ -84,7 +82,7 @@ Prieš naudodamiesi fiskalinės integracijos funkcija, turėtumėte sukonfigūru
         1. Pasirinkite jungties pavadinimą.
         2. Pasirinkite dokumento teikėją.
 
-        Junkciniame jungties profilyje galite keisti duomenų susiejimo parametrus. Norėdami atkurti numatytuosius parametrus, kurie apibrėžti finansinių dokumentų teikėjo konfigūracijoje, pasirinkite **Naujinti**.
+        Funkciniame jungties profilyje galite keisti duomenų susiejimo parametrus. Norėdami atkurti numatytuosius parametrus, kurie apibrėžti finansinių dokumentų teikėjo konfigūracijoje, pasirinkite **Naujinti**.
 
         **Pavyzdžiai**
 

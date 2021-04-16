@@ -2,11 +2,9 @@
 title: Kelių B2C nuomotojų konfigūravimas „Commerce“ aplinkoje
 description: Šioje temoje aprašoma, kada ir kaip viename kanale nustatyti kelis „Microsoft Azure Active Directory“ („Azure AD“) verslas–vartotojui (B2C) nuomotojus, skirtus vartotojo autentifikavimui paskirtoje „Dynamics 365 Commerce“ aplinkoje.
 author: BrianShook
-manager: annbe
-ms.date: 03/02/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2ddc8cea42ab0b5a319d4725ce8c75e57529cc63
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 4e50855368a3fa86c38c756492fc7e6cd518f497
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477761"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796104"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Kelių B2C nuomotojų konfigūravimas „Commerce“ aplinkoje
 
@@ -55,10 +53,6 @@ Toliau pateiktoje iliustracijoje parodomi keli B2C nuomotojai „Commerce“ apl
 
 Jei nuspręsite, kad jūsų verslui reikia individualių B2C nuomotojų vienam kanalui toje pačioje „Commerce“ aplinkoje, atlikite tolesniuose skyriuose esančias procedūras, kad galėtumėte užklausti šią funkciją.
 
-## <a name="request-that-b2c-per-channel-be-enabled-in-your-environment"></a>Užklausti, kad jūsų aplinkoje būtų įjungtas B2C kanalui
-
-Šiuo metu, jei norite, kad individualūs B2C nuomotojai kanalui būtų pasiekiami toje pačioje „Commerce“ aplinkoje, turite pateikti užklausą „Dynamics 365 Commerce“. Norėdami gauti daugiau informacijos, žr. [Gauti „Lifecycle Services“ (LCS) palaikymą](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md) arba aptarkite problemą su savo "Commerce“ sprendimų kontaktiniu asmeniu.
-
 ## <a name="configure-b2c-tenants-in-your-environment"></a>B2C nuomotojų konfigūravimas savo aplinkoje
 
 Norėdami sukonfigūruoti B2C nuomotojus savo aplinkoje, atlikite atitinkamas procedūras šiame skyriuje.
@@ -79,11 +73,11 @@ Norėdami pridėti „Azure AD“ B2C nuomotoją prie savo aplinkos, atlikite š
     - **Kliento GUID**: įveskite „Azure AD“ B2C nuomotojo ID, kaip jis rodomas „Azure“ portale (ne programos ID B2C nuomotojui).
     - **Redaguoti profilio strategijos ID**: įveskite strategijos ID (strategijos pavadinimą „Azure“ portale).
 
-1. Įvedę šią informaciją, pasirinkite **Gerai**, kad įrašytumėte pakeitimus.
+1. Įvedę šią informaciją, pasirinkite **Gerai**, kad įrašytumėte pakeitimus. Dabar jūsų naujas „Azure AD“ B2C nuomotojas turi pasirodyti sąraše po **Tvarkyti B2C programas**.
 
 > [!NOTE]
-> Turite palikti laukus, pvz., **Aprėptis**, **Neinteraktyvios strategijos ID**, **Neinteraktyvaus kliento ID**, **Prisijungumo pasirinktinis domenas** ir **Registruoti strategijos ID**, tuščius, nebent „Dynamics 365 Commerce“ komanda nurodo jas nustatyti.
-Dabar jūsų naujas „Azure AD“ B2C nuomotojas turi pasirodyti sąraše po **Tvarkyti B2C programas**.
+> Turite palikti laukus, pvz., **Aprėptis**, **Neinteraktyvios strategijos ID**, **Neinteraktyvaus kliento ID**, **Prisijungimo pasirinktinis domenas** ir **Registruoti strategijos ID**, tuščius, nebent „Dynamics 365 Commerce“ komanda nurodo jas nustatyti.
+
 
 ### <a name="manage-or-delete-an-azure-ad-b2c-tenant"></a>„Azure AD“ B2C nuomotojo tvarkymas arba naikinimas
 
@@ -97,13 +91,14 @@ Dabar jūsų naujas „Azure AD“ B2C nuomotojas turi pasirodyti sąraše po **
 > Kai B2C nuomotojas sukonfigūruotas paleistoje / publikuotoje svetainėje, vartotojai gali būti prisiregistravę naudojant su nuomotoju esančias paskyras. Jei panaikinsite sukonfigūruotą nuomotoją meniu **Nuomotojo parametrai\> B2C nuomotojas**, jūs pašalinsite to B2C nuomotojo svetainių, kurios susietos su bet kuriuo nuomotojo kanalu, susiejimą. Šiuo atveju vartotojai gali nebegalėti prisijungti prie savo paskyrų. Todėl kai panaikinate sukonfigūruotą nuomotoją, būkite itin atsargūs.
 >
 > Kai sukonfigūruotas nuomotojas panaikinamas, B2C nuomotojas ir jo įrašai bus išlaikyti, tačiau to nuomotojo „Commerce“ sistemos konfigūracija bus pakeista arba pašalinta. Vartotojai, kurie bando užsiregistruoti ar prisijungti prie svetainės, sukurs naują paskyros įrašą numatytame arba naujai susietame B2C, kuris sukonfigūruotas svetainės kanalui.
+
 ## <a name="configure-your-channel-with-a-b2c-tenant"></a>Savo kanalo konfigūravimas su B2C nuomotoju
 
 1. Prisijunkite prie savo aplinkos „Commerce“ svetainės kūrimo įrankio kaip sistemos administratorius. Norėdami sukonfigūruoti „Azure AD“ B2C nuomotojus, turite būti „Commerce“ sistemos administratorius.
 1. Kairiojoje naršymo srityje pasirinkite ir išskleiskite **Svetainės parametrai**.
 1. Pasirinkite **Kanalai** ir pasirinkite kanalą, kurį norite konfigūruoti.
 1. Dešinėje esančioje ypatybių srityje esančiame lauke **Pasirinkti B2C programą** pasirinkite sukonfigūruotą „Azure AD“ B2C nuomotoją, kurį norite naudoti šiam kanalui.
-1. Komandų juostoje pasirinkite **Įrašyti ir publikuoti**, kad patvirtinutmėte naują arba atnaujintą konfigūraciją.
+1. Komandų juostoje pasirinkite **Įrašyti ir publikuoti**, kad patvirtintumėte naują arba atnaujintą konfigūraciją.
 
 > [!WARNING]
 > Pakeitus B2C programą, priskirtą kanalui, pašalinamos dabartinės nuorodos, kurios buvo nustatytos visiems vartotojams, kurie jau yra užsiregistravę aplinkoje. Šiuo atveju bet kokie kredencialai, susieti su šiuo metu priskirta B2C programa, nebus prieinami vartotojams. Todėl keiskite kanalo „Azure AD“ B2C konfigūraciją tik jei nustatote kanalą pirmą kartą ir nėra užsiregistravusių vartotojų. Kitu atveju vartotojams gali reikėti registruotis iš naujo, kad būtų sukurtas įrašas naujame „Azure AD“ B2C nuomotoje.

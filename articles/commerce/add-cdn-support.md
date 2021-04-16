@@ -2,11 +2,9 @@
 title: Turinio pristatymo tinklo (CDN) palaikymo įtraukimas
 description: Šioje temoje aprašoma, kaip į savo „Microsoft Dynamics 365 Commerce“ aplinką įtraukti turinio pristatymo tinklą (CDN).
 author: brianshook
-manager: annbe
-ms.date: 07/31/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d653b072eca134c765a5db5659b228648fc13c4a
-ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
+ms.openlocfilehash: a56f675b1fb43160625101a067c74e9fcf4f714a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5582724"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797844"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Turinio pateikimo tinklo (CDN) palaikymo įtraukimas
 
@@ -39,13 +37,9 @@ Pagrindinio kompiuterio vardas arba galinis punktas, sugeneruotas konfigūruojan
 
 Be to, „Commerce“ *statika* („JavaScript“ arba pakopinių stilių sąrašo \[CSS\] failai) teikiama iš galinio punkto, kurį sugeneravo „Commerce“ (\*.commerce.dynamics.com). Statiką kaupti talpykloje galima, tik jei „Commerce“ sugeneruotas pagrindinio kompiuterio vardas arba galinis punktas įdedamas už CDN.
 
-## <a name="set-up-ssl"></a>SSL nustatymas
+## <a name="set-up-ssl"></a>Nustatyti SSL
 
-Norėdami padėti užtikrinti, kad būtų nustatytas SSL ir talpykloje kaupiama statika, turite sukonfigūruoti, kad jūsų CDN būtų susietas su pagrindinio kompiuterio vardu, kurį „Commerce“ sugeneravo jūsų aplinkai. Taip pat turite talpykloje kaupti tik tolesnį statikos šabloną. 
-
-/\_msdyn365/\_scnr/\*
-
-Sukonfigūravę savo „Commerce“ aplinką naudodami suteiktą pasirinktinį domeną arba pateikę pasirinktinį aplinkos domeną naudodami aptarnavimo užklausą, pasirinktinį domeną nukreipkite į „Commerce“ sugeneruotą pagrindinio kompiuterio vardą arba galinį punktą.
+Sukonfigūravę savo „Commerce“ aplinką naudodami suteiktą pasirinktinį domeną arba pateikę pasirinktinį aplinkos domeną naudodami aptarnavimo užklausą, pasirinktinį domeną, turite bendradarbiauti su „Commerce“ parengimo komanda planuodami DNS pakeitimus.
 
 Kaip buvo minėta anksčiau, sugeneruotas pagrindinio kompiuterio vardas arba galinis punktas palaiko tik \*.commerce.dynamics.com SSL sertifikatą. Jis nepalaiko pasirinktinių domenų SSL.
 
@@ -60,9 +54,9 @@ Su „Commerce“ aplinka galima naudoti bet kurią CDN tarnybą. Toliau pateikt
 
 CDN sąrankos procesą sudaro tolesni bendrieji veiksmai.
 
-1. Įtraukite sąsajos serverio pagrindinį kompiuterį.
-1. Konfigūruoti vidinio serverio baseiną.
-1. Nustatykite maršruto parinkimo ir kaupimo talpykloje taisykles.
+1. Sąsajos serverio pagrindinio kompiuterio įtraukimas.
+1. Vidinio serverio baseino konfigūravimas.
+1. Maršruto parinkimo taisyklių nustatymas.
 
 ### <a name="add-a-front-end-host"></a>Sąsajos serverio pagrindinio kompiuterio įtraukimas
 
@@ -74,8 +68,9 @@ Norėdami gauti informacijos apie tai, kaip nustatyti „Azure Front Door Servic
 
 Vidinio serverio baseino „Azure Front Door Service“ konfigūravimui, atlikite šiuos žingsnius.
 
-1. Įtraukti **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** vidinio serverio baseiną, kaip tinkintą pagrindinį kompiuterį, kuris turi tuščią vidinio serverio pagrindinio kompiuterio antraštę.
+1. Įtraukite **&lt;ecom-nuomotojo-pavadinimas&gt;.commerce.dynamics.com** į vidinį telkinį kaip pasirinktinę pagrindinę svetainę, turinčią vidinę pagrindinę antraštę **&lt;ecom-nuomotojo-pavadinimas&gt;.commerce.dynamics.com**.
 1. Dalyje **Apkrovos išlyginimas** palikite numatytąsias reikšmes.
+1. Išjunkite vidinio telkinio sveikatos patikrinimus.
 
 Toliau pateiktas paveikslėlis rodo **Įtraukti serverį** teksto langelį „Azure Front Door Service“ su serverio pagrindinio kompiuterio įvestu pavadinimu.
 
@@ -84,6 +79,10 @@ Toliau pateiktas paveikslėlis rodo **Įtraukti serverį** teksto langelį „Az
 Toliau pateiktas paveikslėlis rodo **Įtraukti serverio baseiną** teksto langelį „Azure Front Door Service“ nustatytosios apkrovos balansavimo vertėmis.
 
 ![Įtraukti serverio baseino teksto laukelio tęsinį](./media/CDN_BackendPool_2.png)
+
+> [!NOTE]
+> Įsitikinkite, kad išjungėte **Sveikatos tikrinimo duomenis** nustatydami savo „Azure Front Door Service”, skirtą „Commerce”.
+
 
 ### <a name="set-up-rules-in-azure-front-door-service"></a>„Azure Front Door Service“ taisyklių nustatymas
 
@@ -100,24 +99,6 @@ Norėdami sprendime „Azure Front Door Service“ nustatyti maršruto parinkimo
 1. Parinktį **URL perrašymas** nustatykite kaip **Išjungta**.
 1. Parinktį **Kaupimas talpykloje** nustatykite kaip **Išjungta**.
 
-Norėdami sprendime „Azure Front Door Service“ nustatyti kaupimo talpykloje taisyklę, atlikite tolesnius veiksmus.
-
-1. Įtraukite kaupimo talpykloje taisyklę.
-1. Lauke **Pavadinimas** įveskite **statika**.
-1. Lauke **Pripažįstamas protokolas** pasirinkite **HTTP ir HTTPS**.
-1. Lauke **Sąsajos serverio pagrindiniai kompiuteriai** įveskite **dynamics-el.prek-nuomotojo-vardas.azurefd.net**.
-1. Viršutiniame dalies **Gretintini šablonai** lauke įveskite **/\_msdyn365/\_scnr/\***.
-1. Dalyje **Išsami maršruto informacija** parinktį **Maršruto tipas** nustatykite kaip **Pirmyn**.
-1. Lauke **Vidinio serverio telkinys** pasirinkite **el.prek-vidinisserveris**.
-1. Laukų grupėje **Persiuntimo protokolas** pasirinkite parinktį **Gretinimo užklausa**.
-1. Parinktį **URL perrašymas** nustatykite kaip **Išjungta**.
-1. Parinktį **Kaupimas talpykloje** nustatykite kaip **Išjungta**.
-1. Lauke **Užklausos eilučių kaupimo talpykloje būdas** pasirinkite **Talpykloje kaupti kiekvieną unikalų URL**.
-1. Laukų grupėje **Dinaminis glaudinimas** pasirinkite parinktį **Įjungta**.
-
-Toliau pateiktoje iliustracijoje parodytas „Azure Front Door Service“ dialogo langas **Taisyklės įtraukimas**.
-
-![Dialogo langas Taisyklės įtraukimas](./media/CDN_CachingRule.png)
 
 > [!WARNING]
 > Jei jūsų naudojamas domenas jau yra veikiantis ir paleistas, sukurkite paramos bilietą **Parama** dreną [„Microsoft Dynamics Lifecycle Services“](https://lcs.dynamics.com/) tam, kad gautumėte pagalbą tolesniems savo veiksmams. Dėl išsamesnės informacijos, žr.  [Gauti pagalbą „Finance and Operations“ programoms arba „Lifecycle Services (LCS)“](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
