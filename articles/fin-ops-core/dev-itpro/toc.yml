@@ -228,6 +228,8 @@
                               href: data-entities/dual-write/party-gab.md
                             - name: „Power Portal“ naudojimas su šalies duomenų modeliu
                               href: data-entities/dual-write/party-gab-portal.md
+                            - name: Naujinimas į šalies ir visuotinės adresų knygelės modelį
+                              href: data-entities/dual-write/upgrade-party-gab.md
                             - name: Pastabų integravimas
                               href: data-entities/dual-write/notes-integration.md
                             - name: Susiejimo nuoroda
@@ -714,6 +716,8 @@
               items:
                 - name: X++ ir derintuvės funkcijos
                   href: dev-tools/new-x-debugger-features.md
+                - name: „Visual Studio 2017“ reikalavimai X++
+                  href: dev-tools/developer-tools-vs2017.md
                 - name: X++ kodo derinimas
                   href: dev-tools/debug-xpp.md
                 - name: EventHandlerResult klasės užklausų ar atsakymų scenarijų metu
@@ -1026,10 +1030,14 @@
                       href: perf-test/atl-faq.md
             - name: Datos galiojimas
               href: dev-tools/date-effectivity.md
-            - name: ISV licencijavimas
-              href: dev-tools/isv-licensing.md
-            - name: ISV licencijavimas vietinėje sistemoje
-              href: dev-tools/isv-licensing-on-prem.md
+            - name: Nepriklausomų programinės įrangos tiekėjų kūrimas
+              items:
+                - name: X++ modulių susiejimas su paketais naudojant „ISV Studio“
+                  href: dev-tools/isv-studio-solutions.md
+                - name: ISV licencijavimas
+                  href: dev-tools/isv-licensing.md
+                - name: ISV licencijavimas vietinėje sistemoje
+                  href: dev-tools/isv-licensing-on-prem.md
         - name: Bendrasis duomenų apsaugos reglamentas (BDAR)
           items:
             - name: Bendrasis duomenų apsaugos reglamento apžvalga
@@ -1142,10 +1150,10 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: „Microsoft Power Platform“ integravimas
           items:
+            - name: „Microsoft Power Platform“ integravimas su „Finance and Operations“
+              href: power-platform/overview.md
             - name: Virtualūs objektai
               items:
-                - name: „Microsoft Power Platform“ integravimas su „Finance and Operations“
-                  href: power-platform/overview.md
                 - name: Objekto modeliavimas
                   href: power-platform/entity-modeling.md
                 - name: Programos ciklo valdymas
@@ -1444,7 +1452,7 @@
                   href: lcs-solutions/submit-localization-alerts.md
         - name: Pagalba
           items:
-            - name: „Finance and Operations“ ir „Lifecycle Services“ palaikymo gavimas
+            - name: „Finance and Operations“ ir „Lifecycle Services“ pagalbos gavimas
               href: lifecycle-services/lcs-support.md
             - name: „Dynamics 365“ palaikymo apžvalga
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
@@ -1454,6 +1462,8 @@
               href: lifecycle-services/support-experience.md
             - name: „Finance and Operations“ programų palaikymo patirčių valdymas
               href: lifecycle-services/cloud-powered-support-lcs.md
+            - name: Gamybos palaikymas ir stebėjimas
+              href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
         - name: Sistemos administravimas
           items:
             - name: Sistemos administravimo pagrindinis puslapis
