@@ -37,9 +37,9 @@ Duomenų modelio duomenis vykdo objektai ir su įdiegė klasės.
 
 Toliau pateiktas pagrindinių objektų sąrašas:
 
-* AxClass /TaxIntegration **dokumento** objektas
-* AxClass /TaxIntegration **Eilutės** objektas
-* AxClass /TaxIntegration **Mokesčių eilutės** objektas
+* AxClass/TaxIntegration **Document** Object
+* AxClass/TaxIntegration **Line** Object
+* AxClass/TaxIntegration **TaxLine** Object
 
 Šioje iliustracijoje parodyta, kaip šie objektai yra susiję.
 
@@ -59,11 +59,11 @@ Srauto duomenis valdo veikla.
 
 ### <a name="key-activities"></a>Pagrindinės veiklos
 
-* AxClass /TaxIntegration **skaičiavimo** ActivityOnDocument
-* AxClass /TaxIntegration **valiutos kursas** ActivityOnDocument
-* AxClass /TaxIntegration **duomenų išlikimas** ActivityOnDocument
-* AxClass /TaxIntegration **duomenų gavimas** ActivityOnDocument
-* AxClass /TaxIntegration **nustatymų gavimas** ActivityOnDocument
+* AxClass/TaxIntegration **Calculation** ActivityOnDocument
+* AxClass/TaxIntegration **CurrencyExchange** ActivityOnDocument
+* AxClass/TaxIntegration **DataPersistence** ActivityOnDocument
+* AxClass/TaxIntegration **DataRetrieval** ActivityOnDocument
+* AxClass/TaxIntegration **SettingRetrieval** ActivityOnDocument
 
 Veiklos yra paleidžiamos tokia tvarka:
 
@@ -79,13 +79,13 @@ Pavyzdžiui, **pratęskite duomenų** nuskaitymą prieš skaičiavimo **paslauga
 
 **Duomenų** nuskaityme nuskaitomi duomenys iš duomenų bazės. Skirtingų operacijų adapterius galima nuskaityti duomenis iš skirtingų operacijų lentelių:
 
-- AxClass/TaxIntegration **Įsigijimo lentelė** DataRetrieval
-- AxClass/TaxIntegration **„PurchParmTable“** DataRetrieval
-- AxClass/TaxIntegration **„PurchREQTable“** DataRetrieval
-- AxClass/TaxIntegration **„PurchRFQTable“** DataRetrieval
-- AxClass/TaxIntegration **„VendInvoiceInfoTable“** DataRetrieval
-- AxClass/TaxIntegration **„SalesTable“** DataRetrieval
-- AxClass/TaxIntegration **„SalesParm“** DataRetrieval
+- AxClass/TaxIntegration **PurchTable** DataRetrieval
+- AxClass/TaxIntegration **PurchParmTable** DataRetrieval
+- AxClass/TaxIntegration **PurchREQTable** DataRetrieval
+- AxClass/TaxIntegration **PurchRFQTable** DataRetrieval
+- AxClass/TaxIntegration **VendInvoiceInfoTable** DataRetrieval
+- AxClass/TaxIntegration **SalesTable** DataRetrieval
+- AxClass/TaxIntegration **SalesParm** DataRetrieval
 
 Šiose duomenų **nuskaityme** duomenys kopijuojami iš duomenų bazės į `TaxIntegrationDocumentObject` ir `TaxIntegrationLineObject`. Kadangi visos šios veiklos išplečia tą pačią abstrakčią šablono klasę, jos turi bendrus metodus.
 
