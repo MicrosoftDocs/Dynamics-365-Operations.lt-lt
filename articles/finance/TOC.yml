@@ -932,8 +932,10 @@
                   href: general-ledger/general-ledger-account-balances.md
                 - name: Finansinių dimensijų apibrėžimas
                   href: general-ledger/tasks/define-financial-dimensions.md
-                - name: Finansinių dimensijų numatytųjų šablonų tvarkymas
+                - name: Finansinės dimensijos numatytųjų šablonų priežiūra
                   href: general-ledger/tasks/maintain-financial-dimension-default-templates.md
+                - name: Finansinių dimensijų rinkiniai
+                  href: general-ledger/financial-dimension-sets.md
                 - name: Sąskaitų struktūrų kūrimas
                   href: general-ledger/tasks/create-account-structures.md
                 - name: Finansinės dimensijos ir registravimas
@@ -1414,38 +1416,66 @@
           items:
             - name: Globalizacijos ištekliai
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
+            - name: Globalizavimo tarnybos
+              items:
+                - name: Globalizavimo tarnybų apžvalga
+                  href: localizations/globalization-services-overview.md
+                - name: Regulatory Configuration Service
+                  items:
+                    - name: „Regulatory Configuration Service“ apžvalga
+                      href: localizations/rcs-overview.md
+                    - name: „Regulatory Configuration Service“ – globalizacijos funkcijos
+                      href: localizations/rcs-globalization-feature.md
+                    - name: ER konfigūracijų „Regulatory Configuration Service“ kūrimas ir nusiuntimas į bendrąją saugyklą
+                      href: localizations/rcs-global-repo-upload.md
+                - name: Elektroninių SF išrašymas
+                  items:
+                    - name: Elektroninių SF išrašymo apžvalga
+                      href: localizations/e-invoicing-service-overview.md
+                    - name: Elektroninių SF išrašymo administravimo komponentai
+                      href: localizations/e-invoicing-service-administration.md
+                    - name: Elektroninių SF išrašymo „Regulatory Configuration Services“ (RCS) konfigūravimas
+                      href: localizations/e-invoicing-configuration-rcs.md
+                    - name: Elektroninių SF išdavimas „Finance“ ir „Supply Chain Management“
+                      href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
+                    - name: „Azure“ saugyklos paskyros ir „Key Vault“ kūrimas
+                      href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
+                    - name: Pradžia
+                      items:
+                        - name: Darbo su elektroninių SF išrašymo tarnybos administravimu pradžia
+                          href: localizations/e-invoicing-get-started-service-administration.md
+                        - name: Darbo su elektroninių SF išrašymu pradžia
+                          href: localizations/e-invoicing-get-started.md
+                        - name: Darbo su elektroninių SF išrašymu Brazilijai pradžia
+                          href: localizations/e-invoicing-bra-get-started.md
+                        - name: Darbo su elektroninių SF išrašymu Egiptui pradžia
+                          href: localizations/e-invoicing-eg-get-started.md
+                        - name: Darbo su elektroninių SF išrašymu Italijai pradžia
+                          href: localizations/e-invoicing-ita-get-started.md
+                        - name: Darbo su elektroninių SF išrašymu Meksikai pradžia
+                          href: localizations/e-invoicing-mex-get-started.md
+                        - name: Elektroninių SF išrašymo nustatymas
+                          href: localizations/e-invoicing-setup.md
+                    - name: Elektroninių SF išrašymo DUK
+                      href: localizations/e-invoicing-faq.md
+                - name: Mokesčių skaičiavimas
+                  items:
+                    - name: Mokesčių skaičiavimo apžvalga
+                      href: localizations/global-tax-calcuation-service-overview.md
+                    - name: Pradėti naudoti mokesčių skaičiavimą
+                      href: localizations/global-get-started-with-tax-calculation-service.md
+                    - name: Mokesčių funkcijų palaikymas perkėlimo užsakymams
+                      href: localizations/tasks/Tax-feature-support-for-transfer-order.md
+                    - name: Įtraukti duomenų laukus į mokesčių konfigūracijas
+                      href: localizations/tax-service-add-data-fields-tax-configurations.md
+                    - name: Įtraukti duomenų laukus į mokesčių integravimą naudojant plėtinius
+                      href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md
+                    - name: Kelių PVM registracijų numeriai
+                      href: localizations/emea-multiple-vat-registration-numbers.md
+                    - name: Bendrųjų duomenų peržvalgos aplinkos nustatymas
+                      href: localizations/tax-service-set-up-environment-master-data-lookup.md
             - name: Reglamentavimo naujinimai
               href: localizations/regulatory-updates.md
-            - name: Elektroninių SF išrašymas
-              items:
-                - name: Elektroninių SF išrašymo apžvalga
-                  href: localizations/e-invoicing-service-overview.md
-                - name: Elektroninių SF išrašymo administravimo komponentai
-                  href: localizations/e-invoicing-service-administration.md
-                - name: Elektroninių SF išrašymo „Regulatory Configuration Services“ (RCS) konfigūravimas
-                  href: localizations/e-invoicing-configuration-rcs.md
-                - name: Elektroninių SF išdavimas „Finance“ ir „Supply Chain Management“
-                  href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
-                - name: „Azure“ saugyklos paskyros ir „Key Vault“ kūrimas
-                  href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
-                - name: Pradžia
-                  items:
-                    - name: Darbo su elektroninių SF išrašymo tarnybos administravimu pradžia
-                      href: localizations/e-invoicing-get-started-service-administration.md
-                    - name: Darbo su elektroninių SF išrašymu pradžia
-                      href: localizations/e-invoicing-get-started.md
-                    - name: Darbo su elektroninių SF išrašymu Brazilijai pradžia
-                      href: localizations/e-invoicing-bra-get-started.md
-                    - name: Darbo su elektroninių SF išrašymu Egiptui pradžia
-                      href: localizations/e-invoicing-eg-get-started.md
-                    - name: Darbo su elektroninių SF išrašymu Italijai pradžia
-                      href: localizations/e-invoicing-ita-get-started.md
-                    - name: Darbo su elektroninių SF išrašymu Meksikai pradžia
-                      href: localizations/e-invoicing-mex-get-started.md
-                    - name: Elektroninių SF išrašymo nustatymas
-                      href: localizations/e-invoicing-setup.md
-                - name: Elektroninių SF išrašymo DUK
-                  href: localizations/e-invoicing-faq.md
             - name: Australija
               items:
                 - name: Australijos apžvalga
@@ -1468,6 +1498,8 @@
                   href: localizations/emea-aut-packing-material-fee-calculation.md
                 - name: PVM išrašas
                   href: localizations/emea-aut-vat-statement-details.md
+                - name: Užsienio paslaugų ataskaita
+                  href: localizations/emea-aut-cross-border-services-report.md
             - name: Bahreinas
               items:
                 - name: Bahreino apžvalga
@@ -1492,6 +1524,8 @@
                   href: localizations/emea-bel-intervat-tax-declaration.md
                 - name: Suderinimo ataskaitos
                   href: localizations/emea-bel-reconciliation-reports.md
+                - name: Žurnalų ataskaitos
+                  href: localizations/emea-bel-journal-reports.md
                 - name: Mokėjimo balanso ataskaitų nustatymas
                   href: localizations/tasks/be-00011-set-up-payment-balance-reporting.md
                 - name: PRODCOM nustatymas ir tvarkymas
@@ -1686,7 +1720,7 @@
                       href: localizations/tasks/br-00061-withholding-taxes-vendors-payments.md
             - name: Kanada
               items:
-                - name: GST / HST interneto failo perdavimas
+                - name: PPM / HST interneto failo perdavimas
                   href: localizations/can-gst-hst-internet-file-transfer.md
             - name: Kinija
               items:
@@ -2118,32 +2152,6 @@
                       href: localizations/ind-news-letter-10-0-13.md
                     - name: Kas nauja ar pasikeitė 10.0.14
                       href: localizations/apac-ind-news-letter-10-0-14.md
-                - name: Ilgalaikis turtas
-                  items:
-                    - name: Indijos ilgalaikio turto apžvalga
-                      href: localizations/apac-ind-fixed-assets.md
-                    - name: Dienos kalendoriaus įtraukimas į ilgalaikių išteklių knygą
-                      href: localizations/tasks/apac-ind-attach-day-based-calendar.md
-                    - name: Pamainos nusidėvėjimo skaičiavimas
-                      href: localizations/tasks/apac-ind-shift-depreciation-rates.md
-                    - name: 'Atsargų modelio grupės, skirtos kapitalo prekėms, kūrimas'
-                      href: localizations/tasks/apac-ind-create-inventory-model-group.md
-                    - name: Nusidėvėjimo kūrimas ir registravimas
-                      href: localizations/apac-ind-calculate-post-depreciation.md
-                    - name: Knygoms skirto pamainos ir pramonės tipo nustatymas bei pridėjimas prie ilgalaikio turto
-                      href: localizations/tasks/apac-ind-books-shift-industry-types.md
-                    - name: Ilgalaikio turto operacijų atšaukimas
-                      href: localizations/apac-ind-reverse-fixed-assets-transactions.md
-                    - name: Pamainos nusidėvėjimo skaičiavimas
-                      href: localizations/apac-ind-calculation-shift-depreciation.md
-                    - name: Dienos finansinio kalendoriaus nustatymas
-                      href: localizations/tasks/apac-ind-day-based-calendar.md
-                    - name: Parametrų nusidėvėjimui skaičiuoti nustatymas
-                      href: localizations/tasks/apac-ind-set-up-depreciation.md
-                    - name: 'Turto grupės nusidėvėjimo, skirto nusidėvėjimo knygoms, nustatymas'
-                      href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
-                    - name: Kapitalo prekių perkėlimas į ilgalaikius išteklius
-                      href: localizations/tasks/apac-ind-transfer-capital-items.md
                 - name: Netiesioginiai mokesčiai
                   items:
                     - name: Indijos GST
@@ -2300,6 +2308,10 @@
                                   href: localizations/apac-ind-GST-revise-advanced-payment-tax.md
                                 - name: Kliento mokėjimo grąžinimai
                                   href: localizations/apac-ind-GST-customer-payment-refund.md
+                            - name: Projekto valdymo operacijos
+                              items:
+                                - name: Prekių ir paslaugų mokesčio (GST) projekto operacijos
+                                  href: localizations/apac-ind-gst-project-transactions.md
                             - name: Mokesčių koregavimas
                               items:
                                 - name: Mokesčių sumos koregavimas
@@ -2336,6 +2348,32 @@
                           href: localizations/apac-ind-tax-thresholds.md
                         - name: TCS apie prekių pardavimą
                           href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
+                - name: Ilgalaikis turtas
+                  items:
+                    - name: Indijos ilgalaikio turto apžvalga
+                      href: localizations/apac-ind-fixed-assets.md
+                    - name: Dienos kalendoriaus įtraukimas į ilgalaikių išteklių knygą
+                      href: localizations/tasks/apac-ind-attach-day-based-calendar.md
+                    - name: Pamainos nusidėvėjimo skaičiavimas
+                      href: localizations/tasks/apac-ind-shift-depreciation-rates.md
+                    - name: 'Atsargų modelio grupės, skirtos kapitalo prekėms, kūrimas'
+                      href: localizations/tasks/apac-ind-create-inventory-model-group.md
+                    - name: Nusidėvėjimo kūrimas ir registravimas
+                      href: localizations/apac-ind-calculate-post-depreciation.md
+                    - name: Knygoms skirto pamainos ir pramonės tipo nustatymas bei pridėjimas prie ilgalaikio turto
+                      href: localizations/tasks/apac-ind-books-shift-industry-types.md
+                    - name: Ilgalaikio turto operacijų atšaukimas
+                      href: localizations/apac-ind-reverse-fixed-assets-transactions.md
+                    - name: Pamainos nusidėvėjimo skaičiavimas
+                      href: localizations/apac-ind-calculation-shift-depreciation.md
+                    - name: Dienos finansinio kalendoriaus nustatymas
+                      href: localizations/tasks/apac-ind-day-based-calendar.md
+                    - name: Parametrų nusidėvėjimui skaičiuoti nustatymas
+                      href: localizations/tasks/apac-ind-set-up-depreciation.md
+                    - name: 'Turto grupės nusidėvėjimo, skirto nusidėvėjimo knygoms, nustatymas'
+                      href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
+                    - name: Kapitalo prekių perkėlimas į ilgalaikius išteklius
+                      href: localizations/tasks/apac-ind-transfer-capital-items.md
             - name: Italija
               items:
                 - name: Italijos apžvalga
@@ -2958,6 +2996,8 @@
                       href: localizations/rus-cash-flow-tax-registers.md
                     - name: Įvertintų išlaidų registrai
                       href: localizations/rus-rated-expenses-registers.md
+                    - name: Mokėtinų sumų skolos mokesčių registrai ir skolų nurašymai
+                      href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
             - name: Saudo Arabija
               items:
                 - name: Saudo Arabijos apžvalga
@@ -3034,14 +3074,20 @@
                   href: localizations/thailand.md
                 - name: Atsargų kortelių ataskaitos
                   href: localizations/apac-tha-stock-card-reports.md
+                - name: Mokesčių SF
+                  href: localizations/apac-tha-tax-invoices.md
                 - name: Pakeitimo / koregavimo mokesčių sąskaita faktūra
                   href: localizations/apac-tha-substitution-and-adjustment-invoices.md
                 - name: Nesumokėtas PVM
                   href: localizations/apac-tha-unrealized-vat.md
+                - name: Vidutinis pirkimo operacijų PVM
+                  href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: Mokesčių filialo dimensijos
                   href: localizations/apac-tha-tax-branch-dimensions.md
                 - name: Pardavimo PVM ataskaita
                   href: localizations/apac-tha-sales-vat-report.md
+                - name: Vidutinis pirkimo operacijų PVM
+                  href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: Išskaitomas mokestis
                   href: localizations/apac-tha-withholding-tax.md
             - name: Jungtiniai Arabų Emyratai (JAE)
@@ -3869,10 +3915,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/finance/toc.json
                         - name: 'Formatų, skirtų dokumentų valdymo failams naudoti, modifikavimas ir taikymas'
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
-                    - name: Duomenų šaltinių derinimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: BRŪKŠNINIO KODO naudojimas brūkšninio kodo vaizdams generuoti
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: 'Konfigūruokite PERŽVALGOS duomenų šaltinius, kad būtų galima naudoti konkretaus ER prašymo parametrus'
+                      href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: Duomenų šaltinių derinimas
+                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: Modelių susiejimų konfigūravimas
                   items:
                     - name: Nuo šalies konteksto priklausomo ER modelio susiejimų konfigūravimas
