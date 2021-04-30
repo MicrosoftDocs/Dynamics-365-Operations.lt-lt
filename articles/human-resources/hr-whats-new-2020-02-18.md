@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6c28d0dc76195cc0aedc132f348a229af0421c43
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8109826df93f9916914a2db3876ee0f9107985f9
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790433"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890963"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. vasario 18 d.)
 
@@ -33,7 +33,7 @@ ms.locfileid: "5790433"
 
 ## <a name="platform-update-32"></a>Platformos „update 32“ 
 
-Dabar pasiekiamas 32-asis platformos naujinimas. Norėdami gauti daugiau informacijos, žr. [Kas nauja arba pakeista „Finance and Operations“ 32-ajame platformos naujinime (2020 m. vasario mėn.)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32).
+Dabar pasiekiamas 32-asis platformos naujinimas. Norėdami gauti daugiau informacijos, žr. [Kas nauja arba pakeista „Finance and Operations“ 32-ajame platformos naujinime (2020 m. vasario mėn.)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
 
 ## <a name="search-values-are-remembered-when-changing-view-options-in-streamlined-employee-form-383833"></a>Keičiant rodinio parinktis supaprastintoje darbuotojo formoje, įsimenamos ieškos reikšmės (383833)
 
@@ -81,7 +81,7 @@ Nauju „Dataverse” sprendimu greitai galėsite naudotis atlikdami šiuos keit
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 [Kas nauja ar pasikeitė „Human Resources”](hr-admin-whats-new.md)</br>
-[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
 [Funkcijų valdymas](hr-admin-manage-features.md)
 

@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dcc66549bf6bdd67438bea9ac3c29c3f01e2674e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7a53efb753a75916c85dc4a45a3c64872a7f5d32
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841772"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908376"
 ---
 # <a name="calendars-and-master-planning"></a>Kalendoriai ir bendrasis planavimas
 
@@ -53,7 +53,7 @@ Padengimo grupę galima priskirti skirtinguose puslapiuose.
 ### <a name="calendar-for-a-vendor"></a>Tiekėjo kalendorius
 Norėdami nurodyti tiekėjo darbo dienas, galite priskirti pirkimo kalendorių tiekėjui tiekėjo puslapyje **Pirkimo užsakymo numatytosios reikšmė**. 
 
-Norėdami nustatyti tiekėjo kalendorių, turite sukurti kalendorių pasirinkdami **Organizacijos administravimas > Kalendoriai > Kalendoriai**. Sukūrus kalendorių, jis turi būti priskirtas tiekėjui. Pasirinkite **Mokėtinos sumos > Tiekėjai > Visi tiekėjai** ir pasirinkite tiekėją, kuriam norite priskirti kalendorių. Tada tiekėjo puslapio „FastTab“ **Pirkimo užsakymo numatytosios reikšmė** priskirkite naują pirkimo kalendorių naudodami išplečiamajį meniu. 
+Norėdami nustatyti tiekėjo kalendorių, turite sukurti kalendorių pasirinkdami **Organizacijos administravimas > Kalendoriai > Kalendoriai**. Sukūrus kalendorių, jis turi būti priskirtas tiekėjui. Pasirinkite **Mokėtinos sumos > Tiekėjai > Visi tiekėjai** ir pasirinkite tiekėją, kuriam norite priskirti kalendorių. Tada tiekėjo puslapio „FastTab“ **Pirkimo užsakymo numatytosios reikšmė** priskirkite naują pirkimo kalendorių naudodami išplečiamąjį meniu. 
 
 Tiekėjo kalendorius nurodo dienas, kuriomis tiekėjas priima teikiamus pirkimo užsakymus, ir datas, kuriomis tiekėjas pristato užsakymus į jūsų įmonę. Taigi, tiekėjo, kuriam priskirtas pirkimo kalendorius, pirkimo užsakymo datos bus datos, kalendoriuje nurodytos kaip atidarytos. Tų užsakymų pristatymo datos taip pat bus atidarytos dienos ir tokiu būdu paveiks nupirktos prekės gamybos laiką. 
 
@@ -90,7 +90,7 @@ Norėdami nurodyti datas, kuriomis klientas gali priimti pristatymus, galite kli
 
 Atkreipkite dėmesį, kad galima įtraukti tik vieną kiekvieno kliento kalendorių. Jei norite įtraukti kiekvieno skirtingo kliento adreso kalendorių, galite kurti klientą, kuriam priskirtas vienas adresas, ir tada priskirti atitinkamą kalendorių. 
 
-Pageidaujama pardavimo užsakymo eilučių gavimo data priklauso nuo kliento kalendoriaus ir pristatymo datos valdymo būdo. Daugiau informacijos apie tai, kaip apskaičiuojama anksčiausia pristatymo data, žr. [Užsakymų vykdymo perspektyva](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
+Pageidaujama pardavimo užsakymo eilučių gavimo data priklauso nuo kliento kalendoriaus ir pristatymo datos valdymo būdo. Daugiau informacijos apie tai, kaip apskaičiuojama anksčiausia pristatymo data, žr. [Užsakymų vykdymo perspektyva](/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>Juridinio subjekto siuntimo kalendorius
 Norėdami nurodyti datas, kuriomis juridinis subjektas gali siųsti prekes, galite nustatyti siuntimo kalendorių pasirinkę **Organizacijos administravimas > Organizacijos > Juridiniai subjektai**. Pasirinkite juridinį subjektą ir įtraukite kalendorių skirtuko **Užsienio prekyba ir logistika** lauke **Siuntimo kalendorius**. Siuntimo kalendoriuje veiks kaip visų juridinio subjekto sandėlio kalendorių numatytųjų reikšmių šaltinis. 

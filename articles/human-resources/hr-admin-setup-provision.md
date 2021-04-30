@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dfabda7ab4caafc43926595655352fbfe49d8ff7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 177586068ddb86943f8013722e1be9e63c53fa0f
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805014"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889793"
 ---
 # <a name="provision-human-resources"></a>„Human Resources“ parengimas
 
@@ -42,7 +42,7 @@ Svarstymai dėl papildomų aplinkų įtraukimo, tačiau neapsiribojantys, yra to
 - **Duomenų perkėlimas**: Jums gali reikėti apgalvoti papildomą aplinką dėl duomenų perkėlimo veiksmų, kad leistumėte savo smėlio dėžės aplinkai būti naudojamai testavimo tikslais per projektą. Papildomos aplinkos turėjimas leidžia duomenų perkėlimo veiksmus tęsti testuojant ir konfigūruojant veiklas kartu kitoje aplinkoje.
 - **Integravimas**: Jums gali reikėti apgalvoti papildomas aplinkas tam, kad konfigūruotumėte ir testuotumėte integravimus. Tai gali apimti įgimtus integravimus, tokius kaip „Ceridian Dayforce LinkedIn Talent Hub“ integravimus ar tinkintus integravimus, tokius kaip algalapio, aplikanto sekimo sistemos ar išmokų sistemos ir tiekėjai.
 - **Mokymai**: Jums gali reikėti atskiros aplinkos, kuri konfigūruota su nustatytais mokymų duomenimis tam, kad apmokytumėte savo darbuotojus naudoti naują sistemą. 
-- **Kelių etapų projektas**: Jums gali reikėti apgalvoti papildomą aplinką siekiant palaikyti konfigūravimą, duomenų perkėlimą, testavimą ir kitas veiklas projekt etape, kuris suplanuotas po pradinio paleidimo projekto į internetą.
+- **Kelių etapų projektas**: Jums gali reikėti apgalvoti papildomą aplinką siekiant palaikyti konfigūravimą, duomenų perkėlimą, testavimą ir kitas veiklas projekto etape, kuris suplanuotas po pradinio paleidimo projekto į internetą.
 
  > [!IMPORTANT]
  > Rekomenduojame jums naudoti savo gamybos aplinką projekto metu, kaip jūsų GOLD konfigūravimo aplinką. Tai yra svarbu, nes negalite nukopijuoti smėlio dėžės aplinkos į gamybos aplinką. Dėl to, kai paleisite į internetą, jūsų GOLD aplinka bus jūsų gamybos aplinka ir jūs baigsite nukirpimo veiklas šioje aplinkoje.</br></br>
@@ -80,7 +80,7 @@ Sukūrę LCS projektą, galite aplinkai paruošti „Human Resources“.
     
 3. Pasirinkite parinktį **Įtraukti demonstracinius duomenis**, jei norite, kad jūsų aplinka apimtų tą patį demonstracinių duomenų rinkinį, kuris naudojamas ir „Human Resources“ bandomosios versijos funkcijose. Demonstraciniai duomenys yra naudingi ilgalaikių demonstracijų ar mokymų aplinkose, bet niekada neturėtų būti naudojami gamybos aplinkose. Turite pasirinkti šią pasirinktį atlikdami pradinį diegimą. Vėliau negalėsite atnaujinti esamo diegimo.
 
-4. „Human Resources“ visada konfigūruojama „Microsoft Power Apps“ aplinkai, siekiant įgalinti „Power Apps“ integravimą ir išplečiamumą. Prieš tęsdami perskaitykite šio straipsnio dalį „Power Apps“ aplinkos pasirinkimas“. Jei dar neturite „Power Apps“ aplinkos, LCS pasirinkite Valdyti aplinkas arba pereikite į „Power Apps“ administravimo centrą. Tada atlikite nurodytus veiksmus, norėdami [Kurti „Power Apps“ aplinką](https://docs.microsoft.com/powerapps/administrator/create-environment).
+4. „Human Resources“ visada konfigūruojama „Microsoft Power Apps“ aplinkai, siekiant įgalinti „Power Apps“ integravimą ir išplečiamumą. Prieš tęsdami perskaitykite šio straipsnio dalį „Power Apps“ aplinkos pasirinkimas“. Jei dar neturite „Power Apps“ aplinkos, LCS pasirinkite Valdyti aplinkas arba pereikite į „Power Apps“ administravimo centrą. Tada atlikite nurodytus veiksmus, norėdami [Kurti „Power Apps“ aplinką](/powerapps/administrator/create-environment).
 
 5. Pasirinkite aplinką, į kurią parengti „Human Resources“.
 
@@ -124,7 +124,7 @@ Svarstydami, kurioje „Power Apps“ aplinkoje diegti „Human Resources“, pa
  
 ## <a name="grant-access-to-the-environment"></a>Prieigos prie aplinkos suteikimas
 
-Pagal numatytuosius nustatymus, aplinką sukūręs visuotinis administratorius turi prie jos prieigą. Papildomiems programos vartotojams prieiga turi būti aiškiai suteikta. Turite pridėti vartotojų ir priskirti jiems tinkamus vaidmenis „Human Resources“ aplinkoje. „Human Resources“ įdiegęs visuotinis administratorius taip pat turi paleisti „Attract“ ir „Onboard“ programas, kad užbaigtų inicijavimą ir suteiktų prieigą kitiems vartotojams, kurie yra nuomotojai. Kol tai nebus atlikta, kiti vartotojai neturės prieigos prie „Attract“ ir „Onboard“ programų ir matys prieigos pažeidimo klaidas. Daugiau informacijos rasite [Naujų vartotojų kūrimas](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) ir [Vartotojų priskyrimas saugos vaidmenims](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+Pagal numatytuosius nustatymus, aplinką sukūręs visuotinis administratorius turi prie jos prieigą. Papildomiems programos vartotojams prieiga turi būti aiškiai suteikta. Turite pridėti vartotojų ir priskirti jiems tinkamus vaidmenis „Human Resources“ aplinkoje. „Human Resources“ įdiegęs visuotinis administratorius taip pat turi paleisti „Attract“ ir „Onboard“ programas, kad užbaigtų inicijavimą ir suteiktų prieigą kitiems vartotojams, kurie yra nuomotojai. Kol tai nebus atlikta, kiti vartotojai neturės prieigos prie „Attract“ ir „Onboard“ programų ir matys prieigos pažeidimo klaidas. Daugiau informacijos rasite [Naujų vartotojų kūrimas](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) ir [Vartotojų priskyrimas saugos vaidmenims](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

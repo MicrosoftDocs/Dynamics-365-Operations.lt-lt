@@ -1,6 +1,6 @@
 ---
 title: Sandėlio valdymo darbo krūvis debesiui ir krašto skalės vienetams
-description: Šioje temoje pateikta informacija apie funkcijas, kuriso įjungia skalės vienetus siekiant vykdyti pasirinktus procesus iš jūsų sandėlio valdymo darbo krūvio.
+description: Šioje temoje pateikta informacija apie funkcijas, kurios įjungia skalės vienetus siekiant vykdyti pasirinktus procesus iš jūsų sandėlio valdymo darbo krūvio.
 author: perlynne
 ms.date: 10/06/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6372e08b7ec737f3abd2f2bd5d4f387eaf869f03
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d6dffb1ea03b8d11519087163d2837d6cfe3df4e
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832399"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899172"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Sandėlio valdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams
 
@@ -33,13 +33,13 @@ ms.locfileid: "5832399"
 
 ## <a name="warehouse-execution-on-scale-units"></a>Sandėlio vykdymas skalės vienetuose
 
-Šioje temoje pateikta informacija apie funkcijas, kurios įjungia sandėlio valdymo pajėgumus. Debesies skalės vienetai vykdo savo darbo krūvius debesyje naudodami paskirto tvarkymo pajėgumą jūsų pasirinktame „Microsoft Azure“ regione. Dėl krašto skalės vienetų, galite vykdyti kai kuriuos darbo krūvius nepriklausomai nuo patalpų, net ir kai skalės vienetai laikinai atjungti nuo debesies.
+Šioje temoje pateikta informacija apie funkcijas, kurios įjungia sandėlio valdymo pajėgumus.
 
 Šioje temoje sandėlio valdymo vykdymai sandėlyje, kuris nustatytas skalės vienete yra žinomi kaip *Sandėlio vykdymo sistema* (*WES*).
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
-Privalote turėti „Dynamics 365 Supply Chain Management“ centrą ir skalės vienetą, kurie bus patalpnti sandėlio valdymo darbo krūvyje. Dėl daugiau informacijos apie talpinimo procesą ir architektūrą, žr. [Debesies ir krašto skalės vienetų gamyba ir sandėlio valdymo darbo krūviai](cloud-edge-landing-page.md).
+Privalote turėti „Dynamics 365 Supply Chain Management“ centrą ir skalės vienetą, kurie bus patalpinti sandėlio valdymo darbo krūvyje. Daugiau informacijos apie diegimo procesą ir architektūrą rasite [Naudokite skalės vienetus padidinti atsparumą „Supply Chain Management” darbo krūviams](cloud-edge-landing-page.md).
 
 ## <a name="how-the-wes-workload-works-on-scale-units"></a>Kaip WES darbo krūviai veikia skalės vienetuose
 
@@ -297,6 +297,8 @@ Darbo krūvio skalės vienetuose, galite valdyti tolesnes paketines užduotis **
 - Tvarkyti bangos lentelės įrašus
 - Iš sandėlio telkinio į skalės vienetą pranešimų procesorius
 - Apdoroti sandėlio užsakymo eilučių kiekio atnaujinimo užklausas
+
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

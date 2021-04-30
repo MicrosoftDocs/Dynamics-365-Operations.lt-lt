@@ -1,8 +1,8 @@
 ---
-title: Pašalintos arba nebenaudojamos „Dynamics 365 Finance“ funkcijos
+title: Pašalintos arba nerekomenduojamos „Dynamics 365 Finance“ funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama pašalinti iš „Dynamics 365 Finance“.
 author: roschlom
-ms.date: 02/08/2021
+ms.date: 04/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,46 +12,59 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 5a8f5dbc52eab78697de0d3a48d8cceb42c36540
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e0db5c35e58ab7a7cbf31642072d25ee5d8ba868
+ms.sourcegitcommit: 04817103dc8e87a679d371575927284b8ce080b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836918"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5898292"
 ---
-# <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Pašalintos arba nebenaudojamos „Dynamics 365 Finance“ funkcijos
+# <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Pašalintos arba nerekomenduojamos „Dynamics 365 Finance“ funkcijos
 
 [!include [banner](../includes/banner.md)]
 
 Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama pašalinti iš „Dynamics 365 Finance“.
 
 - *Pašalinta* funkcija nebėra įtraukta į produktą.
-- *Nebenaudojama* funkcija nebėra aktyviai tobulinama ir gali būti pašalinta iš būsimo naujinio.
+- *Nerekomenduojama* funkcija nebėra aktyviai tobulinama ir gali būti pašalinta iš būsimo naujinio.
 
-Šis sąrašas skirtas suteikti jums informacijos apie pašalintas ir nebenaudojamas funkcijas, kad galėtumėte geriau planuoti savo darbą. 
+Šis sąrašas skirtas suteikti jums informacijos apie pašalintas ir nerekomenduojamas funkcijas, kad galėtumėte geriau planuoti savo darbą. 
 
 > [!NOTE]
-> Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
+> Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](/dynamics/s-e/global/axtechrefrep_61). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
 
-## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Finance“ 10.0.17 versijoje
+## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Pašalintos arba nerekomenduojamos funkcijos, esančios „Finance“ 10.0.20 versijoje
+
+### <a name="rtir-query-invoice-data-request-hu-format-configuration"></a>RTIR Sąskaitos faktūros duomenų užklausos (HU) formato konfigūracija
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo/pašalinimo priežastis** | Neįtraukta į elektroninių pranešimų apdorojimą, sąveikaujant su vengrų internetine sąskaitų faktūrų išrašymo sistema |
+| **Pakeitė kita funkcija?**   | Ne |
+| **Paveiktos produkto sritys**         | Prašymas |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Nerekomenduoja: Nuo 2022 m. balandžio 15 d. planuojame nebeteikti „RTIR Sąskaitos faktūros duomenų užklausos (HU)” formato konfigūracijos palaikymo. |
+
+
+## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Pašalintos arba nerekomenduojamos „Finance“ 10.0.17 versijos funkcijos
 
 ### <a name="lcs-repository-as-a-storage-option-for-electronic-reporting-configurations"></a>LCS saugykla kaip elektroninių ataskaitų konfigūracijų saugojimo parinktis
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo/pašalinimo priežastis** | Pakeista nauja „Regulatory Configuration Services” (RCS) visuotine saugykla |
+| **Nerekomendavimo/pašalinimo priežastis** | Pakeista nauja „Regulatory Configuration Services” (RCS) visuotine saugykla |
 | **Pakeitė kita funkcija?**   | Taip |
 | **Paveiktos produkto sritys**         | „Dynamics 365 Finance”, „Supply Chain Management” ir „Project Operations” produktai|
 | **Visuotinio diegimo parinktis**              | Visos |
-| **Būsena**                         | Nebenaudojama: nuo 2022 m. balandžio 1 d. nebepalaikysime „Microsoft Dynamics Lifecycle Services” (LCS) saugyklos kaip elektroninių ataskaitų (ER) konfigūracijų saugojimo parinkties. Naujos „Microsoft” ER konfigūracijos bus publikuojamos ir jas bus galima atsisiųsti tik iš visuotinės saugyklos. Visuotinę saugyklą galima pasiekti iš „Dynamics 365” produktų ir RCS. Daugiau informacijos žr. [ER konfigūracijų importavimas iš RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md). |
+| **Būsena**                         | Nerekomenduojama: nuo 2022 m. balandžio 1 d. nebepalaikysime „Microsoft Dynamics Lifecycle Services” (LCS) saugyklos kaip elektroninių ataskaitų (ER) konfigūracijų saugojimo parinkties. Naujos „Microsoft” ER konfigūracijos bus publikuojamos ir jas bus galima atsisiųsti tik iš visuotinės saugyklos. Visuotinę saugyklą galima pasiekti iš „Dynamics 365” produktų ir RCS. Daugiau informacijos žr. [ER konfigūracijų importavimas iš RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md). |
 
-## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Finance“ 10.0.16 versijoje
+## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Pašalintos arba nerekomenduojamos funkcijos, esančios „Finance“ 10.0.16 versijoje
 
 ### <a name="vat-declaration-cz-and-control-statement-export-cz-electronic-reporting-formats-for-czech-republic"></a>„PVM deklaravimas (CZ)“ ir „Valdymo pareiškimo eksportavimas (CZ)“ elektroninės sąskaitos formatai Čekijai
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo/pašalinimo priežastis** | Pakeitimas naujais formatais |
+| **Nerekomendavimo/pašalinimo priežastis** | Pakeitimas naujais formatais |
 | **Pakeitė kita funkcija?**   | Taip |
 | **Paveiktos produkto sritys**         | Prašymas |
 | **Visuotinio diegimo parinktis**              | Visos |
@@ -61,7 +74,7 @@ ms.locfileid: "5836918"
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo/pašalinimo priežastis** | Pakeičiamas nauju ER formatu modelyje „Standartinis audito failas (SAF-T)“.  |
+| **Nerekomendavimo/pašalinimo priežastis** | Pakeičiamas nauju ER formatu modelyje „Standartinis audito failas (SAF-T)“.  |
 | **Pakeitė kita funkcija?**   | Taip |
 | **Paveiktos produkto sritys**         | Prašymas |
 | **Visuotinio diegimo parinktis**              | Visos |
@@ -71,62 +84,62 @@ ms.locfileid: "5836918"
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo/pašalinimo priežastis** | Pakeičiamas nauju ER formatu – „PVM deklaracijos „Excel“ (UK)“ formatas, esantis „mokesčių deklaracijos modelyje“.  |
+| **Nerekomendavimo/pašalinimo priežastis** | Pakeičiamas nauju ER formatu – „PVM deklaracijos „Excel“ (UK)“ formatas, esantis „mokesčių deklaracijos modelyje“.  |
 | **Pakeitė kita funkcija?**   | Taip |
 | **Paveiktos produkto sritys**         | Prašymas |
 | **Visuotinio diegimo parinktis**              | Visos |
 | **Būsena**                         | Nerekomenduojama: nuo 2021 m. gruodžio 1 d. planuojame nebepalaikyti „PVM 100 ataskaita“ SSRS formatu. Naujas „PVM deklaracijos „Excel“ (UK)“ formatas, esantis „mokesčių deklaracijos modelyje“, įtrauktas į [MTD PVM funkciją](../localizations/emea-gbr-mtd-vat-integration.md). |
 
-## <a name="features-removed-or-deprecated-in-the-finance-10015-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Finance“ 10.0.15 versijoje
+## <a name="features-removed-or-deprecated-in-the-finance-10015-release"></a>Pašalintos arba nerekomenduojamos funkcijos, esančios „Finance“ 10.0.15 versijoje
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>„Internet Explorer 11“ palaikymas „Dynamics 365“ yra nutrauktas
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo/pašalinimo priežastis** | Nuo 2020 m. gruodžio „Microsoft Internet Explorer 11“ palaikymas visuose „Dynamics 365“ produktuose yra nutraukiamas, o „Internet Explorer 11“ nebus palaikomas nuo 2021m. rugpjūčio.<br><br>Tai paveiks klientus, kurie naudoja „Dynamics 365“ produktus, skirtus naudoti „Internet Explorer 11“ sąsają. Nuo 2021m. rugpjūčio „Internet Explorer 11“ nebus palaikomas tokiuose „Dynamics 365“ produktuose. |
+| **Nerekomendavimo/pašalinimo priežastis** | Nuo 2020 m. gruodžio „Microsoft Internet Explorer 11“ palaikymas visuose „Dynamics 365“ produktuose yra nutraukiamas, o „Internet Explorer 11“ nebus palaikomas nuo 2021m. rugpjūčio.<br><br>Tai paveiks klientus, kurie naudoja „Dynamics 365“ produktus, skirtus naudoti „Internet Explorer 11“ sąsają. Nuo 2021m. rugpjūčio „Internet Explorer 11“ nebus palaikomas tokiuose „Dynamics 365“ produktuose. |
 | **Pakeitė kita funkcija?**   | Rekomenduojame klientams naudoti „Microsoft Edge“.|
 | **Paveiktos produkto sritys**         | Visi „Dynamics 365“ produktai |
 | **Visuotinio diegimo parinktis**              | Visos|
-| **Būsena**                         | Nebenaudojama. „Internet Explorer 11“ nebus palaikoma nuo 2021 m. rugpjūčio.|
+| **Būsena**                         | Nerekomenduojama. „Internet Explorer 11“ nebus palaikoma nuo 2021 m. rugpjūčio.|
 
-## <a name="features-removed-or-deprecated-in-the-finance-10012-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Finance“ 10.0.12 versijoje
+## <a name="features-removed-or-deprecated-in-the-finance-10012-release"></a>Pašalintos arba nerekomenduojamos funkcijos, esančios „Finance“ 10.0.12 versijoje
 
 ### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Lenkijos SSRS ataskaitos: pardavimo PVM registras, pirkimo PVM registras, ES suvestinės PVM registras – funkcijos nuoroda PL-00014
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Nėra teisiškai reikalaujama.  |
+| **Nerekomendavimo / pašalinimo priežastis** | Nėra teisiškai reikalaujama.  |
 | **Pakeitė kita funkcija?**   | Taip (standartinis audito failas, kuriame yra PVM deklaracija, „Excel“ formatu – JPK_VDEK) |
 | **Paveiktos produkto sritys**         | Programos |
 | **Visuotinio diegimo parinktis**              | Visi / Viskas |
-| **Būsena**                         | Nebenaudojama: iki 2021 m. liepos 1 d. planuojame nutraukti šių SSRS ataskaitų palaikymą: **pardavimo PVM registrą, pirkimo PVM registrą, ES suvestinės PVM registrą – funkcijos nuoroda PL-00014**. Bus įvedamas „Excel“ formato pavyzdys, skirtas standartiniam audito failui kartu su PVM deklaracija (JPK_VDEK). |
+| **Būsena**                         | Nerekomenduojama: iki 2021 m. liepos 1 d. planuojame nutraukti šių SSRS ataskaitų palaikymą: **pardavimo PVM registrą, pirkimo PVM registrą, ES suvestinės PVM registrą – funkcijos nuoroda PL-00014**. Bus įvedamas „Excel“ formato pavyzdys, skirtas standartiniam audito failui kartu su PVM deklaracija (JPK_VDEK). |
 
-## <a name="features-removed-or-deprecated-in-the-finance-10011-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Finance“ 10.0.11 versijoje
+## <a name="features-removed-or-deprecated-in-the-finance-10011-release"></a>Pašalintos arba nerekomenduojamos funkcijos, esančios „Finance“ 10.0.11 versijoje
 
 ### <a name="norwegian-standard-main-accounts"></a>Norvegijos standartinės pagrindinės sąskaitos
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Pertvarka  |
+| **Nerekomendavimo / pašalinimo priežastis** | Pertvarka  |
 | **Pakeitė kita funkcija?**   | Taip (pakeista programai būdingais ER formato parametrais) |
 | **Paveiktos produkto sritys**         | Programos |
 | **Visuotinio diegimo parinktis**              | Visi / Viskas |
-| **Būsena**                         | Nebenaudojama: nuo 2021 m. balandžio 1 d. planuojame nebepalaikyti funkcijų, susijusių su standartinėmis pagrindinėmis sąskaitomis: nuorodos lauko, susijusios lentelės, duomenų objekto. |
+| **Būsena**                         | Nerekomenduojama: nuo 2021 m. balandžio 1 d. planuojame nebepalaikyti funkcijų, susijusių su standartinėmis pagrindinėmis sąskaitomis: nuorodos lauko, susijusios lentelės, duomenų objekto. |
 
-## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Finance“ 10.0.7 versijoje
+## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>Pašalintos arba nerekomenduojamos funkcijos, esančios „Finance“ 10.0.7 versijoje
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>Darbo eigos užklausos keitimo dialogo lange nebėra vartotojų pasirinkimo išplečiamojo sąrašo
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Pakeista į funkciją su sąskaitų grupių pasirinkimu.  |
+| **Nerekomendavimo / pašalinimo priežastis** | Pakeista į funkciją su sąskaitų grupių pasirinkimu.  |
 | **Pakeitė kita funkcija?**   | Taip |
 | **Paveiktos produkto sritys**         | Darbo eiga |
 | **Visuotinio diegimo parinktis**              | Visi / Viskas |
-| **Būsena**                         | Nebenaudojama: nuo 2020 m. gruodžio 1 d. planuojame nebepalaikyti Kinijos kvitų tipų nustatymų be sąskaitų grupių pasirinkimo. Daugiau informacijos apie naują dizainą rasite [„Kas naujo 10.0.7 versijoje“](whats-new-changed-10-0-7.md). |
+| **Būsena**                         | Nerekomenduojama: nuo 2020 m. gruodžio 1 d. planuojame nebepalaikyti Kinijos kvitų tipų nustatymų be sąskaitų grupių pasirinkimo. Daugiau informacijos apie naują dizainą rasite [„Kas naujo 10.0.7 versijoje“](whats-new-changed-10-0-7.md). |
 
-## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Ankstesni pranešimai apie pašalintas arba nebenaudojamas funkcijas
-Norėdami sužinoti daugiau apie funkcijas, kurios buvo pašalintos arba nebenaudojamos ankstesniuose leidimuose, žr. skyrių [Ankstesniuose leidimuose pašalintos arba nebenaudojamos funkcijos](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md).
+## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Ankstesni pranešimai apie pašalintas arba nerekomenduojamas funkcijas
+Norėdami sužinoti daugiau apie funkcijas, kurios buvo pašalintos arba nerekomenduojamos ankstesniuose leidimuose, žr. skyrių [Ankstesniuose leidimuose pašalintos arba nerekomenduojamos funkcijos](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

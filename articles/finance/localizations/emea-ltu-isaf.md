@@ -14,12 +14,12 @@ ms.search.region: Lithuania
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: f95ac9334a10b3721fc7b6a218e3f7fb5375c308
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3dc41c7546c3261d43e0f20f25dccb384784a0e7
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840983"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894720"
 ---
 # <a name="isaf-reporting-for-lithuania"></a>Lietuvos i.SAF ataskaitos
 
@@ -152,13 +152,13 @@ i.SAF funkcijos El. pranešimai sąrankos procesą sudaro daug veiksmų. Kadangi
 1. Programoje [LCS](https://lcs.dynamics.com/v2) eikite į bendrai naudojamo turto biblioteką ir pasirinkite turto tipą **Duomenų paketas**. 
 2. Raskite **LT i.SAF sąranka funkcijai El. pranešimai.zip** duomenų paketų failų sąraše ir atsisiųskite jį į kompiuterį.
 3. Atsisiuntę failą **LT i.SAF sąranka funkcijai El. pranešimai.zip**, atidarykite „Finance“, pasirinkite įmonę, su kuria bendradarbiausite, palaikydami ryšį su HMRC, paskui eikite į **Darbo sritys** \> **Duomenų valdymas**.
-4. Darbo srityje **Duomenų valdymas** eikite **Sistemos parametrai**\>**Objekto parametrai**, tada pasirinkite **Atnaujinti objektų sąrašą**. Palaukite, kol bus patvirtinta, kad atnaujinimas baigtas. Norėdami gauti daugiau informacijos apie tai, kaip atnaujinti objektų sąrašą, žr. [Objektų sąrašo atnaujinimas](../../dev-itpro/data-entities/data-entities.md#entity-list-refresh).
-5. Patikrinkite, ar tinkamai susieti šaltinio duomenys ir paskirties duomenys. Daugiau informacijos ieškokite temos [Duomenų importavimo ir eksportavimo užduotys](../../dev-itpro/data-entities/data-import-export-job.md#validate-that-the-source-data-and-target-data-are-mapped-correctly) skyriuje apie tikrinimą.
+4. Darbo srityje **Duomenų valdymas** eikite **Sistemos parametrai**\>**Objekto parametrai**, tada pasirinkite **Atnaujinti objektų sąrašą**. Palaukite, kol bus patvirtinta, kad atnaujinimas baigtas. Norėdami gauti daugiau informacijos apie tai, kaip atnaujinti objektų sąrašą, žr. [Objektų sąrašo atnaujinimas](../../fin-ops-core/dev-itpro/data-entities/data-entities.md#entity-list-refresh).
+5. Patikrinkite, ar tinkamai susieti šaltinio duomenys ir paskirties duomenys. Daugiau informacijos ieškokite temos [Duomenų importavimo ir eksportavimo užduotys](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md#validate-that-the-source-data-and-target-data-are-mapped-correctly) skyriuje apie tikrinimą.
 6. Prieš naudojant duomenų objektus pirmą kartą duomenims iš paketo importuoti, sinchronizuokite šaltinio duomenų ir paskirties duomenų susiejimą. Paketo sąraše pasirinkite duomenų objektą, tada veiksmų srityje pasirinkite **Modifikuoti paskirties vietos susiejimą**. 
 7. Virš paketo tinklelio pasirinkite **Generuoti susiejimą**, kad sukurtumėte susiejimą iš naujo, tada įrašykite susiejimą.
 8. Prieš pradėdami importuoti, pakartokite 6 ir 7 veiksmus kiekvieno pakete esančio duomenų objekto atžvilgiu.
 
-Daugiau informacijos apie duomenų valdymą žr. [Duomenų valdymas](../../dev-itpro/data-entities/data-entities-data-packages.md). 
+Daugiau informacijos apie duomenų valdymą žr. [Duomenų valdymas](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). 
 
 9. Dabar turite importuoti duomenis iš failo **LT i.SAF sąranka funkcijai El. pranešimai.zip** į pasirinktą įmonę. Darbo srityje **Duomenų valdymas** pasirinkite **Importuoti** ir lauke **Šaltinio duomenų formatas** nustatykite **Paketas**. 
 10. Pasirinkite **Nusiųsti ir įtraukti**, kompiuteryje pasirinkite failą **LT i.SAF sąranka funkcijai El. pranešimai.zip** ir nusiųskite jį.
@@ -270,7 +270,7 @@ Norėdami nustatyti **i.SAF elektroninio pranešimo apdorojimo veiksmo Generuoti
 1. Eikite į **Mokesčiai** \> **Sąranka** \> **El. pranešimai** \> **El. pranešimų apdorojimas**.
 2. Pasirinkite **„i.SAF“** elektroninio pranešimo apdorojimą ir **veiksmų** „FastTab" pasirinkite **Generuoti** pranešimą.
 3. Patikrinkite, ar žymimas laukelis **Naudoti parametrus** yra pasirinktas.
-4. „FastTab“ **Veiksmai** veiksmų juostoje rinkitės **Parameterai**.
+4. „FastTab“ **Veiksmai** veiksmų juostoje pasirinkite **Parametrai**.
 5. Nustatyti i.SAF ataskaitos parametrus, kuriuos sistema naudoja i.SAF generavimo metu. Pranešimo **parametro** laukas yra pasirinktinis.
 
 ![Parametrų juosta](media/isaf-parameters-setup.png)

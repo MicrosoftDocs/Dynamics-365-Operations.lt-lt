@@ -1,6 +1,6 @@
 ---
 title: Kliento mokėjimo prognozių įjungimas (peržiūros versija)
-description: Šioje temoje paaiškinama, kaip įjungti ir konfigūruoti modulio Finansinės įžvalgos funkciją Kliento mokėjimo prognozės.
+description: Šioje temoje paaiškinama, kaip įjungti ir konfigūruoti modulio „Finance Insights” funkciją Kliento mokėjimo prognozės.
 author: ShivamPandey-msft
 ms.date: 05/27/2020
 ms.topic: article
@@ -15,29 +15,29 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ecc3851cc91c8fe17a7582f2be06e84cf9bc2d83
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0f972b6f3c0c7c4fcf69b3644a5e73d863cd817d
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818661"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897361"
 ---
 # <a name="enable-customer-payment-predictions-preview"></a>Kliento mokėjimo prognozių įjungimas (peržiūros versija)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Šioje temoje paaiškinama, kaip įjungti ir konfigūruoti modulio Finansinės įžvalgos funkciją Kliento mokėjimo prognozės. Galite įjungti funkciją darbo srityje **Funkcijų valdymas**, o konfigūracijos parametrus įvesti puslapyje **Modulio Finansinės įžvalgos parametrai**. Šioje temoje taip pat pateikiama informacija, kuri gali padėti veiksmingai naudoti funkciją.
+Šioje temoje paaiškinama, kaip įjungti ir konfigūruoti modulio „Finance Insights” funkciją Kliento mokėjimo prognozės. Galite įjungti funkciją darbo srityje **Funkcijų valdymas**, o konfigūracijos parametrus įvesti puslapyje **Modulio „Finance Insights” parametrai**. Šioje temoje taip pat pateikiama informacija, kuri gali padėti veiksmingai naudoti funkciją.
 
 > [!NOTE]
-> Prieš atlikdami šiuos veiksmus, būtinai atlikite būtinuosius veiksmus, aprašytus temoje [Konfigūravimas moduliui Finansinės įžvalgos](configure-for-fin-insites.md).
+> Prieš atlikdami šiuos veiksmus, būtinai atlikite būtinuosius veiksmus, aprašytus temoje [Konfigūravimas moduliui „Finance Insights”](configure-for-fin-insites.md).
 
 1. Naudokite informaciją iš aplinkos puslapio portale „Microsoft Dynamics Lifecycle Services“ (LCS), kad prisijungtumėte prie pirminio „Azure SQL“ tos aplinkos egzemplioriaus. Norėdami įjungti smėlio dėžės aplinkos testus, vykdykite tolesnę Transact-SQL (T-SQL) komandą. (Gali reikėti įjungti prieigą prie savo IP adreso portale LCS, kad galėtumėte nuotoliniu būdu prisijungti prie programos objektų serverio \[AOS\].)
 
     `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED, PARTITION) VALUES ('PayPredEnableFeature', 1, 5637144576)`
 
     > [!NOTE]
-    > Jei jūsų „Microsoft Dynamics 365 Finance“ įdiegtis yra „Service Fabric“ įdiegtis, galite praleisti šį veiksmą. Modulio Finansinės įžvalgos komanda jums jau turėjo įjungti testą. Jei nematote funkcijos darbo srityje **Funkcijų valdymas** arba jei kyla problemų bandant ją įjungti, kreipkitės adresu <fiap@microsoft.com>.
+    > Jei jūsų „Microsoft Dynamics 365 Finance“ įdiegtis yra „Service Fabric“ įdiegtis, galite praleisti šį veiksmą. Modulio „Finance Insights” komanda jums jau turėjo įjungti testą. Jei nematote funkcijos darbo srityje **Funkcijų valdymas** arba jei kyla problemų bandant ją įjungti, kreipkitės adresu <fiap@microsoft.com>.
 
 2. Funkcijos Kliento mokėjimo įžvalgos įjungimas
 
@@ -49,13 +49,13 @@ ms.locfileid: "5818661"
 
 3. Funkcijos Kliento mokėjimo įžvalgos konfigūravimas
 
-    1. Nueikite į **Kreditas ir surinkimas \> Sąranka \> Finansinės įžvalgos \> Modulio Finansinės įžvalgos parametrai**.
+    1. Nueikite į **Kreditas ir surinkimas \> Sąranka \> „Finance Insights” \> Modulio „Finance Insights” parametrai**.
 
-        [![Puslapis Modulio Finansinės įžvalgos parametrai prieš funkciją konfigūruojant](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
+        [![Puslapis Modulio „Finance Insights” parametrai prieš funkciją konfigūruojant](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
 
-    2. Puslapio **Modulio Finansinės įžvalgos parametrai** skirtuke **Kliento mokėjimo įžvalgos** pasirinkite saitą **Peržiūrėti duomenų laukus, naudojamus prognozavimo modelyje**, kad atidarytumėte puslapį **Prognozavimo modelio duomenų laukai**. Čia galite peržiūrėti numatytąjį laukų, kurie naudojami kuriant kliento mokėjimo prognozių dirbtinio intelekto (DI) prognozavimo modelį, sąrašą.
+    2. Puslapio **Modulio „Finance Insights” parametrai** skirtuke **Kliento mokėjimo įžvalgos** pasirinkite saitą **Peržiūrėti duomenų laukus, naudojamus prognozavimo modelyje**, kad atidarytumėte puslapį **Prognozavimo modelio duomenų laukai**. Čia galite peržiūrėti numatytąjį laukų, kurie naudojami kuriant kliento mokėjimo prognozių dirbtinio intelekto (DI) prognozavimo modelį, sąrašą.
 
-        Norėdami naudoti numatytąjį laukų sąrašą, kad būtų galima sukurti prognozavimo modelį, uždarykite puslapį **Prognozavimo modelio duomenų laukai**, tada puslapyje **Modulio Finansinės įžvalgos parametrai** nustatykite parinktį **Įjungti funkciją** kaip **Taip**.
+        Norėdami naudoti numatytąjį laukų sąrašą, kad būtų galima sukurti prognozavimo modelį, uždarykite puslapį **Prognozavimo modelio duomenų laukai**, tada puslapyje **Modulio „Finance Insights” parametrai** nustatykite parinktį **Įjungti funkciją** kaip **Taip**.
 
     3. Nurodykite „labai pavėluotą“ operacijos laikotarpį, kad nustatytumėte, ką jūsų įmonei reiškia prognozavimo talpykla **Labai vėluoja**.
 
@@ -68,22 +68,22 @@ ms.locfileid: "5818661"
         > [!NOTE]
         > Pakeitus „labai vėluojantį“ operacijos laikotarpį ir pasirinkus **Pakeisti vėlavimo ribinę reikšmę** po to, kai buvo sukurtas kliento mokėjimų DI prognozavimo modelis, esamas prognozavimo modelis panaikinamas ir sukuriamas naujas modelis. Naujas prognozavimo modelis perkels operacijas į „labai vėluojantį“ laikotarpį, atsižvelgdamas į parametrus, įvestus jam nustatyti.
 
-    4. Kai baigsite apibrėžti „labai vėluojantį“ operacijos laikotarpį, pasirinkite **Kurti prognozavimo modelį**, kad sukurtumėte prognozavimo modelį. Puslapio **Modulio Finansinės įžvalgos parametrai** skyriuje **Prognozavimo modelis** rodoma prognozavimo modelio būsena.
+    4. Kai baigsite apibrėžti „labai vėluojantį“ operacijos laikotarpį, pasirinkite **Kurti prognozavimo modelį**, kad sukurtumėte prognozavimo modelį. Puslapio **Modulio „Finance Insights” parametrai** skyriuje **Prognozavimo modelis** rodoma prognozavimo modelio būsena.
 
         > [!NOTE]
         > Bet kuriuo metu kurdami prognozavimo modelį, galite pasirinkti **Iš naujo nustatyti modelio kūrimą**, kad procesas būtų paleistas iš naujo.
 
     Funkcija jau sukonfigūruota ir yra parengta naudoti.
 
-Kai funkcija įjungta ir sukonfigūruota, o prognozavimo modelis sukurtas ir veikia, puslapio **Modulio Finansinės įžvalgos parametrai** skyriuje **Prognozavimo modelis** rodomas modelio tikslumas, kaip parodyta šioje iliustracijoje.
+Kai funkcija įjungta ir sukonfigūruota, o prognozavimo modelis sukurtas ir veikia, puslapio **Modulio „Finance Insights” parametrai** skyriuje **Prognozavimo modelis** rodomas modelio tikslumas, kaip parodyta šioje iliustracijoje.
 
-[![Prognozavimo modelio tikslumas puslapyje Modulio Finansinės įžvalgos parametrai](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
+[![Prognozavimo modelio tikslumas puslapyje Modulio „Finance Insights” parametrai](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
 
 ## <a name="release-details"></a>Išleidimo informacija
 
-Bandomąją modulio Finansinės įžvalgos viešosios peržiūros versiją galima įdiegti Jungtinėse Amerikos Valstijose, Europoje ir Jungtinėje Karalystėje. „Microsoft“ palaipsniui į palaikomų regionų sąrašą įtraukia daugiau regionų.
+Bandomąją modulio „Finance Insights” viešosios peržiūros versiją galima įdiegti Jungtinėse Amerikos Valstijose, Europoje ir Jungtinėje Karalystėje. „Microsoft“ palaipsniui į palaikomų regionų sąrašą įtraukia daugiau regionų.
 
-Viešosios peržiūros versijos funkcijos gali ir turi būti įjungtos tik 2 pakopos smėlio dėžės aplinkose. Sąrankos ir DI modelių, sukurtų smėlio dėžės aplinkoje, negalima perkelti į gamybos aplinką. Norėdami gauti daugiau informacijos, žr. [„Microsoft Dynamics 365“ peržiūros versijų papildomos naudojimo sąlygos](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms).
+Viešosios peržiūros versijos funkcijos gali ir turi būti įjungtos tik 2 pakopos smėlio dėžės aplinkose. Sąrankos ir DI modelių, sukurtų smėlio dėžės aplinkoje, negalima perkelti į gamybos aplinką. Norėdami gauti daugiau informacijos, žr. [„Microsoft Dynamics 365“ peržiūros versijų papildomos naudojimo sąlygos](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
 
 ## <a name="privacy-notice"></a>Privatumo pranešimas
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f67bb8e218c98c6f227f5e1f05f9ba7b35da37c7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 356cdf0fc6bc2dbc086ff186805a97755d98e49e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832159"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909530"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.14 (2020 m. lapkritis)
 
@@ -33,7 +33,7 @@ ms.locfileid: "5832159"
 
 ## <a name="features-included-in-this-release"></a>Funkcijos, įtrauktos į šį leidimą
 
-Šiame leidime atnaujinta platforma ir atlikti bendrieji patobulinimai, bet nėra jokių naujų „Supply Chain Management” funkcijų. Daugiau informacijos apie būsimas funkcijas žr. svetainėje [Leidimų planai](https://docs.microsoft.com/dynamics365/release-plans/).
+Šiame leidime atnaujinta platforma ir atlikti bendrieji patobulinimai, bet nėra jokių naujų „Supply Chain Management” funkcijų. Daugiau informacijos apie būsimas funkcijas žr. svetainėje [Leidimų planai](/dynamics365/release-plans/).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
@@ -49,7 +49,7 @@ Norėdami gauti daugiau informacijos apie klaidų ištaisymus, įtrauktus į kie
 
 Norite sužinoti apie būsimas ir neseniai išleistas mūsų verslo programų ar platformos galimybes?
 
-Peržiūrėkite [„Dynamics 365“: 2020 m. 2-os leidimo bangos planas](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). Visą išsamią informaciją užfiksavome viename dokumente, kurį galite naudoti planuodami.
+Peržiūrėkite [„Dynamics 365“: 2020 m. 2-os leidimo bangos planas](/dynamics365-release-plan/2020wave2/index). Visą išsamią informaciją užfiksavome viename dokumente, kurį galite naudoti planuodami.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Pašalintos ir pasenusios „Supply Chain Management“ funkcijos
 

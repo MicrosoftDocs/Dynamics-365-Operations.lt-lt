@@ -2,7 +2,7 @@
 title: Žinyno sistema
 description: Šioje temoje pateikiama „Finance and Operations“ programų žinyno sistemos apžvalga.
 author: edupont04
-ms.date: 05/11/2020
+ms.date: 04/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 46168dd9001921471114c219c57856b7bedf6465
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e33a2d4c50d17125a91b3b55b46626c6199575c8
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749833"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897821"
 ---
 # <a name="help-system"></a>Žinyno sistema
 
@@ -33,7 +33,7 @@ ms.locfileid: "5749833"
 - Dynamics 365 Human Resources
 - „Dynamics 365 Supply Chain Management”
 
-Visose šiose progamose konkretaus produkto žinyną galite pasiekti srityje **Žinynas**.
+Visose šiose programose konkretaus produkto žinyną galite pasiekti srityje **Žinynas**.
 
 ![Sritis Žinynas](./media/help-pane-ops-help.png)
 
@@ -105,7 +105,7 @@ Norėdami pasiekti žinyno turinį, pasirinkite mygtuką **Žinynas** (**?**), t
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Prieiga prie žinyno temų iš žinyno srities
 
-Iš srities **Žinynas** galite pasiekti temas, taikomas klientui. Pirmą kartą atidarius sritį **Žinynas**, skirtuke **Žinynas** rodomos temos, taikomos puslapiui, kuriame dabar esate. Jei nerasite nė vienos tempos, įvedę raktažodžius galite patikslinti iešką. Kai srityje **Žinynas** pasirenkate temą, ji atidaroma naujame naršyklės skirtuke.
+Iš srities **Žinynas** galite pasiekti temas, taikomas klientui. Pirmą kartą atidarius sritį **Žinynas**, skirtuke **Žinynas** rodomos temos, taikomos puslapiui, kuriame dabar esate. Jei nerasite nė vienos temos, įvedę raktažodžius galite patikslinti iešką. Kai srityje **Žinynas** pasirenkate temą, ji atidaroma naujame naršyklės skirtuke.
 
 > [!IMPORTANT]
 > Šis skyrius netaikomas „Dynamics 365 Human Resources“. „Human Resources“ žinyno sistema automatiškai prijungta prie produkto užduočių vedlių. Be to, programoje „Human Resources“ negalima sukurti pasirinktinių užduočių vedlių.
@@ -130,7 +130,7 @@ On the **System parameters** page, follow these steps:
 3. Select BPM libraries (within the selected project) to retrieve task recordings from.
 4. Set the display order of the BPM libraries. This setting determines the order in which task recordings from the libraries will appear in the Help pane.-->
 
-Sistemos administratoriui atlikus šiuos veiksmus, galite atidaryti sritį **Žinynas** ir pasirinkti skirtuką **Užduočių vedliai**. Matysite užduočių vedlius, taikomus puslapiui, kuriame dabar esate. Jei nerasite nė vieno užduočių vedlio, galite įvedę raktažodžius patikslinti iešką. Srityje **Žinunas** pasirinkus užduočių vedlį, srityje **Žinynas** rodomos nuoseklios instrukcijos, ir galima paleisti užduočių vedlį.
+Sistemos administratoriui atlikus šiuos veiksmus, galite atidaryti sritį **Žinynas** ir pasirinkti skirtuką **Užduočių vedliai**. Matysite užduočių vedlius, taikomus puslapiui, kuriame dabar esate. Jei nerasite nė vieno užduočių vedlio, galite įvedę raktažodžius patikslinti iešką. Srityje **Žinynas** pasirinkus užduočių vedlį, srityje **Žinynas** rodomos nuoseklios instrukcijos, ir galima paleisti užduočių vedlį.
 
 ![Užduočių vedlio skaitymo rodinys](./media/task-guide-ops.png)
 
@@ -161,7 +161,7 @@ Galite sukurti pasirinktinių užduočių vedlių ir tokiu būdu sukurti vartoto
 | [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | Šioje svetainėje laikomas ankstesnių leidimų turinys. |
 | [„Dynamics‟ bendruomenė](https://community.dynamics.com/) | Šioje svetainėje saugomi tinklaraščiai, forumai ir vaizdo įrašai. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Šioje svetainėje pateikiama vertinimo ir pardavimo informacija. |
-| [„CustomerSource”](https://docs.microsoft.com/dynamics/s-e/)\* | Šioje svetainėje pateikiami mokymo ištekliai, galimos atsisiųsti ataskaitos ir techninė dokumentacija ir tai yra pagrindinė aptarnavimo plano turėtojams skirta svetainė. Norint pasiekti kai kuriuos svetainės išteklius, gali prireikti paslaugos plano. |
+
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

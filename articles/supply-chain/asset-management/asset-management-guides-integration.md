@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 4af14a66c839ccee02008057ad1de8ef5b9d291b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 50cfea6656e1f13532b018784fa64b2aac10fc7f
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813922"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908572"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>„Dynamics 365 Supply Chain Management“ (Turto valdymas) integravimas su „Dynamics 365 Guides“
 
@@ -30,12 +30,12 @@ Norėdami pridėti vadovus modulio „Turto valdymas“ darbo užsakymų, turite
 - [Sukonfigūruokite „Dynamics 365 Supply Chain Management“](../../fin-ops-core/fin-ops/index.md) 10.0.9 arba naujesnę versiją.
 - [„Supply Chain Management“ programoms įjunkite dvigubą rašymą](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-dual-write.md).
 - [Įjunkite testuojamą variantą](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#features-flighted-in-data-management-and-enabling-flighted-features) **MRGuidesFeature** funkcijai. (Gamybos aplinkose pirmiausia turite pateikti palaikymo bilietą, kad jūsų nuomotojas būtų įtrauktas į testuojamo varianto grupę.)
-- [Įjunkite toliau nurodytus konfigūracijos raktus](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/license-code-and-configuration-key-reference) puslapyje **Licencijos konfigūracija**:
+- [Įjunkite toliau nurodytus konfigūracijos raktus](/dynamicsax-2012/appuser-itpro/license-code-and-configuration-key-reference) puslapyje **Licencijos konfigūracija**:
 
     - Turto valdymas \> Turto valdymo mišrioji realybė
     - Mišrioji realybė \> Mišriosios realybės vadovas
 
-- [Sukonfigūruokite „Dynamics 365 Guides“](https://docs.microsoft.com/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution) 200.0.0.96 arba naujesnę versiją.
+- [Sukonfigūruokite „Dynamics 365 Guides“](/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution) 200.0.0.96 arba naujesnę versiją.
 
 ## <a name="use-dynamics-365-guides-with-asset-management"></a>„Dynamics 365 Guides“ naudojimas su moduliu „Turto valdymas“
 
@@ -47,8 +47,8 @@ Norėdami susieti vadovą su prižiūrimo turto kontrolinio sąrašo šablonu, a
 
 1. Sukurkite vadovą naudodami „Dynamics 365 Guides“ kompiuterio ir „HoloLens“ programas. Daugiau informacijos, kaip kurti vadovą, žr. tolesnėse temose.
 
-    - [Kompiuterio programos naudojimas vadovui kurti](https://docs.microsoft.com/dynamics365/mixed-reality/guides/pc-app-overview)
-    - [„HoloLens“ programos naudojimas hologramoms uždėti](https://docs.microsoft.com/dynamics365/mixed-reality/guides/hololens-app-overview)
+    - [Kompiuterio programos naudojimas vadovui kurti](/dynamics365/mixed-reality/guides/pc-app-overview)
+    - [„HoloLens“ programos naudojimas hologramoms uždėti](/dynamics365/mixed-reality/guides/hololens-app-overview)
 
 1. [Sukurkite prižiūrimo turto kontrolinio sąrašo šabloną](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-checklist-template) programoje „Supply Chain Management“.
 1. Susiekite vadovą, kurį sukūrėte prižiūrimo turto kontrolinio sąrašo eilutėje, naujame prižiūrimo turto kontrolinio sąrašo šablone.

@@ -16,22 +16,23 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a8c263104e209a81e33ea0db9e5fecddff3bc95b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a6d6979093c67d2d89b88678712f4c0205c63194
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809787"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899100"
 ---
-# <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Gamybos vykdymo darbo apkrovos debesies ir krašto skalės vienetams
+# <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Gamybos vykdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
 > [!WARNING]
+> Šiuo metu gamybos vykdymo darbo krūvis yra prieinamas kaip peržiūros versija.
 > Kai kurios verslo funkcijos nėra visiškai palaikomos viešoje peržiūroje, kai darbo apkrovos skalės vienetai yra naudojami.
 
-Gamybos vykdyme, debesies ir krašto skalės pajėgumai pristato tolesnius pajėgumus, net kai krašto vienetai nėra sujungti su centru:
+Vykstant gamybai, skalės vienetai suteikia šias galimybes:
 
 - Mašinos operatoriai ir parduotuvės aukšto vadovai gali prieiti prie operacijos gamybos plano.
 - Mašinos operatoriai gali turėti atnaujintą planą diskretiškam vykdymui ir proceso gamybos darbus.
@@ -108,5 +109,6 @@ Norėdami peržiūrėti gamybos darbų istoriją, kurie buvo sutvarkyti skalės 
 
 _Gamybos centras į skalės vieneto pranešimo tvarkytuvą_ darbas tvarko duomenis iš centro į skalės vienetą. Šis darbas automatiniu būdu pradedamas, kai gamybos vykdymo darbo krūvis yra patalpintas. Nepaisant to, galite vykdyti rankiniu būdu jį bet kuriuo metu patekę į **Gamybos valdymas \> Periodinės užduotys \> Galinio skyriaus darbo krūvio valdymas \>Gamybos centras į skalės vieneto pranešimo tvarkytuvą**.
 
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfc0497286ae0286cde05412c82fcaac76f4042a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 476dfd6be55ce484cb9bc101ac27dc6181f3c010
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837638"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910382"
 ---
 # <a name="modeling-a-lean-organization"></a>„Lean“ organizacijos modeliavimas
 
@@ -51,7 +51,7 @@ Būsimą vertės srautą galima modeliuoti kaip gamybos eigos versiją. Visi ver
 
 Pats vertės srautas modeliuojamas kaip valdymo vienetas. Todėl vertės srautą galima naudoti kaip finansinę dimensiją.
 
-Daugiau informacijos apie valdymo vienetų kūrimą ieškokite srityje [Valdymo vieneto kūrimas](../../fin-and-ops/organization-administration/tasks/create-operating-unit.md).
+Daugiau informacijos apie valdymo vienetų kūrimą ieškokite srityje [Valdymo vieneto kūrimas](../../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md).
 
 ## <a name="costing-for-lean-manufacturing-based-on-the-production-flow"></a>„Lean manufacturing" įkainojimas remiantis gamybos eiga
 Periodiškai konsolidavus gamybos eigos išlaidas pataisoma susietos NG sąskaitos vertė bei sudaromos sąlygos nustatyti produktų, kurie tiekiami vykdant gamybos eigos procesą, nuokrypius.

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4069e369b1a9f15372d1e29e3809198b90b12c7e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ca8868069fca4453efbb76694702a554da6d7aa6
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791538"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892280"
 ---
 # <a name="update-process"></a>Atnaujinimo procesas
 
@@ -39,7 +39,7 @@ Naujinimai išleidžiami reguliariais intervalais visoms aplinkoms. „Human Res
 
 „Human Resources“ naujinimai taikomi visoms aplinkoms automatiškai. „Human Resources“ teikia dviejų tipų leidimus:
 
-- **Paslaugų naujinimai**: naujinimai, kuriuose yra klaidų taisymai ir naujos funkcijos, vykdomi kas dvi savaites. Į paslaugos naujinimus taip pat įtraukiami taikomi platformų naujinimai, kai jie išleidžiami. Norėdami sužinoti, kada platformų naujinimai išleidžiami, žr. [3 lentelė: platformų leidimai](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases). Naujinimai kas dvi savaites regionuose bus įdiegti etapais. Daugiau informacijos apie naujinimus kas dvi savaites žr. [Kas nauja arba pasikeitė programoje „Dynamics 365 Human Resources“](hr-admin-whats-new.md).
+- **Paslaugų naujinimai**: naujinimai, kuriuose yra klaidų taisymai ir naujos funkcijos, vykdomi kas dvi savaites. Į paslaugos naujinimus taip pat įtraukiami taikomi platformų naujinimai, kai jie išleidžiami. Norėdami sužinoti, kada platformų naujinimai išleidžiami, žr. [3 lentelė: platformų leidimai](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md#table-3-platform-releases). Naujinimai kas dvi savaites regionuose bus įdiegti etapais. Daugiau informacijos apie naujinimus kas dvi savaites žr. [Kas nauja arba pasikeitė programoje „Dynamics 365 Human Resources“](hr-admin-whats-new.md).
 
     Visi palaikomi duomenų centrai teikia naujinimus kas dvi savaites, nebent nurodyta kitaip. JAV, Australija, Europa, JK, Azija ir Kanada yra įtraukiamos į naujinimus, vykdomus kas dvi savaites. 
 
@@ -71,11 +71,11 @@ Galite sužinoti, kas rengiama programai „Human Resources“ ir ką išleidome
 
 - [„Dynamics 365 Human Resources“ veiksmų planas](https://dynamics.microsoft.com/roadmap/human-resources/)
 
-- [„Dynamics 365“ leidimo planai](https://docs.microsoft.com/dynamics365/release-plans/)
+- [„Dynamics 365“ leidimo planai](/dynamics365/release-plans/)
 
 - [Kas nauja arba pasikeitė „Dynamics 365 Human Resources“](hr-admin-whats-new.md)
 
-- [Problemų ieška portale „Lifecycle Services“ (LCS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs) (tik su platforma susijusioms klaidoms)
+- [Problemų ieška portale „Lifecycle Services“ (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs.md) (tik su platforma susijusioms klaidoms)
 
 - [„Human Resources“ tinklaraštis](https://community.dynamics.com/365/talent/b/dynamics365fortalent)
 
@@ -83,7 +83,7 @@ Galite sužinoti, kas rengiama programai „Human Resources“ ir ką išleidome
 
 ## <a name="preview-features-in-a-sandbox-environment"></a>Peržiūros funkcijos smėlio dėžės aplinkoje
 
-Galite patikrinti peržiūros funkcijas smėlio dėžės aplinkoje prieš įjungdami jas savo gamybos aplinkoje. Daugiau informacijos apie naujų funkcijų įjungimą žr. temoje [Funkcijų valdymo apžvalga](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Galite patikrinti peržiūros funkcijas smėlio dėžės aplinkoje prieš įjungdami jas savo gamybos aplinkoje. Daugiau informacijos apie naujų funkcijų įjungimą žr. temoje [Funkcijų valdymo apžvalga](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Visos naujos funkcijos išlieka peržiūroje bent 30 dienų ir paprastai 30–60 dienų. Pagrindinės funkcijos paprastai pasiekiamos kiekvienų metų spalį ir balandį po peržiūros laikotarpio. Kai tik pradedame naujas galimybes darbo srityje Funkcijų valdymas, galite jas įjungti. Kai kurios funkcijos gali būti pagal numatytuosius parametrus.
 
@@ -97,13 +97,13 @@ Norėdami gauti daugiau informacijos apie smėlio dėžės aplinkos parengimą, 
 
 ## <a name="report-bugs"></a>Pranešimas apie klaidas
 
-Tikrinandami peržiūros funkcijas arba išbandandydami naujas galimybes, galite aptikti elementų, neveikiančių taip, kaip tikėtasi. Praneškite apie klaidas per [„Microsoft Dynamics 365“ palaikymą](https://dynamics.microsoft.com/support/).
+Tikrindami peržiūros funkcijas arba išbandydami naujas galimybes, galite aptikti elementų, neveikiančių taip, kaip tikėtasi. Praneškite apie klaidas per [„Microsoft Dynamics 365“ palaikymą](https://dynamics.microsoft.com/support/).
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
-[„Dynamics 365“ ir „Power Platform“ leidimo planai](https://docs.microsoft.com/dynamics365/release-plans)</br>
+[„Dynamics 365“ ir „Power Platform“ leidimo planai](/dynamics365/release-plans)</br>
 [Kas nauja ar pasikeitė programoje „Dynamics 365 Human Resources”](hr-admin-whats-new.md)</br>
-[Programinės įrangos ciklo strategija](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
+[Programinės įrangos ciklo strategija](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md)
 
 
 

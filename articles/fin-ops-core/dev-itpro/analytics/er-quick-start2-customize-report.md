@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7355fbb3321a6b5707ab561e88aed2d22cc967cd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 60b318ab03bc1bb47517a206e8b2afd9c13cf273
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743658"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891724"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Pakoreguokite ER formatą, kad sugeneruotumėte pasirinktinį elektroninį dokumentą
 
@@ -96,7 +96,7 @@ Kaip elektroninių ataskaitų funkcinio konsultanto vartotojas, turite sukonfig�
 4. **Priedai** skirtuke nustatykite tolesnius parametrus:
 
     - **Konfigūracijos** lauke pasirinkite **Failas** tipą, skirtą **USMF** įmonei.
-    -  **Užduoties archyvas**, **Laikini**, **Bazinė linija** ir **Kiti** laukuose pasirinkite **Failas** tipą.
+    - **Užduoties archyvas**, **Laikini**, **Bazinė linija** ir **Kiti** laukuose pasirinkite **Failas** tipą.
 
 Norėdami sužinoti daugiau apie ER parametrus, žr. [ER sistemos konfigūracija](electronic-reporting-er-configure-parameters.md).
 
@@ -192,7 +192,7 @@ Turite pridėti tiekėjo paskyros banko informaciją, kuri bus paminėta vėliau
 
 ### <a name="enter-a-vendor-payment"></a><a id="EnterVendorPayment"></a>Įveskite tiekėjo mokėjimą
 
-Turite sukurti naują tiekėjo mokėjimą naudodami [mokėjimo pasiūlymą](https://docs.microsoft.com/dynamics365/finance/accounts-payable/create-vendor-payments-payment-proposal).
+Turite sukurti naują tiekėjo mokėjimą naudodami [mokėjimo pasiūlymą](../../../finance/accounts-payable/create-vendor-payments-payment-proposal.md).
 
 1. Eikite į **Mokėtinos sumos** \> **Mokėjimai** \> **Tiekėjo mokėjimų žurnalas**.
 2. **Tiekėjo mokėjimo žurnalas** puslapyje pasirinkite **Nauja**.
@@ -289,7 +289,7 @@ Turite sukonfigūruoti savo pritaikytą formatą, kad jis atitiktų banko konkre
     - **Operacijos** **Seka** tipo elementas. Šis elementas naudojamas generuoti vieną mokėjimo eilutę mokėjimo faile.
     - **Operacija** **Seka** tipo elementas. Šis elementas naudojamas generuoti atskirus vienos mokėjimo eilutės laukus.
 
-7. Pasirinkite **opearcija** elementą.
+7. Pasirinkite **operacijos** elementą.
 
     ![Operacijos elementas, esantis ER operacijų kūrimo įrankyje](./media/er-quick-start2-derived-format0.png)
 
@@ -412,7 +412,7 @@ Norėdami pridėti standartinių ER konfigūracijų naujas versijas prie dabarti
 
 8. Uždarykite kūrimo įrankio puslapį.
 
-## <a name="adopt-the-changes-in-the-new-version-of-an-imported-format-in-a-custom-format"></a><a id="AdoptNewBaseVersion"></a>Patvirtinkite importuoto formato naujos versijos pakeitimus pritaikytame formate 
+## <a name="adopt-the-changes-in-the-new-version-of-an-imported-format-in-a-custom-format"></a><a id="AdoptNewBaseVersion"></a>Patvirtinkite importuoto formato naujos versijos pakeitimus pritaikytame formate
 
 ### <a name="complete-the-current-draft-version-of-a-custom-format"></a><a id="CompleteDerivedFormat"></a>Užbaikite pritaikyto formato esamą juodraštinę versiją
 

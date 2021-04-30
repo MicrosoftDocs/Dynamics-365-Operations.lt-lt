@@ -2,7 +2,8 @@
 title: Kaip sukonfigūruoti, kad būtų naudojami ER formatų parametrai, nurodyti kiekvienam juridiniam subjektui
 description: Šioje temoje paaiškinama, kaip galite sukonfigūruoti, kad būtų naudojami modulio Elektroninės ataskaitos (ER) formatai, nurodyti kiekvienam juridiniam subjektui.
 author: NickSelin
-ms.date: 03/24/2021
+manager: AnnBe
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 16eab3ffa7d4a780ec9709f5c8a5c263b1e75365
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 3802675b2fe0615f4c2ad682462a233c67f18f1a
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751183"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853498"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>Kaip sukonfigūruoti, kad būtų naudojami ER formatų parametrai, nurodyti kiekvienam juridiniam subjektui
 
@@ -28,7 +29,7 @@ ms.locfileid: "5751183"
 
 ## <a name="overview"></a>Peržiūrėti
 
-Daugelyje modulio Elektroninės ataskaitos (ER) formatų, kuriuos kursite, turite filtruoti duomenis naudodami reikšmių, kurios yra konkrečios jūsų egzemplioriaus juridinio subjekto reikšmės, rinkinį (pavyzdžiui, mokesčių kodų rinkinį mokesčių operacijoms filtruoti). Šiuo metu, kai ER formate sukonfigūruotas šio tipo filtravimas, ER formato reiškiniuose naudojant nuo juridinio subjekto priklausančias reikšmes (pavyzdžiui, mokesčių kodus) nurodomos duomenų filtravimo taisyklės. Todėl ER formatas sukuriamas konkrečiam juridiniam subjektui ir, norėdami kurti reikiamas ataskaitas, kiekvienam juridiniam subjektui, kuriam turite vykdyti ER formatą, turite sukurti išvestines pradinio ER formato kopijas. Kiekvieną išvestinį ER formatą reikia redaguoti, kad į jį būtų perkeltos konkretaus juridinio subjekto reikšmės, reikia keisti jo pagrindą, kai tik atnaujinama pradinė (bazinė) versija, formatą reikia eksportuoti iš tikrinimo aplinkos ir importuoti į gamybos aplinką, kai jį reikia įdiegti gamybai, ir t. t. Todėl šio tipo sukonfigūruoto ER sprendimo tvarkymas yra gana sudėtingas ir atima daug laiko dėl kelių tolesnių priežasčių.
+Daugelyje modulio Elektroninės ataskaitos (ER) formatų, kuriuos kursite, turite filtruoti duomenis naudodami reikšmių, kurios yra konkrečios jūsų egzemplioriaus juridinio subjekto reikšmės, rinkinį (pavyzdžiui, mokesčių kodų rinkinį mokesčių operacijoms filtruoti). Šiuo metu, kai ER formate sukonfigūruotas šio tipo filtravimas, ER formato reiškiniuose naudojant nuo juridinio subjekto priklausančias reikšmes (pavyzdžiui, mokesčių kodus) nurodomos duomenų filtravimo taisyklės. Todėl ER formatas sukuriamas konkrečiam juridiniam subjektui ir, norėdami kurti reikiamas ataskaitas, kiekvienam juridiniam subjektui, kuriam turite vykdyti ER formatą, turite sukurti išvestines pradinio ER formato kopijas. Kiekvieną išvestinį ER formatą reikia redaguoti, kad į jį būtų perkeltos konkretaus juridinio subjekto reikšmės, reikia keisti jo pagrindą, kai tik atnaujinama pradinė (bazinė) versija, reikia eksportuoti iš testavimo aplinkos ir importuoti į gamybos aplinką, kai jį reikia įdiegti gamybiniam naudojimui, ir kita. Todėl šio tipo sukonfigūruoto ER sprendimo tvarkymas yra sudėtingas ir atima daug laiko dėl kelių priežasčių:
 
 -   Kuo yra daugiau juridinių subjektų, tuo daugiau ER formatų konfigūracijų reikia tvarkyti.
 -   Kad įmonių vartotojai galėtų tvarkyti ER konfigūracijas, jiems reikia turėti ER žinių.
@@ -86,7 +87,7 @@ Tada prisijunkite prie savo RCS egzemplioriaus.
 
     ![Duomenų šaltinis Model.Data.Summary pateikia mokesčių operacijų sąrašą](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
 
-    Apskaičiuotas laukas **Model.Data.Summary.Level** sukonfigūruotas taip, kad jame būtų ER reiškinys. Atkreipkite dėmesį, kad mokesčių kodai (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** ir **InVAT0**) į šią konfigūraciją yra įprogramuoti. Todėl šis ER formatas priklauso nuo juridinio subjekto, kuriam šie mokesčių kodai buvo sukonfigūruoti.
+    Apskaičiuotas laukas **Model.Data.Summary.Level** sukonfigūruotas taip, kad jame būtų ER reiškinys. Mokesčių kodai (**„VAT19”**, **„InVAT19”**, **„VAT7”**, **„InVAT7”**, **„THIRD”** ir **„InVAT0”**) yra užprogramuoti į šią konfigūraciją. Todėl šis ER formatas priklauso nuo juridinio subjekto, kuriam šie mokesčių kodai buvo sukonfigūruoti.
 
     ![Model.Data.Summary.Level apskaičiuotas laukas su užkoduotais mokesčių kodais](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
 
@@ -135,7 +136,7 @@ Toliau įtrauksite naują ER formatų išvardijimą. Šio formato išvardijimo r
 14. Pasirinkite įrašą **Apmokestinimo nėra**.
 15. Spustelėkite lauką **Žyma**.
 16. Pasirinkite **Versti**.
-17. Srities **Teksto vertimas** lauke **Žymos ID** įveskite **LBL_LEVELENUM_NO**.
+17. Srities **Teksto vertimas** lauke **Žymos ID** įveskite **„LBL_LEVELENUM_NO”**.
 18. Lauke **Tekstas numatytąja kalba** įveskite **Apmokestinimo nėra**.
 19. Lauke **Kalba** pasirinkite **LT**.
 20. Lauke **Išverstas tekstas** įveskite **Apmokestinimo nėra**.
@@ -153,12 +154,12 @@ Toliau įtrauksite naują duomenų šaltinį ir nurodysite, kaip įmonių vartot
 1.  Skirtuke **Susiejimas** pasirinkite **Įtraukti**.
 2.  Pasirinkite **Formatų išvardijimas\Peržvalga**.
 
-    Ką tik nustatėte, kad kiekviena taisyklė, kurią įmonių vartotojai nurodo apmokestinimo lygiui atpažinti, pateiks ER formato išvardijimo reikšmę. Atkreipkite dėmesį, kad duomenų šaltinio tipą **Peržvalga** galima pasiekti ne tik bloke **Formatų išvardijimas**, bet ir blokuose **Duomenų modelis** ir **„Dynamics 365 for Operations“**. Todėl, naudojant ER duomenų modelio išvardijimus ir programos išvardijimus, galima nurodyti pateikiamų to tipo duomenų šaltinių reikšmių tipą.
+    Ką tik nustatėte, kad kiekviena taisyklė, kurią įmonių vartotojai nurodo apmokestinimo lygiui atpažinti, pateiks ER formato išvardijimo reikšmę. Atkreipkite dėmesį, kad duomenų šaltinio tipą **Peržvalga** galima pasiekti ne tik bloke **Formatų išvardijimas**, bet ir blokuose **Duomenų modelis** ir **„Dynamics 365 for Operations“**. Todėl naudojant ER duomenų modelių ir programų išvardijimus, galima nurodyti grąžinamų to tipo duomenų šaltinių reikšmių tipą. Daugiau informacijos apie **Peržvalgos** duomenų šaltinius rasite [Peržvalgos duomenų šaltinių konfigūravimas naudoti ER programai būdingų parametrų funkciją](er-lookup-data-sources.md).
     
 3.  Lauke **Pavadinimas** įveskite **Išrinkiklis**.
 4.  Lauke **Formatų išvardijimas** pasirinkite **Apmokestinimo lygių sąrašas**.
 
-    Ką tik nustatėte, kad kiekvienai taisyklei, nurodytai šiame duomenų šaltinyje, įmonės vartotojas kaip pateikiamą reikšmę turi pasirinkti vieną iš formatų išvardijimo **Apmokestinimo lygių sąrašas** reikšmių.
+    Jūs nurodėte, kad kiekvienai taisyklei, nurodytai šiame duomenų šaltinyje, verslo vartotojas kaip grąžinamą reikšmę turi pasirinkti vieną iš formatų išvardijimo **Apmokestinimo lygių sąrašas** reikšmių.
     
 5.  Pasirinkite **Redaguoti peržvalgą**.
 6.  Pasirinkite **Stulpeliai**.
@@ -190,7 +191,7 @@ Toliau įtrauksite naują duomenų šaltinį ir nurodysite, kaip įmonių vartot
     
     ![Formato kūrimo puslapis su nauju duomenų šaltiniu](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
 
-    Atkreipkite dėmesį, kad sukonfigūruotų taisyklių vertinimas priklauso nuo laukų, kurie buvo pasirinkti tų taisyklių sąlygoms apibrėžti, duomenų tipo. Pasirinkus lauką, kuris sukonfigūruotas kaip duomenų tipo **Skaitinis** arba **Data** laukas, kriterijai skirsis nuo anksčiau aprašytų duomenų tipo **Eilutė** kriterijų. Naudojant laukus **Skaitinis** ir **Data**, taisyklę reikia nurodyti kaip reikšmių intervalą. Tada taisyklės sąlyga bus laikoma įvykdyta, kai į duomenų šaltinį perduota reikšmė bus sukonfigūruotame intervale.
+    Sukonfigūruotų taisyklių vertinimas priklauso nuo laukų, kurie buvo pasirinkti tų taisyklių sąlygoms apibrėžti, duomenų tipo. Pasirinkus lauką, kuris sukonfigūruotas kaip duomenų tipo **Skaitinis** arba **Data** laukas, kriterijai skirsis nuo anksčiau aprašytų duomenų tipo **Eilutė** kriterijų. Naudojant laukus **Skaitinis** ir **Data**, taisyklę reikia nurodyti kaip reikšmių intervalą. Tada taisyklės sąlyga bus laikoma įvykdyta, kai į duomenų šaltinį perduota reikšmė bus sukonfigūruotame intervale.
     
     Tolesnėje iliustracijoje pateikiamas šio tipo sąrankos pavyzdys. Be duomenų tipo **Eilutė** lauko **Model.Data.Tax.Code** peržvalgos duomenų šaltinio sąlygoms nurodyti taip pat naudojamas duomenų tipo **Realus** laukas **Model.Tax.Summary.Base**.
     
@@ -216,7 +217,7 @@ Kadangi nurodydami nuo juridinio subjekto priklausančius mokesčių kodų rinki
 2.  Pasirinkite **Redaguoti**.
 3.  Spustelėkite lauką **Žyma**.
 4.  Pasirinkite **Versti**.
-5.  Srities **Teksto vertimas** lauke **Žymos ID** įveskite **LBL_SELECTOR_DS**.
+5.  Srities **Teksto vertimas** lauke **Žymos ID** įveskite **„LBL_SELECTOR_DS”**.
 6.  Lauke **Tekstas numatytąja kalba** įveskite **Mokesčio lygio pasirinkimas pagal mokesčio kodą**.
 7.  Lauke **Kalba** pasirinkite **LT**.
 8.  Lauke **Išverstas tekstas** įveskite **Mokesčio lygio pasirinkimas pagal mokesčio kodą**.
@@ -271,7 +272,7 @@ Toliau modifikuosite esamą apskaičiuotą lauką, kad jis, naudodamas sukonfig�
 
     ![ER operacijų dizaino įrankio puslapis](./media/RCS-AppSpecParms-ConfigureFormat-ChangeLookupFld.PNG)
     
-    Atkreipkite dėmesį, kad lauko **Model.Data.Summary.Level** reiškinys dabar apmokestinimo lygį pateiks pagal dabartinio įrašo mokesčio kodą ir taisyklių rinkinį, kurį įmonės vartotojas sukonfigūruoja peržvalgos duomenų šaltinyje **Model.Data.Selector**.
+    Atkreipkite dėmesį, kad lauko **„Model.Data.Summary.Level”** išraiška dabar grąžins apmokestinimo lygį pagal dabartinio įrašo mokesčio kodą ir taisyklių rinkinį, kurį įmonės vartotojas sukonfigūruoja peržvalgos duomenų šaltinyje **„Model.Data.Selector”**.
     
 5.  Pasirinkite **Įrašyti**.
 6.  Uždarykite puslapį **Formulės konstruktorius**.
@@ -287,26 +288,28 @@ Toliau modifikuosite esamą apskaičiuotą lauką, kad jis, naudodamas sukonfig�
 
 ## <a name="export-completed-version-of-modified-format"></a>Baigtos išvestinio formato versijos eksportavimas
 
-1.  Konfigūracijos medyje pasirinkite elementą **Mokymo, kaip peržvelgti LE duomenis, formatas**.
+1.  Konfigūracijos medyje pasirinkite elementą **Mokymosi formatas, kaip peržvelgti LE duomenis**.
 2.  „FastTab“ elemente **Versijos** pasirinkite įrašą, kurio būsena yra **Baigtas**.
 3.  Pasirinkite **Keitimas**.
 4.  Pasirinkite **Eksportuoti kaip XML failą**.
 5.  Pasirinkite **Gerai**.
-6.  Žiniatinklio naršyklė atsiunčia failą **Mokymo, kaip peržvelgti LE duomenis, formatas.xml**. Šį failą išsaugokite vietiniame įrenginyje.
+6.  Žiniatinklio naršyklė atsiunčia failą **Mokymosi formatas, kaip peržvelgti LE duomenis.xml**. Šį failą išsaugokite vietiniame įrenginyje.
 
-Šio skyriaus veiksmus pakartokite su pirminiais formato **Mokymo, kaip peržvelgti LE duomenis, formatas** elementais ir vietiniame įrenginyje išsaugokite tolesnius failus.
+Šio skyriaus veiksmus pakartokite su pirminiais formato **Mokymosi formatas, kaip peržvelgti LE duomenis** elementais ir vietiniame sistemoje išsaugokite šiuos failus:
 
 -   Parametrizuotų iškvietų mokymo formatas.xml
 -   Parametrizuotų iškvietų mokymo susiejimas.xml
 -   Parametrizuotų iškvietų mokymo modelis.xml
 
-Norėdami sužinoti, kaip, naudojant sukonfigūruotą ER formatą **Mokymo, kaip peržvelgti LE duomenis, formatas**, nustatyti nuo juridinio subjekto priklausomus mokesčių kodus ir mokesčių operacijas filtruoti pagal skirtingus apmokestinimo lygius, atlikite veiksmus, nurodytus temoje [ER formato parametrų nustatymas kiekvienam juridiniui subjektui](er-app-specific-parameters-set-up.md).
+Norėdami sužinoti, kaip, naudoti sukonfigūruotą ER formatą **Mokymosi formatas, kaip peržvelgti LE** nustatyti nuo juridinio subjekto priklausomus mokesčių kodus, kad būtų galima mokesčių operacijas filtruoti pagal skirtingus apmokestinimo lygius, atlikite temos [ER formato parametrų nustatymas kiekvienam juridiniam subjektui](er-app-specific-parameters-set-up.md) veiksmus.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Elektroninių ataskaitų formulių kūrimo įrankis](general-electronic-reporting-formula-designer.md)
 
-[ER formato parametrų nustatymas kiekvienam juridiniui subjektui](er-app-specific-parameters-set-up.md)
+[ER formato parametrų nustatymas kiekvienam juridiniam subjektui](er-app-specific-parameters-set-up.md)
+
+[Peržvalgos duomenų šaltinių konfigūravimas, kad būtų galima naudoti ER programai būdingų parametrų funkciją](er-lookup-data-sources.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

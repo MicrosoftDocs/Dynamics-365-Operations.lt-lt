@@ -16,12 +16,12 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1c481a468b2d624f029082fe27e7f14ecf7c068d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ad7feb837594186f4282103881745c4cfc944d52
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803494"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891059"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Užduoties komponentų nustatymas
 
@@ -69,8 +69,8 @@ Darbo užduotys apibūdina pagrindines užduotis, kurias atitinkamoms pareigoms 
 <tr class="odd">
 <td>Pardavimo vadybininkas</td>
 <td><ul>
-<li><strong>Efektyvumo apžvalga</strong> – peržiūrėti kiekvieno pardavėjo darbo efektyvumą.</li>
-<li><strong>Neatvykimų apžvalga</strong> – patvirtinti arba atmesti kiekvieno pardavėjo prašymus leisti neatvykti arba registracijas.</li>
+<li><strong>Efektyvumo apžvalga</strong> – peržiūrėti kiekvieno pardavėjo&#39;darbo efektyvumą.</li>
+<li><strong>Neatvykimų apžvalga</strong> – patvirtinti arba atmesti kiekvieno pardavėjo&#39;prašymus leisti neatvykti arba registracijas.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -86,7 +86,7 @@ Darbo užduotis galite tvarkyti puslapyje **Darbo užduotys**. Puslapyje **Darbo
 Atsakomybės ribos naudojamos užduotį atliekančio darbuotojo darbo vaidmenims, procesams ir produktams, už kuriuos jis yra atsakingas, apibrėžti. Pvz., jei užduotis pavadinta „Buhalteris“, viena atsakomybės sritis gali būti apibrėžta kaip „A produkto finansinės ataskaitos“. Atsakomybės sritis galite tvarkyti puslapyje **Atsakomybės sritys**, kurį galite rasti naudodami ieškos funkciją. Puslapyje **Atsakomybės sritys** įveskite atsakomybės pavadinimą ir aprašymą. Lauke **Pastaba** galite pasirinktinai įvesti papildomą informaciją. Galima naujinti konkrečios užduoties pastabas, nepakeičiant čia įvestų pastabų.
 
 ## <a name="steps-for-creating-a-job"></a>Užduoties kūrimo veiksmai
-Nuoseklios naujos užduoties kūrimo procedūros žr. straipsnyje [Naujų užduočių nustatymas](../fin-and-ops/hr/tasks/define-new-jobs.md). 
+Nuoseklios naujos užduoties kūrimo procedūros žr. straipsnyje [Naujų užduočių nustatymas](./hr-personnel-define-jobs.md). 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

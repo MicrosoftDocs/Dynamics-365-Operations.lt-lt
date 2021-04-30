@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 16d5c13c0fbff8c5033b0d1e9dd0d07851521126
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6d4cc52a90b25406080032c7a98caa59f53ce188
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840778"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909005"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Kliento portalo tinkinimas ir naudojimas
 
@@ -33,14 +33,14 @@ Kliento portale iš karto yra pasiekiami keli tinklalapiai ir veiksmai. Toliau p
 
 Toliau nurodytose temose pateikiama pagrindinė informacija apie „Power Apps“ portalus ir kaip juos tinkinti.
 
-- [Darbas su šablonais](https://docs.microsoft.com/powerapps/maker/portals/work-with-templates) – Šioje temoje pateikiama bendra apžvalga apie tai, kaip „Power Apps“ portalai veikia ir kaip galite paprastai juos tinkinti.
-- [Portalo turinio tvarkymas](https://docs.microsoft.com/dynamics365/portals/manage-portal-content) – šioje temoje paaiškinama, kaip galite tvarkyti ir tinkinti turinį, kurį pateikiate savo portale.
-- [CSS redagavimas](https://docs.microsoft.com/powerapps/maker/portals/edit-css) – ši tema padeda atlikti sudėtingesnius jūsų portalo vartotojo sąsajos (UI) tinkinimus.
-- [Portalo temos kūrimas](https://docs.microsoft.com/dynamics365/portals/create-theme) – ši tema padeda sukurti jūsų portalo vartotojo sąsajos temą.
-- [Kaip paprastai kurti ir rodyti portalo turinį](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) – ši tema padeda jums tvarkyti jūsų portale naudojamus pagrindinius duomenis ir lenteles.
-- [Portale naudojamo kontakto konfigūravimas](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) – šioje temoje paaiškinama, kaip kurti ir tinkinti vartotojų vaidmenis ir kaip veikia sauga ir autentifikavimas „Power Apps“ portaluose.
-- [Lentelių formų ir interneto formų pastabų konfigūravimas portaluose](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) – šioje temoje paaiškinama, kaip įtraukti dokumentus ir papildomą saugyklą į jūsų portalą.
-- [Portalo svetainės klaidų tvarkymas](https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log) – šioje temoje paaiškinama, kaip peržiūrėti portalo klaidų žurnalus ir kaip juos įrašyti į „Microsoft Azure“ didelių dvejetainių objektų saugyklos paskyrą.
+- [Darbas su šablonais](/powerapps/maker/portals/work-with-templates) – Šioje temoje pateikiama bendra apžvalga apie tai, kaip „Power Apps“ portalai veikia ir kaip galite paprastai juos tinkinti.
+- [Portalo turinio tvarkymas](/dynamics365/portals/manage-portal-content) – šioje temoje paaiškinama, kaip galite tvarkyti ir tinkinti turinį, kurį pateikiate savo portale.
+- [CSS redagavimas](/powerapps/maker/portals/edit-css) – ši tema padeda atlikti sudėtingesnius jūsų portalo vartotojo sąsajos (UI) tinkinimus.
+- [Portalo temos kūrimas](/dynamics365/portals/create-theme) – ši tema padeda sukurti jūsų portalo vartotojo sąsajos temą.
+- [Kaip paprastai kurti ir rodyti portalo turinį](/dynamics365/portals/create-expose-portal-content) – ši tema padeda jums tvarkyti jūsų portale naudojamus pagrindinius duomenis ir lenteles.
+- [Portale naudojamo kontakto konfigūravimas](/powerapps/maker/portals/configure/configure-contacts) – šioje temoje paaiškinama, kaip kurti ir tinkinti vartotojų vaidmenis ir kaip veikia sauga ir autentifikavimas „Power Apps“ portaluose.
+- [Lentelių formų ir interneto formų pastabų konfigūravimas portaluose](/powerapps/maker/portals/configure-notes) – šioje temoje paaiškinama, kaip įtraukti dokumentus ir papildomą saugyklą į jūsų portalą.
+- [Portalo svetainės klaidų tvarkymas](/powerapps/maker/portals/admin/view-portal-error-log) – šioje temoje paaiškinama, kaip peržiūrėti portalo klaidų žurnalus ir kaip juos įrašyti į „Microsoft Azure“ didelių dvejetainių objektų saugyklos paskyrą.
 
 ## <a name="customize-the-order-creation-process"></a>Užsakymų kūrimo proceso tinkinimas
 
@@ -88,7 +88,7 @@ Kai vartotojas pateikia užsakymą naudodamas kliento portalą, užsakymas autom
 
 Siekiant užtikrinti sklandžią vartotojo patirtį, kliento portalas automatiškai įveda kelių privalomų laukų vertes. Šios vertės paremtos užsakymą teikiančio kliento kontakto įraše esančia informacija.
 
-Kiekvienai klientui, kuris naudos kliento portalą užsakymams pateikti, priklausančio [kontakto eilutės](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) vertės turi būti nurodytos toliau pateiktuose privalomuose laukuose. To nepadarius įvyks klaidų.
+Kiekvienai klientui, kuris naudos kliento portalą užsakymams pateikti, priklausančio [kontakto eilutės](/powerapps/maker/portals/configure/configure-contacts) vertės turi būti nurodytos toliau pateiktuose privalomuose laukuose. To nepadarius įvyks klaidų.
 
 - **Įmonė** – juridinis subjektas, kuriam priklauso užsakymas
 - **Potencialus klientas** – kliento paskyra, kuri susijusi su pasirinktu užsakymu
@@ -134,16 +134,16 @@ Prekėms reikia nurodyti toliau išvardytus stulpelius:
 
 Turite įsitikinti, kad jūsų kliento portalas pateikia visų šių stulpelių vertes:
 
-Jei norite įtraukti stulpelių į puslapį arba juos pašalinti, žiūrėkite [Sparčiųjų formų kūrimas ar redagavimas, siekiant užtikrinti supaprastintą duomenų įvestį](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
+Jei norite įtraukti stulpelių į puslapį arba juos pašalinti, žiūrėkite [Sparčiųjų formų kūrimas ar redagavimas, siekiant užtikrinti supaprastintą duomenų įvestį](/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
 
 Jei norite pakeisti stulpelių išankstines nuostatas ir tai, kaip nustatomos vertės, kai puslapis įrašomas, žiūrėkite toliau pateiktą informaciją „Power Apps“ portalų dokumentacijoje.
 
-- [Išankstinis lauko užpildymas](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
-- [Vertės nustatymas įrašius](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
+- [Išankstinis lauko užpildymas](/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
+- [Vertės nustatymas įrašius](/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
 
 ## <a name="customize-the-home-page"></a>Pagrindinio puslapio tinkinimas
 
-Visi kliento portale esantys valdikliai yra įtaisytieji „Power Apps“ portalų valdikliai. Galite juos tinkinti atlikdami tolesnius veiksmus, kurie pateikti temoje [Puslapio kūrimas](https://docs.microsoft.com/powerapps/maker/portals/compose-page), Power Apps portalų dokumentacijoje.
+Visi kliento portale esantys valdikliai yra įtaisytieji „Power Apps“ portalų valdikliai. Galite juos tinkinti atlikdami tolesnius veiksmus, kurie pateikti temoje [Puslapio kūrimas](/powerapps/maker/portals/compose-page), Power Apps portalų dokumentacijoje.
 
 Vienintelis pasirinktinis valdiklis, įtrauktas į kliento portalo šabloną, naudojamas kuriant plyteles pagrindiniame puslapyje.
 
@@ -151,7 +151,7 @@ Vienintelis pasirinktinis valdiklis, įtrauktas į kliento portalo šabloną, na
 
 Norėdami modifikuoti plyteles, atlikite toliau pateiktus veiksmus.
 
-1. Atidarykite [portalo valdymo programėlę](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).
+1. Atidarykite [portalo valdymo programėlę](/powerapps/maker/portals/configure/configure-portal).
 1. Kairėje esančioje naršymo srityje pasirinkite **Puslapio šablonai**.
 
     ![Portalo valdymo naršymo sritis](media/customer-portal-nav.png "Portalo valdymo naršymo sritis")
@@ -167,11 +167,11 @@ Norėdami modifikuoti plyteles, atlikite toliau pateiktus veiksmus.
 
 Norėdami sužinoti daugiau apie tai, kaip galima nustatyti ir tinkinti kliento portalą, žr. toliau pateiktus išteklius.
 
-- [„Power Apps“ portalų dokumentacija](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [„Power Apps“ portalų dokumentacija](/powerapps/maker/portals/overview)
 - [Dvigubo rašymo dokumentacija](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
-- [Apie portalo ciklą](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
-- [Portalo naujovinimas](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [Portalo konfigūracijos perkėlimas](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [Apie portalo ciklą](/powerapps/maker/portals/admin/portal-lifecycle)
+- [Portalo naujovinimas](/powerapps/maker/portals/admin/upgrade-portal)
+- [Portalo konfigūracijos perkėlimas](/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Sprendimo ciklo valdymas – „Dynamics 365 for Customer Engagement“ programos](https://www.microsoft.com/download/details.aspx?id=57777)
 
 

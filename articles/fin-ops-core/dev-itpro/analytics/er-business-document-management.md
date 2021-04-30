@@ -2,7 +2,7 @@
 title: Verslo dokumentų valdymo apžvalga
 description: Šioje temoje pateikiama informacija apie tai, kaip naudotis ER sistemos verslo dokumentų valdymo funkcija.
 author: NickSelin
-ms.date: 12/15/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f5589925b7bfba3d9315c3828fd1ec5993a09a59
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 01067a253651bbeddcc5f02c8c15c916b25b6684
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749542"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891310"
 ---
 # <a name="business-document-management-overview"></a>Verslo dokumentų valdymo apžvalga
 
@@ -45,9 +45,9 @@ Norėdami naudoti verslo dokumentų valdymą šablonų redagavimui „Excel“ a
 
 ## <a name="business-document-availability"></a>Verslo dokumentų pasiekiamumas
 
-Pilnam visų ataskaitų, suplanuotų 2019 m. spalio mėn leidimui, žiūrėkite [Konfigūruotinų verslo dokumentų ataskaitos programose „Word“ ir „Excel“](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
+Pilnam visų ataskaitų, suplanuotų 2019 m. spalio mėn leidimui, žiūrėkite [Konfigūruotinų verslo dokumentų ataskaitos programose „Word“ ir „Excel“](/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
 
-Pilnam visų ataskaitų, suplanuotų 2020 m. spalio mėn leidimui, žiūrėkite [Konfigūruotini verslo dokumentai – „Word“ šablonai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
+Pilnam visų ataskaitų, suplanuotų 2020 m. spalio mėn leidimui, žiūrėkite [Konfigūruotini verslo dokumentai – „Word“ šablonai](/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
 
 Būsimuose leidimuose bus prieinama daugiau ataskaitų. Specialūs pranešimai apie papildomas ataskaitas bus atsiųsti atskirai. Norėdami sužinoti, kaip peržiūrėti šiuo metu galimų ataskaitų sąrašą, žiūrėkite [ER konfigūracijų, išleistų „Finance” tam kad būtų palaikomi toliau pateikti konfigūruojami verslo dokumentai, sąrašas](#list-of-configurations-cbd) skyrių žemiau.
 
@@ -272,7 +272,23 @@ Pasirinktam šablonui pasiekiama parinktis **Redaguoti šabloną**. Ši parinkti
 
 ![Redagavimo proceso pradžios patvirtinimas naujo šablono kūrimui](./media/BDM-Overview-EditingTemplate4.png)
 
+Jeigu nėra jokio teikėjo, jį bus siūloma sukurti. Jeigu nėra jokio aktyvaus teikėjo, bus siūloma jį pasirinkti aktyvavimui.
+
+Norėdami sukurti teikėją, pakeiskite teikėjo pavadinimą lauke **Pavadinimas**, atnaujinkite naujo teikėjo internetinį adresą lauke **Internetinis adresas** ir pasirinkite **Gerai** patvirtinimui.
+
+   ![Naujo BDM teikėjo kūrimas](./media/bdm_create_provider.png)
+
+Norėdami aktyvuoti esamą teikėją, pasirinkite teikėjo pavadinimą lauke **Konfigūracijos teikėjas** ir pasirinkite **Gerai** nustatyti teikėjui kaip aktyviam.
+
+   ![BDM teikėjo aktyvavimas](./media/bdm_choose_provider.png)
+
+> [!NOTE]
+> Kiekvienas BDM šablonas kreipiasi į teikėją kaip į konfigūracijos autorių. Štai todėl šablonui reikia aktyvaus teikėjo.
+
+
 Parinktis **Naujas dokumentas** visada pasiekiama ER formato konfigūracijos šablonui, kurį teikia dabartinis ir kitas tiekėjas (šiame pavyzdyje – „Microsoft“) ir kuriame nėra pataisymų. Redaguotas šablonas bus išsaugotas naujoje automatiškai sugeneruotoje ER formato konfigūracijoje.
+
+
 
 ### <a name="start-editing-a-template"></a>Pradėkite redaguoti šabloną
 
@@ -419,7 +435,7 @@ Tikėtina, kad prisijungėte prie dabartinio „Azure AD“ domeno programos egz
 
 ## <a name="list-of-er-configurations-that-have-been-released-in-finance-to-support-configurable-business-documents"></a><a name="list-of-configurations-cbd"></a>ER konfigūracijų, išleistų „Finance” tam, kad būtų galima palaikyti konfigūruojamus verslo dokumentus, sąrašas
 
-„Finance” ER konfigūracijų [sąrašas](general-electronic-reporting.md#list-of-configurations) yra nuolat atnaujinamas. Atidarykite [visuotinę saugyklą](er-download-configurations-global-repo.md) tam, kad peržiūrėtumėte šiuo metu palaikomų ER konfigūracijų sąrašą. Galite [filtruoti](https://docs.microsoft.com/dynamics365/finance/localizations/enhanced-filtering-global-repo) visuotinę saugyklą tam, kad peržiūrėtumėte ER konfigūracijų, naudojamų konfigūruotiniems verslo dokumentams palaikyti, sąrašą.
+„Finance” ER konfigūracijų [sąrašas](general-electronic-reporting.md#list-of-configurations) yra nuolat atnaujinamas. Atidarykite [visuotinę saugyklą](er-download-configurations-global-repo.md) tam, kad peržiūrėtumėte šiuo metu palaikomų ER konfigūracijų sąrašą. Galite [filtruoti](../../../finance/localizations/enhanced-filtering-global-repo.md) visuotinę saugyklą tam, kad peržiūrėtumėte ER konfigūracijų, naudojamų konfigūruotiniems verslo dokumentams palaikyti, sąrašą.
 
 ![Visuotinės saugyklos turinio konfigūracijų saugyklos puslapyje filtravimas](./media/bdm-overview-filterglobalrepo.gif)
 

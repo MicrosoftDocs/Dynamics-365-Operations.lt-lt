@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5eca902ee7df7eb6835caf6f64b17f3f004b0776
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 387caeee3ba44e1fbc661e2c31915b75dd80c31e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802460"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892134"
 ---
 # <a name="view-and-manage-address-changes"></a>Peržiūrėti ir valdyti adresų pakeitimus
 
@@ -52,7 +52,7 @@ Darbuotojai gali atnaujinti jų adresą **Darbuotojo savitarnos** darbo srityje.
 
 2. Pasirinkite **Redaguoti asmeninę informaciją**.
 
-3. Adreso įtraukimui, pasirinkite **Įtraukti**. Tam, kad atnaujintumėte esantį adresą, pasirinkite adresą iš sarašo ir tuomet pasirinkite **Redaguoti**.
+3. Adreso įtraukimui, pasirinkite **Įtraukti**. Tam, kad atnaujintumėte esantį adresą, pasirinkite adresą iš sąrašo ir tuomet pasirinkite **Redaguoti**.
 
 4. Įveskite **Pavadinimą ar aprašą**.
 
@@ -66,7 +66,7 @@ Darbuotojai gali atnaujinti jų adresą **Darbuotojo savitarnos** darbo srityje.
 
 9. Įveskite **Miestą**, **Valstiją** ir **Valstybę**. Dažniausiai šie laukai yra automatiškai nustatomi **ZIP/pašto kodo** laukelyje.
 
-10. Pasirinktinai, pasirinkite **Pirmąjį** laukelį tam, kad nurodytumėte primąjį adresą. Tik vienas adresas gali būti pažymėtas kaip pirminis. Jei kitas adresas jau yra pažymėtas pirminiu, turite patvirtinti, kad norite naudoti šį adresą kaip pirminį.
+10. Pasirinktinai, pasirinkite **Pirmąjį** laukelį tam, kad nurodytumėte pirmąjį adresą. Tik vienas adresas gali būti pažymėtas kaip pirminis. Jei kitas adresas jau yra pažymėtas pirminiu, turite patvirtinti, kad norite naudoti šį adresą kaip pirminį.
 
 11. Pasirinktinai, pasirinkite **Privatus** laukelį tam, kad nurodytumėte privatų adresą. Tik vartotojai su turimu leidimu gali peržiūrėti privataus adreso informaciją.
 
@@ -80,7 +80,7 @@ Galite atnaujinti adresą **Personalo valdymo** darbo srityje. Atlikite šiuos �
 
 3. Pasirinkite darbuotoją ir tuomet pasirinkite **Adresai**.
 
-3. Adreso įtraukimui, pasirinkite **Įtraukti**. Tam, kad atnaujintumėte esantį adresą, pasirinkite adresą iš sarašo ir tuomet pasirinkite **Redaguoti**.
+3. Adreso įtraukimui, pasirinkite **Įtraukti**. Tam, kad atnaujintumėte esantį adresą, pasirinkite adresą iš sąrašo ir tuomet pasirinkite **Redaguoti**.
 
 4. Įveskite **Pavadinimą ar aprašą**.
 
@@ -94,7 +94,7 @@ Galite atnaujinti adresą **Personalo valdymo** darbo srityje. Atlikite šiuos �
 
 9. Įveskite **Miestą**, **Valstiją** ir **Valstybę**. Dažniausiai šie laukai yra automatiškai nustatomi **ZIP/pašto kodo** laukelyje.
 
-10. Pasirinktinai, pasirinkite **Pirmąjį** laukelį tam, kad nurodytumėte primąjį adresą. Tik vienas adresas gali būti pažymėtas kaip pirminis. Jei kitas adresas jau yra pažymėtas pirminiu, turite patvirtinti, kad norite naudoti šį adresą kaip pirminį.
+10. Pasirinktinai, pasirinkite **Pirmąjį** laukelį tam, kad nurodytumėte pirmąjį adresą. Tik vienas adresas gali būti pažymėtas kaip pirminis. Jei kitas adresas jau yra pažymėtas pirminiu, turite patvirtinti, kad norite naudoti šį adresą kaip pirminį.
 
 11. Pasirinktinai, pasirinkite **Privatus** laukelį tam, kad nurodytumėte privatų adresą. Tik vartotojai su turimu leidimu gali peržiūrėti privataus adreso informaciją.
 
@@ -120,14 +120,14 @@ Kai kuriais atvejais, jums gali reikėti atnaujinti adresą tam, kad pakeistumė
 
 ## <a name="view-and-monitor-address-changes"></a>Peržiūrėti ir stebėti adresų pakeitimus
 
-Žmogiškųjų išteklių personalas gali peržiūrėti ir stebėti aderso keitimus **Personalo valdymo** darbo srityje. Tam, kad peržiūrėtumėte adreso keitimus, atverkite **Personalo valdymas** plytelę **Pagrindiniame** puslapyje. Adreso keitimas rodomas plytelės dešiniame viršutiniame kampe. Skaičius virš **Adreso keitimų** rodo, kiek adresų keitimų atsitiko per dienų skaičių nurodytą **Žmogiškųjų išteklių parametrų** puslapyje. 
+Žmogiškųjų išteklių personalas gali peržiūrėti ir stebėti adreso keitimus **Personalo valdymo** darbo srityje. Tam, kad peržiūrėtumėte adreso keitimus, atverkite **Personalo valdymas** plytelę **Pagrindiniame** puslapyje. Adreso keitimas rodomas plytelės dešiniame viršutiniame kampe. Skaičius virš **Adreso keitimų** rodo, kiek adresų keitimų atsitiko per dienų skaičių nurodytą **Žmogiškųjų išteklių parametrų** puslapyje. 
 
 Kai pasirenkate **Adreso keitimas** plytelę, naujas puslapis rodo visų adresų keitimų išsamią informaciją. Galite pasirinktinai pasirinkti **Įtraukti ateities adreso keitimus** dešiniame viršutiniame kampe tam, kad rodytumėte adreso keitimus su ateities data.
 
 > [!NOTE]
-> Jei norite gauti pranešimą ar elektroninį laišką apie šio adreso keitimus, galite sukurti naujo pranešimo taisyklę **Parinktys** skirtuke veiksmų juostoje. Dėl išsamesnės informacijos apie pranešimo taisykles, žr. [Sukurti pranešimo taisykles](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts).<br><br>
+> Jei norite gauti pranešimą ar elektroninį laišką apie šio adreso keitimus, galite sukurti naujo pranešimo taisyklę **Parinktys** skirtuke veiksmų juostoje. Dėl išsamesnės informacijos apie pranešimo taisykles, žr. [Sukurti pranešimo taisykles](../fin-ops-core/fin-ops/get-started/create-alerts.md).<br><br>
 
-> Jei norite konfigūruoti darbo srautą adreso keitimams, galite pasirinkite **Siųsti į išorę** parinktį savo pranešimo taisyklėje ir tuomet naudoti „Power Automate“ tam, kad paskatintumėte verslo įvykį ir konfigūruotumėte darbo srautą. Dėl platesnės informacijos, žr. [Pranešimai kaip verslo įvykiai](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts#alerts-as-business-events).
+> Jei norite konfigūruoti darbo srautą adreso keitimams, galite pasirinkite **Siųsti į išorę** parinktį savo pranešimo taisyklėje ir tuomet naudoti „Power Automate“ tam, kad paskatintumėte verslo įvykį ir konfigūruotumėte darbo srautą. Dėl platesnės informacijos, žr. [Pranešimai kaip verslo įvykiai](../fin-ops-core/fin-ops/get-started/create-alerts.md#alerts-as-business-events).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

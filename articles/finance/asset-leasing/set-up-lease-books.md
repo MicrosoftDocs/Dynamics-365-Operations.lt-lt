@@ -2,11 +2,11 @@
 title: Nuomos knygų nustatymas
 description: Šioje temoje aprašoma informacija, palaikoma nuomos knygose. Nuomos knygose yra apskaitos strategijos, apibrėžiančios, kaip sistemoje atsiskaitoma už nuomos sutartis.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxTable
+ms.search.form: AssetLeaseBookMaster
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0aac682c66bef51c802efcb1c5e34dd60c38f9fe
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: aafb5913d9aff8b0ac2cfbb8126f4b6d8362c96c
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819679"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880941"
 ---
 # <a name="set-up-lease-books"></a>Nuomos knygų nustatymas
 
@@ -51,7 +51,7 @@ Norėdami sukurti nuomos knygą, atlikite toliau nurodytus veiksmus.
     | Trumpojo laikotarpio ribinė reikšmė                     | Įveskite dienų skaičių, kuris bus naudojamas kaip trumpalaikės nuomos ribos. Jei nuomos sąlygos vertė yra mažesnė arba lygi čia įvesto mėnesių skaičiui, sistema suklasifikuos nuomą kaip trumpalaikę nuomą ir bus taikomas atidėtas nuomos režimas. |
     | Mažos vertės ribinė reikšmė                      | Įveskite sumą, kuri bus naudojama kaip mažos vertės nuomos riba. Jei turto tikroji vertė yra mažesnė arba lygi čia įvestai vertei, sistema suklasifikuos nuomą kaip mažos vertės turto nuomą ir bus taikomas atidėtas nuomos režimas. |
     | Mokėti tiekėjui                            | Nustatyti šią parinktį į **Taip**, kad būtų leidžiama registruoti nuomos mokėjimus, kaip SF, į tiekėjo sąskaitą, nurodytą kiekvienoje nuomos sutartyje. Užregistravus nuomos apmokėjimą, tiekėjo sąskaita bus kredituota. Jei ši pasirinktis nustatyta į **Ne**, sąskaita, kuri yra nurodyta puslapio **Nuomos registravimo parametrai** registravimo tipe **Nuomos mokestis** bus kredituojama. |
-    | Nuomos konvencija                       | Pasirinkite konvenciją nuomos pradžios datai:<ul><li><b>Jokios</b> – Naudokite nuomos pradžios datą kaip pradžios datą.</li><li><b>Visas mėnuo</b> – Naudokite pirmą mėnesio dieną, į kurį nuomos data patenka kaip pradžios data.</li></ul><p>Jei rinksitės <b>Jokios</b>, esama rizikos, kad atsakomybės amortizavimas ir turto nuvertėjimo grafikai bus apskaičiuojami ir publikuos išlaidas mėnesio viduryje, o ne jo gale. Pasirinkę <b>Visą mėnesį</b>, užtikrinsite, kad sistema pradės skaičiuoti nuomą pirmą mėnesio diąn ir visos mėnesio išlaidos bus skaičiuojamos ir publikuojamos paskutinę mėnesio dieną.</p><p><strong>Pastaba:</strong> Funkcija nuomos konvencijoms turi būti įjungta per funkcijų valdymą. Darbo srityje <b>Funkcijų valdymas</b> raskite ir pasirinkite funkciją pavadinimu <b>Lizingo sutartis turto nuomai</b> ir tada rinkitės <b>Įjungti dabar</b>.</p> |
+    | Nuomos konvencija                       | Pasirinkite konvenciją nuomos pradžios datai:<ul><li><b>Jokios</b> – Naudokite nuomos pradžios datą kaip pradžios datą.</li><li><b>Visas mėnuo</b> – Naudokite pirmą mėnesio dieną, į kurį nuomos data patenka kaip pradžios data.</li></ul><p>Jei rinksitės <b>Jokios</b>, esama rizikos, kad atsakomybės amortizavimas ir turto nuvertėjimo grafikai bus apskaičiuojami ir publikuos išlaidas mėnesio viduryje, o ne jo gale. Pasirinkę <b>Visą mėnesį</b>, užtikrinsite, kad sistema pradės skaičiuoti nuomą pirmą mėnesio dieną ir visos mėnesio išlaidos bus skaičiuojamos ir publikuojamos paskutinę mėnesio dieną.</p><p><strong>Pastaba:</strong> Funkcija nuomos konvencijoms turi būti įjungta per funkcijų valdymą. Darbo srityje <b>Funkcijų valdymas</b> raskite ir pasirinkite funkciją pavadinimu <b>Lizingo sutartis turto nuomai</b> ir tada rinkitės <b>Įjungti dabar</b>.</p> |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

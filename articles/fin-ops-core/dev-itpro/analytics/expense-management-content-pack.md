@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: aadf43d478eb4bf5af20df02dcc6399a7a2e71a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8e95fa06745840a6ba1782f135af0e7625c934aa
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743512"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893257"
 ---
 # <a name="expense-management-power-bi-content"></a>Išlaidų valdymas – „Power BI“ turinys
 
@@ -41,7 +41,7 @@ Su Išlaidų valdymo versija 8.1 ir naujesne versija galima naudoti du „Power 
 Visos sumos rodomos įmonės valiuta. Rodomi visų įmonių duomenys, bet prireikus galite naudoti įmonės filtrą. 
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
-Expense Admin Dashboard.pbix ir Expense Personal Dashboard.pbix „Power BI“ turinį galite rasti „Microsoft Dynamics Lifecycle Services“ (LCS) bibliotekoje Bendrai naudojamas turtas. Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinį ir įdiegti jį savo organizacijoje, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+Expense Admin Dashboard.pbix ir Expense Personal Dashboard.pbix „Power BI“ turinį galite rasti „Microsoft Dynamics Lifecycle Services“ (LCS) bibliotekoje Bendrai naudojamas turtas. Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinį ir įdiegti jį savo organizacijoje, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 Turinys pasiekiamas darbo srityje Išlaidų valdymas kaip įdėtasis „Power Bi“ turinys. Bet kuris išlaidų savininkas gali pats surasti asmenines išlaidas, o prieigą prie administravimo duomenų turi ir visų vartotojų išlaidų duomenis peržiūrėti gali tik mokėtinų sumų tarnautojai ir vadovai.
 
 ## <a name="refreshing-the-power-bi-content"></a>„Power BI turinio atnaujinimas

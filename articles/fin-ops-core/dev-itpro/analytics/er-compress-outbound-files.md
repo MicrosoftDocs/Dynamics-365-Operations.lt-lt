@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: cd056798773bce492e429f8cca2ef39cb59bf739
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 899af54fbe34841c9b9b6e96b78db96773cf0203
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753821"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894177"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Didelių dokumentų, sugeneruotų elektroninėse ataskaitose, glaudinimas 
 
 [!include [banner](../includes/banner.md)]
 
-Galite naudoti [Elektroninę ataskaitų (ER) sistemą](general-electronic-reporting.md) norėdami sukonfigūruoti sprendimą, kuris iškviečia operacijų duomenis, kad būtų sugeneruotas siunčiamas dokumentas. Šis sugeneruotas dokumentas gali būti gana didelis. Kai šio tipo dokumentas sugeneruojamas, [Programos objektų serverio (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) atmintis naudojama jo laikymui. Tam tikru momentu dokumentas tada turi būti atsisiųstas iš jūsų „Microsoft Dynamics 365 Finance” programos. Šiuo metu didžiausias vieno dokumento, sugeneruoto ER, dydis ribojamas iki 2 gigabaitų (GB). Be to, „Finance” šiuo metu [riboja](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) atsisiųsto failo dydį iki 1 GB. Todėl turite sukonfigūruoti ER sprendimą, kuris sumažina tikimybę, kad šie apribojimai bus viršyti, o jūs gausite **Srautas tęsėsi per ilgai** arba **Srautas perkrautas arba nepakankamas aritmetinėje operacijoje** išimtį.
+Galite naudoti [Elektroninę ataskaitų (ER) sistemą](general-electronic-reporting.md) norėdami sukonfigūruoti sprendimą, kuris iškviečia operacijų duomenis, kad būtų sugeneruotas siunčiamas dokumentas. Šis sugeneruotas dokumentas gali būti gana didelis. Kai šio tipo dokumentas sugeneruojamas, [Programos objektų serverio (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) atmintis naudojama jo laikymui. Tam tikru momentu dokumentas tada turi būti atsisiųstas iš jūsų „Microsoft Dynamics 365 Finance” programos. Šiuo metu didžiausias vieno dokumento, sugeneruoto ER, dydis ribojamas iki 2 gigabaitų (GB). Be to, „Finance” šiuo metu [riboja](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) atsisiųsto failo dydį iki 1 GB. Todėl turite sukonfigūruoti ER sprendimą, kuris sumažina tikimybę, kad šie apribojimai bus viršyti, o jūs gausite **Srautas tęsėsi per ilgai** arba **Srautas perkrautas arba nepakankamas aritmetinėje operacijoje** išimtį.
 
 Kai konfigūruojate sprendimą, galite pakoreguoti savo ER formatą Operacijų dizaino įrankyje pridėdami **Aplanko** tipo šakninį elementą, kad suglaudintumėte turinį, kurį sugeneravo bet kuris jo įdėtųjų elementų. Glaudinimas vyksta „reikiamu laiku”, kad intensyviausias atminties naudojimas ir failo, kuris bus atsisiųstas, dydis galėtų būti sumažinti.
 

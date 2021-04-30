@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c92fe991c8651d7665de2e850d8649b72f525f4c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: aeb9675477e728c28c38b1ef43fa6055acd23360
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835576"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909384"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Sandėlio programos diegimas ir prijungimas
 
@@ -31,7 +31,7 @@ ms.locfileid: "5835576"
 > Šioje temoje aprašoma, kaip konfigūruoti senąją sandėlio programą (kuri dabar yra nerekomenduojama). Jei ieškote informacijos apie tai, kaip konfigūruoti naująją sandėlio valdymo mobiliųjų įrenginių programėlę (šiuo metu – viešojoje peržiūros versijoje), žiūrėkite [Sandėlio valdymo mobiliųjų įrenginių programėlės diegimas ir sujungimas](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
-> Šioje temoje aprašoma, kaip sukonfigūruoti sandėliavimo programą debesies diegimams. Jei ieškote informacijos, kaip konfigūruoti vietiniams visuotiniams diegimams skirtą sandėlio programą, žiūrėkite [Vietinėms visuotinėms įdiegtims skirtas sandėliavimas](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> Šioje temoje aprašoma, kaip sukonfigūruoti sandėliavimo programą debesies diegimams. Jei ieškote informacijos, kaip konfigūruoti vietiniams visuotiniams diegimams skirtą sandėlio programą, žiūrėkite [Vietinėms visuotinėms įdiegtims skirtas sandėliavimas](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 Sandėliavimo programėlę galima atsisiųsti iš „Google Play Store" parduotuvės ir „Microsoft Store“. Ji teikiamas kaip atskiras komponentas. Todėl ją turite atsisiųsti į kiekvieną įrenginį ir sukonfigūruoti, kad būtų galima prisijungti prie „Microsoft Dynamics 365 Supply Chain Management“ aplinkos.
 
@@ -54,11 +54,11 @@ Norėdami atsisiųsti programą, naudokite vieną iš toliau nurodytų saitų.
 - **„Windows“ (UWP):** [„Dynamics 365 for Finance and Operations - Warehousing“ parduotuvėje „Microsoft Store“](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 - **Android:** [„Warehousing - Dynamics 365“ parduotuvėje „Google Play“](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
-Nedidelių diegimų atveju galite kiekviename įrenginyje įdiegti programą iš atitinkamos parduotuvės, o tada neautomatiniu būdu sukonfigūruoti ryšį su naudojamomis aplinkomis. Tačiau 1.7.0.0 ir vėlesnėse sandėliavimo programėlės versijose galite automatizuoti programėlės diegimą ir (arba) konfigūravimą. Šis būdas patogus, jei valdote daug įrenginių ir naudojate mobiliųjų įrenginių bei mobiliųjų programų valdymo sprendimą, pvz., [„Microsoft Intune“](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Norėdami gauti informacijos apie tai, kaip naudojant „Intune“ įtraukti programas, žr. [Programų įtraukimas į „Microsoft Intune“](https://docs.microsoft.com/mem/intune/apps/apps-add).
+Nedidelių diegimų atveju galite kiekviename įrenginyje įdiegti programą iš atitinkamos parduotuvės, o tada neautomatiniu būdu sukonfigūruoti ryšį su naudojamomis aplinkomis. Tačiau 1.7.0.0 ir vėlesnėse sandėliavimo programėlės versijose galite automatizuoti programėlės diegimą ir (arba) konfigūravimą. Šis būdas patogus, jei valdote daug įrenginių ir naudojate mobiliųjų įrenginių bei mobiliųjų programų valdymo sprendimą, pvz., [„Microsoft Intune“](/mem/intune/fundamentals/what-is-intune). Norėdami gauti informacijos apie tai, kaip naudojant „Intune“ įtraukti programas, žr. [Programų įtraukimas į „Microsoft Intune“](/mem/intune/apps/apps-add).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Žiniatinklio tarnybos programos kūrimas naudojant „Azure Active Directory“
 
-Norėdami įjungti sandėliavimo programėlę, kad ji saveikautų su konkrečiu „Supply Chain Management“ serveriu, turite užregistruoti žiniatinklio tarnybos programą, skirtą „Supply Chain Management“ nuomotojui „Azure Active Directory“ („Azure AD“). Toliau aprašyta procedūra pateikia vieną būdą, kaip atlikti šią užduotį. Išsamios informacijos ir alternatyvų ieškokite po procedūra pateiktuose saituose.
+Norėdami įjungti sandėliavimo programėlę, kad ji sąveikautų su konkrečiu „Supply Chain Management“ serveriu, turite užregistruoti žiniatinklio tarnybos programą, skirtą „Supply Chain Management“ nuomotojui „Azure Active Directory“ („Azure AD“). Toliau aprašyta procedūra pateikia vieną būdą, kaip atlikti šią užduotį. Išsamios informacijos ir alternatyvų ieškokite po procedūra pateiktuose saituose.
 
 1. Interneto naršyklėje eikite į [https://portal.azure.com](https://portal.azure.com/).
 1. Įveskite vartotojo, kuris turi prieigą prie „Azure“ prenumeratos, vardą ir slaptažodį.
@@ -89,11 +89,11 @@ Norėdami įjungti sandėliavimo programėlę, kad ji saveikautų su konkrečiu 
 
 Daugiau informacijos apie tai, kaip konfigūruoti žiniatinklio tarnybos programas „Azure AD“, ieškokite toliau nurodytuose ištekliuose.
 
-- Instrukcijų, nurodančių, kaip naudoti „Windows PowerShell“ konfigūruojant žiniatinklio tarnybos programas „Azure AD“, ieškokite straipsnyje [Kaip naudoti „Azure PowerShell“ kuriant pagrindinę tarnybą su sertifikatu](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
+- Instrukcijų, nurodančių, kaip naudoti „Windows PowerShell“ konfigūruojant žiniatinklio tarnybos programas „Azure AD“, ieškokite straipsnyje [Kaip naudoti „Azure PowerShell“ kuriant pagrindinę tarnybą su sertifikatu](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
 - Norėdami gauti išsamios informacijos apie tai, kaip rankiniu būdu kurti žiniatinklio tarnybos programą „Azure AD“, žr. toliau nurodytas temas.
 
-    - [„Quickstart“: programos registravimas naudojant „Microsoft“ tapatumo platformą](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
-    - [Kaip naudoti portalą kuriant „Azure AD“ programą ir pagrindinę tarnybą, galinčią pasiekti išteklius](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [„Quickstart“: programos registravimas naudojant „Microsoft“ tapatumo platformą](/azure/active-directory/develop/quickstart-register-app)
+    - [Kaip naudoti portalą kuriant „Azure AD“ programą ir pagrindinę tarnybą, galinčią pasiekti išteklius](/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Vartotojo paskyros kūrimas ir konfigūravimas programoje „Supply Chain Management“
 
@@ -121,7 +121,7 @@ Autentifikavimas su „Azure AD“ leidžia saugiai prijungti mobilųjį įrengi
 
 Sertifikatai gali būti naudojami kaip slaptieji raktai programos tapatybei įrodyti, kai prašomas atpažinimo ženklas. Viešoji sertifikato dalis įkeliama į programos registraciją „Azure“ portale, o visas sertifikatas turi būti įdiegtas kiekviename įrenginyje, kuriame įdiegta sandėliavimo programėlė. Jūsų organizacija atsakinga už sertifikato rotacijos valdymą ir pan. Galite naudoti pasirašomus sertifikatus, bet visada turite naudoti neeksportuotinus sertifikatus.
 
-Turite nustatyti, kad sertifikatas būtų pasiekiamas kiekviename įrenginyje, kuriame paleidžiate sandėliavimo programėlę. Norėdami gauti daugiau informacijos apie tai, kaip valdyti „Intune“ kontroliuojamų įrenginių sertifikatus, jei naudojate „Intune“, žr. [Sertifikatų naudojamas autentifikavimui programoje „Microsoft Intune“](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
+Turite nustatyti, kad sertifikatas būtų pasiekiamas kiekviename įrenginyje, kuriame paleidžiate sandėliavimo programėlę. Norėdami gauti daugiau informacijos apie tai, kaip valdyti „Intune“ kontroliuojamų įrenginių sertifikatus, jei naudojate „Intune“, žr. [Sertifikatų naudojamas autentifikavimui programoje „Microsoft Intune“](/mem/intune/protect/certificates-configure).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Programos konfigūravimas importuojant ryšio parametrus
 
@@ -177,7 +177,7 @@ Informaciją galite įrašyti kaip JSON failą arba sugeneruoti QR kodą su toki
 
 ### <a name="save-the-connection-settings-file-on-each-device"></a>Ryšio parametrų failo įrašymas kiekviename įrenginyje
 
-Paprastai ryšio parametrų failams paskirtyti kiekviename savo valdomame įrenginyje naudojate įrenginių valdymo įrankį arba scenarijų. Jei kiekviename įrenginyje naudojate numatytąjį pavadinimą ir vietą, kai įrašote ryšių nustatymų failą kiekviename įrenginyje, sandėliavimo programėlė automatiškai jį importuos net ir pirmą kartą paleidus programėlę po jos įdiegimo. Jei naudosite pasirinktinį failo vardą arba vietą, pirmą kartą paleidus programą, vartotojas turi nurodyti reikšmes. Tačiau programa vėliau naudos nurodytą vardą ir vietą.
+Paprastai ryšio parametrų failams paskirstyti kiekviename savo valdomame įrenginyje naudojate įrenginių valdymo įrankį arba scenarijų. Jei kiekviename įrenginyje naudojate numatytąjį pavadinimą ir vietą, kai įrašote ryšių nustatymų failą kiekviename įrenginyje, sandėliavimo programėlė automatiškai jį importuos net ir pirmą kartą paleidus programėlę po jos įdiegimo. Jei naudosite pasirinktinį failo vardą arba vietą, pirmą kartą paleidus programą, vartotojas turi nurodyti reikšmes. Tačiau programa vėliau naudos nurodytą vardą ir vietą.
 
 Kaskart paleidus programą, ji iš naujo importuoja ryšio parametrus iš ankstesnės vietos, kad nustatytų, ar buvo pakeitimų. Programa atnaujins tik tuos ryšius, kurių pavadinimai sutampa su ryšio parametrų faile esančių ryšių pavadinimais. Vartotojo sukurti ryšiai, kurie turi kitokius pavadinimus, atnaujinti nebus.
 

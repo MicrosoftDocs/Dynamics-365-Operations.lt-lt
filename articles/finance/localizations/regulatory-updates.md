@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c5e8f4e7b27cdffe97d73e67d33f023155b60ef0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f235726d163b9262fabee4d0a1118600a60eee1
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822762"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890781"
 ---
 # <a name="regulatory-updates"></a>Reguliavimo naujinimai
 
@@ -25,7 +25,7 @@ ms.locfileid: "5822762"
 
 Šioje temoje išvardijami reguliavimo naujinimai, planuojami ir išleidžiami „Dynamics 365 Finance“ palaikomose lokalėse. Pristatymo terminai gali keistis ir numatomos funkcijos gali skirtis arba būti neišleistos. Daugiau informacijos žr. [„Microsoft“ strategija](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-Reglamentavimo atnaujinimai yra funkcijos, kurios sukurtos siekiant laikytis naujų arba pasikeitusių konkrečių šalių teisės aktų. Norėdami sužinoti daugiau apie planuojamas ir išleistas konkrečių šalių funkcijas, žr. [„Dynamics 365“ ir „Power Platform“ išleidimo planus](https://docs.microsoft.com/business-applications-release-notes/index).
+Reglamentavimo atnaujinimai yra funkcijos, kurios sukurtos siekiant laikytis naujų arba pasikeitusių konkrečių šalių teisės aktų. Norėdami sužinoti daugiau apie planuojamas ir išleistas konkrečių šalių funkcijas, žr. [„Dynamics 365“ ir „Power Platform“ išleidimo planus](/business-applications-release-notes/index).
 
 „Microsoft“ siekia kuo anksčiau įgyvendinti naujus reglamentavimo reikalavimus. Faktinė išleidimo data priklauso nuo įstatymo paskelbimo datos, vietos valdžios institucijų reikalavimų informacijos pasiekiamumo, tikrinimo įrankių pasiekiamumo ir pakeitimų dydžio bei sudėtingumo.
 
@@ -46,7 +46,7 @@ Naujausių reglamentavimo naujinių planų ieškokite toliau pateiktoje lentelė
 |      Brazilija         |   2020 m. spalis, 2020 m. lapkritis      | 10.0.16, 10.0.15HF      |   SPED Fiscal – 015 maketas   |
 |      Brazilija         |   2020 m. spalio mėn.      | 10.0.16      |   DRCST deklaracija SC – SEF 262/2020   |
 |      Brazilija         |   2020 m. spalio mėn.      | 10.0.16      |   SPED Fiscal ICMS / IPI įrašas C176   |
-|      Brazilija         |   2020 m. gruodžio mėn.      | 10.0.17, 10.0.16HF, 10.0.15HF      |   NF-e NT2020.006 - Skaitmeninės plaformos tarpininkas (Išdėstymas ir patvirtinimo taisyklių naujinimai)   |
+|      Brazilija         |   2020 m. gruodžio mėn.      | 10.0.17, 10.0.16HF, 10.0.15HF      |   NF-e NT2020.006 - Skaitmeninės platformos tarpininko identifikacija (Išdėstymas ir patvirtinimo taisyklių naujinimai)   |
 |      Europa        |   Sausio 2021 d.       | 10.0.17, 10.0.16HF, 10.0.15HF      |   Brexit - Šiaurės Airijos protokolo poveikis tarp Bendrijos vidaus prekybos ataskaitos ES šalyse  |
 |      Vokietija        |   Sausio 2021 d.       | 10.0.16HF      |   ELSTER UstVA VAT išankstinio pranešimo formatai buvo išplėsti su dviem naujomis dėžėmis 37,50 neatšaukiamoms nurašomoms skoloms  |
 |      Vokietija        |   Sausio 2021 d.       | 10.0.17      |   Pasikeitimai ELSTER PVM pradžios pranešimo XML struktūroje (UstVA)  |

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 23cb0523b6d6d065ad19f6c3bddf881b0dc82a7d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 140977a6eac145f35870d3516a4b0d0c794afe4b
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840105"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894782"
 ---
 # <a name="get-started-with-electronic-invoicing-for-italy"></a>Darbo su elektroninių SF priedu Italijai pradžia
 
@@ -201,7 +201,7 @@ Apdorojimo „Finance” metu atliksite toliau pateiktas užduotis.
 Dokumentus galite pateikti neautomatiniu būdu, atsižvelgdami į el. SF dokumentų poreikį.
 
 > [!NOTE]
-> Prieš tęsdami įsitikinkite, kad nustatymas, reikalingas Italijos el. SF, buvo užbaigtas. Daugiau informacijos žr. [Kliento elektroninės SF](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices). Turėkite omenyje, kad kai kurie toje temoje aprašyti nustatymo veiksmai gali būti nepasiekiami dėl elektroninių SF išrašymo priedo aktyvinimo.
+> Prieš tęsdami įsitikinkite, kad nustatymas, reikalingas Italijos el. SF, buvo užbaigtas. Daugiau informacijos žr. [Kliento elektroninės SF](./emea-ita-e-invoices.md). Turėkite omenyje, kad kai kurie toje temoje aprašyti nustatymo veiksmai gali būti nepasiekiami dėl elektroninių SF išrašymo priedo aktyvinimo.
 
 1. Eikite į **Organizacijos administravimas \> Laikotarpio \> Elektroniniai dokumentai \> Pateikti elektroninius dokumentus**.
 2. Pirmą kartą pateikę bet kokį dokumentą, nustatykite parinktį **Iš naujo pateikti dokumentus** į **Ne**. Jei turite iš naujo pateikti dokumentą naudodami paslaugą, nustatykite šią parinktį į **Taip**.

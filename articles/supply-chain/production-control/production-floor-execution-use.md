@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 02046da5e2487e203c9658c255f95a7c403d0b10
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0ece83a20a33a8f23e8700d1b5d680a11d64fea0
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814661"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907722"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kaip darbuotojai naudoja gamybos cecho vykdymo sąsają
 
@@ -122,7 +122,7 @@ Paprastai darbuotojai užbaigia užduotį pasirinkdami vieną ar daugiau dabarti
 
 Darbuotojas taip pat gali pradėti naują užduotį, kol ankstesnė užduotis vis dar atidaryta. Vėlgi, darbuotojas pasirenka naują užduotį skirtuke **Visos užduotys** ir tada pasirenka **Pradėti užduotį**. Tačiau šiuo atveju dialogo langas **Pradėti užduotį** praneša darbuotojui, kad jie šiuo metu dirba su užduotimi, todėl jie turi sustabdyti arba užbaigti tą užduotį prieš pradedami naują užduotį.
 
-## <a name="working-on-multiple-jobs-in-parallel"></a>Dirbas su keliomis užduotimis vienu metu
+## <a name="working-on-multiple-jobs-in-parallel"></a>Darbas su keliomis užduotimis vienu metu
 
 Vienas darbuotojas vienu metu gali dirbti su keliomis užduotimis (t. y. lygiagrečiai). Tokiu atveju užduočių, su kuriomis dirba darbuotojas, rinkinys vadinamas *užduočių grupe*. Darbuotojas gali įtraukti naujų užduočių į grupę arba užbaigti vieną ar daugiau grupės užduočių. Toliau pateikti du scenarijai rodo, kaip darbuotojas gali dirbti su užduotimis lygiagrečiai.
 
@@ -130,13 +130,13 @@ Vienas darbuotojas vienu metu gali dirbti su keliomis užduotimis (t. y. lygiagr
 
 Darbuotojas pasirenka tas dvi užduotis skirtuke **Visos užduotys** ir tada pasirenka **Pradėti užduotį**. Dialogo lange **Pradėti užduotį** rodomos abi pasirinktos užduotys, o darbuotojas gali koreguoti kiekį, kad pradėtų darbą su kiekviena užduotimi. Tada darbuotojas patvirtina dialogo langą ir gali pradėti abi užduotis.
 
-### <a name="scenario-2-a-worker-who-has-two-active-jobs-that-are-in-progress-wants-to-start-a-third-job-and-work-on-it-in-parallel-with-the-other-two"></a>2 scenarijus. Darbuotojas, turintis dvi aktyvias atliekamas užduotis, nori pradėti trečią užduotį ir dirbti su tomis dviejomis užduotimis lygiagrečiai
+### <a name="scenario-2-a-worker-who-has-two-active-jobs-that-are-in-progress-wants-to-start-a-third-job-and-work-on-it-in-parallel-with-the-other-two"></a>2 scenarijus. Darbuotojas, turintis dvi aktyvias atliekamas užduotis, nori pradėti trečią užduotį ir dirbti su tomis dvejomis užduotimis lygiagrečiai
 
 Darbuotojas pasirenka trečią užduotį skirtuke **Visos užduotys** ir tada pasirenka **Grupavimas**. Dialogo lange **Grupavimas** darbuotojas gali koreguoti kiekį, kad pradėtų darbą. Tada darbuotojas patvirtina dialogo langą pasirinkdamas **Grupavimas**.
 
 ## <a name="working-on-indirect-activities"></a>Darbas su netiesioginėmis veiklomis
 
-Netiesioginės veiklos yra veiklos, kurios nėra tiesiogiai susijusios su gamybos užsakymu. Netiesioginės veiklos gali būti lanksčiai apibrėžtos, kaip aprašyta [Laiko ir buvimo darbe netiesioginių veiklų nustatymas](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance).
+Netiesioginės veiklos yra veiklos, kurios nėra tiesiogiai susijusios su gamybos užsakymu. Netiesioginės veiklos gali būti lanksčiai apibrėžtos, kaip aprašyta [Laiko ir buvimo darbe netiesioginių veiklų nustatymas](/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance).
 
 Pavyzdžiui, „Contoso” cecho darbuotoja Shannon nori dalyvauti įmonės susitikime, o susitikimai laikomi netiesiogine veikla. Taikomas vienas iš toliau pateiktų dviejų scenarijų.
 

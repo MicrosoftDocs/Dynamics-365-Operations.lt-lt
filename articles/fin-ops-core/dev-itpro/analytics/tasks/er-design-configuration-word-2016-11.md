@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 728984678d78cf626e2b30222f1d1e603e05d117
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ab4cd4a390782936a74977ac2aef3790aa8ac1af
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755063"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891700"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>ER konfigūracijų su „Excel” šablonais, skirtų ataskaitų „Word” formatu generavimui, pakartotinis naudojimas
 
@@ -90,7 +90,7 @@ Taip pat turite atsisiųsti ir įrašyti vietoje šiuos šablonus ataskaitos pav
 
 Dabar galite susieti pasirinktinės XML dalies **Ataskaita** elementus su „Word“ dokumento turinio valdikliais.
 
-Jei esate susipažinę su „Word“ dokumentų kaip formų, turinčių [turinio valdiklius](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word), susietus su [pasirinktinių XML dalių](https://docs.microsoft.com/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) elementais, kūrimo procesu, atlikite visus tolesnės procedūros veiksmus, kad sukurtumėte tokį dokumentą. Daugiau informacijos žiūrėkite [Formų, kurias vartotojai užbaigia ar spausdina programoje „Word“, kūrimas](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b). Kitu atveju praleiskite tolesnę procedūrą.
+Jei esate susipažinę su „Word“ dokumentų kaip formų, turinčių [turinio valdiklius](/office/client-developer/word/content-controls-in-word), susietus su [pasirinktinių XML dalių](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) elementais, kūrimo procesu, atlikite visus tolesnės procedūros veiksmus, kad sukurtumėte tokį dokumentą. Daugiau informacijos žiūrėkite [Formų, kurias vartotojai užbaigia ar spausdina programoje „Word“, kūrimas](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b). Kitu atveju praleiskite tolesnę procedūrą.
 
 ## <a name="get-a-word-document-that-has-a-custom-xml-part-and-do-data-mapping"></a><a id='get-word-doc'></a>Gaukite „Word” dokumentą su pasirinktine XML dalimi ir atlikite duomenų susiejimą
 

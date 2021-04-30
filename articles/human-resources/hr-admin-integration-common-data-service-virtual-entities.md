@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4d80680f66d8669425482a54066f48af8ebcfbc8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ae36f1436ddd7f41bf0c3510b47cbc440224f484
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805111"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890057"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Konfigūruokite „Dataverse“ virtualias lenteles
 
@@ -34,7 +34,7 @@ ms.locfileid: "5805111"
 CRUD operacijas įjungti „Human Resources“ objektuose iš „Dataverse“, turite padaryti objektus prieinamus kaip virtualias lenteles „Dataverse“. Tai leis jums atlikti CRUD operacijas su „Human Resources“ duomenimis naudojantis „Dataverse“ ir „Microsoft Power Platform“. Operacijos taip pat palaiko „Human Resources“ visos verslo logikos patvirtinimą, siekiant užtikrinti duomenų vientisumą, kai į objektus rašomi duomenys.
 
 > [!NOTE]
-> „Human Resources“ objektai atitinka „Dataverse“ lenteles. Dėl daugiau informacijos apie „Dataverse“ (anksčiau vadintą „Common Data Service“) ir terminologijos naujinimus, žr. [Kas yra „Microsoft Dataverse“?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> „Human Resources“ objektai atitinka „Dataverse“ lenteles. Dėl daugiau informacijos apie „Dataverse“ (anksčiau vadintą „Common Data Service“) ir terminologijos naujinimus, žr. [Kas yra „Microsoft Dataverse“?](/powerapps/maker/data-platform/data-platform-intro)
 
 ## <a name="available-virtual-tables-for-human-resources"></a>Prieinamos virtualios lentelės „Human Resources“
 
@@ -44,14 +44,14 @@ Galite peržiūrėti virtualių lentelių aplinkoje sąrašą ir pradėti darbą
 
 ![„Dynamics 365 HR Virtual Tables“ „Power Apps“](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
 
-## <a name="virtual-tables-versus-native-tables"></a>Virtualio lentelės prieš įgimtas lenteles
+## <a name="virtual-tables-versus-native-tables"></a>Virtualios lentelės prieš įgimtas lenteles
 
 Virtualios lentelės „Human Resources“ nėra tokios pačios kaip įgimtos „Dataverse“ lentelės sukurtos „Human Resources“. 
 
 Įgimtos lentelės „Human Resources“ yra sukuriamos atskirai ir laikomos HCM bendrame sprendime „Dataverse“. Su įgimtomis lentelėmis, duomenys yra laikomi „Dataverse“ ir juos reikia sinchronizuoti su „Human Resources“ programos duomenų baze.
 
 > [!NOTE]
-> Dėl įgimtų lentelų sąrašo „Dataverse“ „Human Resources“, žr. [„Dataverse“ lenteles](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).
+> Dėl įgimtų lentelių sąrašo „Dataverse“ „Human Resources“, žr. [„Dataverse“ lenteles](./hr-developer-entities.md).
 
 ## <a name="setup"></a>Sąranka
 
@@ -71,7 +71,7 @@ Dėl daugiau informacijos apie funkcijų įjungimą ir išjungimą, žr. [Valdyt
 
 ### <a name="register-the-app-in-microsoft-azure"></a>Užregistruokite programą „Microsoft Azure“
 
-Turite registruoti savo žmogiškųjų išteklių elementą „Azure“ portale tam, kad „Microsoft“ tapatybės platforma galėtų pateikti autentifikavimą ir autentifikavimo paslaugas programai ir vartotojams. Daugiau informacijos apie tai, kaip užregistruoti programas „Azure“, žr. [„Quickstart“: programos registravimas naudojant „Microsoft“ tapatumo platformą](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+Turite registruoti savo žmogiškųjų išteklių elementą „Azure“ portale tam, kad „Microsoft“ tapatybės platforma galėtų pateikti autentifikavimą ir autentifikavimo paslaugas programai ir vartotojams. Daugiau informacijos apie tai, kaip užregistruoti programas „Azure“, žr. [„Quickstart“: programos registravimas naudojant „Microsoft“ tapatumo platformą](/azure/active-directory/develop/quickstart-register-app).
 
 1. Atidarykite [„Microsoft Azure“ portalą](https://portal.azure.com).
 
@@ -93,7 +93,7 @@ Turite registruoti savo žmogiškųjų išteklių elementą „Azure“ portale 
 
 10. Pateikite aprašymą, pasirinkite trukmę ir pasirinkite **Įtraukti**.
 
-11. Pasižymėkite slaptojo rakto vertę. Jūs įvesite šią informaciją, kai [Konfigūruosite virtualios lentelės duomenų šaltinį](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
+11. Įrašykite slaptąją reikšmę iš lentelės ypatybės **Reikšmė**. Jūs įvesite šią informaciją, kai [Konfigūruosite virtualios lentelės duomenų šaltinį](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
 
     > [!IMPORTANT]
     > Šiuo metu būtinai išsisaugokite slaptojo rakto vertę. Palikus šį puslapį, slaptasis raktas daugiau niekada nebus rodomas.
@@ -215,12 +215,11 @@ Išslenkančioje srityje rodomi naujausi proceso vykdymo rezultatai. Galite per�
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
-[Kas yra „Dataverse“?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
-[Lentelės „Dataverse“](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
-[Lentelės ryšių apžvalga](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
-[Kurti ir redaguoti virtualias lenteles, kuriose yra duomenys iš išorės duomenų šaltinio](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
-[Kas yra „Power Apps“ portalai?](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
-[Programų kūrimo „Power Apps“ apžvalga](https://docs.microsoft.com/powerapps/maker/)
-
+[Kas yra „Dataverse“?](/powerapps/maker/common-data-service/data-platform-intro)<br>
+[Lentelės „Dataverse“](/powerapps/maker/common-data-service/entity-overview)<br>
+[Lentelės ryšių apžvalga](/powerapps/maker/common-data-service/relationships-overview)<br>
+[Kurti ir redaguoti virtualias lenteles, kuriose yra duomenys iš išorės duomenų šaltinio](/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
+[Kas yra „Power Apps“ portalai?](/powerapps/maker/portals/overview)<br>
+[Programų kūrimo „Power Apps“ apžvalga](/powerapps/maker/)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

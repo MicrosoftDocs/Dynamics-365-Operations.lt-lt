@@ -2,7 +2,7 @@
 title: Vaizdo įrašai
 description: Šiame puslapyje pateikiami „Microsoft“ sukurti mokomieji ir techninės kalbos vaizdo įrašai, susiję su „Finance and Operations“ programomis, pasiekiami „YouTube“ ir kitose svetainėse.
 author: sericks007
-ms.date: 02/11/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: eae8e95d39a5b9ade24e7fe9c9407d29e67a8727
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fc34f1691447b9c34e1572229f9c545913039626
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754709"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881741"
 ---
 # <a name="videos"></a>Vaizdo įrašai 
 
@@ -84,6 +84,9 @@ ms.locfileid: "5754709"
 
 ## <a name="videos-for-dynamics-365-finance"></a>„Dynamics 365 Finance“ vaizdo įrašai
 
+### <a name="business-document-management"></a>Verslo dokumentų valdymas
+- [Nauja verslo dokumento kūrimas naudojant verslo dokumentų valdymą](https://www.youtube.com/watch?v=gAIYl-mM_pw)
+
 ### <a name="customize-the-app"></a>Tinkinti programą
 - [Įtraukti pasirinktinių laukų](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
 - [Įdėti „Power Apps“](https://www.youtube.com/watch?v=x3qyA1bH-NY)
@@ -111,7 +114,10 @@ ms.locfileid: "5754709"
 - [Mokesčių mechanizmo apžvalga](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
 
 
-## <a name="videos-for-dynamics-365-supply-chain-management"></a>Vaizdo įrašai apie „Dynamics 365 Supply Chain Management“
+## <a name="videos-for-dynamics-365-supply-chain-management"></a>„Dynamics 365 Supply Chain Management“ vaizdo įrašai
+
+### <a name="business-document-management"></a>Verslo dokumentų valdymas
+- [Nauja verslo dokumento kūrimas naudojant verslo dokumentų valdymą](https://www.youtube.com/watch?v=gAIYl-mM_pw)
 
 ### <a name="costs"></a>Išlaidos
 - [Išlaidų kontrolės mobilioji darbo sritis](https://youtu.be/imsuTg8rUVk)

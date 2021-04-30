@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ac0efbbe645969cdf0419bf533d34e38b76fb67a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7decdb1d759284c616ecf928c10f99098627472d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751237"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893583"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Nuo veiksmo priklausomų ER paskirties vietų konfigūravimas
 
@@ -60,7 +60,7 @@ Jei pasirenkate **Bet koks** dokumento tipą, **Automatiškai aptikti** yra pasi
     - Kai veiksmas **Siųsti** yra pateikiamas vykdymo metu, taikoma ER paskirties vieta **El. paštas**.
     - Kai veiksmas **Spausdinti** yra pateikiamas vykdymo metu, taikoma ER paskirties vieta **Spausdintuvas**.
 
-Pavyzdžiui, galite naudoti **Laisvos formos sąskaitos faktūros („Excel)”** ER formatą [laisvos formos sąskaitai faktūrai](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new) spausdinti, kai ją registruojate. Norėdami nukreipti sugeneruotą dokumentą, turite sukonfigūruoti šio ER formato paskirties vietas. Pavyzdžiui, jums gali prireikti sukonfigūruoti šias ER paskirties vietas tam, kad sugeneruotame dokumente atliktumėte šiuos veiksmus:
+Pavyzdžiui, galite naudoti **Laisvos formos sąskaitos faktūros („Excel)”** ER formatą [laisvos formos sąskaitai faktūrai](../../../finance/accounts-receivable/create-free-text-invoice-new.md) spausdinti, kai ją registruojate. Norėdami nukreipti sugeneruotą dokumentą, turite sukonfigūruoti šio ER formato paskirties vietas. Pavyzdžiui, jums gali prireikti sukonfigūruoti šias ER paskirties vietas tam, kad sugeneruotame dokumente atliktumėte šiuos veiksmus:
 
 - Archyvuoti dokumentą, jei vykdomas ER formatas, tačiau nepateikiamas joks veiksmo kodas (pavyzdžiui, kai dokumentas siunčiamas elektroniniu būdu).
 - Peržiūrėti dokumentą žiniatinklio naršyklėje, kai vartotojas atlieka **Rodyti** veiksmą.
@@ -82,7 +82,7 @@ Tolesnė iliustracija rodo, kaip galite pasiekti tas pačias alternatyvias konfi
 
 Kai vykdomas ER formatas, jei vartotojo veiksmus sukonfigūravo vartotojai, turintis reikiamas [teises](electronic-reporting-destinations.md#security-considerations) pakeisti paskirties vietos konfigūracijos parametrams vykdymo metu, atsiranda dialogo langas, suteikiantis pasirinkimą keisti paskirties vietos konfigūracijos parametrus. Šis dialogo langas yra pasirenkamas ir jo pasirodymas priklauso nuo to, kaip buvo iškviestas ER sistemos vykdomas ER formatas. Jei pasirodo šis dialogo langas, ER paskirties vietos jame bus įgalintos pagal pateiktą vartotojo veiksmą.
 
-Šioje iliustracijoje pateikiamas **Elektroninių ataskaitų formato paskirties vietų** dialogo langas, kuris pasirodo, kai laisvos formos sąskaita faktūra yra [užregistruota](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new) ir vykdomas ER formatas **Laisvos formos sąskaita faktūra („Excel”)** šio dokumento generavimui, jei buvo **Spausdintuvo** veiksmas ir ER paskirties vietos buvo sukonfigūruoti šiam formatui, kaip parodyta anksčiau šioje temoje.
+Šioje iliustracijoje pateikiamas **Elektroninių ataskaitų formato paskirties vietų** dialogo langas, kuris pasirodo, kai laisvos formos sąskaita faktūra yra [užregistruota](../../../finance/accounts-receivable/create-free-text-invoice-new.md) ir vykdomas ER formatas **Laisvos formos sąskaita faktūra („Excel”)** šio dokumento generavimui, jei buvo **Spausdintuvo** veiksmas ir ER paskirties vietos buvo sukonfigūruoti šiam formatui, kaip parodyta anksčiau šioje temoje.
 
 ![Dialogo langas, kuris suteikia parinktį keisti pradines vykdomo ER formato ER paskirties vietų konfigūracijas](./media/er-destination-action-dependent-02.gif)
 

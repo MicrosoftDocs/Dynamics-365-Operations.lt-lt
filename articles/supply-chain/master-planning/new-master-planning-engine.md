@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9590213ef73f7623aff10d4c8ee3efbea0e7984b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e227cabdd205b7a0c1fe784fc719b538e6ea4443
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823462"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907696"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Perkėlimas į „Planning Optimization“ pagrindiniam planavimui
 
@@ -41,7 +41,7 @@ Dėl daugiau informacijos apie negaliojantį sukurtą planavimo variklį, žr. [
 
 ## <a name="migration-messages-and-exceptions"></a>Perkėlimas, pranešimai ir išimtys
 
-Esančių aplinkų, kurios vykdo įtaisytąjį bendrojo planavimo mechanizmą, nekurdamos suplanuotos gamybos užsakymų, svininkas gaus el. laišką, kuriame pateikta išsami informacija apie proceso išlygą. Rekomenduojame kartu su partneriu įvertinti ir planuoti perėjimą prie „Planning Optimization“.
+Esančių aplinkų, kurios vykdo įtaisytąjį bendrojo planavimo mechanizmą, nekurdamos suplanuotos gamybos užsakymų, savininkas gaus el. laišką, kuriame pateikta išsami informacija apie proceso išlygą. Rekomenduojame kartu su partneriu įvertinti ir planuoti perėjimą prie „Planning Optimization“.
 
 Kaip buvo minėta, versijoje 10.0.16 ir vėlesnėje versijoje gausite klaidos pranešimą, kai vykdysite sukurtą pagrindinį planavimą nekurdami suplanuotų gamybos užsakymų. Šis klaidos pranešimas apima gaires dėl perkėlimo ir instrukcijas išlygos reikalavimui.
 
@@ -63,8 +63,12 @@ Galite prašyti išlygos, jei turite tęsti naudoti sukurtus pagrindinį planavi
 
 Po to, kai būtinos funkcijos tampa būtinos, „Microsoft“ pateiks pereinamąjį laikotarpį, kol išlyga pasibaigs. Aplinkos administratorius bus informuotas, kai būtinos funkcijos bus prieinamos ir pereinamasis laikotarpis prasidės.
 
+Šioje struktūrinėje schemoje apibendrinama šioje temoje pateikiama informacija, kad galėtumėte greitai sužinoti, ar jums reikėtų pateikti išimties užklausą. Jeigu jums reikia pateikti išimties užklausą, prašome užpildyti ir pateikti [Optimizavimo planavimo perkėlimo ir išimčių klausimyną](https://go.microsoft.com/fwlink/?linkid=2144962).
+
+![Išimčių struktūrinė schema](media/exception-diagram.png "Išimčių struktūrinė schema")
+
 > [!NOTE]
-> Galite tik reikalauti išlygos gamybos aplinkoms, o ne smėlio dėžės aplinkoms. Jei jums reikia išjungti „Planning Optimization“ išlygos klaidą infrastruktūrai kaip paslaugoms (IaaS) smėlio dėžės aplinkoje, vykdykite SQL laukimą pateiktą [Smėlio dėžės aplinkose](#faq-sandbox).
+> Galite pateikti išimčių užklausas tik tiems nuomotojams, kurie šiuo metu apima arba apims gamybos aplinką, o ne nuomotojams, turintiems tik sandėlio aplinką. Jei jums reikia išjungti „Planning Optimization“ išlygos klaidą infrastruktūrai kaip paslaugoms (IaaS) smėlio dėžės aplinkoje, vykdykite SQL laukimą pateiktą [Smėlio dėžės aplinkose](#faq-sandbox).
 
 ## <a name="frequently-asked-questions"></a>Dažnai užduodami klausimai
 

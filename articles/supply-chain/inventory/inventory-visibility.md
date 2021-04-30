@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e294ada8dd3e764987aa363adb2614416986575b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d09c7be5de75511b10d7a69d4b8ac12917b0dbe8
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821134"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910430"
 ---
 # <a name="inventory-visibility-add-in"></a>Inventoriaus matomumo papildinys
 
@@ -25,7 +25,7 @@ ms.locfileid: "5821134"
 [!include [preview banner](../includes/preview-banner.md)]
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-Inventoriaus matomumo papildinys yra nepriklausomos ir labai išdidinamos mirkopaslaugos, kurios įjungia realaus laiko turimo inventoriaus sekimą ir taip suteikia bendrą inventoriaus vaizdą.
+Inventoriaus matomumo papildinys yra nepriklausomos ir labai išdidinamos mikropaslaugos, kurios įjungia realaus laiko turimo inventoriaus sekimą ir taip suteikia bendrą inventoriaus vaizdą.
 
 Visa informacija susijusi su turimu inventoriumi yra eksportuojama į paslaugas esančias šalia realaus laiko per žemo lygio SQL integravimą. Išorės sistemos prieiga prie paslaugų per RESTful API, kurios leidžia laukti turimos informacijos pagal turimą dimensijų rinkinį ir gauti esamų turimų padėčių sąrašą.
 
@@ -39,7 +39,7 @@ Inventoriaus matomumas suteikia konfigūravimo parinktis, kurios leidžia jį in
 
 Jums reikia įdiegti jį naudojant „Microsoft Dynamics Lifecycle Services“ (LCS). LCS yra bendradarbiavimo portalas suteikiantis aplinką ir reguliariai naujinamų paslaugų rinkinį, kuris padeda jums valdyti programos gyvavimo ciklą jūsų „Dynamics 365 Finance and Operations“ programose.
 
-Dėl daugiau informacijos, žr. [„Lifecycle Services“ ištekliai](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs).
+Dėl daugiau informacijos, žr. [„Lifecycle Services“ ištekliai](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
 ### <a name="prerequisites"></a>Būtinieji komponentai
 
@@ -48,10 +48,13 @@ Prieš jums įdiegiant inventoriaus matomumo papildinį, atlikite šiuos veiksmu
 - Gaukite LCS diegimo projektą su mažiausiai viena patalpinta aplinka.
 - Įsitikinkite, kad baigtos būtinosios priedų nustatymo sąlygos, pateikiamos skyriuje [Priedų apžvalga](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md) buvo patenkintos. Atsargų matomumui nereikia dvigubo rašymo susiejimo.
 - Kreipkitės į atsargų matomumo komandą el. paštu [inventvisibilitysupp@microsoft.com ](mailto:inventvisibilitysupp@microsoft.com), kad gautumėte šiuos tris reikalingus failus:
-
     - `Inventory Visibility Dataverse Solution.zip`
     - `Inventory Visibility Configuration Trigger.zip`
     - `Inventory Visibility Integration.zip` (jei jūsų vykdoma „Supply Chain Management” versija yra ankstesnė nei 10.0.18 versija)
+- Vadovaukitės instrukcijomis, pateiktomis [Greitas pasirengimas darbui: Programos registravimas su „Microsoft” tapatybės platforma](/azure/active-directory/develop/quickstart-register-app), kad užregistruotumėte programą ir įtrauktumėte kliento slaptąjį raktą į AAD pagal jūsų „Azure” prenumeratą.
+    - [Programos įtraukimas](/azure/active-directory/develop/quickstart-register-app)
+    - [Kliento slaptojo rakto įtraukimas](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
+    - Tolesniuose veiksmuose bus naudojami **Programos (Kliento) ID**, **Kliento slaptasis raktas** ir **Nuomotojo ID**.
 
 > [!NOTE]
 > Šiuo metu palaikomos šalys ir regionai yra Kanada, Jungtinės Valstijos ir Europos Sąjunga (ES).
@@ -64,7 +67,7 @@ Atlikite šiuos veiksmus, kad nustatytumėte „Dataverse“.
 
 1. Prie savo nuomininko pridėkite aptarnavimo principą:
 
-    1. Įdiekite „Azure AD“ „PowerShell“ v2 modulį, kaip aprašyta skyriuje [„Azure Active Directory“ „PowerShell for Graph“ diegimas](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2).
+    1. Įdiekite „Azure AD“ „PowerShell“ v2 modulį, kaip aprašyta skyriuje [„Azure Active Directory“ „PowerShell for Graph“ diegimas](/powershell/azure/active-directory/install-adv2).
     1. Paleiskite šią „PowerShell“ komandą.
 
         ```powershell
@@ -80,7 +83,12 @@ Atlikite šiuos veiksmus, kad nustatytumėte „Dataverse“.
     1. Pasirinkite **Naujas**. Programos ID nustatykite kaip *3022308a-b9bd-4a18-b8ac-2ddedb2075e1*. (Išsaugant keitimus objekto ID įkeliamas automatiškai.) Pavadinimą galima pritaikyti. Pavyzdžiui, jį galima pakeisti į *Atsargų matomumas*. Jums pabaigus, pasirinkite **Įrašyti**.
     1. Pasirinkite **Priskirti vaidmenį**, tada pasirinkite **Sistemos administratorius**. Jei yra vaidmuo pavadinimu **„Common Data Service“ naudotojas**, pasirinkite ir jį.
 
-    Daugiau informacijos žr. skyriuje [Programos naudotojo kūrimas](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+    Daugiau informacijos žr. skyriuje [Programos naudotojo kūrimas](/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+
+1. Jei jūsų „Dataverse” numatytoji kalba nėra **Anglų**:
+
+    1. Eikite į **Išplėstiniai parametrai \> Administravimas \> Kalbos**,
+    1. Pasirinkite **Anglų (LanguageCode=1033)** ir pasirinkite **Taikyti**.
 
 1. Importuokite failą `Inventory Visibility Dataverse Solution.zip`, kuriame yra su „Dataverse“ konfigūracija susiję objektai ir „Power Apps“:
 
@@ -158,12 +166,12 @@ Jei naudojate „Supply Chain Management” 10.0.17 ar senesnę versiją, susisi
 
     Raskite savo LCS aplinkos „Azure“ regioną, o tada įveskite URL. URL forma yra tokia:
 
-    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com/`
+    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com`
 
     Pavyzdžiui, jei esate Europoje, jūsų aplinkos URL bus vienas iš šių:
 
-    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com/`
-    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com/`
+    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com`
+    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com`
 
     Šiuo metu naudojami nurodyti regionai.
 
@@ -212,13 +220,13 @@ Gaukite saugos paslaugų žymą atlikdami šiuos veiksmus:
 
     ```json
     {
-    "token_type": "Bearer",
-    "expires_in": "3599",
-    "ext_expires_in": "3599",
-    "expires_on": "1610466645",
-    "not_before": "1610462745",
-    "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
-    "access_token": "eyJ0eX...8WQ"
+        "token_type": "Bearer",
+        "expires_in": "3599",
+        "ext_expires_in": "3599",
+        "expires_on": "1610466645",
+        "not_before": "1610462745",
+        "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+        "access_token": "eyJ0eX...8WQ"
     }
     ```
 
@@ -255,6 +263,43 @@ Gaukite saugos paslaugų žymą atlikdami šiuos veiksmus:
         "expires_in": 1200
     }
     ```
+
+### <a name="sample-request"></a><a name="inventory-visibility-sample-request"></a>Užklausos pavyzdys
+
+Jūsų nuorodai, čia yra http užklausos pavyzdys, jūs galite naudoti bet kokius įrankius ar kodavimo kalbą šiai užklausai išsiųsti, pavyzdžiui ``Postman``.
+
+```json
+# Url
+# replace {RegionShortName} and {EnvironmentId} with your value
+https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand
+
+# Method
+Post
+
+# Header
+# replace {access_token} with the one get from security service
+Api-version: "1.0"
+Content-Type: "application/json"
+Authorization: "Bearer {access_token}"
+
+# Body
+{
+    "id": "id-bike-0001",
+    "organizationId": "usmf",
+    "productId": "Bike",
+    "quantities": {
+        "pos": {
+            "inbound": 5
+        }  
+    },
+    "dimensions": {
+        "SizeId": "Small",
+        "ColorId": "Red",
+        "SiteId": "1",
+        "LocationId": "11"
+    }
+}
+```
 
 ### <a name="configure-the-inventory-visibility-api"></a><a name="inventory-visibility-configuration"></a>Konfigūruoti Inventoriaus matomumo vieša API
 
@@ -338,7 +383,7 @@ Galite padėti savo laukimo kriterijus pagal būtiną tekstą.
 {
     "filters": {
         "OrganizationId": ["usmf"],
-        "ProductId": ["MyProduct"],
+        "ProductId": ["MyProduct1", "MyProduct2"],
         "LocationId": ["21"],
         "SiteId": ["2"],
         "ColorId": ["Red"]
@@ -350,6 +395,8 @@ Galite padėti savo laukimo kriterijus pagal būtiną tekstą.
     "returnNegative": true
 }
 ```
+
+Šiuo metu iš lauko `filters` tik `ProductId` palaiko kelias reikšmes. Jei `ProductId` yra tuščias masyvas, bus pateiktos visų produktų užklausos.
 
 #### <a name="custom-measurement"></a>Tinkintas matavimas
 

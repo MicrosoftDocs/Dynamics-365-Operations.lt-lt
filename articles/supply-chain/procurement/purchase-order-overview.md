@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45c8b1d0ea12c8e42f3a4383f16105b0b0cfb5c6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0b173f856c79973eec6ce884e7b8e44420c93fc7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825331"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909136"
 ---
 # <a name="purchase-order-overview"></a>Pirkimo užsakymo apžvalga
 
@@ -41,7 +41,7 @@ Toliau nurodytuose straipsniuose pateikiama įvairių PU etapų apžvalga.
 -   [Pirkimo užsakymų kūrimas](purchase-order-creation.md)
 -   [Pirkimo užsakymų tvirtinimas](purchase-order-approval-confirmation.md)
 -   [Produkto gavimas pagal pirkimo užsakymą](product-receipt-against-purchase-orders.md)
--   [Tiekėjo SF apžvalga](../../financials/accounts-payable/vendor-invoices-overview.md)
+-   [Tiekėjo SF apžvalga](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>Pirkimo užsakymų tipai
 Yra trys PU tipai: Kurdami PU turite nurodyti tipą. Numatytąjį naujų užsakymų tipą galite nustatyti puslapyje **Įsigijimo ir šaltinio pasirinkimo parametrai**.
@@ -85,7 +85,7 @@ Laukas **Patvirtinimo būsena** naudojamas, kai naudojamas PU peržiūros proces
 
 [Produkto gavimas pagal pirkimo užsakymą](product-receipt-against-purchase-orders.md)
 
-[Tiekėjo SF apžvalga](../../financials/accounts-payable/vendor-invoices-overview.md)
+[Tiekėjo SF apžvalga](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 
 

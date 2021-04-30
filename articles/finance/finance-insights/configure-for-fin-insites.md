@@ -1,6 +1,6 @@
 ---
-title: Modulio Finansinės įžvalgos konfigūracija (peržiūros versija)
-description: Šioje temoje paaiškinami konfigūravimo veiksmai, kuriuos jums atlikus sistema galės naudotis modulio Finansinės įžvalgos galimybėmis.
+title: Modulio „Finance Insights” konfigūracija (peržiūros versija)
+description: Šioje temoje paaiškinami konfigūravimo veiksmai, kuriuos jums atlikus sistema galės naudotis modulio „Finance Insights” galimybėmis.
 author: ShivamPandey-msft
 ms.date: 11/25/2020
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2443bb057a8b7fe280ed26ecae4e50f671b5e082
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 54117c009cfeb7307938cc6bd43e774ccfedcfb1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818805"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908835"
 ---
-# <a name="configuration-for-finance-insights-preview"></a>Modulio Finansinės įžvalgos konfigūracija (peržiūros versija)
+# <a name="configuration-for-finance-insights-preview"></a>Modulio „Finance Insights” konfigūracija (peržiūros versija)
 
 [!include [banner](../includes/banner.md)]
 
@@ -30,7 +30,7 @@ ms.locfileid: "5818805"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Modulyje Finansinės įžvalgos sujungiamos „Microsoft Dynamics 365 Finance“ ir „Microsoft Dataverse“, „Azure“ bei „AI Builder“ funkcijos, kad jūsų organizacijai būtų suteikiami galingi prognozavimo įrankiai. Šioje temoje paaiškinami konfigūravimo veiksmai, kuriuos jums atlikus sistema galės naudotis modulio Finansinės įžvalgos galimybėmis.
+Modulyje „Finance Insights” sujungiamos „Microsoft Dynamics 365 Finance“ ir „Microsoft Dataverse“, „Azure“ bei „AI Builder“ funkcijos, kad jūsų organizacijai būtų suteikiami galingi prognozavimo įrankiai. Šioje temoje paaiškinami konfigūravimo veiksmai, kuriuos jums atlikus sistema galės naudotis modulio „Finance Insights” galimybėmis.
 
 ## <a name="deploy-dynamics-365-finance"></a>„Dynamics 365 Finance“ diegimas
 
@@ -38,11 +38,11 @@ Aplinkas galite įdiegti atlikdami toliau pateikiamus veiksmus.
 
 1. Portale „Microsoft Dynamics Lifecycle Services“ (LCS) sukurkite arba atnaujinkite „Dynamics 365 Finance“ aplinką. Aplinkai reikalinga programos 10.0.11 versija / 35 arba naujesnis platformos atnaujinimas.
 2. Aplinka turi būti didelio pasiekiamumo (HA) smėlio dėžės aplinka. (Šis aplinkos tipas dar vadinamas 2 pakopos aplinka.) Norėdami gauti daugiau informacijos, žr. [Aplinkos planavimas](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
-3. Jei naudojate „Contoso“ demonstracinius duomenis, jums reikės papildomų duomenų pavyzdžių, kad galėtumėte naudoti kliento mokėjimo prognozių, grynųjų pinigų srautų prognozių ir biudžeto prognozių funkcijas. 
+3. Jeigu naudojate „Contoso” demonstracinius duomenis, jums reikės papildomų duomenų pavyzdžių, kad galėtumėte naudoti kliento mokėjimo prognozių, grynųjų pinigų srautų prognozių ir biudžeto prognozių funkcijas. 
 
 ## <a name="configure-dataverse"></a>Konfigūruoti „Dataverse“
 
-Galite atlikti toliau nurodytus neautomatinius konfigūravimo veiksmus arba galite pagreitinti konfigūracijos procesą, naudodami pateiktą „Windows PowerShell“ scenarijų. Kai „PowerShell“ scenarijus bus baigtas vykdyti, jis jums pateiks reikšmes, naudotinas konfigūruojant modulį Finansinės įžvalgos. 
+Galite atlikti toliau nurodytus neautomatinius konfigūravimo veiksmus arba galite pagreitinti konfigūracijos procesą, naudodami pateiktą „Windows PowerShell“ scenarijų. Kai „PowerShell“ scenarijus bus baigtas vykdyti, jis jums pateiks reikšmes, naudotinas konfigūruojant modulį „Finance Insights”. 
 
 > [!NOTE]
 > Atidarykite „PowerShell“ kompiuteryje ir vykdykite scenarijų. Jums gali reikėti „PowerShell“ 5 versijos. „Microsoft Azure“ CLI parinktis „Išbandykite“ gali neveikti.
@@ -69,7 +69,7 @@ Galite atlikti toliau nurodytus neautomatinius konfigūravimo veiksmus arba gali
     13. Pasirinkite **Ištekliai \> Visi senstelėję parametrai**.
     14. Viršutinėje naršymo juostoje pasirinkite **Parametrai**, tada – **Tinkinimai**.
     15. Pasirinkite **Kūrėjo ištekliai**.
-    16. Lauką **Egzemplioriaus nuorodos informacijos ID** nustatykite kaip „Dataverse“ organizacijos ID reikšmę, kuria pasižymėjote anksčiau.
+    16. Nukopijuokite **„Dataverse” organizacijos ID** reikšmę.
     17. Naršyklės adreso juostoje pasižymėkite „Dataverse“ organizacijos URL. Pavyzdžiui, URL gali būti `https://org42b2b3d3.crm.dynamics.com`.
 
 2. Jei planuojate naudoti grynųjų pinigų srauto prognozių arba biudžeto prognozių funkciją, atlikite tolesnius veiksmus, kad atnaujintumėte savo organizacijos komentavimo limitą bent iki 50 megabaitų (MB).
@@ -282,16 +282,16 @@ catch {
     2. Pasirinkite vartotojo vardą.
     3. Nukopijuokite elemento **Objekto ID** reikšmę.
 
-### <a name="use-azure-cloud-shell-to-set-up-finance-insights-data-lake-resources"></a>„Azure Cloud Shell“ naudojimas modulio Finansinės įžvalgos „Data Lake“ ištekliams nustatyti
+### <a name="use-azure-cloud-shell-to-set-up-finance-insights-data-lake-resources"></a>„Azure Cloud Shell“ naudojimas modulio „Finance Insights” „Data Lake“ ištekliams nustatyti
 
 # <a name="use-a-windows-powershell-script"></a>[„Windows PowerShell“ scenarijaus naudojimas](#tab/use-a-powershell-script)
 
-Pateiktas „Windows PowerShell“ scenarijus, kad būtų galima lengvai nustatyti „Azure“ išteklius, aprašytus temoje [Eksportavimo į „Azure Data Lake“ konfigūravimas](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/configure-export-data-lake). Jei norite nustatyti neautomatiniu būdu, praleiskite šią procedūrą ir vykdykite procedūrą, aprašytą skyriuje [Neautomatinė sąranka](#manual-setup).
+Pateiktas „Windows PowerShell“ scenarijus, kad būtų galima lengvai nustatyti „Azure“ išteklius, aprašytus temoje [Eksportavimo į „Azure Data Lake“ konfigūravimas](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md). Jei norite nustatyti neautomatiniu būdu, praleiskite šią procedūrą ir vykdykite procedūrą, aprašytą skyriuje [Neautomatinė sąranka](#manual-setup).
 
 > [!NOTE]
 > Atlikite tolesnius veiksmus, kad būtų vykdomas „PowerShell“ scenarijus. „Azure“ CLI parinktis „Išbandykite“ arba scenarijaus vykdymas jūsų kompiuteryje gali neveikti.
 
-Atlikite šiuos veiksmus, kad sukonfigūruotumėte „Azure“ naudodami „Windows PowerShell“ scenarijų. Turite turėti teises sukurti „Azure“ išteklių grupę, „Azure“ išteklius ir „Azure AD“ programą. Norėdami gauti informacijos apie reikiamas teises, žr. [„Azure AD“ teisių patikrinimas](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).
+Atlikite šiuos veiksmus, kad sukonfigūruotumėte „Azure“ naudodami „Windows PowerShell“ scenarijų. Turite turėti teises sukurti „Azure“ išteklių grupę, „Azure“ išteklius ir „Azure AD“ programą. Norėdami gauti informacijos apie reikiamas teises, žr. [„Azure AD“ teisių patikrinimas](/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).
 
 1. [„Azure“ portale](https://portal.azure.com) eikite į savo tikslinę „Azure“ prenumeratą. Pasirinkite mygtuką **„Cloud Shell“**, esantį lauko **Ieška** dešinėje.
 2. Pasirinkite **„PowerShell“**.
@@ -345,7 +345,7 @@ Jeigu negalite rasti nė vienos iš ankstesnių programų, bandykite atlikti tol
         - **Našumas** – rekomenduojame pasirinkti **Standartinis**.
         - **Paskyros rūšis** – turite pasirinkti **StorageV2**.
 
-    3. Dialogo lange **Išplėstinės parinktys**, prie parinkties **„Data Lake Storage Gen2“** (funkcija **Hierarchninės vardų sritys**) pasirinkite **Įjungti**. Jei šią funkciją išjungsite, negalėsite naudoti duomenų, kuriuos „Finance and Operations“ programos rašo naudodamos tokias tarnybas, kaip „Power BI“ duomenų srautai.
+    3. Dialogo lange **Išplėstinės parinktys**, prie parinkties **„Data Lake Storage Gen2“** (funkcija **Hierarchinės vardų sritys**) pasirinkite **Įjungti**. Jei šią funkciją išjungsite, negalėsite naudoti duomenų, kuriuos „Finance and Operations“ programos rašo naudodamos tokias tarnybas, kaip „Power BI“ duomenų srautai.
     4. Pasirinkite **Peržiūrėti ir kurti**. Kai diegimas bus baigtas, naujasis išteklius bus rodomas „Azure“ portale.
     5. Pereikite į sukurtą saugyklos paskyrą.
     6. Kairiajame meniu pasirinkite **Prieigos raktai**.
@@ -381,7 +381,7 @@ Jeigu negalite rasti nė vienos iš ankstesnių programų, bandykite atlikti tol
         3. Pasirinkę perduotąsias teises, pasirinkite **vartotojas\_apsimetimas**.
         4. Pasirinkite **Įtraukti teises**.
 
-    5. Programos meniu pasirinkite **Sertifikatai ir slaptieji raktai**, tada atlikite tolesnius veiksmus, kad sukurtumėte raktų saugyklos slaptųjų raktų.
+    5. Programos meniu pasirinkite **Sertifikatai \& slaptieji raktai**, tada atlikite tolesnius veiksmus, kad sukurtumėte raktų saugyklos slaptųjų raktų.
 
         1. Pasirinkite **Naujas kliento slaptasis raktas**.
         2. Lauke **Rakto aprašas** įveskite pavadinimą.
@@ -943,18 +943,7 @@ finally {
 ```
 ---
 
-## <a name="configure-the-entity-store"></a>Objektų saugyklos konfigūravimas
 
-Atlikite tolesnius veiksmus, kad nustatytumėte objektų saugyklą savo „Finance“ aplinkoje.
-
-1. Nueikite į **Sistemos administravimas \> Sąranka \> Sistemos parametrai \> Duomenų ryšiai**.
-2. Parinktį **Įjungti „Data Lake“ integraciją** nustatykite kaip **Taip**.
-3. Nustatykite tolesnius raktų saugyklos laukus.
-
-    - **Programos (kliento) ID** – įveskite anksčiau sukurtą programos kliento ID.
-    - **Programos slaptasis raktas** – įveskite slaptąjį raktą, kurį įrašėte anksčiau sukurtai programai.
-    - **DNS pavadinimas** – domeno vardų sistemos (DNS) pavadinimą galite rasti programos, kurią sukūrėte anksčiau, išsamios informacijos puslapyje.
-    - **Slaptojo rakto pavadinimas** – įveskite **storage-account-connection-string**.
 
 ## <a name="configure-the-data-lake"></a>Duomenų telkinio konfigūravimas
 
@@ -987,10 +976,23 @@ Papildinys bus įdiegtas per kelias minutes.
     | Reikšmė                                                    | aprašymas |
     |----------------------------------------------------------|-------------|
     | CDS organizacijos URL                                     | „Dataverse“ egzemplioriaus „Dataverse“ organizacijos URL. Norėdami rasti šią reikšmę, atidarykite [„Power Apps“ portalą](https://make.powerapps.com), pasirinkite mygtuką **Parametrai** (krumpliaračio simbolis) viršutiniame dešiniajame kampe, pasirinkite **Išplėstiniai parametrai** ir nukopijuokite URL. (URL baigiasi „dynamics.com.“) |
-    | CDS org. ID                                               | „Dataverse“ egzemplioriaus aplinkos ID. Norėdami rasti šią reikšmę, atidarykite [„Power Apps“ portalą](https://make.powerapps.com), pasirinkite mygtuką **Parametrai** (krumpliaračio simbolis) viršutiniame dešiniajame kampe, pasirinkite **Tinkinimai \> Kūrėjo ištekliai \> Egzemplioriaus nurodos informacija** ir nukopijuokite **ID** reikšmę. |
+    | CDS org. ID                                               | „Dataverse“ egzemplioriaus aplinkos ID. Norėdami rasti šią reikšmę, atidarykite [„Power Apps“ portalą](https://make.powerapps.com), pasirinkite mygtuką **Parametrai** (krumpliaračio simbolis) viršutiniame dešiniajame kampe, pasirinkite **Tinkinimai \> Kūrėjo ištekliai \> Egzemplioriaus nuorodos informacija** ir nukopijuokite **ID** reikšmę. |
     | CDS nuomotojo ID (katalogo ID iš AAD)               | „Dataverse“ egzemplioriaus nuomotojo ID. Norėdami rasti šią reikšmę, atidarykite [„Azure“ portalą](https://portal.azure.com), nueikite į **„Azure Active Directory“** ir nukopijuokite elemento **Nuomotojo ID** reikšmę. |
     | Pateikite sistemos administratoriaus vaidmenį turinčio vartotojo objekto ID | Vartotojo „Azure AD“ objekto ID tarnyboje „Dataverse“. Šis vartotojas turi būti „Dataverse“ egzemplioriaus sistemos administratorius. Norėdami rasti šią reikšmę, atidarykite [„Azure“ portalą](https://portal.azure.com), nueikite į **„Azure Active Directory“ \> Vartotojai**, pasirinkite vartotoją, tada dalyje **Tapatybė** nukopijuokite elemento **Objekto ID** reikšmę. |
     | Ar tai numatytoji nuomotojo CDS aplinka?      | Jei „Dataverse“ egzempliorius buvo pirmas sukurtas gamybos egzempliorius, pažymėkite šį žymės langelį. Jei „Dataverse“ egzempliorius buvo sukurtas neautomatiniu būdu, išvalykite šį žymės langelį. |
+
+## <a name="configure-the-entity-store"></a>Objektų saugyklos konfigūravimas
+
+Atlikite tolesnius veiksmus, kad nustatytumėte objektų saugyklą savo „Finance“ aplinkoje.
+
+1. Nueikite į **Sistemos administravimas \> Sąranka \> Sistemos parametrai \> Duomenų ryšiai**.
+2. Parinktį **Įjungti „Data Lake“ integraciją** nustatykite kaip **Taip**.
+3. Nustatykite šiuos raktų saugyklos laukus:
+
+    - **Programos (kliento) ID** – įveskite anksčiau sukurtą programos kliento ID.
+    - **Programos slaptasis raktas** – įveskite slaptąjį raktą, kurį įrašėte anksčiau sukurtai programai.
+    - **DNS pavadinimas** – domeno vardų sistemos (DNS) pavadinimą galite rasti programos, kurią sukūrėte anksčiau, išsamios informacijos puslapyje.
+    - **Slaptojo rakto pavadinimas** – įveskite **storage-account-connection-string**.
 
 ## <a name="feedback-and-support"></a>Atsiliepimai ir palaikymas
 

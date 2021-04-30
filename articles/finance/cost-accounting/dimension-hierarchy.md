@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fdf280031e2ad2356a1a2ef3bba75d1f74c8e4de
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e7cadc20cc8fd52ecc8c4ab5c2f6c9dc62c2f68b
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810179"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897581"
 ---
 # <a name="dimension-hierarchy"></a>Dimensijų hierarchija
 
@@ -55,7 +55,7 @@ Dimensijų hierarchiją galima sukurti šių tipų dimensijoms:
 
 ## <a name="dimension-hierarchy-type"></a>Dimensijų hierarchijos tipas
 
-Kai sukuriate naują dimenijų hierarchiją, turite pasirinkti hierarchijos tipą. Eikite į **Kaštų apskaita** > **Dimensijos** > **Dimensijų hierarchijos**. Spustelėkite **Naujas** ir pasirinkite dimensijų hierarchijos tipą. Galite pasirinkti **Dimensijų kategorizavimo hierarchija** arba **Dimensijų klasifikavimo hierarchija**.
+Kai sukuriate naują dimensijų hierarchiją, turite pasirinkti hierarchijos tipą. Eikite į **Kaštų apskaita** > **Dimensijos** > **Dimensijų hierarchijos**. Spustelėkite **Naujas** ir pasirinkite dimensijų hierarchijos tipą. Galite pasirinkti **Dimensijų kategorizavimo hierarchija** arba **Dimensijų klasifikavimo hierarchija**.
 
 ### <a name="dimension-categorization-hierarchy"></a>Dimensijų klasifikavimo hierarchija
 
@@ -287,7 +287,7 @@ Kaštų apskaitos duomenys turėtų būti prieinami visiems už ataskaitinį vie
 Gali būti, kad visi vadovai galės pasiekti itin slaptus verslo duomenis, pvz., įplaukas ir maržas. Todėl svarbu nustatyti saugą, kad vadovai galėtų matyti tik su jais susijusius ir jiems reikiamus duomenis. Norėdami padėti kontroliuoti duomenų saugumą, nurodote dimensijų hierarchijas.
 
 - Dimensijų hierarchijos naudojamos tik tada, kai dimensijų hierarchijos nuorodoje pasirinkta dimensijos reikšmė yra savikainos objekto dimensija.
-- Vienai prieigos sąrašo hierarchijos savikainos objekto dimensijai galima įjungti tik vieną dimensijų hierrchiją.
+- Vienai prieigos sąrašo hierarchijos savikainos objekto dimensijai galima įjungti tik vieną dimensijų hierarchiją.
 
 **Dimensijų hierarchijos informacija**
 
@@ -331,7 +331,7 @@ Prieigos sąrašo hierarchijos parametrai naudojami norint valdyti toliau nurody
     - Į „Dynamics 365 Finance“ klientą įtrauktų duomenų „Power BI“ vizualizavimai
 
 > [!NOTE] 
-> - Tam, kad prieigos sąrašo hierarchija galėtų turėti įtakos „Power BI“, turi būti susieta prieigos sąrašo hierarchija ir „Power BI“ eilučių lygio sauga. Daugiau informacijos rasite dalyje [Kaštų apskaitos turinio paketo saugos nustatymas](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Tam, kad prieigos sąrašo hierarchija galėtų turėti įtakos „Power BI“, turi būti susieta prieigos sąrašo hierarchija ir „Power BI“ eilučių lygio sauga. Daugiau informacijos rasite dalyje [Kaštų apskaitos turinio paketo saugos nustatymas](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Prieigos sąrašo hierarchija negali padėti užtikrinti, kad duomenys bus eksportuoti į „Excel“. Todėl tą ataskaitų įrankį turi naudoti tik išlaidų buhalteriai ir vadovai, kuriems suteikiama neribota prieiga peržiūrėti duomenis.
 
 

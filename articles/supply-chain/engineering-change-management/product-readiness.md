@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 23ee82922a2103d02a4c1fe0c364fa381c4984c3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3acdde483cb997b4a16a497f145c7c087c6906b5
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842015"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909724"
 ---
 # <a name="product-readiness"></a>Produkto parengtis
 
@@ -39,7 +39,7 @@ Yra trys parengtumo patikrų tipai:
 
 Jums sukūrus naują inžinerijos **produktą**, sistema nustato, ar parengtumo patikros strategija buvo nustatyta inžinerijos produkto kategorijai. (Parengtumo patikros strategijos gali būti taikomos išleistam produkto lygiui, išleistas varianto lygis ir inžinerijos versijos lygiui.) Jei strategija buvo nustatyta, atsitinka tolesni įvykiai:
 
-- Parengumo patikros yra sukuriamos produktui pagal taikomą strategiją.
+- Parengtumo patikros yra sukuriamos produktui pagal taikomą strategiją.
 - Inžinerijos versija yra nustatyta kaip neįjungta siekiant užblokuoti produktą nuo naudojimo. Visos versijos konkrečiam produktui, yra neįjungtos.
 
 Jei naujas **variantas** sukuriamas produktui, sistema tikrina, ar parengtumo patikros buvo nustatytos inžinerijos produkto kategorijoje. (Parengtumo patikros strategijos gali būti taikomos išleistam produkto lygiui, išleistas varianto lygis ir inžinerijos versijos lygiui.) Jei parengtumo patikra buvo nustatyta, atsitinka tolesni įvykiai:
@@ -99,8 +99,8 @@ Kiekviena parengtumo strategija turi parengtumo patikrų rinkinį. Kai parengtum
 Tam, kad dirbtumėte su produkto parengtumo strategijomis, eikite į **Inžinerijos keitimo valdymą \> Nustatymus \> Produkto parengtumo strategijos**. Tuomet atlikite vieną iš šių žingsnių.
 
 - Norėdami sukurti naują strategiją, rinkitės **Naujas** veiksmų juostoje ir tada nustatykite laukelius kaip aprašyta tolesniuose papildomuose skyriuose.
-- Norėdami redaguoti esančią strategiją, sąrašo juostoje ją pasirinkite ir rinkitės **Redaguoti** veiksmų juostoje ir tada nustatykite laukelius kaip aprašyta tolesniuose papildomuose skyriuose.
-- Norėdami panaikinti strategiją, sąrašo juostoje ją pasirinkite ir rinkitės  **Redaguoti** veiksmų juostoje ir tada **Bendri** „FastTab“, įsitikinkite, kad **Įjungta** parinktis nustatyta į *Ne*. Tada rinkitės **Naikinti** veiksmų juostoje.
+- Norėdami redaguoti esančią politiką, sąrašo juostoje ją pasirinkite ir rinkitės **Redaguoti** veiksmų juostoje ir tada nustatykite laukelius kaip aprašyta tolesniuose papildomuose skyriuose.
+- Norėdami panaikinti politiką, sąrašo juostoje ją pasirinkite ir rinkitės  **Redaguoti** veiksmų juostoje ir tada **Bendri** „FastTab“, įsitikinkite, kad **Įjungta** parinktis nustatyta į *Ne*. Tada rinkitės **Naikinti** veiksmų juostoje.
 
 ### <a name="header"></a>Antraštė
 
@@ -109,7 +109,7 @@ Nustatykite tolesnius laukelius produkto parengtumo strategijai.
 | Laukas | aprašymas |
 |---|---|
 | Pavadinimas / vardas ir (arba) pavardė | Įveskite strategijos pavadinimą. |
-| aprašymas | Įveskite strategijos aprašą. |
+| aprašymas | Įveskite politikos aprašą. |
 
 ### <a name="general-fasttab"></a>Bendras „FastTab“ skirtukas
 
@@ -142,7 +142,7 @@ Kiekvienai įtrauktai eilutei, nustatykite tolesnius laukelius.
 | Įmonė | Jei nustatote **Vykdyti** laukelį į *Vienoje bendrovėje*, pasirinkite bendrovę. |
 | Savininko tipas | Pasirinkite, ar pasirengimo patikros, kurias eilutė sukuria turi būti priskirtos asmeniui ar komandai. |
 | Savininkas | Pasirinkite asmenį ar komandą, kuriems bus priskirtos pasirengimo patikros, kurias eilutė sukuria. |
-| Klausimynas | Rinkitės klausimyną, kuris turi būti naudojamas patikrų sąraše. Patikrų sąrašas yra vietinis patikrų sąrašas bendrovėje, kai pasirengimo patikra yra atlikta. Sistema privalo galėti įvertinti, ar patikrų sąrašas yra tinkamai sudarytas. Dėl to, patikrų sąrašą reikia nustatyti taip, kad vertinimas būtų atliktas pagal tinkamus atsakymus. Dėl išsamesnės informacijos apie tai, kaip sukurti klausimynus, žr. [Naudoti klausimynus](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/using-questionnaires) ir su jais susijusias temas. |
+| Klausimynas | Rinkitės klausimyną, kuris turi būti naudojamas patikrų sąraše. Patikrų sąrašas yra vietinis patikrų sąrašas bendrovėje, kai pasirengimo patikra yra atlikta. Sistema privalo galėti įvertinti, ar patikrų sąrašas yra tinkamai sudarytas. Dėl to, patikrų sąrašą reikia nustatyti taip, kad vertinimas būtų atliktas pagal tinkamus atsakymus. Dėl išsamesnės informacijos apie tai, kaip sukurti klausimynus, žr. [Naudoti klausimynus](/dynamicsax-2012/appuser-itpro/using-questionnaires) ir su jais susijusias temas. |
 | Automatinis patvirtinimas | Pasirengimo patikros įrašai apima **Patvirtinta** žymimą laukelį, kuris rodo patvirtinimo būseną. Pasirinkite **Automatinis patvirtinimas** žymimą laukelį patikroms, kurias reikia nustatyti kaip patvirtintas iš karto po jų priskyrimo vartotojams, kurie jas užbaigia. Atžymėkite šį laukelį, kad pareikalautumėte atskiro patvirtinimo kaip papildomo žingsnio. |
 | Privalomas | Pasirinkite šį laukelį patikroms, kurias turi užbaigti paskirtas vartotojas. Privalomos patikros negali būti praleistos. |
 

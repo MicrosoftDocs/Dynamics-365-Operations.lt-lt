@@ -2,11 +2,11 @@
 title: Nuomos parametrų konfigūravimas (peržiūros versija)
 description: Šioje temoje aprašomi modulio Turto nuoma konfigūracijos parametrai, pvz., saugos informacijos ir apskaitos parametrai.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxTable
+ms.search.form: AssetLeasePostingAccounts
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c681f7d356752a2194a86bc7eaef6ceac1e0af6b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 77caf751f9baf4abef534bac97e226484df7acf7
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816105"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881281"
 ---
 # <a name="configure-lease-parameters"></a>Nuomos parametrų konfigūravimas
 
@@ -31,7 +31,7 @@ Keletas konfigūracijos parametrų lemia modulio Turto nuoma veikimą. Šie para
 1. Eikite į **Turto nuoma \> Sąranka \> Turto nuomos parametrai**.
 2. Skirtuke **Nuomos** pasirinkite „FastTab“ **Bendra**.
 
-    Parametras **Leisti neautomatinį klasifikacijos keitimą** nurodo, ar nuomos klasifikaciją galima pakeisti prieš patvirtintant mokėjimo grafiką.
+    Parametras **Leisti neautomatinį klasifikacijos keitimą** nurodo, ar nuomos klasifikaciją galima pakeisti prieš patvirtinant mokėjimo grafiką.
 
     Parametras **Kelių objektų paketas** nurodo, ar galite registruoti į kitus juridinius subjektus iš dabartinio juridinio subjekto. Jei šis parametras įjungtas, galite kurti juridinių subjektų, prie kurių turite prieigą, žurnalo įrašus.
 

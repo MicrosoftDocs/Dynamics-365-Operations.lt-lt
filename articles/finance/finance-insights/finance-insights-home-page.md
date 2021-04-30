@@ -1,6 +1,6 @@
 ---
-title: Finansinių įžvalgų pagrindinis puslapis (peržiūra)
-description: Finansinės įžvalgos suteikia konfigūruojamus ir išplečiamus modelius, kad galėtumėte tiksliai ir sumaniai prognozuoti savo įmonės grynųjų pinigų srautus, numatyti, kada gausite mokėjimą už neapmokėtas gautinas sumas ir bus sugeneruotas biudžeto pasiūlymas, kuris gali pagreitinti jūsų biudžeto sudarymo procesą. Visos šios funkcijos paremtos išmaniaisiais mašininio mokymo modeliais.
+title: „Finance Insights” pagrindinis puslapis (peržiūra)
+description: „Finance Insights” suteikia konfigūruojamus ir išplečiamus modelius, kad galėtumėte tiksliai ir sumaniai prognozuoti savo įmonės grynųjų pinigų srautus, numatyti, kada gausite mokėjimą už neapmokėtas gautinas sumas ir bus sugeneruotas biudžeto pasiūlymas, kuris gali pagreitinti jūsų biudžeto sudarymo procesą. Visos šios funkcijos paremtos išmaniaisiais mašininio mokymo modeliais.
 author: ShivamPandey-msft
 ms.date: 07/20/2020
 ms.topic: article
@@ -15,35 +15,35 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 502205f76f1519153caf6e976ffbb5eb9412c4ea
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1f034017c2cd8736c1e3ce286924bf305961390
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818565"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898065"
 ---
-# <a name="finance-insights-home-page-preview"></a>Finansinių įžvalgų pagrindinis puslapis (peržiūra)
+# <a name="finance-insights-home-page-preview"></a>„Finance Insights” pagrindinis puslapis (peržiūra)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Finansinės įžvalgos suteikia konfigūruojamus ir išplečiamus modelius, kad galėtumėte tiksliai ir sumaniai prognozuoti savo įmonės grynųjų pinigų srautus, numatyti, kada gausite mokėjimą už neapmokėtas gautinas sumas ir bus sugeneruotas biudžeto pasiūlymas, kuris gali pagreitinti jūsų biudžeto sudarymo procesą. Visos šios funkcijos paremtos išmaniaisiais mašininio mokymo modeliais. Kai šios naujos galimybės sujungiamos su tiekėjo mokėjimų ir surinkimų automatizavimu, jos suteikia galingą ir pažangią finansinę sistemą, kuri valdo sprendimų priėmimo procesą ir padeda imtis veiksmų siekiant veiksmingai reaguoti į dabartinius ir numatomus verslo iššūkius.
+„Finance Insights” suteikia konfigūruojamus ir išplečiamus modelius, kad galėtumėte tiksliai ir sumaniai prognozuoti savo įmonės grynųjų pinigų srautus, numatyti, kada gausite mokėjimą už neapmokėtas gautinas sumas ir bus sugeneruotas biudžeto pasiūlymas, kuris gali pagreitinti jūsų biudžeto sudarymo procesą. Visos šios funkcijos paremtos išmaniaisiais mašininio mokymo modeliais. Kai šios naujos galimybės sujungiamos su tiekėjo mokėjimų ir surinkimų automatizavimu, jos suteikia galingą ir pažangią finansinę sistemą, kuri valdo sprendimų priėmimo procesą ir padeda imtis veiksmų siekiant veiksmingai reaguoti į dabartinius ir numatomus verslo iššūkius.
 
-Bandomąją modulio Finansinės įžvalgos peržiūros versiją galima įdiegti Jungtinėse Amerikos Valstijose, Europoje ir Jungtinėje Karalystėje. „Microsoft“ palaipsniui į palaikomų regionų sąrašą įtraukia daugiau regionų.
+Bandomąją modulio „Finance Insights” peržiūros versiją galima įdiegti Jungtinėse Amerikos Valstijose, Europoje ir Jungtinėje Karalystėje. „Microsoft“ palaipsniui į palaikomų regionų sąrašą įtraukia daugiau regionų.
 
-Peržiūros versijos funkcijos gali ir turi būti įjungtos tik 2 pakopos smėlio dėžės aplinkose. Sąrankos ir dirbtinio intelekto (DI) modelių, sukurtų smėlio dėžės aplinkoje, negalima perkelti į gamybos aplinką. Norėdami gauti daugiau informacijos, žr. [„Microsoft Dynamics 365“ peržiūros versijų papildomos naudojimo sąlygos](https://docs.microsoft.com/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
+Peržiūros versijos funkcijos gali ir turi būti įjungtos tik 2 pakopos smėlio dėžės aplinkose. Sąrankos ir dirbtinio intelekto (DI) modelių, sukurtų smėlio dėžės aplinkoje, negalima perkelti į gamybos aplinką. Norėdami gauti daugiau informacijos, žr. [„Microsoft Dynamics 365“ peržiūros versijų papildomos naudojimo sąlygos](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
-Šiame skyriuje pateikiami finansinių įžvalgų naudojimo reikalavimai. Jei įmanoma, pateikiamos nuorodos į papildomus informacijos šaltinius.
+Šiame skyriuje pateikiami „Finance Insights” naudojimo reikalavimai. Jei įmanoma, pateikiamos nuorodos į papildomus informacijos šaltinius.
 
 ### <a name="legal-requirements"></a>Teisiniai reikalavimai
 
-Norėdami pateikti paraišką dėl peržiūros versijos programos, užpildykite [finansinių įžvalgų „Dynamics 365 Finance“ peržiūros sutartį](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUM1c0Uzc1RFpaU1RVTEwxVTNWUERPRThUSy4u).
+Norėdami pateikti paraišką dėl peržiūros versijos programos, užpildykite [„Finance Insights” „Dynamics 365 Finance“ peržiūros sutartį](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUM1c0Uzc1RFpaU1RVTEwxVTNWUERPRThUSy4u).
 
 ### <a name="system-requirements"></a>Sistemos reikalavimai
 
-Norint peržiūrėti finansines įžvalgas, būtina 2 pakopos smėlio dėžės aplinka (kelių langelių). Daugiau informacijos apie aplinkas ieškokite [aplinkos planavime](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/imp-lifecycle/environment-planning).
+Norint peržiūrėti „Finance Insights”, būtina 2 pakopos smėlio dėžės aplinka (kelių langelių). Daugiau informacijos apie aplinkas ieškokite [aplinkos planavime](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 
 ### <a name="version-requirements"></a>Versijos reikalavimai
 
@@ -53,7 +53,7 @@ Norint peržiūrėti finansines įžvalgas, būtina 2 pakopos smėlio dėžės a
 
 Reikia bent vienerių metų kliento SF, kad būtų galima tinkamai išmokyti mašininio mokymosi modelį, kurį naudoja kliento mokėjimo prognozių funkcija.
 
-Galima naudoti demonstracinių sistemų duomenų pavyzdį – jame yra „Contoso“ demonstracinių duomenų rinkinys.
+Galima naudoti pavyzdinius duomenis demonstracinėms sistemoms, kuriose yra „Contoso“ demonstracinių duomenų rinkinys.
 
 ### <a name="role-and-permission-requirements"></a>Vaidmenų ir teisių reikalavimai
 
@@ -66,20 +66,20 @@ Bus atlikti „Microsoft Dynamics 365 Finance“, „Microsoft Dynamics Lifecycl
 
 „Azure“, „Microsoft Dataverse“ ir LCS išteklių kūrimo ir valdymo proceso išmanymas bus naudingas, kai įvykdysite šį procesą.
 
-## <a name="configure-finance-insights"></a>Finansinių įžvalgų konfigūravimas
+## <a name="configure-finance-insights"></a>„Finance Insights” konfigūravimas
 
-Turite atlikti keletą konfigūracijos veiksmų, kad galėtumėte naudoti finansines įžvalgas. Daugiau informacijos apie tai, kaip sukonfigūruoti finansines įžvalgas, žr. [Finansinių įžvalgų konfigūravimas](configure-for-fin-insites.md).
+Turite atlikti keletą konfigūracijos veiksmų, kad galėtumėte naudoti „Finance Insights”. Daugiau informacijos apie tai, kaip sukonfigūruoti finansines įžvalgas, žr. [„Finance Insights” konfigūravimas](configure-for-fin-insites.md).
 
 ## <a name="create-a-data-integrator-project"></a>Duomenų integratoriaus projekto kūrimas
 
 Jums reikės sukurti duomenų integratoriaus projektą, kad būtų galima mašininio mokymo modelio sugeneruotus duomenis siųsti į „Dynamics 365 Finance“. Šio projekto kūrimo veiksmų žr. [Duomenų integratoriaus projekto kūrimas](create-data-integrate-project.md).
 
-## <a name="enable-finance-insights-capabilities"></a>Finansinių įžvalgų galimybių įjungimas
+## <a name="enable-finance-insights-capabilities"></a>„Finance Insights” galimybių įjungimas
 
 Atlikę konfigūravimo veiksmus ir nustatę demonstracinius duomenis, turite įjungti ir nustatyti kiekvieną pajėgumą, kurį planuojate naudoti: kliento mokėjimo prognozes, pinigų srautų prognozes ir biudžeto pasiūlymus.
 
 ### <a name="enable-customer-payment-predictions"></a>Kliento mokėjimo prognozių įjungimas
-Jei naudojate demonstracinius duomenis, kad išbandytumėte kliento mokėjimo prognozes, jums gali tekti importuoti papildomus demonstracinius duomenis, kad galėtumėte sėkmingai sukurti savo DI modelį. Konkrečių demonstracinių duomenų importavimo veiksmų žr. [Mokėjimo prognozių demonstracinių duomenų nustatymas](set-up-demo-data.md).
+Jei naudojate demonstracinius duomenis, kad išbandytumėte kliento mokėjimo prognozes, jums gali tekti importuoti papildomus demonstracinius duomenis, kad galėtumėte sėkmingai sukurti savo DI modelį. 
 
 Norėdami įjungti kliento mokėjimo prognozes, turite atlikti konkrečius veiksmus, kad galėtumėte kurti mašininio mokymo modelį, kuris naudoja jūsų organizacijos duomenis generuodamas prognozes apie tai, kada klientai gali apmokėti neapmokėtas SF ir kada gali būti apmokėtos konkrečios SF. Norėdami gauti daugiau informacijos ir sužinoti konkrečius veiksmus, žr. [Kliento mokėjimo prognozių įjungimas](enable-cust-paymnt-prediction.md). 
 
@@ -93,7 +93,7 @@ Informacijos, kaip nustatyti ir naudoti grynųjų pinigų srautų prognozavimą,
 
 Biudžeto pasiūlymų funkcija naudoja mašininio mokymo modelį kartu su jūsų organizacijos retrospektyviniais duomenimis, kad sugeneruotų biudžeto pasiūlymą. Sugeneruotas pasiūlymas gali padėti pradėti biudžeto sudarymo procesą – tai yra efektyviau nei neautomatinis procesas. Konkrečių šios funkcijos įjungimo veiksmų žr. [Biudžeto pasiūlymų įjungimas](enable-budget-proposal.md). 
 
-## <a name="using-finance-insights-features"></a>Finansinių įžvalgų funkcijų naudojimas
+## <a name="using-finance-insights-features"></a>„Finance Insights” funkcijų naudojimas
 
 ### <a name="using-customer-payment-predictions"></a>Kliento mokėjimo prognozių naudojimas
 

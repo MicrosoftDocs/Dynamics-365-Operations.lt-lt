@@ -13,12 +13,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a95dd6caf01e2c1079d6d9690b52e9ef65d87ea8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0df3f840162cf93c9e9f5f34a22e8b49171ea71f
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839963"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891164"
 ---
 # <a name="import-iso20022-files"></a>ISO20022 failų importavimas
 
@@ -114,7 +114,7 @@ Importuodami formato konfigūraciją iš LCS, jūs importuojate visą konfigūra
  - **Pain.002** – šis formatas bus naudojamas kartu su mokėjimo modelio susiejimu su paskirtimi ISO20022, kad būtų galima importuoti pain.002 failą į tiekėjo mokėjimų perkėlimų žurnalą
  - **Camt.054** – šis formatas bus naudojamas kartu su mokėjimo modelio susiejimu su paskirtimi ISO20022, kad būtų galima importuoti camt.054 failą į tiekėjo mokėjimų perkėlimų žurnalą Ta pati formato konfigūracija bus naudojama kliento mokėjimų importavimo funkcijoms, tačiau skirtingų susiejimas bus naudojamas mokėjimo modelio susiejime su paskirties ISO20022 konfigūracija.
 
-Daugiau informacijos apie elektronines ataskaitas žr. [Elektroninių ataskaitų apžvalga](../../dev-itpro/analytics/general-electronic-reporting.md).
+Daugiau informacijos apie elektronines ataskaitas žr. [Elektroninių ataskaitų apžvalga](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 - [Tiekėjo mokėjimų kūrimas ir eksportavimas naudojant ISO20022 mokėjimo formatą](./tasks/create-export-vendor-payments-iso20022-payment-format.md)

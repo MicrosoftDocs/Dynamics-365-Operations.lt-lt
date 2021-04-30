@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f405fba2b28ccae6b3aadbcf683d050040587cde
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f491cebacad1e289e6b004d573916eaf8ec0e110
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832183"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909554"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.13 versijoje (2020 m. spalio mėn.)
 
@@ -33,23 +33,23 @@ ms.locfileid: "5832183"
 
 ## <a name="features-included-in-this-release"></a>Funkcijos, įtrauktos į šį leidimą
 
-Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinimai susieti su papildoma informacija svetainėje [Leidimų planai](https://docs.microsoft.com/dynamics365/release-plans/). Papildomos nuorodos rodo į papildomus dokumentus, kurie šiuo metu yra prieinami tai funkcijai. Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis.
+Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinimai susieti su papildoma informacija svetainėje [Leidimų planai](/dynamics365/release-plans/). Papildomos nuorodos rodo į papildomus dokumentus, kurie šiuo metu yra prieinami tai funkcijai. Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis.
 
-- [Keisti „inventoriaus uždarymo pašalinimo" terminologiją į „inventoriaus uždarymo panaikinimas“](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse)<br> - Norėdami gauti daugiau informacijos, žr. [inventoriaus uždarymas](../cost-management/inventory-close.md).
+- [Keisti „inventoriaus uždarymo pašalinimo" terminologiją į „inventoriaus uždarymo panaikinimas“](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse)<br> - Norėdami gauti daugiau informacijos, žr. [inventoriaus uždarymas](../cost-management/inventory-close.md).
 
-- [Patvirtinti siunčiamas siuntas naudojant paketines užduotis](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/confirm-outbound-shipments-batch-jobs)<br> - Dėl daugiau informacijos, žr. [Įjungti išorės siuntimų patvirtinimą pakuotės užduočių funkcijai](../warehousing/confirm-outbound-shipments-from-batch-jobs.md).
+- [Patvirtinti siunčiamas siuntas naudojant paketines užduotis](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/confirm-outbound-shipments-batch-jobs)<br> - Dėl daugiau informacijos, žr. [Įjungti išorės siuntimų patvirtinimą pakuotės užduočių funkcijai](../warehousing/confirm-outbound-shipments-from-batch-jobs.md).
 
-- [Daugelio įsigijimo užduoties elementų perdavimas](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/delegation-multiple-purchasing-work-items)<br> - Dėl išsamesnės informacijos, žr. [Darbo eigos darbo elementų perdavimas](../../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md).
+- [Daugelio įsigijimo užduoties elementų perdavimas](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/delegation-multiple-purchasing-work-items)<br> - Dėl išsamesnės informacijos, žr. [Darbo eigos darbo elementų perdavimas](../../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md).
 
-- [Įveskite serijinius numerius rengdami ataskaitą kaip skelbimą baigtu iš užduoties kortelės įrenginio](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/enter-serial-numbers-while-reporting-as-finished-job-card-device)<br> - Dėl daugiau informacijos, žr. [Skelbimas baigtu iš užduoties kortelės įrenginio](../production-control/report-finished-job-device.md).
+- [Įveskite serijinius numerius rengdami ataskaitą kaip skelbimą baigtu iš užduoties kortelės įrenginio](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/enter-serial-numbers-while-reporting-as-finished-job-card-device)<br> - Dėl daugiau informacijos, žr. [Skelbimas baigtu iš užduoties kortelės įrenginio](../production-control/report-finished-job-device.md).
 
-- [Naujos inventoriaus dimensijos produkto versijos sekimui ir padidintiems plėtiniams](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - Norėdami gauti daugiau informacijos, žr. [Produkto dimensijos](../pim/product-dimensions.md).
+- [Naujos inventoriaus dimensijos produkto versijos sekimui ir padidintiems plėtiniams](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - Norėdami gauti daugiau informacijos, žr. [Produkto dimensijos](../pim/product-dimensions.md).
 
-- [Su užsakymo susietos rezervacijos pagrįstos licencijos numeriais](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - Dėl platesnės informacijos, žr. [Lanksti licencijos numerių rezervacija](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation).
+- [Su užsakymo susietos rezervacijos pagrįstos licencijos numeriais](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - Dėl platesnės informacijos, žr. [Lanksti licencijos numerių rezervacija](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation).
 
-- [Darbo paėmimo eilučių apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
+- [Darbo paėmimo eilučių apžvalga](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
 
-- [Gaunamo darbo strategijos patobulinimai](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-policy-enhancements-inbound-work)<br> - Norėdami gauti daugiau informacijos, žr. [Sandėlio politikos](../warehousing/warehouse-work-policies.md).
+- [Gaunamo darbo strategijos patobulinimai](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-policy-enhancements-inbound-work)<br> - Norėdami gauti daugiau informacijos, žr. [Sandėlio politikos](../warehousing/warehouse-work-policies.md).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
@@ -65,7 +65,7 @@ Norėdami gauti daugiau informacijos apie klaidų ištaisymus, įtrauktus į kie
 
 Norite sužinoti apie būsimas ir neseniai išleistas mūsų verslo programų ar platformos galimybes?
 
-Peržiūrėkite [„Dynamics 365“: 2020 m. 2-os leidimo bangos planas](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). Visą išsamią informaciją užfiksavome viename dokumente, kurį galite naudoti planuodami.
+Peržiūrėkite [„Dynamics 365“: 2020 m. 2-os leidimo bangos planas](/dynamics365-release-plan/2020wave2/index). Visą išsamią informaciją užfiksavome viename dokumente, kurį galite naudoti planuodami.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Pašalintos ir pasenusios „Supply Chain Management“ funkcijos
 

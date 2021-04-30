@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: a167e6ba4a3b4161e964e5018944af0901000b01
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4e8d65cc1f946f921523607eff850b29f9ff9bf1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841484"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910166"
 ---
 # <a name="automatic-allocation-of-charges"></a>Automatinis išlaidų paskirstymas
 
@@ -144,7 +144,7 @@ Nustatę jūsų išlaidų kodus, atlikite toliau pateiktus veiksmus, norėdami n
     - **Vieta** ir **Sandėlis** – nurodykite vietą ir sandėlį, jei išlaidos turi būti taikomos tik konkrečiai vietai ir sandėliui.
     - **Išlaikyti** – pažymėkite šį žymės langelį, norėdami po SF išrašymo išlaikyti išlaidų operacijas, kad išlaidos būtų taikomos kiekvieną kartą, kai sukuriate naują pasirinktos kliento sąskaitos SF.
 
-1. **Tik dirbant su pardavimo užsakymais:** jei norite skaičiuoti pakopines išlaidas, žr. [Pakopinės pardavimų užsakymų išlaidos](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders).
+1. **Tik dirbant su pardavimo užsakymais:** jei norite skaičiuoti pakopines išlaidas, žr. [Pakopinės pardavimų užsakymų išlaidos](/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders).
 
 ## <a name="allocate-charges-from-the-header-to-a-line"></a>Antraštės išlaidų paskirstymas eilutėje
 

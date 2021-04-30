@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a1594babd6f27a6af867267d2ae745549355d3c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0a42709621c692bb9a20ade0d1835893f534ec4e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839372"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908787"
 ---
 # <a name="cost-management-home-page"></a>Išlaidų valdymo pagrindinis puslapis
 
@@ -43,7 +43,7 @@ Atsargų apskaitą ir gamybos apskaitą galite atverti iš darbo sričių **Išl
 
 Gamybos apskaita leidžia atlikti [Užduoties užsakymo įkainojimą](production-order-cost-analysis.md) gamybos užsakymuose ir paketiniuose užsakymuose, o taip pat ir „lean manufacturing“ [Įkainojimą atvirkštine tvarka](backflush-costing.md).
 
-[Išlaidų valdymo „Power BI“ turinys](../../dev-itpro/analytics/cost-management-content-pack.md) suteikia vadovams įžvalgų apie atsargas ir nebaigtos gamybos (NG) atsargas bei tai, kaip jose veikia išlaidų srautas. Informaciją taip pat galima naudoti kaip išsamų finansinės ataskaitos papildinį.
+[Išlaidų valdymo „Power BI“ turinys](../../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md) suteikia vadovams įžvalgų apie atsargas ir nebaigtos gamybos (NG) atsargas bei tai, kaip jose veikia išlaidų srautas. Informaciją taip pat galima naudoti kaip išsamų finansinės ataskaitos papildinį.
 
 ### <a name="additional-resources"></a>Papildomi ištekliai
 
@@ -57,7 +57,7 @@ Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eik
 
 #### <a name="blogs"></a>Tinklaraščiai
 
-Nuomonių, naujienų ir kitos informacijos apie išlaidų valdymą galima rasti [„Dynamics AX“ gamybos tyrimų ir plėtros komandos tinklaraštyje](https://blogs.msdn.microsoft.com/axmfg) ir [„Dynamics AX Supply Chain Management“ R&D tyrimų ir plėtros komandos tinklaraštyje](https://blogs.msdn.microsoft.com/dynamicsaxscm). Kai kurie iš šių įrašų parašyti ankstesnei išlaidų valdymo versijai, tačiau dabartinėje versijoje galioja tie patys principai, o procedūros taip pat yra panašios.
+Nuomonių, naujienų ir kitos informacijos apie išlaidų valdymą galima rasti [„Dynamics AX“ gamybos tyrimų ir plėtros komandos tinklaraštyje](/archive/blogs/axmfg/) ir [„Dynamics AX Supply Chain Management“ R&D tyrimų ir plėtros komandos tinklaraštyje](https://blogs.msdn.microsoft.com/dynamicsaxscm). Kai kurie iš šių įrašų parašyti ankstesnei išlaidų valdymo versijai, tačiau dabartinėje versijoje galioja tie patys principai, o procedūros taip pat yra panašios.
 
 #### <a name="task-guides"></a>Užduočių vedliai
 

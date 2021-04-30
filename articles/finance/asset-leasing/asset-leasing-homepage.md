@@ -2,11 +2,11 @@
 title: Modulio Turto nuoma pagrindinis puslapis
 description: Šioje temoje pateikiama modulio Turto nuoma dokumentų apžvalga ir saitai su konkrečiomis temomis.
 author: moaamer
-ms.date: 10/27/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 532601d08d52e9edaf97253df4efd2fc10985dc0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 202a353929fbcd8d81593db155d7bfeebb8f3021
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816153"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898115"
 ---
 # <a name="asset-leasing-home-page"></a>Modulio Turto nuoma pagrindinis puslapis
 
@@ -28,7 +28,9 @@ ms.locfileid: "5816153"
 
 Šioje temoje pateiktos modulio Turto nuoma žinyno temos ir pateikiami saitai su konkrečiomis temomis. 
 
-Turto nuoma yra išplėstinė funkcija, skirta nuomojamo turto finansinių operacijų valdymui, sekimui ir automatizavimui „Microsoft Dynamics 365 Finance”. Turto nuoma atitinka tarptautinius apskaitos standartus (IFRS 16) ir JAV GAAP standartus (ASC 842). Turto nuoma fiksuoja ir apdoroja nuomos informaciją ir padeda generuoti mėnesinius nuomos ciklo žurnalo įrašus – nuo pradinio pripažinimo iki nuomos pablogėjimo ir nutraukimo.  
+Turto nuoma yra išplėstinė funkcija, skirta nuomojamo turto finansinių operacijų valdymui, sekimui ir automatizavimui „Microsoft Dynamics 365 Finance”. Turto nuoma atitinka tarptautinius apskaitos standartus (IFRS 16) ir JAV GAAP standartus (ASC 842). Turto nuoma fiksuoja ir apdoroja nuomos informaciją ir padeda generuoti mėnesinius nuomos ciklo žurnalo įrašus – nuo pradinio pripažinimo iki nuomos pablogėjimo ir nutraukimo.
+
+Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti **Funkcijos valdymas** darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Darbo srityje **Funkcijų valdymas** raskite ir pasirinkite funkciją, pavadinta **Turto nuoma** ir tada spustelėkite **Įjungti dabar** mygtuką.
 
 ## <a name="asset-leasing-topics"></a>Modulio Turto nuoma temos
 Tolesnė tema pateikiama norint konfigūruoti ir naudoti modulį Turto nuoma. 
@@ -82,7 +84,7 @@ Tolesnė tema pateikiama norint konfigūruoti ir naudoti modulį Turto nuoma.
 
 ### <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
 
-Norėdami pamatyti, kokios naujos funkcijos suplanuotos, eikite į tinklalapį [„Microsoft Dynamics 365” leidimo planai](https://go.microsoft.com/fwlink/?linkid=2010158). 
+Norėdami pamatyti, kokios naujos funkcijos suplanuotos, eikite į tinklalapį [„Microsoft Dynamics 365” leidimo planai](/dynamics365/release-plans/). 
 
 ### <a name="blogs"></a>Tinklaraščiai
 

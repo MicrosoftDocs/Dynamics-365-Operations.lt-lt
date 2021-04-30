@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dc53d2c40414993e43ac90ce4f878c7d1c425eb2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ae65afbcaca1f2f390520e1108d8363c3e248c60
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832135"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909358"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10018-may-2021"></a>„Dynamics 365 Supply Chain Management” peržiūros versija 10.0.18 (2021 m. gegužės mėnesis)
 
@@ -35,21 +35,21 @@ ms.locfileid: "5832135"
 
 ## <a name="features-included-in-this-release"></a>Funkcijos, įtrauktos į šį leidimą
 
-Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Norėdami peržiūrėti kiekvienos funkcijos oficialią leidimo datą, vadovaukitės saitais su [leidimų planu](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features).
+Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Norėdami peržiūrėti kiekvienos funkcijos oficialią leidimo datą, vadovaukitės saitais su [leidimų planu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features).
 
-- Automatinis pirkimo užsakymų leidimas (patobulinimas [Sandėlio vykdymui naudojant skalės vienetus debesyje](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud))<br> - Daugiau informacijos rasite[Sandėlio valdymo darbo krūviai debesies ir ribinės skalės vienetams](../cloud-edge/cloud-edge-workload-warehousing.md).
+- Automatinis pirkimo užsakymų leidimas (patobulinimas [Sandėlio vykdymui naudojant skalės vienetus debesyje](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud))<br> - Daugiau informacijos rasite[Sandėlio valdymo darbo krūviai debesies ir ribinės skalės vienetams](../cloud-edge/cloud-edge-workload-warehousing.md).
 
-- [Atsargų efektyvumo tobulinimai ir archyvavimas įmonės mastu](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Daugiau informacijos rasite [Atsargų operacijų archyvavimas](../inventory/archive-inventory-transactions.md)
+- [Atsargų efektyvumo tobulinimai ir archyvavimas įmonės mastu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Daugiau informacijos rasite [Atsargų operacijų archyvavimas](../inventory/archive-inventory-transactions.md)
 
-- [Grąžinimų valdymas](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Daugiau informacijos rasite [Grąžinimų valdymo modulio apžvalga](../rebate-management/rebate-management-overview.md)
+- [Grąžinimų valdymas](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Daugiau informacijos rasite [Grąžinimų valdymo modulio apžvalga](../rebate-management/rebate-management-overview.md)
 
-- Supaprastinta sąsaja, skirta tik darbo pradžios ir pabaigos registravimui, (patobulinimas [Patobulintai gamybos cecho vykdymo sąsajai](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing))<br> - Daugiau informacijos rasite [Gamybos cecho vykdymo sąsajos konfigūravimas](../production-control/production-floor-execution-configure.md).
+- Supaprastinta sąsaja, skirta tik darbo pradžios ir pabaigos registravimui, (patobulinimas [Patobulintai gamybos cecho vykdymo sąsajai](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing))<br> - Daugiau informacijos rasite [Gamybos cecho vykdymo sąsajos konfigūravimas](../production-control/production-floor-execution-configure.md).
 
 Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis. Kai kurios išvardytos funkcijos vis dar yra peržiūros versijos, o kitos funkcijos jau gali būti prieinamos bendrai. 
 
 ## <a name="new-and-updated-documentation-resources"></a>Nauji ir naujinti dokumentų šaltiniai
 
-Neseniai įtraukėme ir reikšmingai atnaujinome tolesnias pagalbos temas. Jos nebūtinai yra susijusios su naujomis funkcijomis įtrauktomis į šį leidimą, kaip aprašyta ankstesniame skyriuje, bet gali padėti jums gauti daugiau iš esančių funkcijų.
+Neseniai įtraukėme ir reikšmingai atnaujinome tolesnes pagalbos temas. Jos nebūtinai yra susijusios su naujomis funkcijomis įtrauktomis į šį leidimą, kaip aprašyta ankstesniame skyriuje, bet gali padėti jums gauti daugiau iš esančių funkcijų.
 
 - [Atsargų matomumo papildinys](../inventory/inventory-visibility.md)
 - [Įkeltų išlaidų modulis](../landed-cost/landed-cost-overview.md)
@@ -70,7 +70,7 @@ Norėdami gauti daugiau informacijos apie klaidų ištaisymus, įtrauktus į kie
 
 Norite sužinoti apie būsimas ir neseniai išleistas mūsų verslo programų ar platformos galimybes?
 
-Peržiūrėkite [„Dynamics 365“: 2021 m. 1-os leidimo bangos planas](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/). Visą išsamią informaciją užfiksavome viename dokumente, kurį galite naudoti planuodami.
+Peržiūrėkite [„Dynamics 365“: 2021 m. 1-os leidimo bangos planas](/dynamics365-release-plan/2021wave1/). Visą išsamią informaciją užfiksavome viename dokumente, kurį galite naudoti planuodami.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Pašalintos ir pasenusios „Supply Chain Management“ funkcijos
 
@@ -81,7 +81,7 @@ Temoje [Pašalintos arba pasenusios funkcijos „Dynamics 365 Supply Chain Manag
 
 Prieš pašalinant iš produkto bet kokią funkciją, pranešimas apie nebenaudojimą bus paskelbtas [Pašalintos arba pasenusios funkcijos „Dynamics 365 Supply Chain Management“](removed-deprecated-features-scm-updates.md) temoje 12 mėnesių prieš pašalinimą.
 
-Atlikus keitimus, kurie paveikia tik kompiliavimo laiką, bet yra dvejatainiškai suderinami su smėlio dėžės ir gamybos aplinka, nebenaudojimo laikas bus trumpesnis nei 12 mėnesių. Paprastai, tai yra funkciniai naujinimai, kuriuos reikia atlikti kompiliatoriui.
+Atlikus keitimus, kurie paveikia tik kompiliavimo laiką, bet yra dvejetainiškai suderinami su smėlio dėžės ir gamybos aplinka, nebenaudojimo laikas bus trumpesnis nei 12 mėnesių. Paprastai, tai yra funkciniai naujinimai, kuriuos reikia atlikti kompiliatoriui.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

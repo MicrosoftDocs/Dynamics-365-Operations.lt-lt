@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d2cbab3177756fbf5df4f07350a6449f0b22e028
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6f60d2e654d37b86d92478b6cd961b917711ef8c
+ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791952"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5857278"
 ---
 # <a name="peripherals"></a>Išorinis įrenginys
 
@@ -66,14 +66,14 @@ Naršymas: Spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Kanalai** &gt
 
 ### <a name="hardware-profile"></a>Aparatūros šablonas
 
-Naršymas: spauskite **„Retail and Commerce“** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA profiliai** &gt; **Aparatūros profiliai**. Aparatūros šablonas yra įrenginių, kurie sukonfigūruoti EKA registrui arba aparatūros stočiai, sąrašas. Aparatūros šabloną galima tiesiogiai priskirti EKA registrui arba aparatūros stočiai.
+Naršymas: spauskite **Mažmeninė prekyba ir komercija** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA profiliai** &gt; **Aparatūros profiliai**. Aparatūros šablonas yra įrenginių, kurie sukonfigūruoti EKA registrui arba aparatūros stočiai, sąrašas. Aparatūros šabloną galima tiesiogiai priskirti EKA registrui arba aparatūros stočiai.
 
 ## <a name="devices-classes"></a>Įrenginių klasės
 Išoriniai EKA įrenginiai paprastai skirstomi į klases. Šiame skyriuje aprašyti įrenginiai, kuriuos palaiko „Modern POS“, ir pateikiama jų apžvalga.
 
 ### <a name="printer"></a>Spausdintuvas
 
-Spausdintuvai apima įprastus EKA kvitų spausdintuvus ir viso puslapio spausdintuvus. Spausdintuvai palaikomi naudojant EKA skirtą objektų susiejimą ir įdėjimą (OEKA) ir „Microsoft Windows“ tvarkyklių sąsajas. Tuo pačiu metu galima naudoti nedaugiau kaip du spausdintuvus. Ši galimybė palaiko scenarijus, kai grynaisiais pinigais atsiskaitančių klientų kvitai spausdinami kvitų spausdintuvais, o klientų užsakymai, kuriuose pateikiama daugiau informacijos, spausdinami viso puslapio spausdintuvu. Kvitų spausdintuvus prie kompiuterio galima tiesiogiai prijungti per USB, prie tinklo prijungti per eternetą arba naudojant „Bluetooth“.
+Spausdintuvai apima įprastus EKA kvitų spausdintuvus ir viso puslapio spausdintuvus. Spausdintuvai palaikomi naudojant „Retail POS” (OEKA) skirtą objektų susiejimą ir įdėjimą ir „Microsoft Windows“ tvarkyklių sąsajas. Tuo pačiu metu galima naudoti nedaugiau kaip du spausdintuvus. Ši galimybė palaiko scenarijus, kai grynaisiais pinigais atsiskaitančių klientų kvitai spausdinami kvitų spausdintuvais, o klientų užsakymai, kuriuose pateikiama daugiau informacijos, spausdinami viso puslapio spausdintuvu. Kvitų spausdintuvus prie kompiuterio galima tiesiogiai prijungti per USB, prie tinklo prijungti per eternetą arba naudojant „Bluetooth“.
 
 ### <a name="scanner"></a>Skaitytuvas
 
@@ -142,6 +142,9 @@ Išorinių įrenginių atveju UWP susieta su „Windows“ įrenginių „prijun
 ### <a name="keyboard-wedge"></a>Klavišinis kredito kortelių skaitytuvas
 
 Klavišinio kredito kortelių skaitytuvo įrenginiai siunčia duomenis į kompiuterį taip, tarsi šie duomenys būtų įvesti klaviatūra. Todėl, pagal numatytuosius parametrus, aktyvus EKA laukas priims nuskaitytus arba perbraukus gautus duomenis. Kai kuriais atvejais, toks būdas lemia tai, kad netinkamo tipo duomenys nuskaitomi į netinkamą lauką. Pvz., brūkšninis kodas gali būti nuskaitytas į tą lauką, kuris skirtas įvesti kredito kortelės duomenis. Daugeliu atveju EKA veikia logika, kuri nustato, ar nuskaityti arba perbraukus gauti duomenys yra brūkšninis kodas, ar perbraukimas kortele. Todėl duomenys tvarkomi tinkamai. Tačiau kai įrenginiai nustatomi kaip OPOS, o ne kaip klaviatūros kredito kortelių skaitytuvo įrenginiai, galima kontroliuoti tų įrenginių duomenis, nes turima daugiau informacijos apie įrenginį, iš kurio gaunami duomenys. Pvz., duomenys iš brūkšninio kodo skaitytuvo automatiškai atpažįstami kaip brūkšninis kodas, o susietas įrašas duomenų bazėje randamas lengviau ir greičiau, nei naudojant bendrąją eilutės iešką, kaip tai daroma naudojant klavišinius kredito kortelių skaitytuvų įrenginius.
+
+> [!NOTE]
+> Kai klaviatūros skaitytuvai yra naudojami EKA, jie turi būti užprogramuoti siųsti grįžimą į eilutės pradžią arba įvykį **Įvesti** po paskutinio nuskaityto simbolio. Jei ši konfigūracija neatlikta, klaviatūros skaitytuvai neveiks tinkamai. Išsamios informacijos apie tai, kaip sujungti grįžimo į eilutės pradžią įvykį, ieškokite jūsų įrenginio gamintojo suteiktoje dokumentacijoje.  
 
 ### <a name="native-printer"></a>Vietinis spausdintuvas
 
@@ -533,7 +536,7 @@ Išsamesnės informacijos apie tai, kaip kurti aparatūros šablonus, žr. [Apib
     -   **Pagrindinio kompiuterio vardas** – pagrindinio kompiuterio, kuriame bus vykdoma aparatūros stotis, pavadinimas.
     -   **Aprašas** – tekstas, kuris padės identifikuoti aparatūros stotį, pvz., **Grąžinimai** arba **Parduotuvės pagrindinė**.
     -   **Prievadas** – aparatūros stoties ir „Modern POS“ kliento ryšiui palaikyti naudojamas prievadas.
-    -   **Aparatūros šablonas** – kiekviena bendrai naudojama aparatūros stotis turi turėti aparatūros šabloną. Aparatūros šablonus gali bendrai naudoti aparatūros stotys, bet jie turi būti susieti su kiekviena aparatūros stotimi. Be to, rekomenduojame naudoti bendrai naudojamas pamainas, kai tą pačią aparatūros stotį naudoja keli įrenginiai. Norėdami nustatyti bendrą pamainą, spauskite **„Retail and Commerce“** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA profiliai** &gt; **Aparatūros profiliai**. Kiekviename bendrai naudojamame aparatūros šablone pasirinkite kasos stalčių ir nustatykite parinktį **Bendrinamas pamainos stalčius** į **Taip**.
+    -   **Aparatūros šablonas** – kiekviena bendrai naudojama aparatūros stotis turi turėti aparatūros šabloną. Aparatūros šablonus gali bendrai naudoti aparatūros stotys, bet jie turi būti susieti su kiekviena aparatūros stotimi. Be to, rekomenduojame naudoti bendrai naudojamas pamainas, kai tą pačią aparatūros stotį naudoja keli įrenginiai. Norėdami nustatyti bendrą pamainą, spauskite **Mažmeninė prekyba ir komercija** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA profiliai** &gt; **Aparatūros profiliai**. Kiekviename bendrai naudojamame aparatūros šablone pasirinkite kasos stalčių ir nustatykite parinktį **Bendrinamas pamainos stalčius** į **Taip**.
     -   **EFT EKA numeris** – EFT terminalo ID, naudojamas, kai siunčiami EFT įgaliojimai. Šį ID pateikia kredito kortelių procesorius.
     -   **Paketo pavadinimas** – aparatūros stoties paketas, naudojamas įdiegiant aparatūros stotį.
 

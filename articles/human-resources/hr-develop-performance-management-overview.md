@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d5051bbf9e550add6a0cfc5e23f3aeb7b379ef03
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9a285e3c60df713ceaee1fae72b2a1d54fa5c431
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5789641"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890752"
 ---
 # <a name="performance-management"></a>Našumo valdymas
 
@@ -93,10 +93,10 @@ Be to, galite naudoti skyrių **Kompetencijos** norėdami aptarti, peržiūrėti
 
 Galite sukurti naujų apžvalgų, pagrįstų sukurtais šablonais. Pavyzdžiui, galite turėti šabloną individualioms, tobulėjimo planų arba periodinėms apžvalgoms. Kai kuriate naują apžvalgą, galite pasirinkti šabloną.
 
-Norėdami spausdinti atsiliepimus, pasirinkite mygtuką **Spaudinio peržiūra**. Jei puslapyje **Peržiūra** nematote mygtuko, įsitikinkite, kad įgalinote funkciją darbo srityje **Funkcijų valdymas**. Daugiau informacijos apie funkcijų valdymą žr. [Funkcijos valdymo apžvalga](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Norėdami spausdinti atsiliepimus, pasirinkite mygtuką **Spaudinio peržiūra**. Jei puslapyje **Peržiūra** nematote mygtuko, įsitikinkite, kad įgalinote funkciją darbo srityje **Funkcijų valdymas**. Daugiau informacijos apie funkcijų valdymą žr. [Funkcijos valdymo apžvalga](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 > [!NOTE]
-> Galimybė atspausdinti vykdymo peržiūras galima ti žmogiškuosiuose ištekliuose. Jos nėra „Dynamics 365 Finance“.
+> Galimybė atspausdinti vykdymo peržiūras galima tik žmogiškuosiuose ištekliuose. Jos nėra „Dynamics 365 Finance“.
 
 ## <a name="components-you-can-include-in-performance-reviews"></a>Komponentai, kuriuos galite įtraukti į našumo apžvalgas
 

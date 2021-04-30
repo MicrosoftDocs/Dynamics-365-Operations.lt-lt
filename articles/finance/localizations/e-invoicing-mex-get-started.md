@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2f5dd1d6bc520c9f5349c77dfcabdf2d538881ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c1112ba8394afb3aa9c9b4f68249524498bd8b32
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840057"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894888"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Darbo su elektroninių SF priedu Meksikai pradžia
 
@@ -86,7 +86,7 @@ Galite sukurti naują versiją, jei, pavyzdžiui, reikia atnaujinti URL. Daugiau
 
     ![Puslapio Formato dizaino įrankis atidarymas](media/e-Invoicing-services-get-started-MEX-Configuration-ER-format-designer.png)
 
-3. Norėdami redaguoti ir peržiūrėti ER formato failo konfigūracijas, naudokite puslapį **Formato dizaino įrankis**. Daugiau informacijos žr. [Elektroninių dokumentų konfigūracijų kūrimas](../../dev-itpro/analytics/electronic-reporting-configuration.md).
+3. Norėdami redaguoti ir peržiūrėti ER formato failo konfigūracijas, naudokite puslapį **Formato dizaino įrankis**. Daugiau informacijos žr. [Elektroninių dokumentų konfigūracijų kūrimas](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md).
 
     ![Formato dizaino įrankio puslapis](media/e-Invoicing-services-get-started-MEX-ER-format-designer.png)
 
@@ -161,7 +161,7 @@ Norėdami nustatyti elektroninių SF išrašymo priedą „Finance”, atlikite 
 ### <a name="import-the-er-data-model-er-data-model-mapping-and-context-configurations-for-cfdi-invoices"></a>ER duomenų modelio, ER duomenų modelio susiejimo ir konteksto konfigūracijų, reikalingų CFDI SF, importavimas
 
 1. Prisijunkite prie „Finance“.
-2. Darbo srities **Elektroninės ataskaitos** dalyje **Konfigūracijų teikėjai** pasirinkite plytelę **„Microsoft”**. Įsitikinkite, kad šis konfigūracijos teikėjas nustatytas kaip **Aktyvus**. Daugiau informacijos apie tai, kaip nustatyti teikėją į **Aktyvus**, žr. [Konfigūracijų teikėjų kūrimas ir jų pažymėjimas kaip aktyviais](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
+2. Darbo srities **Elektroninės ataskaitos** dalyje **Konfigūracijų teikėjai** pasirinkite plytelę **„Microsoft”**. Įsitikinkite, kad šis konfigūracijos teikėjas nustatytas kaip **Aktyvus**. Daugiau informacijos apie tai, kaip nustatyti teikėją į **Aktyvus**, žr. [Konfigūracijų teikėjų kūrimas ir jų pažymėjimas kaip aktyviais](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Pasirinkite **Saugyklos**.
 4. Pasirinkite **Visuotiniai ištekliai \> Atidaryti**.
 5. Importuokite **SF modelis**, **SF modelio susiejimas**, **CFDI SF formatas (MX)**, **CFDI SF atšaukimo užklausos formatas (MX)** ir **CFDI SF atšaukimo formatas (MX)**.
@@ -215,7 +215,7 @@ CFDI SF apdorojimo metu „Finance” naudodami elektroninių SF išrašymo prie
 Po to, kai įjungiate funkciją **Konfigūruojamas elektroninių SF išrašymo priedo integravimas**, proceso **Elektroninės SF eksportavimas / importavimas** (**Gautinos sumos \> SF \> El. SF**), skirto CFDI SF pateikti, nebegalima naudoti. Jis pakeičiamas nauju procesu pavadinimu **Pateikti elektroninius dokumentus**.
 
 > [!NOTE]
-> Prieš pradėdami naudoti naują procesą **Pateikti elektroninius dokumentus**, įsitikinkite, kad atliktas reikiamas Meksikos el. SF nustatymas. Daugiau informacijos žr. [CFDI 3.3 maketo versija](https://docs.microsoft.com/dynamics365/finance/localizations/latam-mex-cfdi-3-3).
+> Prieš pradėdami naudoti naują procesą **Pateikti elektroninius dokumentus**, įsitikinkite, kad atliktas reikiamas Meksikos el. SF nustatymas. Daugiau informacijos žr. [CFDI 3.3 maketo versija](./latam-mex-cfdi-3-3.md).
 
 1. Eikite į **Organizacijos administravimas \> Laikotarpio \> Elektroniniai dokumentai \> Pateikti elektroninius dokumentus**.
 2. Pirmą kartą pateikę bet kokį dokumentą, visada nustatykite parinktį **Iš naujo pateikti dokumentus** į **Ne**. Jei turite iš naujo pateikti dokumentą naudodami paslaugą, nustatykite šią parinktį į **Taip**.

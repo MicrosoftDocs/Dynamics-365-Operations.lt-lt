@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11604389ff598c70e15709c9e3e04b6ec436f6a6
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 64ce34cf38e4d6f37d9d417b70843a8308a408a8
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747206"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890362"
 ---
 # <a name="workflow-faq"></a>DUK apie darbo eigas
 
@@ -45,9 +45,9 @@ Toliau pateikiamos kelios pagrindinės sritys, susijusios su įspėjimų įtrauk
     - Būsimame naujinime veiksmų centro pranešimą, kad vartotojui būtų priskirtas darbo eigos darbo elementas. 
 - Pranešimų įtraukimas į darbo eigas
     - Galima sukurti veiksmų centro pranešimų konkretiems vartotojams, pvz., darbo eigos pranešimų, sukurtų naudojant X++.
-    - [Darbo eigose yra verslo įvykių](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow), kuriuos klientas gali naudoti norėdamas suaktyvinti srautus su ieškomais pranešimais.   
+    - [Darbo eigose yra verslo įvykių](../../dev-itpro/business-events/business-events-workflow.md), kuriuos klientas gali naudoti norėdamas suaktyvinti srautus su ieškomais pranešimais.   
 
-Apibendrinant, jei vartotojas negauna tinkamo pranešimo iš veiksmų centro, kai jam priskiriamas darbo eigos darbo elementas, naudokite [darbo eigos verslo įvykius](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) programoje „Microsoft Power Automate, kad pateiktumėte papildomų arba kitokių pranešimų.
+Apibendrinant, jei vartotojas negauna tinkamo pranešimo iš veiksmų centro, kai jam priskiriamas darbo eigos darbo elementas, naudokite [darbo eigos verslo įvykius](../../dev-itpro/business-events/business-events-workflow.md) programoje „Microsoft Power Automate, kad pateiktumėte papildomų arba kitokių pranešimų.
 
 ## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>Kodėl nepavyksta paleisti darbo eigos rengyklės, naudojant AD FS?
 Kai darbo eigos rengyklė veikia naudojant „Active Directory“ susiejimo tarnybą (AD FS) atnaujintoje aplinkoje, gali nepavykti paleisti rengyklę. Šiuo atveju įsitikinkite, kad URL "https://dynamicsaxworkfloweditor/" įtrauktas į ypatybę **„Microsoft Dynamics 365 for Operations“ (vietinė) - Darbo eiga - Vietinė programa** ADFS parametruose.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3d6f2f69b7093e5408b016f4a69792b28c70f57f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6a2b581c8ae52f4c379e8e511dc898a8d106d149
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824683"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908065"
 ---
 # <a name="accruing-subscriptions"></a>Kaupimo abonementai 
 
@@ -41,7 +41,7 @@ Jei priskyrėte abonemento sumas, kurioms išrašytos SF, galite naudoti du meto
 
   - Galima nustatyti, kad sukauptos sumos būtų atšauktos tą dieną, kai užregistruojama kredito pažyma, arba tikrąją kaupimo registravimo dieną.
 
-Daugiau informacijos rasite [Abonemento parametrai (forma)](https://technet.microsoft.com/library/aa619615.aspx).
+Daugiau informacijos rasite [Abonemento parametrai (forma)](/dynamicsax-2012//subscription-parameters-form).
 
 ## <a name="setup-requirements"></a>Nustatyti reikalavimus
 

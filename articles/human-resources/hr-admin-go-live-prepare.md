@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2f6dbcbd92a99699ce8d7e91c1a7e89a6063035f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: df2c55a8a69efa20c6d8c41e97c9e1f80ee1640d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795146"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892758"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Rengimasis „Human Resources” įgyvendinimo pradžiai
 
@@ -43,7 +43,7 @@ Toliau pateiktoje lentelėje pateikiami visi proceso veiksmai, numatoma trukmė 
 | 2 | Kontrolinio sąrašo užbaigimas ir siuntimas | Baigus vartotojo priėmimo testavimą (UAT) | Partneris / klientas | Sekite instrukcijas, pateiktas [„FastTrack” įgyvendinimo įvertinimas](hr-admin-go-live-prepare.md#fasttrack-go-live-assessment). |
 | 3 | Projekto įvertinimas („FastTrack”) | „FastTrack” architektas * | Architektas pateikia vertinimą po kontrolinio sąrašo gavimo ir tęsia peržiūrą, kol klausimai paaiškinami ir mažinimo veiksmai užbaigiami, jei jie taikomi. |
 | 4 | Projekto seminaras („FastTrack”) | „FastTrack” architektas * | |
-| 5 | Duomenų paketų importavimai | Priklauso nuo projekto | Partneris / klientas | Sekite instrukcijas, pateiktas [Duomenų valdymo apžvalga](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).|
+| 5 | Duomenų paketų importavimai | Priklauso nuo projekto | Partneris / klientas | Sekite instrukcijas, pateiktas [Duomenų valdymo apžvalga](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).|
 | 6 | Gamybos parengimas | Užbaigus visus ankstesnius veiksmus | Partneris / klientas | Partneris / klientas gali perimti gamybos aplinkos valdymą.|
 | 7 | Perėjimo veiklos | Priklauso nuo projekto | Partneris / klientas | |
 | 8 | Įgyvendinimo pradžia | Priklauso nuo projekto | Klientas | |
@@ -66,7 +66,7 @@ UAT etapo metu turite tikrinti visus jūsų įdiegtus verslo procesus ir atliktu
 
 - Rekomenduojame, kad jūsų UAT procesas prasidėtų su švaria ir šviežia aplinka, kurioje duomenys iš jūsų GOLD konfigūracijos būtų nukopijuoti į aplinką prieš UAT proceso pradžią. Rekomenduojame jums naudoti gamybos aplinką, nes jūsų GOLD aplinka iki jūsų paleidimo į internetą, į kurią taiko aplinka, tampa gamyba.
 - Testavimo atvejai apima visą reikalavimų aprėptį. 
-- Testuokite naudodami perkeltus duomenis. Šiuose duomenyse turi būti pagrindiniai duomenys, pvz., darbuotojai, užduotys ir pareigos. Taip pat įtraukite pradinius balansus, pvz., atostogų ir neatvykimų kaupimus. Galiausiai įtraukite atidarytas operacijas, pvz., dabartinių išmokų registravimus. Atlikite testavimą naudodami visų tipų duomenis, net jei duomenų rinkiniai nėra baigti. 
+- Testuokite naudodami perkeltus duomenis. Tai turėtų apimti tokius duomenis, kaip darbuotojai, užduotys ir pareigos. Taip pat įtraukite pradinius balansus, pvz., atostogų ir neatvykimų kaupimus. Galiausiai įtraukite atidarytas operacijas, pvz., dabartinių išmokų registravimus. Atlikite testavimą naudodami visų tipų duomenis, net jei duomenų rinkiniai nėra baigti. 
 - Testuokite naudodami teisingus saugos vaidmenis (numatytuosius ir pasirinktinius vaidmenis), priskirtus vartotojams. 
 - Įsitikinkite, kad sprendimas atitinka bet kokius konkrečios įmonės ir konkrečios pramonės šakos reglamentavimo reikalavimus. 
 - Dokumentuokite visas funkcijas ir gaukite kliento patvirtinimą bei išsiregistravimą. 
@@ -86,7 +86,7 @@ Prieš jūsų paleidimą į internetą, turite atlikti netikrą paleidimą sieki
 
 ## <a name="fasttrack-go-live-assessment"></a>„FastTrack” įgyvendinimo įvertinimas
 
-Klientai, galintys naudoti „FastTrack” ir dirbantys su „FastTrack” sprendimų architektu, atliks įgyvendinimo apžvalgą su „Microsoft FastTrack”. Daugiau informacijos žr.  [„Microsoft FastTrack“](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview). 
+Klientai, galintys naudoti „FastTrack” ir dirbantys su „FastTrack” sprendimų architektu, atliks įgyvendinimo apžvalgą su „Microsoft FastTrack”. Daugiau informacijos žr.  [„Microsoft FastTrack“](/dynamics365/fasttrack/). 
 
 Likus aštuonioms savaitėms iki įgyvendinimo pradžios, „FastTrack” komanda paprašys jūsų užpildyti [įgyvendinimo kontrolinį sąrašą](https://go.microsoft.com/fwlink/?linkid=2146013).
 
