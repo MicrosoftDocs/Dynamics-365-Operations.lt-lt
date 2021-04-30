@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 3c4382336e53bc09c51dd845446af9a20a2ba8af
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c43b45c7919be4673224b0f83606c390d0bb6265
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794474"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891083"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Padalinių kūrimas ir jų įtraukimas į padalinių hierarchiją
 
@@ -53,7 +53,7 @@ Norėdami padalinį įtraukti į padalinių hierarchiją, atlikite toliau nurody
 6.  Kai būsite pasiruošę, hierarchijos dizaino įrankyje spustelėkite **Publikuoti**. Galite įvesti įsigaliojimo datą, nurodančią, kada hierarchija turėtų būti publikuojama. Pvz., norėdami naują padalinį įtraukti kitų kalendorinių metų pradžioje, nustatykite įsigaliojimo datą kaip naujų kalendorinių metų sausio 1 d. Hierarchijos pakeitimai įsigalios tą dieną.
 
 ## <a name="steps-for-creating-a-department"></a>Skyriaus kūrimo veiksmai
-Nuoseklios naujo skyriaus kūrimo procedūros žr. straipsnyje [Naujų skyrių nustatymas](../fin-and-ops/hr/tasks/define-new-departments.md). 
+Nuoseklios naujo skyriaus kūrimo procedūros žr. straipsnyje [Naujų skyrių nustatymas](./hr-personnel-define-departments.md). 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

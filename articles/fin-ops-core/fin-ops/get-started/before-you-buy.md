@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 648a793b15df5597c0c4c6f2f972e28bb0ce79a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ef556c44ac0241f19e9e1891fb3ce32294667827
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750919"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909868"
 ---
 # <a name="before-you-buy"></a>Prieš perkant
 
@@ -86,7 +86,7 @@ Papildomus išteklius žr.:
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Ketvirtas veiksmas: sužinokite apie „FastTrack“ ir suplanuokite diegimą
 
-„Microsoft FastTrack for Dynamics 365“ yra sėkmingai veikianti mūsų kliento paslauga, sukurta siekiant padėti pereiti prie „Dynamics 365“ sklandžiai ir patikimai, kad galėtumėte greičiau sukurti verslo vertę. Dalyvaudami „FastTrack“ programoje gausite patarimų dėl geriausios praktikos ir kaip planuoti, kad išvestys būtų sėkmingos. Taip pat sužinosite būdų, kaip įgalinti naujus vartotojus ir išplėsti galimybes dirbant savo tempu. Be to, turėsite prieigą prie „Microsoft“ inžinerijos išteklių, skirtų padėti paversti „Dynamics 365“ patirtį tikra sėkme. Daugiau informacijos žr. [„Microsoft FastTrack“](fasttrack-dynamics-365-overview.md).
+„Microsoft FastTrack for Dynamics 365“ yra sėkmingai veikianti mūsų kliento paslauga, sukurta siekiant padėti pereiti prie „Dynamics 365“ sklandžiai ir patikimai, kad galėtumėte greičiau sukurti verslo vertę. Dalyvaudami „FastTrack“ programoje gausite patarimų dėl geriausios praktikos ir kaip planuoti, kad išvestys būtų sėkmingos. Taip pat sužinosite būdų, kaip įgalinti naujus vartotojus ir išplėsti galimybes dirbant savo tempu. Be to, turėsite prieigą prie „Microsoft“ inžinerijos išteklių, skirtų padėti paversti „Dynamics 365“ patirtį tikra sėkme. Daugiau informacijos žr. [„Microsoft FastTrack“](/dynamics365/fasttrack/).
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Jei naujinate iš „Dynamics AX 2012“ arba pereinate iš „AX 2009“
 

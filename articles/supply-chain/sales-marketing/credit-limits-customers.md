@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fbf5ed3d0f83619746ae66ae7008940f4600060c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6aede26fb7d371806624742792ded5be23ad0e51
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824923"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908089"
 ---
 # <a name="credit-limits-for-customers"></a>Klientų kredito limitai
 
@@ -90,7 +90,7 @@ Informaciją, su kuria reikia lyginti kredito limitą, nurodykite naudodami form
 
 **Kur naudojama informacija apie kliento kredito likutį?**
 
-Informacija apie kliento balansą ir likusią kredito sumą apskaičiuojama bei saugoma kuriant skirstymo pagal terminus momentinę kopiją ir rodoma formoje **Mokėjimų priežiūra**. Kol nebus sukurta nauja skirstymo pagal terminus momentinė kopija, į sumas, rodomas formoje **Mokėjimų priežiūra**, gali būti įtrauktos ne visos operacijos. Norėdami gauti daugiau informacijos, žr. [Mokėjimų priežiūra ir kreditas modulyje Gautinos sumos](https://technet.microsoft.com/library/hh209221.aspx).
+Informacija apie kliento balansą ir likusią kredito sumą apskaičiuojama bei saugoma kuriant skirstymo pagal terminus momentinę kopiją ir rodoma formoje **Mokėjimų priežiūra**. Kol nebus sukurta nauja skirstymo pagal terminus momentinė kopija, į sumas, rodomas formoje **Mokėjimų priežiūra**, gali būti įtrauktos ne visos operacijos. Norėdami gauti daugiau informacijos, žr. [Mokėjimų priežiūra ir kreditas modulyje Gautinos sumos](/dynamicsax-2012/appuser-itpro/collections-and-credit-in-accounts-receivable).
 
 Atsižvelgiant į pasirinktus dokumentus, informacija apie kliento balansą ir likusią kredito sumą apskaičiuojama atnaujinant pardavimo užsakymus, važtaraščius ir kliento sąskaitas faktūras. Jei dokumento, su kuriuo dirbate, suma viršija kredito limitą, rodomas pranešimas.
 

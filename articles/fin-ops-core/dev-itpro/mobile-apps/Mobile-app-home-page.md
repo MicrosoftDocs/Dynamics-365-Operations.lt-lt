@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: cda743983f84edf0fa8c513013de812698cbb9ba
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9707a1f8a90a615dbc8f34f4bb1f05d34d8fe7f3
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748226"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908237"
 ---
 # <a name="mobile-app-home-page"></a>Mobiliosios programos pagrindinis puslapis
 
@@ -78,12 +78,12 @@ Tolesnėje iliustracijoje parodytas mobiliųjų darbo sričių, kurias teikia �
 <td>1</td>
 <td>Sistemos administratorius</td>
 <td>Programos „Finance and Operations“ diegimas jūsų organizacijoje.</td>
-<td><ul><li>Jei dar neįdiegėte kokios nors „Microsoft Dynamics 365“ versijos, žr. <a href="../deployment/deploy-demo-environment.md">Visuotinis demonstracinės aplinkos diegimas</a>.</li><li>Norėdami peržiūrėti mobiliųjų sričių, kurias galima naudoti, sąrašą, žr. <a href="mobile-workspaces-released.md">Neseniai išleistos mobiliosios darbo sritys</a>.</li></ul></td>
+<td><ul><li>Jei dar neįdiegėte&#39;kokios nors „Microsoft Dynamics 365“ versijos, žr. <a href="../deployment/deploy-demo-environment.md">Visuotinis demonstracinės aplinkos diegimas</a>.</li><li>Norėdami peržiūrėti mobiliųjų sričių, kurias galima naudoti, sąrašą, žr. <a href="mobile-workspaces-released.md">Neseniai išleistos mobiliosios darbo sritys</a>.</li></ul></td>
 </tr>
 <tr class="even">
 <td>2</td>
 <td>Sistemos administratorius</td>
-<td><strong>Jei naudojate „Microsoft Dynamics 365 for Operations“ 1611 versiją:</strong> atsisiųskite ir įdiekite KB, kurie įgalina „Microsoft“ teikiamas mobiliąsias darbo sritis.</td>
+<td><strong>Jei&#39;naudojate „Microsoft Dynamics 365 for Operations“ 1611 versiją:</strong> atsisiųskite ir įdiekite KB, kurie įgalina „Microsoft“ teikiamas mobiliąsias darbo sritis.</td>
 <td>Daugiau informacijos ieškokite šiose temose:
 <ul>
 
@@ -91,8 +91,8 @@ Tolesnėje iliustracijoje parodytas mobiliųjų darbo sričių, kurias teikia �
 <li><a href="../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">Turimų atsargų mobilioji darbo sritis</a></li>
 <li><a href="../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">Pardavimo užsakymų mobilioji darbo sritis</a></li>
 <li><a href="../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">Tiekėjo bendradarbiavimo mobilioji darbo sritis</a></li>
-<li><a href="../../../finance/project-management/project-time-entry-mobile-workspace.md">Projekto laiko įrašų mobilioji darbo sritis</a></li>
-<li><a href="../../../finance/expense-management/expense-management-mobile-workspace.md">Išlaidų valdymo mobilioji darbo sritis</a></li>
+<li><a href="/dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace">Projekto laiko įrašų mobilioji darbo sritis</a></li>
+<li><a href="/dynamics365/project-operations/prod-exp/expense-management-mobile-workspace">Išlaidų valdymo mobilioji darbo sritis</a></li>
 
 </ul></td>
 </tr>

@@ -2,11 +2,11 @@
 title: Darbo su Turto nuoma pradžia
 description: Šioje temoje aprašoma funkcija Turto nuoma ir nurodomi veiksmai, reikalingi norint sukurti turto nuomą ir peržiūrėti tos nuomos informaciją.
 author: moaamer
-ms.date: 10/16/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,18 +15,20 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6d5b51e89ec0e64182671872573ec0140939a836
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8141badab2561707e2055d7084323ed4310d2421
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814133"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892438"
 ---
 # <a name="asset-leasing-get-started"></a>Darbo su Turto nuoma pradžia
 
 [!include [banner](../includes/banner.md)]
 
 Šioje temoje aprašoma funkcija Turto nuoma ir nurodomi veiksmai, reikalingi norint sukurti turto nuomą ir peržiūrėti tos nuomos informaciją. Temoje taip pat apibrėžiami terminai, naudojami vartotojo sąsajoje ir dokumentacijoje. Turto nuoma yra išplėstinė funkcija, skirta nuomojamo turto finansinių operacijų valdymui, sekimui ir automatizavimui „Microsoft Dynamics 365 Finance”. Turto nuoma atitinka tarptautinius apskaitos standartus (IFRS 16) ir JAV GAAP standartus (ASC 842). Turto nuoma fiksuoja ir apdoroja nuomos informaciją ir padeda generuoti mėnesinius nuomos ciklo žurnalo įrašus – nuo pradinio pripažinimo iki nuomos pablogėjimo ir nutraukimo. Turto nuoma sklandžiai integruojama su kitais „Dynamics 365 Finance” komponentais, įskaitant modulius Ilgalaikis turtas, Mokėtinos sumos ir Didžioji knyga.
+
+Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti **Funkcijos valdymas** darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Darbo srityje **Funkcijų valdymas** raskite ir pasirinkite funkciją, pavadinta **Turto nuoma** ir tada spustelėkite **Įjungti dabar** mygtuką.
 
 Daugiau informacijos apie apskaitos standartus žr. standartinėje IFRS 16 ir JAV GAAP ASC 842 dokumentacijoje.
 
@@ -62,7 +64,7 @@ Toliau pateiktoje diagramoje vaizduojama nuomos knyga, nuoma, apskaičiuotas mok
 
 - **Apskaičiuota skolinimosi palūkanų norma** – tai palūkanų norma, kuri bus naudojama dabartinei grynajai vertei apskaičiuoti. Sistema naudos numanomą normą, jei ji apibrėžiama nuomos duomenyse, kad apskaičiuotų dabartinę grynąją nuomos mokesčių vertę. Jei numanoma norma nenurodyta, sistema naudos apskaičiuotą skolinimosi palūkanų normą.
 
-- **Anuiteto tipas** – tai nuomos mokestis, kurį reikia sumokėti arba mokėjimo laikotarpio pradžioje, arba laikotarpio pabaigoje. Tai gali būti išanksinis mokėjimas ar laikotarpio pradžios anuitetas (nuomos mokėjimo laikotarpio pradžioje) arba įprastas anuitetas (nuomos mokėjimo laikotarpio pabaigoje).
+- **Anuiteto tipas** – tai nuomos mokestis, kurį reikia sumokėti arba mokėjimo laikotarpio pradžioje, arba laikotarpio pabaigoje. Tai gali būti išankstinis mokėjimas ar laikotarpio pradžios anuitetas (nuomos mokėjimo laikotarpio pradžioje) arba įprastas anuitetas (nuomos mokėjimo laikotarpio pabaigoje).
 
   Pirmasis mėnuo bus laikomas nuliniu išankstinio mokėjimo laikotarpiu; pirmasis mėnuo bus laikomas pirmuoju mokėjimo skolų laikotarpiu.
 
@@ -99,7 +101,7 @@ Pirmas laikotarpis prasidės nuliniu laikotarpiu, jei anuiteto tipas yra laikota
 
 - **Apskaitos sistema** – nurodo pasirinktą apskaitos standartą, kurį palaikote – IFRS 16 arba ASC 842. Apskaitos standartas pažymėtas knygoje, kuri susijusi su nuoma. Apskaitos standartas nustatys DK sąskaitas, nurodytas registravimo šablone.
 
-- **Nuomos tipai** – nurodo, kuris iš dviejų nuomos tipų bus naudojamas – finansinė nuoma ar veiklos nuoma. Jei nuoma finansinė, nuomininkui pateikiama rizika ir nauda, susijusios su nuomojamu turtu. Jei nuoma yra veiklos, rizika ir nauda, susijusios su nuomojamu turtu, nepateikiamos nuomininkui. Trečia parinktis yra automatizuota nuomos tipo (financinė arba veiklos) identifikacija pagal knygoje nurodytas ribines vertes. Ši automatiška identifikacija atliekama nuomos perklasifikavimo testo metu.
+- **Nuomos tipai** – nurodo, kuris iš dviejų nuomos tipų bus naudojamas – finansinė nuoma ar veiklos nuoma. Jei nuoma finansinė, nuomininkui pateikiama rizika ir nauda, susijusios su nuomojamu turtu. Jei nuoma yra veiklos, rizika ir nauda, susijusios su nuomojamu turtu, nepateikiamos nuomininkui. Trečia parinktis yra automatizuota nuomos tipo (finansinė arba veiklos) identifikacija pagal knygoje nurodytas ribines vertes. Ši automatiška identifikacija atliekama nuomos perklasifikavimo testo metu.
 
 - **Ribinės vertės** – jos naudojamos nuomos klasifikacijos testų metu siekiant nustatyti, ar turtas klasifikuojamas kaip vienas iš toliau pateiktų:
 

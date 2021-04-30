@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f172e4d3e9c175a93d6fd64f0aa1933a48860bca
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d22a6fc336708028ce4953df50360c233398303d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750063"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893182"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroninių ataskaitų (ER) apžvalga
 
@@ -183,17 +183,17 @@ Atminkite, kad šio tipo saugykla pasiekiama toliau nurodytose aplinkose.
 
 Daugiau informacijos žr. [Elektroninių ataskaitų (ER) konfigūracijų importavimas](./electronic-reporting-import-ger-configurations.md).
 
-**RCS** saugykla suteikia prieigą prie tam tikro [konfigūravimo tarnybos (RCS)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) egzemplioriaus, pasirinkto saugyklos registracijos etapo metu, konfigūracijų sąrašo. Jei naudojatės ER, užbaigtas arba bendrai naudojamas konfigūracijas iš pasirinkto RCS egzempliorius galėsite importuoti į dabartinį egzempliorių ir naudoti jas elektroninėms ataskaitoms.
+**RCS** saugykla suteikia prieigą prie tam tikro [konfigūravimo tarnybos (RCS)](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) egzemplioriaus, pasirinkto saugyklos registracijos etapo metu, konfigūracijų sąrašo. Jei naudojatės ER, užbaigtas arba bendrai naudojamas konfigūracijas iš pasirinkto RCS egzempliorius galėsite importuoti į dabartinį egzempliorių ir naudoti jas elektroninėms ataskaitoms.
 
 Daugiau informacijos žr. [Elektroninių ataskaitų (ER) konfigūracijų importavimas iš RCS](./rcs-download-configurations.md).
 
-**Bendroji saugykla** suteikia prieigą prie [konfigūravimo tarnybos](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) bendrojoje saugykloje esančių konfigūracijų sąrašo. Šio tipo ER saugyklą galima registruoti tik „Microsoft“ teikėjui. Naujausios versijos ER konfigūracijas iš bendrosios saugyklos galite importuoti į esamą egzempliorių.
+**Bendroji saugykla** suteikia prieigą prie [konfigūravimo tarnybos](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) bendrojoje saugykloje esančių konfigūracijų sąrašo. Šio tipo ER saugyklą galima registruoti tik „Microsoft“ teikėjui. Naujausios versijos ER konfigūracijas iš bendrosios saugyklos galite importuoti į esamą egzempliorių.
 
 Daugiau informacijos rasite [Elektroninių ataskaitų (ER) konfigūracijų importavimas iš konfigūravimo tarnybos bendrosios saugyklos](./er-download-configurations-global-repo.md).
 
 Naudojantis saugykla **Operacijų ištekliai** suteikiama prieiga prie konfigūracijų sąrašo, kurį „Microsoft“ kaip ER konfigūracijų teikėjas pirmiausia išleidžia kaip programos sprendimo dalį. Šias konfigūracijas galima importuoti į esamą egzempliorių ir naudoti elektroninėms ataskaitoms kurti arba pavyzdžio užduočių vadovams paleisti. Taip pat jas galima naudoti tolesniam lokalizavimui ir tinkinimui atlikti. Atkreipkite dėmesį į tai, kad importuojant naujausias „Microsoft“ ER konfigūracijose pateiktas versijas iš LCS bendrai naudojamo turto bibliotekos, būtina naudoti atitinkamą ER saugyklą.
 
-Galima registruoti atskirai kiekvieno dabartinio egzemplioriaus konfigūracijos teikėjo būtinas saugyklas **LCS projektas**, **Failų sistema** ir **Reguliavimo konfigūravimo tarnybos (RCS)**. Kiekvieną saugyklą galima priskirti konkrečiam konfigūracijos teikėjui.
+Galima registruoti atskirai kiekvieno dabartinio egzemplioriaus konfigūracijos teikėjo būtinas saugyklas **LCS projektas**, **Failų sistema** ir **„Regulatory Configuration Services” (RCS)**. Kiekvieną saugyklą galima priskirti konkrečiam konfigūracijos teikėjui.
 
 ## <a name="supported-scenarios"></a>Palaikomi scenarijai
 

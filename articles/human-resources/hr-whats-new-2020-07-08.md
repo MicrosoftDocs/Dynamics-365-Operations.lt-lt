@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c0762c86842db32127ac1da97a92ec05d434707d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b277333ea37c2b6157ae9befc9d94f0e35ff97be
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794426"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891894"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Human Resources” (2020 m. liepos 8 d.)
 
@@ -41,11 +41,11 @@ Duomenų bazės registravimo funkcija leidžia nustatyti, kurios lentelės ir la
 
 ## <a name="benefits-management-open-enrollment-access-outside-of-period"></a>Naudos valdymo atidarymo įtraukimo prieiga ne laikotarpyje
 
-Šis išleidimas pataiso klaidą, kai darbuotojas gali prisijungti prie naudos atidarydamas įtraukimą ne per įtraukimo laikotarpį ar be gyvavimo ciklo įvykio. Dėl to, jei turite demonstracijoje atidaryte įtraukimą Darbuotojo savitarnos paslaugose, jums reikia pataisyti atidarymo įtraukimo datas į šiandien (ar anksčiau) tam, kad jį padarytumėte prieinamą. Galite pakeisti šį nustatymą **Naudų valdymas > Laikotarpių taisyklės ir parinktys**.
+Šis išleidimas pataiso klaidą, kai darbuotojas gali prisijungti prie naudos atidarydamas įtraukimą ne per įtraukimo laikotarpį ar be gyvavimo ciklo įvykio. Dėl to, jei turite demonstracijoje atidarykite įtraukimą Darbuotojo savitarnos paslaugose, jums reikia pataisyti atidarymo įtraukimo datas į šiandien (ar anksčiau) tam, kad jį padarytumėte prieinamą. Galite pakeisti šį nustatymą **Naudų valdymas > Laikotarpių taisyklės ir parinktys**.
 
 ## <a name="email-employee-enrollment-confirmation"></a>Darbuotojo įtraukimo patvirtinimo siuntimas elektroniniu paštu
 
-Dabar galite nusiųsti elektroninį laišką darbuotojams po to, kai jie pabaigs jų naudos pasirinkimą. Galite nusiųsti nustatytąją žinutę ar naudoti organizacijos elektronini pašto šabloną. Šie nustatymai yra **Žmogiškųjų išteklių parametrai > Naudjos valdymas**.
+Dabar galite nusiųsti elektroninį laišką darbuotojams po to, kai jie pabaigs jų naudos pasirinkimą. Galite nusiųsti nustatytąją žinutę ar naudoti organizacijos elektronini pašto šabloną. Šie nustatymai yra **Žmogiškųjų išteklių parametrai > Privalumų valdymas**.
 
 ## <a name="canceled-leave-still-appears-in-upcoming-time-off-on-people-workspace-441358"></a>Atšauktas leidimas vis dar rodomas ateities laiku Žmonių darbo srityje (441358)
 
@@ -57,7 +57,7 @@ Dabar galite įtraukti skyrių nekurdami dublikuoto ryšio.
 
 ## <a name="payrollworkerenrolledbenefitdetailentity-should-only-use-calculated-field-for-retirement-plans-459779"></a>PayrollWorkerEnrolledBenefitDetailEntity turi naudoti tik apskaičiuotą laukelį išėjimo į pensiją planams (459779)
 
-Eksportuojant **PayrollWorkerEnrolledBenefitDetailEntity** objektą, eksportavimas nustato, ar jis turi naudoti apskaičiuotą laukelį pagal santykio lentelę, ar naudoti **ContributionAmountCur** laukelį atsarginėje lentelėje. Duomenų objekto naudojama logika naudoja santykio lentelę tais atvejais, kai paraiška įprastai neegzistuoja. Ši logika lemia objekto eksportavimo grįžimą į nulio vertę šiame stulpelyje, nes nėra apskaičiavimo santykio lenteės ir produktas neleidžia klientui jo nurodyti.
+Eksportuojant **PayrollWorkerEnrolledBenefitDetailEntity** objektą, eksportavimas nustato, ar jis turi naudoti apskaičiuotą laukelį pagal santykio lentelę, ar naudoti **ContributionAmountCur** laukelį atsarginėje lentelėje. Duomenų objekto naudojama logika naudoja santykio lentelę tais atvejais, kai paraiška įprastai neegzistuoja. Ši logika lemia objekto eksportavimo grįžimą į nulio vertę šiame stulpelyje, nes nėra apskaičiavimo santykio lentelės ir produktas neleidžia klientui jo nurodyti.
  
 ## <a name="confusing-translations-in-czech-language-in-personnel-management-and-employee-self-service-400276"></a>Painūs vertimai čekų kalba Personalo valdyme ir Darbuotojo savitarnos paslaugose (400276)
 
@@ -73,7 +73,7 @@ Sukurti ir pakeisti sistemos laukeliai dabar yra įjungti **WorkCalendarEmployme
 
 ## <a name="changes-made-in-the-dataverse-worker-entity-dont-reflect-in-human-resources-455652"></a>Pakeitimai atlikti „Dataverse Worker“ objekte nepasirodo Žmogiškuosiuose ištekliuose (455652)
 
-Toliau pateiktų laukelių pakeitimai **Darbutoojas** objekte „Dataverse“ nepasirodys Žmogiškuosiuose ištekliuose:
+Toliau pateiktų laukelių pakeitimai **Darbuotojas** objekte „Dataverse“ nepasirodys Žmogiškuosiuose ištekliuose:
 
 - **Darbas iš namų**
 - **Paaukštinimo data**
@@ -82,7 +82,7 @@ Toliau pateiktų laukelių pakeitimai **Darbutoojas** objekte „Dataverse“ ne
 
 ## <a name="correct-compensation-level-doesnt-default-based-on-the-job-assigned-to-the-position-394136"></a>Tinkamas užmokesčio lygis nėra nustatytasis pagal pareigoms priskirtą darbą (394136)
 
-Šiuo pakeitimu tinkamas užmokesčio lygis yra nustatytasis pagal **Įsigaliojimo datą** ir įrašomas **Pareigų informacij** ir **Pradžios data** esančius **Užmokesčio planavimo priskyrime**.
+Šiuo pakeitimu tinkamas užmokesčio lygis yra nustatytasis pagal **Įsigaliojimo datą** ir įrašomas **Pareigų informacija** ir **Pradžios data** esančius **Užmokesčio planavimo priskyrime**.
 
 ## <a name="in-preview"></a>Peržiūros režimu
 
@@ -92,7 +92,7 @@ Dabar galite padaryti laukus privalomais naudodami Žmogiškųjų išteklių per
 
 ## <a name="human-resources-application-in-teams"></a>„Human Resources“ programa programoje „Teams“
 
-Darbuotojai gali peržiūrėti ir prašyti atostogų programoje „Microsoft Teams“. Jie gali bendrauti su robotu, kad sukurtų atostogų prašymą. Daugiau informacijos žr. [„Human Resources“ programa programoje „Teams“](https://go.microsoft.com/fwlink/?linkid=2127841). 
+Darbuotojai gali peržiūrėti ir prašyti atostogų programoje „Microsoft Teams“. Jie gali bendrauti su robotu, kad sukurtų atostogų prašymą. Daugiau informacijos žr. [„Human Resources“ programa programoje „Teams“](./hr-admin-teams-leave-app.md). 
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Duomenų valdymo sistemos (DMF) objektai, skirti išmokų valdymui
  
@@ -138,7 +138,7 @@ Tikrinimo objektai Įtraukimo, Atleidimo, Perleidimo ir Verslo procesams bus gre
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 [Kas nauja ar pasikeitė „Human Resources”](hr-admin-whats-new.md)</br>
-[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
 [Funkcijų valdymas](hr-admin-manage-features.md)
 

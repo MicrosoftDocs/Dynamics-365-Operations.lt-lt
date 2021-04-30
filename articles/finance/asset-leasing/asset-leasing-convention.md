@@ -2,7 +2,7 @@
 title: Turto nuomos sutartys
 description: Šioje temoje aprašomos sutartys išnuomotam turtui.
 author: moaamer
-ms.date: 1/14/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e6450438a6e8c594590df3cc4502895913f50d01
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 67c4d2b7162cf6bda2eedfecef43ff0b216e6e6c
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842399"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881813"
 ---
 # <a name="asset-leasing-conventions"></a>Turto nuomos sutartys
 
@@ -41,9 +41,9 @@ Norėdami peržiūrėti ir priskirti lizingo sutartį, atlikite šiuos žingsniu
 1. Eikite į **Turto nuoma \> Sąranka \> Nuomos knygos**.
 2. Laukelyje **Lizingo sutartis** rinkitės vieną tolesnių verčių.
 
-    | Nuomos konvencija | aprašymas |
+    | Nuomos konvencija | Aprašymas |
     |--------------------|-------------|
-    | None               | Įsipareigojimų amortizavimo ir turto nuvertėjimo grafikai prasideda nuomos pradžios dieną, nes pradžios data atitinka nuomos pradžios datą. Pabaigos data yra vienu mėnesiu vėliau. Ši lizingo sutarti neužtikrina, kad interesas bus publikuotas paskutinę kiekvieno mėnesio dieną. |
+    | Nėra               | Įsipareigojimų amortizavimo ir turto nuvertėjimo grafikai prasideda nuomos pradžios dieną, nes pradžios data atitinka nuomos pradžios datą. Pabaigos data yra vienu mėnesiu vėliau. Ši lizingo sutarti neužtikrina, kad interesas bus publikuotas paskutinę kiekvieno mėnesio dieną. |
     | Visas mėnuo         | Nuomai, kurios pradžios data yra bet kada šį mėnesį, įsipareigojimų amortizavimas ir turto nuvertėjimo grafikai pradeda skaičiuoti išlaidas pirmą to mėnesio dieną. Ši lizingo sutarti užtikrina, kad interesas būtų apskaičiuotas paskutinę kiekvieno mėnesio dieną už visą mėnesį. |
 
 3. Pasirinkite **Įrašyti**.

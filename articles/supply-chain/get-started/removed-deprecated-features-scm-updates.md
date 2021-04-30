@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 2e41510f1f5810dde9683235384f89008f888471
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 785f9055c44110d88b9494b5066647511840b646
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821278"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909652"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management“ funkcijos
 
@@ -31,7 +31,7 @@ ms.locfileid: "5821278"
 Šis sąrašas skirtas suteikti jums informacijos apie pašalintas ir nebenaudojamas funkcijas, kad galėtumėte geriau planuoti savo darbą.
 
 > [!NOTE]
-> Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](https://docs.microsoft.com/dynamics/s-e/). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
+> Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](/dynamics/s-e/). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Supply Chain Management“ 10.0.18 versijoje
 
@@ -39,7 +39,7 @@ ms.locfileid: "5821278"
 
 |   |  |
 |------------|--------------------|
-| **Nebenaudojimo/pašalinimo priežastis** | Nuo 2021 m. balandžio mėnesio įsigalioja, jog *„Dynamics 365 for Finance and Operations” – sandėliavimas* (sandėlio programa) yra nerekomenduojama ir nebebus palaikoma po 2022 m. balandžio. Dabar ji pakeista *Sandėlio valdymo mobiliųjų įrenginių programėle*, kuri buvo išleista kartu su „Supply Chain Management” 10.0.17 versija. Nauja programa yra visiškas pakeitimas, tačiau naudoja tą pačią pagrindinę sistemą, kas palengvina perkėlimą. Jei reikia, dvi programas galima naudoti paraleliai tam, kad padėtų vartotojams palaipsniui prisitaikyti, kol jie mokosi naudotis nauja programa.<br><br>Daugiau informacijos apie naująją sandėlio valdymo mobiliųjų įrenginių programėlę rasite [ Sandėlio valdymo mobiliųjų įrenginių programėlė](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) ir [ Sandėlio valdymo mobiliųjų įrenginių programėlės diegimas ir prijungimas](../warehousing/install-configure-warehouse-management-app.md). |
+| **Nebenaudojimo/pašalinimo priežastis** | Nuo 2021 m. balandžio mėnesio įsigalioja, jog *„Dynamics 365 for Finance and Operations” – sandėliavimas* (sandėlio programa) yra nerekomenduojama ir nebebus palaikoma po 2022 m. balandžio. Dabar ji pakeista *Sandėlio valdymo mobiliųjų įrenginių programėle*, kuri buvo išleista kartu su „Supply Chain Management” 10.0.17 versija. Nauja programa yra visiškas pakeitimas, tačiau naudoja tą pačią pagrindinę sistemą, kas palengvina perkėlimą. Jei reikia, dvi programas galima naudoti paraleliai tam, kad padėtų vartotojams palaipsniui prisitaikyti, kol jie mokosi naudotis nauja programa.<br><br>Daugiau informacijos apie naująją sandėlio valdymo mobiliųjų įrenginių programėlę rasite [ Sandėlio valdymo mobiliųjų įrenginių programėlė](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) ir [ Sandėlio valdymo mobiliųjų įrenginių programėlės diegimas ir prijungimas](../warehousing/install-configure-warehouse-management-app.md). |
 | **Pakeitė kita funkcija?**   | Taip, pakeista nauja sandėlio valdymo mobiliųjų įrenginių programėle. |
 | **Paveiktos produkto sritys**         | „Supply Chain Management” – sandėlio programa |
 | **Visuotinio diegimo parinktis**              | Debesies ir vietinis |
@@ -65,7 +65,7 @@ ms.locfileid: "5821278"
 | **Pakeitė kita funkcija?**   | Taip, planavimo optimizavimas pakeis dabartinį įtaisytąjį „Supply Chain Management“ bendrojo planavimo mechanizmą. |
 | **Paveiktos produkto sritys**         | „Supply Chain Management” – bendrasis planavimas |
 | **Visuotinio diegimo parinktis**              | Tik debesyje. Planavimo optimizavimas nepalaikomas vietiniuose visuotiniuose diegimuose. |
-| **Būsena**                         | Nebenaudojama. Nuo 2021 m. spalio 1 d. gamybos scenarijai nebebus palaikomi su įdiegtu „Dynamics 365 Supply Chain Management“ pagrindinio planavimo varikliu. Planavimo scenarijams, klientai privalo naudoti „Planning Optimization“ pagrindinio planavimo apskaičiavimams. Daugiau informacijos žr. [Planavimo optimizavimo dokumentacija](https://go.microsoft.com/fwlink/?linkid=2105830). Klientai su patalpose esančiu „Dynamics 365 Supply Chain Management“ talpinimu gali ir toliau naudoti „Supply Chain Management“ pagrindinio planavimo variklį gamybos scenarijams po 2021 m. spalio mėnesio. Tačiau daugiau funkcijų patobulinimų nebus teikiama. |
+| **Būsena**                         | Nerekomenduojama. Nuo 2022 m. balandžio 1 d. gamybos scenarijai nebebus palaikomi su įtaisytuoju „Dynamics 365 Supply Chain Management“ bendrojo planavimo varikliu. Planavimo scenarijams, klientai privalo naudoti „Planning Optimization“ pagrindinio planavimo apskaičiavimams. Daugiau informacijos žr. [Planavimo optimizavimo dokumentacija](../master-planning/planning-optimization/planning-optimization-overview.md). Klientai su vietiniais „Dynamics 365 Supply Chain Management“ diegimais gali ir toliau naudoti „Supply Chain Management“ bendrojo planavimo variklį gamybos scenarijams po 2022 m. balandžio. Tačiau daugiau funkcijų patobulinimų nebus teikiama. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Supply Chain Management“ 10.0.11 versijoje
 
@@ -77,7 +77,7 @@ ms.locfileid: "5821278"
 | **Pakeitė kita funkcija?**   | Taip, planavimo optimizavimas pakeis dabartinį įtaisytąjį „Supply Chain Management“ bendrojo planavimo mechanizmą. |
 | **Paveiktos produkto sritys**         | „Supply Chain Management” – bendrasis planavimas |
 | **Visuotinio diegimo parinktis**              | Tik debesyje. Planavimo optimizavimas nepalaikomas vietiniuose visuotiniuose diegimuose. |
-| **Būsena**                         | Nebenaudojama. Nuo 2021 m. balandžio 1 d. paskirstymo scenarijai nebebus palaikomi su įdiegtu „Dynamics 365 Supply Chain Management“ pagrindinio planavimo varikliu. Paskirstymo scenarijuose klientai turi naudoti bendrojo planavimo skaičiavimo planavimo optimizavimą. Daugiau informacijos žr. [Planavimo optimizavimo dokumentacija](https://go.microsoft.com/fwlink/?linkid=2105830). Klientai, turintys vietinius visuotinius „Dynamics 365 Supply Chain Management” diegimus, po 2021 m. balandžio mėn. gali toliau naudoti „Supply Chain Management” bendrojo planavimo mechanizmą paskirstymo scenarijuose. Tačiau daugiau funkcijų patobulinimų nebus teikiama. |
+| **Būsena**                         | Nebenaudojama. Nuo 2021 m. balandžio 1 d. paskirstymo scenarijai nebebus palaikomi su įdiegtu „Dynamics 365 Supply Chain Management“ pagrindinio planavimo varikliu. Paskirstymo scenarijuose klientai turi naudoti bendrojo planavimo skaičiavimo planavimo optimizavimą. Daugiau informacijos žr. [Planavimo optimizavimo dokumentacija](../master-planning/planning-optimization/planning-optimization-overview.md). Klientai, turintys vietinius visuotinius „Dynamics 365 Supply Chain Management” diegimus, po 2021 m. balandžio mėn. gali toliau naudoti „Supply Chain Management” bendrojo planavimo mechanizmą paskirstymo scenarijuose. Tačiau daugiau funkcijų patobulinimų nebus teikiama. |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Ankstesni pranešimai apie pašalintas arba nebenaudojamas funkcijas
 

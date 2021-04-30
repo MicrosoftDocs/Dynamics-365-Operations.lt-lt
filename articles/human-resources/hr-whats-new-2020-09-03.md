@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 965f3ca859c601d26470038a889b0f21d2bdff5f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 10978d8843e7bce2800d62b63e58152569be9631
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800122"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891774"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-3-2020"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. rugsėjo 3 d.)
 
@@ -31,7 +31,7 @@ ms.locfileid: "5800122"
 
 Šioje temoje aprašomos naujos arba pasikeitusios „Dynamics 365 Human Resources” funkcijos. Pakeitimai taikomi 8.1.3504 komponavimo versijai. Kai kurių antraščių skaičiai skliausteliuose nurodo „Lifecycle Services“ (LCS) palaikymo numerius kaip nuorodą.
 
-Daugiau informacijos apie būsimas „Human Resources” funkcijas žr. [„Dynamics 365 Human Resources” 2019 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/). Daugiau informacijos apie „Human Resources” atnaujinimo procesą žr. [Atnaujinimo procesas](hr-admin-setup-update-process.md).
+Daugiau informacijos apie būsimas „Human Resources” funkcijas žr. [„Dynamics 365 Human Resources” 2019 m. leidimo 2 bangos apžvalga](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/). Daugiau informacijos apie „Human Resources” atnaujinimo procesą žr. [Atnaujinimo procesas](hr-admin-setup-update-process.md).
 
 ## <a name="in-this-release"></a>Šiame leidime
 
@@ -76,21 +76,21 @@ Analizės ataskaitoje dabar rodoma tinkama **Užmokesčio tarifas** informacija.
 
 Darbuotojai gali peržiūrėti ir prašyti atostogų programoje „Microsoft Teams“. Jie gali bendrauti su robotu, kad sukurtų atostogų prašymą. Daugiau informacijos ieškokite:
 
-- [Darbuotojo atostogų ir nebuvomo patirtis „Microsoft Teams“](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) „Dynamics 365“ 2020 leidime bangos 1 plane
-- [„Human Resources“ programa „Teams“](https://go.microsoft.com/fwlink/?linkid=2127841) „Human Resources” dokumentacijoje
+- [Darbuotojo atostogų ir nebuvimo patirtis „Microsoft Teams“](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) „Dynamics 365“ 2020 leidime bangos 1 plane
+- [„Human Resources“ programa „Teams“](./hr-admin-teams-leave-app.md) „Human Resources” dokumentacijoje
 
 ### <a name="human-resources-app-in-teams-preview-features"></a>„Human Resources“ programėlė „Teams“ peržiūros funkcijose
  
 -  **Pranešimai**: ne darbo laiko užklausų pateikėjai ir tvirtintojai bus informuojami „Teams” esančioje „Human Resources” programėlėje. Tvirtintojai galės patvirtinti arba atmesti prašymus išleisti iš darbo. Pateikėjams bus pranešta, ar užklausa buvo patvirtinta, ar atmesta. Daugiau informacijos ieškokite:
-   - [Darbuotojo atostogų ir nebuvomo patirtis „Microsoft Teams“](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) „Dynamics 365“ 2020 leidime bangos 2 plane
-   - [„Human Resources“ programos „Teams“ pranešimų įjungimas](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#enable-notifications-for-the-human-resources-app-in-teams) „Human Resources” dokumentacijoje
-   - [„Teams” pranešimų įjungimas arba išjungimas atskiriems vartotojams](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#turn-teams-notifications-on-or-off-for-individual-users) „Human Resources” dokumentacijoje
-   - [„Teams” pranešimai](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#teams-notifications) „Human Resources” dokumentacijoje
-   - [Jūsų komandos atostogų kalendoriaus peržiūra](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#view-your-teams-leave-calendar) „Human Resources” dokumentacijoje
+   - [Darbuotojo atostogų ir nebuvimo patirtis „Microsoft Teams“](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) „Dynamics 365“ 2020 leidime bangos 2 plane
+   - [„Human Resources“ programos „Teams“ pranešimų įjungimas](./hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams) „Human Resources” dokumentacijoje
+   - [„Teams” pranešimų įjungimas arba išjungimas atskiriems vartotojams](./hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users) „Human Resources” dokumentacijoje
+   - [„Teams” pranešimai](./hr-teams-leave-app.md#respond-to-teams-notifications) „Human Resources” dokumentacijoje
+   - [Jūsų komandos atostogų kalendoriaus peržiūra](./hr-teams-leave-app.md#view-your-teams-leave-calendar) „Human Resources” dokumentacijoje
  
 - **Tvarkytuvo ne darbo laiko kalendorius**: vadovai galės peržiūrėti savo tiesioginių ataskaitų kalendoriaus rodinyje patvirtintą ir laukiamą ne darbo laiką. Šis rodinys leidžia lengvai suprasti, kada jų komandos nariai nėra darbe. Daugiau informacijos, žr.:
-   - [Darbuotojo atostogų ir nebuvomo patirtis „Microsoft Teams“](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) „Dynamics 365“ 2020 leidime bangos 2 plane
-   - [Jūsų komandos atostogų kalendoriaus peržiūra](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#view-your-teams-leave-calendar) „Human Resources” dokumentacijoje
+   - [Darbuotojo atostogų ir nebuvimo patirtis „Microsoft Teams“](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) „Dynamics 365“ 2020 leidime bangos 2 plane
+   - [Jūsų komandos atostogų kalendoriaus peržiūra](./hr-teams-leave-app.md#view-your-teams-leave-calendar) „Human Resources” dokumentacijoje
 
 ### <a name="configuration-option-to-position-work-items-assigned-to-me-list-477004"></a>Konfigūracijos pasirinktis, skirta sąrašui Man priskirti darbo elementai perkelti (477004)
 
@@ -98,7 +98,7 @@ Nauja parinktis dabar galima norint perkelti sąrašą **Man priskirti darbo ele
 
 Ši funkcija taip pat skatina darbo eigos pasirinktis, kurios rodomos personalo veiksmų formose. Darbo eigos parinktys taip pat rodomos virš veiksmų „FastTab“, skirto sparčiajai prieigai. Daugiau informacijos ieškokite: 
 
-- [Organizacijos ir personalo valdymo darbo eigos patobulinimai](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) „Dynamics 365“ 2020 m. leidimo 2 bangos plane
+- [Organizacijos ir personalo valdymo darbo eigos patobulinimai](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) „Dynamics 365“ 2020 m. leidimo 2 bangos plane
 
 ![Man priskirti darbo elementai](./media/hr-workflow-work-items-assigned-to-me.png)
 
@@ -117,7 +117,7 @@ Išmokų valdymo priežasčių kodai netrukus bus sujungti su esamais „Human R
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 [Kas nauja ar pasikeitė „Human Resources”](hr-admin-whats-new.md)</br>
-[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
 [Funkcijų valdymas](hr-admin-manage-features.md)
 

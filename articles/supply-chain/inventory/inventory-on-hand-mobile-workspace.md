@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: b60be589394c506137c60ed0bc9c95d5a7af5e9a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f62772351d985ab4c1319acde19def2d8fb551ca
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816657"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908735"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Turimų atsargų mobilioji darbo sritis
 
@@ -56,7 +56,7 @@ Tiksliau sakant, mobilioji darbo sritis suteikia toliau nurodytas funkcijas.
 Būtinosios sąlygos skiriasi ir priklauso nuo jūsų organizacijoje įdiegtos „Supply Chain Management” versijos.
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>Būtinosios sąlygos naudojant „Supply Chain Management”
-Jei jūsų organizacijoje visuotinai įdiegta „Supply Chain Management“, sistemos administratorius turi paskelbti mobiliąją darbo sritį **Turimos atsargos**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Jei jūsų organizacijoje visuotinai įdiegta „Supply Chain Management“, sistemos administratorius turi paskelbti mobiliąją darbo sritį **Turimos atsargos**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-platform-update-3-or-later"></a>Būtinosios sąlygos, jei naudojate 3 platformos naujinimą arba naujesnę versiją 
 Jei jūsų organizacijoje visuotinai įdiegta 3 platformos naujinimo arba naujesnė versija, sistemos administratorius turi įvykdyti tolesnes būtinąsias sąlygas. 
@@ -76,17 +76,17 @@ Jei jūsų organizacijoje visuotinai įdiegta 3 platformos naujinimo arba naujes
 
 <td>KB 4013633 yra X++ naujinimas arba metaduomenų karštoji pataisa, kurioje yra mobilioji darbo sritis <strong>Turimos atsargos</strong>. Norėdamas įdiegti KB 4013633, sistemos administratorius turi atlikti tolesnius veiksmus.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Atsisiųsti metaduomenų karštąją pataisą iš „Microsoft Dynamics Lifecycle Services“ (LCS)</a>.</li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Įdiekite metaduomenų karštąją pataisą</a>.</li>
-<li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Sukurkite diegiamą paketą</a>, kuriame yra modelis <strong>SCMMobile</strong>, o tada įkelkite diegiamą paketą į LCS.</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Visuotinai diegiamo paketo taikymas</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Atsisiųsti metaduomenų karštąją pataisą iš „Microsoft Dynamics Lifecycle Services“ (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Įdiekite metaduomenų karštąją pataisą</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Sukurkite diegiamą paketą</a>, kuriame yra modelis <strong>SCMMobile</strong>, o tada įkelkite diegiamą paketą į LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Visuotinai diegiamo paketo taikymas</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Paskelbkite mobiliąją darbo sritį <strong>Turimos atsargos</strong>.</td>
 <td>Sistemos administratorius</td>
-<td>Žr. <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Mobiliosios darbo srities publikavimas</a>.</td>
+<td>Žr. <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiliosios darbo srities publikavimas</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -111,7 +111,7 @@ Mobiliosios programos „Finance and Operations“ atsisiuntimas ir diegimas.
 
 1.  Savo mobiliajame įrenginyje pasirinkite darbo sritį **Turimos atsargos**.
 
-2.  Pasirinkite **Patikrinti turimas prekės atsargas**. Matysite produktų, kurie įkelti į jūsų programą ir kuriuos galima tvarkyti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 prekių, tačiau kūrėjas šį skaičių gali keisti. Norėdami gauti daugiau informacijos, programuotojai turėtų peržiūrėti temą [Mobilioji platforma](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md).
+2.  Pasirinkite **Patikrinti turimas prekės atsargas**. Matysite produktų, kurie įkelti į jūsų programą ir kuriuos galima tvarkyti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 prekių, tačiau kūrėjas šį skaičių gali keisti. Norėdami gauti daugiau informacijos, programuotojai turėtų peržiūrėti temą [Mobilioji platforma](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md).
 3.  Jei jūsų prekės nėra sąraše, pasirinkite **Ieškoti daugiau**. Ieškokite pagal produkto numerį arba perjunkite iešką pagal produkto pavadinimą.
 
 4.  Pasirinkite produktą. Jei prekei priskirtas vaizdas, jis bus rodomas.

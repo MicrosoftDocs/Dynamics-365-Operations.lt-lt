@@ -1,6 +1,6 @@
 ---
-title: Iš naujo nustatyti įstrigusias paketines užduotis
-description: Šioje temoje paaiškinama, kaip išspręsti problemas, susijusias su paketine užduotimis, kurios yra įstrigusios.
+title: Užstrigusių paketinių užduočių nustatymas iš naujo
+description: Šioje temoje paaiškinama, kaip išspręsti užstrigusių paketinių užduočių problemas.
 author: andreabichsel
 ms.date: 03/19/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: Platform update 42
-ms.openlocfilehash: 01ef0bf8ccc486614eec42d3fb6f0b2941fc47c0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 906a391b3c28d15445f6ddf0fc547ebcf842ba19
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794954"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881765"
 ---
-# <a name="reset-stuck-batch-jobs"></a>Iš naujo nustatyti įstrigusias paketines užduotis
+# <a name="reset-stuck-batch-jobs"></a>Užstrigusių paketinių užduočių nustatymas iš naujo
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-## <a name="issue"></a>Išdavimas
+## <a name="issue"></a>Problema
 
 Programoje gali kilti problemų dėl paketinių užduočių, kurios yra vykdymo arba atšaukimo būsenos „Microsoft Dynamics 365 Human Resources“ **ir nėra** **baigtos**.
 
@@ -41,7 +41,7 @@ Kai paketinės užduoties būsena yra Vykdoma arba Atšaukiama, galite grąžint
 3. Veiksmų juostelėje pasirinkite **Atšaukti ir** patvirtinkite veiksmą.
 
    > [!NOTE]
-   > Veiksmas Priversties atšaukimas galimas tik tada, kai pasirinktos paketinės užduoties būsena yra Vykdoma arba Atšaukiama ir užduoties paketinio vykdymo **arba atšaukimo procesai** **nėra** **vykdomos**.
+   > Veiksmas **Priverstinis atšaukimas** galimas tik tada, kai pasirinktos paketinės užduoties būsena yra **Vykdoma** arba **Atšaukiama** ir užduoties paketinio vykdymo arba atšaukimo procesai nėra vykdomi.
 
 4. Veiksmų juostoje rinkitės **Keisti būseną**.
 

@@ -1,5 +1,5 @@
 ---
-title: Tiekimo grandinės valdymo sandėlių sinchronizavimas su „Field Service“
+title: „Supply Chain Management” sandėlių sinchronizavimas su „Field Service“
 description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Dynamics 365 Supply Chain Management“ sandėlius sinchronizuojant su „Dynamics 365 Field Service“.
 author: ChristianRytt
 ms.date: 03/13/2019
@@ -16,14 +16,14 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: b4503b0fea259d30e32dffe636bc0a7ac5528033
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f302f780fa8ba3d387a71770024a1bf7ad42c4ef
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807781"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910263"
 ---
-# <a name="synchronize-warehouses-from-supply-chain-management-to-field-service"></a>Tiekimo grandinės valdymo sandėlių sinchronizavimas su „Field Service“
+# <a name="synchronize-warehouses-from-supply-chain-management-to-field-service"></a>„Supply Chain Management” sandėlių sinchronizavimas su „Field Service“
 
 [!include[banner](../includes/banner.md)]
 
@@ -31,19 +31,19 @@ ms.locfileid: "5807781"
 
 Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Dynamics 365 Supply Chain Management“ sandėlius sinchronizuojant su „Dynamics 365 Field Service“.
 
-[![Tiekimo grandinės valdymo ir „Field Service“ verslo procesų sinchronizavimas](./media/FSWarehouseOW.png)](./media/FSWarehouseOW.png)
+[![„Supply Chain Management” ir „Field Service“ verslo procesų sinchronizavimas](./media/FSWarehouseOW.png)](./media/FSWarehouseOW.png)
 
 ## <a name="templates-and-tasks"></a>Šablonai ir užduotys
-Toliau nurodytas šablonas ir pagrindinės užduotys naudojami sinchronizuojant Tiekimo grandinės valdymo sandėlius su „Field Service“.
+Toliau nurodytas šablonas ir pagrindinės užduotys naudojami sinchronizuojant „Supply Chain Management” sandėlius su „Field Service“.
 
 **Šablonas naudojant funkcija Duomenų integravimas**
-- Sandėliai (iš Tiekimo grandinės valdymo į „Field Service“)
+- Sandėliai (iš „Supply Chain Management” į „Field Service“)
 
 **Užduotis projekte Duomenų integravimas**
 - Sandėlis
 
 ## <a name="table-set"></a>Lentelės rinkinys
-| „Field service“    | Tiekimo grandinės valdymas                 |
+| „Field service“    | „Supply Chain Management”                 |
 |------------------|----------------------------------------|
 | msdyn_warehouses | Sandėliai                             |
 
@@ -52,17 +52,17 @@ Sandėlius, kuriamus ir tvarkomus „Supply Chain Management”, galima sinchron
 
 ## <a name="field-service-crm-solution"></a>„Field Service“ CRM sprendimas
 Reikalinga papildoma „Field Service“ CRM sprendimo funkcija, kad būtų palaikomas „Field Service“ ir „Supply Chain Management“ integravimas. Sprendimo laukas **Tvarkomas išoriškai** įtrauktas į objektą **Sandėlis (msdyn_warehouses)**. Šis stulpelis padeda nustatyti, ar sandėlis tvarkomas iš „Supply Chain Management”, ar jis yra tik „Field Service“. Į šio stulpelio nustatymus įeina:
-- **Taip** – sandėlis paimtas iš Tiekimo grandinės valdymo ir jo nebus galima redaguoti sprendime „Sales“.
+- **Taip** – sandėlis paimtas iš „Supply Chain Management” ir jo nebus galima redaguoti sprendime „Sales“.
 - **Ne** – sandėlis buvo įvestas tiesiogiai „Field Service“ ir tvarkomas čia.
 
 Stulpelis **Tvarkomas išoriškai** padeda kontroliuoti atsargų lygių sinchronizavimą, koregavimą, perkėlimą ir naudojimą darbo užsakymuose. Tik sandėlius, kurių parinktis **Tvarkomas išoriškai** nustatyta į **Taip**, galima naudoti norint tiesiogiai sinchronizuoti su tuo pačiu sandėliu kitoje sistemoje. 
 
 > [!NOTE]
-> Galima sukurti keletą „Field Service“ sandėlių (esant **Tvarkomas išoriškai** = Ne), o tada juos susieti su vienu sandėliu, naudojant išplėstinės užklausos ir filtravimo funkcionalumą. Tai naudojama tais atvejais, kai norite, kad „Field Service“ tvarkytų išsamų atsargų lygį ir į „Supply Chain Management“ siųstų tik naujinimus. Šiuo atveju „Field Service“ negaus Tiekimo grandinės valdymo atsargų lygio naujinimų. Papildomos informacijos žr. [„Field Service“ atsargų koregavimo sinchronizavimas su „Finance and Operations“](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) ir [„Field Service“ darbo užsakymų sinchronizavimas su „Finance and Operations“ projektu susietais pardavimo užsakymais](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
+> Galima sukurti keletą „Field Service“ sandėlių (esant **Tvarkomas išoriškai** = Ne), o tada juos susieti su vienu sandėliu, naudojant išplėstinės užklausos ir filtravimo funkcionalumą. Tai naudojama tais atvejais, kai norite, kad „Field Service“ tvarkytų išsamų atsargų lygį ir į „Supply Chain Management“ siųstų tik naujinimus. Šiuo atveju „Field Service“ negaus „Supply Chain Management” atsargų lygio naujinimų. Papildomos informacijos žr. [„Field Service“ atsargų koregavimo sinchronizavimas su „Finance and Operations“](/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) ir [„Field Service“ darbo užsakymų sinchronizavimas su „Finance and Operations“ projektu susietais pardavimo užsakymais](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
 ## <a name="prerequisites-and-mapping-setup"></a>Būtinosios sąlygos ir susiejimo sąranka
 ### <a name="data-integration-project"></a>Duomenų integravimo projektas
-Prieš sinchronizuojant sandėlius būtina atnaujinti projekto išplėstinę užklausą ir filtravimą, įtraukiant tik tuos sandėlius, kuriuos norima perkelti iš Tiekimo grandinės valdymo į „Field Service“. Atkreipkite dėmesį, kad jums reikės „Field Service“ sandėlio, kurį būtų galima taikyti darbo užsakymams, koregavimui ir perkėlimui.  
+Prieš sinchronizuojant sandėlius būtina atnaujinti projekto išplėstinę užklausą ir filtravimą, įtraukiant tik tuos sandėlius, kuriuos norima perkelti iš „Supply Chain Management” į „Field Service“. Atkreipkite dėmesį, kad jums reikės „Field Service“ sandėlio, kurį būtų galima taikyti darbo užsakymams, koregavimui ir perkėlimui.  
 
 Įsitikinkite, kad yra **Integravimo kodas**, skirtas **msdyn_warehouses**.
 1. Pasirinkite Duomenų integravimas.
@@ -75,7 +75,7 @@ Prieš sinchronizuojant sandėlius būtina atnaujinti projekto išplėstinę už
 
 Toliau pateiktose iliustracijose vaizduojamas šablono susiejimas naudojant funkciją Duomenų integravimas.
 
-### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>Sandėliai (iš Tiekimo grandinės valdymo į „Field Service“): sandėliai
+### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>Sandėliai (iš „Supply Chain Management” į „Field Service“): sandėliai
 
 [![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/Warehouse1.png)](./media/Warehouse1.png)
 

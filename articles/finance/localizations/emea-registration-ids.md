@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 01f9ef1bcf520ba5dd44c3a1e79cf0ea6c777eef
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a062235bfce6ccb8ad62c8c299418e933d3d42f9
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818329"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894703"
 ---
 # <a name="registration-ids"></a>Registracijos ID
 
@@ -55,7 +55,7 @@ Registracijos kategorija yra šalies / regiono registracijos identifikatorius, k
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Visuotinės adresų knygelės įrašų registracijos ID įvedimas
 
-Visuotinė adresų knygelė (GAB) pateikia konsoliduotą klientų, tiekėjų, kontaktų, verslo ryšių ir juridinių subjektų adresų informaciją. Išsamesnės informacijos žr. [Visuotinės adresų knygelės apžvalga](../../fin-and-ops/organization-administration/overview-global-address-book.md). Šalies įrašuose, kurie yra saugomi visuotinėje adresų knygelėje, gali būti vienas ar daugiau adresų įrašų. Šie adresai naudojami įvairiems tikslams, pvz., atsiskaitymo arba pristatymo. Galite nustatyti klientų, tiekėjų, darbuotojų ir juridinių subjektų adresų informacijos registracijos ID. Raskite šalies (juridinio subjekto, tiekėjo, kliento, darbuotojo) įrašą, kurio registracijos ID norite įvesti, o tada spustelėkite **Registracijos ID** formose, susijusiose su šalimi, juridiniu subjektu, tiekėju, klientu, darbuotoju, kad atidarytumėte puslapį **Tvarkyti adresus**. Skirtuke **Mokesčių registracija** spustelėkite **Įtraukti** ir įveskite tolesnė registracijos ID informaciją.
+Visuotinė adresų knygelė (GAB) pateikia konsoliduotą klientų, tiekėjų, kontaktų, verslo ryšių ir juridinių subjektų adresų informaciją. Išsamesnės informacijos žr. [Visuotinės adresų knygelės apžvalga](../../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md). Šalies įrašuose, kurie yra saugomi visuotinėje adresų knygelėje, gali būti vienas ar daugiau adresų įrašų. Šie adresai naudojami įvairiems tikslams, pvz., atsiskaitymo arba pristatymo. Galite nustatyti klientų, tiekėjų, darbuotojų ir juridinių subjektų adresų informacijos registracijos ID. Raskite šalies (juridinio subjekto, tiekėjo, kliento, darbuotojo) įrašą, kurio registracijos ID norite įvesti, o tada spustelėkite **Registracijos ID** formose, susijusiose su šalimi, juridiniu subjektu, tiekėju, klientu, darbuotoju, kad atidarytumėte puslapį **Tvarkyti adresus**. Skirtuke **Mokesčių registracija** spustelėkite **Įtraukti** ir įveskite tolesnė registracijos ID informaciją.
 
 
 |Laukas                |aprašymas                                                |

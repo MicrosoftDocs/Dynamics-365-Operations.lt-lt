@@ -1,6 +1,6 @@
 ---
 title: Finansinių ataskaitų peržiūra
-description: Šioje temoje aprašoma, kaip peržiūrėti ir naršyti finansines ataskaitas programoje „Microsoft“ „Dynamics 365 Finance“. Tai apima informaciją apie įvairias parinktis, kurias galite taikyti finansinėms ataskaitoms, norėdami pakeisti jų išvaizdą ir jų duomenis.
+description: Šioje temoje aprašoma, kaip peržiūrėti ir naršyti finansines ataskaitas programoje „Microsoft Dynamics 365 Finance“. Tai apima informaciją apie įvairias parinktis, kurias galite taikyti finansinėms ataskaitoms, norėdami pakeisti jų išvaizdą ir jų duomenis.
 author: kweekley
 ms.date: 03/25/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e744ade8b02b288821dd9142c85092d384db4b2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f729b1703a7703a8a604b007bd1c8d9e1f604a6
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816960"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897289"
 ---
 # <a name="view-financial-reports"></a>Finansinių ataskaitų peržiūra
 
@@ -71,15 +71,15 @@ Spausdinant finansinę ataskaitą sukuriamas PDF failas, kurį galima spausdinti
 -   Norėdami nustatyti puslapio maketą, pasirinkite jį iš sąrašo. Jei norite, kad ataskaitos turinys tilptų į jūsų pasirinktą puslapio plotį, nustatykite slankiklį į padėtį **Taip**.
 -   Norėdami nustatyti puslapio paraštes, įveskite viršutinės, apatinės, kairiosios ir dešiniosios paraštės dydį coliais.
 
-Baigę nustatyti spausdinimo parinktis, spustelėkite **Spausdinti**, kad tęstumėte ir būtų parodytas raginimas, kuriame klausiama, ar norite failą atsisiųsti, ar įrašyti failą „OneDrive“ arba „SharePoint“. Jei nuspręsite, kad nenorite tęsti, spustelėkite **Atšaukti**. Tęsiant prasidės ataskaitos atvaizdavimas serveryje ir jūs būsite paraginti atsisiųsti ataskaitą PDF formatu. Dabar galite peržiūrėti ataskaitą PDF žiūryklėje, taip pat joje galite pasirinkti spausdintuvą, į kurį siųsite ataskaitą, ir atlikti kitus spausdinimo parinkčių pakeitimus.
+Baigę nustatyti spausdinimo parinktis, spustelėkite **Spausdinti**, kad tęstumėte ir būtų parodytas raginimas, kuriame klausiama, ar norite failą atsisiųsti, ar įrašyti failą „OneDrive“ arba „SharePoint“. Jei nuspręsite, kad nenorite tęsti, spustelėkite **Atšaukti**. Tęsiant prasidės ataskaitos atvaizdavimas serveryje ir jūs būsite paraginti atsisiųsti ataskaitą PDF formatu. Dabar galite peržiūrėti ataskaitą PDF peržiūros programoje, taip pat joje galite pasirinkti spausdintuvą, į kurį siųsite ataskaitą, ir atlikti kitus spausdinimo parinkčių pakeitimus.
 
-## <a name="export-a-financial-report"></a>Finansinės ataskaitos eksportas
+## <a name="export-a-financial-report"></a>Finansinės ataskaitos eksportavimas
 Norėdami eksportuoti finansinę ataskaitą, veiksmų srityje spustelėkite **Eksportuoti**. Ataskaita eksportuojama į „Microsoft Excel“ ir naršyklė paragins atidaryti arba įrašyti eksportuotą failą. Eksportuojamai ataskaitai pritaikomi eksporto parametrai, apibrėžti ataskaitos projekte.    
 
 <a name="additional-resources"></a>Papildomi ištekliai
 --------
 
-[Finansinės ataskaitos](../../dev-itpro/analytics/financial-reporting-intro.md)
+[Finansinės ataskaitos](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md)
 
 
 

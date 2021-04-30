@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7783c22659c5a2b070648c82a8b72e49e17b8e34
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 46e8fba0c1269aa8b81e0df8d415fe11b2307924
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823865"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897313"
 ---
 # <a name="financial-dimensions-and-posting"></a>Finansinės dimensijos ir registravimas 
 
@@ -83,17 +83,17 @@ Dėl numatytosios dimensijos žurnalo antraštėje padalinys 023 bus taikomas pa
 
 Tačiau kai eilutė registruojama, taikoma fiksuotoji dimensija ir eilutė registruojama padalinyje 022. Tolesnėje iliustracijoje pateiktas užregistruotas kvitas, kuriame fiksuotoji dimensija taikoma pardavimo sąskaitai.
 
-[![Kvitų operacijos](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![Kvitų operacijos su pritaikyta pastovia dimensija](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>2 pavyzdys
 
 Šiame pavyzdyje naudojama tokia pati sąranka, kaip pirmajame. Tačiau mes įtrauksime antrąjį komponentą ir naudosime padalino dimensiją kaip balansavimo dimensiją. Tolesnėje iliustracijoje **Padalinys** nustatytas kaip USMF DK balansavimo finansinė dimensija.
 
-[![DK](./media/ledger.png)](./media/ledger.png)
+[![Iliustracija, rodanti Padalinį kaip balansavimo finansinę dimensiją](./media/ledger.png)](./media/ledger.png)
 
-Kai naudojama ta patiurnalo antraštės sąranka ir registruojama ta pati operacija, iš pradžių taikoma fiksuotoji dimensija. Tada taikoma balansavimo logika siekiant padėti užtikrinti, kad kiekvienas padalinys turi subalansuoti įrašą. Tolesnėje iliustracijoje pateiktos kvito operacijos, apimančios balansavimo įrašą pritaikius fiksuotą dimensiją.
+Kai naudojama ta pati žurnalo antraštės sąranka ir registruojama ta pati operacija, iš pradžių taikoma fiksuotoji dimensija. Tada taikoma balansavimo logika siekiant padėti užtikrinti, kad kiekvienas padalinys turi subalansuoti įrašą. Tolesnėje iliustracijoje pateiktos kvito operacijos, apimančios balansavimo įrašą pritaikius fiksuotą dimensiją.
 
-[![Kvitų operacijos](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Kvito operacijos pritaikius balansavimo įrašą](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>3 pavyzdys
 
@@ -119,11 +119,11 @@ Kai kurie iš šių išteklių nurodo ankstesnę mūsų programinės įrangos ve
 
 [Sąskaitų plano rengimas](plan-chart-of-accounts.md) 
 
-[Sąskaitų plano sudarymas AX 2012 tinklaraštyje](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) – šis saitas nukreipia į septynių dalių serijos 1 dalį.
+[Sąskaitų plano sudarymas AX 2012 tinklaraštyje](/archive/blogs/axsa/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7) – šis saitas nukreipia į septynių dalių serijos 1 dalį.
 
-[Dimensijų naudojimas apskaitos paskirstymuose](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
+[Dimensijų naudojimas apskaitos paskirstymuose](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-in-accounting-distributions-part-1-introduction)
 
-[Dimensijų naudojimas dimensijų sistemoje](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+[Dimensijų naudojimas dimensijų sistemoje](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

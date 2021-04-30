@@ -2,7 +2,7 @@
 title: ER SPLIT funkcija
 description: Šioje temoje pateikiama informacija apie tai, kaip naudojama modulio Elektroninės ataskaitos (ER) SPLIT funkcija.
 author: NickSelin
-ms.date: 12/12/2019
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c99ee5e8129ed45253893dc83acdef99b4ce2c9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 26b6ddeb2880fc220283b6389327a497549a4511
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745598"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853448"
 ---
 # <a name="split-er-function"></a>ER SPLIT funkcija
 
@@ -79,6 +79,14 @@ Jei `input` argumentas tuščias, pateikiamas naujas tuščias sąrašas. Jei `i
 ## <a name="example-2"></a>2 pavyzdys
 
 `SPLIT ("XAb aBy", "aB")` pateikia naują sąrašą, sudarytą iš trijų įrašų, kuriuose yra tipo *Eilutė* laukas **Reikšmė**. Pirmo įrašo lauke **Reikšmė** yra tekstas **„X“**, antro įrašo lauke **Reikšmė** yra tekstas **„&nbsp;“**, o trečio įrašo lauke **Reikšmė** yra tekstas **„y“**. 
+
+## <a name="example-3"></a>3 pavyzdys
+
+Galite naudoti funkciją [RODYKLĖ](er-functions-list-index.md), kad pasiektumėte atskirus nurodytos įvesties eilutės elementus. Jei įvedate **Apskaičiuotojo lauko** tipo duomenų šaltinį **Mano sąrašas** ir jam konfigūruojate išraišką `SPLIT("abc", 1)`, išraiška `INDEX(MyList,2).Value` grąžina teksto reikšmę **„b“**.
+
+## <a name="example-4"></a>4 pavyzdys
+
+Funkcija [IŠVARDYTI](er-functions-list-enumerate.md) taip pat jums gali padėti pasiekti atskirus nurodytos įvesties eilutės elementus. Jei pirmiausia įvedate **Apskaičiuotojo lauko** tipo duomenų šaltinį **Mano sąrašas** ir jam konfigūruojate išraišką `SPLIT("abc", 1)`, o tada įvedate **Apskaičiuotojo lauko** tipo duomenų šaltinį **Sunumeruotas sąrašas** ir jam konfigūruojate išraišką `ENUMERATE(MyList)`, išraiška `FIRSTORNULL(WHERE(EnumeratedList, EnumeratedList.Number=2)).Value` grąžina teksto reikšmę **„b”**.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 080f66e4e13df44a77f0499c6d69686f0e3d7021
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bf406a954f5bb8b49627b58a901d0721cdad407b
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801196"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890033"
 ---
 # <a name="configure-dataverse-integration"></a>„Dataverse“ integravimo konfigūravimas
 
@@ -30,7 +30,7 @@ ms.locfileid: "5801196"
 Galite įjungti arba išjungti integravimą tarp „Microsoft Dataverse“ ir „Dynamics 365 Human Resources“. Galite taip pat peržiūrėti sinchronizavimo išsamią informaciją, panaikinti sekimo duomenis ir iš naujo sinchronizuoti lentelę, kad padėtumėte šalinti duomenų problemas tarp dviejų aplinkų.
 
 > [!NOTE]
-> Dėl daugiau informacijos apie „Dataverse“ (anksčiau vadintą „Common Data Service“) ir terminologijos naujinimus, žr. [Kas yra „Microsoft Dataverse“?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> Dėl daugiau informacijos apie „Dataverse“ (anksčiau vadintą „Common Data Service“) ir terminologijos naujinimus, žr. [Kas yra „Microsoft Dataverse“?](/powerapps/maker/data-platform/data-platform-intro)
 
 Kai išjungiate integravimą, vartotojai gali vykdyti „Human Resources“ arba „Dataverse“ keitimus, tačiau tie keitimai nėra sinchronizuojami tarp dviejų aplinkų.
 
@@ -71,7 +71,7 @@ Galbūt norėsite išjungti integravimą šiais atvejais:
 [![„Dataverse“ integravimo įjungimas arba išjungimas](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
 
 > [!WARNING]
-> Primygtinai rekomenduojame išjungti „Dataverse“ integravimą atliekant duomenų perkėlimo užduotis. Dideli duomenų įkėlimai gali reikšmingai pabloginti veikimą. Pavyzdžiui, 2000 darbuotojų atnaujinimas gali užimti kelias valandas, kol integravimas bus įjungtas ir mažiau nei valandą jo išjungimui.  Šiame pavyzdyje pateikti skaičiai yra tik demonstracijos tikslais. Tikslus laiko kiekis įrašų importavimui gali labai skirtis priklausomai nuo daugybės faktorių. 
+> Primygtinai rekomenduojame išjungti „Dataverse“ integravimą atliekant duomenų perkėlimo užduotis. Dideli duomenų įkėlimai gali reikšmingai pabloginti veikimą. Pavyzdžiui, 2000 darbuotojų atnaujinimas gali užimti kelias valandas, kol integravimas bus įjungtas ir mažiau nei valandą jo išjungimui. Šiame pavyzdyje pateikti skaičiai yra tik demonstracijos tikslais. Tikslus laiko kiekis įrašų importavimui gali labai skirtis priklausomai nuo daugybės faktorių.
 
 ## <a name="view-data-integration-details"></a>Duomenų integravimo išsamios informacijos apžvalga
 
@@ -88,7 +88,7 @@ Tinklelyje yra šie laukai:
 - **„Dataverse“ nuoroda į lentelę** – Identifikatorius, kurį „Dataverse“ naudoja idenfitikuoti įrašą. Ši vertė atitinka „Human Resources“ vertę **RecId**. Galite rasti identifikatorių, kai atversite „Dataverse“ lentelę „Microsoft Excel“.
 - **„Human Resources“ objekto pavadinimas** – „Human Resources“ objektas, kuris paskutinis sinchronizavimo duomenis į „Dataverse“. Objektas gali būti arba „Dataverse“ priešvardis, arba kitas priešvardis.
 - **„Human Resources“ nuoroda** – **RecId** vertė, susieta su „Human Resources“ įrašu.
-- **Pašalintas iš „Dataverse“** – Vertė, kuri identifikuoja, kar eilutė buvo pašalinta iš „Dataverse“.
+- **Pašalintas iš „Dataverse“** – Vertė, kuri identifikuoja, ar eilutė buvo pašalinta iš „Dataverse“.
 
 > [!NOTE]
 > Įrašai „Human Resources“ atitinka eilutes „Dataverse“.
@@ -124,8 +124,8 @@ Norėdami vykdyti visą sinchronizavimą lentelėje tarp „Human Resources“ i
 [„Dataverse“ lentelės](hr-developer-entities.md)<br>
 [Konfigūruokite „Dataverse“ virtualias lenteles](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [„Human Resources“ virtualių lentelių DUK](hr-admin-virtual-entity-faq.md)<br>
-[Kas yra „Microsoft Dataverse“?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
-[Terminologijos naujinimai](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+[Kas yra „Microsoft Dataverse“?](/powerapps/maker/data-platform/data-platform-intro)<br>
+[Terminologijos naujinimai](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

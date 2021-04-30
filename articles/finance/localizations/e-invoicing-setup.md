@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: fd0dda0adb292c10eea0a770ae0eae33d5f91f17
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9aac18155fbc7a87554ac0521cd9f40d11eba9e2
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840009"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890836"
 ---
 # <a name="set-up-electronic-invoicing"></a>Elektroninių SF nustatymas
 
@@ -75,7 +75,7 @@ Atlikite toliau pateiktus veiksmus, norėdami įtraukti ER formatų į elektroni
     > [!NOTE]
     > Redaguojant formatą, konfigūracijos versijos būsena nustatoma į **Juodraštis**.
 
-3. Norėdami pakeisti failo formato konfigūraciją, naudokite puslapį **Formato dizaino įrankis**. Daugiau informacijos žr. [Elektroninių dokumentų konfigūracijų kūrimas](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration).
+3. Norėdami pakeisti failo formato konfigūraciją, naudokite puslapį **Formato dizaino įrankis**. Daugiau informacijos žr. [Elektroninių dokumentų konfigūracijų kūrimas](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md).
 
     ![Formato dizaino įrankio puslapis](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
 
@@ -303,7 +303,7 @@ Toliau pateikta lentelė aprašo laukus, pasiekiamus skirtuke **Kintamieji**.
 | Pavadinimas        | Kintamojo pavadinimas. |
 | Aprašas | Trumpas kintamojo aprašas. |
 | Tipas        | Kintamojo tipas:<ul><li><strong>Pastovus</strong> – kintamojo turinys yra fiksuotas.</li><li><strong>Iš kliento</strong> – kintamojo turinys įsigyjamas iš „Microsoft Dynamics 365” kliento pateikimo proceso vykdymo metu.</li><li><strong>Klientui</strong> – „Microsoft Dynamics 365” klientas pateikia kintamojo turinį importavimui pateikimo proceso vykdymo metu.</li></ul> |
-| Duomenų tipas   | Kintamojo duomenų tipas:<ul><li>Bulio logika</li><li>Data</li><li>Number</li><li>UUID</li><li>Eilutė</li><li>Failas</li></ul> |
+| Duomenų tipas   | Kintamojo duomenų tipas:<ul><li>Bulio logika</li><li>Data</li><li>Numeris</li><li>UUID</li><li>Eilutė</li><li>Failas</li></ul> |
 | Reikšmė       | Kintamojo reikšmė arba veiksmo, kuris nustato kintamojo reikšmę, pavadinimas. |
 
 ### <a name="validate-the-feature-setup"></a>Funkcijos nustatymo tikrinimas

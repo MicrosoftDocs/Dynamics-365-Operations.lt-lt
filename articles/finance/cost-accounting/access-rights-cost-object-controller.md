@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a3639c05b24de31cfa09d2d9d0cf427122f51eae
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fa8faf0f0f45f901151b3b20a1792b3d8f264fa6
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810203"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897629"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>Savikainos objekto valdiklių prieigos teisės
 
@@ -62,9 +62,8 @@ Toliau pateiktame pavyzdyje parodyta, kaip gali atrodyti dimensijų hierarchija.
 
 Naudodami „FastTab“ skirtuką **Vartotojai** hierarchijos dizaino įrankyje kiekviename mazge galite įterpti vieną ar kelis vartotojų ID.
 
-|                                   | Vartotojai            | Dimensijos narių intervalai   |                         |
+|             Mazgai                 | Vartotojai            | Iš dimensijos nario     |   Į dimensijos narį   |
 |-----------------------------------|------------------|---------------------------|-------------------------|
-| **Mazgai**                         | **Vartotojo ID**      | **Iš dimensijos nario** | **Į dimensijos narį** |
 | Organizacija                      | Benjamin, Claire |                           |                         |
 | &nbsp;&nbsp;Administratorius                 | Balandžio            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Finansai   | Alicia           | CC002                     | CC003                   |
@@ -95,14 +94,14 @@ Prieigos sąrašo hierarchijos parametrai naudojami norint valdyti toliau nurody
     - Į „Dynamics 365 Finance“ klientą įtrauktų duomenų „Power BI“ vizualizavimai
 
 > [!IMPORTANT]
-> - Tam, kad prieigos sąrašo hierarchija galėtų turėti įtakos „Power BI“, turi būti susieta prieigos sąrašo hierarchija ir „Power BI“ eilučių lygio sauga. Daugiau informacijos rasite dalyje [Kaštų apskaitos turinio paketo saugos nustatymas](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Tam, kad prieigos sąrašo hierarchija galėtų turėti įtakos „Power BI“, turi būti susieta prieigos sąrašo hierarchija ir „Power BI“ eilučių lygio sauga. Daugiau informacijos rasite dalyje [Kaštų apskaitos turinio paketo saugos nustatymas](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Šioje temoje rodomos prieš naudojantis darbo sritimi **Savikainos kontrolė** turimos įdiegti būtinosios sąlygos.
 
 Papildomi ištekliai
 
 - [Savikainos kontrolės darbo sritis](cost-control-workspace.md)
 - [Dimensijų hierarchija](dimension-hierarchy.md)
-- [Kaštų apskaitos turinio paketo saugos nustatymas](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+- [Kaštų apskaitos turinio paketo saugos nustatymas](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5d3b85e076292b9d41de6a4cf3198ed9b38d27c8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9e6138ccd92019f52afab0d8ed4b8cf64d66ff24
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828039"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897701"
 ---
 # <a name="mobile-invoice-approvals"></a>SF patvirtinimai mobiliąja programa
 
@@ -32,7 +32,7 @@ Mobiliųjų įrenginių galimybės verslo vartotojui suteikia galimybę kurti mo
 
 | Būtinoji sąlyga                                                                                            | aprašymas                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Išankstinis mobiliųjų įrenginių vadovo perskaitymas                                                                                |[Mobilioji platforma](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
+| Išankstinis mobiliųjų įrenginių vadovo perskaitymas                                                                                |[Mobilioji platforma](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | „Dynamics 365 Finance“                                                                              | Aplinka, kurioje yra 1611 versija ir 3 platformos naujinimas (2016 m. lapkričio mėn.)                   |
 | Įdiekite karštąsias pataisas KB 3204341.                                                                              | Užduočių įrašymo priemonė gali klaidingai įrašyti dvi išplečiamųjų dialogų komandas Uždaryti; tai įtraukta į 3 platformos naujinį (2016 m. lapkričio mėn. naujinys). |
 | Įdiekite karštąsias pataisas KB 3207800.                                                                              | Įdiegus šias karštąsias pataisas, priedus galima peržiūrėti mobiliajame kliente; tai įtraukta į 3 platformos naujinį (2016 m. lapkričio mėn. naujinys).           |
@@ -60,7 +60,7 @@ SF tvirtinimo mobiliuosiuose įrenginiuose patirties kūrimas skirsis, priklauso
 
 Paprastai dirbant su mobiliųjų įrenginių dizaino įrankiu patariama nepamiršti publikuoti keitimų, kad neprarastumėte naujinimų.
 
-## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>„Contoso“ paprasto SF tvirtinimo scenarijaus kūrimas
+## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>Paprasto sąskaitos faktūros patvirtinimo scenarijaus kūrimas „Contoso”
 <table>
 <colgroup>
 <col width="50%" />
@@ -213,7 +213,7 @@ Norėdami kurti sąskaitų faktūrų informacijos mobiliųjų įrenginių puslap
 
 11. Kai visi ankstesniuose dviejuose veiksmuose nurodyti laukai įtraukti, spustelėkite **Atlikta**. Puslapyje turi būti tolesnėje iliustracijoje nurodyta informacija.
     
-    [![Puslapio rodinys įtraukus laukus](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![Iliustracija, rodanti įtrauktus papildomus laukus](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 
 12. Spustelėkite **Atlikta**, kad uždarytumėte redagavimo režimą.
 
@@ -319,7 +319,7 @@ Norėdami įtraukti darbo eigos veiksmų, naudokite puslapį **VendMobileInvoice
 
 2. Spustelėkite mygtuką **Redaguoti**, kad įjungtumėte darbo srities redagavimo režimą.
 
-3. Pasirinkite puslapį <strong>SF informacija, ** kurį sukūrėte anksčiau, o tada spustelėkite** Redaguoti</strong>.
+3. Pasirinkite puslapį <strong>SF informacija, **kurį sukūrėte anksčiau, o tada spustelėkite **Redaguoti</strong>.
 
 4. Nustatykite parinkties **Dokumentų valdymas** reikšmę **Taip**, kaip parodyta toliau. **Pastaba.** Jei mobiliajame įrenginyje priedų rodyti nereikia, galite palikti nustatytą šios parinkties reikšmę **Ne**, kuri yra numatytasis nustatymas.
    

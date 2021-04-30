@@ -14,12 +14,12 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dabde875e719ca2ffb5033cdbb8229e005203eae
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0f3ce6684cb98e3e459f33ce7c34cd9955abd59
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839941"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894869"
 ---
 # <a name="advance-holders-overview"></a>Avanso turėtojų apžvalga
 
@@ -53,7 +53,7 @@ Naudokite puslapį **Darbuotojų registravimo šablonai**, kad sukurtumėte avan
 |   **Aprašymas**   |  Įveskite trumpą registravimo šablono aprašą.                         |
 |    **Galioja**    |  Pasirinkite vieną iš tolesnių registravimo šablono nustatymo grupavimo lygio parinkčių. <ul> <li>**Lentelė** – ši parinktis naudojama nustatant vieno avanso turėtojo registravimo šabloną. Turite nurodyti avanso turėtojo kodą lauke **Nuoroda**.</li> <li>**Grupė** – ši parinktis naudojama nustatant avanso turėtojų grupės registravimo šabloną. Turite nurodyti grupės kodą lauke **Nuoroda**.</li> <li>**Visi** – ši parinktis naudojama nustatant visų avanso turėtojų registravimo šabloną.</li></ul> |
 | **Nuoroda** | Jei **Lentelė** pasirinkta lauke **Kam galioja**, pasirinkite avanso turėtojo kodą, o jei **Grupė** pasirinkta lauke **Kam galioja**, pasirinkite avanso turėtojo grupę. |
-| **Suminė sąskaita** | Pasirinkite suminę saskaitą operacijoms registruoti. |
+| **Suminė sąskaita** | Pasirinkite suminę sąskaitą operacijoms registruoti. |
 
 
 
@@ -78,7 +78,7 @@ Norėdami tinkamai užregistruoti pirkimo užsakymą per avanso turėtoją, turi
 
 ### <a name="create-an-advance-holder"></a>Avanso turėtojo kūrimas
 
-Prieš kurdami avanso turėtoją, turite būti jau nustatę darbuotojus. Norėdami gauti daugiau informacijos, žr. [Darbuotojo informacijos įvedimas (užduočių vedlys)](../../fin-and-ops/hr/tasks/enter-worker-information.md). 
+Prieš kurdami avanso turėtoją, turite būti jau nustatę darbuotojus. Norėdami gauti daugiau informacijos, žr. [Darbuotojo informacijos įvedimas (užduočių vedlys)](../../human-resources/hr-personnel-enter-worker-information.md). 
 
 1. Pasirinkite **Mokėtinos sumos** \> **Avanso turėtojai** \> **Avanso turėtojai**.
 

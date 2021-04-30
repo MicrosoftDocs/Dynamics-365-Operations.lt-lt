@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96e112432ba79d2657a8d440e8e040fca45392a2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d94426580d65dc1639de4b2dd1b3f283724a1a9e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825523"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909209"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Įsigijimo ir šaltinio pasirinkimo pagrindinis puslapis
 
@@ -83,12 +83,12 @@ ms.locfileid: "5825523"
 ## <a name="prices-and-discounts"></a>Kainos ir nuolaidos
 -   [Pirkimo sutartys](purchase-agreements.md)
 -   [Kurti pirkimo sutartį](tasks/create-purchase-agreement.md)
--   [Tiekėjo grąžinimai](https://docs.microsoft.com/dynamics/s-e/) (techninė dokumentacija)
+-   [Tiekėjo grąžinimai](/dynamics/s-e/) (techninė dokumentacija)
 
 ## <a name="product-receipt-and-invoicing"></a>Produkto gavimo kvitas ir SF išrašymas
 -   [Produkto gavimas pagal pirkimo užsakymą](product-receipt-against-purchase-orders.md)
--   [Tiekėjo SF apžvalga](../../financials/accounts-payable/vendor-invoices-overview.md)
--   [Tiekėjų registravimo profiliai](../../financials/accounts-payable/vendor-posting-profiles.md)
+-   [Tiekėjo SF apžvalga](../../finance/accounts-payable/vendor-invoices-overview.md)
+-   [Tiekėjų registravimo profiliai](../../finance/accounts-payable/vendor-posting-profiles.md)
 
 ## <a name="procurement-and-sourcing-workflows"></a>Paraiškų darbo eigos
 -   [Įsigijimo ir šaltinio pasirinkimo apžvalga](procurement-sourcing-overview.md)

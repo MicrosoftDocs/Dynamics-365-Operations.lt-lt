@@ -2,11 +2,11 @@
 title: Nuomų valdymas per nuomos importavimo sistemą
 description: Šioje temoje paaiškinama, kaip naudoti nuomos importavimo sistemą siekiant pakoreguoti kelias nuomos sutartis tuo pačiu metu.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeaseImportHeader
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 26fb195ff18dc0c86d3546b782265043c2c78bf4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 083adf0a4bb74ac65e6f8b5077f65c74eb3fa337
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819799"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880915"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>Nuomų valdymas per nuomos importavimo sistemą
 
@@ -51,28 +51,28 @@ Norėdami peržiūrėti nuomos išdėstymo duomenis prieš vykdydami apdorojimą
 Funkcija lyginti leidžia palyginti įrašą, kurį importuojate, su atitinkamu įrašu, kuris jau yra jūsų sistemoje. Norėdami palyginti atskirą nuomos įrašą, pasirinkite nuomą ir pasirinkite **Lyginti**. Turite atlikti šį veiksmą, kad būtų sugeneruota ataskaita **Skirtumai**, prieš perkeldami nuomos įrašus. Funkcija lyginti sulygina išdėstymo duomenų vertes su nuomos, kuri šiuo metu yra sistemoje, vertėmis.
 
 > [!NOTE]
-> Funkcija Lyginti neveikia, jei nuomos proceso tipas yra **Įtraukti įrašą**, nes nėra ką lyginti su šia nuoma.
+> Funkcija Palyginti neveiks, jei nuomos proceso tipas yra **Įtraukti įrašą**, kadangi nėra ko palyginti su šia nuoma.
 >
-> Norėdami palyginti kelias nuomas tuo pačiu metu, pasirinkite **Turto nuoma \> Nuomos importavimo sistema \> Periodiškai \> Palyginimas** ir pasirinkite **Lyginti**.
+> Norėdami palyginti kelias nuomas tuo pačiu metu, pasirinkite **Turto nuoma \> Nuomos importavimo sistema \> Periodiškai** ir pasirinkite **Palyginti**.
 
 Kiekvienam objektui galite peržiūrėti skirtumus tarp to, kas šiuo metu yra sistemoje, ir kas yra išdėstymo lentelėse. Kiekvienam išdėstymo lentelės objektui pasirinkite **Peržiūrėti skirtumus**. Pasirodys dialogo langas, rodantis dabartinę vertę ir siūlomą išdėstymo vertę.
 
 Taip pat galite atnaujinti išdėstymo vertę pakeisdami ją stulpelyje **Nauja reikšmė** ir tada pasirinkdami **Atnaujinti išdėstymą**.
 
-Norėdami užtikrinti, kad įrašus būtų galima įtraukti į sistemą neįkeliant klaidų, galite patvirtinti nuomą. Prieš perkeliant nuomos įrašą, sistema vykdo kelis tikrinimus, siekdama užtikrinti, kad įrašas bus sėkmingai importuotas. Norėdami patikrinti atskirą nuomą, pasirinkite **Patvirtinti**.
+Norėdami užtikrinti, kad įrašus būtų galima įtraukti į sistemą neįkeliant klaidų, galite patvirtinti nuomą. Prieš perkeliant nuomos įrašą, sistema vykdo kelis tikrinimus, siekdama užtikrinti, kad įrašas bus sėkmingai importuotas. Norėdami patikrinti atskirą nuomą, pasirinkite **Patikrinti**.
 
 > [!NOTE]
-> Norėdami patikrinti kelias nuomas tuo pačiu metu, pasirinkite **Turto nuoma \> Nuomos importavimo sistema \> Periodiškai \> Tikrinimas** ir pasirinkite **Lyginti**.
+> Norėdami patikrinti kelias nuomas tuo pačiu metu, pasirinkite **Turto nuoma \> Nuomos importavimo sistema \> Periodiškai** ir pasirinkite **Tikrinti**.
 
 Norėdami apdoroti atskirą nuomą, puslapyje **Importavimo antraštė** pasirinkite **Perkelti nuomos įrašus**. Kai perkeliama nuoma, sistema atlieka veiksmą, kuris nurodytas lauke **Proceso tipas**.
 
 > [!NOTE]
-> Norėdami patikrinti kelias nuomas tuo pačiu metu, pasirinkite **Turto nuoma \> Nuomos importavimo sistema \> Periodiškai \> Tikrinimas** ir pasirinkite **Lyginti**.
+> Norėdami perkelti kelias nuomas tuo pačiu metu, pasirinkite **Turto nuoma \> Nuomos importavimo sistema \> Periodiškai** ir pasirinkite **Perkelti**.
 
 Palyginus nuomas, galite vykdyti ataskaitą, kad peržiūrėtumėte kiekvienos nuomos, įtrauktos į importavimo ID, skirtumus. Norėdami paleisti vienos nuomos ataskaitą, pasirinkite nuomos duomenis, o tada pasirinkite **Lyginti ir peržiūrėti ataskaitą \> Skirtumų ataskaita**.
 
 > [!NOTE]
-> Norėdami patikrinti kelias nuomas tuo pačiu metu, pasirinkite **Turto nuoma \> Užklausos ir ataskaitos \> Skirtumų ataskaita** ir pasirinkite **Lyginti**.
+> Norėdami palyginti kelias nuomas tuo pačiu metu, pasirinkite **Turto nuoma \> Nuomos importavimo sistema \> Periodiškai** ir tada – **Palyginti**. 
 
 ## <a name="set-up-update-fields"></a>Atnaujinamų laukų nustatymas
 

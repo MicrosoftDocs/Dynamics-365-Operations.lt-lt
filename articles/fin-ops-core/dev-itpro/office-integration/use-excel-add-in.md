@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05b5126b29351ca3093e75e878682f7a07186898
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a39dbdcae29df5e838673dc1fe77ae7e76ebfc86
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752971"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908346"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Objekto duomenų peržiūra ir atnaujinimas programoje „Excel“ 
 
@@ -45,7 +45,7 @@ Norėdami daugiau sužinoti, kaip naudotis „Excel“ papildiniu, peržiūrėki
 2. Pasirinkite parinktį **Atidaryti naudojant „Excel“** ir atidarykite sukurtą darbaknygę. Šioje darbaknygėje pateikiama su objektu susijusi informacija, aplinkos žymiklis ir „Excel“ papildinio žymiklis.
 3. Programoje „Excel“ pasirinkite **Įjungti redagavimą**, kad įjungtumėte „Excel“ papildinį. „Excel“ papildinys paleidžiamas dešinėje „Excel“ lango pusėje esančioje srityje.
 4. Jei „Excel“ papildinį paleisite pirmą kartą, pasirinkite **Pasitikėti šiuo papildiniu**.
-5. Jei pasirodė langas, reikalaujantis prisijungti, pasirinkite **Prisijungti**, tada prisijunkite naudodami tuos pačius kredencialus, kuriuos naudojote jungdamiesi prie „Finance and Operations“ programos. „Excel“ papildinys naudos ankstesnį prisijungimo kontekstą iš naršyklės, ir esant galimybei, automatiškai jus prijungs. (Daugiau informacijos apie naršyklę, naudojamą remiantis operacine sistema, žr. [„Office” papildinių naudojamos naršyklės](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.) Norėdami užtikrinti, kad sėkmingai prisijungėte, viršutiniame dešiniajame „Excel” papildinio kampe patikrinkite vartotojo vardą. 
+5. Jei pasirodė langas, reikalaujantis prisijungti, pasirinkite **Prisijungti**, tada prisijunkite naudodami tuos pačius kredencialus, kuriuos naudojote jungdamiesi prie „Finance and Operations“ programos. „Excel“ papildinys naudos ankstesnį prisijungimo kontekstą iš naršyklės, ir esant galimybei, automatiškai jus prijungs. (Daugiau informacijos apie naršyklę, naudojamą remiantis operacine sistema, žr. [„Office” papildinių naudojamos naršyklės](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.) Norėdami užtikrinti, kad sėkmingai prisijungėte, viršutiniame dešiniajame „Excel” papildinio kampe patikrinkite vartotojo vardą. 
 
 Naudojant „Excel“ papildinį automatiškai nuskaitomi pasirinkto objekto duomenys. Atminkite, kad darbaknygėje duomenys bus pateikiami tik „Excel“ papildiniui juos nuskaičius.
 
@@ -60,7 +60,7 @@ Naudojant „Excel“ papildinį automatiškai nuskaitomi pasirinkto objekto duo
 
 6. Pasirinkite **Gerai**, tada pasirinkite **Taip**, kad patvirtintumėte pakeitimą. „Excel“ papildinys paleidžiamas iš naujo ir įkeliami metaduomenys.
 
-    Jau galima naudoti mygtuką **Dizainas**. Jei „Excel“ papildinyje yra mygtukas **Įkelti programėles**, tikriausiai neprisijungėte kaip tinkamas vartotojas. Jei reikia daugiau informacijos, žr. šios temos skyriaus [Trikčių diagnostika](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) dalį „Rodomas mygtukas Įkelti programėles“.
+    Jau galima naudoti mygtuką **Dizainas**. Jei „Excel“ papildinyje yra mygtukas **Įkelti programėles**, tikriausiai neprisijungėte kaip tinkamas vartotojas. Jei reikia daugiau informacijos, žr. šios temos skyriaus [Trikčių diagnostika](../office-integration/use-excel-add-in.md#troubleshooting) dalį „Rodomas mygtukas Įkelti programėles“.
 
 7. Pasirinkite **Dizainas**. Naudojant „Excel“ papildinį gaunami objektų metaduomenys.
 8. Pasirinkite **Įtraukti lentelę**. Pateikiamas objektų sąrašas. Jame objektai nurodomi „Pavadinimas – žyma“ formatu.
@@ -138,7 +138,7 @@ Kelias triktis galima pašalinti atlikus paprastus veiksmus.
 
 - **Rodomas mygtukas Įkelti programėles** – jei prisijungus „Excel“ papildinyje yra mygtukas **Įkelti programėles**, tikriausiai neprisijungėte kaip tinkamas vartotojas. Norėdami išspręsti šią problemą, patikrinkite, ar viršutiniame dešiniajame „Excel“ papildinio kampe pateikiamas teisingas vartotojo vardas. Jei pateikiamas neteisingas vartotojo vardas, jį pasirinkite, atsijunkite, tada prisijunkite iš naujo.
 - **Gaunate pranešimą „Uždrausta“** – jei „Excel“ papildiniui įkeliant metaduomenis gausite pranešimą „Uždrausta“, paskyrai, kurios duomenis naudojant yra prisijungta prie „Excel“ papildinio, nesuteiktos teisės naudoti paskirties paslaugą, egzempliorių ar duomenų bazę. Norėdami išspręsti šią problemą, patikrinkite, ar viršutiniame dešiniajame „Excel“ papildinio kampe pateikiamas teisingas vartotojo vardas. Jei pateikiamas neteisingas vartotojo vardas, jį pasirinkite, atsijunkite, tada prisijunkite iš naujo.
-- **Programoje „Excel“ pateikiamas tuščias tinklalapis** – jei per prisijungimo procesą atidaromas tuščias tinklalapis, paskyroje būtinai turi būti naudojama AD FS, tačiau įdiegta nepakankamai nauja papildinį paleidžianti „Excel“ versija ir prisijungimo dialogo langas neįkeliamas. Norėdami pašalinti šią triktį, atnaujinkite naudojamą „Excel“ versiją. Norėdami atnaujinti „Excel“ versiją įmonėje, kurioje naudojamas atidėtų naujinimų kanalas, naudodami [„Office“ diegimo įrankį](https://technet.microsoft.com/library/jj219422.aspx) [pakeiskite atidėtų naujinimų kanalą į dabartinių naujinimų kanalą](https://technet.microsoft.com/library/mt455210.aspx).
+- **Programoje „Excel“ pateikiamas tuščias tinklalapis** – jei per prisijungimo procesą atidaromas tuščias tinklalapis, paskyroje būtinai turi būti naudojama AD FS, tačiau įdiegta nepakankamai nauja papildinį paleidžianti „Excel“ versija ir prisijungimo dialogo langas neįkeliamas. Norėdami pašalinti šią triktį, atnaujinkite naudojamą „Excel“ versiją. Norėdami atnaujinti „Excel“ versiją įmonėje, kurioje naudojamas atidėtų naujinimų kanalas, naudodami [„Office“ diegimo įrankį](/deployoffice/overview-office-deployment-tool) [pakeiskite atidėtų naujinimų kanalą į dabartinių naujinimų kanalą](/deployoffice/overview-update-channels).
 - **Gausite pranešimą apie pasibaigusį skirtą laiką, kol paskelbsite duomenų pakeitimus** – jei gaunate pranešimus apie pasibaigusį skirtą laiką, kol bandote paskelbti objekto duomenų pakeitimus, pabandykite sumažinti paveiktos darbaknygės skelbiamo paketo dydį. Objektai, kurių įrašų pakeitimų atlikimas yra sudėtingesnis, jų pakeitimus reikia siųsti mažesniais paketais, kad išvengtumėte pranešimų apie pasibaigusį skirtąjį laiką.
 
 

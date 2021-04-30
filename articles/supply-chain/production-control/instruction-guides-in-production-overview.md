@@ -1,5 +1,5 @@
 ---
-title: Mišrios realybės vadovų pateikimas į gamybą įtrauktiems darbuotojams
+title: Mišrios realybės „Guides” pateikimas į gamybą įtrauktiems darbuotojams
 description: Šioje temoje paaiškinta, kaip susieti „Microsoft Dynamics 365 Supply Chain Management“ gamybos valdymo modulį su „Dynamics 365 Guides“.
 author: cabeln
 ms.date: 11/13/2020
@@ -16,14 +16,14 @@ ms.search.industry: Manufacturing
 ms.author: cabeln
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 59fe3996013737198d4fbc86d64f8ef9dbe035e4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 15595c46f9d6ff91f6fd618859e9f059ae88bd78
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829359"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910094"
 ---
-# <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Mišrios realybės vadovų pateikimas į gamybą įtrauktiems darbuotojams
+# <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Mišrios realybės „Guides” pateikimas į gamybą įtrauktiems darbuotojams
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -49,7 +49,7 @@ Vadovus galite susieti su įvairiomis gamybos kontrolės sritimis, įskaitant to
 - [Įprastų operacijų ryšiai](#route-operation-relations)
 
 > [!NOTE]
-> Taip pat vadovus galite susieti su turto valdymu. Išsamesnės informacijos apie šią parinktį žr. [„Dynamics 365 Supply Chain Management“ (turto valdymo) integravimas su „Dynamics 365 Guides“](../asset-management/asset-management-guides-integration.md).
+> Taip pat „Guides” galite susieti su turto valdymu. Išsamesnės informacijos apie šią parinktį žr. [„Dynamics 365 Supply Chain Management“ (turto valdymo) integravimas su „Dynamics 365 Guides“](../asset-management/asset-management-guides-integration.md).
 
 Kai darbą atliekantis darbuotojas ceche pasirenka užduotį naudodamas „Supply Chain Management“, užduoties kortelėje darbuotojas gali matyti [susijusias instrukcijas](#logic). Darbuotojui pasirinkus konkrečią instrukciją, ekrane rodomas instrukcijos QR kodas. Tada darbuotojas naudodamas „HoloLens“ nuskaito QR kodą, kuris paleidžia „Guides“ ir rodo reikiamas instrukcijas.
 
@@ -102,8 +102,8 @@ Tam, kad būtų galima gauti instrukcijas vykdant gamybos procesą, „Supply Ch
 Tam, kad galėtumėte naudoti šią funkciją, jūsų sistemą turi sudaryti toliau nurodytos dalys.
 
 - „Dynamics 365 Supply Chain Management“ 10.0.15 arba naujesnė versija
-- [Dvigubas rašymas](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/enable-dual-write) „Supply Chain Management“ programoms.
-- [„Dynamics 365 Guides](https://docs.microsoft.com/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution)“ 400.0.1.48 arba naujesnė versija
+- [Dvigubas rašymas](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-dual-write.md) „Supply Chain Management“ programoms.
+- [„Dynamics 365 Guides](/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution)“ 400.0.1.48 arba naujesnė versija
 
 ### <a name="turn-on-the-feature"></a>Funkcijos įjungimas
 

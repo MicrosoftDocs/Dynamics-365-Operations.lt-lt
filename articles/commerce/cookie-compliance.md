@@ -2,7 +2,7 @@
 title: Slapukų atitiktis
 description: Šioje temoje apžvelgiama slapukų atitiktis ir numatytosios strategijos, įtrauktos į „Microsoft Dynamics 365 Commerce“.
 author: BrianShook
-ms.date: 08/31/2020
+ms.date: 04/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2cc2089bc3052c0c59cb0414f8301123a9a30df2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: efc84bcea2fb6c28c0b13d4469e858e82cc1c073
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796032"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908189"
 ---
 # <a name="cookie-compliance"></a>Slapukų atitiktis
 
@@ -50,6 +50,57 @@ Toliau pateikiamoje lentelėje rodomas dabartinis slapukų nuorodų sąrašas, k
 | x-ms-cpim-slice                             | Naudojama norint nukreipti užklausas į atitinkamą gamybos autentifikavimo serverio egzempliorių. |
 | x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Naudojama SSO seansui tvarkyti.                        |
 | x-ms-cpim-trans                             | Naudojama operacijoms stebėti (atidarytų skirtukų skaičius, kuriais autentifikuojama lyginant su įmonė–vartotojui (B2C) svetaine), įskaitant dabartinę operaciją. |
+| „\_msdyn365___muid_”                            | Naudojama, jei aplinkai yra suaktyvintas Eksperimentavimas; naudojamas kaip vartotojo ID eksperimentavimo tikslais. |
+| „\_msdyn365___exp_”                             | Naudojama, jei aplinkai yra suaktyvintas Eksperimentavimas; naudojamas matuoti efektyvumo įkelties balansavimui.         |
+
+
+
+Jeigu svetainės vartotojas pasirenka bet kuriuos socialinės medijos saitus svetainėje, šioje lentelėje pateikti slapukai taip pat bus sekami jų naršyklėje.
+
+
+| Domenas                      | Slapukas               | Aprašas                                                  | Šaltinis                                          |
+| --------------------------- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| „.linkedin.com”                | Vartotojo atitikties istorija         | „LinkedIn” skelbimų ID sinchronizavimas                                      | „LinkedIn” Sklaidos kanalas ir Įžvalgų žymė                                |
+| „.linkedin.com”               | „li_sugr”                  | Naršyklės identifikatorius                                           | „LinkedIn” Įžvalgų žymė, jeigu IP adresas nėra priskirtoje šalyje |
+| „.linkedin.com”               | Bizografikos atsisakymas       | Nustato atsisakymo būseną trečiosios šalies sekimui.              | „LinkedIn” svečių valdikliai ir industrijos atsisakymo puslapiai           |
+| „.linkedin.com”               | „\_guid”                    | Naršyklės identifikatorius, skirtas „Google Ads”.                            | „LinkedIn” Sklaidos kanalas                                                |
+| „.linkedin.com”               | „li_oatml”                 | Nario netiesioginis identifikatorius, skirtas konvertavimo sekimui, tiksliniam nukreipimui ir analizei. | „LinkedIn” Skelbimų ir Įžvalgų žymės                                |
+| Įvairūs pirmosios šalies domenai | „li_fat_id”                | Nario netiesioginis identifikatorius, skirtas konvertavimo sekimui, tiksliniam nukreipimui ir analizei. | „LinkedIn” Skelbimų ir Įžvalgų žymės                                |
+| „.adsymptotic.com”            | U                        | Naršyklės identifikatorius                                           | „LinkedIn” Įžvalgų žymė, jei IP adresas yra nepriskirtoje šalyje |
+| „.linkedin.com”                | „bcookie”                  | Naršyklės ID slapukas                                            | Užklausos į „LinkedIn”                                         |
+| „.linkedin.com”                | „bscookie”                 | Saugios naršyklės slapukas                                        | Užklausos į „LinkedIn”                                         |
+| „.linkedin.com”               | „lang”                     | Nustato numatytąją lokalę ir kalbą.                                 | Užklausos į „LinkedIn”                                         |
+| „.linkedin.com”                | „lidc”                     | Naudojama nukreipimui.                                             | Užklausos į „LinkedIn”                                         |
+| „.linkedin.com”               | „aam_uuid”                 | „Adobe” auditorijos vadovo slapukas                                                     | ID sinchronizavimo nustatymas                                              |
+| „.linkedin.com”               | „\_ga”                      | „Google Analytics“ slapukas                                            | „Google Analytics“                                             |
+| „.linkedin.com”               | „\_gat”                     | „Google Analytics“ slapukas                                             | „Google Analytics“                                             |
+| „.linkedin.com”               | „liap”                     | „Google Analytics“ slapukas                                             | „Google Analytics“                                             |
+| „.linkedin.com”               | „lissc”                    |                                                              |                                                              |
+| „.facebook.com”               | „c_user”                   | Slapuke yra šiuo metu prisijungusio vartotojo ID.  |   „Facebook“                                                           |
+| „.facebook.com”               | „datr”                     | Naudojama nustatyti žiniatinklio naršyklę, kuri yra naudojama prisijungimui prie „Facebook”, nepriklausomai nuo prisijungusio vartotojo. | „Facebook“                                                             |
+| „.facebook.com”               | „wd”                       | Saugo naršyklės lango dimensijas ir yra naudojama „Facebook” puslapio generavimui optimizuoti. | „Facebook“                                                             |
+| „.facebook.com”               | „xs”                       | Dviženklis skaičius, nurodantis seanso numerį. Antroji reikšmes dalis yra seanso slaptasis raktas. |  „Facebook“                                                            |
+| „.facebook.com”               | fr                       | Apima unikaliuosius naršyklės ir vartotojo ID, naudojamus tikslinei reklamai. |  „Facebook“                                                            |
+| „.facebook.com”               | „sb”                       | Naudojama patobulinti „Facebook” draugų pasiūlymus.                                |  „Facebook“                                                            |
+| „.facebook.com”               | „spin”                     |                                                              |  „Facebook“                                                            |
+| „.twitter.com”                | „guest_id”                 |                                                              |  Twitter                                                            |
+| „.twitter.com”                | „kdt”                      |                                                              |  Twitter                                                             |
+| „.twitter.com”                | „personalization_id”       | Slapukas apima šiuo metu prisijungusio vartotojo ID.  |  Twitter                                                             |
+| „.twitter.com”                | „remember_checked_on”      |                                                              | Twitter                                                              |
+| „.twitter.com”                | „twid”                     |                                                              |  Twitter                                                             |
+| „.pinterest.com”              | „\_auth”                    | Slapuke yra šiuo metu prisijungusio vartotojo ID.  |   „Pinterest”                                                           |
+| „.pinterest.com”              | „\_ b”                       |                                                              |   „Pinterest”                                                           |
+| „.pinterest.com”              | „\_pinterest_pfob”          |                                                              |  „Pinterest”                                                            |
+| „.pinterest.com”              | „\_pinterest_referrer”      | Slapukai apima puslapius, kai vartotojas pasirenka „Pinterest” mygtuką.      |  „Pinterest”                                                            |
+| „.pinterest.com”              | „\_pinterest_sess”          | Slapukai apima puslapius, kai vartotojas pasirenka „Pinterest” mygtuką.      |  „Pinterest”                                                            |
+| „.pinterest.com”              | „\_routing_id”              |                                                              |  „Pinterest”                                                            |
+| „.pinterest.com”              | „bei”                      |                                                              |  „Pinterest”                                                            |
+| „.pinterest.com”              | „cm_sub”                   | Apima vartotojo ID ir slapuko sukūrimo laiko žymą. |  „Pinterest”                                                            |
+| „.pinterest.com”              | „csrftoken”                | Slapukai apima puslapius, kai vartotojas pasirenka „Pinterest” mygtuką.      | „Pinterest”                                                             |
+| „.pinterest.com”              | „sessionFunnelEventLogged” | Slapukai apima puslapius, kai vartotojas pasirenka „Pinterest” mygtuką.      | „Pinterest”                                                             |
+| „.pinterest.com”              | Vietinė saugykla            |                                                              |  „Pinterest”                                                            |
+| „.pinterest.com”              | Tarnybos darbuotojai          |                                                              |  „Pinterest”                                                            |
+
 
 ## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>Svetainės vartotojo sutikimas dėl slapukų „e-Commerce” svetainėje 
 

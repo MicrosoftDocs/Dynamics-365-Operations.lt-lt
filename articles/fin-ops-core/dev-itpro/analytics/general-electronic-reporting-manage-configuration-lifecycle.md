@@ -1,8 +1,8 @@
 ---
 title: Elektroninių ataskaitų (ER) konfigūracijų ciklo valdymas
-description: Šioje temoje aprašoma, kaip valdyti „Microsoft Dynamics 365 Finance“ sprendimo elektroninių ataskaitų (ER) konfigūracijų ciklą.
+description: Šioje temoje aprašoma, kaip valdyti „Dynamics 365 Finance“ Elektroninių ataskaitų (ER) konfigūracijų ciklą.
 author: NickSelin
-ms.date: 06/20/2017
+ms.date: 04/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 165f2c981b550f8a6fd4d2ce08763e6fa3c8b6e7
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 52aba53b5323a9c6c4331cd8de7e932bb9c3547e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750111"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893206"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Elektroninių ataskaitų (ER) konfigūracijų ciklo valdymas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip valdyti „Microsoft Dynamics 365 Finance“ elektroninių ataskaitų (ER) konfigūracijų ciklą.
+Šioje temoje aprašoma, kaip valdyti „Dynamics 365 Finance“ Elektroninių ataskaitų (ER) konfigūracijų ciklą.
 
 ## <a name="overview"></a>Apžvalga
 
@@ -45,7 +45,7 @@ Elektroninės ataskaitos (ER) yra mechanizmas, palaikantis įstatymiškai prival
 
 - Sukurkite šabloną, kurį būtų galima naudoti kituose egzemplioriuose.
 
-    - Sukurtą dokumento šabloną transformuokite į ER konfigūraciją ir eksportuokite iš dabartinio programos egzemplioriaus kaip XML paketą, kurį būtų galima išsaugoti vietoje arba LCS.
+    - Sukurtą dokumento šabloną transformuokite į ER konfigūraciją ir eksportuokite iš dabartinio programos egzemplioriaus kaip XML paketą, kurį būtų galima išsaugoti vietoje arba „Lifecycle Services” (LCS).
     - Transformuokite ER konfigūraciją programos dokumento šabloną.
     - Importuokite XML paketą, saugomą vietoje arba LCS, į dabartinį egzempliorių.
 
@@ -78,9 +78,20 @@ Dėl tolesnių su ER susijusių priežasčių rekomenduojame ER konfigūracijas 
 - Vartotojai, kurių vaidmuo yra **Elektroninių ataskaitų kūrėjas** arba **Elektroninių ataskaitų funkcijų konsultantas**, gali konfigūracijas redaguoti ir vykdyti bandymams. Tokiu atveju gali būti iškviesti klasių ir lentelių, kurios gali būti potencialiai kenksmingos verslo duomenims ir egzemplioriaus naudojimo efektyvumui, metodai.
 - Įvesties vietos neapriboja klasių ir lentelių kaip ER konfigūracijų ER duomenų šaltinių metodų iškvietimų ir jie yra užregistruoti įmonės turinyje. Todėl slaptus verslo duomenis gali pasiekti vartotojai, kurių vaidmuo yra **Elektroninių ataskaitų kūrėjas** arba **Elektroninių ataskaitų funkcijų konsultantas**.
 
-Programavimo aplinkoje sukurtas ER konfigūracijas galima nusiųsti į tikrinimo aplinką konfigūracijai (tinkamam proceso integravimui, rezultatų tikslumui ir našumui) įvertinti ir kokybei (vaidmenų valdomų prieigos teisių teisingumui ir pareigų atskyrimui) užtikrinti. Šiuo tikslu galima naudoti funkcijas, leidžiančias mainytis ER konfigūracijomis. Galiausiai patvirtintas ER konfigūracijas galima įkelti į LCS, kur jas būtų galima bendrinti su paslaugų prenumeratoriais arba į gamybos aplinką ir naudoti viduje, kaip parodyta tolesniame paveikslėlyje.
+Programavimo aplinkoje sukurtas ER konfigūracijas galima [įkelti](#data-persistence-consideration) į testavimo aplinką įvertinti konfigūracijai (tinkamam proceso integravimui, rezultatų tikslumui ir našumui) ir užtikrinti kokybei, pavyzdžiui, vaidmenų valdomų prieigos teisių tinkamumui ir pareigų atskyrimui. Šiuo tikslu galima naudoti funkcijas, leidžiančias mainytis ER konfigūracijomis. Patvirtintas ER konfigūracijas galima įkelti į LCS, kad jas būtų galima bendrinti su paslaugų prenumeratoriais arba [importuoti](#data-persistence-consideration) į gamybos aplinką vidiniam naudojimui.
 
 ![ER konfigūracijos ciklas](./media/ger-configuration-lifecycle.png)
+
+## <a name="data-persistence-consideration"></a><a name="data-persistence-consideration" />Duomenų pastovumo svarstymas
+
+Galite individualiai [importuoti](tasks/er-import-configuration-lifecycle-services.md) skirtingas ER [konfigūracijų](general-electronic-reporting.md#Configuration) [versijas](general-electronic-reporting.md#component-versioning) į savo „Finance” egzempliorių. Importavus naująją ER konfigūracijos versiją, sistema valdo šios konfigūracijos juodraščio versijos turinį:
+
+   - Kai importuota versija yra žemesnė nei didžiausia šios konfigūracijos versija dabartiniame „Finance” egzemplioriuje, šios konfigūracijos juodraščio versijos turinys nekinta.
+   - Kai importuota versija yra aukštesnė nei bet kuri kita šios konfigūracijos versija dabartiniame „Finance” egzemplioriuje, importuotos versijos turinys yra nukopijuojamas į šios konfigūracijos juodraščio versiją, kad būtų galima toliau redaguoti paskutinę baigtą versiją.
+
+Jei šios konfigūracijos savininkas yra šiuo metu suaktyvintas konfigūracijos [teikėjas](general-electronic-reporting.md#Provider), šios konfigūracijos juodraščio versija matoma jums „FastTab” skirtuke **Versijos**, puslapyje **Konfigūracijos** (**Organizacijos administravimas** > **Elektroninės ataskaitos** > **Konfigūracijos**). Galite pasirinkti konfigūracijos juodraščio versiją ir [modifikuoti](er-quick-start2-customize-report.md#ConfigureDerivedFormat) jos turinį naudodami atitinkamą ER dizaino įrankį. Redagavus ER konfigūracijos juodraščio versiją, jos turinys nebeatitinka didžiausios šios konfigūracijos versijos dabartiniame „Finance” egzemplioriuje turinio. Norint išvengti jūsų pakeitimų praradimo, sistema rodo klaidą, kad nepavyko tęsti importavimo, nes šios konfigūracijos versija yra aukštesnė nei didžiausia šios konfigūracijos versija dabartiniame „Finance” egzemplioriuje. Kai tai įvyksta, pavyzdžiui, naudojant formato konfigūraciją **„X”**, rodomas klaidos pranešimas **„X” formato versija nėra baigta**.
+
+Norėdami anuliuoti juodraščio versijoje įvestus pakeitimus, pasirinkite didžiausią baigtą arba bendrai naudojamą jūsų „Finance” ER konfigūracijos versiją „FastTab” skirtuke **Versijos** ir tada pasirinkite **Gauti šią versiją** parinktį. Pasirinktos versijos turinys yra nukopijuojamas į juodraščio versiją.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

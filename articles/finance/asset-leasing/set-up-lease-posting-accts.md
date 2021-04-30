@@ -2,11 +2,11 @@
 title: Nuomos registravimo sąskaitų nustatymas
 description: Šioje temoje išvardijamos registravimo sąskaitos, kurios būtinos turto lizingo operacijoms, ir paaiškinama, kaip nustatyti registravimo sąskaitą puslapyje Nuomos registravimo parametrai.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeasePostingAccounts
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0367cd5454178c9404942c9f2e8cfeeb326af700
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d5b97a999f782bd2ed6de0b692edc2f202860354
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811466"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880867"
 ---
 # <a name="set-up-lease-posting-accounts"></a>Nuomos registravimo sąskaitų nustatymas
 
@@ -47,20 +47,20 @@ Norėdami informacijos apie tai, kaip kurti sąskaitų struktūras, žr. [Sąska
 | 250602                | Balanso lapas | Ilgalaikiai įsipareigojimai – veiklos nuoma               |
 | 250606                | Balanso lapas | Atidėtasis nuomos mokėjimas                                         |
 | 300160                | Balanso lapas | Nepaskirstytas pelnas                                     |
-| 604500                | Expense       | Nuomos išlaidos                                         |
-| 604501                | Expense       | Transporto priemonių veiklos nuomos išlaidos – palūkanų priaugimas  |
-| 604502                | Expense       | Transporto priemonių veiklos nuomos išlaidos – amortizacija        |
-| 605200                | Expense       | Pastatų veiklos nuomos išlaidos – palūkanų priaugimas |
-| 605201                | Expense       | Pastatų veiklos nuomos išlaidos – amortizacija       |
-| 607101                | Expense       | Transporto priemonių nuomos amortizacijos išlaidos                    |
-| 607102                | Expense       | Pastatų nuomos amortizacijos išlaidos                   |
-| 607103                | Expense       | Nuvertėjimo išlaidos – finansinė nuoma                   |
-| 607104                | Expense       | Nuvertėjimo išlaidos – veiklos nuoma                 |
-| 618910                | Expense       | Nuomos išlaidos – finansinė nuoma                        |
-| 618920                | Expense       | Kintamieji mokėjimai – finansinė nuoma                    |
-| 618930                | Expense       | Kintamieji mokėjimai – veiklos nuoma                  |
-| 800600                | Expense       | Transporto priemonių nuomos palūkanų išlaidos                        |
-| 800601                | Expense       | Pastatų nuomos palūkanų išlaidos                       |
+| 604500                | Išlaidos       | Nuomos išlaidos                                         |
+| 604501                | Išlaidos       | Transporto priemonių veiklos nuomos išlaidos – palūkanų priaugimas  |
+| 604502                | Išlaidos       | Transporto priemonių veiklos nuomos išlaidos – amortizacija        |
+| 605200                | Išlaidos       | Pastatų veiklos nuomos išlaidos – palūkanų priaugimas |
+| 605201                | Išlaidos       | Pastatų veiklos nuomos išlaidos – amortizacija       |
+| 607101                | Išlaidos       | Transporto priemonių nuomos amortizacijos išlaidos                    |
+| 607102                | Išlaidos       | Pastatų nuomos amortizacijos išlaidos                   |
+| 607103                | Išlaidos       | Nuvertėjimo išlaidos – finansinė nuoma                   |
+| 607104                | Išlaidos       | Nuvertėjimo išlaidos – veiklos nuoma                 |
+| 618910                | Išlaidos       | Nuomos išlaidos – finansinė nuoma                        |
+| 618920                | Išlaidos       | Kintamieji mokėjimai – finansinė nuoma                    |
+| 618930                | Išlaidos       | Kintamieji mokėjimai – veiklos nuoma                  |
+| 800600                | Išlaidos       | Transporto priemonių nuomos palūkanų išlaidos                        |
+| 800601                | Išlaidos       | Pastatų nuomos palūkanų išlaidos                       |
 | 801201                | Balanso lapas | Pelnas ir nuostolis – nuomos modifikavimas                      |
 
 ## <a name="configure-posting-accounts"></a>Registravimo sąskaitų konfigūravimas

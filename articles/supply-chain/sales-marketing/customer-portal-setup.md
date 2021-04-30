@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: dcb952ccc68f5f19119f8b72285667e259b00429
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5c4cad305e3d130b3283ca3424c84f60e2d13307
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840730"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907820"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Kliento portalo įdiegimas, nustatymas ir atnaujinimas
 
@@ -27,7 +27,7 @@ ms.locfileid: "5840730"
 
 Norėdami naudoti kliento portalą, turite turėti toliau išvardytas licencijas.
 
-- **„Power Apps“ portalai** – ši licencija reikalinga kliento portalo prieglobai. Portalai licencijuojami remiantis naudojimu. Norėdami gauti daugiau informacijos, žr. [„Power Apps“ portalų licencijavimo reikalavimus](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#portals).
+- **„Power Apps“ portalai** – ši licencija reikalinga kliento portalo prieglobai. Portalai licencijuojami remiantis naudojimu. Norėdami gauti daugiau informacijos, žr. [„Power Apps“ portalų licencijavimo reikalavimus](/power-platform/admin/powerapps-flow-licensing-faq#portals).
 - **Dvigubas rašymas** – turite turėti būtinas licencijas, kad galėtumėte įjungti dvigubo rašymo funkciją „Supply Chain Management“ lentelėms. Prireikus daugiau informacijos, žr. [dvigubo rašymo sistemos reikalavimai](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md).
 
 ## <a name="dependencies-on-dual-write-and-power-apps-portals"></a>Priklausomybė nuo dvigubo rašymo ir „Power Apps“ portalų
@@ -40,7 +40,7 @@ Skirtingai nei kitos „Supply Chain Management“ funkcijos, kliento portalo š
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a>Reikalingi nustatymo veiksmai, norint įjungti kliento portalą
 
-Įsitikinę, kad turite reikiamas licencijas, galite nustatyti dvigubo rašymo funkciją, kaip nurodyta [dvigubo rašymo pradinio sinchronizavimo instrukcijose](../../fin-ops-core/dev-itpro/data-entities/dual-write/initial-sync.md).
+Įsitikinę, kad turite reikiamas licencijas, galite nustatyti dvigubo rašymo funkciją, kaip nurodyta [dvigubo rašymo pradinio sinchronizavimo instrukcijose](/dynamics365/supply-chain/sales-marketing/enable-entity-map).
 
 Būtinai įjunkite toliau išvardytus susiejimus su lentelėms dvigubo rašymo funkcijoje.
 
@@ -74,14 +74,14 @@ Vėliau į kliento portalą galima įtraukti daugiau funkcijų. Bet kokie pakeit
 
 Norėdami sužinoti, kaip nustatyti ir tinkinti kliento portalą, pirmiausia peržiūrėkite toliau pateiktą pagrindinių technologijų dokumentaciją.
 
-- [„Power Apps“ portalų dokumentacija](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [„Power Apps“ portalų dokumentacija](/powerapps/maker/portals/overview)
 - [Dvigubo rašymo dokumentacija](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
 
 Norėdami veiksmingai tvarkyti savo portalus, turite suprasti „Power Apps“ portalus ir „Microsoft Dataverse“ ciklą. Daugiau informacijos ieškokite šiuose ištekliuose:
 
-- [Apie portalo ciklą](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
-- [Portalo naujovinimas](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [Portalo konfigūracijos perkėlimas](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [Apie portalo ciklą](/powerapps/maker/portals/admin/portal-lifecycle)
+- [Portalo naujovinimas](/powerapps/maker/portals/admin/upgrade-portal)
+- [Portalo konfigūracijos perkėlimas](/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Sprendimo ciklo valdymas – „Dynamics 365 for Customer Engagement“ programos](https://www.microsoft.com/download/details.aspx?id=57777)
 
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 10369bd5aa67641fe840312bc3d8ebc0e91865e0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: eb4ef2bf335e19d0d890465c851c46f66ef8bd8e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791298"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891870"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-23-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Human Resources” (2020 m. liepos 23 d.)
 
@@ -37,13 +37,13 @@ Dimensijų pašalinimas iš padėties dabar pašalina tas pačias padėtis ir i�
 
 ## <a name="positions-not-in-hierarchy-show-inactive-positions-397257"></a>Padėtys nehierarchinėje tvarkoje rodo neaktyvias padėtis (397257)
 
-Neaktyvios padėtys (turi galiojimo laiko pabaigą), daugiau nerodo padėties hierarchijos kaip **Padėtys nehierarchijoje**. 
+Neaktyvios padėtys (turi galiojimo laiko pabaigą), daugiau nerodo padėties hierarchijos kaip **Padėtys ne hierarchijoje**. 
 
-## <a name="validation-occurring-between-leaveenrollmententity-and-hcmworkerentity-on-data-management-framework-dmf-import-causes-slow-data-loads-442324"></a>Patvirtinimas atsitinkantis tarp „LeaveEnrollmentEntity“ ir „HcmWorkerEntity“ duomenų valdymo darbotvarkės (DMF) importavime sulėtina duomenų atsiuntimus (442324)
+## <a name="validation-occurring-between-leaveenrollmententity-and-hcmworkerentity-on-data-management-framework-dmf-import-causes-slow-data-loads-442324"></a>Patvirtinimas atsitinkantis tarp „LeaveEnrollmentEntity“ ir „HcmWorkerEntity“ duomenų valdymo darbotvarkės (DMF) importavime sulėtina duomenų atsisiuntimus (442324)
 
 Pakeitimai šiame leidime pagerina **„LeaveEnrollmentEntity“** veikimą.
 
-## <a name="unable-to-personalize-in-organization-administration-447490"></a>Nepavyskta personalizuoti organizacijos administravime (447490)
+## <a name="unable-to-personalize-in-organization-administration-447490"></a>Nepavyksta personalizuoti organizacijos administravime (447490)
 
 Su šiuo pakeitimu, galite dabar personalizuoti nuorodas **Organizacijos administravime**.
 
@@ -55,7 +55,7 @@ Dabar galite padaryti laukus privalomais naudodami Žmogiškųjų išteklių per
 
 ## <a name="human-resources-application-in-teams"></a>„Human Resources“ programa programoje „Teams“
 
-Darbuotojai gali peržiūrėti ir prašyti atostogų programoje „Microsoft Teams“. Jie gali bendrauti su robotu, kad sukurtų atostogų prašymą. Daugiau informacijos žr. [„Human Resources“ programa programoje „Teams“](https://go.microsoft.com/fwlink/?linkid=2127841). 
+Darbuotojai gali peržiūrėti ir prašyti atostogų programoje „Microsoft Teams“. Jie gali bendrauti su robotu, kad sukurtų atostogų prašymą. Daugiau informacijos žr. [„Human Resources“ programa programoje „Teams“](./hr-admin-teams-leave-app.md). 
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Duomenų valdymo sistemos (DMF) objektai, skirti išmokų valdymui
  
@@ -105,7 +105,7 @@ Platformos atnaujinimas 10.0.12 (36)
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 [Kas nauja ar pasikeitė „Human Resources”](hr-admin-whats-new.md)</br>
-[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
 [Funkcijų valdymas](hr-admin-manage-features.md)
 

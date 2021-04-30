@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: e98f1803e43df0fbd5ab700b959faaeee017b7a9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8229dc84040b1f3bd46d75c13795f0dc9b7e71f1
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834505"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897773"
 ---
 # <a name="one-voucher"></a>Vienas kvitas
 
@@ -48,7 +48,7 @@ Naudodamiesi esama finansinių žurnalų (bendrojo žurnalo, ilgalaikio turto ž
 
 ## <a name="issues-with-one-voucher"></a>Su funkcija Vienas kvitas susijusios problemos
 
-Naudojantis funkcija Vienas kvitas iškyla problemų atsiskaitant, skaičiuojant mokesčius, atšaukiant operaciją, derinant papildomą knygą su didžiąja knyga, rengiant finansines ataskaitas ir ne tik. (Norėdami gauti daugiau informacijos apie atsiskaitant galinčias iškilti problemas (pavyzdžiui), žr. [Vienas kvitas su keliais kliento arba tiekėjo įrašais](https://docs.microsoft.com/dynamics365/finance/accounts-payable/single-voucher-multiple-customer-vendor-records).) Norint, kad šie procesai ir ataskaitos tinkamai veiktų, reikia nurodyti operacijos informaciją. Nors kai kurie scenarijai gali veikti tinkamai, priklausomai nuo jūsų organizacijos sąrankos, dažnai iškyla problemų viename kvite įvedant kelias operacijas.
+Naudojantis funkcija Vienas kvitas iškyla problemų atsiskaitant, skaičiuojant mokesčius, atšaukiant operaciją, derinant papildomą knygą su didžiąja knyga, rengiant finansines ataskaitas ir ne tik. (Norėdami gauti daugiau informacijos apie atsiskaitant galinčias iškilti problemas (pavyzdžiui), žr. [Vienas kvitas su keliais kliento arba tiekėjo įrašais](../accounts-payable/single-voucher-multiple-customer-vendor-records.md).) Norint, kad šie procesai ir ataskaitos tinkamai veiktų, reikia nurodyti operacijos informaciją. Nors kai kurie scenarijai gali veikti tinkamai, priklausomai nuo jūsų organizacijos sąrankos, dažnai iškyla problemų viename kvite įvedant kelias operacijas.
 
 Pavyzdžiui, registruojate toliau nurodytą kelių eilučių kvitą.
 
@@ -125,7 +125,7 @@ Atliekant toliau nurodytas ilgalaikio turto operacijas, viename kvite taip pat s
 > [!Note]
 > Kai įvedate operacijas, įsitikinkite, kad visos operacijos taikomos tam pačiam ilgalaikiam turtui. Kvitas nebus registruojamas, jei jame yra daugiau nei vienas ilgalaikis turtas, net jei lauke **Naujas kvitas** didžiosios knygos puslapyje **Žurnalų pavadinimai** yra nustatytas tik vieno kvito numeris. Jei į kvitą įtraukiate daugiau nei vieną ilgalaikį turtą, bus rodomas pranešimas **Viename kvite gali būti tik viena ilgalaikio turto operacija** ir negalėsite registruoti kvito.  
 
-### <a name="bills-of-exchange-and-promissory-notes"></a> Įsakomieji ir paprastieji vekseliai
+### <a name="bills-of-exchange-and-promissory-notes"></a>Įsakomieji ir paprastieji vekseliai
 Įsakomųjų ir paprastųjų vekselių atveju funkciją Vienas kvitas naudoti reikia, nes atliekant operacijas kliento arba tiekėjo balansas, remiantis mokėjimo būsena, iš vienos DK sąskaitos Gautinos sumos / Mokėtinos sumos perkeliamos į kitą.
 
 ## <a name="scenarios-that-dont-require-one-voucher"></a>Scenarijai, kai funkcija Vienas kvitas naudotis nereikia

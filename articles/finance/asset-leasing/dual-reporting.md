@@ -2,11 +2,11 @@
 title: Dvigubos ataskaitos
 description: Šioje temoje parodytas pavyzdys, rodantis, kaip galima įvykdyti tarptautinių finansinių ataskaitų standartų (IFRS) ataskaitų ir privalomųjų ataskaitų reikalavimus nuomojant turtą.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseBookMaster
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c9f2bae330e688e1e941277d46ddcbd38916f8c8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86f42f8db707f3b8c62b9ec4c39ad6464f080748
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815985"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881161"
 ---
 # <a name="dual-reporting"></a>Dvigubos ataskaitos
 
@@ -47,7 +47,7 @@ IFRS 16 knyga nustatoma taip, kad atitiktų IFRS 16 apskaitos standartą. Visi �
 | Dabartinės vertės / turto tikrosios vertės nustatymas | 0,00           |
 | Trumpojo laikotarpio ribinė reikšmė                    | 12             |
 | Mažos vertės ribinė reikšmė                     | 5,000.00       |
-| Mokėti tiekėjui                           | nr.             |
+| Mokėti tiekėjui                           | Ne             |
 
 **Įstatyminė knyga**
 
@@ -64,7 +64,7 @@ IFRS 16 knyga nustatoma taip, kad atitiktų IFRS 16 apskaitos standartą. Visi �
 | Dabartinės vertės / turto tikrosios vertės nustatymas | 0,00        |
 | Trumpojo laikotarpio ribinė reikšmė                    | 0           |
 | Mažos vertės ribinė reikšmė                     | 0           |
-| Mokėti tiekėjui                           | nr.          |
+| Mokėti tiekėjui                           | Ne          |
 
 **Įstatyminė atšaukimo knyga**
 
@@ -81,7 +81,7 @@ IFRS 16 knyga nustatoma taip, kad atitiktų IFRS 16 apskaitos standartą. Visi �
 | Dabartinės vertės / turto tikrosios vertės nustatymas | 0,00                           |
 | Trumpojo laikotarpio ribinė reikšmė                    | 0                              |
 | Mažos vertės ribinė reikšmė                     | 0                              |
-| Mokėti tiekėjui                           | nr.                             |
+| Mokėti tiekėjui                           | Ne                             |
 
 Šiam pavyzdžiui sukurta nuomos sutartis, kurios parametrai skirtukuose **Bendra** ir **Mokėjimo grafiko eilutės** nurodyti toliau.
 
@@ -320,8 +320,8 @@ Pirmajame žurnalo įraše įrašomos nuomos išlaidos pagal įstatyminę knygą
 
 | Kodo tipas | Sąskaitos numeris | Sluoksnis   | Sąskaitos aprašas | Debetas    | Kreditas   |
 |--------------|----------------|---------|---------------------|----------|----------|
-| Ledger       | 1              | Dabartiniai | Nuomos išlaidos       | 1,000.00 |          |
-| Ledger       | 4              | Dabartiniai | Tarpuskaitos sąskaita    |          | 1,000.00 |
+| Didžioji knyga       | 1              | Dabartiniai | Nuomos išlaidos       | 1,000.00 |          |
+| Didžioji knyga       | 4              | Dabartiniai | Tarpuskaitos sąskaita    |          | 1,000.00 |
 
 Mokėtinų sumų klerkas, naudodamas standartines „Dynamics 365“ funkcijas, sukuria sąskaitą faktūrą, skirtą sumokėti už nuomą nenaudojant turto nuomos funkcijos. Tačiau, užuot kaip debeto sąskaitą pasirinkęs **Nuomos išlaidos**, mokėtinų sumų klerkas pasirenka tarpuskaitos sąskaitą, kad sugeneruotų tolesnį įrašą.
 
@@ -329,9 +329,9 @@ Mokėtinų sumų klerkas, naudodamas standartines „Dynamics 365“ funkcijas, 
 
 | Kodo tipas | Sąskaitos numeris | Sluoksnis   | Sąskaitos aprašas | Debetas    | Kreditas   |
 |--------------|----------------|---------|---------------------|----------|----------|
-| Ledger       | 4              | Dabartiniai | Tarpuskaitos sąskaita    | 1,000.00 |          |
-| Ledger       | 2              | Dabartiniai | Banko mokestis            | 3.00     |          |
-| Ledger       | 3              | Dabartiniai | PVM išlaidos         | 5.00     |          |
+| Didžioji knyga       | 4              | Dabartiniai | Tarpuskaitos sąskaita    | 1,000.00 |          |
+| Didžioji knyga       | 2              | Dabartiniai | Banko mokestis            | 3.00     |          |
+| Didžioji knyga       | 3              | Dabartiniai | PVM išlaidos         | 5.00     |          |
 | Tiekėjas       | 5              | Dabartiniai | Mokėtinos sumos    |          | 1,008.00 |
 
 Kai išrašas išduodamas tiekėjui, vadovaukitės įprastu mokėjimo procesu. Šio proceso metu sugeneruojamas tolesnis žurnalo įrašas.
@@ -464,8 +464,8 @@ Kai tas pats procesas, kuris buvo naudojamas įstatyminei knygai, naudojamas at�
 
 | Kodo tipas | Sąskaitos numeris | Sluoksnis  | Sąskaitos aprašas | Debetas    | Kreditas   |
 |--------------|----------------|--------|---------------------|----------|----------|
-| Ledger       | 4              | Pasirinktinis | Tarpuskaitos sąskaita    | 1,000.00 |          |
-| Ledger       | 1              | Pasirinktinis | Nuomos išlaidos       |          | 1,000.00 |
+| Didžioji knyga       | 4              | Pasirinktinis | Tarpuskaitos sąskaita    | 1,000.00 |          |
+| Didžioji knyga       | 1              | Pasirinktinis | Nuomos išlaidos       |          | 1,000.00 |
 
 Kai jau pašalinsite įstatyminio žurnalo įrašus, užsakysite visus žurnalo įrašus, kurių IFRS 16 knygoje reikalaujama pagal IFRS 16. Šie įrašai apima pradinį naudojimo teise valdomo turto ir įsipareigojimo pripažinimą bei palūkanų ir nusidėvėjimo įrašą.
 
@@ -473,8 +473,8 @@ Kai jau pašalinsite įstatyminio žurnalo įrašus, užsakysite visus žurnalo 
 
 | Kodo tipas | Sąskaitos numeris | Sluoksnis  | Sąskaitos aprašas      | Debetas     | Kreditas    |
 |--------------|----------------|--------|--------------------------|-----------|-----------|
-| Ledger       | 6              | Pasirinktinis | Naudojimo teise valdomas turtas                | 22,793.90 |           |
-| Ledger       | 7              | Pasirinktinis | Finansinės nuomos įsipareigojimas |           | 22,793.90 |
+| Didžioji knyga       | 6              | Pasirinktinis | Naudojimo teise valdomas turtas                | 22,793.90 |           |
+| Didžioji knyga       | 7              | Pasirinktinis | Finansinės nuomos įsipareigojimas |           | 22,793.90 |
 
 Nuomos mokestis registruojamas taip, kaip kiti nuomos mokesčiai. Tarpuskaitos sąskaitos naudojimo priežastis – užtikrinti, kad grynieji pinigai būtų kredituoti tik vieną kartą.
 
@@ -482,8 +482,8 @@ Nuomos mokestis registruojamas taip, kaip kiti nuomos mokesčiai. Tarpuskaitos s
 
 | Kodo tipas | Sąskaitos numeris | Sluoksnis  | Sąskaitos aprašas      | Debetas    | Kreditas   |
 |--------------|----------------|--------|--------------------------|----------|----------|
-| Ledger       | 7              | Pasirinktinis | Finansinės nuomos įsipareigojimas | 1,000.00 |          |
-| Ledger       | 4              | Pasirinktinis | Tarpuskaitos sąskaita         |          | 1,000.00 |
+| Didžioji knyga       | 7              | Pasirinktinis | Finansinės nuomos įsipareigojimas | 1,000.00 |          |
+| Didžioji knyga       | 4              | Pasirinktinis | Tarpuskaitos sąskaita         |          | 1,000.00 |
 
 Palūkanų sąnaudų žurnalo įrašas generuojamas iš įsipareigojimo amortizacijos grafiko.
 
@@ -491,8 +491,8 @@ Palūkanų sąnaudų žurnalo įrašas generuojamas iš įsipareigojimo amortiza
 
 | Kodo tipas | Sąskaitos numeris | Sluoksnis  | Sąskaitos aprašas      | Debetas | Kreditas |
 |--------------|----------------|--------|--------------------------|-------|--------|
-| Ledger       | 8              | Pasirinktinis | Palūkanų išlaidos         | 94.97 |        |
-| Ledger       | 7              | Pasirinktinis | Finansinės nuomos įsipareigojimas |       | 94.97  |
+| Didžioji knyga       | 8              | Pasirinktinis | Palūkanų išlaidos         | 94.97 |        |
+| Didžioji knyga       | 7              | Pasirinktinis | Finansinės nuomos įsipareigojimas |       | 94.97  |
 
 Nusidėvėjimo išlaidų žurnalo įrašas generuojamas iš turto nusidėvėjimo grafiko.
 
@@ -500,8 +500,8 @@ Nusidėvėjimo išlaidų žurnalo įrašas generuojamas iš turto nusidėvėjimo
 
 | Kodo tipas | Sąskaitos numeris | Sluoksnis  | Sąskaitos aprašas      | Debetas  | Kreditas |
 |--------------|----------------|--------|--------------------------|--------|--------|
-| Ledger       | 10             | Pasirinktinis | Likvidavimo išlaidos     | 949.75 |        |
-| Ledger       | 11             | Pasirinktinis | Sukauptas nusidėvėjimas |        | 949.75 |
+| Didžioji knyga       | 10             | Pasirinktinis | Likvidavimo išlaidos     | 949.75 |        |
+| Didžioji knyga       | 11             | Pasirinktinis | Sukauptas nusidėvėjimas |        | 949.75 |
 
 Kai bus sukurti ir užregistruoti visi šie žurnalo įrašai, matysite tolesnes „1 pasirinktinio sluoksnio“ reikšmes. Atkreipkite dėmesį, kad į paskutinį stulpelį įtrauktas banko mokestis, pridėtinės vertės mokesčio (PVM) išlaidos ir grynųjų pinigų sumažinimas iš ankstesnio sluoksnio, tačiau jis neapima privalomųjų ataskaitų žurnalo įrašų. Todėl galite išnaudoti dvigubų ataskaitų galimybes. Dabar įmonė tiesiog turi vykdyti bandomąjį balansą ir sujungti dabartinį sluoksnį su standartiniu sluoksniu, kad sukurtų IFRS bandomąjį balansą.
 

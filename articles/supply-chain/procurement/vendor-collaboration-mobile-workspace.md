@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: dabourq
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: dee77f6967cc72fdcc81d5cff9a39d13248af588
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8f6affd05e658f39d567f7512c71d944636588ff
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811043"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907944"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Tiekėjo bendradarbiavimo mobilioji darbo sritis
 
@@ -56,8 +56,8 @@ Tiekėjo bendradarbiavimo žiniatinklio sąsaja žiniatinklio kliente turi būti
 ## <a name="prerequisites"></a>Būtinieji komponentai
 Būtinosios sąlygos skiriasi ir priklauso nuo jūsų organizacijoje visuotinai įdiegtos „Microsoft Dynamics 365“ versijos.
 
-### <a name="prerequisites-if-you-use-supply-chain-management"></a>Būtinosios sąlygos naudojant Tiekimo grandinės valdymą
-Jei jūsų organizacijoje visuotinai įdiegtas Tiekimo grandinės valdymas, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Tiekėjų bendradarbiavimas**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Būtinosios sąlygos naudojant „Supply Chain Management”
+Jei jūsų organizacijoje visuotinai įdiegtas „Supply Chain Management”, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Tiekėjų bendradarbiavimas**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Būtinosios sąlygos, jei naudojate „Microsoft Dynamics 365 for Operations“ 1611 versiją su 3 platformos naujinimu arba naujesnę versiją
 Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Operations“ 1611 versija su 3 platformos naujinimu arba naujesnė versija, sistemos administratorius turi įvykdyti tolesnes būtinąsias sąlygas. 
@@ -77,7 +77,7 @@ Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Oper
 <td>KB 3216943 yra dvejetainis naujinimas, būtinas, jei&#39;naudojate platformos 3 naujinimą. Norėdamas įdiegti šią KB, sistemos administratorius turi atlikti šiuos veiksmus.
 <ol>
 <li>Atsisiųskite KB 3216943 iš „Microsoft Dynamics Lifecycle Services“ (LCS).</li>
-<li>Įdiekite dvejetainį naujinimą, kuris pristatomas kaip įdiegiamas paketas. Informacijos apie tai, kaip taikyti įdiegiamą paketą, rasite <a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Visuotinai įdiegiamo paketo taikymas</a>.</li>
+<li>Įdiekite dvejetainį naujinimą, kuris pristatomas kaip įdiegiamas paketas. Informacijos apie tai, kaip taikyti įdiegiamą paketą, rasite <a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Visuotinai įdiegiamo paketo taikymas</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
@@ -85,14 +85,14 @@ Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Oper
 <td>Sistemos administratorius</td>
 <td>KB 4013633 yra X++ naujinimas arba metaduomenų karštoji pataisa, kurioje yra mobilioji darbo sritis <strong>Turimos atsargos</strong>. Norėdamas įdiegti KB 4013633, sistemos administratorius turi atlikti tolesnius veiksmus.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Atsisiųsti metaduomenų karštąją pataisą iš LCS</a>.</li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Įdiekite metaduomenų karštąją pataisą</a>.</li><li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Sukurkite diegiamą paketą</a>, kuriame yra modelis <strong>SCMMobile</strong>, o tada įkelkite diegiamą paketą į LCS.</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Visuotinai diegiamo paketo taikymas</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Atsisiųsti metaduomenų karštąją pataisą iš LCS</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Įdiekite metaduomenų karštąją pataisą</a>.</li><li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Sukurkite diegiamą paketą</a>, kuriame yra modelis <strong>SCMMobile</strong>, o tada įkelkite diegiamą paketą į LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Visuotinai diegiamo paketo taikymas</a>.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td><strong>Tiekėjų bendradarbiavimo</strong> mobilioji darbo sritis turi būti paskelbta.</td><td>Sistemos administratorius</td>
-<td>Žr. <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Mobiliosios darbo srities publikavimas</a>.</td>
+<td>Žr. <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiliosios darbo srities publikavimas</a>.</td>
 </tr>
 <tr class="even">
 <td>Su tiekėju susijęs vartotojas turi pasiekti tiekėjų bendradarbiavimo žiniatinklio sąsają žiniatinklio kliente ir nustatyti tiekėjo bendradarbiavimo vartotoją.</td><td>Pirkimo specialistai ir sistemos administratorius</td>
@@ -101,7 +101,7 @@ Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Oper
 <li><a href="vendor-collaboration-work-external-vendors.md">Tiekėjų bendradarbiavimo sąsajos naudojimas veiklai su išoriniais tiekėjais vykdyti</a></li>
 <li><a href="manage-vendor-collaboration-users.md">Tiekėjo bendradarbiavimo vartotojų valdymas</a></li>
 <li><a href="set-up-maintain-vendor-collaboration.md">Tiekėjo bendradarbiavimo nustatymas ir tvarkymas</a></li>
-<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Tiekėjų bendradarbiavimo sąsajos naudojimas dirbant su klientais Tiekimo grandinės valdyme</a></li>
+<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Tiekėjų bendradarbiavimo sąsajos naudojimas dirbant su klientais „Supply Chain Management”</a></li>
 </ul></td>
 </tr>
 </tbody>

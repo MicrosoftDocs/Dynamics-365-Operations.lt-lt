@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 1e021105c19273db5ded7cb0902eca1d502ced8e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 724048991fc8864ef72a5155af66b9c709f4b875
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753365"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893961"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>Atnaujintų ER konfigūracijų versijų naujinimas
 
@@ -28,7 +28,7 @@ ms.locfileid: "5753365"
 
 Elektroninių ataskaitų (ER) [saugyklos ](general-electronic-reporting.md#Repository) naudojamos norint bendrinti [ER konfigūracijas](general-electronic-reporting.md#Configuration). Galite [importuoti](download-electronic-reporting-configuration-lcs.md) ER konfigūracijas iš skirtingų saugyklų į jūsų „Microsoft Dynamics 365 Finance” programą. Importuojant ER konfigūracijas, [konfigūracijos teikėjai](general-electronic-reporting.md#Provider) gali publikuoti naujas [versijų](general-electronic-reporting.md#component-versioning) saugyklas, kad jas būtų galima bendrinti.
 
-Šioje temoje paaiškinama, kaip importuoti ER konfigūracijų atnaujintas versijas iš konfigūravimo tarnybos bendrosios saugyklos. Norėdami gauti daugiau informacijos, žr. [„Microsoft Dynamics 365 for Finance and Operations“ – „Regulatory Services“, konfigūravimo tarnybą](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Šioje temoje paaiškinama, kaip importuoti ER konfigūracijų atnaujintas versijas iš konfigūravimo tarnybos bendrosios saugyklos. Norėdami gauti daugiau informacijos, žr. [„Microsoft Dynamics 365 for Finance and Operations“ – „Regulatory Services“, konfigūravimo tarnybą](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="review-the-available-updated-versions"></a>Galimų atnaujintų versijų peržiūra
 

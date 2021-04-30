@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: e2126983fef2b59af5c8082a6495f808afeb5f9c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 497061500660e41c8f82c73e5dd6c085810c9209
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744056"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910454"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Debesies ir vietinių funkcijų palyginimas
 
@@ -48,21 +48,21 @@ Tolesnėse lentelėse išvardytos programų sritys. Nurodomas visos funkcijos pa
 |                                      | Duomenų integravimai                                                                         | Taip       | Taip             |
 | Dokumentų tvarkymas                  |                                                                                           | Taip       | Taip             |
 | Finansų valdymas                 |                                                                                           | Taip       | Taip             |
-| Žinynas                                 |                                                                                           | Taip       | Nr.              |
+| Žinynas                                 |                                                                                           | Taip       | Ne              |
 | Personalas                      |                                                                                           | Taip       | Taip             |
 | Įžvalgos                         |                                                                                           | Taip       | Taip             |
 |                                      | Elektroninė ataskaita (ER)                                                                 | Taip       | Taip             |
 |                                      | ER. Integravimas su LCS                                                                  | Taip       | Ne              |
 |                                      | ER. Integravimas su „SharePoint“                                                           | Taip       | Ne              |
-|                                      | ER. Integravimas su „Regulatory Configuration Service“ (RCS)                              | Taip       | Ne              |
-|                                      | ER. Kaip ER konfigūracijų, pasiekiamų ER saugyklose, saugykla naudojama vietinė failų sistema | nr.        | Taip             |
-|                                      | Integravimas su PowerBI.com                                                              | Taip       | nr.              |
-|                                      | Integravimas su „Power BI Desktop”                                                          | nr.        | Taip             |
-|                                      | Analizės darbo sritys                                                                     | Taip       | nr.              |
-|                                      | Sumanaus verslo procesas: rekomendacijos                                             | Taip       | nr.              |
-|                                      | „Power BI“ ataskaitų kūrimas su „OData“ naudojant „Power BI“ arba „Excel PowerQuery“ įrankius    | Taip       | nr.              |
+|                                      | ER. Integravimas su „Regulatory Configuration Services“ (RCS)                              | Taip       | Ne              |
+|                                      | ER. Kaip ER konfigūracijų, pasiekiamų ER saugyklose, saugykla naudojama vietinė failų sistema | Ne        | Taip             |
+|                                      | Integravimas su PowerBI.com                                                              | Taip       | Ne              |
+|                                      | Integravimas su „Power BI Desktop”                                                          | Ne        | Taip             |
+|                                      | Analizės darbo sritys                                                                     | Taip       | Ne              |
+|                                      | Sumanaus verslo procesas: rekomendacijos                                             | Taip       | Ne              |
+|                                      | „Power BI“ ataskaitų kūrimas su „OData“ naudojant „Power BI desktop“ arba „Excel PowerQuery“ įrankius    | Taip       | Ne              |
 |                                      | „SQL Server Reporting Services“ (SSRS) palaiko išplėtimą                                 | Taip       | Taip             |
-|                                      | Telemetrija perkeliama į debesį                                                   | Taip       | nr.              |
+|                                      | Telemetrija perkeliama į debesį                                                   | Taip       | Ne              |
 | „Lifecycle Services“                   |                                                                                           | Taip       | Taip             |
 |                                      | Konfigūruojamieji verslo procesai                                                           | Taip       | Ne              |
 | Lokalizacijos                        |                                                                                           | Taip       | Taip             |
@@ -75,7 +75,7 @@ Tolesnėse lentelėse išvardytos programų sritys. Nurodomas visos funkcijos pa
 | Sauga                             |                                                                                           | Taip       | Taip             |
 | Aptarnavimo valdymas                   |                                                                                           | Taip       | Taip             |
 | Žiniatinklio klientas                           |                                                                                           | Taip       | Taip             |
-|                                      | Užduočių įrašymo priemonė – užduočių įrašų įrašymas ar įkėlimas iš BPM bibliotekos                         | Taip       | Nr.              |
+|                                      | Užduočių įrašymo priemonė – užduočių įrašų įrašymas ar įkėlimas iš BPM bibliotekos                         | Taip       | Ne              |
 | Pagalba                              |                                                                                           | Taip       | Taip             |
 |                                      | Prieiga prie palaikymo per meniu Pagalba ir palaikymas                                             | Taip       | Ne              |
 |                                      | Verslo įvykiai                                                                           | Taip       | Taip (reikia interneto ryšio arba turi būti įdiegti pasirinktiniai galiniai punktai, kad būtų galima siųsti / gauti verslo įvykius intranete)              |
@@ -84,16 +84,16 @@ Tolesnėse lentelėse išvardytos programų sritys. Nurodomas visos funkcijos pa
 
 | **Sritis**                | **Funkcija**             | **Debesis** | **Vietoje** |
 |-------------------------|-------------------|-----------|-----------------|
-| Turto valdymas                     |                                                                                           | Taip       | nr.              |
+| Turto valdymas                     |                                                                                           | Taip       | Taip             |
 | Atitiktis ir sertifikavimai        |                                                                                           | Taip       | Taip             |
-|                                      | SOC 1 1 tipo sertifikavimas                                                                | Taip       | nr.              |
+|                                      | SOC 1 1 tipo sertifikavimas                                                                | Taip       | Ne              |
 | Kaštų apskaita                      |                                                                                           | Taip       | Taip             |
-|                                      | „Power BI“ turinio paketas Kaštų apskaita                                                 | Taip       | nr.              |
-|                                      | Kaštų apskaitos darbo sritis mobiliajai programai                                                  | Taip       | nr.              |
+|                                      | „Power BI“ turinio paketas Kaštų apskaita                                                 | Taip       | Ne              |
+|                                      | Kaštų apskaitos darbo sritis mobiliajai programai                                                  | Taip       | Ne              |
 | Kaštų valdymas                      |                                                                                           | Taip       | Taip             |
-|                                      | „Power BI“ turinio paketas Kaštų valdymas                                                 | Taip       | nr.              |
+|                                      | „Power BI“ turinio paketas Kaštų valdymas                                                 | Taip       | Ne              |
 | Duomenų valdymas ir integravimas      |                                                                                           | Taip       | Taip             |
-|                                      | Konfigūracijomis paremtas plėtinys                                                            | Taip       | Nr.              |
+|                                      | Konfigūracijomis paremtas plėtinys                                                            | Taip       | Ne              |
 |                                      | Duomenų eksportavimas į savo duomenų sandėlį                                                    | Taip       | Taip             |
 |                                      | Papildančiųjų naujinimų eksportavimo į duomenų objektą funkcijos įjungimas                                 | Taip       | Taip             |
 |                                      | Duomenų integravimai                                                                         | Taip       | Taip             |
@@ -103,51 +103,51 @@ Tolesnėse lentelėse išvardytos programų sritys. Nurodomas visos funkcijos pa
 |                                      | Elektroninė ataskaita (ER)                                                                 | Taip       | Taip             |
 |                                      | ER. Integravimas su LCS                                                                  | Taip       | Ne              |
 |                                      | ER. Integravimas su „SharePoint“                                                           | Taip       | Ne              |
-|                                      | ER. Integravimas su „Regulatory Configuration Service“ (RCS)                              | Taip       | Ne              |
-|                                      | ER. Kaip ER konfigūracijų, pasiekiamų ER saugyklose, saugykla naudojama vietinė failų sistema | nr.        | Taip             |
-|                                      | Integravimas su PowerBI.com                                                              | Taip       | nr.              |
-|                                      | Integravimas su „Power BI Desktop”                                                          | nr.        | Taip             |
-|                                      | Analizės darbo sritys                                                                     | Taip       | nr.              |
-|                                      | Sumanaus verslo procesas: rekomendacijos                                             | Taip       | nr.              |
-|                                      | „Power BI“ ataskaitų kūrimas su „OData“ naudojant „Power BI“ arba „Excel PowerQuery“ įrankius    | Taip       | nr.              |
+|                                      | ER. Integravimas su „Regulatory Configuration Services“ (RCS)                              | Taip       | Ne              |
+|                                      | ER. Kaip ER konfigūracijų, pasiekiamų ER saugyklose, saugykla naudojama vietinė failų sistema | Ne        | Taip             |
+|                                      | Integravimas su PowerBI.com                                                              | Taip       | Ne              |
+|                                      | Integravimas su „Power BI Desktop”                                                          | Ne        | Taip             |
+|                                      | Analizės darbo sritys                                                                     | Taip       | Ne              |
+|                                      | Sumanaus verslo procesas: rekomendacijos                                             | Taip       | Ne              |
+|                                      | „Power BI“ ataskaitų kūrimas su „OData“ naudojant „Power BI desktop“ arba „Excel PowerQuery“ įrankius    | Taip       | Ne              |
 |                                      | „SQL Server Reporting Services“ (SSRS) palaiko išplėtimą                                 | Taip       | Taip             |
-|                                      | Telemetrija perkeliama į debesį                                                   | Taip       | nr.              |
+|                                      | Telemetrija perkeliama į debesį                                                   | Taip       | Ne              |
 | Atsargų valdymas                 |                                                                                           | Taip       | Taip             |
 | „Lifecycle Services“                   |                                                                                           | Taip       | Taip             |
-|                                      | Konfigūruojamieji verslo procesai                                                           | Taip       | Nr.              |
+|                                      | Konfigūruojamieji verslo procesai                                                           | Taip       | Ne              |
 | Lokalizacijos                        |                                                                                           | Taip       | Taip             |
 | Gamyba                        |                                                                                           | Taip       | Taip             |
 | Bendrasis planavimas ir prognozavimas      |                                                                                           | Taip       | Taip             |
-| Optimizavimo planavimas                |                                                                                           | Taip       | nr.              |
+| Optimizavimo planavimas                |                                                                                           | Taip       | Ne              |
 | Mobilioji programa, darbo sritys ir platforma |                                                                                           | Taip       | Taip             |
 | „Office“ integravimas                   |                                                                                           | Taip       | Taip             |
 | Organizacijos administravimas          |                                                                                           | Taip       | Taip             |
 | Įsigijimas ir šaltinio pasirinkimas             |                                                                                           | Taip       | Taip             |
-|                                      | Išėjimo iš pirkimo paraiškos į išorinį katalogą žymėjimas                                   | Taip       | nr.              |
-|                                      | Pirkimo ir išlaidų analizės „Power BI“ ataskaitos                                                  | Taip       | nr.              |
+|                                      | Išėjimo iš pirkimo paraiškos į išorinį katalogą žymėjimas                                   | Taip       | Ne              |
+|                                      | Pirkimo ir išlaidų analizės „Power BI“ ataskaitos                                                  | Taip       | Ne              |
 | Produkto informacijos valdymas       |                                                                                           | Taip       | Taip             |
 | Bendrojo produkto duomenys                  |                                                                                           | Taip       | Taip             |
 | Gamyba                           |                                                                                           | Taip       | Taip             |
-|                                      | Gamybos našumo „Power BI“ ataskaitos                                                   | Taip       | nr.              |
+|                                      | Gamybos našumo „Power BI“ ataskaitos                                                   | Taip       | Ne              |
 | Projektų valdymas ir apskaita    |                                                                                           | Taip       | Taip             |
 | Pardavimas                                |                                                                                           | Taip       | Taip             |
-|                                      | Pardavimo ir pelningumo našumo „Power BI“ ataskaitos                                      | Taip       | nr.              |
+|                                      | Pardavimo ir pelningumo našumo „Power BI“ ataskaitos                                      | Taip       | Ne              |
 | Sauga                             |                                                                                           | Taip       | Taip             |
 | Aptarnavimo valdymas                   |                                                                                           | Taip       | Taip             |
 | Tiekimo grandinės valdymas              |                                                                                           | Taip       | Taip             |
 | Transportavimo valdymas            |                                                                                           | Taip       | Taip             |
-| Tiekėjų bendradarbiavimas                 |                                                                                           | Taip       | Nr.              |
+| Tiekėjų bendradarbiavimas                 |                                                                                           | Taip       | Ne              |
 | Sandėlio valdymas                 |                                                                                           | Taip       | Taip             |
 |                                      | Mobilioji sandėlio programa                                                                      | Taip       | Taip             |
-|                                      | Sandėliavimo „Power BI“ ataskaitos                                                              | Taip       | nr.              |
+|                                      | Sandėliavimo „Power BI“ ataskaitos                                                              | Taip       | Ne              |
 | Žiniatinklio klientas                           |                                                                                           | Taip       | Taip             |
-|                                      | Užduočių įrašymo priemonė – užduočių įrašų įrašymas ar įkėlimas iš BPM bibliotekos                         | Taip       | Nr.              |
+|                                      | Užduočių įrašymo priemonė – užduočių įrašų įrašymas ar įkėlimas iš BPM bibliotekos                         | Taip       | Ne              |
 | Pagalba                              |                                                                                           | Taip       | Taip             |
 |                                      | Prieiga prie palaikymo per meniu Pagalba ir palaikymas                                             | Taip       | Ne              |
 
 ## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Norėdami peržiūrėti galimybių, kurios suteikiamos vietinių visuotinių diegimų naudotojams, sąrašą žr. [„Commerce“ galimybės vietiniuose visuotiniuose diegimuose](../../../retail/retail-onprem.md).
+Norėdami peržiūrėti galimybių, kurios suteikiamos vietinių visuotinių diegimų naudotojams, sąrašą žr. [„Commerce“ galimybės vietiniuose visuotiniuose diegimuose](../../../commerce/retail-onprem.md).
 
 ## <a name="dynamics-365-human-resources"></a>„Dynamics 365 Human Resources“ 
 
@@ -164,12 +164,12 @@ Norėdami peržiūrėti galimybių, kurios suteikiamos vietinių visuotinių die
 | Stebėjimas ir telemetrija   |                                           | Taip       | Taip             |
 | Platformų suderinamumas     |                                           | Taip       | Taip             |
 | Aptarnavimas                  |                                           | Taip       | Taip             |
-|                            | Paslaugų teikimo aplinka                    | Taip       | nr.              |
+|                            | Paslaugų teikimo aplinka                    | Taip       | Ne              |
 | Sekimo analizatorius               |                                           | Taip       | Taip             |
 | PerfTimer                  |                                           | Taip       | Taip\*           |
 | Atnaujinti versiją                    |                                           | Taip       | Taip             |
-|                            | Atnaujinti versiją                                   | Taip       | nr.              |
-|                            | Ankstesnių versijų plėtotė ir palaikymas | Taip       | nr.              |
+|                            | Atnaujinti versiją                                   | Taip       | Ne              |
+|                            | Ankstesnių versijų plėtotė ir palaikymas | Taip       | Ne              |
 | „Visual Studio“ kūrimas  |                                           | Taip       | Taip             |
 
 \* Vietinėse aplinkose PerfTimer rodo tik kliento rezultatus.

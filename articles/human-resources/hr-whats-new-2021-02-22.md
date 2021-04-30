@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 53e9c42f718665165be97e5022a9e767b0436e59
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 61f86cd6168d700a5316768b328466b08d9e8f51
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802220"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892614"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-22-2021"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2021 m. vasario 22 d.)
 
@@ -32,7 +32,7 @@ ms.locfileid: "5802220"
 
 Daugiau informacijos apie mūsų atnaujinimo procesą ir grafiką žr. [Atnaujinimo procesas](hr-admin-setup-update-process.md).
 
-Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo datas žr. [„Dynamics 365 Human Resources” 2021 m. 1-os leidimo bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
+Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo datas žr. [„Dynamics 365 Human Resources” 2021 m. 1-os leidimo bangos apžvalga](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>Šiame leidime
 
@@ -44,7 +44,7 @@ Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo 
 
 | Funkcija | Leidimo planas | Dokumentacija |
 | --- | --- | --- |
-| „Dynamics 365 Human Resources“ programa, skirta „Microsoft Teams“ | [Darbuotojo atostogos ir neatvykimai „Microsoft Teams”](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [„Human Resources“ programa „Teams“](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[Atostogų prašymų valdymas „Teams“](hr-teams-leave-app.md) |
+| „Dynamics 365 Human Resources“ programa, skirta „Microsoft Teams“ | [Darbuotojo atostogos ir neatvykimai „Microsoft Teams”](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [„Human Resources“ programa „Teams“](./hr-admin-teams-leave-app.md)<br>[Atostogų prašymų valdymas „Teams“](hr-teams-leave-app.md) |
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
 
@@ -68,9 +68,9 @@ Toliau pateiktos naujos funkcijos yra peržiūrimos. Daugiau informacijos apie f
 
 | Funkcija | Leidimo planas | Dokumentacija |
 | --- | --- | --- |
-| Kryžminės įmonės rodinys atostogų vadovams | [Kryžminės įmonės rodinys darbuotojų atostogų vadovams](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Atostogų ir neatvykimų parametrų konfigūravimas](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-parameters) |
-| Išmokų valdymo darbo sritis | [Išmokų valdymo darbo sritis (peržiūra)](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [Išmokų valdymo darbo sritis](hr-benefits-management-workspace.md) |
-| Apribokite darbuotojų galimybes redaguoti įmonės kontaktinius duomenis | [Darbuotojų galimybių redaguoti įmonės kontaktinius duomenis ribojimas](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/restrict-employees-editing-business-contact-details) | [Asmeninės informacijos redagavimo apribojimas](hr-employee-self-service-restrict-editing.md)|
+| Kryžminės įmonės rodinys atostogų vadovams | [Kryžminės įmonės rodinys darbuotojų atostogų vadovams](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Atostogų ir neatvykimų parametrų konfigūravimas](./hr-leave-and-absence-parameters.md) |
+| Išmokų valdymo darbo sritis | [Išmokų valdymo darbo sritis (peržiūra)](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [Išmokų valdymo darbo sritis](hr-benefits-management-workspace.md) |
+| Apribokite darbuotojų galimybes redaguoti įmonės kontaktinius duomenis | [Darbuotojų galimybių redaguoti įmonės kontaktinius duomenis ribojimas](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/restrict-employees-editing-business-contact-details) | [Asmeninės informacijos redagavimo apribojimas](hr-employee-self-service-restrict-editing.md)|
 
 ## <a name="coming-soon"></a>Jau greitai
 
@@ -78,15 +78,15 @@ Toliau pateiktos naujos funkcijos yra peržiūrimos. Daugiau informacijos apie f
 | --- | --- |
 | Vadovo įvesti įgūdžiai savo darbuotojams gali būti automatiškai patvirtinami darbo eigos | Greitai bus išleista. |
 
-Norėdami gauti visą planuojamų funkcijų ir jų suplanuotų leidimų sąrašą, žr. [„Dynamics 365 Human Resources” 2021 m. 1-os leidimo bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
+Norėdami gauti visą planuojamų funkcijų ir jų suplanuotų leidimų sąrašą, žr. [„Dynamics 365 Human Resources” 2021 m. 1-os leidimo bangos apžvalga](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 
 ## <a name="terminology-updates-for-microsoft-dataverse"></a>Terminologijos naujinimai „Microsoft Dataverse“
 
-Įsigalioja nuo lapkričio mėn. 2020, „Common Data Service“ buve pervardytas į [„Microsoft Dataverse“](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro). Žr. [oficialų skelbimą](https://powerapps.microsoft.com/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/) „Power Apps“ tinklaraštyje, kad sužinotumėte daugiau. Pakeitus šį pavadinimą, kai kurie terminai „Dataverse“ buvo atnaujinti. Pavyzdžiui, nuo šiol *objektas* yra *lentelė* ir *laukas* yra *stulpelis*. Daugiau informacijos rasite skyriuje [Terminijos naujinimai](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates).
+Įsigalioja nuo lapkričio mėn. 2020, „Common Data Service“ buvo pervardytas į [„Microsoft Dataverse“](/powerapps/maker/data-platform/data-platform-intro). Žr. [oficialų skelbimą](https://powerapps.microsoft.com/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/) „Power Apps“ tinklaraštyje, kad sužinotumėte daugiau. Pakeitus šį pavadinimą, kai kurie terminai „Dataverse“ buvo atnaujinti. Pavyzdžiui, nuo šiol *objektas* yra *lentelė* ir *laukas* yra *stulpelis*. Daugiau informacijos rasite skyriuje [Terminijos naujinimai](/powerapps/maker/data-platform/data-platform-intro#terminology-updates).
 
 Šiame leidime terminai susiję su „Dynamics 365 Human Resources“ integravimu su „Dataverse“ buvo atnaujinti per programą, kad atspindėtų šiuos pakeitimus. Pavyzdžiui, **„Common Data Service“ integravimas** forma dabar yra **„Microsoft Dataverse“ integravimas**.
 
-Tam, kad sužinotumėte daugiau apie „Dynamics 365 Human Resources“ integravimą su „Microsoft Dataverse“, žr. [Konfigūruoti „Microsoft Dataverse“ integravimą](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service) ir [Konfigūruoti „Microsoft Dataverse“ virtualias lenteles](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+Tam, kad sužinotumėte daugiau apie „Dynamics 365 Human Resources“ integravimą su „Microsoft Dataverse“, žr. [Konfigūruoti „Microsoft Dataverse“ integravimą](./hr-admin-integration-common-data-service.md) ir [Konfigūruoti „Microsoft Dataverse“ virtualias lenteles](./hr-admin-integration-common-data-service-virtual-entities.md).
 
 ## <a name="updates-to-service-deployment"></a>Tarnybos diegimo naujinimai
 
@@ -94,12 +94,12 @@ Nuo 2021 m. vasario 22 d. leidimo koreguojame savo regiono tarnybos naujinimo di
 
 Toliau seksime dviejų savaičių diegimo intervalą. Tačiau klientai gali pastebėti, kad naujinimai dažniausiai taikomi jų personalo aplinkai kitą dviejų savaičių ciklo dieną, nei ankstesniuose leidimuose.
 
-Daugiau informacijos apie paslaugos atnaujinimo procesą žr. skyriuje [Atnaujinimo procesas](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-setup-update-process).
+Daugiau informacijos apie paslaugos atnaujinimo procesą žr. skyriuje [Atnaujinimo procesas](./hr-admin-setup-update-process.md).
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 [Kas nauja ar pasikeitė „Human Resources”](hr-admin-whats-new.md)</br>
-[„Dynamics 365 Human Resources“ 2021 m. leidimo 1 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
+[„Dynamics 365 Human Resources“ 2021 m. leidimo 1 bangos apžvalga](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
 [Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
 [Funkcijų valdymas](hr-admin-manage-features.md)
 

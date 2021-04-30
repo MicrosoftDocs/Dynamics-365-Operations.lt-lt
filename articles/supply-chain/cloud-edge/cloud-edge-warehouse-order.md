@@ -2,27 +2,21 @@
 title: Sandėlio užsakymai, skirti debesies ir briaunos skalės vienetams
 description: Šioje temoje pateikiama informacija apie sandėlio užsakymo galimybę, naudojamą kaip sandėlio skalės vieneto darbo krūvio dalis.
 author: perlynne
-ms.date: 01/14/2021
+ms.date: 04/13/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: WHSWarehouseOrderLine, WHSWarehouseReceiptEntry, PurchTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: SCM
+ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2021-01-14
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f2401102ab44f5c24f5cd6f545f30438db0a36cf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.search.validFrom: 2021-04-13
+ms.dyn365.ops.version: 10.0.19
+ms.openlocfilehash: c24c08771c83453bb65312700cf994c7a800b7fd
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836691"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899124"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Sandėlio užsakymai, skirti debesies ir briaunos skalės vienetams
 
@@ -72,6 +66,8 @@ Rodinyje **Sandėlio užsakymo eilutės** galite stebėti gavimo eigą peržiūr
 
 - Eikite į **Sandėlio valdymas \> Užklausos ir ataskaitos \> Sandėlio užsakymo eilutės** ir naudokite filtrą rasti ieškomoms eilutėms.
 - Eikite į **Įsigijimas ir šaltiniai \> Pirkimo užsakymai \> Visi pirkimo užsakymai** ir atidarykite reikiamą pirkimo užsakymą. Skyriuje **Pirkimo užsakymo eilutės** pasirinkite vieną ar daugiau eilučių ir tada įrankių juostoje pasirinkite **Sandėlis \> Sandėlio gavimo įrašai**.
+
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

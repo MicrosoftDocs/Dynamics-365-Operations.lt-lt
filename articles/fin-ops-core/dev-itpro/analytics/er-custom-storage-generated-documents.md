@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: dab70b213efc7e7a3537aa2b47b9edf38d492d34
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ca50f030e67e517a227766f6a30d4bd4b345300b
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753725"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894129"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Pasirinktinės saugyklos vietos, skirtos sugeneruotiems dokumentams, nurodymas
 
@@ -27,7 +27,7 @@ Elektroninių ataskaitų (ER) sistemos programavimo sąsaja (API) suteikia galim
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
-Turite įdiegti topologiją, kuri palaiko nuolatinę komponavimo versiją. (Daugiau informacijos žr. [Visuotinis topologijų, palaikančių nuolatinio komponavimo versijų ir bandymo automatizavimo funkciją, diegimas](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation).) Jums reikia vieno iš toliau nurodytų vaidmenų prieigos prie šios topologijos.
+Turite įdiegti topologiją, kuri palaiko nuolatinę komponavimo versiją. (Daugiau informacijos žr. [Visuotinis topologijų, palaikančių nuolatinio komponavimo versijų ir bandymo automatizavimo funkciją, diegimas](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation).) Jums reikia vieno iš toliau nurodytų vaidmenų prieigos prie šios topologijos.
 
 - Elektroninės ataskaitos kūrėjas
 - Elektroninės ataskaitos funkcijų konsultantas
@@ -53,7 +53,7 @@ Esamoje topologijoje [sukurkite naują ER formatą](tasks/er-format-configuratio
 
 Norėdami nurodyti, kaip dokumentai, kuriuos generuoja ER formatas, turi būti nukreipiami, turite sukonfigūruoti [Elektroninių ataskaitų (ER) paskirties vietos](electronic-reporting-destinations.md). Kiekvienoje ER paskirties vietoje, kuri sukonfigūruota saugoti sugeneruotus dokumentus kaip failus, turite nurodyti dokumentų valdymo sistemos dokumento tipą. Galima naudoti skirtingus dokumentų tipus norint nukreipti dokumentus, kuriuos sugeneruoja skirtingi ER formatai.
 
-1. Įtraukite anksčiau sukurto arba importuoto ER formato [dokumento tipą](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management). Toliau pateiktame paveikslėlyje dokumento tipas yra **FileX**.
+1. Įtraukite anksčiau sukurto arba importuoto ER formato [dokumento tipą](../../fin-ops/organization-administration/configure-document-management.md). Toliau pateiktame paveikslėlyje dokumento tipas yra **FileX**.
 2. Norėdami atskirti šį dokumento tipą nuo kitų dokumentų tipų, įtraukite tam tikrą raktažodį į jo pavadinimą. Pavyzdžiui, toliau pateiktame paveikslėlyje pavadinimas yra **(VIETINIS) aplankas**.
 3. Lauke **Klasė** nurodykite **Pridėti failą**.
 4. Lauke **Grupė** nurodykite **Failas**.
@@ -117,14 +117,14 @@ public DocuRef insertFile(
 
 ## <a name="configure-an-er-destination"></a>ER paskirties vietos konfigūravimas
 
-1. Sukonfigūruokite vieno iš anksčiau minėtų sukurto arba importuoto ER formato elementų (failo, aplanko, susijungimo arba priedo) suarchyvuotą paskirties vietą. Patarimų žr. [ER paskirties vietų konfigūravimas](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
+1. Sukonfigūruokite vieno iš anksčiau minėtų sukurto arba importuoto ER formato elementų (failo, aplanko, susijungimo arba priedo) suarchyvuotą paskirties vietą. Patarimų žr. [ER paskirties vietų konfigūravimas](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
 2. Naudoti anksčiau įtrauktą sukonfigūruotos paskirties vietos dokumento tipą. (Pavyzdžiui, šioje temoje dokumento tipas yra **FileX**.)
 
 ![Dialogo langas Paskirties vietos parametrai](media/er-extend-file-storages-destination.png)
 
 ## <a name="modify-source-code"></a>Šaltinio kodo modifikavimas
 
-1. Įtraukite naują klasę į savo „Microsoft Visual Studio“ projektą ir parašykite kodą, kad užsiprenumeruotumėte pirmiau paminėtą įvykį **AttachingFile()**. (Daugiau informacijos apie naudojamo šablono išplėtimą žr. [Atsakymas naudojant EventHandlerResult](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/extensibility/respond-event-handler-result).) Pavyzdžiui, naujoje klasėje parašykite kodą, kuris atlieka toliau nurodytus veiksmus.
+1. Įtraukite naują klasę į savo „Microsoft Visual Studio“ projektą ir parašykite kodą, kad užsiprenumeruotumėte pirmiau paminėtą įvykį **AttachingFile()**. (Daugiau informacijos apie naudojamo šablono išplėtimą žr. [Atsakymas naudojant EventHandlerResult](/dynamics365/unified-operations/dev-itpro/extensibility/respond-event-handler-result).) Pavyzdžiui, naujoje klasėje parašykite kodą, kuris atlieka toliau nurodytus veiksmus.
 
     1. Saugokite sugeneruotus failus serverio, kuriame veikia programos objektų serverio (AOS) tarnyba, vietinės failų sistemos aplanke.
     2. Saugokite šiuos sugeneruoti failus tik kai naudojamas naujas dokumento tipas (pvz., tipas **FileX**, kurio pavadinime yra raktažodis „(VIETINIS)“) ir failas yra pridėtas prie įrašo ER vykdymo užduočių žurnale.

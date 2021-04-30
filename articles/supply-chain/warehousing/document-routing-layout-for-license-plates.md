@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: faf54fec2885f868c66987a7b481559d0c5615d0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6b5bf6815f225dcca8f9e89e2c85942ce8a2ccd7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838279"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907992"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Numerio lentelės etikečių dokumentų maršrutų planavimo maketas
 
@@ -73,7 +73,7 @@ Toliau pateikti pavyzdžiai rodo, kaip galima tinkinti darbo kiekio (**Kiekis**)
 - Naudokite `$Qty:0000$`, norėdami visada matyti keturis skaitmenis (nuliai naudojami kaip vietos rezervavimo ženklai). Pavyzdžiui, jei kiekis yra 10, etiketėje bus rodoma „0010.”
 - Naudokite `$Qty:0.00$`, norėdami visada matyti du skaičius po kablelio. Pavyzdžiui, jei kiekis yra 10, etiketėje bus rodoma „10,00”.
 
-Norėdami peržiūrėti visą galimų numerių formato eilučių sąrašą, žr. [Pasirinktinės skaitinės formato eilutės](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings).
+Norėdami peržiūrėti visą galimų numerių formato eilučių sąrašą, žr. [Pasirinktinės skaitinės formato eilutės](/dotnet/standard/base-types/custom-numeric-format-strings).
 
 ## <a name="custom-string-formats"></a>Pasirinktiniai eilučių formatai
 
@@ -95,7 +95,7 @@ $PrintedDate:dd-MM-yyyy$
 
 Šiame pavyzdyje data 2020 m. balandžio 30 d. bus spausdinama kaip „30-04-2020.”
 
-Norėdami peržiūrėti visą galimų datos / laiko formatų sąrašą, žr. [Pasirinktinės datos ir laiko formato eilutės](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings).
+Norėdami peržiūrėti visą galimų datos / laiko formatų sąrašą, žr. [Pasirinktinės datos ir laiko formato eilutės](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="print-individual-lines-from-multiline-data"></a>Kelių eilučių duomenų atskirų eilučių spausdinimas
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f2f40bec79c0b5ce26882e1146c1751b9b6eee01
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1c8d939fef4fd0f9e189ca37318c2c0306511785
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753317"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893913"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfigūracijos, skirtos dokumentams „Excel“ formatu generuoti, kūrimas
 
@@ -69,7 +69,7 @@ Norėdami į tuščią ER formatą importuoti naują šabloną, veiksmų srities
 
 ## <a name="sheet-component"></a>Lapo komponentas
 
-Komponentas **Lapas** nurodo pridėtos „Excel“ darbaknygės darbalapį, kurį reikia užpildyti. „Excel“ šablone esančio darbalapio pavadinimas yra apbirėžtas šio komponento ypatybėje **Lapas**.
+Komponentas **Lapas** nurodo pridėtos „Excel“ darbaknygės darbalapį, kurį reikia užpildyti. „Excel“ šablone esančio darbalapio pavadinimas yra apibrėžtas šio komponento ypatybėje **Lapas**.
 
 > [!NOTE]
 > „Excel“ darbaknygėse, kuriose yra vienas darbalapis, šis komponentas yra pasirinktinis.
@@ -83,7 +83,7 @@ ER operacijų kūrimo įrankio skirtuke **Susiejimas** galite konfigūruoti komp
 
 ## <a name="range-component"></a>Diapazono komponentas
 
-Komponentas **Diapazonas** nurodo „Excel“ diapazoną, kurį turi kontroliuoti šis ER komponentas. Diapazono pavadinimas yra apbirėžtas šio komponento ypatybėje **„Excel“ diapazonas**.
+Komponentas **Diapazonas** nurodo „Excel“ diapazoną, kurį turi kontroliuoti šis ER komponentas. Diapazono pavadinimas yra apirėžtas šio komponento ypatybėje **„Excel“ diapazonas**.
 
 Ypatybė **Dubliavimo kryptis** nurodo, ar diapazonas bus kartojamas sugeneruotame dokumente, ir kaip.
 
@@ -98,7 +98,7 @@ Komponente **Diapazonas** gali būti kitų įterptųjų ER komponentų, kurie na
 - Jei reikšmėms įvesti naudojamas bet kuris grupės **Tekstas** komponentas, reikšmė „Excel“ diapazone įvedama kaip tekstinė reikšmė.
 
     > [!NOTE]
-    > Naudokite šį šabloną, kai norite formatuoti įvestas reikšmes pagal programoje apirbrėžtą lokalę.
+    > Naudokite šį šabloną, kai norite formatuoti įvestas reikšmes pagal programoje apibrėžtą lokalę.
 
 - Jei reikšmėms įvesti naudojamas grupės **Excel** komponentas **Langelis**, „Excel“ diapazone įvedama reikšmė yra duomenų tipo, kuris apibrėžiamas to komponento **Langelis** susiejimu (pavyzdžiui, **Eilutė**, **Realusis skaičius** arba **Sveikasis skaičius**).
 
@@ -136,7 +136,7 @@ Norėdami sužinoti daugiau, kaip įterpti paveikslėlius ir figūras, žr. [Vai
 
 ## <a name="page-break-component"></a>Puslapio lūžio komponentas
 
-Komponentas **Puslapio lūžis** priverčia programą „Excel“ pradėti naują puslapį. Šis komponentas nerekalingas, kai norite naudoti numatytąją „Excel“ puslapių kaitą, bet turite jį naudoti, jei norite, kad programa „Excel“ puslapių kaitai taikytų jūsų ER formatą.
+Komponentas **Puslapio lūžis** priverčia programą „Excel“ pradėti naują puslapį. Šis komponentas nereikalingas, kai norite naudoti numatytąją „Excel“ puslapių kaitą, bet turite jį naudoti, jei norite, kad programa „Excel“ puslapių kaitai taikytų jūsų ER formatą.
 
 ## <a name="footer-component"></a>Poraštės komponentas
 
@@ -159,7 +159,7 @@ Vienam **Lapas** komponentui, galite pridėti kelis **Poraštė** komponentus, k
 
 Po pridėto **Poraštė** komponentu pridėkite **Tekstas\\Eilutė**, **Tekstas\\Datos laikas** arba kito tipo būtinus įdėtus komponentus. Norėdami nurodyti, kaip užpildoma jūsų puslapio poraštė, sukonfigūruokite tų komponentų susiejimus.
 
-Taip pat galite naudoti specialius [formatavimo kodus](https://docs.microsoft.com/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) norėdami teisingai suformuoti sugeneruotos poraštės turinį. Norėdami sužinoti, kaip naudoti šį būdą, atlikite [1 pavyzdyje](#example-1) žemiau šioje temoje aprašytus veiksmus.
+Taip pat galite naudoti specialius [formatavimo kodus](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) norėdami teisingai suformuoti sugeneruotos poraštės turinį. Norėdami sužinoti, kaip naudoti šį būdą, atlikite [1 pavyzdyje](#example-1) žemiau šioje temoje aprašytus veiksmus.
 
 > [!NOTE]
 > Konfigūruodami ER formatus, nepamirškite atsižvelgti į „Excel” [limitą](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) ir didžiausią vienos antraštės ar poraštės simbolių skaičių.

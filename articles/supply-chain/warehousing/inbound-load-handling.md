@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 095ef3bb9fff26915bf4fbeb7e240ae9175e315c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 62317f7e42c5392dce32a667f05f22e5c970abc7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835635"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910020"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Pirkimo užsakymų gaunamų krovinių sandėlio tvarkymas
 
 Šioje temoje aprašomas pirkimo užsakymų gaunamų krovinių sandėlio tvarkymo procesas.
 
-Kiekvienam gaunamam kroviniui jūsų sistemoje jau turėtų būti susijęs pardavimo užsakymas, joje taip pat gali būti susijusio krovinio specifikacija ir (arba) transportavimo planas. Norėdami gauti daugiau informacijos apie tai, kaip kurti ir valdyti gaunamus krovinius, žr. [Verslo procesai: gaunamų krovinių transportavimo planavimas](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
+Kiekvienam gaunamam kroviniui jūsų sistemoje jau turėtų būti susijęs pardavimo užsakymas, joje taip pat gali būti susijusio krovinio specifikacija ir (arba) transportavimo planas. Norėdami gauti daugiau informacijos apie tai, kaip kurti ir valdyti gaunamus krovinius, žr. [Verslo procesai: gaunamų krovinių transportavimo planavimas](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
 
 ## <a name="overview-how-inbound-loads-are-created-registered-and-received"></a>Apžvalga: kaip kurti, registruoti ir gauti gaunamus krovinius
 
@@ -38,11 +38,11 @@ Toliau pateiktame paveikslėlyje parodytas įprastas gaunamų krovinių, kurie a
 
 1. **Gaunamo krovinio įrašas sukuriamas, kad būtų galima planuoti atvykimą ir jo turinį.**
 
-    Gaunamo krovinio įrašas rodo vieno ar kelių pirkimo užsakymų tiekėjo siuntą. Tikimasi, kad krovinys į sandėlį atvyks kaip vienas faktinis transportavimo vienetas (pvz., sunkvežimio krovinys). Gaunamo krovinio įrašas naudojamas planuojant ir leidžia logistikos koordinatoriui stebėti krovinio keliavimo iš tiekėjo eigą. Jis taip pat naudojamas užsakymo eilučių kiekiams registruoti ir eigai valdyti atliekant sandėlio operacijas, pvz., gavimo ir padėjimo. Krovinius galima kurti automatiškai arba rankiniu būdu, ir jie gali būti pagrįsti pirkimo užsakymu arba išankstiniu siuntimo pranešimu (ASN). Daugiau informacijos žr. [Gaunamo krovinio kūrimas arba modifikavimas](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
+    Gaunamo krovinio įrašas rodo vieno ar kelių pirkimo užsakymų tiekėjo siuntą. Tikimasi, kad krovinys į sandėlį atvyks kaip vienas faktinis transportavimo vienetas (pvz., sunkvežimio krovinys). Gaunamo krovinio įrašas naudojamas planuojant ir leidžia logistikos koordinatoriui stebėti krovinio keliavimo iš tiekėjo eigą. Jis taip pat naudojamas užsakymo eilučių kiekiams registruoti ir eigai valdyti atliekant sandėlio operacijas, pvz., gavimo ir padėjimo. Krovinius galima kurti automatiškai arba rankiniu būdu, ir jie gali būti pagrįsti pirkimo užsakymu arba išankstiniu siuntimo pranešimu (ASN). Daugiau informacijos žr. [Gaunamo krovinio kūrimas arba modifikavimas](/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
 
 1. **Tiekėjas patvirtina krovinio išsiuntimą.**
 
-    Tiekėjui išsiuntus krovinį, gaunančio sandėlio logistikos koordinatorius patvirtina krovinio siuntimą. Jeigu gaunančioji įmonė naudoja **transportavimo valdymo** modulį, gaunamų siuntų patvirtinimas suaktyvins kitus krovinio valdymo procesus, susietus su gaunamais kroviniais. Norėdami gauti daugiau informacijos, žr. [Krovinio siuntimo patvirtinimas](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
+    Tiekėjui išsiuntus krovinį, gaunančio sandėlio logistikos koordinatorius patvirtina krovinio siuntimą. Jeigu gaunančioji įmonė naudoja **transportavimo valdymo** modulį, gaunamų siuntų patvirtinimas suaktyvins kitus krovinio valdymo procesus, susietus su gaunamais kroviniais. Norėdami gauti daugiau informacijos, žr. [Krovinio siuntimo patvirtinimas](/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
 
 1. **Krovinys pristatomas į sandėlį, ir darbuotojai užregistruoja kiekius.**
 
@@ -203,7 +203,7 @@ Toliau pateiktoje lentelėje apibendrinamas nustatymo **Leisti kelis vieno krovi
 | Leisti kelis vieno krovinio produktų gavimus | Krovinio kiekis | Krovinio būsena | Banknotas |
 |---|---|---|---|
 | Kai šio lauko nėra (versijos iki 10.0.10) | <p>Krovinio kiekis nustatomas taip, kad jis būtų lygus užregistruotam kiekiui.</p><p>Jei krovinio kiekis atnaujinamas į 0 (nulį) (o tai reiškia, kad jokia registracija neatlikta), krovinio eilutė panaikinama.</p><p>Jei krovinio eilučių nėra, krovinys panaikinamas.</p> | _Gauta_ | Jei yra keli kroviniai užsakymo eilutės užregistruotam kiekiui, atnaujinama tik krovinio, iš kurio buvo užregistruotas gavimas, būsena į _Gauta_. |
-| nr. | <p>Krovinio kiekis nustatomas taip, kad jis būtų lygus užregistruotam kiekiui, susijusiam su krovinio ID.</p><p>Jei atsargų operacijai neįrašomas joks krovinio ID, veiksmas atitinka veiksmą versijose iki 10.0.10.</p> | _Gauta_ | |
+| Ne | <p>Krovinio kiekis nustatomas taip, kad jis būtų lygus užregistruotam kiekiui, susijusiam su krovinio ID.</p><p>Jei atsargų operacijai neįrašomas joks krovinio ID, veiksmas atitinka veiksmą versijose iki 10.0.10.</p> | _Gauta_ | |
 | Taip | Nėra naujinimų | _Gauta_, jei bendras užregistruotas krovinio kiekis yra lygus arba viršija krovinio kiekį | |
 | Taip | Nėra naujinimų | _Išsiųsta_ arba _Vykdoma_, jei bendras užregistruotas krovinio kiekis yra mažesnis už krovinio kiekį | |
 

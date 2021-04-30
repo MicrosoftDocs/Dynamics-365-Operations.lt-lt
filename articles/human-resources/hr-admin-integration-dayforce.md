@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bcb57082a49fc07a4139aa37f9507890ca7ed620
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1647b7fbf84a78051e745e918954df32a2e7e1dd
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805087"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890009"
 ---
 # <a name="configure-integration-with-dayforce"></a>Integravimo su „Dayforce “ konfigūravimas
 
@@ -32,7 +32,7 @@ Integravimas tarp „Microsoft Dynamics 365 Human Resources“ ir „Ceridian Da
 Kai naudojate paslaugas, pvz., „Dayforce“ kad atliktumėte mokėjimų vykdymus, turite įjungti integravimą į „Human Resources“. Integravimui reikalingi konkretūs duomenys iš „Human Resources“. Todėl turite patvirtinti, kad duomenys, susieti su „Dayforce“, yra sukonfigūruojami „Human Resources“ taip, kad integravimas būtų palaikomas. Integravimui naudojamos šios plačios duomenų kategorijos:
 
 - Personalo duomenys
-- Kompensacijos duomenys
+- Atlyginimo dalies duomenys
 - Algalapio duomenys, pvz., mokėjimo ciklai, mokėjimo laikotarpiai ir pajamų kodai
 - Darbuotojo duomenys
 
@@ -53,8 +53,8 @@ Kai integravimas įjungiamas, sukuriamas duomenų eksportavimo paketas bei faila
 
 Daugiau informacijos apie „Azure“ saugyklos paskyras ir „Azure Storage“ jungimosi eilutes rasite šiose „Azure“ straipsniuose:
 
-- [Apie „Azure“ saugyklos paskyras](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
-- [„Azure Storage“ jungimosi eilučių konfigūravimas](https://docs.microsoft.com/azure/storage/common/storage-configure-connection-string)
+- [Apie „Azure“ saugyklos paskyras](/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
+- [„Azure Storage“ jungimosi eilučių konfigūravimas](/azure/storage/common/storage-configure-connection-string)
 
 ### <a name="technical-details-when-payroll-integration-is-enabled"></a>Techninė informacija apie algalapių integravimo įjungimą
 
@@ -65,16 +65,17 @@ Daugiau informacijos apie „Azure“ saugyklos paskyras ir „Azure Storage“ 
 
 > [!NOTE]
 > Duomenų paketas, perduotas į SFTP galinį punktą, užšifruojamas naudojant unikalų pakuotės raktą. Raktas laikomas „Azure Key Vault“, kurį gali pasiekti tik „Ceridian“. Neįmanoma iššifruoti ir išanalizuoti duomenų paketo turinio. Jei reikia analizuoti duomenų paketo turinį, reikės rankiniu būdu eksportuoti duomenų projektą Atlyginimų integravimo eksportavimas, jį atsisiųsti ir tada atsidaryti. Eksportuojant rankiniu būdu nebus taikomas šifravimas ir paketas nebus perduodamas.
+> Tais atvejais, kai integravimo failai yra siunčiami iš „Dynamics 365 Human Resources” UAT arba Smėlio dėžės aplinkos į „Ceridian Dayforce” testavimo aplinką, galite naudoti šį raktų saugyklos URL: https://payrollintegrationprod.vault.azure.net.
 
 ## <a name="configure-your-data"></a>Jūsų duomenų konfigūravimas 
 
-Kad apdorotumėte algalapį, turite sukonfigūruoti personalo duomenis „Human Resources“. Turite nustatyti organizacijos duomenis, pvz., užduotis ir pareigas, taip pat išmokų ir kompensacijos informaciją. Čia pateikiama įdarbinimo, mokėjimų ir atskaitymų informacija, būtina tam, kad būtų galima sugeneruoti darbuotojo mokėjimą.
+Kad apdorotumėte algalapį, turite sukonfigūruoti personalo duomenis „Human Resources“. Turite nustatyti organizacijos duomenis, pvz., užduotis ir pareigas, taip pat išmokų ir atlyginimo dalies informaciją. Čia pateikiama įdarbinimo, mokėjimų ir atskaitymų informacija, būtina tam, kad būtų galima sugeneruoti darbuotojo mokėjimą.
 
 ### <a name="human-resource-data"></a>Personalo duomenys
 
 #### <a name="benefits"></a>Išmokos 
 
-Personalas pateikia įrankius, kuriuos galima naudoti norint nustatyti ir tvarkyti organizacijos darbuotojams siūlomas arba apdorojamas išmokas, atskaitymus ir darbininkų kompensacijų planus.
+Personalas pateikia įrankius, kuriuos galima naudoti norint nustatyti ir tvarkyti organizacijos darbuotojams siūlomas arba apdorojamas išmokas, atskaitymus ir darbininkų atlyginimų dalies planus.
 
 Kurdami išmokas turėkite omenyje, kad toliau pateikiami duomenys ir konfigūracijos naudojami „Dayforce“.
 
@@ -124,33 +125,33 @@ Kurdami išmokas turėkite omenyje, kad toliau pateikiami duomenys ir konfigūra
 
 Daugiau informacijos apie tai, kaip nustatyti ir tvarkyti išlaidų programą, rasite šiuose straipsniuose:
 
-- [Darbuotojų išmokų programos teikimas](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
-- [Kurti naują išmoką](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
-- [Apibrėžti išmokų tinkamumo taisykles ir strategijas](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
-- [Užregistruoti ir pašalinti išmokas darbuotojams](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
+- [Darbuotojų išmokų programos teikimas](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
+- [Kurti naują išmoką](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
+- [Apibrėžti išmokų tinkamumo taisykles ir strategijas](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
+- [Užregistruoti ir pašalinti išmokas darbuotojams](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
 
-#### <a name="compensation"></a>Kompensacija 
+#### <a name="compensation"></a>Atlyginimo dalis 
 
-Kompensacijų valdymas naudojamas kontroliuoti pagrindinio užmokesčio ir premijų pristatymui. Darbuotojo fiksuotas pagrindinis užmokestis ir nuopelnų padidėjimai kontroliuojami naudojant pastoviosios kompensacijos dalies planus. Skatinamųjų išmokų, pvz., priedų, apdovanojimų už našumą, akcijų pasirinkimo sandorių, subsidijų bei vienkartinių premijų mokėjimas valdomas naudojant kintamosios kompensacijos dalies planus.
+Atlyginimų dalies valdymas naudojamas kontroliuoti pagrindinio užmokesčio ir premijų pristatymui. Darbuotojo fiksuotas pagrindinis užmokestis ir nuopelnų padidėjimai kontroliuojami naudojant pastoviosios atlyginimo dalies dalies planus. Skatinamųjų išmokų, pvz., priedų, apdovanojimų už našumą, akcijų pasirinkimo sandorių, subsidijų bei vienkartinių premijų mokėjimas valdomas naudojant kintamosios atlyginimo dalies dalies planus.
 
-„Dayforce“ naudojama kompensacijos informacija, kad būtų apskaičiuotas darbuotojo valandinis ar metinis tarifas. Būtini pastoviosios atlyginimo dalies planai ir užmokesčio tarifo konvertavimas. Darbuotojai turi būti susieti su pastoviosios atlyginimo dalies planu.
+„Dayforce“ naudojama atlyginimo dalies informacija, kad būtų apskaičiuotas darbuotojo valandinis ar metinis tarifas. Būtini pastoviosios atlyginimo dalies planai ir užmokesčio tarifo konvertavimas. Darbuotojai turi būti susieti su pastoviosios atlyginimo dalies planu.
 
-Daugiau informacijos apie kompensacijų planus rasite šiuose straipsniuose:
+Daugiau informacijos apie atlyginimų dalies planus rasite šiuose straipsniuose:
 
-- [Pastoviosios atlyginimo dalies planų kūrimas](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-- [Kintamosios atlyginimo dalies planų kūrimas](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-variable-compensation-plans)
-- [Kurti atlyginimų / kompensavimo struktūrą ir planus](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
-- [Kompensavimo apdorojimas](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
-- [Kompensavimo proceso nustatymas ir rezultatų skaičiavimas](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
-- [Darbuotojo įtraukimas į fiksuoto atlyginimo dalies planą](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
-- [Darbuotojo įtraukimas į kintamosios atlyginimo dalies planą](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
+- [Pastoviosios atlyginimo dalies planų kūrimas](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+- [Kintamosios atlyginimo dalies planų kūrimas](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+- [Kurti atlyginimų / kompensavimo struktūrą ir planus](/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
+- [Kompensavimo apdorojimas](/dynamics365/unified-operations/talent/process-compensation)
+- [Kompensavimo proceso nustatymas ir rezultatų skaičiavimas](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
+- [Darbuotojo įtraukimas į fiksuoto atlyginimo dalies planą](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
+- [Darbuotojo įtraukimas į kintamosios atlyginimo dalies planą](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
 
 #### <a name="jobs"></a>Darbai 
 
 Užduotis yra užduočių ir pareigų, kurias asmeniui reikia įvykdyti, rinkinys. Daugiau informacijos ieškokite šiuose straipsniuose:
 
-- [Užduoties komponentų nustatymas](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-job)
-- [Naujų darbo vietų nustatymas](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
+- [Užduoties komponentų nustatymas](/dynamics365/unified-operations/talent/create-job)
+- [Naujų darbo vietų nustatymas](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
 
 ##### <a name="positions"></a>Pareigybės
 
@@ -174,8 +175,8 @@ Jei tame pačiame padalinyje su tuo pačiu darbu susiejamos kelios pareigos, „
 
 Daugiau informacijos ieškokite šiuose straipsniuose:
 
-- [Darbo jėgos organizavimas naudojant padalinius, darbo vietas ir pareigas](https://docs.microsoft.com/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
-- [Pareigų nustatymas](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
+- [Darbo jėgos organizavimas naudojant padalinius, darbo vietas ir pareigas](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
+- [Pareigų nustatymas](/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
 
 #### <a name="departments"></a>Padaliniai
 
@@ -183,8 +184,8 @@ Padalinys yra valdymo vienetas, nurodantis organizacijos kategoriją arba funkci
 
 Daugiau informacijos ieškokite šiuose straipsniuose:
 
-- [Padalinio sukūrimas ir susiejimas su padalinių hierarchija](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
-- [Apibrėžti naujus padalinius](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
+- [Padalinio sukūrimas ir susiejimas su padalinių hierarchija](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
+- [Apibrėžti naujus padalinius](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
 
 #### <a name="pay-cycles-and-pay-periods"></a>Mokėjimo ciklai ir mokėjimo laikotarpiai
 
@@ -221,7 +222,7 @@ Galite tvarkyti šią darbininkų informaciją:
 - **Pagrindinė** – tvarkykite pagrindinę darbininko informaciją, pvz., kontaktinę informaciją, demografinę informaciją, identifikacijos informaciją, šeimos informaciją, santykį su karine tarnyba, informaciją apie gyvenimą ne tėvynėje ir asmeninius kontaktus bei kontaktinius asmenis nelaimės atveju.
 - **Įdarbinimas** – tvarkykite informaciją apie darbininko įdarbinimą, pvz., priklausymą įmonei ar organizacijai, priskyrimą pareigoms, pradžios ir pabaigos datas, tinkamumą dirbti, darbo režimą, pensiją, atostogas ir informaciją apie perkėlimą.
 - **Atostogos ir nebuvimas** – tvarkykite informaciją apie darbininko nebuvimą, pvz., darbo kalendorius, nebuvimo operacijas ir nebuvimo nustatymą.
-- **Kompensacija ir algalapis** – tvarkykite informaciją apie darbininko kompensacijos planus ir algalapio informaciją, pvz., plano registraciją, apdovanojimus, našumą, komisinius, mokesčių informaciją, išėjimą į pensiją ir atskaitymus iš atlyginimų.
+- **Atlyginimo dalis ir algalapis** – tvarkykite informaciją apie darbininko atlyginimo dalies planus ir algalapio informaciją, pvz., plano registraciją, apdovanojimus, našumą, komisinius, mokesčių informaciją, išėjimą į pensiją ir atskaitymus iš atlyginimų.
 
 Įvesdami darbininko informaciją turėkite omenyje, kad toliau pateikiami duomenys ir konfigūracijos naudojami „Dayforce“.
 
@@ -306,7 +307,7 @@ Darbuotojo pagrindinės datos gaunamos naudojant toliau pateikiamą informaciją
 | Pradžios data            | Dabartinio neaktyvios įdarbinimo retrospektyvos įrašo koreguota pradžios data, pradžios data ar įdarbinimo pradžia |
 | Pradinio įdarbinimo data    | Anksčiausio įdarbinimo retrospektyvos įrašo įdarbinimo pradžia                                               |
 
-#### <a name="compensation"></a>Kompensacija
+#### <a name="compensation"></a>Atlyginimo dalis
 
 Pastoviosios atlyginimo dalies planas turi būti susietas su kiekvieno darbuotojo pagrindinėmis pareigomis įdarbinimo laikotarpio metu. Šis laikotarpis prasideda nuo tos datos, kai darbuotojas pasamdomas (ar įdarbinimo pradžios datos), ir tęsiasi iki atleidimo.
 
@@ -409,7 +410,7 @@ Priežasčių kodai pateikia informaciją apie darbuotojo būseną. Priežasči�
 | DEATH          | Mirtis            | Atleisti darbininką     |
 | LEAVEOFABSENCE | Laisvadienis | Atleisti darbininką     |
 | CONTRACTEND    | Sutarties pabaiga  | Atleisti darbininką     |
-| SALARYCHANGE   | Atlyginimo pasikeitimas | Kompensacija         |
+| SALARYCHANGE   | Atlyginimo pasikeitimas | Atlyginimo dalis         |
 
 ### <a name="marital-status"></a>Šeiminė padėtis
 
@@ -424,7 +425,7 @@ Toliau pateikiamoje lentelėje parodoma, kaip šeiminės padėties vertės yra s
 | Našlys (-ė)                | Našlys (-ė)              |
 | Išsiskyręs (-usi)               | Išsiskyręs (-usi)             |
 | Registruota partnerystė | Civilinė partnerystė |
-| None                   | None                 |
+| Nėra                   | Nėra                 |
 | Sugyventiniai             | Sugyventiniai           |
 
 ### <a name="gender"></a>Giminė
@@ -546,7 +547,7 @@ Priežasčių kodai pateikia informaciją apie darbuotojo būseną. Priežasči�
 | DEATH                  | Mirtis                          | Atleisti darbininką     |
 | LEAVEOFABSENCE         | Laisvadienis               | Atleisti darbininką     |
 | CONTRACTEND            | Sutarties pabaiga                | Atleisti darbininką     |
-| SALARYCHANGE           | Atlyginimo keitimas               | Kompensacija         |
+| SALARYCHANGE           | Atlyginimo keitimas               | Atlyginimo dalis         |
 
 ### <a name="terms-of-employment"></a>Įdarbinimo sąlygos
 
@@ -574,7 +575,7 @@ Toliau pateikiamoje lentelėje parodoma, kaip šeiminės padėties vertės yra s
 | Našlys (-ė)                | Našlys (-ė)                   |
 | Išsiskyręs (-usi)               | Išsiskyręs (-usi)                  |
 | Registruota partnerystė | Civilinė partnerystė      |
-| None                   | *Nepalaikoma Meksikoje* |
+| Nėra                   | *Nepalaikoma Meksikoje* |
 | Sugyventiniai             | *Nepalaikoma Meksikoje* |
 
 ### <a name="gender"></a>Giminė

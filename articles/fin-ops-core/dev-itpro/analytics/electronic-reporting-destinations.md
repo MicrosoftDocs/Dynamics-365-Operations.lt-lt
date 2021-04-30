@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 03dd6f81185e8944019eaadbb77690e4cd9ba9a1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fe0c3bc94359c7e6a3eb2476b8096a8a2339ee9d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751321"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893609"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroninių ataskaitų (ER) paskirties vietos
 
@@ -57,7 +57,7 @@ Numatytasis ER formato konfigūracijos veikimo būdas priklauso nuo vykdymo tipo
 
 Jei nustatysite parinktį **Paketinis vykdymas** į **Ne**, dialogo lango **Intrastat ataskaita** „FastTab” **Vykdyti fone** ER formatas vykdomas interaktyviuoju režimu nedelsiant. Kai šis vykdymas sėkmingai baigtas, galima atsisiųsti sugeneruotą siuntimo dokumentą.
 
-Jei nustatysite parinktį **Paketinis vykdymas** į **Taip**, ER formatas vykdomas [paketiniu](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview) režimu. Sukuriama reikiama paketinė užduotis, remiantis parametrais, nurodytais dialogo lango **ER parametrai** skirtuke **Vykdyti fone**.
+Jei nustatysite parinktį **Paketinis vykdymas** į **Taip**, ER formatas vykdomas [paketiniu](../sysadmin/batch-processing-overview.md) režimu. Sukuriama reikiama paketinė užduotis, remiantis parametrais, nurodytais dialogo lango **ER parametrai** skirtuke **Vykdyti fone**.
 
 > [!NOTE]
 > Užduoties apraše jums pranešama apie ER formato susiejimo vykdymą. Jame taip pat yra įvykdyto ER komponento pavadinimas.
@@ -70,7 +70,7 @@ Informacijos apie šią užduotį galite rasti keliose vietose.
 - Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Elektroninės ataskaitos užduotys**, kad patikrintumėte suplanuotos užduoties būseną ir baigtos užduoties vykdymo rezultatus. Kai užduoties vykdymas sėkmingai baigtas, puslapyje **Elektroninės ataskaitos užduotys** pasirinkite **Rodyti failus**, kad gautumėte sugeneruotą siuntimo dokumentą.
 
     > [!NOTE]
-    > Šis dokumentas saugomas kaip dabartinės užduoties įrašo priedas ir jį valdo [dokumentų valdymo](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) sistema. [Dokumento tipas](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types), naudojamas saugoti šio tipo artefaktus, yra sukonfigūruotas naudojant [ER parametrus](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
+    > Šis dokumentas saugomas kaip dabartinės užduoties įrašo priedas ir jį valdo [dokumentų valdymo](../../fin-ops/organization-administration/configure-document-management.md) sistema. [Dokumento tipas](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types), naudojamas saugoti šio tipo artefaktus, yra sukonfigūruotas naudojant [ER parametrus](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
 - Puslapyje **Elektroninės ataskaitos užduotys** pasirinkite **Rodyti failus**, kad peržiūrėtumėte klaidų ir įspėjimų, sugeneruotų vykdant užduotį, sąrašą.
 

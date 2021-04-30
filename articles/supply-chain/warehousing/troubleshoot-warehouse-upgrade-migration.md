@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 953b828667a01157767c3ca79349fe972b0fbe9b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 12dcadae2a65d71614a2eee9468ec93cac284a7b
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826400"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907892"
 ---
 # <a name="troubleshoot-upgrade-and-migration-to-advanced-warehouse-management"></a>Trikčių šalinimo gerinimo ir perkėlimas į papildomą sandėlio valdymą
 
@@ -42,7 +42,7 @@ Naudokite išorės (viešąją) seritfikavimo įstaigą (CA). Šios trikties pa�
 
 ### <a name="issue-description"></a>Problemos aprašas
 
-Dabar vykdote sandėliavimo/inventoriaus valdymą ir naudojate pagrindines sandėlio funkcijas ir norite perkelti pagerintą sandeliavimą tam, kad pasinaudotumėte mobiliuoju įrenginiu, bangomis ir darbu geriau. Nepaisant to, patiriate trikčių bandydami padaryti šį perkėlimą. Pavyzdžiui, negali pakeisti savo produktų taip, kad jie naudotų talpinimo matmenis (vietą, sandėlį ir vietą), nes produktai turi perlaidas jų atžvilgiu. Dėl to, privalote išmokti patvirtintą procesą perkėlimui iš pagrindinio sandėliavimo į pagerintą sandėliavimą.
+Dabar vykdote sandėliavimo/inventoriaus valdymą ir naudojate pagrindines sandėlio funkcijas ir norite perkelti išplėstinį sandėliavimą tam, kad pasinaudotumėte mobiliuoju įrenginiu, bangomis ir darbu geriau. Nepaisant to, patiriate trikčių bandydami padaryti šį perkėlimą. Pavyzdžiui, negali pakeisti savo produktų taip, kad jie naudotų talpinimo matmenis (vietą, sandėlį ir vietą), nes produktai turi perlaidas jų atžvilgiu. Dėl to, privalote išmokti patvirtintą procesą perkėlimui iš pagrindinio sandėliavimo į pagerintą sandėliavimą.
 
 ### <a name="issue-resolution"></a>Problemos paaiškinimas
 
@@ -51,7 +51,7 @@ Dėl daugiau informacijos apie procesą perkėlimui iš pagrindinio sandėliavim
 - [Įjungti sandėlio valdymo procesą esantiems elementams ir sandėliams](https://cleverax.wordpress.com/2017/12/06/d365fo-enable-warehouse-management-process-for-existing-items-and-warehouses/)
 - [„Microsoft Dynamics AX“ perkėlimas WMS į naują R3 sandėlį ir gabenimo funkcijos](https://cloudblogs.microsoft.com/dynamics365/no-audience/2015/08/17/migration-of-microsoft-dynamics-ax-wms-to-new-r3-warehouse-and-transportation-functionality/)
 - [WMSI/WMS2 elemento perkėlimas](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/05/03/wmsiwms2-item-migration/)
-- [Sandėlio valdymo pagerinimas iš „Microsoft Dynamics“ AX 2012 iki „Supply Chain Management“](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/upgrade-migration-warehouse-management-processes)
+- [Sandėlio valdymo pagerinimas iš „Microsoft Dynamics“ AX 2012 iki „Supply Chain Management“](./upgrade-migration-warehouse-management-processes.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

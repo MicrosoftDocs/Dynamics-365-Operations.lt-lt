@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 263650cae4b8408f1f7a4a27c43294d2f51c1444
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: edbfad387496cb3381c6298b9141129c6a878335
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800146"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891846"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Human Resources” (2020 m. rugpjūčio 6 d.)
 
@@ -33,23 +33,23 @@ ms.locfileid: "5800146"
 
 ## <a name="platform-update-1001236-is-now-available"></a>Platformos atnaujinimas 10.0.12(36) yra dabar prieinamas
 
-Dėl daugiau informacijos, žr. [Platformos atnaujinimas „Finance and Operations“ programos 10.0.12 versijai (2020 m. rugsėjo mėn.)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12).
+Dėl daugiau informacijos, žr. [Platformos atnaujinimas „Finance and Operations“ programos 10.0.12 versijai (2020 m. rugsėjo mėn.)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Duomenų valdymo sistemos (DMF) objektai, skirti išmokų valdymui
  
 Išmokų valdymo objektai ir išleidimas. DMF objektai leidžia paprastai importuoti ir eksportuoti duomenis, kad lengviau konfigūruotumėte išmokų valdymą. Išmokų valdymo šablonas taps prieinamu duomenų perkėlimui. Šablonas nuosekliai eksportuoja ir importuoja duomenis išsaugodamas duomenų priklausomumą. Daugiau informacijos ieškokite:
 
-- [DMF objektas palaikomas](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support) „Dynamics 365 2020“ leidimas bangai 1 planui
-- [Duomenų valdymo apžvalga](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages)
+- [DMF objektas palaikomas](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support) „Dynamics 365 2020“ leidimas bangai 1 planui
+- [Duomenų valdymo apžvalga](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)
 
 
 ## <a name="claire-creates-a-workflow-for-buying-and-selling-leave-requests-446557"></a>Claire sukuria darbo srautą atostogų užklausų įsigijimui ir pardavimui (446557)
 
 Daugiau informacijos ieškokite:
 
-- [Leisti darbuotojams pirkti ir parduoti atsotogas](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) „Dynamics 365 2020“ leidimo 2 bangos planui
-- [Atostogų pirkimo ir pardavimo strategijų valdymas](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
-- [Atostogų pirkimas ir pardavimas](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
+- [Leisti darbuotojams pirkti ir parduoti atostogas](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) „Dynamics 365 2020“ leidimo 2 bangos planui
+- [Atostogų pirkimo ir pardavimo strategijų valdymas](./hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+- [Atostogų pirkimas ir pardavimas](./hr-employee-self-service-buy-sell-leave.md)
 
 
 ## <a name="worker-postal-addresses-v2-entity-has-access-across-legal-entities-with-restricted-access-459126"></a>Darbuotojo pašto adresų V2 objektas turi prieigą prie teisinių objektų su apribota prieiga (459126)
@@ -62,7 +62,7 @@ Jums naudojant rezervuotą vietą siekiant atidaryti vykdymo peržiūrą perži�
 
 ## <a name="new-entities-for-buying-and-selling-leave-473180"></a>Nauji objektai atostogų įsigijimui ir pardavimui (473180)
 
-Duomenų valdymo darbotvarkės objektai dabar yra prienamo atostogų įsigijimui ir pardavimui. Dėl daugiau informacijos, žr. [Duomenų valdymo peržiūra](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).
+Duomenų valdymo darbotvarkės objektai dabar yra prieinami atostogų įsigijimui ir pardavimui. Dėl daugiau informacijos, žr. [Duomenų valdymo peržiūra](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
 
 ## <a name="when-viewing-record-information-and-using-advanced-filters-a-user-could-gain-access-to-other-employees-records-472490"></a>Peržiūrint įrašo informaciją ir naudojant papildomus filtrus, vartotojas gali gauti prieigą prie kitų darbuotojų įrašų (472490)
 
@@ -78,7 +78,7 @@ Su šiuo išleidimu, personalo valdymo analitika tik apima dirbančius darbuotoj
 
 ## <a name="review-workflow-can-be-started-more-than-once-467541"></a>Darbo srauto peržiūra gali būti pradėta daugiau nei kartą (467541)
 
-Šiuo pakeitimu galite tik vieną kartą pradėti peržiūros darbo srauto vykdymą. Vadovo statustas neberodo parinkties peržiūros pradėjimui.
+Šiuo pakeitimu galite tik vieną kartą pradėti peržiūros darbo srauto vykdymą. Vadovo būsena neberodo parinkties peržiūros pradėjimui.
 
 ## <a name="leave-request-work-flow-ends-in-error-when-canceling-an-approved-leave-request-472063"></a>Atostogų užklausos darbo srautas pasibaigia klaida, jei patvirtinta atostogų užklausa yra atšaukiama (472063)
 
@@ -90,15 +90,15 @@ Su šiuo išleidimu, personalo valdymo analitika tik apima dirbančius darbuotoj
 
 ## <a name="position-hierarchy-circular-reference-detection-415879"></a>Hierarchijos padėčių apykaitos ataskaitos aptikimas (415879)
 
-Šiuo pakeitimu, padėties hierarchijos apykaitos ataskaitos aptikimas yra apribotas iki vieno taško laike. Galite vykdyti apykaitos ataskaitos aptikimą skirtingoms datoms tam, kad pativirtintumėte, ar ataskaitos struktūra neturi apykaitos ataskaitų.
+Šiuo pakeitimu, padėties hierarchijos apykaitos ataskaitos aptikimas yra apribotas iki vieno taško laike. Galite vykdyti apykaitos ataskaitos aptikimą skirtingoms datoms tam, kad patvirtintumėte, ar ataskaitos struktūra neturi apykaitos ataskaitų.
 
 ## <a name="buy-and-sell-leave"></a>Atostogų pirkimas ir pardavimas 
 
 Kai kurios organizacijos suteikia išmoką, kuri leidžia darbuotojams pirkti ar parduoti savo atostogas. Šis procesas dažnai valdomas neautomatiniu būdu. Ši funkcija automatizuoja žmogiškųjų išteklių departamento valdymo strategijas ir užklausas. Ji supaprastina atostogų valdymo procesą ir padeda pašalinti klaidas. Daugiau informacijos ieškokite:
 
-- [Leisti darbuotojams pirkti ir parduoti atsotogas](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) „Dynamics 365 2020“ leidimo 2 bangos planui
-- [Atostogų pirkimo ir pardavimo strategijų valdymas](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
-- [Atostogų pirkimas ir pardavimas](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
+- [Leisti darbuotojams pirkti ir parduoti atostogas](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) „Dynamics 365 2020“ leidimo 2 bangos planui
+- [Atostogų pirkimo ir pardavimo strategijų valdymas](./hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+- [Atostogų pirkimas ir pardavimas](./hr-employee-self-service-buy-sell-leave.md)
 
 ## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>Atostogų kaupimas vienai įmonei arba vienam planui
 
@@ -126,15 +126,15 @@ Galite sukurti taisyklę sustabdyti darbuotojų, įvedusių neapmokamų atostog�
 
 Galite nustatyti laukelius privalomais naudodami Žmogiškųjų išteklių personalizavimo galimybes. Šiai funkcijai reikia **Įrašyti rodiniai**. Dėl platesnės informacijos apie įrašytas peržiūras, žr.:
 
-- [Įrašytos peržiūras - bendras prieinamumas](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) „Dynamics 365 2020“ leidime bangos 2 planas
-- [Formų, kurios visiškai išnaudoja įrašytus rodinius, kūrimas](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
+- [Įrašytos peržiūras - bendras prieinamumas](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) „Dynamics 365 2020“ leidime bangos 2 planas
+- [Formų, kurios visiškai išnaudoja įrašytus rodinius, kūrimas](../fin-ops-core/dev-itpro/user-interface/understanding-saved-views.md)
 
 ### <a name="human-resources-application-in-teams"></a>„Human Resources“ programa programoje „Teams“
 
 Darbuotojai gali peržiūrėti ir prašyti atostogų programoje „Microsoft Teams“. Jie gali bendrauti su robotu, kad sukurtų atostogų prašymą. Daugiau informacijos ieškokite:
 
-- [Darbuotojo atostogų ir nebuvomo patirtis „Microsoft Teams“](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) „Dynamics 365“ 2020 leidime bangos 1 plane
-- [„Human Resources“ programa „Teams“](https://go.microsoft.com/fwlink/?linkid=2127841)
+- [Darbuotojo atostogų ir nebuvimo patirtis „Microsoft Teams“](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) „Dynamics 365“ 2020 leidime bangos 1 plane
+- [„Human Resources“ programa „Teams“](./hr-admin-teams-leave-app.md)
 
 ### <a name="dmf-entity-available-for-accrual-suspensions"></a>DMF objektas pasiekiamas kaupimo sustabdymams
 
@@ -148,7 +148,7 @@ Tikrinimo objektai Įtraukimo, Atleidimo, Perleidimo ir Verslo procesams bus gre
 
 ## <a name="known-issues"></a>Žinomos problemos
 
-**Ateities valdymas** darbo sritis gali rodyti funkcijas, kuriso yra išjungtos kaip peržiūros funkcijos joms bendrai esant įjungtoms. Toliau pateiktas bendras esamų funkcijų sąrašas, rodantis neteisingą statusą. 
+**Ateities valdymas** darbo sritis gali rodyti funkcijas, kurios yra išjungtos kaip peržiūros funkcijos joms bendrai esant įjungtoms. Toliau pateiktas bendras esamų funkcijų sąrašas, rodantis neteisingą statusą. 
 
 1.  Išmokų valdymas
 2.  Atvejų valdymas
@@ -172,7 +172,7 @@ Tikrinimo objektai Įtraukimo, Atleidimo, Perleidimo ir Verslo procesams bus gre
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 [Kas nauja ar pasikeitė „Human Resources”](hr-admin-whats-new.md)</br>
-[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
 [Funkcijų valdymas](hr-admin-manage-features.md)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14a5e1cea5a249b6087ef87560dd06bc026dd129
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ed56920ca1b4f2ac1313f7025b7a3c7245e9913
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822136"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898215"
 ---
 # <a name="budget-planning-overview"></a>Biudžeto planavimo apžvalga
 
@@ -30,7 +30,7 @@ ms.locfileid: "5822136"
 
 ## <a name="overview-of-budget-planning"></a>Biudžeto planavimo apžvalga
 
-Organizacija gali konfigūruoti biudžeto planavimą, tada nustatyti biudžeto planavimo procesus, kurie atitiktų jos biudžeto sudarymo strategijas, procedūras ir reikalavimus. Žinodami „Microsoft Dynamics 365 Finance“ naudojamas sąvokas ir terminus, galėsite lengviaus ir efektyviau įgyvendinti biudžeto planavimą savo organizacijoje.
+Organizacija gali konfigūruoti biudžeto planavimą, tada nustatyti biudžeto planavimo procesus, kurie atitiktų jos biudžeto sudarymo strategijas, procedūras ir reikalavimus. Žinodami „Microsoft Dynamics 365 Finance“ naudojamas sąvokas ir terminus, galėsite lengviau ir efektyviau įgyvendinti biudžeto planavimą savo organizacijoje.
 
 ### <a name="key-terms"></a>Pagrindiniai terminai
 
@@ -67,7 +67,7 @@ Toliau pateikiamoje iliustracijoje rodomas bendrasis pavyzdys, kuriame skirtingi
 
 [![Biudžeto planavimo bendroji schema](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
 
-Šiojeiliustracijoje parodomas pavyzdys, kada įmonių būstinės įvertina pradinio biudžeto bazines sumas ir paskirsto jas pardavimo skyriams. Tada pardavimo skyriai įvertina ir pateikia savo prognozę atgal į būstinę, o biudžeto vadybininkas sujungia ir pakoreguoja prognozę. Galiausiai biudžeto vadybininkas siunčia pakoreguotas biudžeto sumas vyriausiajam finansininkui (CFO) peržiūrėti, vykdyti galutinius koregavimus ir patvirtinti.
+Šioje iliustracijoje parodomas pavyzdys, kada įmonių būstinės įvertina pradinio biudžeto bazines sumas ir paskirsto jas pardavimo skyriams. Tada pardavimo skyriai įvertina ir pateikia savo prognozę atgal į būstinę, o biudžeto vadybininkas sujungia ir pakoreguoja prognozę. Galiausiai biudžeto vadybininkas siunčia pakoreguotas biudžeto sumas vyriausiajam finansininkui (CFO) peržiūrėti, vykdyti galutinius koregavimus ir patvirtinti.
 
 [![Biudžeto planavimo schemos pavyzdys](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
 
@@ -75,7 +75,7 @@ Toliau pateikiamoje iliustracijoje rodomas bendrasis pavyzdys, kuriame skirtingi
 
 Puslapyje **Organizacijos hierarchija** galite nurodyti organizacijos hierarchiją, kuri bus naudojama kaip kiekvieno biudžeto planavimo proceso biudžeto planavimo hierarchija. Biudžeto planavimo hierarchija nebūtinai turi atitikti standartinę organizacijos hierarchiją, kuri naudojama kitiems tikslams. Kadangi ši hierarchija naudojama duomenų sujungimui ir platinimui, galbūt norėsite, kad ji būtų kitokios struktūros. Schemos pavyzdyje pardavimo skyriai priklauso būstinės lygiui, kuriam priklauso biudžeto ir finansų skyriai. Ši struktūra galbūt skiriasi nuo struktūros, kuri naudojama tvarkant pardavimo skyrių operacijas. Kiekvienam biudžeto planavimo procesui gali būti priskirta tik viena organizacijos hierarchija.
 
-Norėdami gauti daugiau informacijos, žr. [Organizacijos ir organizacijų hierarchijos](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md).
+Norėdami gauti daugiau informacijos, žr. [Organizacijos ir organizacijų hierarchijos](../../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md).
 
 ### <a name="user-security"></a>Vartotojo sauga
 
@@ -135,7 +135,7 @@ Paskirstymo grafikai automatiškai paskirsto biudžeto plano eilutes, kai apdoro
 
 ### <a name="stage-allocations"></a>Etapo paskirstymai
 
-Etapo paskirstymai naudojami norint automatiškai paskirstyti biudžeto plano eilutes apdorojant darbo eigą. Naudojant etapo paskirstymus, biudžeto plano eilutės paskirties scenarijuje gali būti sukuriamos ir modifikuojamos nedalyvaujant asmeniui, parengusiui biudžeto planą, arba redaktoriui.
+Etapo paskirstymai naudojami norint automatiškai paskirstyti biudžeto plano eilutes apdorojant darbo eigą. Naudojant etapo paskirstymus, biudžeto plano eilutės paskirties scenarijuje gali būti sukuriamos ir modifikuojamos nedalyvaujant asmeniui, parengusiam biudžeto planą, arba redaktoriui.
 
 Kai nustatote etapo paskirstymą, susiekite biudžeto planavimo darbo eigą ir etapą su paskirstymo grafiku. Biudžeto planavimo darbo eiga turi būti susieta su biudžeto sudarymo darbo eiga, kuri naudoja automatizuotą darbo eigos užduotį **Biudžeto planavimo etapo paskirstymas**. Darbo eigai pasiekus nurodytą etapą, paskirstymas vyksta automatiškai. Šią automatizuotą užduotį galima naudoti kuriant naujo scenarijaus biudžeto plano eilutes.
 
@@ -163,7 +163,7 @@ Kartu su biudžeto sumų stulpeliais galite nurodyti stulpelius, skirtus biudže
 
 Pavyzdžiui, galite norėti sukurti Scenarijų „Ankstesnių metų pardavimas”, „Sutartys” ir „Prognozės” stulpelius. (Šioje iliustracijoje matyti schemos atitinkamas skyrius). Tada galite išskaidyti visus šiuo scenarijus ar vieną iš jų į atskirus stulpelius, skirtus kiekvienam finansinių metų ketvirčiui, kad pardavimų skyriaus vadybininkas galėtų tiksliai įvesti kiekvieno laikotarpio prognozės sumas.
 
-[![Stulpeliai](./media/columns.png)](./media/columns.png)
+[![Stulpelių įtraukimo schemos skyrių pavyzdys](./media/columns.png)](./media/columns.png)
 
 Taip pat nurodote, ar galima redaguoti kiekvieną maketo elementą (stulpelį) ir ar tai galima padaryti bet kuriame tam maketui sukurto darbalapio šablone. Schemos pavyzdyje, etapui „Vertinimas” naudojamame makete, stulpelius „Prognozė” galima redaguoti, o stulpelius „Ankstesnių metų pardavimas” ir „Sutartys” galima tik skaityti.
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 44a1332a7c2cb30724198d61190cb6dc207ad2d0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6a4266ee942f504ffa2f355959af8e3076984d83
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795002"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892304"
 ---
 # <a name="system-requirements"></a>Sistemos reikalavimai
 
@@ -53,17 +53,17 @@ Norėdami rasti naujausią kiekvienos žiniatinklio naršyklės leidimą, eikite
 
 ## <a name="supported-microsoft-office-applications"></a>Palaikomos „Microsoft Office“ taikomosios programos
 
-* Kad galėtumėte naudoti „Microsoft Excel“ papildinius, turi būti įdiegta „Windows“ arba „Mac“ skirta „Microsoft Office 2016“. Daugiau informacijos apie versijų reikalavimus žr. [„Office“ integravimo trikčių šalinimas](../dev-itpro/office-integration/office-integration-troubleshooting.md "„Office“ integravimo trikčių diagnostika").
+* Kad galėtumėte naudoti „Microsoft Excel“ papildinius, turi būti įdiegta „Windows“ arba „Mac“ skirta „Microsoft Office 2016“. Daugiau informacijos apie versijų reikalavimus žr. [„Office“ integravimo trikčių šalinimas](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md "„Office“ integravimo trikčių diagnostika").
 * Norėdami peržiūrėti dokumentus, sugeneruotus naudojant funkciją Eksportuoti į „Excel“ arba Eksportuoti į „Word“, turi būti įdiegta „Microsoft Office 2007“ arba naujesnė versija.
 
 ## <a name="regional-availability-languages-and-localization"></a>Regiono pasiekiamumas, kalbos ir lokalizavimas
 
-Galite atsisiųsti „Human Resources“ palaikomų šalių, regionų ir kalbų PDF failą iš [„Microsoft Dynamics 365“ tarptautinis pasiekiamumas](https://docs.microsoft.com/dynamics365/get-started/availability). 
+Galite atsisiųsti „Human Resources“ palaikomų šalių, regionų ir kalbų PDF failą iš [„Microsoft Dynamics 365“ tarptautinis pasiekiamumas](/dynamics365/get-started/availability). 
 
 > [!NOTE]
 > Nors vartotojo sąsaja lokalizuojama į įvairias kalbas, visi vartotojo duomenys yra saugomi kalba, kuria jie buvo įvesti. Galite kurti el. laiškus ir šablonus kitomis kalbomis, bet tokie duomenys, kaip planavimo informacija, šiuo metu pasiekiami tik anglų kalba.
 
-Jei esate kūrėjas, ir norėtumėte kurti konkrečiai šaliai arba regionui skirtus tinkinimus arba sukurti sprendimą šaliai arba regionui, kurio šiuo metu „Microsoft“ nepalaiko, žr. [Globalizacija](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
+Jei esate kūrėjas, ir norėtumėte kurti konkrečiai šaliai arba regionui skirtus tinkinimus arba sukurti sprendimą šaliai arba regionui, kurio šiuo metu „Microsoft“ nepalaiko, žr. [Globalizacija](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

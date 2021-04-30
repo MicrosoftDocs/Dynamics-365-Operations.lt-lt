@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 760763078d10c56c8bc485601a2f14979d28ac11
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 158d96e748b982c87be3f8b08f68d1fdb919aeeb
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830741"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897167"
 ---
 # <a name="sepa-credit-transfer-overview"></a>SEPA kredito pervedimų apžvalga
 
@@ -33,7 +33,7 @@ Kredito pervedimo pranešimas yra reikalavimas, kurį pradedanti pusė (jūsų �
 ![Kredito pervedimas](./media/credit-transfer.jpg) Kredito pervedimo pranešimai 
 
 ## <a name="what-are-iso-20022-and-sepa-payments"></a>Kas yra ISO 20022 ir SEPA mokėjimai?
-Bendrą mokėjimų eurais erdvę (SEPA) nustato Europos Komisija ir ja nurodoma, kad visi elektroniniai mokėjimai laikomi vietiniais, nepaisant asmens, verslo arba organizacijos buvimo vietos šalies / regiono. Nacionaai mokėjimai ir tarptautiniai mokėjimai niekuo nesiskiria. SEPA apima 28 Europos Sąjungos (ES) valstybes nares ir Islandiją, Lichtenšteiną, Norvegiją, Šveicariją, Monaką ir San Mariną. SEPA padeda skurti bendrą mokėjimo operacijų rinką Europos ekonominėje erdvėje (EEE). Galiausiai, naudojant SEPA tikimasi sumažinti mokėjimo formatų, su kuriais dirba bankai, verslo įmonės ir asmenys, skaičių. Europos Komisija SEPA mokėjimų teisinį pagrindą nustatė naudodama mokėjimo paslaugų direktyvą (PSD). Europos mokėjimų taryba (EPC) SEPA palaiko toliau nurodytomis veiklomis.
+Bendrą mokėjimų eurais erdvę (SEPA) nustato Europos Komisija ir ja nurodoma, kad visi elektroniniai mokėjimai laikomi vietiniais, nepaisant asmens, verslo arba organizacijos buvimo vietos šalies / regiono. Vietiniai ir tarptautiniai mokėjimai niekuo nesiskiria. SEPA apima 28 Europos Sąjungos (ES) valstybes nares ir Islandiją, Lichtenšteiną, Norvegiją, Šveicariją, Monaką ir San Mariną. SEPA padeda skurti bendrą mokėjimo operacijų rinką Europos ekonominėje erdvėje (EEE). Galiausiai, naudojant SEPA tikimasi sumažinti mokėjimo formatų, su kuriais dirba bankai, verslo įmonės ir asmenys, skaičių. Europos Komisija SEPA mokėjimų teisinį pagrindą nustatė naudodama mokėjimo paslaugų direktyvą (PSD). Europos mokėjimų taryba (EPC) SEPA palaiko toliau nurodytomis veiklomis.
 
 -   Naudodama ISO 20022 Visuotinės finansų sektoriaus pranešimų schemos XML formatą, ji nustato SEPA elektroninių mokėjimų standartus.
 -   Ji nustato mokėjimų eurais tvarkymo taisykles ir gaires.
@@ -48,13 +48,13 @@ EPC, kurią sudaro Europos bankai, kuria komercines ir technines SEPA mokėjimo 
 SEPA kredito pervedimas yra mokėjimas iš vienos įmonės ar asmens kitai įmonei ar asmeniui. Mokėjimai turi būti atliekami eurais, ir juose turi būti nurodytas abiejų šalių tarptautinis banko sąskaitos numeris (IBAN) bei banko identifikatoriaus kodas (BIC). (Tarptautinės organizacijos, teikiančios finansinių pranešimų perdavimo paslaugas \[SWIFT\] kodas taip pat vadinamas banko identifikacijos kodu (BIC).) Be to, operacijos išlaidas turi dalintis abi šalys. Kredito pervedimuose, atliekamuose tarp šalių, turi būti naudojami XML failai, atitinkantys ISO 20022 mokėjimų apdorojimo standartus ir XML formatą, kaip nurodo EPC.
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>Kaip kredito pervedimas atliekamas?
-Kredito pervedimo mokėjimo formatas Europos šalyse diegiamas naudojant „Microsoft“ „Dynamics 365 Finance“ elektroninių ataskaitų (ER) ir Mokėjimo būdų funkcijas. Keletas kredito pervedimo formatų, naudojamų kituose regionuose, vis dar naudoja mokėjimo formatų sistemą. Be daugelio kitų formatų, yra dvylika ISO 20022 kredito pervedimo failų formatai, kurie yra pasiekiami. Šie eksportavimo formatai atitinka SEPA ISO 20022 XML standartą. Jie naudojami generuoti mokėjimo pervedimus ne eurais tose šalyse / regionuose, kuriose jie naudojami, ir mokėjimus eurais, kaip nurodyta SEPA redito pervedimo schemos taisyklių sąvado 8.2 versijoje. Prieš naudodami kredito pervedimus, turite susisiekite su savo banku ir gauti programinę įrangą, kurios reikia norint įkelti elektroninės bankininkystės failus. Tą programinę įrangą naudosite XML failams, kuriuose bus mokėjimo užsakymai, perduoti bankui.
+Kredito pervedimo mokėjimo formatas Europos šalyse diegiamas naudojant „Microsoft Dynamics 365 Finance“ elektroninių ataskaitų (ER) ir Mokėjimo būdų funkcijas. Keletas kredito pervedimo formatų, naudojamų kituose regionuose, vis dar naudoja mokėjimo formatų sistemą. Be daugelio kitų formatų, yra dvylika ISO 20022 kredito pervedimo failų formatai, kurie yra pasiekiami. Šie eksportavimo formatai atitinka SEPA ISO 20022 XML standartą. Jie naudojami generuoti mokėjimo pervedimus ne eurais tose šalyse / regionuose, kuriose jie naudojami, ir mokėjimus eurais, kaip nurodyta SEPA kredito pervedimo schemos taisyklių sąvado 8.2 versijoje. Prieš naudodami kredito pervedimus, turite susisiekite su savo banku ir gauti programinę įrangą, kurios reikia norint įkelti elektroninės bankininkystės failus. Tą programinę įrangą naudosite XML failams, kuriuose bus mokėjimo užsakymai, perduoti bankui.
 
 ## <a name="what-credit-transfer-formats-are-currently-supported"></a>Kokie kredito pervedimo formatai šiuo metu palaikomi?
 Visada turite eiti į bendrai naudojamo turto biblioteką „Microsoft Dynamics Lifecycle services“ (LCS) ir peržiūrėti naujausią prieinamų failų, kurių turto tipas yra **GER konfigūracija**, sąrašą. Kitame skyriuje – „Ką turiu nustatyti?“ – pateikiama nuoroda į temą, kurioje paaiškinta, kaip sukurti LCS saugyklą norint peržiūrėti galimas konfigūracijas ir importuoti pasirinktas konfigūracijas.
 
 ## <a name="what-do-i-have-to-set-up"></a>Ką turiu nustatyti?
--   Prieš kuriant kredito pervedimo failus, į jūsų Bendrųjų elektroninių ataskaitų konfigūracijas reikia importuoti bent vieną aktyvią ER kredito pervedimų konfigūraciją. Instrukcijų ieškokite [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+-   Prieš kuriant kredito pervedimo failus, į jūsų Bendrųjų elektroninių ataskaitų konfigūracijas reikia importuoti bent vieną aktyvią ER kredito pervedimų konfigūraciją. Instrukcijų ieškokite [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 -   Konfigūruodami Mokėtinų sumų mokėjimo būdus, pažymėkite žymės langelį **Bendrosios elektroninės ataskaitos** ir pasirinkite atitinkamą kredito pervedimo formatą (pvz.,, **ISO 20022 kredito pervedimas (AT)**) kaip eksporto formato konfigūraciją.
 -   Taip pat turite nustatyti juridinio subjekto ir banko sąskaitos informaciją.
 -   Banko sąskaitų numeriai, IBAN ir kartais SWIFT kodai (BIC) arba kiti ID reikalingi norint sukurti tinkamus kredito pervedimo mokėjimus. Todėl turite juos nustatyti tiek tiekėjo banko sąskaitoje, tiek organizacijos, pageidaujančios pervedimo, banko sąskaitoje.
@@ -88,7 +88,7 @@ Konkrečių parametrų sąrašas priklauso nuo kredito pervedimo formato. Toliau
 <td>Formatuoti</td>
 <td>Atsižvelgdami į savo šalies / regiono ar banko reikalavimus, pasirinkite pavedimo informacijos formatą.
 <ul>
-<li><strong>Struktūrinis</strong> – pasirinkite šią parinktį, jei norite naudoti struktūrinį formatą, kai viena mokėjimo eilutė sudengiama pagal vieną SF. Ši parinktis su Prancūzijos, Vokietijos ar Nyderlandų konkrečios šalies / regiono eksportavimo formatais negalima.</li>
+<li><strong>Struktūrinis</strong> – pasirinkite šią parinktį, jei norite naudoti struktūrinį formatą, kai viena mokėjimo eilutė sudengiama pagal vieną SF. Ši parinktis&#39;su Prancūzijos, Vokietijos ar Nyderlandų konkrečios šalies / regiono eksportavimo formatais negalima.</li>
 <li><strong>Nestruktūrinis</strong> – pasirinkite šią parinktį, jei norite naudoti nestruktūrinį formatą, kai mokėjimas sudengiamas pagal kelias SF. Sudengtų SF numeriai sujungiami ir naudojami kaip pavedimo informacija. Laikantis ISO 20022 gairių, nestruktūrinio pavedimo informacija apribota iki 140 simbolių.</li>
 </ul></td>
 </tr>

@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c4b5b6db9126f9b520945f63b24db26fdbdccf8c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2bc35794a83365205ebc0907419d3f0801713580
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816633"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908448"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Sandėlio nustatymas naudojant sandėlio konfigūracijos šabloną
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nustatyti sandėlį naudojant sandėlio konfigūracijos šabloną. Galima naudoti kelis iš anksto nustatytus konfigūracijos šablonus. Informacijos apie tai, kaip naudoti šiuos šablonus, žr. [Konfigūracijos duomenų šablonai](../../dev-itpro/data-entities/configuration-data-templates.md).
+Šioje temoje paaiškinama, kaip nustatyti sandėlį naudojant sandėlio konfigūracijos šabloną. Galima naudoti kelis iš anksto nustatytus konfigūracijos šablonus. Informacijos apie tai, kaip naudoti šiuos šablonus, žr. [Konfigūracijos duomenų šablonai](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
 ## <a name="scenarios-where-configuration-templates-can-be-helpful"></a>Atvejai, kada konfigūracijos šablonai gali būti naudingi
 
@@ -88,13 +88,13 @@ Galite atsisiųsti duomenų paketo ZIP failą. Šiame faile visi duomenys pateik
 4. Pasirinkite **+ Įtraukti failą** ir nusiųsti duomenų paketo ZIP failą.
 5. Pasirinkite **Importuoti**. Rodinyje **Patobulintas** galite naudoti parinktį **Filtras**, norėdami greitai peržiūrėti problemas, kurios gali kilti importuojant.
 
-Žurnale **Vykdymo peržiūra** pateikiama išsami informacija apie kiekvieną duomenų objektą, kuris yra importuotas. Galite naudoti išdėstymo duomenų rodinį, norėdami greitai pasiekti paskirties duomenis. Tokiu būdu galite peržiūrėti, kaip importuoti duomenys rodomi susijusiuose programos puslapiuose. Naudojant numatytuosius duomenų šablonus, kiekvieno duomenų objekto importavimo seka vykdoma iš anksto nustatytu būdu, siekiant užtikrinti, kad pirmiausia importuojami visi priklausomi duomenys. Jei pasirinktiniai duomenų objektai yra projekto dalis, turite įsitikinti, kad apibrėžta teisinga seka. Daugiau informacijos žr. [ Konfigūracijos duomenų šablonai](../../dev-itpro/data-entities/configuration-data-templates.md).
+Žurnale **Vykdymo peržiūra** pateikiama išsami informacija apie kiekvieną duomenų objektą, kuris yra importuotas. Galite naudoti išdėstymo duomenų rodinį, norėdami greitai pasiekti paskirties duomenis. Tokiu būdu galite peržiūrėti, kaip importuoti duomenys rodomi susijusiuose programos puslapiuose. Naudojant numatytuosius duomenų šablonus, kiekvieno duomenų objekto importavimo seka vykdoma iš anksto nustatytu būdu, siekiant užtikrinti, kad pirmiausia importuojami visi priklausomi duomenys. Jei pasirinktiniai duomenų objektai yra projekto dalis, turite įsitikinti, kad apibrėžta teisinga seka. Daugiau informacijos žr. [ Konfigūracijos duomenų šablonai](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
 Norėdami daugiau sužinoti apie tai, kaip naudojant sandėlio šabloną nukopijuoti sandėlio konfigūraciją iš vienos įmonės į naują įmonę tame pačiame egzemplioriuje, žr. šį 3 minučių „YouTube“ vaizdo įrašą apie tai, [kaip naudojant sandėlio šabloną nukopijuoti konfigūraciją programoje „Finance and Operations“](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>Susijusi tema
 
-[Konfigūracijos duomenų šablonai](../../dev-itpro/data-entities/configuration-data-templates.md)
+[Konfigūracijos duomenų šablonai](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
