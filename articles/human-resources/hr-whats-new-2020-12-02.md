@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b7d9ecea08f5095e7fa8501d690bbabbd54e6501
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d95c92fe15f4dfe77d2bc8a153f86165c17edb4e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802244"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892638"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Kas naujo ar pasikeitusio „Dynamics 365 Human Resources“ 2020 m. gruodžio 2 d.
 
@@ -30,7 +30,7 @@ ms.locfileid: "5802244"
 
 Daugiau informacijos apie mūsų atnaujinimo procesą ir grafiką žr. [Atnaujinimo procesas](hr-admin-setup-update-process.md).
 
-Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo datas žr. [„Dynamics 365 Human Resources” 2020 m. 2-os leidimo bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
+Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo datas žr. [„Dynamics 365 Human Resources” 2020 m. 2-os leidimo bangos apžvalga](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>Šiame leidime
 
@@ -42,10 +42,10 @@ Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo 
 
 | Funkcija | Leidimo planas | Dokumentacija |
 | --- | --- | --- |
-| Vadovai gali pateikti įdarbinimo užklausas darbo vietoms | [Vadovai gali pateikti įdarbinimo užklausą atvirai darbo vietai](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [Įtrauktei įdarbinimo užklausą](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-a-recruiting-request) |
-| Papildytas kandidato profilis personalo valdyme | [Papildytas kandidato profilis personalo valdyme](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [Įtraukite ar redaguokite kandidato profilį](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-or-edit-a-candidate-profile) |
-| Įjunkite supaprastintas integracijas su įdarbinimo tiekėjais | [Įjunkite supaprastintas integracijas su įdarbinimo tiekėjais](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [Įdarbinti darbo kandidatai](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit) |
-| Pasirinktiniai saitai vadovų savitarnoje | [Pasirinktiniai saitai vadovų savitarnoje](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service) | [Pasirinktiniai saitai vadovų savitarnoje](https://aka.ms/MSSCustomLinks) |
+| Vadovai gali pateikti įdarbinimo užklausas darbo vietoms | [Vadovai gali pateikti įdarbinimo užklausą atvirai darbo vietai](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [Įtraukti įdarbinimo užklausą](./hr-personnel-recruit.md#add-a-recruiting-request) |
+| Papildytas kandidato profilis personalo valdyme | [Papildytas kandidato profilis personalo valdyme](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [Įtraukite ar redaguokite kandidato profilį](./hr-personnel-recruit.md#add-or-edit-a-candidate-profile) |
+| Įjunkite supaprastintas integracijas su įdarbinimo tiekėjais | [Įjunkite supaprastintas integracijas su įdarbinimo tiekėjais](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [Įdarbinti darbo kandidatai](./hr-personnel-recruit.md) |
+| Pasirinktiniai saitai vadovų savitarnoje | [Pasirinktiniai saitai vadovų savitarnoje](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service) | [Pasirinktiniai saitai vadovų savitarnoje](./hr-employee-manager-self-service-custom-links.md) |
 
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
@@ -58,9 +58,9 @@ Toliau nurodyti klaidų ištaisymai įtraukti į šį leidimą.
 | Problemos numeris | Išdavimas | aprašymas |
 | --- | --- | --- |
 | 514087 | BenefitEligibilityProcessResult turi apimti datą ir laiką, kuris buvo naudojamas apdorojimo metu. | BenefitEligibility apdorojimo rezultatai dabar apima duomenų laiko antspaudą paskutiniam apdorojimui, kurio trūko anksčiau. |
-| 526903 | Priedų įtraukimas nepavyksta planams su priklausiniais, kai **Automatinio pasirinkimo gavėjai** yra įjungti **Žmogiškųjų išteklių bendrinti parametrai**. | Fiksuota problema, kai naudos įtraukimas nepavyko priklausiniams, kai **Automatinio pasirnkimo gavėjų** parinktis buvo įjungta nustatytiesiems gavėjams. |
-| 521922 | **Rodyti nebuvimą be išsamios informacijos** parameteras rodo nebuvimo užklausų išsamią informaciją komandos nebuvimo kalendoriuje. | Atostogų tipas, atostogų tipo spalva ir dienų išsami informacija buvo rodoma komandos nebuvimo kalendoriuje, kai **Rodyti nebuvimą be išsamios informacijos** buvo nustatytas į **Taip** skyriuje **Atostogų ir nebuvimo parametrai**. Tai buvo pažymėta ir dabar atostogų tipas neberodomas ir nustatytoji atostogų tipo spalva (tamsiai mėlyna) yra naudojama visiems atostogų tipams komandos nebuvimo kalendoriuje. |
-| 527316 | Pareigų keitimai darbui, pareigoms ir darbuotojo pranešimams nesinchronizuojami. | Pareigų sąsjas buvo anksčiau įtrauktos į darbą, pareigas ir darbuotojo objektus. Sinchronizavimas su šiais susijusiais darbais sinchrozavimui žmogiškuosiuose ištekliuose į „Dataverse“, bet neveikia pranešimams iš „Dataverse“. Tai buvo pažymėta. |
+| 526903 | Priedų įtraukimas nepavyksta planams su priklausiniais, kai **Automatinio pasirinkimo gavėjai** yra įjungti **Žmogiškųjų išteklių bendrinti parametrai**. | Fiksuota problema, kai naudos įtraukimas nepavyko priklausiniams, kai **Automatinio pasirinkimo gavėjų** parinktis buvo įjungta nustatytiesiems gavėjams. |
+| 521922 | **Rodyti nebuvimą be išsamios informacijos** parametras rodo nebuvimo užklausų išsamią informaciją komandos nebuvimo kalendoriuje. | Atostogų tipas, atostogų tipo spalva ir dienų išsami informacija buvo rodoma komandos nebuvimo kalendoriuje, kai **Rodyti nebuvimą be išsamios informacijos** buvo nustatytas į **Taip** skyriuje **Atostogų ir nebuvimo parametrai**. Tai buvo pažymėta ir dabar atostogų tipas neberodomas ir nustatytoji atostogų tipo spalva (tamsiai mėlyna) yra naudojama visiems atostogų tipams komandos nebuvimo kalendoriuje. |
+| 527316 | Pareigų keitimai darbui, pareigoms ir darbuotojo pranešimams nesinchronizuojami. | Pareigų ryšys anksčiau buvo įtrauktas į darbą, pareigas ir darbuotojo objektus. Sinchronizavimas su šiais susijusiais darbais sinchronizavimui žmogiškuosiuose ištekliuose į „Dataverse“, bet neveikia pranešimams iš „Dataverse“. Tai buvo pažymėta. |
 | 512275 | Pašalinkite spalvos parinktis iš **Atostogų ir nebuvimo parametrai**. | Dabar spalvos yra nustatytos pagal atostogų tipą, spalvų parinktys nebėra reikalingos **Atostogų ir nebuvimo parametrams**, dėl to jos buvo panaikintos. |
 | 437112 | Neteisingas klaidos pranešimo tekstas darbuotojo padėties priskyrime. | Naujintas klaidos pranešimas darbuotojo samdymo metu ir bandymas priskirti darbuotoją pareigoms neveikia. Naujintas pranešimas **Nurodyta padėtis nebeveikia kaip darbuotojo pradžios data. Prašome patikrinti šių pareigų trukmę.** |
 | 527816 | Vykdymo triktys su **Nebuvimo** puslapiu. | Vykdymas buvo pagerintas pagal **Nebuvimą** puslapiu. |
@@ -72,23 +72,23 @@ Toliau pateiktos naujos funkcijos yra peržiūrimos. Daugiau informacijos apie f
 
 | Funkcija | Leidimo planas | Dokumentacija |
 | --- | --- | --- |
-| „Human Resources“ programa, esanti „Microsoft Teams” | [Darbuotojo atostogos ir neatvykimai „Microsoft Teams”](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [„Human Resources“ programa „Teams“](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[Atostogų prašymų valdymas „Teams“](hr-teams-leave-app.md) |
-| Patobulintos darbo eigos užklausos ir patvirtinimai | [Organizacijos ir personalo valdymo darbo eigos patobulinimai](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Konfigūracijos parinktis, skirta sąrašui Man priskirti darbo elementai perkelti](https://docs.microsoft.com/dynamics365/human-resources/hr-whats-new-2020-09-03#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
-| Integravimas su „LinkedIn Talent Hub“ | [Integravimas su „LinkedIn Talent Hub“](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/integration-linkedin-talent-hub) | [Integravimas su „LinkedIn Talent Hub“](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-linkedin) |
-|Kryžminės įmonės rodinys atostogų vadovams | [Kryžminės įmonės rodinys darbuotojų atostogų vadovams](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Atostogų ir neatvykimų parametrų konfigūravimas](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-parameters) |
-|Pateikite papildomas įžvalgas apie atostogų balansus| [Pateikite papildomas įžvalgas apie atostogų balansus](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-into-leave-balances) | [Darbuotojų atostogų valdymas](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-employee-leave) |
-| Vadovai gali pateikti įdarbinimo užklausas darbo vietoms | [Vadovai gali pateikti įdarbinimo užklausą atvirai darbo vietai](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [Įtrauktei įdarbinimo užklausą](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-a-recruiting-request) |
-| Papildytas kandidato profilis personalo valdyme | [Papildytas kandidato profilis personalo valdyme](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [Įtraukite ar redaguokite kandidato profilį](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-or-edit-a-candidate-profile) |
-| Įjunkite supaprastintas integracijas su įdarbinimo tiekėjais | [Įjunkite supaprastintas integracijas su įdarbinimo tiekėjais](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [Įdarbinti darbo kandidatai](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit) |
+| „Human Resources“ programa, esanti „Microsoft Teams” | [Darbuotojo atostogos ir neatvykimai „Microsoft Teams”](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [„Human Resources“ programa „Teams“](./hr-admin-teams-leave-app.md)<br>[Atostogų prašymų valdymas „Teams“](hr-teams-leave-app.md) |
+| Patobulintos darbo eigos užklausos ir patvirtinimai | [Organizacijos ir personalo valdymo darbo eigos patobulinimai](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Konfigūracijos parinktis, skirta sąrašui Man priskirti darbo elementai perkelti](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
+| Integravimas su „LinkedIn Talent Hub“ | [Integravimas su „LinkedIn Talent Hub“](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/integration-linkedin-talent-hub) | [Integravimas su „LinkedIn Talent Hub“](./hr-admin-integration-linkedin.md) |
+|Kryžminės įmonės rodinys atostogų vadovams | [Kryžminės įmonės rodinys darbuotojų atostogų vadovams](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Atostogų ir neatvykimų parametrų konfigūravimas](./hr-leave-and-absence-parameters.md) |
+|Pateikite papildomas įžvalgas apie atostogų balansus| [Pateikite papildomas įžvalgas apie atostogų balansus](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-into-leave-balances) | [Darbuotojų atostogų valdymas](./hr-leave-and-absence-manage-employee-leave.md) |
+| Vadovai gali pateikti įdarbinimo užklausas darbo vietoms | [Vadovai gali pateikti įdarbinimo užklausą atvirai darbo vietai](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [Įtraukti įdarbinimo užklausą](./hr-personnel-recruit.md#add-a-recruiting-request) |
+| Papildytas kandidato profilis personalo valdyme | [Papildytas kandidato profilis personalo valdyme](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [Įtraukite ar redaguokite kandidato profilį](./hr-personnel-recruit.md#add-or-edit-a-candidate-profile) |
+| Įjunkite supaprastintas integracijas su įdarbinimo tiekėjais | [Įjunkite supaprastintas integracijas su įdarbinimo tiekėjais](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [Įdarbinti darbo kandidatai](./hr-personnel-recruit.md) |
 
 ## <a name="coming-soon"></a>Jau greitai
 
-Norėdami gauti visą planuojamų funkcijų ir jų suplanuotų leidimų sąrašą, žr. [„Dynamics 365 Human Resources” 2020 m. 2-os leidimo bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
+Norėdami gauti visą planuojamų funkcijų ir jų suplanuotų leidimų sąrašą, žr. [„Dynamics 365 Human Resources” 2020 m. 2-os leidimo bangos apžvalga](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 [Kas nauja ar pasikeitė „Human Resources”](hr-admin-whats-new.md)</br>
-[„Dynamics 365 Human Resources“ 2020 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
+[„Dynamics 365 Human Resources“ 2020 m. leidimo 2 bangos apžvalga](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
 [Funkcijų valdymas](hr-admin-manage-features.md)
 

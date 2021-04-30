@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 1762425642ee976b32c9daf3fbb90961fa983d19
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b7d26144421b9a9bd0550a2fe9e73312ed8e8fa5
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819405"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909285"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.8 (2020 m. vasario mėn.)
 
@@ -33,28 +33,28 @@ ms.locfileid: "5819405"
 
 ## <a name="features-included-in-this-release"></a>Funkcijos, įtrauktos į šį leidimą
 
-Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinimai susieti su papildoma informacija svetainėje [Leidimų planai](https://docs.microsoft.com/dynamics365/release-plans/). Papildomi saitai nurodo papildomus dokumentus arba vaizdo įrašus, kurie šiuo metu galimi šiai funkcijai. Kai kurios iš šių funkcijų taip pat galėjo būti įtrauktos į ankstesnį papildantįjį leidimą, bet nebuvo paskelbtos ankstesnėje temoje *Kas nauja*, todėl jas pridedame čia. Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis.
+Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinimai susieti su papildoma informacija svetainėje [Leidimų planai](/dynamics365/release-plans/). Papildomi saitai nurodo papildomus dokumentus arba vaizdo įrašus, kurie šiuo metu galimi šiai funkcijai. Kai kurios iš šių funkcijų taip pat galėjo būti įtrauktos į ankstesnį papildantįjį leidimą, bet nebuvo paskelbtos ankstesnėje temoje *Kas nauja*, todėl jas pridedame čia. Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis.
 
-- [Papildomos vietos zona](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
+- [Papildomos vietos zona](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
 
-- [Turto valdymas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management)<br> - Norėdami gauti daugiau informacijos, žr. [Turto valdymo apžvalgą](../asset-management/index.md).
-- [Atšaukti darbą](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)<br> - Dėl platesnės informacijos, žr. [Darbo sandėlyje atšaukimas dėl išimčių tvarkymo](../warehousing/cancel-warehouse-work.md).
-- [Darbo telkinio keitimas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)<br> - Daugiau informacijos žr. [Darbo telkinio keitimas](../warehousing/change-work-pool-on-work.md).
-- [Klasterio padėtis pilna](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)<br> - Daugiau informacijos žr. [Klasterio padėtis pilna](../warehousing/cluster-position-full.md).
-- [Tvirtinimas ir perkėlimas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)<br> - Daugiau informacijos žr. [Tvirtinimas ir perkėlimas](../warehousing/confirm-and-transfer.md).
-- [Vietos nurodymo atsargų paėmimo skirstymas pagal terminus](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)<br> - Daugiau informacijos žr. [Vietos nurodymo atsargų paėmimo skirstymas pagal terminus](../warehousing/location-directive-inventory-picking-aging.md).
-- [Vietos būsena](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)
-- [Paėmimo eilutės grupavimas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/pick-line-grouping)<br> - Norėdami gauti daugiau informacijos, žr. [Eilutės paėmimo grupavimą](../warehousing/pick-line-grouping.md).
-- [Automatinis siuntų naujinimas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/shipment-auto-update)<br> - Norėdami gauti daugiau informacijos, žr. [Automatinis siuntų naujinimas](../warehousing/auto-update-shipment.md).
-- [Išskaidyti poreikio papildymo darbą iš paėmimo darbo veiksmo kūrimo](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-demand-replenishment-work-create-pick-work-step)
-- [Išskaidyti darbą](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-work)
-- [Sistemos nukreiptas klasterio paėmimas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/system-directed-cluster-picking)<br> - Norėdami gauti daugiau informacijos, žr. [Sistemos nukreiptas klasterio paėmimas](../warehousing/system-directed-cluster-pick.md).
-- [Sandėlio programos užduoties tikrinimas su RSAT](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
-- [Išleidimo į sandėlį taisyklė](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-release-rule)
-- [Bangos būsenos vizualizacija](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-status-visualization)
-- [Bangos šablonų grupavimas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)<br> - Daugiau informacijos žr. [Bangos šablonų grupavimas](../warehousing/wave-template-grouping.md).
-- [Darbo eilutės informacija](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/work-line-details)<br> - Daugiau informacijos žr. [Darbo eilutės informacija](../warehousing/work-line-details.md) ir [Darbo eilutės informacija](https://www.microsoft.com/videoplayer/embed/RE4fcYN) vaizdo įraše.
-- [Papildymo pagal zoną ribinės vertės](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/zone-threshold-replenishment)<br> - Daugiau informacijos žr. [Papildymo pagal zoną ribinės vertės](../warehousing/zone-threshold-replenishment.md).
+- [Turto valdymas](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management)<br> - Norėdami gauti daugiau informacijos, žr. [Turto valdymo apžvalgą](../asset-management/index.md).
+- [Atšaukti darbą](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)<br> - Dėl platesnės informacijos, žr. [Darbo sandėlyje atšaukimas dėl išimčių tvarkymo](../warehousing/cancel-warehouse-work.md).
+- [Darbo telkinio keitimas](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)<br> - Daugiau informacijos žr. [Darbo telkinio keitimas](../warehousing/change-work-pool-on-work.md).
+- [Klasterio padėtis pilna](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)<br> - Daugiau informacijos žr. [Klasterio padėtis pilna](../warehousing/cluster-position-full.md).
+- [Tvirtinimas ir perkėlimas](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)<br> - Daugiau informacijos žr. [Tvirtinimas ir perkėlimas](../warehousing/confirm-and-transfer.md).
+- [Vietos nurodymo atsargų paėmimo skirstymas pagal terminus](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)<br> - Daugiau informacijos žr. [Vietos nurodymo atsargų paėmimo skirstymas pagal terminus](../warehousing/location-directive-inventory-picking-aging.md).
+- [Vietos būsena](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)
+- [Paėmimo eilutės grupavimas](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/pick-line-grouping)<br> - Norėdami gauti daugiau informacijos, žr. [Eilutės paėmimo grupavimą](../warehousing/pick-line-grouping.md).
+- [Automatinis siuntų naujinimas](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/shipment-auto-update)<br> - Norėdami gauti daugiau informacijos, žr. [Automatinis siuntų naujinimas](../warehousing/auto-update-shipment.md).
+- [Išskaidyti poreikio papildymo darbą iš paėmimo darbo veiksmo kūrimo](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-demand-replenishment-work-create-pick-work-step)
+- [Išskaidyti darbą](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-work)
+- [Sistemos nukreiptas klasterio paėmimas](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/system-directed-cluster-picking)<br> - Norėdami gauti daugiau informacijos, žr. [Sistemos nukreiptas klasterio paėmimas](../warehousing/system-directed-cluster-pick.md).
+- [Sandėlio programos užduoties tikrinimas su RSAT](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
+- [Išleidimo į sandėlį taisyklė](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-release-rule)
+- [Bangos būsenos vizualizacija](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-status-visualization)
+- [Bangos šablonų grupavimas](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)<br> - Daugiau informacijos žr. [Bangos šablonų grupavimas](../warehousing/wave-template-grouping.md).
+- [Darbo eilutės informacija](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/work-line-details)<br> - Daugiau informacijos žr. [Darbo eilutės informacija](../warehousing/work-line-details.md) ir [Darbo eilutės informacija](https://www.microsoft.com/videoplayer/embed/RE4fcYN) vaizdo įraše.
+- [Papildymo pagal zoną ribinės vertės](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/zone-threshold-replenishment)<br> - Daugiau informacijos žr. [Papildymo pagal zoną ribinės vertės](../warehousing/zone-threshold-replenishment.md).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
@@ -70,7 +70,7 @@ Norėdami gauti daugiau informacijos apie klaidų ištaisymus, įtrauktus į kie
 
 Norite sužinoti apie būsimas ir neseniai išleistas mūsų verslo programų ar platformos galimybes?
 
-Peržiūrėkite [„Dynamics 365“: 2019 m. 2-os leidimo bangos planas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index). Visą išsamią informaciją užfiksavome viename dokumente, kurį galite naudoti planuodami.
+Peržiūrėkite [„Dynamics 365“: 2019 m. 2-os leidimo bangos planas](/dynamics365-release-plan/2019wave2/index). Visą išsamią informaciją užfiksavome viename dokumente, kurį galite naudoti planuodami.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Pašalintos ir pasenusios „Supply Chain Management“ funkcijos
 

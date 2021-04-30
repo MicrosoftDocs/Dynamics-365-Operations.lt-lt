@@ -2,8 +2,7 @@
 title: Finansinė analizė
 description: Finansų analizė naudoja „Microsoft Power BI“ kartu pateikti pagrindinius finansinius našumo indikatorius (KPI), diagramas ir finansines ataskaitas.
 author: kweekley
-manager: AnnBe
-ms.date: 05/22/2019
+ms.date: 04/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 22de5f3e2e475aa681be2d8868fb1d939f3f8638
-ms.sourcegitcommit: 4c57c16fe7ecd2a9840158aa69646ee47152e5f1
+ms.openlocfilehash: 71fd1ad15320fda162a289e9c5741aec2ce76778
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5572371"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894913"
 ---
 # <a name="financial-analysis"></a>Finansinė analizė
 
@@ -49,7 +48,7 @@ Pagrindinės sąskaitos tipu ir pagrindinių sąskaitų kategorijomis užpildomo
 Puslapyje **Pagrindines sąskaitos** turite nustatyti savo pagrindinę sąskaitą, kad jai būtų priskirtas vienas iš tolesnių tipų.
 
 - Įplaukos
-- Expense
+- Išlaidos
 - Turtas
 - Skolos
 - Kapitalas
@@ -65,10 +64,9 @@ Darbo srities **Finansinė analizė** duomenys imami iš objektų saugyklos (**S
 
 Turite atnaujinti objektus, kad pamatytumėte duomenis **Finansinė analizė** darbo srityje:
 
-- „BudgetActivityMeasure”
 - Finansinių ataskaitų 3 versijos operacijų duomenys 
+- Kreditas ir mokėjimai V2
 - CustCollectionsBIMeasurements
-- „LedgerActivityMeasure”
 - LedgerCovLiquidityMeasurement
 - Pirkimo kubas
 - Pardavimo kubas
@@ -92,16 +90,16 @@ Nors **Finansinė analizė** apima finansines ataskaitas, tačiau nepakeičia pr
 
 |                                                          | Financial Reporting                                               | Finansinė analizė |
 |----------------------------------------------------------|-------------------------------------------------------------------|--------------------|
-| **Numatytųjų ataskaitų redagavimas**                                 | Taip                                                               | nr. |
-| **Naujų ataskaitų kūrimas**                                   | Taip                                                               | nr. |
-| **Spausdinti ataskaitas**                                        | Taip                                                               | Nr. |
+| **Numatytųjų ataskaitų redagavimas**                                 | Taip                                                               | Ne |
+| **Naujų ataskaitų kūrimas**                                   | Taip                                                               | Ne |
+| **Spausdinti ataskaitas**                                        | Taip                                                               | Ne |
 | **Eksportuoti į Excel**                                      | Taip                                                               | Ribotas neapdorotų duomenų eksportavimas į „Excel“, neformatuota ataskaita |
-| **Palaiko ataskaitų hierarchiją / organizacinę hierarchiją**   | Taip                                                               | Nr. |
+| **Palaiko ataskaitų hierarchiją / organizacinę hierarchiją**   | Taip                                                               | Ne |
 | **Papildomos knygos duomenų ataskaita**                             | Taip Apsiriboja tik tiekėju, klientu                              | Taip Tiekėjo, kliento, tiekėjo / kliento grupės, tiekėjo / kliento adresai ir t. t. |
 | **Ataskaitų valiuta**                                   | Taip Apskaitos valiuta konvertuojama į ataskaitų valiutą       | Ne Tik apskaitos valiuta |
 | **Sauga**                                             | Taip laikomasi „Finance” ir ataskaitų medžio saugumo | Ribota Visų įmonių (neatsižvelgiant į „Finance and Operations” saugumą) arba tik aktyvios įmonės ataskaitų peržiūra |
-| **Palaiko skirtingus sąskaitų planus ir finansinius metus** | Taip                                                               | Nr. |
-| **išorinių duomenų ataskaitos**                              | Nr.                                                                | Nr. |
+| **Palaiko skirtingus sąskaitų planus ir finansinius metus** | Taip                                                               | Ne |
+| **išorinių duomenų ataskaitos**                              | Ne                                                                | Ne |
 | **Palaiko konsolidacijas**                               | Taip                                                               | Ribota Galima teikti kelių įmonių ataskaitas, bet naudoti tik apskaitos valiutą |
 
 Galimos tolesnės finansinės ataskaitos.
@@ -241,9 +239,9 @@ Sprendime „Power BI“ nėra parinkties slėpti ir rodyti tuščias eilutes. J
 
 Toliau pateiktuose šaltiniuose nebūtina pateikti informaciją norint įjungti įdėtąsias ataskaitas **Finansinė analizė** darbo srityje kūrimo aplinkoje. Jie yra naudingi dirbant su kūrimo langeliais ir jei norite į įdėti savo „Power BI“ ataskaitų.
 
-- [Analizės darbo sričių ir ataskaitų naudojimas prie 1 langelio aplinkoje](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
+- [Analizės darbo sričių ir ataskaitų naudojimas prie 1 langelio aplinkoje](/archive/blogs/dynamicsaxbi/accessing-analytical-workspaces-on-1box-environment)
 
-- [Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
+- [Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“](/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

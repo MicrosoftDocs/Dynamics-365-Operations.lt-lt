@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e550f310fe3ec0aaee9c16f3edccd775921a64be
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8c993c10bdd3517ed8a3e192851b4716cba1c638
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821158"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909972"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Kas naujo ar pasikeitusio „Dynamics 365 Supply Chain Management“ 10.0.15 (2021 m. sausio mėnesį)
 
@@ -33,23 +33,23 @@ ms.locfileid: "5821158"
 
 ## <a name="features-included-in-this-release"></a>Funkcijos, įtrauktos į šį leidimą
 
-Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Norėdami peržiūrėti kiekvienos funkcijos oficialią leidimo datą, vadovaukitės saitais su [leidimų planu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features).
+Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Norėdami peržiūrėti kiekvienos funkcijos oficialią leidimo datą, vadovaukitės saitais su [leidimų planu](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features).
 
 - Debesų ir paskirstytų modulių valdymas su gamybos ir sandėlio vykdymo darbo krūviais<br> - Dėl daugiau informacijos, žr. [Debesies ir krašto skalės elementai gamybai ir sandėlio valdymo darbo apkrovoms](../cloud-edge/cloud-edge-landing-page.md).
 
-- [Kurti ir apdoroti perkėlimo užsakymus naudojant sandėlio programą](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Daugiau informacijos žr. [Perkėlimo užsakymų kūrimas iš sandėlio programos](../warehousing/create-transfer-order-from-warehouse-app.md).
+- [Kurti ir apdoroti perkėlimo užsakymus naudojant sandėlio programą](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Daugiau informacijos žr. [Perkėlimo užsakymų kūrimas iš sandėlio programos](../warehousing/create-transfer-order-from-warehouse-app.md).
 
-- [Numatytieji RFQ atsakymo laukai tiekėjo kainos pasiūlymui](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - Norėdami gauti daugiau informacijos, žr. [Pasiūlymų patvirtinimų (RFQ) apžvalga](../procurement/request-quotations.md).
+- [Numatytieji RFQ atsakymo laukai tiekėjo kainos pasiūlymui](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - Norėdami gauti daugiau informacijos, žr. [Pasiūlymų patvirtinimų (RFQ) apžvalga](../procurement/request-quotations.md).
 
-- [„Dynamics 365 Supply Chain Management“ inžinierinių pokyčių valdymo papildinys](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - Dėl daugiau informacijos, žr. [Inžinerinė pakeitimo valdymo apžvalga](../engineering-change-management/product-engineering-overview.md).
+- [„Dynamics 365 Supply Chain Management“ inžinierinių pokyčių valdymo papildinys](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - Dėl daugiau informacijos, žr. [Inžinerinė pakeitimo valdymo apžvalga](../engineering-change-management/product-engineering-overview.md).
 
-- [Mišriosios realybės vadovai gamybai](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - Norėdami gauti daugiau informacijos, žr. [Mišrios realybės vadovų pateikimas į gamybą įtrauktiems darbuotojams](../production-control/instruction-guides-in-production-overview.md).
+- [Mišriosios realybės vadovai gamybai](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - Norėdami gauti daugiau informacijos, žr. [Mišrios realybės vadovų pateikimas į gamybą įtrauktiems darbuotojams](../production-control/instruction-guides-in-production-overview.md).
 
-- [Nauja vartotojo vykdymo ceche patirtis](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - Daugiau informacijos žr. [Kaip darbuotojai naudoja gamybos cecho vykdymo sąsają](../production-control/production-floor-execution-use.md).
+- [Nauja vartotojo vykdymo ceche patirtis](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - Daugiau informacijos žr. [Kaip darbuotojai naudoja gamybos cecho vykdymo sąsają](../production-control/production-floor-execution-use.md).
 
-- [Apdoroti sandėlio programos įvykius](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - Daugiau informacijos žr. [Sandėlio programos įvykių apdorojimas](../warehousing/warehouse-app-events.md).
+- [Apdoroti sandėlio programos įvykius](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - Daugiau informacijos žr. [Sandėlio programos įvykių apdorojimas](../warehousing/warehouse-app-events.md).
 
-- [Įrašyti rodiniai išleistų produktų puslapiams](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - Norėdami gauti išsamesnės informacijos, žr.: [Įrašytos peržiūros](../../fin-ops-core/fin-ops/get-started/saved-views.md).
+- [Įrašyti rodiniai išleistų produktų puslapiams](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - Norėdami gauti išsamesnės informacijos, žr.: [Įrašytos peržiūros](../../fin-ops-core/fin-ops/get-started/saved-views.md).
 
 - USMCA kilmės sertifikato dokumentas<br> - Dėl daugiau informacijos, žr. [USMCA kilmės sertifikatas](../transportation/usmca-certification-of-origin.md).
 
@@ -69,7 +69,7 @@ Norėdami gauti daugiau informacijos apie klaidų ištaisymus, įtrauktus į kie
 
 Norite sužinoti apie būsimas ir neseniai išleistas mūsų verslo programų ar platformos galimybes?
 
-Peržiūrėkite [„Dynamics 365“: 2020 m. 2-os leidimo bangos planas](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). Visą išsamią informaciją užfiksavome viename dokumente, kurį galite naudoti planuodami.
+Peržiūrėkite [„Dynamics 365“: 2020 m. 2-os leidimo bangos planas](/dynamics365-release-plan/2020wave2/index). Visą išsamią informaciją užfiksavome viename dokumente, kurį galite naudoti planuodami.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Pašalintos ir pasenusios „Supply Chain Management“ funkcijos
 

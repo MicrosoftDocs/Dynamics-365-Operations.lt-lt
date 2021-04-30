@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 69304cbffafa4c20dbbbb31d5c19920f669761b9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 95ffe90795b9781408607257f3f63bf68c489b56
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800170"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891822"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-20-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Human Resources” (2020 m. rugpjūčio 20 d.)
 
@@ -65,15 +65,15 @@ DMF objektas dabar pasiekiamas kaupimo sustabdymams.
 
 Galite nustatyti laukelius privalomais naudodami Žmogiškųjų išteklių personalizavimo galimybes. Šiai funkcijai reikia **Įrašyti rodiniai**. Dėl platesnės informacijos apie įrašytas peržiūras, žr.:
 
-- [Įrašytos peržiūras - bendras prieinamumas](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) „Dynamics 365 2020“ leidime bangos 2 planas
-- [Formų, kurios visiškai išnaudoja įrašytus rodinius, kūrimas](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
+- [Įrašytos peržiūras - bendras prieinamumas](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) „Dynamics 365 2020“ leidime bangos 2 planas
+- [Formų, kurios visiškai išnaudoja įrašytus rodinius, kūrimas](../fin-ops-core/dev-itpro/user-interface/understanding-saved-views.md)
 
 ### <a name="human-resources-application-in-teams"></a>„Human Resources“ programa programoje „Teams“
 
 Darbuotojai gali peržiūrėti ir prašyti atostogų programoje „Microsoft Teams“. Jie gali bendrauti su robotu, kad sukurtų atostogų prašymą. Daugiau informacijos ieškokite:
 
-- [Darbuotojo atostogų ir nebuvomo patirtis „Microsoft Teams“](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) „Dynamics 365“ 2020 leidime bangos 1 plane
-- [„Human Resources“ programa „Teams“](https://go.microsoft.com/fwlink/?linkid=2127841)
+- [Darbuotojo atostogų ir nebuvimo patirtis „Microsoft Teams“](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) „Dynamics 365“ 2020 leidime bangos 1 plane
+- [„Human Resources“ programa „Teams“](./hr-admin-teams-leave-app.md)
 
 ## <a name="coming-soon"></a>Jau greitai
 
@@ -89,7 +89,7 @@ Tikrinimo objektai Įtraukimo, Atleidimo, Perleidimo ir Verslo procesams bus gre
 
 ## <a name="known-issues"></a>Žinomos problemos
 
-**Ateities valdymas** darbo sritis gali rodyti funkcijas, kuriso yra išjungtos kaip peržiūros funkcijos joms bendrai esant įjungtoms. Toliau pateiktas bendras esamų funkcijų sąrašas, rodantis neteisingą statusą. 
+**Ateities valdymas** darbo sritis gali rodyti funkcijas, kurios yra išjungtos kaip peržiūros funkcijos joms bendrai esant įjungtoms. Toliau pateiktas bendras esamų funkcijų sąrašas, rodantis neteisingą statusą. 
 
 - Išmokų valdymas
 - Atvejų valdymas
@@ -117,7 +117,7 @@ Neseniai aptikome dvi problemas, susijusias su **DarbuotojųIšmokųPlano** obje
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 [Kas nauja ar pasikeitė „Human Resources”](hr-admin-whats-new.md)</br>
-[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
 [Funkcijų valdymas](hr-admin-manage-features.md)
 

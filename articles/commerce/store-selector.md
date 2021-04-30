@@ -2,7 +2,8 @@
 title: Parduotuvės parinkiklio modulis
 description: Šioje temoje paaiškinamas parduotuvės išrinkiklio modulis ir aprašoma, kaip pridėti jį prie svetainių puslapių, esančių „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
-ms.date: 09/15/2020
+manager: annbe
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e73338666c0bd8c0dc8df840b308ec758ee812dd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 22ec78c8e0545698f05f8f8ec261b5e927d698c7
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798638"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853422"
 ---
 # <a name="store-selector-module"></a>Parduotuvės išrinkiklio modulis
 
@@ -32,11 +33,32 @@ Klientai gali naudoti parduotuvės parinkėjo modulį tam, kad paimtų gaminį p
 
 Parduotuvės selektoriaus modulis leidžia vartotojui įvesti vietą (miestą, valstybę, adresą ir taip toliau) parduotuvių paieškai paieškos spindulyje. Kai modulis yra atidaromas pirmą kartą, jis naudoja kliento naršymo vietą tam, kad surastų parduotuves (jei sutikimas yra duotas).
 
-## <a name="store-selector-module-usage-in-e-commerce"></a>Parduotuvės parinkiklio modulio naudojimas „e-Commerce“
+## <a name="store-selector-module-usage"></a>Parduotuvės selektoriaus modulio naudojimas
 
 - Parduotuvės selektoriaus modulis gali būti naudojamas produkto informacijos puslapyje (PDP) siekiant pasirinkti parduotuvę paėmimui.
 - Parduotuvės selektoriaus modulis gali būti naudojamas vežimėlio puslapyje siekiant pasirinkti parduotuvę paėmimui.
 - Parduotuvės selektoriaus modulis gali būti naudojamas atskirame puslapyje, kuris rodo visas prieinamas parduotuves.
+
+## <a name="fulfillment-group-setup-in-commerce-headquarters"></a>Įvykdymo grupės nustatymas „Commerce” būstinėje
+
+Norint, kad parduotuvės selektorius rodytų galimas parduotuves, „Commerce” būstinėje turi būti nustatyta įvykdymo grupė. Daugiau informacijos rasite [Įvykdymo grupių nustatymas](customer-orders-overview.md#set-up-fulfillment-groups).
+
+Be to, kiekvienai įvykdymo grupės parduotuvei, parduotuvės vietos platuma ir ilguma turi būti apibrėžta būstinėje.
+
+Norėdami įvesti parduotuvės vietos „Commerce” būstinėje ilgumos ir platumos reikšmes, atlikite šiuos veiksmus.
+
+1. Eikite į **Atsargų valdymas \> Nustatymas \> Atsargų paskirstymas**.
+1. Kairiojoje srityje pasirinkite sandėlio vietą.
+1. „FastTab” **Adresai** pasirinkite **Išplėstiniai**.
+
+    ![Parduotuvės išsamios informacijos būstinėje pavyzdys](./media/Store-address.png)
+
+1. Veiksmų srityje pasirinkite **Redaguoti**.
+1. „FastTab” **Bendra** įveskite **Platumos** ir **Ilgumos** reikšmes.
+
+    ![Platumos ir ilgumos nustatymo parduotuvei būstinėje pavyzdys](./media/Store-latitude-longitude.png)
+
+1. Veiksmų srityje pasirinkite **Įrašyti**. 
 
 ## <a name="bing-maps-integration"></a>„Bing“ žemėlapių integravimas
 
@@ -48,6 +70,7 @@ Dėl automatinio„REST API“, privalote užtikrinti, kad tolesni URL yra leid�
 - Į **img-src** direktyvą, įtraukite **&#42;.virtualearth.net**.
 - Į **script-src** direktyvą, **įtraukite &#42;.bing.com, &#42;.virtualearth.net**.
 - Į **script style-src** direktyvą, įtraukite **&#42;.bing.com**.
+
  
 ## <a name="pickup-in-store-mode"></a>Paėmimas parduotuvės režime
 

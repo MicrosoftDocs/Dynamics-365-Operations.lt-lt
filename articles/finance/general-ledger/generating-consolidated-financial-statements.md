@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 2db444d4a5e40c1bbfdab9e044aff43031b6e9f4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0c0eab7b0b1325d18f77ab5b8c9704781beba856
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826695"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897869"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Konsoliduotų finansinių ataskaitų generavimas
 
@@ -34,7 +34,7 @@ Paprasčiausias konsolidavimo naudojant finansines ataskaitas būdas yra naudoti
 3. Sukurkite ataskaitų medį, apimantį ataskaitų mazgus, skirtus kiekvienai įmonei, kurią naudojate konsoliduotose ataskaitose.
 
 > [!TIP]
-> Daugiau informacijos apie tai, kaip kurti ir tvarkyti eilučių aprašus, stulpelių aprašus ir ataskaitų medžius, žr. [Finansinių ataskaitų komponentai](../../dev-itpro/analytics/financial-report-components.md).
+> Daugiau informacijos apie tai, kaip kurti ir tvarkyti eilučių aprašus, stulpelių aprašus ir ataskaitų medžius, žr. [Finansinių ataskaitų komponentai](../../fin-ops-core/dev-itpro/analytics/financial-report-components.md).
 
 Tolesnėje iliustracijoje parodyta, kaip galima naudoti ataskaitų medžio aprašą finansinėse ataskaitose norint nustatyti kiekvieną įmonę, kurią konsoliduosite.
 
@@ -90,14 +90,14 @@ Nesvarbu, ar naudojate sąskaitas, ar dimensijas, ar sąskaitas ir dimensijas, f
 Įmonei gali priklausyti tik procentinė kitos įmonės dalis. Tokiu atveju generuojant konsoliduotą ataskaitą svarbu nurodyti tik procentinę dalį, kuri priklauso įmonei. Finansinėse ataskaitose galima rodyti segmento palūkanas keliais būdais, priklausomai nuo vartotojo pasirinkimo. Vienas būdas yra naudoti sumuojamą procentinę dalį ataskaitų medžio apraše. Kitas būdas – rodyti segmento nuosavybę kaip atskirą eilutę ataskaitoje.
 
 ### <a name="using-the-reporting-tree-definition"></a>Ataskaitų medžio aprašo naudojimas
-Ataskaitų medžio apraše įveskite nuosavybės procentus stulpelyje **Sumavimo %** (stulpelis H), kaip pavaizduota tolesnėje iliustracijoje. Generuojant ataskaitą, šis procentas bus naudojamas konsoliduotai sumai apskaičiuoti. Šiame pavyzdyje „Contoso“ valdo tik 80 procentų įmonės „Contoso Germany“. Stulpelyje **Sumavimo %** galite įvesti **80** arba **.8** ir 80 procentų bus susumuota konsolidavimo lygiu.
+Ataskaitų medžio apraše įveskite nuosavybės procentus stulpelyje **Sumavimo %** (stulpelis H), kaip pavaizduota tolesnėje iliustracijoje. Generuojant ataskaitą, šis procentas bus naudojamas konsoliduotai sumai apskaičiuoti. Šiame pavyzdyje „Contoso“ valdo tik 80 procentų Vokietijos „Contoso“ įmonės. Stulpelyje **Sumavimo %** galite įvesti **80** arba **.8** ir 80 procentų bus susumuota konsolidavimo lygiu.
 
 > [!NOTE]
 > Galite taikyti šį nuosavybės procentą bet kuriam ataskaitų vienetui (ne tik įmonės lygiu). 
 
 ![Ataskaitų medžio apibrėžimo procentų naudojimas](./media/Using-reporting-tree-definition-percentage.png "Ataskaitų medžio apibrėžimo procentų naudojimas")
 
-Generuojant ataskaitą įmonės „Contoso Germany“ ataskaitoje bus rodoma 100 procentų pardavimo sumos ir 80 procentų sumos bus paskirstyta bei susumuota pardavimo konsolidavimo lygiu.
+Sugeneravus ataskaitą, įmonės „Contoso” Vokietija ataskaitoje bus rodoma 100 procentų pardavimų sumos ir 80 procentų sumos, kuri bus paskirstyta bei susumuota pardavimų konsolidavimo lygiu.
 
 Jei jums priklauso mažiau nei 1 procentas įmonės, puslapio **Ataskaitos parametrai** skirtuke **Papildomos parinktys** galite pasirinkti žymės langelį **Leisti sumuoti mažiau nei 1 %**, kaip pavaizduota tolesnėje iliustracijoje. Šiuo atveju reikšmės, pateiktos ataskaitos medžio stulpelyje **Sumavimo %**, bus apdorojamos kaip mažesnės nei 1 procento dalys. Pavyzdžiui, jei įvedate **.8**, 0,8 procentinė dalis bus sumuojama konsolidavimo lygiu (o ne 80 procentų). Tą patį rezultatą galite pasiekti išvalydami žymės langelį **Leisti sumuoti mažiau nei 1 %** ir stulpelyje **Sumavimo %** įvesdami **.008**.
 

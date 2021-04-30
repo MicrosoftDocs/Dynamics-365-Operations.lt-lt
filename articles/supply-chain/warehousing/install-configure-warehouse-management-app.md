@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 378fff6274902025b1fca487874f37ed30df25ed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f46c5d4ec78a1e5ed708687e8da6eb379697d5f4
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835611"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908957"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Sandėlio valdymo mobiliųjų įrenginių programėlės diegimas ir prijungimas
 
@@ -50,7 +50,7 @@ Norint naudoti programą, susijusi funkcija turi būti įjungta jūsų sistemoje
 
 Nedidelių diegimų atveju paprastai galite įdiegti programą iš atitinkamos parduotuvės kiekviename įrenginyje, o tada neautomatiniu būdu sukonfigūruoti ryšį su naudojamomis aplinkomis.
 
-Diegdami didesniu mastu, galite automatizuoti programos diegimą ir (arba) konfigūraciją, nes taip gali būti patogiau valdant daug įrenginių. Pavyzdžiui, galite naudoti mobiliojo įrenginio valdymo ir mobiliųjų programų valdymo sprendimą, pvz., [„"Microsoft Intune“](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Norėdami gauti informacijos apie tai, kaip naudojant „Intune“ įtraukti programas, žr. [Programų įtraukimas į „Microsoft Intune“](https://docs.microsoft.com/mem/intune/apps/apps-add).
+Diegdami didesniu mastu, galite automatizuoti programos diegimą ir (arba) konfigūraciją, nes taip gali būti patogiau valdant daug įrenginių. Pavyzdžiui, galite naudoti mobiliojo įrenginio valdymo ir mobiliųjų programų valdymo sprendimą, pvz., [„"Microsoft Intune“](/mem/intune/fundamentals/what-is-intune). Norėdami gauti informacijos apie tai, kaip naudojant „Intune“ įtraukti programas, žr. [Programų įtraukimas į „Microsoft Intune“](/mem/intune/apps/apps-add).
 
 ### <a name="install-the-app-from-an-app-store"></a>Programos diegimas iš programų parduotuvės
 
@@ -65,10 +65,10 @@ Paprasčiausias būdas įdiegti programą viename įrenginyje yra įdiegti ją i
 Vietoje diegimo iš programų parduotuvės galite atsisiųsti programą iš „Microsoft App Center“. „App Center“ rasite įdiegiamus paketus, kuriuos galėsite perduodami naudodami artimojo ryšio duomenų perdavimą. Be dabartinės versijos, programų centre taip pat galėsite atsisiųsti ankstesnes versijas ir gauti ankstesnes versijas su būsimomis funkcijomis, kurias galite išbandyti. Norėdami atsisiųsti dabartines, ankstesnes arba peržiūrėti „Warehouse Management“ mobiliųjų įrenginių programos versijas iš „Microsoft App Center“, naudokite vieną iš šių nuorodų:
 
 - **„Windows“ (UWP):** [„Warehouse Management“ („Windows“)](https://go.microsoft.com/fwlink/?linkid=2154406)  
-    Instrukcijų apie tai, kaip įdiegti atsisiųstą paketą į „Windows“ įrenginį ir tada nustatyti reikiamus sertifikatus, ieškokite skyriuje [diegti versiją iš „App Center“](https://docs.microsoft.com/appcenter/distribution/installation).
+    Instrukcijų apie tai, kaip įdiegti atsisiųstą paketą į „Windows“ įrenginį ir tada nustatyti reikiamus sertifikatus, ieškokite skyriuje [diegti versiją iš „App Center“](/appcenter/distribution/installation).
 
 - **„Android“:** [„Warehouse Management“ („Android“)](https://go.microsoft.com/fwlink/?linkid=2154613)  
-    Jei atsisiųsite peržiūros versiją, jai įdiegti turėsite atlikti kelis papildomus veiksmus. Norėdami gauti daugiau informacijos, žiūrėkite [Android programų testavimas](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
+    Jei atsisiųsite peržiūros versiją, jai įdiegti turėsite atlikti kelis papildomus veiksmus. Norėdami gauti daugiau informacijos, žiūrėkite [Android programų testavimas](/appcenter/distribution/testers/testing-android).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Žiniatinklio tarnybos programos kūrimas naudojant „Azure Active Directory“
 
@@ -103,11 +103,11 @@ Norėdami įjungti Sandėlio valdymo mobiliųjų įrenginių programėlę, kad j
 
 Daugiau informacijos apie tai, kaip konfigūruoti žiniatinklio tarnybos programas „Azure AD“, ieškokite toliau nurodytuose ištekliuose.
 
-- Instrukcijų, nurodančių, kaip naudoti „Windows PowerShell“ konfigūruojant žiniatinklio tarnybos programas „Azure AD“, ieškokite straipsnyje [Kaip naudoti „Azure PowerShell“ kuriant pagrindinę tarnybą su sertifikatu](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
+- Instrukcijų, nurodančių, kaip naudoti „Windows PowerShell“ konfigūruojant žiniatinklio tarnybos programas „Azure AD“, ieškokite straipsnyje [Kaip naudoti „Azure PowerShell“ kuriant pagrindinę tarnybą su sertifikatu](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
 - Norėdami gauti išsamios informacijos apie tai, kaip rankiniu būdu kurti žiniatinklio tarnybos programą „Azure AD“, žr. toliau nurodytas temas.
 
-    - [„Quickstart“: programos registravimas naudojant „Microsoft“ tapatumo platformą](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
-    - [Kaip naudoti portalą kuriant „Azure AD“ programą ir pagrindinę tarnybą, galinčią pasiekti išteklius](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [„Quickstart“: programos registravimas naudojant „Microsoft“ tapatumo platformą](/azure/active-directory/develop/quickstart-register-app)
+    - [Kaip naudoti portalą kuriant „Azure AD“ programą ir pagrindinę tarnybą, galinčią pasiekti išteklius](/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Vartotojo paskyros kūrimas ir konfigūravimas programoje „Supply Chain Management“
 
@@ -135,7 +135,7 @@ Autentifikavimas su „Azure AD“ leidžia saugiai prijungti mobilųjį įrengi
 
 Sertifikatai gali būti naudojami kaip slaptieji raktai programos tapatybei įrodyti, kai prašomas atpažinimo ženklas. Viešoji sertifikato dalis įkeliama į programos registraciją „Azure“ portale, o visas sertifikatas turi būti įdiegtas kiekviename įrenginyje, kuriame įdiegta Sandėlio valdymo mobiliųjų įrenginių programėlė. Jūsų organizacija atsakinga už sertifikato rotacijos valdymą ir pan. Galite naudoti pasirašomus sertifikatus, bet visada turite naudoti neeksportuotinus sertifikatus.
 
-Turite nustatyti, kad sertifikatas būtų pasiekiamas kiekviename įrenginyje, kuriame paleidžiate Sandėlio valdymo mobiliųjų įrenginių programėlę. Norėdami gauti daugiau informacijos apie tai, kaip valdyti „Intune“ kontroliuojamų įrenginių sertifikatus, jei naudojate „Intune“, žr. [Sertifikatų naudojamas autentifikavimui programoje „Microsoft Intune“](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
+Turite nustatyti, kad sertifikatas būtų pasiekiamas kiekviename įrenginyje, kuriame paleidžiate Sandėlio valdymo mobiliųjų įrenginių programėlę. Norėdami gauti daugiau informacijos apie tai, kaip valdyti „Intune“ kontroliuojamų įrenginių sertifikatus, jei naudojate „Intune“, žr. [Sertifikatų naudojamas autentifikavimui programoje „Microsoft Intune“](/mem/intune/protect/certificates-configure).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Programos konfigūravimas importuojant ryšio parametrus
 
@@ -191,7 +191,7 @@ Informaciją galite įrašyti kaip JSON failą arba sugeneruoti QR kodą su toki
 
 ### <a name="save-the-connection-settings-file-on-each-device"></a>Ryšio parametrų failo įrašymas kiekviename įrenginyje
 
-Paprastai ryšio parametrų failams paskirtyti kiekviename savo valdomame įrenginyje naudojate įrenginių valdymo įrankį arba scenarijų. Jei kiekviename įrenginyje naudojate numatytąjį pavadinimą ir vietą, kai įrašote ryšių nustatymų failą kiekviename įrenginyje, Sandėlio valdymo mobiliųjų įrenginių programėlė automatiškai jį importuos net ir pirmą kartą paleidus programėlę po jos įdiegimo. Jei naudosite pasirinktinį failo vardą arba vietą, pirmą kartą paleidus programą, vartotojas turi nurodyti reikšmes. Tačiau programa vėliau naudos nurodytą vardą ir vietą.
+Paprastai ryšio parametrų failams paskirstyti kiekviename savo valdomame įrenginyje naudojate įrenginių valdymo įrankį arba scenarijų. Jei kiekviename įrenginyje naudojate numatytąjį pavadinimą ir vietą, kai įrašote ryšių nustatymų failą kiekviename įrenginyje, Sandėlio valdymo mobiliųjų įrenginių programėlė automatiškai jį importuos net ir pirmą kartą paleidus programėlę po jos įdiegimo. Jei naudosite pasirinktinį failo vardą arba vietą, pirmą kartą paleidus programą, vartotojas turi nurodyti reikšmes. Tačiau programa vėliau naudos nurodytą vardą ir vietą.
 
 Kaskart paleidus programą, ji iš naujo importuoja ryšio parametrus iš ankstesnės vietos, kad nustatytų, ar buvo pakeitimų. Programa atnaujins tik tuos ryšius, kurių pavadinimai sutampa su ryšio parametrų faile esančių ryšių pavadinimais. Vartotojo sukurti ryšiai, kurie turi kitokius pavadinimus, atnaujinti nebus.
 

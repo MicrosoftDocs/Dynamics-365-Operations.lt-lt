@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6a7d86e85ef9cff493dcdfab498d107163f381d1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2bbcedfe45801d0892d80d3e18f78be00bdfdc40
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5806023"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892182"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Kas nauja ar pasikeitė „Human Resources”
 
@@ -39,7 +39,7 @@ Kas dvi savaites išleidžiame naują „Microsoft Dynamics 365 Human Resources�
 
 Norėdami gauti daugiau informacijos apie būsimas „Human Resources” funkcijas arba naujinimo procesą, žr. tolesnius straipsnius. 
 
-- [„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
+- [„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
 
 - [Atnaujinimo procesas](hr-admin-setup-update-process.md)
 
@@ -49,6 +49,7 @@ Norėdami gauti daugiau informacijos apie būsimas „Human Resources” funkcij
 
 Norėdami sužinoti, kas nauja ar pasikeitė kiekviename kas dvi savaites leidžiamame „Human Resources” leidime, žr. tolesnius straipsnius.
 
+[2021 m. balandžio 5 d.](hr-whats-new-2021-04-05.md)</br>
 [2021 m. kovo 22 d.](hr-whats-new-2021-03-22.md)</br>
 [2021 m. kovo 8 d.](hr-whats-new-2021-03-08.md)</br>
 [2021 m. vasario 22 d.](hr-whats-new-2021-02-22.md)</br>
@@ -81,7 +82,7 @@ Norėdami sužinoti, kas nauja ar pasikeitė kiekviename kas dvi savaites leidž
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
-[„Dynamics 365 Human Resources“ 2020 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
+[„Dynamics 365 Human Resources“ 2020 m. leidimo 2 bangos apžvalga](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
 [Funkcijų valdymas](hr-admin-manage-features.md)
 

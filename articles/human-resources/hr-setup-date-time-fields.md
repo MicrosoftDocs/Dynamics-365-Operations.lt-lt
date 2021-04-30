@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: efda2b54f9228ac539e6ba2d18f85bf3ad15a6ff
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3a8bc27bb4560b4a15aef483ff465c4b943bf02b
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802436"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889889"
 ---
 # <a name="understand-date-and-time-fields"></a>Susipažinkite su datos ir laiko laukais
 
@@ -41,7 +41,7 @@ Kai duomenys rodomi lauke **Data ir laikas**, „Human Resources” koreguoja da
 
 ## <a name="understanding-date-and-time-fields-in-forms"></a>Datos ir laiko laukų formose supratimas 
 
-**Data ir laikas** duomenys ya rodomi ekrane nėra tokie patys kaip duomenys laikomi duomenų bazėje, jei vartotojo laiko zona nėra nustatyta koordinuotame universaliame laike (UTC). Laukuose **Data ir laikas** duomenys visada saugomi kaip UTC.
+**Data ir laikas** duomenys yra rodomi ekrane nėra tokie patys kaip duomenys laikomi duomenų bazėje, jei vartotojo laiko zona nėra nustatyta koordinuotame universaliame laike (UTC). Laukuose **Data ir laikas** duomenys visada saugomi kaip UTC.
 
 [![Darbuotojo forma UTC](./media/worker-form.png)](./media/worker-form.png)
 
@@ -93,8 +93,8 @@ Naudojant išorės šaltinius, tokius kaip DMF tam, kad peržiūrėtumėte ir su
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
-[Datos ir laiko duomenys](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/date-time-zones)<br></br>
-[Vartotojo pageidaujamos laiko zonos](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-users-preferred-time-zone) 
+[Datos ir laiko duomenys](/dynamics365/unified-operations/fin-and-ops/organization-administration/date-time-zones)<br></br>
+[Vartotojo pageidaujamos laiko zonos](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-users-preferred-time-zone) 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

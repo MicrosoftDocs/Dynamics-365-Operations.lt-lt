@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d8d2b1f98803bc159d3164d4a7c883e088ca7e56
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f0ed7d3344b43c477923ebd8c69acfb6630e6f4
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837662"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910406"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Tiekėjo bendradarbiavimas su išoriniais tiekėjais
 
 [!include [banner](../includes/banner.md)]
 
-Modulis **Tiekėjo bendradarbiavimas** skirtas tiekėjams, kurie neturi elektroninių duomenų mainų (EDI) integracijos su „Microsoft“ „Dynamics 365 Supply Chain Management“. Jis tiekėjams suteikia galimybę dirbti su pirkimo užsakymais (PU), SF, konsignacijos atsargų informacija ir pasiūlymo užklausomis (RFQ), taip pat jis suteikia galimybę pasiekti savo tiekėjo bendrųjų duomenų dalis. Šioje temoje paaiškinama, kaip galite bendradarbiauti su išoriniais tiekėjais, kurie naudoja tiekėjo bendradarbiavimo sąsają, norėdami dirbti su PU, RFQ ir konsignacijos atsargomis. Joje taip pat paaiškinama, kaip tiekėjo bendradarbiavimo funkciją įjungti konkrečiam tiekėjui ir kaip nurodyti informaciją, kurią matys visi tiekėjai, atsakydami į PU.
+Modulis **Tiekėjo bendradarbiavimas** skirtas tiekėjams, kurie neturi elektroninių duomenų mainų (EDI) integracijos su „Microsoft Dynamics 365 Supply Chain Management“. Jis tiekėjams suteikia galimybę dirbti su pirkimo užsakymais (PU), SF, konsignacijos atsargų informacija ir pasiūlymo užklausomis (RFQ), taip pat jis suteikia galimybę pasiekti savo tiekėjo bendrųjų duomenų dalis. Šioje temoje paaiškinama, kaip galite bendradarbiauti su išoriniais tiekėjais, kurie naudoja tiekėjo bendradarbiavimo sąsają, norėdami dirbti su PU, RFQ ir konsignacijos atsargomis. Joje taip pat paaiškinama, kaip tiekėjo bendradarbiavimo funkciją įjungti konkrečiam tiekėjui ir kaip nurodyti informaciją, kurią matys visi tiekėjai, atsakydami į PU.
 
 Daugiau informacijos apie tai, ką išoriniai tiekėjai gali atlikti tiekėjo bendradarbiavimo sąsajoje, ieškokite puslapyje [Tiekėjo bendradarbiavimas su klientais](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> Šioje temoje pateikiama informacija apie tiekėjo bendradarbiavimą taikoma tik dabartinei Tiekimo grandinės valdymo versijai. „Microsoft Dynamics AX 7.0“ (2016 m. vasario mėn.) ir „Microsoft Dynamics AX“ 7.0.1 programos versijoje (2016 m. gegužės mėn.) su tiekėjais galite bendradarbiauti naudodami modulį **Tiekėjo portalas**. Norėdami gauti daugiau informacijos apie modulį **Tiekėjo portalas**, žr. [Bendradarbiavimas su tiekėjais naudojant tiekėjo portalą](collaborate-vendors-vendor-portal.md).
+> Šioje temoje pateikiama informacija apie tiekėjo bendradarbiavimą taikoma tik dabartinei „Supply Chain Management” versijai. „Microsoft Dynamics AX 7.0“ (2016 m. vasario mėn.) ir „Microsoft Dynamics AX“ 7.0.1 programos versijoje (2016 m. gegužės mėn.) su tiekėjais galite bendradarbiauti naudodami modulį **Tiekėjo portalas**. Norėdami gauti daugiau informacijos apie modulį **Tiekėjo portalas**, žr. [Bendradarbiavimas su tiekėjais naudojant tiekėjo portalą](collaborate-vendors-vendor-portal.md).
 
-Daugiau informacijos apie tai, kaip tiekėjai gali tiekėjo bendradarbiavimą naudoti sąskaitų išrašymo procesuose, ieškokite puslapyje [Tiekėjo bendradarbiavimo SF išrašymo darbo sritis](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Informacijos apie tai, kaip konfigūruoti naujus tiekėjo bendradarbiavimo vartotojus, ieškokite puslapyje [Tiekėjo bendradarbiavimo vartotojų valdymas](manage-vendor-collaboration-users.md).
+Daugiau informacijos apie tai, kaip tiekėjai gali tiekėjo bendradarbiavimą naudoti sąskaitų išrašymo procesuose, ieškokite puslapyje [Tiekėjo bendradarbiavimo SF išrašymo darbo sritis](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). Informacijos apie tai, kaip konfigūruoti naujus tiekėjo bendradarbiavimo vartotojus, ieškokite puslapyje [Tiekėjo bendradarbiavimo vartotojų valdymas](manage-vendor-collaboration-users.md).
 
 ## <a name="defining-the-information-that-is-shown-to-vendors-when-they-respond-to-pos"></a>Informacijos, kuri rodoma tiekėjams, atsakantiems į PU, nustatymas
 
@@ -68,7 +68,7 @@ Norėdami bendrinti PU kainų informaciją per tiekėjo bendradarbiavimo sąsaj�
 
 ### <a name="sending-a-po-to-a-vendor"></a>PU siuntimas tiekėjui
 
-EKA ruošiami Tiekimo grandinės valdyme. Kai PU būsena yra **Patvirtintas**, jis tiekėjui siunčiamas pasirenkant puslapio **Pirkimo užsakymas** veiksmą **Siųsti patvirtinti**. Tada PU būsena pasikeičia į **Peržiūrima išorėje**. Išsiuntus PU tiekėjas gali matyti jį puslapyje **Pirkimo užsakymai, kuriuos galima peržiūrėti** tiekėjo bendradarbiavimo sąsajoje. Tada tiekėjas gali priimti PU, jį atmesti arba pasiūlyti pakeitimų. Tiekėjas taip pat gali įtraukti komentarų ir taip paskelbti informaciją, pvz., PO keitimus. Jei norite atkreipti tiekėjo dėmesį į naują PU, taip pat galite jį siųsti el. paštu, naudodami spausdinimo valdymo sistemą.
+EKA ruošiami „Supply Chain Management”. Kai PU būsena yra **Patvirtintas**, jis tiekėjui siunčiamas pasirenkant puslapio **Pirkimo užsakymas** veiksmą **Siųsti patvirtinti**. Tada PU būsena pasikeičia į **Peržiūrima išorėje**. Išsiuntus PU tiekėjas gali matyti jį puslapyje **Pirkimo užsakymai, kuriuos galima peržiūrėti** tiekėjo bendradarbiavimo sąsajoje. Tada tiekėjas gali priimti PU, jį atmesti arba pasiūlyti pakeitimų. Tiekėjas taip pat gali įtraukti komentarų ir taip paskelbti informaciją, pvz., PO keitimus. Jei norite atkreipti tiekėjo dėmesį į naują PU, taip pat galite jį siųsti el. paštu, naudodami spausdinimo valdymo sistemą.
 
 ### <a name="confirmation-and-acceptance-of-a-po-by-a-vendor"></a>Tiekėjo PU patvirtinimas ir priėmimas
 
@@ -89,13 +89,13 @@ Toliau pateikiamoje lentelėje parodomas įprastas keitimasis informacija, atsi�
 </thead>
 <tbody>
 <tr class="even">
-<td>Tiekėjas <strong>priima</strong> užsakymą ir Tiekimo grandinės valdymas sukonfigūruotas automatiškai patvirtinti PU, kai juos priima tiekėjas.</td>
+<td>Tiekėjas <strong>priima</strong> užsakymą ir „Supply Chain Management” sukonfigūruotas automatiškai patvirtinti PU, kai juos priima tiekėjas.</td>
 <td>Užsakymo būsena atnaujinama į <strong>Patvirtinta</strong>. Jei dėl kokios nors priežasties užsakymo atnaujinti&#39;nepavyksta, tiekėjo atsakymas vis tiek įrašomas kaip <strong>Priimta</strong>, tačiau PU būsena lieka <strong>Peržiūrima išorėje</strong>. 
 
 PU, kuris buvo išsiųstas tiekėjui ir kurio būsena <strong>Peržiūrima išorėje</strong>, atnaujinamas eilutėse patvirtintomis pristatymo datomis. Šis naujinimas inicijuoja naują versiją, kuri automatiškai nustatoma į būseną <strong>Patvirtinta</strong>. Kai PU patvirtinamas, jis pasirodys tiekėjo bendradarbiavimo sąsajoje.</td>
 </tr>
 <tr class="odd">
-<td>Tiekėjas <strong>priima</strong> užsakymą, tačiau Tiekimo grandinės valdymas ne&#39;sukonfigūruotas automatiškai patvirtinti PU, kai juos priima tiekėjas.</td>
+<td>Tiekėjas <strong>priima</strong> užsakymą, tačiau „Supply Chain Management” ne&#39;sukonfigūruotas automatiškai patvirtinti PU, kai juos priima tiekėjas.</td>
 <td>Tiekėjo atsakymas įrašomas kaip <strong>Priimta</strong>, bet PU būsena lieka <strong>Peržiūrima išorėje</strong>.
 
 PU, kuris buvo išsiųstas tiekėjui ir kurio būsena <strong>Peržiūrima išorėje</strong>, atnaujinamas eilutėse patvirtintomis pristatymo datomis. Šis naujinimas inicijuoja naują versiją, kuri automatiškai nustatoma į būseną <strong>Peržiūrima išorėje</strong>. Tada galite neautomatiškai patvirtinti PU.</td>
@@ -177,7 +177,7 @@ Toliau pateikiamoje lentelėje rodomas pavyzdys, kaip gali būti vykdomi PU būs
 
 | Veiksmas | Būsena ir versija |
 |--------|--------------------|
-| Tiekimo grandinės valdyme sukuriama pradinė PU versija. | Jo būsena yra **Patvirtinta**. |
+| „Supply Chain Management” sukuriama pradinė PU versija. | Jo būsena yra **Patvirtinta**. |
 | PU išsiųstas tiekėjui. | Versija yra užregistruojama tiekėjo bendradarbiavimo sąsajoje ir būsena pakeičiama į **Peržiūrima išorėje**. |
 | Tiekėjas išsiunčia atsakymą **Priimta su keitimais**. | Būsena vis dar yra **Peržiūrima išorėje**. |
 | Atliekate keitimus, kurių prašė tiekėjas. | Būsena grąžinama į **Patvirtinta**. |
@@ -197,7 +197,7 @@ Toliau pateikiamoje lentelėje rodomas pavyzdys, kaip gali būti vykdomi PU būs
 
 | Veiksmas | Būsena ir versija |
 |--------|--------------------|
-| Tiekimo grandinės valdyme sukuriama pradinė PU versija. | Jo būsena yra **Juodraštis**. |
+| „Supply Chain Management” sukuriama pradinė PU versija. | Jo būsena yra **Juodraštis**. |
 | PU teikiamas patvirtinti. (Patvirtinimo procesas yra vidinis procesas, kuriame tiekėjas nedalyvauja.) | Jei, vykstant tvirtinimo procesui, PU neatmetamas, jo būsena iš **Juodraštis** pakeičiama į **Peržiūrima** ir tada į **Patvirtinimas**. Patvirtintas PU užregistruojamas kaip versija. | 
 | PU išsiųstas tiekėjui. | Versija yra užregistruojama tiekėjo bendradarbiavimo sąsajoje ir būsena pakeičiama į **Peržiūrima išorėje**. |
 | Kai kuriuos tiekėjo pageidaujamus pakeitimus atliekate neautomatiniu būdu arba naudodami atsakymo veiksmą **Apdoroti PU naujinimą**, kad atnaujintumėte PU. | Būsena grąžinama į **Juodraštis**. |
@@ -234,13 +234,13 @@ Jei naudojate konsignacijos atsargas, tiekėjai gali naudoti tiekėjo bendradarb
 
 ## <a name="public-sector-extensions"></a>Viešojo sektoriaus plėtiniai
 
-Viešajame sektoriuje išplėstinės funkcijos suteikia galimybę RFQ atvejį išsiųsti tiekėjams ir publikuoti. Publikavus RFQ, bet kas reikalaujantis informacijos gali peržiūrėti darbą, kuris atitinka daugumą viešojo sektoriaus reglamentų. Visas galimas darbas parodomas sąrašo puslapyje **Atviri paskelbti pasiūlymų patvirtinimai**, o atšauktas, laukiančias arba skirtas RFQ galima peržiūrėti sąrašo puslapyje **Uždaryti paskelbti pasiūlymų patvirtinimai**. Šiuos dokumentus taip pat galima peržiūrėti ne Tiekimo grandinės valdyme esančioje svetainėje, naudojant integravimą su toliau nurodytais duomenų objektais.
+Viešajame sektoriuje išplėstinės funkcijos suteikia galimybę RFQ atvejį išsiųsti tiekėjams ir publikuoti. Publikavus RFQ, bet kas reikalaujantis informacijos gali peržiūrėti darbą, kuris atitinka daugumą viešojo sektoriaus reglamentų. Visas galimas darbas parodomas sąrašo puslapyje **Atviri paskelbti pasiūlymų patvirtinimai**, o atšauktas, laukiančias arba skirtas RFQ galima peržiūrėti sąrašo puslapyje **Uždaryti paskelbti pasiūlymų patvirtinimai**. Šiuos dokumentus taip pat galima peržiūrėti ne „Supply Chain Management” esančioje svetainėje, naudojant integravimą su toliau nurodytais duomenų objektais.
 
 - Paskelbti pasiūlymų patvirtinimai
 - Paskelbtų pasiūlymų patvirtinimų eilutė
 - Paskelbtų pasiūlymų patvirtinimų antraščių priedai
 
-Šie objektai suteikia galimybę žmonėms, kurie nėra Tiekimo grandinės valdymo sukonfigūruoti vartotojai, bet turi anoniminės prieigos prie išorinės svetainės teises, peržiūrėti galimą ir uždarytą darbą. Be to, išplėstinės funkcijos dalyje **Siųsti ir publikuoti** suteikia galimybę vartotojui, kuris nustato RFQ proceso parametrus, nustatyti el. laiško šabloną. Tada, kai įsigijimo specialistas sukuria RFQ atvejį, jis turi pasirinkti el. laiško šabloną, kad tiekėjams išsiųstų reikiamą informaciją apie RFQ atvejį. 
+Šie objektai suteikia galimybę žmonėms, kurie nėra „Supply Chain Management” sukonfigūruoti vartotojai, bet turi anoniminės prieigos prie išorinės svetainės teises, peržiūrėti galimą ir uždarytą darbą. Be to, išplėstinės funkcijos dalyje **Siųsti ir publikuoti** suteikia galimybę vartotojui, kuris nustato RFQ proceso parametrus, nustatyti el. laiško šabloną. Tada, kai įsigijimo specialistas sukuria RFQ atvejį, jis turi pasirinkti el. laiško šabloną, kad tiekėjams išsiųstų reikiamą informaciją apie RFQ atvejį. 
 
 Vartotojas, kuris nustato RFQ proceso parametrus, gali kurti kelis el. laiškų šablonus. Šie el. laiškų šablonai gali apimti statinį tekstą ir toliau nurodytus pakeitimo atpažinimo ženklus. Atpažinimo ženklai bus pakeisti kontekstinėmis reikšmėmis, kai el. laiškas bus sukurtas.
 

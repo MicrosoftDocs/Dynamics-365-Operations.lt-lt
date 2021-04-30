@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 49807c90c145eee55fae2d515fd19925eb2d944c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 11e044e04e05c68af676bf97e6085e9975da5c1d
+ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810419"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "5911253"
 ---
 # <a name="planned-cross-docking"></a>Suplanuotas prekių skirstymas
 
@@ -28,19 +28,21 @@ ms.locfileid: "5810419"
 
 Suplanuoto prekių skirstymo darbuotojai gali praleisti gaunamų atsargų padėjimus ir siunčiamų prekių paėmimus, jau pažymėti siunčiamam užsakymui. Todėl atsargų paėmimo kartai yra sumažinti, jei įmanoma. Taip pat dėl mažesnės sąveikos su sistema, laiko ir vietos taupymas sandėlio darbo aukšte yra padidinami.
 
-Prieš paleidžiant suplanuotą prekių skirstymą, vartotojas turi konfigūruoti naują prekių skirstymo šabloną, kur nurodytas tiekimo šaltinis ir kiti prekių skirstymo reikalavimai. Kadangi siuntimo užsakymas sukuriamas, eilutė turi būti pažymėta pagal gavimo užsakymą, kuriame yra ta prekė.
+Norėdami vykdyti prekių skirstymą, turite sukonfigūruoti naują prekių skirstymo šabloną, kuriame nurodytas tiekimo šaltinis ir kiti prekių skirstymo reikalavimų rinkiniai. Kadangi siuntimo užsakymas sukuriamas, eilutė turi būti pažymėta pagal gavimo užsakymą, kuriame yra ta prekė. Nurodymo kodą galite pasirinkti prekių skirstymo šablone, panašiai kaip nustatote papildymo ir pirkimo užsakymus.
 
 Gaunamo užsakymo gavimo metu, prekių skirstymo nustatymas automatiškai identifikuoja prekių skirstymo poreikius ir sukuria reikiamo kiekio perkėlimo darbą, pagrįstą vietos nurodymo nustatymu.
 
 > [!NOTE]
-> Atsargų operacijos yra **ne** registruojamos atšaukus prekių skirstymo darbą, net jei šios galimybės nustatymas yra įjungtas sandėlio valdymo parametruose.
+> Atsargų operacijos yra *ne* registruojamos atšaukus prekių skirstymo darbą, net jei šios galimybės nustatymas yra įjungtas sandėlio valdymo parametruose.
 
 ## <a name="turn-on-the-planned-cross-docking-features"></a>Įjungti suplanuoto prekių skirstymo funkcijas
 
 Jei jūsų sistemoje dar nėra funkcijų, aprašytų šioje temoje, eikite į [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir toliau pateikiama tvarka įjunkite šias funkcijas:
 
 1. *Suplanuotas prekių skirstymas*
-2. *Prekių skirstymo šablonai su vietovės nurodymais*
+1. *Prekių skirstymo šablonai su vietovės nurodymais*
+    > [!NOTE]
+    > Ši funkcija įgalina prekių skirstymo šablone nurodyti lauką **Nurodymo kodas**, panašiai kaip nustatote papildymo šablonus. Šios funkcijos įgalinimas neleidžia jums įtraukti nurodymo kodo į prekių skirstymo šablono eilutes, paskutinei *Įdėti* eilutei. Taip užtikrinama, kad prieš atsižvelgiant į darbo šablonus, galutinė įdėjimo vieta gali būti nustatyta darbo kūrimo metu.
 
 ## <a name="setup"></a>Sąranka
 
@@ -88,9 +90,9 @@ Suplanuotas prekių skirstymas yra įgyvendinamas kaip krovinio registravimo met
 
         Ši pasirinktis nurodo, ar turi būti iš naujo patikrinta pasiūla gavimo metu. Jei ši pasirinktis nustatyta kaip *Taip,* tikrinamas ir maksimalus laiko langą, ir galiojimo dienų intervalas.
 
-    - **Nurodymo kodas:** palikite šį lauką tuščią
+    - **Nurodymo kodas:** Palikite šį lauką tuščią
 
-        Ši parinktis įgalina sistemą naudoti vietos nurodymus, kad padėtų nustatyti geriausią vietą, į kurią bus perkeliamos prekių skirstymo atsargos. Galite ją nustatyti, priskirdami nurodymo kodą kiekvienam susijusiam prekių skirstymo šablonui. Kiekvienas nurodymo kodas identifikuoja unikalų vietos nurodymą.
+        Šią parinktį įgalina funkcija *Prekių skirstymo šablonai su vietos nurodymais*. Sistema naudoja vietos nurodymus, kad padėtų nustatyti geriausią vietą, į kurią bus perkeliamos prekių skirstymo atsargos. Galite ją nustatyti, priskirdami nurodymo kodą kiekvienam susijusiam prekių skirstymo šablonui. Jei nurodymo kodas yra nustatytas, sistema ieškos vietos nurodymų pagal nurodymo kodą, kai darbas bus sugeneruotas. Tokiu būdu galite apriboti vietos nurodymus, naudojamus konkrečiam prekių skirstymo šablonui.
 
     - **Patikrinti laiko langą:** *Taip*
 

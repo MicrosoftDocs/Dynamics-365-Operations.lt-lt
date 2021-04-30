@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2927a976c38e9ed8166c62b030d665a159119ae1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 36be4a85dbbd28839afd45b6ed167b4c8181ae72
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826424"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909506"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>IoT įžvalgų scenarijaus sąranka
 
@@ -42,7 +42,7 @@ Scenarijus **Įrangos prastovos** turi toliau nurodytas priklausomybes.
 Norėdami konfigūruoti scenarijų, atlikite toliau nurodytus veiksmus.
 
 1. Prisijunkite prie „Supply Chain Management“.
-2. Įgalinkite IoT analizės funkcijos vėliavėlę. Daugiau informacijos žr. [Funkcijų valdymo apžvalga](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+2. Įgalinkite IoT analizės funkcijos vėliavėlę. Daugiau informacijos žr. [Funkcijų valdymo apžvalga](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 3. Sukonfigūruokite metriką. Daugiau informacijos žr. [Kaip sukonfigūruoti metriką](iot-metrics-setup.md#configure-metrics).
 4. Eikite į **Gamybos kontrolė \> Sąranka \> IoT įžvalgos \> Scenarijaus valdymas** .
 6. Plytelėje **Įrangos prastovos** pasirinkite **Konfigūruoti**, kad būtų atidarytas konfigūravimo vedlys.

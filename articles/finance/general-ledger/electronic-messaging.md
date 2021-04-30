@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 42896c85fe72690aadafb878eb7e899c6fe10c32
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dd49edeb92e6a23723b1b6b6ea7800b69a81bd0f
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823793"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897605"
 ---
 # <a name="electronic-messaging"></a>Elektroniniai pranešimai
 
@@ -29,7 +29,7 @@ Neseniai įvairių šalių ir regionų vyriausybės bei teisės aktų leidybos i
 
 „Finance“ elektroninių pranešimų funkcionalumas palaiko įvairius procesus vykdant elektroninę veiklą tarp „Finance“ ir sistemų, kurias vyriausybės ir teisės aktų leidybos institucijos siūlo ataskaitoms teikti bei oficialiai informacijai teikti ir gauti.
 
-Elektroninių pranešimų funkcija yra integruota į modulį **Elektroninės ataskaitos** (ER). Todėl elektroniniams pranešimams galite nustatyti ER formatus. Daugiau informacijos žr. [Elektroninės ataskaitos (ER)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
+Elektroninių pranešimų funkcija yra integruota į modulį **Elektroninės ataskaitos** (ER). Todėl elektroniniams pranešimams galite nustatyti ER formatus. Daugiau informacijos žr. [Elektroninės ataskaitos (ER)](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
 
 Elektroniniai pranešimai grindžiami toliau nurodytais objektais.
 
@@ -56,7 +56,7 @@ Elektroninių pranešimų funkcija palaiko toliau nurodytus scenarijus.
 
 ## <a name="set-up-electronic-messaging"></a>Nustatyti elektroninius pranešimus
 
-Elektroniniai pranešimai gali padėti palaikyti skirtingiems dokumentų tipams skirtų įvairių elektroninių ataskaitų teikimo procesus. Taikant kai kuriuos sudėtingus scenarijus nustatyta, kad elektroniniai pranešimai turėtų daug pranešimo būsenų, pranešimo elementų būsenų, veiksmų, papildomų laukų bei vykdomųjų klasių kombinacijų. Galima importuoti šių scenarijų duomenų objektų paketus. Jei naudojate šiuos duomenų objektų paketus, turite juos importuoti į juridinį subjektą naudodami duomenų valdymo įrankį. Daugiau informacijos apie tai, kaip naudoti duomenų valdymo įrankį, žr. [Duomenų valdymas](../../dev-itpro/data-entities/data-entities-data-packages.md).
+Elektroniniai pranešimai gali padėti palaikyti skirtingiems dokumentų tipams skirtų įvairių elektroninių ataskaitų teikimo procesus. Taikant kai kuriuos sudėtingus scenarijus nustatyta, kad elektroniniai pranešimai turėtų daug pranešimo būsenų, pranešimo elementų būsenų, veiksmų, papildomų laukų bei vykdomųjų klasių kombinacijų. Galima importuoti šių scenarijų duomenų objektų paketus. Jei naudojate šiuos duomenų objektų paketus, turite juos importuoti į juridinį subjektą naudodami duomenų valdymo įrankį. Daugiau informacijos apie tai, kaip naudoti duomenų valdymo įrankį, žr. [Duomenų valdymas](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
 
 Jei neimportuojate duomenų objekto paketo, galite rankiniu būdu nustatyti elektroninių pranešimų funkciją. Tokiu atveju turite nustatyti toliau nurodytus elementus.
 
@@ -276,7 +276,7 @@ Galimos toliau nurodytos lauko **Veiksmo tipas** parinktys.
 
 Toliau pateikiamoje lentelėje rodomos rezultatų būsenos, kurias reikia nustatyti skirtingiems veiksmų tipams ir atsakų tipams.
 
-| Elelktroninio pranešimo veiksmo tipas / atsako tipas | Sėkmingai įvykdyta | Darbo klaida | Techninė klaida | Vartotojo nustatyta | Atšaukti |
+| Elektroninio pranešimo veiksmo tipas / atsako tipas | Sėkmingai įvykdyta | Darbo klaida | Techninė klaida | Vartotojo nustatyta | Atšaukti |
 |----------------------------------------------|-----------------------|----------------|-----------------|--------------|--------|
 | Kurti pranešimą                               | X                     |                |                 |              |        |
 | Elektroninių ataskaitų eksportavimas                  | X                     |                |                 |              |        |

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d37af06a33667f7cfe5df182d5197dee5edc912b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4de7f7f5f501024b7698736ded80405b9291cb58
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811294"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897041"
 ---
 # <a name="get-started-with-financial-reporting"></a>Pradėkite su „Financial reporting“ 
 
@@ -42,7 +42,7 @@ Galite prieiti prie **„Financial reporting“** meniu šiose vietose:
 Norėdami sukurti ir generuoti juridinio subjekto finansinių ataskaitų, turite nustatyti tolesnę to juridinio subjekto informaciją.
 
 -   Finansinis kalendorius
--   Ledger
+-   Didžioji knyga
 -   Sąskaitų planas
 -   Valiuta
 -   Publikuokite transakciją mažiausiai į vieną sąskaitą
@@ -131,7 +131,7 @@ Finansinių ataskaitų modulyje pateikiamos 22 numatytosios finansinės ataskait
 Kai pasirenkate **„Financial Reporting“** meniu, yra rodomas bendrovės nustatytųjų finansinių ataskaitų sąrašas. Tada galite ataskaitą atidaryti arba modifikuoti. Norėdami atidaryti vieną iš numatytųjų ataskaitų, pasirinkite ataskaitos pavadinimą. Pirmą kartą atidarant ataskaitą, ji automatiškai sugeneruojama už praėjusį mėnesį. Pvz., jei pirmą kartą ataskaitą atidarote 2019 m. rugpjūtį, ataskaita generuojama 2019 m. liepos 31 dienai. Kai ataskaita atidaroma, galite pradėti ją tyrinėti detalizuodami konkrečius duomenis ir keisdami ataskaitos parinktis.
 
 ## <a name="creating-and-modifying-financial-reports"></a>Finansinių ataskaitų kūrimas ir modifikavimas
-Finansinių ataskaitų sąraše galite kurti naują ataskaitą arba modifikuoti esamą ataskaitą. Jei neturite reikiamų leidimų, galite sukurti naują finansinę ataskaitą pasirinkdami **Nauja** veiksmų juostoje. Į jūsų įrenginį atsisiunčiama ir jame paleidžiama ataskaitų dizaino įrankio programa. Paleidus ataskaitų kūrimo įrankį galima kurti naują ataskaitą. Kai turite naująją ataskaitą, ji atsiranda finansinių ataskaitų sąraše. Sąrašasr rodo tik ataskaitas, kurios buvo sukurtos jūsų bendrovėje jums naudojant „Dynamics 365 Finance“. 
+Finansinių ataskaitų sąraše galite kurti naują ataskaitą arba modifikuoti esamą ataskaitą. Jei neturite reikiamų leidimų, galite sukurti naują finansinę ataskaitą pasirinkdami **Nauja** veiksmų juostoje. Į jūsų įrenginį atsisiunčiama ir jame paleidžiama ataskaitų dizaino įrankio programa. Paleidus ataskaitų kūrimo įrankį galima kurti naują ataskaitą. Kai turite naująją ataskaitą, ji atsiranda finansinių ataskaitų sąraše. Sąraše rodomos tik tos ataskaitas, kurios buvo sukurtos jūsų bendrovėje jums naudojant „Dynamics 365 Finance“. 
 
 ## <a name="reporting-tree-definitions"></a>Ataskaitų medžio apibrėžimai 
 Viena iš dalių, kuri naudojama finansinių ataskaitų kūrimui, yra ataskaitų medžio sąvoka. Ataskaitų kūrimo aprašas padeda nustatyti organizacijos struktūrą ir hierarchiją. Kelių dimensijų hierarchijų struktūra pagrįsta finansinių duomenų dimensijų ryšiais. Jis suteikia informacijos ataskaitinių vienetų lygiu ir suvestinės lygiu visiems medžio vienetams.
@@ -148,7 +148,7 @@ Trikdis 1: „Report Designer“ neįsijungia jums pasirinkus **Naujas** ar **Re
 * „Internet Explorer“ pasirinkite **Nustatymai** ir tuomet pasirinkite **Interneto parinktys**. Pasirinkite **Saugos** skirtuką. Pasirinkite patikimas svetaines. Srityje pavadintoje Saugumo lygis šiai sričiai, pakeiskite parinktį į **Vidutinis-Žemas**.
 * Išjunkite iššokančių langų blokavimo programą savo naršyklėje.
 * Darbo stotyse būtina įdiegti „Microsoft .NET Framework“ 4.6.2 ar aukštesnę versiją. Šią „Microsoft .NET Framework“ versiją galima atsisiųsti ir įdiegti apsilankius puslapyje [„Microsoft“ atsisiuntimo centras](https://www.microsoft.com/download/details.aspx?id=53345).
-* Jei naudojate naršyklę „Chrome“, turite įdiegti plėtinį „ClickOnce“, kad atsisiųstumėte ataskaitų dizaino įrankio klientą. Jei naršyklė „Chrome“ veikia inkognito režimu, įsitikinkite, kad plėtinys „ClickOnce“ nustatytas veikti inkognito režimu. Daugiau informacijos apie „Chrome“ plėtinį „ClickOnce“ žr. [Sistemos reikalavimai įdiegtims debesyje](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements).
+* Jei naudojate naršyklę „Chrome“, turite įdiegti plėtinį „ClickOnce“, kad atsisiųstumėte ataskaitų dizaino įrankio klientą. Jei naršyklė „Chrome“ veikia inkognito režimu, įsitikinkite, kad plėtinys „ClickOnce“ nustatytas veikti inkognito režimu. Daugiau informacijos apie „Chrome“ plėtinį „ClickOnce“ žr. [Sistemos reikalavimai įdiegtims debesyje](../../fin-ops-core/fin-ops/get-started/system-requirements.md).
 * Jei naudojate „Microsoft Edge“ su „Chrome“ naršykle, jums nereikia įdiegti plėtinio „ClickOnce“, skirto „Edge Chromium“. Tačiau turite įjungti parinktį „ClickOnce“, kad atsisiųstumėte ataskaitų dizaino įrankio klientą. Jei dirbate neatpažintu režimu, įsitikinkite, kad „ClickOnce“ plėtinys yra įjungtas neatpažintu režimu.
      1. Atidarykite naują naršyklę „Microsoft Edge“.
      2. Įveskite **edge://flags** ir pasirinkite **Įvesti**.
@@ -166,7 +166,7 @@ Triktis 2: Vartotojui nebuvo priskirti būtini leidimai naudoti „Financial Rep
 
 Triktis 3: Galite praeiti pro „ClickOnce Report Designer“ prisijungimo puslapį, tačiau negalite užbaigti prisijungimo prie „Report Designer“. 
 
-* Jūsų kompiuteryje nustatytas vietinis laikas, kai įeinante į savo prisijungimo informaciją, gali atsilikti penkias minutes nuo „Financial Reporting“ serverio. Jei yra didesnis nei penkių minučių skirtumas, sistema neleis prisijungti. 
+* Jūsų kompiuteryje nustatytas vietinis laikas, kai įeinate į savo prisijungimo informaciją, gali atsilikti penkias minutes nuo „Financial Reporting“ serverio. Jei yra didesnis nei penkių minučių skirtumas, sistema neleis prisijungti. 
 * Tuo atveju, rekomenduojame įjungti „Windows“ parinktį, kad nustatytumėte savo kompiuterio laiką automatiniu būdu. 
 
 ## <a name="additional-resources"></a>Papildomi ištekliai

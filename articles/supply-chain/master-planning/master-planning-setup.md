@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fe7ff2ab877182dd3145e39574aa7229c48b6057
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e30b02a6f98f638954adc7ec335babd518b92bf4
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833406"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909408"
 ---
 # <a name="set-up-master-planning"></a>Bendrojo planavimo nustatymas
 
@@ -106,11 +106,11 @@ Kiekvieno plano puslapio **Bendrieji planai** „FastTab“ **Bendra** (**Bendra
 
 ### <a name="operations-scheduling"></a>Operacijų planavimas
 
-Galite naudoti operacijų planavimą, norėdami bendrai įvertinti gamybos procesą per tam tikrą laikotarpį. Operacijų planavimo metu maršruto gamybos operacijos neišskaidomos į užduotis. Norėdami gauti daugiau informacijos apie operacijų planavimą, žr. [Operacijų planavimas](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling).
+Galite naudoti operacijų planavimą, norėdami bendrai įvertinti gamybos procesą per tam tikrą laikotarpį. Operacijų planavimo metu maršruto gamybos operacijos neišskaidomos į užduotis. Norėdami gauti daugiau informacijos apie operacijų planavimą, žr. [Operacijų planavimas](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling).
 
 ### <a name="job-scheduling"></a>Užduočių planavimas
 
-Užduočių planavimas yra išsamesnis planavimo metodas, kuriame kiekviena operacija skirstoma į atskiras užduotis. Užduočių planavimas įtraukia informaciją apie pajėgumą. Užduočių planavimas paprastai naudojamas norint planuoti atskiras darbo laiko užduotis, kurios bus atliekamos iškart arba greitai. Norėdami gauti daugiau informacijos apie užduočių planavimą, žr. [Užduočių planavimas](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Užduočių planavimas yra išsamesnis planavimo metodas, kuriame kiekviena operacija skirstoma į atskiras užduotis. Užduočių planavimas įtraukia informaciją apie pajėgumą. Užduočių planavimas paprastai naudojamas norint planuoti atskiras darbo laiko užduotis, kurios bus atliekamos iškart arba greitai. Norėdami gauti daugiau informacijos apie užduočių planavimą, žr. [Užduočių planavimas](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="time-fences-in-days"></a>Laiko ribos dienomis
 
@@ -158,7 +158,7 @@ Veiksmo pranešimuose siūlomi pakeitimai, kurie gali būti atlikti esamame tiek
 
 Nustatę parinkties **Veiksmo pranešimas** parametrą **Taip** galite perrašyti bendrojo planavimo metu nustatomą prekės veiksmo pranešimo laiko ribą. Šiuo atveju įveskite dienų, kurias bendrasis planavimas sugeneruoja poreikiams skirtus veiksmų pranešimus, skaičių. Veiksmo pranešimo laiko ribos skaičiuojamos į priekį nuo šios dienos datos.
 
-Norėdami gauti daugiau informacijos apie veiksmų pranešimus, žr. [Veiksmų pranešimai](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/action-messages).
+Norėdami gauti daugiau informacijos apie veiksmų pranešimus, žr. [Veiksmų pranešimai](/dynamics365/unified-operations/supply-chain/master-planning/action-messages).
 
 > [!NOTE]
 > Dėl veiksmų pranešimų skaičiavimo bendrasis planavimas gali užtrukti ilgiau. Jei veiksmų pranešimai nėra reguliariai analizuojami ir taikomi (kasdien, kas savaitę ir t. t.), bendrojo planavimo vykdymo metu išjunkite skaičiavimą. Norėdami išjungti skaičiavimą, puslapyje **Bendrieji planai** nustatykite parinkties **Veiksmų pranešimas** vykdomo bendrojo plano laiko ribą į **0** (nulis). Taip pat įsitikinkite, kad parametras **Veiksmo pranešimas** yra išjungtas visose padengimo grupėse.
@@ -223,7 +223,7 @@ gamybos laikas + neigiamos dienos + esama data – poreikio data
 
 Sistema naudoja tik šiose laiko ribose suplanuotus tiekimo užsakymus, o kitu atveju ji sukuria naują planuojamą užsakymą. Dinaminių neigiamų dienų privalumas yra tai, kad bus įtrauktas atskiro produkto gamybos laikas, siekiant pakartotinai naudoti esamus užsakymus ir nekurti naujų užsakymų, kurie bus įvykdyti vėliau tą pačią dieną, užfiksuotas atidėjimas dėl gamybos laiko. 
 
-Norėdami gauti daugiau informacijos žr. [Neigiamos dienos ir dinaminės neigiamos dienos](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
+Norėdami gauti daugiau informacijos žr. [Neigiamos dienos ir dinaminės neigiamos dienos](/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

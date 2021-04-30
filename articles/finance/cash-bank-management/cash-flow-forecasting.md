@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2a0bcb5266472b3d0e936d27c9f599d2c6b16d7a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7642b26be08427ccbef3929f2a2e083ce43d4e75
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819655"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897409"
 ---
 # <a name="cash-flow-forecasting"></a>Grynųjų pinigų srautų prognozavimas
 
@@ -98,7 +98,7 @@ Skirtuke **Dimensijos** pasirinkite iš dimensijų, kurias naudosite filtruodami
 
 Versijoje 10.0.17 nauja funkcija įgalina integravimą su projektų valdymu ir apskaita bei pinigų srautų prognoze. Funkcijų valdymo darbo srityje įjunkite pinigų srautų projekto prognozės priemonę, kad į pinigų srautų prognozę įtraukite prognozuotas **išlaidas** ir **įplaukas**. Projektų valdymo ir apskaitos skirtuke, pinigų srautų prognozės nustatymo puslapyje, pasirinkite projekto tipus ir operacijų tipus, kuriuos reikia įtraukti **į pinigų** srautų **prognozę**. Tada pasirinkite projekto prognozės modelį. Mažinimo tipo submodelis tinka geriausiai. Likvidumo sąskaitos, įvestos gautinų sumų nustatyme, yra naudojamos kaip numatytosios likvidumo sąskaitos. Todėl nustatant pinigų srautų prognozę nereikia įvesti numatytųjų likvidumo sąskaitų. Biudžeto modelį taip pat galima naudoti, tačiau projektų valdymo ir apskaitos pinigų srautų prognozės nustatymo puslapyje **galima pasirinkti tik vieną** tipą. Prognozės modelis suteikia geriausią lankstumo, kai naudojamas projektų valdymas ir apskaita arba „Project Operations“.
 
-Kai pinigų srautų projekto prognozės funkcija įjungta, galima peržiūrėti kiekvieno projekto pinigų srautų prognozę **visų projektų** puslapyje. Veiksmų srities skirtuko **Planas** grupėje **Prognozė** pasirinkite **Pingų srauto prognozė**. **Grynųjų pinigų** darbo sritys (žr. [Ataskaitų](#reporting) skyrių toliau šioje temoje), projekto prognozės operacijos tipas rodo įeinančius srautus (projekto prognozės pajamas) ir išeinančius srautus (projekto prognozės išlaidas). Sumas galima įtraukti tik tuo atveju, jei grynųjų pinigų apžvalgos darbo sričių **projekto** etapo **laukas** nustatytas kaip **Apdorojamas**.
+Kai pinigų srautų projekto prognozės funkcija įjungta, galima peržiūrėti kiekvieno projekto pinigų srautų prognozę **visų projektų** puslapyje. Veiksmų srities skirtuko **Planas** grupėje **Prognozė** pasirinkite **Grynųjų pinigų srauto prognozė**. **Grynųjų pinigų** darbo sritys (žr. [Ataskaitų](#reporting) skyrių toliau šioje temoje), projekto prognozės operacijos tipas rodo įeinančius srautus (projekto prognozės pajamas) ir išeinančius srautus (projekto prognozės išlaidas). Sumas galima įtraukti tik tuo atveju, jei grynųjų pinigų apžvalgos darbo sričių **projekto** etapo **laukas** nustatytas kaip **Apdorojamas**.
 
 Projekto operacijos vis dar įtrauktos į pinigų srautų prognozę keliais būdais, neatsižvelgiant į tai, ar pinigų srautų projekto **prognozės** funkcija įjungta. Užregistruotos projekto SF įtraukiamos į prognozę kaip atvirų kliento operacijų dalis. Projekto paskatinti pardavimo ir pirkimo užsakymai įvedus juos į sistemą įtraukiami į prognozę kaip atviri užsakymai. Taip pat galite perkelti projekto prognozes į DK biudžeto modelį. Tada šis DK biudžeto modelis įtraukiamas į pinigų srautų prognozę kaip biudžeto registro įrašų dalis. Jei įjungėte pinigų srautų projekto prognozės priemonę, neįkelkite projekto prognozių į DK biudžeto modelį, nes dėl šio veiksmo projekto prognozės bus skaičiuojamos **du** kartus.
 
@@ -116,7 +116,7 @@ Taip pat galite naudoti savo pinigų srauto prognozavimo paketinį apdorojimą. 
 Versijoje 10.0.13, buvo išleistas papildomas apskaičiavimo procesas naudojantis proceso automatizuotą tvarkaraštį, kuris numato pinigų srautų apskaičiavimo veiksmą. Tai padaroma naudojant **Pinigų srautų prognozavimo automatizavimo** funkciją **Funkcijos valdymo** darbo srityje. Kai jis įjungtas, pasirinkite **Pinigų srautų prognozavimo automatizavimo** nuorodą tam, kad būtų rodomas naujas automatizavimo puslapis, kuriame galite planuoti pinigų srautų apskaičiavimo procesą. Naujos pinigų srautų prognozavimo darbotvarkės sukūrimui, pasirinkite **Sukurti naują apdorojimo automatizavimą** ir tuomet pasirinkite **Pinigų srautų prognozavimo automatizavimą** **Darbotvarkės tipo** iškrentančiame meniu. Privalote nustatyti tvarkaraštį kiekvienai bendrovei, kuriai atnaujinate pinigų srautų prognozavimo duomenis.  Šis puslapis taip pat rodo, kuriuos pinigų srautų prognozavimo automatizavimo užduotys laukia ir paskutinę užbaigtą užduotį.  
 
 > [!NOTE] 
-> Jei esančios pakuotės užduotys jau yra suplanuotos pinigų srautų prognozėms, gausite klaidos pranešimą ir nebegalėsite įjungti šios funkcijos. Esamos pakuotės užduotys turėts būti panaikintos prieš tai, kai galėsite įjungti šią funkciją. 
+> Jei esančios pakuotės užduotys jau yra suplanuotos pinigų srautų prognozėms, gausite klaidos pranešimą ir nebegalėsite įjungti šios funkcijos. Esamos pakuotės užduotys turės būti panaikintos prieš tai, kai galėsite įjungti šią funkciją. 
 
 Norėdami gauti daugiau informacijos, [žr. Apdorojimo automatizavimas](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
 
@@ -144,7 +144,7 @@ Darbo srityje **Pinigų apžvalga – visos įmonės** rodoma pinigų srauto pro
 
 Darbo srityje **Pinigų apžvalga – dabartinė įmonė** rodoma pinigų srautų prognozavimo analizė įmonės nurodyta apskaitos valiuta. Analizei naudojama apskaitos valiuta nurodoma puslapyje **Didžioji knyga**. Šioje darbo srityje rodoma pinigų srauto prognozavimo ir dabartinės įmonės banko sąskaitų likučių apžvalga. Grynųjų pinigų įplaukų ir išmokų diagramoje apžvelgiami būsimi pinigų perkėlimai ir likučiai apskaitos valiuta, taip pat pateikiama išsami informacija apie numatytas operacijas. Taip pat galite matyti prognozuojamus valiutos likučius.
 
-Dėl išsamesnės informacijos apie pinigų srautų prognozavimo analitiką, žr. [Pinigų apžvalgos „Power BI“ turinio](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-overview-power-bi-content) temą.
+Dėl išsamesnės informacijos apie pinigų srautų prognozavimo analitiką, žr. [Pinigų apžvalgos „Power BI“ turinio](./cash-overview-power-bi-content.md) temą.
 
 Be to, toliau nurodytuose puslapiuose galite peržiūrėti tam tikrų sąskaitų, užsakymų ir prekių pinigų srautų prognozavimo duomenis.
 

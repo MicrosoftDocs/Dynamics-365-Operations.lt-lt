@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9a1316de8d79f3ce34bb28812993d096cbd0c2ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fff3c3cfe5d0628fd4df6e719b72bc134c9d9c0a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823414"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909456"
 ---
 # <a name="goods-in-transit-processing"></a>Tranzito prekių apdorojimas
 
@@ -40,7 +40,7 @@ Tolesniuose skyriuose aprašomas nustatymas, kurio reikia norint apdoroti atsarg
 
 Kai parinktis **Tranzitinių prekių valdymas** nustatyta kaip *Taip* galiojančioms pristatymo įrašo sąlygoms, prekės perkeliamos į tranzitinių prekių sandėlį. Šis veiksmas suaktyvinamas tik tada, kai atsargų kvitas neapdorojamas prieš apdorojant SF. Kai užsakymo pristatymo sąlygos nustatytos naudoti tranzito prekes, naudotojai nebegali registruoti pirkimo užsakymo produkto gavimo. Jei bandys, įvyks klaida. Klaidos pranešimas rodo, kad norint tęsti reikia naudoti tranzito prekių funkciją.
 
-Norėdami dirbti su tranzito prekių pristatymo sąlygų informacija, eikite į **Įsigijimas ir šaltinio pasirinkimas \> Nustatymas \> Paskirstymas \> Pristatymo sąlygos**. Šioje lentelėje aprašomi laukeliai, kuriuos modulis **Iškrovimo kaina** prideda prie puslapio **Pristatymo sąlygos**, kad palaikytų tranzito prekių funkcijas. Abu laukeliai yra „FastTab“ skirtuke **Bendra**. Daugiau informacijos apie kitus šio puslapio laukelius rasite skyriuje [Pristatymo sąlygos (forma)](https://technet.microsoft.com/library/aa575567.aspx).
+Norėdami dirbti su tranzito prekių pristatymo sąlygų informacija, eikite į **Įsigijimas ir šaltinio pasirinkimas \> Nustatymas \> Paskirstymas \> Pristatymo sąlygos**. Šioje lentelėje aprašomi laukeliai, kuriuos modulis **Iškrovimo kaina** prideda prie puslapio **Pristatymo sąlygos**, kad palaikytų tranzito prekių funkcijas. Abu laukeliai yra „FastTab“ skirtuke **Bendra**. Daugiau informacijos apie kitus šio puslapio laukelius rasite skyriuje [Pristatymo sąlygos (forma)](/dynamicsax-2012//terms-of-delivery-form).
 
 | Laukas | aprašymas |
 |---|---|
@@ -55,7 +55,7 @@ Iškrovimo kaina prideda dviejų naujų tipų sandėlį: *Tranzito prekės* ir *
 
 Sandėlio tipas *Tranzito prekės* bus siejamos su tranzito prekių sandėliu, o tas sandėlis bus naudojamas prekėms iš tranzito prekių užsakymų apdoroti prieš jas gaunant galutiniame paskirties sandėlyje. Apskritai, vieno tranzito prekių sandėlio pakanka kiekvienai svetainei, jei svetainė ir sandėlis yra vienintelės atsargų dimensijos, kurios naudojamos atsargų valdymui. Jei taip pat naudojama vietos atsargų dimensija, kiekvienam svetainės ir sandėlio deriniui turi būti nustatytas tranzito prekių sandėlis, kad būtų galima nurodyti ir numatytąją vietą.
 
-Kad savo sandėliuose galėtumėte dirbti su tranzito prekių nustatymais, eikite į **Atsargų valdymas \> Nustatymas \> Atsargų paskirstymas \> Sandėliai**. Šioje lentelėje aprašomi laukeliai, kuriuos modulis **Iškrovimo kaina** prideda prie puslapio **Sandėliai**, kad palaikytų tranzito prekių funkcijas. Abu laukeliai rodomi „FastTab“ skirtuke **Bendra**. Informacijos apie kitus puslapio laukelius žr. skyriuje [Sandėliai (forma)](https://technet.microsoft.com/library/aa620570.aspx).
+Kad savo sandėliuose galėtumėte dirbti su tranzito prekių nustatymais, eikite į **Atsargų valdymas \> Nustatymas \> Atsargų paskirstymas \> Sandėliai**. Šioje lentelėje aprašomi laukeliai, kuriuos modulis **Iškrovimo kaina** prideda prie puslapio **Sandėliai**, kad palaikytų tranzito prekių funkcijas. Abu laukeliai rodomi „FastTab“ skirtuke **Bendra**. Informacijos apie kitus puslapio laukelius žr. skyriuje [Sandėliai (forma)](/dynamicsax-2012//warehouses-form).
 
 | Laukas | aprašymas |
 |---|---|
@@ -109,7 +109,7 @@ Prekes taip pat galite gauti sukurdami atvykimo žurnalą. Gavimo žurnalą gali
     - **Kurti iš tranzito prekių** – šią parinktį nustatykite kaip *Taip*, kad paimtumėte kiekius iš pasirinktų tranzito eilučių pasirinktam reisui, konteineriui ar registravimo lapui.
     - **Kurti iš užsakymo eilučių** – šią parinktį nustatykite kaip *Taip*, kad numatytąjį kiekį nustatytumėte iš pirkimo užsakymo eilučių. Numatytąjį kiekį gavimo žurnale tokiu būdu galima nustatyti tik jei kiekis pirkimo užsakymo eilutėje sutampa su kiekiu, nurodytu tranzito prekių užsakyme.
 
-1. Apdorokite gavimo žurnalą, kaip aprašyta skyriuje [Prekių kvitų registravimas prekių gavimo žurnale](https://technet.microsoft.com/library/aa571129.aspx).
+1. Apdorokite gavimo žurnalą, kaip aprašyta skyriuje [Prekių kvitų registravimas prekių gavimo žurnale](/dynamicsax-2012/appuser-itpro/register-item-receipts-with-an-item-arrival-journal).
 
 > [!NOTE]
 > Gavimo žurnalas paprastai naudojamas situacijose, kai naudojamos vietos ir paketo / serijos sekimas, bet sandėlio valdymas nėra naudojamas.
@@ -131,15 +131,14 @@ Iškrovimo kaina prie mobiliojo įrenginio meniu elementų prideda nurodytus dar
 - Tranzito prekių priėmimas
 - Tranzito prekių gavimas ir atidėjimas
 
-Šių procesų konfigūracijos parametrai yra panašūs į nustatymus [pirkimo užsakymo gavimo ir atidėjimo darbo sukūrimo procesams](https://technet.microsoft.com/library/dn553216.aspx). Tačiau procesas *Tranzito prekių gavimas ir atidėjimas* taip pat prideda nurodytą laukelį.
+Šių procesų konfigūracijos parametrai yra panašūs į nustatymus [pirkimo užsakymo gavimo ir atidėjimo darbo sukūrimo procesams](/dynamicsax-2012/appuser-itpro/configure-mobile-devices-for-warehouse-work). Tačiau procesas *Tranzito prekių gavimas ir atidėjimas* taip pat prideda nurodytą laukelį.
 
 - **Siuntimo konteinerio įjungimas baigtas** – jei ši parinktis nustatyta kaip *Taip*, baigus atidėjimo darbą sandėlio valdymo mobiliųjų įrenginių programėlė pateikia papildomą parinktį pavadinimu **Siuntimo konteineris baigtas**. Pasirinkus šią parinktį darbuotojo bus prašoma patvirtinti, kad konteineris baigtas. Tuo metu visi trumpi gaviniai bus apdorojami kaip operacijos dalis.
 
 ### <a name="location-directives"></a>Vietos nurodymai
 
-Iškrovimo kaina prideda naują darbo užsakymo tipą, pavadintą *Tranzito prekės* puslapyje **Vietos direktyvos**. Šį darbo užsakymo tipą reikėtų konfigūruoti taip pat, kaip ir [pirkimo užsakymo darbo užsakymo tipus](https://technet.microsoft.com/library/dn553184.aspx).
+Iškrovimo kaina prideda naują darbo užsakymo tipą, pavadintą *Tranzito prekės* puslapyje **Vietos direktyvos**. Šį darbo užsakymo tipą reikėtų konfigūruoti taip pat, kaip ir [pirkimo užsakymo darbo užsakymo tipus](/dynamicsax-2012/appuser-itpro/create-a-work-template).
 
 ### <a name="work-templates"></a>Darbo šablonai
 
-Iškrovimo kaina prideda naują darbo užsakymo tipą, pavadintą *Tranzito prekės* puslapyje **Darbo šablonai**. Šį darbo užsakymo tipą reikėtų konfigūruoti taip pat, kaip ir [pirkimo užsakymo darbo šablonus](https://technet.microsoft.com/library/dn553184.aspx).
-
+Iškrovimo kaina prideda naują darbo užsakymo tipą, pavadintą *Tranzito prekės* puslapyje **Darbo šablonai**. Šį darbo užsakymo tipą reikėtų konfigūruoti taip pat, kaip ir [pirkimo užsakymo darbo šablonus](/dynamicsax-2012/appuser-itpro/create-a-work-template).

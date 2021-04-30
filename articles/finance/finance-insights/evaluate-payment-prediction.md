@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 56ec9795f0eb8b15dd00578bf35739eaa9e3d086
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 266f94b6a32c88307258aa99f2ac0c6bf9c50a84
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818632"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897917"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Pradinio kliento mokėjimo prognozavimo modelio įvertinimas (peržiūros versija)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Šioje temoje paaiškinama, kaip įvertinti prognozavimo modelį po to, kai įjungiate finansines įžvalgas, o tada sugeneruojate ir apmokote savo pirmajį modelį. Šioje temoje nagrinėjami kliento mokėjimo prognozavimo modeliai. Joje temoje aprašomi veiksmai, kuriuos galite atlikti, kad suprastumėte kliento mokėjimo prognozavimo modelį ir įvertintumėte jo efektyvumą.
+Šioje temoje paaiškinama, kaip įvertinti prognozavimo modelį po to, kai įjungiate „Finance Insights”, o tada sugeneruojate ir apmokote savo pirmąjį modelį. Šioje temoje nagrinėjami kliento mokėjimo prognozavimo modeliai. Joje temoje aprašomi veiksmai, kuriuos galite atlikti, kad suprastumėte kliento mokėjimo prognozavimo modelį ir įvertintumėte jo efektyvumą.
 
 ## <a name="getting-details-about-the-model"></a>Informacijos apie modelį gavimas
 
-„Microsoft Dynamics 365 Finance“ puslapyje **Finansinių įžvalgų parametrai** prie tikslumo rezultato atsiranda saitas **Tikslinti modelį**.
+„Microsoft Dynamics 365 Finance“ puslapyje **„Finance Insights” parametrai** prie tikslumo rezultato atsiranda saitas **Tikslinti modelį**.
 
 [![Saitas Tikslinti modelį](./media/prediction-model.png)](./media/prediction-model.png)
 
@@ -41,7 +41,7 @@ ms.locfileid: "5818632"
 
 Atidarytame puslapyje rodoma tolesnė informacija.
 
-- Skilyje **Našumas** modelio našumo įvertinimas nurodo modelio kokybę. Daugiau informacijos apie šį įvertinimą žr. [Prognozavimo modelio našumas](https://docs.microsoft.com/ai-builder/prediction-performance) „AI Builder“ dokumentacijoje.
+- Skiltyje **Našumas** modelio našumo įvertinimas nurodo modelio kokybę. Daugiau informacijos apie šį įvertinimą žr. [Prognozavimo modelio našumas](/ai-builder/prediction-performance) „AI Builder“ dokumentacijoje.
 - Skiltyje **Svarbiausi duomenys** nurodoma, kiek svarbūs skirtingi modelio duomenų įvesties tipai. Galite įvertinti šį sąrašą ir atitinkamus procentus, norėdami nustatyti, ar informacija atitinka tai, ką žinote apie savo verslą ir rinką.
 
     [![Prognozavimo modelio duomenų skiltys Našumas ir Svarbiausi duomenys](./media/models.png)](./media/models.png)
@@ -60,11 +60,11 @@ Toliau pateiktame paveikslėlyje parodytas formatas, kuriuo galite atsisiųsti d
 
 [![Atsisiunčiamų duomenų formatas](./media/data-format.png)](./media/data-format.png)
 
-Norint giliau išanalizuoti rezultatus, geriausiapradėti peržiūrint metriką „Painiavos matrica“. Pavyzdžiui, čia pateikti duomenys, kurie rodomi šioje metrikoje ankstesnėje iliustracijoje.
+Norint giliau išanalizuoti rezultatus, geriausia pradėti peržiūrint metriką „Painiavos matrica“. Pavyzdžiui, čia pateikti duomenys, kurie rodomi šioje metrikoje ankstesnėje iliustracijoje.
 
 `{"name": "Confusion Matrix", "value": {"schema_type": "confusion_matrix", "schema_version": "1.0.0", "data": {"class_labels": ["0", "1", "2"], "matrix": [[71, 9, 21], [5, 0, 27], [2, 0, 45]]}}, "type": "dictionaryNumericalList", "isGlobalScore": false}`
 
-Šiuos duomenis galite išplėstim, kaip nurodyta toliau.
+Šiuos duomenis galite išplėsti, kaip nurodyta toliau.
 
 | &nbsp;                   | Prognozuojama laiku | Prognozuojamas vėlavimas | Prognozuojamas žymus vėlavimas |
 |--------------------------|-------------------|----------------|---------------------|

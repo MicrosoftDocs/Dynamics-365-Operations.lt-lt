@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d2d590c95aa4069a1bed306910486c47200cdfd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a5befac6c72153332319eefc1aaeab30c33f4c69
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794858"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892256"
 ---
 # <a name="integration-with-finance-faq"></a>Integravimo su „Finance“ DUK
 
@@ -50,7 +50,7 @@ Esant numatytiesiems parametrams, naujose aplinkose, kuriose nėra pateiktų dem
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Ar galiu sukurti naują susiejimą nenaudodamas šablonų?
 
-Šablonai yra pradinis taškas. Galite sukurti savo šabloną, tačiau šablonas visada reikalingas kuriant integracijos projektą. Daugiau informacijos apie duomenų integratorių (DI), šablonus ir projektus žr. [Duomenų integravimas į „Microsoft Dataverse“](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+Šablonai yra pradinis taškas. Galite sukurti savo šabloną, tačiau šablonas visada reikalingas kuriant integracijos projektą. Daugiau informacijos apie duomenų integratorių (DI), šablonus ir projektus žr. [Duomenų integravimas į „Microsoft Dataverse“](/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-human-resources-and-finance"></a>Ar galiu susieti finansines dimensijas ir perkelti iš „Human Resources“ į „Finance“ arba atvirkščiai?
 
@@ -145,7 +145,7 @@ Integravimo su „Finance“ procesą sudaro du veiksmai. Pirmiausia, patikrinki
 
 Jei duomenys nėra rodomi „Dataverse“, kaip tikėtasi, patikrinkite, ar objektas palaikomas integracijoje. Norint įtraukti papildomų duomenų į „Dataverse“, pakeitimą turi atlikti „Microsoft“.
 
-Jei objektas yra palaikomas ir duomenys yra teikiami „Dataverse“, patikrinkite, ar susiejimas yra tinkamas duomenų integratoriuje. Jei integratoriaus susiejimas atrodo tinkamai, tada patikrinkite, ar duomenų valdymo užduotys sėkmingai įvykdytos. Paketinių užduočių vykdymo metu gali kilti klaidų. Daugiau informacijos apie duomenų valdymą žr. [Duomenų valdymas](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
+Jei objektas yra palaikomas ir duomenys yra teikiami „Dataverse“, patikrinkite, ar susiejimas yra tinkamas duomenų integratoriuje. Jei integratoriaus susiejimas atrodo tinkamai, tada patikrinkite, ar duomenų valdymo užduotys sėkmingai įvykdytos. Paketinių užduočių vykdymo metu gali kilti klaidų. Daugiau informacijos apie duomenų valdymą žr. [Duomenų valdymas](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json).
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Mano darbuotojų adresai yra netikslūs juos importavus į „Finance“. Ką daryti?
 
@@ -172,15 +172,15 @@ Atnaujinkite duomenų objektus programoje „Finance“, pasirinkdami **Duomenų
 
 - Duomenų integratorius (DI): 
 
-  - [Duomenų integravimas į „Microsoft Dataverse“](https://docs.microsoft.com/powerapps/administrator/data-integrator)
+  - [Duomenų integravimas į „Microsoft Dataverse“](/powerapps/administrator/data-integrator)
 
-  - [Duomenų integratoriaus klaidų valdymas ir trikčių šalinimas](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
+  - [Duomenų integratoriaus klaidų valdymas ir trikčių šalinimas](/powerapps/administrator/data-integrator-error-management)
 
-  - [Atsakymas į DSR užklausas, sistemai sugeneruojant žurnalus „Power Apps“, „Microsoft Power Automate“ ir „Dataverse“](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Atsakymas į DSR užklausas, sistemai sugeneruojant žurnalus „Power Apps“, „Microsoft Power Automate“ ir „Dataverse“](/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Duomenų valdymas:
 
-  - [Duomenų valdymas](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+  - [Duomenų valdymas](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
