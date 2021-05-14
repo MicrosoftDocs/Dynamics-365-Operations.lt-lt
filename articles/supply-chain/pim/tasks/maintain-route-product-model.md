@@ -13,56 +13,56 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 022db87d0a26efa948a618344ed392ab638b8790
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 45c6b1e6e75645bb17ce4defa0bca0e6d2131b6e
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817994"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921270"
 ---
-# <a name="maintain-route-for-a-product-model"></a><span data-ttu-id="a9f1b-103">Tvarkyti produkto modelio maršrutą</span><span class="sxs-lookup"><span data-stu-id="a9f1b-103">Maintain route for a product model</span></span>
+# <a name="maintain-route-for-a-product-model"></a><span data-ttu-id="a1d4a-103">Tvarkyti produkto modelio maršrutą</span><span class="sxs-lookup"><span data-stu-id="a1d4a-103">Maintain route for a product model</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="a9f1b-104">Norint paleisti šią procedūrą, reikia, kad būtų produkto konfigūracijos modelis.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-104">Running this procedure requires that a product configuration model exists.</span></span> <span data-ttu-id="a9f1b-105">Atliekant šią procedūrą naudojamas aukščiausios kokybės garsiakalbio modelis iš demonstracinės įmonės USMF.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-105">This procedure uses the High end speaker model in the demo company USMF to walk you through the process.</span></span>
+<span data-ttu-id="a1d4a-104">Norint paleisti šią procedūrą, reikia, kad būtų produkto konfigūracijos modelis.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-104">Running this procedure requires that a product configuration model exists.</span></span> <span data-ttu-id="a1d4a-105">Atliekant šią procedūrą naudojamas aukščiausios kokybės garsiakalbio modelis iš demonstracinės įmonės USMF.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-105">This procedure uses the High end speaker model in the demo company USMF to walk you through the process.</span></span>
 
+## <a name="add-a-route-operation"></a><span data-ttu-id="a1d4a-106">Įtraukti maršruto operaciją</span><span class="sxs-lookup"><span data-stu-id="a1d4a-106">Add a route operation</span></span>
 
-## <a name="add-a-route-operation"></a><span data-ttu-id="a9f1b-106">Įtraukti maršruto operaciją</span><span class="sxs-lookup"><span data-stu-id="a9f1b-106">Add a route operation</span></span>
-1. <span data-ttu-id="a9f1b-107">Spustelėkite Produkto varianto modelio aprašą.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-107">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="a9f1b-108">Spustelėkite Produkto konfigūracijos modeliai.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-108">Click Product configuration models.</span></span>
-3. <span data-ttu-id="a9f1b-109">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-109">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="a9f1b-110">Šiai užduočiai pasirinkite aukščiausios kokybės garsiakalbio modelį.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-110">Select the High end speaker model for this exercise.</span></span>  
-4. <span data-ttu-id="a9f1b-111">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-111">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="a9f1b-112">Išplėskite skyrių Maršruto operacijos.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-112">Expand the Route operations section.</span></span>
-6. <span data-ttu-id="a9f1b-113">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-113">Click Add.</span></span>
-7. <span data-ttu-id="a9f1b-114">Lauke Pavadinimas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-114">In the Name field, type a value.</span></span>
-8. <span data-ttu-id="a9f1b-115">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-115">In the Description field, type a value.</span></span>
-9. <span data-ttu-id="a9f1b-116">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-116">Click Save.</span></span>
+1. <span data-ttu-id="a1d4a-107">Eikite į **Produkto informacijos valdymas \> Produktai \> Produkto konfigūracijos modeliai**.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-107">Go to **Product information management \> Products \> Product configuration models**.</span></span>
+1. <span data-ttu-id="a1d4a-108">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-108">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="a1d4a-109">Šiai užduočiai pasirinkite aukščiausios kokybės garsiakalbio modelį.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-109">Select the High end speaker model for this exercise.</span></span>  
+1. <span data-ttu-id="a1d4a-110">Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-110">In the list, select the link in the selected row.</span></span>
+1. <span data-ttu-id="a1d4a-111">Išplėskite skyrių **Maršruto operacijos**.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-111">Expand the **Route operations** section.</span></span>
+1. <span data-ttu-id="a1d4a-112">Pasirinkite **Įtraukti**.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-112">Select **Add**.</span></span>
+1. <span data-ttu-id="a1d4a-113">Lauke **Pavadinimas** įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-113">In the **Name** field, type a value.</span></span>
+1. <span data-ttu-id="a1d4a-114">Lauke **Aprašo laukas** surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-114">In the **Description** field, type a value.</span></span>
+1. <span data-ttu-id="a1d4a-115">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-115">Select **Save**.</span></span>
 
-## <a name="enter-route-operation-details"></a><span data-ttu-id="a9f1b-117">Įvesti maršruto operacijos informaciją</span><span class="sxs-lookup"><span data-stu-id="a9f1b-117">Enter route operation details</span></span>
-1. <span data-ttu-id="a9f1b-118">Spustelėkite Maršruto operacijos informacija.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-118">Click Route operation details.</span></span>
-2. <span data-ttu-id="a9f1b-119">Lauke Operacija įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-119">In the Operation field, enter or select a value.</span></span>
-3. <span data-ttu-id="a9f1b-120">Lauke Oper.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-120">In the Oper.</span></span> <span data-ttu-id="a9f1b-121">Nr.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-121">No.</span></span> <span data-ttu-id="a9f1b-122">įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-122">field, enter a number.</span></span>
-    * <span data-ttu-id="a9f1b-123">Operacijų numeriai nustato maršruto seką.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-123">Operation numbers determine the route sequence.</span></span>  
-    * <span data-ttu-id="a9f1b-124">Kiekviena maršruto operacijos ypatybė gali gauti statinę vertę arba būti susieta su atributas.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-124">Each property on a route operation can get a static value or be mapped to an attribute.</span></span> <span data-ttu-id="a9f1b-125">Susiejus su atributu, vertė bus nustatyta kaip konfigūracijos dalis.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-125">Mapping to an attribute will result in the value being set as part of the configuration.</span></span>  
-4. <span data-ttu-id="a9f1b-126">Lauke Maršruto grupė įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-126">In the Route group field, enter or select a value.</span></span>
-    * <span data-ttu-id="a9f1b-127">Maršruto grupė nustato esminę įkainojimo, suvartojimą ir nustatymo elgseną.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-127">The route group determines essential behavior for costing, consumption, and setup.</span></span>  
-5. <span data-ttu-id="a9f1b-128">Spustelėkite skirtuką Nustatymas.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-128">Click the Setup tab.</span></span>
-6. <span data-ttu-id="a9f1b-129">Spustelėkite skirtuką Laikas.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-129">Click the Times tab.</span></span>
-7. <span data-ttu-id="a9f1b-130">Lauke Apdorojamas kiekis įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-130">In the Process qty. field, enter a number.</span></span>
-    * <span data-ttu-id="a9f1b-131">Nustatykite, kiek bus apdorojama vienos operacijos metu.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-131">Determine how many will be processed during one operation.</span></span>  
-8. <span data-ttu-id="a9f1b-132">Lauke Valandos / laikas įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-132">In the Hours/time field, enter a number.</span></span>
-    * <span data-ttu-id="a9f1b-133">Įveskite laiko koeficientą.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-133">Enter the time ratio.</span></span>  
-9. <span data-ttu-id="a9f1b-134">Pažymėkite žymės langelį Nustatyti.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-134">Select the Set check box.</span></span>
-10. <span data-ttu-id="a9f1b-135">Lauke Vykdymo laikas įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-135">In the Run time field, enter a number.</span></span>
-    * <span data-ttu-id="a9f1b-136">Nustatykite apdorojimo laiką, reikalingą apdoroti tą kiekį, kurį nurodėte.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-136">Determine the processing time for the quantity that you have specified.</span></span>  
-11. <span data-ttu-id="a9f1b-137">Spustelėkite skirtuką Išteklių reikalavimai.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-137">Click the Resource requirements tab.</span></span>
-12. <span data-ttu-id="a9f1b-138">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-138">Click Add.</span></span>
-13. <span data-ttu-id="a9f1b-139">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-139">In the list, mark the selected row.</span></span>
-14. <span data-ttu-id="a9f1b-140">Lauke Reikalavimų tipas pasirinkite pasirinktį.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-140">In the Requirement type field, select an option.</span></span>
-    * <span data-ttu-id="a9f1b-141">Nuspręskite, ar norite nurodyti konkrečius išteklius ar galimybes, kurias jie turi turėti.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-141">Decide if you want to specify specific resources or capabilities that they must possess.</span></span>  
-15. <span data-ttu-id="a9f1b-142">Lauke Reikalavimai įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-142">In the Requirement field, enter or select a value.</span></span>
-16. <span data-ttu-id="a9f1b-143">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="a9f1b-143">Click OK.</span></span>
+## <a name="enter-route-operation-details"></a><span data-ttu-id="a1d4a-116">Įvesti maršruto operacijos informaciją</span><span class="sxs-lookup"><span data-stu-id="a1d4a-116">Enter route operation details</span></span>
+
+1. <span data-ttu-id="a1d4a-117">Pasirinkite **maršruto operacijos** informaciją.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-117">Select **Route operation details**.</span></span>
+1. <span data-ttu-id="a1d4a-118">Lauke **Operacija** įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-118">In the **Operation** field, enter or select a value.</span></span>
+1. <span data-ttu-id="a1d4a-119">Lauke **Oper. nr.**</span><span class="sxs-lookup"><span data-stu-id="a1d4a-119">In the **Oper. No.**</span></span> <span data-ttu-id="a1d4a-120">įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-120">field, enter a number.</span></span>
+    * <span data-ttu-id="a1d4a-121">Operacijų numeriai nustato maršruto seką.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-121">Operation numbers determine the route sequence.</span></span>  
+    * <span data-ttu-id="a1d4a-122">Kiekviena maršruto operacijos ypatybė gali gauti statinę vertę arba būti susieta su atributas.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-122">Each property on a route operation can get a static value or be mapped to an attribute.</span></span> <span data-ttu-id="a1d4a-123">Susiejus su atributu, vertė bus nustatyta kaip konfigūracijos dalis.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-123">Mapping to an attribute will result in the value being set as part of the configuration.</span></span>  
+1. <span data-ttu-id="a1d4a-124">Lauke **Maršruto grupė** įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-124">In the **Route group** field, enter or select a value.</span></span>
+    * <span data-ttu-id="a1d4a-125">Maršruto grupė nustato esminę įkainojimo, suvartojimą ir nustatymo elgseną.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-125">The route group determines essential behavior for costing, consumption, and setup.</span></span>  
+1. <span data-ttu-id="a1d4a-126">Pasirinkite skirtuką **Nustatymas**.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-126">Select the **Setup** tab.</span></span>
+1. <span data-ttu-id="a1d4a-127">Pasirinkite skirtuką **Laikas**.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-127">Select the **Times** tab.</span></span>
+1. <span data-ttu-id="a1d4a-128">Lauke **Apdorojamas kiekis** įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-128">In the **Process qty.** field, enter a number.</span></span>
+    * <span data-ttu-id="a1d4a-129">Nustatykite, kiek bus apdorojama vienos operacijos metu.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-129">Determine how many will be processed during one operation.</span></span>  
+1. <span data-ttu-id="a1d4a-130">Lauke **Valandos/laikas** įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-130">In the **Hours/time** field, enter a number.</span></span>
+    * <span data-ttu-id="a1d4a-131">Įveskite laiko koeficientą.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-131">Enter the time ratio.</span></span>  
+1. <span data-ttu-id="a1d4a-132">Pažymėkite **Nustatyti** laukelį.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-132">Select the **Set** check box.</span></span>
+1. <span data-ttu-id="a1d4a-133">Lauke **Vykdymo laikas** įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-133">In the **Run time** field, enter a number.</span></span>
+    * <span data-ttu-id="a1d4a-134">Nustatykite apdorojimo laiką, reikalingą apdoroti tą kiekį, kurį nurodėte.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-134">Determine the processing time for the quantity that you have specified.</span></span>  
+1. <span data-ttu-id="a1d4a-135">Pasirinkite skirtuką **Išteklių reikalavimai**.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-135">Select the **Resource requirements** tab.</span></span>
+1. <span data-ttu-id="a1d4a-136">Pasirinkite **Įtraukti**.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-136">Select **Add**.</span></span>
+1. <span data-ttu-id="a1d4a-137">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-137">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="a1d4a-138">Lauke **Reikalavimų tipas** pasirinkite pasirinktį.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-138">In the **Requirement type** field, select an option.</span></span>
+    * <span data-ttu-id="a1d4a-139">Nuspręskite, ar norite nurodyti konkrečius išteklius ar galimybes, kurias jie turi turėti.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-139">Decide if you want to specify specific resources or capabilities that they must possess.</span></span>  
+1. <span data-ttu-id="a1d4a-140">Lauke **Reikalavimai** įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-140">In the **Requirement** field, enter or select a value.</span></span>
+1. <span data-ttu-id="a1d4a-141">Pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="a1d4a-141">Select **OK**.</span></span>
 
 
 

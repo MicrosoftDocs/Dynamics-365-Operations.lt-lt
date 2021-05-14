@@ -1,8 +1,8 @@
 ---
 title: Kurti ir tvarkyti atsargų blokavimą
-description: Ši procedūra nurodo, kaip neleisti kitiems siunčiamiems šaltinio dokumentams rezervuoti faktiškai turimų atsargų naudojant atsargų blokavimą.
+description: Ši tema aprašo, kaip neleisti kitiems siunčiamiems šaltinio dokumentams rezervuoti faktiškai turimų atsargų naudojant atsargų blokavimą.
 author: perlynne
-ms.date: 08/08/2019
+ms.date: 03/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -14,41 +14,47 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 319ae6da1e0e504316b2d96001d582e835cef20c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e9aa38ca52da577fff258bb330922ad7f4044330
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834006"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956163"
 ---
-# <a name="create-and-maintain-an-inventory-blocking"></a><span data-ttu-id="3075c-103">Kurti ir tvarkyti atsargų blokavimą</span><span class="sxs-lookup"><span data-stu-id="3075c-103">Create and maintain an inventory blocking</span></span>
+# <a name="create-and-maintain-an-inventory-blocking"></a><span data-ttu-id="5e737-103">Kurti ir tvarkyti atsargų blokavimą</span><span class="sxs-lookup"><span data-stu-id="5e737-103">Create and maintain an inventory blocking</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="3075c-104">Ši procedūra nurodo, kaip neleisti kitiems siunčiamiems šaltinio dokumentams rezervuoti faktiškai turimų atsargų naudojant atsargų blokavimą.</span><span class="sxs-lookup"><span data-stu-id="3075c-104">This procedure shows how to prevent physical on-hand inventory from being reserved by other outbound source documents by using the inventory blocking.</span></span> <span data-ttu-id="3075c-105">Galite vykdyti šią procedūrą demonstracinių duomenų įmonėje USMF naudodami rodomas pavyzdines reikšmes.</span><span class="sxs-lookup"><span data-stu-id="3075c-105">You can run the procedure in demo data company USMF using the example values that are shown.</span></span> <span data-ttu-id="3075c-106">Prieš pradedant šią procedūrą jums reikės turėti prekę su faktiškai turimomis atsargomis.</span><span class="sxs-lookup"><span data-stu-id="3075c-106">You need to have an item with physical on-hand inventory available before you start this procedure.</span></span>
+<span data-ttu-id="5e737-104">Ši tema aprašo, kaip neleisti kitiems siunčiamiems šaltinio dokumentams rezervuoti faktiškai turimų atsargų naudojant atsargų blokavimą.</span><span class="sxs-lookup"><span data-stu-id="5e737-104">This topic describes how to use an inventory blocking to prevent physical on-hand inventory from being reserved by other outbound source documents.</span></span> <span data-ttu-id="5e737-105">Prieš pradėdami šioje temoje aprašytas procedūras, turite turėti objektą, kuriam parengsite fizines atsargas.</span><span class="sxs-lookup"><span data-stu-id="5e737-105">Before you start the procedures in this topic, you must have an item that physical on-hand inventory is available for.</span></span>
 
+## <a name="block-inventory"></a><span data-ttu-id="5e737-106">Blokuoti atsargas</span><span class="sxs-lookup"><span data-stu-id="5e737-106">Block inventory</span></span>
 
-## <a name="create-an-inventory-blocking"></a><span data-ttu-id="3075c-107">Sukurti atsargų blokavimą</span><span class="sxs-lookup"><span data-stu-id="3075c-107">Create an inventory blocking</span></span>
-1. <span data-ttu-id="3075c-108">**Naršymo sritis** eikite į **Moduliai > Atsargų valdymas > Periodinės užduotys > Atsargų blokavimas**.</span><span class="sxs-lookup"><span data-stu-id="3075c-108">In the **Navigation pane**, go to **Modules > Inventory management > Periodic tasks > Inventory blocking**.</span></span>
-2. <span data-ttu-id="3075c-109">Spustelėkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="3075c-109">Click **New**.</span></span>
-3. <span data-ttu-id="3075c-110">Lauke **Prekės numeris** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="3075c-110">In the **Item number** field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="3075c-111">Sąraše pasirinkite norimą prekę.</span><span class="sxs-lookup"><span data-stu-id="3075c-111">In the list, select the item you want to choose.</span></span> <span data-ttu-id="3075c-112">Pasirinkite prekės numerį su faktiškai turimomis atsargomis, kurias norite blokuoti.</span><span class="sxs-lookup"><span data-stu-id="3075c-112">Select an item number with physical on-hand inventory that you want to block.</span></span> <span data-ttu-id="3075c-113">Jei naudojate USMF, galite pasirinkti prekę M9201.</span><span class="sxs-lookup"><span data-stu-id="3075c-113">If you're using USMF you can select item M9201.</span></span>  
-5. <span data-ttu-id="3075c-114">Lauke **Kiekis** įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="3075c-114">In the **Quantity** field, enter a number.</span></span> <span data-ttu-id="3075c-115">Jei naudojate prekę M9201, turite pasirinkti mažiau nei 200.</span><span class="sxs-lookup"><span data-stu-id="3075c-115">If you're using item M9201, you need to select less than 200.</span></span>
-6. <span data-ttu-id="3075c-116">Išplėskite „fastTab“ **Atsargų matmenys**.</span><span class="sxs-lookup"><span data-stu-id="3075c-116">Expand the **Inventory dimensions** fastTab.</span></span>
-7. <span data-ttu-id="3075c-117">Lauke **Sandėlis** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="3075c-117">In the **Warehouse** field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="3075c-118">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="3075c-118">In the list, find and select the desired record.</span></span> <span data-ttu-id="3075c-119">Jei naudojate prekę M9201, galite pasirinkti sandėlį 51.</span><span class="sxs-lookup"><span data-stu-id="3075c-119">If you're using item M9201, you can select warehouse 51.</span></span>  
-9. <span data-ttu-id="3075c-120">Spustelėkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="3075c-120">Click **Save**.</span></span>
+<span data-ttu-id="5e737-107">Norėdami sukurti atsargų blokavimo įrašą, kad atsargos būtų užblokuotos, atlikite šiuos veiksmus.</span><span class="sxs-lookup"><span data-stu-id="5e737-107">To create an inventory blocking record so that inventory is blocked, follow these steps.</span></span>
 
-## <a name="update-the-conditions-of-the-inventory-blocking"></a><span data-ttu-id="3075c-121">Atnaujinti atsargų blokavimo sąlygas</span><span class="sxs-lookup"><span data-stu-id="3075c-121">Update the conditions of the inventory blocking</span></span>
-1. <span data-ttu-id="3075c-122">„fastTab“ **Bendra**, esantį lauke **Kiekis**, įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="3075c-122">In the **General** fastTab, in the **Quantity** field, enter a number.</span></span> <span data-ttu-id="3075c-123">Atnaujinkite atsargų kiekio lauką, kad atitiktų norimą blokuoti kiekį.</span><span class="sxs-lookup"><span data-stu-id="3075c-123">Update the inventory quantity field to reflect the quantity to block.</span></span>  
-2. <span data-ttu-id="3075c-124">Lauke **Numatyta data** įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="3075c-124">In the **Expected date** field, enter a date.</span></span> <span data-ttu-id="3075c-125">Galite nurodyti, kada turėtų būti galima rezervuoti užblokuotas atsargas, priskirdami numatomą datą.</span><span class="sxs-lookup"><span data-stu-id="3075c-125">You might want to indicate when the blocked inventory is expected to become available for reservation by assigning an expected date.</span></span> <span data-ttu-id="3075c-126">Jei atsargų blokavimui parenkama parinktis „Numatomi gavimai“, kuri būna parenkama pagal numatytuosius nustatymus, kai blokavimą kuriate rankiniu būdu, ši data bus rodoma numatomoje operacijoje.</span><span class="sxs-lookup"><span data-stu-id="3075c-126">If the Expected receipts option is selected for the inventory blocking, as it is by default when you manually create a blocking, this date will appear on the expected transaction.</span></span>  
-3. <span data-ttu-id="3075c-127">Spustelėkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="3075c-127">Click **Save**.</span></span>
+1. <span data-ttu-id="5e737-108">Pasirinkite **Atsargų valdymas \> Periodinės užduotys \> Atsargų blokavimas**.</span><span class="sxs-lookup"><span data-stu-id="5e737-108">Go to **Inventory management \> Periodic tasks \> Inventory blocking**.</span></span>
+1. <span data-ttu-id="5e737-109">Veiksmų srityje pasirinkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="5e737-109">On the Action Pane, select **New**.</span></span>
+1. <span data-ttu-id="5e737-110">Naujo blokavimo įrašo antraštėje nustatykite prekės, kurią norite blokuoti, lauką Prekės numeris **įveskite** aprašymą.</span><span class="sxs-lookup"><span data-stu-id="5e737-110">On the header of the new blocking record, set the **Item number** field to the item that you want to block, and enter a description.</span></span>
+1. <span data-ttu-id="5e737-111">**Bendra** „FastTab” skirtuke, **Kiekis** lauke, įveskite blokuojamų elementų skaičių.</span><span class="sxs-lookup"><span data-stu-id="5e737-111">On the **General** FastTab, in the **Quantity** field, enter the number of items to block.</span></span>
+1. <span data-ttu-id="5e737-112">Atsargų **dimensijų** „FastTab“ nurodykite vieta ir sandėlį, kuriame šiuo metu yra prekės, kurias norite užblokuoti.</span><span class="sxs-lookup"><span data-stu-id="5e737-112">On the **Inventory dimensions** FastTab, specify the site and warehouse where the items that you want to block are currently located.</span></span>
+1. <span data-ttu-id="5e737-113">Veiksmų srityje pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="5e737-113">On the Action Pane, select **Save**.</span></span>
 
-## <a name="remove-the-inventory-blocking"></a><span data-ttu-id="3075c-128">Pašalinti atsargų blokavimą</span><span class="sxs-lookup"><span data-stu-id="3075c-128">Remove the inventory blocking</span></span>
-1. <span data-ttu-id="3075c-129">**Veiksmų srityje** spustelėkite **Naikinti**.</span><span class="sxs-lookup"><span data-stu-id="3075c-129">On the **Action Pane**, click **Delete**.</span></span>
-2. <span data-ttu-id="3075c-130">Spustelėkite **Taip**.</span><span class="sxs-lookup"><span data-stu-id="3075c-130">Click **Yes**.</span></span>
-3. <span data-ttu-id="3075c-131">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="3075c-131">Close the page.</span></span>
+## <a name="update-the-conditions-of-the-inventory-blocking"></a><span data-ttu-id="5e737-114">Atnaujinti atsargų blokavimo sąlygas</span><span class="sxs-lookup"><span data-stu-id="5e737-114">Update the conditions of the inventory blocking</span></span>
 
+<span data-ttu-id="5e737-115">Norėdami atnaujinti atsargų blokavimo įrašą, atlikite šiuos veiksmus.</span><span class="sxs-lookup"><span data-stu-id="5e737-115">To update an inventory blocking record, follow these steps.</span></span>
 
+1. <span data-ttu-id="5e737-116">Pasirinkite **Atsargų valdymas \> Periodinės užduotys \> Atsargų blokavimas**.</span><span class="sxs-lookup"><span data-stu-id="5e737-116">Go to **Inventory management \> Periodic tasks \> Inventory blocking**.</span></span>
+1. <span data-ttu-id="5e737-117">Sąrašo srityje pažymėkite atitinkamą blokavimo įrašą.</span><span class="sxs-lookup"><span data-stu-id="5e737-117">In the list pane, select the relevant blocking record.</span></span>
+1. <span data-ttu-id="5e737-118">Redaguokite įrašą pagal reikalą.</span><span class="sxs-lookup"><span data-stu-id="5e737-118">Edit the record as required.</span></span> <span data-ttu-id="5e737-119">Pavyzdžiui, galite keisti tikėtinos datos **Laukelio** vertę, tam, kad galėtumėte nurodyti, kada galima rezervuoti užblokuotas atsargas, priskirdami numatomą datą.</span><span class="sxs-lookup"><span data-stu-id="5e737-119">For example, you might change the value of the **Expected date** field to indicate when the blocked inventory is expected to become available for reservation.</span></span> <span data-ttu-id="5e737-120">Jei **pasirinkta pasirinktis** Numatomi gaviniai, data bus rodoma tikėtinoje operacijoje.</span><span class="sxs-lookup"><span data-stu-id="5e737-120">If the **Expected receipts** option is selected, the date will appear on the expected transaction.</span></span> <span data-ttu-id="5e737-121">(Toliau **Numatyta, kad** numatyta gavimo pasirinktis pasirenkama rankiniu būdu kuriant blokavimo įrašą.)</span><span class="sxs-lookup"><span data-stu-id="5e737-121">(The **Expected receipts** option is selected by default when you manually create a blocking record.)</span></span>
+1. <span data-ttu-id="5e737-122">Veiksmų srityje pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="5e737-122">On the Action Pane, select **Save**.</span></span>
+
+## <a name="unblock-inventory"></a><span data-ttu-id="5e737-123">Atsargų atblokavimas</span><span class="sxs-lookup"><span data-stu-id="5e737-123">Unblock inventory</span></span>
+
+<span data-ttu-id="5e737-124">Norėdami panaikinti atsargų blokavimo įrašą, kad atsargos būtų atblokuotos, atlikite šiuos veiksmus.</span><span class="sxs-lookup"><span data-stu-id="5e737-124">To remove an inventory blocking record so that inventory is unblocked, follow these steps.</span></span>
+
+1. <span data-ttu-id="5e737-125">Pasirinkite **Atsargų valdymas \> Periodinės užduotys \> Atsargų blokavimas**.</span><span class="sxs-lookup"><span data-stu-id="5e737-125">Go to **Inventory management \> Periodic tasks \> Inventory blocking**.</span></span>
+1. <span data-ttu-id="5e737-126">Sąrašo srityje pažymėkite atitinkamą blokavimo įrašą.</span><span class="sxs-lookup"><span data-stu-id="5e737-126">In the list pane, select the relevant blocking record.</span></span>
+1. <span data-ttu-id="5e737-127">Rinkitės **Naikinti** veiksmų juostoje.</span><span class="sxs-lookup"><span data-stu-id="5e737-127">On the Action Pane, select **Delete**.</span></span>
+1. <span data-ttu-id="5e737-128">Jus paragins patvirtinti operaciją.</span><span class="sxs-lookup"><span data-stu-id="5e737-128">You're prompted to confirm the operation.</span></span> <span data-ttu-id="5e737-129">Pasirinkite **Taip** tam, kad tęstumėte.</span><span class="sxs-lookup"><span data-stu-id="5e737-129">Select **Yes** to continue.</span></span>
+1. <span data-ttu-id="5e737-130">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="5e737-130">Close the page.</span></span>
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
