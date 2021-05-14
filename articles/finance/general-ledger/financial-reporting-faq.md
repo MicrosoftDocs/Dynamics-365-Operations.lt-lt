@@ -14,78 +14,57 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a0718db77399901acc8c88278c5b373b77b3cb16
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 023354b0e2973f63411bf81cbeb0344333c49112
+ms.sourcegitcommit: d63e7e0593084a61362a6cad3937b1fd956c384f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811315"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923030"
 ---
-# <a name="financial-reporting-faq"></a><span data-ttu-id="f3505-103">DUK apie finansines ataskaitas</span><span class="sxs-lookup"><span data-stu-id="f3505-103">Financial reporting FAQ</span></span> 
+# <a name="financial-reporting-faq"></a><span data-ttu-id="8635b-103">DUK apie finansines ataskaitas</span><span class="sxs-lookup"><span data-stu-id="8635b-103">Financial reporting FAQ</span></span> 
 
-<span data-ttu-id="f3505-104">Šioje temoje pateikiami klausimai, susiję su finansinėmis ataskaitomis, kurias turėjo kiti vartotojai.</span><span class="sxs-lookup"><span data-stu-id="f3505-104">This topic lists questions related to financial reporting that other users have had.</span></span> 
+<span data-ttu-id="8635b-104">Šioje temoje pateikiami atsakymai į dažnai užduodamus klausimus apie finansines ataskaitas.</span><span class="sxs-lookup"><span data-stu-id="8635b-104">This topic provides answers to frequently asked questions about financial reporting.</span></span> 
 
+## <a name="how-do-i-restrict-access-to-a-report-using-tree-security"></a><span data-ttu-id="8635b-105">Kaip apriboti prieigą prie ataskaitos naudojant medžio saugą?</span><span class="sxs-lookup"><span data-stu-id="8635b-105">How do I restrict access to a report using tree security?</span></span>
 
-## <a name="how-do-i-restrict-access-to-a-report-using-tree-security"></a><span data-ttu-id="f3505-105">Kaip apriboti prieigą prie ataskaitos naudojant medžio saugą?</span><span class="sxs-lookup"><span data-stu-id="f3505-105">How do I restrict access to a report using Tree security?</span></span>
+<span data-ttu-id="8635b-106">Toliau pateikiamu pavyzdžiu nurodoma, kaip apriboti prieigą prie ataskaitos naudojant medžio saugą.</span><span class="sxs-lookup"><span data-stu-id="8635b-106">The following example shows how to restrict access to a report using tree security.</span></span>
 
-<span data-ttu-id="f3505-106">Scenarijus: USMF demonstracinė įmonė turi balanso ataskaitą ir nenori, kad visi finansinių ataskaitų vartotojai galėtų peržiūrėti naudodami D365.</span><span class="sxs-lookup"><span data-stu-id="f3505-106">Scenario: The USMF demo company has a Balance sheet report that it doesn’t want all Financial reporting users to be able to view in D365.</span></span> <span data-ttu-id="f3505-107">Sprendimas: galite naudoti medžio saugą, kad apribotumėte prieigą prie vienos ataskaitos, kad tik tam tikri vartotojai galėtų pasiekti ataskaitą.</span><span class="sxs-lookup"><span data-stu-id="f3505-107">Solution: You can utilize Tree security to restrict access to a single report so that only certain users can access the report.</span></span> 
+<span data-ttu-id="8635b-107">Demonstracinė įmonė USMF turi balanso ataskaitą, prie kurios ne visi finansinių ataskaitų vartotojai turi turėti prieigą.</span><span class="sxs-lookup"><span data-stu-id="8635b-107">The USMF demo company has a Balance sheet report that not all Financial reporting users should have access to.</span></span> <span data-ttu-id="8635b-108">Norėdami apriboti prieigą galite naudoti medžio saugą, kad apribotumėte prieigą prie vienos ataskaitos ir tik tam tikri vartotojai galėtų pasiekti ataskaitą.</span><span class="sxs-lookup"><span data-stu-id="8635b-108">To restrict access, you can use tree security to restrict access to a single report so that only certain users can access the report.</span></span> <span data-ttu-id="8635b-109">Norėdami apriboti prieigą, atlikite šiuos veiksmus:</span><span class="sxs-lookup"><span data-stu-id="8635b-109">Follow these steps to restrict access:</span></span> 
 
-1.  <span data-ttu-id="f3505-108">Prisijunkite prie finansinių ataskaitų rengėjų ataskaitų dizaino įrankio</span><span class="sxs-lookup"><span data-stu-id="f3505-108">Log into Financial Reporter Report Designer</span></span>
+1. <span data-ttu-id="8635b-110">Prisijunkite prie „Financial Reporter Report Designer“.</span><span class="sxs-lookup"><span data-stu-id="8635b-110">Sign in to Financial Reporter Report Designer.</span></span>
+2. <span data-ttu-id="8635b-111">Sukurkite naują medžio aprašą.</span><span class="sxs-lookup"><span data-stu-id="8635b-111">Create a new tree definition.</span></span> <span data-ttu-id="8635b-112">Eikite į **Failas > Naujas > Medžio aprašas**.</span><span class="sxs-lookup"><span data-stu-id="8635b-112">Go to **File > New > Tree Definition**.</span></span>
+3. <span data-ttu-id="8635b-113">Dukart spustelėkite eilutę **Suvestinė** stulpelyje **Vieneto sauga**.</span><span class="sxs-lookup"><span data-stu-id="8635b-113">Double-click the **Summary** line in the **Unit Security** column.</span></span>
+4. <span data-ttu-id="8635b-114">Pasirinkite **Vartotojai ir grupės**.</span><span class="sxs-lookup"><span data-stu-id="8635b-114">Select **Users and Groups**.</span></span>  
+5. <span data-ttu-id="8635b-115">Pasirinkite vartotojus ar grupes, kuriems reikalinga prieiga prie ataskaitos.</span><span class="sxs-lookup"><span data-stu-id="8635b-115">Select the users or groups that need access to this report.</span></span> 
+6. <span data-ttu-id="8635b-116">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="8635b-116">Select **Save**.</span></span>
+7. <span data-ttu-id="8635b-117">Į ataskaitos aprašą įtraukite naują medžio aprašą.</span><span class="sxs-lookup"><span data-stu-id="8635b-117">In the report definition, add your new tree definition.</span></span>
+8. <span data-ttu-id="8635b-118">Medžio apraše pasirinkite **Parametras**.</span><span class="sxs-lookup"><span data-stu-id="8635b-118">In the tree definition, select **Setting**.</span></span> <span data-ttu-id="8635b-119">Dalyje **Ataskaitos vieneto pasirinkimas** pasirinkite **Įtraukti visus vienetus**.</span><span class="sxs-lookup"><span data-stu-id="8635b-119">Under **Reporting unit selection**, select **Include all units**.</span></span>
 
-2.  <span data-ttu-id="f3505-109">Sukurkite naują medžio apibrėžimą (Failas | Naujas | Medžio aprašas) a.</span><span class="sxs-lookup"><span data-stu-id="f3505-109">Create a new Tree Definition (File | New | Tree Definition) a.</span></span>    <span data-ttu-id="f3505-110">Dukart spustelėkite eilutę **Suvestinė** stulpelyje **Vieneto sauga**.</span><span class="sxs-lookup"><span data-stu-id="f3505-110">Double-click the **Summary** line in the **Unit Security** column.</span></span>
-  <span data-ttu-id="f3505-111">i.</span><span class="sxs-lookup"><span data-stu-id="f3505-111">i.</span></span>    <span data-ttu-id="f3505-112">Spustelėkite Vartotojai ir grupės.</span><span class="sxs-lookup"><span data-stu-id="f3505-112">Click Users and Groups.</span></span>  
-          <span data-ttu-id="f3505-113">1. Pasirinkite vartotojus ar grupę, kuri galės pasiekti šią ataskaitą.</span><span class="sxs-lookup"><span data-stu-id="f3505-113">1.    Select the User(s) or Group that would like to access this report.</span></span> 
-          
-<span data-ttu-id="f3505-114">[![vartotojo ekranas](./media/FR-FAQ_users.png)](./media/FR-FAQ_users.png)</span><span class="sxs-lookup"><span data-stu-id="f3505-114">[![user screen](./media/FR-FAQ_users.png)](./media/FR-FAQ_users.png)</span></span>
+## <a name="how-do-i-identify-which-accounts-do-not-match-my-balances"></a><span data-ttu-id="8635b-120">Kaip nustatyti, kurios sąskaitos neatitinka mano balansų?</span><span class="sxs-lookup"><span data-stu-id="8635b-120">How do I identify which accounts do not match my balances?</span></span>
 
-<span data-ttu-id="f3505-115">[![saugos ekranas](./media/FR-FAQ_security.jpg)](./media/FR-FAQ_security.jpg)</span><span class="sxs-lookup"><span data-stu-id="f3505-115">[![security screen](./media/FR-FAQ_security.jpg)](./media/FR-FAQ_security.jpg)</span></span>
+<span data-ttu-id="8635b-121">Jei turite ataskaitą, kurioje nėra atitinkančių balansų, štai keli veiksmai, kuriuos galite atlikti norėdami nustatyti kiekvieną sąskaitą ir nukrypimą.</span><span class="sxs-lookup"><span data-stu-id="8635b-121">If you have a report that doesn't have matching balances, here are some steps you can take to identify each of the accounts and variances.</span></span> 
 
-  <span data-ttu-id="f3505-116">b.</span><span class="sxs-lookup"><span data-stu-id="f3505-116">b.</span></span>    <span data-ttu-id="f3505-117">Spustelėkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="f3505-117">Click **Save**.</span></span>
-  
-<span data-ttu-id="f3505-118">[![įrašymo mygtukas](./media/FR-FAQ_save.png)](./media/FR-FAQ_save.png)</span><span class="sxs-lookup"><span data-stu-id="f3505-118">[![save button](./media/FR-FAQ_save.png)](./media/FR-FAQ_save.png)</span></span>
+<span data-ttu-id="8635b-122">**„Financial Reporter Report Designer“**</span><span class="sxs-lookup"><span data-stu-id="8635b-122">**Financial Reporter Report Designer**</span></span>
+1. <span data-ttu-id="8635b-123">Naudodami „Financial Reporter Report Designer“, sukurkite naują eilutės aprašą.</span><span class="sxs-lookup"><span data-stu-id="8635b-123">In Financial Reporter Report Designer, create a new row definition.</span></span> 
+2. <span data-ttu-id="8635b-124">Pasirinkite **Redaguoti > Įterpti eilutes iš dimensijų**.</span><span class="sxs-lookup"><span data-stu-id="8635b-124">Select **Edit > Insert Rows from Dimensions**.</span></span>
+3. <span data-ttu-id="8635b-125">Pasirinkite **Pagrindinė sąskaita**.</span><span class="sxs-lookup"><span data-stu-id="8635b-125">Select **MainAccount**.</span></span>  
+4. <span data-ttu-id="8635b-126">Pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="8635b-126">Select **OK**.</span></span>
+5. <span data-ttu-id="8635b-127">Įrašykite eilutės aprašą.</span><span class="sxs-lookup"><span data-stu-id="8635b-127">Save the row definition.</span></span>
+6. <span data-ttu-id="8635b-128">Sukurkite naują eilutės aprašą</span><span class="sxs-lookup"><span data-stu-id="8635b-128">Create a new column definition</span></span>
+7. <span data-ttu-id="8635b-129">Sukurkite naują ataskaitos aprašą.</span><span class="sxs-lookup"><span data-stu-id="8635b-129">Create a new report definition.</span></span>
+8. <span data-ttu-id="8635b-130">Pasirinkite **Parametrai** ir atžymėkite šią parinktį.</span><span class="sxs-lookup"><span data-stu-id="8635b-130">Select **Settings** and unmark this option.</span></span>  
+9. <span data-ttu-id="8635b-131">Generuokite ataskaitą.</span><span class="sxs-lookup"><span data-stu-id="8635b-131">Generate the report.</span></span> 
+10. <span data-ttu-id="8635b-132">Eksportuokite ataskaitą į „Microsoft Excel“.</span><span class="sxs-lookup"><span data-stu-id="8635b-132">Export the report to Microsoft Excel.</span></span>
 
-3.  <span data-ttu-id="f3505-119">Savo ataskaitos apraše įtraukite naują medžio aprašą</span><span class="sxs-lookup"><span data-stu-id="f3505-119">In your Report Definition add your new Tree Definition</span></span>
+<span data-ttu-id="8635b-133">**„Dynamics 365 Finance“**</span><span class="sxs-lookup"><span data-stu-id="8635b-133">**Dynamics 365 Finance**</span></span> 
+1. <span data-ttu-id="8635b-134">„Dynamics 365 Finance“ eikite į **Didžioji knyga > Užklausos ir ataskaitos > Bandomasis balansas**.</span><span class="sxs-lookup"><span data-stu-id="8635b-134">In Dynamics 365 Finance, go to **General Ledger > Inquiries and Reports > Trial Balance**.</span></span>
+2. <span data-ttu-id="8635b-135">Nustatykite šiuos parametrus:</span><span class="sxs-lookup"><span data-stu-id="8635b-135">Set the following parameters:</span></span>
+   - <span data-ttu-id="8635b-136">**Pradžios data** – įveskite finansinių metų pradžią.</span><span class="sxs-lookup"><span data-stu-id="8635b-136">**From Date** - Enter the start of the fiscal year.</span></span>
+   - <span data-ttu-id="8635b-137">**Pabaigos data** – įveskite datą, kuriai generuojate ataskaitą.</span><span class="sxs-lookup"><span data-stu-id="8635b-137">**To Date** - Enter the date you are generating the report for.</span></span>
+   - <span data-ttu-id="8635b-138">**Finansinė dimensija** – nustatykite šį lauką kaip **Pagrindinė sąskaita nustatyta**.</span><span class="sxs-lookup"><span data-stu-id="8635b-138">**Financial Dimension** - Set this field to **Main Account set**.</span></span>
+ 3. <span data-ttu-id="8635b-139">Pasirinkite **Skaičiuoti**.</span><span class="sxs-lookup"><span data-stu-id="8635b-139">Select **Calculate**.</span></span>
+ 4. <span data-ttu-id="8635b-140">Eksportuokite ataskaitą į „Microsoft Excel“.</span><span class="sxs-lookup"><span data-stu-id="8635b-140">Export the report to Microsoft Excel.</span></span>
 
-<span data-ttu-id="f3505-120">[![medžio aprašo forma](./media/FR-FAQ_tree-definition.jpg)](./media/FR-FAQ_tree-definition.jpg)</span><span class="sxs-lookup"><span data-stu-id="f3505-120">[![tree definition form](./media/FR-FAQ_tree-definition.jpg)](./media/FR-FAQ_tree-definition.jpg)</span></span>
-
-<span data-ttu-id="f3505-121">A.</span><span class="sxs-lookup"><span data-stu-id="f3505-121">A.</span></span>  <span data-ttu-id="f3505-122">Medžio apraše spustelėkite Parametras ir dalyje Ataskaitos vieneto pasirinkimas pažymėkite Įtraukti visus vienetus</span><span class="sxs-lookup"><span data-stu-id="f3505-122">While in the Tree Definition click on Setting and under “Reporting unit selection” check “Include all units”</span></span>
-
-<span data-ttu-id="f3505-123">[![ataskaitos vieneto pasirinkimo forma](./media/FR-FAQ_reporting-unit-selection.jpg)](./media/FR-FAQ_reporting-unit-selection.jpg)</span><span class="sxs-lookup"><span data-stu-id="f3505-123">[![reporting unit selection form](./media/FR-FAQ_reporting-unit-selection.jpg)](./media/FR-FAQ_reporting-unit-selection.jpg)</span></span>
-
-<span data-ttu-id="f3505-124">**Prieš:** [![ekrano nuotrauka](./media/FR-FAQ_before.png)](./media/FR-FAQ_before.png)</span><span class="sxs-lookup"><span data-stu-id="f3505-124">**Before:** [![before screenshot](./media/FR-FAQ_before.png)](./media/FR-FAQ_before.png)</span></span>
-
-<span data-ttu-id="f3505-125">**Po:** [![ekrano nuotrauka](./media/FR-FAQ_after.png)](./media/FR-FAQ_after.png)</span><span class="sxs-lookup"><span data-stu-id="f3505-125">**After:** [![after screenshot](./media/FR-FAQ_after.png)](./media/FR-FAQ_after.png)</span></span>
-
-<span data-ttu-id="f3505-126">Pastaba: pirmiau pateikto pranešimo priežastis ta, kad mano vartotojas neturi prieigos prie šios ataskaitos pritaikius vieneto saugą</span><span class="sxs-lookup"><span data-stu-id="f3505-126">Note: Reason for the above message is my user does not have access to that report after applying Unit Security</span></span>
-
-
-
-## <a name="how-do-i-determine-which-accounts-do-not-matching-my-balances-in-d365"></a><span data-ttu-id="f3505-127">Kaip nustatyti, kurios sąskaitos neatitinka mano balansų D365?</span><span class="sxs-lookup"><span data-stu-id="f3505-127">How do I determine which account(s) do not matching my balances in D365?</span></span>
-
-<span data-ttu-id="f3505-128">Kai turite ataskaitą, kuri neatitinka to, ko tikitės iš D365, štai keli veiksmai, kuriuos galite atlikti norėdami nustatyti šias sąskaitas ir nukrypimus.</span><span class="sxs-lookup"><span data-stu-id="f3505-128">When you have a report that doesn't match what you would expect in D365, here are some steps you could take to identify those accounts and the variances.</span></span> 
-
-### <a name="in-financial-reporter-report-designer"></a><span data-ttu-id="f3505-129">Naudodami finansinių ataskaitų rengėjų ataskaitų dizaino įrankį</span><span class="sxs-lookup"><span data-stu-id="f3505-129">In Financial Reporter Report Designer</span></span>
-
-1.  <span data-ttu-id="f3505-130">Sukurkite naują eilutės aprašą a.</span><span class="sxs-lookup"><span data-stu-id="f3505-130">Create a new Row Definition a.</span></span>    <span data-ttu-id="f3505-131">Spustelėkite Redaguoti | Įterpti eilutes iš dimensijų i.</span><span class="sxs-lookup"><span data-stu-id="f3505-131">Click Edit | Insert Rows from Dimensions i.</span></span>  <span data-ttu-id="f3505-132">Pasirinkite MainAccount [![Pasirinkite Pagrindinis ekranas_](./media/FR-FAQ_selectmain_.png)](./media/FR-FAQ_selectmain_.png)</span><span class="sxs-lookup"><span data-stu-id="f3505-132">Select MainAccount [![Select Main screen_](./media/FR-FAQ_selectmain_.png)](./media/FR-FAQ_selectmain_.png)</span></span>
-    
-    <span data-ttu-id="f3505-133">ii.</span><span class="sxs-lookup"><span data-stu-id="f3505-133">ii.</span></span> <span data-ttu-id="f3505-134">Spustelėkite Gerai b.</span><span class="sxs-lookup"><span data-stu-id="f3505-134">Click Ok b.</span></span>    <span data-ttu-id="f3505-135">Eilutės aprašo įrašymas</span><span class="sxs-lookup"><span data-stu-id="f3505-135">Save the Row Definition</span></span>
-
-2.  <span data-ttu-id="f3505-136">Naujo stulpelio aprašo kūrimas [![Naujo stulpelio aprašo kūrimas](./media/FR-FAQ_column.png)](./media/FR-FAQ_column.png)</span><span class="sxs-lookup"><span data-stu-id="f3505-136">Create a new Column Definition     [![Create a new column definition](./media/FR-FAQ_column.png)](./media/FR-FAQ_column.png)</span></span>
-
-3.  <span data-ttu-id="f3505-137">Sukurkite naują ataskaitos aprašą a.</span><span class="sxs-lookup"><span data-stu-id="f3505-137">Create a new Report Definition a.</span></span>    <span data-ttu-id="f3505-138">Spustelėkite Parametrai ir atžymėkite [![formą Parametrai](./media/FR-FAQ_settings.png)](./media/FR-FAQ_settings.png)</span><span class="sxs-lookup"><span data-stu-id="f3505-138">Click Settings and uncheck [![Settings form](./media/FR-FAQ_settings.png)](./media/FR-FAQ_settings.png)</span></span>
-   
-4.  <span data-ttu-id="f3505-139">Generuokite ataskaitą.</span><span class="sxs-lookup"><span data-stu-id="f3505-139">Generate the Report.</span></span> 
-
-5.  <span data-ttu-id="f3505-140">Eksportuokite ataskaitą į „Excel“.</span><span class="sxs-lookup"><span data-stu-id="f3505-140">Export the Report to Excel.</span></span>
-
-### <a name="in-d365"></a><span data-ttu-id="f3505-141">Naudodami D365:</span><span class="sxs-lookup"><span data-stu-id="f3505-141">In D365:</span></span> 
-1.  <span data-ttu-id="f3505-142">Spustelėkite DK | Užklausos ir ataskaitos | Bandomasis balansas a.</span><span class="sxs-lookup"><span data-stu-id="f3505-142">Click General Ledger | Inquiries and Reports | Trial Balance a.</span></span>    <span data-ttu-id="f3505-143">Parametrai i.</span><span class="sxs-lookup"><span data-stu-id="f3505-143">Parameters i.</span></span>  <span data-ttu-id="f3505-144">Pradžios data: finansinių metų pradžia ii.</span><span class="sxs-lookup"><span data-stu-id="f3505-144">From Date: Start of Fiscal Year ii.</span></span> <span data-ttu-id="f3505-145">Pabaigos data: data, kuriai sugeneravote ataskaitą iii.</span><span class="sxs-lookup"><span data-stu-id="f3505-145">To Date: Date you generated the report for iii.</span></span>    <span data-ttu-id="f3505-146">Finansinių dimensijų rinkinys „Pagrindinės sąskaitos rinkinys“ [![Pagrindinės sąskaitos forma](./media/FR-FAQ_mainacct.png)](./media/FR-FAQ_mainacct.png)</span><span class="sxs-lookup"><span data-stu-id="f3505-146">Financial Dimension Set “Main Account set” [![Main Account Form](./media/FR-FAQ_mainacct.png)](./media/FR-FAQ_mainacct.png)</span></span>
-      
-  <span data-ttu-id="f3505-147">b.</span><span class="sxs-lookup"><span data-stu-id="f3505-147">b.</span></span>    <span data-ttu-id="f3505-148">Spustelėkite Skaičiuoti</span><span class="sxs-lookup"><span data-stu-id="f3505-148">Click Calculate</span></span>
-
-2.  <span data-ttu-id="f3505-149">Ataskaitos eksportavimas į „Excel“</span><span class="sxs-lookup"><span data-stu-id="f3505-149">Export the report to Excel</span></span>
-
-<span data-ttu-id="f3505-150">Dabar turėtų būti galima kopijuoti duomenis iš FR „Excel“ ataskaitos į D365 bandomojo balanso ataskaitą ir palyginti uždarymo balanso stulpelius.</span><span class="sxs-lookup"><span data-stu-id="f3505-150">You should now be able to copy the data from the FR Excel Report and to the D365 Trial Balance report and compare the “Closing Balance” columns.</span></span>
-
+<span data-ttu-id="8635b-141">Dabar turėtų būti galima kopijuoti duomenis iš finansinių ataskaitų rengėjų „Excel“ ataskaitos į bandomojo balanso ataskaitą, kad galėtumėte palyginti **uždarymo balanso** stulpelius.</span><span class="sxs-lookup"><span data-stu-id="8635b-141">You should now be able to copy the data from the Financial Reporter Excel report to the Trial Balance report, so you can compare the **Closing Balance** columns.</span></span>
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

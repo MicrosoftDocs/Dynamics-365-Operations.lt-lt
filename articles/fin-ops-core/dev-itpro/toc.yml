@@ -14,12 +14,12 @@
               items:
                 - name: Kas nauja ar pasikeitė „Platform“ naujinimuose pagrindinis puslapis
                   href: get-started/whats-new-home-page.md
+                - name: "„Platform“ naujinimai, skirti 10.0.19 (2021\_m. liepos mėn.)"
+                  href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: "„Platform“ naujinimai, skirti 10.0.18 (2021\_m. gegužės mėn.)"
                   href: get-started/whats-new-platform-updates-10-0-18.md
                 - name: '„Platform“ naujinimai, skirti 10.0.17 (2021 m. balandžio mėn.)'
                   href: get-started/whats-new-platform-updates-10-0-17.md
-                - name: "„Platform“ naujinimai, skirti 10.0.16 (2021\_m. vasario mėn.)"
-                  href: get-started/whats-new-platform-updates-10-0-16.md
             - name: Pašalintos arba nebenaudojamos funkcijos
               items:
                 - name: Pašalintų arba nebenaudojamų funkcijų pagrindinis puslapis
@@ -303,19 +303,19 @@
                         - name: „Project Service Automation“ integravimo konfigūravimas
                           items:
                             - name: „Project Service Automation“ apžvalga
-                              href: ../../finance/project-management/PSA-integration.md
+                              href: /dynamics365/project-operations/prod-pma/PSA-integration
                             - name: „Project Service Automation“ integravimo parametrai
-                              href: ../../finance/project-management/PSA-parameters.md
+                              href: /dynamics365/project-operations/prod-pma/PSA-parameters
                             - name: Projektų sutarčių ir projektų sinchronizavimas
-                              href: ../../finance/project-management/project-contracts-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-contracts-templates
                             - name: Projektų užduočių sinchronizavimas
-                              href: ../../finance/project-management/project-tasks-template.md
+                              href: /dynamics365/project-operations/prod-pma/project-tasks-template
                             - name: Projektų išlaidų kategorijų sinchronizavimas
-                              href: ../../finance/project-management/project-categories-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-categories-templates
                             - name: Projekto įvertinimų sinchronizavimas su projekto prognozėmis
-                              href: ../../finance/project-management/project-estimates-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-estimates-templates
                             - name: Projekto faktinių duomenų sinchronizavimas su projekto integravimo žurnalu
-                              href: ../../finance/project-management/project-actuals-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-actuals-templates
             - name: Išorinių žiniatinklio tarnybų naudojimas
               href: data-entities/consume-external-web-service.md
             - name: Elektroniniai pranešimai
@@ -691,7 +691,7 @@
                     - name: Modelių ir duomenų modelio elementų kūrimo apžvalga
                       href: dev-tools/create-data-model-elements.md
                     - name: Plėtinių pavadinimų suteikimo gairės
-                      href: extensibility/NamingGuidelines.md
+                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
                     - name: Modelių tinkinimo ir nebenaudojimo funkcijų išjungimas
                       href: dev-tools/lock-models.md
                 - name: Pritaikymo analizės ataskaita​
@@ -1072,8 +1072,6 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: Kas nauja ar pasikeitė „Lifecycle Services”
                   href: lifecycle-services/whats-new-lcs.md
-                - name: Žinomos problemos
-                  href: lifecycle-services/known-issues.md
                 - name: Pašalintos arba nebenaudojamos „Lifecycle Services” (LCS) funkcijos
                   href: lifecycle-services/removed-deprecated-features.md
             - name: „Lifecycle Services“ vartotojo vadovas
@@ -1400,12 +1398,16 @@
               href: perf-test/rsat/rsat-install-configure.md
             - name: „Regression Suite Automation Tool“ naudojimas
               href: perf-test/rsat/rsat-run.md
+            - name: Bandymo atvejų priežiūra „Regression Suite Automation Tool“
+              href: perf-test/rsat/rsat-maintain-test-cases.md
             - name: Numatomų verčių tikrinimas
               href: perf-test/rsat/rsat-validate-expected.md
             - name: Grandinės bandymo atvejai
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Išvestiniai bandymo atvejai
               href: perf-test/rsat/rsat-derived-test-cases.md
+            - name: Parametrų failų atnaujinimas
+              href: perf-test/rsat/rsat-upgrade-parameter-files.md
             - name: „Regression Suite Automation Tool“ mokymo programa
               href: perf-test/rsat/rsat-tutorial.md
             - name: Ne administratoriaus vartotojų konfigūravimas
@@ -1582,6 +1584,8 @@
                   href: migration-upgrade/prepare-data-upgrade.md
                 - name: AX 2012 versijos naujinimas – duomenų plėtojimas smėlio dėžės aplinkose vykdant DACPAC procesą
                   href: migration-upgrade/upgrade-data-sandbox-dacpac.md
+                - name: Naujinimas iš AX 2012 versijos – SQL operacijų kopijavimas
+                  href: database/replication-setup.md
                 - name: AX 2012 versijos naujinimas – duomenų plėtojimas smėlio dėžės aplinkose
                   href: migration-upgrade/upgrade-data-sandbox.md
                 - name: AX 2012 versijos naujinimas – vietinės aplinkos
