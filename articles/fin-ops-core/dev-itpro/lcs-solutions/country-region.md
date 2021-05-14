@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95989a395781e790da6aedc9079c3aaebf98f9ae
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b3e7ba3405b6113bf612c685c4cccd9cf50f1187
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748470"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920862"
 ---
 # <a name="globalization-resources"></a>Globalizacijos ištekliai
 
 ## <a name="local-and-regional-deployments"></a>Vietinis ir regioninis visuotinis diegimas
 Jeigu jūsų vyriausybės reglamentuose reikalaujama, kad duomenys būtų saugomi skirtingai nei kitose šalyse / regionuose, diegiant jums gali tekti atsižvelgti į šalies / regiono reikalavimus. Jums gali praversti šie ištekliai:
 
-[„Finance and Operations“ programos, valdomos „21Vianet“ Kinijoje](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[„Finance and Operations“ programos, valdomos „21Vianet“ Kinijoje](../deployment/china-local-deployment.md)
 
 ## <a name="localization-and-regulatory-features"></a>Lokalizavimo ir reguliavimo priemonės​
 
@@ -60,7 +60,7 @@ Tolesniuose ištekliuose pateikiama informacijos apie planuojamas ir naujas loka
 -   [Įspėjimų apie šalims / regionams skirtas reglamentavimo funkcijas pateikimas](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>„Dynamics 365“ leidimo planai
-[„Dynamics 365“ leidimo planuose](https://docs.microsoft.com/business-applications-release-notes/) pateikiami naujų ir patobulintų verslo programų ir programų platformos galimybių, numatytų „Dynamics 365“, aprašymai. 
+[„Dynamics 365“ leidimo planuose](/business-applications-release-notes/) pateikiami naujų ir patobulintų verslo programų ir programų platformos galimybių, numatytų „Dynamics 365“, aprašymai. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Kas nauja „Finance and Operations“ programose
 [Kas nauja ar pasikeitė „Finance and Operations“ pagrindiniame puslapyje](../../fin-ops/get-started/whats-new-changed.md) pateikiamos funkcijos, įtrauktos į konkrečius „Finance and Operations“ programų leidimus.

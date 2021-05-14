@@ -14,78 +14,57 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a0718db77399901acc8c88278c5b373b77b3cb16
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 023354b0e2973f63411bf81cbeb0344333c49112
+ms.sourcegitcommit: d63e7e0593084a61362a6cad3937b1fd956c384f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811315"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923030"
 ---
 # <a name="financial-reporting-faq"></a>DUK apie finansines ataskaitas 
 
-Šioje temoje pateikiami klausimai, susiję su finansinėmis ataskaitomis, kurias turėjo kiti vartotojai. 
-
+Šioje temoje pateikiami atsakymai į dažnai užduodamus klausimus apie finansines ataskaitas. 
 
 ## <a name="how-do-i-restrict-access-to-a-report-using-tree-security"></a>Kaip apriboti prieigą prie ataskaitos naudojant medžio saugą?
 
-Scenarijus: USMF demonstracinė įmonė turi balanso ataskaitą ir nenori, kad visi finansinių ataskaitų vartotojai galėtų peržiūrėti naudodami D365. Sprendimas: galite naudoti medžio saugą, kad apribotumėte prieigą prie vienos ataskaitos, kad tik tam tikri vartotojai galėtų pasiekti ataskaitą. 
+Toliau pateikiamu pavyzdžiu nurodoma, kaip apriboti prieigą prie ataskaitos naudojant medžio saugą.
 
-1.  Prisijunkite prie finansinių ataskaitų rengėjų ataskaitų dizaino įrankio
+Demonstracinė įmonė USMF turi balanso ataskaitą, prie kurios ne visi finansinių ataskaitų vartotojai turi turėti prieigą. Norėdami apriboti prieigą galite naudoti medžio saugą, kad apribotumėte prieigą prie vienos ataskaitos ir tik tam tikri vartotojai galėtų pasiekti ataskaitą. Norėdami apriboti prieigą, atlikite šiuos veiksmus: 
 
-2.  Sukurkite naują medžio apibrėžimą (Failas | Naujas | Medžio aprašas) a.    Dukart spustelėkite eilutę **Suvestinė** stulpelyje **Vieneto sauga**.
-  i.    Spustelėkite Vartotojai ir grupės.  
-          1. Pasirinkite vartotojus ar grupę, kuri galės pasiekti šią ataskaitą. 
-          
-[![vartotojo ekranas](./media/FR-FAQ_users.png)](./media/FR-FAQ_users.png)
+1. Prisijunkite prie „Financial Reporter Report Designer“.
+2. Sukurkite naują medžio aprašą. Eikite į **Failas > Naujas > Medžio aprašas**.
+3. Dukart spustelėkite eilutę **Suvestinė** stulpelyje **Vieneto sauga**.
+4. Pasirinkite **Vartotojai ir grupės**.  
+5. Pasirinkite vartotojus ar grupes, kuriems reikalinga prieiga prie ataskaitos. 
+6. Pasirinkite **Įrašyti**.
+7. Į ataskaitos aprašą įtraukite naują medžio aprašą.
+8. Medžio apraše pasirinkite **Parametras**. Dalyje **Ataskaitos vieneto pasirinkimas** pasirinkite **Įtraukti visus vienetus**.
 
-[![saugos ekranas](./media/FR-FAQ_security.jpg)](./media/FR-FAQ_security.jpg)
+## <a name="how-do-i-identify-which-accounts-do-not-match-my-balances"></a>Kaip nustatyti, kurios sąskaitos neatitinka mano balansų?
 
-  b.    Spustelėkite **Įrašyti**.
-  
-[![įrašymo mygtukas](./media/FR-FAQ_save.png)](./media/FR-FAQ_save.png)
+Jei turite ataskaitą, kurioje nėra atitinkančių balansų, štai keli veiksmai, kuriuos galite atlikti norėdami nustatyti kiekvieną sąskaitą ir nukrypimą. 
 
-3.  Savo ataskaitos apraše įtraukite naują medžio aprašą
+**„Financial Reporter Report Designer“**
+1. Naudodami „Financial Reporter Report Designer“, sukurkite naują eilutės aprašą. 
+2. Pasirinkite **Redaguoti > Įterpti eilutes iš dimensijų**.
+3. Pasirinkite **Pagrindinė sąskaita**.  
+4. Pasirinkite **Gerai**.
+5. Įrašykite eilutės aprašą.
+6. Sukurkite naują eilutės aprašą
+7. Sukurkite naują ataskaitos aprašą.
+8. Pasirinkite **Parametrai** ir atžymėkite šią parinktį.  
+9. Generuokite ataskaitą. 
+10. Eksportuokite ataskaitą į „Microsoft Excel“.
 
-[![medžio aprašo forma](./media/FR-FAQ_tree-definition.jpg)](./media/FR-FAQ_tree-definition.jpg)
+**„Dynamics 365 Finance“** 
+1. „Dynamics 365 Finance“ eikite į **Didžioji knyga > Užklausos ir ataskaitos > Bandomasis balansas**.
+2. Nustatykite šiuos parametrus:
+   - **Pradžios data** – įveskite finansinių metų pradžią.
+   - **Pabaigos data** – įveskite datą, kuriai generuojate ataskaitą.
+   - **Finansinė dimensija** – nustatykite šį lauką kaip **Pagrindinė sąskaita nustatyta**.
+ 3. Pasirinkite **Skaičiuoti**.
+ 4. Eksportuokite ataskaitą į „Microsoft Excel“.
 
-A.  Medžio apraše spustelėkite Parametras ir dalyje Ataskaitos vieneto pasirinkimas pažymėkite Įtraukti visus vienetus
-
-[![ataskaitos vieneto pasirinkimo forma](./media/FR-FAQ_reporting-unit-selection.jpg)](./media/FR-FAQ_reporting-unit-selection.jpg)
-
-**Prieš:** [![ekrano nuotrauka](./media/FR-FAQ_before.png)](./media/FR-FAQ_before.png)
-
-**Po:** [![ekrano nuotrauka](./media/FR-FAQ_after.png)](./media/FR-FAQ_after.png)
-
-Pastaba: pirmiau pateikto pranešimo priežastis ta, kad mano vartotojas neturi prieigos prie šios ataskaitos pritaikius vieneto saugą
-
-
-
-## <a name="how-do-i-determine-which-accounts-do-not-matching-my-balances-in-d365"></a>Kaip nustatyti, kurios sąskaitos neatitinka mano balansų D365?
-
-Kai turite ataskaitą, kuri neatitinka to, ko tikitės iš D365, štai keli veiksmai, kuriuos galite atlikti norėdami nustatyti šias sąskaitas ir nukrypimus. 
-
-### <a name="in-financial-reporter-report-designer"></a>Naudodami finansinių ataskaitų rengėjų ataskaitų dizaino įrankį
-
-1.  Sukurkite naują eilutės aprašą a.    Spustelėkite Redaguoti | Įterpti eilutes iš dimensijų i.  Pasirinkite MainAccount [![Pasirinkite Pagrindinis ekranas_](./media/FR-FAQ_selectmain_.png)](./media/FR-FAQ_selectmain_.png)
-    
-    ii. Spustelėkite Gerai b.    Eilutės aprašo įrašymas
-
-2.  Naujo stulpelio aprašo kūrimas [![Naujo stulpelio aprašo kūrimas](./media/FR-FAQ_column.png)](./media/FR-FAQ_column.png)
-
-3.  Sukurkite naują ataskaitos aprašą a.    Spustelėkite Parametrai ir atžymėkite [![formą Parametrai](./media/FR-FAQ_settings.png)](./media/FR-FAQ_settings.png)
-   
-4.  Generuokite ataskaitą. 
-
-5.  Eksportuokite ataskaitą į „Excel“.
-
-### <a name="in-d365"></a>Naudodami D365: 
-1.  Spustelėkite DK | Užklausos ir ataskaitos | Bandomasis balansas a.    Parametrai i.  Pradžios data: finansinių metų pradžia ii. Pabaigos data: data, kuriai sugeneravote ataskaitą iii.    Finansinių dimensijų rinkinys „Pagrindinės sąskaitos rinkinys“ [![Pagrindinės sąskaitos forma](./media/FR-FAQ_mainacct.png)](./media/FR-FAQ_mainacct.png)
-      
-  b.    Spustelėkite Skaičiuoti
-
-2.  Ataskaitos eksportavimas į „Excel“
-
-Dabar turėtų būti galima kopijuoti duomenis iš FR „Excel“ ataskaitos į D365 bandomojo balanso ataskaitą ir palyginti uždarymo balanso stulpelius.
-
+Dabar turėtų būti galima kopijuoti duomenis iš finansinių ataskaitų rengėjų „Excel“ ataskaitos į bandomojo balanso ataskaitą, kad galėtumėte palyginti **uždarymo balanso** stulpelius.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -94,12 +94,12 @@
                   items:
                     - name: Kas nauja ar pasikeitė „Commerce“ pagrindiniame puslapyje
                       href: get-started/whats-new-home-page.md
+                    - name: „Commerce 10.0.19“ (2021 m. liepos mėn.)
+                      href: get-started/whats-new-commerce-10-0-19.md
                     - name: „Commerce 10.0.18“ (2021 m. gegužės mėn.)
                       href: get-started/whats-new-commerce-10-0-18.md
                     - name: „Commerce 10.0.17“ (2021 m. balandžio mėn.)
                       href: get-started/whats-new-commerce-10-0-17.md
-                    - name: „Commerce 10.0.16“ (2021 m. vasario mėn.)
-                      href: get-started/whats-new-commerce-10-0-16.md
                 - name: Pašalintos arba nebenaudojamos funkcijos
                   items:
                     - name: Pašalintų arba nebenaudojamų funkcijų pagrindinis puslapis
@@ -184,6 +184,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
                 - name: Drobės programėlių įterpimas iš „Power Apps“
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
+                - name: Trečiosios šalies programų įdėjimas
+                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/commerce/toc.json
                 - name: Informacijos ieška naudojant peržvalgas
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
                 - name: Seanso datos keitimas
@@ -280,6 +282,8 @@
                   href: dev-itpro/secure-retail-cloud-pos.md
                 - name: „Retail Hardware Station“ konfigūravimas ir diegimas
                   href: retail-hardware-station-configuration-installation.md
+                - name: Masinis patvirtintų „Commerce“ savitarnos komponentų diegimas
+                  href: dev-itpro/Enhanced-Mass-Deployment.md
                 - name: Masinis senstelėjusių savitarnos komponentų diegimas
                   href: dev-itpro/retail-mass-deployment.md
                 - name: „Commerce“ komponentų įvykiai triktims diagnozuoti ir šalinti
@@ -368,9 +372,9 @@
                       href: pos-operations.md
                     - name: Tinkinto „Modern POS“ įrenginių aktyvinimas
                       href: dev-itpro/retail-POS-activation-changes.md
-                    - name: EKA prisijungimo „Azure Active Directory“ autentifikavimo įjungimas
+                    - name: EKA prisijungimo „Azure Active Directory“ autentifikavimo konfigūravimas
                       href: aad-pos-logon.md
-                    - name: Produktų ir klientų ieška EKA
+                    - name: Produktų ir klientų ieška elektroniniame kasos aparate
                       href: POS-search-improvements.md
                     - name: Produktų ir produkto variantų įvedant užsakymą ieška
                       href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/commerce/toc.json
@@ -634,6 +638,8 @@
                   href: tender_based_discounts.md
                 - name: Siuntimo nuolaidos apžvalga
                   href: retail-shipping-discount.md
+                - name: Dovanų su pirkimo skatinimais konfigūracija
+                  href: gift-with-purchase.md
                 - name: Kuponų nustatymas
                   href: retail-coupons.md
                 - name: Nuolaidų rodymas EKA
@@ -760,6 +766,8 @@
                   href: notifications-pos.md
                 - name: Tęstinumo programų pardavimas ir pardavimo užsakymų apdorojimas
                   href: tasks/use-continuity-program.md
+                - name: Klientų įregistravimo pranešimų elektroniniame kasos aparate (EKA) įjungimas
+                  href: enable-customer-check-in.md
             - name: Grąžinimai
               items:
                 - name: Susieti grąžinimai
@@ -922,6 +930,8 @@
                   href: manage-csp.md
                 - name: Žiniatinklio veiklos įvykių rinkimo atsisakymas
                   href: web-activity-opt-out.md
+                - name: Matavimo vieneto parametrų taikymas
+                  href: unit-of-measure.md
             - name: Svetainės turinio tvarkymas
               items:
                 - name: Turinio įtraukimo būdai
@@ -1092,6 +1102,8 @@
                       href: delivery-options-module.md
                     - name: Paėmimo informacijos modulis
                       href: pickup-info-module.md
+                    - name: Paėmimo įregistravimo modulis
+                      href: check-in-pickup-module.md
                     - name: Išsamios užsakymo informacijos modulis
                       href: order-confirmation-module.md
                     - name: Dovanų kortelės modulis
@@ -1194,6 +1206,8 @@
               href: store-performance-information.md
             - name: 'Naujumo, dažnumo ir piniginės (RFM) analizės nustatymas'
               href: set-up-rfm-analysis.md
+            - name: „Microsoft Clarity“ nustatymas „Dynamics 365 Commerce“
+              href: set-up-clarity.md
         - name: Globalizacija
           items:
             - name: „Commerce“ kanalo fiskalinės integracijos peržiūra
@@ -1202,6 +1216,14 @@
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
             - name: Vartotojo apibrėžti mažmeninės prekybos parduotuvių sertifikatų profiliai
               href: localizations/certificate-profiles-for-retail-stores.md
+            - name: Regulatory Configuration Service
+              items:
+                - name: „Regulatory Configuration Service“ apžvalga
+                  href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: „Regulatory Configuration Service“ – globalizacijos funkcijos
+                  href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
+                - name: ER konfigūracijų „Regulatory Configuration Service“ kūrimas ir nusiuntimas į bendrąją saugyklą
+                  href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
             - name: Austrija
               items:
                 - name: 'Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Austrijai'
@@ -2210,6 +2232,8 @@
                       href: e-commerce-extensibility/module-test-file.md
                     - name: Modulio props.autogenerated.ts failas
                       href: e-commerce-extensibility/module-props-autogenerated-ts-file.md
+                    - name: Modulio konfigūracijos iš anksto nustatytos parinktys
+                      href: e-commerce-extensibility/module-config-presets.md
                 - name: Modulių kūrimas
                   items:
                     - name: Naujo modulio kūrimas
@@ -2416,6 +2440,18 @@
                   href: dev-itpro/cart-view-handlers.md
                 - name: Pasirinktinių mygtukų įtraukimas į EKA antraštės juostą
                   href: dev-itpro/pos-header-bar.md
+                - name: EKA nepriklausomo paketo SDK
+                  items:
+                    - name: EKA plėtinio apžvalga
+                      href: dev-itpro/pos-extension/pos-extension-overview.md
+                    - name: Darbo su EKA plėtiniais pradžia
+                      href: dev-itpro/pos-extension/pos-extension-getting-started.md
+                    - name: EKA plėtinių paketo projekto kūrimas
+                      href: dev-itpro/pos-extension/create-pos-extension-package.md
+                    - name: „Modern POS“ plėtinio „appx“ failo kūrimas
+                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
+                    - name: EKA plėtinio derinimas
+                      href: dev-itpro/pos-extension/debug-pos-extension.md
             - name: „Hardware Station“ išplečiamumas
               items:
                 - name: „Hardware Station“ ir išplečiamumas

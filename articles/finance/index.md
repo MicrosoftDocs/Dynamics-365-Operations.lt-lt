@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fcd7be16d20d93adaa81e6183912c89be0a301d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 33c12fc47dc5781867ad6872a8be2a9ae1f28a2d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813488"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890334"
 ---
 # <a name="finance-home-page"></a>„Finance“ pagrindinis puslapis
 
@@ -38,11 +38,11 @@ Pasirinkite funkcijų sritį, apie kurią norite sužinoti daugiau.
         - [Kaštų apskaita](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [Išlaidų valdymas](expense-management/expense-management.md)
-        - [Finansinės ataskaitos](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
+        - [Išlaidų valdymas](/dynamics365/project-operations/prod-exp/expense-management)
+        - [Finansinės ataskaitos](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [Ilgalaikis turtas](fixed-assets/fixed-assets.md)
         - [Didžioji knyga ir finansinės ataskaitos](general-ledger/general-ledger.md) 
-        - [Projektų valdymas ir apskaita](project-management/overview-project-management-accounting.md)
+        - [Projektų valdymas ir apskaita](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [Viešasis sektorius](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -65,7 +65,7 @@ Peržiūrėkite mokomuosius vaizdo įrašus, kuriuos dabar galite rasti [„Micr
 
 ### <a name="countryregion-functionality"></a>Konkrečioms šalims / regionams skirtos funkcijos
 
-Šalių / regionų įstatymai turi įtakos mokesčių sąrankai ir kitoms finansų valdymo sritims. Norėdami sužinoti apie konkrečioms šalims / regionams skirtas funkcijas, žr. mūsų žinyno turinio skyrių [Lokalizavimo ir reguliavimo priemonės](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json).
+Šalių / regionų įstatymai turi įtakos mokesčių sąrankai ir kitoms finansų valdymo sritims. Norėdami sužinoti apie konkrečioms šalims / regionams skirtas funkcijas, žr. mūsų žinyno turinio skyrių [Lokalizavimo ir reguliavimo priemonės](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json).
 
 ### <a name="additional-content"></a>Papildomas turinys
 
@@ -73,6 +73,6 @@ Tiekimo grandinės valdymo funkcijos apima įsigijimo ir apmokėjimo proceso dal
 
 ## <a name="elearning-courses"></a>El. mokymosi kursai
 
-Internetinių kursų ir mokymų ieškokite [Dynamics 365 Finance, esančiame Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-finance&resource_type=learning%20path).
+Internetinių kursų ir mokymų ieškokite [Dynamics 365 Finance, esančiame Microsoft Learn](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

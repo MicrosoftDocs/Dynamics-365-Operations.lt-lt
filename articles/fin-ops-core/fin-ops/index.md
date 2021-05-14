@@ -2,7 +2,7 @@
 title: „Finance and Operations“ programos dokumentacija
 description: „Finance and Operations“ programų dokumentacija.
 author: robinarh
-ms.date: 07/25/2019
+ms.date: 04/13/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98b9b9e336af58f2223b8b8b47d9229d908c5616
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: be65f8c49d5a4fb87f7d859c1e012d53515ad073
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751831"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893503"
 ---
 # <a name="finance-and-operations-application-documentation"></a>„Finance and Operations“ programos dokumentacija
 
@@ -44,7 +44,7 @@ Didžioji šio turinio dalis taikoma ir susijusiems produktams: „Dynamics 365 
  <p><a href="get-started/purchase-on-premises.md">„Finance and Operations (on-premises)‟ pirkimas</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">Diegimo ciklas</a></h3>
-<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
+<p><a href="/dynamics365/fasttrack/">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Projekto parengimas</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Rengimasis įgyvendinimo pradžiai</a></p>
 
@@ -65,7 +65,7 @@ Didžioji šio turinio dalis taikoma ir susijusiems produktams: „Dynamics 365 
 <h3><a href="../dev-itpro/data-entities/integration-overview.md">Integravimas</a></h3>
 <p><a href="../dev-itpro/business-events/home-page.md">Verslo įvykiai</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">Duomenų objektai</a></p>
-<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Integravimas, naudojant „Microsoft Power Automate“</a></p>
+<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Integravimas naudojant „Microsoft Power Automate“</a></p>
 
 <h3><a href="../../finance/index.md">Finansų valdymas</a></h3>
 <p><a href="../../finance/accounts-payable/accounts-payable.md">Mokėtinos sumos</a></p>
@@ -76,7 +76,7 @@ Didžioji šio turinio dalis taikoma ir susijusiems produktams: „Dynamics 365 
 <p><a href="../../finance/cost-accounting/cost-accounting-home-page.md">Kaštų apskaita</a></p>
 <p><a href="../../finance/fixed-assets/fixed-assets.md">Ilgalaikis turtas</a></p>
 <p><a href="../../finance/general-ledger/general-ledger.md">Didžioji knyga</a></p>
-<p><a href="../../finance/project-management/overview-project-management-accounting.md">Projektų valdymas</a></p>
+<p><a href="/dynamics365/project-operations/prod-pma/overview-project-management-accounting">Projektų valdymas</a></p>
 <p><a href="../../finance/public-sector/public-sector-functionality.md">Viešasis sektorius</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Regioninės reguliavimo priemonės</a></p>
 
@@ -126,13 +126,13 @@ Didžioji šio turinio dalis taikoma ir susijusiems produktams: „Dynamics 365 
 </td>
 <td>
 <h3>Susiję produktai</h3>
-<h4><a href="../../retail/index.md">„Dynamics 365 Commerce“</a></h4>
-<p><a href="../../retail/call-center-functionality.md">Skambučių centras</p>
-<p><a href="../../retail/define-maintain-retail-channels.md">Kanalo nustatymas ir valdymas</p>
-<p><a href="../../retail/retail-peripherals-overview.md">MPOS ir „Cloud POS‟</p>
-<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">„Commerce“ kūrimas ir administravimas</p>
+<h4><a href="/dynamics365/commerce/">„Dynamics 365 Commerce“</a></h4>
+<p><a href="../../commerce/call-center-functionality.md">Skambučių centras</p>
+<p><a href="../../commerce/define-maintain-retail-channels.md">Kanalo nustatymas ir valdymas</p>
+<p><a href="../../commerce/retail-peripherals-overview.md">MPOS ir „Cloud POS‟</p>
+<p><a href="../../commerce/dev-itpro/dev-retail-home-page.md">„Commerce“ kūrimas ir administravimas</p>
 
-<h4><a href="../../human-resources/hr-welcome.md">„Dynamics 365 Human Resources“</a></h4>
+<h4><a href="/dynamics365/human-resources/">„Dynamics 365 Human Resources“</a></h4>
 <p><a href="../../human-resources/hr-admin-overview.md">Administratoriaus vadovas</a></p>
 <p><a href="../../human-resources/hr-developer-overview.md">Kūrėjo vadovas</a></p>
 <p><a href="../../human-resources/hr-hrpro-overview.md">Vartotojo vadovas</a></p>

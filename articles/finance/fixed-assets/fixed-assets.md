@@ -1,6 +1,6 @@
 ---
 title: Ilgalaikių išteklių pagrindinis puslapis
-description: Ilgalaikiai ištekliai yra vertingos prekės, pvz., pastatai, transporto priemonės, žemė bei įranga, priklausančios asmeniui ar organizacijai.
+description: Ilgalaikiai ištekliai yra vertingos prekės, priklausančios asmeniui ar organizacijai. Prekės apima pastatus, transporto priemones, žemės valdas ir įrangą.
 author: ShylaThompson
 ms.date: 08/31/2017
 ms.topic: index-page
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1825ee4617d14b421d4a7e6151d645a653a9fcbb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0356837b96fd21f763c9a60926ba1bc982cf2024
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815673"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897993"
 ---
 # <a name="fixed-assets-home-page"></a>Ilgalaikių išteklių pagrindinis puslapis
 
 [!include [banner](../includes/banner.md)]
 
-Ilgalaikiai ištekliai yra vertingos prekės, pvz., pastatai, transporto priemonės, žemė bei įranga, priklausančios asmeniui ar organizacijai. 
+Ilgalaikiai ištekliai yra vertingos prekės, priklausančios asmeniui ar organizacijai. Prekės apima pastatus, transporto priemones, žemės valdas ir įrangą. 
 
-Galite nustatyti ir įvesti ilgalaikių išteklių informaciją ir valdyti juos nudėvėdami bei nustatydami ribinę kapitalizacijos reikšmę nusidėvėjimui nustatyti. Galite skaičiuoti ilgalaikių išteklių koregavimus bei jo atsikratyti. Kai su ilgalaikiais ištekliais naudojate didžiąją knygą, galite peržiūrėti dabartinę visų ilgalaikių išteklių vertę. Ilgalaikių išteklių valdymas turi atitikti tiek tarptautinius apskaitos standartus, tiek ir apskaitos įstatymus kiekvienoje šalyje / regione. Į reikalavimus gali būti įtrauktos ilgalaikių išteklių gavimo įrašymo ir likvidavimo operacijų, nusidėvėjimo, naudojimo trukmės ir didinimų bei mažinimų taisyklės. Ilgalaikių išteklių funkcijose yra dauguma šių standartų ir taisyklių.
+Galite nustatyti ir įvesti ilgalaikių išteklių informaciją ir valdyti išteklius nudėvėdami bei nustatydami ribinę kapitalizacijos reikšmę nusidėvėjimui nustatyti. Galite skaičiuoti ilgalaikių išteklių koregavimus bei jo atsikratyti. Kai su ilgalaikiais ištekliais naudojate didžiąją knygą, galite peržiūrėti dabartinę visų ilgalaikių išteklių vertę. Ilgalaikių išteklių valdymas turi atitikti tiek tarptautinius apskaitos standartus, tiek ir apskaitos įstatymus kiekvienoje šalyje / regione. Į reikalavimus gali būti įtrauktos ilgalaikių išteklių gavimo įrašymo ir likvidavimo operacijų, nusidėvėjimo, naudojimo trukmės ir didinimų bei mažinimų taisyklės. Ilgalaikių išteklių funkcijose yra dauguma šių standartų ir taisyklių.
 
 [![Verslo procesas](./media/FA-process.PNG)](./media/FA-process.PNG)
 
@@ -38,7 +38,7 @@ Galite nustatyti ir įvesti ilgalaikių išteklių informaciją ir valdyti juos 
 
 #### <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
 
-Norėdami pamatyti, kokios naujos funkcijos suplanuotos, eikite į tinklalapį [„Microsoft Dynamics 365” leidimo planai](https://go.microsoft.com/fwlink/?linkid=2010158). 
+Norėdami pamatyti, kokios naujos funkcijos suplanuotos, eikite į tinklalapį [„Microsoft Dynamics 365” leidimo planai](/dynamics365/release-plans/). 
 
 #### <a name="blogs"></a>Tinklaraščiai
 
