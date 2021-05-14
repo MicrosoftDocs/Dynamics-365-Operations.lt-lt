@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: rhaertle
 ms.search.region: Global
-ms.author: riluan
+ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: fcbede8b1a0a9a1dfcb9acbfd7cadb49eb48eecd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2c27f06524b91f91d95ef4b901740e7761232c28
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750695"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941114"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Įsigijimo tarp „Supply Chain Management” ir „Field Service” integracija
 
@@ -46,7 +46,7 @@ Norėdami integruoti „Supply Chain Management” su „Field Service”, turit
 ### <a name="prerequisites"></a>Būtinieji komponentai
 
 - **Dvigubas rašymas** – norėdami sužinoti daugiau žr. [Dvigubo rašymo pagrindinis puslapis](dual-write-home-page.md#dual-write-setup).
-- **„Dynamics 365 Field Service”** – Daugiau informacijos žr. [„Dynamics 365 Field Service” įdiegimas](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
+- **„Dynamics 365 Field Service”** – Daugiau informacijos žr. [„Dynamics 365 Field Service” įdiegimas](/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
 
 Kai jos yra įgalintos „Microsoft Dataverse”, dvigubo rašymo funkcija ir „Field Service” pateikia kelis sprendimų sluoksnius, praplečiančius aplinką naujais metaduomenimis, formomis, peržiūromis ir logika. Šie sprendimai gali būti įgalinti bet kokia tvarka, tačiau paprastai juos diegiate čia pateikiama tvarka:
 

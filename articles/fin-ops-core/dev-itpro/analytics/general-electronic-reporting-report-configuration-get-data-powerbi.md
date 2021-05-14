@@ -2,7 +2,7 @@
 title: Įrankio Elektroninės ataskaitos (ER) konfigūravimas duomenims perkelti į „Power BI“
 description: Šioje temoje paaiškinama, kaip galima naudoti elektroninio ataskaitų (ER) konfigūraciją, norint išdėstyti duomenų perkėlimą iš egzemplioriaus į „Power BI“ tarnybas.
 author: NickSelin
-ms.date: 06/20/2017
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8a53c1c3e1850dabc05a47df6d8cc785a13f6f86
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b37bc608b3b987016622d9cd0abc66e420025d26
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750087"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944442"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Įrankio Elektroninės ataskaitos (ER) konfigūravimas duomenims perkelti į „Power BI“
 
@@ -68,10 +68,10 @@ Norint įvykdyti šios temos pavyzdžio užduotis, reikia toliau nurodytų priei
 ## <a name="use-an-er-data-model-as-the-source-of-data"></a>ER duomenų modelio kaip duomenų šaltinio naudojimas
 ER duomenų modelis turi būti nustatytas kaip verslo duomenų, kurie bus naudojami „Power BI“ ataskaitose, šaltinis. Šis duomenų modelis įkeliamas iš ER konfigūracijų saugyklos. Daugiau informacijos žr. puslapyje [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](download-electronic-reporting-configuration-lcs.md) arba paleiskite užduočių vedlį **ER: konfigūracijos importavimas iš „Lifecycle Services‟**. Pasirinkite **Intrastat** kaip duomenų modelį, kuris bus įkeltas iš pasirinktos ER konfigūracijų saugyklos. (Šiame pavyzdyje naudojama 1 modelio versija.) **Intrastat** ER modelio konfigūraciją galite pasiekti puslapyje **Konfigūracijos**.
 
-[![Puslapis Konfigūracijos](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
+[![„Intrastat ER" modelio kofigūracija konfigūracijos puslapyje](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
 
 ## <a name="design-an-er-format-configuration"></a>ER formato konfigūracijos kūrimas
-Turite sukurti naują ER formato konfigūraciją, kuri **Intrastat** duomenų modelį naudoja kaip verslo duomenų šaltinį. Šio formato konfigūracija turi išvesties rezultatus generuoti kaip „OpenXML“ („Excel“ failo) formato elektroninius dokumentus. Norėdami gauti daugiau informacijos, paleiskite užduočių vedlį **ER: konfigūracijos, skirtos generuoti ataskaitas OPENXML formatu, kūrimas**. Naują konfigūraciją pavadinkite **Importavimo / eksportavimo veiklos**, kaip pavaizduota tolesnėje iliustracijoje. Kurdami ER formatą, naudokite „Excel“ failą [ER duomenys – importavimo ir eksportavimo informacija](https://go.microsoft.com/fwlink/?linkid=845208) kaip šabloną. (Norėdami daugiau informacijos apie tai, kaip importuoti formato šabloną, paleiskite užduočių vedlį).
+Turite sukurti naują ER formato konfigūraciją, kuri **Intrastat** duomenų modelį naudoja kaip verslo duomenų šaltinį. Šio formato konfigūracija turi išvesties rezultatus generuoti kaip „OpenXML“ („Excel“ failo) formato elektroninius dokumentus. Norėdami gauti daugiau informacijos, paleiskite užduočių vedlį **ER: konfigūracijos, skirtos generuoti ataskaitas OPENXML formatu, kūrimas**. Naują konfigūraciją pavadinkite **Importavimo / eksportavimo veiklos**, kaip pavaizduota tolesnėje iliustracijoje. Kurdami ER formatą, naudokite „Excel“ failą [ER duomenys – importavimo ir eksportavimo informacija](https://download.microsoft.com/download/f/7/5/f755c0fd-025c-4aa9-920b-909abb8302ad/ER-data-import-and-export-details.xlsx) kaip šabloną. (Norėdami daugiau informacijos apie tai, kaip importuoti formato šabloną, paleiskite užduočių vedlį).
 
 [![Importavimo / eksportavimo veiklų konfigūracija](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png)
 
@@ -126,7 +126,7 @@ Spustelėkite naujo paskirties vietos įrašo mygtuką **Parametrai**. Tada dial
 1. Puslapio **Konfigūracijos** (**Organizacijos administravimas** &gt; **Elektroninės ataskaitos** &gt; **Konfigūracijos**) konfigūracijų medyje pasirinkite anksčiau sukurtą konfigūraciją **Importavimo / eksportavimo veiklos**.
 2. Keisti 1.1 versijos būseną iš **Juodraštis** į **Baigta**, kad šį formatą būtų galima naudoti.
 
-    [![Puslapis Konfigūracijos](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
+    [![Importuoti/eksportuoti veiklos konfigūraciją konfigūracijos puslapyje](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
 
 3. Pasirinkite baigtą konfigūracijos **Importavimo / eksportavimo veiklos** versiją ir spustelėkite **Paleisti**. Atkreipkite dėmesį, kad sukonfigūruota paskirties vieta taikoma išeigos rezultatui, sugeneruotam „Excel“ formatu.
 4. Nustatykite parinktį **Paketinis vykdymas** į **Taip**, norėdami šią ataskaitą paleisti režimu be priežiūros.
@@ -187,7 +187,7 @@ Nustatykite integravimą su „Power BI“. Daugiau informacijos žr. [„Power 
 2. Pasirinkite sukurtą „Power BI“ ataskaitą **Importavimo ir eksportavimo informacija**, kad ta ataskaita pasirinktame puslapyje būtų rodoma kaip veiksmo elementas.
 3. Spustelėkite veiksmo elementą, norėdami atidaryti puslapį, kuriame rodoma ataskaita, sukurta naudojant „Power BI“.
 
-    [![Importavimo ir eksportavimo informacijos ataskaita](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
+    [![Importavimo ir eksportavimo informacijos ataskaita „Power BI“](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 3faffad2bff18278a54a26f77c1423f2246d086e
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: fd8c306dd6c3aeb7ef41b4eb3f6f8bad040035c2
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907968"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935610"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Kas nauja arba pasikeitė „Dynamics 365 Supply Chain Management” 10.0.17 versijoje (2021 m. balandžio mėn.)?
 
@@ -35,7 +35,7 @@ ms.locfileid: "5907968"
 
 Toliau nurodytos funkcijos yra įtrauktos į šį leidimą.  Norėdami peržiūrėti kiekvienos funkcijos oficialią leidimo datą, vadovaukitės saitais su [leidimų planu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features).
 
-Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis. Kai kurios išvardytos funkcijos gali būti vis dar yra peržiūros versijoje, tačiau dauguma jų dabar yra prieinamos bendrai.
+Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis.
 
 ### <a name="asset-management"></a>Turto valdymas
 
@@ -71,13 +71,13 @@ Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fi
 
 - [Turto valdymo gebėjimai gamybos vietos vykdymo sąsajai](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - Daugiau informacijos rasite [Gamybos cecho vykdymo sąsajos konfigūravimas](../production-control/production-floor-execution-configure.md).
 
-- Bendra užduočių ID numerių seka<br> - Daugiau informacijos rasite 
+- [Gamybos vykdymas naudojant skalės vienetus debesijoje](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - Daugiau informacijos, žr. [Gamybos vykdymo darbo krūviai debesijoje ir ribinės skalės vienetai](../cloud-edge/cloud-edge-workload-manufacturing.md).
 
 - [Numatytojo gamybos medžiagų rezervavimo principo nepaisymas](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - Daugiau informacijos žr. [Numatytojo medžiagų gamybos rezervavimo principo perrašymas](../production-control/override-default-reservation-principle.md).
 
 - [Gamybos kontrolės įrašyti rodiniai](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-production-control)<br> - Daugiau informacijos žr. [„Supply Chain Management” įprastiniai įrašyti rodiniai](saved-views-scm.md).
 
-- [Gamybos vykdymas naudojant skalės vienetus debesijoje](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - Daugiau informacijos, žr. [Gamybos vykdymo darbo krūviai debesijoje ir ribinės skalės vienetai](../cloud-edge/cloud-edge-workload-manufacturing.md).
+- Bendra užduočių ID numerių seka<br> - Daugiau informacijos rasite [Suvienodinta užduočių ID numeracija](../production-control/unified-job-ids.md).
 
 ### <a name="planning"></a>Planuojama
 

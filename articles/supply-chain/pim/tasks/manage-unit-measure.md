@@ -1,8 +1,8 @@
 ---
-title: Tvarkyti matavimo vienetą
-description: Ši procedūra nurodo, kaip apibrėžti matavimo vienetą, pateikti vieneto vertimus ir jo aprašą ir apibrėžti susijusių vienetų konvertavimo taisykles.
+title: Matavimo vienetų valdymas
+description: Ši tema aprašo, kaip apibrėžti matavimo vienetą, pateikti vieneto vertimus ir jo aprašą ir apibrėžti susijusių vienetų konvertavimo taisykles.
 author: sorenva
-ms.date: 07/08/2018
+ms.date: 04/09/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,53 +13,115 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 966e189e7395bec15d2c62735c6df3df2ab34b8a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d36839cd8e3398225d3421bf0f268068599ca49f
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817970"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921346"
 ---
-# <a name="manage-unit-of-measure"></a>Tvarkyti matavimo vienetą
+# <a name="manage-units-of-measure"></a>Matavimo vienetų valdymas
 
 [!include [banner](../../includes/banner.md)]
 
-Ši procedūra nurodo, kaip apibrėžti matavimo vienetą, pateikti vieneto vertimus ir jo aprašą ir apibrėžti susijusių vienetų konvertavimo taisykles. Šią procedūrą galite žingsnis po žingsnio atlikti naudodami demonstracinius duomenis arba savo pačių duomenis.
+Ši tema aprašo, kaip apibrėžti matavimo vienetą, pateikti vieneto vertimus ir jo aprašą ir apibrėžti susijusių vienetų konvertavimo taisykles.
 
-1. Eikite į **Naršymo sritis > Moduliai > Produkto informacijos valdymas > Patvirtinto produkto priežiūra**.
-2. Spustelėkite **Vienetai**.
+## <a name="open-the-units-page"></a>Atidarykite vienetų puslapį
 
-## <a name="create-a-unit-of-measure"></a>Kurti matavimo vienetą
-1. Spustelėkite **Naujas**.
-2. Lauke **Vienetas** įveskite reikšmę. Įveskite ID arba simbolį, naudojamą nurodant matavimo vienetą.  
-3. Lauke **Aprašymas įveskite** surinkite reikšmę. Įveskite matavimo vieneto aprašomąjį pavadinimą sistemos kalba.  
-4. Lauke **Vieneto klasė** pasirinkite parinktį. Vieneto klasė apibrėžia, kokiai loginei grupei, pvz., plotui, masei ar kiekiui, priklauso matavimo vienetas.  
-5. Lauke **Dešimtainis tikslumas** įveskite skaičių. Nurodykite dešimtainių dalių skaičių, iki kurio turi būti apvalinamas konvertuojamas matavimo vienetas atlikus skaičiavimą su šiuo matavimo vienetu.  
-6. Spustelėkite **Įrašyti**.
+Norėdami sukurti ir dirbti su jūsų sistemoje galimais matavimo vienetais, eikite į Organizacijos **administravimo \> vienetų \> nustatymo \>** vienetus.
+
+Likusiuose šios temos skyriuose aprašoma, ką galima padaryti **vienetų** puslapyje.
+
+## <a name="create-standard-units-and-conversions"></a>Standartinių vienetų ir konvertavimų kūrimas
+
+Jei jūsų sistemoje dar nėra dažniausiai naudojamų metrinės sistemos ir (arba) JAV įprastinio sistemos (USCS) matavimo vienetų, vieneto nustatymo vedlys gali padėti greitai pradėti pradedant nuo pagrindinių vienetų apibrėžimų ir konvertavimų. Norėdami užbaigti vedlį, veiksmų srityje pasirinkite Vienetų kūrimo vedlys, tada **vykdykite** ekrano instrukcijas.
+
+## <a name="create-or-edit-a-unit-of-measure"></a>Kurti ar redaguoti matavimo vienetą
+
+Norėdami kurti arba redaguoti matavimo vienetą, atlikite šiuos veiksmus.
+
+1. Atlikite vieną iš toliau nurodytų veiksmų.
+
+    - Norėdami redaguoti esamą vienetą, pasirinkite jį sąrašo srityje.
+    - Norėdami sukurti naują vienetą, pasirinkite **Nauja** veiksmų juostoje.
+
+1. Naujojo įrašo antraštėje nustatykite toliau pateiktus laukus:
+
+    - **Vienetas** – įveskite identifikatorių arba simbolį, naudotiį vienetą nurodyti sistemos kalba. Šis ID arba simbolis paprastai yra įprasta vieneto santrumpa, pvz., *kiekvienai* arba *centimetro* cm.
+    - **Aprašas** – Įveskite matavimo vieneto aprašomąjį pavadinimą sistemos kalba. Šis pavadinimas paprastai yra visas vieneto pavadinimas, pvz., *Kiekvienas* arba *Centimetras*.
+
+1. „FastTab“ **Bendra** nustatykite toliau pateikiamus laukus.<!-- KFM: confirm this:    - **Fixed unit assignment** and **Fixed unit** – These fields have an effect only if you're using the Microsoft Retail Essentials product. If the current unit can be mapped to one of the fixed units that are used by Retail Essentials, set the **Fixed unit assignment** option to *Yes*. Then select the fixed unit in the **Fixed unit** field. -->
+
+    - **Vieneto** klasė – pasirinkite vieneto matavimo ypatybę (pvz., ilgį, sritį, masę arba kiekį).
+    - **Vienetų sistema** – pasirinkite matavimo sistemą, kuriai priklauso vienetas (*Metriniai vienetai* arba *Jungtinių Valstijų pasirinktiniai* vienetai).
+    - **Pagrindinis** vienetas – nustatykite šią *pasirinktį kaip Taip* , jei norite dabartinį vienetą naudoti kaip pagrindinį vieneto klasės vienetą. Šiuo atveju vienetų klasėje turite nurodyti tik pagrindinio vieneto ir kiekvieno papildomo vieneto konvertavimo koeficientą. Sistema gali konvertuoti visus tos vieneto klasės vienetus. Todėl lengviau nustatyti konvertavimą.
+
+        Pavyzdžiui, jei galonas yra pagrindinis tūrio vieneto klasės vienetas, turite nustatyti tik konvertavimo koeficientus iš litro į galoną ir *iš* pinto į galoną. Sistema taip pat gali konvertuoti iš kvorto į pint.
+
+        Vienoje vieneto klasėje gali būti tik vienas pagrindinis vienetas.
+
+    - **Sistemos** vienetas – nustatykite šią *pasirinktį kaip Taip* , jei norite dabartinį vienetą naudoti kaip prisiimtus visus matavimus klasės vienete. Pavyzdžiui, jei laukas, kuris naudojamas kiekiui įvesti, neleidžia nurodyti vieneto (jei vartotojas nepasirinko vieneto), sistema naudoja vienetą, kuris nustatytas kaip kiekio vieneto klasės sistemos *vienetas*. Vienoje vieneto klasėje gali būti tik vienas sistemos vienetas.
+    - **Dešimtainis tikslumas – nurodykite dešimtainių dalių vietų, kurios yra nurodytos dabartiniam vienetui arba kurias reikia** apvalinti, skaičių.
+
+1. Veiksmų srityje pasirinkite **Įrašyti**.
 
 ## <a name="define-unit-translations"></a>Apibrėžti vieneto vertimus
-1. **Veiksmų srityje** spustelėkite **Vieneto tekstai**.
-2. Spustelėkite **Naujas**. Naudodami vieneto tekstą sukurkite matavimo vienetą reprezentuojančio ID arba simbolio vertimą, kuris bus naudojamas išoriniuose dokumentuose konkretaus kliento arba tiekėjo kalbomis.  
-3. Lauke **Kalba** įveskite arba pasirinkite reikšmę.
-4. Lauke **Tekstas** įveskite reikšmę.
-5. Spustelėkite **Įrašyti**.
-6. Uždarykite puslapį.
-7. **Veiksmų srityje** spustelėkite **Išversti vienetų aprašai**.
-8. Spustelėkite **Naujas**. Nurodykite matavimo vieneto aprašus konkrečia kalba.  
-9. Lauke **Kalba** įveskite arba pasirinkite reikšmę.
-10. Lauke **Aprašymas įveskite** surinkite reikšmę.
-11. Spustelėkite **Įrašyti**.
-12. Uždarykite puslapį.
+
+Norėdami nurodyti ID arba simbolio vertimus ir matavimo vieneto aprašymą, atlikite šiuos veiksmus.
+
+1. Sukurkite arba pasirinkite vienetą, į lauką kursite vertimus.
+1. Veiksmų srityje pasirinkite **Vieneto tekstai**.
+
+    Rodomas **puslapis** Vieneto tekstai. Šį puslapį naudojate pasirinkto vieneto ID arba simbolio vertimams nustatyti. Tada šiuos vertimus galima naudoti išoriniuose dokumentuose kliento ar tiekėjo kalba.
+
+1. Veiksmų srityje pasirinkite **Naujas**.
+1. **Kalba** – laukelyje pasirinkite kalbą norėdami išversti vieneto ID ar simbolį.
+1. Į **lauką** Tekstas įveskite vieneto ID arba simbolio vertimą pasirinkta kalba.
+1. Veiksmų srityje pasirinkite **Įrašyti**.
+1. Uždarykite puslapį.
+1. **Veiksmų srityje** pasirinkite **Išversti vienetų aprašai**.
+
+    Rodomas **išverstų vienetų** aprašų puslapis. Šį puslapį naudojate norėdami nustatyti pasirinkto vieneto aprašus konkrečia kalba.
+
+1. Veiksmų srityje pasirinkite **Naujas**.
+1. **Kalba** – laukelyje pasirinkite kalbą norėdami išversti vieneto ID ar aprašą.
+1. Į **Aprašą** Tekstas įveskite vieneto ID arba aprašo vertimą pasirinkta kalba.
+1. Veiksmų srityje pasirinkite **Įrašyti**.
+1. Uždarykite puslapį.
 
 ## <a name="define-unit-conversion-rules"></a>Apibrėžti vieneto konvertavimo taisykles
-1. **Veiksmų srityje** spustelėkite **Vienetų konvertavimas**. Apibrėžkite matavimo vieneto konvertavimo į ir iš kitų matavimo vienetų pasirinktoje vieneto klasėje taisykles.  
-2. Spustelėdami **Naujas** atidarykite išplečiamąjį dialogo langą.
-3. Lauke **Koeficientas** įveskite skaičių. Konvertavimo iš vienetų į vienetus koeficientas. Pvz., konvertavimo iš centimetrus į metrus koeficientas yra 100, nes vienas metras turi 100 centimetrų.  
-4. Lauke **Į vnt.** įveskite arba pasirinkite reikšmę.
-5. Lauke **Apvalinimas** pasirinkite parinktį. Apibrėžkite, kaip turi būti apvalinama konvertuota reikšmė.  
-6. Spustelėkite **Gerai**.
-7. Uždarykite puslapį.
 
+Norėdami nustatyti konvertavimo tarp matavimo vienetų taisykles, atlikite šiuos veiksmus.
 
+1. Sukurkite arba pasirinkite vienetą norėdami nustatyti vertimo taisykles.
+1. Veiksmų srityje pasirinkite **Vieneto pavertimas**.
+
+    Atidaromas puslapis **Vienetų konvertavimas**. Naudojate šį puslapį, kad nustatytumėte pasirinkto vieneto keitimą į ir iš kitų vienetų vieneto klasėje.
+
+1. Pasirinkite vieną iš šių skirtukų priklausomai nuo konvertavimo tipo, kurį norite nustatyti:
+
+    - **Standartiniai konvertavimai** – nustatyti standartines konvertavimo taisykles visiems produktams.
+    - **Konvertavimai klasės viduje** – nustatyti su konkrečiu produktu taikomas tos pačios vieneto klasės vienetų konvertavimo taisykles.
+    - **Konvertavimai klasės viduje** – nustatyti su konkrečiu produktu taikomas tos pačios vieneto klasės vienetų konvertavimo taisykles.
+
+1. Atlikite vieną iš toliau nurodytų veiksmų.
+
+    - Norėdami sukurti naują keitimą, pasirinkite **Nauja** įrankių juostoje.
+    - Norėdami redaguoti esamą konvertavimą, pasirinkite konvertavimą tinklelyje ir įrankių **juostoje** pasirinkite Redaguoti.
+
+1. Pasirodžiusiame iškritusiame teksto lange nustatykite tolesnius laukus:
+
+    - **Produktas** – pasirinkite konkretų produktą, kurį taikomas konvertavimas. Šis laukas galimas tik konvertavimams tarp klasių ir tarp klasių.
+    - **Formulės** maketas – palikti šį lauką nustatytą kaip *Paprastas,* kad būtų nurodytas paprastas konvertavimas, turintis vieną koeficientą. Norėdami nustatyti *sudėtingesnę* lygtį, nustatykite ją išplėstiniu nustatymu. Išplėstinių lygčių formatas skiriasi, atsižvelgiant į vieneto klasę.
+    - **Nuo vieneto** – šiame lauke rodomas pasirinktas vienetas. Paprastai vertės keisti nereikia. (Jei vertę pakeisite, turite atidaryti langą **Pasirinkto vieneto** vienetų konvertavimo puslapis, kuriame galite peržiūrėti naują konvertavimą jį įrašius.)
+    - **Į vienetą** – pasirinkite vienetą, į jį konvertuoti.
+    - **Apvalinimas** – pasirinkti, kaip apvalinti trupmenas, remiantis pasirinkto vieneto **Dešimtainio tikslumo** pasirinkto vieneto vertė (*Iki artimiausios*, *Aukštyn*, ar *Žemyn*).
+    - **Konvertavimo formulė – naudoti likusius laukus išplečiamojo dialogo lango viršuje, norint nurodyti dviejų** vienetų konvertavimo formulę. Galimi laukai skiriasi atsižvelgiant į pasirinktą vieneto klasę ir formulės maketą.
+
+1. Pasirinkite **Gerai**.
+1. Uždarykite puslapį.
+
+> [!TIP]
+> Taip pat galite nustatyti vieneto konvertavimą produkto variantui. Dėl išsamesnės informacijos, žr. [Produkto varianto matavimo vieneto konvertavimas](../uom-conversion-per-product-variant.md).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

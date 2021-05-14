@@ -2,7 +2,8 @@
 title: Nustatykite B2B el. komercijos saitą
 description: Šioje temoje aprašoma, kaip nustatyti verslo su verslu (B2B) el. komercijos saitą „Microsoft Dynamics 365 Commerce“.
 author: josaw1
-ms.date: 01/20/2021
+manager: AnnBe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +15,17 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3c6ea6118c3ba0ab77fea91b2eafa75c89b8d71d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: db33bf941303c6a74f9c6b2d5a782762f7180f1b
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799762"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937511"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>B2B el. prekybos svetainės nustatymas
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
 Verslo su verslu (B2B) el. komercijos saitas suteikia kelias pagrindines ypatybes, kurios optimizuoja B2B vartotojo darbo eigą. Šioje temoje aprašoma, kaip nustatyti verslo su verslu (B2B) el. komercijos saitą „Microsoft Dynamics 365 Commerce“. Jis eina per modulius ir saito nustatymus, kurie turi būti konfigūruojami siekiant į jungti B2B konkrečius scenarijus.
 
@@ -283,9 +285,35 @@ Norėdami sukurti sąskaitos išsamios informacijos puslapį saito kūrimo įran
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 1. Publikuoti URL puslapiui.
 
+## <a name="add-a-quick-add-module-to-the-cart-page"></a>Įtraukti spartųjį modulį į krepšelio puslapį
+
+Sparčiojo pridėjimo modulis suteikia būdą greitai pridėti keletą prekių į krepšelį, naudojant prekių IDENTIFIKAVIMO duomenis (dar vadinamus atsargų saugojimo \[vieneto\] SKUD). Spartusis pridėjimo modulis pridėtas prie svetainės krepšelio puslapio.
+
+Norėdami įtraukti modulį į vežimėlio puslapį „Commerce“ saito kūrimo įrankyje, atlikite šiuos veiksmus.
+
+1. Eikite **į šablonus** ir pasirinkite savo svetainės krepšelio puslapio šabloną.
+1. Pasirinkite **Redaguoti**.
+1. Modulio **Numatytasis puslapis** vietoje **Pagrindinis** pasirinkite daugtaškį (**...**) ir **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Konteineris**, tada pasirinkite **Gerai**.
+1. Vietoje **Konteineris** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
+1. Teksto laukelyje **Įtraukti modulį** rinkitės **Greito įtraukimo** modulį ir tada rinkitės **Gerai**.
+1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
+1. Eikite **į puslapius** ir pasirinkite savo svetainės krepšelio puslapio šabloną.
+1. Modulio **Numatytasis puslapis** vietoje **Pagrindinis** pasirinkite daugtaškį (**...**) ir **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Konteineris**, tada pasirinkite **Gerai**.
+1. Ypatybių juostoje **Talpyklos** modulyje, **Plotis**, rinkitės **Užpildyti konteinerį**.
+1. Vietoje **Konteineris** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
+1. Teksto laukelyje **Įtraukti modulį** rinkitės **Greito įtraukimo** modulį ir tada rinkitės **Gerai**.
+1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
+
+> [!NOTE] 
+> Greito įtraukimo modulis yra prieinamas nuo „Commerce“ versijos 10.0.17 leidime. Jei atnaujinate iš senesnės „Commerce” versijos, turite rankiniu būdu atnaujinti failą appsettings.json. Dėl nurodymų, žr. [SDK ir modulio bibliotekos naujinimai](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Modulių bibliotekos peržiūra](../starter-kit-overview.md)
+
+[SDK ir modulių bibliotekos naujinimai](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)
 
 [Turinio kūrimo puslapio apžvalga](../authoring-home-overview.md)
 
@@ -299,7 +327,7 @@ Norėdami sukurti sąskaitos išsamios informacijos puslapį saito kūrimo įran
 
 [Turinio bloko modulis](../add-hero-module.md)
 
-[Produkto kolekcija](../product-collection-module-overview.md)
+[Produktų atsiėmimo modulis](../product-collection-module-overview.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

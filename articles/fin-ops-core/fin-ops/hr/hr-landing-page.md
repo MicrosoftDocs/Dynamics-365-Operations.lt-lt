@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6f70e7626100646feb12e8544b5ab943097b1a3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 67fcadac93f757fb535105154cb06a3549cccc7f
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752185"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923573"
 ---
 # <a name="human-resources-overview"></a>„Human Resources“ apžvalga
 
@@ -42,38 +42,38 @@ Personalo modulį galite naudoti tolesnėms užduotims vykdyti.
 
 Dirbdami modulyje Personalas spręsite, kokia bus jūsų organizacijos struktūra – naudosite tokius elementus kaip padaliniai, darbo vietos ir pareigos. Tai yra vieni iš pagrindinių elementų, kuriuos konfigūruosite modulyje Personalas. Atskiri darbuotojai priskiriami pareigoms, kurios yra susietos su darbo vietomis.
 
-- [Darbo jėgos organizavimas naudojant padalinius, užduotis ir pareigas](../../../talent/departments-jobs-positions.md)
-- [Konkrečios įmonės personalo (HR) parametrų nustatymas](../../../talent/set-up-company-specific-hr-parameters.md)
-- [Personalo (HR) parametrų nustatymas visiems juridiniams subjektams](../../../talent/set-up-hr-parameters-across-legal-entities.md)
+- [Darbo jėgos organizavimas naudojant padalinius, užduotis ir pareigas](../../../human-resources/hr-personnel-departments-jobs-positions.md)
+- [Konkrečios įmonės personalo (HR) parametrų nustatymas](../../../human-resources/hr-setup-parameters.md)
+- [Personalo (HR) parametrų nustatymas visiems juridiniams subjektams](../../../human-resources/hr-setup-shared-parameters.md)
 
 ## <a name="recruit-hire-and-motivate-employees"></a>Darbuotojų įdarbinimas, samdymas ir motyvavimas
 
 Įdarbinimo projektuose valdomas turinys, naudojamas laisvų pareigų reklamose, ir jie gali padėti tvarkyti paraiškas dėl laisvų darbo vietų. Juos galite naudoti, norėdami stebėti atsakymus į konkretaus įdarbinimo projekto darbo skelbimus arba konkrečius pareiškėjus ir naujinti laisvų pareigų būseną. Taip pat galite samdyti vieną pretendentą arba valdyti „masinio įdarbinimo projektus“, kuriais galima palengvinti didelio darbuotojų skaičiaus samdymo procesą, pvz., sezoniniams verslo poreikiams patenkinti.
 
 - [Įdarbinimo procesų valdymas](manage-recruiting-process.md)
-- [Masinės samdos projektai](mass-hire-projects.md) 
+- [Masinės samdos projektai](../../../human-resources/hr-personnel-mass-hire-projects.md) 
 
 Pasamdę darbuotojus, galite parengti planus, skirtus veiksmingai ir teisingai valdyti kompensaciją, taip pat valdyti prekes, pvz., kompiuterius arba telefonus, kuriuos jūsų organizacija skolina savo darbuotojams. Galite kurti fiksuotosios ir kintamosios atlyginimo dalies planus, taip pat nustatyti taisykles, kurios taikomos kompensavimo planui, kad būtų atitikti to plano kriterijai.
 
-- [Kompensavimo planai](../../../talent/compensation-plans.md)
-- [Pastoviosios atlyginimo dalies planų kūrimas](../../../talent/create-fixed-compensation-plans.md)
-- [Kintamosios atlyginimo dalies planų kūrimas](../../../talent/create-variable-compensation-plans.md)
+- [Kompensavimo planai](../../../human-resources/hr-compensation-overview.md)
+- [Pastoviosios atlyginimo dalies planų kūrimas](../../../human-resources/hr-compensation-fixed-plans.md)
+- [Kintamosios atlyginimo dalies planų kūrimas](../../../human-resources/hr-compensation-variable-plans.md)
 
 ## <a name="develop-and-train-employees"></a>Darbuotojų tobulinimas ir mokymas
 
 Norėdami darbuotojams padėti pasiekti savo karjeros tikslų įgyvendinat svarbius verslo poreikius, galite nustatyti tikslus, kurti našumo apžvalgas ir sekti atsiliepimus. Kad darbuotojai galėtų lengviau įgyti reikiamų įgūdžių, taip pat galite nustatyti instruktorius, kursų tipus, kursus, kursų aprašus, darbotvarkes, specializacijas ir seansus, o tada kursui priskirti instruktorių arba kursuose registruoti asmenis. Instruktoriai jau turi egzistuoti kaip darbuotojai, pretendentai arba kontaktai.
 
-- [Našumo valdymas](../../../talent/performance-management-overview.md)
-- [Darbo jėgos įgūdžių ir verslo poreikių suderinimas](../../../talent/skills.md)
-- [Mokymo kursų rengimas](../../../talent/courses.md)
+- [Našumo valdymas](../../../human-resources/hr-develop-performance-management-overview.md)
+- [Darbo jėgos įgūdžių ir verslo poreikių suderinimas](../../../human-resources/hr-develop-skills.md)
+- [Mokymo kursų rengimas](../../../human-resources/hr-learning-courses.md)
 
 ## <a name="create-and-maintain-benefits"></a>Išmokų kūrimas ir tvarkymas
 
 Be kompensacijų darbuotojams mokant darbo užmokestį, atlyginimus ir premijas, galite išplėtoti išmokų programas, pvz., sveikatos draudimo ir pensijų planus. Taip pat galite tvarkyti išmokas, pavyzdžiui, paskolų programas, kai jūsų įmonė savo darbuotojams skolina prekes, pvz., kompiuterius arba telefonus.
 
-- [Išmokų programos nustatymas ir valdymas](../../../talent/manage-benefit-program.md)
-- [Teisės į išmoką strategijos](../../../talent/benefit-eligibility-policies.md)
-- [Darbininkams paskolintų prekių valdymas](../../../talent/loan-items.md)
+- [Išmokų programos nustatymas ir valdymas](../../../human-resources/hr-benefits-management-overview.md)
+- [Teisės į išmoką strategijos](../../../human-resources/hr-benefits-eligibility-policies.md)
+- [Darbininkams paskolintų prekių valdymas](../../../human-resources/hr-personnel-loan-items.md)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Darbo vietos saugos ir atitikties užtikrinimas
 
@@ -87,10 +87,10 @@ Naudodami „Microsoft Dynamics AX“ galite išlaikyti saugią darbo aplinką, 
 
 Galite sudaryti ir administruoti klausimynus informacijai įvairiems tikslams rinkti. Klausimyno funkcija suteikia galimybę sudaryti ir kurti klausimynus. Kai klausimynas parengtas, galite jį platinti plačiai auditorijai arba tam tikriems respondentams. Respondentams pateikus atsakymus, galite peržiūrėti ir analizuoti rezultatus.
 
-- [Klausimynai](../../../talent/questionnaires.md)
-- [Klausimynų sudarymas](../../../talent/design-questionnaires.md)
-- [Klausimynų platinimas ir planavimas](../../../talent/distribute-questionnaires.md)
-- [Klausimynų rezultatų peržiūra ir įvertinimas](../../../talent/evaluate-questionnaire-results.md)
+- [Klausimynai](../../../human-resources/hr-learning-questionnaires.md)
+- [Klausimynų sudarymas](../../../human-resources/hr-learning-design-questionnaires.md)
+- [Klausimynų platinimas ir planavimas](../../../human-resources/hr-learning-distribute-questionnaires.md)
+- [Klausimynų rezultatų peržiūra ir įvertinimas](../../../human-resources/hr-learning-evaluate-questionnaire-results.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

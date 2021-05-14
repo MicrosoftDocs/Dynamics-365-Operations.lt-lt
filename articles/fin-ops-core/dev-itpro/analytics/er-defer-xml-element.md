@@ -2,7 +2,7 @@
 title: XML elementų ER formatais vykdymo atidėjimas
 description: Šioje temoje paaiškinama, kaip atidėti XML elemento elektroninių ataskaitų (ER) formatu vykdymą.
 author: NickSelin
-ms.date: 03/17/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 361e16b0dba3aa46c71477efaa89a2661a3bcd75
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 07b1d95572fb0b6bbfd34756bf1ecded7b9ff35c
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894057"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944490"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>XML elementų ER formatais vykdymo atidėjimas
 
@@ -59,14 +59,14 @@ Jei dar nebaigėte pavyzdžio, pateikiamo temoje [Sekos elementų ER formatais v
 
 | Turinio aprašas            | Failo pavadinimas |
 |--------------------------------|-----------|
-| ER duomenų modelio konfigūracija    | [Modelis, norint sužinoti apie atidėtus elementus.1.versija.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| ER modelio susiejimo konfigūracija | [Susiejimas, norint sužinoti apie atidėtus elementus.1.1.versija.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| ER duomenų modelio konfigūracija    | [Modelis, norint sužinoti apie atidėtus elementus.1.versija.xml](https://download.microsoft.com/download/7/6/0/760933ca-4ac3-4f50-bc0c-c35e596ee066/Modeltolearndeferredelements.version.1.xml) |
+| ER modelio susiejimo konfigūracija | [Susiejimas, norint sužinoti apie atidėtus elementus.1.1.versija.xml](https://download.microsoft.com/download/c/9/c/c9c4b9dd-b700-4385-a087-a84ce9fc1d0f/Mappingtolearndeferredelements.version.1.1.xml) |
 
 Prieš pradėdami, taip pat turite atsisiųsti ir įrašyti šią ER sprendimo pavyzdžio konfigūraciją į vietinį kompiuterį.
 
 | Turinio aprašas     | Failo pavadinimas |
 |-------------------------|-----------|
-| ER formato konfigūracija | [Formatas, norint sužinoti apie atidėtus XML elementus.1.1.versija.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| ER formato konfigūracija | [Formatas, norint sužinoti apie atidėtus XML elementus.1.1.versija.xml](https://download.microsoft.com/download/4/7/8/478fa846-22e9-4fa0-89b1-d3aeae660067/FormattolearndeferredXMLelements.version.1.1.xml) |
 
 ### <a name="import-the-sample-er-configurations"></a>Pavyzdinių ER konfigūracijų importavimas
 
@@ -164,7 +164,7 @@ Peržiūrėkite ER modelio susiejimo komponento, kuris konfigūruojamas, kad bū
 1. Puslapyje **Formato dizaino įrankis** pasirinkite **Vykdyti**.
 2. Atsisiųskite failą, kuris siūlomas žiniatinklio naršyklėje, ir atidarę jį peržiūrėkite.
 
-    ![Atsisiųstas failas](./media/ER-DeferredXml-Run.png)
+    ![Importuoto formato atsisiųstas failas](./media/ER-DeferredXml-Run.png)
 
 Atkreipkite dėmesį, kad suvestinės mazge pateikiama apdorotų operacijų mokesčių verčių suma. Kadangi formatas sukonfigūruotas, kad naudotų susiejimą **model.Data.Summary.Total** šiai sumai pateikti, suma apskaičiuojama iškviečiant telkimą **TotalSum** duomenų šaltinyje **Sugrupuota**, kurio tipas yra *GroupBy*, modelių susiejime. Norint apskaičiuoti šį telkimą, modelių susiejimas pakartojamas visose operacijose, kurios buvo pasirinktos duomenų šaltinyje **Filtruota**. Lygindami suvestinės mazgo ir paskutinio įrašo mazgo vykdymo laikus, galite nustatyti, kad sumos skaičiavimas truko 12 milisekundžių (ms). Lygindami pirmo ir paskutinio įrašų mazgų vykdymo laikus, galite nustatyti, kad visų įrašų mazgų generavimas truko 9 ms. Taigi, iš viso prireikė 21 ms.
 
@@ -196,7 +196,7 @@ Jei operacijų kiekis yra daug didesnis, nei kiekis šiame pavyzdyje, skaičiavi
 11. Pasirinkite **Įrašyti**, tada pasirinkite **Vykdyti**.
 12. Atsisiųskite ir peržiūrėkite failą, kuris siūlomas žiniatinklio naršyklėje.
 
-    ![Atsisiųstas failas](./media/ER-DeferredXml-Run1.png)
+    ![Sugeneruotas mokesčių vertės su vykdoma suma sąrašas](./media/ER-DeferredXml-Run1.png)
 
     Paskutiniame įrašo mazge yra visų apdorotų operacijų bendra mokesčių verčių suma, apskaičiuota naudojant sugeneruotą išvestį kaip duomenų šaltinį. Šis duomenų šaltinis prasideda ataskaitos pradžioje ir tęsiasi iki paskutinės mokesčių operacijos. Suvestinės mazge yra visų apdorotų operacijų, apskaičiuotų modelio susiejimo metu naudojant *GroupBy* tipo duomenų šaltinį, mokesčių verčių suma. Atkreipkite dėmesį, kad šios vertės yra lygios. Todėl galima naudoti išvestimi pagrįstą sumavimą, o ne **GroupBy**. Lygindami pirmo įrašo mazgo ir suvestinės mazgo vykdymo laikus, galite nustatyti, kad visų įrašų mazgų generavimas ir sumavimas truko 11 ms. Todėl, kiek tai susiję su įrašų mazgų generavimu ir mokesčių verčių sumavimu, modifikuotas formatas yra maždaug du kartus spartesnis už pradinį formatą.
 
@@ -205,7 +205,7 @@ Jei operacijų kiekis yra daug didesnis, nei kiekis šiame pavyzdyje, skaičiavi
 15. Pasirinkite **Įrašyti**, tada pasirinkite **Vykdyti**.
 16. Atsisiųskite ir peržiūrėkite failą, kuris siūlomas žiniatinklio naršyklėje.
 
-    ![Atsisiųstas failas](./media/ER-DeferredXml-Run2.png)
+    ![Sugeneruotas mokesčių verčių sąrašas naudojant redaguotą formulę](./media/ER-DeferredXml-Run2.png)
 
     Atkreipkite dėmesį, kad bendra mokesčių verčių suma paskutiniame įrašo mazge dabar yra lygi sumai suvestinės mazge.
 
@@ -218,7 +218,7 @@ Jei, pavyzdžiui, turite pateikti mokesčių verčių sumą ataskaitos antrašt�
 3. Pasirinkite **Įrašyti**, tada pasirinkite **Vykdyti**.
 4. Atsisiųskite ir peržiūrėkite failą, kuris siūlomas žiniatinklio naršyklėje.
 
-    ![Atsisiųstas failas](./media/ER-DeferredXml-Run3.png)
+    ![Atsisiųstas ataskaitos antraštės mokesčių verčių failas](./media/ER-DeferredXml-Run3.png)
 
     Atkreipkite dėmesį, kad mokesčių verčių suma suvestinės mazge dabar yra lygi 0 (nuliui), nes ši suma dabar apskaičiuojama pagal sugeneruotą išvestį. Kai sugeneruojamas pirmas įrašo mazgas, sugeneruotoje išvestyje dar nėra įrašų mazgų, kuriuose būtų operacijų informacijos. Galite sukonfigūruoti šį formatą, kad būtų atidėtas elemento **Ataskaita\\Pranešimas\\Suvestinė** vykdymas, kol bus įvykdytas visų mokesčių operacijų elementas **Ataskaita\\Pranešimas\\Įrašas**.
 
@@ -232,7 +232,7 @@ Jei, pavyzdžiui, turite pateikti mokesčių verčių sumą ataskaitos antrašt�
 3. Pasirinkite **Įrašyti**, tada pasirinkite **Vykdyti**.
 4. Atsisiųskite ir peržiūrėkite failą, kuris siūlomas žiniatinklio naršyklėje.
 
-    ![Atsisiųstas failas](./media/ER-DeferredXml-Run4.png)
+    ![Atsisiųstas failas – atidėtas vykdymas](./media/ER-DeferredXml-Run4.png)
 
     Dabar elementas **Ataskaita\\Pranešimas\\Suvestinė** dabar vykdomas tik įvykdžius visus kitus jo pirminio elemento **Ataskaita\\Pranešimas** įdėtuosius elementus. Todėl jis vykdomas įvykdžius elementą **Ataskaita\\Pranešimas\\Įrašas** visų mokesčių operacijų, kurių duomenų šaltinis yra **model.Data.List**, atžvilgiu. Pirmo ir paskutinio įrašų mazgų ir antraštės bei suvestinės mazgų vykdymo laikai atskleidžia šį faktą.
 

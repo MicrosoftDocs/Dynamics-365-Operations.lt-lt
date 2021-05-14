@@ -1,5 +1,5 @@
 ---
-title: „Dynamics 365 Supply Chain Management” peržiūros versija 10.0.18 (2021 m. gegužės mėnesis)
+title: Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ versijoje 10.0.18 (2021 m. gegužės mėn.)
 description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.18 versijos funkcijos.
 author: kamaybac
 ms.date: 03/01/2021
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae65afbcaca1f2f390520e1108d8363c3e248c60
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d84520b8f551df847cb5d77d8dcbce1701d3795b
+ms.sourcegitcommit: d77b2175a3364694b5c74e0062e317f612416796
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909358"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5934972"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10018-may-2021"></a>„Dynamics 365 Supply Chain Management” peržiūros versija 10.0.18 (2021 m. gegužės mėnesis)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10018-may-2021"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ versijoje 10.0.18 (2021 m. gegužės mėn.)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šioje temoje pristatomos funkcijos, kurios yra naujos arba pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.18 peržiūros versijoje. Šios versijos komponavimo numeris yra 10.0.793 ir jis pasiekiamas tokius būdu:
+Šioje temoje nurodomos naujos ir pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.18 versijos funkcijos. Šios versijos komponavimo numeris yra 10.0.793 ir jis pasiekiamas tokius būdu:
 
 - **Peržiūros versijos išleidimas:** 2021 m. kovas
 - **Bendras leidimo pasiekiamumas (savaiminis naujinimas):** 2021 m. balandis
@@ -43,9 +42,17 @@ Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Norėdami peržiūr�
 
 - [Grąžinimų valdymas](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Daugiau informacijos rasite [Grąžinimų valdymo modulio apžvalga](../rebate-management/rebate-management-overview.md)
 
+- [Pardavimų duomenų objekto eksportavimo sąrankos strategija](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-data-entity-export-setup-policy)
+
+- [Prekių grąžinimo užsakymo eilutės registravimas dešimtainiu tikslumu su ir be esamo svorio](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-return-order-line-registration-decimal-precision-without-catch-weight)
+
+- [Pardavimo užsakymo patvirtinimas vienu spustelėjimu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/single-click-sales-order-confirmation)
+
+- [Pardavimo užsakymo ryšio su pirkimo užsakymu eilutės trynimo strategija](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-purchase-order-line-deletion-policy)
+
 - Supaprastinta sąsaja, skirta tik darbo pradžios ir pabaigos registravimui, (patobulinimas [Patobulintai gamybos cecho vykdymo sąsajai](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing))<br> - Daugiau informacijos rasite [Gamybos cecho vykdymo sąsajos konfigūravimas](../production-control/production-floor-execution-configure.md).
 
-Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis. Kai kurios išvardytos funkcijos vis dar yra peržiūros versijos, o kitos funkcijos jau gali būti prieinamos bendrai. 
+Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis.
 
 ## <a name="new-and-updated-documentation-resources"></a>Nauji ir naujinti dokumentų šaltiniai
 

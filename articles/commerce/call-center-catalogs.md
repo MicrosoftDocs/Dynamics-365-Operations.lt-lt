@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a091e059d4528c356a5038c750cac3a3f31a7edb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3758ff51de8217a209b40d7dd461e42ea9632f0a
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799658"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936887"
 ---
 # <a name="call-center-catalogs"></a>Skambučių centro katalogai
 
@@ -39,7 +39,7 @@ Tiesioginės vartotojo rinkodaros įmonės visą dėmesį teikia sekdamos atsaky
 
 Eikite į **Mažmeninė prekyba ir prekyba** \> **Katalogai ir asortimentai** \> **Visi katalogai** ir sukonfigūruokite savo katalogą.
 
-Sukūrę naują katalogą pirmiausia turite jį susieti su vienu ar keliais kanalais. Tą galima atlikti „FastTab“ skirtuke **Prekybos kanalai**, kuris pateiktas formoje **Katalogo sąranka**. Spustelėkite **Įtraukti** ir pasirinkite vieną ar kelis kanalus. Kuriant katalogą galima naudoti tik su jūsų pasirinktu kanalu susietus elementus [asortimentus](https://docs.microsoft.com/dynamics365/unified-operations/retail/assortments).
+Sukūrę naują katalogą pirmiausia turite jį susieti su vienu ar keliais kanalais. Tą galima atlikti „FastTab“ skirtuke **Prekybos kanalai**, kuris pateiktas formoje **Katalogo sąranka**. Spustelėkite **Įtraukti** ir pasirinkite vieną ar kelis kanalus. Kuriant katalogą galima naudoti tik su jūsų pasirinktu kanalu susietus elementus [asortimentus](/dynamics365/unified-operations/retail/assortments).
 
 Norint įtraukti produktus į katalogą, reikia pasirinkti naršymo hierarchiją. Naršymo hierarchija palaikys katalogo kategorijos struktūrą. Turite išsirinkti vieną iš naršymo hierarchijų, susietą su kanalais, pasirinktą „FastTab“ skirtuke **Prekybos kanalai**, pateikiamą puslapyje **Katalogas**. Jei naršymo kanalas anksčiau su kanalu susietas nebuvo, eikite į parinktį **Mažmeninė prekyba ir prekyba** \> **Kanalo sąranka** \> **Kanalo kategorijos ir produkto atributai**, kad susietumėte numatytąją naršymo hierarchiją su savo kanalais.
 

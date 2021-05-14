@@ -2,7 +2,7 @@
 title: Mažmeninės prekybos kanalo nustatymas
 description: Šioje temoje aprašoma, kaip „Microsoft Dynamics 365 Commerce“ sukurti naują mažmeninės prekybos kanalą.
 author: samjarawan
-ms.date: 01/27/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 713cbe68c151b6893519843611089941cabf0e70
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3f1f5dc2c8402d9b6b68a049f804932812eb74c0
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800596"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937539"
 ---
 # <a name="set-up-a-retail-channel"></a>Mažmeninės prekybos kanalo nustatymas
 
@@ -34,7 +34,7 @@ Prieš kurdami mažmeninės prekybos kanalą, įsitikinkite, kad išpildėte [ka
 ## <a name="create-and-configure-a-new-retail-channel"></a>Naujo mažmeninės prekybos kanalo kūrimas ir konfigūravimas
 
 1. Naršymo srityje eikite **Moduliai \> Kanalai \> Parduotuvės \> Visos parduotuvės**.
-1. Veiksmų srityje pasirinkite **Nauja**.
+1. Veiksmų srityje pasirinkite **Naujas**.
 1. Lauke **Pavadinimas** įveskite naujo kanalo pavadinimą.
 1. Lauke **Parduotuvės numeris** pateikite unikalų parduotuvės numerį. Numeris gali būti raidinis-skaitinis, bet ne daugiau kaip iš 10 simbolių.
 1. Išplečiamajame sąraše **Juridinis subjektas** įveskite atitinkamą juridinį subjektą.
@@ -68,7 +68,7 @@ Toliau pateiktame vaizde parodytas mažmeninės prekybos kanalo sąrankos konfig
 
 ## <a name="additional-channel-set-up"></a>Papildoma kanalų sąranka
 
-Yra papildomų kanalo elementų, kuriuos reikia nustatyti, juos galima rasti dalyje **Veiksmų sritis** skyriuje **Nustatymas**.
+Yra papildomų kanalo elementų, kuriuos reikia nustatyti, juos galima rasti dalyje Veiksmų sritis skyriuje **Nustatyti**.
 
 Papildomos užduotys, reikalingos interneto kanalo sąrankai, apima mokėjimo metodų, grynųjų pinigų deklaracijų, pristatymo būdų, pajamų / išlaidų sąskaitų, skyrių, vykdymo grupių priskyrimo ir seifų nustatymą.
 
@@ -81,7 +81,7 @@ Papildomos užduotys, reikalingos interneto kanalo sąrankai, apima mokėjimo me
 Norėdami nustatyti kiekvieno mokėjimo tipo, palaikomo šiame kanale, mokėjimo metodus, atlikite toliau nurodytus veiksmus.
 
 1. Veiksmų srityje pasirinkite skirtuką **Nustatymas**, tada pasirinkite **Mokėjimo metodai**.
-1. Veiksmų srityje pasirinkite **Nauja**.
+1. Veiksmų srityje pasirinkite **Naujas**.
 1. Naršymo srityje pasirinkite pageidaujamą mokėjimo metodą.
 1. Skyriuje **Bendri** nurodykite **Operacijos pavadinimas** ir konfigūruokite kitus pageidaujamus nustatymus.
 1. Konfigūruokite visus papildomus parametrus, kurių reikia mokėjimo tipui.
@@ -102,7 +102,7 @@ Toliau pateiktame vaizde parodytas grynųjų pinigų deklaracijos pavyzdys.
 
 ### <a name="set-up-modes-of-delivery"></a>Nustatyti pristatymo būdus
 
-Galite peržiūrėti sukonfigūruotus pristatymo būdus pasirikdami **Pristatymo būdai** skirtuke **Nustatymas**, esančiame **Veiksmų sritis**.  
+Galite peržiūrėti sukonfigūruotus pristatymo būdus pasirikdami **Pristatymo būdai** skirtuke **Nustatymas** Veiksmų sritis.  
 
 Norėdami pakeisti arba įtraukti pristatymo būdą, atlikite toliau nurodytus veiksmus.
 
@@ -119,7 +119,7 @@ Toliau pateiktame vaizde parodytas pristatymo būdo pavyzdys.
 Norėdami nustatyti produktų pajamų / išlaidų sąskaitą, atlikite toliau pateikiamus veiksmus.
 
 1. Veiksmų srityje pasirinkite skirtuką **Nustatymas**, tada pasirinkite **Pajamų / išlaidų sąskaita**.
-1. Veiksmų srityje pasirinkite **Nauja**.
+1. Veiksmų srityje pasirinkite **Naujas**.
 1. Dalyje **Pavadinimas** įveskite pavadinimą.
 1. Dalyje **Ieškos pavadinimas** įveskite ieškos pavadinimą.
 1. Dalyje **Sąskaitos tipas** įveskite sąskaitos tipą.
@@ -136,7 +136,7 @@ Toliau pateiktame paveiksle parodytas pajamų / išlaidų sąskaitos pavyzdys.
 Norėdami nustatyti skyrius, atlikite tolesnius veiksmus.
 
 1. Veiksmų srityje pasirinkite skirtuką **Nustatymas**, tada spustelėkite **Skyriai**.
-1. Veiksmų srityje pasirinkite **Nauja**.
+1. Veiksmų srityje pasirinkite **Naujas**.
 1. Dalyje **Skyriaus numeris** įveskite skyriaus numerį.
 1. Dalyje **Aprašas** įveskite aprašą.
 1. Dalyje **Skyriaus dydis** įveskite skyriaus dydį.
@@ -148,10 +148,10 @@ Norėdami nustatyti skyrius, atlikite tolesnius veiksmus.
 Norėdami nustatyti vykdymo grupės priskyrimą, atlikite toliau nurodytus veiksmus.
 
 1. Veiksmų srityje pasirinkite skirtuką **Nustatymas**, tada pasirinkite **Vykdymo grupės priskyrimas**.
-1. Veiksmų srityje pasirinkite **Nauja**.
+1. Veiksmų srityje pasirinkite **Naujas**.
 1. Išplečiamajame sąraše **Vykdymo grupė** pasirinkite vykdymo grupę.
 1. Išplečiamajame sąraše **Aprašas** įveskite aprašą.
-1. Veiksmų srityje pasirinkite **Įrašyti**.
+1. Veiksmų srityje pasirinkite **Įrašyti**
 
 Toliau pateiktame vaizde parodytas vykdymo grupės priskyrimo sąrankos pavyzdys.
 
@@ -162,9 +162,40 @@ Toliau pateiktame vaizde parodytas vykdymo grupės priskyrimo sąrankos pavyzdys
 Norėdami nustatyti seifus, atlikite tolesnius veiksmus.
 
 1. Veiksmų srityje pasirinkite skirtuką **Nustatymas**, tada spustelėkite **Seifai**.
-1. Veiksmų srityje pasirinkite **Nauja**.
+1. Veiksmų srityje pasirinkite **Naujas**.
 1. Įveskite seifo pavadinimą.
 1. Veiksmų srityje pasirinkite **Įrašyti**.
+
+### <a name="ensure-unique-transaction-ids"></a>Užtikrinkite unikalius operacijų ID
+
+Naudojant „Commerce" 10.0.18 versiją, sugeneruoti elektroninį kasos numerį (EKA) operacijų ID yra nuoseklūs ir apima šias dalis:
+
+- Fiksuota dalis, kuri yra parduotuvės ID ir mokėjimo terminalo ID sąlaja. 
+- Nuosekli dalis, kuri yra numeracija. 
+
+Tiksliau šis formatas yra *{store} - {terminal} -{numbersequence}*. 
+
+Dėl to, kad operacijų ID galima generuoti neprisijungus ir tinkle, generuojami besidubliuotų operacijų ID egzemplioriai. Šalinant dubliuotų operacijų ID, reikia rankiniu būdu taisymo partijos. 
+
+Naudojant „Commerce" versiją 10.0.19, operacijos ID formatas buvo atnaujintas norint pašalinti nuoseklią dalį ir vietoj jo naudoja 13 skaitmenų skaičių, sugeneruotą skaičiuojant laiką milisekunde nuo 1970. Naudojant šį pakeitimą, naujas operacijos ID formatas yra *{store}{terminal} -{millisecondsSince1970}*. Dėl šio atnaujinimo operacijos ID yra nuosekli ir užtikrina, kad operacijų ID visada yra unikalūs. 
+
+> [!NOTE]
+> Operacijų ID yra skirti tik vidiniam sistemos naudojimui, todėl jie nėra būtini nuosekliai. Tačiau daugelis šalių reikalauja, kad gavimo BŪTŲ nuoseklūs.
+
+Nauja operacijos ID formato funkcija gali būti įgalinta funkcijų **valdymo darbo** srityje. 
+
+Norėdami įgalinti naujų operacijų ID naudojimą, atlikite šiuos veiksmus:
+
+1. „Commerce headquaters“ eikite į **Sistemos administravimas \> Darbo sritys \> Funkcijų valdymas**.
+1. „Retail ir Commerce" modulio filtras.
+1. Ieškokite funkcijos Įgalinti **naują operacijos ID, kad išvengtumėte pasikartojančių operacijų** ID funkcijos pavadinimo.
+1. Pasirinkite norimą įjungti funkciją, tada dešinioje juostoje pasirinkite **Įjungti dabar**.  
+1. Eikite į **Mažmeninė prekyba ir prekyba \> Mažmeninės prekybos ir prekybos IT \> Paskirstymo grafikas**.
+1. Paleiskite **1070 kanalo konfigūraciją ir** 1170 EKA užduočių įrašymo priemonės užduotis, kad būtų **sinchronizuojama įgalinta funkcija su** parduotuvėmis.
+1. Išsiuntus pakeitimus į parduotuves, EKA terminalai turi būti uždaryti ir atidaryti iš naujo, kad būtų naudojamas naujas operacijos ID formatas. 
+
+> [!NOTE]
+> Įjungus naują operacijos ID formato priemonę, šios funkcijos išjungti negalėsite. Jei jį reikia išjungti, susisiekite su „Commerce Support".
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d910b89330865b0bcf3f6cd05b761506f339a45f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b51e4b4d00da2babb5128d8c4c22139b0c1853d4
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841676"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920734"
 ---
 # <a name="create-a-material-plan-for-co-products"></a>Sudėtinių produktų medžiagų plano kūrimas
 
@@ -26,88 +26,88 @@ ms.locfileid: "5841676"
 
 Gamybos planuotojas planuoja medžiagų poreikius prekėms, kurios yra formulės sudėtiniai produktai. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USP2.
 
-
 ## <a name="create-requirement-for-a-co-product"></a>Kurti sudėtinio produkto poreikį
-1. Eikite į Numatytoji ataskaitų sritis.
-2. Spustelėkite Pardavimo užsakymo apdorojimas ir užklausa.
-3. Spustelėkite Naujas.
-4. Spustelėkite Pardavimo užsakymas.
-5. Lauke Kliento sąskaita surinkite reikšmę.
+
+1. Eikite **į pardavimo ir rinkodaros darbo sričių pardavimo užsakymo \> \> apdorojimą ir užklausą**.
+1. Pasirinkite **Naujas**.
+1. Pasirinkite **Pardavimo užsakymas**.
+1. Lauke **Kliento sąskaita** surinkite reikšmę.
     * Pavyzdys: US-001  
-6. Spustelėkite GERAI.
-7. Lauke Prekės numeris surinkite reikšmę.
+1. Pasirinkite **Gerai**.
+1. Lauke **Prekės numeris** įveskite vertę.
     * Pavyzdys: P6003  
-8. Lauke Kiekis įveskite skaičių.
+1. Lauke **Kiekis** įveskite skaičių.
     * Pavyzdys: 50000  
-9. Spustelėkite Įrašyti.
+1. Pasirinkite **Įrašyti**.
 
 ## <a name="create-a-material-plan-for-co-products"></a>Sudėtinių produktų medžiagų plano kūrimas
+
 1. Uždarykite puslapį.
-2. Uždarykite puslapį.
-3. Spustelėkite Bendrasis planavimas.
-4. Lauke Planas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-5. Sąraše spustelėkite saitą pasirinktoje eilutėje.
+1. Uždarykite puslapį.
+1. Pasirinkite **Bendrasis planavimas**.
+1. Lauke **Planas** pasirinkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+1. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
     * Pavyzdys: MasterPlan  
-6. Spustelėkite Vykdyti.
-7. Išplėskite arba sutraukite dalį Įtrauktini įrašai.
-8. Spustelėkite Filtras.
-9. Sąraše pasirinkite lauko eilutę =Prekės numeris.
-10. Lauke Kriterijai surinkite reikšmę.
+1. Pasirinkite **Vykdyti**.
+1. Išplėskite arba sutraukite dalį **įtrauktini įrašai**.
+1. Pasirinkite **Filtras**.
+1. Sąraše pasirinkite lauko eilutę **Laukelis** = *Elemento numeris*.
+1. Lauke **Kriterijai** įveskite reikšmę.
     * Pavyzdys: P6003  
-11. Spustelėkite GERAI.
-12. Spustelėkite GERAI.
-13. Spustelėkite Suplanuoti užsakymai.
-14. Norėdami rasti įrašus, naudokite spartųjį filtrą. Pvz., filtruokite lauką Prekės numeris reikšme „P6000 “.
+1. Pasirinkite **Gerai**.
+1. Pasirinkite **Gerai**.
+1. Pažymėkite **Suplanuoti užsakymai**.
+1. Norėdami rasti įrašus, naudokite spartųjį filtrą. Pvz., filtruokite lauką **Prekės numeris** reikšme 'P6000'.
     * Filtruokite pagal sudėtinę prekę, kuri turi prekės, kuriai sukūrėte pardavimo užsakymą, sudėtinį produktą.  
-15. Sąraše pažymėkite pasirinktą eilutę.
+1. Sąraše pažymėkite pasirinktą eilutę.
     * Pasirinkite vieną iš filtro pateiktų eilučių.  
-16. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-17. Išplėskite arba sutraukite skyrių „Iškvietimas“.
-18. Sąraše spustelėkite saitą pasirinktoje eilutėje.
+1. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
+1. Išplėskite skyrių **Susiejimas**.
+1. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
     * Suplanuotas užsakymas yra susietas su sudėtinio produkto pardavimo užsakymu.  
-19. Uždarykite puslapį.
+1. Uždarykite puslapį.
 
-## <a name="create-requirement-for-a-co-product"></a>Kurti sudėtinio produkto poreikį
-1. Eikite į Numatytoji ataskaitų sritis.
-2. Spustelėkite Pardavimo užsakymo apdorojimas ir užklausa.
-3. Spustelėkite Naujas.
-4. Spustelėkite Pardavimo užsakymas.
-5. Lauke Kliento sąskaita surinkite reikšmę.
+## <a name="create-a-second-requirement-for-a-co-product"></a>Kurti antrą sudėtinio produkto poreikį
+
+1. Eikite **į pardavimo ir rinkodaros darbo sričių pardavimo užsakymo \> \> apdorojimą ir užklausą**.
+1. Pasirinkite **Naujas**.
+1. Pasirinkite **Pardavimo užsakymas**.
+1. Lauke **Kliento sąskaita** surinkite reikšmę.
     * Pavyzdys: US-001  
-6. Spustelėkite GERAI.
-7. Lauke Prekės numeris surinkite reikšmę.
+1. Pasirinkite **Gerai**.
+1. Lauke **Prekės numeris** įveskite vertę.
     * Pavyzdys: P6003  
-8. Lauke Kiekis įveskite skaičių.
+1. Lauke **Kiekis** įveskite skaičių.
     * Pavyzdys: 50000  
-9. Spustelėkite Įrašyti.
+1. Pasirinkite **Įrašyti**.
 
-## <a name="create-a-material-plan-for-co-products"></a>Sudėtinių produktų medžiagų plano kūrimas
-1. Lauke Planas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-2. Sąraše spustelėkite saitą pasirinktoje eilutėje.
+## <a name="create-a-second-material-plan-for-co-products"></a>Sudėtinių antrų produktų medžiagų plano kūrimas
+
+1. Lauke **Planas** pasirinkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+2. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
     * Pavyzdys: MasterPlan  
-3. Spustelėkite Vykdyti.
-4. Išplėskite arba sutraukite dalį Įtrauktini įrašai.
-5. Spustelėkite Filtras.
-6. Sąraše pasirinkite lauko eilutę =Prekės numeris.
-7. Lauke Kriterijai surinkite reikšmę.
+3. Pasirinkite **Vykdyti**.
+4. Išplėskite arba sutraukite dalį **įtrauktini įrašai**.
+5. Pasirinkite **Filtras**.
+6. Sąraše pasirinkite lauko eilutę **Laukelis** = *Elemento numeris*.
+7. Lauke *Kriterijai* įveskite reikšmę.
     * Pavyzdys: P6003  
-8. Spustelėkite GERAI.
-9. Spustelėkite GERAI.
-10. Spustelėkite Suplanuoti užsakymai.
-11. Norėdami rasti įrašus, naudokite spartųjį filtrą. Pvz., filtruokite lauką Prekės numeris reikšme „P6000 “.
+8. Pasirinkite **Gerai**.
+9. Pasirinkite **Gerai**.
+10. Pažymėkite **Suplanuoti užsakymai**.
+11. Norėdami rasti įrašus, naudokite spartųjį filtrą. Pvz., filtruokite lauką **Prekės numeris** reikšme 'P6000'.
     * Filtruokite pagal sudėtinę prekę, kuri turi prekės, kuriai sukūrėte pardavimo užsakymą, sudėtinį produktą.  
 12. Sąraše pažymėkite pasirinktą eilutę.
     * Pasirinkite vieną iš filtro pateiktų eilučių.  
-13. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-14. Išplėskite arba sutraukite skyrių „Iškvietimas“.
-15. Sąraše spustelėkite saitą pasirinktoje eilutėje.
+13. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
+14. Išplėskite arba sutraukite skyrių **Susiejimas**.
+15. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
     * Suplanuotas užsakymas yra susietas su sudėtinio produkto pardavimo užsakymu.  
 16. Uždarykite puslapį.
-17. Spustelėkite Bendrasis planavimas.
-18. Eikite į Bendrasis planavimas > Sąranka > Bendrojo planavimo parametrai.
-19. Lauke Išjungti visus planavimo procesus pasirinkite Ne.
+17. Pasirinkite **Bendrasis planavimas**.
+18. Eikite į **Bendrasis planavimas \> Sąranka \> Bendrojo planavimo parametrai**.
+19. Rinkitės *Ne* lauke **Išjungti visus planavimo procesus**.
 20. Uždarykite puslapį.
-
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

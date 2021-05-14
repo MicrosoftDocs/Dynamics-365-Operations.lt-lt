@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 219504da62fd4637ed01f9acbab32f873cef81b0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 56319035ac092a376f0766c20eee71af6256b6f9
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795960"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936916"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>BOPIS konfigūravimas „Dynamics 365 Commerce“ vertinimo aplinkoje
 
@@ -29,7 +29,7 @@ ms.locfileid: "5795960"
 
 ## <a name="prerequisite"></a>Būtinoji sąlyga
 
-Pabaikite šio skyriaus procedūras po to, kai jūsų Komercijos vertinimo aplinka buvo parengta ir sukonfigūruota. Dėl informacijos, kaip parengti ir konfigūruoti savo aplinką, žr. [Parengti „Dynamics 365 Commerce“ vertinimo aplinką](provisioning-guide.md) ir [Konfigūruoti „Dynamics 365 Commerce“ vertinimo aplinką](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning).
+Pabaikite šio skyriaus procedūras po to, kai jūsų Komercijos vertinimo aplinka buvo parengta ir sukonfigūruota. Dėl informacijos, kaip parengti ir konfigūruoti savo aplinką, žr. [Parengti „Dynamics 365 Commerce“ vertinimo aplinką](provisioning-guide.md) ir [Konfigūruoti „Dynamics 365 Commerce“ vertinimo aplinką](./cpe-post-provisioning.md).
 
 Po to, kai jūsų „Commerce” aplinka visapusiškai parengta ir sukonfigūruota, galite pasinaudoti šia tema, kad įgalintumėte BOPIS scenarijus.
 
@@ -37,7 +37,7 @@ Po to, kai jūsų „Commerce” aplinka visapusiškai parengta ir sukonfigūruo
 
 ### <a name="configure-modern-pos"></a>„Modern POS” konfigūravimas
 
-BOPIS scenarijams, apimantiems mokėjimą kredito kortele, reikia aparatūros stoties. Aparatūros stotis yra įmontuota į „Windows“ ir „Android“ klientų „Modern POS“. Jei naudojate „Cloud POS“ arba „Modern POS“, skirtas „iOS“, elektroninio kasos aparato (EKA) klientas turi būti susietas su bendrai naudojama aparatūros stotimi. Šioje temoje paaiškinama, kaip sukonfigūruoti BOPIS, skirtą „Windows” ir „Android” klientams. Informacijos apie tai, kaip nustatyti bendrai naudojamą aparatūros stotį, žr. [Mažmeninės prekybos aparatūros stoties konfigūracija ir diegimas](https://docs.microsoft.com/dynamics365/commerce/retail-hardware-station-configuration-installation).
+BOPIS scenarijams, apimantiems mokėjimą kredito kortele, reikia aparatūros stoties. Aparatūros stotis yra įmontuota į „Windows“ ir „Android“ klientų „Modern POS“. Jei naudojate „Cloud POS“ arba „Modern POS“, skirtas „iOS“, elektroninio kasos aparato (EKA) klientas turi būti susietas su bendrai naudojama aparatūros stotimi. Šioje temoje paaiškinama, kaip sukonfigūruoti BOPIS, skirtą „Windows” ir „Android” klientams. Informacijos apie tai, kaip nustatyti bendrai naudojamą aparatūros stotį, žr. [Mažmeninės prekybos aparatūros stoties konfigūracija ir diegimas](./retail-hardware-station-configuration-installation.md).
 
 1. Pasirinkite **Mažmeninė prekyba ir prekyba \> Kanalo sąranka \> EKA sąranka \> Registrai**.
 2. Pasirinkite registrą **SANFRAN-5**, tada pasirinkite **Redaguoti**.
@@ -87,7 +87,7 @@ BOPIS scenarijams, apimantiems mokėjimą kredito kortele, reikia aparatūros st
 
 ### <a name="create-a-storefront-order-for-in-store-pickup"></a>Parduotuvėje paimamo parduotuvės užsakymo kūrimas
 
-1. Eikite į URL, kurį nurodėte veiksmo [El. prekybos inicijavimas](https://docs.microsoft.com/dynamics365/commerce/provisioning-guide#initialize-e-commerce) metu atliekant aplinkos konfigūravimą.
+1. Eikite į URL, kurį nurodėte veiksmo [El. prekybos inicijavimas](./provisioning-guide.md#initialize-e-commerce) metu atliekant aplinkos konfigūravimą.
 2. Pasirinkite prekę, tada – **Įtraukti į krepšelį**.
 3. Pirkinių krepšelio puslapyje pasirinkite **Paimti** ką tik įtrauktoje užsakymo eilutėje.
 4. Dialogo lange **Pasirinkti parduotuvę** įveskite **San Franciskas** ir pasirinkite mygtuką **Paieška**.
@@ -112,7 +112,7 @@ BOPIS scenarijams, apimantiems mokėjimą kredito kortele, reikia aparatūros st
 
 ### <a name="synchronize-online-orders-to-the-back-office"></a>Internetinių užsakymų sinchronizavimas su tarnybiniu biuru
 
-Informacijos apie tai, kaip sinchronizuoti internetinius užsakymus, žr. [Pardavimo ir mokėjimų internetu registravimas](https://docs.microsoft.com/dynamics365/commerce/tasks/posting-online-sales-payments).
+Informacijos apie tai, kaip sinchronizuoti internetinius užsakymus, žr. [Pardavimo ir mokėjimų internetu registravimas](./tasks/posting-online-sales-payments.md).
 
 ### <a name="pick-up-an-order-in-the-store"></a>Užsakymo paėmimas parduotuvėje
 
@@ -148,19 +148,19 @@ Susidūrę su problemomis pirmiausia perskaitykite „Modern POS” arba informa
 
 [„Dynamics 365 Commerce“ vertinimo aplinkos DUK](cpe-faq.md)
 
-[„Microsoft Lifecycle Services“ (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[„Microsoft Lifecycle Services“ (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[„Retail Cloud Scale Unit“ (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[„Retail Cloud Scale Unit“ (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [„Microsoft Azure“ portalas](https://azure.microsoft.com/features/azure-portal)
 
 [„Dynamics 365 Commerce“ svetainė](https://aka.ms/Dynamics365CommerceWebsite)
 
-[„Adyen“ mokėjimo jungtis](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
+[„Adyen“ mokėjimo jungtis](./dev-itpro/adyen-connector.md?tabs=8-1-3)
 
-[Internetinių mokėjimo priemonių įrašymas naudojant „Adyen“ jungtį](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
+[Internetinių mokėjimo priemonių įrašymas naudojant „Adyen“ jungtį](./dev-itpro/adyen-connector-listpi.md)
 
-[Integruotų kanalų mokėjimų apžvalga](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)
+[Integruotų kanalų mokėjimų apžvalga](./omni-channel-payments.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

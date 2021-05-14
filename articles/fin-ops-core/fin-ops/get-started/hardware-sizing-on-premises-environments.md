@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 55dc237629b7b595b03d48adabc6b31492171e25
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c5e6e96ea1ce821233d7104bb9a7af8e793f4264
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748750"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923485"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Aparatūros dydžio reikalavimų nustatymas vietinėse aplinkose
 
@@ -134,7 +134,7 @@ Naudojant bendrai prieinamą leidimą, galima diegti tik vieną SSRS mazgą. Ste
 
 ## <a name="environment-orchestrator"></a>Aplinkos valdymo įrankis
 
-Valdymo įrankio paslauga yra paslauga, kuri valdo jūsų įdiegtį ir su LCS susijusius ryšius. Ši paslauga diegiama kaip pirminė „Service Fabric‟ paslauga ir jai reikalingos bent trys VM. Ši paslauga pateikiama kartu su „Service Fabric‟ valdymo paslaugomis. Dydis turėtų būti nustatomas pagal didžiausią klasterio apkrovą. Daugiau informacijos žr. [Atskiro „Service Fabric“ klasterio diegties planavimas ir ruošimas](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
+Valdymo įrankio paslauga yra paslauga, kuri valdo jūsų įdiegtį ir su LCS susijusius ryšius. Ši paslauga diegiama kaip pirminė „Service Fabric‟ paslauga ir jai reikalingos bent trys VM. Ši paslauga pateikiama kartu su „Service Fabric‟ valdymo paslaugomis. Dydis turėtų būti nustatomas pagal didžiausią klasterio apkrovą. Daugiau informacijos žr. [Atskiro „Service Fabric“ klasterio diegties planavimas ir ruošimas](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Virtualizavimas ir perviršinis rezervavimas
 

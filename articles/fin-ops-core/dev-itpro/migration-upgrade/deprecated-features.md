@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0389548b7867cc9505c9b8fe70c880959f6783b0
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ce49835f167881417000b066fd4a351d26ca0909
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745268"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921428"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
 
@@ -37,7 +37,7 @@ ms.locfileid: "5745268"
 
 Šis sąrašas skirtas suteikti jums informacijos apie pašalintas ir nebenaudojamas funkcijas, kad galėtumėte geriau planuoti savo darbą. 
 
-Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
+Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](/dynamics/s-e/global/axtechrefrep_61). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
 
 ## <a name="finance-1007-with-platform-update-31"></a>„Finance“ 10.0.7 su „Platform update 31“
 
@@ -147,7 +147,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Antraštės lygiavimas su kitais „Dynamics“ ir „Office“ produktais. Norėdami daugiau informacijos žr. [Atnaujinta naršymo juosta, sulygiuota su „Office“ antrašte](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
+| **Nebenaudojimo / pašalinimo priežastis** | Antraštės lygiavimas su kitais „Dynamics“ ir „Office“ produktais. Norėdami daugiau informacijos žr. [Atnaujinta naršymo juosta, sulygiuota su „Office“ antrašte](/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
 | **Pakeitė kita funkcija?**   | Į 24 ir vėlesnius platformos naujinius įtraukta perkurta naršymo juosta, kurioje pateikta ieškos funkcija. |
 | **Paveiktos produkto sritys**         | Žiniatinklio klientas |
 | **Visuotinio diegimo parinktis**              | Visos |
@@ -161,7 +161,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Dėl senesnio tinklelių numatytųjų veiksmų veikimo numatytasis veiksmo saitas personalizuojant pertvarkius tinklelio stulpelius atsiranda nenumatytame stulpelyje. Tai ištaiso naujoji „priklijuojamųjų“ numatytųjų veiksmų funkcija. Norėdami gauti daugiau informacijos, žr. [„Priklijuojamieji“ numatytieji veiksmai tinkleliuose](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
+| **Nebenaudojimo / pašalinimo priežastis** | Dėl senesnio tinklelių numatytųjų veiksmų veikimo numatytasis veiksmo saitas personalizuojant pertvarkius tinklelio stulpelius atsiranda nenumatytame stulpelyje. Tai ištaiso naujoji „priklijuojamųjų“ numatytųjų veiksmų funkcija. Norėdami gauti daugiau informacijos, žr. [„Priklijuojamieji“ numatytieji veiksmai tinkleliuose](/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
 | **Pakeitė kita funkcija?**   | Nuo „Platform Update 21“ buvo įdiegta „priklijuojamųjų” numatytųjų veiksmų funkcija. Šią funkciją galima įjungti puslapyje **Kliento našumo parinktys**. |
 | **Paveiktos produkto sritys**         | Tinkleliai žiniatinklio kliente |
 | **Visuotinio diegimo parinktis**              | Visos |
@@ -172,7 +172,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 |&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Naujinime „Platform Update 22“ filtravimo patirtis „vienas iš“ buvo pertvarkyta; planuojama, kad ilgainiui ji bus vienintelė tokia filtravimo patirtis. |
-| **Pakeitė kita funkcija?**   | Nuo „Platform Update 22“ puslapyje **Kliento našumo parinktys** galima naudoti patobulintą filtravimo patirtį „vienas iš“. Norėdami gauti daugiau informacijos, žr. [Optimizuota filtravimo patirtis „vienas iš“](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
+| **Pakeitė kita funkcija?**   | Nuo „Platform Update 22“ puslapyje **Kliento našumo parinktys** galima naudoti patobulintą filtravimo patirtį „vienas iš“. Norėdami gauti daugiau informacijos, žr. [Optimizuota filtravimo patirtis „vienas iš“](/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
 | **Paveiktos produkto sritys**         | Žiniatinklio klientas |
 | **Visuotinio diegimo parinktis**              | Visos |
 | **Būsena**                         | Nerekomenduojama. Nuo 2020 m. balandžio mėn. numatytasis veikimo būdas bus patobulinta patirtis „vienas iš“ ir nebus mechanizmo grąžinti senesnio veikimo būdo. |
@@ -1333,7 +1333,7 @@ Programoje „Dynamics AX 2012 R3“ „Retail Server“ galėjo veikti naudojan
 
 ### <a name="virtual-company-accounts"></a>Virtualios įmonės
 
-Virtualių įmonių funkcija programoje „Dynamics AX“ nebepalaikoma. Virtualių įmonių funkcija naudotojams leidžia nustatyti lenteles, kurias gali bendrai naudoti įmonių grupė. Funkcijos aprašo žr.: [Įmonių sąskaitos ir Virtualių įmonių sąskaitos](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). Funkcija veikia grupuodama lenteles į rinkinius, kurie yra priskiriami virtualioms įmonėms, kurios yra esamų „tikrų‟ įmonių grupės. Užklausos kuriamos taip, kad visos įmonės virtualioje įmonėje galėtų prieiti prie lentelių duomenų, susietų lentelių rinkiniuose.
+Virtualių įmonių funkcija programoje „Dynamics AX“ nebepalaikoma. Virtualių įmonių funkcija naudotojams leidžia nustatyti lenteles, kurias gali bendrai naudoti įmonių grupė. Funkcijos aprašo žr.: [Įmonių sąskaitos ir Virtualių įmonių sąskaitos](../../fin-ops/get-started/ax4-content-retired.md). Funkcija veikia grupuodama lenteles į rinkinius, kurie yra priskiriami virtualioms įmonėms, kurios yra esamų „tikrų‟ įmonių grupės. Užklausos kuriamos taip, kad visos įmonės virtualioje įmonėje galėtų prieiti prie lentelių duomenų, susietų lentelių rinkiniuose.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|

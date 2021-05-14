@@ -1,8 +1,8 @@
 ---
 title: Biudžetų sudarymo modulio apžvalga
 description: Beveik visos įmonės, kurios naudoja „Microsoft Dynamics 365 Finance“ finansų funkciją, turės galėti kurti biudžeto ir faktinės sumų ataskaitas. Šiame straipsnyje paaiškinama konfigūravimo veiksmai, kuriuos reikia atlikti norint kurti biudžetus programoje „Finance and Operations“ arba įkelti juos iš trečiosios šalies programos.
-author: ShylaThompson
-ms.date: 01/11/2018
+author: panolte
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
-ms.author: sigitac
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70428d6603939d8a36c0d3452e6ffdc6e3864865
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 02122d9145552952412c239a7f541e6a727f061e
+ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827463"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5960054"
 ---
 # <a name="budgeting-overview"></a>Biudžetų sudarymo apžvalga
 
@@ -71,7 +71,7 @@ Funkcijos, pristatytos „Microsoft Dynamics 365 Finance“ 10.0.7 (2020 m. saus
 
 Funkcija **Biudžeto registro įrašai tik kiekiui** leidžia registruoti biudžeto registro įrašą su tik kiekio sumomis. Pavyzdžiui, galite užregistruoti biudžeto įrašą, kurio kiekis yra 32, o kaina – nulis, tokiu būdu gaunant nulinę sumą. Tada šį kiekį galite naudoti finansinės ataskaitos kontekste, kad nustatytumėte kainą pagal kiekį. Atkreipkite dėmesį, kad naudojant šią funkciją nebuvo atnaujinta nė viena iš užklausų ar ataskaitų; funkcija tiesiog leidžia užregistruoti nulinę sumą.
 
-Funkcija **Numatytieji biudžeto registro įrašų sumos tipai** leidžia biudžeto registro įraše naudoti numatytąjį sumos tipą, kurio sumos tipas nėra išlaidos. Kai pagrindinės sąskaitos tipas yra išlaidos, numatytoji biudžeto registro įrašo eilutė dabar bus išlaidos; kai pagrindinės sąskaitos tipas yra išlaidos, numatytoji eilutės bus įplaukos; visiems kitiems sąskaitų tipams numatytoji eilutė bus išlaidos.
+Funkcija **Numatytieji biudžeto registro įrašų sumos tipai** leidžia biudžeto registro įraše naudoti numatytąjį sumos tipą, kurio sumos tipas nėra išlaidos. Kai pagrindinės sąskaitos tipas yra išlaidos, numatytoji biudžeto registro įrašo eilutė dabar bus išlaidos; kai pagrindinės sąskaitos tipas yra išlaidos, numatytoji eilutės bus pajamos; visiems kitiems sąskaitų tipams numatytoji eilutė bus išlaidos.
 
 ## <a name="using-workspaces-and-inquiry-pages-to-track-budget-vs-actuals"></a>Darbo sričių ir užklausų puslapių naudojimas biudžetui ir faktinėms sumoms sekti
 Biudžeto vadybininkas gali peržiūrėti dabartinę biudžeto būseną darbo srityje **DK biudžetai ir prognozės**. Skirtukuose **Išlaidos, viršijančios biudžetą** ir **Biudžeto įplaukos** galima greitai peržiūrėti finansinių dimensijų derinius, kai biudžeto tikslai neįvykdomi arba artėja prie slenksčio. Biudžeto slenksčio procentą ir finansinių dimensijų rinkinius, naudojamus tuose skirtukuose, galite pritaikyti spustelėdami **Konfigūruoti mano darbo sritį**. Galite spustelėti **Grupių vadovai** ir peržiūrėti darbuotojus, kurie yra atsakingi už konkrečius finansinių dimensijų derinius, pasirinktus tuose skirtukuose. Pvz., jei matote, kad operacijų padalinio išlaidų biudžetas viršija biudžeto slenkstį, galite lengvai rasti ir susisiekti su operacijų padalinio vadovu bei tai aptarti. 

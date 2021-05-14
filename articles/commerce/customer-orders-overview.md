@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: a310c7067b399fb35ccc8a1b17d8bd6822a27a62
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e495ac4f3cc55503cc8b15d4d4640d3468ab7cd2
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821013"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936735"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Kliento užsakymai elektroniniame kasos aparate (EKA)
 
@@ -42,7 +42,7 @@ Prieš pradėdami naudoti kliento užsakymų funkciją EKA, įsitikinkite, kad a
 
 ### <a name="configure-modes-of-delivery"></a>Pristatymo būdų konfigūravimas
 
-Norėdami naudoti kliento užsakymus, turite sukonfigūruoti pristatymo būdus, kuriuos gali naudoti parduotuvės kanalas. Turite apibrėžti bent vieną pristatymo būdą, kurį galima naudoti, kai užsakymo eilutės siunčiamos klientui iš parduotuvės. Taip pat turite apibrėžti bent vieną pristatymo paėmimo būdą, kurį galima naudoti, kai užsakymo eilutės paimamos iš parduotuvės. Pristatymo būdai apibrėžiami „Commerce Headquarters“ puslapyje **Pristatymo būdai**. Daugiau informacijos apie tai, kaip nustatyti „Commerce“ kanalų pristatymo būdus, žr. [Pristatymo būdų apibrėžimas](https://docs.microsoft.com/dynamics365/commerce/configure-call-center-delivery#define-delivery-modes).
+Norėdami naudoti kliento užsakymus, turite sukonfigūruoti pristatymo būdus, kuriuos gali naudoti parduotuvės kanalas. Turite apibrėžti bent vieną pristatymo būdą, kurį galima naudoti, kai užsakymo eilutės siunčiamos klientui iš parduotuvės. Taip pat turite apibrėžti bent vieną pristatymo paėmimo būdą, kurį galima naudoti, kai užsakymo eilutės paimamos iš parduotuvės. Pristatymo būdai apibrėžiami „Commerce Headquarters“ puslapyje **Pristatymo būdai**. Daugiau informacijos apie tai, kaip nustatyti „Commerce“ kanalų pristatymo būdus, žr. [Pristatymo būdų apibrėžimas](./configure-call-center-delivery.md#define-delivery-modes).
 
 ![Puslapis pristatymo būdai](media/customer-order-modes-of-delivery.png)
 
@@ -78,19 +78,19 @@ Prieš pradėdami kurti kliento užsakymus EKA, turite sukonfigūruoti tinkamus 
 - **Atšaukimo mokesčio procentas** – jei atšaukus kliento užsakymą turėtų būti taikomas mokestis, nurodykite to mokesčio sumą.
 - **Atšaukimo mokesčio kodas** – nurodykite gautinų sumų mokesčio kodą, kuris turėtų būti naudojamas, kai atšauktiems kliento užsakymams EKA taikomas atšaukimo mokestis. Mokesčio kodas apibrėžia atšaukimo mokesčio finansų registravimo logiką.
 - **Siuntimo mokesčio kodas** – jei parinktis **Naudoti išplėstinius automatinius mokesčius** nustatyta į **Taip**, šis parametro nustatymas neturi jokios įtakos. Jei parinktis nustatyta į **Ne**, vartotojai bus raginami rankiniu būdu įvesti siuntimo mokestį, kai jie sukurs kliento užsakymus EKA. Naudokite šį parametrą norėdami susieti gautinų sumų mokesčio kodą, kuris bus taikomas užsakymams, kai vartotojai įves siuntimo mokestį. Mokesčio kodas apibrėžia siuntimo mokesčio finansų registravimo logiką.
-- **Naudoti išplėstinius automatinius mokesčius** – nustatykite šią parinktį į **Taip**, norėdami naudoti sistemos apskaičiuotus automatinius mokesčius, kai klientų užsakymai kuriami EKA. Šie automatiniai mokesčiai gali būti naudojami apskaičiuojant siuntimo mokesčius ar kitus užsakymo ar prekės mokesčius. Norėdami gauti daugiau informacijos apie tai, kaip nustatyti ir naudoti išplėstinius automatinius mokesčius, žr. [Daugiakanaliai išplėstiniai automatiniai mokesčiai](https://docs.microsoft.com/dynamics365/commerce/omni-auto-charges).
+- **Naudoti išplėstinius automatinius mokesčius** – nustatykite šią parinktį į **Taip**, norėdami naudoti sistemos apskaičiuotus automatinius mokesčius, kai klientų užsakymai kuriami EKA. Šie automatiniai mokesčiai gali būti naudojami apskaičiuojant siuntimo mokesčius ar kitus užsakymo ar prekės mokesčius. Norėdami gauti daugiau informacijos apie tai, kaip nustatyti ir naudoti išplėstinius automatinius mokesčius, žr. [Daugiakanaliai išplėstiniai automatiniai mokesčiai](./omni-auto-charges.md).
 
 ![Skirtukas Kliento užsakymai „Commerce” parametrų puslapyje](media/customer-order-parameters.png)
 
 ### <a name="update-transaction-screen-layouts-in-pos"></a>Operacijų ekrano išdėstymo EKA naujinimas
 
-Įsitikinkite, kad EKA [ekrano išdėstymas](https://docs.microsoft.com/dynamics365/commerce/pos-screen-layouts) sukonfigūruotas palaikyti klientų užsakymų kūrimą bei valdymą ir kad visos reikalingos EKA operacijos yra sukonfigūruotos. Toliau nurodytos kelios EKA operacijos, rekomenduojamos siekiant tinkamai palaikyti klientų užsakymų kūrimą ir valdymą.
+Įsitikinkite, kad EKA [ekrano išdėstymas](./pos-screen-layouts.md) sukonfigūruotas palaikyti klientų užsakymų kūrimą bei valdymą ir kad visos reikalingos EKA operacijos yra sukonfigūruotos. Toliau nurodytos kelios EKA operacijos, rekomenduojamos siekiant tinkamai palaikyti klientų užsakymų kūrimą ir valdymą.
 - **Siųsti visus produktus** – ši operacija naudojama norint nurodyti, kad visos operacijos krepšelio eilutės bus išsiųstos į paskirties vietą.
 - **Siųsti pasirinktus produktus** – ši operacija naudojama norint nurodyti, kad pasirinktos operacijos krepšelio eilutės bus išsiųstos į paskirties vietą.
 - **Paimti visus produktus** – ši operacija naudojama norint nurodyti, kad visos operacijos krepšelio eilutės bus paimtos iš pasirinktos parduotuvės.
 - **Paimti pasirinktus produktus** – ši operacija naudojama norint nurodyti, kad pasirinktos operacijos krepšelio eilutės bus paimtos iš pasirinktos parduotuvės.
 - **Išsivežti visus produktus** – ši operacija naudojama norint nurodyti, kad visos operacijos krepšelio eilutės bus išsivežtos. Jei ši operacija naudojama EKA, kliento užsakymas bus konvertuotas į atsiskaitymo grynaisiais ir išsivežimo operaciją.
-- **Išsivežti pasirinktus produktus** – ši operacija naudojama norint nurodyti, kad pasirinktas operacijos krepšelio eilutes klientas išsiveš pirkimo metu. Ši operacija naudinga tik [mišraus užsakymo](https://docs.microsoft.com/dynamics365/commerce/hybrid-customer-orders) atveju.
+- **Išsivežti pasirinktus produktus** – ši operacija naudojama norint nurodyti, kad pasirinktas operacijos krepšelio eilutes klientas išsiveš pirkimo metu. Ši operacija naudinga tik [mišraus užsakymo](./hybrid-customer-orders.md) atveju.
 - **Atšaukti užsakymą** – ši operacija naudojama klientų užsakymams ieškoti ir gauti, kad EKA vartotojai galėtų redaguoti, atšaukti ar atlikti su jais susijusias operacijas pagal poreikį.
 - **Keisti pristatymo būdą** – ši operacija gali būti naudojama norint greitai pakeisti eilučių, kurios jau sukonfigūruotos siuntimui, pristatymo būdą, nereikalaujant, kad vartotojai vėl pereitų srautus „Siųsti visus produktus“ arba „Siųsti pasirinktus produktus“.
 - **Įmokos keitimas** – šią operaciją galima naudoti norint pakeisti įmokos sumą, kurią klientas sumokės už pasirinktą kliento užsakymą.
@@ -128,7 +128,7 @@ Prieš pradėdami kurti kliento užsakymus EKA, turite sukonfigūruoti tinkamus 
 Mažmeninės prekybos užsakymus, sukurtus internetiniame arba parduotuvės kanale, galima atšaukti ir redaguoti naudojant EKA, jei reikia.
 
 > [!IMPORTANT]
-> Ne mažmeniniai užsakymai gali būti redaguojami per POS programą. Užsakymų, sukurtų skambučių centro kanale, negalima redaguoti naudojant EKA, jei parametras [Įjungti užsakymų užbaigimą](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) įjungtas skambučių centro kanalui. Norint užtikrinti teisingą mokėjimų apdorojimą, užsakymus, gautus iš skambučių centro kanalo ir naudojančius funkciją Įjungti užsakymų užbaigimą, reikia redaguoti naudojant skambučių centro programą, esančią „Commerce Headquarters“.
+> Ne mažmeniniai užsakymai gali būti redaguojami per POS programą. Užsakymų, sukurtų skambučių centro kanale, negalima redaguoti naudojant EKA, jei parametras [Įjungti užsakymų užbaigimą](./set-up-order-processing-options.md#enable-order-completion) įjungtas skambučių centro kanalui. Norint užtikrinti teisingą mokėjimų apdorojimą, užsakymus, gautus iš skambučių centro kanalo ir naudojančius funkciją Įjungti užsakymų užbaigimą, reikia redaguoti naudojant skambučių centro programą, esančią „Commerce Headquarters“.
 
 10.0.17 versijoje ir vėlesnėse, vartotojai gali redaguoti galiojančius užsakymus per POS programą, net jei užsakymas yra įvykdytas iš dalies. Tačiau užsakymų, kurių visos SF išrašytos, vis tiek negalima redaguoti naudojant EKA. Norėdami įjungti šią galimybę, įjunkite **Redaguoti iš dalies įvykdytus užsakymos prekybos taške** funkciją **Funkcijos valdymas** darbo srityje. Jei ši funkcija neįjungta arba jei naudojate 10.0.16 versiją ar ankstesnę, vartotojai galės tik redaguoti kliento užsakymus POS, jei užsakyams yra atidarytas iki galo. Taip pat, jei funkcija įjungta, galite apriboti, kurios parduotuvės gali redaguoti iš dalies įvykdytus užsakymus. Parinktis skirta išjungti šią galimybę konkrečioms parduotuvėms gali būti konfigūruojama per **Funkcijų profilį** „FastTab“ **Bendri**.
 
@@ -153,7 +153,7 @@ Mažmeninės prekybos užsakymus, sukurtus internetiniame arba parduotuvės kana
 
 ## <a name="finalizing-the-customer-order-shipment-or-pickup-from-pos"></a>Kliento užsakymo siuntimo ar paėmimo EKA užbaigimas
 
-Sukūrus užsakymą, prekes klientas paims iš parduotuvės arba jos bus išsiųstos, atsižvelgiant į užsakymo konfigūraciją. Daugiau informacijos apie šį procesą žr. dokumentaciją [Parduotuvės užsakymo įvykdymas](https://docs.microsoft.com/dynamics365/commerce/order-fulfillment-overview).
+Sukūrus užsakymą, prekes klientas paims iš parduotuvės arba jos bus išsiųstos, atsižvelgiant į užsakymo konfigūraciją. Daugiau informacijos apie šį procesą žr. dokumentaciją [Parduotuvės užsakymo įvykdymas](./order-fulfillment-overview.md).
 
 ## <a name="asynchronous-transaction-flow-for-customer-orders"></a>Kliento užsakymų asinchroninių operacijų srautas
 

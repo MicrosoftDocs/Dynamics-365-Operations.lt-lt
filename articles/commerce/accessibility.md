@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 13f035a080eb41b4a69cc31b7275d87a5836c686
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e924b3ce737925303e5123ca8102c7867bd81f2c
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796323"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936685"
 ---
 # <a name="accessibility-features-and-capabilities"></a>Pritaikymo neįgaliesiems funkcijos ir galimybės
 
@@ -95,11 +95,11 @@ Norėdami nustatyti vaizdo įrašo ištekliaus atributą **Minimalus amžius**, 
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Formų, produktų ir valdiklių pritaikymas neįgaliesiems](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/user-interface/enable-accessibility)
+[Formų, produktų ir valdiklių pritaikymas neįgaliesiems](/dynamics365/unified-operations/dev-itpro/user-interface/enable-accessibility)
 
 [„Microsoft“ pritaikymo neįgaliesiems centras](https://www.microsoft.com/accessibility)
 
-[„Dynamics 365“ pritaikymo neįgaliesiems centras](https://docs.microsoft.com/dynamics365/get-started/accessibility/index)
+[„Dynamics 365“ pritaikymo neįgaliesiems centras](/dynamics365/get-started/accessibility/index)
 
 [Atitikties peržiūra](compliance-overview.md)
 

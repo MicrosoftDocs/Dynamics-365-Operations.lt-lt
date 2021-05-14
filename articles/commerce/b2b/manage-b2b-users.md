@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7c1bd8d9cb494cef78fa7c14f6c391821d48749a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6beee4cc4c0dd36f49a38ee49a1a23ad9b513360
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799858"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936661"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Valdykite verslo partnerio vartotojus B2B el. komercijos svetainėse
 
@@ -43,7 +43,7 @@ Norėdami įjungti B2B el. komercijos galimybių funkciją „Commerce“ štabe
 
 ## <a name="create-a-number-sequence-and-add-it-to-commerce-shared-parameters"></a>Kurkite skaičių seką ir įtraukite ją į „Commerce“ bendrintus parametrus
 
-Numeracija naudojama bendrųjų duomenų įrašų ir operacijų įrašų, kuriems reikia identifikatorių, nuskaitomiems unikaliems identifikatoriams sugeneruoti. Daugiau informacijos apie numeracijas rasite [Numeracijų apžvalga](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview).
+Numeracija naudojama bendrųjų duomenų įrašų ir operacijų įrašų, kuriems reikia identifikatorių, nuskaitomiems unikaliems identifikatoriams sugeneruoti. Daugiau informacijos apie numeracijas rasite [Numeracijų apžvalga](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md).
 
 Norėdami sukurti skaičių seką ir ją įtraukti į „Commerce“ bendrintus parametrus „Commerce“ štabe, imkitės šių veiksmų.
 
@@ -136,7 +136,7 @@ Norėdami įtraukti verslo partnerius ir vartotojus tiesiai „Commerce“ būst
 
 [Nustatykite produkto kiekio apribojimus B2B el. komercijos saitams](quantity-limits.md)
 
-[Numeracijų apžvalga](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
+[Numeracijų apžvalga](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Sekos elementų ER formatais vykdymo atidėjimas
 description: Šioje temoje paaiškinama, kaip atidėti sekos elemento elektroninių ataskaitų (ER) formatu vykdymą.
 author: NickSelin
-ms.date: 03/17/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: cdcbc828fadce641cbee2cc6135be819a03275c9
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: a7904924d1c2830287e26eb9fb71bd9a03f210d9
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894105"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944514"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Sekos elementų ER formatais vykdymo atidėjimas
 
@@ -57,14 +57,14 @@ Jei dar nebaigėte pavyzdžio, pateikiamo temoje [XML elementų ER formatais vyk
 
 | Turinio aprašas            | Failo pavadinimas |
 |--------------------------------|-----------|
-| ER duomenų modelio konfigūracija    | [Modelis, norint sužinoti apie atidėtus elementus.1.versija.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| ER modelio susiejimo konfigūracija | [Susiejimas, norint sužinoti apie atidėtus elementus.1.1.versija.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| ER duomenų modelio konfigūracija    | [Modelis, norint sužinoti apie atidėtus elementus.1.versija.xml](https://download.microsoft.com/download/7/6/0/760933ca-4ac3-4f50-bc0c-c35e596ee066/Modeltolearndeferredelements.version.1.xml) |
+| ER modelio susiejimo konfigūracija | [Susiejimas, norint sužinoti apie atidėtus elementus.1.1.versija.xml](https://download.microsoft.com/download/c/9/c/c9c4b9dd-b700-4385-a087-a84ce9fc1d0f/Mappingtolearndeferredelements.version.1.1.xml) |
 
 Prieš pradėdami, taip pat turite atsisiųsti ir įrašyti šią ER sprendimo pavyzdžio konfigūraciją.
 
 | Turinio aprašas     |Failo pavadinimas |
 |-------------------------|----------|
-| ER formato konfigūracija | [Formatas, norint sužinoti apie atidėtas sekas.1.1.versija.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| ER formato konfigūracija | [Formatas, norint sužinoti apie atidėtas sekas.1.1.versija.xml](https://download.microsoft.com/download/0/f/5/0f55c341-8285-4d92-a46d-475d9a010927/Formattolearndeferredsequences.version.1.1.xml) |
 
 ### <a name="import-the-sample-er-configurations"></a>Pavyzdinių ER konfigūracijų importavimas
 
@@ -169,7 +169,7 @@ Peržiūrėkite ER modelio susiejimo komponento, kuris konfigūruojamas, kad bū
 1. Puslapyje **Formato dizaino įrankis** pasirinkite **Vykdyti**.
 2. Atsisiųskite failą, kuris siūlomas žiniatinklio naršyklėje, ir atidarę jį peržiūrėkite.
 
-    ![Atsisiųstas failas](./media/ER-DeferredSequence-Run.png)
+    ![Atsisiųstas ataskaitos failo pavyzdys](./media/ER-DeferredSequence-Run.png)
 
 Atkreipkite dėmesį, kad 22 suvestinės eilutėje pateikiama apdorotų operacijų mokesčių verčių suma. Kadangi formatas sukonfigūruotas, kad naudotų susiejimą **model.Data.Summary.Total** šiai sumai pateikti, suma apskaičiuojama iškviečiant telkimą **TotalSum** duomenų šaltinyje **Sugrupuota**, kurio tipas yra *GroupBy*, naudojantis modelių susiejimą. Norint apskaičiuoti šį telkimą, modelių susiejimas pakartojamas visose operacijose, kurios buvo pasirinktos duomenų šaltinyje **Filtruota**. Lygindami 21 ir 22 eilučių vykdymo laikus, galite nustatyti, kad sumos apskaičiavimas truko 10 milisekundžių (ms). Lygindami 2 ir 21 eilučių vykdymo laikus, galite nustatyti, kad visų operacijų eilučių generavimas truko 7 ms. Taigi, iš viso prireikė 17 ms.
 
@@ -202,7 +202,7 @@ Jei operacijų kiekis yra daug didesnis, nei kiekis šiame pavyzdyje, sumavimo t
 12. Pasirinkite **Įrašyti**, tada pasirinkite **Vykdyti**.
 13. Atsisiųskite ir peržiūrėkite failą, kuris siūlomas žiniatinklio naršyklėje.
 
-    ![Atsisiųstas failas](./media/ER-DeferredSequence-Run1.png)
+    ![Atsisiųstas failas – susumuoti mokesčių vertės](./media/ER-DeferredSequence-Run1.png)
 
     21 eilutėje yra visų apdorotų operacijų bendra mokesčių verčių suma, apskaičiuota naudojant sugeneruotą išvestį kaip duomenų šaltinį. Šis duomenų šaltinis prasideda ataskaitos pradžioje ir tęsiasi iki paskutinės mokesčių operacijos. 22 eilutėje yra visų apdorotų operacijų, apskaičiuotų modelio susiejimo metu naudojant *GroupBy* tipo duomenų šaltinį, mokesčių verčių suma. Atkreipkite dėmesį, kad šios vertės yra lygios. Todėl galima naudoti išvestimi pagrįstą sumavimą, o ne **GroupBy**. Lygindami 2 ir 21 eilučių vykdymo laikus, galite nustatyti, kad visų operacijų eilučių generavimas ir sumavimas truko 9 ms. Todėl, kiek tai susiję su išsamių eilučių generavimu ir mokesčių verčių sumavimu, modifikuotas formatas yra maždaug du kartus spartesnis už pradinį formatą.
 
@@ -211,7 +211,7 @@ Jei operacijų kiekis yra daug didesnis, nei kiekis šiame pavyzdyje, sumavimo t
 16. Pasirinkite **Įrašyti**, tada pasirinkite **Vykdyti**.
 17. Atsisiųskite ir peržiūrėkite failą, kuris siūlomas žiniatinklio naršyklėje.
 
-    ![Atsisiųstas failas](./media/ER-DeferredSequence-Run2.png)
+    ![Atsisiųstas failas su redaguota formule](./media/ER-DeferredSequence-Run2.png)
 
     Atkreipkite dėmesį, kad bendra mokesčių verčių suma paskutinėje operacijos informacijos eilutėje dabar yra lygi sumai suvestinės eilutėje.
 
@@ -224,7 +224,7 @@ Jei, pavyzdžiui, turite pateikti mokesčių verčių sumą ataskaitos antrašt�
 3. Pasirinkite **Įrašyti**, tada pasirinkite **Vykdyti**.
 4. Atsisiųskite ir peržiūrėkite failą, kuris siūlomas žiniatinklio naršyklėje.
 
-    ![Atsisiųstas failas](./media/ER-DeferredSequence-Run3.png)
+    ![Atsisiųstas failas, skirtas sumuoti ataskaitos antraštėje](./media/ER-DeferredSequence-Run3.png)
 
     Atkreipkite dėmesį, kad mokesčių verčių suma 2 suvestinės eilutėje dabar yra lygi 0 (nuliui), nes ši suma dabar apskaičiuojama pagal sugeneruotą išvestį. Kai sugeneruojama 2 eilutė, sugeneruotoje išvestyje dar nėra eilučių, kuriuose būtų operacijų informacijos. Galite sukonfigūruoti šį formatą, kad būtų atidėtas sekos elemento **Ataskaita\\Eilutės\\Suvestinė** vykdymas, kol bus įvykdytas visų mokesčių operacijų sekos elementas **Ataskaita\\Eilutės\\Įrašas**.
 
@@ -238,7 +238,7 @@ Jei, pavyzdžiui, turite pateikti mokesčių verčių sumą ataskaitos antrašt�
 3. Pasirinkite **Įrašyti**, tada pasirinkite **Vykdyti**.
 4. Atsisiųskite ir peržiūrėkite failą, kuris siūlomas žiniatinklio naršyklėje.
 
-    ![Atsisiųstas failas](./media/ER-DeferredSequence-Run4.png)
+    ![Atsisiųstas failas – atidėtas vykdymas](./media/ER-DeferredSequence-Run4.png)
 
     Dabar sekos elementas **Ataskaita\\Eilutės\\Suvestinė** dabar vykdomas tik įvykdžius visus kitus jo pirminio elemento **Ataskaita\\Eilutės** įdėtuosius elementus. Todėl jis vykdomas įvykdžius sekos elementą **Ataskaita\\Eilutės\\Įrašas** visų mokesčių operacijų, kurių duomenų šaltinis yra **model.Data.List**, atžvilgiu. 1, 2 ir 3 eilučių ir paskutinės (22) eilutės vykdymo laikai atskleidžia šį faktą.
 

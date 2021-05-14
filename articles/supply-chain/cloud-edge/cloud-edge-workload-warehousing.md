@@ -2,7 +2,7 @@
 title: Sandėlio valdymo darbo krūvis debesiui ir krašto skalės vienetams
 description: Šioje temoje pateikta informacija apie funkcijas, kurios įjungia skalės vienetus siekiant vykdyti pasirinktus procesus iš jūsų sandėlio valdymo darbo krūvio.
 author: perlynne
-ms.date: 10/06/2020
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,17 @@ ms.search.region: global
 ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d6dffb1ea03b8d11519087163d2837d6cfe3df4e
-ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
+ms.dyn365.ops.version: 10.0.19
+ms.openlocfilehash: 9bdb9529c8b630182a2036e9d116909f9e92bb83
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "5899172"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944418"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Sandėlio valdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!WARNING]
 > Ne visos sandėlio valdymo verslo funkcijos yra visiškai palaikomos sandėliams, kurie vykdo darbo krūvį skalės vienete. Įsitikinkite, kad naudojate tik procesus, kuriuos atskirai aprašo šis skyrius, kaip palaikomus.
@@ -49,15 +48,16 @@ Skalės vienetas gali palaikyti tik turimus duomenis. Duomenų nuosavybės sąvo
 
 Skalės vienetai turi tolesnius duomenis:
 
-- **Bangos tvarkymo duomenys** – Pasirinkti bangos tvarkymo metodai yra tvarkomi kaip skalės vieneto bangos tvarkymo dalis.
-- **Darbo tvarkymo duomenys** – Tolesni darbo tvarkos tipo tvarkymai yra palaikomi:
+- **Siuntimo bangos tvarkymo duomenys** – Pasirinkti bangos tvarkymo metodai yra tvarkomi kaip skalės vieneto bangos tvarkymo dalis.
+- **Darbo apdorojimo** duomenys – sandėlio darbas, sukurtas svarstyklių vienetais, priklauso šiam konkrečiam skalės vienetui. Palaikomi šie darbo užsakymų apdorojimo tipai:
 
   - **Atsargų judėjimai** (rankiniu būdu arba pagal šablono darbą vykstantys judėjimai)
+  - **Ciklų** skaičiavimo ir patvirtinimo / atmetimo procesas kaip skaičiavimo operacijų dalis
   - **Pirkimo užsakymai** (atidėjimo darbas per sandėlio užsakymą, kai pirkimo užsakymai nėra susieti su kroviniais)
   - **Prekybos užsakymai** (pavyzdžio paėmimas ir pakrovimo darbas)
   - **Perkėlimo užsakymai** (tik siunčiami su pavyzdžio paėmimo ir pakrovimo darbu)
 
-- **Sandėlio darbo gavimo duomenys** – Šie duomenys naudojami tik pirkimo užsakymams, kurie yra rankiniu būdu paleisti į sandėlį.
+- **Sandėlio darbo gavimo duomenys** – Šie duomenys naudojami tik pirkimo užsakymams, kurie buvo rankiniu būdu paleisti į sandėlį.
 - **Licencijos lentelės duomenys** – Licencijos lentelės gali būti sukurtos centre ir skalės vienete. Paskirtas konflikto valdymas buvo patvirtintas. Atminkite, kad šie duomenys nėra būdingi sandėliui.
 
 ## <a name="outbound-process-flow"></a>Siuntimo tvarkymo eiga
@@ -72,6 +72,14 @@ Skalės vienetai turi realų bangos tvarkymą (tokį kaip darbo skyrimą, pildym
 
 ![Bangos tvarkymo eiga](./media/wes-wave-processing-ga.png "Bangos tvarkymo eiga")
 
+### <a name="process-work-and-ship"></a>Apdoroti darbą ir siuntą
+
+Kai galutinio darbo proceso metu atsargos įrašomos į galutinę siuntimo vietą (Bajadoor), svarstyklių vienetas rodo, kad šaltinio dokumento atsargų operacijos atnaujinamos į *Paimta*. Kol šis procesas bus vykdomas ir bus sinchronizuojamas atgal, atsargos, turimos skalės vieneto darbo krūvyje, bus faktiškai rezervuotos sandėlio lygiu.
+
+Kai tik centro centras atnaujins operacijas į *Paimta*, jis gali apdoroti siunčiamos siuntos patvirtinimą ir susijusį krovinio pardavimo važtaraštį arba perkėlimo užsakymo siuntą.
+
+![Siuntimo tvarkymo eiga](./media/WES-outbound-processing-19.png "Siuntimo tvarkymo eiga")
+
 ## <a name="inbound-process-flow"></a>Gavimo proceso eiga
 
 Centras turi tolesnius duomenis:
@@ -82,8 +90,8 @@ Centras turi tolesnius duomenis:
 
 > [!NOTE]
 > Gaunamų ir siunčiamų pirkimo užsakymų srautai skiriasi savo konceptais. Galite dirbti su tuo pačiu sandėliu skalės vienetu arba centru, atsižvelgiant ar pirkimo užsakymas buvo išleistas į sandėlį. Užsakymą išleidę į sandėlį, su tuo užsakymu galite dirbti tik prisijungę į skalės vienetą.
-
-Jei naudojate procesą *Paleisti į sandėlį*, sukuriami [*sandėlio užsakymai*](cloud-edge-warehouse-order.md) ir susijusios gavimo eigos nuosavybė priskiriama skalės vienetui. Centras nebegalės registruoti gavimo.
+>
+> Jei naudojate procesą *Paleisti į sandėlį*, sukuriami [*sandėlio užsakymai*](cloud-edge-warehouse-order.md) ir susijusios gavimo eigos nuosavybė priskiriama skalės vienetui. Centras nebegalės registruoti gavimo.
 
 Norėdami naudoti procesą *Išleisti į sandėlį* turite prisijungti prie šakotuvo. Norėdami jį paleisti arba suplanuoti, eikite į vieną iš šių puslapių:
 
@@ -96,7 +104,11 @@ Darbuotojas gali vykdyti gavimo procesą naudodamas sandėlio valdymo mobiliųj�
 
 Jei nenaudojate *leidimo į sandėlį* procesą ir dėl to nenaudojate *sandėlio užsakymų*, centras gali sutvarkyti sandėlio gavimo ir darbo tvarkymą nepriklausomai nuo skalės vienetų.
 
-![Gavimo tvarkymo eiga](./media/wes-inbound-ga.png "Gavimo tvarkymo eiga")
+![Gavimo tvarkymo eiga](./media/wes-inbound-ga.png "Gavimo proceso eiga")
+
+Atliekant gavimo registraciją sandėlio programos gavimo procesu pagal skalės vieneto sandėlio užsakymą, skalės vieneto darbo krūvis duos signalą centrui, kad susijusių pirkimo užsakymo eilučių operacijos būtų atnaujintos į *Užregistruotas*. Kai tik ji bus baigta, galėsite paleisti pirkimo užsakymo produkto gavimo kvitą centre.
+
+![Gavimo tvarkymo eiga](./media/WES-inbound-processing-19.png "Gavimo tvarkymo eiga")
 
 ## <a name="supported-processes-and-roles"></a>Palaikomi procesai ir vaidmenys
 
@@ -115,20 +127,24 @@ Vartotojai besielgiantys kaip sandėlio tiek centre, tiek skalės vienetams, tur
 Tolesni sandėlio valdymo procesai gali būti įjungti WES darbo krūviui skalės vienete:
 
 - Pasirinkti pardavimo ir perkėlimo užsakymų bangos metodai (paskirstymas, poreikio papildymas, krovimas į konteinerius, darbo kūrimas ir bangos etikečių spausdinimas)
-- Pardavimo ir perkėlimo užsakymų sandėlio darbo apdorojimas naudojant sandėlio valdymo mobiliųjų įrenginių programėlę (įskaitant papildymo darbą)
-- Turimų atsargų užklausų pateikimas naudojant sandėlio valdymo mobiliųjų įrenginių programėlę
-- Atsargų judėjimų kūrimas ir vykdymas naudojant sandėlio valdymo mobiliųjų įrenginių programėlę
-- Pirkimo užsakymų registravimas ir atidėjimo darbas naudojant sandėlio valdymo mobiliųjų įrenginių programėlę
+
+- Pardavimo ir perkėlimo užsakymų sandėlio darbo apdorojimas naudojant sandėlio programą (įskaitant papildymo darbą)
+- Laukiantis turimas inventorius su sandėlio programa
+- Inventoriiaus kūrimo ir vykdymo judėjimus su sandėlio programa
+- Ciklų skaičiavimo darbo kūrimas ir apdorojimas naudojant sandėlio programą
+- Atsargų koregavimo kūrimas naudojant sandėlio programą
+- Pirkimo užsakymų ir atidėjimo darbo darymo registravimas su sandėlio programa
 
 Tolesni darbo užsakymo tipai šiuo metu palaikomi WES darbo krūviuose skalės vieneto talpinimuose:
 
 - Pardavimo užsakymai
 - Perkėlimo išdavimas
 - Papildymas
-- Atsargų judėjimas
+- Atsargų perkėlimas
+- Ciklo skaičiavimas
 - Pirkimo užsakymai (susieti su sandėlio užsakymais)
 
-Jokie kiti šaltinių dokumento tvarkymo arba sandėlio darbo tipo šiuo metu nėra palaikomi skalės vienetuose. Pavyzdžiui, negalite WES darbo krūviui skalės vienete atlikti perkėlimo užsakymo gavimo proceso (perkėlimo gavimo) arba proceso ciklo skaičiavimo darbo.
+Jokie kiti šaltinių dokumento tvarkymo arba sandėlio darbo tipo šiuo metu nėra palaikomi skalės vienetuose. Pavyzdžiui, negalite WES darbo krūviui skalės vienete atlikti perkėlimo užsakymo gavimo proceso (perkėlimo gavimo); vietoje to, jis turi būti tvarkomas centro elemento.
 
 > [!NOTE]
 > Nepalaikomų funkcijų mobiliojo įrenginio meniu elementai ir mygtukai nėra rodomi _Sandėlio valdymo mobiliųjų įrenginių programėlėje_, kai ji yra susieta su skalės vieneto diegimu.
@@ -160,7 +176,6 @@ Tolesnės sandėlio valdymo funkcijos šiuo metu nepalaikomos skalės vienetų d
 - Apdorojimas su neigiamomis turimomis atsargomis
 - Sandėlio darbo apdorojimas su pasirinktiniais darbo tipais
 - Sandėlio darbo apdorojimas su siuntimo pastabomis
-- Sandėlio darbo apdorojimas su ciklų skaičiavimo ribinės vertės suaktyvinimu
 - Sandėlio darbo apdorojimas su medžiagų tvarkymu/„warehouse automation”
 - Produkto bendrųjų duomenų vaizdo naudojimas (pavyzdžiui, sandėlio valdymo mobiliųjų įrenginių programėlėje)
 
@@ -186,14 +201,14 @@ Tolesnė lentelė rodo, kurios siuntimo funkcijos palaikomos ir kada jos palaiko
 | Bangos siuntų tvarkymas                                  | Taip | Ne |
 | Sandėlio darbo tvarkymas (įsk. licencijos plokštelės spausdinimą)        | Ne  | <p>Taip, bet tik aukščiau paminėtoms palaikomoms galimybėms. |
 | Klasterio paėmimas                                              | Ne  | Taip|
-| Rankinis pakavimo apdorojimas, įskaitant „Supakuoto konteinerio paėmimo” darbo apdorojimą                                           | Ne <P>Kai kuriuos apdorojimus galima atlikti po pradinio išrinkimo proceso, apdorojamo skalės vieneto, tačiau tai nerekomenduojama dėl šių užblokuotų operacijų.</p>  | Ne  |
-| Konteinerio pašalinimas iš grupės                        | Ne  | Ne                           |
+| Rankinis pakavimo apdorojimas, įskaitant „Supakuoto konteinerio paėmimo” darbo apdorojimą | Ne <P>Kai kuriuos apdorojimus galima atlikti po pradinio išrinkimo proceso, apdorojamo skalės vieneto, tačiau tai nerekomenduojama dėl šių užblokuotų operacijų.</p>  | Ne |
+| Konteinerio pašalinimas iš grupės                                  | Ne  | Ne |
 | Siuntimo rūšiavimo tvarkymas                                  | Ne  | Ne |
 | Su kroviniu susijusių dokumentų spausdinimas                           | Taip | Ne |
 | ASN kūrimo važtaraštis                            | Taip | Ne |
-| Siuntos patvirtinimas                    | Taip  | Ne |
-| Siuntos patvirtinimas su „Patvirtinti ir perkelti”                    | Ne  | Ne |
-| Važtaraščio ir sąskaitos faktūros išrašymo apdorojimas                | Taip | Ne |
+| Siuntos patvirtinimas                                             | Taip | Ne |
+| Siuntos patvirtinimas su „Patvirtinti ir perkelti”            | Ne  | Ne |
+| Važtaraščio ir sąskaitos faktūros išrašymo apdorojimas                        | Taip | Ne |
 | Trumpas paėmimas (pardavimo ir perkėlimo užsakymai)                    | Ne  | Ne |
 | Perviršinis paėmimas (pardavimo ir perkėlimo užsakymai)                     | Ne  | Ne |
 | Darbo vietų pakeitimas (pardavimo ir perkėlimo užsakymai)         | Ne  | Taip|
@@ -212,31 +227,31 @@ Tolesnė lentelė rodo, kurios gavimo funkcijos palaikomos ir kada jos palaikomo
 
 | Procesas                                                          | Centras | WES darbo krūvis skalės vienete<BR>*(Prekės, pažymėtos „Taip”, yra taikomos tik sandėlio užsakymams)*</p> |
 |------------------------------------------------------------------|-----|----------------------------------------------------------------------------------|
-| Šaltinių&nbsp;dokumento&nbsp;tvarkymas                                       | Taip | Ne |
+| Šaltinių&nbsp;dokumento&nbsp;tvarkymas                             | Taip | Ne |
 | Krovinio ir gabenimo valdymo tvarkymas                    | Taip | Ne |
-| Gautos siuntos patvirtinimas                                            | Taip | Ne |
+| Gautos siuntos patvirtinimas                                    | Taip | Ne |
 | Pirkimo užsakymo leidimas į sandėlį (sandėlio užsakymo tvarkymas) | Taip | Ne |
-| Sandėlio užsakymo eilučių atšaukimas<p>Atminkite, kad tai palaikoma tik tada, kai eilutėje neįvyko jokia registracija</p>          | Taip | Ne |
+| Sandėlio užsakymo eilučių atšaukimas<p>Atminkite, kad tai palaikoma tik tada, kai eilutėje neįvyko jokia registracija</p> | Taip | Ne |
 | Pirkimo užsakymo prekės gavimas ir atidėjimas                       | <p>Taip,&nbsp;kai&nbsp;nėra&nbsp;sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | <p>Taip, kai pirkimo užsakymas nėra dalis <i>krovinio</i></p> |
-| Pirkimo užsakymo eilutės gavimas ir atidėjimas                        | <p>Taip, kai nėra sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | <p>Taip, kai pirkimo užsakymas nėra dalis <i>krovinio</i></p></p> |
-| Grąžinimo užsakymo gavimas ir atidėjimas                               | Taip | Ne |
-| Skirtingų numerio lentelių gavimas ir atidėjimas                        | <p>Taip, kai nėra sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | Ne |
-| Krovinio prekės gavimas                                             | <p>Taip, kai nėra sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | Ne |
-| Numerio lentelės gavimas ir atidėjimas                              | <p>Taip, kai nėra sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | Ne |
-| Perkėlimo užsakymo prekės gavimas ir atidėjimas                        | Taip | Ne |
-| Pirkimo užsakymo eilutės perkėlimas ir atidėjimas                        | Taip | Ne |
-| Darbo (siuntimo) atšaukimas                                              | <p>Taip, kai nėra sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | <p>Taip, bet tik tada, kai <b>Išregistruoti gavimą atšaukiant darbą</b> parinktis (esanti <b>Sandėlio valdymo parametrų</b> puslapyje) yra išvalyta</p> |
-| Pirkimo užsakymo gamybos kvito tvarkymas                          | Taip | Ne |
-| Pirkimo užsakymo gavimas su pristatymo trūkumu                        | <p>Taip, kai nėra sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | Taip, bet tik atšaukus užklausą iš šakotuvo |
-| Pirkimo užsakymas su pristatymo pertekliumi                        | <p>Taip, kai nėra sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | Taip  |
-| Gavimas su *Prekių skirstymo* darbo kūrimu                   | <p>Taip, kai nėra sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | Ne |
+| Pirkimo užsakymo eilutės gavimas ir atidėjimas                       | <p>Taip, kai nėra sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | <p>Taip, kai pirkimo užsakymas nėra dalis <i>krovinio</i></p></p> |
+| Grąžinimo užsakymo gavimas ir atidėjimas                              | Taip | Ne |
+| Skirtingų numerio lentelių gavimas ir atidėjimas                       | <p>Taip, kai nėra sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | Ne |
+| Krovinio prekės gavimas                                              | <p>Taip, kai nėra sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | Ne |
+| Numerio lentelės gavimas ir atidėjimas                             | <p>Taip, kai nėra sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | Ne |
+| Perkėlimo užsakymo prekės gavimas ir atidėjimas                       | Taip | Ne |
+| Pirkimo užsakymo eilutės perkėlimas ir atidėjimas                       | Taip | Ne |
+| Darbo (siuntimo) atšaukimas                                            | <p>Taip, kai nėra sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | <p>Taip, bet tik tada, kai <b>Išregistruoti gavimą atšaukiant darbą</b> parinktis (esanti <b>Sandėlio valdymo parametrų</b> puslapyje) yra išvalyta</p> |
+| Pirkimo užsakymo gamybos kvito tvarkymas                        | Taip | Ne |
+| Pirkimo užsakymo gavimas su pristatymo trūkumu                      | <p>Taip, kai nėra sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | Taip, bet tik atšaukus užklausą iš šakotuvo |
+| Pirkimo užsakymas su pristatymo pertekliumi                       | <p>Taip, kai nėra sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | Taip  |
+| Gavimas su *Prekių skirstymo* darbo kūrimu                 | <p>Taip, kai nėra sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | Ne |
 | Gavimas su *Kokybės užsakymo* darbo kūrimu                  | <p>Taip, kai nėra sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | Ne |
 | Gavimas su *Kokybės prekės pavyzdžio* darbo kūrimu          | <p>Taip, kai nėra sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | Ne |
 | Gavimas su *Kokybės patikros* darbo kūrimu       | <p>Taip, kai nėra sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | Ne |
 | Gavimas su kokybės užsakymo kūrimu                            | <p>Taip, kai nėra sandėlio užsakymo</p><p>Ne, kai yra sandėlio užsakymas</p> | Ne |
-| Darbo apdorojimas – valdoma *Grupės atidėjimo*                             | Taip | Ne |
-| Darbo apdorojimas su *Trumpu paėmimu*                                           | Taip | Ne |
-| Numerio lentelės įkėlimas                                           | Taip | Ne |
+| Darbo apdorojimas – valdoma *Grupės atidėjimo*                 | Taip | Ne |
+| Darbo apdorojimas su *Trumpu paėmimu*                               | Taip | nr. |
+| Numerio lentelės įkėlimas                                           | Taip | Taip |
 
 ### <a name="warehouse-operations-and-exception-handing"></a>Sandėlio operacijos ir išimčių tvarkymas
 
@@ -250,11 +265,11 @@ Tolesnė lentelė rodo, kurios sandėlio operacijos ir išimčių tvarkymo funkc
 | Sandėlio keitimas                                   | Taip | Taip                          |
 | Judėjimas                                           | Taip | Taip                          |
 | Judėjimas pagal šabloną                               | Taip | Taip                          |
-| Ilgalaikio turto perkėlimas                                 | Taip | Ne                           |
-| Perkėlimo užsakymo kūrimas iš sandėlio valdymo mobiliųjų įrenginių programėlės           | Taip | Ne                           |
-| Keitimas (į/iš)                                | Taip | Ne                           |
-| Atsargų būsenos keitimas                            | Taip | Ne                           |
-| Ciklo skaičiavimas ir Neatitikimų skaičiavimo tvarkymas | Taip | Ne                           |
+| Sandėlio perkėlimas                                 | Taip | Ne                           |
+| Perkėlimo užsakymo kūrimas iš sandėlio programos           | Taip | nr.                           |
+| Keitimas (į/iš)                                | Taip | Taip, bet ne koregavimo scenarijui, kuriame atsargų rezervavimas turi būti pašalintas, naudojant atsargų koregavimo tipų parametrą **Pašalinti** rezervavimus.</p>                           |
+| Atsargų būsenos keitimas                            | Taip | nr.                           |
+| Ciklo skaičiavimas ir Neatitikimų skaičiavimo tvarkymas | Taip | Taip                           |
 | Spausdinti dar kartą žymę (numerio lentelės spausdinimas)             | Taip | Taip                          |
 | Numerio lentelės versija                                | Taip | Ne                           |
 | Numerio lentelių grupavimas                                | Taip | Ne                           |
@@ -286,11 +301,9 @@ Kelios paketinės užduotys vykdomos tiek centre, tiek skalės vienetuose.
 
 Centro diegime galite rankiniu būdu palaikyti paketines užduotis. Galite valdyti tolesnes paketines užduotis **Sandėlio valdymas \> Periodinės užduotys \> Galinio ofiso darbo krovos valdymas**:
 
-- Apdoroti darbo būsenos naujinimo įvykį
 - Iš skalės vieneto į telkinį pranešimų procesorius
 - Registruoti šaltinio užsakymo kvitus
 - Užbaigti sandėlio užsakymus
-- Apdoroti sandėlio užsakymo eilučių kiekio atnaujinimo atsakymus
 
 Darbo krūvio skalės vienetuose, galite valdyti tolesnes paketines užduotis **Sandėlio valdymas \> Periodinės užduotys \> Darbo krūvio valdymas**:
 
@@ -299,6 +312,5 @@ Darbo krūvio skalės vienetuose, galite valdyti tolesnes paketines užduotis **
 - Apdoroti sandėlio užsakymo eilučių kiekio atnaujinimo užklausas
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

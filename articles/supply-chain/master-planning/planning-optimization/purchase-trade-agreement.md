@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 138bf58e07d4d6df3c2106e4176e02fcdb0a6dba
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4f50dfa5c2914ce2131cdc44582588be69b35335
+ms.sourcegitcommit: 2eb7a9ae544f504155657c5c584cbac66c21dba4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820423"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5961710"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Bendrasis planavimas su įsigijimo prekybos sutartimis
 
@@ -67,7 +67,7 @@ Kai jūsų sistema bus parengta, kaip aprašyta ankstesniame skyriuje, atlikite 
 1. Šią procedūrą kartokite nustatydami kiekvieną atitinkamą produktą.
 
 > [!NOTE]
-> Pirkimo prekybos sutarties valiuta turi atitikti pasirinkto tiekėjo valiutą. Bendrojo planavimo metu bus pateikiama tik tų pirkimo prekybos sutarties eilučių informacija, kurių valiuta sutampa su tiekėjo valiuta.
+> „Planning Optimization“ palaiko kelių valiutų įsigijimo prekybos sutartis. Kai ieškote prekybos sutarties naudodami parinktį Žemiausia vieneto kaina, sistema nagrinės galimybę įsigyti prekybos sutarties eilutes su skirtingomis valiutomis, pateiktame valiutos kursą tarp prekybos sutarties eilutės valiutos ir juridinio subjekto apskaitos **valiutos**. Kitu atveju prekybos sutarties eilutės bus nepaisoma, o jūs matysite klaidą bendrojo planavimo metu. Todėl į bendrąjį planavimą bus įtraukta informacija iš visų atitinkamų pirkimo prekybos sutarties eilučių, kuriose kainos gali būti konvertuojamos į apskaitos valiutą.
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Planavimo optimizavimo, kuris nustato tiekėjo ir gamybos laiką, pavyzdžiai
 

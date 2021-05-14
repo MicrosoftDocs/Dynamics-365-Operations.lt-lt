@@ -2,7 +2,7 @@
 title: Bendrųjų duomenų peržvalgos aplinkos nustatymas
 description: Šioje temoje paaiškinama, kaip nustatyti aplinką, kad būtų galima naudoti Mokesčių skaičiavimo bendrųjų duomenų peržvalgos funkciją.
 author: kai-cloud
-ms.date: 03/31/2021
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,31 +16,43 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: eda093a75898bace2f3c7968933b83ccafa7fabb
-ms.sourcegitcommit: 66095f1b7e0fd2756aa29fd7deb9ce5392b7e0b2
+ms.openlocfilehash: 9f9b385df1db60b27698d90281c43fabb574af49
+ms.sourcegitcommit: 5f5afb46431e1abd8fb6e92e0189914b598dc7fd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "5869085"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924159"
 ---
 # <a name="set-up-an-environment-for-master-data-lookup"></a>Bendrųjų duomenų peržvalgos aplinkos nustatymas
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
-
 Šioje temoje paaiškinama, kaip nustatyti aplinką, kad būtų galima naudoti Mokesčių skaičiavimo bendrųjų duomenų peržvalgos funkciją.
 
 1. Nustatykite „Power Platform” integravimą „Lifecycle Services” (LCS). Daugiau informacijos rasite [„Microsoft Power Platform” integravimas – Priedų apžvalga](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md).
 2. Nustatykite „Dynamics 365 Finance” ir „Microsoft Dataverse”. Daugiau informacijos rasite [Gauti sprendimą](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#getting-the-solution) ir [Autentifikavimas ir autorizacija](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#authentication-and-authorization).
-3. Importuokite *Būtinąjį mokesčių tarnybos virtualiojo objekto sprendimą* iš [Mokesčių tarnybos virtualiojo objekto](https://go.microsoft.com/fwlink/?linkid=2158160).
+3. Nustatykite šiuos objektus. Daugiau informacijos žr. skyriuje [Virtualių objektų nustatymas](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#enabling-virtual-entities).
+      - CompanyInfoEntity
+      - CurrencyEntity
+      - CustCustomerV3Entity
+      - DeliveryTermsEntity
+      - EcoResProductCategoryEntity
+      - EcoResReleasedProductV2Entity
+      - LogisticsAddressCityEntity
+      - LogisticsAddressCountryRegionTranslationEntity
+      - LogisticsAddressStateEntity
+      - PurchProcurementChargeCDSEntity
+      - SalesChargeCDSEntity
+      - TaxGroupEntity
+      - TaxItemGroupHeadingEntity
+      - VendVendorV2Entity
 4. Nustatykite „Dynamics 365 Regulatory Configuration Service” (RCS). 
 5. Sukurkite „Microsoft” paslaugos užklausą, kad būtų galima naudoti šias funkcijas:
 
       - „ERCds” Funkciją
       - Mokesčių tarnybos „CDS” funkciją
 
-6. „Finance” programoje eikite į darbo sritį **Funkcijų valdymas** ir įjunkite šias funkcijas:
+6. Eikite į **Funkcijų valdymo** sritį ir įjunkite šias funkcijas:
 
       - (Peržiūros versija) Elektroninių ataskaitų „Dataverse” duomenų šaltinių palaikymas
       - (Peržiūros versija) Mokesčių tarnybos „Dataverse“ duomenų šaltinių palaikymas

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e7abe133c4d2c7a515c75709bd5616c83ebbcc6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0acff4165ef4d61fb0d14a8f365273ea43fac7d
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811995"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920586"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>RFQ kainos pasiūlymų įvedimas bei lyginimas ir sutarčių pasirinkimas
 
@@ -32,7 +32,7 @@ Galite įvesti kainos pasiūlymą kaip tiekėjas arba įsigijimo specialistas. D
 
 ## <a name="enter-a-reply-as-a-vendor"></a>Įveskite atsakymą kaip teikėjas
 
-1. Ataskaitų srityje pasirinkite **Tiekėjų kainos pasiūlymas**.
+1. Eikite **į tiekėjo \> bendradarbiavimo sričių tiekėjo kainos \> pasiūlymą**.
 2. Sąraše **Nauji kainos pasiūlymo kvietimai** suraskite ką tik išsiųstą RFQ. Pasirinkite RFQ, kad pamatytumėte, ko prašoma.
 3. Pasirinkite **RFQ priedai**, norėdami peržiūrėti visus pridėtus priedus.
 4. Pasirinkite **Kainos pasiūlymas**, kad laukai būtų redaguojami. Atkreipkite dėmesį, kad laukas **Kainos pasiūlymo eiga** nustatytas į **Atnaujina tiekėjas**.

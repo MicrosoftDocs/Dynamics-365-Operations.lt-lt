@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 18df36fe2d147ce395c113eacaf69d8016b38303
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c0163844d7999468e288ba2d612662d1dd6f22df
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818066"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921394"
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a>Įvesti produkto GTIN kodą
 
@@ -26,18 +26,17 @@ ms.locfileid: "5818066"
 
 GTIN kodus priskiria GS1 organizacija. Šiame pavyzdyje įvesite demonstracinių duomenų įmonės USMF produkto numerio M0001 kodą.
 
-1. Spustelėkite Patvirtinto produkto priežiūra.
-2. Spustelėkite Patvirtinti produktai.
-3. Išplėskite „FactBox“ Produkto vaizdas.
-4. Sąraše raskite ir pasirinkite norimą įrašą.
-5. Veiksmų srityje spustelėkite Valdyti atsargas.
-6. Spustelėkite GTIN kodai.
-7. Spustelėkite Naujas.
-8. Sąraše pažymėkite pasirinktą eilutę.
-9. Lauke Vienetas įveskite arba pasirinkite reikšmę.
-10. Lauke GTIN kodas pasirinkite parinktį.
-11. Lauke GTIN įveskite vertę.
-12. Uždarykite puslapį.
+1. Eikite į **Produkto informacijos valdymas \> Produktai \> Išleisti produktai**.
+1. Išplėskite **Produkto vaizdas** „FactBox“.
+1. Sąraše raskite ir pasirinkite norimą įrašą.
+1. Veiksmų srityje spustelėkite **Valdyti atsargas**.
+1. Pasirinkite **GTIN** kodus.
+1. Pasirinkite **Naujas**.
+1. Sąraše pažymėkite pasirinktą eilutę.
+1. Lauke **Vienetas** įveskite arba pasirinkite reikšmę.
+1. Lauke **GTIN kodas** pasirinkite parinktį.
+1. Lauke **GTIN laukas**, įveskite reikšmę.
+1. Uždarykite puslapį.
 
 
 

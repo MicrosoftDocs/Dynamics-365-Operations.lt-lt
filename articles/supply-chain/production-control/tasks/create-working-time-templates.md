@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1885aba11b5c6878cc9dca615cea98b77b4df63f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ed1981b7c1427c902f237f0aa95f63e89bc345ab
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811587"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920934"
 ---
 # <a name="create-working-time-templates"></a>Darbo laiko šablonų kūrimas
 
@@ -27,55 +27,58 @@ ms.locfileid: "5811587"
 
 Darbo laiko šablonai nustato savaitės darbo valandas ir yra naudojami generuoti darbo laikus tam tikram laikotarpiui. Ši procedūra nurodo, kaip nustatyti darbo laiko šabloną, naudojant darbo laiko planavimo ypatybes, skirtas darbo laiko intervalas skirstyti. Šią procedūrą galite atlikti naudodami demonstracinių duomenų įmonę USMF arba savo duomenis.
 
-1. Pasirinkite Visos darbo sritys > Išteklių naudojimo ciklo valdymas.
-2. Spustelėkite Darbo laiko šablonai.
+1. Eikite į **Darbo sritys > Išteklių naudojimo ciklo valdymas**.
+1. Rinkitės **Darbo laiko šablonai**.
 
 ## <a name="create-working-time-template"></a>Kurti darbo laiko šabloną
-1. Spustelėkite Naujas.
-2. Šablono lauke Darbo laikas įveskite vertę.
-3. Lauke Pavadinimas surinkite reikšmę.
-4. Išplėskite skyrių Pirmadienis.
-5. Spustelėkite Pridėti.
-6. Lauke Nuo įveskite laiką.
+
+1. Pasirinkite **Naujas**.
+1. Šablono lauke **Darbo laikas** įveskite.
+1. Lauke **Pavadinimas** įveskite reikšmę.
+1. Išplėskite skyrių **Pirmadienis**.
+1. Pasirinkite **Įtraukti**.
+1. Lauke **Nuo** įveskite laiką.
     * Nurodykite laiką, kada darbas prasideda ryte.  
-7. Lauke Iki įveskite laiką.
+1. Lauke **Iki** įveskite laiką.
     * Nurodykite laiką, kada būna darbuotojų pietų pertrauka.  
-8. Spustelėkite Pridėti.
-9. Lauke Nuo įveskite laiką.
+1. Pasirinkite **Įtraukti**.
+1. Lauke **Nuo** įveskite laiką.
     * Nurodykite laiką, kada darbas tęsiamas po pietų.  
-10. Lauke Iki įveskite laiką.
+1. Lauke **Iki** įveskite laiką.
     * Nurodykite darbo dienos pabaigą.  
 
 ## <a name="replicate-working-times-to-all-week-days"></a>Dubliuoti visos savaitės dienų darbo laikus
-1. Spustelėkite Kopijuoti dieną.
+
+1. Pasirinkite **Kopijuoti dieną**.
     * Kopijuokite darbo laiko apibrėžimus iš pirmadienio į antradienį.  
-2. Spustelėkite GERAI.
-3. Spustelėkite Kopijuoti dieną.
+1. Pasirinkite **Gerai**.
+1. Pasirinkite **Kopijuoti dieną**.
     * Kopijuokite darbo laiko apibrėžimus iš pirmadienio į trečiadienį.  
-4. Lauke Į dieną pasirinkite pasirinktį.
-5. Spustelėkite GERAI.
-6. Spustelėkite Kopijuoti dieną.
+1. Lauke **Iki savaitės dienos** laukelyje rinkitės parinktį.
+1. Pasirinkite **Gerai**.
+1. Pasirinkite **Kopijuoti dieną**.
     * Kopijuokite darbo laiko apibrėžimus iš pirmadienio į ketvirtadienį.  
-7. Lauke Į dieną pasirinkite pasirinktį.
-8. Spustelėkite GERAI.
-9. Spustelėkite Kopijuoti dieną.
+1. Lauke **Iki savaitės dienos** laukelyje rinkitės parinktį.
+1. Pasirinkite **Gerai**.
+1. Pasirinkite **Kopijuoti dieną**.
     * Kopijuokite darbo laiko apibrėžimus iš pirmadienio į penktadienį.  
-10. Lauke Į dieną pasirinkite pasirinktį.
-11. Spustelėkite GERAI.
+1. Lauke **Iki savaitės dienos** laukelyje rinkitės parinktį.
+1. Pasirinkite **Gerai**.
 
 ## <a name="define-time-slots-for-special-operations"></a>Nurodyti specialiųjų operacijų laiko atkarpas
-1. Išplėskite skyrių Penktadienis.
-2. Sąraše raskite ir pasirinkite norimą įrašą.
-3. Lauke Ypatybė įveskite arba pasirinkite vertę.
-4. Sąraše raskite ir pasirinkite norimą įrašą.
-5. Lauke Ypatybė įveskite arba pasirinkite vertę.
+
+1. Išplėskite skyrių **Penktadienis**.
+1. Sąraše raskite ir pasirinkite norimą įrašą.
+1. Lauke **Ypatybė** įveskite arba pasirinkite vertę.
+1. Sąraše raskite ir pasirinkite norimą įrašą.
+1. Lauke **Ypatybė** įveskite arba pasirinkite vertę.
 
 ## <a name="mark-weekend-days-as-closed-for-pickup"></a>Pažymėti savaitgalio dienas kaip uždarytas, kada negalima paimti
-1. Išplėskite skyrių Šeštadienis.
-2. Lauke Uždaryta paimti pasirinkite Taip.
-3. Išplėskite skyrių Sekmadienis.
-4. Lauke Uždaryta paimti pasirinkite Taip.
 
+1. Išplėskite skyrių **Šeštadienis**.
+1. Lauke *Taip* Uždaryta paimti pasirinkite **Taip**.
+1. Išplėskite skyrių **Sekmadienis**.
+1. Lauke *Taip* Uždaryta paimti pasirinkite **Taip**.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

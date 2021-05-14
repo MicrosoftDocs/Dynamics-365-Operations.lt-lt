@@ -10,12 +10,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 76e64d483e833782733277a64d8dc37cbeba6130
-ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
+ms.openlocfilehash: 32128d48bfac195530d70b60e67cfd4921fc001e
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5857375"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941088"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Naujinimas į šalies ir visuotinės adresų knygelės modelius
 
@@ -52,11 +52,11 @@ Reikalingi šie būtinieji komponentai:
 
 2. Prisijunkite prie [„Microsoft Azure”](https://portal.azure.com/).
 
-3. Sukurkite [išteklių grupę](https://docs.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal).
+3. Sukurkite [išteklių grupę](/azure/azure-resource-manager/management/manage-resource-groups-portal).
 
-4. Sukurkite [saugyklos paskyrą](https://docs.microsoft.com/azure/storage/common/storage-account-create?tabs=azure-portal) jūsų sukurtoje išteklių grupėje.
+4. Sukurkite [saugyklos paskyrą](/azure/storage/common/storage-account-create?tabs=azure-portal) jūsų sukurtoje išteklių grupėje.
 
-5. Sukurkite [duomenų gamyklą](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal) aukščiau jūsų sukurtoje išteklių grupėje.
+5. Sukurkite [duomenų gamyklą](/azure/data-factory/quickstart-create-data-factory-portal) aukščiau jūsų sukurtoje išteklių grupėje.
 
 6. Atidarykite duomenų gamyklą ir pasirinkite **Kurti & Stebėti** plytelę.
 
@@ -81,7 +81,7 @@ Reikalingi šie būtinieji komponentai:
     Su FO susietas „Service_properties_type” „Properties_service Principal Id” | Nurodykite programos kliento ID.
     Su „Dynamics CRM” susietas „Service_properties_type” „Properties_username” | Vartotojo vardas, skirtas prisijungti prie „Dynamics”.
 
-    Daugiau informacijos rasite [Rankiniu būdu pakelkite „Resource Manager” šabloną į aukštesnį lygį kiekvienai aplinkai](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment), [Susietos paslaugos ypatybės](https://docs.microsoft.com/azure/data-factory/connector-dynamics-ax#linked-service-properties) ir [Duomenų kopijavimas naudojant „Azure” duomenų gamyklą](https://docs.microsoft.com/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
+    Daugiau informacijos rasite [Rankiniu būdu pakelkite „Resource Manager” šabloną į aukštesnį lygį kiekvienai aplinkai](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment), [Susietos paslaugos ypatybės](/azure/data-factory/connector-dynamics-ax#linked-service-properties) ir [Duomenų kopijavimas naudojant „Azure” duomenų gamyklą](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
 
 10. Atlikę diegimą, patikrinkite duomenų rinkinius, duomenų srautą ir susietą duomenų gamyklos paslaugą.
 
@@ -158,7 +158,7 @@ Reikalingi šie būtinieji komponentai:
 8. Importuokite naujus **Šalies** įrašus „Finance and Operations” programoje.
 
     + Atsisiųskite `FONewParty.csv` failą iš „Azure“ didelių dvejetainių objektų saugyklos. Kelias yra `partybootstrapping/output/FONewParty.csv`.
-    + Konvertuokite failą `FONewParty.csv` į „Excel” failą ir tada importuokite „Excel” failą į „Finance and Operations” programą.  Jei csv importavimas jums tinka, galite csv failą importuoti tiesiogiai. Importavimas gali užtrukti kelias valandas, priklausomai nuo duomenų tūrio. Daugiau informacijos rasite [Duomenų importavimo ir eksportavimo užduočių apžvalga](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job).
+    + Konvertuokite failą `FONewParty.csv` į „Excel” failą ir tada importuokite „Excel” failą į „Finance and Operations” programą.  Jei csv importavimas jums tinka, galite csv failą importuoti tiesiogiai. Importavimas gali užtrukti kelias valandas, priklausomai nuo duomenų tūrio. Daugiau informacijos rasite [Duomenų importavimo ir eksportavimo užduočių apžvalga](../data-import-export-job.md).
 
     ![„Dataverse” šalies įrašų importavimas](media/data-factory-import-party.png)
 

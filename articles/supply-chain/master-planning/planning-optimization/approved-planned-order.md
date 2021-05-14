@@ -1,8 +1,8 @@
 ---
-title: Suplanuotų užsakymų tvirtinimas
-description: Šioje temoje aprašomas suplanuotų užsakymų, palaikomų „Planning Optimization“, tvirtinimas.
+title: Peržiūrėti, tvarkyti ir tvirtinti suplanuotus užsakymus
+description: Šioje temoje pateikiama informacija apie tai, kaip valdyti, peržiūrėti ir patvirtinti suplanuotų užsakymų būseną „Planning Optimization“.
 author: ChristianRytt
-ms.date: 08/21/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,30 +16,62 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 6c215a89403f16336caae5c62cde6df469c4091c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3b9b5274481e693f9fa05eb084ec5505ce5bc2eb
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825896"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935662"
 ---
-# <a name="approve-planned-orders"></a>Suplanuotų užsakymų tvirtinimas
+# <a name="view-manage-and-approve-planned-orders"></a>Peržiūrėti, tvarkyti ir tvirtinti suplanuotus užsakymus
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie tai, kaip atnaujinti suplanuotų užsakymų būseną „Planning Optimization“.
+Šioje temoje pateikiama informacija apie tai, kaip valdyti, peržiūrėti ir patvirtinti suplanuotų užsakymų būseną „Planning Optimization“.
 
-Atkreipkite dėmesį, kad suplanuotų užsakymų tvirtinimas yra pasirinktinis veiksmas, skirtas sukurti patvirtintą suplanuotą užsakymą. Rekomenduojama patvirtinti modifikuotus suplanuotus užsakymus, kitu atveju pakeitimų bus nepaisoma ir jie bus perrašyti kito planavimo vykdymo metu.
+## <a name="view-and-manage-planned-orders"></a><a name="view-planned-orders"></a>Peržiūrėti ir tvarkyti suplanuotus užsakymus
+
+Galite peržiūrėti ir tvarkyti suplanuotus užsakymus bet kuriame suplanuotų užsakymų sąrašo puslapyje. Pereikite į vieną iš šių vietų, atsižvelgiant į suplanuotų užsakymų, su kuriuos norite dirbti, tipą:
+
+- Bendrojo planavimo \> darbo sričių \> bendrasis planavimas
+- Bendrasis planavimas \> Bendrasis planavimas \> Suplanuoti užsakymai
+- Eikite į Gamybos kontrolė \> Gamybos užsakymai \> Suplanuoti gamybos užsakymai.
+- Pasirinkite Įsigijimas ir šaltinio pasirinkimas \> pirkimo užsakymai \> Suplanuoti pirkimo užsakymai
+- Atsargų valdymas \> Gaunami užsakymai \> Suplanuoti perkėlimai
+- Atsargų valdymas \> Siunčiami užsakymai \> Suplanuoti perkėlimai
+
+## <a name="view-and-edit-the-status-of-planned-orders"></a>Peržiūrėkite ir redaguoti suplanuotų užsakymų būseną
+
+Galite naudoti kiekvieno **suplanuoto** užsakymo lauką Būsena, kad būtų galima sekti progresą arba pakeisti suplanuoto užsakymo eigą. Galimos šios **Būsenos** reikšmės:
+
+- **Neapdorota** - Kai bendrasis planavimas sugeneruoja suplanuotus užsakymus, pagal jų būseną. Šios būsenos suplanuoti užsakymai bus panaikinti kito planavimo vykdymo metu.
+- **Baigta** – ši būsena nurodo, kad suplanuotas užsakymas baigtas. Jei nenorite patvirtinti suplanuoto užsakymo, galite rankiniu būdu nustatyti būseną *Baigta*. Atkreipkite dėmesį, kad sistema valdo *Neapdorota* ir *Baigta* būsenas vienodai.
+- **Patvirtinta** – ši būsena nurodo, kad suplanuotas užsakymas patvirtintas patvirtinti. Jei norite patvirtinti suplanuotą užsakymą, galite pakeisti būseną į *Patvirtinta*. Jei norite palikti suplanuoto užsakymo redagavimus arba jei planuojate patvirtinti suplanuotą užsakymą, pakeiskite jo būseną į *Patvirtinta*. Suplanuoti užsakymai, kurių būsena Yra *Patvirtinta*, bendrojo planavimo metu laikomi fiksuotais ir tikėtinais tiekimo užsakymais. Todėl vėliau vykdant bendrąjį planavimą jos nėra modifikuojami ar naikinami. Norint tai pasiekti, planavimo logika kopijuoja *patvirtintus* būseną turinčius suplanuotus užsakymus iš senosios plano versijos į naująją plano versiją bendrojo planavimo metu. Atkreipkite dėmesį, kad suplanuoti užsakymai, kurių būsena yra *Patvirtinta*, laikomi numatyto tiekimo tik konkrečiame pagrindiniame plane.
+
+Norėdami pakeisti vieno suplanuoto užsakymo būseną, atidarykite bet kurį suplanuotų užsakymų sąrašo puslapį, atidarykite užsakymą ir [atlikite](#view-planned-orders) vieną iš šių veiksmų:
+
+- **Bendrajame** „FastTab“ pakeiskite lauko Būsena **vertę**.
+- Veiksmų juostoje skirtuke **Suplanuotą užsakymą** grupėje **Apdorojimas** grupėje rinkitės **Keisti būseną**.
+- Norėdami pažymėti užsakymą kaip patvirtintą, veiksmų srityje pasirinkite **Tvirtinti**.
+
+Norėdami vienu metu pakeisti kelių suplanuotų užsakymų būseną, atidarykite bet kurį suplanuotų užsakymų sąrašo puslapį, pažymėkite kiekvieno norimo keisti užsakymo žymės langelį, tada atlikite [vieną](#view-planned-orders) iš šių veiksmų:
+
+- Veiksmų juostoje skirtuke **Suplanuotą užsakymą** grupėje **Apdorojimas** grupėje rinkitės **Keisti būseną**.
+- Norėdami pažymėti užsakymus kaip patvirtintus, veiksmų srityje pasirinkite **Tvirtinti**.
+
+## <a name="approve-planned-orders"></a>Suplanuotų užsakymų tvirtinimas
+
+Atkreipkite dėmesį, kad suplanuotų užsakymų patvirtinimas yra pasirinktinis veiksmas, skirtas sukurti patvirtintą suplanuotą užsakymą.
+
+Šioje iliustracijoje parodyta, kaip galite naudoti **būsenos** vertę, priskirtą kiekvienam suplanuotam užsakymui, norėdami įdiegti patvirtinimo darbo eigą. Norėdami įdiegti patvirtinimo procesą, rankiniu būdu koreguokite **kiekvieno** suplanuoto užsakymo būsenos vertę, kaip aprašyta ankstesniame skyriuje.
 
 ![Suplanuoto užsakymo srautas](media/approved-planned-orders-1.png)
 
-Laukas **Būsena** padeda sekti jūsų procesą naudojant toliau pateiktas reikšmes.
+> [!TIP]
+> Rekomenduojame patvirtinti bet kuriuos modifikuotus suplanuotus užsakymus. Kitu atveju redagavimų bus nepaisoma ir perrašoma kito planavimo metu.
 
-- **Neapdorota:** kai bendrasis planavimas sugeneruoja suplanuotus užsakymus, suplanuotų užsakymų būsena yra *Neapdorota*. Šios būsenos suplanuoti užsakymai bus panaikinti kito planavimo vykdymo metu.
-- **Baigta:** jei nusprendžiate netvirtinti suplanuoto užsakymo, galite pakeisti būseną į *Baigta*, kad nurodytumėte, jog baigėte šio suplanuoto užsakymo vertinimą. Atkreipkite dėmesį, kad būsenas *Neapdorota* ir *Baigta* sistema valdo vienodai.
-- **Patvirtinta:** jei norite palikti pakeitimus arba planuojate tvirtinti suplanuotą užsakymą, pakeiskite būseną į *Patvirtinta*. Suplanuoti užsakymai, kurių būsena yra *Patvirtinta*, laikomi fiksuotais ir numatyto tiekimo bendrojo planavimo metu, kad nebūtų modifikuojami ar panaikinami vėlesnių pagrindinio planavimo vykdymų metu. Norint tai pasiekti, planavimo logika kopijuoja *patvirtintus* suplanuotus užsakymus iš senosios plano versijos į naująją plano versiją bendrojo planavimo metu. Atkreipkite dėmesį, kad suplanuoti užsakymai, kurių būsena *Patvirtinta*, laikomi numatyto tiekimo tik konkrečiame pagrindiniame plane.
+## <a name="additional-resources"></a>Papildomi ištekliai
 
-Suplanuotus užsakymus galite valdyti naudodami darbo sritį **Bendrasis planavimas**, sąrašą **Suplanuoti užsakymai** arba sąrašus **Suplanuoti gamybos užsakymai**, **Suplanuoti pirkimo užsakymai** ir **Suplanuotas perkėlimas**.
-
+- [Galutinai suplanuoti užsakymai](planned-order-firming.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

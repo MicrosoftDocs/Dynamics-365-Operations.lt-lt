@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad1221bb57aea4c93cb60fc29caec2d3b41798f9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 592b3d0265a3be92a5a823c6aabdd40b4e3f0a27
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836403"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5919946"
 ---
 # <a name="create-a-new-trade-agreement"></a>Kurti naują prekybos sutartį
 
@@ -26,8 +26,8 @@ ms.locfileid: "5836403"
 
 Ši procedūra nurodo, kaip sukurti prekybos sutartį, kurioje registruojate naują produkto pardavimo kainą, dėl kurios sutarėte su konkrečiu klientu. Šią procedūrą galite vykdyti demonstracinėje duomenų įmonėje USMF arba su savo duomenimis. Jei naudojate savo duomenis, prieš pradėdami šį vadovą turite įsitikinti, kad egzistuoja prekybos sutarčių žurnalo pavadinimas, kai numatytasis ryšys nustatytas kaip „Kaina (pardavimai)“.
 
-
 ## <a name="create-and-post-a-new-trade-agreement-journal"></a>Kurti ir registruoti naują prekybos sutarčių žurnalą
+
 1. Eikite į **Naršymo sritis > Moduliai > Pardavimas ir rinkodara > Kainos ir nuolaidos > Prekybos sutarčių žurnalai**.
 2. Spustelėkite **Naujas**.
 3. Lauke **Pavadinimas** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
@@ -58,22 +58,26 @@ ms.locfileid: "5836403"
 20. Spustelėkite **Gerai**.
 
 ## <a name="view-trade-agreements-for-a-product"></a>Peržiūrėti produkto prekybos sutartis
+
 1. Eikite į **Naršymo sritis > Moduliai > Produkto informacijos valdymas > Produktai > Patvirtinti produktai**.
 2. Sąraše raskite ir pasirinkite produktą, kurio kainą ką tik atnaujinote.
 3. **Veiksmų srityje** spustelėkite **Pardavimas**.
 4. Spustelėkite **Peržiūrėti prekybos sutartis**.
     
-    Peržiūrėkite kainos prekybos sutarties informaciją, kurią ką tik sukūrėte.    
+    Peržiūrėkite kainos prekybos sutarties informaciją, kurią ką tik sukūrėte.
 
 5. Uždarykite puslapį.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 ### <a name="whitepaper"></a>Techninė Dokumentacija
+
 Norėdami gauti daugiau informacijos, atsisiųskite šią techninę dokumentaciją (sukurtą AX2012 palaikymui, tačiau vis dar taikoma „Dynamics 365 Supply Chain Management”)
-- [Prekybos sutartys](https://mbs.microsoft.com/files/public/CS/AX2012R3/TradeagreementsinAX.pdf)
+
+- [Prekybos sutartys](https://download.microsoft.com/download/0/2/9/02972c8b-0159-4936-a3ef-1e64252b2d2f/TradeAgreementsInAX.pdf)
 
 ### <a name="community-blogs"></a>Bendruomenės tinklaraščiai
+
 - [Pardavimo kainos „Dynamics 365 for Finance and Operations“](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
 
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e33a2d4c50d17125a91b3b55b46626c6199575c8
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: d88801baafb9a6decfb6c04f708b3f7e1257b487
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897821"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923451"
 ---
 # <a name="help-system"></a>Žinyno sistema
 
@@ -39,7 +39,7 @@ Visose šiose programose konkretaus produkto žinyną galite pasiekti srityje **
 
 ## <a name="help-on-docsmicrosoftcom"></a>Žinynas adresu docs.microsoft.com
 
-Svetainė docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](https://docs.microsoft.com/dynamics365/)) yra numatytasis anksčiau išvardytų programų produktų dokumentacijos šaltinis. Šioje svetainėje siūlomos tolesnės funkcijos.
+Svetainė docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](/dynamics365/)) yra numatytasis anksčiau išvardytų programų produktų dokumentacijos šaltinis. Šioje svetainėje siūlomos tolesnės funkcijos.
 
 - **Prieiga prie naujausio turinio** – svetainė suteikia „Microsoft“ greitesnį ir lankstesnį būdą produktų dokumentacijai kurti, pateikti ir atnaujinti. Todėl jūs turite lengvą prieigą prie naujausios techninės informacijos.
 - **Ekspertų parašytas turinys** – svetainėje pateikiamą turinį gali pildyti bendruomenės nariai tiek „Microsoft‟ viduje, tiek išorėje.
@@ -50,7 +50,7 @@ Turinį galite rasti svetainėje docs.microsoft.com naudodami bet kurį ieškos 
 
 Norėdami užsiprenumeruoti visų docs.microsoft.com turinio naujinimų „Really Simple Syndication“ (RSS) informacijos santraukas, naudokite šią nuorodą:
 
-[RSS informacijos santrauka](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
+[RSS informacijos santrauka](/api/search/rss?$filter=scopes%2fany(t%3a+t+eq+%27Unified+Operations%27)&locale=en-us)
 
 ### <a name="leave-us-feedback"></a>Palikite atsiliepimą
 
@@ -73,7 +73,7 @@ Galite prisidėti prie dokumentacijos kūrimo ir redagavimo. Norėdami pradėti,
 
 Vaizdo įrašas [Kaip prisidėti prie „Microsoft Dynamics 365“ dokumentacijos kūrimo](https://youtu.be/m5djioozRbg) (esantis prieš tai) įtrauktas į „Microsoft Dynamics 365“ kanalą, esantį „YouTube“.
 
-Daugiau informacijos žr. [dokumentų bendraautoriaus vadovą](https://docs.microsoft.com/contribute), kurį publikuoja komanda, sukūrusi docs.microsoft.com svetainę.
+Daugiau informacijos žr. [dokumentų bendraautoriaus vadovą](/contribute), kurį publikuoja komanda, sukūrusi docs.microsoft.com svetainę.
 
 > [!NOTE]
 > Šiuo metu galima prisidėti tik prie turinio anglų kalba.
@@ -155,12 +155,13 @@ Galite sukurti pasirinktinių užduočių vedlių ir tokiu būdu sukurti vartoto
 | Vieta | aprašymas |
 |------|-------------|
 | [Docs.microsoft.com](/dynamics365/) | Šioje svetainėje laikomi visi „Dynamics 365‟ produktų dokumentai arba saitai į juos. |
-| [Microsoft Learn](https://docs.microsoft.com/learn/) | Ši svetainė yra nemokama „Microsoft“ el. mokymosi svetainė. |
+| [„Microsoft Learn“](/learn/) | Ši svetainė yra nemokama „Microsoft“ el. mokymosi svetainė. |
 | [Microsoft Dynamics„ Lifecycle Services“ (LCS)](https://lcs.dynamics.com/)\* | Ši svetainė suteikia debesimi paremtą bendradarbiavimo darbo sritį, kurią naudodami klientai ir partneriai gali valdyti projektus – nuo priešpardaviminės veiklos iki įgyvendinimo ir operacijų. Tai naudinga visais įgyvendinimo etapais. |
 | [Palaikymo tinklaraštis](https://aka.ms/AXSupportBlog) | Šioje svetainėje pateikiama patarimų, kuriuos skelbia palaikymo komanda. |
 | [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | Šioje svetainėje laikomas ankstesnių leidimų turinys. |
 | [„Dynamics‟ bendruomenė](https://community.dynamics.com/) | Šioje svetainėje saugomi tinklaraščiai, forumai ir vaizdo įrašai. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Šioje svetainėje pateikiama vertinimo ir pardavimo informacija. |
+
 
 
 

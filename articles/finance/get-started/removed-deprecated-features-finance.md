@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: e0db5c35e58ab7a7cbf31642072d25ee5d8ba868
-ms.sourcegitcommit: 04817103dc8e87a679d371575927284b8ce080b6
+ms.openlocfilehash: 93d025759f86ffeb0ee1f1e6e6e2aeb3ab341b75
+ms.sourcegitcommit: 4ba25601eba295bd9057f7fb5e85f1f6764f5a27
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "5898292"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5965315"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Pašalintos arba nerekomenduojamos „Dynamics 365 Finance“ funkcijos
 
@@ -28,7 +28,7 @@ ms.locfileid: "5898292"
 - *Pašalinta* funkcija nebėra įtraukta į produktą.
 - *Nerekomenduojama* funkcija nebėra aktyviai tobulinama ir gali būti pašalinta iš būsimo naujinio.
 
-Šis sąrašas skirtas suteikti jums informacijos apie pašalintas ir nerekomenduojamas funkcijas, kad galėtumėte geriau planuoti savo darbą. 
+Šis sąrašas skirtas suteikti jums informacijos apie pašalintas ir nebenaudojamas funkcijas, kad galėtumėte geriau planuoti savo darbą. 
 
 > [!NOTE]
 > Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](/dynamics/s-e/global/axtechrefrep_61). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
@@ -104,15 +104,15 @@ ms.locfileid: "5898292"
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10012-release"></a>Pašalintos arba nerekomenduojamos funkcijos, esančios „Finance“ 10.0.12 versijoje
 
-### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Lenkijos SSRS ataskaitos: pardavimo PVM registras, pirkimo PVM registras, ES suvestinės PVM registras – funkcijos nuoroda PL-00014
+### <a name="not-deprecated-polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Nepanaikinta: Lenkijos SSRS ataskaitos: pardavimo PVM registras, pirkimo PVM registras, ES suvestinės PVM registras – funkcijos nuoroda PL-00014
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Nerekomendavimo / pašalinimo priežastis** | Nėra teisiškai reikalaujama.  |
 | **Pakeitė kita funkcija?**   | Taip (standartinis audito failas, kuriame yra PVM deklaracija, „Excel“ formatu – JPK_VDEK) |
-| **Paveiktos produkto sritys**         | Programos |
-| **Visuotinio diegimo parinktis**              | Visi / Viskas |
-| **Būsena**                         | Nerekomenduojama: iki 2021 m. liepos 1 d. planuojame nutraukti šių SSRS ataskaitų palaikymą: **pardavimo PVM registrą, pirkimo PVM registrą, ES suvestinės PVM registrą – funkcijos nuoroda PL-00014**. Bus įvedamas „Excel“ formato pavyzdys, skirtas standartiniam audito failui kartu su PVM deklaracija (JPK_VDEK). |
+| **Paveiktos produkto sritys**         | Prašymas |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Nepanaikinta: nuo 2021 m. balandžio 27 d. planuojame tęsti šių SSRS ataskaitų palaikymą: **pardavimo PVM registrą, pirkimo PVM registrą, ES suvestinės PVM registrą – funkcijos nuoroda PL-00014**. Bus įvedamas „Excel“ formato pavyzdys, skirtas standartiniam audito failui kartu su PVM deklaracija (JPK_VDEK) taip pat buvo įtrauktas. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10011-release"></a>Pašalintos arba nerekomenduojamos funkcijos, esančios „Finance“ 10.0.11 versijoje
 
@@ -139,7 +139,7 @@ ms.locfileid: "5898292"
 | **Būsena**                         | Nerekomenduojama: nuo 2020 m. gruodžio 1 d. planuojame nebepalaikyti Kinijos kvitų tipų nustatymų be sąskaitų grupių pasirinkimo. Daugiau informacijos apie naują dizainą rasite [„Kas naujo 10.0.7 versijoje“](whats-new-changed-10-0-7.md). |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Ankstesni pranešimai apie pašalintas arba nerekomenduojamas funkcijas
-Norėdami sužinoti daugiau apie funkcijas, kurios buvo pašalintos arba nerekomenduojamos ankstesniuose leidimuose, žr. skyrių [Ankstesniuose leidimuose pašalintos arba nerekomenduojamos funkcijos](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md).
+Norėdami sužinoti daugiau apie funkcijas, kurios buvo pašalintos arba nebenaudojamos ankstesniuose leidimuose, žr. skyrių [Ankstesniuose leidimuose pašalintos arba nebenaudojamos funkcijos](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: a63ff89a6fcbffc57eff14f310a080a35521ef34
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0c29d68b29475c2c7040d06e60f7624c49a42002
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890081"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951937"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>Optimizuokite BYOD suplanuotas paketines užduotis
 
@@ -89,6 +89,12 @@ BYOD funkcijai taikomi šie apribojimai:
 **Problema:** Kai objektui naudojamas visas skirstymas, matote didelį įrašų rinkinį BYOD, kai naudojate **Pasirinkti** aktą. Tačiau kai atliekate papildantį skirstymą, matote tik kelis įrašus BYOD. Atrodo, kad atliekant papildantį skirstymą, visi įrašai buvo panaikinti ir pridėti tik pakeisti įrašai į BYOD.
 
 **Sprendimas:** SQL keitimų sekimo lentelės gali būti nenumatytoje būsenoje. Tokio tipo atvejais rekomenduojame išjungti objekto keitimų sekimą ir tada vėl jį įjungti. Norėdami gauti daugiau informacijos, žr. [Įjunkite objektų keitimų sekimą](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+
+### <a name="staging-tables-arent-clearing"></a>Išdėstymo lentelės nėra aiškios
+
+**Problema:** naudojant projekto išdėstymą, išdėstymo lentelės netinkamai išvalomos. Tada duomenys lentelėse plečiami, dėl to kyla veikimo problemų.
+
+**Sprendimas:** išdėstymo lentelėse tvarkomos septynios dienos iš retrospektyvos. Importavimo eksportavimo išdėstymo valymo paketinė užduotis automatiškai išvalo senesnius nei septynias dienas retrospektyvos duomenis iš **išdėstymo** lentelių. Jei ši užduotis bus įklijuota, lentelės nebus tinkamai išvalytos. Šios paketinės užduoties paleidimas iš naujo tęs procesą, kad išdėstymo lentelės būtų automatiškai išvalytos.
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 81e573593fbbb0bf87e53c5cbd985b38a8db89ac
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8607de5705354aa58c985fb536f3e1d52acd1f37
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841604"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921294"
 ---
 # <a name="create-a-sales-order-for-a-configurable-product"></a>Sukonfigūruoto produkto pardavimo užsakymo kūrimas
 
@@ -26,30 +26,27 @@ ms.locfileid: "5841604"
 
 Šioje procedūroje parodoma, kaip konfigūracijos šabloną taikyti pardavimo užsakymo produktui. Šiame pavyzdyje naudojamas D0006 garsiakalbio modelis demonstracinių duomenų įmonėje USMF. Paprastai šią procedūrą naudoja pardavimo užsakymų procesorius.
 
-
 ## <a name="create-a-sales-order"></a>Kurti pardavimo užsakymą
-1. Spustelėkite Pardavimo užsakymo apdorojimas ir užklausa.
-2. Spustelėkite Naujas.
-3. Spustelėkite Pardavimo užsakymas.
-4. Lauke Kliento kodas pasirinkite US-001. 
-5. Spustelėkite GERAI.
-6. Lauke Prekės numeris pasirinkite D0006.
+
+1. Eikite **į pardavimo ir rinkodaros darbo sričių pardavimo užsakymo \> \> apdorojimą ir užklausą**.
+1. Pasirinkite **Naujas**.
+1. Pasirinkite **Pardavimo užsakymas**.
+1. Lauke **Kliento kodas** pasirinkite *„US-001”*. 
+1. Pasirinkite **Gerai**.
+1. Lauke **Prekės numeris** pasirinkite *D0006*.
     * Šiai užduočiai atlikti turite pasirinkti konfigūruojamą produktą.  
-7. Spustelėkite Produktas ir tiekimas.
-8. Spustelėkite Konfigūruoti eilutę.
-    * Atkreipkite dėmesį, kad kaina buvo pakeista pagal pasirinktą konfigūraciją, o laukas Įtraukti laidą dabar yra nustatytas į parinktį True.  
+1. Rinkitės **Produktas ir tiekimas**.
+1. Pasirinkite **Eilutės konfigūravimas**.
+    * Atkreipkite dėmesį, kad kaina buvo pakeista pagal pasirinktą konfigūraciją, o laukas Įtraukt **laidą** laukelis dabar nustatytas į parinktį *Teisnga*.  
     * Įsiminkite pasirinktus laido parametrus ir numatytąją kainą.  
-9. Spustelėkite Įkelti šabloną.
-    * Šiame pavyzdyje parodoma, kaip galite pritaikyti šabloną, norėdami pasirinkti iš anksto nustatytą konfigūraciją. Jei naudojate šią procedūrą kaip užduočių vedlį ir norite matyti kitas atributų reikšmes, kurias galima naudoti, turite spustelėti mygtuką Atrakinti.  
-10. Spustelėkite GERAI.
-11. Spustelėkite GERAI.
-12. Išplėskite skyrių Eilutės informacija.
-13. Spustelėkite skirtuką Produktas.
+1. Pasirinkite **Įkelti šabloną**.
+    * Šiame pavyzdyje parodoma, kaip galite pritaikyti šabloną, norėdami pasirinkti iš anksto nustatytą konfigūraciją. Jei naudojate šią procedūrą kaip užduočių vedlį ir norite matyti kitas atributų reikšmes, kurias galima naudoti, turite spustelėti mygtuką **Atrakinti**.  
+1. Pasirinkite **Gerai**.
+1. Pasirinkite **Gerai**.
+1. Išplėskite skyrių **Eilutės informacija** section.
+1. Produkto **skirtuko** pasirinkimas.
     * Dabar prekės konfigūracija yra pateikta produkto dimensijose.  
-14. Uždarykite puslapį.
-
-## <a name="select-the-product-configuration"></a>Produkto konfigūracijos pasirinkimas
-
+1. Uždarykite puslapį.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f62398934d029a3269bd2b6aa33531e6807be490
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6452a126f4962104fca7c62f3518b89fff657f08
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809331"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921040"
 ---
 # <a name="create-product-model-components"></a>Kurti produkto modelio komponentus
 
@@ -26,14 +26,13 @@ ms.locfileid: "5809331"
 
 Produkto konfigūravimo pagal apribojimus modeliai naudoja komponentus kaip kūrimo blokus nustatant produkto modelio struktūrą. Komponentus reikia sukurti prieš kuriant produkto modelį. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 
-1. Spustelėkite Produkto varianto modelio aprašą.
-2. Spustelėkite Produkto konfigūracijos modeliai.
-3. Veiksmų srityje spustelėkite Modelis.
-4. Spustelėkite Komponentai.
-5. Spustelėkite Naujas.
-6. Lauke Pavadinimas surinkite reikšmę.
-7. Lauke Aprašas įveskite reikšmę.
-8. Uždarykite puslapį.
+1. Eikite į **Produkto informacijos valdymas \> Produktai \> Produkto konfigūracijos modeliai**.
+1. Veiksmų srityje pasirinkite **Modelis**.
+1. Pasirinkite **komponentus**.
+1. Pasirinkite **Naujas**.
+1. Lauke **Pavadinimas** įveskite reikšmę.
+1. Lauke **Aprašo laukas** surinkite reikšmę.
+1. Uždarykite puslapį.
 
 
 

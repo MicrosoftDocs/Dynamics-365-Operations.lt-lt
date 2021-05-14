@@ -1,8 +1,8 @@
 ---
 title: Kurti ir tvarkyti atsargų blokavimą
-description: Ši procedūra nurodo, kaip neleisti kitiems siunčiamiems šaltinio dokumentams rezervuoti faktiškai turimų atsargų naudojant atsargų blokavimą.
+description: Ši tema aprašo, kaip neleisti kitiems siunčiamiems šaltinio dokumentams rezervuoti faktiškai turimų atsargų naudojant atsargų blokavimą.
 author: perlynne
-ms.date: 08/08/2019
+ms.date: 03/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -14,41 +14,47 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 319ae6da1e0e504316b2d96001d582e835cef20c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e9aa38ca52da577fff258bb330922ad7f4044330
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834006"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956163"
 ---
 # <a name="create-and-maintain-an-inventory-blocking"></a>Kurti ir tvarkyti atsargų blokavimą
 
 [!include [banner](../../includes/banner.md)]
 
-Ši procedūra nurodo, kaip neleisti kitiems siunčiamiems šaltinio dokumentams rezervuoti faktiškai turimų atsargų naudojant atsargų blokavimą. Galite vykdyti šią procedūrą demonstracinių duomenų įmonėje USMF naudodami rodomas pavyzdines reikšmes. Prieš pradedant šią procedūrą jums reikės turėti prekę su faktiškai turimomis atsargomis.
+Ši tema aprašo, kaip neleisti kitiems siunčiamiems šaltinio dokumentams rezervuoti faktiškai turimų atsargų naudojant atsargų blokavimą. Prieš pradėdami šioje temoje aprašytas procedūras, turite turėti objektą, kuriam parengsite fizines atsargas.
 
+## <a name="block-inventory"></a>Blokuoti atsargas
 
-## <a name="create-an-inventory-blocking"></a>Sukurti atsargų blokavimą
-1. **Naršymo sritis** eikite į **Moduliai > Atsargų valdymas > Periodinės užduotys > Atsargų blokavimas**.
-2. Spustelėkite **Naujas**.
-3. Lauke **Prekės numeris** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-4. Sąraše pasirinkite norimą prekę. Pasirinkite prekės numerį su faktiškai turimomis atsargomis, kurias norite blokuoti. Jei naudojate USMF, galite pasirinkti prekę M9201.  
-5. Lauke **Kiekis** įveskite skaičių. Jei naudojate prekę M9201, turite pasirinkti mažiau nei 200.
-6. Išplėskite „fastTab“ **Atsargų matmenys**.
-7. Lauke **Sandėlis** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-8. Sąraše raskite ir pasirinkite norimą įrašą. Jei naudojate prekę M9201, galite pasirinkti sandėlį 51.  
-9. Spustelėkite **Įrašyti**.
+Norėdami sukurti atsargų blokavimo įrašą, kad atsargos būtų užblokuotos, atlikite šiuos veiksmus.
+
+1. Pasirinkite **Atsargų valdymas \> Periodinės užduotys \> Atsargų blokavimas**.
+1. Veiksmų srityje pasirinkite **Naujas**.
+1. Naujo blokavimo įrašo antraštėje nustatykite prekės, kurią norite blokuoti, lauką Prekės numeris **įveskite** aprašymą.
+1. **Bendra** „FastTab” skirtuke, **Kiekis** lauke, įveskite blokuojamų elementų skaičių.
+1. Atsargų **dimensijų** „FastTab“ nurodykite vieta ir sandėlį, kuriame šiuo metu yra prekės, kurias norite užblokuoti.
+1. Veiksmų srityje pasirinkite **Įrašyti**.
 
 ## <a name="update-the-conditions-of-the-inventory-blocking"></a>Atnaujinti atsargų blokavimo sąlygas
-1. „fastTab“ **Bendra**, esantį lauke **Kiekis**, įveskite skaičių. Atnaujinkite atsargų kiekio lauką, kad atitiktų norimą blokuoti kiekį.  
-2. Lauke **Numatyta data** įveskite datą. Galite nurodyti, kada turėtų būti galima rezervuoti užblokuotas atsargas, priskirdami numatomą datą. Jei atsargų blokavimui parenkama parinktis „Numatomi gavimai“, kuri būna parenkama pagal numatytuosius nustatymus, kai blokavimą kuriate rankiniu būdu, ši data bus rodoma numatomoje operacijoje.  
-3. Spustelėkite **Įrašyti**.
 
-## <a name="remove-the-inventory-blocking"></a>Pašalinti atsargų blokavimą
-1. **Veiksmų srityje** spustelėkite **Naikinti**.
-2. Spustelėkite **Taip**.
-3. Uždarykite puslapį.
+Norėdami atnaujinti atsargų blokavimo įrašą, atlikite šiuos veiksmus.
 
+1. Pasirinkite **Atsargų valdymas \> Periodinės užduotys \> Atsargų blokavimas**.
+1. Sąrašo srityje pažymėkite atitinkamą blokavimo įrašą.
+1. Redaguokite įrašą pagal reikalą. Pavyzdžiui, galite keisti tikėtinos datos **Laukelio** vertę, tam, kad galėtumėte nurodyti, kada galima rezervuoti užblokuotas atsargas, priskirdami numatomą datą. Jei **pasirinkta pasirinktis** Numatomi gaviniai, data bus rodoma tikėtinoje operacijoje. (Toliau **Numatyta, kad** numatyta gavimo pasirinktis pasirenkama rankiniu būdu kuriant blokavimo įrašą.)
+1. Veiksmų srityje pasirinkite **Įrašyti**.
 
+## <a name="unblock-inventory"></a>Atsargų atblokavimas
+
+Norėdami panaikinti atsargų blokavimo įrašą, kad atsargos būtų atblokuotos, atlikite šiuos veiksmus.
+
+1. Pasirinkite **Atsargų valdymas \> Periodinės užduotys \> Atsargų blokavimas**.
+1. Sąrašo srityje pažymėkite atitinkamą blokavimo įrašą.
+1. Rinkitės **Naikinti** veiksmų juostoje.
+1. Jus paragins patvirtinti operaciją. Pasirinkite **Taip** tam, kad tęstumėte.
+1. Uždarykite puslapį.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

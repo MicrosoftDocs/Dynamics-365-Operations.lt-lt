@@ -2,7 +2,7 @@
 title: Sandėlio procesų kokybės valdymas
 description: Šioje temoje pateikta informacija apie funkciją „Sandėlio procesų kokybės valdymas“. Ši priemonė išplečia kokybės valdymo galimybes ir leidžia vartotojams integruoti prekių pavyzdžių ėmimo valdiklius į sandėlio gavimo procesą, naudojant patobulintą sandėlio valdymą.
 author: Henrikan
-ms.date: 04/02/2020
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: a049a7832e02dbd2debdd016a6b723726cc25df0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: db23ffcea4da28fa309ccca12540e0edaf00ad6c
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834270"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956087"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Sandėlio procesų kokybės valdymas
 
@@ -620,5 +620,8 @@ Nustatėte 51 sandėlio darbo ir vietos duomenis, kad užtikrintumėte, jog atli
 > [!NOTE]
 > Apsvarstykite galimybę įtraukti perkėlimo iš kokybės kontrolės įrašą į mobiliojo įrenginio meniu elementą, kai veiklos kodas *Rodyti atidarytą užduočių sąrašą*. Pavyzdžiui, demonstraciniuose duomenyse yra mobiliojo įrenginio meniu elementas, pavadintas **Darbų sąrašas**. Pirmiausia į vartotojo nukreiptą meniu elementą įtraukite darbo klasę *Kokybės užsakymas*, nes šiai darbo klasei reikia, kad darbas būtų rodomas darbų sąraše. Tada darbo klasę *Kokybės užsakymas* įtraukite į meniu elementą **Darbų sąrašas**. Tada vartotojai, turintys prieigą prie darbų sąrašo, galės paimti ir apdoroti darbą, kuris automatiškai sugeneruojamas atliekant kokybės užsakymo tikrinimą.
 
+## <a name="additional-resources"></a>Papildomi ištekliai
+
+- [Nomenklatūros irr kokybės valdymo peržiūra](quality-management-processes.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

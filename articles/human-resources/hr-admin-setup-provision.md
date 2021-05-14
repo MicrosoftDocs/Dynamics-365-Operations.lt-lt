@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 177586068ddb86943f8013722e1be9e63c53fa0f
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: fee496157db581bf77f444674ca858aa4383e27c
+ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889793"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5963220"
 ---
 # <a name="provision-human-resources"></a>„Human Resources“ parengimas
 
@@ -55,6 +55,9 @@ Svarstymai dėl papildomų aplinkų įtraukimo, tačiau neapsiribojantys, yra to
 Norėdami naudoti LCS „Human Resources“ aplinkoms valdyti, pirma turite sukurti LCS projektą.
 
 1. Prisijunkite prie [LCS](https://lcs.dynamics.com/Logon/Index) naudodami paskyrą, kurią naudojote prisijungti prie „Human Resources“.
+
+   > [!NOTE]
+   > Norint užtikrinti sėkmingą parengimą, abonementas, kurį naudojate personalo aplinkai konfigūruoti, turi būti priskirtas arba sistemos administratoriui, arba sistemos pritaikymo priemonės vaidmeniui aplinkoje, kuri susieta **su** **personalo**„Power Apps“ aplinka. Norėdami [gauti daugiau informacijos apie saugos vaidmenų priskyrimą programos](https://docs.microsoft.com/power-platform/admin/database-security) vartotojams, peržiūrėkite vartotojo saugos konfigūravimą pagal išteklius „Power Platform“.
 
 2. Pasirinkite pliuso ženklą (**+**), kad sukurtumėte projektą.
 
@@ -115,13 +118,30 @@ Svarstydami, kurioje „Power Apps“ aplinkoje diegti „Human Resources“, pa
    
     - **Bandomosios aplinkos** – šios aplinkos kuriamos pritaikant galiojimo datą. Baigus galioti, jūsų aplinka ir visi joje esantys „Human Resources“ egzemplioriai bus automatiškai pašalinti.
    
-    - **Nepalaikomi regionai** – šiuo metu „Human Resources“ palaikoma tik šiuose regionuose: Jungtinėse Amerikos Valstijose, Europoje, Jungtinėje Karalystėje, Australijoje, Kanadoje ir Azijoje.
-
-    > [!NOTE]
-    > „Human Resources“ aplinka yra parengta tame pačiame regione, kuriame parengta „Power Apps“ aplinka. „Human Resources“ aplinkos perkėlimas į kitą regioną nepalaikomas.
+    - **Nepalaikomi geografiniai** grafikai – aplinka turi būti palaikomame geografijos kataloge. Daugiau informacijos rasite skyriuje [Palaikomos geografijos](hr-admin-setup-provision.md#supported-geographies).
 
 6. Nustatę tinkamą naudotiną aplinką, galite tęsti parengimo procesą. 
- 
+
+### <a name="supported-geographies"></a>Palaikomi geografiniai grafikai
+
+Personalo valdymas šiuo metu palaiko šiuos geografinius grafikus:
+
+- Jungtinės Valstijos
+- Europa
+- Jungtinė Karalystė
+- Australija
+- Kanada
+- Azija 
+
+Kurdami personalo aplinką pasirinkite aplinką, kurią norite „Power Apps“ susieti su personalo aplinka. Tada personalo aplinka yra numatyta toje pačioje „Azure" geografijos aplinkoje, kaip ir „Power Apps“ pasirinkta aplinka. Galite pasirinkti, kurioje vietoje personalo aplinka ir duomenų bazė yra faktiškai, pasirinkdami geografijos katalogą, kur bus siejama su „Power Apps“ personalo aplinka.
+
+Galite pasirinkti *„Azure" geografijos, kurioje yra aplinka, bet negalite pasirinkti* konkretaus „Azure" *regiono*. Automatizavimas nustato specifinį geografijos regioną, kuriame aplinka yra sukurta apkrovos balansavimui ir našumui optimizuoti. Informaciją apie „Azure" regionams ir regionams galite rasti [„Azure" geografinių diagramų](https://azure.microsoft.com/global-infrastructure/geographies) dokumentuose.
+
+Personalo aplinkos duomenys visada bus „Azure" geografijos, kurioje ji kuriama, viduje. Tačiau jo visada nebus tame pačiame „Azure" regione. Dėl įvykių susigrąžinimo tikslo duomenys bus dubliuoti ir pirminiame „Azure" regione, ir antriniame geografijos failo regione.
+
+ > [!NOTE]
+ > „Human Resources“ aplinkos perkėlimas iš vieno „Azure“ regiono į kitą nepalaikomas.
+
 ## <a name="grant-access-to-the-environment"></a>Prieigos prie aplinkos suteikimas
 
 Pagal numatytuosius nustatymus, aplinką sukūręs visuotinis administratorius turi prie jos prieigą. Papildomiems programos vartotojams prieiga turi būti aiškiai suteikta. Turite pridėti vartotojų ir priskirti jiems tinkamus vaidmenis „Human Resources“ aplinkoje. „Human Resources“ įdiegęs visuotinis administratorius taip pat turi paleisti „Attract“ ir „Onboard“ programas, kad užbaigtų inicijavimą ir suteiktų prieigą kitiems vartotojams, kurie yra nuomotojai. Kol tai nebus atlikta, kiti vartotojai neturės prieigos prie „Attract“ ir „Onboard“ programų ir matys prieigos pažeidimo klaidas. Daugiau informacijos rasite [Naujų vartotojų kūrimas](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) ir [Vartotojų priskyrimas saugos vaidmenims](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 

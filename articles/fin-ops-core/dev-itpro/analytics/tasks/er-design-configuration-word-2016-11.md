@@ -2,7 +2,7 @@
 title: ER konfigūracijų su „Excel” šablonais, skirtų ataskaitų „Word” formatu generavimui, pakartotinis naudojimas
 description: Šioje temoje aprašoma, kaip ataskaitai formatai, skirti generuoti ataskaitoms kaip „Excel” darbaknygėms, gali būti konfigūruojami ataskaitų kaip „Word” dokumentų konfigūravimui.
 author: NickSelin
-ms.date: 01/11/2021
+ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab4cd4a390782936a74977ac2aef3790aa8ac1af
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 413be634e80b87781444e1c1445c78691f4b4b0b
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891700"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944297"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>ER konfigūracijų su „Excel” šablonais, skirtų ataskaitų „Word” formatu generavimui, pakartotinis naudojimas
 
@@ -36,8 +36,8 @@ Norėdami užbaigti šias procedūras, pirmiausia turite atlikti užduočių ved
 
 Taip pat turite atsisiųsti ir įrašyti vietoje šiuos šablonus ataskaitos pavyzdžiui:
 
-- [Mokėjimo ataskaitos šablonas (SampleVendPaymDocReport.docx)](https://go.microsoft.com/fwlink/?linkid=862266)
-- [Susietas mokėjimo ataskaitos šablonas („SampleVendPaymDocReportBounded.docx”)](https://go.microsoft.com/fwlink/?linkid=862266)
+- [Mokėjimo ataskaitos šablonas (SampleVendPaymDocReport.docx)](https://download.microsoft.com/download/0/d/e/0de5a87c-95fc-4dfa-958f-285cb28b5b2b/SampleVendPaymDocReport.docx)
+- [Susietas mokėjimo ataskaitos šablonas („SampleVendPaymDocReportBounded.docx”)](https://download.microsoft.com/download/a/1/2/a126cb43-6281-4f7b-bde0-25e03ff9bc1e/SampleVendPaymDocReportBounded.docx)
 
 Šios procedūros skirtos funkcijai, kuri buvo įtraukta į 1611 „Dynamics 365 for Operations” versiją (2016 m. lapkričio mėn).
 

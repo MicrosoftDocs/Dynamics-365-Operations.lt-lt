@@ -2,7 +2,7 @@
 title: Elektroninių SF išrašymo administravimo komponentai
 description: Šioje temoje pateikta informacija apie kompnentus, kurie susiję su elektroninių sąskaitų priedų administravimu.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2e859875e124796e49000cd5ea94cfb75ecd768a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3ac4a03d75898680b5655421f3024dc6f666464c
+ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840033"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5963196"
 ---
 # <a name="electronic-invoicing-administration-components"></a>Elektroninių SF išrašymo administravimo komponentai
 
@@ -85,12 +85,14 @@ Aptarnavimo aplinkas galima valdyti naudojant būseną. Galimos parinktys yra š
 Elektroninių SF išrašymo priedo paslauga yra atsakinga už visų jūsų verslo duomenų saugojimą „Azure” ištekliuose, kurie priklauso jūsų įmonei. Siekiant užtikrinti, kad paslauga veiktų tinkamai ir kad visus verslo duomenis, kurių reikia elektroninių SF išrašymo priedui ir kuriuos jis sugeneravo, galėtų pasiekti tik priedas, turite sukurti du pagrindinius toliau pateiktus „Azure” išteklius:
 
 - „Azure” saugyklos abonementas („Blob“ saugykla) saugos elektronines SF
-- „Azure” raktų saugykla, kuri laikys sertifikatus ir suvienodintą saugyklos paskyros išteklių identifikatorių (URI)
+- „Azure Key Vault”, kuri laikys sertifikatus ir suvienodintą saugyklos paskyros išteklių identifikatorių (URI)
 
-> [!NOTE]
-> Paskirti raktų saugyklos ištekliai ir kliento talpyklos paskyra turi būti priskirti tik elektroninių SF išrašymo priedo naudojimui .
 
-Daugiau informacijos žr. [Kurti „Azure” saugyklos paskyrą ir talpyklos raktą](e-invoicing-create-azure-storage-account-key-vault.md).
+Paskirti „Key Vault“ ištekliai ir kliento talpyklos paskyra turi būti priskirti tik elektroninių SF išrašymo priedo naudojimui . Daugiau informacijos žr. [Kurti „Azure” saugyklos paskyrą ir „Key Vault“ raktą](e-invoicing-create-azure-storage-account-key-vault.md).
+
+Norėdami stebėti „Key Vault" apsaugą ir gauti įspėjimus, sukonfigūruokite „Azure Monitor for Key Vault". Įjungus „Key Vault" registravimą, galima stebėti, kaip, kada ir kas turi prieigą prie „Key Vault". Norėdami gauti daugiau informacijos, [žr. „Azure Key Vault" stebėjimą ir įspėjimą](/azure/key-vault/general/alert) bei kaip įgalinti [„Key Vault"](/azure/key-vault/general/howto-logging?tabs=azure-cli) registravimą.
+
+Geriausia, jei norite periodiškai pasukti paslapius. Daugiau informacijos ieškokite [Raktų dokumentacijoje](/azure/key-vault/secrets/).
 
 #### <a name="users"></a>Vartotojai
 

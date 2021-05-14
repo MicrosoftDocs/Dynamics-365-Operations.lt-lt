@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fdfe4d5042e0a6a7948a09334dc675e210e765a1
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a8adf8cd736dd74e8a706e3692df93d7957a3402
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909820"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935838"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Kas nauja arba pasikeitė „Dynamics 365 Supply Chain Management” 10.0.9 versijoje (2020 m. balandžio mėn.)?
 
@@ -71,7 +71,7 @@ Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinima
 
 - [Pakavimo ir saugojimo matmenys](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)
 
-- [Suplanuotų užsakymų lygiagretus pasirašymas](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders)<br> - Dėl platesnės informacijos, žr. [Lygiagretus pasirašymas](../master-planning/maintain-planned-orders.md#parallelize-firming) ir [MRP atlikimo ir naudojimo pagerinimus](https://www.microsoft.com/videoplayer/embed/RE4myrJ) vaizdo įrašą.
+- [Suplanuotų užsakymų lygiagretus pasirašymas](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders)<br> - Dėl platesnės informacijos, žr. [Tvirti planavimo užsakymai](../master-planning/planning-optimization/planned-order-firming.md) ir [MRP atlikimo ir naudojimo pagerinimus](https://www.microsoft.com/videoplayer/embed/RE4myrJ) vaizdo įrašą.
 
 - [Planavimo optimizavimas platinimui](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution)<br> - Norėdami gauti daugiau informacijos, žr. [Planavimo optimizavimo apžvalgą](../master-planning/planning-optimization/planning-optimization-overview.md).
 

@@ -2,7 +2,7 @@
 title: Mokesčių funkcijų palaikymos operacijų užsakymams
 description: Šioje temoje paaiškinama naujos mokesčių priemonės perkėlimo užsakymų palaikymas naudojant mokesčių skaičiavimo tarnybą.
 author: kailiang
-ms.date: 03/10/2021
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,18 +16,16 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 55597e4f0f40677e793b4c182e4b0ced01057751
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d1b99046b0e439c9dadbb240050e270a7b2a6914
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832566"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920960"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Mokesčių funkcijų palaikymos operacijų užsakymams
 
 [!include [banner](../../includes/banner.md)]
-
-[!include [banner](../../includes/preview-banner.md)]
 
 Šioje temoje pateikiama informacija apie mokesčių skaičiavimą ir registravimo integravimą perkėlimo užsakymuose. Ši funkcija leidžia nustatyti mokesčių skaičiavimą ir registravimą atsargų perkėlimo užsakymuose. Pagal Europos Sąjungos (ES) pridėtinės vertės mokesčio (PVM) nuostatus, atsargų perkėlimas laikomas vidiniu bendrijos tiekimu ir įsigijimais bendrijos viduje.
 

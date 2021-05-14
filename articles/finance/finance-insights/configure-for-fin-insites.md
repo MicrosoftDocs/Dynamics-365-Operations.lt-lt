@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 54117c009cfeb7307938cc6bd43e774ccfedcfb1
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 60e4d69157d7b73bd9e47310adae320687230080
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908835"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941231"
 ---
 # <a name="configuration-for-finance-insights-preview"></a>Modulio „Finance Insights” konfigūracija (peržiūros versija)
 
@@ -42,228 +42,36 @@ Aplinkas galite įdiegti atlikdami toliau pateikiamus veiksmus.
 
 ## <a name="configure-dataverse"></a>Konfigūruoti „Dataverse“
 
-Galite atlikti toliau nurodytus neautomatinius konfigūravimo veiksmus arba galite pagreitinti konfigūracijos procesą, naudodami pateiktą „Windows PowerShell“ scenarijų. Kai „PowerShell“ scenarijus bus baigtas vykdyti, jis jums pateiks reikšmes, naudotinas konfigūruojant modulį „Finance Insights”. 
+Norėdami sukonfigūruoti „Finance insights“, „Dataverse“ atlikite nurodytus veiksmus.
 
+1. Atidarykite aplinkos puslapį LCS ir patikrinkite, ar **„Power Platform“** integravimo skyrius jau sąranka.
+    1. Jei jis jau nustatytas, turi „Dataverse“ būti pateiktas su aplinka susietas aplinkos „Dynamics 365 Finance“ pavadinimas. Nukopijuokite „Dataverse“ aplinkos pavadinimą.
+    2. Jei ji nėra nustatyta, atlikite šiuos veiksmus:
+        1. Integravimo **skyriuje** pasirinkite „Power Platform“ nustatymo mygtuką. Tam, kad būtų galima nustatyti aplinką, gali užtrukti iki valandos.
+        2. „Dataverse“ aplinka sėkmingai nustatyta „Dataverse“ aplinkos pavadinimas susietas su „Dynamics 365 Finance“ aplinka turi būti įvardytas. Nukopijuokite „Dataverse“ aplinkos pavadinimą.
 > [!NOTE]
-> Atidarykite „PowerShell“ kompiuteryje ir vykdykite scenarijų. Jums gali reikėti „PowerShell“ 5 versijos. „Microsoft Azure“ CLI parinktis „Išbandykite“ gali neveikti.
+> Nustatę aplinką, **nepasirinkite** mygtuko **Programų CDS** saito. Tai nėra būtina „Finance insights“ ir bus išjungta galimybė užbaigti reikiamus LCS aplinkos papildiniai.
 
-# <a name="manual-configuration-steps"></a>[Neautomatinio konfigūravimo veiksmai](#tab/configuration-steps)
-
-1. Atidarykite [„Power Platform“ administravimo centrą](https://admin.powerplatform.microsoft.com/) ir atlikite tolesnius veiksmus, kad sukurtumėte naują „Dataverse“ aplinką tame pačiame „Active Directory“ nuomotojuje.
+2. Atidarykite [„Power Platform“ administravimo centrą](https://admin.powerplatform.microsoft.com/) ir atlikite tolesnius veiksmus, kad sukurtumėte naują „Dataverse“ aplinką tame pačiame „Active Directory“ nuomotojuje.
 
     1. Atidarykite puslapį **Aplinkos**.
 
         [![Puslapis Aplinkos](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)
 
-    2. Pasirinkite **Nauja aplinka**.
-    3. Lauke **Tipas** pasirinkite **Smėlio dėžė**.
-    4. Parinktį **Kurti duomenų bazę** nustatykite kaip **Taip**.
-    5. Pasirinkite **Toliau**.
-    6. Pasirinkite savo organizacijos kalbą ir valiutą.
-    7. Priimkite numatytąsias kitų laukų reikšmes.
-    8. Pasirinkite **Įrašyti**.
-    9. Atnaujinkite puslapį **Aplinkos**.
-    10. Palaukite, kol lauko **Būsena** reikšmė bus atnaujinta į **Parengta**.
-    11. Užsirašykite „Dataverse“ organizacijos ID.
-    12. Pasirinkite aplinką, tada – **Parametrai**.
-    13. Pasirinkite **Ištekliai \> Visi senstelėję parametrai**.
-    14. Viršutinėje naršymo juostoje pasirinkite **Parametrai**, tada – **Tinkinimai**.
-    15. Pasirinkite **Kūrėjo ištekliai**.
-    16. Nukopijuokite **„Dataverse” organizacijos ID** reikšmę.
-    17. Naršyklės adreso juostoje pasižymėkite „Dataverse“ organizacijos URL. Pavyzdžiui, URL gali būti `https://org42b2b3d3.crm.dynamics.com`.
+    2. Pasirinkite „Dataverse“ prieš tai sukurtą aplinką ir tada rinkitės **Parametrai**.
+    3. Pasirinkite **Ištekliai \> Visi senstelėję parametrai**.
+    4. Viršutinėje naršymo juostoje pasirinkite **Parametrai**, tada – **Tinkinimai**.
+    5. Pasirinkite **Kūrėjo ištekliai**.
+    6. Nukopijuokite **„Dataverse” organizacijos ID** reikšmę.
+    7. Naršyklės adreso juostoje pasižymėkite „Dataverse“ organizacijos URL. Pavyzdžiui, URL gali būti `https://org42b2b3d3.crm.dynamics.com`.
 
-2. Jei planuojate naudoti grynųjų pinigų srauto prognozių arba biudžeto prognozių funkciją, atlikite tolesnius veiksmus, kad atnaujintumėte savo organizacijos komentavimo limitą bent iki 50 megabaitų (MB).
+3. Jei planuojate naudoti grynųjų pinigų srauto prognozių arba biudžeto prognozių funkciją, atlikite tolesnius veiksmus, kad atnaujintumėte savo organizacijos komentavimo limitą bent iki 50 megabaitų (MB).
 
     1. Atidarykite [„Power Apps“ portalą](https://make.powerapps.com).
     2. Pasirinkite aplinką, kurią ką tik sukūrėte, tada pasirinkite **Išplėstiniai parametrai**.
     3. Pasirinkite **Parametrai \> El. pašto konfigūravimas**.
     4. Pakeiskite lauko **Didžiausias failo dydis** reikšmę į **51 200**. (Reikšmė išreikšta kilobaitais \[KB\].)
     5. Pasirinkite **Gerai**, kad įrašytumėte keitimus.
-
-# <a name="windows-powershell-configuration-script"></a>[„Windows PowerShell“ konfigūracijos scenarijus](#tab/powershell-configuration-script)
-
-```azurecli-interactive
-Write-Output 'The following modules need to be present for execution of this script:'
-Write-Output '  Microsoft.PowerApps.Administration.PowerShell'
-Write-Output '  Microsoft.PowerApps.PowerShell'
-Write-Output '  Microsoft.Xrm.Tooling.CrmConnector.PowerShell'
-
-try {
-    $moduleConsent = Read-Host 'Is it ok to install or update these modules as needed? (yes/no)'
-    if ($moduleConsent -ne 'yes' -and $moduleConsent -ne 'y') {
-        Write-Warning 'User declined to install required modules.'
-        return
-    }
-
-    $module = 'Microsoft.PowerApps.Administration.PowerShell'
-    if (-not (Get-InstalledModule -Name $module -MinimumVersion '2.0.61' -ErrorAction SilentlyContinue)) {
-        Install-Module -Name $module -MinimumVersion '2.0.61' -Force
-        Write-Output ('Installed {0} module.' -f $module)
-    }
-    else {
-        Write-Output ('{0} module found.' -f $module)
-    }
-
-    $module = 'Microsoft.PowerApps.PowerShell'
-    if (-not (Get-InstalledModule -Name $module -MinimumVersion '1.0.9' -ErrorAction SilentlyContinue)) {
-        Install-Module -Name $module -MinimumVersion '1.0.9' -AllowClobber -Force
-        Write-Output ('Installed {0} module.' -f $module)
-    }
-    else {
-        Write-Output ('{0} module found.' -f $module)
-    }
-
-    $module = 'Microsoft.Xrm.Tooling.CrmConnector.PowerShell'
-    if (-not (Get-InstalledModule -Name $module -MinimumVersion '3.3.0.892' -ErrorAction SilentlyContinue)) {
-        Install-Module -Name $module -MinimumVersion '3.3.0.892' -Force
-        Write-Output ('Installed {0} module.' -f $module)
-    }
-    else {
-        Write-Output ('{0} module found.' -f $module)
-    }
-
-    Write-Output '================================================================================='
-
-    $useMfa = $false
-    $useMfaPrompt = Read-Host "Does your organization require the use of multi-factor authentication? (yes/no)"
-    if ($useMfaPrompt -eq 'yes' -or $useMfaPrompt -eq 'y') {
-        $useMfa = $true
-    }
-    if(-not $useMfa) {
-        $credential = Get-Credential -Message 'Power Apps Credential'
-    }
-
-    $orgFriendlyName = Read-Host "Enter the name of the CDS Organization to use or create: (blank for 'FinanceInsightsOrg')"
-    if ($orgFriendlyName.Trim() -eq '') {
-        $orgFriendlyName = 'FinanceInsightsOrg'
-    }
-
-    $isDefaultOrgPrompt = Read-Host ("Is '" + $orgFriendlyName + "' the default organization for your tenant? (yes/no)")
-    if ($isDefaultOrgPrompt -eq 'yes' -or $isDefaultOrgPrompt -eq 'y') {
-        $isDefaultOrg = $true
-    }
-
-    if ($credential) {
-        Add-PowerAppsAccount -Username $credential.UserName -Password $credential.Password
-    }
-    else {
-        Add-PowerAppsAccount
-    }
-
-    if ($isDefaultOrg) {
-        $orgMatch = ('(default)')
-        $environment = (Get-AdminPowerAppEnvironment | Where-Object { $_.IsDefault -eq $true })
-    }
-    else {
-        $orgMatch = ('{0} (*)' -f $orgFriendlyName)
-        $environment = (Get-AdminPowerAppEnvironment | Where-Object { ($_.IsDefault -eq $false -and ($_.DisplayName -eq $orgFriendlyName -or $_.DisplayName -like $orgMatch)) })
-    }
-
-    $getCrmOrgParams = @{ 'OnlineType' = 'Office365' }
-    if ($credential) {
-        $getCrmOrgParams.Credential = $credential
-    }
-
-    if ($null -eq $environment) {
-        Write-Output '================================================================================='
-        Write-Output 'PowerApps environment not found. A new one will be provisioned.'
-
-        $invalid = 'invalid'
-
-        $location = $invalid
-        $cdsLocations = (Get-AdminPowerAppEnvironmentLocations | Select-Object LocationName).LocationName
-        while (-not ($location -in $cdsLocations)) {
-            $location = (Read-Host -Prompt "Enter the location in which to create the new PowerApps environment: ('help' to see values)")
-            if ($location -eq 'help') {
-                $cdsLocations
-            }
-        }
-
-        $currency = $invalid
-        $cdsCurrencies = (Get-AdminPowerAppCdsDatabaseCurrencies -Location $location | Select-Object CurrencyName).CurrencyName
-        while ($currency -ne '' -and -not ($currency -in $cdsCurrencies)) {
-            $currency = (Read-Host -Prompt "Enter the currency to use for the new PowerApps environment: ('help' to see values, blank for default)")
-            if ($currency -eq 'help') {
-                $cdsCurrencies
-            }
-        }
-
-        $language = $invalid
-        $cdsLanguages = (Get-AdminPowerAppCdsDatabaseLanguages -Location $location | Select-Object LanguageName, LanguageDisplayName)
-        while ($language -ne '' -and -not ($language -in $cdsLanguages.LanguageName)) {
-            $language = (Read-Host -Prompt "Enter the language name to use for the new PowerApps environment: ('help' to see values, blank for default)")
-            if ($language -eq 'help') {
-                $cdsLanguages | Format-Table -Property LanguageName, LanguageDisplayName
-            }
-        }
-
-        Write-Output 'Provisioning PowerApps environment. This may take several minutes.'
-
-        $sleep = 15
-
-        $envParams = @{ 'DisplayName' = $orgFriendlyName; 'EnvironmentSku' = 'Sandbox'; 'ProvisionDatabase' = $true; 'Location' = $location; 'WaitUntilFinished' = $true }
-        if ($language.Trim() -ne '') {
-            $envParams.LanguageName = $language
-        }
-        if ($currency.Trim() -ne '') {
-            $envParams.CurrencyName = $currency
-        }
-        $newEnvResult = New-AdminPowerAppEnvironment @envParams
-        if (($null -eq $newEnvResult) -or ($newEnvResult.CommonDataServiceDatabaseProvisioningState -ne 'Succeeded')) {
-            Write-Warning 'Failed to create to PowerApps environment'
-            if ($null -ne $newEnvResult) {
-                $newEnvResult
-            }
-        }
-        else {
-            $environment = $null
-            $retryCount = 0
-            while (($null -eq $environment) -and ($retryCount -lt 5)) {
-                Start-Sleep -Seconds $sleep
-                $environment = (Get-AdminPowerAppEnvironment | Where-Object { ($_.DisplayName -like $orgMatch) })
-            }
-            Write-Output ("Provisioned PowerApps environment with name: '" + $environment.DisplayName + "'")
-        }
-
-        Write-Output 'Waiting for CDS organization provisioning. This may take several minutes.'
-        if (-not $credential) {
-            $sleep = 120
-            Write-Output 'You may be prompted for credentials multiple times while checking the status of the provisioning.'
-        }
-
-        while ($null -eq $crmOrg) {
-            Start-Sleep -Seconds $sleep
-            $crmOrg = (Get-CrmOrganizations @getCrmOrgParams) | Where-Object { $_.FriendlyName -eq $orgFriendlyName }
-        }
-    }
-    else {
-        $crmOrgs = Get-CrmOrganizations @getCrmOrgParams
-        if ($UseDefaultOrganization -eq $true) {
-            $crmOrg = $crmOrgs | Where-Object { $_.FriendlyName -match $orgMatch }
-        }
-        else {
-            $crmOrg = $crmOrgs | Where-Object { $_.FriendlyName -eq $orgFriendlyName }
-        }
-    }
-
-    Write-Output '================================================================================='
-    Write-Output 'Values for PowerAI LCS Add-In:'
-    Write-Output ("  CDS organization url:             " + $crmOrg.WebApplicationUrl)
-    Write-Output ("  CDS organization ID:              " + $crmOrg.OrganizationId)
-}
-catch {
-    Write-Error $_.Exception.Message
-    Write-Warning $_.Exception.StackTrace
-    $inner = $_.Exception.InnerException
-    while ($null -ne $inner) {
-        Write-Output 'Inner Exception:'
-        Write-Error $_.Exception.Message
-        Write-Warning $_.Exception.StackTrace
-        $inner = $inner.InnerException
-    }
-}
-```
----
 
 ## <a name="configure-the-azure-setup"></a>„Azure“ sąrankos konfigūravimas
 
@@ -295,11 +103,14 @@ Atlikite šiuos veiksmus, kad sukonfigūruotumėte „Azure“ naudodami „Wind
 
 1. [„Azure“ portale](https://portal.azure.com) eikite į savo tikslinę „Azure“ prenumeratą. Pasirinkite mygtuką **„Cloud Shell“**, esantį lauko **Ieška** dešinėje.
 2. Pasirinkite **„PowerShell“**.
-3. Sukurkite saugyklą, jei būsite paraginti tai padaryti. Tada nusiųskite „Windows PowerShell“ scenarijų į seansą.
-4. Scenarijų paleiskite.
-5. Vykdykite raginimus paleisti scenarijų.
-6. Naudokite scenarijaus pateikiamą informaciją, kad į LCS įdiegtumėte papildinį **Eksportavimas į „Data Lake“**.
-7. Naudokite scenarijaus pateikiamą informaciją, kad „Finance“ puslapyje **Duomenų ryšiai** įjungtumėte objektų saugyklą (**Sistemos administravimas \> Sistemos parametrai \> Duomenų ryšiai**).
+3. Sukurkite saugyklą, jei būsite paraginti tai padaryti.
+4. Eikite į skirtuką **„Azure“** ir pasirinkite **Kopijuoti**.  
+5. Atidarykite „Notepad“ ir įklijuokite „PowerShell" scenarijų. Įrašykite failą kaip ConfigureDataLake.ps1.
+6. Į seansą įkelkite „Windows PowerShell" scenarijų naudodami nusiuntimo į „Cloud Shell“ meniu parinktį.
+7. Paleiskite scenarijų .\ConfigureDataLake.ps1.
+8. Vykdykite raginimus paleisti scenarijų.
+9. Naudokite scenarijaus pateikiamą informaciją, kad į LCS įdiegtumėte papildinį **Eksportavimas į „Data Lake“**.
+10. Naudokite scenarijaus pateikiamą informaciją, kad „Finance“ puslapyje **Duomenų ryšiai** įjungtumėte objektų saugyklą (**Sistemos administravimas \> Sistemos parametrai \> Duomenų ryšiai**).
 
 ### <a name="manual-setup"></a>Neautomatinė sąranka
 
@@ -973,26 +784,26 @@ Papildinys bus įdiegtas per kelias minutes.
 3. Pasirinkite papildinį **Įžvalgų gavimas**.
 4. Papildinio **Įžvalgų gavimas** informacijos puslapyje įveskite tolesnes reikšmes.
 
-    | Reikšmė                                                    | aprašymas |
+    | Reikšmė                                                    | Aprašas |
     |----------------------------------------------------------|-------------|
-    | CDS organizacijos URL                                     | „Dataverse“ egzemplioriaus „Dataverse“ organizacijos URL. Norėdami rasti šią reikšmę, atidarykite [„Power Apps“ portalą](https://make.powerapps.com), pasirinkite mygtuką **Parametrai** (krumpliaračio simbolis) viršutiniame dešiniajame kampe, pasirinkite **Išplėstiniai parametrai** ir nukopijuokite URL. (URL baigiasi „dynamics.com.“) |
-    | CDS org. ID                                               | „Dataverse“ egzemplioriaus aplinkos ID. Norėdami rasti šią reikšmę, atidarykite [„Power Apps“ portalą](https://make.powerapps.com), pasirinkite mygtuką **Parametrai** (krumpliaračio simbolis) viršutiniame dešiniajame kampe, pasirinkite **Tinkinimai \> Kūrėjo ištekliai \> Egzemplioriaus nuorodos informacija** ir nukopijuokite **ID** reikšmę. |
-    | CDS nuomotojo ID (katalogo ID iš AAD)               | „Dataverse“ egzemplioriaus nuomotojo ID. Norėdami rasti šią reikšmę, atidarykite [„Azure“ portalą](https://portal.azure.com), nueikite į **„Azure Active Directory“** ir nukopijuokite elemento **Nuomotojo ID** reikšmę. |
-    | Pateikite sistemos administratoriaus vaidmenį turinčio vartotojo objekto ID | Vartotojo „Azure AD“ objekto ID tarnyboje „Dataverse“. Šis vartotojas turi būti „Dataverse“ egzemplioriaus sistemos administratorius. Norėdami rasti šią reikšmę, atidarykite [„Azure“ portalą](https://portal.azure.com), nueikite į **„Azure Active Directory“ \> Vartotojai**, pasirinkite vartotoją, tada dalyje **Tapatybė** nukopijuokite elemento **Objekto ID** reikšmę. |
-    | Ar tai numatytoji nuomotojo CDS aplinka?      | Jei „Dataverse“ egzempliorius buvo pirmas sukurtas gamybos egzempliorius, pažymėkite šį žymės langelį. Jei „Dataverse“ egzempliorius buvo sukurtas neautomatiniu būdu, išvalykite šį žymės langelį. |
-
+    | CDS organizacijos URL                                     | Organizacijos „Dataverse“ URL nukopijuotas iš aukščiau. |
+    | CDS org. ID                                               | Organizacijos „Dataverse“ ID nukopijuotas iš aukščiau. |
+5. įjunkite **Ar tai numatytoji nuomotojo aplinka**.
+    
 ## <a name="configure-the-entity-store"></a>Objektų saugyklos konfigūravimas
 
 Atlikite tolesnius veiksmus, kad nustatytumėte objektų saugyklą savo „Finance“ aplinkoje.
 
 1. Nueikite į **Sistemos administravimas \> Sąranka \> Sistemos parametrai \> Duomenų ryšiai**.
-2. Parinktį **Įjungti „Data Lake“ integraciją** nustatykite kaip **Taip**.
-3. Nustatykite šiuos raktų saugyklos laukus:
+2. Nustatykite šiuos raktų saugyklos laukus:
 
     - **Programos (kliento) ID** – įveskite anksčiau sukurtą programos kliento ID.
     - **Programos slaptasis raktas** – įveskite slaptąjį raktą, kurį įrašėte anksčiau sukurtai programai.
     - **DNS pavadinimas** – domeno vardų sistemos (DNS) pavadinimą galite rasti programos, kurią sukūrėte anksčiau, išsamios informacijos puslapyje.
     - **Slaptojo rakto pavadinimas** – įveskite **storage-account-connection-string**.
+3. Įjunkite **Įjungti „Data Lake“ integraciją**.
+4. Pasirinkite **Tikrinti „Azure Key Vault"** ir patikrinkite, ar nėra klaidų.
+5. Pasirinkite **Tikrinti „Azure" talpyklą** ir patikrinkite, ar nėra klaidų.
 
 ## <a name="feedback-and-support"></a>Atsiliepimai ir palaikymas
 

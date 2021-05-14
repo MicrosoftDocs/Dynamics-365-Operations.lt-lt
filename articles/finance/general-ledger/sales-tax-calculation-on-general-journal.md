@@ -2,25 +2,25 @@
 title: Bendrojo žurnalo eilučių PVM apskaičiavimas
 description: Šioje temoje paaiškinama, kaip bendrojo žurnalo eilutėse apskaičiuojami įvairių tipų sąskaitų (tiekėjo, kliento, DK ir projekto) PVM.
 author: EricWang
-ms.date: 08/14/2019
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
-ms.author: roschlom
+ms.author: EricWang
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: e4d367fe6cb729c9c5658a9bbbac04e53fdf9644
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0cb4b282fe2bd5c68af17c741787c4caca98003
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815337"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937311"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Bendrojo žurnalo eilučių PVM apskaičiavimas
 [!include [banner](../includes/banner.md)]
@@ -117,7 +117,7 @@ Eikite į **DK \> Sąskaitų planas \> Sąskaitos \> Pagrindinės sąskaitos** i
 
 ![PVM operacijų puslapis](media/sales-tax-amount-sign.jpg)
 
-Šioje lentelėje pateikiama bendroji taisyklė, taikoma nustatant PVM sumų ženklą laikinoje PVM lentelėje.
+Šioje lentelėje pateikiama bendroji taisyklė, taikoma nustatant mokesčių valdybą ir sumų ženklą laikinoje PVM lentelėje.
 
 | Žurnalo eilutės suma | PVM kryptis  | PVM sumos ženklas |
 |---------------------|----------------------|-----------------------|
@@ -126,7 +126,7 @@ Eikite į **DK \> Sąskaitų planas \> Sąskaitos \> Pagrindinės sąskaitos** i
 | Neigiamas            | Gautinas PVM | Neigiamas              |
 | Neigiamas            | Mokėtinas PVM    | Teigiama              |
 
-Yra speciali taisyklė, taikoma kvitams, kuriuose yra tik **Projekto** arba **DK** eilučių, kai PVM grupė arba prekės PVM grupė pasirenkama **DK** eilutėje. Šią taisyklę valdo funkcija Įgalinti nepriklausomą PVM skaičiavimą bendriesiems žurnalams. Kai ši funkcija išjungta, **DK** eilutės mokesčio sumai apskaičiuoti naudojama **Projekto** eilutės debeto / kredito kryptis. Kai ši funkcija įjungta, **DK** eilutės mokesčio sumai apskaičiuoti naudojama jos pačios debeto / kredito kryptis. Toliau esančiose lentelėse pateikiama kiekvieno scenarijaus taisyklė. 
+Yra speciali taisyklė, taikoma kvitams, kuriuose yra tik **Projekto** arba **DK** eilučių, kai PVM grupė arba prekės PVM grupė pasirenkama **DK** eilutėje. Šią taisyklę valdo funkcija Įgalinti **nepriklausomą pardavimų mokesčio skaičiavimo funkciją bendriesiems žurnalams**. Kai ši funkcija išjungta, **DK** eilutės mokesčio sumai apskaičiuoti naudojama **Projekto** eilutės debeto / kredito kryptis. Kai ši funkcija įjungta, **DK** eilutės mokesčio sumai apskaičiuoti naudojama jos pačios debeto / kredito kryptis. Toliau esančiose lentelėse pateikiama kiekvieno scenarijaus taisyklė. 
 
 **Taisyklė, kai funkcija įjungta**
 

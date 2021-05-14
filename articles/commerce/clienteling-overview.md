@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 8a809b81504fdc31d8f9e0529048269dd7e0c5cc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b680ec227ecd70893999950a8be2ad152c476575
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800452"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5937017"
 ---
 # <a name="clienteling-overview"></a>Ryšių su klientais apžvalga
 
@@ -60,7 +60,7 @@ Pardavimo darbuotojai taip pat gali naudoti pastabas, kad užfiksuotų bendrąj�
 
 ## <a name="integration-with-dynamics-365-customer-insights"></a>Integravimas su „Dynamics 365 Customer Insights“
 
-Naudodami programą Dynamics 365 Customer Insights, mažmenininkai gali rinkti duomenis iš įvairių sistemų, kurias klientai naudoja sąveikaudami su mažmenininko prekės ženklu. Tada jie gali naudoti šiuos duomenis vienam kliento rodiniui sugeneruoti ir iš jo padaryti įžvalgų. Pasinaudodami „Customer Insights“ integracija su „Commerce“, mažmenininkai gali pasirinkti vieną ar daugiau parametrų, kuriuos reikėtų rodyti kliento kortelėje ar klientų knygoje. Pavyzdžiui, mažmenininkai gali naudoti „Customer Insights“, kad apskaičiuotų kliento pasitraukimo tikimybę ir nustatytų, kokį kitą veiksmą reikia atlikti. Jeigu šios vertės apibrėžiamos kaip matai, jas galima rodyti kliento kortelėje ir jos gali suteikti svarbios informacijos pardavimo darbuotojams. Daugiau informacijos apie „Customer Insights“ rasite [Dynamics 365 Customer Insights](https://docs.microsoft.com/dynamics365/ai/customer-insights/overview) dokumentacijoje. Daugiau informacijos apie matus rasite [Matai](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures).
+Naudodami programą Dynamics 365 Customer Insights, mažmenininkai gali rinkti duomenis iš įvairių sistemų, kurias klientai naudoja sąveikaudami su mažmenininko prekės ženklu. Tada jie gali naudoti šiuos duomenis vienam kliento rodiniui sugeneruoti ir iš jo padaryti įžvalgų. Pasinaudodami „Customer Insights“ integracija su „Commerce“, mažmenininkai gali pasirinkti vieną ar daugiau parametrų, kuriuos reikėtų rodyti kliento kortelėje ar klientų knygoje. Pavyzdžiui, mažmenininkai gali naudoti „Customer Insights“, kad apskaičiuotų kliento pasitraukimo tikimybę ir nustatytų, kokį kitą veiksmą reikia atlikti. Jeigu šios vertės apibrėžiamos kaip matai, jas galima rodyti kliento kortelėje ir jos gali suteikti svarbios informacijos pardavimo darbuotojams. Daugiau informacijos apie „Customer Insights“ rasite [Dynamics 365 Customer Insights](/dynamics365/ai/customer-insights/overview) dokumentacijoje. Daugiau informacijos apie matus rasite [Matai](/dynamics365/ai/customer-insights/pm-measures).
 
 ## <a name="set-up-clienteling"></a>Klientavimo nustatymas
 
@@ -73,7 +73,7 @@ Norėdami savo aplinkoje įjungti klientavimo funkciją, atlikite toliau nurodyt
 2. Įjunkite funkciją **Klientavimas**, pasirinkdami **Įjungti dabar**.
 3. Puslapyje **Prekybos parametrai**, skirtuke **Numeracija** pasirinkite eilutę **Kliento knygos identifikatorius**. Tada laukelyje **Numeracijos kodas** pasirinkite numeraciją. Sistema naudos šią numeraciją, kad kliento knygoms priskirtų ID.
 4. Pasirinkite **Įrašyti**.
-5. Sukurkite naują atributų grupę, kurioje būtų atributų, kuriuos norite fiksuoti dėl klientų, kurių duomenys tvarkomi klientų knygose. Instrukcijas rasite [Atributai ir atributų grupės](https://docs.microsoft.com/dynamics365/retail/attribute-attributegroups-lifecycle).
+5. Sukurkite naują atributų grupę, kurioje būtų atributų, kuriuos norite fiksuoti dėl klientų, kurių duomenys tvarkomi klientų knygose. Instrukcijas rasite [Atributai ir atributų grupės](./attribute-attributegroups-lifecycle.md).
 
     - Reikalaujamus atributus apibrėžkite kaip **Galima patikslinti**. Tada pardavimo darbuotojai gali naudoti šiuos atributus klientų knygai filtruoti.
     - Nustatykite šių atributų rodymo tvarką. Šia rodymo tvarka nustatoma, kokie atributai turėtų būti rodomi klientų knygos kliento kortelėje. 1 rodymo tvarka laikoma svarbesne nei 2 rodymo tvarka. Todėl atributas, kurio rodymo tvarka yra 1, bus rodomas prieš atributą, kurio rodymo tvarka yra 2.
@@ -103,18 +103,18 @@ Norėdami įjungti „Customer Insights“ integraciją su „Commerce“, įsit
 
 Norėdami sukonfigūruoti integraciją, atlikite toliau nurodytus veiksmus.
 
-1. „Azure“ portale registruokite naują programą ir pasižymėkite programos pavadinimą, jos ID ir raktą. Ši informacija bus naudojama paslaugos paslaugoms autentifikavimui tarp „Commerce“ ir „Customer Insights“. Pasižymėkite raktą saugiai, nes jo reikės įrašymui į raktų saugyklas. Tolesniam pavyzdžiui, naudokite CI_Access_name, CI_Access_AppID, CI_Access_Secret programos pavadinimui ir jos ID bei raktą atitinkamai. Dėl daugiau informacijos, žr. [Greitas vadovas: Registruokite programą „Microsoft“ tapatybės platformoje](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+1. „Azure“ portale registruokite naują programą ir pasižymėkite programos pavadinimą, jos ID ir raktą. Ši informacija bus naudojama paslaugos paslaugoms autentifikavimui tarp „Commerce“ ir „Customer Insights“. Pasižymėkite raktą saugiai, nes jo reikės įrašymui į raktų saugyklas. Tolesniam pavyzdžiui, naudokite CI_Access_name, CI_Access_AppID, CI_Access_Secret programos pavadinimui ir jos ID bei raktą atitinkamai. Dėl daugiau informacijos, žr. [Greitas vadovas: Registruokite programą „Microsoft“ tapatybės platformoje](/azure/active-directory/develop/quickstart-register-app).
 
     > [!IMPORTANT]
     > Užtikrinkite, kad nepamirštumėte pasikeisti slaptažodžio prieš jam baigiant galioti. To nepadarius, integracija netikėtai sustos.
 
 2. Eikite į savo „Customer Insights“ objektą ir ieškokite prieš tau sukurtos programos pavadinimo (šiuo atveju, „CI_Access_name").
-3. Sukurkite „Azure“ raktų saugyklą ir pasižymėkite pavadinimą bei URL (šiuo atveju, „KeyVaultName", „KeyVaultURL"). Instrukcijas rasite [„Quickstart“: slaptažodžio sukūrimas ir išgavimas iš „Azure“ raktų saugyklos naudojant „Azure“ portalą](https://docs.microsoft.com/azure/key-vault/quick-create-portal).
+3. Sukurkite „Azure“ raktų saugyklą ir pasižymėkite pavadinimą bei URL (šiuo atveju, „KeyVaultName", „KeyVaultURL"). Instrukcijas rasite [„Quickstart“: slaptažodžio sukūrimas ir išgavimas iš „Azure“ raktų saugyklos naudojant „Azure“ portalą](/azure/key-vault/quick-create-portal).
 4. Įrašykite raktą (šiuo atveju, „CI_Access_Secret") saugykloje. Kai šis raktas yra saugojamas saugykloje, jam suteikiamas vardas. Pasižymėkite rakto vardą (šiuo atveju, „SecretName").
 5. Norėdami prieiti prie rakto iš „Azure Key Vault“, jums reikia sukurti kitą programą su programos ID ir raktu (šiuo atveju, „KeyVault_Access_AppID" ir „KeyVault_Access_Secret"). Laikykite raktą saugiai, nes jis dar kartą nebus parodytas.
 6. Po to, jums reikia suteikti teises prie programos, kad prieitumėte prie „Key Vault“ iš „Commerce“ su API. Eikite į programos puslapį „Azure“ portale. Skyriuje **Valdyti** rinkitės **API teisės**. Įtraukite teises prieigai prie **„Azure“ rakto saugyklos**. Šiai teisei, rinkitės **Prieigos politika**. Pasirinkite šabloną kaip **Rakto valdymas** ir rinkitės **Gauti**, **Išvardyti**, **Iššifruoti** ir **Užšifruoti** parinktis. 
 5. „Commerce“ būstinėje eikite į **Sistemos administravimas \> Nustatymai \> „Key Vault“ parametrai** ir tuomet įveskite būtiną informaciją rakto saugyklai. Tada laukelyje **Raktų saugyklos klientas** įveskite programos, kurią naudojote 4 veiksme, ID, kad „Commerce“ galėtų pasiekti raktų saugykloje laikomus slaptažodžius.
-6. Norėdami įtraukti programą, kurią sukūrėte žingsnyje 1 į saugių programų sąrašą (kartais vadinamą kaip saugų sąrašą), eikite į „Customer Insights“ ir tada rinkitės **Peržiūrėti** prieigą prie programos. Instrukcijas rasite [Teisės](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
+6. Norėdami įtraukti programą, kurią sukūrėte žingsnyje 1 į saugių programų sąrašą (kartais vadinamą kaip saugų sąrašą), eikite į „Customer Insights“ ir tada rinkitės **Peržiūrėti** prieigą prie programos. Instrukcijas rasite [Teisės](/dynamics365/ai/customer-insights/pm-permissions).
 7. Puslapyje **Sistemos administravimas > Nustatymai > „Key Vault“ parametrai** puslapyje „Commerce HQ“, naujinkite laukelius kaip aprašyta toliau: 
 
 - **„Key Vault“ url**: „KeyVaultURL" (iš 3 veiksmo prieš tai).

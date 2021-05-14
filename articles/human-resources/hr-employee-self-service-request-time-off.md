@@ -2,7 +2,7 @@
 title: Atostogų užklausa
 description: Atostogų užklausa programoje „Dynamics 365 Human Resources“.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0159935e98e720d401923230dd7b69e22581df84
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4885c91eb0406acda2cf60ed4e30f494ebaa2a99
+ms.sourcegitcommit: 36b3fa236734a387f42c87e9b7b0ddd638ce4302
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790697"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924859"
 ---
 # <a name="request-time-off"></a>Atostogų užklausa
 
@@ -45,7 +45,7 @@ Galite pateikti atostogų užklausą, peržiūrėti atostogų ir neatvykimų bal
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>Priedo įtraukimas į esamą užklausą
 
-Atnaujindami esamą laiką išleidimo iš darbo užklausos, galite pridėti priedą. Taip pat galite matyti visas su konkrečia data susijusias užklausas. 
+Atnaujindami esamą laiką išleidimo iš darbo užklausos, galite pridėti priedą. Taip pat galite matyti visas su konkrečia data susijusias užklausas.
 
 ## <a name="view-leave-balances"></a>Peržiūrėti atostogų balansus
 
@@ -58,6 +58,20 @@ Atnaujindami esamą laiką išleidimo iš darbo užklausos, galite pridėti prie
 1. Darbo srityje **Darbuotojo savitarna** plytelėje **Atostogų balansai** pasirinkite **Daugiau** (...).
 
 2. Norėdami peržiūrėti savo patvirtintas atostogų užklausas, pasirinkite **Patvirtintos atostogos**. Norėdami peržiūrėti savo laukiančias atostogų užklausas, pasirinkite **Atostogų užklausos**.
+
+## <a name="cancel-time-off-requests"></a>Laisvo laiko prašymų atšaukimas
+
+[!include [Preview feature](includes/preview-feature.md)]
+
+1. Darbo srityje **Darbuotojo savitarna** plytelėje **Atostogų balansai** pasirinkite **Laisvo laiko užklausa**.
+
+2. Formoje **Laisvo laiko** išjungimas pasirinkite vieną ar daugiau atšaukti prašymas dėl laiko.
+
+3. Paspauskite mygtuką **Atšaukti**.
+
+4. Informacijos apie **atšaukimą** srityje įveskite komentarą ir pasirinkite **Pateikti**.
+
+   ![Atšaukti atostogų užklausą](media/hr-leave-and-absence-cancel.png)
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae36f1436ddd7f41bf0c3510b47cbc440224f484
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 04997aba427ae6013c8154593b09ae1a45a580c3
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890057"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935758"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Konfigūruokite „Dataverse“ virtualias lenteles
 
@@ -102,27 +102,15 @@ Turite registruoti savo žmogiškųjų išteklių elementą „Azure“ portale 
 
 Įdiekite „Dynamics 365 HR Virtual Table“ programą savo „Power Apps“ aplinkoje, kad talpintumėte virtualios lentelės sprendimo paketą į „Dataverse“.
 
-1. Atidarykite [„Power Platform“ administravimo centrą](https://admin.powerplatform.microsoft.com).
+1. „Human Resources“, atverkite **„Microsoft Dataverse“ integravimo** puslapį.
 
-2. Sąraše **Aplinkos** pasirinkite „Power Apps“ aplinką, susijusią su „Human Resources“ egzemplioriumi.
+2. Rinkitės **Virtualių lentelių** skirtuką.
 
-3. Puslapio srityje **Ištekliai** pasirinkite **„Dynamics 365“ programos**.
+3. Pasirinkite **Įdiegti virtualiosios lentelės** programą.
 
-4. Pasirinkite veiksmą **Įdiegti programą**.
+### <a name="configure-the-virtual-table-data-source"></a>Konfigūruokite virtualios lentelės duomenų šaltinį
 
-5. Rinkitės **„Dynamics 365 HR Virtual Table“** ir rinkitės **Toliau**.
-
-6. Peržiūrėkite ir pažymėkite, kad sutinkate su paslaugų teikimo sąlygomis.
-
-7. Pasirinkti **Diegti**.
-
-Diegimas trunka kelias minutes. Baigus, pereikite prie tolesnių veiksmų.
-
-![Įdiekite „Dynamics 365 HR Virtual Table“ programą iš „Power Platform“ administravimo centro](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
-
-### <a name="configure-the-virtual-table-data-source"></a>Konfigūruokite virtualios lentelės duomenų šaltinį 
-
-Kitas žingsnis yra konfigūruoti virtualios lentelės duomenų šaltinį „Power Apps“ aplinkoje. 
+Kitas žingsnis yra konfigūruoti virtualios lentelės duomenų šaltinį „Power Apps“ aplinkoje.
 
 1. Atidarykite [„Power Platform“ administravimo centrą](https://admin.powerplatform.microsoft.com).
 
@@ -133,6 +121,9 @@ Kitas žingsnis yra konfigūruoti virtualios lentelės duomenų šaltinį „Pow
 4. Srityje **Spendimo būklės telkinys** pasirinkite piktogramą **Išplėstinė paieška**, esančią programos viršutiniame dešiniajame kampe.
 
 5. Puslapyje **Išplėstinė paieška**, išskleidžiamajame sąraše **Ieškoti**, pasirinkite „**Finance and Operations“ virtualaus duomenų šaltinio konfigūracijos**.
+
+   > [!NOTE]
+   > Virtualiosios lentelės programos diegimas iš ankstesnio nustatymo veiksmo gali užtrukti keletą minučių. Jei **„Finance and Operations“ virtualiųjų duomenų** šaltinio konfigūracijų sąraše nėra, šiek tiek palaukite ir atnaujinkite sąrašą.
 
 6. Pasirinkite **Rezultatai**.
 
@@ -186,7 +177,7 @@ Kitas žingsnis yra konfigūruoti virtualios lentelės duomenų šaltinį „Pow
 
 Kai nustatymas užbaigtas, galite rinktis virtualias lenteles, kurias norite kurti ir įjungti savo „Dataverse“ objekte.
 
-1. „Human Resources“, atverkite **„Dataverse“ integravimo** puslapį.
+1. „Human Resources“, atverkite **„Microsoft Dataverse“ integravimo** puslapį.
 
 2. Rinkitės **Virtualių lentelių** skirtuką.
 
@@ -197,7 +188,7 @@ Kai nustatymas užbaigtas, galite rinktis virtualias lenteles, kurias norite kur
 
 4. Pasirinkite **Generuoti / atnaujinti**.
 
-![„Dataverse“ integravimas](./media/hr-admin-integration-common-data-service-integration.jpg)
+![„Dataverse“ integravimas](./media/hr-admin-integration-dataverse-integration.png)
 
 ## <a name="check-table-generation-status"></a>Tikrinti lentelės kūrimo būseną
 

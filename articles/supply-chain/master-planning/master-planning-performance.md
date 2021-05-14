@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 73ef52580ffe80c6c5cc9f77c2088d071a749ca7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 27c1f910fc9fa533877726562c45a9eaa13e2858
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833454"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935814"
 ---
 # <a name="improve-master-planning-performance"></a>Bendrojo planavimo efektyvumo patobulinimas
 
@@ -79,7 +79,7 @@ Parametrą **Sparčiosios atminties naudojimas** galite nustatyti skiltyje **Efe
 
 ### <a name="number-of-orders-in-firming-bundle"></a>Užsakymų tvirtinamame pakete skaičius
 
-Parametras **Tvirtinimo grupėje esančių užsakymų skaičius** nurodo bendrą užsakymų, kuriuos apdoros kiekviena gija / paketinis vykdymas, skaičių. Jis sukelia automatinio tvirtinimo proceso lygiagretumą.
+Parametras **Tvirtinimo grupėje esančių užsakymų skaičius** nurodo bendrą užsakymų, kuriuos apdoros kiekviena gija / paketinis vykdymas, skaičių. Jis sukelia automatinio tvirtinimo lygiavimo procesą.
 
 Parametrą **Tvirtinimo grupėje esančių užsakymų skaičius** galite nustatyti skiltyje **Efektyvumas**, kuri pateikta puslapio **Bendrojo planavimo parametrai** skirtuke **Bendra** (**Bendrasis planavimas \> Sąranka \>Bendrojo planavimo parametrai**). Automatinio tvirtinimo proceso lygiagretumas yra pagrįstas užsakymais, kuriuos reikia apdoroti kartu. Pavyzdžiui, jei šis parametras nustatytas į **50**, kiekviena gija arba paketinė užduotis vienu metu paims ir kartu apdoros 50 užsakymų. Norint rasti tinkamiausią reikšmę, rekomenduojame naudoti bandymų ir klaidų metodą. Tačiau, norėdami apskaičiuoti pradinę vertę, galite naudoti toliau nurodytą formulę.
 

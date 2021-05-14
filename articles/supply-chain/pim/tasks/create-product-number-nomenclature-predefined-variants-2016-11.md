@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8c69dc3f8e70c3b0a760f54d2251757ac997a432
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4bb73854f52525c0722683086d1b4f1dd7173306
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841628"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920662"
 ---
 # <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a>Iš anksto nustatytų produkto variantų produkto numerių nomenklatūros kūrimas
 
@@ -28,33 +28,33 @@ ms.locfileid: "5841628"
 
 
 ## <a name="create-a-product-number-nomenclature"></a>Produkto numerių nomenklatūros kūrimas
-1. Pažymėkite **Produkto varianto modelio aprašas**.
-2. Pažymėkite **Produkto nomenklatūra**.
-3. Pasirinkite **Naujas**.
-4. Lauke **Pavadinimas** įveskite nomenklatūros pavadinimą, kuris padės identifikuoti tikslinę produkto matmenų grupę, pavyzdžiui, `ColorSize`.
-5. Lauke **Aprašo laukas** surinkite reikšmę.
-6. Pasirinkite **Įtraukti**.
-7. Pažymėkite **Produkto pagrindinį** numerį.
-8. Pasirinkite **Įtraukti**.
-9. Pažymėkite **Teksto konstanta**.
-10. Lauke **Tekstas** įveskite reikšmę.
-11. Pasirinkite **Įtraukti**.
-12. Pažymėkite **Spalva**.
-13. Pasirinkite **Įtraukti**.
-14. Pažymėkite **Teksto konstanta**.
-15. Lauke **Tekstas** įveskite reikšmę.
-16. Pasirinkite **Įtraukti**.
-17. Pažymėkite **Dydis**.
-18. Uždarykite puslapį.
+
+1. Eikite į **Produkto informacijos valdymas \> Nustatymas \> Bendroji nomenklatūra**.
+1. Pasirinkite **Naujas**.
+1. Lauke **Pavadinimas** įveskite nomenklatūros pavadinimą, kuris padės identifikuoti tikslinę produkto matmenų grupę, pavyzdžiui, `ColorSize`.
+1. Lauke **Aprašo laukas** surinkite reikšmę.
+1. Pasirinkite **Įtraukti**.
+1. Pažymėkite **Produkto pagrindinį** numerį.
+1. Pasirinkite **Įtraukti**.
+1. Pažymėkite **Teksto konstanta**.
+1. Lauke **Tekstas** įveskite reikšmę.
+1. Pasirinkite **Įtraukti**.
+1. Pažymėkite **Spalva**.
+1. Pasirinkite **Įtraukti**.
+1. Pažymėkite **Teksto konstanta**.
+1. Lauke **Tekstas** įveskite reikšmę.
+1. Pasirinkite **Įtraukti**.
+1. Pažymėkite **Dydis**.
+1. Uždarykite puslapį.
 
 ## <a name="assign-the-nomenclature-to-a-product-master"></a>Nomenklatūros priskyrimas bendrajam produktui
+
 1. Pažymėkite **Produkto matmenų grupės**.
 2. Pažymėkite grupę **SizeCol produkto matmuo**.
 3. Pasirinkite **Redaguoti**.
 4. Pažymėkite **Taip** lauke **Naudoti nomenklatūrą**.
 5. Lauke **Produkto varianto numerio nomenklatūra** įveskite arba pažymėkite reikšmę.
 6. Uždarykite puslapį.
-
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

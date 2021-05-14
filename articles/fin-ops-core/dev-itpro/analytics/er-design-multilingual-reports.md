@@ -2,7 +2,7 @@
 title: Daugiakalbių pranešimų Elektroninėse ataskaitose kūrimas
 description: Šioje temoje paaiškinama, kaip galite naudoti Elektroninės ataskaitos (angl. Electronic Reporting (ER)) žymas kurti ir generuoti daugiakalbius pranešimus.
 author: NickSelin
-ms.date: 09/14/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5a2e8cca441189020e6274248a48c5e9dd80e00
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 50156b8c6b3553b02d092fad9c72e90c1f70ff78
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753557"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951990"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Daugiakalbių pranešimų Elektroninėse ataskaitose kūrimas
 
@@ -158,6 +158,31 @@ ER palaiko skirtingus būdus nurodyti generuotos ataskaitos kalbą. **Kalbos pri
 - **Apibrėžta apdorojimo metu** – sugeneruokite ataskaitą kalba, nurodyta apdorojimo metu. Jei pasirinksite šią vertę lauke **Kalba**, sukonfigūruokite ER išraišką, gražinančią kalbos kodą kalbai, pavyzdžiui, atitinkamo kliento kalbą.
 
     ![Nurodykite „ER Operation” kūrimo įrankyje apdorojimo metu nurodytą kalbą kaip sugeneruotos ataskaitos kalbą](./media/er-multilingual-labels-language-context-runtime.png)
+
+## <a name="culture-specific-formatting"></a>Nuo kultūris priklausantis formatavimas
+
+ER palaiko skirtingus būdus nurodyti nuo kultūros priklausomą sugeneruotą ataskaitą. Todėl tinkamas formatavimas kultūrai gali būti naudojamas datos, laiko ir skaitinių verčių atveju. Jums kuriant ER formatą, **Formato** skirtuke **Kultūros ypatybės** laukelyje galite pasirinkti vieną iš tolesnių verčių kiekvienam formato komponentui **Bendras\\Failas**, **„Excel“\\Failas**, **PDF\\Failas**, ar **PDF\\Suliejimo** tipas:
+
+- **Vartotojo nuostatos** – formatuoti vertes pagal vartotojo pageidaujamą kultūras. Šis kultūra apibrėžiama vartotojo pasirinkčių puslapio nuostatų skirtuko lauke **Data** **laikas** ir **skaičiaus** formatas.
+
+    ![Vartotojo pageidaujamo kultūros, kaip sugeneruotos ataskaitos principas ER operacijų konstruktoriuje, apibrėžimas](./media/er-multilingual-labels-culture-context-user-preferred.png)
+
+- **Tiesiogiai apibrėžta** – formatuoti vertes pagal dizaino metu nurodytą reikšmę.
+
+    ![Kultūros nustatymas yra konkretus numatytu laiku kaip pagal kultūrą sukurta ataskaita ER operacijų kūrimo įrankyje](./media/er-multilingual-labels-culture-context-fixed.png)
+
+- **Nustatyta vykdymo metu** – formatuoti vertes pagal dizaino metu nurodytą reikšmę vykdymo metu. Jei pasirinksite šią vertę, skirtuko Susiejimas lauke Data, laikas ir skaičiaus formatas  **sukonfigūruokite** išraišką **ER, kuri grąžina kultūros, pvz., atitinkamo kliento kultūros kodą,** kodą.
+
+    ![Kultūros nustatymas yra nustatytas vykdymo metu pagal kultūros sukurtą ataskaitą ER operacijų kūrimo įrankyje](./media/er-multilingual-labels-culture-context-runtime.png)
+
+> [!NOTE]
+> ER komponente, kurį apibrėžiate kaip konkretų į reikšmę įrašyti teksto reikšmę sukonfigūruotų antrinių ER komponentų, gali būti antrinių ER komponentų. Pagal numatytuosius nustatymus šių komponentų vertėms formatuoti naudojama pirminio komponento kultūra. Norėdami konfigūruoti šių komponentų susiejimus ir taikyti alternatyvų vertės formatavimo reikšmę, galite naudoti šias įtaisytąsias ER funkcijas:
+>
+> - [DATOS FORMATAS](er-functions-datetime-dateformat.md#syntax-2)
+> - [DATOSLAIKOFORMATAS](er-functions-datetime-datetimeformat.md#syntax-2)
+> - [FORMATO SKAIČIUS](er-functions-text-numberformat.md#syntax-2)
+>
+> 10.0.20 versijoje ir vėlesnėje, vietinio formato komponentai **Bendri\\Failas** ir **„Excel“\\Failo** tipai naudojami siekiant suformatuoti vertes per [PDF keitimą](electronic-reporting-destinations.md#OutputConversionToPDF) pagal sukurtą dokumentą.
 
 ## <a name="translation"></a>Perkėlimas
 

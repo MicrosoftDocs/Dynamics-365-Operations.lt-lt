@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0318814f421ab862559965bb4b003308d6279812
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d4a1c2f45d77c3ff9a7bb4dffaf12d877dc04e69
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799450"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936785"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Vartotojo registracijos pasirinktinių puslapių sąranka
 
@@ -32,7 +32,7 @@ Norėdami naudoti tinkintus puslapius, kurie sukurti „Dynamics 365 Commerce“
 Tinkintą „Commerce“ puslapį galima sukurti naudojant registravimosi, prisijungimo, paskyros profilio redagavimo, slaptažodžio nustatymo arba bendrąjį AAD modulius. Puslapio URL, kurie publikuojami šiems tinkintiems puslapiams, turėtų būti nurodyti „Azure AD“ B2C strategijų konfigūracijose, „Azure“ portale.
 
 > [!WARNING] 
-> „Azure AD B2C” panaikins senus (senstelėjusius) vartotojų srautus 2021 m. rugpjūčio mėnesio 1 d. Todėl turėtumėte planuoti perkelti savo vartotojų srautus į naują rekomenduojamą versiją. Nauja versija suteikia lygiavertiškas bei naujas funkcijas. Daugiau informacijos rasite [„Azure Active Directory B2C” vartotojų srautai](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview).
+> „Azure AD B2C” panaikins senus (senstelėjusius) vartotojų srautus 2021 m. rugpjūčio mėnesio 1 d. Todėl turėtumėte planuoti perkelti savo vartotojų srautus į naują rekomenduojamą versiją. Nauja versija suteikia lygiavertiškas bei naujas funkcijas. Daugiau informacijos rasite [„Azure Active Directory B2C” vartotojų srautai](/azure/active-directory-b2c/user-flow-overview).
 
 >„Commerce” 10.0.15 arba naujesnės versijos modulių biblioteka turi būti naudojama su rekomenduojamais B2C vartotojų srautais. Taip pat galima naudoti „Azure AD B2C” pasiūlytus numatytuosius vartotojo strategijos puslapius ir leisti įtraukti fono vaizdą, logotipą ir fono spalvų keitimus, susijusius su įmonės prekės ženklo integravimu. Nors numatytų vartotojo strategijos puslapių dizaino galimybės yra ribotesnės, juose suteikiamos „Azure AD B2C” strategijos funkcijos nekuriant ir nekonfigūruojant paskirtų pasirinktinių puslapių. 
 

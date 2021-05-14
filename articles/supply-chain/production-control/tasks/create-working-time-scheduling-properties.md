@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f7e412b7365901e18f476758aa3c5d43de590b2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f8489cc8eac8013041d4c138930feab57e43b81d
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811611"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920910"
 ---
 # <a name="create-working-time-scheduling-properties"></a>Kurti darbo laiko planavimo ypatybės
 
@@ -27,19 +27,21 @@ ms.locfileid: "5811611"
 
 Darbo laiko planavimo ypatybės naudojamos suskirstyti į kategorijas darbo laiko intervalus ir nustatyti nuostatas, į kurias turi atsižvelgti operatoriai. Ši procedūra parodo, kaip nustatyti darbo laiko planavimo ypatybes ir susijusių ypatybių reikšmes. Šią procedūrą galite atlikti naudodami demonstracinių duomenų įmonę USMF arba savo duomenis.
 
-1. Pasirinkite Visos darbo sritys > Išteklių naudojimo ciklo valdymas.
-2. Spustelėkite Ypatybės.
+1. Eikite į **Darbo sritys \> Išteklių naudojimo ciklo valdymas**.
+2. Pasirinkti **ypatybes**.
 
 ## <a name="create-property"></a>Kurti ypatybę
-1. Spustelėkite Naujas.
-2. Lauke Ypatybė surinkite reikšmę.
-3. Lauke Pavadinimas surinkite reikšmę.
+
+1. Pasirinkite **Naujas**.
+2. Lauke **Ypatybė** surinkite reikšmę.
+3. Lauke **Pavadinimas** įveskite reikšmę.
 
 ## <a name="create-property-values"></a>Kurti ypatybių reikšmes
+
 1. Sąraše pažymėkite pasirinktą eilutę.
-2. Lauke Pavadinimas surinkite reikšmę.
-3. Lauke Reikšmė surinkite reikšmę.
-4. Spustelėkite Įrašyti.
+2. Lauke **Pavadinimas** įveskite reikšmę.
+3. Lauke **Reikšmė** įveskite reikšmę.
+4. Pasirinkite **Įrašyti**.
 
 
 

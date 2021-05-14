@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2f235726d163b9262fabee4d0a1118600a60eee1
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 275a51620fad50f725dad7a37bd8ee776cf0ce4c
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890781"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941145"
 ---
 # <a name="regulatory-updates"></a>Reguliavimo naujinimai
 
@@ -47,6 +47,7 @@ Naujausių reglamentavimo naujinių planų ieškokite toliau pateiktoje lentelė
 |      Brazilija         |   2020 m. spalio mėn.      | 10.0.16      |   DRCST deklaracija SC – SEF 262/2020   |
 |      Brazilija         |   2020 m. spalio mėn.      | 10.0.16      |   SPED Fiscal ICMS / IPI įrašas C176   |
 |      Brazilija         |   2020 m. gruodžio mėn.      | 10.0.17, 10.0.16HF, 10.0.15HF      |   NF-e NT2020.006 - Skaitmeninės platformos tarpininko identifikacija (Išdėstymas ir patvirtinimo taisyklių naujinimai)   |
+|      Brazilija         |   2021 m. kovo mėn.         | 10.0.17, 10.0.18, 10.0.19         |    SPED REINF maketas 1.5.1
 |      Europa        |   Sausio 2021 d.       | 10.0.17, 10.0.16HF, 10.0.15HF      |   Brexit - Šiaurės Airijos protokolo poveikis tarp Bendrijos vidaus prekybos ataskaitos ES šalyse  |
 |      Vokietija        |   Sausio 2021 d.       | 10.0.16HF      |   ELSTER UstVA VAT išankstinio pranešimo formatai buvo išplėsti su dviem naujomis dėžėmis 37,50 neatšaukiamoms nurašomoms skoloms  |
 |      Vokietija        |   Sausio 2021 d.       | 10.0.17      |   Pasikeitimai ELSTER PVM pradžios pranešimo XML struktūroje (UstVA)  |

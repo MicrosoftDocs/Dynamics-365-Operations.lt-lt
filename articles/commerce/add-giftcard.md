@@ -2,7 +2,7 @@
 title: Dovanų kortelės modulis
 description: Šioje temoje aprašomi dovanų kortelių moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a4e4e06ab7032d68fcd36a8e80bc714ebaaac821
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8db7e597241f1fd552f6b960c2b57b0ba83da949
+ms.sourcegitcommit: efde05c758b2e02960760d875569d780d77d5550
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797676"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5962768"
 ---
 # <a name="gift-card-module"></a>Dovanų kortelės modulis
 
@@ -63,6 +63,26 @@ Palaikomos reikšmės:
 
 > [!IMPORTANT]
 > Šie parametrai pasiekiami „Dynamics 365 Commerce” 10.0.11 leidime ir reikalingi tik tada, kai reikia „SVS” ar „Givex” dovanų kortelių palaikymo. Jei atnaujinate iš senesnės „Dynamics 365 Commerce” versijos, turite rankiniu būdu atnaujinti failą appsettings.json. Instrukcijų, kaip atnaujinti failą appsettings.json, žr. [SDK ir modulių bibliotekos naujinimai](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
+
+## <a name="extend-internal-gift-cards-for-use-in-e-commerce-storefronts"></a>Išplėsti vidines dovanų korteles, skirtas naudoti el. komercijos parduotuvėsfrontėse
+
+Pagal numatytuosius nustatymus vidinės dovanų kortelės nėra optimizuotos naudoti el. „Commerce Storefronts". Todėl prieš leisdami mokėjimui naudoti vidines dovanų korteles, turėtumėte jas konfigūruoti su plėtiniais, kurie padeda jas apsaugoti. Štai dovanų kortelių sritys, kurias turėtumėte išplėsti prieš leisdami naudoti vidines dovanų korteles gamyboje:
+
+- **Dovanų kortelės** numeris – numeracijos naudojamos vidinių dovanų kortelių dovanų kortelių numeriams generuoti. Kadangi skaičių sekas galima lengvai nuspėti, turite išplėsti dovanų kortelių numerių generavimą, kad išduotams dovanų kortelių numeriams būtų naudojamos atsitiktinės, kriptografijos saugos eilutės.
+- **GetBalance** – **GetBalance** API naudojamas dovanų kortelių balansams ieškoti. Pagal numatytuosius nustatymus, ši API yra vieša. Jei PIN nėra būtina ieškoti dovanų kortelių balansų, kyla pavojus, kad bruto force atakos galėtų naudoti GetBalance API, norint ieškoti dovanų kortelių numerių, kurie turi **balansus**. Diegę vidinių dovanų kortelių IR API buferizavimo PIN reikalavimus, galite sumažinti riziką.
+- **PIN** – pagal numatytąjį nustatymą vidinės dovanų kortelės nepalaiko PIN. Turėtumėte išplėsti vidines dovanų korteles, kad likučiams ieškoti būtų reikalingas PIN. Šią funkciją taip pat galima naudoti dovanų kortelėms užrakinti po klaidingų bandymų įvesti PIN iš eilės.
+
+## <a name="enable-gift-card-payments-for-guest-checkout"></a>Įgalinti mokėjimus dovanų kortele išsiregistrregistrus
+
+Numatyta, kad mokėjimai dovanų kortele neįgalinti svečiui (anoniminiam) išregistravimas. Norėdami įjungti juos, atlikite toliau nurodytus veiksmus.
+
+1. „Commerce“ štabe eikite į **Mažmeninė prekyba ir komercija \> Kanalo sąranka \> POS nustatymai \> POS \> POS operacijos**.
+1. Pasirinkite ir sulaikykite (arba spustelėkite dešiniuoju pelės mygtuku) tinklelio antraštę, tada pasirinkite Įterpti **stulpelius**.
+1. **Įterpimo** stulpelių dialogo lange pažymėkite žymės **langelį AllowAnonymousAccess**.
+1. Pasirinkite **Naujinti**.
+1. **520** operacijų (dovanų kortelės likutis) ir **214** atveju **nustatykite AllowAnonymousAccess** vertę  **kaip** 1.
+1. Pasirinkite **Įrašyti**.
+1. Naudodami **1090** paskirstymo grafiką sinchronizuokite kanalo duomenų bazės pakeitimus. 
 
 ## <a name="add-a-gift-card-module-to-a-page"></a>Dovanų kortelės modulio įtraukimas į puslapį
 

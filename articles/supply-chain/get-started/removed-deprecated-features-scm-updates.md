@@ -2,7 +2,7 @@
 title: Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management“ funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama pašalinti iš „Dynamics 365 Supply Chain Management“.
 author: kamaybac
-ms.date: 12/07/2020
+ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 785f9055c44110d88b9494b5066647511840b646
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a7a06b5476302e43d107c448c139c235ea57b05b
+ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909652"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947549"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management“ funkcijos
 
@@ -32,6 +32,19 @@ ms.locfileid: "5909652"
 
 > [!NOTE]
 > Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](/dynamics/s-e/). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
+
+
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Supply Chain Management“ 10.0.19 versijoje
+
+### <a name="job-card-device"></a>Užduoties kortelės įrenginys
+
+|   |   |
+|---|---|
+| **Nerekomendavimo / pašalinimo priežastis** | Užduočių [kortelės](../production-control/config-job-card-device.md) įrenginys pakeičiamas nauja gamybos [laiko vykdymo](../production-control/production-floor-execution-configure.md) sąsaja. |
+| **Pakeitė kita funkcija?**   | Taip, [kortelės](../production-control/config-job-card-device.md) įrenginys bus pakeista nauja gamybos [laiko vykdymo](../production-control/production-floor-execution-configure.md)  sąsaja. |
+| **Paveiktos produkto sritys** | „Supply Chain Management“ – gamybos kontrolė |
+| **Visuotinio diegimo parinktis** | Debesies ir vietinis |
+| **Būsena** | Nerekomenduojama. Darbo kortelės prietaisas vis dar gaus palaikymą su klaidų ir saugumo pataisomis, tačiau nebebus pateikiami funkcijų patobulinimai. Po 2022 m. balandžio mėnesio, darbo kortelės prietaisas nebebus palaikomas, o klientų bus prašoma persikelti į naują gamybos aukšto vykdymo sąsają. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Supply Chain Management“ 10.0.18 versijoje
 

@@ -2,7 +2,8 @@
 title: Medijos galerijos modulis
 description: Šis skyrius aprašo medijos galerijos modulius ir tai, kaip įtraukti juos į vietos puslapius „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
-ms.date: 09/15/2020
+manager: annbe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +15,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b0b1ec7324ff60ee7cdd01c97c8c08260bd8c947
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: de0bc650393b035adea4570c5e64ecb76283117e
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802820"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937391"
 ---
 # <a name="media-gallery-module"></a>Medijos galerijos modulis
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šis skyrius aprašo medijos galerijos modulius ir tai, kaip įtraukti juos į vietos puslapius „Microsoft Dynamics 365 Commerce“.
 
@@ -50,10 +52,12 @@ Kitu atveju, medijos galerijos modulis gali talpinti visą išdirbtą paveikslė
 | Vaizdo šaltinis | **Puslapio kontekstas** ar **Produkto ID** | Nustatytoji vertė yra **Puslapio kontekstas**. Jei **Puslapio kontekstas** yra pasirinktas, modulis tikisi, kad puslapis pateiks produkto ID informaciją. Jei **Produkto ID** yra pasirinktas, produkto ID paveikslėliui turi būti patvirtintas kaip  **Produkto ID** ypatybės vertė. Ši savybė yra prieinama 10.0.12 prekybos versijoje. |
 | Produkto ID | Produkto ID | Ši ypatybė yra taikoma tik, jei **Paveikslėlio šaltinio** ypatybės vertė yra **Produkto ID**. |
 | Vaizdo mastelio keitimas | **Pagal liniją** ar **Konteineris** | Ši ypatybė leidžia vartotojui priartini paveikslėlius medijos galerijos modulyje. Paveikslėlis gali būti priartintas pagal liniją ar atskirame konteineryje šalia paveikslėlio. Ši savybė yra prieinama 10.0.12 prekybos versijoje. |
-| Priartinimo skalė | Dešimtainis skaičius | Ši ypatybė nurodo skalės faktorių paveikslėlių priartinimui. Pavyzdžiui, jei vertė yra nustatyta į **2,5**, paveikslėlis yra priartinamas 2,5 karto.|
-| Visas ekranas | **Teisinga** arba **Klaidinga** | Ši ypatybė nurodo, ar paveikslėliai gali būti peržiūrimi visame ekrane. Visame ekrane paveikslėliai gali taip pat būti toliau padidinami, jei priartinimo savybė yra įjungta. Ši savybė yra prieinama 10.0.13 prekybos versijoje. |
+| Mastelio koeficientas | Dešimtainis skaičius | Ši ypatybė nurodo skalės faktorių paveikslėlių priartinimui. Pavyzdžiui, jei vertė yra nustatyta į **2,5**, paveikslėlis yra priartinamas 2,5 karto. |
+| Visas ekranas | **Teisinga** arba **Klaidinga** | Ši ypatybė nurodo, ar paveikslėliai gali būti peržiūrimi visame ekrane. Visame ekrane paveikslėliai gali taip pat būti toliau padidinami, jei priartinimo savybė yra įjungta. Ši savybė yra prieinama „Commerce“ versijos 10.0.13 leidime. |
+| Padidinta vaizdo kokybė | Skaičius nuo 1 iki 100, nurodantis procentą ir pasirinktas naudojant sekimo juostos valdiklį | Ši ypatybė nurodo paveikslėlio kokybę, pagal ką galima keisti mastelį. Galima nustatyti 100 procentų norint užtikrinti, kad tolintas vaizdas visada naudos didžiausią galimą skiriamąją gebą. Ši ypatybė netaikoma PNG failams, nes jie naudoja nesąnaudingą formatą. Ši savybė yra prieinama „Commerce“ versijos 10.0.19 leidime. |
 | Vaizdai | Svetainės kūrimo įrankyje „Media Library“ pasirinkti paveikslėliai | Kartu su kūrimu iš produkto, paveikslėliai gali būti išdirbami medijos galerijos moduliui. Šie paveikslėliai bus pridėti prie bet kurio gaminio prieinamų paveikslėlių. Ši savybė yra prieinama 10.0.12 prekybos versijoje. |
 | Miniatiūros orientacija | **Vertikaliai** ar **Horizontaliai** | Ši ypatybė nurodo, ar miniatiūros paveikslėliai turi būti rodomi vertikalioje ar horizontalioje juostoje. |
+| Slėpti varianto bendrojo produkto vaizdus | **Teisinga** arba **Klaidinga** | Jei ši ypatybė nustatyta kaip Teisinga, pasirinkus variantą bendrojo produkto vaizdai **paslėpti**, nebent variante nėra vaizdų. Ši ypatybė neturi įtakos produktams, kurie neturi variantų. |
 
 Toliau pateiktas paveikslėlis rodo medijos galerijos modulio pavyzdį, kuriame visas ekranas ir priartinimo parinktys yra prieinamos.
 

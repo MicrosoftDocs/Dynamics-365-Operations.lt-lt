@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: caa3fccd9dcdfb3950958e793057131e77676d91
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 4de916fcd09b4eaa041dea0a1d1f843ce0e8f10a
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749310"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5940966"
 ---
 # <a name="on-premises-deployment-home-page"></a>Vietinio visuotinio diegimo pagrindinis puslapis
 
@@ -56,10 +56,10 @@ Galite diegti „Dynamics 365 Finance + Operations“ (vietinė versija). Pasiri
 - [To paties AD FS egzemplioriaus naudojimas keliose aplinkose](onprem-reuseadfs.md)
 
 ## <a name="commerce"></a>Prekyba
-- [„Commerce“ galimybės, pasiekiamos vietinėse visuotinėse įdiegtyse](../../../retail/retail-onprem.md)
+- [„Commerce“ galimybės, pasiekiamos vietinėse visuotinėse įdiegtyse](../../../commerce/retail-onprem.md)
 - [„Retail“ kanalų komponentų vietinėje aplinkoje diegimo veiksmai](deploy-retail-onprem.md)
-- [„Modern POS“ (MPOS) konfigūravimas, diegimas ir aktyvinimas](../../../retail/retail-modern-pos-device-activation.md)
-- [„Commerce Scale Unit“ konfigūravimas ir diegimas](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+- [„Modern POS“ (MPOS) konfigūravimas, diegimas ir aktyvinimas](../../../commerce/retail-modern-pos-device-activation.md)
+- [„Commerce Scale Unit“ konfigūravimas ir diegimas](../../../commerce/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
 ## <a name="upgrade"></a>Atnaujinti versiją
 - [Vietinio naujovinimo procesas, skirtas vietinėms aplinkoms](../migration-upgrade/on-prem-upgrade.md)

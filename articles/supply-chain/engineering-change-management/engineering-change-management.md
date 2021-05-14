@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: fb71d941a5cd58701f723e56a07c6b6cca6689bb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 56446e6a8abfcab83772e446dc7f01c529404b23
+ms.sourcegitcommit: 05210ceefd8816b889019b2a6554855f3c5b2a6c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830033"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5954650"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Valdyti inžinerinių produktų keitimus
 
@@ -139,13 +139,14 @@ Jums peržiūrint pokyčių užsakymą veiksmų juostoje, skirtuke **Pokyčių u
 
 Kaip aprašyta [Inžinerinės bendrovės ir duomenų turėjimo taisyklės](engineering-org-data-ownership-rules.md), produkto duomenys, kuriuos galite redaguoti keičiasi priklausomai nuo juridinio asmens tipo, kuriame dirbate (inžinerinėje ar vykdančioje bendrovėje). Duomenų nuosavybės taisyklės taip pat taikomos inžinerijos pokyčių užsakymams. Dėl to, priklausomai nuo jūsų sukurto inžinerinių pokyčių užsakymo juridiniame asmenyje, skirtingai pokyčių tipai gali būti sukurti. Štai keletas pavyzdžių:
 
-- Inžinerijos pokyčių užsakymas **inžinerijos bendrovėje**, galite atlikti pagrindinius pokyčius inžinerijos duomenims. Pavyzdžiui, galite sukurti naujas produkto versijos, keisti produkto struktūrą per BOM ir keisti inžinerijos atributų vertę. Kiekvienam paveiktam produktui pasirinkite vieną iš tolesnių verčių **Poveikio** laukelyje:
+- Inžinerijos pokyčių užsakymas *inžinerijos bendrovėje*, galite atlikti pagrindinius pokyčius inžinerijos duomenims. Pavyzdžiui, galite sukurti naujas produkto versijos, keisti produkto struktūrą per BOM ir keisti inžinerijos atributų vertę. Kiekvienam paveiktam produktui pasirinkite vieną iš tolesnių verčių **Poveikio** laukelyje:
 
     - **Jokių** – Naujinkite esančia produkto versiją (versijos naujinimas).
     - **Nauja versija** – Kurkite naują versiją pagrįstą pasirinkto produkto versija.
     - **Nauja produktas** – Kurkite visai naują produktą ar jo variantą pagrįstą pasirinkto produkto versija.
+    - **Naujas variantas** – Kurkite naują variantą pagrįstą pasirinkto produkto versija. Bus nukopijuota jos BOM ir maršruto informacija.
 
-- Inžinerijos pokyčių užsakymas **veikimo bendrovėje**, galite keisti logistinius produkto duomenis. Pavyzdžiui, galite praturtinti esantį BOM su nustatymais šaltinių, įtraukti vietinius maršrutus ar vietinius BOM ir papildyti BOM įtraukdami naujas BOM eilutės pakavimo medžiagoms, sutepimo skysčiams ar instrukcijoms vietine kalba. Papildymai, kuriuos daro vartotojai vykdančiojoje bendrovėje bus išsaugoti, kai nauji naujiniai siunčiami iš inžinerijos bendrovės. Dėl daugiau informacijos, žr. [Inžinerijos bendrovės ir duomenų turėjimo taisyklės](engineering-org-data-ownership-rules.md).
+- Inžinerijos pokyčių užsakymas *veikimo bendrovėje*, galite keisti logistinius produkto duomenis. Pavyzdžiui, galite praturtinti esantį BOM su nustatymais šaltinių, įtraukti vietinius maršrutus ar vietinius BOM ir papildyti BOM įtraukdami naujas BOM eilutės pakavimo medžiagoms, sutepimo skysčiams ar instrukcijoms vietine kalba. Papildymai, kuriuos daro vartotojai vykdančiojoje bendrovėje bus išsaugoti, kai nauji naujiniai siunčiami iš inžinerijos bendrovės. Dėl daugiau informacijos, žr. [Inžinerijos bendrovės ir duomenų turėjimo taisyklės](engineering-org-data-ownership-rules.md).
 
     Kai inžinerijos pokyčių užsakymai tvarkomi inžinerijos bendrovėje, gaminiai sukuriami ir (arba) naujinami tik inžinerijos bendrovėje. Dėl to, jei pagrindiniai duomenys turi būti naujinami, turite paleisti produktus į vykdymo bendroves.
 
