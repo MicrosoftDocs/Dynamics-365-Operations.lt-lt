@@ -361,12 +361,10 @@
                   href: asset-management/objects/object-timeline.md
                 - name: Turto rodinys
                   href: asset-management/objects/object-view.md
-                - name: Turto atributo apžvalga
+                - name: Turto atributų apžvalga
                   href: asset-management/objects/object-specification-overview.md
             - name: Priežiūros užklausų nustatymas
               items:
-                - name: Priežiūros užklausos
-                  href: asset-management/setup-for-maintenance-requests/requests.md
                 - name: Priežiūros užklausos ciklo būsenos
                   href: asset-management/setup-for-maintenance-requests/request-stages.md
                 - name: Priežiūros užklausos tipai
@@ -3343,8 +3341,94 @@
               href: inventory/extend-on-hand-entities.md
         - name: Trikčių šalinimas
           items:
+            - name: Kaštų valdymas
+              items:
+                - name: Kopijuojant prekių modelių grupes į kitą juridinį subjektą trūksta lauko parametrų
+                  href: troubleshooting/costing/copying-item-model-groups.md
+                - name: Ataskaitoje „Vykdomos netiesioginės išlaidos“ pateikiami panaikinti gamybos užsakymai
+                  href: troubleshooting/costing/indirect-costs-in-pr.md
+                - name: Pirkimo kaupimas užregistruotas su nulinės vertės produkto gavimo kvito nuline suma
+                  href: troubleshooting/costing/posting-to-purchase.md
+                - name: Faktiškai gauti pirkimo užsakymai nerodomi atsargų uždarymo ataskaitoje
+                  href: troubleshooting/costing/purchase-orders-rece.md
+                - name: Prekės kainos puslapio aktyvių kainų skirtuke nėra pradžios datos
+                  href: troubleshooting/costing/there-is-no-from-dat.md
+            - name: Atsargų valdymas
+              items:
+                - name: Kelios paketų numerių atsargų operacijos be faktinio atnaujinimo
+                  href: troubleshooting/inventory/multiple-inventory-t.md
+                - name: Dėl ataskaitos atšaukimo kaip baigtos sukuriama netikėta atidaryta operacija
+                  href: troubleshooting/inventory/reverse-report-as-fi.md
+                - name: 'Išrinkimo dokumento ataskaitoje neįmanoma parodyti naujų pastabų, pridėtų prie žurnalo'
+                  href: troubleshooting/inventory/unable-to-print-the.md
+                - name: 'Kiekis pradėtame sulaikymo užsakyme neatnaujinamas, kai užsakymas skaidomas'
+                  href: troubleshooting/inventory/quantity-on-a-start.md
+                - name: Laukas „Paskutinio bandymo data“ neatnaujinamas kuriant kelis kokybės užsakymus
+                  href: troubleshooting/inventory/the-field-last-test.md
+                - name: 'Skaidant esamo svorio kiekį, naudojamas mažiausias, o ne vardinis kiekis'
+                  href: troubleshooting/inventory/while-splitting-the.md
+            - name: Bendrasis planavimas
+              items:
+                - name: Tiesiogiai išvesti patvirtinti užsakymai apdorojami peržiūros versijos darbo eiga
+                  href: troubleshooting/planning/firmed-directly-deri.md
+                - name: Bendrasis planavimas generuoja suplanuotus fiktyvių produktų užsakymus
+                  href: troubleshooting/planning/planned-orders-are-g.md
+                - name: 'Suplanuotas pirkimo užsakymas, sukurtas, kai pirkimas yra per neigiamas dienas'
+                  href: troubleshooting/planning/planning-optimisatio.md
+                - name: Neįmanoma įkelti savikainos į poreikio prognozės įrašus
+                  href: troubleshooting/planning/unable-to-upload-the.md
+                - name: Negalima pašalinti sandėlio poreikio prognozės dimensijos iš prognozės eilučių
+                  href: troubleshooting/planning/warehouse-removal-fr.md
+            - name: Įsigijimas
+              items:
+                - name: VEL įmonėje negalima išrašyti sąskaitos faktūros į klientą nukreiptam pardavimo užsakymui
+                  href: troubleshooting/procurement/not-able-to-invoice-.md
+                - name: 'Paprašius atlikti keitimą, eilutės negalima įtraukti į pirkimo paraišką'
+                  href: troubleshooting/procurement/purchase-requisition.md
+            - name: Produkto informacijos valdymas
+              items:
+                - name: Negalima taikyti šablono išleistam produktui kurti
+                  href: troubleshooting/products/apply-template-in-re.md
+                - name: Negalima importuoti prekės naudojant objektą Išleisti produktai V2
+                  href: troubleshooting/products/cannot-import-with-r.md
+                - name: Pirkimo užsakymuose nerodomas išverstas produkto tekstas
+                  href: troubleshooting/products/when-the-customer-ad.md
+            - name: Gamybos kontrolė
+              items:
+                - name: Nesilaikoma KS eilučių sunaudojimo principo parametrų
+                  href: troubleshooting/production/flushing-principle-n.md
+                - name: Paketo numeris išvalomas pasirinkus naują partijos ID
+                  href: troubleshooting/production/when-customer-is-try.md
+                - name: 'Iš naujo nustatant gamybos užsakymus per paketinę užduotį, nesilaikoma vėlyvo pasirinkimo'
+                  href: troubleshooting/production/late-selection-is-no.md
+                - name: 'Vartotojai gali atsisakyti produktų, kurie paskelbti baigtais, medžiagų eilučių'
+                  href: troubleshooting/production/raw-material-lines-a.md
+                - name: Registruojant ataskaitą kaip užbaigtą žurnalą įvyko klaida
+                  href: troubleshooting/production/posting-report-as-.md
+                - name: Išrinkimo dokumento žurnalo sandėlis neatnaujintas KS eilutėje
+                  href: troubleshooting/production/the-warehouse-in-pic.md
+            - name: Grąžinimų valdymas
+              items:
+                - name: Kliento grąžinimų kaupimas naudojant prekių grąžinimo grupes nepavyksta
+                  href: troubleshooting/rebates/cumulating-customer-.md
+            - name: Pardavimas ir rinkodara
+              items:
+                - name: 'Sistemos administratoriai negali išvalyti užsakymo sulaikymų, nes jie nėra įgalioti'
+                  href: troubleshooting/sales/system-administrator.md
+            - name: Transportavimo valdymas
+              items:
+                - name: Pagrindinę sąskaitą kaip kredito sąskaitą galima pridėti tik dėl derinimo priežasčių
+                  href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Sandėlio valdymas
               items:
+                - name: 'Registruojant išrinkimo dokumentą įvyksta klaida, kai pasirenkama vieta'
+                  href: troubleshooting/warehousing/error-cannot-update.md
+                - name: Pakavimo stotyje nerodomos produkto pastabos
+                  href: troubleshooting/warehousing/packing-station-not-.md
+                - name: 'Vietos šablone neleidžiamos neigiamos atsargos, bet leidžiamos neigiamos turimos atsargos'
+                  href: troubleshooting/warehousing/location-profile-set.md
+                - name: Viename kvite spausdinama tik viena kelių darbo antraščių etiketė
+                  href: troubleshooting/warehousing/when-receipting-prod.md
                 - name: Negalite patvirtinti siuntos dėl kalendoriaus klaidos
                   href: troubleshooting/warehousing/load-has-active-appo.md
                 - name: 'Negalite patvirtinti siuntos, nes darbas neužbaigtas arba jo nėra'
