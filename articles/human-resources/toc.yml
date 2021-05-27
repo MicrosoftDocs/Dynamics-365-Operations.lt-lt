@@ -1,11 +1,13 @@
-- name: Dynamics 365 Human Resources
+- name: „Dynamics 365 Human Resources“
   href: ./index.md
   items:
     - name: Kas nauja
       items:
         - name: Kas nauja ar pasikeitė „Human Resources”
           href: hr-admin-whats-new.md
-        - name: 2020 m. balandžio 19 d.
+        - name: 2021 m. gegužės 3 d.
+          href: hr-whats-new-2021-05-03.md
+        - name: 2021 m. balandžio 19 d.
           href: hr-whats-new-2021-04-19.md
         - name: 2021 m. balandžio 5 d.
           href: hr-whats-new-2021-04-05.md
