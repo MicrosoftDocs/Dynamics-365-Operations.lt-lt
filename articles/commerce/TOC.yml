@@ -380,8 +380,6 @@
                       href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/commerce/toc.json
                     - name: Grynųjų pinigų valdymo patobulinimai
                       href: cash-mgmt.md
-                    - name: EKA atsargų peržvalga
-                      href: product-variants-POS.md
                     - name: EKA operacijų sulaikymas ir atnaujinimas
                       href: pos-suspend-recall-transactions.md
                     - name: Autonominės EKA funkcijos
@@ -714,6 +712,8 @@
                       href: pos-outbound-inventory-operation.md
                     - name: Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas
                       href: calculated-inventory-retail-channels.md
+                    - name: Atsargų peržvalgos operacija EKA
+                      href: pos-inventory-lookup-operation.md
                 - name: Pirkimo užsakymai
                   items:
                     - name: Pirkimo užsakymų apžvalga
@@ -2448,10 +2448,34 @@
                       href: dev-itpro/pos-extension/pos-extension-getting-started.md
                     - name: EKA plėtinių paketo projekto kūrimas
                       href: dev-itpro/pos-extension/create-pos-extension-package.md
-                    - name: „Modern POS“ plėtinio „appx“ failo kūrimas
+                    - name: „Modern POS“ plėtinio paketo .appx failo kūrimas
                       href: dev-itpro/pos-extension/create-pos-extension-appx.md
-                    - name: EKA plėtinio derinimas
+                    - name: EKA plėtinių derinimas
                       href: dev-itpro/pos-extension/debug-pos-extension.md
+                    - name: Plėtinių paketas ir diegimas
+                      items:
+                        - name: „Modern POS“ plėtinių paketo kūrimas
+                          href: dev-itpro/pos-extension/mpos-extension-packaging.md
+                        - name: „Modern POS“ (MSIX) plėtinių paketo kodo parašas
+                          href: dev-itpro/pos-extension/mpos-extension-signing.md
+                        - name: „Cloud POS“ plėtinių paketo kūrimas
+                          href: dev-itpro/pos-extension/cpos-extension-package.md
+                    - name: EKA plėtinio perkėlimas į nepriklausomo paketo modelį
+                      href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: EKA plėtinio kūrimo vadovas
+                      items:
+                        - name: EKA plėtinio pagrindai
+                          href: dev-itpro/pos-extension/pos-extension-basics.md
+                        - name: Pasirinktinio rodinio kūrimas EKA
+                          href: dev-itpro/pos-extension/custom-pos-view.md
+                        - name: EKA valdiklių naudojimas plėtiniuose
+                          href: dev-itpro/pos-extension/controls-pos-extension.md
+                        - name: Užduotys
+                          items:
+                            - name: „Knockout.js“ naudojimas EKA plėtiniuose
+                              href: dev-itpro/pos-extension/knockout-pos-extension.md
+                            - name: Pasirinktinių nuotoliniu būdu valdomos „Commerce“ API naudojimas
+                              href: dev-itpro/pos-extension/consume-apis-pos.md
             - name: „Hardware Station“ išplečiamumas
               items:
                 - name: „Hardware Station“ ir išplečiamumas

@@ -1,0 +1,55 @@
+---
+title: Didžiosios knygos kalendoriaus keitimas arba priskyrimas iš naujo
+description: Šioje temoje aiškinama, kaip pakeisti kalendorių, kuris šiuo metu priskirtas didžiajai knygai, ir kaip didžiajai knygai priskirti naują kalendorių.
+author: kweekley
+ms.date: 05/07/2021
+ms.topic: index-page
+ms.prod: ''
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: roschlom
+ms.search.region: Global
+ms.author: kweekley
+ms.search.validFrom: 2021-5-07
+ms.dyn365.ops.version: 10.0.14
+ms.openlocfilehash: 052b8944c0a015187d1d7c4ba3db878c52faeeea
+ms.sourcegitcommit: 905a8c7a0c1bc06ada2acfba913dfe5f7b44ea16
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 05/14/2021
+ms.locfileid: "6039955"
+---
+# <a name="change-or-reassign-a-ledger-calendar"></a><span data-ttu-id="69a0f-103">Didžiosios knygos kalendoriaus keitimas arba priskyrimas iš naujo</span><span class="sxs-lookup"><span data-stu-id="69a0f-103">Change or reassign a ledger calendar</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="69a0f-104">Šioje temoje aiškinama, kaip pakeisti kalendorių, kuris šiuo metu priskirtas didžiajai knygai, ir kaip didžiajai knygai priskirti naują kalendorių.</span><span class="sxs-lookup"><span data-stu-id="69a0f-104">This topic explains how to change the calendar that is currently assigned to a ledger, and how to assign a new calendar to the ledger.</span></span>
+
+## <a name="issue"></a><span data-ttu-id="69a0f-105">Problema</span><span class="sxs-lookup"><span data-stu-id="69a0f-105">Issue</span></span>
+
+<span data-ttu-id="69a0f-106">Kartais įmonės turi pakeisti esamą kalendorių, priskirtą didžiajai knygai, arba priskirti naują kalendorių.</span><span class="sxs-lookup"><span data-stu-id="69a0f-106">Sometime, companies must either change the existing calendar that is assigned to a ledger or assign a new calendar.</span></span>
+
+## <a name="resolution"></a><span data-ttu-id="69a0f-107">Sprendimas</span><span class="sxs-lookup"><span data-stu-id="69a0f-107">Resolution</span></span>
+
+<span data-ttu-id="69a0f-108">Yra du didžiosios knygos kalendoriaus keitimo arba priskyrimo iš naujo scenarijai.</span><span class="sxs-lookup"><span data-stu-id="69a0f-108">There are two scenarios for changing or reassigning a ledger calendar.</span></span> <span data-ttu-id="69a0f-109">Pirmasis scenarijus apima esamo kalendoriaus, kuris jau priskirtas didžiajai knygai, keitimą.</span><span class="sxs-lookup"><span data-stu-id="69a0f-109">The first scenario involves changing an existing calendar that is already assigned to the ledger.</span></span> <span data-ttu-id="69a0f-110">Antrasis scenarijus apima naujo kalendoriaus kūrimą ir priskyrimą didžiajai knygai.</span><span class="sxs-lookup"><span data-stu-id="69a0f-110">The second scenario involves creating a new calendar and assigning it to the ledger.</span></span> <span data-ttu-id="69a0f-111">Abu keitimus galima atlikti bet kuriuo metu, net ir didžiojoje knygoje užregistravus operacijas.</span><span class="sxs-lookup"><span data-stu-id="69a0f-111">Both changes can be done at any time, even after transactions have been posted to the ledger.</span></span>
+
+### <a name="change-an-existing-fiscal-calendar"></a><span data-ttu-id="69a0f-112">Esamo finansinio kalendoriaus keitimas</span><span class="sxs-lookup"><span data-stu-id="69a0f-112">Change an existing fiscal calendar</span></span>
+
+<span data-ttu-id="69a0f-113">Norėdami pakeisti esamą kalendorių, priskirtą jūsų didžiajai knygai, eikite į **Didžioji knyga \> Didžiosios knygos nustatymas \> Didžioji knyga** ir pasirinkite finansinio kalendoriaus saitą, kad atidarytumėte puslapį **Didžiosios knygos kalendoriai**.</span><span class="sxs-lookup"><span data-stu-id="69a0f-113">To change an existing calendar that is assigned to your ledger, go to **General ledger \> Ledger setup \> Ledger**, and select the link for the fiscal calendar to open the **Ledger calendars** page.</span></span>
+
+<span data-ttu-id="69a0f-114">Yra keitimų, kuriuos galima atlikti kalendoriuje, apribojimų.</span><span class="sxs-lookup"><span data-stu-id="69a0f-114">There are limits to the changes that can be made to a calendar.</span></span> <span data-ttu-id="69a0f-115">Pavyzdžiui, galite pakeisti metų *laikotarpių* pradžios ir pabaigos datas, tačiau negalite pakeisti *metų* pradžios i pabaigos datų kalendoriuje.</span><span class="sxs-lookup"><span data-stu-id="69a0f-115">For example, you can change the start and end dates of the *periods* in a year, but you can't change the start and end dates of a *year* in the calendar.</span></span>
+
+<span data-ttu-id="69a0f-116">Norėdami pakeisti metų laikotarpius, pasirinkite atitinkamą kalendorių ir metus.</span><span class="sxs-lookup"><span data-stu-id="69a0f-116">To change the periods in a year, select the appropriate calendar and year.</span></span> <span data-ttu-id="69a0f-117">Pirmiausia mygtuku **Naikinti laikotarpį** panaikinkite kai kuriuos arba visus esamus veiklos laikotarpius.</span><span class="sxs-lookup"><span data-stu-id="69a0f-117">First, use the use the **Delete period** button to delete some or all of the existing operating periods.</span></span> <span data-ttu-id="69a0f-118">Visus veiklos laikotarpius, išskyrus pirmąjį, galima panaikinti.</span><span class="sxs-lookup"><span data-stu-id="69a0f-118">All operating periods except the first can be deleted.</span></span> <span data-ttu-id="69a0f-119">Tada mygtuku **Padalyti laikotarpį** padalykite likusį laikotarpį arba laikotarpius į naujus laikotarpius įvesdami atitinkamą kito laikotarpio pradžios datą.</span><span class="sxs-lookup"><span data-stu-id="69a0f-119">Then use the **Divide period** button to divide the remaining period or periods into new periods by entering an appropriate start date for the next period.</span></span>
+
+<span data-ttu-id="69a0f-120">Pakeitę laikotarpius kalendoriuje, turite paleisti procesą **Perskaičiuoti didžiosios knygos laikotarpius** kiekviename juridiniame subjekte (įmonėje), kuriam priskirtas kalendorius.</span><span class="sxs-lookup"><span data-stu-id="69a0f-120">After you change the periods in a calendar, you must run the **Recalculate ledger periods** process in every legal entity (company) that the calendar is assigned to.</span></span> <span data-ttu-id="69a0f-121">Nors jokiu įspėjamuoju pranešimu neprimenama atlikti šio veiksmo, perskaičiavimo procesas reikalingas norint atnaujinti laikotarpį, priskirtą kiekvienai didžiojoje knygoje užregistruotai operacijai.</span><span class="sxs-lookup"><span data-stu-id="69a0f-121">Although no warning message reminds you to complete this step, the recalculation process is required to update the period that is assigned to each posted transaction in General ledger.</span></span> <span data-ttu-id="69a0f-122">Norėdami paleisti perskaičiavimo procesą, kiekvienos įmonės puslapyje **Didžiosios knygos nustatymas** pasirinkite **Perskaičiuoti didžiosios knygos laikotarpius**.</span><span class="sxs-lookup"><span data-stu-id="69a0f-122">To run the recalculation process, select **Recalculate ledger periods** on the **Ledger setup** page in each company.</span></span>
+
+<span data-ttu-id="69a0f-123">Jei perskaičiavimo procesas nėra paleistas, bandomojo balanso arba finansinių ataskaitų operacijų balansai gali būti neteisingai įtraukti į laikotarpius.</span><span class="sxs-lookup"><span data-stu-id="69a0f-123">If the recalculation process isn't run, transaction balances on a trial balance or on financial statements might be incorrectly included in periods.</span></span> <span data-ttu-id="69a0f-124">Tokiu atveju galite bet kada ištaisyti balansus paleisdami perskaičiavimo procesą.</span><span class="sxs-lookup"><span data-stu-id="69a0f-124">In this case, you can correct the balances at any time by running the recalculation process.</span></span>
+
+### <a name="assign-a-new-fiscal-calendar"></a><span data-ttu-id="69a0f-125">Naujo finansinio kalendoriaus priskyrimas</span><span class="sxs-lookup"><span data-stu-id="69a0f-125">Assign a new fiscal calendar</span></span>
+
+<span data-ttu-id="69a0f-126">Norėdami priskirti naują finansinį kalendorių, eikite į **Didžioji knyga \> Didžiosios knygos nustatymas \> Didžioji knyga** ir pasirinkite **Redaguoti**, kad įjungtumėte puslapio **Didžioji knyga** redagavimo režimą.</span><span class="sxs-lookup"><span data-stu-id="69a0f-126">To assign a new fiscal calendar, go to **General ledger \> Ledger setup \> Ledger**, and select **Edit** to put the **Ledger** page into edit mode.</span></span> <span data-ttu-id="69a0f-127">Tada lauke **Finansinis kalendorius** pasirinkite naują finansinį kalendorių.</span><span class="sxs-lookup"><span data-stu-id="69a0f-127">Then, in the **Fiscal calendar** field, select a new fiscal calendar.</span></span>
+
+<span data-ttu-id="69a0f-128">Pakeitę didžiosios knygos finansinį kalendorių, turite paleisti procesą **Perskaičiuoti didžiosios knygos laikotarpius**.</span><span class="sxs-lookup"><span data-stu-id="69a0f-128">After you change the fiscal calendar for a ledger, you must run the **Recalculate ledger periods**.</span></span> <span data-ttu-id="69a0f-129">Kai didžiajai knygai priskiriate naują finansinį kalendorių, pranešimu primenama atlikti šį veiksmą.</span><span class="sxs-lookup"><span data-stu-id="69a0f-129">When you assign a new fiscal calendar to a ledger, a message reminds you to complete this step.</span></span> <span data-ttu-id="69a0f-130">Nors iš pranešimo galima sudaryti įspūdį, kad perskaičiavimo procesas yra pasirinktinis, tačiau taip nėra.</span><span class="sxs-lookup"><span data-stu-id="69a0f-130">Although the message might seem to indicate that the recalculation process is optional, it isn't.</span></span> <span data-ttu-id="69a0f-131">Jis būtinas norint atnaujinti laikotarpį, priskirtą kiekvienai užregistruotai operacijai didžiojoje knygoje.</span><span class="sxs-lookup"><span data-stu-id="69a0f-131">It's required to update the period that is assigned to each posted transaction in General ledger.</span></span> <span data-ttu-id="69a0f-132">Norėdami paleisti perskaičiavimo procesą, puslapyje **Didžiosios knygos nustatymas** pasirinkite **Perskaičiuoti didžiosios knygos laikotarpius**.</span><span class="sxs-lookup"><span data-stu-id="69a0f-132">To run the recalculation process, select **Recalculate ledger periods** on the **Ledger setup** page.</span></span>
+
+<span data-ttu-id="69a0f-133">Jei perskaičiavimo procesas nėra paleistas, bandomojo balanso arba finansinių ataskaitų operacijų balansai gali būti neteisingai įtraukti į laikotarpius.</span><span class="sxs-lookup"><span data-stu-id="69a0f-133">If the recalculation process isn't run, transaction balances on a trial balance or on financial statements might be incorrectly included in periods.</span></span> <span data-ttu-id="69a0f-134">Tokiu atveju galite bet kada ištaisyti balansus paleisdami perskaičiavimo procesą.</span><span class="sxs-lookup"><span data-stu-id="69a0f-134">In this case, you can correct the balances at any time by running the recalculation process.</span></span>
