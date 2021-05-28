@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b0c7aa3bc1d4eef7b557bd9b07b31196faab273d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 55c40029082e49c1fbc9d9d5e9361218e5ddc5a0
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791083"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022477"
 ---
 # <a name="e-commerce-site-overview"></a>El. prekybos svetainės apžvalga
 
@@ -37,11 +37,11 @@ Iki jums sukuriant savo svetainę „Dynamics 365 Commerce“, mažiausiai viena
 
 Tik vienas interneto parduotuvės kanalas turi būti nustatytas iki kol pradėsite su „Dynamics 365 Commerce“. Tačiau tik vienas e-komercijos saitas gali suteikti interneto patirtį kelioms interneto parduotuvėms. Pavyzdžiui, jei kelios interneto parduotuvės nustatomos siekiant palaikyti skirtingus geografinius regionus, vienas e-komercijos puslapių rinkinys gali būti naudojamas unikaliai patirčiai, kuri nustatyta kiekvienoje parduotuvėje. Daugiau informacijos apie tai, kaip sukonfigūruoti svetainę, kad būtų palaikomos kelios internetinės parduotuvės, žr. [Internetinės svetainės susiejimas su kanalu](associate-site-online-store.md).
 
-Po to, kai internetinė parduotuvė yra nustatyta, ji gali būti susieta su „Dynamics 365 Commerce“ svetaine, kuri bus naudojama kaip jūsų el. parduotuvės vitrina. Daugiau informacijos apie internetines parduotuves ir kaip jas nustatyti rasite [Internetinių parduotuvių sąranka](https://docs.microsoft.com/dynamics365/unified-operations/retail/online-stores).
+Po to, kai internetinė parduotuvė yra nustatyta, ji gali būti susieta su „Dynamics 365 Commerce“ svetaine, kuri bus naudojama kaip jūsų el. parduotuvės vitrina. Daugiau informacijos apie internetines parduotuves ir kaip jas nustatyti rasite [Internetinių parduotuvių sąranka](/dynamics365/unified-operations/retail/online-stores).
 
 ## <a name="deploy-a-new-e-commerce-tenant"></a>Talpinkite naują e-komercijos nuomotoją
 
-E-komercijos saito pradžioje, būsite paskatinti domeno pavadinimui. Dėl daugiau informacijos apie domenus „Commerce“, žr. [Konfigūruoti savo domeno pavadinimą](configure-your-domain-name.md) ir [Domenai „Dynamics 365 Commerce“](domains-commerce.md). Norėdami talpinti naują e-komercijos nuomotoją su [„Microsoft Dynamics Lifecycle Services“ (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide), atlikite veiksmus [Talpinti naują e-komercijos nuomotoją](deploy-ecommerce-site.md). Kai jūsų e-komercijos nuomotojas nustatytas LCS, nuoroda su „Commerce“ saito kūrėju bus pateikta. Galite tuomet naudoti „Commerce“ saito kūrėją, kad pradėtumėte ir konfigūruotumėte e-komercijos saitus.
+E-komercijos saito pradžioje, būsite paskatinti domeno pavadinimui. Dėl daugiau informacijos apie domenus „Commerce“, žr. [Konfigūruoti savo domeno pavadinimą](configure-your-domain-name.md) ir [Domenai „Dynamics 365 Commerce“](domains-commerce.md). Norėdami talpinti naują e-komercijos nuomotoją su [„Microsoft Dynamics Lifecycle Services“ (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide), atlikite veiksmus [Talpinti naują e-komercijos nuomotoją](deploy-ecommerce-site.md). Kai jūsų e-komercijos nuomotojas nustatytas LCS, nuoroda su „Commerce“ saito kūrėju bus pateikta. Galite tuomet naudoti „Commerce“ saito kūrėją, kad pradėtumėte ir konfigūruotumėte e-komercijos saitus.
 
 ## <a name="initialize-your-e-commerce-site"></a>Pradėkite savo e-komercijos saitą
 

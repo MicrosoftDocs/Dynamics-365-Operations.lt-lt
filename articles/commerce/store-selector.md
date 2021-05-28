@@ -2,7 +2,6 @@
 title: Parduotuvės parinkiklio modulis
 description: Šioje temoje paaiškinamas parduotuvės išrinkiklio modulis ir aprašoma, kaip pridėti jį prie svetainių puslapių, esančių „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
-manager: annbe
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 22ec78c8e0545698f05f8f8ec261b5e927d698c7
-ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
+ms.openlocfilehash: 5a9311435264119e8287f1b7da2d0456552231f3
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5853422"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021469"
 ---
 # <a name="store-selector-module"></a>Parduotuvės išrinkiklio modulis
 
@@ -62,7 +61,7 @@ Norėdami įvesti parduotuvės vietos „Commerce” būstinėje ilgumos ir plat
 
 ## <a name="bing-maps-integration"></a>„Bing“ žemėlapių integravimas
 
-Parduotuvės selektoriaus modulis yra integruojamas su [„Bing Maps REST“ programa programavimo sąsajomis (API)](https://docs.microsoft.com/bingmaps/rest-services/) siekiant naudoti „Bing Geocoding and Autosuggest“ funkcijomis. „Bing Maps“ API raktas yra reikalaujamas ir turi būti įtrauktas į bendrinamus parametrus komercijos štabo puslapyje „Geocoding API“ yra naudojamas konvertuoti vietą į ilgumos ir platumo vertes. Integravimas su „Autosuggest API“ yra naudojamas rodyti ieškos pasiūlymus, kai vartotojai įveda vietas paieškos lauke.
+Parduotuvės selektoriaus modulis yra integruojamas su [„Bing Maps REST“ programa programavimo sąsajomis (API)](/bingmaps/rest-services/) siekiant naudoti „Bing Geocoding and Autosuggest“ funkcijomis. „Bing Maps“ API raktas yra reikalaujamas ir turi būti įtrauktas į bendrinamus parametrus komercijos štabo puslapyje „Geocoding API“ yra naudojamas konvertuoti vietą į ilgumos ir platumo vertes. Integravimas su „Autosuggest API“ yra naudojamas rodyti ieškos pasiūlymus, kai vartotojai įveda vietas paieškos lauke.
 
 Dėl automatinio„REST API“, privalote užtikrinti, kad tolesni URL yra leidžiami savo saito turinio saugumo politikoje (CSP). Šis nustatymas yra atliekamas komercijos svetainės kūrimo įrankyje įtraukiant leidžiamus URL į skirtingas CSP gaires svetainei (pavyzdžiui, **img-src**). Dėl platesnės informacijos, žr. [Turinio saugos politika](manage-csp.md). 
 
@@ -78,14 +77,14 @@ Parduotuvės selektoriaus modulis palaiko **Atsiėmimas parduotuvėje** režimą
 
 Parduotuvės selektoriaus modulis gali būti įtrauktas siekiant įsigyti dėžutės modulį PDP tam, kad būtų parodytos parduotuvės, kuriose produktas yra prieinamas pasiėmimui. Jį taip pat galima pridėti prie krepšelio modulio. Šiuo atveju, parduotuvės selektoriaus modulis rodo pasiėmimo parinktis kiekvienos linijos elementui vežimėlyje. Parduotuvės selektoriaus modulis gali taip pat būti įtrauktas į kitus puslapius ar modulius per plėtinius ir tinkinimus.
 
-Šiam scenarijui veikti, produktai turi būti sukonfigūruoti taip, kad **paėmimo** pristatymo režimas būtų naudojamas. Kitu atveju, modulis nebus rodomas produkto puslapiuose. Dėl daugiau informacijos apie tai, kaip konfigūruoti pristatymo režimą, žr. [Nustatyti pristatymo režimus](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+Šiam scenarijui veikti, produktai turi būti sukonfigūruoti taip, kad **paėmimo** pristatymo režimas būtų naudojamas. Kitu atveju, modulis nebus rodomas produkto puslapiuose. Dėl daugiau informacijos apie tai, kaip konfigūruoti pristatymo režimą, žr. [Nustatyti pristatymo režimus](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
 Toliau pateiktame paveikslėlyje vaizduojamas išsamios produkto informacijos puslapyje (PDP) naudojamo parduotuvių parinkiklio modulio pavyzdys.
 
 ![Parduotuvės parinkiklio modulio pavyzdys, naudojamas PDP.](./media/BOPIS.PNG)
 
 > [!NOTE]
-> Versijoje 10.0.16 ir vėlesnėje versijoje, naujoji funkcija gali būti įjungta, kuri leidžia organizacijai nustatyti keletą paėmimo pristatymo būdų parinkčių klientams.  Jei ši funkcija įjungta, parduotuvės parinkėjas ir kiti e-komercijos moduliai bus pagerinti siekiant leisti klientui pasirinkti iš potencialiai kelių paėmimo pristatymo parinkčių, jei sukonfigūruota.  Norėdami sužinoti daugiau apie šią funkciją, žiūrėkite [šiuos dokumentus](https://docs.microsoft.com/dynamics365/commerce/multiple-pickup-modes). 
+> Versijoje 10.0.16 ir vėlesnėje versijoje, naujoji funkcija gali būti įjungta, kuri leidžia organizacijai nustatyti keletą paėmimo pristatymo būdų parinkčių klientams.  Jei ši funkcija įjungta, parduotuvės parinkėjas ir kiti e-komercijos moduliai bus pagerinti siekiant leisti klientui pasirinkti iš potencialiai kelių paėmimo pristatymo parinkčių, jei sukonfigūruota.  Norėdami sužinoti daugiau apie šią funkciją, žiūrėkite [šiuos dokumentus](./multiple-pickup-modes.md). 
 
 ## <a name="find-stores-mode"></a>Surasti parduotuvių režimą
 
@@ -157,11 +156,11 @@ Tam, kad sukonfigūruotumėte selektoriaus modulį ir jis rodytų esamas parduot
 
 [Greita krepšelio ir užsakymo formavimo apžvalga](quick-tour-cart-checkout.md)
 
-[Nustatyti pristatymo būdus](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Nustatyti pristatymo būdus](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
 [„Bing“ žemėlapių valdymas jūsų organizacijoje](dev-itpro/manage-bing-maps.md)
 
-[„Bing Maps REST“ API](https://docs.microsoft.com/bingmaps/rest-services/)
+[„Bing Maps REST“ API](/bingmaps/rest-services/)
 
 [Žemėlapių modulis](map-module.md)
 

@@ -15,20 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d6f0a155b38b1d732d17bd2f964677862ff363e2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c09dee94891fb78c22e8cf9f203cb7f5531bb968
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808669"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6016141"
 ---
 # <a name="cost-and-date-control"></a>Kaštų ir datos valdymas
 
 [!include [banner](../../includes/banner.md)]
 
- 
-
-Turto valdyme galite apskaičiuoti kaštus, kad galėtumėte peržiūrėti faktinius kaštus, palygintus su turto, funkcinių vietų ir darbo užsakymų biudžeto kaštais. Faktiniai kaštai pagrįsti užregistruotomis operacijomis. 
+Turto valdyme galite apskaičiuoti kaštus, kad galėtumėte peržiūrėti faktinius kaštus, palygintus su turto, funkcinių vietų ir darbo užsakymų biudžeto kaštais. Faktiniai kaštai pagrįsti užregistruotomis operacijomis.
 
 Taip galite apskaičiuoti datą, jei norite palyginti darbo užsakymų suplanuotas pradžios ir pabaigos datas su faktinėmis pradžios ir pabaigos datomis.
 
@@ -46,8 +44,8 @@ Su turtu, funkcinėmis vietomis ir darbo užsakymais susiję skaičiavimai yra b
 
 5. Galite naudoti lauką **Lygis**, kad nurodytumėte, kiek išsamios informacijos, susijusios su funkcinėmis vietomis, turi būti kaštų valdymo eilutėse. 
 
-    Pavyzdžiui, jei į lauką įvesite skaičių „1“, o funkcinės vietos struktūra turi kelių lygių hierarchiją, visos kaštų valdymo eilutės, skirtos funkcinei vietai, bus rodomos viršuje, todėl valandas į eilutę galėsite įtraukti iš žemesniame lygmenyje patalpintų funkcinių vietų. 
-    
+    Pavyzdžiui, jei į lauką įvesite skaičių „1“, o funkcinės vietos struktūra turi kelių lygių hierarchiją, visos kaštų valdymo eilutės, skirtos funkcinei vietai, bus rodomos viršuje, todėl valandas į eilutę galėsite įtraukti iš žemesniame lygmenyje patalpintų funkcinių vietų.
+
     Jei lauke **Lygis** įvesite skaičių „0“, matysite išsamų rezultatą, rodantį visų funkcinių vietų lygių, su kuriais jos yra susijusios, kaštų valdymo eilutes.
 
 6. Perjungimo mygtuke **Rodyti atvirus patvirtintus** pažymėkite Taip, jei norite į skaičiavimą įtraukti tą stulpelį.
@@ -64,7 +62,7 @@ Su turtu, funkcinėmis vietomis ir darbo užsakymais susiję skaičiavimai yra b
 
 10. Puslapyje **Turto kaštų valdymas** spustelėkite mygtukus **Grupuoti pagal**, kad būtų rodomas pageidaujamas skaičiavimo išsamumo lygis. Pažymėti mygtukai **Grupuoti pagal** yra paryškinti. Norėdami suaktyvinti arba išjungti, spustelėkite mygtuką.
 
-## <a name="example"></a>Pavyzdys
+## <a name="example-of-calculation-results-in-asset-cost-control"></a>Turto kaštų valdymas skaičiavimo rezultatų pavyzdys
 
 Toliau pateiktoje ekrano kopijoje rodomas **Turto kaštų valdymas** skaičiavimo rezultatų pavyzdys.
 
@@ -76,7 +74,6 @@ Toliau pateiktoje ekrano kopijoje rodomas **Turto kaštų valdymas** skaičiavim
 ![„Turto kaštų valdymas“ skaičiavimo rezultatų pavyzdys](media/02-controlling-and-reporting.png)
 
 Kitas būdas skaičiuoti kaštus – atlikti kelis pasirinkimus **Visas turtas** arba **Aktyvus turtas**. Tada skirtuke **Bendra** spustelėkite mygtuką **Kaštų valdymas**. Dialogo lange **Turto kaštų valdymas** pažymėtas turtas yra automatiškai įtraukiamas į „FastTab“ **Įtrauktini įrašai** lauką **Turtas**. Spustelėkite **Gerai** ir rodomas pasirinkto turto kaštų skaičiavimas. Tą pačią procedūrą galima atlikti su funkcinėmis vietomis dalyje **Visos funkcinės vietos** arba **Aktyvios funkcinės vietos** ir su darbo užsakymais dalyje **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**.
-
 
 ## <a name="work-order-date-control"></a>Darbo užsakymo datos kontrolė
 
@@ -94,7 +91,7 @@ Naudokite šį puslapį, kad galėtumėte peržiūrėti numatytas pradžios ir p
 
 6. Spustelėkite mygtukus **Grupuoti pagal**, kad būtų rodomas pageidaujamas išsamus skaičiavimo lygis. Pažymėti mygtukai **Grupuoti pagal** yra paryškinti. Norėdami suaktyvinti arba išjungti, spustelėkite mygtuką.
 
-## <a name="example"></a>Pavyzdys
+## <a name="example-of-calculation-results-in-work-order-date-control"></a>Darbo užsakymo datos valdymas skaičiavimo rezultatų pavyzdys
 
 Toliau pateiktoje ekrano kopijoje rodomas rezultatų **Darbo užsakymo datos valdymas** pavyzdys.
 

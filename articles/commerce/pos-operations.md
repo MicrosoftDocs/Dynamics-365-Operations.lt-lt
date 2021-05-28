@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dac3eb0da704e06376d8ca969e06fb177ce15a6b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6b02f94bb2217729f35f0593fe99807273608811
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804286"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027653"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Elektroninio kasos aparato (EKA) operacijos, prisijungus ir neprisijungus prie interneto
 
@@ -64,7 +64,7 @@ Toliau pateiktuose stulpeliuose nurodoma, kur galima iškviesti operacijas.
 | 642 | Tiekti visus produktus | Visų eilučių pristatymo režimą nustatykite į **Carryout**. | Taip | Taip | Nr. | Taip\* | Nr. |
 | 641 | Tiekti pasirinktus produktus | Pasirinktų eilučių pristatymo režimą nustatykite į **Carryout**. | Taip | Taip | Ne | Taip\* | Ne |
 | 647 | Keisti pristatymo režimą | Keisti pristatymo būdą iš anksto sukonfigūruotose siuntimo pardavimo eilutėse. | Taip | Taip | Ne | Ne| Ne |
-| 1215 | Keisti slaptažodį | Ši operacija leidžia EKA vartotojui keisti savo slaptažodį. | Taip | Taip | Taip | Nr. | Nr. |
+| 1215 | Keisti slaptažodį | Ši operacija leidžia EKA vartotojams keisti jų slaptažodį. | Taip | Taip | Taip | nr. | nr. |
 | 123 | Keisti matavimo vienetą | Pakeiskite pasirinktos eilutės elemento matavimo vienetą. | Taip | Taip | Nr. | Taip | Nr. |
 | 639 | Išvalyti numatytąjį operacijos pardavimo atstovą | Pašalinkite komisinių pardavimo grupę (pardavimo ats.) iš operacijos. | Taip | Taip | Nr. | Taip | Nr. |
 | 106 | Valyti kiekį | Kiekį tuo metu pasirinktoje eilutėje iš naujo nustatykite į **1**. | Taip | Taip | Nr. | Taip | Nr. |

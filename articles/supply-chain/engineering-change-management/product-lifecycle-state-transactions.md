@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 421fae6eab20eea50b9ce677a1ae7993add6cb93
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8bb3d5848b7e2c50a8fdaba1c6a1a7c0087d1390
+ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842062"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6016961"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Produkto gyvavimo ciklo būsenos ir perlaidos
 
@@ -74,5 +74,24 @@ Tolesni laukeliai yra prieinami kiekvienam procesui, kuris išvardytas **Įjungt
 
 Jei įtraukiate daugiau gyvavimo ciklo būsenos taisyklių į savo tinkinimą, galite peržiūrėti šias taisykles vartotojo sąsajoje (UI) pasirinkę **Naujinti procesus** viršutinėje juostoje. Mygtukas **Naujinti procesus** yra prieinamas tik administratoriams.
 
+## <a name="lifecycle-states-for-released-products-and-product-variants"></a>Išleistų produktų ir produkto variantų ciklo valstybių narių
+
+Produkto, kuris turi variantų (bendrasis ir variantas), produkto (bendrasis) būsena bus cikle, o kiekvieno varianto būsena gali būti skirtinga.
+
+Jei tam tikras procesas yra užblokuotas arba variantas, arba produktas, procesas taip pat bus užblokuotas. Tiksliau, sistema patikrins, ar procesas užblokuotas:
+
+- Inžinerijos valdomi produktai:
+  - Jei dabartinė inžinerijos versija yra užblokuota, užblokuokite procesą.
+  - Jei dabartinė inžinerijos variantas yra užblokuotas, užblokuokite procesą.
+  - Jei leidžiamas produktas yra užblokuotas, užblokuokite procesą.
+- Standartiniams produktams:
+  - Jei dabartinė inžinerijos variantas yra užblokuotas, užblokuokite procesą.
+  - Jei leidžiamas produktas yra užblokuotas, užblokuokite procesą.
+
+Pavyzdžiui, tarkime, jūs norite parduoti tik vieną tam produkto variantą (raudonas) (marškinėlių) ir blokuoti visų kitų variantų pardavimą dabar. Tai galite įdiegti naudodami šiuos nustatymus:
+
+- Priskirkite produktą ciklo būsenai, kuri leidžia procesą. Pavyzdžiui, priskirkite marškinėlių produktą kaip pardavimo ciklo *būseną* kuri leidžia pardavimo užsakymo *verslo procesui*.
+- Priskirkite parduodamą variantą ciklo būsenai, kuri leidžia procesą. Pavyzdžiui, taip pat priskirkite raudoną variantą pardavimo ciklo *būsenai*.
+- Visiems kitiems variantams priskirti kitą ciklo būseną, kai procesas užblokuotas. Pvz., priskirkite baltą variantą (ir visus kitus variantus) pagal ciklo būseną Parduoti negalima, o tai *neleidžia* pardavimo užsakymo *verslo proceso*.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

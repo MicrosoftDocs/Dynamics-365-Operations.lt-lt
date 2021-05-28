@@ -5,7 +5,6 @@ author: kailiang
 ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d1b99046b0e439c9dadbb240050e270a7b2a6914
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 3a5c2b6fb48d98ba045c77ed034d976f7d89af98
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920960"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021374"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Mokesčių funkcijų palaikymos operacijų užsakymams
 
@@ -41,7 +40,7 @@ Norėdami nustatyti su perkėlimo užsakymu susijusių mokesčių, atlikite šiu
 
 1. Mokesčių priemonių **puslapyje**, skirtuke **Versijos**, pasirinkite juodraščio priemonės versiją, tada pasirinkite **Redaguoti**.
 
-    ![Redagavimo pasirinkimas](../media/image1.png)
+    ![Redagavimo pasirinkimas](../media/tax-feature-support-01.png)
 
 2. Mokesčių priemonių **nustatymo** puslapyje, skirtuke **Mokesčių** kodai, pasirinkite Įtraukti, **kad** sukurtumėte naujus mokesčių kodus. Pavyzdžiui, sukurti trys mokesčių kodai: **NL-atleidimas,** **„BE-RC-21“** ir **„BE-RC+21“**.
 
@@ -54,7 +53,7 @@ Norėdami nustatyti su perkėlimo užsakymu susijusių mokesčių, atlikite šiu
         4. Pasirinkite **Įtraukti** **Reitingavimo** lentelėje.
         5. Swtich **yra** neapmokestinama į **Taip** **bendrajame** skyriuje.
 
-        ![NL neapmokestinimo mokesčio kodas](../media/image2.png)
+        ![NL neapmokestinimo mokesčio kodas](../media/tax-feature-support-02.png)
 
     - Kai perkėlimo užsakymas gaunamas Belgijos sandėlyje, atvirkštinio apmokestinimo mechanizmas taikomas naudojant **„BE-RC-21“ ir** **„BE-RC+21“** mokesčių kodus.
         
@@ -67,7 +66,7 @@ Norėdami nustatyti su perkėlimo užsakymu susijusių mokesčių, atlikite šiu
         6. Swtich **yra atvirkštinis apmokestinimas** į **Taip** **bendrajame** skyriuje.
         7. Pasirinkite **Įrašyti**.
 
-        ![BE-RC-21 mokesčių kodas, skirtas atvirkštinei mokesčių operacijai](../media/image3.png)
+        ![BE-RC-21 mokesčių kodas, skirtas atvirkštinei mokesčių operacijai](../media/tax-feature-support-03.png)
         
         Sukurkite mokesčio kodą **„BE-RC+21“**.
         1. Pasirinkite **Pridėti**, įveskite **„BE-RC-21“** PVM kodo **lauke**.
@@ -77,7 +76,7 @@ Norėdami nustatyti su perkėlimo užsakymu susijusių mokesčių, atlikite šiu
         5. Įveskite **21** į mokesčio tarifo **lauką**.
         6. Pasirinkite **Įrašyti**.
 
-        ![BE-RC+21 mokesčių kodas, skirtas atvirkštinei mokesčių operacijai](../media/image4.png)
+        ![BE-RC+21 mokesčių kodas, skirtas atvirkštinei mokesčių operacijai](../media/tax-feature-support-04.png)
 
 3. Nustatykite mokesčių kodų taikomumą.
 

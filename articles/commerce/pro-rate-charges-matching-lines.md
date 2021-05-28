@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 22939e8fd63a355effecf0c16fecd20377faa3a6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c36948cc58291b56c1bbe8a3d5c3db52dccc8399
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791059"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018611"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Proporcingas antraštės išlaidų paskirstymas atitinkančioms pardavimo eilutėms
 
@@ -30,7 +30,7 @@ ms.locfileid: "5791059"
 
 Šioje temoje aprašomos antraštės lygio automatinio apmokestinimo grupavimo ir jų skirstymo „Commerce“ pardavimo eilutėse funkcijos. Ši funkcija yra skirta operacijoms, kurios sukurtos elektroniniame kasos aparate (EKA) naudojant „Retail“ 10.0.1 versiją ir pardavimo operacijoms, kurios sukurtos skambučių centre naudojant „Retail“ 10.0.2 versiją.
 
-Ši funkcija galima tik tuo atveju, jei įjungta funkcija [Išplėstinės automatinės išlaidos](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges) ir naudojama puslapyje **Prekybos parametrai** esanti parinktis. Be to, patobulintas automatinis apskaičiavimo metodas gali būti taikomas tik pardavimo užsakymams, kurie sukuriami per „Commerce“ kanalus (EKA, skambučių centrą ir „e-Commerce“ platformą „Dynamics“).
+Ši funkcija galima tik tuo atveju, jei įjungta funkcija [Išplėstinės automatinės išlaidos](/dynamics365/unified-operations/retail/omni-auto-charges) ir naudojama puslapyje **Prekybos parametrai** esanti parinktis. Be to, patobulintas automatinis apskaičiavimo metodas gali būti taikomas tik pardavimo užsakymams, kurie sukuriami per „Commerce“ kanalus (EKA, skambučių centrą ir „e-Commerce“ platformą „Dynamics“).
 
 Ši nauja funkcija suteikia organizacijoms daugiau lankstumo apskaičiuojant automatinį apmokestinimą antraščių lygiu ir jį taikant pardavimo sandoriams.
 
@@ -38,7 +38,7 @@ Ankstesnėse nei 10.0.1 programos versijose antraštės lygio automatinės išla
 
 Pavyzdžiui, antraštės lygio automatinės išlaidos nustatomos ir priskiriamos pristatymo būdui **99** ir pristatymo būdui **11**. Sukuriamas pardavimo užsakymas ir užsakymo antraštėje nustatomas pristatymo būdas **99**. Tačiau kai kurios pardavimo eilutės nustatomos taip, kad jos siunčiamos naudojant pristatymo būdą **11**. Šiuo atveju tik antraštės lygio išlaidos, susietos su pristatymo būdu **99**, yra apdorojamos ir taikomos pardavimo užsakymui.
 
-„Commerce“ antraštės lygio išlaidos turi papildomą funkciją, leidžiančią apibrėžti [pakopinę išlaidų konfigūraciją](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery), kuri pagrįsta užsakymo verte. Pavyzdžiui, jei užsakymo vertė yra tarp 50,00 USD ir 200,00 USD, galbūt organizacija norės taikyti 5,00 USD transportavimo išlaidų mokestį. Tačiau, jei užsakymo vertė yra tarp 200,01 ir 500,00 USD, transportavimo mokestis gali būti 4,00 USD.
+„Commerce“ antraštės lygio išlaidos turi papildomą funkciją, leidžiančią apibrėžti [pakopinę išlaidų konfigūraciją](/dynamics365/unified-operations/retail/configure-call-center-delivery), kuri pagrįsta užsakymo verte. Pavyzdžiui, jei užsakymo vertė yra tarp 50,00 USD ir 200,00 USD, galbūt organizacija norės taikyti 5,00 USD transportavimo išlaidų mokestį. Tačiau, jei užsakymo vertė yra tarp 200,01 ir 500,00 USD, transportavimo mokestis gali būti 4,00 USD.
 
 Kai kurios organizacijos nori pakopinių išlaidų skaičiavimo išmokų, pateiktų antraštės lygio išlaidose. Tačiau scenarijuose, kurie susiję su pristatymo būdais, jos taip pat nori įsitikinti, kad skaičiuojamos išlaidos yra pagrįstos kiekvienoje pardavimo eilutėje nurodyto pristatymo būdo atitikimu.
 
@@ -72,7 +72,7 @@ Skambučių centre sukuriamas pardavimo užsakymo ir nustatomas pristatymo būda
 
 Tokiu atveju visas užsakymas vertinamas pagal pristatymo būdo **99** automatinių išlaidų lentelę. Bendra visų pardavimo eilučių suma naudojama nustatant atitinkamą pakopą automatinių išlaidų konfigūracijoje, o šis mokestis taikomas užsakymo antraštės lygiu. Šiame pavyzdyje užsakymo suma yra 165,00 USD, o 15,00 USD transportavimo mokestis taikomas užsakymo antraštei. Sukonfigūruotos pristatymo būdo **11** automatinės išlaidos niekada nenurodomos ir taikomos.
 
-Tokiu atveju, jei klientas grąžina kai kurias užsakymo prekes ir jei [išlaidų kodas buvo sukonfigūruotas taip, kad pinigai būtų grąžinti](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2), visos antraštės lygio išlaidos yra sistemiškai taikomas grąžinimui, net jei grąžinamos tik kai kurios prekės.
+Tokiu atveju, jei klientas grąžina kai kurias užsakymo prekes ir jei [išlaidų kodas buvo sukonfigūruotas taip, kad pinigai būtų grąžinti](/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2), visos antraštės lygio išlaidos yra sistemiškai taikomas grąžinimui, net jei grąžinamos tik kai kurios prekės.
 
 ### <a name="scenario-2"></a>2 scenarijus
 

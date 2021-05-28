@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4e50855368a3fa86c38c756492fc7e6cd518f497
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c813adb79ae1b78a052332e077393f125830633f
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796104"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027727"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Kelių B2C nuomotojų konfigūravimas „Commerce“ aplinkoje
 
@@ -27,7 +27,7 @@ ms.locfileid: "5796104"
 
 Šioje temoje aprašoma, kada ir kaip viename kanale nustatyti kelis „Microsoft Azure Active Directory“ („Azure AD“) verslas–vartotojui (B2C) nuomotojus, skirtus vartotojo autentifikavimui paskirtoje „Dynamics 365 Commerce“ aplinkoje.
 
-„Dynamics 365 Commerce“ naudoja „Azure AD“ B2C debesies tapatumo paslaugą vartotojo kredencialams ir autentifikavimo srautams palaikyti. Vartotojai gali naudoti autentifikavimo srautus, norėdami prisiregistruoti, prisijungti ir nustatyti slaptažodį iš naujo. „Azure AD“ B2C saugoma vartotojo slapto autentifikavimo informacija, pvz., vartotojo vardas ir slaptažodis. Vartotojo įrašas yra unikalus kiekvienam B2C nuomotojui ir naudoja vartotojo vardą (el. pašto adresą), kredencialus arba socialinės tapatybės teikimo įrankio kredencialus.
+„Dynamics 365 Commerce“ naudoja „Azure AD“ B2C debesies tapatumo paslaugą vartotojo kredencialams ir autentifikavimo srautams palaikyti. Vartotojai gali naudoti autentifikavimo srautus, norėdami prisiregistruoti, prisijungti ir nustatyti slaptažodį iš naujo. „Azure AD B2C“ saugoma vartotojo slapto autentifikavimo informacija, pvz., vartotojo vardas ir slaptažodis. Vartotojo įrašas yra unikalus kiekvienam B2C nuomotojui ir naudoja vartotojo vardą (el. pašto adresą), kredencialus arba socialinės tapatybės teikimo įrankio kredencialus.
 
 Daugeliu atveju „Commerce“ aplinkoje naudojamas vienas „Azure AD“ B2C nuomotojas. „Commerce“ klientai gali kurti ir publikuoti kelias svetaines toje pačioje „Commerce“ aplinkoje, o šiose svetainėse bus naudojami tie patys kliento kredencialai. Tačiau jei aplinkoje esančios svetainės turi būti traktuojamos kaip skirtingi prekių ženklai ir rodomos vartotojams kaip atskiros įmonės, B2C nuomotoją galima sukonfigūruoti kanalui, kuris naudojamas svetainės / prekės ženklo atskyrimui.
 

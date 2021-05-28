@@ -2,11 +2,9 @@
 title: „ Dynamics 365 Commerce” ir „Microsoft Teams” integravimo įgalinimas
 description: Šioje temoje aprašoma, kaip įgalinti „Microsoft Dynamics 365 Commerce” ir „Microsoft Teams” integravimą.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 03/31/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c4d596f27ffe15a97dc04e2ce7e85d21f8e7161f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: eb0b8b419b302fbd0bc107bca22f8b26774ba3c7
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908400"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019840"
 ---
 # <a name="enable-dynamics-365-commerce-and-microsoft-teams-integration"></a>„ Dynamics 365 Commerce” ir „Microsoft Teams” integravimo įgalinimas
 
@@ -39,9 +37,9 @@ Prieš įgalindami „Microsoft Teams” integravimą su „Commerce”, turite 
 
 Norėdami užregistruoti „Teams” programą savo nuomotojui „Azure” portale, atlikite šiuos veiksmus.
 
-1. Atlikite skyriuje [Greitas pasirengimas darbui: Registruoti programą „Microsoft” tapatybės platformoje](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app) pateiktus veiksmus, norėdami užregistruoti „Teams” programą jūsų nuomotojui „Azure” portale.
+1. Atlikite skyriuje [Greitas pasirengimas darbui: Registruoti programą „Microsoft” tapatybės platformoje](/azure/active-directory/develop/quickstart-register-app) pateiktus veiksmus, norėdami užregistruoti „Teams” programą jūsų nuomotojui „Azure” portale.
 1. Nukopijuokite **Programos (kliento) ID** reikšmę iš **Apžvalgos** puslapio užregistruotai programai. Šią reikšmę naudosite „Teams” integravimo įgalinimui „Commerce” būstinėje.
-1. Nukopijuokite sertifikato reikšmę, kuri buvo įvesta, kai [įtraukėte sertifikatą](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-certificate) 1 veiksme. Sertifikatas taip pat vadinamas viešuoju raktu arba programos raktu. Šią reikšmę naudosite „Teams” integravimo įgalinimui „Commerce” būstinėje.
+1. Nukopijuokite sertifikato reikšmę, kuri buvo įvesta, kai [įtraukėte sertifikatą](/azure/active-directory/develop/quickstart-register-app#add-a-certificate) 1 veiksme. Sertifikatas taip pat vadinamas viešuoju raktu arba programos raktu. Šią reikšmę naudosite „Teams” integravimo įgalinimui „Commerce” būstinėje.
 
 Norėdami įgalinti „Teams” integravimą „Commerce“ būstinėje, atlikite nurodytus veiksmus.
 

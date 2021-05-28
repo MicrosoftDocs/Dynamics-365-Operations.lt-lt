@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8334b46f7e943e888c3a4db7580eeca30d49ad39
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 401fb9af5d2d50a14c288363af3e0b814dcbf7c6
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793974"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018546"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Įspėjimų dėl apgaulės nustatymas skambučių centre ir jų naudojimas
 
@@ -34,13 +34,13 @@ ms.locfileid: "5793974"
 
 ## <a name="turning-on-the-fraud-check-feature"></a>Apgaulės patikros funkcijos įjungimas
 
-Norėdami naudoti apgaulės patikros funkciją, nustatykite kanalo parinktį **Įgalinti užsakymo baigimą** kaip **Taip**, kai skambučių centro kanalas yra [apibrėžtas](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-order-processing-options). Įjungus užsakymo baigimo funkciją, skambučių centro vartotojai kiekvieno sukurto pardavimo užsakymo puslapyje turi pasirinkti **Baigti**. Pasirinkus baigimo veiksmą atidaromas puslapis **Pardavimo užsakymo suvestinė**. Kai vartotojai įveda reikiamus mokėjimo duomenis puslapyje **Pardavimo užsakymo suvestinė**, reikia pasirinkti **Pateikti**, kad užsakymas būtų baigtas. Pateikus užsakymą, suaktyvinama apgaulės patikros funkcija ir automatiškai patikrinamos bet kokios sistemoje esančios aktyvios taisyklės.
+Norėdami naudoti apgaulės patikros funkciją, nustatykite kanalo parinktį **Įgalinti užsakymo baigimą** kaip **Taip**, kai skambučių centro kanalas yra [apibrėžtas](/dynamics365/unified-operations/retail/set-up-order-processing-options). Įjungus užsakymo baigimo funkciją, skambučių centro vartotojai kiekvieno sukurto pardavimo užsakymo puslapyje turi pasirinkti **Baigti**. Pasirinkus baigimo veiksmą atidaromas puslapis **Pardavimo užsakymo suvestinė**. Kai vartotojai įveda reikiamus mokėjimo duomenis puslapyje **Pardavimo užsakymo suvestinė**, reikia pasirinkti **Pateikti**, kad užsakymas būtų baigtas. Pateikus užsakymą, suaktyvinama apgaulės patikros funkcija ir automatiškai patikrinamos bet kokios sistemoje esančios aktyvios taisyklės.
 
-Skambučių centro vartotojai taip pat gali rankiniu būdu sulaikyti pardavimo užsakymus ir patikrinti juos dėl galimos apgaulės prieš pasirinkdami **Pateikti**. Norėdami rankiniu būdu sulaikyti pardavimo užsakymą, puslapyje **Pardavimo užsakymo suvestinė** pasirinkite **Sulaikyti** \> **Sulaikymas dėl apgaulės rankiniu būdu**. Tada būsite paraginti įvesti komentarą, nurodantį užsakymo sulaikymo priežastį. Šis komentaras bus rodomas [užsakymų sulaikymo](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds) darbo srityje, kad sulaikytus užsakymus peržiūrinčiam vartotojui būtų paprasčiau nuspręsti, ar užsakymo sulaikymą reikia atšaukti.
+Skambučių centro vartotojai taip pat gali rankiniu būdu sulaikyti pardavimo užsakymus ir patikrinti juos dėl galimos apgaulės prieš pasirinkdami **Pateikti**. Norėdami rankiniu būdu sulaikyti pardavimo užsakymą, puslapyje **Pardavimo užsakymo suvestinė** pasirinkite **Sulaikyti** \> **Sulaikymas dėl apgaulės rankiniu būdu**. Tada būsite paraginti įvesti komentarą, nurodantį užsakymo sulaikymo priežastį. Šis komentaras bus rodomas [užsakymų sulaikymo](/dynamics365/unified-operations/retail/work-with-order-holds) darbo srityje, kad sulaikytus užsakymus peržiūrinčiam vartotojui būtų paprasčiau nuspręsti, ar užsakymo sulaikymą reikia atšaukti.
 
 Sukonfigūravus kanale parinktį **Įgalinti užsakymo baigimą**, skambučių centro parametrų dalyje taip pat reikia sukonfigūruoti apgaulės patikros funkciją. Eikite į **Mažmeninė prekyba ir prekyba** \> **Kanalo nustatymas** \> **Skambučių centro sąranka** \> **Skambučių centro parametrai**. Puslapio **Skambučių centro parametrai** skirtuke **Sulaikymai** nustatykite parinkties **Apgaulės patikra** parametrą **Taip**.
 
-Skirtuke **Sulaikymai** taip pat reikia apibrėžti [sulaikymo kodus](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds), kurie taikomi rankiniu būdu ar automatiškai sulaikytam užsakymui, kurį reikia peržiūrėti dėl galimos apgaulės. Nustatykite sulaikymo kodus laukuose **Sulaikymo dėl apgaulės rankiniu būdu kodas** ir **Sulaikymo dėl apgaulės kodas**. Galite sukurti du unikalius sulaikymo kodus, kad sulaikymo darbo srityje dirbantys vartotojai galėtų lengvai filtruoti ir atskirti automatinius sulaikymus ir rankiniu būdu atliktus sulaikymus.
+Skirtuke **Sulaikymai** taip pat reikia apibrėžti [sulaikymo kodus](/dynamics365/unified-operations/retail/work-with-order-holds), kurie taikomi rankiniu būdu ar automatiškai sulaikytam užsakymui, kurį reikia peržiūrėti dėl galimos apgaulės. Nustatykite sulaikymo kodus laukuose **Sulaikymo dėl apgaulės rankiniu būdu kodas** ir **Sulaikymo dėl apgaulės kodas**. Galite sukurti du unikalius sulaikymo kodus, kad sulaikymo darbo srityje dirbantys vartotojai galėtų lengvai filtruoti ir atskirti automatinius sulaikymus ir rankiniu būdu atliktus sulaikymus.
 
 Kad apgaulės patikros funkcija veiktų efektyviai, taip pat reikia nustatyti lauką **Minimalus rezultatas**. Kiekvienas sistemoje nustatytas apgaulės kriterijus ir taisyklė turi priskirtą rezultato vertę. Kai pardavimo užsakymas tikrinamas dėl apgaulės, radus vieną arba kelis atitinkančius kriterijus, rezultatai sudedami ir gaunamas bendras užsakymo apgaulės rezultatas. Jei bendras užsakymo apgaulės rezultatas viršija lauke **Minimalus rezultatas** nurodytą vertę, užsakymas automatiškai sulaikomas. Pasirinktinai naudodami kitus su rezultatu susijusius skirtuko **Sulaikymai** laukus, galite apibrėžti el. pašto rezultatą, telefono rezultatą, pašto indekso rezultatą ir išplėsto pašto indekso rezultatą. Jei nenurodysite jokių statinių apgaulės duomenų kriterijų, kai juos apibrėžiate puslapyje **Statiniai apgaulės duomenys**, rezultatų verčių, sistema juos vertins naudodama numatytąsias rezultatų vertes, kurias nurodėte puslapio **Skambučių centro parametrai** skirtuke **Sulaikymai**.
 
@@ -65,7 +65,7 @@ Užsakymas įrašomas, bet jis pažymimas žyme **Neapdoroti**. Ši žymė paded
 
 Norėdami peržiūrėti ir tvarkyti užsakymus, kurie sulaikyti ir kuriuos reikia peržiūrėti dėl apgaulės, eikite į **Mažmeninė prekyba ir prekyba** \> **Klientai** \> **Užsakymo sulaikymas**. Puslapyje **Užsakymo sulaikymas** esančiame sąraše pasirinkite įrašą ir spustelėkite **Užsakymo sulaikymas**, kad pamatytumėte išsamesnį rodinį, kuriame pateikiama informacija apie sulaikymo priežastį. „FastTab“ **Apgaulės informacija** galite peržiūrėti sistemoje nustatytus apgaulės kriterijus, pagal kuriuos rasta atitikmenų užsakyme, ir pritaikytas rezultatų vertes. Jei užsakymas buvo sulaikytas rankiniu būdu, galite peržiūrėti užsakymą sulaikiusio vartotojo įvestus komentarus „FastTab“ **Pastabos** skyriuje **Apgaulės pastabos**.
 
-Daugiau informacijos apie tai, kaip dirbti su sulaikytais užsakymais, žr. [Užsakymo sulaikymas](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
+Daugiau informacijos apie tai, kaip dirbti su sulaikytais užsakymais, žr. [Užsakymo sulaikymas](/dynamics365/unified-operations/retail/work-with-order-holds).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

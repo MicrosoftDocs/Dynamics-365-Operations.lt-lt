@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 4f50dfa5c2914ce2131cdc44582588be69b35335
-ms.sourcegitcommit: 2eb7a9ae544f504155657c5c584cbac66c21dba4
+ms.openlocfilehash: 570b0995821dcaa2e180b48c25facee01e98f8e3
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961710"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015906"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Bendrasis planavimas su įsigijimo prekybos sutartimis
 
@@ -67,7 +67,7 @@ Kai jūsų sistema bus parengta, kaip aprašyta ankstesniame skyriuje, atlikite 
 1. Šią procedūrą kartokite nustatydami kiekvieną atitinkamą produktą.
 
 > [!NOTE]
-> „Planning Optimization“ palaiko kelių valiutų įsigijimo prekybos sutartis. Kai ieškote prekybos sutarties naudodami parinktį Žemiausia vieneto kaina, sistema nagrinės galimybę įsigyti prekybos sutarties eilutes su skirtingomis valiutomis, pateiktame valiutos kursą tarp prekybos sutarties eilutės valiutos ir juridinio subjekto apskaitos **valiutos**. Kitu atveju prekybos sutarties eilutės bus nepaisoma, o jūs matysite klaidą bendrojo planavimo metu. Todėl į bendrąjį planavimą bus įtraukta informacija iš visų atitinkamų pirkimo prekybos sutarties eilučių, kuriose kainos gali būti konvertuojamos į apskaitos valiutą.
+> „Planning Optimization“ palaiko kelių valiutų įsigijimo prekybos sutartis. Kai ieškote prekybos sutarties naudodami parinktį Žemiausia vieneto kaina, sistema nagrinės galimybę įsigyti prekybos sutarties eilutes su skirtingomis valiutomis, pateiktame valiutos kursą tarp prekybos sutarties eilutės valiutos ir juridinio subjekto apskaitos **valiutos**. Kitu atveju prekybos sutarties eilutės bus nepaisoma, o jūs matysite klaidą bendrojo planavimo metu. Todėl į bendrąjį planavimą bus įtraukta informacija iš visų atitinkamų pirkimo prekybos sutarties eilučių, kuriose kainos gali būti konvertuojamos į apskaitos valiutą. Svarbu pažymėti, kad konvertavimo į apvalinimo taisykles nebus atsižvelgiama prekybos sutarties eilutės kainų konvertavimo metu.
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Planavimo optimizavimo, kuris nustato tiekėjo ir gamybos laiką, pavyzdžiai
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fb3555e6d923fe37479c3204f0b78f7cdf510118
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: 1951f85f84c3b8b2d42f49d5f464d90d410ebfa2
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938515"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015956"
 ---
 # <a name="category-requests-from-vendors"></a>Kategorijų užklausos iš tiekėjų
 
@@ -36,10 +36,7 @@ Kai priemonė įjungta, vis dar galite rankiniu būdu įtraukti įsigijimo kateg
 
 Kad tiekėjas galėtų sąveikauti su kategorijos užklausomis, jis turi būti nustatytas tiekėjo bendradarbiavimo srityje.
 
-Tiekėjas turi turėti bent vieną tiekėjo bendradarbiavimo vartotoją. Tik tiekėjai vartotojai, kurie turi vieną arba abu šiuos saugos vaidmenis, gali sukurti ir pateikti kategorijos užklausas:
-
-- Tiekėjo kontaktas (išorinis)
-- Tiekėjo administratorius (išorinis)
+Tiekėjas turi turėti bent vieną tiekėjo bendradarbiavimo vartotoją. Tik tiekėjų vartotojai, kuriems priklauso *tiekėjo administratoriaus (išorinis)* saugos vaidmuo, gali kurti ir pateikti kategorijos užklausas.
 
 Daugiau informacijos žr. [Tiekėjo bendradarbiavimo nustatymas ir tvarkymas](set-up-maintain-vendor-collaboration.md).
 

@@ -5,7 +5,6 @@ author: RamaKrishnamoorthy
 ms.date: 02/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: beab7f2fc4fd96ce7a28734d2449445b3b5d4451
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ed068f4264269334babec9acd59d9d58551333b4
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750841"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018391"
 ---
 # <a name="note-integration"></a>Pastabų integravimas
 
@@ -34,9 +33,9 @@ Verslo procesų metu „Microsoft Dynamics 365” vartotojai dažnai renka infor
 
 Kliento informaciją galima klasifikuoti toliau pateiktais būdais.
 
-+ **Veiksminga informacija, kurią „Dynamics 365“ vartotojas valdo kliento vardu** – pvz., „Contoso“ („Dynamics 365“ vartotojas) veda žaidimų šou. Vienas Iš „Contoso” klientų (klientas) nori dalyvauti žaidimų šou. Klientas paprašo „Contoso” darbuotojo rezervuoti jam vietą žaidimų šou. Rezervavimas įvyksta „Contoso” įvykių dalyvio kalendoriuje.
-+ **Veiksminga „Dynamics 365” vartotojo informacija** – pvz., klientas, perkantis „Surface” vienetą, įveda specialias instrukcijas, nurodančias, kad prieš pristatant įrenginį reikia supakuoti kaip dovaną. Šios instrukcijos yra veiksmingos informacijos, kurią turi valdyti „Contoso” darbuotojas, atsakingas už pakavimą.
-+ **Neveiksminga informacija** – pvz., klientas lankosi „Contoso” parduotuvėje ir pokalbio su parduotuvės atstovu metu išreiškia susidomėjimą *„Halo”* žaidimais bei žaidimų priedais. Parduotuvės atstovas pasižymi šios informacijos pastabą. Tada produktų rekomendacijų mechanizmas ją naudoja, kad klientui pateiktų rekomendacijas.
++ **Veiksminga informacija, kurią „Dynamics 365“ vartotojas valdo kliento vardu** – Pavyzdžiui, „Contoso“ („Dynamics 365“ vartotojas) veda žaidimų šou. Vienas Iš „Contoso“ klientų (klientas) nori dalyvauti žaidimų šou. Klientas paprašo „Contoso“ darbuotojo rezervuoti jam vietą žaidimų šou. Rezervavimas įvyksta „Contoso“ įvykių dalyvio kalendoriuje.
++ **Veiksminga „Dynamics 365” vartotojo informacija** – pvz., klientas, perkantis „Surface” vienetą, įveda specialias instrukcijas, nurodančias, kad prieš pristatant įrenginį reikia supakuoti kaip dovaną. Šios instrukcijos yra veiksmingos informacijos, kurią turi valdyti „Contoso“ darbuotojas, atsakingas už pakavimą.
++ **Neveiksminga informacija** –  – pvz., klientas lankosi „Contoso“ parduotuvėje ir pokalbio su parduotuvės atstovu metu išreiškia susidomėjimą *„Halo“* žaidimais bei žaidimų priedais. Parduotuvės atstovas pasižymi šios informacijos pastabą. Tada produktų rekomendacijų mechanizmas ją naudoja, kad klientui pateiktų rekomendacijas.
 
 Apskritai, veiksminga informacija fiksuojama kaip *veiklos* „Finance and Operations” bei klientų įtraukimo programose. Neveiksminga informacija fiksuojama kaip *pastabos* „Finance and Operations” programose arba kaip *komentarai* klientų įtraukimo programose.
 

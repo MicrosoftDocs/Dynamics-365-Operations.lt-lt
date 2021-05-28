@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6f60d2e654d37b86d92478b6cd961b917711ef8c
-ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
+ms.openlocfilehash: 91f1963f2bbc01fc4d3a9282d6ac7705bc5287c2
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5857278"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018836"
 ---
 # <a name="peripherals"></a>Išorinis įrenginys
 
@@ -158,7 +158,7 @@ Vietinius (arba „Įrenginius“, nes tipas įvardintas aparatūros šablone) s
 
 ### <a name="dedicated"></a>Paskirta
 
-„Modern POS“ klientuose, skirtuose „Windows“ ir „Android“ yra **„Paskirtos“** arba įmontuotos aparatūros stotys. Šie klientai gali tiesiogiai susisiekti su periferiniais įrenginiais, naudodamiesi verslo logika, integruota programose. „Android“ programa palaiko tik tinklo įrenginius. Norėdami gauti daugiau informacijos apie „Android” periferinį palaikymą, apsilankykite straipsnio [Programos „POS Hybrid“ nustatymas, skirtas „Android” ir „iOS”](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp) puslapyje.
+„Modern POS“ klientuose, skirtuose „Windows“ ir „Android“ yra **„Paskirtos“** arba įmontuotos aparatūros stotys. Šie klientai gali tiesiogiai susisiekti su periferiniais įrenginiais, naudodamiesi verslo logika, integruota programose. „Android“ programa palaiko tik tinklo įrenginius. Norėdami gauti daugiau informacijos apie „Android” periferinį palaikymą, apsilankykite straipsnio [Programos „POS Hybrid“ nustatymas, skirtas „Android” ir „iOS”](./dev-itpro/hybridapp.md) puslapyje.
 
 Norėdami naudoti paskirtą aparatūros įrangos stotį, priskirkite aparatūros profilį registrui, kuris naudos „Modern POS“, skirtą „Windows“ ar „Android“ programoms. Tada parduotuvei, kurioje registras bus naudojamas, sukurkite aparatūros stotį, kurios tipas **Paskirta**. Norėdami įjungti aparatūros stoties galimybes, paleiskite „Modern POS“ ne stalčiaus režime ir naudokite operaciją **Tvarkyti aparatūros stotis**, o paskirta aparatūros stotis bus aktyvi pagal numatytuosius nustatymus. Atsijunkite nuo „Modern POS“, tada vėl prisijunkite, atidarykite pamainą ir aparatūros profilyje sukonfigūruoti periferiniai įrenginiai bus tinkami naudoti. 
 
@@ -199,7 +199,7 @@ Daugiau informacijos žr. [„Modern POS” (MPOS) konfigūravimas, diegimas ir 
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>„Modern POS“, skirto „Android“ ir „iOS“ nustatymas ir konfigūravimas
 
-Daugiau informacijos žr. [Programos „POS hybrid” nustatymas, skirtas „Android” ir „iOS”](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+Daugiau informacijos žr. [Programos „POS hybrid” nustatymas, skirtas „Android” ir „iOS”](./dev-itpro/hybridapp.md).
 
 ### <a name="opos-device-setup-and-configuration"></a>OEKA įrenginio nustatymas ir konfigūracija
 
@@ -494,7 +494,7 @@ Išsamesnės informacijos apie tai, kaip kurti aparatūros šablonus, žr. [Apib
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>„Modern POS“, skirta „Android“, turi įmontuotą IPC aparatūros stotį
 
-**Nauja versijai 10.0.8** – „Epson“ tinklo spausdintuvai ir grynųjų pinigų stalčiai, prijungti prie tų spausdintuvų per DK prievadą, dabar palaikomi „Modern POS“, skirtos „Android“ programai. Norėdami gauti daugiau informacijos, apsilankykite puslapyje [Programos „POS Hybrid“ nustatymas, skirtas „Android” ir „iOS”](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+**Nauja versijai 10.0.8** – „Epson“ tinklo spausdintuvai ir grynųjų pinigų stalčiai, prijungti prie tų spausdintuvų per DK prievadą, dabar palaikomi „Modern POS“, skirtos „Android“ programai. Norėdami gauti daugiau informacijos, apsilankykite puslapyje [Programos „POS Hybrid“ nustatymas, skirtas „Android” ir „iOS”](./dev-itpro/hybridapp.md).
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Visi „Modern POS“ klientai, turintys patvirtintą bendrą IIS aparatūros stotį
 
@@ -614,6 +614,9 @@ Toliau nurodyti išoriniai įrenginiai buvo išbandyti naudojant IPC aparatūros
 | „Star“         | TSP650II | Pasirinktinis    | Prijungtas per tinklą   |
 | „Star“         | mPOP     | OEKA      | Prijungtas per „Bluetooth“ |
 | „HP“           | F7M67AA  | OEKA      | Teikiamas USB             |
+
+> [!NOTE]
+> į įtaisytą aparatūros stotį negalima naudoti 100 spausdintuvo. Įtaisytoji aparatūros stotis naudoja 64 bitų procesą, kuris nesuderinamas su esamomis TP 100 vairuotojų. 
 
 #### <a name="bar-code-scanner"></a>Brūkšninio kodo skaitytuvas
 

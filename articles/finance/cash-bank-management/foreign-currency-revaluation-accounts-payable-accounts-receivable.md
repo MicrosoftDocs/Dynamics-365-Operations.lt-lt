@@ -1,6 +1,6 @@
 ---
 title: Valiutos naujas įvertinimas mokėtinoms sąskaitoms ir gautinoms sąskaitoms
-description: Dėl valiutos kursų svyravimų laikui bėgant kinta atvirų operacijų užsienio valiutomis teorinė vertė (balansinė vertė). Šiame straipsnyje pateikiama informacija apie užsienio valiutos kurso pasikeitimo procesą, kuris vykdomas norint atnaujinti atvirų operacijų Mokėtinų ir Gautinų sumų vertę.
+description: Šioje temoje pateikiama informacija apie užsienio valiutos kurso pasikeitimo procesą, kuris vykdomas norint atnaujinti atvirų operacijų Mokėtinų ir Gautinų sumų vertę.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0df0ae1aa0e75eb8c64d5ca31fcd3605b5112cdd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9d4e9a4bfdad4e69b13d7b0324f4978f13d6d295
+ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815913"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6026162"
 ---
 # <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Valiutos naujas įvertinimas mokėtinoms sąskaitoms ir gautinoms sąskaitoms
 
 [!include [banner](../includes/banner.md)]
 
-Dėl valiutos kursų svyravimų laikui bėgant kinta atvirų operacijų užsienio valiutomis teorinė vertė (balansinė vertė). Šiame straipsnyje pateikiama informacija apie užsienio valiutos kurso pasikeitimo procesą, kuris vykdomas norint atnaujinti atvirų operacijų Mokėtinų ir Gautinų sumų vertę. 
+Dėl valiutos kursų svyravimų laikui bėgant kinta atvirų operacijų užsienio valiutomis teorinė vertė (balansinė vertė). Šioje temoje pateikiama informacija apie užsienio valiutos kurso pasikeitimo procesą, kuris vykdomas norint atnaujinti atvirų operacijų Mokėtinų ir Gautinų sumų vertę. 
 
 Atvirų tiekėjo operacijų užsienio valiutomis teorinė, arba balansinė, vertė laikui bėgant kinta dėl valiutos kursų svyravimų. Norėdami atnaujinti atvirų operacijų Mokėtinų ir Gautinų sumų vertę, vykdykite užsienio valiutos kurso pasikeitimo procesą. Užsienio valiutos kurso pasikeitimą galima vykdyti ir Mokėtinoms, ir Gautinoms sumoms. Šio proceso metu naudojamas naujas valiutos kursas atviroms arba nesudengtoms sumoms perkainoti nurodyta data. Skirtumai tarp pradinių užregistruotų sumų ir perkainotų sumų sukels kiekvienos atviros operacijos negauto pelno arba nepatirto nuostolio. Mokėtinų sumų ir Gautinų sumų papildomos knygos tada atnaujinamos, kad atspindėtų negautą pelną arba nepatirtą nuostolį, ir į didžiąją knygą užregistruojamas apskaitos įrašas.
 
@@ -55,7 +55,7 @@ Sukuriamas įrašas kiekvieną kartą, kai vykdote užsienio valiutos kurso pasi
     -   **Registravimas** – naudojamos kliento operacijos registravimo šablonas.
     -   **Pasirinkti** – įveskite registravimo šabloną lauke **Registravimo šablonas**.
 -   **Registravimo šablonas** – jei **Pasirinkti** pasirinkta lauke **Naudoti registravimo šabloną iš**, šiame lauke įvestas registravimo šablonas nustato užsienio valiutos kurso pasikeitimo operacijų registravimo šabloną.
--   **Finansinės dimensijos** – finansinės dimensijos, kurios užregistruotos užsienio valiutos kurso pasikeitimo operacijų apskaitos įrašuose:
+-   **Finansinės dimensijos** – finansinės dimensijos, kurios užregistruotos užsienio valiutos kurso pasikeitimo operacijų apskaitos įrašuose. Finansinės dimensijos nepatikrintos pagal sąskaitos struktūros taisykles. Sąskaitos struktūra, kuri buvo tuo metu, kai buvo užregistruotos SF, gali nesutiti su taisyklėmis, gali būti taikomos tada, kai buvo baigtas perkainojimas. Nėra pasirinkti konkrečių finansinių dimensijų perkainojimo procese, todėl sąskaitos struktūros tikrinimas praleistas.  
     -   **Nėra** – neužregistruota jokių finansinių dimensijų. Jei jūsų sąskaitos struktūroje yra reikiama finansinė dimensija, perkainojimo procesas vis dar vykdomas ir sukuriami apskaitos įrašai, kurie neturi finansinių dimensijų. Pirma gausite perspėjimo pranešimą, kad galėtumėte atšaukti perkainojimą.
     -   **Lentelė** – kliento sąskaitos arba tiekėjo sąskaitos finansinės dimensijos užregistruotos užsienio valiutos kurso pasikeitimo operacijose.
     -   **Registravimas** – perkainojamos ir užsienio valiutos pasikeitimo operacijoje registruojamos operacijos finansinė dimensija. Pagal numatytuosius nustatymus, finansinės dimensijos iš pradinės operacijos AR / AP didžiosios knygos sąskaitos bus naudojama perkainavimo operacijos AR / AP pagrindinėje sąskaitoje, o finansinės dimensijos iš pradinės operacijos išlaidų / turto / įplaukų didžiosios knygos sąskaitos bus naudojamos perkainojimo operacijos negauto pelno / nepatirtų nuostolių pagrindinėje sąskaitoje.

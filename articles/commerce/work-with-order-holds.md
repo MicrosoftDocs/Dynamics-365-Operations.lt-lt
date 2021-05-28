@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 61a73f10c8a8b3386826f08184028d8d5e6508a4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2066e0841658917cb0e6ddc0fbacf98d52098da8
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800388"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027461"
 ---
 # <a name="configure-and-work-with-call-center-order-holds"></a>Skambučių centro užsakymo sulaikymo funkcijų konfigūravimas ir jų naudojimas
 
@@ -53,7 +53,7 @@ Abiem atvejais rodomas puslapis **Užsakymo sulaikymai**. Tada vartotojas gali p
 
 Jei skambučių centro kanale pažymėta žymė **Įgalinti užsakymo baigimą**, mokėjimas neturi būti taikomas sulaikytam užsakymui. Tačiau jei pardavimo užsakymas nėra sulaikytas, vartotojai negali išeiti iš pardavimo užsakymo įvedimo puslapio, kol nebus pritaikytas mokėjimas. Žinoma, mokėjimas bus reikalingas prieš atšaukiant užsakymo sulaikymą.
 
-Be to, skambučių centro vartotojai gali dėl kokios nors priežasties rankiniu būdu sulaikyti įtartinus užsakymus dėl galimos apgaulės. Užsakymai taip pat gali būti sulaikyti automatiškai, kai jie atitinka aktyvius apgaulės kriterijus ir taisykles. Daugiau informacijos apie šį užsakymo sulaikymo tipą žr. [Įspėjimų dėl apgaulės nustatymas](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts).
+Be to, skambučių centro vartotojai gali dėl kokios nors priežasties rankiniu būdu sulaikyti įtartinus užsakymus dėl galimos apgaulės. Užsakymai taip pat gali būti sulaikyti automatiškai, kai jie atitinka aktyvius apgaulės kriterijus ir taisykles. Daugiau informacijos apie šį užsakymo sulaikymo tipą žr. [Įspėjimų dėl apgaulės nustatymas](/dynamics365/unified-operations/retail/set-up-fraud-alerts).
 
 ## <a name="viewing-and-managing-orders-that-are-on-hold"></a>Sulaikytų užsakymų peržiūra ir tvarkymas
 

@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f062f40c9eb883d02c4a0ee06c797ed1b0b22665
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 84b3a3630d3809c05f87242784207c3c4af160ce
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794000"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018585"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>„Commerce” B2C nuomotojo sąranka
 
@@ -30,7 +30,7 @@ ms.locfileid: "5794000"
 „Dynamics 365 Commerce“ naudoja „Azure AD“ B2C, kad palaikytų vartotojo kredencialus ir autentifikavimo srautus. Vartotojas gali prisiregistruoti, prisijungti ir iš naujo nustatyti savo slaptažodį naudodamas šiuos srautus. „Azure AD“ B2C saugoma vartotojo slapto autentifikavimo informacija, pvz., vartotojo vardas ir slaptažodis. Vartotoje įraše B2C nuomotojuje bus saugomas arba B2C vietos sąskaitos įrašas arba B2C socialinės tapatybės teikimo įrankio įrašas. Šie B2C įrašai bus susieti su kliento įrašu „Commerce“ aplinkoje.
 
 > [!WARNING] 
-> „Azure AD B2C” panaikins senus (senstelėjusius) vartotojų srautus 2021 m. rugpjūčio mėnesio 1 d. Todėl turėtumėte planuoti perkelti savo vartotojų srautus į naują rekomenduojamą versiją. Nauja versija suteikia lygiavertiškas bei naujas funkcijas. „Commerce” 10.0.15 arba naujesnės versijos modulių biblioteka turi būti naudojama su rekomenduojamais B2C vartotojų srautais. Daugiau informacijos rasite [„Azure Active Directory B2C” vartotojų srautai](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview).
+> „Azure AD B2C” panaikins senus (senstelėjusius) vartotojų srautus 2021 m. rugpjūčio mėnesio 1 d. Todėl turėtumėte planuoti perkelti savo vartotojų srautus į naują rekomenduojamą versiją. Nauja versija suteikia lygiavertiškas bei naujas funkcijas. „Commerce” 10.0.15 arba naujesnės versijos modulių biblioteka turi būti naudojama su rekomenduojamais B2C vartotojų srautais. Daugiau informacijos rasite [„Azure Active Directory B2C” vartotojų srautai](/azure/active-directory-b2c/user-flow-overview).
  
  > [!NOTE]
  > Į „Commerce” vertinimo aplinkas yra iš anksto įkeltas „Azure AD B2C” nuomotojas demonstraciniais tikslais. Vertinimo aplinkose nėra būtina įkelti savo „Azure AD B2C” nuomotojo atliekant žemiau nurodytus veiksmus.
@@ -88,7 +88,7 @@ Norėdami sukurti B2C programą, atlikite tolesnius veiksmus.
 1. Dalyje **Netiesioginis suteikiamas** pasirinkite tiek **Prieigos atpažinimo ženklus**, tiek **ID atpažinimo ženklus**, kad įgalintumėte juos programai. Pasirinkite **Įrašyti**.
 1. Eikite į „Azure” portalo **Apžvalgos** meniu ir nukopijuokite **Programos (kliento) ID**. Pasižymėkite šį ID, nes jis bus reikalingas kitiems nustatymo veiksmams (toliau nurodytą kaip **Kliento GUID**).
 
-Papildomų nuorodų apie „Azure AD B2C” programos registracijas rasite [Nauja programų registracijų patirtis „Azure Active Directory B2C”](https://docs.microsoft.com/azure/active-directory-b2c/app-registrations-training-guide)
+Papildomų nuorodų apie „Azure AD B2C” programos registracijas rasite [Nauja programų registracijų patirtis „Azure Active Directory B2C”](/azure/active-directory-b2c/app-registrations-training-guide)
 
 ### <a name="reply-urls"></a>Atsakymo URL
 
@@ -110,7 +110,7 @@ Vartotojų srautai yra strategijos, kurias „Azure AD“ B2C naudoja, kad sutei
 
 Galite pasirinkti naudoti numatytuosius vartotojo srautus, kuriuos siūlo „Azure AD“ ir kurie bus rodomi AAD B2C puslapyje. Arba galite sukurti HTML puslapį, kad galėtumėte valdyti šios vartotojo srauto patirties apipavidalinimą. 
 
-Norėdami tinkinti vartotojo strategijos puslapius su „Dynamics 365 Commerce“ platformoje sukurtais puslapiais, skaitykite [Pasirinktinių puslapių nustatymas vartotojų prisijungimui](custom-pages-user-logins.md). Daugiau informacijos žr. [Vartotojų patirties sąsajos tinkinimas „Azure Active Directory“ B2C](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-customize-ui).
+Norėdami tinkinti vartotojo strategijos puslapius su „Dynamics 365 Commerce“ platformoje sukurtais puslapiais, skaitykite [Pasirinktinių puslapių nustatymas vartotojų prisijungimui](custom-pages-user-logins.md). Daugiau informacijos žr. [Vartotojų patirties sąsajos tinkinimas „Azure Active Directory“ B2C](/azure/active-directory-b2c/tutorial-customize-ui).
 
 ### <a name="create-a-sign-up-and-sign-in-user-flow-policy"></a>Prisiregistravimo ir prisijungimo vartotojo srauto strategijos kūrimas
 
@@ -197,15 +197,15 @@ Jei įtrauktas socialinės tapatybės teikimo įrankio autentifikavimas ir varto
 
 Prieš pridėdami socialinės tapatybės teikimo įrankį autentifikavimo tikslu, turite eiti į tapatybės teikimo įrankio portalą ir nustatyti tapatybės teikimo įrankio programą, kaip nurodyta „Azure AD B2C“ dokumentuose. Saitų į dokumentus sąrašas pateiktas toliau.
 
-- [„Amazon“](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-amzn-app)
-- [Azure AD(Vienas nuomotojas)](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-oidc-azure-active-directory)
-- [„Microsoft“ abonementas](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-msa-app)
-- [Facebook](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-fb-app)
-- [GitHub](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-github-app)
-- [Google](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-goog-app)
-- [„LinkedIn“](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-li-app)
-- [OpenID Connect](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-oidc-idp)
-- [„Twitter“](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-twitter-app)
+- [„Amazon“](/azure/active-directory-b2c/active-directory-b2c-setup-amzn-app)
+- [Azure AD(Vienas nuomotojas)](/azure/active-directory-b2c/active-directory-b2c-setup-oidc-azure-active-directory)
+- [„Microsoft“ abonementas](/azure/active-directory-b2c/active-directory-b2c-setup-msa-app)
+- [„Facebook“](/azure/active-directory-b2c/active-directory-b2c-setup-fb-app)
+- [GitHub](/azure/active-directory-b2c/active-directory-b2c-setup-github-app)
+- [Google](/azure/active-directory-b2c/active-directory-b2c-setup-goog-app)
+- [„LinkedIn“](/azure/active-directory-b2c/active-directory-b2c-setup-li-app)
+- [OpenID Connect](/azure/active-directory-b2c/active-directory-b2c-setup-oidc-idp)
+- [„Twitter“](/azure/active-directory-b2c/active-directory-b2c-setup-twitter-app)
 
 ### <a name="add-and-set-up-a-social-identity-provider"></a>Socialinės tapatybės teikimo įrankio įtraukimas ir nustatymas
 
@@ -346,11 +346,11 @@ Norėdami susieti B2C programą su svetainę ir kanalu, atlikite tolesnius veiks
 
 Jei ketinate perkelti kliento įrašus iš ankstesnės tapatybės teikimo įrankio platformos, dirbkite su „Dynamics 365 Commerce“ komanda, kad peržiūrėtumėte savo klientų perkėlimo poreikius.
 
-Norėdami gauti daugiau „Azure AD“ B2C dokumentų apie klientų perkėlimą, žr. [Vartotojų perkėlimas į „Azure Active Directory“ B2C](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-user-migration).
+Norėdami gauti daugiau „Azure AD“ B2C dokumentų apie klientų perkėlimą, žr. [Vartotojų perkėlimas į „Azure Active Directory“ B2C](/azure/active-directory-b2c/active-directory-b2c-user-migration).
 
 ### <a name="custom-policies"></a>Pasirinktinės strategijos
 
-Norėdami gauti daugiau informacijos apie „Azure AD“ B2C sąveikas ir strategijos srautus be to, kas siūloma standartinėse B2C strategijose, žr. [Pasirinktinės strategijos „Azure Active Directory“ B2C](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-overview-custom). 
+Norėdami gauti daugiau informacijos apie „Azure AD“ B2C sąveikas ir strategijos srautus be to, kas siūloma standartinėse B2C strategijose, žr. [Pasirinktinės strategijos „Azure Active Directory“ B2C](/azure/active-directory-b2c/active-directory-b2c-overview-custom). 
 
 ### <a name="secondary-admin"></a>Antrinis administratorius
 

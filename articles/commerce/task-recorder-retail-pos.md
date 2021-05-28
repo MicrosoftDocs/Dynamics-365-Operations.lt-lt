@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d4bb8ce1abc07bc57e90e893e7e327761131d52a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 02e8bb1bfb088a877ef23b7a81982868700f4ae2
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795218"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028112"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>„Retail Modern POS“ (MPOS) ir „Cloud POS“ užduočių įrašymo priemonė bei žinynas
 
@@ -135,7 +135,7 @@ Lauke **Pastabos** įvestas tekstas rodomas *po* veiksmo teksto užduočių vedl
 
 ## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>„Retail Modern POS“ ir „Cloud POS“ žinynas
 
-Tam, kad tinkinti užduočių įrašai būtų pateikiami „Retail Modern POS“ ir „Cloud POS“ žinyno srityje ir juos būtų galima peržiūrėti kaip tekstą, užduočių įrašus turite įrašyti į savo BPM biblioteką, tada atnaujinti žinyno sistemos parametrus, kad būtų nurodoma BPM biblioteka. Norėdami gauti daugiau informacijos, žr. [Žinyno sistemos prijungimas](../fin-and-ops/get-started/help-connect.md). „Retail Modern POS“ ir „Cloud POS“ žinynas atlieka iešką LCS realiuoju laiku. Ieška vykdoma visose BPM bibliotekose, kurios pasirinktos „Commerce“ žinyno sistemos parametruose, ir rodomi atitinkami rezultatai. Norėdami pasiekti meniu **Žinynas**, ekrano viršuje spustelėkite mygtuką **Žinynas** (klaustukas) ir ieškos lauke įveskite savo proceso pavadinimą bei spustelėkite ieškos mygtuką.
+Tam, kad tinkinti užduočių įrašai būtų pateikiami „Retail Modern POS“ ir „Cloud POS“ žinyno srityje ir juos būtų galima peržiūrėti kaip tekstą, užduočių įrašus turite įrašyti į savo BPM biblioteką, tada atnaujinti žinyno sistemos parametrus, kad būtų nurodoma BPM biblioteka. Norėdami gauti daugiau informacijos, žr. [Žinyno sistemos prijungimas](../fin-ops-core/fin-ops/get-started/help-connect.md). „Retail Modern POS“ ir „Cloud POS“ žinynas atlieka iešką LCS realiuoju laiku. Ieška vykdoma visose BPM bibliotekose, kurios pasirinktos „Commerce“ žinyno sistemos parametruose, ir rodomi atitinkami rezultatai. Norėdami pasiekti meniu **Žinynas**, ekrano viršuje spustelėkite mygtuką **Žinynas** (klaustukas) ir ieškos lauke įveskite savo proceso pavadinimą bei spustelėkite ieškos mygtuką.
 
 [![Mygtukas Pagalba](./media/help.jpg)](./media/help.jpg)
 

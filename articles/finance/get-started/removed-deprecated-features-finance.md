@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 93d025759f86ffeb0ee1f1e6e6e2aeb3ab341b75
-ms.sourcegitcommit: 4ba25601eba295bd9057f7fb5e85f1f6764f5a27
+ms.openlocfilehash: 8cacf2fbef8873288493f71b43d22dc186e6d18e
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "5965315"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980903"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Pašalintos arba nerekomenduojamos „Dynamics 365 Finance“ funkcijos
 
@@ -35,16 +35,25 @@ ms.locfileid: "5965315"
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Pašalintos arba nerekomenduojamos funkcijos, esančios „Finance“ 10.0.20 versijoje
 
-### <a name="rtir-query-invoice-data-request-hu-format-configuration"></a>RTIR Sąskaitos faktūros duomenų užklausos (HU) formato konfigūracija
+### <a name="rtir-query-invoice-data-request-hu-electronic-reporting-er-format-configuration"></a>„RTIR Sąskaitos faktūros duomenų užklausos (HU) Elektroninės ataskaitos (ER) formato konfigūravimas
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Nerekomendavimo/pašalinimo priežastis** | Neįtraukta į elektroninių pranešimų apdorojimą, sąveikaujant su vengrų internetine sąskaitų faktūrų išrašymo sistema |
+| **Nerekomendavimo / pašalinimo priežastis** | Neįtraukta į elektroninių pranešimų apdorojimą, sąveikaujant su vengrų internetine sąskaitų faktūrų išrašymo sistema |
 | **Pakeitė kita funkcija?**   | Ne |
 | **Paveiktos produkto sritys**         | Prašymas |
 | **Visuotinio diegimo parinktis**              | Visos |
 | **Būsena**                         | Nerekomenduoja: Nuo 2022 m. balandžio 15 d. planuojame nebeteikti „RTIR Sąskaitos faktūros duomenų užklausos (HU)” formato konfigūracijos palaikymo. |
 
+### <a name="french-fec-audit-file-electronic-reporting-er-format-for-france-under-german-audit-file-output-format"></a>Prancūzijos FEC audito failo Prancūzijos elektroninių ataskaitų (ER) formatas pagal „Vokietijos audito failo išeigos" formatą
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo / pašalinimo priežastis** | Pakeičiama nauju „FEC audito failo (FR)“ formatu |
+| **Pakeitė kita funkcija?**   | Taip |
+| **Paveiktos produkto sritys**         | Prašymas |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Pasenusi: iki 2022 m. gegužės 1 d. planuojame nebepalaikome Prancūzijos FEC audito failo Prancūzijos elektroninių ataskaitų (ER) formato, formato „Vokietijos audito failo išvestis". Naujas FEC audito failo (FR) formatas įvestas po „Duomenų eksportavimo modeliu". |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Pašalintos arba nerekomenduojamos „Finance“ 10.0.17 versijos funkcijos
 

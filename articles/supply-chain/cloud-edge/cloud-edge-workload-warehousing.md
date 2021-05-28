@@ -6,7 +6,7 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: PurchTable, SysSecRolesEditUsers
+ms.search.form: PurchTable, SysSecRolesEditUsers, SysWorkloadDuplicateRecord
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 9bdb9529c8b630182a2036e9d116909f9e92bb83
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 3d9bbc91b90cc675f500a990cf36e2aee6c6bccb
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944418"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980955"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Sandėlio valdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams
 
@@ -58,7 +58,10 @@ Skalės vienetai turi tolesnius duomenis:
   - **Perkėlimo užsakymai** (tik siunčiami su pavyzdžio paėmimo ir pakrovimo darbu)
 
 - **Sandėlio darbo gavimo duomenys** – Šie duomenys naudojami tik pirkimo užsakymams, kurie buvo rankiniu būdu paleisti į sandėlį.
-- **Licencijos lentelės duomenys** – Licencijos lentelės gali būti sukurtos centre ir skalės vienete. Paskirtas konflikto valdymas buvo patvirtintas. Atminkite, kad šie duomenys nėra būdingi sandėliui.
+- **Licencijos lentelės duomenys** – Licencijos lentelės abi gali būti sukurtos centre ir skalės vienete. Paskirtas konflikto valdymas buvo patvirtintas. 
+
+    > [!IMPORTANT]
+    > Atminkite, kad licencijos duomenys nėra būdingi sandėliui. Jei tas pats numerio lentelės numeris tą patį sinchronizavimo ciklą sukuriamas ir centre, ir svarstyklių vienete, kitos sinchronizacijos metu nepavyks. Tokiu atveju eikite į **Sistemos administravimas > Užklausos > Darbo krūvio užklausos > Dubliuoti įrašus**, kur galima peržiūrėti ir sulieti duomenis.
 
 ## <a name="outbound-process-flow"></a>Siuntimo tvarkymo eiga
 

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 07d8e740e8f20533272c403446d5e8294c9f37a1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7b99b5f7b5b972d41e0831995bde69e9041369b9
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791131"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028016"
 ---
 # <a name="omni-channel-payments-overview"></a>Integruotų kanalų mokėjimų apžvalga
 
@@ -43,11 +43,11 @@ ms.locfileid: "5791131"
 
 Paprastai frazė *integruoto kanalo mokėjimai* nurodo galimybę kurti užsakymą viename kanale ir vykdyti jį kitame kanale. Svarbiausia integruoto kanalo ypatybė – mokėjimo informacijos ir likusios užsakymo informacijos išsaugojimas bei mokėjimo informacijos naudojimas, kai užsakymas atšaukiamas arba apdorojamas kitame kanale. Klasikinis pavyzdys yra scenarijus „Pirkimas internetu, atsiėmimas parduotuvėje“. Tokiu atveju mokėjimo informacija yra įtraukiama, kai užsakymas sukuriamas internete. Tada informacija atšaukiama EKA, kad kliento mokėjimo kortelė būtų apmokestinta paėmimo metu. 
 
-Visus scenarijus, aprašytus šioje temoje, galima įgyvendinti naudojant standartinį mokėjimų programinės įrangos kūrimo rinkinį (SDK), kuris pateikiamas kartu su „Commerce“. [„Dynamics 365“ mokėjimo jungtis, skirta „Adyen“](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3), pateikia parengtą naudoti kiekvieno čia aprašyto scenarijaus įdiegtį. 
+Visus scenarijus, aprašytus šioje temoje, galima įgyvendinti naudojant standartinį mokėjimų programinės įrangos kūrimo rinkinį (SDK), kuris pateikiamas kartu su „Commerce“. [„Dynamics 365“ mokėjimo jungtis, skirta „Adyen“](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3), pateikia parengtą naudoti kiekvieno čia aprašyto scenarijaus įdiegtį. 
 
 ### <a name="prerequisites"></a>Būtinieji komponentai
 
-Kiekvienam šioje temoje aprašytam scenarijui reikalinga mokėjimo jungtis, palaikanti integruoto kanalo mokėjimus. Parengta naudoti „Adyen“ jungtis taip pat gali būti naudojama, nes ji palaiko scenarijus, kurie galimi naudojant mokėjimų SDK. Norėdami daugiau informacijos apie tai, kaip nustatyti mokėjimų jungtis, ir apie „Retail“ SDK bendrai rasite apsilankę [pagrindiniame „Retail“, skirtos IT profesionalams ir kūrėjams, puslapyje](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page#payment-connectors).
+Kiekvienam šioje temoje aprašytam scenarijui reikalinga mokėjimo jungtis, palaikanti integruoto kanalo mokėjimus. Parengta naudoti „Adyen“ jungtis taip pat gali būti naudojama, nes ji palaiko scenarijus, kurie galimi naudojant mokėjimų SDK. Norėdami daugiau informacijos apie tai, kaip nustatyti mokėjimų jungtis, ir apie „Retail“ SDK bendrai rasite apsilankę [pagrindiniame „Retail“, skirtos IT profesionalams ir kūrėjams, puslapyje](/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page#payment-connectors).
 
 #### <a name="supported-versions"></a>Palaikomos versijos
 
@@ -57,14 +57,14 @@ Kiekvienam šioje temoje aprašytam scenarijui reikalinga mokėjimo jungtis, pal
 
 Mokėjimų SDK priklauso nuo dviejų mokėjimo programų kūrimo sąsajų (API) rinkinių. Pirmas API rinkinys pavadintas **iPaymentProcessor**. Jis naudojamas taikant tipo „kortelės nėra“ jungtis, kurias galima naudoti skambučių centruose ir su „Microsoft Dynamics“ elektroninės prekybos platforma. Norėdami daugiau informacijos apie sąsają **iPaymentProcessor** žr. mokėjimus apimančią dokumentaciją [Mokėjimo jungties ir mokėjimo įrenginio diegimas](https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device_update.pdf). 
 
-Antras API rinkinys pavadintas **iNamedRequestHandler**. Jis palaiko tipo „kortelė yra“ mokėjimo integravimo, naudojančio mokėjimo terminalą, diegimą. Norėdami gauti daugiau informacijos apie sąsają **„iNamedRequestHandler”** sąsają, žr. [Mokėjimų integravimo į mokėjimo terminalą kūrimas](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/end-to-end-payment-extension). 
+Antras API rinkinys pavadintas **iNamedRequestHandler**. Jis palaiko tipo „kortelė yra“ mokėjimo integravimo, naudojančio mokėjimo terminalą, diegimą. Norėdami gauti daugiau informacijos apie sąsają **„iNamedRequestHandler”** sąsają, žr. [Mokėjimų integravimo į mokėjimo terminalą kūrimas](/dynamics365/unified-operations/retail/dev-itpro/end-to-end-payment-extension). 
 
 ### <a name="setup-and-configuration"></a>Nustatymas ir konfigūracija
 
 Būtini toliau nurodyti komponentai ir nustatymo veiksmai.
 
-- **„eCommerce“ integracija:** norint, kad būtų palaikomi scenarijai, kai užsakymas pateikiamas internetinėje parduotuvėje, reikalinga integracija su „Commerce“. Norėdami daugiau informacijos apie „Retail e-Commerce“ SDK, žr. [„e-Commerce“ platformos programinės įrangos kūrimo rinkinys (SDK)](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk). Demonstracinėje aplinkoje nuorodos parduotuvė palaiko integruoto mokėjimo scenarijus. 
-- **Mokėjimų internetu konfigūracija:** internetinio kanalo sąranka turi apimti mokėjimo jungtį, kuri buvo atnaujinta, kad palaikytų integruoto kanalo mokėjimus. Taip pat galima naudoti parengtą naudoti mokėjimo jungtį. Informacijos apie tai, kaip konfigūruoti „Adyen“ mokėjimo jungtį, skirtą internetinėms parduotuvėms, žr. [„Adyen“ mokėjimo jungtis](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce). Reikia ne tik atlikti šioje temoje aprašytus „eCommerce“ sąrankos veiksmus, bet ir „Adyen“ jungties parametruose nustatyti parametro **Leisti įrašyti informaciją Galima įrašyti informaciją apie elektroninėje prekyboje** vertę **True**. 
+- **„eCommerce“ integracija:** norint, kad būtų palaikomi scenarijai, kai užsakymas pateikiamas internetinėje parduotuvėje, reikalinga integracija su „Commerce“. Norėdami daugiau informacijos apie „Retail e-Commerce“ SDK, žr. [„e-Commerce“ platformos programinės įrangos kūrimo rinkinys (SDK)](/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk). Demonstracinėje aplinkoje nuorodos parduotuvė palaiko integruoto mokėjimo scenarijus. 
+- **Mokėjimų internetu konfigūracija:** internetinio kanalo sąranka turi apimti mokėjimo jungtį, kuri buvo atnaujinta, kad palaikytų integruoto kanalo mokėjimus. Taip pat galima naudoti parengtą naudoti mokėjimo jungtį. Informacijos apie tai, kaip konfigūruoti „Adyen“ mokėjimo jungtį, skirtą internetinėms parduotuvėms, žr. [„Adyen“ mokėjimo jungtis](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce). Reikia ne tik atlikti šioje temoje aprašytus „eCommerce“ sąrankos veiksmus, bet ir „Adyen“ jungties parametruose nustatyti parametro **Leisti įrašyti informaciją Galima įrašyti informaciją apie elektroninėje prekyboje** vertę **True**. 
 - **Daugiakanalių mokėjimų konfigūracija:** operacijų skyriuje eikite į **„Retail and Commerce“ \> Būstinės sąranka \> Parametrai \> Bendrai naudojami „Commerce“ parametrai**. Tada skirtuke **Integruotas kanalas** nustatykite parinkties **Naudoti integruoto kanalo mokėjimus** vertę **Taip**. Prekybos versijose 10.0.12 ir naujesnėse šie parametrai yra **Funkcijų valdymo** darbo srityje. Pasirinkite **Vieno kanalo mokėjimai** funkciją ir paspauskite **Įjungti dabar**. 
 - **Mokėjimo paslaugos:** skambučių centras naudoja numatytąją mokėjimo jungtį puslapyje **Mokėjimo paslaugos**, kad apdorotų mokėjimus. Siekiant palaikyti tokius scenarijus „Pirkimas skambučių centre, atsiėmimas parduotuvėje“, ši numatytoji mokėjimo jungtis turi būti „Adyen“ mokėjimo jungtis arba mokėjimo jungtis, kuri atitinka integruoto kanalo mokėjimų vykdymo reikalavimus.
 - **EFT paslauga:** mokėjimo terminale atliekami mokėjimai turi būti nustatyti aparatinės įrangos profilio „FastTab“**EFT paslauga**. „Adyen“ jungtis iš karto palaiko integruoto kanalo mokėjimus. Kitos mokėjimo jungtys, palaikančios sąsają **iNamedRequestHandler**, taip pat gali būti naudojamos, jei jos palaiko integruoto kanalo mokėjimus.
@@ -219,7 +219,7 @@ Kai kurių kortų negalima naudoti atliekant integruoto kanalo mokėjimus, nes j
 
 ### <a name="using-a-different-card"></a>Kitos kortelės naudojimas
 
-Klientas, kuris atvyksta į parduotuvę paimti užsakymo, gali naudoti kitą kortelę. Kai užsakymo paėmimo metu kasininkas gauna paraginimą **Naudoti galimą mokėjimo būdą**, jis gali paklausti, ar klientas nori naudoti tą pačią kortelę. Jei klientas prarado kortelę, kuri buvo naudojama kuriant užsakymą, ir nori apmokėti užsakymą naudodamas kitą kortelę, kasininkas gali pasirinkti **Naudoti kitą mokėjimo būdą**. Jei klientas vėliau grįžta paimti daugiau to paties užsakymo prekių ir pradinės kortelės autorizacija vis dar galioja, kasininkas gali dar kartą paklausti, ar klientas nori naudoti šią kortelę.
+Klientas, kuris atvyksta į parduotuvę paimti užsakymo, gali naudoti kitą kortelę. Kai užsakymo paėmimo metu kasininkas gauna paraginimą **Naudoti galimą mokėjimo būdą**, kasininkas gali paklausti, ar klientas nori naudoti tą pačią kortelę. Jei klientas prarado kortelę, kuri buvo naudojama kuriant užsakymą, ir nori apmokėti užsakymą naudodamas kitą kortelę, kasininkas gali pasirinkti **Naudoti kitą mokėjimo būdą**. Jei klientas vėliau grįžta paimti daugiau to paties užsakymo prekių ir pradinės kortelės autorizacija vis dar galioja, kasininkas gali dar kartą paklausti, ar klientas nori naudoti šią kortelę.
 
 ### <a name="invalid-authorizations"></a>Negaliojančios autorizacijos
 
@@ -231,9 +231,9 @@ Kai paimamas užsakymas, kuriame yra kelios mokėjimo priemonės ir kelios eilut
 
 ## <a name="related-topics"></a>Susijusios temos
 
-- [DUK apie mokėjimus](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
-- [„Dynamics 365“ mokėjimo jungtis, skirta sprendimui „Adyen“](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
-- [Sukonfigūruokite „BOPIS“ „Dynamics 365 Commerce“ vertinamoje aplinkoje](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
+- [DUK apie mokėjimus](/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
+- [„Dynamics 365“ mokėjimo jungtis, skirta sprendimui „Adyen“](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
+- [Sukonfigūruokite „BOPIS“ „Dynamics 365 Commerce“ vertinamoje aplinkoje](./cpe-bopis.md)
 
 
 

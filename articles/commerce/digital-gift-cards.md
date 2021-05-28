@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: bd93744cf947dcc343d2b31d3d52b2b748c062a9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 212f425dc3603f838ce030d9ed86f2e418bef29a
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792876"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019938"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>El. komercijos skaitmeninės dovanų kortelės
 
@@ -51,12 +51,12 @@ Skaitmeninės kortelės prekės turi būti konfigūruotos „Commerce“ būstin
 
     ![Dovanų kortelės produkto laukelis „Commerce“ būstinėje](./media/PostGiftcard.png)
 
-- Jei dovanų kortelė turi būti palaikoma kelių iš anksto nustatytų sumų (pavyzdžiui, 25 $, 50 $ ir 100 $), **Dydžio** dimensija turi būti naudojama siekiant nustatytas iš anksto nustatytas sumas. Kiekviena iš anksto nustatyta suma bus variantas. Dėl daugiau informacijos, žr. [Produkto dimensijos](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json).
+- Jei dovanų kortelė turi būti palaikoma kelių iš anksto nustatytų sumų (pavyzdžiui, 25 $, 50 $ ir 100 $), **Dydžio** dimensija turi būti naudojama siekiant nustatytas iš anksto nustatytas sumas. Kiekviena iš anksto nustatyta suma bus variantas. Dėl daugiau informacijos, žr. [Produkto dimensijos](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json).
 - Jei klientai privalo galėti nurodyti tinkintą sumą dovanų kortelei, pirmiausia nustatykite variantą, leidžiantį kliento sumą. Po to, atverkite produktą iš **Išleisti produktai šios kategorijos** puslapį ir tuomet **Komercija** „FastTab“, nustatykite **Rakto kainos** laukelį į **Privalomas raktas naujos kainos**, kaip parodyta tolesniame paveikslėlyje. Šis nustatymas užtikrina, kad klientai galės įvesti kainą naršydami produktą PDP.
 
     ![Raktas kainos laukelyje „Commerce“ būstinėje](./media/KeyInPrice.png)
 
-- Pristatymo būdas skaitmeninei dovanų kortelei turi būti nustatytas į **Elektroninį**. Puslapyje **Pristatymo būdai** (**Mažmeninė prekyba ir komercija \> Kanalo nustatymai \> Pristatymo būdai**), rinkitės **Elektroninį** pristatymo būdą sąrašo juostoje ir tuomet įtraukite skaitmeninį dovanų kortelės produktą į tinklelį **Produktai** „FastTab“, kaip parodyta tolesniame paveikslėlyje. Dėl daugiau informacijos, žr. [Nustatyti pristatymo būdus](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+- Pristatymo būdas skaitmeninei dovanų kortelei turi būti nustatytas į **Elektroninį**. Puslapyje **Pristatymo būdai** (**Mažmeninė prekyba ir komercija \> Kanalo nustatymai \> Pristatymo būdai**), rinkitės **Elektroninį** pristatymo būdą sąrašo juostoje ir tuomet įtraukite skaitmeninį dovanų kortelės produktą į tinklelį **Produktai** „FastTab“, kaip parodyta tolesniame paveikslėlyje. Dėl daugiau informacijos, žr. [Nustatyti pristatymo būdus](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
     ![Skaitmeninės kortelės prekės Pristatymo būdo puslapyje „Commerce“ būstinėje](./media/ElectronicMode.PNG)
 
@@ -89,9 +89,9 @@ Norėdami konfigūruoti tinkintą sumą skaitmeninei kortelei „Commerce“ sai
 
 [Naujo produkto kūrimas „Commerce“](create-new-product-commerce.md)
 
-[Nustatyti pristatymo būdus](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Nustatyti pristatymo būdus](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
-[Produktų dimensijos](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json)
+[Produktų dimensijos](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json)
 
 [El. paštu siunčiamo pranešimo šablono nustatymas](email-notification-profiles.md)
 

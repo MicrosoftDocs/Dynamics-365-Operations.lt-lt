@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dc4ae56be1740f0160b4e4777f8db93a6bc4e704
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c61686615495ac64efccf84c697e0e1d594dcaf9
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792272"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027968"
 ---
 # <a name="account-management-pages-overview"></a>Sąskaitos valdymo puslapių apžvalga
 
@@ -47,7 +47,7 @@ Toliau pateiktame paveikslėlyje parodytas puslapio **Mano profilis** pavyzdys, 
 
 ### <a name="addresses-page"></a>Adresų puslapis
 
-Puslapyje **Adresai** klientas gali pridėti adresus į savo paskyrą. Jame taip pat pateikiamas adresų, kuriuos klientas anksčiau įtraukė arba įrašė į paskyrą, sąrašas. Šie adresai yra adresai, kuriuos klientas įvedė šiame puslapyje arba pateikdamas užsakymą.
+Puslapyje **Adresai** klientai gali pridėti adresus į jų paskyrą. Jame taip pat pateikiamas adresų, kuriuos klientas anksčiau įtraukė arba įrašė į paskyrą, sąrašas. Šie adresai yra adresai, kuriuos klientas įvedė šiame puslapyje arba pateikdamas užsakymą.
 
 Toliau pateikiamoje iliustracijoje rodomas puslapio **Adresai** pavyzdys.
 
@@ -55,7 +55,7 @@ Toliau pateikiamoje iliustracijoje rodomas puslapio **Adresai** pavyzdys.
 
 ### <a name="order-history-and-order-details-pages"></a>Puslapiai Užsakymų retrospektyva ir Užsakymo išsami informacija
 
-Puslapyje **Užsakymų retrospektyva** pateikiama visų užsakymų, kuriuos klientas pateikė naudodamas savo paskyrą, suvestinė. Jame pateikiama trumpa suvestinė užsakytų prekių, patvirtinimo numerio, pardavimo ID, sekimo informacijos ir kitos informacijos suvestinė. Jei klientas nori peržiūrėti išsamesnį kiekvieno užsakymo suskirstymą, tai gali padaryti puslapyje **Užsakymo išsami informacija**. Šiame puslapyje yra informacija, pvz., siuntimo adresas, mokėjimo informacija, informacija apie nuolaidas, mokesčius ir siuntimo išlaidas užsakymui.
+Puslapyje **Užsakymų retrospektyva** pateikiama visų užsakymų, kuriuos klientas pateikė naudodamas jų paskyrą, suvestinė. Jame pateikiama trumpa suvestinė užsakytų prekių, patvirtinimo numerio, pardavimo ID, sekimo informacijos ir kitos informacijos suvestinė. Jei klientas nori peržiūrėti išsamesnį kiekvieno užsakymo suskirstymą, tai gali padaryti puslapyje **Užsakymo išsami informacija**. Šiame puslapyje yra informacija, pvz., siuntimo adresas, mokėjimo informacija, informacija apie nuolaidas, mokesčius ir siuntimo išlaidas užsakymui.
 
 Toliau pateikiamoje iliustracijoje rodomas puslapio **Užsakymų retrospektyva** pavyzdys.
 

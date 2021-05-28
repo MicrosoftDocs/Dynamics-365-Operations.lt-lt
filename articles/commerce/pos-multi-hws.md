@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ad75430c606f959b17c887531fb62bd37caec624
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8a3c7eb9580f9155dd33f6351f37eb1edd269a3d
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804312"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018638"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Paskirtieji mokėjimo terminalai ir raginimai spausdintuvui ir kasos stalčiui
 
@@ -50,13 +50,13 @@ ms.locfileid: "5804312"
 
 Ši funkcija palaiko prie tinklo prijungtus mokėjimo terminalus ir kvitų spausdintuvus. Galite suteikti kasos stalčiaus palaikymą, prijungdami kasos stalčių prie tinklo prijungto kvitų spausdintuvo per d/k prievadą.
 
-Sąrankos nereikalaujantį šios funkcijos palaikymą teikia [„Dynamics 365 Payment Connector for Adyen“](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3). Tačiau kitos mokėjimų jungtys gali būti palaikomos naudojant „Commerce Software Development Kit“ (SDK) mokėjimams. Palaikomus kvitų spausdintuvus sudaro prie tinklo prijungti „Star Micronics“ ir „Epson“ kvitų spausdintuvai.
+Sąrankos nereikalaujantį šios funkcijos palaikymą teikia [„Dynamics 365 Payment Connector for Adyen“](./dev-itpro/adyen-connector.md?tabs=8-1-3). Tačiau kitos mokėjimų jungtys gali būti palaikomos naudojant „Commerce Software Development Kit“ (SDK) mokėjimams. Palaikomus kvitų spausdintuvus sudaro prie tinklo prijungti „Star Micronics“ ir „Epson“ kvitų spausdintuvai.
 
 Norėdami nustatyti „Star Micronics“ kvitų spausdintuvus, naudokite „Star Micronics Printer Utility“, kad sukonfigūruotumėte įrenginį taip, kad jį būtų galima naudoti tinkle. Ši programa taip pat suteiks įrenginiui IP adresą.
 
 Norėdami nustatyti „Epson“ kvitų spausdintuvus, naudokite „Epson ePOS-Print“ programą, kad sukonfigūruotumėte įrenginį naudoti tinklo protokolus.
 
-Daugiau informacijos apie tai, kaip nustatyti tinklo periferinius įrenginius, žr [Tinklo periferinių įrenginių palaikymo apžvalga](https://go.microsoft.com/fwlink/?linkid=2129965).
+Daugiau informacijos apie tai, kaip nustatyti tinklo periferinius įrenginius, žr [Tinklo periferinių įrenginių palaikymo apžvalga](./dev-itpro/network-peripherals.md).
 
 ## <a name="set-up-a-dedicated-payment-terminal-and-a-prompt-for-a-printer-and-cash-drawer"></a>Paskirtojo mokėjimų terminalo ir raginimo spausdintuvui bei grynųjų pinigų stalčiui nustatymas
 
@@ -75,9 +75,9 @@ Norėdami nustatyti kasos aparatui priskirtą aparatūros profilį, atlikite tol
 
     | Įrenginys | Tipas | Įrenginio pavadinimas | Papildoma informacija |
     |---|---|---|---|
-    | Spausdintuvas | Atsarginis | *Bet kuris* | Skiriamos didžiosios ir mažosios įrenginio pavadinimo raidės. **Kvitų profilio ID** turi būti toks pat, kaip **Kvitų profilio ID**, kuris yra susietas su tinklo spausdintuvu, kuris yra susietas su aparatūros profiliu, priskirtu aparatūros stočiai kanalo lygmeniu. |
-    | Kasos stalčius | Atsarginis | *Bet kuris* | Skiriamos didžiosios ir mažosios įrenginio pavadinimo raidės. Nustatykite parinktį **Naudoti bendrą pamainą** į **Taip**. |
-    | EFT paslauga | „Adyen“ | Netaikoma | Informacijos apie tai, kaip nustatyti naują „Adyen“ jungtį, žr. [„Dynamics 365 Payment Connector for Adyen“](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3). Kitos mokėjimų jungtys gali būti palaikomos naudojant [„Commerce Software Development Kit“ (SDK) mokėjimams](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/end-to-end-payment-extension). |
+    | Spausdintuvas | Tinklas | *Bet kuris* | Skiriamos didžiosios ir mažosios įrenginio pavadinimo raidės. **Kvitų profilio ID** turi būti toks pat, kaip **Kvitų profilio ID**, kuris yra susietas su tinklo spausdintuvu, kuris yra susietas su aparatūros profiliu, priskirtu aparatūros stočiai kanalo lygmeniu. |
+    | Kasos stalčius | Tinklas | *Bet kuris* | Skiriamos didžiosios ir mažosios įrenginio pavadinimo raidės. Nustatykite parinktį **Naudoti bendrą pamainą** į **Taip**. |
+    | EFT paslauga | „Adyen“ | Netaikoma | Informacijos apie tai, kaip nustatyti naują „Adyen“ jungtį, žr. [„Dynamics 365 Payment Connector for Adyen“](./dev-itpro/adyen-connector.md?tabs=8-1-3). Kitos mokėjimų jungtys gali būti palaikomos naudojant [„Commerce Software Development Kit“ (SDK) mokėjimams](./dev-itpro/end-to-end-payment-extension.md). |
     | PIN rinkiklis | Tinklas | **MicrosoftAdyenDeviceV001** | Nėra. |
 
 5. Programoje „Dynamics 365 Commerce“ susiraskite **Kasos aparatai**.
@@ -85,7 +85,7 @@ Norėdami nustatyti kasos aparatui priskirtą aparatūros profilį, atlikite tol
 7. Priskirkite ką tik sukurtą aparatūros profilį kasos aparate, kuris turėtų naudoti paskirtąjį mokėjimo terminalą. Įrenginys, susietas su šiuo kasos aparatu, turi naudoti programą „Modern POS“, skirtą Windows, arba „Modern POS“, skirtą „Android“.
 8. Pasirinkite **Įrašyti**.
 9. Veiksmų srities skirtuke **Kasos aparatai** pasirinkite **Konfigūruoti IP adresus**.
-10. „FastTab“ skirtuke **PIN rinkiklis** įveskite mokėjimo terminalo IP adresą. Daugiau informacijos apie tai, kaip gauti mokėjimo terminalo IP adresą naudojant „Adyen“ jungtį, žr [„Dynamics 365 Payment Connector for Adyen“](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3).
+10. „FastTab“ skirtuke **PIN rinkiklis** įveskite mokėjimo terminalo IP adresą. Daugiau informacijos apie tai, kaip gauti mokėjimo terminalo IP adresą naudojant „Adyen“ jungtį, žr [„Dynamics 365 Payment Connector for Adyen“](./dev-itpro/adyen-connector.md?tabs=8-1-3).
 11. Pasirinkite **Įrašyti**.
 
 #### <a name="set-up-a-hardware-profile-for-the-receipt-printer-and-cash-drawer"></a>Aparatūros profilio nustatymas kvitų spausdintuvui ir grynųjų pinigų stalčiui
@@ -100,7 +100,7 @@ Norėdami nustatyti aparatūros profilį, naudojamą tinklo kvitų spausdintuvui
     | Įrenginys | Tipas | aprašymas | Papildoma informacija |
     |---|---|---|---|
     | Spausdintuvas | Tinklas | **„Epson“** arba **„Star“** | Skiriamos didžiosios ir mažosios įrenginio pavadinimo raidės. **Kvitų profilio ID** turi būti toks pat, kaip **Kvitų profilio ID**, kuris yra susietas su spausdintuvu, kuris yra susietas su aparatūros profiliu, priskirtu kasos aparatui. |
-    | Kasos stalčius | Tinklas | **„Epson“** arba **„Star“** | Skiriamos didžiosios ir mažosios įrenginio pavadinimo raidės. Nustatykite parinktį **Naudoti bendrą pamainą** į **Taip**. |
+    | Kasos stalčius | Atsarginis | **„Epson“** arba **„Star“** | Skiriamos didžiosios ir mažosios įrenginio pavadinimo raidės. Nustatykite parinktį **Naudoti bendrą pamainą** į **Taip**. |
 
 5. Pasirinkite **Įrašyti**.
 
@@ -148,9 +148,9 @@ Parduotuvės darbuotojai raginami pasirinkti aparatūros stotį tik vieną kart�
 
 ## <a name="related-articles"></a>Susiję straipsniai
 
-- [Programos „POS Hybrid“ nustatymas sistemose „Android“ ir „iOS“](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
-- [„Dynamics 365“ mokėjimo jungtis, skirta sprendimui „Adyen“](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
-- [Tinklo periferinių įrenginių palaikymo apžvalga](https://go.microsoft.com/fwlink/?linkid=2129965)
+- [Programos „POS Hybrid“ nustatymas sistemose „Android“ ir „iOS“](./dev-itpro/hybridapp.md)
+- [„Dynamics 365“ mokėjimo jungtis, skirta sprendimui „Adyen“](./dev-itpro/adyen-connector.md?tabs=8-1-3)
+- [Tinklo periferinių įrenginių palaikymo apžvalga](./dev-itpro/network-peripherals.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71e523cab20281d5db7efff40b5ef4f7293a4765
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3e26c3130914ebef5a63b79c477d7d5846fd5b71
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799136"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027605"
 ---
 # <a name="enable-location-based-store-detection"></a>Įgalinti parduotuvės nustatymą pagal vietą
 
@@ -31,7 +31,7 @@ ms.locfileid: "5799136"
 
 ## <a name="privacy-notice"></a>Privatumo pranešimas
 
-Jei įjungiate parduotuvės nustatymo pagal vietą funkciją, kliento naršyklės informacija siunčiama „Microsoft“ vietos paslaugai. Tada ši informacija naudojama kliento turiniui, kuris yra aktualus jo arba jos vietai, teikti. Ir informacijai, siunčiamai iš kliento naršyklės, ir informacijai pagal vietą, kuri grįžta klientui, taikoma privatumo ir slapukų atitikties strategija.
+Jei įjungiate parduotuvės nustatymo pagal vietą funkciją, kliento naršyklės informacija siunčiama „Microsoft“ vietos paslaugai. Tada ši informacija naudojama kliento turiniui, kuris yra aktualus kliento vietai, teikti. Ir informacijai, siunčiamai iš kliento naršyklės, ir informacijai pagal vietą, kuri grįžta klientui, taikoma privatumo ir slapukų atitikties strategija.
 
 ## <a name="turn-on-location-based-store-detection"></a>Parduotuvės nustatymo pagal vietą įjungimas
 

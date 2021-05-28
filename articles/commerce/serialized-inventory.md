@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 45376e43c00116d403f00c58772aefba6fa33eeb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: fbd1d9c71ece77cbf4c6ecb741eb6d5e3e3455d9
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794024"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028160"
 ---
 # <a name="point-of-sale-pos-improvements-for-serialized-products"></a>Produktams su serijos numeriais taikomi elektroninio kasos aparato (EKA) patobulinimai
 
@@ -30,7 +30,7 @@ Pagal modulio „Commerce Headquarters“ parametrus produktus galima klasifikuo
 
 ## <a name="pos-improvements"></a>EKA patobulinimai
 
-- **Serijos numerių iki tikrinimo etapo nereikia** – anksčiau kasininkas, į operaciją įtraukęs serijos numerį turintį produktą, turėjo nurodyti jo serijos numerį. Šis reikalavimas tapo problema dirbant su klientais, kai kasininkai ir pardavimo darbuotojai turėdavo galimybę parduoti papildomą produktų kiekį. Iki mokėjimo veiksmo produktai būdavo dažnai atnaujinami krepšelyje. Todėl kiekvieną kartą, kai kasininkas įtraukdavo naują produktą, sistema jo reikalaudavo nurodyti serijos numerį. Serijos numerio dialogo lange dabar yra mygtukas **Įtraukti vėliau**. Todėl pardavimo darbuotojai prekę gali įtraukti į operaciją, o serijos numerį nurodyti vėliau. Pardavimo darbuotojai gali greitai į krepšelį įtraukti ir jame pakeisti produktus su serijos numeriais, o serijos numerį nurodyti tik prieš tikrinimo etapą. Jei nenurodytas kurio nors serijos numerį turinčio produkto serijos numeris, kasininkas, kuris bando baigti operaciją, gauna klaidos pranešimą. Šiame pranešime nurodoma, kad kasininkas tęsti galės tik nurodęs trūkstamus serijos numerius.
+- **Serijos numerių iki tikrinimo etapo nereikia** – anksčiau kasininkas, į operaciją įtraukęs serijos numerį turintį produktą, turėjo nurodyti jo serijos numerį. Šis reikalavimas tapo problema dirbant su klientais, kai kasininkai ir pardavimo darbuotojai turėdavo galimybę parduoti papildomą produktų kiekį. Iki mokėjimo veiksmo produktai būdavo dažnai atnaujinami krepšelyje. Todėl kiekvieną kartą, kai kasininkas įtraukdavo naują produktą, sistema kasininko reikalaudavo nurodyti serijos numerį. Serijos numerio dialogo lange dabar yra mygtukas **Įtraukti vėliau**. Todėl pardavimo darbuotojai prekę gali įtraukti į operaciją, o serijos numerį nurodyti vėliau. Pardavimo darbuotojai gali greitai į krepšelį įtraukti ir jame pakeisti produktus su serijos numeriais, o serijos numerį nurodyti tik prieš tikrinimo etapą. Jei nenurodytas kurio nors serijos numerį turinčio produkto serijos numeris, kasininkas, kuris bando baigti operaciją, gauna klaidos pranešimą. Šiame pranešime nurodoma, kad kasininkas tęsti galės tik nurodęs trūkstamus serijos numerius.
 
     Po kiekvieno serijos numerį turinčio produkto, kurio serijos numeris nebuvo nurodytas, operacijos eilute rodomas komentaras. Šiame komentare nurodoma, kad nenurodytas prekės serijos numeris. Todėl kasininkas gali greitai rasti prekes su trūkstamais serijos numeriais.
 

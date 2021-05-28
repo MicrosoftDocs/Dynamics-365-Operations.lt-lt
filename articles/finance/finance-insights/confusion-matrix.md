@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d6e8f63ef00f714109ae650d3cedaf19e5159325
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a9642bd21ffc0770be61677220e0e72986586047
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818757"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028208"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Mašininio mokymo modelių rezultatai (peržiūros versija)
 
@@ -63,8 +63,8 @@ Norėdami pradėti spręsti šį klausimą, atsižvelkite į paprasto spėjimo t
 
 Verta pažymėti dar vieną aspektą. Įsivaizduokite situaciją, kai paciento liga nustatoma atliekant medicininį tyrimą. Ši problema yra dvejetainio klasifikavimo problema, kai teigiamas rezultatas rodo, kad pacientas serga liga. Šioje situacijoje turite pagalvoti apie tolesnių klaidų poveikį.
 
-- Klaidingai teigiami rezultatai, kai tyrimu nustatoma, kad pacientas serga liga, bet iš tikrųjų jis neserga
-- Klaidingai neigiami rezultatai, kai tyrimu nustatoma, kad pacientas neserga liga, bet iš tikrųjų jis serga
+- Klaidingai teigiami rezultatai, kai tyrimu nustatoma, kad pacientas serga liga, bet iš tikrųjų jis neserga.
+- Klaidingai neigiami rezultatai, kai tyrimu nustatoma, kad pacientas neserga liga, bet iš tikrųjų pacientas serga.
 
 Akivaizdu, kad abu klaidų tipai yra nepageidautini, tačiau kuris iš jų yra blogesnis? Tai vėl priklauso nuo aplinkybių. Tuo atveju, kad liga yra pavojinga gyvybei ir ją reikia greitai gydyti, svarbiau yra sumažinti klaidinga neigiamų rezultatų skaičių (tada geriausia atlikti papildomų tyrimų). Kitose mažiau svarbiose situacijose modelių kūrėjai gali sumažinti klaidingai teigiamų rezultatų skaičių. Bet kokiu atveju galima daryti pagrįstą išvadą, kad, norint veiksmingai nustatyti modelio kokybę, reikia daugiau informacijos nei pateikia tikslumo metrika.
 

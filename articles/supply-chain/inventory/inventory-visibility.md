@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d09c7be5de75511b10d7a69d4b8ac12917b0dbe8
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 84f5e949f0c81f840c8a9086d05bbcfc576e42aa
+ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910430"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017011"
 ---
 # <a name="inventory-visibility-add-in"></a>Inventoriaus matomumo papildinys
 
@@ -41,20 +41,23 @@ Jums reikia įdiegti jį naudojant „Microsoft Dynamics Lifecycle Services“ (
 
 Dėl daugiau informacijos, žr. [„Lifecycle Services“ ištekliai](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
-### <a name="prerequisites"></a>Būtinieji komponentai
+### <a name="inventory-visibility-add-in-prerequisites"></a>Atsargų matomumo išankstinės sąlygos
 
 Prieš jums įdiegiant inventoriaus matomumo papildinį, atlikite šiuos veiksmus:
 
 - Gaukite LCS diegimo projektą su mažiausiai viena patalpinta aplinka.
 - Įsitikinkite, kad baigtos būtinosios priedų nustatymo sąlygos, pateikiamos skyriuje [Priedų apžvalga](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md) buvo patenkintos. Atsargų matomumui nereikia dvigubo rašymo susiejimo.
 - Kreipkitės į atsargų matomumo komandą el. paštu [inventvisibilitysupp@microsoft.com ](mailto:inventvisibilitysupp@microsoft.com), kad gautumėte šiuos tris reikalingus failus:
-    - `Inventory Visibility Dataverse Solution.zip`
-    - `Inventory Visibility Configuration Trigger.zip`
-    - `Inventory Visibility Integration.zip` (jei jūsų vykdoma „Supply Chain Management” versija yra ankstesnė nei 10.0.18 versija)
+  - `Inventory Visibility Dataverse Solution.zip`
+  - `Inventory Visibility Configuration Trigger.zip`
+  - `Inventory Visibility Integration.zip` (jei jūsų vykdoma „Supply Chain Management” versija yra ankstesnė nei 10.0.18 versija)
+- Kitu atveju, kreipkitės į atsargų matomumo komandą el. paštu [inventvisibilitysupp@microsoft.com ](mailto:inventvisibilitysupp@microsoft.com), kad gautumėte paketo „Package Deployer“. Šiuos paketus gali naudoti oficialus „Package Deployer“ įrankis.
+  - `InventoryServiceBase.PackageDeployer.zip`
+  - `InventoryServiceApplication.PackageDeployer.zip` (šiame pakete yra visi paketo pakeitimai `InventoryServiceBase` ir papildomi vartotojo sąsajos programos komponentai)
 - Vadovaukitės instrukcijomis, pateiktomis [Greitas pasirengimas darbui: Programos registravimas su „Microsoft” tapatybės platforma](/azure/active-directory/develop/quickstart-register-app), kad užregistruotumėte programą ir įtrauktumėte kliento slaptąjį raktą į AAD pagal jūsų „Azure” prenumeratą.
-    - [Programos įtraukimas](/azure/active-directory/develop/quickstart-register-app)
-    - [Kliento slaptojo rakto įtraukimas](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
-    - Tolesniuose veiksmuose bus naudojami **Programos (Kliento) ID**, **Kliento slaptasis raktas** ir **Nuomotojo ID**.
+  - [Programos įtraukimas](/azure/active-directory/develop/quickstart-register-app)
+  - [Kliento slaptojo rakto įtraukimas](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
+  - Tolesniuose veiksmuose bus naudojami **Programos (Kliento) ID** ir **Kliento slaptasis raktas** ir **Nuomotojo ID**.
 
 > [!NOTE]
 > Šiuo metu palaikomos šalys ir regionai yra Kanada, Jungtinės Valstijos ir Europos Sąjunga (ES).
@@ -63,18 +66,49 @@ Jei turite kokių klausimų apie šias būtinąsias sąlygas, susisiekite su pap
 
 ### <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>„Dataverse“ nustatymas
 
-Atlikite šiuos veiksmus, kad nustatytumėte „Dataverse“.
+Norėdami nustatyti naudoti su atsargų matomumu, pirmiausia turite paruošti būtinąsias sąlygas ir nuspręsti, ar nustatyti „Package Deployer“ įrankį, ar rankiniu būdu importuodami sprendimus (abiejų „Dataverse“ daryti „Dataverse“ nereikia). Tada, įdiekite Inventoriaus matomumo papildinį. Toliau pateikti poskyriai aprašo, kaip užbaigti visas šias užduotis.
 
-1. Prie savo nuomininko pridėkite aptarnavimo principą:
+#### <a name="prepare-dataverse-prerequisites"></a>Paruošti „Dataverse“ būtinąsias sąlygas
 
-    1. Įdiekite „Azure AD“ „PowerShell“ v2 modulį, kaip aprašyta skyriuje [„Azure Active Directory“ „PowerShell for Graph“ diegimas](/powershell/azure/active-directory/install-adv2).
-    1. Paleiskite šią „PowerShell“ komandą.
+Prieš pradėdami „Dataverse“ nustatyti, pridėkite aptarnavimo principą savo nuomininkui, atlikdami šiuos veiksmus:
 
-        ```powershell
-        Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+1. Įdiekite „Azure AD“ „PowerShell“ v2 modulį, kaip aprašyta skyriuje [„Azure Active Directory“ „PowerShell for Graph“ diegimas](/powershell/azure/active-directory/install-adv2).
 
-        New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
-        ```
+1. Paleiskite šią „PowerShell“ komandą:
+
+    ```powershell
+    Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+    
+    New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
+    ```
+
+#### <a name="set-up-dataverse-using-the-package-deployer-tool"></a>Nustatyti „Dataverse“ naudojant „Package Deployer“ įrankį
+
+Jei turite būtinųjų komponentų, naudokite šią procedūrą, jei norite nustatyti „Dataverse“ naudodami „Package Deployer“ įrankį. Daugiau informacijos apie tai, kaip importuoti sprendimus neautomatiniu būdu, rasite kitame skyriuje (neduokite abiejų).
+
+1. Įdiekite programavimo įrankius, kaip aprašyta [atsisiuntimo „NuGet“ įrankiuose](/dynamics365/customerengagement/on-premises/developer/download-tools-nuget).
+
+1. Atsižvelgdami į savo verslo poreikius, pasirinkite `InventoryServiceBase` pakuotę arba `InventoryServiceApplication` pakuotę.
+
+1. Importuoti sprendimus:
+    1. `InventoryServiceBase` paketui:
+        - Išpakuokite `InventoryServiceBase.PackageDeployer.zip`
+        - Rasti `InventoryServiceBase` aplanką, `[Content_Types].xml` failą, `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll` failą, `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll.config` failą ir `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll.config` failą. 
+        - Nukopijuokite kiekvieną iš šių aplankų ir rinkmenų į `.\Tools\PackageDeployment` katalogą, kuris buvo sukurtas įdiegus programuotojo įrankius.
+    1. `InventoryServiceApplication` paketui:
+        - Išpakuokite `InventoryServiceApplication.PackageDeployer.zip`
+        - Rasti `InventoryServiceApplication` aplanką, `[Content_Types].xml` failą, `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll` failą, `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll.config` failą ir `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll.config` failą.
+        - Nukopijuokite kiekvieną iš šių aplankų ir rinkmenų į `.\Tools\PackageDeployment` katalogą, kuris buvo sukurtas įdiegus programuotojo įrankius.
+    1. Vykdyti `.\Tools\PackageDeployment\PackageDeployer.exe`. Norėdami importuoti sprendimus vykdykite ekrane pateiktas instrukcijas.
+
+1. Priskirkite saugos vaidmenis programos vartotojui.
+    1. Atidarykite savo „Dataverse“ aplinkos URL.
+    1. Eikite į **išplėstinių parametrų \> sistemos \> saugos \> vartotojus** ir raskite vartotoją **# InventoryVisibility**.
+    1. Pasirinkite **Priskirti vaidmenį**, tada pasirinkite **Sistemos administratorius**. Jei yra vaidmuo pavadinimu **„Common Data Service“ naudotojas**, pasirinkite jį taip pat.
+
+#### <a name="set-up-dataverse-manually-by-importing-solutions"></a>Neautomatiniu būdu „Dataverse“ nustatyti importuojant sprendimus
+
+Jei turite būtinųjų komponentų, naudokite šią procedūrą, jei norite nustatyti „Dataverse“ rankiniu būdu importuojant sprendimus. Norėdami gauti daugiau informacijos, kaip naudoti „Package Deployer“ įrankį, žr. ankstesniame skyriuje (ne atlikite abu).
 
 1. Sukurkite programos naudotoją „Dataverse“ atsargų matomumui:
 

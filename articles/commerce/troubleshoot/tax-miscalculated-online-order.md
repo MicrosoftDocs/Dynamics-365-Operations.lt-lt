@@ -5,7 +5,6 @@ author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7f71add679e1d24f80db8ce3990058b591128ec1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f7cef533d76bdddfbad2e8c5f84f81ef62bccc38
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801416"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021108"
 ---
 # <a name="taxes-on-online-orders-are-incorrectly-calculated"></a>Neteisingai apskaičiuoti internetinių užsakymų mokesčiai
 
@@ -44,7 +43,7 @@ Norėdami konfigūruoti mažmeninės prekybos parduotuvės PVM „Commerce Headq
 1. „FastTab” **Bendra** skyriuje **PVM** sukonfigūruokite parduotuvės PVM informaciją.
 
 > [!NOTE]
-> Jei produktai paimami iš parduotuvės, mokesčių grupė gaunama iš parduotuvės, iš kurios pasirinkta paimti. Daugiau informacijos žr. [Kitų mokesčių pasirinkčių nustatymas parduotuvėms](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
+> Jei produktai paimami iš parduotuvės, mokesčių grupė gaunama iš parduotuvės, iš kurios pasirinkta paimti. Daugiau informacijos žr. [Kitų mokesčių pasirinkčių nustatymas parduotuvėms](/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
 
 ### <a name="configure-the-sales-tax-for-a-customers-address-in-commerce-headquarters"></a>Kliento adreso PVM konfigūravimas „Commerce Headquarters“
 
@@ -68,7 +67,7 @@ Norėdami konfigūruoti bendrąsias PVM grupes „Commerce Headquarters“, atli
 1. „FastTab” **Mažmeninės prekybos paskirties vietos mokestis** sukonfigūruokite PVM grupės mokesčius.
 
 > [!NOTE]
-> Siuntimo, kai nėra kliento adreso PVM, mokesčių grupę nustato eilutės pristatymo adresas ir paskirties vietos mokesčiai, sukonfigūruoti mokesčių grupei. Dėl išsamesnės informacijos, žr. [Nustatyti mokesčius interneto parduotuvėms pagrįstoms paskirties vietoms](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
+> Siuntimo, kai nėra kliento adreso PVM, mokesčių grupę nustato eilutės pristatymo adresas ir paskirties vietos mokesčiai, sukonfigūruoti mokesčių grupei. Dėl išsamesnės informacijos, žr. [Nustatyti mokesčius interneto parduotuvėms pagrįstoms paskirties vietoms](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

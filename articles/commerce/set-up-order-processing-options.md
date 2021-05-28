@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5ec0e13c8ecfb6003cbb905e66fc102074e7b9b6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 17ed0adefb2c3dd10e5e6020929c877cf5c3b8c9
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795530"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022628"
 ---
 # <a name="set-up-call-center-channels"></a>Skambučių centro kanalų nustatymas
 
@@ -37,7 +37,7 @@ Norėdami naudotis skambučių centro funkcijomis, vartotojai turi būti susieti
 
 Skambučių centro kanale taip pat galima sukonfigūruoti el. paštu siunčiamo pranešimo šabloną. Šablone nurodomas naudojantis skambučių centro kanalu pateikiantiems užsakymus klientams siunčiamų el. pašto šablonų rinkinys. Galima sukonfigūruoti, kad el. paštas būtų paleidžiamas vykstant tam tikriems sistemos įvykiams, pvz., pateikiant arba išsiunčiant užsakymą.
 
-Norinti, kad pardavimus būtų galima tinkamai apdoroti naudojantis skambučių centro kanalu, būtina nurodyti tinkamus kanalo [mokėjimo](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-payments) ir pristatymo būdus.
+Norinti, kad pardavimus būtų galima tinkamai apdoroti naudojantis skambučių centro kanalu, būtina nurodyti tinkamus kanalo [mokėjimo](/dynamics365/unified-operations/retail/work-with-payments) ir pristatymo būdus.
 
 Skambučių centro kanalo lygiu galite nurodyti kitas numatytąsias su finansinėmis dimensijomis susijusias vertes, kurios bus susiejamos su to kanalo sukurtais užsakymais.
 
@@ -47,13 +47,13 @@ Skambučių centro kanalo lygiu galite nurodyti kitas numatytąsias su finansin�
 
 ### <a name="enable-order-completion"></a>Įgalinti užsakymo baigimą
 
-Skambučių centro kanalo nustatymas **Įgalinti užsakymo baigimą** turi didelės įtakos įvestų to kanalo pardavimo užsakymų apdorojimo eigai. Įjungus šį nustatymą prieš patvirtinant pardavimo užsakymus visi jie turi būti patikrinami vadovaujantis tam tikru taisyklių rinkiniu. Šios taisyklės paleidžiamos paspaudus pardavimo užsakymo puslapio srityje Veiksmų sritis esantį mygtuką **Baigti**. Visiems įjungus nustatymą **Įgalinti užsakymo baigimą** sukurtiems pardavimo užsakymams privalo būti atliktas užsakymo baigimo procesas. Vykstant šiam procesui vykdomas mokėjimo fiksavimas ir mokėjimo patvirtinimo logika. Vykstant užsakymo pateikimo procesui ne tik vykdomas mokėjimas, taip pat gali būti sukuriami jūsų sistemoje konfigūruojami [apgaulingi čekiai](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts). Tokie elementai kaip užsakymai, kurių nepavyksta apmokėti, taip pat apgaulingos patikros sustabdomi ir jų negalima paleisti tolesniam apdorojimui (pvz., paėmimui arba siuntimui) kol neišsprendžiama sustabdymą sukėlusi problema.
+Skambučių centro kanalo nustatymas **Įgalinti užsakymo baigimą** turi didelės įtakos įvestų to kanalo pardavimo užsakymų apdorojimo eigai. Įjungus šį nustatymą prieš patvirtinant pardavimo užsakymus visi jie turi būti patikrinami vadovaujantis tam tikru taisyklių rinkiniu. Šios taisyklės paleidžiamos paspaudus pardavimo užsakymo puslapio srityje Veiksmų sritis esantį mygtuką **Baigti**. Visiems įjungus nustatymą **Įgalinti užsakymo baigimą** sukurtiems pardavimo užsakymams privalo būti atliktas užsakymo baigimo procesas. Vykstant šiam procesui vykdomas mokėjimo fiksavimas ir mokėjimo patvirtinimo logika. Vykstant užsakymo pateikimo procesui ne tik vykdomas mokėjimas, taip pat gali būti sukuriami jūsų sistemoje konfigūruojami [apgaulingi čekiai](/dynamics365/unified-operations/retail/set-up-fraud-alerts). Tokie elementai kaip užsakymai, kurių nepavyksta apmokėti, taip pat apgaulingos patikros sustabdomi ir jų negalima paleisti tolesniam apdorojimui (pvz., paėmimui arba siuntimui) kol neišsprendžiama sustabdymą sukėlusi problema.
 
-Įjungus skambučių centro kanalo nustatymą **Įgalinti užsakymo baigimą**, jei pardavimo užsakyme įvedami eilutės elementai ir kanalo vartotojas bando uždaryti pardavimo užsakymo formą arba pereiti prie kitos formos nepasirinkęs **Užbaigti**, sistema vykdo užsakymo baigimo procesą – atidaromas pardavimo užsakymo apžvalgos puslapis ir reikalaujama, kad vartotojas tinkamai pateiktų užsakymą. Jei užsakymo negalima tinkamai pateikti kartu su mokėjimu, vartotojas gali pasinaudoti funkcija [užsakymų sulaikymas](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds) ir sulaikyti užsakymą. Jei vartotojas bando atšaukti užsakymą, jis turi būti atšaukiamas tinkamai naudojantis funkcija Atšaukti arba Naikinti, priklausomai nuo to, kokia funkcija leidžiama pagal vartotojo saugą.
+Įjungus skambučių centro kanalo nustatymą **Įgalinti užsakymo baigimą**, jei pardavimo užsakyme įvedami eilutės elementai ir kanalo vartotojas bando uždaryti pardavimo užsakymo formą arba pereiti prie kitos formos nepasirinkęs **Užbaigti**, sistema vykdo užsakymo baigimo procesą – atidaromas pardavimo užsakymo apžvalgos puslapis ir reikalaujama, kad vartotojas tinkamai pateiktų užsakymą. Jei užsakymo negalima tinkamai pateikti kartu su mokėjimu, vartotojas gali pasinaudoti funkcija [užsakymų sulaikymas](/dynamics365/unified-operations/retail/work-with-order-holds) ir sulaikyti užsakymą. Jei vartotojas bando atšaukti užsakymą, jis turi būti atšaukiamas tinkamai naudojantis funkcija Atšaukti arba Naikinti, priklausomai nuo to, kokia funkcija leidžiama pagal vartotojo saugą.
 
 Jei įjungtas skambučių centro kanalo nustatymas **Įgalinti užsakymo baigimą** bus pažymėtas užsakymo laukas **Mokėjimo būsena**. Pateikus pardavimo užsakymą sistema apskaičiuoja **Mokėjimo būseną**. Sistema praleidžia ir toliau apdoroja (pvz., paima ir išsiunčia) tik tuos užsakymus, kurių mokėjimo būsena Patvirtinta. Jei mokėjimai atmesti, įgalinama išsamios užsakymo būsenos žymė **neapdoroti** ir užsakymas sulaikomas, kol bus išspręsta mokėjimo problema.
 
-Be to, jei įjungtas nustatymas **Įgalinti užsakymo baigimą**, darbuotojams sukūrus pardavimo užsakymus ir įjungus eilutės elemento įvedimo režimą pagrindinėje pardavimo užsakymo antraštėje bus rodomas laukas **Šaltinis**. Laukas **Šaltinis** naudojamas norint pagal tiesioginio rinkodaros pardavimo scenarijų fiksuoti [katalogo šaltinio kodą](https://docs.microsoft.com/dynamics365/unified-operations/retail/call-center-catalogs). Pagal šį kodą gali būti nustatomos specialios kainos ir nuolaidos.
+Be to, jei įjungtas nustatymas **Įgalinti užsakymo baigimą**, darbuotojams sukūrus pardavimo užsakymus ir įjungus eilutės elemento įvedimo režimą pagrindinėje pardavimo užsakymo antraštėje bus rodomas laukas **Šaltinis**. Laukas **Šaltinis** naudojamas norint pagal tiesioginio rinkodaros pardavimo scenarijų fiksuoti [katalogo šaltinio kodą](/dynamics365/unified-operations/retail/call-center-catalogs). Pagal šį kodą gali būti nustatomos specialios kainos ir nuolaidos.
 
 Net jei nustatymas **Įgalinti užsakymo baigimą** išjungtas, vartotojai vis tiek gali taikyti šaltinio kodą pardavimo užsakymui. Tačiau, norėdami įjungti lauką **Šaltinis**, pirmiausia jie turi atidaryti pardavimo užsakymo antraštės informaciją. Kitaip tariant, reikia atlikti keletą papildomų spustelėjimų. Ta pati elgsena taikoma naudojantis, pavyzdžiui, siuntimo baigimo ir pagreitintų užsakymų funkcijomis. Šios funkcijos taikomos visiems skambučių centre sukurtiems užsakymams. Tačiau kai įjungtas nustatymas **Įgalinti užsakymo baigimą**, vartotojai gali matyti šių funkcijų konfigūraciją pardavimo antraštėje įjungę eilutės įrašo rodinį. Norėdami rasti tinkamus nustatymus ir laukus, jie neturi gilintis į pardavimo užsakymo antraštėje nurodomas detales.
 

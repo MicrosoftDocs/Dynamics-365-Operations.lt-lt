@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c4891f9dcb031f4cb8dfb91f3fe1a301aad9838e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 64106cb1aeea01f1f227247d32b8b1dfdea98362
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793878"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020200"
 ---
 # <a name="commerce-inventory-management"></a>„Commerce“ inventoriaus valdymas
 
@@ -39,11 +39,11 @@ Jums dirbant su inventoriumi „Microsoft Dynamics 365 Commerce“ ir naudojant 
 
 - Prekybos vietos (POS) programa gali pasiūlyti ribotą palaikymą tolesnėms dimensijoms. POS gali automatiškai įvesti kai kurias dimensijas į inventoriaus transakcijas pagal sandėlio ar parduotuvės nustatymų konfigūravimus. POS visiškai nepalaikys dimensijų taip, kad jos būtų palaikomos, jei prekybos transakcija rankiniu būdu įvedama į „Commerce“ būstinę. 
 
-- **Sandėlio vieta** – kai vartotojai naudoja naujas [gavimo operacijos](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) ir [siuntimo operacijos](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation) EKA operacijas, jie gali pasirinkti sandėlio atsargų vietą, į kurią būtų galima gauti prekes arba iš kurios būtų galima siųsti siunčiamo perkėlimo užsakymo prekes. Jei jie naudoja seną operaciją **Paėmimas ir gavimas**, gavimo ir siuntimo perkėlimo užsakymams galimas ribotas vietos valdymo palaikymas. Palaikymas galimas tik tada, jei buvo įjungta prekės ir parduotuvės sandėlio parinktis **Naudoti sandėlio valdymo procesą**. Šiuo metu atsargų vietos negalima naudoti su operacija **Inventorizacija** arba operacija **Atsargų peržvalga**.
+- **Sandėlio vieta** – kai vartotojai naudoja naujas [gavimo operacijos](./pos-inbound-inventory-operation.md) ir [siuntimo operacijos](./pos-outbound-inventory-operation.md) EKA operacijas, jie gali pasirinkti sandėlio atsargų vietą, į kurią būtų galima gauti prekes arba iš kurios būtų galima siųsti siunčiamo perkėlimo užsakymo prekes. Jei jie naudoja seną operaciją **Paėmimas ir gavimas**, gavimo ir siuntimo perkėlimo užsakymams galimas ribotas vietos valdymo palaikymas. Palaikymas galimas tik tada, jei buvo įjungta prekės ir parduotuvės sandėlio parinktis **Naudoti sandėlio valdymo procesą**. Šiuo metu atsargų vietos negalima naudoti su operacija **Inventorizacija** arba operacija **Atsargų peržvalga**.
 
-- **Numerio lentelė** – numerio lentelės taikomos tik tada, kai įjungta prekės ir parduotuvės sandėlio parinktis **Naudoti sandėlio valdymo procesą**. EKA atveju, jei atsargos gaunamos į parduotuvės sandėlį, naudojant operaciją **Gavimo operacija** arba operaciją **Paėmimas ir gavimas**, kai sandėlio valdymo procesas įjungtas, ir jei vieta, į kurią buvo pasirinkta gauti prekę, yra susiejama su vietos profiliu, kuriam reikalinga numerio lentelės kontrolė, EKA programa sistemiškai taikys numerio lentelę gavimo eilutei. EKA vartotojai negali keisti arba tvarkyti šių numerio lentelės duomenų. Jei būtinas visapusiškas numerio lentelės valdymas, rekomenduojame parduotuvei naudoti [sandėliavimo programą](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/install-configure-warehousing-app) arba biuro klientą šių prekių priėmimui valdyti.
+- **Numerio lentelė** – numerio lentelės taikomos tik tada, kai įjungta prekės ir parduotuvės sandėlio parinktis **Naudoti sandėlio valdymo procesą**. EKA atveju, jei atsargos gaunamos į parduotuvės sandėlį, naudojant operaciją **Gavimo operacija** arba operaciją **Paėmimas ir gavimas**, kai sandėlio valdymo procesas įjungtas, ir jei vieta, į kurią buvo pasirinkta gauti prekę, yra susiejama su vietos profiliu, kuriam reikalinga numerio lentelės kontrolė, EKA programa sistemiškai taikys numerio lentelę gavimo eilutei. EKA vartotojai negali keisti arba tvarkyti šių numerio lentelės duomenų. Jei būtinas visapusiškas numerio lentelės valdymas, rekomenduojame parduotuvei naudoti [sandėliavimo programą](../supply-chain/warehousing/install-configure-warehousing-app.md) arba biuro klientą šių prekių priėmimui valdyti.
 
-- **Serijos numeris** – EKA programa reikia ribotą palaikymą vienam serijos numeriui registruoti pardavimo operacijos eilutėje tuose užsakymuose, kurie yra sukurti EKA ir turi serijos prekių. Šis serijos numeris nėra patikrintas pagal užregistruotus atsargose jau esančius serijos numerius. Jei pardavimo užsakymas sukurtas skambučių centro kanale arba įvykdytas per įmonės išteklių planavimo (ERP) modulį, ir keli serijos numeriai užregistruojami vienoje pardavimo eilutėje ERP vykdymo proceso metu, tie serijos numeriai negali būti taikomi arba tikrinami, jei apdorojamas EKA užsakymo grąžinimas. Kai atsargos gaunamos naudojant operaciją **Gavimo operacija**, vartotojai gali [užregistruoti arba patvirtinti gautus serijos numerius](https://docs.microsoft.com/dynamics365/commerce/pos-serialized-items).
+- **Serijos numeris** – EKA programa reikia ribotą palaikymą vienam serijos numeriui registruoti pardavimo operacijos eilutėje tuose užsakymuose, kurie yra sukurti EKA ir turi serijos prekių. Šis serijos numeris nėra patikrintas pagal užregistruotus atsargose jau esančius serijos numerius. Jei pardavimo užsakymas sukurtas skambučių centro kanale arba įvykdytas per įmonės išteklių planavimo (ERP) modulį, ir keli serijos numeriai užregistruojami vienoje pardavimo eilutėje ERP vykdymo proceso metu, tie serijos numeriai negali būti taikomi arba tikrinami, jei apdorojamas EKA užsakymo grąžinimas. Kai atsargos gaunamos naudojant operaciją **Gavimo operacija**, vartotojai gali [užregistruoti arba patvirtinti gautus serijos numerius](./pos-serialized-items.md).
 
 - **Paketo ID** - POS programa suteikia ribotą paramą pareiškimo publikavimo metu, jei paketo kontroliuojama prekė yra parduodama, bet POS vartotojai negali nustatyti paketo ID, kuris buvo parduotas ar paimtas naudojant POS programą.
 
@@ -56,11 +56,11 @@ Jums dirbant su inventoriumi „Microsoft Dynamics 365 Commerce“ ir naudojant 
 
 ## <a name="purchase-orders"></a>Pirkimo užsakymai
 
-Pirkimo užsakymai kuriami „Commerce“ pagrindiniame komponente. Jei parduotuvės sandėlis įtrauktas į pirkimo užsakymo antraštę arba pirkimo užsakymo eilutes, eilutes parduotuvėje galima gauti naudojant EKA operaciją [Gavimo operacija](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation). 
+Pirkimo užsakymai kuriami „Commerce“ pagrindiniame komponente. Jei parduotuvės sandėlis įtrauktas į pirkimo užsakymo antraštę arba pirkimo užsakymo eilutes, eilutes parduotuvėje galima gauti naudojant EKA operaciją [Gavimo operacija](./pos-inbound-inventory-operation.md). 
 
 ## <a name="transfer-orders"></a>Perkėlimo užsakymai
 
-Perkėlimo užsakymai gali būti kuriami „Commerce“ pagrindiniame komponente arba EKA operaciją [Gavimo operacija](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) arba [Siuntimo operacija](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation). Norėdami kurti perkėlimo užsakymo užklausą, kad atsargos būtų siunčiamos į parduotuvę iš kitos sandėlio ar parduotuvės vietos, naudokite EKA operaciją **Gavimo operacija**. Norėdami kurti perkėlimo užsakymo užklausą, kad atsargos būtų siunčiamos iš parduotuvės į kitą sandėlio ar parduotuvės vietą, naudokite EKA operaciją **Siuntimo operacija**. Sukūrus parduotuvės perkėlimo užsakymą, ta parduotuvė gali valdyti perkėlimo užsakymo atsargų gavimą per EKA operaciją **Gavimo operacija**. Jei parduotuvė siunčia atsargas į kitą vietą, parduotuvės siuntimo procesui valdyti naudojama EKA operacija **Siuntimo operacija**.
+Perkėlimo užsakymai gali būti kuriami „Commerce“ pagrindiniame komponente arba EKA operaciją [Gavimo operacija](./pos-inbound-inventory-operation.md) arba [Siuntimo operacija](./pos-outbound-inventory-operation.md). Norėdami kurti perkėlimo užsakymo užklausą, kad atsargos būtų siunčiamos į parduotuvę iš kitos sandėlio ar parduotuvės vietos, naudokite EKA operaciją **Gavimo operacija**. Norėdami kurti perkėlimo užsakymo užklausą, kad atsargos būtų siunčiamos iš parduotuvės į kitą sandėlio ar parduotuvės vietą, naudokite EKA operaciją **Siuntimo operacija**. Sukūrus parduotuvės perkėlimo užsakymą, ta parduotuvė gali valdyti perkėlimo užsakymo atsargų gavimą per EKA operaciją **Gavimo operacija**. Jei parduotuvė siunčia atsargas į kitą vietą, parduotuvės siuntimo procesui valdyti naudojama EKA operacija **Siuntimo operacija**.
 
 ## <a name="stock-counts"></a>Inventorizacijos
 
@@ -68,7 +68,7 @@ Inventorizacijos gali būti planinės arba neplaninės. Suplanuoti inventorizaci
 
 ## <a name="inventory-lookup"></a>Atsargų peržvalga
 
-Dabar keliose parduotuvėse ir sandėliuose turimą produktų kiekį galima peržiūrėti puslapyje **Atsargų peržvalga**. Neskaitant dabartinio turimo kiekio, galima pamatyti kiekvienos parduotuvės būsimus prieinamų atsargų (ATP) kiekius. Pasirinkite parduotuvę, kurios ATP kiekius norite peržiūrėti, tada pasirinkite **Rodyti parduotuvės pasiekiamumą**. Informacijos apie galimas konfigūracijos parinktis žr. [Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas](https://docs.microsoft.com/dynamics365/commerce/calculated-inventory-retail-channels).
+Dabar keliose parduotuvėse ir sandėliuose turimą produktų kiekį galima peržiūrėti puslapyje **Atsargų peržvalga**. Neskaitant dabartinio turimo kiekio, galima pamatyti kiekvienos parduotuvės būsimus prieinamų atsargų (ATP) kiekius. Pasirinkite parduotuvę, kurios ATP kiekius norite peržiūrėti, tada pasirinkite **Rodyti parduotuvės pasiekiamumą**. Informacijos apie galimas konfigūracijos parinktis žr. [Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas](./calculated-inventory-retail-channels.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

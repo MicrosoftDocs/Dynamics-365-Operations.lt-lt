@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 66a2cc5c87f5567f0e65842638017e5127d68a13
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 44042fc43fa3b43358120fb6f8f633abeae7005f
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798866"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020318"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Vartotojo apibrėžti mažmeninės prekybos parduotuvių sertifikatų profiliai
 
@@ -79,7 +79,7 @@ Kai įtraukiate naują eilutę į puslapį **Sertifikato profilio parametrai**, 
 - **„Key Vault” sertifikatas** – šis laukas reikalingas, jei nustatote lauką **Vietos tipas** į **„Key Vault”**. Naudokite jį, norėdami nurodyti „Key Vault” sertifikato slaptąjį raktą.
 
     > [!NOTE]
-    > Prieš pradėdami naudoti „Key Vault” sertifikatą sertifikatų profiliuose, nusiųskite sertifikatą į raktų saugyklą ir sekite instrukcijas, pateiktas [„Azure Key Vault“ kliento nustatymas](https://docs.microsoft.com/dynamics365/finance/localizations/setting-up-azure-key-vault-client).
+    > Prieš pradėdami naudoti „Key Vault” sertifikatą sertifikatų profiliuose, nusiųskite sertifikatą į raktų saugyklą ir sekite instrukcijas, pateiktas [„Azure Key Vault“ kliento nustatymas](../../finance/localizations/setting-up-azure-key-vault-client.md).
 
 - **Saugyklos pavadinimas** – šis laukas yra pasirinktinis ir yra galimas tik tada, jei nustatote lauką **Vietos tipas** į **Vietinis sertifikatas**. Naudokite jį, norėdami nurodyti numatytąjį saugyklos pavadinimą, kurį reikia naudoti ieškant vietinių sertifikatų.
 - **Saugojimo vieta** – šis laukas yra pasirinktinis ir yra galimas tik tada, jei nustatote lauką **Vietos tipas** į **Vietinis sertifikatas**. Naudokite jį, norėdami nurodyti numatytąją saugojimo vietą, kurią reikia naudoti ieškant vietinių sertifikatų.

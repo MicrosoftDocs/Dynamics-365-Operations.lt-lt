@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 6efc20de5309bc7ec209a557a4bc12c6a0a42a43
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a14b98cab78896d3a6c2e567cadc1ff9a991a278
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804336"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018959"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Atvežamų atsargų operacija EKA
 
@@ -70,7 +70,7 @@ Jūsų sukurtos paketinės užduotys bus naudojamos dokumentams, kurių nepavyko
 
 ## <a name="prerequisite-add-inbound-operation-to-the-pos-screen-layout"></a>Būtinoji sąlyga: įtraukti gaunamą operaciją į EKA ekrano maketą
 
-Prieš jūsų organizacijai naudojant gaunamų operacijų funkciją, reikia sukonfigūruoti EKA operaciją **Gaunamos operacijos** viename ar daugiau [EKA ekrano maketų](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Prieš diegdami naują operaciją gamybos aplinkoje, įsitikinkite, kad kruopščiai ją išbandėte ir apmokėte savo vartotojus ją naudoti.
+Prieš jūsų organizacijai naudojant gaunamų operacijų funkciją, reikia sukonfigūruoti EKA operaciją **Gaunamos operacijos** viename ar daugiau [EKA ekrano maketų](/dynamics365/unified-operations/retail/pos-screen-layouts). Prieš diegdami naują operaciją gamybos aplinkoje, įsitikinkite, kad kruopščiai ją išbandėte ir apmokėte savo vartotojus ją naudoti.
 
 ## <a name="overview"></a>Apžvalga
 
@@ -159,9 +159,9 @@ Jei reikia, galite pasirinkti **Gauti viską** programos juostoje, kad greitai p
 
 Ši funkcija veikia tik pirkimo užsakymo gavimui. Neįmanoma gauti prekių, pagal perkėlimo užsakymus, kai prekės prieš tai nebuvo užsakytos ir išsiųstos iš siuntimo sandėlio.
 
-Vartotojai negali pridėti naujų prekių į pirkimo užsakymą EKA gavimo metu, jei pirkimo užsakymas [keisti valdymo darbo eigą](https://docs.microsoft.com/dynamics365/supply-chain/procurement/purchase-order-approval-confirmation) yra įgalintas prekybos būstinėje (PB). Kad įgalintumėte pakeitimų tvarkymą, pirmiausia visi pirkimo užsakymo pakeitimai privalo būti patvirtinti prieš leidžiant gavimą. Kadangi šis procesas leidžia gavėjui pridėti naujas eilutes į pirkimo užsakymą, gavimas bus nesėkmingas, jei pakeitimų tvarkymo darbo eiga bus įjungta. Jei pakeitimų tvarkymas yra įgalintas visiems pirkimo užsakymams arba tiekėjui, susietu su pirkimo užsakymu, kuris yra aktyviai gaunamas EKA, vartotojas negali pridėti naujų prekių į pirkimo užsakymą EKA gavimo metu.
+Vartotojai negali pridėti naujų prekių į pirkimo užsakymą EKA gavimo metu, jei pirkimo užsakymas [keisti valdymo darbo eigą](../supply-chain/procurement/purchase-order-approval-confirmation.md) yra įgalintas prekybos būstinėje (PB). Kad įgalintumėte pakeitimų tvarkymą, pirmiausia visi pirkimo užsakymo pakeitimai privalo būti patvirtinti prieš leidžiant gavimą. Kadangi šis procesas leidžia gavėjui pridėti naujas eilutes į pirkimo užsakymą, gavimas bus nesėkmingas, jei pakeitimų tvarkymo darbo eiga bus įjungta. Jei pakeitimų tvarkymas yra įgalintas visiems pirkimo užsakymams arba tiekėjui, susietu su pirkimo užsakymu, kuris yra aktyviai gaunamas EKA, vartotojas negali pridėti naujų prekių į pirkimo užsakymą EKA gavimo metu.
 
-Funkcija, įgalinanti pridėti eilutes, negali būti naudojama kaip apėjimo būdas gauti papildomus prekių kiekius, kurie jau įtraukti į pirkimo užsakymą. Per didelis gavimas yra tvarkomas per standartinius [per didelis gavimas](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation#over-receiving-validations) parametrus, pritaikytus pirkimo užsakymo produkto eilutei.
+Funkcija, įgalinanti pridėti eilutes, negali būti naudojama kaip apėjimo būdas gauti papildomus prekių kiekius, kurie jau įtraukti į pirkimo užsakymą. Per didelis gavimas yra tvarkomas per standartinius [per didelis gavimas](#over-receiving-validations) parametrus, pritaikytus pirkimo užsakymo produkto eilutei.
 
 Jeigu funkcija **Pridėti eilutes į pirkimo užsakymą EKA gavimo metu** yra įgalinta ir vartotojas gauna kartu su EKA **Grįžtama operacija**, jeigu vartotojas nuskaito ar įveda prekės brūkšninį kodą ar numerį, kuris nėra atpažintas kaip prekė, esanti dabartiniame pirkimo užsakyme, bet yra atpažintas kaip tinkama prekė, tuomet vartotojas gauna pranešimą apie prekės įtraukimą į pirkimo užsakymą. Jei vartotojas prideda prekę į pirkimo užsakymą, kiekis įvestas į **Gaunama dabar** laikomas pirkimo užsakymo eilutei užsakytu kiekiu.
 

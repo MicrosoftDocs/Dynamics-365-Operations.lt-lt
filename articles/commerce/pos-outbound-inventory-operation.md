@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3cfe144f7bba2bbc4b25024b68155045271f6366
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 5a2c596293e632bb6c06af56f413fcee9e867563
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795650"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022736"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Siunčiamų atsargų operacija EKA
 
@@ -71,7 +71,7 @@ Jūsų sukurtos paketinės užduotys bus naudojamos dokumentams, kurių nepavyko
 
 ## <a name="prerequisite-add-outbound-operation-to-the-pos-screen-layout"></a>Būtinoji sąlyga: įtraukti siunčiamą operaciją į EKA ekrano maketą
 
-Prieš jūsų organizacijai naudojant siunčiamų operacijų funkciją, reikia sukonfigūruoti EKA operaciją **Siunčiamos operacijos** viename ar daugiau [EKA ekrano maketų](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Prieš diegdami naują operaciją gamybos aplinkoje, įsitikinkite, kad kruopščiai ją išbandėte ir apmokėte savo vartotojus ją naudoti.
+Prieš jūsų organizacijai naudojant siunčiamų operacijų funkciją, reikia sukonfigūruoti EKA operaciją **Siunčiamos operacijos** viename ar daugiau [EKA ekrano maketų](/dynamics365/unified-operations/retail/pos-screen-layouts). Prieš diegdami naują operaciją gamybos aplinkoje, įsitikinkite, kad kruopščiai ją išbandėte ir apmokėte savo vartotojus ją naudoti.
 
 ## <a name="overview"></a>Peržiūrėti
 

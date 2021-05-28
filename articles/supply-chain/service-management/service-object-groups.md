@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a559bdc8f7851e38274d9d23070f969502942ad8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 68355cb481de210a4a3bdb9e2fce16eca429e3db
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835875"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6016060"
 ---
-# <a name="service-object-groups"></a>Aptarnavimo objektų grupės 
+# <a name="service-object-groups"></a>Aptarnavimo objektų grupės
 
 [!include [banner](../includes/banner.md)]
 
@@ -32,17 +32,17 @@ Objektų grupės yra naudingos rūšiuojant ir filtruojant ataskaitų ir statist
 
 Šiuo grupavimo metodu galite parodyti, kur yra įvairūs jūsų įmonės aptarnaujami objektai. Grupavimas pagal geografinę vietovę taip pat gali būti naudingas jei, pavyzdžiui, jums būtina identifikuoti objektus tam tikroje šalyje / regione, kuriems jūsų įmonė jau teikia aptarnavimo paslaugas.
 
-## <a name="example"></a>Pavyzdys
+## <a name="example-of-grouping-by-geographical-location"></a>Grupavimo pagal geografinę vietovę pavyzdys
 
-Klientas iš Belgijos paskambina į jūsų aptarnavimo centrą, norėdamas sukurti objekto „ABC“ aptarnavimo sutartį. Pridėjote objektų grupę geografinei vietovei „Belgija“ prie visų Belgijoje aptarnaujamų objektų. Naudodami šią grupę kaip filtrą, galite atlikti greitą paiešką ir nustatyti, ar programoje jau turite ABC įrašą, ar vis tik jums reikės nustatyti naują objektą. 
+Klientas iš Belgijos paskambina į jūsų aptarnavimo centrą, norėdamas sukurti objekto „ABC“ aptarnavimo sutartį. Pridėjote objektų grupę geografinei vietovei „Belgija“ prie visų Belgijoje aptarnaujamų objektų. Naudodami šią grupę kaip filtrą, galite atlikti greitą paiešką ir nustatyti, ar programoje jau turite ABC įrašą, ar vis tik jums reikės nustatyti naują objektą.
 
 ## <a name="group-by-type"></a>Grupavimas pagal tipą
 
 Šiuo grupavimo metodu galite parodyti jūsų įmonės aptarnaujamų objektų tipus. Objektų grupavimas pagal tipą taip pat gali būti naudingas, jei, pavyzdžiui, norite sukurti naują objektą pagal panašius objektus, kurie jau egzistuoja programoje.
 
-## <a name="example"></a>Pavyzdys
+## <a name="example-of-grouping-by-type"></a>Grupavimo pagal tipą pavyzdys
 
-Klientas paskambina norėdamas nustatyti oro kondicionavimo įrenginio „HIJ“ aptarnavimo sutartį. Dar neturite šio įrenginio įrašo. Tačiau nustatėte objektų grupę, pavadinimu Oro kondicionieriai, ir šią grupę pridėjote prie visų oro kondicionierių objektų. Todėl galite greitai ieškoti ir identifikuoti visus kitus oro kondicionierių įrenginius, bei naudoti šių objektų šablonų informaciją, kad sukurtumėte HIJ aptarnavimo sutarties eilutes. Tokiu būdu naudodami objektų grupes galite greitai nustatyti naujus objektus ir apibrėžti, kokias aptarnavimo užduotis reikia atlikti šiuose objektuose. 
+Klientas paskambina norėdamas nustatyti oro kondicionavimo įrenginio „HIJ“ aptarnavimo sutartį. Dar neturite šio įrenginio įrašo. Tačiau nustatėte objektų grupę, pavadinimu Oro kondicionieriai, ir šią grupę pridėjote prie visų oro kondicionierių objektų. Todėl galite greitai ieškoti ir identifikuoti visus kitus oro kondicionierių įrenginius, bei naudoti šių objektų šablonų informaciją, kad sukurtumėte HIJ aptarnavimo sutarties eilutes. Tokiu būdu naudodami objektų grupes galite greitai nustatyti naujus objektus ir apibrėžti, kokias aptarnavimo užduotis reikia atlikti šiuose objektuose.
 
 ## <a name="create-service-object-groups"></a>Aptarnavimo objektų grupių kūrimas
 

@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5d4fab0eefb8e5faf36649ec4e9b1e220d18bcc8
-ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
+ms.openlocfilehash: 8de1a51acd8eec67cb776c7e524c630968e3bc52
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "5635462"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019644"
 ---
 # <a name="learning-catalog-for-commerce-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-commerce"></a>Mokymosi katalogas „Commerce Microsoft Partner“ prekybos ir komercijos vaidmenims „Dynamics 365 Commerce“
 
@@ -31,9 +31,9 @@ Dėl mokymosi apie funkcijas bendrintas su kitomis „Finance and Operations“ 
 
 | Turinys  | aprašymas  | Formatuoti  | Ilgis    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
-| [Sužinokite apie „Microsoft Dynamics 365“ ir „Power Platform“ naudą verslui](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/)   | Ši mokymosi patirtis jus nusiųs į kelionę, kuri prasideda rodant jums, kaip skaitmeninė transformacija ir verslo programos galios gali pakeisti jūsų verslą. Mes aprašysime, kaip „Dynamics 365“ ir „Power Platform“ jums padeda priimti sprendimus turint informaciją pagal jūsų organizacijos tikslus ir poreikius, per keturių blokų skaitmeninę transformaciją - modernią, vientisą, protingą ir pritaikomą. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 6,5 valandos |
-| [Darbo su „Dynamics 365 Commerce“ pradžia](https://docs.microsoft.com/learn/paths/get-started-dynamics-365-commerce/) | „Dynamics 365 Commerce“, paremtas patikrintomis „Dynamics 365 Retail“ galimybėmis, pristato išsamų daugiakanalį sprendimą, vienijantį operacijų skyrių, parduotuvę, skambučių centrą ir skaitmeninę patirtį. „Dynamics 365 Commerce“ leidžia jums sukurti prekės ženklo lojalumą per personalizuotą kliento įtraukimą, padidinti pajamas su pagerintu darbuotojo produktyvumu, optimizuoti operacijas išlaidų sumažinimui ir vykdyti tiekimo grandinės efektyvumą, galiausiai gauti geresnius verslo rezultatus. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 2 valandos   |
-| [Darbo su „Dynamics 365 Fraud Protection“ pradžia](https://docs.microsoft.com/learn/modules/get-started-fraud-protection/)| „Dynamics 365 Fraud Protection“ yra debesimi pagrįstas sprendimas sukurtas el. prekybai, plytų ir skiedinio parduotuvėms ir vieno kanalo prekeiviams siekiant padėti apsaugoti jų pajamas ir reputaciją suteikiant įrankius ir galimybes mažinti apgaulę ir piktnaudžiavimą, sumažinti operacines išlaidas ir padidinti priimamus mokesčius, taip apsaugant naudotojų paskyras nuo apgaulės poveikio. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 35 minučių |
+| [Sužinokite apie „Microsoft Dynamics 365“ ir „Power Platform“ naudą verslui](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/)   | Ši mokymosi patirtis jus nusiųs į kelionę, kuri prasideda rodant jums, kaip skaitmeninė transformacija ir verslo programos galios gali pakeisti jūsų verslą. Mes aprašysime, kaip „Dynamics 365“ ir „Power Platform“ jums padeda priimti sprendimus turint informaciją pagal jūsų organizacijos tikslus ir poreikius, per keturių blokų skaitmeninę transformaciją - modernią, vientisą, protingą ir pritaikomą. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 6,5 valandos |
+| [Darbo su „Dynamics 365 Commerce“ pradžia](/learn/paths/get-started-dynamics-365-commerce/) | „Dynamics 365 Commerce“, paremtas patikrintomis „Dynamics 365 Retail“ galimybėmis, pristato išsamų daugiakanalį sprendimą, vienijantį operacijų skyrių, parduotuvę, skambučių centrą ir skaitmeninę patirtį. „Dynamics 365 Commerce“ leidžia jums sukurti prekės ženklo lojalumą per personalizuotą kliento įtraukimą, padidinti pajamas su pagerintu darbuotojo produktyvumu, optimizuoti operacijas išlaidų sumažinimui ir vykdyti tiekimo grandinės efektyvumą, galiausiai gauti geresnius verslo rezultatus. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 2 valandos   |
+| [Darbo su „Dynamics 365 Fraud Protection“ pradžia](/learn/modules/get-started-fraud-protection/)| „Dynamics 365 Fraud Protection“ yra debesimi pagrįstas sprendimas sukurtas el. prekybai, plytų ir skiedinio parduotuvėms ir vieno kanalo prekeiviams siekiant padėti apsaugoti jų pajamas ir reputaciją suteikiant įrankius ir galimybes mažinti apgaulę ir piktnaudžiavimą, sumažinti operacines išlaidas ir padidinti priimamus mokesčius, taip apsaugant naudotojų paskyras nuo apgaulės poveikio. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 35 minučių |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

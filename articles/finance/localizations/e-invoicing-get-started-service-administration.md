@@ -2,7 +2,7 @@
 title: Darbo su elektroninių SF priedu tarnybos administravimui pradžia
 description: Ši tema paaiškina, kaip pradėti su elektroninės sąskaitos priedo paslaugų administravimu.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 05/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ec431cb4a3620459d905f64a80fd820a2113290f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f389e111006327fe8d82581d01140b4cff2e200d
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840153"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980981"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>Darbo su elektroninių SF priedu tarnybos administravimui pradžia
 
@@ -33,10 +33,10 @@ Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išanksti
 - Turite turėti savo „Microsoft Dynamics Lifecycle Services“ (LCS) paskyrą.
 - Turite turėti LCS projektą, kuris apima versiją 10.0.17 ar vėlesnę „Microsoft Dynamics 365 Finance“ ir „Dynamics 365 Supply Chain Management“. Taip pat, šios programos turi būti talpintos vienoje iš tolesnių „Azure“ geografijų:
 
-    - Rytų JAV
-    - Vakarų JAV
-    - Šiaurės ES
-    - Vakarų ES
+    - Jungtinės Valstijos
+    - Europa
+    - Jungtinė Karalystė
+    - Azija
 
 - Turite turėti savo „Dynamics 365 Regulatory Configuration Services“ (RCS) paskyrą.
 - Turite aktyvuoti globalizavimo funkciją savo RCS paskyrai funkcijos valdyme. Dėl daugiau informacijos, žr. [„Regulatory Configuration Services“ (RCS) - globalizavimo funkcijos](rcs-globalization-feature.md).
@@ -46,11 +46,12 @@ Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išanksti
 
 1. Prisijunkite prie jūsų LCS abonemento.
 2. Rinkitės **Išankstinis funkcijos valdymo** plytelę.
-3. Skyriuje **Viešo išankstinio rodymo funkcijos** rinkitės **el. sąskaitų paslaugos**.
+3. Skyriuje **Viešo išankstinio rodymo funkcijos** rinkitės **Elektroninės sąskaitos**.
 4. Įsitikinkite, kad **Išankstinės funkcijos įjungimas** parinktis yra nustatyta į **Taip**.
-5. LCS skelbimų lentoje pasirinkite LCS diegimo projektą. Turi būti vykdomas LCS projektas.
-7. „FastTab“ skirtuke **Aplinkos papildiniai** pasirinkite **Diegti naują papildinį**.
-8. Pasirinkite **el. SF išrašymo** paslaugas.
+5. LCS projekto ataskaitų srityje, rinkitės LCS projektą.
+6. LCS projekte LCS aplinkos ataskaitų srityje pasirinkite LCS diegimo projektą. Turi būti vykdomas LCS talpinimo projektas.
+7. Skirtuko **„Power Platform“ integravimas** lauko **Aplinkos papildiniai** grupėje Pasirinkite **Diegti naują priedą**.
+8. Rinkitės **SF siuntimas**.
 9. Lauke **AAD programos ID** įveskite **„091c98b0-a1c9-4b02-b62c-7753395ccabe**. Tai – fiksuota vertė.
 10. Lauke **AAD nuomotojo ID** įveskite savo „Azure” prenumeratos abonemento savininko ID.
 11. Peržiūrėkite sąlygas ir nuostatas, o tada pažymėkite žymės langelį.
@@ -65,10 +66,10 @@ Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išanksti
 
     | Duomenų centro „Azure“ geografija | Paslaugos galinio punkto URI                                                       |
     |----------------------------|----------------------------------------------------------------------------|
-    | Rytų JAV                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-    | Vakarų JAV                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-    | Šiaurės ES                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-    | Vakarų ES                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
+    | Jungtinės Valstijos              | <p>`https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Europa                     | <p>`https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Jungtinė Karalystė             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Azija                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
 4. Patvirtinkite, kad **Programos Id** laukelis yra nustatytas į **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Ši vertė yra fiksuota vertė.
 5. Laukelyje **LCS aplinkos Id** įveskite savo aplinkos LCS prenumeratos ID.
@@ -152,12 +153,12 @@ Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išanksti
 1. Eikite į **Organizacijos administravimas \> Nustatymas \> Elektroninių dokumentų parametrai**.
 2. Skirtuke **Pateikimo paslaugos** laukelyje **Aptarnavimo galutinio taško URL** įveskite atitinkamą „Azure" geografijos paslaugos galinį punktą, kaip parodyta pateiktoje lentelėje.
 
-    | Duomenų centras „Azure" geografijoje | Paslaugos galinio punkto URL                                                       |
+    | Duomenų centro „Azure“ geografija | Paslaugos galinio punkto URI                                                       |
     |----------------------------|----------------------------------------------------------------------------|
-    | Rytų JAV                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-    | Vakarų JAV                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-    | Šiaurės ES                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-    | Vakarų ES                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
+    | Jungtinės Valstijos              | <p>`https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Europa                     | <p>`https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Jungtinė Karalystė             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Azija                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
 3. Laukelyje **Aplinka** įveskite paslaugų aplinkos publikuotos elektroninėse sąskaitos pavadinimą
 4. Pasirinkite **Įrašyti** ir uždarykite puslapį.

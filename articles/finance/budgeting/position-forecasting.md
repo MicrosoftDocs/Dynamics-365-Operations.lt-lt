@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03a195c725854eff1fe6d6fa20bb815673e2e307
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d3ff7ac15a64196d7839177ded5515386184e268
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827347"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028232"
 ---
 # <a name="position-forecasting"></a>Pareigų prognozavimas
 
@@ -67,9 +67,9 @@ Jūratės organizacija teikia 5 proc. darbuotojo pagrindinio atlygio mokymo išm
 
 Jūratė nenori, kad vadovai keistų išmokos sumą. Todėl lauke **Prognozuojamų pareigų perrašymas** ji pasirenka **Neleisti keisti išlaidų**. Organizacija nori, kad šios išlaidos būtų tolygiai paskirstytos kiekvienam mėnesiui. Todėl lauke **Paskirstymo metodas** Jūratė pasirenka **Kas ketvirtį**. 
 
-Tada Jūratė įtraukia išlaidų skaičiavimo eilutę, nustato datas ir pagrindinę sąskaitą bei kaip procentą įveda **5,00**. Jos organizacija šiai išmokai per metus gali skirti 5 000 JAV dolerių. Todėl Jūratė įveda šią sumą kaip metinę ribą. 
+Tada Jūratė įtraukia išlaidų skaičiavimo eilutę, nustato datas ir pagrindinę sąskaitą bei kaip procentą įveda **5,00**. Organizacija šiai išmokai per metus gali skirti 5 000 JAV dolerių. Todėl Jūratė įveda šią sumą kaip metinę ribą. 
 
-Galiausiai Jūratė įtraukia visus uždarbio išlaidų elementus, kurie yra naudojami kaip pagrindinio užmokesčio skaičiavimo pagrindas. Dabar jos biudžeto išlaidų elementas yra parengtas naudoti.
+Galiausiai Jūratė įtraukia visus uždarbio išlaidų elementus, kurie yra naudojami kaip pagrindinio užmokesčio skaičiavimo pagrindas. Dabar biudžeto išlaidų elementas yra parengtas naudoti.
 
 ### <a name="compensation-groups"></a>Kompensacijų grupės
 
@@ -137,7 +137,7 @@ Biudžeto išlaidų elemento eilutes reikia perskaičiuoti, kai pasikeičia prog
 
 **Pavyzdys** 
 
-Organizacija svarsto du būdus, kaip sumažinti buhalterio pareigų išlaidas. Vienas būdas yra baigti pareigų dalį metuose. Kitas būdas yra keisti pareigas į pusės etato visus metus. Benas sukūrė esamų buhalterio pareigų prognozuojamas pareigas pagal pagrindinį scenarijų. Jis kopijuoja šias pagrindines prognozuojamas pareigas į A scenarijų, nustato pabaigos datą į gegužės 31 d. ir perskaičiuoja. Tada Benas kopijuoja pagrindines prognozuojamas pareigas į B scenarijaus, pakeičia FTE reikšmę į **0,50** ir perskaičiuoja. Dabar Benas turi tris versijas, kurių kiekvienos bendrosios išlaidų sumos yra suderintos su jo parinktimis.
+Organizacija svarsto du būdus, kaip sumažinti buhalterio pareigų išlaidas. Vienas būdas yra baigti pareigų dalį metuose. Kitas būdas yra keisti pareigas į pusės etato visus metus. Benas sukūrė esamų buhalterio pareigų prognozuojamas pareigas pagal pagrindinį scenarijų. Benas kopijuoja šias pagrindines prognozuojamas pareigas į A scenarijų, nustato pabaigos datą į gegužės 31 d. ir perskaičiuoja. Tada Benas kopijuoja pagrindines prognozuojamas pareigas į B scenarijaus, pakeičia FTE reikšmę į **0,50** ir perskaičiuoja. Dabar Benas turi tris versijas, kurių kiekvienos bendrosios išlaidų sumos yra suderintos su jo parinktimis.
 
 #### <a name="assigning-a-compensation-group"></a>Kompensacijų grupės priskyrimas
 

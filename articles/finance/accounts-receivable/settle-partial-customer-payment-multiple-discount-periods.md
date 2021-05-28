@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a15f952671152ac9e8b88e7394ec41220f964c0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 21600c0815da99314dcbb8f123449c2ae93a3c1a
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835105"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027485"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Dalinio kliento mokėjimo, turinčio kelis nuolaidos laikotarpius, sudengimas
 
@@ -31,7 +31,7 @@ ms.locfileid: "5835105"
 „Fabrikam“ 4031 klientui siūlo du mokėjimo nuolaidos laikotarpius. Klientas gauna 2 procentų mokėjimo nuolaidą, jei SF yra apmokama per penkias dienas, arba 1 procento mokėjimo nuolaidą, jei SF apmokama per 14 dienų. „Fabrikam“ taip pat siūlo dalinių mokėjimų mokėjimo nuolaidas. Sudengimo parametrus rasite puslapyje **Gautinų sumų parametrai**.
 
 ## <a name="invoice"></a>PVM sąskaita faktūra
-Birželio 25 d. Eglė 4031 klientui įveda ir užregistruoja sąskaitą faktūrą 1 000,00 sumai. Peržiūrėdama šios sąskaitos faktūros mokėjimo nuolaidą, Eglė mato, kad 4031 klientas gaus 20,00 nuolaidą, jei sąskaita faktūra bus apmokėta iki birželio 30 d. Jei sąskaita faktūra bus apmokėta iki liepos 9 d., klientas gaus 10,00 nuolaidą.
+Birželio 25 d. Eglė 4031 klientui įveda ir užregistruoja sąskaitą faktūrą 1 000,00 sumai. Peržiūrėdama šios sąskaitos faktūros mokėjimo nuolaidą, Arnis mato, kad 4031 klientas gaus 20,00 nuolaidą, jei sąskaita faktūra bus apmokėta iki birželio 30 d. Jei sąskaita faktūra bus apmokėta iki liepos 9 d., klientas gaus 10,00 nuolaidą.
 
 | Mokėjimo nuolaidos data | Mokėjimo nuolaidos suma | Suma operacijos valiuta |
 |--------------------|----------------------|--------------------------------|

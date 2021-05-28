@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 829c9c5549c337c5c2b118f3027111831f2632ca
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 41f863d85a1ad52d8fa11a458054728728858d27
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814301"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027799"
 ---
 # <a name="three-way-matching-policies"></a>Trišalės atitikimo strategijos
 
@@ -37,9 +37,9 @@ ms.locfileid: "5814301"
 
 Šiame pavyzdyje pateikiamos sąskaitos faktūros atitikimo strategijos padeda žmonėms su šiais vaidmenimis atitikti šiuos tikslus:
 
--   Ken yra „Fabrikam“ įmonės valdytojas. Jis gali padėti savo organizacijos žmonėms identifikuoti ir išspręsti problemas dėl užsakymo, gavimo ir mokėjimo už prekes (prekes ir paslaugas) iš tiekėjų.
+-   Ken yra „Fabrikam“ įmonės valdytojas. Kenas gali padėti savo organizacijos žmonėms identifikuoti ir išspręsti problemas dėl užsakymo, gavimo ir mokėjimo už prekes (prekes ir paslaugas) iš tiekėjų.
 -   Phyllis ir April yra „Fabrikam“ Jungtinių Valstijų padalinio mokėtinų sumų skyriaus apskaitos vadovai. Jie gali taikyti įmonės strategiją ir įsitikinti, kad sąskaitos faktūros apmokamos tik tada, kai jos suderinamos su pirkimo užsakymu ir prekių ir paslaugų gavimo dokumentais, kur tai taikoma.
--   Tony yra „Fabrikam“ Jungtinių Valstijų padalinio gamybos vadovas. Jis ir kitas gamybos personalas gali užtikrinti, kad prekės gaunamos kaip buvo užsakytos iš tiekėjų ir yra apskaitytos, kad darbuotojai turi tai, ką jie turi turėti, kad galėtų atlikti savo darbą.
+-   Tony yra „Fabrikam“ Jungtinių Valstijų padalinio gamybos vadovas. Tonis ir kitas gamybos personalas gali užtikrinti, kad prekės gaunamos kaip buvo užsakytos iš tiekėjų ir yra apskaitytos, kad darbuotojai turi tai, ką jie turi turėti, kad galėtų atlikti savo darbą.
 
 ### <a name="prerequisites"></a>Būtinieji komponentai
 
@@ -47,17 +47,17 @@ ms.locfileid: "5814301"
 -   Ken nustato juridinio subjekto Automatiškai atnaujinti antraštės atitikimo būsenos perjungimą į Taip.
 -   Ken nustato juridinio subjekto lauką Gretinti kainų sumas į Procentas ir įveda 15 % kaip leistino nuokrypio procentą.
 -   Ken nustato prekės lygio atitikimo strategiją prekei 1500 – „CNC Milicron“ įrenginys į trišalį atitikimą. Ši prekė yra turto prekė, „Fabrikam“ naudojama gamyboje. Šios prekės sąskaitos faktūros yra sugretinamos su pirkimo užsakymo eilutėmis dėl kainos ir su produkto gavimo kvitais dėl kiekio.
--   Tony įveda paraišką penkiems „CNC Milicron“ įrenginiams. Alicia, „Fabrikam“ pirkimo užsakymų klerkas, išduoda pirkimo užsakymą tiekti prekes juridiniam subjektui, kurio vardas yra Contoso.
+-   Tony įveda paraišką penkiems „CNC Milicron“ įrenginiams. Alicia, „Fabrikam“ pirkimo užsakymų klerkas, išduoda pirkimo užsakymą tiekti prekes juridiniam subjektui, kurio vardas yra „Contoso“.
 
-    | Prekės numeris                 | Kiekis | Vnt. kaina | Grynoji suma | Išlaidų kodas        | Išlaidų vertė |
+    | Prekės Nr.                 | Kiekis | Vnt. kaina | Grynoji suma | Išlaidų kodas        | Išlaidų vertė |
     |-----------------------------|----------|------------|------------|---------------------|---------------|
-    | 1500 – „CNC Milicron“ įrenginys | 5        | 8 000,00   | 40 000,00  | Siuntimas ir tvarkymas | 3 000,00      |
+    | 1500 – „CNC Milicron“ įrenginys | 5        | 8 000,00   | 40 000,00  | Siuntimas ir tvarkymas | 3,000.00      |
 
 -   Arnie, „Contoso“ gautinų sumų klerkas, peržiūri savaitės siuntas. Arnie pasirenka siuntos operacijas, kurių sąskaitas faktūras išrašyti „Fabrikam“ už „CNC Milicron“ įrenginių pristatymą. Arnie įtraukia mokestį už siuntimą ir tvarkymą. „Fabrikam“ atsižvelgs į mokestį kaip į turto savikainos dalį.
 
 ### <a name="scenario"></a>Scenarijus
 
-1.  Sammy, „Fabrikam“ gavimo padalinio darbuotojas, gavo visą kiekį įrenginių, išsiųstų iš „Contoso“. Produkto gavimo dokumente jis įveda kiekį 5. Kadangi gautas visas pirkimo užsakymas, pirkimo užsakymo būsena pasikeičia į Gauta.
+1.  Sammy, „Fabrikam“ gavimo padalinio darbuotojas, gavo visą kiekį įrenginių, išsiųstų iš „Contoso“. Produkto gavimo dokumente Samė įveda kiekį 5. Kadangi gautas visas pirkimo užsakymas, pirkimo užsakymo būsena pasikeičia į Gauta.
 2.  April, „Fabrikam“ mokėtinų sumų koordinatorė, įveda ir patikrina sąskaitą faktūrą, kurią pateikė „Contoso“. Ji patikrina šią informaciją:
     -   Prekėms, kurioms reikalingas trišalis atitikimas, ar kiekis sąskaitos faktūros eilutėje atitinka gautą kiekį. Gautas kiekis nurodytas produkto gavimo kvite, kuris sugretintas su sąskaita faktūra.
     -   Prekių, kurioms reikalingas dvišalis arba trišalis atitikimas, sąskaitos faktūros eilutės kainos patenka į leistinus nuokrypius, kurie apibrėžti sprendime „Microsoft“ „Dynamics 365 Finance“. Tai apima toliau nurodytus kainų gretinimo tipus.
@@ -66,7 +66,7 @@ ms.locfileid: "5814301"
 
 Popierinėje „Contoso“ sąskaitoje faktūroje pateikta ši informacija.
 
-| Prekė                        | Kiekis | Vnt. kaina | Grynoji suma |
+| Produktas                        | Kiekis | Vnt. kaina | Grynoji suma |
 |-----------------------------|----------|------------|------------|
 | 1500 – „CNC Milicron“ įrenginys | 5        | 8 100,00   | 40,500.00  |
 | Siuntimas ir tvarkymas       |          |            | 4,000.00   |
@@ -87,7 +87,7 @@ Suvestinė: Ken yra valdytojas juridinio subjekto, kurio pavadinimas yra „Fabr
 Kiekis ir sumos yra mažos, kilo problemų su pristatymu iš kai kurių tiekėjų Malaizijoje. Dėl šių priežasčių Cassie nustato kontrolės lygį tam tikriems prekių ir tiekėjų kombinacijoms, kurios įsigytos Malaizijoje, iki trišalio atitikimo. 
 
 Šiame pavyzdyje pateikiamos sąskaitos faktūros atitikimo strategijos padeda žmonėms su šiais vaidmenimis atitikti šiuos tikslus:
--   Ken yra „Fabrikam“ įmonės valdytojas. Jis gali padėti savo organizacijos žmonėms identifikuoti ir išspręsti problemas dėl užsakymo, gavimo ir mokėjimo už prekes (prekes ir paslaugas) iš tiekėjų.
+-   Ken yra „Fabrikam“ įmonės valdytojas. Kenas gali padėti savo organizacijos žmonėms identifikuoti ir išspręsti problemas dėl užsakymo, gavimo ir mokėjimo už prekes (prekes ir paslaugas) iš tiekėjų.
 -   Cassie yra „Fabrikam“ Malaizijos skyriaus finansininkė. Jie gali taikyti įmonės strategiją ir įsitikinti, kad sąskaitos faktūros apmokamos tik tada, kai jos sugretinamos su pirkimo užsakymo eilutėmis ir produkto gavimo kvitais, nurodančiais prekių ir paslaugų gavimą. Ji taip pat gali padidinti konkrečių prekių kontrolės lygį iki trišalio atitikimo, siekiant kontroliuoti veiklos išlaidas.
 
 ### <a name="prerequisites"></a>Būtinieji komponentai
@@ -96,7 +96,7 @@ Kiekis ir sumos yra mažos, kilo problemų su pristatymu iš kai kurių tiekėj�
 -   Ken nustato juridinio subjekto lauką Gretinti kainų sumas į Procentas ir įveda 10 % kaip leistino nuokrypio procentą.
 -   Ken nustato vieneto kainos leistiną nuokrypį visoms prekėms iki 2 %.
 -   Cassie nustato prekės ir tiekėjo kombinacijos lygio atitikimo strategiją prekei PH2500 – kompiuteriui ir tiekėjui „Contoso“ iki trišalio atitikimo.
--   Alicia, pirkimo užsakymo klerkas „Fabrikam“ Malaizijos padalinyje, „Contoso“ išduoda pirkimo užsakymus tiekti tris prekes, kaip parodyta toliau pateiktoje lentelėje. Kai ji sukuria pirkimo užsakymą, ji nepaiso atitikimo strategijos, skirtos belaidei pelei, todėl atitikimas tampa trišalis, o nebe dvišalis.
+-   Alicia, pirkimo užsakymo klerkas „Fabrikam“ Malaizijos padalinyje „Contoso“ išduoda pirkimo užsakymus tiekti tris prekes, kaip parodyta toliau pateiktoje lentelėje. Kai ji sukuria pirkimo užsakymą, ji nepaiso atitikimo strategijos, skirtos belaidei pelei, todėl atitikimas tampa trišalis, o nebe dvišalis.
 
     | Prekės numeris           | Kiekis | Vnt. kaina | Grynoji suma | Atitikimo strategija (numatytasis įrašas) | Atitikimo strategija (nurodyta pirkimo užsakymo eilutėje) |
     |-----------------------|----------|------------|------------|---------------------------------|----------------------------------------------|
@@ -115,7 +115,7 @@ Kiekis ir sumos yra mažos, kilo problemų su pristatymu iš kai kurių tiekėj�
 
 Popierinėje „Contoso“ sąskaitoje faktūroje pateikta ši informacija.
 
-| Prekė                  | Kiekis | Vnt. kaina | Grynoji suma |
+| Produktas                  | Kiekis | Vnt. kaina | Grynoji suma |
 |-----------------------|----------|------------|------------|
 | PH2500 – kompiuteris     | 2        | 2 500,00   | 5 000,00   |
 | MM01 – belaidė pelė | 2        | 41.00      | 82.00      |

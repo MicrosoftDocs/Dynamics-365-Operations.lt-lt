@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd10e0c6e426d95aa5e96c4b9b59a8a81017b540
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4df5ebaf6e8ae8414515bd11087adcd05a88e581
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835152"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027533"
 ---
 # <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Nustatyti dalinį mokėjimą prieš nuolaidos datą su galutiniu mokėjimu po nuolaidos datos
 
@@ -38,7 +38,7 @@ Birželio 25 d. Eglė 4027 klientui sukuria ir užregistruoja sąskaitą faktūr
 | LFSF-10020 | PVM sąskaita faktūra          | 2015-06-25 | 10020   | 1000,00                             |                                       | 1000,00 | USD      |
 
 ## <a name="partial-payment-before-the-cash-discount-date"></a>Dalinis mokėjimas prieš mokėjimo nuolaidos datą
-Liepos 2 d. 4027 klientas atlieka dalinį 297,00 SF mokėjimą. Mokėjimui yra gali būti taikoma mokėjimo nuolaida, nes „Fabrikam“ suteikia galimybę mokėjimo nuolaidas taikyti daliniams mokėjimams, o mokėjimas atliekamas prieš mokėjimo nuolaidos datą. Todėl 4027 klientui pritaikoma 3,00 mokėjimo nuolaida. Arnas įrašo 4027 kliento mokėjimą naudodamas mokėjimų žurnalą. Tada Arnas atidaro puslapį **Sudengti operacijas**, kad galėtų pažymėti sudengtiną SF.
+Liepos 2 d. 4027 klientas atlieka dalinį 297,00 SF mokėjimą. Mokėjimui yra gali būti taikoma mokėjimo nuolaida, nes „Fabrikam“ suteikia galimybę mokėjimo nuolaidas taikyti daliniams mokėjimams, o mokėjimas atliekamas prieš mokėjimo nuolaidos datą. Todėl 4027 klientui pritaikoma 3,00 mokėjimo nuolaida. Arnas įrašo 4027 kliento mokėjimą naudodamas mokėjimų žurnalą. Tada Arnas atidaro puslapį **Sudengti operacijas**, kad Arnie galėtų pažymėti sudengtiną SF.
 
 | Žymėti     | Naudokite mokėjimo nuolaidą | Kvitas   | Paskyra | Data      | Terminas  | PVM sąskaita faktūra | Operacijos valiutos debeto suma | Valiuta | Sudengtina suma |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|----------|------------------|
@@ -95,7 +95,7 @@ Nuolaidos informacija rodoma puslapio **Sudengti atviras operacijas** apačioje.
 | Pritaikyta mokėjimo nuolaida          | 3,00      |
 | Taikytinos mokėjimo nuolaidos suma | 7,00      |
 
-Arnas pakeičia lauko **Naudoti mokėjimo nuolaidą** reikšmę atgal į **Įprasta**, nes jis nenori klientui taikyti likusios 7,00 mokėjimo nuolaidos. Tada Arnas užregistruoja mokėjimą. Atidaręs puslapį **Kliento operacijos**, Arnas mato, kad SF balansas yra 0,00. Jis taip pat mato, kad yra du mokėjimai. Vienas mokėjimas yra už 297,00 su 3,00 mokėjimo nuolaida, o kitas mokėjimas yra už 700,00.
+Arnas pakeičia lauko **Naudoti mokėjimo nuolaidą** reikšmę atgal į **Įprasta**, nes Arnie nenori klientui taikyti likusios 7,00 mokėjimo nuolaidos. Tada Arnas užregistruoja mokėjimą. Atidaręs puslapį **Kliento operacijos**, Arnas mato, kad SF balansas yra 0,00. Galima naudoti du mokėjimus. Vienas mokėjimas yra už 297,00 su 3,00 mokėjimo nuolaida, o kitas mokėjimas yra už 700,00.
 
 | Kvitas    | Operacijos tipas | Data      | PVM sąskaita faktūra | Operacijos valiutos debeto suma | Operacijos valiutos kredito suma | Likutis | Valiuta |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
