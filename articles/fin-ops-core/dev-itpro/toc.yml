@@ -84,7 +84,7 @@
               href: dev-tools/version-models-build.md
         - name: Duomenų integravimas
           items:
-            - name: Duomenų integravimo (importo / eksporto) strategijos pasirinkimas
+            - name: „Finance and Operations“ programų ir trečiųjų šalių paslaugų integravimas
               href: data-entities/integration-overview.md
             - name: Prioritetu grindžiamas ribojimas
               hreF: data-entities/priority-based-throttling.md
@@ -126,196 +126,62 @@
                       href: data-entities/tasks/create-record-template-facilitate-data-entry.md
                     - name: Įrašų kūrimas naudojant įrašų šablonus
                       href: data-entities/tasks/use-record-template-new-record.md
-                - name: Duomenų integravimas naudojant „Dataverse“
+                - name: Duomenų integratorius
                   items:
-                    - name: Duomenų integravimo naudojant „Dataverse“ apžvalga
-                      href: data-entities/data-integration-cds.md
-                    - name: Dvigubo rašymo integravimas
+                    - name: Potencialaus kliento pavertimo pinigais scenarijaus konfigūravimas
                       items:
-                        - name: Dvigubo rašymo pagrindinis puslapis
-                          href: data-entities/dual-write/dual-write-home-page.md
-                        - name: Kas nauja ar pasikeitė dvigubo rašymo integravime
-                          href: data-entities/dual-write/whats-new-dual-write.md
-                        - name: Dvigubo rašymo apžvalga
-                          href: data-entities/dual-write/dual-write-overview.md
-                        - name: Dvigubo rašymo sąranka
-                          items:
-                            - name: Dvigubo rašymo sistemos reikalavimai
-                              href: data-entities/dual-write/dual-write-system-req.md
-                            - name: 'Nurodymai, kaip nustatyti dvigubą rašymą'
-                              href: data-entities/dual-write/connection-setup.md
-                            - name: Pradinės sinchronizacijos aplinkybės
-                              href: data-entities/dual-write/initial-sync-guidance.md
-                            - name: Dvigubo rašymo sąranka iš „Lifecycle Services“
-                              href: data-entities/dual-write/lcs-setup.md
-                            - name: Esamų „Finance and Operations“ programų dvigubo rašymo įjungimas
-                              items:
-                                - name: Esamų „Finance and Operations“ programų dvigubo rašymo įjungimas
-                                  href: data-entities/dual-write/enable-dual-write.md
-                                - name: Sistemos reikalavimai ir būtinosios sąlygos
-                                  href: data-entities/dual-write/requirements-and-prerequisites.md
-                                - name: Kaip naudoti dvigubo rašymo vedlį aplinkoms susieti
-                                  href: data-entities/dual-write/link-your-environment.md
-                                - name: Objekto schemos įjungimas dvigubam rašymui
-                                  href: data-entities/dual-write/enable-entity-map.md
-                            - name: Dvigubo rašymo valiutos duomenų tipo perkėlimas
-                              href: data-entities/dual-write/currrency-decimal-places.md
-                            - name: Pardavimo užsakymo būsenos laukų susiejimo nustatymas
-                              href: data-entities/dual-write/sales-status-map.md
-                            - name: Vidinės įmonės užsakymų filtravimas siekiant išvengti užsakymų ir užsakymų eilučių sinchronizavimo
-                              href: data-entities/dual-write/filtering-intercompany-orders.md
-                        - name: Dvigubo rašymo valdymas
-                          items:
-                            - name: Objektų ir laukų susiejimo tinkinimas
-                              href: data-entities/dual-write/customizing-mappings.md
-                            - name: Kelių objektų schemų tvarkymas
-                              href: data-entities/dual-write/multiple-entity-maps.md
-                            - name: Juridinio subjekto redagavimas nustačius dvigubą rašymą
-                              href: data-entities/dual-write/edit-legal-entity.md
-                            - name: Klaidų valdymas ir įspėjimo pranešimai
-                              href: data-entities/dual-write/errors-and-alerts.md
-                            - name: Programos ciklo valdymas
-                              href: data-entities/dual-write/app-lifecycle-management.md
-                        - name: Programų sąvokų susiejimas
-                          items:
-                            - name: Bendrieji integruoto kliento duomenys
-                              href: data-entities/dual-write/customer-mapping.md
-                            - name: Tiekėjo integravimas
-                              items:
-                                - name: Bendrieji integruoto tiekėjo duomenys
-                                  href: data-entities/dual-write/vendor-mapping.md
-                                - name: Perjungimas iš vieno tiekėjo dizaino į kitą
-                                  href: data-entities/dual-write/vendor-switch.md
-                            - name: Kliento lojalumo kortelės ir atlygio taškai
-                              href: data-entities/dual-write/loyalty-mapping.md
-                            - name: Produkto integravimas
-                              items:
-                                - name: Bendrosios produkto funkcijos
-                                  href: data-entities/dual-write/product-mapping.md
-                                - name: Integruotos svetainės ir sandėliai
-                                  href: data-entities/dual-write/sites-warehouses-mapping.md
-                            - name: Įmonės integravimas
-                              items:
-                                - name: Įmonės koncepcija „Dataverse“
-                                  href: data-entities/dual-write/company-data.md
-                                - name: Įmonės duomenų inicijavimas
-                                  href: data-entities/dual-write/bootstrap-company-data.md
-                            - name: Organizacijos hierarchija „Dataverse“
-                              href: data-entities/dual-write/organization-mapping.md
-                            - name: Finansų ir mokesčių duomenys
-                              items:
-                                - name: Prieiga prie finansų ir mokesčių nuorodos duomenų
-                                  href: data-entities/dual-write/finance-tax-reference.md
-                                - name: Integruota didžioji knyga
-                                  href: data-entities/dual-write/ledger-mapping.md
-                                - name: Bendrieji integruotų mokesčių duomenys
-                                  href: data-entities/dual-write/tax-mapping.md
-                            - name: Įsigijimo integravimas „Supply Chain Management“ su „Field Service“
-                              href: data-entities/dual-write/scm-field-service-procurement.md
-                            - name: Sinchronizavimas pareikalavus su „Supply Chain Management “ kainodaros mechanizmu
-                              href: data-entities/dual-write/pricing-engine.md
-                            - name: Dvigubas rašymas sprendime Potencialūs klientai ir grynieji pinigai
-                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
-                            - name: „Dynamics 365 Commerce“ kainodaros mechanizmo naudojimas su „Dynamics 365 Sales“
-                              href: data-entities/dual-write/commerce-pricing.md
-                            - name: Vidaus paslaugų turtas
-                              href: data-entities/dual-write/in-house-assets.md
-                            - name: Atsargų pasiekiamumas
-                              href: data-entities/dual-write/inventory-availability.md
-                            - name: 'Integruotas darbininkas, užduotis ir padėtis'
-                              href: data-entities/dual-write/integrated-hr.md
-                            - name: Šalis ir visuotinė adresų knygelė
-                              href: data-entities/dual-write/party-gab.md
-                            - name: „Power Portal“ naudojimas su šalies duomenų modeliu
-                              href: data-entities/dual-write/party-gab-portal.md
-                            - name: Naujinimas į šalies ir visuotinės adresų knygelės modelį
-                              href: data-entities/dual-write/upgrade-party-gab.md
-                            - name: Pastabų integravimas
-                              href: data-entities/dual-write/notes-integration.md
-                            - name: Susiejimo nuoroda
-                              href: data-entities/dual-write/mapping-reference.md
-                        - name: Dvigubo rašymo palaikymas
-                          items:
-                            - name: „Field Service“ ir „Project Service Automation“ sprendimų palaikymas
-                              href: data-entities/dual-write/field-service-project-service-automation.md
-                            - name: Potencialaus kliento perkėlimas į grynuosius pinigus iš duomenų integravimo priemonės į dvigubą rašymą
-                              href: data-entities/dual-write/migrate-prospect-to-cash.md
-                            - name: Trikčių šalinimas
-                              items:
-                                - name: Dvigubo rašymo konfigūracijos patikrinimas „Finance and Operations“ programose ir „Dataverse“
-                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
-                                - name: Problemų šalinimas pradinio nustatymo metu
-                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
-                                - name: Problemų šalinimas pradinės sinchronizacijos metu
-                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                                - name: Dvigubo rašymo problemų „Finance and Operations“ programose šalinimas
-                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
-                                - name: Tiesioginės sinchronizacijos problemų šalinimas
-                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                                - name: 'Problemų, susijusių su sprendimo supratimu, šalinimas'
-                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                                - name: 'Problemų, susijusių su „Finance and Operations“ programų naujinimais, sprendimas'
-                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                                - name: Bendras problemų sprendimas
-                                  href: data-entities/dual-write/dual-write-troubleshooting.md
-                        - name: Dažnai užduodami klausimai apie dvigubą rašymą
-                          href: data-entities/dual-write/dual-write-faq.md
-                    - name: Integravimas su „Power Platform“
+                        - name: Potencialaus kliento pavertimas pinigais
+                          href: ../../supply-chain/sales-marketing/prospect-to-cash.md
+                        - name: Tiesioginis „Sales“ sąskaitų sinchronizavimas su „Finance and Operations“ klientais
+                          href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
+                        - name: Tiesioginis „Finance and Operations“ produktų sinchronizavimas su „Sales“ produktais
+                          href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
+                        - name: Tiesioginis „Sales“ kontaktų sinchronizavimas su „Finance and Operations“ kontaktais arba klientais
+                          href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
+                        - name: Tiesioginis „Sales“ pardavimo pasiūlymų antraščių ir eilučių sinchronizavimas su „Finance and Operations“
+                          href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
+                        - name: Tiesioginis pardavimo užsakymų sinchronizavimas tarp „Sales“ ir „Finance and Operations“
+                          href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
+                        - name: Tiesioginis „Finance and Operations“ pardavimo sąskaitų faktūrų antraščių ir eilučių sinchronizavimas su „Sales“
+                          href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
+                    - name: Integravimo su „Field Service“ konfigūravimas
                       items:
-                        - name: Potencialaus kliento pavertimo pinigais scenarijaus konfigūravimas
-                          items:
-                            - name: Potencialaus kliento pavertimas pinigais
-                              href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                            - name: Tiesioginis „Sales“ sąskaitų sinchronizavimas su „Finance and Operations“ klientais
-                              href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                            - name: Tiesioginis „Finance and Operations“ produktų sinchronizavimas su „Sales“ produktais
-                              href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                            - name: Tiesioginis „Sales“ kontaktų sinchronizavimas su „Finance and Operations“ kontaktais arba klientais
-                              href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                            - name: Tiesioginis „Sales“ pardavimo pasiūlymų antraščių ir eilučių sinchronizavimas su „Finance and Operations“
-                              href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                            - name: Tiesioginis pardavimo užsakymų sinchronizavimas tarp „Sales“ ir „Finance and Operations“
-                              href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                            - name: Tiesioginis „Finance and Operations“ pardavimo sąskaitų faktūrų antraščių ir eilučių sinchronizavimas su „Sales“
-                              href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                        - name: Integravimo su „Field Service“ konfigūravimas
-                          items:
-                            - name: Integravimo su „Field Service“ konfigūravimo apžvalga
-                              href: ../../supply-chain/sales-marketing/field-service.md
-                            - name: „Finance and Operations“ produktų sinchronizavimas su „Field Service“ produktais
-                              href: ../../supply-chain/sales-marketing/field-service-product.md
-                            - name: „Field Service“ darbo užsakymų sinchronizavimas su „Finance and Operations“ pardavimo užsakymais
-                              href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                            - name: „Field Service“ sutarčių sąskaitų faktūrų sinchronizavimas su „Finance and Operations“ laisvos formos sąskaitomis faktūromis
-                              href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                            - name: „Field Service“ atsargų perkėlimo ir koregavimo sinchronizavimas su „Finance and Operations“
-                              href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                            - name: „Finance and Operations“ atsargų lygio informacijos sinchronizavimas su „Field Service“
-                              href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                            - name: „Finance and Operations“ produktų su atsargų vienetais sinchronizavimas su „Field Service“
-                              href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                            - name: „Finance and Operations“ projektų sąrašo sinchronizavimas su „Field Service“
-                              href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                            - name: „Finance and Operations“ sandėlių sinchronizavimas su „Field Service“
-                              href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                            - name: „Field Service“ darbo užsakymų ir projekto sinchronizavimas su „Finance and Operations“
-                              href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
-                        - name: „Project Service Automation“ integravimo konfigūravimas
-                          items:
-                            - name: „Project Service Automation“ apžvalga
-                              href: /dynamics365/project-operations/prod-pma/PSA-integration
-                            - name: „Project Service Automation“ integravimo parametrai
-                              href: /dynamics365/project-operations/prod-pma/PSA-parameters
-                            - name: Projektų sutarčių ir projektų sinchronizavimas
-                              href: /dynamics365/project-operations/prod-pma/project-contracts-templates
-                            - name: Projektų užduočių sinchronizavimas
-                              href: /dynamics365/project-operations/prod-pma/project-tasks-template
-                            - name: Projektų išlaidų kategorijų sinchronizavimas
-                              href: /dynamics365/project-operations/prod-pma/project-categories-templates
-                            - name: Projekto įvertinimų sinchronizavimas su projekto prognozėmis
-                              href: /dynamics365/project-operations/prod-pma/project-estimates-templates
-                            - name: Projekto faktinių duomenų sinchronizavimas su projekto integravimo žurnalu
-                              href: /dynamics365/project-operations/prod-pma/project-actuals-templates
+                        - name: Integravimo su „Field Service“ konfigūravimo apžvalga
+                          href: ../../supply-chain/sales-marketing/field-service.md
+                        - name: „Finance and Operations“ produktų sinchronizavimas su „Field Service“ produktais
+                          href: ../../supply-chain/sales-marketing/field-service-product.md
+                        - name: „Field Service“ darbo užsakymų sinchronizavimas su „Finance and Operations“ pardavimo užsakymais
+                          href: ../../supply-chain/sales-marketing/field-service-work-order.md
+                        - name: „Field Service“ sutarčių sąskaitų faktūrų sinchronizavimas su „Finance and Operations“ laisvos formos sąskaitomis faktūromis
+                          href: ../../supply-chain/sales-marketing/field-service-invoice.md
+                        - name: „Field Service“ atsargų perkėlimo ir koregavimo sinchronizavimas su „Finance and Operations“
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                        - name: „Finance and Operations“ atsargų lygio informacijos sinchronizavimas su „Field Service“
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                        - name: „Finance and Operations“ produktų su atsargų vienetais sinchronizavimas su „Field Service“
+                          href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                        - name: „Finance and Operations“ projektų sąrašo sinchronizavimas su „Field Service“
+                          href: ../../supply-chain/sales-marketing/synchronize-project-list.md
+                        - name: „Finance and Operations“ sandėlių sinchronizavimas su „Field Service“
+                          href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
+                        - name: „Field Service“ darbo užsakymų ir projekto sinchronizavimas su „Finance and Operations“
+                          href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
+                    - name: „Project Service Automation“ integravimo konfigūravimas
+                      items:
+                        - name: „Project Service Automation“ apžvalga
+                          href: /dynamics365/project-operations/prod-pma/PSA-integration
+                        - name: „Project Service Automation“ integravimo parametrai
+                          href: /dynamics365/project-operations/prod-pma/PSA-parameters
+                        - name: Projektų sutarčių ir projektų sinchronizavimas
+                          href: /dynamics365/project-operations/prod-pma/project-contracts-templates
+                        - name: Projektų užduočių sinchronizavimas
+                          href: /dynamics365/project-operations/prod-pma/project-tasks-template
+                        - name: Projektų išlaidų kategorijų sinchronizavimas
+                          href: /dynamics365/project-operations/prod-pma/project-categories-templates
+                        - name: Projekto įvertinimų sinchronizavimas su projekto prognozėmis
+                          href: /dynamics365/project-operations/prod-pma/project-estimates-templates
+                        - name: Projekto faktinių duomenų sinchronizavimas su projekto integravimo žurnalu
+                          href: /dynamics365/project-operations/prod-pma/project-actuals-templates
             - name: Išorinių žiniatinklio tarnybų naudojimas
               href: data-entities/consume-external-web-service.md
             - name: Elektroniniai pranešimai
@@ -496,9 +362,11 @@
                       href: deployment/updateenvironment-newinfrastructure.md
                     - name: Visuotinai diegiant savitarnos paslaugą įdiegtų aplinkų trikčių šalinimas
                       href: deployment/troubleshoot-newinfrastructure.md
+                    - name: DUK apie planuojamą priežiūrą savitarnos aplinkoje
+                      href: deployment/plannedmaintenance-selfservice.md
                 - name: Baigtas „Azure Resource Manager“ supažindinimas
                   href: deployment/arm-onboarding.md
-                - name: „Azure ExpressRoute“ ir „Finance and Operations”
+                - name: „Azure ExpressRoute“ ir „Finance and Operations“
                   href: deployment/expressroute.md
                 - name: „Finance and Operations“ architektūra
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
@@ -1150,8 +1018,140 @@
           items:
             - name: „Microsoft Power Platform“ integravimas su „Finance and Operations“
               href: power-platform/overview.md
+            - name: Dvigubas rašymas
+              items:
+                - name: Dvigubo rašymo pagrindinis puslapis
+                  href: data-entities/dual-write/dual-write-home-page.md
+                - name: Kas nauja ar pasikeitė dvigubo rašymo integravime
+                  href: data-entities/dual-write/whats-new-dual-write.md
+                - name: Dvigubo rašymo apžvalga
+                  href: data-entities/dual-write/dual-write-overview.md
+                - name: Dvigubo rašymo sąranka
+                  items:
+                    - name: Dvigubo rašymo sistemos reikalavimai
+                      href: data-entities/dual-write/dual-write-system-req.md
+                    - name: 'Nurodymai, kaip nustatyti dvigubą rašymą'
+                      href: data-entities/dual-write/connection-setup.md
+                    - name: Pradinės sinchronizacijos aplinkybės
+                      href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: Dvigubo rašymo sąranka iš „Lifecycle Services“
+                      href: data-entities/dual-write/lcs-setup.md
+                    - name: Esamų „Finance and Operations“ programų dvigubo rašymo įjungimas
+                      items:
+                        - name: Esamų „Finance and Operations“ programų dvigubo rašymo įjungimas
+                          href: data-entities/dual-write/enable-dual-write.md
+                        - name: Sistemos reikalavimai ir būtinosios sąlygos
+                          href: data-entities/dual-write/requirements-and-prerequisites.md
+                        - name: Kaip naudoti dvigubo rašymo vedlį aplinkoms susieti
+                          href: data-entities/dual-write/link-your-environment.md
+                        - name: Objekto schemos įjungimas dvigubam rašymui
+                          href: data-entities/dual-write/enable-entity-map.md
+                    - name: Dvigubo rašymo valiutos duomenų tipo perkėlimas
+                      href: data-entities/dual-write/currrency-decimal-places.md
+                    - name: Pardavimo užsakymo būsenos laukų susiejimo nustatymas
+                      href: data-entities/dual-write/sales-status-map.md
+                    - name: Vidinės įmonės užsakymų filtravimas siekiant išvengti užsakymų ir užsakymų eilučių sinchronizavimo
+                      href: data-entities/dual-write/filtering-intercompany-orders.md
+                - name: Dvigubo rašymo valdymas
+                  items:
+                    - name: Objektų ir laukų susiejimo tinkinimas
+                      href: data-entities/dual-write/customizing-mappings.md
+                    - name: Kelių objektų schemų tvarkymas
+                      href: data-entities/dual-write/multiple-entity-maps.md
+                    - name: Juridinio subjekto redagavimas nustačius dvigubą rašymą
+                      href: data-entities/dual-write/edit-legal-entity.md
+                    - name: Klaidų valdymas ir įspėjimo pranešimai
+                      href: data-entities/dual-write/errors-and-alerts.md
+                    - name: Programos ciklo valdymas
+                      href: data-entities/dual-write/app-lifecycle-management.md
+                - name: Programų sąvokų susiejimas
+                  items:
+                    - name: Bendrieji integruoto kliento duomenys
+                      href: data-entities/dual-write/customer-mapping.md
+                    - name: Tiekėjo integravimas
+                      items:
+                        - name: Bendrieji integruoto tiekėjo duomenys
+                          href: data-entities/dual-write/vendor-mapping.md
+                        - name: Perjungimas iš vieno tiekėjo dizaino į kitą
+                          href: data-entities/dual-write/vendor-switch.md
+                    - name: Kliento lojalumo kortelės ir atlygio taškai
+                      href: data-entities/dual-write/loyalty-mapping.md
+                    - name: Produkto integravimas
+                      items:
+                        - name: Bendrosios produkto funkcijos
+                          href: data-entities/dual-write/product-mapping.md
+                        - name: Integruotos svetainės ir sandėliai
+                          href: data-entities/dual-write/sites-warehouses-mapping.md
+                    - name: Įmonės integravimas
+                      items:
+                        - name: Įmonės koncepcija „Dataverse“
+                          href: data-entities/dual-write/company-data.md
+                        - name: Įmonės duomenų inicijavimas
+                          href: data-entities/dual-write/bootstrap-company-data.md
+                    - name: Organizacijos hierarchija „Dataverse“
+                      href: data-entities/dual-write/organization-mapping.md
+                    - name: Finansų ir mokesčių duomenys
+                      items:
+                        - name: Prieiga prie finansų ir mokesčių nuorodos duomenų
+                          href: data-entities/dual-write/finance-tax-reference.md
+                        - name: Integruota didžioji knyga
+                          href: data-entities/dual-write/ledger-mapping.md
+                        - name: Bendrieji integruotų mokesčių duomenys
+                          href: data-entities/dual-write/tax-mapping.md
+                    - name: Įsigijimo integravimas „Supply Chain Management“ su „Field Service“
+                      href: data-entities/dual-write/scm-field-service-procurement.md
+                    - name: Sinchronizavimas pareikalavus su „Supply Chain Management “ kainodaros mechanizmu
+                      href: data-entities/dual-write/pricing-engine.md
+                    - name: Dvigubas rašymas sprendime Potencialūs klientai ir grynieji pinigai
+                      href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                    - name: „Dynamics 365 Commerce“ kainodaros mechanizmo naudojimas su „Dynamics 365 Sales“
+                      href: data-entities/dual-write/commerce-pricing.md
+                    - name: Vidaus paslaugų turtas
+                      href: data-entities/dual-write/in-house-assets.md
+                    - name: Atsargų pasiekiamumas
+                      href: data-entities/dual-write/inventory-availability.md
+                    - name: 'Integruotas darbininkas, užduotis ir padėtis'
+                      href: data-entities/dual-write/integrated-hr.md
+                    - name: Šalis ir visuotinė adresų knygelė
+                      href: data-entities/dual-write/party-gab.md
+                    - name: „Power Portal“ naudojimas su šalies duomenų modeliu
+                      href: data-entities/dual-write/party-gab-portal.md
+                    - name: Naujinimas į šalies ir visuotinės adresų knygelės modelį
+                      href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: Pastabų integravimas
+                      href: data-entities/dual-write/notes-integration.md
+                    - name: Susiejimo nuoroda
+                      href: data-entities/dual-write/mapping-reference.md
+                - name: Dvigubo rašymo palaikymas
+                  items:
+                    - name: „Field Service“ ir „Project Service Automation“ sprendimų palaikymas
+                      href: data-entities/dual-write/field-service-project-service-automation.md
+                    - name: Potencialaus kliento perkėlimas į grynuosius pinigus iš duomenų integravimo priemonės į dvigubą rašymą
+                      href: data-entities/dual-write/migrate-prospect-to-cash.md
+                    - name: Trikčių šalinimas
+                      items:
+                        - name: Dvigubo rašymo konfigūracijos patikrinimas „Finance and Operations“ programose ir „Dataverse“
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Problemų šalinimas pradinio nustatymo metu
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                        - name: Problemų šalinimas pradinės sinchronizacijos metu
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                        - name: Dvigubo rašymo problemų „Finance and Operations“ programose šalinimas
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: Tiesioginės sinchronizacijos problemų šalinimas
+                          href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: 'Problemų, susijusių su sprendimo supratimu, šalinimas'
+                          href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                        - name: 'Problemų, susijusių su „Finance and Operations“ programų naujinimais, sprendimas'
+                          href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                        - name: Bendras problemų sprendimas
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                - name: Dažnai užduodami klausimai apie dvigubą rašymą
+                  href: data-entities/dual-write/dual-write-faq.md
             - name: Virtualūs objektai
               items:
+                - name: Virtualių objektų apžvalga
+                  href: power-platform/virtual-entities-overview.md
                 - name: Objekto modeliavimas
                   href: power-platform/entity-modeling.md
                 - name: Programos ciklo valdymas
