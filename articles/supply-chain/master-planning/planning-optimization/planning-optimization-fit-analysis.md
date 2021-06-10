@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 871ac40ea73c8a72e20ff495b9b7e6fe5a12159e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 60f63a49222b3d0f13850b0f39764c6c848aba15
+ms.sourcegitcommit: 3c15a26e9708adc9a75082dc551f0a3a0a7d89f4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812984"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049441"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planavimo optimizavimo tinkamumo analizė
 
@@ -89,13 +89,13 @@ Tolesnėje lentelėje pateikiami skirtingi rezultatai, rodomi po tinkamumo anali
 | Gamyba | Planai su seka: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu sekos nepaisoma, kai įjungtas planavimo optimizavimas, neatsižvelgiant į šį parametrą. | 2021 m. spalio mėn. – 2022 m. balandžio mėn. |
 | Gamyba | Paleisti gamybos užsakymai, kurie nepradėti, buvo suplanuoti pradėti anksčiau nei šiandien: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu, jei gamybos užsakymas vėluoja, bendrojo planavimo metu bus laikoma, kad jis bus baigtas šiandien. Tai aktualu išleistiems gamybos užsakymais, kurių pristatymo data yra praėjusi, tačiau užsakymai dar nėra baigti. | 2021 m. spalio mėn. – 2022 m. balandžio mėn. |
 | Gamyba | Ištekliai, suplanuoti esant ribotam pajėgumui: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu išteklių, suplanuotų esant ribotam pajėgumui, nepaisoma, kai įjungtas planavimo optimizavimas. Planavimas atliekamas pagal numatytąjį produkto gamybos laiką. | Neribota: 2021 m. liepą, Ribota: 2021 m. spalį |
-| Gamyba | Maršrutai, naudojami planuojant: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu maršrutų nepaisoma, kai įjungtas planavimo optimizavimas. Naudojamas numatytasis produkto gamybos laikas. | 2021 m. birželio mėn. |
+| Gamyba | Maršrutai, naudojami planuojant: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu maršrutų nepaisoma, kai įjungtas planavimo optimizavimas. Naudojamas numatytasis produkto gamybos laikas. | Liepos 2021 d. |
 | Gamyba | Pardavimo eilutės rezervavimas, naudojantis išskleidimą: _\#_ | Pardavimo eilutės rezervavimas, naudojantis išskleidimą, nepalaikomas, kai įjungtas planavimo optimizavimas. | 2021 m. spalio mėn. |
 | Gamyba | Planavimas išskleidžiant gamybos užsakymus: _\#_ | Planavimas, naudojantis gamybos užsakymų išskleidimą, nepalaikomas, kai įjungtas planavimo optimizavimas. Gamybos užsakymai gali būti suplanuoti atskirai. | Spalio 2021 d. |
 | Pasiūlymo patvirtinimai | Bendrieji planai su įgalintu pasiūlymo patvirtinimu: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu pasiūlymo patvirtinimai (RFQ) nėra laikomi poreikiu, kai įjungtas planavimo optimizavimas. Jų bus nepaisoma, neatsižvelgiant į šį nustatymą. | 2021 m. spalio mėn. – 2022 m. balandžio mėn. |
 | Paraiškos | Bendrieji planai su įgalintomis paraiškomis: _\#_ | Dabar ši funkcija yra palaikoma. Papildomą informaciją rasite [Pirkimo paraiškos](purchase-requisitions.md) | Palaikoma |
-| Laiko rezervai | Padengimo grupės su laiko rezervu: _\#_ | Dabar ši funkcija yra dalinai palaikoma. Papildomą informaciją rasite [Laiko rezervai](safety-margins.md) | Gavimo laiko rezervas: Palaikoma. Užsakymo laiko rezervas ir išdavimo laiko rezervas: 2021 m. balandžio mėn |
-| Laiko rezervai | Bendrieji planai su laiko rezervu: _\#_ | Dabar ši funkcija yra dalinai palaikoma. Papildomą informaciją rasite [Laiko rezervai](safety-margins.md) | Gavimo laiko rezervas: Palaikoma. Užsakymo laiko rezervas ir išdavimo laiko rezervas: 2021 m. balandžio mėn |
+| Laiko rezervai | Padengimo grupės su laiko rezervu: _\#_ | Dabar ši funkcija yra dalinai palaikoma. Papildomą informaciją rasite [Laiko rezervai](safety-margins.md) | Gavimo laiko rezervas: Palaikoma. Užsakymo laiko rezervas ir išdavimo laiko rezervas – 2021 m. balandis - spalis |
+| Laiko rezervai | Bendrieji planai su laiko rezervu: _\#_ | Dabar ši funkcija yra dalinai palaikoma. Papildomą informaciją rasite [Laiko rezervai](safety-margins.md) | Gavimo laiko rezervas: Palaikoma. Užsakymo laiko rezervas ir išdavimo laiko rezervas – 2021 m. balandis - spalis |
 | Saugos atsargų pildymas | Prekės padengimo įrašai, kurių parametras „Išpildyti minimumą” skiriasi nuo „Šiandienos data + įsigijimo laikas”: _\#_ | Planavimo optimizavimas visada naudoja *Šiandienos data + įsigijimo laikas*. Šis pakeitimas sukurtas pasirengti supaprastintam planavimo nustatymui ateityje ir pateikti įgyvendinamą rezultatą. Jei įsigijimo laikas neįtrauktas į pakankamas atsargas, suplanuoti užsakymai, sukurti dabartinėms mažoms turimoms atsargos, visada bus atidėti dėl gamybos laiko. Tai gali sukelti daug triukšmo ir nepageidaujamų suplanuotų užsakymų. Geriausia yra pakeisti parametrą, kad būtų naudojama *Šiandienos data + įsigijimo laikas*. Atnaujinti bendruosius duomenis, kad būtų išvengta įspėjimų. | Netaikoma |
 | Pardavimo pasiūlymai | Bendrieji planai su įgalintais pardavimo pasiūlymais: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu į pasiūlymus neatsižvelgiama, kai įjungtas planavimo optimizavimas. Jų bus nepaisoma, neatsižvelgiant į šį nustatymą. | 2021 m. spalio mėn. – 2022 m. balandžio mėn. |
 | Laikymo trukmė | Bendrieji planai su įgalinta laikymo trukme: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu į laikymo trukmę neatsižvelgiama, kai įjungtas planavimo optimizavimas, neatsižvelgiant į šį parametrą. | Spalio 2021 d. |

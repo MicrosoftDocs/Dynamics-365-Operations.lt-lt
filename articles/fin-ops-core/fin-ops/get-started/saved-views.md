@@ -2,7 +2,7 @@
 title: Įrašyti rodiniai
 description: Šioje temoje aprašoma, kaip naudotis įrašytų rodinių funkcijomis.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 05/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 25b59400cdd62f8728f03683d51c86c671edd9de
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8a5daee72f4f339fbebffb5c1d64814959775340
+ms.sourcegitcommit: 13fa6385d8f3bb18df5a52fd2b0f4ad3484ad0ba
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744620"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6050561"
 ---
 # <a name="saved-views"></a>Įrašyti rodiniai
 
@@ -126,17 +126,26 @@ Norėdami publikuoti rodinį, atlikite toliau nurodytus veiksmus.
 5. **10.0.17 ar vėlesnis atnaujinimas:** Jeigu **(Peržiūra) Vertimo funkcija organizacijos rodiniams** funkcija yra įjungta, galite įtraukti savo rodinio vertimus tiek kalbų, kiek jūsų organizacijai būtina pasirinkdami **Vertimai** mygtuką, esantį šalia laukas **Pavadinimas**. Tada rodinio pavadinimas bus rodomas vartotojams jų pasirinkta kalba. Taip pat galite nustatyti numatytąją kalbą, kad būtų galima nurodyti vertimą tiems vartotojams, kurių vertimo kalbos aprašo nėra.
 5. Pasirinktina: įveskite rodinio aprašymą, kad vartotojai, kurie gaus šį rodinį, galėtų geriau suprasti jo paskirtį. 
 6. Nuspręskite, ar rodinys turėtų būti paskelbtas kaip numatytasis rodinys pasirinktiems vartotojams. Kai peržiūra yra paversta nustatytąja, vartotojai ją matys kitą kartą, kai atidarys paskirties puslapį. Bus pakeista viena, iš anksto nustatyta globali peržiūra visų galutinių vartotojų. Nepaisant to, vartotojai dar gali keisti jų nustatytąją peržiūrą po jos publikavimo.
-7. Pridėkite vartotojams, kuriems skirtas šis rodinys, taikomus saugos vaidmenis. 
-8. Nuspręskite, ar norite paskelbti rodinį kiekvieno pasirinkto saugos vaidmens antriniams vaidmenims. Jei taip atliekate, pasirinkite **Įtraukti vaikų vaidmenis** pažymimą laukelį eilutėje atitinkamiems saugos vaidmenims. Atkreipkite dėmesį, kad šis žymimas laukelis nėra prieinamas vaidmenims, neturintiems vaikų vaidmenų.
-9. Pridėkite juridinius subjektus, kuriems turi būti pasiekiamas šis rodinys. 
-10. Pasirinkite **Publikuoti**.
+
+    > [!NOTE]
+    > Publikuodami rodinį kaip numatytąjį rodinį, atkreipkite dėmesį į šiuos dalykus: 
+    > -  Jei publikuojate rodinį kaip numatytąjį keliems ar visiems juridiniams subjektus, pakeičiate kiekvieno tikslinio vartotojo vientisą, **visuotinį** numatytąjį rodinį. 
+    > -  Jei vartotojas turi vaidmenis, kuriuos keletas peržiūrų yra publikuojama kaip nustatytosios, paskutinė publikuota peržiūra bus naudojama kaip vartotojo nustatytoji peržiūra. 
+
+8. Pridėkite vartotojams, kuriems skirtas šis rodinys, taikomus saugos vaidmenis. 
+9. Nuspręskite, ar norite paskelbti rodinį kiekvieno pasirinkto saugos vaidmens antriniams vaidmenims. Jei taip atliekate, pasirinkite **Įtraukti vaikų vaidmenis** pažymimą laukelį eilutėje atitinkamiems saugos vaidmenims. Atkreipkite dėmesį, kad šis žymimas laukelis nėra prieinamas vaidmenims, neturintiems vaikų vaidmenų.
+10. Pridėkite juridinius subjektus, kuriems turi būti pasiekiamas šis rodinys. 
+
+    > [!NOTE]
+    > Publikuodami rodinį juridiniam subjektui, atkreipkite dėmesį į toliau nurodytus lūkesčius.
+    > 
+    > Jei publikuojate peržiūrą teisiniam subjektui, tačiau jei nepublikuojate jos kaip nustatytosios peržiūros, vartotojai iš pradžių matys peržiūrą peržiūros selektoriuje tik konkretiems teisiniams subjektams. Nepaisant to, po peržiūros įkėlimo pirmą kartą, ji visuomet bus vartotojo peržiūros selektoriuje tame puslapyje nepriklausomai nuo teisinio subjekto.
+
+11. Pasirinkite **Publikuoti**.
 
 Atkreipkite dėmesį, kad kai kuriose aplinkose gali šiek tiek užtrukti (iki valandos), kol vartotojai pamatys publikuotą rodinį.
 
-> [!NOTE]
-> Atsiminkite toliau pateiktas išimtis, kai publikuojate peržiūrą į teisinį subjektą ar kai publikuojate peržiūrą kaip nustatytąją.
-> - Jei publikuojate peržiūrą kaip nustatytąją į visus ar kelis teisinius subjektus, keičiate vieną, globalų nustatytą visų galutinių vartotojų peržiūrą. Jei vartotojas turi vaidmenis, kuriuos keletas peržiūrų yra publikuojama kaip nustatytosios, paskutinė publikuota peržiūra bus naudojama kaip vartotojo nustatytoji peržiūra. 
-> - Jei publikuojate peržiūrą teisiniam subjektui, tačiau jei nepublikuojate jos kaip nustatytosios peržiūros, vartotojai iš pradžių matys peržiūrą peržiūros selektoriuje tik konkretiems teisiniams subjektams. Nepaisant to, po peržiūros įkėlimo pirmą kartą, ji visuomet bus vartotojo peržiūros selektoriuje tame puslapyje nepriklausomai nuo teisinio subjekto. 
+ 
 
 ## <a name="modifying-a-published-view"></a>Publikuoto rodinio modifikavimas
 

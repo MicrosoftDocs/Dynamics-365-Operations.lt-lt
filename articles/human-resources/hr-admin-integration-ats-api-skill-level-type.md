@@ -7,19 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4af6716ff008b5583fd7df11e447aeaedc8a7ce6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 65e97f8ae4ff1ecc2f4ed31d693e6f43eb3194ff
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801244"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6052702"
 ---
 # <a name="skill-level-type"></a>Įgūdžių lygio tipas
 
@@ -31,7 +30,7 @@ Fizinis pavadinimas: mshr_hrmskillleveltype
 
 Toks numeravimas suteikia parinktį nustatytą būsenos vertėms, kurios kategorizuoja lygio priskyrimą kandidato įgūdžiams.
 
-| Reikšmė | Žyma:  | aprašymas |
+| Reikšmė | Žyma | Aprašas |
 | --- | --- | --- |
 | 200000000 | Faktinis | Esamas lygių lygis. |
 | 200000001 | Uždavinys | Tikslinė vertė įgūdžių lygiui. |

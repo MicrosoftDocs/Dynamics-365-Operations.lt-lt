@@ -1,5 +1,5 @@
 ---
-title: Giminė
+title: Lytis
 description: Šioje temoje aprašoma lyties parinktis nustatyta „Dynamics 365 Human Resources“.
 author: jaredha
 ms.date: 02/05/2021
@@ -7,21 +7,20 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6f155fef5f7414bb6b36af2c1c43f2d7eb2183eb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 004953873ca83ccea83ad38080fbdd2c60da694f
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798326"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6053880"
 ---
-# <a name="gender"></a>Giminė
+# <a name="gender"></a>Lytis
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -31,7 +30,7 @@ Fizinis pavadinimas: mshr_hcmpersongender
 
 Toks numeravimas suteikia parinktį nustatytą pretendento lytims. Ji yra prieinama mshr_hcmpersongender parinkties nustatyme.
 
-| Reikšmė | Žyma:  | aprašymas |
+| Reikšmė | Žyma | Aprašas |
 | --- | --- | --- |
 | 200000000 | None | Nebuvo nurodyta jokia lytis. |
 | 200000001 | Vyras | Vyras. |
