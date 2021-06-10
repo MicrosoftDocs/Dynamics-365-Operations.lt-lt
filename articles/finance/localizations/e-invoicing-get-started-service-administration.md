@@ -2,7 +2,7 @@
 title: Darbo su elektroninių SF priedu tarnybos administravimui pradžia
 description: Ši tema paaiškina, kaip pradėti su elektroninės sąskaitos priedo paslaugų administravimu.
 author: gionoder
-ms.date: 05/04/2021
+ms.date: 05/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f389e111006327fe8d82581d01140b4cff2e200d
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: 7c4d69edd4a8f7c7acc2ac1bc22c1ba6eaba25ae
+ms.sourcegitcommit: 90a289962598394ad98209026013689322854b7b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980981"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6092411"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>Darbo su elektroninių SF priedu tarnybos administravimui pradžia
 
@@ -44,18 +44,14 @@ Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išanksti
 
 ## <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Diekite priedą mikro paslaugoms „Lifecycle Services“
 
-1. Prisijunkite prie jūsų LCS abonemento.
-2. Rinkitės **Išankstinis funkcijos valdymo** plytelę.
-3. Skyriuje **Viešo išankstinio rodymo funkcijos** rinkitės **Elektroninės sąskaitos**.
-4. Įsitikinkite, kad **Išankstinės funkcijos įjungimas** parinktis yra nustatyta į **Taip**.
-5. LCS projekto ataskaitų srityje, rinkitės LCS projektą.
-6. LCS projekte LCS aplinkos ataskaitų srityje pasirinkite LCS diegimo projektą. Turi būti vykdomas LCS talpinimo projektas.
-7. Skirtuko **„Power Platform“ integravimas** lauko **Aplinkos papildiniai** grupėje Pasirinkite **Diegti naują priedą**.
-8. Rinkitės **SF siuntimas**.
-9. Lauke **AAD programos ID** įveskite **„091c98b0-a1c9-4b02-b62c-7753395ccabe**. Tai – fiksuota vertė.
-10. Lauke **AAD nuomotojo ID** įveskite savo „Azure” prenumeratos abonemento savininko ID.
-11. Peržiūrėkite sąlygas ir nuostatas, o tada pažymėkite žymės langelį.
-12. Pasirinkti **Diegti**.
+1. Prisijunkite prie savo LCS paskyros ir LCS projekto ataskaitų srityje pasirinkite LCS projektą.
+2. Projekto aplinkos ataskaitų srityje pasirinkite LCS diegimo projektą. Projektas, kurį pasirinkote, turi būti vykdomas.
+3. Skirtuko **„Power Platform“ integravimas** lauko **Aplinkos papildiniai** grupėje Pasirinkite **Diegti naują priedą**.
+4. Rinkitės **SF siuntimas**.
+5. Lauke **AAD programos ID** įveskite **„091c98b0-a1c9-4b02-b62c-7753395ccabe**. Tai – fiksuota vertė.
+6. Lauke **AAD nuomotojo ID** įveskite savo „Azure” prenumeratos abonemento savininko ID.
+7. Peržiūrėkite sąlygas ir nuostatas, o tada pažymėkite žymės langelį.
+8. Pasirinkti **Diegti**.
 
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>Nustatykite parametrus RCS integravimui su elektroninės sąskaitos priedu

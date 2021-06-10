@@ -1,27 +1,21 @@
 ---
 title: Neigiamos dienos ir dinaminės neigiamos dienos
 description: Šioje temoje pateikiama informacija apie neigiamas dienas ir dinamines neigiamas dienas, taip pat apie tai, kaip jomis naudotis, kad būtų lengviau atlikti verslo reikalus.
-author: t-benebo
-ms.date: 06/06/2019
+author: ChristianRytt
+ms.date: 05/25/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 72704
-ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
-ms.search.region: global
-ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.search.region: Global
+ms.author: crytt
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7440a6a0b9093664a0d717b3bfa011ee3100639f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 37ae6ebd4347d3bbb414b7f1e4e0d54150878c02
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907746"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097239"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Neigiamos dienos ir dinaminės neigiamos dienos
 
@@ -45,7 +39,7 @@ Gali būti, kad poreikį gausite sąlyginai anksti prekės gamybos laikotarpiu a
 - DemoProduct prekei taikomas šešių dienų pirkimo vykdymo laikas.
 - Nulinę dieną (sausio 1 d.) DemoProduct prekės atsargų lygis yra 0 (nulis).
 - Nulinę dieną (sausio 1 d.) gausite pardavimo užsakymą, kuriame nurodytas 10 DemoProduct prekių kiekis.
-- Septintą dieną (sausio 7 d.) esamame pirkimo užsakyme nurodytas 10 DemoProduct prekių kiekis.
+- Septintą dieną (sausio 8 d.) esamame pirkimo užsakyme nurodytas 10 DemoProduct prekių kiekis.
 
 Tolesnėje iliustracijoje vaizduojamas grafinis šio scenarijaus rodinys.
 
@@ -112,7 +106,7 @@ Gali būti, kad poreikį gausite kažkuriuo metu prekės gamybos laikotarpiu. To
 
 Tolesnėje iliustracijoje vaizduojamas grafinis šio scenarijaus rodinys.
 
-![1 scenarijaus grafinis rodinys](./media/negative-days-8.png)
+![2 scenarijaus grafinis rodinys](./media/negative-days-8.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>A atvejis: neigiamų dienų skaičius mažesnis negu prekės gamybos laiko dienų skaičius
 
@@ -157,7 +151,7 @@ Gali būti, kad poreikį gausite pasibaigus prekės gamybos laikui. Toliau patei
 - DemoProduct prekei taikomas šešių dienų pirkimo vykdymo laikas.
 - Nulinę dieną (sausio 1 d.) DemoProduct prekės atsargų reikšmė yra 0 (nulis).
 - Septintą dieną (sausio 8 d.), t. y. ne prekės gamybos laiku, gaunate pardavimo užsakymą, kuriame nurodytas 10 DemoProduct prekių kiekis.
-- 10 dieną (sausio 11 d.) pirkimo užsakyme nurodytas 10 DemoProduct prekių kiekis.
+- Dešimtą dieną (sausio 11 d.) pirkimo užsakyme nurodytas 10 „DemoProduct” prekių kiekis.
 
 Tolesnėje iliustracijoje vaizduojamas grafinis šio scenarijaus rodinys.
 
@@ -219,8 +213,8 @@ Galbūt norėsite nustatyti ilgą neigiamų dienų laiko ribą, o paskui dirbti 
 - DemoProduct prekei taikomas šešių dienų pirkimo vykdymo laikas.
 - Nulinę dieną (sausio 1 d.) DemoProduct prekės atsargų reikšmė yra 0 (nulis).
 - Nulinę dieną (sausio 1 d.) gausite pardavimo užsakymą, kuriame nurodytas 10 DemoProduct prekių kiekis.
-- 10 dieną (sausio 10 d.) gausite pardavimo užsakymą, kuriame nurodytas 10 DemoProduct prekių kiekis.
-- 12 dieną (sausio 12 d.) pirkimo užsakyme nurodytas 10 DemoProduct prekių kiekis.
+- Devintą dieną (sausio 10 d.) gausite pardavimo užsakymą, kuriame nurodytas 10 „DemoProduct” prekių kiekis.
+- Vienuoliktą dieną (sausio 12 d.) pirkimo užsakyme nurodytas 10 „DemoProduct” prekių kiekis.
 - Nustatyta neigiamų dienų reikšmė **20** ir ši reikšmė daug didesnė už prekės gamybos laiko dienų reikšmę.
 
 Tolesnėje iliustracijoje vaizduojamas grafinis rodinys, apimantis tai, kas nutinka.
@@ -229,7 +223,7 @@ Tolesnėje iliustracijoje vaizduojamas grafinis rodinys, apimantis tai, kas nuti
 
 MRP pasiekiama toliau nurodytų rezultatų.
 
-![Rezultatai](./media/negative-days-20.png)
+![1 rezultatų pavyzdys](./media/negative-days-20.png)
 
 Ankstesnėje ekrano kopijoje pardavimo užsakymo pareikalavimo data yra sausio 9 d., o ne sausio 10 d. Kadangi ekrano kopija daryta 2015 m. sausio 10 d. šeštadienį, užsakymo pareikalavimo data turėtų būti ankstesnė darbo diena – penktadienis, sausio 9 d.
 
@@ -239,7 +233,7 @@ Rezultatai nėra klaidingi, tačiau MRP vykdymo laikas gali būti ilgesnis, nes 
 
 Jei neigiamų dienų skaičių sumažinsite tiek, kad jis būtų artimesnis prekės gamybos laiko dienų skaičiui, ir naudositės dinaminėmis dienomis, MRP pasiekiama toliau nurodytų rezultatų.
 
-![Rezultatai](./media/negative-days-21.png)
+![2 rezultatų pavyzdys](./media/negative-days-21.png)
 
 MRP sukuria suplanuotą užsakymą, kuris pridedamas prie pirmo pardavimo užsakymo. Paskui, kaip ir tikėtasi, antras pardavimo užsakymas susiejamas su esamu pirkimo užsakymu, atsižvelgiant į neigiamų dienų nuostatas. Šis suplanuotas rezultatas taip pat teisingas, o MRP vykdymo laikas gali būti trumpesnis. Šiuo atveju svarbu suprasti ir žinoti, kaip dirbti su veiksmų pranešimais.
 

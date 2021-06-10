@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f46c5d4ec78a1e5ed708687e8da6eb379697d5f4
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 810592bcbe11b03753c12ab7bfe6160d3e9233ee
+ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908957"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049321"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Sandėlio valdymo mobiliųjų įrenginių programėlės diegimas ir prijungimas
 
@@ -295,5 +295,9 @@ Jeigu įrenginys buvo pamestas arba pažeista jo sauga, turite pašalinti jo pri
 1. Įrankių juostoje pasirinkite **Naikinti**.
 1. Pasirodžiusiame patvirtinimo pranešime pasirinkite **Taip**.
 
+## <a name="additional-resources"></a>Papildomi ištekliai
+
+- [Mobiliojo įrenginio naudotojo nustatymai](mobile-device-user-settings.md)
+- [„Warehouse Management” mobiliųjų įrenginių programėlės veiksmų piktogramų ir pavadinimų priskyrimas](step-icons-titles.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

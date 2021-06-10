@@ -2,7 +2,7 @@
 title: Pradėti naudoti mokesčių skaičiavimą
 description: Šioje temoje paaiškinama, kaip nustatyti Mokesčių skaičiavimą.
 author: wangchen
-ms.date: 04/12/2021
+ms.date: 05/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 43a7c7133156d199da7b5ba16d48652359098c74
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 3f8aa791cee1926afe6be347331d47902a3b7304
+ms.sourcegitcommit: f4dc09601bceb5cdc88ee184ce7c8f369e3e6e86
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018884"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6060568"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>Pradėti naudoti Mokesčių skaičiavimą (Peržiūros versija)
 
@@ -41,7 +41,7 @@ Nustatymą sudaro keturi pagrindiniai veiksmai:
 
 Prieš užbaigdami procedūrą šioje temoje, galite atlikti tolesnes išankstines sąlygas:
 
-- Turite prieigą prie savo LCS abonemento ir įdiegę LCS projektą su 2 pakopos (arba aukščiau) aplinka, kurioje veikia „Dynamics 365" 10.0.18 arba naujesnė versija.
+- Turite prieigą prie savo LCS abonemento ir esate įdiegę LCS projektą su 2 (arba aukštesnės) pakopos aplinka, kurioje veikia „Dynamics 365” 10.0.18 su [„KB4616360”](https://fix.lcs.dynamics.com/Issue/Details?kb=4616360&bugId=568738&dbType=3&qc=1f1c04ff39adad74ef871f539e8d73e14c1893ef7cc4b6e3f7d5c5864ec2781a) arba naujesnė versija.
 - Turite prieigą prie savo RCS abonemento.
 - Susisiekėte su „Microsoft", kad įgalintumėte skrydžio funkciją įdiegtoje „Finance and Supply Chain Management“ aplinkoje.
 
@@ -127,7 +127,7 @@ Užbaigę RCS nustatymą, kaip aprašyta ankstesniame skyriuje, turėsite publik
 
 Šiame skyriuje nustatymą atlikti gali juridinis subjektas. Turite jį sukonfigūruoti kiekvienam juridiniam subjektui, kuriam „Finance“ platformoje norite įjungti Mokesčių skaičiavimą.
 
-1. „Finance” platformoje eikite į **Mokesčiai** \> **Nustatymas** \> **Mokesčių konfigūracija** \> **Mokesčių skaičiavimo nustatymas (Peržiūros versija)**.
+1. „Finance” platformoje eikite į **Mokesčiai** \> **Nustatymas** \> **Mokesčių konfigūracija** \> **Mokesčių apskaičiavimo nustatymas (Peržiūros versija)**.
 2. Skirtuke **Bendra** nustatykite toliau pateiktus laukus.
 
     - **Įgalinti Mokesčių skaičiavimą** – pasirinkite šį žymės langelį, norėdami įgalinti Mokesčių skaičiavimo priedą juridiniam subjektui. Jeigu jis nėra įgalintas dabartiniam juridiniam subjektui, juridinis subjektas ir toliau naudos esamą mokesčių variklį mokesčiams nustatyti ir apskaičiuoti.
@@ -147,7 +147,7 @@ Užbaigę RCS nustatymą, kaip aprašyta ankstesniame skyriuje, turėsite publik
 
 ## <a name="transaction-processing"></a>Operacijos vykdymas
 
-Baigę visas nustatymo procedūras, galite naudoti Mokesčių skaičiavimą, norėdami „Finance“ platformoje nustatyti ir apskaičiuoti mokesčius. Veiksmai, kuriuos reikia atlikti operacijoms apdoroti, lieka tokie pat. „Finance“ versijoje 10.0.18 palaikomos šios operacijos:
+Atlikę visas nustatymo procedūras, galite naudoti Mokesčių skaičiavimo funkciją, kad nustatytumėte ir apskaičiuotumėte mokesčius „Finance“ platformoje. Veiksmai, kuriuos reikia atlikti operacijoms apdoroti, lieka tokie pat. „Finance“ versijoje 10.0.18 palaikomos šios operacijos:
 
 - Pardavimo procesas
 

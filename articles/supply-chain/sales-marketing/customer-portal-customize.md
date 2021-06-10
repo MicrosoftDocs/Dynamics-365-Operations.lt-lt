@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6d4cc52a90b25406080032c7a98caa59f53ce188
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: ea1fe6ba374c77784c88cf8202bff2eace217b6a
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909005"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102715"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Kliento portalo tinkinimas ir naudojimas
 
@@ -44,7 +44,7 @@ Toliau nurodytose temose pateikiama pagrindinė informacija apie „Power Apps�
 
 ## <a name="customize-the-order-creation-process"></a>Užsakymų kūrimo proceso tinkinimas
 
-Kai vartotojas pateikia užsakymą naudodamas kliento portalą, užsakymas automatiškai sinchronizuojamas su atitinkama „Dynamics 365 Supply Chain Management“ aplinka. Kadangi vartotojas yra išorinis klientas, nuo jo / jos tyčia paslepiama dalis reikalingos informacijos. Ši informacija bus automatiškai įrašyta, kai forma pateikiama.
+Kai vartotojas pateikia užsakymą naudodamas kliento portalą, užsakymas automatiškai sinchronizuojamas su atitinkama „Dynamics 365 Supply Chain Management“ aplinka. Kadangi vartotojas yra išorinis klientas, nuo jo tyčia paslepiama dalis reikalingos informacijos. Ši informacija bus automatiškai įrašyta, kai forma pateikiama.
 
 Šiame skyriuje parodyta, kaip nustatyti kontaktus, kad būtų išvengta klaidų. Čia paaiškinami automatiškai nustatyti laukai ir kaip prireikus galite modifikuoti tų laukų vertes.
 
@@ -61,7 +61,7 @@ Kai vartotojas pateikia užsakymą naudodamas kliento portalą, užsakymas autom
     - **Paraiškos numeris** – įveskite užsakymo paraiškos numerį. Šis laukas nėra privalomas.
     - **Siuntimo šalis / regionas** – įveskite šalį arba regioną, į kurį bus pristatomos prekės. Šis laukas nustatomas automatiškai vartotojams, kurie nėra administratoriai.
 
-    ![Užsakymo informacijos puslapis](media/customer-portal-order-information.png "Užsakymo informacijos puslapis")
+    ![Informacijos apie užsakymą puslapis](media/customer-portal-order-information.png "Informacijos apie užsakymą puslapis")
 
 1. Pasirinkite **Toliau**.
 1. Puslapyje **Prekės** pasirinkite **Įtraukti prekę**.
@@ -82,7 +82,7 @@ Kai vartotojas pateikia užsakymą naudodamas kliento portalą, užsakymas autom
 1. Baigę įtraukti prekes, puslapyje **Prekės** pasirinkite **Pirmyn**.
 1. Puslapyje **Užsakymo informacija** pateikiama užsakymo suvestinė. Peržiūrėkite užsakymo turinį ir pristatymo informaciją. Jei viskas įvesta teisingai, pasirinkite **Pateikti**, kad pateiktumėte užsakymą.
 
-    ![Užsakymo informacijos puslapis](media/customer-portal-order-submit.png "Užsakymo informacijos puslapis")
+    ![Įvykdyto užsakymo informacijos puslapis](media/customer-portal-order-submit.png "Įvykdyto užsakymo informacijos puslapis")
 
 ### <a name="standard-data-setup"></a>Standartinių duomenų nustatymas
 

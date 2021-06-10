@@ -1,5 +1,5 @@
 ---
-title: Mokesčiuose dviejų valiutų palaikymas
+title: Dviejų valiutų palaikymas mokesčiuose
 description: Šioje temoje paaiškinama, kaip išplėsti dviejų valiutų apskaitos funkciją mokesčių srityje, ir nurodoma, koks gali būti poveikis mokesčiams apskaičiuoti ir registruoti
 author: EricWang
 ms.date: 12/11/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0a3245febe31857181d17bba42e12b65f4ebb40f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3673642729aa41fa3c00a09fe8fe205edd0624c7
+ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832975"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6088470"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>PVM dviejų valiutų palaikymas
 [!include [banner](../includes/banner.md)]
@@ -41,9 +41,10 @@ Daugiau informacijos apie dviejų valiutų funkciją rasite [Dvi valiutos](dual-
 
 Dėl dviejų valiutų palaikymo funkcijų valdyme atsirado dvi naujos funkcijos: 
 
-- Prekybos mokesčių konvertavimas (naujas versijoje 10.0.13)
+- PVM konvertavimas (naujas versijoje 10.0.13)
+- Įveskite finansines dimensijas patirto valiutos koregavimo pelno/nuostolio sąskaitose, skirtose PVM sudengimui (nauja 10.0.17 versijoje)
 
-Dviejų valiutų palaikymas PVM srityje užtikrina, kad mokesčiai bus tiksliai apskaičiuoti mokesčių valiuta ir kad PVM sudengimo balansas bus apskaičiuotas tiksliai ir apskaitos valiuta, ir ataskaitų valiuta. 
+Dviejų valiutų palaikymas PVM užtikrina, kad mokesčiai bus apskaičiuoti tiksliai mokesčių valiuta ir tai, kad PVM sudengimo balansas bus tiksliai apskaičiuotas tiek apskaitos, tiek ataskaitų valiuta.
 
 ## <a name="sales-tax-conversion"></a>PVM konvertavimas
 
@@ -88,6 +89,10 @@ Mokesčio suma = 100 EUR
 
 Kad būtų užkirstas kelias ankstesniam scenarijui, rekomenduojame pakeisti šią parametro vertę nauju (švariu) mokesčių sudengimo laikotarpiu, kuriame nėra nesudengtų mokesčių operacijų. Norėdami pakeisti šią vertę mokesčių sudengimo laikotarpio viduryje, prieš keisdami šio parametro reikšmę vykdykite dabartinio mokesčių sudengimo laikotarpio programą Sudengti ir registruoti PVM.
 
+Ši funkcija įtrauks apskaitos įrašus, kurie paaiškina pelną ir nuostolius, patirtus keičiant valiutas. Įrašai bus įvesti patirto valiutos koregavimo pelno ir nuostolio sąskaitose, kai PVM sudengimo metu atliekamas perkainojimas. Daugiau informacijos rasite skyriuje [Mokesčių sudengimas pagal automatinį balansą ataskaitų valiuta](#tax-settlement-auto-balance-in-reporting-currency), esančiame toliau šioje temoje.
+
+> [!NOTE]
+> Sudengimo metu informacija apie finansines dimensijas yra paimama iš PVM sąskaitų, kurios yra balanso sąskaitos, ir įvedama į valiutos koregavimo pelno ir nuostolio sąskaitas, kurios yra pelno ir nuostolio išrašo sąskaitos. Kadangi finansinių dimensijų vertės apribojimai skiriasi balanso sąskaitose bei pelno ir nuostolio išrašo sąskaitose, PVM sudengimo ir užregistravimo proceso metu gali įvykti klaida. Kad nereikėtų modifikuoti sąskaitos struktūrų, galite įjungti funkciją „Automatiškai įvesti finansines dimensijas į patirto valiutos koregavimo pelno/nuostolio sąskaitas, skirtas PVM sudengimui”. Ši funkcija sąlygos finansinių dimensijų išvedimą į valiutos koregavimo pelno/nuostolio sąskaitas. 
 
 ## <a name="track-reporting-currency-tax-amount"></a>Mokesčių sumos ataskaitų valiuta sekimas
 
@@ -107,14 +112,14 @@ Mokesčių, tik įrašytų lentelėje TAXUNCOMMITTED, bet dar neužregistruotų 
 
 Jei mokesčių nustatymas yra nesubalansuotas ataskaitų valiutoje dėl tam tikrų priežasčių, tokių kaip prekybos mokesčių konveratvimo kelio „Apskaitos valiuta“ arba keitimo kurso pasikeitimo vieno mokesčio nustatymo laikotarpio metu, tuomet sistema automatiškai sukurs apskaitos įrašus, kad pakeistų mokesčio vertės pokyčius ir paleis juos pagal atliktų keitimų pelną ar nuostolius, kurie konfigūruojami mokesčių valiutos nustatyme.
 
-Pagal ankstesnį pavyzdį šiai funkcijai pademonstruoti, įsivaizduokite, kad registravimo metu lentelėje TAXTRANS yra tokie duomenys.
+Naudodami ankstesnį pavyzdį šiai funkcijai pademonstruoti, įsivaizduokite, kad registravimo metu lentelėje TAXTRANS yra tokie duomenys.
 
 | PVM konvertavimo parametrai | Operacijos valiuta (EUR) | Apskaitos valiuta (USD) | Ataskaitų valiuta (GBP) | Mokesčių valiuta (GBP) |
 | ------------------------------- | -------------------------- | ------------------------- | ------------------------ | ------------------ |
 | Apskaitos valiuta             | 100                        | 111                       | 83                       | **83.25**          |
 | Ataskaitų valiuta              | 100                        | 111                       | 83                       | **83**             |
 
-Paleidus PVM sudengimo programą mėnesio pabaigoje, apskaitos įrašas bus toks:
+Paleidus PVM sudengimo programą mėnesio pabaigoje, apskaitos įrašas bus toks.
 #### <a name="scenario-sales-tax-conversion--accounting-currency"></a>Scenarijus: PVM konvertavimas = apskaitos valiuta
 
 | Korespondentinė sąskaita, subsąskaita           | Operacijos valiuta (GBP) | Apskaitos valiuta (USD) | Ataskaitų valiuta (GBP) |

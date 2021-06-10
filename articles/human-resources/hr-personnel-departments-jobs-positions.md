@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 87933
 ms.assetid: eb5dcacb-a5fe-451d-b30a-7ef14da65d81
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 31b9532eea82fd5b88fe59718af7be4d242dc885
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 1279cd1eb0d495107515dd40f7d2e0f9dfd5e080
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027895"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6058829"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Darbo jėgos organizavimas naudojant padalinius, užduotis ir pareigas
 
@@ -48,7 +47,7 @@ Padaliniai, užduotys ir pareigos yra organizaciniai elementai, tvarkomi modulyj
 
 Padalinys yra valdymo vienetas, atitinkantis organizacijos kategoriją arba funkcinę sritį, skirtą tam tikrai organizacijos veiklos sričiai, pvz., pardavimui arba apskaitai, valdyti. Padalinys naudojamas informuoti apie funkcines sritis ir jam gali būti priskirta pelno ir nuostolio atsakomybė. Be to, padalinyje gali būti išlaidų centrų grupė. Pardavimo, apskaitos ir personalo valdymo skyriai galėtų būti vieni iš organizacijos padalinių pavyzdžių.
 
-## <a name="jobs-and-positions"></a> Užduotys ir pareigos
+## <a name="jobs-and-positions"></a>Užduotys ir pareigos
 Užduotis yra užduočių ir pareigų, kurias asmeniui reikia įvykdyti, rinkinys. Pozicija yra individualus užduoties egzempliorius. Užduočiai atlikti būtinos atsakomybės ribos, darbo užduotys, užduočių funkcijos, įgūdžiai, išsilavinimo informacija taip pat būtini pareigoms, susijusioms su ta užduotimi, eiti.
 ### <a name="job-tasks"></a>Darbo užduotys
 

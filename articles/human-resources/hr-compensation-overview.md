@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmCompensationLevel, HRCCompGrid, HRMCompFixedAction, HRMCompFixedBudget, HRMCompFixedPlanTable, HcmCompensationWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1be212cae4b0df136bb19b9521fd80aa29f7e094
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b773b12b7eb3a8a59627d011f2469a98c5dde58a
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793758"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6058925"
 ---
 # <a name="compensation-plans"></a>Kompensacijų planai
 
@@ -31,13 +30,13 @@ Kompensacijų ir išmokų vadovai gali naudoti Kompensavimo valdymą, skirtą pr
 
 ### <a name="introduction"></a>Įžanga
 
-Kompensacijų valdymas naudojamas kontroliuoti pagrindinio užmokesčio ir premijų pristatymui. Darbuotojo fiksuotas pagrindinis užmokestis ir nuopelnų padidėjimai kontroliuojami naudojant pastoviosios kompensacijos dalies planus. Skatinamųjų išmokų, pvz., priedų, apdovanojimų už našumą, akcijų pasirinkimo sandorių, subsidijų bei vienkartinių premijų mokėjimas valdomas naudojant kintamosios kompensacijos dalies planus. 
+Kompensacijų valdymas naudojamas kontroliuoti pagrindinio užmokesčio ir premijų pristatymui. Darbuotojo fiksuotas pagrindinis užmokestis ir nuopelnų padidėjimai kontroliuojami naudojant pastoviosios atlyginimo dalies dalies planus. Skatinamųjų išmokų, pvz., priedų, apdovanojimų už našumą, akcijų pasirinkimo sandorių, subsidijų bei vienkartinių premijų mokėjimas valdomas naudojant kintamosios kompensacijos dalies planus. 
 
 Darbuotojai gali būti registruojami vienam arba keliems abiejų tipų planams. Kad turėtų teisę registruotis kompensavimo planui, darbuotojas turi atitikti toliau nurodytus reikalavimus.
 -   Darbuotojui turi būti priskirtos aktyvios pareigos.
 -   Darbuotojas turi atitikti kriterijus, kuriuos apibrėžia kompensavimo plano tinkamumo taisyklės.
 
-## <a name="compensation-setup"></a> Kompensavimo sąranka
+## <a name="compensation-setup"></a>Kompensacijos sąranka
 Toliau pateiktoje lentelėje išvardijami kompensavimo proceso komponentai, kurie gali būti itin svarbūs nustatant jūsų įmonės kompensavimo planus.
 
 <table>
@@ -53,7 +52,7 @@ Toliau pateiktoje lentelėje išvardijami kompensavimo proceso komponentai, kuri
 <td>Pastoviosios kompensavimo dalies veiksmais pasiekiama toliau nurodytų dviejų tikslų.
 <ul>
 <li>Veiksmai gali nurodyti, kokią informaciją reikia įrašyti, kai pasikeičia darbuotojo kompensavimas. Pavyzdžiui, galite reikalauti, kad būtų įrašoma pokyčio priežastis, pvz., paaukštinimas arba pažeminimas pareigose.</li>
-<li>Veiksmai gali užtikrinti, kad, apdorojant pastoviosios kompensacijos dalies planus, būtų taikomas skaičiavimas.  Pvz., tipo Kapitalas veiksmai darbuotojų užmokestį palygins su darbuotojo lygio minimaliu atskaitos tašku ir užtikrins, kad darbuotojui būtų mokamas bent minimumas.</li>
+<li>Veiksmai gali užtikrinti, kad, apdorojant pastoviosios kompensacijos dalies planus, būtų taikomas skaičiavimas.  Pvz., tipo Kapitalas veiksmai darbuotojų užmokestį palygins su darbuotojo lygio minimaliu atskaitos tašku ir užtikrins, kad darbuotojui&#39;būtų mokamas bent minimumas.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -62,7 +61,7 @@ Toliau pateiktoje lentelėje išvardijami kompensavimo proceso komponentai, kuri
 </tr>
 <tr class="odd">
 <td>Diapazono realizavimo matrica</td>
-<td>Diapazono realizavimo matrica padeda darbuotojus perkelti į jų darbų kontrolinį tašką. Taip pat galite naudoti diapazono realizavimą, norėdami valdyti mokėjimo koeficiento kapitalą įmonės viduje neatsižvelgiant į kiekvieno darbuotojo darbą ar visos įmonės darbą. Pavyzdžiui, darbuotojai, kuriems sumokama mažiau, nei numatyta pagal diapazoną, gauna didesnio procento padidinimą, nei tie darbuotojai, kuriems pagal diapazoną mokama daugiau. Tokiu būdu galite sistematiškai balansuoti kapitalo skirtumus. Diapazono realizavimas apskaičiuojamas taip: (Fiksuotas užmokesčio tarifas – Diapazono minimumas) ÷ (Diapazono maksimumas – Diapazono minimumas).</td>
+<td>Diapazono realizavimo matrica padeda darbuotojus perkelti į jų darbų kontrolinį tašką. Taip pat galite naudoti diapazono realizavimą, norėdami valdyti mokėjimo koeficiento kapitalą įmonės viduje neatsižvelgiant į kiekvieno darbuotojo&#39;darbą ar visos įmonės darbą. Pavyzdžiui, darbuotojai, kuriems sumokama mažiau, nei numatyta pagal diapazoną, gauna didesnio procento padidinimą, nei tie darbuotojai, kuriems pagal diapazoną mokama daugiau. Tokiu būdu galite sistematiškai balansuoti kapitalo skirtumus. Diapazono realizavimas apskaičiuojamas taip: (Fiksuotas užmokesčio tarifas – Diapazono minimumas) ÷ (Diapazono maksimumas – Diapazono minimumas).</td>
 </tr>
 <tr class="even">
 <td>Atskaitos taškų nustatymai</td>
@@ -127,7 +126,7 @@ Apdorojimo įvykis skaičiuoja tam tikro laikotarpio kompensavimo informaciją v
 
 Kiekvieną kartą vykdant apdorojimo įvykį, sukuriamas kompensavimo įvykis.  Kompensavimo įvykiuose yra kiekvieno darbuotojo, įtraukto į tą apdorojimo įvykį, kompensavimo proceso rezultatai.  Kai skaičiavimai yra teisingi, galite įkelti kompensavimo įvykį, kad atnaujintumėte darbuotojų, kuriuos paveikė apdorojimo įvykis, kompensacijų įrašus.
 
-## <a name="recommendations"></a> Rekomendacijos
+## <a name="recommendations"></a>Rekomendacijos
 Paleidę apdorojimo įvykį, pagal apskaičiuotas apdorojimo įvykio gaires galite rekomenduoti koreguoti darbuotojo nuopelnų padidėjimą ar premijos sumą. Norėdami teikti rekomendacijas dėl darbuotojų, nustatydami kompensavimo planus arba apdorojimo įvykį turite įgalinti rekomendacijas.
 
 

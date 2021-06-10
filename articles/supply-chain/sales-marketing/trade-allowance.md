@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 58cdfcf67ab774bbc119f2507920f1fb1d7a562c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 51b734e6a94ffdfabb218a19986f1bec65b839e7
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824779"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102811"
 ---
 # <a name="trade-allowance-management"></a>Prekybos nuolaidų valdymas
 
@@ -171,7 +171,7 @@ Norėdami patvirtinti prekybos įvykį, kurio tipas **Fiksuota suma**, pasirinki
 
 ## <a name="settle-the-deduction-that-is-due-and-the-customer-short-pay-by-using-the-deduction-workbench"></a>Mokėtino atskaitymo sudengimas ir kliento trumpas mokėjimas naudojant atskaitymo darbo sritį
 
-Dažnai tikėdamiesi vėliau pateikiamų SF klientai pasirenka trumpo mokėjimo SF. Siekdamas išvengti mokėjimo suderinimo problemų ateityje, gautinų sumų klerkas užregistruoja tuos trumpus mokėjimus kaip atskaitymus, kai jis įrašo faktinius kliento mokėjimus. Tada atskaitymo darbo srityje tuos kliento atskaitymus galima lengvai sudengti pagal paraiškų sumas, kurias įmonė turi sumokėti.
+Dažnai tikėdamiesi vėliau pateikiamų SF klientai pasirenka trumpo mokėjimo SF. Siekdamas išvengti mokėjimo suderinimo problemų ateityje, įrašydamas faktinius kliento mokėjimus gautinų sumų klerkas užregistruoja tuos trumpus mokėjimus kaip atskaitymus. Tada atskaitymo darbo srityje tuos kliento atskaitymus galima lengvai sudengti pagal paraiškų sumas, kurias įmonė turi sumokėti.
 
 Norėdami registruoti kliento trumpą mokėjimą mokėjimo žurnale, pasirinkite **Gautinos sumos** \> **Mokėjimai** \> **Mokėjimo žurnalas** ir sukurkite naują mokėjimo žurnalą. Veiksmų srityje pasirinkite **Atskaitymai**. Puslapyje **Atskaitymas** galite kurti ir sekti trumpo mokėjimo sumą.
 

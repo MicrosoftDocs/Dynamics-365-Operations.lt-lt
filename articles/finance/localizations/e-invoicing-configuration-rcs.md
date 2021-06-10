@@ -2,7 +2,7 @@
 title: Elektroninių SF išrašymo priedų „Regulatory Configuration Services“ (RCS) konfigūravimas
 description: Šioje temoje paaiškinama, kaip konfigūruoti elektroninių sąskaitų priedus „Dynamics 365 Regulatory Configuration Services“ (RCS).
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 05/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d7945cc899cf161f294dfcc3f6d1a9a79c9453ab
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 6c1d309744c4c8dd0d17f5259551d31c257ede61
+ms.sourcegitcommit: 633d51834d7d29b745824924315a3898dc471f1a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897725"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6075148"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Elektroninių SF išrašymo priedų „Regulatory Configuration Services“ (RCS) konfigūravimas
 
@@ -75,7 +75,7 @@ Toliau pateikiamoje lentelėje rodomos šiuo metu peržiūrimos elektroninių SF
 | Vokietija        | Vokietijos elektroninė SF (DE)       | Pardavimo SF ir projekto SF |
 | Italija          | FatturaPA (IT)                       | Pardavimo SF ir projekto SF |
 | Meksika         | Meksikos CFDI (MX)                    | Pardavimo SF, važtaraščiai, atsargų perkėlimai, mokėjimo papildomi mokėjimai ir atšaukimai |
-| Olandija    | Nyderlandų elektroninė SF (NL)        | Pardavimo SF ir projekto SF |
+| Nyderlandai    | Nyderlandų elektroninė SF (NL)        | Pardavimo SF ir projekto SF |
 | Norvegija         | Norvegijos elektroninė SF (NO)    | Pardavimo SF ir projekto SF |
 | Ispanija          | Ispanijos elektroninė SF (ES)      | Pardavimo SF ir projekto SF |
 | Europa         | PEPPOL elektroninė SF            | PEPPOL pardavimo SF ir projekto SF |
@@ -195,11 +195,13 @@ Toliau pateikti sąrašai rodo ER formato konfigūracijas, galimas elektroninių
 - Pardavimo SF (ES)
 - Projekto SF (ES)
 
+Be ER formato konfigūracijų, kurios yra visiškai parengtos naudoti su Elektroninių sąskaitų faktūrų išrašymo paslauga, jūs taip pat galite sukurti savo ER formato konfigūracijas. Tačiau formato konfigūracijos, sukurtos naudoti su Elektroninių sąskaitų faktūrų išrašymo funkcijomis, nepalaiko tiesioginės nuorodos į „Finance” ar „Supply Chain Management” lenteles ar bet kuriuos atitinkamus metaduomenis. Palaikomos tik nuorodos į ER modelio susiejimą.
+
 ### <a name="actions"></a>Veiksmai
 
 Šioje lentelėje pateikiami galimi veiksmai ir nurodoma, ar jie šiuo metu yra bendrai pasiekiami, ar vis dar peržiūrimi.
 
-| Operacija                                        | aprašymas                                                                  | Prieinamumas         |
+| Operacija                                        | Aprašas                                                                  | Prieinamumas         |
 |-----------------------------------------------|------------------------------------------------------------------------------|----------------------|
 | Pakeisti dokumentą                            | Vykdyti elektroninės ataskaitos formatą dokumentui transformuoti.                   | Bendrai prieinama  |
 | Pasirašyti xml dokumentą                             | Pasirašyti xml dokumentus skaitmeniniu parašu.                                   | Peržiūros režimu           |

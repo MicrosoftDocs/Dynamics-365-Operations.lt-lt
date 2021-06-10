@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: afffdfba965806d18b148c77774a31bbb3c0c46c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7628f2fc3d3a7e5bb1175edf59f856bc40f9b987
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831775"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102835"
 ---
 # <a name="flex-groups"></a>Nukrypimų grupės
 
@@ -103,7 +103,7 @@ Darbuotojas susietas su nukrypimų grupe, kurioje naudojamos toliau nurodytos ko
 - **Minimalaus mokėjimo tipas:** 1302
 - **Mokėjimo tipo faktorius:** -1,0
 
-Pagal skirtumą tarp darbuotojos nukrypimo sąskaitos ir leidžiamo jos maksimalaus nukrypimo paaiškėja, kad 4,0 valandomis viršytas leidžiamas minimalus darbuotojos nukrypimas.
+Pagal skirtumą tarp darbuotojo nukrypimo sąskaitos ir leidžiamo jo maksimalaus nukrypimo paaiškėja, kad 4,0 valandomis viršytas leidžiamas minimalus darbuotojo nukrypimas.
 
 Algalapio administratoriui paleidus užduotį **Perkelti į užmokestį** arba **Nukrypimo koregavimas** ir perkėlus darbuotojo užmokesčio duomenis atliekami toliau nurodyti koregavimai.
 

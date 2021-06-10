@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2c69ab02ea9e6a5a5699a204258243d6204413b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e89e8b4860bbafe4bd47d62d2feb7d197f233d24
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825307"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102787"
 ---
 # <a name="purchasing-policies-overview"></a>Pirkimo strategijų apžvalga
 
@@ -55,13 +55,13 @@ Kai 2222 juridinio subjekto darbuotojas kuria pirkimo paraišką, strategijos ta
 Ankstesniame pavyzdyje visos pirkimo taisyklės buvo nurodytos vienoje organizacijos hierarchijoje – Įmonės. Tačiau sudėtinga organizacija gali nustatyti kelių organizacijos hierarchijų strategijas.  
 
 
-„Contoso“ yra didelė įmonė, kuriai reikalingos sudėtingos pirkimo taisyklės paraiškų procesui valdyti. „Contoso“ nustatė šių dviejų skirtingų organizacijos hierarchijų taisykles: Padalinys ir Visuotinis pirkimo valdymas.  
+„Contoso” yra didelė įmonė, kuriai reikalingos sudėtingos pirkimo taisyklės paraiškų procesui valdyti. „Contoso” nustatė šių dviejų skirtingų organizacijos hierarchijų taisykles: Padalinio ir Visuotinio pirkimo valdymo.  
 
 123 strategija nustatyta pardavimo JK (pardavimo padalinio) organizacijos hierarchijai Padalinys. 123 strategijoje pirkimo paraiškos kontrolės taisyklė nurodo, kad minimaliems užsakymo kiekiams turi būti taikomi apribojimai. Šioje taisyklėje pasirenkama parinktis **Taikyti minimalaus užsakymo kiekio apribojimus**.  
 
 456 strategija nustatyta pardavimo ir rinkodaros padalinio organizacijos hierarchijai Visuotinis pirkimo valdymas. 456 strategijoje pirkimo paraiškos kontrolės taisyklė nenurodo, kad minimaliems užsakymo kiekiams turi būti taikomi apribojimai. Šioje taisyklėje pasirenkama parinktis **Taikyti minimalaus užsakymo kiekio apribojimus**.  
 
-Semas dirba „Contoso“ JK biuro pardavimo JK padalinyje. Šiam padaliniui taikomos abi organizacijos hierarchijos: Padalinys ir Visuotinis pirkimo valdymas. Kai Semas kuria pirkimo paraišką, sistema turi nustatyti, kokią strategiją taikyti. Sistemos administratorius nustato pirkimo strategijos parametrus, pagal kuriuos pirkimo strategijos turi būti taikomos toliau nurodyta pirmumo tvarka.
+Semas dirba JK Pardavimai – „Contoso” Jungtinės Karalystės biuro pardavimų skyriuje. Šiam padaliniui taikomos abi organizacijos hierarchijos: Padalinys ir Visuotinis pirkimo valdymas. Kai Semas kuria pirkimo paraišką, sistema turi nustatyti, kokią strategiją taikyti. Sistemos administratorius nustato pirkimo strategijos parametrus, pagal kuriuos pirkimo strategijos turi būti taikomos toliau nurodyta pirmumo tvarka.
 
 1.  Visuotinis pirkimo valdymas
 2.  Padalinys
@@ -132,7 +132,7 @@ Pirkimo užsakymo kūrimo ir poreikio konsolidavimo taisyklė nurodo, kurias str
 -   Skirtuke **Leistinas kainos nuokrypis** galite nustatyti taisykles, kurios naudojamos siekiant patvirtintas pirkimo paraiškas nukreipti atgal į peržiūros procesą, kai padidėja įsigijimo katalogo prekės kaina. Nustatykite didžiausią sumą, kuria pirkimo paraiškos eilutės prekės grynoji suma gali būti padidinta nuo pirkimo paraiškos patvirtinimo ir pirkimo užsakymo sukūrimo laiko. Grynoji suma apskaičiuojama pagal šią formulę: (\[Kiekis × (Vieneto kaina – Nuolaida) ÷ Kainos vienetas\] + Papildomos pirkimo išlaidos) × (100 – nuolaidos procentas) ÷ 100. Jūsų nustatytą kainos nuokrypį viršijančios pirkimo paraiškos eilutės apdorojamos neautomatiškai. Taisyklės, kurias galite konfigūruoti skirtuke **Klaidų apdorojimas**, nustato, kaip apdorojamos pirkimo paraiškos eilutės.
 -   Skirtuke **Klaidų apdorojimas** galite konfigūruoti apdorojimo taisyklę, taikomą pirkimo paraiškai, jei jos patvirtinimas pirkimo užsakymo kūrimo metu nepavyksta dėl tiekėjo klaidos arba kainos nuokrypio klaidos. Pasirinkite vieną iš toliau pateiktų pasirinkčių:
     -   **Veiksmų nėra** – pirkimo paraiškos eilutės lieka puslapyje **Išleisti patvirtintas pirkimo paraiškas**. Pirkimo paraiškos eilučių būsena lieka **Patvirtinta**. Tačiau klaidos turi būti išspręstos, kad pirkimo užsakymas galėtų būti generuojamas pirkimo paraiškos eilutėms.
-    -   **Atšaukti pirkimo paraiškos eilutę** – atšaukiamos pirkimo paraiškos eilutės. Prašytojas gali sukurti naują pirkimo paraišką atšauktoms eilutėms, jei jis ar ji vis dar nori prašyti eilutės elementų.
+    -   **Atšaukti pirkimo paraiškos eilutę** – atšaukiamos pirkimo paraiškos eilutės. Prašytojas gali sukurti naują pirkimo paraišką atšauktoms eilutėms, jei jis vis dar nori prašyti eilutės elementų.
     -   **Kurti naują pirkimo paraiškos eilutę** – kuriamos pirkimo paraiškos eilutės. Generuojamos naujos pirkimo paraiškos, kuriose yra tik pirkimo paraiškos eilutės, kurių tikrinimas nepavyko. Naujai sugeneruotų pirkimo paraiškų būsena yra **Juodraštis**. Šias pirkimo paraiškas galima pateikti pakartotinai peržiūrėti po to, kai tikrinimo klaidos buvo išspręstos. Pirkimo paraiškos eilučių rengėjui yra pranešama, kad eilutės buvo atšauktos, ir kad naujos pirkimo paraiškos buvo sugeneruotos pirkimo paraiškos eilutėms, kurių tikrinimas nepavyko.
 -   Skirtuke **Neautomatinis pirkimo užsakymo kūrimas** galite nurodyti parametrus, kurie nustato, ar pirkimo paraiška turi būti apdorojama neautomatiniu būdu, ar ji gali būti automatiškai konvertuojama į pirkimo užsakymą. Parametrus galite taikyti vidaus katalogo prekėms, išorės katalogo prekėms arba ne katalogo prekėms. Pasirinkite vieną iš toliau pateiktų pasirinkčių:
     -   **Kurti pirkimo užsakymus neautomatiškai** – visų pirkimo paraiškų pirkimo užsakymus kurkite neautomatiškai.

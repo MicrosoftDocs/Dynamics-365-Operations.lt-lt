@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d3acbc15b6dc5f698f26aae96c75cc942189c6c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 657dd864885bc7c8216aab95a73f389f21f7cccd
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808803"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102931"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiliųjų įrenginių nustatymas darbui sandėlyje
 
@@ -41,6 +41,7 @@ Norėdami kurti veiklos ar užklausos meniu elementą, nustatykite lauko **Reži
 > Gali būti galimi papildomi meniu elementų laukai, atsižvelgiant į pasirinktą meniu elementą ir tai, ar meniu elementas naudojamas norint atlikti esamą darbą. Informacijos apie papildomų laukų pasirinktis žr. šios temos skyriuje „Papildomos meniu elementų parinktys“.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Veiklų ir užklausų meniu elementų konfigūravimas
+
 Jei meniu elemento laukas **Režimas** nustatytas kaip **Netiesioginis**, galite sukurti meniu elementą, kad būtų galima atlikti bendrą veiklą arba užklausą, kuri nekuria darbo. Tokios veiklos pavyzdžiai gali būti pakartotinis numerio lentelių žymių spausdinimas ir užklausa dėl vietoje esančių prekių. Toliau pateiktoje lentelėje nurodytos galimos parinktys.
 
 | Parinktis | Prekės/Paslaugos pavadinimas |
@@ -58,16 +59,15 @@ Jei meniu elemento laukas **Režimas** nustatytas kaip **Netiesioginis**, galite
 | Numerio lentelės versija | Kurkite pirminę numerio lentelę sujungdami kelias toje pačioje vietoje esančias numerių lenteles. Ši parinktis naudinga perkeliant kelias numerių lenteles vienu metu. Kai perkeliama pirminė numerio lentelė, prieš išrenkant prekes iš kiekvienos numerio lentelės reikia suskaidyti numerio lentelę. <p></p>**Patarimas.** Norėdami perkelti pirminę numerio lentelę, turite naudoti mobilųjį įrenginį, konfigūruotą kurti perkėlimo darbus. |
 | Numerio lentelių grupavimas | Suskaidykite sudėtinę numerio lentelę, kad galėtumėte išrinkti prekes iš ją sudarančių numerių lentelių. |
 | Vairuotojo registravimas | Jei naudojate modulį Transportavimo valdymas, užregistruokite vairuotojo atvykimą nuskaitydami siunčiamo krovinio ID, paskyros ID arba siuntos ID. Norint naudoti šią parinktį krovinį reikia priskirti paskyrai, o krovinio būsena turi būti **Pakrauta**. |
-| Vairuotojo išregistravimas | Užregistruokite, kad vairuotojas baigė savo paskyrą. |
+| Vairuotojo išregistravimas | Užregistruokite, kad vairuotojas baigė savo paskyrimą. |
 | Valyti numeravimo talpyklą | Naikinkite numeracijos numerius iš numeracijos talpyklos. Šią veiklą paprastai atlieka sistemos administratorius šalindamas kaupimo talpykloje problemas, kai naudojami mobilieji įrenginiai. |
 | Keisti paketo perdavimą | Leiskite darbuotojui nurodyti prekės paketo perdavimo kodą ir paketą. Ši pasirinktis atnaujina nurodytą paketo perdavimo kodą. |
 | Rodyti atidarytą užduočių sąrašą | Rodyti galimų darbų sąrašą tam tikram vartotojui. Tada vartotojas galės pasirinkti atliktiną darbą ir bus nukreiptas į jį. Šis sąrašas skirtas žiūrėti planšetiniuose įrenginiuose, kurių ekrano įstrižainė – 7 coliai ar daugiau. Jums pasirinkus šią parinktį, tampa galimi meniu elementai **Redaguoti užklausą** ir **Laukų sąrašas**. Puslapyje **Redaguoti užklausą** galima nustatyti darbo, rodomo sąraše, kriterijus. Puslapyje **Laukų sąrašas** galima pasirinkti darbų sąraše rodomus laukus. Pavyzdžiui, galima sumažinti rodomų laukų skaičių, kad vartotojas galėtų greičiau pažymėti tinkamiausią darbo elementą. „FastTab“ skirtuko **Bendra** lauke **Įrašų puslapyje** taip pat galima pasirinkti, kiek darbo įrašų rodoma viename puslapyje. Jei pažymėta parinktis **Leisti vartotojams filtruoti darbą pagal operacijos tipą**, darbų sąraše bus rodomas valdiklis **Filtruoti darbą**, kurį naudodamas vartotojas gali filtruoti darbą pagal operacijos tipą. Vartotojas darbų sąraše matys tik tuos darbus, prie kurių prieiti jis turi teisę. Reikia įsitikinti, kad vartotojai turi teisę prieiti prie vieno ar daugiau vartotojo nurodytų meniu elementų, kurie palaiko konkrečius darbo klasės tipus, prie kurių jie galėtų prieiti. Teisės taip pat patikrinamos, kai vartotojas mėgina atlikti darbą iš sąrašo.|
 | Kurti perkėlimo užsakymą iš numerio lentelių | Tai leidžia sandėlio darbuotojams kurti ir apdoroti perkėlimo užsakymus tiesiai iš sandėlio valdymo mobiliųjų įrenginių programėlės. Sandėlio darbuotojai pirmiausia pasirenka paskirties sandėlį, o tada gali nuskaityti vieną ar daugiau numerio lentelių naudodami programą. Kai sandėlio darbuotojas pasirenka **Užbaigti užsakymą**, paketinė užduotis sukuria reikiamą perkėlimo užsakymą ir užsakymo eilutes pagal turimas atsargas, užregistruotas toms numerio lentelėms. Daugiau informacijos žr. [Perkėlimo užsakymų kūrimas iš sandėlio programos](create-transfer-order-from-warehouse-app.md)
 
-
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Meniu elementų konfigūravimas siekiant kurti darbą kitam darbuotojui ar procesui
-Galite nustatyti meniu elementą, kuris kuria darbą kitam darbuotojui, kai mobiliajame įrenginyje bus atliktas pradinis veiksmas. Pavyzdžiui, kai vienas darbuotojas naudoja mobilųjį įrenginį prekei priimti, kitam darbuotojui sukuriamas atidėjimo darbas. Norėdami nustatyti meniu elementą, kuris sukuria darbą, puslapio **Mobiliojo įrenginio meniu elementai** lauke **Režimas** pasirinkite **Darbas**. Toliau pateiktoje lentelėje lauko **Darbo kūrimo procesas** parinktys grupuojamos pagal darbo užsakymo tipą.
 
+Galite nustatyti meniu elementą, kuris kuria darbą kitam darbuotojui, kai mobiliajame įrenginyje bus atliktas pradinis veiksmas. Pavyzdžiui, kai vienas darbuotojas naudoja mobilųjį įrenginį prekei priimti, kitam darbuotojui sukuriamas atidėjimo darbas. Norėdami nustatyti meniu elementą, kuris sukuria darbą, puslapio **Mobiliojo įrenginio meniu elementai** lauke **Režimas** pasirinkite **Darbas**. Toliau pateiktoje lentelėje lauko **Darbo kūrimo procesas** parinktys grupuojamos pagal darbo užsakymo tipą.
 
 <table>
 <tbody>
@@ -232,7 +232,7 @@ Be meniu elementų sandėlio darbams kurti nustatymo, galite nustatyti meniu ele
 </tr>
 <tr class="even">
 <td>Vartotojų grupavimas</td>
-<td>Darbuotojas grupuoja darbus rankiniu būdu. Ši parinktis naudinga, kai, pavyzdžiui, darbuotojas vietoje gali išrinkti kelias prekes vienu metu. Baigęs visų reikiamų prekių išrinkimą, darbuotojas gali jas atidėti.</td>
+<td>Darbuotojas grupuoja darbus rankiniu būdu. Ši parinktis naudinga, kai, pavyzdžiui, darbuotojas vietoje gali išrinkti kelias prekes vienu metu. Baigęs visų reikiamų prekių išrinkimą, darbuotojas gali atidėti prekes.</td>
 </tr>
 <tr class="odd">
 <td>Sistemos grupavimas</td>
@@ -249,7 +249,7 @@ Be meniu elementų sandėlio darbams kurti nustatymo, galite nustatyti meniu ele
 <li><strong>Patikrintas vartotojo nurodymu laukas</strong> – pasirinkite lauką, kurį darbuotojas nuskaito norėdamas grupuoti darbus.</li>
 <li><strong>Patikrinta vartotojo nurodymu žymė</strong> – įvesdami tekstą nurodykite darbuotojui, ką reikia nuskaityti, kai išrinkimo darbus grupuoja sistema.</li>
 </ul>
-Ši parinktis naudinga, kai, pavyzdžiui, kroviniui išdėstyti keli padėklai. Jei lauke <strong>Patikrinta vartotojo nurodymu</strong> pasirinksite <strong>LoadId</strong>, darbuotojas galės išrinkti bet kokį su kroviniu susietą padėklą. Darbuotojui pateikiamas klaidos pranešimas, jei jis nuskaito su kroviniu nesusietą&#39; prekę.</td>
+Ši parinktis naudinga, kai, pavyzdžiui, kroviniui išdėstyti keli padėklai. Jei lauke <strong>Patikrinta vartotojo nurodymu</strong> pasirinksite <strong>LoadId</strong>, darbuotojas galės išrinkti bet kokį su kroviniu susietą padėklą. Darbuotojui pateikiamas klaidos pranešimas, jei jis nuskaito prekę, nesusietą&#39; su kroviniu.</td>
 </tr>
 <tr class="odd">
 <td>Klasterio paėmimas</td>
@@ -368,7 +368,7 @@ Pateiktoje lentelėje aprašomos šios pasirinktys.
 <td>Nurodykite, ar darbuotojas pirmiausia turi išrinkti seniausią vietoje esantį paketą. Galimos toliau nurodytos pasirinktys:
 <ul>
 <li><strong>Nėra</strong> – darbuotojas gali išrinkti bet kokį vietoje esantį paketą. Darbuotojui nepateikiamas joks pranešimas.</li>
-<li><strong>Įspėti</strong> – darbuotojas gali išrinkti bet kokį vietoje esantį paketą, bet jei tai nėra&#39; seniausias paketas, pateikiamas įspėjamasis pranešimas.</li>
+<li><strong>Įspėjimas</strong> – darbuotojas gali išrinkti bet kurį vietoje esantį paketą, bet pateikiamas įspėjamasis pranešimas, jei tai nėra&#39; seniausias paketas.</li>
 <li><strong>Priversti</strong> – darbuotojas privalo išrinkti seniausią vietoje esantį paketą. Darbuotojui pateikiamas klaidos pranešimas, jei paketas nėra&#39; seniausias paketas. <strong>Pastaba.</strong> Ši parinktis aktuali tik jei <strong>Paketo numeris</strong> vertė yra žemesnė nei <strong>Vieta</strong> prekei priskirtoje rezervavimo hierarchijoje.</li>
 </ul></td>
 </tr>
@@ -386,7 +386,7 @@ Pateiktoje lentelėje aprašomos šios pasirinktys.
 </tr>
 <tr class="even">
 <td>Naudoti numatytuosius duomenis</td>
-<td>Pasirinkę šią parinktį veiksmų srityje įgalinsite mygtuką <strong>Numatytieji duomenys</strong>, kurį naudodami galėsite rinktis laukus, kuriuose bus rodomi duomenys, paprastai reikalingi darbuotojui kasdieniame jo darbe. Ši parinktis naudinga, jei, pavyzdžiui, darbuotojas dažnai išrenka prekes iš tos pačios vietos. Galite pasirinkti lauką <strong>Vieta iš</strong>, kad pagal numatytuosius parametrus būtų rodoma vieta.</td>
+<td>Pasirinkite šią parinktį, kad veiksmų srityje įgalintumėte mygtuką <strong>Numatytieji duomenys</strong>, skirtą pasirinkti laukams, kuriuose bus rodomi duomenys, įprastai reikalingi darbuotojui kasdieniame jo darbe. Ši parinktis naudinga, jei, pavyzdžiui, darbuotojas dažnai išrenka prekes iš tos pačios vietos. Galite pasirinkti lauką <strong>Vieta iš</strong>, kad pagal numatytuosius parametrus būtų rodoma vieta.</td>
 </tr>
 <tr class="odd">
 <td>Patikrinimo vartotojo nurodymu laukas</td>
@@ -407,6 +407,7 @@ Pateiktoje lentelėje aprašomos šios pasirinktys.
 </table>
 
 ## <a name="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items"></a>Reikalavimas, kad išrinkdami prekes darbuotojai patvirtintų produktą, vietą arba kiekį
+
 Galite nustatyti darbo patvirtinimus, kuriuose reikalaujama, kad atlikdamas darbus sandėlyje darbuotojas mobiliuoju įrenginiu registruotų vietą arba kiekį. Darbo patvirtinimai padeda užtikrinti, kad darbuotojas būtų reikiamoje vietoje arba dirbtų su reikiamu prekių kiekiu. Be to, galite nustatyti, kad „Supply Chain Management“ automatiškai patvirtintų darbuotojo registraciją. Jei įjungsite automatinį patvirtinimą, negalėsite kartu reikalauti vietos arba kiekio patvirtinimo. Darbo patvirtinimai apima produktus ir produktų variantus. Be to, galite registruoti patvirtinimus nuskaitydami brūkšninį kodą. Norėdami patvirtinti produktus ir produktų variantus, turite įvesti produkto arba produkto varianto ID. Šis ID gali būti produkto ID, produkto ieškos ID, išorinis ID, GTIN arba brūkšninis kodas. Kai įvedate ID arba nuskaitote brūkšninį kodą, mobiliajame įrenginyje rodomos produkto varianto dimensijos. 
 
 Toliau pateikiamoje lentelėje aprašomi įvairūs darbo tipai, su kuriais galite naudoti darbo patvirtinimus.
@@ -426,14 +427,11 @@ Toliau pateikiamoje lentelėje aprašomi įvairūs darbo tipai, su kuriais galit
 > [!NOTE]
 > Produkto patvirtinimo galima reikalauti tik tada, jei darbo tipas – paėmimas ir padėjimas.
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Nustatyti mobiliojo įrenginio meniu elementą pirkimo užsakymo tipo darbui atlikti](tasks/set-up-mobile-device-menu.md)
-
-[Mobiliojo įrenginio meniu elemento gautoms prekėms registruoti nustatymas](tasks/set-up-mobile-device-menu-item-register-received-items.md)
-
-[Atsargų būsenos](../inventory/inventory-statuses.md)
+- [Nustatyti mobiliojo įrenginio meniu elementą pirkimo užsakymo tipo darbui atlikti](tasks/set-up-mobile-device-menu.md)
+- [Mobiliojo įrenginio meniu elemento gautoms prekėms registruoti nustatymas](tasks/set-up-mobile-device-menu-item-register-received-items.md)
+- [Atsargų būsenos](../inventory/inventory-statuses.md)
 
 
 
