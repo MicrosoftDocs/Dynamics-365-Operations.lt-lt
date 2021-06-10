@@ -1,14 +1,14 @@
 ---
-title: Verslo poreikių ir darbo jėgos įgūdžių suderinimas
-description: Galite sekti įgūdžius, kuriuos darbuotojai, pretendentai arba kontaktiniai asmenys turi arba turi turėti, kad efektyviai atliktų savo vaidmenis. Taip pat galite nurodyti įgūdžius, kurių reikia konkrečiam darbui.
+title: Įgūdžių konfigūravimas
+description: Galite sekti savo darbuotojo įgūdžius „Dynamics 365 Human Resources” platformoje. Taip pat galite nurodyti įgūdžius, kurių reikia konkrečiam darbui.
 author: andreabichsel
-ms.date: 11/01/2017
+manager: tfehr
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 3361
 ms.assetid: c2ce94c0-933d-4edb-822c-7f0e7b49e4ee
@@ -16,52 +16,97 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: fc9996c31c3575ccf942907a66e59b00a344f3d1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 816822d1f3d365b4c5571c13e9f596e1c5d5e59c
+ms.sourcegitcommit: 48528233e0f02dbd47e96e030254ef65f2bb899e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793710"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6076564"
 ---
-# <a name="align-workforce-skills-with-business-needs"></a><span data-ttu-id="b6a05-104">Verslo poreikių ir darbo jėgos įgūdžių suderinimas</span><span class="sxs-lookup"><span data-stu-id="b6a05-104">Align workforce skills with business needs</span></span>
+# <a name="configure-skills"></a><span data-ttu-id="38f4a-104">Įgūdžių konfigūravimas</span><span class="sxs-lookup"><span data-stu-id="38f4a-104">Configure skills</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="b6a05-105">Galite sekti įgūdžius, kuriuos darbuotojai, pretendentai arba kontaktiniai asmenys turi arba turi turėti, kad efektyviai atliktų savo vaidmenis.</span><span class="sxs-lookup"><span data-stu-id="b6a05-105">You can track the skills that workers, applicants, or contact persons have, or should have, to fulfill their roles effectively.</span></span> <span data-ttu-id="b6a05-106">Taip pat galite nurodyti įgūdžius, kurių reikia konkrečiam darbui.</span><span class="sxs-lookup"><span data-stu-id="b6a05-106">You can also specify the skills that are required for a specific job.</span></span>
+<span data-ttu-id="38f4a-105">Galite sekti savo darbuotojo įgūdžius „Dynamics 365 Human Resources” platformoje.</span><span class="sxs-lookup"><span data-stu-id="38f4a-105">You can track your worker's skills in Dynamics 365 Human Resources.</span></span> <span data-ttu-id="38f4a-106">Taip pat galite nurodyti įgūdžius, kurių reikia konkrečiam darbui.</span><span class="sxs-lookup"><span data-stu-id="38f4a-106">You can also specify the skills that are required for a specific job.</span></span>
 
-<span data-ttu-id="b6a05-107">Toliau pateikti įgūdžių, kuriuos galite sekti, pavyzdžiai.</span><span class="sxs-lookup"><span data-stu-id="b6a05-107">Examples of skills you can track include the following:</span></span>
--   <span data-ttu-id="b6a05-108">Prižiūrėtojo – gebėjimas prižiūrėti kitų darbą.</span><span class="sxs-lookup"><span data-stu-id="b6a05-108">Supervisory – Ability to supervise the work of others.</span></span>
--   <span data-ttu-id="b6a05-109">Vadovo – gebėjimas vadovauti darbuotojams ir verslo domenams.</span><span class="sxs-lookup"><span data-stu-id="b6a05-109">Leadership – Ability to lead employees and business domains.</span></span>
--   <span data-ttu-id="b6a05-110">Planuotojo – gebėjimas žvelgti į priekį, formuluoti ir analizuoti planus.</span><span class="sxs-lookup"><span data-stu-id="b6a05-110">Planning – Ability to look ahead, to form visions, and to see them through.</span></span>
--   <span data-ttu-id="b6a05-111">HTML – gebėjimas rašyti HTML kodą.</span><span class="sxs-lookup"><span data-stu-id="b6a05-111">HTML – Ability to write HTML code.</span></span>
+<span data-ttu-id="38f4a-107">Įgūdžių, kuriuos galite sekti, pavyzdžiai:</span><span class="sxs-lookup"><span data-stu-id="38f4a-107">Examples of skills you can track include:</span></span>
 
-<span data-ttu-id="b6a05-112">Kad galėtumėte priskirti įgūdį asmeniui arba darbui, sukurti įgūdžių susiejimo iešką arba sukurti įgūdžių šabloną, turite įvesti informaciją apie įgūdžius puslapyje **Įgūdžiai**.</span><span class="sxs-lookup"><span data-stu-id="b6a05-112">Before you can assign a skill to a person or a job, create a skill-mapping search, or create a skill profile, you must enter information about the skills on the **Skills** page.</span></span> <span data-ttu-id="b6a05-113">Kiekvieno įgūdžio atveju pasirinkite įgūdžio tipą ir vertinimo modelį.</span><span class="sxs-lookup"><span data-stu-id="b6a05-113">For each skill, you can select a skill type and a rating model.</span></span>
+- <span data-ttu-id="38f4a-108">Prižiūrėtojo – gebėjimas prižiūrėti kitų darbą.</span><span class="sxs-lookup"><span data-stu-id="38f4a-108">Supervisory – Ability to supervise the work of others.</span></span>
+- <span data-ttu-id="38f4a-109">Vadovo – gebėjimas vadovauti darbuotojams ir verslo domenams.</span><span class="sxs-lookup"><span data-stu-id="38f4a-109">Leadership – Ability to lead employees and business domains.</span></span>
+- <span data-ttu-id="38f4a-110">Planuotojo – gebėjimas žvelgti į priekį, formuluoti ir analizuoti planų vizijas.</span><span class="sxs-lookup"><span data-stu-id="38f4a-110">Planning – Ability to look ahead, to form vision statements, and to see them through.</span></span>
+- <span data-ttu-id="38f4a-111">HTML – gebėjimas rašyti HTML kodą.</span><span class="sxs-lookup"><span data-stu-id="38f4a-111">HTML – Ability to write HTML code.</span></span>
 
-## <a name="rating-models"></a><span data-ttu-id="b6a05-114">Vertinimo modeliai</span><span class="sxs-lookup"><span data-stu-id="b6a05-114">Rating models</span></span>
-<span data-ttu-id="b6a05-115">Vertinimo modelis padeda įvertinti asmens faktinį įgūdžių lygį, turimą pasiekti lygį arba įgūdžio, kurio reikia darbui, lygį.</span><span class="sxs-lookup"><span data-stu-id="b6a05-115">Rating models help evaluate a person's actual level of skill, the level they should work to achieve, or the level of skill that is required for a job.</span></span> <span data-ttu-id="b6a05-116">Vertinimo modeliui galite sukurti iki 10 lygių.</span><span class="sxs-lookup"><span data-stu-id="b6a05-116">You can enter up to 10 levels for a rating model.</span></span>  <span data-ttu-id="b6a05-117">Kiekvienam vertinimo modelio lygiui priskiriamas koeficientas.</span><span class="sxs-lookup"><span data-stu-id="b6a05-117">Each level in a rating model is assigned a factor.</span></span>  <span data-ttu-id="b6a05-118">Koeficiento vertė bus naudojama įgūdžių vertinimui normalizuoti, kuris naudos skirtingus vertinimo modelius.</span><span class="sxs-lookup"><span data-stu-id="b6a05-118">The factor value will be used to normalize the scores of skills that use different rating models.</span></span>  <span data-ttu-id="b6a05-119">Koeficientas turi būti skaičius nuo 0 iki 9 ir kiekvienas lygis turi turėti unikalų koeficientą.</span><span class="sxs-lookup"><span data-stu-id="b6a05-119">The factor must be a number between 0-9 and each level must have a unique factor.</span></span>  <span data-ttu-id="b6a05-120">Didesnių koeficientų lygiai gali daryti didesnę įtaką vertinimo modeliui.</span><span class="sxs-lookup"><span data-stu-id="b6a05-120">Levels with higher factor values carry more weight in a rating model.</span></span>
+<span data-ttu-id="38f4a-112">Jei dar nenustatėte įgūdžių tipų ir vertinimo modelių, turėsite juos įtraukti prieš kurdami įgūdžius.</span><span class="sxs-lookup"><span data-stu-id="38f4a-112">If you haven't already set up skill types and rating models, you'll need to add some before creating skills.</span></span>
 
-## <a name="specify-job-skills"></a><span data-ttu-id="b6a05-121">Darbo įgūdžių nurodymas</span><span class="sxs-lookup"><span data-stu-id="b6a05-121">Specify job skills</span></span>
-<span data-ttu-id="b6a05-122">Kai įvedate informaciją apie darbą, galite nurodyti įgūdžius, kuriuos asmuo turi turėti, kad galėtų atlikti darbą, reikalingą pagal pareigas.</span><span class="sxs-lookup"><span data-stu-id="b6a05-122">When you enter information about a job, you can specify the skills that a person should have to perform the work required for the job.</span></span>  <span data-ttu-id="b6a05-123">Be to, galite nurodyti norimą kiekvieno įgūdžio lygį ir įgūdžio svarbumo lygį.</span><span class="sxs-lookup"><span data-stu-id="b6a05-123">In addition you can specify the desired level for each skill as well the level of importance of the skill.</span></span> <span data-ttu-id="b6a05-124">Skirtingoms pareigoms gali būti reikalingas skirtingas to paties įgūdžio lygis.</span><span class="sxs-lookup"><span data-stu-id="b6a05-124">Different jobs can require different levels of importance for the same skill.</span></span>
+<span data-ttu-id="38f4a-113">Šie žmonės gali įvesti darbuotojo įgūdžius:</span><span class="sxs-lookup"><span data-stu-id="38f4a-113">The following people can enter skills for a worker:</span></span>
 
-## <a name="enter-skills-for-workers-applicants-or-contacts"></a><span data-ttu-id="b6a05-125">Darbuotojų, pretendentų arba kontaktų įgūdžių įvedimas</span><span class="sxs-lookup"><span data-stu-id="b6a05-125">Enter skills for workers, applicants, or contacts</span></span>
-<span data-ttu-id="b6a05-126">Galite įvesti darbuotojų, pretendentų arba kontaktų tikslinius įgūdžius.</span><span class="sxs-lookup"><span data-stu-id="b6a05-126">You can enter target skills or actual skills for workers, applicants, or contacts.</span></span> <span data-ttu-id="b6a05-127">Tikslinis įgūdis yra įgūdis, kurį asmuo planuoja pasiekti.</span><span class="sxs-lookup"><span data-stu-id="b6a05-127">A target skill is a skill that a person plans to achieve.</span></span> <span data-ttu-id="b6a05-128">Faktinis įgūdis yra įgūdis, kurį asmuo šiuo metu turi.</span><span class="sxs-lookup"><span data-stu-id="b6a05-128">An actual skill is a skill that a person currently has.</span></span>
+- <span data-ttu-id="38f4a-114">Darbuotojai gali įvesti savo įgūdžius Darbuotojų savitarnoje.</span><span class="sxs-lookup"><span data-stu-id="38f4a-114">Workers can enter skills for themselves in Employee self-service.</span></span> <span data-ttu-id="38f4a-115">Šiuos įgūdžius privalo patvirtinti vadovas.</span><span class="sxs-lookup"><span data-stu-id="38f4a-115">These skills require manager approval.</span></span>
+- <span data-ttu-id="38f4a-116">Vadovai gali įvesti savo darbuotojų įgūdžius.</span><span class="sxs-lookup"><span data-stu-id="38f4a-116">Managers can enter skills for their workers.</span></span> <span data-ttu-id="38f4a-117">Galite sukurti darbo eigą, automatiškai patvirtinančią šiuos įgūdžius.</span><span class="sxs-lookup"><span data-stu-id="38f4a-117">You can create a workflow that auto-approves these skills.</span></span>
 
-## <a name="skill-mapping-and-skill-mapping-profiles"></a><span data-ttu-id="b6a05-129"> Įgūdžių išdėstymas ir įgūdžių išdėstymo šablonai</span><span class="sxs-lookup"><span data-stu-id="b6a05-129">Skill mapping and Skill mapping profiles</span></span>
-<span data-ttu-id="b6a05-130">Galite kurti įgūdžių išdėstymo iešką, norėdami rasti darbuotoją, pretendentą arba kontaktinį asmenį, kurio kvalifikacija yra tinkama tam tikro tipo užduočiai atlikti.</span><span class="sxs-lookup"><span data-stu-id="b6a05-130">You can create a skill-mapping search to find a worker, applicant, or contact person who is qualified to perform a specific type of task.</span></span> <span data-ttu-id="b6a05-131">Įgūdžių išdėstymo ieškos mechanizmas tikrina visus įgūdžius, išsilavinimą, sertifikatus, atsakingas pareigas ir projekto patirtį ir pateikia rezultatus, kurie atitinka įvestus kriterijus.</span><span class="sxs-lookup"><span data-stu-id="b6a05-131">Skill-mapping searches look across skills, education, certificates, positions of trust and project experience and return results that match the criteria entered.</span></span>  <span data-ttu-id="b6a05-132">Pvz., gali būti naudinga žinoti, kurie jūsų organizacijos darbuotojai yra gavę CPA.</span><span class="sxs-lookup"><span data-stu-id="b6a05-132">For example, it might be useful to know which workers in your organization earned their CPA.</span></span>
+## <a name="create-a-skill-type"></a><span data-ttu-id="38f4a-118">Įgūdžių tipo kūrimas</span><span class="sxs-lookup"><span data-stu-id="38f4a-118">Create a skill type</span></span>
 
-<span data-ttu-id="b6a05-133">Naudodami įgūdžių išdėstymo šablonus galite rasti esamus darbuotojus arba kandidatus, kurių kvalifikacija tiesiogiai atitinka verslo poreikius.</span><span class="sxs-lookup"><span data-stu-id="b6a05-133">Skill-mapping profiles allow you to find current employees or candidates with qualifications that directly correspond to business needs.</span></span>  <span data-ttu-id="b6a05-134">Pvz., galite sukurti atvirų jūsų organizacijos pareigų įgūdžių išdėstymo šabloną.</span><span class="sxs-lookup"><span data-stu-id="b6a05-134">For example, you could create a skill-mapping profile for an open position in your organization.</span></span> <span data-ttu-id="b6a05-135">Sukurdami tam tikros užduoties šabloną ir iš tos užduoties įgūdžius, išsilavinimą ir sertifikatus nukopijuodami į šabloną galite greitai ieškoti darbuotojų, pretendentų ir kontaktinių asmenų, kurie atitinka vieną arba daugiau šablone įvestų kriterijų, ir peržiūrėti kandidatų, kurių įgūdžiai labiausiai atitinka įgūdžių, reikalingų užduočiai atlikti, sąrašą.</span><span class="sxs-lookup"><span data-stu-id="b6a05-135">By creating a profile for a particular job and copying the skills, education and certificates from that job to the profile, you can quickly search workers, applicants and contact persons who match one or more of the criteria entered on the profile and view a list of the candidates whose skills most closely match the skills required for the job.</span></span>
+<span data-ttu-id="38f4a-119">Įgūdžių tipai yra kategorijos, kurioms priklauso atskiri įgūdžiai, pavyzdžiui, Administravimas arba Pardavimas.</span><span class="sxs-lookup"><span data-stu-id="38f4a-119">Skill types are categories that individual skills fall under, such as Administration or Sales.</span></span>
 
-> <span data-ttu-id="b6a05-136">**Pastaba.** Tik darbuotojai, pretendentai ir kontaktiniai asmenys, kurie pasirinkti būti įtraukti į įgūdžių išdėstymo ieškas, gali būti rodomi įgūdžių ieškos rezultatų sąraše arba įtraukti į įgūdžių šabloną.</span><span class="sxs-lookup"><span data-stu-id="b6a05-136">**Note** Only workers, applicants, and contact persons who are selected to be included in skill mapping searches can be displayed in a skill-mapping results list, or included in a skill profile.</span></span> <span data-ttu-id="b6a05-137">Norėdami į įgūdžių išdėstymo ieškas įtraukti darbuotoją, pretendentą arba kontaktinį asmenį, toliau nurodytuose puslapiuose nustatykite parinktį **Įtraukti į įgūdžių išdėstymą** į Taip.</span><span class="sxs-lookup"><span data-stu-id="b6a05-137">To include a worker, applicant, or contact person in skill mapping searches, set the **Include in skill mapping** selection to Yes in the following pages:</span></span>
-> 
-> + <span data-ttu-id="b6a05-138">Darbuotojas</span><span class="sxs-lookup"><span data-stu-id="b6a05-138">Worker</span></span>
-> + <span data-ttu-id="b6a05-139">Darbuotojas</span><span class="sxs-lookup"><span data-stu-id="b6a05-139">Employee</span></span>
-> + <span data-ttu-id="b6a05-140">Pretendentas</span><span class="sxs-lookup"><span data-stu-id="b6a05-140">Applicant</span></span>
-> + <span data-ttu-id="b6a05-141">Kontaktai</span><span class="sxs-lookup"><span data-stu-id="b6a05-141">Contacts</span></span>
+1. <span data-ttu-id="38f4a-120">Darbo srityje **Darbuotojo plėtra** pasirinkite **Saitai**.</span><span class="sxs-lookup"><span data-stu-id="38f4a-120">In the **Employee development** workspace, select **Links**.</span></span>
 
-## <a name="skill-gap-analysis-and-skill-profile-analysis"></a><span data-ttu-id="b6a05-142">Įgūdžių trūkumo analizė ir įgūdžių profilio analizė</span><span class="sxs-lookup"><span data-stu-id="b6a05-142">Skill gap analysis and skill profile analysis</span></span>
-<span data-ttu-id="b6a05-143">Galite sukurti įgūdžių šablono analizę ir peržiūrėti darbuotojo, pretendento arba kontaktinio asmens kompetencijų sąrašą pagal konkrečią datą.</span><span class="sxs-lookup"><span data-stu-id="b6a05-143">You can create a skill profile analysis to view a list of the competencies of a worker, applicant, or contact person as of a specific date.</span></span> <span data-ttu-id="b6a05-144">Galite sukurti įgūdžių trūkumo analizę ir palyginti asmens įgūdžius su įgūdžiais, kurių reikia konkrečiam darbui.</span><span class="sxs-lookup"><span data-stu-id="b6a05-144">You can create a skill gap analysis to compare a person’s skills and the skills that are required for a specific job.</span></span>  
+2. <span data-ttu-id="38f4a-121">Dalyje **Kompetencijos sąranka** pasirinkite **Įgūdžių tipai**.</span><span class="sxs-lookup"><span data-stu-id="38f4a-121">Under **Competency setup**, select **Skill types**.</span></span>
 
+3. <span data-ttu-id="38f4a-122">Pasirinkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="38f4a-122">Select **New**.</span></span>
 
+4. <span data-ttu-id="38f4a-123">Užpildykite toliau nurodytus laukus:</span><span class="sxs-lookup"><span data-stu-id="38f4a-123">Complete the following fields:</span></span>
 
+   - <span data-ttu-id="38f4a-124">**Įgūdžių tipas**: Įveskite įgūdžių tipo pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="38f4a-124">**Skill type**: Enter a name for the skill type.</span></span>
+   - <span data-ttu-id="38f4a-125">**Aprašas**: Įveskite įgūdžių tipo aprašą.</span><span class="sxs-lookup"><span data-stu-id="38f4a-125">**Description**: Enter a description for the skill type.</span></span>
+
+5. <span data-ttu-id="38f4a-126">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="38f4a-126">Select **Save**.</span></span>
+
+## <a name="create-a-rating-model"></a><span data-ttu-id="38f4a-127">Vertinimo modelio kūrimas</span><span class="sxs-lookup"><span data-stu-id="38f4a-127">Create a rating model</span></span>
+
+<span data-ttu-id="38f4a-128">Vertinimo modelis padeda įvertinti asmens faktinį įgūdžių lygį, turimą pasiekti lygį arba darbui reikalingo įgūdžio lygį.</span><span class="sxs-lookup"><span data-stu-id="38f4a-128">Rating models help evaluate a person's actual level of skill, the level they should work to achieve, or the level of skill required for a job.</span></span> <span data-ttu-id="38f4a-129">Kiekvienam vertinimo modelio lygiui priskiriamas koeficientas.</span><span class="sxs-lookup"><span data-stu-id="38f4a-129">Each level in a rating model is assigned a factor.</span></span>
+
+1. <span data-ttu-id="38f4a-130">Darbo srityje **Darbuotojo plėtra** pasirinkite **Saitai**.</span><span class="sxs-lookup"><span data-stu-id="38f4a-130">In the **Employee development** workspace, select **Links**.</span></span>
+
+2. <span data-ttu-id="38f4a-131">Dalyje **Kompetencijos sąranka** pasirinkite **Vertinimo modeliai**.</span><span class="sxs-lookup"><span data-stu-id="38f4a-131">Under **Competency setup**, select **Rating models**.</span></span>
+
+3. <span data-ttu-id="38f4a-132">Pasirinkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="38f4a-132">Select **New**.</span></span>
+
+4. <span data-ttu-id="38f4a-133">Užpildykite toliau nurodytus laukus:</span><span class="sxs-lookup"><span data-stu-id="38f4a-133">Complete the following fields:</span></span>
+
+   - <span data-ttu-id="38f4a-134">**Vertinimas**: Įveskite vertinimo modelio pavadinimą, pavyzdžiui, **Įgūdžiai**.</span><span class="sxs-lookup"><span data-stu-id="38f4a-134">**Rating**: Enter a name for the rating model, such as **Skills**.</span></span>
+   - <span data-ttu-id="38f4a-135">**Aprašas**: Įveskite vertinimo modelio aprašą, pavyzdžiui, **Įgūdžių vertinimai**.</span><span class="sxs-lookup"><span data-stu-id="38f4a-135">**Description**: Enter a description for the rating model, such as **Skill ratings**.</span></span>
+
+5. <span data-ttu-id="38f4a-136">Dalyje **Lygiai** pasirinkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="38f4a-136">In the **Levels** section, select **New**.</span></span> <span data-ttu-id="38f4a-137">Kiekvienam lygiui, kurį norite pridėti, užpildykite šiuos laukus:</span><span class="sxs-lookup"><span data-stu-id="38f4a-137">For each level you want to add, complete the following fields:</span></span>
+
+   - <span data-ttu-id="38f4a-138">**Lygis**: Įveskite lygio pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="38f4a-138">**Level**: Enter a name for the level.</span></span>
+   - <span data-ttu-id="38f4a-139">**Aprašas**: Įveskite lygio aprašą.</span><span class="sxs-lookup"><span data-stu-id="38f4a-139">**Description**: Enter a description for the level.</span></span>
+   - <span data-ttu-id="38f4a-140">**Koeficientas**: Įveskite koeficiento vertę nuo 0 iki 9.</span><span class="sxs-lookup"><span data-stu-id="38f4a-140">**Factor**: Enter a factor value from 0-9.</span></span> <span data-ttu-id="38f4a-141">Koeficientai padeda normalizuoti skirtingus vertinimo modelius naudojančių įgūdžių rezultatus.</span><span class="sxs-lookup"><span data-stu-id="38f4a-141">Factors help normalize the scores of skills that use different rating models.</span></span> <span data-ttu-id="38f4a-142">Kiekvienas lygis privalo turėti unikalų koeficientą.</span><span class="sxs-lookup"><span data-stu-id="38f4a-142">Each level must have a unique factor.</span></span> <span data-ttu-id="38f4a-143">Didesnių koeficientų lygiai gali daryti didesnę įtaką vertinimo modeliui.</span><span class="sxs-lookup"><span data-stu-id="38f4a-143">Levels with higher factor values carry more weight in a rating model.</span></span>
+
+   <span data-ttu-id="38f4a-144">Tęskite lygių pridėjimą, jei reikia.</span><span class="sxs-lookup"><span data-stu-id="38f4a-144">Continue adding levels as necessary.</span></span> <span data-ttu-id="38f4a-145">Kiekvienam vertinimo modeliui galite įvesti iki 10 lygių.</span><span class="sxs-lookup"><span data-stu-id="38f4a-145">You can enter up to 10 levels for each rating model.</span></span>
+
+6. <span data-ttu-id="38f4a-146">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="38f4a-146">Select **Save**.</span></span>
+
+## <a name="create-a-skill"></a><span data-ttu-id="38f4a-147">Įgūdžio kūrimas</span><span class="sxs-lookup"><span data-stu-id="38f4a-147">Create a skill</span></span>
+
+<span data-ttu-id="38f4a-148">Kad galėtumėte priskirti įgūdį, sukurti įgūdžių susiejimo iešką ar įgūdžių profilį, turite įvesti informaciją apie įgūdžius puslapyje **Įgūdžiai**.</span><span class="sxs-lookup"><span data-stu-id="38f4a-148">Before you can assign a skill, or create a skill-mapping search or skill profile, you must enter information about the skills on the **Skills** page.</span></span> <span data-ttu-id="38f4a-149">Kiekvieno įgūdžio atveju pasirinkite įgūdžio tipą ir vertinimo modelį.</span><span class="sxs-lookup"><span data-stu-id="38f4a-149">For each skill, you can select a skill type and a rating model.</span></span>
+
+1. <span data-ttu-id="38f4a-150">Darbo srityje **Darbuotojo plėtra** pasirinkite **Saitai**.</span><span class="sxs-lookup"><span data-stu-id="38f4a-150">In the **Employee development** workspace, select **Links**.</span></span>
+
+2. <span data-ttu-id="38f4a-151">Dalyje **Kompetencijos sąranka** pasirinkite **Įgūdžiai**.</span><span class="sxs-lookup"><span data-stu-id="38f4a-151">Under **Competency setup**, select **Skills**.</span></span>
+
+3. <span data-ttu-id="38f4a-152">Pasirinkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="38f4a-152">Select **New**.</span></span>
+
+4. <span data-ttu-id="38f4a-153">Užpildykite toliau nurodytus laukus:</span><span class="sxs-lookup"><span data-stu-id="38f4a-153">Complete the following fields:</span></span>
+
+   - <span data-ttu-id="38f4a-154">**Įgūdis**: Įveskite įgūdžio pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="38f4a-154">**Skill**: Enter a name for the skill.</span></span>
+   - <span data-ttu-id="38f4a-155">**Aprašas**: Įveskite įgūdžio aprašą.</span><span class="sxs-lookup"><span data-stu-id="38f4a-155">**Description**: Enter a description for the skill.</span></span>
+   - <span data-ttu-id="38f4a-156">**Vertinimas**: Pasirinkite vertinimo modelį, kurį norite naudoti šiam įgūdžiui.</span><span class="sxs-lookup"><span data-stu-id="38f4a-156">**Rating**: Select the rating model you want to use for this skill.</span></span>
+   - <span data-ttu-id="38f4a-157">**Įgūdžių tipas**: Pasirinkite iš įgūdžių tipų sąrašo.</span><span class="sxs-lookup"><span data-stu-id="38f4a-157">**Skill type**: Select from the list of skill types.</span></span>
+
+5. <span data-ttu-id="38f4a-158">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="38f4a-158">Select **Save**.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="38f4a-159">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="38f4a-159">See also</span></span>
+
+[<span data-ttu-id="38f4a-160">Įgūdžių įvedimas</span><span class="sxs-lookup"><span data-stu-id="38f4a-160">Enter skills</span></span>](hr-develop-enter-skills.md)<br>
+[<span data-ttu-id="38f4a-161">Įgūdžių susiejimas</span><span class="sxs-lookup"><span data-stu-id="38f4a-161">Map skills</span></span>](hr-develop-map-skills.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,56 +8,55 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmLoanType, DefaultDashboard, HcmLoanItem, HcmWorkerLookUp, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 28fb201f7951384d847058b05668a7f3e366700a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 11c81e37952c59325c4f7dd46fd19599fbf8390f
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800242"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6056833"
 ---
-# <a name="create-loan-items"></a><span data-ttu-id="cbd8d-103">Kurti panaudos objektus</span><span class="sxs-lookup"><span data-stu-id="cbd8d-103">Create loan items</span></span>
+# <a name="create-loan-items"></a><span data-ttu-id="617d8-103">Kurti panaudos objektus</span><span class="sxs-lookup"><span data-stu-id="617d8-103">Create loan items</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
-<span data-ttu-id="cbd8d-104">Skolinamos prekės yra įrašai, kurie padeda sekti fizines prekes, pvz., telefonus arba kompiuterius, kurias jūsų įmonė skolina darbuotojams.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-104">Loan items are records that help you track physical items, such as phones or computers, that your company lends to workers.</span></span> <span data-ttu-id="cbd8d-105">Kiekviena fizinė prekė turi turėti atitinkamą skolinamą prekę.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-105">Each physical item must have a corresponding loan item.</span></span> <span data-ttu-id="cbd8d-106">Kiekviename skolinamos prekės įraše turi būti aprašyta, kas skolinama, kas atsakingas už paskolą ir kiek dienų prekę galima skolinti.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-106">Each loan item record should describe what is being loaned, who is responsible for the loan, and the number of days the item can be on loan.</span></span> <span data-ttu-id="cbd8d-107">Vienu kartu galite sukurti keletą skolinamų prekių, pvz., raktų, įėjimo kortelių ar uniformų.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-107">You can create multiple loan items, such as keys, access cards, or uniforms, at the same time.</span></span> <span data-ttu-id="cbd8d-108">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-108">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="617d8-104">Skolinamos prekės yra įrašai, kurie padeda sekti fizines prekes, pvz., telefonus arba kompiuterius, kurias jūsų įmonė skolina darbuotojams.</span><span class="sxs-lookup"><span data-stu-id="617d8-104">Loan items are records that help you track physical items, such as phones or computers, that your company lends to workers.</span></span> <span data-ttu-id="617d8-105">Kiekviena fizinė prekė turi turėti atitinkamą skolinamą prekę.</span><span class="sxs-lookup"><span data-stu-id="617d8-105">Each physical item must have a corresponding loan item.</span></span> <span data-ttu-id="617d8-106">Kiekviename skolinamos prekės įraše turi būti aprašyta, kas skolinama, kas atsakingas už paskolą ir kiek dienų prekę galima skolinti.</span><span class="sxs-lookup"><span data-stu-id="617d8-106">Each loan item record should describe what is being loaned, who is responsible for the loan, and the number of days the item can be on loan.</span></span> <span data-ttu-id="617d8-107">Vienu kartu galite sukurti keletą skolinamų prekių, pvz., raktų, įėjimo kortelių ar uniformų.</span><span class="sxs-lookup"><span data-stu-id="617d8-107">You can create multiple loan items, such as keys, access cards, or uniforms, at the same time.</span></span> <span data-ttu-id="617d8-108">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="617d8-108">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-loan-types"></a><span data-ttu-id="cbd8d-109">Kurti paskolų tipus</span><span class="sxs-lookup"><span data-stu-id="cbd8d-109">Create Loan types</span></span>
-1. <span data-ttu-id="cbd8d-110">Eikite į Žmogiškieji ištekliai > Darbuotojai > Skolinamos prekės > Paskolų tipai.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-110">Go to Human resources > Workers > Loan items > Loan types.</span></span>
-2. <span data-ttu-id="cbd8d-111">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-111">Click New.</span></span>
-3. <span data-ttu-id="cbd8d-112">Lauke „Paskolos tipas“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-112">In the Loan type field, type a value.</span></span>
-4. <span data-ttu-id="cbd8d-113">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-113">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="cbd8d-114">Įveskite dienų, kurias šiam paskolos tipui priskirtų prekių grąžinimas gali vėluoti, skaičių.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-114">Enter the number of days that items assigned to this loan type can be overdue.</span></span> 
-6. <span data-ttu-id="cbd8d-115">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-115">Click Save.</span></span>
-7. <span data-ttu-id="cbd8d-116">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-116">Close the page.</span></span>
-8. <span data-ttu-id="cbd8d-117">Atnaujinkite puslapį.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-117">Refresh the page.</span></span>
+## <a name="create-loan-types"></a><span data-ttu-id="617d8-109">Kurti paskolų tipus</span><span class="sxs-lookup"><span data-stu-id="617d8-109">Create Loan types</span></span>
+1. <span data-ttu-id="617d8-110">Eikite į Žmogiškieji ištekliai > Darbuotojai > Skolinamos prekės > Paskolų tipai.</span><span class="sxs-lookup"><span data-stu-id="617d8-110">Go to Human resources > Workers > Loan items > Loan types.</span></span>
+2. <span data-ttu-id="617d8-111">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="617d8-111">Click New.</span></span>
+3. <span data-ttu-id="617d8-112">Lauke „Paskolos tipas“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="617d8-112">In the Loan type field, type a value.</span></span>
+4. <span data-ttu-id="617d8-113">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="617d8-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="617d8-114">Įveskite dienų, kurias šiam paskolos tipui priskirtų prekių grąžinimas gali vėluoti, skaičių.</span><span class="sxs-lookup"><span data-stu-id="617d8-114">Enter the number of days that items assigned to this loan type can be overdue.</span></span> 
+6. <span data-ttu-id="617d8-115">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="617d8-115">Click Save.</span></span>
+7. <span data-ttu-id="617d8-116">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="617d8-116">Close the page.</span></span>
+8. <span data-ttu-id="617d8-117">Atnaujinkite puslapį.</span><span class="sxs-lookup"><span data-stu-id="617d8-117">Refresh the page.</span></span>
 
-## <a name="create-loan-items"></a><span data-ttu-id="cbd8d-118">Kurti panaudos objektus</span><span class="sxs-lookup"><span data-stu-id="cbd8d-118">Create Loan items</span></span>
-1. <span data-ttu-id="cbd8d-119">Eikite į Žmogiškieji ištekliai > Darbuotojai > Skolinamos prekės > Skolinamos prekės.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-119">Go to Human resources > Workers > Loan items > Loan items.</span></span>
-2. <span data-ttu-id="cbd8d-120">Spustelėkite „Sukurti skolinamas prekes“.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-120">Click Create loan items.</span></span>
-3. <span data-ttu-id="cbd8d-121">Kiekio įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-121">In the Qty. field, enter a number.</span></span>
-4. <span data-ttu-id="cbd8d-122">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-122">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="cbd8d-123">Lauke „Paskolos tipas“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-123">In the Loan type field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="cbd8d-124">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-124">In the list, find and select the desired record.</span></span>
-7. <span data-ttu-id="cbd8d-125">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-125">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="cbd8d-126">Įveskite skaičių dienų, kurias prekė gali būti paskolinta.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-126">Enter the number of days the item can be on loan.</span></span>
-    * <span data-ttu-id="cbd8d-127">Puslapyje „Paskolinta įranga“ esančio lauko „Planuojamas grąžinimas“ numatytoji vertė apskaičiuojama prie dabartinės datos pridedant šį skaičių.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-127">The default value for the Planned return field on the Loaned equipment page is calculated as the current date plus this number.</span></span>  
-9. <span data-ttu-id="cbd8d-128">Lauke „Vadovaujantysis asmuo“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-128">In the Person in charge field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="cbd8d-129">Spustelėkite Pažymėti.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-129">Click Select.</span></span>
-11. <span data-ttu-id="cbd8d-130">Lauke „Pradinė reikšmė“ įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-130">In the Starting value field, enter a number.</span></span>
-12. <span data-ttu-id="cbd8d-131">Lauke „Intervalas“ įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-131">In the Interval field, enter a number.</span></span>
-13. <span data-ttu-id="cbd8d-132">Lauke „Formatas“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-132">In the Format field, type a value.</span></span>
-    * <span data-ttu-id="cbd8d-133">Pvz., jei skolinamos prekės pradžios numeris yra 10, lauke „Formatas“ įveskite du numerio simbolius.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-133">For example, if the starting number for a loan item is 10, enter two number symbols symbols in the Format field.</span></span>  
-14. <span data-ttu-id="cbd8d-134">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-134">Click OK.</span></span>
-15. <span data-ttu-id="cbd8d-135">Atnaujinkite puslapį.</span><span class="sxs-lookup"><span data-stu-id="cbd8d-135">Refresh the page.</span></span>
+## <a name="create-loan-items"></a><span data-ttu-id="617d8-118">Kurti panaudos objektus</span><span class="sxs-lookup"><span data-stu-id="617d8-118">Create Loan items</span></span>
+1. <span data-ttu-id="617d8-119">Eikite į Žmogiškieji ištekliai > Darbuotojai > Skolinamos prekės > Skolinamos prekės.</span><span class="sxs-lookup"><span data-stu-id="617d8-119">Go to Human resources > Workers > Loan items > Loan items.</span></span>
+2. <span data-ttu-id="617d8-120">Spustelėkite „Sukurti skolinamas prekes“.</span><span class="sxs-lookup"><span data-stu-id="617d8-120">Click Create loan items.</span></span>
+3. <span data-ttu-id="617d8-121">Kiekio įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="617d8-121">In the Qty. field, enter a number.</span></span>
+4. <span data-ttu-id="617d8-122">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="617d8-122">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="617d8-123">Lauke „Paskolos tipas“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="617d8-123">In the Loan type field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="617d8-124">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="617d8-124">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="617d8-125">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="617d8-125">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="617d8-126">Įveskite skaičių dienų, kurias prekė gali būti paskolinta.</span><span class="sxs-lookup"><span data-stu-id="617d8-126">Enter the number of days the item can be on loan.</span></span>
+    * <span data-ttu-id="617d8-127">Puslapyje „Paskolinta įranga“ esančio lauko „Planuojamas grąžinimas“ numatytoji vertė apskaičiuojama prie dabartinės datos pridedant šį skaičių.</span><span class="sxs-lookup"><span data-stu-id="617d8-127">The default value for the Planned return field on the Loaned equipment page is calculated as the current date plus this number.</span></span>  
+9. <span data-ttu-id="617d8-128">Lauke „Vadovaujantysis asmuo“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="617d8-128">In the Person in charge field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="617d8-129">Spustelėkite Pažymėti.</span><span class="sxs-lookup"><span data-stu-id="617d8-129">Click Select.</span></span>
+11. <span data-ttu-id="617d8-130">Lauke „Pradinė reikšmė“ įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="617d8-130">In the Starting value field, enter a number.</span></span>
+12. <span data-ttu-id="617d8-131">Lauke „Intervalas“ įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="617d8-131">In the Interval field, enter a number.</span></span>
+13. <span data-ttu-id="617d8-132">Lauke „Formatas“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="617d8-132">In the Format field, type a value.</span></span>
+    * <span data-ttu-id="617d8-133">Pvz., jei skolinamos prekės pradžios numeris yra 10, lauke „Formatas“ įveskite du numerio simbolius.</span><span class="sxs-lookup"><span data-stu-id="617d8-133">For example, if the starting number for a loan item is 10, enter two number symbols symbols in the Format field.</span></span>  
+14. <span data-ttu-id="617d8-134">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="617d8-134">Click OK.</span></span>
+15. <span data-ttu-id="617d8-135">Atnaujinkite puslapį.</span><span class="sxs-lookup"><span data-stu-id="617d8-135">Refresh the page.</span></span>
 
 
 

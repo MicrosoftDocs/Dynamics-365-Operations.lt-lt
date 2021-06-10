@@ -8,126 +8,125 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: KMKnowledgeCollectorPlanningTable, KMKnowledgeCollectorPlanningMulti, SysQueryForm, HcmPersonLookup, KMKnowledgeCollectorPlanning, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8ddad70792c4ebc1785698812fe12406142f07a2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 952048ce0a2ac94be70d7bde0dc52610f19151ed
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790625"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6056305"
 ---
-# <a name="distribute-questionnaires-using-scheduling"></a><span data-ttu-id="6c972-103">Platinti klausimynus naudojant planavimą</span><span class="sxs-lookup"><span data-stu-id="6c972-103">Distribute questionnaires using scheduling</span></span>
+# <a name="distribute-questionnaires-using-scheduling"></a><span data-ttu-id="a05cb-103">Platinti klausimynus naudojant planavimą</span><span class="sxs-lookup"><span data-stu-id="a05cb-103">Distribute questionnaires using scheduling</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="6c972-104">Klausimyno planavimo funkcija suteikia galimybę planuoti ir platinti klausimynus keliems respondentams.</span><span class="sxs-lookup"><span data-stu-id="6c972-104">Questionnaire scheduling allows you to plan and distribute questionnaires to multiple respondents.</span></span> <span data-ttu-id="6c972-105">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="6c972-105">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="a05cb-104">Klausimyno planavimo funkcija suteikia galimybę planuoti ir platinti klausimynus keliems respondentams.</span><span class="sxs-lookup"><span data-stu-id="a05cb-104">Questionnaire scheduling allows you to plan and distribute questionnaires to multiple respondents.</span></span> <span data-ttu-id="a05cb-105">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="a05cb-105">The demo data company used to create this procedure is USMF.</span></span>
 
-## <a name="create-a-questionnaire-schedule"></a><span data-ttu-id="6c972-106">Klausimyno grafiko kūrimas</span><span class="sxs-lookup"><span data-stu-id="6c972-106">Create a questionnaire schedule</span></span>
+## <a name="create-a-questionnaire-schedule"></a><span data-ttu-id="a05cb-106">Klausimyno grafiko kūrimas</span><span class="sxs-lookup"><span data-stu-id="a05cb-106">Create a questionnaire schedule</span></span>
 
-1. <span data-ttu-id="6c972-107">Pasirinkite Klausimynas > Platinti > Klausimynų grafikai.</span><span class="sxs-lookup"><span data-stu-id="6c972-107">Go to Questionnaire > Distribute > Questionnaire schedules.</span></span>
+1. <span data-ttu-id="a05cb-107">Pasirinkite Klausimynas > Platinti > Klausimynų grafikai.</span><span class="sxs-lookup"><span data-stu-id="a05cb-107">Go to Questionnaire > Distribute > Questionnaire schedules.</span></span>
 
-2. <span data-ttu-id="6c972-108">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="6c972-108">Click New.</span></span>
+2. <span data-ttu-id="a05cb-108">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="a05cb-108">Click New.</span></span>
 
-3. <span data-ttu-id="6c972-109">Lauke Planavimas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="6c972-109">In the Scheduling field, type a value.</span></span>
+3. <span data-ttu-id="a05cb-109">Lauke Planavimas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a05cb-109">In the Scheduling field, type a value.</span></span>
 
-4. <span data-ttu-id="6c972-110">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="6c972-110">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="6c972-111">Nustatykite grafiką į Anoniminis, jei atsakymai turėtų būti registruojami be su jais susietų vardų.</span><span class="sxs-lookup"><span data-stu-id="6c972-111">Set the schedule to Anonymous if the responses should be recorded without names associated to the response.</span></span>  
-    * <span data-ttu-id="6c972-112">Parinktį Leisti anoniminius rezultatus pirmiausia reikia nustatyti personalo parametruose.</span><span class="sxs-lookup"><span data-stu-id="6c972-112">Allowing anonymous results must be set up in the HR parameters first.</span></span>  
+4. <span data-ttu-id="a05cb-110">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a05cb-110">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="a05cb-111">Nustatykite grafiką į Anoniminis, jei atsakymai turėtų būti registruojami be su jais susietų vardų.</span><span class="sxs-lookup"><span data-stu-id="a05cb-111">Set the schedule to Anonymous if the responses should be recorded without names associated to the response.</span></span>  
+    * <span data-ttu-id="a05cb-112">Parinktį Leisti anoniminius rezultatus pirmiausia reikia nustatyti personalo parametruose.</span><span class="sxs-lookup"><span data-stu-id="a05cb-112">Allowing anonymous results must be set up in the HR parameters first.</span></span>  
 
-5. <span data-ttu-id="6c972-113">Lauke Tipas pasirinkite planavimo tipą.</span><span class="sxs-lookup"><span data-stu-id="6c972-113">In the Type field, select the planning type.</span></span>  <span data-ttu-id="6c972-114">Šiame pavyzdyje naudojame pasitenkinimo tipą.</span><span class="sxs-lookup"><span data-stu-id="6c972-114">In this example we will use the Satisfaction type.</span></span>
+5. <span data-ttu-id="a05cb-113">Lauke Tipas pasirinkite planavimo tipą.</span><span class="sxs-lookup"><span data-stu-id="a05cb-113">In the Type field, select the planning type.</span></span>  <span data-ttu-id="a05cb-114">Šiame pavyzdyje naudojame pasitenkinimo tipą.</span><span class="sxs-lookup"><span data-stu-id="a05cb-114">In this example we will use the Satisfaction type.</span></span>
 
-6. <span data-ttu-id="6c972-115">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="6c972-115">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="a05cb-115">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="a05cb-115">In the list, find and select the desired record.</span></span>
 
-7. <span data-ttu-id="6c972-116">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="6c972-116">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="a05cb-116">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="a05cb-116">In the list, click the link in the selected row.</span></span>
 
-8. <span data-ttu-id="6c972-117">Lauke Data įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="6c972-117">In the Date field, enter a date.</span></span>
+8. <span data-ttu-id="a05cb-117">Lauke Data įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="a05cb-117">In the Date field, enter a date.</span></span>
 
-9. <span data-ttu-id="6c972-118">Išplėskite skyrių Darbuotojų savitarnos el. paštas.</span><span class="sxs-lookup"><span data-stu-id="6c972-118">Expand the Email for employee self service section.</span></span>
+9. <span data-ttu-id="a05cb-118">Išplėskite skyrių Darbuotojų savitarnos el. paštas.</span><span class="sxs-lookup"><span data-stu-id="a05cb-118">Expand the Email for employee self service section.</span></span>
 
-10. <span data-ttu-id="6c972-119">Lauke „Tema“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="6c972-119">In the Subject field, type a value.</span></span>
+10. <span data-ttu-id="a05cb-119">Lauke „Tema“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a05cb-119">In the Subject field, type a value.</span></span>
 
-    * <span data-ttu-id="6c972-120">Pavyzdys: galimas klausimynas</span><span class="sxs-lookup"><span data-stu-id="6c972-120">Example: Questionnaire available</span></span>  
+    * <span data-ttu-id="a05cb-120">Pavyzdys: galimas klausimynas</span><span class="sxs-lookup"><span data-stu-id="a05cb-120">Example: Questionnaire available</span></span>  
 
-11. <span data-ttu-id="6c972-121">Lauke Tekstas įveskite el. laiško tekstą.</span><span class="sxs-lookup"><span data-stu-id="6c972-121">In the Text field, type the body of your email message.</span></span> <span data-ttu-id="6c972-122">Atkreipkite dėmesį, kad kintamasis gali būti naudojamas sistemos reikšmėms pakeisti.</span><span class="sxs-lookup"><span data-stu-id="6c972-122">Note, the variable can be used to substitue values in the system.</span></span>
+11. <span data-ttu-id="a05cb-121">Lauke Tekstas įveskite el. laiško tekstą.</span><span class="sxs-lookup"><span data-stu-id="a05cb-121">In the Text field, type the body of your email message.</span></span> <span data-ttu-id="a05cb-122">Atkreipkite dėmesį, kad kintamasis gali būti naudojamas sistemos reikšmėms pakeisti.</span><span class="sxs-lookup"><span data-stu-id="a05cb-122">Note, the variable can be used to substitue values in the system.</span></span>
 
-    * <span data-ttu-id="6c972-123">Pavyzdys: Gerb. %P%, prisijunkite prie darbuotojų savitarnos, kad užpildytumėte klausimyną apie darbuotojų sveikatą.</span><span class="sxs-lookup"><span data-stu-id="6c972-123">Example: Dear %P%, Please log in to Employee Self Service to complete the Workforce Health questionnaire.</span></span>  <span data-ttu-id="6c972-124">Contoso</span><span class="sxs-lookup"><span data-stu-id="6c972-124">Contoso</span></span>  
+    * <span data-ttu-id="a05cb-123">Pavyzdys: Gerb. %P%, prisijunkite prie darbuotojų savitarnos, kad užpildytumėte klausimyną apie darbuotojų sveikatą.</span><span class="sxs-lookup"><span data-stu-id="a05cb-123">Example: Dear %P%, Please log in to Employee Self Service to complete the Workforce Health questionnaire.</span></span>  <span data-ttu-id="a05cb-124">„Contoso“</span><span class="sxs-lookup"><span data-stu-id="a05cb-124">Contoso</span></span>  
 
-12. <span data-ttu-id="6c972-125">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="6c972-125">Click Save.</span></span>
+12. <span data-ttu-id="a05cb-125">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="a05cb-125">Click Save.</span></span>
 
-## <a name="use-the-setup-details-to-select-the-questionnaires-to-be-answered-as-well-as-any-queries-to-use-to-select-respondents"></a><span data-ttu-id="6c972-126">Naudokite sąrankos informaciją klausimynui (-ams) parinkti ir teikti užklausas respondentams pasirinkti.</span><span class="sxs-lookup"><span data-stu-id="6c972-126">Use the Setup details to select the questionnaire(s) to be answered as well as any queries to use to select respondents.</span></span>
+## <a name="use-the-setup-details-to-select-the-questionnaires-to-be-answered-as-well-as-any-queries-to-use-to-select-respondents"></a><span data-ttu-id="a05cb-126">Naudokite sąrankos informaciją klausimynui (-ams) parinkti ir teikti užklausas respondentams pasirinkti.</span><span class="sxs-lookup"><span data-stu-id="a05cb-126">Use the Setup details to select the questionnaire(s) to be answered as well as any queries to use to select respondents.</span></span>
 
-1. <span data-ttu-id="6c972-127">Spustelėkite Sąrankos informacija.</span><span class="sxs-lookup"><span data-stu-id="6c972-127">Click Setup details.</span></span>
+1. <span data-ttu-id="a05cb-127">Spustelėkite Sąrankos informacija.</span><span class="sxs-lookup"><span data-stu-id="a05cb-127">Click Setup details.</span></span>
 
-2. <span data-ttu-id="6c972-128">Sąraše pasirinkite užklausą klausimyno respondentams sistemoje ieškoti.</span><span class="sxs-lookup"><span data-stu-id="6c972-128">In the list, select a query to use to search the system for respondents for the questionnaire.</span></span>
+2. <span data-ttu-id="a05cb-128">Sąraše pasirinkite užklausą klausimyno respondentams sistemoje ieškoti.</span><span class="sxs-lookup"><span data-stu-id="a05cb-128">In the list, select a query to use to search the system for respondents for the questionnaire.</span></span>
 
-    * <span data-ttu-id="6c972-129">Pavyzdys: darbuotojai</span><span class="sxs-lookup"><span data-stu-id="6c972-129">Example: Workers</span></span>  
+    * <span data-ttu-id="a05cb-129">Pavyzdys: darbuotojai</span><span class="sxs-lookup"><span data-stu-id="a05cb-129">Example: Workers</span></span>  
 
-3. <span data-ttu-id="6c972-130">Spustelėkite Peržiūrėti arba modifikuoti užklausą, norėdami pasirinkti konkrečius žmones arba koreguokite užklausą, kad rastumėte konkrečius kriterijus atitinkančių žmonių.</span><span class="sxs-lookup"><span data-stu-id="6c972-130">Click View or modify query to select specific people or adjust the query to find people who match specific criteria.</span></span>
+3. <span data-ttu-id="a05cb-130">Spustelėkite Peržiūrėti arba modifikuoti užklausą, norėdami pasirinkti konkrečius žmones arba koreguokite užklausą, kad rastumėte konkrečius kriterijus atitinkančių žmonių.</span><span class="sxs-lookup"><span data-stu-id="a05cb-130">Click View or modify query to select specific people or adjust the query to find people who match specific criteria.</span></span>
 
-    * <span data-ttu-id="6c972-131">Atkreipkite dėmesį, kad visi respondentai turi būti sistemos vartotojai.</span><span class="sxs-lookup"><span data-stu-id="6c972-131">Note that all respondents must also be users in the system.</span></span>  
+    * <span data-ttu-id="a05cb-131">Atkreipkite dėmesį, kad visi respondentai turi būti sistemos vartotojai.</span><span class="sxs-lookup"><span data-stu-id="a05cb-131">Note that all respondents must also be users in the system.</span></span>  
 
-4. <span data-ttu-id="6c972-132">Sąraše pažymėkite asmens eilutę.</span><span class="sxs-lookup"><span data-stu-id="6c972-132">In the list, mark the row for Person</span></span>
+4. <span data-ttu-id="a05cb-132">Sąraše pažymėkite asmens eilutę.</span><span class="sxs-lookup"><span data-stu-id="a05cb-132">In the list, mark the row for Person</span></span>
 
-5. <span data-ttu-id="6c972-133">Lauke Kriterijai įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="6c972-133">In the Criteria field, enter or select a value.</span></span>
+5. <span data-ttu-id="a05cb-133">Lauke Kriterijai įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a05cb-133">In the Criteria field, enter or select a value.</span></span>
 
-    * <span data-ttu-id="6c972-134">Pasirinkite Julia Funderburk</span><span class="sxs-lookup"><span data-stu-id="6c972-134">Select Julia Funderburk</span></span>  
+    * <span data-ttu-id="a05cb-134">Pasirinkite Julia Funderburk</span><span class="sxs-lookup"><span data-stu-id="a05cb-134">Select Julia Funderburk</span></span>  
 
-6. <span data-ttu-id="6c972-135">Sąraše pasirinkite Julia Funderburk</span><span class="sxs-lookup"><span data-stu-id="6c972-135">In the list, select Julia Funderburk</span></span>
+6. <span data-ttu-id="a05cb-135">Sąraše pasirinkite Julia Funderburk</span><span class="sxs-lookup"><span data-stu-id="a05cb-135">In the list, select Julia Funderburk</span></span>
 
-7. <span data-ttu-id="6c972-136">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="6c972-136">Click OK.</span></span>
+7. <span data-ttu-id="a05cb-136">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="a05cb-136">Click OK.</span></span>
 
-8. <span data-ttu-id="6c972-137">Spustelėkite skirtuką Klausimynai.</span><span class="sxs-lookup"><span data-stu-id="6c972-137">Click the Questionnaires tab.</span></span>
+8. <span data-ttu-id="a05cb-137">Spustelėkite skirtuką Klausimynai.</span><span class="sxs-lookup"><span data-stu-id="a05cb-137">Click the Questionnaires tab.</span></span>
 
-9. <span data-ttu-id="6c972-138">Medyje išplėskite dalį pasitenkinimo apklausos tipo klausimyno mazgas.</span><span class="sxs-lookup"><span data-stu-id="6c972-138">In the tree, expand 'the node for the questionnaire type Satisfaction Survey'.</span></span>
+9. <span data-ttu-id="a05cb-138">Medyje išplėskite dalį pasitenkinimo apklausos tipo klausimyno mazgas.</span><span class="sxs-lookup"><span data-stu-id="a05cb-138">In the tree, expand 'the node for the questionnaire type Satisfaction Survey'.</span></span>
 
-10. <span data-ttu-id="6c972-139">Medyje pažymėkite Darbuotojų sveikatos įvertinimas.</span><span class="sxs-lookup"><span data-stu-id="6c972-139">In the tree, check 'Workforce Health Assessment'.</span></span>
+10. <span data-ttu-id="a05cb-139">Medyje pažymėkite Darbuotojų sveikatos įvertinimas.</span><span class="sxs-lookup"><span data-stu-id="a05cb-139">In the tree, check 'Workforce Health Assessment'.</span></span>
 
-11. <span data-ttu-id="6c972-140">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="6c972-140">Click OK.</span></span>
+11. <span data-ttu-id="a05cb-140">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="a05cb-140">Click OK.</span></span>
 
-12. <span data-ttu-id="6c972-141">Spustelėkite Planuojamas atsakymų seansas.</span><span class="sxs-lookup"><span data-stu-id="6c972-141">Click Planned answer session.</span></span>
+12. <span data-ttu-id="a05cb-141">Spustelėkite Planuojamas atsakymų seansas.</span><span class="sxs-lookup"><span data-stu-id="a05cb-141">Click Planned answer session.</span></span>
 
-    * <span data-ttu-id="6c972-142">Atkreipkite dėmesį, kad funkcija Planuojamas atsakymų seansas sukuriama kiekvienam pažymėtam / užklaustam vartotojui.</span><span class="sxs-lookup"><span data-stu-id="6c972-142">Note that Planned answer sessions have been created for each selected/queried user.</span></span>  
+    * <span data-ttu-id="a05cb-142">Atkreipkite dėmesį, kad funkcija Planuojamas atsakymų seansas sukuriama kiekvienam pažymėtam / užklaustam vartotojui.</span><span class="sxs-lookup"><span data-stu-id="a05cb-142">Note that Planned answer sessions have been created for each selected/queried user.</span></span>  
 
-13. <span data-ttu-id="6c972-143">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="6c972-143">Close the page.</span></span>
+13. <span data-ttu-id="a05cb-143">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="a05cb-143">Close the page.</span></span>
 
-## <a name="start-the-questionnaire-schedule-in-order-to-make-the-questionnaire-available-for-respondents-to-complete"></a><span data-ttu-id="6c972-144">Pradėkite klausimyno grafiką, kad respondentai galėtų klausimyną užpildyti.</span><span class="sxs-lookup"><span data-stu-id="6c972-144">Start the questionnaire schedule in order to make the questionnaire available for respondents to complete.</span></span>
+## <a name="start-the-questionnaire-schedule-in-order-to-make-the-questionnaire-available-for-respondents-to-complete"></a><span data-ttu-id="a05cb-144">Pradėkite klausimyno grafiką, kad respondentai galėtų klausimyną užpildyti.</span><span class="sxs-lookup"><span data-stu-id="a05cb-144">Start the questionnaire schedule in order to make the questionnaire available for respondents to complete.</span></span>
 
-1. <span data-ttu-id="6c972-145">Spustelėkite Funkcijos.</span><span class="sxs-lookup"><span data-stu-id="6c972-145">Click Functions.</span></span>
+1. <span data-ttu-id="a05cb-145">Spustelėkite Funkcijos.</span><span class="sxs-lookup"><span data-stu-id="a05cb-145">Click Functions.</span></span>
 
-2. <span data-ttu-id="6c972-146">Spustelėkite Pradėti.</span><span class="sxs-lookup"><span data-stu-id="6c972-146">Click Start.</span></span>
+2. <span data-ttu-id="a05cb-146">Spustelėkite Pradėti.</span><span class="sxs-lookup"><span data-stu-id="a05cb-146">Click Start.</span></span>
 
-3. <span data-ttu-id="6c972-147">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="6c972-147">Click OK.</span></span>
+3. <span data-ttu-id="a05cb-147">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="a05cb-147">Click OK.</span></span>
 
-## <a name="send-the-email-to-inform-respondents-of-the-available-questionnaire"></a><span data-ttu-id="6c972-148">Siųskite respondentams el. laišką, informuojantį apie galimą klausimyną.</span><span class="sxs-lookup"><span data-stu-id="6c972-148">Send the email to inform respondents of the available questionnaire.</span></span>
+## <a name="send-the-email-to-inform-respondents-of-the-available-questionnaire"></a><span data-ttu-id="a05cb-148">Siųskite respondentams el. laišką, informuojantį apie galimą klausimyną.</span><span class="sxs-lookup"><span data-stu-id="a05cb-148">Send the email to inform respondents of the available questionnaire.</span></span>
 
-1. <span data-ttu-id="6c972-149">Spustelėkite Funkcijos.</span><span class="sxs-lookup"><span data-stu-id="6c972-149">Click Functions.</span></span>
+1. <span data-ttu-id="a05cb-149">Spustelėkite Funkcijos.</span><span class="sxs-lookup"><span data-stu-id="a05cb-149">Click Functions.</span></span>
 
-2. <span data-ttu-id="6c972-150">Spustelėkite Siųsti el. laišką.</span><span class="sxs-lookup"><span data-stu-id="6c972-150">Click Send email.</span></span>
+2. <span data-ttu-id="a05cb-150">Spustelėkite Siųsti el. laišką.</span><span class="sxs-lookup"><span data-stu-id="a05cb-150">Click Send email.</span></span>
 
-3. <span data-ttu-id="6c972-151">Spustelėkite Atšaukti.</span><span class="sxs-lookup"><span data-stu-id="6c972-151">Click Cancel.</span></span>
+3. <span data-ttu-id="a05cb-151">Spustelėkite Atšaukti.</span><span class="sxs-lookup"><span data-stu-id="a05cb-151">Click Cancel.</span></span>
 
-## <a name="use-planned-answer-sessions-to-monitor-who-needs-to-complete-the-questionnaire"></a><span data-ttu-id="6c972-152">Naudokite funkciją Suplanuotas atsakymų seansas, norėdami stebėti, kas turi užpildyti klausimyną.</span><span class="sxs-lookup"><span data-stu-id="6c972-152">Use Planned answer sessions to monitor who needs to complete the questionnaire.</span></span>
+## <a name="use-planned-answer-sessions-to-monitor-who-needs-to-complete-the-questionnaire"></a><span data-ttu-id="a05cb-152">Naudokite funkciją Suplanuotas atsakymų seansas, norėdami stebėti, kas turi užpildyti klausimyną.</span><span class="sxs-lookup"><span data-stu-id="a05cb-152">Use Planned answer sessions to monitor who needs to complete the questionnaire.</span></span>
 
-1. <span data-ttu-id="6c972-153">Spustelėkite Planuojamas atsakymų seansas.</span><span class="sxs-lookup"><span data-stu-id="6c972-153">Click Planned answer session.</span></span>
+1. <span data-ttu-id="a05cb-153">Spustelėkite Planuojamas atsakymų seansas.</span><span class="sxs-lookup"><span data-stu-id="a05cb-153">Click Planned answer session.</span></span>
 
-    * <span data-ttu-id="6c972-154">Panaikinkite visus likusius suplanuotus atsakymų seansus, kai esate pasirengę baigti suplanuotą seansą.</span><span class="sxs-lookup"><span data-stu-id="6c972-154">Delete any remaining planned answer session when you're ready to end the scheduled session.</span></span>  
+    * <span data-ttu-id="a05cb-154">Panaikinkite visus likusius suplanuotus atsakymų seansus, kai esate pasirengę baigti suplanuotą seansą.</span><span class="sxs-lookup"><span data-stu-id="a05cb-154">Delete any remaining planned answer session when you're ready to end the scheduled session.</span></span>  
 
-2. <span data-ttu-id="6c972-155">Spustelėkite Naikinti.</span><span class="sxs-lookup"><span data-stu-id="6c972-155">Click Delete.</span></span>
+2. <span data-ttu-id="a05cb-155">Spustelėkite Naikinti.</span><span class="sxs-lookup"><span data-stu-id="a05cb-155">Click Delete.</span></span>
 
-3. <span data-ttu-id="6c972-156">Spustelėkite Taip.</span><span class="sxs-lookup"><span data-stu-id="6c972-156">Click Yes.</span></span>
+3. <span data-ttu-id="a05cb-156">Spustelėkite Taip.</span><span class="sxs-lookup"><span data-stu-id="a05cb-156">Click Yes.</span></span>
 
-4. <span data-ttu-id="6c972-157">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="6c972-157">Close the page.</span></span>
+4. <span data-ttu-id="a05cb-157">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="a05cb-157">Close the page.</span></span>
 
-## <a name="end-the-schedule-when-all-respondents-have-completed-the-questionnaire-andor-all-remaining-planned-answer-sessions-have-been-deleted"></a><span data-ttu-id="6c972-158">Baikite grafiką, kai visi respondentai užpildė klausimyną ir (arba) panaikinti visi likę suplanuoti atsakymų seansai.</span><span class="sxs-lookup"><span data-stu-id="6c972-158">End the schedule when all respondents have completed the questionnaire and/or all remaining Planned answer sessions have been deleted.</span></span>
+## <a name="end-the-schedule-when-all-respondents-have-completed-the-questionnaire-andor-all-remaining-planned-answer-sessions-have-been-deleted"></a><span data-ttu-id="a05cb-158">Baikite grafiką, kai visi respondentai užpildė klausimyną ir (arba) panaikinti visi likę suplanuoti atsakymų seansai.</span><span class="sxs-lookup"><span data-stu-id="a05cb-158">End the schedule when all respondents have completed the questionnaire and/or all remaining Planned answer sessions have been deleted.</span></span>
 
-1. <span data-ttu-id="6c972-159">Spustelėkite Funkcijos.</span><span class="sxs-lookup"><span data-stu-id="6c972-159">Click Functions.</span></span>
-2. <span data-ttu-id="6c972-160">Spustelėkite Baigti.</span><span class="sxs-lookup"><span data-stu-id="6c972-160">Click End.</span></span>
-3. <span data-ttu-id="6c972-161">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="6c972-161">Click OK.</span></span>
+1. <span data-ttu-id="a05cb-159">Spustelėkite Funkcijos.</span><span class="sxs-lookup"><span data-stu-id="a05cb-159">Click Functions.</span></span>
+2. <span data-ttu-id="a05cb-160">Spustelėkite Baigti.</span><span class="sxs-lookup"><span data-stu-id="a05cb-160">Click End.</span></span>
+3. <span data-ttu-id="a05cb-161">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="a05cb-161">Click OK.</span></span>
 
 
 
