@@ -1,24 +1,24 @@
 ---
 title: Bangos žymos spausdinimas
 description: Šioje temoje aprašytas bangos žymos spausdinimas ir paaiškinta, kaip ją nustatyti.
-author: GarmMSFT
+author: perlynne
 ms.date: 05/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSDocumentRouting, WHSWaveTableListPage, WHSPostMethod, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelType, WHSWaveLabelTemplateGroup, WHSDocumentRoutingLayout
 audience: Application User
-ms.reviewer: PJacobse
+ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: fe04b841dbb3bb237de53f74d73f2b3f9162ae6b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 14a32f7fc4608ef8910646f80786a188c46dc89d
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840442"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102619"
 ---
 # <a name="wave-label-printing"></a>Bangos žymos spausdinimas
 
@@ -82,7 +82,7 @@ Bangos šablonas leidžia jums susieti konkrečius bangų metodų atvejus pagal 
 1. Eikite į **Sandėlio valdymas \> Nustatymas \> Bangos \> Bangų šablonai**.
 1. Pasirinkite šabloną, tokį kaip **62 siuntimo nustatytąjį**.
 1. **Metodai** „FastTab“, patraukite **bangos žymosspausdinimo** metodą į **Pasirinkti metodai** stulpelį.
-1. **Pasirinkti metodai** stulpelyje, pasirinkite **bangos žymosspausdinimo** metodą ir nustatykite jo **Bangos žingsnio kodo** laukelį į *Spausdinti žymę*. Dėl išsamesnės informacijos apie bangos žingsnio kodus, žr. [Bangos žingsnio kodai](wave-step-codes.md).
+1. **Pasirinkti metodai** stulpelyje pasirinkite **Bangos žymos spausdinimo** metodą ir nustatykite jo **Bangos žingsnio kodo** laukelį į *Spausdinti žymę*. Dėl išsamesnės informacijos apie bangos žingsnio kodus, žr. [Bangos žingsnio kodai](wave-step-codes.md).
 
 ### <a name="create-a-wave-label-layout"></a>Sukurkite bangos žymosmaketą
 
@@ -95,9 +95,9 @@ Bangos šablonas leidžia jums susieti konkrečius bangų metodų atvejus pagal 
     - **Aprašas:** *Dėžė (SSCC)*
 
 1. Veiksmų srityje pasirinkite **Įrašyti**.
-1. Veiksmų juostoje pasirinkite **bangos žymoseilutės nustatymai**.
+1. Veiksmų juostoje pasirinkite **bangos žymos eilutės nustatymai**.
 
-    Pasirodo **bangos žymoseilutės nustatymai** langas. Čia galite sukonfigūruoti dinaminę žymos dalį.
+    Pasirodo **Bangos žymos eilutės nustatymai** langas. Čia galite sukonfigūruoti dinaminę žymos dalį.
 
 1. Įtraukite eilutę, kuri turi šiuos nustatymus:
 
@@ -354,7 +354,7 @@ Bangos šablonas leidžia jums susieti konkrečius bangų metodų atvejus pagal 
     - **Aprašas:** *Dėžė (SSCC)*
 
 1. Veiksmų srityje pasirinkite **Įrašyti**.
-1. Veiksmų juostoje pasirinkite **Bangos žymos eilutės nustatymai**.
+1. Veiksmų juostoje pasirinkite **bangos žymos eilutės nustatymai**.
 
     Pasirodo **Bangos žymos eilutės nustatymai** langas. Čia galite sukonfigūruoti dinaminę žymos dalį.
 
@@ -580,7 +580,7 @@ Pagrindinis skirtumas tarp šio scenarijaus konfigūravimo ir scenarijus 1 konfi
 
 1. Jei norite galėti atspausdinti važtaraščio identifikavimo kodą **Sujungimai** skirtuke, pasirinkite **Darbo linijų** lentelę ir prijunkite prie jo **Siuntimai** lentelę. 
 1. Uždarykite užklausos tvarkylės teksto laukelį.
-1. **Spausdintuvo teksto maketas** „FastTab“ turi tris skyrius, kuriuose galite rašyti spausdintuvo kodą: **Antraštės skyrius**, **Vidurinės dalies skyrius** ir **Poraštės skyrius**. Skyriaus **Antraštės skyrius** laukelyje **Žymos antraštė** laukelyje įveskite kodą reikiamai antraštei. Pavyzdžiui, jei naudojate „Zebra“ spausdintuvus, galite naudoti šį kodą.
+1. **Spausdintuvo teksto maketas** „FastTab“ turi tris skyrius, kuriuose galite rašyti spausdintuvo kodą: **Antraštės skyrius**, **Vidurinės dalies skyrius** ir **Poraštės skyrius**. Skyriaus **Antraštės skyrius** laukelyje **Žymos antraštė** įveskite kodą reikiamai antraštei. Pavyzdžiui, jei naudojate „Zebra“ spausdintuvus, galite naudoti šį kodą.
 
 
     ```plaintext

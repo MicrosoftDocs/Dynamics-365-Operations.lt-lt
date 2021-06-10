@@ -1,8 +1,8 @@
 ---
 title: Bandomojo balanso finansinės ataskaitos
 description: Šiame straipsnyje aprašytos numatytosios bandomųjų balansų ataskaitos. Be to, jame aprašyti su šiomis ataskaitomis susieti kūrimo blokai ir ataskaitų modifikavimo pagal verslo poreikius būdai.
-author: jcart1106
-ms.date: 06/20/2017
+author: jinniew
+ms.date: 05/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a9902471101b752c4b09d8ae28eb673743b7a53
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 26ec03422315a280f7e779f992cf694eb5f845ea
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816936"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103663"
 ---
 # <a name="trial-balance-financial-reports"></a>Bandomojo balanso finansinės ataskaitos
 
@@ -28,8 +28,7 @@ ms.locfileid: "5816936"
 
 Šiame straipsnyje aprašytos numatytosios bandomųjų balansų ataskaitos. Be to, jame aprašyti su šiomis ataskaitomis susieti kūrimo blokai ir ataskaitų modifikavimo pagal verslo poreikius būdai. 
 
-<a name="default-trial-balance-reports"></a>Numatytosios bandomojo balanso finansinės ataskaitos
------------------------------
+## <a name="default-trial-balance-reports"></a>Numatytosios bandomojo balanso finansinės ataskaitos
 
 Finansinėse ataskaitose galimos trys bandomojo balanso ataskaitos.
 
@@ -47,6 +46,9 @@ Bandomojo balanso finansinėse ataskaitose naudojami toliau nurodyti kūrimo blo
 | Išsamus bandomasis balansas – numatyt.               | Bandomasis balansas – Numatytasis | Išsamus bandomasis balansas – numatyt.               |
 | Bandomojo balanso suvestinė – numatyt.                | Bandomasis balansas – Numatytasis | Bandomojo balanso suvestinė – Numatytoji                |
 | Bandomojo balanso suvestinė metams bėgant – numatyt. | Bandomasis balansas – Numatytasis | Bandomojo balanso suvestinė metams bėgant – Numatytoji |
+
+> [!NOTE] 
+> Vykdydami **Bandomojo balanso** ataskaitą „Financial reporting”, būtinai pasirinkite žymės langelius **Rodyti eilutes be sumų** ir **Rodyti ataskaitas be aktyvių eilučių**, esančius **Parametrų** skirtuke.
 
 ### <a name="row-definition"></a>Eilutės apibrėžimas
 
@@ -94,10 +96,7 @@ Kiekvienoje bandomojo balanso ataskaitoje naudojamas kitas stulpelio aprašas. N
     -   **FD** – Finansiniai duomenys, kuriuose pateikiamas tik praėjusių metų debetas
     -   **FD** – Finansiniai duomenys, kuriuose pateikiamas tik praėjusių metų kreditas
 
-
-
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Finansinių ataskaitų apžvalga](financial-reporting-getting-started.md)
 

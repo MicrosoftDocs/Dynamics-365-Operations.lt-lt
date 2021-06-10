@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d6e5725255c43b808d656a46cbcdeca4d200b768
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: 3509763c03ecc0e847c72828d14b172401df75b0
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920162"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115150"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Inžinerijos versijos ir inžinerijos produkto kategorijos
 
@@ -48,7 +48,8 @@ Jums naudojant inžinerinius produktus, kiekvienas produktas turi mažiausiai vi
 - Inžinerijos bendrovė, kuri sukūrė ir turi produktą (Dėl daugiau informacijos, žr. [Inžinerijos įmonės ir duomenų turėjimo taisyklės](engineering-org-data-ownership-rules.md).)
 - Susiję inžinerijos dokumentai, kurie yra rinkinio rankinis, vartotojo instrukcijos, paveikslėliai ir nuorodos
 - Inžinerijos atributai (Dėl daugiau informacijos, žr. [Inžinerijos atributai ir inžinerijos atributų paieška](engineering-attributes-and-search.md).)
-- Inžineriniai KS
+- Inžinerinių produktų komplektavimo specifikacija (KS)
+- Produktų gamybos proceso formulės
 - Inžineriniai maršrutai
 
 Galite naujinti šiuos duomenis esančioje versijoje arba sukurti naują naudodami *inžinerijos keitimo užsakymas*. (Dėl daugiau informacijos, žr. [Valdyti keitimus inžineriniams produktams](engineering-change-management.md).) Jei sukuriate naują produkto versiją, sistema kopijuoja visus su inžinerija susijusius duomenis į tą naują versiją. Galite tada keisti naujos versijos duomenis. Tokiu būdu, galite stebėti konkrečius duomenis kiekvienai paskesnei versijai. Norėdami palyginti skirtumus tarp inžinerinių versijų, peržiūrėkite inžinerinių keitimų užsakymą, kuris apima keitimo tipus, rodančius visus keitimus.
@@ -98,18 +99,20 @@ Norėdami dirbti su inžinerinio produkto kategorijomis, eikite į **Inžinerijo
 
 Nustatykite tolesnius laukelius inžinerinio produkto kategorijos antraštėje.
 
-| Laukas | aprašymas |
+| Laukas | Aprašas |
 |---|---|
-| Pavadinimas / vardas ir (arba) pavardė | Įveskite inžinerinio produkto kategorijos pavadinimą. |
+| Pavadinimas | Įveskite inžinerinio produkto kategorijos pavadinimą. |
 | Inžinerijos bendrovė | Pasirinkite inžinerijos bendrovę, kurioje produktai šioje inžinerijos produkto kategorijoje gali būti sukurti ir kur jie turi būti laikomi. |
 
 ### <a name="details-fasttab"></a>Išsamios informacijos „FastTab“
 
 Nustatykite tolesnius laukelius **Išsamios informacijos** „FastTab“ inžinerinio produkto kategorijoje.
 
-| Laukas | aprašymas |
+| Laukas | Aprašas |
 |---|---|
 | Produkto tipas | Pasirinkite, ar kategorija taikoma produktams ar paslaugoms. |
+| Gamybos tipas | Šis laukas pasirodys tik tada, kai įgalinsite [formulių keitimo valdymą](manage-formula-changes.md) savo sistemoje. Pasirinkite gamybos, kuriai taikoma ši inžinerijos produktų kategorija, tipą:<ul><li>**Prekės planavimas** – Naudokite šią inžinerijos kategoriją planavimo prekių formulių keitimo valdymui atlikti. Prekių planavimui naudojamos formulės. Jos yra panašios į sudėtines prekes, tačiau jos naudojamos tik sudėtiniams ir šalutiniams, bet ne baigtiems produktams gaminti. Formulės yra naudojamos gamybos proceso metu.</li><li>**KS** – Naudokite šią inžinerijos kategoriją inžinerijos produktų, nenaudojančių formulių ir įprastai (tačiau nebūtinai) turinčių KS, valdymui.</li><li>**Formulė** – Naudokite šią inžinerijos kategoriją baigtų produktų formulių keitimo valdymui atlikti. Šios prekės turės formulę, bet ne KS. Formulės yra naudojamos gamybos proceso metu.</li></ul> |
+| Esamas svoris | Ši parinktis pasirodys tik tada, kai įgalinsite [formulių keitimo valdymą](manage-formula-changes.md) savo sistemoje. Ji galima tik tada, kai **Gamybos tipo** laukas nustatytas į *Prekės planavimas* arba *Formulė*. Nustatykite šią pasirinktį į *Taip*, jei šią inžinerijos kategoriją naudosite prekėms, kurioms reikalingas esamo svorio palaikymas, valdyti. |
 | Sekti versijas perlaidose | Pasirinkite, ar produkto versija turi būti su antspaudu visose perlaidose (logistinis poveikis). Pavyzdžiui, jei sekate versiją perlaidose, visi prekybos užsakymai rodys, kurie konkreti produkto versija buvo parduota tame prekybos užsakyme. Jei nesekate versijos perlaidose, visi prekybos užsakymai nerodys, kuri konkreti produkto versija buvo parduota. Vietoje to, jie visada rodys naujausią versiją.<ul><li>Jei ši parinktis nustatyta į *Taip*, produkto pagrindiniai duomenys sukruti produktui ir kiekviena produkto versija bus variantas naudojantis *versijos* produkto matmenis. **Laukelis Produkto potipis automatiškai nustatomas į** Pagrindinį produktą *ir* Produkto matmenų grupės laukelyje turite įvesti **produkto** matmenų grupę, kurioje *versijos* matmenys įjungti. Tik produkto matmenų grupės, kuriose *versija* yra įjungti matmenys bus rodoma. Galite sukurti naują produkto matmenų grupę pasirinkę **Redaguoti** mygtuką (pieštuko simbolis).</li><li>Jei ši parinktis nustatyta į *Ne*, tai *versijos* produkto matmenys nebus naudojami. Tuomet galite pasirinkite, ar sukurti produktą ar pagrindinį produktą, kuris naudos kitus matmenis.</li></ul><p>Ši parinktis dažnai naudojama produktams, kurie turi kaštų skirtumus tarp versijų arba produktams, kuriems taikomos skirtingos sąlygos dėl klientų. Dėl to, svarbu nurodyti, kuri versija buvo naudojame konkrečioje perlaidoje.</p> |
 | Produkto potipis | Pasirinkite, ar kategorija turės produktus ar pagrindinį produktą. Pagrindiniam produktui, jo matmenys bus naudojami.
 | Produkto dimensijų grupė | Nustatymai **Sekti versijas perlaidose** nustatymai padeda jums parinkti dimensijos grupę. Jei nustatėte, kad norite sekti versijas perlaidose, produkto dimensijos grupės, kuriose *versija* dimensija naudojama bus rodomos. Kitu atveju, tik produkto dimensijos grupės, kai *versija* dimensija nėra naudojama, bus rodomos. |
@@ -130,16 +133,19 @@ Jei keičiate atributų pasirinkimą inžinerijos įmonei ir produktai jau yra p
 
 Kiekvienai įtrauktai eilutei įtrauktai į tinklelį, nustatykite tolesnius laukelius.
 
-| Laukas | aprašymas |
+| Laukas | Aprašas |
 |---|---|
-| Pavadinimas / vardas ir (arba) pavardė | Pasirinkite įtraukiamą atributą. |
+| Pavadinimas | Pasirinkite įtraukiamą atributą. |
 | Reikšmė | Pasirinkite atributui numatytąją vertę. |
-| Privalomas | Tipo *Boolean* atributams, jei ši parinktis nustatyta į *Taip*, vartotojai privalo nustatyti atributą į *Taip*. Jei ši parinktis nustatyta į *Ne* vartotojai gali nustatyti atributus į *Taip* arba *Ne*. Kitiems duomenų tipams šios parinkties nustatymas yra tik informacinis. |
+| Privalomas | *Bulio logikos* tipo atributams, jei ši parinktis nustatyta į *Taip*, vartotojai privalo nustatyti atributą į *Taip*. Jei ši parinktis nustatyta į *Ne* vartotojai gali nustatyti atributus į *Taip* arba *Ne*. Kitiems duomenų tipams šios parinkties nustatymas yra tik informacinis. |
 | Paketo atributas | Pasirinkite, ar atributas turi būti skatinamas per bendras funkcijas. |
 
 ### <a name="readiness-policy-fasttab"></a>Parengimo politikos „FastTab“
 
-Naudokite **Produkto parengimo politikos** laukelį tam, kad pasirinktumėte pasirengimo politiką, kuri taikoma produktams priklausantiems šiai kategorijai. Dėl daugiau informacijos, žr. [Produkto parengimas](product-readiness.md).
+Naudokite **Produkto parengimo politikos** lauką tam, kad pasirinktumėte pasirengimo politiką, kuri turėtų būti taikoma produktams, sukurtiems pagal šią inžinerijos kategoriją. Dėl daugiau informacijos, žr. [Produkto parengimas](product-readiness.md).
+
+> [!NOTE]
+> **Produkto pasirengimo strategijos** laukas šiek tiek skiriasi, jei savo sistemoje įjungėte *Produkto pasirengimo tikrinimo* funkciją. (Ši priemonė leidžia taikyti pasirengimo strategijas standartiniams \[ne inžineriniams\] produktams). Daugiau informacijos rasite [Pasirengimo strategijų priskyrimas standartiniams ir inžineriniams produktams](product-readiness.md#assign-policy).
 
 ### <a name="release-policy-fasttab"></a>Leidimo politikos „FastTab“
 

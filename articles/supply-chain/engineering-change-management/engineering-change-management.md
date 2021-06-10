@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 56446e6a8abfcab83772e446dc7f01c529404b23
-ms.sourcegitcommit: 05210ceefd8816b889019b2a6554855f3c5b2a6c
+ms.openlocfilehash: d31c73964877aeb1556c93b03d276698e8d84d30
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5954650"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115004"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Valdyti inžinerinių produktų keitimus
 
@@ -92,9 +92,13 @@ Sąrašas yra tik informaciniais tikslais. Dėl to, galite įtraukti kiek norite
 
 „FastTab“ **Šaltinis** leidžia jums sekti keitimo užklausos pradžios tašką. Jis naudingas, jei norite pažiūrėti, ar keitimo užklausa buvo sukurta iš prekybos užsakymo, kas ją sukūrė ir kurioje bendrovėje.
 
-### <a name="evaluate-the-business-impact-of-a-change-request"></a>Įvertinkite verslo poveikį keitimo užklausai
+### <a name="evaluate-the-business-impact-of-a-change-request-and-send-notifications"></a>Įvertinkite keitimo užklausos verslo poveikį ir siųskite pranešimus
 
-Jei norite peržiūrėti keitimo užklausą, ieškokite priklausinių. Tokiu būdu, galite įvertinti keitimo užklausos poveikį atviroms perlaidoms, tokioms kaip prekybos, gamybos užsakymai ir turimas inventorius.
+Jei norite peržiūrėti keitimo užklausą, ieškokite priklausinių. Tokiu būdu, galite įvertinti keitimo užklausos poveikį atviroms perlaidoms, tokioms kaip prekybos, gamybos užsakymai ir turimas inventorius. Kai peržiūrite keitimo užklausas, galite siųsti pranešimus žmonėms, kurie yra atsakingi už įvairių tipų susijusių užsakymų įvykdymą.
+
+#### <a name="review-affected-transactions-block-selected-transactions-and-send-notifications"></a>Peržiūrėkite paveiktas operacijas, užblokuokite pasirinktas operacijas ir siųskite pranešimus
+
+Norėdami peržiūrėti paveiktas operacijas, užblokuoti pasirinktas operacijas ir siųsti susijusius pranešimus, atlikite šiuos veiksmus.
 
 1. Eikite į **Inžinerinių pakeitimų valdymas \> Bendri \> Inžinerinių pakeitimų valdymas \>Inžinerinių pakeitimų užklausos**.
 1. Atvėrus esamą keitimo užklausą ar pasirinkus **Nauja** veiksmų juostoje tam, kad sukurtumėte naują keitimo užklausą.
@@ -103,7 +107,30 @@ Jei norite peržiūrėti keitimo užklausą, ieškokite priklausinių. Tokiu bū
     - **Ieškoti** – Nuskaito visas atviras perlaidas ir tada atveria **Verslo poveikis atvirai perlaidai** teksto laukelį, kuriame įvardytos visos perlaidos, kurias paveiks pokytis.
     - **Peržiūrėti ankstesnę paiešką** – Atverkite **Verslo poveikio atviroms perlaidoms** teksto laukelį, kuriame įrašyti ankstesnės paieškos rezultatai. (Nauja paieška nebaigta.)
 
-1. Jei problema, kurią reikia pakeisti yra kritinė, galite blokuoti atviras perlaidas ar įspėti atsakingą vartotoją naudodami mygtukus įrankių juostoje **Verslo poveikis atviroms perlaidoms** teksto laukelį.
+1. Dialogo lange **Verslo poveikis atviroms operacijoms** pateikiamas skirtukų rinkinys, iš kurių kiekvienas rodo tam tikro tipo paveiktų operacijų sąrašą (**Pardavimo užsakymai**, **Pirkimo užsakymai**, **Gamybos užsakymai**, **Atsargos** ir taip toliau). Kiekviename skirtuke taip pat yra rodomas skaičius, nurodantis paveiktų to tipo operacijų skaičių. Pasirinkite skirtuką, kad peržiūrėtumėte aktualų sąrašą.
+1. Norėdami dirbti su operacija sąraše, pasirinkite ją ir vieną iš šių įrankių juostos mygtukų:
+
+    - **Peržiūrėti operaciją** – Atidaro pasirinktą operacijos įrašą.
+    - **Blokuoti užsakymą** – Šis mygtukas galimas tik **Pardavimo užsakymų** skirtuke Pasirinkite jį, kad užblokuotumėte pasirinktą pardavimo užsakymą.
+    - **Blokuoti eilutę** – Šis mygtukas galimas tik **Pirkimo užsakymų** skirtuke Pasirinkite jį, kad užblokuotumėte pasirinktą pirkimo užsakymo eilutę.
+    - **Pranešti atsakingam asmeniui** – Šis mygtukas galimas tik **Pardavimo užsakymų** skirtuke Pasirinkite jį, kad išsiųstumėte pranešimą apie pakeitimą vartotojui, atsakingam už pasirinktą pardavimo užsakymą.
+    - **Pranešti užsisakiusiam asmeniui** – Šis mygtukas galimas tik **Pirkimo užsakymų** skirtuke Pasirinkite jį, kad išsiųstumėte pranešimą apie pakeitimą vartotojui, atlikusiam pasirinktą pirkimo užsakymą.
+    - **Pranešti apie gamybą** – Šis mygtukas galimas tik **Gamybos užsakymų** skirtuke Skirtingai nuo pardavimo ir pirkimo užsakymų, gamybos užsakymuose nėra vieno vartotojo, kuris nustatytas kaip pilnai atsakingas už juos. Vietoj to, keli prižiūrėtojai arba planuotojai įprastai vadovauja konkrečiai vietai arba gamybos daliai (pavyzdžiui, konkretiems ištekliams arba išteklių grupėms). Todėl, kai pasirenkate šį mygtuką, visi vartotojai, atsakingi už bet kuriuos išteklius, susijusius su pasirinktu gamybos užsakymu, gauna pranešimą apie pakeitimą.
+    - **Pranešti rengėjui** – Šis mygtukas galimas tik **Pirkimo paraiškų** skirtuke Pasirinkite jį, kad išsiųstumėte pranešimą apie pakeitimą vartotojui, nustatytam kaip pasirinktos pirkimo paraiškos rengėjui.
+    - **Pranešti atsakingam pardavėjui** – Šis mygtukas galimas tik **Pasiūlymų** skirtuke Pasirinkite jį, kad išsiųstumėte pranešimą apie pakeitimą vartotojui, atsakingam už pasirinktą pasiūlymą.
+    - **Nurašyti** – Šis mygtukas galimas tik **Atsargų** skirtuke Pasirinkite jį, jei norite nurašyti pasirinktas atsargas.
+    - **Peržiūrėti retrospektyvą** – Atidaro pasirinktos operacijos veiksmų retrospektyvą naudodamas **Verslo poveikio atviroms operacijoms** dialogo langą. (Pavyzdžiui, retrospektyva parodo, ar pranešimai buvo išsiųsti, ar operacijos buvo užblokuotos.) 
+    - **Peržiūrėti visas operacijas** – Atidaromas pilnas visų operacijų sąrašas, o ne tik atidarytos operacijos.
+
+#### <a name="review-and-process-change-notifications-for-transactions"></a>Peržiūrėkite ir apdorokite operacijų pakeitimų pranešimus
+
+Galite skaityti ir apdoroti pakeitimų pranešimus, kuriuos gaunate šiais būdais:
+
+- Tačiau gamybos užsakymų atveju, pranešimai apie operacijų, už kurias esate atsakingi, pakeitimus atsiranda Veiksmų centre. Mygtukas **Rodyti pranešimus** (skambučio simbolis), esantis dešinėje naršymo meniu pusėje, nurodo, kada pranešimas jums bus pasiekiamas Veiksmų centre. Pasirinkite mygtuką **Rodyti pranešimus** Veiksmų centrui atidaryti ir pranešimams peržiūrėti.
+- Norėdami peržiūrėti visus gamybos užsakymus, kuriems buvo išsiųstas inžinerinis pranešimas, eikite į **Gamybos užsakymai \> Gamybos užsakymai \> Visi gamybos užsakymai**. Tada Veiksmų juostos skirtuke **Gamybos užsakymas**, esančiame **Inžinerinio pakeitimų užklausų** grupėje, pasirinkite **Inžineriniai pranešimai** tam, kad atidarytumėte **Inžinerinių pranešimų** puslapį.
+- Gamybos užsakymuose galite pasirinkti peržiūrėti tik tuos pakeitimų pranešimus, kurie taikomi jūsų valdomiems gamybos ištekliams. Veiksmų srities **Gamybos vietos valdymo** darbo srityje pasirinkite **Konfigūruoti mano darbo sritį** puslapio filtravimui, kad jame būtų pateikta tik informacija apie jūsų valdomus gamybos vienetus, grupes ir (arba) išteklius. Skyriaus **Suvestinė** plytelėje, pavadintoje **Gamybos užsakymai su pakeistais produktai**, rodomas pranešimų, atitinkančių jūsų filtro parametrus, skaičius. Pasirinkite šią plytelę, kad atidarytumėte **Inžinerinių pranešimų** puslapį, kuriame rodomas pilnas operacijų, atitinkančių jūsų filtro kriterijus, sąrašas.
+
+Kai peržiūrite gamybos užsakymo pranešimus **Inžinerijos pranešimų** puslapyje, galite vadovautis saitais į susijusius pakeitimo arba gamybos užsakymus, pasirinkdami stulpelių vertes arba naudodami susijusias komandas Veiksmų srityje. Įvertinę pakeitimą ir kaip reikalinga, atšaukę ar modifikavę gamybos užsakymus, galite pažymėti pranešimą kaip išspręstą. Pasirinkite pranešimą, o tada Veiksmų srityje pasirinkite **Išspręsti**. Pranešimas yra pašalinamas iš visų vartotojų rodinių.
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Sukurkite pokyčių užsakymą iš užklausos
 
@@ -144,7 +171,7 @@ Kaip aprašyta [Inžinerinės bendrovės ir duomenų turėjimo taisyklės](engin
     - **Jokių** – Naujinkite esančia produkto versiją (versijos naujinimas).
     - **Nauja versija** – Kurkite naują versiją pagrįstą pasirinkto produkto versija.
     - **Nauja produktas** – Kurkite visai naują produktą ar jo variantą pagrįstą pasirinkto produkto versija.
-    - **Naujas variantas** – Kurkite naują variantą pagrįstą pasirinkto produkto versija. Bus nukopijuota jos BOM ir maršruto informacija.
+    - **Naujas variantas** – Kurkite naują variantą pagrįstą pasirinkto produkto versiją. Bus nukopijuota jos BOM ir maršruto informacija.
 
 - Inžinerijos pokyčių užsakymas *veikimo bendrovėje*, galite keisti logistinius produkto duomenis. Pavyzdžiui, galite praturtinti esantį BOM su nustatymais šaltinių, įtraukti vietinius maršrutus ar vietinius BOM ir papildyti BOM įtraukdami naujas BOM eilutės pakavimo medžiagoms, sutepimo skysčiams ar instrukcijoms vietine kalba. Papildymai, kuriuos daro vartotojai vykdančiojoje bendrovėje bus išsaugoti, kai nauji naujiniai siunčiami iš inžinerijos bendrovės. Dėl daugiau informacijos, žr. [Inžinerijos bendrovės ir duomenų turėjimo taisyklės](engineering-org-data-ownership-rules.md).
 

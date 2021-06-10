@@ -7,19 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6092e1e8b53ba22cf4de31a8cb488d65714f5f41
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 675d1891b663ccb7569efe7bbff76431123e8298
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798350"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6055321"
 ---
 # <a name="education-credit-basis"></a>Išsilavinimo kredito pagrindas
 
@@ -31,7 +30,7 @@ Fizinis pavadinimas: mshr_hcmeducationcreditbasis
 
 Toks numeravimas suteikia parinktį nustatytą būsenos vertėms pretendento išsilavimo įrašo išsilavinimo kredito pagrindui.
 
-| Reikšmė | Žyma:  | aprašymas |
+| Reikšmė | Žyma | Aprašas |
 | --- | --- | --- |
 | 200000000 | Tuščias | Nebuvo parinkta jokios vertės. |
 | 200000001 | Semestras | Semestras. |

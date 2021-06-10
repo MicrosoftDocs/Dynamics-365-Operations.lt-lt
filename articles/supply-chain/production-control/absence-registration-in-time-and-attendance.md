@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b765ae63cfb17e26439758f2a0ed64770ef70881
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a94df9dd706c2540779db70e794e4a0a3f2dd186
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809283"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103027"
 ---
 # <a name="absence-registration-in-time-and-attendance"></a>Neatvykimų registravimas modulyje Laikas ir buvimas darbe
 
@@ -31,7 +31,7 @@ ms.locfileid: "5809283"
 
 Darbuotojai, nedirbantys įprastų darbo valandų metu, laikomi neatvykusiais į darbą. Įprastos darbo valandos apibrėžtos darbuotojo standartinio laiko profilyje.
 
-Pavyzdžiui, darbuotojas dirba dienos profiliu, kai atėjimas į darbą registruojamas 7:00 val., o išėjimas iš darbo – 15:00 val. Jei darbuotojas atėjimą į darbą užregistruoja 9:00 val., laikoma, kad tą dieną jis nuo 7:00 iki 9:00 val. nebuvo darbe.
+Pavyzdžiui, darbuotojas dirba dienos profiliu, kai atėjimas į darbą registruojamas 7:00 val., o išėjimas iš darbo – 15:00 val. Jei darbuotojas atėjimą į darbą užregistruoja 9:00 val., yra laikoma, kad tą dieną jis nuo 7:00 iki 9:00 val. nebuvo darbe.
 
 Tokiu atveju darbuotojai raginami įvesti neatvykimo į darbą priežastį. Jie nurodyti priežastį gali pasirinkdami neatvykimų kodą.
 
@@ -101,7 +101,7 @@ Darbuotojo laiko registracijos turi būti apskaičiuojamas ir patvirtinamos prie
 
 Tvirtintojas gali keisti darbuotojo darbo laiko registracijas. Tvirtintojas gali keisti netgi bet kokį darbuotojo užregistruotą neatvykimą. Jei tvirtintojas rankiniu būdu įveda laikotarpį, kuriam priskirtas neatvykimo kodas, tam laikotarpiui skirtas neatvykimas kodas nėra perrašomas Laiko ir buvimo darbe parametruose įvestu numatytuoju neatvykimo kodu.
 
-Pavyzdžiui, darbuotoja atėjimą į darbą užregistruoja 10:00 val. ir pasirenka neatvykimo kodą, kuriuo žymimas vėlavimas. Vėliau darbuotoja informuoja savo prižiūrėtoją, kad ji nuo 8:00 iki 10:00 val. lankėsi pas gydytoją. Dėl apsilankymo pas gydytoją iš darbuotojo atlyginimo pinigai neturi būti atskaitomi. Todėl tokiu atveju prižiūrėtojas dviejų valandų neatvykimą nuo 8:00 iki 10:00 val. gali koreguoti rankiniu būdu įvesdamas neatvykimo kodą, kuriuo žymima, kad darbuotojas tas dvi valandas sirgo.
+Pavyzdžiui, darbuotojas atėjimą į darbą užregistruoja 10:00 val. ir pasirenka neatvykimo kodą, žymintis vėlavimą. Vėliau darbuotojas informuoja savo vadovą, kad jis nuo 8:00 iki 10:00 val. lankėsi pas gydytoją. Dėl apsilankymo pas gydytoją iš darbuotojo atlyginimo pinigai neturi būti atskaitomi. Todėl tokiu atveju prižiūrėtojas dviejų valandų neatvykimą nuo 8:00 iki 10:00 val. gali koreguoti rankiniu būdu įvesdamas neatvykimo kodą, kuriuo žymima, kad darbuotojas tas dvi valandas sirgo.
 
 ### <a name="calculate-and-approve-absence"></a>Neatvykimo apskaičiavimas ir patvirtinimas
 

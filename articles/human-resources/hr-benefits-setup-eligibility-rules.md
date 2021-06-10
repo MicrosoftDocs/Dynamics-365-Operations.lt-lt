@@ -2,13 +2,12 @@
 title: Tinkamumo taisyklių ir parinkčių konfigūravimas
 description: Tinkamumo taisyklių ir parinkčių valdant išmokas programoje „Microsoft Dynamics 365 Human Resources“ nustatymas.
 author: andreabichsel
-ms.date: 04/06/2020
+ms.date: 05/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1c5ad568d2e1dd14acdfb3848cace035abfc0507
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1b4673631f9c7d2310d8bdb08e0b25027bc8dedf
+ms.sourcegitcommit: 4c880b152e81350f023b944c2ab13e60498e2c7b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791514"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6093925"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Tinkamumo taisyklių ir parinkčių konfigūravimas
 
@@ -37,11 +36,11 @@ Atviros registracijos metu darbuotojai gali pasirinkti išmokų planus. Jeigu pa
 
 1. Darbo srities **Išmokų valdymas** dalyje **Sąranka** pasirinkite **Tinkamumo taisyklės ir parinktys**.
 
-2. Norėdami kurti tinkamumo taisyklę, skirtuke **Tinkamumo taisyklės** pasirinkite **Nauja**. Norėdami peržiūrėti su tinkamumo taisykle susietus planus, pasirinkite **Pridedami planai**.
+2. Skirtuke **Tinkamumo taisyklės** pasirinkite **Nauja**, kad sukurtumėte tinkamumo taisyklę. Norėdami peržiūrėti su tinkamumo taisykle susietus planus, pasirinkite **Pridedami planai**.
 
-3. Nurodyti šių laukų vertes:
+3. Nurodykite šių laukų reikšmes.
 
-   | Laukas | Aprašymas |
+   | Laukas | Aprašas |
    | --- | --- |
    | **Tinkamumo taisyklė** | Unikalus tinkamumo taisyklės identifikatorius. |
    | **Aprašas** | Tinkamumo taisyklės aprašas. |
@@ -57,9 +56,9 @@ Atviros registracijos metu darbuotojai gali pasirinkti išmokų planus. Jeigu pa
    | **Registracijos laikotarpis** | Laikotarpis, per kurį leidžiama naujos samdos registracija. Jei tą patį nustatėte parametruose, parametrų nustatymams teikiama pirmenybė. |
    | **Naudoti ankstesnę įdarbinimo būseną** | Nurodo, ar naudoti ankstesnę darbuotojo įdarbinimo būseną išmokų tinkamumo taisyklėje. Pavyzdžiui, galite nurodyti tinkamumo taisyklę, kuri atsisako visų darbuotojų, kurie per 90 dienų nuo ankstesnio įdarbinimo perėjo iš būsenos **Atleistas** į būseną **Įdarbintas**, draudimo laukimo laikotarpio. |
 
-4. Dalyje **Papildomi kriterijai** pasirinkite šias pasirinktis ir, jei reikia, pridėkite informaciją:
+4. Dalyje **Papildomi kriterijai** pasirinkite šias parinktis ir pridėkite informaciją, jei reikia.
 
-   | Parinktis | Aprašymas |
+   | Parinktis | Aprašas |
    | --- | --- |
    | **Tinkamas amžius** | Nurodo amžiaus intervalą ar intervalus, reikalingus tinkamumo taisyklei atitikti. |
    | **Tinkamas skyrius** | Nurodo padalinį arba padalinius, kuriems turi priklausyti darbuotojas, kad atitiktų tinkamumo taisyklę. |
@@ -67,8 +66,8 @@ Atviros registracijos metu darbuotojai gali pasirinkti išmokų planus. Jeigu pa
    | **Tinkamas darbas** | Nurodo užduotį ar užduotys, atitinkančias tinkamumo taisyklę. Užduotys yra siejamos su pareigomis, o pareigas užima darbuotojai. |
    | **Tinkama užduoties funkcija** | Nurodo užduotie funkciją ar funkcijas, atitinkančias tinkamumo taisyklę. Pavyzdžiui, pardavėjai arba techniniai darbuotojai. |
    | **Tinkamas darbo tipas** | Nurodo užduoties tipą ar tipus, atitinkančius tinkamumo taisyklę. Pavyzdžiui, administratorius arba vadovas. |
-   | **Tinkamas juridinis subjektas** | Nurodomas juridinis subjektas arba juridiniai subjektai, atitinkantys tinkamumo taisyklę. Pavyzdžiui, „Contoso Entertainment System“, JAV. |
-   | **Tinkama kompensacijos sritis** | Nurodoma darbuotojo vietą, atitinkančią tinkamumo taisyklę. Pavyzdžiui, JAV centras. |
+   | **Tinkamas juridinis subjektas** | Nurodomas juridinis subjektas arba juridiniai subjektai, atitinkantys tinkamumo taisyklę. Pavyzdžiui, „Contoso pramogų sistema“, JAV. |
+   | **Tinkamas kompensacijos regionas** | Nurodoma darbuotojo vietą, atitinkančią tinkamumo taisyklę. Pavyzdžiui, JAV centras. |
    | **Tinkamos pareigos** | Nurodomos vienos ar daugiau pareigų, atitinkančių tinkamumo taisyklę. Pavyzdžiui, personalo asistentas arba personalo vadybininkas. |
    | **Tinkamų pareigų tipas** | Nurodomas pareigų tipas ar tipai, atitinkantys tinkamumo taisyklę. Pavyzdžiui, dirbantis visą dieną. |
    | **Tinkama būsena** | Nurodomos valstijos arba provincijos, atitinkančios tinkamumo taisyklę. Pavyzdžiui, Šiaurės Dakota, JAV arba Britų Kolumbija, Kanada. |
@@ -76,9 +75,9 @@ Atviros registracijos metu darbuotojai gali pasirinkti išmokų planus. Jeigu pa
    | **Tinkama sąjunga** | Nurodoma narystė profesinėje sąjungoje, atitinkanti tinkamumo taisyklę. Pavyzdžiui, Amerikos keltuvų vairuotojai. </br></br>Naudojant profesine sąjunga grindžiama tinkamumo taisyklę, turi būti užpildyta darbuotojo narystės sąjungoje pabaigos data. Šio lauko negalima palikti tuščio. |
    | **Tinkamas pašto indeksas** | Nurodomi pašto indeksai, atitinkantys tinkamumo taisyklę. Pavyzdžiui, 58104. |
 
-5. Dalyje **Papildoma informacija** galite peržiūrėti šią papildomą informaciją:
+5. Dalyje **Papildoma informacija** galite peržiūrėti šią papildomą informaciją.
 
-   | Laukas | Aprašymas |
+   | Laukas | Aprašas |
    | --- | --- |
    | **Tinkamo vartotojo laukas** | Nurodomos papildomos tinkamumo taisyklės, grindžiamos kliento apibrėžtais laukais. |
    | **Tinkamumo tipas** | Nurodoma kriterijų kategorija, kurią pasirinkote dalyje **Papildomi kriterijai**. |
@@ -87,6 +86,72 @@ Atviros registracijos metu darbuotojai gali pasirinkti išmokų planus. Jeigu pa
 
 6. Pasirinkite **Įrašyti**.
 
+## <a name="using-custom-fields-in-eligibility-rules"></a>Pasirinktinių laukų naudojimas tinkamumo taisyklėms
+
+[Pasirinktiniai laukai](hr-developer-custom-fields.md) gali būti kuriami Personalo programoje papildomos informacijos sekimui. Šie laukai gali būti pridėti tiesiogiai prie vartotojo sąsajos, o stulpelis bus dinamiškai pridedamas prie esamos lentelės.  
+
+Pasirinktiniai laukai gali būti naudojami tinkamumo procese. Tinkamumo taisyklės gali naudoti vieną ar daugiau pasirinktinių laukų reikšmių, kad nustatytų darbuotojo tinkamumą.  Norėdami pridėti pasirinktinį lauką prie esamos taisyklės arba sukurti naują taisyklę, eikite į **Išmokų valdymas > Saitai > Nustatymas > Tinkamumo taisyklės > Pasirinktinio lauko tinkamumas**. Šiame puslapyje galite sukurti taisyklę, kurioje naudojamas vienas ar keli pasirinktiniai laukai, taip pat galite apibrėžti kelias kiekvieno pasirinktinio lauko vertes tinkamumui nustatyti.
+
+Toliau pateiktos lentelės palaiko pasirinktinius laukus, kuriuos galima panaudoti apdorojant tinkamumą:
+
+- Darbuotojas („HcmWorker”)  
+- Užduotis („HcmJob”)  
+- Pareigos („HcmPosition”)  
+- Pareigų informacija („HcmPositionDetail”)  
+- Darbininko paskyrimas į pareigas  
+- Įdarbinimas („HcmEmployment”)  
+- Įdarbinimo informacija („HcmEmploymentDetails”)  
+- Užduoties informacija („HcmJobDetails”)  
+
+Toliau pateikti pasirinktiniai laukų tipai yra palaikomi apdorojant tinkamumą:
+
+- Tekstas  
+- Išrinkimo sąrašas  
+- Numeris  
+- Dešimtainis  
+- Žymės langelis  
+
+Šioje lentelėje rodoma pasirinktinio lauko tinkamumo formos lauko informacija.
+
+| Laukas  | Aprašas |
+|--------|-------------|
+| Pavadinimas | Kuriamų kriterijų pavadinimas. |
+| Lentelės pavadinimas | Lentelės, kurioje yra tinkamumo taisyklei naudojamas pasirinktinis laukas, pavadinimas. |
+| Lauko pavadinimas | Laukas, kuris bus naudojamas tinkamumo taisyklei. |
+| Operatoriaus tipas | Rodomas operatorius, naudotas pasirinktinio lauko tinkamumo konfigūracijoje. |
+| Reikšmė | Rodoma reikšmė, naudota pasirinktinio lauko tinkamumo konfigūracijoje. |
+
+## <a name="eligibility-logic"></a>Tinkamumo logika
+
+Toliau pateiktuose skyriuose aprašoma, kaip apdorojamas išmokų tinkamumas.
+
+### <a name="rules-assigned-to-a-plan"></a>Planui priskirtos taisyklės 
+Kai išmokų planui yra priskirtos kelios tinkamumo taisyklės, darbuotojas turi atitikti bent vieną taisyklę, kad būtų tinkamas užsiregistruoti išmokų plane.  Toliau pateiktame pavyzdyje darbuotojas turi atitikti **Užduoties tipo** arba **Aktyvių darbuotojų** taisyklės reikalavimus.
+
+![Darbuotojas turi atitikti Užduoties tipo arba Aktyvių darbuotojų taisyklės reikalavimus.](media/RulesAssignedToAPlan.png)
+ 
+### <a name="criteria-within-an-eligibility-rule"></a>Tinkamumo taisyklės kriterijai 
+Taisyklėje apibrėžiate kriterijus, sudarančius taisyklę. Aukščiau pateiktame pavyzdyje **Užduoties tipo** taisyklės kriterijai yra tokie, kuriuose Užduoties tipas = Direktoriai. Todėl darbuotojas turi būti direktorius, kad būtų tinkamas. Tai yra tokia taisyklė, kurioje yra tik vienas kriterijus.
+
+Galite apibrėžti taisykles, kurios turi kelis kriterijus. Kai nustatote kelis tinkamumo taisyklės kriterijus, darbuotojas turi atitikti kiekvieną tos taisyklės kriterijų, kad būtų tinkamas išmokų planui. 
+
+Pavyzdžiui, aukščiau pateikta taisyklė **Aktyvūs darbuotojai** yra sudaryta iš šių kriterijų. Kad darbuotojas būtų tinkamas pagal **Aktyvių darbuotojų** taisyklę, darbuotojas turi būti įdarbintas juridinio subjekto USMF *ir* jo pareigų tipas turi būti pilnos darbo dienos.  
+
+![Tinkamumo taisyklės kriterijai](media/CriteriaWithinAnEligibilityRule.png) 
+ 
+### <a name="multiple-conditions-within-criteria"></a>Kelios kriterijų sąlygos
+
+Taisykles galima toliau išplėsti, kad būtų galima naudoti kelias sąlygas viename kriterijuje. Darbuotojas turi atitikti bent vieną sąlygą, kad būtų tinkamas. Kuriant pagal aukščiau pateiktą pavyzdį, galima toliau išplėsti **Aktyvių darbuotojų** taisyklę, kad būtų įtraukti ir nepilną darbo dieną dirbantys darbuotojai. Todėl dabar darbuotojas turi būti USMF darbuotojas *ir* dirbti pilną arba nepilną darbo dieną.  
+
+![Kelios sąlygos kriterijams](media/MultipleConditionsWithinCriteria.png) 
+ 
+### <a name="eligibility-conditions-within-a-custom-field-criterion"></a>Pasirinktinio lauko kriterijaus tinkamumo sąlygos 
+Panašiai kaip ir aukščiau, pasirinktiniai laukai gali būti naudojami tinkamumo taisyklėms kurti ir dirbti tuo pačiu būdu. Pavyzdžiui, galbūt norėsite pasiūlyti interneto mokesčių kompensaciją Fargo ir Kopenhagos darbuotojams, kurie dirba iš namų, nes interneto išlaidos tose vietose yra didesnės. Norėdami tai padaryti, sukurkite du pasirinktinius laukus: **Biuro vieta** (išrinkimo sąrašas) ir **Darbas iš namų** (žymės langelis). Tada sukurkite taisyklę, pavadintą **WFH darbuotojai**. Taisyklės kriterijus yra ten, kur **Biuro vieta = Fargo** arba **Kopenhaga** *ir* ten, kur **Darbas iš namų = Taip**.
+
+Pasirinktines tinkamumo taisykles reikėtų nustatyti taip, kaip nurodyta toliau pateiktame paveikslėlyje. 
+
+![Tinkamumo sąlygos pasirinktinio lauko kriterijuje](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
+ 
 ## <a name="configure-bundles"></a>Konfigūruoti grupes
 
 Grupės yra susijusių išmokų planų rinkiniai. Galite naudoti išmokų grupes, kad grupuotumėte išmokų planus, kuriuos darbuotojai turi pasirinkti norėdami užsiregistruoti tam tikriems išmokų planams, kurie gali priklausyti nuo kitų išmokų planų registracijų. Galite naudoti grupavimą tokiais atvejais:
@@ -99,11 +164,11 @@ Grupės yra susijusių išmokų planų rinkiniai. Galite naudoti išmokų grupes
 
 2. Skirtuke **Grupavimas**, pasirinkite **Naujas**, kad kurtumėte grupavimą. Norėdami peržiūrėti su grupavimu susietus planus, pasirinkite **Pridedami planai**.
 
-3. Nurodyti šių laukų vertes:
+3. Nurodykite šių laukų reikšmes.
 
-   | Laukas | Aprašymas |
+   | Laukas | Aprašas |
    | --- | --- |
-   | **Grupavimas** | Unikalus grupavimo identifikatorius. |
+   | **Grupuoti** | Unikalus grupavimo identifikatorius. |
    | **Aprašas** | Grupavimo aprašas. |
    | **Meistras** | Nurodoma, ar vienas iš grupėje esančių planų turi būti pažymėtas kaip pagrindinis planas. Pagrindinis planas turi būti pasirenkamas kaip grupės dalis atviros registracijos metu, kad išmokų administratorius galėtų patvirtinti darbuotojo išmokų pasirinkimus. |
    | **Galiojimo pradžios data ir laikas** | Grupavimo aktyvinimo data ir laikas. |
@@ -119,9 +184,9 @@ Laikotarpiai apibrėžia išmokų galiojimo terminus ir laiką, kai darbuotojams
 
 2. Skirtuke **Laikotarpiai**, pasirinkite **Naujas**, kad kurtumėte laikotarpį. Norėdami vykdyti procesą, per kurį visi galiojantys aktyvūs išmokų planai bus pridėti prie išmokų laikotarpio, pasirinkite **Pridėti planus**. Norėdami peržiūrėti su grupavimu susietus planus, pasirinkite **Pridedami planai**. 
 
-3. Nurodyti šių laukų vertes:
+3. Nurodykite šių laukų reikšmes.
 
-   | Laukas | Aprašymas |
+   | Laukas | Aprašas |
    | --- | --- |
    | **Laikotarpis** | Unikalus laikotarpio identifikatorius. |
    | **Galiojimo pradžios data ir laikas** | Pradžios data ir laikas, kai išmokos laikotarpis yra aktyvus. |
@@ -141,9 +206,9 @@ Galite naudoti lanksčiųjų kreditų programas, kad užregistruotumėte darbuot
 
 2. Skirtuke **Laikotarpiai** pasirinkite **Lanksčiųjų kreditų programos**.
 
-3. Pasirinkite lanksčiojo kredito programą, kuri bus taikoma. Šiuose laukuose pateikiama tokia informacija:
+3. Pasirinkite lanksčiojo kredito programą, kuri bus taikoma. Laukuose pateikiama tokia informacija.
 
-   | Laukas | Aprašymas |
+   | Laukas | Aprašas |
    | --- | --- |
    | Išmokos kredito ID | Unikalus lanksčiųjų kreditų programos identifikatorius. |
    | Aprašymas | Lanksčiųjų kreditų programos aprašas. | 
@@ -157,15 +222,15 @@ Galite naudoti lanksčiųjų kreditų programas, kad užregistruotumėte darbuot
 
 ## <a name="configure-programs"></a>Programų konfigūravimas
 
-Programos – tai išmokų planų, turinčių bendrų tinkamumo taisyklių, rinkinys. Galite nustatyti tinkamumo taisykles, skirtas visai programai, o ne kiekvienam atskiram planui. Pavyzdžiui, programa „Contoso Canada FTE“ arba vadovų lygmens programa „Contoso Europe”. 
+Programos – tai išmokų planų, turinčių bendrų tinkamumo taisyklių, rinkinys. Galite nustatyti tinkamumo taisykles, skirtas visai programai, o ne kiekvienam atskiram planui. Pavyzdžiui, „Contoso” Kanados FTE programai ar „Contoso Europa” vykdomojo lygio programai. 
 
 1. Darbo srities **Išmokų valdymas** dalyje **Sąranka** pasirinkite **Tinkamumo taisyklės ir parinktys**.
 
 2. Skirtuke **Programos**, pasirinkite **Nauja**, kad kurtumėte programą. Norėdami nustatyti išimtis darbuotojams, kurie neatitinka tinkamumo taisyklių reikalavimų, pasirinkite **Tinkamumo taisyklės nepaisymas**. Norėdami peržiūrėti su programa susietus planus, pasirinkite **Pridedami planai**.
 
-3. Nurodyti šių laukų vertes:
+3. Nurodykite šių laukų reikšmes.
 
-   | Laukas | Aprašymas |
+   | Laukas | Aprašas |
    | --- | --- |
    | **Programa** | Unikalus programos identifikatorius. |
    | **Aprašas** | Programos aprašas. | 

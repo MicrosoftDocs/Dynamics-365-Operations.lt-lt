@@ -2,13 +2,12 @@
 title: Atostogų prašymų valdymas „Teams“
 description: Šioje temoje parodyta, kaip prašyti išleisti iš darbo programoje „Dynamics 365 Human Resources“ naudojant „Microsoft Teams“.
 author: andreabichsel
-ms.date: 02/23/2021
+ms.date: 05/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2ea495259ba29f302753991e260d5a8fa990322b
-ms.sourcegitcommit: e3f11fc9a9dae416a490437678bb482a0094f9a9
+ms.openlocfilehash: 661bb8369fe4dbe6cdf6ee0fb05d16f4350ecf5a
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5953417"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097264"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Atostogų prašymų valdymas „Teams“
 
@@ -33,21 +32,13 @@ ms.locfileid: "5953417"
 
 Programą „Dynamics 365 Human Resources“ galite rasti „Teams“ parduotuvėje.
 
-1. Programoje „Microsoft Teams“ pasirinkite daugtaškius.
-
-   ![„Human Resources Teams“ atostogų programos daugtaškiai](./media/hr-teams-leave-app-ellipses.png)
+1. „Microsoft Teams” pereikite į programų sąrašą.
  
 2. Raskite „Dynamics 365 Human Resources“ ir pasirinkite plytelę **Human Resources**.
 
-   ![„Human Resources Teams“ atostogų programos HR plytelė](./media/hr-teams-leave-app-human-resources-tile.png)
-
 3. Pasirinkite mygtuką **Įtraukti**, kad įdiegtumėte programą.
 
-   ![„Human Resources Teams“ atostogų programos diegimas](./media/hr-teams-leave-app-in-store.png)
-
 Jei programa automatiškai jūsų neprijungia, norėdami prisijungti pasirinkite skirtuką **Parametrai**.
-
-![„Human Resources Teams“ atostogų programos mygtukas Parametrai](./media/hr-teams-leave-app-settings-tab.png)
 
 > [!NOTE]
 > Jei nematote prisijungimo dialogo lango, patikrinkite naršyklės parametrus, kad būtų leidžiami iššokantieji langai. 
@@ -61,20 +52,24 @@ Jei turite prieigą prie daugiau nei vieno „Human Resources“ egzemplioriaus,
 
 Kai programa įdiegiama, rodomas pasveikinimo pranešimas, kuriame informuojama, kokio tipo veiksmus jūsų vardu gali atlikti robotas.
 
-![„Human Resources Teams“ atostogų programos roboto pasveikinimo pranešimas](./media/hr-teams-leave-app-bot.png)
- 
 > [!NOTE]
 > Pirmą kartą bendraujant su robotu, gali reikėti prisijungti. Jei nematote prisijungimo dialogo lango, patikrinkite naršyklės parametrus, kad būtų leidžiami iššokantieji langai.
 
-Roboto galite prašyti toliau pateiktų dalykų.
+Roboto galite prašyti toliau pateiktų dalykų:
 
-- Pateikti atostogų prašymą už jus.
+- Peržiūrėti savo dabartinius atostogų balansus. Pavyzdžiui, išsiųskite pranešimą „Peržiūrėti atostogų balansus.”
+
+- Pateikti atostogų prašymą už jus. Pavyzdžiui, išsiųskite pranešimą „Pasiimti ne darbo laiko” arba „Norėčiau pasiimti atostogas kitą ketvirtadienį ir penktadienį”, kad konkrečiau nurodytumėte prašomų atostogų tipą. 
 
   ![Atostogų užklausos paleidimas komandos pokalbyje](./media/hr-teams-leave-app-initiate.png)
 
 - Pokalbių robotas jums užpildys prašymą išeiti atostogų. Pasirinkite **Prašyti išleisti iš darbo** ir redaguokite savo prašymo duomenis.
 
-  ![Prašymo išeiti atostogų duomenų redagavimas](./media/hr-teams-leave-app-details.png)
+   Jei norite pateikti kelių tos pačios datos atostogų tipų atostogų užklausas, pasirinkite **Skaidyti dieną** parinktį iš meniu **Daugiau parinkčių**. 
+
+   Jei išeisite pusdieniui, kai atostogų užklausos vienetas pateiktas dienomis, galite nurodyti, ar norite prašyti laisvo laiko pirmoje, ar antroje dienos pusėje, pasirinkdami **Pusės dienos apibrėžimas** parinktį iš meniu **Daugiau parinkčių**.
+   
+   ![Pusės dienos apibrėžimai](./media/HalfDayDefinitions.png)
 
 - Kai baigsite redaguoti savo prašymo išeiti atostogų duomenis, pasirinkite **Pateikti** ir pateikite jį patvirtinti.
 
@@ -91,42 +86,36 @@ Skirtuke **Ne darbo laikas** galite peržiūrėti:
 - Prašymus išleisti iš darbo
 
 - Atostogų prašymų juodraščius
-
-![„Human Resources Teams“ atostogų programos skirtukas Ne darbo laikas](./media/hr-teams-leave-app-timeoff-tab.png)
  
 ### <a name="create-a-new-request"></a>Naujo prašymo kūrimas
 
 1. Norėdami kurti naują atostogų prašymą, pasirinkite **Naujas prašymas**.
 
-   ![„Human Resources Teams“ atostogų programos naujas prašymas](./media/hr-teams-leave-app-timeoff-tab-new.png)
-
 2. Įveskite dieną ar dienas, kuriomis norite nedirbti, tada pasirinkite **Įtraukti**.
 
-   ![„Human Resources Teams“ atostogų programos ne darbo laiko įtraukimas](./media/hr-teams-leave-app-timeoff-tab-add.png)
+   ![„Human Resources Teams“ atostogų programos ne darbo laiko įtraukimas](./media/TimeOffHours.png)
 
 3. Jei reikia, įveskite priežasties kodą. Taip pat, jei reikia įveskite komentarus ir įtraukite priedus.
 
-4. Kai užpildysite visą informaciją, įveskite **Pateikti**, kad pateiktumėte patvirtinimą. Taip pat galite įvesti **Įrašyti kaip juodraštį** ir grįžti prie jo vėliau.
+4. Pasirinkite **Skaidyti dieną** parinktį iš meniu **Daugiau parinkčių**, jei norite pateikti kelių tos pačios datos atostogų tipų atostogų užklausas.
+
+5. Pasirinkite **Pusės dienos apibrėžimas** parinktį, kad nurodytumėte, ar norite prašyti ne darbo laiko pirmojoje, ar antrojoje dienos pusėje. Ši parinktis yra galima, kai atostogų užklausos vienetas pateikiamas dienomis, o prašoma suma yra 0,5 dienos.
+
+6. Kai užpildysite visą informaciją, įveskite **Pateikti**, kad pateiktumėte ją patvirtinimui. Jūs taip pat galite įvesti **Įrašyti kaip juodraštį**, kad grįžtumėte prie jos vėliau.
 
 ### <a name="manage-draft-requests"></a>Prašymų juodraščių valdymas
 
 1. Pasirinkite skirtuką **Juodraščiai**.
 
-   ![„Human Resources Teams“ atostogų programos skirtukas Juodraščiai](./media/hr-teams-leave-app-drafts-tab.png)
-
 2. Norėdami redaguoti prašymą pasirinkite pieštuką arba pasirinkite šiukšlinę, jei prašymą norite panaikinti.
 
 3. Atlikite reikiamus pakeitimus. Kai užpildysite visą informaciją, įveskite **Pateikti**, kad pateiktumėte patvirtinimą. Taip pat galite pasirinkti **Įrašyti kaip juodraštį** ir grįžti prie jo vėliau.
-
-   ![„Human Resources Teams“ atostogų programos juodraščio redagavimas](./media/hr-teams-leave-app-drafts-edit.png)
    
 ### <a name="respond-to-teams-notifications"></a>Atsakyti į „Teams” pranešimus
 
 Kai jūs arba darbuotojas, kurio tvirtintojas esate jūs, pateikiate atostogų užklausą, gausite pranešimą „Human Resources“ programoje „Teams“. Galite pasirinkti pranešimą, norėdami jį peržiūrėti. Pranešimai taip pat rodomi **pokalbių** srityje.
 
 Jei esate tvirtintojas, pranešime galite pasirinkti **Patvirtinti** arba **Atmesti**. Taip pat galite pateikti pasirinktinį pranešimą.
-
-![Atostogų užklausos pranešimas programoje „Human Resources Teams“](./media/hr-teams-leave-app-notification.png)
 
 ## <a name="send-upcoming-time-off-information-to-your-coworkers"></a>Siųsti būsimo ne darbo laiko informaciją savo bendradarbiams
 
@@ -138,15 +127,9 @@ Jei esate tvirtintojas, pranešime galite pasirinkti **Patvirtinti** arba **Atme
 
 2. Pasirinkite atostogų užklausą, kurią norite bendrinti. Jei norite bendrinti juodraštinę atostogų užklausą, pirmiausia pasirinkite **Juodraščiai**.
 
-   ![Pasirinkite būsimą atostogų užklausą bendrinimui](./media/hr-teams-leave-app-chat-search.png)
-
 Jūsų atostogų užklausa bus rodoma pokalbiuose.
 
-![„Human Resources” atostogų užklausos kortelė](./media/hr-teams-leave-app-chat-card.png)
-
-Jei bendrinote juodraštinę užklausą, ji bus rodomas kaip juodraštis:
-
-![„Human Resources” juodraštinės atostogų užklausos kortelė](./media/hr-teams-leave-app-chat-draft-card.png)
+Jei bendrinote juodraštinę užklausą, ji bus rodoma kaip juodraštis.
 
 ## <a name="view-your-teams-leave-calendar"></a>Peržiūrėti komandos atostogų kalendorių
 
@@ -155,8 +138,6 @@ Jeigu esate vadovas, valdantis tiesiogines ataskaitas, galite peržiūrėti jūs
 1. „Human Resources“ programoje „Teams“ pasirinkite **Ne darbo laikas**.
 
 2. Pasirinkite **Komandos kalendorius**. Kalendorius rodo jūsų tiesioginių ataskaitų patvirtintą ir laukiamą ne darbo laiką.
-
-   ![Kalendoriaus peržiūra „Human Resources Teams“ programoje](./media/hr-teams-leave-app-view-calendar.png)
 
    > [!NOTE]
    > Jei nematote komandos kalendoriaus, paprašykite savo administratoriaus, kad jį įjungtų Daugiau informacijos žr. skyriuje [Diegimas ir sąranka](hr-admin-teams-leave-app.md#install-and-setup).

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7761366c0372c105ecbd4281c7bafa44bf6cf7b5
-ms.sourcegitcommit: 905a8c7a0c1bc06ada2acfba913dfe5f7b44ea16
+ms.openlocfilehash: b88d3fe97d14d3e2f766367de501148063582000
+ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "6039932"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6123367"
 ---
 # <a name="customer-aging-snapshots"></a>Klientų skirstymo pagal terminus momentinės kopijos
 
@@ -28,6 +28,8 @@ ms.locfileid: "6039932"
 Šioje temoje pateikiama informacijos apie kliento snėjimo momentines nuotaukas. Senstanti momentinė nuotrauka apskaičiuoja amžiaus balansą klientų grupėms vienu kartu. Galite sukurti skirstymo pagal terminus momentinės kopijos įrašus visiems klientams arba klientams, esantiems klientų telkinyje.
 
 Informacija iš senėjimo momentinių nuotraukų rodoma **Pagal terminus suskirstytų balansų** sąrašo puslapyje ir **Surinkimo** puslapyje. Prieš naudodami sąrašo puslapį turite sukurti skirstymo pagal laikotarpius **Senėjimo balansų** momentinę kopiją. Sąrašo puslapyje informacija rodoma tik tiems klientams, kuriems buvo sukurta skirstymo pagal terminus momentinė kopija.
+
+**Kliento kredito ir mokėjimų priežiūros** darbo sritis taip pat rodo klientų kurti terminus. Daugiau informacijos rasite [kreditų ir rinkinių valdymo „Power BI“ turinyje](credit-collections-power-bi.md).
 
 > [!NOTE]
 > Norėdami sumažinti laiką, reikalingą kuriant skirstymo pagal terminus momentinę kopiją, įjunkite funkcijų valdymo darbo srityje funkciją **Klientų skirstymo pagal** terminus **Efektyvumo patobulinimas** darbo srityje. Tačiau, kai ši funkcija įjungta, nenaudokite klientų telkinių. Jei pasirinktas klientų telkinys, priemonė neveiks, bet vis tiek galite kurti skirstymo pagal terminus momentinę kopiją.
@@ -62,4 +64,3 @@ Rekomenduojame suplanuoti šį procesą, kad jis būtų vykdomas pakete.
 > [!NOTE]
 > Norėdami pagerinti paketo našumą kurdami skirstymo pagal terminus momentines kopijas, lauke **Maksimalus paketinių užduočių skaičius** įveskite skaičių, kuris yra **numatytųjų rinkinių nustatymų** „FastTab“ laukelyje **Rinkiniai** puslapyje **gautinų sumų parametrai**. Lauke **Amžiaus kliento balansai** rekomenduojame pradėti nuo numatytosios vertės **100** ir tada koreguoti vertę, kad būtų optimizuotas jūsų situacijos apdorojimas.
 
-**Kliento kredito ir mokėjimų priežiūros** darbo sritis taip pat rodo klientų kurti terminus. Daugiau informacijos rasite [kreditų ir rinkinių valdymo „Power BI“ turinyje](credit-collections-power-bi.md).

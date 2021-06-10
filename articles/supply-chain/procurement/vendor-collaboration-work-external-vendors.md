@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5f0ed7d3344b43c477923ebd8c69acfb6630e6f4
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 30f7919e5ae0933b389a274d80aaed8e149631e7
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910406"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103101"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Tiekėjo bendradarbiavimas su išoriniais tiekėjais
 
@@ -240,7 +240,7 @@ Viešajame sektoriuje išplėstinės funkcijos suteikia galimybę RFQ atvejį i�
 - Paskelbtų pasiūlymų patvirtinimų eilutė
 - Paskelbtų pasiūlymų patvirtinimų antraščių priedai
 
-Šie objektai suteikia galimybę žmonėms, kurie nėra „Supply Chain Management” sukonfigūruoti vartotojai, bet turi anoniminės prieigos prie išorinės svetainės teises, peržiūrėti galimą ir uždarytą darbą. Be to, išplėstinės funkcijos dalyje **Siųsti ir publikuoti** suteikia galimybę vartotojui, kuris nustato RFQ proceso parametrus, nustatyti el. laiško šabloną. Tada, kai įsigijimo specialistas sukuria RFQ atvejį, jis turi pasirinkti el. laiško šabloną, kad tiekėjams išsiųstų reikiamą informaciją apie RFQ atvejį. 
+Šie objektai suteikia galimybę žmonėms, kurie nėra „Supply Chain Management” sukonfigūruoti vartotojai, bet turi anoniminės prieigos prie išorinės svetainės teises, peržiūrėti galimą ir uždarytą darbą. Be to, išplėstinės funkcijos dalyje **Siųsti ir publikuoti** suteikia galimybę vartotojui, kuris nustato RFQ proceso parametrus, nustatyti el. laiško šabloną. Tada, kai įsigijimo specialistas sukuria RFQ atvejį, jis privalo pasirinkti el. laiško šabloną, kad tiekėjams išsiųstų reikiamą informaciją apie RFQ atvejį. 
 
 Vartotojas, kuris nustato RFQ proceso parametrus, gali kurti kelis el. laiškų šablonus. Šie el. laiškų šablonai gali apimti statinį tekstą ir toliau nurodytus pakeitimo atpažinimo ženklus. Atpažinimo ženklai bus pakeisti kontekstinėmis reikšmėmis, kai el. laiškas bus sukurtas.
 
