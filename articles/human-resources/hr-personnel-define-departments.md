@@ -8,49 +8,48 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: OMOperatingUnit, HierarchyDesigner, OMNodeSelection, HierarchyPublishAndCloseForm, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd2e0465230d40c95c1bc115a34a2ce3369ccb81
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3c3149749568f07d68022066d7cc9964db5f2ffc
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793518"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6058877"
 ---
-# <a name="define-new-departments"></a><span data-ttu-id="bc443-103">Apibrėžti naujus padalinius</span><span class="sxs-lookup"><span data-stu-id="bc443-103">Define new departments</span></span>
+# <a name="define-new-departments"></a><span data-ttu-id="2b9bd-103">Apibrėžti naujus padalinius</span><span class="sxs-lookup"><span data-stu-id="2b9bd-103">Define new departments</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
-<span data-ttu-id="bc443-104">Padaliniai yra valdymo vienetai, kurie atstovauja funkcines verslo sritis, pvz., pardavimą arba apskaitą.</span><span class="sxs-lookup"><span data-stu-id="bc443-104">Departments are operating units that represent a functional area of a business, such as sales or accounting.</span></span> <span data-ttu-id="bc443-105">Daugelyje įmonių yra organizacijų hierarchijos, kuriose nurodomi skirtingi verslo padaliniai.</span><span class="sxs-lookup"><span data-stu-id="bc443-105">Many companies have organizational hierarchies that display the various departments within a business.</span></span> <span data-ttu-id="bc443-106">Ši procedūra apibūdina procesą, kurio metu padaliniai kuriami ir traukiami į organizacijų padalinių hierarchiją.</span><span class="sxs-lookup"><span data-stu-id="bc443-106">This procedure walks through the process of creating departments, and adding those departments to an organizations departmental hierarchy.</span></span> <span data-ttu-id="bc443-107">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="bc443-107">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="2b9bd-104">Padaliniai yra valdymo vienetai, kurie atstovauja funkcines verslo sritis, pvz., pardavimą arba apskaitą.</span><span class="sxs-lookup"><span data-stu-id="2b9bd-104">Departments are operating units that represent a functional area of a business, such as sales or accounting.</span></span> <span data-ttu-id="2b9bd-105">Daugelyje įmonių yra organizacijų hierarchijos, kuriose nurodomi skirtingi verslo padaliniai.</span><span class="sxs-lookup"><span data-stu-id="2b9bd-105">Many companies have organizational hierarchies that display the various departments within a business.</span></span> <span data-ttu-id="2b9bd-106">Ši procedūra apibūdina procesą, kurio metu padaliniai kuriami ir traukiami į organizacijų padalinių hierarchiją.</span><span class="sxs-lookup"><span data-stu-id="2b9bd-106">This procedure walks through the process of creating departments, and adding those departments to an organizations departmental hierarchy.</span></span> <span data-ttu-id="2b9bd-107">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="2b9bd-107">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="bc443-108">Pasirinkite Personalas > Padaliniai > Padaliniai.</span><span class="sxs-lookup"><span data-stu-id="bc443-108">Go to Human resources > Departments > Departments.</span></span>
-2. <span data-ttu-id="bc443-109">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="bc443-109">Click New to open the drop dialog.</span></span>
-3. <span data-ttu-id="bc443-110">Lauke Pavadinimas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="bc443-110">In the Name field, type a value.</span></span>
-    * <span data-ttu-id="bc443-111">Pavyzdys: atsiskaitymas už projektą</span><span class="sxs-lookup"><span data-stu-id="bc443-111">Example: Project billing</span></span>  
-4. <span data-ttu-id="bc443-112">Lauke Pažyma įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="bc443-112">In the Memo field, type a value.</span></span>
-    * <span data-ttu-id="bc443-113">Pavyzdys: atsiskaitymas už projektą</span><span class="sxs-lookup"><span data-stu-id="bc443-113">Example: Project billing</span></span>  
-5. <span data-ttu-id="bc443-114">Lauke Vadovas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="bc443-114">In the Manager field, enter or select a value.</span></span>
-    * <span data-ttu-id="bc443-115">Pavyzdys: Jodi Christiansen</span><span class="sxs-lookup"><span data-stu-id="bc443-115">Example: Jodi Christiansen</span></span>  
-6. <span data-ttu-id="bc443-116">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="bc443-116">Click Save.</span></span>
-7. <span data-ttu-id="bc443-117">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="bc443-117">Close the page.</span></span>
-8. <span data-ttu-id="bc443-118">Pasirinkite Personalas > Padaliniai > Padalinių hierarchija.</span><span class="sxs-lookup"><span data-stu-id="bc443-118">Go to Human resources > Departments > Department hierarchy.</span></span>
-9. <span data-ttu-id="bc443-119">Spustelėkite Redaguoti.</span><span class="sxs-lookup"><span data-stu-id="bc443-119">Click Edit.</span></span>
-10. <span data-ttu-id="bc443-120">Spustelėkite Įterpti.</span><span class="sxs-lookup"><span data-stu-id="bc443-120">Click Insert.</span></span>
-11. <span data-ttu-id="bc443-121">Spustelėkite Padalinys.</span><span class="sxs-lookup"><span data-stu-id="bc443-121">Click Department.</span></span>
-12. <span data-ttu-id="bc443-122">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="bc443-122">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="bc443-123">Pavyzdys: atsiskaitymas už projektą</span><span class="sxs-lookup"><span data-stu-id="bc443-123">Example: Project billing</span></span>  
-13. <span data-ttu-id="bc443-124">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="bc443-124">Click OK.</span></span>
-14. <span data-ttu-id="bc443-125">Spustelėdami Publikuoti atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="bc443-125">Click Publish to open the drop dialog.</span></span>
-15. <span data-ttu-id="bc443-126">Lauke Įsigaliojimo data įveskite datą ir laiką.</span><span class="sxs-lookup"><span data-stu-id="bc443-126">In the Effective date field, enter a date and time.</span></span>
-    * <span data-ttu-id="bc443-127">Publikuodami padalinių hierarchiją, galite pasirinkti, kada pakeitimai turi įsigalioti.</span><span class="sxs-lookup"><span data-stu-id="bc443-127">When publishing the department hierarchy, you can select when to make the changes effective.</span></span> <span data-ttu-id="bc443-128">Pakeitimų įsigaliojimo data gali būti ateityje.</span><span class="sxs-lookup"><span data-stu-id="bc443-128">Changes can be future dated.</span></span> <span data-ttu-id="bc443-129">Pvz., žinote, finansinių metų pradžioje įtrauksite papildomą padalinį.</span><span class="sxs-lookup"><span data-stu-id="bc443-129">For example, you may know that at the beginning of your fiscal year you will be adding an additional department.</span></span> <span data-ttu-id="bc443-130">Finansinių metų pradžią galite nustatyti kaip hierarchijos pakeitimų įsigaliojimo datą.</span><span class="sxs-lookup"><span data-stu-id="bc443-130">You can set your effective date to the beginning of the fiscal year, and the changes to the hierarchy will be effective on that date.</span></span>  
-16. <span data-ttu-id="bc443-131">Lauke Aprašyti keitimus įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="bc443-131">In the Describe changes field, type a value.</span></span>
-17. <span data-ttu-id="bc443-132">Spustelėkite Publikuoti.</span><span class="sxs-lookup"><span data-stu-id="bc443-132">Click Publish.</span></span>
+1. <span data-ttu-id="2b9bd-108">Pasirinkite Personalas > Padaliniai > Padaliniai.</span><span class="sxs-lookup"><span data-stu-id="2b9bd-108">Go to Human resources > Departments > Departments.</span></span>
+2. <span data-ttu-id="2b9bd-109">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="2b9bd-109">Click New to open the drop dialog.</span></span>
+3. <span data-ttu-id="2b9bd-110">Lauke Pavadinimas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="2b9bd-110">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="2b9bd-111">Pavyzdys: atsiskaitymas už projektą</span><span class="sxs-lookup"><span data-stu-id="2b9bd-111">Example: Project billing</span></span>  
+4. <span data-ttu-id="2b9bd-112">Lauke Pažyma įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="2b9bd-112">In the Memo field, type a value.</span></span>
+    * <span data-ttu-id="2b9bd-113">Pavyzdys: atsiskaitymas už projektą</span><span class="sxs-lookup"><span data-stu-id="2b9bd-113">Example: Project billing</span></span>  
+5. <span data-ttu-id="2b9bd-114">Lauke Vadovas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="2b9bd-114">In the Manager field, enter or select a value.</span></span>
+    * <span data-ttu-id="2b9bd-115">Pavyzdys: Jodi Christiansen</span><span class="sxs-lookup"><span data-stu-id="2b9bd-115">Example: Jodi Christiansen</span></span>  
+6. <span data-ttu-id="2b9bd-116">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="2b9bd-116">Click Save.</span></span>
+7. <span data-ttu-id="2b9bd-117">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="2b9bd-117">Close the page.</span></span>
+8. <span data-ttu-id="2b9bd-118">Pasirinkite Personalas > Padaliniai > Padalinių hierarchija.</span><span class="sxs-lookup"><span data-stu-id="2b9bd-118">Go to Human resources > Departments > Department hierarchy.</span></span>
+9. <span data-ttu-id="2b9bd-119">Spustelėkite Redaguoti.</span><span class="sxs-lookup"><span data-stu-id="2b9bd-119">Click Edit.</span></span>
+10. <span data-ttu-id="2b9bd-120">Spustelėkite Įterpti.</span><span class="sxs-lookup"><span data-stu-id="2b9bd-120">Click Insert.</span></span>
+11. <span data-ttu-id="2b9bd-121">Spustelėkite Padalinys.</span><span class="sxs-lookup"><span data-stu-id="2b9bd-121">Click Department.</span></span>
+12. <span data-ttu-id="2b9bd-122">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="2b9bd-122">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="2b9bd-123">Pavyzdys: atsiskaitymas už projektą</span><span class="sxs-lookup"><span data-stu-id="2b9bd-123">Example: Project billing</span></span>  
+13. <span data-ttu-id="2b9bd-124">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="2b9bd-124">Click OK.</span></span>
+14. <span data-ttu-id="2b9bd-125">Spustelėdami Publikuoti atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="2b9bd-125">Click Publish to open the drop dialog.</span></span>
+15. <span data-ttu-id="2b9bd-126">Lauke Įsigaliojimo data įveskite datą ir laiką.</span><span class="sxs-lookup"><span data-stu-id="2b9bd-126">In the Effective date field, enter a date and time.</span></span>
+    * <span data-ttu-id="2b9bd-127">Publikuodami padalinių hierarchiją, galite pasirinkti, kada pakeitimai turi įsigalioti.</span><span class="sxs-lookup"><span data-stu-id="2b9bd-127">When publishing the department hierarchy, you can select when to make the changes effective.</span></span> <span data-ttu-id="2b9bd-128">Pakeitimų įsigaliojimo data gali būti ateityje.</span><span class="sxs-lookup"><span data-stu-id="2b9bd-128">Changes can be future dated.</span></span> <span data-ttu-id="2b9bd-129">Pvz., žinote, finansinių metų pradžioje įtrauksite papildomą padalinį.</span><span class="sxs-lookup"><span data-stu-id="2b9bd-129">For example, you may know that at the beginning of your fiscal year you will be adding an additional department.</span></span> <span data-ttu-id="2b9bd-130">Finansinių metų pradžią galite nustatyti kaip hierarchijos pakeitimų įsigaliojimo datą.</span><span class="sxs-lookup"><span data-stu-id="2b9bd-130">You can set your effective date to the beginning of the fiscal year, and the changes to the hierarchy will be effective on that date.</span></span>  
+16. <span data-ttu-id="2b9bd-131">Lauke Aprašyti keitimus įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="2b9bd-131">In the Describe changes field, type a value.</span></span>
+17. <span data-ttu-id="2b9bd-132">Spustelėkite Publikuoti.</span><span class="sxs-lookup"><span data-stu-id="2b9bd-132">Click Publish.</span></span>
 
 
 

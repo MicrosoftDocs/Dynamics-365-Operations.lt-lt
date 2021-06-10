@@ -7,7 +7,6 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -15,56 +14,56 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-23
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 92dd281ed718be5c7ebd843d015c108ee121f30a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a5aeaeb7311d87a154882b7058b6da430900bd56
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794930"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6053472"
 ---
-# <a name="optimize-performance-by-scheduling-batch-jobs-after-hours"></a><span data-ttu-id="c51e6-103">Optimizuokite našumą suplanuodami paketines užduotis po valandų</span><span class="sxs-lookup"><span data-stu-id="c51e6-103">Optimize performance by scheduling batch jobs after hours</span></span>
+# <a name="optimize-performance-by-scheduling-batch-jobs-after-hours"></a><span data-ttu-id="67503-103">Optimizuokite našumą suplanuodami paketines užduotis po valandų</span><span class="sxs-lookup"><span data-stu-id="67503-103">Optimize performance by scheduling batch jobs after hours</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-## <a name="issue"></a><span data-ttu-id="c51e6-104">Išdavimas</span><span class="sxs-lookup"><span data-stu-id="c51e6-104">Issue</span></span>
+## <a name="issue"></a><span data-ttu-id="67503-104">Išdavimas</span><span class="sxs-lookup"><span data-stu-id="67503-104">Issue</span></span>
 
-<span data-ttu-id="c51e6-105">„Microsoft Dynamics 365 Human Resources” gali išbandyti našumo problemas, jei ilgai trunkančios paketinės užduotys vykdomos įprastu darbo laiku.</span><span class="sxs-lookup"><span data-stu-id="c51e6-105">Microsoft Dynamics 365 Human Resources can experience performance issues if long-running batch jobs run during typical business hours.</span></span>
+<span data-ttu-id="67503-105">„Microsoft Dynamics 365 Human Resources” gali išbandyti našumo problemas, jei ilgai trunkančios paketinės užduotys vykdomos įprastu darbo laiku.</span><span class="sxs-lookup"><span data-stu-id="67503-105">Microsoft Dynamics 365 Human Resources can experience performance issues if long-running batch jobs run during typical business hours.</span></span>
 
-## <a name="resolution"></a><span data-ttu-id="c51e6-106">Skiriamoji geba</span><span class="sxs-lookup"><span data-stu-id="c51e6-106">Resolution</span></span>
+## <a name="resolution"></a><span data-ttu-id="67503-106">Skiriamoji geba</span><span class="sxs-lookup"><span data-stu-id="67503-106">Resolution</span></span>
 
-<span data-ttu-id="c51e6-107">Suplanuokite šias paketines užduotis nedarbo valandomis.</span><span class="sxs-lookup"><span data-stu-id="c51e6-107">Schedule the following batch jobs during off hours.</span></span> <span data-ttu-id="c51e6-108">Taip pat rekomenduojame peržiūrėti dažnai vykdomų paketinių užduočių dažnumą.</span><span class="sxs-lookup"><span data-stu-id="c51e6-108">We also recommend reviewing the frequency of batch jobs that run frequently.</span></span> <span data-ttu-id="c51e6-109">Jei įmanoma, sumažinkite paketinės užduoties pasikartojimą.</span><span class="sxs-lookup"><span data-stu-id="c51e6-109">If possible, reduce the recurrence of the batch job.</span></span> <span data-ttu-id="c51e6-110">Daugeliu atvejų numatytasis dažnumas yra tinkamas.</span><span class="sxs-lookup"><span data-stu-id="c51e6-110">In many cases, the default frequency is sufficient.</span></span>
+<span data-ttu-id="67503-107">Suplanuokite šias paketines užduotis nedarbo valandomis.</span><span class="sxs-lookup"><span data-stu-id="67503-107">Schedule the following batch jobs during off hours.</span></span> <span data-ttu-id="67503-108">Taip pat rekomenduojame peržiūrėti dažnai vykdomų paketinių užduočių dažnumą.</span><span class="sxs-lookup"><span data-stu-id="67503-108">We also recommend reviewing the frequency of batch jobs that run frequently.</span></span> <span data-ttu-id="67503-109">Jei įmanoma, sumažinkite paketinės užduoties pasikartojimą.</span><span class="sxs-lookup"><span data-stu-id="67503-109">If possible, reduce the recurrence of the batch job.</span></span> <span data-ttu-id="67503-110">Daugeliu atvejų numatytasis dažnumas yra tinkamas.</span><span class="sxs-lookup"><span data-stu-id="67503-110">In many cases, the default frequency is sufficient.</span></span>
 
-<span data-ttu-id="c51e6-111">Šios paketinės užduotys turėtų būti vykdomos naktį arba po valandų.</span><span class="sxs-lookup"><span data-stu-id="c51e6-111">The following batch jobs should run at night or after hours.</span></span> <span data-ttu-id="c51e6-112">Būtinai patikrinkite laiko juostą šioms pasikartojančioms paketinėms užduotims.</span><span class="sxs-lookup"><span data-stu-id="c51e6-112">Be sure to check the time zone for these recurring batch jobs.</span></span> <span data-ttu-id="c51e6-113">Kai kurios paketinės užduotys gali naudoti Ramiojo vandenyno standartinį laiką (PST).</span><span class="sxs-lookup"><span data-stu-id="c51e6-113">Some batch jobs might use Pacific Standard Time (PST).</span></span>
+<span data-ttu-id="67503-111">Šios paketinės užduotys turėtų būti vykdomos naktį arba po valandų.</span><span class="sxs-lookup"><span data-stu-id="67503-111">The following batch jobs should run at night or after hours.</span></span> <span data-ttu-id="67503-112">Būtinai patikrinkite laiko juostą šioms pasikartojančioms paketinėms užduotims.</span><span class="sxs-lookup"><span data-stu-id="67503-112">Be sure to check the time zone for these recurring batch jobs.</span></span> <span data-ttu-id="67503-113">Kai kurios paketinės užduotys gali naudoti Ramiojo vandenyno standartinį laiką (PST).</span><span class="sxs-lookup"><span data-stu-id="67503-113">Some batch jobs might use Pacific Standard Time (PST).</span></span>
 
-| <span data-ttu-id="c51e6-114">Paketinė užduotis</span><span class="sxs-lookup"><span data-stu-id="c51e6-114">Batch job</span></span> | <span data-ttu-id="c51e6-115">Numatytasis pasirodymas</span><span class="sxs-lookup"><span data-stu-id="c51e6-115">Default occurrence</span></span> |
+| <span data-ttu-id="67503-114">Paketinė užduotis</span><span class="sxs-lookup"><span data-stu-id="67503-114">Batch job</span></span> | <span data-ttu-id="67503-115">Numatytasis pasirodymas</span><span class="sxs-lookup"><span data-stu-id="67503-115">Default occurrence</span></span> |
 | --- | --- |
-| <span data-ttu-id="c51e6-116">Paketinės užduoties istorijos valymas</span><span class="sxs-lookup"><span data-stu-id="c51e6-116">Batch job history cleanup</span></span> | <span data-ttu-id="c51e6-117">1 kartą per mėnesį</span><span class="sxs-lookup"><span data-stu-id="c51e6-117">1 time per month</span></span> |
-| <span data-ttu-id="c51e6-118">Eksportavimo išdėstymo valymas</span><span class="sxs-lookup"><span data-stu-id="c51e6-118">Export staging cleanup</span></span> | <span data-ttu-id="c51e6-119">1 kartą per dieną</span><span class="sxs-lookup"><span data-stu-id="c51e6-119">1 time per day</span></span> |
-| <span data-ttu-id="c51e6-120">„Common Data Service“ integracijoje trūksta užklausos sinchronizavimo</span><span class="sxs-lookup"><span data-stu-id="c51e6-120">Common Data Service integration missed request sync</span></span> | <span data-ttu-id="c51e6-121">1 kartą per dieną</span><span class="sxs-lookup"><span data-stu-id="c51e6-121">1 time per day</span></span> |
-| <span data-ttu-id="c51e6-122">Duomenų bazės glaudinimo sistemos užduotis, kurią reikia reguliariai vykdyti nedarbo valandomis</span><span class="sxs-lookup"><span data-stu-id="c51e6-122">Database compression system job that needs to run regularly during off hours</span></span> | <span data-ttu-id="c51e6-123">1 kartą per dieną</span><span class="sxs-lookup"><span data-stu-id="c51e6-123">1 time per day</span></span> |
-| <span data-ttu-id="c51e6-124">Duomenų bazės indekso atkūrimo sistemos užduotis, kurią reikia reguliariai vykdyti nedarbo valandomis</span><span class="sxs-lookup"><span data-stu-id="c51e6-124">Database index rebuild system job that needs to run regularly during off hours</span></span> | <span data-ttu-id="c51e6-125">1 kartą per dieną</span><span class="sxs-lookup"><span data-stu-id="c51e6-125">1 time per day</span></span> |
+| <span data-ttu-id="67503-116">Paketinės užduoties istorijos valymas</span><span class="sxs-lookup"><span data-stu-id="67503-116">Batch job history cleanup</span></span> | <span data-ttu-id="67503-117">1 kartą per mėnesį</span><span class="sxs-lookup"><span data-stu-id="67503-117">1 time per month</span></span> |
+| <span data-ttu-id="67503-118">Eksportavimo išdėstymo valymas</span><span class="sxs-lookup"><span data-stu-id="67503-118">Export staging cleanup</span></span> | <span data-ttu-id="67503-119">1 kartą per dieną</span><span class="sxs-lookup"><span data-stu-id="67503-119">1 time per day</span></span> |
+| <span data-ttu-id="67503-120">„Common Data Service“ integracijoje trūksta užklausos sinchronizavimo</span><span class="sxs-lookup"><span data-stu-id="67503-120">Common Data Service integration missed request sync</span></span> | <span data-ttu-id="67503-121">1 kartą per dieną</span><span class="sxs-lookup"><span data-stu-id="67503-121">1 time per day</span></span> |
+| <span data-ttu-id="67503-122">Duomenų bazės glaudinimo sistemos užduotis, kurią reikia reguliariai vykdyti nedarbo valandomis</span><span class="sxs-lookup"><span data-stu-id="67503-122">Database compression system job that needs to run regularly during off hours</span></span> | <span data-ttu-id="67503-123">1 kartą per dieną</span><span class="sxs-lookup"><span data-stu-id="67503-123">1 time per day</span></span> |
+| <span data-ttu-id="67503-124">Duomenų bazės indekso atkūrimo sistemos užduotis, kurią reikia reguliariai vykdyti nedarbo valandomis</span><span class="sxs-lookup"><span data-stu-id="67503-124">Database index rebuild system job that needs to run regularly during off hours</span></span> | <span data-ttu-id="67503-125">1 kartą per dieną</span><span class="sxs-lookup"><span data-stu-id="67503-125">1 time per day</span></span> |
 
-1. <span data-ttu-id="c51e6-126">Programoje „Human Resources“ pasirinkite **Sistemos administravimas**.</span><span class="sxs-lookup"><span data-stu-id="c51e6-126">In Human Resources, select **System administration**.</span></span>
+1. <span data-ttu-id="67503-126">Programoje „Human Resources“ pasirinkite **Sistemos administravimas**.</span><span class="sxs-lookup"><span data-stu-id="67503-126">In Human Resources, select **System administration**.</span></span>
 
-2. <span data-ttu-id="c51e6-127">**Ieška** juostoje ieškokite vienos iš aukščiau nurodytų paketinių užduočių.</span><span class="sxs-lookup"><span data-stu-id="c51e6-127">In the **Search** bar, search for one of the above batch jobs.</span></span>
+2. <span data-ttu-id="67503-127">**Ieška** juostoje ieškokite vienos iš aukščiau nurodytų paketinių užduočių.</span><span class="sxs-lookup"><span data-stu-id="67503-127">In the **Search** bar, search for one of the above batch jobs.</span></span>
 
-3. <span data-ttu-id="c51e6-128">Pasirinkite **Vykdyti fone**, tada pasirinkite **Pasikartojimas**.</span><span class="sxs-lookup"><span data-stu-id="c51e6-128">Select **Run in the background**, and then select **Recurrence**.</span></span>
+3. <span data-ttu-id="67503-128">Pasirinkite **Vykdyti fone**, tada pasirinkite **Pasikartojimas**.</span><span class="sxs-lookup"><span data-stu-id="67503-128">Select **Run in the background**, and then select **Recurrence**.</span></span>
 
    ![Pasikartojimo nustatymas](media/talent-batch-history-cleanup-recurrence.png)
 
-4. <span data-ttu-id="c51e6-130">Po **Apibrėžti pasikartojimą** nustatykite **Pradžios datą** ir **Pradžios laiką**, kad pasirodytų nedarbo valandomis arba savaitgalį.</span><span class="sxs-lookup"><span data-stu-id="c51e6-130">Under **Define recurrence**, set the **Start date** and **Start time** to occur during off hours or the weekend.</span></span> <span data-ttu-id="c51e6-131">Pasirinkite **Nėra pabaigos datos**.</span><span class="sxs-lookup"><span data-stu-id="c51e6-131">Select **No end date**.</span></span> 
+4. <span data-ttu-id="67503-130">Po **Apibrėžti pasikartojimą** nustatykite **Pradžios datą** ir **Pradžios laiką**, kad pasirodytų nedarbo valandomis arba savaitgalį.</span><span class="sxs-lookup"><span data-stu-id="67503-130">Under **Define recurrence**, set the **Start date** and **Start time** to occur during off hours or the weekend.</span></span> <span data-ttu-id="67503-131">Pasirinkite **Nėra pabaigos datos**.</span><span class="sxs-lookup"><span data-stu-id="67503-131">Select **No end date**.</span></span> 
 
    ![Pasikartojimo pradžios datos ir laiko nurodymas](media/talent-batch-history-cleanup-define-recurrence.png)
 
-5. <span data-ttu-id="c51e6-133">Pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="c51e6-133">Select **OK**.</span></span>
+5. <span data-ttu-id="67503-133">Pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="67503-133">Select **OK**.</span></span>
 
-6. <span data-ttu-id="c51e6-134">Jei būtina, pakeiskite parametrus **Vykdyti fone** dalyje ir pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="c51e6-134">If needed, change any other parameters under **Run in the background**, and then select **OK**.</span></span>
+6. <span data-ttu-id="67503-134">Jei būtina, pakeiskite parametrus **Vykdyti fone** dalyje ir pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="67503-134">If needed, change any other parameters under **Run in the background**, and then select **OK**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="c51e6-135">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="c51e6-135">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="67503-135">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="67503-135">Additional resources</span></span>
 
-[<span data-ttu-id="c51e6-136">Efektyvumo optimizavimas naudojant automatinio valymo užduotis</span><span class="sxs-lookup"><span data-stu-id="c51e6-136">Optimize performance with auto cleanup tasks</span></span>](hr-admin-troubleshooting-batch-history.md)
+[<span data-ttu-id="67503-136">Efektyvumo optimizavimas naudojant automatinio valymo užduotis</span><span class="sxs-lookup"><span data-stu-id="67503-136">Optimize performance with auto cleanup tasks</span></span>](hr-admin-troubleshooting-batch-history.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
