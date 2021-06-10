@@ -72,6 +72,8 @@
                   items:
                     - name: Kas nauja ar pasikeitė „Finance“ pagrindinis puslapis
                       href: get-started/whats-new-home-page.md
+                    - name: „Finance“ 10.0.20 (2021 m. liepos mėn.)
+                      href: get-started/whats-new-changed-10-0-20.md
                     - name: „Finance“ 10.0.19 (2021 m. liepos mėn.)
                       href: get-started/whats-new-changed-10-0-19.md
                     - name: „Finance 10.0.18“ (2021 m. gegužės mėn.)
@@ -1160,6 +1162,8 @@
                   href: general-ledger/rvrs-settgs-on-jrnls-lines.md
                 - name: Uždarymo metų pabaigoje trūkstami pradiniai balansai
                   href: general-ledger/yec-mssng-open-blnces.md
+                - name: Finansinių žurnalų šablonų atidarymas „Office“
+                  href: general-ledger/open-fincl-jrnls-in-office.md
         - name: Finansinės ataskaitos
           items:
             - name: Pradėkite naudoti finansines ataskaitas
@@ -1502,10 +1506,20 @@
                       href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Įtraukti duomenų laukus į mokesčių integravimą naudojant plėtinius
                       href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
-                    - name: Kelių PVM registracijų numeriai
-                      href: localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/finance/toc.json
                     - name: Bendrųjų duomenų peržvalgos aplinkos nustatymas
                       href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                    - name: Kelių PVM registracijų numeriai
+                      href: localizations/emea-multiple-vat-registration-numbers.md
+                    - name: Kelių PVM registracijų ataskaita
+                      items:
+                        - name: Kelių PVM registracijų ataskaita
+                          href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Nyderlandų ataskaitos
+                          items:
+                            - name: PVM deklaracija
+                              href: localizations/emea-nl-vat-declaration-netherlands.md
+                            - name: ES pardavimo sąrašas
+                              href: localizations/emea-nl-eu-sales-list.md
             - name: Reglamentavimo naujinimai
               href: localizations/regulatory-updates.md
             - name: Australija
@@ -2388,6 +2402,20 @@
                               href: localizations/apac-ind-GST-tax-returns.md
                             - name: Kelių paketų apdorojimo GSTR ataskaitoms įgalinimas
                               href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
+                        - name: GST trikčių šalinimas
+                          items:
+                            - name: Neteisinga mokesčio suma po koregavimo
+                              href: localizations/apac-ind-GST-troubleshooting-tax-amount-wrong-after-calculation.md
+                            - name: Mokesčio konfigūracijos klaidos
+                              href: localizations/apac-ind-GST-troubleshooting-tax-configuration-errors.md
+                            - name: Mokestis nesuskaičiuotas
+                              href: localizations/apac-ind-GST-troubleshooting-tax-not-calculated.md
+                            - name: 'Nustatymo taisyklių aktyvinimas trunka ilgiau, nei tikėtasi'
+                              href: localizations/apac-ind-GST-troubleshooting-setoff-rule-activate-take-long-time.md
+                            - name: TaxTrans arba kvitas nesugeneruotas
+                              href: localizations/apac-ind-GST-troubleshooting-taxtrans-or-voucher-not-generated.md
+                            - name: Mokesčio operacijos ID yra neteisingas
+                              href: localizations/apac-ind-GST-troubleshooting-tax-transaction-id-incorrect.md
                 - name: Tiesioginiai mokesčiai
                   items:
                     - name: Indijos išskaitomas mokestis
@@ -2844,6 +2872,10 @@
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
                 - name: Audito failas (XML „Auditfile Financieel“ XAF)
                   href: localizations/emea-nl-audit-file.md
+                - name: PVM deklaracija (Nyderlandai)
+                  href: localizations/emea-nl-vat-declaration-netherlands.md
+                - name: ES pardavimo sąrašas
+                  href: localizations/emea-nl-EU-sales-list.md
             - name: Norvegija
               items:
                 - name: Norvegijos apžvalga
@@ -4123,7 +4155,7 @@
                   items:
                     - name: Sugeneruotų ataskaitų rezultatų sekimas ir jų palyginimas su bazinėmis vertėmis
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
-                    - name: Sugeneruotų ER ataskaitų rezultatų sekimo ir palyginimo su bazinėmis vertėmis patobulinimai
+                    - name: Sugeneruotų ER ataskaitų rezultatų sekimo ir palyginimo su bazinėmis vertėmis patobulinimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
                     - name: Automatinis tikrinimas su ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json

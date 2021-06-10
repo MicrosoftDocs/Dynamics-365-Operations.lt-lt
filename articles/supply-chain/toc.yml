@@ -72,7 +72,9 @@
                   items:
                     - name: Kas nauja ar pasikeitė „Supply Chain Management“ pagrindinis puslapis
                       href: get-started/whats-new-home-page.md
-                    - name: „Supply Chain Management 10.0.19“ (2021 m. liepos mėn.)
+                    - name: „Supply Chain Management 10.0.20“ (2021 m. liepos mėn.)
+                      href: get-started/whats-new-scm-10-0-20.md
+                    - name: „Supply Chain Management 10.0.19“ (2021 m. birželio mėn.)
                       href: get-started/whats-new-scm-10-0-19.md
                     - name: „Supply Chain Management 10.0.18“ (2021 m. gegužės mėn.)
                       href: get-started/whats-new-scm-10-0-18.md
@@ -387,11 +389,11 @@
                   href: asset-management/manage-maintenance-requests/maintenance-request-reports.md
             - name: Darbo užsakymų nustatymas
               items:
-                - name: 'Priežiūros užduoties tipo kategorijos ir priežiūros užduočių tipai, priežiūros užduočių tipo variantai, priežiūros užduočių prekyba ir prižiūrimo turto kontroliniai sąrašai'
+                - name: 'Priežiūros užduočių tipai, kategorijos, variantai, keitimas ir kontroliniai sąrašai'
                   href: asset-management/setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md
                 - name: Darbo užsakymų ciklo būsenos
                   href: asset-management/setup-for-work-orders/work-order-lifecycle-states.md
-                - name: Darbo užsakymų tipai
+                - name: Darbo užsakymo tipai
                   href: asset-management/setup-for-work-orders/work-order-types.md
                 - name: Darbo užsakymo projekto sąranka
                   href: asset-management/setup-for-work-orders/work-order-project-setup.md
@@ -1371,7 +1373,7 @@
                   items:
                     - name: Sugeneruotų ataskaitų rezultatų sekimas ir jų palyginimas su bazinėmis vertėmis
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Sugeneruotų ER ataskaitų rezultatų sekimo ir palyginimo su bazinėmis vertėmis patobulinimai
+                    - name: Sugeneruotų ER ataskaitų rezultatų sekimo ir palyginimo su bazinėmis vertėmis patobulinimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Automatinis tikrinimas su ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/supply-chain/toc.json
@@ -2225,6 +2227,8 @@
               href: engineering-change-management/engineering-attributes-and-search.md
             - name: Inžinerinės versijos ir inžinerinių produktų kategorijos
               href: engineering-change-management/engineering-versions-product-category.md
+            - name: Formulių ir ingredientų keitimų valdymas
+              href: engineering-change-management/manage-formula-changes.md
             - name: Pakeitimų valdymo įjungimas esamiems produktams
               href: engineering-change-management/change-management-existing-products.md
             - name: Produkto ciklo būsena ir operacijos
@@ -2247,6 +2251,8 @@
               href: production-control/manage-subcontract-work-production.md
             - name: Bendra užduočių ID numerių seka
               href: production-control/unified-job-ids.md
+            - name: Proceso automatizavimo srautų iškvietimas kokybės užsakymams sukurti
+              href: production-control/process-automation-quality-orders.md
             - name: Diskretinė (surenkamoji) gamyba
               items:
                 - name: Bendrųjų gamybos duomenų tvarkymas
@@ -2337,7 +2343,7 @@
                           href: production-control/production-floor-execution-setup.md
                         - name: Kaip darbuotojai naudoja gamybos vietos vykdymo sąsają
                           href: production-control/production-floor-execution-use.md
-                        - name: 'Vartotojo sąsajos valdymo stiliai, skirti gamybos laiko vykdymui'
+                        - name: Gamybos vietos vykdymo sąsajos projektavimas
                           href: production-control/production-floor-execution-styles.md
                     - name: Įrenginių užduoties kortelių konfigūravimas
                       href: production-control/config-job-card-device.md
@@ -3139,11 +3145,11 @@
                       href: warehousing/about-shipment-consolidation-policies.md
                     - name: Siuntos konsolidacijos strategijų konfigūravimas
                       href: warehousing/configure-shipment-consolidation-policies.md
-                    - name: '1 scenarijus – konsoliduoti siuntas, kai jos išleidžiamos į sandėlį naudojant automatinį pardavimo užsakymų išleidimą'
+                    - name: '1 scenarijus – konsoliduoti siuntas, išleistas į sandėlį naudojant automatinį pardavimo užsakymų išleidimą'
                       href: warehousing/consolidate-shipments-automatic.md
-                    - name: '2 scenarijus – konsoliduoti siuntas, kai siuntos konsolidacijos strategijos nepaisoma išleidimo į sandėlį puslapyje'
+                    - name: '2 scenarijus – konsoliduoti siuntas, kai siuntos konsolidacijos strategijos nepaisoma'
                       href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                    - name: 3 scenarijus – konsoliduoti siuntas naudojant išleidimo į sandėlį funkciją krovinio planavimo darbo srityje
+                    - name: 3 scenarijus – konsoliduoti siuntas išleidžiant į sandėlį krovinio planavimo darbo srityje
                       href: warehousing/consolidate-shipments-load-planning-workbench.md
                     - name: 4 scenarijus – konsoliduoti siuntas naudojant siuntų konsolidavimo darbo sritį
                       href: warehousing/consolidate-shipments-manual-workbench.md
@@ -3297,13 +3303,15 @@
                       href: warehousing/install-configure-warehousing-app.md
                     - name: Brūkšninių kodų nuskaitymas sandėlio valdymo programėle naudojant kamerą
                       href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: Sandėlio valdymo mobiliųjų įrenginių programėlės laukų konfigūravimas
+                    - name: „Warehouse Management“ mobiliųjų įrenginių programėlės laukų konfigūravimas
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Mobiliųjų įrenginių nustatymas darbui sandėlyje
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Veiksmų piktogramų ir pavadinimų priskyrimas
+                      href: warehousing/step-icons-titles.md
                     - name: Sandėlio programos įvykio apdorojimas
                       href: warehousing/warehouse-app-events.md
-                    - name: Su mobiliąja sandėlio valdymo programa gaunama numerio lentelė
+                    - name: Su „Warehouse Management“ mobiliųjų įrenginių programėle gaunama numerio lentelė
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Mobiliojo įrenginio meniu elemento pirkimo užsakymo darbui atlikti nustatymas
                       href: warehousing/tasks/set-up-mobile-device-menu.md
@@ -3345,7 +3353,7 @@
               items:
                 - name: Kopijuojant prekių modelių grupes į kitą juridinį subjektą trūksta lauko parametrų
                   href: troubleshooting/costing/copying-item-model-groups.md
-                - name: Ataskaitoje „Vykdomos netiesioginės išlaidos“ pateikiami panaikinti gamybos užsakymai
+                - name: Ataskaitoje Vykdomos netiesioginės išlaidos pateikiami panaikinti gamybos užsakymai
                   href: troubleshooting/costing/indirect-costs-in-pr.md
                 - name: Pirkimo kaupimas užregistruotas su nulinės vertės produkto gavimo kvito nuline suma
                   href: troubleshooting/costing/posting-to-purchase.md
@@ -3359,37 +3367,41 @@
                   href: troubleshooting/inventory/multiple-inventory-t.md
                 - name: Dėl ataskaitos atšaukimo kaip baigtos sukuriama netikėta atidaryta operacija
                   href: troubleshooting/inventory/reverse-report-as-fi.md
-                - name: 'Išrinkimo dokumento ataskaitoje neįmanoma parodyti naujų pastabų, pridėtų prie žurnalo'
+                - name: 'Išrinkimo dokumento ataskaitoje nerodomos naujos pastabos, pridėtos prie žurnalo'
                   href: troubleshooting/inventory/unable-to-print-the.md
                 - name: 'Kiekis pradėtame sulaikymo užsakyme neatnaujinamas, kai užsakymas skaidomas'
                   href: troubleshooting/inventory/quantity-on-a-start.md
-                - name: Laukas „Paskutinio bandymo data“ neatnaujinamas kuriant kelis kokybės užsakymus
+                - name: 'Laukas Paskutinio bandymo data neatnaujinamas, kai sukuriami keli kokybės užsakymai'
                   href: troubleshooting/inventory/the-field-last-test.md
-                - name: 'Skaidant esamo svorio kiekį, naudojamas mažiausias, o ne vardinis kiekis'
+                - name: 'Kai esamo svorio kiekis yra suskaidytas, vietoj vardinio kiekio naudojamas mažiausias kiekis'
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: Bendrasis planavimas
               items:
                 - name: Tiesiogiai išvesti patvirtinti užsakymai apdorojami peržiūros versijos darbo eiga
                   href: troubleshooting/planning/firmed-directly-deri.md
+                - name: Negalite filtruoti bendrojo planavimo prekių pagal jų susijusias padengimo grupės vertes
+                  href: troubleshooting/planning/master-planning-batc.md
                 - name: Bendrasis planavimas generuoja suplanuotus fiktyvių produktų užsakymus
                   href: troubleshooting/planning/planned-orders-are-g.md
                 - name: 'Suplanuotas pirkimo užsakymas, sukurtas, kai pirkimas yra per neigiamas dienas'
                   href: troubleshooting/planning/planning-optimisatio.md
-                - name: Neįmanoma įkelti savikainos į poreikio prognozės įrašus
+                - name: Negalima atnaujinti prognozuojamų vieneto išlaidų importuojant poreikio prognozės įrašus
                   href: troubleshooting/planning/unable-to-upload-the.md
                 - name: Negalima pašalinti sandėlio poreikio prognozės dimensijos iš prognozės eilučių
                   href: troubleshooting/planning/warehouse-removal-fr.md
+                - name: 'Esate raginami įrašyti prekių padengimo parametrus, net jei neatlikote jokių keitimų'
+                  href: troubleshooting/planning/when-importing-to-th.md
             - name: Įsigijimas
               items:
-                - name: VEL įmonėje negalima išrašyti sąskaitos faktūros į klientą nukreiptam pardavimo užsakymui
+                - name: Negalima išrašyti SF su klientu susietam pardavimo užsakymui
                   href: troubleshooting/procurement/not-able-to-invoice-.md
                 - name: 'Paprašius atlikti keitimą, eilutės negalima įtraukti į pirkimo paraišką'
                   href: troubleshooting/procurement/purchase-requisition.md
             - name: Produkto informacijos valdymas
               items:
-                - name: Negalima taikyti šablono išleistam produktui kurti
+                - name: Negalite taikyti šablono išleistam produktui kurti
                   href: troubleshooting/products/apply-template-in-re.md
-                - name: Negalima importuoti prekės naudojant objektą Išleisti produktai V2
+                - name: Negalite importuoti prekės naudodami objektą Išleisti produktai V2
                   href: troubleshooting/products/cannot-import-with-r.md
                 - name: Pirkimo užsakymuose nerodomas išverstas produkto tekstas
                   href: troubleshooting/products/when-the-customer-ad.md
@@ -3403,7 +3415,7 @@
                   href: troubleshooting/production/late-selection-is-no.md
                 - name: 'Vartotojai gali atsisakyti produktų, kurie paskelbti baigtais, medžiagų eilučių'
                   href: troubleshooting/production/raw-material-lines-a.md
-                - name: Registruojant ataskaitą kaip užbaigtą žurnalą įvyko klaida
+                - name: 'Klaida, kai paskelbiama ataskaita kaip baigtas žurnalas'
                   href: troubleshooting/production/posting-report-as-.md
                 - name: Išrinkimo dokumento žurnalo sandėlis neatnaujintas KS eilutėje
                   href: troubleshooting/production/the-warehouse-in-pic.md
@@ -3453,7 +3465,7 @@
                   href: troubleshooting/warehousing/work-cannot-be-canceled-blocked.md
                 - name: Darbo atšaukti negalima dėl būsenos
                   href: troubleshooting/warehousing/work-cannot-be-canceled-status.md
-                - name: Darbas neblokuojamas
+                - name: Darbas neužblokuotas
                   href: troubleshooting/warehousing/work-is-not-blocked.md
                 - name: Darbas lieka užblokuotas
                   href: troubleshooting/warehousing/work-remains-blocked.md

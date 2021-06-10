@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 38b2cdb618d92dca7909a145e7fc07ddfc5f4d45
-ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
+ms.openlocfilehash: 0435deb009173684c7faaf5340e8095c019ec71c
+ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017060"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6085479"
 ---
 # <a name="change-the-accounting-or-reporting-currency"></a>Apskaitos arba ataskaitų valiutos keitimas
 
@@ -31,12 +31,12 @@ ms.locfileid: "6017060"
 Norite pakeisti apskaitos ar ataskaitų valiutą arba įtraukti ataskaitų valiutą į didžiosios knygos nustatymą. Paprastai taip nutinka šiais atvejais:
 
 - Nustatant juridinį subjektą buvo nurodyta neteisinga apskaitos arba ataskaitų valiuta. Dabar norite pakeisti šią valiutą.
-- Nustatant juridinį subjektą nebuvo nurodyta ataskaitų valiuta. (Ataskaitų valiuta nėra privaloma.) Dabar norite įtraukti ataskaitų valiutą.
+- Nustatant juridinį subjektą buvo nurodyta ataskaitų valiuta, tačiau organizacija dabar nori pašalinti ataskaitų valiutą.
+- Organizacija atnaujina arba perkelia į „Microsoft Dynamics 365 Finance“ ir nori pakeisti apskaitos arba ataskaitų valiutą.
 
 Organizacija, kuri anksčiau nenaudojo dviejų valiutų galimybės, nori pradėti ją naudoti. Paprastai ši problema atsiranda toliau pateikiamais atvejais.
 
-- Nustatant juridinį subjektą buvo nurodyta ataskaitų valiuta, tačiau organizacija dabar nori pašalinti ataskaitų valiutą.
-- Organizacija atnaujina arba perkelia į „Microsoft Dynamics 365 Finance“ ir nori pakeisti apskaitos arba ataskaitų valiutą.
+- Nustatant juridinį subjektą nebuvo nurodyta ataskaitų valiuta. (Ataskaitų valiuta nėra privaloma.) Dabar norite įtraukti ataskaitų valiutą.
 
 ## <a name="resolution"></a>Sprendimas
 

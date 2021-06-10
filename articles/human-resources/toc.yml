@@ -1,10 +1,12 @@
-- name: „Dynamics 365 Human Resources“
+- name: Dynamics 365 Human Resources
   href: ./index.md
   items:
     - name: Kas nauja
       items:
         - name: Kas nauja ar pasikeitė „Human Resources”
           href: hr-admin-whats-new.md
+        - name: 2021 m. gegužės 20 d.
+          href: hr-whats-new-2021-05-20.md
         - name: 2021 m. gegužės 3 d.
           href: hr-whats-new-2021-05-03.md
         - name: 2021 m. balandžio 19 d.
@@ -785,8 +787,14 @@
           items:
             - name: Našumo valdymo apžvalga
               href: hr-develop-performance-management-overview.md
-            - name: Darbo jėgos įgūdžių derinimas
-              href: hr-develop-skills.md
+            - name: Įgūdžiai
+              items:
+                - name: Įgūdžių konfigūravimas
+                  href: hr-develop-skills.md
+                - name: Įgūdžių įvedimas
+                  href: hr-develop-enter-skills.md
+                - name: Įgūdžių susijimas
+                  href: hr-develop-map-skills.md
             - name: Įtraukimas į našumo žurnalą
               href: hr-develop-add-performance-journal.md
             - name: Tikslo kūrimas

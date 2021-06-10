@@ -94,7 +94,9 @@
                   items:
                     - name: Kas nauja ar pasikeitė „Commerce“ pagrindiniame puslapyje
                       href: get-started/whats-new-home-page.md
-                    - name: „Commerce 10.0.19“ (2021 m. liepos mėn.)
+                    - name: „Commerce 10.0.20“ (2021 m. liepos mėn.)
+                      href: get-started/whats-new-commerce-10-0-20.md
+                    - name: „Commerce 10.0.19“ (2021 m. birželio mėn.)
                       href: get-started/whats-new-commerce-10-0-19.md
                     - name: „Commerce 10.0.18“ (2021 m. gegužės mėn.)
                       href: get-started/whats-new-commerce-10-0-18.md
@@ -556,6 +558,8 @@
                   href: dev-itpro/manage-bing-maps.md
                 - name: Kliento paėmimo laiko atkarpų kūrimas ir naujinimas
                   href: dev-itpro/pickup-timeslots.md
+                - name: 'Produkto dimensijos reikšmių konfigūravimas, kad jos būtų rodomos kaip pavyzdžiai'
+                  href: dev-itpro/dimensions-swatch.md
         - name: Jūsų produktų ir paslaugų reklamavimas parduotuvėje
           items:
             - name: 'Kategorijos, produktai ir asortimentai'
@@ -932,6 +936,8 @@
                   href: web-activity-opt-out.md
                 - name: Matavimo vieneto parametrų taikymas
                   href: unit-of-measure.md
+                - name: Rodymo parametrų taikymas produkto dimensijoms
+                  href: dimension-settings.md
             - name: Svetainės turinio tvarkymas
               items:
                 - name: Turinio įtraukimo būdai
@@ -1206,7 +1212,7 @@
               href: store-performance-information.md
             - name: 'Naujumo, dažnumo ir piniginės (RFM) analizės nustatymas'
               href: set-up-rfm-analysis.md
-            - name: „Microsoft Clarity“ nustatymas „Dynamics 365 Commerce“
+            - name: „Microsoft Clarity“ nustatymas „Dynamics 36 Commerce“
               href: set-up-clarity.md
         - name: Globalizacija
           items:
@@ -1946,7 +1952,7 @@
                   items:
                     - name: Sugeneruotų ataskaitų rezultatų sekimas ir jų palyginimas su bazinėmis vertėmis
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/commercetoc.json
-                    - name: Sugeneruotų ER ataskaitų rezultatų sekimo ir palyginimo su bazinėmis vertėmis patobulinimai
+                    - name: Sugeneruotų ER ataskaitų rezultatų sekimo ir palyginimo su bazinėmis vertėmis patobulinimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/commerce/toc.json
                     - name: Automatinis tikrinimas su ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/commerce/toc.json
@@ -2262,6 +2268,8 @@
                       href: e-commerce-extensibility/request-properties-object.md
                     - name: Programėlės parametrai
                       href: e-commerce-extensibility/app-settings.md
+                    - name: Svetainės kūrimo įrankio visuotinio konfigūravimo parametrų konfigūravimas pagal įjungtas funkcijas
+                      href: e-commerce-extensibility/config-settings-for-features.md
                     - name: Platformos parametrų failas
                       href: e-commerce-extensibility/platform-settings.md
                     - name: Modulio apibrėžties išplėtimas
@@ -2366,6 +2374,8 @@
                   href: dev-itpro/UpcomingSDKChanges.md
                 - name: Naujinimai ir ALM pakeitimai iš versijos 10.0.10 į 10.0.13
                   href: dev-itpro/dev-changes-10-13.md
+                - name: Nepriklausomo paketo SDK kūrimo srauto nustatymas
+                  href: dev-itpro/build-pipeline.md
                 - name: „Commerce“ ir „Finance and Operations“ kūrimo sistemų suliejimas
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: „Retail SDK“ perkėlimas iš „Visual Studio 2015“ į „Visual Studio 2017“
@@ -2386,6 +2396,8 @@
               items:
                 - name: EKA ekrano maketai
                   href: pos-screen-layouts.md
+                - name: „Store Commerce“ programa „Microsoft Dynamics 365 Commerce“
+                  href: dev-itpro/store-commerce.md
                 - name: URL atidarymas EKA
                   href: Open-URL-in-POS.md
                 - name: EKA maketų dizaino įrankio diegimas
