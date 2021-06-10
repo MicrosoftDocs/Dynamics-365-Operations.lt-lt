@@ -14,7 +14,9 @@
               items:
                 - name: Kas nauja ar pasikeitė „Platform“ naujinimuose pagrindinis puslapis
                   href: get-started/whats-new-home-page.md
-                - name: "„Platform“ naujinimai, skirti 10.0.19 (2021\_m. liepos mėn.)"
+                - name: "„Platform“ naujinimai 10.0.20 versijai (2021\_m. liepos mėn.)"
+                  href: get-started/whats-new-platform-updates-10-0-20.md
+                - name: "„Platform“ naujinimai, skirti 10.0.19 (2021\_m. birželio mėn.)"
                   href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: "„Platform“ naujinimai, skirti 10.0.18 (2021\_m. gegužės mėn.)"
                   href: get-started/whats-new-platform-updates-10-0-18.md
@@ -940,8 +942,6 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: Kas nauja ar pasikeitė „Lifecycle Services”
                   href: lifecycle-services/whats-new-lcs.md
-                - name: Pašalintos arba nebenaudojamos „Lifecycle Services” (LCS) funkcijos
-                  href: lifecycle-services/removed-deprecated-features.md
             - name: „Lifecycle Services“ vartotojo vadovas
               href: lifecycle-services/lcs-user-guide.md
             - name: Projekto parengimas
@@ -1064,6 +1064,10 @@
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: Programos ciklo valdymas
                       href: data-entities/dual-write/app-lifecycle-management.md
+                    - name: Vartotojo nurodytas komandos savininkas
+                      href: data-entities/dual-write/user-specified-team-owner.md
+                    - name: Dvigubo rašymo aplinkų atsiejimas ir susiejimas iš naujo
+                      href: data-entities/dual-write/relink-environments.md
                 - name: Programų sąvokų susiejimas
                   items:
                     - name: Bendrieji integruoto kliento duomenys
@@ -1166,6 +1170,8 @@
               items:
                 - name: Priedų peržiūra
                   href: power-platform/add-ins-overview.md
+            - name: Strategijos ir ryšiai
+              href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
         - name: Mobilioji platforma
           items:
             - name: Mobiliosios platformos ištekliai
