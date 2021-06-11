@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 12be18aa245757991daa418d5875d7497939d223
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5c038462bb84c7fe68acc3825482286581e55358
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841436"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103075"
 ---
 # <a name="onboard-vendors"></a>Tiekėjų supažindinimas
 
@@ -33,7 +33,7 @@ Procesą sudaro toliau nurodyti veiksmai, kai įvairius vaidmenis turintys asmen
 1. **Duomenų valdymo „OData“** – Objekto importavimas – pradinė užklausa yra galimo tiekėjo registravimo užklausa. Paprastai ši užklausa gaunama iš šaltinio, pvz., kliento nuomojamos svetainės, kuri suteikia anoniminę prieigą. Tiekėjai gali užsiregistruoti pateikdami pagrindinę informaciją, pvz., tiekėjo pavadinimą, pagrindimą, organizacijos numerį ir kontaktinio asmens vardas, pavardę bei el. pašto adresą. Užklausos importuojamos naudojant sąsają Duomenų valdymas.
 2. **Galimo tiekėjo registravimo užklausų sąrašo puslapis** – atsižvelgiant į galimo tiekėjo registravimo užklausoje pateiktą informaciją, įsigijimo specialistas nusprendžia, ar tiekėjas turi būti supažindintas. Įsigijimo specialistas peržiūri gaunamą užklausą sąrašo puslapyje **Galimo tiekėjo registravimo užklausos**.
 3. **Vartotojų parengimo darbo eiga** – kai įsigijimo specialistas patikrina gaunamos užklausos informaciją ir nusprendžia tęsti supažindinimo procesą, vartotojo užklausos darbo eiga parengia naują vartotoją ir el. paštu išsiunčia kvietimą priimti kontaktinį asmenį kaip autentifikuotą „Microsoft Dynamics 365“ vartotoją.
-4. **Tiekėjo registravimo vedlys** – tiekėjo kontaktinis asmuo prisijungia. naudodamas naują vartotojo paskyrą. Jis atlieka tiekėjo registravimo vedlį ir pateikia informaciją, pvz., adresus, verslo informaciją, įsigijimo kategorijas ir atsakymus į klausimyną.
+4. **Tiekėjo registravimo vedlys** – tiekėjo kontaktinis asmuo prisijungia. naudodamas naują vartotojo paskyrą. Jis užbaigia tiekėjo registravimo vedlį ir pateikia informaciją, pavyzdžiui, adresus, verslo informaciją, įsigijimo kategorijas ir klausimyno atsakymus.
 5. **Patvirtinimo darbo eiga** – sukuriama tiekėjo užklausa, kurioje yra registracijos informacija. Ši tiekėjo užklausa pateikiama į darbo eigą ir nukreipiama peržiūrėti bei patvirtinti.
 6. **Tiekėjo bendrųjų duomenų kūrimas ir vartotojo vaidmens modifikavimas** – patvirtinus tiekėjo užklausą, sukuriamas tiekėjo įrašas. Tiekėjo kontaktinio asmens vartotojo paskyrai suteikiama arba išjungiama prieigos prie tiekėjo bendradarbiavimo teisė.
 
@@ -72,7 +72,7 @@ Importavus galimo tiekėjo registravimo užklausą, ji rodoma sąrašo puslapyje
 
 ## <a name="submitting-a-prospective-vendor-user-request"></a>Su galimu tiekėju susijusio vartotojo užklausos pateikimas
 
-Su galimu tiekėju susijusio vartotojo užklausos vartotojo užklausos paskirtis yra parengti asmenį, pateikusį pradinę užklausą, kad jis galėtų prisijungti prie Tiekimo grandinės valdymo naudodamas el. pašto paskyrą, kuri pateikta galimo tiekėjo registravimo užklausoje.
+Galimo tiekėjo vartotojo užklausos paskirtis yra parengti pradinę užklausą pateikusį asmenį, kad jis galėtų prisijungti prie „Supply Chain Management” naudodamas el. pašto paskyrą, kuri yra pateikta galimo tiekėjo registravimo užklausoje.
 
 Su galimu tiekėju susijusio vartotojo užklausą apdoroja vartotojo užklausos darbo eiga. Ši darbo eiga susisiekia naudodama „Azure AD“ B2B bendradarbiavimą. Ji sukuria vartotoją Tiekimo grandinės valdyme, kuriam priskirti atitinkami saugos parametrai.
 
@@ -87,7 +87,7 @@ Informacijos apie el. laiško konfigūravimą ir darbo eigą apskritai žr. vart
 
 ## <a name="vendor-registration"></a>Tiekėjo registracija
 
-Su galimu tiekėju susijęs vartotojas, kuris prisijungia prie Tiekimo grandinės valdymo, matys pirmąjį tiekėjo registravimo vedlio puslapį, kuriame jis gali įvesti tiekėjo informaciją.
+Prie „Supply Chain Management” prisijungiantis galimo tiekėjo vartotojas matys pirmąjį tiekėjo registravimo vedlio puslapį, kuriame galės įvesti tiekėjo informaciją.
 
 Vedlys atspindi tiekėjo užklausos konfigūraciją. Nuo šalies arba regiono, kuriame tiekėjas vykdo veiklą, priklauso, kokią informaciją prašoma nurodyti vedlyje ir kokia informacija yra privaloma.
 
@@ -127,7 +127,7 @@ Toliau pateikiamoje lentelėje parodomos galimos tiekėjo užklausų būsenos.
 |----------------------------|-------------|
 | Juodraštis                      | Tiekėjo užklausa dar nepateikta. |
 | Užklausa pateikta          | Tiekėjo užklausa pateikta ir pirmasis darbo eigos veiksmas apdorotas. |
-| Laukiama peržiūra             | Jei yra darbo eigos užduotį atlieka keli tikrintojai, tikrintojas gali priimti tiekėjo užklausos tikrinimo užduotį ir atlikti tikrinimą. Jei yra tik vienas tikrintojas, tas dalyvis gali baigti tikrinimą darbo eigos veiksme pasirinkdamas **Baigta**. Jis neprivalo pirmiausia patvirtinti darbo elemento. |
+| Laukiama peržiūra             | Jei yra darbo eigos užduotį atlieka keli tikrintojai, tikrintojas gali priimti tiekėjo užklausos tikrinimo užduotį ir atlikti tikrinimą. Jei yra tik vienas tikrintojas, tas dalyvis gali baigti tikrinimą darbo eigos veiksme pasirinkdamas **Baigta**. Jis neturi pirmiausia patvirtinti darbo elemento. |
 | Užklausa, laukianti patvirtinimo   | Tiekėjo užklausa nukreipta dalyviams patvirtinti ir galima prašyti papildomos informacijos. Papildomos informacijos užklausa nukreipia darbo elementą atgal į teikėjui. Tiekėjo užklausą taip pat galima patvirtinti arba atmesti, kol ji yra šios būsenos. |
 | Prašymo keitimo užklausa | Tvirtintojas paprašė papildomos informacijos ir tiekėjo užklausą buvo nukreipta asmeniui, kuris pateikė tiekėjo užklausą. Teikėjas gali įtraukti reikiamos informacijos ir pateikti tiekėjo užklausą iš naujo. Jei tiekėjo užklausa pateikta iš naujo, būsena pakeičiama būseną **Užklausa, laukianti patvirtinimo**. |
 | Užklausa patvirtinta           | Ši būsena yra galutinė būsena. |

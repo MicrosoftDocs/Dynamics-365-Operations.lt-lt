@@ -2,7 +2,7 @@
 title: Klientų valdymas parduotuvėse
 description: Šioje temoje paaiškinama, kaip mažmenininkai gali įgalinti klientų valdymo pajėgumus „Microsoft Dynamics 365 Commerce“ elektroniniame kasos aparate (EKA).
 author: josaw1
-ms.date: 03/05/2021
+ms.date: 05/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e43f8f5b91f729dc93eccb9e9e4ee21b5a5d1596
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: dd17593d84a8bf262712a84b11829f8ec6c49049
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019992"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097213"
 ---
 # <a name="customer-management-in-stores"></a>Klientų valdymas parduotuvėse
 
@@ -35,7 +35,10 @@ Pardavimų susiejimai taip pat gali užfiksuoti antrinius el. pašto adresus ir 
 
 ## <a name="default-customer-properties"></a>Numatytosios kliento savybės
 
-Mažmenininkai puslapį **Visos parduotuvės**, esantį „Commerce“ valdymo srityje (**Mažmeninė prekyba ir komercija \> Kanalai \> Parduotuvės**), kad su numatytąjį klientą susietų su kiekviena parduotuve. Tada „Commerce“ visiems naujiems sukurtiems kliento įrašams kopijuoja savybes, kurios apibrėžiamos numatytajam klientui. Pavyzdžiui, dialogo lange **Kurti klientą** rodomos savybės, kurios perimamos iš numatytojo kliento, kuris yra siejamas su parduotuve. Šios savybės – tai kliento tipas, klientų grupė, gavimo pasirinkimas, valiuta ir kalba. Visos priklausomybės (klientų grupavimai) taip pat perduodami iš numatytojo kliento. Tačiau finansinės dimensijos yra perimamos iš tos klientų grupės, kuri yra susijusi su numatytuoju klientu, o ne iš paties numatytojo kliento.
+Mažmenininkai puslapį **Visos parduotuvės**, esantį „Commerce“ valdymo srityje (**Mažmeninė prekyba ir komercija \> Kanalai \> Parduotuvės**), kad su numatytąjį klientą susietų su kiekviena parduotuve. Tada „Commerce“ visiems naujiems sukurtiems kliento įrašams kopijuoja savybes, kurios apibrėžiamos numatytajam klientui. Pavyzdžiui, dialogo lange **Kurti klientą** rodomos savybės, kurios perimamos iš numatytojo kliento, kuris yra siejamas su parduotuve. Šios savybės – tai **kliento tipas**, **kliento grupė**, **kvito parinktis**, **kvito el. paštas**, **valiuta** ir **kalba**. Visi **priskyrimai** (klientų grupavimai) taip pat perduodami iš numatytojo kliento. Tačiau **finansinės dimensijos** yra perimamos iš tos klientų grupės, kuri yra susieta su numatytuoju klientu, o ne iš paties numatytojo kliento.
+
+> [!NOTE]
+> **Kvito el. pašto** vertė nukopijuojama iš numatytojo kliento tik tada, jei kvito el. pašto ID nėra pateikiama naujai sukurtiems klientams. Tai reiškia, kad jei numatytajam klientui yra kvito el. pašto ID, tada visi klientai, sukurti iš el. prekybos svetainės, gaus tą patį kvito el. pašto ID, nes nėra vartotojo sąsajos, kad būtų galima fiksuoti kvito el. pašto ID iš kliento. Rekomenduojame palikti **kvito el. pašto** lauką tuščią numatytam parduotuvės klientui ir naudoti jį tik tada, jei turite verslo procesą, kuris priklauso nuo esamo kvito el. pašto adreso. 
 
 Pardavimų susiejimai gali perimti kelis kliento adresus. Kliento vardas ir pavardė bei telefono numeris perimami iš kontaktinės informacijos, siejamos su kiekvienu adresu. Kliento įrašo „FastTab“ skirtukas **Adresai** apima laukelį **Tikslas**, kurį pardavimų susiejimai gali redaguoti. Jei kliento tipas yra **Asmuo**, numatytoji vertė yra **Namai**. Jei kliento tipas yra **Organizacija**, numatytoji reikšmė yra **Įmonė**. Kitos šio laukelio palaikomos vertės: **Namai**, **Biuras** ir **Pašto dėžutė**. Adreso laukelis **Šalis** perimamas iš pagrindinio adreso, kuris nurodomas puslapyje **Valdymo vienetas**, esančiame „Commerce“ valdymo srityje pasirinkus **Organizacijos administravimas \> Organizacijos \> Valdymo vienetai**.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 36eb939d2539653fdcde78a6044cf1a87e8e3280
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cf9d3fd905a90a2937bfac97c8e44ea13be4f42e
+ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811392"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6123395"
 ---
 # <a name="cash-position-preview"></a>Grynųjų pinigų padėtis (peržiūros versija)
 
@@ -31,7 +31,7 @@ Grynųjų pinigų padėtis yra grynųjų pinigų prognozė artimiausiam laikotar
 
 Kai sistema prognozuoja kliento mokėjimus, ji naudoja mokėjimo prognozes iš kliento mokėjimo prognozavimo funkcijos. Be mokėjimo prognozių, mokėjimo datai apskaičiuoti naudojamas vidutinis laikas, kurio reikia norint konvertuoti kliento SF į kiekvieno kliento mokėjimą. Atidarytų kliento užsakymų atveju sistema SF datą apskaičiuoja naudodama vidutinį užsakymo eilučių skaičių, pateiktą kiekvienam klientui, kuriam bus išrašyta SF. Tada SF data naudojama kaip mokėjimo prognozavimo funkcijos įvestis. Kliento mokėjimo prognozavimo funkcija apskaičiuoja kiekvienos užsakymo eilutės apmokėjimo datą. 
 
-<*Reikia Jarek arba Dave teksto apie tai, kaip mokėjimų prognozės konvertuojamos į datą*> Neapmokėtų SF mokėjimo data yra įvertinama [*numatoma*] pagal mokėjimo prognozes, pasirenkant datą, atitinkančią penkiasdešimtąją kaupiamojo paskirstymo funkcijos dalį, gaunamą iš prognozuojamų talpyklų tikimybių.
+Neapmokėtų sąskaitų faktūrų mokėjimo data yra numatoma pagal mokėjimo prognozes pasirenkant datą, atitinkančią penkiasdešimtąją kaupiamojo paskirstymo funkcijos procentilį, gaunamą iš prognozuojamų talpyklų tikimybių.
 
 Panašus metodas naudojamas prognozuojant mokėjimus tiekėjams. Kiekvienam tiekėjui sistema apskaičiuoja vidutinį laiką, kurio reikia norint konvertuoti tiekėjo SF į mokėjimą. Tas dienų skaičius tada naudojamas skaičiuojant mokėjimo datą. Atidarytų tiekėjo užsakymų atveju sistema SF datą apskaičiuoja atsižvelgdama į vidutinį dienų skaičių, kurio reikia norint konvertuoti užsakymo eilutes į kiekvieno tiekėjo SF. Sistema tada mokėjimo datą apskaičiuoja nauodama vidutinį laiką, kurio reikia norint konvertuoti tiekėjo SF į kiekvieno tiekėjo mokėjimą.
 

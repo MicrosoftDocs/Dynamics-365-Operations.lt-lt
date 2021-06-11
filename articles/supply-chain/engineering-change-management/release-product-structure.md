@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e9cd90d74b92754d4a5432485d5dd59c31e34c61
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 45763d5e602946fc3328cc3b565777fb7e549c61
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841990"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115102"
 ---
 # <a name="release-product-structures"></a>Išleidžiamo produkto struktūros
 
@@ -102,7 +102,8 @@ Nustatykite tolesnius laukelius **Bendri** produkto išleidimo politikos „Fast
 
 | Laukas | aprašymas |
 |---|---|
-| Produkto tipas | Pasirinkite, ar politika taikoma produktams *Prekės* ar *Paslaugų* tipo. Negalite keisti šio nustatymo po to, kai įrašote įrašą. |
+| Produkto tipas | Pasirinkite, ar strategija taikoma produktams *Prekės* ar *Paslaugų* tipo. Negalite keisti šio nustatymo po to, kai įrašote įrašą. |
+| Gamybos tipas | Šis laukas pasirodys tik tada, kai įgalinsite [formulių keitimo valdymą](manage-formula-changes.md) savo sistemoje. Pasirinkite gamybos, kuriai taikoma ši išleidimo strategija, tipą:<ul><li>**Sudėtinis produktas** – Naudokite šią išleidimo strategiją sudėtiniams produktams valdyti. Sudėtiniai produktai yra gaminami gamybos proceso metu ir jie nėra versijos ar inžineriniai produktai. Sudėtinių produktų išleidimo strategijos gali padėti užtikrinti, kad svarbūs parametrai, pavyzdžiui, **Saugojimo dimensijų grupė** ir **Sekimo dimensijų grupė**, būtų nustatomi naudojant Išleisto produkto šabloną prieš jų išleidimą į įmonę.</li><li>**Šalutinis produktas** – Naudokite šią išleidimo strategiją šalutiniams produktams valdyti. Šalutiniai produktai yra gaminami gamybos proceso metu ir jie nėra versijos ar inžineriniai produktai. Šalutinių produktų išleidimo strategijos gali padėti užtikrinti, kad svarbūs parametrai, pavyzdžiui, **Saugojimo dimensijų grupė** ir **Sekimo dimensijų grupė**, būtų nustatomi naudojant Išleisto produkto šabloną prieš jų išleidimą į įmonę.</li><li>**Nėra** – Naudokite šią strategiją, norėdami valdyti standartinius produktus, kurie nėra versijos ar inžineriniai produktai, kitaip tariant, sudėtinius arba šalutinius produktus.</li><li>**Planuojama prekė** – Naudokite šią išleidimo strategiją planuojamoms prekėms, kurios gaminamos naudojant gamybos procesą, valdyti. Prekių planavimui naudojamos formulės. Jos yra panašios į sudėtines prekes, tačiau jos naudojamos tik sudėtiniams ir šalutiniams, bet ne baigtiems produktams gaminti.</li><li>**KS** – Naudokite šią išleidimo strategiją inžinerijos produktų, nenaudojančių formulių ir įprastai (tačiau nebūtinai) turinčių KS, valdymui.</li><li>**Formulė** – Naudokite šią išleidimo strategiją užbaigtoms prekėms, kurios gaminamos naudojant gamybos procesą, valdyti. Šios prekės turės formulę, bet ne KS.</li></ul> |
 | Taikyti šablonus | Pasirinkite vieną iš tolesnių parinkčių norėdami nurodyti, ar ir kaip produkto išleidimo šablonai turi būti taikomi naudojant politiką:<ul><li>**Visada** – Šabloninis išleistas produktas visada turi būt naudojamas leidimams. Jei pasirenkate šią parinktį, naudokite **Visi produktai** „FastTab“ norėdami nurodyti šabloną naudojamą visoms bendrovėms, į kurias išleidžiate. Jei nenurodote šablono kiekvienai bendrovei esančiai sąraše **Visi produktai** „FastTab“, gausite klaidą bandydami įrašyti politiką.</li><li>**Pasirenkama** – Jei šablonas išleistam produktui nurodomas bendrovei esančiai sąraše **Visi produktai** „FastTab“, kuriam bus naudojamas šablonas išleidžiant tai bendrovei. Kitu atveju, joks šablonas nebus naudojamas. Jei pasirinksite šią parinktį, galite įrašyti politiką nepriskirdami visoms bendrovėms šablonų. (Nebus rodoma jokių įspėjimų.)</li><li>**Niekada** – Joks šablonas išleistam produktui nebus naudojamas jokioms bendrovėms, į kurias išleidžiate, net jei šablonas yra nurodytas bendrovėms esančioms sąraše **Visi produktai** „FastTab“. Šablono stulpeliai bus neprieinami.</li></ul> |
 | Aktyvios | Naudokite šią parinktį, kad padėtumėte išlaikyti savo išleidimo politikas. Nustatykite į *Taip* visom jūsų naudojamoms išleidimo politikoms. Nustatykite į *Ne* tam, kad pažymėtumėte išleidimo politiką kaip neaktyvią jos nenaudodami. Įsidėmėkite, kad negali išjungti išleidimo politikos, kuri yra priskirta inžinerijos produkto kategorijai ir galite panaikinti tik neaktyvias leidimo politikas. |
 

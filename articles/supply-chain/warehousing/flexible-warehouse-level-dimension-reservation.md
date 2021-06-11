@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 13b81459fe3449a90839dac7637118f09afe2e55
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: ed90e773e1b8c90afc119a471cf844941ad19226
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910238"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103051"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Lanksti sandėlio dimensijų rezervavimo strategija
 
@@ -176,7 +176,7 @@ Toliau pateiktame pavyzdyje parodytas visapusis srautas.
 
     - Sukūrus darbą, prekės atsargų operacija, kai laukas **Nuoroda** nustatytas kaip **Įvykdyto užsakymo rezervavimas**, pašalinama. Atsargų operacija, kai laukas **Nuoroda** kaip **Darbas**, dabar turi faktinį rezervavimą visose kiekio atsargų dimensijose.
 
-        Sandėlio operacijos gali tęsti darbo vykdymo tvarkymą įprastu būdu. Tačiau mobiliojo įrenginio instrukcijose bus nurodyta, kad darbuotojas galės pasirinkti konkretų paketo numerį. Sandėlio aplinkose, kur vietos yra kontroliuojamos pagal numerio lentelę, po to, kai darbuotojas pasiekia vietą, kurioje saugomas tas pats paketas keliose numerio lentelėse, jis ar ji gali paimti bet kurią numerio lentelę, kuri dar nerezervuota (pvz., kitu įvykdyto užsakymo rezervavimu arba darbu, kilusiu iš šio tipo rezervavimo).
+        Sandėlio operacijos gali tęsti darbo vykdymo tvarkymą įprastu būdu. Tačiau mobiliojo įrenginio instrukcijose bus nurodyta, kad darbuotojas galės pasirinkti konkretų paketo numerį. Sandėlio aplinkose, kuriose vietos yra kontroliuojamos pagal numerio lentelę, darbuotojui pasiekus vietą, saugančią tą patį paketą keliose numerio lentelėse, jis gali išsirinkti bet kurią numerio lentelę, kuri dar nerezervuota (pavyzdžiui, kitu įvykdyto užsakymo rezervavimu arba darbu, kilusiu iš šio tipo rezervavimo.)
 
         Jei paaiškėja, kad nepraktiška paimti iš vietos, nurodytos darbo eilutėje, sandėlio operatoriai gali naudoti vieną iš toliau nurodytų veiksmų, kad nukreiptų konkretaus paketo paėmimą iš patogesnės vietos:
 

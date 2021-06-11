@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: a4f882f1abc9f758aca77b137b28aa973f925ea9
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ac8b63b98c37c7429cee792b85f492f3ca1d57c7
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019499"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103633"
 ---
 # <a name="firm-planned-orders"></a>Galutinai suplanuoti užsakymai
 
@@ -70,13 +70,14 @@ Norėdami neautomatiniu būdu patvirtinti suplanuotus užsakymus, surandate ir p
     - **Naujinti žymėjimą** – Pasirinkti tvirtinant patvirtintus užsakymus naudojamą atsargų žymėjimo strategiją.
     - **Stabdyti virtimą, jei įvyksta klaida – nustatykite šią pasirinktį kaip Taip, norėdami sustabdyti visų pasirinktų suplanuotų užsakymų tvirtavimą, jei** viename iš jų įvyksta *klaida*. Ši pasirinktis turi būti nustatyta kaip *Ne*, **jei lygiagretinimo** tvirtinimo parinktis nustatyta kaip *Taip*.
     - **Patvirtinti lygiagrečiai – ši pasirinktis galima tik jei jūsų sistemoje įjungta lygiagretaus suplanuotų užsakymų tvirtinimo funkcija ir jei pasirinkote du ar daugiau suplanuotų** [*užsakymų*](#enable-features) patvirtinti. Norėdami lygiagrečiai *vykdyti* tvirtinimo procesus, nustatykite jį Taip. Lygiagretus virtimas gali padėti pagerinti našumą.
-    - **Siūlų skaičius** –  Ši parinktis įmanoma tik, jei [*Lygiagretaus suplanuotų užsakymų tvirtinimo* funkcija](#enable-features) įjungta jūsų sistemoje ir pasirinkote **Lygiagretaus tvirtinimo** parinkt į *Taip*. Įveskite gijų skaičių, naudoti naudingą tvirtinimo procesui paralelizuoti. Informacijos, kaip naudoti šią pasirinktį bendrojo planavimo metu, ieškokite [Bendrojo planavimo našumo](../master-planning-performance.md#number-of-threads) patobulinime.
+    - **Siūlų skaičius** – Ši parinktis įmanoma tik, jei [*Lygiagretaus suplanuotų užsakymų tvirtinimo* funkcija](#enable-features) įjungta jūsų sistemoje ir pasirinkote **Lygiagretaus tvirtinimo** parinktį *Taip*. Įveskite gijų skaičių, naudoti naudingą tvirtinimo procesui paralelizuoti. Informacijos, kaip naudoti šią pasirinktį bendrojo planavimo metu, ieškokite [Bendrojo planavimo našumo](../master-planning-performance.md#number-of-threads) patobulinime.
 
         > [!NOTE]
         > Vertės **Gijų skaičius** nustatymas *0* (nulis) padidina bendrojo pagrindinio planavimo vykdymo laiką. Todėl rekomenduojame visuomet nustatyti reikšmę, kuri yra daugiau nei 0.
 
     - **Grupuoti pagal tiekėją – nustatykite šią pasirinktį kaip Taip, jei norite, kad tvirtintumėte** *sugrupuotumėte* suplanuotus pirkimo užsakymus ir sukurtumėte po vieną tiekėjo pirkimo užsakymą. Kitu atveju galite sukurti naują pirkimo užsakymą su viena eilute, skirta kiekvienam suplanuotam užsakymui.
     - **Grupuoti pagal pirkėjo grupę** – Pažymėkite šią parinktį į *Taip* kad būtų sudaryta suplanuotų prikimo užsakymų grupė, naudojama vienam pirkimo užsakymui su bendra tiekėjų ir pirkėjų grupe kurti. Jei norite naudoti šią pasirinktį, taip pat turite pažymėti parinktį **Grupuoti pagal tiekėją** į *Taip*.
+    - **Grupuoti pagal pirkimo sutartį** – Nustatykite šią pasirinktį į *Taip*, jei norite sugrupuoti suplanuotus pirkimo užsakymus, kurių tiekėjas yra toks pats, kaip ir esamų pirkimo sutarčių, ir sukurti po vieną pirkimo užsakymą kiekvienai pirkimo sutarčiai. Ši parinktis įgalinama automatiškai, kai įgalinta **Grupuoti pagal tiekėją**. Tam, kad galėtumėte naudoti **Grupuoti pagal pirkimo sutartį**, **Rasti pirkimo sutartį** turi būti nustatyta į *Taip* puslapyje **Bendrojo planavimo parametrai**.
     - **Grupuoti pagal laikotarpį** (skyriuje **Pirkimo** užsakymai) – pasirinkite laikotarpį, pagal kurį norite grupuoti suplanuotus pirkimo užsakymus. Jei norite naudoti šią pasirinktį, taip pat turite pažymėti parinktį **Grupuoti pagal tiekėją**.
     - **Grupuoti pagal laikotarpį** (skyriuje **Perlaidos** užsakymai) – pasirinkite laikotarpį, pagal kurį norite grupuoti suplanuotus pirkimo užsakymus. Užsakymai bus sugrupuoti pagal vertes Iš **sandėlio** ir Į **sandėlį**.
 

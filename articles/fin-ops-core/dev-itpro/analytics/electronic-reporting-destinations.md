@@ -2,7 +2,7 @@
 title: Elektroninių ataskaitų (ER) paskirties vietos
 description: Šioje temoje pateikiama informacija apie elektroninių ataskaitų paskirties vietų valdymą, palaikomų paskirties vietų tipus ir saugumo klausimus.
 author: nselin
-ms.date: 02/24/2021
+ms.date: 05/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: fe0c3bc94359c7e6a3eb2476b8096a8a2339ee9d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 088f1b13e20602345dbec5179c343e27be9cec44
+ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893609"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6085505"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroninių ataskaitų (ER) paskirties vietos
 
@@ -199,6 +199,34 @@ Jei sugeneruojate ER konfigūraciją „Excel” formatu ir norite konvertuoti j
 > Pasirinkto puslapio padėtis taikoma visoms ER konfigūracijoms, kurios yra generuojamos „Excel” formatu ir konvertuojamos į PDF formatą.
 >
 > Jei ER konfigūracija „Word” formatu yra konvertuojama į PDF formatą, PDF dokumento padėtis gaunama iš „Word” dokumento.
+
+## <a name="output-unfolding"></a>Išeigos išskleidimas
+
+Kai konfigūruojate savo ER formato **Aplanko** komponento paskirties vietą, galite nurodyti, kaip to komponento išeiga bus pristatoma į sukonfigūruotą paskirties vietą.
+
+### <a name="make-output-unfolding-available"></a>Padarykite išeigos išskleidimą prieinamu
+
+Norėdami, kad išvesties išskleidimo parinktis būtų galima dabartiniame „Finance” egzemplioriuje, atidarykite **Funkcijų valdymo** darbo sritį ir įjunkite **Leisti konfigūruoti ER paskirties vietas, kad aplankų turinys būtų siunčiamas kaip atskiri failai** funkciją.
+
+### <a name="applicability"></a>Taikymas
+
+Išeigos išskleidimo parinktį galima konfigūruoti tik **Aplanko** tipo formato komponentams. Kai pradedate konfigūruoti **Aplanko** komponentą, „FastTab” **Bendra** tampa pasiekiamas **Elektroninių ataskaitų paskirties vietos** puslapyje. 
+
+### <a name="use-the-output-unfolding-option"></a>Išeigos išskleidimo parinkties naudojimas
+
+„FastTab” skirtuko **Bendra** lauke **Siųsti aplanką kaip** pasirinkite vieną iš šių reikšmių:
+
+- **„ZIP” archyvas** – Pristatyti sugeneruotą failą kaip suglaudintą failą.
+- **Atskiri failai** – Pristatyti kiekvieną sugeneruoto suglaudinto failo failą kaip atskirą failą.
+
+    > [!NOTE]
+    > Pasirinkus **Atskiri failai**, sugeneruota išvestis surenkama į atmintį suglaudintoje būsenoje. Todėl maksimalaus [failo dydžio apribojimas](er-compress-outbound-files.md) yra taikomas suglaudintai išeigai, kai realus failo dydis gali viršyti šią ribą. Rekomenduojame pasirinkti šią vertę, kai tikitės gana didelio sugeneruotos išeigos dydžio.
+
+[![Paskirties vietos konfigūravimas Aplanko formato komponentui](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
+
+### <a name="limitations"></a>Apribojimai
+
+Jei nustatote lauką **Siųsti aplanką kaip** į **Atskiri failai** komponentui **Aplankas**, kuriame yra kitų įdėtųjų **Aplanko** komponentų, nustatymas nėra rekursyviai taikomas įdėtiems **Aplanko** komponentams.
 
 ## <a name="security-considerations"></a>Saugos klausimai
 

@@ -2,7 +2,7 @@
 title: Pašalintos arba nebenaudojamos platformos funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti iš „Finance and Operations“ programų platformos naujinių.
 author: sericks007
-ms.date: 02/16/2021
+ms.date: 05/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 782a147794bc30251ad60f5d788d1255a9d02b5f
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 435f7f0090ca16a9e8cfee2d1ceb65bec8457d09
+ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923543"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6111729"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Pašalintos arba nebenaudojamos platformos funkcijos
 
@@ -31,6 +31,19 @@ ms.locfileid: "5923543"
 Šis sąrašas skirtas suteikti jums informacijos apie pašalintas ir nebenaudojamas funkcijas, kad galėtumėte geriau planuoti savo darbą. 
 
 Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](/dynamics/s-e/global/axtechrefrep_61). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
+
+## <a name="feature-deprecation-notice-effective-may-2021"></a>Pranešimas apie funkcijos nerekomendavimą, įsigaliojantį nuo 2021 m. gegužės
+
+### <a name="globalization-portal-in-lifecycle-services-lcs"></a>„Lifecycle Services“ (LCS) Globalizacijos portalas
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo / pašalinimo priežastis** | Mes neberekomenduojame LCS globalizacijos portalo, nes šią funkciją pakeitė kitos LCS paslaugos. |
+| **Pakeitė kita funkcija?**   | Taip, ši funkcija pakeičiama LCS [Problemų ieška](../lifecycle-services/issue-search-lcs.md) ir [„Dynamics” reguliavimo įspėjimo pateikimo tarnyba](../lcs-solutions/submit-localization-alerts.md). |
+| **Paveiktos produkto sritys**         | LCS globalizacijos portalas|
+| **Visuotinio diegimo parinktis**              | Visuotinis debesies diegimas |
+| **Būsena**                         | Nerekomenduojama: Suplanuota pašalinimo data – 2022 m. gegužė. |
+
 
 ## <a name="feature-removed-effective-january-28-2021"></a>Funkcija bus pašalinta nuo 2021 m. sausio mėn 28 d.
 
@@ -56,7 +69,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | **Pakeitė kita funkcija?**   | „Visual Studio 2017” bus pakeista „Visual Studio 2015” kaip įdiegta ir reikalinga versija. |
 | **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai |
 | **Visuotinio diegimo parinktis**              | Visos |
-| **Būsena**                         | Nebenaudojama. Atnaujinus, ankstesni X++ įrankiai bus pašalinti iš 2015 m. „Visual Studio”, o atnaujinti įrankiai nebus įdiegti 2015 m. „Visual Studio”. Tai neturės įtakos nuomojamoms komponavimo versijoms. Komponavimo versijos virtualiosios mašinos pardavimo galimybės (komponavimo versijos apibrėžimas) turi būti atnaujintos rankiniu būdu tam, kad pakeisti priklausomybę iš „MSBuild 14.0” (2015 m. „Visual Studio”) į „MSBuild 15.0” (2017 m. „Visual Studio”), kaip aprašyta [Senstelėjusių pardavimo galimybių atnaujinimas „Azure” Pardavimo galimybės](../dev-tools/pipeline-msbuild-update.md). |
+| **Būsena**                         | Nerekomenduojama: Atnaujinant, ankstesni X++ įrankiai bus pašalinti iš „Visual Studio 2015”, o atnaujinti įrankiai nebus įdiegti į „Visual Studio 2015”. Tai neturės įtakos nuomojamoms komponavimo versijoms. Komponavimo versijos virtualiosios mašinos pardavimo galimybės (komponavimo versijos apibrėžimas) turi būti atnaujintos rankiniu būdu tam, kad pakeisti priklausomybę iš „MSBuild 14.0” (2015 m. „Visual Studio”) į „MSBuild 15.0” (2017 m. „Visual Studio”), kaip aprašyta [Senstelėjusių pardavimo galimybių atnaujinimas „Azure” Pardavimo galimybės](../dev-tools/pipeline-msbuild-update.md). |
 
 ### <a name="user-avatar"></a>Vartotojo pseudoportretas 
 
@@ -76,7 +89,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | **Pakeitė kita funkcija?**   | Ne |
 | **Paveiktos produkto sritys**         | Žiniatinklio klientas |
 | **Visuotinio diegimo parinktis**              | Visos |
-| **Būsena**                         | Nebenaudojama. Numatyta, kad visas EP kodas bus pašalintas 2021 m. spalio mėn leidime. |
+| **Būsena**                         | Nerekomenduojama: Numatyta, kad visas EP kodas bus pašalintas 2021 m. spalio leidime. |
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>„Finance and Operations” programų 10.0.15 versijos platformos naujinimai
 
@@ -88,7 +101,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | **Pakeitė kita funkcija?**   | Rekomenduojame klientams naudoti „Microsoft Edge“.|
 | **Paveiktos produkto sritys**         | Visi „Dynamics 365“ produktai |
 | **Visuotinio diegimo parinktis**              | Visos|
-| **Būsena**                         | Nebenaudojama. „Internet Explorer 11“ nebus palaikoma nuo 2021 m. rugpjūčio.|
+| **Būsena**                         | Nerekomenduojama: „Internet Explorer 11“ nebus palaikoma nuo 2021 m. rugpjūčio.|
 
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>„Visual Studio“ papildinys, skirtas metaduomenų karštųjų pataisų pritaikymui
@@ -181,7 +194,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | **Pakeitė kita funkcija?**   | Daugiau informacijos rasite [„Azure Active Directory” sąlyginės prieigos konfigūracija](/appcenter/general/configuring-aad-conditional-access).|
 | **Paveiktos produkto sritys**         | Sauga |
 | **Visuotinio diegimo parinktis**              | Debesis |
-| **Būsena**                         | **Nuvertėjęs:** Ši funkcija yra visiškai pasenusi savitarnos diegimui. |
+| **Būsena**                         | Nuvertėjęs: Ši funkcija yra visiškai pasenusi savitarnos diegimui. |
 
 ### <a name="visual-studio-2015"></a>„Visual Studio 2015“
 
@@ -200,8 +213,8 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | **Nebenaudojimo/pašalinimo priežastis** | Lentelės metaduomenų aprašuose gali būti laukų grupių, kuriose yra netinkamų laukų nuorodų. Įdiegus šias laukų grupes gali kiti vykdymo gedimų programose „Financial Reporting“ ir „Microsoft SQL Server Reporting Services“ (SSRS). 23 platformos naujinimas pristatė kompiliatoriaus *įspėjimą*, kuris įgalina šios metaduomenų problemos sprendimą. „Finance and Operations” programų 10.0.11 versijos platformos naujinimai klasifikuoja šią problemą kaip kompiliatoriaus *klaidą*.<p>Norėdami ištaisyti šią klaidą, atlikite toliau nurodytus veiksmus.</p><ol><li>Pašalinkite netinkamą lauko nuorodą iš lentelės lauko grupės aprašo.</li><li>Perkompiliuokite.</li><li>Įsitikinkite, kad pašalintos visos klaidos.</li></ol> |
 | **Pakeitė kita funkcija?**   | Ši kompiliatoriaus klaida visam laikui pakeičia kompiliatoriaus įspėjimą.  |
 | **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai |
-| **Visuotinio diegimo parinktis**              | Visi / Viskas |
-| **Būsena**                         | **Nebenaudojama:** „Finance and Operations” programų 10.0.11 versijos platformos naujinimuose kompiliatoriaus įspėjimas yra kompiliatoriaus klaida. |
+| **Visuotinio diegimo parinktis**              | Visi |
+| **Būsena**                         | Nerekomenduojama: Kompiliatoriaus įspėjimas yra kompiliatoriaus klaida „ Finance and Operations” programų 10.0.11 versijos platformos naujinimuose. |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>ISV licencijos, sukurtos naudojant SHA1 maišos algoritmą
 
@@ -211,7 +224,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | **Pakeitė kita funkcija?**   | Taip. Norėdami sukurti licencijas, naudokite „Windows PowerShell”. |
 | **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai |
 | **Visuotinio diegimo parinktis**              | Visi / Viskas |
-| **Būsena**                         | <strong>Nebenaudojama:</strong> ISV licencijos, sukurtos naudojant SHA1 maišos algoritmą. Šis algoritmas priklausė nuo sertifikatų, sukurtų naudojant priemonę „MakeCert”, ir ši priemonė nebenaudojama.<p><strong>Nebenaudojama:</strong> SHA1 naudojimas saugos arba maišos tikslais. SHA1 nustos veikti 2021 m. pradžioje. Todėl jos nebereikėtų naudoti.<p><strong>Pašalinta:</strong> transportavimo lygmens saugos (TLS) 1.0 ir 1.1 versijų gaunamų ir siunčiamų užklausų palaikymas. |
+| **Būsena**                         | Nebenaudojama: ISV licencijos, sukurtos naudojant SHA1 maišos algoritmą. Šis algoritmas priklausė nuo sertifikatų, sukurtų naudojant priemonę „MakeCert”, ir ši priemonė nebenaudojama.<br><br>Nebenaudojama: SHA1 naudojimas saugos arba maišos tikslais. SHA1 nustos veikti 2021 m. pradžioje. Todėl jos nebereikėtų naudoti.<br><br>Pašalinta: transportavimo lygmens saugos (TLS) 1.0 ir 1.1 versijų gaunamų ir siunčiamų užklausų palaikymas. |
 
 ## <a name="platform-update-32"></a>Platformos „update 32“
 

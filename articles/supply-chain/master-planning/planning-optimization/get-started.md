@@ -2,7 +2,7 @@
 title: Darbo su „Planning Optimization“ pradžia
 description: Šioje temoje aiškinama, kaip pradėti naudoti „Planning Optimization“ funkciją.
 author: ChristianRytt
-ms.date: 10/09/2020
+ms.date: 05/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d346251e82737624edfce88dc7b2ee10280f6877
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d12e1908e234c841fb705266b2255c6c5e2140e1
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907672"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103598"
 ---
 # <a name="get-started-with-planning-optimization"></a>Darbo su planavimo optimizavimu pradžia
 
@@ -58,7 +58,7 @@ Prieš diegiant „Planning Optimization” priedą, turi būti įgyvendintos š
 
 - Privalote vykdyti „Supply Chain Management” su įgalinta LCS plačiai pasiekiama 2 ar aukštesnės pakopos aplinka (ne „OneBox” aplinka), turinčia „Dynamics 365 Supply Chain Management” 10.0.7 arba naujesnę versiją. Jei bandote įdiegti papildinį „OneBox” aplinkoje, diegimas nebus užbaigtas ir jį reikės atšaukti.
 
-- Jūsų sistema turi būti nustatyta „Power Platform” integravimui. Daugiau informacijos žiūrėkite [Būtinosios priedų nustatymo sąlygos](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#prerequisites-for-setting-up-add-ins) ir [Priedų nustatymas](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#set-up-add-ins).
+- Jūsų sistema turi būti nustatyta „Power Platform” integravimui. Daugiau informacijos rasite [„Microsoft Power Platform” integravimas su „Finance and Operations” programomis](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
 
 ### <a name="enable-the-planning-optimization-license"></a>„Planning Optimization“ licencijos įgalinimas
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 62317f7e42c5392dce32a667f05f22e5c970abc7
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 0c1e6a9490fba0becb4840cbec9d04c22d482511
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910020"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103173"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Pirkimo užsakymų gaunamų krovinių sandėlio tvarkymas
 
@@ -127,7 +127,7 @@ Toliau pateikiamoje lentelėje paaiškinamos laukui **Per didelio krovinio gavim
 | Vertė | aprašymas |
 |---|---|
 | Leisti | Darbuotojai gali užregistruoti kiekių, viršijančių pasirinkto krovinio likusius neregistruotus kiekius, gavimą, tačiau tik tuo atveju, jei bendras užregistruotas kiekis neviršija pirkimo užsakymo eilutės, susietos su kroviniu, kiekio (po pristatymo pertekliaus procento pataisymo). |
-| Blokuoti | <p>Darbuotojai negali užregistruoti kiekio gavimo, jei jis viršija likusį neužregistruotą pasirinkto krovinio kiekį (po pristatymo pertekliaus procento pataisymo). Darbuotojas, kuris bando užregistruoti gavimus, gaus klaidą ir negalės tęsti tol, kol jis ar ji neužregistruos kiekio, kuris lygus likusiam neužregistruotam krovinio kiekiui arba yra už jį mažesnis.</p><p>Pagal numatytuosius parametrus krovinio eilutės pristatymo pertekliaus procentinė vertė nukopijuojama iš susietos pirkimo užsakymo eilutės. Kai lauko <b>Per didelio krovinio gavimas</b> reikšmė nustatyta kaip <i>Blokuoti</i>, sistema naudoja pristatymo pertekliaus procentinę vertę, kad apskaičiuotų bendrą kiekį, kurį galima užregistruoti krovinio eilutei. Tačiau, jei reikia, ši vertė gali būti perrašyta atskiriems kroviniams. Šis veiksmas tampa aktualus gaunant srautus, kai keli arba visi pertekliniai kiekiai, sudarantys užsakymo eilutės pristatymo pertekliaus procentą, proporcingai paskirstomi keliems kroviniams. Toliau pateikiamas scenarijaus pavyzdys.</p><ul><li>Vienai pirkimo užsakymo eilutei priskirti keli kroviniai.</li><li>Pirkimo užsakymo eilutėje yra pristatymo pertekliaus procentinė dalis, kuri yra didesnė už 0 (nulį).</li><li>Jau buvo užregistruoti vieno ar daugiau krovinių kiekiai, neatsižvelgiant į pristatymo pertekliaus procentinę dalį.</li><li>Pristatymo pertekliaus kiekis atvyksta su paskutiniu kroviniu.</li></ul><p>Šiame scenarijuje paskutinio krovinio pertekliniam kiekiui užregistruoti mobilųjį įrenginį galima naudoti tik tuo atveju, jei sandėlio vadovas padidina atitinkamo krovinio eilutės pristatymo pertekliaus procentą iš numatytosios vertės į vertę, kuri yra pakankamai didelė, kad visą pristatymo perteklių būtų galima užregistruoti su paskutiniu kroviniu.</p> |
+| Blokuoti | <p>Darbuotojai negali užregistruoti kiekio gavimo, jei jis viršija likusį neužregistruotą pasirinkto krovinio kiekį (po pristatymo pertekliaus procento pataisymo). Darbuotojui, kuris bando užregistruoti gavimus, bus pateikta klaidą ir jis negalės tęsti tol, kol neužregistruos kiekio, kuris yra lygus arba mažesnis nei likęs neužregistruotas krovinio kiekis.</p><p>Pagal numatytuosius parametrus krovinio eilutės pristatymo pertekliaus procentinė vertė nukopijuojama iš susietos pirkimo užsakymo eilutės. Kai lauko <b>Per didelio krovinio gavimas</b> reikšmė nustatyta kaip <i>Blokuoti</i>, sistema naudoja pristatymo pertekliaus procentinę vertę, kad apskaičiuotų bendrą kiekį, kurį galima užregistruoti krovinio eilutei. Tačiau, jei reikia, ši vertė gali būti perrašyta atskiriems kroviniams. Šis veiksmas tampa aktualus gaunant srautus, kai keli arba visi pertekliniai kiekiai, sudarantys užsakymo eilutės pristatymo pertekliaus procentą, proporcingai paskirstomi keliems kroviniams. Toliau pateikiamas scenarijaus pavyzdys.</p><ul><li>Vienai pirkimo užsakymo eilutei priskirti keli kroviniai.</li><li>Pirkimo užsakymo eilutėje yra pristatymo pertekliaus procentinė dalis, kuri yra didesnė už 0 (nulį).</li><li>Jau buvo užregistruoti vieno ar daugiau krovinių kiekiai, neatsižvelgiant į pristatymo pertekliaus procentinę dalį.</li><li>Pristatymo pertekliaus kiekis atvyksta su paskutiniu kroviniu.</li></ul><p>Šiame scenarijuje paskutinio krovinio pertekliniam kiekiui užregistruoti mobilųjį įrenginį galima naudoti tik tuo atveju, jei sandėlio vadovas padidina atitinkamo krovinio eilutės pristatymo pertekliaus procentą iš numatytosios vertės į vertę, kuri yra pakankamai didelė, kad visą pristatymo perteklių būtų galima užregistruoti su paskutiniu kroviniu.</p> |
 | Blokuoti tik uždariems kroviniams | Darbuotojai gali priimti didesnį atvirų krovinių krovinio eilutės kiekį, bet ne tų krovinių, kurių būsena yra _Gauta_. |
 
 > [!NOTE]
@@ -216,7 +216,7 @@ Norėdamas užregistruoti papildomų užregistruotų krovinio kiekių produkto g
 
 ### <a name="post-registered-quantities-from-the-purchase-order-page"></a>Užregistruotų kiekių iš pirkimo užsakymo puslapio registravimas
 
-Norėdamas registruoti užregistruotus kiekius iš puslapio **Pirkimo užsakymas** puslapio, vartotojas prieš pasirinkdamas veiksmą **Produkto gavimas** užbaigia toliau nurodytas užduotis.
+Norėdamas gauti kvite užregistruotus prekių kiekius iš **Pirkimo užsakymo** puslapio, prieš pasirinkdamas veiksmą **Produkto gavimas**, vartotojas atlieka toliau pateiktas užduotis:
 
 - Lauką **Kiekis**, esantį dalyje **Parametrai** skirtuke **Nustatymai**, nustatykite į _Užregistruotas kiekis_.
 - Lauke **Produkto gavimas** įveskite į registravimą įtrauktų pirkimo užsakymų numerius.
@@ -347,7 +347,7 @@ Kai į sandėlio priėmimo rampą atvyksta krovinys, priimantis darbuotojas užr
 
 1. Eikite toliau per darbo eigą, palikdami visus kitus laukus tuščius arba nustatydami jų numatytąsias reikšmes, kol jūsų įrenginys informuos, kad darbas baigtas.
 
-Krovinio gavimo užduotis dabar baigta, o priimantis darbuotojas gali pereiti prie kitos savo užduoties. Tačiau sandėlio priimantis personalas galiausiai peržiūrės krovinio įrašą ir pamatys, kad gautas kiekis buvo mažesnis nei numatytas. Tada, naudodami žiniatinklio kliento programą jie atliks toliau nurodytą procedūrą.
+Krovinio gavimo užduotis dabar yra baigta, o priimantis darbuotojas gali pereiti prie kitos savo užduoties. Tačiau sandėlio priimantis personalas galiausiai peržiūrės krovinio įrašą ir pamatys, kad gautas kiekis buvo mažesnis nei numatytas. Tada, naudodami žiniatinklio kliento programą jie atliks toliau nurodytą procedūrą.
 
 1. Eikite į **Sandėlio valdymas \> Kroviniai \> Visi kroviniai**.
 1. Sąraše raskite ką tik gautą krovinį. (Jums gali tekti pažymėti žymės langelį **Rodyti uždarytą**, kad būtų įtraukti gaunami kroviniai, kurių krovinio būsena yra _Išsiųsta_.) Tada stulpelyje **Krovinio ID** pasirinkite saitą, kad būtų galima atidaryti krovinį.

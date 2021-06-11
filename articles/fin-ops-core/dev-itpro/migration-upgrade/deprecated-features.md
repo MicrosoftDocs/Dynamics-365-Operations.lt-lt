@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce49835f167881417000b066fd4a351d26ca0909
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 11528560ecabb848f2703d11c0a705b2a25d7614
+ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921428"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6112626"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
 
@@ -104,6 +104,39 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | **Visuotinio diegimo parinktis**              | Visos |
 | **Būsena**                         | Nebenaudojama: iki 2020 m. spalio 1 d. planuojame nebepalaikyti **vietinių mokesčių ataskaitos – funkcijos nuoroda IT-00003**. |
 
+## <a name="october-2019-deprecation-announcement"></a>2019 m. spalio pranešimas apie netinkamumą
+
+### <a name="flowchart-diagrams-in-business-process-modeler"></a>Struktūrinės schemos diagramos verslo procesų modeliavimo įrankyje
+
+<table>
+<tbody>
+<tr>
+<td><strong>Nebenaudojimo / pašalinimo priežastis</strong></td>
+<td>Verslo procesų modeliavimo įrankio (BPM) struktūrinių schemų komponentas tampa nebenaudojamas, nes dėl senstelėjusio dizaino sumažėjo naudojimas.</td>
+</tr>
+<tr>
+<td><strong>Pakeitė kita funkcija?</strong></td>
+<td>Ne</td>
+</tr>
+<tr>
+<td><strong>Paveiktos sritys</strong></td>
+<td>Verslo procesų modeliavimo įrankis</td>
+</tr>
+<tr>
+<td><strong>Būsena</strong></td>
+<td>Nebenaudojama: tikimasi, kad BPM struktūrinės schemos diagramų komponentas bus pašalintas 2020 m. Toliau nurodytos funkcijos bus nepasiekiamos.
+<ul>
+<li>Visas struktūrines schemas bus galima tik skaityti. Jų redaguoti bus negalima. Formų ypatybės, susietos su struktūrinės schemos veiklomis, bus taip pat nepasiekiamos. Šios struktūrinės schemos apima ir numatytąsias struktūrines schemas, kurios yra automatiškai generuojamos, ir pritaikytas struktūrines schemas, modifikuojamas pagal minėtas numatytąsias struktūrines schemas.</li>
+<li>Proceso veiksmus galite tik skaityti ir negalima jų redaguoti.</li>     
+<li>Senstelėjusi tinkamumo / trūkumų analizės funkcija nebus pasiekiama. Todėl trūkumų sąrašas nebus automatiškai sukuriamas ir jo nebus galima eksportuoti.
+<p><strong>Pastaba.</strong> Ši funkcija anksčiau tapo nebenaudojama ir ją pakeitė „Microsoft Azure DevOps“ integracijos.</p>
+</li>
+<li>Struktūrinių schemų versijų retrospektyva nebus pasiekiama.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## <a name="finance-and-operations-1005-with-platform-update-29"></a>„Finance and Operations 10.0.5“ su „Platform Update 29“
 
@@ -111,7 +144,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Mes šaliname JAV algalapių mokesčių atnaujinimus dėl mažo naudojimo ir patobulintos funkcijos, kuri dabar siūloma per strateginę integraciją.  |
+| **Nerekomendavimo / pašalinimo priežastis** | Mes šaliname JAV algalapių mokesčių atnaujinimus dėl mažo naudojimo ir patobulintos funkcijos, kuri dabar siūloma per strateginę integraciją.  |
 | **Pakeitė kita funkcija?**   | Taip |
 | **Paveiktos produkto sritys**         | Payroll |
 | **Visuotinio diegimo parinktis**              | Visos |

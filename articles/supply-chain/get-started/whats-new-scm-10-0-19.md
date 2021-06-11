@@ -1,5 +1,5 @@
 ---
-title: „Dynamics 365 Supply Chain Management“ peržiūra 10.0.19 (2021 m. liepa)
+title: „Dynamics 365 Supply Chain Management“ 10.0.19 peržiūros versija (2021 m. birželis)
 description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.19 versijos funkcijos.
 author: kamaybac
 ms.date: 04/23/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 8bb4a7c8085b40ab3eca72675dbe7a3be412d8c1
-ms.sourcegitcommit: 2eb7a9ae544f504155657c5c584cbac66c21dba4
+ms.openlocfilehash: f0af22dc07e8045546f11d9e58a10c7cb0bfea90
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961686"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6114980"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10019-july-2021"></a>„Dynamics 365 Supply Chain Management“ peržiūra 10.0.19 (2021 m. liepa)
+# <a name="preview-of-dynamics-365-supply-chain-management-10019-june-2021"></a>„Dynamics 365 Supply Chain Management“ 10.0.19 peržiūros versija (2021 m. birželis)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -26,23 +26,35 @@ ms.locfileid: "5961686"
 
 - **Vertinimo versijos leidimas:** 2021 m. balandžio mėn.
 - **Bendras leidimo pasiekiamumas (savaiminis naujinimas):** 2021 m. birželis
-- **Bendras leidimo pasiekiamumas (automatinis naujinimas):** 2021 m. liepa
+- **Bendras leidimo pasiekiamumas (automatinis naujinimas):** 2021 m. birželis
 
 ## <a name="features-included-in-this-release"></a>Funkcijos, įtrauktos į šį leidimą
 
-Tolesnėje lentelėje pateiktos funkcijos šiame leidime. Priemonės *stulpelyje* pateikiami saitai [į paleidimo](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) planą, kur matysite oficialias kiekvienos priemonės paleidimo datas. Daugiau *informacijos* stulpelyje pateikiami saitai į susijusius dokumentus.
+Tolesnėje lentelėje pateiktos funkcijos šiame leidime. Priemonės *stulpelyje* pateikiami saitai [į paleidimo](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) planą, kur matysite oficialias kiekvienos priemonės paleidimo datas. Stulpelyje *Daugiau informacijos* pateikiama išsami informacija ir (arba) nuorodos į susijusius dokumentus.
 
 Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis. Kai kurios išvardytos funkcijos vis dar yra peržiūros versijos, o kitos funkcijos jau gali būti prieinamos bendrai.
 
 | Funkcijos sritis | Funkcija | Daugiau informacijos |
 |---|---|---|
-| Atsargos ir logistika | [Kontaktinio asmens duomenų objekto eksportavimo optimizavimas](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | *Nėra* |
+| Atsargos ir logistika | [Kontaktinio asmens duomenų objekto eksportavimo optimizavimas](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | Įgalinus šią funkciją, dėl nurodytų duomenų pakeitimų, susiję kontaktai nebus įtraukti į kitą didėjantį eksportavimą. Išjungus šią funkciją, dėl nurodytų duomenų pakeitimų, susiję kontaktai bus įtraukti į kitą didėjantį eksportavimą. |
 | Atsargos ir logistika | [Sandėlio vykdymo galimybių papildantys patobulinimai su skalės vienetais](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[Pranešimų procesoriaus pranešimai](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[Sandėlio atsargų koregavimas](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[Sandėlio valdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams](../cloud-edge/cloud-edge-workload-warehousing.md) |
-| Atsargos ir logistika | [Pardavimo pasiūlymo puslapio laukų Dokumento įžanga ir Dokumento išvada peržvalgos funkcija](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | *Nėra* |
+| Atsargos ir logistika | [Pardavimo pasiūlymo puslapio laukų Dokumento įžanga ir Dokumento išvada peržvalgos funkcija](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | Ši funkcija prideda peržvalgos funkciją laukams **Dokumento įžanga** ir **Dokumento išvada**, esantiems **Pardavimų pasiūlymo** puslapyje.<br><br>Pagal numatytuosius nustatymus ši funkcija įjungta. |
 | Atsargos ir logistika | [Sandėlio vykdymas su kraštų skalės vienetais pasirinktoje aparatūroje](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [Įdiekite „Edge" skalės vienetus pasirinktoje aparatūroje naudodami LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| Gamyba | [Gamybos su kraštų skalės vienetais pasirinktoje aparatūroje](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Įdiekite „Edge" skalės vienetus pasirinktoje aparatūroje naudodami LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
+| Gamyba | [Gamybos su kraštų skalės vienetais pasirinktoje aparatūroje](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Briaunos skalės vienetų diegimas pasirinktinėje aparatūroje naudojant LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
+| Planuojama | [Neribotas pajėgumų planavimas planavimo optimizavimui](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | Ši funkcija įgalina pajėgumo planavimą su neribotu pajėgumu Planavimo optimizavimui. Neturint šios funkcijos, suplanuoti gamybos užsakymai gauna savo gamybos laiką iš išleistų produktų atsargų gamybos laiko, neatsižvelgiant į planavimo laiko ribas. |
 | Planuojama | Užklausa pagrįstas suplanuoto užsakymo virtimas | [Galutinai suplanuoti užsakymai](../master-planning/planning-optimization/planned-order-firming.md) |
 | Produkto informacijos valdymas | [Siūlomų variantų puslapio patobulinimai](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [Iš anksto apibrėžtų produkto variantų kūrimas](../pim/tasks/create-predefined-product-variants.md) |
+
+## <a name="feature-enhancements-included-in-this-release"></a>Funkcijos patobulinimai, įtraukti į šį leidimą
+
+Toliau pateiktoje lentelėje pateikti funkcijos patobulinimai, įtraukti į šį leidimą. Kiekvienas iš jų suteikia didesnį esamos funkcijos patobulinimą. Kadangi jie yra tik patobulinimai, jie nėra išvardyti [leidimo plane](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features). Tačiau, siekiant užtikrinti, kad šie patobulinimai bus suderinti su jūsų esamais tinkinimais ar nuostatomis, kiekvienas iš jų yra išjungiamas pagal numatytuosius nustatymus (nebent nurodyta kitaip). Jei norite naudoti bet kurią iš šių funkcijų, turite ją tiesiogiai įgalinti [Funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+| Funkcijos sritis | Funkcijos&nbsp;pavadinimas&nbsp;funkcijos&nbsp;valdyme | Daugiau informacijos |
+|---|---|---|
+| Pardavimas ir rinkodara | Pardavimų retrospektyvos valymo efektyvumo patobulinimai | Pardavimų retrospektyvos valymas gali ilgai užtrukti, jei jis nedažnai vykdomas aplinkose, kuriose yra didelis pardavimų naujinimų kiekis. Siekiant sumažinti trukmę ir pagerinti patikimumą, ši funkcija išskaido valymą į paketus, kurie paleidžiami ribotam laikui. Ten, kur įmanoma, duomenų bazės galimybės bus sverto, kad valymo metu būtų sumažintas užrakinimas ir būtų išvengta operacinių lentelių prijungimo. |
+| Pardavimas ir rinkodara | Atnaujinti pageidaujamą gavimo datą su patvirtinimo data vidinės įmonės užsakymams | Ši funkcija leidžia jums kontroliuoti, kas atsitiks pardavimo ir pirkimo datų laukų reikšmėms, kai naudojamas vidinės įmonės tiesioginis pristatymas. Galite pasirinkti tai, ar sistema atnaujins pageidaujamas datas, ar praleis jų atnaujinimą. Jei praleisite atnaujinimą, pageidaujamos datos atspindės kliento pageidavimus. Jei įgalinate atnaujinimą, pageidaujamos datos (naudojant pristatymo datos valdiklį) tik iš pradžių nurodo tai, ko prašė klientas. Pristatymo datos valdiklis, skirtingas nei *Nėra*, nepaisys to, ko iš pradžių buvo pareikalauta. Šią parinktį galite nustatyti naudodami naują nustatymą **Atnaujinti pageidaujamą gavimo datą Patvirtinta data**, esantį vidinės įmonės tiekėjo arba kliento nustatymuose.<br><br>Jei funkcija išjungta, sistema perrašys pageidaujamą gavimo datą pradiniame pardavimo užsakyme remdamasi pristatymo datos valdymo taisykle, tačiau pageidaujama siuntimo data liks nepakeista. |
+| Sandėlio valdymas | Suapvalinti kiekius iki artimiausio pardavimo vieneto išleidžiant į sandėlį | Ši funkcija įtraukia parinktį, kuri gali riboti užsakymų kiekius išleidimo į sandėlį metu. Kai ji įgalinta, užsakymo kiekiai bus suapvalinti iki artimiausio pilno pardavimo vieneto, o užsakymų, kurių kiekiai yra mažesni nei vieno pardavimo vienetas, išleidimas bus atmestas. |
+| Sandėlio valdymas | Visos organizacijos bangos metodas „Planuoti darbo kūrimą“ | Įgalinus šią funkciją, bangos metodas *Darbo kūrimo grafikas* bus sukonfigūruojamas veikti lygiagrečiai visuose juridiniuose subjektuose. Taip pat bus paveikti keli papildomi parametrai. Išsamią informaciją rasite [Darbo kūrimo planavimas bangos metu](../warehousing/configure-wave-schedule-work-creation.md). |
 
 ## <a name="new-and-updated-documentation-resources"></a>Nauji ir naujinti dokumentų šaltiniai
 
@@ -62,7 +74,7 @@ Neseniai įtraukėme ir reikšmingai atnaujinome tolesnes pagalbos temas. Jos ne
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>„Finance and Operations” programų platformos naujinimai
 
-„Microsoft Dynamics 365 Supply Chain Management“ 10.0.19 versijoje yra platformos naujinimų. Norėdami sužinoti daugiau, žr. [„Finance and Operations” programų 10.0.19 versijos platformos naujinimai (2021 m. liepos mėn.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
+„Microsoft Dynamics 365 Supply Chain Management“ 10.0.19 versijoje yra platformos naujinimų. Norėdami sužinoti daugiau, skaitykite [„Finance and Operations” programų 10.0.19 versijos platformos naujinimai (2021 m. birželis)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
 

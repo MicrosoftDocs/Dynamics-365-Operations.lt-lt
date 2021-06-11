@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf3b842f018b4386d5ab4769143d4f7f0907873e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bd30e7128c688a0880727380e601069a95a28dcd
+ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841266"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6111699"
 ---
 # <a name="vendor-invoices-overview"></a>Tiekėjų sąskaitų faktūrų apžvalga
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Šioje temoje pateikiama bendra informacija apie tiekėjo SF. Tiekėjo sąskaitos yra užklausas gautiems mokėjimams produktams ir paslaugoms. Tiekėjo sąskaitos gali rodyti sąskaitą esamoms paslaugoms arba gali būti paremtos pirkimo užsakymais konkrečioms prekėms ir paslaugoms.
 
@@ -71,7 +73,9 @@ Toliau pateikiami keli būdai, kaip galima išvengti SF pateikimo į darbo eigą
 
 - **SF yra nepriskirtų išlaidų.** Asmuo, kuris pateikė SF, gaus įspėjimą, kad sąskaitoje yra nepriskirtų išlaidų, todėl jis galės pakoreguoti SF prieš pateikdamas ją į darbo eigą. Ši funkcija galima tik tada, kai parametras **Uždrausti pateikti į darbo eigą, kai tiekėjo SF yra nepriskirtų išlaidų** puslapyje **Funkcijų valdymas** yra įjungtas.
 
-- **SF numeris yra toks pats kaip kitos užregistruotos SF.** Asmuo, kuris pateikė SF, gaus įspėjimą, kad rasta sąskaita tokiu pačiu numeriu, todėl jis galės ją pakoreguoti prieš pateikdamas į darbo eigą. Šis pranešimas bus rodomas kai **Tikrinti sąskaitos numerį naudotą** parametras mokėtinose Sąskaitose yra nustatytas **Atmestas dublikatas**. Ši funkcija galima, jei parametras **Drausti pateikimą į darbo eigą, kai SF numerį jau turi kita užregistruota SF, o sistema nenustatyta, kad leistų priimti dubliuotus SF numerius** puslapyje **Funkcijų valdymas** yra įjungtas.  
+- **SF numeris yra toks pats kaip kitos užregistruotos SF.** Asmuo, kuris pateikė sąskaitą faktūrą, gaus pranešimą, nurodantį, kad rasta SF su dublikato numeriu. Dublikato numeris gali būti pataisytas prieš iš naujo pateikiant SF darbo eigai. Šis pranešimas bus rodomas kai **Tikrinti sąskaitos numerį naudotą** parametras mokėtinose Sąskaitose yra nustatytas **Atmestas dublikatas**. Ši funkcija galima, jei parametras **Drausti pateikimą į darbo eigą, kai SF numerį jau turi kita užregistruota SF, o sistema nenustatyta, kad leistų priimti dubliuotus SF numerius** puslapyje **Funkcijų valdymas** yra įjungtas.
+
+- **Sąskaitoje faktūroje yra eilutė, kurioje SF kiekis yra mažesnis nei atitinkamas produkto gavimo kvitų kiekis.** Asmuo, kuris pateikia arba bando registruoti sąskaitą faktūrą, gaus pranešimą, kad kiekiai nėra lygūs. Šis pranešimas suteikia galimybę pataisyti vertes prieš pateikiant sąskaitą į darbo eigą dar kartą. Ši funkcija galima, jei **Tiekėjo sąskaitų faktūrų registravimo ir pateikimo darbo eigai** parametras yra įjungtas **Funkcijų valdymo** puslapyje, o **Registravimo ir pateikimo darbo eigai** parametras įjungtas **Mokėtinų sumų parametrų** puslapyje.  
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Tiekėjo SF ir produkto gavimo kvitų gretinimas
 

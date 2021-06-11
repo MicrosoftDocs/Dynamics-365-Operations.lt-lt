@@ -1,5 +1,5 @@
 ---
-title: Sugeneruotų ER ataskaitų rezultatų sekimo ir palyginimo su bazinėmis vertėmis patobulinimai
+title: Patobulinkite sugeneruotų ER ataskaitų rezultatų sekimą, kad palygintumėte su bazinėmis vertėmis
 description: Šioje temoje aprašomi ER bazinio plano funkcijos 10.0.3 „Microsoft Dynamics 365 for Finance and Operations” versijoje (2019 m. birželio mėn) patobulinimai.
 author: NickSelin
 ms.date: 06/19/2019
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 483d3ac7cd3192ffd4c785c4031a168af503f087
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 49ca9a878b9289b02f9bb9346190425197e0ceea
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743610"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6117040"
 ---
-# <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Sugeneruotų ER ataskaitų rezultatų sekimo ir palyginimo su bazinėmis vertėmis patobulinimai
+# <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Patobulinkite sugeneruotų ER ataskaitų rezultatų sekimą, kad palygintumėte su bazinėmis vertėmis
 
 [!include[banner](../includes/banner.md)]
 

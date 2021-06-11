@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d7c0839ffbea80904ca12d1cba7ba9880f721cdd
-ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
+ms.openlocfilehash: d9430fe02abe58f37d2bfd1431b4da61527d0834
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947525"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115054"
 ---
 # <a name="engineering-change-management-overview"></a>Inžinerijos keitimo valdymo apžvalga
 
@@ -27,7 +27,7 @@ ms.locfileid: "5947525"
 
 Šiandien gamintojams reikia stipraus produkto duomenų valdymo, versijos kontrolės ir inžinerijos keitimo valdymo siekiant sėkmės pasaulyje su nuolatos besitraukiančio gyvenimo ciklo produktais, padidinta kokybe ir patikimumo reikalavimais bei padidintu dėmesiu produkto saugai.
 
-Inžinerijos keitimo valdymas suteikia struktūrą ir discipliną produkto duomenų valdymo procesui ir suteikia produktams galimybę būti nustatytiems, išleistiems ir peržiūrėtiems valdymo būdu, kurį palaiko darbo eigos. Per produkto versijas ir inžinerijos keitimo valdymą galite registruoti, įvertinti poveikį ir taikyti inžinerijos keitimus per visą produkto gyvavimo ciklą.
+Inžinerijos keitimo valdymas suteikia struktūrą ir discipliną produkto duomenų valdymo procesui ir suteikia produktams galimybę būti nustatytiems, išleistiems ir peržiūrėtiems valdymo būdu, kurį palaiko darbo eigos.Per produkto versijas ir inžinerijos keitimo valdymą galite registruoti, įvertinti poveikį ir taikyti inžinerijos keitimus per visą produkto gyvavimo ciklą.
 
 Inžinerijos keitimo valdymo apžvalgą, kuri padeda jums planuoti ir valdyti produkto versijas ir valdyti produkto gyvenimo ciklus bei inžinerijos pokyčius. Pateikiamas pagrindinių savybių sąrašas:
 
@@ -50,16 +50,21 @@ Pirmiausia įjunkite šias funkcijas atlikdami toliau nurodytus veiksmus.
 
 1. Eikite į darbo [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) srityje.
 1. Tikrinkite naujinimus.
-1. Įjunkite funkciją pavadinimu **Inžinerijos keitimo valdymas**.
-1. Jei norite ją naudoti, įjunkite ir funkciją, kuri pavadinta **Produkto dimensijos versija**.
+1. Įjunkite funkciją pavadinimu *Inžinerijos keitimo valdymas*.
+1. Jei norite ją naudoti, taip pat įjunkite funkciją, pavadintą *Produkto dimensijos versija*.
 
 Tada įjunkite konfigūracijos raktus atlikdami toliau nurodytus veiksmus.
 
 1. Įdėkite savo sistemą į priežiūros režimą kaip aprašyta [Priežiūros režime](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. Eikite į **Sistemos administravimas \> Sąranka \> Licencijos konfigūracija**.
 1. Išplėskite mazgą **Prekyba**.
-1. Įgalinkite pagrindinės priemonės konfigūracijos raktą pažymėdami žymės **langelį Inžinerijos** keitimo valdymas. (Nebūtina išplėsti mazgo, nebent jūs taip pat norite išjungti vieną ar abi jo anttrines funkcijas.)
-1. Jei norite taip pat naudoti versijos matmenis, tada taip pat pažymėkite žymės langelį **Produkto dimensija – versija**. (Šis žymės langelis yra žemyn sąraše, o ne įdėtas po **„Engineering Change Management“** mazgas.)
+1. Įgalinkite pagrindinės funkcijos konfigūracijos raktą pasirinkdami **Inžinerinių keitimų valdymo** žymės langelį.
+1. Jei reikia, išplėskite **Inžinerinių keitimų mazgą** ir pasirinkite arba išvalykite toliau pateiktus žymės langelius (atsižvelgiant į funkcijas, kurias norite naudoti):
+
+    - **Atributų ieška** – Pasirinkite šį žymės langelį, kad įgalintumėte [atributų ieškos funkciją](engineering-attributes-and-search.md). Rekomenduojame įgalinti šią funkciją, tačiau galite išvalyti šį žymės langelį, jei jos nenaudosite.
+    - **Gamybos procesų valdymo keitimas** – Pasirinkite šį žymės langelį, jei norite naudoti Inžinerinių keitimų valdymo funkcijas, kad valdytumėte gamybos procesų formulių pakeitimus. Jei jums nereikia valdyti formulių, galite išvalyti šį žymės langelį. Daugiau informacijos rasite [Formulių ir jų ingredientų pakeitimų valdymas](manage-formula-changes.md).
+
+1. Jei taip pat norite naudoti versijos dimensiją, tada pasirinkite **Produkto dimensija – Versija** žymės langelį. (Šis žymės langelis yra žemiau sąraše, o ne įdėtas po **Inžinerinių keitimų valdymo** mazgu.)
 1. Išjunkite priežiūros režimą kaip aprašyta [Priežiūros režime](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 
 > [!IMPORTANT]
