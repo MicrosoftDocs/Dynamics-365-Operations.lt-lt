@@ -2,91 +2,69 @@
 title: Dvigubo rašymo sąranka iš „Lifecycle Services“
 description: Šioje temoje paaiškinama, kaip nustatyti dvigubo rašymo ryšį iš „Microsoft Dynamics Lifecycle Services” (LCS).
 author: RamaKrishnamoorthy
-ms.date: 01/06/2020
+ms.date: 05/11/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e51b4ef1e309e5f89dc82a3776b88c505dc6593d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: eb4170ef6cb09c862f6a4163670c519d5d8077fb
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748546"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103574"
 ---
-# <a name="dual-write-setup-from-lifecycle-services"></a><span data-ttu-id="5613e-103">Dvigubo rašymo sąranka iš „Lifecycle Services“</span><span class="sxs-lookup"><span data-stu-id="5613e-103">Dual-write setup from Lifecycle Services</span></span>
+# <a name="dual-write-setup-from-lifecycle-services"></a><span data-ttu-id="f3214-103">Dvigubo rašymo sąranka iš „Lifecycle Services“</span><span class="sxs-lookup"><span data-stu-id="f3214-103">Dual-write setup from Lifecycle Services</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-<span data-ttu-id="5613e-104">Šioje temoje paaiškinama, kaip nustatyti dvigubo rašymo ryšį tarp naujos Finance and Operations aplinkos ir naujos Dataverse aplinkos iš „Microsoft Dynamics Lifecycle Services“ (LCS).</span><span class="sxs-lookup"><span data-stu-id="5613e-104">This topic explains how to set up a dual-write connection between a new Finance and Operations environment and a new Dataverse environment from Microsoft Dynamics Lifecycle Services (LCS).</span></span>
+<span data-ttu-id="f3214-104">Šioje temoje paaiškinama, kaip įgalinti dvigubą rašymą iš „Microsoft Dynamics Lifecycle Services” (LCS).</span><span class="sxs-lookup"><span data-stu-id="f3214-104">This topic explains how to enable dual-write from Microsoft Dynamics Lifecycle Services (LCS).</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="5613e-105">Būtinieji komponentai</span><span class="sxs-lookup"><span data-stu-id="5613e-105">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="f3214-105">Būtinieji komponentai</span><span class="sxs-lookup"><span data-stu-id="f3214-105">Prerequisites</span></span>
 
-<span data-ttu-id="5613e-106">Norėdami nustatyti dvigubo rašymo ryšį, turite turėti administratoriaus statusą.</span><span class="sxs-lookup"><span data-stu-id="5613e-106">You must be an admin to set up a dual-write connection.</span></span>
+<span data-ttu-id="f3214-106">Turite užbaigti „Power Platform” integravimą, kaip aprašyta šiose temose:</span><span class="sxs-lookup"><span data-stu-id="f3214-106">You must complete the Power Platform integration as described in the following topics:</span></span>
 
-+ <span data-ttu-id="5613e-107">Turite turėti prieigos prie nuomotojo teisę.</span><span class="sxs-lookup"><span data-stu-id="5613e-107">You must have access to the tenant.</span></span>
-+ <span data-ttu-id="5613e-108">Turite būti administratorius tiek Finance and Operations, tiek Dataverse aplinkose.</span><span class="sxs-lookup"><span data-stu-id="5613e-108">You must be an admin in both Finance and Operations environments and Dataverse environments.</span></span>
++ [<span data-ttu-id="f3214-107">„Power Platform” Integravimas – Įgalinti aplinkos diegimo metu</span><span class="sxs-lookup"><span data-stu-id="f3214-107">Power Platform Integration - Enable during environment deployment</span></span>](../../power-platform/overview.md#enable-during-environment-deployment)
++ [<span data-ttu-id="f3214-108">„Power Platform” integravimas – Nustatyti po aplinkos diegimo</span><span class="sxs-lookup"><span data-stu-id="f3214-108">Power Platform integration - Set up after environment deployment</span></span>](../../power-platform/overview.md#set-up-after-environment-deployment)
 
-## <a name="set-up-a-dual-write-connection"></a><span data-ttu-id="5613e-109">Dvigubo rašymo ryšio nustatymas</span><span class="sxs-lookup"><span data-stu-id="5613e-109">Set up a dual-write connection</span></span>
+## <a name="set-up-dual-write-for-new-dataverse-environments"></a><span data-ttu-id="f3214-109">Dvigubo rašymo nustatymas naujoms „Dataverse” aplinkoms</span><span class="sxs-lookup"><span data-stu-id="f3214-109">Set up dual-write for new Dataverse environments</span></span>
 
-<span data-ttu-id="5613e-110">Norėdami nustatyti dvigubo rašymo ryšį, atlikite toliau nurodytus veiksmus.</span><span class="sxs-lookup"><span data-stu-id="5613e-110">Follow these steps to set up the dual-write connection.</span></span>
+<span data-ttu-id="f3214-110">Norėdami nustatyti dvigubą rašymą iš LCS **Aplinkos informacijos** puslapio, atlikite šiuos veiksmus:</span><span class="sxs-lookup"><span data-stu-id="f3214-110">Follow these steps to set up dual-write from LCS **Environment Details** page:</span></span>
 
-1. <span data-ttu-id="5613e-111">Nueikite į savo projektą, esantį LCS.</span><span class="sxs-lookup"><span data-stu-id="5613e-111">In LCS, go to your project.</span></span>
-2. <span data-ttu-id="5613e-112">Pasirinkite **Konfigūruoti**, kad įdiegtumėte naują aplinką.</span><span class="sxs-lookup"><span data-stu-id="5613e-112">Select **Configure** to deploy a new environment.</span></span>
-3. <span data-ttu-id="5613e-113">Pasirinkite versiją.</span><span class="sxs-lookup"><span data-stu-id="5613e-113">Select the version.</span></span> 
-4. <span data-ttu-id="5613e-114">Pasirinkite topologiją.</span><span class="sxs-lookup"><span data-stu-id="5613e-114">Select the topology.</span></span> <span data-ttu-id="5613e-115">Jei galima tik viena topologija, ji pasirenkama automatiškai.</span><span class="sxs-lookup"><span data-stu-id="5613e-115">If only one topology is available, it's automatically selected.</span></span>
-5. <span data-ttu-id="5613e-116">Atlikite pirmuosius veiksmus vedlyje **Diegimo parametrai**.</span><span class="sxs-lookup"><span data-stu-id="5613e-116">Complete the first steps in the **Deployment settings** wizard.</span></span>
-6. <span data-ttu-id="5613e-117">Skirtuke **Dataverse** atlikite vieną iš toliau nurodytų veiksmų:</span><span class="sxs-lookup"><span data-stu-id="5613e-117">On the **Dataverse** tab, follow one of these steps:</span></span>
+1. <span data-ttu-id="f3214-111">Puslapyje **Aplinkos informacija** išplėskite skyrių **„Power Platform” Integravimas**.</span><span class="sxs-lookup"><span data-stu-id="f3214-111">On the **Environment Details** page, expand the **Power Platform Integration** section.</span></span>
 
-    - <span data-ttu-id="5613e-118">Jei Dataverse aplinka jau parengta jūsų nuomininkui, ją galite pasirinkti.</span><span class="sxs-lookup"><span data-stu-id="5613e-118">If a Dataverse environment is already provisioned for your tenant, you can select it.</span></span>
+2. <span data-ttu-id="f3214-112">Pasirinkite **Dvigubo rašymo programos** mygtuką.</span><span class="sxs-lookup"><span data-stu-id="f3214-112">Select the **Dual-write application** button.</span></span>
 
-        1. <span data-ttu-id="5613e-119">Parinktį **Konfigūruoti Dataverse** nustatykite į **Taip**.</span><span class="sxs-lookup"><span data-stu-id="5613e-119">Set the **Configure Dataverse** option to **Yes**.</span></span>
-        2. <span data-ttu-id="5613e-120">Stulpelyje **Galimos aplinkos** pasirinkite aplinką, į kurią norite integruoti savo Finance and Operations duomenis.</span><span class="sxs-lookup"><span data-stu-id="5613e-120">In the **Available environments** column, select the environment to integrate with your Finance and Operations data.</span></span> <span data-ttu-id="5613e-121">Į sąrašą įeina visos aplinkos, kuriose turite administratoriaus privilegijas.</span><span class="sxs-lookup"><span data-stu-id="5613e-121">The list includes all environments where you have admin privileges.</span></span>
-        3. <span data-ttu-id="5613e-122">Norėdami nurodyti, kad sutinkate su pateiktomis sąlygomis, pasirinkite žymės langelį **Sutinku**.</span><span class="sxs-lookup"><span data-stu-id="5613e-122">Select the **Agree** check box to indicate that you agree to the terms and conditions.</span></span>
+    ![„Power Platform“ integravimas](media/powerplat_integration_step2.png)
 
-        ![Skirtukas Dataverse, kai aplinka Dataverse parengta jūsų nuomotojui](../dual-write/media/lcs_setup_1.png)
+3. <span data-ttu-id="f3214-114">Peržiūrėkite sąlygas ir nuostatas, o tada pasirinkite **Konfigūruoti**.</span><span class="sxs-lookup"><span data-stu-id="f3214-114">Review the terms and conditions, and then select **Configure**.</span></span>
 
-    - <span data-ttu-id="5613e-124">Jei jūsų nuomotojas dar neturi Dataverse aplinkos, bus parengta nauja aplinka.</span><span class="sxs-lookup"><span data-stu-id="5613e-124">If your tenant doesn't already have a Dataverse environment, a new environment will be provisioned.</span></span>
+4. <span data-ttu-id="f3214-115">Norėdami tęsti pasirinkite **GERAI**.</span><span class="sxs-lookup"><span data-stu-id="f3214-115">Select **OK** to continue.</span></span>
 
-        1. <span data-ttu-id="5613e-125">Parinktį **Konfigūruoti Dataverse** nustatykite į **Taip**.</span><span class="sxs-lookup"><span data-stu-id="5613e-125">Set the **Configure Dataverse** option to **Yes**.</span></span>
-        2. <span data-ttu-id="5613e-126">Įveskite Dataverse aplinkos pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="5613e-126">Enter a name for the Dataverse environment.</span></span>
-        3. <span data-ttu-id="5613e-127">Pasirinkite regioną, kuriame norite įdiegti aplinką.</span><span class="sxs-lookup"><span data-stu-id="5613e-127">Select the region to deploy the environment in.</span></span>
-        4. <span data-ttu-id="5613e-128">Pasirinkite numatytąją aplinkos kalbą ir valiutą.</span><span class="sxs-lookup"><span data-stu-id="5613e-128">Select the default language and currency for the environment.</span></span>
+5. <span data-ttu-id="f3214-116">Eigą galite stebėti periodiškai atnaujindami aplinkos informacijos puslapį.</span><span class="sxs-lookup"><span data-stu-id="f3214-116">You can monitor the progress by periodically refreshing the environment details page.</span></span> <span data-ttu-id="f3214-117">Įprastai nustatymas trunka ne daugiau kaip 30 minučių.</span><span class="sxs-lookup"><span data-stu-id="f3214-117">Setup typically takes 30 minutes or less.</span></span>  
 
-            > [!NOTE]
-            > <span data-ttu-id="5613e-129">Vėliau pakeisti kalbos ir valiutos negalite.</span><span class="sxs-lookup"><span data-stu-id="5613e-129">You can't change the language and currency later.</span></span>
+6. <span data-ttu-id="f3214-118">Užbaigę nustatymą, gausite pranešimą, ar procesas buvo sėkmingas.</span><span class="sxs-lookup"><span data-stu-id="f3214-118">When the setup is complete, a message will inform you if the process was successful or if there was a failure.</span></span> <span data-ttu-id="f3214-119">Jei nustatymas nepavyko, rodomas susijęs klaidos pranešimas.</span><span class="sxs-lookup"><span data-stu-id="f3214-119">If the setup failed, then a related error message is displayed.</span></span> <span data-ttu-id="f3214-120">Prieš pereidami prie kito veiksmo, turite ištaisyti klaidas, jei jų yra.</span><span class="sxs-lookup"><span data-stu-id="f3214-120">You must fix any errors before moving to the next step.</span></span>
 
-        5. <span data-ttu-id="5613e-130">Norėdami nurodyti, kad sutinkate su pateiktomis sąlygomis, pasirinkite žymės langelį **Sutinku**.</span><span class="sxs-lookup"><span data-stu-id="5613e-130">Select the **Agree** check box to indicate that you agree to the terms and conditions.</span></span>
+7. <span data-ttu-id="f3214-121">Pasirinkite **Saitas į „Power Platform” aplinką**, kad sukurtumėte saitą tarp „Dataverse” ir dabartinės aplinkos duomenų bazių.</span><span class="sxs-lookup"><span data-stu-id="f3214-121">Select **Link to Power Platform environment** to create a link between Dataverse and the current environment's databases.</span></span> <span data-ttu-id="f3214-122">Įprastai tai trunka mažiau nei 5 minutes.</span><span class="sxs-lookup"><span data-stu-id="f3214-122">This typically takes less than 5 minutes.</span></span>
 
-        ![Skirtukas Dataverse, kai jūsų nuomotojas dar neturi Dataverse aplinkos](../dual-write/media/lcs_setup_2.png)
+    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Saitas į Power Platform aplinką":::
 
-7. <span data-ttu-id="5613e-132">Atlikite likusius veiksmus vedlyje **Diegimo parametrai**.</span><span class="sxs-lookup"><span data-stu-id="5613e-132">Complete the remaining steps in the **Deployment settings** wizard.</span></span>
-8. <span data-ttu-id="5613e-133">Kai aplinka įgyja statusą **Įdiegta**, atidarykite aplinkos išsamios informacijos puslapį.</span><span class="sxs-lookup"><span data-stu-id="5613e-133">After the environment has a status of **Deployed**, open the environment details page.</span></span> <span data-ttu-id="5613e-134">Skyriuje **Power Platform integravimas** pateikiami susietų Finance and Operations ir Dataverse aplinkų pavadinimai.</span><span class="sxs-lookup"><span data-stu-id="5613e-134">The **Power Platform Integration** section shows the names of the Finance and Operations environment and the Dataverse environment that are linked.</span></span>
+8. <span data-ttu-id="f3214-124">Užbaigus susiejimą, rodomas hipersaitas.</span><span class="sxs-lookup"><span data-stu-id="f3214-124">When the linking is complete, a hyperlink is displayed.</span></span> <span data-ttu-id="f3214-125">Naudokite saitą, kad prisiregistruotumėte prie dvigubo rašymo administravimo srities „Finance and Operations” aplinkoje.</span><span class="sxs-lookup"><span data-stu-id="f3214-125">Use the link to sign in to the dual-write administration area in the Finance and Operations environment.</span></span> <span data-ttu-id="f3214-126">Iš ten galite nustatyti objektų susiejimus.</span><span class="sxs-lookup"><span data-stu-id="f3214-126">From there, you can set up entity mappings.</span></span>
 
-    ![„Power Platform” integravimo skyrius](../dual-write/media/lcs_setup_3.png)
+## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a><span data-ttu-id="f3214-127">Dvigubo rašymo nustatymas esamai „Dataverse” aplinkai</span><span class="sxs-lookup"><span data-stu-id="f3214-127">Set up dual-write for an existing Dataverse environment</span></span>
 
-9. <span data-ttu-id="5613e-136">Finance and Operations aplinkos administratorius turi prisijungti prie LCS ir pasirinkti **Programėlių CDS saitas**, kad susiejimas būtų užbaigtas.</span><span class="sxs-lookup"><span data-stu-id="5613e-136">An admin of the Finance and Operations environment must sign in to LCS and select **Link to CDS for Apps** to complete the link.</span></span> <span data-ttu-id="5613e-137">Aplinkos informacijos puslapyje pateikiama administratoriaus kontaktinė informacija.</span><span class="sxs-lookup"><span data-stu-id="5613e-137">The environment details page shows the admin's contact information.</span></span>
+<span data-ttu-id="f3214-128">Norėdami nustatyti dvigubą rašymą esamai „Dataverse” aplinkai, turite sukurti „Microsoft” [palaikymo kvitą](../../lifecycle-services/lcs-support.md).</span><span class="sxs-lookup"><span data-stu-id="f3214-128">To set up dual-write for an existing Dataverse environment, you must create a Microsoft [support ticket](../../lifecycle-services/lcs-support.md).</span></span> <span data-ttu-id="f3214-129">Į kvitą turi būti įtraukta:</span><span class="sxs-lookup"><span data-stu-id="f3214-129">The ticket must include:</span></span>
 
-    <span data-ttu-id="5613e-138">Susiejimą užbaigus, būsena atnaujinama į **Aplinkos siejimas sėkmingai užbaigtas**.</span><span class="sxs-lookup"><span data-stu-id="5613e-138">After the link is completed, the status is updated to **Environment linking successfully completed**.</span></span>
-
-10. <span data-ttu-id="5613e-139">Norėdami atidaryti aplinkoje Finance and Operations esančią darbo sritį **Duomenų integravimas** ir valdyti pasiekiamus šablonus, pasirinkite **Programėlių CDS saitas**.</span><span class="sxs-lookup"><span data-stu-id="5613e-139">To open the **Data integration** workspace in the Finance and Operations environment and control the templates that are available, select **Link to CDS for Apps**.</span></span>
-
-    ![Mygtukas CDS programoms, esantis Power Platform integravimo skyriuje](../dual-write/media/lcs_setup_4.png)
++ <span data-ttu-id="f3214-130">Jūsų „Finance and Operations” aplinkos ID.</span><span class="sxs-lookup"><span data-stu-id="f3214-130">Your Finance and Operations environment ID.</span></span>
++ <span data-ttu-id="f3214-131">Jūsų aplinkos pavadinimas iš „Lifecycle Services”.</span><span class="sxs-lookup"><span data-stu-id="f3214-131">Your environment name from Lifecycle Services.</span></span>
++ <span data-ttu-id="f3214-132">„Dataverse” organizacijos ID arba „Power Platform” aplinkos ID iš „Power Platform” administravimo centro.</span><span class="sxs-lookup"><span data-stu-id="f3214-132">The Dataverse organization ID or Power Platform Environment ID from Power Platform Admin Center.</span></span> <span data-ttu-id="f3214-133">Savo kvite pateikite užklausą, kad ID būtų egzempliorius, naudotas „Power Platform” integravimui.</span><span class="sxs-lookup"><span data-stu-id="f3214-133">In your ticket, request that the ID be the instance used for Power Platform integration.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="5613e-141">Negalite atsieti aplinkos naudodami LCS.</span><span class="sxs-lookup"><span data-stu-id="5613e-141">You can't unlink environments by using LCS.</span></span> <span data-ttu-id="5613e-142">Norėdami atsieti aplinką, aplinkoje Finance and Operations atidarykite darbo sritį **Duomenų integravimas** ir pasirinkite **Atsieti**.</span><span class="sxs-lookup"><span data-stu-id="5613e-142">To unlink an environment, open the **Data integration** workspace in the Finance and Operations environment, and then select **Unlink**.</span></span>
-
-
+> <span data-ttu-id="f3214-134">Negalite atsieti aplinkos naudodami LCS.</span><span class="sxs-lookup"><span data-stu-id="f3214-134">You can't unlink environments by using LCS.</span></span> <span data-ttu-id="f3214-135">Norėdami atsieti aplinką, aplinkoje Finance and Operations atidarykite darbo sritį **Duomenų integravimas** ir pasirinkite **Atsieti**.</span><span class="sxs-lookup"><span data-stu-id="f3214-135">To unlink an environment, open the **Data integration** workspace in the Finance and Operations environment, and then select **Unlink**.</span></span>
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
