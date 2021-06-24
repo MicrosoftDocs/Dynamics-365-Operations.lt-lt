@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc069743c1b28133540eeab98ae6dd5242a5e887
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0e6be2aeb263c339f4e733b98ea4e01194973a9f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826839"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189789"
 ---
 # <a name="fixed-assets-integration"></a>Ilgalaikio turto integravimas
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826839"
 
 Ilgalaikį turtą galima integruoti į didžiąją knygą, atsargų valdymą, gautinas sumas ir mokėtinos sumas. Taip pat galite nustatyti, kad ilgalaikis turtas būtų integruojamas į pirkimo užsakymus.
 
-<a name="general-ledger"></a>DK
---------------
+## <a name="general-ledger"></a>DK
 
 DK viso ilgalaikio turto vertė paprastai sumuojama keliose pagrindinėse sąskaitose, kurių reikia finansinėse ataskaitose. Tačiau puslapyje **Ilgalaikis turtas** galima sukurti daug ilgalaikio turto įrašų. Šiuose įrašuose gali būti tokia informacija, kaip įsigijimo kaina, nusidėvėjimas ir įvertinimas. Kiekvieną kartą užregistravus ilgalaikio turto operaciją atnaujinamos atitinkamos pagrindinės sąskaitos. Ilgalaikio turto pagrindinėse sąskaitose visada rodoma atnaujinta ilgalaikio turto vertė.
 

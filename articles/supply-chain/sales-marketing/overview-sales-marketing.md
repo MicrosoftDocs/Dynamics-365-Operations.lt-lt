@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4735b51d13a6de9874c10ec82e1e6d9761ce9fcf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 42934a88065da015334455b6c37f57591611360f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810875"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188130"
 ---
 # <a name="sales-and-marketing-overview"></a>Pardavimo ir rinkodaros apžvalga
 
@@ -27,8 +27,7 @@ ms.locfileid: "5810875"
 
 Galite naudoti pardavimą ir rinkodarą norėdami gauti, saugoti ir naudoti įvairių tipų pardavimo srauto duomenis. Šie duomenys apima pradinę pardavimo iniciatyvą, tolesnę sekimo veiklą ir papildomą pardavimą.
 
-<a name="marketing"></a>Rinkodara
----------
+## <a name="marketing"></a>Rinkodara
 
 Rinkodaros kampanijos ir veiklos naudojamos, norint atrasti ir užmegzti ryšius su potencialiais klientais, kad pirminiai santykiai galėtų išsivystyti į pardavimo ryšius. Tolesnis procesų srautas vaizduoja rinkodaros verslo procesą. [![Rinkodaros verslo procesas](./media/marketing01.jpg)](./media/marketing01.jpg)
 

@@ -1,8 +1,8 @@
 ---
 title: Ilgalaikio turto nustatymas
 description: Šioje temoje pateikta modulio Ilgalaikis turtas sąrankos apžvalga.
-author: ShylaThompson
-ms.date: 01/12/2018
+author: moaamer
+ms.date: 06/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,24 +15,20 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff025984307f979ce98947f2225971041ebbdbae
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f624ddc2e7b8f59a2ba002d757ce68ee222a7223
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818541"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216591"
 ---
 # <a name="set-up-fixed-assets"></a>Ilgalaikio turto nustatymas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikta modulio **Ilgalaikis turtas** sąrankos apžvalga.
+Šioje temoje pateikta modulio **Ilgalaikis turtas** sąrankos apžvalga. 
 
-## <a name="overview"></a>Peržiūra
-
-Parametrai valdo bendrą ilgalaikio turto modulio elgseną.
-
-Naudojant ilgalaikio turto grupę galima sugrupuoti turtą ir nurodyti kiekvieno grupei priskirto turto numatytuosius atributus. Knygos priskiriamos ilgalaikio turto grupėmis. Knygose sekama ilgalaikio turto finansinė vertė per tam tikrą laiką naudojant nurodytą nusidėvėjimo šablono nusidėvėjimo konfigūraciją.
+Parametrai valdo bendrą ilgalaikio turto modulio elgseną. Naudojant ilgalaikio turto grupę galima sugrupuoti turtą ir nurodyti kiekvieno grupei priskirto turto numatytuosius atributus. Knygos priskiriamos ilgalaikio turto grupėmis. Knygose sekama ilgalaikio turto finansinė vertė per tam tikrą laiką naudojant nurodytą nusidėvėjimo šablono nusidėvėjimo konfigūraciją.
 
 Ilgalaikis turtas priskiriamas grupei, kai jis sukuriamas. Tada pagal numatytuosius parametrus ilgalaikio turto grupei priskirtos knygos yra priskiriamos ilgalaikiam turtui. Knygos, kurios sukonfigūruotos būti registruojamos DK, yra susiejamos su registravimo šablonu. DK sąskaitos nurodomos kiekvienai knygai registravimo profilyje ir jos yra naudojamos registruojant ilgalaikio turto operacijas.
 
@@ -49,6 +45,8 @@ Nustatę nusidėvėjimo šablonus, turite sukurti reikiamas turto knygas. Kiekvi
 Kiekvienai knygai priskiriamas pirminis nusidėvėjimo šablonas. Jei galima, knygoms taip pat gali būti priskiriamas alternatyvus arba perjungimo nusidėvėjimo šablonas. Norėdami automatiškai įtraukti ilgalaikio turto knygą į nusidėvėjimą, turite įjungti parinktį **Skaičiuoti nusidėvėjimą**. Jei ši turto parinktis neįjungta, nusidėvėjimo pasiūlyme turtas praleidžiamas.
 
 Taip pat galite nustatyti išvestinės knygas. Nurodytos išvestinės operacijos pagal išvestines knygas registruojamos kaip tiksli pirminės operacijos kopija. Todėl paprastai nustatomos ne nusidėvėjimo operacijų, o įsigijimų ir perleidimų išvestinės operacijos. Daugiau informacijos žr. [Nustatyti vertės modelius](tasks/set-up-value-models.md).
+
+Ilgalaikio turto **parametrų puslapyje pasirinkus** galima įjungti arba išjungti blokavimo funkciją. Ši funkcija įjungta **Funkcijų valdymo darbo srityje**.
 
 ## <a name="fixed-asset-posting-profiles"></a>Ilgalaikio turto registravimo šablonai
 
@@ -73,6 +71,8 @@ Paskutinis veiksmas yra atnaujinti ilgalaikio turto parametrus.
 Laukas **Kapitalizacijos ribinė vertė** nurodo, koks turtas nusidėvėjo. Jei pirkimo eilutė pasirenkama kaip ilgalaikis turtas, bet ji neatitinka nurodytos kapitalizacijos ribinės vertės, ilgalaikis turtas vis tiek sukuriamas arba atnaujinamas, bet parinktis **Skaičiuoti nusidėvėjimą** nustatoma į **Ne**. Todėl turtas nebus nusidėvėjęs automatiškai kaip nusidėvėjimo pasiūlymų dalis.
 
 Viena svarbi parinktis vadinama **Automatiškai kurti nusidėvėjimo koregavimo sumas su likvidavimu**. Kai nustatote šią parinktį kaip **Taip**, turto nusidėvėjimas automatiškai koreguojamas pagal turto likvidavimo metu galiojančius nusidėvėjimo parametrus. Taip pat yra galimybė, įsigyjant ilgalaikį turtą naudojant tiekėjo SF, iš įsigijimo sumos atskaityti mokėjimo nuolaidas.
+
+Turto **užrakto knygos nusidėvėjimo žurnalo parametre** leidžia užrakinti turto knygas nusidėvėjimo žurnale. Kai nusidėvėjimo operacijos registruojamos, sistema patikrins, ar ta pati turto knyga nebuvo įtraukta į daugiau nei vieną nusidėvėjimo žurnalą. Jei taip, turto knyga bus užrakinta ir registravimas bus sustabdytas. Jei turto knygos ID yra užrakintame žurnale, jis bus automatiškai atrakintas, kai registravimas bus baigtas pradiniam žurnalui. Taip pat galite atrakinti žurnalą neautomatiniu būdu. 
 
 „FastTab“ **Pirkimo užsakymai** galite konfigūruoti, kaip norite, kad būtų sukurtas jūsų turtas kaip pirkimo proceso dalis. Pirmoji parinktis vadinama **Leisti turto įsigijimą iš pirkimo**. Jei šią parinktį nustatote į **Taip**, turto įsigijimas vykdomas, kai užregistruojama SF. Jei šią parinktį nustatote į **Ne**, vis tiek galite ilgalaikį turtą taikyti pirkimo užsakyme (PU) ir SF, bet įsigijimas nebus registruojamas. Registravimą reikia atlikti kaip atskirą ilgalaikio turto žurnalo veiksmą. Parinktis **Kurti turtą registruojant produkto gavimo kvitą ar sąskaitą faktūrą** suteikia galimybę registruojant iš karto kurti naują turtą. Todėl prieš operaciją turto nereikia nustatyti kaip ilgalaikio turto. Paskutinė pasirinktis **Tikrinti, ar įvedant eilutę kuriamas ilgalaikis turtas** taikoma tik pirkimo paraiškoms.
 

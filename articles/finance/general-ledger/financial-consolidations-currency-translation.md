@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0af952c760a3a2039d3332f73544d0b7c45d7b09
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 87bb31d6456356342773f38699a412aa72ea458e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811366"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193910"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Finansinių konsolidacijų ir valiutos konvertavimo apžvalga
 
@@ -165,7 +165,8 @@ Klientai gali pasinaudoti finansinių ataskaitų privalumais vykdant finansinį 
 - **Supaprastintas valiutos konvertavimas** – atlikę minimalią „Finance“ sąranką, galite konvertuoti bet kurią finansinių ataskaitų ataskaitos valiutą į bet kurią nustatytą ataskaitų valiutą. Be to, galite nustatyti neribotą ataskaitų valiutų skaičių.
 - **Pašalinimų registravimas šaltinyje** – galite kurti ir spausdinti pašalinimo ataskaitą, kad patvirtintumėte pašalinimo operacijas. Tada galite registruoti bet kokius naujus pašalinimus kaip įprastines vidinės įmonės operacijas. Taip pat pašalinimo juridinį subjektą galite naudoti bet kurioje operacijoje, kurios nenorite taikyti savo juridiniams subjektams.
 
-## <a name="supported-consolidation-scenarios"></a>Palaikomi konsolidavimo scenarijai
+## <a name="supported-consolidation-scenarios-for-financial-reporting"></a>Palaikomi finansinių ataskaitų konsolidavimo scenarijai
+
 Toliau pateikti keli konsolidavimo scenarijai, palaikomi finansinėse ataskaitose.
 
 - Vieno lygio ir kelių lygių konsolidavimas keliuose juridiniuose subjektuose

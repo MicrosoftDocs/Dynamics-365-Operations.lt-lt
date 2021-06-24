@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41f863d85a1ad52d8fa11a458054728728858d27
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 87ab65469ec4a8154267b88fe45481b65ade5e7a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027799"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189183"
 ---
 # <a name="three-way-matching-policies"></a>Trišalės atitikimo strategijos
 
@@ -28,8 +28,7 @@ ms.locfileid: "6027799"
 
 Šioje temoje pateikiami trišalio atitikimo pavyzdžiai.
 
-<a name="example-three-way-matching-for-items"></a>Pavyzdys: trišalis prekių atitikimas
--------------------------------------
+## <a name="example-three-way-matching-for-items"></a>Pavyzdys: trišalis prekių atitikimas
 
 **Suvestinė:** Ken yra valdytojas juridinio subjekto, kurio pavadinimas yra „Fabrikam“, įmonės būstinėje. Ken nusprendžia, kad visos pirkimo užsakymais pagrįstos tiekėjo SF turi atitikti pirkimo užsakymo eilutes (dvišalis atitikimas). Už įsigytas prekes, kurios bus naudojamos kaip ilgalaikis turtas, sąskaita faktūra turi atitikti pirkimo užsakymo eilutes ir produkto gavimo kvito eilutes (trišalis atitikimas).
 

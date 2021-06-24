@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2015405f3c7f89ba36f811ca125f3a73bc13c38
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 470b4fa1c8b15ae4a9e9ebef81af9e4ca107422d
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753269"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6223991"
 ---
 # <a name="electronic-reporting-formula-language"></a>Modulio Elektroninės ataskaitos formulių kalba
 
@@ -38,13 +38,13 @@ ER išraiškos gali turėti bet kurį arba visus iš šių elementų:
 - [Keliai](#Paths)
 - [Funkcijos](#Functions)
 
-## <a name=""></a><a name="Constants">Konstantos</a>
+## <a name="constants"></a><a name="Constants"></a>Konstantos
 
 Kurdami išraiškas galite naudoti tekstines ir skaitines konstantas (t. y., reikšmes, kurios nėra apskaičiuojamos). Pavyzdžiui, reiškinyje `VALUE ("100") + 20` naudojama skaitinė konstanta **20** ir eilutės konstanta **100** bei pateikiama skaitinė reikšmė **120**.
 
 ER formulių dizaino įrankis palaiko kaitos sekas. Todėl galite nurodyti, kurią išraiškos eilutę reikėtų tvarkyti kitaip. Pavyzdžiui, reiškinys `"Leo Tolstoy ""War and Peace"" Volume 1"` pateikia teksto eilutę **Leo Tolstoy "War and Peace" Volume 1**.
 
-## <a name=""></a><a name="Operators">Operatoriai</a>
+## <a name="operators"></a><a name="Operators"></a>Operatoriai
 
 Toliau pateikiamoje lentelėje parodyti aritmetiniai operatoriai, kuriais galite atlikti pagrindines matematikos operacijas, pvz., sudėtį, atimtį, daugybą ir dalybą.
 
@@ -88,9 +88,9 @@ Tvarka, kuria vertinamos sudėtinės išraiškos dalys, yra svarbi. Pavyzdžiui,
 
 Jei išraiškoje iš eilės yra keli operatoriai, turintys tokią pačią pirmenybę, operacijos vertinamos iš kairės į dešinę. Pavyzdžiui, reiškinys `1 + 6 / 2 \* 3 > 5` pateikia reikšmę **true**. Aiškiai nurodyti norimą išraiškų vertinimo tvarką rekomenduojame naudojant skliaustus, kad išraiškas būtų lengviau skaityti ir tvarkyti.
 
-## <a name=""></a><a name="References">Nuorodos</a>
+## <a name="references"></a><a name="References"></a>Nuorodos
 
-Visi dabartinio ER komponento duomenų šaltiniai, kurie yra pasiekiami kuriant išraišką, gali būti naudojami kaip įvardytosios nuorodos. Dabartinis ER komponentas gali būti modelio susiejimas arba formatas. Pavyzdžiui, dabartiniame ER modelio susiejime yra duomenų šaltinis **ReportingDate**, kuris pateikia duomenų tipo *DateTime* reikšmę. Norint, kad reikšmė generuojamame dokumente būtų pateikiama teisingai suformatuota, reiškinyje duomenų šaltinį galima nurodyti tokį: `DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`.
+Visi dabartinio ER komponento duomenų šaltiniai, kurie yra pasiekiami kuriant išraišką, gali būti naudojami kaip įvardytosios nuorodos. Dabartinis ER komponentas gali būti modelio susiejimas arba formatas. Pavyzdžiui, dabartiniame ER modelio susiejime yra duomenų šaltinis **Ataskaitos data** kuris pateikia duomenų tipo [*DataLaikas*](er-formula-supported-data-types-primitive.md#datetime) reikšmę. Norint, kad reikšmė generuojamame dokumente būtų pateikiama teisingai suformatuota, reiškinyje duomenų šaltinį galima nurodyti tokį: `DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`.
 
 Prieš visus nuorodos duomenų šaltinio pavadinime esančius simbolius, kurie nėra abėcėlės raidė, turi būti padėtas viengubos kabutės ženklas ('). Jei nuorodos duomenų šaltinio pavadinime yra bent vienas simbolis, kuris nėra abėcėlės raidė, pavadinimas turi būti išskiriamas viengubomis kabutėmis. Pavyzdžiui, šie neabėcėliniai simboliai gali būti skyrybos ženklai arba kiti rašytiniai simboliai. Štai keletas pavyzdžių:
 
@@ -99,7 +99,7 @@ Prieš visus nuorodos duomenų šaltinio pavadinime esančius simbolius, kurie n
 
 Jei programos duomenų šaltinių metodai turi parametrų, šie metodai iškviečiami naudojant toliau pateiktą sintaksę.
 
-- Jei duomenų šaltinio **Sistema** metodas **isLanguageRTL** turi duomenų tipo *Eilutė* parametrą **EN-US**, šis metodas ER reiškinyje turi būti nurodytas kaip `System.isLanguageRTL("EN-US")`.
+- Jei **isLanguageRTL** metodas pagal **Sistemos** duomenų šaltinį turi **EN-US** parametrą [*Eilutė*](er-formula-supported-data-types-primitive.md#string) duomenų tipą, šis metodas bus nukreipiamas į ER išraišką kaip `System.isLanguageRTL("EN-US")`.
 - Kai metodo pavadinimą sudaro tik raidiniai ir skaitiniai simboliai, kabutės neprivalomos. Tačiau jos būtinos lentelės metodo atveju, jei pavadinime yra skliaustai.
 
 Į ER susiejimą, kuris nurodo programos klasę **Visuotinė**, įtraukus duomenų šaltinį **Sistema**, reiškinys `System.isLanguageRTL("EN-US ")` pateikia *Bulio logikos* reikšmę **FALSE**. Modifikuotas reiškinys `System.isLanguageRTL("AR")` pateikia *Bulio logikos* reikšmę **TRUE**.
@@ -107,9 +107,9 @@ Jei programos duomenų šaltinių metodai turi parametrų, šie metodai iškvie�
 Galite riboti tai, kaip reikšmės perduodamos šio tipo metodo parametrams.
 
 - Šio tipo metodams galima perduoti tik konstantas. Konstantų reikšmės apibrėžiamos kūrimo metu.
-- Tokie parametrai palaiko tik nesudėtingus (pagrindinius) duomenų tipus. Nesudėtingi duomenų tipai yra *Sveikasis skaičius*, *Realusis skaičius*, *Bulio logika* ir *Eilutė*.
+- Tik [primityvūs](er-formula-supported-data-types-primitive.md) parametrai palaiko tik nesudėtingus (pagrindinius) duomenų tipus. Nesudėtingi duomenų tipai yra *Sveikasis skaičius*, *Realusis skaičius*, *Bulio logika* ir *Eilutė*.
 
-## <a name=""></a><a name="Paths">Keliai</a>
+## <a name="paths"></a><a name="Paths"></a>Keliai
 
 Kai išraiška nurodo susistemintų duomenų šaltinį, galite naudoti kelio aprašą, kad pasirinktumėte konkretų nesudėtingą duomenų šaltinio elementą. Taško simbolis (.) naudojamas atskiriant atskirus susistemintų duomenų šaltinio elementus. Pavyzdžiui, dabartiniame ER modelio susiejime yra duomenų šaltinis **InvoiceTransactions**, kuris pateikia įrašų sąrašą. **InvoiceTransactions** įrašo struktūroje yra laukai **AmountDebit** ir **AmountCredit**, kurie abu pateikia skaitines reikšmes. Todėl SF sumai skaičiuoti galite sukurti tokį reiškinį: `InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit`. Šio reiškinio konstrukcija `InvoiceTransactions.AmountDebit` yra kelias, kurį naudojant pasiekiamas tipo *Įrašų sąrašas* duomenų šaltinio **InvoiceTransactions** laukas **AmountDebit**.
 
@@ -129,7 +129,7 @@ Likusi absoliučiojo kelio dalis taip pat rodoma [ER formulių rengyklėje](gene
 
 Daugiau informacijos žr. [Santykinio kelio naudojimas ER modelių ir formatų duomenų sąsajose](relative-path-data-bindings-er-models-format.md).
 
-## <a name=""></a><a name="Functions">Funkcijos</a>
+## <a name="functions"></a><a name="Functions"></a>Funkcijos
 
 ER reiškiniuose galima naudoti integruotąsias ER funkcijas. Visi reiškinio konteksto (tai yra, esamo ER modelio susiejimo arba ER formato) duomenų šaltiniai pagal iškvietimo funkcijų argumentų sąrašą gali būti naudojami kaip iškvietimo funkcijų parametrai. Kaip iškvietimo funkcijos parametrus taip pat galima naudoti konstantas. Pavyzdžiui, dabartiniame ER modelio susiejime yra duomenų šaltinis **InvoiceTransactions**, kuris pateikia įrašų sąrašą. **InvoiceTransactions** įrašo struktūroje yra laukai **AmountDebit** ir **AmountCredit**, kurie abu pateikia skaitines reikšmes. Todėl, kad apskaičiuotumėte SF sumą, galite sukurti tokį reiškinį, kuris naudoja integruotąją ER apvalinimo funkciją: `ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)`.
 
@@ -173,5 +173,8 @@ IF(COUNT (IntrastatTotals)=0, 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded
 
 [Elektroninių ataskaitų funkcijų sąrašo išplėtimas](general-electronic-reporting-formulas-list-extension.md)
 
+[Palaikomų primityvių duomenų tipai](er-formula-supported-data-types-primitive.md)
+
+[Palaikomi sudedamųjų duomenų tipai](er-formula-supported-data-types-composite.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

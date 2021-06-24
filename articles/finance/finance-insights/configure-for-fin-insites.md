@@ -1,8 +1,8 @@
 ---
-title: Modulio „Finance Insights” konfigūracija (peržiūros versija)
-description: Šioje temoje paaiškinami konfigūravimo veiksmai, kuriuos jums atlikus sistema galės naudotis modulio „Finance Insights” galimybėmis.
+title: „Finance Insights” konfigūracija - versijos iki 10.0.19
+description: Šioje temoje paaiškinami konfigūravimo veiksmai, kuriuos jums atlikus sistema galės naudotis modulio „Finance Insights” galimybėmis versijoms iki 10.0.19.
 author: ShivamPandey-msft
-ms.date: 11/25/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 60e4d69157d7b73bd9e47310adae320687230080
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 6ad06bb6d041fc060b3a99538f6d4d0af333180f
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941231"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186425"
 ---
 # <a name="configuration-for-finance-insights-preview"></a>Modulio „Finance Insights” konfigūracija (peržiūros versija)
 
@@ -30,6 +30,9 @@ ms.locfileid: "5941231"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
+> [!NOTE]
+> Šios „Finance insights“ nustatymo procedūros galioja iki „Microsoft Dynamics 365 Finance“ 10.0.19 versijoms iki 10.0.19. Norėdami nustatyti „Finance insights“ apie 10.0.20 ir vėlesnę versiją,[žr. „Finance Insights“ konfigūracijos (peržiūra) – 10.0.20 ir vėlesnės versijos](configure-for-fin-insites-PubPrvw.md).
+
 Modulyje „Finance Insights” sujungiamos „Microsoft Dynamics 365 Finance“ ir „Microsoft Dataverse“, „Azure“ bei „AI Builder“ funkcijos, kad jūsų organizacijai būtų suteikiami galingi prognozavimo įrankiai. Šioje temoje paaiškinami konfigūravimo veiksmai, kuriuos jums atlikus sistema galės naudotis modulio „Finance Insights” galimybėmis.
 
 ## <a name="deploy-dynamics-365-finance"></a>„Dynamics 365 Finance“ diegimas
@@ -38,7 +41,7 @@ Aplinkas galite įdiegti atlikdami toliau pateikiamus veiksmus.
 
 1. Portale „Microsoft Dynamics Lifecycle Services“ (LCS) sukurkite arba atnaujinkite „Dynamics 365 Finance“ aplinką. Aplinkai reikalinga programos 10.0.11 versija / 35 arba naujesnis platformos atnaujinimas.
 2. Aplinka turi būti didelio pasiekiamumo (HA) smėlio dėžės aplinka. (Šis aplinkos tipas dar vadinamas 2 pakopos aplinka.) Norėdami gauti daugiau informacijos, žr. [Aplinkos planavimas](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
-3. Jeigu naudojate „Contoso” demonstracinius duomenis, jums reikės papildomų duomenų pavyzdžių, kad galėtumėte naudoti kliento mokėjimo prognozių, grynųjų pinigų srautų prognozių ir biudžeto prognozių funkcijas. 
+3. Jei konfigūruojate „Finance Insights“ smėlio dėžės aplinkoje, jums gali tekti nukopijuoti gamybos duomenis į tą aplinką numatymams dirbti. Numatymo modelis naudoja kelių metų duomenis numatymams sukurti. „Contoso“ demonstruojamuose duomenyse nėra pakankamai praeities duomenų, kad būtų galima nuspėti numatymo modelį. 
 
 ## <a name="configure-dataverse"></a>Konfigūruoti „Dataverse“
 

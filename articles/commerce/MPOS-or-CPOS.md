@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 84ee7c82fa6aaa819798f4bc052b12b06a51c025
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f19506d66aef22099dae9396fd345c293bf559b7
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796515"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193076"
 ---
 # <a name="choose-between-modern-pos-mpos-and-cloud-pos"></a>Pasirinkite „Modern POS“ (MPOS) arba „Cloud POS“
 
@@ -57,7 +57,7 @@ Nors MPOS ir CPOS iš esmės yra tas pats, yra keletas svarbių skirtumų, kuriu
 MPOS „Windows“, „iOS“ arba „Android“ įrenginyje yra programa, kuri yra sukomplektuota, įdiegta ir prižiūrima tame įrenginyje.
 
 - **„Windows“**. MPOS programoje, skirtoje „Windows“, yra visas programos kodas ir įdėtoji „Commerce Runtime“ (CRT). 
-- **iOS/Android** Šiose platformose programa veikia kaip CPOS programos kodo pagrindinis kompiuteris. Kitaip tariant, programos kodas ateina iš CPOS serverio, esančio „Microsoft Azure“ arba „Commerce Scale Unit“. Norėdami gauti daugiau informacijos, žr. [„Commerce Scale Unit“ apžvalga](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
+- **iOS/Android** Šiose platformose programa veikia kaip CPOS programos kodo pagrindinis kompiuteris. Kitaip tariant, programos kodas ateina iš CPOS serverio, esančio „Microsoft Azure“ arba „Commerce Scale Unit“. Norėdami gauti daugiau informacijos, žr. [„Commerce Scale Unit“ apžvalga](dev-itpro/retail-store-system-begin.md).
 
 #### <a name="cpos"></a>CPOS
 
@@ -79,11 +79,11 @@ Be platformos ir formos koeficiento, mažmenininkai taip pat turi pasirinkti die
 
 #### <a name="offline-mode"></a>Atjungties režimas
 
-MPOS, skirtas „Windows“, palaiko atjungties režimą. Neprisijungus, EKA gali ir toliau tvarkyti pardavimus, net jei jis yra atjungtas nuo „Commerce Scale Unit“. Atkūrus ryšį, jį galima sinchronizuoti su kanalo duomenų baze. MPOS naudoja savo įdėtąjį CRT egzempliorių ir laikinai naudoja savo vietinį duomenų šaltinį (ne tinkle esančią „SQL Server“ duomenų bazę). Daugiau informacijos apie atjungties režimo funkcijas žr. [EKA atjungties režimo funkcijos](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-offline-functionality).
+MPOS, skirtas „Windows“, palaiko atjungties režimą. Neprisijungus, EKA gali ir toliau tvarkyti pardavimus, net jei jis yra atjungtas nuo „Commerce Scale Unit“. Atkūrus ryšį, jį galima sinchronizuoti su kanalo duomenų baze. MPOS naudoja savo įdėtąjį CRT egzempliorių ir laikinai naudoja savo vietinį duomenų šaltinį (ne tinkle esančią „SQL Server“ duomenų bazę). Daugiau informacijos apie atjungties režimo funkcijas žr. [EKA atjungties režimo funkcijos](pos-offline-functionality.md).
 
 ### <a name="pos-peripheralhardware-considerations"></a>EKA periferinės (aparatinės) įrangos aspektai
 
-Mažmenininkai taip pat turi apsvarstyti, kaip EKA pasieks įrenginius ir periferinius įrenginius, pvz., spausdintuvus, kasos stalčius ir mokėjimo terminalus. Tik MPOS, skirtas „Windows“, palaiko tiesioginį ryšį su šiais įrenginiais. MPOS, skirtas „Windows Phone“, „iOS“ arba „Android“, ir „Cloud POS“ reikia aparatūros stoties, kad galėtų gauti prieigą prie šių įrenginių. Aparatūros stotys gali būti skirtos EKA kasos aparatui arba bendrai naudojamos parduotuvės kasos aparatų. Išsamesnės informacijos apie aparatūros stotis žr. [„Retail“ aparatūros stoties konfigūracija ir diegimas](https://docs.microsoft.com/dynamics365/unified-operations/retail/retail-hardware-station-configuration-installation).
+Mažmenininkai taip pat turi apsvarstyti, kaip EKA pasieks įrenginius ir periferinius įrenginius, pvz., spausdintuvus, kasos stalčius ir mokėjimo terminalus. Tik MPOS, skirtas „Windows“, palaiko tiesioginį ryšį su šiais įrenginiais. MPOS, skirtas „Windows Phone“, „iOS“ arba „Android“, ir „Cloud POS“ reikia aparatūros stoties, kad galėtų gauti prieigą prie šių įrenginių. Aparatūros stotys gali būti skirtos EKA kasos aparatui arba bendrai naudojamos parduotuvės kasos aparatų. Išsamesnės informacijos apie aparatūros stotis žr. [„Retail“ aparatūros stoties konfigūracija ir diegimas](retail-hardware-station-configuration-installation.md).
 
 ## <a name="implementation-considerations"></a>Diegimo aplinkybės
 
@@ -100,7 +100,7 @@ Planuodami EKA diegimą parduotuvėse, atsižvelkite į toliau nurodytą informa
     Šios dvi galimybės nėra nesuderinamos. Siekdami patikimiausios topologijos, mažmenininkai gali įdiegti vietinį RSSU, kad sumažintų priklausomybę nuo interneto ryšio arba „Azure“ prieinamumo. Jie taip pat gali įdiegti EKA kasos aparatus, kuriuose įgalintas atjungties režimas, jeigu kiltų vietinio serverio ar tinklo problema.
 
 - **Aparatūros įrenginiai arba išoriniai įrenginiai**. Vienas svarbus „Retail POS“ sistemos aspektas yra jos galimybė naudoti EKA periferinius įrenginius, pvz., spausdintuvus, kasos stalčius ir mokėjimo terminalus. Nors visi galimi EKA variantai naudoja periferinius įrenginius, tik MPOS, skirtas „Windows“, palaiko juos tiesiogiai. Naudojant visas kitas programas, būtina viena arba daugiau aparatūros stočių. Nors šis metodas padidina lankstumą, būtina įdiegti, sukonfigūruoti ir prižiūrėti papildomus komponentus.
-- **Sistemos reikalavimai**. EKA programos sistemos reikalavimai skiriasi. Prieš priimdami sprendimą, būtinai patikrinkite naujausią informaciją. Pavyzdžiui, kadangi CPOS veikia naršyklėje, jis palaiko daugiau operacinių sistemų. Daugiau informacijos apie sistemos reikalavimus žr. [Sistemos reikalavimai įdiegtims debesyje](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/system-requirements).
+- **Sistemos reikalavimai**. EKA programos sistemos reikalavimai skiriasi. Prieš priimdami sprendimą, būtinai patikrinkite naujausią informaciją. Pavyzdžiui, kadangi CPOS veikia naršyklėje, jis palaiko daugiau operacinių sistemų. Daugiau informacijos apie sistemos reikalavimus žr. [Sistemos reikalavimai įdiegtims debesyje](../fin-ops-core/fin-ops/get-started/system-requirements.md).
 - **Diegimas ir priežiūra**. Diegimo ir priežiūros reikalavimų sudėtingumas gali skirtis, atsižvelgiant į programos ir diegimo pasirinkimus. Pavyzdžiui, diegiant debesies CPOS nereikia įdiegti ir atnaujinti kiekviename įrenginyje. Todėl šis metodas labai sumažina sudėtingumą ir išlaidas. Tačiau jei diegiate MPOS kiekviename kasos aparate ir įgalinate atjungties režimą bei taip pat diegiate bendrai naudojamas aparatūros stotis, gerokai padidinate galinių punktų, kuriuos reikia valdyti, skaičių.
 
 

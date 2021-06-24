@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7d322d0a59c2d1fe7be98b97bf25c6db8dec2d6e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e57e97847c6aa7a775b0f2639dff93f1e3a9e7a2
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815361"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189378"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>PVM skaičiavimo metodas lauke Kilmė
 
@@ -52,8 +52,7 @@ Jei grynoji suma yra 10,00, tada 1 MUITO MOKESTIS yra 1,00 (10,00 x 10 %) o 2 MU
 | Vienai operacijai gali būti naudojamas tik vienas mokesčio kodas su kilme = bendros sumos procentas. Jei operacijai naudojamas daugiau nei vienas toks mokesčio kodas, bus rodomas klaidos pranešimas, informuojantis, kad negalima apskaičiuoti PVM. |
 
 
-<a name="percentage-of-sales-tax"></a>PVM procentas
------------------------
+## <a name="percentage-of-sales-tax"></a>PVM procentas
 
 Kai lauke Kilmė pasirenkate PVM procentą, PVM yra apskaičiuojamas kaip PVM lauke, dalyje PVM, pasirinkto PVM procentas. Pirmiausia yra apskaičiuojamas PVM, pasirinktas PVM lauke, dalyje PVM. Tada skaičiuojamas antras PVM pagal pirmą PVM sumą.
 ### <a name="example"></a>Pavyzdys
@@ -119,8 +118,7 @@ Dokumento / žurnalo parametras Sumos, įskaitant PVM = Ne Operacijos eilutės s
 
 
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [PVM tarifai pagal bazinę ribą ir skaičiavimo metodus](marginal-base-field.md)
 

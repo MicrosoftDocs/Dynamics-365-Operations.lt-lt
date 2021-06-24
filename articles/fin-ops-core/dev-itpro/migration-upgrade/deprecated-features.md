@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11528560ecabb848f2703d11c0a705b2a25d7614
-ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
+ms.openlocfilehash: f6a2bf4b15a067fd98059ecc41dfd62e4a91862e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6112626"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193571"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
 
@@ -92,13 +92,13 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | **Pakeitė kita funkcija?**   | Ne |
 | **Paveiktos produkto sritys**         | Italijos lokalizavimas |
 | **Visuotinio diegimo parinktis**              | Visos |
-| **Būsena**                         | Nebenaudojama: iki 2020 m. spalio 1 d. planuojame nebepalaikyti **juodojo sąrašo ataskaitos (IT) – funkcijos nuoroda IT-00001**. |
+| **Būsena**                         | Nebenaudojama: iki 2020 m. spalio 1 d. planuojame nebepalaikyti šios ataskaitos. |
 
 ### <a name="domestic-tax-report--feature-reference-it-00003"></a>Vietinių mokesčių ataskaita – funkcijos nuoroda IT-00003
 
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Nėra teisiškai reikalaujama. |
+| **Nerekomendavimo / pašalinimo priežastis** | Nėra teisiškai reikalaujama. |
 | **Pakeitė kita funkcija?**   | Ne |
 | **Paveiktos produkto sritys**         | Italijos lokalizavimas |
 | **Visuotinio diegimo parinktis**              | Visos |
@@ -362,9 +362,19 @@ Funkcija, skirta naujiems pelno mokesčio registrų šablonams kurti. Ši funkci
 | **Nebenaudojimo / pašalinimo priežastis** | Funkcija nesuderinama su „Finance and Operations“ išplėtimo modeliu. |
 | **Pakeitė kita funkcija?**   | nr. |
 | **Paveiktos produkto sritys**         | Mokestis |
-| **Visuotinio diegimo parinktis**              | Visi / Viskas |
+| **Visuotinio diegimo parinktis**              | Visos |
 | **Būsena**                         | Pašalinta pradedant nuo „Finance and Operations“ 8.1 versijos su 20 platformos naujiniu. |
 
+### <a name="payroll-and-human-resources-for-russia"></a>Rusijos atlyginimų ir personalo valdymas
+Rusijos šaliai skirtas modulis, skirtas darbuotojų administravimo informacijai valdyti, darbuotojų tabelio informacijai, atlyginimų apskaitai ir mokėjimo išrašų sukūrimui. 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo / pašalinimo priežastis** | Algalapis neįtrauktas į „Dynamics 365“ visuotinį strateginį židinį. Partneriai ir ISV – tai geriausia vieta, kad būtų galima teikti algalapio funkcijas, atitinkančias vietinius nuostatus ir mokesčių atnaujinimus.|
+| **Pakeitė kita funkcija?**   | nr.|
+| **Paveiktos produkto sritys**         | Rusijos atlyginimų ir personalo išteklių valdymas |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Nebenaudojama: tikslinis funkcijos pašalinimo laikotarpis yra 10.0 versija ir ateities naujinimai. |
 
 ## <a name="finance-and-operations-80-with-platform-update-15"></a>„Finance and Operations 8.0“ su „Platform Update 15“
 Iš šio leidimo nebuvo pašalintos jokios funkcijos ir visos jos yra tebenaudojamos. 15 platformos naujinimas yra kaupiamasis ir jame pateikiamos naujos arba pakeistos 13 platformos naujinimo, 14 platformos naujinimo ir 15 platformos naujinimo funkcijos.

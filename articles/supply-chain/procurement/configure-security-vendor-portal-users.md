@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8539837adc5c5e775d073f142f00afc9f14de669
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c2b95d386dd12bb1cb3577c3820b0be82d28df8e
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807853"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188493"
 ---
 # <a name="vendor-portal-user-security"></a>Tiekėjo portalo vartotojų sauga
 
@@ -40,8 +40,7 @@ Prieš kurdami asmens, kuris naudos tiekėjo portalą, vartotojo paskyrą, turit
 
 Jei asmeniui reikia suteikti tiekėjo portalo prieigą prie kelių tiekėjų paskyrų (pvz., skirtingų juridinių subjektų), visos to asmens vartotojo paskyros turi būti susietos su tuo pačiu užregistruotu kontaktiniu asmenimi. Vaidmuo **Tiekėjas (išorinis)** apima visas pagrindines galimybes, kurių reikia norint naudoti tiekėjo portale pateikiamas funkcijas. Ši sąranka padeda užtikrinti, kad vartotojo sąsaja, kurią išorinis vartotojas mato, atitiktų tik numatomą scenarijų.
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Bendradarbiavimas su tiekėjais naudojant tiekėjo portalą](collaborate-vendors-vendor-portal.md)
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: b52a1720077c055d416f04cbbe9ec46cbcf319bc
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 808080d9e84c4af1b061d5a4ce76d5fa309e66f7
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020416"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216748"
 ---
 # <a name="rebate-management-posting-setup"></a>Grąžinimų valdymo registravimo sąranka
 
@@ -43,7 +43,7 @@ Likusiuose šios temos skyriuose aprašoma, kaip naudoti galimus laukus kuriant 
 | Aprašas | Įveskite šablono aprašymą. |
 | Modulis | Pasirinkite su šablonu susietų mokesčių ir autorinių honorarų tipą (*Klientas* arba *Tiekėjas*). |
 | Tipas | Pasirinkite šablono tipą (*Grąžinimas* arba *Autorinis honoraras*). |
-| Mokėjimo tipas | <p>Šiame lauke nustatomas užregistruoto grąžinimo išeigos formatas.<p><p>Kai laukas **Tipas** nustatytas į *Grąžinimas*, galimos šios vertės:</p><ul><li>*Nėra* – numatytojo registravimo tipo nėra. Todėl atlikdami apdorojimą turite nurodyti tipą.</li><li>*Mokėti naudojant mokėtinas sumas* – kai registruojate grąžinimą, sukuriama tiekėjo sąskaita faktūra pavedimo tiekėjui, kuri nustatoma kuriant grąžinimo klientą.</li><li>*Kliento atskaitymai* – kai registruojate grąžinimą, sukuriamas kliento atskaitymų žurnalas, skirtas grąžinimo klientui.</li><li>*Mokesčių sąskaita faktūra kliento atskaitymams* – kai registruojate grąžinimą, sukuriama laisvos formos sąskaita faktūra, skirta grąžinimo klientui.</li><li>*Prekybos išlaidos* – kai registruojate grąžinimą, sukuriamas kliento atskaitymų žurnalas, skirtas grąžinimo klientui.</li><li>*Ataskaitos* – kai registruojate grąžinimą, sukuriamas kliento atskaitymų žurnalas, skirtas grąžinimo klientui.</li></ul><p>Kai laukas **Tipas** nustatytas į *Autorinis honoraras*, galimos šios vertės:</p><ul><li>*Nėra* – numatytojo registravimo tipo nėra. Todėl atlikdami apdorojimą turite nurodyti tipą.</li><li>*Mokėti naudojant mokėtinas sumas* – kai registruojate grąžinimą, sukuriama tiekėjo sąskaita faktūra grąžinimo tiekėjo sąskaitai.</li><li>*Ataskaitos* – kai registruojate grąžinimą, sukuriama tiekėjo sąskaita faktūra grąžinimo tiekėjo sąskaitai.</li></ul><p>Daugiau informacijos rasite sekančiame skyriuje [Mokėjimo tipai](#payment-types). |
+| Mokėjimo tipas | <p>Šiame lauke nustatomas užregistruoto grąžinimo išeigos formatas.<p><p>Kai laukas **Tipas** nustatytas į *Grąžinimas*, galimos šios vertės:</p><ul><li>*Mokėti naudojant mokėtinas sumas* – kai klientas registruoja grąžinimą, sukuriama tiekėjo sąskaita faktūra pavedimo tiekėjui, kuri nustatoma kuriant grąžinimo klientą. Ataskaitos – kai tiekėjas registruoja grąžinimą, sukuriama tiekėjo sąskaita faktūra grąžinimo tiekėjo sąskaitai.</li><li>*Kliento atskaitymai* – kai registruojate grąžinimą, sukuriamas kliento atskaitymų žurnalas, skirtas grąžinimo klientui.</li><li>*Mokesčių sąskaita faktūra kliento atskaitymams* – kai registruojate grąžinimą, sukuriama laisvos formos sąskaita faktūra, skirta grąžinimo klientui.</li><li>*Prekybos išlaidos* – kai registruojate grąžinimą, sukuriamas kliento atskaitymų žurnalas, skirtas grąžinimo klientui.</li><li>*Ataskaitos* – kai registruojate grąžinimą, sukuriamas kliento atskaitymų žurnalas, skirtas grąžinimo klientui.</li></ul><p>Kai laukas **Tipas** nustatytas į *Autorinis honoraras*, galimos šios vertės:</p><ul><li>*Mokėti naudojant mokėtinas sumas* – kai registruojate grąžinimą, sukuriama tiekėjo sąskaita faktūra grąžinimo tiekėjo sąskaitai.</li><li>*Ataskaitos* – kai registruojate grąžinimą, sukuriama tiekėjo sąskaita faktūra grąžinimo tiekėjo sąskaitai.</li></ul><p>Daugiau informacijos rasite sekančiame skyriuje [Mokėjimo tipai](#payment-types). |
 | Įmonė | Pasirinkite įmonę (juridinį subjektą), kurioje bus kaupiamos nuostatos ir kuriai bus apmokami pareikalavimai. |
 
 ### <a name="payment-types"></a>Mokėjimo tipai

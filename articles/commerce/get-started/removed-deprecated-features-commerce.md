@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 5544fefbbf0dfc012e868b672f80cc2be30fe7ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f80d1509c7c363e93b83cb47c1b93ab00bf67180
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020867"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193473"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Pašalintos arba nebenaudojamos „Dynamics 365 Commerce“ funkcijos
 
@@ -37,7 +37,7 @@ ms.locfileid: "6020867"
 
 ### <a name="full-dataset-generation-interval-is-deprecated"></a>Visas duomenų rinkinio kūrimo intervalas nebegalioja
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo/pašalinimo priežastis** | Pradėdami šiame leidime, **„Commerce“ grafiko kūrimo parametrai** formoje „Dynamics 365“ būstinėje, laukelis **Visas duomenų rinkinio kūrimo intervalas dienomis** nebegalios. Taip pat nuo šio leidimo laukelis bus vizualiai pašalintas taip, kad vertės keisti nepavyks. Vertė liks **0**. |
 | **Pakeitė kita funkcija?**   | nr. |
@@ -49,7 +49,7 @@ ms.locfileid: "6020867"
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>„Internet Explorer“ 11 palaikymas „Dynamics 365“ nebegalioja
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nerekomendavimo/pašalinimo priežastis** | Nuo 2020 m. gruodžio „Microsoft Internet Explorer 11“ palaikymas visuose „Dynamics 365“ produktuose yra nutraukiamas, o „Internet Explorer 11“ nebus palaikomas nuo 2021m. rugpjūčio.<br><br>Tai paveiks klientus, kurie naudoja „Dynamics 365“ produktus, skirtus naudoti „Internet Explorer 11“ sąsają. Nuo 2021m. rugpjūčio „Internet Explorer 11“ nebus palaikomas tokiuose „Dynamics 365“ produktuose. |
 | **Pakeitė kita funkcija?**   | Rekomenduojame klientams naudoti „Microsoft Edge“.|
@@ -59,7 +59,7 @@ ms.locfileid: "6020867"
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10011-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Commerce“ 10.0.11 versijoje
 ### <a name="data-action-hooks"></a>Duomenų veiksmų trikčių gaudyklės
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Duomenų veiksmų trikčių gaudyklė nebeaktyvi dėl našumo problemų. |
 | **Pakeitė kita funkcija?**   | Rekomenduojame naudoti [duomenų veiksmų perrašymus](../e-commerce-extensibility/data-action-overrides.md) verslo logikos duomenų veiksmų sluoksnyje keitimui.|
@@ -68,7 +68,7 @@ ms.locfileid: "6020867"
 | **Būsena**                         | Nebenaudojama: nuo 10.0.11 leidimo. |
 
 ### <a name="retail-sdk-support-for-visual-studio-2015-msbuild-140-and-retail-sdkreference-libraries-and-tools"></a>Mažmeninės prekybos SDK pagalba „Visual Studio 2015“, msbuild 14.0, ir „Retail SDK“\Referencinės bibliotekos ir įrankiai
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | „Retail SDK“ pagalba „Visual Studio 2015“ buvo panaikinta ir atnaujinta tam, kad padėtų VS 2017, „msbuild 15.0“ ir visas referencines bibliotekas ir komercijos serverio generatoriaus įrankį „RetailSDK“\Referencinį kataloge, kuris buvo perkeltas į „NuGet“ paketus tam, kad būtų palengvintas plėtinio modelis ir SDK pagerinimo procesas.|
 | **Pakeitė kita funkcija?**   | Rekomenduojame jums sekti informaciją [Perkelti „Retail SDK“ iš „Visual Studio 2015“ į „Visual Studio 2017“](../dev-itpro/retail-sdk/migrate-sdk.md) savo sistemos atnaujinimui. |
@@ -77,7 +77,7 @@ ms.locfileid: "6020867"
 | **Būsena**                         | Nebenaudojama: nuo 10.0.11 leidimo. |
 
 ### <a name="retail-server-extension-using-iedmmodelextender-and-commercecontroller"></a>„Retail Server Extension“ naudojantis „IEdmModelExtender“ ir „CommerceController“
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | „Retail“ serverio plėtinys naudojantis „IEdmModelExtender“ ir „CommerceControllerׅ“ buvo pašalintas tam, kad būtų pateiktas supaprastintas plėtinio modelis. Naujoji versija turės tik valdiklio klasę be papildomo „IEdmModelExtender“ klasės versijos. Tai taip pat panaikina priklausomybę nuo konkrečios „OData“ versijos (jei „OData“ versija yra atnaujinama, ji gali sugadinti plėtinius.) |
 | **Pakeitė kita funkcija?**   |  Rekomenduojame naudoti „IController“ klasės plėtinio modelį importuojant „NuGet“ (Microsoft.Dynamics.Commerce.Hosting.Contracts) paketą. |
@@ -86,7 +86,7 @@ ms.locfileid: "6020867"
 | **Būsena**                         | Nebenaudojama: nuo 10.0.11 leidimo. |
 
 ### <a name="hardware-station-extension-using-ihardwarestationcontroller"></a>Kompiuterinės įrangos stoties plėtinys naudojantis „IHardwareStationController“
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Kompiuterinės įrangos plėtinys naudojantis „IHardwareStationController“ buvo pašalintas tam, kad būtų pateiktas supaprastintas plėtinio modelis. Naujos versijos turės tik „IController“ klasę be jokios papildomos klasės versijos ir taip bus išvengta priklausomybės nuo pagrindinių kompiuterinės įrangos stoties bibliotekų, nes ankstesnis plėtinys turėjo remtis keliomis bibliotekomis.) |
 | **Pakeitė kita funkcija?**   | Rekomenduojama naudoti „IController“ klasės plėtinio modelį importuojant „NuGet“ (Microsoft.Dynamics.Commerce.Hosting.Contracts) paketą. |
@@ -96,7 +96,7 @@ ms.locfileid: "6020867"
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10010-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Commerce“ 10.0.10 versijoje
 ### <a name="pos-operation-803---picking-and-receiving"></a>EKA 803 operacija – paėmimas ir gavimas
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Operacijų paėmimas ir gavimas nebenaudojamas dėl naujos operacijų pertvarkos. |
 | **Pakeitė kita funkcija?**   | Taip. Jie pakeičiami dviem naujomis EKA operacijomis: gaunama operacija (804) ir siunčiama operacija (805).|
@@ -107,7 +107,7 @@ ms.locfileid: "6020867"
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-1007-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Commerce“ 10.0.7 versijoje
 ### <a name="commerce-getproductavailabilities-and-getavailableinventorynearby-apis"></a>„Commerce” GetProductAvailabilities ir GetAvailableInventoryNearby API
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Buvo sukurtos naujos optimizuotos API, kad pakeistų GetProductAvailabilities ir GetAvailableInventoryNearby API. |
 | **Pakeitė kita funkcija?**   | Taip, jos pakeičiamos GetEstimatedAvailability ir GetEstimatedProductWarehouseAvailability API. |

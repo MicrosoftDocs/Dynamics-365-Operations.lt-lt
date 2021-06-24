@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: ed068f4264269334babec9acd59d9d58551333b4
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ceb5b7c90cc7efa0049d0278e2c245228e5b52bd
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018391"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186791"
 ---
 # <a name="note-integration"></a>Pastabų integravimas
 
@@ -35,7 +35,7 @@ Kliento informaciją galima klasifikuoti toliau pateiktais būdais.
 
 + **Veiksminga informacija, kurią „Dynamics 365“ vartotojas valdo kliento vardu** – Pavyzdžiui, „Contoso“ („Dynamics 365“ vartotojas) veda žaidimų šou. Vienas Iš „Contoso“ klientų (klientas) nori dalyvauti žaidimų šou. Klientas paprašo „Contoso“ darbuotojo rezervuoti jam vietą žaidimų šou. Rezervavimas įvyksta „Contoso“ įvykių dalyvio kalendoriuje.
 + **Veiksminga „Dynamics 365” vartotojo informacija** – pvz., klientas, perkantis „Surface” vienetą, įveda specialias instrukcijas, nurodančias, kad prieš pristatant įrenginį reikia supakuoti kaip dovaną. Šios instrukcijos yra veiksmingos informacijos, kurią turi valdyti „Contoso“ darbuotojas, atsakingas už pakavimą.
-+ **Neveiksminga informacija** –  – pvz., klientas lankosi „Contoso“ parduotuvėje ir pokalbio su parduotuvės atstovu metu išreiškia susidomėjimą *„Halo“* žaidimais bei žaidimų priedais. Parduotuvės atstovas pasižymi šios informacijos pastabą. Tada produktų rekomendacijų mechanizmas ją naudoja, kad klientui pateiktų rekomendacijas.
++ **Neveiksminga informacija** – pvz., klientas lankosi „Contoso“ parduotuvėje ir pokalbio su parduotuvės atstovu metu išreiškia susidomėjimą *„Halo“* žaidimais bei žaidimų priedais. Parduotuvės atstovas pasižymi šios informacijos pastabą. Tada produktų rekomendacijų mechanizmas ją naudoja, kad klientui pateiktų rekomendacijas.
 
 Apskritai, veiksminga informacija fiksuojama kaip *veiklos* „Finance and Operations” bei klientų įtraukimo programose. Neveiksminga informacija fiksuojama kaip *pastabos* „Finance and Operations” programose arba kaip *komentarai* klientų įtraukimo programose.
 
@@ -122,5 +122,9 @@ Pastabų integravimą sudaro lentelių schemų, veikiančių kartu interaktyviai
 | [Tiekėjo dokumentų priedai](mapping-reference.md#231) | Komentarai | Įmonės, naudojančios paprastąjį tekstą ir URL, kad fiksuotų konkrečių tiekėjų informaciją (organizacijų ir asmenų). |
 | [Pardavimo užsakymo antraštės dokumento priedai](mapping-reference.md#229) | Komentarai | Įmonės, naudojančios paprastąjį tekstą ir URL, kad fiksuotų konkrečių pardavimo užsakymų informaciją. |
 | [Pirkimo užsakymo antraštės dokumento priedai](mapping-reference.md#232) | Komentarai | Įmonės, naudojančios paprastąjį tekstą ir URL, kad fiksuotų konkrečių pirkimo užsakymų informaciją. |
+
+## <a name="limitations"></a>Apribojimai
+
+Įdiegę pastabų sprendimą, jo pašalinti negalite. 
 
 Daugiau informacijos žr. [Dvigubo rašymo susiejimo nuoroda](mapping-reference.md)

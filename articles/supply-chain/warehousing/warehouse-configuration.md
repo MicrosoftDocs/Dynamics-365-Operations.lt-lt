@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 734246cde20f5ce76e34dae772ed0ba6b0e361a0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1dc6c99a986bad767691f7cac7e0135c54e1d0b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837374"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189556"
 ---
 # <a name="warehouse-configuration-overview"></a>Sandėlio konfigūracijos apžvalga
 
@@ -109,8 +109,7 @@ Kaip galima spręsti iš pavadinimo, vietos nurodymai naudojami darbo operacijom
 
 Kad būtų lengviau ir greičiau apibrėžti veiksmus, susietus su kiekviena vietos nurodymo eilute, naudokite vieną iš iš anksto apibrėžtų strategijų. Pvz., norėdami sandėlyje ieškoti laisvos vietos, galite naudoti strategiją **Tuščia vieta, kurioje negaunama darbo** arba galite naudoti siuntimo pardavimo išrinkimo strategiją **FEFO paketo rezervavimas**.
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Sandėlio, kuriame veikia WMS, vietų konfigūravimas](tasks/configure-locations-wms-enabled-warehouse.md)
 

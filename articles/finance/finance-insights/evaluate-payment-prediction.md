@@ -2,7 +2,7 @@
 title: Pradinio kliento mokėjimo prognozavimo modelio įvertinimas (peržiūros versija)
 description: Šioje temoje aprašomi veiksmai, kuriuos galite atlikti, kad suprastumėte kliento mokėjimo prognozavimo modelį ir įvertintumėte jo efektyvumą.
 author: ShivamPandey-msft
-ms.date: 05/28/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 266f94b6a32c88307258aa99f2ac0c6bf9c50a84
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 014684595c7cd65383dc12d9eec2dd8ea7b8c20f
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897917"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186743"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Pradinio kliento mokėjimo prognozavimo modelio įvertinimas (peržiūros versija)
 
@@ -95,9 +95,5 @@ Geriau supratę savo pirmo modelio rezultatus, galbūt norėsite patobulinti mod
 ## <a name="for-more-information"></a>Daugiau informacijos
 
 Daugiau informacijos apie tai, kaip įvertinti prognozavimo modelius, žr. [Mašininio mokymo modelių rezultatai](/confusion-matrix.md)
-
-#### <a name="privacy-notice"></a>Privatumo pranešimas
-Peržiūros versijos (1) gali naudoti mažiau privatumo ir mažiau saugos priemonių nei „Dynamics 365 Finance and Operations“ paslauga, (2) jos nėra įtrauktos į aptarnavimo lygio sutartį (SLA), (3) jos neturėtų būti naudojamos apdoroti asmens duomenims ar kitiems duomenims, kuriems taikomi teisiniai ir atitikimo teisės aktai (4) ir jų palaikymas yra ribotas.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

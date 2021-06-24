@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 484a80d9eeb0b652a8363a9ea49f58f9780b6968
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 06e2439da464c53fd648aaf3e3659babdbc50acd
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908933"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188939"
 ---
 # <a name="routes-and-operations"></a>Maršrutai ir operacijos
 
@@ -29,8 +29,7 @@ ms.locfileid: "5908933"
 
 Šioje temoje pateikiama informacija apie maršrutus ir operacijas. Maršrutas apibrėžia produkto arba produkto varianto gaminimo procesą. Jame aprašytas kiekvienas gamybos proceso veiksmas (operacija) ir užsakymas, kuriam šie veiksmai turi būti atlikti. Maršrute taip pat apibrėžti kiekvienam veiksmui reikalingi operacijų ištekliai, reikiamas nustatymo laikas ir vykdymo laikas ir būdas, kaip apskaičiuoti išlaidas.
 
-<a name="overview"></a>Apžvalga
---------
+## <a name="overview"></a>Apžvalga
 
 Maršrute aprašyta operacijų tvarka, kuri reikalinga norint pagaminti produktą arba produkto variantą. Maršrute taip pat apibrėžti kiekvienai operacijai reikalingi operacijų ištekliai, operacijai nustatyti ir atlikti reikalingas laikas ir būdas, kaip apskaičiuoti išlaidas. Galite naudoti tą patį maršrutą norėdami pagaminti kelis produktus, arba galite apibrėžti unikalų maršrutą kiekvienam produktui ar produkto variantui. Net galite turėti kelis maršrutus tam pačiam produktui. Tokiu atveju naudojamas maršrutas kinta atsižvelgiant į tam tikrus veiksnius, pvz., kiekį, kurį reikia pagaminti. Maršruto apibrėžimą „Supply Chain Management“ sudaro keturi skirtingi elementai, kurie visi kartu apibūdina gamybos procesą.
 

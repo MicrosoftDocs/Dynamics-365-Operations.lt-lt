@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 80190419176848f10d9a3908350d57ddaadfd8c3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9d4e901871267d4f11d9afefc873708663dbabd6
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822184"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190290"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Biudžeto planavimo šablonai, skirti „Excel‟
 
@@ -66,8 +66,7 @@ Nuveskite žymeklį į norimą vietą „Excel“ faile. Spustelėkite **Įtrauk
 
 ## <a name="select-add-valuemediabpt7png"></a>[![Pasirinkti „Įtraukti vertę“](./media/bpt7.png)](./media/bpt7.png)
 
-<a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Apskaičiuoto stulpelio įtraukimas į biudžeto plano dokumento šablono lentelę
---------------------------------------------------------------
+## <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Apskaičiuoto stulpelio įtraukimas į biudžeto plano dokumento šablono lentelę
 
 Tada apskaičiuoti stulpeliai įtraukiami į sugeneruotą biudžeto plano dokumento šabloną. Stulpelis **Bendra užklausų suma**, kuriame pateikiama paraiškų už 1–4 ketvirčių stulpelių suma, ir stulpelis **Koregavimas**, kuriame stulpelio **Bendra užklausų suma** vertė perskaičiuojama naudojant iš anksto nustatytą koeficientą.
 

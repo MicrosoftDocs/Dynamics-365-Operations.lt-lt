@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7f2a50c5e30155c11d653601187c36cb385aa4a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 75d994db80071c4ef9e23caf24cb4cadbc1473ad
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839202"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189897"
 ---
 # <a name="use-tracing-for-explosion"></a>Sekimo naudojimas išskleidimo analizės tikslais
 
@@ -38,8 +38,7 @@ ms.locfileid: "5839202"
 
 Galite peržiūrėti išsamią informaciją apie pasirinkto užsakymo būsimuosius ir veiksmus. **Išskleidimo** puslapyje sekimo informacija prieinama **Paaiškinimo** skirtuke, esančiame viršutinėje srityje. Sekimo vyksta išskleidžiant užsakymą. Norėdami pradėti sekti užsakymą, spustelėkite **Atnaujinti** ir pasirinkite žymės langelį **Įgalinti sekimą**. Norėdami žurnale ieškoti konkrečios informacijos, galite naudotis lauku **Rasti tekstą**. Ieškos rezultatai paryškinti medyje.
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Bendrųjų planų apžvalga](master-plans.md)
 

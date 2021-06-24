@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: fee455fe1e51ac99fe6f38a63b48c7b92d32ac7a
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 01d6d79c482871c9f39898298292b21367c9a48e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897069"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193336"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>Mokymosi katalogas įgyvendinimo projekto vadovams dirbantiems su „Dynamics 365 Finance“
 
@@ -88,10 +88,10 @@ Toliau pateiktas katalogas yra sutvarkytas taip, kad žinios būtų išdėstytos
 
 ## <a name="exams"></a>Egzaminai<a name="exams"></a>
 
-| Turinys  | aprašymas  | Formatuoti   |
-|-------------|-----------------|-------------|
-| [Egzaminas MB-300: „Microsoft Dynamics 365 Unified Operations“ pagrindinės užduotys](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Šis egzaminas leidžia įvertinti jūsų sugebėjimą atlikti šias technines užduotis: naudoti įprastas funkcijas ir diegimo įrankius, konfigūruoti saugumo parametrus, procesus ir pasirinktis, atlikti duomenų perkėlimą bei įvertinti ir palaikyti sprendimą. | Egzamino kaina priklauso nuo regiono | |
-| [Egzaminas MB-310: „Microsoft Dynamics 365 for Finance and Operations“, finansai](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Šis egzaminas leidžia įvertinti jūsų sugebėjimą atlikti šias technines užduotis: nustatyti ir konfigūruoti finansų valdymo funkcijas, valdyti ir taikyti bendrus procesus, diegti ir valdyti mokėtinas ir gautinas sumas bei valdyti biudžeto sudarymą ir ilgalaikį turtą. | Egzamino kaina priklauso nuo regiono | |
+| Turinys | aprašymas | Formatuoti |
+|---|---|---|
+| [Egzaminas MB-300: „Microsoft Dynamics 365 Unified Operations“ pagrindinės užduotys](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Šis egzaminas leidžia įvertinti jūsų sugebėjimą atlikti šias technines užduotis: naudoti įprastas funkcijas ir diegimo įrankius, konfigūruoti saugumo parametrus, procesus ir pasirinktis, atlikti duomenų perkėlimą bei įvertinti ir palaikyti sprendimą. | Egzamino kaina priklauso nuo regiono |
+| [Egzaminas MB-310: „Microsoft Dynamics 365 for Finance and Operations“, finansai](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Šis egzaminas leidžia įvertinti jūsų sugebėjimą atlikti šias technines užduotis: nustatyti ir konfigūruoti finansų valdymo funkcijas, valdyti ir taikyti bendrus procesus, diegti ir valdyti mokėtinas ir gautinas sumas bei valdyti biudžeto sudarymą ir ilgalaikį turtą. | Egzamino kaina priklauso nuo regiono |
 | [„Microsoft“ sertifikuotas partneris: „Dynamics 365 for Finance and Operations“, finansinių funkcijų partneris konsultantas](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | „Microsoft“ sertifikuotas partneris: „Dynamics 365 for Finance and Operations“ finansinių funkcijų konsultantai suderina globalius finansus ir operacijos bei automatizuoja užduotis ir darbo eigas, supaprastina kliento užsakymo, pardavimo, sąskaitų pateikimo ir ataskaitų procesus. | Sertifikavimo kaina priklauso nuo regiono |
 
 

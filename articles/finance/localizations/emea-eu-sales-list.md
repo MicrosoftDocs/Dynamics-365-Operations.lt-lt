@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 672bb37a4d191c4b4f72b234ba98766ffd223f69
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5d1df15462a39c17710c9300425561bba8b69fc7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826132"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188387"
 ---
 # <a name="eu-sales-list-reporting"></a>ES pardavimo sąrašo ataskaitos
 
@@ -27,8 +27,7 @@ ms.locfileid: "5826132"
 
 Šiame straipsnyje pateikta informacija apie Europos Sąjungos (ES) Pardavimo sąrašo ataskaitas.
 
-<a name="eu-sales-list-reporting"></a>ES pardavimo sąrašo ataskaitos
------------------------
+## <a name="eu-sales-list-reporting"></a>ES pardavimo sąrašo ataskaitos
 
 Tiekėjas, tiekiantis įmonėms, įsteigtoms Europos Sąjungoje (ES), prekes ar paslaugas ES viduje, turi pateikti į Vidaus tiekimo deklaraciją (ES pardavimo sąrašą arba ESL). Apskritai ESL būtina pateikta mokesčių inspekcijoms ne vėliau kaip paskutinę mėnesio po kalendorinio laikotarpio, kurį apima ESL, dieną. Tiekėjas turi ant ESL nurodyti savo pridėtinės vertės mokesčio (PVM) identifikavimo numerį ir taip pat nurodyti tokią informaciją pagal klientą.
 

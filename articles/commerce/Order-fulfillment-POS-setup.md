@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5cdf7b2655f62b693a8f2bc137c690fbc43b16a7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 246a79f6f1578e81510d4a57ee12f0e0497bff84
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796443"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193184"
 ---
 # <a name="set-up-order-fulfillment-for-stores"></a>Parduotuvių užsakymų įvykdymo nustatymas
 
@@ -33,9 +33,9 @@ Užsakymo įvykdymo operacija elektroniniame kasos aparate suteikia vieną darbo
 
 ## <a name="set-up-the-order-fulfillment-operation"></a>Užsakymų įvykdymo operacijos nustatymas
 
-Užsakymų įvykdymas, [operacijos ID 928](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), gali būti naudojamas norint pasiekti parduotuvės užsakymų įvykdymo darbo sritį elektroniniame kasos aparate.
+Užsakymų įvykdymas, [operacijos ID 928](pos-operations.md), gali būti naudojamas norint pasiekti parduotuvės užsakymų įvykdymo darbo sritį elektroniniame kasos aparate.
 
-Vykdykite veiksmus, aprašytus skyriuje [Operacijos įtraukimas į mygtukyną](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts), norėdami nurodyti, kurį parametrą naudoti iškviečiant užsakymų įvykdymo funkciją elektroniniame kasos aparate. Pagal numatytuosius parametrus nurodžius užsakymų įvykdymo operacijas pasirenkamas parametras **Visi užsakymai**. Sukonfigūravus naudojant šį parametrą, operacija pateiks visas užsakymo eilutes, kurias reikia įvykdyti dabartinėje parduotuvėje. Taip pat naudoti parinktį **Siųstini užsakymai**, kurią galima priskirti mygtukui ir naudoti, kai vartotojas nori pamatyti tik užsakymus, kurie bus siunčiami iš parduotuvės. Galiausiai galima naudoti parametrą **Paimtini užsakymai**. Iškvietus elektroniniame kasos aparate, šis parametras pateikia tik užsakymus, kurie bus paimti iš parduotuvės. Skirtingus parametrus galima priskirti skirtingiems mygtukams, norint suteikti vartotojui įvairių būdų, kaip peržiūrėti užsakymo įvykdymą.
+Vykdykite veiksmus, aprašytus skyriuje [Operacijos įtraukimas į mygtukyną](pos-screen-layouts.md), norėdami nurodyti, kurį parametrą naudoti iškviečiant užsakymų įvykdymo funkciją elektroniniame kasos aparate. Pagal numatytuosius parametrus nurodžius užsakymų įvykdymo operacijas pasirenkamas parametras **Visi užsakymai**. Sukonfigūravus naudojant šį parametrą, operacija pateiks visas užsakymo eilutes, kurias reikia įvykdyti dabartinėje parduotuvėje. Taip pat naudoti parinktį **Siųstini užsakymai**, kurią galima priskirti mygtukui ir naudoti, kai vartotojas nori pamatyti tik užsakymus, kurie bus siunčiami iš parduotuvės. Galiausiai galima naudoti parametrą **Paimtini užsakymai**. Iškvietus elektroniniame kasos aparate, šis parametras pateikia tik užsakymus, kurie bus paimti iš parduotuvės. Skirtingus parametrus galima priskirti skirtingiems mygtukams, norint suteikti vartotojui įvairių būdų, kaip peržiūrėti užsakymo įvykdymą.
 
 ### <a name="enable-users-to-access-order-fulfillment-at-the-point-of-sale"></a>Suteikite vartotojams prieigą prie užsakymų įvykdymo elektroniniame kasos aparate
 
@@ -104,9 +104,9 @@ Pagal numatytuosius parametrus užsakymų būsena bus **Priimta**. Užsakymo bū
 
 - **Redaguoti** – jei užsakymo būsena yra laukiama, ją galima koreguoti elektroniniame kasos aparate. Užsakymų, kurie jau buvo iš dalies paimti, supakuoti arba kurių SF buvo išrašyta, negalima redaguoti iš užsakymo įvykdymo rodinio.
 - **Priimti** – jei parinktis **Neautomatinis priėmimas** sukonfigūruota kanalo lygiu, eilutės pirmiausia turi būti priimtos, kad jos galėtų pereiti užsakymo įvykdymo proceso etapus.
-- **Paimti** – paėmimo parinktis suteikia galimybę atlikti kelis veiksmus. Pirma, **Paėmimas** atnaujina užsakymo eilutės būseną, todėl kiti parduotuvės darbuotojai nemėgintų paimti tos pačios eilutės. Antra, veiksmu **Spausdinti išrinkimo dokumentą** išspausdinamas pasirinktos eilutės arba eilučių išrinkimo dokumentas ir taip pat atnaujinama jų būsena į **Paėmimas**. Išrinkimo dokumento formatai valdomi kaip kvitų formatų dalis. Daugiau informacijos, kaip nustatyti kvitų formatus, žr. [Kvitų šablonai ir spausdinimas](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing). Galiausiai veiksmas **Pažymėti kaip paimtą** nurodo, kad eilutė yra paimta. Veiksmas **Pažymėti kaip paimtą** inicijuoja atitinkamas atsargų operacijas tarnybiniame biure. Paėmimo veiksmus galima vienu metu taikyti kelios užsakymo eilutėms iš kelių užsakymų ir naudojant visus pristatymo būdus.
+- **Paimti** – paėmimo parinktis suteikia galimybę atlikti kelis veiksmus. Pirma, **Paėmimas** atnaujina užsakymo eilutės būseną, todėl kiti parduotuvės darbuotojai nemėgintų paimti tos pačios eilutės. Antra, veiksmu **Spausdinti išrinkimo dokumentą** išspausdinamas pasirinktos eilutės arba eilučių išrinkimo dokumentas ir taip pat atnaujinama jų būsena į **Paėmimas**. Išrinkimo dokumento formatai valdomi kaip kvitų formatų dalis. Daugiau informacijos, kaip nustatyti kvitų formatus, žr. [Kvitų šablonai ir spausdinimas](receipt-templates-printing.md). Galiausiai veiksmas **Pažymėti kaip paimtą** nurodo, kad eilutė yra paimta. Veiksmas **Pažymėti kaip paimtą** inicijuoja atitinkamas atsargų operacijas tarnybiniame biure. Paėmimo veiksmus galima vienu metu taikyti kelios užsakymo eilutėms iš kelių užsakymų ir naudojant visus pristatymo būdus.
 - **Atmesti** – eilutes arba dalines eilutes galima atmesti. Tai suteikia galimybę jas iš naujo priskirti tarnybiniam biurui arba kitai parduotuvei ar sandėliui. Eilutes galima atmesti tik jei jos dar nebuvo paimtos arba supakuotos. Norėdami atmesti eilutę, kuri jau buvo paimta arba supakuota, tarnybiniame biure reikia atmesti tos eilutės paėmimą arba supakavimą.
-- **Pakavimas** – pakavimo parinktis suteikia galimybę atlikti du veiksmus: veiksmu **Spausdinti važtaraštį** bus pasirinktų eilučių išspausdintas važtaraštis, o veiksmu **Pažymėti kaip supakuotas** tarnybiniame biure eilutės bus pažymėtos kaip supakuotos ir eilutes bus pažymėtos kaip pristatytos. Vienu metu galima pakuoti tik užsakymo eilutes, kurios priklauso tam pačiam užsakymui ir kurių pristatymo būdas toks pats. Važtaraščio formatai valdomi kaip kvitų formatų dalis. Daugiau informacijos, kaip nustatyti kvitų formatus, žr. [Kvitų šablonai ir spausdinimas](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+- **Pakavimas** – pakavimo parinktis suteikia galimybę atlikti du veiksmus: veiksmu **Spausdinti važtaraštį** bus pasirinktų eilučių išspausdintas važtaraštis, o veiksmu **Pažymėti kaip supakuotas** tarnybiniame biure eilutės bus pažymėtos kaip supakuotos ir eilutes bus pažymėtos kaip pristatytos. Vienu metu galima pakuoti tik užsakymo eilutes, kurios priklauso tam pačiam užsakymui ir kurių pristatymo būdas toks pats. Važtaraščio formatai valdomi kaip kvitų formatų dalis. Daugiau informacijos, kaip nustatyti kvitų formatus, žr. [Kvitų šablonai ir spausdinimas](receipt-templates-printing.md).
 - **Siųsti** – siuntimo veiksmu pasirinktos eilutės tarnybiniame biure bus pažymėtos kaip **Pristatyta**. Visiškai išsiuntus eilutę, ji nebebus rodoma užsakymo įvykdymo rodinyje.
 - **Paėmimas** – paėmimo veiksmu eilutės įtraukiamos į paėmimo operacijos rodinį. Jei yra kitų užsakymo eilučių, kurios šiuo metu nėra paimamos, jos bus įtrauktos į operacijos rodinį nurodant nulinį kiekį. Visiškai paėmus eilutę, ji nebebus rodoma užsakymo įvykdymo rodinyje.
 

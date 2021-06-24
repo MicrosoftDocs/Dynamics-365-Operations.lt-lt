@@ -13,12 +13,12 @@ ms.search.region: Lithuania
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7fe55075d4a4ed628cd5c4197cdaa96b778b7abe
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2af62b31931b6b6cde67928c0e010386e076290f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840985"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189629"
 ---
 # <a name="fixed-asset-repair-statement-for-lithuania"></a>Ilgalaikio turto remonto išrašas, skirtas Lietuvai
 
@@ -26,8 +26,7 @@ ms.locfileid: "5840985"
 
 Šioje temoje paaiškinama, kaip pateikti ilgalaikio turto remonto informaciją ir generuoti ilgalaikio turto remonto ataskaitą. Remonto informacija turi būti saugoma visam ilgalaikiui turtui. 
 
-<a name="enter-details-for-a-fixed-asset-repair-statement"></a>Ilgalaikio turto remonto apskaitos informacijos įvedimas
-------------------------------------------------
+## <a name="enter-details-for-a-fixed-asset-repair-statement"></a>Ilgalaikio turto remonto apskaitos informacijos įvedimas
 
 Ilgalaikio turto remonto informaciją galite įvesti puslapyje **Ilgalaikio turto remontas**. Pateikite toliau nurodytą remonto informaciją.
 

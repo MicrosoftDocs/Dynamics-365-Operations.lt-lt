@@ -2,7 +2,7 @@
 title: Prognozės modelio tobulinimas (peržiūros versija)
 description: Šioje temoje aprašomos funkcijos, kurias galite naudoti norėdami pagerinti prognozavimo modelių efektyvumą.
 author: ShivamPandey-msft
-ms.date: 05/28/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 197aba724ea68ef79c2d16028c23533d952329a9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 184a1cb5d3851e26b41340b711c51ef38e06eb53
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810034"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186647"
 ---
 # <a name="improve-the-prediction-model-preview"></a>Prognozės modelio tobulinimas (peržiūros versija)
 
@@ -77,9 +77,5 @@ Toliau esančiuose skyriuose pateikiami laukai, kurie galimi SF ir kliento objek
 Šiuo metu filtrai nepalaiko kliento mokėjimo prognozavimo scenarijaus. Todėl pasirinkite **Praleisti šį veiksmą** ir pereikite prie suvestinės puslapio.
 
 [![Fokusavimo režimas su filtrais](./media/focus-model-with-filters.png)](./media/focus-model-with-filters.png)
-
-#### <a name="privacy-notice"></a>Privatumo pranešimas
-Peržiūros versijos (1) gali naudoti mažiau privatumo ir mažiau saugos priemonių nei „Dynamics 365 Finance and Operations“ paslauga, (2) jos nėra įtrauktos į aptarnavimo lygio sutartį (SLA), (3) jos neturėtų būti naudojamos apdoroti asmens duomenims ar kitiems duomenims, kuriems taikomi teisiniai ir atitikimo teisės aktai (4) ir jų palaikymas yra ribotas.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

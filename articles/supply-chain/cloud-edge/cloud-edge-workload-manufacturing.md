@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a6d6979093c67d2d89b88678712f4c0205c63194
-ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
+ms.openlocfilehash: 9cd7dd8b9241171bdfdb3cc1379211a2fe99bbe1
+ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "5899100"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184001"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Gamybos vykdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams
 
@@ -35,7 +35,7 @@ ms.locfileid: "5899100"
 Vykstant gamybai, skalės vienetai suteikia šias galimybes:
 
 - Mašinos operatoriai ir parduotuvės aukšto vadovai gali prieiti prie operacijos gamybos plano.
-- Mašinos operatoriai gali turėti atnaujintą planą diskretiškam vykdymui ir proceso gamybos darbus.
+- Mašinos operatoriai gali vis atnaujintą planą diskretiškam vykdymui ir proceso gamybos darbams.
 - Parduotuvės aukšto vadovas gali keisti operacijos planą.
 - Darbuotojai gali prieiti prie laiko ir lankymosi su laikrodžiu ir be jo veikiančiame krašte siekiant pataisyti darbuotojo užmokesčio skaičiuoklę.
 
@@ -72,6 +72,7 @@ Tolesnės gamybos vykdymo užduotys šiuo metu gali būti vykdomos darbo apkrovo
 - Pranešti apie atliekas
 - Netiesioginiai veiksmai
 - Pertrauka
+- Pranešti, kad baigta ir padėti (reikia, kad sandėlio vykdymo darbo krūvį paleistumėte ir savo skalės vienete, taip pat žr. ataskaitą kaip baigtą ir padėti [ant svarstyklių vieneto](#RAF))
 
 ## <a name="working-with-manufacturing-execution-workloads-on-the-hub"></a>Darbas su gamybos vykdymo darbo eigomis centre
 
@@ -108,6 +109,26 @@ Norėdami peržiūrėti gamybos darbų istoriją, kurie buvo sutvarkyti skalės 
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>Gamybos centras į skalės vieneto pranešimo tvarkytuvo darbą
 
 _Gamybos centras į skalės vieneto pranešimo tvarkytuvą_ darbas tvarko duomenis iš centro į skalės vienetą. Šis darbas automatiniu būdu pradedamas, kai gamybos vykdymo darbo krūvis yra patalpintas. Nepaisant to, galite vykdyti rankiniu būdu jį bet kuriuo metu patekę į **Gamybos valdymas \> Periodinės užduotys \> Galinio skyriaus darbo krūvio valdymas \>Gamybos centras į skalės vieneto pranešimo tvarkytuvą**.
+
+<a name="RAF"></a>
+
+## <a name="report-as-finished-and-putaway-on-a-scale-unit"></a>Pranešti, kad baigta, ir padėti ant svarstyklių vieneto
+
+<!-- KFM: 
+This section describes how to enable the abilities to report as finished and then putaway finished items when you are using to a scale unit.
+
+### Enable and use report as finished and putaway on a scale unit -->
+
+Dabartiniame leidime sandėlio vykdymo darbo krūvis palaiko operacijas kaip baigtas ir padėjusias (baigtų produktų, sudėtinųjų ir tarpinių produktų) operacijas [ne gamybos vykdymo darbo krūvį](cloud-edge-workload-warehousing.md). Todėl, norėdami šią funkciją naudoti prijungę prie svarstyklių vieneto, turite atlikti šiuos veiksmus:
+
+- Įdiekite sandėlio vykdymo darbo krūvį ir gamybos vykdymo darbo krūvį savo skalės vienete.
+- „Warehouse Management“ mobiliąją programą naudokite norėdami pranešti, kad baigta, ir apdoroti atidavimo darbą. Gamybos laiko vykdymo sąsaja šiuo metu nepalaiko šių procesų.
+
+<!-- KFM: API details needed
+
+### Customize report as finished and putaway functionality
+
+ -->
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

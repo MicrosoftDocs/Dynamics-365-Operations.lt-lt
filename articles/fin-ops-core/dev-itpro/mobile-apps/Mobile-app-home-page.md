@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 9707a1f8a90a615dbc8f34f4bb1f05d34d8fe7f3
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 469b03151f3113f44d932a2d6f4bf3fcfa059133
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908237"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188415"
 ---
 # <a name="mobile-app-home-page"></a>Mobiliosios programos pagrindinis puslapis
 
@@ -27,8 +27,7 @@ ms.locfileid: "5908237"
 
 Šioje temoje aprašoma mobiliųjų įrenginių programėlė **„Finance and Operations“ („Dynamics 365“)** ir pateikiamos nuorodos į išteklius, kurie jums gali padėti tai įgyvendinti savo organizacijoje.
 
-<a name="overview"></a>Apžvalga
---------
+## <a name="overview"></a>Apžvalga
 
 Mobilioji programa jūsų organizacijai suteikia galimybę pasiekti savo verslo procesus mobiliuosiuose įrenginiuose. Kai jūsų IT administratorius jūsų organizacijoje įjungia mobiliųjų darbo sričių funkciją, vartotojai gali prisijungti prie programos ir iš karto pradėti vykdyti verslo procesus iš savo mobiliųjų įrenginių. Mobilioji programa apima toliau nurodytas funkcijas, kurios gali padėti padidinti efektyvumą.
 

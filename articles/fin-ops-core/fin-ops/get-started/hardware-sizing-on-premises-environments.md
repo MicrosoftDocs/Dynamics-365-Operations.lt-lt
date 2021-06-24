@@ -2,7 +2,7 @@
 title: Aparatūros dydžio reikalavimų nustatymas vietinėse aplinkose
 description: Šioje temoje pateikiami aparatūros dydžio reikalavimai vietinėje aplinkose.
 author: sericks007
-ms.date: 11/27/2019
+ms.date: 06/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: c5e6e96ea1ce821233d7104bb9a7af8e793f4264
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 1ef427ff57c79b64a2435edd902e09a7d99e81d9
+ms.sourcegitcommit: 4a508bd11267f24eeb774af57faa56369beacf51
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923485"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6168734"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Aparatūros dydžio reikalavimų nustatymas vietinėse aplinkose
 
@@ -131,6 +131,8 @@ Daugeliu atvejų turėtų užtekti minimalių rekomenduojamų reikalavimų naudo
 ## <a name="sql-server-reporting-services"></a>SQL serverio ataskaitų tarnybos
 
 Naudojant bendrai prieinamą leidimą, galima diegti tik vieną SSRS mazgą. Stebėkite savo SSRS mazgą tikrindami ir didinkite SSRS branduolių skaičių pagal poreikį. Įsitikinkite, kad virtualiajame kompiuteryje, kuris nėra SSRS VM, yra iš anksto sukonfigūruotas antrinis mazgas. Tai svarbu, jei kiltų problema, susijusi su virtualiąja mašina, kurioje numojamas SSRS, arba su virtualiuoju kompiuteriu. Tokiu atveju juos reikėtų pakeisti.
+
+Pradedant nuo versijos 10.0.17, galima konfigūruoti papildomus SSRS mazgus, kad būtų pasiektas didelis pasiekiamumas. Dėl išsamesnės informacijos, [Didelio SQL serverio ataskaitų tarnybos (SSRS) mazgų pasiekiamumo konfigūravimas](../../dev-itpro/deployment/onprem-ssrsha.md).
 
 ## <a name="environment-orchestrator"></a>Aplinkos valdymo įrankis
 

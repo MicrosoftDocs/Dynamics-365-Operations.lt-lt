@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: e3124ac0e161e003986d7e167e292cbb374e1bfa
-ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
+ms.openlocfilehash: 714c34dfcd109a442a4ecd741409dea5c4aade20
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6085455"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216811"
 ---
 # <a name="import-format-for-consolidation"></a>Importuoti formatą konsolidavimui
 
@@ -34,7 +34,7 @@ Tolesnėje lentelėje yra importavimo formatai, kuriuos turėtumėte naudoti kon
 |--------------|---------|-------|
 | 1            | 170150, Goodwill, 4 | <ul><li>Įrašo lentelė</li><li>Šaltinio pagrindinės paskyros ID</li><li>Pagrindinės paskyros eilutė</li><li>Pagrindinės paskyros tipas</li></ul> |
 | 2            | 110130, 2015/01/01, 1, USD, 0,0,80699.39,0,1 | <ul><li>Pagrindinės paskyros ID</li><li>Transakcijos data</li><li>Mokestinio laikotarpio tipas (**0** = Atidarymas, **1** = Veikimas ir **2** = Uždarymas)</li><li>Operacijos valiuta</li><li>Debito ar kredito (**0** = Debitas ir **1** = Kreditas)</li><li>Publikavimo sluoksnis</li><li>Transakcijos sumos</li><li>Kiekis</li><li>Vietinis RecID (dviprasmiškas, unikali int64 vertė transakcijai)</li></ul> |
-| 3            | USMF0000009, 2017/01/01, FY2017, 1, 2017,01,01, 602200, USD, 6053.6.0 | <ul><li>Objekto skaičius (biudžeto antraštės transakcijos skaičius)</li><li>Biudžeto antraštės numatytoji data</li><li>Biudžeto modelio ID</li><li>Integruojančios vertės transakcijos tipui numeravimas (tuščias, originalus biudžetas ir t.t.)</li><li>Eiltuės data</li><li>Pagrindinės paskyros ID eilutei</li><li>Valiutos kodas eilutei</li><li>Eilutės kiekis transakcijos valiutoje</li><li>Integruojančios vertės biudžeto tipo eilutei numeravimas (išlaidų ar pajamų)</li></ul> |
+| 3            | USMF0000009, 2017/01/01, FY2017, 1, 2017,01,01, 602200, USD, 6053.6.0 | <ul><li>Objekto skaičius (biudžeto antraštės transakcijos skaičius)</li><li>Biudžeto antraštės numatytoji data</li><li>Biudžeto modelio ID</li><li>Biudžeto tipas (**1** - Originalus biudžetas, **2** - Perleisti, **3** - Peržiūra, **4** - Rezervavimas, **5** - Išankstinis rezervavimas, **6** - Jo perkėlimas, **7** - Projektas, **8** - Ilgalaikis turtias, **9** - Poreikio prognozė, **10** - Tiekimo prognozė, **11** - Paskrytimai, **12** - Preliminarus biudžetas.)</li><li>Eiltuės data</li><li>Pagrindinės paskyros ID eilutei</li><li>Valiutos kodas eilutei</li><li>Eilutės kiekis transakcijos valiutoje</li><li>Integruojančios vertės biudžeto tipo eilutei numeravimas (išlaidų ar pajamų)</li></ul> |
 | 4            | DEMF | „RecordCompany“ yra šaltinio juridinis asmuo. |
 | 5            | 110130, 2015/01/01, 1, USD, 0,0,80699.39,0,1 | <ul><li>Pagrindinės sąskaitos ID</li><li>Operacijos data</li><li>Ataskaitinio laikotarpio tipas (0 – Atidarymo, 1 – Veikimo ir 2 – Uždarymo)</li><li>Operacijos valiuta</li><li>Debetas ar Kreditas (0 – Debetas ir 1 – Kreditas)</li><li>Registravimo sluoksnis</li><li>Operacijos suma</li><li>Kiekis</li><li>Vietinis recid (dviprasmiška, unikali, int64 operacijos reikšmė)</li></ul>  |
 | 6            | Verslo struktūros vienetas – 1, Skyrius – 2 | Finansinės dimensijos atributai, kurie nustatomi segmento tvarkoje.<p>Galite naudoti **Eksportuoti** puslapį, kad patvirtintumėte, kaip atributai nustatomi.</p> |

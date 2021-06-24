@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b19c01afa162cce309443c9270ee1b39aeb0328
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d09b6f693f3396da181a0f47051b7c961aa55e03
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909161"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188250"
 ---
 # <a name="create-purchase-orders"></a>Pirkimo užsakymų sukūrimas
 
@@ -80,8 +80,7 @@ PU galima sukonfigūruoti taip, kad biudžeto lėšas būtų privaloma paskirsty
 
 PU baigimą gali tekti atidėti. Pavyzdžiui, gali reikėti papildomos informacijos apie produktus ar paslaugas arba gali reikėti autorizuoti išlaidas. Užsakymą galima sulaikyti keletu būdų. Pavyzdžiui, galite prieš patvirtindami užsakymą palaukti. Arba, jei naudojama keitimų valdymo darbo eiga, galite neteikti užsakymo patvirtinti. Jei turite užblokuoti visus konkretaus tiekėjo užsakymus, tiekėjo bendruosiuose duomenyse taip pat galite apdorotino tiekėjo būseną pažymėti kaip **Sulaikyta**. Taip pat yra aplinkybių, kurios gali neleisti užsakymo apdoroti. Pvz., apdorojimas gali būti neleidžiamas, jei viršijamos kredito ribos arba jei reikiamų biudžeto lėšų nėra.
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Pirkimo užsakymų apžvalga](purchase-order-overview.md)
 

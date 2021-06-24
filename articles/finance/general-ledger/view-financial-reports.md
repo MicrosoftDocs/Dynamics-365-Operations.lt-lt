@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f729b1703a7703a8a604b007bd1c8d9e1f604a6
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 723e0fa52cd7a9377671795e039f5948ce9239f3
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897289"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187799"
 ---
 # <a name="view-financial-reports"></a>Finansinių ataskaitų peržiūra
 
@@ -28,8 +28,7 @@ ms.locfileid: "5897289"
 
 Šioje temoje aprašoma, kaip peržiūrėti ir naršyti finansines ataskaitas. Tai apima informaciją apie įvairias parinktis, kurias galite taikyti finansinėms ataskaitoms, norėdami pakeisti jų išvaizdą ir jų duomenis.
 
-<a name="financial-reporting-overview"></a>Finansinių ataskaitų apžvalga
-----------------------------
+## <a name="financial-reporting-overview"></a>Finansinių ataskaitų apžvalga
 
 ## <a name="open-a-financial-report"></a>Finansinės ataskaitos atidarymas
 Norėdami atidaryti ataskaitą, pasirinkite ataskaitos pavadinimą. Pirmą kartą atidarius ataskaitą, ji automatiškai sugeneruojama už praėjusį mėnesį. Pvz., jei pirmą kartą ataskaitą atidarote 2015 m. rugpjūtį, ataskaita generuojama 2015 m. liepos 31 dienai. Kai ataskaita atidaroma, galite pradėti ją tyrinėti detalizuodami konkrečius duomenis ir keisdami ataskaitos parinktis.
@@ -76,8 +75,7 @@ Baigę nustatyti spausdinimo parinktis, spustelėkite **Spausdinti**, kad tęstu
 ## <a name="export-a-financial-report"></a>Finansinės ataskaitos eksportavimas
 Norėdami eksportuoti finansinę ataskaitą, veiksmų srityje spustelėkite **Eksportuoti**. Ataskaita eksportuojama į „Microsoft Excel“ ir naršyklė paragins atidaryti arba įrašyti eksportuotą failą. Eksportuojamai ataskaitai pritaikomi eksporto parametrai, apibrėžti ataskaitos projekte.    
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Finansinės ataskaitos](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md)
 

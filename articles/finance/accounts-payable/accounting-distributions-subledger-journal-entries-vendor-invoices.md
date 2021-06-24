@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 953069dfd39843d39cc92d99318f02819dc31ed0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 513066a597620450f0b482e98e36d31c6f2c980a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820989"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189098"
 ---
 # <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>Apskaitos paskirstymai ir žurnalo įrašai pardavėjo sąskaitoms
 
@@ -28,8 +28,7 @@ ms.locfileid: "5820989"
 
 Apskaitos paskirstymai naudojami siekiant apibrėžti, kaip suma bus apskaitoma, pvz., kaip bus apskaitomos išlaidos, mokesčiai ar rinkliavos tiekėjo SF. Kiekviena suma, kurią reikia apskaityti, kai tiekėjo SF įtraukiama į žurnalą, turės vieną ar kelis apskaitos paskirstymus. 
 
-<a name="accounting-distributions"></a>Apskaitos paskirstymai 
--------------------------
+## <a name="accounting-distributions"></a>Apskaitos paskirstymai 
 
 Puslapyje Tiekėjo SF naudodami toliau nurodytus mygtukus galite peržiūrėti ir galbūt modifikuoti kiekvienos tiekėjo SF nurodytos sumos apskaitos paskirstymus.
 -   **Paskirstyti sumas** – peržiūrėkite ir modifikuokite apskaitos paskirstymus konkrečioje eilutėje ir visose antrinėse eilutėse, pvz., mokesčių ar rinkliavų. Antrinės eilutės apskaitos paskirstymus taip pat galite peržiūrėti ir keisti tiesiogiai iš PVM operacijų puslapio arba Išlaidų operacijų puslapio.
@@ -227,8 +226,7 @@ Kai įvedate tiekėjo SF, kiekviena suma bus paskirstyta kaip aprašyta toliau.
 </table>
 
 
-<a name="distributing-taxes"></a>Mokesčių paskirstymas
-------------------
+## <a name="distributing-taxes"></a>Mokesčių paskirstymas
 
 Mokesčių apskaitos paskirstymus galima kurti tik apskaičiavus mokesčius. Norėdami skaičiuoti PVM, turite atlikti vieną iš toliau nurodytų užduočių puslapyje Tiekėjo SF.
 -   Peržiūrėkite SF bendrąją sumą.

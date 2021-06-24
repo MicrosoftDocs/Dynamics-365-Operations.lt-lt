@@ -2,7 +2,7 @@
 title: Biudžeto pasiūlymų įjungimas (peržiūros versija)
 description: Šioje temoje paaiškinama, kaip įjungti modulio Finansinės įžvalgos funkciją Biudžeto pasiūlymas.
 author: ShivamPandey-msft
-ms.date: 07/24/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7e90a1a2f2a8e7808f03ce9a6ee58c027bd48d8d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 948a3e051e5964c5c773cefd90c8587cf833a450
+ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818709"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6222539"
 ---
 # <a name="enable-budget-proposals-preview"></a>Biudžeto pasiūlymų įjungimas (peržiūros versija)
 
@@ -34,7 +34,7 @@ ms.locfileid: "5818709"
     `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('BudgetIntelligentBudgetRegisterProposalFeature', 1)`
 
     > [!NOTE]
-    > Jei jūsų „Microsoft Dynamics 365 Finance“ įdiegtis yra „Service Fabric“ įdiegtis, galite praleisti šį veiksmą. Modulio Finansinės įžvalgos komanda jums jau turėjo įjungti testą. Jei nematote funkcijos darbo srityje **Funkcijų valdymas** arba jei, bandant jas įjungti, kyla problemų, atsiųskite el. laišką [programos Finansinės įžvalgos peržiūros versijos komandai](mailto:fiap@microsoft.com).
+    > Praleiskite šį veiksmą, jei naudojate 10.0.20 ar vėlesnę versiją arba jei naudojate „Service Fabric“ diegimą. Modulio „Finance Insights” komanda jums jau turėjo įjungti testą. Jei nematote funkcijos darbo srityje **Funkcijų valdymas** arba jei kyla problemų bandant ją įjungti, kreipkitės adresu <fiap@microsoft.com>.
 
 2. Atidarykite darbo sritį **Funkcijų valdymas** ir atlikite tolesnius veiksmus.
 
@@ -42,9 +42,5 @@ ms.locfileid: "5818709"
     2. Ieškokite **Biudžeto pasiūlymas** ir įjunkite šią funkciją.
 
 3. Nueikite į **Biudžeto sudarymas \> Sąranka \> Pagrindinio biudžeto sudarymas \> Biudžeto pasiūlymas (peržiūros versija)** ir pasirinkite **Įjungti funkciją**.
-
-#### <a name="privacy-notice"></a>Privatumo pranešimas
-Peržiūros versijos (1) gali naudoti mažiau privatumo ir mažiau saugos priemonių nei „Dynamics 365 Finance and Operations“ paslauga, (2) jos nėra įtrauktos į aptarnavimo lygio sutartį (SLA), (3) jos neturėtų būti naudojamos apdoroti asmens duomenims ar kitiems duomenims, kuriems taikomi teisiniai ir atitikimo teisės aktai (4) ir jų palaikymas yra ribotas.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

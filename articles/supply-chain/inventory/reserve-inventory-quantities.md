@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1fcdb43f95892c541be2c31101d8f592f5d5e16
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 052cb56e026fbfe5cf5f6ad5d265337d7b88dc4d
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834198"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193958"
 ---
 # <a name="reserve-inventory-quantities"></a>Atsargų kiekių rezervavimas
 
@@ -46,7 +46,7 @@ Atsargų rezervavimo strategijos nustatomos puslapiuose **Prekių modelių grup�
 
 Dalyje **Atsargų strategijos** pateikiamos toliau nurodytos rezervavimo strategijos.
 
-|                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| &nbsp;                  | &nbsp;                                                                                                                                     |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Rezervavimo strategija**  | **Aprašymas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | FIFO kontrolė pagal datą    | Jei pasirinksite parinktį **FIFO kontrolė pagal datą**, atsargų rezervavimą kontroliuos rūšiavimo data pagal FIFO principą. Paketai rezervuojami naudojant anksčiausią prekių gavimo datą pagal principą „pirmasis į, pirmasis iš“ (FIFO).                                                                                                                                                                                                                                                                       |

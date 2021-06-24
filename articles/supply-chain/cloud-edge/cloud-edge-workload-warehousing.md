@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3d9bbc91b90cc675f500a990cf36e2aee6c6bccb
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: 30ccdf45d4993e9803f86025f8e789d4f75f64dc
+ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980955"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184027"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Sandėlio valdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams
 
@@ -287,16 +287,17 @@ Tolesnė lentelė rodo, kurios sandėlio operacijos ir išimčių tvarkymo funkc
 | Darbo blokavimas ir atblokavimas                             | Taip | Taip                          |
 | Vartotojo keitimas                                        | Taip | Taip                          |
 | Darbo telkinio keitimas                           | Taip | Taip                          |
-| Darbo atšaukimas                                        | Taip | Taip                          |
-
+| Atšaukti darbą                                        | Taip | Taip                          |
 
 ### <a name="production"></a>Gamyba
 
-Sandėlio valdymo gamybos scenarijai šiuo metu nepalaikomi skalės vieneto darbo eigose, kaip rodoma tolesnėje lentelėje.
+Tolesnė lentelė apibendrina, kurie sandėlio valdymo gamybos scenarijai nėra (ir yra) palaikomi skalės vieneto darbo eigose, kaip rodoma tolesnėje lentelėje.
 
-| Apdorojimas | Centras | WES darbo krūvis skalės vienete |
+| Apdorojimas | Tranzito punktas | WES darbo krūvis skalės vienete |
 |---------|-----|------------------------------|
-| <p>Visi sandėlio valdymo procesai yra susiję su gamyba. Štai keletas pavyzdžių:</p><li>Išleidimas į sandėlį</li><li>Gamybos bangos tvarkymas</li><li>Žaliavų paėmimas</li><li>RAF ir baigtų prekių atidėjimas</li><li>Sudėtinio ir šalutinio produktų atidėjimas</li><li>„Kanban“ atidėjimas</li><li>„Kanban“ paėmimas</li><li>Gamybos užsakymo pradžia</li><li>Gamybos nurašymas</li><li>Paskutinis produkcijos padėklas</li><li>Medžiagų sunaudojimo registravimas</li><li>Tuščias „kanban“</li></ul> | Taip | Ne |
+| Ataskaita apie baigtas ir atidėtas prekes | Taip | Taip |
+| Sudėtinis produktas ir šalutinis produktas atidėti | Taip | Taip |
+| <p>Visi kiti sandėlio valdymo procesai susiję su gamyba, įskaitant:</p><li>Išleisti į sandėlį</li><li>Gamybos bangos tvarkymas</li><li>Žaliavų paėmimas</li><li>„Kanban“ atidėtas</li><li>„Kanban“ paėmimas</li><li>Pradėti gamybos užsakymą</li><li>Gamybos nurašymas</li><li>Paskutinis produkcijos padėklas</li><li>Medžiagų sunaudojimo registravimas</li><li>Tuščias „kanban“</li></ul> | Taip | Ne |
 
 ## <a name="maintaining-scale-units-for-wes"></a>Skalės vienetų WES palaikymai
 

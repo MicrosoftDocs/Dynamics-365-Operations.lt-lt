@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 962edb3fd0478a8f0281054abc00c35b732620f6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 88665c70b05d9ecf8ec2641862d870d87604092f
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796419"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193160"
 ---
 # <a name="store-order-fulfillment"></a>Parduotuvės užsakymų įvykdymas
 
@@ -33,7 +33,7 @@ Užsakymo įvykdymo operacija elektroniniame kasos aparate suteikia vieną darbo
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>Prieiga prie bendrojo užsakymų įvykdymo srities elektroniniame kasos aparate
 
-Užsakymų įvykdymas, [operacijos ID 928](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), gali būti naudojamas norint pasiekti parduotuvės užsakymų įvykdymo darbo sritį elektroniniame kasos aparate.
+Užsakymų įvykdymas, [operacijos ID 928](pos-operations.md), gali būti naudojamas norint pasiekti parduotuvės užsakymų įvykdymo darbo sritį elektroniniame kasos aparate.
 
 Užsakymų įvykdymo operacija neturi savo parengtos naudoti teisės, tačiau ateityje vartotojai galės naudoti teisę **Leisti nuskaityti užsakymą**, kad būtų galima iškviesti operaciją iš elektroninio kasos aparato.
 
@@ -93,7 +93,7 @@ Priėmus užsakymą, eilutes galima pasirinkti ir priskirti joms žymę **Paėmi
 
 Išrinkimo dokumentus galima spausdinti elektroniniame kasos aparate ir padėti darbuotojams, vykdantiems paėmimo procesą. Atspausdintą išrinkimo dokumentą darbuotojas, atliekantis paėmimą, gali nešiotis su savimi, kai produktai paimami, ir pažymėti juos kaip paimtus išrinkimo dokumente.
 
-Išrinkimo dokumento formatas sukonfigūruojamas „Commerce“ ir pridedamas prie kvito šablono. Daugiau informacijos, kaip nustatyti kvitų šablonus, žr. [Kvitų šablonai ir spausdinimas](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Išrinkimo dokumento formatas sukonfigūruojamas „Commerce“ ir pridedamas prie kvito šablono. Daugiau informacijos, kaip nustatyti kvitų šablonus, žr. [Kvitų šablonai ir spausdinimas](receipt-templates-printing.md).
 
 Jei pasirenkamos eilutės ir išspausdinamas tų eilučių išrinkimo dokumentas, jos yra automatiškai atnaujinamos priskiriant būseną **Paėmimas**.
 
@@ -119,7 +119,7 @@ Užsakymo eilutes galima supakuoti bet kada po to, kai užsakymo eilutė priimta
 - **Rodoma būsena:** Supakuota arba iš dalies supakuota
 - **Rodoma tarnybinio biuro būsena:** Pristatyta arba iš dalies pristatyta
 
-Šiuo veiksmu eilutės pažymimos kaip supakuotos arba iš dalies supakuotos ir išspausdinamas važtaraštis. Važtaraštį galima išspausdinti norint patikrinti produktus, kurie buvo supakuoti kartu. Važtaraščio formatas sukonfigūruojamas „Commerce“ ir pridedamas prie kvito profilio. Daugiau informacijos, kaip nustatyti kvitų šablonus, žr. [Kvitų šablonai ir spausdinimas](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Šiuo veiksmu eilutės pažymimos kaip supakuotos arba iš dalies supakuotos ir išspausdinamas važtaraštis. Važtaraštį galima išspausdinti norint patikrinti produktus, kurie buvo supakuoti kartu. Važtaraščio formatas sukonfigūruojamas „Commerce“ ir pridedamas prie kvito profilio. Daugiau informacijos, kaip nustatyti kvitų šablonus, žr. [Kvitų šablonai ir spausdinimas](receipt-templates-printing.md).
 
 **Veiksmas: Pažymėti kaip supakuotą**
 

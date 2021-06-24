@@ -2,7 +2,7 @@
 title: Išorinių duomenų naudojimas prognozuojant grynųjų pinigų srautus (peržiūros versija)
 description: Šioje temoje aprašomi nustatymo veiksmai, kuriuos reikia atlikti, kad išoriniai duomenys galėtų būti įvedami arba importuojami į pinigų srautų prognozes.
 author: rcarlson
-ms.date: 05/01/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ddfc0670a5fca24d996e9ab605e267f9f3f26f19
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 66bdb8bd638859bb4fc5565e3f12a8f671addcff
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897893"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186695"
 ---
 # <a name="use-external-data-in-cash-flow-forecasts-preview"></a>Išorinių duomenų naudojimas prognozuojant grynųjų pinigų srautus (peržiūros versija)
 
@@ -57,9 +57,5 @@ Be to, jei reikia perkelti nustatymo duomenis iš vienos aplinkos į kitą, reik
 
 - Grynųjų pinigų srauto prognozės išorinio šaltinio nustatymas
 - Grynųjų pinigų srauto prognozės išorinio šaltinio juridinio subjekto nustatymas
-
-#### <a name="privacy-notice"></a>Privatumo pranešimas
-Peržiūros versijos (1) gali naudoti mažiau privatumo ir mažiau saugos priemonių nei „Dynamics 365 Finance and Operations“ paslauga, (2) jos nėra įtrauktos į aptarnavimo lygio sutartį (SLA), (3) jos neturėtų būti naudojamos apdoroti asmens duomenims ar kitiems duomenims, kuriems taikomi teisiniai ir atitikimo teisės aktai (4) ir jų palaikymas yra ribotas.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

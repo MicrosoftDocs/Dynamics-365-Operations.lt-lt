@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6a3e0e4a8389fdd6580f66004d86ef4b1980dd9f
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0f5a3ac7cae58d17409ea081ec30f61cecf29ce9
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891798"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6224039"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Suprojektuokite naują ER sprendimą tinkintos ataskaitos spausdinimui
 
@@ -799,7 +799,7 @@ Tolesnis paveikslėlis rodo „Excel“ formatu sukurtą ataskaitą, kurioje kla
 
 Šios konfigūracijos versijos 1.1 statusas yra keičiamas iš **Juodraštis** į **Užbaigtas**. Versija 1.1 nebegali būti keičiama. Šioje versijoje yra konfigūruotas formatas ir gali būti naudojamas jūsų tinkintos ataskaitos spausdinimui. Šios konfigūracijos versija 1.2 yra sukurta ir turi **Juodraštis** statusą. Galite redaguoti šią versiją tam, kad keistumėte jūsų ataskaitos **Klausimyno** formatą.
 
-![Redaguojamos ER konfigūracijos versijos konfigūravimo puslapyje](./media/er-quick-start1-format-configuration.png)
+![Redaguojamos ER konfigūracijos versijos redagavimas puslapyje](./media/er-quick-start1-format-configuration.png)
 
 > [!NOTE]
 > Konfigūruotas formatas yra jūsų suprojektuota  **Klausimyno** ataskaita ir neturi jokių sąsajų su finansų artefaktais.

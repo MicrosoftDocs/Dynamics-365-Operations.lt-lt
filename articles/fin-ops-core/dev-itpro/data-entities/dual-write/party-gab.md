@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: e2b0abb2826f81ed87b4f0f37dba32c1d8d749c2
-ms.sourcegitcommit: 194d68b24cd36db21e9029044bed18983fd9810c
+ms.openlocfilehash: c62290506d32579d926ad1a1d6f090845c0d0f26
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937891"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216617"
 ---
 # <a name="party-and-global-address-book"></a>Šalies ir bendros knygelės nustatymas
 
@@ -143,16 +143,22 @@ Elektroniniai adresai galimi tik šiame tinklelyje. Būsimuose leidimuose visi e
 
 ## <a name="setup"></a>Sąranka
 
-1. Įdiekite dvigubo rašymo (2.2.2.60 programos) instrumentavimo sprendimo [naujausią versiją](https://aka.ms/dual-write-app).
+1. Atidarykite savo klientų įdarbinimo programos aplinką.
 
-2. Įdiekite [Dvigubo rašymo į Šalies ir Visuotinę adresų knygelės prendimus](https://aka.ms/dual-write-gab).
+2. Įdiekite dvigubo rašymo (2.2.2.60 programos) instrumentavimo sprendimo [naujausią versiją](https://aka.ms/dual-write-app).
 
-3. Sustabdykite toliau nurodytas schemas, nes jų nebereikia. Paleiskite `Contacts V2 (msdyn_contactforparties)` schemą.
+3. Įdiekite [Dvigubo rašymo į Šalies ir Visuotinę adresų knygelės prendimus](https://aka.ms/dual-write-gab).
+
+4. Atidarykite „Finance and Operations” programą. Eiti į „Data Management“ modulį ir pasirinkti dvigubo rašymo skirtuką. Atidaroma dvigubo rašymo administravimo puslapis.
+
+5. Pritaikykite abu 2 ir 3 veiksmais įdiegtus sprendimus naudodami [sprendimo funkcijos taikykite](link-your-environment.md).
+
+6. Sustabdykite toliau nurodytas schemas, nes jų nebereikia. Paleiskite `Contacts V2 (msdyn_contactforparties)` schemą.
 
     + CDS kontaktai V2 ir kontaktai (nurodo klientų kontaktus)
     + CDS kontaktai V2 ir kontaktai (nurodo tiekėjo kontaktus)
 
-4. Atnaujinami šie šalies funkcijų objektų susiejimai, todėl šiems susiejimams turi būti taikoma naujausia versija.
+7. Atnaujinami šie šalies funkcijų objektų susiejimai, todėl šiems susiejimams turi būti taikoma naujausia versija.
 
     Schema | Atnaujinti į šią versiją | Pakeitimai
     ---|---|---
@@ -176,7 +182,7 @@ Elektroniniai adresai galimi tik šiame tinklelyje. Būsimuose leidimuose visi e
     `Salutations (msdyn_salutations)` | 1.0.0.0 | Tai nauja schema, pridėta kaip ankstesnio šalies peržiūros leidimo dalis.
     `Employment job functions (msdyn_employmentjobfunctions)` | 1.0.0.0 | Tai nauja schema, pridėta kaip ankstesnio šalies peržiūros leidimo dalis.
 
-5. Prieš paleisdami pirmiau pateiktas schemas, turite atnaujinti integravimo raktus rankiniu būdu, kaip aprašyta toliau aprašytus veiksmus. Tada pasirinkite **Įrašyti**.
+8. Prieš paleisdami pirmiau pateiktas schemas, turite atnaujinti integravimo raktus rankiniu būdu, kaip aprašyta toliau aprašytus veiksmus. Tada pasirinkite **Įrašyti**.
 
     | Schema | Raktai |
     |-----|------|
@@ -185,7 +191,7 @@ Elektroniniai adresai galimi tik šiame tinklelyje. Būsimuose leidimuose visi e
     | Kliento/tiekėjo kontaktas | msdyn_contactforpartynumber [šalies numerio kontaktas]<br>msdyn_associatedcompanyid.cdm_companycode [Susieta įmonė (Įmonės kodas)] |
     | Tiekėjas | msdyn_vendoraccountnumber [Tiekėjo sąskaitos numeris]<br>msdyn_company.cdm_companycode [Įmonė (įmonės kodas)]|
 
-6. „Dataverse“, dublikatų aptikimo taisyklių simbolių limitas padidėjo nuo 450 iki 700 simbolių. Ši riba leidžia prie dublikatų aptikimo taisyklių pridėti vieną ar daugiau raktų. Išplėskite dublikatų aptikimo taisyklę **sąskaitų** lentelei, nustatydami šiuos laukus.
+9. „Dataverse“, dublikatų aptikimo taisyklių simbolių limitas padidėjo nuo 450 iki 700 simbolių. Ši riba leidžia prie dublikatų aptikimo taisyklių pridėti vieną ar daugiau raktų. Išplėskite dublikatų aptikimo taisyklę **sąskaitų** lentelei, nustatydami šiuos laukus.
 
     | Laukas | Reikšmė |
     |-------|-------|
@@ -201,7 +207,7 @@ Elektroniniai adresai galimi tik šiame tinklelyje. Būsimuose leidimuose visi e
 
     ![Dubliuoti sąskaitų taisyklę](media/duplicate-rule-1.PNG)
 
-7. Išplėskite dublikatų aptikimo taisyklę **Kontaktų** lentelei, nustatydami šiuos laukus.
+10. Išplėskite dublikatų aptikimo taisyklę **Kontaktų** lentelei, nustatydami šiuos laukus.
 
     | Laukas | Reikšmė |
     |-------|-------|
@@ -217,9 +223,9 @@ Elektroniniai adresai galimi tik šiame tinklelyje. Būsimuose leidimuose visi e
 
     ![Dubliuoti kontaktų taisyklę](media/duplicate-rule-2.PNG)
 
-8. Jei esate esamas dvigubo rašymo vartotojas, vadovaukitės šalies ir visuotinės adresų knygelės modelio atnaujinimo instrukcijomis [ir](upgrade-party-gab.md) atnaujinkite savo duomenis.
+11. Jei esate esamas dvigubo rašymo vartotojas, vadovaukitės šalies ir visuotinės adresų knygelės modelio atnaujinimo instrukcijomis [ir](upgrade-party-gab.md) atnaujinkite savo duomenis.
 
-9. Vykdykite žemėlapius tokia tvarka. Jei gaunate klaidą, kuri reiškia, kad „Projekto tikrinimas nepavyko. Trūksta paskirties lauko...", tada atidarykite schemą ir pasirinkite **Atnaujinti** lenteles. Tada paleiskite schemą.
+12. Vykdykite žemėlapius tokia tvarka. Jei gaunate klaidą, kuri reiškia, kad „Projekto tikrinimas nepavyko. Trūksta paskirties lauko...", tada atidarykite schemą ir pasirinkite **Atnaujinti** lenteles. Tada paleiskite schemą.
 
     „Finance and Operations“ programa | „Customer engagement“ programa  
     ----------------------------|------------------------

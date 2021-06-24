@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcdd8097279027df2fa5cf22cc38cc8a5e2a13e3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f3d82089d2917a0ec0b9ceead7cd1ec22457733
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814589"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188154"
 ---
 # <a name="production-process-overview"></a>Gamybos procesų apžvalga
 
@@ -74,8 +74,7 @@ Visų mišriojo režimo gamybos užsakymų tipų gamybos cikle galimi toliau nur
 12. **Laikotarpio pabaiga** – kai kuriems išlaidų apskaitos principams, pvz., laikotarpio vidurkiui, įkainojimui atvirkštine tvarka, FIFO arba LIFO, reikia atlikti periodiškai pasikartojančias operacijas, kad būtų uždarytas atsargų arba ataskaitinis laikotarpis. Paprastai sistema bando pranešti apie visų medžiagų ir išteklių suvartojimą ir atsargų bei atliekų taisymus prieš uždarant laikotarpius. Šios ataskaitos paprastai pateikiamos naudojant atsargų perkėlimo žurnalus ar koregavimo žurnalus. Tikslas yra įvertinti valdymo vienetų ekonominį efektyvumą per tam tikrą laikotarpį. Kai kuriais atvejais, kai vykdomi ilgalaikiai gamybos užsakymai, apimantys kelis finansinius ataskaitinius laikotarpius, naudojami gamybos žurnalai siekiant pranešti apie gamybos eigą ir išteklių suvartojimą laikotarpio pabaigoje.
 
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Gamybos grįžtamasis ryšys](production-feedback.md)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5e08832d39f0428590780d47fd6b686048889cd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1ce37a85477d65b9592a32dcbe430d09f9dde62b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835225"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189474"
 ---
 # <a name="set-up-collections"></a>Mokėjimų priežiūros nustatymas
 
@@ -40,8 +40,7 @@ ms.locfileid: "5835225"
 
 Šie punktai išsamiau aptariami likusioje šios temos dalyje. 
 
-<a name="set-up-aging-period-definitions"></a>Nustatyti skirstymo pagal terminus laikotarpių apibrėžimus
--------------------------------
+## <a name="set-up-aging-period-definitions"></a>Nustatyti skirstymo pagal terminus laikotarpių apibrėžimus
 
 Nustatykite skirstymo pagal terminus laikotarpio apibrėžtį. Skirstymo pagal terminus laikotarpio apibrėžtis apibrėžia stulpelius, kurie rodomi **Pagal terminus suskirstytų balansų**, **Surinkimo veiklų** ir **Surinkimo atvejų** sąrašo puslapiuose. Ji taip pat apibrėžia laikotarpius, kurie rodomi **Surinkimo** puslapyje. Jei nustatytas klientų telkinys, naudojamas telkiniui skirtas skirstymo pagal terminus laikotarpis. Jei telkiniai nenustatyti, naudojama numatytoji skirstymo pagal terminus laikotarpio apibrėžtis, nurodyta puslapyje **Gautinų sumų parametrai**. Jei nenurodyta jokia numatytoji skirstymo pagal terminus laikotarpio apibrėžtis, naudojama pirmoji puslapyje **Skirstymo pagal terminus laikotarpio apibrėžtys** nurodyta skirstymo pagal terminus laikotarpio apibrėžtis.
 

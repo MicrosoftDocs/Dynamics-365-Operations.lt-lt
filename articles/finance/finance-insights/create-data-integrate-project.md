@@ -2,7 +2,7 @@
 title: Duomenų integratoriaus projekto kūrimas (peržiūros versija)
 description: Šioje temoje paaiškinama, kaip sukurti duomenų integratoriaus projektą.
 author: ShivamPandey-msft
-ms.date: 07/24/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9ecf6ef7b7f052ebbb1201dcd04a7431f5b72ce5
-ms.sourcegitcommit: b64c52d85aa6f110f3b1959a5521637dd8631b5b
+ms.openlocfilehash: 59f85c64ea7b1f539a245e08b76bd6a34797b0ca
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867452"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186473"
 ---
 # <a name="create-a-data-integrator-project-preview"></a>Duomenų integratoriaus projekto kūrimas (peržiūros versija)
 
@@ -67,10 +67,5 @@ ms.locfileid: "5867452"
 
 > [!NOTE]
 > Jei nematote reikiamų objektų CDS, eikite į **Kreditas ir surinkimas > Sąranka > „Finance Insights” > „Finance Insights” parametrai**, įjunkite funkciją Kliento mokėjimo prognozės ir spustelėkite mygtuką **Sukurti prognozavimo modelį**. Kai DI modelio diegimas baigtas (sėkmingas arba jo nepavyko atlikti), CDS objektai, kurių reikia kuriant integraciją, bus įdiegti į CDS.
-
-## <a name="privacy-notice"></a>Privatumo pranešimas
-
-Peržiūros versijos (1) gali naudoti mažiau privatumo ir mažiau saugos priemonių nei „Dynamics 365 Finance and Operations“ paslauga, (2) jos nėra įtrauktos į aptarnavimo lygio sutartį (SLA), (3) jos neturėtų būti naudojamos apdoroti asmens duomenims ar kitiems duomenims, kuriems taikomi teisiniai ir atitikimo teisės aktai (4) ir jų palaikymas yra ribotas.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

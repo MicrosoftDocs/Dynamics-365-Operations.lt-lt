@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0be27fc759c525dcc1ffe4f2717b2e2378c52a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b07da82086696409b128d76d8845c61b241a34b0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744168"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188080"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Dokumentų ar mokymų kūrimas naudojant užduočių įrašymo priemonę
 
@@ -31,8 +31,7 @@ ms.locfileid: "5744168"
 > [!IMPORTANT]
 > Galite įrašyti savo užduotis vedlius, skirtus „Dynamics 365 Human Resources“, tačiau šiuo metu negalėsite jų įrašyti į verslo procesų modeliavimo įrankio (BPM) biblioteką arba jų atidaryti iš srities „Žinynas“. Galite juos įrašyti vietiniame diske arba tinklo vietoje ir tada atidaryti bei pakartotinai leisti naudodami užduočių įrašymo priemonę. 
 
-<a name="learn-about-task-recorder"></a>Sužinokite daugiau apie Užduočių įrašytuvą
--------------------------
+## <a name="learn-about-task-recorder"></a>Sužinokite daugiau apie Užduočių įrašytuvą
 
 Užduočių įrašymo priemonė yra įrankis, naudojamas įrašyti veiksmams, kuriuos atliekate produkto vartotojo sąsajoje (UI). Kai naudojate Užduočių įrašytuvą, fiksuojami visi įvykiai, kuriuos atliekate naudotojo sąsajoje su serveriu, įskaitant reikšmių pridėjimą, nuostatų keitimą, duomenų šalinimą. Veiksmai, kuriuos įrašote, bendrai vadinami *užduoties įrašu*. Užduočių įrašus galima naudoti įvairiais būdais.
 
@@ -111,8 +110,7 @@ Galite atsisiųsti bei redaguoti „Microsoft‟ užduočių įrašus ir juos na
 
 
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Žinyno sistema](../../fin-ops/get-started/help-overview.md)
 

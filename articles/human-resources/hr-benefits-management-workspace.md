@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 154c3d70b61869795edc25514e98a28389eeb244
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: cf2c41af6aa8e77eff819cfacc3459ead290642b
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052246"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193436"
 ---
 # <a name="benefits-management-workspace"></a>Išmokų valdymo darbo sritis
 
@@ -31,7 +31,7 @@ ms.locfileid: "6052246"
 Šioje temoje aprašoma darbo sritis **Išmokų valdymas** programoje „Dynamics 365 Human Resources“.
 
 > [!NOTE]
-> Norėdami peržiūrėti darbo sritį **Išmokų valdymas**, pirmiausia funkcijų valdymo srityje turite įjungti funkciją **(Peržiūra) Išmokų valdymo darbo sritis**. Daugiau informacijos apie peržiūros versijos funkcijų įjungimą žr. skyrių [Funkcijų valdymas](../hr-admin-manage-features.md).<br><br>![Išmokų valdymo darbo srities įjungimas](./media/hr-benefits-management-workspace-enable.png)
+> Norėdami peržiūrėti darbo sritį **Išmokų valdymas**, pirmiausia funkcijų valdymo srityje turite įjungti funkciją **(Peržiūra) Išmokų valdymo darbo sritis**. Daugiau informacijos apie peržiūros versijos funkcijų įjungimą žr. skyrių [Funkcijų valdymas](hr-admin-manage-features.md).<br><br>![Išmokų valdymo darbo srities įjungimas](./media/hr-benefits-management-workspace-enable.png)
 
 Darbo srityje **Išmokų valdymas** trumpai apžvelgiami išmokų elementai, į kuriuos reikia atkreipti dėmesį. Šiame puslapyje matoma:
 

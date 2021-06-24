@@ -12,12 +12,12 @@ ms.reviewer: kfend
 ms.search.region: Lithuania
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d3d5da75faaa121fcafd0b6e120f1537b3d208e6
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 313ce8919e80f89fd8cac801f93aa53c9513985a
+ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019514"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184010"
 ---
 # <a name="standard-audit-file-for-tax-saf-t-for-lithuania"></a>Lietuvai skirtas standartinis mokesčio audito failas (SAF-T)
 
@@ -27,7 +27,7 @@ ms.locfileid: "6019514"
 
 Pagal Lietuvos Respublika apskaitos įstatymo 16 straipsnį, Lietuvos įmonės pagal įstatymus turi pateikti ataskaitą standartiniu mokesčių (PST-T) formato audito failu. Šioje temoje aprašoma, kaip palaiko SAF-T reikalavimus ir paaiškinama, kaip pasiruošti finansams dirbti su „Microsoft Dynamics 365 Finance“ SAF-T ataskaita Lietuvai.
 
-Daugiau informacijos rasite [SAF-T - VMI](https://www.vmi.lt/cms/web/guest/saf-t).
+Daugiau informacijos rasite [SAF-T - VMI](https://www.vmi.lt/evmi/en/home).
 
 ## <a name="setup"></a>Sąranka
 

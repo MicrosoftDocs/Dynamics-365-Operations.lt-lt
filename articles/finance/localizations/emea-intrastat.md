@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db97d05d79a100ebdcfb5b4931b37243b77bd352
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bafbb908531e003d2184409bf5d09ed5848fc474
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814998"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216791"
 ---
 # <a name="intrastat-overview"></a>Intrastat apžvalga
 
@@ -84,6 +84,7 @@ Toliau pateikiamoje lentelėje nurodytos Intrastat ataskaitų būtinosios sąly
 <li><strong>Kilmės šalis / regionas</strong> – pasirinkite numatytąją šalį / regioną, kur buvo gautos ar pagamintos visos prekės.</li>
 <li><strong>Kilmės / paskirties apskritis / rajonas</strong> – pasirinkite numatytąją gavimo paskirties apskritį / rajoną ir išsiuntimo kilmės rajoną / apskritį.</li>
 <li><strong>Grynasis svoris, kg</strong></li>
+<li><strong>Pašalinti</strong>- šį parametrą norint neleisti perkelti operacijų su šiuo produktu į „Intrastat“</li>
 </ul></td>
 </tr>
 <tr class="odd">

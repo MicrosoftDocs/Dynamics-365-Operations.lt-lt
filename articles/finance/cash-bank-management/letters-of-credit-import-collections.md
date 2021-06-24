@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c59a4f098ac19223c5b2fb6808d18d8fea4f4290
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2673ecb09cd479eb10182a4345fe89d8f6b8d404
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815937"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188469"
 ---
 # <a name="letters-of-credit-and-import-collections"></a>Akredityvai ir importo dokumentų inkasavimas
 
@@ -28,8 +28,7 @@ ms.locfileid: "5815937"
 
 Šiame straipsnyje pateikta bendra informacija apie akredityvus ir importo rinkinius. Abiejų tipų banko dokumentai paprastai naudojami prekių pardavimo ir pirkimo tarptautiniu mastu atvejais.
 
-<a name="letters-of-credit"></a>Akredityvai
------------------
+## <a name="letters-of-credit"></a>Akredityvai
 
 Akredityvai naudojami tarptautinėms operacijoms, siekiant užtikrinti, kad bus atlikti mokėjimai. Akredityvas yra banko išduota sutartis, pagal kurią bankas sutinka užtikrinti mokėjimą pirkėjo vardu, jei sutarties tarp pirkėjo ir pardavėjo sąlygos yra patenkinamos. Akredityvas taip pat vadinamas dokumentuotu kreditu (DC).
 

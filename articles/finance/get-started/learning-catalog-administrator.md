@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c3c69781aa7a67d22fe7d0fc70b1349673c5867c
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 289b51c1dcb2a30a09c643d7cc419af0627bd8d8
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897265"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193360"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-administrators"></a>Mokymosi katalogas „Dynamics 365 Finance“ administratoriams
 
@@ -58,8 +58,9 @@ Toliau pateiktas katalogas yra sutvarkytas taip, kad žinios būtų išdėstytos
 
 ## <a name="migration-and-upgrade"></a>Perkėlimas ir atnaujinimas<a name="migration-and-upgrade"></a>
 
-| Turinys | aprašymas  | Formatuoti | Ilgis    |
+| Turinys | Aprašas  | Formatuoti | Ilgis    |
 |---------|--------------|--------|-----------|
+| [„Dynamics AX 2012” atnaujinimas į „Finance and Operations” programas](https://docs.microsoft.com/learn/paths/upgrade-ax-2012-finance-operations/) | Sužinokite apie svarbiausius elementus ir geriausias praktikas sėkmingam jūsų „Dynamics AX 2012” sprendimo atnaujinimui į „Finance and Operations” programas. Nuo pirmųjų pagrindinių architektūros skirtumų atradimo veiksmų, darbo pradžios su atnaujinimo procesu ir kodo bei duomenų atnaujinimo įrankiais, iki geriausių būdų perprojektuoti jūsų integravimus, analizes ir ataskaitas, remiantis naujausiomis galimybėmis. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi kelias | 7 valandos |
 | [„Finance and Operations”: atnaujinimas iš 7.x į 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | Prisijunkite prie kitos mūsų techninės kalbos, kurios metu mes apžvelgsime atnaujinimo iš 7.X į 8.X atnaujinimo procesą. Aptarsime įvairius scenarijus ir veiksmus, kuriuos reikia atlikti atnaujinant kodą ir duomenis. Mes taip pat apžvelgsime išplečiamumo užklausų scenarijus ir kaip jas pateikti esant poreikiui. | Nemokamas internetinės konferencijos įrašymas | 61 minutės |
 | [Kaip iš 7.0 atnaujinti į 7.2 versiją (2017 m. liepos mėn.) (RTW) / 7.1 (1611 leidimas) (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | Šio seanso metu mes paaiškinsime, kaip atnaujinti „Dynamics 365 Finance and Operations“ programos 7.0 (RTW) versiją ir 7.1 (1611) versiją į 7.2 versiją (2017 m. liepa). Mes norime aiškiai atskirti esamus klientus ir vykdomus projektus (dar neįgyvendintus). | Nemokamas internetinės konferencijos įrašymas | 58 minutės |
 | [Atnaujinimas iš AX2012 į „Dynamics 365 for Operations“ (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | Šioje techninėje kalboje apžvelgiama, kaip atnaujinti kodą ir duomenis iš „Dynamics AX 2012“ į „Dynamics 365 for Operations“. | Nemokamas internetinės konferencijos įrašymas | 45 minučių |

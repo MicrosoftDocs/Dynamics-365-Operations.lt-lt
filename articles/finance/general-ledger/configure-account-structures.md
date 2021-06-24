@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7565dac61546ba87f5bf4605d3c6beceef7ac980
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 22123eb7a46910a2bc68a85b57271cfa2f3eb41e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821894"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193811"
 ---
 # <a name="configure-account-structures"></a>Sukonfigūruoti sąskaitų struktūras
 
@@ -46,9 +46,9 @@ Pateikdami šį geriausios praktikos pavyzdį, skirtą sąskaitos struktūrai nu
 
 **Pelno ir nuostolio sąskaitos struktūra**
 
-|Korespondentinė sąskaita, subsąskaita          | Verslo struktūros vienetas    |Skyrius          | Išlaidų centras    |
-|----------------------|-----------|----------------------|-----------|
-|400000..999999 | *;” “|*;” “|*;” “|*;” “|
+|Korespondentinė sąskaita, subsąskaita          | Verslo struktūros vienetas    |Padalinys          | Išlaidų centras    | &nbsp; |
+|----------------------|------------------|--------------------|-----------|---|
+|400000..999999 | \*;” “| \*;” “| \*;” “| \*;” “|
 
 **Išplėstinė taisyklė klientui įtraukti**
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 231c59cea2ca0bcb139079209d2e846e67eb7fed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b23edee0884b595a0da6ebd7eca0cf0391ff33f7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839154"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190093"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Prekių skirstymas iš gamybos užsakymų į pakrovimo rampas
 
@@ -28,8 +28,7 @@ ms.locfileid: "5839154"
 
 Šioje temoje aprašoma, kaip valdyti prekių skirstymo medžiagos procesą, kai iš gamybos linijos siunčiamų prekių transportavimo rampai pranešama, kad procesas baigtas.
 
-<a name="introduction"></a>Įžanga
-------------
+## <a name="introduction"></a>Įžanga
 
 Prekių skirstymas nuo gamybos iki siunčiamų prekių transportavimo vietos svarbus gamintojams, gaminantiems didelius kiekius prekių, kurie nori išsiųsti pabaigtus produktus iš karto, kai tik iš gamybos linijų gaunamas pranešimas, kad jie baigti. Tikslas yra išsiųsti produktus paskirstymo centrams, kurie įsikūrę netoli kliento poreikio, o ne kaupti atsargas gamybos vietoje.
 

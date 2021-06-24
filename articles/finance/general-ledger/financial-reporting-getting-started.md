@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4de7f7f5f501024b7698736ded80405b9291cb58
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 43ab01d36f032e36a0daed6f94897bba42f8a189
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897041"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189002"
 ---
 # <a name="get-started-with-financial-reporting"></a>Pradėkite su „Financial reporting“ 
 
@@ -28,8 +28,7 @@ ms.locfileid: "5897041"
 
 Šioje temoje paaiškinama, kur galima pasiekti finansines ataskaitas ir kaip naudoti finansinių ataskaitų galimybes. Ji taip pat apima pateikiamų numatytųjų finansinių ataskaitų aprašymą.
 
-<a name="accessing-financial-reporting"></a>Prieiga prie finansinių ataskaitų
------------------------------
+## <a name="accessing-financial-reporting"></a>Prieiga prie finansinių ataskaitų
 
 Galite prieiti prie **„Financial reporting“** meniu šiose vietose:
 

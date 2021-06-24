@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4e12eb3162d00c76254582c0621c9dd567df562
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0e9c321315f91de6cf0f2029c26bd4f398a73830
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837302"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6194006"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Vienas kvitas su keliais kliento arba tiekėjo įrašais
 
@@ -207,8 +207,6 @@ Susijusiame mokėjimo nuolaidos kvite finansinės dimensijos bus naudojamos iš 
 |-------------|-----------------|------------------------|-----------|------------|
 | ARP-00001   | 403300-002-023- | Kliento mokėjimo nuolaida | 2,00      |            |
 | ARP-00001   | 130100-002-     | Kliento balansas       |           | 2,00       |
-
-### 
 
 ## <a name="one-voucher-with-a-netting-for-multiple-customers-and-vendors"></a>Vienas kvitas su kelių klientų ir tiekėjų padengimu
 Padengimas gali būti naudingas, kai organizacija perka ir parduoda tai pačiai įmonei. Užuot mokėjus tiekėjui sąskaitas faktūras ir laukus, kol bus apmokėtos kliento sąskaitos faktūros, tiekėjo ir kliento sąskaitos faktūros padengiamos. Padengimo operacija sudengiama naudojant neapmokėtus balansus. 

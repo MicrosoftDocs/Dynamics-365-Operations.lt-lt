@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf9c256c4b9ade408111a46899ee266b2eb0d651
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: 61c745802edc419cb2ae94df6bc293f839cd8a0a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920114"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188859"
 ---
 # <a name="transportation-management-engines"></a>Transportavimo valdymo mechanizmai
 
@@ -43,8 +43,7 @@ Toliau pateiktoje lentelėje parodyti galimi transportavimo valdymo mechanizmai.
 | **Transportavimo sąskaitos tipas**            | Standartizuojama transportavimo sąskaita faktūra bei transportavimo sąskaitos eilutės ir yra naudojamas automatiniam transportavimo sąskaitos gretinimui atlikti.                                                                                                                                                                                                                |
 
 
-<a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Kokie mechanizmai turi būti sukonfigūruoti norint vertinti siuntą?
----------------------------------------------------
+## <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Kokie mechanizmai turi būti sukonfigūruoti norint vertinti siuntą?
 
 Norėdami vertinti siuntą naudodami konkretų vežėją, turite sukonfigūruoti kelis transportavimo valdymo mechanizmus. **Tarifo nustatymo mechanizmas** yra būtinas, bet gali reikėti ir kitų transportavimo valdymo mechanizmų, kad būtų palaikomas **Tarifo nustatymo mechanizmas**. Pavyzdžiui, **Tarifo nustatymo mechanizmas** galima naudoti duomenims iš **Kilometražo mechanizmas** nuskaityti norint apskaičiuoti tarifą pagal kilometražą tarp šaltinio ir paskirties vietos.
 
@@ -62,8 +61,7 @@ Daugeliu atvejų inicijavimo duomenis galite konfigūruoti spustelėdami transpo
 |  <em>MileageEngineCode</em>  |                       Kilometražo mechanizmo kodas, identifikuojantis kilometražo mechanizmo įrašą duomenų bazėje.                        |
 | <em>ApportionmentEngine</em> |                        Išlaidų mechanizmo kodas, identifikuojantis paskirstymo mechanizmą duomenų bazėje.                        |
 
-<a name="how-is-metadata-used-in-transportation-management-engines"></a>Kaip transportavimo valdymo mechanizmuose naudojami metaduomenys?
-----------------------------------------------------------
+## <a name="how-is-metadata-used-in-transportation-management-engines"></a>Kaip transportavimo valdymo mechanizmuose naudojami metaduomenys?
 
 Transportavimo valdymo mechanizmai, priklausantys nuo Tiekimo grandinės valdyme apibrėžtų duomenų, gali naudoti skirtingas duomenų schemas. Transportavimo valdymo sistema leidžia įvairiems transportavimo valdymo mechanizmams naudoti tas pačias bendrąsias fizinės duomenų bazės lenteles. Norėdami įsitikinti, kad mechanizmo duomenų apdorojimo laiko interpretavimas yra teisingas, galite apibrėžti duomenų bazės lentelių metaduomenis. Tai sumažina naujų transportavimo valdymo mechanizmų kūrimo išlaidas, nes papildomos lentelių ir formų struktūros programoje „Operations“ nėra privalomos.
 

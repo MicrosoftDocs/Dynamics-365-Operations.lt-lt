@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: df06df63c28ca99bb9cb95e99b3498f70c54d97f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e354cec1fb5612afff6e265c4808f4fb2c237a9d
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053664"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193729"
 ---
 # <a name="provision-human-resources"></a>„Human Resources“ parengimas
 
@@ -56,7 +56,7 @@ Norėdami naudoti LCS „Human Resources“ aplinkoms valdyti, pirma turite suku
 1. Prisijunkite prie [LCS](https://lcs.dynamics.com/Logon/Index) naudodami paskyrą, kurią naudojote prisijungti prie „Human Resources“.
 
    > [!NOTE]
-   > Norint užtikrinti sėkmingą parengimą, abonementas, kurį naudojate personalo aplinkai konfigūruoti, turi būti priskirtas arba sistemos administratoriui, arba sistemos pritaikymo priemonės vaidmeniui aplinkoje, kuri susieta **su** **personalo**„Power Apps“ aplinka. Norėdami [gauti daugiau informacijos apie saugos vaidmenų priskyrimą programos](https://docs.microsoft.com/power-platform/admin/database-security) vartotojams, peržiūrėkite vartotojo saugos konfigūravimą pagal išteklius „Power Platform“.
+   > Norint užtikrinti sėkmingą parengimą, abonementas, kurį naudojate personalo aplinkai konfigūruoti, turi būti priskirtas arba sistemos administratoriui, arba sistemos pritaikymo priemonės vaidmeniui aplinkoje, kuri susieta **su** **personalo**„Power Apps“ aplinka. Norėdami [gauti daugiau informacijos apie saugos vaidmenų priskyrimą programos](/power-platform/admin/database-security) vartotojams, peržiūrėkite vartotojo saugos konfigūravimą pagal išteklius „Power Platform“.
 
 2. Pasirinkite pliuso ženklą (**+**), kad sukurtumėte projektą.
 

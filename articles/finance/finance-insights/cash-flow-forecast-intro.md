@@ -2,7 +2,7 @@
 title: Grynųjų pinigų srautų prognozė (peržiūros versija)
 description: Šioje temoje aprašoma priemonė Grynųjų pinigų srautų prognozavimas.
 author: ShivamPandey-msft
-ms.date: 05/19/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6e4713aa4662714d1b2a3eeb62adce8608907054
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 64935db3b50e7598f2076ecbec72aba020d4f908
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811416"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186545"
 ---
 # <a name="cash-flow-forecast-preview"></a>Grynųjų pinigų srautų prognozė (peržiūros versija)
 
@@ -62,9 +62,5 @@ Grynųjų pinigų srautų prognozavimo funkcija programoje „Dynamics 365 Finan
 Naujas skirtukas puslapyje **Grynųjų pinigų srautų prognozavimo sąranka** leidžia kontroliuoti, kokios finansinės dimensijos gali būti naudojamos filtruojant darbo sritį **Grynųjų pinigų srautų prognozavimas**. Šis skirtukas bus rodomas tik tada, kai bus įjungta funkcija Grynųjų pinigų srautų prognozės. 
 
 Skirtuke **Dimensijos** pasirinkite iš dimensijų, kurias naudosite filtruodami, sąrašo ir naudokite rodyklių klavišus, kad perkeltumėte jas į dešinįjį stulpelį. Grynųjų pinigų srautų prognozavimo duomenims filtruoti galima pasirinkti tik dvi dimensijas. 
-
-#### <a name="privacy-notice"></a>Privatumo pranešimas
-Peržiūros versijos (1) gali naudoti mažiau privatumo ir mažiau saugos priemonių nei „Dynamics 365 Finance and Operations“ paslauga, (2) jos nėra įtrauktos į aptarnavimo lygio sutartį (SLA), (3) jos neturėtų būti naudojamos apdoroti asmens duomenims ar kitiems duomenims, kuriems taikomi teisiniai ir atitikimo teisės aktai (4) ir jų palaikymas yra ribotas.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

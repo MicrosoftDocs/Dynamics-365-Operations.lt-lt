@@ -2,7 +2,7 @@
 title: Mašininio mokymo modelių rezultatai (peržiūros versija)
 description: Šioje temoje aptariamos supainiojimo matricos, klasifikavimo problemos ir mašininio mokymo (ML) modelių tikslumas. Siekiama, kad geriau suprastumėte ML prognozavimo rezultatų tikslumą.
 author: ShivamPandey-msft
-ms.date: 06/05/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a9642bd21ffc0770be61677220e0e72986586047
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: fe652c32df9417f0f716242a24a26eabd1a16f65
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028208"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193545"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Mašininio mokymo modelių rezultatai (peržiūros versija)
 
@@ -129,16 +129,12 @@ Norint supaprastinti skaičiavimus, buvo sukurti imčių masyvai, kad būtų sug
 
 Kad galėtumėte daugiau sužinoti apie tai, kaip šis skaičiavimas veikia, toliau pateikiama 1 modelio sklearn.metrics klasifikacijos ataskaita. Tris būsenas „Laiku“, „Vėluoja“ ir „Labai vėluoja“ atitinka eilutės, atitinkamai pažymėtos 1, 2 ir 3. Makrovidurkis yra tik stulpelio „F1-score“ vidurkis.
 
-|           | tikslumas | atitiktis   | f1-score |
+| &nbsp;    | tikslumas | atitiktis   | f1-score |
 |-----------|-----------|----------|----------|
 | **1**     | 0.83      | 0.80     | 0.82     |
 | **2**     | 0.68      | 0.71     | 0.69     |
 | **3**     | 0.50      | 0.50     | 0.50     |
 
 Kaip rodo šie rezultatai, šių dviejų modelių F1 makrotikslumo balai yra beveik vienodi. Šiuo ir daugeliu kitų atvejų F1 tikslumas yra geresnis modelio pajėgumo rodiklis. Tikslumo atžvilgiu, interpretuojant rezultatus reikia suprasti, ką svarbiausia nagrinėti modelyje.
-
-#### <a name="privacy-notice"></a>Privatumo pranešimas
-Peržiūros versijos (1) gali naudoti mažiau privatumo ir mažiau saugos priemonių nei „Dynamics 365 Finance and Operations“ paslauga, (2) jos nėra įtrauktos į aptarnavimo lygio sutartį (SLA), (3) jos neturėtų būti naudojamos apdoroti asmens duomenims ar kitiems duomenims, kuriems taikomi teisiniai ir atitikimo teisės aktai (4) ir jų palaikymas yra ribotas.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

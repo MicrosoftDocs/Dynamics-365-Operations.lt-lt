@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b03d176791ee476ccddbf519471becafd086b0b7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 07acb7ef5565fa4a63607f6828e46c1fcf8110cc
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826376"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193623"
 ---
 # <a name="customer-posting-profiles"></a>Kliento registravimo šablonai
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826376"
 
 Pagal kliento registravimo šablonus valdomas klientų operacijų registravimas į DK.
 
-<a name="customer-posting-profiles"></a>Kliento registravimo šablonai
--------------------------
+## <a name="customer-posting-profiles"></a>Kliento registravimo šablonai
 
 Klientų registravimo profiliai leidžia DK sąskaitas ir dokumentų nuostatas priskirti visiems klientams, klientų grupei arba vienam klientui. Šios nuostatos bus naudojamos kuriant pardavimo užsakymus, laisvos formos SF, mokėjimus grynaisiais pinigais, priminimo laiškus ir delspinigių pažymas. Kai kurių operacijų registravimo šabloną galite pasirinkti tokį, kuris skiriasi nuo šiame puslapyje operacijoms nustatytų registravimo profilių ir yra už juos svarbesnis. 
 
@@ -118,7 +117,6 @@ Jei norite, kad visų kliento operacijų registravimo profilis būtų tas pats, 
 </tbody>
 </table>
 
-### 
 
 ### <a name="table-restrictions"></a>**Lentelių apribojimai**
 

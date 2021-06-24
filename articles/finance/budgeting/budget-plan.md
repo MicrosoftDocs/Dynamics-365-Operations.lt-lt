@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6223cce4a960d3fa3db1f3a17b324201085ea04
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1e22089220edfff3fb53b2101b39f5352817db2a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822232"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188026"
 ---
 # <a name="budget-planning"></a>Biudžeto planavimas
 
@@ -34,13 +34,12 @@ ms.locfileid: "5822232"
 - Naudojami paskirstymai biudžeto plano dokumento duomenims koreguoti
 - Biudžeto plano dokumento duomenys redaguojami programoje „Excel“ 
 
-<a name="prerequisites"></a>Būtinieji komponentai 
-------------------
+## <a name="prerequisites"></a>Būtinieji komponentai 
 
-Šioje mokymo programoje jums reikės prieigos prie „Microsoft Dynamics 365 Finance“ aplinkos naudojant „Contoso“ demonstracinius duomenis ir turėti administratoriaus teises naudojant egzempliorių. Šiame laboratoriniame darbe nenaudokite privataus naršyklės režimo – jei reikia, atsijunkite nuo bet kokių kitų sąskaitų naršyklėje, ir prisijunkite naudodami administratoriaus kredencialus. Prisijungdami **PRIVALOTE** pažymėti žymės langelį Likti prisijungus. Taip sukuriamas nuolatinis slapukas, kurio dabar reikia „Excel“ programai. Jei prisijungsite prie programos naudodami kitą naršyklę nei IE, tada jus paragins prisijungti per „Excel“ programą. Spustelėjus „Prisijungti“ „Excel“ programoje, atsidarys IE iššokantysis langas – prisijungdami **PRIVALOTE** patikrinti, ar pažymėtas žymės langelis „Likti prisijungus“. Jei „Excel“ programoje spustelėjus „Prisijungti“ nepanašu, kad kas nors būtų įvykę, reikėtų išvalyti IE slapukų talpyklą.
+Šioje mokymo programoje jums reikės prieigos prie „Microsoft Dynamics 365 Finance“ aplinkos su „Contoso“ demonstracinius duomenis ir turėti administratoriaus teises naudojant egzempliorių. Šiame laboratoriniame darbe nenaudokite privataus naršyklės režimo – jei reikia, atsijunkite nuo bet kokių kitų sąskaitų naršyklėje, ir prisijunkite naudodami administratoriaus kredencialus. Prisijungdami **PRIVALOTE** pažymėti žymės langelį Likti prisijungus. Taip sukuriamas nuolatinis slapukas, kurio dabar reikia „Excel“ programai. Jei prisijungsite prie programos naudodami kitą naršyklę nei IE, tada jus paragins prisijungti per „Excel“ programą. Spustelėjus „Prisijungti“ „Excel“ programoje, atsidarys IE iššokantysis langas – prisijungdami **PRIVALOTE** patikrinti, ar pažymėtas žymės langelis „Likti prisijungus“. Jei „Excel“ programoje spustelėjus „Prisijungti“ nepanašu, kad kas nors būtų įvykę, reikėtų išvalyti IE slapukų talpyklą.
 
 ## <a name="scenario-overview"></a>**Scenarijaus apžvalga**
-Julija dirba finansų vadove „Contoso Entertainment Systems“ įmonėje Vokietijoje (DEMF). Artėjant FY2016, ji turi sudaryti kitų metų įmonės biudžetą. Biudžeto sudarymas atrodo taip:
+Julija dirba finansų vadove „Contoso Entertainment Systems“ Vokietijoje (DEMF). Artėjant FY2016, ji turi sudaryti kitų metų įmonės biudžetą. Biudžeto sudarymas atrodo taip:
 
 1.  Julija naudoja ankstesnių metų faktines sumas kaip atskaitos tašką kuriant biudžetą.
 2.  Atsižvelgdama į ankstesnių metų faktines sumas, ji kuria kitų metų 12 mėnesių įvertinimus

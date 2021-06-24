@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62868c30d3ff60e51d99c71b743ab0bbb3c87451
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fc986ea752d1482f618401058f7a0b18f13efd5f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835201"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188715"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Palūkanų tarifų nustatymas palūkanų kodui
 
@@ -90,7 +90,6 @@ Galite nustatyti diapazono informaciją, kaip nurodyta toliau.
 
 
 ## <a name="example-2-interest-by-range--days"></a>2 pavyzdys: delspinigiai pagal diapazoną = dienos
---------------------------------------------------
 
 Nustatykite delspinigių kodą, kuris paskaičiuoja delspinigius vieną kartą kas 15 dienų, kiek vėluojama apmokėti SF. Norite skaičiuoti delspinigius pagal sumos delspinigių vertę, pakopiniais dienos intervalais. Delspinigių vertė bus 10,00 už 15 dienų pirmąsias 60 dienų, 15,00 už 15 dienų, kai vėluojama 61–90 d., ir 20,00 už 15 dienų, kai vėluojama daugiau nei 91 d. Nustatykite delspinigių kodo lauko vertes, kaip nurodyta toliau.
 
@@ -111,7 +110,6 @@ Galite nustatyti diapazono informaciją, kaip nurodyta toliau.
 
 
 ## <a name="example-3-interest-by-range--months"></a>3 pavyzdys: delspinigiai pagal diapazoną = mėnesiai
-----------------------------------------------------
 
 Nustatykite delspinigių kodą, kuris paskaičiuoja delspinigius vieną kartą kas mėnesį, kiek vėluojama apmokėti SF. Norite skaičiuoti delspinigius pagal procentinę delspinigių vertę, pakopiniais mėnesio intervalais. Delspinigių vertė bus 1,5 proc. už mėnesį pirmuosius tris mėnesius, kiek vėluojama sumokėti, 2,0 proc. už mėnesį už kitus tris mėnesius, 2,5 proc. už kiekvieną paskesnį mėnesį (kai vėluojama daugiau nei 6 mėnesius). Nustatykite delspinigių kodo lauko vertes, kaip nurodyta toliau.
 

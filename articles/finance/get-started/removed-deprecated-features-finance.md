@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 8cacf2fbef8873288493f71b43d22dc186e6d18e
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: e6a391b10ddaef79e68f47afae7d77135a1c333a
+ms.sourcegitcommit: cb282e8d2306ab71adf80a84346a6863d2d019e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980903"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184130"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Pašalintos arba nerekomenduojamos „Dynamics 365 Finance“ funkcijos
 
@@ -65,7 +65,7 @@ ms.locfileid: "5980903"
 | **Pakeitė kita funkcija?**   | Taip |
 | **Paveiktos produkto sritys**         | „Dynamics 365 Finance”, „Supply Chain Management” ir „Project Operations” produktai|
 | **Visuotinio diegimo parinktis**              | Visos |
-| **Būsena**                         | Nerekomenduojama: nuo 2022 m. balandžio 1 d. nebepalaikysime „Microsoft Dynamics Lifecycle Services” (LCS) saugyklos kaip elektroninių ataskaitų (ER) konfigūracijų saugojimo parinkties. Naujos „Microsoft” ER konfigūracijos bus publikuojamos ir jas bus galima atsisiųsti tik iš visuotinės saugyklos. Visuotinę saugyklą galima pasiekti iš „Dynamics 365” produktų ir RCS. Daugiau informacijos žr. [ER konfigūracijų importavimas iš RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md). |
+| **Būsena**                         | Nerekomenduojama: nuo 2022 m. balandžio 1 d. nebepalaikysime „Microsoft Dynamics Lifecycle Services” (LCS) saugyklos kaip elektroninių ataskaitų (ER) konfigūracijų saugojimo parinkties. Naujos „Microsoft” ER konfigūracijos bus publikuojamos ir jas bus galima atsisiųsti tik iš visuotinės saugyklos. Visuotinę saugyklą galima pasiekti iš „Dynamics 365” produktų ir RCS. Norėdami gauti daugiau informacijos, žr. [Importuoti ER konfigūracijas iš RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md) ir [„Regulatory Configuration Service“ - „Lifecycle Services“ talpinimas nebegalioja](../localizations/rcs-lcs-repo-dep-faq.md). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Pašalintos arba nerekomenduojamos funkcijos, esančios „Finance“ 10.0.16 versijoje
 

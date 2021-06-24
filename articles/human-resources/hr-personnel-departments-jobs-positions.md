@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1279cd1eb0d495107515dd40f7d2e0f9dfd5e080
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 84e7017cb0bd799e27e19fc82009307d2955dea7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058829"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189755"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Darbo jėgos organizavimas naudojant padalinius, užduotis ir pareigas
 
@@ -42,8 +42,7 @@ Padaliniai, užduotys ir pareigos yra organizaciniai elementai, tvarkomi modulyj
 |**Personalas**|Personalo vadovas (centrinis regionas)|Personalo vadovas|
 
 
- <a name="departments"></a>Padaliniai
-------------
+##  <a name="departments"></a>Padaliniai
 
 Padalinys yra valdymo vienetas, atitinkantis organizacijos kategoriją arba funkcinę sritį, skirtą tam tikrai organizacijos veiklos sričiai, pvz., pardavimui arba apskaitai, valdyti. Padalinys naudojamas informuoti apie funkcines sritis ir jam gali būti priskirta pelno ir nuostolio atsakomybė. Be to, padalinyje gali būti išlaidų centrų grupė. Pardavimo, apskaitos ir personalo valdymo skyriai galėtų būti vieni iš organizacijos padalinių pavyzdžių.
 
@@ -96,8 +95,7 @@ Užduočių tipai naudojami panašiems darbams klasifikuoti į kategorijas. Kaip
 
 Atsakomybės ribos naudojamos užduotį atliekančio darbuotojo darbo vaidmenims, procesams ir produktams, už kuriuos jis yra atsakingas, apibrėžti. Pvz., buhalterio atsakomybės ribos gali būti apibrėžtos kaip „Produkto A finansinės ataskaitos“.
 
-<a name="positions"></a>Pareigybės
-----------
+## <a name="positions"></a>Pareigybės
 
 Pareigos yra svarbus žemesniojo organizacijos hierarchijos lygio elementas. Pozicija yra individualus užduoties egzempliorius. Pvz., pareigos „Pardavimo vadybininkas (rytų regionas)“ yra tik vienos iš pareigų, susietų su užduotimi „Pardavimo vadovas“. Pareigos atitinka padalinį ir yra priskiriamos darbuotojams.
 ### <a name="position-creation-and-maintenance"></a>Pareigų kūrimas ir priežiūra

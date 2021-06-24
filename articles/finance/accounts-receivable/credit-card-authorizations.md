@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6b59d54df9427961e2c4fb6f1387646d6fe8dfc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 502fe22aa0caafbcff059c9d0ae83c7cd030e8d0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837134"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190314"
 ---
 # <a name="credit-card-setup-authorization-and-capture"></a>Kredito kortelių nustatymas, autorizacija ir patvirtinimas
 
@@ -28,8 +28,7 @@ ms.locfileid: "5837134"
 
 Šiame straipsnyje pateikiama kredito kortelės autorizavimo programoje „Microsoft Dynamics 365 Finance“ apžvalga. Jame pateikiama informacija apie tai, kaip nustatyti mokėjimo tarnybą, į pardavimo užsakymą įtraukti kredito kortelę ir anuliuoti autorizaciją.
 
-<a name="setting-up-the-credit-card-payment-service"></a>Kredito kortelės mokėjimo paslaugos nustatymas
-------------------------------------------
+## <a name="setting-up-the-credit-card-payment-service"></a>Kredito kortelės mokėjimo paslaugos nustatymas
 
 Norėdami naudotis kredito kortelėmis, turite sukurti ir aktyvuoti mokėjimo paslaugą Mokėjimo paslaugų puslapyje. Mokėjimo paslauga veikia kaip tiltas, jungiantis jūsų organizaciją su klientų kreditinių kortelių mokėjimus apdorojančiu banku. Turite dirbti su kredito kortelių teikėju, nurodytu mokėjimo jungties lauke ir sukurti sąskaitą su tuo teikėju. Tada turite sukurti kitas parinktis Mokėjimo paslaugų puslapyje, nustatyti kredito kortelių rūšis, skirtas „American Express“, „Discover“, „MasterCard“ ir „Discover“ Kredito kortelių rūšių puslapyje, ir aktyvuoti teikėją kaip numatytąjį teikėją. Taip pat, norėdami baigti sąranką, turite atlikti šiuos žingsnius:
 -   Gautinų sumų parametrų puslapyje nurodykite parametrus, naudotinus kreditinių kortelių autorizavimui.
@@ -39,13 +38,11 @@ Norėdami naudotis kredito kortelėmis, turite sukurti ir aktyvuoti mokėjimo pa
 ## <a name="adding-a-new-credit-card"></a>Kaip pridėti naują kreditinę kortelę
 Naujos kredito kortelės duomenis galite sukurti Klientų puslapyje naudodami Klientas, Nustatyti, Kreditinė kortelė. Taip pat galite sukurti kreditinių kortelių įrašus, įvesdami pardavimų užsakymus Pardavimų užsakymų puslapyje, naudodami Tvarkyti, Klientas, Kreditinė kortelė, Registruoti.
 
-<a name="adding-a-credit-card-to-a-sales-order"></a>Kaip pridėti kreditinę kortelę pardavimo užsakymui
--------------------------------------
+## <a name="adding-a-credit-card-to-a-sales-order"></a>Kaip pridėti kreditinę kortelę pardavimo užsakymui
 
 Galite pridėti kreditinę kortelę pardavimo užsakymui, pasirinkdami kredito kortelę iš kredito kortelių paieškos iš Kainų ir nuolaidų „FastTab“ Pardavimų užsakymo puslapyje. Norėdami pradėti autorizavimo procesą, Veiksmų srityje, Tvarkyti kortelę, pasirinkite Kredito kortelė ir Autorizuoti.
 
-<a name="authorizing-a-credit-card"></a>Kredito kortelės autorizacija
--------------------------
+## <a name="authorizing-a-credit-card"></a>Kredito kortelės autorizacija
 
 Autorizavus kredito kortelę, patikrinamas kortelės numeris ir kortelės savininko vardas ir patvirtinamas turimas kredito likutis. Pasirinktinai tikrinama kortelės patvirtinimo vertė ir kortelės savininko adresas. Kliento turimas kredito likutis sumažinamas pardavimo sąskaitoje faktūroje nurodyta suma. Mokėjimo paslauga siunčia informaciją, kad kredito kortelė buvo patvirtinta arba atmesta. Pardavimo pavedimi išrašius sąskaitą, sąskaitos faktūros suma nurašoma iš kredito kortelės.
 

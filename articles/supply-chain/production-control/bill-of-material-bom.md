@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 037b6de9c23947b8b67faa12f2fc64afa089949c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bb9b26eaedd9e9645209ce0b4b767170cccfdc48
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811779"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190117"
 ---
 # <a name="bills-of-materials-and-formulas"></a>KS ir formulės
 
@@ -29,8 +29,7 @@ ms.locfileid: "5811779"
 
 Šioje temoje pateikiama informacija apie KS ir formules, kurios yra svarbi produktų ir produktų variantų aprašų dalis. KS ir formulės nurodo reikiamas konkretaus produkto medžiagas arba sudedamąsias dalis. Formulės taip pat nurodo sudėtinius produktus arba šalutinius produktus, kurie gauname konkrečiame gamybos kontekste. 
 
-<a name="bills-of-materials"></a>Komplektavimo specifikacijos
-------------------
+## <a name="bills-of-materials"></a>Komplektavimo specifikacijos
 
 Komplektavimo specifikacija (KS) apibrėžia komponentus, kurių reikia norint pagaminti produktą. Komponentai gali būti žaliavos, pusiau baigti produktai arba ingredientai. Kai kuriais atvejais KS specifikacijoje gali būti nurodoma į paslaugas. Tačiau paprastai KS specifikacijose apibūdinami reikalingi *medžiagų ištekliai*.  
 

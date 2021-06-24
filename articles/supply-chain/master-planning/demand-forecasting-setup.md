@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d2f1820f79798488c73f20f9c688fa877af4f1b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4960e8418de473d20c9a1948ca606ae76ad1ac19
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816537"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189721"
 ---
 # <a name="demand-forecasting-setup"></a>Poreikio prognozių nustatymas
 
@@ -88,8 +88,7 @@ Skirtuke **Paskirstymo raktai** galite nustatyti **prognozės algoritmo parametr
 - **Užuomina apie sezoniškumą**. Jei naudojate sezoninius duomenis, pateikite prognozės modeliui užuominą, kad pagerintumėte prognozės tikslumą. Formatas: sveikasis skaičius, nurodantis poreikio kartojimosi šabloną. Pavyzdžiui, įvesdami 6 nurodykite duomenis, kurie kartojasi kas 6 mėnesius.
 - **Rinkinio dydžio procento tikrinimas**. Praeities duomenų procentas, kurį reikia naudoti kaip bandomąjį rinkinį skaičiuojant prognozės tikslumą. 
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Poreikio prognozavimo apžvalga](introduction-demand-forecasting.md)
 

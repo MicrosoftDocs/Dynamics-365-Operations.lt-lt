@@ -2,7 +2,7 @@
 title: Mokesčių skaičiavimas (peržiūros versija)
 description: Šioje temoje paaiškinama bendroji Mokesčių skaičiavimo galimybės apimtis ir funkcijos.
 author: wangchen
-ms.date: 04/12/2021
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b26472e195d9bdbba340a118c106de1a4dc79b34
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9daa6e001200d03a2639974fb6de618d77ddf09d
+ms.sourcegitcommit: cb282e8d2306ab71adf80a84346a6863d2d019e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021937"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184106"
 ---
 # <a name="tax-calculation-preview"></a>Mokesčių skaičiavimas (peržiūros versija)
 
@@ -31,6 +31,9 @@ ms.locfileid: "6021937"
 Mokesčių skaičiavimas yra hiper išplečiama kelių nuomotojų paslauga, įgalinanti „Global Tax Engine“ automatizuoti ir supaprastinti mokesčių nustatymo ir skaičiavimo procesą. Visiškai konfigūruotinas mokesčių modulis. Elementai, kuriuos galima konfigūruoti, apima (bet tuo neapsiribojama) apmokestinamą duomenų modelį, mokesčio kodą, mokesčių taikomumo matricą ir mokesčių skaičiavimo formulę. Mokesčių sistema veikia pagrindinių paslaugų „Microsoft Azure“ platformoje ir siūlo modernias technologiją bei proporcingai keičiamumą.
 
 Mokesčių skaičiavimas integruojamas su „Dynamics 365 Finance“ ir „Dynamics 365 Supply Chain Management“. Galiausiai ji taip pat bus „Dynamics 365 Project Operations“ integruota į, ir kitas pirmosios šalies ir trečiosios šalies „Dynamics 365 Commerce“ programas.
+
+> [!IMPORTANT]
+> Kai įgalinate mokesčių skaičiavimo tarnybą, kai kurios su susijusiais duomenimis susijusios operacijos gali būti atliekamos ne duomenų centre, kuris prižiūri jūsų aptarnavimo duomenis. Prieš [įgalindami mokesčių](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) skaičiavimo tarnybą, peržiūrėkite sąlygas. Mes rūpinamės jūsų privatumu. Norėdami sužinoti daugiau, perskaitykite mūsų [Pareiškimą dėl privatumo](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 Mokesčių skaičiavimas yra mikrotarnyba pagrįstas mokesčių variklis, siūlantis eksponentinį išplečiamumą. Galite atlikti šias užduotis:
 

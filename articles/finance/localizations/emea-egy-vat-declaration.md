@@ -2,7 +2,7 @@
 title: Egipto PVM deklaracija
 description: Šioje temoje paaiškinama, kaip sukonfigūruoti ir sugeneruoti Egipto PVM grąžinimo formą.
 author: sndray
-ms.date: 03/10/2021
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: bd48ee96a26c59183981fae879e3659711e70ce3
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c776cedb65804f8cadbe324082c2abac435f906
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021961"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186619"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>Egipto PVM deklaracija (EG-00002)
 
@@ -85,6 +85,7 @@ Egipto pardavimo ir pirkimo knygų ataskaitose yra stulpelių rinkinys, atitinka
 - **VATRateTypeLookup** > B stulpelis: mokesčio tipas
 - **VATRateTypeLookup** > C stulpelis: mokesčio elemento tipas
 - **PurchaseOperationTypeLookup** > A stulpelis: dokumento tipas
+- **CustomerTypeLookup** > A stulpelis: dokumento tipas
 - **SalesOperationTypeLookup** > N stulpelis: operacijos tipas
 - **SalesItemTypeLookup** > O stulpelis: elemento tipas
 
@@ -98,6 +99,8 @@ Norėdami nustatyti skirtingas peržvalgas, naudojamas PVM deklaravimo ir susiju
 6. Visoms galimoms peržvalgoms pakartokite 3–5 veiksmus.
 7. Pasirinkite **Pridėti**, jei norite įtraukti paskutinio įrašo eilutę, o stulpelyje **Peržvalgos rezultatas** pasirinkite **Netaikoma**. 
 8. Likusiuose stulpeliuose pasirinkite **Ne tuščia**. 
+9. Lauke **Būsena** pasirinkite **Baigta**.
+10. Pasirinkite **Įrašyti** ir uždarykite puslapį **Programos parametrai**.
 
 > [!NOTE]
 > Pridėję paskutinį įrašą, **Netaikoma**, apibrėžiate tokią taisyklę: kai pardavimų mokesčių grupė, prekių pardavimų mokesčių grupė, mokesčio kodas ir pavadinimas, perduotas kaip argumentas, neatitinka jokių ankstesnių taisyklių, operacijos neįtraukiamos į pardavimų PVM knygą. Nors ši taisyklė naudojama generuojant ataskaitą, taisyklė padeda išvengti ataskaitos generavimo klaidų, kai trūksta taisyklės konfigūracijos.
@@ -138,7 +141,7 @@ Toliau pateikiamose lentelėse pateikiamas pavyzdinis aprašytų peržvalgos kon
 | Paslaugos       | 7    | VAT_SERV                | *Užpildytas* | SaleExempt            |
 | Paslaugos       | 8    | VAT_SERV                | *Užpildytas* | SalesExemptCreditNote |
 | Koregavimai    | 9    | *Tuščias*                 | VAT_ADJ     | Pardavimas                 |
-| Koregavimai    | 10   | *Tuščias*                 | VAT_ADJ     | Pirkimas              |
+| Koregavimai    | 10   | *Tuščias*                 | VAT_ADJ     | Pardavimo kredito pažyma       |
 | Netaikoma | 11   | *Užpildytas*             | *Užpildytas* | *Užpildytas*           |
 
 **PurchaseItemTypeLookup**
@@ -148,16 +151,14 @@ Toliau pateikiamose lentelėse pateikiamas pavyzdinis aprašytų peržvalgos kon
 | Prekės                  | 1    | VAT_GOODS               | *Užpildytas* | Pirkimas                 |
 | Prekės                  | 2    | VAT_GOODS               | *Užpildytas* | PurchaseCreditNote       |
 | Paslaugos               | 3    | VAT_SERV                | *Užpildytas* | Pirkimas                 |
-| Paslaugos               | 4    | VAT_SERV                | *Užpildytas*  | PurchaseCreditNote       |
+| Paslaugos               | 4    | VAT_SERV                | *Užpildytas* | PurchaseCreditNote       |
 | Mašina ir įranga  | 5    | VAT_M&E                 | *Užpildytas* | Pirkimas                 |
 | Mašina ir įranga  | 6    | VAT_M&E                 | *Užpildytas* | PurchaseCreditNote       |
 | Dalių mašinos         | 7    | VAT_PARTS               | *Užpildytas* | Pirkimas                 |
 | Dalių mašinos         | 8    | VAT_PARTS               | *Užpildytas* | PurchaseCreditNote       |
 | Lengvatos             | 9    | VAT_EXE                 | *Ne bankas*  | PurchaseExempt           |
 | Lengvatos             | 10   | VAT_EXE                 | *Užpildytas* | PurchaseExemptCreditNote |
-| Netaikoma         | 11   | *Tuščias*                 | VAT_ADJ     | *Užpildytas*              |
-| Netaikoma         | 12   | *Užpildytas*             | *Užpildytas* | *Užpildytas*              |
-| Netaikoma         | 13   | *Tuščias*                 | *Užpildytas* | *Užpildytas*              |
+| Netaikoma         | 11   | *Užpildytas*             | *Užpildytas* | *Užpildytas*              |
 
 **PurchaseOperationTypeLookup**
 
@@ -174,6 +175,17 @@ Toliau pateikiamose lentelėse pateikiamas pavyzdinis aprašytų peržvalgos kon
 | Koregavimai    | 9    | *Tuščias*          | VAT_ADJ     | PurchaseCreditNote       |
 | Koregavimai    | 10   | *Tuščias*          | VAT_ADJ     | Pirkimas                 |
 | Netaikoma | 11   | *Užpildytas*      | *Užpildytas* | *Užpildytas*              |
+
+**CustomerTypeLookup**
+
+|    Paieškos rezultatas    | Eilutė | PVM grupė |
+|---------------------|------|-----------------|
+| Organizacija        |  1   | VAT_LOCAL       |
+| Organizacija        |  2   | VAT_EXPORT      |
+| Organizacija        |  3   | VAT_EXE         |
+| Galutinis vartotojas      |  4   | VAT_FINALC      |
+| Vieša organizacija |  5   | VAT_PUBLIO      |
+| Netaikoma      |  6   | *Užpildytas*     |
 
 **VATRateTypeLookup**
 
