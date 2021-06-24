@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 33d5e831d3a631aa17e78628a4e88b5e1cfa8c73
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e4109762a2db3114ad66882092d6729dd9b08364
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052870"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190213"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>Darbininkams paskolintų prekių valdymas
 
@@ -41,14 +41,12 @@ Darbuotojai peržiūrėti objektų, kurie jiems buvo paskolinti, įrašus gali n
 
 Vadovai gali peržiūrėti savo tiesioginių ataskaitų panaudos objektus. Jiems taip pat gali būti suteikta teisė darbuotojų vardu pridėti naujų panaudos objektų.
 
- <a name="account-for-lost-or-misplaced-loan-items"></a>Pamestų arba negrąžintų panaudos objektų sąskaita
------------------------------------------
+##  <a name="account-for-lost-or-misplaced-loan-items"></a>Pamestų arba negrąžintų panaudos objektų sąskaita
 
 Jei objektas sugadinamas arba negrąžinamas, įveskite fiktyvų grąžinimo įrašą. Tada panaikinkite objektą arba saugokite peržiūroje ir pakeiskite aprašymą, kad matytumėte, jog objekto nėra.
 
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Personalas](index.md)
 

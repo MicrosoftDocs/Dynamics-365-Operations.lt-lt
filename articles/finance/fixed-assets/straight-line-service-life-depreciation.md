@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39366716463eda03aa3f9c0ed802eb3f6099b48c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 610e8c58975a02cf6a4b3c4f79639d94ae8c3d9b
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818493"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193835"
 ---
 # <a name="straight-line-service-life-depreciation"></a>Tiesiogiai proporcingas nusidėvėjimas
 
@@ -65,9 +65,9 @@ Pasirinkus Finansiniai metai, lauke Laikotarpio dažnis galimos šios pasirinkty
 ## <a name="example-straight-line-depreciation-of-an-unchanged-fixed-asset"></a>Pavyzdys: tiesiogiai proporcingo nepasikeitusio ilgalaikio turto nusidėvėjimas
 Tarkime, kad ilgalaikio turto charakteristikos yra tokios, kaip nurodyta toliau.
 
-|                     |        |
+| Charakteristika      | Reikšmė  |
 |---------------------|--------|
-| Įsigijimo savikaina    | 11 000 |
+| Įsigijimo savikaina    | 11,000 |
 | Likvidacinė vertė       | 1000  |
 | Nusidėvėjimo pagrindas   | 10.000 |
 | Aptarnavimo laikas metais  | 5      |

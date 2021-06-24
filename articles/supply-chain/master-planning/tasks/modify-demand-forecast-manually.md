@@ -1,5 +1,5 @@
 ---
-title: Poreikio prognozės modifikavimas rankiniu būdu
+title: 'Vadovas: Poreikio prognozės modifikavimas rankiniu būdu'
 description: Šioje temoje aprašoma, kaip modifikuoti prekės prognozę
 author: ChristianRytt
 ms.date: 08/12/2019
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5da1d5b1fbd91964e695a704681b1c9ee513a2f1
-ms.sourcegitcommit: 4016c223a985c46e33f9941bf91ba5e1583e1cfd
+ms.openlocfilehash: 1e12ccf90b9971379e8931bd48d6243a855bb795
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889029"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6224015"
 ---
-# <a name="modify-a-demand-forecast-manually"></a>Poreikio prognozės modifikavimas rankiniu būdu
+# <a name="guide-modify-a-demand-forecast-manually"></a>Vadovas: Poreikio prognozės modifikavimas rankiniu būdu
 
 [!include [banner](../../includes/banner.md)]
 
-Ši procedūra nurodo, kaip modifikuoti prekės prognozę. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Ši procedūra yra skirta gamybos planuotojui.
+Ši procedūra nurodo, kaip modifikuoti prekės prognozę. Ši procedūra yra skirta gamybos planuotojui.
 
 ## <a name="modify-the-forecast-for-a-selected-item"></a>Pasirinktos prekės prognozės modifikavimas
 
@@ -36,9 +36,9 @@ Norėdami modifikuoti pasirinktos prekės prognozę:
 1. Užpildykite kitus laukus taip, kaip reikia.
 1. Pasirinkite **Įrašyti** veiksmų srityje.
 
-## <a name="modify-the-forecast-for-one-or-more-items-microsoft-excel"></a>Vieno ar daugiau „Microsoft Excel” elemento prognozės modifikavimas
+## <a name="modify-the-forecast-for-one-or-more-items-with-microsoft-excel"></a>Redaguokite prognozę vienai ar kelioms prekėms su „Microsoft Excel”
 
-Norėdami modifikuoti vieno ar daugiau „Microsoft Excel” elementų prognozę:
+Norėdami redaguoti prognozę vienai ar kelioms prekėms su „Microsoft Excel”:
 
 1. Atlikite vieną iš toliau nurodytų veiksmų.
     - Atidarykite puslapį **Poreikio prognozė** bet kuriai prekei (nesvarbu kuriai), kaip aprašyta ankstesniame skyriuje.

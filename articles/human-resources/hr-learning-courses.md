@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: f573dadeab88ead57fdb4b91ade21c244325058c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 818d96b14e32716e95b57391df5a90f7d32c4bb0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054024"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190237"
 ---
 # <a name="set-up-training-courses"></a>Mokymų kursų nustatymas
 
@@ -28,8 +28,7 @@ ms.locfileid: "6054024"
 
 Žmogiškųjų išteklių administratoriai ir vadovai kursų funkcijas gali naudoti siekdami tvarkyti informaciją apie darbuotojams siūlomą mokymą.
 
- <a name="set-up-prerequisites"></a>Nustatyti būtinąsias sąlygas
----------------------
+##  <a name="set-up-prerequisites"></a>Nustatyti būtinąsias sąlygas
 
 Prieš kuriant kursus, reikia turėti ir nustatyti toliau pateiktą informaciją.
 -   **Kursų tipai**
@@ -127,8 +126,7 @@ Su visais kursais galite atlikti toliau nurodytas užduotis.
 ## <a name="course-participants"></a>Kurso dalyviai
 Kurso dalyviai yra darbuotojai, dalyvaujantys mokymo kursuose arba renginyje. Galite užregistruoti dalyvius tik į atvirus kursus. Mažiausias ir didžiausias leistinas registruoti į kursą dalyvių skaičius nustatytas puslapio **Kursai** „FastTab“ skirtuke **Bendra**.
 
-<a name="workflow"></a>Darbo eiga
---------
+## <a name="workflow"></a>Darbo eiga
 
 Darbuotojų, kurie į kursą registruojasi per puslapį **Darbuotojų savitarna**, registraciją galima nukreipti pro darbo eigą, kad būtų patvirtinta. Galite priskirti darbo eigą puslapio **Kursai** „FastTab‟ **Bendra**.
 

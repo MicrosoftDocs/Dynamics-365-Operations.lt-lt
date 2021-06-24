@@ -2,7 +2,7 @@
 title: Įjungti keletą paėmimo pristatymo režimų kliento užsakymams
 description: Šioje temoje paaiškinamos „Microsoft Dynamics 365 Commerce“ funkcijos leidžiančios jums sukurti kliento užsakymus paėmimui parduotuvėje.
 author: hhainesms
-ms.date: 11/17/2020
+ms.date: 06/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 124765a3d4d2ebd01e200b76fc862e2c37073b8e
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ae7df6679c261b5e5dcd39e4ca6fe0e21d993927
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020656"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216772"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Įjungti keletą paėmimo pristatymo režimų kliento užsakymams
 
@@ -38,7 +38,7 @@ Jums įjungus **Palaikymo keletui paėmimo pristatymo būdų** funkciją galite 
 
 **Pristatymo atlikimo būdas** ir **Elektroninio pristatymo būdo** laukeliai bei **Rodyti tik vežėjo būdo parinktis siunčiamiems užsakymams** parinktis, buvo perkelta į šį „FastTab“.
 
-Prieš tai, kai sukonfigūruosite paėmimo pristatymo būdus, turite nustatyti pristatymo būdus. Puslapyje **Pristatymo būdai** „Commerce“ štabe įtraukite pristatymo būdus, kurie turi būti laikomi atsiėmimo pristatymo būdais. Įsitikinkite, kad konfigūravimas baigtas. Pavyzdžiui, įsitikinkite, kad pristatymo būdas yra susietas su atitinkamais kanalais ir prekėmis. Pabaigus, vykdykite **Apdoroti pristatymo būdus** darbą, kad sukurtumėte ryšius tarp pristatymo būdos, kanalų ir prekių. Kai darbas yra baigtas vykdyti, atverkite **Paskirstymo grafikas** puslapį „Commerce“ štabe ir vykdykite **1120** paskirstymo darbą siekiant užtikrinti, kad atitinkamas „Commerce“ kanalo duomenų bazės yra atnaujintos su jūsų nauju pristatymo būdo konfigūravimu.
+Prieš tai, kai sukonfigūruosite paėmimo pristatymo būdus, turite nustatyti pristatymo būdus. Puslapyje **Pristatymo būdai** „Commerce“ štabe įtraukite pristatymo būdus, kurie turi būti laikomi atsiėmimo pristatymo būdais. Įsitikinkite, kad konfigūravimas baigtas. Pavyzdžiui, jei tam tikroms parduotuvėms siūlote šį pristatymo būdą kaip pristatymo pasirinktį, turite sukurti naują pristatymo būdą šiam tikslui. Šį pristatymo būdą galite sukurti naudodami aprašymą „curbside pickup". Tada galite būti užtikrinti, kad "curbside pick" pristatymo būdas yra susietas su visais „Commerce" kanalais, kurie gali jį pasiūlyti, įskaitant interneto parduotuves, kurios gali suteikti šią parinktį, ir atskirus parduotuvės kanalus, kurie pasiūlys šį vykdymo metodą. Pristatymo būdai taip pat turi būti susieti su produktais. Šiame pavyzdyje, jei yra tam tikrų produktų, kurių negalima įvykdyti naudojant „curbside paėmimą", turite užtikrinti, kad tos prekės būtų neįtrauktos. Pabaigus naujų pristatymo būtų įtraukimą, vykdykite **Apdoroti pristatymo būdus** darbą, kad sukurtumėte ryšius tarp pristatymo būdų, kanalų ir prekių. Kai darbas yra baigtas, atverkite **Paskirstymo grafikas** puslapį „Commerce“ štabe ir vykdykite **1120** paskirstymo darbą siekiant užtikrinti, kad atitinkamas „Commerce“ kanalo duomenų bazės yra atnaujintos su jūsų nauju pristatymo būdo konfigūravimu.
 
 ![Pristatymo būdo pavyzdys konfigūruoti atsiėmimą per langelį](media/pickupmodes.png)
 

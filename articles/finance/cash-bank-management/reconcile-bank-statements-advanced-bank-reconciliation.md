@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e5b097d667186a849b23814917d0d6f837c25de
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0b8e64264795fe90b52471a82220fe87459ca248
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835009"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188595"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Banko išrašų derinimas naudojant išplėstinį banko derinimą
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835009"
 
 Pažangaus banko suderinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir automatiškai juos suderinti su banko operacijomis programoje „Dynamics 365 Finance“. Šioje temoje paaiškinamas derinimo procesas.  
 
-<a name="import-an-electronic-bank-statement"></a>Elektroninio banko išrašo importavimas
------------------------------------
+## <a name="import-an-electronic-bank-statement"></a>Elektroninio banko išrašo importavimas
 
 Banko išrašai importuojami puslapyje **Banko išrašai** naudojant veiksmą **Importuoti išrašą**. Banko išraše banko sąskaita nurodoma naudojant reikšmių, nustatytų banko sąskaitos informacijoje, derinį. Šios reikšmės apima banko pavadinimą, banko sąskaitos numerį, banko kodą, Tarptautinės organizacijos, teikiančios finansinių pranešimų perdavimo paslaugas (SWIFT) kodą ir tarptautinį banko sąskaitos numerį (IBAN). 
 

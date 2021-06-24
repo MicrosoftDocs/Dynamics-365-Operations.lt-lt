@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdcb45918b404f8a47f27bcea7c02a8397c9336f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 236743277a95b8a1170ca05f93106575ea1cc8e4
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821446"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187607"
 ---
 # <a name="standard-cost-conversion-overview"></a>Standartinių išlaidų konvertavimo peržiūra
 
@@ -92,8 +92,7 @@ Ataskaita **Nuokrypių analizės išrašas** leidžia analizuoti perkainojimo nu
 -   Analizuokite atgaline data registruotus atsargų perkėlimus. Naudodami ataskaitą **Atsargų vertė** galite peržiūrėti atgaline data registruotus atsargų perkėlimus, kurie buvo įvesti po konvertavimo. Ataskaitos Pradžios data ir Pabaigos data turėtų atitikti perėjimo pradžios datą ir konvertavimo datą, minus viena diena. Ataskaitos pasirinkimo kriterijai turi rodyti konvertuotas prekes. Ataskaitoje rodomi atsargų perkėlimai, atlikti su standartinėmis išlaidomis perėjimo laikotarpiu.
 
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Būtinos standartinių išlaidų konvertavimo sąlygos](prerequisites-standard-cost-conversion.md)
 

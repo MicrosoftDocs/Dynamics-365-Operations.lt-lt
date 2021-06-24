@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-25
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 69232eed8520bafeb734ffad43b333bf9e36909e
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c95c1f2342654ca2bbee57959becc85291eebbc
+ms.sourcegitcommit: a7649b361ec54b49c0e9ee1c1c63a8815f320225
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018690"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187276"
 ---
 # <a name="engineering-change-management-faq"></a>Inžinerinių pakeitimų valdymo DUK
 
@@ -46,7 +46,7 @@ Inžinerijos kategorijoms, kuriose pasirinkote dimensijų grupę, kurioje versij
 
 Dauguma organizacijų pasirenka šią pasirinktį, nes pateikia versiją ir keitimų valdymą, bet prie kiekvienos operacijos, atsargų ir bendrojo planavimo metu prideda papildomas versijos sekimo pridėtines išlaidas.
 
-## <a name="which-fields-are-copied-to-the-released-item-template"></a>Kurie laukai nukopijuojami į išleistą prekės šabloną?
+## <a name="which-fields-are-copied-from-the-released-item-template"></a>Kurie laukai nukopijuojami iš išleisto prekės šablono?
 
 Kai inžinerijos įmonė sukuria inžinerijos produktą, šis produktas inžinerijos įmonėje sukuriamas kaip išleistas produktas. Išleistas produktas, sukurtas pagal pasirinktą išleistų *prekių šabloną*. (Išleistas prekės šablonas jau yra išleistas produktas.) Išleistas prekės šablonas taip pat naudojamas, kai produktas išleidžiamas veiklos įmonei. Kiekvienu atveju išleistas prekės šablonas apibrėžia daugumą išleisto produkto laukų verčių ir šios vertės yra iš susijusio **išleisto produkto informacijo** puslapio.
 

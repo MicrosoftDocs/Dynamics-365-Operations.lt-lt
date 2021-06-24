@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ac8b63b98c37c7429cee792b85f492f3ca1d57c7
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: e2fc40e3e9874d47dd51e773628ba1ce75b8ebab
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103633"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193886"
 ---
 # <a name="firm-planned-orders"></a>Galutinai suplanuoti užsakymai
 
@@ -102,7 +102,7 @@ Automatinis patvirtinimas leidžia patvirtinti (tai yra, išleisti) suplanuotus 
 
 Tiek „Planning Optimization“, tiek planavimo mechanizmą, kuris įdiegtas „Microsoft “, galima naudoti norint automatiškai patvirtinti planavimo užsakymus. Tačiau yra keletas svarbių skirtumų. Pavyzdžiui, jei „Planning Optimization“ naudoja užsakymo datą (tai yra, pradžios datą), kad nustatytų, kuriuos suplanuotus užsakymus patvirtinti, įdiegtas „Supply Chain Management“ mechanizmas naudoja poreikio datą (tai yra, pabaigos datą). Šioje lentelėje apibendrinami skirtumai.
 
-| | Planavimo optimizavimas | Įtaisytasis planavimo modulis |
+| Funkcija | Planavimo optimizavimas | Įtaisytasis planavimo modulis |
 |---|---|---|
 | **Pagrindinė data** | Automatinis patvirtinimas pagrįstas užsakymo data (pradžios data). | Automatinis patvirtinimas pagrįstas poreikio data (pabaigos data). |
 | **Gamybos laikas** | Kadangi užsakymo data (pradžios data) suaktyvina patvirtinimą, nebūtina atsižvelgti į gamybos laiką kaip patvirtinimo laiko ribos dalį. | Siekiant užtikrinti, kad užsakymai būtų patvirtinti laiku, patvirtinimo laiko riba turi būti ilgesnė už gamybos laiką. |

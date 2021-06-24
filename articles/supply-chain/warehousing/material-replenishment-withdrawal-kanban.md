@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7044aa84dc7ea7adc303c250e75ca6fb4a493800
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: edc6da8a54de98696322ace67ada5dfe97af2024
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831247"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189949"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Papildymas išėmimų „kanban“
 
@@ -30,7 +30,6 @@ ms.locfileid: "5831247"
 Šioje temoje aprašoma, kaip išėmimo „kanban“ naudojama medžiagų papildymui gamybos veikloje.
 
 ## <a name="workflow-for-material-replenishment-that-uses-the-withdrawal-kanban"></a>Darbo eigos medžiagų papildymas, kuriame naudojamas išėmimo „kanban“
--------------------------------------------------------------------
 
 Išėmimo „kanban“ galima naudoti norint perkelti vienos prekės „kanban“ tarp sandėlių ir gamybos vietų, kur medžiaga naudojama. Išėmimo „kanban“ palaiko atgalinio planavimo medžiagų papildymo sprendimą, kuriame tam, kad būtų suaktyvintas tiekimas pagal tam tikrą poreikį, reikia atgalinio planavimo signalo. 
 

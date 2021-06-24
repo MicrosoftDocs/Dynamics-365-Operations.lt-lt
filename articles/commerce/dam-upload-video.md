@@ -2,7 +2,7 @@
 title: Vaizdo įrašų įkėlimas
 description: Šioje temoje aprašoma, kaip įkelti vaizdo įrašus „Microsoft Dynamics 365 Commerce“ svetainės generatoriuje.
 author: psimolin
-ms.date: 03/03/2020
+ms.date: 06/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ec20f8caee2f5a62230be05923dfd52600c1e35
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e3579b54c58898b79c84406480a3b58f541c4621
+ms.sourcegitcommit: 257437a57e146496a49782bc8aad179c92fbf6e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799210"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "6224543"
 ---
 # <a name="upload-videos"></a>Vaizdo įrašų įkėlimas
 
@@ -35,7 +35,7 @@ ms.locfileid: "5799210"
 Įkeliant vaizdo įrašą galima nurodyti šią informaciją.
 
 - **Pavadinimas, aprašas, raktiniai žodžiai**: vaizdo įrašo metaduomenys.
-- **Automatiškai generuoti paslėptuosius titrus**: nurodo, ar turi būti automatiškai sugeneruotos paslėptieji vaizdo įrašo titrai.
+- **Automatiškai generuoti paslėptuosius titrus**: nurodo, ar turi būti automatiškai sugeneruotos paslėptieji vaizdo įrašo titrai (tik anglų kalba palaikoma). 
 - **Paslėptieji titrai**: nurodo naudotinus paslėptuosius titrus.
 - **Įprastas garsas**: nurodo įprastą garso įrašą, kuris bus naudojamas.
 - **Miniatiūra**: nurodo vaizdo įrašo miniatiūrą. Jei miniatiūra nenustatyta, ji bus sugeneruota automatiškai.

@@ -2,7 +2,7 @@
 title: Momentinių kopijų apžvalga (peržiūros versija)
 description: Šioje temoje aprašoma momentinės kopijos funkcija, kuri leidžia įrašyti pinigų srautų prognozę analizei arba palyginimui su aktuarijų vėliau. Kai sugeneruojate pinigų srautų prognozę, šią prognozę galite įrašyti kaip momentinę nuotrauką. Tada galite naudoti šias momentines nuotraukas, kad galėtumėte redaguoti į prognozę įtrauktus abonentus, arba palyginti prognozuojamą fotografiją su faktiniais duomenimis.
 author: ShivamPandey-msft
-ms.date: 05/19/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 07854d47fa2e42ea0d49cde193a2040415acf089
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 593d6fa8efdecf1b64ef802e6861783d6f85489c
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827247"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186595"
 ---
 # <a name="snapshots-overview-preview"></a>Momentinių kopijų apžvalga (peržiūros versija)
 
@@ -42,9 +42,5 @@ Grynųjų pinigų įplaukos ir nutekėjimų nuotraukas galima redaguoti bet kuri
 Norėdami palyginti kelias momentines kopijas, pasirinkite **Palyginti momentines kopijas**. Vienu metu galite palyginti dvi momentines kopijas. Pasirinkite dvi momentines kopijas, kurias norite palyginti, ir pasirinkite **Gerai**. Puslapyje **Momentinių kopijų palyginimas** bus rodomas pažymėtų momentinių kopijų palyginimas. Viršutinėje puslapio dalyje esančioje diagramoje parodomi grynųjų pinigų įplaukų, grynųjų pinigų srautų ir banko balansų persidengiantys laikotarpių tarp dviejų kadrų palyginimas. Apatinėje dalyje esantis tinklelis nurodo išsamų kiekvieno likvidumo sumos dviejų prognozių palyginimą. Tinklelyje esantis stulpelis **Nuokrypis** rodo skirtumą tarp laikotarpio balansų.
 
 Norėdami palyginti faktinius finansinius rezultatus su prognoze, kuri buvo įrašyta kaip momentinė kopija, pasirinkite **Palyginti su faktiniais duomenimis**. Puslapyje **Momentinių kopijų palyginimas** bus rodomas faktinių sumų ir prognozės palyginimas. Viršutinėje puslapio dalyje esančioje diagramoje parodomi grynųjų pinigų įplaukų, grynųjų pinigų srautų ir banko balansų persidengiantys laikotarpių tarp dviejų kadrų palyginimas. Apatinėje dalyje esantis tinklelis nurodo išsamų kiekvieno likvidumo sumos faktinių balansų per laikotarpį ir prognozuojamo balanso palyginimą. Tinklelyje esantis stulpelis **Nuokrypis** rodo skirtumą tarp faktinio balanso per laikotarpį ir prognozuojamo balanso.
-
-#### <a name="privacy-notice"></a>Privatumo pranešimas
-Peržiūros versijos (1) gali naudoti mažiau privatumo ir mažiau saugos priemonių nei „Dynamics 365 Finance and Operations“ paslauga, (2) jos nėra įtrauktos į aptarnavimo lygio sutartį (SLA), (3) jos neturėtų būti naudojamos apdoroti asmens duomenims ar kitiems duomenims, kuriems taikomi teisiniai ir atitikimo teisės aktai (4) ir jų palaikymas yra ribotas.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

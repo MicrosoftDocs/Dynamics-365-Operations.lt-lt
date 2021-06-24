@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e334c6351814db191731ce94c4a704863679dd85
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0edc2fcbde536e98fa3ce3567c2c8fdf3fc864ad
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820888"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188787"
 ---
 # <a name="configure-accounts-payable-overview"></a>Mokėtinos sumos sąskaitos faktūros apžvalgos konfigūravimas
 
@@ -28,8 +28,7 @@ ms.locfileid: "5820888"
 
 Šiame straipsnyje aprašomi puslapiai, kuriuos naudojate norėdami nustatyti pagrindines ir laisvai pasirenkamas funkcijas modulyje Mokėtinos sumos. Jame taip pat aprašomi nustatymo veiksmai, kuriuos turite atlikti prieš pradėdami nustatyti Mokėtinas sumas.
 
-<a name="prerequisites-for-accounts-payable-setup"></a>Būtinosios Mokėtinų sumų sąrankos sąlygos
-----------------------------------------
+## <a name="prerequisites-for-accounts-payable-setup"></a>Būtinosios Mokėtinų sumų sąrankos sąlygos
 
 Prieš nustatydami Mokėtinas sumas, turite atlikti toliau nurodytą sąranką.
 

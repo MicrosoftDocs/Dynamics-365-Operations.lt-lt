@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf3872a47a92509af5857c0c1aec0d4da4095d19
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5b1ec24c84d2b1a3dc88bf96ae6f52441b58a694
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835273"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188691"
 ---
 # <a name="sepa-direct-debit-overview"></a>SEPA tiesioginio debeto apžvalga
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835273"
 
 Bendrą mokėjimų eurais erdvę (SEPA) nustato Europos Komisija ir nurodo, kad visi elektroniniai mokėjimai laikomi vietiniais, nepaisant asmens, verslo arba organizacijos buvimo vietos šalies / regiono. Nacionaliniai ir tarptautiniai mokėjimai niekuo nesiskiria. SEPA apima 28 Europos Sąjungos (ES) valstybes nares bei Islandiją, Lichtenšteiną, Norvegiją, Šveicariją, Monaką ir San Mariną. SEPA padeda skurti bendrą mokėjimo operacijų rinką Europos ekonominėje erdvėje (EEE). Galiausiai, naudojant SEPA tikimasi sumažinti mokėjimo formatų, su kuriais dirba bankai, verslo įmonės ir asmenys, skaičių.   
 
-<a name="what-is-the-goal-of-sepa-direct-debits"></a>Koks yra SEPA tiesioginio debeto tikslas?
----------------------------------------
+## <a name="what-is-the-goal-of-sepa-direct-debits"></a>Koks yra SEPA tiesioginio debeto tikslas?
 
 SEPA tiesioginis debetas leidžia kreditoriui surinkti lėšas iš kliento banko sąskaitos, jei klientas kreditoriui suteikė pasirašytą įgaliojimą. Klientas pasirašo įgaliojimą, kuris įgalioja kreditorių surinkti mokėjimą ir nurodo kliento bankui jį išmokėti. 
 

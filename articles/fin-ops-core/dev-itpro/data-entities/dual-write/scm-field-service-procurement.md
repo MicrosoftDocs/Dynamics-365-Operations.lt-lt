@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2c27f06524b91f91d95ef4b901740e7761232c28
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: c50aabf94ae37b7b7b214699160bf958ad3ea9fd
+ms.sourcegitcommit: 2cc14f6c537628e79ad2dd17dabf2c246deaa40d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941114"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6219792"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Įsigijimo tarp „Supply Chain Management” ir „Field Service” integracija
 
@@ -196,23 +196,10 @@ Jei produkto kvito skelbimo procesas yra atšaukiamas apdorojimo metu, tada dvig
 
 | Tiekimo grandinės valdymas | „Field service“ | aprašymas |
 |---|---|---|
-| Pirkimo užsakymo antraštė V2 | msdyn\_Purchaseorders | Šioje lentelėje yra stulpelių, kuriuose pateikiama pirkimo užsakymo antraštė. |
-| Pirkimo užsakymo eilutės objektas | msdyn\_PurchaseOrderProducts | Šioje lentelėje yra eilučių, kuriuose pateikiamos pirkimo užsakymo eilutės. Produkto numeris naudojamas sinchronizacijos metu. Identifikuoja produktą kaip atsargų saugojimo vienetą (SKU), įskaitant produktų dimensijas. Daugiau informacijos apie produkto integravimą su „Dataverse” žr. [Vientisa produkto patirtis](product-mapping.md). |
-| Produkto gavimo antraštė | msdyn\_purchaseorderreceipts | Šioje lentelėje pateikiamos produkto kvito antraštės, kurios sukuriamos, kai produkto kvitas yra paskelbtas „Supply Chain Management”. |
-| Produkto gavimo eilutė | msdyn\_purchaseorderreceiptproducts | Šioje lentelėje pateikiamos produkto kvito eilutės, kurios sukuriamos, kai produkto kvitas yra paskelbtas „Supply Chain Management”. |
-| Pirkimo užsakymo eilutės negalutinai sunaikintas objektas | msdyn\_purchaseorderproducts | Šioje lentelėje pateikiama informacija apie pirkimo užsakymo eilutes, kurios yra negalutinai panaikintos. Pirkimo užsakymo eilutę, esančią „Supply Chain Management”, galima negalutinai panaikinti patvirtinus pirkimo užsakymą arba patvirtinus tada, kai pakeitimų valdymas yra įjungtas. Eilutė egzistuoja „Supply Chain Management” ir yra pažymėta kaip **Panaikinta**. Nes „Dataverse” nėra negalutinio panaikinimo funkcijos, todėl svarbu šią informaciją sinchronizuoti „Dataverse”. Tokiu būdu negalutinai panaikintos eilutės „Supply Chain Management” gali būti automatiškai panaikintos iš „Dataverse”. Šiuo atveju eilutės panaikinimo „Dataverse” logika yra pateikta „Supply Chain Management Extended”. |
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Currency](includes/productreceiptheader-msdyn-purchaseorderreceipts.md)]
-
-[!include [Currency](includes/productreceiptline-msdyn-purchaseorderreceiptproducts.md)]
-
-[!include [Currency](includes/purchaseorderheadersv2-msdyn-purchaseorders.md)]
-
-[!include [Currency](includes/purchaseorderlinesoftdeletedtable-msdyn-purchaseorderproducts.md)]
-
-[!include [Currency](includes/purchaseorderlinetable-msdyn-purchaseorderproducts.md)]
-
+| [Pirkimo užsakymo antraštė V2](mapping-reference.md#183) | msdyn\_Purchaseorders | Šioje lentelėje yra stulpelių, kuriuose pateikiama pirkimo užsakymo antraštė. |
+| [Pirkimo užsakymo eilutės objektas](mapping-reference.md#181) | msdyn\_PurchaseOrderProducts | Šioje lentelėje yra eilučių, kuriuose pateikiamos pirkimo užsakymo eilutės. Produkto numeris naudojamas sinchronizacijos metu. Identifikuoja produktą kaip atsargų saugojimo vienetą (SKU), įskaitant produktų dimensijas. Daugiau informacijos apie produkto integravimą su „Dataverse” žr. [Vientisa produkto patirtis](product-mapping.md). |
+| [Produkto gavimo antraštė](mapping-reference.md#185) | msdyn\_purchaseorderreceipts | Šioje lentelėje pateikiamos produkto kvito antraštės, kurios sukuriamos, kai produkto kvitas yra paskelbtas „Supply Chain Management”. |
+| [Produkto gavimo eilutė](mapping-reference.md#184) | msdyn\_purchaseorderreceiptproducts | Šioje lentelėje pateikiamos produkto kvito eilutės, kurios sukuriamos, kai produkto kvitas yra paskelbtas „Supply Chain Management”. |
+| [Pirkimo užsakymo eilutės negalutinai sunaikintas objektas](mapping-reference.md#182) | msdyn\_purchaseorderproducts | Šioje lentelėje pateikiama informacija apie pirkimo užsakymo eilutes, kurios yra negalutinai panaikintos. Pirkimo užsakymo eilutę, esančią „Supply Chain Management”, galima negalutinai panaikinti patvirtinus pirkimo užsakymą arba patvirtinus tada, kai pakeitimų valdymas yra įjungtas. Eilutė egzistuoja „Supply Chain Management” ir yra pažymėta kaip **Panaikinta**. Nes „Dataverse” nėra negalutinio panaikinimo funkcijos, todėl svarbu šią informaciją sinchronizuoti „Dataverse”. Tokiu būdu negalutinai panaikintos eilutės „Supply Chain Management” gali būti automatiškai panaikintos iš „Dataverse”. Šiuo atveju eilutės panaikinimo „Dataverse” logika yra pateikta „Supply Chain Management Extended”. |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

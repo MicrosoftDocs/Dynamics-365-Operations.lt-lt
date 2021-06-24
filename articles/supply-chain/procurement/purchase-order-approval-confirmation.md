@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95f1f6971e645a0aae8679c94a4bbd4cba946dc3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0a9b387be0b28564dd7ae88af33812a8bbf034c0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825427"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188297"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Pirkimo užsakymų tvirtinimas
 
@@ -83,8 +83,7 @@ Norėdami PU eilutėje atšaukti visą kiekį, eilutėje turite atšaukti prista
 
 Vykdant PU pakeitimų valdymą, bet koks pasikeitimas, pvz., užsakymo arba pristatymo likučio atšaukimas, turi būti pateiktas darbo eigos sistemai ir patvirtintas prieš tai, kai procesas gali būti baigtas, o atsargų operacijų būsena gali būti atnaujinta į atšauktą.
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Pirkimo užsakymų apžvalga](purchase-order-overview.md)
 

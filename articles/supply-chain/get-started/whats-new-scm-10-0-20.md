@@ -1,5 +1,5 @@
 ---
-title: „Dynamics 365 Supply Chain Management“ peržiūra 10.0.20 (2021 m. liepa)
+title: Peržiūra „Dynamics 365 Supply Chain Management“ 2020-0-10 (2021 m. rugpjūčio mėn.)
 description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.20 versijos funkcijos.
 author: kamaybac
 ms.date: 05/28/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: c009625204ef0fdc72c381b5fee11f4d031a6a82
-ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
+ms.openlocfilehash: 3a35d3becbf81c51d29ef2e0f4cbf6a12cd196b8
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6123419"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187631"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10020-july-2021"></a>„Dynamics 365 Supply Chain Management“ peržiūra 10.0.20 (2021 m. liepa)
+# <a name="preview-of-dynamics-365-supply-chain-management-10020-august-2021"></a>Peržiūra „Dynamics 365 Supply Chain Management“ 2020-0-10 (2021 m. rugpjūčio mėn.)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -25,8 +25,9 @@ ms.locfileid: "6123419"
 Šioje temoje pristatomos funkcijos, kurios yra naujos arba pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.20 peržiūros versijoje. Šios versijos komponavimo numeris yra 10.0.886 ir jis pasiekiamas tokius būdu:
 
 - **Peržiūros versijos išleidimas:** 2021 m. gegužė
-- **Bendras leidimo pasiekiamumas (savaiminis naujinimas):** 2021 m. birželis
+- **Bendras leidimo pasiekiamumas (savaiminis naujinimas):** 2021 m. liepa
 - **Bendras leidimo pasiekiamumas (automatinis naujinimas):** 2021 m. liepa
+
 
 ## <a name="features-included-in-this-release"></a>Funkcijos, įtrauktos į šį leidimą
 

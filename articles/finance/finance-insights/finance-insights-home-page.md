@@ -2,7 +2,7 @@
 title: „Finance Insights” pagrindinis puslapis (peržiūra)
 description: „Finance Insights” suteikia konfigūruojamus ir išplečiamus modelius, kad galėtumėte tiksliai ir sumaniai prognozuoti savo įmonės grynųjų pinigų srautus, numatyti, kada gausite mokėjimą už neapmokėtas gautinas sumas ir bus sugeneruotas biudžeto pasiūlymas, kuris gali pagreitinti jūsų biudžeto sudarymo procesą. Visos šios funkcijos paremtos išmaniaisiais mašininio mokymo modeliais.
 author: ShivamPandey-msft
-ms.date: 07/20/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 3a78a162469790d797344ce9311c55bfcecd19f4
-ms.sourcegitcommit: 273903b7b73ac726d447c50f7086e6d8b0f0f74e
+ms.openlocfilehash: 4876d2d4ad79dc09ce4b372eedf4c6ab31930957
+ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6086994"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6222515"
 ---
 # <a name="finance-insights-home-page-preview"></a>„Finance Insights” pagrindinis puslapis (peržiūra)
 
@@ -68,7 +68,9 @@ Bus atlikti „Microsoft Dynamics 365 Finance“, „Microsoft Dynamics Lifecycl
 
 ## <a name="configure-finance-insights"></a>„Finance Insights” konfigūravimas
 
-Turite atlikti keletą konfigūracijos veiksmų, kad galėtumėte naudoti „Finance Insights”. Daugiau informacijos apie tai, kaip sukonfigūruoti finansines įžvalgas, žr. [„Finance Insights” konfigūravimas](configure-for-fin-insites.md).
+Turite atlikti keletą konfigūracijos veiksmų, kad galėtumėte naudoti „Finance Insights”. Daugiau informacijos, kaip konfigūruoti šį abonementą, žr. „Finance insights“.
+  - Apie versijas iki 10.0.19: [Konfigūravimas „Finance insights“ versijoms iki 10.0.19](configure-for-fin-insites.md).
+  - Versijoms 10.0.20 ir naujesnėms: [Konfigūravimas „Finance Insights“ (peržiūra) - versijoms 10.0.20 ir naujesnėms](configure-for-fin-insites-PubPrvw.md).
 
 ## <a name="create-a-data-integrator-project"></a>Duomenų integratoriaus projekto kūrimas
 
@@ -84,10 +86,7 @@ Jei naudojate demonstracinius duomenis, kad išbandytumėte kliento mokėjimo pr
 Norėdami įjungti kliento mokėjimo prognozes, turite atlikti konkrečius veiksmus, kad galėtumėte kurti mašininio mokymo modelį, kuris naudoja jūsų organizacijos duomenis generuodamas prognozes apie tai, kada klientai gali apmokėti neapmokėtas SF ir kada gali būti apmokėtos konkrečios SF. Norėdami gauti daugiau informacijos ir sužinoti konkrečius veiksmus, žr. [Kliento mokėjimo prognozių įjungimas](enable-cust-paymnt-prediction.md). 
 
 ### <a name="enable-cash-flow-forecasting"></a>Grynųjų pinigų srautų prognozavimo įjungimas
-Norėdami įjungti grynųjų pinigų srauto prognozavimą, turite atlikti konkrečius veiksmus, kad sukurtumėte mašininio mokymo modelį, kuris naudoja jūsų organizacijos duomenis generuodamas grynųjų pinigų srautų prognozes. Norėdami gauti daugiau informacijos ir sužinoti konkrečius veiksmus, žr. [Grynųjų pinigų srauto prognozių įjungimas](enable-cash-flow-forecasting.md) 
-
-### <a name="set-up-and-use-cash-flow-forecasting"></a>Grynųjų pinigų srauto prognozių nustatymas ir naudojimas
-Informacijos, kaip nustatyti ir naudoti grynųjų pinigų srautų prognozavimą, žr. [Grynųjų pinigų srautų prognozavimo įjungimas](enable-cash-flow-forecasting.md). Informacijos apie tai, kaip naudoti šį pajėgumą, žr. [Grynųjų pinigų srauto prognozavimas](cash-flow-forecast-intro.md).
+Norėdami įjungti grynųjų pinigų srauto prognozavimą, turite atlikti konkrečius veiksmus, kad sukurtumėte mašininio mokymo modelį, kuris naudoja jūsų organizacijos duomenis generuodamas grynųjų pinigų srautų prognozes. Norėdami gauti daugiau informacijos ir sužinoti konkrečius veiksmus, žr. [Grynųjų pinigų srauto prognozių įjungimas](enable-cash-flow-forecasting.md).
 
 ### <a name="enable-budget-proposals"></a>Biudžeto pasiūlymų įjungimas
 
@@ -111,14 +110,12 @@ Grynųjų pinigų srauto prognozavimo pajėgumas gali padėti tiksliau įvertint
 
 - Norėdami sužinoti apie naujas grynųjų pinigų srauto prognozavimo galimybes žr. [Grynųjų pinigų srauto prognozavimas](cash-flow-forecast-intro.md).
 - Norėdami informacijos apie išorinių duomenų importavimą, kurie bus įtraukti į grynųjų pinigų srauto prognozę čia, žr. [Išorinių duomenų naudojimas grynųjų pinigų srauto prognozėse](external-data-in-cash-flow.md). 
-- Norėdami informacijos apie tai, kaip naudoti DI modelį ilgalaikiam grynųjų pinigų srautui prognozuoti, žr. [Grynųjų pinigų srauto prognozavimo apžvalga](cash-position.md).
+- Norėdami informacijos apie tai, kaip naudoti AI modelį ilgalaikiam grynųjų pinigų srautui prognozuoti, žr. [Grynųjų pinigų padėtis](cash-position.md).
 - Norėdami informacijos apie grynųjų pinigų srauto padėtis ir grynųjų pinigų srauto prognozių kaip momentinių kopijų įrašymą bei norėdami palyginti momentinę kopiją su faktine prognoze žr. [Momentinių kopijų apžvalga](payment-snapshots.md).
 
 ### <a name="using-budget-proposal"></a>Biudžeto pasiūlymo naudojimas
 
 Norėdami daugiau informacijos apie tai, kaip pagreitinti biudžeto kūrimą, žr. [Biudžeto pasiūlymai](budget-proposals.md). 
-
-Biudžeto pasiūlymo demonstraciniai duomenys:
 
 ## <a name="feedback-and-support"></a>Atsiliepimai ir palaikymas
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dc4dc556cbb8bd461e904ef569016acd4276f7a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c394219bbb58bea187d352c8817ed4c3e2eb883c
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814253"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189450"
 ---
 # <a name="collections-in-accounts-receivable"></a>Surinkimas gautinų sumų modulyje
 
@@ -99,8 +99,7 @@ Nurašymo operacija sukuriama operacijos valiuta.
 
 Daugiau informacijos žr. [Kurti kliento nurašymo žurnalą](tasks/create-write-off-journal-customer.md)
 
-<a name="process-not-sufficient-funds-nsf-payments"></a>Apdoroti lėšų trūkumo (NSF) mokėjimus  
---------------------------------------------
+## <a name="process-not-sufficient-funds-nsf-payments"></a>Apdoroti lėšų trūkumo (NSF) mokėjimus  
 
 NSF mokėjimus galite tvarkyti paspaudę NSF mokėjimą Mokėjimų priežiūros puslapyje. Kai paspausite šį mygtuką, mokėjimas bus atšauktas. Jei klientui taikomas NSF mokestis, sukuriama mokesčio operacija mokėjimo žurnale. Mokesčio suma grindžiama automatinių mokesčių parametrais. NSF mokėjimams automatiškai taikomi mokesčiai, kurie nurodomi pagal mokesčių grupę, pasirenkamą banko sąskaitų puslapyje atitinkamai banko sąskaitai.
 

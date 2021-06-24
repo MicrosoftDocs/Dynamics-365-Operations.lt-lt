@@ -9,6 +9,7 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: ''
 ms.custom: 260624
 ms.assetid: ''
 ms.search.region: global
@@ -16,17 +17,16 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f7ff7ea28f8417d4c35f87e0d8fef46d647f42e4
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 51fd8ca2ef7cdc43967ced8251b8377f3eaaf753
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019107"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193677"
 ---
 # <a name="commerce-home-page"></a>Komercijos pagrindinis puslapis
 
 [!include [banner](includes/banner.md)]
-
 
 „Dynamics 365 Commerce“, paremtas patikrintomis „Dynamics 365 Retail“ galimybėmis, pristato išsamų daugiakanalį sprendimą, vienijantį operacijų skyrių, parduotuvę, skambučių centrą ir skaitmeninę patirtį. Programoje „Dynamics 365 Commerce“ galite formuoti lojalumą prekės ženklui, naudojant suasmenintus kliento įtraukimo būdus, didinti įplaukas, siekiant pagerinti darbuotojų produktyvumą, optimizuoti operacijas, siekiant sumažinti išlaidas ir valdyti tiekimo grandinės efektyvumą, galiausiai užtikrinti geresnius verslo rezultatus.
 
@@ -38,21 +38,23 @@ ms.locfileid: "6019107"
 
 - **Lanksti ir pažangi daugiakanalė patirtis:** sujunkite fizinę ir skaitmeninę prekybą, teikdami nuoseklią patirtį klientams per debesies iešką ir atradimą, produktų apžvalgas, norų sąrašus, atsargas, dovanų korteles ir lojalumą. Suteikite klientams galimybę pirkti, kada, kaip ir kur jie nori, bet kokiu įrenginiu, tuo pačiu metu leisdami rinktis modernius mokėjimo būdus ir produktų atsiėmimą ar pristatymą.
 
-- **Racionalizuokite operacijas naudodami debesies DI:** įgalinkite daugiakanalės prekybos patirtį ir integruotą, optimizuotą mokėjimo ir atsiskaitymo sistemų operacijas per įsišaknijusias, skvarbias ir kontekstines debesies įžvalgas. Naudokite pažangią prekybą atsargų valdymą, paskirstytų užsakymų valdymą ir įkainius bei reklaminius gaminius siekdami diegti naujoves ir neatsilikti nuo konkurentų.Gaukite įžvalgų iš visų savo verslo aspektų vizualizuojant ir analizuojant išsamius ir nuosekliais duomenis. Naudokite DI pagrįstas technologijas teikti pasiekiamas svetaines, apsaugoti savo verslą nuo sukčiavimo atliekant mokėjimus ir efektyviai moderuoti vartotojo sugeneruotą turinį, pvz., įvertinimus ir apžvalgas. 
+- **Racionalizuokite operacijas naudodami debesies DI:** įgalinkite daugiakanalės prekybos patirtį ir integruotą, optimizuotą mokėjimo ir atsiskaitymo sistemų operacijas per įsišaknijusias, skvarbias ir kontekstines debesies įžvalgas. Naudokite pažangią prekybą atsargų valdymą, paskirstytų užsakymų valdymą ir įkainius bei reklaminius gaminius siekdami diegti naujoves ir neatsilikti nuo konkurentų.Gaukite įžvalgų iš visų savo verslo aspektų vizualizuojant ir analizuojant išsamius ir nuosekliais duomenis. Naudokite DI pagrįstas technologijas teikti pasiekiamas svetaines, apsaugoti savo verslą nuo sukčiavimo atliekant mokėjimus ir efektyviai moderuoti vartotojo sugeneruotą turinį, pvz., įvertinimus ir apžvalgas.
 
 ## <a name="core-concepts-and-tasks"></a>Pagrindinės koncepcijos ir užduotys
 
 Pasirinkite funkcijų sritį, apie kurią norite sužinoti daugiau.
+
 - [„Commerce” peržiūros aplinkos konfigūravimas](provisioning-guide.md)
 - [Komercijos architektūra](./commerce-architecture.md)
 - [Kanalų nustatymas](channels-overview.md)
-- [Jūsų produktų ir paslaugų reklamavimas parduotuvėje](set-up-retail-products.md)
+- [Prekyba produktais ir paslaugomis](set-up-retail-products.md)
 - [Užsakymų tvarkymas](Order-fulfillment-overview.md)
 - [Klientų duomenų tvarkymas](set-up-customer-loyalty-program.md)
 - [Finansų valdymas](retail-statements.md)
 - [El. prekybos svetainės valdymas](online-store-overview.md)
-- [„Fraud Protection”](dev-itpro/DFP.md)
-- [Prekybos plėtra ir vystymas](dev-itpro/dev-retail-home-page.md)
+- [Apsauga nuo sukčiavimo](dev-itpro/DFP.md)
+- [„Commerce“ plėtra ir išplečiamumas](dev-itpro/dev-retail-home-page.md)
 
+## <a name="elearning-courses"></a>El. mokymosi kursai
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Internetinių kursų ir mokymų ieškokite [Dynamics 365 Commerce, esančiame Microsoft Learn](https://docs.microsoft.com/learn/browse/?expanded=dynamics-365&products=dynamics-commerce&resource_type=learning%20path).
