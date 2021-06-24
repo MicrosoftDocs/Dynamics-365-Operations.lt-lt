@@ -4,7 +4,7 @@
       items:
         - name: „Dynamics 365 Supply Chain Management“ pagrindinis puslapis
           href: index.md
-        - name: Pradžia
+        - name: Pradėti
           items:
             - name: Prieš perkant
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/supply-chain/toc.json
@@ -72,7 +72,7 @@
                   items:
                     - name: Kas nauja ar pasikeitė „Supply Chain Management“ pagrindinis puslapis
                       href: get-started/whats-new-home-page.md
-                    - name: „Supply Chain Management 10.0.20“ (2021 m. liepos mėn.)
+                    - name: „Supply Chain Management 10.0.20“ (2021 m. rugpjūčio mėn.)
                       href: get-started/whats-new-scm-10-0-20.md
                     - name: „Supply Chain Management 10.0.19“ (2021 m. birželio mėn.)
                       href: get-started/whats-new-scm-10-0-19.md
@@ -222,6 +222,8 @@
                       href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ER konfigūracijų „Regulatory Configuration Service“ kūrimas ir nusiuntimas į bendrąją saugyklą
                       href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: „Regulatory Configuration Service“ – „Lifecycle Services“ saugyklos netinkamumas
+                      href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Elektroninių SF išrašymas
                   items:
                     - name: Elektroninių SF išrašymo apžvalga
@@ -234,7 +236,9 @@
                       href: ../finance/localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/supply-chain/toc.json
                     - name: „Azure“ saugyklos paskyros ir „Key Vault“ kūrimas
                       href: ../finance/localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Pradžia
+                    - name: Naudojimo valdymo ataskaitų sritis
+                      href: ../finance/localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Pradėti
                       items:
                         - name: Darbo su elektroninių SF išrašymo tarnybos administravimu pradžia
                           href: ../finance/localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/supply-chain/toc.json
@@ -1383,8 +1387,12 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Spausdintinų laisvos formos sąskaitų faktūrų (FTI) formų generavimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ER formatų vykdymo sekimas siekiant diagnozuoti našumo problemas
-                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Efektyvių ER sprendimų kūrimas
+                  items:
+                    - name: ER formatų vykdymo sekimas siekiant diagnozuoti našumo problemas
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ER konfigūracijų našumo trikčių šalinimas
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Verslo dokumentų valdymas (BDM)
                   items:
                     - name: BDM apžvalga
@@ -1675,30 +1683,38 @@
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
                 - name: Bendradarbiavimas su vidinės tiekimo grandinės klientais
                   href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
-            - name: Poreikio prognozavimas
+            - name: Prognozavimas
               items:
-                - name: Poreikio prognozavimo apžvalga
-                  href: master-planning/introduction-demand-forecasting.md
-                - name: Poreikio prognozavimo nustatymas
-                  href: master-planning/demand-forecasting-setup.md
-                - name: Poreikio prognozių praeities duomenų importavimas
-                  href: master-planning/import-historical-data.md
-                - name: Pagrindinės statistinės prognozės generavimas
-                  href: master-planning/generate-statistical-baseline-forecast.md
-                - name: Rankinis pagrindinės prognozės koregavimas
-                  href: master-planning/manual-adjustments-baseline-forecast.md
-                - name: Pakoreguotos prognozės įgaliojimas
-                  href: master-planning/authorize-adjusted-forecast.md
-                - name: Prognozės tikslumo stebėjimas
-                  href: master-planning/monitor-forecast-accuracy.md
-                - name: Pašalinių reikšmių šalinimas iš praeities operacijų duomenų skaičiuojant poreikio prognozę
-                  href: master-planning/remove-historical-outliers-calculating-demand-forecast.md
-                - name: Mažinimo raktai
-                  href: master-planning/reduction-keys.md
-                - name: Pagrindinės prognozės kūrimas
-                  href: master-planning/tasks/create-baseline-forecast.md
-                - name: Poreikio prognozės modifikavimas rankiniu būdu
-                  href: master-planning/tasks/modify-demand-forecast-manually.md
+                - name: Poreikio ir tiekimo prognozavimas
+                  items:
+                    - name: Atsargų prognozės
+                      href: master-planning/inventory-forecast.md
+                    - name: 'Vadovas: Poreikio prognozės modifikavimas rankiniu būdu'
+                      href: master-planning/tasks/modify-demand-forecast-manually.md
+                - name: Poreikio prognozavimas
+                  items:
+                    - name: Poreikio prognozavimo apžvalga
+                      href: master-planning/introduction-demand-forecasting.md
+                    - name: Poreikio prognozavimo nustatymas
+                      href: master-planning/demand-forecasting-setup.md
+                    - name: Pagrindinės statistinės prognozės generavimas
+                      href: master-planning/generate-statistical-baseline-forecast.md
+                    - name: Rankinis pagrindinės prognozės koregavimas
+                      href: master-planning/manual-adjustments-baseline-forecast.md
+                    - name: Pakoreguotos prognozės įgaliojimas
+                      href: master-planning/authorize-adjusted-forecast.md
+                    - name: Poreikio prognozių praeities duomenų importavimas
+                      href: master-planning/import-historical-data.md
+                    - name: Pašalinių reikšmių šalinimas iš praeities operacijų duomenų skaičiuojant poreikio prognozę
+                      href: master-planning/remove-historical-outliers-calculating-demand-forecast.md
+                    - name: Prognozės tikslumo stebėjimas
+                      href: master-planning/monitor-forecast-accuracy.md
+                    - name: 'Vadovas: Pagrindinės prognozės kūrimas'
+                      href: master-planning/tasks/create-baseline-forecast.md
+                - name: Bendrasis planavimas su prognoze
+                  items:
+                    - name: Prognozės mažinimo raktai
+                      href: master-planning/reduction-keys.md
             - name: Bendrojo planavimo trikčių šalinimas
               href: master-planning/troubleshoot-masterplanning.md
         - name: Mobiliųjų įrenginių programėlė
@@ -3425,6 +3441,8 @@
                   href: troubleshooting/rebates/cumulating-customer-.md
             - name: Pardavimas ir rinkodara
               items:
+                - name: Atšaukiant pardavimo užsakymą kiekio sumažinti negalima
+                  href: troubleshooting/sales/quantity-cannot-be-reduced.md
                 - name: 'Sistemos administratoriai negali išvalyti užsakymo sulaikymų, nes jie nėra įgalioti'
                   href: troubleshooting/sales/system-administrator.md
             - name: Transportavimo valdymas

@@ -14,7 +14,7 @@
               items:
                 - name: Kas nauja ar pasikeitė „Platform“ naujinimuose pagrindinis puslapis
                   href: get-started/whats-new-home-page.md
-                - name: "„Platform“ naujinimai 10.0.20 versijai (2021\_m. liepos mėn.)"
+                - name: "„Platform“ naujinimai, skirti 10.0.20 versijai (2021\_m. rugpjūčio mėn.)"
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: "„Platform“ naujinimai, skirti 10.0.19 (2021\_m. birželio mėn.)"
                   href: get-started/whats-new-platform-updates-10-0-19.md
@@ -850,12 +850,10 @@
               items:
                 - name: Sekimas naudojant sekimo analizatorių
                   href: perf-test/trace-trace-tutorial.md
-                - name: Vieno vartotojo aplinkos bandymas naudojant užduočių įrašymo priemonę ir „Performance SDK“
+                - name: Vieno vartotojo aplinkos bandymas naudojat „Performance SDK“ ir užduočių įrašymo priemonę
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: Kelių vartotojų bandymas naudojant „Performance SDK“ ir vietinį bandymo valdiklį
-                  href: perf-test/multi-user-testing-local-test-controller.md
-                - name: Kelių vartotojų aplinkos bandymas naudojant „Performance SDK“ ir „Azure DevOps“
-                  href: perf-test/multi-user-testing-perfsdk-azuredevops.md
+                - name: Kelių vartotojų aplinkos bandymas naudojant „Performance SDK“
+                  href: perf-test/perfsdk-multi-user-testing.md
                 - name: „Performance SDK“ tikrinimo trikčių diagnostikos vadovas
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
                 - name: „Performance SDK“ ir kelių vartotojų aplinkos bandymas vietinėse aplinkose
@@ -1176,7 +1174,7 @@
           items:
             - name: Mobiliosios platformos ištekliai
               href: mobile-apps/platform/mobile-platform-home-page.md
-            - name: Pradžia
+            - name: Pradėti
               items:
                 - name: Darbo su mobiliąja platforma pradžia
                   href: mobile-apps/platform/mobile-platform-getting-started.md
@@ -1536,8 +1534,10 @@
                   href: sysadmin/batch-processing-overview.md
                 - name: Paketinis apdorojimas ir paketinio apdorojimo serveriai
                   href: sysadmin/batch-server-overview.md
-                - name: Paketinių užduočių kūrimas
+                - name: Kurti paketines užduotis
                   href: sysadmin/tasks/create-batch-job.md
+                - name: Automatinių bandymų iš naujo įjungimas paketinėse užduotyse
+                  href: sysadmin/retryable-batch.md
                 - name: Paketinės užduoties kopijavimas
                   href: sysadmin/copy-batch-job.md
                 - name: Aktyvieji paketo laikotarpiai
@@ -1588,12 +1588,10 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: AX 2012 versijos naujinimas – išankstinis duomenų naujinimo kontrolinis sąrašas
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: AX 2012 versijos naujinimas – duomenų plėtojimas smėlio dėžės aplinkose vykdant DACPAC procesą
-                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
                 - name: Naujinimas iš AX 2012 versijos – SQL operacijų kopijavimas
                   href: database/replication-setup.md
-                - name: AX 2012 versijos naujinimas – duomenų plėtojimas smėlio dėžės aplinkose
-                  href: migration-upgrade/upgrade-data-sandbox.md
+                - name: Naujinimas iš AX 2012 versijos – duomenų naujinimas savitarnos aplinkose
+                  href: migration-upgrade/data-upgrade-self-service.md
                 - name: AX 2012 versijos naujinimas – vietinės aplinkos
                   href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: AX 2012 versijos naujinimas – visiško perkėlimo bandymai

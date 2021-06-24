@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c4b7221cb5b0ea1fdbb4e05831cdd6dd482e321
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d24035aa326c2232cc77a576d24c15b3a8f9d93b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823545"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188352"
 ---
 # <a name="public-sector-home-page"></a>Viešojo sektoriaus pagrindinis puslapis
 
@@ -63,8 +63,7 @@ Naudokite viešojo sektoriaus funkcijas, kurios padės laikytis viešojo sektori
 | Antriniai raktai | **Išplėstinės didžiosios knygos įrašas** konfigūracijos raktas (AdvancedLedgerEntry) **Viešasis sektorius 1099G** konfigūracijos raktas (Tax1099G) **Viešasis sektorius 1099S** konfigūracijos raktas (Tax1099S) **Prancūzijos reglamentavimas** konfigūracijos raktas |
 
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Viešojo sektoriaus funkcijų planas](plan-public-sector-functionality.md)
 
