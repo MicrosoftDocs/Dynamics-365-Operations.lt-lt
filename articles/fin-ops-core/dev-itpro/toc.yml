@@ -20,11 +20,9 @@
                   href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: "„Platform“ naujinimai, skirti 10.0.18 (2021\_m. gegužės mėn.)"
                   href: get-started/whats-new-platform-updates-10-0-18.md
-                - name: '„Platform“ naujinimai, skirti 10.0.17 (2021 m. balandžio mėn.)'
-                  href: get-started/whats-new-platform-updates-10-0-17.md
-            - name: Pašalintos arba nebenaudojamos funkcijos
+            - name: Pašalintos arba nerekomenduojamos funkcijos
               items:
-                - name: Pašalintų arba nebenaudojamų funkcijų pagrindinis puslapis
+                - name: Pašalintų arba nerekomenduojamų funkcijų pagrindinis puslapis
                   href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
                 - name: Pašalintos arba nebenaudojamos platformos funkcijos
                   href: get-started/removed-deprecated-features-platform-updates.md
@@ -278,6 +276,8 @@
               href: data-entities/finance-data-azure-data-lake.md
             - name: Leidimas objektų saugyklą naudoti kaip „Data Lake“
               href: data-entities/entity-store-data-lake.md
+            - name: Duomenų keitimas „Azure Data Lake“
+              href: data-entities/Azure-data-lake-Change-feeds.md
         - name: Duomenų bazių perkėlimo operacijos
           items:
             - name: Apžvalga
@@ -1690,7 +1690,7 @@
                   href: dev-tools/update-development-tools.md
             - name: Draudimai naudoti
               items:
-                - name: Pašalintos arba nebenaudojamos funkcijos
+                - name: Pašalintos arba nerekomenduojamos funkcijos
                   href: migration-upgrade/deprecated-features.md
                 - name: Pasenusių metodų ir metaduomenų elementų nenaudojimas
                   href: migration-upgrade/deprecation-deletion-apis.md

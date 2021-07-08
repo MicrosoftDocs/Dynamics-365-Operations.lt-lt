@@ -4,7 +4,7 @@
       items:
         - name: „Dynamics 365 Supply Chain Management“ pagrindinis puslapis
           href: index.md
-        - name: Pradėti
+        - name: Pradžia
           items:
             - name: Prieš perkant
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/supply-chain/toc.json
@@ -78,11 +78,9 @@
                       href: get-started/whats-new-scm-10-0-19.md
                     - name: „Supply Chain Management 10.0.18“ (2021 m. gegužės mėn.)
                       href: get-started/whats-new-scm-10-0-18.md
-                    - name: „Supply Chain Management 10.0.17“ (2021 m. balandžio mėn.)
-                      href: get-started/whats-new-scm-10-0-17.md
-                - name: Pašalintos arba nebenaudojamos funkcijos
+                - name: Pašalintos arba nerekomenduojamos funkcijos
                   items:
-                    - name: Pašalintų arba nebenaudojamų funkcijų pagrindinis puslapis
+                    - name: Pašalintų arba nerekomenduojamų funkcijų pagrindinis puslapis
                       href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management“ funkcijos
                       href: get-started/removed-deprecated-features-scm-updates.md
@@ -220,7 +218,7 @@
                       href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/supply-chain/toc.json
                     - name: „Regulatory Configuration Service“ – globalizacijos funkcijos
                       href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ER konfigūracijų „Regulatory Configuration Service“ kūrimas ir nusiuntimas į bendrąją saugyklą
+                    - name: Elektroninių ataskaitų konfigūracijų „Regulatory Configuration Service“ kūrimas ir nusiuntimas į bendrąją saugyklą
                       href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
                     - name: „Regulatory Configuration Service“ – „Lifecycle Services“ saugyklos netinkamumas
                       href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
@@ -238,7 +236,7 @@
                       href: ../finance/localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Naudojimo valdymo ataskaitų sritis
                       href: ../finance/localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Pradėti
+                    - name: Pradžia
                       items:
                         - name: Darbo su elektroninių SF išrašymo tarnybos administravimu pradžia
                           href: ../finance/localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/supply-chain/toc.json
@@ -601,8 +599,22 @@
               href: ../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/dynamics365/supply-chain/toc.json
             - name: „Microsoft Power BI‟ ataskaitų turinio paketo naudojimas
               href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/supply-chain/toc.json
-            - name: „Finance and Operations“ mobiliosios programos kaštų kontrolės darbo srities naudojimas
+            - name: „Finance and Operations‟ mobiliosios programos kaštų kontrolės darbo srities naudojimas
               href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
+        - name: Visuotinė atsargų apskaita
+          items:
+            - name: Visuotinės atsargų apskaitos pagrindinis puslapis
+              href: global-inventory-accounting/global-inventory-accounting-home.md
+            - name: Darbo su visuotine atsargų apskaita pradžia
+              href: global-inventory-accounting/get-started-with-gia.md
+            - name: 'Verslo dokumentai, kuriuos palaiko visuotinių atsargų apskaita'
+              href: global-inventory-accounting/business-documents-supported.md
+            - name: „Power BI“ įjungimas visuotinei atsargų apskaitai
+              href: global-inventory-accounting/enable-power-bi-for-gia.md
+            - name: Konvencijos
+              href: global-inventory-accounting/conventions.md
+            - name: Visuotinės atsargų apskaitos didžioji knyga
+              href: global-inventory-accounting/global-inventory-accounting-ledger.md
         - name: Kaštų valdymas
           items:
             - name: Kaštų valdymo pagrindinis puslapis
@@ -873,6 +885,12 @@
               items:
                 - name: Formulės kalba
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Palaikomi ER formulių duomenų tipai
+                  items:
+                    - name: Pagrindinių duomenų tipai
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Sudėtinių duomenų tipai
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Funkcijos
                   items:
                     - name: Konteineris
@@ -1387,11 +1405,11 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Spausdintinų laisvos formos sąskaitų faktūrų (FTI) formų generavimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Efektyvių ER sprendimų kūrimas
+                - name: Efektyvių elektroninių ataskaitų sprendimų kūrimas
                   items:
-                    - name: ER formatų vykdymo sekimas siekiant diagnozuoti našumo problemas
+                    - name: Elektroninių ataskaitų formatų vykdymo sekimas siekiant diagnozuoti našumo problemas
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ER konfigūracijų našumo trikčių šalinimas
+                    - name: Elektroninių ataskaitų konfigūracijų našumo trikčių šalinimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Verslo dokumentų valdymas (BDM)
                   items:
@@ -1417,13 +1435,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: „Application update 10.0.17“
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: „Application update 10.0.19“
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pasirinktinės saugyklos vietos sugeneruotiems dokumentams nurodymas
                   items:
                     - name: 'Įvykio prenumeravimas, kad prenumeratos apdorojimo programai galima būtų pateikti užklausą dėl atsakymo'
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ER paskirties vietos kūrimo perdavimas pasirinktinės paskirties vietos gamyklai
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/supply-chain/toc.json
-                - name: VARTOTOJO ĮVESTIES PARAMETRO tipo duomenų šaltinio verčių inicijavimas iš šaltinio kodo
+                - name: Pasirinktinės paskirtie vietos sugeneruotiems dokumentams diegimas
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/supply-chain/toc.json
+                - name: „USER INPUT PARAMETER“ tipo duomenų šaltinio verčių inicijavimas iš šaltinio kodo
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/supply-chain/toc.json
         - name: Atsargų valdymas
           items:
@@ -1593,6 +1615,8 @@
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Laiko rezervai
                   href: master-planning/planning-optimization/safety-margins.md
+                - name: Leistinas uždelsimo nuokrypis (neigiamos dienos)
+                  href: master-planning/planning-optimization/delay-tolerance.md
                 - name: Pirkimo paraiškos
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Gamybos planavimas
@@ -1603,6 +1627,8 @@
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: Produktų su tam tikromis produkto ciklo būsenomis neįtraukimas
                   href: master-planning/planning-optimization/product-lifecycle-state.md
+                - name: Papildymo metodai ir kiekio modifikavimas
+                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: Padengimo laiko ribos
                   href: master-planning/planning-optimization/coverage-time-fence.md
                 - name: Suplanuotų užsakymų tvirtinimas
@@ -3047,6 +3073,8 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: 'Prekių, kurioms įjungta pagrindinio sandėliavimo funkcija, registravimas naudojant prekių gavimo žurnalą'
                   href: warehousing/tasks/register-items-basic-warehousing.md
+                - name: Gaunamų ASN importavimas naudojant V2 duomenų objektą
+                  href: warehousing/import-asn-v2-data-entity.md
                 - name: Produktų paskirstymas iš gavimo sandėlio į parduotuves
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: Pirkimo užsakymo atidėjimo vietos nurodymo nustatymas
@@ -3215,6 +3243,8 @@
                       href: warehousing/partial-location-cycle-counting.md
                     - name: Dalinio vietos ciklų skaičiavimo proceso apibrėžimas
                       href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                    - name: Ciklo skaičiavimo scenarijų pavyzdžiai
+                      href: warehousing/cycle-counting-scenarios.md
                     - name: Sandėlio valdymo turimų įrašų valymo užduotis
                       href: warehousing/onhand-cleanup.md
                     - name: Atsargų žurnalai
@@ -3241,6 +3271,52 @@
                       href: warehousing/mhax.md
                     - name: Sandėlio darbo trikčių šalinimas
                       href: warehousing/troubleshoot-warehouse-work.md
+            - name: Sandėlio programa
+              items:
+                - name: 'Mobiliųjų įrenginių diegimas, nustatymas ir naudojimas'
+                  items:
+                    - name: Kas nauja ar pasikeitė „Warehouse Management“ mobiliųjų įrenginių programėlėje
+                      href: warehousing/whats-new-wma.md
+                    - name: „Warehouse Management“ mobiliųjų įrenginių programėlės diegimas ir prijungimas
+                      href: warehousing/install-configure-warehouse-management-app.md
+                    - name: Sandėlio programos diegimas ir prijungimas
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: Brūkšninių kodų nuskaitymas „Warehouse Management“ mobiliųjų įrenginių programėle naudojant kamerą
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: „Warehouse Management“ mobiliųjų įrenginių programėlės ryšio problemų šalinimas
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
+                - name: Mobiliųjų įrenginių laukų ir meniu nustatymas
+                  items:
+                    - name: „Warehouse Management“ mobiliųjų įrenginių programėlės laukų konfigūravimas
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: Mobiliųjų įrenginių nustatymas darbui sandėlyje
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Su „Warehouse Management“ mobiliųjų įrenginių programėle gaunama numerio lentelė
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: Mobiliojo įrenginio meniu elemento pirkimo užsakymo darbui atlikti nustatymas
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: Mobiliojo įrenginio meniu elemento gautoms prekėms registruoti nustatymas
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: 'Mobiliojo įrenginio meniu elemento nustatymas, norint pateikti paėmimo eilučių apžvalgą'
+                      href: warehousing/pick-line-overview.md
+                    - name: Mobiliojo įrenginio meniu elemento numerių lentelėms konsoliduoti kūrimas
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: Mišrių numerių lentelių gavimas mobiliajame įrenginyje
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: Konfigūracijos Rodyti senesnius paketus sandėlyje konfigūravimas mobiliajame įrenginyje
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: Seniausio paketo paėmimas mobiliajame įrenginyje
+                      href: warehousing/pick-oldest-batch.md
+                - name: Mobiliojo įrenginio naudotojo nustatymai
+                  href: warehousing/mobile-device-user-settings.md
+                - name: Sandėlio programos įvykio apdorojimas
+                  href: warehousing/warehouse-app-events.md
+                - name: Sandėlio programos tinkinimas
+                  items:
+                    - name: Proceso vadovo sistema
+                      href: warehousing/process-guide-framework.md
+                    - name: Veiksmų piktogramų ir pavadinimų priskyrimas
+                      href: warehousing/step-icons-titles.md
             - name: Sandėlio nustatymas
               items:
                 - name: Sandėlio konfigūracija
@@ -3277,8 +3353,12 @@
                           href: warehousing/wave-execution-notifications.md
                         - name: Bangos žymos spausdinimas
                           href: warehousing/configure-wave-label-printing.md
+                        - name: Bangos žymos spausdinimo bangos metu planavimas
+                          href: warehousing/configure-task-based-wave-label-printing.md
                         - name: Krovimas į konteinerius
                           href: warehousing/wave-containerization.md
+                        - name: Konteinerių pakavimo strategijos
+                          href: warehousing/container-packing-strategy-overview.md
                     - name: Automatinis siuntų naujinimas
                       href: warehousing/auto-update-shipment.md
                     - name: Vietos šablono kūrimas
@@ -3309,44 +3389,6 @@
                       href: warehousing/transfer-orders-warehouse.md
                     - name: Sandėlio konfigūracijos trikčių šalinimas
                       href: warehousing/troubleshoot-warehouse-configuration.md
-                - name: Sandėlio valdymo mobiliųjų įrenginių programėlės diegimas ir konfigūravimas
-                  items:
-                    - name: Sandėlio valdymo mobiliųjų įrenginių programėlės diegimas ir prijungimas
-                      href: warehousing/install-configure-warehouse-management-app.md
-                    - name: Mobiliojo įrenginio naudotojo nustatymai
-                      href: warehousing/mobile-device-user-settings.md
-                    - name: Sandėlio programos diegimas ir prijungimas
-                      href: warehousing/install-configure-warehousing-app.md
-                    - name: Brūkšninių kodų nuskaitymas sandėlio valdymo programėle naudojant kamerą
-                      href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: „Warehouse Management“ mobiliųjų įrenginių programėlės laukų konfigūravimas
-                      href: warehousing/configure-app-field-names-priorities-warehouse.md
-                    - name: Mobiliųjų įrenginių nustatymas darbui sandėlyje
-                      href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Veiksmų piktogramų ir pavadinimų priskyrimas
-                      href: warehousing/step-icons-titles.md
-                    - name: Sandėlio programos įvykio apdorojimas
-                      href: warehousing/warehouse-app-events.md
-                    - name: Su „Warehouse Management“ mobiliųjų įrenginių programėle gaunama numerio lentelė
-                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                    - name: Mobiliojo įrenginio meniu elemento pirkimo užsakymo darbui atlikti nustatymas
-                      href: warehousing/tasks/set-up-mobile-device-menu.md
-                    - name: Mobiliojo įrenginio meniu elemento gautoms prekėms registruoti nustatymas
-                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                    - name: 'Mobiliojo įrenginio meniu elemento nustatymas, norint pateikti paėmimo eilučių apžvalgą'
-                      href: warehousing/pick-line-overview.md
-                    - name: Mobiliojo įrenginio meniu elemento numerių lentelėms konsoliduoti kūrimas
-                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                    - name: Mišrių numerių lentelių gavimas mobiliajame įrenginyje
-                      href: warehousing/mixed-license-plate-receiving.md
-                    - name: Konfigūracijos Rodyti senesnius paketus sandėlyje konfigūravimas mobiliajame įrenginyje
-                      href: warehousing/display-older-batches-within-warehouses.md
-                    - name: Seniausio paketo paėmimas mobiliajame įrenginyje
-                      href: warehousing/pick-oldest-batch.md
-                    - name: Proceso vadovo sistema
-                      href: warehousing/process-guide-framework.md
-                    - name: Sandėlio valdymo mobiliųjų įrenginių programėlės ryšio problemų šalinimas
-                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Plėtojimas ir perėjimas
                   items:
                     - name: Sandėlio valdymo procesų plėtojimas iš „Microsoft Dynamics AX 2012“ į „Finance and Operations”
@@ -3393,6 +3435,22 @@
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: Bendrasis planavimas
               items:
+                - name: 'Kai veikia įtaisytas bendrojo planavimo modulis, rodomas klaidos pranešimas'
+                  href: troubleshooting/planning/deprecated-master-planning-error.md
+                - name: Prekėje negali būti KS arba formulės
+                  href: troubleshooting/planning/item-cannot-have-bom-formula.md
+                - name: Nėra bendrojo plano parametrų
+                  href: troubleshooting/planning/no-parameters-for-master-plan.md
+                - name: 'Prieš patvirtinant suplanuotą gamybos užsakymą, reikia sudaryti jo grafiką'
+                  href: troubleshooting/planning/planned-order-must-be-scheduled.md
+                - name: Operacijų produktas sulaikytas
+                  href: troubleshooting/planning/product-is-on-hold.md
+                - name: Pasirinktas formulės numeris nėra patvirtintas naudoti paketiniam užsakymui.
+                  href: troubleshooting/planning/selected-formula-not-approved.md
+                - name: Tiekėjo kodas nėra įgaliotas naudoti konkrečiam produktui ir datai
+                  href: troubleshooting/planning/vendor-code-not-authorized.md
+                - name: 'Tiekėjas nenurodytas, kai tvirtinami suplanuoti užsakymai'
+                  href: troubleshooting/planning/vendor-not-specified.md
                 - name: Tiesiogiai išvesti patvirtinti užsakymai apdorojami peržiūros versijos darbo eiga
                   href: troubleshooting/planning/firmed-directly-deri.md
                 - name: Negalite filtruoti bendrojo planavimo prekių pagal jų susijusias padengimo grupės vertes
@@ -3451,6 +3509,20 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Sandėlio valdymas
               items:
+                - name: Atšaukti produkto gavimo kvitai neatnaujina operacijų būsenos į Užregistruota
+                  href: troubleshooting/warehousing/canceled-product-receipts.md
+                - name: Neteisingas faktiškai atnaujinamo kiekio dešimtainis apvalinimas
+                  href: troubleshooting/warehousing/decimal-rounding-of-quantity.md
+                - name: 'Faktinis likęs kiekis, išreikštas vienetu, negali būti lygus nuliui'
+                  href: troubleshooting/warehousing/physical-remaining-q.md
+                - name: 'Paimtas kiekis nepakankamas, kai generuojamas važtaraštis'
+                  href: troubleshooting/warehousing/picked-quantity-is-n.md
+                - name: 'Kiekis viršija pristatymo perviršio procentinę dalį, kai generuojamas važtaraštis'
+                  href: troubleshooting/warehousing/quantity-exceeds-over-pack-slip.md
+                - name: 'Kiekis, kurį bandote atnaujinti, viršija gautą / pristatytą kiekį'
+                  href: troubleshooting/warehousing/quantity-exceeds-rec-del.md
+                - name: 'Kiekis viršija pristatymo trūkumo procentinę dalį, kai generuojamas važtaraštis'
+                  href: troubleshooting/warehousing/quantity-exceeds-under-pack-slip.md
                 - name: 'Registruojant išrinkimo dokumentą įvyksta klaida, kai pasirenkama vieta'
                   href: troubleshooting/warehousing/error-cannot-update.md
                 - name: Pakavimo stotyje nerodomos produkto pastabos
