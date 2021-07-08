@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1636d37b40c826fb9b922636d68c56963a791af5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1b1077fdb4707bf2c019e86cb073b30465817577
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821254"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270664"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>„Supply Chain Management” standartiniai įrašyti rodiniai
 
@@ -79,16 +79,14 @@ Likusiuose šios temos skyriuose pateikiamos lentelės, kurios aprašo standarti
 
 ## <a name="saved-views-for-the-production-control-module"></a>Gamybos kontrolės modulio įrašyti rodiniai
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Šioje lentelėje aprašomi įrašyti rodiniai, prieinami gamybos kontrolės modulyje.
 
 | Puslapis | Rodinio pavadinimas | Peržiūrėti aprašą | Funkcijos pavadinimas |
 |---|---|---|---|
-| Gamybos užsakymo BOM puslapis | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | (Peržiūros versija) Įrašyti gamybos kontrolės rodiniai |
-| Informacijos apie gamybos užsakymą puslapis | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | (Peržiūros versija) Įrašyti gamybos kontrolės rodiniai |
-| Gamybos užsakymo atsiėmimo sąrašo puslapis | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | (Peržiūros versija) Įrašyti gamybos kontrolės rodiniai |
-| Gamybos užsakymų sąrašo puslapis | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | (Peržiūros versija) Įrašyti gamybos kontrolės rodiniai |
+| Gamybos užsakymo BOM puslapis | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Gamybos kontrolės įrašyti rodiniai |
+| Informacijos apie gamybos užsakymą puslapis | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Gamybos kontrolės įrašyti rodiniai |
+| Gamybos užsakymo atsiėmimo sąrašo puslapis | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Gamybos kontrolės įrašyti rodiniai |
+| Gamybos užsakymų sąrašo puslapis | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Gamybos kontrolės įrašyti rodiniai |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>Pardavimų ir rinkodaros modulio įrašyti rodiniai
 

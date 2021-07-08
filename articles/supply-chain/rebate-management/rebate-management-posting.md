@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 808080d9e84c4af1b061d5a4ce76d5fa309e66f7
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: e77022bde6e612392c80cf5fe2b4c1e75ec5775d
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216748"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271010"
 ---
 # <a name="rebate-management-posting-setup"></a>Grąžinimų valdymo registravimo sąranka
 
@@ -41,7 +41,7 @@ Likusiuose šios temos skyriuose aprašoma, kaip naudoti galimus laukus kuriant 
 |---|---|
 | Registravimo šablonas | Įveskite unikalųjį šablono pavadinimą. |
 | Aprašas | Įveskite šablono aprašymą. |
-| Modulis | Pasirinkite su šablonu susietų mokesčių ir autorinių honorarų tipą (*Klientas* arba *Tiekėjas*). |
+| Modulis | Pasirinkite su šablonu susietų mokesčių ir autorinių honorarų modulį (*Klientas* arba *Tiekėjas*). |
 | Tipas | Pasirinkite šablono tipą (*Grąžinimas* arba *Autorinis honoraras*). |
 | Mokėjimo tipas | <p>Šiame lauke nustatomas užregistruoto grąžinimo išeigos formatas.<p><p>Kai laukas **Tipas** nustatytas į *Grąžinimas*, galimos šios vertės:</p><ul><li>*Mokėti naudojant mokėtinas sumas* – kai klientas registruoja grąžinimą, sukuriama tiekėjo sąskaita faktūra pavedimo tiekėjui, kuri nustatoma kuriant grąžinimo klientą. Ataskaitos – kai tiekėjas registruoja grąžinimą, sukuriama tiekėjo sąskaita faktūra grąžinimo tiekėjo sąskaitai.</li><li>*Kliento atskaitymai* – kai registruojate grąžinimą, sukuriamas kliento atskaitymų žurnalas, skirtas grąžinimo klientui.</li><li>*Mokesčių sąskaita faktūra kliento atskaitymams* – kai registruojate grąžinimą, sukuriama laisvos formos sąskaita faktūra, skirta grąžinimo klientui.</li><li>*Prekybos išlaidos* – kai registruojate grąžinimą, sukuriamas kliento atskaitymų žurnalas, skirtas grąžinimo klientui.</li><li>*Ataskaitos* – kai registruojate grąžinimą, sukuriamas kliento atskaitymų žurnalas, skirtas grąžinimo klientui.</li></ul><p>Kai laukas **Tipas** nustatytas į *Autorinis honoraras*, galimos šios vertės:</p><ul><li>*Mokėti naudojant mokėtinas sumas* – kai registruojate grąžinimą, sukuriama tiekėjo sąskaita faktūra grąžinimo tiekėjo sąskaitai.</li><li>*Ataskaitos* – kai registruojate grąžinimą, sukuriama tiekėjo sąskaita faktūra grąžinimo tiekėjo sąskaitai.</li></ul><p>Daugiau informacijos rasite sekančiame skyriuje [Mokėjimo tipai](#payment-types). |
 | Įmonė | Pasirinkite įmonę (juridinį subjektą), kurioje bus kaupiamos nuostatos ir kuriai bus apmokami pareikalavimai. |
@@ -66,7 +66,7 @@ Likusiuose šios temos skyriuose aprašoma, kaip naudoti galimus laukus kuriant 
 > Atsižvelkite į šiuos dalykus, kai nustatote [Grąžinimo valdymo sandorius](rebate-management-deals.md):
 >
 > - Sandoriams, kurių laukas **Derinti pagal** nustatytas į *Sandoris*, negalite naudoti dinaminės sandorio sąskaitos registravimo metu. Turite naudoti nurodytą kliento arba tiekėjo sąskaitą.
-> - Sandoriams, kurių laukas **Derinti pagal** nustatytas į *Eilutė*, galite naudoti registravimo šabloną, kuris pasislenka į dinaminę sandorio sąskaitą sandorio eilutėje, kadangi klientas yra nustatytas pagal sandorio eilutę.
+> - Sandoriams, kurių laukas **Derinti pagal** nustatytas į *Eilutė*, galite naudoti registravimo šabloną, kuris pasislenka į dinaminę sandorio sąskaitą sandorio eilutėje, kadangi klientas arba tiekėjas yra nustatytas pagal sandorio eilutę.
 
 ## <a name="posting-fasttab"></a>„FastTab“ registravimas
 
@@ -74,15 +74,15 @@ Likusiuose šios temos skyriuose aprašoma, kaip naudoti galimus laukus kuriant 
 
 | Laukas | Aprašas |
 |---|---|
-| Kredito tipas | Pasirinkite, ar kredituoti didžiosios knygos, kliento ar tiekėjo sąskaitą. |
-| Kredito sąskaita | Sąskaita, į kurią registruojamos kredito sumos, kai atliekamos grąžinimo nuostatos. Ši sąskaita taip pat bus naudojama kaip debeto sąskaita, kai grąžinimas bus užregistruotas kredituoti klientui. |
+| Kredito tipas | Pasirinkite, ar kredituoti didžiosios knygos ar kliento sąskaitą. Jei antraštėje esantis laukas **Mokėjimo tipas** nustatytas į *Mokesčių sąskaita faktūra kliento atskaitymams*, šis laukas nustatomas į *Didžiosios knygos sąskaita*. Tiekėjo grąžinimams šis laukas nustatytas kaip *Didžiosios knygos sąskaita*. |
+| Kredito sąskaita | Pasirinkite sąskaitą, į kurią registruojamos kredito sumos, kai atliekamos grąžinimo nuostatos. Ši sąskaita taip pat bus naudojama kaip poslinkio sąskaita, kai grąžinimas bus užregistruotas kredituoti klientui arba debetuoti tiekėjui. |
 | Žurnalo pavadinimas<br>(Skyriuje **Nuostata**) | Pasirinkite žurnalo, kuris bus naudojamas užregistruotoms nuostatoms įrašyti, pavadinimą. |
 | Tipas | Pasirinkite, ar norite registruoti grąžinimo didžiosios knygos, kliento ar tiekėjo sąskaitoje. Jei antraštėje esantis laukas **Mokėjimo tipas** nustatytas į *Mokesčių sąskaita faktūra kliento atskaitymams*, šis laukas nustatomas į *Klientas/Tiekėjas*. |
-| Sąskaitos šaltinio naudojimas | <p>Pasirinkite vieną iš šių reikšmių:</p><ul><li>*Nėra* – jei pasirinksite šią vertę, turėsite nurodyti sąskaitą lauke **Grąžinimo sąskaita**.</li><li>*Sandorio sąskaita* – naudokite kliento arba tiekėjo sąskaitą, nurodytą grąžinimo eilutėje. Šią reikšmę galite pasirinkti tik tiems sandoriams, kurių laukas **Derinti pagal** nustatytas į *Eilutė* ir lauko **Sąskaitos kodas** sandorio eilutės nustatytos į *Lentelė*. Tai netaikoma kliento autorinių honorarų registravimo šablonams.</li></ul> |
+| Sąskaitos šaltinio naudojimas | <p>Pasirinkite vieną iš šių reikšmių:</p><ul><li>*Fiksuota sąskaita* – jei pasirinksite šią vertę, turėsite nurodyti sąskaitą lauke **Grąžinimo sąskaita**.</li><li>*Sandorio eilutės sąskaita* – naudokite kliento arba tiekėjo sąskaitą, nurodytą grąžinimo eilutėje. Šią reikšmę galite pasirinkti tik tiems sandoriams, kurių laukas **Derinti pagal** nustatytas į *Eilutė* ir lauko **Sąskaitos kodas** sandorio eilutės nustatytos į *Lentelė*. Ji netaikomas kliento autorinių atlyginimų registravimo šablonams arba tiekėjo grąžinimams, pagrįstiems pardavimo užsakymais.</li></ul> |
 | Grąžinimų sąskaita | Sąskaita, kurioje registruojamos faktinės grąžinimų išlaidos. |
-| Žurnalo pavadinimas<br>(Skyriuje **Grąžinimų valdymas**) | Pasirinkite žurnalo pavadinimą, kurį norite naudoti grąžinimo sumos kredito pastabą registravimui klientui. Šis laukas yra negalimas, kai antraštėje esantis laukas **Mokėjimo tipas** nustatytas į *Mokesčių sąskaita faktūra kliento atskaitymams*. |
+| Žurnalo pavadinimas<br>(Lauko **Grąžinimų valdymas** grupėje) | Pasirinkite žurnalo pavadinimą, kurį norite naudoti grąžinimo sumos kredito pastabos registravimui klientui arba tiekėjui. Šis laukas yra negalimas, kai antraštėje esantis laukas **Mokėjimo tipas** nustatytas į *Mokesčių sąskaita faktūra kliento atskaitymams*. Klientų grąžinimo žurnalams bus galimi *Kasdienio* žurnalo tipo pavadinimai. Klientų autoriniams atlyginimams ir tiekėjo grąžinimams bus galimi *Tiekėjo SF įrašymo* žurnalo tipo pavadinimai. |
 | Prekės PVM grupė | Nurodykite, ar grąžinimas yra apmokestinamas. |
-| Žurnalo pavadinimas<br>(Dalyje **Nurašymas**) | Jei užregistruotas grąžinimas nėra lygus nuostatai, skirtumą galima nurašyti. Pasirinkite žurnalo, kuris bus naudojamas užregistruotiems nurašymams įrašyti, pavadinimą. |
+| Žurnalo pavadinimas<br>(Lauko **Nurašyti** grupėje) | Jei užregistruotas grąžinimas nėra lygus nuostatai, skirtumą galima nurašyti. Pasirinkite žurnalo, kuris bus naudojamas užregistruotiems nurašymams įrašyti, pavadinimą. |
 
 ## <a name="posting-by-company-fasttab"></a>Registravimo pagal įmonę „FastTab”
 
@@ -92,6 +92,6 @@ Naudokite įrankių juostos mygtukus, norėdami įtraukti įmones į tinklelį i
 
 Kiekvienai įmonei pasirinkite eilutę ir įveskite šią informaciją naudodami laukus, esančius žemiau tinklelio:
 
-- **Debeto tipas** – pasirinkite, ar debetuoti didžiosios knygos, kliento ar tiekėjo sąskaitą.
+- **Debeto tipas** – pasirinkite, ar debetuoti didžiosios knygos ar tiekėjo sąskaitą. Kliento grąžinimams ir autoriniams atlyginimams šis laukas nustatytas kaip *Didžiosios knygos sąskaita*.
 - **Debeto sąskaita** – įveskite sąskaitą, į kurią registruojama debeto suma, kai atliekamos grąžinimo nuostatos.
 - **Pagrindinė sąskaita** – pasirinkite nurašymų pagrindinę sąskaitą.

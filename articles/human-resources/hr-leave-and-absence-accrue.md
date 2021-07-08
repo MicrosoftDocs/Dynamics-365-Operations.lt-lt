@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 86ca63b1703faa6f57ed2e5591c89a5e84363481
-ms.sourcegitcommit: 318e406b84d43381d450272eb83c5eea9c5cf1c0
+ms.openlocfilehash: ddd4c55f6ebfbe91fb949a92cb379f51d826c465
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6059478"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303469"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Sukauptų atostogų ir neatvykimų planai
 
@@ -104,11 +104,9 @@ Naikinkite konkretaus plano ir datų intervalo kaupimo įrašus. Kaupimo data tu
 
 2. Dalyje **Valdyti atostogų laiką** pasirinkite **Naikinti atostogų kaupimo auditą**.
 
-## <a name="preview-leave-accrual-transaction-auditing"></a>(Peržiūros versija) Atostogų kaupimo operacijos tikrinimas
+## <a name="leave-accrual-transaction-auditing"></a>Atostogų kaupimo operacijos tikrinimas
 
-[!include [Preview feature](includes/preview-feature.md)]
-
-Ši peržiūros versijos funkcija padeda atostogų ir neatvykimų vadovams suprasti atostogų ir neatvykimų kaupimo operacijas, susijusias su darbuotojo ne darbo laiko balansu nurodytam atostogų tipui.
+Ši funkcija padeda atostogų ir neatvykimų vadovams suprasti atostogų ir neatvykimų kaupimo operacijas, susijusias su darbuotojo ne darbo laiko balansu nurodytam atostogų tipui.
 
 Norėdami peržiūrėti išsamią operacijos informaciją:
 

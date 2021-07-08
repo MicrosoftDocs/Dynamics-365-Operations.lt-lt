@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de380113fe951f75c15f9e5526ad2f1f5cc84334
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 0b04ee246d4c28e934407ccb92d792692cc4347d
+ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908885"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301655"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>Retrospektyvinių duomenų importavimas į poreikio prognozėms generuoti
 
@@ -39,26 +39,6 @@ Norint naudoti duomenų objektą, reikalingas „Microsoft Excel“ failas arba 
 
 Norėdami gauti daugiau informacijos apie duomenų importavimą, įskaitant duomenų valymą po importavimo, žiūrėkite [Duomenų importavimo ir eksportavimo užduočių apžvalga](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) ir susijusias temas.
 
-## <a name="example"></a>Pavyzdys
-
-Kaip pavyzdį galite naudoti toliau nurodytą failą. Atsisiųskite [HistoricalDemandData](/dynamics/s-e/). Šiame faile yra prekės D0001 retrospektyviniai poreikio duomenys. Jame yra tik šie privalomi laukai: teritorija, kiekis ir poreikio data.
-
-1. Pasirinkite įmonę, į kurią norite importuoti į retrospektyvinius poreikio duomenis.
-2. Atidarykite darbo sritį **Duomenų valdymas**.
-3. Pasirinkite **Importuoti** plytelę.
-4. Įveskite importavimo projekto pavadinimą, pavyzdžiui, **Prekės D0001 retrospektyvinio poreikio importavimas**.
-5. Lauke **Šaltinio duomenų formatas** pasirinkite importuojamo failo formatą. Šiame pavyzdyje norėdami importuoti failą HistoricalDemandData, pvz., pasirinkite **CSV**.
-6. Lauke **Objekto pavadinimas** pasirinkite **Retrospektyvinis išorinis poreikis**.
-7. Įrašykite failą kompiuteryje ir tada jį įkelkite.
-8. Pasirinkite **Importuoti**.
-9. Automatiškai atidaromas puslapis **Vykdymo suvestinė**. Patikrinkite importuotus duomenis puslapyje.
-
-Importavus retrospektyvinius poreikio duomenis, galima generuoti pagrindinę poreikio prognozę.
-
-## <a name="additional-resources"></a>Papildomi ištekliai
-
-[Pagrindinės statistinės prognozės generavimas](generate-statistical-baseline-forecast.md)  
-[Duomenų importavimo ir eksportavimo užduočių apžvalga](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
-
+Taip pat žiūrėkite [Pagrindinės statistinės prognozės generavimas](generate-statistical-baseline-forecast.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

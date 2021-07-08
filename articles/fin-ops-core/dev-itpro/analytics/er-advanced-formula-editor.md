@@ -2,7 +2,7 @@
 title: Elektroninių ataskaitų išplėstinė formulių rengyklė
 description: Šioje temoje aprašoma, kaip išplėstinę formulių rengyklę galima naudoti konfigūruojant išraiškas elektroninių ataskaitų (ER) modelių susiejime ir formato komponentuose.
 author: NickSelin
-ms.date: 04/10/2020
+ms.date: 06/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: d18aeedb2f21176ffe964b926168d4bf088a093b
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f7f80928e1d3f5d4892f72d4bd2fd09b70a26c1f
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751213"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270712"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Elektroninių ataskaitų išplėstinė formulių rengyklė
 
@@ -45,16 +45,29 @@ Atlikite tolesnius veiksmus, kad pradėtumėte naudoti išplėstinę formulių r
 2.  Puslapio **Konfigūracijos** veiksmų srities skirtuke **Konfigūracijos**, grupėje **Papildomi parametrai** pasirinkite **Vartotojo parametrai**.
 3.  Dialogo lange **Vartotojo parametrai**, skyriuje **Vykdymo sekimas** nustatykite parinkties **Įgalinti išplėstinę formulių rengyklę** parametrą **Taip**.
 
-[![ER konfigūracijų puslapis](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
+[![Paryškinti Vartotojo parametrų dialogo langas, Patobulintos formulių rengyklės parametro įgalinimas](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
 
 > [!NOTE]
 > Atminkite, kad šis parametras yra susijęs su konkrečiu vartotoju ir įmone.
+
+Pradedant nuo 10.0.19 „Microsoft Dynamics 365 Finance” versijos, galite kontroliuoti, kokia ER formulių rengyklė siūloma pagal numatytuosius nustatymus. Atlikite šiuos veiksmus, norėdami įgalinti patobulintą formulių rengyklę visiems dabartinio „Finance” egzemplioriaus vartotojams ir įmonėms.
+
+1.  Atidarykite parinkties **Funkcijos valdymas** darbo sritį.
+2.  Raskite ir pasirinkite funkciją **Nustatyti ER patobulintą formulių rengyklę kaip numatytąją visiems vartotojams** sąraše, o tada pasirinkite **Įgalinti dabar**.
+3.  Eikite į **Organizacijos administravimas** > **Elektroninės ataskaitos** > **Konfigūracijos**.
+4.  Puslapio **Konfigūracijos** veiksmų srities skirtuke **Konfigūracijos**, grupėje **Papildomi parametrai** pasirinkite **Vartotojo parametrai**.
+5.  Dialogo lange **Vartotojo parametrai** suraskite parametrą **Išjungti patobulintą formulių rengyklę** ir patikrinkite, ar jis nustatytas į **Ne**.
+
+[![Paryškinti Vartotojo parametrų dialogo langas, Patobulintos formulių rengyklės parametro išjungimas](./media/ER-AdvEditor-Activate2.png)](./media/ER-AdvEditor-Activate2.png)
+
+> [!NOTE]
+> Parametrų **Įgalinti patobulintą formulių rengyklę** ir **Išjungti patobulintą formulių rengyklę** reikšmės yra atskiros kiekvienam vartotojui ir siūlomos **Vartotojo parametrų** dialogo lange, priklausomai nuo funkcijos **Nustatyti ER patobulintą formulių rengyklė kaip numatytąją visiems vartotojams** būsenos.
 
 ## <a name=""></a><a name="Autoformatting">Automatinis kodo formatavimas</a>
 
 Rašant sudėtingą išraišką, kurią sudaro keletas kodo eilučių, naujai įvestos eilutės įtrauka bus automatiškai pagrįsta ankstesnės eilutės įtrauka. Galite pasirinkti eilutes ir pakeisti jų įtrauką, paspausdami **Tabuliavimo klavišas** arba **„Shift“ + tabuliavimo klavišas**.
 
-[![ER formulių rengyklė](./media/ER-AdvEditor-Indentation.gif)](./media/ER-AdvEditor-Indentation.gif)
+[![ER formulių rengyklės gif, rodantis eilučių pasirinkimą ir įtraukos keitimą](./media/ER-AdvEditor-Indentation.gif)](./media/ER-AdvEditor-Indentation.gif)
 
 Automatinis formatavimas leidžia išsaugoti visos išraiškos tinkamą formatavimą, kad būtų lengviau atlikti priežiūrą ir būtų paprasčiau suprasti sukonfigūruotą logiką.
 
@@ -62,7 +75,7 @@ Automatinis formatavimas leidžia išsaugoti visos išraiškos tinkamą formatav
 
 Rengyklėje yra žodžių užbaigimo funkcija, padedanti parašyti išraišką greičiau ir išvengti rašybos klaidų. Pradėjus įtraukti naują tekstą, rengyklėje automatiškai siūlomas sąrašas funkcijų, kurios palaikomos naudojant ER funkcijas ir kuriose yra įvestų simbolių. Taip pat galite paleisti „IntelliSense“ bet kurioje sukonfigūruotos išraiškos vietoje, paspausdami **„Ctrl“+ tarpo klavišas**.
 
-[![ER formulių rengyklė](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
+[![ER formulių rengyklės gif, kuriame rodomas „IntelliSense” suaktyvinimas](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
 
 ## <a name=""></a><a name="CodeCompletion">Kodo užbaigimas</a>
 
@@ -72,7 +85,7 @@ Rengyklėje kodas automatiškai užbaigiamas toliau pateikiamais būdais.
 - Įrašomas antrasis kabučių simbolis, įvedus pirmąjį, o žymeklis lieka kabučių viduje.
 - Įrašomas antrasis dvigubų kabučių simbolis, įvedus pirmąjį, o žymeklis lieka kabučių viduje.
 
-[![ER formulių rengyklė](./media/ER-AdvEditor-CodeCompletion.gif)](./media/ER-AdvEditor-CodeCompletion.gif)
+[![ER formulių rengyklės gif, rodantis rengyklę automatiškai pateikiančią kodą](./media/ER-AdvEditor-CodeCompletion.gif)](./media/ER-AdvEditor-CodeCompletion.gif)
 
 Kai žymeklį nukreipiate į įvestą skliaustą, antras šios poros skliaustas automatiškai paryškinamas, kad būtų rodoma skliaustuose esanti konstrukcija.
 
@@ -88,7 +101,7 @@ Pavyzdžiui, norėdami pereiti į **8** eilutę, atlikite tolesnius veiksmus.
 
 - Paspauskite **„F1“**, įveskite **„G“**, pasirinkite **Pereiti prie eilutės**, įveskite vertę **„8“** ir paspauskite **„Enter“**.
 
-[![ER formulių rengyklė](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
+[![ER formulių rengyklės gif, kuriame rodoma, kaip rasti išraiškos dalis naudojant komandų paletę](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
 
 ## <a name=""></a><a name="CodeStructuring">Kodo susisteminimas</a>
 
@@ -110,7 +123,7 @@ Norėdami atlenkti visas sritis, atlikite tolesnius veiksmus.
   
 - Paspauskite **„F1“**, įveskite **„UN“**, pasirinkite **Atlenkti viską**, paskui paspauskite **„Enter“**
 
-[![ER formulių rengyklė](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
+[![ER formulių rengyklės gif, kuriame rodomas kodo išsiskleidimas](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
 
 ## <a name=""></a><a name="FindAndReplace">Surasti ir pakeisti</a>
 
@@ -138,13 +151,13 @@ Norėdami pakeisti visus tam tikro teksto pasikartojimus, pažymėkite tekstą i
   
 - Paspauskite **„F1“**, įveskite **„C“**, tada pasirinkite reikiamą parinktį, kad pakeistumėte pažymėtą tekstą. Įveskite įterptiną tekstą.
 
-[![ER formulių rengyklė](./media/ER-AdvEditor-Find.gif)](./media/ER-AdvEditor-Find.gif)
+[![ER formulių rengyklės gif, kuriame rodoma rasti ir pakeisti funkcija](./media/ER-AdvEditor-Find.gif)](./media/ER-AdvEditor-Find.gif)
 
 ## <a name=""></a><a name="DataPasting">Duomenų šaltiniai ir funkcijų įklijavimas</a>
 
 Galite pasirinkti **Įtraukti duomenų šaltinį**, kad į dabartinę išraišką būtų įklijuotas duomenų šaltinis, kuris šiuo metu yra pasirinktas kairiajame skyde **Duomenų šaltinis**. Taip pat galite pasirinkti **Įtraukti funkciją**, kad į dabartinę išraišką būtų įklijuota funkcija, kuri šiuo metu yra pasirinkta dešiniajame skyde **Funkcijos**. Jei naudojate ER formulių rengyklę, pasirinkta funkcija arba pasirinktas duomenų šaltinis visuomet įklijuojami sukonfigūruotos išraiškos gale. Kai naudojate išplėstinę ER formulių rengyklę, pasirinktą funkciją arba pasirinktą duomenų šaltinį galima įklijuoti į bet kurią sukonfigūruotos išraiškos vietą. Turėsite žymekliu nurodyti, kur norite įklijuoti duomenis.
 
-[![ER formulių rengyklė](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
+[![ER formulių rengyklės gif, kuriame rodomas duomenų šaltinio pridėjimas ir funkcijos įklijavimas](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
 
 ## <a name=""></a><a name="SyntaxColorization">Sintaksės žymėjimas spalvomis</a>
 

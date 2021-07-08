@@ -2,7 +2,7 @@
 title: ER formatų vykdymo sekimas siekiant diagnozuoti našumo problemas
 description: Šioje temoje pateikiama informacijos apie tai, kaip elektroninėse ataskaitose (ER) naudojantis našumo sekimo funkcija spręsti našumo problemas.
 author: NickSelin
-ms.date: 04/23/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 13e631d3330eefed09111eca70a5aa111e88274f
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 7fbec962fea374afdbabaad48a42dad380708678
+ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944658"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6295578"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>ER formatų vykdymo sekimas siekiant diagnozuoti našumo problemas
 
@@ -119,12 +119,27 @@ Atitinkamų versijų duomenų modeliai ir modelio susiejimo konfigūracijos auto
 2. Puslapio **Konfigūracijos** veiksmų srities skirtuke **Konfigūracijos**, grupėje **Papildomi parametrai** pasirinkite **Vartotojo parametrai**.
 3. Dialogo lango **Vartotojo parametrai** skyriuje **Vykdymo sekimas** atlikite toliau nurodytus veiksmus.
 
-    1. Lauke **Vykdymo sekimo formatas** pasirinkite **Derinti sekimo formatą**, kad būtų galima rinkti informaciją apie ER formato vykdymą. Pasirinkus šią reikšmę, našumo sekimas renka informaciją apie laiką, sugaištą toliau nurodytiems veiksmams atlikti.
+    1. Lauke **Vykdymo sekimo formatas** nurodykite sugeneruoto našumo sekimo formatą, kurio vykdymo informacija turėtų būtų saugoma ER formatui ir susiejimo elementams:
 
-        - Kiekvieno duomenims gauti iškviesto modelio susiejimo duomenų šaltinio vykdymas
-        - Kiekvieno formato elemento apdorojimas įvedant duomenis į sugeneruotą išvestį
+        - **Derinti sekimo formatą** – pasirinkite šią reikšmę, jei planuojate interaktyviai paleisti ER formatą, turintį trumpą vykdymo laiką. Tada pradedamas išsamios ER formato vykdymo informacijos rinkinys. Pasirinkus šią reikšmę, našumo sekimas surenka informaciją apie laiką, praleistą toliau nurodytiems veiksmams atlikti:
 
-        Laukas **Vykdymo sekimo formatas** naudojamas norint nurodyti sugeneruoto našumo sekimo formatą, kurio vykdymo informacija saugoma, kad būtų galima nustatyti ER formatą ir susiejimo elementus. Kaip reikšmę pasirinkę **Derinti sekimo formatą** galėsite analizuoti sekimo turinį naudodami ER operacijų dizaino įrankį ir peržiūrėti sekime minimus ER formato arba siejimo elementus.
+            - Kiekvieno duomenims gauti iškviesto modelio susiejimo duomenų šaltinio vykdymas
+            - Kiekvieno formato elemento apdorojimas įvedant duomenis į sugeneruotą išvestį
+
+            Jei pasirenkate **Derinti sekimo formatą** reikšmę, galėsite analizuoti sekimo turinį ER operacijų dizaino įrankyje. Ten galite peržiūrėti ER formatą arba susiejimo elementus, kurie nurodyti sekime.
+
+        - **Agreguotas sekimo formatas** – pasirinkite šią reikšmę, jei planuojate paleisti ER formatą, turintį ilgą vykdymo laiką paketiniu režimu. Tada pradedamas agreguotos išsamios ER formato vykdymo informacijos rinkinys. Pasirinkus šią reikšmę, našumo sekimas surenka informaciją apie laiką, praleistą toliau nurodytiems veiksmams atlikti:
+
+            - Kiekvieno duomenims gauti iškviesto modelio susiejimo duomenų šaltinio vykdymas
+            - Kiekvieno duomenims gauti iškviesto formato susiejimo duomenų šaltinio vykdymas
+            - Kiekvieno formato elemento apdorojimas įvedant duomenis į sugeneruotą išvestį
+
+            **Agreguoto sekimo formato** reikšmė galima 10.0.20 ir vėlesnėse „Microsoft Dynamics 365 Finance” versijose.
+
+            ER formato dizaino įrankyje ir ER modelio susiejimo dizaino įrankyje galite peržiūrėti bendrą vieno komponento vykdymo laiką. Be to, sekimas apima išsamią vykdymo informaciją, pavyzdžiui, vykdymų skaičių ir minimalų bei maksimalų vieno vykdymo laiką.
+
+            > [!NOTE]
+            > Šis sekimas yra surenkamas remiantis sekamų komponentų maršrutu. Todėl statistiniai duomenys gali būti klaidingi, kai viename pirminiame komponente yra keli antriniai komponentai, neturintys pavadinimo, arba kai keli antriniai komponentai yra to paties pavadinimo.
 
     2. Nustatykite tolesnių parinkčių reikšmes **Taip**, kad būtų galima rinkti konkrečią informaciją apie ER modelio susiejimo vykdymą ir ER formato komponentus.
 

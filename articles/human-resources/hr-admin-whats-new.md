@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b9657a40cac3301814fe5d35a83f89dd60de1636
-ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
+ms.openlocfilehash: 9e914334e464a87d9a89680d0ef9998cc1484a4a
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6111609"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303445"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Kas nauja ar pasikeitė „Human Resources”
 
@@ -48,6 +48,7 @@ Norėdami gauti daugiau informacijos apie būsimas „Human Resources” funkcij
 
 Norėdami sužinoti, kas nauja ar pasikeitė kiekviename kas dvi savaites leidžiamame „Human Resources” leidime, žr. šias temas:
 
+[2021 m. birželio 22 d.](hr-whats-new-2021-06-22.md)</br>
 [2021 m. gegužės 20 d.](hr-whats-new-2021-05-20.md)</br>
 [2021 m. gegužės 3 d.](hr-whats-new-2021-05-03.md)</br>
 [2021 m. balandžio 19 d.](hr-whats-new-2021-04-19.md)</br>

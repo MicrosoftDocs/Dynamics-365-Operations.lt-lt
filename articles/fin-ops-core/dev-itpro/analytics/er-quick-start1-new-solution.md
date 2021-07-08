@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f5a3ac7cae58d17409ea081ec30f61cecf29ce9
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 90e5381c2d30753e3ad82a38d7361b411f1d7a87
+ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224039"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304398"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Suprojektuokite naują ER sprendimą tinkintos ataskaitos spausdinimui
 
@@ -185,7 +185,7 @@ Atlikę žingsnius [Importuoti naują duomenų modelio konfigūravimą](#ImportD
 
 ### <a name="import-a-new-data-model-configuration"></a><a name="ImportDataModel"></a>Importuokite naują duomenų modelio konfigūraciją
 
-1. Atsisiųskite [Klausimynų model.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) failą ir įrašykite jį į savo vietinį kompiuterį.
+1. Atsisiųskite [Klausimynų model.version.1.xml](https://download.microsoft.com/download/b/6/3/b633bd34-d200-4422-96d9-8f62eb5218f8/Questionnaires_model.version.1.xml) failą ir įrašykite jį į savo vietinį kompiuterį.
 2. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
 3. **Elektroninės ataskaitos** darbo srityje pasirinkite **Ataskaitos konfigūravimai**.
 4. Veiksmų srityje pasirinkite **Pakeisti** \> **Įkelti iš XML failo**.
@@ -300,7 +300,7 @@ Atlikę žingsnius [Naujo modelio žemėlapio konfigūravimo importavimo](#Impor
 
 ### <a name="import-a-new-model-mapping-configuration"></a><a name="ImportModelMapping"></a>Importuokite naują modelio žemėlapio konfigūravimą
 
-1. Atsisiųskite [Klausimynų mapping.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) failą ir įrašykite jį į savo vietinį kompiuterį.
+1. Atsisiųskite [Klausimynų mapping.version.1.1.xml](https://download.microsoft.com/download/7/b/2/7b258e4e-4bd5-46a4-8114-27419ae4acd8/Questionnaires_mapping.version.1.1.xml) failą ir įrašykite jį į savo vietinį kompiuterį.
 2. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
 3. **Elektroninės ataskaitos** darbo srityje pasirinkite **Ataskaitos konfigūravimai**.
 4. Veiksmų srityje pasirinkite **Pakeisti** \> **Įkelti iš XML failo**.
@@ -366,7 +366,7 @@ Privalote konfigūruoti duomenų šaltinius tam, kad prieitumėte prie programos
     2. Pasirinkite **Įtraukti**.
     3. Teksto laukelyje **Pavadinimas** laukelyje, įveskite **\$Rezultatogrupė**.
     4. Pasirinkite **Redaguoti formulę**.
-    5. [ER formulės redaktoriuje](general-electronic-reporting-formula-designer.md), **Formulės** laukelyje įveskite **FIRSTORNULL(\@.'\<Sąsajos'.KMQuestionResultGroup)** tam, kad naudotumėte [kelią](er-formula-language.md#paths) vieno su daugeliu ryšyje tarp KMCollection ir KMQuestionResultGroup lentelių.
+    5. [ER formulės redaktoriuje](general-electronic-reporting-formula-designer.md), **Formulės** laukelyje įveskite **FIRSTORNULL(\@.'\<Sąsajos'.KMQuestionResultGroup)** tam, kad naudotumėte [kelią](er-formula-language.md#Paths) vieno su daugeliu ryšyje tarp KMCollection ir KMQuestionResultGroup lentelių.
     6. Pasirinkite **Įrašyti** ir uždarykite formulės redaktorių.
     7. Pasirinkite **Gerai** tam, kad įtrauktumėte naują apskaičiuotą laukelį.
 
@@ -547,7 +547,7 @@ Privalote susieti konfigūruotus duomenų šaltinius į duomenų modelio laukeli
 
 ER darbotvarkė naudoja iš anksto nustatytus šablonus tam, kad sukurtų ataskaitas „Microsoft Office“ formatuose („Excel“ darbo knygose ar „Word“ dokumentuose). Kol būtina ataskaita yra kuriama, šablonas yra užpildomas su būtinais duomenimis pagal konfigūruotą darbo srautą. Dėl to, pirmiausia turite projektuoti šabloną jūsų tinkintai ataskaitai. Ši ataskaita turi būti sukurta kaip „Excel“ darbo knyga, struktūra rodo tinkintos ataskaitos maketą. Privalote užvadinti visus „Excel“ elementus, kuriuos planuojate užpildyti būtinais duomenimis.
 
-1. Atsisiųskite [Klausimynų ataskaitos template.xslx](https://go.microsoft.com/fwlink/?linkid=851448) failą ir įrašykite jį į savo vietinį kompiuterį.
+1. Atsisiųskite [Klausimynų ataskaitos template.xlsx](https://download.microsoft.com/download/3/8/2/382c3cf0-87bb-473f-b7bb-3015b4facb74/Questionnaires_report_template.xlsx) failą ir įrašykite jį į savo vietinį kompiuterį.
 2. Atverkite failą „Excel“ ir peržiūrėkite darbo knygos struktūrą.
 
 Kaip rodo tolesnis paveikslėlis, atsiųstas šablonas buvo suprojektuotas konkrečių klausimynų spausdinimui, kurie rodo klausimyno klausimus kartu su atitinkamais atsakymais.
@@ -572,7 +572,7 @@ Atlikę žingsnius [Importuoti suprojektuoto formato konfigūravimą](#FormatImp
 
 ### <a name="import-a-designed-format-configuration"></a><a name="FormatImport"></a>Importuokite suprojektuotą formato konfigūravimą
 
-1. Atsisiųskite [Klausimynų format.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) failą ir įrašykite jį į savo vietinį kompiuterį.
+1. Atsisiųskite [Klausimynų format.version.1.1.xml](https://download.microsoft.com/download/1/b/a/1ba39ec2-257a-44d8-972f-25bf7d18fb41/Questionnaires_format.version.1.1.xml) failą ir įrašykite jį į savo vietinį kompiuterį.
 2. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
 3. **Elektroninės ataskaitos** darbo srityje pasirinkite **Ataskaitos konfigūravimai**.
 4. Veiksmų juostoje pasirinkite **Keisti** \> **Įkelti iš XML failo**.

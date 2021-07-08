@@ -16,17 +16,16 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9cd7dd8b9241171bdfdb3cc1379211a2fe99bbe1
-ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
+ms.openlocfilehash: b1e2006c0d9b9effe331a644aaaa9fa33ff2fb7c
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "6184001"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270540"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Gamybos vykdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!WARNING]
 > Šiuo metu gamybos vykdymo darbo krūvis yra prieinamas kaip peržiūros versija.

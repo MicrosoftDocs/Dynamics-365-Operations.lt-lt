@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: ee342de6d069131e230120c5d65aef58da8e632a
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8436842b4f07ba000649075198bdef43ad508f8f
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020392"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270962"
 ---
 # <a name="rebate-management-deal-workflows"></a>Grąžinimų valdymo sandorio darbo eigos
 
@@ -27,12 +27,12 @@ ms.locfileid: "6020392"
 
 Grąžinimo sandorių patvirtinimams grąžinimų valdymas naudoja tą pačią darbo eigos platformą kaip ir kitos „Finance and Operations” programos. Su kiekviena darbo eiga yra susieti du užduočių procesai:
 
-- Vienas darbo eigos elementas suaktyvina sandorį tam, kad vartotojas arba darbo eigos procesas galėtų patvirtinti operacijas.
 - Kitas darbo eigos elementas patvirtina sandorį.
+- Vienas darbo eigos elementas suaktyvina sandorį tam, kad vartotojas arba darbo eigos procesas galėtų patvirtinti operacijas.
 
 Kad būtų galima naudoti grąžinimo sandorį, jis turi būti aktyvus **Grąžinimų valdymo** modulyje. Norėdami aktyvuoti sandorį, pirmiausia turite sukurti ir sukonfigūruoti *Grąžinimų valdymo sandorio darbo eigą*.
 
-Kai grąžinimų valdymui suaktyvinama darbo eiga, vartotojai negali rankiniu būdu patvirtinti sandorių. Visada turi būti naudojama darbo eiga.
+Vartotojai negali rankiniu būdu patvirtinti sandorių. Visada privaloma naudoti darbo eigą.
 
 ## <a name="create-and-manage-rebate-management-deal-workflows"></a>Grąžinimų valdymo sandorio darbo eigų kūrimas ir valdymas
 
@@ -42,4 +42,17 @@ Norėdami dirbti su savo grąžinimų valdymo sandorio darbo eigomis, eikite į 
 
 Norėdami aktyvuoti sandorį naudodami darbo eigą, atidarykite sandorį (pavyzdžiui, **Visų grąžinimų valdymo sandorių** puslapyje). Tada veiksmų srityje pasirinkite **Darbo eiga \> Pateikti**. Kai naujas sandoris bus apdorotas ir patvirtintas per darbo eigą, jis bus aktyvus ir parengtas naudoti.
 
-Aktyvavę sandorį negalite pakeisti jo nustatymo. Jeigu reikia pakeisti aktyvų sandorį, padarykite jį neaktyvų ir tada sukurkite naują sandorį. Jei naujas sandoris bus panašus į senąjį, galite sukurti jį nukopijuodami seną sandorį.
+Aktyvavę sandorį negalite pakeisti didelės dalies jo nustatymo. Jeigu reikia pakeisti aktyvų sandorį, pirmiausia padarykite jį neaktyvų, o tada sukurkite naują sandorį. Jei naujas sandoris bus panašus į senąjį, galite sukurti jį nukopijuodami seną sandorį.
+
+Galite keisti šiuos sandorio parametrus, kai jį suaktyvinate:
+
+- Derinti pagal
+- Kaupiamoji garantija
+- Registravimo profilis
+- Registravimo šablonas garantijai
+- Dokumento pastabos
+- Valiuta
+- Nuo datos
+- Iki datos
+
+Be to, grąžinimų eilutes galima pašalinti.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 7afad911454916c49cda47253736defdd7e9b16b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: d271d70791a8fe4ad1581ae8a150ad13bffc7a94
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020464"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271058"
 ---
 # <a name="rebate-management-module-overview"></a>Grąžinimų valdymo modulio apžvalga
 
@@ -70,7 +70,7 @@ Grąžinimus galima konfigūruoti pagal daug skirtingų parametrų. Pavyzdžiui,
 
 Grąžinimo skaičiavimo rezultatai taip pat gali būti sumažinti kitais grąžinimais, atsižvelgiant į tai, ar grąžinimas nustatytas skaičiuoti pagal grynąją sumą.
 
-Iš tiekėjo pusės grąžinimai gali apskaičiuoti kainą pagal pirmas ateina, pirmas išeina (FIFO) taisyklę, naujausio pirkimo kainą, vidutinę pirkimo kainą arba pardavimo kainą.
+Iš tiekėjo pusės pardavimų užsakymais pagrįsti grąžinimai gali apskaičiuoti kainą pagal pirmas ateina, pirmas išeina (FIFO) taisyklę, naujausio pirkimo kainą, vidutinę pirkimo kainą arba pardavimo kainą.
 
 ## <a name="rebate-target-transactions"></a>Grąžinimų paskirties operacijos
 
@@ -84,11 +84,12 @@ Prekių išvestys sukuria laisvos prekės pardavimo užsakymą, skirtą kliento 
 
 Pasirinktų susietų sandorių, skaičiavimų dažnumo, skaičiavimo pagrindo ir skaičiavimo metodo derinys lemia grąžinimo skaičiavimų tikslumą. Grąžinimų nuostatos gali būti naudojamos užregistruotų ir pareikalautų verčių kaupimui.
 
-Nuostatas galima tvarkyti kas dieną arba kas mėnesį. Tačiau funkcija gali paskirstyti arba apmokėti grąžinimą, taip pat gauti jo apmokėjimą bet kokiu apibrėžtu dažnumu. Vartotojai gali bet kuriuo apmokėjimo metu nesunkiai koreguoti planą ar mokėjimo sumas.
+Nuostatos gali būti valdomos kasdien, kas savaitę, kas mėnesį arba pagal pasirinktinį laikotarpį. Tačiau funkcija gali paskirstyti arba sumokėti grąžinimą, taip pat gauti mokėjimą bet kokiu apibrėžtu dažnumu, tokios pat arba ilgesnės trukmės nei nuostatų dažnumu. Nurašymo dažnumas yra toks pat kaip grąžinimo. Vartotojai gali bet kuriuo apmokėjimo metu nesunkiai koreguoti planą ar mokėjimo sumas.
 
-Vartotojams nebereikia tvarkyti sandorių ar nuostatų dvejais veiksmais. Nuostatos ir nurašymai yra registruojami tiesiogiai į didžiąją knygą. Taip pat, kredito pažymas galima kurti automatiškai. Taigi, mokėtinos ir gautinos sumos yra visiškai suintegruotos. Atliekant skaičiavimus atsižvelgiama į sudengimo nuolaidas, apmokėtas sąskaitas faktūras, prekybos nuolaidas ir esamas kredito pažymas, siekiant užtikrinti, kad sumos ir vertės yra tiksliai apskaičiuojamos.
+Vartotojams nebereikia tvarkyti sandorių ar nuostatų dvejais veiksmais. Nuostatos ir nurašymai yra registruojami tiesiogiai į didžiąją knygą. Taip pat, kredito pažymas galima kurti automatiškai. Taigi, mokėtinos ir gautinos sumos yra visiškai suintegruotos. Atliekant skaičiavimus galima atsižvelgti į sudengimo nuolaidas, apmokėtas sąskaitas faktūras, prekybos nuolaidas ir esamas kredito pažymas, siekiant užtikrinti, kad sumos ir vertės yra tiksliai apskaičiuojamos.
 
-Apskaičiavus grąžinimus, procesas sukuria operacijas, kurias galima peržiūrėti prieš registravimą. Tada galima sukurti žurnalą, kredito pažymą arba debeto operaciją. Atskiru procesu registruojamos grąžinimų ir atskaitymų operacijos. Norint užtikrinti atitikimą, efektyvumą ir skaidrumą, galima gauti ataskaitų išrašus ir operacijų sąrašus.
+Apskaičiavus grąžinimus, procesas sukuria operacijas, kurias galima peržiūrėti prieš registravimą. Atskiru procesu registruojamos grąžinimų valdymo operacijos. Tada registruojant į pasiūlytas operacijas galima sukurti žurnalą, kredito pažymą ar debeto operaciją. Norint užtikrinti atitikimą, efektyvumą ir skaidrumą, galima gauti ataskaitų išrašus ir operacijų sąrašus.
+
 
 ## <a name="guaranteed-royalty-payments"></a>Garantiniai autorinių honorarų mokėjimai
 

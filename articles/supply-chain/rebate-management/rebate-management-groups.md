@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: c9e1cadae97bd8f0dea270deaa1a8e09bb28eb4b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ee5a195b3d2881ff70fb1f0d4063ed681e874648
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020488"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271082"
 ---
 # <a name="rebate-management-groups"></a>Grąžinimų valdymo grupės
 
 [!include [banner](../includes/banner.md)]
 
-Grąžinimo ir atskaitymo skaičiavimus galima pagrįsti grupėmis. Grąžinimų valdymo grupės gali būti sukurtos klientams, tiekėjams ir prekėms. Jas galima pridėti prie pagrindinio įrašo.
+Grąžinimo valdymo skaičiavimus galima pagrįsti grupėmis. Grąžinimų valdymo grupės gali būti sukurtos klientams, tiekėjams ir prekėms. Jas galima pridėti prie pagrindinio įrašo.
 
 ## <a name="rebate-management-customer-groups"></a>Grąžinimų valdymo kliento grupės
 
@@ -49,10 +49,9 @@ Norėdami peržiūrėti, pridėti arba pašalinti pasirinktos grupės klientus, 
 1. Eikite **Grąžinimų valdymas \> Grąžinimų valdymo grupių nustatymas \> Klientų grupės**.
 1. Pasirinkite norimą valdyti grupę.
 1. Veiksmų srityje pasirinkite **Klientai**. Atsiranda **Grąžinimo valdymo grupių** puslapis, kuriame pateikiamas klientų, kurie jau yra pasirinktos grupės nariai, sąrašas.
-1. Norėdami pridėti naują klientą į grupę, veiksmų srityje pasirinkite **Naujas** eilutės įtraukimui į tinklelį. Tada nustatykite šiuos laukus naujai eilutei:
+1. Norėdami pridėti naują klientą į grupę, veiksmų srityje pasirinkite **Naujas** eilutės įtraukimui į tinklelį. Tada nustatykite šį lauką naujai eilutei:
 
     - **Kliento sąskaita** – pasirinkite kliento sąskaitos ID.
-    - **Pavadinimas** – įveskite kliento pavadinimą ir (arba) aprašymą.
 
 1. Norėdami pašalinti klientą iš grupės, pasirinkite klientą, o tada veiksmų srityje pasirinkite **Naikinti**.
 
@@ -61,10 +60,9 @@ Norėdami peržiūrėti, pridėti arba pašalinti pasirinkto kliento priskyrimus
 1. Eikite į **Gautinos sumos \> Klientai \> Visi klientai**.
 1. Pasirinkite klientą, su kuriuo norite dirbti.
 1. Veiksmų srities skirtuke **Klientas**, grupėje **Grąžinimų valdymas** pasirinkite **Grąžinimų valdymo grupės**. Atsiranda **Grąžinimo valdymo grupių** puslapis, kuriame pateikiamas grupių, kurioms pasirinktas klientas jau priklauso, sąrašas.
-1. Norėdami pridėti klientą į naują grupę, veiksmų srityje pasirinkite **Naujas** eilutės įtraukimui į tinklelį. Tada nustatykite šiuos laukus naujai eilutei:
+1. Norėdami pridėti klientą į naują grupę, veiksmų srityje pasirinkite **Naujas** eilutės įtraukimui į tinklelį. Tada nustatykite šį lauką naujai eilutei:
 
     - **Grąžinimų valdymo grupė** – pasirinkite grupę, į kurią norite įtraukti klientą.
-    - **Aprašymas** – įveskite grupės aprašymą (pavyzdžiui, paaiškinkite, kodėl klientas yra jos narys).
 
 1. Norėdami pašalinti klientą iš grupės, pasirinkite grupę, o tada veiksmų srityje pasirinkite **Naikinti**.
 
@@ -88,10 +86,9 @@ Norėdami peržiūrėti, pridėti arba pašalinti pasirinktos grupės tiekėjus,
 1. Eikite **Grąžinimų valdymas \> Grąžinimų valdymo grupių nustatymas \> Tiekėjų grupės**.
 1. Pasirinkite norimą valdyti grupę.
 1. Veiksmų srityje pasirinkite **Tiekėjai**. Atsiranda **Grąžinimo valdymo grupių** puslapis, kuriame pateikiamas tiekėjų, kurie jau yra pasirinktos grupės nariai, sąrašas.
-1. Norėdami pridėti naują tiekėją į grupę, veiksmų srityje pasirinkite **Naujas** eilutės įtraukimui į tinklelį. Tada nustatykite šiuos laukus naujai eilutei:
+1. Norėdami pridėti naują tiekėją į grupę, veiksmų srityje pasirinkite **Naujas** eilutės įtraukimui į tinklelį. Tada nustatykite šį lauką naujai eilutei:
 
     - **Tiekėjo sąskaita** – pasirinkite tiekėjo sąskaitos ID.
-    - **Pavadinimas** – įveskite tiekėjo pavadinimą ir (arba) aprašymą.
 
 1. Norėdami pašalinti tiekėją iš grupės, pasirinkite tiekėją, o tada veiksmų srityje pasirinkite **Naikinti**.
 
@@ -100,10 +97,9 @@ Norėdami peržiūrėti, pridėti arba pašalinti pasirinkto tiekėjo priskyrimu
 1. Eikite į **Mokėtinos sumos \> Tiekėjai \> Visi tiekėjai**.
 1. Pasirinkite tiekėją, su kuriuo norite dirbti.
 1. Veiksmų srities skirtuke **Tiekėjas**, grupėje **Grąžinimų valdymas** pasirinkite **Grąžinimų valdymo grupės**. Atsiranda **Grąžinimo valdymo grupių** puslapis, kuriame pateikiamas grupių, kurioms pasirinktas tiekėjas jau priklauso, sąrašas.
-1. Norėdami pridėti tiekėją į naują grupę, iš veiksmų srities pasirinkite **Naujas** eilutės įtraukimui į tinklelį. Tada nustatykite šiuos laukus naujai eilutei:
+1. Norėdami pridėti tiekėją į naują grupę, iš veiksmų srities pasirinkite **Naujas** eilutės įtraukimui į tinklelį. Tada nustatykite šį lauką naujai eilutei:
 
     - **Grąžinimų valdymo grupė** – pasirinkite grupę, į kurią norite įtraukti tiekėją.
-    - **Aprašymas** – įveskite grupės aprašymą (pavyzdžiui, paaiškinkite, kodėl tiekėjas yra jos narys).
 
 1. Norėdami pašalinti tiekėją iš grupės, pasirinkite grupę, o tada veiksmų srityje pasirinkite **Naikinti**.
 
@@ -127,10 +123,9 @@ Norėdami peržiūrėti, pridėti arba pašalinti pasirinktos grupės prekes, at
 1. Eikite **Grąžinimų valdymas \> Grąžinimų valdymo grupių nustatymas \> Prekių grupės**.
 1. Pasirinkite norimą valdyti grupę.
 1. Veiksmų srityje pasirinkite **Prekės**. Atsiranda **Grąžinimo valdymo grupių** puslapis, kuriame pateikiamas prekių, kurios jau yra pasirinktos grupės narės, sąrašas.
-1. Norėdami pridėti prekę į grupę, veiksmų srityje pasirinkite **Naujas** eilutės įtraukimui į tinklelį. Tada nustatykite šiuos laukus naujai eilutei:
+1. Norėdami pridėti prekę į grupę, veiksmų srityje pasirinkite **Naujas** eilutės įtraukimui į tinklelį. Tada nustatykite šį lauką naujai eilutei:
 
     - **Prekės sąskaita** – pasirinkite prekės sąskaitos ID.
-    - **Produkto pavadinimas** – įveskite prekės pavadinimą ir (arba) aprašymą.
 
 1. Norėdami pašalinti prekę iš grupės, pasirinkite prekę, o tada veiksmų srityje pasirinkite **Naikinti**.
 
@@ -139,10 +134,9 @@ Norėdami peržiūrėti, pridėti arba pašalinti pasirinktos prekės priskyrimu
 1. Eikite į **Produkto informacijos valdymas \> Produktai \> Išleisti produktai**.
 1. Pasirinkite prekę, su kuria norite dirbti.
 1. Veiksmų srities skirtuke **Produktas**, grupėje **Grąžinimų valdymas** pasirinkite **Grąžinimų valdymo grupės**. Atsiranda **Grąžinimo valdymo grupių** puslapis, kuriame pateikiamas grupių, kurioms pasirinkta prekė jau priklauso, sąrašas.
-1. Norėdami pridėti prekę į naują grupę, veiksmų srityje pasirinkite **Naujas** eilutės įtraukimui į tinklelį. Tada nustatykite šiuos laukus naujai eilutei:
+1. Norėdami pridėti prekę į naują grupę, veiksmų srityje pasirinkite **Naujas** eilutės įtraukimui į tinklelį. Tada nustatykite šį lauką naujai eilutei:
 
     - **Grąžinimų valdymo grupė** – pasirinkite grupę, į kurią norite įtraukti prekę.
-    - **Aprašymas** – įveskite grupės aprašymą (pavyzdžiui, paaiškinkite, kodėl prekė yra jos narė).
 
 1. Norėdami pašalinti prekę iš grupės, pasirinkite grupę, o tada veiksmų srityje pasirinkite **Naikinti**.
 

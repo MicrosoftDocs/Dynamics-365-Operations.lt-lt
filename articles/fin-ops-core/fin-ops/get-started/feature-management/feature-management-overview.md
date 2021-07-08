@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 438e8ba38726a25a2464490f4098f96095b4d5c6
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 2164c07d1a179a0aa15611b742084d872f41bbfc
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923312"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270818"
 ---
 # <a name="feature-management-overview"></a>Funkcijų valdymo apžvalga
 
@@ -160,8 +160,8 @@ Strategijos esmė ta, kad visos naujos funkcijos bus pasirenkamos per 12 mėnesi
 ### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Kodėl nėra konkrečios privalomumo įjungimo datos? 
 Išleidimo laiko naujinimas yra kintamasis, aplinkos atnaujinimo laikas yra kintamasis, o klientai gali pasirinkti praleisti kai kuriuos naujinimus. Todėl konkrečias datas sunku nustatyti. 
 
-### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Kur pateikti privalomų funkcijų dokumentai? 
-Šiuos dokumentus pateikia programos komandos. Dažnai jos bus paminėtos temoje [Pašalintos ir pasenusios funkcijos](../../../dev-itpro/migration-upgrade/deprecated-features.md). 
+### <a name="wheres-the-documentation-for-features-that-are-mandatory"></a>Kur pateikta privalomų funkcijų dokumentacija? 
+Šią dokumentaciją pateikia kiekvienos „Dynamics 365” programos komanda. Dažnai šios funkcijos bus paminėtos [Kliento funkcijų būsenų atnaujinimuose](/dynamics365-release-plan/2021wave1/finance-operations/finance-operations-crossapp-capabilities/updates-client-feature-states) arba [Pašalintos ar nerekomenduojamos funkcijos](../../../dev-itpro/migration-upgrade/deprecated-features.md). 
 
 ### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Ar yra pranešimas ar signalas apie produktą, kuriam funkcija bus privalomai įjungta? 
 Nėra pranešimo mechanizmo, susijusio su privalomos funkcijos įjungimu.

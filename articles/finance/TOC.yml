@@ -1208,9 +1208,9 @@
               href: ../fin-ops-core/dev-itpro/analytics/when-to-reset-data-mart.md?toc=/dynamics365/finance/toc.json
             - name: DUK apie finansines ataskaitas
               href: general-ledger/financial-reporting-faq.md
-        - name: Finansų įžvalgos
+        - name: „Finance Insights“
           items:
-            - name: Finansų įžvalgų pagrindinis puslapis
+            - name: „Finance Insights“ pagrindinis puslapis
               href: finance-insights/finance-insights-home-page.md
             - name: Konfigūravimas ir administravimas
               items:
@@ -1226,7 +1226,7 @@
                   href: finance-insights/enable-budget-proposal.md
                 - name: Duomenų integravimo priemonės projekto kūrimas
                   href: finance-insights/create-data-integrate-project.md
-            - name: „Finance“ įžvalgų naudojimas
+            - name: „Finance Insights“ naudojimas
               items:
                 - name: Biudžeto pasiūlymai
                   href: finance-insights/budget-proposals.md
@@ -1464,6 +1464,8 @@
                       href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
                     - name: Elektroninių ataskaitų konfigūracijų „Regulatory Configuration Service“ kūrimas ir nusiuntimas į bendrąją saugyklą
                       href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                    - name: „Regulatory Configuration Service“ – RCS aplinkos naikinimas
+                      href: localizations/rcs-delete-environment.md
                     - name: „Regulatory Configuration Service“ – „Lifecycle Services“ saugyklos netinkamumas
                       href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Elektroninių SF išrašymas
@@ -1524,6 +1526,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: ES pardavimo sąrašas
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Jungtinės Karalystės ataskaitos
+                          items:
+                            - name: Pasiruošimas integruoti su MTD PVM
+                              href: localizations/emea-gbr-mtd-vat-integration.md
             - name: Reglamentavimo naujinimai
               href: localizations/regulatory-updates.md
             - name: Australija
@@ -3176,6 +3182,8 @@
                       href: localizations/rus-rated-expenses-registers.md
                     - name: Mokėtinų sumų skolos mokesčių registrai ir skolų nurašymai
                       href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
+                    - name: Blogos skolos rezervai gautinose sumose
+                      href: localizations/rus-bad-debts.md
             - name: Saudo Arabija
               items:
                 - name: Saudo Arabijos apžvalga
@@ -3292,8 +3300,6 @@
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
                     - name: PVM grupių nustatymas atvirkštinio mokesčio PVM mokesčiui
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-                - name: PVM įrašų pavertimas skaitmeniniais
-                  href: localizations/emea-gbr-mtd-vat-integration.md
                 - name: Mokėjimo praktikų statistikos ataskaita
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Jungtinės Valstijos
@@ -3665,6 +3671,12 @@
               items:
                 - name: Formulės kalba
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/finance/toc.json
+                - name: Palaikomi ER formulių duomenų tipai
+                  items:
+                    - name: Pagrindinių duomenų tipai
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/finance/toc.json
+                    - name: Sudėtinių duomenų tipai
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/finance/toc.json
                 - name: Funkcijos
                   items:
                     - name: Konteineris
@@ -3929,12 +3941,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
             - name: ER formatų kūrimas siunčiamiems dokumentams įvairiais formatais generuoti
               items:
+                - name: 'Konfigūracijos, skirtos ataskaitoms OPENXML formatu generuoti, kūrimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: Konfigūracijų kūrimas siunčiamiems dokumentams „Excel“ formatu generuoti
                   items:
                     - name: Konfigūracijų kūrimas dokumentams „Excel“ formatu generuoti
                       href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/finance/toc.json
-                    - name: Ataskaitų generavimo OPENXML formatu pavyzdys
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: ER formatų modifikavimas iš naujo pritaikant „Excel“ šablonus
                       href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
                     - name: Dinaminis stulpelių įtraukimas į „Excel“ ataskaitas naudojant horizontaliai išplečiamus diapazonus
@@ -4211,13 +4223,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
                     - name: „Application update 10.0.17“
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/finance/toc.json
+                    - name: „Application update 10.0.19“
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
                 - name: Pasirinktinės saugyklos vietos sugeneruotiems dokumentams nurodymas
                   items:
                     - name: 'Įvykio prenumeravimas, kad prenumeratos apdorojimo programai galima būtų pateikti užklausą dėl atsakymo'
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/finance/toc.json
                     - name: ER paskirties vietos kūrimo perdavimas pasirinktinės paskirties vietos gamyklai
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/finance/toc.json
-                - name: VARTOTOJO ĮVESTIES PARAMETRO tipo duomenų šaltinio verčių inicijavimas iš šaltinio kodo
+                    - name: Pasirinktinės paskirtie vietos sugeneruotiems dokumentams diegimas
+                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/finance/toc.json
+                - name: „USER INPUT PARAMETER“ tipo duomenų šaltinio verčių inicijavimas iš šaltinio kodo
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
         - name: Mobiliųjų įrenginių programėlė
           items:

@@ -1,8 +1,8 @@
 ---
 title: „Human Resources“ parengimas
-description: Šiame straipsnyje pateikiami veiksmai, skirti paruošti naują gamybos aplinką programai „Microsoft Dynamics 365 Human Resources“.
+description: Šioje temoje pateikiami veiksmai, skirti paruošti naują gamybos aplinką programai „Microsoft Dynamics 365 Human Resources“.
 author: andreabichsel
-ms.date: 04/23/2020
+ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e354cec1fb5612afff6e265c4808f4fb2c237a9d
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 2632616834e405d31facdcf3853baaf96066e9aa
+ms.sourcegitcommit: e6437d994c3be0c5bb4a9263af3aa8351020d83a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193729"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6248826"
 ---
 # <a name="provision-human-resources"></a>„Human Resources“ parengimas
 
@@ -28,9 +28,15 @@ ms.locfileid: "6193729"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Šiame straipsnyje pateikiami veiksmai, skirti paruošti naują gamybos aplinką programai „Microsoft Dynamics 365 Human Resources“. Šiame straipsnyje laikoma, kad įsigijote „Human Resources“ iš debesies sprendimų teikėjo (CSP) arba pagal įmonės architektūros (EA) sutartį. Jei turite esamą „Microsoft Dynamics 365“ licenciją, kurioje jau yra „Human Resources“ paslaugos planas, ir negalite atlikti šiame straipsnyje nurodytų veiksmų, susisiekite su palaikymo tarnyba.
+Šioje temoje pateikiami veiksmai, skirti paruošti naują gamybos aplinką programai „Microsoft Dynamics 365 Human Resources“. Šioje temoje laikoma, kad įsigijote „Human Resources“ iš debesies sprendimų teikėjo (CSP) arba pagal įmonės architektūros (EA) sutartį. Jei turite esamą „Microsoft Dynamics 365“ licenciją, kurioje jau yra „Human Resources“ paslaugos planas, ir negalite atlikti šiame straipsnyje nurodytų veiksmų, susisiekite su palaikymo tarnyba.
 
 Norint pradėti, visuotinis administratorius turi prisijungti prie [„Microsoft Dynamics Lifecycle Services“](https://lcs.dynamics.com) (LCS) ir sukurti naują „Human Resources“ projektą. Išskyrus atvejus, kai problema dėl licencijos neleidžia paruošti „Human Resources“, palaikymo tarnybos arba „Dynamics‟ paslaugų inžinierių (DSE) atstovų pagalba nėra būtina.
+
+## <a name="provision-a-human-resources-trial-environment"></a>„Human Resources” bandomosios aplinkos parengimas
+
+Prieš parengdami savo pirmąją smėlio dėžės arba gamybos aplinką, galite norėti parengti [bandomąją „Human Resources” aplinką](https://go.microsoft.com/fwlink/p/?LinkId=2115962), kad patikrintumėte „Human Resources” funkcionalumą. Bandomosiose aplinkose pateikti išgalvoti duomenys, kuriais naudojantis galima saugiai tyrinėti programą. Nors bandomoji aplinka priklauso vartotojui, kuris to pageidavo, kiti vartotojai gali būti pakviesti per sistemos administravimo galimybę, skirtą žmogiškiesiems ištekliams. 
+
+Bandomosios aplinkos nėra skirtos naudoti kaip gamybos aplinkos. Jos apribojamos 60 dienų bandomuoju laikotarpiu. Pasibaigus bandomajam laikotarpiui, aplinka ir visi joje esantys duomenys panaikinami ir jų nebegalima susigrąžinti. Aplinkos negalima konvertuoti į smėlio dėžės arba gamybos aplinką. Pasibaigus dabartinės aplinkos naudojimo terminui, galite užsiregistruoti naujai bandomajai aplinkai.
 
 ## <a name="plan-human-resources-environments"></a>Planuokite „Human Resources“ aplinkas
 
@@ -95,8 +101,6 @@ Sukūrę LCS projektą, galite aplinkai paruošti „Human Resources“.
     > [!NOTE]
     > Jei dar nesate patvirtinę galutinių reikalavimų, projekte galite įdiegti „Human Resources“ bandymo egzempliorių. Tada galite naudoti šį egzempliorių, kad išbandytumėte sprendimą, kol patvirtinsite. Jei naudojate naują aplinką bandymams, turite pakartoti šią procedūrą norėdami sukurti gamybos aplinką.
 
-    > Galbūt norėsite 60 dienų nemokamai naudotis [„Human Resources“ bandomoji aplinka ](https://go.microsoft.com/fwlink/p/?LinkId=2115962). Nors bandomoji aplinka priklauso vartotojui, kuris to pageidavo, kiti vartotojai gali būti pakviesti per sistemos administravimo galimybę, skirtą žmogiškiesiems ištekliams. Bandomosiose aplinkose pateikti išgalvoti duomenys, kuriais naudojantis galima saugiai tyrinėti programą. Jos nėra skirtos naudoti kaip gamybos aplinkos. Atkreipkite dėmesį, kad, po 60 dienų pasibaigus bandomosios aplinkos naudojimo terminui, visi joje esantys duomenys panaikinami ir jų nebegalima susigrąžinti. Pasibaigus dabartinės aplinkos naudojimo terminui, galite užsiregistruoti naujai bandomajai aplinkai.
-
 ## <a name="select-a-power-apps-environment"></a>„Power Apps“ aplinkos pasirinkimas
 
 Naudodami „Power Apps” įrankius galite integruoti ir išplėsti „Human Resources“ duomenų naudojimą. Norėdami gauti daugiau informacijos apie „Power Apps“ aplinkas, įskaitant aplinkų aprėptį, prieigą prie jų ir aplinkų kūrimą bei pasirinkimą, žr. [„Power Apps“ aplinkų paskelbimas](https://powerapps.microsoft.com/blog/powerapps-environments/). 
@@ -132,7 +136,7 @@ Personalo valdymas šiuo metu palaiko šiuos geografinius grafikus:
 - Kanada
 - Azija 
 
-Kurdami personalo aplinką pasirinkite aplinką, kurią norite „Power Apps“ susieti su personalo aplinka. Tada personalo aplinka yra numatyta toje pačioje „Azure" geografijos aplinkoje, kaip ir „Power Apps“ pasirinkta aplinka. Galite pasirinkti, kurioje vietoje personalo aplinka ir duomenų bazė yra faktiškai, pasirinkdami geografijos katalogą, kur bus siejama su „Power Apps“ personalo aplinka.
+Kurdami personalo aplinką pasirinkite aplinką, kurią norite „Power Apps“ susieti su personalo aplinka. Tada personalo aplinka yra numatyta toje pačioje „Azure" geografijos aplinkoje, kaip ir „Power Apps“ pasirinkta aplinka. Galite pasirinkti, kurioje vietoje personalo aplinka ir duomenų bazė yra fiziškai pasirinkdami geografijos katalogą, kai kuriate „Power Apps“ aplinką, kuri bus susieta su „Human Resources” aplinka.
 
 Galite pasirinkti *„Azure" geografijos, kurioje yra aplinka, bet negalite pasirinkti* konkretaus „Azure" *regiono*. Automatizavimas nustato specifinį geografijos regioną, kuriame aplinka yra sukurta apkrovos balansavimui ir našumui optimizuoti. Informaciją apie „Azure" regionams ir regionams galite rasti [„Azure" geografinių diagramų](https://azure.microsoft.com/global-infrastructure/geographies) dokumentuose.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84d845055e175e6f4b8078fabeb3307ee96826f2
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 34d0f3a0ff2a2ce1efd52f7bad2367af5f2f371b
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115028"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271160"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Gamybos cecho vykdymo sąsajos konfigūravimas
 
@@ -64,8 +64,6 @@ Tai yra pirminė šioje temoje aprašyta funkcija. Ji įtraukia gamybos aukšto 
 - Funkcija skirta užrakinti darbo kortelės prietaisą ir darbo kortelės terminalą jų valymui
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Turto valdymo funkcijos gamybos vietos vykdymo sąsajai
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Ši funkcija įtraukia turto valdymo skirtuką į gamybos vietos vykdymo sąsają. Darbuotojai gali naudoti šį skirtuką norėdami pasirinkti turtą, prijungtą prie įrenginio išteklių, kurie yra pasirinktame užduočių sąrašo filtre. Darbuotojas gali peržiūrėti pasirinkto įrenginio turto būseną ir sveikatą iš skaitiklio verčių (ne daugiau keturių pasirinktų skaitiklių). Norėdami naudoti šią funkciją, įjunkite tolesnę funkciją [Funkcijos valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 

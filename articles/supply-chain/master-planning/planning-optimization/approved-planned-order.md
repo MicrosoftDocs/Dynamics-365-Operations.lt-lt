@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 3b9b5274481e693f9fa05eb084ec5505ce5bc2eb
-ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
+ms.openlocfilehash: 71ec26bea2063bcf8b6d302a7ece804b3ac934b3
+ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935662"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304372"
 ---
 # <a name="view-manage-and-approve-planned-orders"></a>Peržiūrėti, tvarkyti ir tvirtinti suplanuotus užsakymus
 
@@ -46,7 +46,7 @@ Galite naudoti kiekvieno **suplanuoto** užsakymo lauką Būsena, kad būtų gal
 
 - **Neapdorota** - Kai bendrasis planavimas sugeneruoja suplanuotus užsakymus, pagal jų būseną. Šios būsenos suplanuoti užsakymai bus panaikinti kito planavimo vykdymo metu.
 - **Baigta** – ši būsena nurodo, kad suplanuotas užsakymas baigtas. Jei nenorite patvirtinti suplanuoto užsakymo, galite rankiniu būdu nustatyti būseną *Baigta*. Atkreipkite dėmesį, kad sistema valdo *Neapdorota* ir *Baigta* būsenas vienodai.
-- **Patvirtinta** – ši būsena nurodo, kad suplanuotas užsakymas patvirtintas patvirtinti. Jei norite patvirtinti suplanuotą užsakymą, galite pakeisti būseną į *Patvirtinta*. Jei norite palikti suplanuoto užsakymo redagavimus arba jei planuojate patvirtinti suplanuotą užsakymą, pakeiskite jo būseną į *Patvirtinta*. Suplanuoti užsakymai, kurių būsena Yra *Patvirtinta*, bendrojo planavimo metu laikomi fiksuotais ir tikėtinais tiekimo užsakymais. Todėl vėliau vykdant bendrąjį planavimą jos nėra modifikuojami ar naikinami. Norint tai pasiekti, planavimo logika kopijuoja *patvirtintus* būseną turinčius suplanuotus užsakymus iš senosios plano versijos į naująją plano versiją bendrojo planavimo metu. Atkreipkite dėmesį, kad suplanuoti užsakymai, kurių būsena yra *Patvirtinta*, laikomi numatyto tiekimo tik konkrečiame pagrindiniame plane.
+- **Patvirtinta** – ši būsena nurodo, kad suplanuotas užsakymas patvirtintas patvirtinti. Jei norite patvirtinti suplanuotą užsakymą, galite pakeisti būseną į *Patvirtinta*. Jei norite palikti suplanuoto užsakymo redagavimus arba jei planuojate patvirtinti suplanuotą užsakymą, pakeiskite jo būseną į *Patvirtinta*. Suplanuoti užsakymai, kurių būsena Yra *Patvirtinta*, bendrojo planavimo metu laikomi fiksuotais ir tikėtinais tiekimo užsakymais. Todėl vėliau vykdant bendrąjį planavimą jos nėra modifikuojami ar naikinami. Norint tai pasiekti, planavimo logika kopijuoja *patvirtintus* būseną turinčius suplanuotus užsakymus iš senosios plano versijos į naująją plano versiją bendrojo planavimo metu. Atkreipkite dėmesį, kad suplanuoti užsakymai, turintys *Patvirtinta* būseną, yra laikomi numatyto tiekimo tik konkrečiame pagrindiniame plane.
 
 Norėdami pakeisti vieno suplanuoto užsakymo būseną, atidarykite bet kurį suplanuotų užsakymų sąrašo puslapį, atidarykite užsakymą ir [atlikite](#view-planned-orders) vieną iš šių veiksmų:
 

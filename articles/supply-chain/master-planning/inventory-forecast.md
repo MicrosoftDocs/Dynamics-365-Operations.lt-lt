@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a7ed310ebdef130b0fb09c5db19397398dc5042
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: 7901bcfc239885aa53863729e573d1f37ba67f81
+ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216847"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6306420"
 ---
 # <a name="inventory-forecasts"></a>Atsargų prognozės
 
@@ -353,20 +353,46 @@ Naudodami šią procedūrą galite apdoroti esamas prognozės operacijos eilutes
 1. Naudokite skyrių **Finansinės dimensijos**, norėdami atnaujinti prognozės eilučių finansines dimensijas. Pasirinkite finansines dimensijas, kurias norite keisti, tada įveskite vertę, kurią norite taikyti pasirinktoms dimensijoms.
 1. Pasirinkite **Gerai** keitimo pritaikymui.
 
-## <a name="run-forecast-planning"></a>Prognozės planavimo paleidimas
+## <a name="use-forecasts-with-master-planning"></a>Prognozių naudojimas su bendruoju planavimu
 
-Įvedus Jūsų poreikį ir (ar) tiekimą, galite vykdyti tiekimo prognozę ir planuoti skaičiavimo bendrus reikalavimus medžiagoms ir pajėgumams bei kurti suplanuotus užsakymus.
+Kai įvedate poreikio prognozę ir (arba) tiekimo prognozę, bendrojo planavimo metu galite įtraukti prognozes, kad būtų apskaičiuojamas numatomas poreikis ir (arba) tiekimas jūsų bendrojo planavimo vykdyme. Kai prognozės įtraukiamos į bendrąjį planavimą, apskaičiuojami bendrieji medžiagų ir pajėgumo reikalavimai bei sugeneruojami suplanuoti užsakymai.
 
-1. Pereikite prie **bendrojo planavimo \> prognozės \> planavimo**.
-1. Lauke **Prognozės planas** pasirinkite prognozės planą.
-1. Įgalinkite **sekimo apdorojimo laiką**, kad įrašytumėte kiekvienos planavimo užduoties apdorojimo laiką.
-1. Lauke **Gijų skaičius** įveskite vertę. (Daugiau informacijos žr. [Pagerinti bendrojo planavimo efektyvumą](master-planning-performance.md).)
-1. Laukelyje **Komentaras**, įveskite tekstą skirtą apimti papildomą informaciją, kurią reikia turėti apie produktą.
-1. „FastTab” **Įtrauktini įrašai** pasirinkite **Filtruoti**, kad apribotumėte prekių pasirinkimą.
-1. Skirtuke **Vykdyti fone** „FastTab" nurodykite paketo parametrus.
+### <a name="set-up-a-master-plan-to-include-an-inventory-forecast"></a>Bendrojo plano nustatymas, kad jis apimtų atsargų prognozę
+
+Norėdami nustatyti bendrąjį planą taip, kad jis apimtų atsargų prognozę, atlikite šiuos žingsnius.
+
+1. Eikite į **Bendrasis planavimas \> Sąranka \> Planai \> Bendrieji planai**.
+1. Pasirinkite esamą planą ar sukurkite naują.
+1. „FastTab“ **Bendra** nustatykite toliau pateikiamus laukus.
+
+    - **Prognozės modelis** – Pasirinkite taikomą prognozės modelį. Šis modelis bus laikomas galiojančiu, kai tiekimo siūlymas yra sukuriamas esamam pagrindiniam planui.
+    - **Įtraukti tiekimo prognozę** – Nustatykite šią parinktį į *Taip*, kad įtrauktumėte tiekimo prognozę esamame bendrajame plane. Jei nustatote *Ne*, tiekimo prognozės operacijos nebus įtrauktos į pagrindinį planą.
+    - **Įtraukti paklausos prognozę** – Nustatykite šią parinktį į *Taip*, kad ji įtraukti paklausos prognozę esamame pagrindiniame plane. Jei nustatote *Ne*, paklausos prognozės perlaidos nebus įtrauktos į pagrindinį planą.
+    - **Metodas naudojamas siekiant sumažinti prognozės reikalavimus** – Pasirinkite metodą, kuris turi būti naudojamas siekiant sumažinti prognozės reikalavimus. Daugiau informacijos rasite [Prognozių mažinimo raktai](planning-optimization/demand-forecast.md#reduction-keys).
+
+1. „FastTab“ **Laiko ribos dienomis** galite nustatyti tolesnius laukelius siekiant nustatyti laikotarpį, per kurį yra įtraukta prognozė:
+
+    - **Prognozės planas** – Nustatykite parinktį į *Taip* tam, kad ji viršytų prognozės plano laikos tvarką, kurios ištakos yra atskiros apimties grupėse. Nustatykite ją į *Ne* tam, kad naudotumėte vertės atskiros apimties grupėms esamame pagrindiniame plane.
+    - **Prognozės laiko laikotarpis** – Jei nustatote **Prognozės plano** parinktį į *Taip*, nurodykite dienų skaičių (nuo šiandienos), kuriam bus taikoma paklausos prognozė.
+
+    > [!IMPORTANT]
+    > Parinktis **Prognozės planas** dar nėra palaikomas su Planavimo optimizavimu.
+
+### <a name="run-a-master-plan-that-includes-an-inventory-forecast"></a>Bendrojo plano, apimančio atsargų prognozę, vykdymas
+
+Norėdami vykdyti bendrąjį planą, apimantį atsargų prognozę, atlikite šiuos žingsnius.
+
+1. Eikite į **Bendrasis planavimas \> Darbo sritys \> Bendrasis planavimas**.
+1. Lauke **Bendrasis planas** įveskite arba pasirinkite bendrąjį planą, kurį nustatėte ankstesnėje procedūroje.
+1. Plytelėje **Bendrasis planavimas** pasirinkite **Vykdyti**.
+1. Dialogo lange **Bendrasis planavimas** nustatykite parinktį **Sekti apdorojimo laiką** į *Taip*.
+1. Lauke **Gijų skaičius** įveskite skaičių.
+1. „FastTab„ **Įtrauktini įrašai** pasirinkite **Filtruoti**.
+1. Atsiranda standartinis užklausų rengyklės dialogo langas. Skirtuke **Diapazonas** pasirinkite eilutę, kurioje laukas **Laukas** yra nustatytas kaip *Elemento numeris*.
+1. Lauke **Kriterijai** pasirinkite prekės numerį, kurį norite įtraukti į planą.
 1. Pasirinkite **Gerai**.
 
-Norėdami peržiūrėti apskaičiuotus poreikius, atidarykite **bruto poreikių** puslapį. Pvz., skirtuko  **Planas puslapyje** išleisti produktai **skyriuje** Reikalavimai, **pasirinkite** skyrių **Bruto poreikis**.
+Norėdami peržiūrėti apskaičiuotus poreikius, atidarykite **bruto poreikių** puslapį. Pavyzdžiui, veiksmų srities puslapio **Išleisti produktai** skirtuko **Planuoti** grupėje **Poreikiai** pasirinkite **Bendrasis poreikis**.
 
 Norėdami peržiūrėti sugeneruotus suplanuotus užsakymus, eikite į **Bendrojo planavimo \> bendrus \> suplanuotus užsakymus**, ir pasirinkite reikiamą prognozės planą.
 
@@ -376,5 +402,6 @@ Norėdami peržiūrėti sugeneruotus suplanuotus užsakymus, eikite į **Bendroj
 - [Poreikio prognozavimo nustatymas](demand-forecasting-setup.md)
 - [Pagrindinės statistinės prognozės generavimas](generate-statistical-baseline-forecast.md)
 - [Neautomatiniai pagrindinės prognozės koregavimai](manual-adjustments-baseline-forecast.md)
+- [Pagrindinis planavimas su paklausos prognozėmis](planning-optimization/demand-forecast.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

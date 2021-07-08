@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79115f26047c64ddb528a73e01e76891fd9b5044
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6d32abacc1539cb930ad6f1ebcfe6fa9af4befcf
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052078"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271495"
 ---
 # <a name="buy-and-sell-leave"></a>Atostogų pirkimas ir pardavimas
 
@@ -47,6 +47,12 @@ Jūsų balansai arba automatiškai atsinaujins, arba pereis tvirtinimo procesą 
 3. Kai būsite pasirengę pateikti užklausą, pasirinkite **Pateikti**.
 
 Jūsų balansai arba automatiškai atsinaujins, arba pereis tvirtinimo procesą prieš atnaujinant. Tai priklauso nuo to, kaip pirkimo strategija buvo sukonfigūruota.
+
+
+## <a name="troubleshooting"></a>Trikčių šalinimas 
+
+Jei atostogų pirkimo ar pardavimo prašymo darbo eiga nepavyksta, vartotojai, turintys **„EssLeaveBuySellRequestApprover”** teisę, gali peržiūrėti visų atostogų pirkimo ir pardavimo užklausų pranešimų žurnalą. Norėdami tai padaryti, eikite į **Atostogos ir neatvykimai > Saitas > Pirkti ir parduoti atostogų prašymus > Pranešimų žurnalas** (viršutinėje kairinėje dalyje). **Pranešimų žurnale** vartotojams rodoma, kaip operacijos buvo apdorotos ir susijusios darbo eigos retrospektyva.
+
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: c62e2d1b361e0ed1ab1ced42997add157b30c828
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 88e38989e3d3e46d0c43779659bc6ea2e29f08e2
+ms.sourcegitcommit: 8e846b52763f90d2232ec7d427839f4722570bce
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019056"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6292742"
 ---
 # <a name="containerization"></a>Krovimas į konteinerius
 
@@ -108,6 +108,8 @@ Norėdami nustatyti konteinerio kūrimo šabloną, atlikite šiuos veiksmus:
 
       - **Pakuoti į visus atvirus konteinerius** – sistema įvertina tai, ar paskirstymo eilutė tilps bet kuriame konteineryje, sukurtame krovimo į konteinerius ciklo metu.
       - **Pakuoti tik į dabartinį konteinerį** – sistema įvertina tik tai, ar paskirstymo eilutė tilps paskutiniame sukurtame konteineryje.
+
+    Daugiau informacijos ir pavyzdžių, kurie parodo, kaip dirbti su konteinerio pakavimo strategijomis, ieškokite [Konteinerio pakavimo strategijos](container-packing-strategy-overview.md).
 
 1. Norėdami nustatyti paskirstymo eilučių pakavimo konteineriuose taisykles, pasirinkite **Maišymo logikos skaidymas**. Pavyzdžiui, galite sukurti taisyklę, kuri leis darbuotojams pakuoti dviejų skirtingų prekių paskirstymo eilutes tame pačiame konteineryje. Norėdami apibrėžti maišymo taisyklę, atlikite šiuos veiksmus:
 

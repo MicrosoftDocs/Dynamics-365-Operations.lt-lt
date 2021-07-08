@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: e2fc40e3e9874d47dd51e773628ba1ce75b8ebab
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 2df579bfb820f871bfcc9c18bd8e5681cdf42447
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193886"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271213"
 ---
 # <a name="firm-planned-orders"></a>Galutinai suplanuoti užsakymai
 
@@ -123,8 +123,6 @@ Automatinio tvirtinimo laiko ribas apibrėžia dienų, kurias įvedate tam tikra
 Jei visas anksčiau paminėtas laiko ribas nustatote kaip 0 (nulį), automatiškai išjungiamas atitinkamų *padengtų* prekių automatinis tvirtinimas.
 
 ## <a name="firm-planned-orders-by-using-a-query"></a>Patvirtinti suplanuotus užsakymus naudojant užklausą
-
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
 
 Užklausomis pagrįstas virtimas leidžia planuoti tvirtvirtį pagal iš anksto nustatytus kriterijus. Skirtingai nei automatinis tvirtinimas, užklausomis pagrįstas tvirtinimas leidžia automatiškai patvirtinti skirtingus užsakymų pogrupius skirtingu metu. Be to, galite naudoti neautomat operacijas arba automatizuotas operacijas, norėdami patvirtinti skirtingus suplanuotų užsakymų tipus. Taip pat galite peržiūrėti, kurie patvirtinti užsakymai pasirinkti pagal jūsų nustatymus. Todėl galite patvirtinti, kad pasirinkimas atitinka jūsų lūkesčius.
 

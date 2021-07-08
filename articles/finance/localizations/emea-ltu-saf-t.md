@@ -3,7 +3,7 @@ title: Lietuvai skirtas standartinis mokesčio audito failas (SAF-T)
 description: Šioje temoje paaiškinama, kaip nustatyti ir sugeneruoti juridinių subjektų, kurių pagrindinis adresas yra Lietuvoje, standartinį audito failą (TAX-T).
 author: liza-golub
 ms.author: elgolu
-ms.date: 03/08/2021
+ms.date: 06/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.reviewer: kfend
 ms.search.region: Lithuania
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 313ce8919e80f89fd8cac801f93aa53c9513985a
-ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
+ms.openlocfilehash: f16d1756fac4758bd9bd77a0477def57c2dbe2a0
+ms.sourcegitcommit: 55ca275705a624d446d2abb60b5d676b86fe7240
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "6184010"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "6306790"
 ---
 # <a name="standard-audit-file-for-tax-saf-t-for-lithuania"></a>Lietuvai skirtas standartinis mokesčio audito failas (SAF-T)
 
@@ -31,70 +31,96 @@ Daugiau informacijos rasite [SAF-T - VMI](https://www.vmi.lt/evmi/en/home).
 
 ## <a name="setup"></a>Sąranka
 
-Norėdami pradėti dirbti su **Lietuvos SAF-T** ataskaita, atlikite šiuos veiksmus.
+Norėdami pradėti dirbti su **Lietuvos SAF-T** ataskaita, užbaikite šiuos veiksmus:
 
-1. Importuokite šias ar vėlesnes elektroninių ataskaitų (ER) konfigūracijų versijas iš visuotinės saugyklos.
+1. [Importuokite elektroninių ataskaitų konfigūracijas.](#import)
+2. [Nustatykite **SAF-T formato (LT)** konfigūravimo specialius programos parametrus.](#application)
+3. [Didžiosios knygos parametruose pasirinkite SAT-T formatą.](#satt)
+4. [Funkcijų valdyme įjunkite funkcijas.](#features)
+5. [Sukurkite savo įmonės kontaktinį asmenį.](#contact)
 
-    | ER kKonfigūracijos pavadinimas       | Tipas          | Versija | Aprašas |
-    |-----------------------------|---------------|---------|-------------|
-    | Standartinis audito failas (SAF-T) | Modelis         | 128     | Bendras duomenų modelis, skirtas skirtingoms audito ataskaitoms. |
-    | SAF-T bendras modelio susiejimas | Modelio susiejimas | 128.251 | Modelio susiejimas, kuris suteikia bendrą duomenų šaltinio susiejimą. |
-    | SAF-T formatas (LT)           | Formatuoti        | 128.198 | XML formatas, vaizduojantis SAF-T ataskaitą pagal Lietuvos reikalavimus. |
+### <a name="import-electronic-reporting-configurations"></a><a name="import"></a>Elektroninių ataskaitų konfigūracijų importavimas
 
-    ![ER konfigūracijos, skirtos Lietuvos SAF-T ataskaitos](media/lt-saf-t-ger-configurations.png)
+Importuokite šias ar vėlesnes elektroninių ataskaitų (ER) konfigūracijų versijas iš visuotinės saugyklos.
 
-    **SAF-T Bendroji modelio** susiejimo konfigūracija leidžia susieti bendruosius duomenų šaltinį toliau pateikiamais pagrindiniais duomenimis:
+Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti ER konfigūracijas iš „Microsoft" visuotinės saugyklos, žr. Atsisiųsti [ER konfigūracijas iš visuotinės](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md) saugyklos.
 
-    - **Visuotinės DK paskyros** – Visuotinė DK.
-    - **Klientai** – pirkėjai (klientai) ir kiti skolininkai (pateikti faile).
-    - **Tiekėjai** – tiekėjai ir kiti kreditoriai (pateikiama faile).
-    - **TaxTable** – mokesčių tipo lentelių duomenys. Nurodytos visos mokesčių tipo lentelės, naudojamos juridinio subjekto apskaitos sistemoje. Pavyzdžiai gali būti pridėtinės vertės mokestis (PVM), įmonės pajamų mokestis ir akcizo mokesčiai.
-    - **UOM lentelė** – matavimo vienetų tipų lentelė.
-    - **Analizės tipo lentelė** – analitinės apskaitos lentelių tipų duomenys. Šie duomenys naudojami išsamiai operacijos duomenų informacijai pateikti. Pavyzdžiai gali būti vieneto išlaidos, papildomos išlaidos, išlaidų centras arba projektas.
-    - **Judėjimo tipo lentelė** – atsargų perkėlimo tipai.
-    - **Produktai** – Produktai ir paslaugos.
-    - **Fizinės atsargos** – atsargos (duomenys apie faile esančias atsargas).
+| ER kKonfigūracijos pavadinimas       | Tipas          | Versija | Aprašas |
+|-----------------------------|---------------|---------|-------------|
+| Standartinis audito failas (SAF-T) | Modelis         | 128     | Bendras duomenų modelis, skirtas skirtingoms audito ataskaitoms. |
+| SAF-T bendras modelio susiejimas | Modelio susiejimas | 128.251 | Modelio susiejimas, kuris suteikia bendrą duomenų šaltinio susiejimą. |
+| SAF-T formatas (LT)           | Formatuoti        | 128.198 | XML formatas, vaizduojantis SAF-T ataskaitą pagal Lietuvos reikalavimus. |
 
-    **SAF-T Bendroji modelio** susiejimo konfigūracija taip pat leidžia susieti bendruosius duomenų šaltinį toliau pateikiamais oepracijų duomenimis:
+![SAF-T bendroji modelių susiejimo konfigūracija Lietuvai](media/lt-saf-t-ger-configurations.png)
 
-    - **Visuotinės DK įrašai** – Visuotinės DK įrašai.
-    - **Pardavimo SF** – pradiniai pardavimo dokumentai.
-    - **Pirkimo SF** – pirkimo ir įsigijimo apskaitos dokumentai.
-    - **Mokėjimai** – mokėjimai.
-    - **Prekių judėjimas** – informacija apie prekių judėjimą. Pavyzdžiui, perkėlimai apima prekių įrašymą, prekių nurašymą po to, kai jos parduodamos arba naudojamos gamyboje, ir baigtų produktų įrašymą, nustatytą nuostolį ir brokuotas prekes.
-    - **Turto operacijos** – ekonominės operacijos arba ekonominės turto įvykiai (materialus, nematerialusis ir finansinis turtas).
+**SAF-T Bendroji modelio** susiejimo konfigūracija leidžia susieti bendruosius duomenų šaltinį toliau pateikiamais pagrindiniais duomenimis:
 
-    Būtinai importuokite naujausias konfigūracijų versijas. Versijos apraše paprastai yra „Microsoft“ žinių bazės (KB) straipsnio, kuriame paaiškinami konfigūracijos versijoje įgyvendinti pakeitimai, numeris.
+- **Visuotinės DK paskyros** – Visuotinė DK.
+- **Klientai** – Pirkėjai ir kiti mokėtojai.
+- **Tiekėjai** – Tiekėjai ir kiti kreditoriai.
+- **Mokesčių lentelė** – Mokesčių tipo lentelės, naudojamos juridinio subjekto apskaitos sistemoje. Pavyzdžiai gali būti pridėtinės vertės mokestis (PVM), įmonės pajamų mokestis ir akcizo mokesčiai.
+- **UOM lentelė** – Matavimo vienetų lentelė.
+- **Analizės tipo lentelė** – Analitinės apskaitos lentelių duomenys. Šie duomenys naudojami išsamiai operacijos duomenų informacijai pateikti. Pavyzdžiai gali būti vieneto išlaidos, papildomos išlaidos, išlaidų centras arba projektas.
+- **Judėjimo tipo lentelė** – atsargų perkėlimo tipai.
+- **Produktai** – Produktai ir paslaugos.
+- **Fizinės atsargos** – Duomenys apie faile esančias atsargas.
 
-    > [!IMPORTANT]
-    > Importavę visas anksčiau pateiktoje ankstesnėje lentelėje nurodytas ER konfigūracijas, parinktyje **Numatytasis modelių susiejimui**, nustatykite **Taip** SAF-T bendrojo modelio žymėjimo **konfigūracijai**.
-    >
-    > ![Numatytoji modelio susiejimo pasirinktis, nustatyta kaip Taip, jei susiekite SAF-T bendrą modelio susiejimo konfigūraciją](media/lt-saf-t-default-model-mapping.png)
+**SAF-T Bendroji modelio** susiejimo konfigūracija taip pat leidžia susieti bendruosius duomenų šaltinį toliau pateikiamais oepracijų duomenimis:
 
-    Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti ER konfigūracijas iš „Microsoft" visuotinės saugyklos, žr. Atsisiųsti [ER konfigūracijas iš visuotinės](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md) saugyklos.
+- **Visuotinės DK įrašai** – Visuotinės DK įrašai.
+- **Pardavimo SF** – pradiniai pardavimo dokumentai.
+- **Pirkimo SF** – pirkimo ir įsigijimo apskaitos dokumentai.
+- **Mokėjimai** – mokėjimai.
+- **Prekių judėjimas** – informacija apie prekių judėjimą. Pavyzdžiui, perkėlimas įvyksta įrašant prekes, nurašant jas po to, kai jos parduotos ar panaudotos gamyboje, ir įrašant baigtus produktus, nustatytą nuostolį ir brokuotas prekes.
+- **Turto operacijos** – Ekonominės operacijos arba materialaus ar nematerialaus ekonominio turto bei finansinio turto įvykiai.
 
-    Po to turite nustatyti IRT formato (LT) konfigūravimo **specialius programos** parametrus.
-    
-2. Elektroninėse ataskaitose atverkite **Konfigūravimų** puslapį. Konfigūracijos medyje, prie **Standartinio audito rinkmenos (SAF-T)** pasirinkite **SAF-T formatą (LT)**.
-3. Rinkitės **Konfigūravimai** \> **Konkrečių programų parametrai** ir tada veiksmų juostoje rinkitės **Nustatymai**.
-4. Rinkitės paskutinę konfigūravimo versiją sąraše kairėje.
-5. Pateikti visų peržvalgos laukų susiejimą:
+Importuokite naujausias konfigūracijų versijas. Versijos apraše paprastai yra „Microsoft“ žinių bazės (KB) straipsnio, kuriame paaiškinami konfigūracijos versijoje įgyvendinti pakeitimai, numeris.
 
-    - **StandardMainAccount_Lookup – apibrėžti įmonės naudojamų pagrindinių sąskaitų ir standartinių** Lietuvos pagrindinių sąskaitų susiejimą.
-    - **ReportTaxCodes_LOOKUP – apibrėžti įmonės naudojamų prekybos mokesčių kodų** , naudojamų įmonės ir Lietuvos pagrindinių sąskaitų susiejimą.
-    - **StandardAnalysisType_LOOKUP – apibrėžti įmonės naudojamų prekybos mokesčių dimensijų** , naudojamų įmonės ir Lietuvos standartinių analizės tipų.
-    - **AddressType_LOOKUP – apibrėžti įmonės naudojamų adresų tipų susiejimą su adresų tipais, kurie naudojami** Lietuvos ataskaitoje SAF-T.
+> [!IMPORTANT]
+> Importavę visas anksčiau pateiktoje ankstesnėje lentelėje nurodytas ER konfigūracijas, parinktyje **Numatytasis modelių susiejimui**, nustatykite **Taip** SAF-T bendrojo modelio žymėjimo **konfigūracijai**.
+>
+> ![Numatytoji modelio susiejimo pasirinktis, nustatyta kaip Taip, jei susiekite SAF-T bendrą modelio susiejimo konfigūraciją](media/lt-saf-t-default-model-mapping.png)
+
+### <a name="set-up-application-specific-parameters-for-the-saf-t-format-lt-configuration"></a><a name="application"></a>Nustatykite SAF-T formato (LT) konfigūravimo specialius programos parametrus
+
+1. Elektroninėse ataskaitose atverkite **Konfigūravimų** puslapį. 
+2. Konfigūracijos medyje, prie **Standartinio audito rinkmenos (SAF-T)** pasirinkite **SAF-T formatą (LT)**.
+3. Įsitikinkite, kad dirbate įmonėje, kuriai norite nustatyti konkrečios programos parametrus.
+4. Rinkitės **Konfigūravimai** \> **Konkrečių programų parametrai** ir tada veiksmų juostoje rinkitės **Nustatymai**.
+5. Kairėje esančiame sąraše pasirinkite paskutinę konfigūravimo versiją.
+6. Pateikti visų peržvalgos laukų susiejimą:
+
+    - **StandardAnalysisType_LOOKUP – apibrėžti įmonės naudojamų prekybos mokesčių dimensijų** , naudojamų įmonės ir Lietuvos standartinių analizės tipų. Pasirinkite reikšmę **„APA-100”** kaip paskutinę sąlygą sąraše. Stulpelis **Analizės ID** turi būti nustatytas kaip **\*Ne tuščias\***. Stulpelyje **Eilutė** patikrinkite, ar **„APA-100”** yra paskutinė lentelės sąlyga. Turi būti nustatyta bent viena eilutė, turinti **\*Ne tuščia\*** reikšmes.
+    - **ReportTaxCodes_LOOKUP – apibrėžti įmonės naudojamų prekybos mokesčių kodų** , naudojamų įmonės ir Lietuvos pagrindinių sąskaitų susiejimą. Pasirinkite reikšmę **„PVM100”** kaip paskutinę sąlygą sąraše. Stulpelis **Mokesčių kodas** turi būti nustatytas kaip **\*Ne tuščias\***. Stulpelyje **Eilutė** patikrinkite, ar **„PVM100”** yra paskutinė lentelės sąlyga. Turi būti nustatyta bent viena eilutė, turinti **\*Ne tuščia\*** reikšmes.
+    - **AddressType_LOOKUP – apibrėžti įmonės naudojamų adresų tipų susiejimą su adresų tipais, kurie naudojami** Lietuvos ataskaitoje SAF-T. Pasirinkite reikšmę **„KT”** kaip paskutinę sąlygą sąraše. Stulpelis **Tikslo pavadinimas** turi būti nustatytas kaip **\*Ne tuščias\***. Stulpelyje **Eilutė** patikrinkite, ar **„KT”** yra paskutinė lentelės sąlyga. Turi būti nustatyta bent viena eilutė, turinti **\*Ne tuščia\*** reikšmes.
+    - **StandardMainAccount_Lookup – apibrėžti įmonės naudojamų pagrindinių sąskaitų ir standartinių** Lietuvos pagrindinių sąskaitų susiejimą. Pasirinkite reikšmę **„7”** kaip paskutinę sąlygą sąraše. Stulpelis **Analizės ID** turi būti nustatytas kaip **\*Ne tuščias\***. Stulpelyje **Eilutė** patikrinkite, ar **„7”** yra paskutinė lentelės sąlyga. Turi būti nustatyta bent viena eilutė, turinti **\*Ne tuščia\*** reikšmes.
 
 6. Kai baigiate peržvalgos laukų nustatymą, lauke Būsena **pasirinkite** **Baigta**. Įrašykite konfigūraciją.
-7. Eikite į **Didžioji knyga** \> **nustatymas** \> **DK parametrai**.
-8. Standartinio mokesčių "FastTab" audito failo standartinio audito failo **mokesčių** **(SAF-T) lauke** nustatykite SAF-T formatą.
-9. Eikite į **Funkcijos valdymą** \> **Visi**.
-10. Funkcijų sąraše raskite ir rinkitės šias funkcijas:
+
+### <a name="select-the-sat-t-format-in-general-ledger-parameters"></a><a name="satt"></a>Didžiosios knygos parametruose pasirinkite SAT-T formatą
+
+1. Eikite į **Didžioji knyga** \> **nustatymas** \> **DK parametrai**.
+2. Standartinio mokesčių "FastTab" audito failo standartinio audito failo **mokesčių** **(SAF-T) lauke** nustatykite SAF-T formatą.
+
+### <a name="turn-on-features-in-feature-management"></a><a name="features"></a>Funkcijų valdyme įjunkite funkcijas
+
+1. Eikite į **Funkcijų valdymas** ir pasirinkite skirtuką **Visi**.
+2. Funkcijų sąraše raskite ir rinkitės šias funkcijas:
 
     - Užklausos duomenų šaltinio kūrimo laiko optimizavimas vykdant ER ataskaitas
     - Optimizuoti duomenų rinkinių atminties sąnaudas vykdant ER ataskaitas
 
-11. Pasirinkite **Įjungti dabar**.
+3. Pasirinkite **Įjungti dabar**.
+
+### <a name="create-a-contact-person-for-your-company"></a><a name="contact"></a>Sukurkite savo įmonės kontaktinį asmenį
+
+SAF-T ataskaitos **Įmonės** mazge turi būti kontakto informacija. Šis mazgas yra **Antraštės** mazge. Norėdami nustatyti kontaktinę informaciją, kuri bus pateikiama SAF-T, atlikite šiuos veiksmus.
+
+1. Eikite į **Pardavimai ir rinkodara** \> **Ryšiai** \> **Kontaktai** \> **Visi kontaktai**.
+2. Pasirinkite **Naujas**, kad sukurtumėte naują savo juridinio subjekto kontaktą. Įsitikinkite, kad pasirinkote **Juridinis subjektas** lauke **Kontaktas**. 
+3. Patikrinkite **Šalies ID** reikšmę, kad įsitikintumėte, jog pasirinkote juridinį subjektą, iš kurio SAF-T bus pateiktas.
+
+![ER konfigūracijos, skirtos Lietuvos SAF-T ataskaitos](media/lt-saf-t-contact-person.png)
 
 ## <a name="generate-the-saf-t-report"></a>SAF-T ataskaitos generavimas
 

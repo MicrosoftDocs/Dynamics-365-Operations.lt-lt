@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d12e1908e234c841fb705266b2255c6c5e2140e1
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: 2867a4f9418e9435e2980fc24314914595ec44d0
+ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103598"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301679"
 ---
 # <a name="get-started-with-planning-optimization"></a>Darbo su planavimo optimizavimu pradžia
 
@@ -109,6 +109,8 @@ Parinkties **Naudoti „Planning Optimization“** parametras apibrėžia, kuris
 
 - **Taip** – „Planning Optimization“ funkcija naudojama bendrajam planavimui.
 - **Ne** – įdiegtas „Supply Chain Management“ planavimo mechanizmas naudojamas bendrajam planavimui.
+
+Šis parametras taikomas visiems juridiniams subjektams (įmonėms). Kai kuriuose juridiniuose subjektuose negalima naudoti Planavimo optimizavimo ir įtaisytojo bendrojo planavimo kituose juridiniuose subjektuose.
 
 > [!NOTE]
 > Jei esamos paketinės užduotys, kurios buvo sukurtos įdiegtam „Supply Chain Management“ planavimo mechanizmui, yra suaktyvinamos, kai parinktis **Naudoti „Planning Optimization“** nustatyta į **Taip**, šių užduočių nepavyks atlikti.
