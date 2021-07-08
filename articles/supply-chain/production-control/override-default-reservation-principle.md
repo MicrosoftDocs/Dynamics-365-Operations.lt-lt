@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a1b2dd204c9a507dba387b0295f3021253e02dc4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: eb4200deed5407bef6861913cecdad7114ea68cc
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814807"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270792"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Numatytojo medžiagų gamybos rezervavimo principo perrašymas
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Funkcija *Numatytojo gamybos rezervavimo perrašymas* leidžia nustatyti numatytąjį rezervavimo principą kiekvienai prekių modelių grupei. Todėl galima automatiškai taikyti skirtingus rezervavimo principus kiekvienai prekei, kuri yra gamybos komplektavimo specifikacijos (KS) arba paketinio užsakymo formulės dalis. Galite pasirinkti, ar kiekviena prekių modelių grupė turi pakeisti užsakymui nustatytą numatytąjį rezervavimo principą ir koks principas turėtų būti naudojamas vietoj jo (*neautomatinis*, *įvertinimas*, *planavimas*, *paleidimas* arba *pradžia*).
 
@@ -37,7 +36,7 @@ Pavyzdžiui, jei turite žaliavų ar ingredientų, kuriems reikia paėmimo darbo
 Prieš naudodami šią funkciją, turite ją įjungti savo sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
 
 - **Modulis:** *Gamybos kontrolė*
-- **Funkcijos pavadinimas:** *Numatytojo gamybos rezervavimo perrašymas (peržiūros versija)*
+- **Funkcijos pavadinimas:** *Numatytojo gamybos rezervavimo perrašymas*
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Priskirkite gamybos rezervavimo strategiją prekių modelių grupei
 

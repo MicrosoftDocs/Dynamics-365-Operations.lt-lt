@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: cf009e32f8c137e235793d80bf8448a5f55988bd
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: dc41df33d01c3c8523afb6d8f16bfec88e0c42b8
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020440"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271034"
 ---
 # <a name="rebate-management-parameters"></a>Grąžinimų valdymo parametrai
 
@@ -36,12 +36,12 @@ Tolesnė lentelė aprašo laukelius, kurie yra prienami **Grąžinimų valdymas*
 | Laukas | Aprašas |
 |---|---|
 | Numatytoji būsena | Pasirinkite numatytąją būseną visiems naujiems sandoriams. Norėdami apibrėžti pasirinkti galimų būsenos verčių rinkinį, naudokite [**Grąžinimo būsenų** puslapį](rebate-statuses.md). |
-| Apdorojimas pagal dimensiją | Pasirinkite, ar parengimo, grąžinimo ir nurašymo operacijos turi būti apdorojamos pagal finansinę dimensiją. Kai ši pasirinktis įjungta, sistema šaltinio operacijoms naudoja finansines dimensijas. |
+| Apdorojimas pagal dimensiją | Pasirinkite, ar parengimo, grąžinimo ir nurašymo operacijos turi būti apdorojamos pagal finansinę dimensiją. Kai ši parinktis įjungta, sistema naudoja finansines dimensijas iš šaltinio operacijų paskirties operacijose. |
 | Patikrinti, ar anksčiau užregistruota | <p>Pasirinkite sistemos veikimo būdą, jeigu neregistruotos grąžinimo operacijos apdorojamos daugiau nei vieną kartą per tą patį laikotarpį:</p><ul><li>**Įspėjimas** – sistema leidžia vartotojams perrašyti pradines operacijų eilutes, tačiau rodomas įspėjimas.</li><li>**Klaida** – sistema neleidžia vartotojams perrašyti pradinių operacijų eilučių ir rodomas klaidos pranešimas. |
 | Automatinis žurnalų registravimas | Pasirinkite, ar sistema turėtų automatiškai registruoti siūlomus žurnalus. Šie žurnalai apima dienos žurnalus, kurie naudojami parengimams ir kliento atskaitymams, taip pat, sąskaitos faktūros tiekėjų mokesčių žurnalus. |
 | Automatinis laisvos formos sąskaitų faktūrų registravimas | Pasirinkite, ar sistema turėtų automatiškai registruoti laisvos formos sąskaitos faktūras. Ši parinktis taikoma tik laisvos formos sąskaitoms faktūroms, kurių mokėjimo tipas nustatytas į *Sąskaitos faktūros kliento mokesčių atskaitymai*. |
-| Grąžinimo prekės užsakymo nuoroda | Pasirinkite grąžinimo nuorodą, kuri bus naudojama pardavimo ir pirkimo užsakymuose, kurie generuojami iš grąžinimo proceso (*Nėra*, *Grąžinimo ir atskaitymo sandoris*, *Grąžinimo ir atskaitymų numeris*, *Grąžinimo operacijos numeris* arba *Dokumento pastabos*). |
-| Pareikalavimų apdorojimo naudojimas | <p>Šią parinktį nustatykite į *Taip*, kad naudotumėte pareikalavimų procesą. Tokiu būdu galite pažymėti operacijas, kurias grąžinimų valdymas sukuria kaip pareikalautas arba nepareikalautas ir tada registruoja tik pareikalautas operacijas.</p><p>Pavyzdžiui, apskaičiuojate mėnesio vertės grąžinimų, bet klientui liko dvi dienos pareikalauti grąžinimo. Tokiu atveju nepareikalautos operacijos bus iš naujo sukurtos kitą kartą, kai vykdysite *Apdorojimo* funkciją tam pačiam laikotarpiui.</p><p>Jei nustatote šią pasirinktį į *Ne*, registruojamos visos pareikalautos operacijos.</p> |
+| Grąžinimo prekės užsakymo nuoroda | Pasirinkite grąžinimo nuorodą, kuri bus naudojama pardavimo ir pirkimo užsakymuose, generuojamuose iš grąžinimo proceso (*Nėra*, *Grąžinimo valdymo sandoris*, *Grąžinimo valdymo numeris*, *Grąžinimo operacijos numeris* arba *Dokumento pastabos*). |
+| Pareikalavimų apdorojimo naudojimas | <p>Šią parinktį nustatykite į *Taip*, kad naudotumėte pareikalavimų procesą. Tokiu būdu galite pažymėti operacijas, kurias grąžinimų valdymas sukuria kaip pareikalautas arba nepareikalautas ir tada registruoja tik pareikalautas operacijas.</p><p>Pavyzdžiui, apskaičiuojate mėnesio vertės grąžinimų, bet klientui liko dvi dienos pareikalauti grąžinimo. Tokiu atveju nepareikalautos operacijos bus iš naujo sukurtos kitą kartą, kai vykdysite *Apdorojimo* funkciją kitam laikotarpiui.</p><p>Jei nustatote šią pasirinktį į *Ne*, registruojamos visos pareikalautos operacijos.</p> |
 | Užsakymo tipo žurnalo įtraukimas | Sandoriams ar sandorių eilutėms, kurių operacijos tipas nustatytas kaip *Užsakymas*, ši parinktis kontroliuoja, ar turi būti įtrauktas *Žurnalo* tipo pardavimo užsakymas. Ji teikia lankstumo, jeigu šie užsakymų tipai naudojami scenarijuose, kuriuose grąžinimas dar neturi būti taikomas. |
 
 ## <a name="number-sequences-tab"></a>Numeracijų skirtukas
@@ -50,8 +50,8 @@ Naudokite skirtuką **Numeracija**, esantį **Grąžinimo valdymo parametrų** p
 
 | Nuoroda | Aprašas |
 |---|---|
-| Grąžinimo ir atskaitymų sandoris | Numeracija priskiria unikaliąją rakto reikšmę kiekvienam grąžinimo sandoriui. Šis raktas naudojamas sandorių kūrimo metu. |
-| Grąžinimo ir atskaitymų numeris | Numeracija priskiria unikaliąją rakto reikšmę kiekvienam grąžinimui. Šis raktas yra naudojamas grąžinimo santykiams identifikuoti. |
+| Grąžinimų valdymo sandoris | Numeracija priskiria unikaliąją rakto reikšmę kiekvienam grąžinimo sandoriui. Šis raktas naudojamas sandorių kūrimo metu. |
+| Grąžinimų valdymo numeris | Numeracija priskiria unikaliąją rakto reikšmę kiekvienam grąžinimui. Šis raktas yra naudojamas grąžinimo santykiams identifikuoti. |
 | Grąžinimo operacijos numeris | Numeracija priskiria unikaliąją rakto reikšmę kiekvienai grąžinimo operacijai. Šis raktas yra naudojamas grąžinimo operacijoms identifikuoti. |
 | Mokesčio sąskaita faktūra | Numeracija priskiria unikaliąją rakto reikšmę kiekvienai grąžinimo sąskaitai faktūrai. Šis raktas yra naudojamas, kai automatiškai registruojami grąžinimo žurnalai. |
 

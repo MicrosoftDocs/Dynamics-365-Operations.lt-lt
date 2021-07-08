@@ -2,7 +2,7 @@
 title: Tarifų konfigūravimas
 description: Tarifai programoje „Microsoft Dynamics 365 Human Resources“ nustato, kiek darbdaviai ir darbuotojai prisideda prie išmokos.
 author: andreabichsel
-ms.date: 06/22/2020
+ms.date: 06/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3d6018decbc429a5e6fbb658369d56a34439f6c7
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 2b6767df573260f32de8409e487f649bdc4779b0
+ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054985"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "6266662"
 ---
 # <a name="configure-rates"></a>Tarifų konfigūravimas
 
@@ -46,7 +46,7 @@ Naudokite tarifus, kad nustatytumėte, kiek darbuotojai ir darbdaviai moka už k
    | **Galiojimo pabaiga** | Tarifo pabaigos data. Data 2154-12-31 (kuri reiškia niekada) yra numatytoji reikšmė. |
    | **Naudoti pakopas** | Pakopa, naudojama išmokų tarifui apskaičiuoti. Viena pakopa, skirta vienos pakopos išmokų tarifui arba dviguba pakopa, skirta dviejų pakopų išmokų tarifui. Dvigubos pakopos pavyzdys yra pakopa, grindžiama lytimi ir amžiumi. |
    | **Mokėjimo dažnumas** | Mokėjimo dažnumas, kuris nustato, kaip dažnai išmokos draudimo įnašo tarifas yra mokamas išmokos teikėjui. Pavyzdžiui, esant mėnesiniam mokėjimo dažnumui, išmokos tarifas atitinka mėnesinio mokėjimo sumą. |
-   | **Mokėjimo dažnumo apvalinimas** | Tarifo apvalinimo metodas: standartinis arba sutrumpintas. |
+   | **Mokėjimo dažnumo apvalinimas** | Tarifo apvalinimo metodai: Standartinis, Sumažintas, Įprastas, Į mažesnę pusę ir Į didesnę pusę. </br></br><ul><li>**Standartinis** – Visada apvalina į didesnę pusę. Pavyzdžiui, 10,611 bus suapvalinta iki 10,62. -10,231 bus suapvalinta iki -10,23. </li><li>**Sumažintas** – Visada apvalina į mažesnę pusę. Pavyzdžiui, 10,619 bus suapvalinta iki 10,61. -10,231 bus suapvalinta iki -10,24. </li><li>**Įprastas** – Dešimtainės vertės, kurios baigiasi 5 arba didesniu skaičiumi, bus suapvalintos į didesnę pusę. Dešimtainės vertės, kurios baigiasi 4 arba mažesniu skaičiumi, bus suapvalintos į mažesnę pusę. Pavyzdžiui, 10,615 bus suapvalinta iki 10,62. -10,235 bus suapvalinta iki -10,24. 10,614 bus suapvalinta iki 10,61. -10,234 bus suapvalinta iki -10,23. </li><li>**Į mažesnę pusę** – Suapvalina link nulio. Pavyzdžiui, 10,619 bus suapvalinta iki 10,61. -10,231 bus suapvalinta iki -10,23. </li><li>**Į didesnę pusę** – Suapvalina toliau nuo nulio. Pavyzdžiui, 10,619 bus suapvalinta iki 10,62. -10,231 bus suapvalinta iki -10,24. |
    | **Nerūkančio darbuotojo suma** | Mokesčio suma, kurią išmokos teikėjas taiko nerūkančiam darbuotojui. Tai yra suma, kurią darbdavys moka išmokos teikėjui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |
    | **Nerūkančio darbdavio suma** | Mokesčio suma, kurią išmokos teikėjas taiko nerūkančiam darbuotojui. Tai yra suma, kurią darbdavys moka išmokos teikėjui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |
    | **Rūkančio darbuotojo suma** | Mokesčio suma, kurią išmokos teikėjas taiko rūkančiam darbuotojui. Tai yra suma, kurią darbdavys moka išmokos teikėjui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |
