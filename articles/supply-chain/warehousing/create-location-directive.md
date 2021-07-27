@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: f46d55bf7a670e983fb65a9ca303bc02568247ed
-ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
+ms.openlocfilehash: a896953a5603d9766f2c4938158088fc9424d5bf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "5911301"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343753"
 ---
 # <a name="work-with-location-directives"></a>Darbas su vietos nurodymais
 
@@ -51,7 +51,7 @@ Prieš tai, kai galite sukurti vietos nurodymus, privalote atlikti šiuos žings
 
 Daugelis laukelių, kurie gali būti nustatyti vietos nurodymams yra bendri visiems darbo užsakymo tipams. Nepaisant to, kiti laukeliai yra konkretūs konkretiems darbo užsakymo tipams.
 
-![Vietos nurodymų darbo užsakymo tipai](media/Location_Directives_Work_Order_Types.png "Vietos nurodymų darbo užsakymo tipai")
+![Vietos nurodymų darbo užsakymo tipai.](media/Location_Directives_Work_Order_Types.png "Vietos nurodymų darbo užsakymo tipai")
 
 > [!NOTE]
 > Du darbo tipai, *Atšauktas darbas* ir *Ciklo skaičiavimas* yra naudojami tik sistemos. Vietos nurodymai negali būti sukurti šiems darbo užsakymo tipams.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6fd08d9a2522bdf497b1926c884a4583065d9f19
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 01f7f032915a5e4170cae5e28a445081aef075fa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754379"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355375"
 ---
 # <a name="base64stringtocontainer-er-function"></a>„Base64StringToContainer” ER funkcija
 
@@ -73,7 +73,7 @@ Apibrėžkite šiuos modelio susiejimo duomenų šaltinius:
 
 Šiame pavyzdyje duomenų šaltinis **\#„MediaAsBase64String”** užkoduoja dabartinio laikmenos priedo dvejetainį turinį kaip tekstą, kuris reiškia dvejetainių tekstų kodavimo schemų „Base64” grupę. Duomenų šaltinis **\#„BLOBFomBase64”** užkoduoja „Base64” eilutę ir grąžina dvejetainę vertę BLOB formatu.
 
-![Pavyzdiniai duomenų šaltiniai ER modelio susiejimo dizaino įrankio puslapyje](./media/er-functions-container-base64stringtocontainer-1.png)
+![Pavyzdiniai duomenų šaltiniai ER modelio susiejimo dizaino įrankio puslapyje.](./media/er-functions-container-base64stringtocontainer-1.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

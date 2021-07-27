@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 4540cdfff2362d8fb7cc2b4cccf9c340be9750ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ccf1557d3c95829421b26d5f84750e3d4236c9e0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023448"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358223"
 ---
 # <a name="set-tds-parameters-in-accounts-payable-and-accounts-receivable"></a>Parametrų mokėtinos sąskaitose ir gautinose sąskaitose TDS nustatymas
 
@@ -38,12 +38,12 @@ ms.locfileid: "6023448"
     - **Raginimas** – vartotojai gauna pranešimą, raginantį atnaujinti užsakymo eilučių TDS grupę.
 4. Pasirinkite **Gerai**.
 
-    [![Dialogo langas Atnaujinti užsakymo eilutes](./media/apac-ind-TDS-26.PNG)](./media/apac-ind-TDS-26.PNG)
+    [![Dialogo langas Atnaujinti užsakymo eilutes.](./media/apac-ind-TDS-26.PNG)](./media/apac-ind-TDS-26.PNG)
 
 5. Eikite į **Mokestis \> Sąranka \> Parametrai \> Gautinų mokėtinų sumų parametrai**.
 6. Skirtuko **Bendra** „FastTab“ **Skaidymas pagal pristatymo informaciją** nustatykite parinktį **Produkto gavimo kvitas** kaip **Taip,** kad užregistruotumėte ir padalintumėte produkto gavimo kvitą, kuriame yra skirtingi pristatymo adresai ir mokesčių sąskaitų numeriai (BLSK). Jei ši pasirinktis nustatyta kaip **Ne**, negalite registruoti pirkimo važtaraščio, kuriame yra skirtingi pristatymo adresai ir BLSK.
 7. Nustatykite parinktį **SF** kaip **Taip**, kad užregistruotumėte ir padalintumėte pirkimo SF, kurioje yra skirtingi pristatymo adresai ir BLSK.
 
-    [![Skaidyti pagal „FastTab“ pristatymo informacija](./media/apac-ind-TDS-25.png)](./media/apac-ind-TDS-25.png)
+    [![„FastTab“ Skaidyti pagal pristatymo informaciją.](./media/apac-ind-TDS-25.png)](./media/apac-ind-TDS-25.png)
 
 8. Uždarykite puslapį.

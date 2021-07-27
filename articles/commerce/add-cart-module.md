@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1ec8e89ed82bcdffdc21e62d24ad8c8a7d939cdf
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 76d4bea9ad25494015a7bfeb324cb0e84dd024b7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797868"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346857"
 ---
 # <a name="cart-module"></a>Krepšelio modulis
 
@@ -35,15 +35,15 @@ Krepšelio modulis generuoja duomenis pagal krepšelio ID, kuris yra naršyklės
 
 Toliau pateiktame paveikslėlyje parodytas „Fabrikam“ svetainėje esančio krepšelio puslapio pavyzdys.
 
-![Krepšelio modulio, esančio „Fabrikam” svetainėje, pavyzdys](./media/cart2.PNG)
+![Krepšelio modulio, esančio „Fabrikam” svetainėje, pavyzdys.](./media/cart2.PNG)
 
 Toliau pateiktame paveikslėlyje parodytas „Fabrikam“ svetainėje esančio krepšelio puslapio pavyzdys. Šiame pavyzdyje yra eilutės prekės paėmimo mokestis.
 
-![Krepšelio modulio su eilutės prekės tvarkymo mokesčiu pavyzdys](./media/ecommerce-handling-fee.png)
+![Krepšelio modulio su eilutės prekės tvarkymo mokesčiu pavyzdys.](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>Krepšelio modulio ypatybės ir vietos
 
-| Ypatybė | Reikšmės | aprašymas |
+| Ypatybė | Reikšmės | Aprašas |
 |----------------|--------|-------------|
 | Antraštė | Antraštės tekstas ir antraštės žymė (**H1**, **H2**, **H3**, **H4**, **H5** ar **H6**) | Vežimėlio antraštė, tokia kaip „Apsipirkimo maišelis“ arba „Prekės jūsų vežimėlyje“. |
 | Rodyti nėra sandėlyje klaidas | **Teisinga** arba **Klaidinga** | Jei ši ypatybė nustatyta į **Tiesa**, vežimėlio puslapyje bus rodomos su atsargomis susijusios klaidos. Rekomenduojame nustatyti šią ypatybę į **Tiesa**, jei atsargų tikrinimai yra taikomi svetainėje. |

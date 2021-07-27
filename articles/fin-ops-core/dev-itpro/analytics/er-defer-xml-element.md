@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 07b1d95572fb0b6bbfd34756bf1ecded7b9ff35c
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: f89c671ae012907a4c3e07c09bdc867c1d67a101
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944490"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348074"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>XML elementų ER formatais vykdymo atidėjimas
 
@@ -90,14 +90,14 @@ Prieš pradėdami, taip pat turite atsisiųsti ir įrašyti šią ER sprendimo p
 6. Konfigūracijos medyje išplėskite **Modelis, norint sužinoti apie atidėtus elementus**.
 7. Peržiūrėkite importuotų ER konfigūracijų sąrašą konfigūracijos medyje.
 
-    ![Importuotos ER konfigūracijos puslapyje Konfigūracijos](./media/ER-DeferredXml-Configurations.png)
+    ![Importuotos ER konfigūracijos puslapyje Konfigūracijos.](./media/ER-DeferredXml-Configurations.png)
 
 ### <a name="activate-a-configuration-provider"></a>Konfigūracijų teikėjo aktyvinimas
 
 1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
 2. Puslapio **Lokalizavimo konfigūracijos** skyriuje **Konfigūracijų teikėjai** įsitikinkite, kad sąraše yra [konfigūracijos teikėjas](general-electronic-reporting.md#Provider), susijęs su pavyzdine įmone „Litware, Inc.“ (`http://www.litware.com`), ir kad jis pažymėtas kaip aktyvus. Jeigu šio konfigūracijos teikėjo sąraše nėra arba jei jis nėra pažymėtas kaip aktyvus, atlikite temoje [Sukurti konfigūracijų teikėją ir jį pažymėti kaip aktyvų](./tasks/er-configuration-provider-mark-it-active-2016-11.md) nurodytus veiksmus.
 
-    ![Pavyzdinė įmonė „Litware, Inc.“ puslapyje Lokalizavimo konfigūracijos](./media/ER-DeferredXml-ElectronicReportingWorkspace.png)
+    ![Pavyzdinė įmonė „Litware, Inc.“ puslapyje Lokalizavimo konfigūracijos.](./media/ER-DeferredXml-ElectronicReportingWorkspace.png)
 
 ### <a name="review-the-imported-model-mapping"></a>Importuotų modelių susiejimo peržiūra
 
@@ -119,7 +119,7 @@ Peržiūrėkite ER modelio susiejimo komponento, kuris konfigūruojamas, kad bū
     - Duomenų šaltinis **Sugrupuota**, kurio tipas yra *Grupuoti pagal*, sukonfigūruotas, kad grupuotų duomenų šaltinio **Filtruota** mokesčių operacijas.
     - Agregavimo laukas **TotalSum** duomenų šaltinyje **Sugrupuota** sukonfigūruotas taip, kad apibendrintų vertes lauke **\$TaxAmount** duomenų šaltinyje **Filtruota** visų minėto duomenų šaltinio filtruotų mokesčių operacijų atveju.
 
-        ![Agregavimo laukas TotalSum, esantis parametrų puslapyje Redaguoti 'GroupBy'](./media/ER-DeferredXml-GroupByParameters.png)
+        ![Kaupimo laukas „Bendra suma”, esantis parametrų puslapyje Redaguoti „Sugrupuoti pagal”.](./media/ER-DeferredXml-GroupByParameters.png)
 
 9. Peržiūrėkite, kaip sukonfigūruoti duomenų šaltiniai yra susieti su duomenų modeliu ir kaip jie pateikia gautus duomenis, kad būtų galima juos naudoti ER formatu.
 
@@ -127,7 +127,7 @@ Peržiūrėkite ER modelio susiejimo komponento, kuris konfigūruojamas, kad bū
     - Duomenų šaltinio **Filtruota** laukas **\$TaxAmount** yra susietas su duomenų modelio lauku **Data.List.Value**.
     - Duomenų šaltinio **Sugrupuota** laukas **TotalSum** yra susietas su duomenų modelio lauku **Data.Summary.Total**.
 
-    ![Modelio susiejimo dizaino įrankio puslapis](./media/ER-DeferredXml-ModelMapping.png)
+    ![Modelio susiejimo dizaino įrankio puslapis.](./media/ER-DeferredXml-ModelMapping.png)
 
 10. Uždarykite puslapius **Modelio susiejimo dizaino įrankis** ir **Modelio susiejimai**.
 
@@ -143,7 +143,7 @@ Peržiūrėkite ER modelio susiejimo komponento, kuris konfigūruojamas, kad bū
     - XML elementas **Ataskaita\\Pranešimas\\Įrašas** sukonfigūruotas taip, kad įtrauktų į siunčiamus dokumentus vieną įrašo mazgą, kuriame pateikiama vienos mokesčių operacijos informacija.
     - XML elementas **Ataskaita\\Pranešimas\\Suvestinė** sukonfigūruotas taip, kad įtrauktų į siunčiamus dokumentus vieną suvestinės mazgą, kuriame yra mokesčių verčių suma iš apdorotų mokesčių operacijų.
 
-    ![XML elementas Pranešimas ir įdėtieji XML elementai puslapyje Formato dizaino įrankis](./media/ER-DeferredXml-Format.png)
+    ![XML elementas Pranešimas ir įdėtieji XML elementai puslapyje Formato dizaino įrankis.](./media/ER-DeferredXml-Format.png)
 
 5. Skirtuke **Susiejimas** peržiūrėkite toliau pateikiamą informaciją.
 
@@ -157,14 +157,14 @@ Peržiūrėkite ER modelio susiejimo komponento, kuris konfigūruojamas, kad bū
     - Atributas **TotalTaxAmount** yra susietas su **model.Data.Summary.Total**, kad būtų sugeneruota apdorotų mokesčių operacijų mokesčių verčių suma.
     - Atributas **ExecutionDateTime** generuoja datą ir laiką (įskaitant milisekundes), kai įtraukiamas suvestinės mazgas.
 
-    ![Skirtukas Susiejimas puslapyje Formato dizaino įrankis](./media/ER-DeferredXml-Format2.png)
+    ![Skirtukas Susiejimas puslapyje Formato dizaino įrankis.](./media/ER-DeferredXml-Format2.png)
 
 ### <a name="run-the-imported-format"></a>Importuoto formato vykdymas
 
 1. Puslapyje **Formato dizaino įrankis** pasirinkite **Vykdyti**.
 2. Atsisiųskite failą, kuris siūlomas žiniatinklio naršyklėje, ir atidarę jį peržiūrėkite.
 
-    ![Importuoto formato atsisiųstas failas](./media/ER-DeferredXml-Run.png)
+    ![Importuoto formato atsisiųstas failas.](./media/ER-DeferredXml-Run.png)
 
 Atkreipkite dėmesį, kad suvestinės mazge pateikiama apdorotų operacijų mokesčių verčių suma. Kadangi formatas sukonfigūruotas, kad naudotų susiejimą **model.Data.Summary.Total** šiai sumai pateikti, suma apskaičiuojama iškviečiant telkimą **TotalSum** duomenų šaltinyje **Sugrupuota**, kurio tipas yra *GroupBy*, modelių susiejime. Norint apskaičiuoti šį telkimą, modelių susiejimas pakartojamas visose operacijose, kurios buvo pasirinktos duomenų šaltinyje **Filtruota**. Lygindami suvestinės mazgo ir paskutinio įrašo mazgo vykdymo laikus, galite nustatyti, kad sumos skaičiavimas truko 12 milisekundžių (ms). Lygindami pirmo ir paskutinio įrašų mazgų vykdymo laikus, galite nustatyti, kad visų įrašų mazgų generavimas truko 9 ms. Taigi, iš viso prireikė 21 ms.
 
@@ -178,25 +178,25 @@ Jei operacijų kiekis yra daug didesnis, nei kiekis šiame pavyzdyje, skaičiavi
 4. Sukonfigūruokite išraišką **Surinktų duomenų rakto pavadinimas** kaip `WsColumn`.
 5. Sukonfigūruokite išraišką **Surinktų duomenų rakto reikšmė** kaip `WsRow`.
 
-    ![XML elementas Įrašas puslapyje Formato dizaino įrankis](./media/ER-DeferredXml-Format3.png)
+    ![XML elementas Įrašas puslapyje Formato dizaino įrankis.](./media/ER-DeferredXml-Format3.png)
 
 6. Pasirinkite atributą **Ataskaita\\Pranešimas\\Įrašas\\TaxAmount**.
 7. Sukonfigūruokite išraišką **Surinktų duomenų rakto pavadinimas** kaip `SummingAmountKey`.
 
-    ![Atributas TaxAmount puslapyje Formato dizaino įrankis](./media/ER-DeferredXml-Format4.png)
+    ![Atributas TaxAmount puslapyje Formato dizaino įrankis.](./media/ER-DeferredXml-Format4.png)
 
     Galite laikyti šį parametrą virtualaus darbalapio pildymu, kai A1 langelio vertė pridedama prie kiekvienos apdorotos mokesčių operacijos mokesčio sumos vertės.
 
 8. Pasirinkite atributą **Ataskaita\\Pranešimas\\Įrašas\\RunningTotal**, tada pasirinkite **Redaguoti formulę**.
 9. Konfigūruokite išraišką `SUMIF(SummingAmountKey, WsColumn, WsRow)` naudodami įtaisytąją ER funkciją [SUMIF](er-functions-datacollection-sumif.md), tada pasirinkite **Įrašyti**.
 
-    ![Išraiška SUMIF](./media/ER-DeferredXml-FormulaDesigner.png)
+    ![Išraiška SUMIF.](./media/ER-DeferredXml-FormulaDesigner.png)
 
 10. Uždarykite puslapį **Formulės konstruktorius**.
 11. Pasirinkite **Įrašyti**, tada pasirinkite **Vykdyti**.
 12. Atsisiųskite ir peržiūrėkite failą, kuris siūlomas žiniatinklio naršyklėje.
 
-    ![Sugeneruotas mokesčių vertės su vykdoma suma sąrašas](./media/ER-DeferredXml-Run1.png)
+    ![Sugeneruotas mokesčių vertės su vykdoma suma sąrašas.](./media/ER-DeferredXml-Run1.png)
 
     Paskutiniame įrašo mazge yra visų apdorotų operacijų bendra mokesčių verčių suma, apskaičiuota naudojant sugeneruotą išvestį kaip duomenų šaltinį. Šis duomenų šaltinis prasideda ataskaitos pradžioje ir tęsiasi iki paskutinės mokesčių operacijos. Suvestinės mazge yra visų apdorotų operacijų, apskaičiuotų modelio susiejimo metu naudojant *GroupBy* tipo duomenų šaltinį, mokesčių verčių suma. Atkreipkite dėmesį, kad šios vertės yra lygios. Todėl galima naudoti išvestimi pagrįstą sumavimą, o ne **GroupBy**. Lygindami pirmo įrašo mazgo ir suvestinės mazgo vykdymo laikus, galite nustatyti, kad visų įrašų mazgų generavimas ir sumavimas truko 11 ms. Todėl, kiek tai susiję su įrašų mazgų generavimu ir mokesčių verčių sumavimu, modifikuotas formatas yra maždaug du kartus spartesnis už pradinį formatą.
 
@@ -205,7 +205,7 @@ Jei operacijų kiekis yra daug didesnis, nei kiekis šiame pavyzdyje, skaičiavi
 15. Pasirinkite **Įrašyti**, tada pasirinkite **Vykdyti**.
 16. Atsisiųskite ir peržiūrėkite failą, kuris siūlomas žiniatinklio naršyklėje.
 
-    ![Sugeneruotas mokesčių verčių sąrašas naudojant redaguotą formulę](./media/ER-DeferredXml-Run2.png)
+    ![Sugeneruotas mokesčių verčių sąrašas naudojant redaguotą formulę.](./media/ER-DeferredXml-Run2.png)
 
     Atkreipkite dėmesį, kad bendra mokesčių verčių suma paskutiniame įrašo mazge dabar yra lygi sumai suvestinės mazge.
 
@@ -218,7 +218,7 @@ Jei, pavyzdžiui, turite pateikti mokesčių verčių sumą ataskaitos antrašt�
 3. Pasirinkite **Įrašyti**, tada pasirinkite **Vykdyti**.
 4. Atsisiųskite ir peržiūrėkite failą, kuris siūlomas žiniatinklio naršyklėje.
 
-    ![Atsisiųstas ataskaitos antraštės mokesčių verčių failas](./media/ER-DeferredXml-Run3.png)
+    ![Atsisiųstas ataskaitos antraštės mokesčių verčių failas.](./media/ER-DeferredXml-Run3.png)
 
     Atkreipkite dėmesį, kad mokesčių verčių suma suvestinės mazge dabar yra lygi 0 (nuliui), nes ši suma dabar apskaičiuojama pagal sugeneruotą išvestį. Kai sugeneruojamas pirmas įrašo mazgas, sugeneruotoje išvestyje dar nėra įrašų mazgų, kuriuose būtų operacijų informacijos. Galite sukonfigūruoti šį formatą, kad būtų atidėtas elemento **Ataskaita\\Pranešimas\\Suvestinė** vykdymas, kol bus įvykdytas visų mokesčių operacijų elementas **Ataskaita\\Pranešimas\\Įrašas**.
 
@@ -227,12 +227,12 @@ Jei, pavyzdžiui, turite pateikti mokesčių verčių sumą ataskaitos antrašt�
 1. Puslapyje **Formato dizaino įrankis** skirtuke **Formatas** pasirinkite XML elementą **Ataskaita\\Pranešimas\\Suvestinė**.
 2. Parinktyje **Atidėtas vykdymas** nustatykite **Taip**.
 
-    ![XML elemento Suvestinė atidėto vykdymo parinktis puslapyje Formato dizaino įrankis](./media/ER-DeferredXml-Format5.png)
+    ![XML elemento Suvestinė atidėto vykdymo parinktis puslapyje Formato dizaino įrankis.](./media/ER-DeferredXml-Format5.png)
 
 3. Pasirinkite **Įrašyti**, tada pasirinkite **Vykdyti**.
 4. Atsisiųskite ir peržiūrėkite failą, kuris siūlomas žiniatinklio naršyklėje.
 
-    ![Atsisiųstas failas – atidėtas vykdymas](./media/ER-DeferredXml-Run4.png)
+    ![Atsisiųstas failas – atidėtas vykdymas.](./media/ER-DeferredXml-Run4.png)
 
     Dabar elementas **Ataskaita\\Pranešimas\\Suvestinė** dabar vykdomas tik įvykdžius visus kitus jo pirminio elemento **Ataskaita\\Pranešimas** įdėtuosius elementus. Todėl jis vykdomas įvykdžius elementą **Ataskaita\\Pranešimas\\Įrašas** visų mokesčių operacijų, kurių duomenų šaltinis yra **model.Data.List**, atžvilgiu. Pirmo ir paskutinio įrašų mazgų ir antraštės bei suvestinės mazgų vykdymo laikai atskleidžia šį faktą.
 

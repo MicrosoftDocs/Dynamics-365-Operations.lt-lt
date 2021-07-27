@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d164dfe10c9736d8b4529a32ffba765f94ad37d9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 309e613b707222920936d5af995ac57c4c423b40
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753845"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357671"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Sukonfigūruoto ER komponento patikrinimas, kad nekiltų vykdymo problemų
 
@@ -242,7 +242,7 @@ Toliau pateikti veiksmai rodo, kaip gali kilti ši problema.
 1. Pradėkite vienu metu konfigūruoti ER duomenų modelį ir ER modelio susiejimo komponentus.
 2. Duomenų modelių medyje įtraukite lauką, pavadintą **X**, ir kaip duomenų tipą pasirinkite **Sveikasis skaičius**.
 
-    ![Laukas X ir duomenų tipas Sveikasis skaičius įtraukti į duomenų režimų medį puslapyje Duomenų modelis](./media/er-components-inspections-01.png)
+    ![Laukas X ir duomenų tipas Sveikasis skaičius įtraukti į duomenų režimų medį puslapyje Duomenų modelis.](./media/er-components-inspections-01.png)
 
 3. Modelio susiejimo kūrimo programoje, srityje **Duomenų šaltiniai** pridėkite **Apskaičiuotojo laukelio** tipo duomenų šaltinį.
 4. Pavadinkite naująjį duomenų šaltinį **Y** ir jį sukonfigūruokite taip, kad jame būtų reiškinys `INTVALUE(100)`.
@@ -250,17 +250,17 @@ Toliau pateikti veiksmai rodo, kaip gali kilti ši problema.
 6. Duomenų modelio kūrimo įrankyje pakeiskite lauko **X** duomenų tipą iš **Sveikasis skaičius** į **Int64**.
 7. Pasirinkite **Tikrinti**, kad patikrintumėte redaguojamą modelio susiejimo komponentą puslapyje **Modelio susiejimo kūrimo įrankis**.
 
-    ![Redaguojamo modelio susiejimo komponento tikrinimas modelio susiejimo kūrimo įrankio puslapyje](./media/er-components-inspections-01.gif)
+    ![Redaguojamo modelio susiejimo komponento tikrinimas puslapyje Modelio susiejimo kūrimo įrankis.](./media/er-components-inspections-01.gif)
 
 8. Pasirinkite **Tikrinti**, kad patikrintumėte pasirinktos ER konfigūracijos modelio susiejimo komponentą puslapyje **Konfigūracijos**.
 
-    ![Modelio susiejimo komponento tikrinimas konfigūracijų puslapyje](./media/er-components-inspections-01a.png)
+    ![Modelio susiejimo komponento tikrinimas konfigūracijų puslapyje.](./media/er-components-inspections-01a.png)
 
 9. Atkreipkite dėmesį, kad įvyksta tikrinimo klaida. Pranešime teigiama, kad tipo **Sveikasis skaičius** reikšmė, kurią pateikia duomenų šaltinio **Y** reiškinys `INTVALUE(100)`, negali būti saugoma tipo **Int64** duomenų modelio lauke **X**.
 
 Tolesnėje iliustracijoje rodoma vykdymo klaida, kuri įvyksta, jei nepaisote įspėjimo ir pasirenkate **Vykdyti**, kad vykdytumėte formatą, kuris sukonfigūruotas naudoti modelio susiejimą.
 
-![Vykdymo klaidos puslapyje Formato kūrimo įrankis](./media/er-components-inspections-01b.png)
+![Vykdymo klaidos puslapyje Formato kūrimo įrankis.](./media/er-components-inspections-01b.png)
 
 ### <a name="automatic-resolution"></a>Automatinis sprendimas
 
@@ -290,7 +290,7 @@ Toliau pateikti veiksmai rodo, kaip gali kilti ši problema.
 6. Formato struktūros medyje **Y** formato elemento duomenų tipą pakeiskite iš **Sveikasis skaičius** į **Int64**.
 7. Pasirinkite **Tikrinti**, kad patikrintumėte redaguojamą formato komponentą puslapyje **Formato kūrimo įrankis**.
 
-    ![Tipo suderinamumo tikrinimas puslapyje Formato kūrimo įrankis](./media/er-components-inspections-02.gif)
+    ![Tipo suderinamumo tikrinimas puslapyje Formato kūrimo įrankis.](./media/er-components-inspections-02.gif)
 
 8. Atkreipkite dėmesį, kad įvyksta tikrinimo klaida. Pranešime nurodoma, kad sukonfigūruotas reiškinys gali priimti tik **Int64** reikšmes. Todėl tipo **Sveikasis skaičius** **X** duomenų modelio lauko reiškmės negalima įvesti **Y** formato elemente.
 
@@ -317,7 +317,7 @@ Toliau pateikti veiksmai rodo, kaip gali kilti ši problema.
 1. Pradėkite vienu metu konfigūruoti ER duomenų modelį ir ER modelio susiejimo komponentus.
 2. Duomenų modelių medyje įtraukite lauką, pavadintą **X**, ir kaip duomenų tipą pasirinkite **Sveikasis skaičius**.
 
-    ![Duomenų modelių medis su lauku X ir duomenų tipu Sveikasis skaičius puslapyje Duomenų modelis](./media/er-components-inspections-01.png)
+    ![Duomenų modelių medis su lauku X ir duomenų tipu Sveikasis skaičius puslapyje Duomenų modelis.](./media/er-components-inspections-01.png)
 
 3. Modelio susiejimo kūrimo programoje, srityje **Duomenų šaltiniai** pridėkite **Apskaičiuotojo laukelio** tipo duomenų šaltinį.
 4. Pavadinkite naująjį duomenų šaltinį **Y** ir jį sukonfigūruokite taip, kad jame būtų reiškinys `INTVALUE(100)`.
@@ -325,7 +325,7 @@ Toliau pateikti veiksmai rodo, kaip gali kilti ši problema.
 6. Modelio susiejimo kūrimo įrankyje, srityje **Duomenų šaltiniai** ištrinkite duomenų šaltinį **Y**.
 7. Pasirinkite **Tikrinti**, kad patikrintumėte redaguojamą modelio susiejimo komponentą puslapyje **Modelio susiejimo kūrimo įrankis**.
 
-    ![Redaguojamo ER modelio susiejimo komponento tikrinimas modelio susiejimo kūrimo įrankio puslapyje](./media/er-components-inspections-03.gif)
+    ![Redaguojamo ER modelio susiejimo komponento tikrinimas modelio susiejimo kūrimo įrankio puslapyje.](./media/er-components-inspections-03.gif)
 
 8. Atkreipkite dėmesį, kad įvyksta tikrinimo klaida. Pranešime nurodoma, kad **X** duomenų modelio lauke yra kelias, kuris nurodo į duomenų šaltinį **Y**, bet šis duomenų šaltinis nerastas.
 
@@ -359,13 +359,13 @@ Toliau pateikti veiksmai rodo, kaip gali kilti ši problema.
 8. Pavadinkite naująjį įdėtąjį lauką **$AccNumber** ir jį sukonfigūruokite taip, kad jame būtų reiškinys `TRIM(Vendor.AccountNum)`.
 9. Pasirinkite **Tikrinti**, kad patikrintumėte redaguojamąjį modelio susiejimo komponentą puslapyje **Modelio susiejimo kūrimo įrankis**, ir patikrinkite, ar reiškiniui `FILTER(Vendor, Vendor.AccountNum="US-101")` duomenų šaltinyje **Vendor** galima pateikti užklausų.
 
-    ![Reiškinio tikrinimo užklausą galima pateikti modelio susiejimo kūrimo įrankio puslapyje](./media/er-components-inspections-04.gif)
+    ![Reiškinio tikrinimo užklausą galima pateikti modelio susiejimo kūrimo įrankio puslapyje.](./media/er-components-inspections-04.gif)
 
 10. Atkreipkite dėmesį, kad įvyksta tikrinimo klaida, nes duomenų šaltinyje **Vendor** yra tipo **Apskaičiuotasis laukas** įdėtasis laukas, todėl negalima duomenų šaltinio **FilteredVendor** reiškinio konvertuoti į tiesioginį SQL sakinį.
 
 Tolesnėje iliustracijoje rodoma vykdymo klaida, kuri įvyksta, jei nepaisote įspėjimo ir pasirenkate **Vykdyti**, kad vykdytumėte formatą, kuris sukonfigūruotas naudoti modelio susiejimą.
 
-![Vykdymo klaidos, atsirandančios vykdant redaguojamąjį formatą puslapyje Formato kūrimo įrankis](./media/er-components-inspections-04a.png)
+![Vykdymo klaidos, atsirandančios vykdant redaguojamąjį formatą puslapyje Formato kūrimo įrankis.](./media/er-components-inspections-04a.png)
 
 ### <a name="automatic-resolution"></a>Automatinis sprendimas
 
@@ -396,23 +396,23 @@ Toliau pateikti veiksmai rodo, kaip gali kilti ši problema.
     - Kaip įrašų, kuriuos reikia sugrupuoti, šaltinį pasirinkite duomenų šaltinį **Trans**.
     - Lauke **Vykdymo vieta** pasirinkite **Užklausa**, kad nurodytumėte, jog norite šį duomenų šaltinį vykdyti duomenų bazės lygiu.
 
-    ![Duomenų šaltinio konfigūravimas puslapyje „Grupuoti pagal“ parametrų redagavimas](./media/er-components-inspections-05a.gif)
+    ![Duomenų šaltinio konfigūravimas puslapyje „Grupuoti pagal“ parametrų redagavimas.](./media/er-components-inspections-05a.gif)
 
 6. Pasirinkite **Tikrinti**, kad patikrintumėte redaguojamąjį modelio susiejimo komponentą puslapyje **Modelio susiejimo kūrimo įrankis**, ir patikrinkite, ar sukonfigūruotam duomenų šaltiniui **GroupedTrans** galima pateikti užklausų.
 7. Modifikuokite duomenų šaltinį **Trans**, įtraukdami įdėtąjį tipo **Apskaičiuotasis laukas** lauką, kad būtų galima gauti sutrumpintą tiekėjo sąskaitos numerį.
 8. Pavadinkite naująjį duomenų šaltinį **$AccNumber** ir jį sukonfigūruokite taip, kad jame būtų reiškinys `TRIM(Trans.AccountNum)`.
 
-    ![Duomenų šaltinio konfigūravimas puslapyje Modelio susiejimo kūrimo įrankis](./media/er-components-inspections-05a.png)
+    ![Duomenų šaltinio konfigūravimas puslapyje Modelio susiejimo kūrimo įrankis.](./media/er-components-inspections-05a.png)
 
 9. Pasirinkite **Tikrinti**, kad patikrintumėte redaguojamąjį modelio susiejimo komponentą puslapyje **Modelio susiejimo kūrimo įrankis**, ir patikrinkite, ar sukonfigūruotam duomenų šaltiniui **GroupedTrans** galima pateikti užklausų.
 
-    ![Patikrinamas ER modelio susiejimo komponentas ir tai, ar sukonfigūruotam duomenų šaltiniui „GroupedTrans” galima pateikti užklausų modelio susiejimo kūrimo įrankio puslapyje](./media/er-components-inspections-05b.png)
+    ![Patikrinamas ER modelio susiejimo komponentas ir tai, ar sukonfigūruotam duomenų šaltiniui „GroupedTrans” galima pateikti užklausų modelio susiejimo kūrimo įrankio puslapyje.](./media/er-components-inspections-05b.png)
 
 10. Atkreipkite dėmesį, kad įvyksta tikrinimo klaida, nes duomenų šaltinyje **Trans** yra tipo **Apskaičiuotasis laukas** įdėtasis laukas, todėl negalima duomenų šaltinio **GroupedTrans** iškvietos konvertuoti į tiesioginį SQL sakinį.
 
 Tolesnėje iliustracijoje rodoma vykdymo klaida, kuri įvyksta, jei nepaisote įspėjimo ir pasirenkate **Vykdyti**, kad vykdytumėte formatą, kuris sukonfigūruotas naudoti modelio susiejimą.
 
-![Vykdymo klaidos, atsirandančios nepaisant įspėjimo formato kūrimo įrankio puslapyje](./media/er-components-inspections-05c.png)
+![Vykdymo klaidos, atsirandančios nepaisant įspėjimo formato kūrimo įrankio puslapyje.](./media/er-components-inspections-05c.png)
 
 ### <a name="automatic-resolution"></a>Automatinis sprendimas
 
@@ -448,21 +448,21 @@ Toliau pateikti veiksmai rodo, kaip gali kilti ši problema.
     2. Kaip antrą jungtinų įrašų rinkinį įtraukite duomenų šaltinį **Vendor.FilteredTrans**. Kaip tipą pasirinkite **INNER**.
     3. Lauke **Vykdyti** pasirinkite **Užklausa**, kad nurodytumėte, jog norite šį duomenų šaltinį vykdyti duomenų bazės lygiu.
 
-    ![Duomenų šaltinio konfigūravimas puslapyje Jungimo kūrimo įrankis](./media/er-components-inspections-06a.gif)
+    ![Duomenų šaltinio konfigūravimas puslapyje Jungimo kūrimo įrankis.](./media/er-components-inspections-06a.gif)
 
 10. Pasirinkite **Tikrinti**, kad patikrintumėte redaguojamąjį modelio susiejimo komponentą puslapyje **Modelio susiejimo kūrimo įrankis**, ir patikrinkite, ar sukonfigūruotam duomenų šaltiniui **JoinedList** galima pateikti užklausų.
 11. Duomenų šaltinio **Vendor.FilteredTrans** reiškinį iš `FILTER(Trans, Trans.AccountNum=Vendor.AccountNum)` pakeiskite į `WHERE(Trans, Trans.AccountNum=Vendor.AccountNum)`.
 12. Pasirinkite **Tikrinti**, kad patikrintumėte redaguojamąjį modelio susiejimo komponentą puslapyje **Modelio susiejimo kūrimo įrankis**, ir patikrinkite, ar sukonfigūruotam duomenų šaltiniui **JoinedList** galima pateikti užklausų.
 
-    ![Patikrinamas redaguojamąjį modelio susiejimo komponentą ir patvirtinama, kad sukonfigūruotam duomenų šaltiniui „JoinedList” galima pateikti užklausų modelio susiejimo kūrimo įrankio puslapyje](./media/er-components-inspections-06b.png)
+    ![Patikrinamas redaguojamąjį modelio susiejimo komponentą ir patvirtinama, kad sukonfigūruotam duomenų šaltiniui „JoinedList” galima pateikti užklausų modelio susiejimo kūrimo įrankio puslapyje.](./media/er-components-inspections-06b.png)
 
 13. Atkreipkite dėmesį, kad įvyksta tikrinimo klaida, nes duomenų šaltinio **Vendor.FilteredTrans** reiškinio negalima konvertuoti į tiesioginę SQL iškvietą. Be to, tiesioginė SQL iškvieta neleidžia iškviesti duomenų šaltinio **JoinedList**, kuris bus konvertuotas į tiesioginį SQL sakinį.
 
-    ![Vykdymo klaidos dėl duomenų šaltinio „JoinedList“ nepavykusio tikrinimo modelio susiejimo kūrimo įrankio puslapyje.](./media/er-components-inspections-06c.png)
+    ![Vykdymo klaidos dėl duomenų šaltinio „JoinedList“ nepavykusio tikrinimo Modelio susiejimo kūrimo įrankio puslapyje.](./media/er-components-inspections-06c.png)
 
 Tolesnėje iliustracijoje rodoma vykdymo klaida, kuri įvyksta, jei nepaisote įspėjimo ir pasirenkate **Vykdyti**, kad vykdytumėte formatą, kuris sukonfigūruotas naudoti modelio susiejimą.
 
-![Redaguojamojo formato paleidimas puslapyje Formato kūrimo įrankis](./media/er-components-inspections-06e.png)
+![Redaguojamojo formato paleidimas puslapyje Formato kūrimo įrankis.](./media/er-components-inspections-06e.png)
 
 ### <a name="automatic-resolution"></a>Automatinis sprendimas
 
@@ -474,7 +474,7 @@ Nėra parinkties šiai problemai išspręsti automatiškai.
 
 Duomenų šaltinio **Vendor.FilteredTrans** reiškinį `WHERE(Trans, Trans.AccountNum=Vendor.AccountNum)` grąžinkite į `FILTER(Trans, Trans.AccountNum=Vendor.AccountNum)`, kaip buvo rekomenduota įspėjime.
 
-![Atnaujintas duomenų šaltinio reiškinys puslapyje Modelio susiejimo dizaino įrankis](./media/er-components-inspections-06d.png)
+![Atnaujintas duomenų šaltinio reiškinys puslapyje Modelio susiejimo dizaino įrankis.](./media/er-components-inspections-06d.png)
 
 #### <a name="option-2"></a>2 pasirinktis
 
@@ -497,11 +497,11 @@ Toliau pateikti veiksmai rodo, kaip gali kilti ši problema.
 9. Pavadinkite naująjį duomenų šaltinį **FilteredVendor** ir jį sukonfigūruokite taip, kad jame būtų reiškinys `WHERE(Vendor, Vendor.AccountNum="US-101")`.
 10. Pasirinkite **Tikrinti**, kad patikrintumėte redaguojamą modelio susiejimo komponentą puslapyje **Modelio susiejimo kūrimo įrankis**.
 
-    ![Redaguojamo modelio susiejimo komponento tikrinimas modelio susiejimo kūrimo įrankio puslapyje](./media/er-components-inspections-07a.png)
+    ![Redaguojamo modelio susiejimo komponento tikrinimas modelio susiejimo kūrimo įrankio puslapyje.](./media/er-components-inspections-07a.png)
 
 11. Atkreipkite dėmesį, kad tikrinimo įspėjimuose rekomenduojama su duomenų šaltiniais **FilteredVendor** ir **FilteredTrans** naudoti funkciją **FILTER**, o ne **WHERE**.
 
-    ![Vietoje funkcijos WHERE rekomenduojama naudoti funkciją FILTER modelio susiejimo kūrimo įrankio puslapyje](./media/er-components-inspections-07b.png)
+    ![Vietoje funkcijos WHERE rekomenduojama naudoti funkciją FILTER modelio susiejimo kūrimo įrankio puslapyje.](./media/er-components-inspections-07b.png)
 
 ### <a name="automatic-resolution"></a>Automatinis sprendimas
 
@@ -509,7 +509,7 @@ Pasirinkite **Taisyti**, kad visų duomenų šaltinių, kurie rodomi šio tipo t
 
 Taip pat galite pasirinkti atskiro įspėjimo tinklelyje eilutę, o tada – **Taisyti pažymėtus**. Šiuo atveju reiškinys automatiškai pakeičiamas tik tame duomenų šaltinyje, kuris paminėtas pasirinktame įspėjime.
 
-![Elemento Taisyti pasirinkimas, kad funkcija WHERE būtų automatiškai pakeista funkcija FILTER modelio susiejimo kūrimo įrankio puslapyje](./media/er-components-inspections-07c.png)
+![Elemento Taisyti pasirinkimas, kad funkcija WHERE būtų automatiškai pakeista funkcija FILTER modelio susiejimo kūrimo įrankio puslapyje.](./media/er-components-inspections-07c.png)
 
 ### <a name="manual-resolution"></a>Neautomatinis sprendimas
 
@@ -530,11 +530,11 @@ Toliau pateikti veiksmai rodo, kaip gali kilti ši problema.
 7. Pavadinkite naująjį duomenų šaltinį **FilteredVendorTrans** ir jį sukonfigūruokite taip, kad jame būtų reiškinys `ALLITEMS(FilteredVendor.'<Relations'.'VendTrans.VendTable_AccountNum')`.
 8. Pasirinkite **Tikrinti**, kad patikrintumėte redaguojamą modelio susiejimo komponentą puslapyje **Modelio susiejimo kūrimo įrankis**.
 
-    ![Redaguojamo modelio susiejimo komponento tikrinimas modelio susiejimo kūrimo įrankio puslapyje](./media/er-components-inspections-08a.png)
+    ![Redaguojamo modelio susiejimo komponento tikrinimas modelio susiejimo kūrimo įrankio puslapyje.](./media/er-components-inspections-08a.png)
 
 9. Atkreipkite dėmesį, kad pateikiamas tikrinimo įspėjimas. Pranešime rekomenduojama su duomenų šaltiniu **FilteredVendorTrans** naudoti funkciją **ALLITEMSQUERY**, o ne **ALLITEMS**.
 
-    ![Vietoje funkcijos ALLITEMS rekomenduojama naudoti funkciją ALLITEMSQUERY modelio susiejimo kūrimo įrankio puslapyje](./media/er-components-inspections-08b.png)
+    ![Vietoje funkcijos ALLITEMS rekomenduojama naudoti funkciją ALLITEMSQUERY modelio susiejimo kūrimo įrankio puslapyje.](./media/er-components-inspections-08b.png)
 
 ### <a name="automatic-resolution"></a>Automatinis sprendimas
 
@@ -542,7 +542,7 @@ Pasirinkite **Taisyti**, kad visų duomenų šaltinių, kurie rodomi šio tipo t
 
 Taip pat galite pasirinkti atskiro įspėjimo tinklelyje eilutę, o tada – **Taisyti pažymėtus**. Šiuo atveju reiškinys automatiškai pakeičiamas tik tame duomenų šaltinyje, kuris paminėtas pasirinktame įspėjime.
 
-![Parinkties „Taisyti pažymėtus“ pasirinkimas modelio susiejimo kūrimo įrankio puslapyje](./media/er-components-inspections-08c.png)
+![Parinkties „Taisyti pažymėtus“ pasirinkimas modelio susiejimo kūrimo įrankio puslapyje.](./media/er-components-inspections-08c.png)
 
 ### <a name="manual-resolution"></a>Neautomatinis sprendimas
 
@@ -563,7 +563,7 @@ Toliau pateikti veiksmai rodo, kaip gali kilti ši problema.
     - Įtraukite įdėtąjį tipo **Eilutė** lauką ir pavadinkite jį **Name**.
     - Įtraukite įdėtąjį tipo **Eilutė** lauką ir pavadinkite jį **AccountNumber**.
 
-    ![Įdėtųjų laukų įtraukimas puslapyje Duomenų modelis](./media/er-components-inspections-09a.png)
+    ![Įdėtųjų laukų įtraukimas puslapyje Duomenų modelis.](./media/er-components-inspections-09a.png)
 
 6. Modelio susiejimo kūrimo programoje, srityje **Duomenų šaltiniai** pridėkite **„Dynamics 365 for Operations“ \\ lentelės įrašų** tipo duomenų šaltinį.
 7. Naująjį duomenų šaltinį pavadinkite **Vendor**. Lauke **Lentelė** pasirinkite **VendTable**, kad nurodytumėte, jog šiam duomenų šaltiniui reikės lentelės VendTable.
@@ -577,7 +577,7 @@ Toliau pateikti veiksmai rodo, kaip gali kilti ši problema.
     - Susiekite **FilteredVendor.AccountNum** su **Vendor.AccountNumber**.
     - Susiekite **FilteredVendor.'name()'** su **Vendor.Name**.
 
-    ![Duomenų modelio elementų susiejimas puslapyje Modelio susiejimo kūrimo įrankis](./media/er-components-inspections-09b.png)
+    ![Duomenų modelio elementų susiejimas puslapyje Modelio susiejimo kūrimo įrankis.](./media/er-components-inspections-09b.png)
 
 13. Formato struktūros medyje įtraukite tolesnius elementus, kad būtų sugeneruotas siunčiamas XML formato dokumentas, kuriame būtų pateikta tiekėjo informacija.
 
@@ -595,15 +595,15 @@ Toliau pateikti veiksmai rodo, kaip gali kilti ši problema.
 
 15. Pasirinkite **Tikrinti**, kad patikrintumėte redaguojamą formato komponentą puslapyje **Formato kūrimo įrankis**.
 
-    ![Formato elementų, susietų su duomenų šaltiniais, tikrinimas formato kūrimo įrankio puslapyje](./media/er-components-inspections-09c.png)
+    ![Formato elementų, susietų su duomenų šaltiniais, tikrinimas formato kūrimo įrankio puslapyje.](./media/er-components-inspections-09c.png)
 
 16. Atkreipkite dėmesį, kad įvyksta tikrinimo klaida. Pranešime teigiama, kad, jei sąrašas `model.Vendor` tuščias, vykdant gali būti pateikta sukonfigūruotų formato komponentų **Išrašas\\Šalis\\Pavadinimas** ir **Išrašas\\Šalis\\AbonementoNumeris** klaida.
 
-    ![Tikrinimo klaida dėl galimos sukonfigūruotų formato komponentų klaidos](./media/er-components-inspections-09d.png)
+    ![Tikrinimo klaida dėl galimos sukonfigūruotų formato komponentų klaidos.](./media/er-components-inspections-09d.png)
 
 Tolesnėje iliustracijoje rodoma vykdymo klaida, kuri įvyksta, jei nepaisote įspėjimo, pasirenkate **Vykdyti**, kad vykdytumėte formatą, ir pasirenkate neegzistuojančio tiekėjo sąskaitos numerį. Kadangi pageidaujamo tiekėjo nėra, sąrašas `model.Vendor` bus tuščias (tai yra, jame nebus įrašų).
 
-![Vykdymo klaidos, įvykusios vykdant formato susiejimą](./media/er-components-inspections-09e.png)
+![Vykdymo klaidos, įvykusios vykdant formato susiejimą.](./media/er-components-inspections-09e.png)
 
 ### <a name="automatic-resolution"></a>Automatinis sprendimas
 
@@ -615,7 +615,7 @@ Skirtuke **Įspėjimai** esančio tinklelio pasirinktai eilutei galite parinkti 
 
 Formato elementą **Išrašas\\Šalis\\Pavadinimas** galite susieti su `model.Vendor` duomenų šaltinio elementu. Vykdymo metu šis susiejimas pirmiausia iškviečia `model.Vendor` duomenų šaltinį. Kai `model.Vendor` pateikia tuščią įrašų sąrašą, įdėtieji formato elementai nėra vykdomi. Todėl nepateikiama jokių tikrinimo įspėjimų dėl šios formato konfigūracijos.
 
-![Formato elemento susiejimas su duomenų šaltinio elementu formato kūrimo įrankio puslapyje](./media/er-components-inspections-09e.gif)
+![Formato elemento susiejimas su duomenų šaltinio elementu formato kūrimo įrankio puslapyje.](./media/er-components-inspections-09e.gif)
 
 #### <a name="option-2"></a>2 pasirinktis
 
@@ -626,7 +626,7 @@ Pakeiskite formato elemento **Statement\\Party\\Name** susiejimą iš `model.Ven
 
 Todėl. kai formato elementas **Statement\\Party\\Name** susietas su reiškiniu `FIRSTORNULL(model.Vendor).Name`, dėl šio elemento nepateikiama jokių tikrinimo įspėjimų.
 
-![Pakeitus susiejimą pašalinami tikrinimo įspėjimai puslapyje Formato kūrimo įrankis](./media/er-components-inspections-09f.gif)
+![Pakeitus susiejimą pašalinami tikrinimo įspėjimai puslapyje Formato kūrimo įrankis.](./media/er-components-inspections-09f.gif)
 
 #### <a name="option-3"></a>3 parinktis
 
@@ -653,17 +653,17 @@ Toliau pateikti veiksmai rodo, kaip gali kilti ši problema.
 7. Pavadinkite naująjį duomenų šaltinį **FilteredVendor** ir jį sukonfigūruokite taip, kad jame būtų reiškinys `FILTER(Vendor, Vendor.AccountNum=RequestedAccountNum)`.
 8. Pažymėkite sukonfigūruotą duomenų šaltinį **Vendor** kaip laikomą talpykloje.
 
-    ![Modelio susiejimo komponento konfigūravimas modelio susiejimo kūrimo įrankio puslapyje](./media/er-components-inspections-10a.gif)
+    ![Modelio susiejimo komponento konfigūravimas modelio susiejimo kūrimo įrankio puslapyje.](./media/er-components-inspections-10a.gif)
 
 9. Pasirinkite **Tikrinti**, kad patikrintumėte redaguojamą modelio susiejimo komponentą puslapyje **Modelio susiejimo kūrimo įrankis**.
 
-    ![Funkcijos FILTER, taikomos talpyklos tiekėjo duomenų šaltiniui, tikrinimas modelio susiejimo kūrimo įrankio puslapyje](./media/er-components-inspections-10a.png)
+    ![Funkcijos FILTER, taikomos talpyklos tiekėjo duomenų šaltiniui, tikrinimas modelio susiejimo kūrimo įrankio puslapyje.](./media/er-components-inspections-10a.png)
 
 10. Atkreipkite dėmesį, kad įvyksta tikrinimo klaida. Pranešime nurodoma, kad funkcijos **FILTER** negalima taikyti talpykloje laikomam duomenų šaltiniui **Vendor**.
 
 Tolesnėje iliustracijoje rodoma vykdymo klaida, kuri įvyksta, jei nepaisote įspėjimo ir pasirenkate **Vykdyti**, kad vykdytumėte formatą.
 
-![Vykdymo klaida, įvykstanti susiejant formatą formato kūrimo įrankio puslapyje](./media/er-components-inspections-10b.png)
+![Vykdymo klaida, įvykstanti susiejant formatą formato kūrimo įrankio puslapyje.](./media/er-components-inspections-10b.png)
 
 ### <a name="automatic-resolution&quot;></a>Automatinis sprendimas
 
@@ -694,7 +694,7 @@ Toliau pateikti veiksmai rodo, kaip gali kilti ši problema.
     - Įtraukite įdėtąjį tipo **Eilutė** lauką ir pavadinkite jį **Name**.
     - Įtraukite įdėtąjį tipo **Eilutė** lauką ir pavadinkite jį **AccountNumber**.
 
-    ![Įdėtųjų laukų pridėjimas prie tiekėjo elemento duomenų modelio puslapyje](./media/er-components-inspections-11a.png)
+    ![Įdėtųjų laukų pridėjimas prie tiekėjo elemento duomenų modelio puslapyje.](./media/er-components-inspections-11a.png)
 
 6. Modelio susiejimo kūrimo programoje, srityje **Duomenų šaltiniai** pridėkite **„Dynamics 365 for Operations“ \\ lentelės įrašų** tipo duomenų šaltinį.
 7. Naująjį duomenų šaltinį pavadinkite **Vendor**. Lauke **Lentelė** pasirinkite **VendTable**, kad nurodytumėte, jog šiam duomenų šaltiniui reikės lentelės VendTable.
@@ -710,7 +710,7 @@ Toliau pateikti veiksmai rodo, kaip gali kilti ši problema.
     > [!NOTE]
     > Duomenų modelio **Vendor.Name** laukas lieka nesusietas.
 
-    ![Duomenų modelio elementai, susieti su sukonfigūruotais duomenų šaltiniais, ir likęs nesusietas duomenų modelio elementas modelio susiejimo kūrimo įrankio puslapyje](./media/er-components-inspections-11b.png)
+    ![Duomenų modelio elementai, susieti su sukonfigūruotais duomenų šaltiniais, ir likęs nesusietas duomenų modelio elementas modelio susiejimo kūrimo įrankio puslapyje.](./media/er-components-inspections-11b.png)
 
 13. Formato struktūros medyje įtraukite tolesnius elementus, kad būtų sugeneruotas siunčiamas XML formato dokumentas, kuriame būtų pateikta informacija apie tiekėją, dėl kurio pateikta užklausa.
 
@@ -729,15 +729,15 @@ Toliau pateikti veiksmai rodo, kaip gali kilti ši problema.
 
 15. Pasirinkite **Tikrinti**, kad patikrintumėte redaguojamą formato komponentą puslapyje **Formato kūrimo įrankis**.
 
-    ![ER formato komponento tikrinimas formato kūrimo įrankio puslapyje](./media/er-components-inspections-11c.png)
+    ![ER formato komponento tikrinimas formato kūrimo įrankio puslapyje.](./media/er-components-inspections-11c.png)
 
 16. Atkreipkite dėmesį, kad pateikiamas tikrinimo įspėjimas. Pranešime nurodoma, kad duomenų šaltinio laukas **model.Vendor.Name** nėra susietas su jokiu modelio susiejimo duomenų šaltiniu, kuris sukonfigūruotas kaip naudojamas formato. Todėl formato elemento **Statement\\Party\\Name** negalima užpildyti vykdymo metu ir gali įvykti vykdymo išimtis.
 
-    ![ER formato komponento tikrinimas puslapyje Formato kūrimo įrankis](./media/er-components-inspections-11d.png)
+    ![ER formato komponento tikrinimas puslapyje Formato kūrimo įrankis.](./media/er-components-inspections-11d.png)
 
 Tolesnėje iliustracijoje rodoma vykdymo klaida, kuri įvyksta, jei nepaisote įspėjimo ir pasirenkate **Vykdyti**, kad vykdytumėte formatą.
 
-![Redaguojamojo formato paleidimas puslapyje Formato kūrimo įrankis](./media/er-components-inspections-11e.png)
+![Redaguojamojo formato paleidimas puslapyje Formato kūrimo įrankis.](./media/er-components-inspections-11e.png)
 
 ### <a name="automatic-resolution"></a>Automatinis sprendimas
 
@@ -766,7 +766,7 @@ Toliau pateikti veiksmai rodo, kaip gali kilti ši problema.
 5. Elemente **„Excel“\\Failas** pasirinkite darbaknygės failą A.
 6. Pasirinkite **Tikrinti**, kad patikrintumėte redaguojamą formato komponentą puslapyje **Formato kūrimo įrankis**.
 
-    ![Darbaknygės failo redaguojamojo formato komponento tikrinimas puslapyje Formato kūrimo įrankis](./media/er-components-inspections-12a.gif)
+    ![Darbaknygės failo redaguojamojo formato komponento tikrinimas puslapyje Formato kūrimo įrankis.](./media/er-components-inspections-12a.gif)
 
 7. Atkreipkite dėmesį, kad pateikiamas tikrinimo įspėjimas. Pranešime teigiama, kad darbaknygės failas B.xlsx nėra susietas su jokiais komponentais ir kad jis bus pašalintas pakeitus konfigūracijos versijos būseną.
 
@@ -794,11 +794,11 @@ Toliau pateikti veiksmai rodo, kaip gali kilti ši problema.
 4. Pridėkite tolesnį **„Excel“\\Langelis** elementą **Pavadinimas** kaip įdėtąjį elemento **Ataskaita** elementą. Lauke **„Excel“ intervalas** įveskite **ReportTitle**.
 5. Pasirinkite **Tikrinti**, kad patikrintumėte redaguojamą formato komponentą puslapyje **Formato kūrimo įrankis**.
 
-    ![Įdėtųjų elementų ir laukų tikrinimas formato kūrimo įrankio puslapyje](./media/er-components-inspections-13a.png)
+    ![Įdėtųjų elementų ir laukų tikrinimas formato kūrimo įrankio puslapyje.](./media/er-components-inspections-13a.png)
 
 6. Atkreipkite dėmesį, kad pateikiamas tikrinimo įspėjimas. Pranešime teigiama, kad „Excel“ šablono, kurį naudojate, lape **Lapas1** pavadinimo **ReportTitle** nėra.
 
-    ![Tikrinimo įspėjimas, kad pavadinimo ReportTitle „Excel“ šablono lape Lapas1 nėra](./media/er-components-inspections-13b.png)
+    ![Tikrinimo įspėjimas, kad pavadinimo ReportTitle „Excel“ šablono lape Lapas1 nėra.](./media/er-components-inspections-13b.png)
 
 ### <a name="automatic-resolution"></a>Automatinis sprendimas
 

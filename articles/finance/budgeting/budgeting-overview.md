@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 106043
+ms.custom:
+- "106043"
+- intro-internal
 ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2597dda47e3441d2c41497081849a2213974e55
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 9ced76e20a54d61fe96b5d2a5118adb0c5eb7ccf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187921"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355705"
 ---
 # <a name="budgeting-home-page"></a>Pagrindinis biudžeto sudarymo puslapis
 
@@ -32,7 +34,7 @@ ms.locfileid: "6187921"
 
 Įmonės išteklių planavimo ciklą paprastai sudaro planavimo, biudžeto sudarymo ir prognozavimo veikla.
 
-[![Biudžeto sudarymo funkciniai komponentai](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
+[![Biudžeto sudarymo funkciniai komponentai.](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
 
 Biudžeto plano dokumentas palaiko ir ilgalaikio strateginio planavimo, ir metinio biudžeto planavimo procesus. Biudžeto plano dokumentai yra glaudžiai integruoti į „Microsoft Excel‟. Vartotojai gali konfigūruoti neribotą piniginių ir kiekybinių scenarijų skaičių ir gali apibrėžti biudžetų sudarymo organizacijos hierarchiją, kad būtų palaikomi biudžetų sudarymo metodai „iš viršaus į apačią“ ir „iš apačios į viršų“. Kai biudžetas sukurtas ir patvirtintas programoje, biudžeto planas konvertuojamas į biudžeto registro įrašą. Biudžeto registro įrašai suteikia biudžeto tvarkymo įrankius ir įrankius, kuriais sumas galima sekti naudojant biudžeto kodus. Biudžeto registro įrašai leidžia peržiūrėti pradinius biudžetus, atlikti perkėlimus ir iš ankstesnių metų perkelti biudžeto sumas. Pagal nustatytą biudžetą įmonė gali įgalinti biudžeto kontrolę. Kontrolės lygis priklauso nuo organizacijos kultūros ir brandos lygio. Organizacijos, kurių brandos lygis mažas, biudžetą gali palikti tokį, koks jis yra, ir, jei biudžetas neatitinka lūkesčių, būti labiau reaguojančios, o ne iniciatyvios. Kitos organizacijos gali įgalinti biudžeto kontrolės strategijas, kurios vartotojams neleistų pirkti, jei nėra biudžeto lėšų.
 
@@ -46,7 +48,7 @@ Galiausiai labai brandžios organizacijos gali nustatyti tokią organizacijos ku
 -   [Biudžeto planavimo šablonai, skirti „Excel‟](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Biudžeto sudarymo įrankiai
-[![Biudžeto sudarymo įrankiai](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
+[![Biudžeto sudarymo įrankiai.](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
 
 Yra papildomų planavimo ir biudžeto sudarymo galimybių, kurios integruotos su didžiosios knygos biudžetais.
 

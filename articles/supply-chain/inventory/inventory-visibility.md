@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84f5e949f0c81f840c8a9086d05bbcfc576e42aa
-ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
+ms.openlocfilehash: 8709b91b354fa4e1319b406c009bfdadeef48a41
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017011"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358103"
 ---
 # <a name="inventory-visibility-add-in"></a>Inventoriaus matomumo papildinys
 
@@ -143,7 +143,7 @@ Jei turite būtinųjų komponentų, naudokite šią procedūrą, jei norite nust
 
             Daugiau informacijos apie šį kintamąjį žr. toliau šioje temoje pateikiamame skyriuje [Atsargų matomumo integravimo nustatymas](#setup-inventory-visibility-integration).
 
-        ![Konfigūracijos paleidiklis](media/configuration-trigger.png "Konfigūracijos paleidiklis")
+        ![Konfigūracijos paleidiklis.](media/configuration-trigger.png "Konfigūracijos paleidiklis")
 
     1. Pasirinkite **Įjungti**.
 
@@ -157,7 +157,7 @@ Norėdami įdiegti inventoriaus matomumo papildinį, atlikite šiuos veiksmus:
 1. Aplinkos puslapyje slinkite žemyn, kol pamatysite skyrių **Aplinkos priedai**, skyriuje **„Power Platform“ integravimas**, kuriame rasite „Dataverse“ aplinkos pavadinimą.
 1. Skyriuje **Aplinkos papildiniai** pasirinkite **Diegti naują papildinį**.
 
-    ![Aplinkos puslapis LCS](media/inventory-visibility-environment.png "Aplinkos puslapis LCS")
+    ![Aplinkos puslapis LCS.](media/inventory-visibility-environment.png "Aplinkos puslapis LCS")
 
 1. Rinkitės **Diegti naują papildinį** nuorodą. Esamų atvirų papildinių sąrašas.
 1. Sąraše pasirinkite **Atsargų matomumas**.
@@ -166,7 +166,7 @@ Norėdami įdiegti inventoriaus matomumo papildinį, atlikite šiuos veiksmus:
     - **AAD programos (kliento) ID**
     - **ĮTRAUKITE nuomotojo ID**
 
-    ![Įtraukite į nustatymų puslapį](media/inventory-visibility-setup.png "Papildinio nustatymus puslapis")
+    ![Įtraukite į nustatymų puslapį.](media/inventory-visibility-setup.png "Papildinio nustatymus puslapis")
 
 1. Sutikite su sąlygomis ir terminais pasirinkę **Sąlygos ir terminai** žymimą laukelį.
 1. Pasirinkti **Diegti**. Papildinio būsena bus rodoma kaip **diegiama**. Kai pasibaigs, paleiskite iš naujo puslapį, kad matytumėte būsenos keitimą į **Diegta**.

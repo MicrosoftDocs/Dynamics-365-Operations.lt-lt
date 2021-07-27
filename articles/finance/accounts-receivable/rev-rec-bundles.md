@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: bce824267f435d9de0acd43ca145e0d148dfe67c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9afc7786de16cb1cada982f43beb956e062777a4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816273"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347787"
 ---
 # <a name="revenue-recognition-bundles"></a>Įplaukų pripažinimo grupavimai
 
@@ -27,7 +27,7 @@ ms.locfileid: "5816273"
 Šioje temoje aprašomos grupavimo funkcijos, įtrauktos į įplaukų pripažinimo galimybę gautinose sumose. Grupavimas apima pirminę prekę ir keletą sudedamųjų prekių. Pirminė prekė įvedama į pardavimo užsakymą, kad užsakymo įrašas būtų efektyvesnis. Tačiau tada ji išskaidoma į sudedamąsias prekes. Sudedamosios prekės bus nurodytos vidiniuose dokumentuose, pvz., važtaraščiuose. Tačiau išoriniuose dokumentuose bus nurodoma tik pirminė prekė.
 
 > [!NOTE]
-> „Microsoft Dynamics 365 Commerce“ kanalai, pavyzdžiui, internetiniai, elektroniniai kasos aparatai (EKA) ir skambučių centrai nepalaiko pripažinimo (įskaitant grupavimo funkciją). Tai taip pat apima Potencialių klientų ir grynųjų pinigų sprendimą, skirtą „Dynamics 365 Supply Chain Management“ ir „Dynamics 365 Sales“. Prekių, sukonfigūruotų naudoti įplaukų pripažinimą, negalima įtraukti į užsakymus ar operacijas, sukurtas „Commerce“ kanaluose arba Potencialių klientų ir grynųjų pinigų sprendime.
+> „Microsoft Dynamics 365 Commerce“ kanalai, pavyzdžiui, internetiniai, elektroniniai kasos aparatai (EKA) ir skambučių centrai, nepalaiko pripažinimo (įskaitant grupavimo funkciją). Tai taip pat apima Potencialių klientų ir grynųjų pinigų sprendimą, skirtą „Dynamics 365 Supply Chain Management“ ir „Dynamics 365 Sales“. Prekių, sukonfigūruotų naudoti įplaukų pripažinimą, negalima įtraukti į užsakymus ar operacijas, sukurtas „Commerce“ kanaluose arba Potencialių klientų ir grynųjų pinigų sprendime.
 
 Jei norite nustatyti grupavimus, būtina įvesti konfigūracijos raktus įplaukų pripažinimui. Tačiau grupavimus galima naudoti, net jei įplaukų pripažinimas nėra nustatytas. Taip pat galima naudoti įplaukų pripažinimą, jei nėra nustatytas grupavimas. Jei nustatytas įplaukų pripažinimas, sudedamosios prekės apibrėžia įplaukų vertę ir įplaukų grafiką, naudojamą įplaukų pripažinimui arba atidėjimui, kai išrašoma pardavimo užsakymo SF.
 
@@ -41,7 +41,7 @@ Grupavimo nustatymas naudoja KS funkciją. Informaciją apie grupavimo prekių n
 
 ## <a name="bundles-on-sales-orders"></a>Pardavimo užsakymų grupavimai
 
-Demonstracinė įmonė USMF apima šiuos grupavimo nustatymus. Atkreipkite dėmesį, kad visas įplaukų pripažinimo nustatymas, pvz., įplaukų grafikų nustatymas, buvo pašalintas iš prekių, kurie yra įtraukti į šį scenarijų.
+Demonstracinė įmonė USMF apima šiuos grupavimo nustatymus. Atkreipkite dėmesį, kad visas įplaukų pripažinimo nustatymas, pvz., įplaukų grafikų nustatymas, buvo pašalintas iš prekių, kurios yra įtrauktos į šį scenarijų.
 
 **Pirminė prekė:** nešiojamųjų kompiuterių grupavimas
 
@@ -59,15 +59,15 @@ Tolesnės bazinės pardavimo kainos apibrėžiamos sudedamosioms prekėms:
 
 Įvedamas kliento US-004, „Cave Wholesales“, pardavimo užsakymas. Vienintelė įvedama eilutė, skirta nešiojamojo kompiuterio grupavimo prekei. Numatytąją pirminės eilutės vieneto kainą galima paimti iš daugelio vietų, pvz., prekybos sutarties arba bazinės pardavimo kainos. Šiame pavyzdyje 2 300 $ įvesta rankiniu būdu kaip vieneto kaina.
 
-[![Nešiojamųjų kompiuterių grupavimo prekė pardavimo užsakyme](./media/bundle-01.png)](./media/bundle-01.png)
+[![Nešiojamųjų kompiuterių grupavimo prekė pardavimo užsakyme.](./media/bundle-01.png)](./media/bundle-01.png)
 
 Kadangi pardavimo užsakyme yra grupavimas, jį reikia patvirtinti. Patvirtinimo dialogo lange rodomi grupavimo komponentai.
 
-[![Dialogo langas Patvirtinti pardavimo užsakymą, kuriame pateiktos sudedamosios prekės](./media/bundle-02.png)](./media/bundle-02.png)
+[![Dialogo langas Patvirtinti pardavimo užsakymą, kuriame pateiktos sudedamosios prekės.](./media/bundle-02.png)](./media/bundle-02.png)
 
 Tačiau išspausdintoje patvirtinimo ataskaitoje bus rodoma tik pirminė grupavimo prekė, nes ta ataskaita yra klientui skirtas išorinis dokumentas.
 
-[![Patvirtinimo ataskaita, kurioje rodoma tik pirminė prekė](./media/bundle-03.png)](./media/bundle-03.png)
+[![Patvirtinimo ataskaita, kurioje rodoma tik pirminė prekė.](./media/bundle-03.png)](./media/bundle-03.png)
 
 Patvirtinus pardavimo užsakymą, pirminė prekė vis dar rodoma pardavimo užsakyme, tačiau jos būsena pakeičiama į **Atšaukta**. Be to, grynoji suma sekama lauke **Grupavimo grynoji suma**. Šios sumos reikia norint išspausdinti SF, nes SF rodoma pirminė prekė, o ne sudedamosios prekės.
 
@@ -85,7 +85,7 @@ Komponentų suma turi būti lygi 2 300 $ ir ji tokia yra (1 713,73 $ + 450,98 $ 
 
 Jei pakeitimai būtini visome sudedamosioms prekėms, galima pašalinti pirminę prekę. Tokiu atveju sudedamosios prekės taip pat pašalinamos. Tada pirminę prekę galima įtraukti dar kartą, o būtinus redagavimus galima baigti prieš patvirtinant pardavimo užsakymą.
 
-[![Grupavimo prekė, į kurią įtraukti sudedamųjų prekių pakeitimai](./media/bundle-04.png)](./media/bundle-04.png)
+[![Grupavimo prekė, į kurią įtraukti sudedamųjų prekių pakeitimai.](./media/bundle-04.png)](./media/bundle-04.png)
 
 Kai pardavimo užsakymas paimtas ir supakuotas, dokumentuose bus įtraukti tik grupavimo komponentai. Į važtaraštį ir SF turi būti įtraukti visi grupavimai. Kitu atveju jų registruoti negalima. Pavyzdžiui, dialogo lange rodomos trys sudedamosios prekės. Jei bandysite panaikinti vieną iš jų, gausite klaidos pranešimą, kuriame teigiama, kad visi grupavimo produktai turi būti išsiųsti prieš išrašant SF.
 
@@ -95,19 +95,19 @@ Dalinę sumą galima išsiųsti ir išrašyti SF tik tada, jei visų grupavimo k
 
 Paskutinis veiksmas yra pardavimo užsakymo SF išrašymas. SF išrašymo metu SF dialogo lange bus rodomos sudedamosios prekės.
 
-[![Dialogo langas Sąskaita faktūra, kuriame pateiktos sudedamosios prekės](./media/bundle-06.png)](./media/bundle-06.png)
+[![Dialogo langas Sąskaita faktūra, kuriame pateiktos sudedamosios prekės.](./media/bundle-06.png)](./media/bundle-06.png)
 
 Tačiau išspausdintoje SF bus nurodoma tik pirminė prekė.
  
-[![Išspausdinta SF, kurioje rodoma tik pirminė prekė](./media/bundle-07.png)](./media/bundle-07.png)
+[![Išspausdinta SF, kurioje rodoma tik pirminė prekė.](./media/bundle-07.png)](./media/bundle-07.png)
 
 SF žurnale, kuris sukuriamas atlikus registravimą, neįtraukiama pirminė prekė iš grupavimo, nes tos prekės būsena yra **Atšaukta**.
 
-[![SF žurnalas, kuris neapima pirminės prekės](./media/bundle-08.png)](./media/bundle-08.png)
+[![SF žurnalas, kuris neapima pirminės prekės.](./media/bundle-08.png)](./media/bundle-08.png)
 
 Svarbu, kad į SF žurnalą nebūtų įtraukta pirminė prekė iš grupavimo, nes visi procesai, atliekami užregistravus SF, yra pagrįsti tuo SF žurnalu. Pavyzdžiui, jei veiksmų srities skirtuke **Pardavimas** sukursite kredito pažymą, sukurtoje kredito pažymoje bus sudedamosios prekės, tačiau ne pirminė prekė.
 
-[![Kredito pažyma, kurioje rodomos sudedamosios prekės, tačiau ne pirminė prekė](./media/bundle-09.png)](./media/bundle-09.png)
+[![Kredito pažyma, kurioje rodomos sudedamosios prekės, tačiau ne pirminė prekė.](./media/bundle-09.png)](./media/bundle-09.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4b8c1467368cbcbed5049561b52b29388ec21a5f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6e500125e1d96f6b595910e1168e2e1baeef0cd3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055105"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360597"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Integravimas su „LinkedIn Talent Hub“
 
@@ -48,7 +48,7 @@ Sistemos administratorius turi užbaigti sąrankos užduotis, kad būtų galima 
 
 5. Puslapyje **„Dynamics 365 Human Resources”** pasirinkite aplinką, kurią norite susieti su „LinkedIn Talent Hub”, tada pasirinkite **Susieti**.
 
-    ![„LinkedIn Talent Hub” parengimas](./media/hr-admin-integration-talent-hub-onboarding.jpg)
+    ![„LinkedIn Talent Hub” parengimas.](./media/hr-admin-integration-talent-hub-onboarding.jpg)
 
     > [!NOTE]
     > Galite susieti tik su aplinkomis, kuriose jūsų vartotojo abonementas turi administratoriaus prieigą prie „Human Resources” aplinkos ir susijusios „Power Apps” aplinkos. Jei „Human Resources” susiejimo puslapyje nėra pateiktų aplinkų, įsitikinkite, kad turite licencijuotų „Human Resources” aplinkų nuomotojuje ir kad vartotojui, kuriuo prisijungėte prie susiejimo puslapio, suteiktos „Human Resources” aplinkos ir „Power Apps” aplinkos administratoriaus teisės.
@@ -91,7 +91,7 @@ Reikia sukurti „LinkedIn Talent Hub” adapterio programos vartotoją, kad ada
 
 6. Naudokite išplečiamąjį meniu, esantį virš sąrašo, norėdami pakeisti rodinį iš numatytojo rodinio **Įgalinti vartotojai** į **Programos vartotojai**.
 
-    ![Rodinys Programos vartotojai](./media/hr-admin-integration-power-apps-application-users.jpg)
+    ![Rodinys Programos vartotojai.](./media/hr-admin-integration-power-apps-application-users.jpg)
 
 7. Įrankių juostoje pasirinkite **Naujas**.
 
@@ -163,7 +163,7 @@ Kai kandidatas pereina įdarbinimo procesą ir yra pasamdomas, galima eksportuot
     - Lauke **Vieta** įveskite vietą, kurioje darbuotojas dirbs.
     - Įveskite arba patvirtinkite darbuotojo el. pašto adresą.
 
-![Sritis Eksportuoti į HRIS, esanti „LinkedIn Talent Hub”](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
+![Sritis Eksportuoti į HRIS, esanti „LinkedIn Talent Hub”.](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
 
 ## <a name="complete-onboarding-in-human-resources"></a>Parengimo užbaigimas „Human Resources”
 

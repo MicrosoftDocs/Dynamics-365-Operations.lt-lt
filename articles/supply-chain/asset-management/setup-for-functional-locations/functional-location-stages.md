@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1ab19358857440e46d3df2323fbcea19a476903
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3a9893ad497bbe442d74f5212153fa466d2c85eb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837758"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360975"
 ---
 # <a name="functional-location-lifecycle-states"></a>Funkcinės vietos ciklo būsenos
 
@@ -56,9 +56,9 @@ Sukūrus funkcinių vietų būtinas ciklo būsenas, jas galima suskirstyti į gr
 1. Pasirinkite **Turto valdymas** > **Konfigūracija** > **Funkcinės vietos** > **Ciklo modeliai**.
 2. Pasirinkite **Naujas**, kad sukurtumėte naują ciklo modelį.
 3. Lauke **Ciklo modelis** įterpkite ciklo modelio ID, o lauke **Pavadinimas** įterpkite ciklo modelio pavadinimą. Laukuose **Funkcinių vietų tipai** ir **Ciklo būsenos** matote funkcinių vietų tipų, naudojančių ciklo modelį, skaičių ir būsenų, pasirinktų ciklo modelyje, skaičių.
-4. FastTab **Ciklo būsenos** pasirinkite būsenas, kurias reikėtų įtraukti į modelį. Tuo tikslu sekcijoje **Likusios ciklo būsenos** spustelėkite būseną ir spustelėkite mygtuką ![rodyklė pirmyn](media/02-setup-for-functional-locations.png).
-5. Jei norite pasirinkti visas galimas modelio būsenas, spustelėkite mygtuką ![pasirinkti visus galimus etapus](media/03-setup-for-functional-locations.png). Visos būsenos perkeliamos į sekciją **Pasirinktos ciklo būsenos**.
-6. Jei norite iš modelio pašalinti pasirinktą būseną, pasirinkite būseną sekcijoje **Pasirinktos ciklo būsenos**, tada spustelėkite mygtuką ![rodyklė atgal](media/04-setup-for-functional-locations.png).
+4. FastTab **Ciklo būsenos** pasirinkite būsenas, kurias reikėtų įtraukti į modelį. Tuo tikslu sekcijoje **Likusios ciklo būsenos** spustelėkite būseną ir spustelėkite ![rodyklė pirmyn.](media/02-setup-for-functional-locations.png) mygtuką.
+5. Jei norite pasirinkti visas galimas modelio būsenas, spustelėkite ![pasirinkti visus galimus etapus.](media/03-setup-for-functional-locations.png) mygtuką. Visos būsenos perkeliamos į sekciją **Pasirinktos ciklo būsenos**.
+6. Jei norite iš modelio pašalinti pasirinktą būseną, pasirinkite būseną sekcijoje **Pasirinktos ciklo būsenos**, tada spustelėkite mygtuką ![rodyklė atgal.](media/04-setup-for-functional-locations.png) mygtuką.
 7. Pasirinkę **Ciklo būsenos naujinimai** nustatysite, kurios ciklo būsenos gali būti susijusios su pasirinkta būsena.
 
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: ceb5b7c90cc7efa0049d0278e2c245228e5b52bd
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 3ff40011ac60c47f6ed667adfcf01bc727334f13
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186791"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358984"
 ---
 # <a name="note-integration"></a>Pastabų integravimas
 
@@ -51,23 +51,23 @@ Norėdami sukurti pastabą klientų įtraukimo programoje ir tada sinchronizuoti
 1. Klientų įtraukimo programoje atidarykite kliento abonemento įrašą.
 2. Srityje **Laiko juosta** pasirinkite pliuso ženklą (**+**), tada, norėdami sukurti pastabą, pasirinkite **Pastaba**.
 
-    ![Pastabos kūrimas klientų įtraukimo programoje](media/notes-ce-1.png)
+    ![Pastabos kūrimas klientų įtraukimo programoje.](media/notes-ce-1.png)
 
 3. Įveskite pavadinimą ir aprašymą, tada pasirinkite **Įtraukti pastabą**.
 
-    ![Pavadinimo ir aprašymo įvedimas](media/notes-ce-2.png)
+    ![Pavadinimo ir aprašymo įvedimas.](media/notes-ce-2.png)
 
     Nauja pastaba įtraukiama į kliento laiko juostą.
 
-    ![Nauja pastaba kliento laiko juostoje](media/notes-ce-3.png)
+    ![Nauja pastaba kliento laiko juostoje.](media/notes-ce-3.png)
 
 4. Prisijunkite prie „Finance and Operations” programos ir atidarykite tą patį kliento įrašą. Atkreipkite dėmesį, kad viršutiniame dešiniajame kampe esantis mygtukas **Priedai** (sąvaržėlės simbolis) nurodo, kad įrašas turi priedą.
 
-    ![Pranešimas apie priedą](media/notes-ce-4.png)
+    ![Pranešimas apie priedą.](media/notes-ce-4.png)
 
 5. Pasirinkite mygtuką **Priedai**, kad atidarytumėte puslapį **Priedai**. Turėtumėte rasti pastabą, kurią sukūrėte klientų įtraukimo programoje.
 
-    ![Pastaba iš klientų įtraukimo programos](media/notes-ce-5.png)
+    ![Pastaba iš „Customer Engagement” programos.](media/notes-ce-5.png)
 
 Visi pastabos atnaujinimai sinchronizuojami tarp „Finance and Operations” programos ir klientų įtraukimo programos.
 
@@ -79,21 +79,21 @@ Norėdami sukurti pastabą „Finance and Operations” programoje ir tada sinch
 
 1. Programos „Finance and Operations” puslapyje **Priedai** pasirinkite **Naujas** \> **Pastaba**.
 
-    ![Pastabos kūrimas „Finance and Operations” programoje](media/notes-fo-1.png)
+    ![Pastabos kūrimas „Finance and Operations” programoje.](media/notes-fo-1.png)
 
 2. Įveskite pavadinimą ir trumpą instrukcijų rinkinį, tada pasirinkite **Įrašyti**.
 
-    ![Pavadinimo ir instrukcijų įvedimas](media/notes-fo-2.png)
+    ![Pavadinimo ir instrukcijų įvedimas.](media/notes-fo-2.png)
 
 3. Atnaujinkite įrašą klientų įtraukimo programoje. Naują pastabą turėtumėte rasti laiko juostoje.
 
-    ![Nauja pastaba klientų įtraukimo programos laiko juostoje](media/notes-fo-3.png)
+    ![Nauja pastaba „Customer Engagement” programos laiko juostoje.](media/notes-fo-3.png)
 
 Pastabą galite klasifikuoti kaip vidinę arba išorinę.
 
 - Programos „Finance and Operations” puslapyje **Priedai** atidarykite pastabą, tada lauke **Apribojimas** pasirinkite **Vidinis** arba **Išorinis**.
 
-    ![Laukas Apribojimas](media/notes-fo-4.png)
+    ![Laukas Apribojimas.](media/notes-fo-4.png)
 
 Taip pat galite sukurti URL.
 
@@ -101,13 +101,13 @@ Taip pat galite sukurti URL.
 2. Įveskite pavadinimą ir URL.
 3. Lauke **Apribojimas** pasirinkite **Vidinis** arba **Išorinis**.
 
-    ![URL kūrimas „Finance and Operations” programoje](media/notes-fo-5.png)
+    ![URL kūrimas „Finance and Operations” programoje.](media/notes-fo-5.png)
 
 4. Pasirinkite **Įrašyti**.
 
     Kadangi klientų įtraukimo programų URL tipo nėra, URL integruotas su dvigubu rašymu kaip pastaba.
 
-    ![URL kaip pastaba klientų įtraukimo programoje](media/notes-ce-6.png)
+    ![URL kaip pastaba „Customer Engagement” programoje.](media/notes-ce-6.png)
 
 > [!NOTE]
 > Failų priedai nepalaikomi.

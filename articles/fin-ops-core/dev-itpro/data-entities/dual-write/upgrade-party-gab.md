@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 90ddbe704ab21d62752b581a813601e8986c2103
-ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
+ms.openlocfilehash: 6662b6cad53c832e15fb27b435e277840afd8097
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6112678"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346551"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Naujinimas į šalies ir visuotinės adresų knygelės modelį
 
@@ -89,7 +89,7 @@ Pasiruošti atnaujinimui reikalingos toliau nurodytų veiklos:
 
 10. Atlikę diegimą, patikrinkite duomenų rinkinius, duomenų srautą ir susietą duomenų gamyklos paslaugą.
 
-   ![Duomenų rinkiniai, duomenų srautas ir susieta paslauga](media/data-factory-validate.png)
+   ![Duomenų rinkiniai, duomenų srautas ir susieta paslauga.](media/data-factory-validate.png)
 
 11. Pereikite prie **Valdyti**. Dalyje **Ryšiai** pasirinkite **Susieta paslauga**. Pasirinkite **„DynamicsCrmLinkedService”**. Formoje **Redaguoti susietą paslaugą („Dynamics CRM”)** įveskite šias reikšmes.
 
@@ -154,7 +154,7 @@ Pasiruošti atnaujinimui reikalingos toliau nurodytų veiklos:
 
 7. Duomenų gamykloje vykdykite šabloną pasirinkdami **Paleisti dabar**, kaip parodyta šiame paveikslėlyje. Šis procesas gali užtrukti keletą valandų, priklausomai nuo duomenų tūrio.
 
-    ![Paleidiklio vykdymas](media/data-factory-trigger.png)
+    ![Paleidiklio vykdymas.](media/data-factory-trigger.png)
 
     > [!NOTE]
     > Jei laukams **Paskyra**, **Kontaktas** ir **Tiekėjas** turite tinkinimus, tada jums reikia modifikuoti šabloną.
@@ -164,7 +164,7 @@ Pasiruošti atnaujinimui reikalingos toliau nurodytų veiklos:
     + Atsisiųskite `FONewParty.csv` failą iš „Azure“ didelių dvejetainių objektų saugyklos. Kelias yra `partybootstrapping/output/FONewParty.csv`.
     + Konvertuokite „`FONewParty.csv`” failą į „Excel” failą ir importuokite „Excel” failą į „Finance and Operations” programą. Jei csv importavimas jums tinka, galite importuoti csv failą tiesiogiai. Importavimas gali užtrukti kelias valandas, priklausomai nuo duomenų tūrio. Daugiau informacijos rasite [Duomenų importavimo ir eksportavimo užduočių apžvalga](../data-import-export-job.md).
 
-    ![„Dataverse” šalies įrašų importavimas](media/data-factory-import-party.png)
+    ![„Dataverse” šalies įrašų importavimas.](media/data-factory-import-party.png)
 
 9. „Customer Engagement” programose įgalinkite šiuos papildinio veiksmus:
 
@@ -199,7 +199,7 @@ Pasiruošti atnaujinimui reikalingos toliau nurodytų veiklos:
 3. Duomenų gamykla veikia pagal kableliais atskirtus csv failus. Jeigu kuri nors lauko vertė turi kablelius, tai gali trukdyti rezultatams. Jums reikia pašalinti kablelius.
 4. Skirtuke **Stebėjimas** pateikiama informacija apie visus veiksmus ir apdorotus duomenis. Pasirinkite konkretų veiksmą jo suderinimui.
 
-    ![Stebėjimo skirtukas](media/data-factory-monitor.png)
+    ![Stebėjimo skirtukas.](media/data-factory-monitor.png)
 
 ## <a name="learn-more-about-the-template"></a>Sužinokite daugiau apie šabloną
 

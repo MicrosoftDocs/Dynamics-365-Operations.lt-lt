@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validfrom: ''
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1118d7334602e450e5d503632895f73ba19066a1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cb04502721740c48004b62bc96ff13ca063e06db
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814783"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360903"
 ---
 # <a name="phantom-items"></a>Fiktyvios prekės
 
@@ -27,12 +27,12 @@ ms.locfileid: "5814783"
 
 Šioje temoje aprašoma, išsamiai, kaip eilutės tipą Fiktyvi galima naudoti komplektavimo specifikacijos (KS) ir formulės eilutėms. Toliau pateiktoje iliustracijoje (a) yra produkto H (F ir G dalių) KS, o (b) yra produkto H (F dalies) maršruto lapas.
 
-![Produktas H, F dalis](media/product-H-part-F.png)
+![Produktas H ir F dalis.](media/product-H-part-F.png)
 
 
 Šioje iliustracijoje rodomas dviejų lygių KS struktūros pavyzdys. Užbaigtas produktas H atitinka mašinos rinkinio produktą. Mašinos rinkinys sudarytas iš dviejų dalių: elektros įrenginio (F), kuris turi dvi medžiagas (A ir B), ir pakavimo medžiagų grupės (G), kuri taip pat turi dvi medžiagas (C ir D). Kita medžiaga (E) naudojama atliekant bendrąjį mašinos surinkimą.
 
-![Produktas H, F dalis](media/product-H-part-B.png)
+![Produktas H ir F dalis.](media/product-H-part-B.png)
 
 Pirmesnėje iliustracijoje vaizduojama produkto H inžinerinė KS. Ši struktūra suteikia galimybę peržiūrėti viso mašinos rinkinio dalis ir komponentus. Tačiau, nors produkto kūrėjams toks KS atvaizdavimas gali pasirodyti priimtinesnis, kuriant šią struktūrą gali būti nepakankamai atsižvelgta į tai, kaip mašina stovi ant parduotuvės grindų. 
 
@@ -53,23 +53,23 @@ Perėjimą nuo inžinerinės KS prie gamybos KS galima atlikti naudojant fiktyvi
 ## <a name="multilevel-phantom-bom-structures"></a>Kelių lygių fiktyvios KS struktūros
 Fiktyvios eilutės tipą galima naudoti kelių lygių KS struktūrose, kaip vaizduojama toliau pateiktoje iliustracijoje. Šioje iliustracijoje (a) yra produkto G KS, o (b) yra E ir F dalių ir produkto G maršruto lapas. 
 
-![Produktas G, F dalis su maršruto lapais](media/product-G-route-sheet-G.png)
+![Produktas G ir F dalis su maršruto lapais.](media/product-G-route-sheet-G.png)
 
 
 Toliau pateiktoje iliustracijoje vaizduojama gamybos KS ir maršruto lapas, jei E ir F dalių KS eilutės sukonfigūruotos taip, kad eilutės tipas yra Fiktyvi. Šioje iliustracijoje (a) yra produkto G KS, o (b) yra produkto G maršruto lapas.
 
-![Produktas G](media/product-G.png)
+![Produktas G.](media/product-G.png)
 
 
 ## <a name="phantom-and-route-network"></a>Fiktyvus elementas ir maršruto tinklas
 Fiktyvi KS taip pat gali būti naudojama maršruto tinklą turinčiai KS. Maršruto tinkle viena ar kelios operacijos vykdomos lygiagrečiai. Toliau pateiktoje iliustracijoje vaizduojamas kelių lygių KS naudojamo maršruto tinklo pavyzdys. Šioje iliustracijoje (a) yra produkto G ir F dalies KS, o (b) yra produkto G ir F dalies, kurioje yra maršruto tinklas, maršruto lapas.
 
-![Produktas G, F dalis](media/product-G-part-F.png)
+![Produktas G ir F dalis.](media/product-G-part-F.png)
 
 
 Toliau pateiktoje iliustracijoje (a) yra produkto G ir F dalies KS, o (b) yra produkto G ir F dalies maršruto lapas.
 
-![Produktas G, F dalis su maršruto lapais](media/product-G-part-F-with-route-sheet.png)
+![Produktas G ir F dalis su maršruto lapais.](media/product-G-part-F-with-route-sheet.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

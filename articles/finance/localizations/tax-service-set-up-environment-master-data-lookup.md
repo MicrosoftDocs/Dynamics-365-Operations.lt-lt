@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: e4aa941c57e8c31793d6db8ae87140cd1bb1a82b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 348643d7213b8c053d6a15b4b716a3ce75ba2fa2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021349"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346379"
 ---
 # <a name="set-up-an-environment-for-master-data-lookup"></a>Bendrųjų duomenų peržvalgos aplinkos nustatymas
 
@@ -69,16 +69,16 @@ ms.locfileid: "6021349"
 
 8. Pasirinkite **Tikrinti ryšį** ir užbaikite ryšio procesą. 
 
-   [![Mygtukas Tikrinti ryšį](./media/tax-service-setup-environment-for-mater-date-pic1.png)](./media/tax-service-setup-environment-for-mater-date-pic1.png)
+   [![Mygtukas Tikrinti ryšį.](./media/tax-service-setup-environment-for-mater-date-pic1.png)](./media/tax-service-setup-environment-for-mater-date-pic1.png)
 
 9. Eikite į **Elektroninės ataskaitos** > **Mokesčių konfigūracijos** ir importuokite mokesčių konfigūracijas iš [Mokesčių konfigūracijų](https://go.microsoft.com/fwlink/?linkid=2158352).
 
-   [![Mokesčių konfigūracijų puslapis, Mokesčių duomenų modelio medis](./media/tax-service-setup-environment-for-mater-date-pic2.png)](./media/tax-service-setup-environment-for-mater-date-pic2.png)
+   [![Mokesčių konfigūracijų puslapis, Mokesčių duomenų modelio medis.](./media/tax-service-setup-environment-for-mater-date-pic2.png)](./media/tax-service-setup-environment-for-mater-date-pic2.png)
 
 10. Eikite į **Apmokestinto dokumento modelio susiejimas** arba **„Dataverse” modelio susiejimas**, jeigu naudojate „Microsoft” konfigūraciją ir lauke **Prijungta programa** pasirinkite įrašą, kurį sukūrėte 7 veiksme.
 11. Nustatykite **Numatytasis modelių susiejimui** į **Taip**.
 
-   [![Modelio susiejimo puslapis](./media/tax-service-setup-environment-for-mater-date-pic3.png)](./media/tax-service-setup-environment-for-mater-date-pic3.png)
+   [![Modelio susiejimo puslapis.](./media/tax-service-setup-environment-for-mater-date-pic3.png)](./media/tax-service-setup-environment-for-mater-date-pic3.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

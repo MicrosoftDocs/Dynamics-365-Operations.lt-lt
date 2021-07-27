@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 4003208a1f02db134bbec1ecf90c1cdd2973e67f
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9276a633d560bc95c868b9c12438b4f625ed169a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751159"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351895"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>ER formato parametrų nustatymas kiekvienam juridiniui subjektui
 
@@ -49,7 +49,7 @@ Norėdami atlikti šioje temoje pateiktus pavyzdžius, turite turėti prieigą p
     
     Toliau pateiktoje iliustracijoje pateikiamos konfigūracijos, kurias reikia turėti atlikus veiksmus.
 
-    ![ER konfigūracijų puslapis](./media/GER-AppSpecParms-ImportedConfigurations.PNG)
+    ![ER konfigūracijų puslapis.](./media/GER-AppSpecParms-ImportedConfigurations.PNG)
 
 ## <a name="set-up-parameters-for-the-demf-company"></a>DEMF įmonės parametrų nustatymas
 
@@ -59,7 +59,7 @@ Naudodami ER sistemą, ER formato parametrus galite nustatyti konkrečiai progra
 2.  Konfigūracijų medyje pasirinkite formatą **Mokymo, kaip peržvelgti LE duomenis, formatas**.
 3.  Veiksmų srities skirtuko **Konfigūracijos** grupėje **Konkrečių programų parametrai** pasirinkite **Sąranka**.
 
-    ![ER konkrečių programų parametrų puslapis](./media/GER-AppSpecParms-LookupForm.PNG)
+    ![ER konkrečių programų parametrų puslapis.](./media/GER-AppSpecParms-LookupForm.PNG)
     
     Puslapyje **Konkrečių programų parametrai** galite konfigūruoti formato **Mokymo, kaip peržvelgti LE duomenis, formatas** duomenų šaltinio **Išrinkiklis** taisykles.
     
@@ -75,14 +75,14 @@ Naudodami ER sistemą, ER formato parametrus galite nustatyti konkrečiai progra
 
     Peržvalgoje pateikiamas pasirenkamų mokesčių kodų sąrašas. Šį sąrašą pateikia duomenų šaltinis **Model.Data.Tax**, sukonfigūruotas baziniame ER formate. Kadangi šiame duomenų šaltinyje yra laukas **Pavadinimas**, peržvalgoje rodomas kiekvieno mokesčio kodo pavadinimas.
 
-    ![ER konkrečių programų parametrų puslapis](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
+    ![ER konkrečių programų parametrų puslapis.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
     
 7.  Pasirinkite mokesčio kodą **VAT19**.
 8.  Naujo įrašo lauke **Peržvalgos rezultatas** pasirinkite išplečiamąją rodyklę, kad atidarytumėte peržvalgą. Peržvalgoje pateikiamas pasirenkamų formatų išvardijimo TaxationLevel reikšmių sąrašas.
 
     Atkreipkite dėmesį, kad, jei kaip pageidajama vartotojo, kuriuo esate prisijungę, kalba pasirinkta vokiečių k., peržvalgos reikšmių žymos bus vokiečių k. (jei jos išverstos baziniame ER formate). Be to, jei peržvalgos duomenų šaltinio žyma išversta, ji skirtuke **Peržvalgos** bus rodoma vartotojo pageidaujama kalba.
 
-    ![ER konkrečių programų parametrų puslapis](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
+    ![ER konkrečių programų parametrų puslapis.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
 
 9.  Pasirinkite reikšmę **Įprastas apmokestinimas**.
 
@@ -120,7 +120,7 @@ Naudodami ER sistemą, ER formato parametrus galite nustatyti konkrečiai progra
     
     Įtraukdami šį pastarąjį įrašą, apibrėžiate tokią taisyklę: kai mokesčio kodas, perduodamas kaip argumentas, netenkina nė vienos iš ankstesnių taisyklių, peržvalgos duomenų šaltinis kaip reikalaujamą apmokestinimo lygį pateiks **Kita**.
 
-    ![ER konkrečių programų parametrų puslapis](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
+    ![ER konkrečių programų parametrų puslapis.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
     
 16. Lauke **Būsena** pasirinkite **Baigta**.
 
@@ -144,7 +144,7 @@ Naudodami ER sistemą, ER formato parametrus galite nustatyti konkrečiai progra
 6.  Pasirinkite mokesčio kodą **InVAT7**.
 7.  Veiksmų srities skirtuko **PVM kodas** grupėje **Užklausos** pasirinkę **Registruotas PVM**, galite peržiūrėti informaciją apie mokesčio reikšmę ir taikomą kiekvieno mokesčio kodo tarifą.
 
-    ![Registruoto PVM puslapis](./media/GER-AppSpecParms-Statement.PNG)
+    ![Registruoto PVM puslapis.](./media/GER-AppSpecParms-Statement.PNG)
 
 8.  Puslapį Registruotas PVM uždarykite.
 
@@ -160,7 +160,7 @@ Naudodami ER sistemą, ER formato parametrus galite nustatyti konkrečiai progra
 
     Dabar peržvalgoje pateikiamas pasirenkamų **USMF** įmonės mokesčių kodų sąrašas.
 
-    ![ER konkrečių programų parametrų puslapis](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
+    ![ER konkrečių programų parametrų puslapis.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
     
 8.  Pasirinkite mokesčio kodą **EXEMPT**.
 9.  Naujo įrašo lauke **Peržvalgos rezultatas** pasirinkite reikšmę **Apmokestinimo nėra**.
@@ -170,7 +170,7 @@ Naudodami ER sistemą, ER formato parametrus galite nustatyti konkrečiai progra
 13. Lauke **Būsena** pasirinkite **Baigta**.
 14. Pasirinkite **Įrašyti**.
 
-    ![ER konkrečių programų parametrų puslapis](./media/GER-AppSpecParms-LookupForm-RulesSet2.PNG)
+    ![ER konkrečių programų parametrų puslapis.](./media/GER-AppSpecParms-LookupForm-RulesSet2.PNG)
     
 15. Puslapį **Konkrečių programų parametrai** uždarykite.
 
@@ -225,13 +225,13 @@ Ankstesniame pavyzdyje ER formato konkrečių programų parametrus pasiekėte na
 
 1.  Dar kartą panaudokite meniu elementą **ERSolutionAppSpecificParametersDesigner** arba įdiekite savo meniu elementą **ERSolutionAppSpecificParametersDesigner**.
 
-    ![„Visual Studio“ puslapis](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
+    ![„Visual Studio“ puslapis.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
     
 2.  Atlikite vieną iš toliau nurodytų veiksmų.
 
     1.  Sukurkite naują meniu elemento mygtuką ir jį susiekite su atitinkamu lentelės **ERSolutionTable** įrašu, jo ypatybę **Duomenų šaltinis** nustatydami kaip **ERSolutionTable**.
     
-        ![„Visual Studio“ puslapis](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
+        ![„Visual Studio“ puslapis.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
         
     2.  Sukurkite paprastą mygtuką ir perrašykite jo metodą **Spustelėta**, kaip parodyta tolesniame pavyzdyje.
     

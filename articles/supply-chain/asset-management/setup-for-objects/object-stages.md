@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 985fedc13e28caee90c9db27b145e415d256208d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: db025b3edb9daa2ffc19b5fc92930f76d8007dce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808301"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360106"
 ---
 # <a name="asset-lifecycle-states"></a>Produktų ciklo būsenos
 
@@ -61,9 +61,9 @@ Sukūrę reikiamas turto ciklo būsenas, galite nustatyti ciklo būsenas turto c
 
 5. „FastTab“ skirtuke **Ciklo būsenos** pasirinkite turto ciklo būsenas, kurias reikėtų įtraukti į turto ciklo modelį:
 
-    - Norėdami naudoti modelio ciklo būseną, pasirinkite ją skyriuje **Ciklo būsenos remaining**, tada pasirinkite dešiniosios rodyklės mygtuką ![Dešinioji rodyklė](media/15-setup-for-objects.png), kad perkeltumėte ją į skyrių **Pasirinktos ciklo būsenos**.
-    - Norėdami naudoti visas pasiekiamas ciklo būsenas modelyje, pasirinkite mygtuką **Visos pasiekiamos ciklo būsenos**![Visos pasiekiamos ciklo būsenos](media/20-setup-for-objects.png). Visos būsenos perkeliamos į skyrių **Pasirinktos ciklo būsenos**.
-    - Norėdami pašalinti ciklo būseną iš modelio, pasirinkite ją skyriuje **pasirinktos ciklo būsenos**, tada pasirinkite kairiosios rodyklės mygtuką ![Kairioji rodyklė](media/16-setup-for-objects.png), kad perkeltumėte ją į skyrių **Likusios ciklo būsenos**.
+    - Norėdami modeliui naudoti ciklo būseną, pasirinkite ją **Likusios ciklo būsenos** skyriuje, o tada pasirinkite dešinės rodyklės mygtuką ![Rodyklė dešinėn.](media/15-setup-for-objects.png) jos perkėlimui į **Pasirinktos ciklo būsenos** skyrių.
+    - Norėdami naudoti visas pasiekiamas ciklo būsenas modelyje, pasirinkite mygtuką **Visos pasiekiamos ciklo būsenos**![Visos pasiekiamos ciklo būsenos.](media/20-setup-for-objects.png). Visos būsenos perkeliamos į skyrių **Pasirinktos ciklo būsenos**.
+    - Norėdami pašalinti ciklo būseną iš modelio, pasirinkite ją **pasirinktos ciklo būsenos** skyriuje, o tada pasirinkite kairės rodyklės mygtuką ![Rodyklė kairėn.](media/16-setup-for-objects.png) jos perkėlimui į **Likusios ciklo būsenos** skyrių.
 
 6. Pasirinkite **Ciklo būsenos naujinimai**, kad apibrėžtume turto ciklo būsenas, kurios gali eiti po pasirinktos ciklo būsenos.
 7. Galite naudoti „FastTab“ skirtuką **Turto būsena**, jei tvarkote turtą, kurį gaunate taisyti. Skyriuje **Gaunama / siunčiama** galite pasirinkti turto ciklo būsenas, kad nurodytumėte darbo eigą, susijusią su turtu, kurį gavote taisyti. Jei siūlote paskolos turtą klientams arba padaliniams, skyriuje **Paskola** galite pasirinkti paskolos turto ciklo būsenas.

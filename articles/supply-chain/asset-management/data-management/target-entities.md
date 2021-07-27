@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3b9fd32d539a8f2e038f571910314889f92e3fd9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e3b28475e6432294b3a9ed0c63341122bedca037
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838639"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346183"
 ---
 # <a name="target-entities"></a>Paskirties objektai
 
@@ -34,13 +34,13 @@ Darbo srityje **Duomenų valdymas** galite peržiūrėti paskirties objektus, su
 
 2. Skyriuje **Importavimas / eksportavimas** spustelėkite **Duomenų objektai**. 
 
-    ![1 pav.](media/01-data-management.png)
+    ![1 iliustracija.](media/01-data-management.png)
 
 3. Puslapyje **Paskirties objektai** filtre ieškokite „turto valdymas“ ir spustelėkite „Enter“, kad būtų rodomas objektų, susijusių su turto valdymu, sąrašas.
 
     Toliau pateiktame paveikslėlyje parodyti kai kurie turto valdymo objektai.
 
-   ![2 paveikslėlis](media/02-data-management.png)
+   ![2 iliustracija.](media/02-data-management.png)
 
 4. Pasirinkite objektą ir spustelėkite **Modifikuoti paskirties vietos susiejimą**.
 
@@ -48,7 +48,7 @@ Darbo srityje **Duomenų valdymas** galite peržiūrėti paskirties objektus, su
 
     Toliau pateiktame paveikslėlyje parodyta su turto tipų objektu susijusių laukų vizualizacija.
 
-    ![3 paveikslėlis](media/03-data-management.png)
+    ![3 iliustracija.](media/03-data-management.png)
 
 
 

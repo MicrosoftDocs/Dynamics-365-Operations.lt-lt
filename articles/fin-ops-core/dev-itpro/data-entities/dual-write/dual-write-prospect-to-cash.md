@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 33ed1c7f69fa92bbd123042a139dd8fd0ee3e73a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7554189c779404559187ecd99f4bca4636054446
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754093"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361409"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potencialių klientų pavertimas grynaisiais pinigais dvigubo rašymo funkcijoje
 
@@ -33,7 +33,7 @@ Svarbus daugumos įmonių tikslas – paversti potencialius klientus į klientus
 
 Programos sąsajose galite pasiekti apdorojimo būsenas ir informaciją apie sąskaitą faktūrą realiuoju laiku. Todėl galite lengviau valdyti savo funkcijas, pvz., produktų laikymą, atsargų tvarkymą ir papildymą programoje „Supply Chain Management“, nekurdami pasiūlymų ir užsakymų iš naujo.
 
-![Dvigubo rašymo duomenų srautas potencialių klientų pavertime grynaisiais pinigais](../dual-write/media/dual-write-prospect-to-cash[1].png)
+![Dvigubo rašymo duomenų srautas potencialių klientų pavertime grynaisiais pinigais.](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
 Informacijos apie klientų ir kontaktų integravimą ieškokite [Integruotas kliento šablonas](customer-mapping.md). Daugiau informacijos apie produkto integravimą žiūrėkite [Bendroji produkto patirtis](product-mapping.md).
 
@@ -48,7 +48,7 @@ Kad galėtumėte sinchronizuoti pardavimo pasiūlymus, turite atnaujinti šiuos 
 
 Pardavimuose eikite į **Parametrai \> Administravimas \> Sistemos parametrai \> Pardavimai** ir įsitikinkite, kad naudojami toliau nurodyti parametrai:
 
-- Sistemos parinktis **Naudoti sistemos prizų skaičiavimą** nustatyta į **Taip**.
+- Sistemos parinktis **Naudoti sistemos kainų skaičiavimą** nustatyta į **Taip**.
 - Stulpelis **Nuolaidos skaičiavimo būdas** nustatytas į **Eilutės elementas**.
 
 ### <a name="sites-and-warehouses"></a>Svetainės ir sandėliai

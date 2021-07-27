@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a41fb3118359ab9a597f3c3242759fcbcf1e090a
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 742c6d1b713b8669dcc3544cf84eb340e3e9293b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015858"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360405"
 ---
 # <a name="set-up-consignment"></a>Konsignacijos nustatymas
 
@@ -61,7 +61,7 @@ Konsignacijos papildymo užsakymas yra dokumentas, naudojamas norint pateikti u�
 
 Dimensija **Savininkas** naudojama norint atskirti informaciją apie tai, kurios atsargos priklauso tiekėjui, o kurios priklauso gaunančiam juridiniam subjektui. Konsignacijos papildymo užsakymo eilučių būsena yra **Atviras užsakymas** tol, kol negaunamas arba neatšaukiamas visas eilučių kiekis. Kai visas kiekis gaunamas arba atšaukiamas, būsena pakeičiama į **Baigta**. Faktines su konsignacijos papildymo užsakymu susijusias turimas atsargas galima įrašyti naudojant registravimo procesą ir gavimo dokumento atnaujinimo procesą. Registraciją galima atlikti kaip prekių gavimo proceso dalį arba rankiniu būdu atnaujinant užsakymo eilutes. Kai naudojamas gavimo dokumento atnaujinimo procesas, produkto gavimo žurnale pateikiamas įrašas, kurį galima naudoti norint patvirtinti prekių gavimą tiekėjams.
 
-[![Konsignacijos papildymo užsakymai](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
+[![Konsignacijos papildymo užsakymai.](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Atsargų nuosavybės pakeitimo žurnalas
 
@@ -74,7 +74,7 @@ Kuriamos tik tos atsargų operacijos, kurios susijusios su užregistruotu žurna
 
 Sukūrus užsakymą konsignacijos pirkimo užsakymo eilučių skaičiaus atnaujinti neįmanoma.
 
-[![Atsargų nuosavybės pakeitimo žurnalas](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
+[![Atsargų nuosavybės keitimo žurnalas.](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Tiekėjų bendradarbiavimas konsignacijos procesuose
 
@@ -90,13 +90,13 @@ Daugiau informacijos apie tiekėjų parengimą naudoti tiekėjų bendradarbiavim
 
 Norėdami įrašyti faktines gaunamos konsignacijos atsargas, turite nurodyti tiekėją, kuriam jos priklauso. Tai atliekama puslapyje **Atsargų savininkas**. Pasirinkus **Tiekėjo sąskaita** sugeneruojamos numatytosios laukų **Vardas** ir **Savininkas** vertės. Lauko **Savininkas** vertė matoma tiekėjui, todėl jeigu jūsų tiekėjo paskyros vardus kitiems gali būti sunku atpažinti, gali tekti juos pakeisti. Lauką **Savininkas** galima redaguoti, bet tik iki veiksmo, kai išsaugomas įrašas **Atsargų savininkas**. Lauke **Vardas** įrašomas su tiekėjo paskyra susietos šalies vardas ir jo negalima keisti.
 
-[![Atsargų savininkai](./media/inventory-owners.png)](./media/inventory-owners.png)
+[![Atsargų savininkai.](./media/inventory-owners.png)](./media/inventory-owners.png)
 
 ## <a name="tracking-dimension-group"></a>Sekimo dimensijų grupė
 
 Konsignacijos procesuose ketinamus naudoti elementus būtina susieti su **Sekimo dimensijų grupe**, kurios dimensijos **Savininkas** nuostata **Aktyvi**. Visada pažymėtos dimensijos Savininkas parinktys **Faktinės atsargos** ir **Finansinės atsargos**. Parinktis **Padengimo planas pagal dimensiją** niekada nepažymimas.
 
-[![Sekimo dimensijų grupė](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
+[![Sekimo dimensijų grupė.](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

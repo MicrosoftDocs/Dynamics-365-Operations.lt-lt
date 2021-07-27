@@ -246,8 +246,6 @@
                           href: ../finance/localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Darbo su elektroninių SF išrašymu Egiptui pradžia
                           href: ../finance/localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Darbo su elektroninių SF išrašymu Italijai pradžia
-                          href: ../finance/localizations/e-invoicing-ita-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Darbo su elektroninių SF išrašymu Meksikai pradžia
                           href: ../finance/localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Elektroninių SF išrašymo nustatymas
@@ -1607,6 +1605,8 @@
                   href: master-planning/planning-optimization/get-started.md
                 - name: Planavimo optimizavimo tinkamumo analizė
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: Planavimo optimizavimo nenaudojami parametrai
+                  href: master-planning/planning-optimization/not-used-parameters.md
                 - name: Filtrų taikymas planui
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Bendrasis planavimas su poreikio prognoze
@@ -1621,6 +1621,8 @@
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Gamybos planavimas
                   href: master-planning/planning-optimization/production-planning.md
+                - name: Planavimas su neribotu pajėgumu
+                  href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: Atsargų žymėjimas naudojant planavimo optimizavimą
                   href: master-planning/planning-optimization/marking.md
                 - name: Vidinės įmonės planavimas
@@ -1861,6 +1863,8 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Patvirtinimo veiksmų konfigūravimas
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Išlaidų redaktorių konfigūravimas
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Neautomatizuotų sprendimų konfigūravimas
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Sąlyginių sprendimų konfigūravimas

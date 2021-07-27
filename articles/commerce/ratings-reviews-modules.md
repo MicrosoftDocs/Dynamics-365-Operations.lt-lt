@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: a243399536fec3f5361104289c38e550bf8b1144
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 27e52a94208129aee0e33074e7fc3778de53733a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193287"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355834"
 ---
 # <a name="ratings-and-reviews-modules"></a>Įvertinimų ir apžvalgų moduliai
 
@@ -42,20 +42,20 @@ PIIP puslapiuose įverčių ir apžvalgų suvestinę rodo tolesni trys moduliai.
  
 Toliau pateiktoje iliustracijoje rodoma, kaip PIIP puslapyje atrodo įverčių ir apžvalgų moduliai.
 
-![Įverčių ir apžvalgų moduliai PIIP puslapyje](media/rnr-eCommerce-pdp-reviews-modules_design.png)
+![Įverčių ir apžvalgų moduliai PIIP puslapyje.](media/rnr-eCommerce-pdp-reviews-modules_design.png)
 
 > [!TIP] 
 > Norėdami gauti informacijos apie tai, kaip optimizuoti PIIP šablonus ir maketus, kad įverčių ir apžvalgų modulių konfigūracijas galėtumėte bendrai naudoti keliuose el. prekybos svetainės PIIP, žr. [Šablonų ir maketų apžvalga](templates-layouts-overview.md).
 
 Tolesnėje iliustracijoje parodyta, kaip „Dynamics 365 Commerce“ dialogo lange **Modulio įtraukimas** pateikiami įverčių ir apžvalgų moduliai.
-![Dialogo langas Modulio įtraukimas](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
+![Dialogo langas Modulio įtraukimas.](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
 
 ### <a name="write-review-module"></a>Apžvalgų rašymo modulis
 
 Apžvalgų rašymo modulyje yra mygtukas **Rašyti apžvalgą**, kurį naudodami vartotojai gali prisijungti, priskirti įvertį ir parašyti produkto apžvalgą. Naudodami šį modulį vartotojai taip pat gali redaguoti įvertį arba peržiūrėti, ką pateikė anksčiau. Šis modulis PIIP puslapyje paprastai rodomas virš įverčių histogramų ir produktų apžvalgų sąrašo modulių.
 Tolesnėje iliustracijoje parodytas dialogo langas **Apžvalgos rašymas**, rodomas klientui pasirinkus **Rašyti apžvalgą**. Šiame dialogo lange klientas gali pateikti įvertį ir apžvalgą.
 
-![Dialogo langas Apžvalgos rašymas](media/rnr-eCommerce-write-review-module.png)
+![Dialogo langas Apžvalgos rašymas.](media/rnr-eCommerce-write-review-module.png)
 
 Tolesnėje lentelėje parodyta apžvalgų rašymo modulio ypatybė, kurią reikia sukonfigūruoti kūrimo įrankyje.
 
@@ -67,7 +67,7 @@ Tolesnėje lentelėje parodyta apžvalgų rašymo modulio ypatybė, kurią reiki
 
 Įverčių histogramų modulyje rodoma įverčių histograma. Šis modulis PIIP puslapyje paprastai rodomas tarp apžvalgų rašymo modulio ir produktų apžvalgų sąrašo modulio.
 Įverčių histogramų modulio konfigūruoti nereikia. Tereikia modulį įtraukti į PIIP šabloną. Tolesnėse iliustracijose parodyta, kaip programoje „Dynamics 365 Commerce“ atrodo PIIP šablonas, kai sukonfigūruota PIIP puslapiuose rodyti įverčių ir apžvalgų modulius.
-![PIIP šablonas, kai sukonfigūruota PIIP puslapiuose rodyti įverčius ir apžvalgas](media/rnr-eCommerce-pdp-reviews-modules.png)
+![PIIP šablonas, kai sukonfigūruota PIIP puslapiuose rodyti įverčius ir apžvalgas.](media/rnr-eCommerce-pdp-reviews-modules.png)
 
 ### <a name="product-reviews-list-module"></a>Produktų apžvalgų sąrašo modulis
 
@@ -82,11 +82,11 @@ Tolesnėje lentelėje parodytos produktų apžvalgų sąrašo modulio ypatybės,
 
 Produktų apžvalgų sąrašo modulyje yra vieta, kurioje galite įtraukti įverčių histogramų modulį. Toliau pateiktoje iliustracijoje parodyta, kaip programoje „Dynamics 365 Commerce“ į produktų apžvalgų sąrašo modulį galite įtraukti įverčių histogramų modulį.
 
-![Įverčių histogramų modulio įtraukimas į produktų apžvalgų sąrašo modulį](media/rnr-eCommerce-pdp-rating-histogram-summary.png)
+![Įverčių histogramų modulio įtraukimas į produktų apžvalgų sąrašo modulį.](media/rnr-eCommerce-pdp-rating-histogram-summary.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Modulių bibliotekos apžvalga](starter-kit-overview.md)
+[Modulių bibliotekos peržiūra](starter-kit-overview.md)
 
 [Konteinerio modulis](add-container-module.md)
 

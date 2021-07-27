@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b91b398c4ef864a92a5318b7e80f71a5a572844e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 75deb3dcca2c5a7fd7341b30411e04715bf27c29
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836763"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361191"
 ---
 # <a name="create-maintenance-budgets"></a>Priežiūros biudžetų kūrimas
 
@@ -50,7 +50,7 @@ Priežiūros biudžetai pagrįsti kaštų tipais, kurie naudojami turto valdyme:
     > [!NOTE]
     > Patvirtinę priežiūros biudžetą, puslapyje **Priežiūros biudžeto eilutės** negalite perskaičiuoti arba koreguoti susijusių eilučių, nebent pirmiau pašalintumėte patvirtinimą. Norėdami pašalinti priežiūros biudžeto patvirtinimą, pažymėkite jį puslapyje **Priežiūros biudžetai**, tada pažymėkite **Patvirtinti**. Tada dialogo lange **Patvirtinti biudžetą** pažymėkite **Gerai**.
 
-![Priežiūros biudžetai](media/01-maintenance-budgets.png)
+![Priežiūros Biudžetai.](media/01-maintenance-budgets.png)
 
 Taip pat galite kurti naują priežiūros biudžetą nukopijuodami esamą biudžetą. Puslapyje **Priežiūros biudžetai** pažymėkite kopijuotiną biudžetą, tada pažymėkite **Kopijuoti**. Šis metodas yra naudingas, jei, pavyzdžiui, sukūrėte vieno mėnesio biudžetą ir norite jį kopijuoti į kitus mėnesius.
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: bdca4d63fbe04a01cf1bbf2ccd7b095d4718a115
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 1beb706812aea0898b2bce9fc9aefa4541bb8924
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910310"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360855"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Tiesioginis „Sales“ pardavimo pasiūlymų antraščių ir eilučių sinchronizavimas su „Supply Chain Management”
 
@@ -38,7 +38,7 @@ ms.locfileid: "5910310"
 
 Sprendime Potencialūs klientai ir grynieji pinigai naudojant funkciją Duomenų integravimas sinchronizuojami duomenys „Supply Chain Management“ ir „Sales“ egzemplioriuose. Sprendimo Potencialūs klientai ir grynieji pinigai šablonai, pasiekiami naudojant duomenų integravimo funkciją, įjungia sąskaitų, kontaktų, produktų, pardavimo pasiūlymų, pardavimo užsakymų ir pardavimo SF duomenų srautą tarp „Supply Chain Management” ir „Sales“. Toliau pateiktoje iliustracijoje rodoma, kaip sinchronizuojami „Supply Chain Management “ ir „Sales“ duomenys.
 
-[![Duomenų srautas sprendime Potencialūs klientai ir grynieji pinigai](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Duomenų srautas sprendime Potencialūs klientai ir grynieji pinigai.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="template-and-tasks"></a>Šablonai ir užduotys
 
@@ -130,15 +130,15 @@ Tolesnėse iliustracijose pateikiamas šablono susiejimo pavyzdys duomenų integ
 
 ### <a name="quoteheader"></a>QuoteHeader
 
-![Šablono susiejimas duomenų integratoriuje](./media/sales-quotation-direct-template-mapping-data-integrator-1.png)
+![Susieti šabloną duomenų integratoriuje.](./media/sales-quotation-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="quoteline"></a>QuoteLine
 
-![Šablono susiejimas duomenų integratoriuje](./media/sales-quotation-direct-template-mapping-data-integrator-2.png)
+![Susieti šabloną duomenų integratoriuje.](./media/sales-quotation-direct-template-mapping-data-integrator-2.png)
 
 ## <a name="related-topics"></a>Susijusios temos
 
-[Potencialūs klientai ir grynieji pinigai](prospect-to-cash.md)
+[Potencialaus kliento pavertimas pinigais](prospect-to-cash.md)
 
 
 

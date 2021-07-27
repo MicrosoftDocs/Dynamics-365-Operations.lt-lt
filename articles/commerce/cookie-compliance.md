@@ -2,7 +2,7 @@
 title: Slapukų atitiktis
 description: Šioje temoje apžvelgiama slapukų atitiktis ir numatytosios strategijos, įtrauktos į „Microsoft Dynamics 365 Commerce“.
 author: BrianShook
-ms.date: 05/21/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8eb610eb819dee09a30368257e36dc88f855e985
-ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
+ms.openlocfilehash: 71b2e0e8d0a7db6cbbc8b9b4024b067bd5c6a2a1
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "6088392"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333074"
 ---
 # <a name="cookie-compliance"></a>Slapukų atitiktis
 
@@ -33,26 +33,27 @@ Norėdami daugiau sužinoti apie pagrindinius „Microsoft“ naudojamus slapuk�
 
 Toliau pateikiamoje lentelėje rodomas dabartinis slapukų nuorodų sąrašas, kuriuos patalpino „Dynamics 365 Commerce” svetainės.
 
-| Slapuko pavadinimas                               | Naudojimas                                                        |
-| ------------------------------------------- | ------------------------------------------------------------ |
-| .AspNet.Slapukai                             | Parduotuvės „Microsoft Azure Active Directory” („Azure AD”) autentifikavimo slapukai vienkartiniam prisijungimui (SSO). Parduotuvės užšifravo vartotojo pagrindinę informaciją (vardą, pavardę, el. paštą). |
-| &#95;msdyn365___krepšelis&#95;                           | Parduotuvės krepšelio ID naudojamas produktų, pridėtų į krepšelio egzempliorių, sąrašui gauti. |
-| &#95;msdyn365___ucc&#95;                            | Slapuko atitikties sutikimo sekimas.                          |
-| ai_seansas                                  | Aptinka, keliuose vartotojo veiklos seansuose buvo tam tikrų programėlės puslapių ir funkcijų. |
-| ai_vartotojas                                     | Aptinka, kaip daug žmonių naudojo programėlę ir jos funkcijas. Vartotojai skaičiuojami naudojant anoniminius ID. |
-| b2cru                                       | Saugomas dinamiškai peradresavimo URL.                              |
-| JSESSIONID                                  | Mokėjimo jungtis naudoja „Adyen”, kad išsaugotų vartotojo seansą.       |
-| AtvertiIdPrijungti.nonce.&#42;                       | Autentifikavimas                                               |
-| x-ms-cpim-cache:.&#42;                          | Naudojama užklausos būsenai tvarkyti.                      |
-| x-ms-cpim-csrf                              | Kelių svetainių užklausų klastočių (CRSF) atpažinimo ženklas, naudojamas apsaugoti nuo CRSF.     |
-| x-ms-cpim-dc                                | Naudojama norint nukreipti užklausas į atitinkamą gamybos autentifikavimo serverio egzempliorių. |
-| x-ms-cpim-rc.&#42;                              | Naudojama norint nukreipti užklausas į atitinkamą gamybos autentifikavimo serverio egzempliorių. |
-| x-ms-cpim-slice                             | Naudojama norint nukreipti užklausas į atitinkamą gamybos autentifikavimo serverio egzempliorių. |
-| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Naudojama SSO seansui tvarkyti.                        |
-| x-ms-cpim-trans                             | Naudojama operacijoms stebėti (atidarytų skirtukų skaičius, kuriais autentifikuojama lyginant su įmonė–vartotojui (B2C) svetaine), įskaitant dabartinę operaciją. |
-| „\_msdyn365___muid_”                            | Naudojama, jei aplinkai yra suaktyvintas Eksperimentavimas; naudojamas kaip vartotojo ID eksperimentavimo tikslais. |
-| „\_msdyn365___exp_”                             | Naudojama, jei aplinkai yra suaktyvintas Eksperimentavimas; naudojamas matuoti efektyvumo įkelties balansavimui.         |
-| „d365mkt”                                       | Naudojama, jei aptikimas pagal vietą, skirtas vartotojo IP adresui sekti dėl parduotuvių vietų pasiūlymų, yra įjungtas „Commerce” svetainių daryklėje: **Svetainės parametrai > Bendra > Įgalinti vieta pagrįstą parduotuvės aptikimą**.      |
+| Slapuko pavadinimas                               | Naudojimas                                                        | Gyvavimo laikotarpis |
+| ------------------------------------------- | ------------------------------------------------------------ |  ------- |
+| .AspNet.Slapukai                             | Parduotuvės „Microsoft Azure Active Directory” („Azure AD”) autentifikavimo slapukai vienkartiniam prisijungimui (SSO). Parduotuvės užšifravo vartotojo pagrindinę informaciją (vardą, pavardę, el. paštą). | Seansas |
+| „\_msdyn365___cart_”                           | Parduotuvės krepšelio ID naudojamas produktų, pridėtų į krepšelio egzempliorių, sąrašui gauti. | Seansas |
+| „\_msdyn365___checkout_cart_”                           | Parduotuvės pirkimo užbaigimo krepšelio ID naudojamas produktų, pridėtų į pirkimo užbaigimo krepšelio egzempliorių, sąrašui gauti. | Seansas |
+| „\_msdyn365___ucc_”                            | Slapuko atitikties sutikimo sekimas.                          | 1 metai |
+| ai_seansas                                  | Aptinka, keliuose vartotojo veiklos seansuose buvo tam tikrų programėlės puslapių ir funkcijų. | 30 min. |
+| ai_vartotojas                                     | Aptinka, kaip daug žmonių naudojo programėlę ir jos funkcijas. Vartotojai skaičiuojami naudojant anoniminius ID. | 1 metai |
+| b2cru                                       | Saugomas dinamiškai peradresavimo URL.                              | Seansas |
+| JSESSIONID                                  | Mokėjimo jungtis naudoja „Adyen”, kad išsaugotų vartotojo seansą.       | Seansas |
+| AtvertiIdPrijungti.nonce.&#42;                       | Autentifikavimas                                               | 11 minučių |
+| x-ms-cpim-cache:.&#42;                          | Naudojama užklausos būsenai tvarkyti.                      | Seansas |
+| x-ms-cpim-csrf                              | Kelių svetainių užklausų klastočių (CRSF) atpažinimo ženklas, naudojamas apsaugoti nuo CRSF.     | Seansas |
+| x-ms-cpim-dc                                | Naudojama norint nukreipti užklausas į atitinkamą gamybos autentifikavimo serverio egzempliorių. | Seansas |
+| x-ms-cpim-rc.&#42;                              | Naudojama norint nukreipti užklausas į atitinkamą gamybos autentifikavimo serverio egzempliorių. | Seansas |
+| x-ms-cpim-slice                             | Naudojama norint nukreipti užklausas į atitinkamą gamybos autentifikavimo serverio egzempliorių. | Seansas |
+| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Naudojama SSO seansui tvarkyti.                        | Seansas |
+| x-ms-cpim-trans                             | Naudojama operacijoms stebėti (atidarytų skirtukų skaičius, kuriais autentifikuojama lyginant su įmonė–vartotojui (B2C) svetaine), įskaitant dabartinę operaciją. | Seansas |
+| „\_msdyn365___muid_”                            | Naudojama, jei aplinkai yra suaktyvintas eksperimentavimas; kuris naudojamas kaip vartotojo ID eksperimentavimo tikslais. | 1 metai |
+| „\_msdyn365___exp_”                             | Naudojama, jei aplinkai yra suaktyvintas eksperimentavimas; naudojamas matuoti efektyvumo įkelties balansavimui.         | 1 valanda |
+| „d365mkt”                                       | Naudojama, jei aptikimas pagal vietą, skirtas vartotojo IP adresui sekti dėl parduotuvių vietų pasiūlymų, yra įjungtas „Commerce” svetainių daryklėje: **Svetainės parametrai \> Bendra \> Įgalinti vieta pagrįstą parduotuvės aptikimą**.      | 1 valanda |
 
 Jeigu svetainės vartotojas pasirenka bet kuriuos socialinės medijos saitus svetainėje, šioje lentelėje pateikti slapukai taip pat bus sekami jų naršyklėje.
 

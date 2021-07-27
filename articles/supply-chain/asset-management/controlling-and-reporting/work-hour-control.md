@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9ac64b0e40662f30cc615dfbd3f05aba5b37d862
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 88ae7faabe7af25f6e3b95c7217d91e440c94da2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838663"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346207"
 ---
 # <a name="work-hour-control"></a>Darbo valandų valdymas
 
@@ -66,7 +66,7 @@ Toliau pateiktoje ekrano kopijoje rodomas **Turto valandų valdymas** skaičiavi
 - Lauke **Faktinės valandos** rodomos darbo užsakymuose užregistruotos valandos. 
 - Lauke **Skirtos valandos** rodomos visos valandos, kurias jūsų įmonė skyrė pagal darbo užsakymus.
 
-![Turto valandų valdymo skaičiavimo pavyzdys](media/04-controlling-and-reporting.png)
+![Turto valandų valdymo skaičiavimo pavyzdys.](media/04-controlling-and-reporting.png)
 
 Kitas būdas skaičiuoti valandas – atlikti kelis pasirinkimus srityse **Visas turtas** arba **Aktyvus turtas**. Tada spustelėkite mygtuką **Valandų valdymas**, esantį „FastTab“ **Bendra**. Pasirinktas turtas automatiškai įterpiamas į „FastTab“ **Įtrauktini įrašai** lauką **Turtas**. Dialogo lange **Turto valandų valdymas** spustelėkite **Gerai** – bus rodomas pasirinkto turto skaičiavimas. Tą pačią procedūrą galima atlikti su funkcinėmis vietomis dalyje **Visos funkcinės vietos** arba **Aktyvios funkcinės vietos** ir su darbo užsakymais dalyje **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**.
 

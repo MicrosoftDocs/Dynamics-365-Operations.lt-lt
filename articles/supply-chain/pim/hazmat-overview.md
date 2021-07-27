@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 15edf61cba03a57b9b4d2c939228fd064b797942
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f8c3dc084f4f260f8cc29b3957913e9bc1b762d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829383"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357004"
 ---
 # <a name="hazardous-materials-overview"></a>Pavojingų medžiagų apžvalga
 
@@ -27,7 +28,7 @@ Jog atitiktų siuntimo ir transportavimo nuostatas, organizacijos, siunčiančio
 
 Ši diagrama iliustruoja veiksmus, reikalingus pavojingų medžiagų funkcijos nustatymui ir naudojimui.
 
-![Pavojingų medžiagos funkcijos nustatymas ir naudojimas](media/hazmat-overview.png "Pavojingų medžiagų funkcijos nustatymas ir naudojimas")
+![Pavojingų medžiagos funkcijos nustatymas ir naudojimas.](media/hazmat-overview.png "Pavojingų medžiagų funkcijos nustatymas ir naudojimas")
 
 Pavojingų medžiagų funkcija yra nustatoma Produkto informacijos valdyme ir pateikia dokumentus, kuriuos galima atsispausdinti per Sandėlio valdymą. Taigi, apskritai kalbant, minėtos sritys yra dvi pagrindinės sritys, kuriose Jūs peržiūrėsite, nustatysite ir naudosite šią funkciją:
 

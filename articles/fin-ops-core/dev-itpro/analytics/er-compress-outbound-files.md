@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 899af54fbe34841c9b9b6e96b78db96773cf0203
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 5b58a9345b83219296a3570e7bf653ef8624b7a1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894177"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357647"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Didelių dokumentų, sugeneruotų elektroninėse ataskaitose, glaudinimas 
 
@@ -55,7 +55,7 @@ Prieš vykdydami šioje temoje esančias procedūras, turite atlikti toliau nuro
 1. [Vykdykite importuotą formatą](er-defer-xml-element.md#run-the-imported-format).
 2. Atkreipkite dėmesį, kad sugeneruoto dokumento dydis XML formatu yra 3 kilobaitų (KB).
 
-    ![Nesuglaudinto siunčiamo dokumento peržiūra](./media/er-compress-outbound-files1.png)
+    ![Nesuglaudinto siunčiamo dokumento peržiūra.](./media/er-compress-outbound-files1.png)
 
 ### <a name="modify-the-format-to-compress-the-generated-output"></a>Formato modifikavimas sugeneruotos išvesties glaudinimui
 
@@ -80,7 +80,7 @@ Prieš vykdydami šioje temoje esančias procedūras, turite atlikti toliau nuro
     > [!NOTE] 
     > XML failo, kuris yra zip failas, glaudinimo koeficientas yra 87 procentai. Glaudinimo koeficientas priklauso nuo glaudinimų duomenų.
 
-    ![Suglaudinto siunčiamo dokumento peržiūra](./media/er-compress-outbound-files2.png)
+    ![Suglaudinto siunčiamo dokumento peržiūra.](./media/er-compress-outbound-files2.png)
 
 > [!NOTE]
 > Jei ER [paskirties vieta](electronic-reporting-destinations.md) yra konfigūruojama formato elementui, kuris generuoja išvestį (šiame pavyzdyje – **Ataskaitos** elementas), išvesties glaudinimas bus apeinamas.

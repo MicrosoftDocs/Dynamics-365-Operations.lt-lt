@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a26ee80eb52e40b60ace9b1494b3512d85f04cfe
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 913e5cf8d39dfe36efea0526d84808e7d736b030
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837878"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361163"
 ---
 # <a name="asset-fault-analysis"></a>Turto klaidų analizė
 
@@ -60,7 +60,7 @@ Toliau pateiktoje ekrano kopijoje pažymėtas tik mygtukas **Požymis**.
 - Gedimo registracijos atliktos pagal tris gedimo požymius: „Oro nuotėkis“, „Perdegęs saugiklis“ ir „Užstrigo įranga“.  
 - Stulpelyje **Tikimybės %** visi procentai sumuojami iki 100 %. Šioje gedimo analizėje tikimybė pagrįsta visomis **Požymis** registracijomis.
 
-![1 pav.](media/06-controlling-and-reporting.png)
+![1 iliustracija.](media/06-controlling-and-reporting.png)
 
 ### <a name="group-by-symptoms-and-time-period"></a>Grupuoti pagal požymius ir laikotarpį
 
@@ -69,7 +69,7 @@ Toliau pateiktoje ekrano kopijoje įtraukti **Metai** ir **Mėnuo**, kad pamatyt
 - Dabar gedimo požymiai rodomi kaip registracijos pagal metus / mėnesį.  
 - Stulpelyje **Tikimybės %**, jei įtraukiate visus kiekvieno mėnesio procentus, jie sumuojami iki 100 %. Šioje gedimo analizėje tikimybė pagrįsta **Požymis** registracijomis. Jei yra daug turto eilučių, tačiau vienoje eilutėje rodomas didelis procentas, reiškia, kad gedimo požymį reikia išanalizuoti išsamiau, kad rastumėte būdą, kaip apriboti gedimo požymio registracijų skaičių.
 
-![2 pav.](media/07-controlling-and-reporting.png)
+![2 iliustracija.](media/07-controlling-and-reporting.png)
 
 ### <a name="group-by-multiple-symptoms-and-assets"></a>Grupuoti pagal kelis simptomus ir turtą
 
@@ -84,7 +84,7 @@ Toliau pateiktoje ekrano kopijoje įtraukti **Turtas** ir **Turto tipas**, kad b
 - Dabar gedimo požymiai yra padalinti į derinius **Turtas** / **Turto tipas** / **Požymis**.  
 - Stulpelyje **Tikimybė %**, jei įtraukiate visus derinio **Turtas** / **Turto tipas** / **Požymis** procentus, kiekvienas iš jų sumuojamas iki 100 %. Šioje gedimo analizėje tikimybė pagrįsta **Požymis** registracijomis. Jei yra daug turto eilučių, tačiau vienoje eilutėje rodomas didelis procentas, reiškia, kad gedimo požymį reikia išanalizuoti išsamiau, kad rastumėte būdą, kaip apriboti gedimo požymio registracijų skaičių.
 
-![3 pav.](media/08-controlling-and-reporting.png)
+![3 iliustracija.](media/08-controlling-and-reporting.png)
 
 **Grupuoti pagal du požymius, turtą ir turto tipą**
 
@@ -92,7 +92,7 @@ Toliau pateiktose ekrano kopijoje **Sritis** įtraukta į **Požymis**, **Turtas
 
 - Stulpelyje **Tikimybės %**, jei įtraukiate visus turto derinio **Turtas** / **Turto tipas** / **Požymis** procentus, kiekvienas iš jų sumuojamas iki 100 %. Šioje gedimo analizėje tikimybė pagrįsta **Požymis** ir **Sritis** registracijomis. Jei yra daug turto eilučių, tačiau vienoje eilutėje rodomas didelis procentas, reiškia, kad gedimo sritį reikia išanalizuoti išsamiau, kad rastumėte būdą, kaip apriboti gedimo srities registracijų skaičių.  
 
-![4 pav.](media/09-controlling-and-reporting.png)
+![4 iliustracija.](media/09-controlling-and-reporting.png)
 
 **Grupuoti pagal tris požymius, turtą ir turto tipą**
 
@@ -100,7 +100,7 @@ Toliau pateiktoje ekrano nuotraukoje buvo įtrauktas **Tipas** ir šiame pavyzdy
  
 - Stulpelyje **Tikimybės %**, jei įtraukiate visus turto derinio **Turtas** / **Turto tipas** / **Požymis** procentus, kiekvienas iš jų sumuojamas iki 100 %. Šioje gedimo analizėje tikimybė pagrįsta **Požymis**, **Sritis** ir **Tipas** deriniu. Jei yra daug turto eilučių, tačiau vienoje eilutėje rodomas didelis procentas, reiškia, kad gedimo tipą reikia išanalizuoti išsamiau, kad rastumėte būdą, kaip apriboti gedimo tipo registracijų skaičių.
 
-![5 paveikslėlis](media/10-controlling-and-reporting.png)
+![5 iliustracija.](media/10-controlling-and-reporting.png)
 
 
 >[!NOTE]

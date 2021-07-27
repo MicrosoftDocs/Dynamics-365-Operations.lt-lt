@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5c2ddad10f9cbedd77a04fe0f42bdc217fd43344
-ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
+ms.openlocfilehash: d68587a88b52e95d1e11c64b9a2d51dbc8b70561
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "5963244"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357419"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>„Azure” saugyklos abonemento ir raktų saugyklos kūrimas
 
@@ -49,7 +49,7 @@ Norėdami atlikti šioje temoje esančius veiksmus, turite įsitikinti, kad atli
 5. Pasirinkite **Įtraukti strategiją**, norėdami įtraukti saugomą prieigos strategiją.
 6. Atitinkamai nustatykite laukus **Identifikatorius** ir **Teisės**. Lauke **Teisės** turite pasirinkti visas teises.
 
-    ![Didelių dvejetainių objektų saugyklos teisių suteikimas](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
+    ![Didelių dvejetainių objektų saugyklos teisių suteikimas.](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
 
 7. Įveskite pradžios ir pabaigos datas. Galiojimo data turi būti data ateityje.
 8. Pasirinkite **Gerai**, norėdami įrašyti strategiją, tada įrašykite konteinerio keitimus.
@@ -57,7 +57,7 @@ Norėdami atlikti šioje temoje esančius veiksmus, turite įsitikinti, kad atli
 10. Dešiniuoju pelės klavišu spustelėkite konteinerį ir pasirinkite **Gauti bendrai naudojamą prieigos parašą**.
 11. Dialogo lange **Bendrai naudojamas prieigos parašas** kopijuokite ir išsaugokite reikšmę, esančią lauke **URI**. Ši reikšmė bus naudojama kitoje procedūroje ir bus vadinama *bendrai naudojamo prieigos parašo URI*.
 
-    ![URI reikšmės pasirinkimas ir kopijavimas](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
+    ![URI reikšmės pasirinkimas ir kopijavimas.](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
 
 ## <a name="set-up-the-key-vault-to-store-the-storage-account-uri"></a>Raktų saugyklos nustatymas siekiant saugoti saugyklos abonemento URI
 
@@ -69,11 +69,11 @@ Norėdami atlikti šioje temoje esančius veiksmus, turite įsitikinti, kad atli
 6. Nustatykite prieigos strategiją, kad elektroninių SF išrašymo priedui būtų galima suteikti tinkamą saugios prieigos prie jūsų sukurto slaptojo rakto lygį. Eikite į **Parametrai \> Prieigos strategija** ir pasirinkite **Įtraukti prieigos strategiją**.
 7. Nustatykite operacijų **Gauti** ir **Išvardyti** slaptųjų raktų teises.
 
-    ![Paslaugos prieigos suteikimas](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)
+    ![Paslaugos prieigos suteikimas.](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)
 
 8. Nustatykite operacijų **Gauti** ir **Išvardyti** sertifikatų teises.
 
-    ![Sertifikatų teisių suteikimas](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
+    ![Sertifikatų teisių suteikimas.](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
 
 9. Laukelyje **Pasirinkti pagrindą** pasirinkite **Nieko nepasirinkta**.
 10. Dialogo lange **Pagrindas** pasirinkite pagrindą, įtraukdami **El. SF išrašymo paslaugą**.

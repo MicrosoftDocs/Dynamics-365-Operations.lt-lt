@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f083115f5dc0cfe0e9ba4786bf79ec4083ab7e78
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3cd179483458dd3da3b69afaa464c21a11c3df8b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792200"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352017"
 ---
 # <a name="home-page-overview"></a>Pagrindinio puslapio apžvalga
 
@@ -31,7 +32,7 @@ Pagrindinis puslapis yra numatytasis puslapis, į kurį pirkėjai įeina, kai ap
 
 Toliau pateiktame paveikslėlyje rodomas pagrindinio puslapio pavyzdys, kuris buvo sukurtas naudojant modulių biblioteką ir „Fabrikam“ temą.
 
-![Pagrindinio puslapio pavyzdys](./media/Homepage2.PNG)
+![Pagrindinio puslapio pavyzdys.](./media/Homepage2.PNG)
 
 Pagrindinio puslapio viršuje yra antraštė, rodanti visas produktų kategorijas ir kitus puslapius, kuriuose pardavėjas norėtų, kad klientai naršytų. Pagrindinio puslapio apačioje yra poraštė, kurioje yra spartieji saitai su įvairiomis temomis, kurios gali sudominti klientus.
 
@@ -41,13 +42,13 @@ Pagrindinėje pagrindinio puslapio sekcijoje galima išskirti produktus, kategor
 
     Šioje iliustracijoje pateiktas pagrindinio puslapio pavyzdys, kuriame pirmasis elementas pagrindiniame skyriuje yra turinio bloko modulio pagrindinės reklaminės juostos maketas pavadinimu „Naujas“.
 
-    ![Pagrindinės reklaminės juostos modulio pavyzdys](./media/Hero.PNG)
+    ![Pagrindinės reklaminės juostos modulio pavyzdys.](./media/Hero.PNG)
 
 - **Reklama** – turinio bloko modulio produktų ar akcijų reklamos maketas, sukurtas naudojant vaizdų ir teksto derinį. Reklamų maketai gali būti naudojami atskirai arba talpinami karuselės modulyje.
 
     Toliau parodytame paveikslėlyje pateiktas turinio bloko modulio reklamos maketo pagrindiniame puslapyje pavyzdys.
 
-    ![Reklamuojamų produktų modulių pavyzdžiai](./media/Feature.PNG)
+    ![Reklamuojamų produktų modulių pavyzdžiai.](./media/Feature.PNG)
 
 - **Išklotinė** – turinio bloko modulio išklotinės maketas, kuris parodo kelis produktus ar produktų kategorijas, naudojant vaizdų ir teksto derinį kelių stulpelių makete. Anksčiau pateiktoje pagrindinio puslapio iliustracijoje išklotinės maketas sugeneruoja elementus trijuose stulpeliuose: **Apsipirkti moterų skyriuje**, **Apsipirkti vyrų skyriuje** ir **Pirkti aksesuarus**.
 - **Vaizdo įrašų leistuvas** – vaizdo įrašų leistuvo modulis gali būti naudojamas vaizdo įrašų turiniui pagrindiniame puslapyje rodyti. Anksčiau pateiktoje pagrindinio puslapio iliustracijoje yra ir vaizdo įrašų leistuvo modulis.
@@ -56,7 +57,7 @@ Pagrindinėje pagrindinio puslapio sekcijoje galima išskirti produktus, kategor
 
     Toliau pateikta iliustracija – produktų rekomendacijų modulių pagrindiniame puslapyje pavyzdys.
 
-    ![Produktų rekomendacijų modulių pavyzdžiai](./media/Recommendations.PNG)
+    ![Produktų rekomendacijų modulių pavyzdžiai.](./media/Recommendations.PNG)
 
 > [!NOTE]
 > Visus čia išvardytus modulius galima naudoti bet kuriame svetainės puslapyje. Tačiau jų išdėstymas pagrindiniame puslapyje yra svarbus, nes klientai pirmiausia sąveikauja su Jūsų svetaine tame puslapyje.

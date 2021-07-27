@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c95704b944f86a1cfc0654f0ebf5bc7c79bbeec9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4b54b58a29dc23e19f5065363c331351f24267ac
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808693"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360951"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>Priežiūros užklausos ciklo būsenos
 
@@ -48,7 +48,7 @@ Priežiūros užklausos ciklo būsenos nurodo etapus, kuriuose gali būti užkla
 
 Paveikslėlyje pavaizduotas puslapio **Priežiūros užklausos ciklo būsenos** pavyzdys.
 
-![Priežiūros užklausos ciklo būsenų puslapis](media/02-setup-for-requests.png)
+![Priežiūros užklausos ciklo būsenų puslapis.](media/02-setup-for-requests.png)
 
 > [!NOTE]
 > Priežiūros užklausos ciklo būsenos, ciklo būsenos grupės bei tipai yra susiję ir naudojami taip pat, kaip ir darbo užsakymo ciklo būsenos, ciklo būsenos grupės bei tipai. 
@@ -66,9 +66,9 @@ Sukūrę ciklo būsenas, kurios yra reikalingos jūsų priežiūros užklausoms,
 
 5. „FastTab“ skirtuke **Ciklo būsenos** pasirinkite ciklo būsenas, kurios turėtų būti įtrauktos į šį ciklo modelį:
 
-    - Norėdami į ciklo modelį įtraukti ciklo būseną, pasirinkite ją skyriuje **Likusios ciklo būsenos** ir spustelėkite dešiniosios rodyklės mygtuką ![Dešinioji rodyklė](media/03-setup-for-requests.png), kad ją perkeltumėte į skyrių **Pasirinktos ciklo būsenos**.
-    - Norėdami į ciklo modelį įtraukti visas galimas ciklo būsenas, spustelėkite mygtuką **Pasirinkti visas galimas būsenas** ![Pasirinkti visas galimas būsenas](media/04-setup-for-requests.png). Visos ciklo būsenos bus perkeltos į skyrių **Pasirinktos ciklo būsenos**.
-    - Norėdami ciklo būseną pašalinti iš ciklo modelio, ją pasirinkite skyriuje **Pasirinktos ciklo būsenos** ir spustelėkite kairiosios rodyklės mygtuką ![Kairioji rodyklė](media/05-setup-for-requests.png), kad ją perkeltumėte į skyrių **Likusios ciklo būsenos**.
+    - Norėdami įtraukti ciklo būseną į ciklo modelį, pasirinkite ją **Likusios ciklo būsenos** skyriuje, o tada pasirinkite dešinės rodyklės mygtuką ![Rodyklė dešinėn.](media/03-setup-for-requests.png) jos perkėlimui į **Pasirinktos ciklo būsenos** skyrių.
+    - Norėdami į ciklo modelį įtraukti visas galimas ciklo būsenas, spustelėkite mygtuką **Pasirinkti visas galimas būsenas** ![Pasirinkti visas galimas būsenas.](media/04-setup-for-requests.png). Visos ciklo būsenos bus perkeltos į skyrių **Pasirinktos ciklo būsenos**.
+    - Norėdami pašalinti ciklo būseną iš ciklo modelio, pasirinkite ją **Pasirinktos ciklo būsenos** skyriuje, o tada pasirinkite kairės rodyklės mygtuką ![Rodyklė kairėn.](media/05-setup-for-requests.png) jos perkėlimui į **Likusios ciklo būsenos** skyrių.
 
 6. „FastTab“ skirtuko **Bendra** skyriuje **Atnaujinimai** esantys laukai yra svarbūs, jei naudojate sandėlio remontą.
 
@@ -77,7 +77,7 @@ Sukūrę ciklo būsenas, kurios yra reikalingos jūsų priežiūros užklausoms,
 
 Paveikslėlyje pateiktas puslapio **Priežiūros užklausos ciklo būsenos** pavyzdys.
 
-![Priežiūros užklausos ciklo modelių puslapis](media/06-setup-for-requests.png)
+![Priežiūros užklausos ciklo modelių puslapis.](media/06-setup-for-requests.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

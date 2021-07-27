@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 2df579bfb820f871bfcc9c18bd8e5681cdf42447
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 00cb05105c047989ea74bbba3360c067b1b98ce8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271213"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360381"
 ---
 # <a name="firm-planned-orders"></a>Galutinai suplanuoti užsakymai
 
@@ -81,7 +81,7 @@ Norėdami neautomatiniu būdu patvirtinti suplanuotus užsakymus, surandate ir p
     - **Grupuoti pagal laikotarpį** (skyriuje **Pirkimo** užsakymai) – pasirinkite laikotarpį, pagal kurį norite grupuoti suplanuotus pirkimo užsakymus. Jei norite naudoti šią pasirinktį, taip pat turite pažymėti parinktį **Grupuoti pagal tiekėją**.
     - **Grupuoti pagal laikotarpį** (skyriuje **Perlaidos** užsakymai) – pasirinkite laikotarpį, pagal kurį norite grupuoti suplanuotus pirkimo užsakymus. Užsakymai bus sugrupuoti pagal vertes Iš **sandėlio** ir Į **sandėlį**.
 
-    ![„FastTab“ tvirtinimo laukelio parametrai](./media/manual-firming.png "„FastTab“ tvirtinimo laukelio parametrai")
+    ![„FastTab“ tvirtinimo laukelio parametrai.](./media/manual-firming.png "„FastTab“ tvirtinimo laukelio parametrai")
 
 1. Dalyje **Vykdyti fone** „FastTab" nustatykite užduotį, kad ji būtų vykdoma paketiniu režimu ir (ar) nustatyti esamą grafiką. Tačiau, tai nėra svarbu nustatyti pasikartojantį planą, kai tai darote neautomatinį tvirtinį. Šie laukai veikia kaip tik kitiems „Supply Chain Management“ [fono](../../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) užduočių tipams. Tačiau neautomatinis virtimas paketinė užduotis apdoros tik šiuo metu pasirinktus suplanuotus užsakymus. Jis nebus apdoros jokių užsakymų, kurie atitiktų filtrus, kurie šiuo metu taikomi puslapyje.
 1. Pasirinkite **Gerai** tam, kad pritaikytumėte ir kurtumėte patvirtintus užsakymus.
@@ -140,15 +140,15 @@ Norėdami patvirtinti suplanuotą užsakymą naudodami užklausa pagrįstą tvir
     - **Laiko tvoros dienų persiuntimo tvirtinimas** – Kiekviename plane galite pasirinkti, kaip tolimoje ateityje įvairūs poreikiai ir kiti veiksniai turi būti skaičiuojami bendrojo planavimo metu.
     - **Laiko tvoros dienų siuntimo atgal tvirtinimas** – Kiekviename plane galite pasirinkti, kaip tolimoje ateityje įvairūs poreikiai ir kiti veiksniai turi būti skaičiuojami bendrojo planavimo metu.
 
-    ![„FastTab“ parametrai suplanuoto užsakymo tvirtinimo teksto laukelyje](./media/planned-order-firming-main-1.png "„FastTab“ tvirtinimo laukelio suplanuoto užsakymo parametrai")
+    ![„FastTab“ parametrai suplanuoto užsakymo tvirtinimo teksto laukelyje.](./media/planned-order-firming-main-1.png "„FastTab“ tvirtinimo laukelio suplanuoto užsakymo parametrai")
 
 1. Norėdami nurodyti, kurie įrašai turi būti įtraukti į užsakymą, pažymėkite mygtuką Filtras įrašuose, **kuriuos** norite **įtraukti** „FastTab". Atsiranda standartinis užklausos dialogo langas, kuriame galite nurodyti pasirinkimo kriterijus, rūšiavimo kriterijus ir jungtis. Šie laukai veikia kaip tik kitiems „Supply Chain Management“ fono užduočių tipams. Laukų informaciją galima tik skaityti ir vertes, susijusias su jūsų užklausa.
 
-    ![Įrašai, įtrauktintys „FastTab" į suplanuoto užsakymo tvirtinto dialogo langą](./media/planned-order-firming-main-2.png "Įrašai, įtrauktintys „FastTab&quot; į suplanuoto užsakymo tvirtinto dialogo langą")
+    ![Įrašai, įtrauktintys „FastTab" į suplanuoto užsakymo tvirtinto dialogo langą.](./media/planned-order-firming-main-2.png "Įrašai, įtrauktintys „FastTab&quot; į suplanuoto užsakymo tvirtinto dialogo langą")
 
 1. Pasirinkite **Peržiūra**, norėdami peržiūrėti jūsų tvirtinto užsakymo turinį, remiantis iki šiol nustatymais. Suplanuotų užsakymų, kurie bus patvirtinti, sąrašas rodomas kaip pranešimas. Jei reikia, galite koreguoti parametrus, kol peržiūroje bus rodomas reikiamas patvirtinti užsakymas.
 
-    ![Tvirtinto užsakymo peržiūros pavyzdys](./media/planned-order-firming-preview.png "Tvirtinto užsakymo peržiūros pavyzdys")
+    ![Tvirtinto užsakymo peržiūros pavyzdys.](./media/planned-order-firming-preview.png "Tvirtinto užsakymo peržiūros pavyzdys")
 
     > [!WARNING]
     > Ši priemonė patvirtins visus suplanuotus užsakymus, kurie atitinka filtro kriterijus. Nekritinis suplanuotų užsakymų virtimas gali sukelti nereikalingų pirkimo, perkėlimo ir gamybos užsakymų skaičių. Prieš tęsdami visada naudokite **mygtuką** Peržiūra, norėdami patikrinti įrašus, kurie bus įtraukti.

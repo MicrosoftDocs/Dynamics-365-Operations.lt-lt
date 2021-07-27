@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 2f0118b197f465113bb894e3e57b3e682e04ef36
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a277ef0634c4ddd5769d278ce6186aac5e84ebfa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796008"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352523"
 ---
 # <a name="cookie-consent-module"></a>Sutikimo dėl slapukų modulis
 
@@ -35,11 +35,11 @@ Jei svetainės vartotojo sutikimo naudoti slapukus negaunama, bet kokios funkcij
 Sutikimo dėl slapukų modulį galima konfigūruoti puslapio antraštės fragmente, kad jį būtų galima taikyti įkeliant puslapį. Sutikimo dėl slapukų modulyje turi būti aiškus pranešimas, informuojantis svetainės vartotoją apie slapukų naudojimą svetainėje ir pateikiantis saitą su svetainės privatumo puslapiu.
 
 Toliau pateiktoje iliustracijoje pabrėžiamas sutikimo dėl slapukų pranešimo, kuriame yra saitas su svetainės privatumo strategijos puslapiu, rodomu svetainės puslapio antraštėje, pavyzdys.
-![Sutikimo dėl slapukų modulio pavyzdys](./media/ecommerce-cookieconsent.png)
+![Sutikimo dėl slapukų modulio pavyzdys.](./media/ecommerce-cookieconsent.png)
 
 ## <a name="cookie-consent-module-properties"></a>Sutikimo dėl slapukų modulio ypatybės
 
-| Ypatybės pavadinimas             | Reikšmė                 | aprašymas |
+| Ypatybės pavadinimas             | Reikšmė                 | Aprašas |
 |---------------------------|-----------------------|-------------|
 | Raiškusis tekstas                  | Raiškusis tekstas | Nurodo raiškiojo teksto pranešimą svetainės vartotojams, kad svetainė naudoja naršyklės slapukus ir kad vartotojai turėtų sutikti su slapukų naudojimu, norėdami, jog svetainė būtų visiškai funkcionali. |
 | Saitai | URL | Vienas ar daugiau saitų gali būti įtraukti į svetainės privatumo puslapį, aprašantį svetainėje naudojamų slapukų tipą. |

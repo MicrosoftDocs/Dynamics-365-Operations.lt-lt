@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: a138fd4b525077f12f6575f4b10f682728b71203
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6b89c3feb9287b6f445b1dff7252899532df8819
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838724"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361226"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>ER konfigūracijų kūrimas „Regulatory Configuration Service“ (RCS) ir įkėlimas į bendrąją saugyklą
 
@@ -51,7 +51,7 @@ Jei RCS aplinka jūsų įmonei jau parengta, pasiekite ją naudodami puslapio UR
 5. Įveskite pavadinimą ir aprašą, tada pasirinkite **Kurti konfigūraciją**, kad sukurtumėte naują išvestinę versiją.
 6. Pasirinkite naujai išvestą konfigūraciją, įtraukite versijos aprašą, tada pasirinkite **Gerai**. Konfigūracijos būsena pakeičiama į **Baigta**.
 
-![Nauja konfigūracijos versija RCS](media/RCS_CompleteConfig.JPG)
+![Nauja konfigūracijos versija RCS.](media/RCS_CompleteConfig.JPG)
 
 > [!NOTE]
 > Pakeitus konfigūracijos būseną, galite gauti tikrinimo klaidos pranešimą, susijusį su prijungtomis programomis. Norėdami išjungti tikrinimą, veiksmų srities skirtuke **Konfigūracijos** pasirinkite **Vartotojo parametrai** ir nustatykite parinkties **Praleisti tikrinimą konfigūracijos būsenos keitimo ir pritaikymo kitoje vietoje metu** reikšmę kaip **Taip**. 
@@ -63,7 +63,7 @@ Norėdami bendrinti naują arba išvestinę konfigūraciją su savo organizacija
 1. Pasirinkite užbaigtą konfigūracijos versiją, tada pasirinkite **Nusiųsti į saugyklą**.
 2. Pasirinkite parinktį **Bendroji („Microsoft“)**, tada – **Nusiųsti**.
 
-    ![Nusiuntimo į saugyklą parinktys](media/RCS_Upload_to_GlobalRepo_options.JPG)
+    ![Nusiuntimo į saugyklą parinktys.](media/RCS_Upload_to_GlobalRepo_options.JPG)
 
 3. Patvirtinimo pranešimo lange pasirinkite **Taip**. 
 4. Jei reikia, atnaujinkite versijos aprašą ir pasirinkite **Gerai**. 
@@ -73,7 +73,7 @@ Konfigūracijos būsena atnaujinama į **Bendrinama**, o konfigūracija nusiunč
 - Importuoti į savo „Dynamics 365“ egzempliorių. Daugiau informacijos žr. [(ER) Konfigūracijų importavimas iš RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md).
 - Bendrinti su trečiąja šalimi arba su išorine organizacija; žr. [RCS elektroninių ataskaitų (arba) konfigūracijų bendrinimas su išorinėmis organizacijomis](rcs-global-repo-share-configuration.md)
 
-    ![Išvestinė „Intrastat Contoso“ konfigūracijos versija bendrojoje saugykloje](media/RCS_Config_upload_GlobalRepo.JPG)
+    ![Išvestinė „Intrastat Contoso“ konfigūracijos versija bendrojoje saugykloje.](media/RCS_Config_upload_GlobalRepo.JPG)
 
 ## <a name="delete-a-configuration-from-the-global-repository"></a>Konfigūracijos naikinimas iš bendrosios saugyklos
 Norėdami panaikinti konfigūraciją, kurią sukūrė jūsų organizacija, atlikite šiuos veiksmus.
@@ -84,11 +84,11 @@ Norėdami panaikinti konfigūraciją, kurią sukūrė jūsų organizacija, atlik
 4. „FastTab ”skirtuke **Filtras** suraskite konfigūraciją, kurią norite naikinti, naudodami **Filtro** funkciją.
 5. „FastTab” **Versija** pasirinkite norimos naikinti konfigūracijos versiją ir pasirinkite **Naikinti**:
 
-    ![Naikinti konfigūraciją iš bendrosios saugyklos](media/RCS_Delete_from_GlobalRepo.JPG)
+    ![Naikinti konfigūraciją iš bendrosios saugyklos.](media/RCS_Delete_from_GlobalRepo.JPG)
 
 6. Patvirtinimo pranešimo lange pasirinkite **Taip**.
 
-    ![Konfigūracijos versijos patvirtinimo pranešimo naikinimas](media/RCS_Delete_from_GlobalRepo_Msg.JPG)
+    ![Konfigūracijos versijos patvirtinimo pranešimo naikinimas.](media/RCS_Delete_from_GlobalRepo_Msg.JPG)
  
 Konfigūracijos versija panaikinama ir parodomas patvirtinimo pranešimas. 
 

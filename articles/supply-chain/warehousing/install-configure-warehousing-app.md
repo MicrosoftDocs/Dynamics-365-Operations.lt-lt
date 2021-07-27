@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: aeb9675477e728c28c38b1ef43fa6055acd23360
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 913b20d73b87f03b4b1f80efdcf6e60bd07ce270
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909384"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359490"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Sandėlio programos diegimas ir prijungimas
 
@@ -64,28 +64,28 @@ Norėdami įjungti sandėliavimo programėlę, kad ji sąveikautų su konkrečiu
 1. Įveskite vartotojo, kuris turi prieigą prie „Azure“ prenumeratos, vardą ir slaptažodį.
 1. „Azure“ portalo kairiajame naršymo skyde pasirinkite **Azure Active Directory**.
 
-    ![Azure Active Directory](media/app-connect-azure-aad.png "„Azure Active Directory“")
+    ![„Azure Active Directory”.](media/app-connect-azure-aad.png "„Azure Active Directory“")
 
 1. Įsitikinkite, kad dirbate su „Azure AD“ egzemplioriumi, kurį naudoja „Supply Chain Management“.
 1. Sąraše **Valdyti** pasirinkite **Programų registracijos**.
 
-    ![Programų registracijos](media/app-connect-azure-register.png "Programų registracijos")
+    ![Programų registracijos.](media/app-connect-azure-register.png "Programų registracijos")
 
 1. Įrankių juostoje pasirinkite **Nauja registracija**, kad būtų atidarytas vedlys **Registruoti programą**.
 1. Įveskite programos pavadinimą, pasirinkite parinktį **Paskyros tik šiame organizaciniame kataloge**, tada pasirinkite **Registruoti**.
 
-    ![Vedlys registruoti programą](media/app-connect-azure-register-wizard.png "Vedlys registruoti programą")
+    ![Vedlys registruoti programą.](media/app-connect-azure-register-wizard.png "Vedlys registruoti programą")
 
 1. Atidaroma nauja programos registracija. Pasižymėkite **Programos (kliento) ID** reikšmę, nes jos reikės vėliau. Šis ID vėliau šioje temoje bus minimas kaip *kliento ID*.
 
-    ![Programos (kliento) ID](media/app-connect-azure-app-id.png "Programos (kliento) ID")
+    ![Programos (kliento) ID.](media/app-connect-azure-app-id.png "Programos (kliento) ID")
 
 1. Sąraše **Valdyti** pasirinkite **Sertifikatas ir slaptieji raktai**. Tada, atsižvelgdami į tai, kaip norite konfigūruoti programą autentifikavimui, pasirinkite vieną iš toliau pateiktų mygtukų. (Daugiau informacijos žr. tolesniame šios temos skyriuje [Autentifikavimas naudojant sertifikatą arba kliento slaptąjį raktą](#authenticate).)
 
     - **Įkelti sertifikatą** – įkelkite sertifikatą, kuris bus naudojamas kaip slaptasis raktas. Rekomenduojame šį būdą, nes jis saugesnis ir gali būti visiškai automatizuotas. Jei sandėliavimo programėlę naudojate „Windows“ įrenginiuose, pasižymėkite rodomą **Nykščio antspaudas** vertę, po to kai įkeliate sertifikatą. Jums reikės šios reikšmės, kai konfigūruosite sertifikatą „Windows“ įrenginiuose.
     - **Naujas kliento slaptasis raktas** – sukurkite raktą įvesdami rakto aprašą ir trukmę dalyje **Slaptažodžiai**, tada pasirinkite **Įtraukti**. Sukurkite rakto kopiją ir saugiai išsaugokite.
 
-    ![Sertifikatas ir slaptieji raktai](media/app-connect-azure-authentication.png "Sertifikatas ir slaptieji raktai")
+    ![Sertifikatas ir slaptieji raktai.](media/app-connect-azure-authentication.png "Sertifikatas ir slaptieji raktai")
 
 Daugiau informacijos apie tai, kaip konfigūruoti žiniatinklio tarnybos programas „Azure AD“, ieškokite toliau nurodytuose ištekliuose.
 
@@ -105,7 +105,7 @@ Norėdami įgalinti „Supply Chain Management“, kad galėtumėte naudoti savo
     1. Sukurkite vartotoją.
     1. Priskirkite sandėliavimo mobiliojo įrenginio vartotoją.
 
-    ![Sandėliavimo mobiliojo įrenginio vartotojo priskyrimas](media/app-connect-app-users.png "Sandėliavimo mobiliojo įrenginio vartotojo priskyrimas")
+    ![Priskirkite sandėliavimo mobiliojo įrenginio vartotoją.](media/app-connect-app-users.png "Sandėliavimo mobiliojo įrenginio vartotojo priskyrimas")
 
 1. Susiekite savo „Azure AD“ programą su sandėliavimo programėlės vartotoju:
 
@@ -113,7 +113,7 @@ Norėdami įgalinti „Supply Chain Management“, kad galėtumėte naudoti savo
     1. Sukurkite eilutę.
     1. Įveskite kliento ID, kurį pasižymėjote ankstesniame skyriuje, suteikite jam pavadinimą ir pasirinkite ką tik sukurtą vartotoją. Rekomenduojame pažymėti visus savo įrenginius. Tada, juos praradus, galėsite lengvai pašalinti jų prieigą prie „Supply Chain Management“ šiame puslapyje.
 
-    ![„Azure Active Directory“ programos](media/app-connect-aad-apps.png "„Azure Active Directory“ programos")
+    ![„Azure Active Directory“ programos.](media/app-connect-aad-apps.png "„Azure Active Directory“ programos")
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Autentifikavimas naudojant sertifikatą arba kliento slaptąjį raktą
 
@@ -201,26 +201,26 @@ Norėdami importuoti ryšio parametrus iš failo arba QR kodo, atlikite toliau n
 1. Eikite į **Ryšio parametrai**.
 1. Nustatykite parinkties **Naudoti demonstracinį režimą** reikšmę kaip _Ne_.
 
-    ![Demonstracinio režimo parinkties naudojimas](media/app-connect-app-demo-mode.png "Demonstracinio režimo parinkties naudojimas")
+    ![Demonstracinio režimo parinkties naudojimas.](media/app-connect-app-demo-mode.png "Demonstracinio režimo parinkties naudojimas")
 
 1. Atsižvelgdami į tai, kaip norite importuoti parametrus, pasirinkite **Pasirinkti failą** arba **Nuskaityti QR kodą**.
 
     - Jei ryšio parametrus importuojate iš failo, gali būti, kad programa jau rado failą, jeigu jį įrašant buvo naudojamas numatytasis vardas ir numatytoji vieta. Kitu atveju pasirinkite **Pasirinkti failą**, pereikite prie failo vietiniame įrenginyje ir jį pasirinkite. Jei pasirinksite pasirinktinę vietą, programa ją išsaugos ir automatiškai naudos kitą kartą.
     - Jei importuojate ryšio parametrus nuskaitydami QR kodą, pasirinkite **Nuskaityti QR kodą**. Programa paprašo leidimo naudoti įrenginio fotoaparatą. Kai suteikiate leidimą, fotoaparatas įjungiamas, kad galėtumėte jį naudoti nuskaitydami. Priklausomai nuo įrenginio fotoaparato kokybės ir QR kodo sudėtingumo, gali būti sunku gauti tinkamą nuskaitytą vaizdą. Tokiu atveju bandykite sumažinti QR kodo sudėtingumą sugeneruodami tik vieną ryšį vienam QR kodui. (Šiuo metu QR kodui nuskaityti galite naudoti tik įrenginio fotoaparatą.)
 
-    ![Ryšio parametrų importavimas](media/app-connect-app-select-file.png "Ryšio parametrų importavimas")
+    ![Ryšio parametrų importavimas.](media/app-connect-app-select-file.png "Ryšio parametrų importavimas")
 
 1. Kai ryšio parametrai sėkmingai įkeliami, viršutiniame kairiajame puslapio kampe pasirinkite mygtuką **Atgal** (rodyklė kairėn).
 
-    ![Įkelti ryšio parametrai](media/app-connect-app-settings-loaded.png "Įkelti ryšio parametrai")
+    ![Įkelti ryšio parametrai.](media/app-connect-app-settings-loaded.png "Įkelti ryšio parametrai")
 
 1. Jei naudojate „Android“ įrenginį ir autentifikavimui naudojate sertifikatą, įrenginys paragins pasirinkti sertifikatą.
 
-    ![Raginimas pasirinkti sertifikatą „Android“ įrenginyje](media/app-connect-app-choose-cert.png "Raginimas pasirinkti sertifikatą „Android“ įrenginyje")
+    ![Raginimas pasirinkti sertifikatą „Android“ įrenginyje.](media/app-connect-app-choose-cert.png "Raginimas pasirinkti sertifikatą „Android“ įrenginyje")
 
 1. Programa prisijungia prie „Supply Chain Management“ serverio ir parodo prisijungimo puslapį.
 
-    ![Prisijungimo puslapis](media/app-connect-sign-in.png "Prisijungimo puslapis")
+    ![Prisijungimo puslapis.](media/app-connect-sign-in.png "Prisijungimo puslapis")
 
 ## <a name="manually-configure-the-application"></a><a name="config-manually"></a>Neautomatinis programos konfigūravimas
 
@@ -230,11 +230,11 @@ Galite neautomatiškai konfigūruoti programą įrenginyje, kad ji prie „Suppl
 1. Eikite į **Ryšio parametrai**.
 1. Nustatykite parinkties **Naudoti demonstracinį režimą** reikšmę kaip _Ne_.
 
-    ![Demonstracinis režimas išjungtas](media/app-connect-app-select-file.png "Demonstracinis režimas išjungtas")
+    ![Demonstracinis režimas išjungtas.](media/app-connect-app-select-file.png "Demonstracinis režimas išjungtas")
 
 1. Bakstelėkite lauką **Pasirinkti ryšį**, kad išplėstumėte parametrus, kurių reikia norint neautomatiniu būdu įvesti ryšio informaciją.
 
-    ![Neautomatiniai ryšio laukai](media/app-connect-manual-connect.png "Neautomatiniai ryšio laukai")
+    ![Neautomatiniai ryšio laukai.](media/app-connect-manual-connect.png "Neautomatiniai ryšio laukai")
 
 1. Įveskite šią informaciją:
 
