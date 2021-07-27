@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39fae603a8ae34a7500ead1d2d1cecff6dc65f1e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 62cc0bb9d62b0ab90e212b03e6c4efd9734dadec
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804046"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347421"
 ---
 # <a name="templates-and-layouts-overview"></a>Šablonų ir maketų apžvalga
 
@@ -32,7 +33,7 @@ Tinkamas būdas pradėti dirbti su šablonais – suprasti šablonų ir maketų 
 
 Toliau pateiktoje iliustracijoje rodoma sugeneruoto tinklalapio puslapio modelio hierarchija.
 
-![Puslapio modelio diagrama](../commerce/media/page-model-diagram.png)
+![Puslapio modelio diagrama.](../commerce/media/page-model-diagram.png)
 
 | Objektas        | Pagrindinė funkcija |
 |---------------|----------------|
@@ -98,7 +99,7 @@ Iš anksto nustatytas maketas ir pasirinktiniai maketai redaguojami skirtingose 
 
 Toliau pateiktose iliustracijose rodomi iš anksto nustatytų ir pasirinktinių maketų scenarijai.
 
-![Iš anksto nustatytų ir pasirinktinių maketų scenarijai](../commerce/media/template-figure1.png)
+![Iš anksto nustatytų ir pasirinktinių maketų scenarijai.](../commerce/media/template-figure1.png)
 
 Norėdami pradėti naudoti iš anksto nustatytus maketus, žr. [Darbas su iš anksto nustatytais maketais](work-with-layouts.md).
 

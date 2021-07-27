@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 96a600279b7a90d6626d23ee8868de13e9dd0f14
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 2b6f9663ed08ab431ffc6ffe3154854250c1b092
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270890"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350479"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas
 
@@ -105,7 +105,7 @@ API parametrą `QuantityUnitTypeValue` galite naudoti vieneto tipui, kuriuo API 
 
 Kai kanalo skaičiavimas tinkamai sukonfigūruotas ir valdomas, jis gali teikti patikimesnį dabartinių parduotuvės atsargų įvertinimą, nes jis naudoja transakcijų duomenis, kurie yra komercijos kanalo duomenų bazėje, tačiau apie kuriuos štabas dar gali neturėti informacijos. Pvz., jei naudojate esamą atsargų peržvalgų EKA paslaugos realiu laiku iškvietą, štabas tikriausiai dar nebus informacijos apie produkto pardavimą už grynuosius pinigus, kuris ką tik buvo įvykdytas. Todėl produkto turimų atsargų vertė, kurią pateikia štabas, veikiausiai viršys faktines parduotuvės turimas atsargas pagal vieną vienetą. Tačiau, jei naudojate kanalo skaičiavimą, pardavimas už grynuosius pinigus gali būti įtrauktas į skaičiavimą ir atimtas iš turimų atsargų vertės, kuri rodoma. Nors vertės, kurias teikia ir kanalų skaičiavimas, ir paslaugos realiu laiku iškvieta yra tik turimų atsargų įvertinimas, vertė, kurią pateikia kanalo skaičiavimas, yra daug labiau tikėtina, kad yra tiksli dabartinėje parduotuvėje.
 
-Norėdami konfigūruoti EKA atsargų peržvalgos operaciją būstinėje, kad ji būtų naudojama kanalo skaičiavimo logikai ir **išjungtas** realaus laiko paslaugų iškvietimas, atlikite šiuos veiksmus.
+Norėdami konfigūruoti EKA **Atsargų peržvalgos** operaciją „Commerce” štabe, kad galėtumėte naudoti kanalo pusės apskaičiavimo logiką ir išjungti realaus laiko paslaugų skambučius, pirmiausia turite įjungti **Optimizuoto produkto prieinamumo skaičiavimo** funkciją per **Funkcijų valdymo** darbo sritį „Commerce” štabe, o tada atlikti šiuos veiksmus.
 
 1. Eikite į **Mažmeninį prekyba ir komercija \> Kanalo sąranka \> EKA sąranka \> EKA profiliai \> Funkcionalumo profiliai**.
 1. Pasirinkite funkcijų šabloną.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 325bd8a9de07e3978ff6c513975a0e8db22854e0
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: c405d933adff08e2a4ce12dc53329f10a9ae89b7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054361"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346303"
 ---
 # <a name="dataverse-tables"></a>„Dataverse“ lentelės
 
@@ -152,27 +152,27 @@ Tolesnės „Dataverse“ lentelės yra prieinamos pagal „Human Resources“ o
 
 ### <a name="worker"></a>Darbuotojas
 
-![Darbuotojas](./media/HCMCommon-worker-entity-diagram.png)
+![Darbininkas.](./media/HCMCommon-worker-entity-diagram.png)
 
 ### <a name="job-and-job-position"></a>Užduotis ir pareigos
 
-![Užduotis ir pareigos](./media/HCMCommon-job-and-job-position-entity-diagram.png)
+![Užduotis ir pareigos.](./media/HCMCommon-job-and-job-position-entity-diagram.png)
 
-### <a name="benefits"></a>Išmokos
+### <a name="benefits"></a>Nauda
 
-![Išmokos](./media/HCMCommon-benefits-entity-diagram.png)
+![Nauda.](./media/HCMCommon-benefits-entity-diagram.png)
 
 ### <a name="compensation"></a>Kompensacija
 
-![Kompensacija](./media/HCMCommon-compensation-entity-diagram.png)
+![Kompensacija.](./media/HCMCommon-compensation-entity-diagram.png)
 
-### <a name="leave"></a>Išeiti
+### <a name="leave"></a>Atostogos
 
-![Išeiti](./media/HCMCommon-leave-entity-diagram.png)
+![Atostogos.](./media/HCMCommon-leave-entity-diagram.png)
 
 ### <a name="work-calendar"></a>Darbo kalendorius
 
-![Darbo kalendorius](./media/HCMCommon-work-calendar-entity-diagram.png)
+![Darbo kalendorius.](./media/HCMCommon-work-calendar-entity-diagram.png)
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

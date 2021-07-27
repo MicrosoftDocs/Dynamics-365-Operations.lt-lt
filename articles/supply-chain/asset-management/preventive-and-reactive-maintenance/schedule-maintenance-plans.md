@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9c19f999a94e6ad8451c208cf204d0b59306b77d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a447dee71e57df07d1e7709bc8e4d075fcc803b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837806"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343681"
 ---
 # <a name="schedule-maintenance-plans"></a>Planuoti priežiūros planus
 
@@ -52,14 +52,14 @@ Planuojant prevencinę priežiūrą pagal nustatytus turto priežiūros planus g
 
 5. Spustelėkite **Gerai**, kad būtų pradėti generuoti turto priežiūros grafiko įrašai. Sugeneruoti įrašai bus rodomi sąrašo puslapyje **Visas priežiūros grafikas**. Toliau pateikiamame paveikslėlyje pavaizduotas dialogo lango **Planuoti priežiūros planus** pavyzdys.
 
-![1 pav.](media/09-preventive-maintenance.png)
+![1 iliustracija.](media/09-preventive-maintenance.png)
 
 - Dialogo lange **Planuoti priežiūros planus**, „FastTab“ **Vykdyti fone** galite nustatyti paketines užduotis, kad kalendoriaus įrašai būtų automatiškai generuojami reguliariais intervalais.  
 - Planuojant prevencinę priežiūrą priežiūros nebus sukurta grafiko eilučių, kurių numatoma pradžios data ir laikas yra ankstesni už sistemos datą ir laiką.  
 
 Toliau pateiktame paveikslėlyje pavaizduotas priežiūros plano pagal laiką apskaičiavimas.  
 
-![2 paveikslėlis](media/10-preventive-maintenance.jpg)
+![2 iliustracija.](media/10-preventive-maintenance.jpg)
 
 Dėl priežiūros planų pagal skaitiklį: toliau pateiktuose paveikslėliuose, rodomi du skirtingi skaitiklio registravimo ciklai. Jie pagrįsti nustatytu turto „V0001“ priežiūros planu numatant, kad turtas (automobilis) kiekvieną mėnesį nuvažiuos apie 2 000 km.
 
@@ -69,9 +69,9 @@ Kitame paveikslėlyje kiekvieną mėnesį užregistruojami 2 000 km arba daugiau
 
 Iš aprašytų pavyzdžių matyti, kad visose skaitiklio turto registracijose matoma tendencija apibūdinti turto nusidėvėjimą. Ši tendencija naudojama kaip skaičiavimo pagrindas priežiūros plano planavimo metu.
 
-![3 paveikslėlis](media/11-preventive-maintenance.png)
+![3 iliustracija.](media/11-preventive-maintenance.png)
 
-![4 paveikslėlis](media/12-preventive-maintenance.png)
+![4 iliustracija.](media/12-preventive-maintenance.png)
 
 
 

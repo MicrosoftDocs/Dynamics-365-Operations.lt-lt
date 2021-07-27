@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: a49a0d05a55e72b5dae17933d38d03287a01d5ee
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: dce26087a81e38c5618b07a9341fee195e3c98c9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936809"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346809"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Atributų ir atributų grupių tvarkymas
 
@@ -70,7 +70,7 @@ Atributai pagrįsti *atributų tipais*. Atributo tipas identifikuoja duomenų, k
     - Vieną atributų tipą pavadinkite **Lęšio forma** ir įtraukite šias reikšmes: **Ovalas**, **Kvadratas** ir **Stačiakampis**.
     - Kitą atributų tipą pavadinkite **Akinių nuo saulės prekės ženklas** ir įtraukite šias reikšmes: **„Ray ban“**, **„Aviator“** ir **„Oakley“**.
 
-![Atributų tipai](media/AttributeType.png)
+![Atributų tipai.](media/AttributeType.png)
 
 ### <a name="set-up-an-attribute"></a>Nustatyti atributą
 
@@ -79,7 +79,7 @@ Atributai pagrįsti *atributų tipais*. Atributo tipas identifikuoja duomenų, k
 3. Sukurkite atributą pavadinimu **Lęšis**.
 4. Lauką **Atributo tipas** nustatykite kaip **Lęšio forma**.
 
-![Atributai](media/Attribute.png)
+![Atributai.](media/Attribute.png)
 
 ## <a name="attribute-metadata"></a>Atributo metaduomenys
 
@@ -134,7 +134,7 @@ Puslapyje **Filtrų rodymo nuostatos** pateikti tolesni laukai.
     - 200–500
     - 500 ar daugiau
 
-![Atributų filtrų parametrai](media/AttributeFilterSettings.PNG)
+![Atributų filtro parametrai.](media/AttributeFilterSettings.PNG)
 
 ## <a name="attribute-groups"></a>Atributų grupės
 
@@ -142,7 +142,7 @@ Atributus apibrėžus, juos galima priskirti atributų grupėms. *Atributų grup
 
 Taip pat galite nustatyti į atributų grupę įtrauktų atributų numatytąsias reikšmes. Pavyzdžiui, į atributų grupę įtraukiate spalvos atributą ir kaip numatytąją atributo reikšmę pasirenkate **Mėlyna**. Tokiu atveju, kai atributų grupė įtraukiama į produktą, kurio vienas iš atributų yra spalva, kaip numatytoji to produkto spalva rodoma **Mėlyna**.
 
-![Atributų grupės](media/AttributeGroup.png)
+![Atributų grupės.](media/AttributeGroup.png)
 
 ### <a name="create-an-attribute-group"></a>Atributų grupės kūrimas
 
@@ -155,7 +155,7 @@ Taip pat galite nustatyti į atributų grupę įtrauktų atributų numatytąsias
 
 Šių tipų kategorijų hierarchijose – Prekybos produktų hierarchija, Kanalo naršymo kategorijų hierarchija ir Papildomų produktų kategorijų hierarchija – su kategorijų mazgais galima susieti vieną ar kelias atributų grupes. Produktus suskirsčius į kategorijas, jie paveldi atributus, įtrauktus į atributų grupes.
 
-![Produktų hierarchija – produktų atributų grupės](media/AGRetailProdHierarchy.PNG)
+![Produktų hierarchija – produktų atributų grupės.](media/AGRetailProdHierarchy.PNG)
 
 Norėdami atributų grupes priskirti prekybos produktų hierarchijos kategorijoms, atlikite tolesnius veiksmus.
 
@@ -200,7 +200,7 @@ Vieną ar kelias atributų grupes galima susieti su viena ar keliomis parduotuvi
     3. Pasirinkite kategorijos mazgą **Madingi priedai**, pasirinkite kategoriją **Madingi akiniai nuo saulės**, tada „FastTab“ skirtuke **Kanalo produktų atributai** kiekvienam atributui parinkite **Įtraukti atributą**.
     4. Pasirinkite kategorijos mazgą **Vyriški drabužiai**, pasirinkite kategoriją **Kelnės**, tada „FastTab“ skirtuke **Kanalo produktų atributai** kiekvienam atributui parinkite **Įtraukti atributą**.
 
-![Kanalų kategorijos ir produktų atributai – atributų grupės](media/CCPAttrGrp.png)
+![Kanalų kategorijos ir produktų atributai – atributų grupės.](media/CCPAttrGrp.png)
 
 ## <a name="overriding-attribute-values"></a>Atributo reikšmių nepaisymas
 
@@ -214,7 +214,7 @@ Atskirų produktų atributų numatytųjų reikšmių galima nepaisyti produkto l
 4. Tinklelyje pasirinkite reikiamą produktą. Tada veiksmų srities skirtuko **Produktas** grupėje **Nustatyti** pasirinkite **Produktų atributai**.
 5. Pasirinkite atributą kairiojoje srityje, tada atnaujinkite jo reikšmę dešiniojoje srityje.
 
-![Išsamios produktų informacijos puslapis – produktų atributų grupės](media/ProdDetailsProdAttrValues.png)
+![Išsamios produktų informacijos puslapis – produktų atributų grupės.](media/ProdDetailsProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-catalog"></a>Katalogo produktų atributų reikšmių nepaisymas
 
@@ -233,7 +233,7 @@ Atskirų produktų atributų numatytųjų reikšmių galima nepaisyti produkto l
     > [!NOTE]
     > Jei sukuriama bendrai naudojama produktų medija ir bendrai naudojami produktų atributai, jie taikomi visiems produktams.
 
-![Katalogų produktų atributų grupės](media/CatalogProdAttrValues.png)
+![Katalogų produktų atributų grupės.](media/CatalogProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-channel"></a>Kanalo produktų atributų reikšmių nepaisymas
 

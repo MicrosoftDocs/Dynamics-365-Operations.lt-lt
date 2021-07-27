@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7d338ba207c9a101f5e224ca66555b16a457bcbc
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 076d4a68362dbf11c5fcf223a836f075d07e27a3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271406"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350333"
 ---
 # <a name="apply-unit-of-measure-settings"></a>Taikyti matavimo vieneto parametrus
 
@@ -32,7 +32,7 @@ Produktą galima parduoti skirtingais vienetais, pvz., „kiekviena," „pora" i
 
 Toliau pateiktame pavyzdyje parodytas produkto pardavimo vienetas pagal matavimo **vienetą** „Commerce Headquarters" konfigūruotas.
 
-![Produkto, sukonfigūruotas naudojant matavimo vienetą „Commerce Headquarters", pavyzdys](./media/Productunit-headquarters.PNG)
+![Produkto, sukonfigūruotas naudojant matavimo vienetą „Commerce Headquarters”, pavyzdys.](./media/Productunit-headquarters.PNG)
 
 > [!NOTE]
 > Galima naudoti „Commerce" 10.0.19 versijos leidimą, siekiant pritaikyti ir rodyti matavimo vienetą.
@@ -54,11 +54,11 @@ Moduliuose, kuriuose naudojami matavimo vienetų parametrai, yra pirkimo dėžė
 
 Toliau pateiktame pavyzdyje produkto informacijos puslapis (PDP) rodo produkto matavimo **vienetą** (lt).
 
-![PDP, kuriame rodomas matavimo vienetas, pavyzdys](./media/Productunit-PDP.png)
+![PDP, kuriame rodomas matavimo vienetas, pavyzdys.](./media/Productunit-PDP.png)
 
 Toliau pateiktame pavyzdyje produkto surinkimo modulis rodo produkto matavimo **vienetą** (lt).
 
-![Produkto surinkimo mudlis, kuriame rodomas matavimo vienetas, pavyzdys](./media/Productunit-productcollection.png)
+![Produkto surinkimo mudlis, kuriame rodomas matavimo vienetas, pavyzdys.](./media/Productunit-productcollection.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 3d197046bd547757f32712a50949b41897f6fedf
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 6834b460d3a78e47edb2edb7a72651e8454bf0ac
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020096"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343819"
 ---
 # <a name="tax-is-posted-to-the-wrong-ledger-account-in-the-voucher"></a>Mokestis registruojamas neteisingame DK sąskaitoje kvite
 
@@ -30,26 +30,26 @@ Publikavimo metu, mokesčiai gali būti publikuoti į ne tą DK paskyrą kvite. 
 
 1. Kvito **operacijų puslapyje pasirinkite** operaciją, su kuria norite dirbti, tada pasirinkite **Užregistruotas** PVM.
 
-    [![Užregistruotas PVM mygtukas kvito operacijų puslapyje](./media/tax-posted-to-wrong-ledger-account-Picture1.png)](./media/tax-posted-to-wrong-ledger-account-Picture1.png)
+    [![Užregistruotas PVM mygtukas kvito operacijų puslapyje.](./media/tax-posted-to-wrong-ledger-account-Picture1.png)](./media/tax-posted-to-wrong-ledger-account-Picture1.png)
 
 2. Lauke **PVM kodas** peržiūrėkite vertę. Šiame pavyzdyje tai **19** PVM.
 
-    [![PVM kodo laukas užregistruoto PVM puslapyje](./media/tax-posted-to-wrong-ledger-account-Picture2.png)](./media/tax-posted-to-wrong-ledger-account-Picture2.png)
+    [![PVM kodo laukas užregistruoto PVM puslapyje.](./media/tax-posted-to-wrong-ledger-account-Picture2.png)](./media/tax-posted-to-wrong-ledger-account-Picture2.png)
 
 ## <a name="check-the-ledger-posting-group-of-the-tax-code"></a>Patikrinti mokesčio kodo DK registravimo grupę
 
 1. Nueikite į **Mokestis** \> **Netiesioginiai mokesčiai** \> **PVM** \> **PVM kodai**.
 2. Raskite ir pasirinkite mokesčio kodą, tada peržiūrėkite vertę lauke **DK registravimo** grupė. Šiame pavyzdyje tai **PVM**.
 
-    [![DK publikavimo grupės laukelis PVM kodo puslapyje](./media/tax-posted-to-wrong-ledger-account-Picture3.png)](./media/tax-posted-to-wrong-ledger-account-Picture3.png)
+    [![DK publikavimo grupės laukelis PVM kodo puslapyje.](./media/tax-posted-to-wrong-ledger-account-Picture3.png)](./media/tax-posted-to-wrong-ledger-account-Picture3.png)
 
 3. Lauke **DK registravimo grupė** įveskite vertę. Norėdami peržiūrėti išsamią grupės konfigūracijos informaciją, pasirinkite saitą. Arba pasirinkite ir laikykite (arba spustelėkite dešiniuoju pelės mygtuku) lauke ir pasirinkite **Peržiūrėti** informaciją.
 
-    [![Papildomos informacijos komandos peržiūra](./media/tax-posted-to-wrong-ledger-account-Picture4.png)](./media/tax-posted-to-wrong-ledger-account-Picture4.png)
+    [![Papildomos informacijos komandos peržiūra.](./media/tax-posted-to-wrong-ledger-account-Picture4.png)](./media/tax-posted-to-wrong-ledger-account-Picture4.png)
 
 4. Mokėtino **PVM** lauke, atsižvelgiant į operacijos tipą, patikrinkite, ar sąskaitos numeris teisingas. Jei jos nėra, pasirinkite tinkamą sąskaitą, į ją įregistruokite. Šiame pavyzdyje pardavimo užsakymo PVM turi būti registruojamas mokėtino PVM sąskaitoje, 222200.
 
-    [![Mokėtino PVM laukas DK registravimo grupių puslapyje](./media/tax-posted-to-wrong-ledger-account-Picture5.png)](./media/tax-posted-to-wrong-ledger-account-Picture5.png)
+    [![Mokėtino PVM laukas DK registravimo grupių puslapyje.](./media/tax-posted-to-wrong-ledger-account-Picture5.png)](./media/tax-posted-to-wrong-ledger-account-Picture5.png)
 
     Toliau esančioje lentelėje pateikiama informacija apie kiekvieną DK registravimo **grupių puslapio** lauką.
 
@@ -71,11 +71,11 @@ Kode registravimo sąskaitą nustato DK dimensija. DK dimensija įrašo sąskait
 
 1. Pardavimo užsakymui pridėkite stabdos tašką mokesčių **saveAndPost::()** ir **Tax ::post()** metoduose. Skirti dėmesį į **\_ledgerDimension** vertę.
 
-    [![Pardavimo užsakymo kodo pavyzdys, kuriame yra stabdos taškas](./media/tax-posted-to-wrong-ledger-account-Picture6.png)](./media/tax-posted-to-wrong-ledger-account-Picture6.png)
+    [![Pardavimo užsakymo kodo pavyzdys, kuriame yra stabdos taškas.](./media/tax-posted-to-wrong-ledger-account-Picture6.png)](./media/tax-posted-to-wrong-ledger-account-Picture6.png)
 
     Pirkimo užsakymui, įtraukite stabdos tašką **TaxPost::saveAndPost()** ir **TaxPost::postToTaxTrans()** metodus. Skirti dėmesį į **\_ledgerDimension** vertę.
 
-    [![Pirkimo užsakymo kodo pavyzdys, kuriame yra stabdos taškas](./media/tax-posted-to-wrong-ledger-account-Picture7.png)](./media/tax-posted-to-wrong-ledger-account-Picture7.png)
+    [![Pirkimo užsakymo kodo pavyzdys, kuriame yra stabdos taškas.](./media/tax-posted-to-wrong-ledger-account-Picture7.png)](./media/tax-posted-to-wrong-ledger-account-Picture7.png)
 
 2. Vykdykite šią SQL užklausą, kad duomenų bazėje surasti rodomą sąskaitos vertę, pagrįstą įrašo ID, kuris įrašytas DK dimensijos.
 
@@ -83,7 +83,7 @@ Kode registravimo sąskaitą nustato DK dimensija. DK dimensija įrašo sąskait
     select * from DIMENSIONATTRIBUTEVALUECOMBINATION where recid={the value of _ledgerDimension}
     ```
 
-    [![Rodyti įrašo ID vertę](./media/tax-posted-to-wrong-ledger-account-Picture8.png)](./media/tax-posted-to-wrong-ledger-account-Picture8.png)
+    [![Rodyti įrašo ID vertę.](./media/tax-posted-to-wrong-ledger-account-Picture8.png)](./media/tax-posted-to-wrong-ledger-account-Picture8.png)
 
 3. Išnagrinėkite užduoties reikšmę, kad **_ledgerDimension** kur priskirta ši vertė. Paprastai vertė yra iš **TmpTaxWorkTrans**. Tokiu atveju turėtumėte įtraukti stabdos tašką **TmpTaxWorkTrans::insert()** ir **TmpTaxWorkTrans::update()** kad rastumėte, kur priskirta vertė.
 

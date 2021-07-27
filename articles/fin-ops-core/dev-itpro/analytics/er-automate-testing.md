@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 0d029773d9aa59b27f80d2f670984a352e163122
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6b8e3d129c40e33aeb91e823528a3bc89d2d9568
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743876"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351871"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Bandymų automatizavimas naudojant elektronines ataskaitas
 
@@ -59,7 +59,7 @@ Norint atlikti šioje temoje esančias užduotis, būtina įgyvendinti toliau nu
 - Įdiekite topologiją, palaikančią testavimo automatizavimą. Turite turėti vaidmens **Sistemos administratorius** teises pasiekti šios topologijos egzempliorių. Šioje topologijoje turi būti demonstracinių duomenų, kurie bus naudojami šiame pavyzdyje. Norėdami gauti daugiau informacijos, žr. [Aplinkos, palaikančios nuolatinio komponavimo versijų ir tikrinimo automatizavimo funkciją, diegimas](../perf-test/continuous-build-test-automation.md).
 - Norint automatiškai vykdyti vartotojo priėmimo ir integravimo testus, reikia įdiegti RSAT topologijoje, kurią naudojate, ir atitinkamai jį konfigūruoti. Informacijos, kaip įdiegti ir sukonfigūruoti RSAT, bei jį sukonfigūruoti taip, kad jis veiktų su „Finance and Operations“ programomis bei „Azure DevOps“, žr. [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Atkreipkite dėmesį į būtinąsias įrankio naudojimo sąlygas. Tolesnėje iliustracijoje pateikiamas RSAT parametrų pavyzdys. Mėlyname stačiakampyje nurodomi parametrai, kurie apibrėžia prieigą prie „Azure DevOps“. Žaliame stačiakampyje nurodomi parametrai, kurie apibrėžia prieigą prie egzemplioriaus.
 
-    ![RSAT parametrai](media/GER-Configure.png "Dialogo lango RSAT parametrai ekrano kopija")
+    ![RSAT parametrai.](media/GER-Configure.png "Dialogo lango RSAT parametrai ekrano kopija")
 
 - Jei norite tvarkyti paketuose esančius testų aprašus, kad užtikrintumėte tinkamą vykdymo seką ir gautumėte testų vykdymo žurnalus tolesnių ataskaitų generavimo ir tyrimo tikslais, turite turėti prieigą prie „Azure DevOps“ iš įdiegtos topologijos.
 - Kad užbaigtumėte šioje temoje pateiktą pavyzdį, rekomenduojame atsisiųsti [ER naudojimas siekiant atlikti RSAT testus](https://go.microsoft.com/fwlink/?linkid=874684). Šiame ZIP faile yra šie užduočių vedliai:
@@ -78,7 +78,7 @@ Norint atlikti šioje temoje esančias užduotis, būtina įgyvendinti toliau nu
     - ER modelio susiejimo **Mokėjimo modelio susiejimas 1611** konfigūracija
     - **BACS (JK)** ER formato konfigūracija
 
-    ![Elektroninių ataskaitų konfigūracijos](media/GER-Configurations.png "Modulio Elektroninės ataskaitos puslapio Konfigūracijos ekrano kopija")
+    ![Elektroninių ataskaitų konfigūracijos.](media/GER-Configurations.png "Modulio Elektroninės ataskaitos puslapio Konfigūracijos ekrano kopija")
 
 3. Pasirinkite demonstracinių duomenų įmonę **GBSI**, kurios šalies / regiono kontekstas yra Didžiojoje Britanijoje.
 4. Sukonfigūruokite mokėtinų sumų modulio parametrus:
@@ -90,7 +90,7 @@ Norint atlikti šioje temoje esančias užduotis, būtina įgyvendinti toliau nu
         1. „FastTab“ **Failo formatai** nustatykite parinktį **Bendras elektroninis eksportavimo formatas** į **Taip**.
         2. Lauke **Eksportuoti formato konfigūraciją** pasirinkite **BACS (JK)**.
 
-    ![Puslapis Mokėjimo būdai](media/GER-APParameters.png "Puslapio Mokėjimo būdai ekrano kopija")
+    ![Puslapis Mokėjimo būdai.](media/GER-APParameters.png "Puslapio Mokėjimo būdai ekrano kopija")
 
     > [!NOTE]
     > Jei turite išvestą šio ER formato versiją, sukurtą tinkinimo tikslais, galite pasirinkti šią konfigūraciją mokėjimo būdo **Elektroninis** dalyje.
@@ -100,7 +100,7 @@ Norint atlikti šioje temoje esančias užduotis, būtina įgyvendinti toliau nu
     1. Eikite į **Mokėtinos sumos \> Mokėjimai \> Mokėjimų žurnalas**.
     2. Įsitikinkite, kad neužregistravote mokėjimų žurnalo.
 
-        ![Puslapis Mokėjimų žurnalas](media/GER-APJournal.png "Puslapio Mokėjimų žurnalas ekrano kopija")
+        ![Puslapis Mokėjimų žurnalas.](media/GER-APJournal.png "Puslapio Mokėjimų žurnalas ekrano kopija")
 
     3. Pasirinkite **Eilutės** ir įveskite eilutę, kurioje yra toliau nurodyta informacija.
 
@@ -113,7 +113,7 @@ Norint atlikti šioje temoje esančias užduotis, būtina įgyvendinti toliau nu
         | Korespondentinė sąskaita      | GBSI OPER       |
         | Mokėjimo būdas   | Elektroninis      |
 
-    ![Puslapis Tiekėjo mokėjimai](media/GER-APJournalLines.png "Puslapio Tiekėjo mokėjimai ekrano kopija")
+    ![Puslapis Tiekėjo mokėjimai.](media/GER-APJournalLines.png "Puslapio Tiekėjo mokėjimai ekrano kopija")
 
 ## <a name="prepare-the-er-framework-to-test-vendor-payment-processing"></a>ER sistemos paruošimas, kad būtų galima apdoroti tiekėjo mokėjimus
 
@@ -122,7 +122,7 @@ Norint atlikti šioje temoje esančias užduotis, būtina įgyvendinti toliau nu
 1. Pasirinkite **Organizacijos administravimas \> Elektroninės ataskaitos \> Elektroninių ataskaitų parametrai**.
 2. Skirtuko **Priedai** lauke **Pagrindinė informacija** pasirinkite **Failas** kaip dokumento tipą, kurį naudoja dokumentų valdymo (DM) sistema, kad išsaugotų dokumentus, susijusius su pagrindinės informacijos funkcija, kaip DM priedus.
 
-    ![Elektroninių ataskaitų parametrų puslapis](media/GER-ERParameters.png "Puslapio Elektroninių ataskaitų parametrai ekrano kopija")
+    ![Elektroninių ataskaitų parametrų puslapis.](media/GER-ERParameters.png "Puslapio Elektroninių ataskaitų parametrai ekrano kopija")
 
 ### <a name="generate-baseline-copies-of-vendor-paymentrelated-documents"></a>Tiekėjo mokėjimo dokumentų pagrindinės informacijos kopijų generavimas
 
@@ -139,7 +139,7 @@ Norint atlikti šioje temoje esančias užduotis, būtina įgyvendinti toliau nu
     - Mokėjimo failas **Failas** teksto formatu
     - **ERVendOutPaymControlReport** kontrolės ataskaitos failas XLSX formatu
 
-    ![Išskleisti failai](media/GER-APJournalProcessed.png "Išskleistų failų vardų „Windows“ naršyklėje ekrano kopija")
+    ![Išskleisti failai.](media/GER-APJournalProcessed.png "Išskleistų failų vardų „Windows“ naršyklėje ekrano kopija")
 
 ### <a name="turn-on-the-er-baseline-feature"></a>ER pagrindinės informacijos funkcijos įjungimas
 
@@ -177,7 +177,7 @@ Norint atlikti šioje temoje esančias užduotis, būtina įgyvendinti toliau nu
     3. Naršykite ir pasirinkite vietoje įrašytą kontrolės ataskaitos failą **ERVendOutPaymControlReport** XLSX formatu.
     4. Lauke **Aprašas** įveskite **Mokėjimo XLSX kontrolės ataskaita**.
 
-    ![Tiekėjo mokėjimų failo pagrindinė informacija ir kontrolės ataskaita](media/GER-BaselineAttachments.png "Puslapio Konfigūracijos su pasirinkta mokėjimo XLSX kontrolės ataskaita ekrano kopija")
+    ![Tiekėjo mokėjimų failo pagrindinė informacija ir kontrolės ataskaita.](media/GER-BaselineAttachments.png "Puslapio Konfigūracijos su pasirinkta mokėjimo XLSX kontrolės ataskaita ekrano kopija")
 
 8. Uždarykite puslapį.
 9. „FastTab“ **Pagrindinė informacija** pasirinkite **Nauja** ir sukonfigūruokite mokėjimo failo pagrindinę informaciją:
@@ -196,7 +196,7 @@ Norint atlikti šioje temoje esančias užduotis, būtina įgyvendinti toliau nu
     4. Lauke **Failo vardo šablonas** įveskite **\*.XLSX**, kad taikytumėte šią pagrindinę informaciją tik **ERVendOutPaymControlReport** formato komponento išvestims, kurių failo vardo plėtinys **.xslx**.
     5. Lauke **Pagrindinė informacija** pasirinkite **Mokėjimo XLSX kontrolės ataskaita**, kad ši pagrindinė informacija būtų naudojama atliekant palyginimą su sugeneruota išvestimi.
 
-    ![Puslapio Konfigūracijos „FastTab“ Pagrindinė informacija](media/GER-BaselineRules.png "Puslapio Konfigūracijos „FastTab“ Pagrindinė informacija ekrano kopija")
+    ![Puslapio Konfigūracijos „FastTab“ Pagrindinė informacija.](media/GER-BaselineRules.png "Puslapio Konfigūracijos „FastTab“ Pagrindinė informacija ekrano kopija")
 
 ## <a name="record-tests-to-validate-vendor-payment-processing"></a>Įrašykite tiekėjo mokėjimų apdorojimo patikrinimo testus
 
@@ -226,15 +226,15 @@ Pagal šį užduoties įrašą atliekami toliau nurodyti veiksmai.
 
 1. Nustatykite apdorotos mokėjimo eilutės būseną **Nėra**.
 
-    ![Užduoties įrašymo 3–4 veiksmai](media/GER-Recording1Review1.png "Užduoties įrašymo 3–4 veiksmų ekrano kopija")
+    ![Užduoties įrašymo 3–4 veiksmai.](media/GER-Recording1Review1.png "Užduoties įrašymo 3–4 veiksmų ekrano kopija")
 
 2. Įjunkite **Vykdyti derinimo režimu** ER vartotojo parametrą.
 
-    ![Užduoties įrašymo 9–10 veiksmai](media/GER-Recording1Review2.png "Užduoties įrašymo 9–10 veiksmų ekrano kopija")
+    ![Užduoties įrašymo 9–10 veiksmai.](media/GER-Recording1Review2.png "Užduoties įrašymo 9–10 veiksmų ekrano kopija")
 
 3. Išvalykite ER derinimo žurnalą, kuriame yra sugeneruotų failų palyginimo su pagrindine informacija rezultatai.
 
-    ![Užduoties įrašymo 13–15 veiksmai](media/GER-Recording1Review3.png "Užduoties įrašymo 13–15 veiksmų ekrano kopija")
+    ![Užduoties įrašymo 13–15 veiksmai.](media/GER-Recording1Review3.png "Užduoties įrašymo 13–15 veiksmų ekrano kopija")
 
 ### <a name="record-the-steps-to-test-vendor-payment-processing"></a>Įrašykite tiekėjo mokėjimų apdorojimo testavimo veiksmus
 
@@ -253,21 +253,21 @@ Pagal šį užduoties įrašą atliekami toliau nurodyti veiksmai.
 1. Pradėkite tiekėjo mokėjimų apdorojimą.
 2. Pasirinkite tinkamus vykdymo parametrus ir įjunkite kontrolės ataskaitos generavimą.
 
-    ![Užduoties įrašymo 3–8 veiksmai](media/GER-Recording2Review1.png "Užduoties įrašymo 3–8 veiksmų ekrano kopija")
+    ![Užduoties įrašymo 3–8 veiksmai.](media/GER-Recording2Review1.png "Užduoties įrašymo 3–8 veiksmų ekrano kopija")
 
 3. Pasiekite ER derinimo žurnalą, kad įrašytumėte sugeneruotos išvesties palyginimo su atitinkama pagrindine informacija rezultatus.
 
     ER derinimo žurnale palyginimo rezultatai rodomi lauke **Sugeneruotas tekstas**. Laukai **Formato komponentas** ir **Formato kelias, dėl kurio atsirado žurnalo įrašas** nurodo failo komponentą, kurio sugeneruota išvestis buvo palyginta su pagrindine informacija.
 
-    ![Įrašai puslapyje Elektroninių ataskaitų vykdymo žurnalai](media/GER-ERDebugLog.png "Įrašų puslapyje Elektroninių ataskaitų vykdymo žurnalai ekrano kopija")
+    ![Įrašai puslapyje Elektroninių ataskaitų vykdymo žurnalai.](media/GER-ERDebugLog.png "Įrašų puslapyje Elektroninių ataskaitų vykdymo žurnalai ekrano kopija")
 
 4. Dabartinės išvesties palyginimas su pagrindine informacija įrašomas naudojant užduočių įrašymo priemonės parinktį **Tikrinti** ir pasirinkus  **Dabartinė reikšmė**.
 
-    ![Parinkties Tikrinti naudojimas norint palyginti su dabartine reikšme](media/GER-TRRecordValidation.png "Parinkties Tikrinti naudojimo norint palyginti su dabartine reikšme ekrano kopija")
+    ![Parinkties Tikrinti naudojimas norint palyginti su dabartine reikšme.](media/GER-TRRecordValidation.png "Parinkties Tikrinti naudojimo norint palyginti su dabartine reikšme ekrano kopija")
 
     Toliau pateiktoje iliustracijoje parodyta, kaip atrodo įrašyti tikrinimo veiksmai užduoties įraše.
 
-    ![Užduoties įrašymo 13 ir 15 veiksmai](media/GER-Recording2Review2.png "Užduoties įrašymo 13 ir 15 veiksmų ekrano kopija")
+    ![Užduoties įrašymo 13 ir 15 veiksmai.](media/GER-Recording2Review2.png "Užduoties įrašymo 13 ir 15 veiksmų ekrano kopija")
 
 ## <a name="add-the-recorded-tests-to-azure-devops"></a>Įtraukite įrašytus testus į „Azure DevOps“
 
@@ -284,7 +284,7 @@ Pagal šį užduoties įrašą atliekami toliau nurodyti veiksmai.
     1. Sukurkite testo aprašo pavadinimą **Testuoti tiekėjo mokėjimų apdorojimą naudojant ER formatą BACS (JK)**.
     2. Pridėkite failą **Recording.xml** iš aplanko **Apdoroti**, kurį atsisiuntėte anksčiau.
 
-    ![Nauji pasirinkto tikrinimo plano tikrinimo atvejai](media/GER-RSAT-DevOps-Tests-Passed.png "Naujų pasirinkto tikrinimo plano tikrinimo atvejų ekrano kopija")
+    ![Nauji pasirinkto tikrinimo plano tikrinimo atvejai.](media/GER-RSAT-DevOps-Tests-Passed.png "Naujų pasirinkto tikrinimo plano tikrinimo atvejų ekrano kopija")
 
 > [!NOTE]
 > Užtikrinkite tinkamą įtrauktų testų vykdymo tvarką.
@@ -296,14 +296,14 @@ Pagal šį užduoties įrašą atliekami toliau nurodyti veiksmai.
 1. Atidarykite vietinę RSAT programą dabartinėje topologijoje.
 2. Pasirinkite **Įkelti**, kad įkeltumėte testus, kurie šiuo metu laikomi „Azure DevOps“, į RSAT.
 
-    ![Į RSAT įkelti testai](media/GER-RSAT-RSAT-Tests-Loaded.png "Į RSAT įkeltų testų ekrano kopija")
+    ![Į RSAT įkelti testai.](media/GER-RSAT-RSAT-Tests-Loaded.png "Į RSAT įkeltų testų ekrano kopija")
 
 ### <a name="create-automation-and-parameters-files"></a>Kurkite automatizavimo ir parametrų failus
 
 1. RSAT pasirinkite testus, kuriuos įkėlėte iš „Azure DevOps“.
 2. Pasirinkite **Naujas**, kad sukurtumėte RSAT automatizavimo ir parametrų failus.
 
-    ![RSAT automatizavimo ir parametrų failai, sukurti naudojant RSAT](media/GER-RSAT-RSAT-Tests-Initiated.png "RSAT automatizavimo ir parametrų failų, sukurtų naudojant RSAT, ekrano kopija")
+    ![RSAT automatizavimo ir parametrų failai, sukurti naudojant RSAT.](media/GER-RSAT-RSAT-Tests-Initiated.png "RSAT automatizavimo ir parametrų failų, sukurtų naudojant RSAT, ekrano kopija")
 
 ### <a name="modify-the-parameters-files"></a>Modifikuokite parametrų failus
 
@@ -315,7 +315,7 @@ Pagal šį užduoties įrašą atliekami toliau nurodyti veiksmai.
 6. Atidarytos „Excel“ darbaknygės darbalapyje **Bendra** pakeiskite įmonės kodą į **GBSI**.
 7. Darbalapyje **ERFormatMappingRunLogTable** pamatysite, kad A:3 ir C:3 langeliuose yra ER derinimo žurnalo lentelės laukų, naudojamų išvesties palyginimo su pagrindine informacija rezultatams tikrinti, tekstas. Šie tekstai bus naudojami siekiant įvertinti ER derinimo žurnalo įrašus, kurie sukuriami vykdant testą.
 
-    ![Darbalapis ERFormatMappingRunLogTable](media/GER-RSAT-RSAT-ExcelParameters.png "Darbalapio ERFormatMappingRunLogTable ekrano kopija")
+    ![Darbalapis „ERFormatMappingRunLogTable”.](media/GER-RSAT-RSAT-ExcelParameters.png "Darbalapio ERFormatMappingRunLogTable ekrano kopija")
 
 ## <a name="run-the-tests-and-analyze-the-results"></a>Vykdykite testus ir analizuokite rezultatus
 
@@ -330,11 +330,11 @@ Atkreipkite dėmesį, kad testų aprašai yra automatiškai vykdomi programoje n
 
 Testo vykdymo rezultatai saugomi RSAT. Atkreipkite dėmesį, kad abiejų testų rezultatai teigiami.
 
-![Testai, kurių rezultatai naudojant RSAT teigiami](media/GER-RSAT-RSAT-Tests-Passed.png "Testų, kurių rezultatai naudojant RSAT teigiami, ekrano kopija")
+![Testai, kurių rezultatai naudojant RSAT teigiami.](media/GER-RSAT-RSAT-Tests-Passed.png "Testų, kurių rezultatai naudojant RSAT teigiami, ekrano kopija")
 
 Atkreipkite dėmesį, kad testo vykdymo rezultatai taip pat siunčiami „Azure DevOps“, kad galėtumėte atlikti tolesnę analizę.
 
-![Testų vykdymo naudojant „Azure DevOps“ rezultatai](media/GER-RSAT-DevOps-Tests-Added.png "Testų vykdymo naudojant „Azure DevOps“ rezultatų ekrano kopija")
+![Testų vykdymo naudojant „Azure DevOps“ rezultatai.](media/GER-RSAT-DevOps-Tests-Added.png "Testų vykdymo naudojant „Azure DevOps“ rezultatų ekrano kopija")
 
 ### <a name="simulate-a-situation-where-tests-fail"></a>Sumodeliuokite situaciją, kurioje būtų gauti neigiami testo rezultatai
 
@@ -357,15 +357,15 @@ Atkreipkite dėmesį, kad testų aprašai yra automatiškai vykdomi programoje n
 
 Testo vykdymo rezultatai saugomi RSAT. Atkreipkite dėmesį, kad vykdant antrą kartą gauti neigiami antro testo rezultatai.
 
-![Nesėkmingų testų rezultatai naudojant RSAT](media/GER-RSAT-RSAT-Tests-Failed.png "Nesėkmingų testų rezultatų naudojant RSAT ekrano kopija")
+![Nesėkmingų testų rezultatai naudojant RSAT.](media/GER-RSAT-RSAT-Tests-Failed.png "Nesėkmingų testų rezultatų naudojant RSAT ekrano kopija")
 
 Atkreipkite dėmesį, kad testo vykdymo rezultatai taip pat siunčiami „Azure DevOps“, kad galėtumėte atlikti tolesnę analizę.
 
-![Nesėkmingų testų rezultatai naudojant „Azure DevOps“](media/GER-RSAT-DevOps-Tests-Failed.png "Nesėkmingų testų rezultatų naudojant „Azure DevOps“ ekrano kopija")
+![Nesėkmingų testų rezultatai naudojant „Azure DevOps“.](media/GER-RSAT-DevOps-Tests-Failed.png "Nesėkmingų testų rezultatų naudojant „Azure DevOps“ ekrano kopija")
 
 Galite pasiekti kiekvieno testo būseną. Taip pat galite pasiekti vykdymo žurnalą, kad galėtumėte analizuoti klaidų priežastis. Toliau pateiktame vykdymo žurnale parodyta, kad klaida kilo todėl, kad skiriasi sugeneruoto mokėjimo failo ir jo pagrindinės informacijos turinys.
 
-![Vykdymo žurnalas nesėkmėms analizuoti naudojant „Azure DevOps“](media/GER-RSAT-DevOps-Tests-Failed-Log.png "Vykdymo žurnalo nesėkmėms analizuoti naudojant „Azure DevOps“ ekrano kopija")
+![Vykdymo žurnalas nesėkmėms analizuoti naudojant „Azure DevOps“.](media/GER-RSAT-DevOps-Tests-Failed-Log.png "Vykdymo žurnalo nesėkmėms analizuoti naudojant „Azure DevOps“ ekrano kopija")
 
 Todėl, kaip matėte, bet kokio ER formato veikimą galima įvertinti automatiškai naudojant RSAT kaip testavimo platformą ir naudojant užduočių įrašymo priemonės testų aprašus, naudojančius ER pagrindinės informacijos funkciją.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76dbf5f8f2fc3b33077d559ffcef580a5295adb2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 59dda2207f002402f5153f9c77206b6c644f2679
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815577"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352863"
 ---
 # <a name="general-journal-processing"></a>Bendrųjų žurnalų apdorojimas
 
@@ -42,14 +42,14 @@ Puslapyje **Žurnalų pavadinimai** galite nustatyti šiuos elementus.
 
 Žurnalo pavadinimą galima naudoti tik koreguoti. Tokiu atveju galite nurodyti, kad visoms įmonėms tinkamas tik sąskaitos tipas **Didžioji knyga**. 
 
-[![Žurnalų kontrolės sąskaitos tipai](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+[![Žurnalų kontrolės sąskaitos tipai.](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
 Žurnalo pavadinimą galima naudoti tik konkrečiam segmentui arba pagrindinių sąskaitų diapazonui. 
 
-[![Žurnalų kontrolės segmentas](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+[![Žurnalų kontrolės segmentas.](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 Parinktis **Automatinis atšaukimas** yra bendruosiuose žurnaluose. Pavyzdžiui, turite kaupimo koregavimą, kurio faktinis dokumentas dar neapdorotas, kaip pavaizduota šioje iliustracijoje.
-[![Pagrindinio žurnalo atšaukimas](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
+[![Pagrindinio žurnalo atšaukimas.](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
 „Microsoft Excel“ papildinys, skirtas žurnalo įrašams, teikia papildomą automatizavimo lygį ir palengvina duomenų įvedimą. Veiksmas **Atidaryti eilutes programoje „Excel“** galimas puslapiuose **Pagrindinis žurnalas** ir **Žurnalo kvitas**. 
 

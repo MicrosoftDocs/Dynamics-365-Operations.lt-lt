@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1378ae652ea70cba941316f4667052dcb05f717
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 71aefbc9c041074225b379d90db5cecf3849cb59
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812913"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347715"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Planavimo mechanizmo efektyvumo didinimas
 
@@ -66,11 +66,11 @@ Pavyzdžiui, panagrinėkime gana paprastai atrodantį maršrutą, pavaizduotą t
 | 10 | Antrinis&nbsp;1 | | | | 1 | 20 |
 | 20 | Pirminis | | 3.00 | 1.00 | 3 | 0 |
 
-![Pavyzdinio maršruto diagrama](media/scheduling-engine-route.png "Pavyzdinio maršruto diagrama")
+![Pavyzdinio maršruto diagrama.](media/scheduling-engine-route.png "Pavyzdinio maršruto diagrama")
 
 Siunčiant į variklį, jis suskirstomas į aštuonias užduotis, kaip parodyta toliau esančiame paveikslėlyje (pasirinkite paveikslėlį, kad jį padidintumėte).
 
-[![Planavimo mechanizmo užduotys](media/scheduling-engine-jobs.png "Planavimo mechanizmo užduotys")](media/scheduling-engine-jobs-large.png)
+[![Planavimo mechanizmo užduotys](media/scheduling-engine-jobs.png "Scheduling engine jobs."](media/scheduling-engine-jobs-large.png)
 
 Įprastinis dviejų užduočių saitas yra `FinishStart` t. y. vienos užduoties pabaigos laikas turi būti ankstesnis nei kitos užduoties pradžios laikas. Kadangi sąranka turi būti atliekama to paties ištekliaus, kuris vėliau vykdys procesą, tarp jų yra `OnSameResource` apribojimų. Tarp 10 pirminės ir antrinės operacijų yra `StartStart` ir `FinishFinish` saitai, o tai reiškia, kad abi užduotys turi ir prasidėti ir baigtis tuo pačiu metu, taip pat yra `NotOnSameResource` apribojimų, neleidžiančių naudoti to paties ištekliaus pirminei ir antrinei operacijai.
 

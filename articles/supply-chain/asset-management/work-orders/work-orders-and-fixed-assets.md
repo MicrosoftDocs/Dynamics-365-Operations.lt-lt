@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 65adcd07f1649b2e4eb2e2528507bb15631782ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 69653d0dde2d3675a5af5cdc032a3c9c9462d705
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816729"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354089"
 ---
 # <a name="work-orders-and-fixed-assets"></a>Darbo užsakymai ir ilgalaikis turtas
 
@@ -34,31 +34,31 @@ Modulyje „Turto valdymas” turtas gali būti susietas su ilgalaikiu turtu ir 
 
 Toliau pateiktame paveikslėlyje parodytas ryšys tarp investicijų projekto modulyje **Projektų valdymas ir apskaita** ir darbo užsakymo užduoties projekto.
 
-![1 pav.](media/24-work-orders.png)
+![1 iliustracija.](media/24-work-orders.png)
 
 Toliau nurodyta procedūra apibūdinama turto, darbo užsakymų, darbo užsakymo užduočių projektų ir ilgalaikio turto sąsaja.
 
 1. Kuriate turtą, kurį susiejate su ilgalaikiu turtu.
 
-![2 pav.](media/25-work-orders.png)
+![2 iliustracija.](media/25-work-orders.png)
 
 2. Kai puslapyje **Darbo užsakymų tipai** nustatote darbo užsakymų tipus (**Turto valdymas** > **Sąranka** > **Darbo užsakymai** > **Darbo užsakymų tipai**), kuriate darbo užsakymo tipą darbui su investicijomis. Taip pat žr. [Darbo užsakymų tipai](../setup-for-work-orders/work-order-types.md).
 
-![3 pav.](media/26-work-orders.png)
+![3 iliustracija.](media/26-work-orders.png)
 
 3. Kai darbo užsakymų projektų grupes nustatote skirtuke **Projektų grupė**, esančiame puslapyje **Darbo užsakymo projekto sąranka** (**Turto valdymas** > **Sąranka** > **Darbo užsakymai** > **Projekto nustatymai**), kuriate ryšį tarp investicijoms naudojamo darbo užsakymo tipo ir projektų grupės, sukurtos investicijoms puslapyje **Projektų grupės**, priklausančiame moduliui **Projektų valdymas ir apskaita** (**Projektų valdymas ir apskaita** > **Sąranka** > **Registravimas** > **Projektų grupės**).
 
-![4 pav.](media/27-work-orders.png)
+![4 iliustracija.](media/27-work-orders.png)
 
 4. Kai kuriate darbo užsakymą, susijusį su ilgalaikiu turtu, pasirenkate darbui su investicijomis naudojamą darbo užsakymo tipą, pvz., **Investicija**.
 
 5. Sukūrus darbo užsakymą, susijęs darbo užsakymo tipas rodomas puslapyje **Visi darbo užsakymai**.
 
-![5 pav.](media/28-work-orders.png)
+![5 iliustracija.](media/28-work-orders.png)
 
 6. Sukūrus darbo užsakymą, projektas, susijęs su darbo užsakymu, sukuriamas puslapyje **Visi projektai**, priklausančiame moduliui **Projektų valdymas ir apskaita** (**Projektų valdymas ir apskaita** > **Projektai** > **Visi projektai**). Norėdami peržiūrėti su projektu susijusią informaciją, pasirinkite saitą lauke **Projekto ID**, esančiame skirtuke **Bendra**, „FastTab“ **Eilutės informacija**, puslapio **Visi darbo užsakymai** informacijos rodinyje, modulyje **Turto valdymas** (**Turto valdymas** > **Bendra** > **Darbo užsakymai** > **Visi darbo užsakymai**).
 
-![6 pav.](media/29-work-orders.png)
+![6 iliustracija.](media/29-work-orders.png)
 
 7. Norėdami peržiūrėti projektus, susijusius su ilgalaikiu turtu, pasirinkite **Ilgalaikis turtas** > **Ilgalaikis turtas** > **Ilgalaikis turtas**, o tada lauke **Ilgalaikio turto numeris** pasirinkite ilgalaikio turto saitą, kad atidarytumėte informacijos rodinį. Išskleiskite dešinėje puslapio pusėje esančią sritį **Susijusi informacija** ir pasirinkite „FastTab“ **Susiję projektai**.
 

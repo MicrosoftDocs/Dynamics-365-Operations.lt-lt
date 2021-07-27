@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: fb2651644efd2cadfccb91e48c34dfddc8383e1f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e813b4f0c6408a8046fa8203007a0a356ca2c794
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021421"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347813"
 ---
 # <a name="process-collection-letters-example"></a>Priminimo laiškų apdorojimo pavyzdys
 
@@ -40,7 +40,7 @@ Pabaigus atlikite šiuos veiksmus.
 
 Toliau pateikiamoje iliustracijoje rodoma informacija, kuri yra lentelėje tokia, kaip ji bus pateikta **Priminimo laiškai** puslapyje. 
 
-[![Priminimo laiško sekos nustatymas](./media/Ignore-payments-creditmemos-1.PNG)](./media/Ignore-payments-creditmemos-1.PNG)
+[![Priminimo laiško sekos nustatymas.](./media/Ignore-payments-creditmemos-1.PNG)](./media/Ignore-payments-creditmemos-1.PNG)
 
  Dabar turite nustatyti du šiam pavyzdžiui būtinus parametrus.
 
@@ -49,7 +49,7 @@ Toliau pateikiamoje iliustracijoje rodoma informacija, kuri yra lentelėje tokia
     1. **Priminimai** skirtuke nustatykite **Nepaisyti mokėjimų ir kreditų pažymų skaičiuojant priminimo laiško kodą** parinktį į **Taip**.
     2. Įsitikinkite, kad lauke **Kurti priminimo laišką** nustatytas į **Klientas**.
 
-    [![Gautinų sąskaitų parametrų Kredito priminimams nustatymas](./media/Ignore-payments-creditmemos-2.PNG)](./media/Ignore-payments-creditmemos-2.PNG)
+    [![Gautinų sąskaitų parametrų Kredito priminimams nustatymas.](./media/Ignore-payments-creditmemos-2.PNG)](./media/Ignore-payments-creditmemos-2.PNG)
 
 3. Eikite į **Gautinos sąskaitos  \> Sąskaitos faktūros \> Visi laisvos formos teksto sąskaitos faktūros** ir tada pasirinkite **Nauja**, ir tada atlikite šiuos veiksmus:
 
@@ -74,7 +74,7 @@ Toliau pateikiamoje iliustracijoje rodoma informacija, kuri yra lentelėje tokia
 5. Pakartokite 4-ą veiksmą, bet įveskite **-200,00** **Vieneto kaina** lauke.
 6. Eikite į **Gautinos sąskaitos  \> Klientai \> Visi klientai** ir pasirinkite klientą **JAV-045**. Tada Veiksmų srityje pasirinkite **Operacijos \> Operacijos**, kad peržiūrėtumėte anksčiau paskelbtas kliento operacijas.
 
-    [![Paskelbtų kliento operacijų peržiūra](./media/Ignore-payments-creditmemos-3.PNG)](./media/Ignore-payments-creditmemos-3.PNG)
+    [![Paskelbtų kliento operacijų peržiūra.](./media/Ignore-payments-creditmemos-3.PNG)](./media/Ignore-payments-creditmemos-3.PNG)
 
     Dabar privalote sukurti priminimo laiškus klientui JAV-045.
 
@@ -93,7 +93,7 @@ Toliau pateikiamoje iliustracijoje rodoma informacija, kuri yra lentelėje tokia
 
     1. Atkreipkite dėmesį, kad priminimo laiško kodas antraštėje ir operacijų eilutėse yra **Priminimo laiškas Nr. 1**, nes šis priminimo laiškas yra pirmas priminimo laiškas pagal eiliškumą. (Norėdami peržiūrėti operacijos eilutes, jums gali tekti pasirinkti **Operacijos** „FastTab” skirtuke.)
 
-   [![Patikrinimas, ar antraštėje ir eilutėse rodomas toks pats priminimo laiško kodas](./media/Ignore-payments-creditmemos-4.PNG)](./media/Ignore-payments-creditmemos-4.PNG)
+   [![Patikrinimas, ar antraštėje ir eilutėse rodomas toks pats priminimo laiško kodas.](./media/Ignore-payments-creditmemos-4.PNG)](./media/Ignore-payments-creditmemos-4.PNG)
 
     2. Veiksmų srityje pasirinkite **Registruoti**.
     3. Lauke **Registravimo data** įveskite **2021-01-19**.
@@ -115,7 +115,7 @@ Toliau pateikiamoje iliustracijoje rodoma informacija, kuri yra lentelėje tokia
 
     1. Atkreipkite dėmesį, kad priminimo laiško kodas antraštėje yra **Priminimo laiškas Nr. 1**. Tačiau operacijos eilučių kodas yra **Priminimo laiškas Nr. 2**.
 
-   [![Patikrina, ar antraštėje ir eilutėse rodomi skirtingi priminimo laiško kodai](./media/Ignore-payments-creditmemos-5.PNG)](./media/Ignore-payments-creditmemos-5.PNG)
+   [![Patikrina, ar antraštėje ir eilutėse rodomi skirtingi priminimo laiško kodai.](./media/Ignore-payments-creditmemos-5.PNG)](./media/Ignore-payments-creditmemos-5.PNG)
 
   Kodai skiriasi, nes **Ignoruoti mokėjimus ir kredito pažymas skaičiuojant priminimo laiškų kodą** parinktis nustatyta į **Taip**.
 
@@ -123,7 +123,7 @@ Toliau pateikiamoje iliustracijoje rodoma informacija, kuri yra lentelėje tokia
 
 11. Eikite į **Kreditas ir priminimai \> Sąranka \> Gautinų sąskaitų parametrai** ir tada **Priminimai** skirtuke nustatykite **Nepaisyti mokėjimų ir kredito pažymų skaičiuojant laiško kodą** parinktį į **Ne**.
 
-    [![Nustatykite parinktį „Nepaisyti mokėjimų ir kredito pažymų apskaičiuojant priminimo laiško kodą” į Ne](./media/Ignore-payments-creditmemos-6.PNG)](./media/Ignore-payments-creditmemos-6.PNG)
+    [![Nustatykite parinktį „Nepaisyti mokėjimų ir kredito pažymų apskaičiuojant priminimo laiško kodą” į Ne.](./media/Ignore-payments-creditmemos-6.PNG)](./media/Ignore-payments-creditmemos-6.PNG)
 
     Dabar privalote vėl sukurti priminimo laiškus klientui JAV-045.
 
@@ -140,6 +140,6 @@ Toliau pateikiamoje iliustracijoje rodoma informacija, kuri yra lentelėje tokia
 
 13. Eikite į **Kreditas ir priminimai \> Priminimo laiškas \> Peržiūrėti ir apdoroti priminimų laiškus** ir atkreipkite dėmesį, ar priminimo laiško kodas antraštėje ir operacijų eilutėse yra **Priminimo laiško Nr. 2**.
 
-    [![Tokio paties priminimo laiško kodo antraštėje ir eilutėse pakartotinis rodymas](./media/Ignore-payments-creditmemos-7.PNG)](./media/Ignore-payments-creditmemos-7.PNG)
+    [![Tokio paties priminimo laiško kodo antraštėje ir eilutėse pakartotinis rodymas.](./media/Ignore-payments-creditmemos-7.PNG)](./media/Ignore-payments-creditmemos-7.PNG)
 
     Toks pat kodas atsiras abiejose vietose, nes **Nepaisyti mokėjimų ir kredito pažymų skaičiuojant priminimo laiško kodą** parinktis dabar nustatyta į **Ne**.

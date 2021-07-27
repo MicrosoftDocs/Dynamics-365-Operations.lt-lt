@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9e3f2a17e182c0e3efc8b90380eff74f350c3278
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: cce8cb6ef9e0cc74abf90f16ed0ee481b8274a03
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804654"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352993"
 ---
 # <a name="opt-in-to-use-ratings-and-reviews"></a>Norėdami naudoti įvertinimus ir atsiliepimus, prisijunkite
 
@@ -43,7 +43,7 @@ Norėdami sutikti naudoti įvertinimus ir apžvalgas savo svetainėje, atlikite 
 1. Parinktį **Įjungti įvertinimų ir apžvalgų paslaugą** nustatykite kaip **Taip**.
 1. Lauke **AAD saugos grupė, skirta įvertinimų ir apžvalgų moderatoriui (saugos grupės objekto ID)**, įveskite „Microsoft Azure Active Directory“ („Azure AD“) saugos grupės, apimančios įvertinimų ir atsiliepimų moderatorių vaidmenį, ID.
 
-    ![Norėdami naudoti įvertinimus ir atsiliepimus, prisijunkite](media/LCS_RnR_Preference.png)
+    ![Norėdami naudoti įvertinimus ir atsiliepimus, prisijunkite.](media/LCS_RnR_Preference.png)
 
 1. Baikite el. prekybos inicijavimo procesą.
 

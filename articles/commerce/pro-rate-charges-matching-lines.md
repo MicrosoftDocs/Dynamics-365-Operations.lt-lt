@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: c36948cc58291b56c1bbe8a3d5c3db52dccc8399
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: cca35be696c8dd9956176e54e77a60f0252e0760
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018611"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352185"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Proporcingas antraštės išlaidų paskirstymas atitinkančioms pardavimo eilutėms
 
@@ -56,9 +56,9 @@ Tolesniuose dviejuose scenarijuose aprašoma, kaip šios išlaidos skaičiuojamo
 
 Tokiu atveju organizacija nustatė antraštės lygio išlaidų pristatymo būdo ryšį **99** ir pristatymo būdo ryšį **11**. Pristatymo būdo **21** automatinės išlaidos nekonfigūruojamos.
 
-![Pristatymo būdo 99 automatinės išlaidos, kai atitikimo eilutės proporcingas paskirstymas yra išjungtas](media/99_disabled.png)
+![Pristatymo būdo 99 automatinės išlaidos, kai atitikimo eilutės proporcingas paskirstymas yra išjungtas.](media/99_disabled.png)
 
-![Pristatymo būdo 11 automatinės išlaidos, kai atitikimo eilutės proporcingas paskirstymas yra išjungtas](media/11_disabled.png)
+![Pristatymo būdo 11 automatinės išlaidos, kai atitikimo eilutės proporcingas paskirstymas yra išjungtas.](media/11_disabled.png)
 
 Skambučių centre sukuriamas pardavimo užsakymo ir nustatomas pristatymo būdas **99**. Šiame užsakyme yra penkios prekės. Dvi užsakymo eilutės sukonfigūruotos naudoti pristatymo būdą **99**, dvi eilutės sukonfigūruotos naudoti pristatymo būdą **11**, o viena eilutė sukonfigūruota naudoti pristatymo būdą **21**, kaip parodyta tolesnėje lentelėje.
 
@@ -78,9 +78,9 @@ Tokiu atveju, jei klientas grąžina kai kurias užsakymo prekes ir jei [išlaid
 
 Tokiu atveju nustatyti antraštės lygio išlaidų pristatymo būdo ryšys **99** ir pristatymo būdo ryšys **11**. Tačiau šių automatinių išlaidų lentelėse nustatoma parinkties **Proporcingai paskirstyti atitinkančioms pardavimo eilutėms** reikšmę **Taip**.
 
-![Pristatymo būdo 99 automatinės išlaidos, kai atitikimo eilutės proporcingas paskirstymas yra įjungtas](media/99_enabled.png)
+![Pristatymo būdo 99 automatinės išlaidos, kai atitikimo eilutės proporcingas paskirstymas yra įjungtas.](media/99_enabled.png)
 
-![Pristatymo būdo 11 automatinės išlaidos, kai atitikimo eilutės proporcingas paskirstymas yra įjungtas](media/11_enabled.png)
+![Pristatymo būdo 11 automatinės išlaidos, kai atitikimo eilutės proporcingas paskirstymas yra įjungtas.](media/11_enabled.png)
 
 Šiame scenarijuje naudojamas tas pats pardavimo užsakymas, kuriame yra penkios eilutės. Nustatytas užsakymo antraštės pristatymo būdas **99**, bet kiekvienos pardavimo užsakymo prekės pristatymo būdas sukonfigūruojamas, kaip parodyta toliau pateiktoje lentelėje.
 
@@ -130,9 +130,9 @@ Kadangi automatinių išlaidų konfigūracija nustatyta proporcingai paskirstyti
     - Bendra produkto vertė = 15 USD
     - **Išlaidų vertė = 0 USD** (Šio kliento ir pristatymo būdo derinio automatinės išlaidos nesukonfigūruotos.)
 
-    ![Pristatymo būdo 11 išlaidos patenka į paryškintą pakopą](media/step2mode11.png)
+    ![Pristatymo būdo 11 išlaidos patenka į paryškintą pakopą.](media/step2mode11.png)
 
-    ![Pristatymo būdo 99 išlaidos patenka į paryškintą pakopą](media/step2mode99.png)
+    ![Pristatymo būdo 99 išlaidos patenka į paryškintą pakopą.](media/step2mode99.png)
 
 3. Sistema apskaičiuoja išlaidų vertė, kuri turi būti taikoma kiekvienai eilutei, pagal proporcingo paskirstymo logiką, kuri proporcingą eilutės vertę nuskaito palygindama ją su bendra grupės produktų verte.
 
@@ -163,7 +163,7 @@ Kadangi automatinių išlaidų konfigūracija nustatyta proporcingai paskirstyti
 
 Todėl šiame pavyzdyje 81334 prekei bus priskirtas 5,62 transportavimo mokestis. Šias išlaidas galite peržiūrėti pardavimo eilutės puslapyje **Išlaidų tvarkymas**. Tolesnėje iliustracijoje rodoma, kaip rodomas šis 81334 prekės puslapis.
 
-![81334 prekės pardavimo eilutės proporcingai paskirstytos išlaidos](media/proratedlinecharge.png)
+![81334 prekės pardavimo eilutės proporcingai paskirstytos išlaidos.](media/proratedlinecharge.png)
 
 Kai šis skaičiavimo metodas naudojamas dalinio grąžinimo scenarijuje, jei išlaidų kodas yra grąžinamas, tik dalis išlaidų, paskirstytų tai eilutei, bus grąžinta grąžinus prekę.
 

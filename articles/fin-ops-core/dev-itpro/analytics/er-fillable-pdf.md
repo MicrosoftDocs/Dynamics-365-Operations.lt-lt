@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 7c1c21015a172d7ebaa3577d5d0e55c254ef871e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 63994a4583e27b0197b9fc42c622f6c0e42c84ee
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753293"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355423"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>ER konfigūracijų kūrimas pildymui PDF šablonuose
 
@@ -115,11 +115,11 @@ Bet kurioje PDF peržiūros programoje atsidarykite PDF šablonus, kuriuos atsis
 
 Šioje iliustracijoje rodomas pirmasis PDF šablono ataskaitos puslapis.
 
-![Šablonas 1](media/rcs-ger-filloutpdf-template1.png)
+![Šablonas 1.](media/rcs-ger-filloutpdf-template1.png)
 
 Šioje iliustracijoje rodomi kiti PDF šablono ataskaitos puslapiai.
 
-![Šablonas 2](media/rcs-ger-filloutpdf-template2.png)
+![Šablonas 2.](media/rcs-ger-filloutpdf-template2.png)
 
 1. Puslapyje **Konfigūracijos** pasirinkite **Dizaino įrankis**.
 2. Pasirinkite **Įtraukti šaknį**.
@@ -146,7 +146,7 @@ Bet kurioje PDF peržiūros programoje atsidarykite PDF šablonus, kuriuos atsis
 
 12. Pasirinkite **Gerai**.
 
-    ![Importuoti iš PDF dialogo lango](media/rcs-ger-filloutpdf-importtemplate.png)
+    ![Importuoti iš PDF dialogo lango.](media/rcs-ger-filloutpdf-importtemplate.png)
 
 13. Medyje išplėskite **Išvestis**.
 
@@ -176,7 +176,7 @@ Bet kurioje PDF peržiūros programoje atsidarykite PDF šablonus, kuriuos atsis
 
     Atkreipkite dėmesį, kad importuotas PDF dokumentas pridedamas prie redaguoto ER formato.
 
-    ![PDF priedo peržiūra](media/rcs-ger-filloutpdf-attachedtemplate.png)
+    ![PDF priedo peržiūra.](media/rcs-ger-filloutpdf-attachedtemplate.png)
 
 19. Norėdami tęsti formato kūrimą, importuokite antrą PDF šabloną, pridėdami reikiamus susiejimus su duomenų šaltiniais ir pan.
 20. Pasirinkite **Įrašyti**.
@@ -215,7 +215,7 @@ Tada importuosite anksčiau atsisiųstą pavyzdinį ER formatą, kad sugeneruotu
 1. Puslapyje **Formato kūrimo įrankis** pasirinkite skirtuką **Susiejimas**.
 2. Medyje išplėskite **Puslapių kaita \> Puslapiai**.
 
-    ![Formulės kūrimo įrankio puslapis su išplėstu medžio modeliu](media/rcs-ger-filloutpdf-reviewformat.png)
+    ![Formulės kūrimo įrankio puslapis su išplėstu medžio modeliu.](media/rcs-ger-filloutpdf-reviewformat.png)
 
     Įsidėmėkite toliau pateiktą informaciją.
 
@@ -238,7 +238,7 @@ Tada importuosite anksčiau atsisiųstą pavyzdinį ER formatą, kad sugeneruotu
 
     Turėkite omenyje, kad šio formato elemento atributas **Pavadinimas** apibrėžiamas kaip **Taisymas 1**. Taip pat atkreipkite dėmesį, kad formato elemento išraiška **Pavadinimas** apibrėžta kaip **Puslapių kaita.Lauko pavadinimas(„Taisymas“,\@.Numeris)**.
 
-![Formato kūrimo įrankis, kur pažymimas susiejimas](media/rcs-ger-filloutpdf-reviewformat2.png)
+![Formato kūrimo įrankis, kur pažymimas susiejimas.](media/rcs-ger-filloutpdf-reviewformat2.png)
 
 Atkreipkite dėmesį formato elementas **Laukas** naudojamas užpildyti atskirus laukus pildomame PDF dokumente, apibrėžtame kaip formato elemento **PDF failas** šablonas. Formato elemento **PDF failas** arba į jį įdėtų elementų formato elementų, jei jis jų turi, susiejimas nurodo vertę, įvestą atitinkamuose PDF laukuose. Skirtingos formato elemento **Laukas** ypatybės gali būti naudojamos nurodyti, kuris PDF laukas užpildomas atskiru formato elementu:
 
@@ -275,7 +275,7 @@ Tada įkelsite pavyzdinį ER formatą **„Intrastat“ (importuoti iš „Excel
 
     Kai parinktis **Numatytasis modelių susiejimui** parinktis yra nustatyta į **Taip**, importuotas ER formatas **„Intrastat“ (importuoti iš „Excel“)** yra priskiriamas kaip numatytasis duomenų šaltinis formato konfigūracijai **„Intrastat“ ataskaita (PDF)**. Tada, kai vykdoma formato konfigūracija **„Intrastat“ ataskaita (PDF)**, „Excel“ darbaknygės turinys, kurį išanalizavo **„Intrastat“ (importuoti iš „Excel“)** ER formatas, modeliuos užsienio prekybos operacijas, apie kurias privaloma pranešti. Toliau pateikiamoje iliustracijoje rodomas „Excel“ darbaknygės pavyzdys.
 
-    ![„Excel“ darbaknygė, kurioje yra duomenų pavyzdžių](media/rcs-ger-filloutpdf-excelworkbook.png)
+    ![„Excel“ darbaknygė, kurioje yra duomenų pavyzdžių.](media/rcs-ger-filloutpdf-excelworkbook.png)
 
 ### <a name="run-the-format-configuration"></a>Formato konfigūracijos vykdymas
 
@@ -289,11 +289,11 @@ Tada įkelsite pavyzdinį ER formatą **„Intrastat“ (importuoti iš „Excel
 
 Šioje iliustracijoje rodomas pavyzdys, kaip generuojamas pirmasis ataskaitos puslapis.
 
-![Pirmasis sugeneruotos ataskaitos puslapis](media/rcs-ger-filloutpdf-generatedreport.png)
+![Pirmasis sugeneruotos ataskaitos puslapis.](media/rcs-ger-filloutpdf-generatedreport.png)
 
 Šioje iliustracijoje rodomas pavyzdys, kaip generuojamas kitas ataskaitos puslapis.
 
-![Kitas sugeneruotos ataskaitos puslapis](media/rcs-ger-filloutpdf-generatedreport2.png)
+![Kitas sugeneruotos ataskaitos puslapis.](media/rcs-ger-filloutpdf-generatedreport2.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

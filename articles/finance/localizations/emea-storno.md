@@ -13,12 +13,12 @@ ms.search.region: Czech Republic, Germany, Hungary, Latvia, Lithuania, Poland, R
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e1d5b0ae6191204b7dd3be4e9c446d704263e67
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 95a9969650e4b7f0feac38caa05d672fa72ee7b6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832676"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348873"
 ---
 # <a name="storno-accounting"></a>Storno apskaita
 
@@ -162,7 +162,7 @@ Dalinis Storno gali sukelti problemą pradinėje spausdinimo formoje. Jei esama 
 
 Storno rodinį formose, tinkleliuose, stulpeliuose ir laukuose galite tinkinti. Pavyzdžiui, galite išjungti rodymą ar keisti išplėtimą neigiamoms sumoms. Taip pat, galite naudoti **Koregavimo** laukelį visiems rodomams nustatymams, jei **Koregavimo** laukelis turi „Taip“, kai tai yra „Storno“ įrašas.
 
-![Žurnalo įrašo Storno sumos](./media/journal-storno.png)
+![Žurnalo įrašo Storno sumos.](./media/journal-storno.png)
 
 ## <a name="how-documents-create-storno"></a>Kaip dokumentai kuria Storno
 Kai kurie dokumentai sukuria atšaukimo transakcijas. Pvz., DK, mokėtinų sumų ir gautinų sumų dokumentų užsienio valiutos kurso pasikeitimo operacija atšaukia negautą pelną ir nuostolį. Norėdami gauti daugiau informacijos, žr. [Užsienio valiutos kurso pasikeitimas modulyje Didžioji knyga](../general-ledger/foreign-currency-revaluation-general-ledger.md) arba [Užsienio valiutos kurso pasikeitimas moduliuose Mokėtinos sumos ir Gautinos sumos](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md). Po atšaukimo transakcijos sukūrimo, naujos transakcijos bus sukurtos su nesuprastais padidėjimais ar praradimais. Transakcijų atšaukimai taip pat kuriami inventoriui. Dėl daugiau informacijos, žr. [Inventoriaus uždarymas](../../supply-chain/cost-management/inventory-close.md). Tam tikri dokumentai suteikia galimybę atšaukti anksčiau užregistruotą dokumentą. Pavyzdžiui, vartotojas gali sukurti kredito pažymą, norėdamas atšaukti anksčiau sukurtą SF. Dokumentai naudoti konkrečius parametrus, kad sukurtų atvirkštines ir „Storno“ transakcijas. Pavyzdžiui, užsienio valiutos pervertinimas sukuria atvirkštines ir „Storno“ transakcijas pagal bendrą buhalterinės knygos korekcijos parametrą. Kliento kredito pažyma sukuria atvirkštines arba Storno operacijas pagal gautinų sumų kredito pažymos koregavimo parametrą.

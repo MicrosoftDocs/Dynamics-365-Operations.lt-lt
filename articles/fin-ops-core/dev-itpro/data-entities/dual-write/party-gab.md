@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: c62290506d32579d926ad1a1d6f090845c0d0f26
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: ce246a51c75cc322f1cfea70c47f00c7dd750ea2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216617"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346625"
 ---
 # <a name="party-and-global-address-book"></a>Šalies ir bendros knygelės nustatymas
 
@@ -41,7 +41,7 @@ ms.locfileid: "6216617"
 
 Toliau pateiktame vaizde rodomas šalies duomenų modelis.
 
-![Duomenų modelis šaliai](media/party-gab-image1.png)
+![Duomenų modelis šaliai.](media/party-gab-image1.png)
 
 > [!TIP]
 > Kai bandote sukurti naują sąskaitos įrašą, norėdami ieškoti įrašo pagal pavadinimą, naudokite lauką **Šalis**. Tokiu būdu, jei rasite įrašą, jums tiesiog reikia jį pasirinkti. Sistema tada automatiškai užpildo visus šalies duomenis. Nereikia neautomatiniu būdu įvesti visų reikalingų laukų. Šį elgseną galima rasti sąskaitos nestandartiniuose **Sąskaitos**, **Kontakto** ir **Tiekėjo** puslapiuose.
@@ -58,7 +58,7 @@ Atsižvelgiant į verslo kontekstą asmuo arba organizacija gali atlikti daugiau
 
 Toliau pateiktame paveikslėlyje parodytas produkto spalvos dimensijos duomenų modelis.
 
-![Visuotinės bendros adresų knygelės duomenų modelis](media/party-gab-image2.png)
+![Visuotinės bendros adresų knygelės duomenų modelis.](media/party-gab-image2.png)
 
 ## <a name="contact"></a>Kontaktas
 
@@ -94,7 +94,7 @@ Pavyzdžiui, Nataša Džauns ir Migelis Rejes yra veterinarai, kurie rūpinasi f
     + Jei pasirenkate Susietas kontaktas **laukelį**, tada pasirenkate atskirtą kontaktą, kurio tipas yra **asmuo**.
     + Jei lauke Susieta sąskaita **arba** Susietas **tiekėjas pasirinksite** vertę, pasirinkite organizaciją.
 
-    ![Skirtukas Susietos organizacijos kontakto puslapyje](media/party-gab-image3.png)
+    ![Skirtukas Susietos organizacijos kontakto puslapyje.](media/party-gab-image3.png)
 
     Nepriklausomai nuo jūsų pasirinkimo, susiejimas sukuriamas šalies lygiu ir taikomas visiems šalies vaidmenims ir saugomas objekto **Šalies kontaktas**.
 
@@ -109,7 +109,7 @@ Atidarius kontakto **eilutę, kurioje nustatytas ir kliento, ir tiekėjo** **nr.
 
 Sąskaitoje, **kontakte** ir tiekėjo formose **įvestas naujas** **skirtukas pavadinimu** **Adresai**. Šis skirtukas palaiko kelis pašto adresus, naudodamas tinklelį, kaip parodyta šioje iliustracijoje.
 
-![Pašto adresų tinklelis](media/party-gab-image4.png)
+![Pašto adresų tinklelis.](media/party-gab-image4.png)
 
 Tinklelyje yra šie stulpeliai:
 
@@ -121,7 +121,7 @@ Galite naudoti mygtuką **Naujas adresas** virš tinklelio, kad sukurtumėte tie
 
 Laukai **1 adresas ir 2 adresas, esantys sąskaitos formos skirtuke Suvestinė**, **atitinka** **pristatymo** **ir** **SF** **adresus**.
 
-![Pašto adresų suvestinės skirtukas](media/party-gab-image5.png)
+![Pašto adresų suvestinės skirtukas.](media/party-gab-image5.png)
 
 Laukeliai **Adresas 1**, **Adresas 2** ir **Adresas 3** skirtuke **Santrauka** formoje **Kontaktas** atitinka **Verslo**, **Pristatymo** bei **SF** adresus.
 
@@ -129,7 +129,7 @@ Laukeliai **Adresas 1**, **Adresas 2** ir **Adresas 3** skirtuke **Santrauka** f
 
 Sąskaitoje, **kontakte** ir tiekėjo formose **įvestas naujas** **skirtukas pavadinimu** **Elektroniniai adresai**. Šis skirtukas palaiko kelis elektroninius adresus, naudodamas tinklelį, kaip parodyta šioje iliustracijoje.
 
-![Elektroninių adresų tinklelis](media/party-gab-image6.png)
+![Elektroninių adresų tinklelis.](media/party-gab-image6.png)
 
 Tinklelyje yra šie stulpeliai:
 
@@ -205,7 +205,7 @@ Elektroniniai adresai galimi tik šiame tinklelyje. Būsimuose leidimuose visi e
     | Šalies ID (laukas) | Tikslus atitikimas |
     | Pasirinkti (lauką) | (tuščia) |
 
-    ![Dubliuoti sąskaitų taisyklę](media/duplicate-rule-1.PNG)
+    ![Dubliuoti sąskaitų taisyklę.](media/duplicate-rule-1.PNG)
 
 10. Išplėskite dublikatų aptikimo taisyklę **Kontaktų** lentelei, nustatydami šiuos laukus.
 
@@ -221,7 +221,7 @@ Elektroniniai adresai galimi tik šiame tinklelyje. Būsimuose leidimuose visi e
     | Šalies ID (laukas) | Tikslus atitikimas |
     | Pasirinkti (lauką) | (tuščia) |
 
-    ![Dubliuoti kontaktų taisyklę](media/duplicate-rule-2.PNG)
+    ![Dubliuoti kontaktų taisyklę.](media/duplicate-rule-2.PNG)
 
 11. Jei esate esamas dvigubo rašymo vartotojas, vadovaukitės šalies ir visuotinės adresų knygelės modelio atnaujinimo instrukcijomis [ir](upgrade-party-gab.md) atnaujinkite savo duomenis.
 
@@ -300,11 +300,11 @@ Daugiau informacijos žr. [Dvigubo rašymo susiejimo nuoroda](mapping-reference.
 + Elektroniniai adresai nustatyti elektroninių adresų skirtuke **Sąskaita**, **Kontaktas** ir **Tiekėjo** formose ateina iš `msdyn_partyelectronicaddress` lentelės. Ši informacija nėra susijusi su jos operacijomis, pvz., pardavimo užsakymu, pasiūlymu ir pirkimo užsakymu. Planuojame išspręsti šią problemą didėjančia versija. Sąskaitų ir kontaktų įrašų elektroninio adreso laukuose esantys duomenys ir toliau bus dirba su operacijomis, pvz., pardavimo užsakymu, pasiūlymu ir pirkimo užsakymu.
 + „Finance and Operations“ Programėlėse galite sukurti kontakto įrašą iš formos Įtraukti **kontaktą**. Kai formoje Peržiūrėti kontaktą bandote sukurti **naują** kontaktą, veiksmas nepavyksta. Tai yra žinoma problema.
 
-    ![Žinomas problemos su įtraukti kontaktą](media/party-gab-contact-issue.png)
+    ![Žinomas problemos su įtraukti kontaktą.](media/party-gab-contact-issue.png)
 
 + **Pradinis sinchronizavimas nepalaiko Laukų Galima nuo ir**  Galimas **iki** **laiko** **, esančius ContactForParty, nes DIXF vertę konvertuoja į eilutę, o ne** į svertą. Konvertavimas suaktyvina klaidą `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`.
 + Kai pašto adresas naudojamas dėl daugiau nei vienos priežasties, pavyzdžiui, verslo ryšio adreso ir sąskaitų siuntimo adreso, jis turėtų būti toks, kaip parodyta `Business;Invoice` toliau pateiktame paveikslėlyje. Jei tarp verčių įtrauksite tarpą, gausite klaidą.
 
-    ![Žinomas problemos su adresu](media/party-gab-address-issue.png)
+    ![Žinomas problemos su adresu.](media/party-gab-address-issue.png)
 
 + Negalite įvesti pašto adreso į priekį naudodami programą, turiinę „Finance and Operations“ dvigubo rašymo datą,„ Dataverse“, nes datos poveikis nepalaikomas. Jei įvesite būsimą pašto adresą naudodami programą, jis bus visiškai sinchronizuotas ir iš karto matysite „Finance and Operations“ ir „Dataverse“ adresą vartotojo sąsajoje. Atnaujinus šį įrašą, bus klaida, nes ji yra būsima ir ne dabartine Finance and Operations programoje.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ecdf4e5618d3397527bf83977857fbe3f8dbb265
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: de378edbd7d13626302c7129c605b1837ffb579e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799184"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349607"
 ---
 # <a name="create-a-default-customer"></a>Numatytojo kliento kūrimas
 
@@ -47,7 +47,7 @@ Norėdami sukurti klientų grupę, atlikite tolesnius veiksmus.
 
 Toliau pateiktame vaizde parodytos kelios sukonfigūruotos klientų grupės.
 
-![Klientų grupės](media/customer-groups.png)
+![Klientų grupės.](media/customer-groups.png)
 
 ## <a name="create-a-customer-address-book"></a>Klientų adresų knygelės kūrimas
 
@@ -63,7 +63,7 @@ Norėdami sukurti klientų adresų knygelę, atlikite tolesnius veiksmus.
 
 Toliau pateiktame vaizde parodytas adresų knygelės pavyzdys.
 
-![Adresų knygelė](media/address-book.png)
+![Adresų knygelė.](media/address-book.png)
 
 ## <a name="create-a-default-customer"></a>Numatytojo kliento kūrimas
 
@@ -86,11 +86,11 @@ Norėdami sukurti numatytąjį klientą, atlikite tolesnius veiksmus.
 
 Toliau pateiktame vaizde parodytas kliento kūrimo pavyzdys.
 
-![Numatytojo kliento kūrimas](media/default-customer-creation.png)
+![Numatytojo kliento kūrimas.](media/default-customer-creation.png)
 
 Toliau pateiktame vaizde parodytas numatytojo kliento konfigūravimas.
 
-![Kliento konfigūravimo pavyzdys](media/default-customer-configuration1.png)
+![Kliento konfigūravimo pavyzdys.](media/default-customer-configuration1.png)
 
 Dauguma numatytųjų verčių kliento informacijos ekrane gali likti, bet dvi vertes reikia pakeisti.
 
@@ -100,13 +100,13 @@ Dauguma numatytųjų verčių kliento informacijos ekrane gali likti, bet dvi ve
 
 Toliau pateiktame vaizde parodytas kliento konfigūravimo pavyzdys.
 
-![Kliento konfigūravimo pavyzdys](media/default-customer-configuration2.png)
+![Kliento konfigūravimo pavyzdys.](media/default-customer-configuration2.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Kanalų apžvalga](channels-overview.md)
 
-[Kanalo sąrankos būtinieji komponentai](channels-prerequisites.md)
+[Būtinosios kanalo nustatymo sąlygos](channels-prerequisites.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

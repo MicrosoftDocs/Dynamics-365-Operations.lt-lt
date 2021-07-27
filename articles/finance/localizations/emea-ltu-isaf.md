@@ -14,12 +14,12 @@ ms.search.region: Lithuania
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 3dc41c7546c3261d43e0f20f25dccb384784a0e7
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: efbdd286b02940a53400d3d7ce4dc63d86bfbfb5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894720"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348897"
 ---
 # <a name="isaf-reporting-for-lithuania"></a>Lietuvos i.SAF ataskaitos
 
@@ -163,7 +163,7 @@ Daugiau informacijos apie duomenų valdymą žr. [Duomenų valdymas](../../fin-o
 9. Dabar turite importuoti duomenis iš failo **LT i.SAF sąranka funkcijai El. pranešimai.zip** į pasirinktą įmonę. Darbo srityje **Duomenų valdymas** pasirinkite **Importuoti** ir lauke **Šaltinio duomenų formatas** nustatykite **Paketas**. 
 10. Pasirinkite **Nusiųsti ir įtraukti**, kompiuteryje pasirinkite failą **LT i.SAF sąranka funkcijai El. pranešimai.zip** ir nusiųskite jį.
 
-![Duomenų objektų paketo importavimas](media/isaf-data-management.jpg)
+![Duomenų objektų paketo importavimas.](media/isaf-data-management.jpg)
 
 Gausite pranešimą srityje **Pranešimai** arba galite rankiniu būdu atnaujinti puslapį, kad pamatytumėte duomenų importavimo eigą. Pasibaigus importavimo procesui, matysite rezultatus puslapyje **Vykdymo suvestinė**.
 
@@ -191,7 +191,7 @@ Pagal numatytuosius nustatymus visi šių duomenų šaltinių įrašai bus įves
 3. Lauke **Data** lentelėje **Tiekėjo SF žurnalas** nurodykite laikotarpį, kurio pasirinkto juridinio subjekto tiekėjo SF turi būti įtraukiamos į ataskaitas i.SAF formatu. Čia galite nurodyti kitus atrankos kriterijus, atitinkančius konkrečius jūsų įmonės reikalavimus, taikomus i.SAF ataskaitai. 
 4. Atlikite tuos pačius kitų ataskaitos duomenų šaltinių (Pardavimo SF žurnalo, Projekto SF žurnalo) sąrankos veiksmus arba panaikinkite nereikalingus duomenų šaltinius iš sąrašo.
 
-![SF duomenų šaltinių automatinis įvedimas](media/isaf-populate-records.jpg)
+![SF duomenų šaltinių automatinis įvedimas.](media/isaf-populate-records.jpg)
 
 ## <a name="set-up-electronic-messaging-parameters-for-isaf"></a>i.SAF funkcijos El. pranešimai parametrų sąranka
 
@@ -225,7 +225,7 @@ Atlikite toliau nurodytus veiksmus, norėdami apriboti prieigą prie **i.SAF** a
 
 **„i.SAF“** apdorojimo sąranka, pateikiama naudojant duomenų objektų paketą, parodyta toliau pateikiamoje schemoje.
 
-![i.SAF el. pranešimų procesas](media/isaf-processing.jpg)
+![i.SAF elektroninių pranešimų procesas.](media/isaf-processing.jpg)
 
 Žali schemos langeliai rodo bendrą i.SAF ataskaitų generavimo procesą.
 
@@ -242,7 +242,7 @@ Kai SF sėkmingai užpildomos iš duomenų šaltinių lentelėje **Pranešimo pr
 2. Lauke **Apdorojimas** pasirinkite **i.SAF**. 
 3. Pažymėkite žymės langelį **Pasirinkti veiksmą** ir pasirinkite **„Atributų įvertinimas“**, kad pradėtumėte apibrėžti SF tipą; nepažymėjus žymės langelio **Pasirinkti veiksmą**, veiksmas **„Atributų įvertinimas“** bus vykdomas automatiškai kaip kitas pasirinkto apdorojimo veiksmas. Atlikus veiksmą **„Atributų įvertinimas“**, visų SF, kurių būsena yra **Automatiškai įvesta**, SF tipas bus apibrėžtas ir rodomas lauke **SF tipas** kiekvienos SF grupėje **Papildomas laukas**.
 
-![i.SAF SF tipo įvertinimas](media/isaf-invoice-type.jpg)
+![i.SAF SF tipo įvertinimas.](media/isaf-invoice-type.jpg)
 
 ## <a name="generate-the-isaf-report-in-xml"></a>i.SAF XML ataskaitos generavimas
 
@@ -263,7 +263,7 @@ Ataskaitoje i.SAF rodomi šie parametrai:
 
 Jei planuojate generuoti i.SAF ataskaitą paketiniu režimu, patikrinkite, ar pažymėtas žymės langelis Naudoti parametrus naudojant **i.SAF elektroninių pranešimų apdorojimo veiksmą** **Generuoti** **pranešimą**.
 
-![El. pranešimų apdorojimas](media/isaf-use-parameters.png)
+![Elektroninių pranešimų apdorojimas.](media/isaf-use-parameters.png)
 
 Norėdami nustatyti **i.SAF elektroninio pranešimo apdorojimo veiksmo Generuoti** **pranešimą** parametrus, atlikite šiuos veiksmus:
 
@@ -273,7 +273,7 @@ Norėdami nustatyti **i.SAF elektroninio pranešimo apdorojimo veiksmo Generuoti
 4. „FastTab“ **Veiksmai** veiksmų juostoje pasirinkite **Parametrai**.
 5. Nustatyti i.SAF ataskaitos parametrus, kuriuos sistema naudoja i.SAF generavimo metu. Pranešimo **parametro** laukas yra pasirinktinis.
 
-![Parametrų juosta](media/isaf-parameters-setup.png)
+![Parametrų juosta.](media/isaf-parameters-setup.png)
 
 6.Pasirinkite **Gerai**.
 
@@ -287,7 +287,7 @@ Norėdami kurti i.SAF ataskaitą bendru režimu, atlikite šiuos žingsnius.
 4. Norėdami **įjungti** pokyčio veiksmo parametrą **Veiksmo** laukelyje kurkite i.SAF ataskaitą. 
 5. Skirtuke Vykdyti fone „FastTab" nurodykite paketo parametrus ir pasirinkite Gerai, kad **sugeneruotumėte** **i.SAF** ataskaitą.
 
-![Vykdyti apdorojimą perkelkite](media/isaf-run-processing.png)
+![Vykdyti apdorojimo slankiklį.](media/isaf-run-processing.png)
 
   Dėl veiksmo Generuoti pranešimą kiekvienai elektroninio pranešimo prekei, kurios būsena yra Įvertinta ir atitinka nurodytus ataskaitos parametrus, bus **sukurtas** **elektroninis** pranešimas, **kuris bus rodomas pranešimo stulpelyje kiekvienos SF** atžvilgiu. Į ataskaitą įtrauktų pranešimo prekių **Būsena** bus pakeista į **Pranešta**.
 6. Norėdami peržiūrėti failą, pasirinkite el. pranešimo prekę, tada viršutiniame dešiniajame puslapio kampe pasirinkite **Priedai** (sąvaržėlės piktograma). 
@@ -312,7 +312,7 @@ Jei reikia iš naujo sugeneruoti tam tikrą prekių i.SAF ataskaitą, veiksmų s
 
 Jei norite neįtraukti SF į i.SAF ataskaitą, veiksmų srityje pasirinkite **Atnaujinti būseną**, kad pranešimų prekių būsena būtų pakeista į **Neįtraukta**. SF, kurių būsena yra **Neįtraukta**, į ataskaitą įtrauktos nebus. Dialogo puslapyje **Atnaujinti būseną** pasirinkite **„i.SAF“** apdorojimą, pasirinkite **Neįtraukti pranešimo prekės** lauke **Veiksmas**, tada pasirinkite **Neįtraukta** lauke **Nauja būsena**. Galite nustatyti papildomų kriterijų, naudodami funkciją **Filtras**, ir nurodyti SF, kurios nereikia įtraukti į tolesnį apdorojimą.
 
-![i.SAF Pranešimo prekės neįtraukimas į apdorojimą](media/isaf-exclude-message-item.jpg)
+![i.SAF Pranešimo prekės neįtraukimas į apdorojimą.](media/isaf-exclude-message-item.jpg)
 
 Jei norite atidėti SF įtraukimą į i.SAF ataskaitą, veiksmų srityje pasirinkite **Atnaujinti būseną**, kad pranešimų prekių būsena būtų pakeista į **Atidėta**. SF, kurių būsena yra **Atidėta**, į ataskaitą įtrauktos nebus. Dialogo puslapyje **Atnaujinti būseną** pasirinkite **„i.SAF“** apdorojimą, pasirinkite **Pakeisti į Atidėta** lauke **Veiksmas**, tada pasirinkite **Atidėta** lauke **Nauja būsena**. Galite nustatyti papildomų kriterijų, naudodami funkciją **Filtras**, kad nurodytumėte, kuri (-ios) SF turi būti atidėta (-os) pagal kriterijus.
 

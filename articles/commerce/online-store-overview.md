@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: josaw
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 55c40029082e49c1fbc9d9d5e9361218e5ddc5a0
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: b7050f954116213f700e4a2b3326547f4d070674
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022477"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353017"
 ---
 # <a name="e-commerce-site-overview"></a>El. prekybos svetainės apžvalga
 
@@ -47,27 +47,27 @@ E-komercijos saito pradžioje, būsite paskatinti domeno pavadinimui. Dėl daugi
 
 Jums pradėjus „Commerce“ saito kūrėją nuo LCS, pasirodo **Saitai** puslapis. Šiame puslapyje yra du iš anksto sukonfigūruoti saitai, **nustatytasis** ir **fabrikam**, kaip parodyta tolesniame paveikslėlyje.
 
-![Saito puslapis „Commerce“ saito kūrimo įrankyje](media/e-commerce-site-01.png)
+![Saito puslapis „Commerce“ saito kūrimo įrankyje.](media/e-commerce-site-01.png)
 
 Jums pasirinkus vieną iš saitų, būsite paskatinti pasirinkti domeno pavadinimą, numatytąjį interneto parduotuvės kanalą, palaikomą kalbą pasirinktam kanalui ir maršrutą. Jei naudojamas tik vienas kanalas, galite palikti maršrutą tuščią. Daugiau interneto parduotuvės kanalų ir kalbų galima sukonfigūruoti vėliau „Commerce“ saito kūrimo įrankyje. Kiekvienas papildomas kanalas ar kalba turės turėti unikalų maršrutą. Pavyzdžiui, turite du interneto kanalus, kurie susieti su vienu saitu ir domeno pavadinimas saitui yra  `www.fabrikam.com`. Tokiu atveju, maršrutas vienam kanalui gali būti nustatytoji vertė neturinti jokio maršruto (`https://www.fabrikam.com`), o antrasis kanalas gali būti nustatytas į naują maršrutą kaip **saitas2**, kuris turės URL `https://www.fabrikam.com/site2`. Tolesnis paveikslėlis rodo saito pradžios teksto laukelio „Commerce“ saito kūrimo įrankyje pavyzdį.
 
-![Saito pradžios teksto laukelis „Commerce“ saito kūrimo įrankyje](media/e-commerce-site-02.png)
+![Saito pradžios teksto laukelis „Commerce“ saito kūrimo įrankyje.](media/e-commerce-site-02.png)
 
 Puslapis **Saitai** taip pat apima **Naujas saitas** mygtuką. Teksto laukelis pasirodo, kai pasirenkate šį mygtuką ir jis atspindi saito pradžios teksto laukelį, bet naudojamas siekiant sukurti naują saitą. Nauji saitai yra tušti. Jie neapima tų pačių numatytųjų šablonų, fragmentų, puslapių ir paveikslėlių, pateiktų su **numatytaisiais** ir **„fabrikam”** saitais. Nepaisant to, kaip būtina, galite atverti palaikymo bilietą siekiant paprašyti, jog numatytojo turinio kopija būtų įtraukta į naują tuščią saitą. Dėl daugiau informacijos, žr. [Sukurti e-komercijos saitą](create-ecommerce-site.md).
 
 Po naujo saito pradžios „Commerce“ saito kūrimo įrankio **Pagrindinis** puslapis pasirodo. Šiame puslapyje yra nuorodos į bendrus veiksmus ir gairių turinį, kaip parodyta tolesniame paveikslėlyje.
 
-![Nuorodos į Pagrindinį puslapį „Commerce“ saito kūrimo įrankyje](media/e-commerce-site-03.png)
+![Nuorodos į Pagrindinį puslapį „Commerce“ saito kūrimo įrankyje.](media/e-commerce-site-03.png)
 
 ## <a name="modify-online-store-channels-or-add-online-store-channels-to-an-e-commerce-site"></a>Keisti interneto parduotuvės kanalus ar įtraukti interneto parduotuvės kanalus į e-komercijos saitą
 
 Po e-komercijos saito sukūrimo, galite keisti su juo susietą kanalą su tolesniais žingsniais [Susieti e-komercijos saitą su interneto kanalu](associate-site-online-store.md). Pavyzdys tolesniame paveikslėlyje rodo, kaip kanalo veikimo vieneto numeris (OUN) gali būti keičiamas **Kanalų** puslapyje (**Saito nustatymuose \> Kanaluose**). Jums pabaigus keitimą, įsitikinkite, kad pasirinkote **Įrašyti ir publikuoti**. Tokiu būdu, įsitikinsite, kad pakeitimas yra publikuotas.
 
-![Kanalo puslapis „Commerce“ saito kūrimo įrankyje](media/e-commerce-site-04.png)
+![Kanalo puslapis „Commerce“ saito kūrimo įrankyje.](media/e-commerce-site-04.png)
 
 Galite įtraukti naujus kanalus pasirinkdami **Įtraukti kanalą**. Norėdami įtraukti naujas kalbas į kanalą, pasirinkite kanalą ir tada rinkitės **Įtraukti vietinį** pasirodančiame kanalo teksto laukelyje. Prieš tai, kai vietiniai gali pasirodyti teksto laukelyje, juos reikia sukonfigūruoti iš anksto interneto parduotuvės kanale „Commerce“ štabe.
 
-![Kanalo teksto laukelis „Commerce“ saito kūrimo įrankyje](media/e-commerce-site-05.png)
+![Kanalo teksto laukelis „Commerce“ saito kūrimo įrankyje.](media/e-commerce-site-05.png)
 
 ## <a name="set-up-an-azure-b2c-tenant"></a>Nustatykite „Azure B2C“ nuomotoją
 

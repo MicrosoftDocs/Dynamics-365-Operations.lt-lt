@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e3837ccebca0e6644ac5ded98344a5135cfb5d7a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 130f570646d73e37a790ab90ae9a1d6a48b0f8b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799594"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351374"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Grąžinimo mokėjimo tvarkymas skambučių centruose
 
@@ -37,7 +37,7 @@ Skambučių centras naudoja originalaus užsakymo mokėjimo metodą siekiant nus
 
     Tolesnis paveikslėli rodo konfigūravimus scenarijui, kai kliento grąžinimo produktai iš prekybos užsakymo, susieto su USD valiuta ir tai, kad jis buvo iš pradžių sumokėtas naudojant įprastą ir čekio mokėjimo tipą. Šiame scenarijuje, grąžinimas bus išduodamas klientui per sistemos sukurtą grąžinimo čekį. **REF-CHK** grąžinamų sąskaitų metodas buvo sukonfigūruotas kaip grąžinimo čekio mokėjimo tipas.
 
-    ![Skambučių centro grąžinimo metodų konfigūravimas įprastiems ir čekio originaliems mokėjimams](media/callcenterrefundmethods.png)
+    ![Skambučių centro grąžinimo metodų konfigūravimas įprastiems ir čekio originaliems mokėjimams.](media/callcenterrefundmethods.png)
 
 - **Kredito kortelė** – Kai grąžinimo užsakymas yra sukurtas ir nukreipia į pradinį užsakymą, kuris buvo sumokėtas naudojant kredito kortelę, skambučių centro logika grąžinimo mokėjimams taikoma tai pačiai kredito kortelei grąžinimo užsakymui.
 - **Lojalumo kortelė** – Kai grąžinimo užsakymas yra sukurtas ir nukreipia į pradinį užsakymą, kuris buvo sumokėtas naudojant kliento lojalumo kortelę, skambučių centro logika grąžinimo mokėjimams taikoma grąžinimui į tą pačią lojalumo kortelę.
@@ -48,7 +48,7 @@ Jei pradinis užsakymo mokėjimo tipas yra nežinomas dėl kokios nors priežast
 
 Tolesniame paveikslėlyje rodomas **Mokėjimo metodo** laukelis skirtuke **RMA/grąžinimas** puslapyje **Skambučių centro parametrai**.
 
-![Mokėjimo metodo laukelis skirtuke RMA/grąžinimas puslapyje Skambučių centro parametrai](media/callcenterrefundparameters.png)
+![Mokėjimo metodo laukelis skirtuke RMA/grąžinimas puslapyje Skambučių centro parametrai.](media/callcenterrefundparameters.png)
 
 > [!NOTE]
 > Grąžinimo tvarkymo taisyklės aprašytos anksčiau taip pat yra taikomos užsakymams ar jų eilutėms, kurias skambučių centro vartotojas atšaukia prekybos būstinėje. Jei užsakymo ar konkrečių užsakymo eilučių atšaukimas sudaro kokius nors permokėjimus, tos pačios taisyklės bus naudojamos siekiant sukurti grąžinimo mokėjimų eilutes.
@@ -82,7 +82,7 @@ Nustačius **Taip** parinkčiai **Taikyti kreditą**, ji yra taikoma tik grąži
 > [!NOTE]
 > Grąžinimo užsakymui, kuris nebuvo susietas su jokiu pakeitimo užsakymu, parinkties **Taip** nustatymas **Taikyti kreditą** niekaip neveiks grąžinimo užsakymo mokėjimo logikos, nes šis nustatymas taikomas tik pakeitimo užsakymams.
 
-![Taikyti kreditų mokėjimo metodo laukelį skirtuke RMA/grąžinimas puslapyje Skambučių centro parametrai](media/callcenterrefundparameters1.png)
+![Taikyti kreditų mokėjimo metodo laukelį skirtuke RMA/grąžinimas puslapyje Skambučių centro parametrai.](media/callcenterrefundparameters1.png)
 
 > [!IMPORTANT]
 > Jei vartotojai, sukūrę pakeitimo užsakymus, planuoja naudoti **Taikyti kreditą** parinktį, jie neturėtų vykdyti **Užbaigti** funkciją grąžinimo užsakyme prieš nustatę **Taikyti kreditą** parinktį į **Taip**. Įvykdžius funkciją **Užbaigta**, grąžinimo mokėjimas yra apskaičiuojamas ir taikomas grąžinimo prekybos užsakymui. Bet koks bandymas nustatyti **Taikyti kreditą** parinktį į **Taip** po to, kai grąžinimo mokėjimas jau buvo apskaičiuotas ir taikomas, neiššauks grąžinimo mokėjimo perskaičiavimo ir mokėjimo metodas pasirinktas **Taikyti kreditų mokėjimo metodą** laukelyje taikomas nebus. Jei **Taikyti kreditą** parinktis turi būti naudojama šiame kontekste, vartotojas privalo panaikinti keitimo užsakymą ir RMA bei iš naujo pradėti ir sukurti naują RMA. Dabar vartotojas privalo užtikrinti, kad **Taikyti kreditą** parinktis yra nustatyta į **Taip** prieš **Užbaigti** funkcijos vykdymą.
@@ -91,14 +91,14 @@ Nustačius **Taip** parinkčiai **Taikyti kreditą**, ji yra taikoma tik grąži
 
 Nepaisant to, kad skambučių centro logika sistemiškai nustato grąžinimo mokėjimo metodą aprašytą toliau šioje temoje, vartotojams kartais gali reikėti viršyti šiuos mokėjimus. Pavyzdžiui, vartotojui gali reikėti redaguoti ar pašalinti esančias grąžinimo mokėjimo eilutes ir taikyti naujas mokėjimo eilutes. Sistemos apskaičiuoti grąžinimo mokėjimai gali būti keičiami tik vartotojų, turinčių tinkamas viršijimo teises. Šios teisės gali būti konfigūruojamos **Viršyti teises** puslapyje Mažmenos prekyboje ir Komercijoje. Norėdami atlikti grąžinimo mokėjimo viršijimą, vartotojai turi būti susieti su saugos vaidmeniu, kuriame **Leisti alternatyvų mokėjimą** parinktis yra nustatyta į **Taip** puslapyje **Viršyti leidimus**.
 
-![Leisti alternatyvią mokėjimo parinktį Viršyti teises puslapyje](media/overridepermissions.png)
+![Leisti alternatyvią mokėjimo parinktį Viršyti teises puslapyje.](media/overridepermissions.png)
 
 Kitu atveju, organizacija gali nustatyti **Leisti mokėjimo viršijimo** parinktį į **Taip** puslapyje **RMA/Grąžinimas** skirtuke, **Skambučių centro parametrai** puslapyje. Tokiu atveju, saugos viršijimo kodas turi būti pasirinktas **Saugo viršijimo kodo** laukelyje. Saugumo viršijimo kodas yra skaitinis ir raidinis kodas, kuris turi būti sutvarkytas išorėje, nes vartotojai negali peržiūrėti jo Komercijos būstinėje po jo nustatymo. Saugos viršijimo kodas turi būti žinomas tik keliams pagrindiniams, organizacijoje pasitikėjimą turintiems asmenims. Kai **Leisti mokėjimo viršijimą** parinktis yra nustatyta į **Taip**, jei bet kokie vartotojai, neturintys tinkamo vaidmens teisių bando pakeisti mokėjimo metodą grąžinimo užsakyme, jie turės parinktį įvesti saugos viršijimo kodą. Jei jie jo nežino ar vadovas, arba viršininkas negali jo įvesti puslapyje jų vardu, jie negalės viršyti grąžinimo mokėjimo metodo.
 
 > [!NOTE]
 > Jei saugos viršijimo kodas yra prarastas ar pamirštas, organizacija turės jį paleisti iš naujo nustatydama naują saugos viršijimo kodą **Saugos viršijimo kodo** laukelyje **RMA/Grąžinimo** skirtukas puslapyje **Skambučių centro parametrai**.
 
-![Mokėjimo viršijimo parametrai RMA/grąžinimas puslapyje Skambučių centro parametrai](media/overridepaymentparameter.png)
+![Mokėjimo viršijimo parametrai RMA/grąžinimas puslapyje Skambučių centro parametrai.](media/overridepaymentparameter.png)
 
 > [!IMPORTANT]
 > Prieš tai, kai organizacijos bando viršyti grąžinimo mokėjimus, kurie naudoja kredito kortelės mokėjimo tipus, jie turi bandyti patvirtinti, kad jų kredito kortelės tvarkytojas leidžia nesusietus grąžinimus. Daugelis tvarkytojų prašo grąžinimus pervesti į pradinę kortelę. Visi bandymai išduoti grąžinimą į kortelę, kuri neturi ankstesnių duomenų, gali sukelti publikavimo klaidas su tvarkytoju.

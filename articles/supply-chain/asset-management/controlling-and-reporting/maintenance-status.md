@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f3d6f86c5052c845c9c8aad1e4437f4196f78b50
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1b0c8b6a81fd863d66ca01689262f0ec08a94d76
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808621"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354981"
 ---
 # <a name="maintenance-status"></a>Priežiūros būsena
 
@@ -57,13 +57,13 @@ Skiltyje Turto valdymas galite vykdyti skaičiavimus, norėdami matyti nurodyto 
 
 Toliau pateiktoje ekrano kopijoje yra suaktyvinti mygtukai **Metai** ir **Mėnuo**. Pasirinkę šias **Grupuoti pagal** parinktis, galite matyti bendrą mėnesinę darbo krūvio ir našumo, susijusio su priežiūros užklausomis ir darbo užsakymais, apžvalgą. 
 
-![Mėnesinio darbo krūvio pavyzdys](media/13-controlling-and-reporting.png)
+![Mėnesinio darbo krūvio pavyzdys.](media/13-controlling-and-reporting.png)
 
 ## <a name="example-2"></a>2 pavyzdys
 
 Toliau pateiktoje ekrano kopijoje buvo įterpta informacija apie funkcines vietas. Dabar galite palyginti darbo krūvį ir našumą funkcinėse vietose, kuriose gali nurodyti geografines vietas, gamyklas arba darbo vietas. 
 
-![Mėnesinio darbo krūvio su funkcinėmis vietomis pavyzdys](media/14-controlling-and-reporting.png)
+![Mėnesinio darbo krūvio su funkcinėmis vietomis pavyzdys.](media/14-controlling-and-reporting.png)
 
 
 

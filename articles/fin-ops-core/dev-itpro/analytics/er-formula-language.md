@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 470b4fa1c8b15ae4a9e9ebef81af9e4ca107422d
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 1e48c02ecc9d69cf14ed257aae56081925cedfe9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6223991"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355399"
 ---
 # <a name="electronic-reporting-formula-language"></a>Modulio Elektroninės ataskaitos formulių kalba
 
@@ -117,15 +117,15 @@ Kai išraiška nurodo susistemintų duomenų šaltinį, galite naudoti kelio apr
 
 Jei susistemintų duomenų šaltinio kelias prasideda ženklu „@“, šis kelias yra santykinis. Ženklas „@“ rodomas vietoj likusios naudojamos hierarchinės medžio struktūros absoliučiojo kelio dalies. Toliau pateikiamoje iliustracijoje vaizduojamas pavyzdys. Čia absoliutusis kelias `Ledger.'accountingCurrency()'` nurodo, kad apskaitos valiutos reikšmė iš duomenų šaltinio **Didžioji knyga** įvedama į duomenų modelio lauką **AccountingCurrency**.
 
-![Absoliučiojo kelio pavyzdys ER modelio susiejimo kūrimo įrankio puslapyje](./media/ER-FormulaLanguage-AbsolutePath.png)
+![Absoliučiojo kelio pavyzdys ER modelio susiejimo kūrimo įrankio puslapyje.](./media/ER-FormulaLanguage-AbsolutePath.png)
 
 Tolesnėje iliustracijoje pateiktame pavyzdyje parodyta, kaip naudojamas santykinis kelias. Santykinis kelias `@.AccountNum` nurodo, kad, naudojant duomenų šaltinio **„Intrastat“** lauką **AccountNum** (kuris duomenų modelio hierarchiniame medyje rodomas vienu lygiu aukščiau lauko **AccountNum**), duomenų modelio lauke **AccountNum** įvedamas kliento arba tiekėjo sąskaitos numeris.
 
-![Santykinio kelio pavyzdys ER modelio susiejimo kūrimo įrankio puslapyje](./media/ER-FormulaLanguage-RelativePath1.png)
+![Santykinio kelio pavyzdys ER modelio susiejimo kūrimo įrankio puslapyje.](./media/ER-FormulaLanguage-RelativePath1.png)
 
 Likusi absoliučiojo kelio dalis taip pat rodoma [ER formulių rengyklėje](general-electronic-reporting-formula-designer.md).
 
-![Likusi absoliučiojo kelio dalis ER formulių kūrimo įrankio puslapyje](./media/ER-FormulaLanguage-RelativePath2.png)
+![Likusi absoliučiojo kelio dalis ER formulių kūrimo įrankio puslapyje.](./media/ER-FormulaLanguage-RelativePath2.png)
 
 Daugiau informacijos žr. [Santykinio kelio naudojimas ER modelių ir formatų duomenų sąsajose](relative-path-data-bindings-er-models-format.md).
 

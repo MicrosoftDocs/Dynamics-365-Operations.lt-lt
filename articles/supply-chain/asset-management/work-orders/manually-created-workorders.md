@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8962cbbc8f413093eef0fb3783aa6ced22f7bc2d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6e16c0bcd9521f822d0f92681e2a545439b78acb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839564"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354862"
 ---
 # <a name="manually-created-work-orders"></a>Neautomatiniu būdu sukurti darbo užsakymai
 
@@ -111,7 +111,7 @@ Galite sukurti darbo užsakymą, susijusį su esamu darbo užsakymu. Ši galimyb
 
 Toliau pateiktame paveikslėlyje parodytas dialogo lango **Kurti susijusį darbo užsakymą** pavyzdys.
 
-![1 pav.](media/03-work-orders.png)
+![1 iliustracija.](media/03-work-orders.png)
 
 >[!NOTE]
 >Jei nustatėte susijusio darbo šabloną **Turto valdymo parametrai** > skirtuke **Darbo užsakymai** > lauke **Susijusio darbo užsakymo šablonas**, darbo užsakymo ID bus sukuriami pagal šablono sąranką. Jei nėra nurodytas joks susijusio darbo užsakymo šablonas, kitas pasiekiamas darbo užsakymo ID naudojamas susijusiems darbo užsakymams.
@@ -137,7 +137,7 @@ Galite greitai sukurti naują darbo užsakymą iš esamo darbo užsakymo. Toks d
 
 Toliau pateiktame paveikslėlyje parodytas dialogo lango **Kopijuoti darbo užsakymą** pavyzdys.
 
-![2 pav.](media/04-work-orders.png)
+![2 iliustracija.](media/04-work-orders.png)
 
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Sukurkite darbo užsakymą pagal priežiūros užklausą
@@ -157,7 +157,7 @@ Toliau pateiktame paveikslėlyje parodytas dialogo lango **Kopijuoti darbo užsa
 
 Toliau pateiktame paveikslėlyje parodytas dialogo lango **Kurti darbo užsakymą** pavyzdys.
 
-![3 pav.](media/05-work-orders.png)
+![3 iliustracija.](media/05-work-orders.png)
 
 
 >[!NOTE]

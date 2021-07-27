@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 47867447e6d16a0fb4542c17ab184068300b2c1c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8f5c8f104d8304cf9a54efcdf6e22efbc3b356b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019962"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348273"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>Sklandus dovanų kortelių ir pažymų operacijų perjungimas neprisijungus
 
@@ -36,7 +36,7 @@ Tačiau, jei EKA praranda ryšį įtraukus dovanų kortelę į operaciją, dovan
 
 Norėdami įgalinti funkcijas, skirtas dovanų kortelių operacijoms užbaigti neprisijungus, eikite į puslapio **Prekybos parametrai** skirtuką **Registravimas**. Šiame skirtuke raskite „FastTab“ elementą **Dovanų kortelė** ir parinktyje **Leisti atlikti dovanų kortelių operacijas neprisijungus** nustatykite **Taip**.
 
-![Dovanų kortelių nustatymas neprisijungus](../media/gift.png)
+![Dovanų kortelių nustatymas neprisijungus.](../media/gift.png)
 
 Prekybos parametrai paprastai saugomi talpykloje. Todėl atnaujinus šio parametro nustatymą ir inicijavus paskirstymo grafiką sinchronizuoti pakeitimą su kanalu, gali reikėti palaukti iki 24 val., kol pakeitimas įsigalios. Norėdami, kad pakeitimas įsigaliotų nedelsiant, iš naujo nustatykite „Microsoft“ informacines interneto paslaugas (IIS).
 
@@ -46,7 +46,7 @@ Kaip ir vidinės dovanų kortelės, kredito pažymos centralizuotai tvarkomos �
 
 Norėdami įgalinti funkcijas, skirtas kredito pažymų operacijoms užbaigti neprisijungus, eikite į puslapio **Prekybos parametrai** skirtuką **Registravimas**. Šiame skirtuke raskite „FastTab“ elementą **Kredito pažyma** ir parinktyje **Leisti atlikti kredito pažymų operacijas neprisijungus** nustatykite **Taip**.
 
-![Kredito pažymos nustatymas neprisijungus](../media/creditmemo.png)
+![Kredito pažymos nustatymas neprisijungus.](../media/creditmemo.png)
 
 Prekybos parametrai paprastai saugomi talpykloje. Todėl atnaujinus šio parametro nustatymą ir inicijavus paskirstymo grafiką sinchronizuoti pakeitimą su kanalu, gali reikėti palaukti iki 24 val., kol pakeitimas įsigalios. Norėdami, kad pakeitimas įsigaliotų nedelsiant, iš naujo nustatykite IIS.
 

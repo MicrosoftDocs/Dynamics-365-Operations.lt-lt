@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c660cf5aba786fb6f84776f6443f658ebbfa25d5
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: 12de6d70243bdcda5fc7887f24eecb462de23683
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937335"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351024"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Duomenų importavimo ir eksportavimo užduočių apžvalga
 
@@ -106,7 +107,7 @@ Yra du susiejimo rodiniai: **Susiejimo vizualizacija** (numatytasis rodinys) ir 
 
 Puslapyje susiejimą galite sugeneruoti pasirinkdami **Generuoti šaltinio susiejimą**. Sugeneruotas susiejimas veikia taip, kaip automatinis susiejimas. Todėl turite rankiniu būdu susieti visus nesusietus laukus.
 
-![Duomenų susiejimas](./media/dixf-map.png)
+![Duomenų susiejimas.](./media/dixf-map.png)
 
 ## <a name="verify-the-security-for-your-import-or-export-job"></a>Importavimo arba eksportavimo užduoties saugos tikrinimas
 Prieigą prie darbo srities **Duomenų valdymas** galima apriboti, kad administratoriaus teisių neturintys vartotojai galėtų pasiekti tik konkrečias duomenų užduotis. Prieiga prie duomenų užduoties reiškia visišką prieigą prie tos užduoties vykdymo retrospektyvos ir prieigą prie išdėstymo lentelių. Todėl turite įsitikinti, kad kuriant duomenų užduotį nustatomi tinkami prieigos valdikliai.
@@ -132,7 +133,7 @@ Apibrėžę užduotį, ją galite vieną kartą vykdyti pasirinkdami mygtuką **
 ## <a name="validate-that-the-job-ran-as-expected"></a>Tikrinimas, ar užduotis įvykdyta taip, kaip tikėtasi
 Norint nustatyti ir ištirti importavimo bei eksportavimo užduočių triktis, galima naudoti jų retrospektyvą. Retrospektyviniai užduoties vykdymai sisteminami pagal laiko intervalus.
 
-![Užduoties retrospektyvos intervalai](./media/dixf-job-history.md.png)
+![Užduoties retrospektyvos intervalai.](./media/dixf-job-history.md.png)
 
 Kiekvieną kartą vykdant užduotį pateikiama tolesnė informacija.
 

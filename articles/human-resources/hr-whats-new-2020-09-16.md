@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-09-16
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0fe3ac2393e66a00e070d8cb6862c29625d39b53
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: b1386cca9fd39c2cf021e87fcc33da2bbda89630
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057169"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353595"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-16-2020"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. rugsėjo 16 d.)
 
@@ -99,9 +99,9 @@ Nauja parinktis dabar galima norint perkelti sąrašą **Man priskirti darbo ele
 
 - [Organizacijos ir personalo valdymo darbo eigos patobulinimai](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) „Dynamics 365“ 2020 m. leidimo 2 bangos plane
 
-![Man priskirti darbo elementai](./media/hr-workflow-work-items-assigned-to-me.png)
+![Man priskirti darbo elementai.](./media/hr-workflow-work-items-assigned-to-me.png)
 
-![Darbo eigos elementų sparčioji prieiga](./media/hr-workflow-quick-access.png)
+![Darbo eigos elementų sparčioji prieiga.](./media/hr-workflow-quick-access.png)
 
 ### <a name="leave-and-absence-calendar"></a>Atostogų ir neatvykimų kalendorius
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 02e8bb1bfb088a877ef23b7a81982868700f4ae2
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 7b5f8303ea23f4f38bf27d35de0fa91ab82f4b5b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028112"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354474"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>„Retail Modern POS“ (MPOS) ir „Cloud POS“ užduočių įrašymo priemonė bei žinynas
 
@@ -55,14 +55,14 @@ Atlikite šiuos veiksmus, jei norite kurti naują įrašą naudodami užduočių
 1. Paleiskite „Retail Modern POS“ arba „Cloud POS“ ir prisijunkite.
 2. Puslapio **Parametrai** dalyje **Užduočių įrašymo priemonė** spustelėkite **Atidaryti užduočių įrašymo priemonę**. Pasirodo sritis **Užduočių įrašymo priemonė**. Galite spustelėti mygtuką **Uždaryti** (**X**) viršutiniame dešiniajame kampe, kad prieš pradėdami naują įrašymo veiksmą uždarytumėte sritį **Užduočių įrašymo priemonė**. Norėdami atidaryti juostą dar kartą, kartokite žingsnį 2.
 
-    [![Sritis Užduočių įrašymo priemonė](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
+    [![Sritis Užduočių įrašymo priemonė.](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
 
 3. Įveskite įrašo pavadinimą bei aprašą ir spustelėkite **Pradėti**. Įrašymo sesija prasideda iškart, kai spustelėjate **Pradėti**.
 
     > [!NOTE]
     > Viršutiniame dešiniajame kampe spustelėjus mygtuką **Uždaryti** (**X**), kai vyksta įrašymas, sritis **Užduočių įrašymo priemonė** uždaroma, bet įrašymo seansas tęsiamas. Norėdami vėl atidaryti sritį Užduočių įrašymo priemonė, ekrano viršuje spustelėkite mygtuką **Žinynas** (klaustuko ženklas).
     >
-    > [![Klaustuko ženklas](./media/help.jpg)](./media/help.jpg)
+    > [![Klaustukas.](./media/help.jpg)](./media/help.jpg)
 
 4. Kai spustelėsite **Pradėti**, įjungiamas užduočių įrašymo priemonės įrašymo režimas. Srityje **Užduočių įrašymo priemonė** rodoma informacija ir valdikliai, kurie susiję su įrašymo procesu.
 5. Atlikti veiksmus, kuriuos norite atlikti „Retail Modern POS“ arba „Cloud POS“ vartotojo sąsajoje (UI).
@@ -72,7 +72,7 @@ Atlikite šiuos veiksmus, jei norite kurti naują įrašą naudodami užduočių
 
 Užbaigus įrašymo seansą, rodomos kelios parinktys, kad galėtumėte atsisiųsti savo įrašą.
 
-[![Atsisiuntimo parinktys](./media/downlaod-options.jpg)](./media/downlaod-options.jpg)
+[![Atsisiuntimo parinktys.](./media/downlaod-options.jpg)](./media/downlaod-options.jpg)
 
 ### <a name="save-to-this-pc"></a>Įrašyti šiame kompiuteryje
 
@@ -88,9 +88,9 @@ Neapdorotas įrašo failas naudingas kūrėjo scenarijams, pvz., norint patikrin
 
 ## <a name="recording-controls"></a>Įrašymo valdikliai
 
-[![Įrašymo valdikliai](./media/controls.jpg)](./media/controls.jpg)
+[![Įrašymo valdikliai.](./media/controls.jpg)](./media/controls.jpg)
 
-### <a name="stop"></a>Sustabdyti
+### <a name="stop"></a>Stabdyti
 
 Norėdami baigti įrašymo seansą, spustelėkite **Stabdyti**. Atminkite, kad baigę seansą negalite jo paleisti iš naujo. Todėl prieš baigdami seansą įsitikinkite, kad įrašymas atliktas.
 
@@ -117,13 +117,13 @@ Galite nurodyti sugrupuotų veiksmų rinkinio pradžią ir pabaigą, naudodami m
 
 Komentaras yra papildomas tekstas, įtraukiamas į įrašo veiksmą. Pavyzdžiui, galite naudoti komentarus, norėdami vartotojui suteikti daugiau konteksto arba instrukcijų. Galite įtraukti komentarų prieš arba po veiksmo. Galite įtraukti komentarą į bet kurį veiksmą, spustelėdami mygtuką **Redaguoti** (pieštuko simbolis) dešinėje veiksmo pusėje.
 
-[![Veiksmo mygtukas Redaguoti](./media/annotate.jpg)](./media/annotate.jpg)
+[![Veiksmo mygtukas Redaguoti.](./media/annotate.jpg)](./media/annotate.jpg)
 
 ### <a name="texts-and-notes"></a>Tekstas ir pastabos
 
 Galite naudoti laukus **Tekstas** ir **Pastabos**, norėdami įtraukti tekstą, kuris turi būti susietas su užduočių vedlio veiksmu.
 
-[![Laukai Tekstas ir Pastabos](./media/annotatesteps.jpg)](./media/annotatesteps.jpg)
+[![Laukai Tekstas ir Pastabos.](./media/annotatesteps.jpg)](./media/annotatesteps.jpg)
 
 #### <a name="text"></a>Tekstas
 
@@ -137,7 +137,7 @@ Lauke **Pastabos** įvestas tekstas rodomas *po* veiksmo teksto užduočių vedl
 
 Tam, kad tinkinti užduočių įrašai būtų pateikiami „Retail Modern POS“ ir „Cloud POS“ žinyno srityje ir juos būtų galima peržiūrėti kaip tekstą, užduočių įrašus turite įrašyti į savo BPM biblioteką, tada atnaujinti žinyno sistemos parametrus, kad būtų nurodoma BPM biblioteka. Norėdami gauti daugiau informacijos, žr. [Žinyno sistemos prijungimas](../fin-ops-core/fin-ops/get-started/help-connect.md). „Retail Modern POS“ ir „Cloud POS“ žinynas atlieka iešką LCS realiuoju laiku. Ieška vykdoma visose BPM bibliotekose, kurios pasirinktos „Commerce“ žinyno sistemos parametruose, ir rodomi atitinkami rezultatai. Norėdami pasiekti meniu **Žinynas**, ekrano viršuje spustelėkite mygtuką **Žinynas** (klaustukas) ir ieškos lauke įveskite savo proceso pavadinimą bei spustelėkite ieškos mygtuką.
 
-[![Mygtukas Pagalba](./media/help.jpg)](./media/help.jpg)
+[![Mygtukas Pagalba.](./media/help.jpg)](./media/help.jpg)
 
 Ieškos rezultatuose spustelėjus užduočių vedlį, veiksmus galima peržiūrėti kaip žinyno temą arba eksportuoti į „Word“ dokumentą.
 

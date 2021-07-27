@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5644b5076aeda30d5535c0128497e267359583a2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1f5c8ca5acab8f62637be8f6a04d982a3181ffc2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808213"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354233"
 ---
 # <a name="warranty-agreements"></a>Garantijos sutartys
 
@@ -51,7 +51,7 @@ Garantijos sutartyje gali būti kelios eilutės, apimančios darbo valandų, iš
     3. Lauke **Intervalas** įveskite skaičių. Šiame lauke nustatomas laikotarpių, kuriuos garantija turi galioti, skaičius.
     4. Lauke **Procentas** įveskite garantijos eilutės apimties procentinę dalį. Ši procentinė dalis nurodo, kokia yra jūsų įmonės garantijos apimtis.
 
-![Garantijos puslapis](media/01-warranty.png)
+![Garantijos puslapis.](media/01-warranty.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

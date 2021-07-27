@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ed28928b0f07833d5906a68f780e3bb5bbe0bfe9
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 03c9406d295fb0dbd22e8072c2695dbef419b706
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921222"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353545"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Produkto varianto matavimo vieneto konvertavimas
 
@@ -56,7 +56,7 @@ Norėdami konfigūruoti bendrąjį produktą, kad būtų palaikomas kiekvieno va
     - **Produktas** – jei pasirinksite šią reikšmę, galite nustatyti bendrojo produkto vieneto konvertavimą. Toks vieneto konvertavimas bus naudojamas kaip atsarginis visų produkto variantų, kuriems neapibrėžtas vienetų konvertavimas, konvertavimo būdas.
     - **Produkto variantas** – jei pasirinksite šią reikšmę, galite nustatyti konkretaus produkto varianto vieneto konvertavimą. Norėdami pasirinkti variantą, naudokite lauką **Produkto variantas**.
 
-    ![Naujo vieneto konvertavimo įtraukimas](media/uom-new-conversion.png "Naujo vieneto konvertavimo įtraukimas")
+    ![Naujo vieneto konvertavimo įtraukimas.](media/uom-new-conversion.png "Naujo vieneto konvertavimo įtraukimas")
 
 1. Vienetų konvertavimui nustatyti naudokite kitus pateikiamus laukus.
 1. Norėdami įrašyti naują vieneto konvertavimą, pasirinkite **Gerai**.

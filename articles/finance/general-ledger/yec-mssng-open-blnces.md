@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 045d0bf11b11c9a353858ce3ca82c698dbceea7c
-ms.sourcegitcommit: 817716c2e96f24af0ef1d7d5323afdeccdc602f3
+ms.openlocfilehash: 4bebf35a8959d4f72d46d4b40e5487f499b2756d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "6028577"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356657"
 ---
 # <a name="year-end-close-missing-opening-balances"></a>Uždarymo metų pabaigoje trūkstami pradiniai balansai
 
@@ -46,15 +46,15 @@ Uždarymas metų pabaigoje buvo paleistas parinktį **Anuliuoti ankstesnį užda
 
 Pirmiausia patikrinkite paketinės užduoties būseną. Uždarant metus atliekamos įvairios atskiros užduotys, tačiau svarbiausias veiksmas yra paketinė užduotis su užduoties aprašu **5.0.0 veiksmas**. Atliekant šį veiksmą didžiojoje knygoje registruojamos atidarymo operacijos ir pasirinktinai uždaromos operacijos. 
 
-[![Paketo retrospektyvų sąrašas](./media/yec-mssng-open-blnces-01.png)](./media/yec-mssng-open-blnces-01.png)
+[![Paketo retrospektyvų sąrašas.](./media/yec-mssng-open-blnces-01.png)](./media/yec-mssng-open-blnces-01.png)
 
 Jei šis veiksmas atliktas sėkmingai, bet puslapyje **Bandomojo balanso užklausa** (**Didžioji knyga > Užklausos ir ataskaitos > Bandomasis balansas**) nematote pradinių balansų, peržiūrėkite uždarymo metų pabaigoje paketinės užduoties rezultatus, kad sužinotumėte, ar perkėlimo balansų veiksmas atliktas sėkmingai.
 
-[![Uždarymo metų pabaigoje paketinės užduoties rezultatai](./media/yec-mssng-open-blnces-02.png)](./media/yec-mssng-open-blnces-02.png)
+[![Uždarymo metų pabaigoje paketinės užduoties rezultatai.](./media/yec-mssng-open-blnces-02.png)](./media/yec-mssng-open-blnces-02.png)
 
 Jei šis veiksmas dėl kokių nors priežasčių nepavyko, atidarymo (ir pasirinktinai uždarymo) operacijos greičiausiai buvo sėkmingai užregistruotos. Galite patikrinti, ar didžiosios knygos operacijos buvo sėkmingai užregistruotos, puslapyje **Kvito operacijų užklausa** nurodydami kvito numerį ir datą, pateiktą uždarymo metų pabaigoje dialogo lange jūsų uždarytiems metams (**Didžioji knyga > Užklausos ir ataskaitos > Kvito operacijos**).
 
-[![Kvito operacijų užklausa](./media/yec-mssng-open-blnces-03.png)](./media/yec-mssng-open-blnces-03.png)
+[![Kvito operacijų užklausa.](./media/yec-mssng-open-blnces-03.png)](./media/yec-mssng-open-blnces-03.png)
 
 Jei yra atidarymo (ir pasirinktinai uždarymo) kvitai, metų pabaigos dar kartą uždaryti nereikia. Informacijos apie tai, kaip pereiti prie kitų veiksmų, ieškokite kitame skyriuje.
 
@@ -66,7 +66,7 @@ Veiksmas „Atkurti balansus“ uždarymo metų pabaigoje nepavyko, ar man reiki
 
 Veiksmu Atkurti balansus atnaujinami didžiosios knygos balansai, kurie naudojami generuojant bandomojo balanso užklausą.  Tai paskutinis veiksmas uždarymo metų pabaigoje procese.  Jei šis veiksmas yra vienintelis nesėkmingas veiksmas, didžiosios knygos operacijos sėkmingai užregistruotos.  Neturite dar kartą paleisti uždarymo metų pabaigoje. Galite rankiniu būdu paleisti balansų atkūrimo procesą puslapyje **Finansinių dimensijų rinkiniai** (**Didžioji knyga > Sąskaitų planas > Dimensijos > Finansinių dimensijų rinkiniai**).
 
-[![Mygtukas Atkurti balansus puslapyje Finansinių dimensijų rinkiniai](./media/yec-mssng-open-blnces-04.png)](./media/yec-mssng-open-blnces-04.png)
+[![Mygtukas Atkurti balansus puslapyje Finansinių dimensijų rinkiniai.](./media/yec-mssng-open-blnces-04.png)](./media/yec-mssng-open-blnces-04.png)
 
 Jei šis veiksmas užtrunka ilgai, rekomenduojame peržiūrėti geriausią finansinių dimensijų rinkinių praktiką, aprašytą dalyje [Geriausia finansinių dimensijų rinkinių naujinimo praktika](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog/posts/best-practices-for-updating-financial-dimension-set-dimension-sets). 
 

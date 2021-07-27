@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8e1d2d600a00ab71348fbef2bc2f30cc53bc5314
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 59887b058346d55341e68d553ec5dfbc6eb365d6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797796"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347571"
 ---
 # <a name="container-module"></a>Konteinerio modulis
 
@@ -42,11 +42,11 @@ Palaikomi trys konteinerio moduliai: konteineris, konteineris su 2 vietomis ir k
 
 Toliau pateiktame paveikslėlyje parodytas „Commerce“ svetainių daryklėje esančio konteinerio modulio, kuriame yra karuselės modulis, pavyzdys. Šiame pavyzdyje konteinerio modulio ypatybė **Plotis** nustatyta kaip **Užpildyti ekraną**.
 
-![Konteinerio modulio pavyzdys](./media/ecommerce-container.PNG)
+![Konteinerio modulio pavyzdys.](./media/ecommerce-container.PNG)
 
 ## <a name="container-module-properties"></a>Konteinerio modulio ypatybės
 
-| Ypatybės pavadinimas     | Reikšmės | aprašymas |
+| Ypatybės pavadinimas     | Reikšmės | Aprašas |
 |-------------------|--------|-------------|
 | Antraštė           | Antraštės tekstas ir antraštės žymė (**H1**, **H2**, **H3**, **H4**, **H5** arba **H6**) | Galima nurodyti pasirenkamą konteinerio antraštę. Numatyta, kad naudojama antraštės žymė **H2**. Tačiau žymę galima pakeisti, kad ji atitiktų pritaikymo neįgaliesiems reikalavimus. |
 | Plotis             | **Priderinti prie konteinerio** arba **Užpildyti ekraną** | Jei reikšmė nustatoma kaip **Priderinti prie konteinerio** (numatytoji reikšmė), konteineryje esantys moduliai ribojami pagal konteinerio plotį. Jei reikšmė nustatoma kaip **Užpildyti ekraną**, moduliai neribojami pagal konteinerio plotį, tačiau jie gali užpildyti ekraną. |

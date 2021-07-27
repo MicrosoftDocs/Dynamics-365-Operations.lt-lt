@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5dbef67728e86259ee48b51c48921f6e44a61015
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 356552fd1c2001619785b6a03b8ec4cba92725da
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793062"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351326"
 ---
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>Grynųjų pinigų nominaliųjų verčių konfigūracija, skirta elektroniniam kasos aparatui (EKA)
 
@@ -33,7 +33,7 @@ Grynųjų pinigų nominaliosios vertės banknotams ir monetoms gali būti nurodo
 
 Nominaliųjų verčių apibrėžimai nustatomi kiekvienai parduotuvei atskirai parduotuvės ypatybių puslapyje pasirinkus parinktį **Nustatyti** \> **Grynųjų pinigų deklaravimas**.
 
-![Parinktis Grynųjų pinigų deklaravimas](./media/image1-denomination.png)
+![Parinktis Grynųjų pinigų deklaravimas.](./media/image1-denomination.png)
 
 Norėdami apibrėžti nominaliąsias vertes:
 
@@ -41,7 +41,7 @@ Norėdami apibrėžti nominaliąsias vertes:
 1. Nurodykite tipą (monetos arba banknotai).
 1. Nurodykite sumą (vertę).
 
-![Puslapis Deklaruotų grynųjų pinigų nominalioji vertė](./media/image2-denomination.png)
+![Puslapis Deklaruotų grynųjų pinigų nominalioji vertė.](./media/image2-denomination.png)
 
 ## <a name="configure-the-functionality-profile"></a>Funkcijų šablono konfigūravimas
 

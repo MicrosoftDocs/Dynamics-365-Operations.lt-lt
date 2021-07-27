@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6e43b9127b247fa618558b725837d12bf290662f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6c9b4ba6b55bbe26637f612390354d43a71b3eab
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052030"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357172"
 ---
 # <a name="restrict-editing-of-personal-information"></a>Asmeninės informacijos redagavimo apribojimas
 
@@ -30,25 +30,25 @@ ms.locfileid: "6052030"
 Šioje temoje aprašoma, kaip apriboti darbuotojų kontaktinės informacijos „Dynamics 365 Human Resources“ redagavimą. Galbūt norėsite neleisti darbuotojams redaguoti tam tikros kontaktinės informacijos, pvz., darbo vietos ar el. pašto adreso.
 
 > [!NOTE]
-> Kad galėtumėte naudoti šią funkciją, pirmiausia funkcijų valdymo srityje įjunkite funkciją **(Peržiūra) Darbuotojams apriboti prieigą prie adreso ir kontaktinės informacijos pridėjimo ar redagavimo pasirinktais tikslais**. Daugiau informacijos apie peržiūros versijos funkcijų įjungimą žr. skyrių [Funkcijų valdymas](hr-admin-manage-features.md).<br><br>![Įjungti peržiūros funkciją](./media/hr-employee-self-service-restrict-enable.png)
+> Kad galėtumėte naudoti šią funkciją, pirmiausia funkcijų valdymo srityje įjunkite funkciją **(Peržiūra) Darbuotojams apriboti prieigą prie adreso ir kontaktinės informacijos pridėjimo ar redagavimo pasirinktais tikslais**. Daugiau informacijos apie peržiūros versijos funkcijų įjungimą žr. skyrių [Funkcijų valdymas](hr-admin-manage-features.md).<br><br>![Įjungti peržiūros funkciją.](./media/hr-employee-self-service-restrict-enable.png)
 
 ## <a name="choose-the-information-an-employee-can-add-or-edit"></a>Pasirinkite informaciją, kurią darbuotojas gali pridėti arba redaguoti
 
 1. Žmogiškuosiuose ištekliuose, pasirinkite **Personalo valdymas**, pasirinkite **Nuorodos** ir tuomet pasirinkite **Žmogiškųjų išteklių parametrai**.
 
-   ![Eikite į personalo parametrus](./media/hr-employee-self-service-human-resources-parameters.png)
+   ![Eikite į personalo parametrus.](./media/hr-employee-self-service-human-resources-parameters.png)
 
 2. Puslapyje **Personalo parametrai** pasirinkite skirtuką **Darbuotojų savitarna**.
 
-   ![Darbuotojo savitarnos pasirinkimas](./media/hr-employee-self-service-tab.png)
+   ![Rinkitės Darbuotojo savitarna.](./media/hr-employee-self-service-tab.png)
 
 3. Skirtuke **Darbuotojo savitarna** atžymėkite visą informaciją skyriuje **Adresas ir kontaktinė informacija**, kurios nenorite leisti darbuotojams pridėti ar redaguoti. Šiame pavyzdyje atžymėjome verslo **Įmonės** kontaktinę informaciją.
 
-   ![Įmonės kontaktinės informacijos redagavimo ribojimas](./media/hr-employee-self-service-restrict-business.png)
+   ![Įmonės kontaktinės informacijos redagavimo ribojimas.](./media/hr-employee-self-service-restrict-business.png)
 
 4. Pasirinkite **Įrašyti**.
 
-   ![Įrašyti pakeitimus](./media/hr-employee-self-service-restrict-save.png)
+   ![Įrašyti pakeitimus.](./media/hr-employee-self-service-restrict-save.png)
 
 ## <a name="employee-experience"></a>Darbuotojo patirtis
 
@@ -56,23 +56,23 @@ Apriboję darbuotojo teises pridėti ar redaguoti kontaktinius duomenis, jis inf
 
 Šiame pavyzdyje, kai darbuotojams neleidžiama redaguoti **Įmonės** kontaktinių duomenų, jie šią informaciją matus darbuotojo savitarnoje:
 
-![Įmonės kontaktinių duomenų peržiūra](./media/hr-employee-self-service-restrict-view.png)
+![Įmonės kontaktinių duomenų peržiūra.](./media/hr-employee-self-service-restrict-view.png)
 
 Tačiau jiems pasirinkus įmonės kontaktinius duomenis, sritis **Redaguoti adresą** bus skirta tik skaityti ir jokių laukelių jie keisti negalės.
 
-![Įmonės kontaktiniai duomenys rodomi kaip skirti tik skaityti](./media/hr-employee-self-service-restrict-read-only.png)
+![Įmonės kontaktiniai duomenys rodomi kaip skirti tik skaityti.](./media/hr-employee-self-service-restrict-read-only.png)
 
 Be to, darbuotojui pasirinkus **Pridėti**, kad jis pridėtų naują adresą, jis negalės pasirinkti **Įmonė** išskleidžiamajame laukelyje **Paskirtis**.
 
-![Darbuotojas negali pridėti įmonės adreso](./media/hr-employee-self-service-restrict-add.png)
+![Darbuotojas negali pridėti įmonės adreso.](./media/hr-employee-self-service-restrict-add.png)
 
 Darbuotojai tą patį pamatys ir pasirinkę **Kontaktiniai duomenys** puslapyje **Asmeninė informacija** ir pridėdami naują adresą. Išskleidžiamajame laukelyje **Paskirtis** rodomi tik informacijos, kurią galima pridėti, tipai. 
 
-![Darbuotojas paskirties išskleidžiamajame laukelyje įmonės pasirinkti negali](./media/hr-employee-self-service-restrict-purpose.png)
+![Darbuotojas paskirties išskleidžiamajame laukelyje įmonės pasirinkti negali.](./media/hr-employee-self-service-restrict-purpose.png)
 
 **Kontaktiniai duomenys** nėra rodomi tinklelyje **Paskirtis**.
 
-![Paskirtis rodoma kontaktinių duomenų tinklelyje](./media/hr-employee-self-service-restrict-purpose-grid.png)
+![Paskirtis rodoma kontaktinių duomenų tinklelyje.](./media/hr-employee-self-service-restrict-purpose-grid.png)
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

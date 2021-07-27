@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: 873c6413c14d2ee8315c149ee9c495bb59dbd930
-ms.sourcegitcommit: 11ca5863175150b6c39f47a9322caa2186727a26
+ms.openlocfilehash: c0f753febb0d347015fde1374148835f90df55a3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025453"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353785"
 ---
 # <a name="inventory-lookup-operation-in-pos"></a>Atsargų paieškos operacija EKA
 
@@ -45,7 +45,10 @@ Atskiro produkto atsargų peržvalgos operacija pateikia atsargų peržvalgos s�
 
 Vietų sąrašo rodinys apima visas parduotuves ir sandėlius, sukonfigūruotus įvykdymo grupėse, su kurias susieta dabartinė parduotuvė, kaip parodyta toliau pateiktame pavyzdyje.
 
-![Atsargų paieškos operacijos sąrašo rodinys](media/inventory-lookup-list-view.png)
+![Atsargų paieškos operacijos sąrašo rodinys.](media/inventory-lookup-list-view.png)
+
+> [!NOTE]
+> Įsitikinkite, kad dabartinė parduotuvė įtraukta į susietas įvykdymo grupes.
 
 Toliau nurodyti veiksmai galimi EKA programų juostoje:
 
@@ -65,7 +68,7 @@ Toliau nurodyti veiksmai galimi EKA programų juostoje:
 - **Įtraukti į operaciją** – šiuo veiksmu produktas pridedamas prie krepšelio ir nukreipia vartotoją į operacijos ekraną.
 
 > [!NOTE]
-> Vietos rūšiavimo atstumą tarp vietos ir dabartinės parduotuvės lemia „Commerce Headquarters" apibrėžtos koordinatės (platumos ir ilgumos). Informacija apie parduotuvę apibrėžiama pirminiame su parduotuve susieto valdymo vieneto adrese. Ne parduotuvės sandėliui vietos informacija nustatoma sandėlio adrese. Jei dabartinė parduotuvė neturi tinkamai apibrėžta koordinačių, pagal vietą nustatyta rūšiavimo pasirinktis sąrašo viršuje bus rodoma dabartinė parduotuvė, o tada surūšiuos kitas vietas pagal pavadinimą.
+> Vietos rūšiavimo atstumą tarp vietos ir dabartinės parduotuvės lemia „Commerce Headquarters" apibrėžtos koordinatės (platumos ir ilgumos). Informacija apie parduotuvę apibrėžiama pirminiame su parduotuve susieto valdymo vieneto adrese. Ne parduotuvės sandėliui vietos informacija nustatoma sandėlio adrese. Jei dabartinė parduotuvė neturi apibrėžtų koordinačių, pagal vietą nustatyta rūšiavimo pasirinktis sąrašo viršuje rodys dabartinę parduotuvę, o tada surūšiuos kitas vietas pagal pavadinimą.
 
 > [!NOTE]
 > **Rodyti parduotuvės pasiekiamumą**, **Rodyti parduotuvės vietą**, **Paėmimas parduotuvėje** ir **Produkto siuntimo** veiksmai nėra prieinami ne parduotuvės vietose.
@@ -76,7 +79,7 @@ Taip pat bendrojo produkto su variantais atsargų peržvalgos operacija taip pat
 
 Šiame pavyzdyje vaizdas rodo EKA atsargų peržvalgos matricos rodinį.
 
-![Atsargų paieškos operacijos matricos rodinys](media/inventory-lookup-matrix-view.png)
+![Atsargų paieškos operacijos matricos rodinys.](media/inventory-lookup-matrix-view.png)
 
 Matricos rodinyje kiekvienas langelis rodo atskirą variantą, o apatiniame dešiniajame kampe rodo turimų atsargų (faktinių) vertę, o taip pat rezervuoja faktiškai **rezervuotas** ir **užsakytas** (bendro užsakymo) vertes viršutiniame kairiajame kampe. Įvairių turimų verčių reikšmė yra paaiškinta toliau pateiktoje lentelėje.
 
@@ -103,7 +106,7 @@ EKA vartotojai gali pasiekti atsargų peržvalgos operaciją iš kitų EKA pusla
 
 Šiame pavyzdyje vaizdas rodo EKA atsargų peržvalgos rezultatai iš PDP.
 
-![Atsargų peržvalga produkto informacijos puslapyje](media/inventory-lookup-from-product-details-page.png)
+![Atsargų peržvalga produkto informacijos puslapyje.](media/inventory-lookup-from-product-details-page.png)
 
 Norėdami paleisti atsargų peržvalgos matricos rodinį, kuriame rodoma visų produkto variantų atsargų prieinamumo informacija, galite naudoti bendrojo produkto PDP veiksmą **Peržiūrėti visus variantus**. Kiekvienam produktui PDP rodo dabartinės parduotuvės turimų atsargų (turimas faktines) vertę. Be to, galite pasirinkti **kitų parduotuvių atsargų** saitą, kad paleisite atsargų peržvalgos operaciją, norėdami patikrinti produkto atsargų prieinamumą kitose parduotuvėse ar sandėliuose.
 

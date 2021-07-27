@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b1e86cbe1c2b9247f902a8f5777e73f7a9b37929
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bda264a255a688d64e314d994dc281602c9324cc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797820"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347595"
 ---
 # <a name="checkout-module"></a>Pirkimo užbaigimo modulis
 
@@ -33,7 +33,7 @@ Pirkimo užbaigimo modulis duomenis generuoja pagal krepšelio ID. Šis krepšel
 
 Toliau pateiktame paveikslėlyje parodytas pirkimo užbaigimo puslapyje esančio „Fabrikam“ pirkimo užbaigimo modulio pavyzdys.
 
-![Pirkimo užbaigimo modulio pavyzdys](./media/Checkout.PNG)
+![Pirkimo užbaigimo modulio pavyzdys.](./media/Checkout.PNG)
 
 ## <a name="checkout-module-properties"></a>Pirkimo užbaigimo modulio ypatybės
 
@@ -52,13 +52,13 @@ Pirkimo užbaigimo moduliuose rodoma užsakymo suvestinė ir pateikiama užsakym
 
     Toliau pateiktame paveikslėlyje parodytas pirkimo užbaigimo puslapyje esančio siuntimo adreso modulio pavyzdys.
 
-    ![Siuntimo adreso modulio pavyzdys](./media/ecommerce-shippingaddress.PNG)
+    ![Siuntimo adreso modulio pavyzdys.](./media/ecommerce-shippingaddress.PNG)
 
 - **Pristatymo parinktys** – Šis modulis leidžia klientui pasirinkti užsakymo pristatymo būdą. Dėl išsamesnės informacijos apie šį modulį, žr. [Pristatymo parinkčių modulis](delivery-options-module.md).
 
     Toliau pateiktame paveikslėlyje parodytas pirkimo užbaigimo puslapyje esančio pristatymo parinkčių modulio pavyzdys.
  
-    ![Pristatymo parinkčių modulio pavyzdys](./media/ecommerce-deliveryoptions.PNG)
+    ![Pristatymo parinkčių modulio pavyzdys.](./media/ecommerce-deliveryoptions.PNG)
 
 - **Pirkimo užbaigimo skyriaus konteineris** – šis modulis yra konteineris, kuriame galite įdėti kelis modulius ir sukurti skyrių pirkimo užbaigimo eigoje. Pavyzdžiui, šiame konteineryje galite įdėti visus su mokėjimu susijusius modulius, kad jie būtų rodomi kaip vienas skyrius. Šis modulis turi įtakos tik eigos išdėstymui.
 
@@ -70,7 +70,7 @@ Pirkimo užbaigimo moduliuose rodoma užsakymo suvestinė ir pateikiama užsakym
 
     Tolesnis paveikslėlis rodo dovanų kortelės lojalumo taškų pavyzdį ir mokėjimo modulius išsiregistravimo puslapyje.
 
-    ![Dovanų kortelės taškų pavyzdys ir mokėjimo moduliai užbaigimo puslapyje.](./media/ecommerce-payments.PNG)
+    ![Dovanų kortelės, lojalumo taškų ir mokėjimo modulių pavyzdžiai pirkimo užbaigimo puslapyje.](./media/ecommerce-payments.PNG)
 
 - **Kontaktinė informacija** – naudodamas šį modulį klientas gali įtraukti arba pakeisti užsakymo kontaktinę informaciją (el. pašto adresą).
 
@@ -80,7 +80,7 @@ Pirkimo užbaigimo moduliuose rodoma užsakymo suvestinė ir pateikiama užsakym
 
     Tolesnis paveikslėlis rodo užbaigimo puslapyje esančių terminų ir sąlygų pavyzdį.
 
-    ![Terminų ir sąlygų pavyzdys išsiregistravimo puslapyje](./media/ecommerce-checkout-terms.PNG)
+    ![Sąlygų ir nuostatų pavyzdys pirkimo užbaigimo puslapyje.](./media/ecommerce-checkout-terms.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>„Commerce Scale Unit“ sąveika
 

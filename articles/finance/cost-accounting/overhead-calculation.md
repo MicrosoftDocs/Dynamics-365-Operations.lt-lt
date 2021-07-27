@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 8dc312e66dc666ac6c23bac6b705ffc7893fd06b
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 09d4516c40833771d27db13eac8228bd8c5e0e4a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188002"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355040"
 ---
 # <a name="overhead-calculation"></a>Pridėtinių išlaidų skaičiavimas
 
@@ -48,7 +48,7 @@ Pridėtinių išlaidų skaičiavimas vykdo išlaidų apskaitos strategijas teisi
 
 Pridėtinių išlaidų skaičiavimas vykdomas nepriklausomai nuo versijos. Todėl biudžeto versiją galite skaičiuoti prieš skaičiuodami faktinę versiją. Pridėtinių išlaidų skaičiavimą sudaro keturi veiksmai, kaip pavaizduota tolesnėje iliustracijoje. Atliekant kiekvieną veiksmą sukuriama žurnalo antraštė su žurnalo įrašais. Šioje žurnalo antraštėje išsaugomi kiekvieno skaičiavimo veiksmo įvesties duomenys. Strategijos ir taisyklės pritaikomos kiekvienai žurnalo eilutei , o išlaidų įrašai sugeneruojami kaip išeiga. Todėl visada galite atsekti visą informaciją. 
 
-[![Pridėtinių išlaidų skaičiavimas](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+[![Pridėtinių išlaidų skaičiavimas.](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>Elektros pridėtinių išlaidų skaičiavimas ir paskirstymas
 Finansinėje apskaitoje kai kurios išlaidos, pvz., už elektrą, yra registruojamos kaip fiksuota suma. Todėl nepateikiamos išsamios išlaidų apskaitos valdymo įžvalgos. Tam, kad išlaidų apskaitoje būtų galima pateikti teisingas visų organizacijos vienetų ir lygių valdymo įžvalgas, išlaidų srautas turi būti nukreiptas į visus organizacijos vienetus. Šis srautas turi būti pagrįstas tiksliu suvartojimo įrašu arba teisingu įvertinimu. DK elektros išlaidas galima registruoti, kaip parodyta toliau pateiktoje lentelėje.
@@ -618,7 +618,7 @@ Daugiau informacijos ieškokite srityje [Atlikti pridėtinių išlaidų skaičia
 
 Paskirstymas naudojamas norint išlaidų objekto balansą paskirstyti kitiems išlaidų objektams taikant paskirstymo pagrindą. „Finance” palaiko abipusio paskirstymo metodą. Taikant abipusio paskirstymo metodą įskaičiuojamos visos papildomų išlaidų objektų tarpusavio paslaugos. Sistema automatiškai nustato teisingą tvarką, kuria reikia atlikti paskirstymą. Išlaidų objekto balansas paskirstomas pagal vieną paskirstymo pagrindą. Palaikomas paskirstymas visoms išlaidų objektų dimensijoms ir jų atitinkamiems nariams. Paskirstymo tvarka priklauso nuo išlaidų kontrolės įtaiso. 
 
-[![Abipusis metodas](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+[![Abipusis metodas.](./media/reciprocal-method.png)](./media/reciprocal-method.png)
 
 #### <a name="define-the-cost-allocation"></a>Išlaidų paskirstymo nustatymas
 

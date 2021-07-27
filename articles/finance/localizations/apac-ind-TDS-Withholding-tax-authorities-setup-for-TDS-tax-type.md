@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 5375363a9b1383a83e80fc3c4b841780adab4172
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: d9cecb3598e0686192d394903e8bb58d304a7665
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023440"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349957"
 ---
 # <a name="set-up-withholding-tax-authorities-for-the-tds-tax-type"></a>Nustatykite išskaitomo mokesčio įstaigas TDS mokesčių tipui
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023440"
 
 1. Eikite į **Mokestis \> Netiesioginiai mokesčiai \> Išskaitomo mokesčio įstaigos**.
 
-    [![Išskaitomo mokesčio įstaigų puslapis](./media/apac-ind-TDS-12.png)](./media/apac-ind-TDS-12.png)
+    [![Išskaitomo mokesčio įstaigų puslapis.](./media/apac-ind-TDS-12.png)](./media/apac-ind-TDS-12.png)
 
 2. Mokesčio **tipo lauke** pasirinkite **TDS** norėdami nustatyti TDS mokesčio tipo išskaitomo mokesčio įstaigas.
 3. Veiksmų srityje pasirinkite **Nauja** eilutei sukurti.

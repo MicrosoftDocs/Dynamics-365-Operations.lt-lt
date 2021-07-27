@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 056808b7d4d490bc4d60aa058108d159c1d4867c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b3a8fe37ae97cf3b14f5121274603cd30de3304b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826256"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356780"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Mažėjančios vertės nusidėvėjimas po skaidymo
 
@@ -37,7 +37,7 @@ Pavyzdžiui, šios sąlygos galioja.
 - Pirmųjų finansinių metų nusidėvėjimas lygus 18 000 USD, mėnesinis nusidėvėjimas yra lygus 150 USD, o turtas nusidėvimas iki 2019 m. lapkričio, suma – 738,75 USD.
 - 2019 m. lapkritį 80 procentų turto išskaidoma į kitą ilgalaikį turtą.
 
-[![Mažėjančios vertės nusidėvėjimas po skaidymo](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
+[![Mažėjančios vertės nusidėvėjimas po skaidymo.](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
 
 Pradinio turto nusidėvėjimo suma yra 1822,25 USD. Ši suma yra lygi NBV prieš registruojant išskaidytą operaciją (9111,25 USD), pridėjus įsigijimo suderinimą, sugeneruotą registruojant skaidymo operaciją (–8000 USD), pridėjus nusidėvėjimo suderinimą, sugeneruotą per išskaidytą operaciją (711 USD). Todėl antraisiais metais nusidėvėjimas yra (1822,25 × 18 proc.) ÷ 12 = 27,33 USD.
 

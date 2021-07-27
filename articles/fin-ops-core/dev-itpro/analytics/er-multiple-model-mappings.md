@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a774a0edf00a17be674b7a1bb07f6494e90554c3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 595de6292b81ca78bf08a66f61850c3b5a537396
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743684"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354396"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Kelių vieno modelio šaknies išvestinių susiejimų tvarkymas
 
@@ -55,7 +55,7 @@ Norėdami įtraukti standartines ER konfigūracijas į jūsų dabartinį „Fina
 2. **Lokalizavimo konfigūracijos** puslapyje **Konfigūracijos** dalyje pasirinkite plytelę **Konfigūracijų ataskaitos**.
 3. Puslapio **Konfigūracijos** konfigūracijos medžio kairėje pusėje išplėskite **Sąskaitos faktūros modelis**.
 
-    ![Importuotų konfigūracijų peržiūra puslapyje Konfigūracijos](./media/er-multiple-model-mappings-image1.png)
+    ![Importuotų konfigūracijų peržiūra puslapyje Konfigūracijos.](./media/er-multiple-model-mappings-image1.png)
 
 4. Peržiūrėkite **Laisvos formos sąskaitos faktūros („Excel”)** formatą:
 
@@ -66,7 +66,7 @@ Norėdami įtraukti standartines ER konfigūracijas į jūsų dabartinį „Fina
     
        Dabartinis ER formatas yra sukonfigūruotas naudoti **Sąskaitos faktūros modelio** šakninį apibrėžimą **Kliento sąskaita faktūra**. Kai vykdomas šis formatas ir iškviečiamas **Modelio** duomenų šaltinis, šakniniam apibrėžimui **Kliento sąskaita faktūra** sukonfigūruotas susiejimo modelis yra naudojamas programai pasiekti ir duomenų modeliui užpildyti.
 
-        ![Modelio duomenų šaltinio peržiūra puslapyje Formato dizaino įrankis](./media/er-multiple-model-mappings-image2.png)
+        ![Modelio duomenų šaltinio peržiūra puslapyje Formato dizaino įrankis.](./media/er-multiple-model-mappings-image2.png)
 
     6. Uždarykite puslapį **Formato dizaino įrankis**.
 
@@ -79,7 +79,7 @@ Norėdami įtraukti standartines ER konfigūracijas į jūsų dabartinį „Fina
         + Modelio susiejimas **Kliento sąskaita faktūra** yra sukonfigūruotas **Sąskaitos faktūros modelio** šakniniam apibrėžimui **Kliento sąskaita faktūra**. Todėl, kai vykdomas **Laisvos formos sąskaitos faktūros („Excel”)** ER formatas, šios ER konfigūracijos susiejimo modelis **Kliento sąskaita faktūra** gali būti pasirenkamas programos duomenims pasiekti ir duomenų modeliui užpildyti.
         + Modelio susiejimas **Projekto sąskaita faktūra** yra sukonfigūruotas **Sąskaitos faktūros modelio** šakniniam apibrėžimui **Sąskaitos faktūros projektas**. Todėl, kai vykdomas **Projekto sąskaitos faktūros („Excel”)** ER formatas, šios ER konfigūracijos susiejimo modelis **Projekto sąskaita faktūra** gali būti pasirenkamas programos duomenims pasiekti ir duomenų modeliui užpildyti.
 
-        ![Sąskaitos faktūros susiejimo modelis puslapyje Duomenų šaltinio susiejimo modelis](./media/er-multiple-model-mappings-image3.png)
+        ![Sąskaitos faktūros susiejimo modelis puslapyje Duomenų šaltinio susiejimo modelis.](./media/er-multiple-model-mappings-image3.png)
 
     4. Uždarykite puslapį **Duomenų šaltinio susiejimo modelis**.
     5. „FastTab” skirtuke **Versijos** pasirinkite **Naikinti** panaikinti visoms šios ER konfigūracijos versijoms, naujesnėms už 240.175.
@@ -90,7 +90,7 @@ Norėdami įtraukti standartines ER konfigūracijas į jūsų dabartinį „Fina
     2. Veiksmų srityje pasirinkite **Dizaino įrankis**.
     3. Puslapyje **Duomenų šaltinio susiejimo modelis** atkreipkite dėmesį, kad dabartinėje ER modelio susiejimo konfigūracijoje yra **Projekto sąskaitos faktūros** susiejimo modelis ir jis yra sukonfigūruotas **Sąskaitos faktūros modelio** šakniniam apibrėžimui **Projekto sąskaitos faktūra**. Kai vykdomas **Projekto sąskaitos faktūros („Excel”)** ER formatas, pasirinkite šios ER konfigūracijos susiejimo modelį **Projekto sąskaita faktūra** programos duomenims pasiekti ir duomenų modeliui užpildyti.
 
-        ![Projekto sąskaitos faktūros susiejimo modelis puslapyje Duomenų šaltinio susiejimo modelis](./media/er-multiple-model-mappings-image4.png)
+        ![Projekto sąskaitos faktūros susiejimo modelis puslapyje Duomenų šaltinio susiejimo modelis.](./media/er-multiple-model-mappings-image4.png)
 
     4. Uždarykite puslapį **Duomenų šaltinio susiejimo modelis**.
     5. „FastTab” skirtuke **Versijos** pasirinkite **Naikinti** panaikinti visoms šios ER konfigūracijos versijoms, naujesnėms už 226.35.
@@ -115,7 +115,7 @@ Norėdami įtraukti standartines ER konfigūracijas į jūsų dabartinį „Fina
 
 7. Veiksmų srityje pasirinkite **Dizaino įrankis** šios konfigūracijos susiejimo modelių peržiūrai.
 
-    ![Sąskaitos faktūros susiejimų modelio peržiūra puslapyje Duomenų šaltinio susiejimo modelis](./media/er-multiple-model-mappings-image5.png)
+    ![Sąskaitos faktūros susiejimų modelio peržiūra puslapyje Duomenų šaltinio susiejimo modelis.](./media/er-multiple-model-mappings-image5.png)
 
     > [!TIP]
     > Dabar galite atidaryti bet kurį šios ER konfigūracijos susiejimo modelio komponentą dizaino įrankyje tam, kad konfigūruotumėte jūsų pasirinktinę logiką. Daugiau informacijos žiūrėkite [Susiejimo modelio konfigūracijos tinkinimas](er-quick-start3-customize-report.md#customize-the-model-mapping-configuration).
@@ -126,7 +126,7 @@ Dabar turite **Sąskaitos faktūros susiejimo modelis** ir **Sąskaitos faktūro
  
 > Yra daugiau nei vienas susiejimo modelis '\<model name\> (\<root descriptor\>)' duomenų modeliui konfigūracijose \<configuration names separated by commas\>. Nustatykite vieną iš konfigūracijų kaip numatytąją.
 
-![Formato atidarymas jo redagavimui Konfigūracijos puslapyje](./media/er-multiple-model-mappings-image6.gif)
+![Formato atidarymas jo redagavimui Konfigūracijos puslapyje.](./media/er-multiple-model-mappings-image6.gif)
 
 ### <a name="customize-the-project-invoice-model-mapping-rdp-configuration"></a>Projekto sąskaitos faktūros modelio susiejimo (RDP) konfigūracijos tinkinimas
 
@@ -138,7 +138,7 @@ Dabar turite **Sąskaitos faktūros susiejimo modelis** ir **Sąskaitos faktūro
 6. Šiuo metu iš konfigūracijos medžio pasirinktai konfigūracijai **Projekto sąskaitos faktūros susiejimo modelis „Litware”** nustatykite parinktį **Vykdyti juodraštį** į **Taip**.
 7. Veiksmų srityje pasirinkite **Dizaino įrankis** šios konfigūracijos susiejimo modelių peržiūrai.
 
-    ![Tinkintos Projekto sąskaitos faktūros susiejimų modelio peržiūra puslapyje Duomenų šaltinio susiejimo modelis](./media/er-multiple-model-mappings-image7.png)
+    ![Tinkintos Projekto sąskaitos faktūros susiejimų modelio peržiūra puslapyje Duomenų šaltinio susiejimo modelis.](./media/er-multiple-model-mappings-image7.png)
 
 8. Uždarykite puslapį **Duomenų šaltinio susiejimo modelis**.
 
@@ -149,7 +149,7 @@ Dabar turite **Sąskaitos faktūros susiejimo modelio**, **Projekto sąskaitos f
 1. Puslapio **Konfigūracijos** konfigūracijos medžio kairiojoje srityje pasirinkite **Sąskaitos faktūros susiejimo modelis „Litware”**.
 2. Nustatykite parinktį **Numatytasis modelių susiejimui** į **Taip**.
 
-    ![Susiejimo modelio nustatymas kaip numatytojo susiejimo modelio puslapyje Konfigūracijos](./media/er-multiple-model-mappings-image8.png)
+    ![Susiejimo modelio nustatymas kaip numatytojo susiejimo modelio puslapyje Konfigūracijos.](./media/er-multiple-model-mappings-image8.png)
 
     Dėl šio parametro naudojamas **Kliento sąskaitos faktūros kopija** susiejimo modelis, kai vykdote **Laisvos formos sąskaita faktūrą („Excel”)** arba kai ją redaguojate arba tvirtinate. Nėra paisoma susiejimo modelio **Kliento sąskaita faktūra** iš **Sąskaitos faktūros susiejimo modelio** konfigūracijos.
 
@@ -167,7 +167,7 @@ Dabar turite **Sąskaitos faktūros susiejimo modelio**, **Projekto sąskaitos f
 5. Puslapyje **Duomenų šaltinio susiejimo modelis** pasirinkite **Redaguoti** tam, kad galėtumėte redaguoti puslapį taip, kaip reikia.
 6. Pasirinkite susiejimo modelį **Projekto sąskaitos faktūros kopija** ir tada jam parinkite **Yra panaikintas** žymės langelį.
 
-    ![Susiejimo modelio nustatymas kaip praktiškai ištrinto puslapyje Duomenų šaltinio susiejimo modelis](./media/er-multiple-model-mappings-image9.png)
+    ![Susiejimo modelio nustatymas kaip praktiškai ištrinto puslapyje Duomenų šaltinio susiejimo modelis.](./media/er-multiple-model-mappings-image9.png)
 
     Dėl šio parametro laikoma, kad **Sąskaitos faktūros susiejimo modelio „Litware”** konfigūracija neturi susiejimo modelio **Projekto sąskaitos faktūros** šakniniam apibrėžimui. Pagal numatytuosius nustatymus, pateiktas **Projekto sąskaitos faktūros kopijos** susiejimo modelis. Konfigūracija **Projekto sąskaitos faktūros susiejimo modelio „Litware”**, turinti modelio susiejimą, yra pažymėta kaip numatytoji konfigūracija. Kadangi ji pažymėta kaip numatytoji, jos prioritetas yra aukštesnis nei **Projekto sąskaitos faktūros** susiejimo modelio iš **Projekto sąskaitos faktūros susiejimo modelio (RDP)** konfigūracijos.
 

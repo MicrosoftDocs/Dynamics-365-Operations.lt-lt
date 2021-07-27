@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5917d3f6acf6db6b5e3ceee1b399839542ce1f6f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 99047bd30b04ccaaa24edbb2e28d5288ed2872f9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811683"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350551"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>KS ir formulių eilučių išdavimas į sandėlį
 
@@ -61,7 +61,7 @@ Paketinės užduoties **Automatinis KS ir formulės eilučių išdavimas** užkl
 
 Tolesniame pavyzdyje rodomas gamybos užsakymas, kuriame yra dvi užduotys, 10 ir 20, apimančios gamybos užsakymo surinkimą ir pakavimą. Kiekviena užduotis nustatoma sunaudoti medžiagos kiekį. Šiame pavyzdyje išdavimo laiko riba, kurią nurodo žalia rodyklė po laiko eilute, lygi dienų, nurodytų kriterijuje **(LessThanDate())** skaičiui. Pvz., **(LessThanDate(2))** nurodo, kad užduotis turi ieškoti neišduotų kiekių tik dviejų dienų laikotarpyje.
 
-![Gamybos užsakymo, kuriame yra dvi paketinės užduotys, pavyzdys](media/bach-job-setup.PNG)
+![Gamybos užsakymo, kuriame yra dvi paketinės užduotys, pavyzdys.](media/bach-job-setup.PNG)
 
 ## <a name="releasing-material-per-operation-number-or-in-proportion-to-the-amount-of-finished-goods"></a>Medžiagos išdavimas pagal operacijos numerį arba proporcingai baigtų prekių kiekiui
 
@@ -78,7 +78,7 @@ Norėdami valdyti operacijas, į kurias medžiagos turi būti išduotos, naudoki
 
 Tolesniame pavyzdyje parodytas gamybos užsakymas, kuriame yra dvi operacijos, 10 ir 20. Šiame pavyzdyje, jei išdavimą į operaciją apribosite iki 10, bus išduota tik medžiaga M9203.
 
-![Medžiagos išdavimo pagal operacijos numerį pavyzdys](media/two-operations.PNG)
+![Medžiagos išdavimo pagal operacijos numerį pavyzdys.](media/two-operations.PNG)
 
 Trumpa demonstracija, kaip išduoti medžiagą proporcingai baigtų prekių kiekiui, pateikiama šiame trumpame „YouTube“ vaizdo įraše apie [gamybos užsakymo išleidimo proceso patobulinimus](https://www.youtube.com/watch?v=Rm3ojAz6Zu0).
 

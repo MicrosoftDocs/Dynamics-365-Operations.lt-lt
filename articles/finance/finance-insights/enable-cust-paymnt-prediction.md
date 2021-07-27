@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ae957f592ad9a1237817fec5d4172295f9a53020
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: a9b2e8d46debf8e065361d85f10162cda56b62e8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222591"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349039"
 ---
 # <a name="enable-customer-payment-predictions-preview"></a>Kliento mokėjimo prognozių įjungimas (peržiūros versija)
 
@@ -51,7 +51,7 @@ ms.locfileid: "6222591"
 
     1. Nueikite į **Kreditas ir surinkimas \> Sąranka \> „Finance Insights” \> Modulio „Finance Insights” parametrai**.
 
-        [![Puslapis Modulio „Finance Insights” parametrai prieš funkciją konfigūruojant](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
+        [![Puslapis Modulio „Finance Insights” parametrai prieš funkciją konfigūruojant.](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
 
     2. Puslapio **Modulio „Finance Insights” parametrai** skirtuke **Kliento mokėjimo įžvalgos** pasirinkite saitą **Peržiūrėti duomenų laukus, naudojamus prognozavimo modelyje**, kad atidarytumėte puslapį **Prognozavimo modelio duomenų laukai**. Čia galite peržiūrėti numatytąjį laukų, kurie naudojami kuriant kliento mokėjimo prognozių dirbtinio intelekto (DI) prognozavimo modelį, sąrašą.
 
@@ -77,7 +77,7 @@ ms.locfileid: "6222591"
 
 Kai funkcija įjungta ir sukonfigūruota, o prognozavimo modelis sukurtas ir veikia, puslapio **Modulio „Finance Insights” parametrai** skyriuje **Prognozavimo modelis** rodomas modelio tikslumas, kaip parodyta šioje iliustracijoje.
 
-[![Prognozavimo modelio tikslumas puslapyje Modulio „Finance Insights” parametrai](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
+[![Prognozavimo modelio tikslumas puslapyje Modulio „Finance Insights” parametrai.](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
 
 ## <a name="release-details"></a>Išleidimo informacija
 

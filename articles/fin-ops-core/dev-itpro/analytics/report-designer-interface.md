@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8a20cd71c9729b492403f02f3b5576351169a6e2
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0b2e2ead990332f1afd338a430406e6d1db95347
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754355"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350141"
 ---
 # <a name="report-designer-interface"></a>Ataskaitų dizaino įrankio sąsaja
 
@@ -169,56 +169,56 @@ Toliau pateikiamose lentelėse aprašomi įrankių juostos mygtukai, kuriuos gal
 
 Standartinė įrankių juosta suteikia greitą prieigą prie failo ir redagavimo komandų. Šioje įrankių juostoje yra toliau nurodyti mygtukai.
 
-| Mygtukas                                                                                       | Prekės/Paslaugos pavadinimas |
+| Mygtukas                                                                                       | Aprašas |
 |----------------------------------------------------------------------------------------------|-------------|
-| [![Naujas mygtukas](./media/rowc130389.png)](./media/rowc130389.png)                              | Sukurti naują (tuščią) ataskaitos aprašą, eilutės apibrėžimą, stulpelio apibrėžimą arba ataskaitų medžio apibrėžimą. |
-| [![Mygtukas Atidaryti](./media/openfolderc130389.png)](./media/openfolderc130389.png)               | Atidarykite esamą eilutės apibrėžimą, stulpelio apibrėžimą, ataskaitų medžio apibrėžimą arba ataskaitos aprašą. |
-| [![Mygtukas Įrašyti](./media/savec130389.png)](./media/savec130389.png)                           | Įrašykite dabartinį eilutės apibrėžimą, stulpelio apibrėžimą, ataskaitų medžio apibrėžimą arba ataskaitos aprašą. |
-| [![Mygtukas Kopijuoti](./media/copyc130389.png)](./media/copyc130389.png)                           | Kopijuoti pasirinktą tekstą į mainų sritį. |
-| [![Mygtukas Iškirpti](./media/cutc130389.png)](./media/cutc130389.png)                              | Panaikinti pasirinktą tekstą ir kopijuoti jį į mainų sritį. |
-| [![Mygtukas Įklijuoti](./media/pastec130389.png)](./media/pastec130389.png)                        | Įterpti tekstą iš mainų srities. |
-| [![Mygtukas Anuliuoti](./media/undoc130389.png)](./media/undoc130389.png)                           | Anuliuoti paskutinį veiksmą. |
-| [![Mygtukas Pakartoti](./media/redoc130389.png)](./media/redoc130389.png)                           | Atšaukti paskutinio veiksmo anuliavimą. |
-| [![Mygtukas Rasti](./media/findc130389.png)](./media/findc130389.png)                           | Atidarykite dialogo langą **Rasti ir pakeisti**, kurio aktyviajame lange galite ieškoti teksto ir jį pakeisti. |
-| [![Mygtukas Įterpti eilutę](./media/insertrowc130389.png)](./media/insertrowc130389.png)           | Įterpti tuščią eilutę į eilutės apibrėžimą arba tuščią antraštės eilutę į stulpelio apibrėžimą. Šis mygtukas galimas eilutės apibrėžime arba stulpelio apibrėžime. |
-| [![Mygtukas Įterpti stulpelį](./media/insertcolumnc130389.png)](./media/insertcolumnc130389.png)  | Įterpti tuščią stulpelį į stulpelio apibrėžimą. Šis mygtukas galimas stulpelio apibrėžime. |
-| [![Mygtukas Užrakinti](./media/lockc130389.png)](./media/lockc130389.png)                           | Dabartiniam kūrimo blokui taikykite slaptažodį. Šiuo mygtuku gali naudotis vartotojai, turintys vaidmenį **Dizaineris** arba **Administratorius**. |
-| [![Mygtukas Eilutės saitas](./media/rowlinkc130389.png)](./media/rowlinkc130389.png)                 | Atidarykite dialogo langą **Eilutės saitai**, kuriame galite nurodyti eilutės apibrėžimų ir ataskaitų medžio apibrėžimų duomenų saitų šaltinius. Šis mygtukas galimas eilutės apibrėžime. |
-| [![Mygtukas Pakelti į aukštesnį lygį](./media/promotec130389.png)](./media/promotec130389.png)                  | Pakelti ataskaitų medžio apibrėžimo vienetą į aukštesnį lygį. Kai pasirenkate antrinį vienetą ir spustelite **Perkelti į aukštesnį lygį**, antrinis vienetas perkeliamas į tą patį lygį kaip jo pirminis vienetas. |
-| [![Mygtukas Perkelti į žemesnį lygį](./media/demotec130389.png)](./media/demotec130389.png)                     | Pakelti ataskaitų medžio apibrėžimo vienetą į žemesnį lygį. Kai pasirenkate vienetą ir spustelite **Perkelti į žemesnį lygį**, tas vienetas tampa ankstesnio vieneto antriniu vienetu. |
-| [![Mygtukas Išplėsti](./media/expandtreebuttonc130389.png)](./media/expandtreebuttonc130389.png) | Išplėsti visus ataskaitų medžio apibrėžimo vienetus pasirinkto vieneto lygiu. |
-| [![Mygtukas Sutraukti](./media/collapsec130389.png)](./media/collapsec130389.png)               | Sutraukti ataskaitų medį. |
-| [![Mygtukas Pagalba](./media/helpc130389.png)](./media/helpc130389.png)                           | Atidarykite žinyną. |
+| [![Mygtukas Naujas.](./media/rowc130389.png)](./media/rowc130389.png)                              | Sukurti naują (tuščią) ataskaitos aprašą, eilutės apibrėžimą, stulpelio apibrėžimą arba ataskaitų medžio apibrėžimą. |
+| [![Mygtukas Atidaryti.](./media/openfolderc130389.png)](./media/openfolderc130389.png)               | Atidarykite esamą eilutės apibrėžimą, stulpelio apibrėžimą, ataskaitų medžio apibrėžimą arba ataskaitos aprašą. |
+| [![Mygtukas Įrašyti.](./media/savec130389.png)](./media/savec130389.png)                           | Įrašykite dabartinį eilutės apibrėžimą, stulpelio apibrėžimą, ataskaitų medžio apibrėžimą arba ataskaitos aprašą. |
+| [![Mygtukas Kopijuoti.](./media/copyc130389.png)](./media/copyc130389.png)                           | Kopijuoti pasirinktą tekstą į mainų sritį. |
+| [![Mygtukas Iškirpti.](./media/cutc130389.png)](./media/cutc130389.png)                              | Panaikinti pasirinktą tekstą ir kopijuoti jį į mainų sritį. |
+| [![Mygtukas Įklijuoti.](./media/pastec130389.png)](./media/pastec130389.png)                        | Įterpti tekstą iš mainų srities. |
+| [![Mygtukas Anuliuoti.](./media/undoc130389.png)](./media/undoc130389.png)                           | Anuliuoti paskutinį veiksmą. |
+| [![Mygtukas Pakartoti.](./media/redoc130389.png)](./media/redoc130389.png)                           | Atšaukti paskutinio veiksmo anuliavimą. |
+| [![Mygtukas Rasti.](./media/findc130389.png)](./media/findc130389.png)                           | Atidarykite dialogo langą **Rasti ir pakeisti**, kurio aktyviajame lange galite ieškoti teksto ir jį pakeisti. |
+| [![Mygtukas Įterpti eilutę.](./media/insertrowc130389.png)](./media/insertrowc130389.png)           | Įterpti tuščią eilutę į eilutės apibrėžimą arba tuščią antraštės eilutę į stulpelio apibrėžimą. Šis mygtukas galimas eilutės apibrėžime arba stulpelio apibrėžime. |
+| [![Mygtukas Įterpti stulpelį.](./media/insertcolumnc130389.png)](./media/insertcolumnc130389.png)  | Įterpti tuščią stulpelį į stulpelio apibrėžimą. Šis mygtukas galimas stulpelio apibrėžime. |
+| [![Mygtukas Užrakinti.](./media/lockc130389.png)](./media/lockc130389.png)                           | Dabartiniam kūrimo blokui taikykite slaptažodį. Šiuo mygtuku gali naudotis vartotojai, turintys vaidmenį **Dizaineris** arba **Administratorius**. |
+| [![Mygtukas Eilutės saitas.](./media/rowlinkc130389.png)](./media/rowlinkc130389.png)                 | Atidarykite dialogo langą **Eilutės saitai**, kuriame galite nurodyti eilutės apibrėžimų ir ataskaitų medžio apibrėžimų duomenų saitų šaltinius. Šis mygtukas galimas eilutės apibrėžime. |
+| [![Mygtukas Pakelti į aukštesnį lygį.](./media/promotec130389.png)](./media/promotec130389.png)                  | Pakelti ataskaitų medžio apibrėžimo vienetą į aukštesnį lygį. Kai pasirenkate antrinį vienetą ir spustelite **Perkelti į aukštesnį lygį**, antrinis vienetas perkeliamas į tą patį lygį kaip jo pirminis vienetas. |
+| [![Mygtukas Perkelti į žemesnį lygį.](./media/demotec130389.png)](./media/demotec130389.png)                     | Pakelti ataskaitų medžio apibrėžimo vienetą į žemesnį lygį. Kai pasirenkate vienetą ir spustelite **Perkelti į žemesnį lygį**, tas vienetas tampa ankstesnio vieneto antriniu vienetu. |
+| [![Mygtukas Išplėsti.](./media/expandtreebuttonc130389.png)](./media/expandtreebuttonc130389.png) | Išplėsti visus ataskaitų medžio apibrėžimo vienetus pasirinkto vieneto lygiu. |
+| [![Mygtukas Sutraukti.](./media/collapsec130389.png)](./media/collapsec130389.png)               | Sutraukti ataskaitų medį. |
+| [![Mygtukas Pagalba.](./media/helpc130389.png)](./media/helpc130389.png)                           | Atidarykite žinyną. |
 
 ### <a name="formatting-toolbar"></a>Formatavimo įrankių juosta
 
 Naudodami formatavimo įrankių juostą lengvai pasieksite stiliaus komandas. Šioje įrankių juostoje yra toliau nurodyti mygtukai.
 
-| Mygtukas                                                                                                       | Prekės/Paslaugos pavadinimas                                             |
+| Mygtukas                                                                                                       | Aprašas                                             |
 |--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| [![Mygtukas Šrifto stilius](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Taikyti pasirinktą šrifto stilių dabartiniam tekstui.      |
-| [![Mygtukas Šriftas](./media/fonttype.png)](./media/fonttype.png)                                                 | Dabartiniam tekstui nustatyti pasirinktą šriftą.              |
-| [![Mygtukas Šrifto dydis](./media/fontsize.png)](./media/fontsize.png)                                            | Dabartiniam tekstui nustatyti pasirinktą šrifto dydį (taškais). |
-| [![Mygtukas Paryškinti](./media/boldc130389.png)](./media/boldc130389.png)                                           | Paryškinti dabartinį tekstą.                             |
-| [![Mygtukas Kursyvas](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | Rašyti dabartinį tekstą kursyvu.                           |
-| [![Mygtukas Pabraukti](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Pabraukti dabartinį tekstą.                             |
-| [![Mygtukas Mažinti įtrauką](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Mažinti dabartinio teksto įtrauką.                |
-| [![Mygtukas Didinti įtrauką](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Didinti dabartinio teksto įtrauką.                |
-| [![Mygtukas Fono spalva](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Keisti dabartinio langelio fono spalvą.        |
-| [![Mygtukas Šrifto spalva](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Keisti dabartinio teksto spalvą.                   |
+| [![Mygtukas Šrifto stilius.](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Taikyti pasirinktą šrifto stilių dabartiniam tekstui.      |
+| [![Mygtukas Šriftas.](./media/fonttype.png)](./media/fonttype.png)                                                 | Dabartiniam tekstui nustatyti pasirinktą šriftą.              |
+| [![Mygtukas Šrifto dydis.](./media/fontsize.png)](./media/fontsize.png)                                            | Dabartiniam tekstui nustatyti pasirinktą šrifto dydį (taškais). |
+| [![Mygtukas Paryškinti.](./media/boldc130389.png)](./media/boldc130389.png)                                           | Paryškinti dabartinį tekstą.                             |
+| [![Mygtukas Kursyvas.](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | Rašyti dabartinį tekstą kursyvu.                           |
+| [![Mygtukas Pabraukti.](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Pabraukti dabartinį tekstą.                             |
+| [![Mygtukas Mažinti įtrauką.](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Mažinti dabartinio teksto įtrauką.                |
+| [![Mygtukas Didinti įtrauką.](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Didinti dabartinio teksto įtrauką.                |
+| [![Mygtukas Fono spalva.](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Keisti dabartinio langelio fono spalvą.        |
+| [![Mygtukas Šrifto spalva.](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Keisti dabartinio teksto spalvą.                   |
 
 ### <a name="report-designer-toolbar"></a>Ataskaitų dizaino įrankio įrankių juosta
 
 Ataskaitų dizaino įrankio įrankių juosta suteikia greitą prieigą prie komandų, naudojamų naršymui per ataskaitų dizaino įrankį. Šioje įrankių juostoje yra toliau nurodyti mygtukai.
 
-| Mygtukas                                                                                              | Prekės/Paslaugos pavadinimas |
+| Mygtukas                                                                                              | Aprašas |
 |-----------------------------------------------------------------------------------------------------|-------------|
-| [![Mygtukas Ataskaitos aprašas](./media/reportc130389.png)](./media/reportc130389.png)                 | Rodyti į meniu **Langas** sąrašą įtrauktą ataskaitos aprašą. |
-| [![Mygtukas Eilutės apibrėžimas](./media/rowc130389.png)](./media/rowc130389.png)                          | Rodyti prie aktyvaus ataskaitos aprašo priskirtą eilutės apibrėžimą. |
-| [![Mygtukas Stulpelio aprašas](./media/columnc130389.png)](./media/columnc130389.png)                 | Rodyti prie aktyvaus ataskaitos aprašo priskirtą stulpelio aprašą. |
-| [![Mygtukas Ataskaitų medžio apibrėžimas](./media/treec130389.png)](./media/treec130389.png)             | Rodyti prie aktyvaus ataskaitos aprašo priskirtą ataskaitų medžio aprašą. |
-| [![Mygtukas „Report Viewer“](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Paleisti „Report Viewer“ ir rodyti naujausią sugeneruotos ataskaitos versiją. Šis mygtukas galimas ataskaitos apraše, jeigu sugeneravote bent vieną ataskaitą. |
-| [![Mygtukas Generuoti ataskaitą](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Generuojama ataskaita iš aktyvaus ataskaitos aprašo. Šis mygtukas galimas ataskaitos apraše. |
+| [![Mygtukas Ataskaitos aprašas.](./media/reportc130389.png)](./media/reportc130389.png)                 | Rodyti į meniu **Langas** sąrašą įtrauktą ataskaitos aprašą. |
+| [![Mygtukas Eilutės apibrėžimas.](./media/rowc130389.png)](./media/rowc130389.png)                          | Rodyti prie aktyvaus ataskaitos aprašo priskirtą eilutės apibrėžimą. |
+| [![Mygtukas Stulpelio aprašas.](./media/columnc130389.png)](./media/columnc130389.png)                 | Rodyti prie aktyvaus ataskaitos aprašo priskirtą stulpelio aprašą. |
+| [![Mygtukas Ataskaitų medžio apibrėžimas.](./media/treec130389.png)](./media/treec130389.png)             | Rodyti prie aktyvaus ataskaitos aprašo priskirtą ataskaitų medžio aprašą. |
+| [![Mygtukas Pranešti žiūrovui.](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Paleisti „Report Viewer“ ir rodyti naujausią sugeneruotos ataskaitos versiją. Šis mygtukas galimas ataskaitos apraše, jeigu sugeneravote bent vieną ataskaitą. |
+| [![Mygtukas Generuoti ataskaitą.](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Generuojama ataskaita iš aktyvaus ataskaitos aprašo. Šis mygtukas galimas ataskaitos apraše. |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

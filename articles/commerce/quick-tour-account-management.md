@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c61686615495ac64efccf84c697e0e1d594dcaf9
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 7efd9096a85ccafd114448f9ba7ca924c198aacb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027968"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352065"
 ---
 # <a name="account-management-pages-overview"></a>Sąskaitos valdymo puslapių apžvalga
 
@@ -35,7 +36,7 @@ Kai klientas prisijungia ir pasirenka **Mano paskyra**, atidaromas paskyros vald
 
 Toliau pateikiamoje iliustracijoje rodomas paskyros valdymo nukreipimo puslapio pavyzdys.
 
-![Paskyros valdymo nukreipimo puslapio pavyzdys](./media/Account-Management.PNG)
+![Paskyros valdymo nukreipimo puslapio pavyzdys.](./media/Account-Management.PNG)
 
 ### <a name="my-profile-page"></a>Mano šablono puslapis
 
@@ -43,7 +44,7 @@ Puslapyje **Mano profilis** pateikiama kliento paskyros informacija, pvz., jo va
 
 Toliau pateiktame paveikslėlyje parodytas puslapio **Mano profilis** pavyzdys, kuris buvo sukurtas naudojant modulių biblioteką.
 
-![Puslapio Mano profilis pavyzdys](./media/Account-Management-MyProfile.PNG)
+![Puslapio Mano profilis pavyzdys.](./media/Account-Management-MyProfile.PNG)
 
 ### <a name="addresses-page"></a>Adresų puslapis
 
@@ -51,7 +52,7 @@ Puslapyje **Adresai** klientai gali pridėti adresus į jų paskyrą. Jame taip 
 
 Toliau pateikiamoje iliustracijoje rodomas puslapio **Adresai** pavyzdys.
 
-![Puslapio Adresai pavyzdys](./media/Account-Management-Address.png)
+![Puslapio Adresai pavyzdys.](./media/Account-Management-Address.png)
 
 ### <a name="order-history-and-order-details-pages"></a>Puslapiai Užsakymų retrospektyva ir Užsakymo išsami informacija
 
@@ -59,11 +60,11 @@ Puslapyje **Užsakymų retrospektyva** pateikiama visų užsakymų, kuriuos klie
 
 Toliau pateikiamoje iliustracijoje rodomas puslapio **Užsakymų retrospektyva** pavyzdys.
 
-![Užsakymų retrospektyvos puslapio pavyzdys](./media/Account-Management-OrderHistory.PNG)
+![Užsakymų retrospektyvos puslapio pavyzdys.](./media/Account-Management-OrderHistory.PNG)
 
 Toliau pateikiamoje iliustracijoje rodomas puslapio **Užsakymo išsami informacija** pavyzdys.
 
-![Puslapio Užsakymo išsami informacija pavyzdys](./media/Account-Management-OrderDetails.PNG)
+![Puslapio Užsakymo išsami informacija pavyzdys.](./media/Account-Management-OrderDetails.PNG)
 
 ### <a name="loyalty-program-page"></a>Lojalumo programos puslapis
 
@@ -71,7 +72,7 @@ Puslapyje **Lojalumo programa** klientas gali tapti lojalumo programos nariu. Kl
 
 Toliau pateikiamoje iliustracijoje rodomas puslapio **Lojalumo programa** pavyzdys.
 
-![Lojalumo programos puslapio pavyzdys](./media/Account-Management-Loyalty.PNG)
+![Lojalumo programos puslapio pavyzdys.](./media/Account-Management-Loyalty.PNG)
 
 ### <a name="wishlist-page"></a>Pageidavimų sąrašo puslapis
 
@@ -79,7 +80,7 @@ Puslapyje **Norų sąrašas** rodomas prekių, kurias klientas įtraukė į savo
 
 Toliau pateikiamoje iliustracijoje rodomas puslapio **Norų sąrašas** pavyzdys.
 
-![Puslapio Norų sąrašas pavyzdys](./media/Account-Management-Wishlist.PNG)
+![Puslapio Norų sąrašas pavyzdys.](./media/Account-Management-Wishlist.PNG)
 
 Norėdami gauti daugiau informacijos apie paskyrų valdymo modulius ir apie tai, kaip juos sukurti, žr. [Paskyrų valdymas](account-management.md).
 

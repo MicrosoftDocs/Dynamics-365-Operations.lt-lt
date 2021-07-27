@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 6f74602cafe3f0848a9e03f17300ca6242fe1545
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 53d01756d803a0ebc9eb366deded4bf3bef3b1f6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893985"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351751"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>ER konfigūracijų atsisiuntimas iš konfigūravimo tarnybos bendrosios saugyklos
 
@@ -40,7 +40,7 @@ ms.locfileid: "5893985"
 3. Dalyje **Konfigūracijų teikėjai** pasirinkite plytelę **Microsoft**.
 3. Plytelėje **Microsoft** pasirinkite **Saugyklos**.
 
-    ![Elektroninių ataskaitų darbo sritis](./media/er-download-configurations-global-repo-er-workspace.png)
+    ![Elektroninių ataskaitų darbo sritis.](./media/er-download-configurations-global-repo-er-workspace.png)
 
 4. Puslapio **Konfigūracijų saugyklos** tinklelyje pasirinkite esamą saugyklą, kurios tipas **Bendroji**. Jei ši saugykla tinklelyje nerodoma, atlikite tolesnius veiksmus.
 
@@ -52,7 +52,7 @@ ms.locfileid: "5893985"
 
 5. Pasirinkite **Atidaryti**, norėdami peržiūrėti pasirinktos saugyklos ER konfigūracijų sąrašą.
 
-    ![Konfigūracijų saugyklų puslapis](./media/er-download-configurations-global-repo-repositories-list.png)
+    ![Konfigūracijų saugyklų puslapis.](./media/er-download-configurations-global-repo-repositories-list.png)
 
 ## <a name="import-a-single-configuration"></a>Vienos konfigūracijos importavimas
 
@@ -63,7 +63,7 @@ ms.locfileid: "5893985"
     > [!NOTE]
     > Mygtuko **Importuoti** negalima naudoti ER konfigūracijų versijose, kurios jau yra dabartiniame „Finance“ egzemplioriuje.
 
-    ![Konfigūracijos saugyklos puslapis](./media/er-download-configurations-global-repo-repository-content.png)
+    ![Konfigūracijos saugyklos puslapis.](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>Filtruotų konfigūracijų importavimas
 
@@ -77,7 +77,7 @@ ms.locfileid: "5893985"
 4. „FastTab“ **Konfigūracijos** pasirinkite **Importuoti**, kad atsisiųstumėte filtruotas konfigūracijas iš bendrosios saugyklos į dabartinį egzempliorių.
 5. „FastTab“ **Konfigūracijos** pasirinkite **Iš naujo nustatyti filtrą**, kad būtų išvalytos nurodytos pasirinkimo sąlygos.
 
-    ![Konfigūracijos saugyklos puslapis](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![Konfigūracijos saugyklos puslapis.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > Atsižvelgiant į ER parametrus, konfigūracijos patikrinamos po importavimo. Galite būti informuoti apie rastas nenuoseklumo problemas. Prieš naudodami importuotą konfigūracijos versiją, turite išspręsti problemas. Daugiau informacijos ieškokite su šia tema susijusių išteklių sąraše.

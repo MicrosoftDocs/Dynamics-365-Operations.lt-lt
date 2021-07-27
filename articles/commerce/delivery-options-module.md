@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 8342afefa6eeda3a53decb39caddb62d1e4e1963
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: af8cd65565a50341b0bf2dba84204d010486532c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270866"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350455"
 ---
 # <a name="delivery-options-module"></a>Pristatymo parinkčių modulis
 
@@ -41,11 +41,11 @@ Jei siuntimo mokesčiai taikomi eilutės prekėms, jos gali būti rodomos kiekvi
 
 Tolesnis paveikslėlis rodo pristatymo parinkčių modulį galutiniame puslapyje pavyzdį.
 
-![Pristatymo parinkčių modulio galutiniame puslapyje pavyzdys](./media/ecommerce-deliveryoptions.PNG)
+![Pristatymo parinkčių modulio galutiniame puslapyje pavyzdys.](./media/ecommerce-deliveryoptions.PNG)
 
 ## <a name="delivery-options-module-properties"></a>Pristatymo parinkčių modulio ypatybės
 
-| Ypatybė | Reikšmės | aprašymas |
+| Ypatybė | Reikšmės | Aprašas |
 |----------|--------|-------------|
 | Antraštė | Antraštės tekstas ir antraštės žymė (**H1**, **H2**, **H3**, **H4**, **H5** ar **H6**) | Pasirenkama antraštė pristatymo parinkčių moduliui. |
 | Pasirinktinis CSS klasės pavadinimas | Tekstas | Tinkinto kaskadinio stiliaus lapų (CSS) klasės pavadinimas, kuris bus naudojamas šio modulio sukūrimui, jei taikomas. |
