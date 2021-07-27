@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d0d4afd74f9a0f9018629fa92ab6595bfa94f973
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: 1d73a382f1786a73a5af917b28d00384ecc36aa8
+ms.sourcegitcommit: f6050b444e636ba662c00d0443c94a99f8ea0b0d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026210"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "6309771"
 ---
 # <a name="set-up-postdated-checks"></a>Vėlesnių čekių nustatymas
 
@@ -58,6 +58,7 @@ ms.locfileid: "6026210"
 > 
 > Nustatydami **mokėjimo būdą** (**Mokėtinos sumos > Mokėjimo nustatymas > Mokėjimo būdai**), tarpinės **sąskaitos užpildyti** nereikia. Šiuo atveju, korespondentinė sąskaita užpildoma banko sąskaita, kuri nustatoma **mokėjimo metode**.
 >  
-> Kai priemonė įgalinta, o seanso data yra mažesnė nei mokėjimo termino data, registruojant mokėjimų žurnalą rodomas šis klaidos pranešimas: "Mokėjimo termino data turi būti mažesnė už seanso datą arba tokia pat, jei korespondentinės sąskaitos tipas yra Bankas". Jei priemonė neįgalinta, galite užregistruoti mokėjimo žurnalą su postduotu čekiu, kai seanso data yra mažesnė nei mokėjimo termino data.    
+> Kai priemonė įgalinta, o seanso data yra mažesnė nei mokėjimo termino data, registruojant mokėjimų žurnalą rodomas šis klaidos pranešimas: "Mokėjimo termino data turi būti mažesnė už seanso datą arba tokia pat, jei korespondentinės sąskaitos tipas yra Bankas". Jei priemonė neįgalinta, galite užregistruoti mokėjimo žurnalą su postduotu čekiu, kai seanso data yra mažesnė nei mokėjimo termino data.
+> Ši funkcija pasiekiama 10.0.21 arba vėlesnėje versijoje.    
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

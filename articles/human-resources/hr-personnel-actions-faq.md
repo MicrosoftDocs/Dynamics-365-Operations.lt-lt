@@ -2,7 +2,7 @@
 title: DUK apie personalo veiksmus
 description: Šiame straipsnyje pateikiami atsakymai į klausimus, kurie jums gali kilti, jei organizacijoje naudojami personalo veiksmai. Personalo veiksmai yra papildomi veiksmai, kuriuos turite atlikti, kai atliekate tam tikras su personalu susijusias užduotis.
 author: andreabichsel
-ms.date: 06/16/2017
+ms.date: 06/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: a458800788d8e0df6c1f937a639eff31dcbb2c06
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 05365eabe6f3c283f5828e468c9323c3fa897fb8
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054553"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333024"
 ---
 # <a name="personnel-actions-faq"></a>DUK apie personalo veiksmus
 
@@ -42,7 +42,7 @@ Yra du personalo veiksmų tipai:
 ## <a name="what-do-the-statuses-of-the-personnel-actions-mean"></a>Ką reiškia personalo veiksmų būsenos?
 Galimos šios personalo veiksmų būsenos:
 
-- **Juodraštis** – jei naudojama darbo eiga, veiksmas nebuvo pateiktas. Jei darbo eiga nenaudojama, veiksmas nebuvo atliktas.
+- **Juodraštis** – jeigu naudojama darbo eiga, veiksmas nebuvo pateiktas. Jei darbo eiga nebuvo naudojama, veiksmas nebuvo užbaigtas.
 - **Peržiūrimas** – personalo veiksmas, kuris buvo pateiktas darbo eigai, bet darbo eiga neužbaigta.
 - **Patvirtintas laukimas** – darbo eiga užbaiga, bet pakeitimai vis dar atliekami. Atšauktas – darbo eiga buvo atšaukta arba personalo veiksmas buvo atšauktas. Atmestas – veiksmo užklausa atmesta tvirtintojo.
 - **Apdorojimo veiksmas** – veiksmo užklausa patvirtinta ir pakeitimai apdorojami.
@@ -51,7 +51,7 @@ Galimos šios personalo veiksmų būsenos:
 - **Nepriimta** – veiksmo užklausa nepriimta tvirtintojo.
 
 ## <a name="can-i-delete-a-personnel-action"></a>Ar galiu panaikinti personalo veiksmą?
-Taip, galite panaikinti personalo veiksmus, kurių būsena **Juodraštis**, **Klaida**, **Nepavyko** arba **Atšauktas**
+Taip, galite panaikinti personalo veiksmus, kurių būsena **Juodraštis**, **Klaida**, **Nepavyko** arba **Atšauktas** Personalo veiksmus, kurių būsena yra **Baigta**, galite panaikinti tik tada, jeigu nustatėte **Leisti naikinti užbaigtus darbuotojo veiksmus** parinktį į **Taip** puslapyje **Bendrinami žmogiškųjų išteklių parametrai**.
 
 ## <a name="what-is-the-fastest-way-to-check-the-status-of-a-personnel-action-request"></a>Koks greičiausias būdas patikrinti personalo veiksmo užklausos būseną?
 Atidarykite visus personalo veiksmų sąrašo puslapius ir pasirinkite personalo veiksmą.
@@ -66,9 +66,9 @@ Jei personalo veiksmas nepavyksta, atlikite toliau nurodytus veiksmus, kad paša
 > 3. Pašalinkite klaidą, tada spustelėkite **Baigti** arba **Pateikti**.
 
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a>Kas nutinka personalo veiksmui, kuris naudoja darbo eigą, kai baigiamas galutinis patvirtinimas?
-Jei klaidų nėra, personalo veiksmas tampa tik skaitomas. (Galite peržiūrėti retrospektyvą sąrašo puslapyje **Visi darbuotojo veiksmai**, tačiau negalite keisti personalo veiksmo.) Kai personalo veiksmo būsena yra **Baigta**, pareigų arba darbuotojo įrašas jau atnaujintas. Norėdami peržiūrėti atliktus pakeitimus, atidarykite sąrašo puslapį **Pareigos** arba **Darbininkai**.
+Jei klaidų nėra, personalo veiksmas tampa tik skaitomas. (Galite peržiūrėti retrospektyvą sąrašo puslapyje **Visi darbuotojo veiksmai**, tačiau jūsnegalite keisti personalo veiksmo.) Kai personalo veiksmo būsena yra **Baigta**, pareigų arba darbuotojo įrašas jau atnaujintas. Norėdami peržiūrėti atliktus pakeitimus, atidarykite sąrašo puslapį **Pareigos** arba **Darbininkai**.
 
-## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a>Kodėl rodoma toliau nurodyta klaida, kai įvedu ne nulinę reikšmę lauke Užmokesčio tarifas? „Ši reikšmė yra už tinkamo diapazono ribų – ji turi būti nuo 0,00 iki 0,00“
+## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a>Kodėl rodoma toliau nurodyta klaida, kai įvedu ne nulinę reikšmę lauke Užmokesčio tarifas? „Ši reikšmė yra už tinkamo diapazono ribų – ji privalo būti nuo 0,00 iki 0,00“
 Šis pranešimas rodomas, nes užduoties, susietos su pasirinktomis pareigomis, formos Užduotis laukas Lygis yra tuščias.
 
 Norėdami pašalinti šią klaidą, atlikite toliau nurodytus veiksmus.
@@ -80,10 +80,10 @@ Norėdami pašalinti šią klaidą, atlikite toliau nurodytus veiksmus.
 > 5. Lauke Lygis pasirinkite lygį.
 > 6. Uždarykite puslapį Užduotis.
 > 7. Uždarykite puslapį Pareigos.
-> 8. Grįžkite į skirtuką Kompensacija, esantį puslapyje Darbininkas, pasirinkite Pastovioji atlyginimo dalis.  Pasirinkite Naujas ir lauke Pareigos įveskite darbuotojo pareigas.  Lauke Planas įveskite reikšmę, tada lauke Darbo užmokesčio tarifas įveskite darbuotojo kompensaciją.
+> 8. Grįžkite į skirtuką Kompensacija, esantį puslapyje Darbininkas, pasirinkite Pastovioji atlyginimo dalis.  Pasirinkite Naujas ir Pareigų lauke įveskite darbuotojo pareigas.  Lauke Planas įveskite reikšmę, o tada Darbo užmokesčio tarifo lauke įveskite darbuotojo kompensaciją.
 
-## <a name="why-cant-i-change-the-effective-date-in-the-header-of-the-worker-action-form"></a>Kodėl negaliu pakeisti įsigaliojimo datos formos Darbuotojo veiksmas antraštėje?
-Negalite pakeisti įsigaliojimo datos, nes laukas užpildomas logiškiausia veiksmo tipo data.
+## <a name="why-cant-i-change-the-effective-date-in-the-header-of-the-worker-action-form"></a>Kodėl aš negaliu pakeisti įsigaliojimo datos formos Darbuotojo veiksmas antraštėje?
+Jūs negalite pakeisti įsigaliojimo datos, nes laukas užpildomas logiškiausia veiksmo tipo data.
 
 Pvz.:
 

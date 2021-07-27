@@ -353,8 +353,10 @@
                       href: hr-developer-api-myleaverequests-submit.md
         - name: ATS integravimo API
           items:
-            - name: Įvadas
+            - name: Įžanga
               href: hr-admin-integration-ats-api-introduction.md
+            - name: ATS integravimų dviejų serverių autentifikavimas
+              href: hr-admin-integration-ats-api-s2s-auth.md
             - name: Įdarbinimo užklausa ir susiję objektai
               items:
                 - name: Įdarbinimo užklausa
@@ -439,20 +441,44 @@
                   href: hr-admin-integration-ats-api-skill-level-type.md
         - name: Algalapių integravimo API
           items:
-            - name: Įvadas
+            - name: Įžanga
               href: hr-admin-integration-payroll-api-introduction.md
             - name: Algalapio objektų generavimas ir peržiūra
               href: hr-admin-integration-payroll-api-generate-review-entities.md
-            - name: Algalapio darbuotojas
-              href: hr-admin-integration-payroll-api-payroll-employee.md
-            - name: Algalapio darbuotojo adresas
-              href: hr-admin-integration-payroll-api-payroll-worker-address.md
-            - name: Algalapio pastoviosios atlyginimo dalies planas
-              href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
-            - name: Algalapių padėties užduotis
-              href: hr-admin-integration-payroll-api-payroll-position-job.md
-            - name: Algalapių padėtis
-              href: hr-admin-integration-payroll-api-payroll-position.md
+            - name: Algalapio integravimo parametrai
+              href: hr-admin-integration-payroll-api-parameters.md
+            - name: Algalapio objektai
+              items:
+                - name: Algalapio darbuotojas
+                  href: hr-admin-integration-payroll-api-payroll-employee.md
+                - name: Algalapio darbuotojo adresas
+                  href: hr-admin-integration-payroll-api-payroll-worker-address.md
+                - name: Algalapio pastoviosios atlyginimo dalies planas
+                  href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
+                - name: Algalapio kintamosios atlyginimo dalies planas
+                  href: hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md
+                - name: Algalapio padėtis
+                  href: hr-admin-integration-payroll-api-payroll-position.md
+                - name: Algalapio padėties užduotis
+                  href: hr-admin-integration-payroll-api-payroll-position-job.md
+            - name: Su atostogomis ir neatvykimais susiję objektai
+              items:
+                - name: Atostogų balansas
+                  href: hr-admin-integration-payroll-api-leave-balance.md
+                - name: Atostogų tipas
+                  href: hr-admin-integration-payroll-api-leave-type.md
+                - name: Atostogų užklausa
+                  href: hr-admin-integration-payroll-api-leave-request.md
+            - name: Parinkčių rinkiniai
+              items:
+                - name: Lytis
+                  href: hr-admin-integration-payroll-api-gender.md
+                - name: Ne Taip
+                  href: hr-admin-integration-payroll-api-no-yes.md
+                - name: Premijos tipas
+                  href: hr-admin-integration-payroll-api-award-type.md
+                - name: Proceso tipas
+                  href: hr-admin-integration-payroll-api-process-type.md
     - name: Vartotojo vadovas
       items:
         - name: Apžvalga
@@ -599,6 +625,8 @@
           items:
             - name: Darbo jėgos organizavimas
               href: hr-personnel-departments-jobs-positions.md
+            - name: Personalo valdymo darbo sritis
+              href: hr-personnel-personnel-management-workspace.md
             - name: Užduoties komponentų nustatymas
               href: hr-personnel-jobs.md
             - name: Padalinių nustatymas
@@ -607,6 +635,8 @@
               href: hr-personnel-add-department-hierarchy.md
             - name: Darbo vietų nustatymas
               href: hr-personnel-define-jobs.md
+            - name: Pareigybės
+              href: hr-personnel-positions.md
             - name: Darbo laikų kalendoriaus kūrimas
               href: hr-personnel-create-working-time-calendar.md
             - name: Kandidatų į darbo vietas įdarbinimas
@@ -833,7 +863,73 @@
               href: hr-employee-manager-self-service-custom-links.md
             - name: Darbuotojų savitarnos darbo srities pavadinimo keitimas
               href: hr-employee-self-service-workspace-name.md
-            - name: Redaguoti asmeninę informaciją
+            - name: Asmeninės informacijos redagavimas
               href: hr-employee-manager-self-service-edit-personal-information.md
             - name: Asmeninės informacijos redagavimo apribojimas
               href: hr-employee-self-service-restrict-editing.md
+        - name: Darbo eigos sistemos naudojimas
+          items:
+            - name: Darbo eigos sistemos apžvalga
+              href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darbo eigos sistemos architektūra
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darbo eigos elementai
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darbo eigos veiksmai
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darbo eigų kūrimas
+              items:
+                - name: Darbo eigų kūrimo apžvalga
+                  href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Darbo eigos ypatybių konfigūravimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
+                - name: Neautomatizuotų užduočių konfigūravimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Automatizuotų užduočių konfigūravimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Patvirtinimo procesų konfigūravimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Patvirtinimo veiksmų konfigūravimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Išlaidų redaktorių konfigūravimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/human-resources/toc.json
+                - name: Neautomatizuotų sprendimų konfigūravimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Sąlyginių sprendimų konfigūravimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Lygiagrečių veiklų konfigūravimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Lygiagrečių šakų konfigūravimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Eilutės elemento darbo eigų konfigūravimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darbo eigos pranešimo apdorojimo paketinės užduoties kaip kritinės konfigūravimas
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darbo eigos darbo elementų perdavimas
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darbo eigos retrospektyvos peržiūra
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
+            - name: Sistemos konfigūravimas siųsti su darbo eiga susijusius el. laiškus vartotojams
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darbo eigos tipai
+              items:
+                - name: Darbo eigos tipo kūrimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/human-resources/toc.json
+                - name: Darbo eigos tipo kontrolinis sąrašas
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/human-resources/toc.json
+                - name: Darbo eigos kategorijos kūrimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/human-resources/toc.json
+                - name: Darbo eigos tipo užklausos kūrimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/human-resources/toc.json
+                - name: Naujo darbo eigos tipo kūrimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
+                - name: Darbo eigos dokumento klasės kūrimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
+                - name: SubmitToWorkflow klasės kūrimas
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Darbo eigos dokumento klasės siejimas su darbo eigos tipu
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darbo eigos tipų ataskaita
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
+            - name: DUK apie darbo eigas
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json

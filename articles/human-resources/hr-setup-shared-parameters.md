@@ -2,7 +2,7 @@
 title: Bendrai naudojamų parametrų konfigūravimas
 description: Turite nustatyti bendrai keliose įmonėse naudojamus įrašus, pvz., įrašus Pareigos. Šiame straipsnyje paaiškinama, kaip keliuose juridiniuose subjektuose nustatyti modulio Personalas parametrus.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 06/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 888caa19a9befd32ce27b27e499cdfe88a1bbf01
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 7aff01bee8cadcf852ae32fd60447c68e2174a2a
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054529"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333001"
 ---
 # <a name="configure-shared-parameters"></a>Bendrai naudojamų parametrų konfigūravimas
 
@@ -32,18 +32,31 @@ Kai kurių tipų įrašai, pvz., pareigų įrašai, yra bendrai naudojami kelios
 
 Puslapyje **Bendrai naudojami personalo parametrai** parametrai sugrupuoti į sritis pagal jų funkcijas. 
 
-### <a name="previously-released-functionality"></a>Anksčiau išleistos funkcijos
+### <a name="settings"></a>Nustatoma
 Skirtuke **Identifikacija** turite pasirinkti identifikavimo tipus, kurie atitinka identifikavimo numerius, išvardytus puslapyje. Turite nustatyti identifikavimo tipus prieš įvesdami darbuotojų identifikavimo informaciją. Informacija apie socialinio draudimo numerį, asmens kodą ir pašalinio vartotojo ID numerį yra saugoma puslapyje **Identifikavimo tipas**. Norėdami nustatyti naują identifikavimo tipą arba peržiūrėti esamų tipų sąrašą, spustelėkite **Personalo valdymas** &gt; **skirtuką Saitai** &gt; **Sąranka** &gt; **Identifikavimo tipai**. Galite įvesti paprastą kodą ir aprašymą. 
-
-### <a name="if-youre-using-dynamics-365-human-resources"></a>Jei naudojate „Dynamics 365 Human Resources“
-Skirtuke **Identifikacija** turite pasirinkti identifikavimo tipus, kurie atitinka identifikavimo numerius, išvardytus puslapyje. Turite nustatyti identifikavimo tipus prieš įvesdami darbuotojų identifikavimo informaciją. Informacija apie socialinio draudimo numerį, asmens kodą ir pašalinio vartotojo ID numerį yra saugoma puslapyje **Identifikavimo tipas**. Norėdami nustatyti naują identifikavimo tipą arba peržiūrėti esamų tipų sąrašą, spustelėkite **Personalas** &gt; **Sąranka** &gt; **Identifikavimo tipai**. Galite įvesti paprastą kodą ir aprašymą. 
 
 Skirtuke **Numeracijos** galite pasirinkti numeracijas, naudojamas šiuose įrašuose: darbuotojo numeryje, pareigose, vartotojo užklausos ID, I-9 dokumente, pretendente, diskusijoje, išmokos ID ir personalo veiksme (jei šis įrašo tipas suaktyvintas). Norėdami tvarkyti numeravimo nuorodas ir kodus, naudokite sąrašo puslapį **Numeracijos**. Norėdami rasti šį puslapį, naudokite puslapio ieškos funkciją. 
 
 Skirtuke **Pareigos** nurodykite, ar pagal numatytuosius nustatymus naujas pareigas galima priskirti.
 
--   **Visada** – galima priskirti darbuotojus naujoms pareigoms kuriant pareigas. Sukūrus pareigas **Galima priskirti** data ir laikas bus automatiškai nustatyti į sukūrimo datą ir laiką skirtuke **Bendra**, esančiame puslapyje **Pareigos**.
--   **Niekada** – negalima priskirti darbuotojų naujoms pareigoms kuriant pareigas. Pasirinkus šią pasirinktį, reikės atidaryti puslapį **Pareigos** apdorojant kiekvienas naujas pareigas, kai jas bus galima naudoti, ir tada skirtuke **Bendra** įvesti **Galima priskirti** datą , kad būtų suaktyvintas darbuotojo priskyrimas.
+- **Visada** – galima priskirti darbuotojus naujoms pareigoms kuriant pareigas. Sukūrus pareigas **Galima priskirti** data ir laikas bus automatiškai nustatyti į sukūrimo datą ir laiką skirtuke **Bendra**, esančiame puslapyje **Pareigos**.
+- **Niekada** – negalima priskirti darbuotojų naujoms pareigoms kuriant pareigas. Jei pasirenkate šią parinktį, turite atidaryti **Pareigų** puslapį kiekvienoms naujoms pareigoms, kai jos tampa galimos. Tada skirtuke **Bendra** įveskite **Galima priskyrimui** datą, kad įgalintumėte darbuotojo priskyrimą.
 
+Skirtuke **Išplėstinė prieiga** galite apriboti prieigą prie kai kurių informacijos ar saitų:
+
+- **Apriboti prieigą prie darbuotojo informacijos** – įjunkite šią funkciją, jei vartotojai turėtų galėti peržiūrėti tik tų juridinių subjektų, prie kurių prieigą jie turi, ir darbuotojų, kurie dirba šiuose juridiniuose subjektuose, informaciją.
+
+    Įjungę šią funkciją, turite atlikti šiuos veiksmus, kad nustatytumėte atitinkamas teises kiekvienam vartotojui, kurio rodinį reikia apriboti:
+
+    1. Puslapyje **Vartotojai** pasirinkite vartotoją.
+    1. Pasirinkite vartotojo vaidmenį. Pasirinktis **Priskirti organizacijas** tampa galima.
+    1. Pasirinkite **Priskirti organizacijas**.
+    1. Naujame puslapyje pasirinkite **Suteikti prieigą prie konkrečių organizacijų atskirai**, o tada pasirinkite organizacijas, prie kurių vartotojas turi turėti prieigą.
+    1. Pakartokite 2-4 veiksmus kiekvienam kitam vartotojo turimam vaidmeniui, įskaitant sistemos vartotojo vaidmenį.
+
+    > [!NOTE]
+    > Įmonės, prie kurių vartotojas turi prieigą, turi atitikti visus vartotojo vaidmenis.
+
+- **Įgalinti visų įmonių kompensavimo rodinį** – kompensacija priskiriama darbuotojams pagal įdarbinimo juridinį subjektą. Kartais darbuotojas gali būti įdarbintas keliuose juridiniuose subjektuose tuo pačiu metu. Kai ši funkcija įjungta, kompensacija kiekvienam juridiniam subjektui bus rodoma darbuotojų savitarnoje ir vadovo savitarnoje be būtinybės keisti juridinius subjektus. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

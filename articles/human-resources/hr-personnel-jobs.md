@@ -2,11 +2,11 @@
 title: Užduoties komponentų nustatymas
 description: Šiame straipsnyje aprašomi abstraktūs elementai, kurie gali sudaryti užduotį, ir pateikiami pavyzdžiai, kaip tuos elementus galite naudoti savo organizacijoje.
 author: andreabichsel
-ms.date: 06/20/2017
+ms.date: 06/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace
+ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace, HCMJobFamily
 audience: Application User
 ms.author: anbichse
 ms.search.scope: Human Resources
@@ -15,12 +15,12 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 88dc3cec4880fdcb4d4f8d54b03037f738d2a57a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: d4e24e64f3fece0807df8fbf4fb206c4588c9332
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056574"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333098"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Užduoties komponentų nustatymas
 
@@ -37,14 +37,19 @@ Tam, kad galėtumėte kurti darbo vietas, turite nustatyti tų darbo vietų pare
 
 Tvarkykite pareigas puslapyje **Pareigos**, kurį galite atidaryti naudodami ieškos funkciją. Puslapyje **Pareigos** įveskite pareigas, kurias planuojate priskirti užduotims.
 
-## <a name="job-types"></a>Užduočių tipai
+## <a name="job-types"></a>Pareigų rūšys
 Užduočių tipai naudojami panašioms užduotims į kategorijas sugrupuoti. Užduočių tipai nėra būtini. Tačiau jei užduočių tipus planuojate naudoti nustatydami kompensavimo valdymo tinkamumo taisykles, užduočių tipus turite nustatyti prieš nustatydami užduotis. Kai kurie užduočių tipų pavyzdžiai: visa darbo diena ar ne visa darbo diena arba atlyginimas ir valandinis užmokestis. Užduočių tipus galite tvarkyti puslapyje **Užduočių tipai**. Puslapyje **Užduočių tipai** įveskite užduoties tipo pavadinimą ir trumpą aprašymą. Lauke **Neapmokestinimo būsena** pasirinkite vieną iš toliau nurodytų parinkčių, kad nurodytumėte šio tipo užduočių Sąžiningo darbo standartų akto (FLSA) neapmokestinimo būseną.
 
 -   **Neapmokestinama** – pagal FLSA užduočių viršvalandžiai nėra apmokestinami.
 -   **Apmokestinama** – pagal FLSA užduočių viršvalandžiai yra apmokestinami.
 -   **Netaikoma** – FLSA netaikomas.
 
-## <a name="job-functions"></a>Užduoties funkcijos
+## <a name="job-family"></a>Užduočių grupė
+Užduočių šeima yra užduočių, kurios apima panašų darbą ir kurioms reikia panašaus mokymo, įgūdžių, žinių ir kompetencijos, grupė. Užduočių šeimą galima susieti su užduotimi puslapio **Užduotys** „FastTab” **Užduočių klasifikacija** ir puslapio **Visos pareigos** „FastTab” **Bendra**. Užduočių šeimos gali būti plačios arba konkrečios, priklausomai nuo jūsų verslo ir ataskaitų reikalavimų. Plačių užduočių šeimų pavyzdžiai būtų **Darbas, reikalaujantis įgūdžių** ir **Darbas, nereikalaujantis įgūdžių**. Keletas konkrečių užduočių šeimų pavyzdžių: **Apskaita**, **Gamyba** ir **Pardavimai**.
+
+Tvarkykite užduočių šeimas naudodami puslapį **Užduočių šeima**, kurį galite atidaryti naudodami ieškos funkciją. Puslapyje **Užduočių šeima** įveskite unikalų šeimos pavadinimą ir išsamų aprašymą, kurį planuojate naudoti savo užduotims.
+
+## <a name="job-functions"></a>Pareigų funkcijos
 Užduočių funkcijos nurodo aukšto lygio funkcines kategorijas susieja aukšto lygio pareigas. Užduočių funkcijos nėra būtinos. Užduočių funkcijas ir užduočių tipus galite naudoti norėdami filtruoti kompensavimo planus, ieškodami konkrečių užduočių. Užduočių funkcijos ir užduočių tipai susiejami su kompensavimo planais nustatant tinkamumo taisykles puslapyje **Tinkamumo taisyklės**. Tada prie kompensavimo plano galite pridėti lygių, taikomų konkrečiam užduoties tipo ir užduoties funkcijos junginiui, kurį apibrėžėte naudodami tinkamumo taisyklę, rinkinį. (Šios funkcijos taikoms tiek pastoviosios atlyginimo dalies planams, tiek kintamosios atlyginimo dalies planams.) Tačiau, jei užduočių funkcijas planuojate naudoti nustatydami kompensavimo valdymo tinkamumo taisykles, užduočių funkcijas turite nustatyti prieš nustatydami užduotis. Tolesnėje lentelėje pateikta keletas užduočių funkcijų pavyzdžių.
 
 | Užduotis           | Užduoties funkcija         |
@@ -53,6 +58,14 @@ Užduočių funkcijos nurodo aukšto lygio funkcines kategorijas susieja aukšto
 | Buhalteris    | Specialistai        |
 
 Užduočių funkcijas galite tvarkyti puslapyje **Užduočių funkcijos**. Puslapyje **Užduočių funkcijos** įveskite užduoties funkcijos identifikavimo kodą ir trumpą aprašymą.
+
+## <a name="compensation"></a>Kompensacija
+Norėdami priskirti pastoviosios atlyginimo dalies planą darbuotojui, kuris turi pareigas užduotyje, turite nustatyti atlyginimo lygius užduočiai. Atlyginimo lygis naudojamas, kai minimali, vidutinė ir maksimalios sumos yra nustatytos atlyginimo struktūroje (atlyginimo tinklelyje). Sukūrus pastoviosios atlyginimo dalies planą, pasirenkama atlyginimo struktūra. Į atlyginimo struktūrą taip pat įtrauktas kompensacijos lygis. Kai pasirenkate darbuotojo pastoviosios atlyginimo dalies planą, atlyginimo lygiai, galimi pasirinkti, priklauso nuo užduoties, su kuria siejamos darbuotojo pareigos. Daugiau informacijos apie kompensacijos nustatymą rasite [Kompensacijų planai](hr-compensation-overview.md).
+
+## <a name="job-skills"></a>Užduoties įgūdžiai
+Užduoties įgūdžiai apibūdina įgūdžius, reikalingus užduočiai atlikti. Įgūdžių lygis turi būti susietas su kiekvienu darbo įgūdžiu. Įgūdžių lygius nustato vartotojas. Jie nurodo įgūdžiams reikalingą žinių ar kompetencijos lygį. Pavyzdžiui, įmonės gali nustatyti skaitinius lygius, tarkim nuo 1 iki 5, kur **1** reiškia pradedantįjį, o **5** – specialistą. Įmonės taip pat gali nustatyti lygius, pažymėtus **Pradedantysis**, **Pažengęs** arba **Specialistas**. Nustačius įgūdžių lygį, taip pat galima nustatyti įgūdžių svarbą. Pavyzdžiui, jei buhalteriui reikia turėti daug žinių apie „Microsoft Excel”, gali būti sukurtas įgūdis, pavadintas **„Excel” žinios**. Tada įgūdžių lygį galima nustatyti kaip **Pažengęs**, o svarba gali būti nustatyta kaip **Svarbiausia**.
+
+Užduoties įgūdžiai gali būti naudojami įgūdžių susiejime. Įgūdžių susiejimas gali palyginti užduočiai reikalingą įgūdžių rinkinį ir įgūdžius, susietus su darbuotoju. Tada jis gali nustatyti procentinės dalies atitikimą pagal persidengiančius įgūdžius. Daugiau informacijos apie įgūdžių susiejimą rasite [Įgūdžių konfigūravimas](hr-develop-skills.md). 
 
 ## <a name="job-tasks"></a>Darbo užduotys
 Darbo užduotys apibūdina pagrindines užduotis, kurias atitinkamoms pareigoms priskirtas darbuotojas turi atlikti. Tą pačią darbo užduotį galima įtraukti į kelias užduotis ir užduočių, kurios naudoja tas darbo užduotis, pareigas. Tolesnėje lentelėje pateikta keletas darbo užduočių pavyzdžių.

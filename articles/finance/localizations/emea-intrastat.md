@@ -9,17 +9,19 @@ ms.technology: ''
 ms.search.form: Intrastat
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 28581
+ms.custom:
+- "28581"
+- intro-internal
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bafbb908531e003d2184409bf5d09ed5848fc474
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: a5e74b43bbeae011b2cde5c29d5a05aab28ec07e
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216791"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6340066"
 ---
 # <a name="intrastat-overview"></a>Intrastat apžvalga
 
@@ -138,7 +140,7 @@ Toliau pateikiamuose skyriuose aprašomos nuostatos, kurios reikalingos kuriant 
 </tr>
 <tr class="even">
 <td>Operacijų kodai</td>
-<td>Pagal savo šalies / regiono reikalavimus nustatykite operacijos pobūdį. Kiekvienam operacijos kodui, kurį nustatote, turite nustatyti taisykles, skirtas skaičiuoti perkėlimo užsakymų ir pardavimo / pirkimo užsakymų SF sumoms ir statistinėms sumoms.
+<td>Pagal savo šalies&#39; / regiono&#39; reikalavimus nustatykite operacijos pobūdį. Kiekvienam operacijos kodui, kurį nustatote, turite nustatyti taisykles, skirtas skaičiuoti perkėlimo užsakymų ir pardavimo / pirkimo užsakymų SF sumoms ir statistinėms sumoms.
 <ul>
 <li>Perkėlimo užsakymams nustatote vieną iš toliau pateiktų SF sumų ir statistinių sumų skaičiavimo taisyklių.
 <ul>
@@ -157,7 +159,7 @@ Toliau pateikiamuose skyriuose aprašomos nuostatos, kurios reikalingos kuriant 
 </tr>
 <tr class="odd">
 <td>Transportavimo metodai</td>
-<td>Pagal savo šalies / regiono reikalavimus nustatykite transportavimo būdą. Kiekvieno pristatymo būdo numatytąjį transportavimo būdą galite nustatyti <strong>Užsienio prekybos</strong> skirtuke.</td>
+<td>Pagal savo šalies&#39; / regiono&#39; reikalavimus nustatykite transportavimo būdą. Kiekvieno pristatymo būdo numatytąjį transportavimo būdą galite nustatyti <strong>Užsienio prekybos</strong> skirtuke.</td>
 </tr>
 <tr class="even">
 <td>Uostai</td>
@@ -205,7 +207,7 @@ Norėdami nustatyti toliau pateiktos lentelės parametrus, naudokite **Užsienio
 </ul></li>
 <li><strong>Perkėlimas</strong> – nurodykite operacijų perkėlimo į Intrastat žurnalą kriterijus. Galite nurodyti, kad operacijos būtų perkeliamos tik tada, kai prekės atitinka vieną ar visus toliau nurodytus kriterijus.
 <ul>
-<li>Prekės nėra aptarnavimo prekės.</li>
+<li>Prekės nėra&#39; aptarnavimo prekės.</li>
 <li>Prekės turi prekės kodą.</li>
 <li>Prekės turi svorį.</li>
 <li>Prekės turi papildomų vienetų.</li>
@@ -225,7 +227,7 @@ Norėdami nustatyti toliau pateiktos lentelės parametrus, naudokite **Užsienio
 </tr>
 <tr class="even">
 <td>Agento kontaktinė informacija</td>
-<td>Nurodykite agento vardą ir pavardę, adresą, mokesčių lengvatos numerį, telefono numerį ir fakso numerį.</td>
+<td>Nurodykite agento&#39; vardą ir pavardę, adresą, mokesčių lengvatos numerį, telefono numerį ir fakso numerį.</td>
 </tr>
 <tr class="odd">
 <td>Šalies / regiono ypatybės</td>

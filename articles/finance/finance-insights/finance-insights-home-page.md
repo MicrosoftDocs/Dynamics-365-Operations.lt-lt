@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9d7eca35d6e5ce8f434f923fef69a6d13a8ac1b3
-ms.sourcegitcommit: c9f55e64416d0bbedfdadafb00e4181921ad0f37
+ms.openlocfilehash: f0d709ef81fd43c009bf36aba2d4be949b1a737c
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261915"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338234"
 ---
 # <a name="finance-insights-home-page-preview"></a>„Finance Insights” pagrindinis puslapis (peržiūra)
 
@@ -29,9 +31,8 @@ ms.locfileid: "6261915"
 
 „Finance Insights” suteikia konfigūruojamus ir išplečiamus modelius, kad galėtumėte tiksliai ir sumaniai prognozuoti savo įmonės grynųjų pinigų srautus, numatyti, kada gausite mokėjimą už neapmokėtas gautinas sumas ir bus sugeneruotas biudžeto pasiūlymas, kuris gali pagreitinti jūsų biudžeto sudarymo procesą. Visos šios funkcijos paremtos išmaniaisiais mašininio mokymo modeliais. Kai šios naujos galimybės sujungiamos su tiekėjo mokėjimų ir surinkimų automatizavimu, jos suteikia galingą ir pažangią finansinę sistemą, kuri valdo sprendimų priėmimo procesą ir padeda imtis veiksmų siekiant veiksmingai reaguoti į dabartinius ir numatomus verslo iššūkius.
 
-Bandomąją modulio „Finance Insights” peržiūros versiją galima įdiegti Jungtinėse Amerikos Valstijose, Europoje ir Jungtinėje Karalystėje. „Microsoft“ palaipsniui į palaikomų regionų sąrašą įtraukia daugiau regionų.
-
-Peržiūros versijos funkcijos gali ir turi būti įjungtos tik 2 pakopos smėlio dėžės aplinkose. Sąrankos ir dirbtinio intelekto (DI) modelių, sukurtų smėlio dėžės aplinkoje, negalima perkelti į gamybos aplinką. Norėdami gauti daugiau informacijos, žr. [„Microsoft Dynamics 365“ peržiūros versijų papildomos naudojimo sąlygos](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
+> [!NOTE]
+> „Finance Insights” peržiūros versiją galima įdiegti Jungtinėse Amerikos Valstijose, Kanadoje, Jungtinėje Karalystėje, Europoje, Azijos Ramiojo vandenyno srityje, Australijoje ir Naujojoje Zelandijoje. „Microsoft“ palaipsniui į palaikomų regionų sąrašą įtraukia daugiau regionų. Kad būtų galima įgalinti „Finance insights” gamybos aplinkose, pirmiausia gamybos aplinkoje turi būti įgalintos [Eksportavimo į „Data Lake”](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) galimybės.
 
 > [!NOTE]
 > Šis funkcionalumas siūlomas kaip peržiūros versijos funkcijų rinkinys. Atsižvelgiant, kad tai peržiūros funkcija, neturėtumėte gautais mašininio mokymo modeliais pagrįsti savo verslo sprendimų ar biudžeto pasiūlymų. Jūsų naudojimasis šia funkcija valdomas pagal [Papildomas naudojimo sąlygas](https://go.microsoft.com/fwlink/?linkid=2105274) sąlygas.
@@ -46,7 +47,7 @@ Norėdami pateikti paraišką dėl peržiūros versijos programos, užpildykite 
 
 ### <a name="system-requirements"></a>Sistemos reikalavimai
 
-Norint peržiūrėti „Finance Insights”, būtina 2 pakopos smėlio dėžės aplinka (kelių langelių). Daugiau informacijos apie aplinkas ieškokite [aplinkos planavime](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+Norint peržiūrėti „Finance Insights”, būtina 2 pakopos aplinka (kelių langelių). Daugiau informacijos apie aplinkas ieškokite [aplinkos planavime](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 
 ### <a name="version-requirements"></a>Versijos reikalavimai
 
@@ -55,8 +56,6 @@ Norint peržiūrėti „Finance Insights”, būtina 2 pakopos smėlio dėžės 
 ### <a name="historical-data-requirements"></a>Retrospektyvos duomenų reikalavimai
 
 Reikia bent vienerių metų kliento SF, kad būtų galima tinkamai išmokyti mašininio mokymosi modelį, kurį naudoja kliento mokėjimo prognozių funkcija.
-
-Galima naudoti pavyzdinius duomenis demonstracinėms sistemoms, kuriose yra „Contoso“ demonstracinių duomenų rinkinys.
 
 ### <a name="role-and-permission-requirements"></a>Vaidmenų ir teisių reikalavimai
 
@@ -72,7 +71,7 @@ Bus atlikti „Microsoft Dynamics 365 Finance“, „Microsoft Dynamics Lifecycl
 ## <a name="configure-finance-insights"></a>„Finance Insights” konfigūravimas
 
 Turite atlikti keletą konfigūracijos veiksmų, kad galėtumėte naudoti „Finance Insights”. Daugiau informacijos, kaip konfigūruoti šį abonementą, žr. „Finance insights“.
-  - Apie versijas iki 10.0.19: [Konfigūravimas „Finance insights“ versijoms iki 10.0.19](configure-for-fin-insites.md).
+  - Apie versijas iki 10.0.19: [Konfigūravimas „Finance insights“ (peržiūros versija) – versijoms iki 10.0.19](configure-for-fin-insites.md).
   - Versijoms 10.0.20 ir naujesnėms: [Konfigūravimas „Finance Insights“ (peržiūra) - versijoms 10.0.20 ir naujesnėms](configure-for-fin-insites-PubPrvw.md).
 
 ## <a name="create-a-data-integrator-project"></a>Duomenų integratoriaus projekto kūrimas

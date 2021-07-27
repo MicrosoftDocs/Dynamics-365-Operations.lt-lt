@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 613bd4816e2f0c4fbb56cf79779a08c6a09592bd
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: eeb3061f215666d0aeb32094b5d04a9ae6e618f2
+ms.sourcegitcommit: f6050b444e636ba662c00d0443c94a99f8ea0b0d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222617"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "6309670"
 ---
 # <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>„Finance Insights“ konfigūracija, skirta viešai peržiūrai (peržiūra) – 10.0.20 ir vėlesnė versija
 
@@ -33,7 +33,7 @@ ms.locfileid: "6222617"
 Modulyje „Finance Insights” sujungiamos „Microsoft Dynamics 365 Finance“ ir „Dataverse“, „Azure“ bei „AI Builder“ funkcijos, kad jūsų organizacijai būtų suteikiami galingi prognozavimo įrankiai. Šioje temoje paaiškinami kaip konfigūruoti sistemą su „Dynamics 365 Finance“ versija 10.0.20 tam, kad galėtumėte naudoti galimybes prieinamas „Finance Insights“ viešojoje peržiūroje.
 
 > [!NOTE]
-> Šioje temoje aprašyti konfigūracijos veiksmai taikomi tik „Finance“ versijai 10.0.20 arba vėlesnei finansų versijai. Norėdami nustatyti finansų žinių apie 10.0.19 ir ankstesnę versiją,[žr. „Finance Insights“ versijos iki 10.0.18 ir vėlesnės](configure-for-fin-insites.md).
+> Šioje temoje aprašyti konfigūracijos veiksmai taikomi tik „Finance“ versijai 10.0.20 arba vėlesnei finansų versijai. Norėdami nustatyti finansų žinių apie 10.0.19 ir ankstesnę versiją,[žr. „Finance Insights“ versijos iki 10.0.19 ir vėlesnės](configure-for-fin-insites.md).
 
 ## <a name="deploy-finance"></a>Finansų diegimas
 
@@ -748,6 +748,8 @@ Norėdami įdiegti „Finance insights“ priedą, atlikite šiuos veiksmus.
 2. Skyriuje **Aplinkos papildiniai** pasirinkite **Diegti naują papildinį**.
 3. RInkitės **„Finance insights“** priedą.
 4. Sutikite su sąlygomis ir tada pasirinkite **Diegti**.
+
+Papildinio įdiegimas gali užtrukti kelias minutes.
 
 ## <a name="feedback-and-support"></a>Atsiliepimai ir palaikymas
 
