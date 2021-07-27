@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e6c5081f71a18dfac83b7aea950395436b42f50e
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: e8a3782e5beb7d16accc0a56447d5db1f1376dd8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881041"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350189"
 ---
 # <a name="microsoft-office-style-user-interface-in-business-document-management"></a>„Microsoft Office” stiliaus vartotojo sąsaja Verslo dokumentų valdyme
 
@@ -51,18 +51,18 @@ Atlikite tolesnius veiksmus, norėdami įjungti šią funkciją visiems juridini
 
 1. Darbo srityje **Verslo dokumentų valdymas** pasirinkite **Naujas dokumentas**.
 
-    ![Darbo sritis Verslo dokumentų valdymas](./media/BDM_overview_new_template1.png)
+    ![Darbo sritis Verslo dokumentų valdymas.](./media/BDM_overview_new_template1.png)
 
 2. Skirtuke **Pasirinkti** pasirinkite dokumentą, kurį norite naudoti kaip šabloną, o tada pasirinkite **Kurti dokumentą**.
 
-    ![Verslo dokumentų dialogo langas](./media/BDM_overview_new_template2.png)
+    ![Verslo dokumentų dialogo langas.](./media/BDM_overview_new_template2.png)
 
 3. Naujo dialogo lango lauke **Pavadinimas** pakeiskite pavadinimą į norimą pavadinimą. Pavadinimo tekstas naudojamas automatiškai sukurtai naujai ER formato konfigūracijai pavadinti. Šios konfigūracijos (**Kliento laisvos formos sąskaitos-faktūros ataskaitos (GER) kopija**) juodraščio versijoje bus suredaguotas šablonas ir ji bus naudojama vykdant šį ER formatą, skirtą dabartiniam vartotojui. Originalus šablonas iš pagrindinio ER formato konfigūracijos bus naudojamas visiems kitiems vartotojams skirtam ER formatui vykdyti.
 4. Lauke **Pavadinimas** pakeiskite redaguojamo šablono, kuris bus automatiškai sukurtas, pirmo pataisymo pavadinimą.
 5. Lauke **Komentaras** atnaujinkite redaguojamo šablono, kuris bus automatiškai sukurtas, pataisymo pastabas.
 6. Pasirinkite **Gerai**, kad patvirtintumėte redagavimo proceso pradžią.
 
-    ![Dokumento kūrimo dialogo langas](./media/BDM_overview_new_template3.png)
+    ![Dokumento kūrimo dialogo langas.](./media/BDM_overview_new_template3.png)
 
 Paspaudus mygtuką **Naujas dokumentas**, sukuriamas ir redaguojamas šablonas ER formato konfigūracijoje, kurią pateikia kitas teikėjas. Šiame pavyzdyje teikėjas yra „Microsoft“. Pasirinkę **Naujas dokumentas**, peržiūrėsite visus šablonus, priklausančius dabartiniam ir kitiems teikėjams. Pasirinktas šablonas atidaromas ir jį galima redaguoti. Redaguotas šablonas bus išsaugotas naujoje automatiškai sugeneruotoje ER formato konfigūracijoje.
 
@@ -71,16 +71,16 @@ Norėdami pateikti reikiamą informaciją prieš šablono įkėlimą, atlikite �
 
 1. Darbo srityje **Verslo dokumentų valdymas** pasirinkite **Naujas dokumentas**.
 
-    ![Darbo sritis Verslo dokumentų valdymas](./media/BDM_overview_new_template1.png)
+    ![Darbo sritis Verslo dokumentų valdymas.](./media/BDM_overview_new_template1.png)
     
 2. Puslapio **Kurti naują šabloną** skirtuko **Įkelti** skirtuke **Šablonas** pasirinkite **Naršyti**, kad surastumėte ir pasirinktumėte „Excel” failą, kurį norite naudoti kaip šabloną. Skyriaus **Šablono** laukai **Pavadinimas** ir **Aprašas** yra užpildomi automatiškai. Jie nurodo naujos, automatiškai kuriamos, ER formato konfigūracijos pavadinimą ir aprašą. Prireikus galite redaguoti šiuos laukus.
 3. Skyriaus **Dokumento tipas** lauke **Pavadinimas** nurodykite verslo dokumento tipą. Ši reikšmė bus naudojama ieškoti tinkamam duomenų šaltiniui (tai yra, ER modelio konfigūracijai).
 
-    ![Šablono skirtukas](./media/BDM_overview_new_UI_import_21.jpg)
+    ![Šablono skirtukas.](./media/BDM_overview_new_UI_import_21.jpg)
 
 4. Skirtuko **Duomenų šaltinis** „FastTab” **Filtras** pasirinkite **Taikyti filtrą**. Skyriaus **Duomenų šaltinio** laukas **Pavadinimas** yra užpildomas automatiškai arba galite jo reikšmę pasirinkti rankiniu būdu. Galite naudoti filtrą atitinkamam duomenų šaltinio vardui ieškoti pagal vardą, aprašą, šalies/regiono kodą ir verslo dokumento tipą.
 
-    ![Duomenų šaltinio skirtukas](./media/BDM_overview_new_UI_import_31.jpg)
+    ![Duomenų šaltinio skirtukas.](./media/BDM_overview_new_UI_import_31.jpg)
     
     > [!NOTE]
     > „FastTab” **Filtruoti** yra naudojamas ieškoti tinkamam duomenų šaltiniui (tai yra, ER modelio konfigūracijai). Galite redaguoti visus filtro laukus, kad rastumėte tinkamiausią duomenų šaltinį įkeliamam dokumentui.
@@ -89,7 +89,7 @@ Norėdami pateikti reikiamą informaciją prieš šablono įkėlimą, atlikite �
     
 5. Skirtuke **Susiejimas** pasirinkite **Automatiškai aptikti**. Laukas **Šakninis aprašas** yra užpildomas automatiškai arba galite jo reikšmę pasirinkti rankiniu būdu. Šiame skirtuke rodomas galutinis šablono ir modelio elementų susiejimas.
 
-    ![Susiejimo skirtukas](./media/BDM_overview_new_UI_import_41.jpg)
+    ![Susiejimo skirtukas.](./media/BDM_overview_new_UI_import_41.jpg)
     
    > [!NOTE]
    > Susiejimas skyriuje **Šablono struktūra** naudoja duomenų šaltinio žymų arba aprašų vartotojo kalba, esančių langelio pavadinime šablone, visišką atitiktį.
@@ -102,11 +102,11 @@ Jeigu nėra tiekėjo Elektroninėse ataskaitose, jį galite sukurti. Jeigu nėra
 
 - Norėdami sukurti teikėją, pakeiskite teikėjo pavadinimą lauke **Pavadinimas**, atnaujinkite naujo teikėjo internetinį adresą lauke **Internetinis adresas** ir pasirinkite **Gerai** patvirtinimui.
 
-    ![Naujo BDM teikėjo kūrimas](./media/bdm_create_provider.png)
+    ![Naujo BDM teikėjo kūrimas.](./media/bdm_create_provider.png)
     
 - Norėdami aktyvuoti esamą teikėją, pasirinkite teikėjo pavadinimą lauke **Konfigūracijos teikėjas** ir pasirinkite **Gerai**, kad nustatytumėte teikėją aktyviu.
 
-    ![BDM teikėjo aktyvavimas](./media/bdm_choose_provider.png)
+    ![BDM teikėjo aktyvavimas.](./media/bdm_choose_provider.png)
 
 > [!NOTE]
 > Kiekvienas BDM šablonas kreipiasi į teikėją kaip į konfigūracijos autorių. Štai todėl šablonui reikia aktyvaus teikėjo.

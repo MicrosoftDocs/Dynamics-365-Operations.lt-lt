@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 0af3e1d589fd99cc722d8aedeb9596388a9e2e8c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 629662d274d88d59c9b73a9d6b0d5c178331fe73
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018291"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351919"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>Kaip sukonfigūruoti, kad būtų naudojami ER formatų parametrai, nurodyti kiekvienam juridiniam subjektui
 
@@ -78,17 +78,17 @@ Tada prisijunkite prie savo RCS egzemplioriaus.
 
     ER formatas **Parametrizuotų iškvietų mokymo formatas** skirtas tam, kad būtų galima generuoti XML formato mokesčių išrašą, kuriame būtų pateikiami keli apmokestinimo lygiai (įprastas, sumažintas ir joks). Kiekviename lygyje pateikiamas skirtingas informacijos kiekis.
 
-    ![Keli ER formato lygiai; formatas, skirtas sužinoti parametruotus skambučius](./media/RCS-AppSpecParms-ReviewFormat.PNG)
+    ![Keli ER formato lygiai; formatas, skirtas sužinoti parametruotus skambučius.](./media/RCS-AppSpecParms-ReviewFormat.PNG)
 
 5.  Skirtuke **Susiejimas** išplėskite elementus **Modelis**, **Duomenys** ir **Suvestinė**.
 
     Duomenų šaltinis **Model.Data.Summary** pateikia mokesčių operacijų sąrašą. Šių operacijų suvestinė pateikiama pagal mokesčio kodą. Naudojant šį duomenų šaltinį, apskaičiuotas laukas **Model.Data.Summary.Level** sukonfigūruotas taip, kad jame būtų pateikiamas kiekvieno apibendrinto įrašo apmokestinimo lygio kodas. Pasirinkus mokesčio kodą, kurį vykdymo metu galima gauti iš duomenų šaltinio **Model.Data.Summary**, apskaičiuotame lauke kaip tekstinė reikšmė pateikiamas apmokestinimo lygio kodas (**Įprastas**, **Sumažintas**, **Joks** arba **Kita**). Apskaičiuotas laukas **Model.Data.Summary.Level** naudojamas norint filtruoti duomenų šaltinio **Model.Data.Summary** įrašus ir filtruotus duomenis įvesti kiekviename XML elemente, vaizduojančiame apmokestinimo lygį – naudojami laukai **Model.Data2.Level1**, **Model.Data2.Level2** ir **Model.Data2.Level3**.
 
-    ![Duomenų šaltinis Model.Data.Summary pateikia mokesčių operacijų sąrašą](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
+    ![Duomenų šaltinis Model.Data.Summary pateikia mokesčių operacijų sąrašą.](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
 
     Apskaičiuotas laukas **Model.Data.Summary.Level** sukonfigūruotas taip, kad jame būtų ER reiškinys. Mokesčių kodai (**„VAT19”**, **„InVAT19”**, **„VAT7”**, **„InVAT7”**, **„THIRD”** ir **„InVAT0”**) yra užprogramuoti į šią konfigūraciją. Todėl šis ER formatas priklauso nuo juridinio subjekto, kuriam šie mokesčių kodai buvo sukonfigūruoti.
 
-    ![Model.Data.Summary.Level apskaičiuotas laukas su užkoduotais mokesčių kodais](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
+    ![Model.Data.Summary.Level apskaičiuotas laukas su užkoduotais mokesčių kodais.](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
 
     Norėdami kiekvienam juridiniam subjektui įjungti skirtingą mokesčių kodų rinkinį, turite atlikti tolesnius veiksmus.
 
@@ -128,7 +128,7 @@ Toliau įtrauksite naują ER formatų išvardijimą. Šio formato išvardijimo r
 12. Dar kartą pasirinkite **Įtraukti**.
 13. Lauke **Pavadinimas** įveskite **Kita**.
 
-    ![Naujas įrašas formatų išvardijimo puslapyje](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
+    ![Naujas įrašas formatų išvardijimo puslapyje.](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
 
     Kadangi nurodydami nuo juridinio subjekto priklausančius mokesčių kodų rinkinius įmonių vartotojai gali naudoti skirtingas kalbas, rekomenduojame šio išvardijimo reikšmes išversti į kalbas, kurios yra sukonfigūruotos kaip pageidaujamos tų vartotojų kalbos programoje „Finance“.
 
@@ -141,7 +141,7 @@ Toliau įtrauksite naują ER formatų išvardijimą. Šio formato išvardijimo r
 20. Lauke **Išverstas tekstas** įveskite **Apmokestinimo nėra**.
 21. Pasirinkite **Versti**.
 
-    ![Teksto vertimo skaidrė](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
+    ![Teksto vertimo skaidrė.](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
 
 22. Pasirinkite **Įrašyti**.
 23. Uždarykite puslapį **Formatų išvardijimai**.
@@ -168,13 +168,13 @@ Toliau įtrauksite naują duomenų šaltinį ir nurodysite, kaip įmonių vartot
 10. Pasirinkite elementą **Model.Data.Tax.Code**.
 11. Pasirinkite mygtuką **Įtraukti** (rodyklę dešinėn).
 
-    ![Stulpelių skaidrė](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
+    ![Stulpelių skaidrė.](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
 
     Ką tik nustatėte, kad kiekvienai taisyklei, šiame duomenų šaltinyje nurodytai apmokestinimo lygiui atpažinti, įmonės vartotojas kaip sąlygą turi pasirinkti vieną iš mokesčių kodų. Mokesčių kodų, kuriuos įmonės vartotojas gali pasirinkti, sąrašas bus pateikiamas duomenų šaltinyje **Model.Data.Tax**. Kadangi šiame duomenų šaltinyje yra laukas **Pavadinimas**, įmonės vartotojui pateikiamoje peržvalgoje bus rodomas kiekvienos mokesčio kodo reikšmės pavadinimas.
     
 12. Pasirinkite **Gerai**.
 
-    ![Peržvalgos konstruktoriaus puslapis](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
+    ![Peržvalgos konstruktoriaus puslapis.](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
 
     Įmonių vartotojai kaip šio duomenų šaltinio įrašus gali įtraukti kelias taisykles. Kiekvienas įrašas bus sunumeruotas pagal eilutės kodą. Taisyklės bus vertinamos eilutės numerio didėjimo tvarka.
 
@@ -188,13 +188,13 @@ Toliau įtrauksite naują duomenų šaltinį ir nurodysite, kaip įmonių vartot
 
     Atkreipkite dėmesį, kad įtraukėte naują duomenų šaltinį, kuris apmokestinimo lygį pateiks kaip formatų išvardijimo **Apmokestinimo lygių sąrašas** reikšmę bet kuriam mokesčio kodui, į duomenų šaltinį perduodamam kaip duomenų tipo **Eilutė** parametro **Kodas** argumentui.
     
-    ![Formato kūrimo puslapis su nauju duomenų šaltiniu](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
+    ![Formato kūrimo puslapis su nauju duomenų šaltiniu.](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
 
     Sukonfigūruotų taisyklių vertinimas priklauso nuo laukų, kurie buvo pasirinkti tų taisyklių sąlygoms apibrėžti, duomenų tipo. Pasirinkus lauką, kuris sukonfigūruotas kaip duomenų tipo **Skaitinis** arba **Data** laukas, kriterijai skirsis nuo anksčiau aprašytų duomenų tipo **Eilutė** kriterijų. Naudojant laukus **Skaitinis** ir **Data**, taisyklę reikia nurodyti kaip reikšmių intervalą. Tada taisyklės sąlyga bus laikoma įvykdyta, kai į duomenų šaltinį perduota reikšmė bus sukonfigūruotame intervale.
     
     Tolesnėje iliustracijoje pateikiamas šio tipo sąrankos pavyzdys. Be duomenų tipo **Eilutė** lauko **Model.Data.Tax.Code** peržvalgos duomenų šaltinio sąlygoms nurodyti taip pat naudojamas duomenų tipo **Realus** laukas **Model.Tax.Summary.Base**.
     
-    ![Peržvalgos konstruktoriaus puslapis su papildomais stulpeliais](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
+    ![Peržvalgos konstruktoriaus puslapis su papildomais stulpeliais.](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
 
     Kadangi šiam peržvalgos duomenų šaltiniui pasirinkti laukai **Model.Data.Tax.Code** ir **Model.Tax.Summary.Base**, kiekviena šio duomenų šaltinio taisyklė bus konfigūruojama taip, kaip nurodyta toliau.
     
@@ -223,7 +223,7 @@ Kadangi nurodydami nuo juridinio subjekto priklausančius mokesčių kodų rinki
 9.  Pasirinkite **Versti**.
 10. Pasirinkite **Gerai**.
 
-    ![Duomenų šaltinio ypatybės išklydus](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
+    ![Duomenų šaltinio ypatybės išklydus.](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
 
 ### <a name="add-a-new-field-to-consume-the-configured-lookup"></a>Naujo lauko sukonfigūruotai peržvalgai naudoti įtraukimas
 
@@ -236,12 +236,12 @@ Kadangi nurodydami nuo juridinio subjekto priklausančius mokesčių kodų rinki
 7.  **Lauke Formulė** įveskite **Model.Selector(Model.Data.Summary.Code)**.
 8.  Pasirinkite **Įrašyti**.
 
-    ![Model.Selector(Model.Data.Summary.Code) įtraukimas į formulės konstruktoriaus puslapį](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
+    ![Model.Selector(Model.Data.Summary.Code) įtraukimas į formulės konstruktoriaus puslapį.](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
 
 9.  Uždarykite puslapį **Formulės rengyklė**.
 10. Pasirinkite **Gerai**.
 
-    ![Formato kūrimo puslapis su nauja įtraukta formule](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
+    ![Formato kūrimo puslapis su nauja įtraukta formule.](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
 
     Atkreipkite dėmesį, kad jūsų įtrauktas apskaičiuotas laukas **LevelByLookup** apmokestinimo lygį pateiks kaip kiekvieno apibendrinto mokesčių operacijų įrašo formatų išvardijimo **Apmokestinimo lygių sąrašas** reikšmę. Įrašo mokesčio kodas bus perduotas į peržvalgos duomenų šaltinį **Model.Selector** ir šio duomenų šaltinio taisyklių rinkinys bus naudojamas tinkamam apmokestinimo lygiui parinkti.
 
@@ -269,7 +269,7 @@ Toliau modifikuosite esamą apskaičiuotą lauką, kad jis, naudodamas sukonfig�
 
 4.  Lauke **Formulė** įveskite **CASE(@.LevelByLookup, TaxationLevel.'Regular taxation', "Regular", TaxationLevel.'Reduced taxation', "Reduced", TaxationLevel.'No taxation', "None", "Other")**.
 
-    ![ER operacijų dizaino įrankio puslapis](./media/RCS-AppSpecParms-ConfigureFormat-ChangeLookupFld.PNG)
+    ![ER operacijų dizaino įrankio puslapis.](./media/RCS-AppSpecParms-ConfigureFormat-ChangeLookupFld.PNG)
     
     Atkreipkite dėmesį, kad lauko **„Model.Data.Summary.Level”** išraiška dabar grąžins apmokestinimo lygį pagal dabartinio įrašo mokesčio kodą ir taisyklių rinkinį, kurį įmonės vartotojas sukonfigūruoja peržvalgos duomenų šaltinyje **„Model.Data.Selector”**.
     

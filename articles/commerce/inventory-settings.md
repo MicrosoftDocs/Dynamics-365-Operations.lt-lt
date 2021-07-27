@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3da447c298993794afa49a0fbaddb1c21cf6231a
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 46e59c8253ae5e4de54d56a45a142194ce38cf54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271310"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357863"
 ---
 # <a name="apply-inventory-settings"></a>Atsargų parametrų taikymas
 
@@ -68,19 +68,19 @@ Pirkimo langelis, pageidavimų sąrašas, parduotuvės parinkiklis, krepšelis i
 
 Šiame pavyzdyje PDP rodo atsargų („Turima") pranešimą.
 
-![PDP modulio su atsargų pranešimu, pavyzdys](./media/pdp-InStock.png)
+![PDP modulio su atsargų pranešimu, pavyzdys.](./media/pdp-InStock.png)
 
 Šiame pavyzdyje PDP rodo atsargų („Pasibaigė") pranešimą.
 
-![PDP modulio su pasibaigusių atsargų pranešimu, pavyzdys](./media/pdp-outofstock.png)
+![PDP modulio su pasibaigusių atsargų pranešimu, pavyzdys.](./media/pdp-outofstock.png)
 
 Šiame pavyzdyje vežimėlis rodo atsargų („Turima") pranešimą.
 
-![Krepšelio modulio su atsargų pranešimu, pavyzdys](./media/cart-instock.png)
+![Krepšelio modulio su atsargų pranešimu, pavyzdys.](./media/cart-instock.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Modulių bibliotekos apžvalga](starter-kit-overview.md)
+[Modulių bibliotekos peržiūra](starter-kit-overview.md)
 
 [Atsargų buferių ir atsargų lygių konfigūravimas](inventory-buffers-levels.md)
 

@@ -9,16 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 87bb31d6456356342773f38699a412aa72ea458e
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 4e8d4f28c42f44dc01c92e51b5e9a69fe7f40fa0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193910"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345385"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Finansinių konsolidacijų ir valiutos konvertavimo apžvalga
 
@@ -66,13 +67,13 @@ Toliau pateikti keli konsolidavimo scenarijai, palaikomi konsoliduojant tinkle.
 ## <a name="legal-entity-setup"></a>Juridinio subjekto sąranka
 Prieš vykdydami konsolidavimą turite nustatyti juridinį subjektą. Konsolidavimą galite vykdyti tiek kartų, kiek reikia, ir visi duomenys bus konvertuoti iš pirminės įmonės apskaitos valiutos į nurodytą konsolidavimo įmonės valiutą. Todėl, jei naudojant toliau nurodytą organizacijos struktūrą pirmiausia reikia konvertuoti visų Šiaurės Amerikos įmonių duomenis į JAV dolerius (USD), o tada – į eurus (EUR), pirminės įmonės valiutą, reikia turėti bent dvi konsolidavimo įmones.
 
-![Organizacijos struktūra](./media/organizational-structure.png "Organizacijos struktūra")
+![Organizacijos struktūra.](./media/organizational-structure.png "Organizacijos struktūra")
 
 Atsižvelgiant į toliau nurodytą organizacijos struktūrą, privalote turėti Šiaurės Amerikos konsolidavimo juridinį subjektą, nes konsolidavimo metu visada konsoliduojama iš pirminės įmonės apskaitos valiutos į konsolidavimo įmonės valiutą. Pateiktame pavyzdyje: jei visos įmonės yra įtrauktos į vieną konsolidavimą, Meksikos filialo duomenys bus konvertuoti iš Meksikos peso (MXN) į EUR, o ne iš MXN į USD ir tada – į EUR.
 
 Kurdami juridinį subjektą galite nurodyti, ar įmonė naudojama konsolidavimo ir pašalinimo procesų metu, ar tik vieno iš šių procesų metu. Tolesnėje iliustracijoje įmonė naudojama abiejuose procesuose. Atkreipkite dėmesį, kad negalite registruoti kasdienių žurnalų konsoliduotoje įmonėje, bet galite juos registruoti pašalinimo įmonėje. Todėl galbūt pageidausite turėti atskirą pašalinimo įmonę.
 
-![Juridinis objektas, kuris naudojamas tiek konsolidavimui, tiek pašalinimui](./media/sep-elimination-company.png "Juridinis objektas, kuris naudojamas tiek konsolidavimui, tiek pašalinimui")
+![Juridinis objektas, kuris naudojamas tiek konsolidavimui, tiek pašalinimui.](./media/sep-elimination-company.png "Juridinis objektas, kuris naudojamas tiek konsolidavimui, tiek pašalinimui")
 
 ## <a name="main-accounts-and-consolidation-account-groups"></a>Pagrindinės sąskaitos ir konsolidavimo sąskaitų grupės
 Turite pasirinkti, kaip norite konsoliduoti sąskaitų planą. Konsolidavimo proceso metu galite naudoti tris pagrindinės sąskaitos konsolidavimo parinktis.
@@ -81,11 +82,11 @@ Pirmoji parinktis yra pirminės įmonės pagrindinės sąskaitos naudojimas. Ši
 
 Antroji parinktis yra nurodyti numatytąją konsolidavimo sąskaitą puslapyje **Pagrindinė sąskaita**. Sąskaita, tada bus galima susieti su konsolidavimo sąskaita. Ši parinktis gali būti naudinga, kai turite skirtingus sąskaitų planus arba turite susieti planu, kurį nurodo būstinė.
 
-![Numatytoji konsolidavimo sąskaita, nurodyta pagrindinių sąskaitų puslapyje](./media/main-accounts.png "Numatytoji konsolidavimo sąskaita, nurodyta pagrindinių sąskaitų puslapyje")
+![Numatytoji konsolidavimo sąskaita, nurodyta pagrindinių sąskaitų puslapyje.](./media/main-accounts.png "Numatytoji konsolidavimo sąskaita, nurodyta pagrindinių sąskaitų puslapyje")
 
 Trečioji parinktis – naudoti konsolidavimo sąskaitų grupes. Galite nurodyti tiek konsolidavimo sąskaitų grupių, kaip jums reikia. Tada puslapyje **Papildomos konsolidavimo sąskaitos** tiesiog susiekite sąskaitų plano pagrindinę sąskaitą su sąskaita, kuri turi būti toje grupėje.
 
-![Papildomų konsolidavimo sąskaitų puslapio susiejimas](./media/additional-consolidation-accounts.png "Papildomų konsolidavimo sąskaitų puslapio susiejimas")
+![Papildomų konsolidavimo sąskaitų puslapio susiejimas.](./media/additional-consolidation-accounts.png "Papildomų konsolidavimo sąskaitų puslapio susiejimas")
 
 ## <a name="consolidating-online"></a>Konsolidavimas tinkle
 Norėdami sužinoti, kaip įvesti konsolidavimo informaciją internete, žr. [Internetinis finansinis konsolidavimas](./consolidate-online.md).
@@ -97,7 +98,7 @@ Norėdami peržiūrėti konsolidavimo rezultatus, turite rinktis iš kelių pari
 - Peržiūrėkite sąrašo puslapį **Bandomasis balansas** konsolidavimo įmonėje.
 - Puslapio **Konsolidavimas** konsolidavimo operacijų sąraše peržiūrėkite pagal datą sukuriamus balansus, skirtus kiekvienai pirminei įmonei ir kiekvienam laikotarpiui.
 
-    ![Konsolidavimo operacijos konsolidavimų puslapyje](./media/managing-consolidation-transactions.png "Konsolidavimo operacijos konsolidavimų puslapyje")
+    ![Konsolidavimo operacijos konsolidavimų puslapyje.](./media/managing-consolidation-transactions.png "Konsolidavimo operacijos konsolidavimų puslapyje")
 
 Norėdami vykdyti konsolidavimą dar kartą, galite tiesiog apdoroti konsolidaciją. Taip pat galite pirmiausia pasirinkti **Pašalinti operacijas** puslapyje **Konsolidavimas**.
 Tuo atveju, konsoliduotos sąskaitos balansai nėra tikslūs, šie balansai gali būti koreguojami naudojant **Uždarymo laikotarpio koregavimų** puslapį.
@@ -118,7 +119,7 @@ Pašalinimo sąranką galima rasti modulio **Konsolidavimas** srityje **Sąranka
 
 Jei reikia, galite nustatyti pašalinimo taisyklės įsigaliojimo datą ir galiojimo pabaigos datą. Turite nustatyti parinkties **Aktyvus** reikšmę **Taip**, jei norite, kad pašalinimo taisyklę būtų galima naudoti pašalinimo pasiūlymo proceso metu. Pasirinkite žurnalo, kurio žurnalo tipas **Pašalinimas**, pavadinimą.
 
-![Pagrindinės pašalinimo taisyklės ypatybės](./media/ledger-elimination-rule-journal.png "Pagrindinės pašalinimo taisyklės ypatybės")
+![Pagrindinės pašalinimo taisyklės ypatybės.](./media/ledger-elimination-rule-journal.png "Pagrindinės pašalinimo taisyklės ypatybės")
 
 Nurodę pagrindines ypatybes, nustatykite pačias apdorojimo taisykles pasirinkdami **Eilutės**. Galimos dvi šalinimo parinktys: grynojo pokyčio sumos pašalinimas arba fiksuotos sumos nustatymas.
 
@@ -126,7 +127,7 @@ Pasirinkite pirmines sąskaitas. Žvaigždutę (\*) galite naudoti kaip universa
 
 Pasirinkę pirmines sąskaitas, naudokite lauką **Sąskaitos specifikacija**, kad nurodytumėte sąskaitą, naudojamą paskirties įmonėje. Pasirinkite **Pirminė**, jei norite naudoti tą pačią pagrindinę sąskaitą, kuri nurodyta pirminėje sąskaitoje. Jei pasirinksite **Nurodyta vartotojo**, turite nurodyti paskirties sąskaitą.
 
-![Didžiosios knygos pašalinimo taisyklės eilutės puslapis](./media/ledger-elimination-rule-line.png "Didžiosios knygos pašalinimo taisyklės eilutės puslapis")
+![Didžiosios knygos pašalinimo taisyklės eilutės puslapis.](./media/ledger-elimination-rule-line.png "Didžiosios knygos pašalinimo taisyklės eilutės puslapis")
 
 Laukas **Dimensijos specifikacija** naudojamas taip, kaip laukas **Sąskaitos specifikacija**. Pasirinkite **Pirminė**, jei norite naudoti tas pačias dimensijas paskirties įmonėje ir pirminėje įmonėje. Jei pasirinksite **Nurodyta vartotojo**, turėsite nurodyti paskirties įmonės dimensijas, pasirinkdami **Paskirties dimensijos**. Tada pasirinkite pirmines dimensijas ir finansines dimensijas bei vertes, kurios naudojamos kaip pašalinimo šaltinis.
 

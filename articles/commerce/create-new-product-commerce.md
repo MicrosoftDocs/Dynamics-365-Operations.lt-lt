@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 44a58da0be280b06d96cdeae6929042bb50ed4a6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 057acf50f16bef3eea55e51571cb6f49b79c5ab1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795720"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352427"
 ---
 # <a name="create-a-new-product-in-commerce"></a>Naujo produkto kūrimas „Commerce“
 
@@ -49,13 +49,13 @@ Produktą pirmiausia apibrėžia produkto numeris, pavadinimas ir aprašas. Tač
 
 Toliau pateiktame vaizde parodytas įtraukiamas produkto pavyzdys.
 
-![Produkto kūrimas](media/create-new-product.png)
+![Produkto kūrimas.](media/create-new-product.png)
 
 Įtraukus produktą, galima nustatyti jo papildomus duomenis, pvz., **Produkto aprašas**, **Variantų grupės**, **Dimensijų grupės**, **Produkto atributai** ir **Susiję produktai**.
 
 Toliau pateiktame vaizde parodyta papildoma produkto informacija.
 
-![Produkto informacija](media/create-new-product-2.png)
+![Produkto informacija.](media/create-new-product-2.png)
 
 ### <a name="create-product-variants"></a>Kurti produkto variantus
 
@@ -74,23 +74,23 @@ Norint parduoti produktą, jis pirmiausia turi būti pateiktas juridiniam subjek
 
 1. Produkto puslapyje pasirinkite **Išleisti produktus**.
 
-    ![Produkto išleidimas](media/create-new-product-3.png)
+    ![Išleisti produktą.](media/create-new-product-3.png)
 
 1. Pasirinkite išleistiną produktą, tada pasirinkite **Toliau**.
 
-    ![Išleistino produkto pasirinkimas](media/create-new-product-4.png)
+    ![Išleistino produkto pasirinkimas.](media/create-new-product-4.png)
 
 1. Pasirinkite išleistinų produkto variantų rinkinį, tada pasirinkite **Toliau**.
 
-    ![Išleistinų variantų pasirinkimas](media/create-new-product-5.png)
+    ![Išleistinų variantų pasirinkimas.](media/create-new-product-5.png)
 
 1. Pasirinkite juridinį subjektą ir pasirinkite **Toliau**.
 
-    ![Pasirinkite juridinį subjektą](media/create-new-product-6.png)
+    ![Pasirinkite juridinį subjektą.](media/create-new-product-6.png)
 
 1. Pasirinkite **Baigti**.
 
-    ![Produkto išleidimo užbaigimas](media/create-new-product-7.png)
+    ![Produkto išleidimo užbaigimas.](media/create-new-product-7.png)
 
 ## <a name="configure-a-released-product"></a>Išleisto produkto konfigūravimas
 
@@ -105,11 +105,11 @@ Išleidus produktą, reikės jį papildomai konfigūruoti, įskaitant produkto k
 
 Toliau pateiktame vaizde parodytas išleisto produkto konfigūracijos pavyzdys.
 
-![Išleisto produkto konfigūravimas](media/create-new-product-8.png)
+![Išleisto produkto konfigūravimas.](media/create-new-product-8.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Juridinių subjektų kūrimas](channels-legal-entities.md)
+[Kurti juridinius subjektus](channels-legal-entities.md)
 
 [Variantų grupės kūrimas](create-variant-group.md) 
 

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: c34410a8c817de9fed350bf2cd2dd918a37c230f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 0cd19f218e9fa05cd23c52fdf9bbdac6ad82a23b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795362"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357719"
 ---
 # <a name="social-share-module"></a>Bendrinimo socialiniuose tinkluose modulis
 
@@ -36,11 +36,11 @@ Kiekviena socialinės medijos platforma gali sekti slapukus, todėl šis modulis
 
 Toliau pateiktoje iliustracijoje pabrėžiamas „Social Share” modulio, naudojamo produkto informacijos puslapyje, pavyzdys.
 
-![„Social Share” modulio pavyzdys](./media/ecommerce-socialshare.png)
+![„Social Share” modulio pavyzdys.](./media/ecommerce-socialshare.png)
 
 ## <a name="social-share-module-properties"></a>„Social Share” modulio ypatybės
 
-| Ypatybės pavadinimas             | Reikšmė                 | aprašymas |
+| Ypatybės pavadinimas             | Reikšmė                 | Aprašas |
 |---------------------------|-----------------------|-------------|
 | Antraštė                  | Tekstas | Ši ypatybė nurodo modulio antraštę. |
 | Padėtis | **Vertikali** ar **Horizontali**  | Ši ypatybė apibrėžia socialinės medijos elementų maketo padėtį. |

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 46e8fba0c1269aa8b81e0df8d415fe11b2307924
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 3b042374179de7aa5bbff73719cbe8546920132e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897313"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360693"
 ---
 # <a name="financial-dimensions-and-posting"></a>Finansinės dimensijos ir registravimas 
 
@@ -71,29 +71,29 @@ Numatytosios dimensijos gaunamos iš įvairių vietų, pagrindinius pvz., pagrin
 
 Šioje iliustracijoje parodyta fiksuota numatytoji dimensija, kuri nustatyta pagrindinėje sąskaitoje 401100.
 
-[![Numatytosios finansinės dimensijos](./media/default-dimensions.png)](./media/default-dimensions.png)
+[![Numatytosios finansinės dimensijos.](./media/default-dimensions.png)](./media/default-dimensions.png)
 
 Šiame pavyzdyje įvesime bendrąjį žurnalą, kuriame padalinio dimensija nustatyta naudoti numatytąją vertę **023** (operacijos). Įvesime ir užregistruosime DK sąskaitą. Tolesnėje iliustracijoje parodyta numatytoji finansinė dimensija didžiosios knygos antraštėje.
 
-[![Pagrindiniai žurnalai](./media/general-journal.png)](./media/general-journal.png)
+[![Pagrindiniai žurnalai.](./media/general-journal.png)](./media/general-journal.png)
 
 Dėl numatytosios dimensijos žurnalo antraštėje padalinys 023 bus taikomas pagal numatytuosius nustatymus pardavimo sąskaitos eilutėje. Tolesnėje iliustracijoje pateikta bendrojo žurnalo eilutė, kurioje taikoma **023** numatytosios dimensijos vertė iš antraštės.
 
-[![Žurnalo kvitas](./media/journal-voucher.png)](./media/journal-voucher.png)
+[![Žurnalo kvitas.](./media/journal-voucher.png)](./media/journal-voucher.png)
 
 Tačiau kai eilutė registruojama, taikoma fiksuotoji dimensija ir eilutė registruojama padalinyje 022. Tolesnėje iliustracijoje pateiktas užregistruotas kvitas, kuriame fiksuotoji dimensija taikoma pardavimo sąskaitai.
 
-[![Kvitų operacijos su pritaikyta pastovia dimensija](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![Kvitų operacijos su pritaikyta pastovia dimensija.](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>2 pavyzdys
 
 Šiame pavyzdyje naudojama tokia pati sąranka, kaip pirmajame. Tačiau mes įtrauksime antrąjį komponentą ir naudosime padalino dimensiją kaip balansavimo dimensiją. Tolesnėje iliustracijoje **Padalinys** nustatytas kaip USMF DK balansavimo finansinė dimensija.
 
-[![Iliustracija, rodanti Padalinį kaip balansavimo finansinę dimensiją](./media/ledger.png)](./media/ledger.png)
+[![Iliustracija, rodanti Padalinį kaip balansavimo finansinę dimensiją.](./media/ledger.png)](./media/ledger.png)
 
 Kai naudojama ta pati žurnalo antraštės sąranka ir registruojama ta pati operacija, iš pradžių taikoma fiksuotoji dimensija. Tada taikoma balansavimo logika siekiant padėti užtikrinti, kad kiekvienas padalinys turi subalansuoti įrašą. Tolesnėje iliustracijoje pateiktos kvito operacijos, apimančios balansavimo įrašą pritaikius fiksuotą dimensiją.
 
-[![Kvito operacijos pritaikius balansavimo įrašą](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Kvito operacijos pritaikius balansavimo įrašą.](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>3 pavyzdys
 
@@ -101,11 +101,11 @@ Kai naudojama ta pati žurnalo antraštės sąranka ir registruojama ta pati ope
 
 Šis pavyzdys svarbus dėl pateiktos tvarkos. Sąskaitos struktūra nustatoma įvedus pagrindinę sąskaitą. Jei nurodote sąskaitos struktūros sąranką, sistema gali nustatyti, kad pagrindinė sąskaita, verslo struktūros vienetas ir išlaidų centras nėra aktualūs. Šiuo metu išplėstinė taisyklė nebuvo suaktyvinta, nes fiksuota dimensija žurnalo kvitui taikoma tik registravimo metu pritaikius numatytąsias dimensijas. Tolesnėje iliustracijoje nėra segmento Klientas, nes nebuvo įvykdyti išplėstinės taisyklės kriterijai.
 
-[![DK sąskaita](./media/drop-down.png)](./media/drop-down.png)
+[![DK sąskaita.](./media/drop-down.png)](./media/drop-down.png)
 
 Registravimas nebus sėkmingas, nes fiksuota dimensija buvo pritaikyta proceso pabaigoje. Dimensijos tikrinimas nustato, kad segmentas Klientas būtinas, jeigu pagrindinė sąskaita yra 401100, o padalinys 022. Registravimas negali būti vykdomas dėl tikrinimo klaidos. Tolesnėje iliustracijoje pateiktas pranešimas, rodomas po dimensijos tikrinimo nustačius, kad segmentas Klientas yra būtinas.
 
-[![Pranešimo informacija](./media/message.png)](./media/message.png)
+[![Pranešimo informacija.](./media/message.png)](./media/message.png)
 
 Šiame pavyzdyje būtina perrašyti numatytąją vertę, kad būtų suaktyvinama išplėstinė taisyklė ir būtų galima įvesti segmentą Klientas. Tačiau šis sprendimas ne visada pasiekiamas ir kai kurie vartotojai net nežino apie registravimo taisykles. Todėl svarbu suprasti numatytųjų dimensijų taikymo tvarką nustatant sąskaitų planą.
 

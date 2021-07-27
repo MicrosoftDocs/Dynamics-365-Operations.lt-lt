@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: ec0d683153bd5ab731035159d32881fbdb352d70
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f681018c27afbef8d34c88a518941d45aa9d72df
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023457"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358487"
 ---
 # <a name="attach-tds-tax-codes-to-tds-tax-groups-and-define-the-formula-for-calculating-tds"></a>Pridėti TDS mokesčių kodus prie TDS mokesčių grupių ir nustatyti TDS apskaičiavimo formulę
 
@@ -33,7 +33,7 @@ Norėdami nustatyti TDS mokesčių grupę, pridėti TDS mokesčių kodus ir nust
 
 1. Pasirinkite **Mokestis \> Netiesioginiai mokesčiai \> Išskaitomas mokestis \> Išskaitomo mokesčio grupės**.
 
-    [![Išskaitomo mokesčio grupių puslapis](./media/apac-ind-TDS-29.png)](./media/apac-ind-TDS-29.png)
+    [![Išskaitomo mokesčio grupių puslapis.](./media/apac-ind-TDS-29.png)](./media/apac-ind-TDS-29.png)
 
 2. Norėdami sukurti **TDS** išskaitomo mokesčio grupę, veiksmų srityje pasirinkite Naujas ir įveskite reikiamą informaciją.
 3. Lauke **Mokesčio tipas** pasirinkite **TDS**.
@@ -43,7 +43,7 @@ Norėdami nustatyti TDS mokesčių grupę, pridėti TDS mokesčių kodus ir nust
 7. Norėdami apsaugoti mokesčių grupę nuo skaičiavimo perlaidose, pasirinkite **Netaikoma** žymimą laukelį.
 8. Veiksmų srityje pasirinkite **Konstruktorius** kad atidarytumėte formulės konstruktorių, kad būtų galima nustatyti TDS mokesčių grupės TDS skaičiavimo formulę. Puslapyje **Konstruktorius** puslapyje, skirtuke Mokesčiai rodomi TDS mokesčių kodai, **pasirinkti** TDS mokesčių grupei.
 
-    [![Konstruktoriaus puslapis](./media/apac-ind-TDS-30.png)](./media/apac-ind-TDS-30.png)
+    [![Konstruktoriaus puslapis.](./media/apac-ind-TDS-30.png)](./media/apac-ind-TDS-30.png)
 
 9. Norėdami **sukurti** eilutę, skirtuke Skaičiavimas pasirinkite **Alt+N**. ID **laukas** rodo automatiškai sugeneruotą TDS skaičiavimo prioriteto ID.
 10. Lauke **Mokesčio kodas** pasirinkite TDS mokesčio kodą norėdami nustatyti formulę. Visus TDS mokesčių kodus, pasirinktus TDS mokesčių grupei, galima pasirinkti šiame lauke.

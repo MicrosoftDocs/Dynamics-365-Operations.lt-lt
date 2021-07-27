@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8df8e6204e9c64305387e6aed304142d7f13b33a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6affcc20c2c2e2b8fa9e38cb523e172bb2a79f22
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808333"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349823"
 ---
 # <a name="asset-management-parameters"></a>Turto valdymo parametrai
 
@@ -99,7 +99,7 @@ Toliau pateiktame sąraše aprašyti visis laukai, susiję su vertinimo rezultat
 
 ## <a name="the-document-types-tab"></a>Skirtukas Dokumentų tipai
 
-Pasirinkite dokumentų tipus, kurie turėtų būti pasiekiami kaip spausdinimo priedai, susiję su darbo užsakymo ataskaita. Tai atliekama pasirinkus dokumento tipą dalyje **Pasiekiama** ir pasirinkus ![rodyklę pirmyn](media/15-setup-for-objects.png). Jei norite pašalinti pasirinktą dokumento tipą, pasirinkite dokumento tipą dalyje **Pasirinkta**, tada pasirinkite ![rodyklę atgal](media/16-setup-for-objects.png).
+Pasirinkite dokumentų tipus, kurie turėtų būti pasiekiami kaip spausdinimo priedai, susiję su darbo užsakymo ataskaita. Tai atliekama pasirinkus dokumento tipą dalyje **Pasiekiama** ir pasirinkus ![rodyklę pirmyn.](media/15-setup-for-objects.png). Jei norite pašalinti pasirinktą dokumento tipą, pasirinkite dokumento tipą dalyje **Pasirinkta**, tada pasirinkite ![rodyklę atgal](media/16-setup-for-objects.png).
 
 ## <a name="the-number-sequences-tab"></a>Skirtukas Numeravimas
 

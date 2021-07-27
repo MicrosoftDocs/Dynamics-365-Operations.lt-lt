@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7ed9e62751b6be9fad6de3bf262d37d7977d192
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 2593f3128ec103248e109f3c80f48b9d7a035f54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224104"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355351"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Palaikomi elektroninių ataskaitų formulių sudėtiniai duomenų tipai
 
@@ -43,11 +43,11 @@ Numatytoji klasės vertė *yra* ne **neapibrėžta**.
 
 Ši iliustracija parodo, kaip pridėtas klasės tipo **Sistemos informacija(xInfo)** duomenų šaltinį **Klasės** tipas, kuris yra įtraukiamas į elementą **xInfo** programos klasę ir iškviečia **produkto pavadinimo()** metodą, kad jis gautų esamos programos pavadinimą. Dabartinės programos pavadinimas surenkamas vykdymo metu vykdant ER duomenų modelio programinės įrangos pavadinimo `xInfo.productName` laukui **Software name(SoftwareName)** sukonfigūruotą susiejimą. Susiejimas iškviečia `productName()` metodą **xInfo** progrmaos klasę, kuri rodoma esamo modelio žemėlapyje kaip **Sistemos informacijos (xInfo)** duomenų šaltinis.
 
-[![Klasės šaltinio konfigūravimas puslapyje ER modelio susiejimo kūrimo įrankis](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
+[![Klasės šaltinio konfigūravimas puslapyje ER modelio susiejimo kūrimo įrankis.](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
 
 Šioje iliustracijoje parodyta, kaip ER formatas sukonfigūruotas pateikti programos pavadinimą sugeneruotuose dokumentuose. Laukelis **Software name(SoftwareName)** naudotų duomenų modelio buvo susietas su **eilutės** komponentu, kuris įdėtas pagal ER formato **softwareUsed** XML elementą ER formatu. Taigi, dabartinės programos pavadinimas pateikiamas vykdyklėje į **naudota programinė įranga** XML elementtą sukurtą dokumento XML formatu.
 
-[![Elektroninio siunčiamo dokumento struktūros konfigūravimas ER formato konstruktoriuje](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
+[![Elektroninio siunčiamo dokumento struktūros konfigūravimas ER formato konstruktoriuje.](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
 
 ## <a name="container"></a><a name="container"></a>Konteineris
 
@@ -60,7 +60,7 @@ Numatytoji klasės vertė *konteineris* ne **neapibrėžta**.
 
 Tolesnis paveikslėlis rodo, kaip **Bitmap(Image)** laukas tipe *konteinerio* yra susietas su duomenų modelio **Logotipo** laukeliu **Kontenerio** tipo **Pardavimo sąskaitos** duomenų modelyje. Dėl šio susiejimo įmonės logotipas tampa bet kokiu ER formatu, kuris yra skirtas **Pardavimo SF** akniniam apibrėžimui ir kuris naudoja šį modelio susiejimą vykdyklėje.
 
-[![Konteinerio tipo, kuris yra ER modelio susiejimo konstruktorius, lauko susiejimas](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)
+[![Konteinerio tipo, kuris yra ER modelio susiejimo konstruktorius, lauko susiejimas.](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)
 
 ## <a name="record"></a><a name="record"></a>Įrašyti
 
@@ -109,7 +109,7 @@ Numatytoji klasės vertė *objektas* ne **neapibrėžta**.
 
 Toliau esanti iliustracija rodo, kaip pridedamas objekto tipo **ReportDataContract** duomenų šaltinis *Objekto* tad informacija apie sugeneruotą SF būtų pereina iš šaltinio kodo į **Projekto sf** modelio susiejimą. Pvz., SF egzemplioriaus tekstas perduotas kaip vykdymo konteksto dalis. Šis tekstas imamas iš šaltinio kodo apdorojimo metu vykdant `ReportDataContract.parmInvoiceInstanceText` ER duomenų modelio pastabos lauke **sukonfigūruotą** susiejimą. Susiejimas iškviečia `parmInvoiceInstanceText()` metodą **PSAProjInvoiceContract** progrmaos klasę, kuri rodoma esamo modelio žemėlapyje kaip **ReportDataContract** duomenų šaltinis.
 
-[![Objekto šaltinio konfigūravimas puslapyje ER modelio susiejimo kūrimo įrankis](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
+[![Objekto šaltinio konfigūravimas puslapyje ER modelio susiejimo kūrimo įrankis.](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
 
 Norėdami sužinoti, kaip perkelti išsamią vykdymo konteksto informaciją iš šaltinio kodo į paleisto ER sprendimą, žr. [Kurti programos artefaktus, norėdami iškviesti sukurtą ataskaitą](er-quick-start1-new-solution.md#DevelopCustomCode).
 

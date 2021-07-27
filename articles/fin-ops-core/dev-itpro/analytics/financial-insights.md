@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 982d835c6c0d9bf6e19aa0ec1b03bce9aa7d2e5d
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 90622bb8fb6452e4b4002fa5aab491112e98d923
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193755"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345817"
 ---
 # <a name="financial-analysis"></a>Finansinė analizė
 
@@ -60,7 +60,7 @@ Kad pagrindinės sąskaitos būtų rodomos finansinėse ataskaitose ir įtraukto
 ## <a name="entity-store"></a>Objekto parduotuvė
 Darbo srities **Finansinė analizė** duomenys imami iš objektų saugyklos (**Sistemos administravimas** \> **Sąranka** \> **Objektų saugykla**). Jei atidarote darbo sritį **CFO apžvalga** arba **Finansinė analizė** ir vaizdiniuose elementuose rodomas tolesnis įspėjamasis pranešimas, turite atnaujinti objektus.
 
-![Perspėjimas](./media/Cantdisplay.png)
+![Perspėjimas.](./media/Cantdisplay.png)
 
 Turite atnaujinti objektus, kad pamatytumėte duomenis **Finansinė analizė** darbo srityje:
 
@@ -124,7 +124,7 @@ Vartotojai ataskaitą gali filtruoti naudodami kairėje esančią sritį **Filtr
 - **Vaizdinio elemento lygio filtrai** – šie filtrai taikomi tik pasirinktam vaizdiniam elementui. Šie filtrai taikomi ant puslapio lygio filtrų viršaus.
 - **Detalizavimo filtras** – šis filtras filtruoja iš „šaltinio“ vaizdinio elemento, taikomo dabartiniam vaizdiniam elementui, kai šaltinio vaizdinį elementą detalizuojate iki dabartinio vaizdinio elemento.
 
-![Filtravimo parinktys](./media/filter.png)
+![Filtravimo parinktys.](./media/filter.png)
 
 Norėdami pašalinti konkrečią filtro reikšmę, pasirinkite šalia esantį trintuko simbolį. Nešalinkite filtro pasirinkdami X. Jei pasirenkate X, jūsų filtruojamas laukas pašalinamas kaip filtro parinktis. Jei netyčia pašalinate kokį nors filtro lauką, uždarykite ir vėl atidarykite darbo sritį. Bus vėl pritaikyti numatytieji filtrų parametrai.
 
@@ -169,25 +169,25 @@ Naudojant „Power BI“ galimi įvairūs detalizavimo lygiai. Skiriasi kiekvien
 
 Tolesnėje iliustracijoje ataskaita **Bandomasis balansas** sutraukta iki aukščiausio eilučių hierarchijos lygio – pagrindinės sąskaitos tipo.
 
-![Bandomojo balanso išrašas](./media/trial-balance.png)
+![Bandomojo balanso išrašas.](./media/trial-balance.png)
 
 Norėdami peržiūrėti tolesnį hierarchijos lygį – pagrindinių sąskaitų kategorijas – galite lauką **Detalizuoti** nustatyti kaip **Eilutės**, o tada pasirinkti mygtuką **Išplėsti** (trečiasis mygtukas po lauko Detalizuoti). Dabar matote išplėstas visas pagrindinių sąskaitų kategorijas. Šiuo metu „Power BI“ neleidžia išplėsti tik vienos eilutės ar stulpelio, tačiau vis tiek matyti visas kitas eilutes ar stulpelius.
 
-![Bandomojo balanso detalizavimas eilutėse](./media/trial-balance2.png)
+![Bandomojo balanso detalizavimas eilutėse.](./media/trial-balance2.png)
 
 Norėdami hierarchiją išplėsti iki visų eilučių pagrindinių sąskaitų, galite vėl naudoti mygtuką **Išplėsti**. Tačiau, norėdami iki pagrindinių sąskaitų detalizuoti tik vieną eilutę, pirmiausia pasirinkite mygtuką **Detalizuoti** (viena žemyn nukreipta rodyklė dešinėje lango pusėje) ir tada pasirinkite detalizuotiną eilutę. Tolesnėje iliustracijoje parodytas vaizdas, kada, pasirinkus mygtuką **Detalizuoti**, pasirenkama eilutė **Pardavimas**.
 
-![Bandomojo balanso išplėtimo mygtukas](./media/trial-balance3.png)
+![Bandomojo balanso išplėtimo mygtukas.](./media/trial-balance3.png)
 
 Detalizavus vieną eilutę, norint grįžti į visą bandomąjį balansą reikia kelis kartus spustelėti pele. Mygtuku **Pereiti prie bendresnio** (pirmas mygtukas po lauko **Detalizuoti**) prie bendresnių elementų pereinama tik kategorijos **Pardavimas** kontekste, kaip pavaizduota tolesnėje iliustracijoje.
 
-![Bandomojo balanso detalizavimo mygtukas](./media/trial-balance4.png)
+![Bandomojo balanso detalizavimo mygtukas.](./media/trial-balance4.png)
 
 Galite toliau naudoti mygtuką **Pereiti prie bendresnio**, kad grįžtumėte į aukščiausią eilučių apibendrinimo lygį.
 
 Sprendime „Power BI“ taip pat yra mygtukas, leidžiantis pereiti į tolesnį hierarchijos lygį (antras mygtukas po lauko **Detalizuoti**). Šis mygtukas veikia skirtingai nei mygtukas **Išplėsti** (trečias mygtukas po lauko **Detalizuoti**), kuriuo išplečiama hierarchija. Kai išplečiate hierarchiją, ji tvarkoma ataskaitoje. Pavyzdžiui, kaip buvo parodyta anksčiau, jei išplečiate pagrindinės sąskaitos tipą, jį vis tiek matote ataskaitoje. Tačiau, kai pereinate į tolesnį hierarchijos lygį, ataskaitoje pirminis hierarchijos lygis neberodomas, kaip parodyta tolesnėje iliustracijoje.
 
-![Bandomojo balanso detalizavimo atšaukimo mygtukas](./media/trial-balance5.png)
+![Bandomojo balanso detalizavimo atšaukimo mygtukas.](./media/trial-balance5.png)
 
 Norėdami peržiūrėti apibendrintų balansų operacijų informaciją, galite pasirinkti kai kurias sumas detalizuoti atgal į „Financial and Operations“.
 
@@ -226,7 +226,7 @@ Stulpelių hierarchija orientuota į juridinius subjektus ir ataskaitinius laiko
 ## <a name="data-limitations"></a>Duomenų apribojimai
 Finansinių ataskaitų vaizdiniuose elementuose ribojamas galimų rodyti eilučių skaičius. Šiuo metu nustatytas limitas yra 30 000. Jei viršysite šį limitą, vaizdiniame elemente bus įspėjamasis simbolis, pranešantis apie šią situaciją.
 
-![Duomenų apribojimai](./media/data-limit.png)
+![Duomenų apribojimai.](./media/data-limit.png)
 
 Jei viršijamas didžiausias skaičius, finansinėje ataskaitoje rodomos bendrosios sumos bus neteisingos, nes į vaizdinį elementą bus įkeltos ne visos eilutės.
 

@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.custom: 268444
+ms.custom:
+- "268444"
+- intro-internal
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 833eb271b15dd6d32501049ce9154022a388f1d4
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: df7cb4810b83d74725df3d59b7b08da1e8cf4a53
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189580"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345037"
 ---
 # <a name="peripherals"></a>Išorinis įrenginys
 
@@ -119,7 +121,7 @@ Norint užtikrinti, kad su „Commerce“ būtų naudojamas didžiausias prietai
 -   **Valdymo objektas** – įrenginio klasės (pvz., eilutės rodymas) valdymo objektas pateikia programinės įrangos programos sąsają. „Monroe Consulting Services“ ([www.monroecs.com](http://www.monroecs.com/)) pateikia standartizuotą OEKA valdymo objektų rinkinį, jie dar vadinami bendraisiais valdymo objektais (CCOs). CCO naudojami „Commerce“ EKA komponentui patikrinti. Todėl testavimas padeda užtikrinti, kad jei „Commerce“ palaiko įrenginių klasę per OPOS, galima palaikyti daugelį įrenginių tipų, su ta sąlyga, kad gamintojas pateikia paslaugų objektą, kuris yra sukurtas OPOS. Jūs neprivalote tiesiogiai patikrinti kiekvieno įrenginio tipo.
 -   **Aptarnavimo objektas** – aptarnavimo objektas tiekia ryšį tarp valdymo objekto (CCO) ir įrenginio. Įrenginio aptarnavimo objektą paprastai teikia įrenginio gamintojas. Tačiau kai kuriais atvejais gali tekti atsisiųsti paslaugų objektą iš gamintojo svetainės. Pavyzdžiui, galbūt bus galimas naujesnis aptarnavimo objektas. Gamintojo žiniatinklio svetainės adreso žr. aparatūros dokumentaciją.
 
-[![Valdymo objektas ir aptarnavimo objektas](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) OLE diegimo palaikymas, skirtas OPOS, EKA padeda užtikrinti, kad jei įrenginių gamintojai ir EKA leidėjai tinkamai įgyvendins standartą, EKA sistemos ir jos palaikomi įrenginiai gali veikti kartu, net jei jie anksčiau nebuvo kartu išbandyti. 
+[![Valdymo objektas ir aptarnavimo objektas.](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) OLE, skirto EKA, OEKA diegimo palaikymas padeda užtikrinti, kad jei įrenginio gamintojai ir EKA leidėjai standartą įdiegė tinkamai, EKA sistemos ir palaikymo įrenginiai gali veikti kartu, net jei prieš tai nebuvo patikrinta, kaip jie kartu veikia. 
 
 > [!NOTE]
 > OEKA palaikymas neužtikrina visų įrenginių, turinčių OEKA tvarkykles, palaikymo. „Commerce“ pirmiausia turi palaikyti to įrenginio tipą ar klasę per OEKA. Be to, aptarnavimo objektai gali ne visada būti atnaujinti pagal naujausią CCO versiją. Dar turite žinoti, kad apskritai aptarnavimo objektų kokybė yra skirtinga.

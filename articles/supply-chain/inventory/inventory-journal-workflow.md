@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b53ecec4bb7593cb0a0cae72e4132c49d6ec6a68
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bcb242214efab3fd632ea0b9e0f3329bb7821dc0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826016"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354766"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Atsargų žurnalų patvirtinimo darbo eigos
 
@@ -55,7 +55,7 @@ Siekiant sukurti savo atsargų žurnalo tvirtinimo darbo srautus:
     - **Atsargos KS žurnalas**
     - **Atsargų koregavimo žurnalas**
 
-    ![Darbo srauto teksto laukelio sukūrimas ](media/journal-workflow-create-workflow.png "Darbo srauto teksto laukelio sukūrimas")
+    ![Darbo srauto teksto laukelio sukūrimas.](media/journal-workflow-create-workflow.png "Darbo srauto teksto laukelio sukūrimas")
 
 1. Darbo srauto redagavimo programa įsijungia jūsų mašinoje. (Jūsų taip pat gali būti prašoma patvirtinti šį veiksmą.). Naudokite jį suplanuoti jūsų darbo srautą, kaip norite. Dėl informacijos apie tai, kaip naudoti darbo srauto redaktorių, žr. [Darbo srauto sistemos peržiūra](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md).
 1. Išsaugojus ir uždarius darbo srauto redaktoriaus programą, turite pasirinkti, ar aktyvuoti šį darbo srauto versiją ar laikysite ją neaktyvią.
@@ -73,7 +73,7 @@ Siekiant susieti inventoriaus žurnalų darbo srautus su inventoriaus žurnalo p
 1. Pasirinkite žurnalo pavadinimą iš sąrašo stulpelio tam, kad atidarytumėte jo nustatymų puslapį.
 1. **Bendras** „FastTab“, nustatykite **Darbo srauto patvirtinimo** parinktį į **Taip**. Jei esate skatinamas patvirtinti veiksmą, pasirinkite **Taip**.
 
-    ![Priskirti darbo srautą prie žurnalo pavadinimo](media/journal-workflow-journal-name.png "Priskirti darbo srautą prie žurnalo pavadinimo")
+    ![Priskirti darbo srautą prie žurnalo pavadinimo.](media/journal-workflow-journal-name.png "Priskirti darbo srautą prie žurnalo pavadinimo")
 
 1. Atidarykite **Darbo srauto** išplečiamąjį sąrašą ir pasirinkite tinkamą darbo srautą. Sąrašas rodo visus aktyvius darbo srautus, kuriuos sukūrėte naudodami darbo srauto redagavimo programą.
 
@@ -87,7 +87,7 @@ Po to, kai susiesite atsargų žurnalo pavadinimą su jį atitinkančiu atsargų
 1. Pabaikite žurnalą, kaip būtina.
 1. Kai kuriate ar atidarote atsargų žurnalą su patvirtinimo darbo srautu susietu su juo,**Darbo srauto** mygtukas bus įjungtas veiksmų juostoje. Kai jūs esate pasiruošę pateikti žurnalą patvirtinimui, pasirinkite **Darbo srauto** mygtuką tam, kad atidarytumėte iškrentantį teksto laukelį ir tuomet pasirinkite **Pateikti**. Patvirtinimo užklausa tuomet nukreipiama atitinkamam patvirtintojui, kuris bus perspėjamas naudoti pranešimo metodą, sukonfigūruotą darbo srautui.
 
-    ![Pateikti žurnalą tvirtinti](media/journal-workflow-inventory-journal.png "Pateikti žurnalą tvirtinti")
+    ![Pateikti žurnalą tvirtinti.](media/journal-workflow-inventory-journal.png "Pateikti žurnalą tvirtinti")
 
 Tam, kad atšauktumėte patvirtinimo prašymą, atidarykite atitinkamą žurnalą, pasirinkite **Darbo srauto** mygtuką ir tuomet pasirinkite **Atšaukti**. Jis atstatys darbo srautą.
 

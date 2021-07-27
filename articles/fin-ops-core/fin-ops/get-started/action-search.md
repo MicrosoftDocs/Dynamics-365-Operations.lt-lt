@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41313dd1fde51cb84bc971bb7bb98841222259b1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ce10817d677f7e48194272b5ebb91b95d657441f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754831"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360294"
 ---
 # <a name="action-search"></a>Veiksmo ieška
 
@@ -31,7 +31,7 @@ ms.locfileid: "5754831"
 
 Puslapiuose pirmiausia pateikiamos veiksmų sričių, įskaitant standartinę veiksmų sritį, rodomą puslapio viršuje, ir įvairiose puslapyje srityse rodomas įrankių juostas, komandas. Ankstesnėse versijose klavišų patarimų funkcija suteikė galimybę greitai pasiekti bet kurį veiksmų srities mygtuką paspaudžiant klavišą ALT ir raidžių seką.
 
-[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png)
+[![„keyTipsAX6”.](./media/keytipsax6.png)](./media/keytipsax6.png)
 
 Veiksmo ieškos funkcija pakeitė klavišų patarimų funkciją, kuri nebėra galima. Ši nauja funkcija suteikia galimybę greitai ieškoti ir suaktyvinti bet kurios matomos veiksmų srities mygtuką.
 
@@ -45,7 +45,7 @@ Norėdami naudoti veiksmo ieškos funkciją, atlikite toliau nurodytus veiksmus.
 
 Paleidus mygtuką suaktyvinama vėliausia aktyvi puslapio padėtis ir galima tęsti darbą.
 
-[![action-search-field](./media/action-search-field.png)](./media/action-search-field.png)
+[![„action-search-field”.](./media/action-search-field.png)](./media/action-search-field.png)
 
 Taip pat galite pradėti veiksmo iešką paspausdami CTRL + / arba ALT + Q. Vėl paspauskite klaviatūros spartųjį klavišą, kad būtų suaktyvinta vėliausia aktyvi puslapio padėtis.
 
@@ -61,11 +61,11 @@ Turite žinoti mygtuko vietą ir kontekstą, kad visiškai suprastumėte to mygt
 
 Pvz., **veiksmo ieškos** lauke įvedate **tot** nagrinėjate rezultatų sąrašą. Pirmasis įrašas, skirtas mygtukui, pavadinimu **Sumos**, yra paryškintas. Taip pat rodomas mygtuko kelias **Pardavimo užsakymas** &gt; **Rodinys**. Kelio dalis **Pardavimo užsakymas** atitinka veiksmų srities skirtuką **Pardavimo užsakymas**, o kelio dalis **Rodinys** atitinka šio skirtuko grupę **Rodinys**. Panašiai mygtuko **Bendroji nuolaida** kelias (**Pardavimas** &gt; **Skaičiuoti**) informuoja, kad šis mygtukas yra veiksmų srities skirtuko **Pardavimas** grupėje **Skaičiuoti**. Todėl ši informacija padeda tiksliai suprasti, kurį mygtuką veiksmo ieška suaktyvins (jei tą mygtuką pasirinksite rezultatų sąraše).
 
-[![action-search-field-with-data](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
+[![„action-search-field-with-data”.](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
 
 Ankstesniame pavyzdyje buvo rodomi puslapio viršuje esančios veiksmų srities veiksmo ieškos rezultatai. Tačiau taip pat rodomi įrankių juostų, esančių kitose puslapio vietose, veiksmo ieškos rezultatai. Pavyzdžiui, ieškote **Turimos atsargos** mygtuko, esančio **Pardavimo užsakymo eilutės** „FastTab“. Šiuo atveju rezultatų sąraše pateikiamas mygtuko kelias (**Pardavimo užsakymo eilutės** &gt; **Atsargos** &gt; **Rodinys**) informuoja, kad šis mygtukas yra **Rodinys** antraštėje, esančioje **Atsargos** meniu mygtuke **Pardavimo užsakymo eilutės** „FastTab“.
 
-[![on-hand-inventory](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
+[![„on-hand-inventory”.](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
 > [!NOTE]
 > Kai kurie mygtukai nerodomi veiksmo ieškoje. Šie mygtukai – tiesioginio pokalbio mygtukai ir mygtukai iš papildomų formų. 

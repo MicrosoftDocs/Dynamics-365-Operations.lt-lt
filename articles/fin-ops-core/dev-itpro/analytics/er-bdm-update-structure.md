@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 203c9f0990051c1618660959dad0e184add68ffa
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b3419d328e84c199fa32aeb13b54425a31e96ce7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750489"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350261"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>Verslo dokumento šablono struktūros atnaujinimas 
 
@@ -58,7 +58,7 @@ Atlikite tolesnes procedūras, nurodytas temoje [Funkcijos Verslo dokumentų val
 
     Naujas šablonas atidaromas redaguoti „Excel Online“ įdėtajame valdiklyje, esančiame šablonų rengyklės puslapyje.
 
-[![Funkcijos Verslo dokumentų valdymas darbo srities naudojimas norint pradėti redaguoti verslo dokumento šabloną](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
+[![Funkcijos Verslo dokumentų valdymas darbo srities naudojimas norint pradėti redaguoti verslo dokumento šabloną.](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
 
 ### <a name="review-the-current-structure-of-the-editable-template"></a>Dabartinės redaguojamojo šablono struktūros peržiūra
 
@@ -68,7 +68,7 @@ Atlikite tolesnes procedūras, nurodytas temoje [Funkcijos Verslo dokumentų val
 4. Srityje **Šablono struktūra** išplėskite **Ataskaita \> Sąskaita faktūra \> rptHeader \> rptHeaderPart1**.
 5. Atkreipkite dėmesį, kad „Finance“ šablono struktūroje elementas **rptHeaderCompLogo** pateikiamas kaip antrinis **Ataskaita \> Sąskaita faktūra \> rptHeader \> rptHeaderPart1** elementas.
 
-[![Funkcijos Verslo dokumentų valdymas darbo srities naudojimas norint peržiūrėti dabartinę redaguojamojo šablono struktūrą](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
+[![Funkcijos Verslo dokumentų valdymas darbo srities naudojimas norint peržiūrėti dabartinę redaguojamojo šablono struktūrą.](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-deleting-a-picture"></a>Verslo dokumento šablono struktūros atnaujinimas panaikinant paveikslėlį
 
@@ -85,7 +85,7 @@ Atlikite tolesnes procedūras, nurodytas temoje [Funkcijos Verslo dokumentų val
 4. Srityje **Šablono struktūra** išplėskite **Ataskaita \> Sąskaita faktūra \> rptHeader \> rptHeaderPart1**.
 5. Atkreipkite dėmesį, kad elementas **rptHeaderCompLogo** nebėra įtrauktas į „Finance“ šablono struktūrą.
 
-[![Funkcijos Verslo dokumentų valdymas darbo srities naudojimas norint panaikinti paveikslėlį verslo dokumento šablone](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
+[![Funkcijos Verslo dokumentų valdymas darbo srities naudojimas norint panaikinti paveikslėlį verslo dokumento šablone.](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-adding-a-picture"></a>Verslo dokumento šablono struktūros atnaujinimas įtraukiant paveikslėlį
 
@@ -97,7 +97,7 @@ Atlikite tolesnes procedūras, nurodytas temoje [Funkcijos Verslo dokumentų val
 6. Srityje **Šablono struktūra** išplėskite **Ataskaita \> Sąskaita faktūra \> rptHeader \> rptHeaderPart1**.
 7. Atkreipkite dėmesį, kad naujas paveikslėlis dabar kaip elementas įtrauktas į „Finance“ šablono struktūrą.
 
-[![Funkcijos Verslo dokumentų valdymas darbo srities naudojimas norint įtraukti paveikslėlį į verslo dokumento šabloną](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
+[![Funkcijos Verslo dokumentų valdymas darbo srities naudojimas norint įtraukti paveikslėlį į verslo dokumento šabloną.](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
 
 ## <a name="related-links"></a>Susiję saitai
 

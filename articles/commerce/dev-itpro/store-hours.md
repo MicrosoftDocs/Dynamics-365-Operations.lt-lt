@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 862b032c75145594be78fb2f4e27ea5616605c4d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6d8c1d4e7edc4b83e2489ac6a0bad18ab55c042b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792934"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348247"
 ---
 # <a name="create-and-update-store-hours"></a>Parduotuvės darbo valandų kūrimas ir atnaujinimas
 
@@ -49,14 +49,14 @@ Atlikite toliau nurodytus veiksmus, kad sukonfigūruotumėte parduotuvės darbo 
     > [!NOTE]
     > Gali sukurti kelis šablonus, kurių pradžios ir pabaigos datos persidengia. Todėl, pavyzdžiui, galite nustatyti skirtingose laiko juostose esančių parduotuvių darbo valandas.
 
-    ![Intervalo įtraukimo dialogo langas](../dev-itpro/media/Storehours1.png "Intervalo įtraukimo dialogo langas")
+    ![Intervalo įtraukimo dialogo langas.](../dev-itpro/media/Storehours1.png "Intervalo įtraukimo dialogo langas")
 
 4. Parduotuvės darbo valandų šabloną susiekite su parduotuvėmis, kuriose jis bus naudojamas. Dialogo lange **Pasirinkti organizacijos mazgus** pasirinkite parduotuves, regionus ir organizacijas, su kuriomis turėtų būti susietas šablonas.
 
     - Su kiekviena parduotuve galima susieti tik vieną parduotuvės darbo valandų šabloną.
     - Pasirinkite parduotuves, regionus ar organizacijas naudodami rodyklių mygtukus. Kalendorius bus pasiekiamas parduotuvėms ar parduotuvių grupėms ir matomas EKA.
 
-    ![Organizacijos mazgų pasirinkimo dialogo langas](../dev-itpro/media/Storehours2.png "Pasirinkti organizacijos mazgų dialogo langą")
+    ![Pasirinkti organizacijos mazgų dialogo langą.](../dev-itpro/media/Storehours2.png "Pasirinkti organizacijos mazgų dialogo langą")
 
 5. Puslapyje **Paskirstymo grafikas** vykdykite **1070** ir **1090** užduotis, kad parduotuvės darbo valandos būtų pasiekiamos EKA.
 
@@ -75,7 +75,7 @@ Norėdami parduotuvės darbo valandas įtraukti į išspausdintus EKA kvitus, at
 
 Dabar EKA kvituose nurodomos parduotuvės darbo valandos. Jei į šabloną buvo įtraukta šventinių dienų, jos rodomos ant kvito.
 
-![Kvito pavyzdys](../dev-itpro/media/Storehours3.png "Kvito pavyzdys")
+![Kvito pavyzdys.](../dev-itpro/media/Storehours3.png "Kvito pavyzdys")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

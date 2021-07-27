@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5c0c584ed53dc4ec8a761065838127dc67cbc41e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 09c20020e5e0b957785a88ad511cedfec50a5f29
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813730"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344621"
 ---
 # <a name="maintenance-downtime-for-work-orders"></a>Darbo užsakymų prižiūrimo turto prastova
 
@@ -45,7 +45,7 @@ Galite kurti darbo užsakyme pasirinkto turto prižiūrimo turto prastovos regis
 
 Paveikslėlyje pavaizduotas puslapio **Prižiūrimo turto prastovos priežasčių kodai** pavyzdys.
 
-![1 pav.](media/15-work-orders.png)
+![1 iliustracija.](media/15-work-orders.png)
 
 Sukūrę norimus naudoti prižiūrimo turto prastovos priežasčių kodus, galite kurti darbo užsakymų ir turto prižiūrimo turto prastovos registracijas.
 
@@ -71,15 +71,15 @@ Sukūrę norimus naudoti prižiūrimo turto prastovos priežasčių kodus, galit
 
 Toliau pateikiamoje iliustracijoje rodomas prižiūrimo turto prastovos registravimo pavyzdys.
 
-![2 pav.](media/16-work-orders.png)
+![2 iliustracija.](media/16-work-orders.png)
 
 Kalendorius, naudojamas apskaičiuojant prižiūrimo turto prastovos registraciją, priklauso nuo jūsų pasirinkimo turto ir parametrų sąrankoje. Jei turto išteklius pasirenkamas perėjus į puslapio **Visas turtas** „FastTab” **Ilgalaikis turtas** lauką **Ištekliai**, naudojama susijusios išteklių grupės kalendoriaus sąranka, kaip parodyta toliau pateikiamame paveikslėlyje.
 
-![3 pav.](media/17-work-orders.png)
+![3 iliustracija.](media/17-work-orders.png)
 
 Jei turto išteklius nepasirenkamas, naudojamas standartinis kalendorius, pasirinktas puslapyje **Turto valdymo parametrai**, kaip parodyta toliau pateikiamame paveikslėlyje.
 
-![4 pav.](media/18-work-orders.png)
+![4 iliustracija.](media/18-work-orders.png)
 
 Spustelėkite **Turto valdymas** > **Užklausos** > **Prižiūrimo turto prastova**, kad pamatytumėte visų prižiūrimo turto prastovos registracijų apžvalgą.
 

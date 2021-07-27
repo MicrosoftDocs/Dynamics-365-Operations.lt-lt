@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 74987506699834d86703702106e5abf87bfa45da
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 284fd4047347386b3893684f077a5980f98a6788
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018786"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350005"
 ---
 # <a name="taxtrans-record-isnt-generated"></a>TaxTrans įrašas nesugeneruojamas
 
@@ -26,7 +26,7 @@ ms.locfileid: "6018786"
 
 Jei pasirenkate operacijos užregistruotą PVM, bet užregistruoto PVM puslapyje nėra mokesčio eilučių arba trūksta mokesčio eilutės, „TaxTrans“ įrašas **galėjo** **būti** **nesugeneruotas**.
 
-[![Užregistruotas PVM puslapis, kuriame nėra eilučių elementų](./media/taxtrans-is-not-generated-Picture1.png)](./media/taxtrans-is-not-generated-Picture1.png)
+[![Užregistruotas PVM puslapis, kuriame nėra eilučių elementų.](./media/taxtrans-is-not-generated-Picture1.png)](./media/taxtrans-is-not-generated-Picture1.png)
 
 Norėdami išspręsti šią problemą, atlikite tolesniuose skyriuose nurodytus veiksmus.
 
@@ -34,7 +34,7 @@ Norėdami išspręsti šią problemą, atlikite tolesniuose skyriuose nurodytus 
 
 1. Prieš registruodami operaciją, SF **registravimo** puslapyje pasirinkite **PVM, norėdami patikrinti** skaičiavimą.
 
-    [![PVM mygtukas SF registravimo puslapyje](./media/taxtrans-is-not-generated-Picture2.png)](./media/taxtrans-is-not-generated-Picture2.png)
+    [![PVM mygtukas SF registravimo puslapyje.](./media/taxtrans-is-not-generated-Picture2.png)](./media/taxtrans-is-not-generated-Picture2.png)
 
 2. Laikinų **PVM operacijų puslapyje** peržiūrėkite skaičiavimo rezultatą. Jei mokestis nėra skaičiuojamas, [žr. mokestis nesuskaičiuotas arba mokesčio suma yra](sales-tax-troubleshooting-tax-not-calculated-amount-zero.md) nulis.
 
@@ -44,16 +44,16 @@ Norėdami išspręsti šią problemą, atlikite tolesniuose skyriuose nurodytus 
 2. Kvito **stulpelio** antraštėje pasirinkite filtro simbolį, kad rastumėte **TaxTrans** įrašą.
 3. Jei radote PVM įrašus, kurių ieškote, patikrinkite datą. Jei data skiriasi nuo žurnalo antraštės datos, sukurkite „Microsoft“ aptarnavimo papildomos pagalbos užklausą.
 
-    [![Registruoto PVM puslapis](./media/taxtrans-is-not-generated-Picture4.png)](./media/taxtrans-is-not-generated-Picture4.png)
+    [![Registruoto PVM puslapis.](./media/taxtrans-is-not-generated-Picture4.png)](./media/taxtrans-is-not-generated-Picture4.png)
 
 ## <a name="debug-to-check-details"></a>Derinti norint patikrinti informaciją
 
 1. Norėdami gauti informacijos, kaip suderinti ir nustatyti, ar **TmpTaxWorkTrans ir TaxUncommitted sugeneruota teisingai, žr.** **TaxTrans** [lauko](sales-tax-troubleshooting-field-value-taxtrans-incorrect.md) vertę.
 2. Jei TaxTmpWorkTrans arba TaxUncommitted sugeneruotas teisingai, pridėkite stabdos **tašką** **TaxPost** **SaveAndPost::() ir** **Mokesčių ::saveAndPost,** **kad** būtų suderinti TaxTrans įterpimo priežastis.
 
-    [![Kode įtraukti stabdos taškai](./media/taxtrans-is-not-generated-Picture5.png)](./media/taxtrans-is-not-generated-Picture5.png)
+    [![Kode įtraukti stabdos taškai.](./media/taxtrans-is-not-generated-Picture5.png)](./media/taxtrans-is-not-generated-Picture5.png)
 
-    [![Pridėtų stabdos taškų rezultatai](./media/taxtrans-is-not-generated-Picture6.png)](./media/taxtrans-is-not-generated-Picture6.png)
+    [![Pridėtų stabdos taškų rezultatai.](./media/taxtrans-is-not-generated-Picture6.png)](./media/taxtrans-is-not-generated-Picture6.png)
 
 ## <a name="determine-whether-customization-exists"></a>Nustatyti, ar yra tinkinimas
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 38099909f169391c17760ac381af07f0848fc384
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 219b82809087e3f5f185bc92836ca300d064fc71
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797484"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348349"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Rekomendacijų įtraukimas į operacijų ekraną
 
@@ -43,7 +43,7 @@ Naudodami „Commerce“ galite rodyti produktų rekomendacijas savo EKA įrengi
 6. Prisijungus bus parodytas puslapis, panašus į toliau pateiktą puslapį. Maketas skirsis, atsižvelgiant į jūsų parduotuvėje atliktus tinkinimus.
 
 
-    [![Maketo dizaineris](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![Maketo dizaineris.](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>Pasirinkite rodomą parinktį
 
@@ -58,11 +58,11 @@ Galima pasirinkti iš dviejų konfigūracijų parinkčių. Pasirinkite geriausia
 1. Sumažinkite operacijų eilučių informacijos srities aukštį, kad ji būtų tokio paties aukščio kaip jos kairėje esanti kliento sritis.
 
 
-    [![Sumažintas operacijų eilučių informacijos srities aukštis](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![Sumažintas operacijų eilučių informacijos srities aukštis.](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. Iš kairiojo meniu rekomendacijų valdiklį nuvilkite tarp operacijų eilučių informacijos srities ir mygtukyno į operacijų ekrano apatinėje dalyje, centre. Keiskite valdiklio dydį, kad jis tilptų toje erdvėje.
 
-    [![Rekomendacijų valdiklis įtrauktas į maketą](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![Rekomendacijų valdiklis įtrauktas į maketą.](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 
 3. Norėdami įrašyti ir uždaryti maketo dizaino įrankį, spustelėkite **X**.
@@ -77,13 +77,13 @@ Galima pasirinkti iš dviejų konfigūracijų parinkčių. Pasirinkite geriausia
 
 2. Spustelėkite **Pritaikyti**.
 
-    [![Tinkinimas – dialogo langas Skirtukų valdymas](./media/pic-5.png)](./media/pic-5.png)
+    [![Tinkinimas – dialogo langas Skirtukų valdymas.](./media/pic-5.png)](./media/pic-5.png)
 
 3. Spustelėkite **Naujas skirtukas**.
 4. Raskite naują skirtuką, kurį ką tik įtraukėte. Gali reikėti slinkti žemyn.
 5. Išplečiamajame sąraše **Turinys** pasirinkite **Rekomenduojami produktai**.
 
-    [![Parinkties Rekomenduojami produktai pasirinkimas lauke Turinys](./media/pic-6.png)](./media/pic-6.png)
+    [![Parinkties Rekomenduojami produktai pasirinkimas lauke Turinys.](./media/pic-6.png)](./media/pic-6.png)
 
 6. Lauke **Žyma** įveskite rekomendacijų skirtuko pavadinimą. Pavyzdžiui, įveskite „Rekomenduojami produktai“.
 7. Lauke **Vaizdas** pasirinkite vaizdą, kuris bus rodomas skirtuke.

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 31798508e4cc71e31a30dc91acebfdde8226b16c
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: de8840b92307ba63d6d0c2cfa90536bd00696ec3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5937067"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349679"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Prekiaujančių subjektų rūšiavimo tvarkos keitimas
 
@@ -51,9 +51,9 @@ Prieš baigdami šią procedūrą, savo aplinkoje turi įdiegti demonstracinius 
 
 Kanalo naršymo hierarchijos rodymo tvarka atsispindės prekybos produktų hierarchijos HQ ir pagal kategoriją išleistuose produktuose.
 
-![Produktų hierarchijos pasirinktinis rūšiavimas su neigiamomis reikšmėmis](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
+![Produktų hierarchijos pasirinktinis rūšiavimas su neigiamomis reikšmėmis.](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
 
-![Pagal kategoriją išleistų produktų pasirinktinis rūšiavimas pagal produktų hierarchiją](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
+![Pagal kategoriją išleistų produktų pasirinktinis rūšiavimas pagal produktų hierarchiją.](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
 
 ## <a name="configure-the-display-order-for-categories-in-the-channel-navigation-hierarchy"></a>Kategorijų kanalo naršymo hierarchijoje rodymo tvarkos konfigūravimas
 
@@ -77,11 +77,11 @@ Prieš baigdami šią procedūrą, savo aplinkoje turi įdiegti demonstracinius 
 
 Kanalo naršymo hierarchijos rodymo tvarka atsispindi HQ, kataloge ir kanaluose.
 
-![Kanalo naršymo hierarchijos pasirinktinis rūšiavimas](./media/ChannelNavCustomSorted.png)
+![Kanalo naršymo hierarchijos pasirinktinis rūšiavimas.](./media/ChannelNavCustomSorted.png)
 
-![Katalogo naršymo hierarchijos pasirinktis rūšiavimas pagal kanalo naršymo hierarchiją](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
+![Katalogo naršymo hierarchijos pasirinktis rūšiavimas pagal kanalo naršymo hierarchiją.](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
 
-![POS su pasirinktai surūšiuotomis kategorijomis](./media/POSChannelCategoriesCustomSorted.png)
+![POS su pasirinktai surūšiuotomis kategorijomis.](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
 > Pagal numatytuosius parametrus, pasirinktinio rūšiavimo tvarka yra išjungta. Kaip įjungti šią funkciją ir kitas funkcijas, žr. [Funkcijų valdymas](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).

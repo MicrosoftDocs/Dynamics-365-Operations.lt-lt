@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dc0fbff437bfa948d70a03479561542106805bdb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b6d68d62636b5750cdcdca3f8ccbe155dc249b72
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804434"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352305"
 ---
 # <a name="enable-personalized-recommendations"></a>Personalizuotų rekomendacijų įjungimas
 
@@ -50,7 +50,7 @@ Norėdami įjungti suasmeninimą, atlikite toliau nurodytus veiksmus.
 1. Pasirinkite **Suasmenintos produktų rekomendacijos** funkciją.
 1. Ypatybių srityje **Suasmenintos produktų rekomendacijos** pasirinkite **Įgalinti dabar**.
 
-![Suasmeninimo įjungimas](./media/FeatureManagement_Personalized.PNG)
+![Suasmeninimo įjungimas.](./media/FeatureManagement_Personalized.PNG)
 
 > [!NOTE]
 > Įjungus suasmeninimą, pradedamas asmeniniams poreikiams pritaikytų produktų rekomendacijų sąrašų generavimo procesas. Gali prireikti vienos dienos, kol šie sąrašai bus prieinami ir matomi internete ir EKA.
@@ -73,7 +73,7 @@ Kad bet kuriame „e-Commerce“ puslapyje galėtų būti sąrašas „Parinkta 
 
 Toliau parodytame paveikslėlyje pateiktas internetinės parduotuvės puslapyje esančio sąrašo „Parinkta jums“ pavyzdys.
 
-![Internetinis sąrašas „Parinkta jums“](./media/picksforyou.png)
+![Internetinis sąrašas „Parinkta jums“.](./media/picksforyou.png)
 
 ### <a name="recommended-for-customer-lists-at-the-pos"></a>Sąrašai „Rekomenduojama klientui“, esantys EKA
 
@@ -81,7 +81,7 @@ Norėdami padidinti savo klientų dėmesį, mažmenininkai gali pagal asmeninius
 
 Toliau parodytame paveikslėlyje pateiktas EKA terminale esančio sąrašo „Rekomenduojama klientui“ pavyzdys.
 
-![Sąrašai „Rekomenduojama klientui“, esantys EKA](./media/picksonpos.png)
+![Sąrašai „Rekomenduojama klientui“, esantys EKA.](./media/picksonpos.png)
 
 ## <a name="apply-personalization-to-existing-recommendation-lists"></a>Suasmeninimo esamiems rekomendacijų sąrašams pritaikymas
 
@@ -89,7 +89,7 @@ Mažmenininkai gali pritaikyti suasmeninimą esamiems rekomendacijų sąrašams,
 
 Pavyzdžiui, prisijungęs vartotojas jau nusipirko juodą laikrodį ir rudus darbo batus, kurie pateikiami toliau pateiktoje iliustracijoje, sąraše „Populiariausi – numatytasis“. Todėl vartotojas vietoje tų produktų matys naujus produktus, kaip parodyta sąraše „Populiariausi – asmeniniams poreikiams pritaikyta“.
 
-![Suasmeninimo pritaikymas](./media/applypersonalization.png)
+![Suasmeninimo pritaikymas.](./media/applypersonalization.png)
 
 Jei norite pritaikyti suasmeninimą esamam rekomendacijų sąrašui, esančiam „Commerce“ svetainės daryklėje, atlikite toliau nurodytus veiksmus.
 
@@ -99,7 +99,7 @@ Jei norite pritaikyti suasmeninimą esamam rekomendacijų sąrašui, esančiam �
 1. Dialogo lange **Pasirinkti produktų sąrašo konfigūraciją**, skyriuje **Tipas**, pasirinkite sąrašo tipą.
 1. Pažymėkite žymės langelį **Taikyti suasmeninimą**, tada pasirinkite **Gerai**.
 
-    ![Suasmeninimo pritaikymas populiariausiam sąrašui](./media/ApplyPersonalizationToTrending.PNG)
+    ![Suasmeninimo pritaikymas populiariausiam sąrašui.](./media/ApplyPersonalizationToTrending.PNG)
 
 1. Išsaugokite puslapį, baikite jį redaguoti ir paskelbkite. Paskelbus puslapį, prisijungę vartotojai matys asmeniniams poreikiams pritaikytus populiariausius sąrašus.
 

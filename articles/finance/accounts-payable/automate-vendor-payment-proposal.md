@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 238123f59c3d85b2b2c64aed9d94c7d8af27eaf2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9f19a6ed70445791433c2db2559f6922b9715c5e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820816"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350651"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Tiekėjo mokėjimo pasiūlymų automatizavimas
 
@@ -97,11 +97,11 @@ Rekomenduojame pagal savo poreikius įvertinti, ar automatizavimas bus naudingas
 
 Po to, kai sukuriama tiekėjo mokėjimo pasiūlymo automatizavimo seka, kiekvieno mokėjimo įvykiai rodomi procesų automatizavimo savaitiniame rodinyje. Tiekėjo mokėjimams procesų automatizavimo savaitinis rodinys buvo pridėtas tiek prie darbo srities **Tiekėjo mokėjimai**, tiek prie puslapio **Procesų automatizavimas**.
 
-[![Procesų automatizavimo savaitinis rodinys tiekėjo mokėjimų darbo srityje](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
+[![Procesų automatizavimo savaitinis rodinys tiekėjo mokėjimų darbo srityje.](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
 
 Darbo srityje **Tiekėjo mokėjimai** esančiame proceso automatizavimo savaitiniame rodinyje rodomi tik tiekėjo mokėjimo pasiūlymų automatizavimo procesai. Joje parodomi visų juridinių subjektų, kurių saugos teises turi prisijungęs vartotojas, visi šios savaitės mokėjimų įvykiai. Pavyzdžiui, jei AP mokėjimus tvarkantis darbuotojas yra atsakingas už USMF ir USSI įmonių mokėjimus, jis matys šių dviejų įmonių tiekėjo mokėjimo pasiūlymo automatizavimo įvykius, o kitų įmonių įvykių nematys.
 
-[![USMF ir USSI įmonių procesų automatizavimo savaitinis rodinys](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
+[![USMF ir USSI įmonių procesų automatizavimo savaitinis rodinys.](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
 
 Kiekvienas atvejis nurodo įmonę, kurioje buvo arba bus sukurtas mokėjimų žurnalas. Jeigu mokėjimai sukuriami naudojant centralizuotus mokėjimus, rodoma įmonė yra įmonė, kurioje bus kuriami mokėjimai. Įvykis nebūtinai nurodo, kurios įmonės sąskaitos faktūros bus apmokamos.
 

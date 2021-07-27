@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0a3fd442f20fd40cdf8b845d353ae5d61ce51e29
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 026a549bfb856abc56eeaab21c681a8271ce4f44
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797652"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347521"
 ---
 # <a name="content-block-module"></a>Turinio bloko modulis
 
@@ -46,15 +46,15 @@ Be to, tema gali turėti skirtingų ypatybių kiekvienam maketui. Temo kūrėjas
 
 Toliau pateiktame paveiksle parodytas turinio bloko modulis su pagrindiniu maketu.
 
-![Pagrindinės reklaminės juostos modulio pavyzdys](./media/Hero.PNG)
+![Pagrindinės reklaminės juostos modulio pavyzdys.](./media/Hero.PNG)
 
 Toliau pateiktame paveiksle parodytas turinio bloko modulis su funkcijos maketu.
 
-![Reklamuojamų produktų modulių pavyzdžiai](./media/Feature.PNG)
+![Reklamuojamų produktų modulių pavyzdžiai.](./media/Feature.PNG)
 
 ## <a name="content-block-module-properties"></a>Turinio bloko modulių ypatybės
 
-| Ypatybės pavadinimas  | Reikšmės | Aprašymas |
+| Ypatybės pavadinimas  | Reikšmės | Aprašas |
 |----------------|--------|-------------|
 | Vaizdas          | Vaizdo failas | Parodyti produktą ar akciją galima naudojant vaizdą. Vaizdą galima nusiųsti į vaizdų galeriją arba galima naudoti esamą vaizdą. |
 | Antraštė        | Antraštės tekstas ir antraštės žymė (**H1**, **H2**, **H3**, **H4**, **H5** arba **H6**) | Kiekviename pagrindinės reklaminės juostos modulyje gali būti antraštė. Numatyta, kad naudojama antraštės žymė **H2**. Tačiau žymę galima pakeisti, kad ji atitiktų pritaikymo neįgaliesiems reikalavimus. |

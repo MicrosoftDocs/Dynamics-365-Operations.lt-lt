@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 0956e7aa51973014ee474d97829d3d15dfdea3b3
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a641789adf27e51b7a3f8ab03269cc2e748eef96
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909948"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359816"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-supply-chain-management"></a>„Field Service“ darbo užsakymų ir projekto sinchronizavimas su „Supply Chain Management”
 
@@ -29,7 +29,7 @@ ms.locfileid: "5909948"
 
 Šioje temoje aptariami šablonai ir pagrindinė užduotis, naudojami „Dynamics 365 Field Service“ darbo užsakymus su projekto numeriu sinchronizuojant su „Dynamics 365 Supply Chain Management“.
 
-[![„Supply Chain Management” ir „Field Service“ verslo procesų sinchronizavimas](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
+[![„Supply Chain Management“ ir „Field Service“ verslo procesų sinchronizavimas.](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
 Naudojamas šablonas **Darbo užsakymai su projektu (iš „Field Service“ į „Supply Chain Management”)** yra paremtas šablonu **Darbo užsakymai (iš „Field Service“ į „Supply Chain Management”)**. Daugiau informacijos žr. temoje [„Field Service“ darbo užsakymų sinchronizavimas su „Supply Chain Management” pardavimo užsakymais](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
@@ -61,19 +61,19 @@ Toliau pateiktose iliustracijose vaizduojamas šablono susiejimas naudojant funk
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderheader"></a>Darbo užsakymai su projektu (iš „Field Service“ į „Supply Chain Management”): WorkOrderHeader
 
-[![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSWOP1.png)](./media/FSWOP1.png)
+[![Šablono susiejimas naudojant funkcija Duomenų integravimas.](./media/FSWOP1.png)](./media/FSWOP1.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderheaderproject"></a>Darbo užsakymai su projektu (iš „Field Service“ į „Supply Chain Management”): WorkOrderHeaderProject
 
-[![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSWOP2.png)](./media/FSWOP2.png)
+[![Šablono susiejimas naudojant funkcija Duomenų integravimas.](./media/FSWOP2.png)](./media/FSWOP2.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderproduct"></a>Darbo užsakymai su projektu (iš „Field Service“ į „Supply Chain Management”): WorkOrderProduct
 
-[![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSWOP3.png)](./media/FSWOP3.png)
+[![Šablono susiejimas naudojant funkcija Duomenų integravimas.](./media/FSWOP3.png)](./media/FSWOP3.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderservice"></a>Darbo užsakymai su projektu (iš „Field Service“ į „Supply Chain Management”): WorkOrderService
 
-[![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSWOP4.png)](./media/FSWOP4.png)
+[![Šablono susiejimas naudojant funkcija Duomenų integravimas.](./media/FSWOP4.png)](./media/FSWOP4.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

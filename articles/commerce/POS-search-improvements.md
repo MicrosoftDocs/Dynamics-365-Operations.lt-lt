@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 1392b767815722c17b1cc72d27fe2bb8a7c32281
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d562f97ecc3c442be4231470167a0aae86f84fe5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796371"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345165"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Produktų ir klientų paieška elektroniniame kasos aparate (EKA)
 
@@ -36,7 +36,7 @@ Pagal numatytuosius parametrus produktų ieškoma parduotuvės asortimente. Šis
 
 Puslapyje **Keisti katalogą** darbuotojai gali lengvai pasirinkti bet kurią parduotuvę arba produktų jie gali ieškoti visose parduotuvėse.
 
-![Katalogo keitimas](./media/Changecatalog.png "Katalogo keitimas")
+![Katalogo keitimas.](./media/Changecatalog.png "Katalogo keitimas")
 
 Atliekant vietinę produktų iešką, ieškoma tolesnėse produktų ypatybėse.
 
@@ -59,7 +59,7 @@ Atliekant vietinę produktų iešką, ieškoma tolesnėse produktų ypatybėse.
 - Mažmenininkai dabar produktų iešką gali sukonfigūruoti taip, kad, vartotojams vedant produktų pavadinimus, būtų rodomi ieškos pasiūlymai. Naujas šios funkcijos parametras pasiekiamas EKA funkcijų profilio grupėje pavadinimu **Produktų ieška**. Parametro pavadinimas yra **Vedant tekstą rodyti ieškos pasiūlymus**. Ši funkcija darbuotojams gali padėti greitai rasti ieškomą produktą, nes jiems nereikia rankiniu būdu įvesti viso pavadinimo.
 - Produktų ieškos algoritmas ieškomų terminų dabar taip pat ieško produkto ypatybėje **Ieškos pavadinimas**.
 
-![Produkto pasiūlymai](./media/Productsuggestions.png "Produkto pasiūlymai")
+![Produkto pasiūlymai.](./media/Productsuggestions.png "Produkto pasiūlymai")
 
 ## <a name="customer-search"></a>Kliento ieška
 
@@ -83,7 +83,7 @@ Norėdami ieškoti visuotinai, darbuotojai gali pasirinkti puslapio apačioje es
 
 Kliento ID nerodomas klientas, apie kuriuos užklausą pateikė juridiniai asmenys, nes kliento ID sukurtas tik toms šalims, esančioms dabartinėje įmonėje. Tačiau, jei darbuotojas atidaro kliento informacijos puslapį, sistema automatiškai sugeneruoja šalies kliento ID ir su klientu susieja parduotuvės klientų adresų knygeles. Todėl klientas bus matomas vėliau atliekamose vietinėse parduotuvių ieškose.
 
-![Bendra klientų paieška](./media/Globalcustomersearch.png "Bendra klientų paieška")
+![Bendra klientų paieška.](./media/Globalcustomersearch.png "Bendra klientų paieška")
 
 ### <a name="additional-local-customer-search-capabilities"></a>Papildomos vietinės klientų ieškos galimybės
 
@@ -94,11 +94,11 @@ Kai naudotojas ieško telefono numerio, sistema ignoruoja specialius ženklus (p
 
 Įprastinė kliento ieška gali užimti daug laiko, nes ji vykdoma daugelyje laukų. Vietoj to kasininkai gali ieškoti vieno kliento ypatybės, pvz., vardo ir pavardės, el. pašto adreso arba telefono numerio. Kliento ieškos algoritmo naudojamos ypatybės kartu vadinamos *kliento ieškos kriterijais*. Sistemos administratorius gali lengvai sukonfigūruoti vieną arba kelis kriterijus kaip nuorodas, kurios bus rodomos EKA. Kadangi ieška apribojama iki vieno kriterijaus, rodomi tik tinkami ieškos rezultatai ir efektyvumas yra daug didesnis nei įprastos kliento ieškos efektyvumas. Toliau nurodytame paveikslėlyje pavaizduotos EKA kliento ieškos nuorodos.
 
-![Klientų paieškos nuorodos](./media/SearchShortcutsPOS.png "Klientų paieškos nuorodos")
+![Klientų paieškos nuorodos.](./media/SearchShortcutsPOS.png "Klientų paieškos nuorodos")
 
 Norėdamas nustatyti paieškos kriterijus kaip nuorodas, administratorius turi atidaryti puslapį **„Commerce“ parametrai**, esantį „Commerce“, o tada skirtuke **EKA paieškos kriterijai** pasirinkti visus kriterijus, kurie turėtų būti rodomi kaip nuorodos.
 
-![Paieškos nuorodų konfigūravimas](./media/ConfigureShortcutsAX.png "Paieškos nuorodų konfigūravimas")
+![Paieškos nuorodų konfigūravimas.](./media/ConfigureShortcutsAX.png "Paieškos nuorodų konfigūravimas")
 
 > [!NOTE]
 > Jei įtrauksite per daug nuorodų, EKA ieškos juostos išplečiamasis meniu bus perpildytas ir darbuotojui gali būti sunkiau ieškoti informacijos. Rekomenduojame įtraukti tik tiek nuorodų, kaip jums reikia.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 62bc6587ad80fd318038f5dfc5ff68821b2a65cd
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: baba699a1b8efc986b4b274b8faf143d24d69e96
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893937"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355786"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Leidimo nustatyti ER formato nuorodą, pateikiančią užklausą dėl formato bendrojoje saugykloje, suteikimas vartotojams
 
@@ -34,27 +34,27 @@ Pavyzdžiui, sukonfigūravę [užsienio prekybos parametrus](../../../finance/lo
 
 Jeigu dabartiniame „Finance“ egzemplioriuje nėra ER formatų, susijusių su Intrastat verslo procesu, šis peržvalgos laukas bus tuščias.
 
-[![Puslapis Užsienio prekybos parametrai](./media/ER-ExtLookup-Lookup1.gif)](./media/ER-ExtLookup-Lookup1.gif)
+[![Puslapis Užsienio prekybos parametrai.](./media/ER-ExtLookup-Lookup1.gif)](./media/ER-ExtLookup-Lookup1.gif)
 
 Jeigu dabartiniame „Finance“ egzemplioriuje yra ER formatų, susijusių su Intrastat verslo procesu, šiame peržvalgos lauke pateikiami ER formatai.
 
-[![Puslapis Užsienio prekybos parametrai](./media/ER-ExtLookup-Lookup2.png)](./media/ER-ExtLookup-Lookup2.png)
+[![Puslapis Užsienio prekybos parametrai.](./media/ER-ExtLookup-Lookup2.png)](./media/ER-ExtLookup-Lookup2.png)
 
 Šioje peržvalgoje pateikiami tik tie ER formatai, kurie jau importuoti į dabartinį „Finance“ egzempliorių. Norėdami [importuoti](./tasks/er-import-configuration-lifecycle-services.md) ER sprendimus į dabartinį „Finance“ egzempliorių, turite turėti teises vykdyti atitinkamą ER sistemos funkciją, kuri palaiko ER sprendimų, kuriuose yra ER formatų, [ciklą](general-electronic-reporting-manage-configuration-lifecycle.md).
 
 Pradedant nuo „Finance“ 10.0.9 versijos (2020 balandžio mėn. leidimo), ER formato peržvalgos, įgyvendinamos naudojant ER sistemos API, vartotojo sąsaja buvo patobulinta. Vis tiek galite pasirinkti esamus ER formatus, kurie yra „FastTab“ **Pasirinkti formato konfigūraciją**. Be to, išplėstinėje peržvalgoje suteikiama nauja parinktis ieškoti bendrojoje saugykloje (BS) norint rasti konkrečių ER formatų. Visi BS esantys ER formatai pateikiami „FastTab“ **Importuoti iš bendrosios saugyklos**.
 
-[![Puslapis Užsienio prekybos parametrai](./media/ER-ExtLookup-Lookup3.png)](./media/ER-ExtLookup-Lookup3.png)
+[![Puslapis Užsienio prekybos parametrai.](./media/ER-ExtLookup-Lookup3.png)](./media/ER-ExtLookup-Lookup3.png)
 
 Panašiai kaip ir „FastTab“ **Pasirinkti formato konfigūraciją**, „FastTab“ **Importuoti iš bendrosios saugyklos** rodomi tik tie ER formatai, kurie taikomi verslo procesui, kuriam šiame peržvalgos lauke yra pasirinktas ER formatas. Šiame pavyzdyje – Intrastat deklaracijos generavimas. ER formatas taikomas įmonei, prie kurios vartotojas yra šiuo metu prisijungęs, atsižvelgiant į įmonės šalies kontekstą.
 
 Kai pasirenkate ER formatą „FastTab“ **Importuoti iš bendrosios saugyklos**, pasirinkta ER formato [konfigūracija](general-electronic-reporting.md#Configuration) importuojama iš BS į dabartinį „Finance“ egzempliorių.
 
-[![Puslapis Užsienio prekybos parametrai](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
+[![Puslapis Užsienio prekybos parametrai.](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
 
 Tada, jei importavimas atliekamas sėkmingai, nuoroda į importuotą ER formatą saugoma šiame peržvalgos lauke. Pirmą kartą norėdami pasiekti BS turite pasinaudoti pateiktu saitu ir užsiregistruoti naudoti [Regulatory Configuration Service](https://aka.ms/rcs) (RCS), kuri naudojama prieigai prie BS valdyti.
 
-[![Puslapis Užsienio prekybos parametrai](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
+[![Puslapis Užsienio prekybos parametrai.](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
 
 Pagal numatytuosius nustatymus „FastTab“ **Importuoti iš bendrosios saugyklos** pateikiamas sąrašas ER formatų iš laikinos saugyklos, kuri automatiškai sukuriama pagal BS turinį našumui patobulinti. Tai atsitinka, kai „FastTab“ **Importuoti iš bendrosios saugyklos** atidaromas pirmą kartą, o tai gali užtrukti keletą sekundžių.
 
@@ -64,7 +64,7 @@ Jei „FastTab“ **Importuoti iš bendrosios saugyklos** nematote reikiamo ER f
 
 Šios funkcijos pasiekiamumas valdomas funkcijoje **Išplėstinė ER formato konfigūracijų peržvalga, leidžianti pateikti užklausą į bendrąją saugyklą**, esančioje puslapyje **Funkcijų valdymas**. Pagal numatytuosius nustatymus ši funkcija įjungta.
 
-[![Puslapis Funkcijų valdymas](./media/ER-ExtLookup-FeatureMngt.png)](./media/ER-ExtLookup-FeatureMngt.png)
+[![Puslapis Funkcijų valdymas.](./media/ER-ExtLookup-FeatureMngt.png)](./media/ER-ExtLookup-FeatureMngt.png)
 
 ## <a name="security-considerations"></a>Saugos klausimai
 
@@ -72,7 +72,7 @@ Teisė **Prižiūrėti konfigūracijų saugyklas** (**ERMaintainSolutionReposito
 
 Toliau pateikiamoje ekrano nuotraukoje parodyta, kaip šią teisę suteikti vartotojams, kuriems priskirtas vaidmuo **Buhalteris**. Šis vaidmuo leidžia vartotojams konfigūruoti užsienio prekybos parametrus ir nustatyti nuorodas į ER formatus laukuose **Failo formato susiejimas** ir **Ataskaitos formato susiejimas** puslapyje **Užsienio prekybos parametrai**.
 
-[![Puslapis Saugos konfigūracija](./media/ER-ExtLookup-SecuritySetting.png)](./media/ER-ExtLookup-SecuritySetting.png)
+[![Puslapis Saugos konfigūracija.](./media/ER-ExtLookup-SecuritySetting.png)](./media/ER-ExtLookup-SecuritySetting.png)
 
 ## <a name="limitations"></a>Apribojimai
 

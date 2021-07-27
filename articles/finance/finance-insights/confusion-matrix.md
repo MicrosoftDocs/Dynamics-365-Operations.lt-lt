@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: fe652c32df9417f0f716242a24a26eabd1a16f65
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 32561935958268f35acc24f1cfb823546636c1f6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193545"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349063"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Mašininio mokymo modelių rezultatai (peržiūros versija)
 
@@ -34,7 +34,7 @@ Kai prižiūrimos ML problemos išmokoma naudojant istorinių duomenų rinkinį,
 
 Pavyzdžiui, jūsų tikslas yra nuspėti, ar augintinis yra šuo, ar katė, remiantis tam tikrais fiziniais bei elgesio atributais. Jei naudojamas bandomasis duomenų rinkinys, kuriame yra 30 šunų ir 20 kačių, supainiojimo matrica gali būti panaši į šį paveikslėlį.
 
-![Rūšių prognozavimo pavyzdys](media/species-prediction-matrix.png)
+![Rūšių prognozavimo pavyzdys.](media/species-prediction-matrix.png)
 
 Žalių langelių skaičiai atitinka teisingas prognozes. Kaip matote, modelis teisingai prognozuoja didesnę faktinių kačių procentinę dalį. Bendrą modelio tikslumą yra lengva apskaičiuoti. Šiuo atveju: 42 ÷ 50 arba 0,84.
 
@@ -44,7 +44,7 @@ Dauguma diskusijų apie supainiojimo matricą yra sutelktos į dvejetainius klas
 
 Toliau apsvarstysime finansinės situacijos klasifikavimo problemą, apimančią tris būsenas. Modelis prognozuoja, ar kliento SF bus sumokėta laiku, pavėluotai ar labai pavėluotai. Pavyzdžiui, iš 100 bandomųjų SF 50 yra apmokamos laiku, 35 apmokamos pavėluotai, o 15 – labai pavėluotai. Šiuo atveju modelis gali sukurti supainiojimo matricą, kuri panaši į šį paveikslėlį.
 
-![1 modelis](media/payment-prediction-matrix.png)]
+![1 modelis.](media/payment-prediction-matrix.png)]
 
 Supainiojimo matrica suteikia daug daugiau informacijos, nei paprasta tikslumo metrika. Tačiau ją vis tiek gana lengva suprasti. Supainiojimo matrica nurodo, ar turite subalansuotą duomenų rinkinį, kai pateikiamų klasių skaičiai yra panašūs. Naudojant kelių klasių scenarijų, ji nurodo, kaip toli nuo prognozės ji gali būti, kai pateikiamos klasės yra kelintiniai skaičiai, kaip ankstesniame pavyzdyje apie kliento mokėjimus.
 
@@ -55,7 +55,7 @@ Kadangi tikslumas yra paprasta suprasti metrika, jis yra geras pradžios taškas
 
 Tačiau, siekiant geresnio supratimo, reikia atkreipti dėmesį į keletą su tikslumu susijusių iššūkių. Metrikos naudingumas priklauso nuo problemos konteksto. Dažnai dėl modelio našumo kyla klausimas „Kiek geras modelis yra?“ Tačiau atsakymas į šį klausimą ne visada yra paprastas. Apsvarstykite tolesnę supainiojimo matricą (2 modelis).
 
-![Apmokėjimo prognozės pavyzdys su didesne imtimi](media/payment-prediction-matrix-2.png)
+![Apmokėjimo prognozės pavyzdys su didesne imtimi.](media/payment-prediction-matrix-2.png)
 
 Greitai suskaičiavus matoma, kad šio modelio tikslumas yra (70 + 10 + 3) ÷ 100 arba 0,83. Iš pirmo žvilgsnio šis rezultatas atrodo geresnis nei ankstesnio kelių klasių modelio (1 modelis) rezultatas, kurio tikslumas buvo 0,73. Tačiau ar jis yra geresnis?
 
@@ -87,7 +87,7 @@ Galiausiai šioje temoje panagrinėsime pažangesnę klasifikavimo ML našumo pr
 
 Kad būtų galima apibrėžti F1 tikslumą, reikia įvesti dvi papildomas metrikas: tikslumo ir atitikties. Tikslumas nurodo, kiek visų prognozių, kurios nurodytos kaip teigiamos, yra tinkamai priskirta. Ši metrika taip pat vadinama teigiama prognozavimo reikšme. Atitiktis yra bendrasis faktinių teigiamų atvejų skaičius, kuris buvo teisingas nuspėtas. Ši metrika taip pat vadinama jautrumu.
 
-[![Teisingi rezultatai, palyginti su klaidingais rezultatais](./media/tn-fn.png)](./media/tn-fn.png)
+[![Teisingi rezultatai, palyginti su klaidingais rezultatais.](./media/tn-fn.png)](./media/tn-fn.png)
 
 Pirmesnėje iliustracijoje pateiktoje supainiojimo matricoje ši metrika apskaičiuojamos taip:
 
@@ -100,7 +100,7 @@ F1 priemonė sujungia tikslumą ir atitiktį. Rezultatas yra dviejų reikšmių 
 
 Pažvelkime į konkretų pavyzdį. Anksčiau šioje temoje buvo pateiktas modelio pavyzdys, kuris prognozavo, ar gyvūnas buvo šuo, ar katė. Iliustracija pakartojama čia.
 
-[![Rūšių spėjimo pavyzdys (pakartotinas)](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
+[![Rūšių spėjimo pavyzdys (pakartotinas).](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
 
 Toliau pateikiami rezultatai, jei kaip teigiamas atsakymas naudojamas „Šuo“.
 
@@ -114,9 +114,9 @@ Nors F1 tikslumą nėra taip lengva suprasti, jis pagrindinį tikslumo skaičių
 
 Šios temos skyriuje [Modelio tikslumas](#model-accuracy) buvo palygintos tolesnės dvi supainiojimo matricos. Nepaisant to, kad pirmo modelio tikslumas buvo mažesnis, jis buvo laikomas naudingesniu, nes jis pasirodė esantis tobulesnis už numatytąjį spėjimą dėl vienkartinio mokėjimo.
 
-![Apmokėjimo prognozavimas, palyginti su faktiniais duomenimis (pavyzdys)](media/payment-prediction-matrix.png)
+![Apmokėjimo prognozavimas, palyginti su faktiniais duomenimis (pavyzdys).](media/payment-prediction-matrix.png)
 
-![Mokėjimo spėjimo pavyzdys su didesniu pavyzdžiu (pakartotinas)](media/payment-prediction-matrix-2.png)
+![Mokėjimo spėjimo pavyzdys su didesniu pavyzdžiu (pakartotinas).](media/payment-prediction-matrix-2.png)
 
 Pažiūrėkime, kaip šie du modeliai atrodo, kai naudojamas F1 balas. Į F1 balą įskaičiuojamas kiekvienos būsenos tikslumas ir atitiktis, o F1 makroskaičiavimais tada nustatomas vidutinis visų būsenų F1 balas, kad būtų galima nustatyti bendrąjį F1 balą. Yra ir kitų F1 variantų, tačiau naudingiau panagrinėti makroversiją, atsižvelgiant į vienodą visų trijų būsenų nagrinėjimą.
 

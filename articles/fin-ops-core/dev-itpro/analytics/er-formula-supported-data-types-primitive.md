@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d5e6bb5e070ebbcdb7e99b1b70010acd5fca5ac
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 4e1c70dd0fa89c6cc5a8b4778b073d1cf4a3dadd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224105"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355327"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>Palaikomi primityvių duomenų ataskaitų formulių sudėtiniai duomenų tipai
 
@@ -112,13 +112,13 @@ Programos *išvardijimas* gali būti naudojamas kaip bet kurio ER modelio susiej
 
 Toliau pateikta iliustracija rodo, kaip įtraukti **CustVendCorrectiveReasonCode** modelio išvardijimo į redaguojamą ER duomenų modelį.
 
-[![Konfigūruotas modelio numeravimas ER duomenų modelio kūrimo įrankyje](./media/er-formula-supported-data-types-primitive-enum1.gif)](./media/er-formula-supported-data-types-primitive-enum1.gif)
+[![Konfigūruotas modelio numeravimas ER duomenų modelio kūrimo įrankyje.](./media/er-formula-supported-data-types-primitive-enum1.gif)](./media/er-formula-supported-data-types-primitive-enum1.gif)
 
 Modelio *išvardijimas* gali būti naudojamas bet kurio ER modelio susiejimo ir ER formato išraiškoms, sukurtoms pagal duomenų modelį, kuriame buvo *įvestas* išvardijimas.
 
 Šioje iliustracijoje parodyta, kaip į redaguojamą ER formatą galima įtraukti Atšauktų išlaidų subkategorijų sąrašo **formatą** Išvardijimas.
 
-[![Konfigūruotas formato numeravimas ER foramto kūrimo įrankyje](./media/er-formula-supported-data-types-primitive-enum2.gif)](./media/er-formula-supported-data-types-primitive-enum2.gif)
+[![Konfigūruotas formato numeravimas ER foramto kūrimo įrankyje.](./media/er-formula-supported-data-types-primitive-enum2.gif)](./media/er-formula-supported-data-types-primitive-enum2.gif)
 
 Formato *išvardijimas* ali būti naudojamas tik ER formato, kuriame buvo įvestas *išvardijimas* išraiškomis.
 
@@ -126,15 +126,15 @@ Turite naudoti atitinkamą ER duomenų šaltinių tipą, kad būtų rodomas konk
 
 - Programos išvardijimas gali būti pasiekti naudojant **Dynamics 365 for Operations \ Išvardijimas** ir **Bendrieji \ Vartotojo įvesties** parametrų duomenų šaltiniai. Šioje iliustracijoje parodyta, kaip galima pridėti prie redaguojamo ER formato **appenumNoYes** ir **uipNoYes** duomenų šaltinius, kurie nurodo **NoYes** programos išvardijimą.
 
-    [![Programos išvardijimo duomenų šaltinių įtraukimas į ER formato konstruktorių](./media/er-formula-supported-data-types-primitive-enum3a.gif)](./media/er-formula-supported-data-types-primitive-enum3a.gif)
+    [![Programos išvardijimo duomenų šaltinių įtraukimas į ER formato konstruktorių.](./media/er-formula-supported-data-types-primitive-enum3a.gif)](./media/er-formula-supported-data-types-primitive-enum3a.gif)
 
 - Duomenų modelių išvardijimas gali būti pasiekti naudojant **duomenų modelį \ Išvardijimas** ir **duomenų modelis \ Išvardijimo vartotojo įvesties parametrų** duomenų šaltiniai. Šioje iliustracijoje parodyta, kaip galima pridėti prie redaguojamo ER formato **CustVendCorrectiveReasonCode** duomenų šaltinis, kuris rodo į **CustVendCorrectiveReasonCode** duomenų modelio išvardijimą.
 
-    [![Programos išvardijimo duomenų išvardijimo įtraukimas į ER formato konstruktorių](./media/er-formula-supported-data-types-primitive-enum3b.gif)](./media/er-formula-supported-data-types-primitive-enum3b.gif)
+    [![Programos išvardijimo duomenų išvardijimo įtraukimas į ER formato konstruktorių.](./media/er-formula-supported-data-types-primitive-enum3b.gif)](./media/er-formula-supported-data-types-primitive-enum3b.gif)
 
 - Formato modelių išvardijimas gali būti pasiekti naudojant **duomenų modelį \ Formato** ir **Formato modelis \ Išvardijimo vartotojo įvesties parametrų** duomenų šaltiniai. Šioje iliustracijoje parodyta, kaip galima pridėti prie redaguojamo ER formato **NaturaReverseCharge** duomenų šaltinis, kuris rodo į **Natura atvirkštinio apmokestinimo papildomos kategorijos** duomenų formato išvardijimą.
 
-    [![Formato išvardijimo duomenų išvardijimo įtraukimas į ER formato konstruktorių](./media/er-formula-supported-data-types-primitive-enum3c.gif)](./media/er-formula-supported-data-types-primitive-enum3c.gif)
+    [![Formato išvardijimo duomenų išvardijimo įtraukimas į ER formato konstruktorių.](./media/er-formula-supported-data-types-primitive-enum3c.gif)](./media/er-formula-supported-data-types-primitive-enum3c.gif)
 
 *Išvardijimo* logikoje nėra netiesiogiai konvertavimų. Tačiau galite naudoti [TEXT](er-functions-text-text.md) konvertavimo funkciją norėdami *išvardijimo* konvertavimą į teksto eilutę. Šis konvertavimas nepriklauso nuo kalbos. Norėdami sužinoti, kaip galite susieti *išvardijimo* vertę su tam tikros kalbos žymomis, žr [LISTOFFIELDS](er-functions-list-listoffields.md) ir [GETENUMVALUEBYNAME](er-functions-text-getenumvaluebyname.md) pavyzdžius.
 

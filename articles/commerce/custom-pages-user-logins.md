@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d4a1c2f45d77c3ff9a7bb4dffaf12d877dc04e69
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 214f99563f8bb08d8c051f904d0ca0a88267aa6b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936785"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349655"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Vartotojo registracijos pasirinktinių puslapių sąranka
 
@@ -40,7 +40,7 @@ Tinkintą „Commerce“ puslapį galima sukurti naudojant registravimosi, prisi
 
 Nustatę savo „Azure AD“ B2C nuomotoją ir susieję jį su savo „Commerce“ aplinka, eikite į **„Azure AD“ B2C** puslapį, esantį „Azure“ portale, ir meniu, dalyje **Strategijos**, pasirinkite **Vartotojų srautai (strategijos)**.
 
-![Meniu komanda Vartotojo srautai (strategijos)](./media/B2C_CustomPage_PoliciesMenu.png)
+![Meniu komanda Vartotojo srautai (strategijos).](./media/B2C_CustomPage_PoliciesMenu.png)
 
 Dabar galite konfigūruoti vartotojų prisijungimo srautus „Registruotis ir prisijungti“, „Profilio redagavimas“ ir „Slaptažodžio nustatymas iš naujo“.
 
@@ -54,13 +54,13 @@ Norėdami sukonfigūruoti strategiją „Registruotis ir prisijungti“, atlikit
 1. Stulpelyje **Rinkti atributą** pasirinkite žymės laukelius **El. pašto adresas**, **Vardas** ir **Pavardė**.
 1. Stulpelyje **Grįžties pareiškimas** pažymėkite žymės langelius **El. pašto adresai**, **Vardas**, **Tapatybės teikimo įrankis**, **Pavardė** ir **Vartotojo objekto ID**.
 
-    ![Pasirinkti atributai ir pareiškimai](./media/B2C_SignInSignUp_Attributes.png)
+    ![Pasirinkti atributai ir pareiškimai.](./media/B2C_SignInSignUp_Attributes.png)
 
 1. Pasirinkite **Gerai**, kad sukurtumėte strategiją.
 1. Du kartus spustelėkite naują strategijos pavadinimą, o tada naršymo srityje pasirinkite **Ypatybės**.
 1. Nustatykite parinktį **Įjungti „JavaScript“ vykdymo puslapio maketas (peržiūra)** į **Įjungta**.
 
-    ![Naujos strategijos ypatybių puslapis](./media/B2C_SignInSignUp_EnableJavascript.png)
+    ![Naujos strategijos ypatybių puslapis.](./media/B2C_SignInSignUp_EnableJavascript.png)
 
 > [!NOTE]
 > Strategijos pavadinimas bus išsamiai nurodytas „Commerce“ aplinkoje. (**B2C\_1\_** priešvardis bus įtrauktas į nuorodą.) Sukūrus strategiją, strategijų pervardyti negalima. Jei keičiate esamą „Commerce“ aplinkos strategiją, galite panaikinti pradinę strategiją ir sukurti naują strategiją, turinčią tokį patį pavadinimą. Taip pat, jei aplinka jau parengta, galite pateikti naują strategijos pavadinimą naudodami paslaugos užklausą.
@@ -150,7 +150,7 @@ Atnaujinti strategiją „Registruotis ir prisijungti“ naudokite pasirinktinę
     1. Atributams **El. pašto adresas**, **Vardas** ir **Pavardė** pasirinkite **Ne** stulpelyje **Pasirinktinis**.
 1. Pasirinkite **Įrašyti**.
 
-    ![Vietinės paskyros registravimo puslapio strategijos konfigūravimas](./media/B2C_SignInSignUp_Recommended_PageLayoutExample.png)
+    ![Vietinės paskyros registravimo puslapio strategijos konfigūravimas.](./media/B2C_SignInSignUp_Recommended_PageLayoutExample.png)
 
 ### <a name="update-the-profile-editing-policy-with-custom-page-information"></a>„Profilio redagavimas“ strategijos naujinimas naudojant pasirinktinę puslapio informaciją
 
@@ -188,11 +188,11 @@ Modulių bibliotekoje prisijungimo moduliai yra iš anksto užpildyti etikečių
 
 Pavyzdžiui, numatytasis pamiršto slaptažodžio saito tekstas **Pamiršote slaptažodį?**. Šiame prisijungimo puslapyje pateikiamas šis numatytasis tekstas.
 
-![Numatytasis pamiršto slaptažodžio saito, esančio prisijungimo puslapyje, tekstas](./media/B2C_SignUp_ModuleFace.png)
+![Numatytasis pamiršto slaptažodžio saito, esančio prisijungimo puslapyje, tekstas.](./media/B2C_SignUp_ModuleFace.png)
 
 Tačiau modulių bibliotekos, esančios prisijungimo modulyje, global.json faile galite redaguoti tekstą į **Pamiršote slaptažodį?**, kaip parodyta šioje iliustracijoje.
 
-![Atnaujintas saito tekstas prisijungimo modulio global.json faile](./media/B2C_CustomizingStringsForModule.png)
+![Atnaujintas saito tekstas prisijungimo modulio global.json faile.](./media/B2C_CustomizingStringsForModule.png)
 
 Atnaujinus global.json failą ir publikavus keitimus, naujas saito tekstas atsiranda ir „Commerce“ ir tiesioginio registravimosi puslapio prisijungimo modulyje.
 

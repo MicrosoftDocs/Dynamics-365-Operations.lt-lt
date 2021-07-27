@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bb342e700c9390e1eb9f2a9e9d67b874b3e19b8e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d50955d510dca21c3de160fd280ff53ba54926a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808261"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356469"
 ---
 # <a name="service-level-and-description"></a>Aptarnavimo lygis ir aprašas
 
@@ -45,7 +45,7 @@ Sukūrę darbo užsakymą galbūt norėsite nustatyti darbo užsakymo aptarnavim
 8. Jei be darbo užsakymo pabaigos datos norite nustatyti jo pabaigos laiką, nustatykite parinkties **Nustatyti pabaigos laiką** nuostatą **Taip**. Tada lauke **Pabaigos laikas** įveskite pabaigos laiką. Jei nustatysite parinkties nuostatą **Ne**, bus naudojamas dabartinis dienos laikas.
 9. Pasirinkite **Įrašyti**.
 
-![Darbo užsakymų paslaugos lygio puslapis](media/19-setup-for-work-orders.png)
+![Darbo užsakymų paslaugos lygio puslapis.](media/19-setup-for-work-orders.png)
 
 ## <a name="create-a-description"></a>Aprašo kūrimas
 

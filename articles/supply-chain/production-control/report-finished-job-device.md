@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bd21bdf532e1e607e66bb8f5ef032f0855c99612
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5da18ff1013f0e767ca64b090eb1559bf05cb056
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811635"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350527"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Pranešti kaip baigtą iš užduoties kortelės įrenginio
 
@@ -85,13 +85,13 @@ Norėdami leisti rankiniu būdu nustatyti paketo numerius, atlikite šiuos veiks
 1. Sukurkite arba pasirinkite sekimo numerių grupę, kurią norite nustatyti.
 1. **Bendra** skirtuke „FastTab” nustatykite **Rankinis** pasirinktį į **Taip**.
 
-    ![Sekimo numeris rankinio paketo numerio grupei](media/tracking-number-group-manual.png "Sekimo numeris rankinio paketo numerio grupei")
+    ![Sekimo numeris rankinio paketo numerio grupei.](media/tracking-number-group-manual.png "Sekimo numeris rankinio paketo numerio grupei")
 
 1. Esant poreikiui, nustatykite kitas vertes, tada pasirinkite šią sekimo numerių grupę kaip paketų numerių grupę, skirtą išleistiems produktams, kuriems norite naudoti šį scenarijų.
 
 Naudojant šį scenarijų, **Paketo numerio** laukas, kurį **Eigos ataskaita** puslapis pateikia Užduočių kortelės įrenginyje, yra teksto laukas, kuriame darbuotojai gali įvesti bet kokią vertę.
 
-![Ataskaitos eigos puslapis, kuriame yra rankinio paketo numerių laukas](media/job-card-device-batch-manual.png "Ataskaitos eigos puslapis, kuriame yra rankinio paketo numerių laukas")
+![Ataskaitos eigos puslapis, kuriame yra rankinio paketo numerių laukas.](media/job-card-device-batch-manual.png "Ataskaitos eigos puslapis, kuriame yra rankinio paketo numerių laukas")
 
 ### <a name="set-up-a-tracking-number-group-that-provides-a-list-of-predefined-batch-numbers"></a>Nustatykite sekimo numerių grupę, kuri pateikia iš anksto nustatytų paketų numerių sąrašą
 
@@ -102,13 +102,13 @@ Norėdami pateikti iš anksto nustatytų paketo numerių sąrašą, atlikite ši
 1. **Bendra** skirtuke „FastTab” nustatykite **Tik atsargų operacijos** pasirinktį į **Taip**.
 1. Naudokite **Kiekiui** laukelį, kad išskirstytumėte paketo numerius pagal kiekį pagal jūsų įvedamą vertę. Pavyzdžiui, turite produkto užsakymą dešimčiai veinetų, o **Kiekio** laukelis yra nustatytas į *2*. Šiuo atveju, sukurti penki paketo numerius bus priskirti gamybos užsakymui.
 
-    ![Sekimo numeris iš anksto nustatyto paketo numerių grupei](media/tracking-number-group-predefined.png "Sekimo numeris iš anksto nustatyto paketo numerių grupei")
+    ![Sekimo numeris iš anksto nustatyto paketo numerių grupei.](media/tracking-number-group-predefined.png "Sekimo numeris iš anksto nustatyto paketo numerių grupei")
 
 1. Esant poreikiui, nustatykite kitas vertes, tada pasirinkite šią sekimo numerių grupę kaip paketų numerių grupę, skirtą išleistiems produktams, kuriems norite naudoti šį scenarijų.
 
 Naudojant šį scenarijų, **Paketo numerio** laukas, kurį **Eigos ataskaita** puslapis pateikia Užduočių kortelės įrenginyje, yra išsiskleidžiantis dialogo sąrašas, kuriame darbuotojai turi įvesti iš anksto nustatytą vertę.
 
-![Ataskaitos eigos puslapi su iš anksto nustatytų paketo numerių laukas](media/job-card-device-batch-predefined.png "Ataskaitos eigos puslapi su iš anksto nustatytų paketo numerių laukas")
+![Ataskaitos eigos puslapi su iš anksto nustatytų paketo numerių laukas.](media/job-card-device-batch-predefined.png "Ataskaitos eigos puslapi su iš anksto nustatytų paketo numerių laukas")
 
 ### <a name="set-up-a-tracking-number-group-that-automatically-assigns-batch-numbers"></a>Nustatykite sekimo numerių grupę, kuri leidžia automatiškai priskirti paketo numerius
 
@@ -119,13 +119,13 @@ Jei paketo numeriai turi būti automatiškai priskirti, be darbuotojo įvesties,
 1. **Bendra** skirtuke „FastTab” nustatykite **Tik atsargų operacijos** pasirinktį į **Ne**.
 1. Nustatykite **Rankinis** pasirinktis **Nr.**.
 
-    ![Sekimo numeris fiksuoto paketo numerio grupei](media/tracking-number-group-fixed.png "Sekimo numeris fiksuoto paketo numerio grupei")
+    ![Sekimo numeris fiksuoto paketo numerio grupei.](media/tracking-number-group-fixed.png "Sekimo numeris fiksuoto paketo numerio grupei")
 
 1. Esant poreikiui, nustatykite kitas vertes, tada pasirinkite šią sekimo numerių grupę kaip paketų numerių grupę, skirtą išleistiems produktams, kuriems norite naudoti šį scenarijų.
 
 Naudojant šį scenarijų, **Paketo numerio** laukas, kurį **Eigos ataskaita** puslapis pateikia Užduočių kortelės įrenginyje, rodo vertę, bet darbuotojai negali redaguoti.
 
-![Ataskaitos eigos puslapis su fiksuotu paketo numeriu](media/job-card-device-batch-fixed.png "Ataskaitos eigos puslapis su fiksuotu paketo numeriu")
+![Ataskaitos eigos puslapis su fiksuotu paketo numeriu.](media/job-card-device-batch-fixed.png "Ataskaitos eigos puslapis su fiksuotu paketo numeriu")
 
 ## <a name="report-serial-controlled-items-as-finished"></a>Raportuoti serijines kontroliuojamas prekes kaip baigtas
 
@@ -165,7 +165,7 @@ Tam, kad leistumėte rankiniu būdu priskirti serijinius numerius, atlikite šiu
 1. Sukurkite arba pasirinkite sekimo numerių grupę, kurią norite nustatyti.
 1. **Bendra** skirtuke „FastTab” nustatykite **Rankinis** pasirinktį į **Taip**.
 
-    ![Sekimo numeris grupių puslapiui, serijiniams numeriams](media/tracking-number-group-manual-serial.png "Sekimo numeris grupių puslapiui, serijiniams numeriams")
+    ![Sekimo numeris grupių puslapiui, serijiniams numeriams.](media/tracking-number-group-manual-serial.png "Sekimo numeris grupių puslapiui, serijiniams numeriams")
 
 1. Nustatykite kitas jūsų norimas vertes ir tuomet pasirinkite šią sekimo numerio grupę kaip serijinio numerio grupę išleistiems produktams, kuriuos norite naudoti šiam scenarijui.
 
@@ -174,7 +174,7 @@ Kai naudojate šį scenarijų, **Serijinio numerio** laukelis tam **Ataskaitos p
 - Tam, kad pažymėtų serijinį numerį kaip pašalintą, pasirinkite **Šalinti** mygtuką tinkamai eilutei. Darbuotojas bus paskatintas pateikti **Klaidos priežastį**.
 - Tam, kad panaikintų serijinį numerį kaip pašalintą, pasirinkite **Naikinti** mygtuką tinkamai eilutei.
 
-![Ataskaitos progreso puslapis su laukeliu rankiniams serijiniams numeriams](media/job-card-device-serial-manual.png "Ataskaitos progreso puslapis su laukeliu rankiniams serijiniams numeriams")
+![Ataskaitos progreso puslapis su laukeliu rankiniams serijiniams numeriams.](media/job-card-device-serial-manual.png "Ataskaitos progreso puslapis su laukeliu rankiniams serijiniams numeriams")
 
 ### <a name="set-up-a-tracking-number-group-that-provides-a-list-of-predefined-serial-numbers"></a>Nustatyti sekimo numerio grupę, kuri suteikia iš anksto nustatytų serijinių numerių sąrašą
 
@@ -185,13 +185,13 @@ Tam, kad pateiktumėte iš anksto nustatytą serijinių numerių sąrašą, atli
 1. **Bendra** skirtuke „FastTab” nustatykite **Tik atsargų operacijos** pasirinktį į **Taip**.
 1. Naudokite **Kiekiui** laukelį, kad išskirstytumėte serijinius numerius kiekiams po vieną.
 
-    ![Sekimo numeris iš anksto nustatyto serijinių numerių grupei](media/tracking-number-group-predefined-sn.png "Sekimo numeris iš anksto nustatyto serijinių numerių grupei")
+    ![Sekimo numeris iš anksto nustatyto serijinių numerių grupei.](media/tracking-number-group-predefined-sn.png "Sekimo numeris iš anksto nustatyto serijinių numerių grupei")
 
 1. Nustatykite kitas jūsų norimas vertes ir tuomet pasirinkite šią sekimo numerio grupę kaip serijinio numerio grupę išleistiems produktams, kuriuos norite naudoti šiam scenarijui.
 
 Kai naudojate šį scenarijų, **Serijinio numerio** laukelis tam **Ataskaitos progreso** puslapiui darbo kortelės prietaise pateikia iškrentantį sąrašą, kuriame darbuotojai privalo pasirinkti iš anksto nustatytą vertę.
 
-![Ataskaitos progreso puslapis su iš anksto nustatytų serijinių numerių sąrašu](media/job-card-device-serial-predefined.png "Ataskaitos progreso puslapis su iš anksto nustatytų serijinių numerių sąrašu")
+![Ataskaitos progreso puslapis su iš anksto nustatytų serijinių numerių sąrašu.](media/job-card-device-serial-predefined.png "Ataskaitos progreso puslapis su iš anksto nustatytų serijinių numerių sąrašu")
 
 ### <a name="set-up-a-tracking-number-group-that-automatically-assigns-serial-numbers"></a>Nustatyti sekimo numerio grupę, kuri automatiškai priskiria serijinius numerius
 
@@ -202,13 +202,13 @@ Jei serijinis numeris turi būti priskirtas automatiškai be darbuotojo indėlio
 1. **Bendra** skirtuke „FastTab” nustatykite **Tik atsargų operacijos** pasirinktį į **Ne**.
 1. Nustatykite **Rankinis** pasirinktis **Nr.**.
 
-    ![Sekimo numeris fiksuoto serijinio numerio grupei](media/tracking-number-group-fixed-sn.png "Sekimo numeris fiksuoto serijinio numerio grupei")
+    ![Sekimo numeris fiksuoto serijinio numerio grupei.](media/tracking-number-group-fixed-sn.png "Sekimo numeris fiksuoto serijinio numerio grupei")
 
 1. Nustatykite kitas jūsų norimas vertes ir tuomet pasirinkite šią sekimo numerio grupę kaip serijinio numerio grupę išleistiems produktams, kuriuos norite naudoti šiam scenarijui.
 
 Kai naudojate šį scenarijų, **Serijinio numerio** laukelis tam **Ataskaitos progreso** puslapiui darbo kortelės prietaise pateikia vertę, tačiau darbuotojai jos redaguoti negali. Šis scenarijus tinkamas, jei gamybos užsakymas yra sukurta serijinio numerio kontroliuojamos prekės vieno vieneto kiekiui.
 
-![Ataskaitos progreso puslapis su fiksuotu serijiniu numeriu](media/job-card-device-serial-fixed.png "Ataskaitos progreso puslapis su fiksuotu serijiniu numeriu")
+![Ataskaitos progreso puslapis su fiksuotu serijiniu numeriu.](media/job-card-device-serial-fixed.png "Ataskaitos progreso puslapis su fiksuotu serijiniu numeriu")
 
 ## <a name="report-as-finished-to-a-license-plate"></a>Praneškite kaip baigta į numerio lentelę
 
@@ -232,7 +232,7 @@ Norėdami kontroliuoti, ar darbuotojai turėtų dar kartą panaudoti numerio len
     - **Generuoti numerio lentelę** – nustatykite šią pasirinktį į **Taip**, kad sugeneruotumėte naują numerio lentelę kiekvienai baigimo ataskaitai. Nustatykite į **Ne**, jei esama numerio lentelė turėtų būti naudojama kiekvienai baigimo ataskaitai.
     - **Spausdinti etiketę** – nustatykite šią pasirinktį į **Taip**, jei darbuotojas privalo atspausdinti numerio lentelės etiketę kiekvienai baigimo ataskaitai. Nustatykite į **Ne**, jei nereikia nei vienos etiketės. 
 
-![Užduoties kortelės konfigūravimas įrenginių puslapiui](media/config-job-card-raf.png "Užduoties kortelės konfigūravimas įrenginių puslapiui")
+![Užduoties kortelės konfigūravimas įrenginių puslapiui.](media/config-job-card-raf.png "Užduoties kortelės konfigūravimas įrenginių puslapiui")
 
 > [!NOTE]
 > Norėdami konfigūruoti etiketę, eikite į **Sandėlio valdymas \> Sąranka \> Dokumentų nukreipimas \> Dokumentų nukreipimas**. Norėdami gauti daugiau informacijos, žr. [Numerio lentelės etiketės spausdinimo įjungimas](../warehousing/tasks/license-plate-label-printing.md).

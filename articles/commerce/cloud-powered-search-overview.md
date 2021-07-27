@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b5182df9d45a3b5d2572a5b6b391c924ef23bf9a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b7e8a37e31201845b94547850b8979a103f0729e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800426"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352669"
 ---
 # <a name="cloud-powered-search-overview"></a>Debesų technologija valdomos ieškos apžvalga
 
@@ -41,7 +41,7 @@ Ieškos aktualumas ir našumas yra pagrindiniai daugiakanalės platformos patirt
 
 Toliau pateiktoje iliustracijoje parodytas įprastų naršymo ir ieškos funkcijų pavyzdys.
 
-![Ieškos nukreipimo puslapis](./media/SearchLanding.png)
+![Ieškos nukreipimo puslapis.](./media/SearchLanding.png)
 
 ## <a name="faceted-navigation-and-choice-summary"></a>Ypatybėmis pagrįstas naršymas ir pasirinkimų suvestinė 
 
@@ -51,7 +51,7 @@ Naudodami ypatybėmis pagrįsto naršymo funkciją, skirtingiems terminų rinkin
 
 Toliau pateiktoje iliustracijoje parodytas pavyzdys, kai ieškant naudojama ypatybėmis pagrįsto naršymo funkcija.
 
-![Pasirinkimų suvestinė](./media/ChoiceSummary.png)
+![Pasirinkimų suvestinė.](./media/ChoiceSummary.png)
 
 ## <a name="immersive-autosuggest"></a>Įtraukianti automatinio siūlymo funkcija
 
@@ -61,7 +61,7 @@ Dabartinė automatinio siūlymo funkcija tik parodo raktažodžius, kurie suakty
 
 Toliau pateiktoje iliustracijoje parodytas pavyzdys, kuriame naudojama įtraukianti automatinio siūlymo funkcija.
 
-![įtraukianti automatinio siūlymo funkcija](./media/ImmersiveAutoSuggestUX.png)
+![įtraukianti automatinio siūlymo funkcija.](./media/ImmersiveAutoSuggestUX.png)
 
 ## <a name="sort"></a>Rūšiuoti
 
@@ -69,7 +69,7 @@ Patobulintos „Dynamics 365 Commerce“ rikiavimo galimybės klientams leidžia
 
 >[!NOTE]
 >Šios debesų kompiuterijos ieškos galimybės prieinamos 10.0.8 versijoje. Įsitikinkite, kad dalyje **Prekybos parametrai > Konfigūracijos parametrai** yra įrašas, skirtas „Productsearch.UseAzureSearch” nustatytas kaip „true”. 
-![Konfigūracijos parametrai debesies aplinkos ieškoje](./media/CloudPoweredSearchConfigurationParameters.png)
+![Konfigūracijos parametrai debesies aplinkos ieškoje.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

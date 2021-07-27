@@ -2,7 +2,7 @@
 title: Reklaminės juostos modulis
 description: Šioje temoje aprašomi reklaminės juostos moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: be3cc9729b58fce9ebc9885d8cb20b63114362a0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3158916f96522bec6e7511f2d9daf61d36ffe8c6
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796251"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479357"
 ---
 # <a name="promo-banner-module"></a>Reklaminės juostos modulis
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šioje temoje aprašomi reklaminės juostos moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 
@@ -34,7 +35,7 @@ Reklaminės juostos moduliai palaiko tekstinio pranešimo ir saito galimybę. Je
 
 Reklaminės juostos moduliai grindžiami turinio valdymo sistemos (TVS) duomenimis ir jų galima įdėti bet kuriame puslapyje.
 
-## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>Reklaminės juostos el. prekyboje naudojimo pavyzdžiai
+## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>Reklaminių juostų naudojimo elektroninėje prekyboje pavyzdžiai
 
 Reklamines juostas galima naudoti svetainės antraštėje, kad būtų rodomos visos svetainės akcijos ar pranešimai, kaip pateikiama šiuose pavyzdžiuose.
 
@@ -46,11 +47,11 @@ Reklamines juostas galima naudoti svetainės antraštėje, kad būtų rodomos vi
 
 Toliau pateiktame vaizde parodytas reklaminės juostos pavyzdys.
 
-![Reklaminės juostos modulio pavyzdys](./media/ecommerce-Promobanner.PNG)
+![Reklaminės juostos modulio pavyzdys.](./media/ecommerce-Promobanner.PNG)
 
 ## <a name="promo-banner-module-properties"></a>Reklaminės juostos modulio ypatybės
 
-| Ypatybės pavadinimas             | Vertė                              | aprašymas |
+| Ypatybės pavadinimas             | Reikšmė                              | Aprašas |
 |---------------------------|------------------------------------|-------------|
 | Juostos pranešimai           | Tekstas ir saitai                     | Teksto ir saitų masyvas. |
 | Automatinis paleidimas                  | **Teisinga** arba **Klaidinga**              | Reikšmė, nurodanti, ar pranešimai automatiškai atlieka visą ciklą, jei sukonfigūruoti keli pranešimai. |
@@ -59,6 +60,10 @@ Toliau pateiktame vaizde parodytas reklaminės juostos pavyzdys.
 | Karuselės peleko rodymas     | **Teisinga** arba **Klaidinga**              | Reikšmė, nurodanti, ar reikia rodyti karuselės pelekus, kad klientai galėtų rankiniu būdu pereiti per kelis reklaminės juostos elementus. |
 | Teksto išlygiavimas            | **Kairėje**, **Dešinėje** arba **Centre** | Teksto lygiuotė reklaminės juostos modulyje. |
 | Saitas                      | A URL                              | Nebūtino saito URL. |
+|Teksto lygiuotė             | **Kairėje**, **Dešinėje** arba **Centre** | Ši ypatybė yra galima kaip temos plėtinys „Adventure Works” temoje. JI leidžia vartotojui nustatyti teksto lygiavimą reklaminėje juostoje. |
+
+> [!IMPORTANT]
+> „Adventure Works” temą galima naudoti kaip 10.0.20 „Dynamics 365 Commerce” versijos leidimą.
 
 ## <a name="add-a-promo-banner-module-to-a-page"></a>Reklaminės juostos modulio įtraukimas į puslapį 
 
@@ -78,7 +83,6 @@ Norėdami į puslapį įtraukti reklaminės juostos modulį ir nustatyti reikiam
 
 > [!NOTE]
 > Reklaminė juosta paprastai naudojama puslapio antraštės atkarpoje arba paantraštės atkarpoje.
-
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

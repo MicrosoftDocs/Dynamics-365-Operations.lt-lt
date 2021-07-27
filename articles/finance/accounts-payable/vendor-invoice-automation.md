@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d776ad4eda623f55a69d81eefd0e88842d9da401
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 217c5d6d6df88eccf377fbf604eb0a1eb0ba7c9c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841242"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344811"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Nuskaitytų dokumentų sąskaitų faktūrų automatizavimas
 
@@ -34,7 +34,7 @@ SF automatizavimo sprendimas suteikia standartinę sąsają, kuri gali priimti S
 
 Pateiktame paveikslėlyje parodytas integravimo scenarijaus pavyzdys, kuriame „Contoso“ bendradarbiauja su OCR paslaugų tiekėju dėl tiekėjo SF apdorojimo. „Contoso“ tiekėjai siunčia SF paslaugų teikėjui el. paštu. Naudodamas OCR apdorojimą paslaugų teikėjas sugeneruoja SF metaduomenis (antraštė ir / arba eilutės) ir nuskaito SF vaizdą. Tada integravimo sluoksnis transformuoja šiuos artefaktus taip, kad juos būtų galima naudoti.
 
-![Integravimo scenarijaus pavyzdys](media/vendor_invoice_automation_01.png)
+![Integravimo scenarijaus pavyzdys.](media/vendor_invoice_automation_01.png)
 
 Jei būtinas SF integravimas, galimi keli anksčiau nurodyto scenarijaus variantai. Duomenų perkėlimas yra dar vienas naudojimo atvejis, kai ši sąsaja gali būti naudojama norint sukurti SF ir priedus.
 
@@ -92,7 +92,7 @@ Tokiais atvejais, kai tiekėjo SF pasiekia „Finance and Operations“ naudojan
 
 Naujas SF išimčių sąrašo puslapis yra pasiekiamas atsidarius **Mokėtinos sumos** > **SF** > **Importavimo triktys** > **Tiekėjo SF, kurių nepavyko importuoti**. Šiame puslapyje rodomi visi tiekėjo SF antraščių įrašai iš tiekėjo SF antraščių duomenų objekto išdėstymo lentelės. Atsikreipkite dėmesį, kad jūs galite peržiūrėti tuos pačius **įrašus duomenų valdymo** darbo srityje. Atkreipkite dėmesį, kad tuos pačius įrašus galite peržiūrėti iš **Duomenų valdymo** darbo srities, kurioje galite atlikti tuos pačius veiksmus, kurie pateikiami išimčių tvarkymo funkcijoje. Išimčių tvarkymo funkcija optimizuota funkciniam vartotojui, todėl ją lengviau naudoti.
 
-![Išimčių sąrašo puslapis](media/vendor_invoice_automation_02.png)
+![Išimčių sąrašo puslapis.](media/vendor_invoice_automation_02.png)
 
 Šiame sąrašo puslapyje yra tokie laukai, gaunami naudojant informacijos santrauką:
 
@@ -136,11 +136,11 @@ Išimčių sąrašo puslapis palaiko standartines saugos struktūras, kurias **D
 + Pagal vartotoją
 + Pagal juridinį subjektą
 
-![Importavimo užduotis, apsaugota pagal vartotojo vaidmenį ir juridinį subjektą](media/vendor_invoice_automation_04.png)
+![Importavimo užduotis, apsaugota pagal vartotojo vaidmenį ir juridinį subjektą.](media/vendor_invoice_automation_04.png)
 
 Jei sukonfigūruota SF importavimo užduoties sauga, išimčių sąrašo puslapis atsižvelgia į šiuos parametrus. Vartotojai galės matyti tik SF išimčių įrašus, kuriuos šis nustatymas leis jiems matyti.
 
-Pvz., „Contoso“ nusprendė apdoroti SF išimtis pagal juridinį subjektą. Todėl SF importavimo užduoties sauga konfigūruojama taip, kad juridinio subjekto A vartotojas galėtų matyti tik SF išimtis juridiniame subjekte A, o juridinio subjekto B vartotojas galėtų matyti tik SF išimtis juridiniame subjekte B. Toks nustatymas leidžia atskirti SF išimčių tvarkymo pareigas.
+Pavyzdžiui, „Contoso“ nusprendė apdoroti SF išimtis pagal juridinį subjektą. Todėl SF importavimo užduoties sauga konfigūruojama taip, kad juridinio subjekto A vartotojas galėtų matyti tik SF išimtis juridiniame subjekte A, o juridinio subjekto B vartotojas galėtų matyti tik SF išimtis juridiniame subjekte B. Toks nustatymas leidžia atskirti SF išimčių tvarkymo pareigas.
 
 Be to, „Contoso“ gali nuspręsti netaikyti jokios saugos, kad tie patys vartotojai galėtų apdoroti SF išimtis visuose juridiniuose subjektuose. Šis nustatymas įgalina SF išimčių tvarkymo bendrai naudojamų paslaugų scenarijų.
 

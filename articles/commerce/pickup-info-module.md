@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 063701d5cd5714febeb32907346d9f6e5c2a2ca1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9428eda880d534c700646b52310c6b8befdebaf2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804410"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353809"
 ---
 # <a name="pickup-information-module"></a>Paėmimo informacijos modulis
 
@@ -40,7 +40,7 @@ Jei kelios prekės pasirenkamos paėmimui keliose parduotuvių, paėmimo informa
 
 Tolesnis paveikslėlis rodo pavyzdį laiko vietos pasirinkimo per paėmimo informacijos modulį išsiregistravimo puslapyje.
 
-![Paėmimo informacijos modulio pavyzdys išsiregistravimo puslapyje](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Paėmimo informacijos modulio pavyzdys išsiregistravimo puslapyje.](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="module-properties"></a>Modulio ypatybės
 
@@ -56,11 +56,11 @@ Dėl instrukcijų, kaip įtraukti paėmimo informacijos modulį į išsiregistra
 
 Tolesnis paveikslėlis rodo e-komercijos išsiregistravimo puslapio pavyzdį, kuris apima laiko vietas paėmimo eilučių prekėms.
 
-![E-komercijos išsiregistravimo puslapio pavyzdys, kuris apima laiko vietas paėmimo eilučių prekėms.](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![E-komercijos išsiregistravimo puslapio pavyzdys, apimantis laiko vietas paėmimo eilučių prekėms.](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Sukurti ir naujinti laiko vietas kliento paėmimu](dev-itpro/pickup-timeslots.md)
+[Kliento paėmimo laiko atkarpų kūrimas ir naujinimas](dev-itpro/pickup-timeslots.md)
 
 [Pirkimo užbaigimo modulis](add-checkout-module.md)
 

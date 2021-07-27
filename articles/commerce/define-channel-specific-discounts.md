@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c4003bd78e400994f3c164d2f7e8e3aa5ce93146
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 76b8111ddc9e634ce689999da7b8621f550afc5b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802074"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349581"
 ---
 # <a name="define-channel-specific-discounts"></a>Kanalui būdingų nuolaidų nustatymas
 
@@ -37,7 +37,7 @@ Pardavėjai dažnai skirtinguose kanaluose siūlo skirtingas nuolaidas. Taip gal
 
 ## <a name="price-groups"></a>Kainų grupės
 
-[![Kainų grupės](./media/price-groups-1024x608.png)](./media/price-groups.png)
+[![Kainų grupės.](./media/price-groups-1024x608.png)](./media/price-groups.png)
 
 Aukščiau pateiktoje diagramoje iliustruojamas ryšys tarp galimų operacijos (kanalo, katalogo, priskyrimo, kliento, lojalumo kortelės) objektų ir įvairių nuolaidų tipų, kuriuos galima sukonfigūruoti. Visos operacijos vyksta kanale, todėl kanalas operacijoje tikrai bus. Likę objektai yra neprivalomi. Kiekviename bendrųjų duomenų puslapyje yra saitas į susijusių kainų grupių puslapį, kuriame galite peržiūrėti kainų grupes ir pagal poreikį jų pridėti. Kainų grupė naudojama keturių skirtingų tipų objektams susieti su nuolaidomis, kainų koregavimais ir prekybos sutartimis. Rekomenduojame susiplanuoti strategiją, kaip savo kainų grupes įvardysite, kad jos išliktų susistemintos. Viena galimybė galėtų būti naudoti raidinį arba skaitinį prievardį ar povardį, kad būtų galima atskirti skirtingus tipus. Pavyzdžiui, 1-xxxxx naudoti kanalų kainų grupėms, o 2-xxxxx – katalogų kainų grupėms. Yra keturi užklausų puslapiai, kuriuose dėmesys skiriamas kiekvienam prekybos objektui, su kuriuo gali būti susietos nuolaidos.
 

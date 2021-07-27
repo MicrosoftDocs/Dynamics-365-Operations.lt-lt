@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a574494784e9a534307cceff584e047d870dc401
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 81cbabb2499fc0fdf3c043c9b15e4429b036e3c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027944"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352041"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Krepšelio ir pirkimo užbaigimo puslapių apžvalga
 
@@ -37,7 +38,7 @@ Krepšelio puslapis naudojamas kaip pirkinių krepšelis ir apima visas prekes, 
 
 Toliau pateiktame paveikslėlyje parodytas krepšelio puslapio pavyzdys, kuris buvo sukurtas naudojant modulių biblioteką ir „Fabrikam“ temą.
 
-![Krepšelio puslapio pavyzdys](./media/cart2.PNG)
+![Krepšelio puslapio pavyzdys.](./media/cart2.PNG)
 
 Pagrindinėje krepšelio puslapio struktūroje pateikiamos visos prekės, kurias klientas įdėjo į krepšelį. Yra pademonstruotos visos taikomos nuolaidos. Šios nuolaidos apima sudėtines nuolaidas. Pavyzdžiui, „Pirkite 3 prekes ir gaukite 10% nuolaidą“ arba „įsigykite buteliuką ir kuprinę ir gaukite 10% nuolaidą.“ Užsakymo suvestinės modulyje rodoma suma, mokėtina pritaikius nuolaidas, su siuntimo išlaidomis, mokesčiais ir t. t. Taip pat yra reklaminio kodo modulis, kuris leidžia klientui taikyti arba pašalinti reklaminius kodus.
 
@@ -53,7 +54,7 @@ Pirkimo užbaigimo puslapis yra vieta, kurioje klientai įveda informaciją, rei
 
 Toliau pateiktame paveikslėlyje parodytas pirkimo užbaigimo puslapio pavyzdys, kuris buvo sukurtas naudojant modulių biblioteką.
 
-![Pirkimo užbaigimo puslapio pavyzdys](./media/Checkout.PNG)
+![Pirkimo užbaigimo puslapio pavyzdys.](./media/Checkout.PNG)
 
 Pagrindinė pirkimo užbaigimo puslapio struktūra yra vieta, kur renkama visa užsakymo informacija. Ši informacija apima siuntimo adresą, pristatymo pasirinktis ir informaciją apie mokėjimą. Užbaigti pirkimą atliekamas nuoseklus srautas, nes informacija turi būti įvesta tam tikra apdorota tvarka. Pavyzdžiui, siuntimo adresą reikia įvesti prieš apskaičiuojant siuntimo išlaidas ir patvirtinant mokėjimą.
 

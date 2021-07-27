@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06e2439da464c53fd648aaf3e3659babdbc50acd
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: bfcbeaa64aa00f19dc72cf5256ead47654808ed9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188939"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350503"
 ---
 # <a name="routes-and-operations"></a>Maršrutai ir operacijos
 
@@ -45,7 +45,7 @@ Maršrute aprašyta operacijų tvarka, kuri naudojama norint pagaminti produktą
 
 Paprastas maršrutas yra nuoseklus ir turi tik vieną maršruto pradžios datą.  
 
-[![Paprastas maršrutas](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
+[![Paprastas maršrutas.](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
 Jei gamybos kontrolės parametruose įjungsite tik paprastus maršrutus, jums apibrėžiant maršrutą,„ Supply Chain Management” automatiškai generuoja operacijų numerius (10, 20, 30 ir t. t.).
 
@@ -53,7 +53,7 @@ Jei gamybos kontrolės parametruose įjungsite tik paprastus maršrutus, jums ap
 
 Jei gamybos kontrolės parametruose įgalinsite sudėtingesnius maršrutų tinklus, galėsite apibrėžti maršrutus, kurie turi kelias pradžios datas, ir operacijas, kurias galima vykdyti lygiagrečiai.  
 
-[![Maršrutų tinklas](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Maršrutų tinklas.](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
 > - Kiekviena operacija gali turėti tik vieną vėlesnę operaciją, o visas maršrutas turi baigtis viena operacija.
@@ -64,7 +64,7 @@ Jei gamybos kontrolės parametruose įgalinsite sudėtingesnius maršrutų tinkl
 
 Kartais, norint atlikti operaciją, reikia kelių operacijų išteklių su skirtingomis charakteristikomis derinio. Pvz., operacijų rinkiniui gali reikėti įrenginio, įrankio ir vieno darbininko dviem įrenginiams – operacijai peržiūrėti. Šį pavyzdį galima sumodeliuoti naudojant lygiagrečias operacijas, kur viena operacija pažymėta kaip pirminė operacija, o kitos – kaip antrinės operacijos.  
 
-[![Maršrutas, turintis pirminių ir antrinių operacijų](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
+[![Maršrutas, turintis pirminių ir antrinių operacijų.](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
 
 Paprastai pirminė operacija nurodo ribotosios spartos išteklių ir nustato antrinių operacijų vykdymo laiką. Tačiau planavimo metu, kai apimamas ir ribotas pajėgumas, ir pirminei operacijai, ir antrinėms operacijoms planuojami ištekliai tuo pačiu metu turi būti pasiekiami ir turėti laisvų pajėgumų.  
 
