@@ -10,12 +10,12 @@ ms.search.region: global
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: eb4170ef6cb09c862f6a4163670c519d5d8077fb
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: e604e1491bbafa041fa3f52ad0f8b454c63d47de
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103574"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359368"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Dvigubo rašymo sąranka iš „Lifecycle Services“
 
@@ -40,7 +40,7 @@ Norėdami nustatyti dvigubą rašymą iš LCS **Aplinkos informacijos** puslapio
 
 2. Pasirinkite **Dvigubo rašymo programos** mygtuką.
 
-    ![„Power Platform“ integravimas](media/powerplat_integration_step2.png)
+    ![„Power Platform“ Integravimas.](media/powerplat_integration_step2.png)
 
 3. Peržiūrėkite sąlygas ir nuostatas, o tada pasirinkite **Konfigūruoti**.
 
@@ -52,7 +52,7 @@ Norėdami nustatyti dvigubą rašymą iš LCS **Aplinkos informacijos** puslapio
 
 7. Pasirinkite **Saitas į „Power Platform” aplinką**, kad sukurtumėte saitą tarp „Dataverse” ir dabartinės aplinkos duomenų bazių. Įprastai tai trunka mažiau nei 5 minutes.
 
-    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Saitas į Power Platform aplinką":::
+    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Saitas į Power Platform aplinką.":::
 
 8. Užbaigus susiejimą, rodomas hipersaitas. Naudokite saitą, kad prisiregistruotumėte prie dvigubo rašymo administravimo srities „Finance and Operations” aplinkoje. Iš ten galite nustatyti objektų susiejimus.
 

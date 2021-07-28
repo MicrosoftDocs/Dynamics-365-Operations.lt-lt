@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 184a1cb5d3851e26b41340b711c51ef38e06eb53
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 74005d17e2524b922b0fab1aab5350b85dfad771
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186647"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355681"
 ---
 # <a name="improve-the-prediction-model-preview"></a>Prognozės modelio tobulinimas (peržiūros versija)
 
@@ -33,7 +33,7 @@ ms.locfileid: "6186647"
 
 Pirmiausia turite pasirinkti vieną ar daugiau iš trijų galimų SF rezultatų: **Laiku**, **Vėlavimas** ir **Žymus vėlavimas**. Turi būti parenkami visi trys rezultatai. Jei išvalysite bet kurio iš rezultatų žymėjimą, SF bus išfiltruota iš mokymo proceso ir bus sumažintas prognozavimas.
 
-[![Rezultatų patvirtinimas](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
+[![Rezultatų patvirtinimas.](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
 
 Jei jūsų organizacijai reikalingi tik du rezultatai, pakeiskite **Vėlavimas** ir **Žymus vėlavimas** ribines vertes į 0 (nulį) dienų. Tokiu būdu galite efektyviai sutraukti prognozavimą į dvejetainę būseną **Laiku** arba **Vėlavimas**.
 
@@ -51,7 +51,7 @@ Toliau esančiuose skyriuose pateikiami laukai, kurie galimi SF ir kliento objek
 
 Šiame paveiksle parodyti laukeliai, kurie yra prieinami sąskaitos lentelei.
 
-[![Prieinami laukeliai sąskaitos lentelei](./media/available-fields.png)](./media/available-fields.png)
+[![Prieinami laukeliai sąskaitos lentelei.](./media/available-fields.png)](./media/available-fields.png)
 
 Šie laukai neturėtų būti parenkami mokymui.
 
@@ -66,7 +66,7 @@ Toliau esančiuose skyriuose pateikiami laukai, kurie galimi SF ir kliento objek
 
 Šiame paveiksle parodyti laukeliai, kurie yra prieinami kliento lentelei.
 
-[![Prieinami laukeliai kliento lentelei](./media/related-entities.png)](./media/related-entities.png)
+[![Prieinami laukeliai kliento lentelei.](./media/related-entities.png)](./media/related-entities.png)
 
 Šis laukas neturėtų būti parenkamas mokymui.
 
@@ -74,8 +74,8 @@ Toliau esančiuose skyriuose pateikiami laukai, kurie galimi SF ir kliento objek
 
 ## <a name="filters"></a>Filtrai
 
-Šiuo metu filtrai nepalaiko kliento mokėjimo prognozavimo scenarijaus. Todėl pasirinkite **Praleisti šį veiksmą** ir pereikite prie suvestinės puslapio.
+Galite filtruoti sąskaitas faktūras, naudojamas mokymo metu, nustatydami SF arba klientų lentelių laukų filtro kriterijus. Pavyzdžiui, galite nustatyti ribinę vertę, kad būtų įtrauktos tik tos sąskaitos faktūros, kurių suma atitinka arba viršija konkrečią sumą. Taip pat galite neįtraukti sąskaitų faktūrų, kurios susietos su konkrečios klientų grupės klientais.
 
-[![Fokusavimo režimas su filtrais](./media/focus-model-with-filters.png)](./media/focus-model-with-filters.png)
+Daugiau informacijos apie duomenų filtravimą ieškokite [Prognozės modelio kūrimas](https://docs.microsoft.com/ai-builder/prediction-create-model#filter-your-data).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

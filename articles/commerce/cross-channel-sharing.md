@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: de317c2fae4607f5b8b887dd5e866d812043dcd3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a5f35dc48dbdf89e963108e9e8ef6faec326f970
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799522"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349727"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Bendrinimo tarp kelių kanalų įjungimas
 
@@ -48,15 +48,15 @@ Norėdami įjungti kelių kanalų bendrinimo funkciją „Commerce” svetainių
 1. Eikite į **Svetainės parametrai \> Funkcijos**.
 1. Nustatykite funkcijos **Keli kanalai** parinktį į **Įjungta**.
 
-    ![Parinktis Keli kanalai nustatyta į Įjungta „Commerce” svetainių daryklėje](./media/enabling-cross-channel-sharing.png)
+    ![Parinktis Keli kanalai nustatyta į Įjungta „Commerce” svetainių daryklėje.](./media/enabling-cross-channel-sharing.png)
 
 Po to, kai įgalinsite kelių kanalų bendrinimo funkciją, kelių kanalų informacija bus rodoma skyriuje **Kanalai** , esančiame **Svetainės parametrai \> Funkcijos**, kaip parodyta toliau pateiktos iliustracijos pavyzdyje.
 
-![Kanalų informacija matoma, kai įjungta kelių kanalų bendrinimo funkcija](./media/channels-cross-channel.png)
+![Kanalų informacija matoma, kai įjungta kelių kanalų bendrinimo funkcija.](./media/channels-cross-channel.png)
 
 Be to, įjungus kelių kanalų bendrinimo funkciją, į lauką **Kanalas**, esantį viršutiniame dešiniajame „Commerce” svetainių daryklės kampe, bus įtraukta parinktis **Kelių kanalų internetinė parduotuvė**, kurią galima naudoti kelių kanalų turiniui valdyti, kaip parodyta toliau pateiktoje iliustracijoje.
 
-![Parinktis Kelių kanalų internetinė parduotuvė, esanti lauke Kanalai, įjungus kelių kanalų bendrinimo funkciją](./media/cross-channel-dropdown.png)
+![Parinktis Kelių kanalų internetinė parduotuvė, esanti lauke Kanalai, įjungus kelių kanalų bendrinimo funkciją.](./media/cross-channel-dropdown.png)
 
 ## <a name="create-and-use-cross-channel-content"></a>Kelių kanalų turinio kūrimas ir naudojimas
 

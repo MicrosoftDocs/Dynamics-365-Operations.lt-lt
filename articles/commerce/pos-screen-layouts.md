@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b617ce4358a6b6aaacea9069d8db40c4aa82b7ed
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 01797b5a1c29ee608e7796319a18d6402b542409
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798710"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353759"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>EKA vartotojo sąsajos vaizdinio elemento konfigūracijos
 
@@ -32,15 +32,15 @@ ms.locfileid: "5798710"
 
 Tolesnėje iliustracijoje parodyti ryšiai tarp įvairių objektų, kuriuos galima konfigūruoti EKA vartotojo sąsajoje.
 
-![EKA ekrano išdėstymų objektai](../commerce/media/POS-layout-configuration-entities-diagram.png)
+![EKA ekrano išdėstymų objektai.](../commerce/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a>Vaizdo šablonas
 
 Vaizdo profiliai priskiriami kasos aparatams ir jais nurodoma pagal kasos aparatą suskirstytus ir vartotojų bendrai naudojamus vaizdo elementus. Kiekvienas prie kasos aparato prisijungęs vartotojas mato tą pačią temą, maketą, spalvas ir vaizdus.
 
-![EKA darbo pradžios ekranas su šviesia tema](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
+![EKA darbo pradžios ekranas su šviesia tema.](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
 
-![EKA operacijų ekranas su tamsia tema](../commerce/media/POS-Transaction-Screen-with-Dark-theme.png)
+![EKA operacijų ekranas su tamsia tema.](../commerce/media/POS-Transaction-Screen-with-Dark-theme.png)
 
 - **Profilio numeris** – tai unikalusis vaizdo profilio identifikatorius.
 - **Aprašas** – galite nurodyti prasmingą pavadinimą, kuris padėtų nuspręsti, kuris profilis tinkamas jūsų atveju.
@@ -65,15 +65,15 @@ Jums reikia paleisti **1090** (**Registrai**) paskirstymo grafiko užduotį, kad
 
 Nuo ekrano išdėstymo konfigūracijų priklauso, kokie bus UI valdiklių veiksmai, turinys ir išdėstymo tvarka EKA **darbo pradžios** ekrane ir **operacijų** ekrane.
 
-![EKA ekrano išdėstymo rodinys](../commerce/media/POS-Screen-Layout-View.png)
+![EKA ekrano išdėstymo rodinys.](../commerce/media/POS-Screen-Layout-View.png)
 
 - **Darbo pradžios ekranas** – daugeliu atvejų tai puslapis, kurį vartotojai mato pirmą kartą prisijungę prie EKA. Darbo pradžios ekrane gali būti prekės ženklo vaizdas ir mygtukynai, suteikiantys prieigą prie EKA operacijų. Paprastai šiame ekrane pateikiamos operacijos, kurios nepriklauso nuo dabartinės operacijos.
 
-    ![EKA darbo pradžios ekranas](../commerce/media/POS-Welcome-Screen.png)
+    ![EKA darbo pradžios ekranas.](../commerce/media/POS-Welcome-Screen.png)
 
 - **Operacijų ekranas** – **operacijų** ekranas yra pagrindinis EKA ekranas, skirtas apdoroti pardavimo operacijas ir užsakymus. Turinys ir išdėstymas konfigūruojami naudojant ekrano išdėstymo dizaino įrankį.
 
-    ![EKA operacijų ekranas](../commerce/media/POS-Transaction-Screen.png)
+    ![EKA operacijų ekranas.](../commerce/media/POS-Transaction-Screen.png)
 
 - **Numatytasis pradžios ekranas** – kai kurie mažmenininkai pageidauja, kad prisijungę kasininkai eitų tiesiai į **operacijų** ekraną. Parametras **Numatytasis pradžios ekranas** leidžia nurodyti numatytąjį kiekvieno ekrano išdėstymo ekraną, rodomą prisijungus.
 
@@ -89,7 +89,7 @@ Didžioji EKA UI dalis yra reaguojanti, o išdėstymo dydis keičiamas ir pats i
 
 Paleidžiama EKA programa automatiškai pasirenka artimiausią sukonfigūruotą įrenginio išdėstymo dydį. Ekrano išdėstyme taip pat gali būti konfigūracijų stačiam ir gulsčiam režimams bei tiek viso dydžio, tiek kompaktiniams įrenginiams. Todėl vartotojams gali būti priskirtas vienas ekrano išdėstymas, veikiantis su įvairiais parduotuvėje esančiais dydžiais ir formos veiksniais.
 
-![EKA išdėstymo dydžiai](../commerce/media/POS-Screen-Layout-Sizes.png)
+![EKA išdėstymo dydžiai.](../commerce/media/POS-Screen-Layout-Sizes.png)
 
 - **Pavadinimas** – galite įvesti prasmingą pavadinimą ekrano dydžiui identifikuoti.
 - **Išdėstymo tipas** – EKA programa savo UI gali rodyti įvairiais režimais ir taip konkrečiame įrenginyje užtikrinti geriausią vartotojų patirtį.
@@ -102,7 +102,7 @@ Paleidžiama EKA programa automatiškai pasirenka artimiausią sukonfigūruotą 
 > [!TIP]
 > Sužinoti, kokio dydžio išdėstymo reikia EKA ekranui, galite peržiūrėję skiriamąją gebą programoje. Paleiskite EKA ir eikite į **Parametrai \> Seanso informacija**. EKA rodo šiuo metu įkeltą išdėstymą, jo dydį ir programos lango skiriamąją gebą.
 
-![EKA seanso informacijos puslapis rodo šiuo metu įkeltą ekrano maketą, jo dydį ir programos lango skiriamąją gebą](../commerce/media/POS-Session-Information.png)
+![EKA seanso informacijos puslapis rodo šiuo metu įkeltą ekrano maketą, jo dydį ir programos lango skiriamąją gebą.](../commerce/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>Mygtukynai
 
@@ -112,7 +112,7 @@ Viso dydžio EKA išdėstymuose mygtukynų išdėstymas nurodomas ekrano išdės
 
 Kompaktiniuose EKA išdėstymuose mygtukynai automatiškai išdėstomi iš viršaus į apačią, nuo mažiausio skaičiaus (1 operacijų ekranas) iki didžiausio. Juos galima pasiekti meniu **Veiksmai**.
 
-![Kompaktinių išdėstymų mygtukynai](../commerce/media/Compact-View-Button-Grids.png)
+![Kompaktinių išdėstymų mygtukynai.](../commerce/media/Compact-View-Button-Grids.png)
 
 > [!NOTE]
 > Mygtuko dydis kūrimo įrankyje prisitaikys taip, kad tiktų prie lango, dėl to jis gali netiksliai atspindėti esamus mygtukus nustatytus POS. Siekiant geriausiai simuliuoti mygtuko tinklelio išdėstymą, reguliuokite kūrimo įrankio langus tokiam pačiam dydžiui kaip ir EKA.
@@ -132,7 +132,7 @@ Ekrano išdėstymų dizaino įrankis leidžia konfigūruoti įvairius kiekvieno 
 
 Viso dydžio išdėstymų dizaino įrankis vartotojams leidžia į EKA **operacijų** ekraną nuvilkti UI valdiklių ir konfigūruoti tų valdiklių parametrus.
 
-![EKA viso dydžio išdėstymų dizaino įrankis (gulsčias režimas)](../commerce/media/POS-Full-Layout-Designer-Landscape.png)
+![EKA viso dydžio išdėstymų dizaino įrankis (gulsčias režimas).](../commerce/media/POS-Full-Layout-Designer-Landscape.png)
 
 - **Importuoti išdėstymą / eksportuoti išdėstymą** – EKA ekrano išdėstymų dizainus galite eksportuoti ir importuoti kaip XML failus, kad juos galėtumėte lengvai pakartotinai naudoti ir bendrinti visose aplinkose. Svarbu importuoti teisingų dydžių išdėstymus. Kitu atveju UI elementai gali būti neteisingai išdėstyti ekrane.
 - **Gulsčias / stačias** – jei EKA įrenginys vartotojams leidžia įjungti gulsčią ir stačią režimus, ekrano išdėstymą turite apibrėžti kiekvienam režimui. EKA automatiškai aptinka ekrano pasukimą ir rodo teisingą išdėstymą.
@@ -140,11 +140,11 @@ Viso dydžio išdėstymų dizaino įrankis vartotojams leidžia į EKA **operaci
 - **Dizaino įrankio mastelio keitimas** – kad geriau matytumėte EKA ekrano turinį, dizaino įrankio rodinį galite didinti ir mažinti. Ši funkcija yra naudinga, kai EKA ekrano skiriamoji geba labai skiriasi nuo ekrano, naudojamo dizaino įrankyje, skiriamosios gebos.
 - **Rodyti / slėpti naršymo juostą** – viso dydžio EKA išdėstymuose galite pasirinkti, ar **operacijų** ekrane matoma kairioji naršymo juosta. Ši funkcija naudinga naudojant mažesnės skiriamosios gebos ekranus. Norėdami nustatyti matomumą, dizaino įrankyje dešiniuoju pelės mygtuku spustelėkite naršymo juostą ir pažymėkite arba išvalykite žymės langelį **Visada matoma**. Jei naršymo juosta yra paslėpta, ją pasiekti EKA vartotojai vis dar gali naudodami viršutinėje kairiojoje dalyje esantį meniu.
 
-    ![Rodyti / slėpti naršymo juostą](../commerce/media/Navigation-Bar.PNG)
+    ![Rodyti / slėpti naršymo juostą.](../commerce/media/Navigation-Bar.PNG)
 
 - **EKA valdikliai** – EKA išdėstymų dizaino įrankis palaiko tolesnius valdiklius. Daug valdiklių galite konfigūruoti dešiniuoju pelės klavišu spustelėdami ir naudodami kontekstinį meniu.
 
-    ![EKA UI valdikliai](../commerce/media/POS-UI-Controls.png)
+    ![EKA UI valdikliai.](../commerce/media/POS-UI-Controls.png)
 
     - **Skaičių klaviatūra** – tai pagrindinis vartotojų įvesties EKA **operacijų** ekrane mechanizmas. Valdiklį galite sukonfigūruoti taip, kad būtų rodoma visa skaičių klaviatūra. Ši parinktis puikiai tinka įrenginiams su jutikliniais ekranais. Taip pat jį galite sukonfigūruoti taip, kad būtų rodomas tik įvesties laukas. Tokiu atveju įvesčiai naudojama fizinė klaviatūra. Skaičių klaviatūros parametrus galima nustatyti tik naudojant viso dydžio išdėstymus. Kompaktiniuose išdėstymuose visa skaičių klaviatūra visada rodoma **operacijų** ekrane.
     - **Bendrųjų sumų skydelis** – galite sukonfigūruoti, kad bendrųjų sumų skydelis būtų rodomas vienu arba dviem stulpeliais, kuriuose rodomos tam tikros reikšmės, pvz., eilučių skaičius, nuolaidos suma, išlaidos, tarpinė suma ir mokestis. Kompaktiniuose išdėstymuose galima naudoti tik vieną stulpelį.
@@ -159,13 +159,13 @@ Viso dydžio išdėstymų dizaino įrankis vartotojams leidžia į EKA **operaci
 
 Kaip ir viso dydžio išdėstymų dizaino įrankis, kompaktinių išdėstymų dizaino įrankis leidžia konfigūruoti EKA ekrano išdėstymą telefonams ir mažiems planšetiniams kompiuteriams. Tačiau šiuo atveju pats išdėstymas yra fiksuotas. Išdėstyme valdiklius galite konfigūruoti dešiniuoju pelės klavišu spustelėdami ir naudodami kontekstinį meniu. Tačiau negalite naudoti nuvilkimo operacijų su papildomu turiniu.
 
-![Kompaktinių išdėstymų dizaino įrankis](../commerce/media/Compact-Layout-Designer.png)
+![Kompaktinių išdėstymų dizaino įrankis.](../commerce/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a>Mygtukynų dizaino įrankis
 
 Mygtukynų dizaino įrankis leidžia konfigūruoti mygtukynus, kuriuos galima naudoti EKA viso dydžio ir kompaktinių išdėstymų darbo pradžios ekrane bei **operacijų** ekrane. Tą patį mygtukyną galima naudoti įvairiuose išdėstymuose ir su įvairiais išdėstymų tipais. Kaip ir ekrano išdėstymų dizaino įrankis, vartotojui kiekvieną kartą įjungus programą, naudodamas diegimo technologiją „ClickOnce“ mygtukynų dizaino įrankis atsisiunčia, įdiegia ir paleidžia naujausią programos versiją. Būtinai patikrinkite „ClickOnce“ reikalavimus naršyklėms. Kai kuriose naršyklėse, pvz., „Google Chrome“, reikalingi plėtiniai.
 
-![Mygtukynų dizaino įrankis](../commerce/media/Button-Grid-Designer.png)
+![Mygtukynų dizaino įrankis.](../commerce/media/Button-Grid-Designer.png)
 
 - **Naujas mygtukas** – spustelėkite, jei į mygtukyną norite įtraukti naują mygtuką. Pagal numatytuosius parametrus nauji mygtukai rodomi viršutiniame kairiajame mygtukyno kampe. Tačiau mygtukus galite išdėstyti juos vilkdami išdėstyme.
 
@@ -178,7 +178,7 @@ Mygtukynų dizaino įrankis leidžia konfigūruoti mygtukynus, kuriuos galima na
     > [!IMPORTANT]
     > Kai kurie mygtukų tinklelio nustatymai taikomi tik „Enterprise POS“, o ne „Modern POS“ ar „Cloud POS“.
 
-    ![Mygtukynų mygtukų ypatybės](../commerce/media/Button-grid-button-properties.png)
+    ![Mygtukynų mygtukų ypatybės.](../commerce/media/Button-grid-button-properties.png)
 
     - **Veiksmas** – taikytinų EKA operacijų sąraše pasirinkite operaciją, iškviečiamą EKA aparate spustelėjus mygtuką.
 
@@ -190,7 +190,7 @@ Mygtukynų dizaino įrankis leidžia konfigūruoti mygtukynus, kuriuos galima na
     - **Patarimas** – nurodykite papildomą pagalbos tekstą, rodomą vartotojams virš mygtuko užvedus pele.
     - **Dydis stulpeliais / dydis eilutėmis** – galite nurodyti mygtuko aukštį ir plotį.
 
-        ![EKA mygtukų dydžiai eilutėmis ir stulpeliais](../commerce/media/POS-Button-Sizes-In-Rows-And-Columns.png)
+        ![EKA mygtukų dydžiai eilutėmis ir stulpeliais.](../commerce/media/POS-Button-Sizes-In-Rows-And-Columns.png)
 
     - **Pasirinktinis šriftas** – pažymėję žymės langelį **Įjungti pasirinktinį EKA šriftą**, galite nurodyti kitą šriftą nei numatytasis EKA sistemos šriftas.
     - **Pasirinktinė tema** – pagal numatytuosius parametrus EKA mygtukuose naudojama akcento spalva iš vaizdo profilio. Pažymėję žymės langelį **Naudoti pasirinktinę temą**, galite nurodyti papildomų spalvų.
@@ -200,7 +200,7 @@ Mygtukynų dizaino įrankis leidžia konfigūruoti mygtukynus, kuriuos galima na
 
     - **Mygtuko vaizdas** – į mygtukus galima įtraukti vaizdų ar piktogramų. Pasirinkite iš galimų vaizdų, nurodytų **„Retail and Commerce“ \> Kanalo sąranka \> EKA sąranka \> EKA \> Vaizdai**.
 
-![EKA mygtukyno pavyzdys](../commerce/media/Example-Button-Grid-In-POS.png)
+![EKA mygtukyno pavyzdys.](../commerce/media/Example-Button-Grid-In-POS.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

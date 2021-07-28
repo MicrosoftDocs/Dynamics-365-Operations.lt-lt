@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: f1a405f5bbf8728876213e6c726ae41ebf809626
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: acfde5961f481f5d939f0c6388b80edfd65ee339
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810491"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351422"
 ---
 # <a name="outbound-workload-visualization"></a>Siunčiamo darbo krūvio vizualizavimas
 
@@ -60,7 +60,7 @@ Norėdami nustatyti siunčiamo darbo krūvio vizualizavimą, atlikite šiuos ži
     - **Apimamos dienos** – Įveskite dienų skaičių praeityje, kurioms turi būti sukurtas grafikas.
     - **Darbo užsakymo tipas** – Pasirinkite siunčiamo filtruojamo darbo užsakymo tipus.
 
-    ![Konfigūruoti filtrų puslapį](media/work-viz-filters-1.png "Konfigūruoti filtrų puslapį")
+    ![Konfigūruoti filtrų puslapį.](media/work-viz-filters-1.png "Konfigūruoti filtrų puslapį")
 
 1. Užverkite **Konfigūruoti filtrus** puslapį ir grįžkite į **Siunčiamos darbo apkrovos vizualizacijos** puslapį.
 
@@ -70,11 +70,11 @@ Norėdami nustatyti siunčiamo darbo krūvio vizualizavimą, atlikite šiuos ži
     - **Naujinta paskutiniu metu** – Šis laukelis rodo datą ir laiką, kai informacija grafike buvo naujinta paskutinį kartą.
     - **Apskaičiuotas/realus laikas** – Jei darbo standartai yra nustatyti jūsų sistemoje, nustatykite parinktį į *Taip* tam, kad ji rodytų apskaičiuotą paėmimo laiką kiekvieno grafiko stulpelio viršuje. Jei nenaudojate darbo standartu, ši parinktis yra neprieinama.
 
-    ![Vizualizacijos pavyzdys](media/work-viz-chart.png "Vizualizacijos pavyzdys")
+    ![Vizualizacijos pavyzdys.](media/work-viz-chart.png "Vizualizacijos pavyzdys")
 
 1. Rinkitės bet kurią juosta grafike, kad peržiūrėtumėte susietą darbo eilutės išsamią informaciją.
 
-    ![Darbo eilutės informacija](media/work-viz-work-details.png "Darbo eilutės informacija")
+    ![Darbo eilutės informacija.](media/work-viz-work-details.png "Darbo eilutės informacija")
 
 ## <a name="example-outbound-workload-visualization-for-zones"></a>Pavyzdys: Siunčiamo darbo krūvio vizualizacija zonoms
 
@@ -92,7 +92,7 @@ Norėdami nustatyti siunčiamo darbo krūvio vizualizavimą, atlikite šiuos ži
 
 Tolesnis paveikslėlis rodo esančio grafiko pavyzdį.
 
-![Zona prieš darbo būsenos vizualizacija](media/work-viz-chart.png "Zona prieš darbo būsenos vizualizacija")
+![Zona prieš darbo būsenos vizualizacija.](media/work-viz-chart.png "Zona prieš darbo būsenos vizualizacija")
 
 Šis grafikas rodo dvi zonos, kurių pavadinimas **AUKŠTAS** ir **BENDRI**, taip pat zoną pavadinimu **Tuščia**. **Tuščia** zona rodo visas darbo eilutes, kurios nėra jokios zonos narės. Grafikas visada rodo visus nesusijusius filtruotus duomenis, tokius kaip **Tušti**, tam, kad pateiktų kiek įmanoma daugiau vaizdo. Zonoje **AUKŠTAS** grafikas rodo tris užvertas eilutes ir keturias atvertas. Zonoje **BENDRI** grafikas rodo keturias užvertas eilutes ir vieną atvertą ir 24 atšauktų. Galiausiai, grafikas rodo aštuonias užvertas eilutes, kurios nėra jokios zonos dalis ir dėl to išvardytos kaip **Tuščios**.
 

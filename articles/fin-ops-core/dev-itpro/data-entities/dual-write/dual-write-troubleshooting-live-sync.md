@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 1c0dfebb3ef442f67d8489d7aed00305c02cf410
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748902"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350793"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Tiesioginio sinchronizavimo trikčių šalinimas
 
@@ -73,21 +73,21 @@ Jei duomenys yra abiejose programose ir patvirtinote, kad problema nėra susijus
 
 Kai kuriate duomenis „Finance and Operations” programoje, galite gauti klaidos pranešimą „Netinkama užklausa“, panašų į toliau pateiktą pavyzdį.
 
-![Klaidos pranešimo „Netinkama užklausa“ pavyzdys](media/error_record_id_source.png)
+![Klaidos pranešimo „Netinkama užklausa“ pavyzdys.](media/error_record_id_source.png)
 
 Norėdami išspręsti šią problemą, turite priskirti tinkamą saugos vaidmenį susieto „Dynamics 365 Sales” arba „Dynamics 365 Customer Service” verslo struktūros vieneto komandai, kad įgalintumėte trūkstamą teisę.
 
 1. „Finance and Operations” programoje raskite verslo struktūros vienetą, susietą duomenų integravimo ryšio rinkinyje.
 
-    ![Organizacijos susiejimas](media/mapped_business_unit.png)
+    ![Organizacijos susiejimas.](media/mapped_business_unit.png)
 
 2. Prisijunkite prie aplinkos modeliu grįstoje „Dynamics 365” programoje, pereikite į **Parametras \> Sauga** ir raskite susieto verslo struktūros vieneto komandą.
 
-    ![Susieto verslo struktūros vieneto komanda](media/setting_security_page.png)
+    ![Susieto verslo struktūros vieneto komanda.](media/setting_security_page.png)
 
 3. Atidarykite komandos puslapį, kad jį redaguotumėte, tada pasirinkite **Tvarkyti vaidmenis**, kad atidarytumėte dialogo langą **Tvarkyti komandos vaidmenis**.
 
-    ![Vaidmenų tvarkymo mygtukas](media/manage_team_roles.png)
+    ![Vaidmenų tvarkymo mygtukas.](media/manage_team_roles.png)
 
 4. Priskirkite vaidmenį, turintį skaitymo / rašymo teisę, skirtą atitinkamoms lentelėms, tada pasirinkite **Gerai**.
 

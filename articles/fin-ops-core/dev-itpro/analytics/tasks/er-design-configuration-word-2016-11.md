@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 413be634e80b87781444e1c1445c78691f4b4b0b
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: d152449b55ab111cf5bac363b38d32c3658a56e3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944297"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359416"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>ER konfigūracijų su „Excel” šablonais, skirtų ataskaitų „Word” formatu generavimui, pakartotinis naudojimas
 
@@ -54,14 +54,14 @@ Taip pat turite atsisiųsti ir įrašyti vietoje šiuos šablonus ataskaitos pav
 5. Pasirinkite **Dizaino įrankis**.
 6. Puslapyje **Formato dizaino įrankis** atkreipkite dėmesį, kad šakninio formato elemento pavadinimas nurodo, kad šiuo metu naudojamas „Excel” šablonas.
 
-![Esamos konfigūracijos pasirinkimas](../media/er-design-configuration-word-2016-11-image01.gif)
+![Esamos konfigūracijos pasirinkimas.](../media/er-design-configuration-word-2016-11-image01.gif)
 
 ## <a name="review-the-downloaded-word-template"></a>Peržiūrėkite atsisiųstą „Word” šabloną
 
 1. „Word” darbalaukio programoje atidarykite **„SampleVendPaymDocReport.docx”** šablono failą, kurį atsisiuntėte anksčiau.
 2. Patvirtinkite, kad šiame šablone yra tik dokumento maketas, kurį norite sugeneruoti kaip ER išvestį.
 
-![„Word” šablono maketas darbalaukio programoje](../media/er-design-configuration-word-2016-11-image02.png)
+![„Word” šablono maketas darbalaukio programoje.](../media/er-design-configuration-word-2016-11-image02.png)
 
 ## <a name="replace-the-excel-template-with-the-word-template-and-add-a-custom-xml-part"></a>Pakeiskite „Excel” šabloną į „Word” šabloną ir įtraukite pasirinktinę XML dalį
 
@@ -84,7 +84,7 @@ Taip pat turite atsisiųsti ir įrašyti vietoje šiuos šablonus ataskaitos pav
 
 9. Atkreipkite dėmesį, kad šakninio formato elemento pavadinimas nurodo, kad šiuo metu naudojamas „Word” šablonas.
 
-    ![„Excel” šablono pakeitimas „Word” šablonu ir pasirinktinės XML dalies įtraukimas](../media/er-design-configuration-word-2016-11-image03.gif)
+    ![„Excel” šablono pakeitimas „Word” šablonu ir pasirinktinės XML dalies įtraukimas.](../media/er-design-configuration-word-2016-11-image03.gif)
 
 10. Skirtuke **Formatas** pasirinkite **Priedai.**
 
@@ -110,7 +110,7 @@ Jei esate susipažinę su „Word“ dokumentų kaip formų, turinčių [turinio
 1. „Word” darbalaukio programoje atidarykite **„SampleVendPaymDocReportBounded.docx”** šablono failą.
 2. Patvirtinkite, kad šiame šablone yra dokumento maketas, kurį norite sugeneruoti kaip ER išvestį. Turinio valdikliai, kurie yra naudojami kaip vietos rezervavimo ženklai duomenims, ER įvedamiems į šį šabloną vykdymo metu, yra paremti susiejimais, sukonfigūruotais tarp **Ataskaitos** pasirinktinės XML dalies elementų ir „Word” dokumento turinio valdiklių.
 
-![„Word” šablono peržiūra darbalaukio programoje](../media/er-design-configuration-word-2016-11-image04.png)
+![„Word” šablono peržiūra darbalaukio programoje.](../media/er-design-configuration-word-2016-11-image04.png)
 
 ## <a name="upload-the-word-template-where-the-custom-xml-part-is-mapped-to-content-controls"></a>Įkelkite „Word“ šabloną, kuriame pasirinktinė XML dalis yra susieta su turinio valdikliais
 
@@ -144,7 +144,7 @@ Norėdami paleisti redaguojamo formato juodraščio versiją, turite ją padaryt
 3. Puslapyje **Tiekėjo mokėjimai** pasirinkite visas tinklelio eilutes.
 4. Pasirinkite **Mokėjimo būsena** \> **Nėra**.
 
-    ![Apdorotini mokėjimai puslapyje Tiekėjo mokėjimai](../media/er-design-configuration-word-2016-11-image05.png)
+    ![Apdorotini mokėjimai puslapyje Tiekėjo mokėjimai.](../media/er-design-configuration-word-2016-11-image05.png)
 
 5. Veiksmų srityje pasirinkite **Generuoti mokėjimus**.
 6. Atsiradusiame dialogo lange atlikite toliau nurodytus veiksmus:
@@ -156,11 +156,11 @@ Norėdami paleisti redaguojamo formato juodraščio versiją, turite ją padaryt
 7. Dialogo lange **Elektroninių ataskaitų parametrai** pasirinkite **Gerai**.
 8. Sugeneruota išvestis pateikiama „Word” formatu kartu su informacija apie apdorotus mokėjimus. Analizuokite sugeneruotą išvestį.
 
-    ![Sugeneruota išvestis „Word” formatu](../media/er-design-configuration-word-2016-11-image06.png)
+    ![Sugeneruota išvestis „Word” formatu.](../media/er-design-configuration-word-2016-11-image06.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-- [Naujos ER konfigūracijos, skirtos ataskaitų generavimui „Word“ formatu, kūrimas](../er-design-configuration-word.md)
+- [Ataskaitų generavimo „Word“ formatu naujos ER konfigūracijos kūrimas](../er-design-configuration-word.md)
 - [Vaizdų ir figūrų įterpimas generuojamuose dokumentuose naudojant ER](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
 
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4ee5a074c5c6d2e2144181e39917b1cc42dfc015
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: e3dc83b71300387c8123f5533522c5ead7d86333
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944847"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349189"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>ER sprendimų našumo didinimas įtraukiant parametrizuotų duomenų šaltinių APSKAIČIUOTAS LAUKAS
 
@@ -56,7 +56,7 @@ Pirmas veiksmas yra importuoti pavyzdinį ER sprendimą, kad būtų galima sugen
     2. Paspaudę **Naršyti** pasirinkite ER konfigūracijos failą XML formatu.
     3. Pasirinkite **Gerai**.
 
-![Puslapyje Konfigūracijos importuotos konfigūracijos](./media/er-calculated-field-ds-performance-imported-configurations.png)
+![Puslapyje Konfigūracijos importuotos konfigūracijos.](./media/er-calculated-field-ds-performance-imported-configurations.png)
 
 ## <a name="review-the-sample-er-solution"></a>Pavyzdinio ER sprendimo peržiūra
 
@@ -76,7 +76,7 @@ Pirmas veiksmas yra importuoti pavyzdinį ER sprendimą, kad būtų galima sugen
 
     Modelio žemėlapio nustatymas šiame konfigūravime įgyvendina pagrindinius duomenų modelius bet kuriems ER formatams sukurtiems šiam modeliui ir vykdomiems „Finance“. Todėl duomenų šaltinio **Operacija** turinys tampa prieinamas ER formatams, pvz., abstraktiems **modelio** duomenų šaltiniams.
 
-    ![Duomenų šaltinis Operacija puslapyje Modelio susiejimo dizaino įrankis](media/er-calculated-field-ds-performance-mapping-1.png)
+    ![Duomenų šaltinis Operacija puslapyje Modelio susiejimo dizaino įrankis.](media/er-calculated-field-ds-performance-mapping-1.png)
 
 4. Uždarykite puslapį **Modelio susiejimo dizaino įrankis**.
 5. Uždarykite puslapį **Duomenų šaltinio susiejimo modelis**.
@@ -90,7 +90,7 @@ Pirmas veiksmas yra importuoti pavyzdinį ER sprendimą, kad būtų galima sugen
 
     Šis ER formatas sukurtas generuoti tiekėjo operacijų ataskaitą XML formatu.
 
-    ![Duomenų šaltinių ir sukonfigūruotų formato elementų susiejimų formatavimas formato dizaino įrankio puslapyje](media/er-calculated-field-ds-performance-format.png)
+    ![Duomenų šaltinių ir sukonfigūruotų formato elementų susiejimų formatavimas formato dizaino įrankio puslapyje.](media/er-calculated-field-ds-performance-format.png)
 
 5. Uždarykite puslapį **Formato dizaino įrankis**.
 
@@ -103,7 +103,7 @@ Tarkime, kad baigėte kurti pirmąją ER sprendimo versiją. Dabar norite patikr
 1. Pasirinkite įmonę **DEMF**.
 2. Atlikite veiksmus, nurodytus [ER našumo sekimo įjungimas](trace-execution-er-troubleshoot-perf.md#turn-on-the-er-performance-trace), kad būtų sugeneruotas našumo sekimas, kai vykdomas ER formatas.
 
-    ![Vartotojo parametrų dialogo langas](media/er-calculated-field-ds-performance-format-user-parameters.png)
+    ![Vartotojo parametrų dialogo langas.](media/er-calculated-field-ds-performance-format-user-parameters.png)
 
 ### <a name="run-the-er-format"></a><a id="run-format"></a>ER formato vykdymas
 
@@ -124,7 +124,7 @@ Atsiranda naujos informacijos apie kai kuriuos dabartinio modelio susiejimo duom
 - Faktinis laikas, sugaištas gaunant duomenis naudojant duomenų šaltinį
 - Tas pats laikas, išreikštas kaip viso laiko, praleisto vykdant visą modelio susiejimą, procentinė dalis
 
-![Vykdymo laiko informacija puslapyje Modelio susiejimo dizaino įrankis](./media/er-calculated-field-ds-performance-mapping-2.png)
+![Vykdymo laiko informacija puslapyje Modelio susiejimo dizaino įrankis.](./media/er-calculated-field-ds-performance-mapping-2.png)
 
 Tinklelyje **Našumo statistika** parodyta, kad duomenų šaltinis **Operacija** iškviečia lentelę VendTrans vieną kartą. Duomenų šaltinio **Operacija** reikšmė **\[265\]\[Q:265\]** nurodo, kad 265 tiekėjo operacijos buvo gautos iš programos lentelės ir grąžintos į duomenų modelį.
 
@@ -137,7 +137,7 @@ Tinklelis **Našumo statistika** taip pat parodo, kad dabartinis modelio susieji
 
 - Tiekėjo lentelė iškviečiama kiekvienai pasikartojančiai tiekėjo operacijai, net jei buvo užregistruotos tik penkių tiekėjų gautos operacijos. Iš 530 iškvietimų 525 yra dublikatai. Toliau pateiktame paveikslėlyje parodytas pranešimas apie pasikartojančius iškvietimus, kurį gaunate (duomenų bazės užklausos).
 
-![Pranešimas apie pasikartojančias duomenų bazės užklausas puslapyje Modelio susiejimo dizaino įrankis](./media/er-calculated-field-ds-performance-mapping-2a.png)
+![Pranešimas apie pasikartojančias duomenų bazės užklausas puslapyje Modelio susiejimo dizaino įrankis.](./media/er-calculated-field-ds-performance-mapping-2a.png)
 
 Atkreipkite dėmesį, kad daugiau nei 80 procentų (maždaug šešios sekundės) viso modelio susiejimo vykdymo laiko (apytiksliai aštuonių sekundžių) buvo panaudota gaunant reikšmes iš programos lentelės VendTable. Šis procentas yra per didelis dviems penkių tiekėjų atributams, palyginti su programos lentelės VendTrans informacijos kiekiu.
 
@@ -172,7 +172,7 @@ Atlikite toliau pateiktus veiksmus, norėdami naudoti kaupimą talpykloje ir duo
     3. Dialogo lango lauke **Pavadinimas** įveskite **Dėžė**.
     3. Pasirinkite **Gerai**.
 
-    ![Duomenų šaltinis Dėžė puslapyje Modelio susiejimo dizaino įrankis](./media/er-calculated-field-ds-performance-mapping-3.png)
+    ![Duomenų šaltinis Dėžė puslapyje Modelio susiejimo dizaino įrankis.](./media/er-calculated-field-ds-performance-mapping-3.png)
 
 6. Atlikite toliau pateiktus veiksmus, norėdami įtraukti parametrizuotą duomenų šaltinį, kurio tipas yra **Apskaičiuotas laukas**.
 
@@ -208,7 +208,7 @@ Atlikite toliau pateiktus veiksmus, norėdami naudoti kaupimą talpykloje ir duo
 
 9. Pasirinkite **Įrašyti**.
 
-    ![Duomenų šaltinis Tiekėjas puslapyje Modelio susiejimo dizaino įrankis](./media/er-calculated-field-ds-performance-mapping-4.png)
+    ![Duomenų šaltinis Tiekėjas puslapyje Modelio susiejimo dizaino įrankis.](./media/er-calculated-field-ds-performance-mapping-4.png)
 
 10. Uždarykite puslapį **Modelio susiejimo dizaino įrankis**.
 11. Uždarykite puslapį **Modelio susiejimai**.
@@ -232,11 +232,11 @@ Pakartoję ankstesniame šios temos skyriuje [ER formato vykdymas](#run-format) 
 
 Atkreipkite dėmesį, kad atlikus modelio susiejimo pakeitimus, nebeliko pasikartojančių užklausų į duomenų bazę. Taip pat sumažėjo šio modelio susiejimo iškvietimų į duomenų bazės lenteles ir duomenų šaltinius skaičius.
 
-![Informacijos sekimas 1 puslapyje Modelio susiejimo dizaino įrankis](./media/er-calculated-field-ds-performance-mapping-5.png)
+![Informacijos sekimas 1 puslapyje Modelio susiejimo dizaino įrankis.](./media/er-calculated-field-ds-performance-mapping-5.png)
 
 Bendras vykdymo laikas buvo sumažintas 20 kartų (nuo maždaug 8 sekundžių iki maždaug 400 milisekundžių). Todėl pagerėjo viso ER sprendimo našumas.
 
-![Informacijos sekimas 2 puslapyje Modelio susiejimo dizaino įrankis](./media/er-calculated-field-ds-performance-mapping-5a.png)
+![Informacijos sekimas 2 puslapyje Modelio susiejimo dizaino įrankis.](./media/er-calculated-field-ds-performance-mapping-5a.png)
 
 ## <a name="appendix-1-download-the-components-of-the-sample-microsoft-er-solution"></a><a name="appendix1"></a>1 priedas: pavyzdinio „Microsoft” ER sprendimo komponentų atsisiuntimas
 
@@ -260,7 +260,7 @@ Prieš pradėdami naudoti ER sistemą, kad būtų padidintas pavyzdinio „Micro
 4. **Priedai** skirtuke nustatykite tolesnius parametrus:
 
     - **Konfigūracijos** lauke pasirinkite **Failas** tipą, skirtą **DEMF** įmonei.
-    -  **Užduoties archyvas**, **Laikini**, **Bazinė linija** ir **Kiti** laukuose pasirinkite **Failas** tipą.
+    - **Užduoties archyvas**, **Laikini**, **Bazinė linija** ir **Kiti** laukuose pasirinkite **Failas** tipą.
 
 Norėdami sužinoti daugiau apie ER parametrus, žr. [ER sistemos konfigūracija](electronic-reporting-er-configure-parameters.md).
 

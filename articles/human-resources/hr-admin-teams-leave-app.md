@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c1cceb15d64215cb8d5c996df792e863d466f87d
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 627883544f387e53920da268fa8d805c0074de47
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053568"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357366"
 ---
 # <a name="human-resources-app-in-teams"></a>„Human Resources“ programa platformoje „Teams“
 
@@ -28,11 +28,11 @@ ms.locfileid: "6053568"
 
 „Microsoft Teams“ veikianti programa „Microsoft Dynamics 365 Human Resources“ leidžia darbuotojams greitai prašyti išleisti iš darbo ir peržiūrėti savo ne darbo laiko balanso informaciją programoje „Microsoft Teams“. Norėdami prašyti informacijos, darbuotojai gali bendrauti su robotu. Skirtuke **Ne darbo laikas** pateikiama išsamesnė informacija. Be to, jie gali siųsti žmonėms informaciją apie būsimą ne darbo laiką skiltyse „Komandos” ir „Pokalbiai” už „Human Resources” programėlės ribų.
 
-![„Human Resources Teams“ atostogų programos robotas](./media/hr-teams-leave-app-bot.png)
+![„Human Resources Teams“ atostogų programos robotas.](./media/hr-teams-leave-app-bot.png)
 
-![„Human Resources Teams“ atostogų programos skirtukas Ne darbo laikas](./media/hr-teams-leave-app-timeoff-tab.png)
+![„Human Resources Teams“ atostogų programos skirtukas Ne darbo laikas.](./media/hr-teams-leave-app-timeoff-tab.png)
 
-![„Human Resources” atostogų užklausos kortelė](./media/hr-teams-leave-app-chat-card.png)
+![„Human Resources” atostogų užklausos kortelė.](./media/hr-teams-leave-app-chat-card.png)
 
 ## <a name="install-and-setup"></a>Diegimas ir nustatymas
 
@@ -57,11 +57,11 @@ Jei norite, kad vartotojai gautų atostogų užklausų pranešimus „Teams” p
 
 4. Skirtuke **Bendra** nustatykite **Įjungti „Teams” programos pranešimus** į **Taip**.
 
-   ![„Teams” programos pranešimų įjungimas sistemos parametruose](./media/hr-admin-teams-leave-app-enable-notifications.png)
+   ![„Teams” programos pranešimų įjungimas sistemos parametruose.](./media/hr-admin-teams-leave-app-enable-notifications.png)
 
 5. Norėdami įjungti „Teams” pranešimus visiems vartotojams, paraginti pasirinkite **Taip**.
 
-   ![„Teams” pranešimų įjungimas visiems vartotojams](./media/hr-admin-teams-leave-app-notifications-all-users.png)
+   ![„Teams” pranešimų įjungimas visiems vartotojams.](./media/hr-admin-teams-leave-app-notifications-all-users.png)
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>„Teams” pranešimų įjungimas arba išjungimas atskiriems vartotojams
 
@@ -77,7 +77,7 @@ Jei norite, kad vartotojai gautų atostogų užklausų pranešimus „Teams” p
 
 5. Nustatykite parinktį **Įjungti „Teams” programos pranešimus** į **Taip**, norėdami įjungti pranešimus vartotojui, arba į **Ne**, norėdami išjungti pranešimus.
 
-   ![„Teams” programos pranešimų įjungimas darbo eigos skirtuke Vartotojo parinktys](./media/hr-admin-teams-leave-app-notifications.png)
+   ![„Teams” programos pranešimų įjungimas darbo eigos skirtuke Vartotojo parinktys.](./media/hr-admin-teams-leave-app-notifications.png)
 
 6. Pasirinkite **Įrašyti**.
 

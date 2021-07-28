@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: b5c17a65a54ae88118bc5ecaa25cdadb67861129
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 037c9fb8dfc7aca4535540d92aae3e0ce0f8c638
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802772"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352161"
 ---
 # <a name="process-customer-order-pickups-in-pos"></a>Apdorokite kliento užsakymo paėmimus EKA
 
@@ -32,7 +32,7 @@ Jei esate parduotuvės vartotojas, galite atlikti paėmimą naudodami **Atšaukt
 
 Jei pasirinktas užsakymas ar jo eilutės nėra konfigūruotos paėmimui konkrečioje parduotuvėje arba jei užsakymas jau yra visiškai paimtas, **Paėmimo** veiksmas bus neprieinamas.
 
-![Paėmimo veiksmas](media/pickupoperation.png)
+![Paėmimo veiksmas.](media/pickupoperation.png)
 
 „Microsoft Dynamics 365 Commerce“ versijoje 10.0.17 ir vėlesnėse **Pagerinta vartotojo patirtis užsakymo atsiėmimo tvarkymui prekybos vietoje** funkcija gali būti įjungta per funkcijos valdymą „Commerce“ būstinėje. Jei ši funkcija išjungta, vartotojai negali pasirinkti paimamų kiekių. Pagal nutylėjimą, visas užsakytas kiekis eilutei yra kiekis, kuris bus paimtas. Ši patirtis gali turėti problemų, nes vartotojai gali pamiršti pasirinkti kelias prekes atsiėmimui jiems atliekant paėmimą per užsakymo įgyvendinimą.
 
@@ -40,13 +40,13 @@ Funkcija **Pagerinta vartotojo patirtis atsiėmimui tvarkomo užsakymo prekybos 
 
 Kai **Gerinti vartotojo patirtį atsiėmimo užsakymo tvarkymui prekybos vietoje** funkcija yra įjungta ir jūs renkatės **Atsiėmimo** veiksmą, pasirodo **Atsiėmimo** teksto laukelis. Jame galite rinktis prekes ir kiekius, kurie bus atsiimti. Pagal nutylėjimą, visas užsakytas kiekis, turintis inventorių su paimtu ir supakuotu statusu, yra laikomas galimu atsiimti. Pagal nutylėjimą, tas kiekis yra nustatytas atsiimamu kiekiu. Galite keisti įvestą kiekį su sąlyga, kad kiekis nėra 0 (nulis) ir neviršija viso atviro (neįtraukiamo į sąskaitą) kiekio pasirinktai eilutei.
 
-![Atsiėmimo teksto laukelis](media/pickupselect.png)
+![Atsiėmimo teksto laukelis.](media/pickupselect.png)
 
 Pasirinkus kiekius, kurie bus atsiimti ir tuomet pasirinkus **Atsiimti**, pasirodo operacijos puslapis. Jei [omni kanalo mokėjimai](omni-channel-payments.md) funkcija yra įjungta ir esama iš anksto leistinų kredito kortelės mokėjimų faile, turite taikyti mokėjimą.
 
 operacijos puslapyje, sistema skaičiuoja kiekius, kurie yra užbaigti pagal skaičiavimą bendro kiekio ir kuris yra pasirinktas prekių atsiėmimui ir tuomet paimamas iš anksčiau taikomų indėlių ar leistinų kredito kortelių mokėjimų. Privalote tvarkyti mokėjimą, kad užbaigtumėte atsiėmimo operaciją. Jei [ekrano išdėstymas](pos-screen-layouts.md) operacijos puslapyje yra konfigūruojamas taip, kad apimtų **Užbaigti operaciją** veiksmą ir joks kiekis nėra užbaigtas, gali užbaigti operaciją nepasirinkdami mokėjimo metodo. Jei **Užbaigti operaciją** veiksmas nėra prieinamas, galite rinktis **$0.00 laukiantį kiekį** nuorodą **Bendrų** juostoje, kad pabaigtumėte operaciją be poreikio pasirinkti mokėjimo metodą.
 
-![operacijos puslapis kliento užsakymo atsiėmimo operacijai](media/pickupcart.png)
+![operacijos puslapis kliento užsakymo atsiėmimo operacijai.](media/pickupcart.png)
 
 ## <a name="changing-pickup-lines-or-quantities"></a>Atsiėmimo eilučių ar kiekių keitimas
 
@@ -54,7 +54,7 @@ Jei turite keisti atsiėmimo kiekį pasirinkę prekes, kurios bus atsiimtos, gal
 
 Jei **Gerinti vartotojo patirtį atsiėmimo užsakymo tvarkymui prekybos vietoje** funkcija yra įjungta, organizacijos gali įtraukti mygtuką **Keisti paėmimo eilutes** veiksmą į ekrano išdėstymą operacijos puslapyje. Jums sukūrus atsiėmimo operacijos vežimėlį EKA ir pasirinkus prekes, galite pasirinkti **Keisti paėmimo eilutes**, jei privalote keisti paėmimo prekes, bet nenorite panaikinti visos operacijos. Pasirodžiusiame teksto laukelyje **Keisti atsiėmimo eilutes**, galite keisti atsiimamas prekes ir kiekius. operacijos vežimėlis tuomet yra naujinamas, kad atspindėtų jūsų keitimus.
 
-![Keisti atsiimamų prekių teksto laukelį](media/pickupchange.png)
+![Keisti atsiimamų prekių teksto laukelį.](media/pickupchange.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

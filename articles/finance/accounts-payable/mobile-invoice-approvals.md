@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 78ab17952801a1d77f321e212bb61e9b45d93216
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 2406df379084fefd4e1ca33c271b69f4dafeb5b5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189207"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358910"
 ---
 # <a name="mobile-invoice-approvals"></a>SF patvirtinimai mobiliąja programa
 
@@ -136,7 +136,7 @@ Pirmasis mobiliųjų įrenginių puslapis, kurį turėtumėte sukurti, yra SF, k
 
 1.  URL pakeiskite meniu elemento pavadinimą į **VendMobileInvoiceAssignedToMeListPage**, kad atidarytumėte sąrašo puslapio **Man priskirtos laukiančios tiekėjo SF** mobiliąją versiją modulyje **Mokėtinos sumos**. Atsižvelgiant į SF, kurios jūsų sistemoje jums priskirtos, skaičių, šiame puslapyje bus rodomos tos SF. Norėdami rasi konkrečią SF, galite naudoti dešinėje pusėje pateiktą filtrą. Tačiau šiame pavyzdyje konkreti SF nėra reikalinga. Tereikia, kad jums būtų priskirta kokia nors SF, jog galėtumėte kurti mobiliųjų įrenginių puslapį. Nauji puslapiai, kuriuos galima naudoti, buvo specialiai sukurti tiekėjo SF mobiliųjų įrenginių scenarijams kurti. Todėl turite šiuos puslapius naudoti. URL turėtų būti toks, kaip toliau, ir įvedus URL turi būti rodomas puslapis su iliustracija: https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile 
 
-    [![Puslapis Laukiama man priskirtų tiekėjo SF](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+    [![Puslapis Laukiama man priskirtų tiekėjo SF.](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
     
 2.  Spustelėkite viršutiniame dešiniajame puslapio kampe esantį (krumpliaračio) mygtuką **Parametrai“** ir tada spustelėkite **Mobilioji programa**
 3.  Pasirinkite savo darbo sritį ir spustelėkite **Redaguoti**.
@@ -145,7 +145,7 @@ Pirmasis mobiliųjų įrenginių puslapis, kurį turėtumėte sukurti, yra SF, k
 6.  Spustelėkite **Atlikta**.
 7.  Mobiliųjų įrenginių dizaino įrankio skirtuke **Laukai** spustelėkite **Pasirinkti laukus**. Šio sąrašo puslapio stulpeliuose turi būti tolesnėje iliustracijoje nurodyta informacija. 
 
-    [![Stulpeliai puslapyje Man priskirtos laukiančios tiekėjo SF](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
+    [![Stulpeliai puslapyje Man priskirtos laukiančios tiekėjo SF.](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
     
 8.  Iš sąrašo puslapio įtraukite reikiamus stulpelius, kurie vartotojams turi būti rodomi mobiliųjų įrenginių puslapyje. Galutiniam vartotojui laukai bus rodomi ta tvarka, kuria juos įtrauksite. Laukų tvarką galima pakeisti tik iš naujo pažymint visus laukus. Pagal šio scenarijaus reikalavimus reikalingi aštuoni toliau nurodyti laukai. Tačiau kai kuriems vartotojams aštuoni laukai gali pasirodyti per didelis informacijos kiekis mobiliajame įrenginyje. Todėl mobiliųjų įrenginių sąrašo rodinyje bus rodomi tik patys svarbiausi laukai. Likę laukai bus rodomi informacijos rodinyje, kurį sukursime vėliau. Dabar įtrauksime toliau nurodytus laukus. Spustelėkite šių stulpelių pliuso ženklą (**+**), kad įtrauktumėte į mobiliųjų įrenginių puslapį.
     - Tiekėjo vardas
@@ -156,7 +156,7 @@ Pirmasis mobiliųjų įrenginių puslapis, kurį turėtumėte sukurti, yra SF, k
 
     Įvedus laukus mobiliųjų įrenginių puslapyje turi būti rodoma tolesnėje iliustracijoje nurodyta informacija. 
     
-    [![Puslapio rodinys įtraukus laukus](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+    [![Puslapio rodinys įtraukus laukus.](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
 
 9.  Taip pat dabar turite įtraukti tolesnius stulpelius, kad vėliau galėtumėte įjungti darbo eigos veiksmus.
     - Rodyti baigti užduotį
@@ -175,7 +175,7 @@ Pirmasis mobiliųjų įrenginių puslapis, kurį turėtumėte sukurti, yra SF, k
 
 Norėdami kurti sąskaitų faktūrų informacijos mobiliųjų įrenginių puslapį, naudokite puslapį **VendMobileInvoiceHeaderDetails**. Atminkite, kad, atsižvelgiant į SF, kurios sistemoje jums priskirtos, skaičių, šiame puslapyje rodoma seniausia SF (SF, kuri buvo sukurta pirmoji). Norėdami rasi konkrečią SF, galite naudoti dešinėje pusėje pateiktą filtrą. Tačiau šiame pavyzdyje konkreti SF nėra reikalinga. Tereikia kokių nors SF duomenų, kad galėtumėte kurti mobiliųjų įrenginių puslapį. 
 
-[![Darbo eigos puslapis](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
+[![Darbo eigos puslapis.](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
 1. URL pakeiskite meniu elemento pavadinimą įrašydami **VendMobileInvoiceHeaderDetails**, kad atidarytumėte formą
 
@@ -212,7 +212,7 @@ Norėdami kurti sąskaitų faktūrų informacijos mobiliųjų įrenginių puslap
 
 11. Kai visi ankstesniuose dviejuose veiksmuose nurodyti laukai įtraukti, spustelėkite **Atlikta**. Puslapyje turi būti tolesnėje iliustracijoje nurodyta informacija.
     
-    [![Iliustracija, rodanti įtrauktus papildomus laukus](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![Iliustracija, rodanti įtrauktus papildomus laukus.](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 
 12. Spustelėkite **Atlikta**, kad uždarytumėte redagavimo režimą.
 
@@ -322,7 +322,7 @@ Norėdami įtraukti darbo eigos veiksmų, naudokite puslapį **VendMobileInvoice
 
 4. Nustatykite parinkties **Dokumentų valdymas** reikšmę **Taip**, kaip parodyta toliau. **Pastaba.** Jei mobiliajame įrenginyje priedų rodyti nereikia, galite palikti nustatytą šios parinkties reikšmę **Ne**, kuri yra numatytasis nustatymas.
    
-   ![Dokumentų tvarkymas](./media/docmanagement-216x300.png)
+   ![Dokumentų tvarkymas.](./media/docmanagement-216x300.png)
 
 5. Spustelėkite **Atlikta**, kad uždarytumėte redagavimo režimą.
 
@@ -339,7 +339,7 @@ Norėdami įtraukti darbo eigos veiksmų, naudokite puslapį **VendMobileInvoice
 
 1.  URL pakeiskite meniu elemento pavadinimą, kaip tai padarėte anksčiau. Pasirodžiusiame puslapyje turi būti tolesnėje iliustracijoje nurodyta informacija.
 
-    [![Puslapis Visi paskirstymai](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+    [![Puslapis Visi paskirstymai.](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
 
 2.  Atidarykite mobiliųjų įrenginių dizaino įrankį spustelėdami (krumpliaračio) mygtuką **Parametrai**.
 

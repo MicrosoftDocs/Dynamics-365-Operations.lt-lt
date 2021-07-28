@@ -16,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: a9fd5a90d59ec329f8d4a2515e657fb822c098b0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d251eb02e7d9db1e61ba8bb6531c90e0e23717b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792852"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356883"
 ---
 # <a name="show-discounts-in-pos"></a>Nuolaidų rodymas EKA
 
@@ -33,7 +33,7 @@ Akcijos vaidina svarbų vaidmenį motyvuojant klientus, kurie priima pirkimo spr
 
 „Commerce“ yra veiksmas pavadinimu „Peržiūrėti visas nuolaidas.“ Šis veiksmas parodo visas nuolaidas, kurios šiuo metu galioja parduotuvėje. Veiksmą „Peržiūrėti visas nuolaidas“ galima susieti su elektroninio kasos aparato (EKA) mygtuku, o tas mygtukas gali būti įtraukas į puslapius **Pasisveikinimas** arba **Operacija**. Toliau pateiktame paveikslėlyje pavaizduotas atverto **Visos nuolaidos** puslapio pavyzdys.
 
-![Visų nuolaidų puslapis](./media/View_all_discounts.png "Visų nuolaidų puslapis")
+![Visų nuolaidų puslapis.](./media/View_all_discounts.png "Visų nuolaidų puslapis")
 
 Kad parodytų nuolaidas, sistema ieško visų nuolaidų, atitinkančių vieną ar daugiau iš šių sąlygų:
 
@@ -61,11 +61,11 @@ Toliau pateiktoje iliustracijoje pristatyta logika, apibrėžianti, kurios nuola
 
 Toliau pateiktoje iliustracijoje vaizduojama logika, naudojama, kai nuolaidos sutapimo valdiklis nustatomas kaip **Geriausia kaina ir apskaičiuota pirmenybėje, niekada neskaičiuoti už pirmenybės ribų**.
 
-![Logika, skirta „Geriausia kaina ir apskaičiuota pirmenybėje, niekada neskaičiuoti už pirmenybės ribų“](./media/Model_1.png "Logika, skirta „Geriausia kaina ir apskaičiuota pirmenybėje, niekada neskaičiuoti už pirmenybės ribų“").
+![Logika, skirta „Geriausia kaina ir apskaičiuota pirmenybėje, niekada neskaičiuoti už pirmenybės ribų“.](./media/Model_1.png "Logika, skirta „Geriausia kaina ir apskaičiuota pirmenybėje, niekada neskaičiuoti už pirmenybės ribų“").
 
 Toliau pateiktoje iliustracijoje vaizduojama logika, naudojama, kai nuolaidos sutapimo valdiklis nustatomas kaip **Geriausia kaina tik pirmenybėje, visada skaičiuoti už pirmenybės ribų**.
 
-![Logika, skirta „Geriausia kaina tik pirmenybėje, visada skaičiuoti už pirmenybės ribų“](./media/Model_2.png "Logika, skirta „Geriausia kaina tik pirmenybėje, visada skaičiuoti už pirmenybės ribų“").
+![Logika, skirta „Geriausia kaina tik pirmenybėje, visada skaičiuoti už pirmenybės ribų“.](./media/Model_2.png "Logika, skirta „Geriausia kaina tik pirmenybėje, visada skaičiuoti už pirmenybės ribų“").
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

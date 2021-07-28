@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: f3bc63fd4b1017a5c96116ff6c9bbcc387869927
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b579ebff28e01caa727a22b01ae636ff713a27aa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825283"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359962"
 ---
 # <a name="purchasing-cxml-enhancements"></a>cXML patobulinimų pirkimas
 
@@ -38,7 +38,7 @@ Norėdami įjungti funkciją, atidarykite **[Funkcijų valdymas](../../fin-ops-c
 
 Toliau pateiktoje iliustracijoje apibendrinama ši konfigūracija.
 
-![cXML funkcijų nustatymo sritys](media/cxml-settings-areas.png "cXML funkcijų nustatymo sritys")
+![cXML funkcijų nustatymo sritys.](media/cxml-settings-areas.png "cXML funkcijų nustatymo sritys")
 
 Be to, turite nustatyti [Pirkimo užsakymo užklausos paketinę užduotį](#po-batch). Ši paketinė užduotis naudojama patvirtintiems pirkimo užsakymams siųsti.
 
@@ -46,7 +46,7 @@ Be to, turite nustatyti [Pirkimo užsakymo užklausos paketinę užduotį](#po-b
 
 Naudokite **cXML parametrai** puslapį, kad nustatytumėte kelis bendruosius pirkimo užsakymų siuntimo funkcijos parametrus.
 
-![cXML parametrų puslapis](media/cxml-parameters.png "cXML parametrų puslapis")
+![cXML parametrų puslapis.](media/cxml-parameters.png "cXML parametrų puslapis")
 
 Eikite į **Paraiškos \> Nustatymai \> cXML valdymas \> cXML parametrai** ir nustatykite šiuos parametrus:
 
@@ -67,7 +67,7 @@ Kiekvieną kartą, kai patvirtinate pirkimo užsakymą, kur pasirinktis **Siųst
 - Norėdami nustatyti tiekėją taip, kad jis automatiškai naudos cXML visiems naujiems pirkimo užsakymams, sukurtiems iš paraiškos, eikite į **Paraiškos \> Tiekėjai \> Visi tiekėjai** ir pasirinkite arba sukurkite tiekėją, kad atidarytumėte jo informacijos puslapį. Tada „FastTab” **Pirkimo užsakymo numatytosios vertės** nustatykite pasirinktį **Siųsti pirkimo užsakymą naudojant cXML** kaip _Taip_. Jei cXML taip pat turi būti automatiškai naudojamas naujiems pirkimo užsakymams, kurie **nėra** sukurti iš paraiškos, taip pat turite nustatyti **ENABLEMANUALPO** užsakymo ypatybę kaip _Teisinga_ susijusiems išoriniams katalogams, taip kaip aprašyta šios temos vėlesniame skyriuje [Nustatyti užsakymo ypatybes](#set-order-properties).
 - Atskiriems pirkimo užsakymams, eikite į **Paraiškos \> Pirkimo užsakymai \> Visi pirkimo užsakymai** ir pasirinkite arba sukurkite pirkimo užsakymą, kad atidarytumėte jo informacijos puslapį. Pereikite į rodinį **Antraštė**, o tada „FastTab” **Nustatymai** nustatykite pasirinktį **Siųsti pirkimo užsakymą naudojant cXML** kaip privalomą.
 
-![Numatytieji tiekėjo pirkimo užsakymų parametrai](media/cxml-order-defaults.png "Numatytieji tiekėjo pirkimo užsakymų parametrai")
+![Numatytieji tiekėjo pirkimo užsakymų parametrai.](media/cxml-order-defaults.png "Numatytieji tiekėjo pirkimo užsakymų parametrai")
 
 ## <a name="set-up-an-external-catalog-to-use-cxml"></a><a name="external-catalog-setup"></a>cXML naudojimo išoriniam katalogui nustatymas
 
@@ -76,7 +76,7 @@ Puslapyje **Išoriniai katalogai** kiekvienam savo katalogui galite nustatyti �
 > [!NOTE]
 > Kai patvirtinate pirkimo užsakymą, kuris gali būti siunčiamas per cXML, sistema peržvelgia su pirkimo užsakymu susietą tiekėją, o tada suranda pirmąjį aktyvų išorinį katalogą, susietą su tuo tiekėju. Tada sistema naudoja to išorinio katalogo parametrus, kad galėtų siųsti pirkimo užsakymą. Jei nustatyti keli išoriniai katalogai, sistema, remdamasi pirkimo užsakymo tiekėju, naudoja tik pirmąjį išorinį katalogą, kurį suranda. Todėl rekomenduojame sukurti tik po vieną išorinį katalogą kiekvienam tiekėjui.
 
-![Išorinio katalogo parametrai](media/cxml-supplier-catalog.png "Išorinio katalogo parametrai")
+![Išorinio katalogo parametrai.](media/cxml-supplier-catalog.png "Išorinio katalogo parametrai")
 
 ### <a name="set-the-punchout-protocol-type"></a>„PunchOut” protokolo tipo nustatymas
 
@@ -143,11 +143,11 @@ Kaip buvo minėta skyriuje [Nustatyti užsakymo ypatybes](#set-order-properties)
 
 Norėdami nustatyti pastabų, kurias sistema ieškos, tipus, eikite į **Paraiškos \> Nustatymai \> Formos \> Formos nustatymai**. Tada skirtuke **Pirkimo užsakymas** nustatykite lauką **Įterpiamų dokumentų tipas** tokiam pastabų tipui, kurį norėtumėte įterpti. Bus įtrauktos tik teksto pastabos, o ne dokumentų priedai.
 
-![Formuoti sąrankos puslapį](media/cxml-form-setup.png "Formuoti sąrankos puslapį")
+![Formuoti sąrankos puslapį.](media/cxml-form-setup.png "Formuoti sąrankos puslapį")
 
 Priedai bus įtraukti į pirkimo užsakymą tik jei jų **Tipo** laukas nustatytas kaip reikšmė, kurią pasirinkote **Įterpiamų dokumentų tipas** lauke, ir jei jų **Apribojimų** laukas nustatytas kaip _Išorinis_. Norėdami sukurti, peržiūrėti arba redaguoti pirkimo užsakymo priedus, eikite į **Paraiškos \> Visi pirkimo užsakymai**, pasirinkite arba sukurkite pirkimo užsakymą, o tada pasirinkite **Priedai** mygtuką (sąvaržėlės simbolis), esantį viršutiniame dešiniajame kampe.
 
-![Pridėta pastaba, nustatyta siųsti tiekėjui](media/cxml-note-to-vendor.png "Pridėta pastaba, nustatyta siųsti tiekėjui")
+![Pridėta pastaba, nustatyta siųsti tiekėjui.](media/cxml-note-to-vendor.png "Pridėta pastaba, nustatyta siųsti tiekėjui")
 
 ## <a name="view-the-cxml-cart-message-log-for-external-catalog-punchout"></a><a name="message-log"></a>Peržiūrėti „PunchOut” išorinio katalogo cXML krepšelio pranešimų žurnalą
 
@@ -155,7 +155,7 @@ Kai nustatysite **„Punchout” protokolo tipo** lauką kaip _cXML_ išoriniam 
 
 Norėdami atidaryti išorinio katalogo žurnalą, pasirinkite atitinkamą katalogą ir tada veiksmų srityje pasirinkite **cXML krepšelio pranešimų žurnalą**. **cXML krepšelio pranešimų žurnalo** puslapyje rodomas grąžintų krepšelių sąrašas, XML, susijęs su tais krepšeliais, ir eilutės, kurios buvo sukurtos atitinkamoje pirkimo paraiškoje.
 
-![cXML krepšelio pranešimų žurnalo puslapis](media/cxml-cart-message-log.png "cXML krepšelio pranešimų žurnalo puslapis")
+![cXML krepšelio pranešimų žurnalo puslapis.](media/cxml-cart-message-log.png "cXML krepšelio pranešimų žurnalo puslapis")
 
 ## <a name="set-the-extrinsic-elements-for-external-catalog-punchout"></a>Nustatyti išorinio katalogo „PunchOut” išorinius elementus
 
@@ -178,21 +178,21 @@ Norėdami į išorinį katalogą įtraukti išorinius elementus, atlikite šiuos
         - **Pavardė** – Naudokite kontaktinio asmens, kuris yra susijęs su vartotoju, turinčiu prieigą prie išorinio katalogo, pavardę.
         - **Telefono numeris** – Naudokite kontaktinio asmens, kuris yra susijęs su vartotoju, turinčiu prieigą prie išorinio katalogo, pagrindinį telefono numerį.
 
-![Išorinių elementų parametrai](media/cxml-extrinsics.png "Išorinių elementų parametrai")
+![Išorinių elementų parametrai.](media/cxml-extrinsics.png "Išorinių elementų parametrai")
 
 Vartotojas arba administratorius nematys išorinių elementų, nes jie nėra įtraukiami, kol vartotojas neatliks „PunchOut”. Jie bus automatiškai įterpti tarp **Pirkėjoslapuko** ir **Naršyklėsformosįrašo** elementų cXML nustatymo užklausos pranešime. Todėl konfigūruojant išorinį katalogą Jums nereikia nustatyti jų rankiniu būdu XML.
 
-![Išoriniai elementai įtraukti į XML](media/cxml-extrinsics-xml.png "Išoriniai elementai įtraukti į XML")
+![Išoriniai elementai įtraukti į XML.](media/cxml-extrinsics-xml.png "Išoriniai elementai įtraukti į XML")
 
 ## <a name="create-and-process-a-purchase-order"></a><a name="create-po"></a>Pirkimo užsakymo kūrimas ir apdorojimas
 
 Kai kuriate pirkimo užsakymą tiekėjui, jis perims **Pirkimo užsakymo siuntimas naudojant cXML** pasirinkties parametrą iš to tiekėjo. Tačiau parametras išlieka pasiekiamas pirkimo užsakymo **Antraštės** rodinio „FastTab” **Nustatymai**, tam kad galėtumėte jį vėliau pakeisti kaip būtiną.
 
-![Pirkimo užsakymas nustatytas cXML naudojimui](media/cxml-purchase-order.png "Pirkimo užsakymas nustatytas cXML naudojimui")
+![Pirkimo užsakymas nustatytas cXML naudojimui.](media/cxml-purchase-order.png "Pirkimo užsakymas nustatytas cXML naudojimui")
 
 Kai sukursite pirkimo užsakymą iš pirkimo paraiškos, kuri buvo gauta iš „PunchOut” srauto, bus įrašyta visa reikiama eilutės informacija. Tada galite rankiniu būdu pridėti pirkimo užsakymo eilutes arba nukopijuoti jas iš kitų pirkimo užsakymų. Įsitikinkite, kad nustatėte visus privalomus laukus. Šie privalomi laukai apima išorinį nuorodos numerį, kuris yra tiekėjo numeris ir kuris bus naudojamas cXML pranešime.
 
-![Išorinio nuorodos numerio pavyzdys](media/cxml-line-details.png "Išorinio nuorodos numerio pavyzdys")
+![Išorinio nuorodos numerio pavyzdys.](media/cxml-line-details.png "Išorinio nuorodos numerio pavyzdys")
 
 Baigę užpildyti visą pirkimo užsakymo informaciją, įsitikinkite, kad patvirtinote. Joks pranešimas nebus išsiųstas, jei nebus patvirtintas pirkimo užsakymas. Kad patvirtintumėte pirkimo užsakymą, veiksmų srityje, skirtuke **Pirkimai**, grupėje **Veiksmai** pasirinkite **Patvirtinti**. 
 
@@ -200,17 +200,17 @@ Patvirtinus pirkimo užsakymą, patvirtinimo būseną galite peržiūrėti **Pir
 
 Kiekvienas pirkimo užsakymas gali turėti daug patvirtinimų. Kiekvienas patvirtinimas pažymėtas papildančiuoju numeriu. Šioje iliustracijoje pirkimo užsakymas yra *00000275*, o patvirtinimas yra *00000275-1*. Šis numeravimas atspindi standartines „Supply Chain Management“ funkcijas, kur pirkimo užsakymo pakeitimai ir todėl cXML pranešimo tipas, kuris turi būti siunčiamas tiekėjui, yra nustatomi remiantis patvirtinimu. Kaip rodo iliustracija, į **Pirkimo užsakymų patvirtinimų** puslapį taip pat įtraukti **Užsakymo siuntimo būsenos** ir **Užsakymo užklausos tiekėjo būsenos** laukai. Daugiau informacijos apie įvairias būsenos reikšmes, kurias galbūt matysite šiame puslapyje, žr. [Pirkimo užsakymo užklausų stebėjimas](#monitor-po-requests) skyrių, esantį šioje temoje vėliau.
 
-![Pirkimo užsakymų patvirtinimų puslapis](media/cxml-po-confirmations.png "Pirkimo užsakymų patvirtinimų puslapis")
+![Pirkimo užsakymų patvirtinimų puslapis.](media/cxml-po-confirmations.png "Pirkimo užsakymų patvirtinimų puslapis")
 
 Norėdami peržiūrėti daugiau informacijos apie dokumentą, virš tinklelio pasirinkite **Pirkimo užsakymo užklausą**.
 
 **Pirkimo užsakymo užklausos** puslapyje yra du tinkleliai. Tinklelyje, esančiame viršutinėje puslapio dalyje, yra po vieną kiekvieno pirkimo užsakymo, kuris pažymėtas siųsti, įrašą. Tinklelis skirtuke **Pirkimo užsakymo užklausos retrospektyva**, esančiame apatinėje puslapio dalyje, gali apimti kelis pasirinkto pirkimo užsakymo įrašus, kad nurodyti kiekvieno patvirtinimo būseną. Šioje iliustracijoje rodomas pirkimo užsakymas 00000275, esantis viršutiniame tinklelyje, ir dokumentas 00000275-1, esantis tinklelyje, esančiame skirtuke **Pirkimo užsakymo užklausos retrospektyva**.
 
-![Pirkimo užsakymo užklausos puslapis](media/cxml-po-request.png "Pirkimo užsakymų užklausos puslapis")
+![Pirkimo užsakymo užklausos puslapis.](media/cxml-po-request.png "Pirkimo užsakymų užklausos puslapis")
 
 Jei nustatyta ir paleista paketinė užduotis, dokumentas bus išsiųstas. Po to, kai dokumentas bus išsiųstas, galite peržiūrėti būsenos pasikeitimą. Šioje iliustracijoje **Užsakymo siuntimo būsenos** laukas nustatytas kaip _Išsiųsta_. **Užsakymo užklausos tiekėjo būsenos** laukas nustatytas kaip _Patvirtinta_, kad nurodyti, jog tiekėjas gavo dokumentą ir pavyko jį perskaityti bei saugoti savo sistemoje. **Pirkimo užsakymo užklausos retrospektyvos** skirtuke esantis tinklelis nurodo laiką, kada dokumentas buvo išsiųstas. Daugiau informacijos apie įvairias būsenos reikšmes, kurias galbūt matysite šiame puslapyje, žr. [Pirkimo užsakymo užklausų stebėjimas](#monitor-po-requests) skyrių.
 
-![Būsenos pranešimai pirkimo užsakymo užklausos puslapyje](media/cxml-po-request-2.png "Būsenos pranešimai pirkimo užsakymo užklausos puslapyje")
+![Būsenos pranešimai pirkimo užsakymo užklausos puslapyje.](media/cxml-po-request-2.png "Būsenos pranešimai pirkimo užsakymo užklausos puslapyje")
 
 ## <a name="schedule-the-purchase-order-request-batch-job"></a><a name="po-batch"></a>Pirkimo užsakymo paketinės užduoties planavimas
 
@@ -226,7 +226,7 @@ Procesas ieškos pirkimo užsakymo užklausos dokumentų, kurių būsena yra *La
 
 Kai užsakymai, kuriuos galima siųsti per cXML, yra patvirtinami, jie eina į _Laukiama_ būseną. Kaip buvo aprašyta skyriuje [Pirkimo užsakymo sukūrimas ir apdorojimas](#create-po), pirkimo užsakymo užklausos būseną galite peržiūrėti puslapyje **Pirkimo užsakymo užklausa**. Kiekviena pirkimo užsakymo užklausa gali turėti vieną iš kelių būsenų, atsižvelgiant į jos parametrus ir duomenis. Šiame skyriuje aprašomi įvairūs būsenos tipai ir reikšmės, kurias jie gali turėti. Ši informacija gali padėti jums valdyti problemas ir suprasti jūsų pirkimo užsakymų būseną.
 
-![Pirkimo užsakymo būsena pirkimo užsakymo užklausos puslapyje](media/cxml-monitor-po-request.png "Pirkimo užsakymo būsena pirkimo užsakymo užklausos puslapyje")
+![Pirkimo užsakymo būsena pirkimo užsakymo užklausos puslapyje.](media/cxml-monitor-po-request.png "Pirkimo užsakymo būsena pirkimo užsakymo užklausos puslapyje")
 
 Tinklelyje, esančiame viršutinėje **Pirkimo užsakymo užklausos** puslapio dalyje gali būti rodomos šios būsenos reikšmės:
 
@@ -262,17 +262,17 @@ Tinklelyje **Pirkimo užsakymo užklausų istorija,** esančiame apatinėje pusl
 
 Norėdami peržiūrėti pirkimo užsakymo užklausos pranešimą XML formatu, pasirinkite skirtuką **Reikalauti XML teksto** apatinėje puslapio **Pirkimo užsakymo užklausa** dalyje. Šiame skirtuke pateikiama informacija gali būti naudinga testavimo arba klaidų tikrinimo metu. Norėdami palengvinti informacijos skaitymą, galite ją peržiūrėti kaip formatuotą pranešimą. Nukopijuokite skirtuko turinį į tekstinį failą, tada peržiūrėkite jį XML rengyklėje.
 
-![XML teksto skirtuko užklausa](media/cxml-request-xml-text.png "XML teksto skirtuko užklausa")
+![XML teksto skirtuko užklausa.](media/cxml-request-xml-text.png "XML teksto skirtuko užklausa")
 
 ### <a name="view-the-details-of-the-vendor-response"></a>Peržiūrėkite tiekėjo atsakymo informaciją.
 
 Norėdami peržiūrėti tiekėjo patvirtinimo ar klaidos atsakymo turinį, pasirinkite **XML atsakymo** skirtuką, esantį **Pirkimo užsakymo užklausos** puslapio apačioje.
 
-![Atsakymo XML skirtukas](media/cxml-response-xml.png "XML atsakymo skirtukas")
+![Atsakymo XML skirtukas.](media/cxml-response-xml.png "XML atsakymo skirtukas")
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-- [Išorinio katalogo nustatymas el. pirkimo išėjimo laikui žymėti](set-up-external-catalog-for-punchout.md)
+- [Išorinio katalogo nustatymas el. įsigijimų išėjimo laikui žymėti](set-up-external-catalog-for-punchout.md)
 - [Išorinių katalogų naudojimas el. įsigijimų išėjimo laikui žymėti](use-external-catalogs-for-punchout.md)
 
 

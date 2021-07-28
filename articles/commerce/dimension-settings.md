@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b901622bbfc8d6b3066879f6456a4ab618ca4076
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: d6854c11822e07ff06426b7a35eac86cdc0e9b06
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117237"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356907"
 ---
 # <a name="apply-display-settings-for-product-dimensions"></a>Rodymo parametrų taikymas produktų dimensijoms
 
@@ -33,7 +33,7 @@ ms.locfileid: "6117237"
 
 „Commerce“ svetainės kūrimo priemonėje dimensijų parametrai yra apibrėžiami **Svetainės parametrai \> Plėtiniai \> Dimensijų parametrai**. Šioje iliustracijoje pateikiamas dimensijos nustatymų pavyzdys svetainės kūrimo priemonėje.
 
-![Svetainės parametrų pavyzdys „Commerce“ svetainės kūrimo priemonėje](./dev-itpro/media/swatch_site_settings.PNG)
+![Svetainės parametrų pavyzdys „Commerce“ svetainės kūrimo priemonėje.](./dev-itpro/media/swatch_site_settings.PNG)
 
 Galimi du dimensijų parametrai:
 
@@ -41,13 +41,13 @@ Galimi du dimensijų parametrai:
 
     Šioje iliustracijoje pateikiamas pavyzdys, kuriame PDP el. komercijos svetainėje apima spalvų ir dydžių pavyzdžius. Šiame pavyzdyje šešioliktainis kodas konfigūruojamas spalvos dimensijai. Todėl pavyzdžiai rodomi kaip spalvos. Tačiau dydžio dimensijai nesukonfigūruojamas nei šešioliktainis kodas, nei vaizdo URL. Todėl rodomas tekstas.
 
-    ![Spalvos dimensija rodoma kaip pavyzdys el. prekybos išsamios produkto informacijos puslapyje](./dev-itpro/media/swatch_pdp.png)
+    ![Spalvos dimensija rodoma kaip pavyzdys elektroninės prekybos išsamios produkto informacijos puslapyje.](./dev-itpro/media/swatch_pdp.png)
 
 - **Dimensijos, rodytinos produkto kortelėje** – Nurodykite, kurios dimensijos turėtų būti rodomos produkto kortelėse, rodomose sąrašuose ir sąrašo puslapiuose. Kad dimensija galėtų būti rodoma produkto kortelėje, šis nustatymas turi būti įgalintas tai dimensijai. Parametras **Dimensijos, rodytinos kaip vaizdas** taip pat turi būti įgalintas. Pavyzdžių pasirinkimo veikimas produkto kortelėse yra optimizuotas spalvos dimensijai. Norint tinkinti kitų dimensijų pavyzdžių pasirinkimo būdą, gali būti reikalingas rodinio plėtinys.
 
     Šioje iliustracijoje pateikiamas pavyzdys, kuriame el. komercijos svetainės sąrašo puslapyje yra produktų kortelės, apimančios spalvų pavyzdžius.
 
-    ![Spalvos dimensija rodoma kaip pavyzdys el. prekybos sąrašo puslapyje](./dev-itpro/media/swatch_searchresults.PNG)
+    ![Spalvos dimensija rodoma kaip pavyzdys elektroninės prekybos sąrašo puslapyje.](./dev-itpro/media/swatch_searchresults.PNG)
 
 Daugiau informacijos apie tai, kaip konfigūruoti produkto dimensijas, kad jos būtų rodomos kaip pavyzdžiai svetainės puslapiuose, rasite [Konfigūruoti produkto dimensijų reikšmes, kad jos būtų rodomos kaip pavyzdžiai](./dev-itpro/dimensions-swatch.md).
 

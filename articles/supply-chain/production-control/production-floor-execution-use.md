@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 0ece83a20a33a8f23e8700d1b5d680a11d64fea0
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: c8c50a9a6f9f3c6582e9fd0f28080a3259faab21
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907722"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349775"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kaip darbuotojai naudoja gamybos cecho vykdymo sąsają
 
@@ -32,7 +32,7 @@ Kad darbuotojai galėtų pradėti naudoti įrenginį, prižiūrėtojas arba tech
 
 Kai įrenginys paruoštas, jame atsiranda prisijungimo puslapis. Šiame puslapyje pateikiama informacija apie vietinių darbo elementų užduočių būsenas. Ši informacija periodiškai atnaujinama. Puslapyje darbuotojai naudoja savo ženklo ID, kad prisijungtų. Nors darbuotojai neprivalo turėti „Supply Chain Management” vartotojo abonemento, jie privalo turėti *registruojamo laiko darbuotojo* abonementą, kurį gali naudoti prisijungdami.
 
-![Gamybos cecho vykdymo sąsajos prisijungimo puslapis](media/pfei-sign-in-page.png "Gamybos cecho vykdymo sąsajos prisijungimo puslapis")
+![Gamybos cecho vykdymo sąsajos prisijungimo puslapis.](media/pfei-sign-in-page.png "Gamybos cecho vykdymo sąsajos prisijungimo puslapis")
 
 Likę šios temos skyriai apibūdina, kaip darbuotojai naudoja sąsają.
 
@@ -40,7 +40,7 @@ Likę šios temos skyriai apibūdina, kaip darbuotojai naudoja sąsają.
 
 Skirtuke **Visos užduotys** pateikiamas užduočių sąrašas, kuriame nurodytos visos gamybos užduotys, kurių būsena yra *Nepradėta*, *Sustabdyta* arba *Pradėta*. (Šį skirtuko pavadinimą galima tinkinti ir jūsų sistemoje jis gali būti kitoks.)
 
-![Skirtukas Visos užduotys](media/pfei-all-jobs-tab.png "Skirtukas Visos užduotys")
+![Skirtukas Visos užduotys.](media/pfei-all-jobs-tab.png "Skirtukas Visos užduotys")
 
 Užduočių sąraše yra toliau pateikti stulpeliai. Skaičiai atitinka skaičius ankstesnėje iliustracijoje.
 
@@ -59,7 +59,7 @@ Užduočių sąraše yra toliau pateikti stulpeliai. Skaičiai atitinka skaičiu
 
 Skirtukuose **Aktyvios užduotys** rodomas visų užduočių, kurias prisijungęs darbuotojas jau pradėjo, sąrašas. (Šį skirtuko pavadinimą galima tinkinti ir jūsų sistemoje jis gali būti kitoks.)
 
-![Skirtukas Aktyvios užduotys](media/pfei-active-jobs-tab.png "Skirtukas Aktyvios užduotys")
+![Skirtukas Aktyvios užduotys.](media/pfei-active-jobs-tab.png "Skirtukas Aktyvios užduotys")
 
 Aktyvių užduočių sąraše yra toliau pateikti stulpeliai:
 
@@ -76,7 +76,7 @@ Aktyvių užduočių sąraše yra toliau pateikti stulpeliai:
 
 Skirtukas **Mano mašina** leidžia darbuotojams pasirinkti turtą, kuris yra sujungtas su įrenginio ištekliais, esančiais skirtuko **Visos užduotys** filtrų rinkinyje. Tada darbuotojas gali peržiūrėti pasirinkto turto būseną ir sveikatą skaitydamas vertes (ne daugiau keturių pasirinktų skaitiklių) ir naujausių priežiūros užklausų bei užregistruotų prastovų sąrašus. Darbuotojas taip pat gali reikalauti pasirinkto turto priežiūros ir registruoti bei redaguoti įrenginio prastovą. (Šį skirtuko pavadinimą galima tinkinti ir jūsų sistemoje jis gali būti kitoks.)
  
-![Mano mašina skirtukas](media/pfei-my-machine-tab.png "Skirtukas Mano mašina")
+![Mano mašina skirtukas.](media/pfei-my-machine-tab.png "Skirtukas Mano mašina")
 
 Skirtuke **Mano mašina** yra šie stulpeliai. Skaičiai atitinka skaičius ankstesnėje iliustracijoje.
 
@@ -87,7 +87,7 @@ Skirtuke **Mano mašina** yra šie stulpeliai. Skaičiai atitinka skaičius anks
 
 1. **Nustatymai** – pasirinkite pavarų piktogramą atidaryti dialogo langui, kuriame galėsite pasirinkti, kuriuos skaitiklius peržiūrėti pasirinktam įrenginio turtui. Šių skaitiklių reikšmės rodomos skirtuko **Turto valdymas** viršuje. Meniu **Parametrai** (rodomas toliau pateiktoje ekrano nuotraukoje) leidžia įgalinti ne daugiau keturių skaitiklių. Skaitiklio pasirinkimui naudokite peržvalgos lauką, esantį plytelės viršuje, kiekvienam skaitikliui, kurį norite įgalinti. Peržvalgos lauke pateikiami visi su turtu susiję skaitikliai, pasirinkti puslapio **Turto valdymas** viršuje. Nustatykite kiekvieną skaitiklį stebėti arba **Bendrą** arba **Faktinę** skaitiklio reikšmę. Pavyzdžiui, jei nustatote skaitiklį sekti, kiek valandų veikia mašina, tada turite nustatyti jį kaip **Bendra**. Jei nustatote skaitiklį matuoti vėliausią atnaujintą temperatūrą ar slėgį, tada turite nustatyti jį kaip **Faktinė**. Norėdami įrašyti parametrus ir uždaryti dialogo langą, pasirinkite **Gerai**.
 
-    ![Skirtuko Mano mašina parametrai](media/pfei-my-machine-tab-settings.png "Skirtuko Mano mašina parametrai")
+    ![Skirtuko Mano mašina parametrai.](media/pfei-my-machine-tab-settings.png "Skirtuko Mano mašina parametrai")
 
 1. **Priežiūros užklausa** – pasirinkite šį mygtuką, jei norite atidaryti dialogo langą, kuriame galite sukurti priežiūros užklausą. Galėsite pateikti aprašą ir pastabą. Užklausa bus pateikta „Supply Chain Management” vartotojui, kuris tada galės konvertuoti priežiūros užklausą į priežiūros darbo užsakymą.
 1. **Registruoti prastovą** – pasirinkite šį mygtuką, jei norite atidaryti dialogo langą, kuriame galite registruoti įrenginio prastovą. Galėsite pasirinkti priežasties kodą ir įvesti prastovos datos / laiko trukmę. Įrenginių prastovos registracija naudojama skaičiuojant įrenginio turto efektyvumą.
@@ -98,7 +98,7 @@ Skirtuke **Mano mašina** yra šie stulpeliai. Skaičiai atitinka skaičius anks
 
 Darbuotojai pradeda gamybos užduotį, pasirinkdami užduotį skirtuke **Visos užduotys** ir tada pasirinkdami **Pradėti užduotį**, kad būtų atidarytas dialogo langas **Pradėti užduotį**.
 
-![Dialogo langas Pradėti užduotį](media/pfei-start-job-dialog.png "Dialogo langas Pradėti užduotį")
+![Dialogo langas Pradėti užduotį.](media/pfei-start-job-dialog.png "Dialogo langas Pradėti užduotį")
 
 Darbuotojai naudoja dialogo langą **Pradėti užduotį**, kad patvirtintų gamybos kiekį ir pradėtų užduotį. Darbuotojai gali koreguoti kiekį pasirinkdami lauką **Kiekis** ir naudodami atsiradusią skaičių klaviatūrą. Tada darbuotojai pasirenka **Pradėti**, kad pradėtų dirbti su užduotimi. Dialogo langas **Pradėti užduotį** uždaromas, o užduotis įtraukiama į skirtuką **Aktyvios užduotys**.
 
@@ -108,13 +108,13 @@ Darbuotojai gali pradėti bet kokios būsenos užduotį. Kai darbuotojas pradeda
 
 Kai darbuotojas užbaigia arba iš dalies užbaigia užduotį, jis gali pateikti prekių kiekių, kurie buvo pagaminti, ataskaitą, pasirinkdamas užduotį skirtuke **Aktyvios užduotys** ir tada – **Teikti ataskaitą apie eigą**. Tada dialogo lange **Teikti ataskaitą apie eigą** darbuotojas įveda prekių kiekį naudodamas skaičių klaviatūrą. Kiekio laukas pagal numatytuosius nustatymus yra tuščias. Įvedęs kiekį, darbuotojas gali atnaujinti užduoties būseną į *Vykdoma*, *Sustabdyta* arba *Baigta*.
 
-![Dialogo langas Teikti ataskaitą apie eigą](media/pfei-report-progress-dialog.png "Dialogo langas Teikti ataskaitą apie eigą")
+![Dialogo langas Teikti ataskaitą apie eigą.](media/pfei-report-progress-dialog.png "Dialogo langas Teikti ataskaitą apie eigą")
 
 ## <a name="reporting-scrap"></a>Atliekų ataskaitos
 
 Kai darbuotojas užbaigia arba iš dalies užbaigia užduotį, jis gali pateikti atliekų ataskaitą, pasirinkdamas užduotį skirtuke **Aktyvios užduotys** ir tada – **Teikti ataskaitą apie atliekas**. Tada dialogo lange **Teikti ataskaitą apie atliekas** darbuotojas įveda atliekų kiekį naudodamas skaičių klaviatūrą. Darbuotojas taip pat pasirenka priežastį (*Nėra*, *Įrenginys*, *Operatorius* arba *Medžiagos*).
 
-![Dialogo langas Teikti ataskaitą apie atliekas](media/pfei-report-scrap-dialog.png "Dialogo langas Teikti ataskaitą apie atliekas")
+![Dialogo langas Teikti ataskaitą apie atliekas.](media/pfei-report-scrap-dialog.png "Dialogo langas Teikti ataskaitą apie atliekas")
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Užduoties užbaigimas ir naujos užduoties pradėjimas
 

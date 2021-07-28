@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2f7ad4f53917bb607afe84a2c457518c3f8f7a08
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7a9507cd7f2a1612ab4063d6307b72d8522619ba
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799111"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349429"
 ---
 # <a name="recall-order-operation-in-pos"></a>EKA operacija Atšaukti užsakymą
 
@@ -29,7 +29,7 @@ Norėdami įgalinti šią funkciją, įjunkite funkciją **Patobulinta EKA opera
 
 Operacijos **Atšaukti užsakymą** mygtuko konfigūracija leidžia organizacijoms diegti operaciją su iš anksto nustatytu rodiniu.
 
-![Mygtukyno konfigūracija](media/recallorderbuttongrid.png)
+![Mygtukų tinklelio konfigūracija.](media/recallorderbuttongrid.png)
 
 Toliau nurodytos galimos rodymo parinktys.
 - **Nėra** – ši parinktis įdiegia operaciją be konkretaus rodinio. Kai vartotojas atidaro šios konfigūracijos operaciją, jis bus paragintas ieškoti užsakymų arba pasirinkti iš iš anksto nustatyto užsakymų filtro.
@@ -42,11 +42,11 @@ Paleidus operaciją **Atšaukti užsakymą** EKA, jei rodinys sukonfigūruotas p
 - Norėdami naudoti filtravimo mechanizmą, kad būtų surasti užsakymai, atitinkantys filtro kriterijus, programų juostoje pasirinkite piktogramą **Ieškoti užsakymų** arba **Ieškoti ir filtruoti**.
 - Pasirinkite iš iš anksto nustatyto filtro išplečiamajame meniu **Rodyti užsakymus** (užsakymus, kuriuos reikia įvykdyti, paimti arba išsiųsti).
 
-![RecallOrderMainMenu](media/recallordermain.png)
+![„RecallOrderMainMenu”.](media/recallordermain.png)
 
 Pritaikius ieškos kriterijus, programoje bus rodomas atitinkančių pardavimo užsakymų sąrašas. Svarbu pažymėti, kad naudojant ieškos / filtro parinktis, nuskaityti užsakymai neturi būti susieti su dabartine naudotojo parduotuve. Šis ieškos procesas nuskaitys ir rodys visus kliento užsakymus, atitinkančius paieškos kriterijus, net jei užsakymas buvo sukurtas arba nustatytas įvykdyti kitoje parduotuvės /kanalo ar sandėlio vietoje.
 
-![RecallOrderDetail](media/orderrecalldetail.png)
+![„RecallOrderDetail”.](media/orderrecalldetail.png)
 
 Vartotojas gali pasirinkti sąrašo užsakymą, norėdamas peržiūrėti papildomą informaciją. Informacijos skydas dešiniajame ekrano krašte rodo konkrečią pasirinkto užsakymo informaciją, įskaitant užsakymo eilutės, pristatymo ir įvykdymo informaciją.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a06936da71d7b05f312a99c8c11d148403d29c3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 11d15a9e932eb02fc1bc8960d9c7ecbf4b57a4e8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752393"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356300"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-4---run-the-report"></a>ER: finansinių dimensijų kaip duomenų šaltinio naudojimas (4 dalis – Ataskaitos vykdymas)
 
@@ -34,19 +34,19 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus
 2. Medyje išplėskite Finansinių dimensijų modelio pavyzdys.
 3. Medyje pasirinkite Financial dimensions sample model\Ledger journal report.
 4. Spustelėkite Vykdyti.
-![ER konfigūracijų puslapis](../media/er-financial-dimensions-guides-run1.png)
+![ER konfigūracijų puslapis.](../media/er-financial-dimensions-guides-run1.png)
 5. Lauke Dimensijos pavadinimas įveskite arba pasirinkite reikšmę.
     * Norėdami pasirinkti visas dabartinės įmonės dimensijas, įveskite toliau nurodytą informaciją: BusinessUnit;CostCenter;Department;ItemGroup;MainAccount;Project  
-![ER konfigūracijų puslapis](../media/er-financial-dimensions-guides-run2.png)
+![ER konfigūracijų puslapis.](../media/er-financial-dimensions-guides-run2.png)
 6. Išplėskite dalį Įtrauktini įrašai.
 7. Spustelėkite Filtras.
 8. Pasirinkite eilutę DK žurnalo lentelės ir lauko Žurnalo paketo numeris eilutę.
 9. Lauke Kriterijai įveskite 00057.
 10. Spustelėkite Gerai.
 11. Spustelėkite Gerai.
-![ER konfigūracijų puslapis](../media/er-financial-dimensions-guides-run3.png)
+![ER konfigūracijų puslapis.](../media/er-financial-dimensions-guides-run3.png)
     * Peržiūrėkite sugeneruotą išvestį. Rodomos kiekvienos pasirinkto paketo operacijos finansinės dimensijos iš atitinkamo dimensijų rinkinio. Vykdykite šią ataskaitą ir pasirinkite skirtingas dimensijas, norėdami pamatyti, ar ataskaita nepriklauso nuo pasirinktų dimensijų skaičiaus arba sukonfigūruotų šio egzemplioriaus dimensijų skaičiaus.  
-![ER konfigūracijų puslapis](../media/er-financial-dimensions-guides-run4.png)
+![ER konfigūracijų puslapis.](../media/er-financial-dimensions-guides-run4.png)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 067d7035cdb9c8f4bcb2bdac9cf0a33cd4e01079
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2fa602d01cadecbf24c2433360f7b2a8ebb0854a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811442"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355160"
 ---
 # <a name="cost-element-dimensions"></a>Savikainos elemento dimensijos
 
@@ -63,7 +63,7 @@ Yra dviejų tipų savikainos elementai: pirminiai savikainos elementai ir antrin
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>Savikainos elemento dimensijos ir savikainos elemento dimensijos nariai
 Savikainos elementai vadinami *savikainos elemento dimensijos*. Atskiros dimensijos vertės vadinamos *savikainos elemento dimensijos nariai*. Pavyzdžiui, jūs turite JAV sąskaitų plano struktūrą (COA), kuri yra jūsų privalomųjų ataskaitų pagrindas. Ši COA naudojama kaip savikainos elemento dimensija. Sąskaitas, kurios yra pirminiai savikainos elementai, savikainos apskaitoje atitinka savikainos elemento dimensijos nariai. Toliau pateikiamoje ekrano nuotraukoje pavaizduotas pagrindinių sąskaitų pavyzdys, kai pagrindinės sąskaitos yra savikainos elemento dimensija su savo faktinėmis pagrindinėmis sąskaitomis, kurios yra savikainos elemento dimensijos nariai. 
 
-[![Pagrindinių sąskaitų kaip išlaidų elemento dimensijos ekrano kopija](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+[![Pagrindinių sąskaitų kaip išlaidų elemento dimensijos ekrano kopija.](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>Savikainos elemento dimensijos narių importavimas naudojant duomenų jungtis
 Norėdami supaprastinti savikainos apskaitos savikainos elemento dimensijos narius, kad galėtumėte gauti pirminės savikainos elementus iš vienos ar kelių šaltinio sistemų, galite naudoti iš anksto parengtas duomenų jungtis arba savo pasirinktas jungtis.

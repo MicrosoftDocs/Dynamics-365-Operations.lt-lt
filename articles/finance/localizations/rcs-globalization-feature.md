@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: cbb1d9a53a7a09ab525532f08553898c4e40223a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7faa9a3cf6a29d8ed126cfcb0e2902b2016d03ff
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822786"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358151"
 ---
 # <a name="regulatory-configuration-services-rcs---globalization-features"></a>„Regulatory Configuration Services (RCS)” – globalizacijos funkcijos
 
@@ -53,7 +53,7 @@ Savo „Finance and Operations” programoje, atlikite šiuos veiksmus.
 1. Savo RCS egzemplioriuje pasirinkite **Funkcijos valdymo** plytelę.
 2. **Funkcijų valdymo** darbo srityje sąraše pasirinkite **Globalizacijos funkcijos** ir pasirinkite **Įjungti dabar**.
 
-    ![Globalizacijos funkcijos Funkcijų valdyme](./media/RCS_GlobalF_1%20Feature%20mgmt.JPG)
+    ![Globalizacijos funkcijos Funkcijų valdyme.](./media/RCS_GlobalF_1%20Feature%20mgmt.JPG)
 
 ## <a name="globalization-features"></a>Globalizacijos funkcijos
 
@@ -67,11 +67,11 @@ Norėdami naudoti Globalizacijos funkciją, pirmiausia turite ją importuoti iš
 1. Įsitikinkite, kad **Globalizacijos funkcijos** funkcija yra įjungta Funkcijų valdyme, kaip aprašyta anksčiau šioje temoje.
 2. Atverkite naują **Globalizacijos funkcijos** darbo sritį, o tada dalyje po **Funkcijos** pasirinkite **El. SF išrašymas** plytelę.
 
-    ![Visuotinių funkcijų darbo sritis](./media/RCS_GlobalF_2%20Feature%20wrkspace.JPG)
+    ![Visuotinių funkcijų darbo sritis.](./media/RCS_GlobalF_2%20Feature%20wrkspace.JPG)
 
     **El. SF išrašymo funkcijos** puslapis atvertas.
 
-    ![El. sąskaitų faktūrų išrašymo funkcijų puslapis](./media/RCS_GlobalF_3%20Feature%20form.JPG)
+    ![Elektroninių sąskaitų faktūrų išrašymo funkcijų puslapis.](./media/RCS_GlobalF_3%20Feature%20form.JPG)
 
 ## <a name="add-a-derived-globalization-feature"></a>Įtraukite išvestinę Globalizacijos funkciją
 
@@ -79,27 +79,27 @@ Galite pridėti naują Globalizacijos funkciją išvesdami ją iš esamos, kuri 
 
 1. Pasirinkite **Importuoti**, kad atvertumėte **Importuoti funkciją iš Visuotinės saugyklos** puslapio.
 
-    ![Importuokite funkciją š Visuotinės saugyklos puslapio](./media/RCS_GlobalF_4%20Feature%20import%20form%20GR.JPG)
+    ![Importuokite funkciją š Visuotinės saugyklos puslapio.](./media/RCS_GlobalF_4%20Feature%20import%20form%20GR.JPG)
 
 2. Pasirinkite **Sinchronizuoti**, kad gautumėte naujausias funkcijas.
 
     Sinchronizuotame sąraše yra funkcijų, kurias galite naudoti, nes jas publikavo „Microsoft ” arba dėl to, kad kitas konfigūracijos teikėjas bendrino jas su jumis.
 
-    ![Sinchronizuotas funkcijų sąrašas](./media/RCS_GlobalF_5%20Feature%20GR%20sync.JPG)
+    ![Sinchronizuotas funkcijų sąrašas.](./media/RCS_GlobalF_5%20Feature%20GR%20sync.JPG)
 
 3. Sąraše pasirinkite importuotinas funkcijas ir pasirinkite **importuoti**. Gausite pranešimą, kai atrinktos funkcijos bus sėkmingai importuotos.
 
-    ![Sėkmingo importavimo pranešimas](./media/RCS_GlobalF_6%20Feature%20GR%20import%20success.JPG)
+    ![Sėkmingo importavimo pranešimas.](./media/RCS_GlobalF_6%20Feature%20GR%20import%20success.JPG)
 
 4. Pasirinkite **Įtrauki**, tada išplečiamojo dialogo lango lauke pasirinkite **Pagrįstas esama versija** parinktį.
 5. Įveskite funkcijos pavadinimą ir aprašymą.
 6. Galimų funkcijų sąraše pasirinkite pagrindinę funkcijos versiją ir pasirinkite **Kurti priemonę**.
 
-    ![Išvestos funkcijos pridėjimas](./media/RCS_GlobalF_7%20Feature%20create%20derived.JPG)
+    ![Išvestos funkcijos pridėjimas.](./media/RCS_GlobalF_7%20Feature%20create%20derived.JPG)
 
     Jūsų pridėta funkcija sukuriama ir jos būsena yra **Juodraštis**.
 
-    ![Išvestinė funkcija, turinti Juodraščio būseną](./media/RCS_GlobalF_8%20Feature%20draft%20create.JPG)
+    ![Išvestinė funkcija, turinti Juodraščio būseną.](./media/RCS_GlobalF_8%20Feature%20draft%20create.JPG)
 
 7. Peržiūrėkite funkcijų komponentus, kad nustatytumėte, kurie naujiniai yra reikalingi:
 
@@ -120,7 +120,7 @@ Galite pridėti naują Globalizacijos funkciją sukurdami ją nuo pradžių.
 2. Įveskite funkcijos pavadinimą ir aprašymą.
 3. Pasirinkite **Sukurti funkciją**.
 
-    ![Naujos funkcijos įtraukimas](./media/RCS_GlobalF_9%20Feature%20create%20new.JPG)
+    ![Naujos funkcijos įtraukimas.](./media/RCS_GlobalF_9%20Feature%20create%20new.JPG)
 
 4. **Versijos** skirtuke pasirinkite **Įsigalioja nuo** datą ir pasirinkite **Keisti būseną**, kad baigtumėte funkciją. Baigtos funkcijos gali būti prieinamos tam tikrai aplinkai, kad jos galėtų būti naudojamos Globalizacijos paslaugose arba jos gali būti paskelbtos Visuotinėje saugykloje.
 
@@ -176,7 +176,7 @@ Toliau nurodyti veiksmai galimi funkcijos sąrankai:
     - Taikymo taisyklės
     - Kintamieji
 
-![Funkcijos versijos sąrankos puslapis](./media/RCS_GlobalF_10%20Feature%20set%20up.JPG)
+![Funkcijos versijos sąrankos puslapis.](./media/RCS_GlobalF_10%20Feature%20set%20up.JPG)
 
 ### <a name="environments"></a>Aplinkos
 
@@ -193,7 +193,7 @@ Atlikite šiuos veiksmus, kad bendrintumėte Globalizacijos funkciją su išorin
 2. **Organizacijos** skirtuke pasirinkite **Bendrinti su**, tada išplečiamajame dialogo lange įveskite organizacijos domeno pavadinimą.
 3. Pasirinkite **Bendrinti**.
 
-    ![Funkcijos bendrinimas su organizacija](./media/RCS_GlobalF_20%20Feature%20orgn_share%20with.JPG)
+    ![Funkcijos bendrinimas su organizacija.](./media/RCS_GlobalF_20%20Feature%20orgn_share%20with.JPG)
 
 Funkcija bendrinama su pasirinkta organizacija ir ji prieinama tai organizacijai Visuotinėje saugykloje. Iš ten funkcija gali būti importuojama į organizacijos egzempliorių RCS arba „Dynamics 365 Finance”, kad ja galima būtų naudotis.
 
@@ -201,7 +201,7 @@ Funkcija bendrinama su pasirinkta organizacija ir ji prieinama tai organizacijai
 
 Galite pritaikyti išvestinę Globalizacijos funkciją kitoje vietoje naujai arba atnaujintai pagrindinei funkcijos versijai. Tokiu būdu pakeitimai, atlikti pagrindinėje versijoje, gali būti automatiškai atnaujinti. Atnaujintą pagrindinę funkcijos versiją sukuria pirminės konfigūracijos teikėjas, ji publikuojama arba bendrinama.
 
-![Atnaujinta pagrindinės funkcijos versija](./media/RCS_GlobalF_12%20Feature%20new%20version.JPG)
+![Atnaujinta pagrindinės funkcijos versija.](./media/RCS_GlobalF_12%20Feature%20new%20version.JPG)
 
 Pavyzdžiui, jei norite pritaikyti jūsų sukurtą išvestinę funkcijos versiją kitoje vietoje, pirmiausia turite gauti naujausią šios funkcijos versiją importuodami ją iš Visuotinės saugyklos.
 
@@ -209,23 +209,23 @@ Pavyzdžiui, jei norite pritaikyti jūsų sukurtą išvestinę funkcijos versij�
 2. Pasirinkite **Sinchronizuoti**, kad gautumėte naujausias funkcijas.
 3. Funkcijų sąraše pasirinkite funkcijas, kurias norite importuoti, ir tada pasirinkite **Importuoti**.
 
-    ![Naujausios funkcijos versijos importavimas](./media/RCS_GlobalF_13%20Feature%20new%20version%20import.JPG)
+    ![Naujausios funkcijos versijos importavimas.](./media/RCS_GlobalF_13%20Feature%20new%20version%20import.JPG)
 
 4. Funkcijų sąraše pasirinkite funkciją, kurią norite pritaikyti kitoje vietoje.
 5. **Versija** skirtuke pasirinkite **Nauja**, kad sukurtumėte juodraštinę versiją.
 
-    ![Nauja juodraštinė versija sukurta](./media/RCS_GlobalF_14%20Feature%20new%20base%20version.JPG)
+    ![Nauja juodraštinė versija sukurta.](./media/RCS_GlobalF_14%20Feature%20new%20base%20version.JPG)
 
 6. Pasirinkite **Pritaikyti kitoje vietoje**.
 7. Dialogo lange **Pritaikyti kitoje vietoje** pasirinkite naujausią funkcijos versiją, kurią norite pritaikyti kitoje vietoje.
 
-    ![Pritaikymo kitoje vietoje dialogo langas](./media/RCS_GlobalF_15%20Feature%20rebase%20version.JPG)
+    ![Pritaikymo kitoje vietoje dialogo langas.](./media/RCS_GlobalF_15%20Feature%20rebase%20version.JPG)
 
 8. Pasirinkite **Gerai**.
 9. Peržiūrėkite funkcijos komponentus ir atlikite būtinus pakeitimus.
 10. Pasirinkite **Pakeisti būseną**, kad užbaigtumėte pritaikytą kitoje vietoje funkciją. Kai pritaikymas kitoje vietoje baigiamas, galite atlikti papildomus veiksmus. Pavyzdžiui, galite publikuoti funkciją ir ją padaryti prieinamą naudojimui Globalizacijos paslaugose.
 
-    ![Funkcijos būsena atnaujinta į Baigta](./media/RCS_GlobalF_16%20Feature%20rebase%20version%20complete.JPG)
+    ![Funkcijos būsena atnaujinta į Baigta.](./media/RCS_GlobalF_16%20Feature%20rebase%20version%20complete.JPG)
 
 ## <a name="configure-environments-for-globalization-features"></a><a name="configureenvironment"></a>Konfigūruoti aplinkas, skirtas Globalizacijos funkcijoms
 
@@ -233,13 +233,13 @@ Globalizacijos paslaugų vartotojai gali valdyti aplinką, kad nustatytų Global
 
 1. **Globalizacijos funkcijos** darbo srityje, o tada dalyje po **Aplinkos** pasirinkite **El. SF išrašymas** plytelę.
 
-    ![Globalizacijos funkcijų darbo sritis](./media/RCS_GlobalF_17%20Feature%20environment.JPG)
+    ![Globalizacijos funkcijų darbo sritis.](./media/RCS_GlobalF_17%20Feature%20environment.JPG)
 
 2. Pasirinkite **Pagrindiniai saugyklos parametrai** ir pasirinkite **Nauja**, kad sukurtumėte „Azure Key Vault” slaptažodį.
 3. Įveskite pagrindinės saugyklos aprašą ir tada **Pagrindinės saugyklos URl** lauke įveskite URL, identifikuojantį Pagrindinės saugyklos šaltinį, esantį „Azure”.
 4. **Sertifikatai** „FastTab” pasirinkite **Pridėti**, kad pridėtumėte sertifikatą, ir įveskite kiekvieno sertifikato pavadinimą ir aprašą.
 
-    ![Pridėtas sertifikatas](./media/RCS_GlobalF_18%20Feature%20envn%20key%20vault%20parameter.JPG)
+    ![Pridėtas sertifikatas.](./media/RCS_GlobalF_18%20Feature%20envn%20key%20vault%20parameter.JPG)
 
 5. Pasirinkite **Nauja**, kad sukurtumėte naują aplinką.
 6. Įveskite pavadinimą, aprašą ir bendrintos prieigos parašo atpažinimo ženklo slaptažodį, reikalingą saugojimui.
@@ -248,7 +248,7 @@ Globalizacijos paslaugų vartotojai gali valdyti aplinką, kad nustatytų Global
 9. Pakartokite 7 ir 8 žingsnius, jei norite pridėti daugiau vartotojų.
 10. Pasirinkite **Publikuoti**, kad publikuotumėte aplinką.
 
-    ![Publikuota aplinka](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
+    ![Publikuota aplinka.](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

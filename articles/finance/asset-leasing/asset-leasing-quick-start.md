@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 4464
+ms.custom:
+- "4464"
+- intro-internal
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8141badab2561707e2055d7084323ed4310d2421
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0f0d39e5a3a1a70f57d305da67e160b0b20cedf4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892438"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360741"
 ---
 # <a name="asset-leasing-get-started"></a>Darbo su Turto nuoma pradžia
 
@@ -35,7 +37,7 @@ Daugiau informacijos apie apskaitos standartus žr. standartinėje IFRS 16 ir JA
 ## <a name="asset-leasing-elements"></a>Turto nuomos elementai
 Toliau pateiktoje diagramoje rodomi pagrindiniai nuomos verslo proceso elementai.
 
-[![Turto nuomos elementai](./media/overview-01.png)](./media/overview-01.png)
+[![Turto nuomos elementai.](./media/overview-01.png)](./media/overview-01.png)
 
 Nuomojame turte yra toliau pateikti pagrindiniai komponentai.
 
@@ -54,7 +56,7 @@ Turto nuoma susieja nuomos informaciją, mokėjimo grafikus, pradžios ir pabaig
 
 Toliau pateiktoje diagramoje vaizduojama nuomos knyga, nuoma, apskaičiuotas mokėjimo grafikas, nuomos ir nuomos knygų klasifikacijos testai bei atitinkamos apskaitos operacijos.
 
-[![Nuoma, nuomos knyga ir mokėjimo grafikas](./media/overview-02.png)](./media/overview-02.png)
+[![Nuoma, nuomos knyga ir mokėjimo grafikas.](./media/overview-02.png)](./media/overview-02.png)
 
 - **Nuomos knyga** – nuomos knyga apima visą nuomos sutarties informaciją, pvz., nuomos sąlygas, tikrąją vertę ir nuomos mokesčius. Joje taip pat yra apskaitos standartas, kurio laikotės, nuomos tipas ir ribinės vertės, į kurias atsižvelgiama nuomos klasifikacijos teste. Nuomos knygoje taip pat yra nuomos operacijos, užregistravusios didžiojoje knygoje. 
   
@@ -117,7 +119,7 @@ Pirmas laikotarpis prasidės nuliniu laikotarpiu, jei anuiteto tipas yra laikota
 
 Klasifikacijos testai apima nuosavybės perkėlimą, pirkimo galimybę, nuomos terminą, dabartinę grynąją vertę ir unikalų turtą. Toliau pateiktoje diagramoje pateikiami nuomos klasifikacijos testai.
 
-[![Nuomos klasifikacijos testai](./media/overview-03.png)](./media/overview-03.png)
+[![Nuomos klasifikacijos testai.](./media/overview-03.png)](./media/overview-03.png)
 
 Kiekvieno nuomos tipo skirtingų nuomos operacijų apskaita vykdoma skirtingai. Operacijos apima pradinį pripažinimą, palūkanų sąnaudas, nuomos mokėjimo terminą bei nuomos nusidėvėjimą ir jos pagrįstos apskaitos standartais, kurių laikotės (IFRS 16 arba ASC 842). DK sąskaitos nurodomos kiekvieno operacijos tipo ir apskaitos sistemos nuomos registravimo šablone.
 
@@ -232,7 +234,7 @@ Norėdami sukurti naują nuomą, atlikite toliau nurodytus veiksmus.
 
    Puslapyje **Mokėjimo grafikas** pateikiami būsimi nuomos ID mokesčių grafikai. Pasirinkite **Patvirtinti grafiką**, kad būtų galima registruoti **pradinio pripažinimo** operacijas. 
 
-[![Pradinio pripažinimo funkcija](./media/overview-13.png)](./media/overview-13.png)
+[![Pradinio pripažinimo funkcija.](./media/overview-13.png)](./media/overview-13.png)
 
 8. Pasirinkite **Pradinis pripažinimas**, norėdami sukurti pradinio pripažinimo žurnalą. 
 
@@ -246,7 +248,7 @@ Norėdami sukurti naują nuomą, atlikite toliau nurodytus veiksmus.
 
    Puslapyje **Turto nusidėvėjimo grafikas** nurodomos pasirinkto nuomos ID nusidėvėjimo operacijos. 
 
-   [![Puslapis Naudojimo teise valdomo turto operacijos](./media/overview-20.png)](./media/overview-20.png)
+   [![Puslapis Naudojimo teise valdomo turto operacijos.](./media/overview-20.png)](./media/overview-20.png)
 
    Puslapis **Naudojimo teise valdomo turto operacijos** pateikia pradinį pripažinimą, sukauptą nusidėvėjimą ir turto balansą. 
 

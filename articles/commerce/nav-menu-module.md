@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: b112bb453e0840120c63038bf8d6897fbf5ff288
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 637d8d211f59711aafe9357dcd48d48f861f722d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798758"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353113"
 ---
 # <a name="navigation-menu-module"></a>Naršymo meniu modulis
 
@@ -33,7 +33,7 @@ Pagrindinė naršymo meniu modulių paskirtis yra leisti svetainių vartotojams 
 Naršymo meniu modulį galima įtraukti į puslapio antraštės modulį. „Fabrikam” temos naršymo meniu pagal numatytuosius nustatymus pateikiami du lygiai. Darbo pradžios temos naršymo meniu pagal numatytuosius nustatymus pateikiami trys lygiai. Norint pakeisti lygių skaičių, temoje reikalingas peržiūros plėtinys.
 
 Toliau pateiktoje iliustracijoje parodytas „Fabrikam” svetainės naršymo meniu pavyzdys, kuriame yra du kategorijų hierarchijos lygiai ir keli statiniai meniu elementai.
-![Naršymo meniu modulio pavyzdys](./media/ecommerce-header.png)
+![Naršymo meniu modulio pavyzdys.](./media/ecommerce-header.png)
 
 ## <a name="navigation-menu-module-properties"></a>Naršymo meniu modulio ypatybės
 
@@ -50,7 +50,7 @@ Toliau pateiktoje iliustracijoje parodytas „Fabrikam” svetainės naršymo me
 | Šakninis meniu | eilutė | Ši ypatybė gali būti naudojama norint nustatyti pasirinktinės šaknies tekstą, jei ypatybė **Rodyti šakninį meniu** nustatyta į **Teisinga**. |
 
 Toliau pateiktame paveikslėlyje parodytas kategorijos vaizdo, rodomo „Fabrikam“ svetainės naršymo meniu, pavyzdys.
-![Naršymo meniu modulio su kategorijos vaizdais pavyzdys](./media/ecommerce-categoryimages.PNG)
+![Naršymo meniu modulio su kategorijos vaizdais pavyzdys.](./media/ecommerce-categoryimages.PNG)
 
 ## <a name="add-a-navigation-menu-module-to-a-header-module"></a>Naršymo meniu modulio įtraukimas į antraštės modulį
 

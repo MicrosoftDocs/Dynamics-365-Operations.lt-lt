@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
 ms.reviewer: josaw
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 155056eb3a2acd0d66e0ace8d5558929678cb8e3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 5c8036b8b802043ca9a2a985f813e5ff8347a27e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798786"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348195"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>„Commerce“ kanalų fiskalinės integracijos apžvalga
 
@@ -62,7 +63,7 @@ Toliau pateiktame pavyzdyje parodytas įprasta finansinio įrenginio fiskalinės
 7. EKA analizuoja atsakymą iš finansinio įrenginio arba tarnybos ir nustato, ar fiskalinė registracija atlikta sėkmingai.
 8. CRT įrašo atsakymą kanalo duomenų bazėje.
 
-![Sprendimo schema](media/emea-fiscal-integration-solution.png "Sprendimo schema")
+![Sprendimo schema.](media/emea-fiscal-integration-solution.png "Sprendimo schema")
 
 ## <a name="error-handling"></a>Klaidos taisymas
 

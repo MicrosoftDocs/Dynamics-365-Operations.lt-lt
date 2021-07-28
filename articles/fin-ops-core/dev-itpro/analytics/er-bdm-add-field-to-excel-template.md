@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 991fe4ea56a2726c5df835cfc90a390cef2d5df5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: af9f3dd81b0681579c14e0afb8281706e8aa534d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751135"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351799"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>Naujų laukų įtraukimas į verslo dokumento šabloną programoje „Microsoft Excel“
 
@@ -50,36 +50,36 @@ Dabar galite pradėti naudoti BDM ir redaguoti verslo dokumentų šablonus.
 
 Norėdami gauti daugiau informacijos apie tai, kaip importuoti ER konfigūracijas, žr. [ER konfigūracijų ciklo valdymas](general-electronic-reporting-manage-configuration-lifecycle.md).
 
-![LCS puslapis Bendrai naudojamo turto biblioteka](./media/BDM-AddFldExcel-LCS.png)
+![LCS puslapis Bendrai naudojamo turto biblioteka.](./media/BDM-AddFldExcel-LCS.png)
 
 ### <a name="edit-the-er-solution-template"></a>ER sprendimo šablono redagavimas
 
 1.  Prisijunkite kaip vartotojas, kuriam suteikta prieiga prie darbo srities **Verslo dokumentų valdymas**.
 2.  Darbo sritį **Verslo dokumentų valdymas** atidarykite.
 
-    ![Darbo sritis Verslo dokumentų valdymas](./media/BDM-AddFldExcel-Workspace.png)
+    ![Darbo sritis Verslo dokumentų valdymas.](./media/BDM-AddFldExcel-Workspace.png)
 
 3.  Tinklelyje pasirinkite šabloną **Laisvos formos sąskaita faktūra („Excel“)**.
 4.  Dešiniojoje srityje pasirinkite **Naujas šablonas**, kad sukurtumėte naują šabloną pasirinkto šablono pagrindu.
-5.  Lauke **Pavadinimas** kaip naujo šablono pavadinimą įveskite **Laisvos formos sąskaita faktūra („Excel“) „Contoso“**.
+5.  Lauke **Pavadinimas** kaip naujo šablono pavadinimą įveskite **Laisvos formos sąskaita faktūra („Excel“) „Contoso”**.
 6.  Pasirinkite **Gerai**, kad patvirtintumėte redagavimo proceso pradžią.
 
 Atidaromas BDM šablonų rengyklės puslapis. Naudodami „Microsoft 365“, pasirinktą šabloną galite redaguoti internetu, įdėtajame valdiklyje.
 
-![BDM šablonų rengyklės puslapis](./media/BDM-AddFldExcel-EditableTemplate.png)
+![BDM šablonų rengyklės puslapis.](./media/BDM-AddFldExcel-EditableTemplate.png)
 
 ### <a name="add-the-label-for-a-new-field-to-the-template"></a>Naujo lauko žymos įtraukimas į šabloną
 
 1.  BDM šablonų rengyklės puslapio „Excel“ juostelės skirtuke **Rodinys** pažymėkite redaguojamojo „Excel“ šablono žymės langelius **Antraštės ir Tinklelio eilutės**.
 
-    ![Pažymėti žymės langeliai Antraštės ir Tinklelio eilutės](./media/BDM-AddFldExcel-EditableTemplate2.png)
+    ![Pažymėti žymės langeliai Antraštės ir Tinklelio eilutės.](./media/BDM-AddFldExcel-EditableTemplate2.png)
 
 2.  Pažymėkite langelius **E8:F8**.
 3.  „Excel“ juostelės skirtuke **Pradžia** pasirinkdami **Sulieti ir centruoti**, pažymėtus langelius suliekite į naują sulietą langelį **E8:F8**.
 4.  Sulietame langelyje **E8:F8** įveskite **URL**.
 5.  Pasirinkite sulietą langelį **E7:F7** , tada – **Formato kopijavimo priemonė** ir sulietą langelį **E8:F8**, kad jį suformatuotumėte taip, kaip sulietas langelis **E7:F7**.
 
-    ![Naujo lauko žyma įtraukta į šabloną](./media/BDM-AddFldExcel-EditableTemplate3.png)
+    ![Naujo lauko žyma įtraukta į šabloną.](./media/BDM-AddFldExcel-EditableTemplate3.png)
 
 ### <a name="format-the-template-to-reserve-space-for-a-new-field"></a>Šablono formatavimas norint rezervuoti vietą naujam laukui
 
@@ -87,13 +87,13 @@ Atidaromas BDM šablonų rengyklės puslapis. Naudodami „Microsoft 365“, pas
 2.  „Excel“ juostelės skirtuke **Pradžia** pasirinkdami **Sulieti ir centruoti**, pažymėtus langelius suliekite į naują sulietą langelį **G8:H8**.
 3.  Pasirinkite sulietą langelį **G7:H7** , tada – **Formato kopijavimo priemonė** ir sulietą langelį **G8:H8**, kad jį suformatuotumėte taip, kaip sulietas langelis **G7:H7**.
 
-    ![Vieta rezervuota naujam laukui](./media/BDM-AddFldExcel-EditableTemplate4.png)
+    ![Vieta rezervuota naujam laukui.](./media/BDM-AddFldExcel-EditableTemplate4.png)
 
 4.  Langelio lauke **Pavadinimas** pasirinkite **CompanyInfo**.
 
     Dabartinio „Excel“ šablono intervale **CompanyInfo** yra visi laukai, kuriuos naudojant sugeneruotos ataskaitos antraštė užpildoma dabartinės įmonės kaip pardavėjo šalies informacija.
 
-    ![Parinktas intervalas CompanyInfo.](./media/BDM-AddFldExcel-SelectCompanyInfoRange.png)
+    ![Parinktas intervalas „CompanyInfo”.](./media/BDM-AddFldExcel-SelectCompanyInfoRange.png)
 
 ### <a name="add-a-new-field-to-the-template"></a>Naujo lauko įtraukimas į šabloną
 
@@ -103,7 +103,7 @@ Atidaromas BDM šablonų rengyklės puslapis. Naudodami „Microsoft 365“, pas
     > [!NOTE]
     > Turite koreguoti šablono skyrių, kurį norite naudoti kaip naują lauką. Jį jau pakoregavote formatuodami sulietą langelį **G8:H8**.
 
-    ![Naujo lauko įtraukimas į šabloną](./media/BDM-AddFldExcel-AddCell.png)
+    ![Naujo lauko įtraukimas į šabloną.](./media/BDM-AddFldExcel-AddCell.png)
 
 3.  Pasirinkite **„Excel“\langelis**, kad į šabloną kaip langelį įtrauktumėte naują lauką.
 
@@ -114,11 +114,11 @@ Atidaromas BDM šablonų rengyklės puslapis. Naudodami „Microsoft 365“, pas
 4.  Lauke **„Excel“ intervalas** įveskite **CompanyURL_Value**.
 5.  Pasirinkite **Gerai**.
 
-    ![Laukas CompanyURL_Value įtrauktas į šablono struktūrą](./media/BDM-AddFldExcel-EditableTemplate5.png)
+    ![Laukas CompanyURL_Value įtrauktas į šablono struktūrą.](./media/BDM-AddFldExcel-EditableTemplate5.png)
 
 6.  Srityje **Šablono struktūra** pasirinkite daugtaškio mygtuką (...), tada – **Rodyti susiejimus**.
 
-    ![Pasirinkta Rodyti susiejimus](./media/BDM-AddFldExcel-ShowBindings.png)
+    ![Pasirinkta Rodyti susiejimus.](./media/BDM-AddFldExcel-ShowBindings.png)
 
     Srityje **Šablono struktūra** dabar rodomi duomenų šaltiniai, pasiekiami esamame ER formate.
 
@@ -126,21 +126,21 @@ Atidaromas BDM šablonų rengyklės puslapis. Naudodami „Microsoft 365“, pas
 8.  Srities **Šablono struktūra** skyriuje **Duomenų šaltiniai** išplėskite **Modelis \>InvoiceBase \>CompanyInfo**.
 9.  Dalyje **CompanyInfo** pasirinkite elementą **WebsiteURI**.
 
-    ![Pasirinktas elementas WebsiteURI](./media/BDM-AddFldExcel-BindURL.png)
+    ![Pasirinktas elementas WebsiteURI.](./media/BDM-AddFldExcel-BindURL.png)
 
 10. Pasirinkite **Susieti**.
 11. Srityje **Šablono struktūra** pasirinkite **Įrašyti** ir uždarykite BDM šablonų rengyklės puslapį.
 
 Atnaujintas šablonas rodomas darbo srities **Verslo dokumentų valdymas** skirtuko **Šablonas** dešiniojoje srityje. Atkreipkite dėmesį, kad tinklelyje redaguoto šablono laukas **Būsena** pakeistas į **Juodraštis**, o laukas **Tikslinimas** nebėra tuščias. Šie pokyčiai nurodo, kad pradėtas šio šablono redagavimo procesas.
 
-![Redaguotas šablonas darbo srityje Verslo dokumentų valdymas](./media/BDM-AddFldExcel-Workspace2.png)
+![Redaguotas šablonas darbo srityje Verslo dokumentų valdymas.](./media/BDM-AddFldExcel-Workspace2.png)
 
 ## <a name="review-company-settings"></a>Įmonės parametrų peržiūra
 
 1.  Nueikite į **Organizacijos administravimas \> Organizacijos \> Juridiniai subjektai**.
 2.  Patikrinkite, ar „FastTab“ elemente **Kontaktinė informacija** įvestas įmonės URL.
 
-![Puslapyje Juridiniai subjektai įvestas įmonės URL](./media/BDM-AddFldExcel-CompanyInfo.png)
+![Puslapyje Juridiniai subjektai įvestas įmonės URL.](./media/BDM-AddFldExcel-CompanyInfo.png)
 
 ## <a name="generate-business-documents-to-test-the-updated-template"></a>Verslo dokumentų generavimas atnaujintam šablonui patikrinti
 
@@ -148,15 +148,15 @@ Atnaujintas šablonas rodomas darbo srities **Verslo dokumentų valdymas** skirt
 2.  Pasirinkite sąskaitą-faktūrą **FTI-00000002**, tada – **Spausdinimo valdymas**.
 3.  Kairiojoje srityje išplėskite **Modulis – gautinos sumos \> Dokumentai \> Laisvos formos sąskaita faktūra**.
 4.  Dalyje **Laisvos formos sąskaita faktūra** pasirinkite lygmenį **Originalus dokumentas**, kad nurodytumėte apdoroti skirtų sąskaitų faktūrų aprėptį.
-5.  Dešiniosios srities lauke **Ataskaitos formatas** pasirinkite nurodyto dokumento lygio šabloną **Laisvos formos sąskaita faktūra („Excel“) „Contoso“**.
+5.  Dešiniosios srities lauke **Ataskaitos formatas** pasirinkite nurodyto dokumento lygio šabloną **Laisvos formos sąskaita faktūra („Excel“) „Contoso”**.
 
-    ![Pasirinktas šablonas Laisvos formos sąskaita faktūra („Excel“) „Contoso“](./media/BDM-AddFldExcel-PrintMngtSetting.png)
+    ![Pasirinktas šablonas Laisvos formos sąskaita faktūra („Excel“) „Contoso“.](./media/BDM-AddFldExcel-PrintMngtSetting.png)
 
 6.  Paspauskite **„Esc“**, kad uždarytumėte dabartinį puslapį.
 7.  Pasirinkite **Spausdinti \> Pasirinkta**.
 8.  Atsisiųskite sugeneruotą dokumentą ir jį atidarykite programoje „Excel“.
 
-    ![Laisvos formos sąskaita faktūra programoje „Excel“](./media/BDM-AddFldExcel-PreviewReport.png)
+    ![Laisvos formos sąskaita faktūra programoje „Excel“.](./media/BDM-AddFldExcel-PreviewReport.png)
 
 Modifikuotas šablonas naudojamas pažymėtos prekės laisvos formos sąskaitos-faktūros ataskaitai generuoti. Norėdami išanalizuoti, kaip šią ataskaitą paveikė jūsų atlikti šablono pakeitimai, vykdykite šią ataskaitą viename programos seanse iš karto po to, kai paleičiate šabloną kitame programos seanse.
 

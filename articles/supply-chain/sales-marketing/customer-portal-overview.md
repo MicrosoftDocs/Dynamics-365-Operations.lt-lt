@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 9a85cd2590bd9c6cabcd0001d5de81746c1d4f63
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 7618bb202dac3295c948d74c482900b0aeae8bd5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907844"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353943"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>„Dynamics 365 Supply Chain Management“ skirto kliento portalo apžvalga
 
@@ -63,7 +64,7 @@ Kliento portalas pateikiamas kaip „Power Apps“ portalų šablonas. Jis prikl
 
 [Dvigubas rašymas](/powerapps/maker/portals/overview) yra parengtas naudoti infrastruktūros produktas, kuris beveik realiuoju laiku teikia sąveiką tarp „Customer Engagement” ir Finance and Operations programų. Dvigubas rašymas suteikia dvikryptės integracijos tarp „Finance and Operations” programų ir „Microsoft Dataverse” galimybę. Todėl šis produktas suteikia integruotą vartotojo patirtį susietose programose. Kliento portalas priklauso nuo lentelių, sinchronizuojamų naudojant dvigubą rašymą. Prieš naudojant „Supply Chain Management“ duomenis kliento portale, visoms atitinkamoms lentelėms reikia įjungti dvigubo rašymo funkciją.
 
-![Kliento portalo priklausomybės](media/customer-portal-elements.png "Kliento portalo priklausomybes")
+![Kliento portalo priklausomybės.](media/customer-portal-elements.png "Kliento portalo priklausomybes")
 
 Kliento portalas veikia kaip atspirties taškas organizacijoms, kurios nori naudotis „Power Apps“ portalais ir sukurti išorinę svetainę, naudojančią duomenis iš organizacijos „Supply Chain Management“ sistemos. Jis padeda organizacijoms sujungti dvigubo rašymo funkciją, „Supply Chain Management“ ir „Power Apps“ portalus.
 

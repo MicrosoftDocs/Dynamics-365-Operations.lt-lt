@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: faeaf0746532875d3517a208c9c338c112bf2c77
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d605ac0b6e4190f0c0f576d402c9b101d754b347
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816888"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356681"
 ---
 # <a name="withholding-tax-in-purchase-transactions"></a>Atskaitymo mokestis pirkimo perlaidose
 
@@ -64,15 +64,15 @@ Numatyta Atskaitomo mokesčio grupė ir prekės atskaitomo mokesčio grupė bus 
 
 Laikina atskaitomo mokesčio suma yra prieinama laukelyje **Pakeistas atskaitomas mokestis** skirtuke **Bendri** puslapyje **Pirkimo užsakymas**.
 
-![Atskaitomas mokestis yra įtrauktas į pardavimo užsakymą](media/withholding-tax-adjusted.png)
+![Atskaitomas mokestis yra įtrauktas į pardavimo užsakymą.](media/withholding-tax-adjusted.png)
 
 Atskaitomas mokestis yra skaičiuojamas **Pardavėjo mokėjimo žurnale**. Galite rankiniu būdu keisti taikomą atskaitomo mokesčio kodus, taip pat kaip realią atskaitomo mokesčio sumas **Atskaitomo mokesčio** skirtuke **Nustatytos transakcijos** puslapyje.
 
-![Atskaitymą galima rankiniu būdu valdyti Nustatymų transakcijų puslapyje](media/withholding-tax-vendor-payment-tab.png)
+![Atskaitymą galima rankiniu būdu valdyti Nustatymų transakcijų puslapyje.](media/withholding-tax-vendor-payment-tab.png)
 
 Išvestas atskaitoma mokesčio suma bus atskaičiuojama iš pardavėjo mokėjimo ir publikuojama **Atskaitomo mokesčio sąskaitos** susijusiame kvite.
 
-![Atskaitomo mokesčio sąskaita rodo susijusį kvitą](media/withholding-tax-adjusted.png)
+![Atskaitomo mokesčio sąskaita rodo susijusį kvitą.](media/withholding-tax-adjusted.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

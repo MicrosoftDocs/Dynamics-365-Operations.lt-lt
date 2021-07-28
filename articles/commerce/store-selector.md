@@ -2,7 +2,8 @@
 title: Parduotuvės parinkiklio modulis
 description: Šioje temoje paaiškinamas parduotuvės išrinkiklio modulis ir aprašoma, kaip pridėti jį prie svetainių puslapių, esančių „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
-ms.date: 04/02/2021
+manager: annbe
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +16,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5a9311435264119e8287f1b7da2d0456552231f3
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 341312758e0a6da2e918406e09df618e2475811f
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021469"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479381"
 ---
 # <a name="store-selector-module"></a>Parduotuvės išrinkiklio modulis
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šioje temoje paaiškinamas parduotuvės išrinkiklio modulis ir aprašoma, kaip pridėti jį prie svetainių puslapių, esančių „Microsoft Dynamics 365 Commerce“.
 
@@ -50,12 +52,12 @@ Norėdami įvesti parduotuvės vietos „Commerce” būstinėje ilgumos ir plat
 1. Kairiojoje srityje pasirinkite sandėlio vietą.
 1. „FastTab” **Adresai** pasirinkite **Išplėstiniai**.
 
-    ![Parduotuvės išsamios informacijos būstinėje pavyzdys](./media/Store-address.png)
+    ![Parduotuvės išsamios informacijos būstinėje pavyzdys.](./media/Store-address.png)
 
 1. Veiksmų srityje pasirinkite **Redaguoti**.
 1. „FastTab” **Bendra** įveskite **Platumos** ir **Ilgumos** reikšmes.
 
-    ![Platumos ir ilgumos nustatymo parduotuvei būstinėje pavyzdys](./media/Store-latitude-longitude.png)
+    ![Platumos ir ilgumos nustatymo parduotuvei būstinėje pavyzdys.](./media/Store-latitude-longitude.png)
 
 1. Veiksmų srityje pasirinkite **Įrašyti**. 
 
@@ -70,7 +72,6 @@ Dėl automatinio„REST API“, privalote užtikrinti, kad tolesni URL yra leid�
 - Į **script-src** direktyvą, **įtraukite &#42;.bing.com, &#42;.virtualearth.net**.
 - Į **script style-src** direktyvą, įtraukite **&#42;.bing.com**.
 
- 
 ## <a name="pickup-in-store-mode"></a>Paėmimas parduotuvės režime
 
 Parduotuvės selektoriaus modulis palaiko **Atsiėmimas parduotuvėje** režimą, kuris rodo parduotuvių sąrašą, kuriose produktas yra prieinamas paėmimui. Jis taip pat rodo parduotuvės valandas ir produkto atsargas kiekvienai parduotuvei sąraše. Parduotuvės selektoriaus modulis reikalauja produkto turinio sukurti produkto prieinamumą ir leisti naudotojui įtraukti produktą į vežimėlį, jei produkto pristatymo režimas yra nustatytas į **paėmimą** pasirinktoje parduotuvėje. Norėdami gauti daugiau informacijos, žr. [inventoriaus parametrai](inventory-settings.md). 
@@ -81,7 +82,7 @@ Parduotuvės selektoriaus modulis gali būti įtrauktas siekiant įsigyti dėžu
 
 Toliau pateiktame paveikslėlyje vaizduojamas išsamios produkto informacijos puslapyje (PDP) naudojamo parduotuvių parinkiklio modulio pavyzdys.
 
-![Parduotuvės parinkiklio modulio pavyzdys, naudojamas PDP.](./media/BOPIS.PNG)
+![Parduotuvės parinkiklio modulio pavyzdys, kuris naudojamas PDP.](./media/BOPIS.PNG)
 
 > [!NOTE]
 > Versijoje 10.0.16 ir vėlesnėje versijoje, naujoji funkcija gali būti įjungta, kuri leidžia organizacijai nustatyti keletą paėmimo pristatymo būdų parinkčių klientams.  Jei ši funkcija įjungta, parduotuvės parinkėjas ir kiti e-komercijos moduliai bus pagerinti siekiant leisti klientui pasirinkti iš potencialiai kelių paėmimo pristatymo parinkčių, jei sukonfigūruota.  Norėdami sužinoti daugiau apie šią funkciją, žiūrėkite [šiuos dokumentus](./multiple-pickup-modes.md). 
@@ -92,7 +93,7 @@ Parduotuvės selektoriaus režimas taip pat palaiko **Rasti parduotuves** režim
 
 Toliau pateiktas paveikslėlis rodo parduotuvės selektoriaus modulio pavyzdį, kuris yra naudojamas kartu su žemėlapio moduliu parduotuvės vietos puslapyje.
 
-![Parduotuvės parinkiklio modulio ir žemėlapių modulio pavyzdys parduotuvės vietų puslapyje.](./media/ecommerce-Storelocator.PNG)
+![Parduotuvės parinkiklio modulio ir žemėlapių modulio pavyzdys parduotuvių vietų puslapyje.](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="render-a-map"></a>Žemėlapio kūrimas
 
@@ -110,6 +111,10 @@ Parduotuvės selektoriaus modulis gali būti naudojamas kartu su žemėlapio mod
 | Automatiniu siūlymo parinktys: maksimalūs rezultatai | Skaičius | Šios ypatybės nustato maksimalų automatinių siūlymų rezultatų skaičių, kurie gali būti rodomi per „Bing Autosuggest“ API. |
 | Ieškos spindulys | Skaičius | Šios ypatybės nustato ieškos spindulį parduotuvėms myliomis. Jeigu vertė nenurodyta, naudojamas numatytasis 50 mylių ieškos spindulys. |
 | Paslaugų teikimo sąlygos | URL |  Šios ypatybės nustato paslaugų teikimo sąlygas URL, kurios yra reikalaujamos naudoti „Bing Maps“ paslaugoms. |
+
+## <a name="site-settings"></a>Svetainės parametrai
+
+Parduotuvės parinkiklio modulis laikosi [Įtraukti produktą į krepšelį parametrų](add-cart-settings.md). Kai prekė įtraukta į krepšelį iš parduotuvės parinkiklio modulio, svetainės vartotojai matys atitinkamas sukonfigūruotas darbo eigas.
 
 ## <a name="add-a-store-selector-module-to-a-page"></a>Parduotuvės parinkiklio modulio pridėjimas prie puslapio
 

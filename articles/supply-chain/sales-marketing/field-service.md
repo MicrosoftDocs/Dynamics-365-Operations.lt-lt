@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 73d20958d0efadefc709db524fe16ed85d1ea33a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2ceb95198332d6a9da057d657771fe6fcca5c5b9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824899"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359610"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Integravimo su „Microsoft Dynamics 365 Field Service“ apžvalga
 
@@ -34,7 +34,7 @@ Standartiniai šablonai gali būti naudojami, siekiant sukurti pasirinktinius in
 
 Vietinių aptarnavimo darbuotojų integracija remiasi esamomis kliento pavertimo pinigais funkcijomis.
 
-![Verslo procesų sinchronizavimas tarp „Supply Chain Management“ ir „Field Service“](./media/field-service-integration.png)
+![„Supply Chain Management“ ir „Field Service“ verslo procesų sinchronizavimas.](./media/field-service-integration.png)
 
 Pirmasis integravimo tarp „Field Service“ ir „Supply Chain Management“ etapas orientuotas į darbo užsakymų ir sutarčių įgalinimą „Field Service“, kad „Supply Chain Management“ būtų galima išrašyti SF. Palaikomas srautas pradedamas „Field Service“, kai darbo užsakymų informacija su „Supply Chain Management“ būtų sinchronizuojama kaip pardavimo užsakymai. Dirbant su „Supply Chain Management“ išrašomos pardavimo užsakymų SF dokumentams generuoti. Be to, „Field Service“ pateikiama sutarčių SF informacija sinchronizuojama su „Supply Chain Management“. „Microsoft Dynamics 365“ duomenų integratorius sinchronizuoja duomenis panaudodamas pritaikomus projektus. Standartiniai šablonai gali būti naudojami, siekiant sukurti pasirinktinius integravimo projektus, kuriuose papildomus standartinius ir pasirinktinius stulpelius bei lenteles būtų galima susieti norint pakoreguoti integravimą ir atitikti specifinius reikalavimus.
 
@@ -58,7 +58,7 @@ Papildomos funkcijos šiame antrajame etape skirtos suteikti vietiniams aptarnav
 - „Supply Chain Management“ projektai, susiję su „Dynamics 365 Field Service“ darbo užsakymais
 - „Dynamics 365 Field Service“ darbo užsakymai, su nuoroda į „Supply Chain Management“ projektus, naudoja šį projekto numerį pardavimo užsakymui, kad būtų galima išrašyti projekto SF. 
 
-![Verslo procesų sinchronizavimas tarp „Supply Chain Management“ ir „Field Service“](./media/FSv2overview.png)
+![„Supply Chain Management“ ir „Field Service“ verslo procesų sinchronizavimas.](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>Antrame integravimo tarp „Field Service“ ir „Supply Chain Management“ etape galima sinchronizuoti su toliau nurodytais šablonais:
 - Sandėliai („Supply Chain Management“ su „Field Service“) – sandėliai iš „Supply Chain Management“ su „“Field Service [Išplėstinė užklausa] 

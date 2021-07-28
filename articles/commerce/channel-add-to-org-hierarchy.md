@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c7ff6d8ee7e526e45975cfa500b5e6d6079054dc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f20b5c36b45fc0d242edb4e5305a4195d6dfbe94
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800692"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351230"
 ---
 # <a name="add-a-channel-to-an-organizational-hierarchy"></a>Kanalo įtraukimas į organizacijos hierarchiją
 
@@ -44,7 +44,7 @@ Norėdami pasirinkti hierarchiją, atlikite tolesnius veiksmus.
 
 Toliau pateiktame paveiksle rodoma pasirinktos hierarchijos organizacijos hierarchijos išsamią informacija.
 
-![Pasirinktos hierarchijos organizacijos hierarchijos išsami informacija](media/channel-add-to-org-hierarchy-1.png)
+![Pasirinktos hierarchijos organizacijos hierarchijos išsami informacija.](media/channel-add-to-org-hierarchy-1.png)
 
 ## <a name="add-a-channel-to-a-hierachy-node"></a>Kanalo įtraukimas į hierachijos mazgą
 
@@ -58,11 +58,11 @@ Norėdami įtraukti kanalą į hierarchijos mazgą, atlikite toliau nurodytus ve
 
 Toliau pateiktame vaizde parodoma, kaip pasirinkti kanalą, įtrauktiną į hierarchijos mazgą.
 
-![Kanalo pasirinkimas įtraukimui į hierarchijos mazgą](media/channel-add-to-org-hierarchy-2.png)
+![Kanalo pasirinkimas įtraukimui į hierarchijos mazgą.](media/channel-add-to-org-hierarchy-2.png)
 
 Toliau pateiktame paveiksle rodoma hierarchija su įvairiais įtrauktais kanalais.
 
-![Hierarchija su įvairiais įtrauktais kanalais](media/channel-add-to-org-hierarchy-3.png)
+![Hierarchija su įvairiais įtrauktais kanalais.](media/channel-add-to-org-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

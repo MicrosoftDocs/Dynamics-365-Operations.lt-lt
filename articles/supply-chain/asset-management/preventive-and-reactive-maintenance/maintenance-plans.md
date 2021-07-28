@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 143b9337dc9ca530383575e0f9bb16e4313ce96b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 435e4c0b7aac8a8dc179ee8e74b985a4c434b7ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839612"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361119"
 ---
 # <a name="maintenance-plans"></a>Priežiūros planai
 
@@ -145,23 +145,23 @@ Toliau rasite laiku ir skaitikliu grindžiamų priežiūros plano eilučių sąr
 
 **1 pavyzdys – laiku grindžiama priežiūros plano eilutė:** Tepimo užduotis gali būti nustatyta fiksuotame intervale, kuris įvyksta kartą per savaitę. Todėl lauke **Intervalo tipas** pasirinkite „Kartojamas nuo plano datos“. Žr. pavyzdį toliau esančiame paveikslėlyje.
 
-![Paslaugų užduotis nustatyta fiksuotu intervalu, įvykstanti kartą per savaitę](media/02-preventive-maintenance.png "Paslaugų užduotis nustatyta fiksuotu intervalu, įvykstanti kartą per savaitę")
+![Paslaugų užduotis nustatyta fiksuotu intervalu, įvykstanti kartą per savaitę.](media/02-preventive-maintenance.png "Paslaugų užduotis nustatyta fiksuotu intervalu, įvykstanti kartą per savaitę")
 
 **2 pavyzdys – laiku grindžiama priežiūros plano eilutė:** Patikrinimo užduotis gali būti nustatyta atlikti maždaug kartą per savaitę. Todėl lauke **Intervalo tipas** pasirinkite „Kartojamas nuo paskutinio darbo užsakymo“. Žr. pavyzdį toliau esančiame paveikslėlyje.
 
-![Tikrinimo užduotis, nustatyta atlikti maždaug kartą per savaitę](media/03-preventive-maintenance.png "Tikrinimo užduotis, nustatyta atlikti maždaug kartą per savaitę")
+![Tikrinimo užduotis, nustatyta atlikti maždaug kartą per savaitę.](media/03-preventive-maintenance.png "Tikrinimo užduotis, nustatyta atlikti maždaug kartą per savaitę")
 
 **3 pavyzdys – skaitikliu grindžiama priežiūros plano eilutė:** Toliau esančiame paveikslėlyje vaizduojamas valandų skaitiklis, kuriam sukuriama nauja priežiūros grafiko eilutė kaskart praėjus 250 val. Šios skaitikliu grindžiamos eilutės intervalo tipas yra „Kartojamas nuo pradžios datos“. Pradžios data pasirenkama iš susijusio turto pradžios datos išsamios informacijos rodinio **Visas turtas** „FastTab” \> **Turto priežiūros planai** lauko \> **Pradžios data** arba išsamios informacijos rodinio **Funkcinė vieta** „FastTab“ \> **Priežiūros planai** lauko \> **Pradžios data**. Tai yra *prevencinio* priežiūros plano pavyzdys, nes priežiūros grafiko eilutė automatiškai sukuriama kiekvienąkart pasiekus ribinę vertę (+ 250).
 
-![Valandinis skaitiklis, periodiškai kuriantis priežiūros grafiko eilutes](media/04-preventive-maintenance.png "Valandinis skaitiklis, periodiškai kuriantis priežiūros grafiko eilutes")
+![Valandinis skaitiklis, periodiškai kuriantis priežiūros grafiko eilutes.](media/04-preventive-maintenance.png "Valandinis skaitiklis, periodiškai kuriantis priežiūros grafiko eilutes")
 
 **4 pavyzdys – skaitikliu grindžiama priežiūros plano eilutė:** Toliau esančiame paveikslėlyje vaizduojamas skaitiklio reikšmės sumažėjimas, matuojant stabdžių trinkelės nusidėvėjimą. Priežiūros grafiko eilutė sukuriama, kai stabdžių trinkelei fiksuojama žemesnė kaip 20 mm skaitiklio registracija. Šis skaitikliu paremtos eilutės intervalo tipas atitinka „Kartą pasiekus apatinę ribą“ arba „Kartą nuo paskutinės pradžios datos“. Tai yra *atsakomojo* priežiūros plano pavyzdys, nes priežiūros grafiko eilutė automatiškai nesukuriama, kol matuojant nėra registruojama žemiau 20 mm.
 
-![Skaitiklio vertės sumažėjimas, matuojant stabdžių kaladėlių susidėvėjimą](media/05-preventive-maintenance.png "Skaitiklio vertės sumažėjimas, matuojant stabdžių kaladėlių susidėvėjimą")
+![Skaitiklio vertės sumažėjimas, matuojant stabdžių kaladėlių susidėvėjimą.](media/05-preventive-maintenance.png "Skaitiklio vertės sumažėjimas, matuojant stabdžių kaladėlių susidėvėjimą")
 
 **5 pavyzdys – skaitikliu grindžiama priežiūros plano eilutė:** Toliau esančiame paveikslėlyje vaizduojamas skaitiklis, kurio ribinė reikšmė yra -18 °C. Priežiūros grafiko eilutė sukuriama, kai atliekamas skaitiklio registravimas virš –18 ° Celsijaus. Šios skaitikliu grindžiamos eilutės intervalo tipas yra „Kartą pasiekus viršutinę ribą“. Tai yra *atsakomojo* priežiūros plano pavyzdys, nes priežiūros grafiko eilutė automatiškai nesukuriama, kol matuojant nėra registruojama aukštesnė nei –18 ° Celsijaus temperatūra.
 
-![Skaitiklis, kurio ribinė vertė yra -18° C](media/06-preventive-maintenance.png "Skaitiklis, kurio ribinė vertė yra -18° C")
+![Skaitiklis, kurio ribinė vertė yra -18° C.](media/06-preventive-maintenance.png "Skaitiklis, kurio ribinė vertė yra -18° C")
 
 - Kai sukuriate naują turtą ir šis turtas naudoja turto tipą, susijusį su priežiūros planu, tas planas automatiškai įterpiamas į **Visi objektai \> Turto priežiūros planai** „FastTab“. Be to, lauke **Numatytasis turto tipas**, „FastTab“ **Priežiūros planai**, bus automatiškai įterpti į susijusius priežiūros planus.
 - Jei į **Priežiūros planai** įtraukiate arba pašalinate turto tipus arba funkcinių vietų tipus, šis keitimas bus skirtas tik naujam turtui, sukurtam atlikus pakeitimą.
@@ -169,7 +169,7 @@ Toliau rasite laiku ir skaitikliu grindžiamų priežiūros plano eilučių sąr
 
 Toliau pateiktame paveikslėlyje pateiktas priežiūros plano „Sunkvežimio priežiūra“ pavyzdys puslapyje **Priežiūros planai**.
 
-![Sunkvežimio paslaugos priežiūros plano pavyzdys](media/07-preventive-maintenance.png "Sunkvežimio paslaugos priežiūros plano pavyzdys")
+![Sunkvežimio paslaugos priežiūros plano pavyzdys.](media/07-preventive-maintenance.png "Sunkvežimio paslaugos priežiūros plano pavyzdys")
 
 ## <a name="add-a-maintenance-plan-to-an-asset"></a>Įtraukti priežiūros planą į turtą
 
@@ -187,7 +187,7 @@ Toliau pateiktame paveikslėlyje pateiktas priežiūros plano „Sunkvežimio pr
 
 Toliau pateiktame paveikslėlyje pateiktas priežiūros planų, sukonfigūruotų turtui puslapyje **Visas turtas**, pavyzdys.
 
-![Priežiūros plano, nustatyto turtui, pavyzdys](media/08-preventive-maintenance.png "Priežiūros plano, nustatyto turtui, pavyzdys")
+![Priežiūros plano, nustatyto turtui, pavyzdys.](media/08-preventive-maintenance.png "Priežiūros plano, nustatyto turtui, pavyzdys")
 
 <a id="counter-based-maintenance"></a>
 

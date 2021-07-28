@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 9ffb1378eccf175fbb9bd84228f91ba606125a63
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c641849b2aec76124b6661f339175325a312efce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753995"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350841"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Problemų šalinimas pradinio nustatymo metu
 
@@ -42,7 +42,7 @@ ms.locfileid: "5753995"
 
 Klaidos puslapyje **Susiejimo su „Dataverse” sąranka** dažniausiai atsiranda dėl neužbaigtos sąrankos arba su teisėmis susijusių problemų. Įsitikinkite, kad puslapyje **Susiejimo su „Dataverse” sąranka** atlikta visiška būsenos patikra, kaip parodyta tolesnėje iliustracijoje. Negalite susieti dvigubo rašymo, neatlikę visiškos būsenos patikros.
 
-![Sėkmingai atlikta būsenos patikra](media/health_check.png)
+![Sėkmingai atlikta būsenos patikra.](media/health_check.png)
 
 Jei norite susieti „Finance and Operations” ir „Dataverse” aplinkas, privalote turėti „Azure AD” nuomotojo administratoriaus kredencialus. Susiejus aplinkas, vartotojai gali prisijungti, naudodami savo paskyros kredencialus, ir atnaujinti esamą lentelės schemą.
 
@@ -77,7 +77,7 @@ Siekiant užtikrinti, kad dvigubas rašymas veiktų tinkamai, įmonės, kurias p
 4. Pasirinkite įmonę, kuri buvo susieta konfigūruojant dvigubą rašymą.
 5. Patikrinkite, ar stulpelyje **Numatytoji komanda savininkė** yra reikšmė. Šioje iliustracijoje stulpelis **Numatytoji komanda savininkė** nustatytas kaip **USMF dvigubas rašymas**.
 
-    ![Numatytosios komandos savininkės tikrinimas](media/default_owning_team.png)
+    ![Numatytosios komandos savininkės tikrinimas.](media/default_owning_team.png)
 
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>Raskite juridinių lentelių ar įmonių, kurios gali būti susietos naudojant dvigubo rašymo funkciją, skaičiaus limitą
 

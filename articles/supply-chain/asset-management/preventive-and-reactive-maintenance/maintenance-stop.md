@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b2162621968c5b1c3957ea1a1639e71439000918
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e9d024a5096b499b986ec2d5c38c0d6a2b7794d3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837830"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356493"
 ---
 # <a name="maintenance-downtime-activities"></a>Prižiūrimo turto prastovos veiklos
 
@@ -40,7 +40,7 @@ Pasirinkus turtą prižiūrimo turto prastovos registracijoje, visos atidarytos 
 
 Spustelėkite **Turto valdymas** > **Bendrieji dalykai** > **Prižiūrimo turto prastovos veiklos** > **Visos prižiūrimo turto prastovos veiklos**, kad atidarytumėte prižiūrimo turto prastovos veiklų sąrašą ir matytumėte dalį informacijos, susijusios su veiklomis. Norėdami atidaryti išsamios informacijos rodinį, spustelėkite nuorodą stulpelyje **Prižiūrimo turto prastovos veiklos**. Paveikslėlyje pavaizduotas sąrašo **Prižiūrimo turto prastovos veiklos** pavyzdys.
 
-![1 pav.](media/19-preventive-maintenance.png)
+![1 iliustracija.](media/19-preventive-maintenance.png)
 
 
 ## <a name="create-a-maintenance-downtime-activity"></a>Pradėti prižiūrimo turto prastovos veiklą
@@ -61,7 +61,7 @@ Spustelėkite **Turto valdymas** > **Bendrieji dalykai** > **Prižiūrimo turto 
 
 Paveikslėlyje pavaizduotas informacijos rodinio **Prižiūrimo turto prastovos veiklos** pavyzdys.
 
-![2 pav.](media/20-preventive-maintenance.png)
+![2 iliustracija.](media/20-preventive-maintenance.png)
 
 >[!NOTE]
 >Darbo užsakymo priežiūros užduotys ir priežiūros grafiko eilutės, susijusios su pasirinktu turtu, automatiškai atnaujinamos, jei sukurti nauji darbo užsakymai arba priežiūros grafiko eilutės yra sukuriamos po to, kai sukūrėte prižiūrimo turto prastovos veiklą. Pavyzdžiui, jei į susijusį turtą suplanuotumėte priežiūros planus arba priežiūros ciklus per dvi dienas po to, kai buvo sukurta prižiūrimo turto prastovos veikla, naujos priežiūros grafiko eilutės automatiškai įtraukiamos į prižiūrimo turto prastovos veiklą.
@@ -72,7 +72,7 @@ Paveikslėlyje pavaizduotas informacijos rodinio **Prižiūrimo turto prastovos 
 
 10. Norėdami pradėti skaičiavimą, spustelėkite **Gerai**. Bendras valandų skaičius rodomas apžvalgoje **Pajėgumas**. Skirtuke **Pajėgumas** > veiksmų srities grupėse **Grupuoti pagal...** spustelėkite atitinkamus mygtukus, norėdami gauti išsamesnę prognozuojamų valandų paskirstymo apžvalgą. Toliau pateiktame paveikslėlyje pateikiami **Pajėgumo** skaičiavimo rezultatai.
 
-![3 pav.](media/21-preventive-maintenance.png)
+![3 iliustracija.](media/21-preventive-maintenance.png)
 
 11. Sužinoję pajėgumą, jei norite pakoreguoti darbo užsakymo priežiūros užduotis arba priežiūros grafiko eilutes, grįžkite į išsamų rodinį **Prižiūrimo turto prastovos veiklos** ir pasirinkite eilutes, kurias norite koreguoti „FastTab“ **Atsiradusios darbo užsakymo priežiūros užduotys** ir „FastTab“ **Priežiūros grafiko eilutės**.
 
@@ -89,7 +89,7 @@ Paveikslėlyje pavaizduotas informacijos rodinio **Prižiūrimo turto prastovos 
 
 16. Norėdami pradėti skaičiavimą, spustelėkite **Gerai**. Bendras elemento prognozių skaičius, rodomas apžvalgoje **Elemento prognozė**. Skirtuke **Elemento prognozė** > veiksmų srities grupėse **Grupuoti pagal...** spustelėkite atitinkamus mygtukus, norėdami gauti išsamesnę prognozuojamų elementų paskirstymo apžvalgą. Toliau esančiame paveikslėlyje pavaizduoti **Elemento prognozė** rezultatai.
 
-![4 pav.](media/22-preventive-maintenance.png)
+![4 iliustracija.](media/22-preventive-maintenance.png)
 
 - Galite kopijuoti turtą iš vienos prižiūrimo turto prastovos veiklos į kitą. Iš **Visos prižiūrimo turto prastovos veiklos** pasirinkite mygtuką **Kopijuoti prižiūrimo turto prastovos veiklą** ir pasirinkite atrankos kriterijus laukuose **Iš prižiūrimo turto prastovos veiklų** ir **Prižiūrimo turto prastovos veiklos**, tada spustelėkite **Gerai**.
 - **Visos prižiūrimo turto prastovos veiklos** spustelėkite mygtuką **Priežiūros grafiko eilutės** arba mygtuką **Aktyvūs darbo užsakymai**, kad būtų atidaryti susiję sąrašai ir galėtumėte peržiūrėti eilutes, susijusias su pasirinkta prižiūrimo turto prastovos veikla.

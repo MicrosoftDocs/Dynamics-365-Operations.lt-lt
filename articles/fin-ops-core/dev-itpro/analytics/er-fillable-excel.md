@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1c8d939fef4fd0f9e189ca37318c2c0306511785
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 96e1575e2237cab481c368083da1e60fec612087
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893913"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359034"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfigūracijos, skirtos dokumentams „Excel“ formatu generuoti, kūrimas
 
@@ -39,7 +39,7 @@ Kai įtraukiate naują ER formato konfigūraciją, kad siunčiami dokumentai bū
 
 Norėdami sukonfigūruoti konfigūracijos ER formato komponentą, veiksmų srityje pasirinkite **Dizaino įrankis** ir ER operacijų kūrimo įrankyje atidarykite ER formato komponentą, kurį norite redaguoti.
 
-![Konfigūracijų puslapis](./media/er-excel-format-add-format.png)
+![Puslapis Konfigūracijos.](./media/er-excel-format-add-format.png)
 
 ## <a name="excel-file-component"></a>„Excel“ failo komponentas
 
@@ -47,14 +47,14 @@ Norėdami sukonfigūruoti konfigūracijos ER formato komponentą, veiksmų srity
 
 Jei siunčiamą dokumentą norite generuoti „Excel“ formatu, į sukonfigūruotą ER formatą turite įtraukti komponentą **Excel\\Failas**.
 
-![Komponentas „Excel\Failas“](./media/er-excel-format-add-file-component.png)
+![Komponentas „Excel\Failas“.](./media/er-excel-format-add-file-component.png)
 
 Norėdami nurodyti siunčiamo dokumento maketą, prie komponento **Excel\\Failas** kaip siunčiamų dokumentų šabloną pridėkite „Excel“ darbaknygę, kurios plėtinys – .xlsx.
 
 > [!NOTE]
 > Kai šabloną pridedate neautomatiniu būdu, turite naudoti [dokumento tipą](../../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md#configure-document-types), kuris buvo sukonfigūruotas tam tikslui [ER parametruose](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
-![Priedo pridėjimas prie komponento „Excel\Failas“](./media/er-excel-format-add-file-component2.png)
+![Priedo pridėjimas prie komponento „Excel\Failas“.](./media/er-excel-format-add-file-component2.png)
 
 Jei norite nurodyti, kaip pridėtas šablonas bus pildomas vykdant sukonfigūruotą ER formatą, į komponentą **Excel\\Failas** turite įtraukti įterptuosius komponentus **Lapas**, **Diapazonas** ir **Langelis**. Kiekvienas įterptasis komponentas turi būti susietas su „Excel“ įvardytuoju elementu.
 
@@ -62,7 +62,7 @@ Jei norite nurodyti, kaip pridėtas šablonas bus pildomas vykdant sukonfigūruo
 
 Norėdami į tuščią ER formatą importuoti naują šabloną, veiksmų srities skirtuke **Importavimas** galite pasirinkti **Importuoti iš „Excel“**. Šiame pavyzdyje komponentas **Excel\\Failas** bus sukurtas automatiškai, o importuotas šablonas bus pridėtas prie jo. Visi būtinieji ER komponentai taip pat bus sukurti automatiškai, remiantis aptiktu „Excel“ įvardytųjų elementų sąrašu.
 
-![Importavimo pasirinkimas iš „Excel“](./media/er-excel-format-import-template.png)
+![Importavimo pasirinkimas iš „Excel“.](./media/er-excel-format-import-template.png)
 
 > [!NOTE]
 > Jei redaguojamame ER formate norite sukurti pasirinktinį elementą **Lapas**, parinkties **Kurti „Excel“ lapo formato elementą** reikšmę nustatykite kaip **Taip**.
@@ -79,7 +79,7 @@ ER operacijų kūrimo įrankio skirtuke **Susiejimas** galite konfigūruoti komp
 - Jei ypatybės **Įgalinta** išraiška sukonfigūruota vykdymo laiku grąžinti reikšmę **Teisinga** arba jei nesukonfigūruota jokia išraiška, į sugeneruotą dokumentą bus įtrauktas atitinkamas darbalapis.
 - Jei ypatybės **Įgalinta** išraiška sukonfigūruota vykdymo laiku grąžinti reikšmę **Klaidinga**, sugeneruotame dokumente darbalapio nebus.
 
-![Lapo komponento pavyzdys](./media/er-excel-format-sheet-component.png)
+![Lapo komponento pavyzdys.](./media/er-excel-format-sheet-component.png)
 
 ## <a name="range-component"></a>Diapazono komponentas
 
@@ -182,7 +182,7 @@ Norėdami į redaguojamą ER formatą importuoti atnaujintą šabloną, veiksmų
 >
 > Jei redaguojamame ER formate iš pradžių buvo elementai **Lapas**, rekomenduojame importuojant atnaujintą šabloną parinkties **Kurti „Excel“ lapo formato elementą** reikšmę nustatyti kaip **Taip**. Priešingu atveju, visi įterptieji originalaus elemento **Lapas** elementai bus sukurti iš naujo. Todėl atnaujintame ER formate visi iš naujo sukurtų formato elementų susiejimai bus prarasti.
 
-![„Excel“ lapo formato elemento parinkties kūrimas dialogo lange „Naujinti iš „Excel‟](./media/er-excel-format-update-template.png)
+![„Excel“ lapo formato elemento parinkties kūrimas dialogo lange Naujinti iš „Excel”.](./media/er-excel-format-update-template.png)
 
 Norėdami sužinoti daugiau apie šią funkciją, atlikite veiksmus, aprašytus skyriuje [Elektroninių ataskaitų formatų modifikavimas iš naujo pritaikant „Excel“ šablonus](modify-electronic-reporting-format-reapply-excel-template.md).
 
@@ -190,7 +190,7 @@ Norėdami sužinoti daugiau apie šią funkciją, atlikite veiksmus, aprašytus 
 
 Kai tikrinate redaguojamą ER formatą, atliekama vientisumo patikra, siekiant įsitikinti, ar šiuo metu naudojamame „Excel“ šablone yra „Excel“ pavadinimas. Jums bus pranešta apie neatitikimus. Kai kurių neatitikimų atveju bus pasiūlyta galimybė automatiškai ištaisyti problemas.
 
-![Tikrinimo klaidos pranešimas](./media/er-excel-format-validate.png)
+![Tikrinimo klaidos pranešimas.](./media/er-excel-format-validate.png)
 
 ## <a name="control-the-calculation-of-excel-formulas"></a>„Excel“ formulių skaičiavimo valdymas
 
@@ -209,7 +209,7 @@ Kai sugeneruojamas siunčiamas dokumentas „Microsoft Excel“ darbaknygės for
 1. Naudokite pateiktas ER konfigūracijas [sugeneruoti](er-generate-printable-fti-forms.md) spausdintiną laisvos formos SF (FTI) dokumentą.
 2. Peržiūrėkite sugeneruoto dokumento poraštę. Atkreipkite dėmesį, kad joje yra informacijos apie dabartinio puslapio numerį ir bendrą dokumento puslapių skaičių.
 
-    ![Peržiūrėti sugeneruoto dokumento poraštę „Excel” formatu](./media/er-fillable-excel-footer-1.gif)
+    ![Peržiūrėti sugeneruoto dokumento poraštę „Excel” formatu.](./media/er-fillable-excel-footer-1.gif)
 
 3. ER formato kūrimo įrankyje, [atidarykite](er-generate-printable-fti-forms.md#features-that-are-implemented-in-the-sample-er-format) ER formato pavyzdį jį peržiūrėti.
 
@@ -222,7 +222,7 @@ Kai sugeneruojamas siunčiamas dokumentas „Microsoft Excel“ darbaknygės for
 
     - Antrasis **Eilutė** komponentas užpildo tekstą, kuriame yra dabartinis puslapio numeris ir bendras puslapių skaičius dabartiniame dokumente.
 
-    ![Peržiūrėkite ER formato komponento poraštę Formato kūrimo įrankio puslapyje](./media/er-fillable-excel-footer-2.png)
+    ![Peržiūrėkite ER formato komponento poraštę Formato kūrimo įrankio puslapyje.](./media/er-fillable-excel-footer-2.png)
 
 4. Pritaikykite ER formato pavyzdį, kad modifikuotumėte dabartinę puslapio poraštę:
 
@@ -237,14 +237,14 @@ Kai sugeneruojamas siunčiamas dokumentas „Microsoft Excel“ darbaknygės for
         1. Pridėkite **Eilutė** komponentą, sulygiuojantį apdorojimo datą dešinėje ir pateikiantį "Segoe UI Regular" 8 dydžio šriftu (**"&R&"Segoe UI,Regular"&8"**).
         2. Pridėkite **Eilutė** komponentą, užpildantį apdorojimo datą pasirinktame formate (**"&nbsp;„&DATEFORMAT(SESSIONTODAY(), „metai-mėnuo-diena”)**).
 
-        ![ER formato komponento poraštės Formato kūrimo įrankio puslapyje peržiūra](./media/er-fillable-excel-footer-3.png)
+        ![ER formato komponento poraštės Formato kūrimo įrankio puslapyje peržiūra.](./media/er-fillable-excel-footer-3.png)
 
     4. [Užpildykite](er-quick-start2-customize-report.md#CompleteDerivedFormat) išvestinę **Laisvos formos teksto pasirinktinė SF (Excel)** ER formato juodraščio versiją.
 
 5. [Sukonfigūruokite](er-generate-printable-fti-forms.md#configure-print-management) spausdinimo tvarkymą, kad pasinaudotumėte išvestine **Laisvos formos teksto pasirinktinė SF (Excel)** ER formato versija, o ne ER formato pavyzdžiu.
 6. Sugeneruokite spausdintiną FTI dokumentą ir peržiūrėkite sugeneruoto dokumento poraštę.
 
-    ![Sugeneruoto dokumento poraštę „Excel” formatu poraštės peržiūra](./media/er-fillable-excel-footer-4.gif)
+    ![Sugeneruoto dokumento poraštę „Excel” formatu poraštės peržiūra.](./media/er-fillable-excel-footer-4.gif)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

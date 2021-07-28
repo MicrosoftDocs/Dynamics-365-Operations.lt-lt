@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cf2c41af6aa8e77eff819cfacc3459ead290642b
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 45f776238fbb8e028e8d5b2f342b7d27009c686d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193436"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353619"
 ---
 # <a name="benefits-management-workspace"></a>Išmokų valdymo darbo sritis
 
@@ -31,7 +31,7 @@ ms.locfileid: "6193436"
 Šioje temoje aprašoma darbo sritis **Išmokų valdymas** programoje „Dynamics 365 Human Resources“.
 
 > [!NOTE]
-> Norėdami peržiūrėti darbo sritį **Išmokų valdymas**, pirmiausia funkcijų valdymo srityje turite įjungti funkciją **(Peržiūra) Išmokų valdymo darbo sritis**. Daugiau informacijos apie peržiūros versijos funkcijų įjungimą žr. skyrių [Funkcijų valdymas](hr-admin-manage-features.md).<br><br>![Išmokų valdymo darbo srities įjungimas](./media/hr-benefits-management-workspace-enable.png)
+> Norėdami peržiūrėti darbo sritį **Išmokų valdymas**, pirmiausia funkcijų valdymo srityje turite įjungti funkciją **(Peržiūra) Išmokų valdymo darbo sritis**. Daugiau informacijos apie peržiūros versijos funkcijų įjungimą žr. skyrių [Funkcijų valdymas](hr-admin-manage-features.md).<br><br>![Išmokų valdymo darbo srities įjungimas.](./media/hr-benefits-management-workspace-enable.png)
 
 Darbo srityje **Išmokų valdymas** trumpai apžvelgiami išmokų elementai, į kuriuos reikia atkreipti dėmesį. Šiame puslapyje matoma:
 
@@ -43,13 +43,13 @@ Darbo srityje **Išmokų valdymas** trumpai apžvelgiami išmokų elementai, į 
 - Darbuotojai su aktyviais gyvenimo įvykiais
 - Darbuotojai su atviromis registracijomis, kurie nepasirinko jokių planų
 
-![Išmokų valdymo darbo sritis](./media/hr-benefits-management-workspace.png)
+![Išmokų valdymo darbo sritis.](./media/hr-benefits-management-workspace.png)
 
 ## <a name="view-action-items"></a>Peržiūrėti veiksmų elementus
 
 Savo veiksmų elementus galite peržiūrėti pasirinkdami plytelę arba skirtuką. Jei pasirinksite skirtuką, galėsite peržiūrėti ir pasirinkti darbuotojus darbo srities puslapio dešinėje.
 
-![Veiksmų elementai](./media/hr-benefits-management-workspace-action-items.png)
+![Veiksmų elementai.](./media/hr-benefits-management-workspace-action-items.png)
 
 Pasirinkę plytelę pereisite prie tos srities puslapio. Pavyzdžiui, pasirinkus bet kurią iš šių plytelių rodomas puslapis **Darbininkų išmokų planai** darbuotojams, su kuriais reikia imtis veiksmų:
 
@@ -58,21 +58,21 @@ Pasirinkę plytelę pereisite prie tos srities puslapio. Pavyzdžiui, pasirinkus
 - **Užregistruota į išmokas**
 - **Naujų samdomų darbuotojų neužregistruota**
 
-![Darbininkų išmokų planai](./media/hr-benefits-management-workspace-plans.png)
+![Darbininkų išmokų planai.](./media/hr-benefits-management-workspace-plans.png)
 
 Pasirinkę plyteles **Aktyvūs gyvenimo įvykiai** arba **Gyvenimo įvykiai ateityje** pereisite prie aktyvių arba ateities gyvenimo įvykių sąrašo.
 
-![Gyvenimo įvykiai](./media/hr-benefits-management-workspace-life-events.png)
+![Gyvenimo įvykiai.](./media/hr-benefits-management-workspace-life-events.png)
 
-## <a name="processing"></a>Apdorojama
+## <a name="processing"></a>Vykdoma
 
 Registracijos tinkamumui, gyvenimo įvykiams ar tarifo keitimo atnaujinimams apdoroti naršymo meniu pasirinkite tinkamą elementą.
 
-![Apdorojama](./media/hr-benefits-management-workspace-processing.png)
+![Apdorojama.](./media/hr-benefits-management-workspace-processing.png)
 
 Norėdami peržiūrėti proceso rezultatus, puslapyje pasirinkite **Proceso rezultatai**.
 
-![Proceso rezultatai](./media/hr-benefits-management-workspace-process-results.png)
+![Proceso rezultatai.](./media/hr-benefits-management-workspace-process-results.png)
 
 Daugiau informacijos apie išmokų apdorojimą žr.:
 
@@ -86,13 +86,13 @@ Daugiau informacijos apie išmokų apdorojimą žr.:
 
 Norėdami peržiūrėti kitą išmokų laikotarpį, pasirinkite jį išskleidžiamajame sąraše **Laikotarpis**.
 
-![Keisti laikotarpį](./media/hr-benefits-management-workspace-period.png)
+![Keisti laikotarpį.](./media/hr-benefits-management-workspace-period.png)
 
 ## <a name="view-more-options"></a>Peržiūrėti daugiau parinkčių
 
 Jei norite peržiūrėti daugiau informacijos ir veiksmų, kurių galite imtis, pasirinkite **Nuorodos**.
 
-![Saitai](./media/hr-benefits-management-workspace-links.png)
+![Saitai.](./media/hr-benefits-management-workspace-links.png)
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

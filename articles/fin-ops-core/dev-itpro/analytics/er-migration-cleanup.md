@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 97dbb625fc312548fb266b2ef6643a2b8e2b0f81
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8b6e81e47cd781bbe856676b1cecb50b8ee1adfc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750891"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351054"
 ---
 # <a name="er-migration-cleanup"></a>ER perkėlimo valymas 
 
@@ -30,11 +30,11 @@ Valdydami „Finance“ egzempliorius, galbūt nuspręsite perkelti jūsų dabar
 
 Pasirinkus ER formatą, kuris naudoja šabloną generuoti verslo dokumentams, įvyksta išimtis ir informuojama apie trūkstamą šabloną. Taip pat rekomenduojama naudoti parinktį ER perkėlimo valymas, kad panaikintumėte, o tada iš naujo importuotumėte ER konfigūraciją, kurioje yra šablonas.
 
-[![ER formato vykdymas](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
+[![ER formato vykdymas.](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
 
 Gausite panašią klaidą, jei pereisite į puslapį **Konfigūracijos** (**Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos**) ir konfigūracijų medyje bandysite panaikinti ER formato konfigūraciją, naudojančią šabloną.
 
-[![ER formato naikinimas](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
+[![ER formato naikinimas.](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
 
 Atlikite toliau pateiktus veiksmus, kad išspręstumėte ER šablonų problemas, kurių negalite pasiekti.
 
@@ -50,7 +50,7 @@ Atlikite toliau pateiktus veiksmus, kad išspręstumėte ER šablonų problemas,
 >
 > Jei naudojate parinktį **Perkėlimo valymas** panaikinti ER formato konfigūraciją, kai nurodytas šablonas pasiekiamas didelių dvejetainių objektų saugykloje, panaikinate tik susijusius konfigūracijos artefaktus programos duomenų bazėje. Fizinis šablono failas išlieka didelių dvejetainių objektų saugykloje. Didelių dvejetainių objektų saugykloje nebeleidžiamas failų perrašymas. Daugiau informacijos rasite [KB4557217](https://fix.lcs.dynamics.com/Issue/Details?kb=4557217). Be to, nebegalėsite iš naujo importuoti konfigūracijų, panaikintų šioje aplinkoje naudojant parinktį Perkėlimo valymas. Norėdami išspręsti šią problemą, turite rasti atitinkamą failą didelių dvejetainių objektų saugykloje ir jį panaikinti neautomatiniu būdu.
 
-[![ER formato importavimas](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
+[![ER formato importavimas.](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
 
 Panaši problema gali kilti, jei perkeliate programos egzempliorių į kitą vietą, kuri buvo naudojama kaip perkėlimo paskirtis daugiau nei vieną kartą ir kurios didelių dvejetainių objektų saugykloje jau yra ER šablono failai.
 

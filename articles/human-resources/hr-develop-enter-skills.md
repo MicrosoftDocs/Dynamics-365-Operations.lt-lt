@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 5a65f1884ea87bbf2519cc94e4c52a40ac1a91bd
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 8a6b36314d9d98f971cd1619dd3604f20a3770b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193982"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360525"
 ---
 # <a name="enter-skills"></a>Įgūdžių įvedimas
 
@@ -45,17 +45,17 @@ Norėdami įvesti įgūdžius, kuriems nereikia patvirtinimo, turite sukurti dar
 
 4. Srityje **Kurti darbo eigą** pasirinkite **Darbuotojo įgūdžiai**.
 
-   [![Pasirinkite darbuotojo įgūdžių darbo eigą](media/hr-develop-skills-new-workflow.png)](media/hr-develop-skills-new-workflow.png)
+   [![Pasirinkite darbuotojo įgūdžių darbo eigą.](media/hr-develop-skills-new-workflow.png)](media/hr-develop-skills-new-workflow.png)
 
 5. Dialogo lange **Atidaryti šį failą?** pasirinkite **Atidaryti**. Paraginti įveskite savo kredencialus.
 
 6. Darbo eigos rengyklėje pasirinkite darbo eigos elementą **Patvirtinti įgūdžius** ir nuvilkite jį į drobę.
 
-   [![Darbo eigos elemento Patvirtinti įgūdžius pasirinkimas](media/hr-develop-skills-element.png)](media/hr-develop-skills-element.png)
+   [![Darbo eigos elemento Patvirtinti įgūdžius pasirinkimas.](media/hr-develop-skills-element.png)](media/hr-develop-skills-element.png)
 
 7. Sujunkite elementą **Pradėti** su **Patvirtinti įgūdžius 1** elementu, o tada sujunkite **Patvirtinti įgūdžius 1** elementą su **Baigti** elementu. Jums gali tekti slinkti žemyn, kad pamatytumėte elementą **Baigti**. Galite nuvilkti jį arčiau kitų elementų.
 
-   [![Sujunkite darbo eigos elementus](media/hr-develop-skills-connect-elements.png)](media/hr-develop-skills-connect-elements.png)
+   [![Sujunkite darbo eigos elementus.](media/hr-develop-skills-connect-elements.png)](media/hr-develop-skills-connect-elements.png)
 
 8. Du kartus spustelėkite darbo eigos elementą **Patvirtinti įgūdžius 1**, o tada dešiniuoju pelės mygtuku spustelėkite **1 veiksmo** elementą. Dešiniuoju pelės mygtuku spustelėkite **1 veiksmo** elementą, o tada pasirinkite **Ypatybės**.
 
@@ -65,7 +65,7 @@ Norėdami įvesti įgūdžius, kuriems nereikia patvirtinimo, turite sukurti dar
 
 11. Pasirinkite **Įtraukti sąlygą**. Po **Kur** pasirinkite **Darbuotojo savitarnos įgūdžiai**, o tada – **Darbuotojo savitarnos įgūdžiai. Asmuo**. Po **yra** pasirinkite **laukas**, o tada – **Vartotojo ir asmens ryšys.Asmuo**.
 
-    [![Sąlygos nurodymas](media/hr-develop-skills-condition.png)](media/hr-develop-skills-condition.png)
+    [![Sąlygos nurodymas.](media/hr-develop-skills-condition.png)](media/hr-develop-skills-condition.png)
 
 12. Pasirinkite **Priskyrimas** kairiojoje naršymo juostoje.
 
@@ -73,7 +73,7 @@ Norėdami įvesti įgūdžius, kuriems nereikia patvirtinimo, turite sukurti dar
 
 14. Skirtuko **Hierarchijos pasirinkimas** lauke **Hierarchijos tipas:** pasirinkite **Valdymo hierarchija**.
 
-    [![Valdymo hierarchijos nurodymas](media/hr-develop-skills-hierarchy.png)](media/hr-develop-skills-hierarchy.png)
+    [![Valdymo hierarchijos nurodymas.](media/hr-develop-skills-hierarchy.png)](media/hr-develop-skills-hierarchy.png)
 
 15. Pasirinkite **Uždaryti** ir **Darbo eiga** naršymo kelyje, o tada – **Įrašyti ir uždaryti**.
 

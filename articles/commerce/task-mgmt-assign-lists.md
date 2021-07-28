@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0c4f028367c894c54392963ffc4f6a0f0c04c03a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 85b021f99a1260e4ed640764e4a3e96a80197768
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795266"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354594"
 ---
 # <a name="assign-task-lists-to-stores-or-employees"></a>Užduočių sąrašų priskyrimas parduotuvėms arba darbuotojams
 
@@ -45,7 +45,7 @@ Norėdami pradėti užduočių sąrašo priskyrimo procesą, atlikite šiuos vei
 
 Toliau pateiktame paveikslėlyje parodytas pavyzdys, kaip rasti ir pasirinkti parduotuves dialogo lange **Pradėti procesą**.
 
-![Parduotuvių radimas ir pasirinkimas dialogo lange „Pradėti procesą”](media/HQ-Assign-Tasks-Lists.png)
+![Parduotuvių radimas ir pasirinkimas dialogo lange „Pradėti procesą”.](media/HQ-Assign-Tasks-Lists.png)
 
 ## <a name="assign-task-lists-on-a-recurring-basis"></a>Reguliariai atliekamas užduočių sąrašo priskyrimas
 
@@ -62,7 +62,7 @@ Kartais mažmenininkai turi pasikartojančių užduočių, pvz., „Ketvirtadien
 
 Toliau pateiktame paveikslėlyje parodytas pavyzdys, kaip įvesti dažnumo kriterijus dialogo lange **Nurodyti pasikartojimą**.
 
-![Dažnumo kriterijų įvedimas dialogo lange „Nustatyti pasikartojimą“](media/HQ-Assign-Tasks-Lists-Recurrently.png)
+![Dažnumo kriterijų įvedimas dialogo lange „Nustatyti pasikartojimą“.](media/HQ-Assign-Tasks-Lists-Recurrently.png)
 
 ## <a name="track-task-list-status"></a>Sekti užduočių sąrašo būseną
 

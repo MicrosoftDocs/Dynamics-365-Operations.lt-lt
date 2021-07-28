@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eb3ee4a12d2d29c2769f1ae22e11dc05608b47c1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dad1cad6dcda1c7768f9be8bd7bd4426be7fbcbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815457"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358862"
 ---
 # <a name="print-the-sales-tax-payment-by-code-report"></a>Spausdinti PVM mokėjimo pagal kodą ataskaitą 
 
@@ -40,11 +40,11 @@ Darbo srityje **Funkcijų valdymas** įjunkite šią funkciją: **Generuoti PVM 
     - **Apskaitos valiuta** – spausdinti ataskaitos sumas apskaitos valiuta.
     - **PVM kodo valiuta** – spausdinti ataskaitos sumas PVM kodų valiuta.
 
-    ![Dialogo langas PVM mokėjimas pagal kodą](media/Sales-tax-payment-by-code.png)
+    ![Dialogo langas PVM mokėjimas pagal kodą.](media/Sales-tax-payment-by-code.png)
 
 Toliau pateikiamoje iliustracijoje rodomas pavyzdys, kaip generuojama ataskaita. Ataskaita nurodo, kad ataskaitos kodas **101** pateiktas **EUR** valiuta, jei laukas **PVM valiuta** nustatytas į **EUR** PVM kodui, kuriam priskirtas ataskaitos kodas.
 
-![PVM mokėjimo pagal kodą ataskaitos pavyzdys](media/Sales-tax-payment-by-code-2.png)
+![PVM mokėjimo pagal kodą ataskaitos pavyzdys.](media/Sales-tax-payment-by-code-2.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

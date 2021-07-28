@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 39a9ba00763fac220eff16bdd42aa07cc8e35ba4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d3f3a02a369cab34b965b2443bb77053377a190e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838135"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353377"
 ---
 # <a name="work-policies"></a>Darbo strategijos
 
@@ -200,7 +200,7 @@ Pavyzdys šiame skyriuje rodo, kaip gauti prekybos užsakymo elementą be kūrim
 
 Tolesniame pavyzdyje, esama dviejų gamybos užsakymų, *PRD-001* ir *PRD-002*. Gamybos užsakymas *PRD-001* turi operaciją pavadintą *Surinkimas*, kurioje gaminys *SC1* yra nusiunčiamas kaip baigtas į vietą *001*. Gamybos užsakymas *PRD-002* turi operaciją pavadintą *Dažymas* ir naudoja gaminį *SC1* iš vietos *001*. Gamybos užsakymas *PRD-002* taip pat naudoja žaliavas *RM1* iš vietos *001*. Žaliavos *RM1* yra laikomos sandėlio vietoje *BULK-001* ir bus paimtos į vietą *001* sandėlio darbui žaliavos medžiagos paėmimui. Paėmimo darbas yra generuojamas, kai produkcija *PRD-002* išleidžiama.
 
-[![Sandėlio darbo strategijos](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
+[![Sandėlio darbo strategijos.](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
 Jums planuojant konfigūruoti sandėlio darbo strategiją šiame scenarijui, turėtumėte apsvarstyti tolesnius aspektus:
 

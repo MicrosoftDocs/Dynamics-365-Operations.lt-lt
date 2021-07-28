@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37ae6ebd4347d3bbb414b7f1e4e0d54150878c02
-ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
+ms.openlocfilehash: 0fd573ab1676af292174efce562b010bcbeb6514
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6097239"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354742"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Neigiamos dienos ir dinaminės neigiamos dienos
 
@@ -43,7 +43,7 @@ Gali būti, kad poreikį gausite sąlyginai anksti prekės gamybos laikotarpiu a
 
 Tolesnėje iliustracijoje vaizduojamas grafinis šio scenarijaus rodinys.
 
-![1 scenarijaus grafinis rodinys](./media/negative-days-1.jpg)
+![1 scenarijaus grafinis rodinys.](./media/negative-days-1.jpg)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>A atvejis: neigiamų dienų skaičius mažesnis negu prekės gamybos laiko dienų skaičius
 
@@ -51,11 +51,11 @@ Jei nustatytas neigiamų dienų skaičius mažesnis negu prekės gamybos laiko d
 
 Tolesnėje iliustracijoje vaizduojama šio atvejo ekrano kopija.
 
-![1 scenarijaus A atvejo ekrano kopija](./media/negative-days-2.png)
+![1 scenarijaus A atvejo ekrano kopija.](./media/negative-days-2.png)
 
 Tolesnėje iliustracijoje vaizduojamas grafinis rodinys, apimantis tai, kas nutinka šiuo atveju.
 
-![1 scenarijaus A atvejo grafinis rodinys](./media/negative-days-3.png)
+![1 scenarijaus A atvejo grafinis rodinys.](./media/negative-days-3.png)
 
 Jei atkreiptumėte dėmesį į MRP našumą ir plano nervingumą, šiuo atveju nepasiekiama gerų rezultatų. MRP turi sukurti naują suplanuotą užsakymą ir apskaičiuoti atidėjimus ir veiksmus. Šios užduotys užima daug laiko. Šiuo atveju į jūsų planą taip pat įtraukiamos dar dvi operacijos. Kita vertus, pardavimo užsakymas atidedamas tik šešioms dienoms, ne septynioms dienoms.
 
@@ -73,11 +73,11 @@ Dinaminių neigiamų dienų laiko riba = pirkimo vykdymo laikas + neigiamų dien
 
 Kai naudojamos dinaminės neigiamos dienos, laiko riba, kai MRP ieško kvitų, dabar yra 6 + 2 + 0 = 8 dienos. MRP randa esamą pirkimo užsakymą ir susieja jį su pardavimo užsakymu. Naujų suplanuotų užsakymų nesukuriama. Todėl MRP vykdymo laikas trumpesnis. Tolesnėje iliustracijoje vaizduojami DemoProduct prekės grynieji poreikiai.
 
-![1 scenarijaus C atvejo grynieji poreikiai](./media/negative-days-4.png)
+![1 scenarijaus C atvejo grynieji poreikiai.](./media/negative-days-4.png)
 
 Tolesnėje iliustracijoje vaizduojamas grafinis rodinys, apimantis tai, kas nutinka šiuo atveju.
 
-![1 scenarijaus C atvejo grafinis rodinys](./media/negative-days-5.png)
+![1 scenarijaus C atvejo grafinis rodinys.](./media/negative-days-5.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>D atvejis: naudoti tik dinamines neigiamas dienas
 
@@ -85,11 +85,11 @@ Nustačius neigiamų dienų reikšmę **0** (nulis) ir naudojantis tik dinamini�
 
 Tolesnėje iliustracijoje vaizduojama šio atvejo ekrano kopija.
 
-![1 scenarijaus D atvejo ekrano kopija](./media/negative-days-6.png)
+![1 scenarijaus D atvejo ekrano kopija.](./media/negative-days-6.png)
 
 Tolesnėje iliustracijoje vaizduojamas grafinis rodinys, apimantis tai, kas nutinka šiuo atveju.
 
-![1 scenarijaus D atvejo grafinis rodinys](./media/negative-days-7.png)
+![1 scenarijaus D atvejo grafinis rodinys.](./media/negative-days-7.png)
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>E atvejis: naudoti tiek neigiamas dienas, kurių daugiau negu prekės gamybos laiko dienų, tiek dinaminių neigiamų dienų laiko ribą
 
@@ -106,7 +106,7 @@ Gali būti, kad poreikį gausite kažkuriuo metu prekės gamybos laikotarpiu. To
 
 Tolesnėje iliustracijoje vaizduojamas grafinis šio scenarijaus rodinys.
 
-![2 scenarijaus grafinis rodinys](./media/negative-days-8.png)
+![2 scenarijaus grafinis rodinys.](./media/negative-days-8.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>A atvejis: neigiamų dienų skaičius mažesnis negu prekės gamybos laiko dienų skaičius
 
@@ -114,11 +114,11 @@ Jei nustatytas neigiamų dienų skaičius mažesnis negu prekės gamybos laiko d
 
 Tolesnėje iliustracijoje vaizduojama šio atvejo ekrano kopija.
 
-![2 scenarijaus A atvejo ekrano kopija](./media/negative-days-9.png)
+![2 scenarijaus A atvejo ekrano kopija.](./media/negative-days-9.png)
 
 Tolesnėje iliustracijoje vaizduojamas grafinis rodinys, apimantis tai, kas nutinka šiuo atveju.
 
-![2 scenarijaus A atvejo grafinis rodinys](./media/negative-days-10.png)
+![2 scenarijaus A atvejo grafinis rodinys.](./media/negative-days-10.png)
 
 ### <a name="case-b-negative-days-are-more-than-the-items-lead-time"></a>B atvejis: neigiamų dienų skaičius didesnis negu prekės gamybos laiko dienų skaičius
 
@@ -130,11 +130,11 @@ Tolesnėje iliustracijoje vaizduojamas grafinis rodinys, apimantis tai, kas nuti
 
 Tolesnėje iliustracijoje vaizduojama šio atvejo ekrano kopija.
 
-![2 scenarijaus C atvejo ekrano kopija](./media/negative-days-11.png)
+![2 scenarijaus C atvejo ekrano kopija.](./media/negative-days-11.png)
 
 Tolesnėje iliustracijoje vaizduojamas grafinis rodinys, apimantis tai, kas nutinka šiuo atveju.
 
-![2 scenarijaus C atvejo grafinis rodinys](./media/negative-days-12.png)
+![2 scenarijaus C atvejo grafinis rodinys.](./media/negative-days-12.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>D atvejis: naudoti tik dinamines neigiamas dienas
 
@@ -155,7 +155,7 @@ Gali būti, kad poreikį gausite pasibaigus prekės gamybos laikui. Toliau patei
 
 Tolesnėje iliustracijoje vaizduojamas grafinis šio scenarijaus rodinys.
 
-![3 scenarijaus grafinis rodinys](./media/negative-days-13.png)
+![3 scenarijaus grafinis rodinys.](./media/negative-days-13.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>A atvejis: neigiamų dienų skaičius mažesnis negu prekės gamybos laiko dienų skaičius
 
@@ -163,11 +163,11 @@ Jei nustatytas neigiamų dienų skaičius mažesnis negu prekės gamybos laiko d
 
 Tolesnėje iliustracijoje vaizduojama šio atvejo ekrano kopija.
 
-![3 scenarijaus A atvejo ekrano kopija](./media/negative-days-14.png)
+![3 scenarijaus A atvejo ekrano kopija.](./media/negative-days-14.png)
 
 Tolesnėje iliustracijoje vaizduojamas grafinis rodinys, apimantis tai, kas nutinka šiuo atveju.
 
-![3 scenarijaus A atvejo grafinis rodinys](./media/negative-days-15.png)
+![3 scenarijaus A atvejo grafinis rodinys.](./media/negative-days-15.png)
 
 > [!NOTE]
 > Ankstesnėje ekrano kopijoje pirkimo užsakymo pareikalavimo data yra sausio 12 d. Kadangi ekrano kopija daryta 2015 m. sausio 11 d. sekmadienį, MRP perkėlė pareikalavimo datą į kitą darbo dieną – pirmadienį, sausio 12 d. Nepaisant to, pirkimo užsakymo pristatymo data yra sausio 11 d.
@@ -178,11 +178,11 @@ Jei nustatysite tokį neigiamų dienų skaičių, kuris bus didesnis negu prekė
 
 Tolesnėje iliustracijoje vaizduojama šio atvejo ekrano kopija.
 
-![3 scenarijaus B atvejo ekrano kopija](./media/negative-days-16.png)
+![3 scenarijaus B atvejo ekrano kopija.](./media/negative-days-16.png)
 
 Tolesnėje iliustracijoje vaizduojamas grafinis rodinys, apimantis tai, kas nutinka šiuo atveju.
 
-![3 scenarijaus B atvejo grafinis rodinys](./media/negative-days-17.png)
+![3 scenarijaus B atvejo grafinis rodinys.](./media/negative-days-17.png)
 
 ### <a name="case-c-automatically-correlate-the-items-lead-time-to-the-negative-days-time-fence"></a>C atvejis: automatiškas prekės gamybos laiko koreliavimas su neigiamų dienų laiko riba
 
@@ -192,7 +192,7 @@ Dinaminių neigiamų dienų laiko riba yra 6 + 2 – 7 = 1 diena. Tačiau šiuo 
 
 Tolesnėje iliustracijoje vaizduojamas grafinis rodinys, apimantis tai, kas nutinka šiuo atveju.
 
-![3 scenarijaus C atvejo grafinis rodinys](./media/negative-days-18.png)
+![3 scenarijaus C atvejo grafinis rodinys.](./media/negative-days-18.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>D atvejis: naudoti tik dinamines neigiamas dienas
 
@@ -219,11 +219,11 @@ Galbūt norėsite nustatyti ilgą neigiamų dienų laiko ribą, o paskui dirbti 
 
 Tolesnėje iliustracijoje vaizduojamas grafinis rodinys, apimantis tai, kas nutinka.
 
-![Grafinė pavyzdžio peržiūra](./media/negative-days-19.png)
+![Grafinė pavyzdžio peržiūra.](./media/negative-days-19.png)
 
 MRP pasiekiama toliau nurodytų rezultatų.
 
-![1 rezultatų pavyzdys](./media/negative-days-20.png)
+![1 rezultatų pavyzdys.](./media/negative-days-20.png)
 
 Ankstesnėje ekrano kopijoje pardavimo užsakymo pareikalavimo data yra sausio 9 d., o ne sausio 10 d. Kadangi ekrano kopija daryta 2015 m. sausio 10 d. šeštadienį, užsakymo pareikalavimo data turėtų būti ankstesnė darbo diena – penktadienis, sausio 9 d.
 
@@ -233,7 +233,7 @@ Rezultatai nėra klaidingi, tačiau MRP vykdymo laikas gali būti ilgesnis, nes 
 
 Jei neigiamų dienų skaičių sumažinsite tiek, kad jis būtų artimesnis prekės gamybos laiko dienų skaičiui, ir naudositės dinaminėmis dienomis, MRP pasiekiama toliau nurodytų rezultatų.
 
-![2 rezultatų pavyzdys](./media/negative-days-21.png)
+![2 rezultatų pavyzdys.](./media/negative-days-21.png)
 
 MRP sukuria suplanuotą užsakymą, kuris pridedamas prie pirmo pardavimo užsakymo. Paskui, kaip ir tikėtasi, antras pardavimo užsakymas susiejamas su esamu pirkimo užsakymu, atsižvelgiant į neigiamų dienų nuostatas. Šis suplanuotas rezultatas taip pat teisingas, o MRP vykdymo laikas gali būti trumpesnis. Šiuo atveju svarbu suprasti ir žinoti, kaip dirbti su veiksmų pranešimais.
 

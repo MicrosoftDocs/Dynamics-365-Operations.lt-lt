@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: e5fd7a9a9703f9ab6802def0aac096e29aa04f1a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1235f8fa64fbc87a4c22f4dcf0e9ddd4b4565b76
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831391"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359768"
 ---
 # <a name="location-license-plate-positioning"></a>Vietos numerio lentelės padėtis
 
@@ -88,7 +88,7 @@ Funkcija turi būti įjungta kiekviename vietos, kurioje ji bus naudojama, profi
 1. Kol **Numerio lentelė** vis dar pasirinkta, pasirinkite **Pridėti lentelės sujungimą**.
 1. Pasirodančiame lentelių sąraše **Ryšys** stulpelyje pasirinkite **Vietos numerio lentelės nustatymas (numerio lentelė)**. Tada pasirinkite **Pasirinkti**, kad į **Vietos numerio lentelės nustatymas** pridėtumėte **Atsargų dimensijos** lentelės sujungimą.
 
-    ![Lentelių sujungimai](media/LpTableJoin.png "Lentelių sujungimai")
+    ![Lentelių sujungimai.](media/LpTableJoin.png "Lentelių sujungimai")
 
 1. Pasirinkite **Gerai**, kad patvirtintumėte atnaujintus sujungtas lenteles ir uždarytumėte užklausos rengyklę.
 1. „FastTab“ skirtuke **Vietos nurodymų veiksmai** vėl pasirinkite **Redaguoti užklausą**, kad iš naujo atidarytumėte užklausos rengyklę.
@@ -100,7 +100,7 @@ Funkcija turi būti įjungta kiekviename vietos, kurioje ji bus naudojama, profi
     - **Laukas:** *LP pozicija*
     - **Kriterijai:** *1*
 
-    ![Naujas diapazonas](media/LpPositionCriteria.png "Naujas diapazonas")
+    ![Naujas diapazonas.](media/LpPositionCriteria.png "Naujas diapazonas")
 
 1. Pasirinkite **Gerai**, kad patvirtintumėte pakeitimus ir uždarytumėte užklausų rengyklę.
 
@@ -275,7 +275,7 @@ Dabar, kai *Vietos numerio lentelės nustatymas* funkcija nustatyta, o atsargos 
 1. **Nuskaityti darbo ID / numerio lentelės ID** puslapyje pasirinkite **ID** lauką ir įveskite darbo ID iš pardavimo eilutės.
 1. Atkreipkite dėmesį, kad paėmimo darbas nurodo jums paimti prekę *A0002* iš vietos *01A01R1S2B*. Gaunate šią instrukciją, nes prekė *A0002* yra numerio lentelėje, esančioje *1* padėtyje toje vietoje.
 
-    ![1 pozicijos vieta](media/LocationLicensePlatePositioning.png "1 pozicijos vieta")
+    ![1 pozicijos vieta.](media/LocationLicensePlatePositioning.png "1 pozicijos vieta")
 
 1. Įveskite vietai sukurtos numerio lentelės ID, tada vadovaukitės raginimais ir pasirinkite pardavimo užsakymą.
 

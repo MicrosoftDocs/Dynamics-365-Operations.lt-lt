@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: efa9be4a5243444c2bf0b154836efbf8cfa76de9
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 2f1e633bf06a44acadee8e9fd93d682321b80e0b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894671"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359270"
 ---
 # <a name="vat-reporting-for-europe"></a>PVM ataskaitos Europoje
 
@@ -37,7 +37,7 @@ ms.locfileid: "5894671"
 -   Vokietija
 -   Latvija
 -   Lietuva
--   Olandija
+-   Nyderlandai
 -   Švedija
 
 ## <a name="vat-statement-overview"></a>PVM išrašo apžvalga
@@ -45,7 +45,7 @@ PVM išrašas pagrįstas PVM operacijų sumomis. PVM išrašo generavimo procesa
 
 Reikia nustatyti kiekvieno PVM ataskaitų kodo konkretų ataskaitos maketą. Tuo pat metu PVM kodai yra susiejami su konkrečiu PVM rinkėju per PVM sudengimo laikotarpius. Reikia nustatyti kiekvieno PVM rinkėjo ataskaitos maketą. Todėl PVM kodo ataskaitos sąrankoje galima pasirinkti tik PVM ataskaitų kodus su tuo pačiu ataskaitos maketu, kuris nustatytas ir priskirtas PVM rinkėjui PVM kodo PVM sudengimo laikotarpiuose. PVM operacija, sugeneruota užregistravus užsakymą arba žurnalą, apima PVM kodą, PVM šaltinį, PVM kryptį ir operacijos sumas (mokesčio bazinę sumą ir mokesčio sumą apskaitos valiuta, PVM valiuta ir operacijos valiuta). Atsižvelgiant į mokesčio operacijos atributų derinį, operacijos sumos sudaro bendras PVM kodų nurodytų PVM ataskaitų kodų sumas. Tolesnėje iliustracijoje pavaizduotas duomenų ryšys.
 
-![diagrama](./media/diagram4.jpg)
+![diagrama.](./media/diagram4.jpg)
 
 ## <a name="vat-statement-setup"></a>PVM išrašo sąranka
 Norėdami generuoti PVM išrašą, turite atlikti tolesnius veiksmus.
@@ -267,7 +267,7 @@ Kiekvienos šalies PVM išrašas turi atitikti šalies teisės reikalavimus. Tol
 | Italija          | [Išsami informacija apie Italijos PVM išrašus](emea-ita-vat-statements-details.md)            |
 | Latvija         | [PVM išrašo informacija, skirta Latvijai](emea-lva-vat-statement-details.md)           |
 | Lietuva      | [PVM išrašo informacija, skirta Lietuvai](emea-ltu-vat-statement-details.md)         |
-| Olandija    | [PVM deklaracija (Nyderlandai)](emea-nl-vat-declaration.md)           |
+| Nyderlandai    | [PVM deklaracija (Nyderlandai)](emea-nl-vat-declaration.md)           |
 | Švedija         | [PVM ataskaita (Švedija)](emea-swe-sales-tax-payment-report-sweden.md)          |
 
 

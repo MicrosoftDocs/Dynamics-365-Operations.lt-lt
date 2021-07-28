@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ca50f030e67e517a227766f6a30d4bd4b345300b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 424917f98ec7c4c044fb5cdae78133d1529aefd9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894129"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348169"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Pasirinktinės saugyklos vietos, skirtos sugeneruotiems dokumentams, nurodymas
 
@@ -39,7 +39,7 @@ Taip pat jums reikia prieigos prie šios topologijos kūrimo aplinkos.
 
 Esamoje topologijoje [sukurkite naują ER formatą](tasks/er-format-configuration-2016-11.md), kad generuotumėte dokumentus, kurių pasirinktinę saugojimo vietą planuojate įtraukti. Taip pat galite [importuoti esamą ER formatą į šią topologiją](general-electronic-reporting-manage-configuration-lifecycle.md).
 
-![Formato dizaino įrankio puslapis](media/er-extend-file-storages-format.png)
+![Formato dizaino įrankio puslapis.](media/er-extend-file-storages-format.png)
 
 > [!IMPORTANT]
 > Jūsų kuriamame arba importuojamame ER formate turi būti bent vienas iš toliau nurodytų formato elementų.
@@ -58,7 +58,7 @@ Norėdami nurodyti, kaip dokumentai, kuriuos generuoja ER formatas, turi būti n
 3. Lauke **Klasė** nurodykite **Pridėti failą**.
 4. Lauke **Grupė** nurodykite **Failas**.
 
-![Puslapis Dokumentų tipai](media/er-extend-file-storages-document-type.png)
+![Puslapis Dokumentų tipai.](media/er-extend-file-storages-document-type.png)
 
 > [!NOTE]
 > Dokumentų tipai priklauso nuo įmonės. Norėdami naudoti ER formatą ir sukonfigūruotą paskirties vietą keliose įmonėse, turite sukonfigūruoti atskirą dokumento tipą, skirtą kiekvienai įmonei.
@@ -113,14 +113,14 @@ public DocuRef insertFile(
 - **Archyvas** – kai naudojama ši paskirties vieta, lentelėje ERFormatMappingRunJobTable sukuriamas naujas paleisto ER formato įrašas. Šio įrašo lauke **Suarchyvuota** nustatoma reikšmė **False**. Je ER formatas įvykdomas sėkmingai, sugeneruotas dokumentas pridedamas prie šio įrašo ir paleidžiamas įvykis **AttachingFile()**. Dokumento tipas, pasirinktas šioje ER paskirties vietoje, nurodo pridėto failo saugojimo vietą („Microsoft Azure“ saugyklos arba „Microsoft SharePoint“ aplankas).
 - **Užduoties archyvas** – kai naudojama ši paskirties vieta, lentelėje ERFormatMappingRunJobTable sukuriamas naujas paleisto ER formato įrašas. Šio įrašo lauke **Suarchyvuota** nustatoma reikšmė **True**. Je ER formatas įvykdomas sėkmingai, sugeneruotas dokumentas pridedamas prie šio įrašo ir paleidžiamas įvykis **AttachingFile()**. ER parametruose sukonfigūruoto dokumento tipas nurodo pridėto failo saugojimo vietą („Azure“ saugyklos arba „SharePoint“ aplankas).
 
-![Elektroninių ataskaitų parametrų puslapis](media/er-extend-file-storages-parameters.png)
+![Elektroninių ataskaitų parametrų puslapis.](media/er-extend-file-storages-parameters.png)
 
 ## <a name="configure-an-er-destination"></a>ER paskirties vietos konfigūravimas
 
 1. Sukonfigūruokite vieno iš anksčiau minėtų sukurto arba importuoto ER formato elementų (failo, aplanko, susijungimo arba priedo) suarchyvuotą paskirties vietą. Patarimų žr. [ER paskirties vietų konfigūravimas](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
 2. Naudoti anksčiau įtrauktą sukonfigūruotos paskirties vietos dokumento tipą. (Pavyzdžiui, šioje temoje dokumento tipas yra **FileX**.)
 
-![Dialogo langas Paskirties vietos parametrai](media/er-extend-file-storages-destination.png)
+![Dialogo langas Paskirties vietos parametrai.](media/er-extend-file-storages-destination.png)
 
 ## <a name="modify-source-code"></a>Šaltinio kodo modifikavimas
 

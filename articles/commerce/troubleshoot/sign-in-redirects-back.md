@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a1d0ae4e487c391020947c607d5d7cb5d1ba6af4
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e83b381e73d28dce0a438a37d5f8ed23b4957adf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020608"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350383"
 ---
 # <a name="sign-in-link-redirects-back-to-an-e-commerce-site"></a>Prisijungimo saitas nukreipia atgal į el. prekybos svetainę
 
@@ -43,7 +43,7 @@ Norėdami patvirtinti, kad atsakymo URL tinkamai sukonfigūruotas „Azure AD”
 1. Pasirinkite programą, kurią sukūrėte „Azure AD” B2C nustatymo metu.
 1. Dalyje **Atsakymo URL** patikrinkite, kad sąraše yra ir svetainės domeno URL, ir el. prekybos sugeneruoto URL įrašai, kaip parodyta toliau pateiktos iliustracijos pavyzdyje.
 
-    ![„Azure AD” B2C atsakymo URL įrašai](media/aad-b2c-reply-url.jpg)
+    ![„Azure AD” B2C atsakymo URL įrašai.](media/aad-b2c-reply-url.jpg)
 
 > [!NOTE]
 > Svetainės domeno URL ir el. prekybos sugeneruotas URL turi būti tinkamo URL formato, kuris neįtraukia priekinių arba pabaigos pasvirųjų brūkšnių.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 661bb8369fe4dbe6cdf6ee0fb05d16f4350ecf5a
-ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
+ms.openlocfilehash: aec6d784fd6bd54297ac4204c834c7f77ed75362
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6097264"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356517"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Atostogų prašymų valdymas „Teams“
 
@@ -61,7 +61,7 @@ Roboto galite prašyti toliau pateiktų dalykų:
 
 - Pateikti atostogų prašymą už jus. Pavyzdžiui, išsiųskite pranešimą „Pasiimti ne darbo laiko” arba „Norėčiau pasiimti atostogas kitą ketvirtadienį ir penktadienį”, kad konkrečiau nurodytumėte prašomų atostogų tipą. 
 
-  ![Atostogų užklausos paleidimas komandos pokalbyje](./media/hr-teams-leave-app-initiate.png)
+  ![Atostogų užklausos paleidimas komandos pokalbyje.](./media/hr-teams-leave-app-initiate.png)
 
 - Pokalbių robotas jums užpildys prašymą išeiti atostogų. Pasirinkite **Prašyti išleisti iš darbo** ir redaguokite savo prašymo duomenis.
 
@@ -69,11 +69,11 @@ Roboto galite prašyti toliau pateiktų dalykų:
 
    Jei išeisite pusdieniui, kai atostogų užklausos vienetas pateiktas dienomis, galite nurodyti, ar norite prašyti laisvo laiko pirmoje, ar antroje dienos pusėje, pasirinkdami **Pusės dienos apibrėžimas** parinktį iš meniu **Daugiau parinkčių**.
    
-   ![Pusės dienos apibrėžimai](./media/HalfDayDefinitions.png)
+   ![Pusės dienos apibrėžimai.](./media/HalfDayDefinitions.png)
 
 - Kai baigsite redaguoti savo prašymo išeiti atostogų duomenis, pasirinkite **Pateikti** ir pateikite jį patvirtinti.
 
-  ![Prašymo išeiti atostogų pateikimas](./media/hr-teams-leave-app-submit.png)
+  ![Prašymo išeiti atostogų pateikimas.](./media/hr-teams-leave-app-submit.png)
 
 ## <a name="manage-your-leave-in-teams"></a>Atostogų valdymas programoje „Teams“
 
@@ -93,7 +93,7 @@ Skirtuke **Ne darbo laikas** galite peržiūrėti:
 
 2. Įveskite dieną ar dienas, kuriomis norite nedirbti, tada pasirinkite **Įtraukti**.
 
-   ![„Human Resources Teams“ atostogų programos ne darbo laiko įtraukimas](./media/TimeOffHours.png)
+   ![„Human Resources Teams“ atostogų programos ne darbo laiko įtraukimas.](./media/TimeOffHours.png)
 
 3. Jei reikia, įveskite priežasties kodą. Taip pat, jei reikia įveskite komentarus ir įtraukite priedus.
 
@@ -123,7 +123,7 @@ Jei esate tvirtintojas, pranešime galite pasirinkti **Patvirtinti** arba **Atme
 
 1. „Komandos” arba „Pokalbiai” skiltyje, esančiose programėlėje „Teams”, pasirinkite „Human Resources” mygtuką, esantį po pokalbio langu.
 
-   ![„Human Resources” mygtukas, esantis po pokalbio langu](./media/hr-teams-leave-app-chat-button.png)
+   ![„Human Resources” mygtukas, esantis po pokalbio langu.](./media/hr-teams-leave-app-chat-button.png)
 
 2. Pasirinkite atostogų užklausą, kurią norite bendrinti. Jei norite bendrinti juodraštinę atostogų užklausą, pirmiausia pasirinkite **Juodraščiai**.
 
@@ -173,11 +173,11 @@ Jei vertimai nerodomi taip, kaip turėtų, patikrinkite, ar kalba, kurią pasiri
 
 Komandose peržiūrėkite **Programos kalba**, dalyje **Nustatymai**.
 
-![Komandų nustatymai](./media/hr-teams-leave-app-settings.png)
+![Komandų nustatymai.](./media/hr-teams-leave-app-settings.png)
 
 Personalo dalyje pasirinkite **Nustatymai**, o tada pasirinkite **Naudotojo parinktys**. Patikrinkite, ar laukelis **Kalba** sutampa su komandų laukeliu **Programos kalba**.
 
-![Personalo naudotojo parinktys](./media/hr-teams-leave-app-user-options.png)
+![Personalo naudotojo parinktys.](./media/hr-teams-leave-app-user-options.png)
 
 Jei vis dar kyla problemų dėl vertimo, praneškite mums. Išsamesnės informacijos, žr. skyriuje [Gauti pagalbą „Finance and Operations“ programoms arba „Lifecycle Services (LCS)“](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
