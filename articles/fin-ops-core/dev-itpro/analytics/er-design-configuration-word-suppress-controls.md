@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 8c99203110cfdc7f8123c30488611d55f48e8f67
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e6ab75c970c6c14d4977b6c739ba46e33f4962e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753607"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348049"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Nerodomo „Word” turinio valdikliai sugeneruotose ataskaitose
 
@@ -63,7 +63,7 @@ Taip pat turite atsisiųsti ir įrašyti šį ataskaitos pavyzdžio šabloną:
     > [!NOTE]
     > Pasikartojantis turinio valdiklis žymimas **SuvestinėsEilutės** raktu, atitinkančiu pasirinktinės susietos XML dalies lauką.
 
-    ![„Word” šablono maketas](./media/er-design-configuration-word-suppress-controls-image1.gif)
+    ![„Word” šablono maketas.](./media/er-design-configuration-word-suppress-controls-image1.gif)
 
 ## <a name="select-the-existing-er-report-configuration"></a>Pasirinkite esamą ER ataskaitos konfigūraciją
 
@@ -98,7 +98,7 @@ Toliau nurodytus veiksmus atlikite iš naujo naudodami esamą ER konfigūraciją
 7. Pasirinkite **Gerai**.
 8. **Elektroninės ataskaitos parametrai** dialogo lange pasirinkite **Gerai** ir išanalizuokite sugeneruotą išeigą.
 
-    ![Apdorotini mokėjimai puslapyje Tiekėjo mokėjimai](./media/er-design-configuration-word-suppress-controls-image2.gif)
+    ![Apdorotini mokėjimai puslapyje Tiekėjo mokėjimai.](./media/er-design-configuration-word-suppress-controls-image2.gif)
 
     Išvestis pateikiama „Word” formatu ir joje yra suvestinės dalis.
 
@@ -149,7 +149,7 @@ Jei norite nerodyti suvestinės skyriaus sugeneruotame dokumente, remiantis vart
 
 9. Pasirinkite **Įrašyti** tam, kad išsaugotumėte pakeitimus redaguotiname formate.
 
-    ![Sugeneruota išvestis „Word” formatu](./media/er-design-configuration-word-suppress-controls-image3.gif)
+    ![Sugeneruota išvestis „Word” formatu.](./media/er-design-configuration-word-suppress-controls-image3.gif)
 
 ## <a name="run-the-modified-format-to-create-word-output"></a>Paleiskite pakeistą formatą, kad sukurtumėte „Word“ išvestį
 
@@ -163,7 +163,7 @@ Jei norite nerodyti suvestinės skyriaus sugeneruotame dokumente, remiantis vart
 8. **Elektroninės ataskaitos parametrai** dialogo lange, lauke **Nerodyti suvestinės skyriaus** lauke, pasirinkite **Taip**.
 9. Pasirinkite **Gerai** ir analizuokite sugeneruotą išvestį.
 
-    ![Sugeneruota išvestis „Word” formatu](./media/er-design-configuration-word-suppress-controls-image4.gif)
+    ![Sugeneruota išvestis „Word” formatu.](./media/er-design-configuration-word-suppress-controls-image4.gif)
 
     Atkreipkite dėmesį, kad išvestyje nėra suvestinės skyriaus, nes jis nerodomas.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 8b61e65d3a641a1e3d73192853c832d57ed17401
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 23da08f982639c9ba0ef847990979f73b96cac22
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021276"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345529"
 ---
 # <a name="archive-inventory-transactions"></a>Archyvuoti atsargų operacijas
 
@@ -64,7 +64,7 @@ Norėdami archyvuoti atsargų operacijas, atlikite toliau nurodytus veiksmus.
 
     Rodomas puslapis **Atsargų operacijų archyvas** bei archyvuotų proceso įrašų sąrašas.
 
-    ![Atsargų operacijų archyvo puslapis](media/archive-inventory-empty.png "Atsargų operacijų archyvo puslapis")
+    ![Atsargų operacijų archyvo puslapis.](media/archive-inventory-empty.png "Atsargų operacijų archyvo puslapis")
 
 1. Veiksmų srityje pasirinkite **Atsargų operacijų archyvas**, kad sukurtumėte atsargų operacijų archyvas.
 1. Dialogo lange **Atsargų operacijų archyvas** „FastTab“ skirtuke **Parametrai** nustatykite šiuos laukelius:
@@ -72,7 +72,7 @@ Norėdami archyvuoti atsargų operacijas, atlikite toliau nurodytus veiksmus.
     - **Nuo uždarymo DK laikotarpio pradžios datos** – pasirinkite anksčiausią operacijos datą, kuri bus įtraukta į archyvą.
     - **Iki uždarymo DK laikotarpio pradžios datos** – pasirinkite vėliausią operacijos datą, kuri bus įtraukta į archyvą.
 
-    ![Atsargų operacijų archyvo dialogo langas](media/archive-inventory-dates.png "Atsargų operacijų archyvo dialogo langas")
+    ![Atsargų operacijų archyvo dialogo langas.](media/archive-inventory-dates.png "Atsargų operacijų archyvo dialogo langas")
 
     > [!NOTE]
     > Bus galima pasirinkti tik laikotarpius, kurie atitinka [būtinas sąlygas](#prerequisites).
@@ -87,7 +87,7 @@ Norėdami archyvuoti atsargų operacijas, atlikite toliau nurodytus veiksmus.
 
 Puslapyje **Atsargų operacijų archyvas** rodoma visa archyvavimo retrospektyva. Kiekvienoje tinklelio eilutėje rodoma tokia informacija kaip archyvo sukūrimo data, jį sukūręs naudotojas ir jo būsena.
 
-![Atsargų operacijų archyvavimo retrospektyvos puslapis](media/archive-inventory-full.png "Atsargų operacijų archyvavimo retrospektyvos puslapis")
+![Atsargų operacijų archyvavimo retrospektyvos puslapis.](media/archive-inventory-full.png "Atsargų operacijų archyvavimo retrospektyvos puslapis")
 
 Norėdami filtruoti tinklelyje rodomus archyvus, puslapio viršuje pateiktame išskleidžiamajame sąraše pasirinkite vieną iš nurodytų verčių:
 
@@ -109,7 +109,7 @@ Kiekvienam tinklelio archyvui pateikiama ši informacija:
 
 - **Archyvuotos operacijos** – visos pasirinkto archyvo informacijos peržiūra. Rodomame puslapyje **Archyvuotos operacijos** rodomos visos archyvo operacijos.
 
-    ![Archyvuotų operacijų puslapis](media/archive-inventory-transactions.png "Archyvuotų operacijų puslapis")
+    ![Archyvuotų operacijų puslapis.](media/archive-inventory-transactions.png "Archyvuotų operacijų puslapis")
 
     Norėdami peržiūrėti daugiau informacijos apie konkrečias operacijas puslapyje **Archyvuotos operacijos**, pasirinkite tinklelį, o tada, veiksmų srityje pasirinkite **Archyvuotos operacijos duomenys**. Rodomame puslapyje **Archyvuotos operacijos duomenys** rodoma tokia informacija kaip DK registravimas, susijusios papildomos DK nuorodos ir finansinės dimensijos.
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 9afa64df73aa17e7a15a0ee4f4529ac74bcd3c67
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a1f85c100f1d062517c14d31a19838cc4af18f10
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750719"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346575"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>Pardavimo užsakymo būsenos stulpelių susiejimo konfigūravimas
 
@@ -100,7 +100,7 @@ Norėdami įgalinti **IsSOPIntegravimasĮjungtas** atributą, atlikite toliau pa
 1. Žiniatinklio naršyklėje eikite į `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`. Pakeiskite **\<test-name\>** savo įmonės saitu į pardavimus.
 2. Atidarytame puslapyje suraskite **OrganizacijosID** ir atkreipkite dėmesį į vertę.
 
-    ![Organizacijos ID radimas](media/sales-map-orgid.png)
+    ![Organizacijos ID radimas.](media/sales-map-orgid.png)
 
 3. Dalyje Pardavimai atsidarykite naršyklės konsolę ir vykdykite šį scenarijų. Naudokite **OrganizacijosID** vertę nuo 2 veiksmo.
 
@@ -119,33 +119,33 @@ Norėdami įgalinti **IsSOPIntegravimasĮjungtas** atributą, atlikite toliau pa
     );
     ```
 
-    ![„JavaScript” kodas naršyklės konsolėje](media/sales-map-script.png)
+    ![„JavaScript” kodas naršyklės konsolėje.](media/sales-map-script.png)
 
 4. Patikrinkite, ar **IsSOPIntegravimasĮjungtas** yra nustatytas kaip **teisingas**. Naudokite URL, kurį nurodėte 1 veiksme, kad patikrintumėte vertę.
 
-    ![IsSOPIntegravimasĮjungtas yra nustatytas kaip teisingas.](media/sales-map-integration-enabled.png)
+    ![ArSOPIntegravimasĮjungtas yra nustatytas kaip teisingas.](media/sales-map-integration-enabled.png)
 
 Norėdami įgalinti **isVartotojoIntegravimas** atributą, atlikite toliau pateiktus veiksmus.
 
 1. Dalyje Pardavimai eikite į **Parametrai \> Tinkinimas \> Tinkinti sistemą**, pasirinkite **Vartotojo lentelė** ir tada atidarykite **Forma \> Vartotojas**.
 
-    ![Vartotojo formos atidarymas](media/sales-map-user.png)
+    ![Vartotojo formos atidarymas.](media/sales-map-user.png)
 
 2. Laukų naršyklėje suraskite **Integravimo vartotojo režimas** ir du kartus spustelėkite jį, kad įtrauktumėte į formą. Įrašykite savo pakeitimą.
 
-    ![Vartotojo režimo stulpelio integravimo į formą pridėjimas](media/sales-map-field-explorer.png)
+    ![Vartotojo režimo stulpelio integravimo į formą pridėjimas.](media/sales-map-field-explorer.png)
 
 3. Dalyje Pardavimai eikite į **Parametras \> Sauga \> Vartotojai** ir pakeiskite rodinį iš **Įgalinti vartotojai** į **Taikomosios programos vartotojai**.
 
-    ![Rodinio keitimas iš „Įgalinti vartotojai” į „Taikomosios programos vartotojai”](media/sales-map-enabled-users.png)
+    ![Rodinio keitimas iš „Įgalinti vartotojai” į „Taikomosios programos vartotojai”.](media/sales-map-enabled-users.png)
 
 4. Pasirinkite du **DviguboRašymo VartotojoIntegravimas** įrašus.
 
-    ![Taikomosios programos vartotojų sąrašas](media/sales-map-user-mode.png)
+    ![Taikomosios programos vartotojų sąrašas.](media/sales-map-user-mode.png)
 
 5. Pakeiskite vertę į **Integravimo vartotojo režimas** stulpelį į **Taip**.
 
-    ![Integravimo vartotojo režimo stulpelio vertės pakeitimas](media/sales-map-user-mode-yes.png)
+    ![Integravimo vartotojo režimo stulpelio vertės pakeitimas.](media/sales-map-user-mode-yes.png)
 
 Dabar Jūsų pardavimo užsakymai yra susieti.
 

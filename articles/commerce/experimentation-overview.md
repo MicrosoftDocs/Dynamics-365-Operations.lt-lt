@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7e415bc0a4ced11c5bb8393fe5dfe03a5f7cdd6c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 658396e87b3007216f6fa11c6ad3923daeb8a67d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798992"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349333"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Eksperimentavimas „Dynamics 365 Commerce”
 Naudokite „Dynamics 365 Commerce” eksperimentavimą, norėdami patvirtinti jūsų „e-Commerce” puslapių efektyvumo hipotezes ir priimti patikimus, duomenimis pagrįstus sprendimus. „Commerce” palaiko A / B tikrinimą puslapiuose, moduliuose ir fragmentuose bei leidžia įvertinti siūlomų svetainės pakeitimų poveikį.
@@ -39,7 +39,7 @@ Naudokite „Dynamics 365 Commerce” eksperimentavimą, norėdami patvirtinti j
 ## <a name="experimentation-lifecycle"></a>Eksperimento ciklas
 Eksperimento nustatymas, variacijų kūrimas ir eksperimento vykdymas yra kartotinis procesas. Toliau pateiktoje diagramoje rodomas eksperimento ciklas „Commerce” ir trečiosios šalies paslaugoje. 
 
-[ ![Eksperimento ciklas](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
+[ ![Eksperimento ciklas.](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
 
 Norėdami sužinoti daugiau apie kiekvieną eksperimentavimo proceso veiksmą, žr. toliau pateiktas temas.
 - [Eksperimento hipotezės ir metrikos nustatymas](experimentation-identify.md)

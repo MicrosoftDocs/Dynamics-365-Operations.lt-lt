@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bbe7749e6c8293ded933611d6f1084b89223302c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 447c5f580e5d925efbfeaabc3890e2d67f9688f5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790987"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344352"
 ---
 # <a name="set-up-assortments"></a>Asortimentų nustatymas
 
@@ -31,7 +31,7 @@ ms.locfileid: "5790987"
 
 Asortimentas yra susijusių produktų, kuriuos priskiriate prekybos kanalui, pvz., plytos ir skiedinys sandėlyje arba internetinėje parduotuvėje, rinkinys. Asortimentą galite naudoti identifikuoti produktams, kurie yra kiekvienoje parduotuvėje. Galite naudoti asortimentą identifikuoti produktus, kurie yra kiekvienoje parduotuvėje. Asortimente gali būti produktų kategorijos. Todėl visi konkrečiai kategorijai priskirti produktai yra įtraukti į asortimentą. Asortimentas taip pat gali apimti konkrečius produktus ir konkrečius produktų variantus. Kurdami asortimentą, tuo pat metu galite priskirti tūkstančius produktų savo kanalams, bet kartu ir visus derinius, kurių reikia jūsų parduotuvėms. Galite nustatyti tiek produktų asortimente, kiek jums reikia. Kiekvieną produktą galima įtraukti į vieną ar daugiau asortimentų, o kiekvieną asortimentą galima priskirti vienam ar keliems kanalams. Pavyzdžiui, nustatykite vieną asortimentą, kuris apima bazinį produktų rinkinį. Šį asortimentą gauna visos parduotuvės. Tada nustatykite kitą asortimentą, kuris apima tik didelę sporto įrangą. Šį asortimentą gauna tik didesnės parduotuvės. Toliau pateikiamoje diagramoje parodyta, kaip priskirti produktus asortimentui ir kaip asortimentus priskirti kanalams.
 
-![Prekių asortimento ryšiai](./media/assortments_relationship.gif)
+![Prekių asortimento ryšiai.](./media/assortments_relationship.gif)
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 

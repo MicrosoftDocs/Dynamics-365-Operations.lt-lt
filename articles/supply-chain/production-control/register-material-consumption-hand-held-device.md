@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0313bd1a5adc0fdb7a4958c5dfa013cfdc51491a
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 2c70b6ecd284acc8817970e090583603d1b8e110
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189647"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345409"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>Medžiagų vartojimo registravimas naudojant mobilųjį įrenginį
 
@@ -30,7 +30,7 @@ ms.locfileid: "6189647"
 
 ## <a name="introduction"></a>Įžanga
 
-Ši darbo eiga aktuali, jei yra griežtas medžiagų atsekamumo reikalavimas. Tokiais atvejais norint užtikrinti medžiagų atsekamumą reikia nurodyti tikslų sunaudojimo laiką ir kiekį. Šį procesą galima laikyti priešingu išankstinio ar atgalinio sunaudojimo operacijoms, kai nesutampa registracijos laikas ir laikas, kada medžiagos faktiškai naudojamos. Tai paaiškina, kodėl automatinio sunaudojimo strategijos negalima naudoti su kai kuriomis medžiagomis, kurias reikalaujama atsekti. Pažvelkime į paprastą scenarijų, kuris paaiškina, kaip nustatyti darbo eigą, kad kišeniniu įrenginiu būtų galima registruoti žaliavų sunaudojimą gamybos metu. [![darbo eigą, kad kišeniniu įrenginiu būtų galima registruoti žaliavų sunaudojimą, nustatymas](./media/scenario3.png)](./media/scenario3.png)
+Ši darbo eiga aktuali, jei yra griežtas medžiagų atsekamumo reikalavimas. Tokiais atvejais norint užtikrinti medžiagų atsekamumą reikia nurodyti tikslų sunaudojimo laiką ir kiekį. Šį procesą galima laikyti priešingu išankstinio ar atgalinio sunaudojimo operacijoms, kai nesutampa registracijos laikas ir laikas, kada medžiagos faktiškai naudojamos. Tai paaiškina, kodėl automatinio sunaudojimo strategijos negalima naudoti su kai kuriomis medžiagomis, kurias reikalaujama atsekti. Pažvelkime į paprastą scenarijų, kuris paaiškina, kaip nustatyti darbo eigą, kad kišeniniu įrenginiu būtų galima registruoti žaliavų sunaudojimą gamybos metu. [![darbo eigą, kad kišeniniu įrenginiu būtų galima registruoti žaliavų sunaudojimą, nustatymas.](./media/scenario3.png)](./media/scenario3.png)
 
 ### <a name="scenario-details"></a>Išsami scenarijaus informacija
 

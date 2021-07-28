@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9523492d766669e6c38579fba7b5ddd6b3d282fc
-ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
+ms.openlocfilehash: a74847b50512d2f712e5a9a5125e520afc732591
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/17/2021
-ms.locfileid: "6049369"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344500"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>„Warehouse Management” mobiliųjų įrenginių programėlės veiksmų piktogramų ir pavadinimų priskyrimas
 
@@ -25,7 +25,7 @@ ms.locfileid: "6049369"
 
 Toliau pateikti pavyzdžiai rodo, kaip veiksmų piktogramos ir pavadinimai rodomi „Warehouse Management” mobiliųjų įrenginių programėlėje.
 
-![Veiksmo piktogramos ir veiksmo pavadinimo pavyzdys „Warehouse Management” mobiliųjų įrenginių programėlėje](media/step-icon-example.png "Veiksmo piktogramos ir veiksmo pavadinimo pavyzdys „Warehouse Management” mobiliųjų įrenginių programėlėje")
+![Veiksmo piktogramos ir veiksmo pavadinimo pavyzdys „Warehouse Management” mobiliųjų įrenginių programėlėje.](media/step-icon-example.png "Veiksmo piktogramos ir veiksmo pavadinimo pavyzdys „Warehouse Management” mobiliųjų įrenginių programėlėje")
 
 ## <a name="turn-on-this-feature-in-your-system"></a>Funkcijos įjungimas jūsų sistemoje
 
@@ -350,13 +350,13 @@ Sistemoje yra standartinių veiksmų piktogramų, kurias taip pat galite naudoti
 
 Toliau pateiktoje iliustracijoje vaizduojamas šis užduoties srautas.
 
-![Užduoties srauto diagrama](media/step-icons-example-task-flow.png "Užduoties srauto diagrama")
+![Užduoties srauto diagrama.](media/step-icons-example-task-flow.png "Užduoties srauto diagrama")
 
 ### <a name="create-a-step-class-for-the-container-input-page"></a>Veiksmo klasės kūrimas konteinerio įvesties puslapiui
 
 Konteinerio įvesties puslapis leidžia darbuotojui nuskaityti arba įvesti konteinerio ID.
 
-![Konteinerio įvesties puslapis](media/step-icons-example-container-input.png "Konteinerio įvesties puslapis")
+![Konteinerio įvesties puslapis.](media/step-icons-example-container-input.png "Konteinerio įvesties puslapis")
 
 Konteinerio įvesties puslapyje įvesties lauko valdiklio pavadinimas yra „`ContainerId`”. Kadangi šio valdiklio pavadinimo nėra [veiksmų ID sąraše](#step-ids-classes), nerasite juo pagrįsto esamo veiksmo. Todėl turite sukurti veiksmo klasę, atspindinčią veiksmą. Toliau pateikiamas pavyzdys.
 
@@ -382,7 +382,7 @@ Norėdami priskirti veiksmo piktogramą, nustatykite „`defaultStepIcon`” į 
 
 Svorio įvesties puslapis leidžia darbuotojui įvesti svorį.
 
-![Svorio įvesties puslapis](media/step-icons-example-weight-input.png "Svorio įvesties puslapis")
+![Svorio įvesties puslapis.](media/step-icons-example-weight-input.png "Svorio įvesties puslapis")
 
 Svorio įvesties puslapio įvesties lauko valdiklio pavadinimas yra „`Weight`”, kuris yra [veiksmų ID sąraše](#step-ids-classes). Todėl, jei jums priimtini veiksmo piktograma ir pavadinimas, apibrėžti „`WHSMobileAppStepWeight`” klasėje, šiame veiksme jums nereikia nieko keisti.
 

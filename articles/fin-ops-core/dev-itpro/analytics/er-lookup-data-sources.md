@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 131d14f1f1aa329bd71b1f8a4015192736bd8e44
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 682910350832e441ed13c716c0c18200a3b7865d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022580"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351078"
 ---
 # <a name="configure-lookup-data-sources-to-use-er-application-specific-parameters"></a>Peržvalgos duomenų šaltinių konfigūravimas, kad būtų galima naudoti ER programai būdingus parametrus 
 
@@ -44,38 +44,38 @@ Galite konfigūruoti šiuos **Peržvalgos** duomenų šaltinių tipus, atsižvel
 
 Šioje iliustracijoje rodoma, kaip formato išvardijimas gali būti konfigūruojamas pavyzdiniame ER formate.
 
-   ![Formatų išvardijimo kaip sukonfigūruoto peržvalgos duomenų šaltinio pagrindo rodymas](./media/er-lookup-data-sources-img1.gif)
+   ![Formatų išvardijimo kaip sukonfigūruoto peržvalgos duomenų šaltinio pagrindo rodymas.](./media/er-lookup-data-sources-img1.gif)
 
 Šioje iliustracijoje rodomi formato komponentus, kurie buvo sukonfigūruoti pranešti apie skirtingų tipų mokesčius kitoje sugeneruotos ataskaitos dalyje.
 
-   ![Formato skyrių rodymas atskirai pranešti apie skirtingo tipo mokesčius](./media/er-lookup-data-sources-img2.png)
+   ![Formato skyrių rodymas atskirai pranešti apie skirtingo tipo mokesčius.](./media/er-lookup-data-sources-img2.png)
 
 Šioje iliustracijoje rodoma, kaip ER operacijų dizaino įrankis leidžia **Formatų išvardijimo\Peržvalgos** tipo duomenų šaltinio įtraukimą.  Įtrauktas duomenų šaltinis yra sukonfigūruojamas kaip `List of taxation levels` formatų išvardijimo grąžinama vertė.
 
-   ![Formatų išvardijimo\Peržvalgos tipo ER duomenų šaltinio įtraukimas](./media/er-lookup-data-sources-img3.gif)
+   ![Formatų išvardijimo\Peržvalgos tipo ER duomenų šaltinio įtraukimas.](./media/er-lookup-data-sources-img3.gif)
 
 Šioje iliustracijoje rodoma, kaip įtrauktas duomenų šaltinis yra konfigūruojamas naudoti **Modelio** duomenų šaltinio įrašų sąrašo **„Model.Data.Tax”** lauką **Kodas** kaip parametrą, kuris turi būti nurodytas kiekvienai sukonfigūruotai taisyklei.
 
-![Įtraukto Formatų išvardijimo\Peržvalgos tipo duomenų šaltinio parametrų konfigūravimas](./media/er-lookup-data-sources-img4.gif)
+![Įtraukto Formatų išvardijimo\Peržvalgos tipo duomenų šaltinio parametrų konfigūravimas.](./media/er-lookup-data-sources-img4.gif)
 
 Įtrauktas duomenų šaltinis `Model.Data.Tax` yra sukonfigūruotas nurodyti mokesčių kodą kiekvienai sukonfigūruotai taisyklei, pasiekdamas programos lentelės **„TaxTable”** (Mokesčių lentelė) įrašus.
 
-   ![Formatų išvardijimo\Peržvalgos tipo vienos įmonės peržvalgos duomenų šaltinio peržiūra](./media/er-lookup-data-sources-img5.gif)
+   ![Formatų išvardijimo\Peržvalgos tipo vienos įmonės peržvalgos duomenų šaltinio peržiūra.](./media/er-lookup-data-sources-img5.gif)
 
 Galite nustatyti pasirinkto ER formato peržvalgos taisykles naudodami vartotojo sąsają, kuri yra automatiškai sulygiuota su sukonfigūruoto duomenų šaltinio struktūra. Šiuo metu ši vartotojo sąsają reikalauja, kad kiekvienai taisyklei nurodytumėte grąžintą reikšmę kaip `List of taxation levels` formato išvardijimo reikšmę, taip pat ir mokesčių kodą kaip parametrą.
 
-   ![Sukonfigūruoto duomenų šaltinio taisyklių nustatymas](./media/er-lookup-data-sources-img6.gif)
+   ![Sukonfigūruoto duomenų šaltinio taisyklių nustatymas.](./media/er-lookup-data-sources-img6.gif)
 
 Šioje iliustracijoje rodoma, kaip **Apskaičiuoto lauko** tipo duomenų šaltinį `Model.Data.Summary.LevelByLookup` galima sukonfigūruoti taip, kad pateikiant reikiamus parametrus, būtų iškviečiamas sukonfigūruotas **Peržvalgos** duomenų šaltinis. Kad šis iškvietimas būtų apdorotas vykdymo metu, ER pereina per sukonfigūruotų taisyklių sąrašą nustatyta seka, kad rastų pirmos taisyklės, atitinkančios pateiktas sąlygas, vietą. Šiame pavyzdyje tai yra taisyklė, kurioje yra mokesčio kodas, atitinkantis pateiktą kodą. Todėl surandama tinkamiausia taisyklė ir rastai taisyklei sukonfigūruotą išvardijimo reikšmę grąžina šis duomenų šaltinis.
 
 > [!NOTE]
 > Kai nerandama jokia taikoma taisyklė, pateikiama išimtis. Norėdami išvengti šių išimčių, taisyklių sąrašo pabaigoje konfigūruokite papildomas taisykles, kad būtų galima tvarkyti atvejus, kai pateikiama nekonfigūruota reikšmė arba nepateikiama jokia reikšmė. Atitinkamai naudokite **\*Ne tuščia\*** ir **\*Tuščia\*** parinktis.  
 >
-> ![Duomenų šaltinio įtraukimas konfigūruotam Peržvalgos duomenų šaltiniui iškviesti](./media/er-lookup-data-sources-img7.png)
+> ![Duomenų šaltinio įtraukimas konfigūruotam Peržvalgos duomenų šaltiniui iškviesti.](./media/er-lookup-data-sources-img7.png)
 
 Kai redaguojamam peržvalgos duomenų šaltiniui nustatote parinktį **Visos įmonės** į **Taip**, jūs įtraukiate naują reikiamą parametrą **Įmonė** į šio duomenų šaltinio parametrų rinkinį. Parametro **Įmonė** reikšmė turi būti nurodyta vykdymo metu, kai iškviečiamas peržvalgos duomenų šaltinis. Kai įmonės kodas nurodomas vykdymo metu, šiai įmonei sukonfigūruotos taisyklės yra naudojamos labiausiai tinkamai taisyklei rasti ir atitinkama reikšmė yra grąžinama. Šioje iliustracijoje rodoma, kaip galite tai atlikti ir kaip pakeičiamas redaguojamo duomenų šaltinio parametrų rinkinys.
 
-   ![Formatų išvardijimo\Peržvalgos tipo kelių įmonių peržvalgos duomenų šaltinio peržiūra](./media/er-lookup-data-sources-img8.gif)
+   ![Formatų išvardijimo\Peržvalgos tipo kelių įmonių peržvalgos duomenų šaltinio peržiūra.](./media/er-lookup-data-sources-img8.gif)
 
 > [!NOTE]
 > Kiekvieną įmonę pasirinkite atskirai, norėdami konfigūruoti šio redaguojamo ER formato peržvalgos duomenų šaltinio taisyklių rinkinį. Vykdymo metu išmetama išimtis, kai kelių įmonių peržvalga yra iškviečiama naudojant įmonės, kurios peržvalgos nustatymas nebuvo baigtas, kodu.
@@ -84,7 +84,7 @@ Kai redaguojamam peržvalgos duomenų šaltiniui nustatote parinktį **Visos įm
 
 Pradedant nuo 10.0.19 versijos, prieinamos **Peržvalgos** duomenų šaltinių išplėstinės galimybės. Kai redaguojamam peržvalgos duomenų šaltiniui nustatote parinktį **Išplėstinis** į **Taip**, sukonfigūruotas peržvalgos duomenų šaltinis yra transformuojamas į susistemintą duomenų šaltinį, kuris siūlo papildomas sukonfigūruoto taisyklių rinkinio analizavimo galimybes. Toliau pateiktoje iliustracijoje vaizduojama ši transformacija.
 
-   ![Formatų išvardijimo\Peržvalgos tipo struktūrinio peržvalgos duomenų šaltinio peržiūra](./media/er-lookup-data-sources-img9.gif)
+   ![Formatų išvardijimo\Peržvalgos tipo struktūrinio peržvalgos duomenų šaltinio peržiūra.](./media/er-lookup-data-sources-img9.gif)
 
 - Antrinis elementas **Peržvalga** yra sukurtas kaip funkcija, skirta tinkamiausiai taisyklei rasti iš konfigūruojamų taisyklių rinkinio, atsižvelgiant į pateiktą parametrų rinkinį.
 - Antrinis elementas **„IsLookupResultSet”** (Ar peržvalgos rezultatas – rinkinys) yra sukurtas kaip funkcija, skirta priimti pateiktą pagrindinio išvardijimo duomenų šaltinio reikšmę ir grąžinti *Bulio logikos* reikšmę **Teisinga**, kai taisyklių rinkinyje yra bent viena taisyklė, kuriai pateikta išvardijimo reikšmė buvo sukonfigūruota kaip grąžinta reikšmė. Ši funkcija grąžina *Bulio logikos* reikšmę **Klaidinga**, kai nėra sukonfigūruotų taisyklių, skirtų pateiktai išvardijimo reikšmei grąžinti.

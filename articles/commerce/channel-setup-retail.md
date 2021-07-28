@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3f1f5dc2c8402d9b6b68a049f804932812eb74c0
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: fe6262fa8a7fb27fda7642180f605376af726e54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937539"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346063"
 ---
 # <a name="set-up-a-retail-channel"></a>Mažmeninės prekybos kanalo nustatymas
 
@@ -50,11 +50,11 @@ Prieš kurdami mažmeninės prekybos kanalą, įsitikinkite, kad išpildėte [ka
 
 Toliau pateiktame vaizde parodytas naujo mažmeninės prekybos kanalo kūrimas.
 
-![Naujas mažmeninės prekybos kanalas](media/channel-setup-retail-1.png)
+![Naujas mažmeninės prekybos kanalas.](media/channel-setup-retail-1.png)
 
 Toliau pateiktame vaizde parodytas mažmeninės prekybos kanalo pavyzdys.
 
-![Mažmeninės prekybos kanalas](media/channel-setup-retail-2.png)
+![Mažmeninės prekybos kanalas.](media/channel-setup-retail-2.png)
 
 ## <a name="other-settings"></a>Kiti parametrai
 
@@ -64,7 +64,7 @@ Be to, žr. [Elektroninio kasos aparato (EKA) ekrano maketai](pos-screen-layouts
 
 Toliau pateiktame vaizde parodytas mažmeninės prekybos kanalo sąrankos konfigūravimas.
 
-![Mažmeninės prekybos kanalo konfigūravimo pavyzdys](media/channel-setup-retail-3.png)
+![Mažmeninės prekybos kanalo konfigūravimo pavyzdys.](media/channel-setup-retail-3.png)
 
 ## <a name="additional-channel-set-up"></a>Papildoma kanalų sąranka
 
@@ -74,7 +74,7 @@ Papildomos užduotys, reikalingos interneto kanalo sąrankai, apima mokėjimo me
 
 Šiame vaizde rodomos įvairios papildomos mažmeninės prekybos kanalo nustatymo parinktys skirtuke **Nustatymas**.
 
-![Kanalo nustatymas](media/channel-setup-retail-4.png)
+![Kanalo nustatymas.](media/channel-setup-retail-4.png)
 
 ### <a name="set-up-payment-methods"></a>Nustatyti mokėjimo būdus
 
@@ -89,7 +89,7 @@ Norėdami nustatyti kiekvieno mokėjimo tipo, palaikomo šiame kanale, mokėjimo
 
 Toliau pateiktame vaizde parodytas mokėjimas grynaisiais pinigais pavyzdys.
 
-![Mokėjimo metodų pavyzdys](media/channel-setup-retail-5.png)
+![Mokėjimo metodų pavyzdys.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-cash-declaration"></a>Grynųjų pinigų deklaravimo nustatymas
 
@@ -98,7 +98,7 @@ Toliau pateiktame vaizde parodytas mokėjimas grynaisiais pinigais pavyzdys.
 
 Toliau pateiktame vaizde parodytas grynųjų pinigų deklaracijos pavyzdys.
 
-![Grynųjų pinigų deklaravimo nustatymas](media/channel-setup-retail-6.png)
+![Grynųjų pinigų deklaravimo nustatymas.](media/channel-setup-retail-6.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Nustatyti pristatymo būdus
 
@@ -112,7 +112,7 @@ Norėdami pakeisti arba įtraukti pristatymo būdą, atlikite toliau nurodytus v
 
 Toliau pateiktame vaizde parodytas pristatymo būdo pavyzdys.
 
-![Nustatyti pristatymo būdus](media/channel-setup-retail-7.png)
+![Nustatyti pristatymo būdus.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-incomeexpense-account"></a>Pajamų/išlaidų sąskaitos nustatymas
 
@@ -129,7 +129,7 @@ Norėdami nustatyti produktų pajamų / išlaidų sąskaitą, atlikite toliau pa
 
 Toliau pateiktame paveiksle parodytas pajamų / išlaidų sąskaitos pavyzdys.
 
-![Pajamų / išlaidų sąskaitų nustatymas](media/channel-setup-retail-8.png)
+![Pajamų / išlaidų sąskaitų nustatymas.](media/channel-setup-retail-8.png)
 
 ### <a name="set-up-sections"></a>Skyrių nustatymas
 
@@ -155,7 +155,7 @@ Norėdami nustatyti vykdymo grupės priskyrimą, atlikite toliau nurodytus veiks
 
 Toliau pateiktame vaizde parodytas vykdymo grupės priskyrimo sąrankos pavyzdys.
 
-![Vykdymo grupės priskyrimų nustatymas](media/channel-setup-retail-9.png)
+![Vykdymo grupės priskyrimų nustatymas.](media/channel-setup-retail-9.png)
 
 ### <a name="set-up-safes"></a>Seifų nustatymas
 

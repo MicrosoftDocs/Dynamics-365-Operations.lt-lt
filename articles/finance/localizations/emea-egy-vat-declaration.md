@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9c776cedb65804f8cadbe324082c2abac435f906
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: f9953d1a996f6f68600a7fd04719e9b112494175
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186619"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349902"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>Egipto PVM deklaracija (EG-00002)
 
@@ -77,7 +77,7 @@ Konkrečios programos parametrai leidžia nustatyti kriterijus, kaip mokesčių 
 
 Egipto pardavimo ir pirkimo knygų ataskaitose yra stulpelių rinkinys, atitinkantis konkrečias operacijų klasifikacijas: operacijų tipus, produktus ir dokumentus, būdingus Egiptui. Užuot šias naujas klasifikacijas įtraukus kaip naujus įvesties duomenis, kai paskeliami sandoriai, klasifikacijos apibrėžiamos pagal skirtingas peržvalgas, kurios buvo įvestos pasirinkus **Konfigūracijos** > **Konkrečios programos parametrų nustatymas** > **Sąranka**, atsižvelgiant į Egipto PVM ataskaitų reikalavimus. 
 
-![Konkrečios programos parametrų puslapis](media/egypt-vat-declaration-setup1.png)
+![Konkrečios programos parametrų puslapis.](media/egypt-vat-declaration-setup1.png)
 
 Šios peržvalgos konfigūracijos naudojamos klasifikuojant pirkimo ir pardavimo PVM knygų ataskaitų operacijas:
 
@@ -206,7 +206,7 @@ Jei norite generuoti PVM grąžinimo formos ataskaitą „Microsoft Excel“ for
 2. Skirtuke **Pardavimų mokestis**, dalyje **Mokesčių parinktys**, laukelyje **PVM išrašo formato išdėstymas** pasirinkite **PVM „Excel“ deklaracija (EG)**. Jei laukelį paliekate tuščią, standartinė pardavimų mokesčių ataskaita bus generuojama SSRS formatu.
 3. Pasirinkite **Kategorijų hierarchija**. Ši kategorija įgalina prekių kodą užsienio prekybos skirtuko operacijose, kad naudotojai galėtų pasirinkti ir klasifikuoti prekes ir paslaugas. Šios klasifikacijos aprašas išsamiai aprašytas pardavimo ir pirkimo operacijų ataskaitose. Ši konfigūracija yra pasirenkama.
 
-![Deklaracijos forma](media/egypt-vat-declaration-setup2.png)
+![Deklaracijos forma.](media/egypt-vat-declaration-setup2.png)
 
 
 ## <a name="generate-a-vat-return-report"></a>Generuoti PVM grąžinimo ataskaitą

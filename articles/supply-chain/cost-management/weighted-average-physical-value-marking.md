@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a9cdd16f0a1592690547a687a731de83a720018
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ce87f14c17aa44d73de22e7f1711794a499c67de
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830129"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352717"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>Svertinis vidurkis su faktine verte ir žymėjimu
 
@@ -65,7 +65,7 @@ Tolesniuose skyriuose pateiktame scenarijuje užregistruotas finansiškai atnauj
 
 Toliau pateiktoje diagramoje parodytas šių operacijų serijos poveikis, pasirinkus svertinio vidurkio atsargų modelį ir tiesioginio sudengimo principą be pasirinkties Įtraukti faktinę vertę. 
 
-![Svertinio vidurkio tiesioginis sudengimas be faktinės vertės įtraukimo](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
+![Svertinio vidurkio tiesioginis sudengimas be faktinės vertės įtraukimo.](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Diagramos paaiškinimas**
 - Atsargų operacijos parodomos vertikaliomis rodyklėmis.
@@ -99,7 +99,7 @@ Tolesniame grafike parodytos šios operacijos:
 
 Toliau pateiktoje diagramoje parodytas šių operacijų serijos poveikis, pasirinkus svertinio vidurkio atsargų modelį ir apibendrinto sudengimo principą be pasirinkties Įtraukti faktinę vertę. 
 
-![Svertinio vidurkio apibendrintas sudengimas su faktinės vertės įtraukimu](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Svertinio vidurkio apibendrintas sudengimas su faktinės vertės įtraukimu.](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Diagramos paaiškinimas**
 - Atsargų operacijos parodomos vertikaliomis rodyklėmis.
@@ -128,7 +128,7 @@ Tolesniame grafike parodytos šios operacijos:
 
 Toliau pateiktoje diagramoje parodytas šių operacijų serijos poveikis, pasirinkus svertinio vidurkio atsargų modelį ir tiesioginio sudengimo principą su pasirinktimi Įtraukti faktinę vertę. 
 
-![Svertinio vidurkio tiesioginis sudengimas su faktinės vertės įtraukimu](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
+![Svertinio vidurkio tiesioginis sudengimas su faktinės vertės įtraukimu.](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **Diagramos paaiškinimas**
 - Atsargų operacijos parodomos vertikaliomis rodyklėmis.
@@ -161,7 +161,7 @@ Tolesniame grafike parodytos šios operacijos:
 
 Toliau pateiktoje diagramoje parodytas šių operacijų serijos poveikis, pasirinkus svertinio vidurkio atsargų modelį ir apibendrinto sudengimo principą be pasirinkties Įtraukti faktinę vertę. 
 
-![Svertinio vidurkio apibendrintas sudengimas su faktinės vertės įtraukimu](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
+![Svertinio vidurkio apibendrintas sudengimas su faktinės vertės įtraukimu.](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **Diagramos paaiškinimas**
 - Atsargų operacijos parodomos vertikaliomis rodyklėmis.
@@ -209,7 +209,7 @@ Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų op
 
 Pateiktoje diagramoje parodyta operacijų serija, kai pasirenkamas svertinio vidurkio atsargų modelis su žymėjimu. 
 
-![Svertinis vidurkis su žymėjimu](./media/weightedaveragewithmarking.gif) 
+![Svertinis vidurkis su žymėjimu.](./media/weightedaveragewithmarking.gif) 
 
 **Diagramos paaiškinimas**
 - Atsargų operacijos parodomos vertikaliomis rodyklėmis.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82bb9a09e6d302b0d453ceb5131da039769b58fb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1a70a9771d5f9c1acea9274b8454a23c8dd7c1ed
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745694"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343939"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>„Finance and Operations“ programų žinyno funkcijų konfigūravimas
 
@@ -32,7 +32,7 @@ ms.locfileid: "5745694"
 
 „Finance and Operations“ programose yra konceptualių apžvalgų ir kitų temų, kurios publikuojamos svetainėje [https://docs.microsoft.com/dynamics365](/dynamics365/). Šį turinį galima pasiekti iš produkto srities **Žinynas**. Toliau esančiame paveikslėlyje pavaizduotos žinyno sistemos dalys.
 
-[![Žinyno architektūra](./media/help-architecture.png)](./media/help-architecture.png)
+[![Žinyno architektūra.](./media/help-architecture.png)](./media/help-architecture.png)
 
 Produkto žinyno sistema gauna straipsnius iš docs.microsoft.com ir kitų prijungtų svetainių. Ji taip pat gauna užduočių vedlius, kurie saugomi verslo procesų modeliavimo įrankyje (BPM) portale „ Microsoft Dynamics Lifecycle Services“ (LCS).
 
@@ -47,14 +47,14 @@ Puslapyje **Sistemos parametrai** sistemos administratoriai gali konfigūruoti p
 > - Norėdami konfigūruoti žinyną, turite prisijungti naudodami paskyrą tame pačiame nuomotojuje, kuriame įdiegta programa.
 > - LCS bibliotekos negalim prijungti iš programos egzemplioriaus, veikiančio vietiniame virtualiajame standžiajame diske (VHD).
 
-[![Forma Sistemos parametrai su žinyno parametrais](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
+[![Forma Sistemos parametrai su žinyno parametrais.](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
 
 Norėdami konfigūruoti sprendimo užduoties vedlius, atlikite puslapyje **Sistemos parametrai** nurodytus veiksmus.
 
 > [!IMPORTANT]
 > Pirmą kartą atidarę skirtuką **Žinynas**, turite prisijungti prie „Lifecycle Services“. Būtinai pasirinkite formos viduryje pateiktą saitą, palaukite, kol prisijungsite, uždarykite dialogo langą, tada pasirinkite **Gerai**, kad patektumėte į puslapį **Sistemos parametrai**.
 >
-> [![Prisijungti prie LCS](./media/connect-to-lcs-crop-1024x365.png "Prisijungti prie LCS")](./media/connect-to-lcs-crop.png)
+> [![Prisijungti prie LCS](./media/connect-to-lcs-crop-1024x365.png "Connect to LCS."](./media/connect-to-lcs-crop.png)
 
 1. Pasirinkite, prie kurio „Lifecycle Services‟ projekto prisijungti.
 2. Pasirinkite, iš kurių BPM bibliotekų (pasirinkto projekto) gauti užduočių įrašus.

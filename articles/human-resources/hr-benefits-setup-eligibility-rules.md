@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b4673631f9c7d2310d8bdb08e0b25027bc8dedf
-ms.sourcegitcommit: 4c880b152e81350f023b944c2ab13e60498e2c7b
+ms.openlocfilehash: f7679afa29e5e4ef8482c71558275297d7359362
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6093925"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351662"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Tinkamumo taisyklių ir parinkčių konfigūravimas
 
@@ -137,20 +137,20 @@ Galite apibrėžti taisykles, kurios turi kelis kriterijus. Kai nustatote kelis 
 
 Pavyzdžiui, aukščiau pateikta taisyklė **Aktyvūs darbuotojai** yra sudaryta iš šių kriterijų. Kad darbuotojas būtų tinkamas pagal **Aktyvių darbuotojų** taisyklę, darbuotojas turi būti įdarbintas juridinio subjekto USMF *ir* jo pareigų tipas turi būti pilnos darbo dienos.  
 
-![Tinkamumo taisyklės kriterijai](media/CriteriaWithinAnEligibilityRule.png) 
+![Tinkamumo taisyklės kriterijai.](media/CriteriaWithinAnEligibilityRule.png) 
  
 ### <a name="multiple-conditions-within-criteria"></a>Kelios kriterijų sąlygos
 
 Taisykles galima toliau išplėsti, kad būtų galima naudoti kelias sąlygas viename kriterijuje. Darbuotojas turi atitikti bent vieną sąlygą, kad būtų tinkamas. Kuriant pagal aukščiau pateiktą pavyzdį, galima toliau išplėsti **Aktyvių darbuotojų** taisyklę, kad būtų įtraukti ir nepilną darbo dieną dirbantys darbuotojai. Todėl dabar darbuotojas turi būti USMF darbuotojas *ir* dirbti pilną arba nepilną darbo dieną.  
 
-![Kelios sąlygos kriterijams](media/MultipleConditionsWithinCriteria.png) 
+![Kelios sąlygos kriterijams.](media/MultipleConditionsWithinCriteria.png) 
  
 ### <a name="eligibility-conditions-within-a-custom-field-criterion"></a>Pasirinktinio lauko kriterijaus tinkamumo sąlygos 
 Panašiai kaip ir aukščiau, pasirinktiniai laukai gali būti naudojami tinkamumo taisyklėms kurti ir dirbti tuo pačiu būdu. Pavyzdžiui, galbūt norėsite pasiūlyti interneto mokesčių kompensaciją Fargo ir Kopenhagos darbuotojams, kurie dirba iš namų, nes interneto išlaidos tose vietose yra didesnės. Norėdami tai padaryti, sukurkite du pasirinktinius laukus: **Biuro vieta** (išrinkimo sąrašas) ir **Darbas iš namų** (žymės langelis). Tada sukurkite taisyklę, pavadintą **WFH darbuotojai**. Taisyklės kriterijus yra ten, kur **Biuro vieta = Fargo** arba **Kopenhaga** *ir* ten, kur **Darbas iš namų = Taip**.
 
 Pasirinktines tinkamumo taisykles reikėtų nustatyti taip, kaip nurodyta toliau pateiktame paveikslėlyje. 
 
-![Tinkamumo sąlygos pasirinktinio lauko kriterijuje](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
+![Tinkamumo sąlygos pasirinktinio lauko kriterijuje.](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
  
 ## <a name="configure-bundles"></a>Konfigūruoti grupes
 

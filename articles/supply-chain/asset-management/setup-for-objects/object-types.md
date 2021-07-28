@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b493c6993ebd466c153e999fa2592105b78d0f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ba8151e6f6b53f53e8ab54821d86a371b3341775
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825715"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347169"
 ---
 # <a name="asset-types"></a>Turto tipai
 
@@ -45,9 +45,9 @@ Pirmiausia nustatykite būtinus turto tipus. Tada sukurkite turto modelius, kuri
 7. Pasirinkite **Įrašyti**.
 8. „FastTab“ **Priežiūros užduočių tipai** pasirinkite priežiūros užduočių tipus, kurie turėtų būti susieti su turto tipu.
 
-    - Norėdami pasirinkti priežiūros užduoties tipą, pasirinkite jį lauke **Likę priežiūros užduočių tipai**, tada pasirinkite rodyklės dešinėn mygtuką ![Rodyklės dešinėn mygtukas](media/29-setup-for-objects.png), kad perkeltumėte jį į skyrių **Pasirinkti priežiūros užduočių tipai**.
-    - Norėdami pasirinkti visus galimus priežiūros užduočių tipus, pasirinkite mygtuką ![Rodyklė Persiųsti viską](media/30-setup-for-objects.png). Visi priežiūros užduočių tipai perkeliami iš lauko **Likę priežiūros užduočių tipai** į lauką **Pasirinkti priežiūros užduočių tipai**.
-    - Norėdami atšaukti priežiūros užduoties tipo pasirinkimą, pasirinkite jį lauke **Pasirinkti priežiūros užduočių tipai**, tada pasirinkite rodyklės kairėn mygtuką ![Rodyklės kairėn mygtukas](media/31-setup-for-objects.png), kad perkeltumėte jį į lauką **Likę priežiūros užduočių tipai**.
+    - Norėdami pasirinkti priežiūros užduoties tipą, pasirinkite jį lauke **Likę priežiūros užduočių tipai**, o tada pasirinkite rodyklės dešinėn mygtuką ![Rodyklės dešinėn mygtukas.](media/29-setup-for-objects.png) jos perkėlimui į **Pasirinkti priežiūros užduočių tipai** skyrių.
+    - Norėdami pasirinkti visus galimus priežiūros užduočių tipus, pasirinkite ![Rodyklė Persiųsti viską.](media/30-setup-for-objects.png) mygtuką. Visi priežiūros užduočių tipai perkeliami iš lauko **Likę priežiūros užduočių tipai** į lauką **Pasirinkti priežiūros užduočių tipai**.
+    - Norėdami atšaukti priežiūros užduoties tipo pasirinkimą, pasirinkite jį lauke **Pasirinkti priežiūros užduočių tipai**, o tada pasirinkite rodyklės kairėn mygtuką ![Rodyklės kairėn mygtukas.](media/31-setup-for-objects.png) jos perkėlimui į **Likę priežiūros užduočių tipai** lauką.
 
 9. Taip pat galima pasirinkti skaitiklius, kurie turėtų būti susieti su turto tipu. „FastTab“ **Skaitikliai** atlikite pasirinkimą naudodami metodus, aprašytus priežiūros užduočių tipams atliekant 8 veiksmą. Daugiau informacijos, kaip nustatyti skaitiklius, žr. [Skaitikliai](counters.md).
 10. Taip pat galima pasirinkti atributų tipus, kurie turėtų būti susieti su turto tipu. „FastTab“ **Atributų tipai** atlikite pasirinkimą naudodami metodus, aprašytus priežiūros užduočių tipams atliekant 8 veiksmą. Tada, norėdami kurti pageidaujamą atributų tipų seką, pasirinkite atributo tipą lauke **Pasirinkti atributų tipai** ir perkelkite juos naudodami rodyklių aukštyn ir žemyn mygtukus. Atributų tipų seka bus rodoma turtui, kuris naudoja šį turto tipą. Daugiau informacijos apie turto atributus žr. [Priežiūros atributų tipai](../setup-for-functional-locations/specification-types.md).

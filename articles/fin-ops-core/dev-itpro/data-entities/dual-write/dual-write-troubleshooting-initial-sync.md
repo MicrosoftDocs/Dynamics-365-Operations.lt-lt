@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 709a3c332bb6d086910b257fee9cdec8d2bc81a2
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 9a6be5f4e08a92171892549c017c15c66b1bde2e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941060"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350817"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Trikčių šalinimas pradinio sinchronizavimo metu
 
@@ -38,7 +38,7 @@ ms.locfileid: "5941060"
 
 Įgalinus susiejimo šablonus, schemų būsena turi būti **Vykdoma**. Jei būsena yra **Nevykdoma**, pradinio sinchronizavimo metu įvyko klaidų. Norėdami peržiūrėti klaidas, pasirinkite skirtuką **Pradinio sinchronizavimo informacija** puslapyje **Dvigubas rašymas**.
 
-![Pradinio sinchronizavimo informacijos skirtuko klaida](media/initial_sync_status.png)
+![Pradinio sinchronizavimo informacijos skirtuko klaida.](media/initial_sync_status.png)
 
 ## <a name="you-cant-complete-initial-synchronization-400-bad-request"></a>Negalite užbaigti pradinio sinchronizavimo: 400 netinkama užklausa
 
@@ -85,7 +85,7 @@ Norėdami ištaisyti klaidą, atlikite toliau nurodytus veiksmus.
 1. Prisijungimas prie „Finance and Operations” programos.
 2. Puslapyje **„Azure Active Directory” programos** panaikinkite klientą **DtAppID** ir vėl jį pridėkite.
 
-![DtAppID klientas „Azure AD” programų sąraše](media/aad_applications.png)
+![DtAppID klientas „Azure AD” programų sąraše.](media/aad_applications.png)
 
 ## <a name="self-reference-or-circular-reference-failures-during-initial-synchronization"></a>Nepavykusi auto-nuoroda arba ciklinių nuorodų klaidos pradinio sinchronizavimo metu
 
@@ -115,11 +115,11 @@ Jei eilutės tiekėjo lentelėje turi verčių **PirminioKontaktinioAsmensId** i
     2. Paieškoje įveskite **pirminis kontaktinis asmuo** tam, kad surastumėte **PirminioKontaktinioAsmensId** šaltinio stulpelį.
     3. Pasirinkite **Veiksmai** ir pasirinkite **Naikinti**.
 
-        ![PirminioKontaktinioAsmensId stulpelio naikinimas](media/vend_selfref3.png)
+        ![PirminioKontaktinioAsmensId stulpelio naikinimas.](media/vend_selfref3.png)
 
     4. Pakartokite šiuos veiksmus, kad panaikintumėte **SąskaitosFaktūrosTiekėjoPaskyrosNumeris** stulpelį.
 
-        ![SąskaitosFaktūrosTiekėjoPaskyrosNumerio stulpelio naikinimas](media/vend-selfref4.png)
+        ![SąskaitosFaktūrosTiekėjoPaskyrosNumerio stulpelio naikinimas.](media/vend-selfref4.png)
 
     5. Įrašykite savo pakeitimus susiejime.
 
@@ -129,11 +129,11 @@ Jei eilutės tiekėjo lentelėje turi verčių **PirminioKontaktinioAsmensId** i
     2. Pasirinkite **Tiekėjai V2** lentelę.
     3. Veiksmų srityje pasirinkite **Parinktys**, tada – **Keitimų sekimas**.
 
-        ![Keitimų sekimo parinkties pasirinkimas](media/selfref_options.png)
+        ![Keitimų sekimo parinkties pasirinkimas.](media/selfref_options.png)
 
     4. Pasirinkite **Išjungti keitimų sekimą**.
 
-        ![Išjungti keitimų sekimą pasirinkimas](media/selfref_tracking.png)
+        ![Išjungti keitimų sekimą pasirinkimas.](media/selfref_tracking.png)
 
 3. Paleiskite pradinę sinchronizaciją, skirtą **Tiekėjai V2 (msdyn\_tiekėjai)** siejimui. Pradinė sinchronizacija turėtų pavykti sėkmingai be klaidų.
 4. Paleiskite pradinę **CDS Kontaktai V2 (kontaktai)** susiejimo sinchronizaciją. Turite sinchronizuoti šį susiejimą, jei norite sinchronizuoti pirminių kontaktų stulpelį tiekėjų lentelėje, nes taip pat turite atlikti kontaktų eilučių sinchronizavimą.
@@ -162,11 +162,11 @@ Jei eilutės kliento lentelėje turi verčių **KontaktinioAsmensId** ir **Sąsk
     2. Paieškoje įveskite **kontaktinis asmuo**, kad surastumėte **KontaktinioAsmensID** šaltinio stulpelį.
     3. Pasirinkite **Veiksmai** ir pasirinkite **Naikinti**.
 
-        ![„KontaktinioAsmensID” stulpelio naikinimas](media/cust_selfref3.png)
+        ![„KontaktinioAsmensID” stulpelio naikinimas.](media/cust_selfref3.png)
 
     4. Pakartokite šiuos veiksmus, kad panaikintumėte **„SąskaitosFaktūrosPaskyra”** stulpelį.
 
-        ![„SąskaitosFaktūrosPaskyros” stulpelio naikinimas](media/cust_selfref4.png)
+        ![„SąskaitosFaktūrosPaskyros” stulpelio naikinimas.](media/cust_selfref4.png)
 
     5. Įrašykite savo pakeitimus susiejime.
 
@@ -176,11 +176,11 @@ Jei eilutės kliento lentelėje turi verčių **KontaktinioAsmensId** ir **Sąsk
     2. Pasirinkite **Klientai V3** lentelę.
     3. Veiksmų srityje pasirinkite **Parinktys**, tada – **Keitimų sekimas**.
 
-        ![Keitimų sekimo parinkties pasirinkimas](media/selfref_options.png)
+        ![Keitimų sekimo parinkties pasirinkimas.](media/selfref_options.png)
 
     4. Pasirinkite **Išjungti keitimų sekimą**.
 
-        ![Išjungti keitimų sekimą pasirinkimas](media/selfref_tracking.png)
+        ![Išjungti keitimų sekimą pasirinkimas.](media/selfref_tracking.png)
 
 3. Paleiskite pradinę **Klientai V3 (Paskyros)** susiejimo sinchronizaciją. Pradinė sinchronizacija turėtų pavykti sėkmingai be klaidų.
 4. Paleiskite pradinę **CDS Kontaktai V2 (kontaktai)** susiejimo sinchronizaciją.
@@ -196,7 +196,7 @@ Jei eilutės kliento lentelėje turi verčių **KontaktinioAsmensId** ir **Sąsk
 
         Toliau pateiktame paveikslėlyje parodytas projektas, kuris atnaujina **KlientoPaskyra** ir **KontaktinioAsmensId**.
 
-        ![Duomenų integravimo projektas, skirtas Kliento paskyrai ir KontaktinioAsmensId atnaujinti](media/cust_selfref6.png)
+        ![Duomenų integravimo projektas, skirtas Kliento paskyrai ir KontaktinioAsmensId atnaujinti.](media/cust_selfref6.png)
 
     2. Pridėkite įmonės kriterijus į filtrą, esantį „Dataverse“, kad tik eilutės, atitinkančios filtro kriterijus, būtų atnaujintos „Finance and Operations“ programoje. Norėdami pridėti filtrą, pažymėkite filtro mygtuką. Tada **Redaguoti užklausą** dialogo lange galite pridėti filtro užklausą, pavyzdžiui, **\_msdyn\_įmonė\_vertės lyg. '\<guid\>'**. 
 
@@ -204,7 +204,7 @@ Jei eilutės kliento lentelėje turi verčių **KontaktinioAsmensId** ir **Sąsk
 
         Jei neįvesite filtro užklausos, skirtos **\_msdyn\_įmonės\_vertė**, visos eilutės bus sinchronizuotos.
 
-        ![Filtro užklausos pridėjimas](media/cust_selfref7.png)
+        ![Filtro užklausos pridėjimas.](media/cust_selfref7.png)
 
     Pradinė eilučių sinchronizacija baigta.
 

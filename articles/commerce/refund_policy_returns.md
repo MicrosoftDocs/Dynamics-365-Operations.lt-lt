@@ -2,7 +2,7 @@
 title: Kanalo grąžinimo politikos kūrimas ir atnaujinimas
 description: Šioje temoje pateikiama informacija apie tai, kaip sukonfigūruoti kanalo grąžinimo politiką.
 author: ShalabhjainMSFT
-ms.date: 02/03/2020
+ms.date: 07/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: e23291130d55fdfb5c2e2077b78c221866d72c5d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6cb2bb77a62ee9fc2ea6115949e30496bf3365c4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792080"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345113"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Kanalo prekių ir pinigų grąžinimų strategijos kūrimas ir naujinimas
 
@@ -34,14 +34,14 @@ Politikos taikymo sritis šiuo metu apsiriboja mokėjimo būdų, kurias galima l
 - Jei už prekes buvo sumokėta naudojant dovanų kortelę, parduotuvės politika yra grąžinti pinigus į naują dovanų kortelę arba išrašyti sąskaitą. 
 - Jei už prekes buvo sumokėta grynaisiais pinigais, galima grąžinti grynuosius pinigus, grąžinti pinigus į dovanų kortelę arba į kliento sąskaitą, bet ne į kredito kortelę. 
 
-
 ## <a name="enable-return-policy"></a>Grąžinimo politikos įgalinimas
 
 Norėdami įjungti kanalo grąžinimo politikos funkciją, atlikite toliau nurodytus veiksmus.
 
 1. Eikite į darbo sritį **Funkcijų valdymas**, esančią „Dynamics 365 Commerce“.
-2. Funkcijų pavadinimų sąraše ieškokite **Įgalinti kanalų grąžinimo politiką**.
-3. Pasirinkite **Įjungti dabar**. 
+1. Funkcijų pavadinimų sąraše ieškokite **Įgalinti kanalų grąžinimo politiką**.
+1. Pasirinkite **Įjungti dabar**.
+1. Puslapyje **Paskirstymo grafikas** vykdykite **„1110”** (visuotinės konfigūracijos) užduotį, kad paskirstytumėte funkcijos keitimą. 
 
 ## <a name="configure-return-policy"></a>Grąžinimo politikos sukonfigūravimas
 
@@ -49,56 +49,56 @@ Norėdami sukonfigūruoti mažmeninės parduotuvės ar internetinės mažmeninė
 
 1. Eikite į **„Retail and Commerce“** \> **Kanalo sąranka** \> **Grąžinimai** \> **Kanalo grąžinimo politika**.
 
-2. Norėdami sukurti naują grąžinimo politikos šabloną, pasirinkite **Naujas**. Norėdami naudoti esamą šabloną, pasirinkite šabloną kairiojoje srityje. Jei norite kurti naujus šablonus, pridėkite pavadinimą ir aprašą, kurie padės nustatyti politiką, kai ji taikoma kanalui.
+1. Norėdami sukurti naują grąžinimo politikos šabloną, pasirinkite **Naujas**. Norėdami naudoti esamą šabloną, pasirinkite šabloną kairiojoje srityje. Jei norite kurti naujus šablonus, pridėkite pavadinimą ir aprašą, kurie padės nustatyti politiką, kai ji taikoma kanalui.
 
-   ![Pridėti naują grąžinimo politiką](media/Return-policy-page1.png "Pridėti naują grąžinimo politiką")
+   ![Pridėti naują grąžinimo politiką.](media/Return-policy-page1.png)
      
    
-3. Skyriuje **„Leistini grąžinimo įmokos būdai“** apibrėžkite **Leistini** grąžinimo įmokų mokėjimo priemones, būdingas kiekvienam mokėjimo būdui.
-   ![Pridėti mokėjimo būdą](media/Return-policy-page2.PNG "Leidžiamų mokėjimo būdų nustatymas kiekvienam mokėjimo tipui")
+1. Skyriuje **„Leistini grąžinimo įmokos būdai“** apibrėžkite **Leistini** grąžinimo įmokų mokėjimo priemones, būdingas kiekvienam mokėjimo būdui.
+   ![Leidžiamų mokėjimo būdų nustatymas kiekvienam mokėjimo tipui.](media/Return-policy-page2.png)
    
     > [!IMPORTANT]
     > - Mokėjimo būdai sukuriami iš organizacijai nustatytų mokėjimo būdų.
     > - Pridėję leistiną grąžinimo mokėjimo būdo tipą kiekvienam nurodytam mokėjimo būdui, užtikrinsite, kad bus galima grąžinti leidžiamu grąžinimo būdu.
     
-4. Susiekite grąžinimo politikos šabloną su parduotuvėmis, kuriose jis bus naudojamas. Skirtuke **Mažmeninės prekybos kanalai** pasirinkite **Pridėti** ir susiekite galimus kanalus. 
+1. Susiekite grąžinimo politikos šabloną su parduotuvėmis, kuriose jis bus naudojamas. Skirtuke **Mažmeninės prekybos kanalai** pasirinkite **Pridėti** ir susiekite galimus kanalus. 
 
     - Dialogo lange **Pasirinkti organizacijos mazgus** pasirinkite parduotuves, regionus ir organizacijas, su kuriomis turėtų būti susietas šablonas.
     - Su kiekviena parduotuve galima susieti tik vieną grąžinimo politikos šabloną.
     - Pasirinkite parduotuves, regionus ar organizacijas naudodami rodyklių mygtukus.
     - Politikos įsigaliojimo data bus ta diena, kai politika bus taikoma kanalams ir bus vykdomos kanalo užduotys. 
 
-    ![Pasirinkti organizacijos mazgų dialogo langą](media/Return-policy-page3.PNG "Pasirinkti organizacijos mazgų dialogo langą")
+    ![Pasirinkti organizacijos mazgų dialogo langą.](media/Return-policy-page3.png)
 
-5. Puslapyje **Pasiskirstymo grafikas** paleiskite **1070** užduotį, kad kanalo grąžinimo politika būtų prieinama EKA.
+1. Puslapyje **Pasiskirstymo grafikas** paleiskite **1070** užduotį, kad kanalo grąžinimo politika būtų prieinama EKA.
 
 ## <a name="preview-the-channel-return-policy-in-the-pos"></a>Peržiūrėkite kanalo grąžinimo politiką, esančią EKA
 
 Jei norite pamatyti leistinus grąžinimo mokėjimo būdus, esančius EKA, atlikite veiksmus, pateiktus bet kuriame iš toliau nurodytų pavyzdžių.
 
 1. Prisijunkite prie EKA kaip kasininkas ar vadovas.
-2. Skyriuje **Pamaina ir stalčius** pasirinkite **Rodyti žurnalą**.
-3. Pasirinkite operaciją, kuri yra grąžinimo dalis. 
-4. Pasirinkite prekes, kurias norite grąžinti, ir pasirinkite mokėjimo būdą.  
-- Jei pasirinktas mokėjimo būdas yra leidžiamų grąžinti būdų tipų sąraše, kasininkas gali atlikti grąžinimą.
-- Jei pasirinktas mokėjimo būdas neleidžiamas, rodomas klaidos pranešimas.
-- Pasirinkite **Atlikti mokėjimą**, kad būtų parodytas visų leidžiamų grąžinimo būdų tipų sąrašas.
+1. Skyriuje **Pamaina ir stalčius** pasirinkite **Rodyti žurnalą**.
+1. Pasirinkite operaciją, kuri yra grąžinimo dalis. 
+1. Pasirinkite prekes, kurias norite grąžinti, ir pasirinkite mokėjimo būdą.  
+    - Jei pasirinktas mokėjimo būdas yra leidžiamų grąžinti būdų tipų sąraše, kasininkas gali atlikti grąžinimą.
+    - Jei pasirinktas mokėjimo būdas neleidžiamas, rodomas klaidos pranešimas.
+    - Pasirinkite **Atlikti mokėjimą**, kad būtų parodytas visų leidžiamų grąžinimo būdų tipų sąrašas.
 
 Arba
 
 1. Prisijunkite prie EKA kaip kasininkas ar vadovas.
-2. Pasirinkite **Grąžinimas** ir įveskite kvito ID, nuskaitydami brūkšninį kodą arba įvesdami jį rankiniu būdu. 
-3. Pasirinkite operaciją, kuri yra grąžinimo dalis. 
-4. Pasirinkite prekes, kurias norite grąžinti, ir pasirinkite mokėjimo būdą.  
-- Jei pasirinktas mokėjimo būdas yra leidžiamų grąžinti būdų tipų sąraše, kasininkas gali atlikti grąžinimą.
-- Jei pasirinktas mokėjimo būdas neleidžiamas, rodomas klaidos pranešimas.
-- Pasirinkite **Atlikti mokėjimą**, kad būtų parodytas visų leidžiamų grąžinimo būdų tipų sąrašas.
+1. Pasirinkite **Grąžinimas** ir įveskite kvito ID, nuskaitydami brūkšninį kodą arba įvesdami jį rankiniu būdu. 
+1. Pasirinkite operaciją, kuri yra grąžinimo dalis. 
+1. Pasirinkite prekes, kurias norite grąžinti, ir pasirinkite mokėjimo būdą.  
+    - Jei pasirinktas mokėjimo būdas yra leidžiamų grąžinti būdų tipų sąraše, kasininkas gali atlikti grąžinimą.
+    - Jei pasirinktas mokėjimo būdas neleidžiamas, rodomas klaidos pranešimas.
+    - Pasirinkite **Atlikti mokėjimą**, kad būtų parodytas visų leidžiamų grąžinimo būdų tipų sąrašas.
 
-![Grąžinti negalima](media/Return-policy-page6.png "Blogas grąžinimo tipas")
+![Blogas grąžinimo tipas.](media/Return-policy-page6.png)
 
 
 
-![Mokėjimo būdų sąrašas](media/Return-policy-page5.PNG "Galimi grąžinimo tipai")
+![Galimi grąžinimo tipai.](media/Return-policy-page5.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

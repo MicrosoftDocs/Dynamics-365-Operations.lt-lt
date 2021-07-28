@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 09c7504eda0d389738b9d13b73f33472dc8f5fe3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1d4aaa40ee0128a281fe76072e021774a52c9a9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804484"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352329"
 ---
 # <a name="payment-module"></a>Mokėjimo modulis
 
@@ -46,9 +46,9 @@ Mokėjimo modulis apima visus mokesčius, kurie nėra apimti lojalumo taškų ar
 
 Tolesnis paveikslėlis rodo dovanų kortelės pavyzdys ir „Adyen“ apmokėjimo modulius išsiregistravimo puslapyje.
 
-![Dovanų kortelės pavyzdys ir „Adyen“ apmokėjimo modulius išsiregistravimo puslapyje](./media/ecommerce-payments.PNG)
+![Dovanų kortelės pavyzdys ir „Adyen“ apmokėjimo modulius išsiregistravimo puslapyje.](./media/ecommerce-payments.PNG)
 
-## <a name="dynamics-365-payment-connector-for-paypal"></a>„Dynamics 365 Payment Connector“ skirtas „PayPal“
+## <a name="dynamics-365-payment-connector-for-paypal"></a>„Dynamics 365 Payment Connector“, skirta „PayPal“
 
 „Commerce“ versijoje 10.0.14, mokėjimo modulis taip pat buvo integruotas su „Dynamics 365 Payment Connector“ skirtu „PayPal“. Dėl išsamesnės informacijos apie tai, kaip nustatyti ir konfigūruoti šią mokėjimo jungtį, žr. [„Dynamics 365 Payment Connector“ skirtą „PayPal“](paypal.md).
  
@@ -59,14 +59,14 @@ Kai apmokėjimo modulis yra konfigūruotas siekiant naudoti „PayPal“ mokėji
 „PayPal“ mokėjimo jungčiai nereikia mokėjimo adreso modulio, nes visa su mokėjimu susijusi informacija tvarkoma „Paypal“ per „iframe“. Nepaisant to, siuntimo adresas ir pristatymo parinkčių moduliai yra būtini.
 
 Tolesnis paveikslėlis rodo dviejų mokėjimo modulių pavyzdį išsiregistravimo puslapyje, vienas kurių sukonfigūruotas su „Adyen“ mokėjimo jungtimi, o kitas su „Paypal“ mokėjimo jungtimi.
-![„Adyen“ mokėjimo ir „Paypal“ modulių pavyzdys išsiregistravimo puslapyje](./media/ecommerce-paypal.png)
+![„Adyen“ mokėjimo ir „Paypal“ modulių pavyzdys išsiregistravimo puslapyje.](./media/ecommerce-paypal.png)
 
 Tolesnis paveikslėlis rodo „PayPal“ „iframe“ pavyzdį, kuris naudojamas „PayPal“ mygtuku. 
-![„Paypal“ „iframe“ išsiregistravimo puslapio pavyzdys](./media/ecommerce-paypal-iframe.png)
+![„Paypal“ „iframe“ išsiregistravimo puslapio pavyzdys.](./media/ecommerce-paypal-iframe.png)
 
 ## <a name="payment-module-properties"></a>Mokėjimo modulio ypatybės
 
-| Ypatybės pavadinimas | Reikšmės | aprašymas |
+| Ypatybės pavadinimas | Reikšmės | Aprašas |
 |---------------|--------|-------------|
 | Antraštė | Antraštės tekstas | Pasirenkama antraštė mokėjimo moduliui. |
 | „iframe“ aukštis | Pikseliai | „iframe“ aukštis pikseliais. Aukštis gali būti reguliuojamas, kaip būtina. |
@@ -76,7 +76,7 @@ Tolesnis paveikslėlis rodo „PayPal“ „iframe“ pavyzdį, kuris naudojamas
 |Yra pirminis mokėjimas|  **Teisinga** arba **Klaidinga** | Jei **Teisingas**, bet koks klaidos pranešimas bus sukuriamas iš pirminės mokėjimo jungties išsiregistravimo puslapyje. Jei tiek „Adyen“, tiek „PayPal“ mokėjimo jungtys yra sukonfigūruotos, nustatykite „Adyen“ į **Teisinga**, kuris buvo įtrauktas į „Commerce“ leidimą 10.0.14.|
 
 Tolesnis paveikslėlis rodo pavyzdį **Palaikomi nuomotojo tipai** su verte nustatyta į „PayPal" mokėjimo jungties konfigūravimą „Commerce“ štabe.
-![Palaikomų nuomotojo tipų „Commerce“ štabe pavyzdys](./media/ecommerce-paymenttendertypes.png)
+![Palaikomų nuomotojo tipų „Commerce“ štabe pavyzdys.](./media/ecommerce-paymenttendertypes.png)
 
 ## <a name="billing-address"></a>Sąskaitų siuntimo adresas
 

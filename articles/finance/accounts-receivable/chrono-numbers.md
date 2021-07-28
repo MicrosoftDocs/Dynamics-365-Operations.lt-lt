@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: fe533052b0e5b04a7d27b954ba644761c631d6d7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1bddb76d17b65e3485680675b77750fca714407d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838866"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350077"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>Dokumentų numeravimas ir kuponų chronologija
 
@@ -69,7 +69,7 @@ Norėdami nustatyti skaičių sekas, eikite į **Organizacijos administravimas**
 
 Nurodykite įmonę kiekvienai skaičių sekai. Skaičių sekos segmentai turi būti nustatyti taip, kad pateiktų chronologinę laikotarpių tvarką. Pavyzdžiui, segmento pavadinimai gali apimti specialius priešdėlius, kurie nurodo konkretų laikotarpį.
 
-![Skaičių sekos nustatymai](media/chrono-num-sequence.jpg)
+![Skaičių sekos nustatymai.](media/chrono-num-sequence.jpg)
 
 ### <a name="configure-number-sequence-groups"></a>Konfigūruoti skaičių sekos grupes
 
@@ -77,7 +77,7 @@ Norėdami konfigūruoti skaičių sekos grupes, eikite į **Gautinos sąskaitos*
 
 Kiekvienai grupei **Nuorodos** skyriuje pasirinkite vieną palaikomą dokumento nuorodą ir **Skaičių sekos kodas** laukelyje nurodykite į skaičių seką, kuri anksčiau buvo sukurta susijusiam laikotarpiui.
 
-![Numeravimo grupės nustatymas](media/chrono-num-sequence-group.jpg)
+![Numeravimo sekų grupės nustatymas.](media/chrono-num-sequence-group.jpg)
 
 Panašiai, konfigūruokite skaičių sekų grupes **Mokėtinos sąskaitos** ir **Projekto valdymas ir apskaitos** moduliai.
 
@@ -85,9 +85,9 @@ Panašiai, konfigūruokite skaičių sekų grupes **Mokėtinos sąskaitos** ir *
 
 Norėdami konfigūruoti sekos grupių chronologiją, eikite į **Organizacijos administravimas** > **Skaičių sekos** > **Chronologinės skaičių sekos grupės**. Nustatykite taikomas sąlygas skaičių sekos grupėms.
 
-![Chronologinių skaičių nustatymas](media/chrono-num-sequence-group-period.jpg)
+![Chronologinių skaičių nustatymas.](media/chrono-num-sequence-group-period.jpg)
 
-| Laukas            | aprašymas                                                                                                                                                                                                                                                                                                                                                                                   |
+| Laukas            | Aprašas                                                                                                                                                                                                                                                                                                                                                                                   |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Galioja  | Skaičių sekos grupės taikomumo pradžios data. |
 | Galiojimas      | Skaičių sekos grupės taikomumo pabaigos data. Jei netaikoma pabaigos data, pasirinkite **Niekada**. |
@@ -98,7 +98,7 @@ Norėdami konfigūruoti sekos grupių chronologiją, eikite į **Organizacijos a
 ## <a name="document-posting"></a>Dokumento publikavimas
 Jums publikuojant dokumentą, atitinkama skaičių sekos grupė yra priskirta dokumentai pagal jo publikavimo datą ir tuomet naudojama siekiant sukurti dokumento numerį pagal aptiktą skaičių seką. Sistema pateikia pranešimą dėl skaičiaus sekos grupės priskyrimo.
 
-![Dokumento numeris](media/chrono-num-sequence-fti.jpg)
+![Dokumento numeris.](media/chrono-num-sequence-fti.jpg)
 
 > [!NOTE]
 > Kai kuriose šalyse yra konkreti jau dokumento numeravimui taikoma logika. Tokiu atveju, šaliai galiojanti konkreti logika viršys **Chronologinio numeravimo** funkciją.

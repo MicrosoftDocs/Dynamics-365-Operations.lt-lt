@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85f6188bff4d3535369e4af145f8f55a3263c4a3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2811e61045c0a830d1c814d760820a364893efcc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794168"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352233"
 ---
 # <a name="retail-sales-price-management"></a>„Retail“ pardavimo kainų valdymas
 
@@ -46,7 +46,7 @@ Pati savaime kainų grupė yra tik pavadinimas, aprašymas ir, pasirinktinai, ka
 
 Toliau pateikta iliustracija parodo, kaip naudojamos kainų grupės. Atkreipkite dėmesį, kad šioje iliustracijoje „Kainų grupė“ yra tiesiogine to žodžio prasme kainų ir nuolaidų valdymo centre. Prekybos objektai, kuriais galite valdyti skirtingas kainas ir nuolaidas, yra kairėje, o patys kainų ir nuolaidų įrašai yra dešinėje.
 
-![Kainų grupės](./media/PriceGroups.png "Kainų grupės")
+![Kainų grupės.](./media/PriceGroups.png "Kainų grupės")
 
 Kuriant kainų grupes, nereikėtų naudoti vienos kainų grupės kelių tipų prekybos objektams. Antraip gali būti sunku nustatyti, kodėl operacijai taikoma būtent tokia kaina ar nuolaida.
 

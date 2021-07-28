@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5e0e671e624de2646a47647ef08d3567599b884
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: d693d306929140c9640ed34d756399d70b81a12f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261701"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347763"
 ---
 # <a name="replenishment-methods-and-quantity-modification"></a>Papildymo metodai ir kiekio modifikavimas
 
@@ -34,15 +34,15 @@ Planavimo optimizavime galima naudoti šiuos padengimo kodus:
 
 - **Laikotarpis** – papildymo metodas sujungia visą laikotarpio paklausą į vieną produkto užsakymą. Užsakymas bus suplanuotas pirmai laikotarpio dienai ir jo kiekis patenkins grynuosius poreikius nustatyto laikotarpio metu. Laikotarpis pradedamas nuo pirmo produkto poreikio ir apima nustatytą laiko trukmę. Kitas laikotarpis prasidės nuo kitų produkto reikalavimų. *Laikotarpio* padengimo kodas dažnai naudojamas nenuspėjamam atsargų paėmimui, sezoniniams arba aukštos savikainos produktams. Toliau pateikiamoje iliustracijoje vaizduojamas pavyzdys.
 
-    ![Laikotarpio padengimo kodo naudojimo pavyzdys](./media/coverage-code-period.png "Laikotarpio padengimo kodo panaudojimo pavyzdys")
+    ![Laikotarpio padengimo kodo naudojimo pavyzdys.](./media/coverage-code-period.png "Laikotarpio padengimo kodo panaudojimo pavyzdys")
 
 - **Reikalavimas** – papildymo metode sistema sukuria suplanuotą pirkimo, perkėlimo ar gamybos užsakymą kiekvienam produkto reikalavimui. Šis metodas naudojamas brangesniems produktams, turintiems pasikartojantį poreikį. *Reikalavimo* padengimo kodas dažnai naudojamas konfigūruojamiems produktams arba gamybos pagal užsakymą scenarijams. Toliau pateikiamoje iliustracijoje vaizduojamas pavyzdys.
 
-    ![Reikalavimų padengimo kodo panaudojimo pavyzdys](./media/coverage-code-requirement.png "Reikalavimų padengimo kodo panaudojimo pavyzdys")
+    ![Reikalavimų padengimo kodo panaudojimo pavyzdys.](./media/coverage-code-requirement.png "Reikalavimų padengimo kodo panaudojimo pavyzdys")
 
 - **Min./maks.** – Papildymo metodas yra pagrįstas atsargų lygiu. Jis apibrėžia atsargų papildymą iki konkretaus lygio, kai numatomas turimų atsargų lygis yra mažesnis nei konkreti ribinė vertė. Papildymo kiekis bus skirtumas tarp maksimalaus lygio ir prognozuojamo turimų atsargų lygio. *Min. / Maks.* padengimo kodas dažnai naudojamas numatytajam atsargų paėmimui, aukšto lygio eigoms ar mažiau brangesniems produktams. Toliau pateikiamoje iliustracijoje vaizduojamas pavyzdys.
 
-    ![Min. / Max. padengimo kodo panaudojimo pavyzdys](./media/coverage-code-min-max.png "Min. / Max. padengimo kodo panaudojimo pavyzdys")
+    ![Min. / Max. padengimo kodo panaudojimo pavyzdys.](./media/coverage-code-min-max.png "Min. / Max. padengimo kodo panaudojimo pavyzdys")
 
 - **Rankinis** – Papildymo metodas, kai sistema nenurodo produkto pirkimo, perkėlimo ar gamybos užsakymų. Vietoj to, produkto planuotojas yra atsakingas už produkto papildymui reikalingų užsakymų sukūrimą. *Rankinis* padengimo kodas dažnai naudojamas produktams, kurių sistemos sugeneruoti suplanuoti užsakymai nenori.
 

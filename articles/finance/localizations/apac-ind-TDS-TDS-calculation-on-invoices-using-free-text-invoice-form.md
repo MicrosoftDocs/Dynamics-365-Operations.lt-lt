@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7d551a8ba6ba9ca282fd9de3fa7d7c7303e394ed
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 702fffa6b958e5cec26029bd5a12d01b0467ee6d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023454"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358295"
 ---
 # <a name="tds-calculation-on-invoices-from-the-free-text-invoice-page"></a>TDS skaičiavimas SF iš laisvos formos SF puslapio
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023454"
 
 1. Pasirinkite **Gautinos sumos \> Sąskaitos faktūros \> Visos laisvos formos SF**.
 
-    [![Laisvos formos SF puslapis](./media/apac-ind-TDS-57-1.png)](./media/apac-ind-TDS-57-1.png)
+    [![Laisvos formos SF puslapis.](./media/apac-ind-TDS-57-1.png)](./media/apac-ind-TDS-57-1.png)
 
 2. Rinkitės **Nauja** norėdami sukurti laisvo teksto sąskaitą ir įvesti reikiamą informaciją.
 3. Rinkitės **SF** skirtuką. Skyriuje **Išskaitomo mokesčio grupė** lauke **Vertinamo pobūdis** lauke rodomas vertinamos kliento kategorijos pobūdis.

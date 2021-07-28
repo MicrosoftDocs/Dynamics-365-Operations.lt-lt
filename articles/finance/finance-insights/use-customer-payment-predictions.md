@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 1349521d65511864747de6c2fed3a904dea8917e
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 873a11f3151344de63ee0b01b586ccbffe0df51b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186569"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355632"
 ---
 # <a name="use-customer-payment-predictions-preview"></a>Kliento mokėjimo prognozių naudojimas (peržiūros versija)
 
@@ -38,13 +38,13 @@ Darbo sritis **Klientų kredito ir surinkimo valdymas** apima dvi naujas plytele
 - Plytelėje **Mokėjimo prognozavimas pagal operaciją** rodomas atidarytų kliento operacijų, kurių mokėjimo tikimybė mažesnė nei 50 procentų talpykloje **Laiku**, skaičių. Galite pasirinkti šią plytelę, kad galėtumėte atidaryti sąrašo puslapį **Mokėjimo prognozavimas pagal operaciją**.
 - Plytelėje **Klientai su prognozuojamais žymaus vėlavimo balansais** nurodo klientų, kurių daugiau nei pusė viso likučio (50 procentų) yra numatoma apmokėti per vėluojant ir (arba) žymiai vėluojant, skaičių. Galite pasirinkti šią plytelę, kad galėtumėte atidaryti sąrašo puslapį **Mokėjimo prognozavimas pagal klientą**.
 
-[![Darbo sritis Klientų kredito ir surinkimo valdymas](./media/manage-customer-credit-collections.png)](./media/manage-customer-credit-collections.png)
+[![Darbo sritis Klientų kredito ir surinkimo valdymas.](./media/manage-customer-credit-collections.png)](./media/manage-customer-credit-collections.png)
 
 ### <a name="payment-predictions-per-transaction-list-page"></a>Sąrašo puslapis Mokėjimo prognozavimas pagal operaciją
 
 Sąrašo puslapyje **Mokėjimo prognozavimas pagal operaciją** galite peržiūrėti atidarytų operacijų mokėjimo tikimybę talpykloje **Laiku**, **Vėlavimas** ir **Žymus vėlavimas**. Kiekvienoje tinklelio operacijoje stulpelyje **Tikimybė Laiku** rodoma tikimybė, kad SF bus apmokėta iki termino pabaigos datos. Jei dėl tikimybė, kad bus apmokėta laiku, yra mažesnė nei 50 procentų, prie procento, esančio stulpelyje **Tikimybė Laiku**, atsiranda raudonas apskritimas, kad būtų galima nurodyti pavėlavimo apmokėti riziką.
 
-[![Puslapis Mokėjimo prognozavimas pagal operaciją](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
+[![Puslapis Mokėjimo prognozavimas pagal operaciją.](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
 
 Srityje **Susijusi informacija** dešinėje puslapio pusėje rodoma daugiau informacijos apie prognozes.
 
@@ -54,13 +54,13 @@ Srityje **Susijusi informacija** dešinėje puslapio pusėje rodoma daugiau info
 
 Duomenys, esantys skiltyje **Svarbiausi veiksniai** ir „FastTab“ **Customer Insights** bei **Klientų retrospektyva**, padeda paaiškinti mokėjimo prognozes. Tai gali padėti padidinti jūsų pasitikėjimą prognozių veiksmingumu.
 
-[![Grafinių duomenų, susijusių su mokėjimais, indikatoriai srityje Susijusi informacija](./media/payment-prediction-gauges.png)](./media/payment-prediction-gauges.png)
+[![Grafinių duomenų, susijusių su mokėjimais, indikatoriai srityje Susijusi informacija.](./media/payment-prediction-gauges.png)](./media/payment-prediction-gauges.png)
 
 ### <a name="payment-prediction-per-customer-list-page"></a>Sąrašo puslapis Mokėjimo prognozavimas pagal klientą
 
 Sąrašo puslapyje **Mokėjimo prognozavimas pagal klientą** rodo visą atidarytą balansą ir sumą, kuri, prognozuojama, bus sumokėta talpyklose **Laiku**, **Vėlavimas** ir **Žymus vėlavimas**.
 
-[![Puslapis Mokėjimo prognozavimas pagal klientą](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
+[![Puslapis Mokėjimo prognozavimas pagal klientą.](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
 
 Kiekvienos talpyklos mokėjimo suma apskaičiuojama kaip operacijos balanso svertinio vidurkio suma. Ši suma skaičiuojama pagal kiekvienos talpyklos mokėjimo tikimybes.
 
@@ -92,11 +92,11 @@ Duomenys, esantys skiltyje **Svarbiausi veiksniai** ir „FastTab“ **Customer 
 
 Mokėjimo prognozių tikslumą galite peržiūrėti pasirinkę **Kreditas ir surinkimai \> Sąranka \> „Finance Insights” \> „Finance Insights” parametrai**. Skirtuke **Klientų mokėjimo įžvalgos**, skiltyje **Prognozės modelis** rodomas prognozės modelio tikslumas kaip procentinė dalis.
 
-[![Mokėjimo prognozių tikslumas](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
+[![Mokėjimo prognozių tikslumas.](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
 
 Jei jūsų netenkina tikslumas, pasirinkite saitą **Tikslinti modelį**, kad atidarytumėte „AI Builder“ plėtinio sąsają. Naudodami „AI Builder“ plėtinio sąsają, galite pasirinkti arba atšaukti laukų žymėjimą, kol pasirinksite laukus, kurie, jūsų manymu, yra svarbiausi, norėdami tiksliai prognozuoti mokėjimo tikimybes. Baigę, galite lengvai permokyti numatymo modelį ir publikuoti savo keitimus. Naujai parengtas prognozavimo modelis bus automatiškai naudojamas prognozuojant programoje „Dynamics 365 Finance“.
 
-[![„AI Builder“ plėtinio sąsaja](./media/ai-builder.png)](./media/ai-builder.png)
+[![„AI Builder“ plėtinio sąsaja.](./media/ai-builder.png)](./media/ai-builder.png)
 
 ## <a name="release-details"></a>Išleidimo informacija
 

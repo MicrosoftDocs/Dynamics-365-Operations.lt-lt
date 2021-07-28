@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5f5cfdcb5e930d2dc5830ad7cd9c85c88b3d40f7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7fa0b6f315008e6af774470c775bd34106201b16
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813754"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347121"
 ---
 # <a name="schedule-work-orders"></a>Planuoti darbo užsakymus
 
@@ -56,7 +56,7 @@ Galima planuoti tik darbo užsakymus, kurių darbo užsakymo ciklo būsena leid�
 
 *Pavyzdys:* toliau pateiktame paveikslėlyje lauke **Numatoma pradžia** įvesta formulė generuos visų darbo užsakymų, kurių numatyta pradžios data už savaitės nuo dabar ir vėliau, grafikus. Ši formulė gali praversti, jei nuolat vykdote darbo užsakymų planavimą, tačiau norite užtikrinti, kad ateinančioms 5–6 dienoms suplanuoti darbo užsakymai nebūtų suplanuoti iš naujo.
 
-![1 pav.](media/03-work-order-scheduling.png)
+![1 iliustracija.](media/03-work-order-scheduling.png)
 
 Pagal darbo užsakymo tipą, susijusį su darbo užsakymais, gali būti nustatomas vieno priežiūros darbuotojo planavimas (**Turto valdymas** > **Sąranka** > **Darbo užsakymai** > **Darbo užsakymų tipai** > perjungimo mygtuką **Vienas priežiūros darbuotojas** nustačius į „Taip“). Tai reiškia, kad, jei darbo užsakyme naudojamas darbo užsakymo tipas, perjungimo mygtukas **Vienas priežiūros darbuotojas** yra automatiškai nustatomas į „Taip“ išsamios informacijos puslapyje **Visi darbo užsakymai** > rodinyje **Antraštė** > „FastTab“ **Planuoti**. Planuojant darbo užsakymą visos jame sukurtos darbo užsakymo užduotys vėliau bus suplanuotos tam pačiam priežiūros darbuotojui. Jei reikia, galite redaguoti pasirinkimą perjungimo mygtuke **Vienas priežiūros darbuotojas** puslapyje **Visi darbo užsakymai**, kad darbo užsakymo užduotyse būtų galima planuoti kelis darbuotojus arba vieną darbuotoją.
 

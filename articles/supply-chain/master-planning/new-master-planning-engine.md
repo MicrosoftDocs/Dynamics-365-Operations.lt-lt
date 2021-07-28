@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e227cabdd205b7a0c1fe784fc719b538e6ea4443
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: e9aa911ca22ca2beeffe6bec95f17f94142065e4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907696"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348762"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Perkėlimas į „Planning Optimization“ pagrindiniam planavimui
 
@@ -65,7 +65,7 @@ Po to, kai būtinos funkcijos tampa būtinos, „Microsoft“ pateiks pereinamą
 
 Šioje struktūrinėje schemoje apibendrinama šioje temoje pateikiama informacija, kad galėtumėte greitai sužinoti, ar jums reikėtų pateikti išimties užklausą. Jeigu jums reikia pateikti išimties užklausą, prašome užpildyti ir pateikti [Optimizavimo planavimo perkėlimo ir išimčių klausimyną](https://go.microsoft.com/fwlink/?linkid=2144962).
 
-![Išimčių struktūrinė schema](media/exception-diagram.png "Išimčių struktūrinė schema")
+![Išimčių struktūrinė schema.](media/exception-diagram.png "Išimčių struktūrinė schema")
 
 > [!NOTE]
 > Galite pateikti išimčių užklausas tik tiems nuomotojams, kurie šiuo metu apima arba apims gamybos aplinką, o ne nuomotojams, turintiems tik sandėlio aplinką. Jei jums reikia išjungti „Planning Optimization“ išlygos klaidą infrastruktūrai kaip paslaugoms (IaaS) smėlio dėžės aplinkoje, vykdykite SQL laukimą pateiktą [Smėlio dėžės aplinkose](#faq-sandbox).

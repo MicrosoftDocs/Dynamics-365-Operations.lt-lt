@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ccc2cbf11e405facf310d93e5458cfe12a43146d
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c75525749d9015387cc112beda104238a93698e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020224"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346697"
 ---
 # <a name="map-stores-and-teams-if-there-are-pre-existing-teams-in-microsoft-teams"></a>Susiekite parduotuves ir komandas, jeigu yra išankstinių komandų „Microsoft Teams” platformoje
 
@@ -57,7 +57,7 @@ Norėdami susieti parduotuves ir atitinkamas komandas „Commerce” būstinėje
 
 Šiame pavyzdyje rodoma „Commerce” esanti **Komandų susiejimo eksportavimo** grupė su **Įtraukti objektą** elementais ir išryškintomis CSV failo antraštėmis.
 
-![Komandų susiejimo eksportavimo grupė su objekto įtraukimo elementais ir išryškintomis CSV failo antraštėmis](media/d365-commerce-data-mgmt-export-entity.png)
+![Komandų susiejimo eksportavimo grupė su objekto įtraukimo elementais ir išryškintomis CSV failo antraštėmis.](media/d365-commerce-data-mgmt-export-entity.png)
 
 > [!NOTE]
 > Atlikę ankstesnius veiksmus, atlikite skyriuje [Užduočių valdymo sinchronizavimas tarp „Microsoft Teams” ir EKA](synchronize-tasks-teams-pos.md) nurodytus veiksmus, jei norite sinchronizuoti užduočių valdymą. 

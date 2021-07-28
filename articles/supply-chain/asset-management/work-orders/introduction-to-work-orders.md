@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: EntAssetWorkOrderLineNote, EntAssetWorkOrderTable, EntAssetWorkOrderActive, EntAssetWorkOrderHoursInfoPart, EntAssetWorkOrderLineListPage, EntAssetWorkOrderAddObjectBOMItem, EntAssetWorkOrderTablePoolAdd, EntAssetWorkOrderPurchReqListPagePreviewPane, EntAssetWorkOrderPoolReferenceAdd, EntAssetWorkOrderWorkspace, EntAssetWorkOrderTableAdjust, EntAssetWorkOrderGantt, EntAssetWorkOrderNotes, EntAssetWorkOrderActivePart, EntAssetWorkOrderTableInfoPart, EntAssetWorkOrderLineListPagePreviewPane, EntAssetWorkOrderTool, EntAssetMobileWorkOrderLineDetails, EntAssetMobileWorkOrderLineList, EntAssetMobileWorkOrderDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b0f33dad05fc9a17fc673525ac5ab79f9cf0ab08
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f66786d634bc08f07d1739af5e49c902640a469a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821638"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352791"
 ---
 # <a name="introduction-to-work-orders"></a>Darbo užsakymų įvadas
 
@@ -51,7 +51,7 @@ Pasirinkite **Turto valdymas** > **Bendra** > **Darbo užsakymai** > **Visi darb
 
 Toliau pateiktame paveikslėlyje parodytas sąrašo puslapio **Visi darbo užsakymai** pavyzdys.
 
-![1 pav.](media/01-work-orders.png)
+![1 iliustracija.](media/01-work-orders.png)
 
 Pasirinkite **Turto valdymas** > **Bendra** > **Darbo užsakymai** > **Aktyvieji darbo užsakymai**, kad pamatytumėte tik aktyviųjų darbo užsakymų sąrašą. 
 
@@ -69,7 +69,7 @@ Toliau pateikiami keli būdai, kaip naudoti puslapį **Visi darbo užsakymai**.
 
 Toliau pateiktame paveikslėlyje parodytas informacijos rodinio **Visi darbo užsakymai** pavyzdys.
 
-![2 pav.](media/02-work-orders.png)
+![2 iliustracija.](media/02-work-orders.png)
 
 
 Mygtukai, esantys veiksmų srityje, tvarkomi skirtukuose. Toliau pateikiamoje lentelėje trumpai aprašyti mygtukai, susiję su turto valdymu.

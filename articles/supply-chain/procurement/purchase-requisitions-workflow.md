@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dcc562f46884cc5bf82611db9ed35436791045b
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 4a8e3378a1d31101d111673cf66f75e807cd05a7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188178"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353473"
 ---
 # <a name="purchase-requisition-workflow"></a>Pirkimo paraiškos darbo eiga
 
@@ -51,7 +51,7 @@ Galite sukonfigūruoti darbo eigą, kad ji atspindėtų jūsų organizacijos pir
 -   **Pirkimo agentas** – vartotojas, atliekantis įsigijimo peržiūrą ir galintis patvirtinti dokumentą.
 -   **Prašytojo vadovas** – vartotojas, atliekantis vadybinę peržiūrą ir galintis patvirtinti dokumentą.
 
-![Pirkimo paraiškos darbo eigos peržiūros procesas](./media/purchreqworkflowoverview_submission.gif)  
+![Pirkimo paraiškos darbo eigos peržiūros procesas.](./media/purchreqworkflowoverview_submission.gif)  
 Šiame pavyzdyje į pirkimo paraiškos darbo eigos procesą įeina šie žingsniai:
 
 1.  Rengėja pirkimo paraišką pateikia peržiūrai.
@@ -74,7 +74,7 @@ Galite sukonfigūruoti darbo eigą, kad ji atspindėtų jūsų organizacijos pir
 -   **Skyriaus vadovas** – vartotojas, atliekantis išlaidų peržiūrą ir galintis patvirtinti dokumentą.
 -   **Grupės vadovas** – vartotojas, atliekantis teisės pasirašyti peržiūrą ir galintis patvirtinti dokumentą.
 
-![Pirkimo paraiškos eilutės darbo eigos peržiūros procesas](./media/purchreqlineworkflowoverview.gif)  
+![Pirkimo paraiškos eilutės darbo eigos peržiūros procesas.](./media/purchreqlineworkflowoverview.gif)  
 Šiame pavyzdyje į pirkimo paraiškos eilučių darbo eigos procesą įeina šie žingsniai:
 
 1.  Rengėja pirkimo paraišką pateikia peržiūrai. Kiekviena eilutė nukreipiama peržiūrėtojui, kuris darbo eigos proceso metu sukonfigūruojamas ją gauti.

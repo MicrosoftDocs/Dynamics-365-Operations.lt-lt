@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 567f102cfe78a92e2e6f1243fb531dd3366c9bf2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 699c285ba0f92df4ccc05790b813ff423c01b62a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792468"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353833"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Išplėstinių garantijų kūrimas ir konfigūravimas
 
@@ -81,7 +81,7 @@ Norėdami sukurti garantinę prekę „Commerce”, atlikite šiuos veiksmus.
 
     Pavyzdžiui, dvejų metų garantijai nustatykite **Laiko vienetas** lauką į **Metai** ir **Trukmė** lauką į **2**. Taip pat nustatykite **Laiko vienetas** lauką į **Mėnuo (-esiai)** ir **Trukmė** lauką į **24** kaip parodyta šioje iliustracijoje.
 
-    ![Produkto išsamios informacijos puslapis garantinei prekei](./media/ew-time-properties.png)
+    ![Produkto išsamios informacijos puslapis garantinei prekei.](./media/ew-time-properties.png)
 
 1. Pasirinkite **Įrašyti**, kad įrašytumėte garantinę prekę.
 1. Išleiskite garantinį produktą įmonei, kad jį galėtų parduoti. Daugiau informacijos rasite [Mažmeninės prekybos produktų nustatymas](set-up-retail-products.md).
@@ -94,7 +94,7 @@ Norėdami sukurti garantinę prekę „Commerce”, atlikite šiuos veiksmus.
 
     Pavyzdžiui, toliau pateiktoje iliustracijoje parodytas **Kainos intervalo bazė** laukas, nustatytas į **Bazinė kaina**, **Žemutinė riba** laukas nustatytas į 500 $ ir **Viršutinė riba** laukas nustatytas į 1000 $.
     
-    ![Išleisto produkto išsamios informacijos puslapis garantinei prekei](./media/ew-release-product-details.png)
+    ![Išleisto produkto išsamios informacijos puslapis garantinei prekei.](./media/ew-release-product-details.png)
 
 1. Surūšiuokite garantinę prekę kanale, kuriame jis bus parduodama. Daugiau informacijos žr. [Asortimento nustatymas](set-up-assortments.md).
 
@@ -161,11 +161,11 @@ Dvi EKA operacijos leidžia pardavėjams parduoti garantines prekes per klientų
 
 Toliau pateiktoje iliustracijoje pateikiamas EKA terminalo puslapio su raginimu pridėti garantinę prekę esamos galimai garantinės prekės dabartiniam pirkimui pavyzdys.
 
-![Raginimo pridėti dabartinio pirkimo garantinę prekę pavyzdys](./media/ew-sell-warranty.png)
+![Raginimo pridėti dabartinio pirkimo garantinę prekę pavyzdys.](./media/ew-sell-warranty.png)
 
 Toliau pateiktoje iliustracijoje parodytas šios funkcijos pavyzdys, skirtas pridėti garantinę prekę galimai anksčiau parduotai garantinei prekei.
 
-![Funkcijos, skirtos pridėti garantinę prekę į anksčiau parduotą galimai garantinę prekę, pavyzdys](./media/ew-add-warranty-existing.png)
+![Funkcijos, skirtos pridėti garantinę prekę į anksčiau parduotą galimai garantinę prekę, pavyzdys.](./media/ew-add-warranty-existing.png)
 
 ## <a name="process-warranty-transactions"></a>Apdoroti garantijos operacijas
 

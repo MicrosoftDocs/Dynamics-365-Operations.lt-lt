@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: b07747752dd09f39c3a7a9a647cc3d10cc4b5cc7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f97a003ab35192d164741ef2e6b6597d3df46b6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829551"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358790"
 ---
 # <a name="country-of-origin"></a>Kilmės šalis / regionas
 
@@ -86,7 +86,7 @@ Kai sukuriate BOM ataskaitą, galite įtraukti kilmės šalį kiekvienai daliai,
 
 Informaciją pateikianti ataskaita apie kiekvienos dalies kilmės šalį yra sukuriama ir rodoma. Čia pateikiamas ataskaitos pavyzdys.
 
-![Kilmės šalies ataskaita](media/country-of-origin-report.png "Kilmės šalies ataskaita")
+![Kilmės šalies ataskaita.](media/country-of-origin-report.png "Kilmės šalies ataskaita")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

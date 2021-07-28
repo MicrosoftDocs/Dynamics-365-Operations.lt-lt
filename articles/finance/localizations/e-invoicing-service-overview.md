@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a6a8ea3fcad980dc02f489e07a7b21fe1c1b5a5a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c3a0cc24a77b29cedaa10ebb4d6e2ad2a4cbf629
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839985"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344763"
 ---
 # <a name="electronic-invoicing-overview"></a>Elektroninių SF išrašymo priedo apžvalga
 
@@ -98,7 +100,7 @@ Kai elektroninių SF išrašymo priedas įdiegtas iš LCS, o reikiamas nustatyma
 
 Toliau pateiktame paveikslėlyje vaizduojama, kaip duomenų srautai juda į ir iš elektroninių SF išrašymo priedo.
 
-![Elektroninių SF išrašymo priedo duomenų srautas](media/e-invoicing-service-data-flow-diagram-overview.png)
+![Elektroninių SF išrašymo priedo duomenų srautas.](media/e-invoicing-service-data-flow-diagram-overview.png)
 
 ## <a name="privacy-notice"></a>Privatumo pranešimas
 Įgalinant ir naudojant elektroninių SF išrašymą gali reikėti siųsti ribotus duomenis, įskaitant organizacijos mokesčių registracijos ID. Jie bus persiųsti mokesčių inspekcijų patvirtintoms trečiųjų šalių agentūroms, kad būtų galima siųsti elektronines SF iš anksto nustatytais formatais, reikalingais integravimui su šiomis vyriausybės žiniatinklio tarnybomis. Duomenims, importuotiems iš šių išorinių sistemų į šią „Dynamics 365” internetinę paslaugą, taikomos [privatumo nuostatos](https://go.microsoft.com/fwlink/?LinkId=512132). Daugiau informacijos ieškokite skyriuose Privatumo pranešimas, esančiuose konkrečios šalies funkcijos dokumentacijoje.

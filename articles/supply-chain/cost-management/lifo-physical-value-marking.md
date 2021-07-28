@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 294c7bbb328c31c6c3fdc16a72267224d7c71b27
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dcac72a60eac6abb29a017eb4ce02a71dca572d3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809739"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344549"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO su faktine verte ir žymėjimu
 
@@ -53,7 +53,7 @@ Naudojant atsargų modelį Paskutinis į, pirmas iš (LIFO) paskutiniai (naujaus
 
 Naudojama nauja vidutinė savikaina atspindi finansiškai atnaujintų operacijų vidurkį – 15,00 USD. Toliau pateiktoje iliustracijoje parodytas LIFO atsargų modelio poveikis kai kurioms operacijoms, kai parinktis **Įtraukti faktinę vertę** nenaudojama. 
 
-![LIFO be faktinės vertės įtraukimo](./media/lifowithoutincludephysicalvalue.gif) 
+![LIFO be faktinės vertės įtraukimo.](./media/lifowithoutincludephysicalvalue.gif) 
 
 **Diagramos paaiškinimas**
 
@@ -89,7 +89,7 @@ Operacija 6a bus pakoreguota pagal gavimo operaciją 4b. Sistema nesudengs šių
 
 Toliau pateiktoje iliustracijoje parodytas LIFO atsargų modelio poveikis kai kurioms operacijoms, kai parinktis **Įtraukti faktinę vertę** naudojama. 
 
-![LIFO su faktinės vertės įtraukimu](./media/lifowithincludephysicalvalue.gif) 
+![LIFO su faktinės vertės įtraukimu.](./media/lifowithincludephysicalvalue.gif) 
 
 **Diagramos paaiškinimas**
 
@@ -133,7 +133,7 @@ Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų op
 
 Toliau pateiktoje iliustracijoje parodomas LIFO atsargų modelio poveikis tokioms operacijų sekoms, kai naudojamas išdavimų ir gavimų žymėjimas. 
 
-![LIFO su žymėjimu](./media/lifowithmarking.gif) 
+![LIFO su žymėjimu.](./media/lifowithmarking.gif) 
 
 **Diagramos paaiškinimas**
 

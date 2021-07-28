@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 563fa291754f7f795fa64d530de49b9fe4083c56
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9990df3e57d65c77a75913efaf30675528d411b4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821302"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343705"
 ---
 # <a name="weighted-average-date"></a>Svertinio vidurkio data
 
@@ -39,7 +39,7 @@ Svertinis vidurkis = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 +
 
 Uždarant atsargas skaičiavimas atliekamas kasdien per uždarymo laikotarpį, kaip parodyta toliau esančioje iliustracijoje. 
 
-![Svertinio vidurkio dienos duomenų skaičiavimo modelis](./media/weightedaveragedatedailycalculationmodel.gif) 
+![Svertinio vidurkio dienos duomenų skaičiavimo modelis.](./media/weightedaveragedatedailycalculationmodel.gif) 
 
 Atsargų operacijos, paliekančios atsargas, įskaitant pardavimo užsakymus, atsargų žurnalus, pirkimo kredito pažymas ir gamybos užsakymus, atliekamos registravimo datą įvertinta savikaina. Ši apskaičiuota savikaina taip pat vadinama paleidžiamąja vidutine savikaina. Atsargų uždarymo dieną sistema analizuoja ankstesnių laikotarpių, ankstesnių dienų ir dabartinės dienos atsargų operacijas. Ši analizė naudojama siekiant nustatyti, kurį iš šių uždarymo principų reikia naudoti:
 
@@ -72,7 +72,7 @@ Toliau pavaizduoti šie sandoriai:
 -   2b. Atsargų finansinis išdavimas atnaujintas 2 vienetais, kiekvieno vieneto kaina 10,00 USD.
 -   3. Atsargų uždarymas atliekamas taikant tiesioginio sudengimo būdą, kad būtų sudengtas finansinis atsargų gavimas su finansiniu atsargų išdavimu.
 
-![Svetinio vidurkio datos tiesioginis sudengimas be pasirinkties Įtraukti faktinę vertę](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
+![Svetinio vidurkio datos tiesioginis sudengimas be pasirinkties Įtraukti faktinę vertę.](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Iliustracijos paaiškinimas.**
 
@@ -126,7 +126,7 @@ Sistemoje sugeneruojama ir užregistruojama apibendrinta atsargų perkėlimo ope
 
 Toliau pateikiamoje iliustracijoje rodoma ši operacijų seka, ir svertinio vidurkio atsargų modelio naudojimo poveikis, suvestinio atsiskaitymo principas, bet be **Įtraukti faktinę vertę** parinkties. 
 
-![Svertinio vidurkio datos suvestinis sudengimas be pasirinkties Įtraukti faktinę vertę](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Svertinio vidurkio datos suvestinis sudengimas be pasirinkties Įtraukti faktinę vertę.](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Iliustracijos paaiškinimas**
 
@@ -175,7 +175,7 @@ Galite pažymėti išdavimo operaciją su gavimu prieš užregistruodami operaci
 
 Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų operacijų vidurkį – 27,50 USD. Šioje iliustracijoje pateikta operacijų serija ir svertinio vidurkio atsargų modelis su žymėjimu naudojimo rezultatas.
 
-![Svertinio vidurkio data su žymėjimu](./media/weightedaveragedatewithmarking.gif) 
+![Svertinio vidurkio data su žymėjimu.](./media/weightedaveragedatewithmarking.gif) 
 
 **Iliustracijos paaiškinimas.**
 

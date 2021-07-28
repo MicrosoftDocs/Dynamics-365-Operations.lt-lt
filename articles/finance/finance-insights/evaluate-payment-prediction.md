@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 014684595c7cd65383dc12d9eec2dd8ea7b8c20f
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 872f4cfd968b70cb8a2087822870dcc76e83e92b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186743"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349015"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Pradinio kliento mokėjimo prognozavimo modelio įvertinimas (peržiūros versija)
 
@@ -33,32 +33,32 @@ ms.locfileid: "6186743"
 
 „Microsoft Dynamics 365 Finance“ puslapyje **„Finance Insights” parametrai** prie tikslumo rezultato atsiranda saitas **Tikslinti modelį**.
 
-[![Saitas Tikslinti modelį](./media/prediction-model.png)](./media/prediction-model.png)
+[![Saitas Tikslinti modelį.](./media/prediction-model.png)](./media/prediction-model.png)
 
 Šis saitas perkelia į „AI Builder“, kuriame galite daugiau sužinoti apie dabartinį modelį ir taip pat jį patobulinti. Toliau pateiktame paveikslėlyje parodytas atidarytas puslapis.
 
-[![AI Builder](./media/what-to-predict.png)](./media/what-to-predict.png)
+[![„AI Builder”.](./media/what-to-predict.png)](./media/what-to-predict.png)
 
 Atidarytame puslapyje rodoma tolesnė informacija.
 
 - Skiltyje **Našumas** modelio našumo įvertinimas nurodo modelio kokybę. Daugiau informacijos apie šį įvertinimą žr. [Prognozavimo modelio našumas](/ai-builder/prediction-performance) „AI Builder“ dokumentacijoje.
 - Skiltyje **Svarbiausi duomenys** nurodoma, kiek svarbūs skirtingi modelio duomenų įvesties tipai. Galite įvertinti šį sąrašą ir atitinkamus procentus, norėdami nustatyti, ar informacija atitinka tai, ką žinote apie savo verslą ir rinką.
 
-    [![Prognozavimo modelio duomenų skiltys Našumas ir Svarbiausi duomenys](./media/models.png)](./media/models.png)
+    [![Prognozavimo modelio duomenų skiltys Našumas ir Svarbiausi duomenys.](./media/models.png)](./media/models.png)
 
 - Skiltyje **Našumas** pasirinkite **Peržiūrėti išsamią informaciją**, norėdami sužinoti daugiau apie įvertinimą ir kitus aspektus. Toliau pateiktoje iliustracijoje pateikiama išsami informacija, kuri rodo, kad modelis naudoja mažiau informacijos, nei rekomenduotina. Todėl sistema sugeneravo įspėjamąjį pranešimą.
 
-    [![Įspėjimai dėl modelio našumą](./media/details.png)](./media/details.png)
+    [![Įspėjimai dėl modelio našumą.](./media/details.png)](./media/details.png)
 
 ## <a name="digging-deeper"></a>Išsamesnė informacija
 
 Nors tikslumas yra geras modelio vertinimo atspirties taškas, o našumo įvertinimas suteikia perspektyvą, „AI Builder“ suteikia išsamesnę metriką, kurią galite naudoti vertindami. Norėdami atsisiųsti išsamią informaciją, skiltyje **Našumas** pasirinkite elipsės mygtuką (**...**), esantį greta mygtuko **Naudoti modelį**, tada pasirinkite **Atsisiųsti išsamią metriką**.
 
-[![Komanda Atsisiųsti išsamią metriką](./media/performance.png)](./media/performance.png)
+[![Komanda Atsisiųsti išsamią metriką.](./media/performance.png)](./media/performance.png)
 
 Toliau pateiktame paveikslėlyje parodytas formatas, kuriuo galite atsisiųsti duomenis.
 
-[![Atsisiunčiamų duomenų formatas](./media/data-format.png)](./media/data-format.png)
+[![Atsisiunčiamų duomenų formatas.](./media/data-format.png)](./media/data-format.png)
 
 Norint giliau išanalizuoti rezultatus, geriausia pradėti peržiūrint metriką „Painiavos matrica“. Pavyzdžiui, čia pateikti duomenys, kurie rodomi šioje metrikoje ankstesnėje iliustracijoje.
 

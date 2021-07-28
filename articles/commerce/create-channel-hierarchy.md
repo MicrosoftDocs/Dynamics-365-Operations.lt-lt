@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 5df46de9dadfa0b7160a9b340ef36fdf963a0ad3
-ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
+ms.openlocfilehash: e43c4c00545dfecb2f9a2192f81cd25300e3d6e6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951913"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352475"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>Kanalų naršymo hierarchijos kūrimas
 
@@ -49,7 +49,7 @@ Norėdami sukurti kanalo naršymo hierarchiją, atlikite tolesnius veiksmus.
 
 Toliau pateiktame vaizde parodytas šakninio mazgo pavyzdys.
 
-![Šakninio mazgo pavyzdys](media/create-channel-hierarchy-1.png)
+![Šakninio mazgo pavyzdys.](media/create-channel-hierarchy-1.png)
 
 ## <a name="create-navigation-category-nodes"></a>Naršymo kategorijos mazgų kūrimas
 
@@ -65,7 +65,7 @@ Norėdami sukurti papildomų naršymo kategorijos mazgų, nurodančių kanalo pr
 
 Toliau pateiktame vaizde parodytas baigtos kanalo naršymo hierarchijos pavyzdys.
 
-![Kanalo hierarchijos pavyzdys](media/create-channel-hierarchy-2.png)
+![Kanalo hierarchijos pavyzdys.](media/create-channel-hierarchy-2.png)
 
 ## <a name="add-products-to-category-nodes"></a>Produktų įtraukimas į kategorijų mazgus
 
@@ -81,7 +81,7 @@ Norėdami įtraukti produktus į kategorijų mazgus, atlikite tolesnius veiksmus
 
 Toliau pateiktame vaizde parodytas mazgo pavyzdys su įtrauktais produktais.
 
-![Produktai, įtraukti į kategorijos mazgą](media/create-channel-hierarchy-3.png)
+![Produktai, įtraukti į kategorijos mazgą.](media/create-channel-hierarchy-3.png)
 
 ## <a name="add-product-attribute-groups-to-category-nodes"></a>Produktų atributų grupių įtraukimas į kategorijų mazgus
 
@@ -97,7 +97,7 @@ Norėdami įtraukti produkto atributo grupę į kategorijos mazgą, atlikite tol
 
 Toliau pateiktame vaizde parodytas mazgo pavyzdys su įtrauktomis produktų atributų grupėmis.
 
-![Produktų atributų grupės mazge](media/create-channel-hierarchy-4.png)
+![Produktų atributų grupės mazge.](media/create-channel-hierarchy-4.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

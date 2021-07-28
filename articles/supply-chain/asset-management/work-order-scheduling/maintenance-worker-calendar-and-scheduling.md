@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e1abf029e6f72c1c6a827a00483bb34c4abcaec5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3e5cc7d21a9993985d1ad1fc2684777ff7ceb138
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808141"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354137"
 ---
 # <a name="maintenance-worker-calendar-and-scheduling"></a>Priežiūros darbuotojų kalendorius ir planavimas
 
@@ -32,7 +32,7 @@ Kai planuojate darbo užsakymus, sukuriate grafiką nurodydami priežiūros darb
 
 Toliau esančioje ekrano kopijoje galite matyti priežiūros darbuotojo pavyzdį: darbuotojas yra susietas su ištekliais, kurie naudojami darbo laiko kalendoriuje „Gamyba“.
 
-![1 pav.](media/01-work-order-scheduling.png)
+![1 iliustracija.](media/01-work-order-scheduling.png)
 
 Nebūtina planuojant darbo užsakymą nustatyti kalendoriuje įrankius ir turtą. Yra manoma, kad įrankių ir turto priežiūra gali būti vykdoma visą parą.
 

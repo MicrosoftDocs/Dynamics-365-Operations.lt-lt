@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ed90e773e1b8c90afc119a471cf844941ad19226
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: eca0b61e1fa6760bfed1a9f9979deddccf6fb1a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6103051"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343779"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Lanksti sandėlio dimensijų rezervavimo strategija
 
@@ -58,7 +58,7 @@ Nors *Paketas žemiau\[vietos\]* rezervavimo hierarchija puikiai tenkina įmonė
 
 Norint, kad prekių, susietų su *Paketas žemiau\[vietos\]* atsargų rezervavimo hierarchija, paketo rezervavimo veikimas būtų pageidaujamo dinamiškumo, atsargų valdytojai turi pasirinkti žymės langelį **Leisti rezervuoti pagal poreikio užsakymą**, skirtą **Paketo numerio** lygiui, esančiam puslapyje **Atsargų rezervavimo hierarchijos**.
 
-![Atsargų rezervavimo hierarchijos dinamiškumo išplėtimas](media/Flexible-inventory-reservation-hierarchy.png)
+![Atsargų rezervavimo hierarchijos dinamiškumo išplėtimas.](media/Flexible-inventory-reservation-hierarchy.png)
 
 Pasirinkus **paketo numerio** lygį hierarchijoje, visos aukščiau nurodyto lygio dimensijos ir iki lygio **Vieta** bus pasirenkamos automatiškai. (Pagal numatytuosius parametrus visos dimensijos virš lygio **Vieta** yra iš anksto atrinktos). Šis veikimas atspindi logiką, kai visos dimensijos, esančios tarp paketo numerio ir vietos, taip pat automatiškai rezervuojamos, kai užsakymo eilutėje rezervuojamas konkretus paketo numeris.
 
@@ -145,7 +145,7 @@ Toliau pateiktame pavyzdyje parodytas visapusis srautas.
 
 6. Puslapyje **Paketo rezervavimas** pasirinkite paketo eilutę **B11** ir pažymėkite **Rezervuoti eilutę**. Nėra skirtosios logikos vietų ir numerio lentelių priskyrimo automatiniam rezervavimui. Kiekį galite įvesti rankiniu būdu į lauką **Rezervavimas**. Atkreipkite dėmesį, kad „FastTab“ **Paketo numeriai, įvykdyti šaltinio eilutei** paketas **B11** rodomas kaip **Įvykdyta**.
 
-    ![Konkretaus paketo numerio vykdymas pardavimo užsakymo eilutei paketo rezervavimo puslapyje](media/Batch-reservation-form-with-order-committed-reservation.png)
+    ![Konkretaus paketo numerio vykdymas pardavimo užsakymo eilutei paketo rezervavimo puslapyje.](media/Batch-reservation-form-with-order-committed-reservation.png)
 
     > [!NOTE]
     > Pardavimo užsakymo eilutėje nurodytas kiekis gali būti rezervuojamas per kelis paketus. Taip pat galite to pačio paketo rezervavimą galima atlikti keliose vietose ir numerio lentelėse (jei yra įjungtos vietų numerio lentelės).
@@ -154,7 +154,7 @@ Toliau pateiktame pavyzdyje parodytas visapusis srautas.
 
 7. Eikite į **Produkto informacijos valdymas** \> **Produktai** \> **Patvirtinti produktai**. Pažymėkite prekę ir pasirinkite **Tvarkyti atsargas** \> **Rodinys** \> **Operacijos**.
 
-    ![Įvykdyto užsakymo rezervavimas kaip atsargų operacijų tipas](media/Inventory-transactions-for-order-committed-reservation.png)
+    ![Įvykdyto užsakymo rezervavimas kaip atsargų operacijų tipas.](media/Inventory-transactions-for-order-committed-reservation.png)
 
 8. Peržiūrėkite prekės atsargų operacijas, susijusias su pardavimo užsakymo eilutės rezervavimu.
 
@@ -172,7 +172,7 @@ Toliau pateiktame pavyzdyje parodytas visapusis srautas.
     - Kad sukurtų darbą, sistema naudoja darbo šablonus, o ne vietos nuorodas. Visi įprasti parametrai, apibrėžti darbo šablonams, pvz., maksimalus paėmimo eilučių skaičius arba konkretus matavimo vienetas, bus taikomi siekiant nustatyti, kada turi būti sukurtas naujas darbas. Tačiau į taisykles, kurios susietos su vietos nurodymais identifikuojant paėmimo vietas, nėra atsižvelgiama, nes įvykdyto užsakymo rezervavimu jau nurodoma visų atsargų dimensijos. Tose atsargų dimensijose yra dimensijų sandėlio sandėliavimo lygyje. Todėl darbas perima šias dimensijas ir nereikia vadovautis vietos nurodymais.
     - Paketo numeris nerodomas paėmimo eilutėje (kaip tai yra su darbo eilute, sukurta prekei, kuri yra susieta su *Paketas žemiau\[vietos\]* rezervavimo hierarchija). Vietoj to, paketo numeris „nuo“ ir visos kitos saugojimo dimensijos yra rodomi darbo eilutės darbo atsargų operacijoje, kuri nurodoma iš susietų atsargų operacijų.
 
-        ![Sandėlio atsargų operacija darbui, kuris yra iš įvykdyto užsakymo rezervavimo](media/Work-inventory-transactions-for-order-committed-reservation.png)
+        ![Sandėlio atsargų operacija darbui, kuris yra iš įvykdyto užsakymo rezervavimo.](media/Work-inventory-transactions-for-order-committed-reservation.png)
 
     - Sukūrus darbą, prekės atsargų operacija, kai laukas **Nuoroda** nustatytas kaip **Įvykdyto užsakymo rezervavimas**, pašalinama. Atsargų operacija, kai laukas **Nuoroda** kaip **Darbas**, dabar turi faktinį rezervavimą visose kiekio atsargų dimensijose.
 
@@ -207,7 +207,7 @@ Prieš tai, kai galite naudoti lanksčią licencijos numerio rezervaciją, dvi f
 
 Tam, kad leistumėte licencijos numerio rezervavimą užsakyme, turite pasirinkti **Leisti rezervavimą pagal poreikio užsakymą** pažymimame laukelyje **Licencijos numerio** lygyje esančiame **Inventoriaus rezervavimo hierarchijos** puslapyje hierarchijai, kuri yra susieta su atitinkamu elementu.
 
-![Inventoriaus rezervavimo hierarchijos puslapyje lanksčiai licencijos numerio rezervavimo hierarchijai](media/Flexible-LP-reservation-hierarchy.png)
+![Inventoriaus rezervavimo hierarchijos puslapyje lanksčiai licencijos numerio rezervavimo hierarchijai.](media/Flexible-LP-reservation-hierarchy.png)
 
 Galite įjungti licencijos numerio rezervaciją užsakyme bet kuriuo metu savo diegime. Šis pakeitimas nepakeis jokio rezervavimo ar neatidarys sandėlio užduotį, kuri buvo sukurta prieš atliekant pakeitimą. Nepaisant to, negalite pašalinti **Leisti rezervaciją pagal prašomą užsakymą** žymimo laukelio, jei vienam ar keliems susietiems su rezervacijos hierarchija elementams egzistuoja atviros išorės inventoriaus perlaidos *Užsakyme*, *Rezervuotame užsakyme* ar *Fiziškai rezervuotame*.
 
@@ -227,7 +227,7 @@ Kai prekybos užsakymo eilutė naudoja su užsakymu susietą licencijos numerio 
 
 Jei sandėlio užduoties elementą sudaro eilutės, kurios atitinka visą padėklą ir turi su licencijos ženklu susijusius kiekius, galite optimizuoti paėmimo procesą naudodami mobilaus prietaiso meniu elementą, kuriame **Valdoma licencijos numeriu** parinktis nustatyta į *Taip*. Sandėlio darbuotojas gali tuomet nuskaityti licencijos numerį tam, kad pabaigtų paėmimą, o ne nuskaitytų elementus užduotyje po vieną.
 
-![Mobiliojo įrenginio meniu elementas, kuriame tvarkymo pagal licencijos numerį parinktis yra nustatyta į Taip](media/Handle-by-LP-menu-item.png)
+![Mobiliojo įrenginio meniu elementas, kuriame tvarkymo pagal licencijos numerį parinktis yra nustatyta į Taip.](media/Handle-by-LP-menu-item.png)
 
 Kadangi **Tvarkyti pagal licencijos numerį** funkcija nepalaiko darbo, kuris apima keletą padėklų, geriau turėti atskirą užduoties elementą skirtingiems licencijos numeriams. Šios prieigos naudojimui, įtraukite **Su užsakymu susijusio licencijos numerio ID** laukelį, kaip užduoties antraštės tarpą **Darbo šablono** puslapyje.
 
@@ -249,7 +249,7 @@ Kadangi **Tvarkyti pagal licencijos numerį** funkcija nepalaiko darbo, kuris ap
 1. **Pavadinimas** laukelyje, įveskite vertę (pavyzdžiui, *Lankstus LP*).
 1. **Aprašas** laukelyje, įveskite vertę (pavyzdžiui, *Lankstus LP rezervavimas*).
 1. **Pasirinkti** sąraše pasirinkite **Paketo numeris**, **Serijinis numeris** ir **Savininkas**.
-1. Pasirinkite **Pašalinti** mygtuką ![rodyklę atgal](media/backward-button.png) tam, kad perkeltumėte pasirinktus įrašus į **Esamų** sąrašą.
+1. Pasirinkite **Pašalinti** mygtuką ![rodyklė atgal.](media/backward-button.png) pasirinktų laukų perkėlimui į **Galimi** sąrašą.
 1. Pasirinkite **Gerai**.
 1. **Licencijos numeris** dimensijos lygio eilutėje, pasirinkite **Leisti rezervavimą pagal norimą užsakymą** pažymimą laukelį. **Vietos** lygis automatiškai pasirenkamas ir jūs negalite pašalinti žymimo laukelio.
 1. Pasirinkite **Įrašyti**.

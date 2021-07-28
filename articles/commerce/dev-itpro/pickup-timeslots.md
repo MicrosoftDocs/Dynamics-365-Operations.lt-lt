@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: c3da7474f9a61e97ee11688a18cb91a5ad1ccb5c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e2369b17244525023541cdbd0a0da3f2a2a09b30
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791170"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355457"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Kurti ir naujinti laiko vietas kliento atsiėmimui
 
@@ -34,7 +34,7 @@ Laiko vietos funkcija suteikia mažmeniniams prekybininkams būdą nustatyti lai
 
 Tolesnis paveikslėlis rodo laiko vietos pavyzdžio pasirinkimą e-komercijos išregistravimo metu.
 
-![Laiko vietos pasirinkimo pavyzdys e-komercijos išsiregistravimo metu](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Laiko vietos pasirinkimo pavyzdys e-komercijos išsiregistravimo metu.](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="time-slot-properties"></a>Laiko vietos ypatybės
 
@@ -60,7 +60,7 @@ Laiko vieta yra nustatyta naudojant tolesnes ypatybes:
 - **Aktyvios dienos** – Nurodykite savaitės dienas, kai atsiėmimo laiko vieta yra veikianti. Ši ypatybė leidžia prekeiviui nustatyti dienas, kai jis nori palaikyti atsiėmimo užsakymus.
 - **Mažmeniniai kanalai** – Nurodykite mažmeninius kanalus. Visos laiko vietos gali būti susietos su viena ar keliomis mažmenos parduotuvėmis. Priklausomai nuo kiekvienos parduotuvės darbo valandų, vienas ar daugiau laiko vietų gali būti sukurti ir susieti su kanalu. 
 
-<!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+<!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 Tik vienas laiko vietos šablonas gali būti konfigūruojamas kanalui. Šie kanalai apima fizines parduotuves, skambučių centrus, mobiliuosius įrenginius ir el. prekybos svetaines.
 
@@ -85,14 +85,14 @@ Norėdami konfigūruoti laiko vietos funkciją „Commerce“ štabe, atlikite �
     > [!NOTE]
     > Galite sukurti keletą šablonų, tačiau tik vienas gali būti susietas su vienu kanalu ar parduotuve.
 
-    ![Užsakymo atsiėmimas - Laiko nustatymų teksto laukelis](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
+    ![Užsakymo atsiėmimas - Laiko nustatymų teksto laukelis.](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
 
 1. Pabaigus, rinkitės **Gerai**.
 1. Jei laiko vietos per dieną gali skirtis, sukurkite papildomus įrašus **Užsakymo atsiėmimas - Laiko nustatymai** „FastTab“ tam, kad užtikrintumėte, jog datos ir laikai nepersidengtų.
 1. „FastTab“ **Prekybos kanalai** rinkitės **Įtraukti** tam, kad susietumėte laiko vietos šabloną su parduotuvėmis ar kanalais, kuriuose jie bus naudojami.
 1. Teksto laukelyje **Rinktis organizacijos mazgus** naudokite rodyklių mygtukus, kad pasirinktumėte (ar panaikintumėte pasirinktas) parduotuves, regionus ir organizacijas, su kuriomis šablonas bus susietas.
 
-    <!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+    <!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 1. Pabaigus, rinkitės **Gerai**.
 1. Puslapyje **Paskirstymo grafikas** vykdykite **1070** ir **1135** darbus taip, kad sinchronizuotumėte datą su kanalais.
@@ -103,7 +103,7 @@ POS, užsakymą ar užsakymo eilutę nustačius atsiėmimui, kasininkas gali pas
 
 Tolesnis paveikslėlis rodo laiko vietos pavyzdžio pasirinkimą POS užsakymui.
 
-![Laiko vietos pasirinkimo pavyzdys POS užsakymui](../dev-itpro/media/Curbside_timeslot_POS.png)
+![Laiko vietos pasirinkimo pavyzdys POS užsakymui.](../dev-itpro/media/Curbside_timeslot_POS.png)
 
 ## <a name="time-slot-selection-for-e-commerce-orders"></a>Laiko vietos pasirinkimas e-komercijos užsakymams
 
@@ -114,13 +114,13 @@ Dėl informacijos, kaip padaryti laiko vietos pasirinkimą prieinamą e-komercij
 
 Tolesnis paveikslėlis rodo laiko vietos pavyzdžio pasirinkimą e-komercijos užsakymui, kai atsiėmimo laiko vieta buvo pasirinkta.
 
-![El. komercijos užsakymo pavyzdys, kai atsiėmimo laiko vieta buvo pasirinkta](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![Elektroninės prekybos užsakymo pavyzdys, kai atsiėmimo laiko vieta buvo pasirinkta.](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="time-slot-selection-for-call-center-orders"></a>Laiko vietos pasirinkimas skambučių centro užsakymams
 
 Jei skambučių centro programa, skambučių centro agentai gali pasirinkti atsiėmimo parduotuvę ar vietą, taip pat kaip datos ir vietos laiką kaip parodyta tolesniame paveikslėlyje.
 
-![Skambučių centro užsakymo pavyzdys, kai atsiėmimo laiko vieta buvo pasirinkta](../dev-itpro/media/Curbside_timeslot_callcenter.png)
+![Skambučių centro užsakymo pavyzdys, kai atsiėmimo laiko vieta buvo pasirinkta.](../dev-itpro/media/Curbside_timeslot_callcenter.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: 74df8ac27c2028582b8909db0a7260b9b0ed38f5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a81a779dd484d30397c89076d081413a72560f0b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797286"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348712"
 ---
 # <a name="assortment-management"></a>Asortimento valdymas
 
@@ -35,27 +35,27 @@ Bendrąjį kanalo produktų derinį nustato tam kanalui priskirti publikuoti aso
 
 Tolesniame pavyzdyje kiekvienai parduotuvei sukonfigūruotas unikalus asortimentas. Šiuo atveju 1 parduotuvėje galima įsigyti tik 1 produktą, o 2 parduotuvėje – tik 2 produktą.
 
-![Kiekvieną produktą galima įsigyti vienoje parduotuvėje](./media/Managing-assortments-figure1.png)
+![Kiekvieną produktą galima įsigyti vienoje parduotuvėje.](./media/Managing-assortments-figure1.png)
 
 Kad 2 produktą būtų galima įsigyti 1 parduotuvėje, jį galite įtraukti į 1 asortimentą.
 
-![2 produktas įtrauktas į 1 asortimentą](./media/Managing-assortments-figure2.png)
+![2 produktas įtrauktas į 1 asortimentą.](./media/Managing-assortments-figure2.png)
 
 Arba galite 1 parduotuvę įtraukti į 2 asortimentą.
 
-![1 parduotuvė įtraukta į 2 asortimentą](./media/Managing-assortments-figure3.png)
+![1 parduotuvė įtraukta į 2 asortimentą.](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>Organizacijų hierarchijos
 
 Situacijose, kai keliuose kanaluose naudojami tokie patys produktų asortimentai, asortimentus galite sukonfigūruoti naudodami organizacijos hierarchiją Prekybos asortimentas. Įtraukus šios hierarchijos mazgus, bus įtraukti visi tų mazgų kanalai ir antriniai mazgai.
 
-![Organizacijos hierarchija](./media/Managing-assortments-figure4.png)
+![Organizacijos hierarchija.](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>Produkto kategorijos
 
 Panašiai produktų pusėje produktų grupių galite įtraukti naudodami produktų kategorijų hierarchijas. Galite konfigūruoti asortimentus įtraukdami vieną ar kelis kategorijų hierarchijų mazgus. Šiuo atveju į asortimentą bus įtraukti visi to kategorijos mazgo ir jo antrinių mazgų produktai.
 
-![Produkto kategorijos](./media/Managing-assortments-figure5.png)
+![Produkto kategorijos.](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Neįtraukti produktai ar kategorijos
 
@@ -64,7 +64,7 @@ Be produktų ir kategorijų įtraukimo į asortimentus galite naudoti parinktį 
 > [!NOTE]
 > Jei pagal apibrėžimą produktas viename ar keliuose asortimentuose yra ir įtrauktas, ir neįtrauktas, jis bus visada laikomas neįtrauktu.
 
-![Produktas neįtrauktas](./media/Managing-assortments-figure6.png)
+![Produktas neįtrauktas.](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Visuotiniai ir išleisti produktai
 

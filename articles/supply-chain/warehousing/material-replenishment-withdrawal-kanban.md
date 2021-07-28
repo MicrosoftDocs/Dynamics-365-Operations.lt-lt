@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edc6da8a54de98696322ace67ada5dfe97af2024
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 1c8a6b4152215bc912d99f2f4c250defa75278c3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189949"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356932"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Papildymas išėmimų „kanban“
 
@@ -35,7 +35,7 @@ Išėmimo „kanban“ galima naudoti norint perkelti vienos prekės „kanban�
 
 Toliau pateiktame scenarijuje parodyta atgalinio planavimo papildymo sistema, kurioje atgalinio planavimo signalas suaktyvina „kanban“ kūrimą, siekiant gamybos procesą papildyti medžiagomis. 
 
-[![Atgalinio planavimo signalas suaktyvina „kanban“ kūrimą, siekiant gamybos procesą papildyti medžiagomis](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
+[![Atgalinio planavimo signalas suaktyvina „kanban“ kūrimą, siekiant gamybos procesą papildyti medžiagomis.](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
 
 1.  Išėmimo „kanban“
 2.  „Kanban“ vieta „nuo“ ir sandėlio darbo padėjimo vieta
@@ -72,7 +72,7 @@ Jei atstumas tarp sandėlių vietų ir gamybos įvesties vietos yra nedidelis, g
 
 Šiuo atveju išėmimo „kanban“ perkėlimo veikla sukonfigūruota perkelti tarp dviejų vietų, esančių tame pačiame sandėlyje. Išėmimo „kanban“ perkėlimo veikla nustatyta taip, kad būtų baigta automatiškai. 
 
-[![Perkėlimo veikla baigiama automatiškai, kai įvykdomas „kanban“ paėmimo darbas](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
+[![Perkėlimo veikla baigiama automatiškai, kai įvykdomas „kanban“ paėmimo darbas.](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
 
 1.  Bendrai naudojamas sandėlis, skirtas žaliavoms ir gamybai
 2.  Sandėlio vietos žaliavoms

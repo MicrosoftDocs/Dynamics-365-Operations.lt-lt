@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 088f1b13e20602345dbec5179c343e27be9cec44
-ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
+ms.openlocfilehash: 3774a6258fcefb361c5c2ed709dd7700b1dc071d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6085505"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351157"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroninių ataskaitų (ER) paskirties vietos
 
@@ -62,7 +62,7 @@ Jei nustatysite parinktį **Paketinis vykdymas** į **Taip**, ER formatas vykdom
 > [!NOTE]
 > Užduoties apraše jums pranešama apie ER formato susiejimo vykdymą. Jame taip pat yra įvykdyto ER komponento pavadinimas.
 
-[![ER formato vykdymas](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
+[![ER formato vykdymas.](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
 
 Informacijos apie šią užduotį galite rasti keliose vietose.
 
@@ -74,17 +74,17 @@ Informacijos apie šią užduotį galite rasti keliose vietose.
 
 - Puslapyje **Elektroninės ataskaitos užduotys** pasirinkite **Rodyti failus**, kad peržiūrėtumėte klaidų ir įspėjimų, sugeneruotų vykdant užduotį, sąrašą.
 
-    [![ER užduočių sąrašo peržiūra](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
+    [![ER užduočių sąrašo peržiūra.](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
 
 ### <a name="user-configured-behavior"></a>Vartotojo sukonfigūruotas veikimo būdas
 
 Puslapyje **Elektroninių ataskaitų paskirties vieta** galite nepaisyti numatytojo konfigūracijos veikimo būdo. Importuotos konfigūracijos šiame puslapyje bus rodomos tik tada, kai pasirinksite **Nauja** ir tada lauke **Nuoroda** pasirinksite, kuriai konfigūracijai norite kurti paskirties vietų parametrus.
 
-[![Konfigūracijos pasirinkimas lauke Nuoroda](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
+[![Konfigūracijos pasirinkimas lauke Nuoroda.](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
 
 Sukūrę nuorodą, galite sukurti kiekvieno į nurodyto ER formato išvesties komponento **Aplankas** ar **Failas** failo paskirties vietą.
 
-[![Failo paskirties vietos kūrimas](./media/ER_Destinations-ConfigureElementDestination.png)](./media/ER_Destinations-ConfigureElementDestination.png)
+[![Failo paskirties vietos kūrimas.](./media/ER_Destinations-ConfigureElementDestination.png)](./media/ER_Destinations-ConfigureElementDestination.png)
 
 Paskui dialogo lange **Paskirties vietų parametrai** galite įjungti ir išjungti atskiras failų paskirties vietas. Mygtukas **Parametrai** yra naudojamas siekiant valdyti visas pasirinktos failo paskirties vietos paskirties vietas. Dialogo lange **Paskirties vietos parametrai** galite atskirai valdyti kiekvieną paskirties vietą, nustatydami jos parinktį **Įgalinta**.
 
@@ -92,7 +92,7 @@ Paskui dialogo lange **Paskirties vietų parametrai** galite įjungti ir išjung
 
 Pavyzdžiui, galite naudoti šią funkciją norėdami konfigūruoti failo komponento, kuris naudojamas generuojant siuntimo dokumentą „Excel“ formatu, failų paskirties vietas. Vieną paskirties vietą ([Archyvuoti](er-destination-type-archive.md)) galima sukonfigūruoti, kad ER užduočių archyve būtų saugomas pradinis „Excel“ failas, o kitą paskirties vietą ([El. paštas](er-destination-type-email.md)) galima sukonfigūruoti, kad „Excel“ failas būtų vienu metu [konvertuojamas](#OutputConversionToPDF) į PDF formatą ir siunčiamas PDF formatu el. paštu.
 
-[![Vieno formato elemento keleto paskirties vietų konfigūravimas](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
+[![Vieno formato elemento keleto paskirties vietų konfigūravimas.](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
 
 Paleidus ER formatą, visada paleidžiamos visos sukonfigūruotos formato komponentų paskirties vietos. Be to, „Finance” **10.0.17 ir naujesnėse versijose** ER paskirties vietų funkcionalumas pagerėjo ir dabar suteikia jums galimybę viename ER formate konfigūruoti skirtingus paskirties vietų rinkinius. Ši konfigūracija pažymi kiekvieną rinkinį kaip sukonfigūruotą konkrečiam vartotojo veiksmui. ER API buvo [išplėsta](er-apis-app10-0-17.md) tam, kad būtų galima pateikti veiksmą, kurį atlieka vartotojas paleisdamas ER formatą. Pateiktas veiksmo kodas perduodamas į ER paskirties vietas. Atsižvelgdami į pateiktą veiksmo kodą, galite vykdyti skirtingas ER formato paskirties vietas. Daugiau informacijos ieškokite [Nuo veiksmo priklausomų ER paskirties vietų konfigūravimas](er-action-dependent-destinations.md).
 
@@ -116,11 +116,11 @@ Paskirties vietas galite nustatyti tik importuotoms ER konfigūracijoms ir tik t
 
 Kai konfigūruojate pasirinkto formato failų paskirties vietas, konfigūruojate viso formato paskirties vietas.
 
-[![Konfigūracijos saitas](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
+[![Konfigūracijos saitas.](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
 
 Tuo pat metu gali būti kelios formato [versijos](general-electronic-reporting.md#component-versioning), kurios buvo importuotos į dabartinį „Finance“ egzempliorių. Galite jas peržiūrėti, pasirinkę saitą **Konfigūracija**, kuris siūlomas pasirinkus lauką **Nuoroda**.
 
-[![Konfigūracijos versijos](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
+[![Konfigūracijos versijos.](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
 
 Pagal numatytuosius nustatymus sukonfigūruotos paskirties vietos taikomos tik tada, kai paleidžiate ER formato versiją, kurios būsena yra **Baigta** arba **Bendrai naudojama**. Tačiau kartais reikia naudoti sukonfigūruotas paskirties vietas, kai vykdoma ER formato juodraščio versija. Pavyzdžiui, modifikuojate savo formato juodraščio versiją ir norite naudoti sukonfigūruotas paskirties vietas, norėdami patikrinti, kaip bus pristatoma sugeneruota išvestis. Atlikite toliau pateikiamus veiksmus, norėdami pritaikyti ER formato paskirties vietas, kai vykdoma juodraščio versija.
 
@@ -128,7 +128,7 @@ Pagal numatytuosius nustatymus sukonfigūruotos paskirties vietos taikomos tik t
 2. Puslapio **Konfigūracijos** veiksmų srities skirtuke **Konfigūracijos**, grupėje **Papildomi parametrai** pasirinkite **Vartotojo parametrai**.
 3. Parinktyje **Naudoti paskirties vietas, esant juodraščio būsenai** nustatykite **Taip**.
 
-[![Parinktis Naudoti paskirties vietas, esant juodraščio būsenai](./media/ER_Destinations-UserSetting1.png)](./media/ER_Destinations-UserSetting1.png)
+[![Parinktis Naudoti paskirties vietas, esant juodraščio būsenai.](./media/ER_Destinations-UserSetting1.png)](./media/ER_Destinations-UserSetting1.png)
 
 Norėdami naudoti ER formato juodraščio versiją, turite atitinkamai pažymėti ER formatą.
 
@@ -136,11 +136,11 @@ Norėdami naudoti ER formato juodraščio versiją, turite atitinkamai pažymėt
 2. Puslapio **Konfigūracijos** veiksmų srities skirtuke **Konfigūracijos**, grupėje **Papildomi parametrai** pasirinkite **Vartotojo parametrai**.
 3. Parinktyje **Vykdymo parametras** nustatykite **Taip**.
 
-[![Parinktis Vykdymo parametras](./media/ER_Destinations-UserSetting2.png)](./media/ER_Destinations-UserSetting2.png)
+[![Parinktis Vykdymo parametras.](./media/ER_Destinations-UserSetting2.png)](./media/ER_Destinations-UserSetting2.png)
 
 Atlikus šį nustatymą, galima naudoti modifikuojamų ER formatų parinktį **Vykdyti juodraštį**. Šioje parinktyje nustačius **Taip**, galima pradėti naudoti formato juodraščio versiją, kai formatas vykdomas.
 
-[![Parinktis Vykdyti juodraštį](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
+[![Parinktis Vykdyti juodraštį.](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
 
 ## <a name="destination-failure-handling"></a><a name="DestinationFailure"></a>Paskirties vietų trikčių apdorojimas
 
@@ -148,7 +148,7 @@ Paprastai ER formatas vykdomas kaip konkretaus verslo proceso dalis. Tačiau siu
 
 Pavyzdžiui, konfigūruojate tiekėjo mokėjimo apdorojimą, kad ER formatas **ISO20022 kredito pervedimas** būtų vykdomas generuojant mokėjimo failą ir papildomus dokumentus (pvz., lydraštį ir kontrolės ataskaitą). Jei mokėjimas turėtų būti laikomas sėkmingai apdorotu tik lydraštį sėkmingai pristačius el. paštu, turite pažymėti žymės langelį **Nutraukti apdorojimą trikties atveju** tinkamos failo paskirties vietos komponente **CoveringLetter**, kaip parodyta tolesnėje iliustracijoje. Šiuo atveju pasirinkto apdorotino mokėjimo būsena **Nėra** bus pakeista į **Išsiųsta** tik „Finance“ egzemplioriuje sukonfigūruotam el. pašto teikėjui sėkmingai priėmus sugeneruotą lydraštį pristatymui atlikti.
 
-[![Procesų apdorojimo konfigūravimas failo paskirties vietos trikties atveju](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)
+[![Procesų apdorojimo konfigūravimas failo paskirties vietos trikties atveju.](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)
 
 Jei išvalysite žymės langelį **Nutraukti apdorojimą trikties atveju** paskirties vietos komponente **CoveringLetter**, bus laikoma, kad mokėjimas sėkmingai apdorotas, net lydraščio nepristačius el. paštu. Mokėjimo būsena **Nėra** pasikeis į **Išsiųsta**, net jei lydraščio neįmanoma išsiųsti nes, pavyzdžiui, nėra gavėjo arba siuntėjo el. pašto adreso arba adresas yra netikslus.
 
@@ -160,7 +160,7 @@ Galite naudoti PDF konvertavimo parinktį, norėdami konvertuoti išvestį „Mi
 
 Norėdami, kad PDF konvertavimo parinktis būtų prieinama dabartiniame „Finance“ egzemplioriuje, atidarykite darbo sritį **Funkcijų valdymas** ir įjunkite funkciją **Konvertuoti elektroninių ataskaitų siuntimo dokumentus iš „Microsoft Office“ formatų į PDF**.
 
-[![Siunčiamų dokumentų konvertavimo į PDF funkcijos įjungimas pasirinkus Funkcijų valdymas](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
+[![Siunčiamų dokumentų konvertavimo į PDF funkcijos įjungimas pasirinkus Funkcijų valdymas.](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
 
 ### <a name="applicability"></a>Taikymas
 
@@ -185,13 +185,13 @@ Tik įprasti „Windows“ operacinės sistemos šriftai naudojami konvertuoti i
 
 Norėdami įjungti failo paskirties vietos PDF konvertavimą, pažymėkite žymės langelį **Konvertuoti į PDF**.
 
-[![Failo paskirties vietos PDF konvertavimo įjungimas](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
+[![Failo paskirties vietos PDF konvertavimo įjungimas.](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">Pasirinkite PDF konvertavimui skirtą puslapio padėtį</a>
 
 Jei sugeneruojate ER konfigūraciją „Excel” formatu ir norite konvertuoti ją į PDF formatą, galite nurodyti PDF dokumento puslapio padėtį. Kai pasirenkate žymės langelį **Konvertuoti į PDF**, kad įjungtumėte PDF konvertavimą failo paskirties vietai, kurioje gaunamas išvesties failas „Excel” formatu, laukas **Puslapio padėtis** tampa pasiekiamas „FastTab” elemente **PDF konvertavimo parametrai**. Lauke **Puslapio padėtis** pasirinkite pageidaujamą padėtį.
 
-[![PDF konvertavimui skirtos puslapio padėties pasirinkimas](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
+[![PDF konvertavimui skirtos puslapio padėties pasirinkimas.](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
 > [!NOTE]
 > Jei norite turėti parinktį pasirinkti PDF puslapio padėtį, turite įdiegti „Finance ” 10.0.10 arba naujesnę versiją.
@@ -222,7 +222,7 @@ Išeigos išskleidimo parinktį galima konfigūruoti tik **Aplanko** tipo format
     > [!NOTE]
     > Pasirinkus **Atskiri failai**, sugeneruota išvestis surenkama į atmintį suglaudintoje būsenoje. Todėl maksimalaus [failo dydžio apribojimas](er-compress-outbound-files.md) yra taikomas suglaudintai išeigai, kai realus failo dydis gali viršyti šią ribą. Rekomenduojame pasirinkti šią vertę, kai tikitės gana didelio sugeneruotos išeigos dydžio.
 
-[![Paskirties vietos konfigūravimas Aplanko formato komponentui](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
+[![Paskirties vietos konfigūravimas Aplanko formato komponentui.](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
 
 ### <a name="limitations"></a>Apribojimai
 

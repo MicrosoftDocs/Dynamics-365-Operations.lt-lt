@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: acf5ead6ed90d4dbb41de08520cde8085a7f3935
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c58a5bfbc140eb770415a96d1d9c5748e3e2d132
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823721"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350029"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>Atidėto mokesčių skaičiavimo įjungimas žurnaluose
 [!include [banner](../includes/banner.md)]
@@ -45,14 +45,14 @@ Sistema teikia prioritetą žurnalo antraštės parametrui. Esant numatytiesiems
 1. Eikite į **Didžioji knyga \> Didžiosios knygos nustatymas \> DK parametrai**.
 2. Skirtuke **PVM**, „FastTab“ **Bendra**, nustatykite parinkties **Uždelstas mokesčių skaičiavimas** reikšmę **Taip**.
 
-![Didžiosios knygos parametrų vaizdas](media/delayed-tax-calculation-gl.png)
+![Didžiosios knygos parametrų vaizdas.](media/delayed-tax-calculation-gl.png)
 
 ## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a>Atidėto mokesčių skaičiavimo įjungimas žurnalo pavadinimo lygyje
 
 1. Eikite į **Didžioji knyga \> Žurnalo nustatymas \> Žurnalo pavadinimai**.
 2. „FastTab“ **Bendra**, dalyje **PVM**, nustatykite parinkties **Uždelstas mokesčių skaičiavimas** reikšmę **Taip**.
 
-![Žurnalų pavadinimų vaizdas](media/delayed-tax-calculation-journal-name.png)
+![Žurnalų pavadinimų vaizdas.](media/delayed-tax-calculation-journal-name.png)
 
 ## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a>Atidėto mokesčių skaičiavimo įjungimas žurnalo antraštės lygyje
 
@@ -61,7 +61,7 @@ Sistema teikia prioritetą žurnalo antraštės parametrui. Esant numatytiesiems
 3. Pasirinkite žurnalo pavadinimą.
 4. Skirtuke **Sąranka** nustatykite parinkties **Uždelstas mokesčių skaičiavimas** reikšmę **Taip**.
 
-![Bendrojo žurnalo puslapio vaizdas](media/delayed-tax-calculation-journal-header.png)
+![Bendrojo žurnalo puslapio vaizdas.](media/delayed-tax-calculation-journal-header.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

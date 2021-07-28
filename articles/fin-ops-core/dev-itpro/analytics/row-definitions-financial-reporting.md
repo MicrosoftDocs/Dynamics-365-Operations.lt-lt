@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5204fb80dcf3dc2342e9d37f18b9d4f587de1808
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e84f882f69fbc7fceae8a6e0332716a82830dfdc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754299"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344053"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Finansinių ataskaitų dizaino įrankio eilučių aprašai
 
@@ -158,7 +158,7 @@ Eilutės apraše nurodytas formatavimas perrašo stulpelio apraše ir ataskaitos
 
 1. Naudodami ataskaitų dizaino įrankį atidarykite norimą modifikuoti eilučių aprašą.
 2. Pažymėkite norimus formatuoti langelius. Norėdami pažymėti kelis langelius, laikykite nuspaudę klavišą Ctrl ir pasirinkite langelį.
-3. Norėdami taikyti, spustelėkite įrankių juostos formato mygtuką. Pvz., norėdami įtraukti eilutę, pasirinkite eilutę, tada įrankių juostoje spustelėkite **Padidinti įtrauką** ![Padidinti įtrauką](media/indent.gif "Didinti įtrauką").
+3. Norėdami taikyti, spustelėkite įrankių juostos formato mygtuką. Pavyzdžiui, norėdami įtraukti eilutę, pasirinkite eilutę, o tada spustelėkite **Padidinti įtrauką** ![Padidinti įtrauką.](media/indent.gif "Didinti įtrauką") įrankių juostoje.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Koreguoti stulpelius, kol kuriamos ataskaitos
 
