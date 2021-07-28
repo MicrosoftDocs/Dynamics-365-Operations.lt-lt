@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: c398579a0a408e7f5625a3e801a967955c4b1e5b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c731e0284b720394059384e21deea1ea4407718c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020120"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352815"
 ---
 # <a name="tax-isnt-calculated-or-the-tax-amount-is-zero"></a>Mokestis nesuskaičiuotas arba mokesčio suma lygi nuliui
 
@@ -32,17 +32,17 @@ Jei operacija nepasirinko teisingų mokesčių kodų arba nepasirinko jokių mok
 
 1. Operacijos eilutės eilutės informacijos "FastTab" skirtuke Nustatymas, **PVM** **skyriuje** **patikrinkite**, **ar** **laukuose** Prekės PVM grupė ir PVM grupė pasirinktos tinkamos mokesčių grupės. Jei tinkamos mokesčių grupės nepasirinktos, pasirinkite jas.
 
-    [![Prekės pardavimo mokesčio grupė ir pardavimo mokesčio grupės laukeliai](./media/tax-not-calculated-tax-amount-zero-Picture1.png)](./media/tax-not-calculated-tax-amount-zero-Picture1.png)
+    [![Prekės pardavimo mokesčio grupė ir pardavimo mokesčio grupės laukeliai.](./media/tax-not-calculated-tax-amount-zero-Picture1.png)](./media/tax-not-calculated-tax-amount-zero-Picture1.png)
 
 2. Eikite į **Mokestis** \> **Netiesioginiai mokesčiai** \> **PVM** \> **PVM grupės**.
 3. Pasirinkite atitinkamą PVM grupę, tada sąrankos **„FastTab" atlikite pastabą apie PVM** **kodą lauke PVM** kodas.
 
-    [![PVM grupių puslapis](./media/tax-not-calculated-tax-amount-zero-Picture2.png)](./media/tax-not-calculated-tax-amount-zero-Picture2.png)
+    [![PVM grupių puslapis.](./media/tax-not-calculated-tax-amount-zero-Picture2.png)](./media/tax-not-calculated-tax-amount-zero-Picture2.png)
 
 4. Eikite į **Mokestis** \> **Netiesioginiai mokesčiai** \> **PVM** \> **Prekės PVM grupės**.
 5. Pasirinkite atitinkamą prekės PVM grupę, tada nustatymo **„FastTab" patikrinkite, ar PVM kodo lauke esantis mokesčio kodas atitinka PVM** **grupės mokesčio** kodą.
 
-    [![Prekės pardavimo mokesčių grupių puslapis](./media/tax-not-calculated-tax-amount-zero-Picture3.png)](./media/tax-not-calculated-tax-amount-zero-Picture3.png)
+    [![Prekės pardavimo mokesčių grupių puslapis.](./media/tax-not-calculated-tax-amount-zero-Picture3.png)](./media/tax-not-calculated-tax-amount-zero-Picture3.png)
 
 6. Jei mokesčių kodai nesutampa, atnaujinkite vienos iš grupių PVM kodą.
 
@@ -53,12 +53,12 @@ Jei mokesčio kodai yra neapmokestinami arba jei mokesčio tarifas yra 0 (nulis)
 1. Eikite į **Mokestis** \> **Netiesioginiai mokesčiai** \> **PVM** \> **PVM grupės**.
 2. Pasirinkite atitinkamą PVM grupę, tada **nustatymo** „FastTab" patikrinkite, ar **išvalytas** žymės langelis Atleista. Jei jis pažymėtas, išvalykite.
 
-    [![PVM grupių puslapio žymės langelis Atleidžiamas nuo mokesčių](./media/tax-not-calculated-tax-amount-zero-Picture4.png)](./media/tax-not-calculated-tax-amount-zero-Picture4.png)
+    [![PVM grupių puslapio žymės langelis Atleidžiamas nuo mokesčių.](./media/tax-not-calculated-tax-amount-zero-Picture4.png)](./media/tax-not-calculated-tax-amount-zero-Picture4.png)
 
 3. Nueikite į **Mokestis** \> **Netiesioginiai mokesčiai** \> **PVM** \> **PVM kodai**.
 4. Pasirinkite tinkamą PVM kodą, tada patikrinkite, ar mokesčio tarifo vertė **vertės lauke** nėra 0 (nulis). Jei tai 0, atnaujinkite lauką, kad jis būtų nustatytas pagal teisingą mokesčio tarifą.
 
-    [![Vertės laukelis PVM kodų reikšmių puslapis](./media/tax-not-calculated-tax-amount-zero-Picture5.png)](./media/tax-not-calculated-tax-amount-zero-Picture5.png)
+    [![Vertės laukelis PVM kodų reikšmių puslapis.](./media/tax-not-calculated-tax-amount-zero-Picture5.png)](./media/tax-not-calculated-tax-amount-zero-Picture5.png)
 
 ## <a name="determine-whether-zero-is-the-correct-tax-amount"></a>Nustatyti, ar nulis yra teisinga mokesčio suma
 
@@ -67,7 +67,7 @@ Kai kuriuose scenarijuose 0 (nulis) esanti mokesčių suma yra teisinga. Norėda
 1. Eikite į **Didžioji knyga** \> **Didžiosios knygos nustatymas** \> **DK parametrai**.
 2. Skirtuko **PVM** lauke Skaičiavimo būdas **patikrinkite**, ar **pasirinkta Bendroji** suma.
 
-    [![Skaičiavimo metodo laukelis Didžiosios knygos parametrų puslapyje](./media/tax-not-calculated-tax-amount-zero-Picture6.png)](./media/tax-not-calculated-tax-amount-zero-Picture6.png)
+    [![Skaičiavimo metodo laukelis Didžiosios knygos parametrų puslapyje.](./media/tax-not-calculated-tax-amount-zero-Picture6.png)](./media/tax-not-calculated-tax-amount-zero-Picture6.png)
 
 3. Nueikite į **Mokestis** \> **Netiesioginiai mokesčiai** \> **PVM** \> **PVM kodai**.
 4. Pasirinkite atitinkamą PVM kodą, rinkitės **Skaičiavimas** \> **Maržos bazė** ir patikrinkite, ar maržos bazė yra nustatyta į **Grynoji sąskaitos balanso suma** ar **Bendra sąskaitos suma įskaičiuoja kitas mokesčių sumas**. Daugiau informacijos rasite SF [sumą, įskaitant kitas PVM sumas](marginal-base-field.md#invoice-total-incl-other-sales-tax-amounts).

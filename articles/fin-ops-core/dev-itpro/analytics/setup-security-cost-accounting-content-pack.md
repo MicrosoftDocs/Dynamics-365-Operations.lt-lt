@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 32093f4e47fe3d9ca691b70e15adfc3199e65beb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2e51c6914aab7261862a7ce180376b67d01711e3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754269"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359464"
 ---
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Kaštų apskaitos analizės „Power BI“ turinio apsaugos nustatymas
 
@@ -42,11 +42,11 @@ Norint paskirstyti prieigos lygio saugą „Power BI“, „Power BI“ turinio 
 3. Raskite „Power BI“ turinio **Kaštų apskaitos analizė** duomenų rinkinį.
 4. Atidarykite saugos puslapį.
 
-    ![Saugos puslapio atidarymas](./media/CA-picture-1.png)
+    ![Saugos puslapio atidarymas.](./media/CA-picture-1.png)
 
 5. **Savikainos objekto valdiklis** vaidmuo jau sukurtas. Įtraukite kitų narių, kurie yra Kaštų apskaitos prieigos lygio organizacijos hierarchijos dalis.
 
-    ![Narių įtraukimas](./media/CA-picture-2.png)
+    ![Narių įtraukimas.](./media/CA-picture-2.png)
 
 Į **Savikainos objekto valdiklis** vaidmenį įtraukti vartotojai, matys tik tuos duomenis, kuriuos jiems leidžiama matyti, pagal apibrėžimą Kaštų apskaitos prieigos lygio organizacijos hierarchijoje.
 

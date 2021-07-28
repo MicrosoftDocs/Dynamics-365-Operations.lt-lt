@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8a18bb14ba8c3c926065c97b0ee26c38ee86ded2
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 46532fce05b7faf15b3dc2e843dcd93a976c0da1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053280"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357270"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>Užduočių vedlių įrašymas į LCS ir pakartotinis leidimas
 
@@ -52,7 +52,7 @@ Norėdami įrašyti užduoties įrašą į LCS, atlikite toliau nurodytus veiksm
 10. Sukurkite užduoties įrašą.
 11. Baigę pasirinkite **Įrašyti į „Lifecycle Services“**.
 
-    ![Įrašyti į „Lifecycle Services“](media/task-guides.png)
+    ![Įrašyti į „Lifecycle Services“.](media/task-guides.png)
 
 12. Pasirinkite BPM biblioteką ir mazgą, į kuriuos norite įrašyti užduoties įrašą.
 

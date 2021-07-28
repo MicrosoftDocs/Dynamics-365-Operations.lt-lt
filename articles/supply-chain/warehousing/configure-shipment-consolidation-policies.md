@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 03150ccdaeaf48754f04a4329cb1bc14ea2b6895
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a9215672f4ace591bf7d964c8fbd3ad483bacca5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840418"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360429"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Siuntos konsolidacijos strategijų konfigūravimas
 
@@ -179,7 +179,7 @@ Atlikite šiuos veiksmus, norėdami sukurti šio verslo atvejo siuntos konsolida
 1. Parinktį **Konsoliduoti su atviromis siuntomis** palikite nustatytą į *Ne*.
 1. Veiksmų srityje pasirinkite **Įrašyti**.
 1. „FastTab” **Konsolidavimo laukai** sąraše **Likę laukai** pasirinkite eilutę, kurioje laukas **Lauko pavadinimas** nustatytas į *Pristatymo būdas*.
-1. Pasirinkite mygtuką **Įtraukti** ![Rodyklė dešinėn](media/forward-button.png), kad perkeltumėte lauką į sąrašą **Pasirinkti laukai**.
+1. Pasirinkite mygtuką **Įtraukti** ![Rodyklė dešinėn.](media/forward-button.png) lauko perkėlimui į **Pasirinkti laukai** sąrašą.
 1. Veiksmų srityje pasirinkite **Redaguoti užklausą**.
 1. Užklausos rengyklės dialogo lango skirtuko **Diapazonas** tinklelyje raskite eilutę, kurioje laukas **Laukas** nustatytas į *Kliento sąskaita*, ir nustatykite tos eilutės lauką **Kriterijai** į *US-001*.
 1. Pasirinkite **Įtraukti**, norėdami įtraukti eilutę, kuriai nustatyti tolesni parametrai, į tinklelį.
@@ -214,7 +214,7 @@ Atlikite šiuos veiksmus, norėdami sukurti šio verslo atvejo siuntos konsolida
 1. Nustatykite parinktį **Konsoliduoti su atviromis siuntomis** į *Taip*.
 1. Veiksmų srityje pasirinkite **Įrašyti**.
 1. „FastTab” **Konsolidavimo laukai** sąraše **Likę laukai** pasirinkite eilutę, kurioje laukas **Lauko pavadinimas** nustatytas į *Pristatymo būdas*.
-1. Pasirinkite mygtuką **Įtraukti** ![Rodyklė dešinėn](media/forward-button.png), kad perkeltumėte lauką į sąrašą **Pasirinkti laukai**.
+1. Pasirinkite mygtuką **Įtraukti** ![Rodyklė dešinėn.](media/forward-button.png) lauko perkėlimui į **Pasirinkti laukai** sąrašą.
 1. Veiksmų srityje pasirinkite **Redaguoti užklausą**.
 1. Užklausos rengyklės dialogo lango skirtuko **Sujungimai** medyje išplėskite ir pasirinkite **Lentelės \> Krovinio informacija**.
 1. Pasirinkite **Įtraukti lentelės sujungimą**.
@@ -251,9 +251,9 @@ Atlikite šiuos veiksmus, norėdami sukurti šio verslo atvejo siuntos konsolida
 1. Nustatykite parinktį **Konsoliduoti su atviromis siuntomis** į *Taip*.
 1. Veiksmų srityje pasirinkite **Įrašyti**.
 1. „FastTab” **Konsolidavimo laukai** sąraše **Likę laukai** pasirinkite eilutę, kurioje laukas **Lauko pavadinimas** nustatytas į *Kliento paraiška*.
-1. Pasirinkite mygtuką **Įtraukti** ![Rodyklė dešinėn](media/forward-button.png), kad perkeltumėte lauką į sąrašą **Pasirinkti laukai**.
+1. Pasirinkite mygtuką **Įtraukti** ![Rodyklė dešinėn.](media/forward-button.png) lauko perkėlimui į **Pasirinkti laukai** sąrašą.
 1. Sąraše **Likę laukai** pasirinkite eilutę, kurioje laukas **Lauko pavadinimas** nustatytas į *Pristatymo būdas*.
-1. Pasirinkite mygtuką **Įtraukti** ![Rodyklė dešinėn](media/forward-button.png), kad perkeltumėte lauką į sąrašą **Pasirinkti laukai**.
+1. Pasirinkite mygtuką **Įtraukti** ![Rodyklė dešinėn.](media/forward-button.png) lauko perkėlimui į **Pasirinkti laukai** sąrašą.
 1. Veiksmų srityje pasirinkite **Redaguoti užklausą**.
 1. Užklausos rengyklės dialogo lango skirtuke **Diapazonas** raskite eilutę, kurioje laukas **Laukas** nustatytas į *Kliento sąskaita*, ir nustatykite tos eilutės lauką **Kriterijai** į *US-001*.
 1. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą.
@@ -283,7 +283,7 @@ Atlikite šiuos veiksmus, norėdami sukurti šio verslo atvejo siuntos konsolida
 1. Parinktį **Konsoliduoti su atviromis siuntomis** palikite nustatytą į *Ne*.
 1. Veiksmų srityje pasirinkite **Įrašyti**.
 1. „FastTab” **Konsolidavimo laukai** sąraše **Likę laukai** pasirinkite eilutę, kurioje laukas **Lauko pavadinimas** nustatytas į *Pristatymo būdas*.
-1. Pasirinkite mygtuką **Įtraukti** ![Rodyklė dešinėn](media/forward-button.png), kad perkeltumėte lauką į sąrašą **Pasirinkti laukai**.
+1. Pasirinkite mygtuką **Įtraukti** ![Rodyklė dešinėn.](media/forward-button.png) lauko perkėlimui į **Pasirinkti laukai** sąrašą.
 1. Veiksmų srityje pasirinkite **Redaguoti užklausą**.
 1. Užklausos rengyklės dialogo lango skirtuke **Diapazonas** pasirinkite **Įtraukti**, kad įtrauktumėte eilutę, kuriai nustatyti tolesni parametrai, į tinklelį.
 
@@ -317,7 +317,7 @@ Paprastai šis verslo atvejis gali būti sprendžiamas naudojant numatytąsias s
 1. Parinktį **Konsoliduoti su atviromis siuntomis** palikite nustatytą į *Ne*.
 1. Veiksmų srityje pasirinkite **Įrašyti**.
 1. „FastTab” **Konsolidavimo laukai** lauke **Likę laukai** pasirinkite eilutę, kurioje laukas **Lauko pavadinimas** nustatytas į *Pristatymo būdas*.
-1. Pasirinkite mygtuką **Įtraukti** ![Rodyklė dešinėn](media/forward-button.png), kad perkeltumėte lauką į sąrašą **Pasirinkti laukai**.
+1. Pasirinkite mygtuką **Įtraukti** ![Rodyklė dešinėn.](media/forward-button.png) lauko perkėlimui į **Pasirinkti laukai** sąrašą.
 1. Veiksmų srityje pasirinkite **Redaguoti užklausą**.
 1. Užklausos rengyklės dialogo lango skirtuke **Diapazonas** raskite eilutę, kurioje laukas **Laukas** nustatytas į *Sandėlis*, ir nustatykite tos eilutės lauką **Kriterijai** į *61, 63*.
 1. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 94d38c5c3a091263b310f346f839e1a67d6c0609
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 79054573fa6f86bea5c4fe014233d71c01020348
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796129"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352595"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>Kanalo siekiant naudoti kanalų naršymo hierarchiją konfigūravimas
 
@@ -45,7 +45,7 @@ Norėdami sukonfigūruoti kanalą, kad būtų galima naudoti kanalo naršymo hie
 
 Toliau pateiktame vaizde parodoma, kaip sukonfigūruoti kanalą, kad būtų galima naudoti kanalo naršymo hierarchiją.
 
-![Kanalo konfigūravimo pavyzdys](media/configure-channel-hierarchy-1.png)
+![Kanalo konfigūravimo pavyzdys.](media/configure-channel-hierarchy-1.png)
 
 ## <a name="set-attribute-metadata"></a>Nustatyti atributo metaduomenis
 
@@ -61,9 +61,9 @@ Norėdami nustatyti atributų metaduomenis, atlikite toliau nurodytus veiksmus.
 
 Toliau pateiktame paveiksle parodyti kanalo produktų atributų, sukonfigūruotų kanalų kategorijos mazge, pavyzdžiai.
 
-![Kanalo atributai kanalo kategorijos mazgo](media/configure-channel-hierarchy-2.png)
+![Kanalo atributai kanalo kategorijos mazge.](media/configure-channel-hierarchy-2.png)
 
-## <a name="publish-changes"></a>Keitimų publikavimas
+## <a name="publish-changes"></a>Skelbti pakeitimus
 
 Kad atlikti pakeitimai įsigaliotų, turite juos publikuoti.
 
@@ -74,11 +74,11 @@ Norėdami publikuoti keitimus, atlikite toliau nurodytus veiksmus.
 
 Toliau pateiktame paveiksle parodyta, kaip publikuoti kanalo naujinimus.
 
-![Publikuoti kanalo naujinimus](media/configure-channel-hierarchy-3.png)
+![Publikuoti kanalo naujinimus.](media/configure-channel-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Kanalo naršymo hierarchijos kūrimas](create-channel-hierarchy.md)
+[Kanalų naršymo hierarchijos kūrimas](create-channel-hierarchy.md)
 
 
 

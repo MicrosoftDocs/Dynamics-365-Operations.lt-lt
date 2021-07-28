@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 71e4c8ad122bc52103bda04144222785e9a059f8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 406f87b5aaa5917fb075daca453e24f452611826
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817250"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359714"
 ---
 # <a name="add-location-and-party-relationship-types"></a>Vietos ir šalies ryšių tipo įtraukimas 
 
@@ -32,25 +32,25 @@ Norėdami galite įtraukti naujų vietos vaidmenų adresą ir kontaktinę inform
 
 -  Įtraukite jį puslapyje **Adreso ir kontaktinės informacijos paskirtis**. Naujas vaidmuo bus įrašytas į lentelę **LogisticsLocationRole**, kurios tipas = 0, tai rodo, kad vaidmuo nėra sistemos vaidmuo, nurodytas į **LogisticsLocationRoleType** išvardijimo ir jo plėtinius. Vartotojas galės naudotis šiuo vaidmeniu kurdamas adresą arba kontaktinę informaciją.
 
-    ![Adreso ir turinio informacijos paskirtis](media/Address-Contact.PNG)
+    ![Adreso ir turinio informacijos paskirtis.](media/Address-Contact.PNG)
 
 -  Įtraukite jį į išvardijimo plėtinį **LogisticsLocationRoleType** ir leiskite jam automatiškai įvesti duomenų bazės sinchronizavimo proceso metu.
 
     1.  Sukurkite išvardijimo **LogisticsLocationRoleType** plėtinį ir įtraukite naująjį vaidmenį į plėtinį. 
   
-        ![LogisticsLocationRoleType išvardijimo išplėtimas](media/Logistics.PNG)
+        ![„LogisticsLocationRoleType” išvardijimo išplėtimas.](media/Logistics.PNG)
 
     2. Sukurkite naują naujojo vaidmens išteklių failą ir tada jo ypatybėms priskirkite vertę.
      
-     ![Naujas išteklių failas](media/Resource.PNG)
+     ![Naujas išteklių failas.](media/Resource.PNG)
         
     3.  Sukurkite automatinio duomenų įvedimo klasę ir pateikite apdorojimo programos metodą automatiniam naujojo vaidmens įvedimui. 
 
-        ![Automatinis duomenų įvedimas](media/Dirdata.PNG)
+        ![Automatinis duomenų įvedimas.](media/Dirdata.PNG)
 
     4.  Norėdami patikrinti naujojo vietos vaidmens automatinį įvedimą, galite sukurti vykdomą klasę ir iškviesti DirDataPopulation::insertLogisticsLocationRoles() in Main(). Atlikę šį procesą, pamatysite naująjį vaidmenį automatiškai įvestą lentelėje **LogisticsLocationRole**, kurios tipas \>0. Naujasis vaidmuo bus rodomas puslapyje **Adreso ir kontaktinės informacijos paskirtis**.
 
-        ![Naujos vietos įterpimas](media/InsertNewLocation.PNG)
+        ![Naujos vietos įterpimas.](media/InsertNewLocation.PNG)
 
 ## <a name="add-party-relationship-types"></a>Šalių ryšių tipų įtraukimas 
 
@@ -58,7 +58,7 @@ Yra du būdai, kaip įtraukti naują ryšio tipą:
 
 -   Įtraukite jį puslapyje **Ryšių tipai**. Naujasis ryšys bus įrašytas į **DirRelationshipTypeTable**, kurios sistemos tipas = 0.
 
-    ![Ryšių tipai](media/Relationship.PNG)
+    ![Ryšių tipai.](media/Relationship.PNG)
 
 -  Įtraukite jį į išvardijimo plėtinį **DirSystemRelationshipType** ir leiskite jam automatiškai įvesti duomenų bazės sinchronizavimo proceso metu.
 
@@ -66,11 +66,11 @@ Yra du būdai, kaip įtraukti naują ryšio tipą:
 
     2. Sukurkite šio naujo tipo iniciatorių. Pagrindiniame kode rasite keletą pavyzdžių, vienas iš jų yra **DirRelationshipTypeChildInitialize**. Tai yra šalies ryšio, kurio tipas „Antrinis“, iniciatoriaus klasė. Galite pradėti nuo savo iniciatoriaus, nukopijavę ir įklijavę šį kodą ir tuomet atnaujinę paryškintas sritis.
     
-    ![DirRelationshipChild inicializatoriaus](media/DirRelationship.PNG)
+    ![„DirRelationshipChild” inicializatorius.](media/DirRelationship.PNG)
 
     3.  Norėdami patikrinti naujojo ryšio tipo automatinį įvedimą, galite sukurti vykdomą klasę ir iškviesti DirDataPopulation::insertDirRelationshipTypes() in Main(). Naująjį ryšio tipą turėtumėte pamatyti **DirRelationshipTypeTable**, be to, naujasis ryšio tipas bus pasiekiamas puslapyje **Ryšių tipai**.
 
-        ![Vykdoma klasė](media/Runnable.PNG)
+        ![Vykdoma klasė.](media/Runnable.PNG)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

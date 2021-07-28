@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fe387631a1716c6612f9d475faff56d0aef3fdc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6f23b4c15937a0e61eb64b25eadef58c1fda231e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791685"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354618"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>„Dynamics 365 Commerce“ produktų įvertinimų sinchronizavimas
 
@@ -59,7 +59,7 @@ Norėdami patikrinti, ar yra antrinė užduotis **RetailProductRating**, atlikit
 
 Toliau pateiktoje iliustracijoje rodomas išsamios antrinės užduoties informacijos programoje „Commerce“ pavyzdys.
 
-![Išsami antrinės užduoties „RetailProductRating“ informacija](media/rnr-hq-ratings-sub-job.png)
+![Išsami antrinės užduoties „RetailProductRating“ informacija.](media/rnr-hq-ratings-sub-job.png)
 
 > [!NOTE]
 > Jeigu antrinės užduoties **RetailProductRating** nerandate, galbūt užduotį **Produkto įvertinimų sinchronizavimas** ir užduotį **1040 CDX** įvykdėte prieš inicijuodami „Commerce” planuoklę. Tokiu atveju atlikite toliau nurodytus veiksmus, kad vykdytumėte užduotį **Visas duomenų sinchronizavimas**.
@@ -83,7 +83,7 @@ Norėdami produkto įvertinimus iš įvertinimų ir atsiliepimų tarnybos import
 
 Toliau pateiktoje iliustracijoje rodomas antrinės užduoties konfigūracijos programoje „Commerce“ pavyzdys.
 
-![Produkto įvertinimų sinchronizavimo paketinės užduoties konfigūracija](media/rnr-hq-batchjob-recurrence.png)
+![Produkto įvertinimų sinchronizavimo paketinės užduoties konfigūracija.](media/rnr-hq-batchjob-recurrence.png)
 
 ## <a name="verify-that-the-batch-job-for-product-rating-synchronization-was-successful"></a>Tikrinimas, ar produkto įvertinimų sinchronizavimo paketinė užduotis buvo sėkmingai įvykdyta
 
@@ -95,7 +95,7 @@ Norėdami patikrinti, ar paketinė užduotis **Produkto įvertinimų sinchroniza
 
 Toliau pateiktoje iliustracijoje parodytas išsamios paketinės užduoties informacijos programoje „Commerce“ pavyzdys, kai paketinė užduotis suplanuota vykdyti kas dvi valandas.
 
-![Produkto įvertinimų sinchronizavimo paketinės užduoties išsami informacija](media/rnr-hq-batchjob-status-checking.png)
+![Produkto įvertinimų sinchronizavimo paketinės užduoties išsami informacija.](media/rnr-hq-batchjob-status-checking.png)
 
 ## <a name="make-product-ratings-available-at-the-pos"></a>Produkto įvertinimų pateikimas EKA
 
@@ -113,21 +113,21 @@ Norėdami EKA įjungti produkto įvertinimus, atlikite toliau nurodytus veiksmus
 
 Toliau pateiktame paveikslėlyje parodytas „Commerce“ parametrų konfigūracijos norint EKA įjungti produkto įvertinimus pavyzdys.
 
-![„Commerce“ parametrų konfigūracijos norint EKA įjungti produkto įvertinimus pavyzdys](media/rnr-hq-enable-ratings-in-pos.png)
+![„Commerce“ parametrų konfigūracijos norint EKA įjungti produkto įvertinimus pavyzdys.](media/rnr-hq-enable-ratings-in-pos.png)
 
 Tolesnėje iliustracijoje pateikiamas produkto įvertinimų EKA pavyzdys.
 
-![Produkto įvertinimai EKA](media/rnr-pos-catalog-ratings.png)
+![Produkto įvertinimai EKA.](media/rnr-pos-catalog-ratings.png)
 
 Toliau pateiktoje iliustracijoje pateikiamas produkto įvertinimų skambučių centro kanaluose pavyzdys.
 
-![Produkto įvertinimai skambučių centro kanale](media/rnr-call-center-ratings.png)
+![Produkto įvertinimai skambučių centro kanale.](media/rnr-call-center-ratings.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Įvertinimų ir atsiliepimų apžvalga](ratings-reviews-overview.md)
 
-[Prisijunkite, norėdami naudoti įvertinimus ir atsiliepimus](opt-in-ratings-reviews.md)
+[Norėdami naudoti įvertinimus ir atsiliepimus, prisijunkite](opt-in-ratings-reviews.md)
 
 [Įvertinimų ir atsiliepimų tvarkymas](manage-reviews.md)
 

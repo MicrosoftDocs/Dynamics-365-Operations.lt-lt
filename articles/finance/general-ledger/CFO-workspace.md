@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b42fc4f0e299dc785ef465efc54286effccfb92b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e44e0ff5c36190d0f66afb6a59389fee826d8214
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823841"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360717"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Finansinių dimensijų įtraukimas į CFO darbo sritį
 
@@ -45,14 +45,14 @@ ms.locfileid: "5823841"
 11. Pakeiskite reikšmę **Kelių filtrų kryptys** į **Viena**.
 12. Pasirinkite **Suaktyvinti šį ryšį** ir **Naudoti nurodomąjį integralumą**, pasirinkite **Gerai**, tada pasirinkite **Uždaryti**.
 
-    [![Ryšio kūrimas](./media/Create-relationship.png)](./media/Create-relationship.png)
+    [![Ryšio kūrimas.](./media/Create-relationship.png)](./media/Create-relationship.png)
 
 13. Sąraše **Laukai** turėtų būti rodoma lentelė ir pasiekiamos finansinės dimensijos. Vilkite norimas finansines dimensijas į ataskaitų lygio filtrus.
 14. Įrašykite pakeitimus.
 15. Programos objektų medyje (AOT) dešiniuoju pelės mygtuku spustelėkite projektą, tada pasirinkite **Sinchronizuoti**.
 16. Sukurkite projektą, tada atidarykite programą, kad peržiūrėtumėte rezultatus.
 
-    [![Baigta darbo sritis](./media/workspace.png)](./media/workspace.png)
+    [![Baigta darbo sritis.](./media/workspace.png)](./media/workspace.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

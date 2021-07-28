@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4cf5a5fc2d40e66d189d281b343d1525edf7e8c5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5e9d1f33102ed08d9e5c486d4d1490d4b278a28e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744128"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360308"
 ---
 # <a name="accessibility-features"></a>Pritaikymo neįgaliesiems funkcijos
 
@@ -52,13 +52,13 @@ Kiekvieną veiksmą, kuris yra puslapyje, galima pasiekti klaviatūra, naudojant
 
 Norite vykdyti veiksmą **El. paštu siunčiamų pranešimų žurnalas**, kuris rodomas veiksmų srities grupės **El. paštu siunčiami pranešimai** skirtuke **Pardavimo užsakymas**.
 
-![El. paštu siunčiamų pranešimų žurnalo veiksmas veiksmų srityje](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Veiksmų srities veiksmas „el. paštu siunčiamų pranešimų žurnalas“")
+![El. paštu siunčiamų pranešimų žurnalo veiksmas veiksmų srityje.](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Veiksmų srities veiksmas „el. paštu siunčiamų pranešimų žurnalas“")
 
 Galima naudoti klaviatūrą. Paspauskite Ctrl + F6, kad perkeltumėte įvesties vietą į veiksmų sritį, tada kelis kartus paspauskite „Tab“, kad pereitumėte nuo vieno skirtuko ir veiksmo iki tol, kol bus suaktyvintas veiksmas **El. paštu siunčiamų pranešimų žurnalas**.
 
 Tačiau taip pat galite paleisti veiksmą labiau tiesiogiai. Bet kurioje puslapio vietoje paspauskite „Ctrl“ + apostrofą ('), kad būtų rodomas veiksmų ieškos laukas.
 
-![Veiksmų ieškos laukas](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Veiksmų ieškos laukas")
+![Veiksmų ieškos laukas.](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Veiksmų ieškos laukas")
 
 Ieškos lauke įveskite žodžius, apibūdinančius veiksmą. Veiksmas tampa prieinamas ir galite jį paleisti tiesiogiai. Pavyzdžiui, įvedę **el. paštas**, **praneš** (nepilnas žodis) arba **žurnalas**, galite „peršokti“ prie el. paštu siunčiamų pranešimų žurnalo funkcijos.
 

@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ac3d540ee3d1737e4e8be45394cd5807ae4a8d6f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9636348e7840206ad1ef5669eae7f553231cadf1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796153"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352619"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Skambučių centro pristatymo būdų ir mokesčių konfigūravimas
 
@@ -65,11 +65,11 @@ Skyriuje **Eilutės**, jei reikia, vieną ar kelias išlaidų sumas galite apibr
 
 Įmonės dažnai konfigūruoja pakopines išlaidas. Tokiu atveju suma, kurią, klientai sumoka už pristatymą, priklauso nuo užsakymo vertės. Norėdami sukonfigūruoti pakopines išlaidas, laukuose **Suma Nuo** ir **Suma Iki** įveskite reikšmes, o lauke **Išlaidų vertė** apibrėžkite pačią vertę. Pvz., užsakymų, kurių vertė mažesnė nei 50 USD, atveju, mažmenininkas už siuntas antžeminiu transportu taikys 5,95 USD mokestį. Užsakymų, kurių vertė lygi 50 USD arba yra didesnė, bet mažesnė nei 100 USD, atveju, mažmenininkas taikys 7,95 USD mokestį. Galiausiai, užsakymams, kurių vertė lygi arba didesnė 100 USD, atveju, mažmenininkas netaikys siuntimo mokesčio. Toliau pateiktoje iliustracijoje pavaizduota šių išlaidų konfigūracija.
 
-![Fiksuotų pakopinių išlaidų pavyzdys](media/fixedtieredcharges.png)
+![Fiksuotų pakopinių išlaidų pavyzdys.](media/fixedtieredcharges.png)
 
 Išlaidoms, priklausomai nuo jūsų verslo poreikių, galite taikyti mišrias kategorijas. Pvz., visų užsakymų, kurių vertė mažesnė nei 100 USD, atveju, yra taikomas fiksuotas 9,95 USD mokestis už siuntimą. Tada užsakymų, kurių vertė yra lygi 100 USD arba yra didesnė, pristatymo mokesčiai apskaičiuojami taikant 5 proc. tarifą nuo užsakymo vertės. Toliau pateiktoje iliustracijoje pavaizduota šių išlaidų konfigūracija.
 
-![Mišrių pakopinių išlaidų pavyzdys](media/mixedtieredcharges.png)
+![Mišrių pakopinių išlaidų pavyzdys.](media/mixedtieredcharges.png)
 
 ## <a name="apply-delivery-modes-during-order-entry-in-a-call-center"></a>Pristatymo būdų taikymas atliekant užsakymą skambučių centre
 

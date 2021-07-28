@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 260594
+ms.custom:
+- "260594"
+- intro-internal
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: e495ac4f3cc55503cc8b15d4d4640d3468ab7cd2
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 679c8d7895ac82236c12732e1080529f44231947
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936735"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349631"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Kliento užsakymai elektroniniame kasos aparate (EKA)
 
@@ -44,7 +46,7 @@ Prieš pradėdami naudoti kliento užsakymų funkciją EKA, įsitikinkite, kad a
 
 Norėdami naudoti kliento užsakymus, turite sukonfigūruoti pristatymo būdus, kuriuos gali naudoti parduotuvės kanalas. Turite apibrėžti bent vieną pristatymo būdą, kurį galima naudoti, kai užsakymo eilutės siunčiamos klientui iš parduotuvės. Taip pat turite apibrėžti bent vieną pristatymo paėmimo būdą, kurį galima naudoti, kai užsakymo eilutės paimamos iš parduotuvės. Pristatymo būdai apibrėžiami „Commerce Headquarters“ puslapyje **Pristatymo būdai**. Daugiau informacijos apie tai, kaip nustatyti „Commerce“ kanalų pristatymo būdus, žr. [Pristatymo būdų apibrėžimas](./configure-call-center-delivery.md#define-delivery-modes).
 
-![Puslapis pristatymo būdai](media/customer-order-modes-of-delivery.png)
+![Puslapis Pristatymo būdai.](media/customer-order-modes-of-delivery.png)
 
 
 ### <a name="set-up-fulfillment-groups"></a>Įvykdymo grupių nustatymas
@@ -53,7 +55,7 @@ Kai kurios parduotuvės ar sandėlių vietos gali neįvykdyti klientų užsakym�
 
 „Commerce“ versijoje 10.0.12 ir vėlesnėse, organizacijos gali nustatyti, ar sandėlis arba sandėlio ir parduotuvės deriniai, nustatyti įgyvendinimo grupėse, gali būti naudojami siuntimui, paėmimui ar ir siuntimui, ir paėmimui. Tai leidžia įtraukti lankstumo į verslą siekiant nustatyti, kurie sandėliai gali būti pasirinkti sukuriant kliento užsakymą siunčiamiems objektams pagal parduotuves, kurias galima pasirinkti sukuriant kliento užsakymą paimamiems objektams. Norėdami konfigūruoti šias parinktis, įjunkite **Galimybė nurodyti vietas kaip „Siuntimas“ ar „Paėmimas“ įjungtas įgyvendinimo grupėje** funkciją. Jei sandėlis susietas su įgyvendinimo grupe nėra parduotuvė, jis gali būti konfigūruojamas tik kaip siuntimo vieta. Jo negalima naudoti, kai paėmimo užsakymai yra sukonfigūruoti EKA.
 
-![Puslapis Įvykdymo grupės](media/customer-order-fulfillment-group.png)
+![Puslapis Įvykdymo grupės.](media/customer-order-fulfillment-group.png)
 
 ### <a name="configure-channel-settings"></a>Kanalo parametrų konfigūravimas
 
@@ -65,7 +67,7 @@ Kai dirbate su kliento užsakymais EKA, turite atsižvelgti į kai kuriuos pardu
 - **Naudoti paskirties vietos mokesčius** – ši parinktis nurodo, ar siuntimo adresas naudojamas mokesčių grupei, taikomai užsakymo eilutėms, siunčiamoms kliento adresu, nustatyti.
 - **Naudoti kliento mokesčius** – ši parinktis nurodo, ar mokesčių grupė, apibrėžta kliento pristatymo adresui, naudojama apmokestinti klientų užsakymus, sukurtus EKA, siuntimui į kliento namus.
 
-![Parduotuvės kanalo nustatymas puslapyje Parduotuvės](media/customer-order-all-stores.png)
+![Parduotuvės kanalo nustatymas puslapyje Parduotuvės.](media/customer-order-all-stores.png)
 
 ### <a name="set-up-customer-order-parameters"></a>Kliento užsakymo parametrų nustatymas
 
@@ -80,7 +82,7 @@ Prieš pradėdami kurti kliento užsakymus EKA, turite sukonfigūruoti tinkamus 
 - **Siuntimo mokesčio kodas** – jei parinktis **Naudoti išplėstinius automatinius mokesčius** nustatyta į **Taip**, šis parametro nustatymas neturi jokios įtakos. Jei parinktis nustatyta į **Ne**, vartotojai bus raginami rankiniu būdu įvesti siuntimo mokestį, kai jie sukurs kliento užsakymus EKA. Naudokite šį parametrą norėdami susieti gautinų sumų mokesčio kodą, kuris bus taikomas užsakymams, kai vartotojai įves siuntimo mokestį. Mokesčio kodas apibrėžia siuntimo mokesčio finansų registravimo logiką.
 - **Naudoti išplėstinius automatinius mokesčius** – nustatykite šią parinktį į **Taip**, norėdami naudoti sistemos apskaičiuotus automatinius mokesčius, kai klientų užsakymai kuriami EKA. Šie automatiniai mokesčiai gali būti naudojami apskaičiuojant siuntimo mokesčius ar kitus užsakymo ar prekės mokesčius. Norėdami gauti daugiau informacijos apie tai, kaip nustatyti ir naudoti išplėstinius automatinius mokesčius, žr. [Daugiakanaliai išplėstiniai automatiniai mokesčiai](./omni-auto-charges.md).
 
-![Skirtukas Kliento užsakymai „Commerce” parametrų puslapyje](media/customer-order-parameters.png)
+![Skirtukas Kliento užsakymai „Commerce” parametrų puslapyje.](media/customer-order-parameters.png)
 
 ### <a name="update-transaction-screen-layouts-in-pos"></a>Operacijų ekrano išdėstymo EKA naujinimas
 
@@ -95,7 +97,7 @@ Prieš pradėdami kurti kliento užsakymus EKA, turite sukonfigūruoti tinkamus 
 - **Keisti pristatymo būdą** – ši operacija gali būti naudojama norint greitai pakeisti eilučių, kurios jau sukonfigūruotos siuntimui, pristatymo būdą, nereikalaujant, kad vartotojai vėl pereitų srautus „Siųsti visus produktus“ arba „Siųsti pasirinktus produktus“.
 - **Įmokos keitimas** – šią operaciją galima naudoti norint pakeisti įmokos sumą, kurią klientas sumokės už pasirinktą kliento užsakymą.
 
-![Operacijos EKA operacijų ekrane](media/customer-order-screen-layout.png)
+![Operacijos EKA operacijų ekrane.](media/customer-order-screen-layout.png)
 
 ## <a name="work-with-customer-orders-in-pos"></a>Darbas su kliento užsakymais POS
 

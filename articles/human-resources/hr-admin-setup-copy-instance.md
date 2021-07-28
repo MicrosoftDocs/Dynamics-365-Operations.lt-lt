@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8961b7156f52e48dbfcf7efb14e50316e81fcfff
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: bd5a92470b711b9d316e4fe96aecadd7252ff807
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053688"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360154"
 ---
 # <a name="copy-an-instance"></a>Egzemplioriaus kopijavimas
 
@@ -71,11 +71,11 @@ Norėdami atlikti šią užduotį, pirmiausia nukopijuokite egzempliorių, tada 
 
 4. Užduočių srityje **Kopijuoti egzempliorių** pasirinkite egzempliorių, kurį norite perrašyti, tada – **Kopijuoti**. Palaukite, kol lauko **Kopijuoti būseną** reikšmė bus atnaujinta į **Baigta**.
 
-   ![[Perrašytino egzemplioriaus pasirinkimas](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Perrašytino egzemplioriaus pasirinkimas.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Pažymėkite **„Power Platform“** ir prisijunkite prie „Microsoft Power Platform“ administravimo centro.
 
-   ![[„Power Platform“ pasirinkimas](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Pasirinkt „Power Platform”.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Pasirinkite kopijuotiną „Power Apps“ aplinką ir pasirinkite **Kopijuoti**.
 

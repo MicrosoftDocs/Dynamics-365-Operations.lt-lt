@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9aac18155fbc7a87554ac0521cd9f40d11eba9e2
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 35a2abaa2165288097bc07b47320e002efc290e7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890836"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348491"
 ---
 # <a name="set-up-electronic-invoicing"></a>Elektroninių SF nustatymas
 
@@ -37,7 +37,7 @@ Konfigūravimas paremtas elektroninių ataskaitų (ER) formato konfigūracija ka
 
 Toliau pateiktame paveikslėlyje vaizduojama pagrindiniai elektroninių SF išrašymo priedo funkcijos komponentai.
 
-![Elektroninių SF išrašymo priedo funkcijos apžvalga](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
+![Elektroninių SF išrašymo priedo funkcijos apžvalga.](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
 
 Funkcijos nustatymas gali skirtis priklausomai nuo šalies ar regiono arba verslo reikalavimų, nes SF formatai ir veiksmų srautai skiriasi.
 
@@ -50,7 +50,7 @@ Nustatymo procesas turi būti atliktas jūsų RCS aplinkoje. Atlikite toliau pat
 3. Puslapyje **Elektroninių SF išrašymo priedo funkcijos** pasirinkite **Importuoti**, norėdami importuoti ER duomenų modelio konfigūraciją iš visuotinės saugyklos.
 4. Pasirinkite **Įtraukti**, norėdami sukurti elektroninių SF išrašymo priedo funkciją. Šią funkciją galite kurti nuo pradžių arba išvesti ją iš esamos elektroninių SF išrašymo priedo funkcijos.
 
-    ![Elektroninių SF išrašymo priedo funkcijos įtraukimas](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
+    ![Elektroninių SF išrašymo priedo funkcijos įtraukimas.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
 
 > [!NOTE]
 > Kuriant naują elektroninių SF išrašymo priedo funkciją, ji turi versijos numerį, o numatytoji būsena nustatyta į **Juodraštis**.
@@ -63,21 +63,21 @@ Atlikite toliau pateiktus veiksmus, norėdami įtraukti ER formatų į elektroni
 
 1. Puslapio **Elektroninių SF išrašymo priedo funkcijos** skirtuke **Konfigūracijos** pasirinkite **Įtraukti**, kad įtrauktumėte ER failo formato konfigūracijas, skirtas elektroninių SF išrašymo priedo funkcijai.
 
-    ![Elektroninių SF išrašymo priedo funkcijos konfigūracijų įtraukimas](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
+    ![Elektroninių SF išrašymo priedo funkcijos konfigūracijų įtraukimas.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > Kurdami elektroninių SF išrašymo priedo funkciją nuo pradžių, turite neautomatiniu būdu įtraukti visas ER failo formato konfigūracijas. Kai išvedate elektroninių SF išrašymo priedo funkciją iš esamos funkcijos, ER failo formato konfigūracijos sukuriamos automatiškai, nes jos perduodamos iš pradinės elektroninių SF išrašymo priedo funkcijos.
 
 2. Pasirinkite **Redaguoti**, kad būtų atidarytas puslapis **Formato dizaino įrankis**, kuriame galite redaguoti ER failo formato konfigūraciją.
 
-    ![Elektroninių SF išrašymo priedo funkcijos konfigūracijų redagavimas](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
+    ![Elektroninių SF išrašymo priedo funkcijos konfigūracijų redagavimas.](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > Redaguojant formatą, konfigūracijos versijos būsena nustatoma į **Juodraštis**.
 
 3. Norėdami pakeisti failo formato konfigūraciją, naudokite puslapį **Formato dizaino įrankis**. Daugiau informacijos žr. [Elektroninių dokumentų konfigūracijų kūrimas](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md).
 
-    ![Formato dizaino įrankio puslapis](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
+    ![Formato dizaino įrankio puslapis.](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
 
 ### <a name="feature-setups"></a>Funkcijos nustatymai
 
@@ -87,18 +87,18 @@ Atlikite toliau pateiktus veiksmus, norėdami įtraukti funkcijos nustatymų į 
 
 1. Puslapio **Elektroninių SF išrašymo priedo funkcijos** skirtuke **Nustatymai** pasirinkite **Įtraukti**, kad įtrauktumėte funkcijos nustatymų į elektroninių SF išrašymo priedo funkciją.
 
-    ![Elektroninių SF išrašymo priedo funkcijos nustatymų įtraukimas](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
+    ![Elektroninių SF išrašymo priedo funkcijos nustatymų įtraukimas.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
 
     > [!NOTE]
     > Kurdami elektroninių SF išrašymo priedo funkciją nuo pradžių, turite neautomatiniu būdu įtraukti visus reikiamus funkcijos nustatymus. Kai išvedate elektroninių SF išrašymo priedo funkciją iš esamos funkcijos, visi funkcijos nustatymai sukuriami automatiškai, nes jie perduodami iš pradinės elektroninių SF išrašymo priedo funkcijos.
 
 2. Pasirinkite **Redaguoti**, norėdami redaguoti funkcijos versijos nustatymą.
 
-    ![Elektroninių SF išrašymo priedo funkcijos nustatymų redagavimas](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
+    ![Elektroninių SF išrašymo priedo funkcijos nustatymų redagavimas.](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
 
 3. Norėdami konfigūruoti veiksmus, taikymo taisykles ir kintamuosius, naudokite puslapį **Funkcijos versijos nustatymas**.
 
-    ![Veiksmai, taikymo taisyklės ir kintamieji](media/e-Invoicing-services-feature-setup-View-Actions-Applicability-Rules-Variables.png)
+    ![Veiksmai, taikymo taisyklės ir kintamieji.](media/e-Invoicing-services-feature-setup-View-Actions-Applicability-Rules-Variables.png)
 
 ### <a name="actions"></a>Veiksmai
 
@@ -113,7 +113,7 @@ Puslapio **Funkcijos versijų nustatymas** skirtuko **Veiksmai** „FastTab“ *
 - Pasirinkite **Naujas** ar **Naikinti** , norėdami įtraukti naujų veiksmų arba panaikinti esamus.
 - Pasirinkite **Aukštyn** arba **Žemyn**, norėdami perkelti pažymėtus veiksmus tinklelyje aukštyn arba žemyn ir pakeisti tvarką, kuria jie vykdomi. Veiksmai vykdomi tokia tvarka, kokia jie rodomi tinklelyje – iš viršaus į apačią.
 
-![Veiksmų valdymas](media/e-Invoicing-services-feature-setup-Manage-Actions.png)
+![Veiksmų valdymas.](media/e-Invoicing-services-feature-setup-Manage-Actions.png)
 
 Toliau pateikta lentelė aprašo laukus, pasiekiamus „FastTab” **Veiksmai**.
 
@@ -129,7 +129,7 @@ Toliau pateikta lentelė aprašo laukus, pasiekiamus „FastTab” **Veiksmai**.
 
 „FastTab” **Parametrai** pateikia veiksmo, pasirinkto „FastTab” **Veiksmai**, parametrus.
 
-![„FastTab” Parametrai](media/e-Invoicing-services-feature-setup-View-Actions-Parameters.png)
+![„FastTab” Parametrai.](media/e-Invoicing-services-feature-setup-View-Actions-Parameters.png)
 
 Toliau pateikta lentelė aprašo laukus, pasiekiamus „FastTab” **Parametrai**.
 
@@ -259,20 +259,20 @@ Pritaikymo taisyklės leidžia kurti logines taisykles, apibrėžiančias funkci
 
 1. Puslapio **Funkcijos versijos nustatymas** skirtuke **Taikymo taisyklės** pasirinkite **Nauja**, kad įtrauktumėte taikymo taisyklę.
 
-    ![Taikymo taisyklių valdymas](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
+    ![Taikymo taisyklių valdymas.](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
 
 2. Tinklelyje pasirinkite sąlygas, kurias reikia sugrupuoti.
 3. Pasirinkite **Grupuoti sąlygą**.
 
-    ![Sąlygų grupavimas](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-clause.png)
+    ![Sąlygų grupavimas.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-clause.png)
 
     Kai sąlygos grupuojamos, į tinklelį įtraukiamas naujas stulpelis. Šis stulpelis nurodo sugrupuotų sąlygų loginį operatorių.
 
-    ![Sugrupuotų sąlygų loginis operatorius](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-criterias.png)
+    ![Sugrupuotų sąlygų loginis operatorius.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-criterias.png)
 
 Norėdami išgrupuoti sąlygas, pasirinkite sugrupuotas sąlygas, kurias norite išgrupuoti, ir pasirinkite **Išgrupuoti sąlygą**.
 
-![Sąlygų išgrupavimas](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-UnGroup-criterias.png)
+![Sąlygų išgrupavimas.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-UnGroup-criterias.png)
 
 > [!NOTE]
 > Kai išgrupuojate sąlygą, visada pradėkite nuo giliausio grupavimo lygio.
@@ -294,7 +294,7 @@ Galite kurti kintamuosius ir juos naudoti kaip konkretaus veiksmo parametro įve
 
 - Puslapio **Funkcijos versijos nustatymas** skirtuke **Kintamieji** pasirinkite **Naujas** arba **Naikinti**, norėdami valdyti kintamuosius.
 
-    ![Kintamųjų valdymas](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
+    ![Kintamųjų valdymas.](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
 
 Toliau pateikta lentelė aprašo laukus, pasiekiamus skirtuke **Kintamieji**.
 
@@ -310,7 +310,7 @@ Toliau pateikta lentelė aprašo laukus, pasiekiamus skirtuke **Kintamieji**.
 
 - Puslapio **Funkcijos versijos nustatymas**  veiksmų srityje pasirinkite **Tikrinti**, norėdami tikrinti funkcijos versijos nustatymą.
 
-   ![Mygtuko Tikrinti pasirinkimas](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
+   ![Mygtuko Tikrinti pasirinkimas.](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
 
 Tikrinimo metu tikrinamas visos konfigūracijos vientisumas. Pavyzdžiui, jei konkretus veiksmo parametras yra privalomas, tačiau jo reikšmė lieka tuščia, tikrinimas aptinka šį nenuoseklumą ir jūs gaunate įspėjimą.
 
@@ -323,7 +323,7 @@ Atlikite toliau pateiktus veiksmus, norėdami įjungti elektroninių SF išrašy
 1. Puslapio **Elektroninių SF išrašymo priedo funkcijos** skirtuke **Aplinkos** pasirinkite **Įjungti**, kad įtrauktumėte elektroninių SF išrašymo priedo aplinką.
 2. Lauke **Galioja nuo** įveskite datą, kada nauja aplinka įsigalioja.
 
-![Elektroninių SF išrašymo priedo aplinkos įjungimas](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
+![Elektroninių SF išrašymo priedo aplinkos įjungimas.](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
 
 ## <a name="organizations"></a>Organizacijos
 

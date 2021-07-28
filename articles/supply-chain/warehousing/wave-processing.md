@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 4bf47b15b668a37f12edb3dbb842d19655fac97a
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 76b11eaec0f22393e877c2837e2533a176018f2b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019032"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355487"
 ---
 # <a name="wave-creation-and-processing"></a>Bangos kūrimas ir apdorojimas
 
@@ -42,7 +42,7 @@ Galite nurodyti,kurią iš šių gamybos užsakymo parinkčių naudoti pagal num
 
 Šioje diagramoje parodyta, kaip kuriamos, apdorojamos ir išleidžiamos siuntimo bangos. Skaičiai atitinka tolesnius šios temos skyrius.
 
-![Bangos kūrimo procesas](media/wave-processing-diagram.png "Bangos kūrimo procesas")
+![Bangos kūrimo procesas.](media/wave-processing-diagram.png "Bangos kūrimo procesas")
 
 ### <a name="prerequisites"></a>Būtinieji komponentai
 
@@ -158,7 +158,7 @@ Kai *Suplanuoto darbo kūrimo* funkcija yra įjungta, bangos apdorojimas sukurs 
 
 Šiose struktūrinėse schemose parodyta, kaip bangos apdorojimo metu sukuriamas suplanuotas darbas.
 
-![Darbo grafiko kūrimas](media/schedule-work-creation-process.png)
+![Darbo grafiko kūrimas.](media/schedule-work-creation-process.png)
 
 ### <a name="planned-work"></a>Suplanuotas Darbas
 

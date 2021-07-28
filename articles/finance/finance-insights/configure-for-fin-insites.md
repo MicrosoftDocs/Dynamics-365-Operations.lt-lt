@@ -1,6 +1,6 @@
 ---
-title: „Finance Insights” konfigūracija - versijos iki 10.0.19
-description: Šioje temoje paaiškinami konfigūravimo veiksmai, kuriuos jums atlikus sistema galės naudotis modulio „Finance Insights” galimybėmis versijoms iki 10.0.19.
+title: „Finance Insights” konfigūracija – versijoms iki 10.0.19
+description: Šioje temoje paaiškinami konfigūravimo veiksmai, kuriuos jums atlikus sistema galės naudotis modulio „Finance Insights” galimybėmis versijose iki 10.0.19.
 author: ShivamPandey-msft
 ms.date: 06/03/2021
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 6ad06bb6d041fc060b3a99538f6d4d0af333180f
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 6b578962839a34a1e2ce0311f7d8e7ee57a10927
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186425"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357443"
 ---
-# <a name="configuration-for-finance-insights-preview"></a>Modulio „Finance Insights” konfigūracija (peržiūros versija)
+# <a name="configuration-for-finance-insights-for-private-preview-preview---before-version-10019"></a>„Finance Insights“ konfigūracija, skirta asmeninei negalutinei versijai (peržiūros versija) – iki 10.0.19 versijos
 
 [!include [banner](../includes/banner.md)]
 
@@ -31,7 +31,7 @@ ms.locfileid: "6186425"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> Šios „Finance insights“ nustatymo procedūros galioja iki „Microsoft Dynamics 365 Finance“ 10.0.19 versijoms iki 10.0.19. Norėdami nustatyti „Finance insights“ apie 10.0.20 ir vėlesnę versiją,[žr. „Finance Insights“ konfigūracijos (peržiūra) – 10.0.20 ir vėlesnės versijos](configure-for-fin-insites-PubPrvw.md).
+> Šios „Finance insights“ nustatymo procedūros galioja „Microsoft Dynamics 365 Finance“ versijoms iki 10.0.19. Norėdami nustatyti „Finance insights“ apie 10.0.20 ir vėlesnę versiją,[žr. „Finance Insights“ konfigūracijos (peržiūra) – 10.0.20 ir vėlesnės versijos](configure-for-fin-insites-PubPrvw.md).
 
 Modulyje „Finance Insights” sujungiamos „Microsoft Dynamics 365 Finance“ ir „Microsoft Dataverse“, „Azure“ bei „AI Builder“ funkcijos, kad jūsų organizacijai būtų suteikiami galingi prognozavimo įrankiai. Šioje temoje paaiškinami konfigūravimo veiksmai, kuriuos jums atlikus sistema galės naudotis modulio „Finance Insights” galimybėmis.
 
@@ -59,7 +59,7 @@ Norėdami sukonfigūruoti „Finance insights“, „Dataverse“ atlikite nurod
 
     1. Atidarykite puslapį **Aplinkos**.
 
-        [![Puslapis Aplinkos](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)
+        [![Puslapis Aplinkos.](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)
 
     2. Pasirinkite „Dataverse“ prieš tai sukurtą aplinką ir tada rinkitės **Parametrai**.
     3. Pasirinkite **Ištekliai \> Visi senstelėję parametrai**.
@@ -792,6 +792,8 @@ Papildinys bus įdiegtas per kelias minutes.
     | CDS organizacijos URL                                     | Organizacijos „Dataverse“ URL nukopijuotas iš aukščiau. |
     | CDS org. ID                                               | Organizacijos „Dataverse“ ID nukopijuotas iš aukščiau. |
 5. įjunkite **Ar tai numatytoji nuomotojo aplinka**.
+
+Papildinio įdiegimas gali užtrukti kelias minutes.
     
 ## <a name="configure-the-entity-store"></a>Objektų saugyklos konfigūravimas
 

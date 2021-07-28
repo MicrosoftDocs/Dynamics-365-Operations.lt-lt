@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c31564fdc40cb0cba82b9ab8fbfdfee7adf4f4ee
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 579f2946bceceaacc3e4f1d664a5211ce40f705e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053014"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353691"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>Išmokų programos nustatymas ir valdymas
 
@@ -32,7 +32,7 @@ Personalas pateikia įrankius, kuriuos galima naudoti norint nustatyti ir tvarky
 
 Norėdami, kad darbuotojams būtų paskirtos išmokos, turite sukurti kiekvienos išmokos elementus. Šie elementai sujungia panašius išmokų planus ir nustatyto numatytuosius parametrus, pvz., atskaitymo kursus ir apskaitos informaciją. Daugelį šių parametrų galima koreguoti vėliau, kai darbuotojams paskiriamos išmokos. Kiekvienam išmokų planui organizacija gali pasiūlyti kelias registracijos pasirinktis arba darbuotojas gali atsisakyti registracijos plane. 
 
-[![Išmokos proceso srautas](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
+[![Išmokos proceso srautas.](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
 
 ## <a name="benefit-elements"></a>Išmokos elementai
 
@@ -44,7 +44,7 @@ Prieš pradėdami kurti išmokas ir registruoti jose darbuotojus, turite nurodyt
 
 Kiekvienam išmokos tipui, pvz., regėjimo ar dantų gydymo, organizacija savo darbuotojams gali pasiūlyti vieną ar kelis planus. Kiekvienam planui organizacija gali pasiūlyti skirtingas pasirinktis. Pvz., darbuotojai, gali įsigyti papildomo laikotarpio gyvybės draudimą, kurio vertė atitinka vieną, du ar tris jų metinius atlyginimus. Kiekvienas plano ir pasirinkčių derinys tampa išmoka, kurią gali gauti darbuotojai. 
 
-[![išmokų paveikslėlis](./media/benefit-pic.png)](./media/benefit-pic.png)
+[![išmokų paveikslėlis.](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>Tinkamumas
 Darbuotojo tinkamumas įvairiems darbdavio siūlomiems išmokų tipams priklauso nuo daugelio faktorių. Kai sukuriate „Dynamics 365 Human Resources“ išmoką, galite nustatyti tai išmokai taikomą tinkamumo tipą. 

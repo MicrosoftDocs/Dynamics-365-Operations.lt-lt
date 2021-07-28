@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 86f15831f11dc9fdcada9639858fd3b18cdc7503
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 35fd48ef300d46d00c07f3231d780d1ba431d8ef
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271106"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350575"
 ---
 # <a name="message-processor-messages"></a>Pranešimų procesoriaus pranešimai
 
@@ -88,15 +88,15 @@ Kaip aktyvinimo proceso dalį jūs nurodysite, ar įvykis yra konkretus vienam a
 
 1. [„Power Automate“](https://preview.flow.microsoft.com), sukurkite naują automatizuotą debiesies srautą srauto paleidikliui **Įvykus veiklos įvykiui - „Fin & Ops App“ („Dynamics 365“)** po kurios seka **„Parse JSON“** ir **Siųsti el. laišką** veiksmus, kaip parodyta tolesniame paveikslėlyje.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Power Automate automatizuotas debesies srautas":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Power Automate automatizuotas debesies srautas.":::
 
 1. Kai verslo įvykis įvyksta, galite peržiūrėti ar įvesti centro egzempliorių pagal kategoriją ir tada apdorojamas verslo įvykio pranešimų procesoriaus pranešimas, kaip parodyta toliau pateiktame **kaip** **parodyta** **toliau** **pateiktame** *pavyzdyje*.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Power Automate Kai vyksta verslo įvykis, veiksmas":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Power Automate Kai vyksta verslo įvykis, veiksmas.":::
 
 1. Įveskite **veiksmą Parse** JSON, **schemą,** apibrėžiaą išplėstinius laukus. Galite naudoti atsisiuntimo schemos parinktį verslo įvykių katalogo puslapyje „Supply Chain Management“ arba *pradėti* įklijuodami **į** pavyzdinį schemos tekstą. Šis pavyzdis tekstas pateikiamas po šio pavyzdyje.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Power Automate Išanalizuoti JSON veiksmą":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Power Automate Išanalizuoti JSON veiksmą.":::
 
     ```json
     {
@@ -183,7 +183,7 @@ Kaip aktyvinimo proceso dalį jūs nurodysite, ar įvykis yra konkretus vienam a
 
 1. El. laiško siuntimo veiksme galite pasirinkti atskirus laukus arba pradėti įklijuodami el. **laiško** pranešimo pavyzdį į **lauką** Tekstas. Šis pavyzdis tekstas pateikiamas po šio pavyzdyje.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Power Automate el. laiško siuntimo veiksmas":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Power Automate el. laiško siuntimo veiksmas.":::
 
     ```plaintext
     Message queue: @{body('Parse_JSON')?['MessageQueue']}

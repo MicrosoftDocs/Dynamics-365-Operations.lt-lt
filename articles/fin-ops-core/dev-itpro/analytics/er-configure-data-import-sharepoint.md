@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 582a59f72e0e59f58191aeb00a7605b0ea08b2d3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 48c5b876108d877a03785f1ed1d48261f22b124b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753797"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357623"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Duomenų importavimo iš „SharePoint“ konfigūravimas
 
@@ -47,13 +47,13 @@ Leiskite užduočių vedlius **ER importavimo duomenys iš „Microsoft Excel“
 - ER modelio konfigūracija, **1099 mokėjimų modelis**
 - ER formato konfigūracija, **Tiekėjų operacijų importavimo iš „Excel“ formatas**
 
-![ER konfigūracijos duomenims importuoti iš „SharePoint“](./media/GERImportFromSharePoint-01-Configurations.PNG)
+![ER konfigūracijos duomenims importuoti iš „SharePoint“.](./media/GERImportFromSharePoint-01-Configurations.PNG)
 
 #### <a name="sample-of-the-incoming-file-for-data-import"></a>Gaunamo duomenų importavimo failo pavyzdys
 
 - „Excel“ failas **1099import-data.xlsx**, kuriame yra tiekėjo operacijos, kurias reikia importuoti.
 
-![„Excel“ failo, skirto importuoti iš „SharePoint“, pavyzdys](./media/GERImportFromSharePoint-02-Excel.PNG)
+![„Excel“ failo, skirto importuoti iš „SharePoint“, pavyzdys.](./media/GERImportFromSharePoint-02-Excel.PNG)
     
 > [!NOTE]
 > Tiekėjo operacijų importavimo formatas pasirenkamas kaip numatytasis modelio susiejimas. Todėl jei vykdote modelio susiejimą **1099 mokėjimų modelis** ir to modelio susiejimo tipas yra **Į paskirties vietą**, modelio susiejimas vykdo šį formatą importuojant duomenis iš išorinių failų. Tada šie duomenys naudojami atnaujinant programos lenteles.
@@ -68,7 +68,7 @@ Norėdami saugoti elektroninių ataskaitų failus „SharePoint“ vietoje, turi
      - Failų importavimo šaltinis (pagrindinis) (ekrano kopijoje apačioje rodomas pavyzdys)
      - Failų importavimo šaltinis (alternatyvus)
 
-    ![Failų importavimo šaltinis (pagrindinis)](./media/GERImportFromSharePoint-04-SharePointFolder1.png)
+    ![Failų importavimo šaltinis (pagrindinis).](./media/GERImportFromSharePoint-04-SharePointFolder1.png)
 
 4. (Pasirinktinai) sukurkite šiuos aplankus, kur gali būti saugomi failai atlikus importavimą. 
 
@@ -79,7 +79,7 @@ Norėdami saugoti elektroninių ataskaitų failus „SharePoint“ vietoje, turi
 4. Eikite į **Organizacijos administravimas > Dokumentų valdymas > Dokumentų tipai**.
 5. Sukurkite toliau nurodytus dokumentų tipus, kurie bus naudojami pasiekti „SharePoint“ aplankus, kuriuos ką tik sukūrėte. Instrukcijų ieškokite temoje [Dokumentų tipų konfigūravimas](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types).
 
-|Dokumento tipas        | Grupuoti              | Buvimo vieta      | „SharePoint“ aplankas      |
+|Dokumento tipas       | Grupuoti              | Buvimo vieta      | „SharePoint“ aplankas      |
 |--------------------|--------------------|---------------|------------------------|
 |SP pagrindinis             |Failas                |„SharePoint“     |Failų importavimo šaltinis (pagrindinis)|
 |SP alternatyvus             |Failas                |„SharePoint“     |Failų importavimo šaltinis (alternatyvus)|
@@ -87,7 +87,7 @@ Norėdami saugoti elektroninių ataskaitų failus „SharePoint“ vietoje, turi
 |SP įspėjimas             |Failas                |„SharePoint“     |Failų įspėjimų aplankas|
 |SP klaida             |Failas                |„SharePoint“     |Failų klaidų aplankas|
 
-![„SharePoint“ parametras – naujas dokumento tipas](./media/GERImportFromSharePoint-06-SharePointDocumentTypesSetup.png)
+![„SharePoint“ parametras – naujas dokumento tipas.](./media/GERImportFromSharePoint-06-SharePointDocumentTypesSetup.png)
 
 ## <a name="configure-er-sources-for-the-er-format"></a>ER formato ER šaltinių konfigūravimas
 1. Spustelėkite **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Elektroninių ataskaitų šaltinis**.
@@ -96,7 +96,7 @@ Norėdami saugoti elektroninių ataskaitų failus „SharePoint“ vietoje, turi
 4. Pakeiskite **Rūšiuoti failus prieš importuojant** į **Nerūšiuoti**, jei yra daug importuotinų failų, o importavimo tvarka nėra svarbi
 5. Pasirinkite visus „SharePoint“ aplankus, kuriuos sukūrėte anksčiau.
 
-    [![ER failų šaltinio parametras](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)
+    [![ER failų šaltinio parametras.](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)
 
 > [!NOTE]
 > - ER *šaltinis* nurodytas kiekvienai programos įmonei atskirai. Tačiau, ER *konfigūracijos* yra bendrai naudojamos keliose įmonėse.
@@ -114,7 +114,7 @@ Be to, galite atidaryti puslapį **Šaltinių failų būsenos** pasirinkę **Org
 ## <a name="import-data-from-excel-files-that-are-in-a-sharepoint-folder"></a>Importuoti duomenis iš „Excel“ failų, esančių „SharePoint“ aplanke
 1. Programoje „SharePoint“ įkelkite „Microsoft Excel“ failą **1099import-data.xlsx**, kuriame yra tiekėjo operacijos, į anksčiau sukurtą „SharePoint“ aplanką **Failų importavimo šaltinis (pagrindinis)**.
 
-    [![„SharePoint“ turinys – „Microsoft Excel“ failas, skirtas importuoti](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
+    [![„SharePoint“ turinys – „Microsoft Excel“ failas, skirtas importuoti.](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
 
 2. Puslapyje **Šaltinių failų būsenos** pasirinkę **Atnaujinti** atnaujinsite puslapį. „Excel“ failo, kuris buvo įkeltas į „SharePoint“, šiame puslapyje būsena buvo **Parengta**. Šiuo metu palaikomos šios būsenos:
 
@@ -124,19 +124,19 @@ Be to, galite atidaryti puslapį **Šaltinių failų būsenos** pasirinkę **Org
     - **Nepavyko** – priskiriama automatiškai pagal ER ataskaitą, kai failo importavimas baigtas su klaidomis arba išimtimis.
     - **Sulaikyta** – vartotojo priskiriama rankiniu būdu šiame puslapyje. Ši būsena reiškia, kad failas kol kas nebus importuojamas. Šią būseną galima naudoti norint atidėti kai kurių failų importavimą.
 
-    [![Atnaujintas pasirinktų šaltinių ER failų būsenų puslapis](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
+    [![Atnaujintas pasirinktų šaltinių ER failų būsenų puslapis.](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
 
 ## <a name="import-data-from-sharepoint-files"></a>Duomenų importavimas iš „SharePoint“ failų
 1. Atidarykite ER konfigūracijos medį, pasirinkite **1099 mokėjimų modelis** ir išplėskite ER modelio komponentų sąrašą.
 2. Pasirinkę modelio susiejimo modelio pavadinimą atidarykite pasirinkto ER modelio konfigūracijos modelių susiejimo sąrašą.
 
-    [![Puslapis Konfigūracija](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)
+    [![Puslapis Konfigūracija.](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)
 
 3. Pasirinkę **Vykdyti** paleisite pasirinkto modelio susiejimą. Todėl, kad sukonfigūravote ER formato failų šaltinius, galite pagal poreikį keisti parametrą į parinktį **Failo šaltinis**. Jei paliksite šį pasirinkties parametrą, .xslx failai bus importuojami iš sukonfigūruotų šaltinių (šiame pavyzdyje – „SharePoint“ aplankų).
 
     Šiame pavyzdyje importuojate tik vieną failą. Tačiau, jei yra keli failai, jie pasirinkti importuoti ta tvarka, kuria jie buvo įtraukti į „SharePoint“ aplanką. Kaskart vykdant ER formatą, importuojamas vienas pasirinktas failas.
 
-    [![Importavimas iš „SharePoint“ ir ER modelio susiejimo vykdymas](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)
+    [![Importavimas iš „SharePoint“ ir ER modelio susiejimo vykdymas.](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)
 
 4. Modelio susiejimą galima vykdyti paketiniu režimu [be priežiūros](#limitations). Tokiu atveju, kiekvieną kartą, kai paketas vykdomas šiuo ER formatu, iš sukonfigūruotų failų šaltinių importuojamas vienas failas.
 
@@ -144,11 +144,11 @@ Be to, galite atidaryti puslapį **Šaltinių failų būsenos** pasirinkę **Org
 
 5. Įveskite kvito ID, pvz., **V-00001**, tada pasirinkite **Gerai**.
 
-    [![ER modelio susiejimo vykdymas](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)
+    [![ER modelio susiejimo vykdymas.](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)
 
 6. Puslapyje **Šaltinių failų būsenos** pasirinkę **Atnaujinti** atnaujinsite puslapį.
 
-    [![Šaltinių puslapio ER failų būsenos](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)
+    [![Šaltinių puslapio ER failų būsenos.](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)
 
 7. Skyriuje **Failai** peržiūrėkite failų sąrašą. Skyriuje **Importavimo formato šaltinių žurnalas** pateikiama „Excel“ failo importavimo retrospektyva. Kadangi šis failas buvo sėkmingai importuotas, „SharePoint“ aplanke jis pažymėtas kaip **Panaikintas**.
 8. Peržiūrėkite „SharePoint“ aplanką **Failų importavimo šaltinis (pagrindinis)**. Tie „Excel“ failai, kurie buvo sėkmingai importuoti, yra panaikinti iš šio aplanko.
@@ -157,12 +157,12 @@ Be to, galite atidaryti puslapį **Šaltinių failų būsenos** pasirinkę **Org
 
     Tiekėjo operacijos, kurios buvo importuotos iš „SharePoint“ platformoje esančių „Excel“ failų kvitui **V-00001**, yra pateikiamos puslapyje.
 
-    [![1099 tiekėjo operacijų puslapis](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)
+    [![1099 tiekėjo operacijų puslapis.](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)
 
 ## <a name="prepare-an-excel-file-for-import"></a>„Excel“ failo paruošimas importuoti
 1. Atidarykite „Excel“ failą, kurį naudojote anksčiau. Į 3 eilutės 1 stulpelį įtraukite tiekėjo kodą, kurio nėra programoje. Įtraukite papildomą klaidingą tiekėjo informaciją į eilutę.
 
-    [![„Microsoft Excel“ failo, skirto importuoti iš „SharePoint“ pavyzdys](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
+    [![„Microsoft Excel” failo, skirto importuoti iš „SharePoint”, pavyzdys.](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
 
 2. Įkelti atnaujintą „Excel“ failą, kuriame yra tiekėjų operacijos, į „SharePoint“ aplanką **Failų importavimo šaltinis (pagrindinis)**.
 3. Atidarykite ER konfigūracijos medį, pasirinkite **1099 mokėjimų modelis** ir išplėskite ER modelio komponentų sąrašą.
@@ -170,7 +170,7 @@ Be to, galite atidaryti puslapį **Šaltinių failų būsenos** pasirinkę **Org
 5. Pasirinkite **Dizaino įrankis**.
 6. Skirtuke **Tikrinimai** turite pakeisti tolesnio tikrinimo veiksmą tos tikrinimo taisyklės, kuri buvo sukonfigūruota norint įvertinti, ar importuota tiekėjo sąskaita yra programoje. Atnaujinkite lauko **Tolesnio tikrinimo veiksmas** vertę į **Sustabdyti vykdymą**, įrašykite pakeitimus ir uždarykite puslapį.
 
-    [![ER modelio susiejimo dizaino įrankio puslapis](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)
+    [![ER modelio susiejimo dizaino įrankio puslapis.](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)
 
 7. Įrašykite pakeitimus ir uždarykite ER modelio susiejimo dizaino įrankį.
 8. Pasirinkę **Vykdyti** paleisite modifikuotą ER modelio susiejimą.
@@ -178,11 +178,11 @@ Be to, galite atidaryti puslapį **Šaltinių failų būsenos** pasirinkę **Org
 
     Informaciniame žurnale yra pranešimas, informuojantis, kad „SharePoint“ aplanko faile yra netinkama tiekėjo paskyra ir importuoti negalima.
 
-    [![Baigtas ER modelio susiejimo vykdymas](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)
+    [![Baigtas ER modelio susiejimo vykdymas.](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)
 
 10. Puslapyje **Šaltinių failų būsenos** pasirinkite **Atnaujinti**, tuomet skyriuje **Failai** peržiūrėkite failų sąrašą.
 
-    [![Pasirinktų šaltinių ER failų būsenų puslapis](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)
+    [![Pasirinktų šaltinių ER failų būsenų puslapis.](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)
 
    Skyriuje **Importavimo formato šaltinių žurnalas** nurodyta, kad importavimo procesas nepavyko ir kad failas yra failų klaidų „SharePoint“ aplanke (žymės langelis **Panaikintas** nėra pažymėtas). Jei pataisote šį failą, esantį „SharePoint“, įtraukdami tinkamą tiekėjo kodą ir perkeliate jį į failų importavimo šaltinio (pagrindinį) „SharePoint“ aplanką, galite importuoti failą dar kartą.
 

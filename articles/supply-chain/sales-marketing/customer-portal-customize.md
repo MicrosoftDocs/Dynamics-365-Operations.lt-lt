@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ea1fe6ba374c77784c88cf8202bff2eace217b6a
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: b285cefc35654695ee631cc73baa0ccc2c1b5ac9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102715"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359890"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Kliento portalo tinkinimas ir naudojimas
 
@@ -27,7 +27,7 @@ ms.locfileid: "6102715"
 
 Kliento portale iš karto yra pasiekiami keli tinklalapiai ir veiksmai. Toliau pateiktoje svetainės struktūroje pateikiama šių tinklalapių ir veiksmų apžvalga, taip pat vaidmenys, kurie gali atlikti veiksmus.
 
-![Kliento portalo svetainės struktūra](media/customer-portal-site-map.png "Kliento portalo svetainės struktūra")
+![Kliento portalo svetainės struktūra.](media/customer-portal-site-map.png "Kliento portalo svetainės struktūra")
 
 ## <a name="typical-customizations"></a>Įprasti tinkinimai
 
@@ -61,12 +61,12 @@ Kai vartotojas pateikia užsakymą naudodamas kliento portalą, užsakymas autom
     - **Paraiškos numeris** – įveskite užsakymo paraiškos numerį. Šis laukas nėra privalomas.
     - **Siuntimo šalis / regionas** – įveskite šalį arba regioną, į kurį bus pristatomos prekės. Šis laukas nustatomas automatiškai vartotojams, kurie nėra administratoriai.
 
-    ![Informacijos apie užsakymą puslapis](media/customer-portal-order-information.png "Informacijos apie užsakymą puslapis")
+    ![Informacijos apie užsakymą puslapis.](media/customer-portal-order-information.png "Informacijos apie užsakymą puslapis")
 
 1. Pasirinkite **Toliau**.
 1. Puslapyje **Prekės** pasirinkite **Įtraukti prekę**.
 
-    ![Prekių puslapis](media/customer-portal-items.png "Prekių puslapis")
+    ![Prekių puslapis.](media/customer-portal-items.png "Prekių puslapis")
 
 1. Dialogo lange **Prekės informacija** nustatykite toliau nurodytus laukus.
 
@@ -75,14 +75,14 @@ Kai vartotojas pateikia užsakymą naudodamas kliento portalą, užsakymas autom
     - **Vienetas** – nurodykite matavimo vienetą (pavyzdžiui, **vnt.**, **kg** arba **pakuotė**).
     - **Įvertinta grynoji suma** – ši vertė skaičiuojama kaip įvertinta prekės kaina × pasirinkto vieneto kiekis.
 
-    ![Prekės informacijos dialogo langas](media/customer-portal-item-information.png "Prekės informacijos dialogo langas")
+    ![Prekės informacijos dialogo langas.](media/customer-portal-item-information.png "Prekės informacijos dialogo langas")
 
 1. Pasirinkite **Pateikti**, kad įtrauktumėte prekę į užsakymą.
 1. Pakartokite 4–6 veiksmus, kol įtrauksite visas norimas prekes į užsakymą.
 1. Baigę įtraukti prekes, puslapyje **Prekės** pasirinkite **Pirmyn**.
 1. Puslapyje **Užsakymo informacija** pateikiama užsakymo suvestinė. Peržiūrėkite užsakymo turinį ir pristatymo informaciją. Jei viskas įvesta teisingai, pasirinkite **Pateikti**, kad pateiktumėte užsakymą.
 
-    ![Įvykdyto užsakymo informacijos puslapis](media/customer-portal-order-submit.png "Įvykdyto užsakymo informacijos puslapis")
+    ![Įvykdyto užsakymo informacijos puslapis.](media/customer-portal-order-submit.png "Įvykdyto užsakymo informacijos puslapis")
 
 ### <a name="standard-data-setup"></a>Standartinių duomenų nustatymas
 
@@ -147,19 +147,19 @@ Visi kliento portale esantys valdikliai yra įtaisytieji „Power Apps“ portal
 
 Vienintelis pasirinktinis valdiklis, įtrauktas į kliento portalo šabloną, naudojamas kuriant plyteles pagrindiniame puslapyje.
 
-![Plytelės pagrindiniame puslapyje](media/customer-portal-home-page-tiles.png "Plytelės pagrindiniame puslapyje")
+![Plytelės pagrindiniame puslapyje.](media/customer-portal-home-page-tiles.png "Plytelės pagrindiniame puslapyje")
 
 Norėdami modifikuoti plyteles, atlikite toliau pateiktus veiksmus.
 
 1. Atidarykite [portalo valdymo programėlę](/powerapps/maker/portals/configure/configure-portal).
 1. Kairėje esančioje naršymo srityje pasirinkite **Puslapio šablonai**.
 
-    ![Portalo valdymo naršymo sritis](media/customer-portal-nav.png "Portalo valdymo naršymo sritis")
+    ![Portalo valdymo naršymo sritis.](media/customer-portal-nav.png "Portalo valdymo naršymo sritis")
 
 1. Pasirinkite puslapio šabloną su pavadinimu **Pagrindinis**.
 1. Lauke **Žiniatinklio šablonas** pasirinkite saitą **Pagrindinis**, kad atidarytumėte to puslapio šaltinio kodą.
 
-    ![Žiniatinklio šablono laukas](media/customer-portal-web-template.png "Žiniatinklio šablono laukas")
+    ![Žiniatinklio šablono laukas.](media/customer-portal-web-template.png "Žiniatinklio šablono laukas")
 
 1. Dabar turėtumėte matyti visą pagrindinio puslapio šaltinio kodą, kuri galite modifikuoti pagal poreikį.
 

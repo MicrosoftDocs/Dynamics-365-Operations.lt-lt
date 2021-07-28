@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4c5528545e0215b3a3f92b7bd5b492f82274d35a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6fd2a8548d4929a7a3b3b6d20adbc230c5edf6ed
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833047"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355232"
 ---
 # <a name="cost-control-workspace"></a>Savikainos kontrolės darbo sritis 
 
@@ -116,7 +116,7 @@ Darbo sritis **Savikainos kontrolė** sukurta kaip interneto ataskaita. Todėl v
 
 Ataskaitų, kurios galimos naudotojams, pvz., vadybininkams, sąrašas yra kontroliuojamas puslapyje **Savikainos kontrolės darbo srities konfigūracijos** nustatant parinktį **Paskelbta**.
 
-![Ataskaita, kurią naudotojai gali matyti darbo srityje Savikainos kontrolė](./media/report-cost-control.png)
+![Ataskaita, kurią naudotojai gali matyti darbo srityje Savikainos kontrolė.](./media/report-cost-control.png)
 
 Vadybininkas gali pasirinkti norimą peržiūrėti ataskaitinį kalendoriaus laikotarpį. Seanso data naudojama norint nustatyti numatytąjį dabartinį laikotarpį.
 
@@ -136,11 +136,11 @@ Tinklelyje rodomas kiekvienas su išlaidų elemento dimensijų hierarchijos mazg
 
 Dviejose diagramose rodoma faktinių duomenų palyginimo su biudžeto duomenimis suvestinė ir biudžeto nuokrypis pagal laikotarpį.
 
-![Diagramos, kuriose rodoma faktinių duomenų palyginimo su biudžeto duomenimis suvestinė ir biudžeto nuokrypis pagal laikotarpį](./media/cost-element-details-operations.png)
+![Diagramos, kuriose rodoma faktinių duomenų palyginimo su biudžeto duomenimis suvestinė ir biudžeto nuokrypis pagal laikotarpį.](./media/cost-element-details-operations.png)
 
 Spustelėdami **Savikainos įrašai** naudotojai gali pagal poreikius detalizuoti įrašo informaciją.
 
-![Savikainos įrašai](./media/cost-entries.png)
+![Kainos įrašai.](./media/cost-entries.png)
 
 Pvz., nuoma yra išlaidų centrams paskirstytos išlaidos. Naudotojas, kuris nori suprasti, kokia turi būti jo išlaidų centro nuomos kaina, detalizuodamas informaciją gali pamatyti, kaip apskaičiuota nuoma.
 
@@ -148,7 +148,7 @@ Jeigu naudotojai puslapyje **Savikainos įrašai** spusteli **Paskirstymo bazė*
 
 Toliau pateiktame pavyzdyje paskirstymo pagrindo tipas yra **Formulės paskirstymo pagrindas** ir rodoma formulė. Išvardijami formulę nurodantys koeficientai. Be to, tinklelyje rodomas atliktas kiekvieno išlaidų objekto skaičiavimas.
 
-![Kiekvieno savikainos objekto skaičiavimai](./media/cost-entries-allocation-base.png)
+![Kiekvieno savikainos objekto skaičiavimai.](./media/cost-entries-allocation-base.png)
 
 Papildomi ištekliai 
 
