@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 18556e35d63ea20b181c525b758788dc0f89f701
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f3e01dd85cbe8e2b2c9095431f3e0aead817a5a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842230"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352767"
 ---
 # <a name="procurement"></a>Įsigijimas
 
@@ -36,7 +36,7 @@ Sąrašo puslapyje **Darbo užsakymo pirkimo paraiška** (**Turto valdymas** > *
 
 Toliau pateiktame paveikslėlyje parodytas sąrašo puslapio **Darbo užsakymo pirkimo paraiška** pavyzdys.
 
-![1 pav.](media/08-work-orders.png)
+![1 iliustracija.](media/08-work-orders.png)
 
 
 Sąrašo puslapyje **Darbo užsakymo pirkimas** (**Turto valdymas** > **Bendrieji dalykai** > **Įsigijimas** > **Darbo užsakymo pirkimas**) rodomas pirkimo užsakymų, susijusių su darbo užsakymais, sąrašas. Šiame puslapyje pasirinkę darbo užsakymo užduotį, norėdami atlikti įvairius veiksmus, galite naudoti mygtukus grupėje **Rodyti**, esančioje veiksmų srities skirtuke **Darbo užsakymo pirkimas**.
@@ -47,7 +47,7 @@ Sąrašo puslapyje **Darbo užsakymo pirkimas** (**Turto valdymas** > **Bendriej
 
 Toliau pateiktame paveikslėlyje parodytas sąrašo puslapio **Darbo užsakymo pirkimas** pavyzdys.
 
-![2 pav.](media/09-work-orders.png)
+![2 iliustracija.](media/09-work-orders.png)
 
 
 Tiek sąrašo puslapyje **Darbo užsakymo pirkimas**, tiek sąrašo puslapyje **Darbo užsakymo pirkimo paraiška** su pristatymo datos valdymu susijęs simbolis rodomas dešinėje kiekvienos eilutės pusėje. Jei šis simbolis yra šauktukas raudoname apskritime, susijęs su pirkimo užsakymu arba pirkimo paraiška pristatymas gali vėluoti.
@@ -93,7 +93,7 @@ Norėdami peržiūrėti arba įvesti veiklos numerį, susijusį su pirkimo užsa
 
 Toliau esančiame paveikslėlyje pateiktas puslapio **Pirkimo užsakymas** pavyzdys pažymėjus **Veiklos numeris**.
 
-![3 pav.](media/10-work-orders.png)
+![3 iliustracija.](media/10-work-orders.png)
 
 Atitinkamai, norėdami peržiūrėti arba įvesti veiklos numerį, susijusį su darbo užsakymo pirkimo paraiška, sąrašo puslapyje **Darbo užsakymo pirkimo paraiška** pasirinkite pirkimo paraiškos įrašą, tada stulpelyje **Pirkimo paraiška** pasirinkite pirkimo paraiškos saitą. Lauką **Veiklos numeris** galite rasti skirtuke **Projektas**, esančiame „FastTab“ **Eilutės informacija**.
 

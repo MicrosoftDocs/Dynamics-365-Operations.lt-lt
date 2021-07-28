@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: bc170df2fc58ae6b42fbc8834caad0bb7cd16f69
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9c8f202a813520129867b57e660e8d995c20ed87
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837782"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351518"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Turto valdymo mobiliosios darbo srities nustatymas
 
@@ -47,7 +47,7 @@ Norėdami įgalinti turto valdymo funkcijas „Finance and Operations” („Dyn
 1. „Supply Chain Management” pasirinkite **Parametrai** mygtuką (krumpliaračio piktograma viršutiniame dešiniajame kampe) ir meniu pasirinkite **Mobilioji programėlė**.
 1. Dialogo lange **Tvarkyti mobiliąją programėlę** suraskite plytelę **Turto valdymas**. Joje pateiktas tekstas „Metaduomenyse – nepublikuota”, darbo sritis dar nebuvo publikuota. Jei joje yra tekstas „Metaduomenyse – publikuota”, darbo sritis jau publikuota, o likusią procedūrą galite praleisti.
 
-    ![Mobiliosios programėlės tvarkymo dialogo langas](media/mobile-workspaces.png "Mobiliosios programėlės tvarkymo dialogo langas")
+    ![Mobiliosios programėlės tvarkymo dialogo langas.](media/mobile-workspaces.png "Mobiliosios programėlės tvarkymo dialogo langas")
 
 1. Pasirinkite **Turto valdymas** plytelę, tada įrankių pasirinkite **Publikuoti**. Po kelių sekundžių turėtumėte gauti pranešimą, kad darbo sritis sėkmingai publikuota. Be to, plytelės tekstas turi pasikeisti į „Metaduomenyse – publikuota”.
 
@@ -60,22 +60,22 @@ Norėdami įgalinti turto valdymo funkcijas „Finance and Operations” („Dyn
 
 1. Atidarykite „Finance and Operations” ("Dynamics 365") programėlę. Turėtų pasirodyti prisijungimo puslapis. **Prisijungti** lauke įveskite „Supply Chain Management” URL arba įveskite neseniai naudotą URL **Neseniai naudotos aplinkos**  sąraše ir bakstelėkite **Prisijungti**.
 
-    ![Prisijungimo puslapis](media/mobile-app-sign-in.png "Prisijungimo puslapis")
+    ![Prisijungimo puslapis.](media/mobile-app-sign-in.png "Prisijungimo puslapis")
 
 1. Jei būsite paraginti patvirtinti ryšį, pažymėkite žymės langelį **Supratau**, tada spustelėkite **Prisijungti**.
 1. Puslapyje **Pasirinkti paskyrą** naudokite „Microsoft” paskyrą, kad prisijungtumėte prie mobiliosios programėlės.
 
     Pasirodo puslapis **Darbo sritys**. Joje pateikiama kiekviena mobilioji darbo sritis, kurią publikavo „Supply Chain Management” programa.
 
-    ![Darbo sričių sąrašas](media/mobile-app-workspaces.png "Darbo sričių sąrašas")
+    ![Darbo sričių sąrašas.](media/mobile-app-workspaces.png "Darbo sričių sąrašas")
 
 1. Jei turite pakeisti juridinį asmenį (įmonę), bakstelėkite meniu mygtuką (trys horizontalios linijos) viršutiniame kairiajame kampe ir tada bakstelėkite **Keisti įmonę**.
 
-    ![Juridinio asmens keitimas](media/mobile-app-change-comp.png "Juridinio asmens keitimas")
+    ![Juridinio asmens keitimas.](media/mobile-app-change-comp.png "Juridinio asmens keitimas")
 
 1. **Darbo sritys** puslapyje pasirinkite darbo sritį, su kurią norite dirbti, kad ją atidarytumėte.
 
-    ![Turto valdymo mobilioji darbo sritis](media/mobile-app-asset-workspace.png "Turto valdymo mobilioji darbo sritis")
+    ![Turto valdymo mobilioji darbo sritis.](media/mobile-app-asset-workspace.png "Turto valdymo mobilioji darbo sritis")
 
 ## <a name="work-with-the-asset-management-mobile-workspace"></a>Darbas su Turto valdymo mobiliąja darbo sritimi
 

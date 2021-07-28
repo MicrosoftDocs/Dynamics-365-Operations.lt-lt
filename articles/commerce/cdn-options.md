@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f6e8fb2baf85be0eaecfffcc7ec6cbb457c3bb04
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: eec18dbffe33bc6366b4282d05189b31620616d6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021895"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351254"
 ---
 # <a name="content-delivery-network-implementation-options"></a>Turinio pristatymo tinklo diegimo parinktys
 
@@ -40,7 +40,7 @@ Visos trys CDN diegimo parinktys teikia tik dinaminį HTML turinį iš pasirenka
 
 Toliau esančiame paveikslėlyje pateikiama „Commerce“ architektūros apžvalga.
 
-![„Commerce“ architektūros apžvalga](media/Commerce_CDN-Option_ComparisonModels.png)
+![„Commerce“ architektūros apžvalga.](media/Commerce_CDN-Option_ComparisonModels.png)
 
 Norėdami gauti daugiau informacijos apie tai, kaip nustatyti „Azure Front Door“ egzempliorių savo „Commerce“ svetainei, žr. [Pridėti CDN palaikymą](add-cdn-support.md).
 
@@ -54,7 +54,7 @@ Toliau esančioje lentelėje pateikiami privalumai ir trūkumai, susiję su tuo,
 
 Šioje iliustracijoje vaizduojama „Commerce“ pateikiamo „Azure Front Door“ egzemplioriaus architektūra.
 
-![„Commerce“ pateiktas „Azure Front Door“ egzempliorius](media/Commerce_CDN-Option_CommerceFrontDoor.png)
+![„Commerce“ pateiktas „Azure Front Door“ egzempliorius.](media/Commerce_CDN-Option_CommerceFrontDoor.png)
 
 ## <a name="use-a-customer-owned-azure-front-door-instance"></a>Kliento „Azure Front Door“ egzemplioriaus naudojimas
 
@@ -66,7 +66,7 @@ Toliau esančioje lentelėje pateikiami privalumai ir trūkumai, susiję su tuo,
 
 Toliau pateiktoje iliustracijoje rodoma „Commerce“ infrastruktūra, kuri apima kliento „Azure Front Door“ egzempliorių.
 
-![„Commerce“ infrastruktūra, kuri apima kliento „Azure Front Door“ egzempliorių](media/Commerce_CDN-Option_CustomerOwnedAzureFrontDoor.png)
+![„Commerce“ infrastruktūra, kuri apima kliento „Azure Front Door“ egzempliorių.](media/Commerce_CDN-Option_CustomerOwnedAzureFrontDoor.png)
 
 ## <a name="use-an-external-cdn-service"></a>Išorinės CDN tarnybos naudojimas
 
@@ -78,7 +78,7 @@ Toliau pateiktoje iliustracijoje rodoma „Commerce“ infrastruktūra, kuri api
 
 Šioje iliustracijoje vaizduojama „Commerce“ infrastruktūra, kurioje yra išorinė CDN paslauga.
 
-![„Commerce“ infrastruktūra, kurioje yra išorinė CDN paslauga](media/Commerce_CDN-Option_ExternalFrontDoor.png)
+![„Commerce“ infrastruktūra, kurioje yra išorinė CDN paslauga.](media/Commerce_CDN-Option_ExternalFrontDoor.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

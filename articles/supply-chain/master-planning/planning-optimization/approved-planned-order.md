@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 71ec26bea2063bcf8b6d302a7ece804b3ac934b3
-ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
+ms.openlocfilehash: 94ecd623d445e23cc41829c51429e4783daa49f9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304372"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355978"
 ---
 # <a name="view-manage-and-approve-planned-orders"></a>Peržiūrėti, tvarkyti ir tvirtinti suplanuotus užsakymus
 
@@ -65,7 +65,7 @@ Atkreipkite dėmesį, kad suplanuotų užsakymų patvirtinimas yra pasirinktinis
 
 Šioje iliustracijoje parodyta, kaip galite naudoti **būsenos** vertę, priskirtą kiekvienam suplanuotam užsakymui, norėdami įdiegti patvirtinimo darbo eigą. Norėdami įdiegti patvirtinimo procesą, rankiniu būdu koreguokite **kiekvieno** suplanuoto užsakymo būsenos vertę, kaip aprašyta ankstesniame skyriuje.
 
-![Suplanuoto užsakymo srautas](media/approved-planned-orders-1.png)
+![Suplanuoto užsakymo srautas.](media/approved-planned-orders-1.png)
 
 > [!TIP]
 > Rekomenduojame patvirtinti bet kuriuos modifikuotus suplanuotus užsakymus. Kitu atveju redagavimų bus nepaisoma ir perrašoma kito planavimo metu.

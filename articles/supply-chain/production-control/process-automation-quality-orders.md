@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: f35adab3075ba810964a41899ba95ae40c115e83
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 0ebb34f58a4bfbe8bda935d7b40e9d89c3dacd03
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115204"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353993"
 ---
 # <a name="invoke-process-automation-flows-to-create-quality-orders"></a>Proceso automatizavimo srautų iškvietimas kokybės užsakymams kurti
 
@@ -30,7 +30,7 @@ Galite atsisiųsti automatizavimo sprendimo šabloną [čia](https://aka.ms/D365
 
 Šios funkcijos ir jos galimybių apžvalgą rasite šiame vaizdo įraše: [RPA naudojimas kokybės užsakymams kurti „Dynamics 365 Supply Chain Management” platformoje](https://www.youtube.com/watch?v=LFbzJ6-H89w)
 
-![Automatizavimo parinktys naudojant RPA](media/rpa-automation-options.png "Automatizavimo parinktys naudojant RPA")
+![Automatizavimo parinktys naudojant RPA.](media/rpa-automation-options.png "Automatizavimo parinktys naudojant RPA")
 
 „Power Automate” sprendimo šablone yra debesies ir darbalaukio automatizavimo srautai, kurie automatizuoja kokybės užsakymų kūrimą „Supply Chain Management”.
 
@@ -38,7 +38,7 @@ Automatizavimą galima pradėti kaip atsaką į daugelį įvykių ir signalų, �
 
 Sprendimo parametrai yra įtraukiami, kad būtų konfigūruojamas konkretaus naudojimo atvejo automatizavimas gamybos priemonėje.
 
-![Kurti kokybės užsakymą](media/rpa-create-quality-roder.png "Kurti kokybės užsakymą")
+![Kurti kokybės užsakymą.](media/rpa-create-quality-roder.png "Kurti kokybės užsakymą")
 
 Išsamias instrukcijas apie tai, kaip atsisiųsti, įdiegti ir naudoti pavyzdinį sprendimą kokybės užsakymų kūrimui automatizuoti, rasite [Kokybės užsakymų kūrimo automatizavimas „Dynamics 365 Supply Chain Management” su Robotiniu procesų automatizavimu, naudojant „Power Automate Desktop”](/power-automate/desktop-flows/dynamics365-scm-rpa).
 

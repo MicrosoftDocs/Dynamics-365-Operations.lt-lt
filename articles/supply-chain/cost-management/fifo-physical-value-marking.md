@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d37efef723a7ca5e5f2333ff41cdf8351156e9bb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 393239571de8a8d845107a8a8a151748c6b963c2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821614"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356002"
 ---
 # <a name="fifo-with-physical-value-and-marking"></a>FIFO su faktine verte ir žymėjimu
 
@@ -51,7 +51,7 @@ Naudojant FIFO nereikia naudoti FIFO taisyklės. Užuot ją naudoję, galite pa�
 
 Nauja veikiančio vidurkio savikaina atitinka finansiškai atnaujintų operacijų vidurkį. Toliau pateiktose iliustracijose parodytas FIFO atsargų modelio poveikis kai kurioms operacijoms, kai parinktis **Įtraukti faktinę vertę** nenaudojama. 
 
-![LIFO be faktinės vertės įtraukimo](./media/fifowithoutincludephysicalvalue.gif) 
+![FIFO be faktinės vertės įtraukimo.](./media/fifowithoutincludephysicalvalue.gif) 
 
 **Diagramos paaiškinimas**
 
@@ -83,7 +83,7 @@ Jei pažymėtas prekės, esančios puslapyje **Prekių modelių grupė**, žymė
 
 5b operacija bus sudengiama pagal 1b gavimo operaciją. Ši išdavimo operacija bus pakoreguota –11,25 USD . Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų operacijų vidurkį, 27,50 USD. Toliau pateiktoje iliustracijoje parodytas FIFO atsargų modelio poveikis kai kurioms operacijoms, kai parinktis **Įtraukti faktinę vertę** naudojama. 
 
-![FIFO su faktinės vertės įtraukimu](./media/fifowithincludephysicalvalue.gif) 
+![FIFO su faktinės vertės įtraukimu.](./media/fifowithincludephysicalvalue.gif) 
 
 **Diagramos paaiškinimas**
 
@@ -115,7 +115,7 @@ Jei pažymėtas prekės, esančios puslapyje **Prekių modelių grupė**, žymė
 
 Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų operacijų vidurkį, 27,50 USD. Toliau pateiktoje iliustracijoje parodomas FIFO atsargų modelio poveikis tokioms operacijų sekoms, kai naudojamas išdavimų ir gavimų žymėjimas. 
 
-![FIFO su žymėjimu](./media/fifowithmarking.gif) 
+![FIFO su žymėjimu.](./media/fifowithmarking.gif) 
 
 **Diagramos paaiškinimas**
 

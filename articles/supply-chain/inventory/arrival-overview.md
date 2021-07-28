@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 274363
+ms.custom:
+- "274363"
+- intro-internal
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 734fbdd6f62c192580029a24844fff78fda8b919
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fdd2995da04aa4752868a84499c81c2c01d80c16
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809595"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360453"
 ---
 # <a name="arrival-overview"></a>Gavimų apžvalga
 
@@ -34,7 +36,7 @@ Puslapyje **Gavimų apžvalga** pateikiama visų numatomų gaunamų prekių per�
 ## <a name="business-scenario"></a>Verslo scenarijus
 Atsižvelkite į toliau pateiktą gavimo procesų scenarijų.
 
-[![Verslo scenarijus](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
+[![Verslo scenarijus.](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
 
 Sammy, gavimo klerkas, nori sužinoti, ką šią dieną numatoma gauti. Puslapyje **Gavimų apžvalga** Sammy gali peržiūrėti esamas užduotis ir apytikriai įvertinti kiekius, tūrį, svorį, skirtingus užsakymo tipus ir t. t. Vėliau užsakymas pristatomas į vieną iš atvežimo rampų ir Sammy gauna pristatymo sąrašą. Puslapyje **Gavimų apžvalga** Sammy gali atlikti toliau nurodytas užduotis.
 
@@ -66,7 +68,7 @@ Norėdami automatiškai kurti gavimo žurnalus puslapyje **Gavimų apžvalga**, 
 
 -   Norėdami sukurti žurnalą turite nurodyti žurnalo pavadinimą.
 
-[![Nurodomas žurnalo pavadinimas](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
+[![Nurodomas žurnalo pavadinimas.](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
 -   Jei nurodote laukų **Sandėlis** ir **Vieta** reikšmes, jos taikomos žurnalo eilutėse. Jei nenurodote reikšmių, sistemoje naudojamos atsargų operacijose nurodytų dimensijų reikšmės.
 

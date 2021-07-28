@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 60ad0dd821dc91576a59cf73ec46da4aefd34a2f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 94abcf7189dc7c1f5587eb06d47650dc707c5007
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794264"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352403"
 ---
 # <a name="manage-ratings-and-reviews"></a>Įvertinimų ir atsiliepimų tvarkymas
 
@@ -45,7 +45,7 @@ Norėdami perskaityti atsiliepimą „Commerce“ svetainių daryklėje, atlikit
 
 Papildomais filtrais galima riboti apžvalgas pagal laikotarpį, vertinimą, kanalą arba su būseną (pašalinta, atsakyta arba pranešta).
 
-![Moderavimo pagrindinis puslapis](media/rnr-moderation-home.png) 
+![Moderavimo pagrindinis puslapis.](media/rnr-moderation-home.png) 
 
 ## <a name="respond-to-a-review"></a>Atsakymas į apžvalgą 
 
@@ -59,7 +59,7 @@ Norėdami atsakyti į atsiliepimą „Commerce“ svetainių daryklėje, atlikit
 1. Įveskite atsakymo tekstą ir pavadinimą, kuris turi būti rodomas atsakytojui. Numatytasis atsakytojo pavadinimas yra **Moderatorius**.
 1. Baigę pasirinkite **Skelbti atsakymą**.
 
-![Atsakymas į apžvalgą](media/rnr-moderation-response.png) 
+![Atsakymas į apžvalgą.](media/rnr-moderation-response.png) 
 
 ## <a name="take-down-a-review"></a>Apžvalgos šalinimas 
 
@@ -82,7 +82,7 @@ Norėdami rasti ir panaikinti kliento duomenis „Commerce“ svetainių darykl�
 1. Jei klientas atliko apžvalgos veiklų (pavyzdžiui, atsiliepimų teikimas, balsavimai, kiek kito kliento atsiliepimai buvo naudingi, arba komentavimas apie kito kliento atsiliepimą), rezultatai rodomi. Kiekviename elemente yra mygtukas **Naikinti**.
 1. Kiekvienam elementui, kurį reikia naikinti, pasirinkite **Naikinti**. Kai būsite paraginti patvirtinti, pasirinkite **Taip**. 
     
-![Kliento duomenų naikinimas](media/rnr-moderation-delete-reviews.png) 
+![Kliento duomenų naikinimas.](media/rnr-moderation-delete-reviews.png) 
 
 > [!NOTE]
 > - Norint, kad duomenys būtų visiškai pašalinti iš sistemos, tai gali užtrukti iki septynių dienų. Moderatoriai turėtų informuoti klientus apie šį vėlavimą.
@@ -106,25 +106,25 @@ Norėdami peržiūrėti įvertinimų ir atsiliepimų tendencijas „Commerce“ 
 1. Eikite į **Pagrindinis \>Apžvalgos \> Pranešimas**.
 1. Pasirinkite **„PowerBI“ šablonas**, kad atsisiųstumėte šabloną.
 
-    ![„Power BI“ šablono atsisiuntimas](media/rnr-moderation-reports.png) 
+    ![„Power BI“ šablono atsisiuntimas.](media/rnr-moderation-reports.png) 
 
 1. Atidarykite atsisiųstą šabloną naudojantis „Power BI“ programėle. Uždarykite pasirodžiusį dialogo langą **Prieiga prie interneto turinio** ir uždarykite pasirodžiusį klaidos pranešimą „Atnaujinti“.
 1. Eikite į **Pagrindinis**, pasirinkite **Redaguoti užklausas** ir pasirinkite **Duomenų šaltinio parametrai**.
 1. Dialogo lange **Duomenų šaltinio parametrai** pasirinkite **Keisti šaltinį**.
 1. Lauke **URL** įveskite apžvalgų duomenų, kuriuos atsisiuntėte ankstesne procedūra, maršrutą (pvz., **c:\\apžvalgos\\ReviewsData.csv**).
 
-    ![Kableliais atskirtų reikšmių dialogo lango URL laukas](media/rnr-powerbi-datasource-settings.png) 
+    ![Kableliais atskirtų reikšmių dialogo lango URL laukas.](media/rnr-powerbi-datasource-settings.png) 
 
 1. Pasirinkite **Gerai**, tada – **Taikyti keitimus**. Užtruks nuo vienos iki dviejų minučių, kol jūsų keitimai bus pritaikyti duomenų šaltinyje.
 1. Norėdami peržiūrėti įvertinimų ir apžvalgų tendencijas, pasirinkite **Tendencijų lapas**.
 
-    ![Įvertinimų ir apžvalgų tendencijos](media/rnr-powerbi-dashboard-template.png) 
+    ![Įvertinimų ir apžvalgų tendencijos.](media/rnr-powerbi-dashboard-template.png) 
     
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Įvertinimų ir atsiliepimų apžvalga](ratings-reviews-overview.md)
 
-[Prisijunkite, norėdami naudoti įvertinimus ir atsiliepimus](opt-in-ratings-reviews.md)
+[Norėdami naudoti įvertinimus ir atsiliepimus, prisijunkite](opt-in-ratings-reviews.md)
 
 [Įvertinimų ir atsiliepimų konfigūravimas](configure-ratings-reviews.md)
 

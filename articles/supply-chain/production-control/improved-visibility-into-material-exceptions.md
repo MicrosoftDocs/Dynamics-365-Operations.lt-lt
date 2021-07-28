@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: d06bd5baeb6b8b6995fe1ae47f14bab458b8ecc2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: beacff21c6468e9c4b387a654e95f25572c0ede9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831991"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348373"
 ---
 # <a name="visibility-into-material-exceptions"></a>Medžiagų išimčių matomumas
 
@@ -37,7 +37,7 @@ Neišleistai KS eilutei arba formulės eilutei reikia skirti dėmesio, jei eilut
 
 Tolesniame paveikslėlyje mėlyna juosta vaizduoja suplanuotą ištekliaus gamybos užduotį. Užduotis planuojama pradėti 2017 m. gegužės 1 d. (2017-05-01). Ši data yra žaliavų data. Kitaip tariant, medžiagos, priskirtos užduočiai KS ir formulės eilutėse, šią dieną turi būti paruoštos. Kita paveikslėlyje nurodyta data, 2017 m. gegužės 6 d. (2017-05–06), nurodo darbo srities datą. Šiame pavyzdyje žaliavų data yra ankstesnė už darbo srities datą. Todėl diena, kurią žaliavų suvartojimas turėjo prasidėti, jau praėjo ir KS bei formulės eilutės atitinka dėmesio skyrimo kriterijus.
 
-![Gamybos užduoties pavyzdys, kuriame žaliavų data yra ankstesnė už darbo srities datą](./media/improved-visibility.png)
+![Gamybos užduoties pavyzdys, kuriame žaliavų data yra ankstesnė už darbo srities datą.](./media/improved-visibility.png)
 
 ## <a name="unreleased-material-lines-needing-attention"></a>Neišleistos medžiagų eilutės, į kurias reikia atkreipti dėmesį
 

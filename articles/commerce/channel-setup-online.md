@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f0f1e0f3e7145c66b8f2b082b44ad7035c57d947
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: dc76c3c8c3da11202ebb29f4c5c0df72892c094a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936949"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351181"
 ---
 # <a name="set-up-an-online-channel"></a>Interneto kanalo nustatymas
 
@@ -55,11 +55,11 @@ Norėdami sukurti ir sukonfigūruoti naują interneto kanalą, atlikite tolesniu
 
 Toliau pateiktame vaizde parodytas naujo interneto kanalo kūrimas.
 
-![Naujas interneto kanalas](media/channel-setup-online-1.png)
+![Naujas interneto kanalas.](media/channel-setup-online-1.png)
 
 Toliau pateiktame vaizde parodytas interneto kanalo pavyzdys.
 
-![Interneto kanalo pavyzdys](media/channel-setup-online-2.png)
+![Interneto kanalo pavyzdys.](media/channel-setup-online-2.png)
 
 ## <a name="set-up-languages"></a>Kalbų nustatymas
 
@@ -75,7 +75,7 @@ Papildomos užduotys, reikalingos interneto kanalo sąrankai, apima mokėjimo me
 
 Toliau pateiktame paveiksle rodomos sąrankos parinktys **Pristatymo būdai**, **Mokėjimo metodai** ir **Vykdymo grupių priskyrimas**, esančios skirtuke **Nustatyti**.
 
-![Papildomi interneto kanalo nustatymo veiksmai](media/channel-setup-online-3.png)
+![Papildomi interneto kanalo nustatymo veiksmai.](media/channel-setup-online-3.png)
 
 ### <a name="set-up-payment-methods"></a>Nustatyti mokėjimo būdus
 
@@ -90,7 +90,7 @@ Norėdami nustatyti kiekvieno mokėjimo tipo, palaikomo šiame kanale, mokėjimo
 
 Toliau pateiktame vaizde parodytas mokėjimas grynaisiais pinigais pavyzdys.
 
-![Mokėjimo metodų pavyzdys](media/channel-setup-retail-5.png)
+![Mokėjimo metodų pavyzdys.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Nustatyti pristatymo būdus
 
@@ -104,7 +104,7 @@ Norėdami pakeisti arba įtraukti pristatymo būdą, atlikite toliau nurodytus v
 
 Toliau pateiktame vaizde parodytas pristatymo būdo pavyzdys.
 
-![Nustatyti pristatymo būdus](media/channel-setup-retail-7.png)
+![Nustatyti pristatymo būdus.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-a-fulfillment-group-assignment"></a>Vykdymo grupės priskyrimo nustatymas
 
@@ -118,7 +118,7 @@ Norėdami nustatyti vykdymo grupės priskyrimą, atlikite toliau nurodytus veiks
 
 Toliau pateiktame vaizde parodytas vykdymo grupės priskyrimo sąrankos pavyzdys.
 
-![Vykdymo grupės priskyrimo nustatymas](media/channel-setup-retail-9.png)
+![Vykdymo grupės priskyrimo nustatymas.](media/channel-setup-retail-9.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

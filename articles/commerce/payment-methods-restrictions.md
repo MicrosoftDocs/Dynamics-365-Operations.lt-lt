@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
-ms.openlocfilehash: dd07c9c95639c8e69e1013fd7da283cf51b60ed0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4d4f2ee97db52c055136912b237412b1148c26bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804532"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352353"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Grąžinimo mokėjimo metodų be kvito apribojimas
 
@@ -38,7 +38,7 @@ Norėdami nustatyti mokėjimo būdus, turite atlikti toliau nurodytus veiksmus.
 3. Nustatykite parduotuvės mokėjimo būdus. Susiekite mokėjimo būdus su kiekviena parduotuve, o po to įveskite kiekvienos parduotuvės mokėjimo būdo parametrus.
 4. Nustatykite parduotuvių mokėjimo kortelėmis būdus. Nustatykite kiekvieno parduotuvės priimamo mokėjimo kortele būdo kortelę.
 
-![Parduotuvės konfigūracija](media/NoReceiptReturns1.png "„Retail“ parduotuvės sąranka") 
+![Parduotuvės konfigūracija.](media/NoReceiptReturns1.png "„Retail“ parduotuvės sąranka") 
 
 
 ## <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Grąžinimo mokėjimo metodų be kvito apribojimas
@@ -49,12 +49,12 @@ Numatytoji jungiklio reikšmė yra **Ne**, kuri užtikrina, kad mokėjimo būdą
 
 Kai parametras **Riboti grąžinimus be kvito** nustatytas į parinktį **Taip**, pasirinktas mokėjimo būdas nebus leidžiamas naudoti grąžinant. 
 
-![Mokėjimo būdas parduotuvėje](media/NoReceiptReturns3.png "„Retail“ parduotuvės mokėjimo būdas") 
+![Mokėjimo būdas parduotuvėje.](media/NoReceiptReturns3.png "„Retail“ parduotuvės mokėjimo būdas") 
 
 > [!NOTE]
 > Kai kasininkas pasirenka mokėjimo būdą, kuris yra apribotas naudoti grąžinant be kvito, rodomas pranešimas, kuriame reikia patvirtinti priimtinus mokėjimo būdus.
 
-![Galimi mokėjimo būdai](media/NoReceiptReturns4.png "Galimi mokėjimo būdai") 
+![Galimi mokėjimo būdai.](media/NoReceiptReturns4.png "Galimi mokėjimo būdai") 
 
 Jei operacijai priskiriami grąžinimai su kvitu ir be kvito, apribojimo sąlygos nebus taikomos, nes operacija bus grąžinimo darbo eiga su kvitu. 
 

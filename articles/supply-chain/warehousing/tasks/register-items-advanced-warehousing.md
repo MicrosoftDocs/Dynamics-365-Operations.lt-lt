@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c58aa1cec6c0bfe33fa1ef90267dcd8ac1218157
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: af427e8df2ac7a3a3b5a7fd6edb740400f6bbeaf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830839"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358007"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Prekių, kurioms įjungta patobulinto sandėliavimo funkcija, registravimas naudojant prekių gavimo žurnalą
 
@@ -53,14 +53,14 @@ Toliau pateikiamas scenarijus rodo, kaip sukurti prekių gavimo žurnalo antraš
 1. Nustatykite **Paskyros numeris** į *„1001”*.
 1. Nustatykite **Numeris** į pirkimo užsakymo, kurį nurodėte šiam pratimui, numerį.
 
-    ![Prekių pristatymo žurnalas](../media/item-arrival-journal-header.png "Prekių gavimo žurnalas")
+    ![Prekių pristatymo žurnalas.](../media/item-arrival-journal-header.png "Prekių gavimo žurnalas")
 
 1. Pasirinkite **Gerai** žurnalo antraštės sukūrimui.
 1. Skyriuje **Žurnalo eilutės** pasirinkite **Įtraukti eilutę** ir įveskite šiuos duomenis:
     - **Prekės numeris** – Nustatykite į *„M9200”*. **Saitas**, **Sandėlis** ir **Kiekis** bus nustatyti pagal atsargų operacijos duomenis 10 padėklų (1000 vnt.).
     - **Vieta** – Nustatykite į *„001”*. Ši konkreti vieta neseka numerio lentelių.
 
-    ![Prekių gavimo žurnalo eilutė](../media/item-arrival-journal-line.png "Prekių gavimo žurnalo eilutė")
+    ![Prekių gavimo žurnalo eilutė.](../media/item-arrival-journal-line.png "Prekių gavimo žurnalo eilutė")
 
     > [!NOTE]
     > Lauke **Data** nurodoma data, kada atsargose bus užregistruotas turimas šios prekės kiekis.  

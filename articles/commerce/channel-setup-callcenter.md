@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e89c63c90aa8d46fd23900897a54165e14fb635d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 34fa845c72f23485a2573d6bb4cf38b66c7adb7c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800668"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351205"
 ---
 # <a name="set-up-a-call-center-channel"></a>Skambučių centro kanalo nustatymas
 
@@ -54,11 +54,11 @@ Norėdami sukurti ir sukonfigūruoti naują skambučių centro kanalą, atlikite
 
 Toliau pateiktame vaizde parodytas naujo skambučių centro kanalo kūrimas.
 
-![Naujas skambučių centro kanalas](media/channel-setup-callcenter-1.png)
+![Naujas skambučių centro kanalas.](media/channel-setup-callcenter-1.png)
 
 Toliau pateiktame vaizde parodytas skambučių centro kanalo pavyzdys.
 
-![Skambučių centro kanalo pavyzdys](media/channel-setup-callcenter-2.png)
+![Skambučių centro kanalo pavyzdys.](media/channel-setup-callcenter-2.png)
 
 ## <a name="additional-channel-setup"></a>Papildoma kanalų sąranka
 
@@ -66,7 +66,7 @@ Papildomos užduotys, reikalingos skambučių centro kanalo sąrankai, apima mok
 
 Toliau pateiktame atvaizde rodomos sąrankos parinktys **Pristatymo būdai** ir **Mokėjimo metodai**, esančios skirtuke **Nustatyti**.
 
-![Papildomi skambučių centro kanalo nustatymo veiksmai](media/channel-setup-callcenter-3.png)
+![Papildomi skambučių centro kanalo nustatymo veiksmai.](media/channel-setup-callcenter-3.png)
 
 ### <a name="set-up-payment-methods"></a>Nustatyti mokėjimo būdus
 
@@ -81,7 +81,7 @@ Atlikite toliau nurodytus veiksmus, norėdami nustatyti kiekvieno mokėjimo tipo
 
 Toliau pateiktame vaizde parodytas mokėjimas grynaisiais pinigais pavyzdys.
 
-![Mokėjimo metodų pavyzdys](media/channel-setup-callcenter-payments.png)
+![Mokėjimo metodų pavyzdys.](media/channel-setup-callcenter-payments.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Nustatyti pristatymo būdus
 
@@ -97,7 +97,7 @@ Norėdami pakeisti arba pridėti pristatymo būdą, kuris bus susietas su skambu
 
 Toliau pateiktame vaizde parodytas pristatymo būdo pavyzdys.
 
-![Nustatyti pristatymo būdus](media/channel-setup-retail-7.png)
+![Nustatyti pristatymo būdus.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-channel-users"></a>Kanalo vartotojų nustatymas
 

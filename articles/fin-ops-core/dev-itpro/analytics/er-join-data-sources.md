@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: be5646eaf395310c8b34586ef1274a41b5b97029
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 5b4899cad01a0ed2424dcc5d29e9fb5cca65a6a9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944731"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351102"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Norėdami gauti duomenis iš kelių programos lentelių elektroninių ataskaitų (ER) modelio susiejimuose, naudokite duomenų šaltinių jungimo funkciją
 
@@ -69,7 +69,7 @@ Iš anksto taip pat turite atsisiųsti ir įrašyti šiuos ER konfigūracijos fa
 | **Turinio aprašas**  | **Failo vardas**   |
 |--------------------------|-----------------|
 | Pavyzdinis **ER duomenų modelio** konfigūracijos failas, kuris dirbant su pavyzdžiais naudojamas kaip duomenų šaltinis.| [Sujungimo duomenų šaltinio mokymo modelis.versija.1.xml](https://download.microsoft.com/download/5/c/1/5c1d8a57-6ebd-425b-bc5d-c71dde92c6af/ModeltolearnJOINdatasources.version.1.xml) |
-| Pavyzdinis **ER modelio susiejimo** konfigūracijos failas, kuris dirbant su pavyzdžiais realizuoja ER duomenų modelį. | [Sujungimo duomenų šaltinio mokymo susiejimas.versija.1.xml](https://user-images.githubusercontent.com/19827601/115923048-86b10400-a432-11eb-9e57-c37a02effcb4.png)|
+| Pavyzdinis **ER modelio susiejimo** konfigūracijos failas, kuris dirbant su pavyzdžiais realizuoja ER duomenų modelį. | [Sujungimo duomenų šaltinio mokymo susiejimas.versija.1.xml](https://download.microsoft.com/download/9/2/f/92f339ca-41fc-4f5e-b458-6983c957d3dd/MappingtolearnJOINdatasources.version.1.1.xml)|
 | Pavyzdinis **ER formato** konfigūracijos failas. Šis failas aprašo duomenis ER formato komponento užpildymui pavyzdžiuose. | [Sujungimo duomenų šaltinio mokymo formatas.versija.1.xml](https://download.microsoft.com/download/f/f/8/ff8f1b48-14d0-4c73-9145-bcdf8b5265bc/FormattolearnJOINdatasources.version.1.1.xml) |
 
 ### <a name="activate-a-configurations-provider"></a>Aktyvinti konfigūracijų teikėją
@@ -78,7 +78,7 @@ Iš anksto taip pat turite atsisiųsti ir įrašyti šiuos ER konfigūracijos fa
 2. Eikite į **Organizacijos administravimas \> Darbo sritys \> Elektroninės ataskaitos**.
 3. Puslapio **Lokalizavimo konfigūracijos** skyriuje **Konfigūracijų teikėjai** įsitikinkite, kad sąraše yra konfigūracijos teikėjas, susijęs su pavyzdine įmone [Litware, Inc.](http://www.litware.com), ir kad jis pažymėtas kaip **Aktyvus**. Jei nematote šio konfigūracijos teikėjo, atlikite procedūroje [Sukurti konfigūracijų teikėją ir jį pažymėti kaip aktyvų](tasks/er-configuration-provider-mark-it-active-2016-11.md) nurodytus veiksmus.
 
-    ![Elektroninių ataskaitų darbo sritis](./media/GER-JoinDS-ActiveProvider.PNG)
+    ![Elektroninių ataskaitų darbo sritis.](./media/GER-JoinDS-ActiveProvider.PNG)
 
 ### <a name="import-sample-er-configuration-files"></a>Pavyzdinių ER konfigūracijos failų importavimas
 
@@ -101,7 +101,7 @@ Iš anksto taip pat turite atsisiųsti ir įrašyti šiuos ER konfigūracijos fa
 5. Konfigūracijų medyje išplėskite elementą **Sujungimo duomenų šaltinio mokymo modelis** ir kitus modelio elementus (jei yra).
 6. Atkreipkite dėmesį į ER konfigūracijų sąrašą medyje ir versijos informaciją „FastTab“ **Versijos** – jos bus naudojamos kaip pavyzdinės ataskaitos duomenų šaltinis.
 
-    ![Elektroninių ataskaitų konfigūracijų puslapis](./media/GER-JoinDS-ConfigurationsTree.PNG)
+    ![Elektroninių ataskaitų konfigūracijų puslapis.](./media/GER-JoinDS-ConfigurationsTree.PNG)
 
 ### <a name="turn-on-execution-trace-options"></a>Vykdymo sekimo parinkčių įjungimas
 
@@ -109,7 +109,7 @@ Iš anksto taip pat turite atsisiųsti ir įrašyti šiuos ER konfigūracijos fa
 2. Pasirinkite **Vartotojo parametrai**.
 3. Nustatykite vykdymo sekimo parametrus, kaip parodyta toliau esančioje ekrano kopijoje.
 
-    ![Elektroninių ataskaitų vartotojo parametrų puslapis](./media/GER-JoinDS-Parameters.PNG)
+    ![Elektroninių ataskaitų vartotojo parametrų puslapis.](./media/GER-JoinDS-Parameters.PNG)
 
     Kai šie parametrai įjungti, kiekvienam vykdomam importuotam ER formato failui bus sugeneruota vykdymo sekimo ataskaita. Naudodami sugeneruotos vykdymo sekimo ataskaitos informaciją, galite analizuoti, kaip vykdomas ER formatas bei ER modelio susiejimo komponentai. Norėdami gauti daugiau informacijos apie ER vykdymo sekimo funkciją, eikite į [ER formato vykdymo sekimas siekiant diagnozuoti našumo problemas](trace-execution-er-troubleshoot-perf.md).
 
@@ -128,13 +128,13 @@ Peržiūrėkite ER modelio susiejimo komponento parametrus. Komponentas sukonfig
     3. Ryšys **ConfigurationTitle: String = @.'>Relations'.Solution.Name** nurodo, kad ER konfigūracijos pavadinimas yra paimtas iš lauko **Name** lentelėje **ERSolutionTable** naudojant sąryšį (**'>Ryšiai'**) „daugelis su vienu“ tarp lentelių **ERSolutionVersionTable** ir **ERSolutionTable**. Esamos programos egzemplioriaus ER konfigūracijų pavadinimas pateikiami konfigūracijų medyje, esančiame puslapyje **Konfigūracijos**.
     4. Ryšys **@.'>Relations'.Solution.'>Relations'.SolutionVendor.Name** reiškia, kad konfigūracijos teikėjo, kuriam priklauso esama konfigūracija, pavadinimas yra paimtas iš lauko **Name** lentelėje **ERVendorTable** naudojant sąryšį „daugelis su vienu“ tarp lentelių **ERSolutionTable** ir **ERVendorTable**. ER konfigūracijos teikėjų pavadinimai pateikiami konfigūracijų medyje, esančiame puslapyje **Konfigūracijos**, kiekvienos konfigūracijos puslapio antraštėje. Visą ER konfigūracijos teikėjų sąrašą galima rasti lentelės puslapyje **Organizacijos administravimas \> Elektroninės ataskaitos \> Konfigūracijos teikėjas**.
 
-    ![Elektroninių sąskaitų žemėlapio kūrimo puslapis, susietų duomenų modelio prekių sąrašas](./media/GER-JoinDS-Set1Review.PNG)
+    ![Elektroninių sąskaitų žemėlapio kūrimo puslapis, susietų duomenų modelio prekių sąrašas.](./media/GER-JoinDS-Set1Review.PNG)
 
 6. Konfigūracijų medyje išplėskite duomenų modelio elementą **Set1.Summary**:
 
     1. Ryšys **VersionsNumber: Integer = VersionsSummary.aggregated.VersionsNumber** reiškia, kad elementas **Set1.Summary.VersionsNumber** yra susietas su agregavimo lauku **VersionsNumber** duomenų šaltinyje **VersionsSummary**, kurio tipas **GroupBy** ir kuris buvo sukonfigūruotas grąžinti įrašų skaičių lentelėje **ERSolutionVersionTable** naudojant duomenų šaltinį **Versions**.
 
-    ![Redaguoti parametrų puslapį Grupuoti pagal](./media/GER-JoinDS-Set1GroupByReview.PNG)
+    ![Redaguoti parametrų puslapį Grupuoti pagal.](./media/GER-JoinDS-Set1GroupByReview.PNG)
 
 7. Uždarykite puslapį.
 
@@ -144,18 +144,18 @@ Peržiūrėkite ER modelio susiejimo komponento parametrus. Komponentas sukonfig
 
 1. Konfigūracijų medyje išplėskite duomenų modelio elementus **Set2** ir **Set2.Details**: Ryšys **Details: Record list = Details** reiškia, kad elementas **Set2.Details** yra susietas su duomenų šaltiniu **Details**, kuris yra sukonfigūruotas kaip **sujungimo** tipo duomenų šaltinis.
 
-    ![ER modelių susiejimo dizainerio puslapis, kuriame rodomi išplėsti parametrai 2:Įrašo duomenų modelio elementai](./media/GER-JoinDS-Set2Review.PNG)
+    ![ER modelių susiejimo dizainerio puslapis, kuriame rodomi išplėsti parametrai 2:Įrašo duomenų modelio elementai.](./media/GER-JoinDS-Set2Review.PNG)
 
     **Sujungimo** tipo duomenų šaltinį galima įtraukti pasirenkant duomenų šaltinį **Functions\Join**:
 
-    ![Elektroninių sąskaitų modelio žemėlapio kūrimo puslapis, sujungti duomenų šaltinio tipą](./media/GER-JoinDS-AddJoinDS.PNG)
+    ![Elektroninių sąskaitų modelio žemėlapio kūrimo puslapis, sujungti duomenų šaltinio tipą.](./media/GER-JoinDS-AddJoinDS.PNG)
 
 2. Pasirinkite duomenų šaltinį **Details**.
 3. Pasirinkite **Redaguoti** srityje **Duomenų šaltiniai**.
 4. Pasirinkite **Redaguoti sujungimą**.
 5. Pasirinkite **Rodyti informaciją**.
 
-    ![Duomenų šaltinio JOIN parametrų puslapis](./media/GER-JoinDS-JoinDSEditor.PNG)
+    ![Duomenų šaltinio JOIN parametrų puslapis.](./media/GER-JoinDS-JoinDSEditor.PNG)
 
     Šis puslapis naudojamas kuriant reikiamą **sujungimo** tipo duomenų šaltinį. Vykdymo metu šis duomenų šaltinis sukurs vieną jungtinį įrašų iš lentelėje **Jungtinis sąrašas** esančių duomenų šaltinių sąrašą. Įrašų sujungimas prasidės nuo duomenų šaltinio **ConfigurationProviders**, kuris lentelėje yra pirmasis (stulpelis **Tipas** yra tuščias). Kiekvieno kito duomenų šaltinio įrašai bus sujungti atitinkamai su pirminio duomenų šaltinio įrašais, atsižvelgiant į tvarką šioje lentelėje. Kiekvieną sujungiamą duomenų šaltinį reikia sukonfigūruoti kaip duomenų šaltinį, įtrauktą į tikslinį duomenų šaltinį (duomenų šaltinis `1Versions` yra įtrauktas į `1Configurations`, duomenų šaltinis `1Configurations` yra įtrauktas į **ConfigurationProviders**). Kiekviename sukonfigūruotame duomenų šaltinyje turi būti sujungimo sąlygos. Šio konkretaus **sujungimo** duomenų šaltinyje apibrėžiami šie sujungimai:
 
@@ -178,7 +178,7 @@ Peržiūrėkite ER modelio susiejimo komponento parametrus. Komponentas sukonfig
     - Ryšys **VersionsNumber: Integer = DetailsSummary.aggregated.VersionsNumber** reiškia, kad elementas **Set2.Summary.VersionsNumber** yra susietas su agregavimo lauku **VersionsNumber** duomenų šaltinyje **DetailsSummary**, kurio tipas **GroupBy** ir kuris buvo sukonfigūruotas grąžinti duomenų šaltinio **Details**, kurio tipas yra **sujungimas**, sujungtų įrašų skaičių.
     - **Vykdymo** vietos parinktis yra sukonfigūruota kaip **Užklausa**, o tai reiškia, kad šis **GroupBy** duomenų šaltinis bus vykdomas vykdymo metu duomenų bazės lygiu kaip tiesioginis SQL kvietimas. Tai yra įmanoma, nes pagrindinis duomenų šaltinis **Details**, kurio tipas yra **Sujungimas**, yra sukonfigūruotas kaip vykdomas duomenų bazės lygiu.
 
-    ![Duomenų šaltinio GROUPBY parametrų puslapis](./media/GER-JoinDS-Set2GroupByReview.PNG)
+    ![Duomenų šaltinio GROUPBY parametrų puslapis.](./media/GER-JoinDS-Set2GroupByReview.PNG)
 
 9. Uždarykite puslapį.
 10. Pasirinkite **Atšaukti**.
@@ -196,21 +196,21 @@ Peržiūrėkite ER modelio susiejimo komponento parametrus. Komponentas sukonfig
 
     Šis formatas yra skirtas užpildyti sugeneruotą tekstinį failą, kuriame kiekvienai ER konfigūracijos versijai yra skirta nauja eilutė (seka **Versija**). Kiekvienoje sugeneruotoje eilutėje bus konfigūracijos teikėjo, kuriam priklauso dabartinę konfigūracija, pavadinimas ir konfigūracijos versija, atskirta kabliataškiu. Galutinėje sugeneruoto failo eilutėje yra rastų ER konfigūracijos versijų skaičius (seka **Suvestinė**).
 
-    ![ER formato dizainerio puslapis, skirtukas Formatas](./media/GER-JoinDS-FormatReview.PNG)
+    ![ER formato dizainerio puslapis, skirtukas Formatas.](./media/GER-JoinDS-FormatReview.PNG)
 
     Duomenų šaltiniai **Data** ir **Summary** naudojami užpildyti konfigūracijos versijos informacijai sugeneruotame faile:
 
     - Informacija iš duomenų modelio **Set1** naudojama, kai vartotojo dialogo lange vykdymo metu pasirenkate parinktį **Ne**, skirtą duomenų šaltiniui **Selector**.
     - Informacija iš duomenų modelio **Set2** naudojama, kai vartotojo dialogo lange vykdymo metu pasirenkate parinktį **Taip**, skirtą duomenų šaltiniui **Selector**.
 
-    ![ER formato dizainerio puslapis, skirtukas Žemėlapis](./media/GER-JoinDS-FormatMappingReview.PNG)
+    ![ER formato dizainerio puslapis, skirtukas Žemėlapis.](./media/GER-JoinDS-FormatMappingReview.PNG)
 
 9. Pasirinkite **Vykdyti**.
 10. Dialogo lange pasirinkite parinktį **Ne**, esančią lauke **Naudoti sujungimo duomenų šaltinį**.
 11. Pasirinkite **Gerai**.
 12. Peržiūrėkite sugeneruotą failą.
 
-    ![Elektroninės ataskaitos parametrai, sugeneruoti faile nenaudojant JOIN duomenų šaltinio](./media/GER-JoinDS-Set1Run.PNG)
+    ![Elektroninės ataskaitos parametrai, sugeneruoti faile nenaudojant JOIN duomenų šaltinio.](./media/GER-JoinDS-Set1Run.PNG)
 
 #### <a name="analyze-er-format-execution-trace"></a>ER formato vykdymo sekimo analizė
 
@@ -224,7 +224,7 @@ Peržiūrėkite ER modelio susiejimo komponento parametrus. Komponentas sukonfig
     - **ERSolutionTable** buvo iškviesta tiek kartų, kiek yra lentelės **ERSolutionVersionTable** konfigūracijos versijų įrašų, o tokių kvietimų skaičių, siekiant pagerinti našumą, galima sumažinti kartais.
     - **ERVendorTable** buvo iškviesta po du kartus kiekvienam lentelėje **ERSolutionVersionTable** rastam konfigūracijos versijos įrašui, o tokių kvietimų skaičių taip pat galima sumažinti.
 
-    ![Statistikos vykdymas ER modelio susiejimo dizaino įrankio puslapyje](./media/GER-JoinDS-Set1Run2.PNG)
+    ![Statistikos vykdymas ER modelio susiejimo dizaino įrankio puslapyje.](./media/GER-JoinDS-Set1Run2.PNG)
 
 5. Uždarykite puslapį.
 
@@ -236,7 +236,7 @@ Peržiūrėkite ER modelio susiejimo komponento parametrus. Komponentas sukonfig
 4. Pasirinkite **Gerai**.
 5. Peržiūrėkite sugeneruotą failą.
 
-    ![Elektroninės ataskaitos parametrai, sugeneruoti faile nenaudojant JOIN duomenų šaltinio](./media/GER-JoinDS-Set2Run.PNG)
+    ![Elektroninės ataskaitos parametrai, sugeneruoti faile naudojant JOIN duomenų šaltinį.](./media/GER-JoinDS-Set2Run.PNG)
 
 #### <a name="analyze-er-format-execution-trace"></a><a name="analyze"></a> ER formato vykdymo sekimo analizė
 
@@ -249,11 +249,11 @@ Peržiūrėkite ER modelio susiejimo komponento parametrus. Komponentas sukonfig
 
     - Programos duomenų bazė buvo iškviesta vieną kartą siekiant gauti laukus iš lentelių **ERVendorTable**, **ERSolutionTable** ir **ERSolutionVersionTable** ir taip pasiekti reikiamus laukus.
 
-    ![ER modelio žemėlapio kūrmo puslapio statistikos vykdymo informacija](./media/GER-JoinDS-Set2Run2.PNG)
+    ![ER modelio žemėlapio kūrmo puslapio statistikos vykdymo informacija.](./media/GER-JoinDS-Set2Run2.PNG)
 
     - Programos duomenų bazė buvo iškviesta vieną kartą siekiant apskaičiuoti konfigūracijos versijų skaičių ir tam naudojant sąryšius, sukonfigūruotus duomenų šaltinyje **Details**.
 
-    ![ER modelio susiejimo dizainerio puslapis, kuriame rodomi programos duomenų bazės skambučiai](./media/GER-JoinDS-Set2Run3.PNG)
+    ![ER modelio susiejimo dizainerio puslapis, kuriame rodomi programos duomenų bazės skambučiai.](./media/GER-JoinDS-Set2Run3.PNG)
 
 ## <a name="limitations"></a>Apribojimai
 

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6b675d4af6fb9a080f3f3a13e64b2c5b6ad4b783
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8b288a0d6b7516faf635486fbaad885344d2cc6f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022427"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352089"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>„Dynamics 365 Commerce” vertinimo aplinkos parengimas
 
@@ -90,16 +90,16 @@ Atlikite toliau pateikiamus veiksmus, norėdami įdiegti aplinką.
 1. Lauke **Programos versija** pasirinkite naujausią versiją. Jei norite pasirinkti ne naujausią programos versiją, nesirinkite versijos, ankstesnės nei versija **10.0.14**.
 1. Lauke **Platformos versija** naudokite platformos versiją, kuri automatiškai parenkama jūsų pasirinktai programos versijai. 
 
-    ![Programos ir platformos versijų pasirinkimas](./media/project1.png)
+    ![Programos ir platformos versijų pasirinkimas.](./media/project1.png)
 
 1. Pasirinkite **Toliau**.
 1. Pasirinkite aplinkos topologiją **Demonstracinė versija**.
 
-    ![1 aplinkos topologijos pasirinkimas](./media/project2.png)
+    ![1 aplinkos topologijos pasirinkimas.](./media/project2.png)
 
 1. Puslapyje **Diegti aplinką** įveskite aplinkos pavadinimą. Nekeiskite išplėstinių parametrų.
 
-    ![Puslapis Diegti aplinką](./media/project4.png)
+    ![Puslapis Diegti aplinką.](./media/project4.png)
 
 1. Pagal poreikį pakoreguokite VM dydį. (Rekomenduojame VM sandėliavimo vienetą \[SKU\] **„D13 v2“**.)
 1. Peržiūrėkite kainodaros ir licencijavimo sąlygas, tada pažymėkite žymės langelį, kad patvirtintumėte, jog su jomis sutinkate.

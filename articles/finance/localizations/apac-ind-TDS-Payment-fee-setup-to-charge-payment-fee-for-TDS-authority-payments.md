@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: b52331bb1c7a1bc2c764008112f3df9cc0385995
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9213827ea1ad342beb7ac2fe586606651cfdcfa1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023463"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358439"
 ---
 # <a name="set-up-payment-fees-for-tds-authority-payments"></a>Nustatykite TDS įstaigos mokėjimų mokėjimo mokesčius
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023463"
 
 1. Pasirinkite **Mokėtinos sumos \> Mokėjimų sąranka \> Mokėjimo mokestis**.
 
-    [![Mokėjimo mokesčio puslapis](./media/apac-ind-TDS-28.png)](./media/apac-ind-TDS-28.png)
+    [![Mokėjimo mokesčio puslapis.](./media/apac-ind-TDS-28.png)](./media/apac-ind-TDS-28.png)
 
 2. Rinkitės **Nauja** norėdami sukurti mokėjimo mokestį ir įveskite reikiamą informaciją.
 3. Lauke **Mokesčio tipas** pasirinkite mokesčio atributo tipą.
@@ -46,7 +46,7 @@ ms.locfileid: "6023463"
 5. Įveskite kitą reikiamą informaciją.
 6. Veiksmų juostoje rinkitės **Mokesčio mokėjimo nustatymas** norėdami atverti **Mokesčio nustatymą** puslapį, kuriame galite nustatyti įvairių bankų, mokėjimo būdų, mokėjimo specifikacijų, valiutų ir datos intervalų mokėjimo mokesčius.
 
-    [![Mokėjimo mokesčių puslapis](./media/apac-ind-TDS-21.png)](./media/apac-ind-TDS-21.png)
+    [![Mokėjimo mokesčių puslapis.](./media/apac-ind-TDS-21.png)](./media/apac-ind-TDS-21.png)
 
 7. Lauko **Grupavimai** skirtuke **Peržiūra** nurodykite, kuriems bankams nustatote mokėjimo mokestį:
 
@@ -64,7 +64,7 @@ ms.locfileid: "6023463"
 15. Lauke **Mokesčio valiuta** nurodykite mokesčio valiutos kodą.
 16. Pasirinkite skirtuką **Bendra**, norėdami peržiūrėti arba modifikuoti pasirinktos banko sąskaitos informaciją.
 
-    [![Skirtukas Bendra](./media/apac-ind-TDS-22.png)](./media/apac-ind-TDS-22.png)
+    [![Skirtukas Bendra.](./media/apac-ind-TDS-22.png)](./media/apac-ind-TDS-22.png)
 
 16. Lauke **Minimali** įveskite minimalią mokestį suaktyvinaą operacijos sumą.
 17. Lauke **Maksimali** įveskite maksimalų mokestį suaktyvinaą operacijos sumą.
@@ -74,7 +74,7 @@ ms.locfileid: "6023463"
 21. Lauke **Prekės PVM grupė** pasirinkite prekės PVM grupę, kurią naudosite skaičiuodami prekės mokesčio sumos PVM.
 22. Pasirinkite skirtuką **Intervalas**. 
 
-    [![Skirtukas Intervalas](./media/apac-ind-TDS-23.png)](./media/apac-ind-TDS-23.png)
+    [![Skirtukas Intervalas.](./media/apac-ind-TDS-23.png)](./media/apac-ind-TDS-23.png)
 
 23. Laukelyje **Dienos** įveskite dienų tarp mokesčio registravimo datos (nuolaidos datos) ir paprastojo vekselio termino skaičių.
 24. Lauke **Procentai/suma** pasirinkite ar specifikacija yra procentas, ar nustatyta suma.

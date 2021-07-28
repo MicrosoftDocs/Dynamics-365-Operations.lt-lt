@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: EricWang
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: d0cb4b282fe2bd5c68af17c741787c4caca98003
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: c019c597f4734f92f5d9aacdff1cbb30f9fb0a60
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937311"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358838"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Bendrojo žurnalo eilučių PVM apskaičiavimas
 [!include [banner](../includes/banner.md)]
@@ -55,7 +55,7 @@ Kitu atveju PVM kryptis yra Gautinas PVM.
 
 Toliau pateikiamoje diagramoje taisyklė pavaizduota grafiškai.
 
-![Projekto sąskaitų mokesčių krypties galimybės](media/Sales-Tax-Direction-Vendor.jpg)
+![Projekto sąskaitų mokesčių krypties galimybės.](media/Sales-Tax-Direction-Vendor.jpg)
 
 ### <a name="account-type-is-vendor"></a>Sąskaitos tipas yra Tiekėjas
 
@@ -73,7 +73,7 @@ Kitu atveju PVM kryptis yra Gautinas PVM.
 
 Toliau pateikiamoje diagramoje taisyklė pavaizduota grafiškai.
 
-![Tiekėjų sąskaitų mokesčių krypties galimybės](media/Sales-Tax-Direction-Vendor.jpg)
+![Tiekėjų sąskaitų mokesčių krypties galimybės.](media/Sales-Tax-Direction-Vendor.jpg)
 
 ### <a name="account-type-is-customer"></a>Sąskaitos tipas yra Klientas
 
@@ -89,7 +89,7 @@ Kitu atveju PVM kryptis yra Mokėtinas PVM.
 
 Toliau pateikiamoje diagramoje taisyklė pavaizduota grafiškai.
 
-![Klientų sąskaitų mokesčių krypties galimybės](media/Sales-Tax-Direction-Customer.jpg)
+![Klientų sąskaitų mokesčių krypties galimybės.](media/Sales-Tax-Direction-Customer.jpg)
 
 ### <a name="account-type-is-ledger"></a>Sąskaitos tipas yra DK
 
@@ -103,7 +103,7 @@ Kitu atveju, jei žurnalo suma yra debetas (teigiama), PVM kryptis yra Gautinas 
 
 Toliau pateikiamoje diagramoje taisyklė pavaizduota grafiškai.
 
-![DK sąskaitų mokesčių krypties galimybės](media/Sales-Tax-Direction-Ledger.jpg)
+![DK sąskaitų mokesčių krypties galimybės.](media/Sales-Tax-Direction-Ledger.jpg)
 
 #### <a name="override-the-sales-tax-direction"></a>PVM krypties keitimas
 
@@ -115,7 +115,7 @@ Eikite į **DK \> Sąskaitų planas \> Sąskaitos \> Pagrindinės sąskaitos** i
 
 Šiame skyriuje aprašoma, kaip apskaičiuojamas PVM sumos ženklas.
 
-![PVM operacijų puslapis](media/sales-tax-amount-sign.jpg)
+![PVM operacijų puslapis.](media/sales-tax-amount-sign.jpg)
 
 Šioje lentelėje pateikiama bendroji taisyklė, taikoma nustatant mokesčių valdybą ir sumų ženklą laikinoje PVM lentelėje.
 

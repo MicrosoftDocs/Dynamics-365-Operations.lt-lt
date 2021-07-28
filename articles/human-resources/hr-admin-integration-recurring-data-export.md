@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a4a963bcfe5932f5642b43751ccd96c472fec0d9
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: ba4f0eca471cf9734230bb2a23d53ff2e233ba2f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055009"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361235"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Pasikartojančių duomenų eksportavimo programos kūrimas
 
@@ -63,13 +63,13 @@ Prieš pradėdami pratimą, nurodytą šiose mokymo priemonėse, turite turėti 
 
 Baigta loginė programa bus panaši į šią iliustraciją.
 
-![Loginės programos apžvalga](media/integration-logic-app-overview.png)
+![Loginės programos apžvalga.](media/integration-logic-app-overview.png)
 
 ### <a name="step-1-create-a-data-export-project-in-human-resources"></a>1 veiksmas: sukurti duomenų eksportavimo projektą programoje „Human Resources“
 
 Programoje „Human Resources“ sukurkite duomenų eksportavimo projektą, kuriuo eksportuojami darbininkai. Pavadinkite projektą **Eksportuoti darbininkus** ir įsitikinkite, kad parinktis **Generuoti duomenų paketus** yra nustatyta kaip **Taip**. Įtraukite į projektą vieną objektą (**Darbininkas**) ir pasirinkite formatą, kuriuo norite eksportuoti. (Šiose mokymo priemonėse naudojamas „Microsoft Excel“ formatas.)
 
-![Darbininkų duomenų projekto eksportavimas](media/integration-logic-app-export-workers-project.png)
+![Darbininkų duomenų projekto eksportavimas.](media/integration-logic-app-export-workers-project.png)
 
 > [!IMPORTANT]
 > Įsiminkite duomenų eksportavimo projekto pavadinimą. Jums jo reikės, kai kitame veiksme kursite loginę programą.
@@ -80,12 +80,12 @@ Didžioji dalis pratimo susijusi su loginės programos kūrimu.
 
 1. „Azure“ portale sukurkite loginę programą.
 
-    ![Loginės programos kūrimo puslapis](media/integration-logic-app-creation-1.png)
+    ![Loginės programos kūrimo puslapis.](media/integration-logic-app-creation-1.png)
 
 2. Įrankyje „Logic Apps Designer“ pradėkite nuo tuščios loginės programos.
 3. Įtraukite [pasikartojančio grafiko paleidiklį](/azure/connectors/connectors-native-recurrence), kad galėtumėte paleisti loginę programą kas 24 valandas (arba pagal pasirinktą grafiką).
 
-    ![Pasikartojimo dialogo langas](media/integration-logic-app-recurrence-step.png)
+    ![Pasikartojimo dialogo langas.](media/integration-logic-app-recurrence-step.png)
 
 4. Iškvieskite [ExportToPackage](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#exporttopackage) DMF REST API ir suplanuokite savo duomenų paketo eksportavimą.
 
@@ -97,7 +97,7 @@ Didžioji dalis pratimo susijusi su loginės programos kūrimu.
         > [!NOTE]
         > „Human Resources“ tarnyboje dar nepateikiama jungtis, kuriuo būtų išstatomos visos API, kurios sudaro DMF paketų REST API, pvz., **ExportToPackage**. Užuot turite iškviesti API naudodami neapdorotas HTTPS užklausas per HTTP su „Azure AD“ jungtimi. Ši jungtis naudoja „Azure Active Directory“ („Azure AD“) autentifikavimui ir įgaliojimui į „Human Resources“.
 
-        ![HTTP naudojant „Azure AD“ jungtį](media/integration-logic-app-http-aad-connector-step.png)
+        ![HTTP naudojant „Azure AD“ jungtį.](media/integration-logic-app-http-aad-connector-step.png)
 
     2. Prisijunkite prie savo „Human Resources“ aplinkos per HTTP su „Azure AD“ jungtimi.
     3. Nustatykite HTTP **SKELBTI** užklausą, kad būtų iškviesta **ExportToPackage** DMF REST API.
@@ -116,21 +116,21 @@ Didžioji dalis pratimo susijusi su loginės programos kūrimu.
             }
             ```
 
-        ![HTTP užklausos veiksmo iškvietimas](media/integration-logic-app-export-to-package-step.png)
+        ![HTTP užklausos veiksmo iškvietimas.](media/integration-logic-app-export-to-package-step.png)
 
     > [!TIP]
     > Galbūt norėsite pervardyti kiekvieną veiksmą taip, kad jis būtų prasmingesnis nei numatytasis pavadinimas, **iškviesti HTTP užklausą**. Pavyzdžiui, galite pervardyti šį veiksmą kaip **ExportToPackage**.
 
 5. [Inicijuokite kintamąjį](/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable), skirtą užklausos **ExportToPackage** vykdymo būsenai saugoti.
 
-    ![Kintamojo veiksmo inicijavimas](media/integration-logic-app-initialize-variable-step.png)
+    ![Kintamojo veiksmo inicijavimas.](media/integration-logic-app-initialize-variable-step.png)
 
 6. Palaukite, kol duomenų eksportavimo vykdymo būsena taps **Pavyko**.
 
     1. Pridėkite [ciklą Iki](/azure/logic-apps/logic-apps-control-flow-loops#until-loop), kuris kartojamas, kol kintamojo **ExecutionStatus** reikšmė tampa **Pavyko**.
     2. Pridėkite veiksmą **Delsa**, kuris laukia penkias sekundes prieš tikrindamas dabartinę eksportavimo vykdymo būseną.
 
-        ![Iki ciklo konteinerio](media/integration-logic-app-until-loop-step.png)
+        ![Iki ciklo konteinerio.](media/integration-logic-app-until-loop-step.png)
 
         > [!NOTE]
         > Nustatykite ribinį skaičių į **15**, kad lauktumėte, kol eksportavimas pasibaigs ne daugiau nei 75 sekundes (15 iteracijų × 5 sek.). Jei eksportavimas užtrunka ilgiau, atitinkamai pakoreguokite ribinį skaičių.        
@@ -146,9 +146,9 @@ Didžioji dalis pratimo susijusi su loginės programos kūrimu.
             > [!NOTE]
             > Jums gali tekti įvesti vertę **Užklausos turinys** kūrimo įrankyje arba kodo rodinyje, arba funkcijos rengyklėje.
 
-        ![HTTP užklausos 2 veiksmo iškvietimas](media/integration-logic-app-get-execution-status-step.png)
+        ![HTTP užklausos 2 veiksmo iškvietimas.](media/integration-logic-app-get-execution-status-step.png)
 
-        ![Kintamojo veiksmo nustatymas](media/integration-logic-app-set-variable-step.png)
+        ![Kintamojo veiksmo nustatymas.](media/integration-logic-app-set-variable-step.png)
 
         > [!IMPORTANT]
         > Reikšmė **Nustatyti kintamąjį**, priklausanti veiksmui (**body('Invoke\_an\_HTTP\_request\_2')?['value']**), skiriasi nuo reikšmės, skirtos turinio reikšmei **Iškviesti HTTP užklausą 2**, net jei kūrimo įrankyje tuo pačiu būdu bus rodomos vertės.
@@ -161,7 +161,7 @@ Didžioji dalis pratimo susijusi su loginės programos kūrimu.
         - **Prašymo Url:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
         - **Užklausos turinys:** {"executionId": body('GetExportedPackageURL')?['value']}
 
-        ![GetExportedPackageURL veiksmas](media/integration-logic-app-get-exported-package-step.png)
+        ![GetExportedPackageURL veiksmas.](media/integration-logic-app-get-exported-package-step.png)
 
 8. Atsisiųskite eksportuotą paketą.
 
@@ -173,7 +173,7 @@ Didžioji dalis pratimo susijusi su loginės programos kūrimu.
             > [!NOTE]
             > Jums gali tekti įvesti užklausos **URI** vertę kūrimo įrankyje arba kodo rodinyje, arba funkcijos rengyklėje.
 
-        ![HTTP GAUTI veiksmas](media/integration-logic-app-download-file-step.png)
+        ![HTTP GAUTI veiksmas.](media/integration-logic-app-download-file-step.png)
 
         > [!NOTE]
         > Šiai užklausai nereikia jokio papildomo autentifikavimo, nes URL, kurio **GetExportedPackageUrl** API grįžtys apima bendrai naudojamą prieigos parašų atpažinimo ženklą, kuris suteikia prieigą prie failo atsisiuntimo.
@@ -187,7 +187,7 @@ Didžioji dalis pratimo susijusi su loginės programos kūrimu.
         - **Failo pavadinimas:** darbininko\_paketas.zip
         - **Failo turinys:** ankstesnio veiksmo tekstas (dinaminis turinys)
 
-        ![Failo veiksmo kūrimas](media/integration-logic-app-create-file-step.png)
+        ![Failo veiksmo kūrimas.](media/integration-logic-app-create-file-step.png)
 
 ### <a name="step-3-test-the-logic-app"></a>3 veiksmas: tikrinti loginę programą
 
@@ -197,7 +197,7 @@ Jei pranešama apie bet kurio veiksmo triktį, kūrimo įrankyje pasirinkite nep
 
 Toliau pateiktoje iliustracijoje parodyta, kaip atrodo įrankis „Logic Apps Designer“, kai visi loginės programos veiksmai sėkmingai vykdomi.
 
-![Sėkmingas loginės programos vykdymas](media/integration-logic-app-successful-run.png)
+![Sėkmingas loginės programos vykdymas.](media/integration-logic-app-successful-run.png)
 
 ## <a name="summary"></a>Suvestinė
 

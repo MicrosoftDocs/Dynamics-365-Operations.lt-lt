@@ -2,7 +2,7 @@
 title: Antraštės modulis
 description: Šioje temoje aprašomi antraštės moduliai ir tai, kaip juos kurti puslapio antraštėse „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
-ms.date: 10/20/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6b14178431b281daa827749781dd16481f8bfb74
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 21bf454e57c62a2542ed055bb0913c48ab70e235
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799921"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479261"
 ---
 # <a name="header-module"></a>Antraštės modulis
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šioje temoje aprašomi antraštės moduliai ir tai, kaip juos kurti puslapio antraštėse „Microsoft Dynamics 365 Commerce“.
 
@@ -33,7 +34,7 @@ Antraštės modulyje yra svetainės logotipas, saitai į naršymo hierarchiją, 
 
 Toliau pateiktame paveikslėlyje parodytas pagrindiniame puslapyje esančio antraštės modulio pavyzdys.
 
-![Antraštės modulio pavyzdys](./media/ecommerce-header.png)
+![Antraštės modulio pavyzdys.](./media/ecommerce-header.png)
 
 ## <a name="properties-of-a-header-module"></a>Antraštės modulio ypatybės
 
@@ -58,9 +59,16 @@ Antraštės modulyje galima naudoti tolesnius modulius.
 - **Parduotuvės išrinkiklis** – parduotuvės išrinkiklio modulį galima įtraukti į antraštės modulio parduotuvės išrinkiklio vietą. Jis leidžia vartotojams naršyti ir rasti netoliese esančias parduotuves. Vartotojai taip pat gali nurodyti pageidaujamą parduotuvę. Ši parduotuvė bus rodoma antraštėje. Kai parduotuvės išrinkiklio modulis įtraukiamas į antraštės modulį, jo ypatybė **Režimas** turi būti nustatyta į **Rasti parduotuves**. Daugiau informacijos žr. [Parduotuvės išrinkiklio modulis](store-selector.md).
 
 > [!NOTE]
-> - Krepšelio piktogramos modulio naudojimo antraštės moduliuose palaikymas pasiekiamas „Dynamics 365 Commerce” 10.0.11 leidime.
-> - Svetainės išrinkiklio modulio naudojimo antraštės moduliuose palaikymas pasiekiamas „Dynamics 365 Commerce” 10.0.14 leidime.
-> - Parduotuvės išrinkiklio modulio naudojimo antraštės moduliuose palaikymas pasiekiamas „Dynamics 365 Commerce” 10.0.15 leidime.
+> - Krepšelio piktogramos modulio naudojimo antraštės moduliuose palaikymas pasiekiamas kaip 10.0.11 „Dynamics 365 Commerce” versijos leidimas.
+> - Svetainės parinkiklio modulio naudojimo antraštės moduliuose palaikymas pasiekiamas kaip 10.0.14 „Dynamics 365 Commerce” versijos leidimas.
+> - Parduotuvės parinkiklio modulio naudojimo antraštės moduliuose palaikymas pasiekiamas kaip 10.0.15 „Dynamics 365 Commerce” versijos leidimas.
+
+## <a name="header-module-in-the-adventure-works-theme"></a>Antraštės modulis „Adventure Works” temoje
+
+„Adventure Works” temoje antraštės modulis palaiko **Mobiliojo logotipo** ypatybę. Ši ypatybė leidžia nurodyti mobiliųjų rodinio prievadų logotipą. **Mobiliojo logotipo** ypatybę galima naudoti kaip modulio apibrėžimo plėtinį.
+
+> [!IMPORTANT]
+> „Adventure Works” temą galima naudoti kaip 10.0.20 „Dynamics 365 Commerce” versijos leidimą.
 
 ## <a name="create-a-header-fragment-for-a-page"></a>Puslapio antraštės fragmento kūrimas
 

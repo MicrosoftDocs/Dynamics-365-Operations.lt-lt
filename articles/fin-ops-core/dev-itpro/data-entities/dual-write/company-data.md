@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 6a858135d377b30d6e8885ae18b2dc50da11813b
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: ab063c66712b43818f58eee1493ec168771ae97a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941034"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350964"
 ---
 # <a name="company-concept-in-dataverse"></a>Įmonės koncepcija „Dataverse“
 
@@ -43,7 +43,7 @@ Verslo struktūros vienetas ir įmonė nėra lygiavertės koncepcijos, todėl �
 
 Tolesnėje iliustracijoje pateikiamas šio duomenų nustatymo „Dataverse“ pavyzdys.
 
-![Duomenų nustatymas „Dataverse“](media/dual-write-company-1.png)
+![Duomenų nustatymas „Dataverse“.](media/dual-write-company-1.png)
 
 Dėl tokios konfigūracijos bet kokia eilutė, susieta su USMF įmone, priklauso komandai, kuri yra susieta su USMF verslo struktūros vienetu „Dataverse“. Todėl tas eilutes gali matyti bet kuris vartotojas, kuris turi prieigą prie to verslo struktūros vieneto pasitelkiant saugos vaidmenį, kuris nustatytas verslo struktūros vieneto lygio matomumui. Toliau pateikiamas pavyzdys, kaip komandos gali būti naudojamos norint suteikti tinkamą prieigą prie tų eilučių.
 
@@ -52,21 +52,21 @@ Dėl tokios konfigūracijos bet kokia eilutė, susieta su USMF įmone, priklauso
 + „USMF pardavimas“ komanda susiejama su anksčiau minėtu USMF verslo struktūros vienetu.
 + Todėl „USMF pardavimas“ komandos nariai gali matyti bet kurią paskyrą, priklausančią „USMF DW“ vartotojui, kuris būtų gautas iš USMF įmonės lentelės naudojant „Finance and Operations“.
 
-![Komandų naudojimas](media/dual-write-company-2.png)
+![Komandų naudojimas.](media/dual-write-company-2.png)
 
 Kaip parodyta ankstesnėje iliustracijoje, šis 1:1 susiejimas tarp verslo struktūros vieneto, įmonės ir komandos yra tik pradžios taškas. Tolesniame pavyzdyje naujas verslo struktūros vienetas „Europa“ rankiniu būdu sukuriamas „Dataverse“ kaip DEMF ir ESMF pirminis elementas. Šis naujas šakninis verslo struktūros vienetas nėra susijęs su dvigubu rašymu. Tačiau jis gali būti naudojamas siekiant suteikti „EUR pardavimas“ komandos nariams prieigą prie paskyros duomenų tiek DEMF, tiek ESMF nustatant duomenų matomumą į **Pirminis/antrinis BU** susietam saugos vaidmeniui.
 
 Paskutinėje temoje aptariama, kaip dvigubas rašymas nustato, kuriai savininkų komandai reikėtų priskirti eilutes. Šią veikseną kontroliuoja stulpelis **Numatytoji komanda savininkė** eilutėje cdm\_Company. Kai cdm\_Company eilutė yra įgalinta dvigubam rašymui, priedas automatiškai sukuria susietą verslo struktūros vienetą ir savininko komandą (jei jos dar nėra) ir nustato **Numatytoji komanda savininkė** stulpelį. Administratorius gali pakeisti šį stulpelį kita reikšme. Tačiau administratorius negali išvalyti stulpelio tol, kol lentelei įgalintas dvigubas rašymas.
 
 > [!div class="mx-imgBorder"]
-![Stulpelis Numatytoji komanda savininkė](media/dual-write-default-owning-team.jpg)
+![Stulpelis Numatytoji komanda savininkė.](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Įmonės paskirstymas ir įkėlimas
 
 „Dataverse“ integracija suteikia įmonės lygiavertiškumą naudojant įmonės identifikatorių, skirtą paskirstyti duomenis. Kaip parodyta toliau pateiktoje iliustracijoje, visos konkrečios įmonės lentelės išplečiamos taip, kad su cdm\_Company lentele turėtų ryšį „daugelis su vienu“ (N:1).
 
 > [!div class="mx-imgBorder"]
-![N:1 ryšys tarp konkrečios įmonės ir cdm_Company lentelių](media/dual-write-bootstrapping.png)
+![N:1 ryšys tarp konkrečios įmonės ir cdm_Company lentelių.](media/dual-write-bootstrapping.png)
 
 + Įtraukus ir įrašius įmonę eilučių reikšmė tampa skirta tik skaityti. Todėl vartotojai turėtų įsitikinti, kad pasirinko tinkamą įmonę.
 + Tik tos eilutės, kurios apima įmonės duomenis, gali būti dvigubo rašymo tarp programos ir „Dataverse“.
@@ -98,7 +98,7 @@ Yra keli būdai automatiškai įvesti įmonės pavadinimą „Customer Engagemen
 
 Norėdami taikyti filtravimą, paremtą įmonės kontekstu Jūsų pasirinktinėse formose arba pasirinktiniuose peržvalgos stulpeliuose, pridėtuose standartinėse formose, atidarykite formą ir naudokite skyrių **Susijusių įrašų filtravimas** įmonės filtro taikymui. Turite tai nustatyti kiekvienam peržvalgos stulpeliui, kuriam reikalingas filtravimas, paremtas esančia įmone pasirinktoje eilutėje. Parametras rodomas dalyje **Paskyra** šioje iliustracijoje.
 
-:::image type="content" source="media/apply-company-context.png" alt-text="Įmonės konteksto taikymas":::
+:::image type="content" source="media/apply-company-context.png" alt-text="Įmonės konteksto taikymas.":::
 
 
 

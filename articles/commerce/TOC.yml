@@ -932,6 +932,8 @@
                   href: manage-ecommerce-users-roles.md
                 - name: Atsargų parametrų taikymas
                   href: inventory-settings.md
+                - name: Produkto įtraukimo į krepšelį parametrų taikymas
+                  href: add-cart-settings.md
                 - name: Ieškos modulio optimizavimo (SEO) aplinkybės jūsų svetainei
                   href: search-engine-optimization-considerations.md
                 - name: Turinio saugos strategijos (CSP) tvarkymas
@@ -1016,6 +1018,10 @@
                       href: customize-site-navigation.md
                     - name: Puslapio URL kūrimas
                       href: create-page-URL.md
+                - name: „Adventure Works“ tema
+                  items:
+                    - name: „Adventure Works“ temos apžvalga
+                      href: adventure-works-theme.md
             - name: Skaitmeninio turto valdymas
               items:
                 - name: Skaitmeninio turto valdymo apžvalga
@@ -1070,6 +1076,16 @@
                       href: add-hero-module.md
                     - name: Vaizdo įrašų leistuvo modulis
                       href: add-video-player.md
+                    - name: Aktyvaus vaizdo modulis
+                      href: active-image-module.md
+                    - name: Vaizdų sąrašo modulis
+                      href: image-list-module.md
+                    - name: Interaktyvių funkcijų modulis
+                      href: interactive-feature-module.md
+                    - name: Prenumeruoti modulį
+                      href: subscribe-module.md
+                    - name: Plytelių sąrašo modulis
+                      href: tile-list-module.md
                 - name: Antraštės ir poraštės moduliai
                   items:
                     - name: Antraštės modulis
@@ -1314,6 +1330,10 @@
                   href: localizations/emea-nor-cash-registers.md
                 - name: Kasos aparatų diegimo gairės
                   href: localizations/emea-nor-loc-deployment-guidelines.md
+            - name: Rusija
+              items:
+                - name: „Commerce“ lokalizavimas Rusijai
+                  href: localizations/rus-commerce-localization.md
             - name: Švedija
               items:
                 - name: Kasos aparato funkcijos
@@ -2146,6 +2166,8 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/commerce/toc.json
                     - name: Patvirtinimo veiksmų konfigūravimas
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: Išlaidų redaktorių konfigūravimas
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/commerce/toc.json
                     - name: Neautomatizuotų sprendimų konfigūravimas
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/commerce/toc.json
                     - name: Sąlyginių sprendimų konfigūravimas
@@ -2558,6 +2580,8 @@
                   href: dev-itpro/extensions-shipping-carrier-integration.md
                 - name: Kanalo duomenų bazės plėtiniai
                   href: dev-itpro/channel-db-extensions.md
+                - name: „Cloud Scale Unit“ plėtinio šalinimas
+                  href: dev-itpro/retail-sdk/remove-csu-package.md
                 - name: Pasirinktinio CDX sinchronizavimo naudojant plėtinį įjungimas
                   href: dev-itpro/cdx-extensibility.md
                 - name: Užsakymo atributų nurodymas ir nustatymas

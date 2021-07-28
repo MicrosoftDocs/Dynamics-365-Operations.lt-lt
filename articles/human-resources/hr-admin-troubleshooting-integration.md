@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d2ac28a1bd09cf68c711295116fb007bdfab2070
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 946d0433df41ce7067b8b0673db680abb42b7792
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053400"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357294"
 ---
 # <a name="integration-with-finance-faq"></a>Integravimo su „Finance“ DUK
 
@@ -37,7 +37,7 @@ Nr. Jei redaguojate „Human Resources“ programos vartotoją, integravimas tar
 | --- | --- | --- | --- |
 | „Dynamics365“ skirtas „Talent“ | „f9be0c49-aa22-4ec6-911a-c5da515226ff“ | „27fd8129-4b3c-43f7-b1bf-47495d3a049b“ | „f9be0c49-aa22-4ec6-911a-c5da515226ff“ |
 
-![Nustatytieji nustatymai „Talent“ programos naudotojui](media/DynamicsApplicationUser.png)
+![Nustatytieji nustatymai „Talent“ programos naudotojui.](media/DynamicsApplicationUser.png)
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>Ar visi dokumentai sinchronizuojami, ar tik tam tikri duomenų objektai?
 
@@ -57,7 +57,7 @@ Esant numatytiesiems parametrams, naujose aplinkose, kuriose nėra pateiktų dem
 
 Jei duomenys yra „Finance“, bet net „Human Resources“, susiekite abi sistemas kartu naudodami „Human Resources“ funkciją **Konfigūruoti saitus**.
 
-![Susieti finansines dimensijas](media/MapFinancialDimensions.png)
+![Susieti finansines dimensijas.](media/MapFinancialDimensions.png)
 
 ## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-why"></a>Kartais, kai importuoju darbuotojus, „Finance“ jie tampa neaktyviais darbuotojais. Kodėl?
 
@@ -71,14 +71,14 @@ Duomenų sinchronizavimas vykdomas pagal vykdymo grafiką. Integracija paims įr
 
 Naudodami parinktį „Išplėstinė užklausa“ galite filtruoti ir pertvarkyti šaltinio duomenis prieš perduodami juos į paskirties vietą.
 
-![Aktyvių darbininkų išplėstinė užklausa](media/MapOnlyActiveWorkersAdvancedQuery.png)
+![Aktyvių darbininkų išplėstinė užklausa.](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>Ar galiu nurodyti, kokius laukus siųsti į „Finance“ dėl konkretaus objekto?
 
 Laukai gali būti įtraukti arba pašalinti iš integracijos užduoties. Ne visi duomenų laukeliai esantys „Dataverse“ lentelėje bus užpildyti iš „Human Resources“.
 Papildomi duomenys gali būti užpildomi naudojant „Power Apps“.
 
-![Laukų įtraukimas arba pašalinimas iš integracijos užduoties](media/SpecifyFieldsIncludedInIntegration.png)
+![Laukų įtraukimas arba pašalinimas iš integracijos užduoties.](media/SpecifyFieldsIncludedInIntegration.png)
 
 ## <a name="i-set-up-integration-as-a-batch-job-but-human-resources-lost-connection-to-the-destination-system-how-can-i-send-the-same-set-of-changes-to-the-destination-system"></a>Nustačiau integravimą kaip paketinę užduotį, bet „Human Resources“ prarado ryšį su paskirties sistema. Kaip į paskirties sistemą išsiųsti tuos pačius pakeitimus?
 
@@ -126,21 +126,21 @@ Atsekite laiką iš Duomenų integratoriaus vykdymo retrospektyvos ir programoje
 
 1. Užfiksuokite užduoties indeksą iš duomenų integratoriaus (šiame pavyzdyje tai „9“).
 
-    ![Užfiksuokite užduoties indeksą iš duomenų integratoriaus](media/CaptureTaskIndex.png)
+    ![Užfiksuokite užduoties indeksą iš duomenų integratoriaus.](media/CaptureTaskIndex.png)
 
 2. Stebėkite projekto vykdymo laiką.
 
-    ![Stebėkite projekto vykdymo laiką](media/CaptureTimeOfExecution.png)
+    ![Stebėkite projekto vykdymo laiką.](media/CaptureTimeOfExecution.png)
 
 3. Programoje „Finance“ raskit –1 indeksą. Šiame pavyzdyje projektas su priesaga „8“ ir indekso vykdymo laikas „0“ sutampa su 2 veiksmo vykdymo laiku.
 
-    ![Indekso identifikavimas](media/IdentifyIndex.png)
+    ![Indekso identifikavimas.](media/IdentifyIndex.png)
 
 ## <a name="after-integrating-human-resources-and-finance-i-dont-see-my-human-resources-data-in-finance-what-do-i-do"></a>Integravęs „Human Resources“ ir „Finance“ nematau savo „Human Resources“ duomenų „Finance“ programoje. Ką daryti?
 
 Integravimo su „Finance“ procesą sudaro du veiksmai. Pirmiausia, patikrinkite, ar „Human Resources“ yra atnaujinta ir teikiama „Dataverse“. Tai yra artimas realaus laiko sinchronizavimas ir gali būti tikrinamas „Power Apps“ ieškant duomenų duomenų lentelėse.
 
-![Duomenys „Dataverse“](media/DataInCDS.png)
+![Duomenys „Dataverse“.](media/DataInCDS.png)
 
 Jei duomenys nėra rodomi „Dataverse“, kaip tikėtasi, patikrinkite, ar objektas palaikomas integracijoje. Norint įtraukti papildomų duomenų į „Dataverse“, pakeitimą turi atlikti „Microsoft“.
 
@@ -165,7 +165,7 @@ Taip pat įsitikinkite, kad, esate pasirinkę tinkamus susieto jungčių rinkini
 
 Atnaujinkite duomenų objektus programoje „Finance“, pasirinkdami **Duomenų valdymas \> Sistemos parametrai \> Objekto parametrai \> Naujinti objektų sąrašą.** Tai turėtų užtrukti porą minučių, tada turėtumėte matyti tuos susiejimus. Taip atsitinka, kai kuriami nauji projektai.
 
-![Nenurodytas laukų susiejimas](media/MissingFieldMapping.png)
+![Nenurodytas laukų susiejimas.](media/MissingFieldMapping.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

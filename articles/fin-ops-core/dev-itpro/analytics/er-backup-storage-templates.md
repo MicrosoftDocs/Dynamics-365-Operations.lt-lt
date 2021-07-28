@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b41760bb58cbef66146b3f1af6f30c6a35a18727
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 305576b79fdb11f29de9207662de0fe4b4dd6eb5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743852"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351847"
 ---
 # <a name="backup-storage-of-er-templates"></a>ER šablonų atsarginių kopijų saugykla
 
@@ -65,19 +65,19 @@ Norėdami nustatyti parametrą **Automatiškai kaip paketą vykdyti sugadintų �
 > [!NOTE]
 > Šis parametras nurodomas kaip būdingas konkrečiam programos vartotojui ir prisijungusiai įmonei.
 
-![ER konfigūracijų puslapis](./media/GER-BackupTemplates-1.png)
+![ER konfigūracijų puslapis.](./media/GER-BackupTemplates-1.png)
 
 Toliau esančiame paveikslėlyje pateiktas pranešimo, kuris rodomas, kai nustatyta parametro **Automatiškai kaip paketą vykdyti sugadintų šablonų atkūrimo procedūrą** reikšmė yra **Įjungta**, pavyzdys.
 
-![Tiekėjo mokėjimų žurnalo puslapis](./media/GER-BackupTemplates-2.png)
+![Tiekėjo mokėjimų žurnalo puslapis.](./media/GER-BackupTemplates-2.png)
 
 Toliau esančiame paveikslėlyje parodytas paketinis procesas **Atkurti sugadintus šablonus iš vidinės duomenų bazės atsarginės kopijos** puslapyje **Paketinė užduotis**.
 
-![Paketinės užduoties puslapis](./media/GER-BackupTemplates-3.png)
+![Paketinės užduoties puslapis.](./media/GER-BackupTemplates-3.png)
 
 Įvykdytų **Atkurti sugadintus šablonus iš vidinės duomenų bazės atsarginės kopijos** paketinių procesų vykdymo žurnalas apima informaciją apie šablonus, kurie buvo atkurti iš atsarginės kopijos saugojimo vietos į pirminę saugojimo vietą.
 
-![Paketinės užduoties retrospektyvos puslapis](./media/GER-BackupTemplates-4.png)
+![Paketinės užduoties retrospektyvos puslapis.](./media/GER-BackupTemplates-4.png)
 
 Esant numatytiesiems nustatymams, automatinio šablonų, naudojamų ER formato konfigūracijose, atsarginių kopijų kūrimo procesas yra įjungtas. Norėdami, kad šablonų atsarginės kopijos nebūtų daromos, nustatykite parinkties **Nebekurti šablono atsarginių kopijų** reikšmę **Taip**; ši parinktis pasiekiama kortelėje **Priedai**, esančioje puslapyje **Elektroninių ataskaitų parametrai**. Šį puslapį galite atidaryti iš darbo srities **Elektroninės ataskaitos**.
 
@@ -85,7 +85,7 @@ Norėdami nustatyti parinkties **Nebekurti šablonų atsarginių kopijų** reik�
 
 Jei savo aplinką atnaujinote į „Finance and Operations“ 10.0.5 (2019 m. spalio) versiją ir norite pereiti prie naujos aplinkos, kuri apima vykdytinas ER formato konfigūracijas, prieš vykdydami perkėlimą, pasirinkite **Užpildyti atsarginių kopijų saugyklą** puslapyje **Elektroninių ataskaitų parametrai**. Šiuo mygtuku pradedamas visų galimų šablonų atsarginių kopijų kūrimo procesas, kad jie galėtų būti išsaugoti šablonų ER atsarginių kopijų saugojimo vietoje.
 
-![Elektroninių ataskaitų parametrų puslapis](./media/GER-BackupTemplates-5.png)
+![Elektroninių ataskaitų parametrų puslapis.](./media/GER-BackupTemplates-5.png)
 
 ## <a name="manual-recovery"></a>Rankinis atkūrimas
 

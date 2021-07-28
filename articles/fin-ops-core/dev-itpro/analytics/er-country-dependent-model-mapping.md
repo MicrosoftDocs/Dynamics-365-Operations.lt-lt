@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 83cd99350f58a56d121d694393edc4eb98af728a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ef74a446356eeeeb86829868043ca2dad4eff77d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753773"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357599"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>Nuo šalies konteksto priklausančio ER modelio susiejimų konfigūravimas
 
@@ -48,7 +48,7 @@ Norint atlikti kai kuriuos šios temos veiksmus, reikia įgyvendinti ER formatą
 
 Atlikite šios temos [1 priedas](#appendix1) nurodytus veiksmus, kad sukurtumėte būtinus ER komponentus. Dabar turite modelio susiejimo konfigūraciją **Susiejimas (bendrasis)**, kuriame yra **1 įvesties taškas** modelio susiejimo apibrėžimas.
 
-![ER konfigūracijų puslapis](./media/RCS-Context-specific-mapping-Tree.PNG)
+![ER konfigūracijų puslapis.](./media/RCS-Context-specific-mapping-Tree.PNG)
 
 ### <a name="run-the-configured-format"></a>Sukonfigūruoto formato paleidimas
 
@@ -61,7 +61,7 @@ Atkreipkite dėmesį, kad žiniatinklio naršyklė siūlo atsisiųsti tekstinį 
 
 Atlikite šios temos [2 priedas](#appendix2) nurodytus veiksmus, kad sukurtumėte būtinus ER komponentus. Dabar turite modelio susiejimo konfigūracijas **Susiejimas (bendrasis)** ir **Pasirinktinis susiejimas (bendrasis)**, kurių kiekvienoje yra modelio susiejimas, skirtas **1 įvesties taškas** apibrėžimui.
 
-![ER konfigūracijų puslapis](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
+![ER konfigūracijų puslapis.](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
 
 ### <a name="run-the-configured-format"></a>Sukonfigūruoto formato paleidimas
 
@@ -71,7 +71,7 @@ Atlikite šios temos [2 priedas](#appendix2) nurodytus veiksmus, kad sukurtumėt
 
 Atkreipkite dėmesį, kad pasirinktas ER formatas nepavyko. Klaidos pranešime nurodoma, kad modelis **Modelis, skirtas išmokti susiejimus** ir **1 įvesties taškas** apibrėžimas, esantys modelio susiejimo konfigūracijose **Susiejimas (bendrasis)** ir **Pasirinktinis susiejimas (bendrasis)**, turi daugiau nei vieną modelio susiejimą. Pranešime taip pat rekomenduojama vieną iš šių konfigūracijų pasirinkti kaip numatytąją konfigūraciją.
 
-![ER konfigūracijų puslapis](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
+![ER konfigūracijų puslapis.](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
 
 ### <a name="define-a-default-mapping-configuration"></a>Numatytosios susiejimo konfigūracijos apibrėžimas
 
@@ -82,7 +82,7 @@ Atlikite šiuos veiksmus, kad apibrėžtumėte modelio susiejimo konfigūraciją
 3.  Nustatykite parinktį **Numatytasis modelių susiejimui** į **Taip**.
 4.  Pasirinkite **Įrašyti**.
 
-![ER konfigūracijų puslapis](./media/RCS-Context-specific-mapping-MappingsCustomDefault.PNG)
+![ER konfigūracijų puslapis.](./media/RCS-Context-specific-mapping-MappingsCustomDefault.PNG)
 
 ### <a name="run-the-configured-format"></a>Sukonfigūruoto formato paleidimas
 
@@ -101,7 +101,7 @@ Atlikite veiksmus, nurodytus šios temos [3 priedas](#appendix3), kad sukurtumė
 
 Atkreipkite dėmesį, kad modelio susiejimo konfigūracijos **Susiejimas (FR)** 1 versija yra sukonfigūruota taip, kad ji būtų taikoma tik modelio **Modelis, skirtas sužinoti apie susiejimus**, kuris vykdomas „Finance“ įmonėse, kurioms būdingas Prancūzijos šalies / regiono kontekstas, ER formatams.
 
-![ER konfigūracijų puslapis](./media/RCS-Context-specific-mapping-TreeFR.PNG)
+![ER konfigūracijų puslapis.](./media/RCS-Context-specific-mapping-TreeFR.PNG)
 
 ### <a name="run-the-configured-format"></a>Sukonfigūruoto formato paleidimas
 
@@ -121,7 +121,7 @@ Atlikite šiuos veiksmus, norėdami apibrėžti pasirinktinę modelio **Susiejim
 3.  Nustatykite parinktį **Numatytasis modelių susiejimui** į **Taip**.
 4.  Pasirinkite **Įrašyti**.
 
-![ER konfigūracijų puslapis](./media/RCS-Context-specific-mapping-TreeFRDefault.PNG)
+![ER konfigūracijų puslapis.](./media/RCS-Context-specific-mapping-TreeFRDefault.PNG)
 
 ### <a name="run-the-configured-format"></a>Sukonfigūruoto formato paleidimas
 
@@ -195,7 +195,7 @@ Lentelėje pliuso ženklas (+) nurodo, kad modelio susiejimo konfigūracija yra 
 1.  Naršymo srityje eikite į **Moduliai \> Organizacijos administravimas \> Elektroninė ataskaita \> Derinimų žurnalo konfigūracija**.
 2.  Pasirinkite mygtuką **Iš naujo įkelti šį puslapį**.
 
-![ER vykdymo žurnalų puslapis](./media/RCS-Context-specific-mapping-DebugLog.PNG)
+![ER vykdymo žurnalų puslapis.](./media/RCS-Context-specific-mapping-DebugLog.PNG)
 
 Atkreipkite dėmesį, kad naujas įrašas buvo įtrauktas į įvykdyto ER formato ER derinimų žurnalą. Kadangi šio įrašo laukas **Lygis** nustatytas kaip **Informacinis**, įrašas yra informacinis. Kadangi formato komponento laukas nustatytas kaip **Susiejimo konfigūracija**, įraše pateikiama informacija apie modelio susiejimą, kuris buvo naudojamas vykdant ER formatą **Formatas, skirtas sužinoti apie susiejimus** (pasirinktas lauke **Konfigūracijos pavadinimas**). Lauko **Sugeneruotas tekstas** kontekste pateikiama informacija apie tai, kad **Susiejimas (FR)** susiejimo komponentas, kuris yra konfigūracijoje **Susiejimas (FR)**, buvo naudotas vykdyti šią ataskaitą.
 
@@ -236,7 +236,7 @@ Atkreipkite dėmesį, kad šios ER konfigūracijos 1 juodraščio versija pareng
 14. Išplečiamojo dialogo lango lauke **Pavadinimas** įveskite **Funkcijos aprašas**.
 15. Pasirinkite **Įtraukti**.
 
-    ![ER duomenų modelio dizaino įrankio puslapis](./media/RCS-Context-specific-mapping-Model.PNG)
+    ![ER duomenų modelio dizaino įrankio puslapis.](./media/RCS-Context-specific-mapping-Model.PNG)
 
 16. Pasirinkite **Įrašyti**.
 17. Uždarykite puslapį.
@@ -276,7 +276,7 @@ Atkreipkite dėmesį, kad šios ER konfigūracijos 1 juodraščio versija pareng
 5.  Pasirinkite **Įrašyti**.
 6.  Uždarykite puslapį **Formulės konstruktorius**.
 
-    ![ER modelio susiejimo dizaino įrankio puslapis](./media/RCS-Context-specific-mapping-Mapping1.PNG)
+    ![ER modelio susiejimo dizaino įrankio puslapis.](./media/RCS-Context-specific-mapping-Mapping1.PNG)
 
 7.  Pasirinkite **Įrašyti**.
 8.  Uždarykite puslapį **Modelio susiejimo dizaino įrankis**.
@@ -289,12 +289,12 @@ Atkreipkite dėmesį, kad šios ER konfigūracijos 1 juodraščio versija pareng
 15. Pasirinkite **Įrašyti**.
 16. Uždarykite puslapį **Formulės konstruktorius**.
 
-    ![ER modelio susiejimo dizaino įrankio puslapis](./media/RCS-Context-specific-mapping-Mapping2.PNG)
+    ![ER modelio susiejimo dizaino įrankio puslapis.](./media/RCS-Context-specific-mapping-Mapping2.PNG)
 
 17. Pasirinkite **Įrašyti**.
 18. Uždarykite puslapį **Modelio susiejimo dizaino įrankis**.
 
-    ![ER modelio susiejimų puslapis](./media/RCS-Context-specific-mapping-Mappings.PNG)
+    ![ER modelio susiejimų puslapis.](./media/RCS-Context-specific-mapping-Mappings.PNG)
 
 19. Uždarykite puslapį **Modelio susiejimai**.
 
@@ -335,7 +335,7 @@ Atkreipkite dėmesį, kad šios ER konfigūracijos 1 juodraščio versija pareng
 2.  Pasirinkite lauką **Funkcijos aprašymas**.
 3.  Pasirinkite **Susieti**.
 
-    ![ER formato dizaino įrankio puslapis](./media/RCS-Context-specific-mapping-Format.PNG)
+    ![ER formato dizaino įrankio puslapis.](./media/RCS-Context-specific-mapping-Format.PNG)
 
 4.  Pasirinkite **Įrašyti**.
 5.  Uždarykite puslapį.
@@ -369,7 +369,7 @@ Atkreipkite dėmesį, kad šios ER konfigūracijos 1 juodraščio versija pareng
 6.  Pasirinkite **Įrašyti**.
 7.  Uždarykite puslapį.
 
-    ![ER modelio susiejimo dizaino įrankio puslapis](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
+    ![ER modelio susiejimo dizaino įrankio puslapis.](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
 
 8.  Pasirinkite **Įrašyti**.
 9.  Uždarykite puslapį.
@@ -380,12 +380,12 @@ Atkreipkite dėmesį, kad šios ER konfigūracijos 1 juodraščio versija pareng
 14. Pasirinkite **Įrašyti**.
 15. Uždarykite puslapį.
 
-    ![ER modelio susiejimo dizaino įrankio puslapis](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
+    ![ER modelio susiejimo dizaino įrankio puslapis.](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
 
 16. Pasirinkite **Įrašyti**.
 17. Uždarykite puslapį.
 
-    ![ER modelio susiejimų puslapis](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
+    ![ER modelio susiejimų puslapis.](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
 
 18. Uždarykite puslapį.
 
@@ -432,7 +432,7 @@ Atkreipkite dėmesį, kad šios ER konfigūracijos 1 juodraščio versija pareng
 7.  Pasirinkite **Įrašyti**.
 8.  Uždarykite puslapį.
 
-    ![ER modelio susiejimo dizaino įrankio puslapis](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
+    ![ER modelio susiejimo dizaino įrankio puslapis.](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
 
 9.  Pasirinkite **Įrašyti**.
 10. Uždarykite puslapį.
@@ -444,12 +444,12 @@ Atkreipkite dėmesį, kad šios ER konfigūracijos 1 juodraščio versija pareng
 16. Pasirinkite **Įrašyti**.
 17. Uždarykite puslapį.
 
-    ![ER modelio susiejimo dizaino įrankio puslapis](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
+    ![ER modelio susiejimo dizaino įrankio puslapis.](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
 
 18. Pasirinkite **Įrašyti**.
 19. Uždarykite puslapį.
 
-    ![ER modelio susiejimų puslapis](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
+    ![ER modelio susiejimų puslapis.](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
 
 20. Uždarykite puslapį.
 

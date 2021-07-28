@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: WorkGuidesManufacturing
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 61943
+ms.custom:
+- "61943"
+- intro-internal
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: cabeln
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 15595c46f9d6ff91f6fd618859e9f059ae88bd78
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d172e3dfcb9ca70e1047a174040e7940bdd25296
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910094"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354017"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Mišrios realybės „Guides” pateikimas į gamybą įtrauktiems darbuotojams
 
@@ -57,7 +59,7 @@ Toliau esančiuose poskyriuose aprašyti keli pasirinkti scenarijai, kai pramon�
 
 ### <a name="assembly"></a>Surinkimas
 
-![„Guides“ naudojimas surinkimo užduotims](media/instruction-guides-hero-assembly.png "„Guides“ naudojimas aptarnavimo užduotims")
+![„Guides“ naudojimas surinkimo užduotims.](media/instruction-guides-hero-assembly.png "„Guides“ naudojimas aptarnavimo užduotims")
 
 Surinkimo operacijų instrukcijose darbuotojams nurodomi reikalingi įrankiai ir dalys bei kaip juos naudoti realiose darbo situacijose.
 
@@ -65,7 +67,7 @@ Gamybos vadovai gali kurti ir priskirti vadovus, pavyzdžiui, [gamybos maršruta
 
 ### <a name="service"></a>Aptarnavimas
 
-![„Guides“ naudojimas aptarnavimo užduotims](media/instruction-guides-hero-service.png "„Guides“ naudojimas aptarnavimo užduotims")
+![„Guides“ naudojimas aptarnavimo užduotims.](media/instruction-guides-hero-service.png "„Guides“ naudojimas aptarnavimo užduotims")
 
 Teikite technikams instrukcijas darbo vietoje, kad nebereikėtų planuoti papildomų apsilankymų.
 
@@ -73,7 +75,7 @@ Aptarnavimo vadovai, pavyzdžiui, gali priskirti vadovus, padedančius atlikti k
 
 ### <a name="quality"></a>Kokybė
 
-![„Guides“ naudojimas kokybės užtikrinimo užduotims](media/instruction-guides-hero-quality.png "„Guides“ naudojimas kokybės užtikrinimo užduotims")
+![„Guides“ naudojimas kokybės užtikrinimo užduotims.](media/instruction-guides-hero-quality.png "„Guides“ naudojimas kokybės užtikrinimo užduotims")
 
 Diekite naujus procesus ir užtikrinkite didesnį nuoseklumą paversdami darbuotojo žinias į pakartotinai pritaikomą įrankį.
 
@@ -81,13 +83,13 @@ Kokybės užtikrinimo vadovai, pavyzdžiui, gali priskirti vadovus, padedančius
 
 ### <a name="certifications"></a>Sertifikatai
 
-![„Guides“ naudojimas su sertifikavimu susijusioms užduotims](media/instruction-guides-hero-certification.png "„Guides“ naudojimas su sertifikavimu susijusioms užduotims")
+![„Guides“ naudojimas su sertifikavimu susijusioms užduotims.](media/instruction-guides-hero-certification.png "„Guides“ naudojimas su sertifikavimu susijusioms užduotims")
 
 Užtikrinkite, kad kiekvienas darbuotojas atitiktų aukštus standartus, greitai identifikuodami darbuotojus ir vietas, kuriems reikia pagalbos.
 
 ### <a name="safety"></a>Sauga
 
-![„Guides“ naudojimas darbo saugos instrukcijose](media/instruction-guides-hero-safety.png "„Guides“ naudojimas darbo saugos instrukcijose")
+![„Guides“ naudojimas darbo saugos instrukcijose.](media/instruction-guides-hero-safety.png "„Guides“ naudojimas darbo saugos instrukcijose")
 
 Pateikite instrukcijas, kaip vykdyti pavojingas procedūras, virtualiai prieš jas atliekant fizinėje aplinkoje. Taikant mišrios tikrovės koncepciją, darbuotojai gali susipažinti su pavojingomis procedūromis virtualiai.
 
@@ -119,7 +121,7 @@ Tam, kad funkcija būtų prieinama jūsų sistemoje, turite aktyvinti jos konfig
 
 Norėdami sukonfigūruoti, kaip vadovai bus rodomi ceche, eikite į **Mišrioji realybė \>Dynamics 365 Guides\>Konfigūruoti „Guides“ integravimą**.
 
-![Vadovo integravimo gamybai konfigūravimas](media/instruction-guides-configure-integration.png "Vadovo integravimo gamybai konfigūravimas")
+![Vadovo integravimo gamybai konfigūravimas.](media/instruction-guides-configure-integration.png "Vadovo integravimo gamybai konfigūravimas")
 
 Užpildykite toliau nurodytus laukus:
 
@@ -136,7 +138,7 @@ Užpildykite toliau nurodytus laukus:
 
 Norėdami peržiūrėti visų jūsų organizacijoje prieinamų vadovų sąrašą bei visų gamybos procesų ir išteklių priskyrimų sąrašą, naudokite puslapį **Visi vadovai“**. Norėdami atidaryti, eikite į **Mišrioji realybė \> Vadovai \> Visi vadovai**. Viršuje esančiame sąraše rodomi visi prienami vadovai, be to, norėdami filtruoti sąrašą, galite naudoti čia esantį lauką. Apačioje esančiame sąraše rodomi visi vadovo priskyrimai ir yra valdymui skirta įrankių juosta.
 
-![Vadovų valdymas](media/instruction-guides-allguides.png "Vadovų valdymas")
+![Vadovų valdymas.](media/instruction-guides-allguides.png "Vadovų valdymas")
 
 Toliau esančiuose skyriuose aprašyti objektų tipai, kuriems galite priskirti vadovus. Kiekviename priskirtame vadove pateikiamos instrukcijos, kurios automatiškai pridedamos prie atitinkamų gamybos užduočių ir kurios bus pateikiamos ceche.
 
@@ -157,7 +159,7 @@ Norėdami pridėti vadovą prie ištekliaus:
 1. Išplėskite „FastTab“ **Susiję vadovai**.
 1. Įrankių juostoje **Susiję vadovai** pasirinkite **Įtraukti**. Nauja eilutė pridedama prie tinklelio.
 1. Naujoje eilutėje naudokite stulpelio **Pavadinimas** išskleidžiamąjį sąrašą, kad pasirinktumėte vadovą, kurį norite priskirti. Jei yra daug vadovų, galite filtruoti sąrašą, kad surastumėte tą, kurio ieškote.
-    ![Vadovų valdymas](media/instruction-guides-allguides.png "Vadovų valdymas")
+    ![Vadovų valdymas.](media/instruction-guides-allguides.png "Vadovų valdymas")
 
 ## <a name="associate-a-guide-to-a-resource-group"></a><a name="resource-groups"></a>Vadovo susiejimas su išteklių grupe
 
@@ -178,7 +180,7 @@ Norėdami įtraukti vadovą į išteklių grupę:
 1. Išplėskite „FastTab“ **Susiję vadovai**.
 1. Įrankių juostoje **Susiję vadovai** pasirinkite **Įtraukti**. Nauja eilutė pridedama prie tinklelio.
 1. Naujoje eilutėje naudokite stulpelio **Pavadinimas** išskleidžiamąjį sąrašą, kad pasirinktumėte vadovą, kurį norite priskirti. Jei yra daug vadovų, galite filtruoti sąrašą, kad surastumėte tą, kurio ieškote.
-    ![Vadovo įtraukimas į išteklių grupę](media/instruction-guides-resourcegroup.png "Vadovo įtraukimas į išteklių grupę")
+    ![Vadovo įtraukimas į išteklių grupę.](media/instruction-guides-resourcegroup.png "Vadovo įtraukimas į išteklių grupę")
 
 ## <a name="associate-a-guide-to-a-released-product"></a><a name="released-products"></a>Vadovo susiejimas su išleistu produktu
 
@@ -198,7 +200,7 @@ Norėdami pridėti vadovą prie išleisto produkto:
 1. Atidaromas pasirinkto produkto puslapis **Susiję vadovai**.
 1. Veiksmų srityje pasirinkite **Įtraukti** ir pridėkite naują eilutę prie tinklelio. 
 1. Naujoje eilutėje naudokite stulpelio **Pavadinimas** išskleidžiamąjį sąrašą, kad pasirinktumėte vadovą, kurį norite priskirti.
-    ![Vadovo pridėjimas prie išleisto produkto](media/instruction-guides-ReleasedProduct-AddGuides.png "Vadovo pridėjimas prie išleisto produkto")
+    ![Vadovo pridėjimas prie išleisto produkto.](media/instruction-guides-ReleasedProduct-AddGuides.png "Vadovo pridėjimas prie išleisto produkto")
 
 ## <a name="associate-a-guide-to-a-formula"></a><a name="formulas"></a>Vadovo susiejimas su formule
 
@@ -223,7 +225,7 @@ Norėdami pridėti vadovą prie formulės:
 1. Išplėskite „FastTab“ **Susiję vadovai**.
 1. Įrankių juostoje **Susiję vadovai** pasirinkite **Įtraukti**. Nauja eilutė pridedama prie tinklelio.
 1. Naujoje eilutėje naudokite stulpelio **Pavadinimas** išskleidžiamąjį sąrašą, kad pasirinktumėte vadovą, kurį norite priskirti.
-    ![Vadovo pridėjimas prie formulės](media/instruction-guides-Formula.png "Vadovo pridėjimas prie formulės")
+    ![Vadovo pridėjimas prie formulės.](media/instruction-guides-Formula.png "Vadovo pridėjimas prie formulės")
 
 ## <a name="associate-a-guide-to-a-formula-version"></a><a name="formula-versions"></a>Vadovo susiejimas su formulės versija
 
@@ -248,11 +250,11 @@ Norėdami pridėti vadovą prie formulės versijos:
 1. Atidarykite skirtuką **Antraštė**, esantį virš viršutinio „FastTab“.
 1. „FastTab“ **Formulės versijos** pasirinkite versiją, kuriai norite priskirti vadovą.
 1. Įrankių juostoje **Formulės versijos** pasirinkite **Susiję vadovai**.
-    ![Su pasirinkta formulės versija susijusių vadovų atidarymas](media/instruction-guides-FormulaVersion.png "Su pasirinkta formulės versija susijusių vadovų atidarymas")
+    ![Su pasirinkta formulės versija susijusių vadovų atidarymas.](media/instruction-guides-FormulaVersion.png "Su pasirinkta formulės versija susijusių vadovų atidarymas")
 1. Atidaromas formulės versijos puslapis **Susiję vadovai**.
 1. Veiksmų srityje pasirinkite **Įtraukti** ir pridėkite naują eilutę prie tinklelio. 
 1. Naujoje eilutėje naudokite stulpelio **Pavadinimas** išskleidžiamąjį sąrašą, kad pasirinktumėte vadovą, kurį norite priskirti.
-    ![Vadovo pridėjimas prie formulės versijos](media/instruction-guides-FormulaVersionAddGuide.png "Vadovo pridėjimas prie formulės versijos")
+    ![Vadovo pridėjimas prie formulės versijos.](media/instruction-guides-FormulaVersionAddGuide.png "Vadovo pridėjimas prie formulės versijos")
 
 ## <a name="associate-a-guide-to-a-bill-of-materials"></a><a name="bom"></a>Vadovo susiejimas su KS
 
@@ -275,7 +277,7 @@ Norėdami pridėti vadovą prie KS:
 1. Išplėskite „FastTab“ **Susiję vadovai**.
 1. Įrankių juostoje **Susiję vadovai** pasirinkite **Įtraukti**. Nauja eilutė pridedama prie tinklelio.
 1. Naujoje eilutėje naudokite stulpelio **Pavadinimas** išskleidžiamąjį sąrašą, kad pasirinktumėte vadovą, kurį norite priskirti.
-    ![Vadovo pridėjimas prie KS](media/instruction-guides-BOM.png "Vadovo pridėjimas prie KS")
+    ![Vadovo pridėjimas prie KS.](media/instruction-guides-BOM.png "Vadovo pridėjimas prie KS")
 
 ## <a name="associate-a-guide-to-a-bill-of-materials-version"></a><a name="bom-versions"></a>Vadovo susiejimas su KS versija
 
@@ -297,11 +299,11 @@ Norėdami pridėti vadovą prie KS versijos:
 1. Atidarykite skirtuką **Antraštė**, esantį virš viršutinio „FastTab“.
 1. „FastTab“ **KS versijos** pasirinkite versiją, kuriai norite priskirti vadovą.
 1. Įrankių juostoje **KS versijos** pasirinkite **Susiję vadovai**.
-    ![Su pasirinkta KS versija susijusių vadovų atidarymas](media/instruction-guides-BOMVersion.png "Su pasirinkta KS versija susijusių „Guides” atidarymas")
+    ![Su pasirinkta KS versija susijusių vadovų atidarymas.](media/instruction-guides-BOMVersion.png "Su pasirinkta KS versija susijusių „Guides” atidarymas")
 1. Atidaromas KS versijos puslapis **Susiję vadovai**.
 1. Veiksmų srityje pasirinkite **Įtraukti** ir pridėkite naują eilutę prie tinklelio.
 1. Naujoje eilutėje naudokite stulpelio **Pavadinimas** išskleidžiamąjį sąrašą, kad pasirinktumėte vadovą, kurį norite priskirti.
-    ![Vadovo pridėjimas prie KS versijos](media/instruction-guides-BOMVersionAddGuide.png "Vadovo pridėjimas prie KS versijos")
+    ![Vadovo pridėjimas prie KS versijos.](media/instruction-guides-BOMVersionAddGuide.png "Vadovo pridėjimas prie KS versijos")
 
 ## <a name="associate-a-guide-to-a-route"></a><a name="routes"></a>Vadovo susiejimas su maršrutu
 
@@ -322,7 +324,7 @@ Norėdami pridėti vadovą prie maršruto:
 1. Išplėskite „FastTab“ **Susiję vadovai**.
 1. Įrankių juostoje **Susiję vadovai** pasirinkite **Įtraukti**. Nauja eilutė pridedama prie tinklelio.
 1. Naujoje eilutėje naudokite stulpelio **Pavadinimas** išskleidžiamąjį sąrašą, kad pasirinktumėte vadovą, kurį norite priskirti.
-    ![Vadovo pridėjimas prie maršruto](media/instruction-guides-Route.png "Vadovo pridėjimas prie maršruto")
+    ![Vadovo pridėjimas prie maršruto.](media/instruction-guides-Route.png "Vadovo pridėjimas prie maršruto")
 
 ## <a name="associate-a-guide-to-a-route-version"></a><a name="route-versions"></a>Vadovo susiejimas su maršruto versija
 
@@ -340,11 +342,11 @@ Norėdami pridėti vadovą prie maršruto versijos:
 1. Atidarykite maršrutą, kuriam norite priskirti vadovą.
 1. „FastTab“ **Versijos** pasirinkite versiją, kuriai norite priskirti vadovą.
 1. Įrankių juostoje **Versijos** pasirinkite **Susiję vadovai**.
-    ![Su pasirinkta maršruto versija susijusių vadovų atidarymas](media/instruction-guides-RouteVersion.png "Su pasirinkta maršruto versija susijusių „Guides” atidarymas")
+    ![Su pasirinkta maršruto versija susijusių vadovų atidarymas.](media/instruction-guides-RouteVersion.png "Su pasirinkta maršruto versija susijusių „Guides” atidarymas")
 1. Atidaromas KS versijos puslapis **Susiję vadovai**.
 1. Veiksmų srityje pasirinkite **Įtraukti** ir pridėkite naują eilutę prie tinklelio.
 1. Naujoje eilutėje naudokite stulpelio **Pavadinimas** išskleidžiamąjį sąrašą, kad pasirinktumėte vadovą, kurį norite priskirti.
-    ![Vadovo pridėjimas prie maršruto versijos](media/instruction-guides-RouteVersionAddGuide.png "Vadovo pridėjimas prie maršruto versijos")
+    ![Vadovo pridėjimas prie maršruto versijos.](media/instruction-guides-RouteVersionAddGuide.png "Vadovo pridėjimas prie maršruto versijos")
 
 ## <a name="associate-a-guide-to-a-route-operation-relation"></a><a name="route-operation-relations"></a>Vadovo susiejimas su maršruto operacijų ryšiu
 
@@ -367,8 +369,8 @@ Norėdami pridėti vadovą prie maršruto operacijų ryšio:
 1. Atidaromas pasirinkto maršruto puslapis **Maršruto informacija**.
 1. Viršutiniame tinklelyje pasirinkite operaciją, su kuria susijusias rekomendacijas norite teikti.
 1. Apatiniame tinklelyje pasirinkite konkretų ryšį (arba bendrąjį ryšį **Visi**).
-    ![Pasirinkite operaciją, o tada ryšį](media/instruction-guides-RouteOperationRelation.png "Pasirinkite operaciją, o tada ryšį")
-1. Virš apatinio tinklelio atsidarykite skirtuką **Susiję vadovai**.  ![Skirtukas Susiję vadovai](media/instruction-guides-RouteOperationRelation-AddGuide.png "Skirtukas Susiję „Guides”")
+    ![Pasirinkite operaciją, o tada ryšį.](media/instruction-guides-RouteOperationRelation.png "Pasirinkite operaciją, o tada ryšį")
+1. Virš apatinio tinklelio atsidarykite skirtuką **Susiję vadovai**.  ![Skirtukas Susiję vadovai.](media/instruction-guides-RouteOperationRelation-AddGuide.png "Skirtukas Susiję „Guides”")
 1. Apatinio tinklelio viršuje pasirinkite **Įtraukti**, kad į tinklelį įtrauktumėte naują liniją.
 1. Naujoje eilutėje naudokite stulpelio **Pavadinimas** išskleidžiamąjį sąrašą, kad pasirinktumėte vadovą, kurį norite priskirti. Likusioje eilutės dalyje pažymėkite kiekvieno konteksto, kuriame turi būti prieinamas pasirinktas vadovas, žymės langelį.
 
@@ -379,11 +381,11 @@ Norėdami pridėti vadovą prie maršruto operacijų ryšio:
 
 Kai darbuotojas atidaro užduočių sąrašą cecho vykdymo sąsajoje, „Supply Chain Management“ randa atitinkamus vadovus rodomoms užduotims. Norėdami peržiūrėti atitinkamus vadovus, naudokite mygtuką **Vadovai**.
 
-![Vadovų mygtukas cecho vykdymo sąsajoje](media/instruction-guides-Shopfloor1.png "„Guides” mygtukas cecho vykdymo sąsajoje")
+![Vadovų mygtukas cecho vykdymo sąsajoje.](media/instruction-guides-Shopfloor1.png "„Guides” mygtukas cecho vykdymo sąsajoje")
 
 Tada pasiruoškite „HoloLens“ ir pasiekite atitinkamą vadovą nukreipdami į QR kodą ir suaktyvindami atitinkamą vadovą.
 
-![QR kodas, skirtas prieigai prie vadovų naudojant „HoloLens“](media/instruction-guides-Shopfloor2.png "QR kodas, skirtas prieigai prie vadovų naudojant „HoloLens“")
+![QR kodas, skirtas prieigai prie vadovų naudojant „HoloLens”.](media/instruction-guides-Shopfloor2.png "QR kodas, skirtas prieigai prie vadovų naudojant „HoloLens“")
 
 ## <a name="resolving-the-logic-for-selecting-guides"></a><a name="logic"></a>Vadovų pasirinkimo logikos sprendimas
 
@@ -406,7 +408,7 @@ Kai „Supply Chain Management“ generuoja gamybos cecho užduotis, iš šių �
 - Jei prie gamybos užsakymo pridedate maršruto versiją, tada užduotyje bus rodomi visi vadovai, pridėti prie šios versijos, ir vadovai, pridėti prie pirminio versijos maršruto.
 - Jei nurodysite kelis maršruto operacijų ryšius, apimančius ryšį *Visi*, ir jiems priskirsite vadovus, užduotyje bus rodomi tik labiausiai specifinio ryšio vadovai.  
 
-![Atitinkamų vadovų sprendimo diagrama](media/instruction-guides-Resolve.png "Atitinkamo „Guides” sprendimo diagrama")
+![Atitinkamų vadovų sprendimo diagrama.](media/instruction-guides-Resolve.png "Atitinkamo „Guides” sprendimo diagrama")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

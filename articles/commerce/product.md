@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a1a25e3d5bc1cc5c1c7509186451fdfef50dd6cf
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c8a22a356053789f97fd4f3f9437d57978a67943
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792344"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352137"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Produktų rekomendacijų įtraukimas į EKA
 
@@ -39,7 +39,7 @@ Produktų rekomendacijas galima naudoti taikant toliau nurodytus EKA scenarijus.
 
     - Jeigu parduotuvės atstovas puslapyje **Produkto informacija** apsilanko skirtinguose kanaluose žiūrėdamas į ankstesnes operacijas, rekomendacijų tarnyba siūlo papildomų prekių, kurios gali būti perkamos kartu.
 
-    [![Rekomendacijos puslapyje Produkto informacija](./media/proddetails.png)](./media/proddetails.png)
+    [![Rekomendacijos puslapyje Produkto informacija.](./media/proddetails.png)](./media/proddetails.png)
 
 2. Puslapyje **Operacija**:
 
@@ -48,7 +48,7 @@ Produktų rekomendacijas galima naudoti taikant toliau nurodytus EKA scenarijus.
     > [!NOTE]
     > Norėdamas, kad rekomendacijos būtų rodomos puslapyje **Operacija**, pardavėjas turi atnaujinti „Dynamics 365 Commerce“ ekrano išdėstymą. Valdiklis **Rekomendacijos** turi būti perkeltas į puslapį **Operacija**.
 
-    [![Rekomendacijos puslapyje Operacijos](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+    [![Rekomendacijos puslapyje Operacijos.](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
 ## <a name="configure-commerce-to-enable-pos-recommendations"></a>Konfigūruokite „Commerce“, kad įgalintumėte EKA rekomendacijas
 

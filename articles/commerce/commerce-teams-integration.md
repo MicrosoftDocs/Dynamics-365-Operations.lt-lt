@@ -9,16 +9,17 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
 ms.search.scope: Retail, Core, Operations
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c22af9bf76818dd682b4147c3677cd1715e4cbf8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 6d82c1cafe35db5523c58870f4dcb2a7f63134a1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021994"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352643"
 ---
 # <a name="dynamics-365-commerce-and-microsoft-teams-integration-overview"></a>„Dynamics 365 Commerce” ir „Microsoft Teams” integravimo apžvalga
 
@@ -50,7 +51,7 @@ Prieš pradėdami naudoti „Microsoft Teams” integravimo funkcijas, užtikrin
 
 Šioje iliustracijoje pateikta koncepcinė „Dynamics 365 Commerce” ir „Microsoft Teams” integravimo architektūra, naudojanti San Fransisko parduotuvę kaip pavyzdį. Tiek „Teams”, tiek „Commerce” EKA programa naudoja „Microsoft Planner” kaip saugyklą, kad publikuotos užduotys iš „Teams” atsirastų EKA programoje, o specialiosios užduotys, sukurtos parduotuvių vadovų EKA programoje, atsirastų „Teams”, taip sukuriama vientisa užduočių valdymo patirtis tarp programų.    
 
-![„Commerce” ir „Teams” integravimo architektūra](media/d365-commerce-teams-integration-conceptual-architecture.png)
+![„Commerce” ir „Teams” integravimo architektūra.](media/d365-commerce-teams-integration-conceptual-architecture.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

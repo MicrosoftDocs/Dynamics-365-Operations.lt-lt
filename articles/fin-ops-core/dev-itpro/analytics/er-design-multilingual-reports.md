@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50156b8c6b3553b02d092fad9c72e90c1f70ff78
-ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
+ms.openlocfilehash: 48e54c0f7d4bd1b4e1661a5bd1d4c11fd9cec986
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951990"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351126"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Daugiakalbių pranešimų Elektroninėse ataskaitose kūrimas
 
@@ -54,11 +54,11 @@ Kai kuriate ER duomenų modelį, ER modelių susiejimą ar ER formatą, **Išver
 
 Toliau pateiktoje iliustracijoje parodyta, kaip šis vertimas atliekamas redaguotame ER duomenų modelyje. Šiame pavyzdyje **Aprašas** atributas **PirkimoUžsakymas** lauko, skirtas redaguotam **Sąskaitos faktūros šablonas**, išverčiamas į austrų vokiečių (de-at) ir japonų (ja) kalbas.
 
-![ER žymos vertimo ER duomenų modelio kūrimo įrankyje pateikimas](./media/er-multilingual-labels-refer.png)
+![ER žymos vertimo ER duomenų modelio kūrimo įrankyje pateikimas.](./media/er-multilingual-labels-refer.png)
 
 Gali būti išverstas tik žymų, kurios yra redaguojamame ER komponente, tekstas. Pavyzdžiui, jei pasirinksite **Išversti**, skirtą ER modelio susiejimo duomenų šaltinio žymės atributui, ir pasirinksite ER žymą, esančią pirminiame ER duomenų modelyje, pamatysite žymos turinį, bet negalėsite jo pakeisti. Tokiais atvejais **Išverstas tekstas** lauko negalėsite naudoti kaip parodyta šioje iliustracijoje.
 
-![ER žymos pateikto vertimo ER modelio susiejimų kūrimo įrankyje peržiūra](./media/er-multilingual-labels-refer-mapping.png)
+![ER žymos pateikto vertimo ER modelio susiejimų kūrimo įrankyje peržiūra.](./media/er-multilingual-labels-refer-mapping.png)
 
 > [!NOTE]
 > Negalite naudoti kūrimo įrankių, kad panaikintumėte žymą, įvestą redaguojamame ER komponente.
@@ -71,19 +71,19 @@ ER žymas galima nurodyti keliuose verstiniuose ER komponentų atributuose.
 
 Konfigūruodami ER duomenų modelį, galite jam pridėti ER žymas. **Žyma** ir **Aprašas** modelio prekės atributai, kiekvienas modelio laukas ir kiekvienas <a id="LinkModelEnum"></a>modelio išvardijimo vertė gali būti susiejami su ER žyma, pridėta į ER duomenų modelį.
 
-![Atributo aprašo vertimo pateikimas ER duomenų modelio kūrimo įrankyje](./media/er-multilingual-labels-refer.png)
+![Atributo aprašo vertimo pateikimas ER duomenų modelio kūrimo įrankyje.](./media/er-multilingual-labels-refer.png)
 
 Kai taip sukonfigūruojate ER duomenų modelį, jo turinys bus pateiktas ER duomenų modelio kūrimo įrankio vartotojams kiekviena vartotoja pageidaujama kalba. Todėl modelio priežiūra supaprastinta. Toliau pateiktose iliustracijose rodoma, kaip ši funkcija veikia vartotojams, besinaudojantiems DE-AT ir JA rinkiniu jų pageidaujama kalba.
 
-![ER duomenų modelio kūrimo įrankio maketas vartotojui, besinaudojančiam DE-AT rinkiniu kaip jo pageidaujama kalba](./media/er-multilingual-labels-refer-de.png)
+![ER duomenų modelio kūrimo įrankio maketas vartotojui, besinaudojančiam DE-AT rinkiniu kaip jo pageidaujama kalba.](./media/er-multilingual-labels-refer-de.png)
 
-![ER duomenų modelio kūrimo įrankio maketas vartotojui, besinaudojančiam JA rinkiniu kaip jo pageidaujama kalba](./media/er-multilingual-labels-refer-ja.png)
+![ER duomenų modelio kūrimo įrankio maketas vartotojui, besinaudojančiam JA rinkiniu kaip jo pageidaujama kalba.](./media/er-multilingual-labels-refer-ja.png)
 
 ### <a name="model-mapping-component"></a>Modelio susiejimo komponentas
 
 Nes ER modelio susiejimas yra pagrįstas ER duomenų modeliu, nurodytos duomenų modelio elementų žymos pasirodo vartotoja pageidaujama kalba modelio susiejimų kūrimo įrankyje. Toliau pateiktoje iliustracijoje rodoma, kaip **PirkimoUžsakymas** lauko vertė yra paaiškinta redaguotame modelio susiejime naudojant **Aprašas** atributą, pridėtą konfigūruotame duomenų modelyje. Atkreipkite dėmesį, kad ši žyma pateikiama vartotojo pageidaujama kalba (šiuo atveju, DE-AT).
 
-![ER modelio susiejimų kūrimo įrankio maketas vartotojui, besinaudojančiam DE-AT rinkiniu jo pageidaujama kalba](./media/er-multilingual-labels-show-mapping.png)
+![ER modelio susiejimų kūrimo įrankio maketas vartotojui, besinaudojančiam DE-AT rinkiniu jo pageidaujama kalba.](./media/er-multilingual-labels-show-mapping.png)
 
 Kai **Žyma** atributas **Vartotojo įvesties parametras** duomenų šaltinio yra susietas su ER žyma, parametro laukas, atitinkantis šį duomenų šaltinį, pateikiamas vartotojo dialogo lange apdorojimo metu vartotojams jų pageidaujama kalba.
 
@@ -98,23 +98,23 @@ Kai taip sukonfigūruojate ER formatą, jo formato turinys bus pateiktas „ER O
 
 Dėl to, kad ER formatas pagrįstas ER duomenų modeliu, nurodytos žymos duomenų modelio elementuose pateikiamos ER formato kūrimo įrankyje vartotojo pageidaujama kalba.
 
-Kai **Žyma** atributas **Vartotojo įvesties parametras** duomenų šaltinio yra susietas su ER žyma, laukas, atitinkantis parametrą vartotojo dialogo lange apdorojimo metu, pateikiamas vartotojui kaip paraginimas.  Toliau pateiktoje iliustracijose rodoma, kaip galima susieti **Žyma** atributą **Vartotojo įvesties parametras** duomenų šaltinį kūrimo metu su ER žyma, kad vartotojai būtų raginami įvesti parametrą skirtingose vartotojo pageidaujamose kalbose rodoma anglų (Jungtinių Valstijų (EN-ES) ir DE-AT kalbomis) vykdymo metu.
+Kai **Žyma** atributas **Vartotojo įvesties parametras** duomenų šaltinio yra susietas su ER žyma, laukas, atitinkantis parametrą vartotojo dialogo lange apdorojimo metu, pateikiamas vartotojui kaip paraginimas. Toliau pateiktoje iliustracijose rodoma, kaip galima susieti **Žyma** atributą **Vartotojo įvesties parametras** duomenų šaltinį kūrimo metu su ER žyma, kad vartotojai būtų raginami įvesti parametrą skirtingose vartotojo pageidaujamose kalbose rodoma anglų (Jungtinių Valstijų (EN-ES) ir DE-AT kalbomis) vykdymo metu.
 
-![Vartotojo įvesties parametro atributų vertimo pateikimas „ER Operation” kūrimo įrankyje ](./media/er-multilingual-labels-refer-format.png)
+![Vartotojo įvesties parametro atributų vertimo pateikimas „ER Operation” kūrimo įrankyje.](./media/er-multilingual-labels-refer-format.png)
 
-![ER teikėjo mokėjimo apdorojimas apdorojimo metu EN-US vartotojo pageidaujama kalba ](./media/er-multilingual-labels-show-runtime-en.png)
+![ER teikėjo mokėjimo apdorojimas apdorojimo metu EN-US vartotojo pageidaujama kalba.](./media/er-multilingual-labels-show-runtime-en.png)
 
-![ER teikėjo mokėjimo apdorojimas apdorojimo metu DE-AT vartotojo pageidaujama kalba ](./media/er-multilingual-labels-show-runtime-de.png)
+![ER teikėjo mokėjimo apdorojimas apdorojimo metu DE-AT vartotojo pageidaujama kalba.](./media/er-multilingual-labels-show-runtime-de.png)
 
 ### <a name="expressions"></a>Išraiškos
 
 Norėdami panaudoti žymą ER [išraiškoje](er-formula-language.md), turite naudoti sintaksę **@„GER\_ŽYMA: X”**, kurioje prefiksas **@** nurodo, kad operandas nurodo žymą, **GER\_ŽYMA** nurodo, kad ER žyma yra, o **X** yra ER žymos ID.
 
-![ER išraiškos, kurioje yra nuoroda į ER žymą, konfigūravimas ER formulės kūrimo įrankyje](./media/er-multilingual-labels-expression1.png)
+![ER išraiškos, kurioje yra nuoroda į ER žymą, konfigūravimas ER formulės kūrimo įrankyje.](./media/er-multilingual-labels-expression1.png)
 
 Norėdami nurodyti sistemos (programos) žymą, naudokite sintaksę **@„X”**, kurioje prefiksas nurodo, **@**, kad operandas nurodo žymę, o **X** yra sistemos žymos ID.
 
-![ER išraiškos, kurioje yra nuoroda į programos žymą, konfigūravimas ER formulės kūrimo įrankyje](./media/er-multilingual-labels-expression2.png)
+![ER išraiškos, kurioje yra nuoroda į programos žymą, konfigūravimas ER formulės kūrimo įrankyje.](./media/er-multilingual-labels-expression2.png)
 
 #### <a name="model-mapping"></a>Modelio susiejimas
 
@@ -126,19 +126,19 @@ Jeigu nurodyta žyma neturi formato vykdymo konteksto, iškviečiančio modelio 
 
 Naudojant žymas, galite sukonfigūruoti ER formato ER išraišką. Kai šis formatas paleidžiamas sugeneruoti siunčiamą dokumentą, vykdymo kontekste yra kalbos kodas. Sukonfigūruota išraiškos žyma bus užpildyta žymos tekstu, sukonfigūruotu pagal to konteksto kalbą.
 
-![Redaguojamos ER išraiškos ER žymos vertimo pateikimas ER formulės kūrimo įrankyje](./media/er-multilingual-labels-refer-in-expression.png)
+![Redaguojamos ER išraiškos ER žymos vertimo pateikimas ER formulės kūrimo įrankyje.](./media/er-multilingual-labels-refer-in-expression.png)
 
-![Duomenų susiejimo, nurodančio ER žymą, pavyzdys „ER Operation” kūrimo įrankyje](./media/er-multilingual-labels-refer-in-binding.png)
+![Duomenų susiejimo, nurodančio ER žymą, pavyzdys „ER Operation” kūrimo įrankyje.](./media/er-multilingual-labels-refer-in-binding.png)
 
 Galite sukonfigūruoti ER formato **FAILAS** komponentą, kad sugeneruotumėte ataskaitą vartotojo pageidaujama kalba.
 
-![Nustatykite FAILO komponentą „ER Operation” kūrimo įrankyje, kad sugeneruotumėte ataskaitą vartotojo pageidaujama kalba](./media/er-multilingual-labels-language-context-user.png)
+![Nustatykite FAILO komponentą „ER Operation” kūrimo įrankyje, kad sugeneruotumėte ataskaitą vartotojo pageidaujama kalba.](./media/er-multilingual-labels-language-context-user.png)
 
 Jei taip sukonfigūruosite ER formatą, ataskaita bus sugeneruota naudojant atitinkamą ER žymų tekstą. Toliau pateiktose iliustracijose pateikiami EN-US ir DE-AT vartotojų kalbų ataskaitų pavyzdžiai.
 
-![Ataskaitos, sugeneruotos EN-US vartotojo pageidaujama kalba, peržiūra](./media/er-multilingual-labels-report-preview-en.png)
+![Ataskaitos, sugeneruotos EN-US vartotojo pageidaujama kalba, peržiūra.](./media/er-multilingual-labels-report-preview-en.png)
 
-![Ataskaitos, sugeneruotos DE-AT vartotojo pageidaujama kalba, peržiūra](./media/er-multilingual-labels-report-preview-de.png)
+![Ataskaitos, sugeneruotos DE-AT vartotojo pageidaujama kalba, peržiūra.](./media/er-multilingual-labels-report-preview-de.png)
 
 Jeigu nurodyta žyma neturi formato vykdymo konteksto kalbos vertimo, vietoj to, naudojamas žymos tekstas EN-US kalba.
 
@@ -148,16 +148,16 @@ ER palaiko skirtingus būdus nurodyti generuotos ataskaitos kalbą. **Kalbos pri
 
 - **Įmonės prioritetas** – sugeneruokite ataskaitą įmonėje nurodyta kalba.
 
-    ![Nurodykite „ER Operation” kūrimo įrankyje įmonės pageidaujamą kalbą kaip sugeneruotos ataskaitos kalbą](./media/er-multilingual-labels-language-context-company.png)
+    ![Nurodykite „ER Operation” kūrimo įrankyje įmonės pageidaujamą kalbą kaip sugeneruotos ataskaitos kalbą.](./media/er-multilingual-labels-language-context-company.png)
 
 - **Vartotojo prioritetas** – sugeneruokite ataskaitą vartotojo pageidaujama kalba.
 - **Išsamiai apibrėžta** – sugeneruokite ataskaitą kalba, nurodyta kūrimo metu.
 
-    ![Nurodykite „ER Operation” kūrimo įrankyje kūrimo laiku nurodytą kalbą kaip sugeneruotos ataskaitos kalbą](./media/er-multilingual-labels-language-context-fixed.png)
+    ![Nurodykite „ER Operation” kūrimo įrankyje kūrimo laiku nurodytą kalbą kaip sugeneruotos ataskaitos kalbą.](./media/er-multilingual-labels-language-context-fixed.png)
 
 - **Apibrėžta apdorojimo metu** – sugeneruokite ataskaitą kalba, nurodyta apdorojimo metu. Jei pasirinksite šią vertę lauke **Kalba**, sukonfigūruokite ER išraišką, gražinančią kalbos kodą kalbai, pavyzdžiui, atitinkamo kliento kalbą.
 
-    ![Nurodykite „ER Operation” kūrimo įrankyje apdorojimo metu nurodytą kalbą kaip sugeneruotos ataskaitos kalbą](./media/er-multilingual-labels-language-context-runtime.png)
+    ![Nurodykite „ER Operation” kūrimo įrankyje apdorojimo metu nurodytą kalbą kaip sugeneruotos ataskaitos kalbą.](./media/er-multilingual-labels-language-context-runtime.png)
 
 ## <a name="culture-specific-formatting"></a>Nuo kultūris priklausantis formatavimas
 
@@ -165,15 +165,15 @@ ER palaiko skirtingus būdus nurodyti nuo kultūros priklausomą sugeneruotą at
 
 - **Vartotojo nuostatos** – formatuoti vertes pagal vartotojo pageidaujamą kultūras. Šis kultūra apibrėžiama vartotojo pasirinkčių puslapio nuostatų skirtuko lauke **Data** **laikas** ir **skaičiaus** formatas.
 
-    ![Vartotojo pageidaujamo kultūros, kaip sugeneruotos ataskaitos principas ER operacijų konstruktoriuje, apibrėžimas](./media/er-multilingual-labels-culture-context-user-preferred.png)
+    ![Vartotojo pageidaujamo kultūros, kaip sugeneruotos ataskaitos principas ER operacijų konstruktoriuje, apibrėžimas.](./media/er-multilingual-labels-culture-context-user-preferred.png)
 
 - **Tiesiogiai apibrėžta** – formatuoti vertes pagal dizaino metu nurodytą reikšmę.
 
-    ![Kultūros nustatymas yra konkretus numatytu laiku kaip pagal kultūrą sukurta ataskaita ER operacijų kūrimo įrankyje](./media/er-multilingual-labels-culture-context-fixed.png)
+    ![Kultūros nustatymas yra konkretus numatytu laiku kaip pagal kultūrą sukurta ataskaita ER operacijų kūrimo įrankyje.](./media/er-multilingual-labels-culture-context-fixed.png)
 
 - **Nustatyta vykdymo metu** – formatuoti vertes pagal dizaino metu nurodytą reikšmę vykdymo metu. Jei pasirinksite šią vertę, skirtuko Susiejimas lauke Data, laikas ir skaičiaus formatas  **sukonfigūruokite** išraišką **ER, kuri grąžina kultūros, pvz., atitinkamo kliento kultūros kodą,** kodą.
 
-    ![Kultūros nustatymas yra nustatytas vykdymo metu pagal kultūros sukurtą ataskaitą ER operacijų kūrimo įrankyje](./media/er-multilingual-labels-culture-context-runtime.png)
+    ![Kultūros nustatymas yra nustatytas vykdymo metu pagal kultūros sukurtą ataskaitą ER operacijų kūrimo įrankyje.](./media/er-multilingual-labels-culture-context-runtime.png)
 
 > [!NOTE]
 > ER komponente, kurį apibrėžiate kaip konkretų į reikšmę įrašyti teksto reikšmę sukonfigūruotų antrinių ER komponentų, gali būti antrinių ER komponentų. Pagal numatytuosius nustatymus šių komponentų vertėms formatuoti naudojama pirminio komponento kultūra. Norėdami konfigūruoti šių komponentų susiejimus ir taikyti alternatyvų vertės formatavimo reikšmę, galite naudoti šias įtaisytąsias ER funkcijas:
@@ -196,21 +196,21 @@ Kai pridedate ER žymą **Teksto vertimas** [srityje](#TextTranslationPane), gal
 
 ER komponento konfigūracija baigiama ER konfigūracijos juodraštinėje versijoje, kurioje yra redaguojamas ER komponentas.
 
-![ERA konfigūracijos puslapis, siūlantis prieigą prie konfigūracijos versijos juodraščio būsenoje](./media/er-multilingual-labels-configurations.png)
+![ERA konfigūracijos puslapis, siūlantis prieigą prie konfigūracijos versijos juodraščio būsenoje.](./media/er-multilingual-labels-configurations.png)
 
 Kaip anksčiau aprašyta šioje temoje, galite pridėti reikiamas ER žymas prie redaguojamo ER komponento. Tokiu būdu galite nurodyti ER žymų tekstą EN-US kalba. Tada galite eksportuoti ER komponento žymas naudodami įtaisytąją ER funkciją. Pasirinkite ER konfigūracijos juodraštinę versiją, kurioje yra redaguojamas ER komponentas, ir pasirinkite **Sukeisti \>Eksporto žymos**.
 
-![ER konfigūracijos puslapis, leidžiantis eksportuoti ER žymas iš pasirinkto konfigūracijos versijos](./media/er-multilingual-labels-export.png)
+![ER konfigūracijos puslapis, leidžiantis eksportuoti ER žymas iš pasirinktos konfigūracijos versijos.](./media/er-multilingual-labels-export.png)
 
 Galite eksportuoti arba visas žymas arba vienos kalbos žymas, kurias nurodote eksporto pradžioje. Žymos eksportuojamos kaip suarchyvuotas failas, kuriame yra XML failų. Kiekviename XML faile yra vienos kalbos žymos.
 
-![Eksportuoto failo, kuriame yra ER žymų, skirtų DE-AT kalbai, pavyzdys](./media/er-multilingual-labels-in-xml.png)
+![Eksportuoto failo, kuriame yra ER žymų, skirtų DE-AT kalbai, pavyzdys.](./media/er-multilingual-labels-in-xml.png)
 
 Šį formatą naudoja išorinės vertimo paslaugos žymų automatiniam vertimui, pvz., [„Dynamics 365 Translation Service”](../lifecycle-services/translation-service-overview.md). Gavę išverstas žymas, jas galima importuoti atgal į ER konfigūracijos juodraštinę versiją, kurioje yra ER komponentų, kuriems priklauso šios žymos. Pasirinkite ER konfigūracijos juodraštinę versiją, kurioje yra redaguojamas ER komponentas, ir pasirinkite **Sukeisti \>Įkelti žymas**.
 
-![ER konfigūracijos puslapis, leidžiantis importuoti ER žymas į pasirinktą konfigūracijos versiją](./media/er-multilingual-labels-load.png)
+![ER konfigūracijos puslapis, leidžiantis importuoti ER žymas į pasirinktą konfigūracijos versiją.](./media/er-multilingual-labels-load.png)
 
-Išverstos žymos bus importuojamos į pasirinktą ER konfigūraciją. ER konfigūracijoje esančios išverstos žymos yra pakeičiamos. Jei trūksta išverstos žymos ER konfigūracijoje, ji pridedama. 
+Išverstos žymos bus importuojamos į pasirinktą ER konfigūraciją. ER konfigūracijoje esančios išverstos žymos yra pakeičiamos. Jei trūksta išverstos žymos ER konfigūracijoje, ji pridedama.
 
 ## <a name="lifecycle"></a>Gyvavimo ciklas
 
@@ -218,7 +218,7 @@ ER komponento žymos, kurios gali būti keičiamos, yra išsaugomos kartu su kom
 
 Pagrindinio ER komponento žymas galima susieti su jūsų sukurta ER komponento išvestine versija, kad pritaikytumėte savo keitimus.
 
-ER versijų valdymo žymos priskyrimas ER komponento atributui. Žymos priskyrimo pokyčiai įrašomi redaguojamo ER komponento, sukurto kaip pateikto ER komponento išvestinė versija, pokyčių (delta) sąraše.  Šie pakeitimai bus patikrinti, kai išvestinė versija yra iš naujo pagrįsta nauja bazine versija.
+ER versijų valdymo žymos priskyrimas ER komponento atributui. Žymos priskyrimo pokyčiai įrašomi redaguojamo ER komponento, sukurto kaip pateikto ER komponento išvestinė versija, pokyčių (delta) sąraše. Šie pakeitimai bus patikrinti, kai išvestinė versija yra iš naujo pagrįsta nauja bazine versija.
 
 ## <a name="functions"></a>Funkcijos
 

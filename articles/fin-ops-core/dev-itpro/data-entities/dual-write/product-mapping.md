@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 6941a38e96520befd3bdba65956d45a6bbaee4be
-ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
+ms.openlocfilehash: 115eaad4f11fc4fb5321f0d8bb9d4f5a9f2f2c7c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6306394"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358598"
 ---
 # <a name="unified-product-experience"></a>Bendrosios produkto funkcijos
 
@@ -33,15 +33,15 @@ Kai verslo ekosistema sudaryta iš „Dynamics 365“ programų, pvz., „Financ
 
 Čia yra produkto duomenų modelis iš „Sales“.
 
-![CE produktų duomenų modelis](media/dual-write-product-4.jpg)
+![CE produktų duomenų modelis.](media/dual-write-product-4.jpg)
 
 Čia pateiktas programų „Finance and Operations“ produktų duomenų modelis.
 
-![„Finance and Operations“ produktų duomenų modelis](media/dual-write-products-5.jpg)
+![„Finance and Operations“ produktų duomenų modelis.](media/dual-write-products-5.jpg)
 
 Šie du produktų duomenų modeliai buvo integruoti į „Dataverse“, kaip parodyta toliau.
 
-![„Dynamics 365“ programų duomenų modelis](media/dual-write-products-6.jpg)
+![„Dynamics 365“ programų duomenų modelis.](media/dual-write-products-6.jpg)
 
 Produktų, turinčių dvigubą rašymą, lentelių schemos buvo sukurtos duomenų srautui tik į vieną pusę, beveik realiu laiku, iš programų „Finance and Operations“ į „Dataverse“. Tačiau produkto infrastruktūra buvo padaryta atvira, kad ją, esant poreikiui, būtų galima padaryti dvikrypte. Nors galite ją tinkinti, tai darytumėte prisiimdami riziką sau, nes „Microsoft“ to daryti nerekomenduoja.
 
@@ -86,7 +86,7 @@ Kadangi produktą atitinka SKU, išskirtųjų produktų, bendrųjų produktų ir
 - **Bendrieji produktai** naudojami kaip bendri produktai, turintys aprašą ir taisykles, apibrėžiančias verslo procesų veikimo būdą. Remiantis šiais apibrėžimais galima generuoti išskirtuosius produktus, žinomus kaip produkto variantus. Pavyzdžiui, marškinėliai yra bendrasis produktas, kuris gali turėti spalvos ir dydžio dimensijas. Galima kurti variantus, turinčius skirtingas šių dimensijų kombinacijas, pavyzdžiui, mažus mėlynus marškinėlius arba vidutinio dydžio žalius marškinėlius. Integruojant produkto lentelėje sukuriama viena eilutė kiekvienam variantui. Ši eilutė apima konkretaus varianto informaciją, pavyzdžiui, skirtingas dimensijas. Bendroji produkto informacija saugoma **msdyn\_sharedproductdetails** lentelėje. (Ši bendra informacija laikoma produkto vadove.) Produkto vadovo informacija sinchronizuojama į „Dataverse“ iš karto po to, kai išleistas produkto vadovas yra sukuriamas (prieš tai kai išleidžiami variantai).
 - **Išskirtieji produktai** nurodo visus produktų potipio produktus ir visus produkto variantus. 
 
-![Produktų duomenų modelis](media/dual-write-product.png)
+![Produktų duomenų modelis.](media/dual-write-product.png)
 
 Įgalinus dvigubo rašymo funkciją, „Finance and Operations“ programos bus sinchronizuojamos kituose „Dynamics 365“ produktuose, būsenoje **Juodraštis**. Jie yra pridedami prie pirmo kainoraščio su ta pačia valiuta. Kitaip tariant, jie pridedami prie pirmojo „Dynamics 365“ programos kainoraščio, atitinkančio jūsų juridinę lentelę, kurioje produktas išleidžiamas „Finance and Operations“ programoje, valiutą. Jei nėra pateiktos valiutos kainoraščio, jis bus automatiškai sukurtas ir priskirtas produktui. 
 
@@ -112,7 +112,7 @@ Produktų sinchronizavimas vyksta iš „Finance and Operations“ programos į 
 
 Produkto dimensijos – tai charakteristikos, identifikuojančios produkto variantą. Keturios produkto dimensijos (spalva, dydis, stilius ir konfigūracija) taip pat yra susietos su „Dataverse“ ir apibrėžia produkto variantus. Toliau pateiktame paveikslėlyje parodytas produkto spalvos dimensijos duomenų modelis. Tas pats modelis taikomas dydžiams, stiliams ir konfigūracijoms. 
 
-![Produkto dimensijų duomenų modelis](media/dual-write-product-two.png)
+![Produkto dimensijų duomenų modelis.](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -148,7 +148,7 @@ Numatytuose užsakymo parametruose nurodyta vieta ir sandėlys, iš kurių bus p
 
 Matavimo vienetai ir atitinkamas konvertavimas pasiekiami „Dataverse“ pagal diagramoje pavaizduotą duomenų modelį.
 
-![Matavimo vieneto duomenų modelis](media/dual-write-product-three.png)
+![Matavimo vieneto duomenų modelis.](media/dual-write-product-three.png)
 
 Matavimo vieneto koncepcija yra integruota tarp programų „Finance and Operations“ ir kitų „Dynamics 365“ programų. Kiekvienai programos „Finance and Operations“ vienetų klasei „Dynamics 365“ programoje sukuriama vienetų grupė, kurioje yra vienetų klasei priklausantys vienetai. Kiekvienai vieneto grupei taip pat sukuriamas numatytasis pradinis vienetas. 
 

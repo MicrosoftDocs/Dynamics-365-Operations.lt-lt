@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f380f3f56727d927d7cd328fef3c9d999afa2873
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f9fffb5b4f51c86076d62ac2a44bdc779490c7bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794354"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351278"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Numatytojo kategorijos nukreipimo puslapio ir ieškos rezultatų puslapio apžvalga
 
@@ -31,7 +31,7 @@ ms.locfileid: "5794354"
 
 Numatytasis kategorijos nukreipimo puslapis yra puslapis, į kurį paprastai perkeliami svetainės vartotojai, pasirinkę kategoriją naršymo hierarchijoje. Kategorijos puslapyje galite naršyti bei rikiuoti ir tikslinti į kategorijas suskirstytus produktus.
 
-![Numatytasis kategorijos nukreipimo puslapis](./media/SimpleCategoryLandingDressCategory.png)
+![Numatytasis kategorijos nukreipimo puslapis.](./media/SimpleCategoryLandingDressCategory.png)
 
 Puslapio viršuje yra antraštė, rodanti visas produktų kategorijas ir kitus puslapius, kuriuos prekybos vadovas suskirstė į kategorijas. Ši konfigūracija atliekama konfigūruojant kanalų naršymo hierarchiją. Puslapio apačioje yra poraštė, kurioje yra spartieji saitai su įvairiomis temomis, kurios gali sudominti pirkėjus.
 
@@ -55,7 +55,7 @@ Toliau nurodyti esminiai kategorijos komponentai.
 
 Jei norite, kad kategorijos nukreipimo puslapyje konkreti kategorija būtų labiau pritaikyta, galite tos kategorijos nukreipimo puslapį papildyti. Pavyzdžiui, galite įtraukti rinkodaros vaizdo įrašą ir istorijų apie kategoriją, kad patrauktumėte pirkėjo dėmesį. Norėdami gauti daugiau informacijos, žr. [Kategorijos nukreipimo puslapio papildymas](enrich-category-page.md).
 
-![Papildytas kategorijos nukreipimo puslapis](./media/CategoryLandingPages.png)
+![Papildytas kategorijos nukreipimo puslapis.](./media/CategoryLandingPages.png)
 
 ## <a name="auto-suggest-and-search-results-pages"></a>Automatinio siūlymo ir ieškos rezultatų puslapiai
 
@@ -69,11 +69,11 @@ Toliau pateikiami keli pasiūlymų tipai, kurie gali būti rodomi.
 - **Produktai** yra tiesioginiai saitai su produktų išsamios informacijos puslapiu.
 - **Aprėptos kategorijos Ieškos pasiūlymuose** išvardytos įvairios kategorijos, vartotojams leidžiančios ieškoti raktažodžio konkrečioje kategorijoje.
 
-![Įtraukianti automatinio siūlymo funkcija](./media/ImmersiveAutoSuggestUX.png)
+![Įtraukianti automatinio siūlymo funkcija.](./media/ImmersiveAutoSuggestUX.png)
 
 Kai vartotojai pasirenka vieną iš raktažodžių arba aprėptos kategorijos ieškos pasiūlymų, arba kai nėra pasiūlymų, susijusių su jų įvestu ieškos terminu, jie nukreipiami į ieškos rezultatų puslapį. Norėdami rasti pageidaujamą prekę, tada vartotojai gali naršyti, rikiuoti ir tikslinti ieškos rezultatų sąrašą.
 
-![Ieškos nukreipimas](./media/SearchLanding.png)
+![Ieškos nukreipimas.](./media/SearchLanding.png)
 
 Toliau nurodyti esminiai ieškos rezultatų puslapio komponentai.
 
@@ -94,7 +94,7 @@ Toliau nurodyti esminiai ieškos rezultatų puslapio komponentai.
 
 >[!NOTE]
 >Šios debesų kompiuterijos ieškos galimybės prieinamos 10.0.8 versijoje. Įsitikinkite, kad dalyje **Prekybos parametrai > Konfigūracijos parametrai** yra įrašas, skirtas „Productsearch.UseAzureSearch” nustatytas kaip „true”. 
-![Konfigūracijos parametrai debesies aplinkos ieškoje](./media/CloudPoweredSearchConfigurationParameters.png)
+![Konfigūracijos parametrai debesies aplinkos ieškoje.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

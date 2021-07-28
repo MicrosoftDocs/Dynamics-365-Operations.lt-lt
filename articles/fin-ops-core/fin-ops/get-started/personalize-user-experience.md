@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 764444442aedcbf0934f1c636d7440bc0d277043
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 279212d05615805dd74c702b2b98c344c87fdc78
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944538"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348684"
 ---
 # <a name="personalize-the-user-experience"></a>Vartotojo patirties personalizavimas
 
@@ -85,7 +85,7 @@ Trumpųjų mygtukų meniu pateikia kelią keisti puslapio sąsają tam, kad ji g
 
 Taip pat, pagrindiniai personalizavimo tipai yra prieinami spaudžiant dešiniu mygtuku elementą ir tuomet pasirenktant **Personalizuoti**. (Atkreipkite dėmesį, kad ne visi elementai jūsų puslapyje gali būti personalizuoti.) Kai naudojate šį personalizavimo metodą, pasirodo elemento *ypatybių langas*.
 
-![Elemento ypatybių personalizavimas](./media/cli-element-property-window.png)
+![Elemento ypatybių personalizavimas.](./media/cli-element-property-window.png)
 
 Naudojantis ypatybių langu elementą galima personalizuoti toliau išvardytais būdais.
 
@@ -107,7 +107,7 @@ Jei norite sukurti keletą puslapio pakeitimų arba pakeitimus, kurie nėra prie
 - Bet kurio puslapio veiksmų srities skirtuke **Parinktys** esančioje grupėje **Personalizavimas**, pasirinkite **Pritaikyti šį puslapį asmeniniams poreikiams**.
 - Naršymo juostoje pasirinkite mygtuką **Parametrai** (krumpliaračio simbolis), tada pasirinkite **Personalizavimas**.
 
-[![Personalizavimo įrankių juosta](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
+[![Personalizavimo įrankių juosta.](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Naršymas puslapyje
 
@@ -147,7 +147,7 @@ Kai kuriuose puslapiuose, kuriuose yra sąrašų, galima veiksmų srities skirtu
 > [!NOTE]
 > Jei funkcija [Įrašyti rodiniai](saved-views.md) įjungta, į darbo sritį perkeliamas turinys yra tiesiogiai susietas su rodiniu. Peržiūros užklausa yra naudojama gauti duomenis į darbo sritį ir atitinkama plyta ar nuoroda darbo srityje atidaro puslapį į tą peržiūrą taip, kad peržiūros užklausa ir personalizavimas jai yra taikomas. Jei peržiūra yra atnaujinama, atitinkami darbo srities elementai bus keičiami į naują peržiūros sąvoką.
 
-[![Įtraukti į darbo sritį](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
+[![Įtraukti į darbo sritį.](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
 
 - Norėdami įtraukti sąrašą į darbo sritį, pirmiausia surūšiuokite arba filtruokite puslapio sąrašą, kad informacija būtų rodoma taip, kaip norite, kad ji būtų rodoma darbo srityje. (Jei **Įrašytos peržiūros** funkcija yra įjungta, nebegalite tęsti kol įrašysite peržiūrą, turinčią šias sąlygas.) Tuomet pasirinkite **Įtraukti į darbo sritį**. Pasirinkite darbo sritį, o po to lauke **Pateiktis** paspauskite **Sąrašas**. Paspaudus **Konfigūruoti** rodomas dialogo langas, kuriame galite pasirinkti stulpelius, kurie turėtų būti rodomi darbo srities sąraše. Taip pat galite nurodyti darbo srities sąrašui naudojamą žymą.
 - Tam, kad įtrauktumėte plytą į darbo sritį, pirmiausia filtruokite sąrašą puslapyje taip, kad jis rodytų duomenis, kurie turi būti apibendrinti ir prie kurių norite prieiti greitai. (Jei **Įrašytos peržiūros** funkcija yra įjungta, nebegalite tęsti kol įrašysite peržiūrą, turinčią šias sąlygas.) Tuomet pasirinkite **Įtraukti į darbo sritį**. Pasirinkite darbo sritį, o po to lauke **Pateiktis** paspauskite **Išklotinės dalis**. Paspaudus **Konfigūruoti** rodomas dialogo langas, kuriame galite nurodyti darbo srities išklotinei naudojamą žymą. Taip pat galite nurodyti, ar išklotinėje turėtų būti rodomas skaičius. Po to, kai išklotinė įtraukiama į darbo sritį, galite pasirinkti ją, kad atidarytumėte dabartinį puslapį iš darbo srities. Tada galite peržiūrėti filtruotą sąrašą, susietą su išklotine.

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 24c322712edf1277eabfdd708f528d89bcf43640
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: ffb1cedc08b033532580fda1349ade32b7dc1eb1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261751"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354814"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Gamybos ir sandėlio valdymo darbo krūvių debesies ir briaunos skalės vienetas
 
@@ -41,7 +41,7 @@ Darbo krūvio galimybės yra leidžiamos nepertraukiamai didėjančiais patobuli
 
 Skalės vienetai išplečia jūsų centrinę „Supply Chain Management“ telkinio aplinką įtraukdami paskirtąjį apdorojimo pajėgumą. Skalės vienetai gali vykti debesyje. Kitu atveju jie gali vykti briaunoje, vietoje, jūsų vietinėse patalpose.
 
-:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 su skalės vienetais":::
+:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 su skalės vienetais.":::
 
 Skalės vienetai suteikia atsparumą, patikimumą ir skalę paskirtiems darbo krūviams. Briaunos skalės vienetus galima laikinai atjungti nuo debesies telkinio aplinkos, o darbuotojai gali toliau dirbti su priskirtais darbo krūviais briaunoje.
 
@@ -157,7 +157,7 @@ Skalės vienetai yra siūlomi keliuose sandėliavimo vienetuose (SKU) ir kainų 
 
 Įrašo lygio SKU žinomas kaip *Paprastasis*, o efektyvesnis SKU žinomas kaip *Standartinis*. Kiekvienas SKU yra iš anksto įkeliamas su konkrečiu mėnesinių operacijų skaičiumi. Tačiau galite padidinti mėnesinių operacijų biudžetą įtraukdami pertekliaus papildinius kiekvienam SKU.
 
-:::image type="content" source="media/SKUs-highlevel.png" alt-text="Papildiniai debesies skalės vienetams":::
+:::image type="content" source="media/SKUs-highlevel.png" alt-text="Papildiniai debesies skalės vienetams.":::
 
 > [!TIP]
 > Norėdami nustatyti geriausiai jūsų poreikius atitinkantį dydį, bendradarbiaukite su savo partneriu ir „Microsoft”, kad suprastumėte kokio mėnesinio operacijų dydžio jums reikia.
@@ -181,11 +181,11 @@ Jei nuomotojo, kurio ieškote nėra sąraše, eikite į [„LCS”](https://lcs.
 
 Kiekvienam nuomotojui sąrašas rodo pasirengimo darbui būseną.
 
-:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Nuomotojų sąrašas Dynamics 365 nuomotojų skirtuke":::
+:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Nuomotojų sąrašas Dynamics 365 nuomotojų skirtuke.":::
 
 Pasirinkite **Paspauskite čia norėdami pradėti**, kad pateiktumėte pasirengimo darbui užklausą LCS nuomotojui. Turite priimti sąlygas. Taip pat turite pateikti verslo el. pašto adresą, į kurį „Microsoft“ gali siųsti pranešimus, susijusius su pasirengimo darbui procesu.
 
-:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="Prisijungimo pateikimas nuomotojui":::
+:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="Prisijungimo pateikimas nuomotojui.":::
 
 „Microsoft“ peržiūrės jūsų užklausą ir informuos jus apie kitus žingsnius nusiųsdama el. laišką tuo adresu, kurį pateikėte prisijungimo formoje. „Microsoft” glaudžiai bendradarbiaus su jumis, kad jūsų verslo scenarijui įjungtų skalės vienetus hibridinėje topologijoje.
 
@@ -195,13 +195,13 @@ Kai pasirengimas yra baigtas, galite naudoti prievadą skalės vienetams ir darb
 
 Eikite į [Skalės vieneto valdymo portalą](https://aka.ms/SCMSUM) ir prisijunkite naudodami savo nuomotojo paskyrą. Puslapyje **Konfigūruoti skalės vienetus** galite įtraukti telkinio aplinką, jei jos dar nėra. Tada galite rinktis telkinį, kurį norite konfigūruoti su skalės vienetais ir darbo krūviais.
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Skalės vienetas ir darbo apkrovos valdymo patirtis":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Skalės vienetas ir darbo apkrovos valdymo patirtis.":::
 
 Norėdami įtraukti vieną ar keletą skalės vienetų, galimų jūsų prenumeratose, pasirinkite **Įtraukti skalės vienetus**.
 
 Skirtuke **Nustatyti darbo krūviai** naudokite **Sukurti darbo krūvį** mygtuką, kad įtrauktumėte sandėlio valdymo darbo krūvį į vieną iš jūsų skalės vienetų. Kiekvienam darbo krūviui turite nurodyti procesų kontekstą, kurį valdys darbo krūvis. Sandėlio valdymo darbo krūviams kontekstas turi konkretų sandėlį konkrečioje vietoje ir juridinį asmenį.
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Darbo krūvio sukūrimas":::
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Darbo krūvio sukūrimas.":::
 
 > [!TIP]
 > Laikui bėgant didėjantys patobulinimai bus įtraukti į Skalės vienetų valdymo patirtį, kad būtų lengviau atlikti ciklo valdymo operacijas. Konkretūs dabartinio leidimo pajėgumai yra dokumentuojami supažindinimo vadove, prieinamu tiems klientams, kurie šiuo metu susipažįsta su paskirstytąja, hibridine „Supply Chain Management” topologija. <!-- KFM: Add a link to the handbook when it is published -->

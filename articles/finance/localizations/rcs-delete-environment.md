@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 637962cf63bfd8c2330726f33545f939ec91d58d
-ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
+ms.openlocfilehash: cf82abbe5493eac9665323738441fa016205e9ef
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6295823"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355012"
 ---
 # <a name="regulatory-configuration-service-rcs---delete-an-rcs-environment"></a>„Regulatory Configuration Service” (RCS) – RCS aplinkos naikinimas
 
@@ -38,11 +38,11 @@ Tam, kad užbaigtumėte šios temos, privalote atitikti šias būtinąsias sąly
 1. Atidarykite RCS ir pasirinkite **Elektroninių ataskaitų** darbo srities plytelę.
 2. Skyriuje **Susiję saitai** pasirinkite **Naikinti RCS aplinką**.
 
-    ![RCS aplinkos saito naikinimas Susijusių nuorodų skyriuje](media/01_RCS-Delete-Environ-Related-Link.PNG)
+    ![RCS aplinkos saito naikinimas Susijusių nuorodų skyriuje.](media/01_RCS-Delete-Environ-Related-Link.PNG)
 
 3. Pasirodžiusiame dialogo lange peržiūrėkite pranešimus apie aplinkos naikinimo aprėptį.
 
-    ![Pranešimai RCS aplinkos naikinimo dialogo lange](media/01_RCS-Delete-Environ-Msg_noGUID.PNG)
+    ![Pranešimai RCS aplinkos naikinimo dialogo lange.](media/01_RCS-Delete-Environ-Msg_noGUID.PNG)
 
     > [!IMPORTANT]
     > RCS aplinkos panaikinimo negalima atšaukti.

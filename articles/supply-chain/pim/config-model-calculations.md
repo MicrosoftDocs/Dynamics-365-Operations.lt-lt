@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-18
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: eaf6264f060d33575740ad38e7a65158baba296b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f0806a5b36b04e77a5a6d10f3c2eb3d7ba680e75
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829623"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356421"
 ---
 # <a name="product-configuration-model-calculations"></a>Produkto konfigūracijos modelio skaičiavimai
 
@@ -70,7 +70,7 @@ Išraiška pateikia tikslinio atributo reikšmę *Teisinga*, jei „`decimalAttr
 
 Toliau pateiktoje ekrano kopijoje parodyta, kaip šio atributo parametrai gali atrodyti jūsų sistemoje.
 
-![Atributo tipo parametrai 2 pavyzdžiui](media/model-calculations-example2.png "Atributo tipo parametrai 2 pavyzdžiui")
+![Atributo tipo parametrai 2 pavyzdžiui.](media/model-calculations-example2.png "Atributo tipo parametrai 2 pavyzdžiui")
 
 Atributas yra naudojamas šiame sąlyginiame sakinyje:
 
@@ -92,7 +92,7 @@ Jei „`integerAttribute`” vertė yra mažesnė nei 150, šis sakinys grąžin
 
 Toliau pateiktoje ekrano kopijoje parodyta, kaip šio atributo parametrai gali atrodyti jūsų sistemoje.
 
-![Atributo tipo parametrai 3 pavyzdžiui](media/model-calculations-example3.png "Atributo tipo parametrai 3 pavyzdžiui")
+![Atributo tipo parametrai 3 pavyzdžiui.](media/model-calculations-example3.png "Atributo tipo parametrai 3 pavyzdžiui")
 
 „`textFixedList`” atributo reikšmė apskaičiuojama naudojant šį sąlyginį sakinį:
 

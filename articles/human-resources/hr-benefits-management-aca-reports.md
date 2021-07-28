@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1417232baeaf03721bd0b25cc3f9fd5f750c65d5
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: b8a83982ad36abfe9032cae50fe4f09339985dc8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052270"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353667"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>Kurti ACA ataskaitas išmokų valdymą
 
@@ -48,15 +48,15 @@ Išlaiikymo priežiūros aprėpties grupės jums padeda valdyti šią informacij
 
 1. Darbo srityje **Išmokų valdymas** rinkitės **Išlaikymo priežiūros aprėpties grupė**.
 
-    ![Rinkitės išlaikomos priežiūros aprėpties grupę](./media/hr-benefits-management-aca-coverage-group.png)
+    ![Rinkitės išlaikomos priežiūros aprėpties grupę.](./media/hr-benefits-management-aca-coverage-group.png)
 
 2. Rinkitės **Nauja** tam, kad sukurtumėtė nauja išlaikymo priežiūros aprėpties grupę arba **Redaguotumėte** siekiant keisti esančią grupę.
 
-    ![Rinktis naują ar redaguoti](./media/hr-benefits-management-aca-new.png)
+    ![Rinktis naują ar redaguoti.](./media/hr-benefits-management-aca-new.png)
 
 3. Užpildykite toliau nurodytus laukus.
 
-    | Laukas | aprašymas |
+    | Laukas | Aprašas |
     |---|---|
     | Pavadinimas / vardas ir (arba) pavardė | Įvesti grupės pavadinimą. |
     | aprašymas | Įveskite grupės aprašą. |
@@ -67,7 +67,7 @@ Išlaiikymo priežiūros aprėpties grupės jums padeda valdyti šią informacij
     | Grupė galioja nuo | Pirmoji data, kada įsigalioja įrašas. |
     | Grupė galioja iki | Paskutinė data, kada galioja įrašas. Jei nėra galiojimo pabaigos datos, įveskite **Niekada**. |
 
-    ![Kurti aprėpties grupę](./media/hr-benefits-management-aca-new-group.png)
+    ![Kurti aprėpties grupę.](./media/hr-benefits-management-aca-new-group.png)
 
 4. Pasirinkite **Įrašyti**.
 
@@ -77,11 +77,11 @@ Išlaiikymo priežiūros aprėpties grupės jums padeda valdyti šią informacij
 2. Rinktis grupę siekiant priskirti darbuotojus.
 3. Rinktis **Masinis priskyrimas**.
 
-    ![Rinktis Masinis priskyrimas](./media/hr-benefits-management-aca-mass-assignment.png)
+    ![Masinio priskyrimo pasirinkimas.](./media/hr-benefits-management-aca-mass-assignment.png)
 
 4. Rinktis darbuotojus sąraše ir tuomet rinktis **Priskirti**.
 
-    ![Priskirti pasirinktus darbuotojus grupei](./media/hr-benefits-management-aca-assign-coverage-group.png)
+    ![Priskirti pasirinktus darbuotojus grupei.](./media/hr-benefits-management-aca-assign-coverage-group.png)
 
 ## <a name="maintain-multiple-versions-of-coverage-options"></a>Išlaikyti kelias aprėpties parinkties versijas
 
@@ -111,12 +111,12 @@ Norėdami įvesti išlygas bet kurioms išlaikymo priežiūros aprėpties grupė
 2. Rinkitės darbuotoją sąraše.
 3. Skirtuke **Įdarbinimas**, **Daugiau informacijos** skyriuje rinkitės **Išlaikymo priežiūros aprėpties grupė**.
 
-    ![Keičiančios vienam darbuotojui parinktys](./media/hr-benefits-management-aca-change-single-employee.png)
+    ![Keičiančios vienam darbuotojui parinktys.](./media/hr-benefits-management-aca-change-single-employee.png)
 
 4. Pasirinkite **Redaguoti**.
 5. Kiekvienam mėnesiui, kuriam reikia keitimų, rinkitės **Viršyti numatytą** žymimą laukelį ir tada keiskite kitas vertes, kaip būtina.
 
-    ![Numatytų verčių viršijimas](./media/hr-benefits-management-aca-override-default.png)
+    ![Numatytų verčių viršijimas.](./media/hr-benefits-management-aca-override-default.png)
 
 6. Pasirinkite **Įrašyti**.
 
@@ -131,7 +131,7 @@ Norėdami nurodyti, ar išmokų planas bus praneštas, atlikite šiuos veiksmus.
 3. Pasirinkite **Redaguoti**.
 4. Rinkitės **Pranešti pagal prieinamų sevikatos priežiūros paslaugų akto** parinktį **Taip**.
 
-    ![Sveikatos priežiūros draudimo ataskaitos](./media/hr-benefits-management-aca-report-coverage.png)
+    ![Sveikatos priežiūros draudimo ataskaitos.](./media/hr-benefits-management-aca-report-coverage.png)
 
 5. Pasirinkite **Įrašyti**.
 
@@ -147,23 +147,23 @@ Galite taip pat kurti ACA 1095-B ir 1095-C formas produkte ir tada dalyti juos v
     > [!NOTE]
     > Jei spausdinate 1095-C formas daugiau nei 500 darbuotojų, gausite daugiau nei vieną PDF failą. Rekomenduojame jums padidinti vertę **Maksimalus failo dydis megabaitais** laukelį **Dokumento valdymo parametrų** puslapyje iki **150**. (Tam, kad greitai atvertumėte tą puslapį, galitet naudoti paieškos laukelį naršymo juostoje.)
     >
-    > ![Maksimalaus failo dydžio keitimas](./media/hr-benefits-management-aca-maximum-file-size.png)
+    > ![Maksimalaus failo dydžio keitimas.](./media/hr-benefits-management-aca-maximum-file-size.png)
 
 3. Norėdami patikrinti savo ataskaitų statusą ir jas peržiūrėti, naudokite paieškos laukelį naršymo juostoje, kad atvertumėte **Elektroninių ataskaitų darbų** puslapį.
 
-    ![Elektroninių ataskaitų darbų puslapio paieška](./media/hr-benefits-management-aca-search-electronic-reporting-jobs.png)
+    ![Elektroninių ataskaitų darbų puslapio paieška.](./media/hr-benefits-management-aca-search-electronic-reporting-jobs.png)
 
 4. Rinkitės peržiūrimą ataskaitą ir tada rinkitės **Rodyti failus**.
 
-    ![Failų rodymas](./media/hr-benefits-management-aca-show-files.png)
+    ![Failų rodymas.](./media/hr-benefits-management-aca-show-files.png)
 
 5. Pasirinkite **Atidaryti**.
 
-    ![Failo atidarymas](./media/hr-benefits-management-aca-open-file.png)
+    ![Failo atidarymas.](./media/hr-benefits-management-aca-open-file.png)
 
 6. Pranešimų juostoje, kuri pasirodo naršymo lango apačioje, atverkite zip failą ir tada rinkitės ataskaitą. Galite peržiūrėti ar spausdinti PDF failą.
 
-    ![Pavyzdžio 1095-C forma](./media/hr-benefits-management-aca-1095-c-form.png)
+    ![Pavyzdžio 1095-C forma.](./media/hr-benefits-management-aca-1095-c-form.png)
 
 ## <a name="view-aca-coverage-information"></a>Peržiūrėti ACA aprėpties informaciją
 
@@ -178,7 +178,7 @@ Norėdami peržiūrėti šią informaciją, imkitės tokių veiksmų.
 1. Darbo srityje **Išmokų valdymas** rinkitės **Darbuotojo priežiūros aprėpties grupė**.
 2. Laukelyje **Grupės pavadiimas** rinkitės grupę.
 
-    ![Aprėpties ACA peržiūra](./media/hr-benefits-management-aca-view-coverage.png)
+    ![Aprėpties ACA peržiūra.](./media/hr-benefits-management-aca-view-coverage.png)
 
 Jei bet kurios iš numatytų verčių prieinamų sveikatos priežiūros paslaugų grupė buvo viršyta, žvaigždutė pasirodo šalia pakeistos vertės. Jei vertės visiems 12 mėnesių yra tokios pačios ir jos nebuvo viršytos, vertė pasirodo **Visų 12 mėnesių** stulpelyje.
 
@@ -198,11 +198,11 @@ Norėdami eksportuoti bet kokius sąrašus į „Microsoft Excel“, atlikite š
 
 Jums būtina pranešti apdraustus asmenis, nes suteikiate savarankišką draudimą, galite peržiūrėti visus išlaikytinius, kurie apdrausti išmokų planais ir pažymėti kaip **ACA pranešama**. Veiksmų juostoje rinkitės **Žiūrėti išlaikytinių draudimą**.
 
-![Aprėpties išlaikytinio peržiūra](./media/hr-benefits-management-aca-view-dependent-coverage.png)
+![Priklausomųjų aprėpties peržiūra.](./media/hr-benefits-management-aca-view-dependent-coverage.png)
 
 Aprėpties informacija darbuotojo išlaikytiniams yra rodoma.
 
-![Išlaikytinių draudimas](./media/hr-benefits-management-aca-dependents.png)
+![Priklausomųjų aprėptis.](./media/hr-benefits-management-aca-dependents.png)
 
 > [!NOTE]
 > Puslapis rodo tik išmokų planus, kurie pažymėti kaip **ACA pranešami**.

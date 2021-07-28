@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage, PurchReqConsolidationPartByVendor, PurchReqConsolidationLineDetail, PurchReqConsolidationCreate, PurchReqConsolidationBulkEdit, PurchReqConsolidationAddLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2174
+ms.custom:
+- "2174"
+- intro-internal
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e067c9df91894c5d2ce05a6afb92d1fadc954531
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: d8bde73d424e72ad66c27decd11a3b866d02b48c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188202"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349799"
 ---
 # <a name="purchase-requisition-overview"></a>Pirkimo paraiškos apžvalga
 
@@ -47,7 +49,7 @@ Pirkimo paraiškos darbo eigos procesą galite konfigūruoti ir nukreipti pirkim
 
 Pateiktoje diagramoje rodomos pirkimo paraiškai ir pirkimo paraiškos eilutei priskirtos būsenos, kai šios perkeliamos darbo eigos proceso metu.  
 
-[![Pirkimo paraiškos antraštės ir eilutės būsenos](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![Pirkimo paraiškos antraštės ir eilutės būsenos.](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>Pirkimo paraiškos antraštės ir eilutės būsenų ryšys
 
@@ -179,7 +181,7 @@ Norėdami sukurti pirkimo užsakymą pagal pirkimo paraiškos eilutes, kurios ne
 
 Poreikio konsolidavimo procesas prasideda darbo eigoje patvirtinus pirkimo paraišką ir įrašius biudžeto rezervavimus ir preliminarius biudžeto rezervavimus, jei jūsų organizacijoje sukonfigūruota biudžeto kontrolė. Šioje diagramoje pavaizduota poreikio konsolidavimo proceso eiga.  
 
-[![Poreikio konsolidavimo proceso eiga](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
+[![Poreikio konsolidavimo proceso eiga.](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 Norėdami konsoliduoti patvirtintas pirkimo paraiškos eilutes, atlikite toliau nurodytus veiksmus.
 

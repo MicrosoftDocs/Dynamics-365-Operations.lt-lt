@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1cb28fb50bdc972d1dae6d03a45f70a2f3a63357
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 39dabeb8bacc4ebc3376f53f15c7fb292c8d301c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022451"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352113"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>„Microsoft Teams” parengimas iš „Dynamics 365 Commerce”
 
@@ -49,7 +49,7 @@ Norėdami parengti „Teams” platformą „Commerce“ būstinėje, atlikite n
 > [!TIP]
 > Jei nė vienas iš jūsų regiono vadovų, parduotuvių vadovų ir parduotuvės darbuotojų nėra susietas su „Teams” licencija, jūs galite gauti šį klaidos pranešimą: „Nepavyko nuskaityti vartotojui taikytinų Sku kategorijų.” Norėdami išspręsti šią problemą, veiksmų srityje pasirinkite **Sinchronizuoti komandas ir narius**.
 
-<!-- ![Dynamics 365 Commerce - Teams integration configuration](media/D365-Commerce-Microsoft-Teams-Configuration_with_disclaimer.png)-->
+<!-- ![Dynamics 365 Commerce - Teams integration configuration.](media/D365-Commerce-Microsoft-Teams-Configuration_with_disclaimer.png)-->
 
 ## <a name="validate-teams-provisioning-in-the-teams-admin-center"></a>„Teams” parengimo patvirtinimas „Teams” administravimo centre
 
@@ -63,7 +63,7 @@ Norėdami patvirtinti „Microsoft Teams” parengimą „Microsoft Teams” adm
 
 Šioje iliustracijoje pateiktas „Teams” administravimo centro puslapio **Tvarkyti komandas** pavyzdys.
 
-![„Teams” administravimo centro puslapio Tvarkyti komandas pavyzdys](media/Teams-FLW-Admin-Teams.png)
+![„Teams” administravimo centro puslapio Tvarkyti komandas pavyzdys.](media/Teams-FLW-Admin-Teams.png)
 
 ## <a name="upload-a-commerce-organizational-hierarchy-to-teams"></a>Organizacijos hierarchijos įkėlimas iš „Commerce” į „Teams”
     
@@ -86,7 +86,7 @@ Norėdami patikrinti, ar organizacijos hierarchija buvo įkelta į „Microsoft 
 1. Skirtuke **Publikuoti sąrašai** sukurkite naują sąrašą, kuriame yra bandomųjų užduočių.
 1. Pasirinkite **Publikuoti**. Organizacijos hierarchija turėtų atsirasti dialogo lange **Pasirinkti, kas turi publikuoti**, kaip parodyta toliau pateiktos iliustracijos pavyzdyje.
 
-![Organizacijos hierarchijos pavyzdys dialogo lange „Pasirinkti, kam publikuoti”](media/Microsoft-teams-verify-org-hierarchy.png)
+![Organizacijos hierarchijos pavyzdys dialogo lange „Pasirinkti, kam publikuoti”.](media/Microsoft-teams-verify-org-hierarchy.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

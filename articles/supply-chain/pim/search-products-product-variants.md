@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b99f668061f429baf56cddb957049833bd74939
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8867eabde5fb0999e0a67f11cfa29e1e4fbc6855
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812744"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359986"
 ---
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Ieškoti produktų ir produkto variantų įvedant užsakymą
 
@@ -58,7 +58,7 @@ Jeigu įvesite „ištarti 05“, jokių rezultatų negausite. Taip yra todėl, 
 Galite apriboti paieškos rezultatų skaičių naudodami lauką **Rezultatų skaičius** puslapyje **Pardavimas ir rinkodara &gt; Sąranka &gt; Paieška &gt; Paieškos parametrai**. Jei nustatyta šio lauko nuostata 0, pateikiami visi paieškos rezultatai. Jei nustatote šio lauko nuostatą, pavyzdžiui, 10, pateikiama ne daugiau negu 10 paieškos rezultatų.
 
 ## <a name="configure-the-product-search"></a>Produktų paieškos konfigūravimas
-Prieš naudodami produkto ir produkto variantų paieškos funkciją, atlikite toliau nurodytus veiksmus, kad sukonfigūruotumėte produktų paiešką. [![3 veiksmai norint sukonfigūruoti produkto paiešką\_AXAppFall](./media/3-steps-to-configure-product-search_axappfall.png)](./media/3-steps-to-configure-product-search_axappfall.png)
+Prieš naudodami produkto ir produkto variantų paieškos funkciją, atlikite toliau nurodytus veiksmus, kad sukonfigūruotumėte produktų paiešką. [![3 veiksmai norint sukonfigūruoti produkto paiešką\_AXAppFall.](./media/3-steps-to-configure-product-search_axappfall.png)](./media/3-steps-to-configure-product-search_axappfall.png)
 
 ### <a name="step-1-include-all-the-relevant-product-and-product-variant-identifiers-and-dimensions-in-the-search-criteria"></a>1 veiksmas: į paieškos kriterijus įtraukite visus atitinkamus produkto ir produkto variantų identifikatorius ir dimensijas
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0a79986e3b477865bc1816a1d28c1b7094ae3974
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 30cd077402928bc33949b821b9b114fbf8a632f2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809811"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359154"
 ---
 # <a name="add-fault-to-work-order"></a>Gedimo įtraukimas į darbo užsakymą
 
@@ -50,7 +50,7 @@ ms.locfileid: "5809811"
 
 Toliau esančiame paveikslėlyje pateiktas gedimo registravimo pavyzdys.
 
-![1 pav.](media/19-work-orders.png)
+![1 iliustracija.](media/19-work-orders.png)
 
 
 ## <a name="view-asset-faults"></a>Turto gedimų rodinys

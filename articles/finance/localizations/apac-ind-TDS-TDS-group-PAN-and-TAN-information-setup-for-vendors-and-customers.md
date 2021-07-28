@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: fd33b1775afefed798f1e9bb7601f4112222c430
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f4add6d32c34993338b0e587723df12d0a33ce43
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023449"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358271"
 ---
 # <a name="tds-group-pan-and-tan-information-setup-for-vendors-and-customers"></a>Nustatyti TDS grupę, PAN ir TAN informaciją tiekėjams ir klientams
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023449"
 
 1. Eikite į **Mokėtinos sumos \> Tiekėjai \> Visi tiekėjai** ar **Gautinų sumų \> pirkėjai \> Visi pirkėjai**.
 
-    [![Puslapis Visi tiekėjai](./media/apac-ind-TDS-55.png)](./media/apac-ind-TDS-55.png)
+    [![Puslapis Visi tiekėjai.](./media/apac-ind-TDS-55.png)](./media/apac-ind-TDS-55.png)
 
 2. Veiksmų juostoje rinkitės **Naujas** norėdami sukurti tiekėją ar klientą ir įveskite reikiamą informaciją. Arba pasirinkite esamą tiekėją arba klientą.
 3. „FastTab“ **Sąskaita ir pristatymas** esančiame **Mokesčio atskaičiavimas** skyriuje nustatykite **Skaičiuoti atskaitomą mokestį** parinktį į **Taip** tam, kad apskaičiuotumėte atskaičiuojamą mokestį TDS ar surinktą mokestį šaltinyje (TCS) tiekėjui ar klientui.
@@ -60,7 +60,7 @@ ms.locfileid: "6023449"
     - Vietos valdžia
     - Kita
 
-    [![Mokesčių informacijos „FastTab“](./media/apac-ind-TDS-56.png)](./media/apac-ind-TDS-56.png)
+    [![Mokesčių informacijos „FastTab“.](./media/apac-ind-TDS-56.png)](./media/apac-ind-TDS-56.png)
 
 9. Tada, veiksmų juostoje **Tiekėjas** skirtuke, grupėje **Registracija** rinktiės **Registracijos ID** tam, kad atvertumėte **Valdyti adresus** puslapį.
 10. Puslapio **Tvarkyti adresus** „FastTab“ **Mokesčių informacija** pasirinkite **Įtraukti** arba **Redaguoti,** kad atidarytumėte puslapį **Tvarkyti mokesčių informaciją**, kuriame galite tvarkyti mokesčių registracijos įrašą.

@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 0a494a36d1d8fa55521c416efd4262d860e1a708
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: fb010f5cb70668913b937b73ba05144f0b99549a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022841"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356835"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>„Dynamics 365 Commerce“ esantys domenai
 
@@ -38,7 +38,7 @@ Suteikiant e-komercijos aplinką [„Microsoft Dynamics  Lifecycle Services“ (
 
 Tolesnis paveikslėlis rodo LCS e-komercijos suteikimo ekraną su pabrėžtu **Palaikomais šeimininko pavadinimais** laukeliu. 
 
-![LCS e-komercijos suteikimo ekranas su **Palaikomi talpinimo pavadinimai** pabrėžtas laukelis](./media/Domains_ProvisioningeCommerceScreen_publish.png)
+![LCS e-komercijos suteikimo ekranas su **Palaikomi talpinimo pavadinimai** pabrėžtas laukelis.](./media/Domains_ProvisioningeCommerceScreen_publish.png)
 
 Galite sukurti paslaugos užklausą, norėdami įtraukti papildomus domenus į aplinką, jei parengimas jau įvyko. Norėdami sukurti paslaugos užklausą LCS, jūsų aplinkoje eikite į **Palaikymas \> Palaikymo problemos** ir pasirinkite **Pateikti incidentą**.
 
@@ -56,7 +56,7 @@ Pirmą kartą nustačius svetainę svetainių daryklėje, bus rodomas dialogo la
 
 Toliau pateiktoje iliustracijoje rodomas dialogo langas **Jūsų svetainės nustatymas** svetainei, kurios pavadinimas „numatytoji”, kai pirmą kartą pasiekiate svetainę svetainių daryklėje.
 
-![Dialogo langas **Jūsų svetainės nustatymas**](./media/Domains_SetupyoursiteScreen.png)
+![Dialogo langas **Jūsų svetainės nustatymas**.](./media/Domains_SetupyoursiteScreen.png)
 
 Langelis **Pasirinkti domeną** leidžia susieti vieną iš palaikomų pagrindinių kompiuterių vardų, pateiktų jūsų svetainei LCS, su svetaine, esančia svetainių daryklėje.
 
@@ -79,11 +79,11 @@ Nustačius svetainę keliu, visi URL, susieti su svetainės daryklės puslapiais
 
 Toliau pateiktame paveikslėlyje parodytas dialogo langas **Naujas URL** svetainių daryklėje ir paryškintas pavyzdinis URL kelias. 
 
-![Dialogo langas **Naujas URL** svetainių daryklėje](./media/Domains_PageSetup2a.png)
+![Dialogo langas **Naujas URL** svetainių daryklėje.](./media/Domains_PageSetup2a.png)
 
 Toliau pateiktame paveikslėlyje parodytas puslapis **URL** svetainių daryklėje ir sąraše paryškintas pavyzdinis URL.
 
-![Vartotojo srauto vykdymo parinktis strategijos sraute](./media/Domains_URLsInSiteBuilder2a.png)
+![Vartotojo srauto vykdymo parinktis strategijos sraute.](./media/Domains_URLsInSiteBuilder2a.png)
 
 ## <a name="domains-in-site-builder"></a>Domenai svetainių daryklėje
 

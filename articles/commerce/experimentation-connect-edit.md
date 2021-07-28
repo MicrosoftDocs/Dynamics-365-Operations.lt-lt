@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4c9c9463162f21cdaf40f1c4ed6d5ae51e97cb88
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4dbfa96e6393bae6ad4ffa642b39a5d04c596c29
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799089"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349381"
 ---
 # <a name="connect-an-experiment-and-edit-variations"></a>Eksperimento prijungimas ir variacijų redagavimas
 
@@ -28,7 +28,7 @@ ms.locfileid: "5799089"
 
 Toliau pateiktoje diagramoje rodomi visi veiksmai, susiję su eksperimento nustatymu ir vykdymu „e-Commerce“ svetainėje „Dynamics 365 Commerce”. Papildomi veiksmai aprašomi kitose temose.
 
-[ ![Vartotojo eksperimentavimo kelionė – prijungimas ir redagavimas](./media/experimentation_connect_edit.svg) ](./media/experimentation_connect_edit.svg#lightbox)
+[ ![Vartotojo eksperimentavimo kelionė – prijungimas ir redagavimas.](./media/experimentation_connect_edit.svg) ](./media/experimentation_connect_edit.svg#lightbox)
 
 [Nustatę jūsų eksperimentą](experimentation-setup.md) trečiosios šalies paslaugoje, prijungsite eksperimentą „Dynamics 365 Commerce” ir redaguosite eksperimento variacijas.
 

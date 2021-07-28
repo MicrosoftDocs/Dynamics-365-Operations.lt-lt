@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 8229dc84040b1f3bd46d75c13795f0dc9b7e71f1
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 105fdc1b8e8c9e30c0d305894910194591707193
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897773"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356708"
 ---
 # <a name="one-voucher"></a>Vienas kvitas
 
@@ -33,18 +33,18 @@ Naudodamiesi esama finansinių žurnalų (bendrojo žurnalo, ilgalaikio turto ž
 
 - Nustatykite žurnalo pavadinimą (**Didžioji knyga** \> **Žurnalo sąranka** \> **Žurnalų pavadinimai**), kad laukui **Naujas kvitas** būtų nustatytas parametras **Tik vienas kvito numeris**. Nuo šiol kiekviena į žurnalą įtraukta eilutė įtraukiama tame pačiame kvite. Dėl to tą patį kvitą galima įvesti kaip kelių eilučių kvitą, kaip toje pačioje eilutėje nurodytą sąskaitą / korespondentinę sąskaitą arba kaip kombinaciją.
 
-    [![Viena eilutė](./media/same-line.png)](./media/same-line.png)
+    [![Viena eilutė.](./media/same-line.png)](./media/same-line.png)
 
     > [!IMPORTANT]
     > Vieno kvito aprašas **neapima** atvejų, kai žurnalų pavadinimams nustatytas parametras **Tik vienas kvito numeris**, tačiau vartotojas tada įveda kvitą, apimantį tik DK sąskaitų tipus. Šioje temoje išsireiškimas „vienas kvitas“ reiškia, kad viename kvite yra daugiau nei vienas tiekėjas, klientas, bankas, ilgalaikis turtas arba projektas.
 
 - Jei nenurodyta korespondentinė sąskaita, įveskite kelių eilučių kvitą.
 
-    [![Kelių eilučių kvitas](./media/Multi-line.png)](./media/Multi-line.png)
+    [![Kelių eilučių kvitas.](./media/Multi-line.png)](./media/Multi-line.png)
 
 - Įveskite kvitą, kuriame nurodomas sąskaitos ir poslinko sąskaitos papildomos knygos sąskaitos tipas, pavyzdžiui, **Tiekėjas**/**Tiekėjas**, **Klientas**/**Klientas**, **Tiekėjas**/**Klientas** arba **Bankas**/**Bankas**.
 
-    [![Papildomos knygos kvitas](./media/subledger.png)](./media/subledger.png)
+    [![Papildomos knygos kvitas.](./media/subledger.png)](./media/subledger.png)
 
 ## <a name="issues-with-one-voucher"></a>Su funkcija Vienas kvitas susijusios problemos
 
@@ -52,11 +52,11 @@ Naudojantis funkcija Vienas kvitas iškyla problemų atsiskaitant, skaičiuojant
 
 Pavyzdžiui, registruojate toliau nurodytą kelių eilučių kvitą.
 
-[![Kelių eilučių kvito pavyzdys](./media/example.png)](./media/example.png)
+[![Kelių eilučių kvito pavyzdys.](./media/example.png)](./media/example.png)
 
 Po to darbo srityje **Finansinės įžvalgos** sugeneruojate ataskaitą **Išlaidos pagal tiekėją**. Šioje ataskaitoje išlaidų sąskaitos balansai sugrupuoti pagal tiekėjo grupę, o tada pagal tiekėją. Kai ataskaita sugeneruojama, sistema negali nustatyti, kurios tiekėjų grupės / tiekėjai patyrė 250,00 vienetų apimties išlaidų. Kadangi trūksta operacijos informacijos, sistema daro prielaidą, kad visas 250,00 vienetų apimties išlaidas patyrė pirmas kvite nurodytas tiekėjas. Todėl 250,00 vienetų apimties išlaidos, kurios įtrauktos į pagrindinės sąskaitos 600120 balansą, rodomos toje tiekėjų grupėje / tiekėjo srityje. Tačiau labai tikėtina, kad pirmasis tiekėjas kvite nurodytas neteisingai. Dėl to gali būti, kad ataskaita yra neteisinga.
 
-[![Išlaidos pagal pardavėjo ataskaitą](./media/expenses.png)](./media/expenses.png)
+[![Išlaidos pagal pardavėjo ataskaitą.](./media/expenses.png)](./media/expenses.png)
 
 ## <a name="the-future-of-one-voucher"></a>Funkcijos Vienas kvitas ateitis
 
