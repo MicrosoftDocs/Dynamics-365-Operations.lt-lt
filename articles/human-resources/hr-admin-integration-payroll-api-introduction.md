@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e6d8a1cb9619a863184460a74e472af3f06934b6
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 3b6b01053a043477521d7eb1a41bb9f6f51fc0e4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058565"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360573"
 ---
 # <a name="payroll-integration-api-introduction"></a>Algalapių integravimo API įžanga
 
@@ -26,7 +26,7 @@ ms.locfileid: "6058565"
 
 Šiame dokumente aprašomas „Dynamics 365 Human Resources” algalapio integravimo API. API įgalina supaprastintą visapusišką integravimą tarp Personalo valdymo ir algalapio sistemų partnerių. Integravimo patirtis prasideda Personalo valdymo srityje su darbuotojo profilio, atlyginimo, atskaitymo ir įnašo informacija. Kai pasamdote darbuotoją ir įvedate reikiamą profilio bei mokėjimo informaciją į Personalo valdymo sritį, algalapio sistema naudoja šią informaciją algalapio apdorojimui. Bet kokie darbuotojo ar mokėjimo informacijos atnaujinimai taip pat yra naudojami vėlesniuose mokėjimo vykdymuose.
 
-![Algalapių integravimo srautas](media/hr-admin-integration-payroll-api-introduction-flow.png)
+[![Algalapių integravimo srautas.](media/hr-admin-integration-payroll-api-introduction-flow.png)](media/hr-admin-integration-payroll-api-introduction-flow-2.png#lightbox)
 
 Dėl integravimo įgalinimo, Personalo valdyme yra šie komponentai:
 
@@ -60,7 +60,7 @@ Dėl informacijos apie virtualių lentelių kūrimą API, žr. [Konfigūruoti �
 
 Tolesnėje diagramoje rodomi santykiai su API. Keli tipai turi užsienio raktus su kitais, iš anksto esantys objektai žmogiškuosiuose ištekliuose čia nerodomi. Šiame dokumente pateikta informacija apie objektus, kurie yra būdingi algalapio integravimo scenarijams. Tačiau yra daugelis kitų Personalo valdymui skirto „Dataverse“ žiniatinklio API objektų, kurie taip pat gali būti svarbūs jūsų integravimui. Kai kurie iš šių objektų yra nurodyti išorinių raktų ryšiuose ar naršymo ypatybėse.
 
-![Algalapio integravimo API duomenų modelis](media/hr-admin-payroll-api-data-model.png)
+[![Algalapio integravimo API duomenų modelis.](media/hr-admin-payroll-api-data-model.png)](media/hr-admin-payroll-api-data-model.png#lightbox)
 
 ## <a name="payroll-employee-and-related-entities"></a>Algalapio darbuotojas ir susiję objektai
 
@@ -68,7 +68,8 @@ Objektai:
 
 - [Algalapio darbuotojas](hr-admin-integration-payroll-api-payroll-employee.md)
 - [Algalapio darbuotojo adresas](hr-admin-integration-payroll-api-payroll-worker-address.md)
-- [Algalapio pastoviosios atlyginimo dalies planas](hr-admin-integration-ats-api-recruiting-request-education.md)
+- [Algalapio pastoviosios atlyginimo dalies planas](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md)
+- [Algalapio kintamosios atlyginimo dalies planas](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md)
 - [Algalapių padėties užduotis](hr-admin-integration-payroll-api-payroll-position-job.md)
 - [Algalapių padėtis](hr-admin-integration-payroll-api-payroll-position.md)
 

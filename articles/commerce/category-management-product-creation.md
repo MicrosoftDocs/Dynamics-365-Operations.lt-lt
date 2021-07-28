@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 678561856fbb5514ff954363a767091edac6dee2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 89237c830109e8cb304b2547230484f15b90d875
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794378"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351302"
 ---
 # <a name="manage-product-categories-and-products"></a>Produktų kategorijų ir produktų valdymas
 
@@ -35,17 +35,17 @@ Atkreipkite dėmesį į patobulintą rodomo puslapio **Prekybos produktų hierar
 
 Patobulintoje produktų kategorijų struktūroje produktų ypatybės logiškai atskiriamos pagal jų taikomumą grupėje, kad būtų atspindėta išsamios išleisto produkto informacijos formos struktūra.
 
-![Laukai, sugrupuoti pagal taikomumo ypatybes](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
+![Laukai, sugrupuoti pagal taikomumo ypatybes.](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
 
 Galite valdyti visų juridinių subjektų arba konkretaus juridinio subjekto ypatybes, taikomas konkrečiam juridiniam subjektui.
 
 Norėdami valdyti ypatybes visuose juridiniuose subjektuose, pasirinkite **Peržiūrėti visus juridinius subjektus** (arba **Redaguoti visus juridinius subjektus**).
 
-![Peržiūrėti / redaguoti visus juridinius subjektus](media/ToggleBackToEditForSpecificLegalEntity.PNG)
+![Peržiūrėti / redaguoti visus juridinius subjektus.](media/ToggleBackToEditForSpecificLegalEntity.PNG)
 
 Norėdami valdyti konkretaus juridinio subjekto ypatybes, pasirinkite **Peržiūrėti konkretų juridinį subjektą** (arba **Redaguoti konkretų juridinį subjektą**).
 
-![Peržiūrėti / redaguoti konkretų juridinį subjektą](media/ToggleToEditForAllLegalEntities.PNG)
+![Peržiūrėti / redaguoti konkretų juridinį subjektą.](media/ToggleToEditForAllLegalEntities.PNG)
 
 Be to, patobulintoje produktų kategorijų struktūroje reklamavimo parduotuvėje vadovas dabar taip pat gali apibrėžti numatytąsias papildomo produktų ypatybių rinkinio reikšmes atskiros kategorijos lygiu. Tada, sukūrus produktų, šias numatytąsias produkto ypatybių reikšmes produktai paveldi pagal savo susiejimą su atskiros produktų hierarchijos kategorijos savybėmis. Šias paveldėtas kiekvieno produkto ypatybes taip pat galima modifikuoti, kad būtų įvykdyti atskiri verslo reikalavimai.
 
@@ -53,7 +53,7 @@ Be to, patobulintoje produktų kategorijų struktūroje reklamavimo parduotuvėj
 
 Šią naują patobulintą produktų ypatybių struktūrą galite naudoti pasirinkdami atnaujintų produktų ypatybes, kurias reikia perkelti į susietus produktus. Puslapio **Prekybos produktų hierarchija** veiksmų srityje pasirinkite **Kategorija**, tada pasirinkite **Naujinti produktus**, kad atidarytumėte dialogo langą **Produktų naujinimas**.
 
-![Produktų naujinimo dialogo langas](media/NewUpdateProductsEnhancedView.PNG)
+![Produktų naujinimo dialogo langas.](media/NewUpdateProductsEnhancedView.PNG)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

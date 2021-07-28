@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bd3bea647698f76efa5831d0b8b34d3cb0ad479a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 344f015b5d2de45e3eca1eb8c0f3b1676da945d2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825547"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354161"
 ---
 # <a name="dispatch-work-order"></a>Darbo užsakymo išsiuntimas
 
@@ -52,7 +52,7 @@ Naudodami funkciją **Išsiųsti** galite suplanuoti vieną darbo užsakymą arb
 
 Žemiau pateiktame paveikslėlyje rodomas išsiuntimo žymėjimų pavyzdys dialogo lange **Suplanuoti darbo užsakymą**.
 
-![1 pav.](media/04-work-order-scheduling.png)
+![1 iliustracija.](media/04-work-order-scheduling.png)
 
 [!NOTE]
 Jei norite panaikinti darbo užsakymo grafiką, pasirinkite darbo užsakymą **Visi darbo užsakymai**, o tada spustelėkite **Panaikinti grafiką** skirtuke **Bendra**. Jei ištrinate grafiką, nepamirškite atnaujinti darbo užsakymo ciklo būsenos rankiniu būdu.

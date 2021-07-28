@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: a1b3b6540a03dc85d5dcd813e8c41ac49ab36728
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 82b301b4b8ba61375a53a8fe6220628500f6cf3d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822400"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359322"
 ---
 # <a name="customer-payment-insights-preview"></a>Kliento mokėjimo įžvalgos (peržiūra)
 
@@ -47,11 +49,11 @@ Kiekvienai atvirai sąskaitai faktūrai kliento mokėjimo įžvalgos (peržiūra
 
 Kliento mokėjimo įžvalgos (peržiūra) taip pat pateikia bendrą kaupiamąjį numatomo mokėjimo rodinį, kad padėtų organizacijoms suprasti visą mokėjimo sumą, kurią jie gali tikėtis gauti iš kliento vienu iš trijų laikotarpiu – laiku, pavėluotai, labai pavėluotai.
 
-[![Kaupiamasis mokėjimo prognozių rodinys](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![Kaupiamasis mokėjimo prognozių rodinys.](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 Be to, kiekviena sąskaita faktūra yra priskirta tikimybei, kad bus apmokėta laiku. Jei apmokėjimo laiku tikimybė yra mažesnė nei 50 %, sąskaitos faktūros pažymimos raudonu apskritimu, kuris nurodo, kad šias sąskaitas faktūras gali reikėti išieškoti. 
 
-[![Apmokėjimo tikimybių sąrašas](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![Apmokėjimo tikimybių sąrašas.](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 Kliento apmokėjimo įžvalgos (peržiūra) taip pat pateikia kontekstinę informaciją, siekiant paaiškinti prognozavimą, pavyzdžiui, svarbiausius faktorius, kurie turi įtakos prognozėms, dabartinę verslo padėtį su klientu ir informaciją apie istorinį kliento apmokėjimą elgesį. Daugelyje įmonių išieškojimo procesas buvo reaktyvi veikla; išieškojimas procesas neprasideda iki sąskaitų faktūrų apmokėjimo termino. 
 

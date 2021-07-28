@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4238d1aa277bf2f1df30825ef20dbf3095d13ebc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f6e791ffd15128d2076340515a08b5ea6be70dae
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800572"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346013"
 ---
 # <a name="set-up-organization-hierarchies"></a>Organizacijų hierarchijų nustatymas
 
@@ -54,7 +54,7 @@ Norėdami sukurti organizacijos hierarchiją, atlikite toliau nurodytus veiksmus
 
 Toliau pateiktame paveiksle rodomas organizacijos hierarchijos, sukurtos fiktyviam „Adventure Works“ parduotuvių tinklui, pavyzdys.
 
-![Organizacijos hierarchijos pavyzdys](media/organizational-hierarchies.png)
+![Organizacijos hierarchijos pavyzdys.](media/organizational-hierarchies.png)
 
 ### <a name="add-organizations-to-a-hierarchy"></a>Organizacijų įtraukimas į hierarchiją
 
@@ -67,7 +67,7 @@ Norėdami įtraukti organizacijas į hierarchiją, atlikite toliau nurodytus vei
 
 Toliau pateiktame paveiksle rodomas juridinis subjektas, įtrauktas į hierarchijos šaknį su keturiais išlaidų centrais, skirtais kanalams „Prekybos centras“, „Parduotuvė“, „Internetinė parduotuvė“ ir „Skambučių centras“. Po to į kiekvieną galima įtraukti įvairius mažmeninės prekybos, skambučių centro ir internetinės parduotuvės kanalus.
 
-![Hierarchijos konstruktoriaus pavyzdys](media/hierarchy-designer.png)
+![Hierarchijos konstruktoriaus pavyzdys.](media/hierarchy-designer.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

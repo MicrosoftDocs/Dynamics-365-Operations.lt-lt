@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7decdb1d759284c616ecf928c10f99098627472d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: e9c9143bdbab450b1793b15937d123607361add6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893583"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358674"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Nuo veiksmo priklausomų ER paskirties vietų konfigūravimas
 
@@ -69,11 +69,11 @@ Pavyzdžiui, galite naudoti **Laisvos formos sąskaitos faktūros („Excel)”*
 
 Tolesnė iliustracija rodo, kaip galite pasiekti šias konfigūravimo ER paskirties vietas kaip atskirų paskirties vietų įrašų rinkinį, kai kiekvienas įrašas konfigūruojamas kiekvienam vartotojo veiksmui:
 
-![Elektroninių ataskaitų paskirties vietų puslapis, kuriame yra nuo veiksmo priklausomų ER formato paskirties vietų parametrų kai kiekvienas paskirties vietos įrašas konfigūruojamas atskiram vartotojo veiksmui](./media/er-destination-action-dependent-01.png)
+![Elektroninių ataskaitų paskirties vietų puslapis, kuriame yra nuo veiksmo priklausomų ER formato paskirties vietų parametrų kai kiekvienas paskirties vietos įrašas konfigūruojamas atskiram vartotojo veiksmui.](./media/er-destination-action-dependent-01.png)
 
 Tolesnė iliustracija rodo, kaip galite pasiekti tas pačias alternatyvias konfigūravimo ER paskirties vietas kaip atskirų paskirties vietų įrašų rinkinį, kai kiekvienas įrašas konfigūruojamas kiekvienai paskirties vietai:
 
-![Elektroninių ataskaitų paskirties vietų puslapis, kuriame yra nuo veiksmo priklausomų ER formato paskirties vietų parametrų kai kiekvienas paskirties vietos įrašas konfigūruojamas atskirai paskirties vietai](./media/er-destination-action-dependent-01a.png)
+![Elektroninių ataskaitų paskirties vietų puslapis, kuriame yra nuo veiksmo priklausomų ER formato paskirties vietų parametrų kai kiekvienas paskirties vietos įrašas konfigūruojamas atskirai paskirties vietai.](./media/er-destination-action-dependent-01a.png)
 
 > [!NOTE]
 > Jei pateikiamas vykdomo ER formato veiksmo kodas, bet to veiksmo kodui nebuvo sukonfigūruotos jokios paskirties vietos, taikomas [numatytasis](electronic-reporting-destinations.md#default-behavior) paskirties vietos veikimo būdas.
@@ -84,7 +84,7 @@ Kai vykdomas ER formatas, jei vartotojo veiksmus sukonfigūravo vartotojai, turi
 
 Šioje iliustracijoje pateikiamas **Elektroninių ataskaitų formato paskirties vietų** dialogo langas, kuris pasirodo, kai laisvos formos sąskaita faktūra yra [užregistruota](../../../finance/accounts-receivable/create-free-text-invoice-new.md) ir vykdomas ER formatas **Laisvos formos sąskaita faktūra („Excel”)** šio dokumento generavimui, jei buvo **Spausdintuvo** veiksmas ir ER paskirties vietos buvo sukonfigūruoti šiam formatui, kaip parodyta anksčiau šioje temoje.
 
-![Dialogo langas, kuris suteikia parinktį keisti pradines vykdomo ER formato ER paskirties vietų konfigūracijas](./media/er-destination-action-dependent-02.gif)
+![Dialogo langas, kuris suteikia parinktį keisti pradines vykdomo ER formato ER paskirties vietų konfigūracijas.](./media/er-destination-action-dependent-02.gif)
 
 > [!NOTE]
 > Jei sukonfigūravote vykdomo ER formato paskirties vietas keliems komponentams, atskirai kiekvienam sukonfigūruotam ER formato elementui bus pasiūlyta parinktis.
@@ -103,7 +103,7 @@ Norėdami patikrinti pateiktą vartotojo veiksmo kodą, atlikite šiuos veiksmus
 6. Puslapyje **Konfigūracijos derinimų žurnalas** filtruokite ER vykdymo įrašus jūsų ER formato vykdymo įrašui rasti.
 7. Peržiūrėkite žurnalo įrašus, kuriuose turi būti įrašas su pateiktu vartotojo veiksmo kodu, jei buvo pateiktas bet koks ER formato vykdymo veiksmas.
 
-    ![Elektroninių ataskaitų vykdymo žurnalų puslapis, kuriame yra informacija apie vartotojo veiksmo kodą, pateiktą ER formato filtruotam vykdymui](./media/er-destination-action-dependent-03.png)
+    ![Elektroninių ataskaitų vykdymo žurnalų puslapis, kuriame yra informacija apie vartotojo veiksmo kodą, pateiktą ER formato filtruotam vykdymui.](./media/er-destination-action-dependent-03.png)
 
 ## <a name=""></a><a name="reports-list-wave1">Verslo dokumentų sąrašas (1 banga)</a>
 

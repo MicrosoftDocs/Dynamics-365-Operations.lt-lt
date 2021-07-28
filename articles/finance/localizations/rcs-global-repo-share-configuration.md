@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ace62319bbfa38bcf4be7157882dd0c8989e25bc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 530cb77ccbca1b6946b5a96cee4e6226ed3467e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838750"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361263"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>„Regulatory Configuration Service“ (RCS) bendrojoje saugykloje esančių elektroninių ataskaitų (ER) konfigūracijų bendrinimas su išorinėmis organizacijomis
 
@@ -47,7 +47,7 @@ Norėdami patikrinti, ar konfigūracija, kurią norite bendrinti, jau nusiųsta 
 
 1. Darbo srityje **Elektroninės ataskaitos** prie savo konfigūracijos teikėjo pasirinkite **Saugyklos**.
 
-    ![Konfigūracijos teikėjai](media/1_RCS_Repo_for_config_provider.JPG)
+    ![Konfigūracijos teikėjai.](media/1_RCS_Repo_for_config_provider.JPG)
 
 2. Pasirinkite **Bendroji saugykla** \> **Atidaryti**.
 3. Ieškoktie konfigūracijos, kurią norite bendrinti. Ieškai susiaurinti galite naudoti filtravimo lauką. Jei bendrojoje saugykloje negalite rasti konfigūracijos, atlikite veiksmus, pateiktus dalyje [Naujos elektroninės ataskaitos (ER) konfigūracijos versijos kūrimas ir nusiuntimas](rcs-global-repo-upload.md).
@@ -61,11 +61,11 @@ Sukūrus jūsų konfigūracijos teikėjo konfigūraciją, galite ją tiesiogiai 
 3. Pasirinkite konfigūraciją, kurią norite bendrinti.
 4. „FastTab“ konteineryje **Bendrinama su** pasirinkite **Organizacija**.
 
-    ![Bendrinama su „FastTab“](media/1_RCS_Repo_for_Share_with_org.JPG)
+    ![Bendrinama su „FastTab“.](media/1_RCS_Repo_for_Share_with_org.JPG)
 
 5. Dialogo lange įveskite išorinės organizacijos domeno pavadinimą ir pasirinkite **Gerai**.
 
-    ![Konfigūracijos versijos bendrinimo su išorine organizacija dialogo langas](media/1_RCS_Repo_for_Share_with_form.JPG)
+    ![Konfigūracijos versijos bendrinimo su išorine organizacija dialogo langas.](media/1_RCS_Repo_for_Share_with_form.JPG)
 
 Konfigūracija yra bendrinama su išorine organizacija ir šiai organizacijai pasiekiama bendrojoje saugykloje. Iš ten ji gali būti importuota į organizacijos RCS egzempliorių arba į „Finance and Operations“ programų egzempliorius.
 

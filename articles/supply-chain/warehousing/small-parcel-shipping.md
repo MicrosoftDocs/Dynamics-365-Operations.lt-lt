@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 3e72959d79e9b3b03e061a0f26750e3bd025219e
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d6b24446a5944eb82334dc5dc1f0b15656f83a12
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910214"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358031"
 ---
 # <a name="small-parcel-shipping"></a>Mažų siuntinių siuntimas
 
@@ -274,7 +274,7 @@ Norėdami supakuoti siuntą, atlikite toliau nurodytus veiksmus.
 
     Siuntimo žymė dabar turi būti išspausdinta ant anksčiau pasirinkto ZPL spausdintuvo. Ji turi atitikti šį pavyzdį.
 
-    ![Siuntimo žymės pavyzdys](media/sps-label-example.png "Siuntimo žymės pavyzdys")
+    ![Siuntimo žymės pavyzdys.](media/sps-label-example.png "Siuntimo žymės pavyzdys")
 
 1. Atkreipkite dėmesį, kad **Konteinerio deklaracijos ID** ir **Bendras krovinys** vertės pridėtos tokios, kokios gautos iš vežėjo.
 

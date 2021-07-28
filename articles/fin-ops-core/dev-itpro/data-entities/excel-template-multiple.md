@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 001795914c683a6182b885b79be7e225ad80e5cd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1fcf9f45eb7f3ef111d66c2c30ec529269b0685b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750569"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352917"
 ---
 # <a name="data-templates-with-multiple-worksheets"></a>Duomenų šablonai su keliais darbalapiais
 
@@ -32,13 +32,13 @@ Apžvelkime pavyzdį: turime vieną „Excel“ failą ir darbalapius pavadinima
 
 Jei įtrauksite antrą objektą **Sandėliai** neuždarę formos **Įtraukti failą**, darbalapių peržvalgoje galėsite pasirinkti darbalapį **Sandėliai** ir jums nereikės dar kartą nusiųsti failo. Naują failą nusiųsti reikėtų tik jei darbalapio **Sandėliai** duomenys buvo į kitame faile.
 
-![Keli darbalapiai](./media/AddFileMultipleWorkSheets.png)
+![Keli darbalapiai.](./media/AddFileMultipleWorkSheets.png)
 
 ## <a name="fix-worksheet-to-entity-mapping"></a>Darbalapio susiejimo su objektu nustatymas
 
 Darbalapio susiejimą su duomenų objektu importavimo užduotyje galima nustatyti naudojant tinklelį. Tinklelio stulpelyje **Darbalapis** rodomi susieto failo darbalapiai. Išplečiamajame meniu galite pasirinkti kitą darbalapį. Jei pasirinktas darbalapis jau susietas su objektu duomenų projekte, sistema paprašys patvirtinti pakeitimą. Rekomenduojame nustatyti visus susiejimus tinklelyje.
 
-![Darbalapio susiejimo naujinimas](./media/UpdateMappings.png)
+![Darbalapio susiejimo naujinimas.](./media/UpdateMappings.png)
 
 ## <a name="re-map-to-a-new-file"></a>Pakartotinis susiejimas su nauju failu
 

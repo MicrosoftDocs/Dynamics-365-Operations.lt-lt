@@ -15,17 +15,17 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: a3f5d44e008e4092557d75c8f5d830d5ae36a091
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 265a54fc67fba85b23b372af3403cded29545c4f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799057"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349357"
 ---
 # <a name="identify-a-hypothesis-and-determine-success-metrics-for-an-experiment"></a>Eksperimento hipotezės ir sėkmės metrikos nustatymas
 Pirmojo eksperimento ciklo etapo metu nustatoma eksperimento hipotezė ir metrika, sekama norint įvertinti sėkmę. Toliau pateiktoje diagramoje rodomi visi veiksmai, susiję su [eksperimento nustatymu ir vykdymu](experimentation-overview.md) „e-Commerce“ svetainėje „Dynamics 365 Commerce”. Papildomi veiksmai aprašomi kitose temose. 
 
-[ ![Vartotojo eksperimentavimo kelionė – nustatymas](./media/experimentation_identify.svg) ](./media/experimentation_identify.svg#lightbox)
+[ ![Vartotojo eksperimentavimo kelionė – nustatymas.](./media/experimentation_identify.svg) ](./media/experimentation_identify.svg#lightbox)
 
 Hipotezė yra teiginys, kuriame numatote eksperimento rezultatą. Daug veiksnių padeda apibrėžti hipotezę, pvz., tyrimai apie vartotojų elgseną ir jūsų surinkti svetainių duomenys. Kurdami hipotezę nurodysite prielaidą ar teoriją, kurią norite patvirtinti atlikdami eksperimentą. Jūsų eksperimento hipotezės pavyzdys gali būti „*mano pagrindiniame puslapyje esančių baltų marškinėlių nuotrauka vasaros mėnesiais padidins paspaudimų rodiklį labiau nei tamsaus megztinio nuotrauka, nes vasarą žmonės nori dėvėti ką nors lengvo ir šviesaus.*” Tokiu atveju sukurkite variacijas, apimančias baltų marškinėlių ir tamsaus megztinio atvejus, ir publikuokite abi tuo pačiu metu.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: d132ed979a84c2906298c05708cef1ee87f47078
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9fb5b851c71ac632a045cf09c725a088d13f21ad
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752919"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360263"
 ---
 # <a name="client-alert-notifications-by-email"></a>Kliento įspėjimų pranešimai el. paštu
 
@@ -36,7 +36,7 @@ Daugiau informacijos apie tai, kaip konfigūruoti el. paštą, žr. [El. laišk�
 
 Toliau pateiktame vaizde rodomas dialogo langas **Kurti įspėjimo taisyklę**, į kurį dabar įtraukta parinktis **Siųsti el. laišką**.
 
-[![Dialogo langas Kurti įspėjimo taisyklę, kuriame parinktis Siųsti el. laišką nustatyta į Taip](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
+[![Dialogo langas Kurti įspėjimo taisyklę, kuriame parinktis Siųsti el. laišką nustatyta į Taip.](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
 
 > [!NOTE]
 > Kai parinktis **Siųsti el. laišką** nustatyta į **Taip**, įspėjimo pranešimai bus toliau pristatomi iš veiksmų centro.
@@ -47,7 +47,7 @@ Paslauga siunčia el. pašto pranešimus naudodama iš anksto nustatytus el. lai
 
 Šiame vaizde rodoma įspėjimo pranešimų struktūra juos gavus el. paštu.
 
-[![Įrašų kūrimo, laukų pakeitimo ir šablonų naikinimo įspėjimo pranešimai, pagrįsti šablonu](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
+[![Įrašų kūrimo, laukų pakeitimo ir šablonų naikinimo įspėjimo pranešimai, pagrįsti šablonu.](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

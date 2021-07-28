@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: a194e14c76827650e6752f331081ebe0c2130a13
-ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
+ms.openlocfilehash: d932a0c10df72dbadcc65d7ef78eb8ad05645bd5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866161"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357523"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>„Regression Suite Automation Tool“ mokymas
 
@@ -67,11 +67,11 @@ RSAT leidžia naudoti tą patį užduoties įrašą su keliais testavimo atvejai
 
 Šią funkciją galima naudoti norint patikrinti, ar įvyko veiksmas. Pavyzdžiui, kai sukuriamas, įvertinamas ir pradedamas gamybos užsakymas, programa rodo pranešimą „Gamyba – pradžia“, kad praneštų, jog pradėtas gamybos užsakymas.
 
-![Pranešimas Gamyba – pradžia](./media/use_rsa_tool_05.png)
+![Pranešimas Gamyba – pradžia.](./media/use_rsa_tool_05.png)
 
 Šį pranešimą galite patikrinti naudodami RSAT – įveskite pranešimo tekstą atitinkamo įrašo „Excel“ parametro failo skirtuke **MessageValidation**.
 
-![Skirtukas Pranešimo tikrinimas](./media/use_rsa_tool_06.png)
+![Skirtukas Pranešimo tikrinimas.](./media/use_rsa_tool_06.png)
 
 Paleidus tikrinimo atvejį, pranešimas „Excel“ parametro faile palyginamas su rodomu pranešimu. Jei pranešimai nesutampa, tikrinimo atvejis nepavyks.
 
@@ -104,11 +104,11 @@ Kai vykdote testavimo atvejį, RSAT sugeneruoja veiksmų momentines kopijas (vai
 
 Tolesnėje iliustracijoje vaizduojamas šio scenarijaus srautas.
 
-![Tikrinimo scenarijaus srautas](./media/use_rsa_tool_14.png)
+![Tikrinimo scenarijaus srautas.](./media/use_rsa_tool_14.png)
 
 Tolesnėje iliustracijoje rodoma šio scenarijaus verslo procesų hierarchija LCS verslo procesų modeliavimo įrankyje.
 
-![Tikrinimo scenarijaus veiklos procesai](./media/use_rsa_tool_15.png)
+![Tikrinimo scenarijaus veiklos procesai.](./media/use_rsa_tool_15.png)
 
 ## <a name="strategy--key-learning"></a>Strategija – pagrindinis mokymasis
 

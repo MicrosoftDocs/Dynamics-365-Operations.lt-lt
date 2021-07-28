@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 42280c811e1f4ed5d33c66f5a8634417a61be905
-ms.sourcegitcommit: f9b145ef4a81cec81f420871b4130b05db4f4500
+ms.openlocfilehash: 79eb7d750869ef365ad117ecc024afc8db2edbf7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6301334"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348834"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Sandėlio procesų kokybės valdymas
 
@@ -43,7 +43,7 @@ Funkcija _Sandėlio procesų kokybės valdymas_ automatiškai sugeneruoja darbą
 
 Kai funkcija _Sandėlio procesų kokybės valdymas_ įjungta, ji pakeičia pagrindinių sandėlio valdymo ir kokybės valdymo objektų nustatymą. Tolesnėje iliustracijoje pateikiama objektų, įgalinančių sandėlio procesų kokybės užsakymus, apžvalga. Skliaustuose esantis tekstas nurodo siūlomus veiksmus, kai kokybės valdymas buvo taikytas prieš įjungiant funkciją _Sandėlio procesų kokybės valdymas_.
 
-![Kokybės valdymo objektai](media/quality-management-entity-diagram.png "Kokybės valdymo objektai")
+![Kokybės valdymo objektai.](media/quality-management-entity-diagram.png "Kokybės valdymo objektai")
 
 ## <a name="enablers-the-quality-item-sampling-and-quality-order-work-order-types"></a>Įgalinimo priemonės: tipai „Kokybės prekių pavyzdžių ėmimas“ ir „Kokybės užsakymo darbo užsakymas“
 

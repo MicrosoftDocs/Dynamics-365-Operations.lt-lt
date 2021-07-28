@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 4e2b3746e690623e347e0319ab1b55f2645a5e23
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5bf8ce93d2c804325305672d79b633210a790cf0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814685"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347667"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Sukurti gamybos aukšto vykdymo sąsają
 
@@ -32,7 +32,7 @@ Puslapyje **Konfigūruoti gamybos aukšto vykdymą** galite sukurti ir konfigūr
 
 Visi skirtukai padalyti į keturis skyrius, kaip parodyta tolesniame paveikslėlyje.
 
-![Skirtuko išdėstymas](media/pfe-tab-layout.png "Skirtuko išdėstymas")
+![Skirtuko išdėstymas.](media/pfe-tab-layout.png "Skirtuko išdėstymas")
 
 Tolesni elementai rodomi paveikslėlyje:
 
@@ -47,7 +47,7 @@ Norėdami sukurti ir konfigūruoti naują skirtuką, atlikite šiuos žingsnius:
 
 1. Rinkitės **Sukurti skirtukus** veiksmų juostoje, tam, kad atvertumėte **Kūrimo skirtukų** puslapį.
 
-    ![Kūrimo skirtukų puslapis](media/pfe-design-tabs.png "Kūrimo skirtukų puslapis")
+    ![Kūrimo skirtukų puslapis.](media/pfe-design-tabs.png "Kūrimo skirtukų puslapis")
 
 1. Veiksmų srityje pasirinkite **Nauja**.
 
@@ -67,7 +67,7 @@ Sukūrę visus būtinus skirtukus galite susieti juos su konfigūravimu.
 
 1. Eikite į **Gamybos kontrolė \> Sąranka \> Gamybos vykdymas \> Gamybos cecho vykdymo konfigūravimas**.
 
-    ![Konfigūruoti gamybos vietos vykdymą](media/pfe-config-prod-floor-execution.png "Konfigūruoti gamybos vietos vykdymą")
+    ![Konfigūruoti gamybos vietos vykdymą.](media/pfe-config-prod-floor-execution.png "Konfigūruoti gamybos vietos vykdymą")
 
 1. „FastTab“ **Skirtuko pasirinkimas** rinkitės **Įtraukti**.
 

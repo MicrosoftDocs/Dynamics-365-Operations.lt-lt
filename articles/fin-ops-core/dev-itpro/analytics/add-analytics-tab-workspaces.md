@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8e82c9a5ff4b6d7db1a808e5a94206628cdf0930
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 14c8c36b90caa3a9378a739932d734b94985b46c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754603"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354450"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“
 
@@ -54,11 +54,11 @@ Atlikite šiuos veiksmus, norėdami įtraukti .pbix failą kaip „Visual Studio
 3. Dialogo lange **Naujo elemento įtraukimas**, esančio parinktyje **Operacijų artefaktai**, pasirinkite šabloną **Išteklius**.
 4. Įveskite pavadinimą, kuris bus naudojamas nurodant ataskaitą X++ metaduomenyse, tada spustelėkite **Įtraukti**.
 
-    ![Naujos prekės dialogo lango įtraukimas](media/analytical-workspace-add.png)
+    ![Naujos prekės dialogo lango įtraukimas.](media/analytical-workspace-add.png)
 
 5. Raskite .pbix failą, kuriame yra analizės ataskaitos apibrėžimas, tada spustelėkite **Atidaryti**.
 
-    ![Pasirinkite ištekliaus failo dialogo langą](media/analytical-workspace-select-resource.png)
+    ![Pasirinkite ištekliaus failo dialogo langą.](media/analytical-workspace-select-resource.png)
 
 Įtraukę .pbix failą kaip „Dynamics 365“ išteklių, ataskaitas galite įdėti į darbo sritis ir, naudodami meniu elementus, įtraukti tiesioginių saitų.
 
@@ -67,7 +67,7 @@ Atlikite šiuos veiksmus, norėdami įtraukti .pbix failą kaip „Visual Studio
 
 Toliau pavaizduota, kaip forma **FMClerkWorkspace** atrodo „Microsoft Visual Studio“ dizaineryje.
 
-![Forma FMClerkWorkspace prieš pakeitimus](media/analytical-workspace-definition-before.png)
+![Forma „FMClerkWorkspace” prieš pakeitimus.](media/analytical-workspace-definition-before.png)
 
 Atlikite šiuos veiksmus, norėdami išplėsti darbo srities **Rezervacijų valdymas** formos apibrėžimą.
 
@@ -92,7 +92,7 @@ Atlikite šiuos veiksmus, norėdami išplėsti darbo srities **Rezervacijų vald
 
 Toliau pavaizduota, kaip atrodo dizainas pritaikius šiuos pakeitimus.
 
-![FMClerkWorkspace po pakeitimų](media/analytical-workspace-definition-after.png)
+![„FMClerkWorkspace” po pakeitimų.](media/analytical-workspace-definition-after.png)
 
 Pridėję formų valdiklių, kurie bus naudojami darbo srities ataskaitai įdėti, turite apibrėžti, kokio dydžio turi būti pagrindinis valdiklis, kad tilptų į maketą. Pagal numatytuosius nustatymus puslapiai **Filtrų sritis** ir **Skirtukas** bus rodomi ataskaitoje. Tačiau šių valdiklių matomumą galite keisti atitinkamai pagal tikslinį ataskaitos vartotoją.
 
@@ -142,7 +142,7 @@ Atlikite šiuos veiksmus, norėdami įtraukti verslo logiką, inicijuojančią �
 
 Užbaigėte verslo logikos įtraukimo užduotį, skirtą įdėtam ataskaitų peržiūros programos valdikliui inicijuoti. Toliau pavaizduota, kaip atrodo darbo sritis pritaikius šiuos pakeitimus.
 
-![Į darbo sritį įdėta ataskaita](media/analytical-workspace-final.png)
+![Į darbo sritį įdėta ataskaita.](media/analytical-workspace-final.png)
 
 > [!NOTE]
 > Esamą operacijų rodinį galite pasiekti naudodami virš puslapio pavadinimo esančius darbo srities skirtukus.

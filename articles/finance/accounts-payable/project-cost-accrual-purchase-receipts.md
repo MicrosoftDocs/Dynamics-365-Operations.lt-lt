@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 615e22234323e2235fba002c50f9ab9c230c021e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 888ce67f1feba9876f71d2988268b47c9a4ca1dd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827895"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358886"
 ---
 # <a name="project-cost-accrual-on-purchase-receipts"></a>Projekto išlaidų kaupimas pirkimo kvituose
 
@@ -37,20 +37,20 @@ Tai pavaizduota toliau pateiktame scenarijaus pavyzdyje.
 Pateikiant ataskaitas sukauptos išlaidos turi būti įrašomos finansiniu lygmeniu ir projekto lygmeniu. Gali būti sekamas prekės ir įsigijimo kategorijų produkto kvito finansinis naujinimas. 
 
 Jeigu sekate prekių naujinimą, puslapyje **Mokėtinos sumos parametrai** pasirinkite parinktį **Registruoti produkto kvitus didžiojoje knygoje**.
-[![Mokėtinų sumų parametrų puslapis](./media/accruals1-1024x409.png)](./media/accruals1.png) 
+[![Mokėtinų sumų parametrų puslapis.](./media/accruals1-1024x409.png)](./media/accruals1.png) 
 
 Jeigu sekate įsigijimo kategorijų naujinimą, puslapyje **Kategorijos strategijos taisyklė** pasirinkite strategijas **Pirkimas**, o po to pasirinkite kiekvienos įsigijimo kategorijos parinktį **Kaupti pirkimo gavimo išlaidas**.
-[![Kategorijos strategijos taisyklės puslapis](./media/accruals2-1024x569.png)](./media/accruals2.png) 
+[![Kategorijos strategijos taisyklės puslapis.](./media/accruals2-1024x569.png)](./media/accruals2.png) 
 
 Sąskaitos **Pirkimo išlaidos, kurioms neišrašyta SF** ir **Pirkimo kaupimas**, esančios dalyje **Registravimo nustatymas**, bus naudojamos registruojant su produkto kvitu susietus kvitus.
 
 Naudodami tą patį scenarijų pažiūrėkime, kokią įtaką produkto kvito užregistravimas turės didžiajai knygai ir projekto informacijai. 
 
 **1 veiksmas:** Sukurti ir patvirtinti naują projekto pirkimo užsakymą, kad jame būtų nurodyta 1500 dol. vertės kompiuterio pirkimo suma ir 150 dol. vertės diegimo paslaugos.
-[![Naujo pirkimo užsakymo kūrimas](./media/accruals4-1024x497.png)](./media/accruals4.png) 
+[![Naujo pirkimo užsakymo kūrimas.](./media/accruals4-1024x497.png)](./media/accruals4.png) 
 
 Patvirtinus pirkimo užsakymą sukuriamos projekto fiksuotos savikainos operacijos. 
-[![Operacijos sukurtos](./media/accruals5-1024x219.png)](./media/accruals5.png) 
+[![Operacijos sukurtos.](./media/accruals5-1024x219.png)](./media/accruals5.png) 
 
 > [!NOTE]
 > Fiksuotos savikainos operacijų lauke nustatomas lauko **Operacijos kilmė** parametras **Pirkimo užsakymas**. Sukūrus ir patvirtinus pirkimo užsakymą projekto operacijos nesukuriamos. 
@@ -58,23 +58,23 @@ Patvirtinus pirkimo užsakymą sukuriamos projekto fiksuotos savikainos operacij
 **2 veiksmas:** Tiekiamos prekės, teikiamos paslaugos ir užregistruojamas produkto kvitas. 
 
 Registruojant produkto kvitą sukuriamas ir užregistruojamas didžiosios knygos kvitas. Kvite nurodomas pirkimo išlaidų, sąskaitos, kuriai neišrašyta SF, ir kredito pirkimo kaupimo sąskaitos debetas. 
-[![Kvitų operacijos](./media/accruals6-1024x214.png)](./media/accruals6.png)
+[![Kvito operacijos.](./media/accruals6-1024x214.png)](./media/accruals6.png)
 
 > [!NOTE]
 > Registruojant produkto kvitą bus naudojamas įsigijimo kategorijoms ir produktams skirtas registravimo nustatymas, o ne projekto kategorijoms skirtas registravimo nustatymas. Norint, kad būtų rodomas teisingas pirkimo kaupimų finansinis poveikis, šį nustatymą reikia sulygiuoti. 
 
 Puslapyje **Įsigijimo kategorija** įsigijimo kategorijas galima susieti su projekto kategorijomis.
-[![Įsigijimo kategorijos puslapis](./media/accruals7-1024x390.png)](./media/accruals7.png)
+[![Įsigijimo kategorijos puslapis.](./media/accruals7-1024x390.png)](./media/accruals7.png)
 
 **3 veiksmas:** Kurti tiekėjo SF juodraštį. 
 
 Registruojant produkto kvitą projekto informacija nepakeičiama. Kaip problemos apėjimo būdą tiekėjo sąskaitos faktūros juodraštį galite sukurti iš karto užregistravę pirkimo kvitą. Eikite į puslapį **Pirkimo užsakymas** &gt; **SF skirtukas** &gt; **Kurti** &gt; **Sąskaita faktūra**. Taip sukuriamas laukiančios SF dokumentas, kurį naudojant atnaujinama projekto informacija. 
 
 Sukūrus tiekėjo SF juodraštį sukuriamos laukiančios projekto operacijos. 
-[![Laukiančios projekto operacijos](./media/accruals8-1024x225.png)](./media/accruals8.png) 
+[![Laukiančios projekto operacijos.](./media/accruals8-1024x225.png)](./media/accruals8.png) 
 
 Puslapyje **Fiksuota savikaina** atliekant 1 veiksmą sukurti įrašai bus uždaryti ir bus sukurti nauji įrašai, kuriuose nurodomi iš laukiančios tiekėjo sąskaitos faktūros gauti išlaidų įsipareigojimai. Bus nustatyta fiksuotos savikainos lauko **Operacijos kilmė** parinktis **Tiekėjo SF**.
-[![Fiksuotos savikainos puslapis](./media/accruals9-1024x200.png)](./media/accruals9.png)
+[![Fiksuotos savikainos puslapis.](./media/accruals9-1024x200.png)](./media/accruals9.png)
 
 Kol nebus gauta faktinė tiekėjo SF, tiekėjo SF ir toliau bus laukiančios būsenos.
 

@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: f3fcfae9f4ab458b4f14f18859f22fc25bf98623
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: e7964181a739a8138011abca77d0321d819e0a98
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027629"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354498"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>Užduočių sąrašų kūrimas ir užduočių įtraukimas
 
@@ -70,7 +70,7 @@ Norėdami įtraukti užduočių saitų kurdami užduotį, atlikite tolesnius vei
 
 Toliau pateiktame paveikslėlyje parodytas užduočių saitų žymėjimas dialogo lange **Redaguoti užduotį**.
 
-![Užduočių saitų žymėjimas dialogo lange „Redaguoti užduotį“](media/HQ-POS-Tasks-Linking.png)
+![Užduočių saitų žymėjimas dialogo lange „Redaguoti užduotį“.](media/HQ-POS-Tasks-Linking.png)
 
 ### <a name="configure-a-pos-operation-so-that-it-can-be-linked-to-a-task"></a>EKA operacijos konfigūravimas, kad ją būtų galima susieti su užduotimi
 

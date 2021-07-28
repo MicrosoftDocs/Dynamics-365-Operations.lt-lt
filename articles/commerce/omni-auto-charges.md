@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0eb1f112430005945b4f82b99ef9cc718c56de65
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 0ff85acfbe16fc28afb2fbcee0baf4b12b1f3e9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022712"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353065"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Integruoto kanalo išplėstinės automatinės išlaidos
 
@@ -43,7 +43,7 @@ Naudojant išplėstinių automatinių išlaidų funkciją EKA vartotojai gali si
 
 Puslapyje **„Retail and Commerce“ \> Būstinės sąranka \> Parametrai \> „Commerce“ parametrai**, eikite į skirtuką **Kliento užsakymai**. „FastTab“ **Išlaidos** nustatykite **Naudoti išplėstines automatines išlaidas** į **Taip**.
 
-![Išplėstinių automatinių išlaidų parametras](media/advancedchargesparameter.png)
+![Išplėstinių automatinių išlaidų parametras.](media/advancedchargesparameter.png)
 
 Įjungus išplėstines automatines išlaidas, vartotojai neberaginami neautomatiškai įvesti siuntimo išlaidas EKA terminale kuriant tipo „siųsti viską“ arba „siųsti pasirinktus“ kliento užsakyme. EKA užsakymo išlaidos sistematiškai skaičiuojamos ir įtraukiamos į EKA operaciją (jei aptinkama atitinkama automatinių išlaidų lentelė, kuri atitinka kuriamos užsakymo kriterijus). Vartotojai taip pat gali įtraukti arba redaguoti antraštės arba eilutės lygio išlaidas neautomatiškai naudodami naujai sukurtas EKA operacijas, kurias galima įtraukti į EKA ekrano maketus.
 
@@ -86,7 +86,7 @@ Sukonfigūruokite dvejas skirtingas antraštės lygio automatines išlaidas. Suk
 
 Pristatymo žeme išlaidų puslapio **Automatinės išlaidos** eilutės dalyje nurodykite išlaidas, kurios bus taikomos užsakymams, vertiems 0,01–100,00 USD, kaip 10,00 USD. Sukurkite kitą išlaidų eilutę, kad nurodytumėte, jog užsakymams, vertiems 100,01 USD ir daugiau, išlaidos nebus priskiriamos.
 
-![Dviejų automatinių išlaidų lentelių pavyzdys](media/headerchargesexample.png)
+![Dviejų automatinių išlaidų lentelių pavyzdys.](media/headerchargesexample.png)
 
 Pristatymo oru išlaidų automatinių išlaidų formos eilutės dalyje nurodykite 20,00 USD išlaidas, kurios bus taikomos visiems užsakymams (vertiems 0,01–9 999 999,00 USD).
 
@@ -116,7 +116,7 @@ Pasirinkite **Gautinos sumos \> Išlaidų sąranka \> Automatinės išlaidos**.
 
 Nustatykite išplečiamojo meniu **Lygis** parinktį **Eilutė** ir sukurkite naują automatinių išlaidų įrašą, skirtą visiems klientams ir konkrečiam produktui arba produktų grupei, kurioje nustatymo mokesčiai bus taikomi.
 
-![Vienos eilutės lygio automatinių išlaidų lentelės pavyzdys](media/linechargesexample.png)
+![Vienos eilutės lygio automatinių išlaidų lentelės pavyzdys.](media/linechargesexample.png)
 
 Nusiųskite išlaidas į „Commerce Scale Unit“ / „Channel DB“, kad EKA galėtų juos naudoti, vykdydamas užduotį **1040 paskirstymo grafikas**.
 
@@ -136,7 +136,7 @@ Mažmenininkas taiko išimtį įprastam procesui ir siūlo specialias produktų 
 
 Įsitikinkite, kad mokesčių kodas, kuris bus naudojamas šiame scenarijuje, yra tinkamai sukonfigūruotas: pasirinkite **Gautinos sumos \> Išlaidų sąranka \> Išlaidos** ir nurodykite atitinkamą scenarijaus išlaidų kodą.
 
-![Išlaidų pavyzdys](media/chargesexample.png)
+![Išlaidų pavyzdys.](media/chargesexample.png)
 
 Jei mokestis turi būti laikomas su „siuntimu“ susijusiomis išlaidomis dėl su siuntimu susijusių nuolaidų ar akcijų, išlaidų kode nustatykite parinkties **Siuntimo mokestis** reikšmę **Taip**. Jei šis mokestis taip pat gali būti sistematiškai grąžinamas grąžinimo operacijos apdorojimo EKA programoje metu, nustatykite parinkties **Gražinamas** reikšmę **Taip**. Vėliavėlė **Grąžinamas** taikoma tik kai parametras **Naudoti išplėstines automatines išlaidas** nustatytas į parinktį **Taip**.
 

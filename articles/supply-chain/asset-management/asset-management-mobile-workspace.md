@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 98f935a11ad8a5272cde0270f9ae0471411b914a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fb4e2843ecb30b75d2a8d97ceff5b5825e0bd704
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837950"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360130"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>Turto valdymo mobiliosios darbo srities naudojimas
 
@@ -60,7 +60,7 @@ Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Ope
 
 1. Prisijungus rodomos galimos jūsų įmonės darbo sritys. Atkreipkite dėmesį, kad sistemos administratoriui paskelbus naują darbo sritį vėliau turėsite atnaujinti mobiliųjų darbo sričių sąrašą.
 
-    ![Darbo srities pasirinkimas](media/am-mobile-01.png "Darbo srities pasirinkimas")
+    ![Darbo srities pasirinkimas.](media/am-mobile-01.png "Darbo srities pasirinkimas")
 
 ## <a name="view-assigned-work-order-jobs-in-calendar-view"></a>Peržiūrėti priskirtas darbo užsakymo užduotis kalendoriaus rodinyje
 
@@ -72,7 +72,7 @@ Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Ope
 
 1. Norėdami peržiūrėti užduoties informaciją, – turto ir funkcinės vietos informaciją bei kitus naršymo saitus, kuriuose galima peržiūrėti **priedus**, **kontrolinius sąrašus**, **įrankius**, **turto skaitiklius**, **pastabas**, **žurnalus**, – pasirinkite darbo užsakymo užduotį sąraše.
 
-    ![Peržiūrėti priskirtas darbo užsakymo užduotis kalendoriaus rodinyje](media/am-mobile-02.png "Peržiūrėti priskirtas darbo užsakymo užduotis kalendoriaus rodinyje")
+    ![Peržiūrėti priskirtas darbo užsakymo užduotis kalendoriaus rodinyje.](media/am-mobile-02.png "Peržiūrėti priskirtas darbo užsakymo užduotis kalendoriaus rodinyje")
 
 ## <a name="create-a-work-order-job"></a>Darbo užsakymo užduoties kūrimas
 
@@ -90,7 +90,7 @@ Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Ope
 
 1. Pasirinkite **Atlikta**.
 
-    ![Ekranas Įtraukti eilutę](media/am-mobile-03.png "Ekranas Įtraukti eilutę")
+    ![Ekranas Įtraukti eilutę.](media/am-mobile-03.png "Ekranas Įtraukti eilutę")
 
 
 ## <a name="add-attachment-to-a-work-order-job"></a>Priedo įtraukimas į darbo užsakymo užduotį
@@ -112,7 +112,7 @@ Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Ope
 
 1. Pasirinkite **Atlikta**.
 
-    ![Peržiūrėti ir įtraukti priedus darbo užsakymo užduočiai](media/am-mobile-04.png "Peržiūrėti ir įtraukti priedus darbo užsakymo užduočiai")
+    ![Peržiūrėti ir įtraukti priedus darbo užsakymo užduočiai.](media/am-mobile-04.png "Peržiūrėti ir įtraukti priedus darbo užsakymo užduočiai")
 
 ## <a name="view-maintenance-checklist-on-a-work-order-job"></a>Darbo užsakymo užduoties prižiūrimo turto kontrolinio sąrašo peržiūra
 
@@ -129,7 +129,7 @@ Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Ope
 
 1. Norėdami vėl atidaryti ankstesnį puslapį, pasirinkite mygtuką Atgal(**<**).
 
-    ![Prižiūrimo turto kontrolinis sąrašo ir eilučių informacija](media/am-mobile-05.png "Prižiūrimo turto kontrolinis sąrašo ir eilučių informacija")
+    ![Prižiūrimo turto kontrolinis sąrašo ir eilučių informacija.](media/am-mobile-05.png "Prižiūrimo turto kontrolinis sąrašo ir eilučių informacija")
 
 ## <a name="view-and-update-asset-counters-on-a-work-order-job"></a>Darbo užsakymo užduoties turto skaitiklių peržiūra ir atnaujinimas
 
@@ -146,7 +146,7 @@ Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Ope
 
 1. Įveskite naują skaitiklio vertę ir pasirinkite **Atlikta**.
 
-    ![Turto skaitiklių peržiūra ir naujinimas](media/am-mobile-06.png "Turto skaitiklių peržiūra ir naujinimas")
+    ![Turto skaitiklių peržiūra ir naujinimas.](media/am-mobile-06.png "Turto skaitiklių peržiūra ir naujinimas")
 
 ## <a name="register-consumption-on-a-work-order-job"></a>Suvartojimo atliekant darbo užsakymo užduotį registravimas
 
@@ -178,7 +178,7 @@ Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Ope
     1. Įveskite išlaidų registracijų **savikainą**.
     1. Pasirinkite **Atlikta**.
 
-    ![Darbo užsakymo žurnalo atnaujinimas](media/am-mobile-07.png "Darbo užsakymo žurnalo atnaujinimas")
+    ![Darbo užsakymo žurnalo atnaujinimas.](media/am-mobile-07.png "Darbo užsakymo žurnalo atnaujinimas")
 
 ## <a name="update-lifecycle-state-on-a-work-order"></a>Darbo užsakymo ciklo būsenos naujinimas
 
@@ -194,7 +194,7 @@ Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Ope
 
 1. Pasirinkite **Atlikta**.
 
-    ![Darbo užsakymo ciklo būsenos naujinimas](media/am-mobile-08.png "Darbo užsakymo ciklo būsenos naujinimas")
+    ![Darbo užsakymo ciklo būsenos naujinimas.](media/am-mobile-08.png "Darbo užsakymo ciklo būsenos naujinimas")
 
 ## <a name="create-a-maintenance-request"></a>Priežiūros užklausos kūrimas
 
@@ -216,7 +216,7 @@ Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Ope
 
 1. Pasirinkite **Atlikta**.
 
-    ![Priežiūros užklausos kūrimas](media/am-mobile-09.png "Priežiūros užklausos kūrimas")
+    ![Priežiūros užklausos kūrimas.](media/am-mobile-09.png "Priežiūros užklausos kūrimas")
 
 ## <a name="add-attachment-to-a-maintenance-request"></a>Priedo įtraukimas į priežiūros užklausą
 
@@ -236,7 +236,7 @@ Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Ope
 
 1. Pasirinkite **Atlikta**.
 
-    ![Įtraukti priedą į priežiūros užklausą](media/am-mobile-10.png "Įtraukti priedą į priežiūros užklausą")
+    ![Įtraukti priedą į priežiūros užklausą.](media/am-mobile-10.png "Įtraukti priedą į priežiūros užklausą")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 0c1e6a9490fba0becb4840cbec9d04c22d482511
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: e0b0eb1466d962fb04566b936322db1e4c28f830
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6103173"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359792"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Pirkimo užsakymų gaunamų krovinių sandėlio tvarkymas
 
@@ -30,7 +30,7 @@ Kiekvienam gaunamam kroviniui jūsų sistemoje jau turėtų būti susijęs parda
 
 Toliau pateiktame paveikslėlyje parodytas įprastas gaunamų krovinių, kurie atvykę į jūsų sandėlį turi pirkimo užsakymo kiekius, tvarkymo srautas.
 
-![Gaunamų krovinių tvarkymo procesas](media/inbound-process.png "Gaunamų krovinių tvarkymo procesas")
+![Gaunamų krovinių tvarkymo procesas.](media/inbound-process.png "Gaunamų krovinių tvarkymo procesas")
 
 1. **Tiekėjas patvirtina pirkimo užsakymą.**
 
@@ -293,7 +293,7 @@ Tam, kad sandėlio priimantys darbuotojai galėtų su kroviniu susijusioms gauna
 
     Galite palikti visų parametrų numatytąsias reikšmes.
 
-    ![Mobiliojo įrenginio meniu elementų parametrai](media/inbound-mobile-menu-items.png "Mobiliojo įrenginio meniu elementų parametrai")
+    ![Mobiliojo įrenginio meniu elementų parametrai.](media/inbound-mobile-menu-items.png "Mobiliojo įrenginio meniu elementų parametrai")
 
     Daugiau informacijos apie tai, kaip nustatyti mobiliojo įrenginio meniu elementus žr. [Mobiliųjų įrenginių nustatymas darbui sandėlyje](configure-mobile-devices-warehouse.md).
 
@@ -328,7 +328,7 @@ Atlikdami šią procedūrą jūs neautomatiniu būdu sukursite pirkimo užsakym�
     - „FastTab“ konteineryje **Krovinys** lauko **Krovinio būsena** reikšmė nustatyta kaip _Atidaryta_.
     - Salyje **Krovinio eilutės** yra viena eilutė, kurioje lauko **Kiekis** reikšmė nustatyta kaip _10_, o lauko **Darbo sukurtas kiekis** reikšmė nustatyta kaip _0_ (nulis).
 
-    ![Krovinio informacija](media/inbound-load-details.png "Krovinio informacija")
+    ![Krovinio informacija.](media/inbound-load-details.png "Krovinio informacija")
 
 1. Veiksmų srities skirtuke **Siuntimas ir gavimas** pasirinkite **Patvirtinti \> Gaunama siunta**. Atkreipkite dėmesį, kad lauko **Krovinio būsena** reikšmė buvo pakeista į _Išsiųsta_.
 1. Pasižymėkite **krovinio ID** reikšmę, kad galėtumėte ją panaudoti kitoje procedūroje.

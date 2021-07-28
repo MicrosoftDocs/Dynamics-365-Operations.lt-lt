@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 413847d350ca6b2bdd6153a598ea5b3f34a33818
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0e465594968ac860a9cb8f6f5d679084e5594457
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826280"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355612"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>Nurašyto ilgalaikio turto likvidavimas
 
@@ -43,7 +43,7 @@ Temoje aprašomas procesas, kurio metu šalinamos nurašyto ilgalaikio turto, ku
 Prieš nurašyto ilgalaikio turto likvidavimą, turite sukurti DK sąskaitas, susietas su turto įsigijimo verte, šių metų nusidėvėjimą, praėjusių metų nusidėvėjimą ir turto NBV. Ilgalaikio turto operacijų tipai pateikiami puslapyje **Ilgalaikio turto registravimo šablonas**. Eikite į **Ilgalaikis turtas \> Sąranka \> Ilgalaikio turto registravimo šablonai**, o tada, „FastTab” konteineryje **Likvidavimas** lauke virš tinklelio pasirinkite **Nurašyta**. Toliau pateiktame paveikslėlyje parodytas ilgalaikio turto operacijų tipų sąrašas puslapyje **Ilgalaikio turto registravimo šablonai**.
 
 
-[![Nurašyto turto likvidavimas, 1 pav.](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
+[![Nurašyto turto likvidavimas, 1 iliustracija.](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
 
 Toliau pateiktame pavyzdyje ilgalaikis turtas buvo įsigytas 2018 m. sausio 1 d. ir jis bus nurašytas 2019 m. kovo 31 d.
 
@@ -58,27 +58,27 @@ Balansinė vertė = įsigijimo kaina – nusidėvėjimas
 
 Šiame pavyzdyje ilgalaikis turtas buvo įsigytas ir dėvėtas 15 mėnesių, nuo 2018 m. sausio mėn. iki 2019 m. kovo mėn. Todėl turto NBV yra 9 000,00 USD (24 000,00 USD – 15 000,00 USD).
 
-[![Ilgalaikio turto nusidėvėjimo pavyzdžiai](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
+[![Ilgalaikio turto nusidėvėjimo pavyzdžiai.](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
 
 
 Norėdami sukurti likvidavimo žurnalą, eikite į **Ilgalaikis turtas \> Žurnalo įrašai \> Ilgalaikio turto žurnalas**, tada veiksmų srityje pasirinkite **Eilutės**. Pasirinkite **Likvidavimas – nurašymas** ir pasirinkite ilgalaikio turto ID. Norėdami visiškai likviduoti turtą, neįveskite vertės į lauką **Debetas** arba į lauką **Kreditas** .
 
-[![Ilgalaikio turto žurnalas](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
+[![Ilgalaikio turto žurnalas.](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
 
 Nurašyto ilgalaikio turto likvidavimo operacija pakeičia ilgalaikio turto knygos laukų vertes toliau nurodytais būdais.
 
 - Skyriuje **Balansas**, laukas **Būsena** atnaujinamas į **Nurašyta**.
 - Skyriuje **Išdavimas**, laukas **Likvidavimo data** nustatomas į datą, kada turtas buvo nurašytas.
 
-[![Ilgalaikio turto žurnalo informacija](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
+[![Ilgalaikio turto žurnalo informacija.](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
 
 Toliau pateiktame paveikslėlyje parodytas ilgalaikio turto balansas.
 
-[![Ilgalaikio turto balansas](./media/Fixed_asset_Disposal_scrap_scenario_5.png)](./media/Fixed_asset_Disposal_scrap_scenario_5.png)
+[![Ilgalaikio turto balansas.](./media/Fixed_asset_Disposal_scrap_scenario_5.png)](./media/Fixed_asset_Disposal_scrap_scenario_5.png)
 
 Toliau pateiktame paveikslėlyje parodytas užregistruotas kvitas.
 
-[![Balansinė vertė](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
+[![Balansinė knygos vertė.](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

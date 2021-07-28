@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb2da2d58b7f98fad80d0ea63bf4445ec4d08163
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: baf2c279a656bd67a0850ef9178e1bc984bb9b8b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808357"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351494"
 ---
 # <a name="asset-criticality-types"></a>Turto svarbos tipai
 
@@ -40,7 +40,7 @@ Norėdami nustatyti svarbą, pirmiausia sukurkite svarbos tipus, kurie turėtų 
 4. Lauke **Pavadinimas** įveskite unikalų darbo eigos pavadinimą.
 5. Lauke **Koeficientas** įveskite skaičių. Šis koeficientas naudojamas skaičiuojant darbo užsakymo planavimą, siekiant nustatyti svarbos įrašą, kurį reikėtų naudoti. (Visada naudojamas įrašas, turintis aukščiausią koeficientą.) Šis nustatymas yra svarbus, jei, kaip parodyta toliau pateiktoje iliustracijoje, sukuriamos tos pačios kritiškumo vertės kritiškumo eilutės.
 
-    ![Puslapis Kritiškumo tipai](media/23-setup-for-objects.png)
+    ![Puslapis Kritiškumo tipai.](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>Ilgalaikio turto knygos nustatymas
 

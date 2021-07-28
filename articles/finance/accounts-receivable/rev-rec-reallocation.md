@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2d961cb4eedda6265b4acd8dbd6f82e8026373fa
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 37c3da576b79d3ae9f6983b5046343a7c8120de6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820574"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356130"
 ---
 # <a name="revenue-recognition-reallocation"></a>Įplaukų pripažinimo perskirstymas
 
@@ -48,7 +48,7 @@ Perskirstymą galima atlikti pardavimo užsakymui, kuriam išrašyta dalinė arb
 
 Kiekviena organizacija turi nuspręsti, ar taisymas turi atnaujinti tik DK, ar taip pat turi atnaujinti gautinas sumas. Priimtas sprendimas nulemia atitinkamą parinkties **Perskirstant registruoti SF taisymus į Gautinas sumas** parametrą skirtuke **Įplaukų pripažinimas** puslapyje **Didžiosios knygos parametrai** (**Įplaukų pripažinimas \> Sąranka \> Didžiosios knygos parametrai**). Atitinkamas parametras priklauso nuo konkretaus scenarijaus. Jei norite daugiau informacijos apie galimus scenarijus, naudokite nuorodas, esančias toliau šioje temoje pateiktame skyriuje [Perskirstymo scenarijai](#scenarios-for-reallocation).
 
-[![Įplaukų pripažinimo skirtukas puslapyje Didžiosios knygos parametrai](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
+[![Įplaukų pripažinimo skirtukas puslapyje Didžiosios knygos parametrai.](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
 
 Jei parinktis **Perskirstant registruoti SF taisymus į Gautinas sumas** nustatyta į **Taip**, perskirstymo procesas pateikia tokį rezultatą:
 
@@ -76,7 +76,7 @@ Kaip minėta, galima atnaujinti tik DK arba atnaujinti ir DK, ir gautinas sumas.
 
 Norėdami pradėti perskirstymo procesą, pasirinkite **Perskirstyti vertę naujose užsakymo eilutėse** bet kuriame pardavimo užsakyme, kurį būtina perskirstyti. Arba eikite į **Įplaukų pripažinimas \> Periodinės užduotys \> Perskirstyti vertę naujose užsakymo eilutėse**, tada įveskite atitinkamus filtrus, pvz., kliento sąskaitą.
 
-[![Puslapis Perskirstyti vertę naujose užsakymo eilutėse](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
+[![Puslapis Perskirstyti vertę naujose užsakymo eilutėse.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
 Viršutinis tinklelis puslapyje **Perskirstyti vertę naujose užsakymo eilutėse** pavadintas **Pardavimas**. Jame pateikiami kliento pardavimo užsakymai. Pasirinkite pardavimo užsakymus, kuriuos būtina perskirstyti. Negalima pasirinkti projekto pardavimo užsakymų, nes negalima perskirstyti projekto pardavimo užsakymų. Taip pat negalima pasirinkti pardavimo užsakymų, kurie jau turi perskirstymo ID, nes ne projekto pardavimo užsakymus galima perskirstyti tik vieną kartą. Jei pardavimo užsakymas turi perskirstymo ID, vadinasi jį jau pažymėjo perskirstymui kitas vartotojas.
 
@@ -86,11 +86,11 @@ Pasirinkę reikiamas pardavimo užsakymo eilutes naudokite veiksmų srities mygt
 
 - **Atnaujinti perskirstymą** – skaičiuoti naujas pasirinktų pardavimo užsakymo eilučių įplaukų vertės sumas. Jei eilutė buvo pašalinta ar atšaukta, perskirstymas bus atliekamas tik pasirinktoms esamoms eilutėms. Tolesnėje iliustracijoje pateiktas pardavimo užsakymo eilučių prieš atnaujinant perskirstymą pavyzdys.
 
-    [![Pardavimo užsakymo eilutės prieš atnaujinant perskirstymą](./media/03_RevRecScenarios.png)](./media/03_RevRecScenarios.png)
+    [![Pardavimo užsakymo eilutės prieš atnaujinant perskirstymą.](./media/03_RevRecScenarios.png)](./media/03_RevRecScenarios.png)
 
     Naujos įplaukų vertės sumos rodomos tinklelio **Eilutės** stulpelyje **Perskirstyta suma**. Šiuo metu perskirstymas yra apdorotas, bet dar nėra apskaičiuotas. Tolesnėje iliustracijoje pateiktas pardavimo užsakymo eilučių atnaujinus perskirstymą pavyzdys.
 
-    [![Pardavimo užsakymo eilutės atnaujinus perskirstymą](./media/04_RevRecScenarios.png)](./media/04_RevRecScenarios.png)
+    [![Pardavimo užsakymo eilutės atnaujinus perskirstymą.](./media/04_RevRecScenarios.png)](./media/04_RevRecScenarios.png)
 
 - **Apdoroti** – apdoroti arba registruoti perskirstytas įplaukų vertes. Pasirinkus šį mygtuką nėra galimybių atšaukti perskirstymą. Jei nepasirinkote **Atnaujinti perskirstymą** prieš pasirinkdami **Apdoroti**, perskirstymas bus vykdomas automatiškai.
 
@@ -100,7 +100,7 @@ Pasirinkę reikiamas pardavimo užsakymo eilutes naudokite veiksmų srities mygt
 - **Numatomas kvitas** – rodoma apskaitos įrašų, sukurtų bet kurioms pardavimo užsakymo eilutėms, kurioms buvo išrašyta SF, peržiūra. Jei SF nebuvo išrašyta, nerodoma jokia informacija. Jei nepasirinkote **Atnaujinti perskirstymą** prieš pasirinkdami **Numatomas kvitas**, perskirstymas bus vykdomas automatiškai.
 - **Įplaukų perskirstymas** – atidaromas puslapis, kuriame rodomas visų pasirinktų eilučių įplaukų vertės paskirstymas. Šiame puslapyje negalima pakeisti jokios informacijos. Joje pateikiamos eilutės sumos, naudotos perskirstymui.
 
-    [![Eilutės sumos, naudotos perskirstymui](./media/05_RevRecScenarios.png)](./media/05_RevRecScenarios.png)
+    [![Eilutės sumos, naudotos perskirstymui.](./media/05_RevRecScenarios.png)](./media/05_RevRecScenarios.png)
 
 - **Iš naujo nustatyti pasirinkto kliento duomenis** – jei perskirstymo procesas buvo pradėtas, tačiau nebuvo baigtas, perskirstymo lentelėje išvalykite tik pasirinkto kliento duomenis. Pavyzdžiui, perskirstymui pažymite kelias pardavimo užsakymo eilutes, paliekate puslapį atidarytą nepasirinkę **Apdoroti**, tada baigiasi puslapio skirtasis laikas. Tokiu atveju pardavimo užsakymo eilutės liks pažymėtos ir nebus pasiekiamos kitam vartotojui, kad būtų galima baigti perskirstymo procesą. Atidarytas puslapis net gali būti tuščias. Tokiu atveju naudojant mygtuką **Iš naujo nustatyti pasirinkto kliento duomenis** galima išvalyti neapdorotus pardavimo užsakymus, kad kitas vartotojas galėtų baigti perskirstymo procesą.
 

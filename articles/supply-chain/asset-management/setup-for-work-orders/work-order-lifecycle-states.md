@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 04e0bb3b1b99299c344a393e72cbe6f380e380af
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5facd333c9a76f391b36de71fa3a8e276fe2583f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825619"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350623"
 ---
 # <a name="work-order-lifecycle-states"></a>Darbo užsakymų ciklo būsenos
 
@@ -35,11 +35,11 @@ Reikiamas darbo užsakymų ciklo būsenas būtina pridėti prie atitinkamų proj
 
 Toliau pateiktoje lentelėje aprašomos puslapio **Darbo užsakymo ciklo būsena** (**Turto valdymas** \> **Sąranka** \> **Darbo užsakymai** \> **Ciklų būsenos**) „FastTab“ konteinerio **Bendra** skyrių **Darbo užsakymas** ir **Grafikas** parinktys.
 
-![Darbo užsakymo ciklo būsenos puslapis](media/09-setup-for-work-orders.png)
+![Darbo užsakymo ciklo būsenos puslapis.](media/09-setup-for-work-orders.png)
 
-| Parinkties pavadinimas                   | Aprašymas |
+| Parinkties pavadinimas                   | Aprašas |
 |-------------------------------|-------------|
-| Aktyvusis                        | Šią parinktį nustatykite kaip **Taip**, jei, būdamas šios ciklo būsenos, darbo užsakymas turi būti aktyvus. |
+| Aktyvi                        | Šią parinktį nustatykite kaip **Taip**, jei, būdamas šios ciklo būsenos, darbo užsakymas turi būti aktyvus. |
 | Įtraukti eilutę                      | Šią parinktį nustatykite kaip **Taip**, jei į šios ciklo būsenos darbo užsakymą galima įtraukti darbo užsakymo užduočių. |
 | Naikinti                        | Šią parinktį nustatykite kaip **Taip**, jei šios ciklo būsenos darbo užsakymą galima panaikinti. |
 | Naikinti eilutę                   | Šią parinktį nustatykite kaip **Taip**, jei šios ciklo būsenos darbo užsakyme galima panaikinti darbo užsakymo užduotis. |
@@ -93,7 +93,7 @@ Toliau pateiktoje lentelėje aprašomos puslapio **Darbo užsakymo ciklo būsena
     - Jei ciklo būsenos, į kurią atnaujinamas darbo užsakymas, parinktis **Prižiūrimo turto prastova** yra nustatoma kaip **Taip**, patikrinama su darbo užsakymu susijusio prižiūrimo turto prastova. Jei prižiūrimo turto prastovos registracija atlikta, tačiau registracijos **Baigta** nėra, darbo užsakymo ciklo būseną atnaujinus į šią, rodomas pranešimas.
     - Jei standartinė projekto sąranka neapima visų etapų, kurių reikia nustatant modulį Turto valdymas, puslapio **Projektų valdymo ir apskaitos parametrai** skirtuke **Projekto etapas** galite sukonfigūruoti vartotojų nustatytus projekto etapus. Tolesnėje iliustracijoje rodomas puslapio **Projektų valdymo ir apskaitos parametrai** skirtukas **Projekto etapas**.
 
-    ![Įvairių projekto tipų projekto etapų nustatymo puslapis](media/10-setup-for-work-orders.png)
+    ![Įvairių projekto tipų projekto etapų nustatymo puslapis.](media/10-setup-for-work-orders.png)
 
 > [!NOTE]
 > Jei ciklo būsena, į kurią atnaujinate darbo užsakymą, yra neaktyvi, su darbo užsakymu susiję, tačiau dar neužregistruoti žurnalai automatiškai panaikinami. Taip lengviau užtikrinti automatinį nenaudojamų duomenų išvalymą. (Ciklo būsena yra neaktyvi, jei puslapio **Darbo užsakymo ciklo būsena** „FastTab“ konteineryje **Bendra** būsenos parinktis **Aktyvi** yra nustatyta kaip **Ne**.)
@@ -111,7 +111,7 @@ Tipai naudojami todėl, nes, kai nustatomas, pavyzdžiui, darbo užsakymo ar tur
 
 Tolesnėje iliustracijoje parodyti darbo užsakymų tipų, ciklo modelių ir ciklo būsenų ryšiai.
 
-![Darbo užsakymo tipo puslapio palyginimas su darbo užsakymo ciklo modelių puslapiu](media/11-setup-for-work-orders.png)
+![Darbo užsakymo tipo puslapio palyginimas su darbo užsakymo ciklo modelių puslapiu.](media/11-setup-for-work-orders.png)
 
 ## <a name="work-order-lifecycle-models"></a>Darbo užsakymo ciklo modeliai
 
@@ -126,16 +126,16 @@ Sukūrus reikiamas darbo užsakymų ciklo būsenas, jas galima suskirstyti į da
 
 5. „FastTab“ skirtuke **Ciklo būsenos** pasirinkite ciklo būsenas, kurios turėtų būti įtrauktos į šį ciklo modelį:
 
-    - Norėdami į ciklo modelį įtraukti ciklo būseną, pasirinkite ją skyriuje **Likusios ciklo būsenos** ir spustelėkite dešiniosios rodyklės mygtuką ![Dešinioji rodyklė](media/12-setup-for-work-orders.png), kad ją perkeltumėte į skyrių **Pasirinktos ciklo būsenos**.
-    - Norėdami į ciklo modelį įtraukti visas galimas ciklo būsenas, pasirinkite mygtuką **Pasirinkti visus galimus etapus** ![Pasirinkti visus galimus etapus](media/13-setup-for-work-orders.png). Visos ciklo būsenos bus perkeltos į skyrių **Pasirinktos ciklo būsenos**.
-    - Norėdami ciklo būseną pašalinti iš ciklo modelio, ją pasirinkite skyriuje **Pasirinktos ciklo būsenos** ir spustelėkite kairiosios rodyklės mygtuką ![Kairioji rodyklė](media/14-setup-for-work-orders.png), kad ją perkeltumėte į skyrių **Likusios ciklo būsenos**.
+    - Norėdami įtraukti ciklo būseną į ciklo modelį, pasirinkite ją **Likusios ciklo būsenos** skyriuje, o tada pasirinkite dešinės rodyklės mygtuką ![Rodyklė dešinėn.](media/12-setup-for-work-orders.png) jos perkėlimui į **Pasirinktos ciklo būsenos** skyrių.
+    - Norėdami į ciklo modelį įtraukti visas galimas ciklo būsenas, pasirinkite mygtuką **Pasirinkti visus galimus etapus** ![Pasirinkti visus galimus etapus.](media/13-setup-for-work-orders.png). Visos ciklo būsenos bus perkeltos į skyrių **Pasirinktos ciklo būsenos**.
+    - Norėdami pašalinti ciklo būseną iš ciklo modelio, pasirinkite ją **Pasirinktos ciklo būsenos** skyriuje, o tada pasirinkite kairės rodyklės mygtuką ![Rodyklė kairėn.](media/14-setup-for-work-orders.png) jos perkėlimui į **Likusios ciklo būsenos** skyrių.
 
 6. Pasirinkę **Ciklo būsenų naujinimai** nustatykite ciklo būsenas, kurios gali sekti pasirinktą ciklo būseną.
 7. „FastTab“ **Naujinimai** lauke **Suplanuota būsena** pasirinkite ciklo būseną, kuri visada turi būti parenkama suplanuotam darbo užsakymui, neatsižvelgiant į ankstesnę jo ciklo būseną.
 8. Lauke **Nesuplanuota ciklo būsena** pasirinkite ciklo būseną, kuri visada turi būti parenkama darbo užsakymui, jei jo planavimas yra panaikinamas.
 9. Darbo užsakymo ciklo modelį įrašykite.
 
-![Darbo užsakymo ciklo modelių puslapis](media/15-setup-for-work-orders.png)
+![Darbo užsakymo ciklo modelių puslapis.](media/15-setup-for-work-orders.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

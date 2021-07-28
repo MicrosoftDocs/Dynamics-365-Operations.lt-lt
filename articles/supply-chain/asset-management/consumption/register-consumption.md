@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f38b01d94fd2efcce5de210f77124fdc24be6e39
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 50ace9a2f8f5fa39dc927e11f0acd707167ef126
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837902"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346231"
 ---
 # <a name="register-consumption"></a>Suvartojimo registravimas
 
@@ -54,7 +54,7 @@ Kai kuriais atvejais turėsite galimybę įtraukti arba pašalinti darbo užsaky
 
 Toliau pateiktoje ekrano kopijoje matomas darbo užsakymo valandų ir prekių registracijų **darbo užsakymo žurnaluose** pavyzdys.
 
-![1 pav.](media/01-consumption.png)
+![1 iliustracija.](media/01-consumption.png)
 
 
 ## <a name="split-hours-on-work-orders-with-several-work-order-jobs"></a>Darbo užsakymų su keliomis darbo užsakymo užduotimis valandų padalijimas
@@ -73,13 +73,13 @@ Jei darbo užsakyme yra kelios darbo užsakymo užduotys, darbo valandas galite 
 
 6. Lauke **Valandos** įrašykite darbo valandų, kurias norite padalyti, skaičių.
 
-    ![2 paveikslėlis](media/02-consumption.png)
+    ![2 iliustracija.](media/02-consumption.png)
 
 7. Spustelėkite **Gerai**.
 
 *Pavyzdys:* Toliau pateiktoje ekrano kopijoje matomos darbo užsakymo, kuriame yra trys darbo užsakymo užduotys, žurnalo eilutės. Pirmoji eilutė, kurioje yra trys valandos, buvo padalyta, ir kiekvienoje darbo užsakymo užduotyje užregistruojama viena darbo valanda. Sukūrus tris valandų registracijos eilutes galite nuspręsti, ką daryti su pradine valandų registracijos eilute (pirmoji eilutė pavyzdyje). Galite ją palikti arba ištrinti. 
 
-![3 paveikslėlis](media/03-consumption.png)
+![3 iliustracija.](media/03-consumption.png)
 
 ## <a name="financial-dimensions-on-consumption-registrations"></a>Suvartojimo registracijų finansinės dimensijos
 

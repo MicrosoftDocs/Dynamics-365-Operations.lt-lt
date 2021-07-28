@@ -2,7 +2,7 @@
 title: „Human Resources“ parametrų konfigūravimas
 description: Šioje temoje aiškinama, kaip nustatyti konkrečius įmonės parametrus programoje „Dynamics 365 Human Resources“.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 06/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c4c93e3d2644a380e3d5d2247961a8b6fb34568
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 24d30aa06805b530cc069be0517279a11dff9ed4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052414"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356541"
 ---
 # <a name="configure-human-resources-parameters"></a>„Human Resources“ parametrų konfigūravimas
 
@@ -30,7 +30,7 @@ Kai kurie žmogiškųjų išteklių parametrai naudojami keliose įmonėse, o ki
 
 Personalo parametrams nustatyti naudojami du puslapiai. Jei parametrai yra bendrai naudojami keliose įmonėse, galite naudoti puslapį **Bendrai naudojami žmogiškųjų išteklių parametrai**. Jei parametrai skirti konkrečiai įmonei (kitaip tariant, parametrai taikomi prie vienai įmonei), naudokite puslapį **Personalo parametrai**.
 
-![Eikite į personalo parametrus](./media/hr-employee-self-service-human-resources-parameters.png)
+![Eikite į personalo parametrus.](./media/hr-employee-self-service-human-resources-parameters.png)
 
 Puslapyje **Personalo parametrai** parametrai suskirstyti į šešis toliau pateiktus skirtukus.
 
@@ -51,14 +51,15 @@ Kiekviename skirtuke yra informacijos, susijusios su viena įmone.
 
 Skirtuko **Bendra** parametrai apibrėžia informacijos apie neatvykimą, sužalojimus ir ligas bei naujus darbuotojus, rodymą. Šio skirtuko parametrai taip pat nustato kai kuriuos numatytuosius įrašus, rodomus, kai dirbate. Tiksliau šiame skirtuke galima:
 
-- pasirinkti spalvą, kurią taikysite atidarytoms neatvykimo operacijoms,
-- nurodyti ataskaitoms naudotiną stilių aprašą,
-- įgalinti integravimą tarp mokymo kursų ir neatvykimų registravimo,
+- Pasirinkti spalvą, kurią taikysite atidarytoms neatvykimo operacijoms.
+- Nurodyti ataskaitoms naudotiną stilių aprašą.
+- Įgalinti integravimą tarp mokymo kursų ir neatvykimų registravimo.
 - pasirinkti neatvykimo kodą, naudojamą šiam integravimui valdyti,
 - nurodyti, ar ilgai laikyti sužalojimo ir ligos atvejų incidentus,
 - nurodyti numatytąjį identifikavimo numerį, rodomą pasamdžius naują darbuotoją.
+- Nurodykite datą, naudojamą darbo stažo apskaičiavimui. 
 
-![Skirtukas Bendra](./media/hr-setup-parameters-general.png)
+![Skirtukas Bendra.](./media/hr-setup-parameters-general.png)
 
 ## <a name="recruitment"></a>Įdarbinimas
 
@@ -76,7 +77,7 @@ Personalo dalyje naudodami skirtuką **Kompensacija** galite pasirinkti apriboti
 
 Daugiau informacijos apie kompensaciją žr. skyriuje [Kompensacijų planų apžvalga](hr-compensation-overview.md).
 
-![Atlyginimo skirtukas](./media/hr-setup-parameters-compensation.png)
+![Atlyginimo skirtukas.](./media/hr-setup-parameters-compensation.png)
 
 ## <a name="number-sequences"></a>Numeracija
 
@@ -96,13 +97,13 @@ Daugiau informacijos žr. skyriuje [Numeracijos apžvalga](../fin-ops-core/fin-o
 > [!NOTE]
 > Išdirbtų valandų skaičius negali viršyti 1 250, o įdarbinimo trukmė negali viršyti 12 mėnesių. Šios didžiausios galimos reikšmės atitinka Jungtinių Amerikos Valstijų federalinę teisę.
 
-![Numeracijų skirtukas](./media/hr-setup-parameters-number-sequences.png)
+![Numeracijų skirtukas.](./media/hr-setup-parameters-number-sequences.png)
 
 ## <a name="fmla"></a>FMLA
 
 Skirtuke FMLA nustatote FMLA tinkamumo reikalavimus ir FMLA atostogų valandas. Dėl daugiau informacijos, žr. [Konfigūruoti atostogų ir nebuvimo parametrus](hr-leave-and-absence-parameters.md).
 
-![FMLA skirtukas](./media/hr-setup-parameters-fmla.png)
+![FMLA skirtukas.](./media/hr-setup-parameters-fmla.png)
 
 ## <a name="employee-self-service"></a>Darbuotojų savitarna
 
@@ -115,7 +116,7 @@ Skirtuko **Darbuotojo savitarna** nustatymai veikia tai, kaip darbuotojo savitar
 
 Daugiau informacijos apie tai, kaip nustatyti darbuotojo savitarną, žr. skyriuje [Darbuotojo ir vadovo savitarnos apžvalga](hr-employee-manager-self-service-overview.md).
 
-![Darbuotojų savitarnos skirtukas](./media/hr-setup-parameters-employee-self-service.png)
+![Darbuotojų savitarnos skirtukas.](./media/hr-setup-parameters-employee-self-service.png)
 
 ## <a name="manager-self-service"></a>Vadovų savitarna
 
@@ -129,13 +130,13 @@ Skirtuko **Vadovo savitarna** nustatymai daro įtaką tam, ką vadovai mato savo
 
 Daugiau informacijos apie tai, kaip nustatyti vadovo savitarną, žr. skyriuje [Darbuotojo ir vadovo savitarnos apžvalga](hr-employee-manager-self-service-overview.md).
 
-![Vadovo savitarnos skirtukas](./media/hr-setup-parameters-manager-self-service.png)
+![Vadovo savitarnos skirtukas.](./media/hr-setup-parameters-manager-self-service.png)
 
 ## <a name="benefits-management"></a>Išmokų valdymas
 
 Išmokų valdymo skirtuke galima konfigūruoti el. pašto parinktis išmokų valdymui. Informacijos apie tai, kaip nustatyti ir naudoti išmokų valdymą, žr. skyriuje [Išmokų valdymo apžvalga](hr-benefits-management-overview.md).
 
-![Išmokų valdymo skirtukas](./media/hr-setup-parameters-benefits-management.png)
+![Išmokų valdymo skirtukas.](./media/hr-setup-parameters-benefits-management.png)
 
 ## <a name="leave-and-absence"></a>Atostogos ir neatvykimai
 
@@ -145,7 +146,7 @@ Daugiau informacijos apie atostogų ir neatvykimo nustatymą ir naudojimą žr. 
 
 Skirtuke **Mokėjimo būdai** galima pasirinkti jūsų įmonės palaikomus mokėjimo būdus. Daugiau informacijos apie kompensacijos konfigūravimą žr. skyriuje [Kompensacijų planų apžvalga](hr-compensation-overview.md).
 
-![Mokėjimo būdų skirtukas](./media/hr-setup-parameters-payment-methods.png)
+![Mokėjimo būdų skirtukas.](./media/hr-setup-parameters-payment-methods.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 260624
+ms.custom:
+- "260624"
+- intro-internal
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: b680ec227ecd70893999950a8be2ad152c476575
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 598145bccadbeb44d33adb96388f6af5a8a45f5d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5937017"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352693"
 ---
 # <a name="clienteling-overview"></a>Ryšių su klientais apžvalga
 
@@ -68,7 +70,7 @@ Norėdami savo aplinkoje įjungti klientavimo funkciją, atlikite toliau nurodyt
 
 1. Darbo srityje **Funkcijų valdymas** atlikite funkcijų filtravimą pagal modulį **Mažmeninė prekyba ir prekyba**.
 
-    ![Klientavimas funkcijų sąraše, skirtame „Commerce“ moduliui](./media/Enable_clienteling.png "Klientavimas funkcijų sąraše, skirtame prekybai ir mažmeninei prekybai")
+    ![Klientavimas funkcijų sąraše, skirtame „Commerce“ moduliui.](./media/Enable_clienteling.png "Klientavimas funkcijų sąraše, skirtame prekybai ir mažmeninei prekybai")
 
 2. Įjunkite funkciją **Klientavimas**, pasirinkdami **Įjungti dabar**.
 3. Puslapyje **Prekybos parametrai**, skirtuke **Numeracija** pasirinkite eilutę **Kliento knygos identifikatorius**. Tada laukelyje **Numeracijos kodas** pasirinkite numeraciją. Sistema naudos šią numeraciją, kad kliento knygoms priskirtų ID.
@@ -83,7 +85,7 @@ Norėdami savo aplinkoje įjungti klientavimo funkciją, atlikite toliau nurodyt
 
 6. Puslapyje **Prekybos parametrai**, skirtuke **Klientavimas**, laukelyje **Klientų knygos atributų grupė** pasirinkite atributų grupę, kurią ką tik sukūrėte.
 
-    ![Klientų knygos atributų grupė pasirinkta](./media/Client%20book%20attributes.png "Klientų knygos atributų grupė pasirinkta")
+    ![Klientų knygos atributų grupė pasirinkta.](./media/Client%20book%20attributes.png "Klientų knygos atributų grupė pasirinkta")
 
 7. Norėdami fiksuoti veiklas, kurios vykdomos EKA, apibrėžkite veiklos tipus puslapyje **Veiklos tipai** (**Mažmeninė prekyba ir prekyba \> Klientai \> Veiklos tipai**).
 
@@ -95,7 +97,7 @@ Norėdami savo aplinkoje įjungti klientavimo funkciją, atlikite toliau nurodyt
 
 Jums atlikus šią procedūrą, pardavimo darbuotojai gali atidaryti kliento informacijos puslapį EKA ir įtraukti klientus į savo klientų knygą, peržiūrėti ir fiksuoti klientų veiklas bei pastabas ir rasti tikslinius klientus, naudodami kliento ir klientų knygos atributus, kad filtruotų kliento knygą. Toliau pateikiamoje iliustracijoje vaizduojamas klientų knygos pavyzdys.
 
-![Klientų knygos pavyzdys](./media/client_book.png "Klientų knygos pavyzdys")
+![Klientų knygos pavyzdys.](./media/client_book.png "Klientų knygos pavyzdys")
 
 ## <a name="turn-on-the-integration-of-customer-insights-with-commerce"></a>„Customer Insights“ integracijos su „Commerce“ įjungimas
 

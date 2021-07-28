@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9e64899e0bbdb5a9d8899e865de9ee32aae59382
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f5556195a1a787420061fbcaef5d97ac47823221
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751661"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359010"
 ---
 # <a name="generate-printable-fti-forms"></a>Spausdintinų LFSF formų generavimas
 
@@ -77,7 +77,7 @@ Norėdami LFSF formas generuoti naudodami ER sistemą, ER formatus galite priski
 3. Pasirinkti dokumento lygį ir nurodykite SF aprėptį, reikalingą apdorojimo procedūrai.
 4. Pasirinkite nurodyto dokumento lygio ER formatą.
 
-![Spausdinimo valdymo nustatymas](media/FTIbyGER-PMSetting.png)
+![Spausdinimo valdymo nustatymas.](media/FTIbyGER-PMSetting.png)
 
 > [!NOTE]
 > Pasirinkto formato lauke **Ataskaitos formato peržvalga** bus rodomi tik tie ER formatai, kuriuose naudojamas duomenų modelio **CustomersInvoicing** šakninis aprašas **FreeTextInvoice**.
@@ -87,9 +87,9 @@ LFSF formos ER sistemoje sugeneruojamos tokiu pačiu būdu, kaip ir SSRS ataskai
 
 Generuodami LFSF formas, sąskaitas faktūras galite pasirinkti pagal diapazoną arba pasirinkimą. 
 
-![Sąskaitos faktūros pasirinkimas](media/FTIbyGER-InvoiceSelection.png)
+![Sąskaitos faktūros pasirinkimas.](media/FTIbyGER-InvoiceSelection.png)
 
-![Sąskaitos faktūros peržiūra](media/FTIbyGER-InvoiceExcelPreview.png)
+![Sąskaitos faktūros peržiūra.](media/FTIbyGER-InvoiceExcelPreview.png)
 
 Naudojant ER formatus LFSF formoms spausdinti, kai taikomas šis būdas, naudojamos numatytosios ER failo paskirties vietos. Paskirties vietos keisti negalite. Daugiau informacijos apie tai, kaip konfigūruoti ER formatų ER paskirties vietas, žr. [Elektroninių ataskaitų (ER) paskirties vietos](electronic-reporting-destinations.md).
 
@@ -101,9 +101,9 @@ LFSF formas taip pat sugeneruoti galite LFSF registravimo metu, parinktį **Spau
 > - **Pavadinimas:** ERFormatDestinationRuntimeMaintain
 > - **Žymė**: tvarkyti elektroninių ataskaitų formato paskirties vietą vykdymo aplinkoje
 
-![Elektroninių ataskaitų paskirties vieta](media/FTIbyGER-ERFileDestinationSetting.png)
+![Elektroninių ataskaitų paskirties vieta.](media/FTIbyGER-ERFileDestinationSetting.png)
 
-![Elektroninių ataskaitų formato paskirties vieta](media/FTIbyGER-ERFileDestinationUsage.png)
+![Elektroninių ataskaitų formato paskirties vieta.](media/FTIbyGER-ERFileDestinationUsage.png)
 
 ER sistemoje šiuo metu palaikomos toliau nurodytos sugeneruotų dokumentų paskirties vietos.
 
@@ -128,7 +128,7 @@ Pavyzdines ER konfigūracijas galite atsisiųsti ir naudoti kaip LFSF sprendimo 
 ### <a name="features-that-are-implemented-in-the-sample-er-format"></a>Funkcijos, įdiegtos ER formato pavyzdyje
 ER formato konfigūracijos pavyzdyje LFSF formoms sugeneruoti kaip šablonas naudojamas „Excel“ failas.
 
-![Formato kūrimo įrankis](media/FTIbyGER-ERFormat.png)
+![Formato kūrimo įrankis.](media/FTIbyGER-ERFormat.png)
 
 Šiuo metu šiame ER formato pavyzdyje LFSF formoms sugeneruoti palaikomos toliau nurodytos formos.
 
@@ -179,7 +179,7 @@ Be to, galima sugeneruoti ne tik sąskaitos faktūros formą, bet ir žiro mokė
 - Juridiniam subjektui, kuriame naudojamas Suomijos šalies / regiono kontekstas, kuriame bent viena banko sąskaita pažymėta kaip **Žiro sąskaita** ir **Banko brūkšninis kodas**. 
 - Sąskaitai faktūrai, pažymėtai kaip reikalaujama **Suomijos** susietame mokėjimo priede.
 
-![Žiro kvitas](media/FTIbyGER-GiroSlip.PNG)
+![Žiro kvitas.](media/FTIbyGER-GiroSlip.PNG)
 
 > [!NOTE]
 > ER formato pavyzdys, sukonfigūruotas taip, kad žiro mokėjimo dokumentus būtų galima pasirinktinai sugeneruoti atskirame darbalapyje.
@@ -194,7 +194,7 @@ Norėdami sukonfigūruoti el. pašto paskirties vietas, naudokite toliau pateikt
 - El. laiško temos tekstą galima pasiekti naudojant šią ER išraišką: **Emailing.TxtToUse.Subject**.
 - El. laiško tekstą galima pasiekti naudojant šią ER išraišką: **Emailing.TxtToUse.Body**.
 
-![Paskirties vietos parametrai](media/FTIbyGER-ERFileDestinationSettingEmail.png)
+![Paskirties vietos parametrai.](media/FTIbyGER-ERFileDestinationSettingEmail.png)
 
 Numatytasis el. laiško temos tekstas ir paties el. laiško tekstas apibrėžiamas kaip ER formato pavyzdys. Kalba priklauso nuo formato žymų. Šis numatytasis tekstas el. laiškuose bus naudojamas tada, jei nebus įtrauktas tinkintas organizacijos el. laiško šablonas, turintis iš anksto apibrėžtą **ERFTITMP** ID.
 
@@ -203,9 +203,9 @@ Numatytasis el. laiško temos tekstas ir paties el. laiško tekstas apibrėžiam
 
 Jei organizacijos el. laiško šablonas, turintis **ERFTITMP** ID, buvo įtrauktas į juridinį subjektą, kuriam skirtą SF apdorojate, el. laiškui sugeneruoti bus naudojamas el. laiško temos ir teksto šablonas. 
 
-![Organizacijos el. laiškų šablonai](media/FTIbyGER-EmailTemplate.png)
+![Organizacijos el. laiškų šablonai.](media/FTIbyGER-EmailTemplate.png)
 
-![Nusiųsti el. laiško šabloną](media/FTIbyGER-EmailTemplateBody.png)
+![Nusiųsti el. laiško šabloną.](media/FTIbyGER-EmailTemplateBody.png)
 
 ER formato pavyzdžio ER išraiška **Emailing.TxtToUse.Subject** sukonfigūruojama, kad vietos rezervavimo ženklo %1 pasikartojimus būtų galima pakeisti apdorojamos sąskaitos faktūros ID.
 
@@ -218,7 +218,7 @@ Formato pavyzdžio išraiška **Emailing.TxtToUse.Body** sukonfigūruojama, siek
 - „%5“ pakeičiamas įmonės kliento kontaktinio asmens pareigomis.
 - „%6“ pakeičiamas įmonės kontaktinio asmens el. pašto adresu.
 
-![El. pašto adresas](media/FTIbyGER-Email.PNG)
+![El. pašto adresas.](media/FTIbyGER-Email.PNG)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)

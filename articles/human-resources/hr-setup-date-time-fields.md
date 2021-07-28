@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b7e5726f7e4beea1584b9a8e142212531ba1db56
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6e87781762112955902d8a5807092a842f53f6af
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051742"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356565"
 ---
 # <a name="understand-date-and-time-fields"></a>Susipažinkite su datos ir laiko laukais
 
@@ -36,13 +36,13 @@ Laukuose **Data ir laikas** yra laiko juostos informacija, o laukuose **Data** l
 
 Kai duomenys rodomi lauke **Data ir laikas**, „Human Resources” koreguoja datą ir laiką pagal vartotojo laiko juostą, nustatytą formoje **Vartotojo parinktys** (**Bendra > Sąranka > Vartotojo parinktys**). Datos ir laiko informacija, kurią įvedate lauke, gali skirtis nuo informacijos, įrašytos duomenų bazėje.
 
-[![Forma „Vartotojo pasirinktys”](./media/useroptionsform.png)](./media/useroptionsform.png)
+[![Forma „Vartotojo pasirinktys”.](./media/useroptionsform.png)](./media/useroptionsform.png)
 
 ## <a name="understanding-date-and-time-fields-in-forms"></a>Datos ir laiko laukų formose supratimas 
 
 **Data ir laikas** duomenys yra rodomi ekrane nėra tokie patys kaip duomenys laikomi duomenų bazėje, jei vartotojo laiko zona nėra nustatyta koordinuotame universaliame laike (UTC). Laukuose **Data ir laikas** duomenys visada saugomi kaip UTC.
 
-[![Darbuotojo forma UTC](./media/worker-form.png)](./media/worker-form.png)
+[![Darbininko forma UTC.](./media/worker-form.png)](./media/worker-form.png)
 
 ## <a name="understand-date-and-time-fields-in-the-database"></a>Datos ir laiko laukų duomenų bazėje supratimas 
 
@@ -52,7 +52,7 @@ Aukščiau pateiktame pavyzdyje pradžios laikas yra laiko taškas, o ne konkret
   
 Toliau pateiktame pavyzdyje darbuotojo 000724 įdarbinimas tampa aktyvus tuo pačiu metu, neatsižvelgiant į laiko juostą. Darbuotojas bus aktyvus 2019-04-30 GMT laiko juostoje, kuri yra tokia pati kaip 2019-05-01, GMT +12:00 laiko juosta. Abu nurodo tą patį laiko tašką, o ne konkrečią datą. 
 
-[![Darbuotojo forma GMT](./media/worker-form2.png)](./media/worker-form2.png)
+[![Darbininko forma GMT.](./media/worker-form2.png)](./media/worker-form2.png)
 
 ## <a name="date-and-time-data-in-data-management-framework-excel-dataverse-and-power-bi"></a>Datos ir laiko duomenys duomenų valdymo sistemoje, „Excel Dataverse” ir „Power BI” 
 
@@ -68,27 +68,27 @@ Naudojant išorės šaltinius, tokius kaip DMF tam, kad peržiūrėtumėte ir su
 
 **„Human Resources“ vartotojo laiko zona nustatyta į UTC**
 
-[![Darbuotojo forma nustatyta į UTC](./media/worker-form3.png)](./media/worker-form3.png)
+[![Darbuotojo forma nustatyta į UTC.](./media/worker-form3.png)](./media/worker-form3.png)
 
 **„Human Resources” vartotojo laiko zona nustatyta į GMT + 12:00** 
 
-[![Darbuotojo forma nustatyta į GMT](./media/worker-form4.png)](./media/worker-form4.png)
+[![Darbuotojo forma nustatyta į GMT.](./media/worker-form4.png)](./media/worker-form4.png)
 
 **„Excel”, naudojant „OData”**
 
-[![„Excel”, naudojant „OData”](./media/Excelviaodata.png)](./media/Excelviaodata.png)
+[![„Excel” naudojant „OData”.](./media/Excelviaodata.png)](./media/Excelviaodata.png)
 
 **DMF paruošimas**
 
-[![DMF paruošimas](./media/DMFStaging.png)](./media/DMFStaging.png)
+[![DMF paruošimas.](./media/DMFStaging.png)](./media/DMFStaging.png)
 
 **DMF eksportavimas**
 
-[![DMF eksportavimas](./media/DMFexport.png)](./media/DMFexport.png)
+[![DMF Eksportavimas](./media/DMFexport.png)](./media/DMFexport.png)
 
 **„Excel”, naudojant „Dataverse”**
 
-[![Excel, naudojant „Dataverse”](./media/ExcelCDS.png)](./media/ExcelCDS.png)
+[![„Excel” naudojant „Dataverse”.](./media/ExcelCDS.png)](./media/ExcelCDS.png)
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

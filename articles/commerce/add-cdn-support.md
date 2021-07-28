@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 59277323e0995f59d3a451395a038fa3708274eb
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 85ca468fe6c440fb333b4c32f59f1d41eb89f4e6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936835"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346833"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Turinio pateikimo tinklo (CDN) palaikymo įtraukimas
 
@@ -74,11 +74,11 @@ Vidinio serverio baseino „Azure Front Door Service“ konfigūravimui, atlikit
 
 Toliau pateiktas paveikslėlis rodo **Įtraukti serverį** teksto langelį „Azure Front Door Service“ su serverio pagrindinio kompiuterio įvestu pavadinimu.
 
-![Dialogo langas Vidinio serverio telkinio įtraukimas](./media/CDN_BackendPool.png)
+![Dialogo langas Vidinio serverio telkinio įtraukimas.](./media/CDN_BackendPool.png)
 
 Toliau pateiktas paveikslėlis rodo **Įtraukti serverio baseiną** teksto langelį „Azure Front Door Service“ nustatytosios apkrovos balansavimo vertėmis.
 
-![Įtraukti serverio baseino teksto laukelio tęsinį](./media/CDN_BackendPool_2.png)
+![Įtraukti serverio baseino teksto laukelio tęsinį.](./media/CDN_BackendPool_2.png)
 
 > [!NOTE]
 > Įsitikinkite, kad išjungėte **Sveikatos tikrinimo duomenis** nustatydami savo „Azure Front Door Service”, skirtą „Commerce”.
@@ -107,13 +107,13 @@ Jei jūsų domenas yra naujas ir nėra iš anksto egzistuojantis gyvas domenas, 
 
 Toliau pateiktoje iliustracijoje parodytas „Azure Front Door Service“ dialogo langas **CNAME konfigūravimas**.
 
-![Dialogo langas CNAME konfigūravimas](./media/CNAME_Configuration.png)
+![Dialogo langas „CNAME” konfigūravimas.](./media/CNAME_Configuration.png)
 
 Sertifikatą valdyti galite naudodami „Azure Front Door Service“ arba galite naudoti nuosavą pasirinktinio domeno sertifikatą.
 
 Toliau pateiktoje iliustracijoje parodytas „Azure Front Door Service“ dialogo langas **Pasirinktinio domeno HTTPS**.
 
-![Dialogo langas Pasirinktinio domeno HTTPS](./media/Custom_Domain_HTTPS.png)
+![Dialogo langas Pasirinktinio domeno HTTPS.](./media/Custom_Domain_HTTPS.png)
 
 Dėl išsamių instrukcijų apie kliento domeno įraukimą į savo „Azure Front Door“, žr. [Įtraukti tinkintą domentą į savo „Front Door“](/azure/frontdoor/front-door-custom-domain).
 

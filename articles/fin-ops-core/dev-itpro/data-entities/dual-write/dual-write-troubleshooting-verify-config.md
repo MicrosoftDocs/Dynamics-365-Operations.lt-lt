@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: af746d1d20ddd1552bce797288c6d62d69d7bd16
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d903d58fbd5e9d6bd9ecf7943d09525446721ba2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748854"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350769"
 ---
 # <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Dvigubo rašymas konfigūravimo patvirtinimas „Finance and Operations“ programose ir „Dataverse“
 
@@ -39,11 +39,11 @@ Norėdami nustatyti, ar klaidos, kurias matote bandydami įrašyti atnaujinimo e
 
 + Jeigu turite administratoriaus teises „Finance and Operations” programoje, eikite į **Darbo sritys \> Duomenų valdymas** ir pasirinkite plytelę **Dvigubas rašymas**. Jeigu rodoma susietų aplinkų informacija ir vykdomų eilučių schemų sąrašas, dvigubo rašymo funkcija yra sukonfigūruota.
 
-    ![„Finance and Operations” programos ryšio tikrinimas, kai turite administratoriaus teises](media/verify_fin_ops_1.png)
+    ![„Finance and Operations” programos ryšio tikrinimas, kai turite administratoriaus teises.](media/verify_fin_ops_1.png)
 
 + Jei neturite administratoriaus teisių, gausite klaidos pranešimą *Nepavyksta įrašyti duomenų į objektą \<entity name\>*. Tolesnėje iliustracijoje pateiktame pavyzdyje parodyta, kad nepavyksta sukurti kliento eilutės „Finance and Operations” programoje, nes dvigubo rašymo funkcija yra sukonfigūruota, bet klientų grupė ir mokėjimo terminų nuorodos duomenų nėra „Dataverse”.
 
-    ![„Finance and Operations” programos ryšio tikrinimas, kai neturite administratoriaus teisių](media/verify_fin_ops_2.png)
+    ![„Finance and Operations” programos ryšio tikrinimas, kai neturite administratoriaus teisių.](media/verify_fin_ops_2.png)
 
 Informacijos apie tai, kaip spręsti problemas, kai kuriate duomenis „Finance and Operations” programose, žr. [Tiesioginio sinchronizavimo trikčių šalinimas](dual-write-troubleshooting-live-sync.md).
 
@@ -51,7 +51,7 @@ Informacijos apie tai, kaip spręsti problemas, kai kuriate duomenis „Finance 
 
 Jei kurdami duomenis, matote stulpelį **Įmonė** „Dataverse” puslapiuose, dvigubo rašymo funkcija yra sukonfigūruota.
 
-![„Dataverse” ryšio tikrinimas](media/verify_cds.png)
+![„Dataverse” ryšio tikrinimas.](media/verify_cds.png)
 
 Informacijos apie tai, kaip spręsti problemas, kai kuriate duomenis „Dataverse”, žr. [Tiesioginio sinchronizavimo trikčių šalinimas](dual-write-troubleshooting-live-sync.md).
 

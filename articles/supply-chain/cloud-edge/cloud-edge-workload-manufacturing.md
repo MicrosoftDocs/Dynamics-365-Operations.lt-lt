@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b1e2006c0d9b9effe331a644aaaa9fa33ff2fb7c
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: da19066f647c17e934a11e4dab7cb370baabfb5c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270540"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352741"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Gamybos vykdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams
 
@@ -44,7 +44,7 @@ Vykstant gamybai, skalės vienetai suteikia šias galimybes:
 
 Tolesnis paveikslėlis rodo gamybos gyvavimo ciklo padalijimą į tris etapus: *Planavimas*, *Vykdymas* ir *Užbaigimas*.
 
-[![Gamybos vykdymo etapai, kai viena aplinka naudojama](media/mes-phases.png "Gamybos vykdymo etapai, kai viena aplinka naudojama")](media/mes-phases-large.png)
+[![Gamybos vykdymo etapai, kai naudojama viena aplinka](media/mes-phases.png "Manufacturing execution phases when a single environment is used."](media/mes-phases-large.png)
 
 Etapas _Planavimas_ apima produkto sąvoką, planavimą, užsakymo sukūrimą ir planavimą ir išleidimą. Išleidimo žingsnis rodo perėjimą nuo _Planavimo_ etapo į _Vykdymo_ etapą. Kai gamybos užsakymas yra paleistas, gamybos užsakymo darbai bus matomi gamybos aukšte ir parengti vykdymui.
 
@@ -54,7 +54,7 @@ Kai gamybos darbas yra pažymėtas kaip baigtas, jis juda nuo _Vykdymo_ etapo pr
 
 Kaip rodo kitas paveikslėlis, kai skalės vienetai naudojami, _Vykdymo_ etapas yra paskirstomas kaip atskira darbo apkrova.
 
-[![Gamybos vykdymo etapai, kai naudojami skalės vienetai](media/mes-phases-workloads.png "Gamybos vykdymo etapai, kai naudojami skalės vienetai")](media/mes-phases-workloads-large.png)
+[![Gamybos vykdymo etapai, kai naudojami skalės vienetai](media/mes-phases-workloads.png "Manufacturing execution phases when scale units are used."](media/mes-phases-workloads-large.png)
 
 Modelis dabar eina nuo vieno elemento diegimo iki modelio, kuris yra pagrįstas centru ir skalės vienetais. Etapai _Planavimas_ ir _Užbaigimas_ vyksta, kai ne su klientais susijusios operacijos vykdomos centre ir gamybos vykdymo darbo apkrova vykdoma skalės vienetuose. Duomenys yra perduodami nesinchroniniu būdu tarp centro ir skalės vienetų.
 
@@ -87,7 +87,7 @@ Nepaisant to, kad darbas dažniausiai vyksta automatiniu būdu, galite vykdyti j
 
 Norėdami peržiūrėti registracijos apdorojimo žurnalą, prisijunkite prie centro ir eikite į **Gamybos valdymas \> Periodinės užduotys \> Galinio skyriaus darbo krūvio valdymas \> Neapdorotų registracijų tvarkymo žurnalas**. Puslapyje **Neapdorotų registracijų tvarkymo žurnalas** rodomos apdorotos žalios registracijos ir visų registracijų būsena.
 
-![Žaliavų registracijos tvarkymo žurnalo puslapis](media/mes-processing-log.png "Žaliavų registracijos tvarkymo žurnalo puslapis")
+![Žaliavų registracijos tvarkymo žurnalo puslapis.](media/mes-processing-log.png "Žaliavų registracijos tvarkymo žurnalo puslapis")
 
 Galite dirbti su bet kuria registracija sąraše pasirinkę ją ir tada pasirinkę vieną iš tolesnių mygtukų veiksmų juostoje:
 

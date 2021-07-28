@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 20ae6295389fa3cbaa7c90844d2a90f1e38387c4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5d91fc52b184fda73fcf36175598aa514945db48
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818783"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355136"
 ---
 # <a name="cost-object-dimensions"></a>Savikainos objekto dimensijos
 
@@ -34,7 +34,7 @@ Išlaidų objektas gali būti bet kokio tipo objektas, kurį norite įvertinti, 
 ## <a name="cost-object-dimensions-and-cost-object-dimension-members"></a>Išlaidų objekto dimensijos ir išlaidų objekto dimensijos nariai
 Išlaidų objektai vadinami *išlaidų objekto dimensijos*. Po to, kai nuspręsite, kurį objektą turėtų nurodyti išlaidų objekto dimensija, turite nurodyti atskiras dimensijos vertes arba importuoti jas į išlaidų apskaitą iš kitų išteklių sistemų. Šios atskiros dimensijos vertės vadinamos *išlaidų objekto dimensijos nariai*. Pavyzdžiui, norite naudoti finansinę dimensiją, kurios pavadinimas Išlaidų centras, kaip išlaidų objekto dimensiją. Norėdami pamatyti išlaidų srautą į atskirus išlaidų centrus, turite importuoti išlaidų objekto dimensijos narius. Šiuo atveju išlaidų objekto dimensijos nariai yra faktinių išlaidų centrai, pavyzdžiui, pardavimai, gamyba, administravimas ir geografinės vietos. Toliau pateikiamoje ekrano nuotraukoje pavaizduotas išlaidų centrų pavyzdys, kai išlaidų centrai yra išlaidų objekto dimensija su savo faktinių išlaidų centrais, kurie yra išlaidų objekto dimensijos nariai. 
 
-[![Ekrano kopija, kurioje rodomas išlaidų centras kaip išlaidų objekto dimensija](./media/cost-object-dimensions.png)](./media/cost-object-dimensions.png)
+[![Ekrano kopija, kurioje rodomas išlaidų centras kaip išlaidų objekto dimensija.](./media/cost-object-dimensions.png)](./media/cost-object-dimensions.png)
 
 ## <a name="import-cost-object-dimension-members-through-data-connectors"></a>Išlaidų objekto dimensijos narių importavimas naudojant duomenų jungtis
 Siekdami palengvinti išlaidų objekto dimensijos narių importavimą ir gauti vertes iš objektų, kuriuos norite naudoti kaip išlaidų objekto dimensijas, naudojate duomenų jungtis. Galite naudoti iš anksto paruoštas duomenų jungtis arba savo sukurtas pasirinktines duomenų jungtis.

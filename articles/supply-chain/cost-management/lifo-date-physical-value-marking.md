@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6a9f21c6c329ef37d515fa0fbdaca57b4f3be0a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 744111a28256bb737246605ca8a259ff5a3d2b5d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821542"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344573"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>LIFO data su faktine verte ir žymėjimu
 
@@ -55,7 +55,7 @@ Naudojant LIFO datos atsargų modelį, rekomenduojama reguliariai atlikti atsarg
 
 Naudojama nauja vidutinė savikaina atspindi finansiškai atnaujintų operacijų vidurkį – 15,00 USD. 
 
-Toliau pateiktoje iliustracijoje parodytas LIFO datos atsargų modelio poveikis, kai parinktis **Įtraukti faktinę vertę** nenaudojama. ![LIFO duomenys su faktinės vertės įtraukimu](./media/lifodatewithoutincludephysicalvalue.gif) 
+Toliau pateiktoje iliustracijoje parodytas LIFO datos atsargų modelio poveikis, kai parinktis **Įtraukti faktinę vertę** nenaudojama. ![LIFO duomenys su faktinės vertės įtraukimu.](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **Diagramos paaiškinimas**
 
@@ -90,7 +90,7 @@ Toliau pateiktoje iliustracijoje parodytos šios operacijos.
 
 Naudojama nauja vidutinė savikaina atspindi finansiškai atnaujintų operacijų vidurkį – 20,00 USD. 
 
-Toliau pateiktoje iliustracijoje parodytas LIFO atsargų modelio poveikis, kai parinktis **Įtraukti faktinę vertę** naudojama. ![LIFO duomenys su faktinės vertės įtraukimu](./media/lifodatewithincludephysicalvalue.gif) 
+Toliau pateiktoje iliustracijoje parodytas LIFO atsargų modelio poveikis, kai parinktis **Įtraukti faktinę vertę** naudojama. ![LIFO duomenys su faktinės vertės įtraukimu.](./media/lifodatewithincludephysicalvalue.gif) 
 
 **Diagramos paaiškinimas**
 
@@ -136,7 +136,7 @@ Toliau pateiktoje iliustracijoje parodytos šios operacijos.
 
 Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų operacijų vidurkį – 27,50 USD. 
 
-Toliau pateiktoje iliustracijoje parodytas LIFO atsargų modelio poveikis, naudojant žymėjimą tarp gavimų ir išdavimų. ![LIFO duomenys su žymėjimu](./media/lifodatewithmarking.gif) 
+Toliau pateiktoje iliustracijoje parodytas LIFO atsargų modelio poveikis, naudojant žymėjimą tarp gavimų ir išdavimų. ![LIFO duomenys su žymėjimu.](./media/lifodatewithmarking.gif) 
 
 **Diagramos paaiškinimas**
 

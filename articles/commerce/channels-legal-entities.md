@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 225fd6a07fee29414ac30a4602b4dfccdc4d742b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 698c556b8839ae1d657ef02796fe08ab9cd3621e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800620"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346039"
 ---
 # <a name="create-legal-entities"></a>Kurti juridinius subjektus
 
@@ -44,7 +44,7 @@ Norėdami sukurti naują juridinė subjektą „Dynamics 365 Commerce“, atliki
 1. Lauke **Šalis / regionas** įveskite arba pasirinkite reikšmę.
 1. Pasirinkite **Gerai**. 
 
-   ![Juridinio subjekto kūrimas](media/legal-entities.png)
+   ![Juridinio subjekto kūrimas.](media/legal-entities.png)
 
 1. Skyriuje **Bendri** pateikite toliau išvardytą bendrą informaciją apie juridinį subjektą: 
    1. Įveskite ieškos pavadinimą, jei paieškos pavadinimas reikalingas. Ieškos pavadinimas yra alternatyvus pavadinimas, kuris gali būti naudojamas šiam juridiniam subjektui ieškoti. 
@@ -67,7 +67,7 @@ Norėdami sukurti naują juridinė subjektą „Dynamics 365 Commerce“, atliki
 
 Toliau pateiktame vaizde parodytas išsamus juridinio subjekto pavyzdys.
 
-![Juridinio subjekto bendrasis skyrius](media/legal-entities-general.png)
+![Juridinio subjekto bendrasis skyrius.](media/legal-entities-general.png)
    
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

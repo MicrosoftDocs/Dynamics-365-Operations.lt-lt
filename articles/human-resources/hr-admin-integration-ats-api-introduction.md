@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c043ac9c19a810d1718f0d4907cd5e9d651d778f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 5038a1a1b3fa4c32f54ea87b03f886504e0b004f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055297"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357393"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>Aplikanto sekimo sistemos integravimo API įžanga
 
@@ -26,7 +26,7 @@ ms.locfileid: "6055297"
 
 Šioje temoje aprašoma „Dynamics 365 Human Resources“ aplikanto seimo sistemos (ATS) integravimo API. API paskirtis yra įjungti paleistą integravimą tarp „Dynamics 365 Human Resources“ ir partnerio ATS.
 
-![ATS integravimo eiga](media/hr-admin-integration-ats-api-introduction-flow.png)
+![ATS integravimo eiga.](media/hr-admin-integration-ats-api-introduction-flow.png)
 
 Integruota patirtis prasideda žmogiškuosiuose ištekliuose, kai samdantis vadovas sukuria samdymo užklausą. Kai užklausa aktyvuota, ATS ištraukia išsamią informaciją užklausai siekiant sukurti samdymo projektą. Tuomet jis seka samdymo vamzdynu, kad pasirinktų ir samdytų pretendentą pareigoms. Galiausiai ATS užbaigia kelionę aplink integravimą nusiųsdama pasirinkto pretendento įrašą žmogiškiesiems ištekliams. Pretendento įrašas tada gali praeiti pro daugiau samdymo patvirtinimų ir darbo eigų, kad sukurtų darbuotojo įrašą.
 
@@ -69,7 +69,7 @@ Duomenų modelis yra sukoncentruotas apie du pagrindinius objektus:
 
 Tolesnėje diagramoje rodomi santykiai su API. Keli tipai turi užsienio raktus su kitais, iš anksto esantys objektai žmogiškuosiuose ištekliuose čia nerodomi. Dokumente pateikta informacija apie objektus, kurie yra būdingi samdymo integravimo scenarijams. Nepaisant to, esama daugelio kitų objektų „Dataverse“ žiniatinklio API skirtų „Dynamics 365 Human Resources“, kurie gali būti taip pat svarbūs jūsų integravimui. Pavyzdžiui, jums gali taip pat reikėti išsamios čia nenustatytos informacijos darbuotojams, darbams, pareigoms ar kitiems objektams. Daugelis šių objektų yra nukreipiami į užsienio raktų santykius ar naršymo ypatybes.
 
-![ATS integravimo API duomenų modelis](media/hr-admin-integration-ats-api-data-model.png)
+![ATS integravimo API duomenų modelis.](media/hr-admin-integration-ats-api-data-model.png)
 
 ## <a name="recruiting-request-and-related-entities-and-option-sets"></a>Samdymo užklausa ir susiję objektai bei parinkčių rinkiniai
 

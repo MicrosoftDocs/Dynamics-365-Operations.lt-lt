@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 52baa707c36f3468263782dc8ec735e44af88e38
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 422b1f7f8dc99e1c96da9e266cadcdc09e7aac71
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804238"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347471"
 ---
 # <a name="configure-and-run-job-to-post-statements"></a>Konfigūruoti ir vykdyti išrašų registravimo užduotį
 
@@ -31,9 +31,9 @@ ms.locfileid: "5804238"
 2. Registruoti išrašus pakete
     * Pasirinkite organizacijos hierarchiją ir organizacijos mazgų medį, pasirinkite atskirą parduotuvę arba mazgą. Pasirinkite mazgą, jei norite kurti parduotuvių grupės paketinę užduotį.  
     * Spustelėkite rodyklę ir įtraukite savo pasirinkimą.  
-3. Spustelėkite skirtuką Vykdyti fone. ![Vykdyti fone](../dev-itpro/media/runbackground.png "Vykdyti fone") 
+3. Spustelėkite skirtuką Vykdyti fone. ![Vykdyti fone.](../dev-itpro/media/runbackground.png "Vykdyti fone") 
 4. Pažymėkite arba atžymėkite žymės langelį Paketinis vykdymas.
-![Paketinis vykdymas](../dev-itpro/media/batchprocessing.png "Paketinis vykdymas ir pasikartojimas") 
+![Paketinis vykdymas.](../dev-itpro/media/batchprocessing.png "Paketinis vykdymas ir pasikartojimas") 
 5. Spustelėkite Pasikartojimas.
 6. Lauke Pradžios data įveskite datą.
 7. Lauke Pradžios laikas įveskite laiką.

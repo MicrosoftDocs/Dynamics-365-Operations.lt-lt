@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 712f3e7cdfb8d521ae2afb59d90bc5102da53cb7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9be41f459b8ec8ca8ccad2360218b32299cb319e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813392"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354934"
 ---
 # <a name="asset-loans"></a>Turto skolinimas
 
@@ -44,7 +44,7 @@ Jei jūsų įmonė vykdo iš vidinių vietų ar klientų gauto turto remonto dar
 
 Norėdami peržiūrėti visą turto, kurį paskolinote kitoms vietoms ar klientams, sąrašą, pasirinkite **Turto valdymas** \> **Bendra** \> **Paskola su įkeistu turtu** \> **Visos paskolos su įkeistu turtu**. Jei prie turto pažymėtas žymės langelis **Baigta**, turtas buvo užregistruotas kaip grąžintas jūsų įmonei.
 
-![Priežiūros užklausų valdymas](media/06-manage-maintenance-requests.png)
+![Priežiūros užklausų valdymas.](media/06-manage-maintenance-requests.png)
 
 Puslapyje **Aktyvusis turto skolinimas** galite peržiūrėti visą paskolinto turto, kuris dar nebuvo grąžintas jūsų įmonei, sąrašą.
 

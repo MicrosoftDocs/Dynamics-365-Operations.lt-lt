@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 897133a27f9d3da2f576ce675c0949f824cde881
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fb09e1ccd4b2be08e43784330adf4092ca25f5a6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749494"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349165"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Apskaičiuoto lauko tipo ER duomenų šaltinių parametrizuotų kvietimų palaikymas
 
@@ -86,7 +86,7 @@ Taip pat turite atsiųsti ir vietoje saugoti toliau nurodytus failus.
 
     Modelio žemėlapio nustatymas šiame konfigūravime įgyvendina pagrindinius duomenų modelius bet kuriems ER formatams sukurtiems šiam modeliui ir įgyvendintiems „Finance and Operations“. Todėl duomenų šaltinių **Mokestis** ir **Gr** turinys tampa prieinamas ER formatams, pvz., abstrakčių duomenų šaltiniams.
 
-    ![Modelio susiejimo konstruktoriaus puslapis, kuriame rodomi duomenų šaltiniai „Mokestis“ ir „Gr“](media/er-calculated-field-type-01.png)
+    ![Modelio susiejimo konstruktoriaus puslapis, kuriame rodomi duomenų šaltiniai „Mokestis“ ir „Gr“.](media/er-calculated-field-type-01.png)
 
 5.  Uždarykite puslapį **Modelio susiejimo dizaino įrankis**.
 6.  Uždarykite puslapį **Modelio susiejimas**.
@@ -101,21 +101,21 @@ Taip pat turite atsiųsti ir vietoje saugoti toliau nurodytus failus.
     - Mokesčių ataskaitoje pateiki šiuos apmokestinimo lygius: „reguliarus“, „sumažintas“ ir „nėra“.
     - Pateikti įvairią skirtingo išsamumo kiekvieno apmokestinimo lygio informaciją.
 
-    ![Formato dizaino įrankio puslapis](media/er-calculated-field-type-02.png)
+    ![Formato dizaino įrankio puslapis.](media/er-calculated-field-type-02.png)
 
 4. Pasirinkite **Susiejimas**.
 5. Išskleiskite elementus **Modelis**, **Duomenys** ir **Suvestinė**. 
 
     Apskaičiuotame lauke **Model.Data.Summary.Level** yra išraiška, kuri grąžina apmokestinimo lygio kodą (**Reguliarus**, **Sumažintas**, **Nėra** arba **Kita**) kaip bet kurio mokesčio kodo tekstinę reikšmę, kurią galima gauti iš duomenų šaltinio **Model.Data.Summary** vykdymo metu.
 
-    ![Formato konstruktoriaus puslapis, kuriame pateikiama informacija apie duomenų modelį „Parametrizuotų kvietimų mokymo modelis“](media/er-calculated-field-type-03.png)
+    ![Formato konstruktoriaus puslapis, kuriame pateikiama informacija apie duomenų modelį „Parametrizuotų kvietimų mokymo modelis“.](media/er-calculated-field-type-03.png)
 
 6. Išplėskite elementą **Model**.**Data2**.
 7. Išplėskite elementą **Model**.**Data2.Summary2**.
    
     Duomenų šaltinis **Model**.**Data2.Summary2** yra sukonfigūruotas taip, kad duomenų šaltinio **Model.Data.Summary** operacijų informacija būtų grupuojama pagal apmokestinimo lygį (kurį grąžina apskaičiuotas laukas **Model.Data.Summary.Level**) ir būtų skaičiuojami agreguoti duomenys.
 
-    ![Formato konstruktoriaus puslapis, kuriame pateikiama duomenų šaltinio Model.Data2.Summary2 informacija](media/er-calculated-field-type-04.png)
+    ![Formato konstruktoriaus puslapis, kuriame pateikiama duomenų šaltinio Model.Data2.Summary2 informacija.](media/er-calculated-field-type-04.png)
 
 8. Peržiūrėkite apskaičiuotus laukus **Model**.**Data2.Level1**, **Model**.**Data2.Level2** ir **Model**.**Data2.Level3.** Šie apskaičiuoti laukai naudojami filtruoti įrašų sąrašui **Model**.**Data2.Summary2** ir pateikia tik įrašus, atitinkančius konkretų apmokestinimo lygį.
 9. Uždarykite puslapį **Formato dizaino įrankis**.
@@ -155,7 +155,7 @@ Pateiktą formatą galite patobulini į filtrą įtraukdami vieną apskaičiuot�
 
     Didžiausias parametrų, kuriuos galima nurodyti vienam apskaičiuotam laukui, skaičius yra 8.
 
-    ![Duomenų šaltinių sąrašo parametras](media/er-calculated-field-type-05.png)
+    ![Duomenų šaltinių sąrašo parametras.](media/er-calculated-field-type-05.png)
 
 5. Pasirinkite **Gerai**.
 
@@ -165,7 +165,7 @@ Pridėdami šį parametrą, nurodote sąlygą, kuri turi būti taikoma šiam aps
 
    Sukonfigūruotas parametras yra pasiekiamas šio apskaičiuoto lauko duomenų šaltinių sąraše. Parametrą į sukonfigūruotą išraišką galite įtraukti pasirinkdami **Įtraukti duomenų šaltinį.**
 
-   ![Duomenų šaltinio laukai](media/er-calculated-field-type-06.png)
+   ![Duomenų šaltinio laukai.](media/er-calculated-field-type-06.png)
 
 ### <a name="define-an-expression-for-adding-a-calculated-field"></a>Nurodykite apskaičiuoto lauko įtraukimo išraišką
 
@@ -181,7 +181,7 @@ Pridėdami šį parametrą, nurodote sąlygą, kuri turi būti taikoma šiam aps
 
 5. Pasirinkite **Įrašyti**.
 
-    ![Duomenų šaltinio lauko informacija](media/er-calculated-field-type-07.png)
+    ![Duomenų šaltinio lauko informacija.](media/er-calculated-field-type-07.png)
 
 6. Uždarykite puslapį **Formulės konstruktorius**.
 
@@ -191,7 +191,7 @@ Pridėdami šį parametrą, nurodote sąlygą, kuri turi būti taikoma šiam aps
 
 Puslapyje **Formato kūrimo įrankis** sukonfigūruotam parametrizuotam apskaičiuotam laukui **Lygiai** reikia argumento **Eilutė**.
 
-![Išplėstas apskaičiuoto lauko lygių sąrašas](media/er-calculated-field-type-08.png)
+![Išplėstas apskaičiuoto lauko lygių sąrašas.](media/er-calculated-field-type-08.png)
 
 ### <a name="use-the-configured-calculated-field-for-binding-format-elements&quot;></a>Naudokite sukonfigūruotą apskaičiuotą lauką formato elementams susieti
 
@@ -220,7 +220,7 @@ Negalimi pasikartojantys parametrizuoto apskaičiuoto lauko kvietimai.
 
 Galite pasirinkti **Redaguoti formulę** ir pakeisti pasirinkto susiejimo parametrizuoto apskaičiuoto lauko numatytąjį argumentą. Jei šio argumento nėra, vykdymo metu gali kilti klaidų – vartotojai informuojami apie tokią situaciją naudojamo formato patikrinimo metu.
 
-![Tikrinimo įspėjimo pranešimas](media/er-calculated-field-type-10.png)
+![Tikrinimo įspėjimo pranešimas.](media/er-calculated-field-type-10.png)
 
 ## <a name="configure-a-parameterized-calculated-field-to-return-a-record"></a>Sukonfigūruokite parametrizuotą apskaičiuotą lauką, kuris pateikia įrašą
 Kai parametrizuotas apskaičiuotas laukas pateikia įrašą, turite leisti atskirų šio įrašo laukų susiejimą su elementais. Tokiais atvejais nebus pirminio susiejimo su argumento reikšme parametrizuoto apskaičiuoto lauko iškvietimui – šią reikšmę reikia nurodyti vieno įrašo lauko susiejime.
@@ -272,7 +272,7 @@ Kai parametrizuotas apskaičiuotas laukas pateikia įrašą, turite leisti atski
 8. Pasirinkite **Redaguoti formulę**.
 9. Pakeiskite išraišką į **Model.Data2.LevelRecord("None").aggregated.Base**.
 
-![Atnaujinta išraiška](media/er-calculated-field-type-11.png)
+![Atnaujinta išraiška.](media/er-calculated-field-type-11.png)
 
 ## <a name="remove-calculated-fields-that-are-not-used"></a>Pašalinkite nenaudojamus apskaičiuotus laukus
 

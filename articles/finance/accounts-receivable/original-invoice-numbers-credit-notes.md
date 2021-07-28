@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8d7f32c5d3d29be8d1d2742c4017c1719cbd47a8
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 798e38d7fea53a13d713734dd0521552974176ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897337"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347839"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Nuorodos į originalias sąskaitas kredito pranešimuose
 
@@ -51,7 +51,7 @@ Atlikite šiuos žingsnius, kad nustatytumėte parametrą, kuris valdo, ar nuoro
 1. Eikite į **Gautinos sumos** \> **Nustatymai** \> **Gautinų sumų parametrai**.
 2. Skirtuke **Naujiniai** „FastTab“ **Sąskaita** nustatykite **Taikyti kredito išrašymą sąskaitos išdėstymą į prekybos ir projekto sąskaitos ataskaitas** parinktį į **Taip**.
 
-![Gautinų sąskaitų parametrų konfigūravimas](media/original-invoice-number-in-credit-note.jpg)
+![Gautinų sąskaitų parametrų konfigūravimas.](media/original-invoice-number-in-credit-note.jpg)
 
 ## <a name="define-references-to-original-invoices"></a>Nustatykite nuorodas į originalias sąskaitas
 
@@ -65,7 +65,7 @@ Naudokite tolesnes procedūras, kad nustatytumėte nuorodas į originalias sąsk
 4. Veiksmų juostoje **Sąskaitos** skirtuke, **Funkcijos** grupėje, rinkitės **Kredito sąskaitos išrašymas**.
 5. Įveskite nuorodą į originalią sąskaitą ir rinkitės priežastį taisymui.
 
-![Nustatykite nuorodą laisvo teksto sąskaitai](media/reference-original-invoice-FTI.jpg)
+![Nustatykite nuorodą laisvo teksto sąskaitai.](media/reference-original-invoice-FTI.jpg)
 
 ### <a name="customer-credit-note"></a>Kliento kredito pažyma
 
@@ -74,7 +74,7 @@ Naudokite tolesnes procedūras, kad nustatytumėte nuorodas į originalias sąsk
 3. Veiksmų juostoje **Parduoti** skirtuke, **kredito pažyma** grupėje, rinkitės **Kredito pažyma**.
 4. Įveskite taisymo priežastį. Nuoroda į originalią sąskaitą sukuriama automatiškai.
 
-![Nuorodos nustatymas prekybos užsakymui](media/reference-original-invoice-SO.jpg)
+![Nuorodos nustatymas prekybos užsakymui.](media/reference-original-invoice-SO.jpg)
 
 ### <a name="project-credit-note"></a>Projekto kredito pažyma
 
@@ -84,13 +84,13 @@ Naudokite tolesnes procedūras, kad nustatytumėte nuorodas į originalias sąsk
 4. Rinkitės **Kredito sąskaita**.
 5. Įveskite taisymo priežastį. Nuoroda į originalią sąskaitą sukuriama automatiškai.
 
-![Nustatykite nuorodą laisvo projekto sąskaitai](media/reference-original-invoice-project.jpg)
+![Nustatykite nuorodą laisvo projekto sąskaitai.](media/reference-original-invoice-project.jpg)
 
 ## <a name="printing-credit-notes"></a>Kredito pažymų spausdinimas
 
 Spausdindami laisvą tekstą, klientą ir projekto kredito pažymą, jis apims nuorodą į originalią sąskaitą ir taisymo priežastį.
 
-![Atspausdinta kredito pažyma](media/credit-note-FTI.jpg)
+![Atspausdinta kredito pažyma.](media/credit-note-FTI.jpg)
 
 > [!NOTE]
 > Įsitikinkite, kad spausdinami dokumentų formatai yra tinkamai sukonfigūruoti remiantis prielaida, kad nuorodos į originalias sąskaitas bus atspausdintos.

@@ -12,12 +12,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b59be8b395826914e8196009c339c2ced5a4debf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a537509fe034d85f8f4f441dc82d54efd3ed4f28
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818309"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348888"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>PVM / GST schemos atvirkštinio apmokestinimo mechanizmas
 
@@ -29,7 +29,7 @@ ms.locfileid: "5818309"
 
 | Funkcija                                              | Šalis/regionas                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Konkrečių funkcijų nėra                                | Austrija </br>Belgija </br>Bulgarija </br>Kroatija </br>Kipras </br>Čekijos Respublika </br>Danija  </br>Estija  </br>Suomija  </br>Prancūzija  </br>Vokietija  </br>Vengrija  </br>Islandija  </br>Airija  </br>Italija  </br>Latvija  </br>Lichtenšteinas  </br>Lietuva  </br>Liuksemburgas  </br>Olandija  </br>Norvegija, Lenkija </br>Portugalija </br>Rumunija  </br>Saudo Arabija </br>Singapūras  </br>Slovakija  </br>Slovėnija  </br>Ispanija  </br>Švedija  </br>Šveicarija  </br>Jungtinė Karalystė  </br>Jungtiniai Arabų Emyratai |
+| Konkrečių funkcijų nėra                                | Austrija </br>Belgija </br>Bulgarija </br>Kroatija </br>Kipras </br>Čekijos Respublika </br>Danija  </br>Estija  </br>Suomija  </br>Prancūzija  </br>Vokietija  </br>Vengrija  </br>Islandija  </br>Airija  </br>Italija  </br>Latvija  </br>Lichtenšteinas  </br>Lietuva  </br>Liuksemburgas  </br>Nyderlandai  </br>Norvegija, Lenkija </br>Portugalija </br>Rumunija  </br>Saudo Arabija </br>Singapūras  </br>Slovakija  </br>Slovėnija  </br>Ispanija  </br>Švedija  </br>Šveicarija  </br>Jungtinė Karalystė  </br>Jungtiniai Arabų Emyratai |
 | Atvirkštinis apmokestinimas papildomose šalyse            | Bahreinas  </br>Kuveitas  </br>Omanas  </br>Kataras                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | PVM / GST schemos atvirkštinio apmokestinimo mechanizmo įjungimas | Visos kitos šalys / regionai, išskyrus:  </br>Brazilija  </br>Indija  </br>Rusija                                                                                                                                                                                                                                                                                                                                                                                         |
  
@@ -121,7 +121,7 @@ Užregistravus atvirkštinio apmokestinimo pirkimo SF sukuriamos dvi PVM operaci
 
 Toliau pateiktoje ekrano kopijoje vienos operacijos kryptis yra **Gautinas PVM**, o kitos – **mokėtinas PVM**. 
 
-![Užregistruotas PVM](media/apac-sau-posted-sales-tax.png)
+![Užregistruotas PVM.](media/apac-sau-posted-sales-tax.png)
 
 ## <a name="enable-reverse-charge-mechanism-for-vatgst-scheme-feature"></a><a name="enable-reverse-charge"></a>Funkcijos PVM / GST schemos atvirkštinio apmokestinimo mechanizmas įjungimas
 Darbo srityje **Funkcijų valdymas** suraskite šią funkciją ir pasirinkite **Įjungti**.

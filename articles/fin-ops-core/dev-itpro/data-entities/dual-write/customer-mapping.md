@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 0015ca2ccbb0098a5a96bf56ff355fb2f9f8f626
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5af584eb0bdb65942921847219b46b8f93dae79d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748928"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350916"
 ---
 # <a name="integrated-customer-master"></a>Bendrieji integruoto kliento duomenys
 
@@ -36,7 +36,7 @@ Kliento duomenys gali būti tvarkomi daugiau nei vienoje „Dynamics 365” prog
 
 *Klientas* yra aiškiai apibrėžta koncepcija programose. Todėl kliento duomenų integravimas yra susijęs su klientų koncepcijos harmonizavimu tarp dviejų programų. Tolesnėje iliustracijoje pateiktas kliento duomenų srautas.
 
-![Kliento duomenų srautas](media/dual-write-customer-data-flow.png)
+![Kliento duomenų srautas.](media/dual-write-customer-data-flow.png)
 
 Klientai gali būti suskirstyti į du tipus: komerciniai/organizaciniai klientai ir vartotojai/galutiniai vartotojai. Šie du klientų tipai „Finance and Operations“ ir „Dataverse“ yra saugomi ir tvarkomi skirtingai.
 

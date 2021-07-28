@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 529f419a4e3e4e8807c6938fd2425ae01ce282f9
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: dc883606b832dc75b28f6209b05c0e35a51036b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051814"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359682"
 ---
 # <a name="recruit-job-candidates"></a>Įdarbinti darbo kandidatai
 
@@ -61,13 +61,13 @@ Jei jūsų organizacija turi kelias vietas, galite įtraukti jas taip, kad besik
 
 3. Laukelyje **Įdarbinimo užklausos vieta** įveskite vietos pavadinimą.
 
-   ![Įtrauktei įdarbinimo užklausos vietą](./media/hr-recruit-0a-add-location.png)
+   ![Įtraukti įdarbinimo užklausos vietą.](./media/hr-recruit-0a-add-location.png)
 
 4. **Aprašas** laukelyje įveskite vietos aprašą.
 
 5. Skyriuje **Vietą**, rinkitės **Įtraukti**. Jei iššoka **Naujas adresas** įveskite adresą vietai.
 
-   ![Įvesti adresą](./media/hr-recruit-0b-address.png)
+   ![Įvesti adresą.](./media/hr-recruit-0b-address.png)
 
 6. Skyriuje **Kontaktinė informacija**, įveskite informaciją vietos kontaktui.
 
@@ -83,11 +83,11 @@ Vadovai gali pateikti įdarbinimo užklausas žmogiškuosiuose ištekliuose. Jei
 
 3. pasirinkite **Prašyti įdarbinti**.
 
-   ![Pradėti įdarbinimo užklausą](./media/hr-recruit-1-request-to-recruit.png)
+   ![Pradėti įdarbinimo užklausą.](./media/hr-recruit-1-request-to-recruit.png)
 
 4. Užbaikite **Aprašas**, **Darbas** ir **Apskaičiuota pradžios data** laukelius.
 
-   ![Užbaikite įdarbinimo užklausą](./media/hr-recruit-2-request-to-recruit.png)
+   ![Užbaikite įdarbinimo užklausą.](./media/hr-recruit-2-request-to-recruit.png)
 
 5. Pasirinkite **Tęsti**. Įdarbinimo užklausa rodoma jūsų vietai.
 
@@ -95,7 +95,7 @@ Vadovai gali pateikti įdarbinimo užklausas žmogiškuosiuose ištekliuose. Jei
 
 7. Skyriuje **Darbas**, pakeiskite visą būtiną informaciją ir rinkitės **Sukurti išsamią informaciją darbui**.
 
-   ![Kuri išsamią informaciją iš užduoties](./media/hr-recruit-3-create-details-from-job.png)
+   ![Kuri išsamią informaciją iš užduoties.](./media/hr-recruit-3-create-details-from-job.png)
 
    Likusi įdarbinimo prašymo dalis bus užpildyta nustatąja informacijas darbui, kurį įvedėte.
 
@@ -103,13 +103,13 @@ Vadovai gali pateikti įdarbinimo užklausas žmogiškuosiuose ištekliuose. Jei
 
 9. Skyriuje **Pareigos**, rinkitės **Įtraukti** ir tada pasirinkite darbą šiam įdarbinimo prašymui.
 
-   ![Įtraukite pareigas](./media/hr-recruit-4-select-position.png)
+   ![Įtraukite pareigas.](./media/hr-recruit-4-select-position.png)
 
 10. Skyriuje **Įgūdžiai**, pasirinkite **Įtraukti** ir tada rinkitės įgūdžius.
 
 11. Skyriuje **Išsilavinimo reikalavimai**, Rinkitės **Įtraukiti** ir tada rinkitės vertes iš **Išsilavinimas** ir **Išsilavinimo lygio** iškrentančių meniu.
 
-   ![Įtraukti išsilavinimo reikalavimus](./media/hr-recruit-5-select-educational-requirements.png)
+   ![Įtraukti išsilavinimo reikalavimus.](./media/hr-recruit-5-select-educational-requirements.png)
 
 12. Skyriuje **Komentaras**, įtraukite komentarus, kaip būtina.
 
@@ -117,7 +117,7 @@ Vadovai gali pateikti įdarbinimo užklausas žmogiškuosiuose ištekliuose. Jei
 
 14. Kai jūsų jūsų įdarbinimo užklausa yra užbaigta ir esate pasirengęs pradėti įdarbinimo procesą, pasirinkite **Įjungti** meniu juostoje.
 
-   ![Įjungti įdarbinimo užklausą](./media/hr-recruit-6-activate-recruit-request.png)
+   ![Įjungti įdarbinimo užklausą.](./media/hr-recruit-6-activate-recruit-request.png)
 
 15. Pasirinkite **Įrašyti**.
 
@@ -131,7 +131,7 @@ Jei esate vadovas ir norite peržiūrėti savo turimas užklausas:
 
 3. Skyriuje **Mano komandos informacija**, rinkitės skirtuką **Įdarbinimo užklausos**.
 
-   ![Pasirinkite įdarbinimo užklausų skirtuką](./media/hr-recruit-7-recruiting-requests.png)
+   ![Pasirinkite įdarbinimo užklausų skirtuką.](./media/hr-recruit-7-recruiting-requests.png)
 
 4. Norėdami peržiūrėti ar redaguoti įdarbinimo užklausą, pasirinkite ją tinklelyje.
 
@@ -141,7 +141,7 @@ Jei esate žmogiškųjų išteklių profesionalas ir norite peržiūrėti visas 
 
 2. Pasirinkite **įdarbinimo užklausos**.
 
-   ![Peržiūrėti įdarbinimo užklausas personalo valdyme](./media/hr-recruit-8-recruiting-requests-personnel-management.png)
+   ![Peržiūrėti įdarbinimo užklausas personalo valdyme.](./media/hr-recruit-8-recruiting-requests-personnel-management.png)
 
 3. Norėdami peržiūrėti ar redaguoti įdarbinimo užklausą, pasirinkite ją tinklelyje.
 
@@ -155,7 +155,7 @@ Jei jūsų organizacija integravo su kita programa siekiant valdyti įdarbinimo 
 
 3. Skyriuje **Įdarbinimas**, rinkitės **Kandidatai**.
 
-   ![Peržiūrėti kandidatus](./media/hr-recruit-9-candidates.png)
+   ![Peržiūrėti kandidatus.](./media/hr-recruit-9-candidates.png)
 
 4. Norėdami įtraukti kandidatą, rinkitės **Naujas**. Norėdami redaguoti esamą kandidatą, rinkitės jį iš sąrašo ir tada rinkitės **Redaguoti**. Rodomas kandidato profilis.
 
@@ -163,7 +163,7 @@ Jei jūsų organizacija integravo su kita programa siekiant valdyti įdarbinimo 
 
 6. Skyriuje **Įdarbinimo užklausa**, rinkitės įdarbinimo užklausą siekiant susieti su kandidatu. Tuomet užbaikite **Apskaičiuota pradžios data**, **Įdarbinimo vadovas**, **Pareigos** ir **Aprašymo laukeliai** kaip būtina.
 
-   ![Susiekite su įdarbinimo užklausa](./media/hr-recruit-10-link-to-recruiting-request.png)
+   ![Susiekite su įdarbinimo užklausa.](./media/hr-recruit-10-link-to-recruiting-request.png)
 
 7. Užbaikite visą informaciją tolesnėse srityse, kurias norite įtraukti į kandidato įrašą:
    - **Komentarai**
@@ -182,11 +182,11 @@ Kai esate pasirengę samdyti kandidatą, atlikite šią procedūrą siekiant per
 
 1. Kandidato formoje rinkitės **Samdyti**.
 
-   ![Samdyti kandidatą](./media/hr-recruit-11-hire.png)
+   ![Samdyti kandidatą.](./media/hr-recruit-11-hire.png)
 
 2. Formoje **Samdyti naują darbuotoją** skyriuje **Išsami informacija**, užbaikite visus laukelius.
 
-   ![Įveskite naujo įdarbinto asmens išsamią informaciją](./media/hr-recruit-12-hire-new-worker.png)
+   ![Įveskite naujo įdarbinto asmens išsamią informaciją.](./media/hr-recruit-12-hire-new-worker.png)
 
 3. Skyriuje **Pareigų išsami informacija**, patikrinkite ir keiskite informaciją, kaip būtina.
 
@@ -203,7 +203,7 @@ Jei nusprendžiate nesamdyti kandidato, laikykitės šios procedūros siekiant p
 
 1. Kandidato formoje rinkitės **Nesamdyti**.
 
-   ![Nesamdyti kandidato](./media/hr-recruit-13-do-not-hire.png)
+   ![Nesamdyti kandidato.](./media/hr-recruit-13-do-not-hire.png)
 
 2. Rinkitės **Priežasties kodą** ir įtraukite visus komentarus.
 
@@ -215,7 +215,7 @@ Jei reikia, galite atmesti kandidatą po jo pasamdymo. Pavyzdžiui, kandidatas g
 
 - Kandidato formoje rinkitės **Atmesti kandidatą**.
 
-  ![Atmesti kandidatą](./media/hr-recruit-14-dismiss-candidate.png)
+  ![Atmesti kandidatą.](./media/hr-recruit-14-dismiss-candidate.png)
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

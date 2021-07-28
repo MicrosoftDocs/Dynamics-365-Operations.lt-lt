@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: bd979bf5369b6878caaee82fc9c6a40d363cc165
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: c9dfad3615cfe4f9937f0dc30c4684cd14f420c1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894153"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348145"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Pasirinktinės saugyklos vietos sugeneruotiems dokumentams nurodymas
 
@@ -41,7 +41,7 @@ Visos užduotys šioje temoje gali būti atliktos naudojant **USMF** įmonę.
 
 Norėdami sugeneruoti dokumentus, kuriems planuojate pridėti pasirinktinę saugojimo vietą, [importuokite](er-download-configurations-global-repo.md) **ilgalaikio turto keitimų taikymo** ER formato konfigūraciją į dabartinę topologiją.
 
-![Konfigūracijos saugyklos puslapis](./media/er-custom-storage-generated-files-import-format.png)
+![Konfigūracijos saugyklos puslapis.](./media/er-custom-storage-generated-files-import-format.png)
 
 ## <a name="run-the-fixed-asset-roll-forward-report"></a>Ilgalaikio turto keitimų taikymo ataskaitos vykdymas
 
@@ -52,7 +52,7 @@ Norėdami sugeneruoti dokumentus, kuriems planuojate pridėti pasirinktinę saug
 5. Lauke **Formato konvertavimas** pasirinkite **Ilgalaikio turto keitimų taikymas**.
 6. Pasirinkite **Gerai**.
 
-![Ilgalaikio turto keitimų taikymo ataskaitos vykdymo dialogo langas](./media/er-custom-storage-generated-files-runtime-dialog.png)
+![Ilgalaikio turto keitimų taikymo ataskaitos vykdymo dialogo langas.](./media/er-custom-storage-generated-files-runtime-dialog.png)
 
 Programoje „Microsoft Excel“ peržiūrėkite siunčiamą dokumentą, kurį sugeneruoja ir kurį galima atsisiųsti. Tai yra [numatytoji](electronic-reporting-destinations.md#default-behavior) ER formato, kurio [paskirties vietos](electronic-reporting-destinations.md) besukonfigūruotos ir kuris veikia interaktyviuoju režimu, elgsena.
 

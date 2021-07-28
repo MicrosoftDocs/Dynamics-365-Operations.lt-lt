@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c09dee94891fb78c22e8cf9f203cb7f5531bb968
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 4fd08d9eeb9bb6ac9e3c19ff3c8592086c050182
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6016141"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354959"
 ---
 # <a name="cost-and-date-control"></a>Kaštų ir datos valdymas
 
@@ -58,7 +58,7 @@ Su turtu, funkcinėmis vietomis ir darbo užsakymais susiję skaičiavimai yra b
 
     Toliau pateiktame paveiksle rodomas dialogo langas **Turto kaštų valdymas**.
 
-    ![Dialogo langas „Turto kaštų valdymas“](media/01-controlling-and-reporting.png)
+    ![Dialogo langas „Turto kaštų valdymas“.](media/01-controlling-and-reporting.png)
 
 10. Puslapyje **Turto kaštų valdymas** spustelėkite mygtukus **Grupuoti pagal**, kad būtų rodomas pageidaujamas skaičiavimo išsamumo lygis. Pažymėti mygtukai **Grupuoti pagal** yra paryškinti. Norėdami suaktyvinti arba išjungti, spustelėkite mygtuką.
 
@@ -71,7 +71,7 @@ Toliau pateiktoje ekrano kopijoje rodomas **Turto kaštų valdymas** skaičiavim
 - Laukuose **Atviri patvirtinti kaštai** rodomi įsipareigojimai sumokėti už elementus, valandas ir paslaugas, kurias užsakėte arba gavote, bet neapmokėjote. 
 - Kai visos naudojimo registracijos užregistruotos, lauke **Faktiniai kaštai** rodomi susiję kaštai.
 
-![„Turto kaštų valdymas“ skaičiavimo rezultatų pavyzdys](media/02-controlling-and-reporting.png)
+![„Turto kaštų valdymas“ skaičiavimo rezultatų pavyzdys.](media/02-controlling-and-reporting.png)
 
 Kitas būdas skaičiuoti kaštus – atlikti kelis pasirinkimus **Visas turtas** arba **Aktyvus turtas**. Tada skirtuke **Bendra** spustelėkite mygtuką **Kaštų valdymas**. Dialogo lange **Turto kaštų valdymas** pažymėtas turtas yra automatiškai įtraukiamas į „FastTab“ **Įtrauktini įrašai** lauką **Turtas**. Spustelėkite **Gerai** ir rodomas pasirinkto turto kaštų skaičiavimas. Tą pačią procedūrą galima atlikti su funkcinėmis vietomis dalyje **Visos funkcinės vietos** arba **Aktyvios funkcinės vietos** ir su darbo užsakymais dalyje **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**.
 
@@ -99,7 +99,7 @@ Toliau pateiktoje ekrano kopijoje rodomas rezultatų **Darbo užsakymo datos val
 - Lauke **Vid. pabaigos delsa** rodomas dienų tarp darbo užsakymo suplanuotos pabaigos datos, palygintos su faktine pabaigos data, skirtumas. Jei, pavyzdžiui, faktinė pabaigos data buvo trys dienos iki suplanuotos pabaigos datos, lauke bus rodoma „3“.  
 - Laukuose **Įvykiai** rodomas laiko nuokrypių, susijusių su darbo užsakymo suplanuota ir faktine pradžios data ir suplanuota ir faktine pradžios data, skaičius.
 
-![„Darbo užsakymo datos valdymas“ skaičiavimo rezultatų pavyzdys](media/03-controlling-and-reporting.png)
+![„Darbo užsakymo datos valdymas“ skaičiavimo rezultatų pavyzdys.](media/03-controlling-and-reporting.png)
 
 
 
