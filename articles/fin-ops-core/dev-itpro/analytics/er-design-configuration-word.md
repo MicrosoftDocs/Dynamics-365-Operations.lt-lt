@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 7790d7e581b9b4260a4c57af84b02a182dde953d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 7bc02a97005f84f7ac01f9fd9371f2a0a29314c4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894081"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346649"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Naujos ER konfigūracijos, skirtos ataskaitų generavimui „Word“ formatu, kūrimas
 
@@ -26,37 +26,37 @@ ms.locfileid: "5894081"
 
 Norėdami generuoti ataskaitas kaip „Microsoft Word” dokumentus, turite sukurti ataskaitų šabloną naudodami, pavyzdžiui, „Word” darbalaukio programą. Tolesnė iliustracija rodo valdiklio ataskaitos, kurią galima sugeneruoti rodyti išsamią apdorotų tiekėjo mokėjimų informaciją, pavyzdinį šabloną.
 
-![Valdiklio ataskaitos pavyzdinis šablonas „Word” darbalaukio programoje](./media/er-design-configuration-word-image1.png)
+![Valdiklio ataskaitos pavyzdinis šablonas „Word” darbalaukio programoje.](./media/er-design-configuration-word-image1.png)
 
 Norėdami naudoti „Word” dokumentą kaip ataskaitų „Word” formatu šabloną, galite sukonfigūruoti naują [Elektroninių ataskaitų (ER)](general-electronic-reporting.md) [sprendimą](er-quick-start1-new-solution.md). Šis sprendimas turi apimti ER [konfigūraciją,](general-electronic-reporting.md#Configuration) kurioje yra ER [formato](general-electronic-reporting.md#FormatComponentOutbound) komponentas.
 
 > [!NOTE]
 > Kai kuriate naują ER formato konfigūraciją generuoti ataskaitoms „Word” formatu, turite pasirinkti **„Word”** kaip formato tipą išplečiamajame dialogo lange **Kurti konfigūraciją** arba palikti lauką **Formato tipas** tuščią.
 
-![Formato konfigūracijos kūrimas puslapyje Konfigūracijos](./media/er-design-configuration-word-image2.gif)
+![Formato konfigūracijos kūrimas puslapyje Konfigūracijos.](./media/er-design-configuration-word-image2.gif)
 
 Sprendimo ER formato komponente turi būti **„Excel”\\Failas** formato elementas ir jis turi būti susietas su „Word” dokumentu, kuris bus naudojamas kaip vykdymo aplinkoje sugeneruotų ataskaitų šablonas. Norėdami konfigūruoti ER formato komponentą, turite atidaryti sukurtos ER konfigūracijos [juodraščio](general-electronic-reporting.md#component-versioning) versiją ER formato dizaino įrankyje. Tada įtraukite **„Excel”\\Failas** elementą, pridėkite savo „Word” šabloną į redaguojamą ER formatą ir susiekite tą šabloną su **„Excel”\\Failas** elementu, kurį pridėjote.
 
 > [!NOTE]
 > Kai pridedate šabloną, turite naudoti [dokumento tipą](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types), kuris buvo anksčiau [sukonfigūruotas](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) ER parametruose saugoti ER formatų šablonams.
 
-![Šablono pridėjimas Formato kūrimo įrankio puslapyje](./media/er-design-configuration-word-image3.gif)
+![Šablono pridėjimas Formato kūrimo įrankio puslapyje.](./media/er-design-configuration-word-image3.gif)
 
 Galite pridėti **„Excel”\\Diapazonas** ir **„Excel”\\Langelis** įdėtuosius elementus **„Excel”\\Failas** elementui tam, kad nurodytumėte struktūrą duomenų, kurie bus įvesti generuojamuose ataskaitose vykdymo metu. Tada turite susieti tuos elementus su redaguojamo ER formato duomenų šaltiniais tam, kad galėtumėte nurodyti faktinius duomenis, kurie bus įvesti generuojamuose ataskaitose vykdymo metu.
 
-![Įdėtųjų elementų pridėjimas Formato dizaino įrankio puslapyje](./media/er-design-configuration-word-image4.gif)
+![Įdėtųjų elementų pridėjimas Formato dizaino įrankio puslapyje.](./media/er-design-configuration-word-image4.gif)
 
 Įrašant ER formato pakeitimus kūrimo metu, hierarchinė formato struktūra yra saugoma pridėtame „Word” šablone kaip [pasirinktinė XML dalis](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) pavadinimu **Ataskaita**. Turite pasiekti modifikuotą šabloną, atsisiųsti jį iš „Finance”, išsaugoti vietinėje sistemoje ir jį atidaryti „Word” darbalaukio programoje. Šioje iliustracijoje vaizduojamas vietinėje sistemoje saugomas valdiklio su pasirinktine XML dalimi **Ataskaita** pavyzdžio šablonas.
 
-![Pavyzdinio ataskaitos šablono peržiūra „Word” darbalaukio programoje](./media/er-design-configuration-word-image5.gif)
+![Pavyzdinio ataskaitos šablono peržiūra „Word” darbalaukio programoje.](./media/er-design-configuration-word-image5.gif)
 
 Kai vykdomi **„Excel”\\Diapazonas** ir **„Excel”\\Langelis** formato elementų susiejimai vykdymo aplinkoje, kiekvieno susiejimo atnešti duomenys atsiranda sugeneruotame „Word” kaip atskiras pasirinktinės XML dalies **Ataskaita** laukas. Norėdami įvesti vertes iš pasirinktinės XML dalies laukų sugeneruotame dokumente, turite pridėti atitinkamus „Word” [turinio valdiklius](/office/client-developer/word/content-controls-in-word) į jūsų „Word” šabloną, kad jie būtų naudojami kaip vietos rezervavimo ženklai duomenims, kurie bus pildomi vykdymo metu. Norėdami nurodyti, kaip užpildyti turinio valdikliai, susiekite kiekvieną turinio valdiklį su atitinkamu pasirinktinės XML dalies **Ataskaita** lauku.
 
-![Turinio valdiklių įtraukimas ir susiejimas „Word” darbalaukio programoje](./media/er-design-configuration-word-image6.gif)
+![Turinio valdiklių įtraukimas ir susiejimas „Word” darbalaukio programoje.](./media/er-design-configuration-word-image6.gif)
 
 Tada turite pakeisti pradinį redaguojamo ER formato „Word” šabloną modifikuotu šablonu, kuriame dabar yra „Word” turinio valdikliai, kurie buvo susieti su pasirinktinės XML dalies **Ataskaita** laukais.
 
-![Šablono pakeitimas Formato kūrimo įrankio puslapyje](./media/er-design-configuration-word-image7.gif)
+![Šablono pakeitimas Formato kūrimo įrankio puslapyje.](./media/er-design-configuration-word-image7.gif)
 
 Kai vykdote sukonfigūruotą ER formatą, pridėtas „Word” šablonas naudojamas naujai ataskaitai generuoti. Faktiniai duomenys saugomi „Word” ataskaitoje kaip pasirinktinė XML dalis, pavadinta **Ataskaita**. Kai atidaroma sugeneruota ataskaita, „Word” turinio valdikliai užpildomi duomenimis iš **Ataskaita** pasirinktinės XML dalies.
 

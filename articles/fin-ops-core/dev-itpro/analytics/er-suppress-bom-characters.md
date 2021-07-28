@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d5ada93c0192aadac70c38c8c8c4f3af86ff6fc3
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 2b26e31748f97603b0b175f79a8daae2650261d7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893281"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345893"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>ER konfigūracijų kūrimas tam, kad sugeneruotuose failuose nebūtų rodomi KS simboliai
 
@@ -29,14 +29,14 @@ Galite sukurti [Elektroninių ataskaitų (ER)](general-electronic-reporting.md) 
 > [!NOTE]
 > Jei formate yra neteisingas kodavimo pavadinimas, įrašant formato parametrų pakeitimus įvyksta klaida.
 
-![Šakninio elemento pridėjimas Formato dizaino įrankio puslapyje](./media/er-suppress-bom-characters-image1.gif)
+![Šakninio elemento pridėjimas Formato dizaino įrankio puslapyje.](./media/er-suppress-bom-characters-image1.gif)
 
 Jei kaip kodavimą nurodysite **„UTF-8”**, **„UTF-16”** arba **„UTF-32”**, parinktis **Nerodyti KS simbolių** taps galima. Nustatykite šią parinktį į **Taip** tam, kad [baitų eiliškumo žymos (KS) simboliai](/globalization/encoding/byte-order-mark) būtų nerodomi siunčiamuose failuose, sugeneruotuose vykdymo aplinkoje, kai vykdomas redaguotinas ER formatas.
 
 > [!NOTE]
 > Jei paliksite lauką **Kodavimas** tuščią, bus naudojamas numatytasis **„UTF-8”** kodavimas.
 
-![Parinkties Nerodyti KS simbolių nustatymas Formato dizaino įrankio puslapyje](./media/er-suppress-bom-characters-image2.gif)
+![Parinkties Nerodyti KS simbolių nustatymas Formato dizaino įrankio puslapyje.](./media/er-suppress-bom-characters-image2.gif)
 
 Norėdami peržiūrėti funkciją vykdymo aplinkoje, atlikite atitinkamą procedūrą. Pavyzdžiui, atlikite temos [ER formato XML elementų vykdymo atidėjimas](er-defer-xml-element.md) veiksmus. Atlikę šios temos skyriaus [Suvestinės XML elemento vykdymo atidėjimas apskaičiuoto bendro skaičiaus panaudojimui](er-defer-xml-element.md#modify-the-format-so-that-the-calculation-is-based-on-generated-output) veiksmus, atlikite šiuos papildomus veiksmus.
 
@@ -59,7 +59,7 @@ Norėdami peržiūrėti funkciją vykdymo aplinkoje, atlikite atitinkamą proced
 
     Pirmas skirtumas, kurį pastebėsite, yra failo antraštėje. Faile „SampleXmlReport.xml” yra KS simbolis, o faile „SampleXmlReport (1).xml” – nėra.
 
-    ![Sugeneruotų failų palyginimas naudojant failų lyginimo priemonę](./media/er-suppress-bom-characters-image3.png)
+    ![Sugeneruotų failų palyginimas naudojant failų lyginimo priemonę.](./media/er-suppress-bom-characters-image3.png)
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

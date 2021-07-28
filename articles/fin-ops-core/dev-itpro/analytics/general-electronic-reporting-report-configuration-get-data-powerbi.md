@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b37bc608b3b987016622d9cd0abc66e420025d26
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 06859fc123e53ad58120bae6f936176176009ee1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944442"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345719"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Įrankio Elektroninės ataskaitos (ER) konfigūravimas duomenims perkelti į „Power BI“
 
@@ -53,12 +53,12 @@ Norint įvykdyti šios temos pavyzdžio užduotis, reikia toliau nurodytų priei
 1. Puslapyje **Dokumentų valdymo parametrai** sukonfigūruokite prieigą prie „SharePoint Server“, kuris bus naudojamas įmonėje, prie kurios esate prisijungę (šiame pavyzdyje – įmonėje DEMF).
 2. Patikrinkite ryšį su „SharePoint Server“ ir įsitikinkite, kad prieiga jums suteikta.
 
-    [![Puslapis Dokumentų valdymo parametrai](./media/ger-power-bi-sharepoint-server-setting-1024x369.png)](./media/ger-power-bi-sharepoint-server-setting.png)
+    [![Puslapis Dokumentų valdymo parametrai.](./media/ger-power-bi-sharepoint-server-setting-1024x369.png)](./media/ger-power-bi-sharepoint-server-setting.png)
 
 3. Atidarykite sukonfigūruotą „SharePoint“ svetainę. Sukurkite naują aplanką, kuriame ER išsaugos „Excel“ failus su verslo duomenimis, kurie „Power BI“ ataskaitose reikalingi kaip „Power BI“ duomenų rinkinių šaltinis.
 4. Puslapyje **Dokumentų tipai** sukurkite naują dokumento tipą, kuris bus naudojamas norint pasiekti ką tik sukurtą „SharePoint“ aplanką. Lauke **Grupė** įveskite **Failas**, lauke **Vieta** įveskite **SharePoint** ir tada įveskite „SharePoint“ aplanko adresą.
 
-    [![Puslapis Dokumentų tipai](./media/ger-power-bi-sharepoint-document-type-1024x485.png)](./media/ger-power-bi-sharepoint-document-type.png)
+    [![Puslapis Dokumentų tipai.](./media/ger-power-bi-sharepoint-document-type-1024x485.png)](./media/ger-power-bi-sharepoint-document-type.png)
 
 ## <a name="configure-er-parameters"></a>ER parametrų konfigūravimas
 1. Darbo srityje **Elektroninės ataskaitos** spustelėkite saitą **Elektroninių ataskaitų parametrai**.
@@ -68,23 +68,23 @@ Norint įvykdyti šios temos pavyzdžio užduotis, reikia toliau nurodytų priei
 ## <a name="use-an-er-data-model-as-the-source-of-data"></a>ER duomenų modelio kaip duomenų šaltinio naudojimas
 ER duomenų modelis turi būti nustatytas kaip verslo duomenų, kurie bus naudojami „Power BI“ ataskaitose, šaltinis. Šis duomenų modelis įkeliamas iš ER konfigūracijų saugyklos. Daugiau informacijos žr. puslapyje [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](download-electronic-reporting-configuration-lcs.md) arba paleiskite užduočių vedlį **ER: konfigūracijos importavimas iš „Lifecycle Services‟**. Pasirinkite **Intrastat** kaip duomenų modelį, kuris bus įkeltas iš pasirinktos ER konfigūracijų saugyklos. (Šiame pavyzdyje naudojama 1 modelio versija.) **Intrastat** ER modelio konfigūraciją galite pasiekti puslapyje **Konfigūracijos**.
 
-[![„Intrastat ER" modelio kofigūracija konfigūracijos puslapyje](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
+[![„Intrastat ER" modelio kofigūracija konfigūracijos puslapyje.](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
 
 ## <a name="design-an-er-format-configuration"></a>ER formato konfigūracijos kūrimas
 Turite sukurti naują ER formato konfigūraciją, kuri **Intrastat** duomenų modelį naudoja kaip verslo duomenų šaltinį. Šio formato konfigūracija turi išvesties rezultatus generuoti kaip „OpenXML“ („Excel“ failo) formato elektroninius dokumentus. Norėdami gauti daugiau informacijos, paleiskite užduočių vedlį **ER: konfigūracijos, skirtos generuoti ataskaitas OPENXML formatu, kūrimas**. Naują konfigūraciją pavadinkite **Importavimo / eksportavimo veiklos**, kaip pavaizduota tolesnėje iliustracijoje. Kurdami ER formatą, naudokite „Excel“ failą [ER duomenys – importavimo ir eksportavimo informacija](https://download.microsoft.com/download/f/7/5/f755c0fd-025c-4aa9-920b-909abb8302ad/ER-data-import-and-export-details.xlsx) kaip šabloną. (Norėdami daugiau informacijos apie tai, kaip importuoti formato šabloną, paleiskite užduočių vedlį).
 
-[![Importavimo / eksportavimo veiklų konfigūracija](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png)
+[![Importavimo / eksportavimo veiklų konfigūracija.](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png)
 
 Norėdami keisti formato **Importavimo / eksportavimo veiklos** konfigūraciją, atlikite tolesnius veiksmus.
 
 1. Spustelėkite **Konstruktorius**.
 2. Skirtuke **Formatas** šio formato failo elementą pavadinkite **„Excel“ išvesties failas**.
 
-    [![„Excel“ išvesties failo elementas](./media/ger-power-bi-format-configuration-file-element-name-1024x395.png)](./media/ger-power-bi-format-configuration-file-element-name.png)
+    [![„Excel“ išvesties failo elementas.](./media/ger-power-bi-format-configuration-file-element-name-1024x395.png)](./media/ger-power-bi-format-configuration-file-element-name.png)
 
 3. Skirtuke **Susiejimas** nurodykite „Excel“ failo, kuris bus visada generuojamas naudojant šį formatą, pavadinimą. Konfigūruokite susijusią išraišką, kad būtų pateikta reikšmė **Importavimo ir eksportavimo informacija** (failo vardo plėtinys .xlsx bus pridėtas automatiškai).
 
-    [![Formato kūrimo įrankis](./media/ger-power-bi-format-configuration-output-file-name-1024x396.png)](./media/ger-power-bi-format-configuration-output-file-name.png)
+    [![Formato kūrimo įrankis.](./media/ger-power-bi-format-configuration-output-file-name-1024x396.png)](./media/ger-power-bi-format-configuration-output-file-name.png)
 
 4. Įtraukite naują šio formato duomenų šaltinio elementą. (Šis išvardijimas bus reikalingas atliekant tolesnį duomenų susiejimą.)
 
@@ -92,19 +92,19 @@ Norėdami keisti formato **Importavimo / eksportavimo veiklos** konfigūraciją,
     2. Pasirinkite duomenų šaltinio tipą **Duomenų modelių išvardijimas**.
     3. Nurodykite duomenų modelio išvardijimą **Kryptis**.
 
-    [![direction_enum](./media/ger-power-bi-format-configuration-mapping-added-enum-1024x454.png)](./media/ger-power-bi-format-configuration-mapping-added-enum.png)
+    [![„direction_enum”.](./media/ger-power-bi-format-configuration-mapping-added-enum-1024x454.png)](./media/ger-power-bi-format-configuration-mapping-added-enum.png)
 
 5. Atlikite **Intrastat** duomenų modelio elementų ir sukurto formato elementų susiejimą, kaip pavaizduota tolesnėje iliustracijoje.
 
-    [![Susiejimas](./media/ger-power-bi-format-configuration-mapping-details-1024x454.png)](./media/ger-power-bi-format-configuration-mapping-details.png)
+    [![Susiejimo užbaigimas.](./media/ger-power-bi-format-configuration-mapping-details-1024x454.png)](./media/ger-power-bi-format-configuration-mapping-details.png)
 
 Paleidus ER formatą sugeneruojamas išvesties rezultatas „Excel“ formatu. „Intrastat“ operacijų informacija nusiunčiama į išeigos rezultatą ir atskiriama kaip operacijos, nurodančios importavimo veiklas arba eksportavimo veiklas. Spustelėkite **Paleisti**, norėdami išbandyti naują „Intrastat“ operacijų sąrašo ER formatą puslapyje **Intrastat** (**Mokestis** &gt; **Deklaracijos** &gt; **Užsienio prekyba** &gt; **Intrastat**).
 
-[![Puslapis „Intrastat“](./media/ger-power-bi-format-test-run-transactions-1024x322.png)](./media/ger-power-bi-format-test-run-transactions.png)
+[![Puslapis „Intrastat“.](./media/ger-power-bi-format-test-run-transactions-1024x322.png)](./media/ger-power-bi-format-test-run-transactions.png)
 
 Sugeneruojamas tolesnis išeigos rezultatas. Failas pavadintas **Importavimo ir eksportavimo informacija.xlsx**, kaip nurodėte formato parametruose.
 
-[![Importavimo ir eksportavimo informacija.xlsx](./media/ger-power-bi-format-test-run-output-1024x472.png)](./media/ger-power-bi-format-test-run-output.png)
+[![Importavimo ir eksportavimo informacija.xlsx.](./media/ger-power-bi-format-test-run-output-1024x472.png)](./media/ger-power-bi-format-test-run-output.png)
 
 ## <a name="configure-the-er-destination"></a>ER paskirties vietos konfigūravimas
 Turite sukonfigūruoti ER sistemą siųsti naujos ER formato konfigūracijos išeigos rezultatą ypatingu būdu.
@@ -126,35 +126,35 @@ Spustelėkite naujo paskirties vietos įrašo mygtuką **Parametrai**. Tada dial
 1. Puslapio **Konfigūracijos** (**Organizacijos administravimas** &gt; **Elektroninės ataskaitos** &gt; **Konfigūracijos**) konfigūracijų medyje pasirinkite anksčiau sukurtą konfigūraciją **Importavimo / eksportavimo veiklos**.
 2. Keisti 1.1 versijos būseną iš **Juodraštis** į **Baigta**, kad šį formatą būtų galima naudoti.
 
-    [![Importuoti/eksportuoti veiklos konfigūraciją konfigūracijos puslapyje](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
+    [![Importuoti/eksportuoti veiklos konfigūraciją konfigūracijos puslapyje.](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
 
 3. Pasirinkite baigtą konfigūracijos **Importavimo / eksportavimo veiklos** versiją ir spustelėkite **Paleisti**. Atkreipkite dėmesį, kad sukonfigūruota paskirties vieta taikoma išeigos rezultatui, sugeneruotam „Excel“ formatu.
 4. Nustatykite parinktį **Paketinis vykdymas** į **Taip**, norėdami šią ataskaitą paleisti režimu be priežiūros.
 5. Spustelėkite **Pasikartojimas**, norėdami suplanuoti reikiamą šio paketinio vykdymo pasikartojimą. Pasikartojimas nurodo, kaip dažnai atnaujinti duomenys bus perduoti į „Power BI“.
 
-    [![Dialogo langas Elektroninių ataskaitų parametrai](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png)
+    [![Elektroninių ataskaitų parametrų dialogo langas.](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png)
 
 6. Sukonfigūruotą ER ataskaitos vykdymo užduotį galite rasti puslapyje **Paketinės užduotys** (**Sistemos administravimas &gt; Užklausos &gt; Paketinės užduotys**).
 
-    [![Puslapis Paketinės užduotys](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png)
+    [![Puslapis Paketinės užduotys.](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png)
 
 7. Kai ši užduotis vykdoma pirmą kartą, pasirinktame „SharePoint“ aplanke paskirties vieta sukuria naują „Excel“ failą sukonfigūruotu pavadinimu. Kaskart vėliau paleidus užduotį, paskirties vieta sukuria naują šio „Excel“ failo versiją.
 
-    [![Nauja „Excel“ failo versija](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
+    [![Nauja „Excel“ failo versija.](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
 
 ## <a name="create-a-power-bi-dataset-by-using-the-output-result-of-the-er-format"></a>„Power BI“ duomenų rinkinio kūrimas naudojant ER formato išeigos rezultatą
 1. Prisijunkite prie „Power BI“ ir atidarykite esamą „Power BI“ grupę (darbo sritis) arba sukurkite naują grupę. Skyriaus **Duomenų importavimas arba prijungimas** dalyje **Failai** spustelėkite **Įtraukti** arba kairiosios srities dalyje **Duomenų rinkiniai** spustelėkite pliuso ženklą (**+**).
 
-    [![Duomenų rinkinio kūrimas](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png)
+    [![Duomenų rinkinio kūrimas.](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png)
 
 2. Pasirinkite parinktį **SharePoint – komandos svetainės**, tada įveskite naudojamo „SharePoint Server“ kelią (pateiktame pavyzdyje – `https://ax7partner.litware.com`).
 3. Nueikite į aplanką **/Shared Documents/GER data/PowerBI** bei pasirinkite „Excel“ failą, kurį sukūrėte kaip naujo „Power BI“ duomenų rinkinio duomenų šaltinį.
 
-    [![„Excel“ failo pasirinkimas](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png)
+    [![„Excel“ failo pasirinkimas.](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png)
 
 4. Spustelėkite **Prijungti**, tada – **Importuoti**. Sukuriamas naujas duomenų rinkinys, pagrįstas pasirinktu „Excel“ failu. Duomenų rinkinį taip pat galima automatiškai įtraukti į naujai sukurtą ataskaitų sritį.
 
-    [![Duomenų rinkinys ataskaitų srityje](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png)
+    [![Duomenų rinkinys ataskaitų srityje.](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png)
 
 5. Konfigūruoti šio duomenų rinkinio naujinimo grafiką norėdami vykdyti periodinį naujinimą. Periodiniai naujinimai suteikia galimybę naudoti naujus verslo duomenis, periodiškai paleidžiant ER ataskaitą per naujas „Excel“ failo versijas, sukurtas „SharePoint Server“.
 
@@ -168,17 +168,17 @@ Spustelėkite naujo paskirties vietos įrašo mygtuką **Parametrai**. Tada dial
 
 3. Įrašykite „Power BI“ ataskaitą kaip ataskaitą **Importavimo ir eksportavimo informacija**.
 
-    [![Importavimo ir eksportavimo informacijos ataskaita](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png)
+    [![Importavimo ir eksportavimo informacijos ataskaita.](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png)
 
     Atkreipkite dėmesį, kad schemoje rodomos šalys / regionai, nurodyti „Excel“ faile (šiame pavyzdyje – Austrija ir Šveicarija). Šios šalys / regionai pateikiami naudojant skirtingas spalvas, kad būtų parodyta proporcinga kiekvienoje šalyje / regione išrašytų SF sumų dalis.
 
 4. Atnaujinkite „Intrastat“ operacijų sąrašą. Įtraukiama eksportavimo operacija, kuri buvo sugeneruota Italijoje.
 
-    [![Intrastat operacijų sąrašas](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png)
+    [![Intrastat operacijų sąrašas.](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png)
 
 5. Palaukite kito suplanuoto ER ataskaitos vykdymo ir kito suplanuoto „Power BI“ duomenų rinkinio naujinimo. Tada peržiūrėkite „Power BI“ ataskaitą (pasirinkite, kad būtų rodomos tik importuotos operacijos). Atnaujintoje schemoje dabar rodoma Italija.
 
-    [![Atnaujinta schema](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
+    [![Atnaujinta schema.](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
 
 ## <a name="access-power-bi-report-in-finance"></a>Prieiga prie „Power BI“ ataskaitos
 Nustatykite integravimą su „Power BI“. Daugiau informacijos žr. [„Power BI“ integravimo kūrimas darbo sričiai](configure-power-bi-integration.md).
@@ -187,7 +187,7 @@ Nustatykite integravimą su „Power BI“. Daugiau informacijos žr. [„Power 
 2. Pasirinkite sukurtą „Power BI“ ataskaitą **Importavimo ir eksportavimo informacija**, kad ta ataskaita pasirinktame puslapyje būtų rodoma kaip veiksmo elementas.
 3. Spustelėkite veiksmo elementą, norėdami atidaryti puslapį, kuriame rodoma ataskaita, sukurta naudojant „Power BI“.
 
-    [![Importavimo ir eksportavimo informacijos ataskaita „Power BI“](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
+    [![Importavimo ir eksportavimo informacijos ataskaita, skirta „Power BI”.](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

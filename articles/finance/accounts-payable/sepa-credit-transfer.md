@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 11124
+ms.custom:
+- "11124"
+- intro-internal
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 158d96e748b982c87be3f8b08f68d1fdb919aeeb
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 03732ecd5a0cd59d15fa1f9f0691571bd0a19606
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897167"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346455"
 ---
 # <a name="sepa-credit-transfer-overview"></a>SEPA kredito pervedimų apžvalga
 
@@ -30,7 +32,7 @@ ms.locfileid: "5897167"
 
 ## <a name="what-is-a-credit-transfer-message"></a>Kas yra kredito pervedimo pranešimas?
 Kredito pervedimo pranešimas yra reikalavimas, kurį pradedanti pusė (jūsų įmonė) išsiunčia, norėdama perkelti fondus iš savo paties sąskaitos kreditoriui. Yra daug šaliai / regionui būdingų ir bankams būdingų kredito pervedimo pranešimų diegimų. Kai kurie iš jų naudojami vienoje šalyje / regione, o kai kurie tampa stanfatbais. Vienas nusistovėjęs pasaulinis standartas yra ISO 20022 ir jo inicijavimo pranešimai, pvz., Kredito pervedimas. Šioje iliustracijoje pavaizduoti pasirinktų kredito pervedimo pranešimų ryšiai ir draudimas. 
-![Kredito pervedimas](./media/credit-transfer.jpg) Kredito pervedimo pranešimai 
+![Kredito pervedimas.](./media/credit-transfer.jpg) Kredito pervedimo pranešimai 
 
 ## <a name="what-are-iso-20022-and-sepa-payments"></a>Kas yra ISO 20022 ir SEPA mokėjimai?
 Bendrą mokėjimų eurais erdvę (SEPA) nustato Europos Komisija ir ja nurodoma, kad visi elektroniniai mokėjimai laikomi vietiniais, nepaisant asmens, verslo arba organizacijos buvimo vietos šalies / regiono. Vietiniai ir tarptautiniai mokėjimai niekuo nesiskiria. SEPA apima 28 Europos Sąjungos (ES) valstybes nares ir Islandiją, Lichtenšteiną, Norvegiją, Šveicariją, Monaką ir San Mariną. SEPA padeda skurti bendrą mokėjimo operacijų rinką Europos ekonominėje erdvėje (EEE). Galiausiai, naudojant SEPA tikimasi sumažinti mokėjimo formatų, su kuriais dirba bankai, verslo įmonės ir asmenys, skaičių. Europos Komisija SEPA mokėjimų teisinį pagrindą nustatė naudodama mokėjimo paslaugų direktyvą (PSD). Europos mokėjimų taryba (EPC) SEPA palaiko toliau nurodytomis veiklomis.

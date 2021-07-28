@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7dbeb8785641960cc2680335436aea10775759d3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 20a2e0bc46e182172ccd96f556fd398e8bffc34b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797772"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347547"
 ---
 # <a name="text-block-module"></a>Teksto bloko modulis
 
@@ -42,11 +42,11 @@ Teksto bloko modulius galima naudoti toliau nurodytais būdais.
 
 Toliau pateiktame paveikslėlyje parodytas pagrindiniame puslapyje esančio teksto bloko modulio pavyzdys.
 
-![Teksto bloko modulio pavyzdys](./media/ecommerce-textblock.PNG)
+![Teksto bloko modulio pavyzdys.](./media/ecommerce-textblock.PNG)
 
 ## <a name="text-block-module-properties"></a>Teksto bloko modulio ypatybės
 
-| Ypatybės pavadinimas     | Vertė                                            | aprašymas |
+| Ypatybės pavadinimas     | Reikšmė                                            | Aprašas |
 |-------------------|--------------------------------------------------|-------------|
 | Raiškusis tekstas         | Raiškusis tekstas                                        | Pastraipos tekstas. Palaikomos kelios pagrindinės raiškiojo teksto galimybės, pvz., paryškintasis, pabrauktasis ir pasvirasis tekstas. |
 | Pasirinktinis klasės pavadinimas | Pakopinio stiliaus aprašų (CSS) klasės pavadinimas        | Pasirinktinės CSS klasės, kurią kūrėjas teikia formatuoti šį modulį, pavadinimas. Klasės pavadinimas turi būti nurodytas temų pakete. |

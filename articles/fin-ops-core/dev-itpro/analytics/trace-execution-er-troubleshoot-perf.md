@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 7fbec962fea374afdbabaad48a42dad380708678
-ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
+ms.openlocfilehash: 23b965bb51a4323164ae52bf70050133c9c9c9da
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6295578"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344887"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>ER formatų vykdymo sekimas siekiant diagnozuoti našumo problemas
 
@@ -56,14 +56,14 @@ Taip pat turite atsiųsti ir vietoje saugoti toliau nurodytus failus.
 
 Kiekvienas programoje sugeneruotas ER našumo sekimas saugomas kaip vykdymo žurnalo įrašo priedas. Šiems priedams tvarkyti naudojama dokumentų tvarkymo (DM) sistema. Norėdami nurodyti DM dokumento tipą, kuris turėtų būti naudojamas našumo sekimams pridėti, turite iš anksto sukonfigūruoti ER parametrus. Darbo srityje **Elektroninės ataskaitos** pasirinkite **Elektroninių ataskaitų parametrai**. Tada puslapyje **Elektroninių ataskaitų parametrai** esančio skirtuko **Priedai** lauke **Kiti** pasirinkite DM dokumento tipą, kuris bus naudojamas našumo sekimui.
 
-![Elektroninių ataskaitų parametrų puslapis](./media/GER-PerfTrace-GER-Parameters-DocumentType.png)
+![Elektroninių ataskaitų parametrų puslapis.](./media/GER-PerfTrace-GER-Parameters-DocumentType.png)
 
 Norint, kad DM dokumento tipu būtų galima naudotis peržvalgos lauke **Kiti**, jis turi būti atitinkamai sukonfigūruotas puslapyje **Dokumentų tipai** (**Organizacijos administravimas \> Dokumentų valdymas \> Dokumentų tipai**):
 
 - **Klasė:** pridėti failą
 - **Grupė:** failas
 
-![Puslapis Dokumentų tipai](./media/GER-PerfTrace-DM-DocumentType.png)
+![Puslapis Dokumentų tipai.](./media/GER-PerfTrace-DM-DocumentType.png)
 
 > [!NOTE]
 > Pasirinktas dokumento tipas turi būti pasiekiamas visose dabartinio egzemplioriaus įmonėse, nes DM priedai skirti konkrečioms įmonėms.
@@ -72,7 +72,7 @@ Norint, kad DM dokumento tipu būtų galima naudotis peržvalgos lauke **Kiti**,
 
 Sugeneruoti ER našumo sekimai importuojami į RCS analizei atlikti naudojant ER formato dizaino įrankį ir ER susiejimo dizaino įrankį. Kadangi ER našumo sekimai saugomi kaip su ER formatu susieto vykdymo žurnalo įrašo priedai, reikia iš anksto konfigūruoti RCS parametrus, kad būtų nurodytas DM dokumento tipas, kuris turėtų būti naudojamas našumo sekimams pridėti. Jūsų įmonei sukurto RCS egzemplioriaus darbo srityje **Elektroninės ataskaitos** pasirinkite **Elektroninių ataskaitų parametrai**. Tada puslapyje **Elektroninių ataskaitų parametrai** esančio skirtuko **Priedai** lauke **Kiti** pasirinkite DM dokumento tipą, kuris bus naudojamas našumo sekimui.
 
-![RCS elektroninių ataskaitų parametrų puslapis](./media/GER-PerfTrace-RCS-Parameters-DocumentType.png)
+![RCS elektroninių ataskaitų parametrų puslapis.](./media/GER-PerfTrace-RCS-Parameters-DocumentType.png)
 
 Norint, kad DM dokumento tipu būtų galima naudotis peržvalgos lauke **Kiti**, jis turi būti atitinkamai sukonfigūruotas puslapyje **Dokumentų tipai** (**Organizacijos administravimas \> Dokumentų valdymas \> Dokumentų tipai**):
 
@@ -92,7 +92,7 @@ Tarkime, kad jau pradėjau kurti naują ER sprendimą, kad būtų sugeneruota na
     2. Paspaudę **Naršyti** pasirinkite reikiamą ER konfigūracijos failą XML formatu.
     3. Pasirinkite **Gerai**.
 
-    ![RCS puslapis Konfigūracijos](./media/GER-PerfTrace-RCS-ImportedConfigurations.png)
+    ![RCS puslapis Konfigūracijos.](./media/GER-PerfTrace-RCS-ImportedConfigurations.png)
 
 ## <a name="run-the-er-solution-to-trace-execution"></a>ER vykdymo sekimo sprendimo vykdymas
 
@@ -109,7 +109,7 @@ Tarkime, kad baigėte kurti pirmąją ER sprendimo versiją. Dabar norite ją pa
     3. „FastTab“ **Konfigūracijos** pasirinkite konfigūraciją **Našumo sekimo formatas**.
     4. „FastTab“ **Versijos** pasirinkite pasirinktos ER konfigūracijos versiją **1.1**, paskui pasirinkite **Importuoti**.
 
-    ![Konfigūracijos saugyklos puslapis](./media/GER-PerfTrace-GER-ImportedConfigurations.png)
+    ![Konfigūracijos saugyklos puslapis.](./media/GER-PerfTrace-GER-ImportedConfigurations.png)
 
 Atitinkamų versijų duomenų modeliai ir modelio susiejimo konfigūracijos automatiškai importuojami kaip būtinieji importuotos ER formato konfigūracijos komponentai.
 
@@ -156,7 +156,7 @@ Atitinkamų versijų duomenų modeliai ir modelio susiejimo konfigūracijos auto
     > [!NOTE]
     > Dialogo lange **Vartotojo parametrai** nurodyti vartotojo ir dabartinės įmonės parametrai.
 
-    ![Vartotojo parametrų dialogo langas](./media/GER-PerfTrace-GER-UserParameters.png)
+    ![Vartotojo parametrų dialogo langas.](./media/GER-PerfTrace-GER-UserParameters.png)
 
 ### <a name="run-the-er-format"></a><a id='run-format'></a>ER formato vykdymas
 
@@ -177,11 +177,11 @@ Našumo sekimai atsiejami nuo šaltinio ER formato ir gali būti išdėstyti eil
 2. Puslapio **Elektroninių ataskaitų vykdymo žurnalai** kairiosios srities lauke **Konfigūracijos pavadinimas** pasirinkite **Našumo sekimo formatą**, kad rastumėte žurnalo įrašus, sugeneruotus vykdant konfigūraciją **Našumo sekimo formatas**.
 3. Paspauskite viršutiniame dešiniajame puslapio kampe esantį mygtuką (sąvaržėlės simbolis) **Priedai** arba paspauskite **Ctrl+Shift+A**.
 
-    ![Puslapio Elektroninių ataskaitų vykdymo žurnalai mygtukas Priedai](./media/GER-PerfTrace-GER-DebugLog.png)
+    ![Puslapio Elektroninių ataskaitų vykdymo žurnalai mygtukas Priedai.](./media/GER-PerfTrace-GER-DebugLog.png)
 
 4. Norėdami gauti našumo sekimą kaip ZIP failą ir saugoti jį vietoje, puslapio **Elektroninių ataskaitų vykdymo žurnalų priedai** veiksmų srityje pasirinkite **Atidaryti**.
 
-    ![Elektroninių ataskaitų vykdymo žurnalų priedai](./media/GER-PerfTrace-GER-DebugLog-AttachedTrace.png)
+    ![Elektroninių ataskaitų vykdymo žurnalų priedai.](./media/GER-PerfTrace-GER-DebugLog-AttachedTrace.png)
 
 > [!NOTE]
 > Sugeneruotame sekime yra nuoroda į šaltinio ER ataskaitą naudojant unikalų ataskaitos identifikatorių tik **GUID** formatu. Į formato versijos numeravimą neatsižvelgiama.
@@ -198,7 +198,7 @@ Atkreipkite dėmesį, kad ryšys tarp įvykdyto ER formatui sugeneruoto našumo 
 6. Pasirinkite **Naršyti** ir pasirinkite ZIP failą, kurį eksportavote anksčiau.
 7. Pasirinkite **Gerai**.
 
-    ![Našumo sekimo rezultato parametrų dialogo langas, esantis RCS](./media/GER-PerfTrace-RCS-ImportedPerfTrace.png)
+    ![Našumo sekimo rezultato parametrų dialogo langas, esantis RCS.](./media/GER-PerfTrace-RCS-ImportedPerfTrace.png)
 
 ### <a name="use-the-performance-trace-for-analysis-in-rcs--format-execution"></a>Našumo sekimo naudojimas analizei naudojantis RCS – Formato vykdymas
 
@@ -209,7 +209,7 @@ Atkreipkite dėmesį, kad ryšys tarp įvykdyto ER formatui sugeneruoto našumo 
     - Faktinis laikas, sugaištas įvedant duomenis į sugeneruotą išvestį naudojant formato elementą
     - Tas pats laikas išreikštas kaip viso laiko, praleisto generuojant visą išvestį, procentinė dalis
 
-    ![RCS formato dizaino įrankio puslapis](./media/GER-PerfTrace-RCS-TraceInfoInFormat.png)
+    ![RCS formato dizaino įrankio puslapis.](./media/GER-PerfTrace-RCS-TraceInfoInFormat.png)
 
 2. Uždarykite puslapį **Formato dizaino įrankis**.
 
@@ -232,7 +232,7 @@ Atkreipkite dėmesį, kad ER informuoja tuo atveju, kai dabartinis modelio susie
 - Vienas iškvietimas atliekamas norint į duomenų modelį įvesti informaciją apie kiekvieną operaciją pagal sukonfigūruotus susiejimus.
 - Vienas iškvietimas atliekamas norint įvesti apskaičiuotą kiekvieno duomenų modelio tiekėjo operacijų skaičių.
 
-![Pranešimas apie pasikartojančias RCS puslapio Modelio susiejimo dizaino įrankis duomenų bazės užklausas](./media/GER-PerfTrace-RCS-TraceInfoInMapping1.png)
+![Pranešimas apie pasikartojančias RCS puslapio Modelio susiejimo dizaino įrankis duomenų bazės užklausas.](./media/GER-PerfTrace-RCS-TraceInfoInMapping1.png)
 
 Reikšmė **\[q:530\]** nurodo, kad lentelė VendTrans buvo iškviesta 530 kartų, kad į duomenų šaltinį VendTable/\<Relations/VendTrans.VendTable\_AccountNum būtų pateiktas tos lentelės įrašas. Reikšmė **\[530\]** nurodo, kad duomenų šaltinis VendTable/\<Relations/VendTrans.VendTable\_AccountNum buvo iškviestas 530 kartus, kad būtų pateiktas to duomenų šaltinio įrašas ir duomenų modelyje būtų įvesta jo informacija.
 
@@ -240,7 +240,7 @@ Rekomenduojame naudoti duomenų šaltiniui VendTable/\<Relations/VendTrans.VendT
 
 Taip pat gali būti naudinga sumažinti į duomenų šaltinį LedgerTransTypeList atliktų iškvietimų skaičių. Šis duomenų šaltinis naudojamas norint susieti kiekvieną išvardijimo **LedgerTransType** reikšmę su jos žyme. Naudodami šį duomenų šaltinį, galite rasti atitinkamą žymę ir įvesti ją kiekvieno tiekėjo operacijos duomenų modelyje. Dabartinis iškvietimų į šį duomenų šaltinį skaičius (9027) gana didelis, turint omenyje, kad apdorojamos 265 operacijos.
 
-![RCS puslapis Modelio susiejimo dizaino įrankis, kuriame rodomi 9027 iškvietimai į duomenų šaltinį](./media/GER-PerfTrace-RCS-TraceInfoInMapping1a.png)
+![RCS puslapis Modelio susiejimo dizaino įrankis, kuriame rodomi 9027 iškvietimai į duomenų šaltinį.](./media/GER-PerfTrace-RCS-TraceInfoInMapping1a.png)
 
 ## <a name="improve-the-model-mapping-based-on-information-from-the-execution-trace"></a>Patobulinkite modelio susiejimą pagal iš vykdymo sekimo gautą informacija
 
@@ -253,7 +253,7 @@ Taip pat gali būti naudinga sumažinti į duomenų šaltinį LedgerTransTypeLis
     3. Išplėskite elementą **VendTable**, išplėskite duomenų šaltinio VendTable ryšių „vienas su daugeliu“ sąrašą (elementas **\<Ryšiai**) ir pasirinkite elementą **VendTrans.VendTable\_AccountNum**.
     4. Pasirinkite **Talpykla**.
 
-    ![Kaupimo talpykloje nustatymas, kad būtų išvengta pasikartojančių iškvietimų](./media/GER-PerfTrace-RCS-ChangeMapping-Cache.png)
+    ![Kaupimo talpykloje nustatymas, kad būtų išvengta pasikartojančių iškvietimų.](./media/GER-PerfTrace-RCS-ChangeMapping-Cache.png)
 
 2. Atlikite toliau nurodytus veiksmus, norėdami, kad duomenų šaltinis LedgerTransTypeList patektų į duomenų šaltinio VendTable sritį.
 
@@ -274,7 +274,7 @@ Taip pat gali būti naudinga sumažinti į duomenų šaltinį LedgerTransTypeLis
     3. Pasirinkite elementą **VendTable.\$TransType**.
     4. Pasirinkite **Talpykla**.
 
-    ![Lauko $TransType kaupimo talpykloje sąranka](./media/GER-PerfTrace-RCS-ChangeMapping-Cache2.png)
+    ![Lauko $TransType kaupimo talpykloje sąranka.](./media/GER-PerfTrace-RCS-ChangeMapping-Cache2.png)
 
 4. Atlikę toliau nurodytus veiksmus pakeiskite lauką **\$TransTypeRecord**, kad jis galėtų naudoti talpykloje esantį lauką **\$TransType**.
 
@@ -329,19 +329,19 @@ Pakartoję ankstesniame šios temos skyriuje [Našumo sekimo naudojimas analizei
 
 Atkreipkite dėmesį, kad atlikus modelio susiejimo pakeitimus, nebeliko pasikartojančių užklausų į duomenų bazę. Taip pat sumažėjo šio modelio susiejimo iškvietimų į duomenų bazės lenteles ir duomenų šaltinius skaičius. Todėl pagerėjo viso ER sprendimo našumas.
 
-![RCS puslapio modelio susiejimo dizaino įrankio duomenų šaltinio VendTable informacijos sekimas](./media/GER-PerfTrace-RCS-TraceInfoInMapping2.png)
+![RCS puslapio modelio susiejimo dizaino įrankio duomenų šaltinio VendTable informacijos sekimas.](./media/GER-PerfTrace-RCS-TraceInfoInMapping2.png)
 
 Sekimo informacijoje duomenų šaltinio VendTable reikšmė **\[12\]** nurodo, kad šis duomenų šaltinis buvo iškviestas 12 kartų. Reikšmė **\[Q:6\]** nurodo, kad šeši iškvietimai paversti duomenų bazės iškvietimais lentelėje VendTable. Reikšmė **\[C:6\]** nurodo, kad iš duomenų bazės surinkti įrašai buvo įrašyti į talpyklą, o šeši kiti iškvietimai apdoroti naudojant talpyklą.
 
 Atkreipkite dėmesį, kad iškvietimų į duomenų šaltinį LedgerTransTypeList skaičius sumažėjo nuo 9027 iki 240.
 
-![RCS puslapio modelio susiejimo dizaino įrankio duomenų šaltinio LedgerTransTypeList informacijos sekimas](./media/GER-PerfTrace-RCS-TraceInfoInMapping2a.png)
+![RCS puslapio modelio susiejimo dizaino įrankio duomenų šaltinio LedgerTransTypeList informacijos sekimas.](./media/GER-PerfTrace-RCS-TraceInfoInMapping2a.png)
 
 ## <a name="review-the-execution-trace-in-the-application"></a>Vykdymo sekimo peržiūra programoje
 
 Galimybė naudotis ER sistemos dizaino įrankiu gali būti siūloma ne tik RCS, bet ir kai kuriose versijose. Šiose versijose galima įjungti parinktį **Kūrimo režimo įjungimas**. Šią pasirinktį galite rasti puslapio **Elektroninių ataskaitų parametrai**, kurį galite atidaryti darbo srityje **Elektroninės ataskaitos**, skirtuke **Bendra**.
 
-![Kūrimo režimo parinkties įjungimas Elektroninių ataskaitų parametrų puslapyje](./media/GER-PerfTrace-GER-Parameters-DesignMode.png)
+![Kūrimo režimo parinkties įjungimas Elektroninių ataskaitų parametrų puslapyje.](./media/GER-PerfTrace-GER-Parameters-DesignMode.png)
 
 Jei naudojatės viena iš šių versijų, sugeneruotų našumo sekimų informaciją galite analizuoti tiesiogiai programoje. Nereikia eksportuoti informacijos iš programos ir importuoti ją į RCS.
 
@@ -359,7 +359,7 @@ Pakartoję ankstesniame šios temos skyriuje [ER formato vykdymas](#run-format) 
 
 Atkreipkite dėmesį, kad interneto naršyklėje siūloma atsisiųsti ZIP failą. Šiame faile pateikiamas našumo sekimas PerfView formatu. Naudodamiesi PerfView našumo analizės įrankiu galite išanalizuoti informaciją apie ER formato vykdymą.
 
-![Našumo sekimo informacija „PerfView” formatu](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+![Našumo sekimo informacija „PerfView” formatu.](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Norėdami peržiūrėti vykdymo sekimą, apimantį duomenų bazės užklausas, naudokite išorinius įrankius
 
@@ -375,7 +375,7 @@ Dėl patobulinimų, atliktų ER sistemoje, efektyvumo sekimo duomenys, sugeneruo
     - Nustatykite parinkties **Rinkti užklausų statistiką** reikšmę **Taip**.
     - Nustatykite parinkties **Įjungti profilį** reikšmę **Taip**.
 
-    ![Skyrius Vykdymo sekimas, dialogo langas Vartotojo parametrai](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+    ![Skyrius Vykdymo sekimas, dialogo langas Vartotojo parametrai.](./media/GER-PerfTrace2-GER-UserParameters.PNG)
 
 ### <a name="run-the-er-format"></a>ER formato vykdymas
 
@@ -383,7 +383,7 @@ Pakartoję ankstesniame šios temos skyriuje [ER formato vykdymas](#run-format) 
 
 Atkreipkite dėmesį, kad interneto naršyklėje siūloma atsisiųsti ZIP failą. Šiame faile pateikiamas našumo sekimas PerfView formatu. Naudodamiesi PerfView našumo analizės įrankiu galite išanalizuoti informaciją apie ER formato vykdymą. Dabar šis sekimas apims informaciją apie SQL duomenų bazės prieigą vykdant ER formatą.
 
-![Įvykdyto ER formato informacijos sekimas naudojant „PerfView“](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
+![Įvykdyto ER formato informacijos sekimas naudojant „PerfView“.](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

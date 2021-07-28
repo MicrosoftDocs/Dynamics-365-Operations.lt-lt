@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f7b28a33dff4af6bf2b97db825a5a8304213f3a0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 57f5d23533c2fd17593648a15745fa770fc01dc4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796491"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345213"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Užsakymų pranešimų rodymas elektroniniame kasos aparate (EKA)
 
@@ -72,14 +72,14 @@ Ant EKA mygtukų dabar gali būti rodomas skaičius, kad darbininkai galėtų le
 
 Tolesnėje iliustracijoje rodomi tiesioginio turinio parametrai mygtukyno dizaino įrankyje.
 
-![Tiesioginio turinio nustatymai mygtuko dizaino įrankyje](./media/ButtonGridDesigner.png "Tiesioginio turinio nustatymai mygtuko dizaino įrankyje")
+![Tiesioginio turinio nustatymai mygtuko dizaino įrankyje.](./media/ButtonGridDesigner.png "Tiesioginio turinio nustatymai mygtuko dizaino įrankyje")
 
 Norėdami rodyti pranešimų skaičių ant mygtuko, turite užtikrinti, kad būtų atnaujintas teisingas ekrano maketas. Norėdami nustatyti ekrano maketą, kurį naudos EKA, viršutiniame dešiniajame kampe pasirinkite piktogramą **Parametrai** ir įsidėmėkite **Ekrano maketo ID** ir **Maketo skiriamąją gebą**. Dabar naudodami naršyklę „Edge“ eikite į puslapį **Ekrano maketas**, suraskite anksčiau įsidėmėtą **Ekrano maketo ID** ir **Maketo skiriamąją gebą** ir pažymėkite žymės langelį **Įjungti tiesioginį turinį**. Eikite į **Mažmeninė prekyba ir komercija \> Mažmeninės prekybos ir komercijos ID \> Paskirstymo grafikas** ir paleiskite 1090 (registrai) užduotį, kad susinchronizuotumėte maketo pakeitimus.
 
-![Raskite EKA naudojamą ekrano maketą](./media/Choose_screen_layout.png "Raskite ekrano maketą")
+![Raskite EKA naudojamą ekrano maketą.](./media/Choose_screen_layout.png "Raskite ekrano maketą")
 
 Tolesnėje iliustracijoje rodoma, kaip įvairių dydžių mygtukus veikia lauko **Turinio lygiuotė** parinktys **Viršuje, dešinėje** ir **Centre**.
 
-![Tiesioginis turinys EKA mygtukuose](./media/ButtonsWithLiveContent.png "Tiesioginis turinys EKA mygtukuose")
+![Tiesioginis turinys EKA mygtukuose.](./media/ButtonsWithLiveContent.png "Tiesioginis turinys EKA mygtukuose")
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58941
+ms.custom:
+- "58941"
+- intro-internal
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26088a01b0e849a5df559631591ec65d7885452b
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 05c77b913c1c2281ca45a3dea8fef2223a1dcfbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944370"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345695"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroninių ataskaitų (ER) apžvalga
 
@@ -101,7 +103,7 @@ Formato komponentas leidžia pridėti toliau nurodytus tam tikrus failus, kurie 
 
 Šis pavyzdys rodo, kaip juda šių formatų duomenų srautai.
 
-[![Siunčiamų formato komponentų duomenų srautas](./media/ER-overview-02.png)](./media/ER-overview-02.png)
+[![Siunčiamų formato komponentų duomenų srautas.](./media/ER-overview-02.png)](./media/ER-overview-02.png)
 
 Norėdami paleisti vieną ER formato konfigūraciją ir generuoti siunčiamą elektroninį dokumentą, turite nustatyti formato konfigūracijos susiejimą.
 
@@ -115,7 +117,7 @@ Formato komponentas yra gaunamo dokumento planas, kuris importuojamas vykdymo me
 
 Šis pavyzdys rodo, kaip juda šių formatų duomenų srautai.
 
-[![Gaunamų formato komponentų duomenų srautas](./media/ER-overview-03.png)](./media/ER-overview-03.png)
+[![Gaunamų formato komponentų duomenų srautas.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
 
 Norėdami paleisti vieną ER formato konfigūraciją ir importuoti duomenis iš gaunamo elektroninio dokumento, turite nustatyti norimą formato konfigūracijos susiejimą, taip pat modelio susiejimo integravimo tašką. Galite naudoti tą patį modelio susiejimą ir paskirties vietas kartu su skirtingo tipo gaunamų dokumentų skirtingais formatais.
 
@@ -290,7 +292,7 @@ ER suteikia galimybę automatiškai priimti naujausios pagrindinio komponento ve
 
 „Finance” ER konfigūracijų sąrašas nuolat atnaujinamas. Atidarykite [visuotinę saugyklą](er-download-configurations-global-repo.md) tam, kad peržiūrėtumėte šiuo metu palaikomų ER konfigūracijų sąrašą. „FastTab” **Nutraukimo informacija** galite peržiūrėti informaciją apie konfigūracijas, kurios buvo nutrauktos arba nebėra prižiūrimos. 
 
-![Visuotinės saugyklos turinys konfigūracijų saugyklos puslapyje](./media/er-overview-03.gif)
+![Visuotinės saugyklos turinys konfigūracijų saugyklos puslapyje.](./media/er-overview-03.gif)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

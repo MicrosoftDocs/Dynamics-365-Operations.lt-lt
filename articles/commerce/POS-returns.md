@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: 496c4fe5230a599acf60fac39e51c43db372f92c
-ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
+ms.openlocfilehash: c7be9e2d32384df23a4609d82216804fc945061a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "6129822"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345189"
 ---
 # <a name="create-returns-in-pos"></a>Kurti grąžinimus EKA
 
@@ -48,7 +48,7 @@ Jei randama operaciją ar užsakymą, kuris atitinka ieškos kriterijus, **rodom
 
 EKA rodo kiekvienos grąžinamų produktų sąrašo užsakymo eilutės informaciją apie pradinį pirkimo kiekį ir visų anksčiau apdorotų grąžinimų kiekius. Grąžinimo kiekis, kurį vartotojas įveda užsakymo eilutėje, turi būti mažesnis arba lygus lauko **Galima grąžinti** vertei.
 
-![Grąžintinas produktų puslapis](media/returnslist.png)
+![Grąžintinas produktų puslapis.](media/returnslist.png)
 
 Grąžinimo apdorojimo metu, jei vartotojas turi fizinį produktą ir tas produktas turi brūkšninius kodus, vartotojas gali nuskaityti brūkšninius kodus, kad galėtų užregistruoti grąžinimą. Kiekvienas brūkšninio kodo nuskaitymas padidina vienos prekės grąžinimo kiekį. Tačiau jei brūkšninio kodo žymėje yra įdėtas kiekis, šis kiekis bus **įvestas į lauką** Grąžinimas dabar.
 
@@ -97,6 +97,13 @@ Jei kanalo informacija dėl kokių nors priežasčių nėra naujausia ir vykdoma
 
 > [!NOTE]
 > Kai EKA **priemonėje įjungta bendrojo grąžinimo apdorojimo** funkcija, galimos naujos pasirenkamos priemonės, kurios palaiko eilutėmis išdėstyti produktų grąžinimų tikrinimą. Daugiau informacijos ieškokite Grąžinimo [serijos numerio kontroliuojami produktai, esantys Point of Sale (EKA)](POS-serial-returns.md).
+
+## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>Įjungti tinkamą mokesčių skaičiavimą, kai grąžinamas dalinis kiekis
+
+Šia funkcija užtikrinama, kad užsakymą grąžinus naudojant kelias sąskaitas faktūras, galiausiai mokesčiai bus lygūs pirminei mokėtinai mokesčių sumai.
+1.  Eikite į darbo sritį **Funkcijų valdymas** ir ieškokite **Įjungti tinkamą mokesčių skaičiavimą, kai grąžinamas dalinis kiekis**.
+2.  Pasirinkite **Įjungti tinkamą mokesčių skaičiavimą, kai grąžinamas dalinis kiekis** ir spustelėkite **Įjungti**.
+
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

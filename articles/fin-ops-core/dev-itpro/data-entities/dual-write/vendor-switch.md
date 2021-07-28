@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 5a18fed2eac4c120dca20a1d7797d047639275b9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 70904ee716aabd019210e92895a894810bde27fb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750599"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346525"
 ---
 # <a name="switch-between-vendor-designs"></a>Perjungimas iš vieno tiekėjo dizaino į kitą
 
@@ -48,14 +48,14 @@ Norėdami sukurti naujus darbo eigos procesus, naudojant darbo eigos proceso ša
 
 1. Sukurkite darbo eigos procesą lentelei **Tiekėjas** ir pasirinkite darbo eigos proceso šabloną **Tiekėjų kūrimas lentelėje Paskyros**. Tada pasirinkite **Gerai**. Šioje darbo eigoje tvarkomas lentelės **Paskyra** tiekėjų kūrimo scenarijus.
 
-    ![Tiekėjų kūrimas darbo eigos proceso lentelėje Klientai](media/create_process.png)
+    ![Tiekėjų kūrimas darbo eigos proceso lentelėje Klientai.](media/create_process.png)
 
 2. Sukurkite darbo eigos procesą lentelei **Tiekėjas** ir pasirinkite darbo eigos proceso šabloną **Atnaujinti tiekėjus lentelėje Paskyros**. Tada pasirinkite **Gerai**. Šioje darbo eigoje tvarkomas lentelės **Paskyra** tiekėjų naujinimo scenarijus.
 3. Sukurkite darbo eigos procesą lentelei **Paskyra** ir pasirinkite darbo eigos proceso šabloną **Tiekėjų kūrimas lentelėje Tiekėjai**.
 4. Sukurkite darbo eigos procesą lentelei **Paskyra** ir pasirinkite darbo eigos proceso šabloną **Tiekėjų atnaujinimas lentelėje Tiekėjai**.
 5. Priklausomai nuo poreikių, darbo eigas galite konfigūruoti kaip realaus laiko arba foninę darbo eigą. Norėdami sukonfigūruoti darbo eigą kaip foninę darbo eigą, pasirinkite **Konvertuoti į foninę darbo eigą**.
 
-    ![Mygtukas „Konvertuoti į foninę darbo eigą“](media/background_workflow.png)
+    ![Mygtukas „Konvertuoti į foninę darbo eigą“.](media/background_workflow.png)
 
 6. Aktyvinkite lentelėms **Paskyra** ir **Tiekėjas** sukurtas darbo eigas, kad pradėtumėte naudoti lentelę **Paskyra** ir galėtumėte saugoti tipo **Organizacija** informaciją tiekėjams.
 

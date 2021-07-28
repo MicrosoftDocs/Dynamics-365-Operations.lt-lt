@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5bc2227e08dbbf5f76a37180114e5affff131658
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 69f6b0c6dab5dd5a9e15e2b7ec2a6301d13ab810
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797892"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346881"
 ---
 # <a name="carousel-module"></a>Karuselės modulis
 
@@ -40,11 +40,11 @@ Naudojant karuselės modulį kelios reklaminės prekės (įskaitant išraišking
 
 Toliau pateiktame paveikslėlyje parodytas pagrindiniame puslapyje esančio karuselės modulio pavyzdys. Šiame karuselės modulyje yra keli turinio blokų elementai.
 
-![Karuselės modulio pavyzdys](./media/Hero.PNG)
+![Karuselės modulio pavyzdys.](./media/Hero.PNG)
 
 ## <a name="carousel-module-properties"></a>Karuselės modulio ypatybės
 
-| Ypatybės pavadinimas             | Vertė                 | aprašymas |
+| Ypatybės pavadinimas             | Reikšmė                 | Aprašas |
 |---------------------------|-----------------------|-------------|
 | Automatinis paleidimas                  | **Teisinga** arba **Klaidinga** | Jei reikšmė nustatoma kaip **Teisinga**, nuo vienos prekės prie kitos karuselėje pereinama automatiškai. Jei reikšmė nustatoma kaip **Klaidinga**, prie kitos prekės nepereinama, nebent klientas nuo vienos prekės prie kitos pereina klaviatūra ar pele. |
 | Skaidrių perėjimo intervalas | Reikšmė sekundėmis    | Perėjimo nuo vienos prekės prie kitos intervalas. |

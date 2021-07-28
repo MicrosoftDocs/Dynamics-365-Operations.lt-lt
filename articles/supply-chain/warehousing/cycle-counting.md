@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e84a8c3f69bb1a429c6fd9679ba671a185cf6378
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d86c16ecd2105a7f118cf77aa078f553feb2d933
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838351"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345263"
 ---
 # <a name="cycle-counting"></a>Ciklo skaičiavimas
 
@@ -34,7 +34,7 @@ Ciklo skaičiavimas yra sandėlio procesas, kurį galite naudoti norėdami audit
 2.  **Ciklo skaičiavimo apdorojimas** – kai ciklo skaičiavimo darbas sukurtas, jį atliekate suskaičiuodami prekes sandėlio vietoje ir mobiliuoju įrenginiu įvesdami rezultatą į „Dynamics 365 Supply Chain Management“. Taip pat galite skaičiuoti prekes sandėlio vietoje nekurdami ciklo skaičiavimo darbo. Šis procesas vadinamas *ciklo skaičiavimu vietoje*.
 3.  **Apskaičiuotos reikšmės skirtumų pašalinimas** – atlikus ciklo skaičiavimą, visų prekių, kurių apskaičiuota reikšmė skiriasi, darbo būsena puslapyje **Visi darbai** bus **Laukiama peržiūros**. Šiuos skirtumus pašalinti galite puslapyje **Peržiūros laukiantis ciklo skaičiavimo darbas**.
 
-Toliau pateiktoje iliustracijoje parodytas ciklo skaičiavimo procesas. ![Ciklo skaičiavimo proceso eiga](./media/performcyclecountinginawarehouselocation.jpg)
+Toliau pateiktoje iliustracijoje parodytas ciklo skaičiavimo procesas. ![Ciklo skaičiavimo proceso eiga.](./media/performcyclecountinginawarehouselocation.jpg)
 
 ## <a name="cycle-counting-prerequisites"></a>Būtinosios ciklo skaičiavimo sąlygos
 Pateiktoje lentelėje parodytos būtinosios sąlygos, kurias reikia įvykdyti prieš naudojant ciklo skaičiavimą.

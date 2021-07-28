@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 91b19598075871dcfaed3ad9978aa8fe8181aa6f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9440471d6983136971878c8ee9e327d4dd407833
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836667"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346159"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Inžinerinių keitimų valdymo funkcijos gairės
 
@@ -55,9 +55,9 @@ Inžinerijos organizacijoje yra inžinieriniai duomenys ir ji atsakinga už prod
 1. Rinkitės **Naujas** tam, kad įtrauktumėte į tinklelį eilutę ir nustatytumėte tolesnes vertes jai:
 
     - **Inžinerijos organizacija:** *DEMF*
-    - **Organizacijos pavadinimas:** *„Contoso Entertainment System Germany“*
+    - **Organizacijos pavadinimas:** *„Contoso Entertainment System Germany”*
 
-    ![Įtraukite inžinerijos organizaciją](media/engineering-org.png "Įtraukite inžinerijos organizaciją")
+    ![Įtraukite inžinerijos organizaciją.](media/engineering-org.png "Įtraukite inžinerijos organizaciją")
 
 ### <a name="set-up-the-version-product-dimension-group"></a>Nustatykite produkto matmenų grupės versiją
 
@@ -67,7 +67,7 @@ Inžinerijos organizacijoje yra inžinieriniai duomenys ir ji atsakinga už prod
 1. Rinkitės **Įrašyti** tam, kad įrašytumėte naujus matmenis ir įkeltumėte vertes į **Produkto matmenų** „FastTab“.
 1. „FastTab“ **Produkto matmenys** nustatykite **Versija** kaip veikiančio produkto matmenis.
 
-    ![Produkto matmenų grupės įtraukimas](media/product-dimension-groups.png "Produkto matmenų grupės įtraukimas")
+    ![Produkto matmenų grupės įtraukimas.](media/product-dimension-groups.png "Produkto matmenų grupės įtraukimas")
 
 ### <a name="set-up-product-lifecycle-states"></a>Nustatykite produkto gyvavimo ciklo būsenas
 
@@ -82,7 +82,7 @@ Kadangi inžinerijos produktas eina per savo gyvavimo ciklą, svarbu, kad galėt
 1. Rinkitės **Įrašyti** tam, kad įrašytumėte naują gyvavimo ciklo būseną ir įkeltumėte vertes į **Įjungti verslo procesai** „FastTab“.
 1. „FastTab“ **Įjungti verslo procesai** pasirinkite verslo procesus, kurie turi būti prieinami. Šiame pavyzdyje palikite **Politika** laukelį nustatytą į *Įjungta* visiems verslo procesams.
 
-    ![Verslo procesų įjungimas gyvavimo ciklo būsenai](media/product-lifecycle-states-1.png "Verslo procesų įjungimas gyvavimo ciklo būsenai")
+    ![Verslo procesų įjungimas gyvavimo ciklo būsenai.](media/product-lifecycle-states-1.png "Verslo procesų įjungimas gyvavimo ciklo būsenai")
 
 1. Rinkitės **Naujas** tam, kad įtrauktumėte kitą gyvavimo ciklo būseną ir nustatytumėte tolesnes vertes jai:
 
@@ -92,7 +92,7 @@ Kadangi inžinerijos produktas eina per savo gyvavimo ciklą, svarbu, kad galėt
 1. Rinkitės **Įrašyti** tam, kad įrašytumėte naują gyvavimo ciklo būseną ir įkeltumėte vertes į **Įjungti verslo procesai** „FastTab“.
 1. „FastTab“ **Įjungti verslo procesai** pasirinkite verslo procesus, kurie turi būti prieinami. Šiame pavyzdyje nustatykite **Politika** laukelį nustatytą į *Įjungta su įspėjimu* visiems verslo procesams.
 
-    ![Verslo procesų įjungimas (su įspėjimais) gyvavimo ciklo būsenai](media/product-lifecycle-states-2.png "Verslo procesų įjungimas (su įspėjimais) gyvavimo ciklo būsenai")
+    ![Verslo procesų įjungimas (su įspėjimais) gyvavimo ciklo būsenai.](media/product-lifecycle-states-2.png "Verslo procesų įjungimas (su įspėjimais) gyvavimo ciklo būsenai")
 
 ### <a name="set-up-a-version-number-rule"></a>Nustatykite versijos skaičiaus taisyklę
 
@@ -103,7 +103,7 @@ Kadangi inžinerijos produktas eina per savo gyvavimo ciklą, svarbu, kad galėt
     - **Skaičiaus taisyklė:** *Automatinė*
     - **Formatas:** *V-\#\#*
 
-    ![Įtraukite produkto versijos skaičiaus taisyklę](media/version-number-rule.png "Įtraukite produkto versijos skaičiaus taisyklę")
+    ![Įtraukite produkto versijos skaičiaus taisyklę.](media/version-number-rule.png "Įtraukite produkto versijos skaičiaus taisyklę")
 
 ### <a name="set-up-a-product-release-policy"></a>Nustatykite produkto išleidimo politiką
 
@@ -135,7 +135,7 @@ Kadangi inžinerijos produktas eina per savo gyvavimo ciklą, svarbu, kad galėt
     - **Kopijuokite maršruto tvirtinimą:** Rinkitės šį žymimą laukelį.
     - **Kopijuokite įjungimo tvirtinimą:** Rinkitės šį žymimą laukelį.
 
-    ![Įtraukite produkto išleidimo politiką](media/product-release-policy.png "Įtraukite produkto išleidimo politiką")
+    ![Įtraukite produkto išleidimo strategiją.](media/product-release-policy.png "Įtraukite produkto išleidimo politiką")
 
 ### <a name="set-up-an-engineering-product-category"></a>Nustatykite inžinerijos produkto kategoriją 
 
@@ -160,7 +160,7 @@ Inžinerinių produktų kategorijas pateikia pagrindą inžinerinių produktų k
 1. „FastTab“ **Leidimo politika** nustatykite **Produkto leidimo politikos** laukelius į *Komponentai*.
 1. Pasirinkite **Įrašyti**.
 
-    ![Įtraukite inžinerijos produkto kategoriją](media/product-category-details.png "Įtraukite inžinerijos produkto kategoriją")
+    ![Įtraukite inžinerijos produkto kategoriją.](media/product-category-details.png "Įtraukite inžinerijos produkto kategoriją")
 
 ### <a name="set-up-product-acceptance-conditions"></a>Nustatykite produkto priėmimo sąlygas
 
@@ -168,7 +168,7 @@ Inžinerinių produktų kategorijas pateikia pagrindą inžinerinių produktų k
 1. Eikite į **Inžinerijos keitimo valdymą &gt; Nustatymus &gt; Inžinerijos keitimo valdymo parametrai**.
 1. Skirtuke **Leidimo valdymas** skyriuje **Produkto priėmimas** nustatykite **Produkto priėmimas** laukelį į *Rankinis*.
 
-    ![Nustatykite produkto priėmimo sąlygas](media/engineering-change-management-parameters.png "Nustatykite produkto priėmimo sąlygas")
+    ![Nustatykite produkto priėmimo sąlygas.](media/engineering-change-management-parameters.png "Nustatykite produkto priėmimo sąlygas")
 
 ## <a name="create-a-new-engineering-product"></a>Sukurkite naują inžinerijos produktą
 
@@ -187,23 +187,23 @@ Inžinerijos produktas yra produktas, kurio versija nustatoma ir jis valdomas pe
     - **Produkto numeris:** *Z0001*
     - **Produkto pavadinimas:** *Garsiakalbio rinkinys*
 
-    ![Įtraukite inžinerijos produkto kategoriją](media/new-product-dialog.png "Įtraukite inžinerijos produkto kategoriją")
+    ![Įtraukite inžinerijos produkto kategoriją.](media/new-product-dialog.png "Įtraukite inžinerijos produkto kategoriją")
 
     Atkreipkite dėmesį, kad **Versijos** laukelis yra automatiškai nustatomas naudojant produkto versijos skaičiaus taisyklę, kurią anksčiau nustatėte.
 
 1. Pasirinkite **Gerai** tam, kad sukurtumėte produktą ir uždarytumėte teksto laukelį.
 1. Išsamios informacijos puslapis naujam produktui atveriamas. Atkreipkite dėmesį, kad vertės yra užpildomos kai kuriems laukeliams, tokiems kaip **Talpinimo matmenų grupė**, **Sekimo matmenų grupė** ir (arba) **Prekės modelio grupė**. Šie laukeliai buvo automatiškai nustatyti dėl to, kad produktas išleistas *DEMF* juridiniame subjekte ir naudoja *Komponentų* produkto leidimo politiką *Komponentai* inžinerijos produkto kategoriją. Kadangi anksčiau naudojote prekę *D0006* kaip šabloną, kad nustatytumėte eilutę *DEMF* juridiniam subjektui, vertės užpildytos buvo paimtos iš prekės *D0006*.
 
-    ![Patvirtinto produkto informacija](media/product-details.png "Patvirtinto produkto informacija")
+    ![Patvirtinto produkto informacija.](media/product-details.png "Patvirtinto produkto informacija")
 
 1. Tada veiksmų juostoje, skirtuke **Inžinierius** grupėje **Inžinerinių pakeitimų valdymas** grupėje, rinkitės **Inžinerinės versijos** tam, kad peržiūrėtumėte produkto versijas.
 
-    ![Inžinerinės versijos](media/engineering-versions-list.png "Inžinerinės versijos")
+    ![Inžinerinės versijos.](media/engineering-versions-list.png "Inžinerinės versijos")
 
 1. Puslapyje **Inžinerijos versijos** atkreipkite dėmesį, kad yra tik viena produkto versija ir ji įjungta.
 1. Pasirinkite versiją, kad peržiūrėtumėte jos išsamią informaciją.
 
-    ![Inžinerijos versijos išsami informacija](media/engineering-version-details.png "Inžinerijos versijos išsami informacija")
+    ![Inžinerijos versijos išsami informacija.](media/engineering-version-details.png "Inžinerijos versijos išsami informacija")
 
 1. Puslapio **Inžinerijos versija** „FastTab“ **Komplektavimo specifikacija** pasirinkite **Kurti KS**.
 1. Teksto laukelyje **Kurti KS** nustatykite tolesnes vertes:
@@ -212,25 +212,25 @@ Inžinerijos produktas yra produktas, kurio versija nustatoma ir jis valdomas pe
     - **pavadinimas:** Garsiakalbio rinkinys
     - **Vieta:** 1
 
-    ![KS kūrimas](media/create-bom.png "KS kūrimas")
+    ![KS kūrimas.](media/create-bom.png "KS kūrimas")
 
 1. Rinkitės **Gerai** tam, kad įtrauktumėte KS ir uždarytumėte teksto laukelį.
 1. „FastTab“ **Komplektavimo specifikacija** pasirinkite **Komplektavimo specifikacija**.
 1. Puslapio **Komplektavimo specifikacija** „FastTab“ **Komplektavimo specifikacijos eilutės** įtraukite tris eilutes, kurių prekės numeriai yra *D0001*, *D0003*, ir *D0006*.
 
-    ![KS eilučių įtraukimas](media/bom.png "KS eilučių įtraukimas")
+    ![KS eilučių įtraukimas.](media/bom.png "KS eilučių įtraukimas")
 
 1. Pasirinkite **Įrašyti**.
 1. Uždarykite puslapį.
 1. Puslapio **Inžinerijos versija** „FastTab“ **Komplektavimo specifikacija** pasirinkite **Tvirtinti**.
 1. Pasirodžiusiame dialogo lange pasirinkite **Gerai**.
 
-    ![KS tvirtinimas](media/approve-dialog.png "KS tvirtinimas")
+    ![KS tvirtinimas.](media/approve-dialog.png "KS tvirtinimas")
 
 1. Puslapyje **Inžinerijos versija** „FastTab“ **Komplektavimo specifikacija** rinkitės **Įjungti**.
 1. Atkreipkite dėmesį, kad **Įjungtas** ir **Patvirtintas** žymimi laukeliai yra pasirinkti KS.
 
-    ![Įjungtas ir patvirtintas KS](media/approved-bom.png "Įjungtas ir patvirtintas KS")
+    ![Įjungtas ir patvirtintas KS.](media/approved-bom.png "Įjungtas ir patvirtintas KS")
 
 1. Uždarykite puslapį.
 
@@ -244,25 +244,25 @@ Produktas dabar buvo sukurtas inžinerijos skyriaus. Šiuo atveju produktas yra 
 1. Veiksmų juostoje skirtuke **Produktas** , **Laikyti** grupėje, rinkitės **Leidžiamo produkto struktūra** kad atvertumėte **Leisti produktus** vedlį.
 1. Puslapyje **Pasirinkite inžinerijos produktus išleidimu** rinkitės **Rinktis** žymimą laukelį produktui *Z0001*.
 
-    ![Inžinerijos produktus išleidimui rodomi produktai](media/select-eng-product-to-release.png "Inžinerijos produktus išleidimui rodomi produktai")
+    ![Inžinerijos produktus išleidimui rodomi produktai.](media/select-eng-product-to-release.png "Inžinerijos produktus išleidimui rodomi produktai")
 
 1. Pasirinkite **Leidimo išsami informacija**.
 1. Puslapis pasirodo **Produkto leidimo išsami informacija** ir jame galite peržiūrėti išsamią produkto informaciją, kuris bus leidžiamas ir jo struktūrą. Atkreipkite dėmesį, kad **Siųsti KS** parinktis nustatyta į *Taip*. Dėl to, abu produktai *Z0001* ir jų vaikų prekės iš KS bus išleistos.
 
     Galite pasirinkti bet kurį vaiką prekę kairėje juostoje, kad peržiūrėtumėte išsamią informaciją. Jei bet kuri vaiko prekė turi KS, galite taip pat rinktis išleisti tos vaikų prekės KS.
 
-    ![Leidžiamų produktų išsamios informacijos peržiūra](media/product-release-details.png "Leidžiamų produktų išsamios informacijos peržiūra")
+    ![Leidžiamų produktų išsamios informacijos peržiūra.](media/product-release-details.png "Leidžiamų produktų išsamios informacijos peržiūra")
 
 1. Užverkite puslapį, kad grįžtumėte į **Išleisti produktus** vedlį.
 1. Rinkitės **Kitas** tam, kad atvertumėte **Pasirinkite inžinerijos produktus išleidimui** puslapį. Jei pasirinkote bet kurį standartinį (ne inžinerinį) produktą, jie pasirodys puslapyje. Pastebėkite, kad jums išleidžiant standartinį produktą pasirinkus  **Leisti produkto struktūrą**, jo KS ir maršrutas taip pat išleidžiami.
 
-    ![Standartinio produktus išleidimui rodomi produktai](media/select-std-product-to-release.png "Standartinio produktus išleidimui rodomi produktai")
+    ![Standartinio produktus išleidimui rodomi produktai.](media/select-std-product-to-release.png "Standartinio produktus išleidimui rodomi produktai")
 
 1. Rinkitės **Kitas** tam, kad atvertumėte **Pasirinkite produkto variantai leidimui** puslapį. Šiam pavyzdžiui, nėra jokių variantų.
 1. Rinkitės **Kitas** tam, kad atvertumėte **Pasirinkite įmonės** puslapį.
 1. Pasirinkite įmones, kurioms produktas turi būti išleistas. Pavyzdžiui, pasirinkite žymimą laukelį **USMF**.
 
-    ![Leidimo bendrovių pasirinkimas](media/select-release-companies.png "Leidimo bendrovių pasirinkimas")
+    ![Leidimo bendrovių pasirinkimas.](media/select-release-companies.png "Leidimo bendrovių pasirinkimas")
 
 1. Rinkitės **Kitas** tam, kad atvertumėte **Tvirtinti pasirinkimą** puslapį.
 1. Pasirinkite **Baigti**.
@@ -280,7 +280,7 @@ Norėdami peržiūrėti produktą ir jį išleisti į *USMF* bendrovę, atlikite
 
     Puslapis **Atverti produkto leidimus** rodo produktą *Z0001*, kurio būsena yra *Laukia patvirtinimo*.
 
-    ![Atidaryti produkto paleidimą](media/open-product-releases.png "Atidaryti produkto paleidimą")
+    ![Atidaryti produkto paleidimą.](media/open-product-releases.png "Atidaryti produkto paleidimą")
 
 1. Rinkitės vertę **Produkto numerio** stulpelyje, kad atvertumėte **Produkto leidimo išsamios informacijos** puslapį. Atkreipkite dėmesį į tolesnę išsamią informaciją:
 
@@ -288,7 +288,7 @@ Norėdami peržiūrėti produktą ir jį išleisti į *USMF* bendrovę, atlikite
     - „FastTab“ **Leidimo išsami informacija** rodo informaciją apie produktą ir jo leidimo versiją. Čia galite keisti nustatymus, tokius kaip efektyvumo datos.
     - „FastTab“ **Maršrutas** rodo produkto maršrutą. Nepaisant to, šiame pavyzdyje neišleidote jokių maršrutų.
 
-    ![Produkto išleidimo informacija](media/product-release-details-2.png "Produkto išleidimo informacija")
+    ![Produkto išleidimo informacija.](media/product-release-details-2.png "Produkto išleidimo informacija")
 
 1. Jums pabaigus peržiūrėti informaciją, esate pasirengęs priimti produktą ir tokiu būtu jį išleisti į *USMF* bendrovę. Veiksmų juostoje rinkitės **Veiksmai &gt; Priimti**.
 1. Produktas dabar išleistas į *USMF* bendrovę. Eikite į **Produkto informacijos valdymas &gt; Produktai &gt; Išleisti produktai**. Turite matyti prekę *Z0001*.
@@ -304,7 +304,7 @@ Pagrindinių duomenų vadovas  *USMF* bendrovėje nori įsitikinti, kad produkta
 1. Veiksmų juostoje skirtuke **Produkto** grupėje **Gyvavimo ciklo būsena** pasirinkite **Keisti gyvavimo ciklo būseną**.
 1. Iškrentančiame teksto laukelyje **Keisti gyvavimo ciklo būseną** nustatykite **Būsenos** laukelį į *Prototipas* ir tada rinkitės **Gerai**.
 
-    ![Gyvavimo ciklo būsenos keitimas](media/change-lifecycle-state.png "Gyvavimo ciklo būsenos keitimas")
+    ![Gyvavimo ciklo būsenos keitimas.](media/change-lifecycle-state.png "Gyvavimo ciklo būsenos keitimas")
 
 ## <a name="add-the-engineering-product-to-a-sales-order"></a>Įtraukti inžinerinį produktą į prekybos užsakymą
 
@@ -318,7 +318,7 @@ Produktas dabar gali būti parduotas klientui. Siekiant įtraukti produktą į p
 
     Gausite tolesnį įspėjimo pranešimą, kuris informuos jus, kad prekės būsena yra *Prototipas*. Nepaisant to, kadangi pranešimas tik įspėjamasis, prekybos užsakymas bus vis tiek sukurtas.
 
-    ![Prekybos užsakymas inžinerijos produktui](media/sales-order-eng-product.png "Prekybos užsakymas inžinerijos produktui")
+    ![Prekybos užsakymas inžinerijos produktui.](media/sales-order-eng-product.png "Prekybos užsakymas inžinerijos produktui")
 
 ## <a name="request-changes-in-the-engineering-product"></a>Prašykite pakeitimų inžinerijos produktui
 
@@ -328,7 +328,7 @@ Produktas buvo nusiųstas klientui, tačiau jis ne visiškai patenkintas ir pate
 1. Suraskite ir atverkite prekybos užsakymą, kurį sukūrėte ankstesnėje praktikoje.
 1. „FastTab“ **Prekybos užsakymo eilutės** rinkitės **Inžinerijos keitimo valdymas &gt; Nauja inžinerijos keitimo užklausa**.
 
-    ![Inžinerijos keitimo užklausos kūrimas iš prekybos užsakymo](media/sales-order-eng-change-request.png "Inžinerijos keitimo užklausos kūrimas iš prekybos užsakymo")
+    ![Inžinerijos keitimo užklausos kūrimas iš prekybos užsakymo.](media/sales-order-eng-change-request.png "Inžinerijos keitimo užklausos kūrimas iš prekybos užsakymo")
 
 1. Užpildykite inžinerijos keitimo užklausą pagal kliento atsiliepimą. Šiam pavyzdžiui, nustatykite tolesnes vertes:
 
@@ -341,7 +341,7 @@ Produktas buvo nusiųstas klientui, tačiau jis ne visiškai patenkintas ir pate
 1. „FastTab“ **Informacija** rinkitės **Naujas &gt; Pastaba** norėdami įtraukti pastabą į tinklelį.
 1. Laukelyje **Aprašas** naujam pranešimui nurodykite, kad prekė *D0003* turi būti pašalinta iš KS. Jei turite įtraukti daugiau informacijos pastabai, galite įvesti tekstą **Pastabos** laukelyje.
 
-    ![Inžinerinių pakeitimų užklausa](media/eng-change-request.png "Inžinerinių pakeitimų užklausa")
+    ![Inžinerinių pakeitimų užklausa.](media/eng-change-request.png "Inžinerinių pakeitimų užklausa")
 
 1. Veiksmų srityje pasirinkite **Įrašyti**.
 1. Atkreipkite dėmesį, kad prekė automatiškai įtraukiama į **Produktai** „FastTab“ ir kad šaltinis inžinerijos keitimo užsakymui (prekybos užsakymui) buvo įtrauktas į **Šaltinio** „FastTab“.
@@ -370,26 +370,26 @@ Inžinierius dabar peržiūri užklausą iš kliento ir sukuria keitimo užsakym
     - **Produktas:** *Z0001*
     - **Poveikis:** *Nauja versija*
 
-    ![Inžinerijos keitimo užsakymo kūrimas](media/eng-change-order.png "Inžinerijos keitimo užsakymo kūrimas")
+    ![Inžinerijos keitimo užsakymo kūrimas.](media/eng-change-order.png "Inžinerijos keitimo užsakymo kūrimas")
 
 1. Atkreipkite dėmesį, nes nustatėte **Poveikis** laukelį į *Nauja versija*, laukelis **Nauja versija** skirtuke **Išsami informacija** „FastTab“ **Produkto išsami informacija** rodo, koks naujos versijos numeris bus (*V-02* šiuo atveju).
 
-    ![Išsami produkto informacija inžinerinių pakeitimų užsakymui](media/eng-change-order-product-details.png "Išsami produkto informacija inžinerinių pakeitimų užsakymui")
+    ![Išsami produkto informacija inžinerinių pakeitimų užsakymui.](media/eng-change-order-product-details.png "Išsami produkto informacija inžinerinių pakeitimų užsakymui")
 
 1. Veiksmų srityje pasirinkite **Įrašyti**.
 1. „FastTab“ **Produkto išsami informacija** skirtuke **Komplektavimo specifikacija** pasirinkite **Eilutės** tam, kad atvertumėte KS produkto *Z0001* *V-01* versijai.
 
-    ![Inžinerijos produkto KS eilutės](media/eng-product-bom-lines.png "Inžinerijos produkto KS eilutės")
+    ![Inžinerijos produkto KS eilutės.](media/eng-product-bom-lines.png "Inžinerijos produkto KS eilutės")
 
 1. Parinkite eilutę prekės numeriui *D0003* ir tada veiksmų juostoje rinkitės **Šalinti**. Laukelio **Keisti tipą** vertė šiai eilutei keičiasi į *Naikinta*.
 1. Veiksmų srityje pasirinkite **Įrašyti**.
 
-    ![Pakeistos inžinerijos produkto KS eilutės](media/eng-product-bom-lines-modified.png "Pakeistos inžinerijos produkto KS eilutės")
+    ![Pakeistos inžinerijos produkto KS eilutės.](media/eng-product-bom-lines-modified.png "Pakeistos inžinerijos produkto KS eilutės")
 
 1. Uždarykite **KS eilutės** puslapį, kad grįžtumėte **Inžinerijos keitimo užsakymo** puslapį.
 1. „FastTab“ **Išsami produkto informacija** skirtuke **Komplektavimo specifikacija** atkreipkite dėmesį, kad vertė **Keisti tipą** laukeliui KS *Z0001* dabar yra *Pakeista*.
 
-    ![Inžinerijos pakeitimų užsakymas apimantis pakeistą KS](media/eng-change-order-changed-bom.png "Inžinerijos pakeitimų užsakymas apimantis pakeistą KS")
+    ![Inžinerijos pakeitimų užsakymas apimantis pakeistą KS.](media/eng-change-order-changed-bom.png "Inžinerijos pakeitimų užsakymas apimantis pakeistą KS")
 
     Užsakymas dabar turi būti patvirtintas prieš keitimų tvarkymą. Kai keitimai sutvarkyti, produktai yra naujinami su pakeitimais, kurie įtraukti į inžinerijos keitimo užsakymą. Šiame pavyzdyje, asmuo, kuris sukūrė inžinerijos keitimo užsakymą buvo nurodytas patvirtintojo.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 294ad788c97850880b479d3c3c44cc19d55e9a6e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0646f8b6371ffbb5d203f8fd062999fb22613240
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837158"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345631"
 ---
 # <a name="revenue-recognition-setup"></a>Įplaukų pripažinimo nustatymai
 [!include [banner](../includes/banner.md)]
@@ -72,7 +72,7 @@ Antruoju atveju, žurnalas sukuriamas įvykdžius perskirstymą. Perskirstymas v
     - Nustatykite šią parinktį į **Ne**, norėdami apriboti taisomosios operacijos registravimą didžiojoje knygoje. Nustačius šią parinktį į **Ne**, vidiniam apskaitos koregavimui Gautinose sumose papildomų dokumentų nesukuriama. Kai SF yra apmokėta, sudengimo proceso metu naudojamas senas apskaitos įrašas bet kokioms mokėjimų nuolaidoms, gautam pelnui ar patirtiems nuostoliams registruoti.
     - Nustatykite šią parinktį į **Taip**, kad būtų automatiškai sukurtas atšaukimo dokumentas ir nauja SF taisymo operacijai Gautinose sumose. Kadangi šis taisymas yra vidinis apskaitos taisymas, nauji dokumentai klientui nesiunčiami / apie juos nepranešama. Atšaukimo dokumentas sudengiamas su originalia SF ir klientas apmoka naują pataisytą SF. Atkreipkite dėmesį, kad visi trys dokumentai yra rodomi ataskaitose, pvz., kliento išraše.
 
-[![Informacija apie sąranką](./media/revenue-recognition-setup-info.png)](./media/revenue-recognition-setup-info.png)
+[![Informacija apie sąranką.](./media/revenue-recognition-setup-info.png)](./media/revenue-recognition-setup-info.png)
 
 ## <a name="revenue-schedules"></a>Įplaukų grafikai
 
@@ -82,7 +82,7 @@ Jei įplaukas pripažįstate etapais, rekomenduojame sudaryti įplaukų pripaži
 
 Įplaukų grafikai kuriami puslapyje **Įplaukų grafikai** (**Įplaukų pripažinimas \> Nustatymai \> Įplaukų grafikai**).
 
-[![Įplaukų grafikai](./media/revenue-recognition-revenue-schedules.png)](./media/revenue-recognition-revenue-schedules.png)
+[![Įplaukų grafikai.](./media/revenue-recognition-revenue-schedules.png)](./media/revenue-recognition-revenue-schedules.png)
 
 Įveskite aprašomąsias reikšmes laukuose **Įplaukų grafikas** ir **Aprašas**. Registruojant SF, įplaukų grafikas sukuriamas naudojant šiuos papildomus parametrus:
 
@@ -104,7 +104,7 @@ Jei įplaukas pripažįstate etapais, rekomenduojame sudaryti įplaukų pripaži
 
 Pasirinkite mygtuką **Įplaukų grafiko išsami informacija**, norėdami peržiūrėti bendruosius laikotarpius ir procentinius dydžius, pripažįstamus kiekvienu laikotarpiu. Pagal numatytuosius nustatymus **Pripažinti procentinį dydį** reikšmė padalijama po lygiai laikotarpių skaičiui. Jei pripažinimo pagrindas nustatytas į **Kas mėnesį** arba **Pasikartojimai**, pripažinimo procentinę dalį galima keisti. Keičiant pripažinimo procentinę dalį, įspėjimas praneša, kad suma „Iš viso“ nelygi 100 procentų. Gavę pranešimą galite toliau redaguoti eilutes. Tačiau prieš uždarant puslapį procentinė dalis „Iš viso“ turi būti lygi 100 proc.
 
-[![Įplaukų grafiko išsami informacija](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
+[![Įplaukų grafiko išsami informacija.](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
 
 ## <a name="inventory-setup"></a>Atsargų nustatymas
 
@@ -139,7 +139,7 @@ Prekių grupes ir išleistus produktus galima nustatyti naudojant kainos mediano
 
 Baigę konfigūruoti išleisto produkto nustatymus, turite rankiniu būdu apibrėžti įplaukų vertę įvedant tikrąją vertę ar kainų medianą (jei naudojate kainų medianos metodą) puslapyje **Įplaukų vertės** (eikite į **Įplaukų pripažinimas \> Nustatymai \> Atsargų nustatymai \> Išleisti produktai**, tada veiksmų srityje skirtuke **Parduoti**, grupėje **Įplaukų pripažinimas** pasirinkite **Įplaukų vertės**).
 
-[![Įplaukų vertės](./media/revenue-recognition-revenue-prices.png)](./media/revenue-recognition-revenue-prices.png)
+[![Įplaukų vertės.](./media/revenue-recognition-revenue-prices.png)](./media/revenue-recognition-revenue-prices.png)
 
 Įplaukų vertė, kuri šiame puslapyje yra apibrėžta rankiniu būdu, naudojama apibrėžti įplaukų vertės paskirstymą kiekvienam pardavimo užsakymui pagal apibrėžtus kriterijus. Kiekvienas kriterijus yra suderinamas su pardavimo užsakymo eilute, siekiant apibrėžti įplaukų vertę, kuri turėtų būti naudojama paskirstymo proceso metu.
 
@@ -181,7 +181,7 @@ Nustatant grupavimo prekę, turite nustatyti du laukus puslapyje **Išleidžiami
 
 Komponentai turi būti priskirti grupavimo / KS pirminei prekei puslapyje **KS versijos** (eikite į **įplaukų pripažinimas \> Nustatymai \> Atsargų ir produktų nustatymai \> Išleisti produktai**, tada veiksmų srityje, skirtuke **Inžinierius**, **KS** grupėje pasirinkite **KS versijos**). Daugiau informacijos žr. KS nustatymų dokumentacijoje.
 
-[![Išleisti produktai, KS grafikai](./media/revenue-recognition-bom-scheduleds.jpg)](./media/revenue-recognition-bom-scheduleds.jpg)
+[![Išleisti produktai, KS grafikai.](./media/revenue-recognition-bom-scheduleds.jpg)](./media/revenue-recognition-bom-scheduleds.jpg)
 
 Jei grupavimo pirminė prekė ir grupavimo komponentai nustatyti kaip paskirstyti, sugrupuotų įplaukų vertė bus paskirstyta komponentams, atsižvelgiant į jų įplaukų įnašo procentinę dalį.
 

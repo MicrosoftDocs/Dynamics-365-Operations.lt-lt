@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 84b3a3630d3809c05f87242784207c3c4af160ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 1351b9f22416e8ce6d90022997f0a15e9eb4042a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018585"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344376"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>„Commerce” B2C nuomotojo sąranka
 
@@ -40,7 +40,7 @@ ms.locfileid: "6018585"
 1. Prisijunkite prie [„Azure“ portalo](https://portal.azure.com/).
 1. „Azure“ portalo meniu pasirinkite **Kurti išteklius**. Įsitikinkite, kad naudojate prenumeratą ir katalogą, kurie bus susieti su jūsų „Commerce“ aplinka.
 
-    ![Išteklių „Azure“ portale kūrimas](./media/B2CImage_1.png)
+    ![Išteklių „Azure“ portale kūrimas.](./media/B2CImage_1.png)
 
 1. Eikite į **Tapatybė \> „Azure Active Directory“ B2C**.
 1. Kai būsite puslapyje **Kurti naują B2C nuomotoją arba susieti su esamu nuomotoju**, pasirinkite vieną iš toliau apteiktų parinkčių, kuri geriausiai atitinka jūsų įmonės poreikius.
@@ -52,25 +52,25 @@ ms.locfileid: "6018585"
         1. Dalyje **Šalis arba regionas** pasirinkite šalį arba regioną.
         1. Pasirinkite **Kurti**, kad sukurtumėte nuomotoją.
 
-     ![Naujo „Azure AD“ nuomotojo kūrimas](./media/B2CImage_2.png)
+     ![Naujo „Azure AD“ nuomotojo kūrimas.](./media/B2CImage_2.png)
 
      - **Susieti esamą „Azure AD“ B2C nuomotoją su mano „Azure“ prenumerata**: naudokite šią parinktį, jei jau turite „Azure AD“ B2C nuomininką, su kuriuo norite susieti.
         1. Pasirinkite **Susieti esamą „Azure AD“ B2C nuomotoją su mano Azure prenumerata**.
         1. Jei **„Azure AD“ B2C nuomotojas**, pasirinkite atitinkamą B2C nuomotoją. Jei pasirinkimo lauke rodomas pranešimas „Nerasta tinkamų B2C nuomotojų“, neturite tinkamo B2C nuomotojo ir turite sukurti naują.
         1. Jei **Išteklių grupė**, pasirinkite **Kurti naują**. Įveskite išteklių grupės, kurioje bus nuomotojas, **Pavadinimas**, pasirinkite **Išteklių grupės vieta**, tada pasirinkite **Kurti**.
 
-    ![Esamo „Azure AD“ B2C nuomotojo susiejimas su „Azure“ prenumerata](./media/B2CImage_3.png)
+    ![Esamo „Azure AD“ B2C nuomotojo susiejimas su „Azure“ prenumerata.](./media/B2CImage_3.png)
 
 1. Kai sukuriamas naujas „Azure AD“ B2C katalogas (tai gali užtrukti kelias akimirkas), ataskaitų srityje bus pradėtas rodyti saitas į ataskaitų sritį. Šis saitas nukreips jus į puslapį „Sveiki atvykę į „Azure Active Directory“ B2C“.
 
-    ![Susiejimas su nauju AAD katalogu](./media/B2CImage_4.png)
+    ![Susiejimas su nauju AAD katalogu.](./media/B2CImage_4.png)
 
 > [!NOTE]
 > Jei turite kelias savo „Azure“ sąskaitos prenumeratas arba nustatėte B2C nuomotoją nesusiedami su aktyvia prenumerata, nesusiejant su aktyvia prenumerata, juosta **Trikčių diagnostika** jus nukreips, kad susietumėte nuomotoją su prenumerata. Pasirinkite trikčių diagnostikos pranešimą ir sekite instrukcijas, kad išspręstumėte prenumeratos problemą.
 
 Šiame vaizde parodytas „Azure AD“ B2C **Trikčių diagnostika** juosta.
 
-![Įspėjimas, rodantis, kad kataloge nėra aktyvios prenumeratos](./media/B2CImage_5.png)
+![Įspėjimas, rodantis, kad kataloge nėra aktyvios prenumeratos.](./media/B2CImage_5.png)
 
 ## <a name="create-the-b2c-application"></a>B2C programos kūrimas
 
@@ -136,11 +136,11 @@ Norėdami sukurti prisiregistravimo ir prisijungimo vartotojo srauto strategiją
 
 Tolesniame vaizde pateikiamas „Azure AD“ B2C prisiregistravimo ir prisijungimo vartotojo srauto pavyzdys.
 
-![Prisiregistravimo ir prisijungimo strategijos parametrai](./media/B2CImage_11.png)
+![Prisiregistravimo ir prisijungimo strategijos parametrai.](./media/B2CImage_11.png)
 
 Tolesniame paveiksle rodoma parinktis **Vykdyti vartotojo srautą** „Azure AD“ B2C prisiregistravimo ir prisijungimo vartotojo sraute.
 
-![Vartotojo srauto vykdymo parinktis strategijos sraute](./media/B2CImage_23.png)
+![Vartotojo srauto vykdymo parinktis strategijos sraute.](./media/B2CImage_23.png)
    
 ### <a name="create-a-profile-editing-user-flow-policy"></a>Profilio redagavimo vartotojo srauto strategijos kūrimas
 
@@ -161,7 +161,7 @@ Norėdami sukurti profilio redagavimo vartotojo srauto strategiją, atlikite ši
 
 Tolesniame paveiksle pateiktas „Azure AD“ B2C profilio redagavimo vartotojo srauto pavyzdys.
 
-![Profilio redagavimo vartotojo srauto kūrimas](./media/B2CImage_12.png)
+![Profilio redagavimo vartotojo srauto kūrimas.](./media/B2CImage_12.png)
 
 ### <a name="create-a-password-reset-user-flow-policy"></a>Slaptažodžio nustatymo iš naujo vartotojo srauto strategijos kūrimas
 
@@ -225,18 +225,18 @@ Norėdami įtraukti ir nustatyti socialinės tapatybės teikimo įrankį, atliki
 
 Tolesniame paveiksle pateikiami ekranų **Įtraukti tapatybės teikimo įrankį** ir **Nustatyti socialinės tapatybės teikimo įrankį** „Azure AD“ B2C.
 
-![Socialinės tapatybės teikimo įrankio įtraukimas į programą](./media/B2CImage_14.png)
+![Socialinės tapatybės teikimo įrankio įtraukimas į programą.](./media/B2CImage_14.png)
 
 Tolesniame paveiksle pateiktas pavyzdys, kaip pasirinkti tapatybės teikimo įrankius „Azure AD“ B2C puslapyje **Tapatybės teikimo įrankiai**.
 
-![Kiekvieno socialinės tapatybės teikimo įrankio pasirinkimas siekiant įjungti strategiją](./media/B2CImage_16.png)
+![Kiekvieno socialinės tapatybės teikimo įrankio pasirinkimas siekiant įjungti strategiją.](./media/B2CImage_16.png)
 
 Toliau pateiktame paveikslėlyje parodytas numatytojo prisijungimo ekrano, kuriame rodomas socialinės tapatybės teikimo įrankio prisijungimo mygtukas, pavyzdys.
 
 > [!NOTE]
 > Jeigu savo vartotojo srautams naudojate pasirinktinius puslapius, įtaisytus „Commerce”, naudojant „Commerce” modulių bibliotekos išplėtimo funkcijas reikės įtraukti socialinės tapatybės teikėjams skirtus mygtukus. Be to, kai nustatote savo programas su konkrečiu socialinės tapatybės teikėju, kai kuriais atvejais URL ar konfigūracijos eilutės gali skirti didžiąsias ir mažąsias raides. Norėdami gauti daugiau informacijos, vadovaukitės savo socialinės tapatybės teikėjo ryšio instrukcijomis.
  
-![Numatytojo prisijungimo ekrano su rodomu socialinės tapatybės teikimo įrankio mygtuku pavyzdys](./media/B2CImage_17.png)
+![Numatytojo prisijungimo ekrano su rodomu socialinės tapatybės teikimo įrankio mygtuku pavyzdys.](./media/B2CImage_17.png)
 
 ## <a name="update-commerce-headquarters-with-the-new-azure-ad-b2c-information"></a>„Commerce“ būstinės naujinimas su nauja „Azure AD B2C“ informacija
 
@@ -291,15 +291,15 @@ Norėdami surinkti reikiamą programos informaciją, atlikite tolesnius veiksmus
 
 Toliau pateiktame paveikslėlyje parodytas puslapio **„Azure AD“ B2C – programos** pavyzdys.
 
-![Perėjimas į B2C programą nuomotojuje](./media/B2CImage_19.png)
+![Perėjimas į B2C programą nuomotojuje.](./media/B2CImage_19.png)
 
 Toliau pateiktame paveikslėlyje parodytas programos puslapio **Ypatybės**, esančio „Azure AD“ B2C, pavyzdys. 
 
-![Programos ID kopijavimas iš B2C programos ypatybių](./media/B2CImage_21.png)
+![Programos ID kopijavimas iš B2C programos ypatybių.](./media/B2CImage_21.png)
 
 Toliau pateiktame paveikslėlyje parodytas vartotojo srauto strategijų puslapyje **„Azure AD“ B2C – vartotojo srautai (strategijos)** pavyzdys.
 
-![Visų B2C strategijos srautų pavadinimų rinkimas](./media/B2CImage_22.png)
+![Visų B2C strategijos srautų pavadinimų rinkimas.](./media/B2CImage_22.png)
 
 ### <a name="enter-your-aad-b2c-tenant-application-information-into-commerce"></a>AAD B2C nuomotojo programos informacijos įvedimas „Commerce“
 

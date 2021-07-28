@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 044a5c21e4ebf1bf83edc74335e655b9388bc1d4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: fc7d47897d1a332ba1af7305525f9e75bca12afd
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795602"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6337508"
 ---
 # <a name="product-recommendations-overview"></a>Produktų rekomendacijų apžvalga
 
@@ -32,6 +32,9 @@ ms.locfileid: "5795602"
 Pasitelkdami produktų rekomendacijomis vartotojai gali lengvai ir greitai rasti norimų produktų, tad ši funkcija jiems labai naudinga. Kryžminis pardavimas ir papildomas pardavimas gali būti naudojami netgi siekiant padėti klientams surasti papildomų produktų, kurių iš pradžių jie net neketino pirkti. Kai rekomendacijos yra naudojamos siekiant pagerinti produkto atradimą, atsiranda daugiau konversijos padidinimo galimybių, išauga pardavimo įplaukos, netgi pagerėja klientų pasitenkinimas ir tokiu būdu jie išsaugomi.
 
 „e-Commerce“ produktų rekomendacijoms plačiai naudojama „Microsoft“ rekomendacijų mašininio mokymo technologijų platforma.
+
+Ši paslauga yra „Dynamics 365 Commerce” papildinys. Norėdami gauti daugiau informacijos, atsisiųskite naujausią [„Microsoft Dynamics 365” licencijavimo vadovą](https://go.microsoft.com/fwlink/?LinkId=866544).
+
 
 ## <a name="recommendation-service"></a>Rekomendacijų paslauga
 
@@ -47,7 +50,7 @@ Produktų rekomendacijos pasiekiamos toliau nurodytais scenarijais:
 - **Bet kuriame parduotuvės naršymo puslapyje ar nukreipimo puslapyje el. prekyboje:** Jei klientai arba parduotuvės partneriai lankosi parduotuvės puslapyje, rekomendacijų mechanizmas gali siūlyti produktus iš sąrašų **Nauja**, **Perkamiausi** ir **Populiaru**.
 - **Produkto išsamios informacijos puslapyje:** Jei klientai ar parduotuvės partneriai apsilanko puslapyje **Produkto išsami informacija**, rekomendacijos mechanizmas pasiūlys papildomas prekes, kurios taip pat gali būti perkamos. Šie elementai rodomi sąraše **Žmonėms taip pat patiko**.
 - **Operacijų puslapyje arba pirkimo užbaigimo puslapyje:** rekomendacijų mechanizmas siūlo prekių pagal visų prekių krepšelyje sąrašą. Šios prekės rodomos sąraše **Dažnai kartu perkama**.
-- **Pagal asmeninius poreikius pritaikytos rekomendacijos:** prekybininkai gali pateikti prisijungusiems klientams asmeninius sąrašus **Parinkta jums**, be naujų funkcijų, leidžiančių esamus sąrašo scenarijus pritaikyti pagal asmeninius poreikius ir atsižvelgiant į konkretų klientą. Norėdami sužinoti daugiau, žr. [Personalizuotų rekomendacijų įjungimas](personalized-recommendations.md).
+- **Pagal asmeninius poreikius pritaikytos rekomendacijos:** prekybininkai gali pateikti prisijungusiems klientams asmeninius sąrašus **Parinkta jums**, taip pat naujas funkcijas, leidžiančias esamus sąrašo scenarijus pritaikyti pagal asmeninius poreikius ir atsižvelgiant į konkretų klientą. Norėdami sužinoti daugiau, žr. [Personalizuotų rekomendacijų įjungimas](personalized-recommendations.md).
 
 ### <a name="types-of-product-recommendations"></a>Produktų rekomendacijų tipai
 

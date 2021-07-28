@@ -7,16 +7,17 @@ ms.topic: article
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak, WHSContainerStructure, WHSContainerTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f481f6ca047ee0285fe0e81d8fa96665e9d27cee
-ms.sourcegitcommit: 8e846b52763f90d2232ec7d427839f4722570bce
+ms.openlocfilehash: d39283dea37c0e0fbf432aae8b1a30a87198f9f0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "6292766"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343729"
 ---
 # <a name="container-packing-strategies"></a>Konteinerių pakavimo strategijos
 
@@ -251,7 +252,7 @@ Norėdami nustatyti siuntos konsolidacijos strategiją, atlikite toliau nurodytu
 1. Pasirinkite **Numatytąją** strategiją sąraše.
 1. Veiksmų srityje pasirinkite **Redaguoti**.
 1. „FastTab” **Konsolidavimo laukai** sąraše **Pasirinkti laukai** pasirinkite eilutę, kurioje laukas **Lauko pavadinimas** nustatytas į *Užsakymo numeris*.
-1. Pasirinkite **Pašalinti** mygtuką ![Rodyklė kairėn](media/backward-button.png), kad perkeltumėte lauką į sąrašą **Likę laukai**.
+1. Pasirinkite **Pašalinti** mygtuką ![Rodyklė kairėn.](media/backward-button.png) lauko perkėlimui į **Likę laukai** sąrašą.
 1. Veiksmų srityje pasirinkite **Įrašyti**.
 
 ### <a name="set-up-physical-dimensions-for-the-product"></a>Faktinių produkto dimensijų nustatymas

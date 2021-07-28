@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: eae1e722a7c4d819cbca398eb14a2b36fa04eec5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6844f3962562a02609333ef7d6963801852af4b0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830767"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344151"
 ---
 # <a name="work-split"></a>Darbo skaidymas
 
@@ -51,7 +51,7 @@ Toliau, įjunkite *Darbo atskyrimo* funkciją, kuri yra įrašyta tolesne tvarka
 - **Atskyrimo darbas** – Atskirkite esamo darbo ID į keletą mažesnių darbų ID, kurie gali būti tvarkomi atskirų darbuotojų.
 - **Atšaukite darbo atskyrimo seansą** – Atšaukite darbo atskyrimo seansą ir padarykite darbą prieinamą tvarkymui.
 
-![Atskyrimo darbas ir Atšaukimo darbo atskyrimo seanso mygtukai](media/Work_split_buttons.png "Atskyrimo darbas ir Atšaukimo darbo atskyrimo seanso mygtukai")
+![Atskyrimo darbas ir Atšaukimo darbo atskyrimo seanso mygtukai.](media/Work_split_buttons.png "Atskyrimo darbas ir Atšaukimo darbo atskyrimo seanso mygtukai")
 
 > [!IMPORTANT]
 > **Atskyrimo darbo** mygtukas nebus prieinamas, jei nebus patenkintos tolesnės sąlygos:
@@ -94,7 +94,7 @@ Norėdami atskirti darbą atlikite šiuos žingsnius.
 
     **Darbo blokavimo priežastis** laukelis esamam darbui bus nustatytas į *Atskirti darbą* ir darbas bus užblokuotas.
 
-    ![Blokavimo priežastis](media/Blocking_reason.png "Blokavimo priežastis")
+    ![Blokavimo priežastis.](media/Blocking_reason.png "Blokavimo priežastis")
 
 1. Pasirinkite eilutes, kad pašalintumėte iš esamo darbo ID ir įtrauktumėte naują darbo ID. Atistinka šis įvykis:
 

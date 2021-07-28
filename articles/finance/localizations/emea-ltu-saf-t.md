@@ -12,12 +12,12 @@ ms.reviewer: kfend
 ms.search.region: Lithuania
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f16d1756fac4758bd9bd77a0477def57c2dbe2a0
-ms.sourcegitcommit: 55ca275705a624d446d2abb60b5d676b86fe7240
+ms.openlocfilehash: ffec10ae92da7f09c0ae41c6eec6ddf4d9af54a9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "6306790"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344746"
 ---
 # <a name="standard-audit-file-for-tax-saf-t-for-lithuania"></a>Lietuvai skirtas standartinis mokesčio audito failas (SAF-T)
 
@@ -51,7 +51,7 @@ Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti ER konfigūracij
 | SAF-T bendras modelio susiejimas | Modelio susiejimas | 128.251 | Modelio susiejimas, kuris suteikia bendrą duomenų šaltinio susiejimą. |
 | SAF-T formatas (LT)           | Formatuoti        | 128.198 | XML formatas, vaizduojantis SAF-T ataskaitą pagal Lietuvos reikalavimus. |
 
-![SAF-T bendroji modelių susiejimo konfigūracija Lietuvai](media/lt-saf-t-ger-configurations.png)
+![SAF-T bendroji modelių susiejimo konfigūracija Lietuvai.](media/lt-saf-t-ger-configurations.png)
 
 **SAF-T Bendroji modelio** susiejimo konfigūracija leidžia susieti bendruosius duomenų šaltinį toliau pateikiamais pagrindiniais duomenimis:
 
@@ -79,7 +79,7 @@ Importuokite naujausias konfigūracijų versijas. Versijos apraše paprastai yra
 > [!IMPORTANT]
 > Importavę visas anksčiau pateiktoje ankstesnėje lentelėje nurodytas ER konfigūracijas, parinktyje **Numatytasis modelių susiejimui**, nustatykite **Taip** SAF-T bendrojo modelio žymėjimo **konfigūracijai**.
 >
-> ![Numatytoji modelio susiejimo pasirinktis, nustatyta kaip Taip, jei susiekite SAF-T bendrą modelio susiejimo konfigūraciją](media/lt-saf-t-default-model-mapping.png)
+> ![Numatytoji modelio susiejimo pasirinktis, nustatyta kaip Taip, jei susiekite SAF-T bendrą modelio susiejimo konfigūraciją.](media/lt-saf-t-default-model-mapping.png)
 
 ### <a name="set-up-application-specific-parameters-for-the-saf-t-format-lt-configuration"></a><a name="application"></a>Nustatykite SAF-T formato (LT) konfigūravimo specialius programos parametrus
 
@@ -120,7 +120,7 @@ SAF-T ataskaitos **Įmonės** mazge turi būti kontakto informacija. Šis mazgas
 2. Pasirinkite **Naujas**, kad sukurtumėte naują savo juridinio subjekto kontaktą. Įsitikinkite, kad pasirinkote **Juridinis subjektas** lauke **Kontaktas**. 
 3. Patikrinkite **Šalies ID** reikšmę, kad įsitikintumėte, jog pasirinkote juridinį subjektą, iš kurio SAF-T bus pateiktas.
 
-![ER konfigūracijos, skirtos Lietuvos SAF-T ataskaitos](media/lt-saf-t-contact-person.png)
+![ER konfigūracijos, skirtos Lietuvos SAF-T ataskaitos.](media/lt-saf-t-contact-person.png)
 
 ## <a name="generate-the-saf-t-report"></a>SAF-T ataskaitos generavimas
 

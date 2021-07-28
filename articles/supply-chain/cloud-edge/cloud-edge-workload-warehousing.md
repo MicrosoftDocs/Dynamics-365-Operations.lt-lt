@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30ccdf45d4993e9803f86025f8e789d4f75f64dc
-ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
+ms.openlocfilehash: dc065684952cbbe2a324b766dc8c465371cdb49d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "6184027"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345505"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Sandėlio valdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams
 
@@ -73,7 +73,7 @@ Centras turi tolesnius duomenis:
 
 Skalės vienetai turi realų bangos tvarkymą (tokį kaip darbo skyrimą, pildymo darbą ir paklausos darbo kūrimą) po bangos paleidimo. Todėl sandėlio darbuotojai gali apdoroti siuntimo darbą naudodami sandėlio valdymo mobiliųjų įrenginių programėlę, susietą su skalės vienetu.
 
-![Bangos tvarkymo eiga](./media/wes-wave-processing-ga.png "Bangos tvarkymo eiga")
+![Bangos tvarkymo eiga.](./media/wes-wave-processing-ga.png "Bangos tvarkymo eiga")
 
 ### <a name="process-work-and-ship"></a>Apdoroti darbą ir siuntą
 
@@ -81,7 +81,7 @@ Kai galutinio darbo proceso metu atsargos įrašomos į galutinę siuntimo viet�
 
 Kai tik centro centras atnaujins operacijas į *Paimta*, jis gali apdoroti siunčiamos siuntos patvirtinimą ir susijusį krovinio pardavimo važtaraštį arba perkėlimo užsakymo siuntą.
 
-![Siuntimo tvarkymo eiga](./media/WES-outbound-processing-19.png "Siuntimo tvarkymo eiga")
+![Siuntimo tvarkymo eiga.](./media/WES-outbound-processing-19.png "Siuntimo tvarkymo eiga")
 
 ## <a name="inbound-process-flow"></a>Gavimo proceso eiga
 
@@ -107,11 +107,11 @@ Darbuotojas gali vykdyti gavimo procesą naudodamas sandėlio valdymo mobiliųj�
 
 Jei nenaudojate *leidimo į sandėlį* procesą ir dėl to nenaudojate *sandėlio užsakymų*, centras gali sutvarkyti sandėlio gavimo ir darbo tvarkymą nepriklausomai nuo skalės vienetų.
 
-![Gavimo tvarkymo eiga](./media/wes-inbound-ga.png "Gavimo proceso eiga")
+![Gavimo tvarkymo eiga.](./media/wes-inbound-ga.png "Gavimo proceso eiga")
 
 Atliekant gavimo registraciją sandėlio programos gavimo procesu pagal skalės vieneto sandėlio užsakymą, skalės vieneto darbo krūvis duos signalą centrui, kad susijusių pirkimo užsakymo eilučių operacijos būtų atnaujintos į *Užregistruotas*. Kai tik ji bus baigta, galėsite paleisti pirkimo užsakymo produkto gavimo kvitą centre.
 
-![Gavimo tvarkymo eiga](./media/WES-inbound-processing-19.png "Gavimo tvarkymo eiga")
+![Gavimo tvarkymo eiga.](./media/WES-inbound-processing-19.png "Gavimo tvarkymo eiga")
 
 ## <a name="supported-processes-and-roles"></a>Palaikomi procesai ir vaidmenys
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 721799c9a6fafe0a809f447189ce6814b30ca863
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 1a1ee5345e2d6b3736d45e233a59ac4009a9f1c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052462"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344693"
 ---
 # <a name="configure-dataverse-integration"></a>„Dataverse“ integravimo konfigūravimas
 
@@ -48,15 +48,15 @@ Galbūt norėsite išjungti integravimą šiais atvejais:
 
 1. „Human Resources“ egzemplioriuje, kur norite peržiūrėti arba konfigūruoti parametrus integravimui su „Dataverse“, pasirinkite plytelę **Sistemos administravimas**.
 
-    [![Plytelė Sistemos administravimas](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
+    [![Plytelė Sistemos administravimas.](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
 
 2. Pasirinkite skirtuką **Saitai**.
 
-    [![Saitų skirtukas](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
+    [![Saitų skirtukas.](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
 
 3. Dalyje **Integravimai** pasirinkite **„Dataverse“ konfigūravimas**.
 
-    [![„Dataverse“ konfigūracijos saitas](./media/hr-admin-integration-dataverse-select.png)](./media/hr-admin-integration-dataverse-select.png)
+    [![„Dataverse“ konfigūracijos saitas.](./media/hr-admin-integration-dataverse-select.png)](./media/hr-admin-integration-dataverse-select.png)
 
 ## <a name="turn-data-integration-between-human-resources-and-dataverse-on-or-off"></a>Duomenų integravimo tarp „Human Resources“ ir „Dataverse“ įjungimas ir išjungimas
 
@@ -67,7 +67,7 @@ Galbūt norėsite išjungti integravimą šiais atvejais:
 
 - Norėdami išjungti integravimą, nustatykite parinktį į **Ne**.
 
-[![„Dataverse“ integravimo įjungimas arba išjungimas](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
+[![„Dataverse“ integravimo įjungimas arba išjungimas.](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
 
 > [!WARNING]
 > Primygtinai rekomenduojame išjungti „Dataverse“ integravimą atliekant duomenų perkėlimo užduotis. Dideli duomenų įkėlimai gali reikšmingai pabloginti veikimą. Pavyzdžiui, 2000 darbuotojų atnaujinimas gali užimti kelias valandas, kol integravimas bus įjungtas ir mažiau nei valandą jo išjungimui. Šiame pavyzdyje pateikti skaičiai yra tik demonstracijos tikslais. Tikslus laiko kiekis įrašų importavimui gali labai skirtis priklausomai nuo daugybės faktorių.
@@ -98,7 +98,7 @@ Jei jums kyla problemų sinchronizuojant duomenis tarp „Human Resources“ ir 
 
 - Pašalinkite „Human Resources“ sąsajos įrašą ir „Dataverse“eilutes pasirinkdami lentelę **„Dataverse“ lentelės** laukelyje ir tada rinkitės **Naikinti sekimo informaciją**.
 
-[![Sekimo informacijos valymas](./media/hr-admin-integration-dataverse-clear-tracking.png)](./media/hr-admin-integration-dataverse-clear-tracking.png)
+[![Sekimo informacijos valymas.](./media/hr-admin-integration-dataverse-clear-tracking.png)](./media/hr-admin-integration-dataverse-clear-tracking.png)
 
 Norėdami vykdyti visą sinchronizavimą lentelėje, kai ištrinsite sekimą, žr. kitą procedūrą.
 
@@ -116,13 +116,13 @@ Norėdami vykdyti visą sinchronizavimą lentelėje tarp „Human Resources“ i
 
 2. Pasirinkite **Sinchronizuoti dabar**.
 
-[![Visiško sinchronizavimo paleidimas](./media/hr-admin-integration-dataverse-sync-now.png)](./media/hr-admin-integration-dataverse-sync-now.png)
+[![Visiško sinchronizavimo paleidimas.](./media/hr-admin-integration-dataverse-sync-now.png)](./media/hr-admin-integration-dataverse-sync-now.png)
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 [„Dataverse“ lentelės](hr-developer-entities.md)<br>
 [Konfigūruokite „Dataverse“ virtualias lenteles](hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[„Human Resources“ virtualių lentelių DUK](hr-admin-virtual-entity-faq.md)<br>
+[„Human Resources“ virtualiųjų lentelių DUK](hr-admin-virtual-entity-faq.md)<br>
 [Kas yra „Microsoft Dataverse“?](/powerapps/maker/data-platform/data-platform-intro)<br>
 [Terminologijos naujinimai](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
 

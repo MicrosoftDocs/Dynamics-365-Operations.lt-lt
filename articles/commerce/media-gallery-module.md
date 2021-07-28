@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e9af56a8a82938fa7d23e8096db2c59ed5fcb517
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 1d8e8ce51d9e7f962a4d4e39db502089d846d748
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271285"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346721"
 ---
 # <a name="media-gallery-module"></a>Medijos galerijos modulis
 
@@ -41,11 +41,11 @@ Kitu atveju, medijos galerijos modulis gali talpinti visą išdirbtą paveikslė
 
 Šiame pavyzdiniame tolesniame paveikslėlyje, pirkimo laukelis PDP talpina produkto paveikslėlį naudodamas medijos galerijos modulį.
 
-![Įsigijimo laukelio pavyzdys produkto informacijos puslapyje talpina produkto paveikslėlius naudodamas medijos galerijos modulį](./media/ecommerce-pdp-buybox.PNG)
+![Įsigijimo laukelio pavyzdys produkto informacijos puslapyje talpina produkto paveikslėlius naudodamas medijos galerijos modulį.](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="media-gallery-properties"></a>Medijos galerijos ypatybės
 
-| Ypatybės pavadinimas | Reikšmės | aprašymas |
+| Ypatybės pavadinimas | Reikšmės | Aprašas |
 |---------------|--------|-------------|
 | Vaizdo šaltinis | **Puslapio kontekstas** ar **Produkto ID** | Nustatytoji vertė yra **Puslapio kontekstas**. Jei **Puslapio kontekstas** yra pasirinktas, modulis tikisi, kad puslapis pateiks produkto ID informaciją. Jei **Produkto ID** yra pasirinktas, produkto ID paveikslėliui turi būti patvirtintas kaip  **Produkto ID** ypatybės vertė. Ši savybė yra prieinama 10.0.12 prekybos versijoje. |
 | Produkto ID | Produkto ID | Ši ypatybė yra taikoma tik, jei **Paveikslėlio šaltinio** ypatybės vertė yra **Produkto ID**. |
@@ -59,11 +59,11 @@ Kitu atveju, medijos galerijos modulis gali talpinti visą išdirbtą paveikslė
 
 Toliau pateiktas paveikslėlis rodo medijos galerijos modulio pavyzdį, kuriame visas ekranas ir priartinimo parinktys yra prieinamos.
 
-![Medijos galerijos modulio pavyzdys, kuriame visas ekranas ir priartinimo parinktys yra prieinamos.](./media/ecommerce-media-zoom.png)
+![Medijos galerijos modulio pavyzdys, kuriame visas ekranas ir priartinimo parinktys yra galimos.](./media/ecommerce-media-zoom.png)
 
 Tolesnis paveikslėlis rodo medijos galerijos modulio pavyzdį, kuris išdirbo paveikslėlius (tai yra, nurodyti paveikslėliai nepriklauso nuo produkto ID ar puslapio konteksto).
 
-![Medijos galerijos modulio pavyzdys, kuris išdirbo paveikslėlius](./media/ecommerce-media-curated.PNG)
+![Medijos galerijos modulio pavyzdys, kuris išdirbo paveikslėlius.](./media/ecommerce-media-curated.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>„Commerce Scale Unit“ sąveika
 

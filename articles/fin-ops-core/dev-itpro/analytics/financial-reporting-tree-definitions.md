@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 1a884031905e59e7bfedab9af7b97a7c54e40895
-ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
+ms.openlocfilehash: 97ecd7996ed2d8fb12c1038aa296450d3481e6fd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866307"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345791"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Ataskaitų dizaino įrankio ataskaitų medžio apibrėžtys
 
@@ -170,23 +170,23 @@ Toliau pateikiama ataskaitinių vienetų struktūra šiame ataskaitų medyje.
 - Žemiausio lygio informacijos ataskaitiniai vienetai (Pardavimas vidaus rinkoje, Automatinis pardavimas, Klientų paslaugos ir Operacijos) atitinka finansinių duomenų skyrius. Šie ataskaitiniai vienetai yra šešėliuotoje diagramos srityje.
 - Aukštesnio lygio suvestinės vienetai apibendrina informaciją iš informacijos vienetų.
 
-[![„Contoso” suvestinės ataskaitos struktūra – 1 pavyzdys](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![„Contoso” suvestinės ataskaitos struktūra – 1 pavyzdys.](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Ataskaitinio vieneto struktūra – 2 pavyzdys
 
 Šioje diagramoje pateikiamas ataskaitų medis, kuriame parodyta organizacinė struktūra, suskirstyta pagal verslo funkcijas.
 
-[![„Contoso” suvestinės ataskaitos struktūra – 2 pavyzdys](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![„Contoso” suvestinės ataskaitos struktūra – 2 pavyzdys.](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Dialogo lango Įterpti ataskaitinių vienetų iš dimensijų pavyzdys
 
 Tolesnėje iliustracijoje pateikiamas dialogo lango **Įterpti ataskaitinių vienetų iš dimensijų** pavyzdys. Šiame pavyzdyje rezultatai pateiks verslo struktūros vienetų, išlaidų centrų ir padalinių derinį.
 
-[![Įterpti ataskaitinius vienetus](./media/insertreportingunits.png)](./media/insertreportingunits.png)
+[![Įterpti ataskaitinius vienetus.](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
 Gautas ataskaitų medžio aprašas surūšiuotas pagal verslo vienetą, tada – pagal išlaidų centrą, o tada – pagal padalinį. Penktojo ataskaitinio vieneto dimensija yra **Verslo struktūros vienetas = \[001\], Išlaidų centras =\[\], Padalinys = \[022\]** ir ji nurodo nustatytų 001 verslo struktūros vieneto ir 022 padalinio sąskaitų ataskaitinį vienetą.
 
-[![Ataskaitų medžio pavyzdys](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+[![Ataskaitų medžio pavyzdys.](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Duomenų sumavimo pavyzdžiai
 
@@ -194,11 +194,11 @@ Gautas ataskaitų medžio aprašas surūšiuotas pagal verslo vienetą, tada –
 
 #### <a name="example-1"></a>1 pavyzdys
 
-[![Įmonės išsieiga](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
+[![Įmonės išsieiga.](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>2 pavyzdys
 
-[![Kryžminės įmonės padalinio susumuoti](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
+[![Kryžminės įmonės padalinio susumuoti.](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

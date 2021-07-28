@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 84c97bdbe00285d7992a25edbf5d42ffe9b58903
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a8ddc7022a1e9a7db14aaa67efcd442025b0f9d8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814517"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344478"
 ---
 # <a name="replenishment-strategies"></a>Papildymo strategijos
 
@@ -45,7 +45,7 @@ Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoj
 
 Norėdami prieiti prie šablonų, eikite į **Sandėlio valdymas \> Nustatymai \> Pildymas \> Pildymo šablonai**. Skyriuje **Peržiūra** pasirinkite ar sukurkite bangos paklausos papildymo šabloną, kuriame **Papildymo tipo** laukelis nustatytas į *Bangos paklausa*. Tuomet nustatykite papildymo šablono eilutes **Papildymo šablono išsami informacija** skyriuje. Kiekvienai eilutei **Papildymo strategijos** laukelyje pasirinkite papildymo strategiją, kurią norite naudoti.
 
-![Papildymo šablonų puslapis](media/ReplenTempWaveDmdMaxLocCap.png "Papildymo šablonų puslapis")
+![Papildymo šablonų puslapis.](media/ReplenTempWaveDmdMaxLocCap.png "Papildymo šablonų puslapis")
 
 Jei **Papildymo strategijos** stulpelis nepasirodo tinklelyje **Papildymo šablono išsamios informacijos** skyriuje, įsitikinkite, kad funkcija buvo įjungta ir kad pasirinktas papildymo šablonas turi papildymo tipą *Bangos paklausa*.
 
@@ -85,7 +85,7 @@ Jei nustatote papildymo strategiją į *Maksimali vietos talpa* gaunate šį pap
 - **Papildymo darbas 1:** Imkite 4 dėžes iš bendros vietos ir padėkite jas į vietą pick-001.
 - **Papildymo darbas 2:** Imkite 5 dėžes iš bendros vietos ir padėkite jas į vietą pick-002.
 
-[![1 pavyzdys](media/ReplenTemp_example_1.png "1 pavyzdys")](media/ReplenTemp_example_1_large.png)
+[![1 pavyzdys.](media/ReplenTemp_example_1.png "1 pavyzdys")](media/ReplenTemp_example_1_large.png)
 
 ### <a name="example-2"></a>2 pavyzdys
 
@@ -109,7 +109,7 @@ Priklausomai nuo **Leisti atskyrimą** parinkties nustatymų vietos kryptyse pap
 
 Pasekmė skiriasi dėl informacijos, kuri prieinama jums sukūrus darbą. Kai **Leisti atskyrimą** nustatyta į *Taip* vietos kryptyse papildymo paėmimui, žinote, kad sugebėjote surasti 160 vnt. Dėl to, galite sukurti darbą tam kiekiui. Nepaisant to, kai **Leisti atskyrimą** parinktis nustatyta į *Ne*, nežinote apie esančius 160 vnt. Kadangi papildomas kiekis, kurį nusprendėte papildyti buvo 3 dėžės, numetėte papildomą kiekį ir bandote ankstesnį kiekį dar kartą.
 
-[![2 pavyzdys](media/ReplenTemp_example_2.png "2 pavyzdys")](media/ReplenTemp_example_2_large.png)
+[![2 pavyzdys.](media/ReplenTemp_example_2.png "2 pavyzdys")](media/ReplenTemp_example_2_large.png)
 
 Dėl to, kad gautumėte maksimalų kiekį vietų papildymui, turite nustatyti **Leisti atskyrimą** parinktį į *Taip* vietos kryptyse papildymui.
 

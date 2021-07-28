@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b23edee0884b595a0da6ebd7eca0cf0391ff33f7
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 32a1acba8b4ca9484cbbc4b23ba496521ec4f61b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6190093"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347691"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Prekių skirstymas iš gamybos užsakymų į pakrovimo rampas
 
@@ -42,7 +42,7 @@ Gamybos išeigos vietoje (3) pranešama, jog produktas baigtas ir keltuvo vairuo
 -   Jeigu priekabai jau yra paskirtos įlankos durys, sunkvežimio vairuotojas bus nukreiptas iškrauti produktą tiesiogiai priekabą.
 -   Jeigu nėra suplanuotos produkto perkėlimo veiklos, keltuvo vairuotojas bus nukreiptas atidėti produktą kurioje nors vidaus sandėlio (5) vietoje.
 
-[![prekių skirstymas pagal aplinkybes](./media/scenario1.png)](./media/scenario1.png)
+[![prekių skirstymas pagal aplinkybes.](./media/scenario1.png)](./media/scenario1.png)
 
 ## <a name="configure-cross-docking"></a>Prekių skirstymo konfigūravimas
 Prekių skirstymo procesą galite konfigūruoti **darbo strategijose**. Darbo strategija apima darbo užsakymo tipą, vietą ir produktą. Toliau pateikiamame pavyzdyje sukonfigūruotas produkto X ir vietos Y prekių skirstymas.

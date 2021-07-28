@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 053dff19da6e51d23383d667c340c49f3eff1b27
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 37a82a2bf9fc73b81e5a61b120e7bed73b8c4521
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825187"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346135"
 ---
 # <a name="subcontracting"></a>Subranga
 
@@ -39,7 +39,7 @@ Juridiniame subjekte HQUS gaminami aukštos kokybės garsiakalbiai. Garsiakalbi�
 
 Toliau pateiktoje iliustracijoje parodytos tys operacijos ir medžiagos, sunaudojamos jas atliekant.
 
-![Išankstinio surinkimo, padengimo ir baigimo operacijos bei medžiagos, sunaudojamos jas atliekant](./media/subcontract01_operations-materials.png)
+![Išankstinio surinkimo, padengimo ir baigimo operacijos bei medžiagos, sunaudojamos jas atliekant.](./media/subcontract01_operations-materials.png)
 
 ## <a name="setup"></a>Sąranka
 
@@ -52,41 +52,41 @@ Prieš pradėdami apžvalgos veiksmus, turite nustatyti duomenis.
 1. Pasirinkite **Produkto informacijos valdymas \> Produktai \> Išleisti produktai**, kad atidarytumėte puslapį **Išleisto produkto informacija**.
 2. Sparčiojo filtro lauke įveskite **D8100**, kad rastumėte esamą išleistą produktą.
 
-    ![Išleisto produkto D8100 filtravimas puslapyje Išleisto produkto informacija](./media/subcontract02_filtering-released-products.png)
+    ![Išleisto produkto D8100 filtravimas puslapyje Išleisto produkto informacija.](./media/subcontract02_filtering-released-products.png)
 
 3. Veiksmų srities skirtuke **Inžinierius** pasirinkite **Maršrutas**, kad atidarytumėte puslapį **Maršrutas**.
 
     Puslapyje **Maršrutas** rodomos aštuonios išleisto produkto D8100 maršruto versijos. Aštuonios maršruto versijos paskirstomos keturiems maršrutams 1 ir 5 vietose. Maršrutas 000400 naudojamas įkainojimo metu, maršrutas 00041 naudojamas atliekant padengimo operaciją viduje, o maršrutas 00042 naudojamas atliekant padengimo operaciją išorėje.
 
-    ![Aštuonios maršruto versijos puslapyje Maršrutas](./media/subcontract03_route-page.png)
+    ![Aštuonios maršruto versijos puslapyje Maršrutas.](./media/subcontract03_route-page.png)
 
 4. Viršutinės srities tinklelyje **Versijos** pasirinkite maršruto versiją **00042**, skirtą **5** vietai.
 5. Apatinės srities skirtuke **Apžvalga**, tinklelyje pasirinkite **20** operaciją (**Cbnt CtSc**).
 
-    ![Pasirinkta 00042 maršruto versijos operacija, skirta 5 vietai](./media/subcontract04_route-version-operation.png)
+    ![Pasirinkta 00042 maršruto versijos operacija 20, skirta 5 vietai.](./media/subcontract04_route-version-operation.png)
 
 6. Pasirinkite skirtuką **Bendra**.
 
     Atkreipkite dėmesį, kad laukas **Maršruto tipas** nustatytas į parinktį **Tiekėjas**. Ši vertė nurodo, kad 20 operacija („Cbnt CtSc“) yra subrangos operacija.
 
-    ![Skirtuko Bendra laukas Maršruto tipas nustatytas į parinktį Tiekėjas](./media/subcontract05_general-tab.png)
+    ![Skirtuko Bendra laukas Maršruto tipas nustatytas į parinktį Tiekėjas.](./media/subcontract05_general-tab.png)
 
 7. Pasirinkite skirtuką **Išteklių reikalavimai**.
 
     Galimybės bus naudojamos siekiant rasti tinkama išteklių gamybos planavimo metu. Atlikdami 20 operaciją („Cbnt CtSc“) atkreipkite dėmesį, kad būtinas išteklius, kuriam priskirtos dvi galimybės, **Padengimas** ir **Padengtos dėžės**.
 
-    ![Skirtuko Išteklių reikalavimai galimybės Padengimas ir Padengtos dėžės](./media/subcontract06_resource-requirements-tab.png)
+    ![Skirtuko Išteklių reikalavimai galimybės Padengimas ir Padengtos dėžės.](./media/subcontract06_resource-requirements-tab.png)
 
 8. Pasirinkite **Taikomi ištekliai**, kad atidarytumėte dialogo langą **Taikomi ištekliai**.
 
     Rasti trys išteklių, atitinkantys operacijos išteklių reikalavimus. Atkreipkite dėmesį, kad ištekliai 8851 ir 8852 yra tipo **Tiekėjas**.
 
-    ![Trys taikomi ištekliai dialogo lange Taikomi ištekliai](./media/subcontract07_applicable-resources-dialog.png)
+    ![Trys taikomi ištekliai dialogo lange Taikomi ištekliai.](./media/subcontract07_applicable-resources-dialog.png)
 
 9. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą **Taikomi ištekliai** ir vėl atidarytumėte puslapį **Maršrutas**.
 10. Uždarykite puslapį **Maršrutas**, kad vėl atidarytumėte puslapį **Išleisto produkto informacija**.
 
-    ![Puslapis Išleisto produkto informacija](./media/subcontract08_released-product-details-page.png)
+    ![Puslapis Išleisto produkto informacija.](./media/subcontract08_released-product-details-page.png)
 
 11. Veiksmų srities skirtuke **Inžinierius** pasirinkite **KS versijos**, kad atidarytumėte puslapį **KS versijos**.
 
@@ -94,7 +94,7 @@ Prieš pradėdami apžvalgos veiksmus, turite nustatyti duomenis.
 
     Atkreipkite dėmesį, kad prekė S8050 yra produktas, kurio prekės tipas yra **Paslauga**. Ši prekė nurodo subrangovo darbą.
 
-    ![Keturios KS versijos puslapyje KS versijos](./media/subcontract09_bom-versions-page.png)
+    ![Keturios KS versijos puslapyje KS versijos.](./media/subcontract09_bom-versions-page.png)
 
 12. „FastTab“ **KS eilutės** pasirinkite **Redaguoti**, kad atidarytumėte dialogo langą **Redaguoti KS eilutę**.
 
@@ -102,7 +102,7 @@ Prieš pradėdami apžvalgos veiksmus, turite nustatyti duomenis.
 
     Atkreipkite dėmesį, kad KS eilutė yra susieta su operacija Padengimas naudojant operacijos numerį (šiuo atveju – 20).
 
-    ![Dialogo lango KS eilutė redagavimas](./media/subcontract10_edit-bom-line-dialog.png)
+    ![Dialogo lango KS eilutė redagavimas.](./media/subcontract10_edit-bom-line-dialog.png)
 
 ### <a name="create-a-password-for-warehouse-workers"></a>Sandėlio darbuotojų slaptažodžio kūrimas
 
@@ -111,7 +111,7 @@ Turite nustatyti slaptažodį, skirtą sandėlio darbuotojams, kurie naudoja ran
 1. Pasirinkite **Sandėlio valdymas \> Sąranka \> Darbuotojas**, kad atidarytumėte puslapį **Darbo vartotojai**.
 2. „FastTab“ **Vartotojai** pasirinkite eilutę, skirtą vartotojui **51**.
 
-    ![Puslapis Darbo vartotojai](./media/subcontract11_work-users-page.png)
+    ![Puslapis Darbo vartotojai.](./media/subcontract11_work-users-page.png)
 
 3. Pasirinkite **Iš naujo nustatyti slaptažodį**.
 4. Laukuose **Slaptažodis** ir **Patvirtinkite slaptažodį** įveskite **1**.
@@ -126,14 +126,14 @@ Sukuriamas 10 vienetų gamybos užsakymas, skirtas produktui D8100, kuris vadina
 1. Pasirinkite **Gamybos kontrolė \> Gamybos užsakymai \> Visi gamybos užsakymai**, kad atidarytumėte puslapį **Visi gamybos užsakymai**.
 2. Veiksmų srityje pasirinkite **Naujas gamybos užsakymas**, kad atidarytumėte dialogo langą **Kurti gamybos užsakymą**.
 
-    ![Dialogo langas Kurti gamybos užsakymą](./media/subcontract12_create-production-order-dialog.png)
+    ![Dialogo langas Kurti gamybos užsakymą.](./media/subcontract12_create-production-order-dialog.png)
 
 3. Lauke **Prekės numeris** pasirinkite **D8100**.
 4. Atsargų dimensijų laukai rodomi pasirinkus prekės numerį. Lauke **Spalva** pasirinkite **Chromuota**.
 
     Pasirodys pranešimo langas, kuriame klausiama, ar įterpti aktyvias KS ir maršruto versijas.
 
-    ![Pranešimo laukas](./media/subcontract13_message-box.png)
+    ![Pranešimo laukas.](./media/subcontract13_message-box.png)
 
 5. Pasirinkite **Taip**. 
 
@@ -149,15 +149,15 @@ Sukuriamas 10 vienetų gamybos užsakymas, skirtas produktui D8100, kuris vadina
     > [!NOTE]
     > KS ir maršruto versija 000042 naudojama teikiant dėžės padengimo subrangos užduotį tiekėjui US-801.
 
-    ![Dialogo lange Kurti gamybos užsakymą nustatomos reikšmės](./media/subcontract14_create-production-order-dialog-set.png)
+    ![Dialogo lange Kurti gamybos užsakymą nustatomos reikšmės.](./media/subcontract14_create-production-order-dialog-set.png)
 
 9. Pasirinkite **Kurti**, kad sukurtumėte gamybos užsakymą ir atidarytumėte puslapį **Visi gamybos užsakymai**.
 
-    ![Naujas gamybos užsakymas puslapyje Visi gamybos užsakymai](./media/subcontract15_new-production-order.png)
+    ![Naujas gamybos užsakymas puslapyje Visi gamybos užsakymai.](./media/subcontract15_new-production-order.png)
 
 10. Veiksmų srities skirtuke **Gamybos užsakymas** pasirinkite **Įvertinti**, kad atidarytumėte dialogo langą **Įvertinti**.
 
-    ![Dialogo langas Įvertinti](./media/subcontract16_estimate-dialog.png)
+    ![Dialogo langas Įvertinti.](./media/subcontract16_estimate-dialog.png)
 
 11. Pasirinkite **Gerai**, kad patvirtintumėte įvertinimą ir atidarytumėte puslapį **Visi gamybos užsakymai**.
 
@@ -168,7 +168,7 @@ Sukuriamas 10 vienetų gamybos užsakymas, skirtas produktui D8100, kuris vadina
 
     Aptarnavimo prekė S8050: atkreipkite dėmesį, kad pateikta nuoroda į pirkimo užsakymą, kuri buvo sugeneruota įvertinant gamybos užsakymą.
 
-    ![Gamybos užsakymo KS eilutės KS puslapyje](./media/subcontract17_production-order-bom-lines.png)
+    ![Gamybos užsakymo KS eilutės KS puslapyje.](./media/subcontract17_production-order-bom-lines.png)
 
 13. Uždarykite puslapį **KS**, kad vėl atidarytumėte puslapį **Visi gamybos užsakymai**.
 14. Veiksmų srities skirtuke **Grafikas** pasirinkite **Grafiko užduotys**, kad atidarytumėte dialogo langą **Užduočių planavimas**.
@@ -177,24 +177,24 @@ Sukuriamas 10 vienetų gamybos užsakymas, skirtas produktui D8100, kuris vadina
     - Lauke **Planavimo kryptis** pasirinkite **Pradedant nuo rytojaus**.
     - Nustatykite parinktį **Ribotas pajėgumas** į **Taip**.
 
-    ![Dialogo langas Užduočių planavimas](./media/subcontract18_job-scheduling-dialog.png)
+    ![Dialogo langas Užduočių planavimas.](./media/subcontract18_job-scheduling-dialog.png)
 
 16. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą **Užduočių planavimas** ir vėl atidarytumėte puslapį **Visi gamybos užsakymai**.
 17. Veiksmų srities skirtuke **Grafikas** pasirinkite **Gantt**, kad atidarytumėte puslapį **Gantt diagrama – išteklių rodinys**.
 
     Gantt diagramoje pateikiama vaizdinė gamybos užduočių planavimo ir priskyrimo ištekliams apžvalga. Atkreipkite dėmesį, kad išorės operacija Padengimas susideda iš trijų užduočių: apdorojimo užduoties, transportavimo užduoties ir laukimo eilėje laiko užduoties.
 
-    ![Ganto diagrama Gantt diagramoje – išteklių peržiūros puslapis](./media/subcontract19_gantt-chart.png)
+    ![Ganto diagrama Gantt diagramoje – išteklių peržiūros puslapis.](./media/subcontract19_gantt-chart.png)
 
 18. Uždarykite puslapį **Gantt diagrama – išteklių peržiūra**, kad vėl atidarytumėte puslapį **Visi gamybos užsakymai**.
 19. Veiksmų srities skirtuke **Gamybos užsakymas** pasirinkite **Išleisti**, kad atidarytumėte dialogo langą **Išleisti**.
 
-    ![Dialogo langas Išleisti](./media/subcontract20_release-dialog.png)
+    ![Dialogo langas Išleisti.](./media/subcontract20_release-dialog.png)
 
 20. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą **Išleisti**.
 21. Pasirinkite **Gamybos kontrolė \> Periodinės užduotys \> Išleidimas į sandėlį \> Automatinis KS ir formulės eilučių išleidimas**, kad atidarytumėte dialogo langą **Automatinis KS ir formulės eilučių išleidimas**.
 
-    ![Dialogo langas Automatinis KS ir formulių eilučių išleidimas](./media/subcontract21_auto-release-bom-formula-lines-dialog.png)
+    ![Dialogo langas Automatinis KS ir formulių eilučių išleidimas.](./media/subcontract21_auto-release-bom-formula-lines-dialog.png)
 
 22. Pasirinkite **Gerai**, kad paleistumėte automatinio KS ir formulės eilučių išleidimo užduotį.
 
@@ -206,7 +206,7 @@ Sukuriamas 10 vienetų gamybos užsakymas, skirtas produktui D8100, kuris vadina
 
     Atkreipkite dėmesį, kad puslapyje rodomi du žaliavų paėmimo darbo rinkiniai. Pirmasis darbas yra medžiagų M8100 ir M8101 paėmimas. Šios medžiagos vartojamos atliekant 10 operaciją. Antrasis darbas yra medžiagų M8202 ir M8250 paėmimas. Šios medžiagos vartojamos atliekant 20 operaciją, kuri yra subrangos operacija.
 
-    ![Puslapyje Darbas rodomi du žaliavų paėmimo darbo rinkiniai](./media/subcontract22_work-page.png)
+    ![Puslapyje Darbas rodomi du žaliavų paėmimo darbo rinkiniai.](./media/subcontract22_work-page.png)
 
 26. Paleiskite sandėlio valdymo mobiliųjų įrenginių programėlę, kad apdorotumėte 10 operacijos sandėlio darbą.
 
@@ -220,7 +220,7 @@ Sukuriamas 10 vienetų gamybos užsakymas, skirtas produktui D8100, kuris vadina
     - Lauke **Šaltinio oper. nr.** pasirinkite **10**.
     - Lauke **Paskirties oper. nr.** pasirinkite **10**.
 
-    ![Bendra skirtuke 1 nustatytos reikšmės](./media/subcontract23_start-dialog.png)
+    ![Bendra skirtuke 1 nustatytos reikšmės.](./media/subcontract23_start-dialog.png)
 
 31. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą **Pradėti** ir vėl atidarytumėte puslapį **Visi gamybos užsakymai**.
 
@@ -238,7 +238,7 @@ Sukuriamas 10 vienetų gamybos užsakymas, skirtas produktui D8100, kuris vadina
     - Lauke **Kiekis** įveskite **10**.
     - Nustatykite lauko **Registruoti išrinkimo dokumentą dabar** parinktį **Ne**.
 
-    ![Bendra skirtuke 2 nustatytos reikšmės](./media/subcontract24_general-tab.png)
+    ![Bendra skirtuke 2 nustatytos reikšmės.](./media/subcontract24_general-tab.png)
 
 35. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą **Pradėti** ir vėl atidarytumėte puslapį **Visi gamybos užsakymai**.
 
@@ -247,57 +247,57 @@ Sukuriamas 10 vienetų gamybos užsakymas, skirtas produktui D8100, kuris vadina
 36. Veiksmų srities skirtuke **Rodinys** pasirinkite **Išrinkimo dokumentas**, kad atidarytumėte puslapį **Išrinkimo dokumentas**.
 37. Pasirinkite išrinkimo dokumentą, kuris nėra užregistruotas, tada pasirinkite žurnalo numerį, kad peržiūrėtumėte žurnalo eilutes.
 
-    ![Žurnalo eilutės puslapyje Išrinkimo dokumentas](./media/subcontract25_picking-list.png)
+    ![Žurnalo eilutės puslapyje Išrinkimo dokumentas.](./media/subcontract25_picking-list.png)
 
 38. Veiksmų srityje pasirinkite **Spausdinti** \> **Išrinkimo dokumento ataskaita**, kad atidarytumėte dialogo langą **Išrinkimo dokumento ataskaita**.
 39. Nustatykite parinktį **Naudoti pristatymo pažymos maketą** į **Taip**.
 
-    ![Dialogo langas Išrinkimo dokumento ataskaita](./media/subcontract26_picking-list-report-dialog.png)
+    ![Dialogo langas Išrinkimo dokumento ataskaita.](./media/subcontract26_picking-list-report-dialog.png)
 
 40. Pasirinkite **Gerai**, kad generuotumėte ataskaitą **Išrinkimo dokumentas**.
 
     Šiuo atveju tiekėjo pristatymo pažyma išspausdinta iš gamybos išrinkimo dokumento žurnalo. Pristatymo pažymoje nurodomos medžiagos, siunčiamos tiekėjui, kuris atliks operaciją Padengimas.
 
-    ![Išrinkimo dokumentų ataskaita](./media/subcontract27_picking-list-report.png)
+    ![Išrinkimo dokumentų ataskaita.](./media/subcontract27_picking-list-report.png)
 
 41. Uždarykite ataskaitą **Išrinkimo dokumentas**, kad vėl atidarytumėte puslapį **Išrinkimo sąrašas**.
 42. Veiksmų srityje pasirinkite **Registruoti**, kad atidarytumėte dialogo langą **Registruoti žurnalą**.
 
-    ![Dialogo langas Registruoti žurnalą](./media/subcontract28_post-journal-dialog.png)
+    ![Dialogo langas Registruoti žurnalą.](./media/subcontract28_post-journal-dialog.png)
 
 43. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą **Registruoti žurnalą**.
 44. Atidarykite pirkimo užsakymą.
 
-    ![Puslapis Pirkimo užsakymas](./media/subcontract29_purchase-order-page.png)
+    ![Puslapis Pirkimo užsakymas.](./media/subcontract29_purchase-order-page.png)
 
 45. Veiksmų srities skirtuke **Pirkimas** pasirinkite **Patvirtinti**.
 46. Pasirinkite **Registruoti**, kad atidarytumėte dialogo langą **Registruoti žurnalą**.
 47. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą **Registruoti žurnalą** ir vėl atidarytumėte puslapį **Pirkimo užsakymas**.
 48. Pakeiskite vieneto kainą **33** į **40**.
 
-    ![Vieneto kaina pakeista puslapyje Pirkimo užsakymas](./media/subcontract30_unit-price.png)
+    ![Vieneto kaina pakeista puslapyje Pirkimo užsakymas.](./media/subcontract30_unit-price.png)
 
 49. Patvirtinkite pirkimo užsakymą dar kartą.
 50. Gavimo kvitas.
 
-    ![Dialogo langas Gavimo dokumento registravimas](./media/subcontract31_posting-product-receipt-dialog.png)
+    ![Dialogo langas Gavimo dokumento registravimas.](./media/subcontract31_posting-product-receipt-dialog.png)
 
 51. Pirkimo SF.
 52. Atnaujinkite gretinimo būseną.
 
-    ![Puslapis Tiekėjo SF](./media/subcontract32_vendor-invoice-page.png)
+    ![Puslapis Tiekėjo SF.](./media/subcontract32_vendor-invoice-page.png)
 
 53. Skelbkite baigtu.
 
-    ![Dialogo langas Skelbimas baigtu](./media/subcontract33_report-as-finished-dialog.png)
+    ![Dialogo langas Skelbimas baigtu.](./media/subcontract33_report-as-finished-dialog.png)
 
 54. Baikite.
 
-    ![Dialogo langas Baigimas](./media/subcontract34_end-dialog.png)
+    ![Dialogo langas Baigimas.](./media/subcontract34_end-dialog.png)
 
 55. Savikainos palyginimas.
 
-    ![Savikainos palyginimo diagramos](./media/subcontract35_cost-comparison-charts.png)
+    ![Savikainos palyginimo diagramos.](./media/subcontract35_cost-comparison-charts.png)
 
 Trūksta sąrankos duomenų.
 

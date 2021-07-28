@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e22089220edfff3fb53b2101b39f5352817db2a
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 3673705ba4a8d69c32848881d6a280a09047d1e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188026"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343891"
 ---
 # <a name="budget-planning"></a>Biudžeto planavimas
 
@@ -47,11 +47,11 @@ Julija dirba finansų vadove „Contoso Entertainment Systems“ Vokietijoje (DE
 
 Šio scenarijaus biudžeto planavimo konfigūracijos schema atrodo taip:
 
-![Biudžeto planavimo konfigūracijos schema](./media/screenshot1-300x152.png)
+![Biudžeto planavimo konfigūracijos schema.](./media/screenshot1-300x152.png)
 
 Julija rengia biudžetą naudodama šį „Excel“ šabloną.
 
-[![„Excel“ šablonas](./media/screenshot2-1024x352.png)](./media/screenshot2.png)
+[![„Excel“ šablonas.](./media/screenshot2-1024x352.png)](./media/screenshot2.png)
 
 ## <a name="exercise-1-configuration"></a>1 užduotis: konfigūracija
 
@@ -60,27 +60,27 @@ Visas biudžeto sudarymo procesas vyksta finansų padalinyje, todėl Julija turi
 
 1.1. Pasirinkite „Organizacijos hierarchijos“ („Organizacijos administravimas“ &gt; „Organizacijos“ &gt; „Organizacijos hierarchijos“) ir paspauskite mygtuką „Naujas“.
 
-![Organizacijų hierarchijos](./media/screenshot3.png) 
+![Organizacijų hierarchijos.](./media/screenshot3.png) 
 
 1.2. Įveskite organizacinės hierarchijos pavadinimą ir langelyje „Pavadinimas“ spustelėkite mygtuką „Priskirti paskirtį“.
 
 1.3. Pasirinkite biudžeto planavimo paskirtį, spustelėkite mygtuką „Įtraukti“ ir priskirkite naujai sukurtą organizacinę hierarchiją. 
 
-[![Priskirti paskirtį](./media/screenshot5.png)](./media/screenshot5.png)
+[![Priskirti paskirtį.](./media/screenshot5.png)](./media/screenshot5.png)
 
 1.4. Kartokite minėtus veiksmus saugumo organizacijos paskirčiai. Kai baigsite, uždarykite formą.
 
 1.5. Formoje „Organizacinės hierarchijos“ spustelėkite mygtuką „Peržiūrėti“. Spustelėkite „Redaguoti“ hierarchijos dizaino įrankyje ir sukurkite hierarchiją spustelėdami „Įterpti“.
 
-[![Įterpti](./media/screenshot7.png)](./media/screenshot7.png) 
+[![Įterpti.](./media/screenshot7.png)](./media/screenshot7.png) 
 
 1.6. Biudžeto sudarymo hierarchijoje pasirinkite finansų padalinį. 
 
-[![Finansai](./media/screenshot8.png)](./media/screenshot8.png)
+[![Finansai.](./media/screenshot8.png)](./media/screenshot8.png)
 
 1.7. Kai baigsite, spustelėkite „Publikuoti“ ir „Uždaryti“. Pasirinkite 1/1/2015 kaip hierarchijos publikavimo įsigaliojimo datą.
 
-[![Įsigaliojimo data](./media/screenshot9.png)](./media/screenshot9.png)
+[![Įsigaliojimo data.](./media/screenshot9.png)](./media/screenshot9.png)
 
 ### <a name="task-2-configure-user-security"></a>2 užduotis: sukonfigūruokite vartotojo saugą
 Biudžeto planavimas naudoja specialias saugos strategijas, kad sukonfigūruotų prieigą prie biudžeto planų duomenų. Julija turi suteikti prieigą prie finansų biudžeto planų sau pačiai. 
@@ -90,15 +90,15 @@ Biudžeto planavimas naudoja specialias saugos strategijas, kad sukonfigūruotų
 
 2.2. Pasirinkite Biudžeto sudarymas &gt; Sąranka &gt; Biudžeto planavimas &gt; Biudžeto planavimo konfigūracija. Skirtuke „Parametrai“ nustatykite saugos modelio reikšmę į „Remiantis saugos organizacijomis“. 
 
-[![Parametrai](./media/screenshot11.png)](./media/screenshot11.png) 
+[![Parametrai.](./media/screenshot11.png)](./media/screenshot11.png) 
 
 2.3. Pasirinkite Sistemos administravimas &gt; Vartotojai &gt; Vartotojai. Suteikti vartotojui administratoriui (Julia Funderburk) biudžeto vadovo vaidmenį. 
 
-[![Biudžeto vadybininkas](./media/screenshot12.png)](./media/screenshot12.png) 
+[![Biudžeto vadybininkas.](./media/screenshot12.png)](./media/screenshot12.png) 
 
 2.4. Pasirinkite vartotojo vaidmenį ir spustelėkite „Priskirti organizacijas“. 
 
-[![Priskirti organizacijas](./media/screenshot13.png)](./media/screenshot13.png)
+[![Priskirti organizacijas.](./media/screenshot13.png)](./media/screenshot13.png)
 
 2.5. Pasirinkite „Suteikti prieigą tik tam tikroms organizacijoms“. Pasirinkite organizacinę hierarchiją, sukurtą pirmuoju veiksmu. Pasirinkite finansų mazgą ir spustelėkite „Suteikti su antriniais elementais“. 
 
@@ -109,7 +109,7 @@ Biudžeto planavimas naudoja specialias saugos strategijas, kad sukonfigūruotų
 
 *Pastaba: jei norite, galite sukurti naujus scenarijus šiai užduočiai ir naudoti juos.* 
 
-[![Nauji scenarijai](./media/screenshot15.png)](./media/screenshot15.png) 
+[![Nauji scenarijai.](./media/screenshot15.png)](./media/screenshot15.png) 
 
 *Pastaba: Julija nenaudoja formalaus biudžeto sudarymo patvirtinimo proceso, todėl šiame laboratoriniame darbe mes praleisime darbo eigas, etapus ir darbo eigos etapų nustatymą ir naudosime esamą automatinio patvirtinimo darbo eigos nustatymą. Žr. priedą prie šios darbo eigos konfigūracijos.*
 
@@ -118,17 +118,17 @@ Biudžeto plano stulpeliai būna piniginiai arba kiekiniai ir jie gali būti nau
 
 4.1. Spustelėję Biudžeto sudarymas&gt;Sąranka &gt; Biudžeto planavimas &gt; Biudžeto planavimo konfigūracija, atidarykite puslapį „Stulpeliai“. Spustelėkite mygtuką „Office“, esantį viršutiniame dešiniajame formos kampe, ir pasirinkite „Stulpeliai“ (nefiltruoti). 
 
-[![Stulpeliai nefiltruoti](./media/screenshot16.png)](./media/screenshot16.png) 
+[![Stulpeliai nefiltruoti.](./media/screenshot16.png)](./media/screenshot16.png) 
 
 4.2. Sistema atidarys „Excel“ darbaknygę, kuri bus naudojama reikšmėms užpildyti. Jei būsite paraginti, spustelėkite „Įjungti redagavimą“ ir „Pasitikėti šia programa“. 
 
 4.3. Mums reikės daugiau stulpelių, kad įvestumėme reikšmes. Dešinėje srityje spustelėkite „Dizainas“, kad pridėtumėte stulpelių į tinklelį. 
 
-[![Dizainas](./media/screenshot19.png)](./media/screenshot19.png) 
+[![Dizainas.](./media/screenshot19.png)](./media/screenshot19.png) 
 
 4.4. Spustelėkite mažą pieštuko mygtuką šalia dalies „PlanColumns“, kad pamatytumėte, kokius stulpelius galima įtraukti į tinklelį. 
 
-[![Redaguoti](./media/screenshot20.png)](./media/screenshot20.png) 
+[![Redaguoti.](./media/screenshot20.png)](./media/screenshot20.png) 
 
 4.5. Dukart spustelėkite kiekvieną galimą lauką, kad įtrauktumėte juos į pasirinktus laukus, ir spustelėkite „Naujinti“. 
 
@@ -136,7 +136,7 @@ Biudžeto plano stulpeliai būna piniginiai arba kiekiniai ir jie gali būti nau
 
 4.7. Grįžkite į programą ir atnaujinkite puslapį. Publikuotos reikšmės bus rodomos. 
 
-[![Atnaujinti](./media/screenshot23.png)](./media/screenshot23.png)
+[![Atnaujinti.](./media/screenshot23.png)](./media/screenshot23.png)
 
 ### <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>5 užduotis: sukurkite biudžeto plano dokumento maketus ir šablonus
 Maketas apibrėžia, kaip atrodys biudžeto plano dokumento eilučių tinklelis, kai vartotojas atidarys biudžeto plano dokumentą. Taip pat galima perjungti biudžeto plano dokumento maketą ir pamatyti tuos pačius duomenis iš skirtingų kampų. Dabar, kai ji turi stulpelius, kurie bus naudojami su mūsų biudžeto plano dokumentu, Julija turi sukurti biudžeto plano dokumento maketą, kuris būtų panašus į „Excel“ lentelę, kuri ji naudoja biudžeto duomenims sukurti (žr. šio laboratorinio darbo skyrių „Scenarijaus apžvalga“) 
@@ -147,14 +147,14 @@ Maketas apibrėžia, kaip atrodys biudžeto plano dokumento eilučių tinklelis,
 -   Surašykite visus biudžeto plano stulpelius, kurie buvo sukurti ankstesniu veiksmu, skyriuje „Elementai“. Padarykite visas faktines ankstesnių metų sumas redaguojamas.
 -   Spustelėkite mygtuką „Aprašymai“, kad pasirinktumėte, kurios finansinės dimensijos turi rodyti aprašymus tinklelyje.
 
-[![Aprašymai](./media/screenshot24.png)](./media/screenshot24.png) 
+[![Aprašymai.](./media/screenshot24.png)](./media/screenshot24.png) 
 
 Pagal biudžeto plano maketo aprašą, galime sukurti „Excel“ šabloną, kuris bus naudojamas kaip alternatyvus būdas biudžeto duomenims redaguoti. „Excel“ šablonas turi atitikti biudžeto plano maketo aprašą, todėl, sugeneravę „Excel“ šabloną, negalėsite redaguoti biudžeto plano maketo – dėl šios priežasties ši užduotis turėtų būti atliekama apibrėžus visus maketo komponentus. 
 
 5.2. 5.1. veiksmu sukurtam maketui spustelėkite mygtuką Šablonas &gt; Generuoti. Patvirtinkite perspėjimo pranešimą. Norėdami peržiūrėti šabloną, spustelėkite Šablonas &gt; Peržiūrėti. 
 
 *Pastaba: įsitikinkite, kad pasirinkote „Išsaugoti kaip“ ir pasirinkite vietą, kur šablonas turėtų būti saugomas, kad būtų galima jį redaguoti. Jei vartotojas dialoge pasirenka Atidaryti ir neįrašo, failo pakeitimai jį uždarius neišliks.* 
-[![Šablono rodinys](./media/screenshot25.png)](./media/screenshot25.png) 
+[![Šablono rodinys.](./media/screenshot25.png)](./media/screenshot25.png) 
 
 5.3. &lt;Pasirinktinis veiksmas&gt; Modifikuokite „Excel“ šabloną, kad jis būtų patogesnis – įtraukite bendrų sumų formules, antraščių laukus, formatavimą ir t. t. Įrašykite pakeitimus ir įkelkite failą į biudžeto plano maketą spustelėdami&gt; „Maketas“. 
 
@@ -174,11 +174,11 @@ Julija turi sukurti ir aktyvinti naują biudžeto planavimo procesą, apimantį 
 
 *Pastaba: galite sukurti papildomus dokumento maketus ir juos priskirti biudžeto planavimo darbo eigos etapui spustelėję mygtuką Alternatyvūs maketai.* 
 
-[![Alternatyvūs maketai](./media/screenshot27.png)](./media/screenshot27.png) 
+[![Alternatyvūs maketai.](./media/screenshot27.png)](./media/screenshot27.png) 
 
 6.2. Pasirinkite Veiksmai &gt; Aktyvinti, kad suaktyvintumėte šią biudžeto planavimo darbo eigą. 
 
-[![Aktyvinti](./media/screenshot28.png)](./media/screenshot28.png)
+[![Aktyvinti.](./media/screenshot28.png)](./media/screenshot28.png)
 
 ## <a name="exercise-2-process-simulation"></a>2 užduotis: proceso modeliavimas
 
@@ -187,26 +187,26 @@ Julija turi sukurti ir aktyvinti naują biudžeto planavimo procesą, apimantį 
 
 7.2. Pasirinkite Biudžeto sudarymas &gt; Biudžeto planai ir raskite generavimo proceso sukurtą biudžeto planą. 
 
-[![Biudžeto planas](./media/screenshot30.png)](./media/screenshot30.png) 
+[![Biudžeto planas.](./media/screenshot30.png)](./media/screenshot30.png) 
 
 7.3. Atidarykite dokumento informaciją spustelėję ant dokumento numerio hipersaito. Biudžeto planas rodomas pagal šiame laboratoriniame darbe sukurto maketo nustatymus. 
 
-[![Rodyti biudžeto planą](./media/screenshot31.png)](./media/screenshot31.png)
+[![Rodyti biudžeto planą.](./media/screenshot31.png)](./media/screenshot31.png)
 
 ### <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a>8 užduotis: sukurkite einamųjų metų biudžetą, remiantis ankstesnių metų faktinėmis sumomis
 Biudžeto plane galima naudoti paskirstymo metodus, kad būtų lengva kopijuoti informaciją apie biudžeto planus iš vieno scenarijaus į kitą / paskirstyti juos per laikotarpius / paskirstyti dimensijoms. Naudosime paskirstymus, kad sukurtume einamųjų metų biudžetą pagal ankstesnių metų faktines sumas. 
 
 8.1. Pasirinkite visas eilutes biudžeto plano dokumento tinklelyje ir spustelėkite mygtuką „Paskirstyti biudžetą“. 
 
-[![Visos eilutės](./media/screenshot32.png)](./media/screenshot32.png) 
+[![Visos eilutės.](./media/screenshot32.png)](./media/screenshot32.png) 
 
 8.2. Pasirinkite paskirstymo metodą, laikotarpio raktą, šaltinio bei paskirties scenarijus ir spustelėkite „Paskirstyti“. 
 
-[![Paskirstyti](./media/screenshot33.png)](./media/screenshot33.png)
+[![Paskirstyti.](./media/screenshot33.png)](./media/screenshot33.png)
 
 Ankstesnių metų faktinės sumos bus nukopijuotos į einamųjų metų biudžetą ir paskirstytos laikotarpiams, naudojant pardavimo kreivės laikotarpio raktą. 
 
-[![Pardavimo kreivė](./media/screenshot34.png)](./media/screenshot34.png)
+[![Pardavimo kreivė.](./media/screenshot34.png)](./media/screenshot34.png)
 
 ### <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a>9 užduotis: koreguokite biudžeto plano dokumentą naudodami „Excel“ ir užbaikite dokumentą
 9.1. Spustelėkite mygtuką „Darbalapis“, kad atidarytumėte dokumento turinį programoje „Excel“.
@@ -215,9 +215,9 @@ Ankstesnių metų faktinės sumos bus nukopijuotos į einamųjų metų biudžet�
 
 9.3. Grįžkite į biudžeto plano dokumentą. Spustelėkite Darbo eiga &gt; Pateikti, kad automatiškai patvirtintumėte dokumentą.
 
-[![Automatiškai patvirtinti](./media/screenshot37.png)](./media/screenshot37.png) 
+[![Automatiškai patvirtinti.](./media/screenshot37.png)](./media/screenshot37.png) 
 
-Kai darbo eiga bus baigta, biudžeto plano dokumento etapas pasikeis į „Patvirtintas“. [![Aprobuota](./media/screenshot38.png)](./media/screenshot38.png)
+Kai darbo eiga bus baigta, biudžeto plano dokumento etapas pasikeis į „Patvirtintas“. [![Aprobuota.](./media/screenshot38.png)](./media/screenshot38.png)
 
 ## <a name="appendix"></a>Priedas
 
@@ -225,21 +225,21 @@ Kai darbo eiga bus baigta, biudžeto plano dokumento etapas pasikeis į „Patvi
 
 A. Biudžeto sudarymas &gt; Sąranka &gt; Biudžeto planavimas &gt; Biudžeto sudarymo darbo eigos. Kurkite naują darbo eigą naudodami šabloną „Biudžeto planavimo darbo eigos“:
 
-[![Sukurti naują darbo eigą](./media/screenshot39.png)](./media/screenshot39.png)
+[![Sukurti naują darbo eigą.](./media/screenshot39.png)](./media/screenshot39.png)
 
 Ši darbo eiga apims tik vieną užduotį – biudžeto plano etapo perkėlimą. 
 
-[![Biudžeto plano etapo perkėlimas](./media/screenshot40.png)](./media/screenshot40.png) 
+[![Biudžeto plano etapo perkėlimas.](./media/screenshot40.png)](./media/screenshot40.png) 
 
 Įrašykite ir suaktyvinkite darbo eigą. 
 
 B. Pasirinkite Biudžeto sudarymas &gt; Sąranka &gt; Biudžeto planavimas &gt; Biudžeto planavimo konfigūracija. Skirtuke „Etapai“ sukurkite 2 etapus – pradinį ir pateikimo. 
 
-[![Pradinis ir pateikimo](./media/screenshot41.png)](./media/screenshot41.png)
+[![Pradinis ir pateiktas.](./media/screenshot41.png)](./media/screenshot41.png)
 
 C. Pasirinkite Biudžeto sudarymas &gt; Sąranka &gt; Biudžeto planavimas &gt; Biudžeto planavimo konfigūracija. Skirtuke „Darbo eigos etapai“ susiekite A veiksmu automatiškai patvirtintą darbo eigą su pradiniu ir pateikimo etapais.
 
-[![Biudžeto sudarymas ir biudžeto planavimas](./media/screenshot42.png)](./media/screenshot42.png)  
+[![Biudžeto sudarymas ir biudžeto planavimas.](./media/screenshot42.png)](./media/screenshot42.png)  
 
 
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 50cfea6656e1f13532b018784fa64b2aac10fc7f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 3793dca681e28b90e96469256f368620393704f2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908572"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344275"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>„Dynamics 365 Supply Chain Management“ (Turto valdymas) integravimas su „Dynamics 365 Guides“
 
@@ -56,38 +56,38 @@ Norėdami susieti vadovą su prižiūrimo turto kontrolinio sąrašo šablonu, a
     1. „FastTab“ konteineryje **Prižiūrimo turto sąrašo eilutės** pasirinkite eilutę, su kuria norite susieti vadovą.
     1. „FastTab“ konteineryje **Susieti vadovai** pasirinkite **Įtraukti vadovą**.
 
-        ![Vadovo susiejimas su prižiūrimo turto kontrolinio sąrašo eilute](media/am-guides-integration-add-guide.png "Vadovo susiejimas su prižiūrimo turto kontrolinio sąrašo eilute")
+        ![Vadovo susiejimas su prižiūrimo turto kontrolinio sąrašo eilute.](media/am-guides-integration-add-guide.png "Vadovo susiejimas su prižiūrimo turto kontrolinio sąrašo eilute")
 
     1. Lauke **Pavadinimas** pasirinkite vadovą, tada – **Įrašyti**.
 
-        ![Lauke Pavadinimas pasirinkite vadovą](media/am-guides-integration-select-guide.png "Lauke Pavadinimas pasirinkite vadovą")
+        ![Lauke Pavadinimas pasirinkite vadovą.](media/am-guides-integration-select-guide.png "Lauke Pavadinimas pasirinkite vadovą")
 
 1. Susiekite prižiūrimo turto kontrolinio sąrašo šabloną su užduoties tipu.
 
     1. [Sukurkite priežiūros užduoties tipą ](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-job-type) arba pasirinkite esamą priežiūros užduoties tipą.
     1. Veiksmų srityje pasirinkite **Priežiūros užduoties tipo numatytosios reikšmės**.
 
-        ![Mygtukas Priežiūros užduočių tipų numatytosios reikšmės](media/am-guides-integration-job-defaults.png "Mygtukas Priežiūros užduočių tipų numatytosios reikšmės")
+        ![Mygtukas Priežiūros užduočių tipų numatytosios reikšmės.](media/am-guides-integration-job-defaults.png "Mygtukas Priežiūros užduočių tipų numatytosios reikšmės")
 
     1. Sukurkite eilutę ir pasirinkite **Įrašyti**.
 
-        ![Kurti eilutę](media/am-guides-integration-add-line.png "Kurti eilutę")
+        ![Sukurkite eilutę.](media/am-guides-integration-add-line.png "Kurti eilutę")
 
     1. Veiksmų srityje pasirinkite **Prižiūrimo turto kontrolinis sąrašas**.
 
-        ![Mygtukas Prižiūrimo turto kontrolinis sąrašas](media/am-guides-integration-maintenance-checklist.png "Mygtukas Prižiūrimo turto kontrolinis sąrašas")
+        ![Mygtukas Prižiūrimo turto kontrolinis sąrašas.](media/am-guides-integration-maintenance-checklist.png "Mygtukas Prižiūrimo turto kontrolinis sąrašas")
 
     1. „FastTab“ konteineryje **Prižiūrimo turto kontrolinio sąrašo eilutės** pridėkite eilutę, tada pakeiskite lauko **Tipas** reikšmę į **Šablonas**.
 
-        ![Keisti lauko Tipas reikšmę](media/am-guides-integration-checklist-lines.png "Keisti lauko Tipas reikšmę")
+        ![Keisti lauko Tipas reikšmę.](media/am-guides-integration-checklist-lines.png "Keisti lauko Tipas reikšmę")
 
     1. „FastTab“ konteinerio **Išsami eilutės informacija** lauke **Šablonas** pasirinkite šabloną, su kuriuo susiejote vadovą, tada pasirinkite **Įrašyti**.
 
-        ![Pasirinkti šabloną](media/am-guides-integration-checklist-line-details.png "Pasirinkti šabloną")
+        ![Pasirinkti šabloną.](media/am-guides-integration-checklist-line-details.png "Pasirinkti šabloną")
 
 1. [Sukurkite darbo užsakymą](work-orders/manually-created-workorders.md#create-work-order), tada pasirinkite priežiūros užduoties tipą, kuris naudoja prižiūrimo turto kontrolinio sąrašo šabloną, su kuriuo susiejote vadovą. Vadovas automatiškai susiejamas su darbo užsakymu.
 
-    ![Pasirinkti priežiūros užduoties tipą](media/am-guides-integration-create-work-order.png "Pasirinkti priežiūros užduoties tipą")
+    ![Pasirinkti priežiūros užduoties tipą.](media/am-guides-integration-create-work-order.png "Pasirinkti priežiūros užduoties tipą")
 
 1. Norėdami peržiūrėti vadovą, susietą su darbo užsakymu ir darbuotojais, atlikite toliau aprašytus veiksmus.
 
@@ -95,11 +95,11 @@ Norėdami susieti vadovą su prižiūrimo turto kontrolinio sąrašo šablonu, a
     1. [Atidarykite darbo užsakymo prižiūrimo turto kontrolinį sąrašą](asset-management-mobile-workspace.md#view-maintenance-checklist-on-a-work-order-job).
     1. Pasirinkite kontrolinio sąrašo eilutę, kad pamatytumėte susietą vadovą.
 
-        ![Vadovas, susietas su kontrolinio sąrašo eilute](media/am-guides-integration-show-guide.png "Vadovas, susietas su kontrolinio sąrašo eilute")
+        ![Vadovas, susietas su kontrolinio sąrašo eilute.](media/am-guides-integration-show-guide.png "Vadovas, susietas su kontrolinio sąrašo eilute")
 
     1. Atidarykite vadovą „HoloLens“.
 
-        ![Atidaryti vadovą „HoloLens“](media/am-guides-integration-hololens-select.png "Atidaryti vadovą „HoloLens“")
+        ![Atidaryti vadovą „HoloLens”.](media/am-guides-integration-hololens-select.png "Atidaryti vadovą „HoloLens“")
 
 > [!NOTE]
 > Vadovą taip pat galite tiesiogiai susieti darbo užsakymo arba užduoties tipo prižiūrimo turto kontroliniame sąraše.

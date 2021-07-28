@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: c50aabf94ae37b7b7b214699160bf958ad3ea9fd
-ms.sourcegitcommit: 2cc14f6c537628e79ad2dd17dabf2c246deaa40d
+ms.openlocfilehash: d61fdbb8efd8251cac6db7d5acab3caeb03f7879
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6219792"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346599"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Įsigijimo tarp „Supply Chain Management” ir „Field Service” integracija
 
@@ -31,7 +31,7 @@ ms.locfileid: "6219792"
 
 Toliau pateikta iliustracija rodo lenteles abiejose sistemose ir kaip jos susietos viena su kita. „Field Service” pirkimo užsakymai nurodo *sąskaita* eilutę, o tiekimo „Supply Chain Management” nurodo *tiekėjas* eilutę. Norint išspręsti integraciją, dvigubo rašymo funkcija naudoja nuorodą, kad susietų *tiekėjas* eilutes su *sąskaita* eilutėmis. Daugiau informacijos žr. [Integruotas tiekėjo šablonas](vendor-mapping.md).
 
-![Įsigijimo susiejimai](media/scm-field-service-tables.png)
+![Įsigijimo susiejimai.](media/scm-field-service-tables.png)
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 

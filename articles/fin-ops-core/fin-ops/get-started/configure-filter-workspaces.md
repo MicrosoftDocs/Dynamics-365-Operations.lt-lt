@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d92427c1aeee92921b5b817b67530cf8aeddbbfb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 29b9e920744296d458e74ff3990191bde72b9e58
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744032"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344302"
 ---
 # <a name="configure-and-filter-workspaces"></a>Darbo sričių konfigūravimas ir filtravimas
 
@@ -32,11 +32,11 @@ ms.locfileid: "5744032"
 
 Galite keisti kai kurių darbo sričių išvaizdą ir veikimą, atnaujinę parametrus, taikomus visai sričiai. Kai galima konfigūruoti darbo sritį, Veiksmų srityje yra mygtukas, kuris nurodo jį spustelėti, norint atlikti konfigūracijos pakeitimų. Pvz., toliau pateikiamoje iliustracijoje mygtukas pavadintas **Konfigūruoti mano darbo sritį**.
 
-[![configure-and-filter-workspaces](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)
+[![„configure-and-filter-workspaces”.](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)
 
 Spustelėjus mygtuką, atidaromas dialogo langas, kuriame galite modifikuoti iš anksto nustatytus darbo srities parametrus. Šiame dialogo lange matomi konkretūs parametrai skiriasi kiekvienoje darbo srityje, ir priklauso nuo darbo srityje esančių konkrečių valdiklių bei verslo duomenų.
 
-[![configure-my-workspace](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)
+[![„configure-my-workspace”.](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)
 
 ## <a name="filtering-a-workspace"></a>Darbo srities filtravimas
 
@@ -46,11 +46,11 @@ Daugelyje sričių leidžiama filtruoti juose rodomą turinį. Galimi valdikliai
 
 Naudodami visos darbo srities filtrą, galite filtruoti visą darbo sritį. Visos darbo srities filtrą rasite viršutiniame kairiajame darbo srities kampe. Išplečiamajame filtro sąraše pasirinkus konkrečią vertę, darbo srities turinys filtruojamas pagal tą pasirinkimą.
 
-[![workspace-filter](./media/workspace-filter.png)](./media/workspace-filter.png)
+[![„workspace-filter”.](./media/workspace-filter.png)](./media/workspace-filter.png)
 
 Kai, norėdami atidaryti filtrą, jį spustelėsite, jums bus pateiktos kelios pasirinktys.
 
-[![workspace-filter-expanded](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)
+[![„workspace-filter-expanded”.](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)
 
 Pasirinkite pasirinktį, pagal kurią turėtų būti filtruojama darbo sritis.
 
@@ -58,7 +58,7 @@ Pasirinkite pasirinktį, pagal kurią turėtų būti filtruojama darbo sritis.
 
 Jei atskiruose darbo srities skyriuose yra filtrai, galite filtruoti kiekvieną sritį atskirai. Toliau pateikiamoje iliustracijoje filtras (laukas, kuriame yra tekstas „Filtras), yra laisvos formos teksto laiko filtro pavyzdys.
 
-[![workspace-section-filters](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
+[![„workspace-section-filters”.](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 
 Kaip ir su visos darbo srities filtru, pasirinkite arba įveskite vertę į lauką, norėdami filtruoti skyriaus turinį.
 

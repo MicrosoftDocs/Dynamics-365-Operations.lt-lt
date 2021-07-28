@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 810592bcbe11b03753c12ab7bfe6160d3e9233ee
-ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
+ms.openlocfilehash: 5aa67673fe05394f498d0844b8e58ba6f0ec1d85
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/17/2021
-ms.locfileid: "6049321"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346087"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Sandėlio valdymo mobiliųjų įrenginių programėlės diegimas ir prijungimas
 
@@ -78,28 +78,28 @@ Norėdami įjungti Sandėlio valdymo mobiliųjų įrenginių programėlę, kad j
 1. Įveskite vartotojo, kuris turi prieigą prie „Azure“ prenumeratos, vardą ir slaptažodį.
 1. „Azure“ portalo kairiajame naršymo skyde pasirinkite **Azure Active Directory**.
 
-    ![Azure Active Directory](media/app-connect-azure-aad.png "„Azure Active Directory“")
+    ![„Azure Active Directory”.](media/app-connect-azure-aad.png "„Azure Active Directory“")
 
 1. Įsitikinkite, kad dirbate su „Azure AD“ egzemplioriumi, kurį naudoja „Supply Chain Management“.
 1. Sąraše **Valdyti** pasirinkite **Programų registracijos**.
 
-    ![Programų registracijos](media/app-connect-azure-register.png "Programų registracijos")
+    ![Programų registracijos.](media/app-connect-azure-register.png "Programų registracijos")
 
 1. Įrankių juostoje pasirinkite **Nauja registracija**, kad būtų atidarytas vedlys **Registruoti programą**.
 1. Įveskite programos pavadinimą, pasirinkite parinktį **Paskyros tik šiame organizaciniame kataloge**, tada pasirinkite **Registruoti**.
 
-    ![Vedlys registruoti programą](media/app-connect-azure-register-wizard.png "Vedlys registruoti programą")
+    ![Vedlys registruoti programą.](media/app-connect-azure-register-wizard.png "Vedlys registruoti programą")
 
 1. Atidaroma nauja programos registracija. Pasižymėkite **Programos (kliento) ID** reikšmę, nes jos reikės vėliau. Šis ID vėliau šioje temoje bus minimas kaip *kliento ID*.
 
-    ![Programos (kliento) ID](media/app-connect-azure-app-id.png "Programos (kliento) ID")
+    ![Programos (kliento) ID.](media/app-connect-azure-app-id.png "Programos (kliento) ID")
 
 1. Sąraše **Valdyti** pasirinkite **Sertifikatas ir slaptieji raktai**. Tada, atsižvelgdami į tai, kaip norite konfigūruoti programą autentifikavimui, pasirinkite vieną iš toliau pateiktų mygtukų. (Daugiau informacijos žr. tolesniame šios temos skyriuje [Autentifikavimas naudojant sertifikatą arba kliento slaptąjį raktą](#authenticate).)
 
     - **Įkelti sertifikatą** – įkelkite sertifikatą, kuris bus naudojamas kaip slaptasis raktas. Rekomenduojame šį būdą, nes jis saugesnis ir gali būti visiškai automatizuotas. Jei Sandėlio valdymo mobiliųjų įrenginių programėlę naudojate „Windows“ įrenginiuose, pasižymėkite rodomą **Nykščio antspaudas** vertę, po to kai įkeliate sertifikatą. Jums reikės šios reikšmės, kai konfigūruosite sertifikatą „Windows“ įrenginiuose.
     - **Naujas kliento slaptasis raktas** – sukurkite raktą įvesdami rakto aprašą ir trukmę dalyje **Slaptažodžiai**, tada pasirinkite **Įtraukti**. Sukurkite rakto kopiją ir saugiai išsaugokite.
 
-    ![Sertifikatas ir slaptieji raktai](media/app-connect-azure-authentication.png "Sertifikatas ir slaptieji raktai")
+    ![Sertifikatas ir slaptieji raktai.](media/app-connect-azure-authentication.png "Sertifikatas ir slaptieji raktai")
 
 Daugiau informacijos apie tai, kaip konfigūruoti žiniatinklio tarnybos programas „Azure AD“, ieškokite toliau nurodytuose ištekliuose.
 
@@ -119,7 +119,7 @@ Norėdami įgalinti „Supply Chain Management“, kad galėtumėte naudoti savo
     1. Sukurkite vartotoją.
     1. Priskirkite sandėliavimo mobiliojo įrenginio vartotoją.
 
-    ![Sandėliavimo mobiliojo įrenginio vartotojo priskyrimas](media/app-connect-app-users.png "Sandėliavimo mobiliojo įrenginio vartotojo priskyrimas")
+    ![Priskirkite sandėliavimo mobiliojo įrenginio vartotoją.](media/app-connect-app-users.png "Sandėliavimo mobiliojo įrenginio vartotojo priskyrimas")
 
 1. Susiekite savo „Azure AD“ programą su Sandėlio valdymo mobiliųjų įrenginių programėlės vartotoju:
 
@@ -127,7 +127,7 @@ Norėdami įgalinti „Supply Chain Management“, kad galėtumėte naudoti savo
     1. Sukurkite eilutę.
     1. Įveskite kliento ID, kurį pasižymėjote ankstesniame skyriuje, suteikite jam pavadinimą ir pasirinkite ką tik sukurtą vartotoją. Rekomenduojame pažymėti visus savo įrenginius. Tada, jei prarasite įrenginį, galėsite lengvai pašalinti jo prieigą prie „Supply Chain Management“ šiame puslapyje.
 
-    ![„Azure Active Directory“ programos](media/app-connect-aad-apps.png "„Azure Active Directory“ programos")
+    ![„Azure Active Directory“ programos.](media/app-connect-aad-apps.png "„Azure Active Directory“ programos")
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Autentifikavimas naudojant sertifikatą arba kliento slaptąjį raktą
 
@@ -213,30 +213,30 @@ Norėdami importuoti ryšio parametrus iš failo arba QR kodo, atlikite toliau n
 
 1. Paleiskite Sandėlio valdymo mobiliųjų įrenginių programėlę jūsų įrenginyje. Pirmą kartą paleidus programą rodomas pasveikinimo pranešimas. Paspauskite **Pasirinkti ryšį**.
 
-    ![Pasveikinimo pranešimas](media/app-configure-welcome-screen.png "Pasveikinimo pranešimas")
+    ![Pasveikinimo pranešimas.](media/app-configure-welcome-screen.png "Pasveikinimo pranešimas")
 
 1. Jei ryšio parametrus importuojate iš failo ir jį įrašant buvo naudojamas numatytasis vardas ir vieta, gali būti, kad programa jau rado failą. Tokiu atveju pereikite prie 4 veiksmo. Kitu atveju pasirinkite **Nustatyti ryšį**, o tada tęskite nuo 3 veiksmo.
 
-    ![Nustatyti ryšį](media/app-configure-set-up-connection.png "Nustatyti ryšį")
+    ![Nustatyti ryšį.](media/app-configure-set-up-connection.png "Nustatyti ryšį")
 
 1. Dialogo lange **Ryšio nustatymas** pasirinkite **Pridėti iš failo** arba **Pridėti iš QR kodo**, atsižvelgiant į tai, kaip norite importuoti parametrus:
 
     - Jei importuojate ryšio parametrus iš failo, pasirinkite **Pridėti iš failo**, naršykite į failą jūsų vietiniame įrenginyje ir jį pasirinkite. Jei pasirinksite pasirinktinę vietą, programa ją išsaugos ir automatiškai naudos kitą kartą.
     - Jei importuojate ryšio parametrus nuskaitydami QR kodą, pasirinkite **Pridėti iš QR kodo**. Programa paprašo leidimo naudoti įrenginio fotoaparatą. Kai suteikiate leidimą, fotoaparatas įjungiamas, kad galėtumėte jį naudoti nuskaitydami. Priklausomai nuo įrenginio fotoaparato kokybės ir QR kodo sudėtingumo, gali būti sunku gauti tinkamą nuskaitytą vaizdą. Tokiu atveju bandykite sumažinti QR kodo sudėtingumą sugeneruodami tik vieną ryšį vienam QR kodui. (Šiuo metu QR kodui nuskaityti galite naudoti tik įrenginio fotoaparatą.)
 
-    ![Ryšio nustatymo meniu](media/app-configure-connection-setup-flyout.png "Ryšio nustatymo meniu")
+    ![Ryšio nustatymo meniu.](media/app-configure-connection-setup-flyout.png "Ryšio nustatymo meniu")
 
 1. Kai ryšio nustatymai įkelti sėkmingai, rodomas pasirinktas ryšys.
 
-    ![Įkelti ryšio parametrai](media/app-configure-select-connection.png "Įkelti ryšio parametrai")
+    ![Įkelti ryšio parametrai.](media/app-configure-select-connection.png "Įkelti ryšio parametrai")
 
 1. Jei naudojate „Android“ įrenginį ir autentifikavimui naudojate sertifikatą, įrenginys paragins pasirinkti sertifikatą.
 
-    ![Sertifikato pasirinkimo raginimas „Android“ įrenginyje](media/app-configure-select-certificate.png "Sertifikato pasirinkimo raginimas „Android“ įrenginyje")
+    ![Sertifikato pasirinkimo raginimas „Android“ įrenginyje.](media/app-configure-select-certificate.png "Sertifikato pasirinkimo raginimas „Android“ įrenginyje")
 
 1. Programa prisijungia prie „Supply Chain Management“ serverio ir parodo prisijungimo puslapį.
 
-    ![Prisijungimo puslapis](media/app-configure-sign-in-page.png "Prisijungimo puslapis")
+    ![Prisijungimo puslapis.](media/app-configure-sign-in-page.png "Prisijungimo puslapis")
 
 ## <a name="manually-configure-the-application"></a><a name="config-manually"></a>Neautomatinis programos konfigūravimas
 
@@ -246,15 +246,15 @@ Jei neturite failo ar QR kodo, galite rankiniu būdu konfigūruoti programą įr
 1. Jei programa paleista **Demonstraciniu režimu**, pasirinkite **Ryšio parametrai**. Jei paleidus programą atsiranda **Prisijungimo** puslapis, pasirinkite **Keisti ryšį**.
 1. Pasirinkite **Nustatyti ryšį**.
 
-    ![Nustatyti ryšį](media/app-configure-set-up-connection.png "Nustatyti ryšį")
+    ![Nustatyti ryšį.](media/app-configure-set-up-connection.png "Nustatyti ryšį")
 
 1. Pasirinkite **Įvesti rankiniu būdu**.
 
-    ![Ryšio nustatymo meniu](media/app-configure-connection-setup-flyout.png "Ryšio nustatymo meniu")
+    ![Ryšio nustatymo meniu.](media/app-configure-connection-setup-flyout.png "Ryšio nustatymo meniu")
 
     Pasirodo **Naujo ryšio** puslapis, rodantis išplėstumėte parametrus, kurių reikia norint neautomatiniu būdu įvesti ryšio informaciją.
 
-    ![Neautomatiniai ryšio laukai](media/app-configure-input-manually.png "Neautomatiniai ryšio laukai")
+    ![Neautomatiniai ryšio laukai.](media/app-configure-input-manually.png "Neautomatiniai ryšio laukai")
 
 1. Įveskite šią informaciją:
 

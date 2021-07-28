@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: peterfriis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 88e6d5470ff7808a9b6263b6426e19f6ea11493d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e8046ce0926a4da6c20b4beb28b4e10aa3fa054c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755529"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344911"
 ---
 # <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a>„SQL Server Reporting Services“ konfigūravimas vietiniams diegimams
 
@@ -31,66 +31,66 @@ Atlikę šioje temoje nurodytus veiksmus, konfigūruokite „SQL Server Reportin
 2. Palikite numatytąjį **serverio pavadinimą**, kuris turėtų būti dabartinio įrenginio pavadinimas, taip pat **ataskaitų serverio egzempliorių**, **MSSQLSERVER**.
 3. Spustelėkite **Prisijungti**.
 
-    [![Prisijungimas prie ataskaitų serverio konfigūravimo](./media/ssrs-config-manager-01.png)](./media/ssrs-config-manager-01.png)
+    [![Prisijungimas prie ataskaitų serverio konfigūravimo.](./media/ssrs-config-manager-01.png)](./media/ssrs-config-manager-01.png)
 
 4. Spustelėkite skirtuką **Tarnybos sąskaita** ir patikrinkite, ar parametrai atitinka toliau pateiktą grafinį vaizdą.
 
-    [![Skirtukas Tarnybos sąskaitos](./media/ssrs-config-manager-02.png)](./media/ssrs-config-manager-02.png)
+    [![Skirtukas Tarnybos sąskaitos.](./media/ssrs-config-manager-02.png)](./media/ssrs-config-manager-02.png)
 
 5. Spustelėkite skirtuką **Tinklo tarnybos URL** ir patikrinkite, ar parametrai atitinka toliau pateiktą grafinį vaizdą.
 
-    [![Skirtukas Žiniatinklio tarnybos URL](./media/ssrs-config-manager-03.png)](./media/ssrs-config-manager-03.png)
+    [![Skirtukas Žiniatinklio tarnybos URL.](./media/ssrs-config-manager-03.png)](./media/ssrs-config-manager-03.png)
 
 6. Spustelėkite skirtuką **Duomenų bazė** ir patikrinkite, ar **Duomenų bazės pavadinimas** ir **Kredencialų parametrai** atitinka toliau pateiktą grafinį vaizdą.
 
     > [!NOTE]
     > Turėsite susikurti naują duomenų bazę. Norėdami tai atlikti, spustelėkite **Keisti duomenų bazę**, tada patikrinkite, ar naujos duomenų bazės pavadinimas yra **DynamicsAxReportServer**.
 
-    [![duomenų bazės skirtukas](./media/ssrs-config-manager-04.png)](./media/ssrs-config-manager-04.png)
+    [![duomenų bazės skirtukas.](./media/ssrs-config-manager-04.png)](./media/ssrs-config-manager-04.png)
 
 7. Spustelėkite skirtuką **Tinklo portalo URL** ir patikrinkite, ar parametrai atitinka toliau pateiktą grafinį vaizdą.
 
     > [!NOTE]
     > Norėdami sukurti ir tinkamai sukonfigūruoti portalą, turite spustelėti **Taikyti**.
 
-    [![skirtukas tinklo portalo url](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)
+    [![skirtukas tinklo portalo url.](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)
 
     Sukonfigūravus portalą skirtuko **Tinklo portalas** vaizdas atitiks toliau pateiktą grafinį vaizdą.
 
-    [![skirtukas tinklo portalas](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)
+    [![skirtukas tinklo portalas.](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)
 
 8. Norėdami peržiūrėti „SQL Server Reporting Services“ tinklo portalą, spustelėkite ataskaitų URL.
 9. Įėję į portalą sukurkite naują aplanką, pavadinimu **Dynamics**.
 
-    [![aplankas „Dynamics“](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
+    [![aplankas „Dynamics“.](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
 
 10. Srityje **Ataskaitų serverio konfigūravimo tvarkytuvas** spustelėkite skirtuką **El. pašto parametrai** ir patikrinkite, ar parametrai atitinka toliau pateiktą grafinį vaizdą.
 
-    [![skirtukas el. pašto parametrai](./media/ssrs-config-manager-08.png)](./media/ssrs-config-manager-08.png)
+    [![skirtukas el. pašto parametrai.](./media/ssrs-config-manager-08.png)](./media/ssrs-config-manager-08.png)
 
 11. Spustelėkite skirtuką **Vykdymo sąskaita** ir patikrinkite, ar parametrai atitinka toliau pateiktą grafinį vaizdą.
 
-    [![skirtukas vykdymo sąskaita](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)
+    [![skirtukas vykdymo sąskaita.](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)
 
     Nekeiskite numatytųjų parametrų skirtuke **Šifravimo raktai**.
 
-    [![skirtukas šifravimo raktai](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
+    [![skirtukas šifravimo raktai.](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
 
 12. Spustelėkite skirtuką **Abonemento parametrai** ir patikrinkite, ar parametrai atitinka toliau pateiktą grafinį vaizdą.
 
-    [![skirtukas abonementų parametrai](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)
+    [![skirtukas abonementų parametrai.](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)
 
     Nekeiskite numatytųjų parametrų skirtuke **Skalės sudarymas**.
 
-    [![skirtukas skalės sudarymas](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
+    [![skirtukas skalės sudarymas.](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
 
     Nekeiskite numatytųjų parametrų skirtuke **„Power BI“ integravimas**.
 
-    [![skirtukas „Power BI“ integravimas](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)
+    [![skirtukas „Power BI“ integravimas.](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)
 
 13. Spustelėkite **Išeiti**, kad uždarytumėte **ataskaitų serverio konfigūravimo tvarkytuvą**.
 
-    [![ataskaitų serverio konfigūravimo tvarkytuvo uždarymas](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)
+    [![ataskaitų serverio konfigūravimo tvarkytuvo uždarymas.](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

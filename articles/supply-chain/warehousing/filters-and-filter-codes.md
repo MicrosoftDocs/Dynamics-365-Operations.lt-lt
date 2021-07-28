@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: c3648a2d9df300ecd0c26a12db8093babb3db48f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8c5574efeb1dee372a8ecf8ddb1d1710f63b73a7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838255"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345239"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Sandėlio operacijų produktų filtrų konfigūravimas
 
@@ -46,11 +46,11 @@ Produktų filtrai pateikia iki 10 **Filtro pavadinimo** charakteristikų, kurios
 1. Lauke **Filtro pavadinimas** pasirinkite reikšmę.
 1. Lauke **Filtro kodas** įveskite reikšmę.
 
-    ![Produktų filtro nustatymas](media/Product_Filters10.png "Produktų filtro nustatymas")
+    ![Produktų filtro nustatymas.](media/Product_Filters10.png "Produktų filtro nustatymas")
 
 1. Lauke **Aprašas** įveskite kodo pavadinimą. Pavyzdžiui, *2 kodas* gali rodyti tiekėjus. Tada galite sukurti produktų filtrą konkrečiam tiekėjui ar tiekėjų grupei. Daugiau informacijos žiūrėkite tolesniame šios temos skyriuje [Tiekėjų filtrų kodų nustatymas](#vendor-product-filters).
 
-    ![Produktų filtrų rinkinys](media/Product_Filters.png "Produktų filtrų rinkinys")
+    ![Produktų filtrų rinkinys.](media/Product_Filters.png "Produktų filtrų rinkinys")
 
 ## <a name="set-up-product-filter-groups"></a>Produktų filtrų grupių nustatymas
 
@@ -69,7 +69,7 @@ Norėdami nustatyti filtrų grupes, atlikite šiuos veiksmus.
 1. Lauke **Prekių grupė** pasirinkite prekių grupę, kuriai norite taikyti produktų filtrą.
 1. Laukuose nuo **1 kodas** iki **10 kodas** pasirinkite filtrų kodus jų įtraukimui į grupę, kaip reikalaujama.
 
-    ![Prekių grupė](media/ProdFilterGroup.png "Prekių grupė")
+    ![Prekių grupė.](media/ProdFilterGroup.png "Prekių grupė")
 
 > [!NOTE]
 > Jei uždarydami puslapį gaunate klaidos pranešimą, galimai trūksta kodo nustatymo. Puslapyje **Prekių grupės** galite padaryti kodus privalomus prekių grupei pasirinkdami žymės langelius **Priskirti 1 filtro kodą prekės grupei**, **Priskirti 2 filtro kodą prekės grupei** ir taip toliau.
@@ -88,7 +88,7 @@ Norėdami nustatyti filtrų kodus prekių grupėms, atlikite šiuos veiksmus.
 
     Norėdami atnaujinti išleistą produktą, veiksmo srityje atidarykite jo puslapį **Išleisto produkto informacija** ir pasirinkite **Redaguoti**. Tada su kodais susieti filtrai tampa prieinami **Sandėlio** „FastTab” skirtuke.
 
-    ![Prekių grupės](media/ItemGroup10.png "Prekių grupės")
+    ![Prekių grupės.](media/ItemGroup10.png "Prekių grupės")
 
 1. Skyriuje **Prekių grupės filtras** pasirinkite žymės langelius grupėms, kurie turi atitikti filtro grupę, kuri yra numatytoji filtro grupė prekei.
 
