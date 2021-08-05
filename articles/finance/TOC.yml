@@ -76,8 +76,6 @@
                       href: get-started/whats-new-changed-10-0-20.md
                     - name: „Finance 10.0.19“ (2021 m. birželio mėn.)
                       href: get-started/whats-new-changed-10-0-19.md
-                    - name: „Finance 10.0.18“ (2021 m. gegužės mėn.)
-                      href: get-started/whats-new-changed-10-0-17.md
             - name: Pašalintos arba nerekomenduojamos funkcijos
               items:
                 - name: Pašalintų arba nerekomenduojamų funkcijų pagrindinis puslapis
@@ -1566,6 +1564,8 @@
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Užsienio paslaugų ataskaita
                   href: localizations/emea-aut-cross-border-services-report.md
+                - name: Pirkimo muito mokesčiai
+                  href: localizations/emea-aut-purchase-duties.md
             - name: Bahreinas
               items:
                 - name: Bahreino apžvalga
@@ -1992,6 +1992,10 @@
                       href: localizations/tasks/eur-00002-specify-lading-address-intra-community.md
                     - name: ES Intrastat deklaracijos generavimas
                       href: localizations/tasks/eur-00002-eu-intrastat-declaration.md
+                    - name: Prancūzijos Intrastat
+                      href: localizations/emea-fra-intrastat.md
+                    - name: Italijos Intrastat
+                      href: localizations/emea-ita-intrastat.md
                 - name: Atsargų žurnalo ataskaitos
                   href: localizations/emea-set-up-report-inventory-journal-names.md
                 - name: Sąskaitų faktūrų išdavimo terminai
@@ -2968,6 +2972,12 @@
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
                 - name: 'PVM deklaracija su registrais (JPK_V7M, VDEK)'
                   href: localizations/emea-pol-vdek.md
+                - name: Paruošimas JPEGK-V7M ataskaitoms
+                  href: localizations/emea-pol-vdek-setup.md
+                - name: JPK-V7M ataskaitos
+                  href: localizations/emea-pol-vdek-reporting.md
+                - name: Konkrečių verslo scenarijų detali informacija JPEGK-V7M ataskaitoje
+                  href: localizations/emea-pol-vdek-scenarios.md
             - name: Kataras
               items:
                 - name: Kataro apžvalga
@@ -3204,6 +3214,8 @@
                       href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
                     - name: Blogos skolos rezervai gautinose sumose
                       href: localizations/rus-bad-debts.md
+                    - name: Mokesčių turto ir mokestinių įsipareigojimų registrų skaičiavimas
+                      href: localizations/rus-calculation-tax-asset-tax-liability-registers.md
             - name: Saudo Arabija
               items:
                 - name: Saudo Arabijos apžvalga
@@ -3997,6 +4009,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Ataskaitų „Office“ formatais su įdėtaisiais vaizdais generavimas
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
+                    - name: 'ER formato kūrimas, kad būtų galima sugeneruoti „Excel” ataskaitą su į puslapių antraštes ar poraštes įdėtais vaizdais'
+                      href: ../fin-ops-core/dev-itpro/analytics/er-embed-images-header-footer-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Sugeneruotų XML failų skaidymas pagal failo dydį ir turinio kiekį
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
                 - name: KS simbolių sulaikymas sugeneruotuose failuose

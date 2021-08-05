@@ -5,6 +5,8 @@
       items:
         - name: Kas nauja ar pasikeitė „Human Resources”
           href: hr-admin-whats-new.md
+        - name: "2021\_m. liepos 12\_d."
+          href: hr-whats-new-2021-07-12.md
         - name: 2021 m. birželio 22 d.
           href: hr-whats-new-2021-06-22.md
         - name: 2021 m. gegužės 20 d.
@@ -255,6 +257,8 @@
           href: hr-admin-go-live-prepare.md
         - name: DUK apie įgyvendinimo pradžią
           href: hr-admin-go-live-faq.md
+        - name: DUK apie „Human Resources“ infrastruktūros suliejimą
+          href: hr-infrastructure-merge-faq.md
         - name: Dokumentacijos ištekliai
           items:
             - name: Žinyno sistema
@@ -691,6 +695,8 @@
               href: hr-compensation-define-process.md
             - name: Kompensacijos planų apdorojimas
               href: hr-compensation-process.md
+            - name: Pažymėti darbuotoją kaip parengtą mokėti
+              href: hr-compensation-payroll.md
         - name: Išmokų tvarkymas
           items:
             - name: Išmokų valdymas
@@ -715,9 +721,9 @@
                       href: hr-benefits-setup-payment-frequencies.md
                     - name: Gyvenimo įvykių tipų konfigūravimas
                       href: hr-benefits-setup-life-event-types.md
-                    - name: Planų tipų kūrimas
+                    - name: Plano tipo peržiūra
                       href: hr-benefits-setup-plan-types.md
-                    - name: Priežasčių kodų nustatymas
+                    - name: Nustatyti priežasčių kodus
                       href: hr-benefits-setup-reason-codes.md
                     - name: Pakopos kodų nustatymas
                       href: hr-benefits-setup-tier-codes.md
@@ -807,6 +813,8 @@
               href: hr-employee-self-service-request-time-off.md
             - name: Komandos ir įmonių kalendorių peržiūra
               href: hr-employee-self-service-calendar.md
+            - name: Konfigūruoti neatvykimų vadybininko vaidmenį
+              href: hr-configure-absence-manager.md
             - name: Atostogų pirkimo ir pardavimo strategijų valdymas
               href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
             - name: Atostogų pirkimo ir pardavimo darbo eigų kūrimas

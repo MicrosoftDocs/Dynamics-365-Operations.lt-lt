@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: "„Platform“ naujinimai, skirti 10.0.19 (2021\_m. birželio mėn.)"
                   href: get-started/whats-new-platform-updates-10-0-19.md
-                - name: "„Platform“ naujinimai, skirti 10.0.18 (2021\_m. gegužės mėn.)"
-                  href: get-started/whats-new-platform-updates-10-0-18.md
             - name: Pašalintos arba nerekomenduojamos funkcijos
               items:
                 - name: Pašalintų arba nerekomenduojamų funkcijų pagrindinis puslapis
@@ -366,9 +364,11 @@
                       href: deployment/troubleshoot-newinfrastructure.md
                     - name: DUK apie planuojamą priežiūrą savitarnos aplinkoje
                       href: deployment/plannedmaintenance-selfservice.md
+                    - name: Verslo tęstinumas ir avarinis atkūrimas
+                      href: sysadmin/business-continuity-disaster-recovery.md
                 - name: Baigtas „Azure Resource Manager“ supažindinimas
                   href: deployment/arm-onboarding.md
-                - name: „Azure ExpressRoute“ ir „Finance and Operations“
+                - name: Azure ExpressRoute ir Finance and Operations
                   href: deployment/expressroute.md
                 - name: „Finance and Operations“ architektūra
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
@@ -376,6 +376,8 @@
                   href: deployment/apply-deployable-package-system.md
                 - name: Naujinimų ir plėtinių taikymas „Commerce Scale Unit“ (debesyje)
                   href: deployment/Update-retail-channel.md
+                - name: Automatinis „Commerce Scale Unit“ (debesis) naujinimas
+                  href: deployment/Auto-Update-Commerce-Scale-Unit.md
                 - name: „Commerce Scale Unit“ (debesyje) inicijavimas
                   href: deployment/Initialize-Retail-Channels.md
                 - name: Kanalų perkėlimas į kitą „Commerce Scale Unit“
@@ -392,6 +394,8 @@
                       href: deployment/on-premises-overview.md
                     - name: Vietinių visuotinių diegimų planavimas ir rengimas
                       href: deployment/plan-onprem-deployment.md
+                    - name: „Microsoft Dynamics 365 Finance + Operations (on-premises)“ palaikoma programinė įranga
+                      href: deployment/onprem-compatibility.md
                     - name: Aparatūros dydžio reikalavimai
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
                     - name: Autentifikavimas „Dynamics 365 Finance + Operations (on-premises)“
@@ -502,8 +506,6 @@
                   href: dev-tools/access-instances.md
                 - name: Vieno bloko programavimo aplinkų konfigūravimas
                   href: dev-tools/configure-developer-vm.md
-                - name: Naujų vartotojų kūrimas kūrimo įrenginiuose
-                  href: dev-tools/enable-development-machine.md
                 - name: 'DUK apie kūrimo ir komponavimo VM, nesuteikiančias administravimo prieigos'
                   href: sysadmin/VMs-no-admin-access.md
                 - name: 'Vietinių aplinkų pervardijimas, kad būtų galima pasiekti „Azure DevOps“'
@@ -1116,7 +1118,7 @@
                       href: data-entities/dual-write/integrated-hr.md
                     - name: Šalis ir visuotinė adresų knygelė
                       href: data-entities/dual-write/party-gab.md
-                    - name: „Power Portal“ naudojimas su šalies duomenų modeliu
+                    - name: „Microsoft Power Apps“ portalų naudojimas su šalies duomenų modeliu
                       href: data-entities/dual-write/party-gab-portal.md
                     - name: Naujinimas į šalies ir visuotinės adresų knygelės modelį
                       href: data-entities/dual-write/upgrade-party-gab.md
@@ -1604,6 +1606,8 @@
                   href: migration-upgrade/upgrade-go-live-prep.md
                 - name: AX 2012 versijos naujinimas – įgyvendinimo pradžia
                   href: migration-upgrade/2012-upgrade-cutover.md
+                - name: Naujinimas iš AX 2012 m. – DUK apie duomenų naujinimą
+                  href: migration-upgrade/upgrade-faq.md
                 - name: 'Keitimai, turintys įtakos AX 2012 versijos naujinimui'
                   items:
                     - name: 'Sąskaitų plano skyriklio nustatymas, kad jis būtų unikalus'

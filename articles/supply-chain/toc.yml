@@ -76,8 +76,6 @@
                       href: get-started/whats-new-scm-10-0-20.md
                     - name: „Supply Chain Management 10.0.19“ (2021 m. birželio mėn.)
                       href: get-started/whats-new-scm-10-0-19.md
-                    - name: „Supply Chain Management 10.0.18“ (2021 m. gegužės mėn.)
-                      href: get-started/whats-new-scm-10-0-18.md
                 - name: Pašalintos arba nerekomenduojamos funkcijos
                   items:
                     - name: Pašalintų arba nerekomenduojamų funkcijų pagrindinis puslapis
@@ -2001,9 +1999,7 @@
                   href: procurement/tasks/create-purchase-order-delivery-schedule.md
                 - name: Kurti vienkartinio tiekėjo pirkimo užsakymą
                   href: procurement/tasks/create-purchase-order-one-time-supplier.md
-                - name: Kurti pirkimo leidimą išduoti kuriant pirkimo užsakymą
-                  href: procurement/tasks/create-purchase-release-order-creating-purchase-order.md
-                - name: Pirkimo leidimo užsakymo kūrimas iš pirkimo sutarties
+                - name: Taikyti pirkimo sutartį kuriant pirkimo užsakymą
                   href: procurement/tasks/create-purchase-release-order-purchase-agreement.md
                 - name: Pirkimo grąžinimo užsakymo kūrimas
                   href: procurement/tasks/create-purchase-return-order.md
