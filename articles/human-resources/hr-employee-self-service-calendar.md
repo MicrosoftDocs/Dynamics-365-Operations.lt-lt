@@ -2,7 +2,7 @@
 title: Komandos kalendoriaus kūrimas
 description: Peržiūrėti ir kurti komandų kalendorius „Dynamics 365 Human Resources“.
 author: andreabichsel
-ms.date: 11/02/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cedff4031c6455b446af9c56a770a00f3b2efc80
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 52ae36f499871087cc086bcaf8c345af41d06943
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052102"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639395"
 ---
 # <a name="view-team-and-company-calendars"></a>Komandos ir įmonių kalendorių peržiūra
 
@@ -30,7 +30,7 @@ Galite peržiūrėti komandos ir įmonės kalendorius „Dynamics 365 Human Reso
 
 ## <a name="view-your-team-calendar-as-an-employee"></a>Peržiūrėkite komandos kalendorių kaip darbuotojas
 
-1. **Darbuotojo savitarnos** darbo srityje pasirinkite **Komandos nebuvimo kalendorius** skyriuje **Santrauka**.
+- **Darbuotojo savitarnos** darbo srityje pasirinkite **Komandos nebuvimo kalendorius** skyriuje **Santrauka**.
 
 ## <a name="view-your-team-calendar-as-a-manager"></a>Peržiūrėkite komandos kalendorių kaip vadovas
 
@@ -39,6 +39,21 @@ Galite peržiūrėti komandos ir įmonės kalendorius „Dynamics 365 Human Reso
 2. Pasirinkite **Atostogos ar nebuvimas** ir tuomet pasirinkite **Peržiūrėti vadovo nebuvimo kalendorių**.
 
 Vadovai taip pat gali turėti prieigą prie komandos kalendoriaus skirtukuose **Laukiami mano komandos atostogų prašymai**, **Patvirtintos atostogos** ir **Atostogų užklausos**. 
+
+## <a name="view-your-absence-manager-calendar-as-the-absence-manager"></a>Peržiūrėkite savo neatvykimų vadovo kalendorių kaip neatvykimo vadovas
+
+> [!NOTE]
+> Norėdami peržiūrėti neatvykimų vadovo kalendorių, pirmiausia turite įjungti funkciją **(Peržiūrėti) Neatvykimų vadovas atostogų valdymui** Funkcijų valdyme. Daugiau informacijos apie tai, kaip įjungti peržiūros funkcijas, rasite [Funkcijų valdymas](hr-admin-manage-features.md).
+
+Vartotojai, turintys neatvykimų vadovo vaidmenį, gali peržiūrėti išleidimo iš darbo užklausas savo kalendoriuje. Atlikite toliau nurodytus veiksmus, jei norite pasiekti atostogų kalendorių.
+
+1. Darbo srityje **Darbuotojo savitarna** pasirinkite **Neatvykimų vadovas**, o tada **Neatvykimų vadovo kalendorius**.
+
+2. Lauke **Data** įveskite norimas datas.
+
+3. Jei reikia, atnaujinkite rodinio parinktis.
+
+Neatvykimų vadovo kalendoriuje rodomi visi darbuotojų, kurie yra atskaitingi neatvykimų vadovui, įrašai Atostogų hierarchijoje.
 
 ## <a name="view-a-company-calendar"></a>Peržiūrėti įmonės kalendorių
 
@@ -64,13 +79,11 @@ Kalendoriaus konfigūravimas atostogų ir neatvykimų parametruose nustato galim
 
 Taip pat galite filtruoti kalendorius pagal vadovą arba padalinį. Pagrindinis pareigų priskyrimas nustato darbuotojus, rodomus nustačius šiuos filtrus. 
 
->[!IMPORTANT]
->Atostogų ir nebuvo darbe peržiūra visose įmonėse šiuo metu yra išankstinėje peržiūroje. Jums reikia jį įjungti savo **Smėlio dėžės** aplinkoje. Daugiau informacijos apie peržiūros versijos funkcijų įjungimą žr. [Funkcijų valdymas](hr-admin-manage-features.md).<br><br>
->Tuomet turite įjungti funkciją **Žmogiškųjų išteklių bendrintuose parametruose** tam, kad jie rodytų juridinio asmens filtą kalendoriuose. Dėl daugiau informacijos, žr. [Konfigūruoti atostogų ir nebuvimo parametrus](hr-leave-and-absence-parameters.md).<br><br>
->Galite filtruoti kalendorių pagal juridinį asmenį. Jei norite matyti visus darbuotojus nepriklausomai nuo juridinio asmens, pašalinkite filtro laukelį ir pasirinkite įvesti. 
+> [!IMPORTANT]
+> Galite įjungti funkciją **Visos įmonės atostogų rodinį** Funkcijų valdyme. Tada turite įjungti funkciją puslapyje **Žmogiškųjų išteklių bendrinti parametrai** tam, kad būtų rodomas juridinio asmens filtras kalendoriuose. Dėl daugiau informacijos, žr. [Konfigūruoti atostogų ir nebuvimo parametrus](hr-leave-and-absence-parameters.md).
+> 
+> Galite filtruoti kalendorių pagal juridinį asmenį. Tam, kad peržiūrėtumėte visus darbuotojus nepriklausomai nuo juridinio asmens, pašalinkite filtro lauką ir pasirinkite **Įvesti**. 
 
 Informacijos apie kalendoriaus parametrus žr. skyriuje [Kalendoriaus parametrų konfigūravimas](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

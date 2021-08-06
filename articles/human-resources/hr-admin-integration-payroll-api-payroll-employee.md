@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 57501d07f6b9cffdff9f37737df8c278c574cf30
-ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
+ms.openlocfilehash: 672db002ddf8d12aaab5b97241390c036ad7ab5c
+ms.sourcegitcommit: 8fb79920bea14746a71551a4456236a6386bfcea
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "6314290"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "6538859"
 ---
 # <a name="payroll-employee"></a>Algalapio darbuotojas
 
@@ -32,15 +32,19 @@ Faktinis pavadinimas: „mshr_payrollemployeeentity”.
 
 Šiame objekte pateikta informacija apie darbuotoją. Privalote nustatyti [algalapio integravimo parametrus](hr-admin-integration-payroll-api-parameters.md) prieš naudodami šį objektą.
 
+>[!IMPORTANT] 
+>**Vardo**, **Vidurinio vardo**, **Pavardės**, **Vardas galioja nuo** ir **Vardas galioja iki** laukų nebegalima naudoti šiame objekte. Taip siekiama užtikrinti, kad šiam objektui būtų galima sukurti tik vieną veiksmingą atsarginį duomenų šaltinį, kuris yra **Hcm Įdarbinimas** naudojant laukus **Įdarbinimo pradžios data** ir **Įdarbinimo pabaigos data**.
+
+>Šie laukai bus galimi **Tiesioginio asmens vardo retrospektyviniame objekte** kuris buvo išleistas 43 platformos naujinime. Yra „OData” ryšys yra iš **Algalapio darbuotojo objekto** į **Tiesioginio asmens vardo retrospektyvinį objektą** lauke **Asmuo**. Taip pat, **Tiesioginio asmens vardo retrospektyvinis objektas** gali būti tiesiogiai užklaustas per „OData” naudojant viešąjį pavadinimą **Asmens retrospektyviniai vardai**.
+
+
 ## <a name="properties"></a>Ypatybės
 
 | Ypatybė<br>**Faktinis pavadinimas**<br>**_Tipas_** | Naudoti | Aprašas |
 | --- | --- | --- |
 | **Darbuotojo numeris**<br>„mshr_personnelnumber”<br>*Eilutė* | Tik skaitomas<br>Būtina | Unikalus darbuotojo personalo numeris. |
 | **Pirminis laukas**<br>mshr_primaryfield<br>*Eilutė* | Būtina<br>Sistemos sugeneruota |  |
-| **Pavardė**<br>mshr_lastname<br>*Eilutė* | Tik skaityti<br>Būtina | Darbuotojo pavardė. |
 | **Juridinio subjekto ID**<br>„mshr_legalentityID”<br>*Eilutė* | Tik skaitomas<br>Būtina | Nurodo juridinį asmenį (įmonę). |
-| **Galioja nuo**<br>„mshr_namevalidfrom”<br>*Datos ir Laiko poslinkis* | Tik skaitomas <br>Būtina | Data, nuo kurios galioja darbuotojo informacija.  |
 | **Giminė**<br>mshr_gender<br>[mshr_hcmpersongender parinkties nustatymas](hr-admin-integration-payroll-api-gender.md) | Tik skaitomas<br>Būtina | Darbuotojo lytis. |
 | **Algalapio darbuotojo objekto ID**<br>„mshr_payrollemployeeentityid”<br>*GUID* | Būtina<br>Sistemos sugeneruota | Sistemos sukurta GUID reikšmė, skirta unikaliai atpažinti darbuotoją. |
 | **Įdarbinimo pradžios data**<br>„mshr_employmentstartdate”<br>*Datos ir laiko poslinkis* | Tik skaitomas<br>Būtina | Darbuotojo įdarbinimo pradžios data. |
@@ -50,8 +54,6 @@ Faktinis pavadinimas: „mshr_payrollemployeeentity”.
 | **Galioja iki**<br>„mshr_namevalidto”<br>*Datos ir Laiko poslinkis* |  Tik skaitomas<br>Būtina | Data, iki kurios galioja darbuotojo informacija. |
 | **Gimimo data**<br>mshr_birthdate<br>*Datos ir Laiko poslinkis* | Tik skaitomas <br>Būtina | Darbuotojo gimimo data |
 | **Identifikacijos numeris iki**<br>mshr_identificationnumber<br>*Eilutė* | Tik skaitomas <br>Būtina |Darbuotojui apibrėžtas identifikacijos numeris.  |
-| **Vardas**<br>mshr_firstname<br>*Eilutė* | Tik skaitomas<br>Būtina | Darbuotojo vardas. |
-| **Antras vardas**<br>mshr_middlename<br>*Eilutė* | Tik skaitomas<br>Būtina |Darbuotojo antras vardas.  |
 
 ## <a name="example-query-for-payroll-employee"></a>Algalapio darbuotojo užklausos pavyzdys
 
@@ -69,11 +71,6 @@ GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_pe
     "mshr_personnelnumber": "000041",
     "mshr_employmentstartdate": "2011-04-05T07:00:00Z",
     "mshr_employmentenddate": "2154-12-31T23:59:59Z",
-    "mshr_firstname": "Cassie",
-    "mshr_middlename": "Lassie",
-    "mshr_lastname": "Hicks",
-    "mshr_namevalidfrom": "2021-03-12T20:34:25Z",
-    "mshr_namevalidto": "2154-12-31T23:59:59Z",
     "mshr_birthdate": "1987-09-12T00:00:00Z",
     "mshr_gender": 200000002,
     "mshr_identificationtypeid": "SSN",

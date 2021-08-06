@@ -2,7 +2,7 @@
 title: Atostogų ir neatvykimų apžvalga
 description: „Dynamics 365 Human Resources” atostogų ir neatvykimų darbo sritis suteikia lanksčią sistemą naujų atostogų planų kūrimui. Ji taip pat suteikia darbo eigas prašymų valdymui ir intuityvų savitarnos puslapį darbuotojams prašyti išleisti iš darbo.
 author: andreabichsel
-ms.date: 06/01/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b41838b447dcbffc656ab759fcc4746abb620661
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 7a3c305910f41ebd775292dee91a6044c2cdb244
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339720"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639491"
 ---
 # <a name="leave-and-absence-overview"></a>Atostogų ir neatvykimų apžvalga
 
@@ -34,7 +34,8 @@ Norėdami kurti atostogų planus savo darbuotojams, turite atlikti keletą sąra
 
 - [Atostogų ir neatvykimų parametrų konfigūravimas](hr-leave-and-absence-parameters.md)
 - [Darbo laiko kalendoriaus kūrimas](hr-leave-and-absence-working-time-calendar.md)
-- [Atostogų užklausos darbo eigos kūrimas](hr-leave-and-absence-workflow.md)
+- [Prašymo išeiti atostogų darbo eigos kūrimas](hr-leave-and-absence-workflow.md)
+- [Neatvykimų vadovo vaidmens konfigūravimas](hr-configure-absence-manager.md)
 
 ## <a name="create-and-manage-leave-plans"></a>Sukurti ir valdyti atostogų planus
 
@@ -50,8 +51,9 @@ Prieš kurdami savo darbuotojų atostogų planus, turite sukurti atostogų ir ne
 
 Jūsų darbuotojai gali pateikti prašymus išleisti iš darbo, o jūs galite valdyti juos **Darbuotojo savitarna** darbo srityje.
 
-[Prašymai išleisti iš darbo](hr-employee-self-service-request-time-off.md)
-[Atostogų ir neatvykimų prašymų valdymas](hr-employee-self-service-manage-requests.md)
+- [Prašyti išleisti iš darbo](hr-employee-self-service-request-time-off.md)
+- [Atostogų ir leidimo neatvykti prašymų valdymas](hr-employee-self-service-manage-requests.md)
+- [Konfigūruoti neatvykimų vadovo vaidmenį](hr-configure-absence-manager.md)
 
 
 

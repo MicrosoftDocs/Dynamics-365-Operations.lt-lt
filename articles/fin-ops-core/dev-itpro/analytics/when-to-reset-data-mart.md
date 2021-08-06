@@ -2,7 +2,7 @@
 title: Duomenų srities nustatymo iš naujo DUK
 description: Šioje temoje pateikiami atsakymai į kai kuriuos dažnai užduodamus klausimus apie duomenų srities nustatymą iš naujo.
 author: jinniew
-ms.date: 06/09/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7cd96c7bc698986ef1ef07ca88479a3d49f22924
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: 90abe1fc3e84e0a9777f3eabd790a4b7e9b509c5
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266614"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638272"
 ---
 # <a name="data-mart-resets-faq"></a>Duomenų srities nustatymo iš naujo DUK
 
@@ -37,6 +37,9 @@ Jei jūsų situacijai tinka vienas ar daugiau iš šių sakinių, jūsų organiz
 
 - Programos duomenų bazė buvo atkurta.
 - Atidarėte pagalbos kvitą, o pagalbos inžinierius jums nurodė iš naujo nustatyti duomenų sritį kaip trikčių diagnostikos veiksmo dalį.
+ 
+> [!NOTE]
+> Duomenų srities nustatymą iš naujo paveikia didžiosios knygos ir biudžeto operacijos jūsų duomenų bazėje. Priklausomai nuo operacijų skaičiaus jūsų sistemoje, duomenų srities nustatymas iš naujo gali būti atliktas per 15 minučių arba užtrukti iki keturių valandų. Jei jūsų nustatymas iš naujo užtrunka ilgiau nei keturias valandas, rekomenduojame kreiptis į klientų aptarnavimo tarnybą.
  
 ## <a name="when-is-a-data-mart-reset-inappropriate"></a>Kada duomenų srities nustatymas iš naujo yra netinkamas?
 

@@ -2,7 +2,7 @@
 title: Momentinių kopijų apžvalga (peržiūros versija)
 description: Šioje temoje aprašoma momentinės kopijos funkcija, kuri leidžia įrašyti pinigų srautų prognozę analizei arba palyginimui su aktuarijų vėliau. Kai sugeneruojate pinigų srautų prognozę, šią prognozę galite įrašyti kaip momentinę nuotrauką. Tada galite naudoti šias momentines nuotraukas, kad galėtumėte redaguoti į prognozę įtrauktus abonentus, arba palyginti prognozuojamą fotografiją su faktiniais duomenimis.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 23df01603e74847f6f01a1eaa84b8fd3bb1d6e59
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: cf39e5233b2ef4d50d6c5ace57ba2574ed5fe6fe
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337213"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638349"
 ---
 # <a name="snapshots-overview-preview"></a>Momentinių kopijų apžvalga (peržiūros versija)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Momentinės kopijos leidžia organizacijoms redaguoti ir įrašyti informaciją apie savo grynųjų pinigų padėtį ir grynųjų pinigų prognozes tam tikru laiku. Galite lyginti momentinę kopiją su faktiniais finansais, patikrinti nuokrypį ir naudoti šią informaciją pinigų srautų prognozėms per tam tikrą laiką pagerinti. Kalbant konkrečiau, momentines kopijas galima naudoti toliau nurodytais būdais.
 

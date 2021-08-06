@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4da23ff0dc8858558df3111b90159e43bd5fdccf
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e00748fc9629d7ecfa91701002d3d2d7dda0a86f
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056329"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639419"
 ---
 # <a name="request-a-leave-of-absence"></a>Atostogų prašymas
 
@@ -48,6 +48,10 @@ Galite pateikti atostogų prašymą ir peržiūrėti savo atostogų prašymų b�
 1. Darbo srityje **Darbuotojo savitarna** plytelėje **Atostogų balansai** pasirinkite **Daugiau** (...).
 
 2. Norėdami peržiūrėti atostogų prašymus, pasirinkite **Peržiūrėti atostogų prašymą**.
+
+## <a name="importing-leave-requests-from-other-systems-or-older-systems"></a>Atostogų užklausų importavimas iš kitų arba senesnių sistemų
+
+Norėdami importuoti atostogų užklausas iš kitos sistemos, turite pereiti per įprastą darbo eigą, kad sukurtumėte tinkamas atostogų operacijas. Taip pat, galite importuoti baigtos būsenos atostogų banko operacijas ir atostogų užklausas. Įsidėmėkite, kad jei importuojate tik atostogų užklausas, atostogų banko operacijos nėra sukuriamos automatiškai.
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

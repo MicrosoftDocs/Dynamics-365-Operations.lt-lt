@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a0a14c87af7f0d2372d752233f21d9accbca58a8
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350793"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542520"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Tiesioginio sinchronizavimo trikčių šalinimas
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-
 
 Šioje temoje pateikiama dvigubo rašymo funkcijos integravimo tarp „Finance and Operations“ ir “Dataverse“ programų trikčių šalinimo informacija. Tiksliau sakant, pateikiama informacija, kuri gali padėti išspręsti problemas, susijusias su tiesioginiu sinchronizavimu.
 
@@ -81,7 +79,7 @@ Norėdami išspręsti šią problemą, turite priskirti tinkamą saugos vaidmen�
 
     ![Organizacijos susiejimas.](media/mapped_business_unit.png)
 
-2. Prisijunkite prie aplinkos modeliu grįstoje „Dynamics 365” programoje, pereikite į **Parametras \> Sauga** ir raskite susieto verslo struktūros vieneto komandą.
+2. Prisijunkite prie aplinkos „Customer Engagement” programoje, pereikite į **Parametrai \> Sauga** ir raskite susieto verslo struktūros vieneto komandą.
 
     ![Susieto verslo struktūros vieneto komanda.](media/setting_security_page.png)
 
@@ -99,7 +97,7 @@ Kai „Finance and Operations” programoje kuriate duomenis, galite gauti tokį
 
 *{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**Nepavyksta sugeneruoti mokamosios krovos objektui CustCustomerV3Entity**","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"Nepavyko sukurti mokamosios krovos, įvyko klaida „Netinkamas URI“: URI yra tuščias."}\],"isErrorCountUpdated":true}*
 
-Čia vaizduojama, kaip atrodo klaida modeliu grįstoje „Dynamics 365” programoje:
+Štai kaip atrodo klaida „Customer Engagement” programoje:
 
 *Įvyko netikėta ISV kodo klaida. (ErrorType = ClientError) Netikėta priedo išimtis (vykdyti): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: nepavyko apdoroti objekto sąskaitos – nepavyko užmegzti ryšio, nes šalis, prie kurios buvo jungiamasi, tinkamai neatsakė praėjus tam tikram laiko tarpui, arba užmegztas ryšys nutruko, nes prijungtas pagrindinis kompiuteris neatsakė*
 
@@ -125,6 +123,5 @@ Norėdami ištaisyti klaidą, atlikite toliau nurodytus veiksmus.
 
 3. Įsitikinkite, kad stulpelyje **externalenvironmentURL** yra tinkamas „Dataverse” arba programos URL. Panaikinkite visas pasikartojančius eilutes, kurios nurodo netinkamą „Dataverse” URL. Panaikinkite atitinkamas eilutes DUALWRITEPROJECTFIELDCONFIGURATION ir DUALWRITEPROJECTCONFIGURATION lentelėse.
 4. Sustabdykite susiejimą su lentele, tada paleiskite jį iš naujo
-
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

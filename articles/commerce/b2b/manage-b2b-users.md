@@ -2,24 +2,24 @@
 title: Valdykite verslo partnerio vartotojus B2B el. komercijos svetainėse
 description: Šioje temoje aprašoma, kaip administratoriai gali redaguoti, įtraukti ir naikinti verslo partnerio vartotojus verslo su verslu (B2B) el. komercijos svetainėse.
 author: josaw1
-ms.date: 01/20/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailOperations
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: v-chgri
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: josaw
+ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6beee4cc4c0dd36f49a38ee49a1a23ad9b513360
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 88f613be59a0c7b0d5efcdc0bef2c5a54506f9eb
+ms.sourcegitcommit: 0c77dbb8547cd36fce3977ca9515fa1474efa77a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936661"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6655611"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Valdykite verslo partnerio vartotojus B2B el. komercijos svetainėse
 
@@ -67,7 +67,7 @@ Norėdami patvirtinti ir nustatyti verslo partnerio administratorių vartotoją 
 
 1. Eikite į **Mažmenos ir komercijos IT \> Platinimo grafikas** ir vykdykite **1010** (**Klientų**) darbą, kad stumtumėte naujai sukurtą klientą ir kliento hierarchijos įrašus į kanalo duomenų bazę.
 
-Po to, kai užklausa patvirtinta ir klientas ir jo hierarchijos įrašai sinchronizuojami į kanalo duomenų bazę, užklausos teikėjas gali prisijungti prie B2B el. komercijos svetainės naudodamas el. pašto adresą patiektą pateikiant užklausą. Vartotojai gali naudoti prisijungimo eigą siekiant nustatyti slaptažodį jų paskyrai.
+Po to, kai užklausa patvirtinta ir klientas ir jo hierarchijos įrašai sinchronizuojami į kanalo duomenų bazę, užklausos teikėjas gali prisijungti prie B2B el. komercijos svetainės naudodamas el. pašto adresą patiektą pateikiant užklausą. Vartotojai gali naudoti prisijungimo eigą siekiant nustatyti slaptažodį jų paskyrai. Norėdami susieti tapatybės tiekėjo („Azure AD B2C”) įrašą su B2B kliento įrašu, sukurtu prisijungiant arba prisiregistruojant, vadovaukitės instrukcijomis, pateiktomis skyriuje [Įgalinti automatinį tapatybės įrašų susiejimą su klientų paskyromis](../identity-record-linking.md).
 
 ## <a name="onboard-additional-business-partner-users"></a>Įtraukimo papildomi verslo partnerio vartotojai
 
@@ -83,7 +83,7 @@ Norėdami įtraukti papildomus verslo partnerio administratorius į vartotojus B
 
 1. Vykdykite **1010** (**Klientų**) darbus siekiant sinchronizuoti naują verslo partnerio vartotoją į kanalo duomenų bazę.
 
-Po to, kai kliento įrašas yra sinchronizuojamas, vartotojo būsena B2B el. komercijos svetainėje yra nustatyta į **Aktyvią** ir naujas vartotojas gali prisijungti prie B2B el. komercijos svetainės naudodamas savo el. pašto adresą. Vartotojai gali naudoti prisijungimo eigą siekiant nustatyti slaptažodį jų paskyrai.
+Po to, kai kliento įrašas yra sinchronizuojamas, vartotojo būsena B2B el. komercijos svetainėje yra nustatyta į **Aktyvią** ir naujas vartotojas gali prisijungti prie B2B el. komercijos svetainės naudodamas savo el. pašto adresą. Vartotojai gali naudoti prisijungimo eigą siekiant nustatyti slaptažodį jų paskyrai. Norėdami susieti tapatybės tiekėjo („Azure AD B2C”) įrašą su B2B kliento įrašu, sukurtu prisijungiant arba prisiregistruojant, vadovaukitės instrukcijomis, pateiktomis skyriuje [Įgalinti automatinį tapatybės įrašų susiejimą su klientų paskyromis](../identity-record-linking.md).
 
 ## <a name="edit-business-partner-user-details"></a>Redaguoti verslo partnerio vartotojo išsamią informaciją
 

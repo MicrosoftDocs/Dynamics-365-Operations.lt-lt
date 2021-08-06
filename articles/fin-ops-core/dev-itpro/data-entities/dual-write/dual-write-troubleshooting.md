@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: ccad9c55c0200d008525c7d3fdaeeef99b7eecfb
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b4de461d26fc6d5c39c1ac0c49201f265f562f5a
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350745"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542496"
 ---
 # <a name="general-troubleshooting"></a>Bendroji trikčių šalinimo informacija
 
@@ -61,14 +61,14 @@ Kai kurios įrankio „Package Deployer“ versijos yra nesuderinamos su dvigubo
 
 Norėdami įjungti sekimo žurnalą, atlikite toliau nurodytus veiksmus.
 
-1. Prisijunkite prie modeliu grįstos „Dynamics 365” programos, atidarykite puslapį **Parametrai**, tada dalyje **Sistema** pasirinkite **Administravimas**.
+1. Prisijunkite prie „Customer Engagement” programos, atidarykite puslapį **Parametrai**, o tada dalyje **Sistema** pasirinkite **Administravimas**.
 2. Puslapyje **Administravimas** pasirinkite **Sistemos parametrai**.
 3. Skirtuko **Tinkinimas** stulpelyje **Priedo ir pasirinktinės darbo eigos veiklos sekimas** pasirinkite **Viskas**, kad įgalintumėte priedo sekimo žurnalą. Jei norite registruoti sekimo žurnalus tik tada, kai įvyksta išimtys, vietoje to galite pasirinkti **Išimtis**.
 
 
 Norėdami peržiūrėti sekimo žurnalą, atlikite toliau nurodytus veiksmus.
 
-1. Prisijunkite prie modeliu grįstos „Dynamics 365” programos, atidarykite puslapį **Parametrai**, tada dalyje **Tinkinimas** pasirinkite **Priedo sekimo žurnalas**.
+1. Prisijunkite prie „Customer Engagement” programos, atidarykite puslapį **Parametrai**, o tada dalyje **Tinkinimas** pasirinkite **Priedo sekimo žurnalas**.
 2. Raskite sekimo žurnalus, kuriuose stulpelis **Tipo pavadinimas** nustatytas kaip **„Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin”**.
 3. Dukart spustelėkite elementą, kad peržiūrėtumėte visą žurnalą, tada „FastTab” **Vykdymas** peržiūrėkite tekstą **Pranešimų blokas**.
 

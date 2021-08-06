@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3540cf17050a953a97c7291a1bcbe5ebf6fb670e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f9cd8846688e6b70f3ac2034caa1a9e3015355e
+ms.sourcegitcommit: f9b40df70a77136529fbc790325ed657eb203731
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815721"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "6645377"
 ---
 # <a name="fixed-asset-transaction-options"></a>Ilgalaikio turto operacijų parinktys
 
@@ -46,7 +46,7 @@ Kai pirkimo užsakymas arba Ilgalaikio turto atsargų žurnalas naudojami įsigy
 ## <a name="general-ledger"></a>Didžioji knyga
 Bet kokį ilgalaikio turto operacijos tipą galima registruoti puslapyje Bendrasis žurnalas. Taip pat galite naudoti žurnalus ilgalaikio turto operacijoms registruoti.
 
-## <a name="options-for-entering-fixed-asset-transaction-types"></a>Ilgalaikio turto operacijų tipų įvedimo pasirinktys
+### <a name="options-for-entering-fixed-asset-transaction-types"></a>Ilgalaikio turto operacijų tipų įvedimo pasirinktys
 
 
 | Operacijos tipas                    | Modulis                   | Pasirinktys                                   |
@@ -61,10 +61,20 @@ Bet kokį ilgalaikio turto operacijos tipą galima registruoti puslapyje Bendras
 | ** **                               | DK           | Pagrindinis žurnalas                           |
 | ** **                               | Gautinos sumos      | Laisvos formos sąskaita faktūra                         |
 
-
 Ilgalaikio turto reikšmė lauke Likusių nusidėvėjimo laikotarpių skaičius nėra atnaujinama, kai nusidėvėjimo operacijos tipo žurnalo eilutė sukuriama neautomatiškai arba importuojama naudojant duomenų objektą. Ši reikšmė atnaujinama, kai nusidėvėjimo pasiūlymo procesas naudojamas žurnalo eilutei sukurti.
 
 Norėdami daugiau informacijos žr. [Ilgalaikio turto integravimas](fixed-asset-integration.md).
 
+### <a name="transactions-that-require-different-voucher-numbers"></a>Operacijos, kurioms reikia skirtingų kvitų numerių
+
+Toliau nurodytose ilgalaikio turto operacijose bus naudojami skirtingi kvitų numeriai:
+
+- Atliekamas papildomas turto įsigijimas ir skaičiuojamas nusidėvėjimas atgaline data.
+- Turtas suskaidomas.
+- Įjungiamas parametras, naudojamas norint apskaičiuoti nusidėvėjimą likviduojant, po to turtas likviduojamas.
+- Turto paslaugos data yra ankstesnė nei įsigijimo data. Dėl to registruojamas nusidėvėjimo koregavimas.
+
+> [!NOTE]
+> Įvesdami operacijas, įsitikinkite, kad visos operacijos taikomos tam pačiam ilgalaikiam turtui. Kvitas nebus registruojamas, jei jame bus daugiau nei vienas ilgalaikis turtas, net jei didžiosios knygos puslapio **Žurnalų pavadinimai** laukas **Naujas kvitas** nustatytas į **Tik vienas kvito numeris**. Jei į kvitą įtraukiate daugiau nei vieną ilgalaikį turtą, gausite tokį pranešimą pranešimas: „Viename kvite gali būti tik viena ilgalaikio turto operacija” ir negalėsite registruoti kvito.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

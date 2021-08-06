@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d7bba084b03f8698c8bf31d171d5e4e486ed06ad
-ms.sourcegitcommit: a7649b361ec54b49c0e9ee1c1c63a8815f320225
+ms.openlocfilehash: 93e8f933524b34116987c9e0d91d226e21d98f4d
+ms.sourcegitcommit: 5c9a5bfef507ed36f0f849ab56fa0aa8abb78d54
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187252"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "6646492"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Plano retrospektyvos ir planavimo žurnalų peržiūra
 
@@ -34,6 +34,19 @@ Norėdami peržiūrėti plano istoriją, atidarykite planą eidami į **Pagrindi
 Planavimo optimizavimo bendrojo „Planning Optimization“ retrospektyvoje yra tik 60 įrašų pagal bendrąjį planą. Kiekvieną kartą paleidus naują bendrojo planavimo skaičiavimą, panaikinamas anksčiausia plano retrospektyvos įrašas.
 
 Be užduočių pradžios laiko ir būsenos, taip pat galite peržiūrėti konkrečios užduoties žurnalą. Žurnale pateikiama papildoma informacija ir įspėjimai. Ne visos užduotys turi žurnalą. Norėdami peržiūrėti užduoties žurnalą, pasirinkite **Žurnalas.** Žurnalo įrašai saugomi tik 30 dienų po užduoties pabaigos datos, po to, kai jie automatiškai panaikinami.
+
+Jei „FastTab” **Vykdyti fone** parinktis **Paketinis apdorojimas** buvo įgalinta nustačius bendrojo planavimo apdorojimą, paketinių užduočių žurnale rodoma daugiau informacijos apie įspėjimus ir klaidas, sugeneruotus bendrojo planavimo vykdymo metu. Pavyzdžiui, automatinio užbaigimo klaidos yra fiksuojamos tik paketinių užduočių žurnale. Jos nėra rodomos **Retrospektyvos** puslapio žurnaluose.
+
+Norėdami peržiūrėti automatinio užbaigimo klaidas ir kitus įspėjimus ar klaidas, įvykusius bendrojo planavimo metu, atlikite šiuos veiksmus.
+
+1. Pasirinkite **Sistemos administravimas \> Užklausos \> Paketinės užduotys**.
+1. Raskite ir pasirinkite įrašą, atspindintį jus dominantį bendrojo planavimo vykdymą. (Pavyzdžiui, lauko **Užduoties aprašas** reikšmė gali prasidėti *Bendrasis planavimas*.)
+1. Atlikite vieną iš šių veiksmų, priklausomai nuo to, ar naudojate *patobulintą formą* ar *senstelėjusią (nepatobulintą) formą* puslapiui **Paketinės užduotys**:
+
+    - Jei naudojate patobulintą formą: veiksmų srityje pasirinkite **Paketinių užduočių retrospektyvą**. Tada veiksmų srities puslapyje **Paketinių užduočių retrospektyva** pasirinkite **Žurnalas**.
+    - Jei naudojate senstelėjusią formą: veiksmų srities skirtuke **Paketinė užduotis** pasirinkite **Žurnalas**.
+
+1. Pasirinkite **Pranešimo informacija**, kad atidarytumėte **Pranešimo informacijos** sritį, kurioje galite peržiūrėti visus įspėjimus ir klaidas, užfiksuotus apdorojimo metu.
 
 ## <a name="related-resources"></a>Susiję ištekliai
 

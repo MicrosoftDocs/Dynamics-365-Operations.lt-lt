@@ -1,6 +1,6 @@
 ---
-title: „Power Portal“ naudojimas su šalies duomenų modeliu
-description: Šioje temoje aprašomi „Power Portal“ tinklo vaidmenų pakeitimai dėl dvigubo rašymo šalies duomenų modelio.
+title: „Microsoft Power Apps“ portalų naudojimas su šalies duomenų modeliu
+description: Šioje temoje aprašomi „Microsoft Power Apps“ portalų tinklo vaidmenų pakeitimai dėl dvigubo rašymo šalies duomenų modelio.
 author: RamaKrishnamoorthy
 ms.date: 03/22/2021
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 3b03603038d05305c63fc2890a196670ae343e53
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca9d4ad1efa128ba274cd84b1c2f672fe70975a5
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358622"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542568"
 ---
-# <a name="using-power-portal-with-the-party-data-model"></a>„Power Portal“ naudojimas su šalies duomenų modeliu
+# <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>„Microsoft Power Apps“ portalų naudojimas su šalies duomenų modeliu
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
 [!INCLUDE[rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dvigubo rašymo programos instrumentavimo sprendimo 2.0.999.0 vėlesniuose versijose yra įrašo ir visuotinės adresų knygelės, skirti sąskaitų ir kontaktų lentelėms, duomenų modelio keitimai. Pakeitimai leidžia atlikti daug ryšių, kurie palaiko išplėstinius verslo scenarijus. Šių pakeitimų nepalaiko portalo žiniatinklio vaidmenys, įskaitant klientų portalą, kurie išsiųsti be lango arba kurie prieš įdiegdami dvigubą rašymo programą buvo jūsų aplinkoje. Kad žiniatinklio vaidmenys veiktų kaip tikėjotės, turėsite sukurti naujus žiniatinklio vaidmenis naudodami naują duomenų modelį. 
+Dvigubo rašymo programos instrumentavimo sprendimo 2.0.999.0 vėlesniuose versijose yra įrašo ir visuotinės adresų knygelės, skirti sąskaitų ir kontaktų lentelėms, duomenų modelio keitimai. Pakeitimai leidžia atlikti daug ryšių, kurie palaiko išplėstinius verslo scenarijus. Šių pakeitimų nepalaiko portalo žiniatinklio vaidmenys, įskaitant klientų portalą, kurie išsiųsti be lango arba kurie prieš įdiegdami dvigubą rašymo programą buvo jūsų aplinkoje. Kad žiniatinklio vaidmenys veiktų taip, kaip tikėjotės, turėsite sukurti naujus žiniatinklio vaidmenis naudodami naują duomenų modelį. 
 
 Apibendrinant, kokiu būdu lentelės sąveikauja, bet kliento portale lentelės teisės nepasikeitė. Šioje temoje paaiškinama, kaip sukurti naujus žiniatinklio vaidmenis, kurie veikia su naujuoju išplėstiniu duomenų modeliu.
 
@@ -44,13 +44,13 @@ Norėdami sukurti šias naujas lentelės teises, atlikite šiuos veiksmus:
 
     Turite sukurti tris naujas teises:
 
-    + Kontakto ryšys su šalimi
-    + Šalies ryšys su paskyra
-    + Paskyros ryšys su užsakymu
+    + **Kontakto** į **Šalį** lentelės ryšys
+    + **Šalies** į **Paskyrą** lentelės ryšys
+    + **Paskyros** į **Užsakymą** lentelės ryšys
 
 4. Sukurkite ir įrašykite naują kontakto įrašo ryšio teisę, nustatydami šiuos parametrus:
 
-    + **Pavadinimas**: sąskaitos ryšio šalis (arba jūsų pasirinkimas)
+    + **Pavadinimas**: **Šalis** į **Paskyrą** (arba jūsų pasirinktinis)
     + **Lentelės** pavadinimas: msdyn_contactforparty
     + **Svetainė**: Kliento portalas
     + **Tikslas**: kontaktas

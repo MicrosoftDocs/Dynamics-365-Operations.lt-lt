@@ -2,7 +2,7 @@
 title: Vietinio visuotinio diegimo pagrindinis puslapis
 description: Šioje temoje pateikta informacija ir saitai į turinį apie vietinių versijų diegimą.
 author: sericks007
-ms.date: 03/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: ef19a154b4e18246c88adea48ee2709af17f039f
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: f5ecc71326892683e0a49685262aae0db4a49ea9
+ms.sourcegitcommit: 41a5d18552bcc94cb1ddbbe3f3278eaf9d05f418
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338935"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "6617075"
 ---
 # <a name="on-premises-deployment-home-page"></a>Vietinio visuotinio diegimo pagrindinis puslapis
 
@@ -31,8 +31,9 @@ Galite diegti „Dynamics 365 Finance + Operations“ (vietinė versija). Pasiri
 
 ## <a name="get-started"></a>Darbo pradžia
 - [Vietinio visuotinio diegimo apžvalga](on-premises-overview.md)
-- [Visuotinių vietinių diegimų planavimas ir rengimas](plan-onprem-deployment.md)
+- [Vietinių visuotinių diegimų planavimas ir rengimas](plan-onprem-deployment.md)
 - [Vietiniams visuotiniams diegimams taikomi sistemos reikalavimai](../../fin-ops/get-started/system-requirements-on-prem.md)
+- [„Microsoft Dynamics 365 Finance + Operations” (vietinė) palaikoma programinė įranga](onprem-compatibility.md)
 - [Aparatūros dydžio reikalavimų nustatymas vietinėse aplinkose](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [„Finance + Operations (on-premises)“ pirkimas](../../fin-ops/get-started/purchase-on-premises.md)
 - [Debesies ir vietinių funkcijų palyginimas](../../fin-ops/get-started/cloud-prem-comparison.md)

@@ -2,7 +2,7 @@
 title: Nuomos nutraukimo pasiūlymas
 description: Šioje temoje paaiškinama, kaip siūlyti nuomos nutraukimą.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6b32f9e8f80827e04269ac8cb6a4fbb5a13af8bc
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: 003eaa3f9e5ad653daed2e973044f384972b0331
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881113"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638493"
 ---
 # <a name="propose-a-lease-for-termination"></a>Siūlyti nuomos nutraukimą
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Jei nuoma baigiasi anksti, turto nuoma gal įrašyti pabaigos žurnalo įrašą siekiant nurašyti nuomos įsipareigojimus, teisę naudoti (ROU) turtą ir sukauptą nusidėvėjimą bei registruoti pajamas ar nuostolius. Ankstyvas nutraukimo procesas užbaigia nuomą ir su ja susietus žurnalus. Jis neužbaigia atskirų nuomos žurnalų. Ši tema aprašo funkcijas, kurios leidžia jums siūlyti nuomos nutraukimą ir apdoroti nuomos pabaigimo žurnalo objektą.
 

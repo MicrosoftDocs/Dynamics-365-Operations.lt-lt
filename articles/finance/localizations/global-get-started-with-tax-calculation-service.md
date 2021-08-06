@@ -2,7 +2,7 @@
 title: Pradėti naudoti mokesčių skaičiavimą
 description: Šioje temoje paaiškinama, kaip nustatyti Mokesčių skaičiavimą.
 author: wangchen
-ms.date: 05/17/2021
+ms.date: 07/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 454608c2c3a86b71cf181129c762c837c5165902
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: b76184b3f1a97941fea7539aa3fac2c11b1f59b1
+ms.sourcegitcommit: cef2986e24d0510957b5db742545c266dec4275c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336661"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6644979"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>Pradėti naudoti Mokesčių skaičiavimą (Peržiūros versija)
 
@@ -58,15 +58,16 @@ Prieš užbaigdami procedūrą šioje temoje, galite atlikti tolesnes išankstin
 Šio skyriaus veiksmai nėra susiję su konkrečiu juridiniu subjektu. Šią procedūrą turite užbaigti tik vieną kartą ir galite užbaigti ją bet kuriame RCS juridiniame subjekte.
 
 1. Prisijunkite prie [RCS](https://marketing.configure.global.dynamics.com/).
-2. Darbo palinkoje **Elektroninių ataskaitų**, įtraukite naują konfigūravimo tiekėją. Naudokite savo įmonės pavadinimą kaip tiekėjo pavadinimą. Daugiau informacijos žr. [Konfigūracijos teikėjų kūrimas, pažymint juos kaip aktyvius](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
-3. Pasirinkite ką tik sukurtą konfigūravimo tiekėją, tada veiksmų srityje pasirinkite **Nustatykite įjungtą**.
-4. Pasirinkite **„Microsoft“** konfigūravimo tiekėją, rinkitės **Saugyklos**.
-5. Lauke **Tipas** pasirinkite **Bendri**.
-6. Pasirinkite **Atidaryti**.
-7. Eikite š **Mokesčių duomenų modelis**, išplėskite failų medį, o tada pasirinkite **Mokesčių konfigūracija**.
-8. Pasirinkite naujausią versiją, o tada pasirinkite **Importuoti**.
-9. Grįžkite į **Globalizavimo funkcijų (Peržiūros versija)** darbo sritį, pasirinkite **Funkcijos** , pasirinkite **Mokesčių skaičiavimas** plytelę, o tada pasirinkite **Įtraukti**.
-10. Pasirinkti vieną iš šių tolesnių funkcijų tipų:
+2. Darbo srityje **Funkcijų valdymas** pasirinkite ir įjunkite funkciją **Globalizacijos funkcijos**.
+3. Darbo palinkoje **Elektroninių ataskaitų**, įtraukite naują konfigūravimo tiekėją. Naudokite savo įmonės pavadinimą kaip tiekėjo pavadinimą. Daugiau informacijos žr. [Konfigūracijos teikėjų kūrimas, pažymint juos kaip aktyvius](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+4. Pasirinkite ką tik sukurtą konfigūravimo tiekėją, tada veiksmų srityje pasirinkite **Nustatykite įjungtą**.
+5. Pasirinkite **„Microsoft“** konfigūravimo tiekėją, rinkitės **Saugyklos**.
+6. Lauke **Tipas** pasirinkite **Bendri**.
+7. Pasirinkite **Atidaryti**.
+8. Eikite š **Mokesčių duomenų modelis**, išplėskite failų medį, o tada pasirinkite **Mokesčių konfigūracija**.
+9. Pasirinkite naujausią versiją, o tada pasirinkite **Importuoti**.
+10. Grįžkite į **Globalizacijos funkcijų** darbo sritį, pasirinkite **Funkcijos** ir **Mokesčių skaičiavimas** plytelę, o tada pasirinkite **Įtraukti**.
+11. Pasirinkti vieną iš šių tolesnių funkcijų tipų:
 
     - **Nauja funkcija** – kurti priemonės nustatymą, kuriame yra tuščias turinys.
     - **Pagal esamą priemonę** – kurti priemonę iš esamos priemonės ir kopijuoti turinį iš esamos priemonės nustatymo.

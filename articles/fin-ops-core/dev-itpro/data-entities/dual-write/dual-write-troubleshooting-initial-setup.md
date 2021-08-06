@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c641849b2aec76124b6661f339175325a312efce
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0e7316d7749566b74835acded0addb2fa4b0e858
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350841"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542420"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Problemų šalinimas pradinio nustatymo metu
 
@@ -71,7 +71,7 @@ Norėdami suteikti programos sutikimą, atlikite šiuos veiksmus.
 
 Siekiant užtikrinti, kad dvigubas rašymas veiktų tinkamai, įmonės, kurias pasirenkate konfigūravimo metu, yra kuriamos „Dataverse” aplinkoje. Pagal numatytuosius parametrus, šios įmonės yra tik skaitomas, o ypatybė **IsDualWriteEnable** yra nustatyta kaip **Teisinga**. Be to, sukuriami numatytasis verslo struktūros vieneto savininkas ir komanda ir įtraukiamas įmonės pavadinimas. Prieš įgalindami schemas, patikrinkite, ar nurodytas numatytasis komandos savininkas. Norėdami rasti lentelę **Įmonės (CDM\_įmonė)**, atlikite šiuos veiksmus.
 
-1. Modeliu grįstos „Dynamics 365” programos viršutiniame dešiniajame kampe pasirinkite filtrą.
+1. „Customer Engagement” programoje pasirinkite filtrą viršutiniame dešiniajame kampe.
 2. Išplečiamajame sąraše pasirinkite **Įmonė**.
 3. Norėdami pamatyti rezultatus, pasirinkite **Vykdyti**.
 4. Pasirinkite įmonę, kuri buvo susieta konfigūruojant dvigubą rašymą.

@@ -2,7 +2,7 @@
 title: Uždarymas metų pabaigoje
 description: Šioje temoje aprašomi nustatymai ir veiksmai, reikalingi DK uždarymo metų pabaigoje procesui vykdyti.
 author: kweekley
-ms.date: 04/13/2020
+ms.date: 07/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,76 +15,98 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdb81df1701851330b0501c03e41eb10e639bc77
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f5b4e8c5103a06f696f863b1eed40b3821f274d7
+ms.sourcegitcommit: f2dfec2f4c427e37a574e6acdfaaf150bc92ebb6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842325"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6661018"
 ---
 # <a name="year-end-close"></a>Uždarymas metų pabaigoje
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomi nustatymai ir veiksmai, reikalingi DK uždarymo metų pabaigoje procesui vykdyti. 
+Šioje temoje aprašomi nustatymai ir veiksmai, reikalingi DK uždarymo metų pabaigoje procesui vykdyti.
 
-Finansinių metų pabaigoje turite vykdyti uždarymo metų pabaigoje procesą, kad pradiniai balansai būtų perkelti į naujus metus. Tikėtina, kad dauguma organizacijų uždarymo metų pabaigoje procesą vykdys kelis kartus. Vykdant procesą pirmą kartą balansai perkeliami į naujus finansinius metus. Tada uždarymo metų pabaigoje procesą iš naujo galima vykdyti tiek kartų, kiek reikia, kad balansai iš koregavimo įrašų būtų perkelti į naujus finansinius metus. 
+Finansinių metų pabaigoje turite vykdyti uždarymo metų pabaigoje procesą, kad pradiniai balansai būtų perkelti į naujus metus. Tikėtina, kad dauguma organizacijų uždarymo metų pabaigoje procesą vykdys kelis kartus. Pirmasis vykdymas perkelia balansus į naujus finansinius metus. Tada procesą galima vykdyti iš naujo tiek kartų, kiek reikia, kad balansai iš koregavimo įrašų būtų perkelti į naujus finansinius metus.
 
 Uždarymo metų pabaigoje proceso metu sukuriami du galimų operacijų tipai. Atidarymo operacija sugeneruojama visada ir naudojama kuriant naujų finansinių metų pradinius balansus. Atidarymo operacija parodo naujų finansinių metų DK sąskaitos balansus ir DK sąskaitos pelno bei nuostolių balansus, DK sąskaitoje pateiktus nepaskirstyto naujais finansiniais metais pelno laukelyje. Uždarymo operacija sukuriama pasirenkamai, kad tų uždaromų finansinių metų pelno ir nuostolių sąskaitų balansai būtų lygūs nuliui.
 
 ## <a name="prepare-to-run-the-year-end-close"></a>Pasiruošimas uždarymo metų pabaigoje proceso vykdymui
-Prieš vykdydami uždarymo metų pabaigoje procesą patikrinkite toliau nurodytų elementų parametrus. 
+
+Prieš vykdydami uždarymo metų pabaigoje procesą patikrinkite toliau nurodytų elementų parametrus.
 
 Puslapyje **Pagrindinės sąskaita**
 
--   Patikrinkite, ar tinkamai apibrėžtas kiekvienai pagrindinei sąskaitai skirtas **Pagrindinės sąskaitos tipas**. Pagrindinės sąskaitos tipas naudojamas siekiant nustatyti, ar pagrindinės sąskaitos balansas į atidarymo operacijos metu nepanaudotą pelną bus perkeltas kaip pradinis ar uždarymo balansas.
--   Laukas **Atidarymo sąskaita** uždarymo metų pabaigoje proceso metu gali būti naudojamas perkeliant pagrindinės sąskaitos balansą į naują pagrindinę sąskaitą. Nauja pagrindinė sąskaita įvedama lauke **Atidarymo sąskaita**. Paprastai ši sąskaita bus naudojama pagrindinių sąskaitų balansui, kai nesuaktyvinta pagrindinė sąskaita, o nauja sąskaita bus naudojama naujais finansiniais metais.
+- Patikrinkite, ar **Pagrindinės sąskaitos tipo** laukas tinkamai nustatytas kiekvienai pagrindinei sąskaitai. Pagrindinės sąskaitos tipas nustato, ar pagrindinės sąskaitos balansas į atidarymo operacijos metu nepanaudotą pelną bus perkeltas kaip pradinis ar uždarymo balansas.
+- Pagrindinės sąskaitos balansas gali būti perkeltas į naują pagrindinę sąskaitą metų pabaigos uždarymo metu. Įveskite naują pagrindinę sąskaitą į **Atidarymo sąskaitos** lauką. Įprastai ši sąskaita yra naudojama pagrindinių sąskaitų balansui, kai nesuaktyvinta pagrindinė sąskaita, o nauja sąskaita bus naudojama naujais finansiniais metais.
 
 Puslapio **DK parametrai** dalyje **Finansinių metų uždarymas**:
 
--   Parinktis **Naikinti metų operacijų uždarymą** naudojama nurodant, ar reikia panaikinti praeito uždarymo metų pabaigoje proceso metu sistemos sugeneruotą atidarymo operaciją, kai uždarymo metų pabaigoje procesas vykdomas iš naujo. Jei ši parinktis nustatyta ties **Taip**, ankstesnė atidarymo operacija bus panaikinta ir, atsižvelgus į naujus esamus balansus, bus sukurta nauja atidarymo operacija. Jei ši parinktis nustatyta ties **Ne**, ankstesnė atidarymo operacija panaikinta nebus, bet bus sukurta papildoma atidarymo operacija, skirta perkelti balansus į priekį iš koregavimo operacijų, užregistruotų įvykdžius ankstesnį uždarymo metu pabaigoje procesą.
--   Parinktis **Kurti uždarymo operacijas** perkėlimo metu naudojama kuriant uždaromų finansinių metų uždarymo operacijas, kad tų uždaromų finansinių metų pelno ir nuostolių sąskaitų balansai būtų lygūs nuliui. Jei ši parinktis nustatyta ties **Taip**, bus sukurtos tiek atidarymo, tiek ir uždarymo operacijos. Jei ši parinktis nustatyta ties **Ne**, kitais finansiniais metais bus sukurta tik atidarymo operacija, kad balansai būtų perkelti. Pelno ir nuostolių balansai tų finansinių metų pabaigoje bus paliekami.
--   Parinktis **Nustatyti finansinių metų būseną kaip Uždaryta visam laikui** naudojama būsenai Finansiniai metai uždaryti visam laikui nustatyti. Šį parametrą naudokite atsargiai, nes laikotarpių, kuriems nustatyta būsena Uždaryta visam laikui, iš naujo atidaryti negalima, siekiant neleisti užregistruoti tų finansinių metų pakeitimų. Geriausia šią parinktį nustatyti į **Ne**.
--   Parinktis **Turi būti įrašytas kvito numeris** naudojama apibrėžiant, ar vykdant uždarymo metų pabaigoje procesą turi būti reikalaujama nurodyti kvito numerį. Geriausia reikalauti, kad kvito numeris būtų nurodomas, nes tada paprasčiau nustatyti atidarymo operaciją.
+- Parinktis **Naikinti esamus metų pabaigos įrašus pakartotinai uždarant metus** naudojama nurodant, ar reikia panaikinti praeito uždarymo metų pabaigoje proceso metu sistemos sugeneruotą atidarymo operaciją, kai uždarymo metų pabaigoje procesas yra vykdomas iš naujo. Jei ši parinktis nustatyta į **Taip**, ankstesnės atidarymo ir pasirinktinė uždarymo operacijos bus panaikintos ir bus sukurta nauja atidarymo arba uždarymo operacija, atsižvelgiant į dabartinius balansus. Jei ši parinktis nustatyta į **Ne**, ankstesnės atidarymo ir pasirinktinė uždarymo operacijos išliks ir bus sukurta papildoma atidarymo arba uždarymo operacija, skirta perkelti balansams iš koregavimo operacijų, užregistruotų įvykdžius ankstesnį uždarymo metu pabaigoje procesą.
+- Parinktis **Kurti uždarymo operacijas perkėlimo metu** naudojama kuriant uždaromų finansinių metų uždarymo operacijas, kad pelno ir nuostolių sąskaitų balansai būtų lygūs 0 (nuliui). Jei ši parinktis nustatyta į **Taip**, sukuriamos tiek atidarymo, tiek uždarymo operacijos. Jei ši parinktis nustatyta į **Ne**, kitais finansiniais metais sukuriama tik atidarymo operacija, kad balansai būtų perkelti. Pelno ir nuostolių balansai tų finansinių metų pabaigoje bus paliekami.
+- Parinktis **Nustatyti finansinių metų būseną kaip Uždaryta visam laikui** naudojama būsenai Finansiniai metai uždaryti visam laikui nustatyti. Šią parinktį naudokite atidžiai, nes laikotarpių, turinčių visam laikui uždarytą būseną, negalima atidaryti iš naujo. Todėl koregavimai negali būti registruojami į finansinius metus. Geriausia šią parinktį reikėtų nustatyti į **Ne**.
+- Parinktis **Kvito numeris turi būti užpildytas** buvo pašalinta. Dabar yra reikalingas kvitas, kai vyksta metų pabaigos uždarymo procesas. Tuo metu kvito numeris yra įvedamas rankiniu būdu.
 
 Puslapyje **Finansinis kalendorius**:
 
--   Nauji finansiniai metai turi būti sukurti prieš pradedant vykdyti uždarymo metų pabaigoje procesą. Kiti finansiniai metai reikalingi, kad atidarymo laikotarpiu būtų sukurti pradžios balansai.
+- Nauji finansiniai metai turi būti sukurti prieš pradedant vykdyti metų pabaigos uždarymo procesą. Kitu atveju pradinių balansų negalima sukurti atidarymo laikotarpiu.
 
 Puslapyje **DK kalendorius**:
 
--   Pasirinktinai: kiekvienam uždaromų finansinių metų ataskaitiniam laikotarpiui galima nustatyti būseną **Sustabdyta**, kad būtų neleista įvesti naujų operacijų. Nustačius koregavimo įrašus, laikotarpius, kuriems nustatyta būsena Sustabdyta, galima atidaryti iš naujo, kad būtų užregistruoti koregavimo įrašai, net jei uždarymo metų pabaigoje procesas jau buvo pradėtas vykdyti.
+- Pasirinktinai: kiekvienam uždaromų finansinių metų ataskaitiniam laikotarpiui galima nustatyti būseną **Sustabdyta**, kad nebūtų leidžiama įvesti naujų operacijų. Nustačius koregavimo įrašus, Sustabdytos būsenos laikotarpius galima atidaryti iš naujo, kad būtų galima užregistruoti koregavimo įrašus, net jei uždarymo metų pabaigoje procesas jau buvo pradėtas vykdyti.
+
+**Metų pabaigos uždarymo šablono nustatymo** puslapyje:
+
+- Kai funkcija **Didžiosios knygos metų pabaigos patobulinimai** įjungta, metų pabaigos uždarymo šablono nustatymo procesas atskiriamas nuo metų pabaigos uždarymo proceso. Šabloną galima nustatyti **Metų pabaigos uždarymo šablono nustatymo** puslapyje (**Didžioji knyga \> Didžiosios knygos nustatymas \> Metų pabaigos uždarymo šablono nustatymas**) arba jis gali būti pasiektas iš metų pabaigos uždarymo proceso.
 
 ## <a name="define-year-end-close-templates"></a>Uždarymo metų pabaigoje šablonų apibrėžimas
-Sukonfigūravus sistemą, galima pradėti vykdyti uždarymo metų pabaigoje procesą. Puslapyje **Uždarymas metų pabaigoje** galima apibrėžti šabloną, skirtą juridinių subjektų, kuriems bus atliekamas uždarymo metų pabaigoje procesas, grupę. Šablonas bus naudojamas kiekvieno uždarymo metų pabaigoje metu, bet organizacijai pasikeitus jį bus galima modifikuoti. 
 
-Pirmiausia apibrėžkite šablono **Grupės pavadinimą** ir pasirinkite finansinį kalendorių. Grupės pavadinimas turėtų identifikuoti įtrauktą juridinių subjektų grupę.  Pavyzdžiui, šablonus galima nustatyti atsižvelgiant į geografiją ir sukuriant atskiras Šiaurės Amerikos juridinių subjektų, Europos, Vidurinių Rytų ir Afrikos juridinių subjektų bei Azijos ir Ramiojo vandenyno regiono juridinių subjektų grupes. 
+Sukonfigūravus sistemą, galima pradėti vykdyti uždarymo metų pabaigoje procesą. Puslapyje **Uždarymo metų pabaigoje šablono nustatymas** galima apibrėžti šabloną, skirtą juridinių subjektų, kuriems bus atliekamas uždarymo metų pabaigoje procesas, grupei. Šablonas bus pakartotinai naudojamas kiekvieno uždarymo metų pabaigoje metu, bet jūsų organizacijai pasikeitus jį bus galima modifikuoti.
 
-Tada juridinius subjektus galima įtraukti į šabloną. Juridiniai subjektai gali būti įtraukti pasirenkant organizacijos hierarchiją arba pasirenkant juridinius subjektus. Pasirinkus organizacijos hierarchiją, į šabloną bus įtraukti tik pasirinkto finansinio kalendoriaus hierarchijoje esantys juridiniai subjektai. Jei įtraukimui į šabloną naudosite juridinius subjektus, bus galima įtraukti tik to paties fiskalinio kalendoriaus juridinius subjektus. Reikia naudoti tą patį fiskalinį kalendorių, nes uždarymo metų pabaigoje procesas vykdomas pasirinkus finansinius metus, kurie gali skirtis priklausomai nuo kalendoriaus. 
+Pirmiausia nustatykite lauką **Grupės pavadinimas** šablonui ir pasirinkite finansinį kalendorių. Grupės pavadinimas turėtų identifikuoti įtrauktų juridinių subjektų grupę. Nustatydami juridinių subjektų grupes atsiminkite, kad juridinius subjektus galima įtraukti į tą pačią grupę tik jei jiems pasirinktas tas pats finansinis kalendorius. Pavyzdžiui, šablonus galima nustatyti pagal geografiją, taip pat galima sukurti atskiras Šiaurės Amerikos, Europos, Vidurinių Rytų ir Afrikos (EMEA) bei Azijos ir Ramiojo vandenyno regiono (APAC) juridinių subjektų grupes.
 
-Įtraukus juridinius subjektus, kiekvienam juridiniam subjektui apibrėžkite nepaskirstyto pelno pagrindines sąskaitas. Laukas **Paskutinio uždarymo metų pabaigoje data** bus atnaujintas kaskart pradėjus vykdyti juridinio subjekto uždarymo metų pabaigoje procesą. 
+Tada juridinius subjektus galima įtraukti į šabloną. Juridiniai subjektai gali būti įtraukti pasirenkant organizacijos hierarchiją arba pasirenkant juridinius subjektus. Pasirinkus organizacijos hierarchiją, į šabloną bus įtraukti tik pasirinkto finansinio kalendoriaus hierarchijoje esantys juridiniai subjektai. Jei įtraukimui į šabloną naudosite juridinius subjektus, bus galima įtraukti tik to paties fiskalinio kalendoriaus juridinius subjektus. Reikia naudoti tą patį fiskalinį kalendorių, nes uždarymo metų pabaigoje procesas vykdomas pasirinkus finansinius metus, kurie gali skirtis priklausomai nuo kalendoriaus.
 
-Skirtukas **Finansinė dimensija** naudojamas apibrėžiant kurios finansinės dimensijos bus naudojamos atliekant atidarymo operaciją. Atkreipkite dėmesį, kad jūsų apibrėžiami parametrai yra susiję tik su tinklelyje **Juridiniai subjektai** pasirinktu juridiniu subjektu. Šią procedūrą reikės kartoti kiekvienam tinklelyje esančiam juridiniam subjektui. 
+Įtraukus juridinius subjektus, kiekvienam juridiniam subjektui apibrėžkite nepaskirstyto pelno pagrindines sąskaitas.
 
-Parinktis **Perkelti balanso dimensijas** naudojama apibrėžiant, ar finansines operacijų, užregistruotų balanso sąskaitose, dimensijas reikia prižiūrėti atidarymo operacijos metu. Geriausia šią parinktį nustatyti į **Taip**. Parinktis **Perkelti pelno ir nuostolių dimensijas** naudojama apibrėžiant, kurios finansinės operacijos, užregistruotos pelno ir nuostolių sąskaitoje, bus perkeltos į nepaskirstyto pelno pagrindinę sąskaitą. Pirmiausia identifikuokite su pasirinktu juridiniu subjektu susijusias finansines dimensijas. Į šią parinktį įtraukite bet kokias per metus užregistruotas finansines dimensijas, net jei finansinė dimensija nepriklauso aktyviai sąskaitos struktūrai. Tada kiekvieną dimensiją apibrėžkite kaip **Uždaryti vieną** arba **Uždaryti viską**.  Numatytoji parinktis yra **Uždaryti viską**, kurios paskirtis – prižiūrėti pradines finansinės dimensijos vertes iš užregistruotų operacijų ir panaudoti jas kuriant nepaskirstyto pelno sąskaitos pradinius balansus. Bus sukurti kiekvienai unikaliai finansinių dimensijų verčių kombinacijai skirti atskiri nepaskirstyto pelno pradiniai balansai. Pasirinkus parinktį **Uždaryti vieną**, visos užregistruotos tos finansinės dimensijos operacijos bus apibendrinamos kaip nepaskirstyto pelno pradiniai balansai, skirti dimensijos vertei, įvestai po parinkties **Uždaryti vieną** esančiame laukelyje. Pavyzdžiui, tarkime, kad visos tų finansinių metų operacijos buvo užregistruotos naudojant sąskaitos Pagrindinė sąskaita – Padalinys struktūrą. Šablono dalyje Finansinės dimensijos padalinys bus pasirinkta parinktis **Uždaryti vieną** ir įvesta vertė 100. Jei bendros visų operacijų, užregistruotų padaliniuose 200, 300 ir 400, pajamos siekia 100 000 JAV dolerių, bus sukurtas vienas pradinio nepaskirstyto pelno balansas, lygus 100. Pasirinkus parinktį **Uždaryti vieną** ir finansinės dimensijos vertės lauką palikus tuščią, visos operacijos bus užregistruotos kaip nepaskirstytas pelnas, o tos dimensijos vertės laukas bus tuščias. 
+Skirtukas **Finansinė dimensija** naudojamas apibrėžiant kurios finansinės dimensijos bus naudojamos atidarymo operacijai. Atkreipkite dėmesį, kad nustatymas šiame skirtuke yra taikomas tik tinklelyje **Juridiniai subjektai** pasirinktam juridiniam subjektui. Šią procedūrą turėsite pakartoti kiekvienam tinklelyje esančiam juridiniam subjektui.
 
-Uždarymo metų pabaigoje procesas vykdomas nesilaikant sąskaitos struktūrų. Taip yra todėl, kad paskyros struktūras finansiniais metais galima keisti bet kada, o dėl šių pokyčių identifikuoti susijusią paskyros struktūrą pavyksta ne visada.  Sukūrus atidarymo operacijas, balansai bus perkelti kartu su finansinėmis dimensijomis, kaip apibrėžta uždarymo metų pabaigoje šablone. Į pradinių balansų vertes galima įtraukti finansines dimensijas, nebeesančias dabartinės sąskaitos struktūroje, taip pat ir nebegaliojančias dabartinės sąskaitos struktūros segmentų kombinacijas. Jei jūsų organizacija nori išskirti finansinę nepaskirstyto pelno pradinio balanso dimensiją, tą finansinę dimensiją nustatykite kaip  **Uždaryti vieną**, o dimensijos vertės lauką palikite tuščią.
+Parinktis **Perkelti balanso dimensijas** naudojama nurodant, ar balanso sąskaitose užregistruotų operacijų finansines dimensijas reikia taikyti atidarymo operacijai. Geriausia šią parinktį reikėtų nustatyti į **Taip**. Balanso dimensijų nustatymas neturi įtakos esamiems nepaskirstyto pelno didžiosios knygos sąskaitų balansams. Šie balansai nustatomi pagal pelno ir nuostolio dimensijas, kurios apibrėžtos kitame skyriuje. Pavyzdžiui, 2019 finansiniai metai buvo pirmieji uždaryti metai, o parinktis **Uždaryti viską** buvo panaudota pasirinkti **Skyriaus** ir **Išlaidų centro** dimensijas uždarymui. Šiuo atveju kiekvienai padalinio ir išlaidų centro kombinacijai buvo sukurta atskira nepaskirstyto pelno sąskaita. Kai metų pabaigos uždarymas vykdomas 2020 finansiniams metams, nepaskirstytas ankstesnių metų pelnas išlieka toks pat, kaip ir užregistruotas, net jei **Perkelti balanso dimensijas** nustatyta į **Ne**. Balansai, užregistruoti kaip nepaskirstytas pelnas iš ankstesnių metų pabaigos uždarymų, niekada nekeičiami.
+
+Skyrius **Perkelti pelno ir nuostolių dimensijas** naudojama nurodant, kurios operacijų, užregistruotų pelno ir nuostolių sąskaitose, finansinės dimensijos bus perkeltos į nepaskirstyto pelno pagrindinę sąskaitą. Pirmiausia identifikuokite finansines dimensijas, susijusias su pasirinktu juridiniu subjektu. Šios finansinės dimensijos apima bet kokias tais metais užregistruotas finansines dimensijas, net jei finansinė dimensija nėra aktyvios sąskaitos struktūros dalis. Tada kiekvieną dimensiją apibrėžkite kaip **Uždaryti vieną** arba **Uždaryti viską**. Numatytoji pasirinktis yra **Uždaryti viską**. Ši parinktis išlaiko pradines finansinės dimensijos vertes iš užregistruotų operacijų ir panaudoja jas kuriant nepaskirstyto pelno sąskaitos pradinius balansus. Bus sukurti kiekvienai unikaliai finansinių dimensijų verčių kombinacijai skirti atskiri nepaskirstyto pelno pradiniai balansai. Jei pasirinkta **Uždaryti vieną**, visos užregistruotos operacijos, turinčios tą finansinę dimensiją, bus apibendrinamos kaip nepaskirstyto pelno pradiniai balansai, skirti dimensijos vertei, įvestai po lauke, pasirodančiame po **Uždaryti vieną**. Pavyzdžiui, visos tų finansinių metų operacijos buvo užregistruotos naudojant sąskaitos struktūrą **Pagrindinė sąskaita – Padalinys**. Finansinei dimensijai **Padalinys** šablone pasirinkta **Uždaryti vieną**, o **„100”** įvedamas kaip dimensijos vertė. Jei bendros visų operacijų, kurios yra užregistruotos padaliniuose 200, 300 ir 400, pajamos siekia $ 100 000 JAV dolerių, bus sukurtas vienas pradinis balansas, skirtas **Nepaskirstytam pelnui – 100**. Jei pasirenkate **Uždaryti vieną**, bet paliekate finansinės dimensijos vertę tuščią, visos operacijos bus užregistruotos kaip nepaskirstytas pelnas, o tos dimensijos vertė bus tuščia.
 
 ## <a name="run-the-year-end-close-process"></a>Uždarymo metų pabaigoje proceso vykdymo pradžia
-Sukūrus uždarymo metų pabaigoje šablonus, uždarymo metų pabaigoje procesas pradedamas vykdyti veiksmų srityje pasirinkus **Uždaryti finansinį laikotarpį**. Pasirinkite visus arba dalį šablone pateiktų juridinių subjektų, kuriems norite taikyti uždarymo metų pabaigoje procesą. Pirmą kartą vykdant finansinių metų uždarymo metų pabaigoje procesą, greičiausiai norėsite pasirinkti, kad būtų sukurti visų teisinių subjektų pradiniai balansai. Jei uždarymo metų pabaigoje procesą vykdote iš naujo, galite pasirinkti, kad procesas būtų taikomas tik tiems juridiniams subjektams, kurių koregavimo įrašai buvo užregistruoti. 
 
-Pasirinkite finansinius metus, kuriems norėtumėte taikyti uždarymo metų pabaigoje procesą. Jei tų finansinių metų paskutinis laikotarpis turi daugiau nei vieną uždarymo laikotarpį, bus pasiekiamas laukas **Laikotarpio pavadinimas**, kad galėtumėte pasirinkti, kurį laikotarpį registruoti uždarymo operacijai, jei sąrankoje apibrėžta sukurti tokią operaciją. 
+Sukūrę metų pabaigos uždarymo šablonus, galite inicijuoti metų pabaigos uždarymo procesą **Metų pabaigos uždarymo** puslapyje (**Didžioji knyga \> Uždarymo laikotarpis \> Metų pabaigos uždarymas**). Prieš paleisdami metų pabaigos uždarymą, galite pridėti naujų metų pabaigos uždarymo šablonų arba modifikuoti esamus šablonus pasirinkdami **Metų pabaigos uždarymo šablono nustatymą**, kad atidarytumėte šablonų nustatymo puslapį.
 
-Įveskite kvito numerį (atsižvelgiant į DK parametrų sąranką kvito numerį gali būti reikalaujama įvesti arba ne). Tas pats kvito numeris bus naudojamas visiems tų metų uždarymo procese pasirinktiems juridiniams subjektams. Kvito numeris sugeneruojamas nenaudojant numeracijos. Geriausia kvito numerį įvesti net ir tada, kai to daryti nereikalaujama. Įvedus kvito numerį galima lengviau rasti tų finansinių metų atidarymo operaciją. Neįvedus kvito numerio atidarymo operacijos kvito laukas liks tuščias. 
+Pasirinkite metų pabaigos uždarymo šabloną, o tada veiksmų srityje pasirinkite **Vykdyti metų pabaigos uždarymą**. Iš šablono pasirinkite visus arba dalį juridinių subjektų, kuriems vykdote uždarymo metų pabaigoje procesą. Jei uždarymo metų pabaigoje procesą vykdote pirmą kartą finansiniais metais, greičiausiai pasirinksite visus juridinius subjektus, kad jiems visiems sukurtumėte pradinius balansus. Jei uždarymo metų pabaigoje procesą vykdėte anksčiau, galbūt norėsite kad procesas būtų vykdomas tik tiems juridiniams subjektams, kuriems buvo užregistruoti koregavimo įrašai.
 
-Jei norėtumėte atšaukti ankstesnį uždarymo metų pabaigoje procesą, taikomą pasirinktiems finansiniams metams, parinktį **Anuliuoti ankstesnį uždarymą** nustatykite ties **Taip**. Uždarymo metų pabaigoje procesas bus atšauktas, tačiau jį vėl bus galima vykdyti iš naujo bet kuriuo metu. Atšaukus uždarymo metų pabaigoje procesą, laukas **Paskutinio uždarymo metų pabaigoje data** bus negalimas. 
+Tada pasirinkite finansinius metus, kuriems taikysime uždarymo metų pabaigoje procesą. Jei yra daugiau nei vienas paskutinio finansinių metų laikotarpio uždarymo laikotarpis, galima naudoti **Laikotarpio pavadinimo** lauką. Tada galite pasirinkti uždarymo laikotarpį, kad registruotumėte uždarymo operaciją, jei nustatymas apibrėžtas sukurti uždarymo operaciją.
 
-Pagal numatytuosius parametrus uždarymo metų pabaigoje procesas vykdomas paketiniu režimu. Geriausia šį procesą vykdyti paketinių režimu, kad vartotojas galėtų grįžti prie kitos veiklos. Atlikus uždarymo metų pabaigoje procesą, laukas **Paskutinio uždarymo metų pabaigoje data** bus atnaujinta nurodant seanso datą.
+Tada įveskite kvito numerį. Tas pats kvito numeris bus naudojamas visiems tų metų uždarymo procese jūsų pasirinktiems juridiniams subjektams. Kvito numeris nėra generuojamas naudojant numeraciją.
+
+Pagal numatytuosius parametrus, uždarymo metų pabaigoje procesas vykdomas paketiniu režimu. Todėl, jį inicijavę galite grįžti į kitas veiklas.
+
+Kadangi sąskaitos struktūros gali keistis per finansinius metus, ne visada galima identifikuoti atitinkamą sąskaitos struktūrą. Todėl uždarymo metų pabaigoje procesas nesilaiko sąskaitos struktūrų. Sukūrus atidarymo operacijas, balansai perkeliami kartu su finansinėmis dimensijomis, kaip apibrėžta metų pabaigos uždarymo šablone. Pradinių balansų įrašuose gali būti finansinių dimensijų, kurių nebėra dabartinės sąskaitos struktūroje, taip pat ir nebegaliojančias dabartinės sąskaitos struktūros segmentų kombinacijas. Jei jūsų organizacija nori išskirti nepaskirstyto pelno pradinio balanso finansinę dimensiją, tą finansinę dimensiją apibrėžkite kaip **Uždaryti vieną**, o dimensijos reikšmės lauką palikite tuščią.
+
+Užbaigus procesą, sukuriamas kiekvieno juridinio subjekto ir finansinių metų derinio įrašas. Matysite tik tų juridinių asmenų, prie kurių turite prieigą, įrašus. Kiekviename įraše yra sistemos data ir laikas, kada buvo paleistas procesas, ir tiesioginis saitas į kvitus, sukurtus metų pabaigos uždarymui.
+
+[![Įrašai, sukurti metų pabaigos uždarymo retrospektyvos „FastTab” puslapyje Metų pabaigos uždarymas](./media/run-yr-end-close.png)](./media/run-yr-end-close.png)
+
+Jei metų pabaigos uždarymą paleisite pakartotinai, pamatysite vieną arba kelis kiekvieno juridinio subjekto ir finansinių metų derinio įrašus, priklausomai nuo parinkties **Naikinti esamus metų pabaigos įrašus pakartotinai uždarant metus** nustatymo **Didžiosios knygos parametrai** puslapyje:
+
+- Jei parinktis nustatyta į **Taip**, ankstesnis metų pabaigos uždarymo kvitas yra panaikinamas. Įrašas pažymimas kaip **Atšauktas** bei data ir laiku, kai atšaukimas buvo atliktas. Taip pat, pašalinama kvito numerio nuoroda. Užbaigus metų pabaigos uždarymą, bus sukurtas naujas sukurto naujo kvito įrašas.
+- Jei parinktis nustatyta į **Ne**, ankstesnio metų pabaigos uždarymo įrašas lieka kartu su saitu į kvitą. Kaskart, kai pakartotinai bus vykdomas metų pabaigos uždarymas, bus sukurtas naujas įrašas, kartu su saitu į naujus kvitus.
+
+## <a name="reverse-the-year-end-close-process"></a>Uždarymo metų pabaigoje proceso atšaukimas
+
+Puslapyje **Metų pabaigos uždarymas** galite atšaukti metų pabaigos uždarymą. Pasirinkite juridinio subjekto ir finansinių metų, kuriuos reikia atšaukti, derinio įrašą, o tada pasirinkite **Atšaukti metų pabaigos uždarymą**. Atšaukimo procesas panaikina visus atidarymo ir uždarymo kvitus, sukurtus finansiniais metais. Įrašas pažymimas kaip **Atšauktas** bei data ir laiku, kai atšaukimas buvo atliktas. Taip pat, pašalinama kvito numerio nuoroda. Kaip ir metų pabaigos uždarymo procesas, atšaukimas vykdomas paketiniu režimu.
+
+Virš tinklelio esantis žymės langelis **Rodyti atšauktą** leidžia jums paslėpti arba rodyti atšauktų metų pabaigos uždarymo procesų įrašus. Kai paleidžiate **Atvirkštinio metų pabaigos uždarymo procesą**, jums gali reikėti pažymėti **Rodyti atšauktą** žymės langelį, kad pamatytumėte įrašą. Norėdami peržiūrėti kitą informaciją, jūs galite nustatyti papildomus filtrus.
+
+[![Žymės langelio Rodyti atšauktą naudojimas, norint pamatyti atšauktų uždarymo metų pabaigoje procesų įrašus Metų pabaigos uždarymo puslapyje](./media/rvrs-yr-end-close.png)](./media/rvrs-yr-end-close.png)
 
 Daugiau informacijos žr. [DK uždarymas laikotarpio pabaigoje](close-general-ledger-at-period-end.md) ir [Uždaryti finansinius metus](tasks/close-fiscal-year.md).
-
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

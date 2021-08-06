@@ -2,7 +2,7 @@
 title: Kanalo grąžinimo politikos kūrimas ir atnaujinimas
 description: Šioje temoje pateikiama informacija apie tai, kaip sukonfigūruoti kanalo grąžinimo politiką.
 author: ShalabhjainMSFT
-ms.date: 07/02/2021
+ms.date: 07/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 6cb2bb77a62ee9fc2ea6115949e30496bf3365c4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca5797cfc2d92c4cbc98d3f64d60e1fd260f0418
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345113"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558302"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Kanalo prekių ir pinigų grąžinimų strategijos kūrimas ir naujinimas
 
@@ -36,12 +36,21 @@ Politikos taikymo sritis šiuo metu apsiriboja mokėjimo būdų, kurias galima l
 
 ## <a name="enable-return-policy"></a>Grąžinimo politikos įgalinimas
 
-Norėdami įjungti kanalo grąžinimo politikos funkciją, atlikite toliau nurodytus veiksmus.
+Norėdami įgalinti kanalo grąžinimo funkciją „Commerce” būstinėje, atlikite šiuos žingsnius.
 
 1. Eikite į darbo sritį **Funkcijų valdymas**, esančią „Dynamics 365 Commerce“.
 1. Funkcijų pavadinimų sąraše ieškokite **Įgalinti kanalų grąžinimo politiką**.
 1. Pasirinkite **Įjungti dabar**.
-1. Puslapyje **Paskirstymo grafikas** vykdykite **„1110”** (visuotinės konfigūracijos) užduotį, kad paskirstytumėte funkcijos keitimą. 
+1. Puslapyje **Paskirstymo grafikas** vykdykite **„1110”** (visuotinės konfigūracijos) užduotį, kad paskirstytumėte funkcijos keitimą.
+
+## <a name="initialize-the-commerce-scheduler"></a>Prekybos planuoklės inicijavimas
+
+Įgalinę funkciją **Įgalinti kanalo grąžinimo strategijas**, turite inicijuoti prekybos planuoklę, kad užtikrintumėte, jog naujos funkcijų duomenų bazės pakeitimai bus įtraukti naudojant „Commerce Data Exchange” (CDX) sinchronizavimą. 
+
+Norėdami inicijuoti prekybos planuoklę „Commerce“ būstinėje, atlikite šiuos žingsnius.
+
+- Eikite į **Mažmeninė prekyba ir prekyba \> Būstinės sąranka \> Prekybos planuoklė \> Inicijuoti prekybos planuoklę**. Taip pat, jūs galite ieškoti „Inicijuoti prekybos planuoklę.“
+- Dialogo lange **Inicijuoti prekybos planuoklę** įsitikinkite, ar parinktis **Naikinti esamą konfigūraciją** nustatyta kaip **Ne**, o tada pasirinkite **Gerai**.
 
 ## <a name="configure-return-policy"></a>Grąžinimo politikos sukonfigūravimas
 

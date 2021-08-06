@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8f80458de69a77846259c9a0707c05098d13e12a
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: ecffbfa00aee1dd3197aeeab3b292aba8aafd82f
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115078"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641161"
 ---
 # <a name="product-readiness"></a>Produkto parengtis
 
@@ -87,7 +87,7 @@ Jums atvėrus **Parengtumo patikrų** puslapį galite peržiūrėti sistemos ir 
 - Veiksmų juostoje rinkitės **Patikra/baigta** tam, kad peržiūrėtumėte ir užbaigtumėte parengtumo patikrą. Jums pabaigus **Būsenos** laukelis yra atnaujinamas į *Patvirtintas*.
 - Veiksmų juostoje rinkitės **Praleisti** jei norite praleisti parengtumo patikrą, kuri nėra būtina. Pavyzdžiui, nustatėte parengtumo patikrą kainos apskaičiavimui. Nepaisant to, nusprendėte praleisti šią patikrą, kol produktas vis dar yra kūrimo etape. Tokiu atveju, **Būsenos** laukelis yra naujinamas į *Praleistas*.
 
-Priklausomai nuo parengtumo strategijos konfigūravimo, kai **Būsenos** laukelis pasirengimo patikrai yra naujintas į *Patvirtintas*, papildomo žingsnio gali reikėti siekiant patvirtinti parengtumo patikrą. Tokiu atveju pasirinkite **Patvirtinimą** tam, kad užbaigtumėte parengimo patikrą. Šis patvirtinimo žingsnis visuomet privalomas, kai parengtumo patikra praleista.
+Priklausomai nuo parengtumo strategijos konfigūravimo, kai **Būsenos** laukelis pasirengimo patikrai yra naujintas į *Patvirtintas*, papildomo žingsnio gali reikėti siekiant patvirtinti parengtumo patikrą. Tokiu atveju, rinkitės **Patvirtinimą** tam, kad užbaigtumėt parengtumo patikrą. Šis patvirtinimo žingsnis visuomet privalomas, kai parengtumo patikra praleista.
 
 Kai visos atviros parengtumo patikros naujam produktui, variantui ar versijai buvo sutvarkytos ir patvirtintos kaip būtina, prekė automatiškai tampa įjungta ir dėl to parengta naudoti.
 
@@ -116,7 +116,7 @@ Nustatykite tolesnius laukelius produkto parengtumo strategijai.
 | Laukas | Aprašas |
 |---|---|
 | Pavadinimas | Įveskite strategijos pavadinimą. |
-| Aprašas | Įveskite politikos aprašą. |
+| aprašymas | Įveskite politikos aprašą. |
 
 ### <a name="general-fasttab"></a>Bendras „FastTab“ skirtukas
 
@@ -177,8 +177,6 @@ Norėdami priskirti parengties strategiją inžinerijos kategorijai, atlikite š
 <a name="standard-products"></a>
 
 ## <a name="readiness-checks-on-standard-products"></a>Standartinių produktų pasirengimo patikrinimai
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Galite įgalinti produkto pasirengimo patikrinimus standartiniams (ne inžinerijos) produktams įjungdami funkciją *Produkto pasirengimo patikrinimai* Funkcijų valdyme. Ši funkcija atlieka keletą smulkių pasirengimo patikrinimo sistemos pakeitimų tam, kad ji palaikytų standartinius produktus.
 

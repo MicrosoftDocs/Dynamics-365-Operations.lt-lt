@@ -2,7 +2,7 @@
 title: Nuomos knygų nustatymas
 description: Šioje temoje aprašoma informacija, palaikoma nuomos knygose. Nuomos knygose yra apskaitos strategijos, apibrėžiančios, kaip sistemoje atsiskaitoma už nuomos sutartis.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: aafb5913d9aff8b0ac2cfbb8126f4b6d8362c96c
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: cf663c95095c0b31a6282f96c50303b40e212646
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880941"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638458"
 ---
 # <a name="set-up-lease-books"></a>Nuomos knygų nustatymas
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Nuomos knygose yra apskaitos strategijos, apibrėžiančios, kaip sistemoje atsiskaitoma už nuomos sutartis. Be grynųjų pinigų apskaitos, turto nuoma palaiko šiuos standartus.
 

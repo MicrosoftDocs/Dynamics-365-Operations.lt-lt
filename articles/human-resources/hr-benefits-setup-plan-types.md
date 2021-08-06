@@ -1,8 +1,8 @@
 ---
-title: Planų tipų kūrimas
+title: Plano tipų apžvalga
 description: Plano tipas programoje „Microsoft Dynamics 365 Human Resources“ yra konkrečių išmokų tipų aukščiausio lygio grupavimas. Kiekvienam plano tipui taikomas plano tipo kodas, kuriuo nustatomos plano tipo taisykles.
 author: andreabichsel
-ms.date: 04/06/2020
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,24 +15,34 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: eb4746425c2faa3c0b1bd3940bf2e03cf7f9595c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 806b3839feb1e1bf889747986388a56113c3ebe1
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057867"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558278"
 ---
-# <a name="create-plan-types"></a>Planų tipų kūrimas
+# <a name="plan-type-overview"></a>Plano tipų apžvalga
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Plano tipas programoje „Microsoft Dynamics 365 Human Resources“ yra konkrečių išmokų tipų aukščiausio lygio grupavimas. Kiekvienam plano tipui taikomas plano tipo kodas, kuriuo nustatomos plano tipo taisykles. Pavyzdžiui, plano tipui „Basic Life“ bus priskiriamas plano tipo kodas „Life“, nes tai yra gyvybės draudimo plano rūšis ir turi atitikti taisykles, nustatytas plano „Life“ tipo kodui. Kitas plano tipas galėtų būti „Supplemental Life“, kuriam taip pat bus taikomas plano tipo kodas „Life“.
+Plano tipas yra konkrečių išmokų tipų aukščiausio lygio grupavimas. Kiekvienam plano tipui taikomas plano tipo kodas, kuriuo nustatomos plano tipo taisykles. Pavyzdžiui, **Pagrindiniam gyvybės** plano tipui bus priskiriamas **Gyvybės** plano tipo kodas, nes tai yra gyvybės draudimo plano rūšis ir turi atitikti taisykles, nustatytas **Gyvybės** plano tipo kodui. Kitas plano tipas gali būti **Papildomas gyvybės**. Šis plano tipas taip pat turės **Gyvybės** plano tipo kodą.
 
 Kiekvienas plano tipas nurodo, keliems planams darbuotojas gali užsiregistruoti – vienam ar keletui. Pavyzdžiui, galbūt darbuotojas galės užsiregistruoti abiems „Life“ plano tipo polisams – „Basic Life“ ir „Supplemental Life“ – gauti. Greičiausiai darbuotojui bus leista užsiregistruoti tik vienam medicinos draudimo tipo polisui gauti.
 
 Jei plano tipas apima kontaktus, plano tipas nurodo, kad yra kontaktai – gavėjai ar priklausomieji. Pavyzdžiui, į plano tipą „Basic Life“ būtų įtraukiami gavėjai, o į plano tipą „Basic Medical“ būtų įtraukiami priklausomieji. Kai kuriais atvejais į planą gali būti neįtraukta asmeninių kontaktų. Pavyzdžiui, lanksčiųjų išlaidų sąskaita arba automobilių stovėjimo nuolaida.
 
 Plano tipas gali nurodyti padengimo pasirinktis. Padengimo parinktys nustatytos padengimo parinkčių formoje. Padengimo parinktis gali nurodyti išmokos sumą arba kontaktus, kurie atitinka plano tipą. Pavyzdžiui, jei kontakto tipas yra gavėjas, padengimo parinktis turi apibrėžti sąlygas, nurodančias, ką gavėjas turi teisę gauti, kai išmoka išnaudota. Jei kontakto tipas yra priklausomasis, padengimo parinktis turi apibrėžti ryšį tarp priklausomojo ir darbuotojo. 
+
+> [!IMPORTANT]
+> Formoje yra pagrindiniai duomenys, kurie turi įtakos parinktims, galimoms kuriant naują išmokų planą:
+>
+> - **Plano tipo kodas** – šis laukas turi įtakos tam, kas rodoma skirtuke **Konfigūracija**, kai nustatoma faktinė nauda.  
+> - **Lygiagreti registracija** – šis laukas nustato, ar leidžiamos kelios registracijos. (Medicininiam planui šis laukas įprastai nustatomas kaip **Viena registracija** .)
+> - **Kontakto tipas** – šis laukas leidžia į planą įtraukti priklausomuosius arba gavėjus. Jei jis nustatytas į **Nėra**, į išmokų planus įtraukti darbuotojai neturės galimybės pasirinkti nei gavėjo, nei priklausomo asmens.
+> - **Padengimo parinktys** – naudokite šį lauką, jei norite susieti padengimo parinktis su plano tipais. Jame apibrėžiami asmenys, kuriems bus taikomas šis plano tipas arba padengimo sumos, galimos šiam plano tipui. Pavyzdžiui, galite nurodyti, kad medicininio plano tipo aprėptis būtų prieinama tik darbuotojui, darbuotojui ir kitam vienam asmeniui arba darbuotojui ir jo šeimai.
+
+## <a name="create-plan-types"></a>Planų tipų kūrimas
 
 1. Darbo srities **Išmokų valdymas** dalyje **Sąranka** pasirinkite **Planų tipai**.
 

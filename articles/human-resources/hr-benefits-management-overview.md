@@ -2,7 +2,7 @@
 title: Išmokų valdymo apžvalga
 description: Išmokų valdymo funkcijos programoje „Dynamics 365 Human Resources“ apžvalga. Siūlykite savo darbuotojams išplėstines išmokų parinktis naudodami paprastas naudoti internetines funkcijas.
 author: andreabichsel
-ms.date: 04/21/2021
+ms.date: 07/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2f3a5583400b21aa11e88ba48b67e56fdbb05c3f
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: fd3ffa08b7714d1c6019ea5987dc18ad717720a7
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353643"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558326"
 ---
 # <a name="benefits-management-overview"></a>Išmokų valdymo apžvalga
 
@@ -29,77 +29,118 @@ ms.locfileid: "6353643"
 Norėdami išlikti konkurencingi, turite pasiūlyti gausų išmokų rinkinį, kad pritrauktumėte ir išlaikytumėte savo geriausius darbuotojus. Be įprastų privalumų, pvz., sveikatos ir dantų priežiūros draudimo, taip pat galite siūlyti išplėstines paslaugas, pvz., įvaikinimo pagalbą, poilsio programas ir išmokas drabužiams. Išmokų valdymas programoje „Microsoft Dynamics 365 Human Resources“ – dinamiškas sprendimas, palaikantis daugybę išmokų parinkčių. „Human Resources“ taip pat apima lengvai naudojamas darbuotojų funkcijas, kuriomis demonstruojami jūsų pasiūlymai.
 
 - Išplėstiniai išmokų planai leidžia kurti ir valdyti unikalius išmokų planus ir palaikymo sudėtinių išmokų tarifų lenteles ir įdėtąsias pakopas. Galite lengvai sukurti išmokų programas, paketus ir automatinės registracijos taisykles, kad palengvintumėte darbuotojo patirtį.
-
 - Lanksčiųjų kreditų programomis galite proporcingai paskirstyti, kad būtų palaikomi išėjimas į pensiją ir kiti gyvenimo įvykiai.
-
 - Dėl platesnių tinkamumo taisyklių galite būti užtikrinti, kad reikiamos išmokos pasieks reikiamus darbuotojus.
-
 - Internetine išmokų registracija suteikiama puiki jūsų darbuotojų patirtis.
-
 - Tinkamo gyvenimo įvykio apdorojimas palaiko būsimus gyvenimo įvykius.
 
 Jei norite gauti prieigą prie demonstracinių duomenų, turite iš naujo įdiegti savo smėlio dėžės aplinką.
 
->[!NOTE]
->Dabar galite pritaikyti išmokų valdymo formas. Dabar galite pridėti pasirinktinius laukus, susijusius su padengimo **tarifais, į** išmokų planų parinkties formą. Norėdami gauti daugiau informacijos apie darbą su pasirinktinais laukais, žr. [Pasirinktini laukai](hr-developer-custom-fields.md).
->![Išmokų valdymo pasirinktiniai laukai.](media/hr-benefits-management-custom-fields.png)
+> [!NOTE]
+> Dabar galite pritaikyti išmokų valdymo formas. Dabar galite pridėti pasirinktinius laukus, susijusius su padengimo **tarifais, į** išmokų planų parinkties formą. Norėdami gauti daugiau informacijos apie darbą su pasirinktinais laukais, žr. [Pasirinktini laukai](hr-developer-custom-fields.md).
+>
+> ![Išmokų valdymo pasirinktiniai laukai](media/hr-benefits-management-custom-fields.png)
 
 ## <a name="enable-benefits-management"></a>Išmokų valdymo įjungimas
 
-Šioje temoje aprašoma, kaip įjungti personalo valdymo funkcijas. Jame taip pat nurodoma, kurios esamos personalo valdymo funkcijos išmokų valdyme pakeičiamos arba kurios yra išjungiamos, kai įjungiate išmokų valdymą.
+Šioje temoje aprašoma, kaip įjungti personalo valdymo funkcijas. Joje taip pat nurodoma, kurios esamos Personalo funkcijos pakeičiamos Išmokų valdymu arba kurios funkcijos bus išjungiamos, kai įjungsite Išmokų valdymą.
 
 > [!IMPORTANT]
 > Po to, kai **gamybos** aplinkoje įgalinate išmokų valdymą, jo išjungti negalima. Rekomenduojame įjungti ir testuoti išmokų valdymą **smėlio dėžės** aplinkoje prieš įjungiant jį **gamybos** aplinkoje. Yra reikšmingų skirtumų tarp pasenusių išmokų funkcijų ir naujų išmokų valdymo funkcijų – joms reikalingi papildomi nustatymai ir tikrinimai prieš įtraukiant į gamybos procesą.
 
-- [Funkcijų valdymas](hr-admin-manage-features.md)
+Norėdami gauti daugiau informacijos, žr. [Funkcijų valdymas](hr-admin-manage-features.md).
 
-## <a name="configure-employee-information"></a>Darbuotojų informacijos konfigūravimas
+## <a name="process-overview"></a>Proceso apžvalga
 
-Kad užregistruotumėte darbuotojus išmokoms gauti, turite pateikti reikiamą informaciją. Turite užregistruoti darbuotoją į **pastoviosios atlyginimo dalies planą** jų darbo pradžios dieną ir pasirinkti **išmokų mokėjimo dažnumą** dalies **Įdarbinimo informacija** formoje **Darbininkas**.
+Išmokų konfigūravimo procesą sudaro šios užduotys:
 
-Jei turite darbuotoją, kuris gauna papildomą užmokestį kaip komisinį mokestį, galite įtraukite **Metinio užmokesčio algos** sumą iš darbuotojo įrašo. Žmogiškieji ištekliai naudos **Metinės algos išmokos** sumą nustatydami padengiamas sumas, o ne fiksuotą metinio atlyginimo sumą. **Metinės algos išmokos** turi būti galiojančios nuo darbuotojo pradžios dienos arba nuo išmokos laikotarpio, priklausomai nuo to, kuri data yra vėlesnė. Jei fiksuota alga ir metinės algos užmokesčio suma darbuotojui įrašoma, metinės algos užmokestis bus naudoojamas nustatant padengiamas sumas.
+1.  Reikalingos išmokų informacijos nustatymas.
+2.  Papildomos išmokų informacijos nustatymas.
+3.  Išmokų planų nustatymas.
+4.  Lanksčių kredito programų nustatymas (pasirinktinai).
+5.  Reikalingos darbuotojo informacijos konfigūravimas.
+6.  Papildomos darbuotojo informacijos konfigūravimas.
+7.  Darbuotojų apdorojimas tinkamumo nustatymui.
+8.  Darbuotojai pasirenka planus per darbuotojų savitarną (pasirinktinai).
+9.  Darbuotojo plano pasirinkimų patvirtinimas.
+10. Gyvenimo įvykių apdorojimas (pasirinktinai).
+11. Tarifo naujinimai (pasirinktinai).
+
+## <a name="set-up-required-benefit-information"></a>Reikalingos išmokų informacijos nustatymas
+
+Tam, kad darbuotojai galėtų būti įtraukti į planus, reikia nustatyti kelis komponentus:
+
+- **Išmokų valdymo parametrai** – šie parametrai yra bendrai naudojami visose įmonėse. Galite nustatyti numatytuosius priežasčių kodus, įgalinti **Išmokų metinio atlyginimo** parinktį, nustatyti numatytąjį naujų samdomų darbuotojų mokėjimo dažnumą ir įgalinti gyvenimo įvykius. Daugiau informacijos rasite [Išmokų valdymo parametrų nustatymas](hr-benefits-setup-parameters.md).
+- **Asmeninių kontaktų tinkamumo parinktys** – asmeniniai kontaktai yra asmenys, kurie bus priklausomieji arba gavėjai nustatomosiose planuose. Įprastai jie yra vaikai, sutuoktiniai arba patikėjimo organizacijos. Daugiau informacijos žr. [Asmeninių kontaktų tinkamumo parinkčių konfigūravimas](hr-benefits-setup-contact-eligibility-options.md).
+- **Padengimo parinktys** – nustatyti padengimo tipus, kurie bus prieinami planui. Tiksliau, nurodykite, kas turėtų būti apdraustas arba koks padengimas ura galimas. Daugiau informacijos rasite [Padengimo parinkčių kūrimas](hr-benefits-setup-coverage-options.md).
+- **Plano tipai** – nustatykite planų tipus, kurie bus pasiekiami jums kuriant išmokų planą. Plano tipų pavyzdžiai apima **Dantų**, **Regėjimo** ir **Santaupų**. Kai kurie svarbūs plano tipo parametrai nustato išmokų planui galimus parametrus. Daugiau informacijos žr. dalyje [Planų tipų kūrimas](hr-benefits-setup-plan-types.md).
+- **Tinkamumo taisyklės** – tinkamumo taisyklės yra naudojamos norint nustatyti, ar darbuotojas atitinka plano reikalavimus. Nors viena tinkamumo taisyklė turi būti susieta su kiekvienu išmokų planu. Daugiau informacijos rasite [Tinkamumo taisyklių ir parinkčių konfigūravimas](hr-benefits-setup-eligibility-rules.md).
+- **Mokėjimo dažnumas** – mokėjimo dažnumas reikalingas, kai konfigūruojami išmokų tarifai. Mokėjimo dažnumas naudojamas pagal tarifą padeda nustatyti sumą, kurią darbuotojas ir (arba) darbdavys turi sumokėti kas savaitę, kas mėnesį arba kasmet. Daugiau informacijos rasite [Mokėjimo dažnumo nustatymas](hr-benefits-setup-payment-frequencies.md).
+- **Tarifai** – jie apibrėžia, kiek išmoka kainuos arba darbuotojui, arba darbdaviui. Jei pinigai turėtų būti grąžinami darbuotojui (pavyzdžiui, kreditas sporto klubo narystei), įvedamas neigiamas tarifas. Daugiau informacijos rasite [Tarifų konfigūravimas](hr-benefits-setup-rates.md).
+- **Pakopiniai tarifai** – pakopiniai tarifai naudojami, kai tarifas turi keistis pagal tam tikrus kriterijus. Dažniausias pakopinis tarifas yra viena pakopa, pagrįsta amžiumi. Tačiau taip pat galima nustatyti dvigubos pakopos tarifus, kai tarifas gali keistis pagal lytį, amžių ar kitus kriterijus.
+- **Atskaitymai** – jie iš esmės yra antraštės informacija/kodai, kurie bus perduoti algalapio sistemai, kad būtų galima identifikuoti išmokos atskaitymą. Privalote nustatyti šiuos atskaitymus, nes jie bus reikalingi išmokų plane. Daugiau informacijos rasite [Atskaitymų konfigūravimas](hr-benefits-setup-deductions.md).
+- **Išmokų laikotarpiai** – išmokų laikotarpis yra laikotarpis, per kurį darbuotojai turės išmokų draudimą. Jis taip pat yra žinomas kaip plano metai. Čia taip pat nustatomi atviros registracijos laikotarpiai.
+
+## <a name="set-up-optional-benefit-information"></a>Papildomos išmokų informacijos nustatymas
+
+Norint sukurti išmokų planą nereikia nustatyti šių komponentų:
+
+- **Programos** – programa yra išmokų rinkinys, kurį reglamentuoja tos pačios tinkamumo taisyklės. Pavyzdžiui, visi pardavimų skyriaus darbuotojai gali gauti mobilųjį telefoną.
+- **Grupavimai** – grupavimas yra išmokų grupė, kurioje reikia pasirinkti vieną planą, kad būtų galima papildomų planų pasirinkimo parinktis. Pavyzdžiui, labai atskaitantis medicininis planas gali būti sugrupuotas su sveikatos taupomosios sąskaitos (HSA) planu.
+- **Gyvenimo įvykių tipai** – tai įvykiai, leidžiantys keisti darbuotojo padengimą. Gyvenimo įvykių tipai yra susieti su plano tipu. Pavyzdžiui, medicininio plano tipas gali leisti pakeitimus dėl gimimo ar įvaikinimo, arba dėl pasikeitusios šeimyninės padėties. Tačiau draudimo plano tipas gali neleisti jokių pakeitimų, kilusių dėl gyvenimo įvykių. Daugiau informacijos rasite [Gyvenimo įvykių tipų konfigūravimas](hr-benefits-setup-life-event-types.md).
+- **Laukimo dienos ir laukimo laikotarpiai** – išmokų plane galima nustatyti padengimo laukimo laikotarpį. Pavyzdžiui, naujai pasamdytas darbuotojas gali užsiregistruoti į 401(k) tik po trijų mėnesių darbo. Šiuo atveju laukimo laikotarpis yra trys mėnesiai. Laukimo dienos yra naudojamos laukimo laikotarpiu, jei naujas registracijas galima apdoroti ir pateikti teikėjui tik konkrečią mėnesio dieną. Pavyzdžiui, jei 401(k) registracijos gali būti apdorojamos tik penkioliktą mėnesio dieną po trijų mėnesių darbo, nustatytas laukimo laikotarpis yra trys mėnesiai, o laukimo diena yra penkiolikta. Daugiau informacijos rasite [Laukimo dienų konfigūravimas](hr-benefits-setup-waiting-days.md) ir [Laukimo periodų konfigūravimas](hr-benefits-setup-waiting-periods.md).
+- **Priežasčių kodai** – jie yra naudojami paaiškinti, kodėl darbuotojui gali keistis išmoka. Daugiau informacijos rasite [Priežasčių kodų nustatymas](hr-benefits-setup-reason-codes.md).
+
+## <a name="set-up-benefit-plans"></a>Išmokų planų nustatymas
+
+Kai nustatote išmokų planą, prieš užregistruodami darbuotojus turite atlikti šiuos veiksmus:
+
+- Priskirti išmokų laikotarpį.
+- Pridėti padengimo parinktis.
+- Nustatykite „galioja nuo” ir „galioja iki” datas **Bendra** skirtuke.
+- Priskirti bent vieną tinkamumo taisyklę.
+- Nustatykite **Leisti/tęsti registraciją** skirtuko **Nustatymas** lauke.
+
+Daugiau informacijos apie tai, kaip nustatyti išmokų planus, rasite [Išmokų planų nustatymas](hr-benefits-plans-setup.md).
+
+## <a name="set-up-flex-credit-programs-optional"></a>Lanksčių kredito programų nustatymas (pasirinktinai)
+
+Galite naudoti lanksčiųjų kreditų programas, kad užregistruotumėte darbuotojus išmokoms gauti, remiantis iš anksto nustatytu lanksčiųjų kreditų skaičiumi. Darbuotojai gali pasirinkti savo lanksčiųjų kreditų paskirstymą. Pavyzdžiui, jei darbuotojai jau yra apdrausti pagal sutuoktinio sveikatos draudimo planą, jiems nebūtina naudoti savo kreditų sveikatos draudimui. Todėl vietoj to, jie gali norėti naudoti kreditus kitoms išmokoms. Daugiau informacijos apie lanksčias kredito programas rasite [Lanksčių kredito programų nustatymas](hr-benefits-plans-flex-credit-programs.md).
+
+## <a name="configure-required-employee-information"></a>Reikalingos darbuotojo informacijos konfigūravimas
+
+Tam, kad užregistruotumėte darbuotojus išmokoms gauti, jiems turite pateikti reikiamą informaciją. Kiekvienas darbuotojas privalo turėti pareigas. Turite įtraukti darbuotojus į pastoviosios atlyginimo dalies planą jų pradžios dieną, arba jie turi turėti metinę išmokų atlyginimo sumą. Be to, puslapio **Darbuotojas** skyriuje **Išsami įdarbinimo informacija** turite pasirinkti reikšmę **Išmokų mokėjimo dažnumas** lauke.
+
+Jei turite darbuotoją, kuris gauna papildomą užmokestį kaip komisinį mokestį, galite įtraukite **Metinio užmokesčio algos** sumą iš darbuotojo įrašo. Žmogiškieji ištekliai naudos **Metinės algos išmokos** sumą nustatydami padengiamas sumas, o ne fiksuotą metinio atlyginimo sumą. **Išmokų metinė alga** turi būti galiojanti nuo darbuotojo pradžios dienos arba nuo išmokos laikotarpio pradžios, priklausomai nuo to, kuri data yra naujausia. Jei fiksuota alga ir metinės algos užmokesčio suma darbuotojui įrašoma, metinės algos užmokestis bus naudoojamas nustatant padengiamas sumas.
+
+## <a name="configure-optional-employee-information"></a>Papildomos darbuotojo informacijos konfigūravimas
 
 Kai kuriate išmokų planą, naudojantį tarifus, pagrįstus lytimi arba amžiumi, turite įvesti darbuotojo gimimo datą ir lytį, kad būtų apskaičiuota išmokų savikaina.
 
-## <a name="configure-benefits-management"></a>Išmokų valdymo konfigūravimas
+## <a name="process-employees-to-determine-eligibility"></a>Darbuotojų apdorojimas tinkamumo nustatymui
 
-Kad galėtumėte kurti savo darbuotojų išmokų planus, reikia konfigūruoti planų parinktis.
+Tam, kad darbuotojai galėtų būti įtraukti į planus, vykdomas tinkamumo apdorojimas, siekiant nustatyti, kuriems planams jie yra tinkami. Tinkamumo proceso rezultatus galite peržiūrėti procesų rezultatų peržiūros programoje. Daugiau informacijos rasite [Dalyvavimo tinkamumo apdorojimas](hr-benefits-process-enrollment-eligibility.md).
 
-- [Išmokų valdymo parametrų nustatymas](hr-benefits-setup-parameters.md)
-- [Tinkamumo taisyklių ir parinkčių konfigūravimas](hr-benefits-setup-eligibility-rules.md)
-- [Asmeninio kontakto tinkamumo parinkčių konfigūravimas](hr-benefits-setup-contact-eligibility-options.md)
-- [Padengimo parinkčių kūrimas](hr-benefits-setup-coverage-options.md)
-- [Mokėjimo dažnumo nustatymas](hr-benefits-setup-payment-frequencies.md)
-- [Gyvenimo įvykių tipų konfigūravimas](hr-benefits-setup-life-event-types.md)
-- [Planų tipų kūrimas](hr-benefits-setup-plan-types.md)
-- [Priežasčių kodų nustatymas](hr-benefits-setup-reason-codes.md)
-- [Pakopos kodų nustatymas](hr-benefits-setup-tier-codes.md)
-- [Tarifų konfigūravimas](hr-benefits-setup-rates.md)
-- [Atskaitymų konfigūravimas](hr-benefits-setup-deductions.md)
-- [Laukimo dienų konfigūravimas](hr-benefits-setup-waiting-days.md)
-- [Laukimo laikotarpių konfigūravimas](hr-benefits-setup-waiting-periods.md)
-- [Apvalinimo taisyklių nustatymas](hr-benefits-setup-rounding-rules.md)
-- [Įdarbinimo kategorijų kūrimas](hr-benefits-setup-employment-categories.md)
-- [Įdarbinimo tipų nustatymas](hr-benefits-setup-employment-types.md)
-- [Darbuotojų savitarnos paslaugos konfugūravimas](hr-benefits-setup-employee-self-service.md)
+## <a name="employees-select-plans-via-employee-self-service-optional"></a>Darbuotojai pasirenka planus per darbuotojų savitarną (pasirinktinai)
 
-## <a name="create-benefit-plans"></a>Išmokų planų kūrimas
+Kai atsiranda atvira registracija, darbuotojai yra naujai samdomi arba įvyksta gyvenimo įvykis, darbuotojai gali pasirinkti arba atnaujinti savo išmokas darbuotojų savitarnoje. Daugiau informacijos rasite [Darbuotojo savitarnos konfigūravimas](hr-benefits-setup-employee-self-service.md).
 
-Šiuose straipsniuose nurodoma, kaip sukurti išmokų planus, įskaitant grupių ir lanksčiųjų kreditų programas.
+## <a name="confirm-employee-plan-selections"></a>Darbuotojo plano pasirinkimų patvirtinimas
 
-- [Išmokų planų nustatymas](hr-benefits-plans-setup.md)
-- [Lanksčių kredito programų nustatymas](hr-benefits-plans-flex-credit-programs.md)
+Išmokos, kurias pasirenka darbuotojai, turi būti patvirtintos prieš tai, kai darbuotojai bus laikomi įtrauktais į jas. Išmokas taip pat galima pasirinkti darbuotojo vardu. Norėdami pasirinkti arba patvirtinti išmokas, puslapio **Darbuotojas** skirtuke **Išmokos** pasirinkite **Darbuotojų išmokų planai**. Norėdami pasirinkti arba patvirtinti išmokas keliems darbuotojams, naudokite **Darbuotojų išmokų planų masinis naujinimas** puslapį.
 
-## <a name="process-benefit-plans"></a>Išmokų planų apdorojimas
+## <a name="life-event-processing-optional"></a>Gyvenimo įvykių apdorojimas (pasirinktinai)
 
-Turite apdoroti kai kuriuos keitimus, kad jie būtų aktyvūs.
+Darbuotojo gyvenimo ciklo metu kiekvienas darbuotojas gali patirti įvairių gyvenimo įvykių, pavyzdžiui, santuoką, darbo pasikeitimus arba priklausomų asmenų ar naudos gavėjų pakeitimus. Norėdami naudoti gyvenimo įvykius, turite juos įgalinti **Bendrai naudojami personalo parametrai** puslapyje. Nustatykite gyvenimo įvykių tipus ir gyvenimo įvykių parinktis planų tipams.
 
-- [Tinkamumo registracijai apdorojimas](hr-benefits-process-enrollment-eligibility.md)
+Tam, kad galėtumėte apdoroti gyvenimo įvykius, turite būti bent vieną kartą paleidę atvirą registraciją per samdymo laiko intervalą. Jungtinėse Valstijose atvira registracija įprastai vyksta vieną kartą per metus. Už Jungtinių Valstijų ribų atvira registracija gali vykti samdymo metu. Gyvenimo įvykių apdorojimas nereikalauja, kad darbuotojai pasirinktų išmokų planą. Tačiau darbuotojai turi būti įtraukti į atviros registracijos apdorojimą. Daugiau informacijos ieškokite šiose temose:
+
 - [Gyvenimo įvykių apdorojimas](hr-benefits-process-life-events.md)
-- [Gyvenimo įvykio keitimų apdorojimas](hr-benefits-process-life-event-changes.md)
-- [Gyvenimo įvykio tinkamumo apdorojimas](hr-benefits-process-life-event-eligibility.md)
-- [Tarifo pakeitimų apdorojimas](hr-benefits-process-rate-changes.md)
+- [Gyvenimo įvykių keitimų apdorojimas](hr-benefits-process-life-event-changes.md)
+- [Gyvenimo įvykių tinkamumo apdorojimas](hr-benefits-process-life-event-eligibility.md)
 
+## <a name="rate-updates-optional"></a>Tarifų naujinimai (pasirinktinai)
 
+Kartais išmokos dydis pasikeičia plano laikotarpiu. Norėdami atnaujinti į planą jau įtrauktų darbuotojų tarifus, privalote apdoroti tarifo pakeitimus. Daugiau informacijos rasite [Tarifo pakeitimų apdorojimas](hr-benefits-process-rate-changes.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Atostogų prašymų valdymas „Teams“
 description: Šioje temoje parodyta, kaip prašyti išleisti iš darbo programoje „Dynamics 365 Human Resources“ naudojant „Microsoft Teams“.
 author: andreabichsel
-ms.date: 05/25/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aec6d784fd6bd54297ac4204c834c7f77ed75362
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2a74b895052d017ccbe397bfb9a45609646b2f93
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356517"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639443"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Atostogų prašymų valdymas „Teams“
 
@@ -166,6 +166,10 @@ Jei kyla problemų prisijungiant arba naudojant „Dynamics 365 Human Resources�
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Nepavyksta prisijungti prie „Teams“ programos „Human Resources“
 
 Jei negalite prisijungti prie programos, gali būti, kad paskyra, kurią naudojate prisijungimui prie „Microsoft Teams“, nėra susieta su darbuotojo įrašu „Dynamics 365 Human Resources“. Kreipkitės į sistemos administratorių, kad įsitikintumėte, kad jūsų darbuotojo įrašas yra tinkamai susietas.
+
+### <a name="cant-find-the-dynamics-365-human-resources-environment-in-settings"></a>Parametruose negaliu rasti „Dynamics 365 Human Resources” aplinkos
+
+Jei negalite pasirinkti tinkamos „Dynamics 365” aplinkos, vartotojo įrašas galėjo būti netinkamai sinchronizuotas. Kreipkitės į sistemos administratorių tam, kad iš naujo sukurtumėte vartotojo įrašą ir susietumėte jį su vartotojo kredencialais. Tada po kelių minučių pabandykite prisijungti prie „Microsoft Teams” personalo programos.
 
 ### <a name="translations-dont-display-correctly"></a>Vertimai rodomi neteisingai
 

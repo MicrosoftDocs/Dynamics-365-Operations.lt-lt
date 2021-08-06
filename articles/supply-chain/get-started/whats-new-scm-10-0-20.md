@@ -1,5 +1,5 @@
 ---
-title: Peržiūra „Dynamics 365 Supply Chain Management“ 2020-0-10 (2021 m. rugpjūčio mėn.)
+title: Naujienos ir pakeitimai „Dynamics 365 Supply Chain Management” 10.0.20 (2021 m. rugpjūtis)
 description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.20 versijos funkcijos.
 author: kamaybac
 ms.date: 05/28/2021
@@ -10,30 +10,28 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a782416bdb12a8ac7f1ba807452ca54072af3ab5
-ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
+ms.openlocfilehash: 09cdb039b9bde3f97db012f1aaaeaf4c8a7df944
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6301751"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641061"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10020-august-2021"></a>Peržiūra „Dynamics 365 Supply Chain Management“ 2020-0-10 (2021 m. rugpjūčio mėn.)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Naujienos ir pakeitimai „Dynamics 365 Supply Chain Management” 10.0.20 (2021 m. rugpjūtis)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šioje temoje pristatomos funkcijos, kurios yra naujos arba pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.20 peržiūros versijoje. Šios versijos komponavimo numeris yra 10.0.886 ir jis pasiekiamas tokius būdu:
+Šioje temoje pateikiamos naujos ir pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.20 versijos funkcijos. Šios versijos komponavimo numeris yra 10.0.886 ir jis pasiekiamas tokius būdu:
 
 - **Peržiūros versijos išleidimas:** 2021 m. gegužė
 - **Bendras leidimo pasiekiamumas (savaiminis naujinimas):** 2021 m. liepa
 - **Bendras leidimo pasiekiamumas (automatinis naujinimas):** 2021 m. rugpjūtis
 
-
 ## <a name="features-included-in-this-release"></a>Funkcijos, įtrauktos į šį leidimą
 
 Tolesnėje lentelėje pateiktos funkcijos šiame leidime. Priemonės *stulpelyje* pateikiami saitai [į paleidimo](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) planą, kur matysite oficialias kiekvienos priemonės paleidimo datas. Stulpelyje *Daugiau informacijos* pateikiama išsami informacija ir (arba) nuorodos į susijusius dokumentus.
 
-Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis. Kai kurios išvardytos funkcijos vis dar yra peržiūros versijos, o kitos funkcijos jau gali būti prieinamos bendrai.
+Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis.
 
 | Funkcijos sritis | Funkcija | Daugiau informacijos |
 |---|---|---|
@@ -49,7 +47,7 @@ Toliau pateiktoje lentelėje pateikti funkcijos patobulinimai, įtraukti į šį
 
 | Funkcijos sritis | Funkcijos&nbsp;pavadinimas&nbsp;funkcijos&nbsp;valdyme | Daugiau informacijos |
 |---|---|---|
-| Bendrasis planavimas | Planavimo optimizavimo neigiamos dienos | Ši peržiūros versijos funkcija įgalina Planavimo optimizavimą apsvarstyti leistiną uždelsimo nuokrypį pagal **Neigiamų dienų** parametrą, apibrėžtą padengimo grupėse. |
+| Bendrasis planavimas | Planavimo optimizavimo neigiamos dienos | Ši funkcija įgalina Planavimo optimizavimą apsvarstyti leistiną uždelsimo nuokrypį pagal **Neigiamų dienų** parametrą, apibrėžtą padengimo grupėse. |
 | Bendrasis planavimas | Vienu metu vykdomas pakoreguotos poreikio prognozės įgaliojimas | Ši funkcija leidžia lygiagrečiai autorizuoti pakoreguotą poreikio prognozę iš **Pakoreguotos poreikio prognozės** puslapio. Šios funkcijos tikslas yra padidinti efektyvumą, kai autorizuojate didelį skaičių prognozių. Autorizuodamas vartotojas gali nurodyti **Gijų skaičių** autorizavimo dialogo lange. |
 | Bendrasis planavimas | (Peržiūros versija) Paketais valdomas tvirtinimas ir konsolidacija suplanuotiems nesupakuotiems ir supakuotiems paketiniams užsakymams | Ši funkcija leidžia naudoti paketines užduotis tvirtinant ir konsoliduojant suplanuotus nesupakuotus ir supakuotus užsakymus. |
 | Gamybos kontrolė | Kopijuoti bendruosius maršrutus | Ši funkcija pagerina kopijavimo maršruto funkciją, leidžiančią vartotojams kopijuoti maršrutus, kurie nėra konkretūs prekei. Ji įgalina sistemą atnaujinti visą reikiamą informaciją (pavyzdžiui, svetainę, maršruto grupę, išteklių reikalavimus ir įvairius laikus) po to, kai maršruto kopijavimo funkcija buvo panaudota perrašyti maršrutui, dar nepriskirtam prie prekės. |
@@ -75,7 +73,7 @@ Neseniai įtraukėme ir reikšmingai atnaujinome tolesnes pagalbos temas. Jos ne
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>„Finance and Operations” programų platformos naujinimai
 
-„Microsoft Dynamics 365 Supply Chain Management“ 10.0.20 versijoje yra platformos naujinimų. Norėdami sužinoti daugiau, žr. [„Finance and Operations” programų 10.0.20 versijos platformos naujinimai (2021 m. liepos mėn.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md). <!-- KFM: Confirm link -->
+„Microsoft Dynamics 365 Supply Chain Management“ 10.0.20 versijoje yra platformos naujinimų. Norėdami sužinoti daugiau, žr. [„Finance and Operations” programų 10.0.20 versijos platformos naujinimai (2021 m. liepos mėn.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
 

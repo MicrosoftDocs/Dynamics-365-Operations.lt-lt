@@ -2,7 +2,7 @@
 title: Atostogų užklausa
 description: Atostogų užklausa programoje „Dynamics 365 Human Resources“.
 author: andreabichsel
-ms.date: 04/21/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 86a0c659c8b586912ee848aa5f233f2e16f05fd4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: da04e3f93f381fbe25c7e1ed117b7ce10e8b04e9
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357196"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639563"
 ---
 # <a name="request-time-off"></a>Atostogų užklausa
 
@@ -41,6 +41,8 @@ Galite pateikti atostogų užklausą, peržiūrėti atostogų ir neatvykimų bal
 5. Jeigu reikia, lauke **Komentaras** įveskite informaciją.
 
 6. Kai būsite pasirengę pateikti užklausą, pasirinkite **Pateikti**. Arba pasirinkite **Įrašyti juodraštį**.
+
+Darbuotojai, kurie pateikia naują atostogų užklausą, gali pasirinkti skirtingus atostogų tipus, sudarančius jų atostogų užklausą. Tačiau visi atostogų tipai, pasirinkti kaip vienos atostogų užklausos dalis, turi turėti tą patį atostogų vienetą. Darbuotojai gali peržiūrėti kiekvieno atostogų tipo atostogų vienetą **Prašyti išleidimo iš darbo** formoje.
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>Priedo įtraukimas į esamą užklausą
 
