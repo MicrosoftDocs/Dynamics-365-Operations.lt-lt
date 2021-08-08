@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c53d28192c5bf673baccd76e4cfb6e0453fe29d
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: e155263daf2f33531abefdc45c5046a5ab5bca11
+ms.sourcegitcommit: 787c94b35f343f4c38fc8efaaa0cfaf20a846368
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337934"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "6647211"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Įsigijimo ir šaltinio pasirinkimo pagrindinis puslapis
 
@@ -76,11 +76,10 @@ ms.locfileid: "6337934"
 -   [Pasikartojančio pirkimo užsakymo kūrimas](tasks/create-repeat-purchase-order.md)
 -   [Pirkimo užsakymo kūrimas naudojant pardavimo užsakymą](../sales-marketing/tasks/create-purchase-order-sales-order.md)
 -   [Kurti vienkartinio tiekėjo pirkimo užsakymą](tasks/create-purchase-order-one-time-supplier.md)
--   [Kurti pirkimo užsakymą su pristatymo grafiku](tasks/create-purchase-order-delivery-schedule.md)
--   [Kurti pirkimo grąžinimo užsakymą](tasks/create-purchase-return-order.md)
--   [Sukurti pirkimo leidimo užsakymą iš pirkimo sutarties](tasks/create-purchase-release-order-purchase-agreement.md)
--   [Kurti pirkimo leidimą išduoti kuriant pirkimo užsakymą](tasks/create-purchase-release-order-creating-purchase-order.md)
--   [Konsignacinio papildymo užsakymo kūrimas](../inventory/tasks/create-consignment-replenishment-order.md)
+-   [Pirkimo užsakymo su pristatymo grafiku kūrimas](tasks/create-purchase-order-delivery-schedule.md)
+-   [Pirkimo grąžinimo užsakymo kūrimas](tasks/create-purchase-return-order.md)
+-   [Pirkimo sutarties taikymas kuriant pirkimo užsakymą](tasks/create-purchase-release-order-purchase-agreement.md)
+-   [Konsignacijos papildymo užsakymo kūrimas](../inventory/tasks/create-consignment-replenishment-order.md)
 
 ## <a name="prices-and-discounts"></a>Kainos ir nuolaidos
 -   [Pirkimo sutartys](purchase-agreements.md)

@@ -2,7 +2,7 @@
 title: Turinio pristatymo tinklo diegimo parinktys
 description: Šioje temoje peržvelgiamos skirtingos turinio pristatymo tinklo (CDN) diegimo pasirinktys, kurias galima naudoti su „Microsoft Dynamics 365 Commerce“ aplinkomis. Šios pasirinktys apima vietinius „Commerce“ pateiktus „Azure Front Door“ egzempliorius ir „Azure Front Door“ egzempliorius, kurie priklauso klientams.
 author: BrianShook
-ms.date: 03/11/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: eec18dbffe33bc6366b4282d05189b31620616d6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0e6425d7e473d1d1c263624599d54c6b040d90cb
+ms.sourcegitcommit: a52ad281071b3a49c461e5853e82f302dd33095a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351254"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6657124"
 ---
 # <a name="content-delivery-network-implementation-options"></a>Turinio pristatymo tinklo diegimo parinktys
 
@@ -50,7 +50,7 @@ Toliau esančioje lentelėje pateikiami privalumai ir trūkumai, susiję su tuo,
 
 | Privalumai | Trūkumai |
 |------|------|
-| <ul><li>Egzempliorius įtraukiamas į „Commerce“ kainą.</li><li>Egzempliorių valdo „Commerce“ komanda, todėl reikia mažiau priežiūros reikia ir yra bendrai naudojamų nustatymo veiksmų.</li><li>„Azure“ palaikoma infrastruktūra yra keičiamo dydžio, saugi ir patikima.</li><li>Saugiųjų jungčių lygmens (SSL) sertifikatui reikia vienkartinio nustatymo ir jis atnaujinamas automatiškai.</li><li>„Commerce“ komanda stebi, ar egzemplioriuje nėra klaidų ir anomalijų.</li></ul> | <ul><li>WAF nepalaikomas.</li><li>Nėra jokių konkrečių pritaikymų ar nustatymų koregavimų.</li><li>Egzempliorius priklauso nuo „Commerce“ komandos atnaujinimų ar pakeitimų.</li><li>Atskiras „Azure Front Door“ egzempliorius reikalingas „Apex“ domenams, o „Apex“ domenams integruoti su „Azure“ DNS reikalingas papildomas darbas.</li><li>Klientui nepateikiama jokia telemetrijos informacija apie atsakymus per sekundę (RPS) ar klaidų dažnį.</li></ul> |
+| <ul><li>Egzempliorius įtraukiamas į „Commerce“ kainą.</li><li>Egzempliorių valdo „Commerce“ komanda, todėl reikia mažiau priežiūros reikia ir yra bendrai naudojamų nustatymo veiksmų.</li><li>„Azure“ palaikoma infrastruktūra yra keičiamo dydžio, saugi ir patikima.</li><li>Saugiųjų jungčių lygmens (SSL) sertifikatui reikia vienkartinio nustatymo ir jis atnaujinamas automatiškai.</li><li>„Commerce“ komanda stebi, ar egzemplioriuje nėra klaidų ir anomalijų.</li></ul> | <ul><li>WAF nėra palaikomas.</li><li>Nėra jokių konkrečių pritaikymų ar nustatymų koregavimų.</li><li>Egzempliorius priklauso nuo „Commerce“ komandos atnaujinimų ar pakeitimų.</li><li>Atskiras „Azure Front Door“ egzempliorius reikalingas „Apex“ domenams, o „Apex“ domenams integruoti su „Azure“ DNS reikalingas papildomas darbas.</li><li>Klientui nepateikiama jokia telemetrijos informacija apie atsakymus per sekundę (RPS) ar klaidų dažnį.</li></ul> |
 
 Šioje iliustracijoje vaizduojama „Commerce“ pateikiamo „Azure Front Door“ egzemplioriaus architektūra.
 
@@ -74,7 +74,7 @@ Toliau pateiktoje iliustracijoje rodoma „Commerce“ infrastruktūra, kuri api
 
 | Privalumai | Trūkumai |
 |------|------|
-| <ul><li>Ši parinktis naudinga, kai esamas domenas jau yra išoriniame CDN.</li><li>Konkurentų CDN (pvz., „Akamai“) gali turėti daugiau WAF galimybių.</li></ul> | <ul><li>Reikalinga atskira sutartis ir papildomas įkainojimas.</li><li>SSL gali turėti papildomų išlaidų.</li><li>Kadangi paslauga yra atskira nuo „Azure“ debesies struktūros, būtina valdyti papildomą infrastruktūrą.</li><li>Paslauga gali reikalauti ilgalaikių investicijų į galinį punktą ir saugos nustatymo.</li><li>Paslauga valdoma savarankiškai.</li><li>Paslauga stebima savarankiškai.</li></ul> |
+| <ul><li>Ši parinktis naudinga, kai esamas domenas jau yra išoriniame CDN.</li><li>WAF: Priklauso nuo išorinio teikėjo.</li></ul> | <ul><li>Reikalinga atskira sutartis ir papildomas įkainojimas.</li><li>SSL gali turėti papildomų išlaidų.</li><li>Kadangi paslauga yra atskira nuo „Azure“ debesies struktūros, būtina valdyti papildomą infrastruktūrą.</li><li>Paslauga gali reikalauti ilgalaikių investicijų į galinį punktą ir saugos nustatymo.</li><li>Paslauga valdoma savarankiškai.</li><li>Paslauga stebima savarankiškai.</li></ul> |
 
 Šioje iliustracijoje vaizduojama „Commerce“ infrastruktūra, kurioje yra išorinė CDN paslauga.
 
