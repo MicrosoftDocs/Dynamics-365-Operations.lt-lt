@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 9c31b8dd7d69fee40ecefb6c6bc81c9c2dd17ef7
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 81888e0703c53333ab9697c0445270f2f40c7b9ba02f3ba5fa728aef0b78b3a6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359082"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730015"
 ---
 # <a name="planned-cross-docking"></a>Suplanuotas prekių skirstymas
 
@@ -114,8 +114,11 @@ Suplanuotas prekių skirstymas yra įgyvendinamas kaip krovinio registravimo met
 
 1. „FastTab“ skirtuke **Tiekimo šaltiniai** turite nurodyti tiekimo tipus, kurie galioja šiam šablonui. Pasirinkite **Nauja** ir tada nustatykite šias reikšmes:
 
-    - **Sekos numeris:** *1*
+    - **SEekos numeris:** *1*
     - **Tiekimo šaltinis:** *Pirkimo užsakymas*
+
+> [!NOTE]
+> Galite nustatyti užklausą, norėdami kontroliuoti, kada konkretus prekių skirstymo šablonas naudojamas. Prekių skirstymo šablonų užklausa turi tik *InventTable* (prekių) lentelę ir vidinę sujungtą *WHSInventTable* (WHS prekių) lentelę. Jei į užklausą norite įtraukti kitas lenteles, galite jas sujungti tik naudodami *esamos jungtys* arba *nesamos jungtys*. Kai filtruojate sujungtas lenteles, kiekvienam prijungtos lentelės įrašui nuskaitomas kiekvienos prijungtos lentelės įrašas. Jei yra sujungimo tipas yra *esamos jungtys*, ieška baigiasi po to, kai buvo rastas pirmas sugretinimas. Pavyzdžiui, jei prijungiate pardavimo užsakymo eilučių lentelę prie prekių lentelės, sistema patikrina ir grąžina prekes, kurių bent viena pardavimo užsakymo eilutė turi nustatytą sąlygą. Iš esmės, duomenys surenkami iš pirminės (prekių) lentelės, o ne iš antrinės (pardavimo užsakymo eilutės) lentelės. Todėl šiame langelyje negalima filtruoti pagal šaltinio dokumentus, pvz., pardavimo užsakymo eilutes arba klientus.
 
 ### <a name="create-a-work-class"></a>Darbo klasės kūrimas
 
@@ -151,6 +154,9 @@ Suplanuotas prekių skirstymas yra įgyvendinamas kaip krovinio registravimo met
     - **Darbo klasės ID:** *Prekių skirstymas*
 
 1. Pasirinkite **Įrašyti** ir patvirtinkite, kad pasirinktas žymės langelis **Galiojantis** žymės langelis *51 prekių skirstymo* šablonui.
+1. Pasirinktinai: pasirinkite **Redaguoti užklausą**, jei norite nustatyti kriterijus, pagal kuriuos būtų kontroliuojama, kada ir kur naudojamas darbo šablonas.
+
+    Galite nustatyti užklausą, norėdami kontroliuoti, kada konkretus darbo šablonas naudojamas. Pavyzdžiui, galite nurodyti, kad šablonas gali būti naudojamas tik tam tikroje vietoje. Jei norite, kad prekių skirstymo darbo šablonas būtų taikomas tam tikroje vietoje, turite filtruoti **Pradžios vieta** laukelį , o ne **Vieta** laukelį, nes gaunamų užklausų proceso darbo kūrimas (pirkimas, prekių skirstymas ir papildymas) pradedamas nuo padėjimo eilutės. Kai sukuriamas darbas, vietos įvertinimas nustato **Vietos** laukelį kaip padėjimo vietą. Tačiau paėmimo vieta saugoma **Pradžios vietos** laukelyje.
 
 > [!NOTE]
 > Darbo klasės ir darbų tipų *Paėmimas* ir *Padėjimas* ID turi sutapti.

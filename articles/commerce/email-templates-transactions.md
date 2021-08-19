@@ -2,7 +2,7 @@
 title: El. laiškų šablonų, skirtų operacijų įvykiams, kūrimas
 description: Šioje temoje aprašoma, kaip kurti, įkelti ir konfigūruoti operacijų įvykių el. laiškų šablonus „Microsoft Dynamics 365 Commerce”.
 author: bicyclingfool
-ms.date: 03/01/2021
+ms.date: 05/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,20 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bfc773bec035ceee151e2e2dd8925aa772747452
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2da1044cd332d841a8c18f7139d0d8c09bad95f446494034060e59416b4018b8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019888"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718712"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>El. laiškų šablonų, skirtų operacijų įvykiams, kūrimas
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip kurti, įkelti ir konfigūruoti operacijų įvykių el. laiškų šablonus „Microsoft Dynamics 365 Commerce”.
-
-## <a name="overview"></a>Peržiūra
 
 „Dynamics 365 Commerce” pateikia parengtą naudoti el. laiškų siuntimo sprendimą, įspėjantį klientus apie operacijų įvykius (pvz., kai užsakymas pateiktas, paruoštas paėmimui arba išsiųstas). Šioje temoje aprašomi veiksmai, skirti kurti, įkelti ir konfigūruoti el. laiškų šablonus, naudojamus siunčiant operacijų el. laiškus.
 
@@ -79,26 +77,33 @@ Tolesni vietos rezervavimo ženklai nuskaito ir rodo duomenis, nurodytus pardavi
 | Vietos rezervavimo ženklo pavadinimas     | Vietos rezervavimo ženklo reikšmė                                            |
 | -------------------- | ------------------------------------------------------------ |
 | customername         | Kliento, kuris pateikė užsakymą, vardas.               |
-| salesid              | Užsakymo pardavimo ID.                                   |
-| deliveryaddress      | Išsiųstų užsakymų pristatymo adresas.                     |
 | customeraddress      | Kliento adresas.                                 |
 | kliento el. pašto adresas | El. pašto adresas, kurį klientas įvedė išsiregistruodamas.     |
+| salesid              | Užsakymo pardavimo ID.                                   |
+| orderconfirmationid  | Kuriant užsakymą sugeneruotas kryžminio kanalo ID. |
+| channelid            | Mažmeninės prekybos arba interneto kanalo, per kurį buvo pateiktas užsakymas, ID. |
+| deliveryname         | Pristatymo adresui nurodytas pavadinimas.        |
+| deliveryaddress      | Išsiųstų užsakymų pristatymo adresas.                     |
 | deliverydate         | Pristatymo data.                                           |
 | shipdate             | Siuntimo data.                                               |
 | modeofdelivery       | Užsakymo pristatymo būdas.                              |
-| charges              | Bendros užsakymo išlaidos.                             |
-| tax                  | Bendra užsakymo mokesčių suma.                                 |
-| total                | Bendroji užsakymo suma.                              |
 | ordernetamount       | Bendroji užsakymo suma, atėmus bendrą mokesčių sumą.         |
 | discount             | Bendra užsakymo nuolaida.                            |
+| charges              | Bendros užsakymo išlaidos.                             |
+| mokestis                  | Bendra užsakymo mokesčių suma.                                 |
+| iš viso                | Bendroji užsakymo suma.                              |
 | storename            | Parduotuvės, kurioje buvo pateiktas užsakymas, pavadinimas.            |
 | storeaddress         | Parduotuvės, pateikusios užsakymą, adresas.              |
 | storeopenfrom        | Parduotuvės, pateikusios užsakymą, atidarymo laikas.         |
 | storeopento          | Parduotuvės, pateikusios užsakymą, uždarymo laikas.         |
-| pickupstorename      | Parduotuvės, kurioje bus paimtas užsakymas, pavadinimas.     |
-| pickupstoreaddress   | Parduotuvės, kurioje bus paimtas užsakymas, adresas.  |
-| pickupopenstorefrom  | Parduotuvės, kurioje bus paimtas užsakymas, atidarymo laikas. |
-| pickupopenstoreto    | Parduotuvės, kurioje bus paimtas užsakymas, uždarymo laikas. |
+| pickupstorename      | Parduotuvės, kurioje bus paimtas užsakymas, pavadinimas.\* |
+| pickupstoreaddress   | Parduotuvės, kurioje bus paimtas užsakymas, adresas.\* |
+| pickupopenstorefrom  | Parduotuvės, kurioje bus paimtas užsakymas, atidarymo laikas.\* |
+| pickupopenstoreto    | Parduotuvės, kurioje bus paimtas užsakymas, uždarymo laikas.\* |
+| pickupchannelid      | Parduotuvės kanalo ID, nurodytas pristatymo paėmimo režimui.\* |
+| packingslipid        | Važtaraščio, kuris buvo sugeneruotas pakuojant užsakymo eilutes, ID.\* |
+
+\*Šie vietos rezervavimo ženklai grąžina duomenis tik tada, kai jie naudojami **užsakymui paruoštame paėmimo** pranešimo tipui. 
 
 ### <a name="order-line-placeholders-sales-line-level"></a>Užsakymo eilučių vietos rezervavimo ženklai (pardavimo eilutės lygiu)
 
@@ -106,7 +111,10 @@ Tolesni vietos rezervavimo ženklai nuskaito ir rodo atskirų produktų (eiluči
 
 | Vietos rezervavimo ženklo pavadinimas               | Vietos rezervavimo ženklo reikšmė |
 |--------------------------------|-------------------|
-| productid                      | Eilutės produkto ID. |
+| productid                      | <p>Produkto ID. Šios variantų ID sąskaitos.</p><p><strong>Pastaba:</strong>šis vietos rezervavimo ženklas buvo pasenusis **lineproductrecid** už eilutėje.</p> |
+| lineproductrecid               | Produkto ID. Šios variantų ID sąskaitos. Ji unikaliai identifikuoja prekę varianto lygiu. |
+| lineitemid                     | Produkto lygio produkto ID. (Šis ID neskaičiuoja variantų.) |
+| lineproductvariantid           | Produkto varianto ID. |
 | lineproductname                | Produkto pavadinimas. |
 | lineproductdescription         | Produkto aprašymas. |
 | linequantity                   | Užsakytų eilutės vienetų skaičius ir matavimo vienetas (pvz., **ea** arba **pora**). |
@@ -125,6 +133,8 @@ Tolesni vietos rezervavimo ženklai nuskaito ir rodo atskirų produktų (eiluči
 | linedeliverydate               | Eilutės pristatymo data. |
 | linedeliverymode               | Eilutės pristatymo būdas. |
 | linedeliveryaddress            | Eilutės pristatymo adresas. |
+| linepickupdate                 | Kliento nurodyta paėmimo data užsakymams, kurie naudoja pristatymo paėmimo režimą. |
+| linepickuptimeslot             | Kliento nurodytas paėmimo laikas užsakymams, kurie naudoja pristatymo paėmimo režimą. |
 | giftcardnumber                 | Dovanų kortelės tipo produktų dovanų kortelės numeris. |
 | giftcardbalance                | Dovanų kortelės tipo produktų dovanų kortelės balansas. |
 | giftcardmessage                | Dovanų kortelės tipo produktų dovanų kortelės pranešimas. |

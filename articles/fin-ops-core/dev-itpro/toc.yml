@@ -14,6 +14,8 @@
               items:
                 - name: Kas nauja ar pasikeitė „Platform“ naujinimuose pagrindinis puslapis
                   href: get-started/whats-new-home-page.md
+                - name: "„Platform“ naujinimai, skirti 10.0.21 versijai (2021\_m. spalio mėn.)"
+                  href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: "„Platform“ naujinimai, skirti 10.0.20 versijai (2021\_m. rugpjūčio mėn.)"
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: "„Platform“ naujinimai, skirti 10.0.19 (2021\_m. birželio mėn.)"
@@ -446,7 +448,9 @@
                       href: deployment/onprem-adfscompatibility.md
                     - name: Vietinio agento išankstinio ir vėlesnio visuotinio diegimo scenarijai
                       href: lifecycle-services/pre-post-scripts.md
-                    - name: Vietos agento atnaujinimas
+                    - name: Vietinio agento diegimo konfigūracijos
+                      href: deployment/onprem-localagent-options.md
+                    - name: Vietinio agento atnaujinimas
                       href: lifecycle-services/update-local-agent.md
                 - name: Trikčių šalinimas
                   items:
