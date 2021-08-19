@@ -2,7 +2,7 @@
 title: Kas nauja ar pasikeitė „Warehouse Management Mobile App” programėlėje
 description: Šioje temoje pateikiamos naujos ir pakeistos kiekvienos išleistos „Warehouse Management Mobile App”, skirtos „Microsoft Dynamics 365 Supply Chain Management”, versijos funkcijos.
 author: ivanv-microsoft
-ms.date: 06/07/2021
+ms.date: 07/30/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,38 @@ ms.search.region: Global
 ms.author: ivanv
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 61124728942c0b8162de9f687ae752773c47d07e
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: 43d1381e73d5659bfd6ae6c6d944b7e6918b681a4f89df7ad23abbed5b4a0d3c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261790"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720089"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Kas nauja ar pasikeitė „Warehouse Management Mobile App” programėlėje
 
 [!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiamos naujos kiekvienos išleistos „Warehouse Management Mobile App”, skirtos „Microsoft Dynamics 365 Supply Chain Management”, versijos funkcijos, klaidų taisymai ir žinomos problemos.
+
+## <a name="2070"></a>2.0.7.0
+
+### <a name="new-features-fixes-and-improvements-in-version-2070"></a>2.0.7.0 versijos naujos funkcijos, klaidų taisymai ir patobulinimai
+
+- Įtraukta sekcija į **Apie** puslapį, kuriame tikrinama naujausia išleista programos versija.
+- Kad būtų lengviau brūkštelėkite ir perbraukite tarp puslapių.
+- Pakeitė darbų sąrašo didėjimo/mažėjimo mygtuko piktogramą.
+- Sumažino kortelės **Informacija** maržas, kad ji galėtų pritaikyti daugiau informacijos.
+- Pritaikė įvairūs našumo patobulinimus, siekiant sumažinti programos išdavimą, kuris laikui bėgant tampa lėtesnis.
+- Jei yra daugiau valdiklių nei telpa ekane, dėl to buvo paslinkusi puslapių kaitos programa nebeslinks taip pat, kaip puslapis.
+- Nustatykite pirmenybę, kad būtų rodoma paskutinė nuskaityta reikšmė virš užduoties pavadinimo verčių, todėl joms persidengus, užduoties pavadinimas bus sutrumpintas.
+- Buvo išspręstos įvairios problemos, dėl kurių sistema nebereagavo.
+- Kai kuriomis kalbomis tekstas įvairiose vietose nebeperskiriamas.
+- Dabar programa veikia viso ekrano režimu pagal numatytuosius nustatymus.
+- Ištaisyta problema, dėl kurios kai kurių įrenginių pagrindiniame puslapyje nuskaitymo gali būti nepaisoma.
+
+### <a name="known-issues-in-version-2070"></a>Žinomos problemos 2.0.7.0 versijoje
+
+- Kai kuriuose įrenginiuose, kai paleidžiate programą arba pradedate užduotį, gausite tokį klaidos pranešimą: "Nepavyksta rasti tinkamo nurodyto dydžio rodinio". Jei matote šį klaidos pranešimą bet kuriame savo įrenginyje, turite toliau naujinti „Warehouse Management“ mobiliąją programą į 2.0.6.0 versiją šiame įrenginyje ir palaukti, kol bus paleista kita programos versija.
 
 ## <a name="version-2060"></a>2.0.6.0 versija
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 577d48e207c8ce5911d104e657101a8557100064
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 136e528093e6e73ffe090cea0c02a4cdbf787c5efc3d9c0664869c995a682daa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339999"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720257"
 ---
 # <a name="rebate-management-module-overview"></a>Grąžinimų valdymo modulio apžvalga
 
@@ -91,10 +91,9 @@ Vartotojams nebereikia tvarkyti sandorių ar nuostatų dvejais veiksmais. Nuosta
 
 Apskaičiavus grąžinimus, procesas sukuria operacijas, kurias galima peržiūrėti prieš registravimą. Atskiru procesu registruojamos grąžinimų valdymo operacijos. Tada registruojant į pasiūlytas operacijas galima sukurti žurnalą, kredito pažymą ar debeto operaciją. Norint užtikrinti atitikimą, efektyvumą ir skaidrumą, galima gauti ataskaitų išrašus ir operacijų sąrašus.
 
-
 ## <a name="guaranteed-royalty-payments"></a>Garantiniai autorinių honorarų mokėjimai
 
-Naudojant grąžinimų valdymą, automatinis mokėjimų generavimas leidžia greitai ir lengvai tvarkyti autorinius honorarus, net jei taikomi garantiniai minimumai. 
+Naudojant grąžinimų valdymą, automatinis mokėjimų generavimas leidžia greitai ir lengvai tvarkyti autorinius honorarus, net jei taikomi garantiniai minimumai.
 
 ## <a name="maximizing-spend-versus-rebates"></a>Maksimalių išlaidos ir grąžinimai
 
