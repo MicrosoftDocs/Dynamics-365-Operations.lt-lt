@@ -13,12 +13,12 @@ ms.search.region: Lithuania
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1cad6b947746e7fbc47965b4d7bb50204dd772f
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 4692a1f7acf5ab0b4003597d358d646b6e388987dae1a3e79356cda8c2d97bf5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336578"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715914"
 ---
 # <a name="lithuania-overview"></a>Lietuvos apžvalga
 

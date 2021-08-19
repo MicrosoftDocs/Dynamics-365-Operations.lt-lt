@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: cf34a61d0b3f784b5a424473588d05bf8703635c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d8c88b742c1dccb169e47fe96a5c9d9aac35e605be685cc1a0f010826c959db5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823292"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712867"
 ---
 # <a name="put-to-wall---put-to-store"></a>Dėjimas prie sienos - dėjimas į parduotuvę
 
@@ -44,7 +44,7 @@ Prieš jums pradedant naudoti *Dėjimo prie sienos - dėjimo į parduotuvę* fun
 
 ## <a name="setup"></a>Sąranka
 
-Šiai demonstracijai, standartiniai „Contoso“ duomenys ir sandėlis *62* yra naudojamas. Keletas vėliau išvardytų priedų yra taip pat naudojami.
+Šiai demonstracijai, standartiniai Contoso duomenys ir sandėlis *62* yra naudojami. Keletas vėliau išvardytų priedų yra taip pat naudojami.
 
 ### <a name="location-type"></a>Vietos tipas
 
@@ -355,7 +355,7 @@ Privalote sukurti vietos direktyvas, kurios vestų sukurtą darbą po to, kai r�
 
 Šis scenarijus simuliuoja situaciją, kuomet sandėlis talpina mažus objektus vietose ir turi pakuoti juos į dėžės prieš siuntimą bei kai pakavimo stoties veikimas nėra labai tinkamas. Darbuotojai paima užsakymus daugeliui klientų ir skirtingais adresais tuo pačiu metu taip padidindami paėmimo greitį. Po paėmimo, darbuotojais atvyksta į rūšiavimo vietą, kurioje paimti objektai gali būti surūšiuoti į tinkamas dėžės pagal būtinus kriterijus. Šiame pavyzdyje siuntimo identifikavimo kodas bus naudojamas nulemti tinkamą dėžę, nes visi siuntimai turi skirtingus adresus. Po to, kai visi objektai iš krovimo yra supakuoti ir rūšiuoti pagal siuntimus, dėžės bus patraukiamos į paruošimo vietą ir vėliau pakraunamo į sunkvežimį.
 
-Prieš šio scenarijaus pradžią, įsitikinkite, kad visos standartinės sandėlio funkcijos jūsų sandėlyje yra nustatytos tinkamai. Standartinis „Contoso“ sandėlis *62* yra naudojamas šiuo tikslu. Standartinės konfigūracijos nebuvo pakeistos, taip pat nepakeista informacija nustatymuose.
+Prieš šio scenarijaus pradžią, įsitikinkite, kad visos standartinės sandėlio funkcijos jūsų sandėlyje yra nustatytos tinkamai. Standartinis Contoso sandėlis *62* yra naudojamas šiuo tikslu. Standartinės konfigūracijos nebuvo pakeistos, taip pat nepakeista informacija nustatymuose.
 
 ### <a name="create-demand"></a>Kurti paklausą
 

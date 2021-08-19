@@ -14,12 +14,12 @@ ms.search.region: Lithuania
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: efbdd286b02940a53400d3d7ce4dc63d86bfbfb5
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: cbccc27a49b400f8e50342a42f70ffa08f2bc6f6cfdf39b124bb9c77dfbee1fd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348897"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713124"
 ---
 # <a name="isaf-reporting-for-lithuania"></a>Lietuvos i.SAF ataskaitos
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 7ba42df021eddccbae389321b38828c7a92e50c8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 5b8a1beae80ad63f26cd1b532d1d6026a5b38a8701c9c1d0aadfee5da8965477
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020512"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716497"
 ---
 # <a name="rebate-management-deals"></a>Grąžinimų valdymo sandoriai
 
@@ -102,6 +102,7 @@ Sukūrę sandorį, kaip aprašyta ankstesniame skyriuje, galite jį atidaryti i�
         - *Visi* – sandorio eilutė taikoma visoms prekėms.
 
     - **Prekės ryšys** – jei lauke **Prekės kodas** pasirinkote *Lentelė*, pasirinktie prekę, kuriai taikoma sandorio eilutė. Jei pasirinkote *Grupė*, pasirinkite prekių grupę. Jei pasirinkote *Visi*, šis laukas negalimas.
+    - **Vieneto tipas** – pasirinkite vieneto tipą, kuris taikomas sandorio eilutei (*Atsargų vienetas* arba esamo *Svorio vienetas*). Atkreipkite dėmesį, kad šis laukas senesniems įrašams gali būti tuščias. Tokiu atveju *Atsargų vieneto* vertė yra numatoma.
     - **(Atsargų valdymo parametrai)** – likusiuose sandorio eilutės laukuose nurodykite atsargų valdymo parametrų, kurie bus naudojami į sandorį įtrauktoms prekėms apibūdinti, reikšmes (pavyzdžiui, prekės dydis, spalva, stilius, vieta ir sandėlis). Norėdami įtraukti arba pašalinti dimensijas, veiksmų srityje pasirinkite **Rodyti dimensijas**.
 
 1. Veiksmų srityje pasirinkite **Įrašyti**.
