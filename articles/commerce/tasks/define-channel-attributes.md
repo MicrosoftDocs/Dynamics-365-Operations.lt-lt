@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c7f70e20dfc2eb8608c5dfae027c87dc457eb842
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e99c59eba133427dad6d6a27a96b64f06621c932924293e3978d7f540e86153e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791588"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726412"
 ---
 # <a name="define-channel-attributes"></a>Nustatyti kanalo atributus
 
@@ -30,7 +30,7 @@ Papildykite kanalą įtraukdami kanalo ir produkto atributus. Prieš nustatydami
 
 ## <a name="define-channel-product-attribute"></a>Nustatykite kanalo produkto atributą.
 1. Eikite į Mažmeninė prekyba ir prekyba > Kanalo sąranka > Kanalo kategorijos ir produkto atributai.
-2. Medyje pasirinkite „Contoso Retail“ \ Madingos prekės \ „Houston“.
+2. Medyje pasirinkite „Contoso Mažmeninė prekyba\Mada\Hjustonas'.
 3. Spustelėkite Redaguoti.
 4. Lauke Kategorijos hierarchija įveskite arba pasirinkite reikšmę.
     * Naršymo hierarchija bus naudojama produktui jūsų kanaluose naršyti.  

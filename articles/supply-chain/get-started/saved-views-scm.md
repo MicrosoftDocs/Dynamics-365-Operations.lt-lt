@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1b1077fdb4707bf2c019e86cb073b30465817577
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 2544591773bea7d54b4da4ac25ed3fed3f9e3594c5f791a0975c0349583b695c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270664"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728632"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>„Supply Chain Management” standartiniai įrašyti rodiniai
 
@@ -77,6 +77,18 @@ Likusiuose šios temos skyriuose pateikiamos lentelės, kurios aprašo standarti
 | Pirkimo užsakymo informacija | Finansų valdymas | Šis supaprastintos peržiūros rodinys optimizuotas atlikti su finansais susijusias veiklas, pvz., sąskaitų faktūrų išrašymą ir kainų, bendrųjų sumų bei mokesčių tikrinimą. | Įrašyti pirkimo užsakymų rodiniai |
 | Pirkimo užsakymo informacija | Užsakymo patvirtinimas | Šis supaprastintas rodinys optimizuotas pirkimo užsakymams tvirtinti. | Įrašyti pirkimo užsakymų rodiniai |
 
+## <a name="saved-views-for-the-product-information-management-module"></a>Įrašyti Produkto informacijos valdymo modulio rodiniai
+
+Šioje lentelėje aprašomi įrašyti rodiniai, galimi Produkto informacijos valdymo modulyje.
+
+| Puslapis | Rodinio pavadinimas | Peržiūrėti aprašą | Funkcijos pavadinimas |
+|---|---|---|---|
+| Išleistų produktų sąrašas | Produkto kūrimas | Supaprastintas puslapio rodinys apima tik kuriant produktus dažniausiai naudojamus laukus. | Įrašyti išleistų produktų rodiniai |
+| Patvirtinto produkto informacija | Produkto kūrimas | Supaprastintas puslapio rodinys apima tik kuriant produktus dažniausiai naudojamus laukus. | Įrašyti išleistų produktų rodiniai |
+| Patvirtinto produkto informacija | Logistinės informacijos valdymas | Supaprastintas puslapio rodinys apima tik tvarkant produktų logistikos informaciją dažniausiai naudojamus laukus. | Įrašyti išleistų produktų rodiniai |
+| Patvirtinto produkto informacija | Pirkimo informacijos valdymas | Supaprastintas puslapio rodinys apima tik tvarkant produktų pirkimo informaciją dažniausiai naudojamus laukus. | Įrašyti išleistų produktų rodiniai |
+| Patvirtinto produkto informacija | Pardavimo informacijos valdymas | Supaprastintas puslapio rodinys apima tik tvarkant su pardavimu susijusią informaciją dažniausiai naudojamus laukus. | Įrašyti išleistų produktų rodiniai |
+
 ## <a name="saved-views-for-the-production-control-module"></a>Gamybos kontrolės modulio įrašyti rodiniai
 
 Šioje lentelėje aprašomi įrašyti rodiniai, prieinami gamybos kontrolės modulyje.
@@ -110,7 +122,7 @@ Likusiuose šios temos skyriuose pateikiamos lentelės, kurios aprašo standarti
 | Visos siuntos | Gavimo apdorojimas | Šis supaprastintas rodinys apima tik laukus, kurie dažniausiai naudojami gaunamoms siuntoms apdoroti. | Įrašyti rodiniai siuntos apdorojimui |
 | Visos siuntos | Siuntimo apdorojimas | Šis supaprastintas rodinys apima tik laukus, kurie dažniausiai naudojami išsiunčiamoms siuntoms apdoroti. | Įrašyti rodiniai siuntos apdorojimui |
 | Visos bangos | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Įrašytas rodinys bangos apdorojimui |
-| Krovinio planavimo darbo sritis | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Įrašytas darbo planavimo darbo srityje skirtas rodinys |
+| Krovinio planavimo darbo sritis | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Įrašyti rodiniai krovinio planavimo darbo sričiai |
 | Darbo informacija | Supaprastinta | Šiame supaprastintame rodinyje pateikiami tik dažniausiai naudojamus laukus. Tokiu būdu ji pateikia paprastesnę peržiūrą ir supaprastintą darbo procesą. | Įrašytas išsamios darbo informacijos puslapio rodinys |
 
 

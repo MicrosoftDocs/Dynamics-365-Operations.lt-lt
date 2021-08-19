@@ -2,7 +2,7 @@
 title: Dovanų kortelės modulis
 description: Šioje temoje aprašomi dovanų kortelių moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
-ms.date: 04/29/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7fc35c67a2d9b641f03f11ed5d06913e10d8e25b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 5a4aaf8e072f6547fe1dcf6fa156d2e144fd03ed806a2dc809a2cedb991461f7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347505"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728344"
 ---
 # <a name="gift-card-module"></a>Dovanų kortelės modulis
 
@@ -48,11 +48,17 @@ Toliau pateiktame paveikslėlyje parodytas pirkimo užbaigimo puslapyje esančio
 
 - **Rodyti papildomus laukus** – ši ypatybė nurodo, kuriuos laukus reikia rodyti kartu su dovanų kortelės numeriu, kuris visada rodomas pagal numatytuosius nustatymus, naudojant dovanų korteles. Pavyzdžiui, kai kurios dovanų kortelės palaiko asmeninio identifikacijos numerio (PIN) rodymą, o kitos palaiko PIN ir galiojimo datos rodymą. Taip pat gali būti, kad ši ypatybė nustatyta į Nėra, tokiu atveju būtų rodomas tik dovanų kortelės numeris ir nebūtų jokių papildomų laukų.
 
-Palaikomos reikšmės:
--   PIN
--   Galiojimo data
--   PIN ir galiojimo data 
--   Jokia
+    Palaikomos šios vertės:
+
+    - PIN
+    - Galiojimo pabaigos data
+    - PIN ir galiojimo data 
+    - None
+
+- **Įjungti svečių vartotojams** – Kai ši ypatybė įjungta, svečiai vartotojai gali pasinaudoti ar patikrinti balansą dovanų kortelėse. Šiai nuosavybei reikia, kad „Commerce Headquarters" būtų įgalinta anoniminė (svečio) prieiga prie dovanų kortelių. Daugiau informacijos rasite įgalinti [mokėjimus dovanų kortele už svečio išregistravimas](#enable-gift-card-payments-for-guest-checkout).
+
+> [!IMPORTANT]
+> Ypatybė **Įgalinti svečiui pasiekiama** pagal „Commerce" 10.0.21 versiją. Tam reikia, kad būtų įdiegta „Commerce“ modulio bibliotekos paketo versija 9.31.
 
 ## <a name="site-settings-for-gift-card-modules"></a>Dovanų kortelių modulių svetainės parametrai
 

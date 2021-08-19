@@ -1,8 +1,8 @@
 ---
 title: Pardavimo užsakymų kredito sulaikymai
 description: Šioje temoje aprašoma taisyklių, naudojamų pardavimo užsakymų kredito sulaikymui, sąranka.
-author: mikefalkner
-ms.date: 01/25/2019
+author: JodiChristiansen
+ms.date: 07/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,16 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d94b19061838f9bb2552c3c91c6b3591040ccf52
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 14cafa69e75d7e8a0f08fb385a8c364c0162da1ec609a4e0b3cad6178ec3f716
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827655"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723972"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Pardavimo užsakymų kredito sulaikymai
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Šioje temoje aprašoma taisyklių, naudojamų pardavimo užsakymų kredito sulaikymui, sąranka. Kredito valdymo blokavimo taisyklės gali būti taikomos atskiram klientui arba klientų grupei. Blokavimo taisyklės apibrėžia atsakymus esant šioms aplinkybėms:
 
@@ -41,6 +42,11 @@ Be to, yra du parametrai, kurie valdo papildomus scenarijus, blokuojančius pard
 
 Kai klientas inicijuoja pardavimo operaciją, pardavimo užsakymo informacija peržiūrima pagal blokavimo taisyklių, pagal kurias priimamas sprendimas, ar pratęsti kliento kreditą ir leisti toliau vykdyti pardavimą, rinkinį. Taip pat galite apibrėžti išimtis, kurios nepaisys blokavimo taisyklių ir leis apdoroti pardavimo užsakymą. Galite nustatyti blokavimo taisykles ir pašalinimo taisykles puslapyje **Kredito valdymas > Sąranka > Kredito valdymo sąranka > Blokavimo taisyklės**.
 
+Pagal versiją 10.0.21 kredito valdymo blokavimo taisyklės buvo iš naujo architektuota šiais būdais, kad būtų galima suteikti daugiau lankstumo:
+
+- Buvo įgalintos extensibility užklausos, kad būtų galima sukurti savo blokavimo taisykles.
+- Dabar **visų blokavimo taisyklių** žymės langelis Išleisti pardavimo užsakymą yra galimas. Anksčiau ji buvo galima tik pardavimo užsakymų blokavimo taisyklei. Kai šis žymės langelis pažymėtas, pašalinimo taisyklė išleis pardavimo užsakymą neįtraukdama jokių kitų taisyklių, kurios gali blokuoti pardavimo užsakymus. Šis žymės langelis galimas tik **pašalinimo** taisyklės tipui.
+
 ### <a name="days-overdue"></a>Pradelstos dienos
 
 Atidarykite skirtuką **Pradelstos dienos**, jei blokavimo taisyklė taikoma klientui su viena ar keliomis SF, kurios buvo pradelstos tam tikrą dienų skaičių.
@@ -57,7 +63,7 @@ Atidarykite skirtuką **Pradelstos dienos**, jei blokavimo taisyklė taikoma kli
 5. Pasirinkite **Vertės tipas**. Numatytasis įrašas yra fiksuotas dienų skaičius. Jei kuriate pašalinimą, galite nurodyti fiksuotą dienų skaičių arba sumą. 
 6. Įveskite **Pradelstos** dienų skaičių, kuris bus leistinas pasirinktai blokavimo taisyklei prieš užsakymo pateikimą į kreditų valdymo sulaikymą peržiūrai. Pradelstų dienų skaičius nurodo papildomą atidėjimo dienų skaičių, kuris įtraukiamas į dienų po mokėjimo termino datos skaičių, kuris gali būti taikomas SF, kol ji pradedama laikyti kaip pradelsta. Jei **Vertės tipas** nurodėte kaip pašalinimo sumą, tada įveskite tos sumos sumą ir valiutą.
 
-### <a name="accounts-status"></a>Sąskaitos būsena
+### <a name="account-status"></a>Sąskaitos būsena
 
 Atidaryti skirtuką **Sąskaitos būsena**, jei blokavimo taisyklė taikoma klientui su pasirinkta sąskaitos būsena.
 1. Pasirinkti taisyklės, kurią nustatote, tipą.  **Blokavimas** sukurs taisyklę, kuri blokuoja užsakymą. **Pašalinimas** sukurs taisyklę, kuri pašalins kitą taisyklę, kad neblokuotų užsakymo. 
@@ -102,7 +108,7 @@ Atidaryti skirtuką **Pradelsta suma**, jei blokavimo taisyklė taikoma klientam
    - Pasirinkite **Blokavimas**, kad sukurtumėte taisyklę, kuri blokuoja užsakymą. 
    - Pasirinkite **Pašalinimas**, kad sukurtumėte taisyklę, kuri pašalins kitą taisyklę, kad neblokuotų užsakymo. 
 5. Pasirinktai blokavimo taisyklei įveskite **Pradelsta suma** prieš užsakymo pateikimą į kredito valdymo sulaikymą peržiūrai. 
-6. Pasirinkite **Vertės tipas**, kuris nurodo vertės tipą, kuris bus taip pat bus naudojamas siekiant patikrinti, kiek kredito limito išnaudota. Blokavimo taisyklei reikia nurodyti procentus, o pašalinimui – fiksuotą sumą arba procentus. Ribinė vertė yra susijusi su kredito limitu.
+6. Pasirinkite **Vertės tipas**, kuris nurodo vertės tipą, kuris bus taip pat bus naudojamas siekiant patikrinti, kiek kredito limito išnaudota. Blokavimo taisyklės ir pašalinimo taisyklės leidžia naudoti tik vėluojančią sumą **procentinę dalį**. Ribinė vertė yra susijusi su kredito limitu.
 7. Pasirinktai taisyklei įveskite **Kredito limito ribinė vertė** prieš klientą įtraukiant į kreditų valdymo sulaikymą. Tai gali būti suma arba procentas, pagrįstas vertės tipu pagal pasirinktą vertės tipą.
 8. Taisyklė patikrina, ar viršijama **Pradelsta suma** ir ar viršijama **Kredito limito ribinė vertė**. 
 
@@ -122,8 +128,6 @@ Pasirinkite **Pardavimo užsakymas**, jei blokavimo taisyklė taikoma pardavimo 
    - Pasirinkite **Blokavimas**, kad sukurtumėte taisyklę, kuri blokuoja užsakymą. 
    - Pasirinkite **Pašalinimas**, kad sukurtumėte taisyklę, kuri pašalins kitą taisyklę, kad neblokuotų užsakymo. 
 5. Pasirinktai blokavimo taisyklei įveskite **Pardavimo užsakymo suma** prieš užsakymo pateikimą į kredito valdymo sulaikymą. 
-
-Pardavimo užsakymo taisyklėje yra papildomas parametras, kuris nepaiso visų kitų taisyklių. Norėdami sukurti pašalinimą, kuris išleis pardavimo užsakymą, neatsižvelgdamas į jokias kitas taisykles, pasirinkite žymės langelį **Išleisti pardavimo užsakymą**, esantį pašalinimo eilutėje.
 
 ### <a name="credit-limit-used"></a>Panaudotas kredito limitas
 
