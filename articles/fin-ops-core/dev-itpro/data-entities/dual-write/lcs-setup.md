@@ -1,8 +1,8 @@
 ---
 title: Dvigubo rašymo sąranka iš „Lifecycle Services“
 description: Šioje temoje paaiškinama, kaip nustatyti dvigubo rašymo ryšį iš „Microsoft Dynamics Lifecycle Services” (LCS).
-author: RamaKrishnamoorthy
-ms.date: 05/11/2021
+author: laneswenka
+ms.date: 08/03/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
@@ -10,12 +10,12 @@ ms.search.region: global
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e604e1491bbafa041fa3f52ad0f8b454c63d47de
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 060734154607263b5fed80b21fc9355b513ea26e3b1be88498310905531dceaa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359368"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729048"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Dvigubo rašymo sąranka iš „Lifecycle Services“
 
@@ -66,5 +66,18 @@ Norėdami nustatyti dvigubą rašymą esamai „Dataverse” aplinkai, turite su
 
 > [!NOTE]
 > Negalite atsieti aplinkos naudodami LCS. Norėdami atsieti aplinką, aplinkoje Finance and Operations atidarykite darbo sritį **Duomenų integravimas** ir pasirinkite **Atsieti**.
+
+## <a name="linking-mismatch"></a>Susiejimų neatitikimas
+
+Gali būti, kad jūsų LCS aplinka susieta su vienu „Dataverse“ egzemplioriumi, o jūsų dvigubo rašymo aplinka susieta su kitu „Dataverse“ egzemplioriumi. Šis susiejimo neatitikimas gali sukelti netikėtą veikimo būdą ir gali baigtis duomenų siuntimą į netinkamą aplinką. Dvigubo rašymo atveju rekomenduojama aplinka yra ta, kuri sukurta kaip integravimo dalis, ir ilgalaikio, tai bus vienintelis būdas nustatyti ryšį „Power Platform“ tarp aplinkos.
+
+Jei jūsų aplinkoje yra susiejimų neatitikimas, LCS rodo įspėjimą jūsų aplinkos informacijos puslapyje, panašią į „Microsoft" aptiko, kad jūsų aplinka susieta su dvigubo rašymo vieta į kitą paskirties vietą, nei nurodyta integravimą; tai „Power Platform“ nerekomenduojama":
+
+:::image type="content" source="media/powerplat_integration_mismatchLink.png" alt-text="Power Platform nesutampa integravimo saitas.":::
+
+Aptinkant šią klaidą yra dvi pasirinktys, paremtos jūsų poreikiais:
+
++ [Atsiekite ir atsiekite dvigubo rašymo aplinkas (iš naujo nustatykite arba keiskite susiejimą), kaip nurodyta](relink-environments.md#scenario-reset-or-change-linking) LCS aplinkos informacijos puslapyje. Tai geriausia pasirinktis, kadangi galite ją vykdyti be „Microsoft“ palaikymo.  
++ Jei norite išsaugoti savo saitą dvigubo rašymo metu, galite paprašyti pagalbos iš „Microsoft" palaikymo, kad pakeist būtų galima pakeisti integravimą, kad jūsų esama aplinka būtų naudojama kaip „Power Platform“ ir „Dataverse“ dokumentuota ankstesniame skyriuje.  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

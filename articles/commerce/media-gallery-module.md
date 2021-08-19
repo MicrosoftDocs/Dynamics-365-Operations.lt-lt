@@ -2,7 +2,7 @@
 title: Medijos galerijos modulis
 description: Šis skyrius aprašo medijos galerijos modulius ir tai, kaip įtraukti juos į vietos puslapius „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
-ms.date: 04/23/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 1d8e8ce51d9e7f962a4d4e39db502089d846d748
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 328a56a6efbdd97c8dac32d65c65ad31953cdb4c3ce56ef818ebe8bf633f93a4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346721"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733202"
 ---
 # <a name="media-gallery-module"></a>Medijos galerijos modulis
 
@@ -56,6 +56,10 @@ Kitu atveju, medijos galerijos modulis gali talpinti visą išdirbtą paveikslė
 | Vaizdai | Svetainės kūrimo įrankyje „Media Library“ pasirinkti paveikslėliai | Kartu su kūrimu iš produkto, paveikslėliai gali būti išdirbami medijos galerijos moduliui. Šie paveikslėliai bus pridėti prie bet kurio gaminio prieinamų paveikslėlių. Ši savybė yra prieinama 10.0.12 prekybos versijoje. |
 | Miniatiūros orientacija | **Vertikaliai** ar **Horizontaliai** | Ši ypatybė nurodo, ar miniatiūros paveikslėliai turi būti rodomi vertikalioje ar horizontalioje juostoje. |
 | Slėpti varianto bendrojo produkto vaizdus | **Teisinga** arba **Klaidinga** | Jei ši ypatybė nustatyta kaip Teisinga, pasirinkus variantą bendrojo produkto vaizdai **paslėpti**, nebent variante nėra vaizdų. Ši ypatybė neturi įtakos produktams, kurie neturi variantų. |
+| Atnaujinti dimensijų pasirinkimo medijas | **Teisinga** arba **Klaidinga** | Jei ši ypatybė nustatyta kaip **Teisinga**, media bibliotekos vaizdai bus atnaujinti pasirinkus bet kokią dimensiją (pvz., spalvą, stilių arba dydį) ir jei vaizdas yra galimas. Ši ypatybė padeda supaprastinti naršymo patirtį, nes reikia pasirinkti ne visas produkto varianto dimensijas, kad būtų galima atnaujinti atitinkamą vaizdą. Ši ypatybė prieinama skirtuke **Papildoma**. |
+
+> [!IMPORTANT]
+> Dimensijų **pasirinkimo ypatybėje atnaujinti mediją** galima naudoti kaip „Commerce" 10.0.21 versiją. Tam reikia, kad būtų įdiegta „Commerce“ modulio bibliotekos paketo versija 9.31.
 
 Toliau pateiktas paveikslėlis rodo medijos galerijos modulio pavyzdį, kuriame visas ekranas ir priartinimo parinktys yra prieinamos.
 
