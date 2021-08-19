@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 672db002ddf8d12aaab5b97241390c036ad7ab5c
-ms.sourcegitcommit: 8fb79920bea14746a71551a4456236a6386bfcea
+ms.openlocfilehash: 20e74e97f98d0bc0fd454d54cbf969d4f1b46c7c98b2949b0ed8cfe671312dd2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "6538859"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768196"
 ---
 # <a name="payroll-employee"></a>Algalapio darbuotojas
 
@@ -33,27 +33,25 @@ Faktinis pavadinimas: „mshr_payrollemployeeentity”.
 Šiame objekte pateikta informacija apie darbuotoją. Privalote nustatyti [algalapio integravimo parametrus](hr-admin-integration-payroll-api-parameters.md) prieš naudodami šį objektą.
 
 >[!IMPORTANT] 
->**Vardo**, **Vidurinio vardo**, **Pavardės**, **Vardas galioja nuo** ir **Vardas galioja iki** laukų nebegalima naudoti šiame objekte. Taip siekiama užtikrinti, kad šiam objektui būtų galima sukurti tik vieną veiksmingą atsarginį duomenų šaltinį, kuris yra **Hcm Įdarbinimas** naudojant laukus **Įdarbinimo pradžios data** ir **Įdarbinimo pabaigos data**.
-
->Šie laukai bus galimi **Tiesioginio asmens vardo retrospektyviniame objekte** kuris buvo išleistas 43 platformos naujinime. Yra „OData” ryšys yra iš **Algalapio darbuotojo objekto** į **Tiesioginio asmens vardo retrospektyvinį objektą** lauke **Asmuo**. Taip pat, **Tiesioginio asmens vardo retrospektyvinis objektas** gali būti tiesiogiai užklaustas per „OData” naudojant viešąjį pavadinimą **Asmens retrospektyviniai vardai**.
-
+>**Vardo**, **Vidurinio vardo**, **Pavardės**, **Vardas galioja nuo** ir **Vardas galioja iki** laukų nebegalima naudoti šiame objekte. Taip užtikrinama, kad yra tik vienas duomenų šaltinis, kuris atims šiam objektui atsarginį duomenų šaltinį.
+>Šie laukai bus galimi **Tiesioginio asmens vardo retrospektyviniame objekte** kuris buvo išleistas 43 platformos naujinime. Yra „OData” ryšys yra iš **Algalapio darbuotojo objekto** į **Tiesioginio asmens vardo retrospektyvinį objektą** lauke **Asmuo**. 
 
 ## <a name="properties"></a>Ypatybės
 
 | Ypatybė<br>**Faktinis pavadinimas**<br>**_Tipas_** | Naudoti | Aprašas |
 | --- | --- | --- |
-| **Darbuotojo numeris**<br>„mshr_personnelnumber”<br>*Eilutė* | Tik skaitomas<br>Būtina | Unikalus darbuotojo personalo numeris. |
-| **Pirminis laukas**<br>mshr_primaryfield<br>*Eilutė* | Būtina<br>Sistemos sugeneruota |  |
-| **Juridinio subjekto ID**<br>„mshr_legalentityID”<br>*Eilutė* | Tik skaitomas<br>Būtina | Nurodo juridinį asmenį (įmonę). |
-| **Giminė**<br>mshr_gender<br>[mshr_hcmpersongender parinkties nustatymas](hr-admin-integration-payroll-api-gender.md) | Tik skaitomas<br>Būtina | Darbuotojo lytis. |
+| **Darbuotojo numeris**<br>„mshr_personnelnumber”<br>*Eilutė* | Tik skaitomas | Unikalus darbuotojo personalo numeris. |
+| **Pirminis laukas**<br>mshr_primaryfield<br>*Eilutė* | Tik skaitomas<br>Sistemos sugeneruota |  |
+| **Juridinio subjekto ID**<br>„mshr_legalentityID”<br>*Eilutė* | Tik skaitomas | Nurodo juridinį asmenį (įmonę). |
+| **Giminė**<br>mshr_gender<br>[mshr_hcmpersongender parinkties nustatymas](hr-admin-integration-payroll-api-gender.md) | Tik skaitomas | Darbuotojo lytis. |
 | **Algalapio darbuotojo objekto ID**<br>„mshr_payrollemployeeentityid”<br>*GUID* | Būtina<br>Sistemos sugeneruota | Sistemos sukurta GUID reikšmė, skirta unikaliai atpažinti darbuotoją. |
-| **Įdarbinimo pradžios data**<br>„mshr_employmentstartdate”<br>*Datos ir laiko poslinkis* | Tik skaitomas<br>Būtina | Darbuotojo įdarbinimo pradžios data. |
-| **Identifikacijos tipo ID**<br>mshr_identificationtypeid<br>*Eilutė* |Tik skaitomas<br>Būtina | Darbuotojui apibrėžtas identifikacijos tipas. |
-| **Įdarbinimo pabaigos data**<br>„mshr_employmentenddate”<br>*Datos ir laiko poslinkis* | Tik skaitomas<br>Būtina |Darbuotojo įdarbinimo pabaiga.  |
-| **Srities Duomenys ID**<br>„mshr_dataareaid_id”<br>*GUID* | Būtina <br>Sistemos sugeneruota | Sistemos sukurta GUID vertė, rodanti juridinį subjektą (įmonę). |
-| **Galioja iki**<br>„mshr_namevalidto”<br>*Datos ir Laiko poslinkis* |  Tik skaitomas<br>Būtina | Data, iki kurios galioja darbuotojo informacija. |
-| **Gimimo data**<br>mshr_birthdate<br>*Datos ir Laiko poslinkis* | Tik skaitomas <br>Būtina | Darbuotojo gimimo data |
-| **Identifikacijos numeris iki**<br>mshr_identificationnumber<br>*Eilutė* | Tik skaitomas <br>Būtina |Darbuotojui apibrėžtas identifikacijos numeris.  |
+| **Įdarbinimo pradžios data**<br>„mshr_employmentstartdate”<br>*Datos ir laiko poslinkis* | Tik skaitomas | Darbuotojo įdarbinimo pradžios data. |
+| **Identifikacijos tipo ID**<br>mshr_identificationtypeid<br>*Eilutė* |Tik skaitomas | Darbuotojui apibrėžtas identifikacijos tipas. |
+| **Įdarbinimo pabaigos data**<br>„mshr_employmentenddate”<br>*Datos ir laiko poslinkis* | Tik skaitomas |Darbuotojo įdarbinimo pabaiga.  |
+| **Srities Duomenys ID**<br>„mshr_dataareaid_id”<br>*GUID* | Tik skaitomas <br>Sistemos sugeneruota | Sistemos sukurta GUID vertė, rodanti juridinį subjektą (įmonę). |
+| **Galioja iki**<br>„mshr_namevalidto”<br>*Datos ir Laiko poslinkis* |  Tik skaitomas | Data, iki kurios galioja darbuotojo informacija. |
+| **Gimimo data**<br>mshr_birthdate<br>*Datos ir Laiko poslinkis* | Tik skaitomas | Darbuotojo gimimo data |
+| **Identifikacijos numeris iki**<br>mshr_identificationnumber<br>*Eilutė* | Tik skaitomas |Darbuotojui apibrėžtas identifikacijos numeris.  |
 
 ## <a name="example-query-for-payroll-employee"></a>Algalapio darbuotojo užklausos pavyzdys
 
