@@ -2,7 +2,7 @@
 title: Planavimas, kai turimi kiekiai neigiami
 description: Šioje temoje paaiškinama, kaip tvarkomas neigiamas turimas kiekis naudojant planavimo optimizavimo funkciją.
 author: ChristianRytt
-ms.date: 02/18/2020
+ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 1c403e23309dda36dd1c99e22bbae0aa2d6d76a4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 97688e09aae9706dd85e7965aa08c7ea873a44d81391c39406e2e6367660e0d0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813104"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758549"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Planavimas, kai turimi kiekiai neigiami
 
@@ -73,17 +73,29 @@ Todėl bendrasis turimas 13 sandėlio kiekis yra &minus;4 vnt. (= 4 vnt. &minu
 
 Rezultatas yra suplanuotas 25 vnt. užsakymas (= 25 vnt. &minus; 0 vnt.), kad 13 sandėlis būtų pripildytas nuo 0 vnt. iki 25 vnt.
 
+## <a name="planning-when-there-is-a-reservation-against-negative-on-hand-inventory"></a>Planavimas, kai yra rezervavimas dėl neigiamų turimų atsargų
+
+Jeigu atsargas koreguojate, kai yra faktinių rezervavimų, galite sukelti situaciją, kai užsakymas faktiškai rezervuojamas prieš neigiamas atsargas. Tokiu atveju, kadangi yra faktinis rezervavimas, Planavimo optimizavimas daro prielaidą, kad jį palaiko turimos atsargos, net jei turimų atsargų gavimas dar neužregistruotas sistemoje. Todėl daroma prielaida, kad papildymas nėra reikalingas ir nesukuriamas suplanuotas užsakymas užsakymo kiekiui papildyti.
+
+Toliau pateiktas pavyzdys iliustruoja šį scenarijų.
+
+### <a name="example"></a>Pavyzdys
+
+Sistema konfigūruota tokiu būdu:
+
+- Produktas *FG* yra ir turima *10* vnt. turimų atsargų.
+- Produkto konfigūracija leidžia faktines neigiamas atsargas.
+- Pardavimo užsakymą sudaro *10* vnt. kiekiui. produkto *FG*.
+- Pardavimo užsakymo kiekis faktiškai rezervuojamas pagal esamas turimas atsargas.
+
+Tada galite koreguoti produkto *FG* kiekį, kad turimos atsargos taptų 0 (nulinės). Kadangi turimos produkto atsargos yra nulinės, pardavimo užsakymo kiekis dabar rezervuojamas neigiamoms atsargoms. Tačiau jei paleisite pagrindinį planavimą dabar, nebus sukurtas joks suplanuotas užsakymas, kuris tiekia pardavimo užsakymą, kadangi Planavimo optimizavimas padarys prielaidą, kad yra reikiamų turimų atsargų, kurios reikalingos faktiniui rezervavimui pateikti.
+
 ## <a name="related-resources"></a>Susiję ištekliai
 
-[Planavimo optimizavimo apžvalga](planning-optimization-overview.md)
-
-[Darbo su planavimo optimizavimu pradžia](get-started.md)
-
-[Planavimo optimizavimo tinkamumo analizė](planning-optimization-fit-analysis.md)
-
-[Plano retrospektyvos ir planavimo žurnalų peržiūra](plan-history-logs.md)
-
-[Planavimo užduoties atšaukimas](cancel-planning-job.md)
-
+- [Planavimo optimizavimo apžvalga](planning-optimization-overview.md)
+- [Darbo su planavimo optimizavimu pradžia](get-started.md)
+- [Planavimo optimizavimo tinkamumo analizė](planning-optimization-fit-analysis.md)
+- [Plano retrospektyvos ir planavimo žurnalų peržiūra](plan-history-logs.md)
+- [Planavimo užduoties atšaukimas](cancel-planning-job.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

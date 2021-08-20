@@ -2,7 +2,7 @@
 title: Tinklelio charakteristikos
 description: Šioje temoje aprašomos kelios galingos tinklelio valdiklio funkcijos. Norėdami turėti prieigą prie šių galimybių, turite įjungti naują tinklelio funkcija.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 08/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b7a1809a3012af86ad9ba39da8721c63b3c4b885
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 9bdefeedf8bbbe60f3f76d234f9b393cc8e5dbe8ede7e320e00d0b8e20dbbf73
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923603"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775247"
 ---
 # <a name="grid-capabilities"></a>Tinklelio charakteristikos
 
@@ -158,6 +158,13 @@ Jei jūsų organizacija atranda puslapį, kuris turi tam tikrų problemų naudod
  ```this.forceLegacyGrid();```
 
 Ši API bus palaikoma iki 2021 m. spalio išleidimo, kai naujo tinklelio valdymas taps privalomas. Jei sprendžiant tam tikras problemas reikia naudoti šią API, praneškite apie jas „Microsoft”.
+
+### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Norint pasirinkti puslapį naudoti naują tinklelį, prieš tai pasirinkus tinklelį
+Jei esate pasirinkę atskirą puslapį naudoti naują tinklelį, vėliau, išspręsę susijusias problemas, galite norėti iš naujo įgalinti naują tinklelį. Norėdami tai padaryti, tiesiog reikia pašalinti `forceLegacyGrid()` iškvietimą. Pakeitimas įsigalios tik tada, kai:
+
+- **Aplinkos pakartotinis diegimas**: kai aplinka atnaujinama ir diegiama iš naujo, lentelė, kurioje saugomi puslapiai, kurie atsijungė nuo naujo tinklelio (FormControlReactGridState) automatiškai išvalomi.
+
+- **Neautomatinis lentelės išvalymas**: programavimo scenarijuose turėsite naudoti SQL norėdami išvalyti lentelę FormControlReactGridState, tada iš naujo paleisti AOS. Šiuo veiksmų deriniu bus iš naujo nustatytas puslapių, kurie buvo pasirinkti iš naujo tinklelio, kaupimas talpykloje.  
 
 ## <a name="developer-size-to-available-width-columns"></a>[Kūrėjas] Iki galimo pločio dydžio stulpeliai
 Jei kūrėjas nustato **WidthMode** ypatybę į **SizeToAvailable** stulpeliams naujame tinklelyje, tie stulpeliai iš pradžių turi tokį plotį, kokį jie turėtų, jei ypatybė būtų nustatyta į **SizeToContent**. Tačiau jie ištempiami, norint tinklelyje naudoti bet kokį galimą papildomą plotį. Jei ypatybė nustatyta į **SizeToAvailable** keliems stulpeliams, visi šie stulpeliai bendrai naudoja bet kokį galimą papildomą plotį tinklelyje. Tačiau, jei vartotojas rankiniu būdu keičia vieno iš šių stulpelių dydį, stulpelis tampa statiniu. Jis išliks tokio pločio ir nebebus ištempiamas, kad būtų galima naudoti galimą papildomą tinklelio plotį.  

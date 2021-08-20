@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4162ae04c58a88c7c3aac56297a6c12db98b15c2
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8c68b8ed1703f2cd49d47fad73485e9e4093aa82b902a484fb79bad4dd2dcbfb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019231"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773566"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10018-may-2021"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ versijoje 10.0.18 (2021 m. gegužės mėn.)
 
@@ -37,9 +37,11 @@ Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Norėdami peržiūr�
 
 - Automatinis pirkimo užsakymų leidimas (patobulinimas [Sandėlio vykdymui naudojant skalės vienetus debesyje](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud))<br> - Daugiau informacijos rasite[Sandėlio valdymo darbo krūviai debesies ir ribinės skalės vienetams](../cloud-edge/cloud-edge-workload-warehousing.md).
 
-- [Atsargų efektyvumo tobulinimai ir archyvavimas įmonės mastu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Daugiau informacijos rasite [Atsargų operacijų archyvavimas](../inventory/archive-inventory-transactions.md)
+- [Kurti ir peržiūrėti sertifikavimus tiekėjo bendradarbiavimo sąsajoje](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/create-view-certifications-vendor-collaboration-interface)<br> - Dėl daugiau informacijos, žr. [Tiekėjo valdymo sertifikatas](../../finance/public-sector/manage-vendor-certification.md).
 
-- [Grąžinimų valdymas](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Daugiau informacijos rasite [Grąžinimų valdymo modulio apžvalga](../rebate-management/rebate-management-overview.md)
+- [Atsargų efektyvumo tobulinimai ir archyvavimas įmonės mastu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Daugiau informacijos rasite [Atsargų operacijų archyvavimas](../inventory/archive-inventory-transactions.md).
+
+- [Grąžinimų valdymas](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Daugiau informacijos rasite [Grąžinimų valdymo modulio apžvalga](../rebate-management/rebate-management-overview.md).
 
 - [Pardavimų duomenų objekto eksportavimo sąrankos strategija](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-data-entity-export-setup-policy)
 

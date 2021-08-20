@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: fe0e63ef742b7bfd09684a94d273a1841d24599c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 076a4dfdc49525eef616d1008073371be1dd4a248cd6f16d395b544ae70e7531
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828278"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757499"
 ---
 # <a name="pick-line-grouping"></a>Paėmimo eilutės grupavimas
 
@@ -116,7 +116,7 @@ Kad galėtumėte nustatyti paėmimo eilutės grupavimą, turite sukurti tinkamą
     - **Prekė M9201:** *3* vienetai
     - **Prekė M9202:** *9* vienetai
 
-1. Prieš perduodami užsakymus į sandėlį, turite įsitikinti, kad paėmimo vietose pakanka atsargų visoms prekėms visuose užsakymuose pateikti. Patikrinkite parametrą **Vietos nurodymas**, kad nustatytumėte paėmimo vietas, naudojamas pardavimo užsakymo paėmimui atlikti. Jei naudojate „Contoso” demonstracinių duomenų aplinką *„51”* sandėliui, patvirtinkite, kad yra galimų atsargų.
+1. Prieš perduodami užsakymus į sandėlį, turite įsitikinti, kad paėmimo vietose pakanka atsargų visoms prekėms visuose užsakymuose pateikti. Patikrinkite parametrą **Vietos nurodymas**, kad nustatytumėte paėmimo vietas, naudojamas pardavimo užsakymo paėmimui atlikti. Jei naudojate Contoso demonstracinių duomenų aplinką *51* sandėliui, patvirtinkite, kad yra galimų atsargų.
 
     Dabar turite rezervuoti atsargas kiekvienai eilutei.
 
