@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd5a92470b711b9d316e4fe96aecadd7252ff807
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 48fef68dc3e5935f0032ca006840202b53d577e06e5376ead0b66eca2a9c36bb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360154"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740844"
 ---
 # <a name="copy-an-instance"></a>Egzemplioriaus kopijavimas
 
@@ -52,9 +52,9 @@ Kad nukopijuotumėte egzempliorių, atminkite šiuos patarimus:
 
 - Dokumentai, esantys „Microsoft Azure“ didelių dvejetainių objektų saugykloje, nėra kopijuojami iš vienos aplinkos į kitą. Todėl bet kurie pridėti dokumentai ir šablonai nebus kopijuojami ir liks šaltinio aplinkoje.
 
-- Visi vartotojai išskyrus administratoriaus teises turintį vartotoją ir kiti vidinių paslaugų vartotojų klientai nebus pasiekiami. Administratoriaus vartotojas gali panaikinti arba paslėpti duomenis prieš suteikiant galimybę kitiems vartotojams vėl prisijungti prie sistemos.
+- Visi vartotojai, išskyrus tuos, kurių saugos vaidmuo "Sistemos administratorius" ir kiti vidinių paslaugų vartotojų abonementai yra negalimi. Administratoriaus vartotojas gali panaikinti arba paslėpti duomenis prieš suteikiant galimybę kitiems vartotojams vėl prisijungti prie sistemos.
 
-- Administratoriaus teises turintis vartotojas turi atlikti būtinus konfigūravimo keitimus, pvz., iš naujo sujungti integravimo galinius punktus su konkrečiomis tarnybomis arba konkrečiais URL.
+- Bet kuris vartotojas su sistemos administratoriaus saugumo vaidmeniu gali atlikti būtinus konfigūravimo keitimus, pvz., iš naujo sujungti integravimo galinius punktus su konkrečiomis tarnybomis arba konkrečiais URL.
 
 ## <a name="copy-the-human-resources-database"></a>„Human Resources“ duomenų bazės kopijavimas
 
@@ -75,7 +75,7 @@ Norėdami atlikti šią užduotį, pirmiausia nukopijuokite egzempliorių, tada 
 
 5. Pažymėkite **„Power Platform“** ir prisijunkite prie „Microsoft Power Platform“ administravimo centro.
 
-   ![[Pasirinkt „Power Platform”.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Pasirinkti „Power Platform“.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Pasirinkite kopijuotiną „Power Apps“ aplinką ir pasirinkite **Kopijuoti**.
 
@@ -111,7 +111,7 @@ Kai kurie iš šių elementų negali būti kopijuojami, nes jie būdingi tam tik
 
 Taip pat, šios būsenos keičiasi, kai nukopijuojate egzempliorių:
 
-- Visi vartotojai, išskyrus administratorių, nustatyti kaip **Išjungtas**.
+- Visi vartotojai, išskyrus tuos, kurių saugos vaidmuo Sistemos administratorius nustatytas kaip **Išjungta**.
 
 - Visos paketinės užduotys, išskyrus kai kurias sistemos užduotis, yra nustatytos kaip **Sulaikyti**.
 

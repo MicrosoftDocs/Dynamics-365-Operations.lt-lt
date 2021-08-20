@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: dc065684952cbbe2a324b766dc8c465371cdb49d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 725b6dea98805baaf3f4d60b3922543067a205bc7196a05f33af21a6cd680a37
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345505"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740700"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Sandėlio valdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams
 
@@ -142,7 +142,7 @@ Tolesni darbo užsakymo tipai šiuo metu palaikomi WES darbo krūviuose skalės 
 
 - Pardavimo užsakymai
 - Perkėlimo išdavimas
-- Papildymas
+- Papildymas (neįskaitant gamybos žaliavų)
 - Atsargų perkėlimas
 - Ciklo skaičiavimas
 - Pirkimo užsakymai (susieti su sandėlio užsakymais)
@@ -297,7 +297,8 @@ Tolesnė lentelė apibendrina, kurie sandėlio valdymo gamybos scenarijai nėra 
 |---------|-----|------------------------------|
 | Ataskaita apie baigtas ir atidėtas prekes | Taip | Taip |
 | Sudėtinis produktas ir šalutinis produktas atidėti | Taip | Taip |
-| <p>Visi kiti sandėlio valdymo procesai susiję su gamyba, įskaitant:</p><li>Išleisti į sandėlį</li><li>Gamybos bangos tvarkymas</li><li>Žaliavų paėmimas</li><li>„Kanban“ atidėtas</li><li>„Kanban“ paėmimas</li><li>Pradėti gamybos užsakymą</li><li>Gamybos nurašymas</li><li>Paskutinis produkcijos padėklas</li><li>Medžiagų sunaudojimo registravimas</li><li>Tuščias „kanban“</li></ul> | Taip | Ne |
+| <p>Visi kiti sandėlio valdymo procesai susiję su gamyba, įskaitant:</p><li>Išleisti į sandėlį</li><li>Gamybos bangos tvarkymas</li><li>Žaliavų paėmimas</li><li>„Kanban“ atidėtas</li><li>„Kanban“ paėmimas</li><li>Pradėti gamybos užsakymą</li><li>Gamybos nurašymas</li><li>Paskutinis produkcijos padėklas</li><li>Registruoti medžiagų sunaudojimą</li><li>Tuščias „kanban“</li></ul> | Taip | nr. |
+| Žaliavų papildymas | nr. | nr. |
 
 ## <a name="maintaining-scale-units-for-wes"></a>Skalės vienetų WES palaikymai
 
