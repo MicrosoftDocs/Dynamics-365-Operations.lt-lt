@@ -5,6 +5,8 @@
       items:
         - name: Kas nauja ar pasikeitė „Human Resources”
           href: hr-admin-whats-new.md
+        - name: "2021\_m. liepos 26\_d."
+          href: hr-whats-new-2021-07-26.md
         - name: "2021\_m. liepos 12\_d."
           href: hr-whats-new-2021-07-12.md
         - name: 2021 m. birželio 22 d.
@@ -27,38 +29,38 @@
           href: hr-whats-new-2021-01-28.md
         - name: 2021 m. sausio 21 d.
           href: hr-whats-new-2021-01-21.md
-        - name: "2020\_m. gruodžio 2\_d."
-          href: hr-whats-new-2020-12-02.md
-        - name: "2020\_m. spalio 22\_d."
-          href: hr-whats-new-2020-10-22.md
-        - name: "2020\_m. spalio 6\_d."
-          href: hr-whats-new-2020-10-06.md
-        - name: "2020\_m. rugsėjo 26\_d."
-          href: hr-whats-new-2020-09-26.md
-        - name: "2020\_m. rugsėjo 16\_d."
-          href: hr-whats-new-2020-09-16.md
-        - name: "2020\_m. rugsėjo 3\_d."
-          href: hr-whats-new-2020-09-03.md
-        - name: "2020\_m. rugpjūčio 20\_d."
-          href: hr-whats-new-2020-08-20.md
-        - name: "2020\_m. rugpjūčio 6\_d."
-          href: hr-whats-new-2020-08-06.md
-        - name: "2020\_m. liepos 23\_d."
-          href: hr-whats-new-2020-07-23.md
-        - name: "2020\_m. liepos 8\_d."
-          href: hr-whats-new-2020-07-08.md
-        - name: 2020 m. birželio 25 d.
-          href: hr-whats-new-2020-06-23.md
-        - name: 2020 m. birželio 11 d.
-          href: hr-whats-new-2020-06-11.md
-        - name: 2020 m. gegužės 28 d.
-          href: hr-whats-new-2020-05-28.md
-        - name: 2020 m. gegužės 14 d.
-          href: hr-whats-new-2020-05-14.md
-        - name: 2020 m. gegužės 1 d.
-          href: hr-whats-new-2020-05-01.md
         - name: Skyriaus Kas nauja 2020 m. archyvai
           items:
+            - name: "2020\_m. gruodžio 2\_d."
+              href: hr-whats-new-2020-12-02.md
+            - name: "2020\_m. spalio 22\_d."
+              href: hr-whats-new-2020-10-22.md
+            - name: "2020\_m. spalio 6\_d."
+              href: hr-whats-new-2020-10-06.md
+            - name: "2020\_m. rugsėjo 26\_d."
+              href: hr-whats-new-2020-09-26.md
+            - name: "2020\_m. rugsėjo 16\_d."
+              href: hr-whats-new-2020-09-16.md
+            - name: "2020\_m. rugsėjo 3\_d."
+              href: hr-whats-new-2020-09-03.md
+            - name: "2020\_m. rugpjūčio 20\_d."
+              href: hr-whats-new-2020-08-20.md
+            - name: "2020\_m. rugpjūčio 6\_d."
+              href: hr-whats-new-2020-08-06.md
+            - name: "2020\_m. liepos 23\_d."
+              href: hr-whats-new-2020-07-23.md
+            - name: "2020\_m. liepos 8\_d."
+              href: hr-whats-new-2020-07-08.md
+            - name: 2020 m. birželio 25 d.
+              href: hr-whats-new-2020-06-23.md
+            - name: 2020 m. birželio 11 d.
+              href: hr-whats-new-2020-06-11.md
+            - name: 2020 m. gegužės 28 d.
+              href: hr-whats-new-2020-05-28.md
+            - name: 2020 m. gegužės 14 d.
+              href: hr-whats-new-2020-05-14.md
+            - name: 2020 m. gegužės 1 d.
+              href: hr-whats-new-2020-05-01.md
             - name: 2020 m. balandžio 13 d.
               href: hr-whats-new-2020-04-13.md
             - name: 2020 m. balandžio 3 d.
@@ -473,6 +475,10 @@
                   href: hr-admin-integration-payroll-api-leave-type.md
                 - name: Atostogų užklausa
                   href: hr-admin-integration-payroll-api-leave-request.md
+            - name: Su išmokomis susiję objektai
+              items:
+                - name: Algalapio darbuotojo išmokos planas
+                  href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
             - name: Parinkčių rinkiniai
               items:
                 - name: Lytis
@@ -483,6 +489,10 @@
                   href: hr-admin-integration-payroll-api-award-type.md
                 - name: Proceso tipas
                   href: hr-admin-integration-payroll-api-process-type.md
+                - name: Išmokos plano tipo viršelis
+                  href: hr-admin-integration-payroll-api-benefit-plan-type-cover.md
+                - name: Išmokos darbuotojo plano būsena
+                  href: hr-admin-integration-payroll-api-benefit-employee-plan-status.md
     - name: Vartotojo vadovas
       items:
         - name: Apžvalga
