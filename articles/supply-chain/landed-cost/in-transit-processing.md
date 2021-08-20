@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ecf8caa7f31c560af2cbc929a37f3ca02bd0da44
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: d4503b6939e3d01ae5bcf1d79c1f85d39348fbb6233cfb7a965f84f3a3b0699a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021205"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744803"
 ---
 # <a name="goods-in-transit-processing"></a>Tranzito prekių apdorojimas
 
@@ -104,6 +104,7 @@ Prekes taip pat galite gauti sukurdami atvykimo žurnalą. Gavimo žurnalą gali
 1. Atidarykite reisą, konteinerį arba registracijos numerį.
 1. Veiksmų srityje, skirtuke **Valdyti**, grupėje **Funkcijos** pasirinkite **Kurti gavimo žurnalą**.
 1. Dialogo lange **Sukurti gavimo žurnalą** nustatykite šias vertes:
+
     - **Inicijuoti kiekį** – nustatykite šią parinktį kaip *Taip*, kad nustatytumėte kiekį iš tranzito kiekio. Jei ši pasirinktis nustatyta kaip *Ne*, tranzito prekių eilutėse nenustatytas numatytasis kiekis.
     - **Kurti iš tranzito prekių** – šią parinktį nustatykite kaip *Taip*, kad paimtumėte kiekius iš pasirinktų tranzito eilučių pasirinktam reisui, konteineriui ar registravimo lapui.
     - **Kurti iš užsakymo eilučių** – šią parinktį nustatykite kaip *Taip*, kad numatytąjį kiekį nustatytumėte iš pirkimo užsakymo eilučių. Numatytąjį kiekį gavimo žurnale tokiu būdu galima nustatyti tik jei kiekis pirkimo užsakymo eilutėje sutampa su kiekiu, nurodytu tranzito prekių užsakyme.
@@ -140,4 +141,21 @@ Iškrovimo kaina prideda naują darbo užsakymo tipą, pavadintą *Tranzito prek
 
 ### <a name="work-templates"></a>Darbo šablonai
 
+Šiame skyriuje aprašomos priemonės, kurias **Iškrovimo kainos** modulis prideda prie darbo šablonų.
+
+#### <a name="goods-in-transit-work-order-type"></a>Tranzito prekių darbo užsakymo tipas
+
 Iškrovimo kaina prideda naują darbo užsakymo tipą, pavadintą *Tranzito prekės* puslapyje **Darbo šablonai**. Šį darbo užsakymo tipą reikėtų konfigūruoti taip pat, kaip ir [pirkimo užsakymo darbo šablonus](/dynamicsax-2012/appuser-itpro/create-a-work-template).
+
+#### <a name="work-header-breaks"></a>Darbo antraštės pertrauktys
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
+Darbo šablonus, kurių darbo užsakymo tipas yra *Tranzito prekės* galima sukonfigūruoti į suskaidytas darbo antraštes. Puslapyje **Darbo šablonai** atlikite vieną iš toliau nurodytų veiksmų:
+
+- Šablono **Bendrieji** skirtuke nustatykite didžiausias darbo antraštės vertes. Šios maksimalios vertės veikia tokiu pat būdu, kaip ir jos veikia pirkimo užsakymo darbo šablonus. (Daugiau informacijos ieškokite [pirkimo užsakymo darbo šablonuose](/dynamicsax-2012/appuser-itpro/create-a-work-template) .)
+- Naudokite **Darbo antraštės pertrūkiai** mygtuką, kad nustatytumėte, kada sistema turi sukurti naują darbo antraštę, remiantis rūšiavimui naudojamasi laukais. Pavyzdžiui, norėdami sukurti darbo antraštę kiekvienam konteinerio ID, veiksmų juostoje pasirinkite **Redaguoti užklausą** ir tada įtraukite **Konteinerio ID** laukelį į **Rūšiavimo** skirtuką užklausos redaktoriuje. Laukeliai yra įtraukti į **Rūšiavimo** skirtuką ir yra prieinami pasirinkimui kaip *laukelių grupavimas*. Norėdami nustatyti savo grupavimo laukelius rinkitės **Darbo antraštės pertraukimas** veiksmų juostoje ir tada kiekvienam laukeliui, kurį norite naudoti kaip laukelių grupavimą, pasirinkite žymės laukelį, esantį **Grupuoti šį laukelį** stulpelyje.
+
+Jei užregistruotas kiekis viršija pradinio užsakymo kiekį, iškrovimo kaina [sukūria operacijos viršijimą](over-under-transactions.md). Kai darbo antraštė baigta, sistema atnaujina pagrindinio užsakymo kiekio atsargų operacijų būseną. Tačiau, pirma ji atnaujina kiekį, kuris susietas su operacijų viršijimu po to, kai pagrindinė yra visiškai nupirkta.
+
+Jei atšauksite jau užregistruotos operacijos viršijimo darbo antraštę, pirmiausia bus sumažintas operacijos viršijimas atšauktu kiekiu. Kai operacijos viršijimas sumažinamas iki 0 (nulio) kiekio, įrašas pašalinamas, o visi papildomi kiekiai neregistruojami pagal pagrindinio užsakymo kiekį.

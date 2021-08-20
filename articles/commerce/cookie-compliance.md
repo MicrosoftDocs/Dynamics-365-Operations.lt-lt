@@ -2,7 +2,7 @@
 title: Slapukų atitiktis
 description: Šioje temoje apžvelgiama slapukų atitiktis ir numatytosios strategijos, įtrauktos į „Microsoft Dynamics 365 Commerce“.
 author: BrianShook
-ms.date: 07/01/2021
+ms.date: 07/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71b2e0e8d0a7db6cbbc8b9b4024b067bd5c6a2a1
-ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
+ms.openlocfilehash: 509ae998b4d0fa8ab6dd5e3d242dfb4abc492952cd66addc04050fbaff949326
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "6333074"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747702"
 ---
 # <a name="cookie-compliance"></a>Slapukų atitiktis
 
@@ -54,6 +54,10 @@ Toliau pateikiamoje lentelėje rodomas dabartinis slapukų nuorodų sąrašas, k
 | „\_msdyn365___muid_”                            | Naudojama, jei aplinkai yra suaktyvintas eksperimentavimas; kuris naudojamas kaip vartotojo ID eksperimentavimo tikslais. | 1 metai |
 | „\_msdyn365___exp_”                             | Naudojama, jei aplinkai yra suaktyvintas eksperimentavimas; naudojamas matuoti efektyvumo įkelties balansavimui.         | 1 valanda |
 | „d365mkt”                                       | Naudojama, jei aptikimas pagal vietą, skirtas vartotojo IP adresui sekti dėl parduotuvių vietų pasiūlymų, yra įjungtas „Commerce” svetainių daryklėje: **Svetainės parametrai \> Bendra \> Įgalinti vieta pagrįstą parduotuvės aptikimą**.      | 1 valanda |
+| \_msdyn365___tuid_                           | Naudojamas tik tada, jei suaktyvintas aplinkos suaktyvinimas; sugeneruoja GUID, kad jis būtų naudojamas kaip vartotojo identifikatorius. Reikšmė bus rodoma, jei pasikeičia vartotojo prisijungimo būsena.      | 1 metai |
+| \_msdyn365___aud_0                          | Saugoma segmentų vertė, naudojama pagal taikymą ir naudojama tik tada, jei tikslinis taikymas konfigūruojamas puslapyje ar fragmentas, reikalaujamas svetainės vartotojo. Sausainis pateikiamas tik tada, kai segmento vertės atiteks trečiosios šalies segmentavimo tiekėjui.      | 7 dienos |
+| \_msdyn365___aud_1                           | Saugoma segmentų vertė, naudojama pagal taikymą ir naudojama tik tada, jei tikslinis taikymas konfigūruojamas puslapyje ar fragmentas, reikalaujamas svetainės vartotojo. Sausainis pateikiamas tik tada, kai segmento vertės atiteks trečiosios šalies segmentavimo tiekėjui.      | 7 dienos |
+| \_msdyn365___aud_2                           | Saugoma segmentų vertė, naudojama pagal taikymą ir naudojama tik tada, jei tikslinis taikymas konfigūruojamas puslapyje ar fragmentas, reikalaujamas svetainės vartotojo. Sausainis pateikiamas tik tada, kai segmento vertės atiteks trečiosios šalies segmentavimo tiekėjui.      | 7 dienos |
 
 Jeigu svetainės vartotojas pasirenka bet kuriuos socialinės medijos saitus svetainėje, šioje lentelėje pateikti slapukai taip pat bus sekami jų naršyklėje.
 
