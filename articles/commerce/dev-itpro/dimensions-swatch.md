@@ -2,7 +2,7 @@
 title: Konfigūruoti produkto dimensijų reikšmes, kad jos būtų rodomos kaip pavyzdžiai
 description: Šioje temoje aprašoma, kaip konfigūruoti produkto dimensijų reikšmes kaip pavyzdžius „Microsoft Dynamics 365 Commerce” būstinėje.
 author: anupamar-ms
-ms.date: 05/28/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: 4ffbb6a162e87fd19cdb44224adc8c223ba8e903
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: b1cef992b3d4e3889dd1d5dcc21a0d1ba3f55acc166f5003fc79f64fc54a8754
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638299"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764619"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>Konfigūruoti produkto dimensijų reikšmes, kad jos būtų rodomos kaip pavyzdžiai
 
@@ -46,7 +46,7 @@ Toliau pateiktoje iliustracijoje rodomas pavyzdys, kuriame spalvos rodomos kaip 
 
 ## <a name="enable-the-display-dimensions-as-swatches-feature-in-commerce-headquarters"></a>Dimensijų rodymo kaip pavyzdžių funkcijos įgalinimas „Commerce“ būstinėje
 
-Norėdami įgalinti dimensijų rodymo kaip pavyzdžių funkciją „Commerce“ būstinėje, eikite į **Darbo sritys \> Funkcijos valdymas** ir įjunkite **Įgalinti vaizdo palaikymą produkto dimensijos reikšmėms** funkciją. Kai šios funkcijos vėliavėlė įjungta, kiekvienai dimensijai įtraukiami trys nauji laukai į atitinkamas lenteles „Commerce” būstinėje: **Šešioliktainis kodas**, **URL (vaizdams)** ir **Tikslinimo priemonės grupė**.
+Norėdami įgalinti dimensijų rodymo kaip pavyzdžių funkciją „Commerce“ būstinėje, eikite į **Darbo sritys \> Funkcijos valdymas** ir įjunkite **Įgalinti mechanizmą, kuris rodo sukeitimo** funkciją. Kai šios funkcijos vėliavėlė įjungta, kiekvienai dimensijai įtraukiami trys nauji laukai į atitinkamas lenteles „Commerce” būstinėje: **Šešioliktainis kodas**, **URL (vaizdams)** ir **Tikslinimo priemonės grupė**.
 
 ## <a name="configure-dimension-values-in-commerce-headquarters"></a>Dimensijos reikšmių konfigūravimas „Commerce” būstinėje
 
@@ -124,6 +124,19 @@ Toliau pateiktoje iliustracijoje rodomas pavyzdys, kuriame dialogo langas **Įke
 Tam, kad pavyzdžiai galėtų pasirodyti el. prekybos svetainės puslapiuose, kuriems reikia dimensijos pasirinkimo, pavyzdžiui, PDP ir sąrašų puslapiuose, turite sukonfigūruoti dimensijos svetainės parametrus „Commerce” būstinėje. Daugiau informacijos rasite [Svetainės parametrų taikymas dimensijoms](../dimension-settings.md).
 
 Be to, turėtumėte įgalinti ypatybę **Įtraukti produkto atributus ieškos rezultatuose** ieškos rezultatų moduliams. Jei jūsų svetainė naudoja tinkintus kategorijos puslapius, turėtumėte atnaujinti ieškos rezultatų modulius, naudojamus tuose puslapiuose tam, kad ypatybė **Įtraukti produkto atributus ieškos rezultatuose** būtų įjungta. Daugiau informacijos rasite [Ieškos rezultatų modulis](../search-result-module.md).
+
+## <a name="inventory-awareness-on-swatches"></a>Atsargų supratimas apie operacijas
+
+Funkcija turi pasirinktines galimybes parodyti produkto varianto spalvos arba dimensijos atsargų prieinamumą. Pavyzdžiui, produktas parduodamas keliais dydžiais, bet kai kurių dydžių nėra atsargose. Šiuo atveju atsargose neturių produktų sąsojai atvaizduojami kitaip, kad būtų galima nurodyti, jog jie negalimi. Ši galimybė padeda sumažinti klientų spustelėjimus, reikalingus produkto pasiekiamumui nustatyti.
+
+Panaudos atsargų prieinamumo funkciją galima sukonfigūruoti naudoti ir PDPs, ir ieškos ar kategorijų sąrašo puslapiuose, kuriuose rodomos operacijos. Norėdami jį suaktyvinti, turite nustatyti pasirinktų **dimensijų ypatybės Atnaujinimo mediją** ypatybę į **Teisinga** esančią [laikmenų galerijos modulyje](../media-gallery-module.md). Šis parametras leidžia atnaujinti medijų paveikslėlius, kai pasirinktos dimensijos. 
+
+> [!IMPORTANT]
+> Sukeitimo inventoriaus prieinamumo funkcija yra prieinama „Commerce" 10.0.21 versijoje. Tam reikia, kad būtų įdiegta „Commerce“ modulio bibliotekos paketo versija 9.31.
+
+Šis pavyzdys rodo atsargų supratimo apie PDP dydžio didinimo pavyzdį.
+
+![Atsargų supratimo apie PDP dydžio didinimo pavyzdį](../dev-itpro/media/swatch_inventory.png)
 
 ## <a name="display-swatches-in-pos-and-other-channels"></a>Pavyzdžių rodymas EKA ir kituose kanaluose
 
