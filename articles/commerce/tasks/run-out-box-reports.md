@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: db75b09f1ae1f83a88a5e5eaef0c8c1b8eab5901
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 27dc29109693c06913c8107e27e79a48cf2c9db7146ff3a5919305366641af3d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804142"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774466"
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>Generuoti ir paleisti parengtas naudoti ataskaitas
 
@@ -36,7 +36,7 @@ Kuriant šį įrašą naudojama demonstracinių duomenų įmonė yra USRT. Šis 
 4. Lauke Pradžios data įveskite datą.
 5. Lauke Pabaigos data įveskite datą.
 6. Lauke Kanalas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-7. Medyje pasirinkite „Contoso RetailContoso Retail USA\Central\Houston“.
+7. Medyje pasirinkite „Contoso“ Mažmeninė prekyba\„Contoso“ Mažmeninė prekyba JAV\Centrinis\Hjustonas'.
     * Tai rodo numatytąją ataskaitų teikimo organizacijos hierarchiją, skirtą „Commerce“.   Eikite į Organizacijos administravimas > Organizacijos > Organizacijos hierarchijos tikslai ir pasirinkite „Commerce“ ataskaitų teikimas. Skiltyje „Priskirtos hierarchijos“ patikrinkite hierarchijos pavadinimą, kurio numatytasis stulpelis yra pažymėtas. Kaip demonstracinių duomenų dalis (naudojama šiai užduočiai įrašyti), „Parduotuvės pagal regioną“ yra numatytoji organizacijos hierarchija ataskaitų teikimo tikslais.     
 8. Spustelėkite Gerai.
 9. Lauke Rodinys pasirinkite parinktį.
@@ -48,7 +48,7 @@ Kuriant šį įrašą naudojama demonstracinių duomenų įmonė yra USRT. Šis 
 2. Lauke Pradžios data įveskite datą.
 3. Lauke Pabaigos data įveskite datą.
 4. Lauke Kanalas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-5. Medyje pasirinkite „Contoso RetailContoso Retail USA\West\Seattle“.
+5. Medyje pasirinkite „Contoso“ Mažmeninė prekyba\„Contoso“ Mažmeninė prekyba JAV\Vakarai\Sietlas'.
     * Tai rodo numatytąją ataskaitų teikimo organizacijos hierarchiją, skirtą „Commerce“. Eikite į Organizacijos administravimas > Organizacijos > Organizacijos hierarchijos tikslai ir pasirinkite „Commerce“ ataskaitų teikimas. Skiltyje „Priskirtos hierarchijos“ patikrinkite hierarchijos pavadinimą, kurio numatytasis stulpelis yra pažymėtas. Kaip demonstracinių duomenų dalis (naudojama šiai užduočiai įrašyti), „Parduotuvės pagal regioną“ yra numatytoji organizacijos hierarchija ataskaitų teikimo tikslais.     
 6. Spustelėkite Gerai.
 7. Spustelėkite Gerai.

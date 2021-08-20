@@ -2,7 +2,7 @@
 title: Kliento užsakymai elektroniniame kasos aparate (EKA)
 description: Šioje temoje pateikta informacija apie kliento užsakymus elektroniniame kasos aparate (EKA). Kliento užsakymai dar vadinami specialiais užsakymais. Šioje temoje pateikta susijusių parametrų ir operacijų srautų apžvalga.
 author: josaw1
-ms.date: 01/06/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 679c8d7895ac82236c12732e1080529f44231947
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 44beb4515bf0d2f8fc7ad75feb3164bf1c7c2d5737552b1a06ce59c2edcaf8fe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349631"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755088"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Kliento užsakymai elektroniniame kasos aparate (EKA)
 
@@ -132,6 +132,10 @@ Mažmeninės prekybos užsakymus, sukurtus internetiniame arba parduotuvės kana
 > [!IMPORTANT]
 > Ne mažmeniniai užsakymai gali būti redaguojami per POS programą. Užsakymų, sukurtų skambučių centro kanale, negalima redaguoti naudojant EKA, jei parametras [Įjungti užsakymų užbaigimą](./set-up-order-processing-options.md#enable-order-completion) įjungtas skambučių centro kanalui. Norint užtikrinti teisingą mokėjimų apdorojimą, užsakymus, gautus iš skambučių centro kanalo ir naudojančius funkciją Įjungti užsakymų užbaigimą, reikia redaguoti naudojant skambučių centro programą, esančią „Commerce Headquarters“.
 
+> [!NOTE]
+> EKA, kuriuos sukūrė ne skambučių centro vartotojas, naudojant „Commerce Headquarters", rekomenduojame neredaguoti užsakymų ir pasiūlymų. Tuose užsakymuose ir pasiūlymuose naudojamas "Commerce pricing" modulis, todėl jei jie bus redaguojami naudojant EKA, „Commerce“ kainų variklis juos įkainos iš naujo.
+
+
 10.0.17 versijoje ir vėlesnėse, vartotojai gali redaguoti galiojančius užsakymus per POS programą, net jei užsakymas yra įvykdytas iš dalies. Tačiau užsakymų, kurių visos SF išrašytos, vis tiek negalima redaguoti naudojant EKA. Norėdami įjungti šią galimybę, įjunkite **Redaguoti iš dalies įvykdytus užsakymos prekybos taške** funkciją **Funkcijos valdymas** darbo srityje. Jei ši funkcija neįjungta arba jei naudojate 10.0.16 versiją ar ankstesnę, vartotojai galės tik redaguoti kliento užsakymus POS, jei užsakyams yra atidarytas iki galo. Taip pat, jei funkcija įjungta, galite apriboti, kurios parduotuvės gali redaguoti iš dalies įvykdytus užsakymus. Parinktis skirta išjungti šią galimybę konkrečioms parduotuvėms gali būti konfigūruojama per **Funkcijų profilį** „FastTab“ **Bendri**.
 
 
@@ -142,7 +146,23 @@ Mažmeninės prekybos užsakymus, sukurtus internetiniame arba parduotuvės kana
 5. Užbaikite redagavimo procesą pasirinkdami mokėjimo operaciją.
 6. Norėdami išeiti iš redagavimo proceso neišsaugodami pakeitimų, galite naudoti operaciją **Anuliavimo operacija**.
 
+#### <a name="pricing-impact-when-orders-are-edited"></a>Kainos poveikis redaguojant užsakymus
 
+Kai užsakymai pateikiami EKA arba "Commerce" el. komercijos svetainėje, klientai turi skirti sumą. Į šią sumą įeina kaina ir į ją taip pat gali būti įtraukta nuolaida. Klientas, kuris priima užsakymą, o vėliau susisieks su skambučių centru ir pakeis užsakymą (pavyzdžiui, norėdami įtraukti kitą prekę), tikisi nuolaidų taikymo. Net jei esamų užsakymo eilučių akcijos nebegalioja, klientas tikisi, kad iš pradžių tose eilutėse taikomos nuolaidos baigs galioti. Tačiau, jei nuolaida galiotų užsakymo pateikimo metu, tačiau nuolaida nebegalios nuo to laiko, klientas tikisi, kad nauja nuolaida bus taikoma pakeistam užsakymui. Kitu atveju klientas gali tik atšaukti esamą užsakymą ir sukurti naują užsakymą, kuriame pritaikyta nauja nuolaida. Kaip nurodyta šiame scenarijuje, kainos ir nuolaidos, kurias klientai įsipareigojo įvykdyti, turi būti išsaugotos. Tuo pat metu EKA ir skambučių centro vartotojai turi turėti galimybę lanksčiau perskaičiuoti pardavimo užsakymų eilučių kainas ir nuolaidas, kaip reikalaujama.
+
+Kai užsakymai atšaukiami ir redaguojami naudojant EKA, esamų užsakymų eilučių kainos ir nuolaidos laikomos užrakintomis. Kitaip tariant, jie nepasikeičia, net jei kai kurios užsakymo eilutės yra atšauktos ar pakeistos, arba pridedami nauji užsakymo eilutės. Norint pakeisti esamų pardavimo eilučių kainas ir nuolaidas, EKA vartotojas turi pasirinkti **Perskaičiuoti**. Kainos užraktas pašalinamas iš esamų užsakymo eilučių. Tačiau prieš išleidžiant "Commerce" 10.0.21 versiją ši galimybė skambučių centre nebuvo galima. Todėl dėl bet kokių užsakymo eilučių pakeitimų kainos ir nuolaidos turi būti perskaičiuotos.
+
+„Commerce" 10.0.21 versijoje nauja funkcija, kurios pavadinimas **Apsaugoti nuo netyčinio komercijos užsakymų kainos skaičiavimo** yra pasiekiama **funkcijų valdymo** darbo srityje. Ši funkcija išjungta pagal nutylėjimą. Kai jis įjungtas, nauja užrakinta **kainos ypatybė** galima visiems el. komercijos užsakymams. Kai užsakymo fiksavimas baigiamas užsakymams, pateiktiems bet kuriame kanale, ši ypatybė automatiškai įgalinamas (t. y. žymės langelis pažymėtas) visose užsakymo eilutėse. Tuomet "Commerce pricing engine" tos užsakymo eilutės neįtraukiamos į visų kainų ir nuolaidų skaičiavimus. Todėl, jei užsakymas redaguojamas, užsakymo eilutės pagal numatytuosius nustatymus neįtraukiamos į kainos ir nuolaidos skaičiavimą. Tačiau skambučių centro vartotojai gali uždrausti bet kurios užsakymo eilutės ypatybę (t. y. išvalyti žymės langelį) ir pasirinkti **Perskaičiuoti,** kad skaičiuojant kainą būtų įtrauktos esamos užsakymo eilutės.
+
+Net jei skambučių centro vartotojai taiko neautomatinę nuolaidą esamai pardavimo eilutei, prieš taikydami rankiniu būdu nuolaidą, skambučių centro vartotojai turi išjungti pardavimo eilutės ypatybę **Užrakinta kaina**.
+
+Skambučių centro vartotojai taip pat gali išjungti **užsakymo ypatybę** Kaina užrakinta masiškai, **užsakymo puslapio veiksmų** srities skirtuke **Pardavimas** pasirinkdami **Pašalinti** kainos **užraktą**. Šiuo atveju kainos užrakinimas pašalinamas iš visų užsakymo eilučių, išskyrus eilutes, kurios neredaguotinos (kitaip tariant, eilutės, kurių būsena yra Iš dalies **išrašyta SF** arba **Išrašyta SF**). Tada, atlikus užsakymo pakeitimus ir po to, kai jie pateikiami, kainų užraktas vėl naudojamas visoms užsakymo eilutėms.
+
+> [!IMPORTANT]
+> Kai įjungta prekybos užsakymų funkcijos funkcija **Uždrausti nenu nenumačius kainos skaičiavimą** prekybos sutarties įvertinimo nustatymo bus nepaisoma kainų darbo eigose. Kitaip tariant, prekybos sutarties vertinimo dialogo languose nebus rodomas su **kaina susijęs** skyrius. Taip nutinka, nes prekybos sutarties vertinimo nustatymo ir kainų užrakto funkcijos paskirtis yra panašūs: siekiant išvengti netyčinių kainos pakeitimų. Tačiau vartotojų patirtis vertinant prekybos sutartį nėra gerai tinka dideliems užsakymams, kuriuose vartotojai turi pasirinkti vieną ar daugiau užsakymo eilučių, kad būtų galima keisti.
+
+> [!NOTE]
+> Vienos **ar daugiau** pasirinktų eilučių užrakintą ypatybę Kainos galima išjungti tik tada, kai **naudojamas skambučių** centro modulis. EKA veikimo būdas nekinta. Kitaip tariant, EKA vartotojas negali atrakinti pasirinktų užsakymo eilučių kainų. Tačiau jie gali pasirinkti **Perskaičiuoti,** kad pašalintumėte kainos užraktą iš visų esamų užsakymo eilučių.
 
 ### <a name="cancel-a-customer-order"></a>Kliento užsakymo atšaukimas
 

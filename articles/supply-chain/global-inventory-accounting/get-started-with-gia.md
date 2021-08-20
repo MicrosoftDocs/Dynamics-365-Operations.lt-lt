@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 07d3222680d9d9bff639f34eca5fea64d753ffd1
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 90fcbdc5c9dd4301225952d885794bd4d03ef825fd5590896be13eacfad1f979
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336984"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773301"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Pradėkite darbą su Visuotine atsargų apskaita
 
@@ -42,7 +42,7 @@ Visuotinė atsargų apskaita šiuo metu nepalaiko visų išlaidų valdymo priemo
 > [!IMPORTANT]
 > Norėdami naudoti Visuotinę atsargų apskaitą, privalote turėti LCS įgalintą didelio užimtumo aplinką (ne „OneBox” aplinką). Be to, turite paleisti 10.0.19 ar vėlesnę „Supply Chain Management” versiją.
 
-Norėdami užsiregistruoti Visuotinės atsargų apskaitos viešajai peržiūros versijai, atsiųskite savo LCS aplinkos ID el. paštu [Visuotinės atsargų apskaitos komandai](mailto:GlobalInventoryAccounting@service.microsoft.com). Kai būsite patvirtinti programai, komanda išsiųs el. laišką, kuriame bus Visuotinės atsargų apskaitos beta raktas ir jūsų paslaugų galiniai punktai. Gavę beta raktą, galite [įdiegti papildinį](#install).
+Norėdami užsiregistruoti Visuotinės atsargų apskaitos viešajai peržiūros versijai, atsiųskite savo LCS aplinkos ID el. paštu [Visuotinės atsargų apskaitos komandai](mailto:GlobalInvAccount@microsoft.com). Kai būsite patvirtinti programai, komanda išsiųs el. laišką, kuriame bus Visuotinės atsargų apskaitos beta raktas ir jūsų paslaugų galiniai punktai. Gavę beta raktą, galite [įdiegti papildinį](#install).
 
 ## <a name="licensing"></a>Licencijavimas
 
