@@ -2,7 +2,7 @@
 title: DUK apie finansines ataskaitas
 description: Šioje temoje pateikiami atsakymai į kai kuriuos dažnai užduodamus klausimus apie finansines ataskaitas.
 author: jiwo
-ms.date: 01/13/2021
+ms.date: 07/07/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e1b67f86446403933005008a9a1e2cc6739dc516
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: dd493e855e45362c1681dc9cdfbbcb71f7627d64624cd093eadab32fd966c174
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266638"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733616"
 ---
 # <a name="financial-reporting-faq"></a>DUK apie finansines ataskaitas
 
@@ -77,5 +77,29 @@ Pranešimas nurodo, kad problema įvyko, kai sistema bandė nuskaityti finansini
 
 - Peržiūrėkite duomenų integravimo būseną „Report Designer“ eidami į **Įrankiai \> Integravimo būsena**. Jei integravimas neužbaigtas, palaukite, kol jis bus baigtas. Tada, kartokite tai, ką darėte, kai gavote pranešimą.
 - Norėdami nustatyti ir išspręsti problemą, susisiekite su palaikymo tarnyba. Sistemoje gali būti pateikti nenuoseklūs duomenys. Palaikymo inžinieriai gali padėti nustatyti problemą serveryje ir rasti konkrečius duomenis, kuriuos gali reikėti atnaujinti.
+
+## <a name="how-does-the-selection-of-historical-rate-translation-affect-report-performance"></a>Kokį poveikį ataskaitos efektyvumui turi retrospektyvinio kurso perskaičiavimo pasirinkimas?
+
+Retrospektyvinis kursas paprastai naudojamas su nepaskirstyto pelno, turto, įrangos ir įrengimų bei kapitalo sąskaitomis. Retrospektyvinis kursas gali būti reikalingas, remiantis Finansinės atskaitomybės standartų valdybos (FASB) rekomendacijomis arba visuotiniais buhalterinės apskaitos principais (GAAP). Norėdami gauti daugiau informacijos žr. [Valiutos galimybės finansinėse ataskaitose](financial-reporting-currency-capability.md).
+
+## <a name="how-many-types-of-currency-rate-are-there"></a>Kiek valiutos kurso tipų yra?
+
+Yra trys tipai:
+
+- **Dabartinis kursas** – šis tipas paprastai naudojamas su balanso sąskaitomis. Jis paprastai žinomas kaip *vietos valiutos kursas* ir gali būti kursas paskutinę mėnesio dieną arba kitą iš anksto nustatytą datą.
+- **Vidutinis kursas** – šis tipas paprastai naudojamas su pajamų išrašo (pelnas / nuostoliai) sąskaitomis. Galite nustatyti vidutinį kursą, kad apskaičiuotumėte arba paprastą vidurkį, arba svertinį vidurkį.
+- **Retrospektyvinis kursas** – šis tipas paprastai naudojamas su nepaskirstyto pelno, turto, įrangos ir įrengimų bei kapitalo sąskaitomis. Šių sąskaitų gali reikėti remiantis FASB arba GAAP rekomendacijomis.
+
+## <a name="how-does-historical-currency-translation-work"></a>Kaip veikia retrospektyvinės valiutos perskaičiavimas?
+
+Kursai yra būdingi operacijos datai. Todėl kiekviena operacija perskaičiuojama atskirai, atsižvelgiant į artimiausią valiutos kursą.
+
+Retrospektyvinio valiutos perskaičiavimo atveju iš anksto apskaičiuoti laikotarpio balansai gali būti naudojami vietoje išsamios atskiros operacijos informacijos. Šis veikimo būdas skiriasi nuo dabartinio tarifo perskaičiavimo veikimo būdo.
+
+## <a name="how-does-historical-currency-translation-affect-performance"></a>Kokį poveikį našumui turi retrospektyvinis valiutos perskaičiavimas?
+
+Kai atnaujinami ataskaitose pateikti duomenys, galima delsa, nes sumos turi būti perskaičiuotos tikrinant išsamią operacijos informaciją. Ši delsa suaktyvinama kaskart, kai atnaujinami tarifai arba užregistruojama daugiau operacijų. Pavyzdžiui, jei retrospektyviniam perskaičiavimui nustatomos tūkstančiai sąskaitų kelis kartus per dieną, galima iki valandos trunkanti delsa prieš tai, kai bus atnaujinti ataskaitos duomenis. Kita vertus, jei yra mažesnis konkrečių sąskaitų skaičius, ataskaitos duomenų atnaujinimų apdorojimo laikas gali būti sutrumpintas iki minutės arba mažiau.
+
+Be to, kai ataskaitos generuojamos naudojant retrospektyvinio tipo sąskaitų valiutos perskaičiavimą, bus papildomų operacijos skaičiavimų. Atsižvelgiant į sąskaitų skaičių, ataskaitos generavimo laikas gali būti dvigubai ilgesnis.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
