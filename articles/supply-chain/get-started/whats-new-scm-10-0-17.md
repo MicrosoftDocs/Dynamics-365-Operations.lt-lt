@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: fd8c306dd6c3aeb7ef41b4eb3f6f8bad040035c2
-ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
+ms.openlocfilehash: 67240491bba5a81455bff00be22908670880803c3e08091d76e037fa0b5f49ec
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935610"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760519"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Kas nauja arba pasikeitė „Dynamics 365 Supply Chain Management” 10.0.17 versijoje (2021 m. balandžio mėn.)?
 
@@ -52,6 +52,8 @@ Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fi
 - [Iškrovimo kaina](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/landed-cost)<br> - Daugiau informacijos rasite skyriuje [Įkeltų išlaidų modulis](../landed-cost/landed-cost-overview.md).
 
 - [Pakavimo ir saugojimo matmenys](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)<br> - Daugiau informacijos rasite [Skirtingų pakavimo ir saugojimo dimensijų nustatymas](../warehousing/packing-vs-storage-dimensions.md).
+
+- [Lygiagrečios bangos paskirstymas](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/parallel-wave-allocation)<br> - Daugiau informacijos rasite [Bangos paskirstymas](../warehousing/wave-allocation-method.md).
 
 - [Atsargų ir logistikos įrašyti rodiniai](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-inventory-logistics)<br> - Daugiau informacijos žr. [„Supply Chain Management” įprastiniai įrašyti rodiniai](saved-views-scm.md).
 

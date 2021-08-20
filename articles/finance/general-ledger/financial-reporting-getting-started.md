@@ -2,7 +2,7 @@
 title: Finansinių ataskaitų apžvalga
 description: Šioje temoje paaiškinama, kur galima pasiekti „Microsoft Dynamics 365 Finance“ finansines ataskaitas ir kaip naudoti finansinių ataskaitų galimybes.
 author: aprilolson
-ms.date: 12/04/2020
+ms.date: 07/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf07b12d83221952aefb80ab6a5b651bb4ef3762
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: da997af4c4cab7b99dfa14f185de6a7c057d6831b7ee576787c17b550fa60194
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338162"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748215"
 ---
 # <a name="get-started-with-financial-reporting"></a>Pradėkite su „Financial reporting“ 
 
@@ -47,7 +47,7 @@ Norėdami sukurti ir generuoti juridinio subjekto finansinių ataskaitų, turite
 -   Sąskaitų planas
 -   Valiuta
 -   Publikuokite transakciją mažiausiai į vieną sąskaitą
--   Pagrindinė sąskaita yra įrašyta į pasirinktą stulpelį **Bendra pagrindinė sąskaitų knygą > Sąskaitų knygos nustatymai > „Financial Reporting“ nustatymai**
+-   Pagrindinė sąskaita yra įrašyta į **pasirinktą** stulpelį **Finansinės ataskaitos nustatymai** Puslapį (**DK > DK nustatymai > Finansinių ataskaitų nustatymai**)
 
 ## <a name="granting-security-access-to-financial-reporting"></a>Saugios prieigos prie „Financial Reporting“
 Finansinių ataskaitų funkcijomis gali naudotis naudotojai, kuriems, naudojant jų saugos vaidmenis, priskirtos atitinkamos teisės ir pareigos. Tolesniuose skyriuose išvardijamos šios teisės ir pareigos bei susietieji vaidmenys.
@@ -165,10 +165,47 @@ Triktis 2: Vartotojui nebuvo priskirti būtini leidimai naudoti „Financial Rep
   Jei kitas vartotojas gali atsidaryti „Report Designer“, pasirinkite **Įrankiai** ir tuomet pasirinkite **Integravimo būsena**. Patikrinkite, ar integravimo žemėlapis, „Bendrovės vartotojo tiekėjas bendrovei,“ sėkmingai buvo atliktas, nes jums buvo priskirtas leidimas naudoti „Financial Reporting“. 
 * Gali būti, kad kita klaida užkirto kelią **„Dynamics“ vartotojo integravimas su „Financial Reporting“ vartotoju** užbaigimui. Arba gali būti, kad duomenų saugykla yra perkraunama ir veiksmas dar tęsiasi, arba įvyko kita sistemos klaida. Pabandykite atlikite procesą vėliau. Jei problema nepasišalina, susisiekite su sistemos administratoriumi.
 
-Triktis 3: Galite praeiti pro „ClickOnce Report Designer“ prisijungimo puslapį, tačiau negalite užbaigti prisijungimo prie „Report Designer“. 
+Triktis 3: Galite praeiti pro **ClickOnce Report Designer** prisijungimo puslapį, bet negalite užbaigti prisijungimo su „Report Designer“. 
 
-* Jūsų kompiuteryje nustatytas vietinis laikas, kai įeinate į savo prisijungimo informaciją, gali atsilikti penkias minutes nuo „Financial Reporting“ serverio. Jei yra didesnis nei penkių minučių skirtumas, sistema neleis prisijungti. 
-* Tuo atveju, rekomenduojame įjungti „Windows“ parinktį, kad nustatytumėte savo kompiuterio laiką automatiniu būdu. 
+* Jūsų kompiuteryje, kuris nustatytas vietinis laikas, kai įeinate į savo prisijungimo sistemą, gali atsilikti penkias minutes nuo „Financial Reporting“ serverio. Jei yra didesnis nei penkių minučių skirtumas, sistema neleis prisijungti. 
+* Jei jūsų kompiuterio laikas skiriasi nuo finansinių ataskaitų serverio laiko, rekomenduojame įgalinti „Windows“ pasirinktį, kad būtų automatiškai nustatytas kompiuterio laikas. 
+
+## <a name="troubleshoot-report-designer-issues-with-event-viewer"></a>„report designer“ trikčių šalinimas naudojant įvykių peržiūros programą
+
+Įvykių peržiūros programą galite naudoti kai kurioms problemoms, kurios kyla naudojant finansines ataskaitas, analizuoti. 
+
+### <a name="what-happens-when-you-have-connections-issues-with-financial-reporting"></a>Kas atsitinka, kai yra ryšių su finansinėmis ataskaitomis? 
+
+Štai keletas veiksmų, kuriuos galite atlikti, kad pokalbis su „Microsoft“ palaikytų efektyvesnę ir kad galėtumėte greitai išspręsti. 
+ 
+Toliau pateikiami veiksmai vyksta finansinių ataskaitų įvykių peržiūros programos pranešimų įjungimo proceso metu. Žurnalai, kuriuos generuoja įvykių peržiūros programa, padės inžinieriams greitai nustatyti ryšio problemos šaltinį. Pateikite šių žurnalų kopijas kartu su savo kvitu susisiekdami su palaikymo tarnyba.
+
+> 1.    Kopijuoti RegisterETW.zip failą į kliento darbo vietą (pageidautina darbalaukio) ir ištraukti [RegisterETW.zip](https://dev.azure.com/msdyneng/e6f12261-a46a-4af1-ac0c-e22bc2c5a478/_apis/git/repositories/ff923027-67f0-43fb-b63c-6d6b6423840f/Items?path=%2F.attachments%2FRegisterETW-c1a35291-6aa6-4462-a2bc-4ba117fd5f8e.zip&download=false&resolveLfs=true&%24format=octetStream&api-version=5.0-preview.1&sanitize=true&versionDescriptor.version=wikiMaster).
+
+> 2.    Įsitikinkite, kad „Windows Event" programa uždaryta.
+
+> 3.    Atidarykite „Administrator PowerShell“ komandinę eilutę ir pereikite į katalogą, kuriame yra RegisterETW.ps1.
+
+> 4.    Vykdykite šią komandą: .\RegisterETW.ps1
+   
+   Sėkminga „PowerShell" išvestis bus patikrinta naudojant pranešimą **Užbaigtas RegisterETW scenarijus**.
+Iš naujo atidarykite įvykių peržiūros programą, o dabar šiuos žurnalus matysite **Microsoft > Dynamics**: * MR-Client * MR-DVT * MR-integravimas * MR-Prisijungimas * MR-Ataskaita * MR_Grafikoužduotys * MR-SQL * MR-Pėdsakųsekėjas
+   
+> 5. Perkurkite išdavimą „report designer“.
+   
+> 6. Eksportuokite MR-Logger įvykius naudodami įvykių peržiūros programą.
+
+## <a name="troubleshoot-issues-connecting-to-financial-reporting"></a>Trikčių šalinimas jungiantis prie finansinių ataskaitų
+
+Problema: gaunate klaidą „Nepavyko prisijungti prie finansinių ataskaitų serverio".
+
+* Nustatyti, ar problema kyla „Chrome“ ir „Edge“ interneto naršyklėse.
+* Jei problema iškyla tik vienoje naršyklėje, tai gali būti ClickOnce išdavimas. 
+* Kai gaunate ryšio klaidos pranešimą, pasirinkite **Tikrinti** ar nori patikrinti ryšį, kad pamatytumėte, koks pranešimas pasirodo. 
+* Problema galėjo kilti todėl, kad kitas vartotojas neturi prieigos prie finansinių ataskaitų. Jei vartotojas neturi prieigos, jis gaus pranešimą, kuriame teigiama, kad neturi teisės.
+* Jei problema iškyla keliose naršyklėse, įsitikinkite, kad jūsų darbo vietos laiko laikrodis nustatytas kaip Automatinis.
+* Norėdami prisiregistruoti prie darbo vietos ir sužinoti, ar jis gali prisijungti, dirbkite su vartotojas, kuris turi saugos administratoriaus teises tinklo domene bei „Dynamics 365 Finance“ administratoriaus teises. Jei jos gali prisijungti, problema gali būti susijusi su tinklo teisėmis.
+* Darbo vietoje laikinai išjunkite užkardą. Jei tada galėsite prisijungti prie „Report Designer“ problema bus susijusi su užkarda. Norėdami išspręsti problemą, dirbkite su savo organizacijos IT padaliniu.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 - [Peržiūrėti finansines ataskaitas](view-financial-reports.md)
