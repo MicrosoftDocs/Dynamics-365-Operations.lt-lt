@@ -2,7 +2,7 @@
 title: Elektroninių ataskaitų (ER) konfigūracijų ciklo valdymas
 description: Šioje temoje aprašoma, kaip valdyti „Dynamics 365 Finance“ Elektroninių ataskaitų (ER) konfigūracijų ciklą.
 author: NickSelin
-ms.date: 04/13/2021
+ms.date: 07/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb7844a009bc35f7151827b8e675cb39f71459fd
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b8b61082cf17707c952b6e07613769a671c349bb8fa92c21e3fe8524ef62dcb2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345743"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767784"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Elektroninių ataskaitų (ER) konfigūracijų ciklo valdymas
 
@@ -82,20 +82,34 @@ Programavimo aplinkoje sukurtas ER konfigūracijas galima [įkelti](#data-persis
 
 ![ER konfigūracijos ciklas.](./media/ger-configuration-lifecycle.png)
 
-## <a name="data-persistence-consideration"></a><a name="data-persistence-consideration" />Duomenų pastovumo svarstymas
+## <a name="data-persistence-consideration"></a>Duomenų pastovumo svarstymas
 
 Galite individualiai [importuoti](tasks/er-import-configuration-lifecycle-services.md) skirtingas ER [konfigūracijų](general-electronic-reporting.md#Configuration) [versijas](general-electronic-reporting.md#component-versioning) į savo „Finance” egzempliorių. Importavus naująją ER konfigūracijos versiją, sistema valdo šios konfigūracijos juodraščio versijos turinį:
 
-   - Kai importuota versija yra žemesnė nei didžiausia šios konfigūracijos versija dabartiniame „Finance” egzemplioriuje, šios konfigūracijos juodraščio versijos turinys nekinta.
-   - Kai importuota versija yra aukštesnė nei bet kuri kita šios konfigūracijos versija dabartiniame „Finance” egzemplioriuje, importuotos versijos turinys yra nukopijuojamas į šios konfigūracijos juodraščio versiją, kad būtų galima toliau redaguoti paskutinę baigtą versiją.
+- Kai importuota versija yra žemesnė nei didžiausia šios konfigūracijos versija dabartiniame „Finance” egzemplioriuje, šios konfigūracijos juodraščio versijos turinys nekinta.
+- Kai importuota versija yra aukštesnė nei bet kuri kita šios konfigūracijos versija dabartiniame „Finance” egzemplioriuje, importuotos versijos turinys yra nukopijuojamas į šios konfigūracijos juodraščio versiją, kad būtų galima toliau redaguoti paskutinę baigtą versiją.
 
 Jei šios konfigūracijos savininkas yra šiuo metu suaktyvintas konfigūracijos [teikėjas](general-electronic-reporting.md#Provider), šios konfigūracijos juodraščio versija matoma jums „FastTab” skirtuke **Versijos**, puslapyje **Konfigūracijos** (**Organizacijos administravimas** > **Elektroninės ataskaitos** > **Konfigūracijos**). Galite pasirinkti konfigūracijos juodraščio versiją ir [modifikuoti](er-quick-start2-customize-report.md#ConfigureDerivedFormat) jos turinį naudodami atitinkamą ER dizaino įrankį. Redagavus ER konfigūracijos juodraščio versiją, jos turinys nebeatitinka didžiausios šios konfigūracijos versijos dabartiniame „Finance” egzemplioriuje turinio. Norint išvengti jūsų pakeitimų praradimo, sistema rodo klaidą, kad nepavyko tęsti importavimo, nes šios konfigūracijos versija yra aukštesnė nei didžiausia šios konfigūracijos versija dabartiniame „Finance” egzemplioriuje. Kai tai įvyksta, pavyzdžiui, naudojant formato konfigūraciją **„X”**, rodomas klaidos pranešimas **„X” formato versija nėra baigta**.
 
 Norėdami anuliuoti juodraščio versijoje įvestus pakeitimus, pasirinkite didžiausią baigtą arba bendrai naudojamą jūsų „Finance” ER konfigūracijos versiją „FastTab” skirtuke **Versijos** ir tada pasirinkite **Gauti šią versiją** parinktį. Pasirinktos versijos turinys yra nukopijuojamas į juodraščio versiją.
 
+## <a name="applicability-consideration"></a>Taikomumo svarstymas
+
+Kurdami naują ER konfigūracijos versiją, galite nustatyti jos priklausomybę nuo [kitų](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md) programinės įrangos komponentų. Šis veiksmas yra laikomas išankstine sąlyga, norint kontroliuoti šios konfigūracijos versijos atsisiuntimą iš ER saugyklos ar išorės XML failą ir toliau naudoti šią versiją. Bandant importuoti naują ER konfigūracijos versiją, sistema naudoja sukonfigūruotas būtinuosius komponentus, kad galėtų kontroliuoti, ar galima importuoti versiją.
+
+Kai kuriais atvejais gali reikėti, kad sistema nepaisytų sukonfigūruotų būtinųjų komponentų importuojant naujas ER konfigūracijų versijas. Jei norite, kad importuojant sistema nepaisytų būtinųjų komponentų, atlikite šiuos veiksmus.
+
+1. Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos**.
+2. Puslapio **Konfigūracijos** veiksmų srities skirtuke **Konfigūracijos**, grupėje **Papildomi parametrai** pasirinkite **Vartotojo parametrai**.
+3. Nustatykite parinktį **Praleisti produkto naujinimus ir tikrinti versijos būtinuosius komponentus** importavimo metu kaip **Taip**.
+
+    > [!NOTE]
+    > Šis parametras yra susijęs su konkrečiu vartotoju ir įmone.
+
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)
 
+[ER konfigūracijų priklausomybės nuo kitų komponentų apibrėžimas](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
