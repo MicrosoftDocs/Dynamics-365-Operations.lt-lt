@@ -12,12 +12,12 @@ ms.reviewer: kfend
 ms.search.region: Lithuania
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ffec10ae92da7f09c0ae41c6eec6ddf4d9af54a9
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: eb4441f9bff3ad3ecb3fb89803b7b1ce29c93ca3cac37e851d52979ecb186d42
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344746"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770500"
 ---
 # <a name="standard-audit-file-for-tax-saf-t-for-lithuania"></a>Lietuvai skirtas standartinis mokesčio audito failas (SAF-T)
 
