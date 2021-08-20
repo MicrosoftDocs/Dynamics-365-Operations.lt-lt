@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2321c78ba50ba0bfc996e8bd4e96cfbd0843ec45
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 91d5b7077b033514f699c0393ec151d82dae5bf2551546c7371cb934273310e9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796759"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769300"
 ---
 # <a name="manage-assortments-november-2016"></a>Asortimentų valdymas (2016 m. lapkričio mėn.)
 
@@ -40,9 +40,9 @@ ms.locfileid: "5796759"
 6. Lauke „Galiojimo data“ įveskite datą.
 7. Išplėskite „Commerce“ kanalų skyrių.
 8. Spustelėkite Pridėti eilutę.
-9. Medyje pasirinkite Contoso Retail\Elektronika\Boston.
+9. Medyje pasirinkite „Contoso“Mažmeninė prekyba\Elektronika\Bostonas'.
 10. Spustelėkite Pridėti.
-11. Spustelėkite GERAI.
+11. Spustelėkite Gerai.
 12. Išplėskite sekciją Produktai.
 13. Spustelėkite Pridėti eilutę.
 14. Lauke Kategorija įveskite arba pasirinkite reikšmę.

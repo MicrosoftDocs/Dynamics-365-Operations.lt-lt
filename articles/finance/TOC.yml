@@ -72,6 +72,8 @@
                   items:
                     - name: Kas nauja ar pasikeitė „Finance“ pagrindiniame puslapyje
                       href: get-started/whats-new-home-page.md
+                    - name: „Finance 10.0.21“ (2021 m. spalio mėn.)
+                      href: get-started/whats-new-changed-10-0-21.md
                     - name: „Finance 10.0.20“ (2021 m. rugpjūčio mėn.)
                       href: get-started/whats-new-changed-10-0-20.md
                     - name: „Finance 10.0.19“ (2021 m. birželio mėn.)
@@ -1168,6 +1170,8 @@
                   href: general-ledger/yec-mssng-open-blnces.md
                 - name: Finansinių žurnalų šablonų atidarymas „Office“
                   href: general-ledger/open-fincl-jrnls-in-office.md
+                - name: Kodėl negaliu atšaukti šios operacijos?
+                  href: general-ledger/cant-reverse-transctns.md
         - name: Finansinės ataskaitos
           items:
             - name: Pradėkite naudoti finansines ataskaitas
@@ -1498,12 +1502,16 @@
                           href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
                         - name: Darbo su elektroninių SF išrašymu pradžia
                           href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
+                        - name: Naujos elektroninių SF išrašymo funkcijos kūrimas
+                          href: localizations/e-invoicing-create-new-e-invoicing-feature.md
                         - name: Darbo su elektroninių SF išrašymu Brazilijai pradžia
                           href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Darbo su elektroninių SF išrašymu Egiptui pradžia
                           href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Darbo su elektroninių SF išrašymu Meksikai pradžia
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
+                        - name: Norėdami importuoti tiekėjo sąskaitas faktūras naudokite elektroninių SF išrašymo paslaugą
+                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Elektroninių SF išrašymo nustatymas
                           href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
                     - name: Elektroninių SF išrašymo DUK
@@ -1514,8 +1522,12 @@
                       href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
                     - name: Pradėti naudoti mokesčių skaičiavimą
                       href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                    - name: PVM taikymas ir PVM grupės nustatymo logika
+                      href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
                     - name: Mokesčių funkcijų palaikymas perkėlimo užsakymams
                       href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
+                    - name: 'Mokesčio, pridedamo prie kainos, kai kainos apima mokesčius, skaičiavimas įjungtas'
+                      href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
                     - name: Įtraukti duomenų laukus į mokesčių konfigūracijas
                       href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Įtraukti duomenų laukus į mokesčių integravimą naudojant plėtinius
@@ -1528,6 +1540,10 @@
                       items:
                         - name: Kelių PVM registracijų ataskaita
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Prancūzijos ataskaitos
+                          items:
+                            - name: PVM deklaracija
+                          href: localizations/emea-fra-VAT-declaration-preview-France.md
                         - name: Nyderlandų ataskaitos
                           items:
                             - name: PVM deklaracija
@@ -1544,6 +1560,8 @@
               items:
                 - name: Australijos apžvalga
                   href: localizations/australia.md
+                - name: Australijos bankų banko failo formatai
+                  href: localizations/apac-aus-bank-file-formats.md
                 - name: Verslo veiklos išrašas (BAS)
                   href: localizations/apac-aus-business-activity-statement.md
                 - name: Ataskaitos laukų įtraukimas ir BAS generavimas
@@ -1552,6 +1570,8 @@
                   href: localizations/apac-aus-low-value-pool-depreciation.md
                 - name: BAS priežasčių kodų nustatymas
                   href: localizations/tasks/set-up-reason-codes-australia-bas.md
+                - name: Mokėjimo laiko ataskaitų schema
+                  href: localizations/apac-aus-payment-times-report.md
             - name: Austrija
               items:
                 - name: Austrijos apžvalga
@@ -1802,6 +1822,8 @@
                   href: localizations/china.md
                 - name: '„Finance and Operations“, valdoma „21Vianet“ Kinijoje'
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md
+                - name: Kinijos kvitų tipų sąskaitų grupių pasirinkimas
+                  href: localizations/apac-chn-account-groups-selection.md
                 - name: KS palyginimas
                   href: localizations/apac-chn-bom-comparison.md
                 - name: Kinijos sąskaitų plano hierarchija
@@ -1870,6 +1892,10 @@
                   href: localizations/emea-cze-vat-statement-details.md
                 - name: PVM deklaracija (Čekijos Respublika)
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
+                - name: Banko sąskaitų banko simboliai
+                  href: localizations/emea-cze-specify-bank-symbols-for-bank-accounts.md
+                - name: ES vidaus PVM
+                  href: localizations/emea-cze-intra-community-VAT.md
                 - name: Uždarymas metų pabaigoje
                   href: localizations/emea-cze-hun-year-end.md
             - name: Danija
@@ -1992,10 +2018,6 @@
                       href: localizations/tasks/eur-00002-specify-lading-address-intra-community.md
                     - name: ES Intrastat deklaracijos generavimas
                       href: localizations/tasks/eur-00002-eu-intrastat-declaration.md
-                    - name: Prancūzijos Intrastat
-                      href: localizations/emea-fra-intrastat.md
-                    - name: Italijos Intrastat
-                      href: localizations/emea-ita-intrastat.md
                 - name: Atsargų žurnalo ataskaitos
                   href: localizations/emea-set-up-report-inventory-journal-names.md
                 - name: Sąskaitų faktūrų išdavimo terminai
@@ -2120,6 +2142,8 @@
                   href: localizations/emea-fra-derogatory-depreciation.md
                 - name: Prancūzijos įsakomieji ir paprastieji vekseliai
                   href: localizations/tasks/fr-00004-french-bills-exchange-promissory-notes.md
+                - name: Prancūzijos Intrastat
+                  href: localizations/emea-fra-intrastat.md
                 - name: NAF kodai ir siret numeriai
                   href: localizations/emea-fra-naf-codes-siret-numbers.md
                 - name: NAF kodų ir Siret numerių nustatymas
@@ -2138,6 +2162,8 @@
                   href: localizations/tasks/fr-00004-setup-method-payment.md
                 - name: Kliento mokėjimo būdo naujinimas
                   href: localizations/tasks/fr-00004-update-method-payment-customer.md
+                - name: PVM deklaracija
+                  href: localizations/emea-fra-VAT-declaration-preview-France.md
                 - name: DAS-2 ataskaita
                   href: localizations/emea-fra-das2-report.md
             - name: Vokietija
@@ -2162,6 +2188,8 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: Elektroninis PVM deklaracijos perkėlimas (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
+                - name: Vokietijos Intrastat
+                  href: localizations/emea-deu-intrastat.md
                 - name: Vokietijos PVM deklaracija
                   href: localizations/emea-de-vat-declaration.md
                 - name: Kliento elektroninių sąskaitų faktūrų ataskaita
@@ -2170,6 +2198,8 @@
                   href: localizations/emea-deu-journal-list-report.md
                 - name: Elektroninių mokesčių deklaracijų nustatymas
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/dynamics365/finance/toc.json
+                - name: Atskiros pardavimo kredito pažymų žymos spausdinimas
+                  href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
             - name: Vengrija
               items:
                 - name: Vengrijos apžvalga
@@ -2616,6 +2646,8 @@
                   href: localizations/emea-ita-exil-zero-invoice-posting.md
                 - name: Banko duomenų naudojimo patobulinimas
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
+                - name: Italijos Intrastat
+                  href: localizations/emea-ita-intrastat.md
                 - name: Papildomos išlaidos vienam kilogramui „Intrastat” deklaracijoje
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: Ketinimų raštas – sąskaitų faktūrų išrašymas įprastiniams eksportuotojams
@@ -2836,6 +2868,8 @@
                   href: localizations/emea-ltu-isaf.md
                 - name: Lietuvai skirtas standartinis mokesčio audito failas (SAF-T)
                   href: localizations/emea-ltu-saf-t.md
+                - name: Prekių perkėlimo įmonės viduje perkėlimo dokumentų nustatymas
+                  href: localizations/tasks/set-up-transfer-documents-goods-movement-inside-company.md
             - name: Malaizija
               items:
                 - name: Malaizijos apžvalga
@@ -2968,16 +3002,20 @@
                   href: localizations/emea-pol-interest-calculation.md
                 - name: Apyvartos balansų išrašas
                   href: localizations/emea-pol-turnover-balances-statement.md
-                - name: AP / AR valiutų keitimo kursų skaidymas
+                - name: Mokėtinų sumų / gautinų sumų valiutų keitimo kursų skaidymas
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
+                - name: PKWiU kodų Lenkijai nustatymas ir naudojimas
+                  href: localizations/emea-pol-pkwiu-code.md
                 - name: 'PVM deklaracija su registrais (JPK_V7M, VDEK)'
-                  href: localizations/emea-pol-vdek.md
-                - name: Paruošimas JPEGK-V7M ataskaitoms
-                  href: localizations/emea-pol-vdek-setup.md
-                - name: JPK-V7M ataskaitos
-                  href: localizations/emea-pol-vdek-reporting.md
-                - name: Konkrečių verslo scenarijų detali informacija JPEGK-V7M ataskaitoje
-                  href: localizations/emea-pol-vdek-scenarios.md
+                  items:
+                    - name: 'PVM deklaracijos su registrais (JPK_V7M, VDEK) apžvalga'
+                      href: localizations/emea-pol-vdek.md
+                    - name: Paruošimas JPK-V7M ataskaitoms
+                      href: localizations/emea-pol-vdek-setup.md
+                    - name: JPK-V7M ataskaitos
+                      href: localizations/emea-pol-vdek-reporting.md
+                    - name: Konkrečių verslo scenarijų detali informacija JPK-V7M ataskaitoje
+                      href: localizations/emea-pol-vdek-scenarios.md
             - name: Kataras
               items:
                 - name: Kataro apžvalga
@@ -3200,6 +3238,8 @@
                       href: localizations/rus-reporting-deferrals.md
                 - name: Mokesčių apskaita
                   items:
+                    - name: Mokesčių registrų ir mokesčių registro žurnalų kūrimas
+                      href: localizations/rus-profit-tax-registers.md
                     - name: Išlaidų ir pajamų kodai
                       href: localizations/rus-expense-and-income-codes.md
                     - name: Turto mokesčių registrai
@@ -3216,6 +3256,10 @@
                       href: localizations/rus-bad-debts.md
                     - name: Mokesčių turto ir mokestinių įsipareigojimų registrų skaičiavimas
                       href: localizations/rus-calculation-tax-asset-tax-liability-registers.md
+                    - name: Prekių perkėlimo mokesčių registrai
+                      href: localizations/rus-goods-movement-tax-registers.md
+                    - name: Kiti mokesčių registrai
+                      href: localizations/rus-other-tax-registers.md
             - name: Saudo Arabija
               items:
                 - name: Saudo Arabijos apžvalga
@@ -3304,8 +3348,6 @@
                   href: localizations/apac-tha-tax-branch-dimensions.md
                 - name: Pardavimo PVM ataskaita
                   href: localizations/apac-tha-sales-vat-report.md
-                - name: Vidutinis pirkimo operacijų PVM
-                  href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: Išskaitomas mokestis
                   href: localizations/apac-tha-withholding-tax.md
             - name: Jungtiniai Arabų Emyratai (JAE)

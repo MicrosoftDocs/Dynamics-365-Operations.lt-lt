@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 98f9fffcbf93871de302a0d8b4b9675889ef5e40
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: c1930a47bc133c411a0e6054aa766322a261064a06ac4cec8dcdd12c126dc7cd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641133"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773542"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Kas nauja ar pasikeitė 10.0.19 „Dynamics 365 Supply Chain Management” versijoje (2021 m. birželis)
 
@@ -35,6 +35,7 @@ Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fi
 
 | Funkcijos sritis | Funkcija | Daugiau informacijos |
 |---|---|---|
+| Atsargos&nbsp;ir&nbsp;logistika | [Patvirtinti ir įrašyti tiekėjo pateiktą banko informaciją](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/approve-save-vendor-submitted-bank-details) | [Tiekėjo banko sąskaitos informacijos priežiūra](../../finance/accounts-payable/maintain-vendor-bank-info.md) |
 | Atsargos ir logistika | [Kontaktinio asmens duomenų objekto eksportavimo optimizavimas](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | Įgalinus šią funkciją, dėl nurodytų duomenų pakeitimų, susiję kontaktai nebus įtraukti į kitą didėjantį eksportavimą. Išjungus šią funkciją, dėl nurodytų duomenų pakeitimų, susiję kontaktai bus įtraukti į kitą didėjantį eksportavimą. |
 | Atsargos ir logistika | [Sandėlio vykdymo galimybių papildantys patobulinimai su skalės vienetais](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[Pranešimų procesoriaus pranešimai](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[Sandėlio atsargų koregavimas](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[Sandėlio valdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams](../cloud-edge/cloud-edge-workload-warehousing.md) |
 | Atsargos ir logistika | [Pardavimo pasiūlymo puslapio laukų Dokumento įžanga ir Dokumento išvada peržvalgos funkcija](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | Ši funkcija prideda peržvalgos funkciją laukams **Dokumento įžanga** ir **Dokumento išvada**, esantiems **Pardavimų pasiūlymo** puslapyje.<br><br>Pagal numatytuosius nustatymus ši funkcija įjungta. |

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 09cdb039b9bde3f97db012f1aaaeaf4c8a7df944
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: 1aada0d3ebe80e1efb92815c6d429ed5638dabdbac165aa09be1ca281c51b255
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641061"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773518"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Naujienos ir pakeitimai „Dynamics 365 Supply Chain Management” 10.0.20 (2021 m. rugpjūtis)
 
@@ -47,7 +47,6 @@ Toliau pateiktoje lentelėje pateikti funkcijos patobulinimai, įtraukti į šį
 
 | Funkcijos sritis | Funkcijos&nbsp;pavadinimas&nbsp;funkcijos&nbsp;valdyme | Daugiau informacijos |
 |---|---|---|
-| Bendrasis planavimas | Planavimo optimizavimo neigiamos dienos | Ši funkcija įgalina Planavimo optimizavimą apsvarstyti leistiną uždelsimo nuokrypį pagal **Neigiamų dienų** parametrą, apibrėžtą padengimo grupėse. |
 | Bendrasis planavimas | Vienu metu vykdomas pakoreguotos poreikio prognozės įgaliojimas | Ši funkcija leidžia lygiagrečiai autorizuoti pakoreguotą poreikio prognozę iš **Pakoreguotos poreikio prognozės** puslapio. Šios funkcijos tikslas yra padidinti efektyvumą, kai autorizuojate didelį skaičių prognozių. Autorizuodamas vartotojas gali nurodyti **Gijų skaičių** autorizavimo dialogo lange. |
 | Bendrasis planavimas | (Peržiūros versija) Paketais valdomas tvirtinimas ir konsolidacija suplanuotiems nesupakuotiems ir supakuotiems paketiniams užsakymams | Ši funkcija leidžia naudoti paketines užduotis tvirtinant ir konsoliduojant suplanuotus nesupakuotus ir supakuotus užsakymus. |
 | Gamybos kontrolė | Kopijuoti bendruosius maršrutus | Ši funkcija pagerina kopijavimo maršruto funkciją, leidžiančią vartotojams kopijuoti maršrutus, kurie nėra konkretūs prekei. Ji įgalina sistemą atnaujinti visą reikiamą informaciją (pavyzdžiui, svetainę, maršruto grupę, išteklių reikalavimus ir įvairius laikus) po to, kai maršruto kopijavimo funkcija buvo panaudota perrašyti maršrutui, dar nepriskirtam prie prekės. |
