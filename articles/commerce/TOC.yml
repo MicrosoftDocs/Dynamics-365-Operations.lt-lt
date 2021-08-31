@@ -256,7 +256,7 @@
                       href: dev-itpro/CDX-Troubleshooting.md
                 - name: „Modern POS“ architektūra
                   href: dev-itpro/retail-modern-pos-architecture.md
-                - name: Interneto parduotuvės kanalo publikavimas
+                - name: Interneto parduotuvės katalogo publikavimas
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: „Retail Channel Performance Power BI“ turinys
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
@@ -1268,6 +1268,26 @@
                   href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
                 - name: „Regulatory Configuration Service“ – „Lifecycle Services“ saugyklos netinkamumas
                   href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
+                - name: ER konfigūracijų atsisiuntimas „Commerce“
+                  items:
+                    - name: Konfigūracijų atsisiuntimas iš RCS
+                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Konfigūracijų importavimas iš RCS
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
+                - name: Visuotinė saugykla (GR)
+                  items:
+                    - name: Konfigūracijų importavimas iš GR
+                      href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: Atnaujintų ER konfigūracijų versijų importavimas
+                      href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: Išplėstinis filtravimas konfigūracijoms rasti GR
+                      href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: Konfigūracijų nusiuntimas į GR
+                      href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                    - name: Konfigūracijų bendrinimas GR
+                      href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
+                    - name: Konfigūracijų RCS visuotinėje saugykloje naudojimo nutraukimas
+                      href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: Austrija
               items:
                 - name: 'Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Austrijai'
@@ -1315,6 +1335,12 @@
                 - name: Kasos aparato funkcijos
                   href: localizations/emea-fra-cash-registers.md
                 - name: Kasos aparatų diegimo gairės
+                  href: localizations/emea-fra-fi-deployment.md
+                - name: Finansinio archyvo ir duomenų vientisumo tikrinimas
+                  href: localizations/emea-fra-fiscal-archive.md
+                - name: Perkėlimas iš senstelėjusių funkcijų Prancūzijai
+                  href: localizations/emea-fra-fi-migration.md
+                - name: Kasos aparatų diegimo gairės (senstelėjusios)
                   href: localizations/emea-fra-deployment.md
             - name: Vokietija
               items:
@@ -1350,6 +1376,8 @@
               items:
                 - name: „Commerce“ lokalizavimas Rusijai
                   href: localizations/rus-commerce-localization.md
+                - name: Supaprastintas kliento adreso formatas „Commerce“ EKA Rusijai
+                  href: localizations/rus-simplified-address.md
                 - name: „Commerce“ lokalizavimo Rusijai nustatymas
                   href: localizations/rus-commerce-setup.md
                 - name: Išankstiniai mokėjimai „Commerce“ Rusijai
@@ -1860,30 +1888,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
                     - name: Konfigūracijų importavimas (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
-                - name: Regulatory service (RCS)
-                  items:
-                    - name: RCS globalizacijos funkcijos
-                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
-                    - name: ER konfigūracijų atsisiuntimas „Commerce“
-                      items:
-                        - name: Konfigūracijų atsisiuntimas iš RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
-                        - name: Konfigūracijų importavimas iš RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
-                    - name: Visuotinė saugykla (GR)
-                      items:
-                        - name: Konfigūracijų importavimas iš GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: Atnaujintų ER konfigūracijų versijų importavimas
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: Išplėstinis filtravimas konfigūracijoms rasti GR
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: Konfigūracijų nusiuntimas į GR
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                        - name: Konfigūracijų bendrinimas GR
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
-                        - name: Konfigūracijų RCS visuotinėje saugykloje naudojimo nutraukimas
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: Greito pasirengimo darbui vadovai
               items:
                 - name: ER formato koregavimas pasirinktiniam elektroniniam dokumentui sugeneruoti
@@ -2112,11 +2116,11 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/commerce/toc.json
             - name: Objektų duomenų atidarymas „Excel“ ir jų atnaujinimas naudojant „Excel“ skirtą papildinį
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/commerce/toc.json
-            - name: Atidarymo programoje „Excel“ patirčių kūrimas
+            - name: DUK apie atidarymo programoje „Excel“ patirtis
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/commerce/toc.json
             - name: Šablonų įtraukimas į meniu Atidaryti eilutes programoje „Excel“
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/commerce/toc.json
-            - name: „Atidaryti“ tinkinimas „Microsoft Office“ meniu
+            - name: Atidarymo tinkinimas „Microsoft Office“ meniu
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/commerce/toc.json
             - name: El. pašto konfigūravimas ir siuntimas
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
@@ -2356,11 +2360,13 @@
                       href: e-commerce-extensibility/mock-sign-in.md
                     - name: 'Modulio ypatybių, kurios turi būti rodomos pagal kontekstą, konfigūravimas'
                       href: e-commerce-extensibility/configure-properties-context.md
-                    - name: Modulių globalizavimas naudojant CultureInfoFormatter klasę
+                    - name: Modulių globalizavimas naudojant klasę CultureInfoFormatter
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: „Azure Key Vault“ nustatymas saugos raktui valdyti
                       href: e-commerce-extensibility/set-up-key-vault.md
-                - name: Kurti veiksmus su duomenimis
+                    - name: Užklausos srauto priedo trikčių gaudyklės kūrimas
+                      href: e-commerce-extensibility/request-pipeline-hook.md
+                - name: Veiksmų su duomenimis kūrimas
                   items:
                     - name: Veiksmų su duomenimis apžvalga
                       href: e-commerce-extensibility/data-actions.md
@@ -2422,6 +2428,12 @@
                   items:
                     - name: Jungčių konfigūravimas ir įjungimas
                       href: e-commerce-extensibility/connectors.md
+                - name: Našumas
+                  items:
+                    - name: Puslapio kaupimo gaudyklėje konfigūravimas
+                      href: e-commerce-extensibility/page-caching.md
+                    - name: Duomenų veiksmo egzemplioriaus talpykla
+                      href: e-commerce-extensibility/instance-cache.md
                 - name: Telemetrija ir analizė
                   items:
                     - name: Telemetrijos registravimo programa

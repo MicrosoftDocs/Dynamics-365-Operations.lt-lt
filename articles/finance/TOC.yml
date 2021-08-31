@@ -1170,6 +1170,8 @@
                   href: general-ledger/yec-mssng-open-blnces.md
                 - name: Finansinių žurnalų šablonų atidarymas „Office“
                   href: general-ledger/open-fincl-jrnls-in-office.md
+                - name: Žurnalo registravimo triktis dėl disbalanso
+                  href: general-ledger/posting-fail-imbalance.md
                 - name: Kodėl negaliu atšaukti šios operacijos?
                   href: general-ledger/cant-reverse-transctns.md
         - name: Finansinės ataskaitos
@@ -1482,6 +1484,26 @@
                       href: localizations/rcs-delete-environment.md
                     - name: „Regulatory Configuration Service“ – „Lifecycle Services“ saugyklos netinkamumas
                       href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
+                    - name: ER konfigūracijų atsisiuntimas „Finance“
+                      items:
+                        - name: Konfigūracijų atsisiuntimas iš RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Konfigūracijų importavimas iš RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                    - name: Visuotinė saugykla (GR)
+                      items:
+                        - name: Konfigūracijų importavimas iš GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Atnaujintų ER konfigūracijų versijų importavimas
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Išplėstinis filtravimas konfigūracijoms rasti GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Konfigūracijų nusiuntimas į GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                        - name: Konfigūracijų bendrinimas GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+                        - name: Konfigūracijų RCS visuotinėje saugykloje naudojimo nutraukimas
+                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
                 - name: Elektroninių SF išrašymas
                   items:
                     - name: Elektroninių SF išrašymo apžvalga
@@ -1520,40 +1542,56 @@
                   items:
                     - name: Mokesčių skaičiavimo apžvalga
                       href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
-                    - name: Pradėti naudoti mokesčių skaičiavimą
-                      href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
-                    - name: PVM taikymas ir PVM grupės nustatymo logika
-                      href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
-                    - name: Mokesčių funkcijų palaikymas perkėlimo užsakymams
-                      href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Mokesčio, pridedamo prie kainos, kai kainos apima mokesčius, skaičiavimas įjungtas'
-                      href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
-                    - name: Įtraukti duomenų laukus į mokesčių konfigūracijas
-                      href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: Įtraukti duomenų laukus į mokesčių integravimą naudojant plėtinius
-                      href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
-                    - name: Bendrųjų duomenų peržvalgos aplinkos nustatymas
-                      href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
-                    - name: Kelių PVM registracijų numeriai
-                      href: localizations/emea-multiple-vat-registration-numbers.md
-                    - name: Kelių PVM registracijų ataskaita
+                    - name: Sąranka
                       items:
+                        - name: Pradėti naudoti mokesčių skaičiavimą
+                          href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                        - name: Bendrųjų duomenų peržvalgos aplinkos nustatymas
+                          href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                    - name: Nustatymas
+                      items:
+                        - name: PVM taikymas ir PVM grupės nustatymo logika
+                          href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
+                    - name: Skaičiavimas
+                      items:
+                        - name: 'Mokesčio, pridedamo prie kainų, kai kainos apima mokesčius, skaičiavimas įjungtas'
+                          href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
+                        - name: Mokesčių skaičiavimo apvalinimo taisyklės
+                          href: localizations/tax-calculation-rounding-rules.md
+                    - name: Kelios PVM registracijos
+                      items:
+                        - name: Kelių PVM registracijų numeriai
+                          href: localizations/emea-multiple-vat-registration-numbers.md
                         - name: Kelių PVM registracijų ataskaita
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
                         - name: Prancūzijos ataskaitos
                           items:
                             - name: PVM deklaracija
-                          href: localizations/emea-fra-VAT-declaration-preview-France.md
+                              href: localizations/emea-fra-VAT-declaration-preview-France.md
                         - name: Nyderlandų ataskaitos
                           items:
                             - name: PVM deklaracija
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: ES pardavimo sąrašas
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Šveicarijos ataskaitos
+                          items:
+                            - name: PVM deklaracija
+                              href: localizations/emea-che-vat-declaration-switzerland.md
                         - name: Jungtinės Karalystės ataskaitos
                           items:
                             - name: Pasiruošimas integruoti su MTD PVM
                               href: localizations/emea-gbr-mtd-vat-integration.md
+                    - name: Mokesčio skaičiavimo perkėlimo užsakymui įjungimas
+                      items:
+                        - name: Mokesčių funkcijų palaikymas perkėlimo užsakymams
+                          href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
+                    - name: Plėtinys
+                      items:
+                        - name: Duomenų laukų įtraukimas į mokesčių konfigūracijas
+                          href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Duomenų laukų įtraukimas į mokesčių integravimą naudojant plėtinius
+                          href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
             - name: Reglamentavimo naujinimai
               href: localizations/regulatory-updates.md
             - name: Australija
@@ -1710,6 +1748,8 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: Finansinio padalinio NF-e parametrų nustatymas
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: NT2020.005 – maketo ir tikrinimo atnaujinimai elektroniniame finansiniame dokumente (NF-e)
+                      href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: 'NT2020.006 – tarpinio pardavimo skaitmeninė platforma, skirta NF-e'
                       href: localizations/latam-bra-nf-e-nt2020-006-v1-00.md
                     - name: 'NT2019.001 – mokesčių lengvatų ir atleidimo nuo mokesčių taisyklės, skirtos NF-e / NFC-e'
@@ -2330,12 +2370,10 @@
                               href: localizations/apac-ind-GST-set-up-rate-percentage-tables.md
                             - name: PVM hierarchijos ir nustatymo taisyklių nustatymas
                               href: localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
-                            - name: Indijos PPM kontrolinės grupės
+                            - name: Indijos GST kontrolinės grupės
                               href: localizations/apac-ind-gst-reference-groups.md
                         - name: Mokesčių operacijos
                           items:
-                            - name: Prekių ir paslaugų mokėjimų PPM TDS
-                              href: localizations/ind-gst-tds-payment-goods-services.md
                             - name: Pirkimo operacijos
                               items:
                                 - name: Pirkimai iš neužregistruotų tiekėjų
@@ -2370,6 +2408,10 @@
                                   href: localizations/apac-ind-GST-purchase-return-order.md
                                 - name: 'Išankstiniai tiekėjo mokėjimai, kai taikomi atvirkštiniai mokesčiai'
                                   href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
+                                - name: Prekių ir paslaugų mokėjimų PPM TDS
+                                  href: localizations/ind-gst-tds-payment-goods-services.md
+                                - name: Prekių ir paslaugų mokėjimų PPM TCS
+                                  href: localizations/ind-gst-tcs-payment.md
                             - name: Pardavimo operacijos
                               items:
                                 - name: Apmokestinamų prekių pardavimas vartotojams
@@ -3128,18 +3170,20 @@
                           href: localizations/rus-fixed-asset-currency-revaluation.md
                         - name: Ilgalaikio turto savikainos ir nusidėvėjimo perkainojimas
                           href: localizations/rus-fixed-assets-revaluation.md
-                        - name: Ilgalaikio turto įsigijimų biudžeto žurnalų kūrimas ir registravimas
+                        - name: Ilgalaikių išteklių įsigijimų biudžeto žurnalų kūrimas ir registravimas
                           href: localizations/rus-post-budget-fixed-asset-acquisition.md
                         - name: Ilgalaikio turto perkėlimas
                           href: localizations/rus-fixed-asset-transfer.md
+                        - name: Ilgalaikio turto bendrosios spausdinimo formos
+                          href: localizations/printing-forms-fixed-assets.md
+                        - name: Užklausos ir ataskaitos
+                          href: localizations/rus-fa-inquiries-reports.md
                     - name: Nevertingas ilgalaikis turtas ir darbo drabužiai
                       items:
-                        - name: Nevertingas ilgalaikis turtas (NVFA) (Rusija)
+                        - name: Nevertingi ilgalaikiai ištekliai (NVFA) (Rusija)
                           href: localizations/rus-not-valuable-assets.md
                         - name: Darbo drabužių / specialiosios įrangos apskaita (Rusija)
                           href: localizations/rus-working-clothes-instruments-accounting.md
-                        - name: Ilgalaikio turto unifikuotos spausdinimo formos
-                          href: localizations/printing-forms-fixed-assets.md
                 - name: Mokėtinos sumos ir gautinos sumos
                   items:
                     - name: Kredito pažymos pataisymai (Rusija)
@@ -3330,11 +3374,13 @@
                   href: localizations/emea-che-esr-customer-payments-import.md
                 - name: Šveicarijos QR sąskaitos
                   href: localizations/emea-che-swiss-qr-bills.md
+                - name: PVM deklaracija
+                  href: localizations/emea-che-VAT-declaration-Switzerland.md
             - name: Tailandas
               items:
                 - name: Tailando apžvalga
                   href: localizations/thailand.md
-                - name: Atsargų kortelių ataskaitos
+                - name: Akcijos kortelių ataskaitos
                   href: localizations/apac-tha-stock-card-reports.md
                 - name: Mokesčių SF
                   href: localizations/apac-tha-tax-invoices.md
@@ -4101,30 +4147,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
                     - name: Konfigūracijų importavimas (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
-                - name: Regulatory service (RCS)
-                  items:
-                    - name: RCS globalizacijos funkcijos
-                      href: localizations/rcs-globalization-feature.md?toc=dynamics365/finance/toc.json
-                    - name: ER konfigūracijų atsisiuntimas „Finance“
-                      items:
-                        - name: Konfigūracijų atsisiuntimas iš RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
-                        - name: Konfigūracijų importavimas iš RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
-                    - name: Visuotinė saugykla (GR)
-                      items:
-                        - name: Konfigūracijų importavimas iš GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: Atnaujintų ER konfigūracijų versijų importavimas
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: Išplėstinis filtravimas konfigūracijoms rasti GR
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: Konfigūracijų nusiuntimas į GR
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
-                        - name: Konfigūracijų bendrinimas GR
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
-                        - name: Konfigūracijų RCS visuotinėje saugykloje naudojimo nutraukimas
-                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
             - name: Greito pasirengimo darbui vadovai
               items:
                 - name: ER formato koregavimas pasirinktiniam elektroniniam dokumentui sugeneruoti
@@ -4355,11 +4377,11 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/finance/toc.json
             - name: Objektų duomenų atidarymas „Excel“ ir jų atnaujinimas naudojant „Excel“ skirtą papildinį
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/finance/toc.json
-            - name: Atidarymo programoje „Excel“ patirčių kūrimas
+            - name: DUK apie atidarymo programoje „Excel“ patirtis
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/finance/toc.json
             - name: Šablonų įtraukimas į meniu Atidaryti eilutes programoje „Excel“
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/finance/toc.json
-            - name: Atidarytų elementų tinkinimas „Microsoft Office“ meniu
+            - name: Atidarymo tinkinimas „Microsoft Office“ meniu
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/finance/toc.json
             - name: El. pašto konfigūravimas ir siuntimas
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/finance/toc.json

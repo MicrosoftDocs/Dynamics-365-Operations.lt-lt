@@ -310,7 +310,7 @@
                   href: database/dbmovement-scenario-goldenconfig.md
                 - name: Ardomieji bandymai
                   href: database/dbmovement-scenario-destructivetests.md
-            - name: „RESTful API”
+            - name: „RESTful“ API
               items:
                 - name: Apžvalga
                   href: database/api/dbmovement-api-overview.md
@@ -332,8 +332,6 @@
                       href: database/api/v1/reference-create-export.md
                     - name: Operacijos veiklos būsenos gavimas
                       href: database/api/v1/reference-get-status.md
-                    - name: Aplinkų pradėjimas ir stabdymas
-                      href: database/api/v1/reference-start-stop-environments.md
         - name: Demonstraciniai duomenys
           items:
             - name: Demonstracinių duomenų apžvalga
@@ -368,9 +366,11 @@
                       href: deployment/plannedmaintenance-selfservice.md
                     - name: Verslo tęstinumas ir avarinis atkūrimas
                       href: sysadmin/business-continuity-disaster-recovery.md
-                - name: Baigtas „Azure Resource Manager“ supažindinimas
+                - name: Baigtas „Azure Resource Manager“ supažindinimo procesas
                   href: deployment/arm-onboarding.md
-                - name: Azure ExpressRoute ir Finance and Operations
+                - name: Baigtas JAV valstybinių institucijų LCS projektų „Azure Resource Manager“ supažindinimo procesas
+                  href: deployment/arm-onbarding-us-goverment.md
+                - name: „Azure ExpressRoute“ ir „Finance and Operations“
                   href: deployment/expressroute.md
                 - name: „Finance and Operations“ architektūra
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
@@ -944,6 +944,16 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS partneriams
                   href: lifecycle-services/getting-started-lcs.md
+                - name: „RESTful“ API
+                  items:
+                    - name: Aplinkų pradėjimas ir stabdymas
+                      href: lifecycle-services/api/v1/reference-start-stop-environments.md
+                    - name: Aplinkos metaduomenų iškvietimas
+                      href: lifecycle-services/api/v1/reference-environment-metadata.md
+                    - name: Aplinkos istorijos iškvietimas
+                      href: lifecycle-services/api/v1/reference-environment-history.md
+                    - name: Aplinkos RSAT sertifikato ZIP iškvietimas
+                      href: lifecycle-services/api/v1/reference-download-rsat-certificate.md
                 - name: Kas nauja ar pasikeitė „Lifecycle Services”
                   href: lifecycle-services/whats-new-lcs.md
             - name: „Lifecycle Services“ vartotojo vadovas
@@ -1138,22 +1148,24 @@
                       href: data-entities/dual-write/migrate-prospect-to-cash.md
                     - name: Trikčių šalinimas
                       items:
-                        - name: Dvigubo rašymo konfigūracijos patikrinimas „Finance and Operations“ programose ir „Dataverse“
-                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Bendras problemų sprendimas
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
                         - name: Problemų šalinimas pradinio nustatymo metu
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
                         - name: Problemų šalinimas pradinės sinchronizacijos metu
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                        - name: Dvigubo rašymo problemų „Finance and Operations“ programose šalinimas
-                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                         - name: Tiesioginės sinchronizacijos problemų šalinimas
                           href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: Dvigubo rašymo problemų „Finance and Operations“ programose šalinimas
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: Šalies ir visuotinės adresų knygelės problemų šalinimas
+                          href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
                         - name: 'Problemų, susijusių su sprendimo supratimu, šalinimas'
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
                         - name: 'Problemų, susijusių su „Finance and Operations“ programų naujinimais, sprendimas'
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: Bendras problemų sprendimas
-                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: Dvigubo rašymo konfigūracijos patikrinimas „Finance and Operations“ programose ir „Dataverse“
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                 - name: Dažnai užduodami klausimai apie dvigubą rašymą
                   href: data-entities/dual-write/dual-write-faq.md
             - name: Virtualūs objektai

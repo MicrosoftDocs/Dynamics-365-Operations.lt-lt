@@ -2,7 +2,7 @@
 title: „Finance“ pagrindinis puslapis
 description: Šioje temoje pateikiamas „Microsoft Dynamics 365 Finance“ finansų valdymo funkcijų žinyno temų ir kitų išteklių sąrašas.
 author: roschlom
-ms.date: 06/20/2018
+ms.date: 08/18/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85b93f43a599e2da17d873dbe5609347d53af03cbfcaaccde7963b2f1ee97f08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad6c671dd48ff482caf1b24a3842d8db0064dc18
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779427"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394568"
 ---
 # <a name="finance-home-page"></a>„Finance“ pagrindinis puslapis
 
@@ -35,6 +35,7 @@ Pasirinkite funkcijų sritį, apie kurią norite sužinoti daugiau.
     :::column:::
         - [Mokėtinos sumos](accounts-payable/accounts-payable.md) 
         - [Gautinos sumos](accounts-receivable/accounts-receivable.md)
+        - [Turto nuoma](asset-leasing/asset-leasing-homepage.md)
         - [Biudžeto sudarymas](budgeting/budgeting-overview.md) 
         - [Grynųjų pinigų ir banko valdymas](cash-bank-management/cash-bank-management.md)
         - [Kaštų apskaita](cost-accounting/cost-accounting-home-page.md)
@@ -43,6 +44,7 @@ Pasirinkite funkcijų sritį, apie kurią norite sužinoti daugiau.
         - [Išlaidų valdymas](/dynamics365/project-operations/prod-exp/expense-management)
         - [Finansinės ataskaitos](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [Ilgalaikis turtas](fixed-assets/fixed-assets.md)
+        - [„Finance Insights“](finance-insights/finance-insights-home-page.md)
         - [Didžioji knyga ir finansinės ataskaitos](general-ledger/general-ledger.md) 
         - [Projektų valdymas ir apskaita](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [Viešasis sektorius](public-sector/public-sector-functionality.md) 
@@ -57,9 +59,6 @@ Pasirinkite funkcijų sritį, apie kurią norite sužinoti daugiau.
 - [„Microsoft Dynamics 365“ tinklaraštis](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
 - [„Financials“ tinklaraštis](https://community.dynamics.com/365/financeandoperations/b/financials) 
 - [„Microsoft Dynamics Operations“ partnerių bendruomenės tinklaraštis](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
-
-### <a name="task-guides"></a>Užduočių vedliai
-Papildoma pagalba prieinama kaip užduočių vedliai programoje „Finance and Operations‟. Norėdami pasiekti užduočių vedlius, bet kuriame puslapyje spustelėkite mygtuką Žinynas.
 
 ### <a name="videos"></a>Vaizdo įrašai
 
