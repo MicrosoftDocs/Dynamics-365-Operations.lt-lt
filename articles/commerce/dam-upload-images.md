@@ -2,7 +2,7 @@
 title: Vaizdų nusiuntimas
 description: Šioje temoje aprašoma, kaip įkelti vaizdus „Microsoft Dynamics 365 Commerce“ svetainės generatoriuje.
 author: psimolin
-ms.date: 03/03/2020
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5f4f84c41e6af23483ccb74a9189cb713016f4ac9d0d9981bf918ca8a71743eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a5607fa70f5d5d28d10bcbd50da11bb96cbf75de
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757403"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423260"
 ---
 # <a name="upload-images"></a>Vaizdų nusiuntimas
 
@@ -52,10 +52,17 @@ Numatytoji vardų suteikimo konvencija priklauso nuo kategorijos:
 - Kategorijos vaizdai turi būti pavadinti „**/Categories/\{CategoryName\}.png**“
 - Kliento vaizdai turi būti pavadinti „**/Customers/\{CustomerNumber\}.jpg**“
 - Darbuotojų vaizdai turi būti pavadinti „**/Workers/\{WorkerNumber\}.jpg**“
-- Produkto vaizdai turi būti pavadinti „**/Products/\{ProductNumber\}_000_001.png**“
+- Produkto vaizdai turi būti pavadinti „**/Products/\{ProductNumber\}\_000_001.png**”
     - 001 yra vaizdo seka, kuri gali būti 001, 002, 003, 004 arba 005
 - Produkto varianto vaizdai turi būti pavadinti „**/Produktai/\{Produkto numeris\} \^ \{Stilius\} \^ \{Dydis\} \^ \{Spalva\} \^\_000_001.png**”
-    - Pavyzdžiui: 93039 \^\^2 \^ Juoda \^_000_001.png
+    - Pavyzdžiui: 93039 \^&nbsp;\^ 2 \^ Juoda \^\_000_001.png
+- Produkto varianto vaizdai su konfigūracijos dimensija turi būti pavadinti „**/Produktai/\{ProductNumber\}\^\{Konfigūracija\}\_000_001.png**”
+    - Pavyzdžiui: 93039 \^ LB8017_000_001.png
+
+> [!NOTE]
+> Suteikiant produkto varianto pavadinimą, jeigu dimensijos reikšmė tuščia, failo pavadinime turi būti du tarpai tarp įterpties ženklų.
+
+Ankstesniuose pavyzdžiuose naudojama numatytoji konfigūracija. Skyriklio simbolį ir dimensijas galima konfigūruoti, o tikslūs pavadinimų suteikimo reikalavimai gali skirtis atsižvelgiant į įdiegtį. Vienas būdas sužinoti tikslius pavadinimų suteikimo konvencijos reikalavimus yra naudoti naršyklės programų kūrėjų konsolę, siekiant patikrinti produkto varianto vaizdo užklausas, keičiant produkto dimensijas parduotuvės produkto išsamios informacijos puslapyje (PDP).
 
 ## <a name="upload-an-image"></a>Įkelti vaizdą
 

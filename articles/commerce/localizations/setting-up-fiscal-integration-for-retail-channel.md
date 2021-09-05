@@ -2,7 +2,7 @@
 title: Prekybos kanalų fiskalinės integracijos nustatymas
 description: Šioje temoje pateikiamos prekybos kanalų fiskalinės integracijos nustatymo gairės.
 author: josaw
-ms.date: 02/01/2019
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,28 +14,26 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: fb48eb93d8cf4f26174441de65c0b105c5e8774c2030e844ec7bd1352bff64b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 38ad2cc3dc7e511ac6e2ac9484d10ebd2d1d425d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719901"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343318"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Prekybos kanalų fiskalinės integracijos nustatymas
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="introduction"></a>Įžanga
-
 Šioje temoje pateikiamos prekybos kanalų fiskalinės integracijos nustatymo gairės. Daugiau informacijos apie fiskalinę integraciją žr. [Prekybos kanalų fiskalinės integracijos apžvalga](fiscal-integration-for-retail-channel.md).
 
 Fiskalinės integracijos nustatymo procesas apima toliau nurodytas užduotis.
 
-1. Sukonfigūruoti fiskalines jungtis, kurios nurodo finansinius įrenginius arba paslaugas, naudojamas fiskalinio registravimo tikslais, pvz., fiskaliniai spausdintuvai.
-2. Sukonfigūruoti dokumentų teikėjus, generuojančius finansinius dokumentus, kuriuos fiskalinės jungtys užregistruos finansiniuose įrenginiuose arba paslaugose.
-3. Sukonfigūruoti fiskalinės registracijos procesą, kuris apibrėžia fiskalinės registracijos veiksmus ir fiskalines jungtis bei finansinių dokumentų teikėjus, naudojamus kiekviename veiksme.
-4. Priskirti fiskalinės registracijos procesus elektroninio kasos aparato (EKA) funkcijų profiliams.
-5. Priskirti jungčių techninius profilius aparatūros profiliams.
+- Sukonfigūruoti fiskalines jungtis, kurios nurodo finansinius įrenginius arba paslaugas, naudojamas fiskalinio registravimo tikslais, pvz., fiskaliniai spausdintuvai.
+- Sukonfigūruoti dokumentų teikėjus, generuojančius finansinius dokumentus, kuriuos fiskalinės jungtys užregistruos finansiniuose įrenginiuose arba paslaugose.
+- Sukonfigūruoti fiskalinės registracijos procesą, kuris apibrėžia fiskalinės registracijos veiksmus ir fiskalines jungtis bei finansinių dokumentų teikėjus, naudojamus kiekviename veiksme.
+- Priskirti fiskalinės registracijos procesus elektroninio kasos aparato (EKA) funkcijų profiliams.
+- Priskirti jungčių techninius profilius aparatūros profiliams.
 
 ## <a name="set-up-a-fiscal-registration-process"></a>Fiskalinės registracijos proceso nustatymas
 
@@ -49,12 +47,12 @@ Prieš naudodamiesi fiskalinės integracijos funkcija, turėtumėte sukonfigūru
         - Fiskalinių jungčių grupės numeris
         - Registracijos proceso numeris
 
-    2. Puslapyje **Prekybos parametrai** nurodykite fiskalinio funkcinio profilio numeraciją.
+    1. Puslapyje **Prekybos parametrai** nurodykite fiskalinio funkcinio profilio numeraciją.
 
     > [!NOTE]
     > Numeracijos nėra būtinos. Visų fiskalinės integracijos objektų numerius galima generuoti naudojant numeraciją arba neautomatiniu būdu.
 
-2. Įkelkite fiskalinių jungčių ir finansinių dokumentų teikėjų konfigūracijas.
+1. Įkelkite fiskalinių jungčių ir finansinių dokumentų teikėjų konfigūracijas.
 
     Finansinių dokumentų teikėjas generuoja finansinius dokumentus, kuriuose nurodomos prekybos operacijos ir įvykiai, užregistruoti EKA tokiu formatu, koks naudojamas sąveikaujant su finansiniu įrenginiu arba paslauga. Pvz., finansinių dokumentų teikėjas gali generuoti finansinio kvito versiją XML formatu.
 
@@ -65,22 +63,22 @@ Prieš naudodamiesi fiskalinės integracijos funkcija, turėtumėte sukonfigūru
         > [!TIP]
         > Pasirinkdami **Peržiūrėti** galite peržiūrėti visus funkcinius ir techninius profilius, susijusius su dabartine fiskaline jungtimi.
 
-    2. Puslapyje **Finansinių dokumentų teikėjai** (**Mažmeninė prekyba ir prekyba \> Kanalų sąranka \> Fiskalinė integracija \> Finansinių dokumentų teikėjai**) nusiųskite kiekvieno įrenginio arba paslaugos, kuria planuojate naudotis fiskalinės integracijos tikslais, XML konfigūraciją.
+    1. Puslapyje **Finansinių dokumentų teikėjai** (**Mažmeninė prekyba ir prekyba \> Kanalų sąranka \> Fiskalinė integracija \> Finansinių dokumentų teikėjai**) nusiųskite kiekvieno įrenginio arba paslaugos, kuria planuojate naudotis fiskalinės integracijos tikslais, XML konfigūraciją.
 
         > [!TIP]
         > Pasirinkdami **Peržiūrėti** galite peržiūrėti visus funkcinius profilius, susijusius su dabartiniu finansinių dokumentų teikėju.
 
-    Fiskalinių jungčių ir finansinių dokumentų teikėjų konfigūracijų pavyzdžių žr. [Mažmeninės prekybos SDK fiskalinės integracijos pavyzdžiai](fiscal-integration-for-retail-channel.md#fiscal-integration-samples-in-the-retail-sdk).
+    Fiskalinių jungčių ir finansinių dokumentų teikėjų konfigūracijų pavyzdžių žr. [Mažmeninės prekybos SDK fiskalinės integracijos pavyzdžiai](fiscal-integration-for-retail-channel.md#fiscal-integration-samples-in-the-commerce-sdk).
 
     > [!NOTE]
     > Duomenų susiejimas laikomas fiskalinio dokumento teikėjo dalis. Norėdami nustatyti skirtingus tos pačios jungties duomenų susiejimus (pvz., nuo būsenos priklausančius reguliatorius), turėtumėte sukurti skirtingus fiskalinių dokumentų teikėjus.
 
-3. Sukurkite jungčių funkcinius profilius ir jungčių techninius profilius.
+1. Sukurkite jungčių funkcinius profilius ir jungčių techninius profilius.
 
     1. Puslapyje **Funkciniai jungčių profiliai** (**Mažmeninė prekyba ir prekyba \> Kanalo sąranka \> Fiskalinė integracija \> Funkciniai jungčių profiliai**), sukurkite funkcinį kiekvieno fiskalinės jungties ir finansinių dokumentų teikėjo, susijusio su šia fiskaline jungtimi, derinio profilį.
 
         1. Pasirinkite jungties pavadinimą.
-        2. Pasirinkite dokumento teikėją.
+        1. Pasirinkite dokumento teikėją.
 
         Funkciniame jungties profilyje galite keisti duomenų susiejimo parametrus. Norėdami atkurti numatytuosius parametrus, kurie apibrėžti finansinių dokumentų teikėjo konfigūracijoje, pasirinkite **Naujinti**.
 
@@ -95,39 +93,39 @@ Prieš naudodamiesi fiskalinės integracijos funkcija, turėtumėte sukonfigūru
         > [!NOTE]
         > Funkciniai jungčių profiliai nustatomi konkrečioje įmonėje. Jei planuojate naudoti tokį patį fiskalinės jungties ir finansinių dokumentų teikėjo derinį skirtingose įmonėse, sukurkite funkcinį jungties profilį kiekvienoje įmonėje.
 
-    2. Puslapyje **Techniniai jungčių profiliai** (**Mažmeninė prekyba ir prekyba \> Kanalų sąranka \> Fiskalinė integracija \> Techniniai jungčių profiliai**) sukurkite techninį kiekvienos fiskalinės jungties profilį.
+    1. Puslapyje **Techniniai jungčių profiliai** (**Mažmeninė prekyba ir prekyba \> Kanalų sąranka \> Fiskalinė integracija \> Techniniai jungčių profiliai**) sukurkite techninį kiekvienos fiskalinės jungties profilį.
 
         1. Pasirinkite jungties pavadinimą.
-        2. Pasirinkite jungties tipą. Įrenginiuose, kurie prijungti prie aparatūros stoties, pasirinkite **Vietos**.
+        1. Pasirinkite jungties tipą. Įrenginiuose, kurie prijungti prie aparatūros stoties, pasirinkite **Vietos**.
 
             > [!NOTE]
             > Šiuo metu palaikomos tik vietos jungtys.
 
         Techniniame jungties profilyje pateiktų skirtukų **Įrenginys** ir **Parametrai** nustatymus galima keisti. Norėdami atkurti numatytuosius parametrus, kurie apibrėžti fiskalinės jungties konfigūracijoje, pasirinkite **Naujinti**. Kol įkeliama nauja XML konfigūracijos versija, gausite pranešimą, nurodantį, kad dabartinė fiskalinė jungtis arba finansinių dokumentų teikėjas jau yra naudojamas. Ši procedūra neperrašo neautomatinių pakeitimų, kurie anksčiau buvo atlikti funkciniuose jungčių profiliuose ir techniniuose jungčių profiliuose. Norėdami taikyti numatytąjį naujos konfigūracijos parametrų rinkinį, puslapyje **Funkciniai jungčių profiliai** arba puslapyje **Techniniai jungčių profiliai** pasirinkite **Naujinti**.
 
-4. Sukurkite fiskalinių jungčių grupes.
+1. Sukurkite fiskalinių jungčių grupes.
 
     Fiskalinių jungčių grupė yra su identiškas funkcijas atliekančiomis ir tame pačiame fiskalinės registracijos proceso veiksme naudojamomis fiskalinėmis jungtimis susietų funkcinių profilių subrinkinys. Pavyzdžiui, jei mažmeninėje parduotuvėje galima naudoti kelis fiskalinio spausdintuvo modelius, tų fiskalinių spausdintuvų fiskalinės jungtys gali būti sujungtos į fiskalinių jungčių grupę.
 
     1. Puslapyje **Fiskalinių jungčių grupė** (**Mažmeninė prekyba ir prekyba \> Kanalo sąranka \> Fiskalinė integracija \> Fiskalinių jungčių grupė**) sukurkite naują fiskalinių jungčių grupę.
-    2. Į jungčių grupę įtraukite funkcinių profilių. Skirtuke **Funkciniai profiliai** pasirinkite **Įtraukti** ir pasirinkite profilio numerį. Kiekviena fiskalinė jungčių grupės jungtis gali turėti tik vieną funkcinį profilį.
-    3. Jei norite sustabdyti funkcinių profilių naudojimą, nustatykite funkcijos **Išjungti** parinktį **Taip**. Šis pakeitimas taikomas tik dabartinei jungčių grupei. Kitose jungčių grupėse galite ir toliau naudoti tą patį funkcinį profilį.
+    1. Į jungčių grupę įtraukite funkcinių profilių. Skirtuke **Funkciniai profiliai** pasirinkite **Įtraukti** ir pasirinkite profilio numerį. Kiekviena fiskalinė jungčių grupės jungtis gali turėti tik vieną funkcinį profilį.
+    1. Jei norite sustabdyti funkcinių profilių naudojimą, nustatykite funkcijos **Išjungti** parinktį **Taip**. Šis pakeitimas taikomas tik dabartinei jungčių grupei. Kitose jungčių grupėse galite ir toliau naudoti tą patį funkcinį profilį.
 
-5. Sukurkite fiskalinės registracijos procesą.
+1. Sukurkite fiskalinės registracijos procesą.
 
     Fiskalinės registracijos procesas nusakomas registracijos veiksmų seka ir kiekviename veiksme naudojama jungčių grupe.
 
     1. Puslapyje **Fiskalinės registracijos procesas** (**Mažmeninė prekyba ir prekyba \> Kanalų sąranka \> Fiskalinė integracija \> Fiskalinės registracijos procesai**) sukurkite naują kiekvieno unikalaus fiskalinės registracijos proceso įrašą.
-    2. Į procesą įtraukite registracijos veiksmus.
+    1. Į procesą įtraukite registracijos veiksmus.
 
         1. Pasirinkite **Įtraukti**.
-        2. Pasirinkite fiskalinės jungties tipą.
-        3. Lauke **Grupės numeris** pasirinkite atitinkamą fiskalinių jungčių grupę.
+        1. Pasirinkite fiskalinės jungties tipą.
+        1. Lauke **Grupės numeris** pasirinkite atitinkamą fiskalinių jungčių grupę.
 
-6. Priskirkite fiskalinės registracijos proceso objektus EKA profiliams.
+1. Priskirkite fiskalinės registracijos proceso objektus EKA profiliams.
 
     1. Puslapyje **EKA funkcijų profiliai** (**Mažmeninė prekyba ir prekyba \> Kanalų sąranka \> EKA sąranka \> EKA profiliai \> Funkcijų profiliai**) priskirkite fiskalinės registracijos procesą EKA funkcijų profiliui. Pasirinkite **Redaguoti**, tada skirtuko **Fiskalinės registracijos procesas** lauke **Proceso numeris** pasirinkite procesą.
-    2. Puslapyje **EKA aparatūros profilis** (**Mažmeninė prekyba ir prekyba \> Kanalų sąranka \> EKA sąranka \> EKA profiliai \> Funkcijų profiliai**) priskirkite techninius jungčių profilius aparatūros profiliui. Pasirinkite **Redaguoti**, įtraukite eilutę į skirtuką **Finansiniai periferiniai įrenginiai**, tada lauke **Profilio numeris** pasirinkite techninį jungties profilį.
+    1. Puslapyje **EKA aparatūros profilis** (**Mažmeninė prekyba ir prekyba \> Kanalų sąranka \> EKA sąranka \> EKA profiliai \> Funkcijų profiliai**) priskirkite techninius jungčių profilius aparatūros profiliui. Pasirinkite **Redaguoti**, įtraukite eilutę į skirtuką **Finansiniai periferiniai įrenginiai**, tada lauke **Profilio numeris** pasirinkite techninį jungties profilį.
 
     > [!NOTE]
     > Į tą patį aparatūros profilį galite įtraukti kelis techninius profilius. Tačiau aparatūros profilis arba EKA funkcijų profilis turėtų turėti tik vieną sankirtą su bet kuria fiskalinių jungčių grupe.
@@ -139,7 +137,7 @@ Prieš naudodamiesi fiskalinės integracijos funkcija, turėtumėte sukonfigūru
     - Finansinių dokumentų teikėjas naudoja duomenų susiejimo parametrus iš finansinių dokumentų teikėjo konfigūracijos, kad transformuotų operacijos / įvykio duomenis, pvz., mokesčius ir mokėjimus, kol generuojamas finansinis dokumentas.
     - Kai finansinių dokumentų teikėjas sugeneruoja finansinį dokumentą, fiskalinė jungtis gali siųsti jį nepakeistą į finansinį įrenginį arba išanalizuoti ir transformuoti į įrenginio programos programavimo sąsajos (API) komandų seką, atsižvelgiant į ryšį.
 
-7. Puslapyje **Fiskalinės registracijos procesas** (**Mažmeninė prekyba ir prekyba \> Kanalų sąranka \> Fiskalinė integracija \> Fiskalinės registracijos procesai**) pasirinkite **Tikrinti**, kad patikrintumėte fiskalinės registracijos procesą.
+1. Puslapyje **Fiskalinės registracijos procesas** (**Mažmeninė prekyba ir prekyba \> Kanalų sąranka \> Fiskalinė integracija \> Fiskalinės registracijos procesai**) pasirinkite **Tikrinti**, kad patikrintumėte fiskalinės registracijos procesą.
 
     Rekomenduojame atlikti šio tipo tikrinimą toliau nurodytais atvejais.
 
@@ -147,7 +145,7 @@ Prieš naudodamiesi fiskalinės integracijos funkcija, turėtumėte sukonfigūru
     - Atlikus esamo fiskalinės registracijos proceso pakeitimus, tie pakeitimai gali sukelti skirtingų fiskalinių jungčių pasirinkimą vykdymo metu (pvz., pakeitus fiskalinės registracijos proceso veiksmo jungčių grupę, įjungus funkcinį jungčių profilį jungčių grupėje arba įtraukus naują funkcinį jungties profilį į jungčių grupę).
     - Atlikę techninių jungčių profilių priskyrimo aparatūros šablonams pakeitimus.
 
-8. Puslapyje **Paskirstymo grafikas** paleiskite **1070** ir **1090** užduotis, kad perkeltumėte duomenis į kanalo duomenų bazę.
+1. Puslapyje **Paskirstymo grafikas** paleiskite **1070** ir **1090** užduotis, kad perkeltumėte duomenis į kanalo duomenų bazę.
 
 ## <a name="set-up-fiscal-texts-for-discounts"></a>Nuolaidų finansinio teksto nustatymas
 
@@ -156,11 +154,11 @@ Kai kuriais atvejais specialus tekstas turi būti išspausdintas ant finansinio 
 - Jei neautomatinės nuolaidos taikomos EKA, turėtumėte nustatyti finansinį tekstą, taikomą informacijos kodui arba informacijos kodų grupei, nurodytai EKA funkcijų šablono informacijos kode **Produkto nuolaida**.
 
     1. Puslapyje **Fiskalinių jungčių grupė** pasirinkite **Finansinio kvito tekstas**.
-    2. Skirtuke **Informacijos kodai** pasirinkite **Įtraukti** ir pasirinkite informacijos kodą arba informacijos kodų grupę.
-    3. Lauke **Informacijos kodo numeris** pasirinkite reikšmę.
-    4. Lauke **Antrinio kodo numeris** pasirinkite reikšmę, jei būtinas pasirinkto informacijos kodo antrinis kodas.
-    5. Lauke **Finansinio kvito tekstas** nurodykite finansinį tekstą, kuris turi būti spausdinamas ant finansinio kvito.
-    6. Nustatykite parinkties **Spausdinti vartotojo įvestį ant finansinio kvito** reikšmę **Taip**, kad perrašytumėte tekstą finansiniame kvite naudodami informaciją, kurią vartotojas pats įveda EKA. Ši pasirinktis taikoma tik informacijos kodams, kurių įvesties tipas yra **Tekstas**.
+    1. Skirtuke **Informacijos kodai** pasirinkite **Įtraukti** ir pasirinkite informacijos kodą arba informacijos kodų grupę.
+    1. Lauke **Informacijos kodo numeris** pasirinkite reikšmę.
+    1. Lauke **Antrinio kodo numeris** pasirinkite reikšmę, jei būtinas pasirinkto informacijos kodo antrinis kodas.
+    1. Lauke **Finansinio kvito tekstas** nurodykite finansinį tekstą, kuris turi būti spausdinamas ant finansinio kvito.
+    1. Nustatykite parinkties **Spausdinti vartotojo įvestį ant finansinio kvito** reikšmę **Taip**, kad perrašytumėte tekstą finansiniame kvite naudodami informaciją, kurią vartotojas pats įveda EKA. Ši pasirinktis taikoma tik informacijos kodams, kurių įvesties tipas yra **Tekstas**.
 
     > [!NOTE]
     > Galite nurodyti kelių informacijos kodų finansinį tekstą tokiems atvejams, kai naudojami informacijos kodų grupės, susiję informacijos kodai ir suaktyvinti informacijos kodai. Šiuose scenarijuose finansiniame kvite bus finansinis tekstas iš visų informacijos kodų, susietų su operacijos eilute, kurioje pritaikyta nuolaida.
@@ -168,8 +166,8 @@ Kai kuriais atvejais specialus tekstas turi būti išspausdintas ant finansinio 
 - Jei nuolaida taikoma konkrečiam kanalui, turėtumėte nurodyti nuolaidos ID finansinį tekstą.
 
     1. Puslapyje **Fiskalinių jungčių grupė** pasirinkite **Finansinio kvito tekstas**.
-    2. Skirtuke **Nuolaidos** pasirinkite **Įtraukti** ir pasirinkite nuolaidos ID.
-    3. Lauke **Finansinio kvito tekstas** nurodykite finansinį tekstą, kuris turi būti spausdinamas ant finansinio kvito.
+    1. Skirtuke **Nuolaidos** pasirinkite **Įtraukti** ir pasirinkite nuolaidos ID.
+    1. Lauke **Finansinio kvito tekstas** nurodykite finansinį tekstą, kuris turi būti spausdinamas ant finansinio kvito.
 
     > [!NOTE]
     > Jei kelios nuolaidos taikomos tai pačiai operacijos eilutei, finansiniame kvite bus finansinis tekstas iš visų nuolaidų, kurios susietos su ta operacijos eilute.
@@ -187,8 +185,8 @@ Klaidų tvarkymo parinktys, teikiamos fiskalinėje integracijoje, nustatomos fis
     > [!NOTE]
     > Jei parametras **Tęsti įvykus klaidai** įjungtas, parametrai **Leisti nepaisyti** ir **Leisti pažymėti kaip užregistruotą** išjungiami automatiškai.
 
-2. Norint naudoti parinktis **Nepaisyti** ir **Pažymėti kaip užregistruotą** klaidų tvarkymo dialogo lange, reikia teisės **Leisti nepaisyti registravimo arba pažymėti kaip užregistruotą**. Todėl puslapyje **Teisių grupės** (**Mažmeninė prekyba ir prekyba \> Darbuotojai \> Teisių grupės**) įjunkite teisę **Leisti nepaisyti registravimo arba pažymėti kaip užregistruotą**.
-3. Parinktys **Praleisti** ir **Pažymėti kaip užregistruotą** operatoriams suteikia galimybę įvesti papildomą informaciją, kai fiskalinė registracija. Jei norite, kad ši funkcija būtų teikiama, turite nurodyti parinkčių **Praleisti** ir **Pažymėti kaip užregistruotą** informacijos kodus fiskalinių jungčių grupėje. Tada operatoriaus įvesta informacija įrašoma kaip informacijos kodo operacija, susieta su finansine operacija. Daugiau informacijos apie informacijos kodus žr. [Informacijos kodai ir informacijos kodų grupės](../info-codes-retail.md).
+1. Norint naudoti parinktis **Nepaisyti** ir **Pažymėti kaip užregistruotą** klaidų tvarkymo dialogo lange, reikia teisės **Leisti nepaisyti registravimo arba pažymėti kaip užregistruotą**. Todėl puslapyje **Teisių grupės** (**Mažmeninė prekyba ir prekyba \> Darbuotojai \> Teisių grupės**) įjunkite teisę **Leisti nepaisyti registravimo arba pažymėti kaip užregistruotą**.
+1. Parinktys **Praleisti** ir **Pažymėti kaip užregistruotą** operatoriams suteikia galimybę įvesti papildomą informaciją, kai fiskalinė registracija. Jei norite, kad ši funkcija būtų teikiama, turite nurodyti parinkčių **Praleisti** ir **Pažymėti kaip užregistruotą** informacijos kodus fiskalinių jungčių grupėje. Tada operatoriaus įvesta informacija įrašoma kaip informacijos kodo operacija, susieta su finansine operacija. Daugiau informacijos apie informacijos kodus žr. [Informacijos kodai ir informacijos kodų grupės](../info-codes-retail.md).
 
     > [!NOTE]
     > **Produkto** paleidiklio funkcija nepalaikoma informacijos koduose, kurie naudojami parinktyse **Praleisti** ir **Pažymėti kaip užregistruotą** fiskalinių jungčių grupėse.
@@ -201,7 +199,7 @@ Klaidų tvarkymo parinktys, teikiamos fiskalinėje integracijoje, nustatomos fis
     > - **Finansinis dokumentas** – privalomas dokumentas, kuris turi būti užregistruoti sėkmingai (pavyzdžiui, finansinis kvitas).
     > - **Nefinansinis dokumentas** – papildomas operacijos arba įvykio dokumentas (pvz., dovanų kortelės kvitas).
 
-4. Jei operatorius privalo galėti toliau apdoroti dabartinę operaciją (pvz., kurti arba baigti operaciją) po to, kai įvyksta būsenos tikrinimo klaida, turėtumėte įjungti teisę **Leisti nepaisyti būsenos tikrinimo klaidos** puslapyje **Teisių grupės** (**Mažmeninė prekyba ir prekyba \> Darbuotojai \> Teisių grupės**). Daugiau informacijos apie būsenos tikrinimo procedūrą žr. [Finansinio registravimo būsenos tikrinimas](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check).
+1. Jei operatorius privalo galėti toliau apdoroti dabartinę operaciją (pvz., kurti arba baigti operaciją) po to, kai įvyksta būsenos tikrinimo klaida, turėtumėte įjungti teisę **Leisti nepaisyti būsenos tikrinimo klaidos** puslapyje **Teisių grupės** (**Mažmeninė prekyba ir prekyba \> Darbuotojai \> Teisių grupės**). Daugiau informacijos apie būsenos tikrinimo procedūrą žr. [Finansinio registravimo būsenos tikrinimas](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check).
 
 ## <a name="set-up-fiscal-xz-reports-from-the-pos"></a>Finansinių X / Z ataskaitų iš nustatymas EKA
 
@@ -210,9 +208,9 @@ Norėdami vykdyti finansines X / Z ataskaitas iš EKA, į EKA maketą turėtumė
 - Puslapyje **Mygtukynai** vykdykite instrukcijas, nurodytas [EKA operacijų įtraukimas į EKA maketus naudojant mygtukynų dizaino įrankį](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters), kad įdiegtumėte dizaino įrankį ir atnaujintumėte EKA maketą.
 
     1. Pasirinkite atnaujintiną maketą. 
-    2. Įtraukite naują mygtuką ir nustatykite mygtuko **Spausdinti finansinį X** ypatybes.
-    3. Įtraukite naują mygtuką ir nustatykite mygtuko **Spausdinti finansinį Z** ypatybes.
-    4. Puslapyje **Paskirstymo grafikas** paleiskite **1090** užduotį, kad perkeltumėte pakeitimus į kanalo duomenų bazę.
+    1. Įtraukite naują mygtuką ir nustatykite mygtuko **Spausdinti finansinį X** ypatybes.
+    1. Įtraukite naują mygtuką ir nustatykite mygtuko **Spausdinti finansinį Z** ypatybes.
+    1. Puslapyje **Paskirstymo grafikas** paleiskite **1090** užduotį, kad perkeltumėte pakeitimus į kanalo duomenų bazę.
 
 ## <a name="enable-manual-execution-of-postponed-fiscal-registration"></a>Rankinio atidėtos finansinio registravimo vykdymo įjungimas
 
@@ -221,8 +219,8 @@ Norėdami įjungti neautomatinį atidėto finansinio registravimo vykdymą, tur�
 - Puslapyje **Mygtukynai** vykdykite instrukcijas, nurodytas [EKA operacijų įtraukimas į EKA maketus naudojant mygtukynų dizaino įrankį](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters), kad įdiegtumėte dizaino įrankį ir atnaujintumėte EKA maketą.
 
     1. Pasirinkite atnaujintiną maketą.
-    2. Įtraukite naują mygtuką ir nustatykite mygtuko **Baigti finansinio registravimo procesą** ypatybę.
-    3. Puslapyje **Paskirstymo grafikas** paleiskite **1090** užduotį, kad perkeltumėte pakeitimus į kanalo duomenų bazę.
+    1. Įtraukite naują mygtuką ir nustatykite mygtuko **Baigti finansinio registravimo procesą** ypatybę.
+    1. Puslapyje **Paskirstymo grafikas** paleiskite **1090** užduotį, kad perkeltumėte pakeitimus į kanalo duomenų bazę.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

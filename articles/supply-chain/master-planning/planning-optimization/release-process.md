@@ -2,7 +2,7 @@
 title: Planavimo optimizavimo išleidimo procesas ir išleidimo retrospektyva
 description: Šioje temoje pateikiama informacija apie Planavimo optimizavimo paleidimo procesą ir jo paleidimo retrospektyvą.
 author: crytt
-ms.date: 7/28/2021
+ms.date: 8/17/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 64c8cd3ed6ff522a9ef90831ae502c5d50fbc05816aaa764d2a8e122934fc2bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fcd18341629afcf3092a457ae711e27b0bbfeb2a
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722396"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394421"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Planavimo optimizavimo išleidimo procesas ir išleidimo retrospektyva
 
@@ -33,7 +33,8 @@ Kadangi atnaujinant Planavimo optimizavimą jūsų aplinkoje pranešimai nerodom
 
 | Pakeitimai | Funkcijų valdymo duomenys | Išleidimo data |
 |---|---|---|
-| <p>Neriboto pajėgumo planavimo išteklių tipo reikalavimai</p><p>Neriboto pajėgumo planavimo išteklių ir kalendoriaus efektyvumas</p><p>Daugiau informacijos žr. [Planavimas, naudojant neribotą pajėgumą](infinite-capacity-planning.md). | <p>Prieinama funkcijos valdymo versijoje 10.0.20.</p><p>Funkcijos pavadinimas: *Neribotas pajėgumo planavimas Planavimo optimizavimui*</p> | 2021 m. liepos 6 d. |
-| Bendrieji kokybės patobulinimai | Funkcijos valdyti nereikia. | 2021 m. liepos 6 d. |
+| <p>Įtrauktas **gamybos laiko** laukas į suplanuotus užsakymus.</p><p>Bendras našumas, kokybės ir stabilumo patobulinimai.</p> | Funkcijos valdyti nereikia. | 2021 m. rugpjūčio 16 d. |
+| <p>Įtraukta išteklius neriboto pajėgumo planavimo išteklių tipo reikalavimai.</p><p>Pagerintas išteklius neriboto pajėgumo planavimo išteklių ir kalendoriaus efektyvumas.</p><p>Daugiau informacijos žr. [Planavimas, naudojant neribotą pajėgumą](infinite-capacity-planning.md). | <p>Prieinama funkcijos valdymo versijoje 10.0.20.</p><p>Funkcijos pavadinimas: *Neribotas pajėgumo planavimas Planavimo optimizavimui*</p> | 2021 m. liepos 6 d. |
+| Bendrieji kokybės patobulinimai. | Funkcijos valdyti nereikia. | 2021 m. liepos 6 d. |
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

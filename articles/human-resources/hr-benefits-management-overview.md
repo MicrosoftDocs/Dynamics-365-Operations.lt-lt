@@ -1,8 +1,8 @@
 ---
 title: Išmokų valdymo apžvalga
-description: Išmokų valdymo funkcijos programoje „Dynamics 365 Human Resources“ apžvalga. Siūlykite savo darbuotojams išplėstines išmokų parinktis naudodami paprastas naudoti internetines funkcijas.
-author: andreabichsel
-ms.date: 07/13/2021
+description: Šioje temoje apžvelgiamas modulio Atsargų valdymas siuntimo procesas „Dynamics 365 Human Resources“.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a1e00bb3fa227eab62b6e530a32f0eae0bd871c1cfe5bb3d29e09a06a707ce17
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c4709a63201dd1a02c8879151762886f644ce22
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719148"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417414"
 ---
 # <a name="benefits-management-overview"></a>Išmokų valdymo apžvalga
 
@@ -37,7 +37,7 @@ Norėdami išlikti konkurencingi, turite pasiūlyti gausų išmokų rinkinį, ka
 Jei norite gauti prieigą prie demonstracinių duomenų, turite iš naujo įdiegti savo smėlio dėžės aplinką.
 
 > [!NOTE]
-> Dabar galite pritaikyti išmokų valdymo formas. Dabar galite pridėti pasirinktinius laukus, susijusius su padengimo **tarifais, į** išmokų planų parinkties formą. Norėdami gauti daugiau informacijos apie darbą su pasirinktinais laukais, žr. [Pasirinktini laukai](hr-developer-custom-fields.md).
+> Dabar galite pritaikyti išmokų valdymo puslapius. Dabar galite pridėti pasirinktinius laukus, susijusius su padengimo **tarifais, į išmokų** planų parinkties puslapį. Norėdami gauti daugiau informacijos apie darbą su pasirinktinais laukais, žr. [Pasirinktini laukai](hr-developer-custom-fields.md).
 >
 > ![Išmokų valdymo pasirinktiniai laukai](media/hr-benefits-management-custom-fields.png)
 

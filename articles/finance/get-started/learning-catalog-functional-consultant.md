@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5a0ea3efc08ac9305887727c57a3821c694d6b25d3355edb6a60a6348967842c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b2efa7021c302e771f36179be690fc1c8653a07
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763099"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402378"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-functional-consultants"></a>Mokymosi katalogas „Dynamics 365 Finance“ funkcijų konsultantams
 
@@ -33,14 +33,16 @@ Kalbant apie funkcijų konsultantus, mūsų užduočių analizės tyrimai parod�
 |--------|--------------|---------|---------|
 | [Sužinokite apie „Microsoft Dynamics 365“ ir „Power Platform“ naudą verslui](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Ar norite sužinoti apie verslo programas? Galbūt nežinote, kur pradėti naudodami „Microsoft Dynamics 365” ir „Power Platform” programas? Sužinokite, kaip verslo programos gali transformuoti jūsų verslą. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 7 valandos |
 | [„Dynamics 365“ ir „Power Platform“ pagrindai](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Ar norite sužinoti apie verslo programas? Pradėkite nuo šio mokymosi scenarijaus, kad sužinotumėte, kaip naudojamos „Dynamics 365“ programos. Sužinokite apie debesų koncepcijas, „Power Platform“ ir apie tai, kaip pradėti naudotis „Dynamics 365“ programomis. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 5,5 valandos |
-| [Darbo su „Finance and Operations“ programomis pradžia](/learn/paths/get-started-finance-operations/) | Sužinokite, kaip „Finance and Operations“ programos padeda įmonėms tvarkyti savo globalias finansines sistemas, darbinius verslo procesus ir supaprastintas tiekimo grandines, siekiant suteikti žmonėms galimybę greitai priimti pagrįstus sprendimus. Darydami pirmąjį darbo su „Finance and Operations“ programomis karjeros žingsnį, turite susipažinti su jų funkcijomis ir savybėmis, kad ir kokių pareigų siektumėte. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 2 valandos |
+| [Darbo su „Finance and Operations“ programomis pradžia](/learn/paths/get-started-finance-operations/) | Sužinokite, kaip „Finance and Operations“ programos padeda įmonėms tvarkyti savo globalias finansines sistemas, darbinius verslo procesus ir supaprastintas tiekimo grandines, siekiant suteikti žmonėms galimybę greitai priimti pagrįstus sprendimus. Darydami pirmąjį darbo su „Finance and Operations“ programomis karjeros žingsnį, turite susipažinti su jų funkcijomis ir savybėmis, kad ir kokių pareigų siektumėte. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi kelias | 2 valandos |
+| [Darbo su „Dynamics 365 Intelligent Order Management“ pradžia](/learn/modules/get-started-intelligent-order-management/) | Naudodami „Dynamics 365 Intelligent Order Management“ šias paslaugas klientai gali valdyti užsakymų instrumentavimą, kad galėtų vykdyti. Šios galimybės leidžia organizacijoms naudoti užsakymų srautus skirtingose platformose ir programėlėse. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi modulis | 30 min. |
 | [Prieš perkant](/dynamics365/unified-operations/fin-and-ops/get-started/before-you-buy) | Peržiūrėkite nuoseklius nurodymus tiems, kurie dar galutinai neįvertino Finance and Operations, ir tiems, kurie jau yra pasirengę įsigyti. | Dokumentacija | |
 | [Leidimo planas](/dynamics365/release-plans/) | Sužinokite apie „Dynamics 365“ naujausias galimybes ir patobulinimus | Dokumentacija | |
 
 ## <a name="core-platform-knowledge"></a>Bendrosios platformos žinios<a name="core-platform-knowledge"></a>
 
-| Turinys  | aprašymas | Formatuoti  | Ilgis    |
+| Turinys  | Aprašas | Formatuoti  | Ilgis    |
 |----------|-------------|---------|-----------|
+| [Naudoti „Success by Design for Dynamics 365“ sprendimus](/learn/paths/use-success-design/) | „FastTrack for Dynamics 365“ programa „Dynamics 365" sukurta padėti klientams ir partneriams sėkmingai įdiegti „Dynamics 365" sprendimus. Norėdami pristatyti šią paslaugą, turi naudoti architektų „Success by Design“ sprendimas. Šiame mokymosi maršrute „Success by Design“ aptariamos sampratos. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi modulis | 12 valandos |
 | [Naudokite „Lifecycle Services“ „Finance and Operations“ programų diegimui projektuoti ir planuoti](/learn/paths/use-lcs-design-plan-implementation-finance-operations/) | „Lifecycle Services“ (LCS) yra bendro darbo sritis, kurią klientai ir jų partneriai naudoja perkeldami „Finance and Operations“ programų projektus nuo priešpardaviminio iki diegimo etapo ir galiausiai į gamybos aplinką. Joje pateikiami kontroliniai sąrašai ir įrankiai, padedantys valdyti projektą, įskaitant iš anksto sukurtas metodikas, palengvinančias diegimą ir darbą su reguliariai atnaujinamomis paslaugomis. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 2 valandos |
 | [Organizacijos konfigūravimas „Finance and Operations“ programose](/learn/paths/configure-your-organization-finance-ops/) | Kaip funkcijų konsultantas, kuris dirba su „Finance and Operations“ programomis, turite suprasti, kaip nustatyti organizaciją savo klientui. Be kitų užduočių šis mokymosi scenarijus supažindina su juridinių subjektų konfigūravimu, saugumo parametrų nustatymų, vartotojams skirtos vartotojo sąsajos asmeninimu, mobiliųjų programėlių projektavimu ir kūrimu ir bendrųjų integravimų diegimu. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 12 valandos |
 | [Perkelkite duomenis ir pradėkite naudoti „Finance and Operations“ programas](/learn/paths/migrate-data-go-live-finance-operations/) | Būdamas funkcijų konsultantas, turite suprasti, kaip paruošti kliento duomenis perkėlimui, dirbti su duomenų valdymo funkcijomis ir kaip atlikti vartotojo priėmimo testavimą, kad galėtumėte pradėti naudoti „Finance and Operations“ programas. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 4 valandos |
@@ -102,6 +104,5 @@ Kalbant apie funkcijų konsultantus, mūsų užduočių analizės tyrimai parod�
 | [„Microsoft“ sertifikuotas partneris: „Dynamics 365 for Finance and Operations“, finansinių funkcijų partneris konsultantas](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | „Microsoft“ sertifikuotas partneris: „Dynamics 365 for Finance and Operations“ finansinių funkcijų konsultantai suderina globalius finansus ir operacijos bei automatizuoja užduotis ir darbo eigas, supaprastina kliento užsakymo, pardavimo, sąskaitų pateikimo ir ataskaitų procesus. | Sertifikavimo kaina priklauso nuo regiono |
 | [Egzaminas MB-300: „Microsoft Dynamics 365 Unified Operations“ pagrindinės užduotys](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Šis egzaminas leidžia įvertinti jūsų sugebėjimą atlikti šias technines užduotis: naudoti įprastas funkcijas ir diegimo įrankius, konfigūruoti saugumo parametrus, procesus ir pasirinktis, atlikti duomenų perkėlimą bei įvertinti ir palaikyti sprendimą. | Egzamino kaina priklauso nuo regiono |
 | [Egzaminas MB-310: „Microsoft Dynamics 365 for Finance and Operations“, finansai](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Šis egzaminas leidžia įvertinti jūsų sugebėjimą atlikti šias technines užduotis: nustatyti ir konfigūruoti finansų valdymo funkcijas, valdyti ir taikyti bendrus procesus, diegti ir valdyti mokėtinas ir gautinas sumas bei valdyti biudžeto sudarymą ir ilgalaikį turtą. | Egzamino kaina priklauso nuo regiono |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

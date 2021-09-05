@@ -1,5 +1,5 @@
 ---
-title: Momentinių kopijų apžvalga (peržiūros versija)
+title: Momentinių kopijų apžvalga
 description: Šioje temoje aprašoma momentinės kopijos funkcija, kuri leidžia įrašyti pinigų srautų prognozę analizei arba palyginimui su aktuarijų vėliau. Kai sugeneruojate pinigų srautų prognozę, šią prognozę galite įrašyti kaip momentinę nuotrauką. Tada galite naudoti šias momentines nuotraukas, kad galėtumėte redaguoti į prognozę įtrauktus abonentus, arba palyginti prognozuojamą fotografiją su faktiniais duomenimis.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: dcdc7bfbf88acca3f74b2cc57e5caf38cea43a833f12e6ec40eebcb9b249b059
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bcaaa9fe13e36bbe71e29d82c9f22a4fff9248ef
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765033"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386568"
 ---
-# <a name="snapshots-overview-preview"></a>Momentinių kopijų apžvalga (peržiūros versija)
+# <a name="snapshots-overview"></a>Momentinių kopijų apžvalga
 
 [!include [banner](../includes/banner.md)]
 

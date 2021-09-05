@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da812bcc7d31db25abc0ed7e6c1a7f9e5433f80bfdfc5421e4e18d6b8af68884
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1374a451c65b4bafdc6efeb10949d1f6eceb4758
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738920"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343923"
 ---
 # <a name="lean-manufacturing-overview"></a>„Lean manufacturing“ apžvalga
 
@@ -66,7 +66,7 @@ Naudojant „lean manufacturing‟, galima matyti dabartinę gamybos ir logistik
 Toliau pateiktame sąraše aprašomos specializuotos „kanban“ sritys.
 -   „Kanban“ užduočių planavimas – pateikiama „kanban“ užduočių apžvalga. Srityje rodomos vieno ar kelių darbo elementų „kanban“ užduotys ir jų būsena. Užduotys išdėstytos pagal planavimo laikotarpius (dienas ar savaites), kurie yra apibrėžti gamybos eigos modelyje. Srityje taip pat rodomos kiekvieno planavimo laikotarpio pajėgumų sąnaudos, kad galėtumėte stebėti suplanuotą apkrovą. Galite keisti „kanban“ užduočių būseną, „kanban“ užduotis perplanuoti skirtingiems planavimo laikotarpiams ir atlikti kitas užduotis.
 -   Perkėlimo užduočių „kanban“ sritis – šioje srityje apžvelgiamos dabartinės perkėlimo užduotys. Galite atnaujinti ir registruoti išrinkimo dokumentus, pradėti ir užbaigti perkėlimo užduotis ir atlikti kitas užduotis.
--   Apdorojimo užduočių „kanban“ sritis – ši sritis skirta palaikyti įprastai gamybos eigai ir apžvelgti dabartinei situacijai viename ar keliuose darbo elementuose. Šioje srityje galima teikti pirmenybę, pasirinkti arba gaminti „kanban”. Sritis taip pat skirta palaikyti brūkšninių kodų nuskaitymui teikiant „kanban‟ ataskaitas.
+-   Apdorojimo užduočių „kanban“ sritis – ši sritis skirta palaikyti įprastai gamybos eigai ir apžvelgti dabartinei situacijai viename ar keliuose darbo elementuose. Šioje srityje galima teikti pirmenybę, pasirinkti arba gaminti „kanban”. Sritis taip pat skirta palaikyti brūkšninių kodų nuskaitymui teikiant „Kanban‟ ataskaitas.
 
 ## <a name="kanban-jobs-and-integration-with-supply-chain-management-processes"></a>"Kanban" užduotys ir integravimas su „Supply Chain Management“ valdymo procesais
 „Kanban‟ užduotys yra visiškai integruotos su dabartiniais „Supply Chain Management‟ atsargų operacijų procesais.

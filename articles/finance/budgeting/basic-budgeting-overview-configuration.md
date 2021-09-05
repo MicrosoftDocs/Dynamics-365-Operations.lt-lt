@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f2144d2ca9b2f5e06f0a21f6f97b7ca6440ffe8ce300bdbf329279505059459
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 849b1202ea2c0080f5fc5bacba1f95180fc4008a
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720603"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343661"
 ---
 # <a name="budgeting-overview"></a>Biudžetų sudarymo apžvalga
 
@@ -38,7 +38,7 @@ Galima naudoti kelis toliau pateiktus būdus, norint kurti biudžeto registro į
 
 -   Patys įveskite dokumento informaciją puslapyje **Biudžeto registro įrašai**.
 -   Naudokite „Microsoft Excel“ šabloną, kurį galite atidaryti spustelėdami mygtuką **Atidaryti „Excel“**, esantį puslapyje **Biudžeto registro įrašai**.
--   Naudokite puslapio **Biudžeto sąskaitos įrašai** dalies Duomenų valdymas duomenų objektą biudžeto registro įrašams importuoti. Galite apsvarstyti galimybę naudoti šį metodą ir įjungti parametrą **Apdorojimas** **pagal rinkinį**, kai į sistemą reikia importuoti daug biudžeto sąskaitos įrašų.
+-   Naudokite puslapio **Biudžeto sąskaitos įrašai** dalies Duomenų valdymas duomenų objektą biudžeto registro įrašams importuoti. Galite apsvarstyti galimybę naudoti šį metodą ir įjungti parametrą **Apdorojimas pagal rinkinį**, kai į sistemą reikia importuoti daug biudžeto sąskaitos įrašų.
 -   Jei įmonė naudoja funkciją Biudžeto planavimas biudžeto duomenims parengti, galite naudoti periodinio apdorojimo parinktį **Generuoti biudžeto registro įrašą**.
 
 Biudžeto registro įrašas bus laikomas atliktas, kai biudžeto balansai bus atnaujinti. Puslapyje **Biudžeto registro įrašai** spustelėkite pasirinkto biudžeto registro įrašo arba kelių įrašų parinktį **Atnaujinti biudžetų balansus**. Atnaujinus biudžeto balansus, biudžeto registro įrašo būsena pasikeičia į **Baigtas**. Baigto biudžeto registro įrašo negalima atidaryti iš naujo ir redaguoti. Todėl, jei reikia redaguoti biudžeto duomenis, turite sukurti naują biudžeto registro įrašą, o ne redaguoti baigto biudžeto registro įrašo duomenis.

@@ -1,8 +1,8 @@
 ---
 title: ER formato kūrimas, kad būtų galima sugeneruoti „Excel” formato ataskaitą su į puslapių antraštes ar poraštes įdėtais vaizdais
-description: Šioje temoje paaiškinama, kaip naudoti elektronines ataskaitas (ER)) generuoti verslo dokumentams, kuriuose yra paveikslėlių ir figūrų, įdėtų į puslapių antraštes ar poraštes.
+description: Šioje temoje paaiškinama, kaip naudoti elektronines ataskaitas (ER) norint generuoti verslo dokumentus, kuriuose yra paveikslėlių ir figūrų, įdėtų į puslapių antraštes ar poraštes.
 author: NickSelin
-ms.date: 06/28/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1115be8c33eeaf16c1a533e63b31d87b0fc5f68d6469ff075428f72ac146b2f4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 20bcf26e1510634c5ee7043576a480ce15889923
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746640"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344125"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>ER formato kūrimas, kad būtų galima sugeneruoti „Excel” formato ataskaitą su į puslapių antraštes ar poraštes įdėtais vaizdais
 

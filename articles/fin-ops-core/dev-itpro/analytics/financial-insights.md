@@ -2,7 +2,7 @@
 title: Finansinė analizė
 description: Finansų analizė naudoja „Microsoft Power BI“ kartu pateikti pagrindinius finansinius našumo indikatorius (KPI), diagramas ir finansines ataskaitas.
 author: kweekley
-ms.date: 04/22/2021
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4937235dddaf5c1c8d6d504542f161fa232c86213eb6ac4274349e02d18fb8b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4dc6cb7c0d6c04371ada611626415d87e9f149f0
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767832"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416310"
 ---
 # <a name="financial-analysis"></a>Finansinė analizė
 
@@ -36,11 +36,11 @@ Sujungdama didžiosios knygos ir papildomų knygų duomenis, **Finansinė analiz
 > - **Puslapis** – atskiro .pbix failo skirtukas. Kiekviename puslapyje gali būti vienas ar keli vaizdiniai elementai.
 > - **Vaizdinis elementas** – vienas duomenų šaltinis, pvz., kortelė, KPI, diagrama, grafikas, matrica ar finansinė ataskaita. Puslapyje, kuriame kaip vaizdinis elementas naudojama finansinė ataskaita, kitų vaizdinių elementų būti negali dėl duomenų, apie kuriuose rengiamos ataskaitos, dydžio.
 
-Šiuo metu **Finansinė analizė** naudojama peržiūrėti aktyvaus juridinio subjekto arba visų juridinių subjektų duomenis. Būsimuose leidimuose ši darbo sritis virs vieta, kurioje naudodami „Power BI“ galėsite redaguoti ir kurti vaizdinius elementus.
+Darbo sritis **Finansinė analizė** pirmiausia leidžia peržiūrėti ir filtruoti esamų ataskaitų duomenis. Į darbo sritį **Finansinė analizė** galite įtraukti naujų vaizdinių elementų. Darbo sritį **Finansinė analizė** gali naudoti dabartinė įmonė ir visos įmonės, kad būtų rodomi visų juridinių subjektų duomenys, neatsižvelgiant į juridinius subjektus, prie kurių šis vaidmuo turi prieigą.
 
-Darbo srityje **CFO apžvalga** rodomi tie patys vaizdiniai elementai, kaip ir darbo srityje **Finansinė analizė**, tačiau joje galite peržiūrėti ir filtruoti esamų ataskaitų duomenis. Būsimuose leidimuose į darbo sritį **Finansinė analizė** galėsite įtraukti naujų vaizdinių elementų. Nauji vaizdiniai elementai taip pat gali būti pasiekiami darbo srityse, orientuotose į kitus vaidmenis, pvz., projektų vadovus ar mokėtinų sumų vadovus. Darbo srityje **CFO apžvalga** toliau rodomi visų juridinių subjektų duomenys, nesvarbu, prie kurių juridinių subjektų vaidmuo turi prieigą.
+- [„Power BI“ vizualizacijų įtraukimas arba redagavimas jūsų ataskaitų srityje](/powerapps-docs/user/add-powerbi-dashboards.md)
 
-## <a name="dynamics-365-finance-setup"></a>„Dynamics 365 Finance“ sąranka
+## <a name="dynamics-365-finance-setup"></a>„Dynamics 365 Finance“ nustatymas
 **Didžioji knyga**
 
 Pagrindinės sąskaitos tipu ir pagrindinių sąskaitų kategorijomis užpildomos atitinkamos numatytosios pagrindinės sąskaitos, esančios darbo srities **Finansinės įžvalgos** finansinėje ataskaitoje **Balansas** ir įvairiose finansinėse ataskaitose **Finansinė analizė**.

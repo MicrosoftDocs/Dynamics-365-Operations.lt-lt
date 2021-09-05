@@ -2,7 +2,7 @@
 title: Pašalintos arba nebenaudojamos „Dynamics 365 Commerce“ funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama pašalinti iš „Dynamics 365 Commerce“.
 author: josaw
-ms.date: 01/11/2021
+ms.date: 08/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: aa6030468259069cf031feb8df48d6710e1160f310a1d82c1034afe69249f00f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ac08a409284681ba9bcc4825b936c0330d14e04
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740412"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386746"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Pašalintos arba nebenaudojamos „Dynamics 365 Commerce“ funkcijos
 
@@ -32,6 +32,55 @@ ms.locfileid: "6740412"
 
 > [!NOTE]
 > Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](/dynamics/s-e/). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Commerce“ 10.0.21 versijoje
+
+[!include [banner](../includes/preview-banner.md)]
+
+### <a name="retail-sdk-distributed-by-using-lifecycle-services"></a>"Retail" SDK paskirstyta naudojant „Lifecycle Services“
+
+"Retail SDK" pristatoma „Lifecycle Services“ (LCS). Šis paskirstymo režimas pasenusis išleidžiant 10.0.21. O taip, „Retail SDK" nuorodų paketai, bibliotekos ir pavyzdžiai bus publikuojami GitHub viešose saugyklose.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo / pašalinimo priežastis** | „Retail SDK" pristatoma LCS. LCS procesas užtrunka keletą valandų, todėl procesas turi būti kartojamas naudojant kiekvieną naujinimą. O taip, „Retail SDK" nuorodų paketai, bibliotekos ir pavyzdžiai bus publikuojami GitHub viešose saugyklose. Plėtinių pavyzdžiai ir nuorodų pakuotės gali būti nesunkiai suvartojami, o atnaujinimas baigiamas po kelių minučių. |
+| **Pakeitė kita funkcija?**   |  [Atsisiųsti „Retail SDK“ pavyzdžius ir nuorodos paketus iš GitHub bei NuGet](../dev-itpro/retail-sdk/sdk-github.md) |
+| **Paveiktos produkto sritys**         | Mažmeninės prekybos SDK |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Pasenusi: nuo 10.0.21 leidimo SDK, išsiųstas per LCS VMs, bus pašalintas 2022 m. spalio mėn. |
+
+### <a name="retail-deployable-package-and-combined-pos-hardware-station-and-cloud-scale-unit-installers"></a>"Retail" diegiamas paketas ir sujungti EKA, "Hardware" stotis ir debesies skalės vienetų diegimo programos
+
+Mažmeninės prekybos diegiami paketai, sugeneruoti naudojant „Retail SDK MSBuild", pasenusi 10.0.21. Tęskite toliau, naudodami debesies skalės vieneto (CSU) paketą debesies svarstyklių plėtinams (, kanalų duomenų bazei, begalutinių komercijos API, mokėjimams ir pardavimo debesies taškams „Commerce Runtime“ (EKA)). Naudokite tik plėtinio diegimo programas, skirtas EKA, "Hardware" stotis ir debesies skalės vienetui.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo / pašalinimo priežastis** | "Retail" diegiamas paketas yra sujungtas paketas, kuriame yra visas plėtinių paketų ir diegimo priemonių rinkinys. Šis sujungtas paketas tampa sudėtingas, nes CSU plėtiniai pereis į debesies skalės vienetą ir diegimo programos bus įdiegtos parduotuvėse. Diegimo programos apima plėtinį ir pagrindinį produktą, dėl to naujinimai yra sudėtingi. Kiekvieną kartą atnaujinus reikia sukurti kodų suliejimą ir pakuotės generavimą. Siekiant supaprastinti šį procesą, plėtiniai paketai atskiriami į komponentus, kad būtų lengviau diegti ir valdyti. Naudojant naują būdą, plėtiniai ir pagrindiniai produktų diegimo programos yra atskiriami ir gali būti nepriklausomai aptarnaujami ir atnaujinti be kodų suliejimo arba perpakavimo.|
+| **Pakeitė kita funkcija?**   | CSU plėtiniai, EKA plėtinių diegimo programos, aparatūros stoties plėtinių diegimo programos |
+| **Paveiktos produkto sritys**         | „Dynamics 365 Commerce“ plėtinių paketas ir diegimas |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Pasenusi: kaip 10.0.21 leidimo versija, LCS "RetailDeployablePackage" diegimo palaikymas bus pašalintas 2022 m. spalio mėn. |
+
+Daugiau informacijos, žr.:
+
++ [Generuoti atskirą „Commerce Cloud Scale Unit" (CSU) paketą](../dev-itpro/retail-sdk/retail-sdk-packaging.md#generate-a-separate-package-for-commerce-cloud-scale-unit-csu)
++ [„Modern POS“ plėtinių paketo kūrimas](../dev-itpro/pos-extension/mpos-extension-packaging.md)
++ [EKA integravimas su nauju aparatūros įrenginiu](../dev-itpro/hardware-device-extension.md)
++ Kodo pavyzdžiai
+    + [„Cloud Scale Unit“](https://github.com/microsoft/Dynamics365Commerce.ScaleUnit)
+    + [POS, CSU ir Hardware stotis](https://github.com/microsoft/Dynamics365Commerce.InStore)
+
+### <a name="modernpossln-and-cloudpossln-in-the-retail-sdk"></a>ModernPos.Sln and CloudPOs.sln patalpintas „Retail SDK“
+
+EKA plėtinio kūrimas naudojant ModernPos.sln, CloudPOs.sln, EKA. Extension.csproj ir EKA aplankas yra pasenusias leidime 10.0.21. Tęskite toliau, naudokite nuo EKA nepriklausomos pakuotės SDK, skirtą EKA plėtinių.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo / pašalinimo priežastis** | Naudojant ankstesnes "Retail SDK" versijas, jei yra EKA plėtinių, norint atnaujinti į naujausią EKA versiją reikia sulieti kodus ir iš naujo supakuoti. Kodų suliejimas užims daug laiko reikalaujaį atnaujinimo procesą, o jūs turėjote saugykloje tvarkyti visą "Retail SDK". Taip pat turėjote sukompiliuoti POS.App projektas. Naudodami nepriklausomą pakavimo modelį, turite prižiūrėti tik savo plėtinį. Atnaujinant į naujausią EKA plėtinių versiją, nes taip paprasta atnaujinti paketo versiją, „NuGet“ kurią naudoja jūsų projektas. Plėtinius galima įdiegti nepriklausomai, o tarnybos naudoja plėtinių diegimo įdiegtis. Pagrindinį EKA galima įdiegti ir prižiūrėti atskirai, be to, nereikia jokio kodų suliejimo ar perpakavimo su pagrindinės diegimo programos ar kodo. |
+| **Pakeitė kita funkcija?**   | [EKA nepriklausomo paketo SDK](../dev-itpro/pos-extension/pos-extension-getting-started.md) |
+| **Paveiktos produkto sritys**         | „Dynamics 365 Commerce“ EKA plėtinių paketas ir diegimas |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Pasenusi: išleidus 10.0.21 versiją, palaikomi sujungti EKA paketai ir plėtinio modelis naudojant ModernPos.Sln, CloudPOs.sln ir EKA. "Retail SDK" extensons.csproj bus pašalintas 2022 m. spalio mėn. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Commerce“ 10.0.17 versijoje
 

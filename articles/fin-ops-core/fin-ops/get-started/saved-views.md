@@ -2,7 +2,7 @@
 title: Įrašyti rodiniai
 description: Šioje temoje aprašoma, kaip naudotis įrašytų rodinių funkcijomis.
 author: jasongre
-ms.date: 05/17/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: dd658aeb8964907fe9f950fe2a6474c5df7e80b74986ddf332286a2f89bc0aeb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9cca56a108177520f4aebea03f7f4d776f46fa3f
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752306"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344349"
 ---
 # <a name="saved-views"></a>Įrašyti rodiniai
 
 [!include [banner](../includes/banner.md)]
-
+[!include [preview banner](../includes/preview-banner.md)]
 
 ## <a name="introduction"></a>Įžanga
 
@@ -48,6 +48,8 @@ Rodinių išrinkiklių esama dviejų dydžių.
  
 Jei pasirenkate peržiūrėti pavadinimą, peržiūros selektorius yra atidaromas ir rodo puslapyje esamų peržiūrų sąrašą.
 
+**10.0.21 ar naujesnė versija:** jei **patobulintas juridinio subjekto palaikymas įrašytų rodinių** funkcijai įjungtas, rodinio išrinkiklis rodo galimų rodinių dviejuose skyriuose. Pirmojoje dalyje rodomi visi rodiniai, kurie yra specifiniai dabartiniam juridiniam subjektui, o antrajame – rodiniai, galimi visiems juridiniams subjektams. Pirmoji sekcija matoma tik tada, kai yra juridinio subjekto – konkrečių puslapio rodinių.
+
 - **Standartinė peržiūra** – **Standartinė** peržiūra yra nestandartinė puslapio peržiūra, kurioje nėra taikomi jokie personalizavimai.
 - **Personalinės peržiūros** – Peržiūros be spynų rodo jūsų personalines peržiūras. Tai jūsų sukurti arba administratoriaus jums suteikti rodiniai.
 - **Užrakintos peržiūros** – Kai kuriso peržiūros (tokios kaip **Standartinės** peržiūros ir visos peržiūros, kurios yra publikuojamos jūsų vaidmenyje) turi spynos simbolį šalia peržiūros selektoriaus. Šis simbolis nurodo, kad šių rodinių redaguoti negalima. Nepaisant to, pakeitimai atspindintys puslapio naudojimą yra įrašomi automatiškai. Šie pakeitimai apima stulpelio tinklelio pločio pakeitimus ir išplėsto bei sutraukto „FastTab“ statuso pakeitimus. Tačiau, jei turite personalizavimo teises, atlikdami veiksmą **Įrašyti kaip** galite sukurti asmeninį rodinį, pagrįstą užrakintu rodiniu.
@@ -68,15 +70,18 @@ Norėdami įrašyti šiuos pakeitimus, atlikite toliau nurodytus veiksmus.
 3. Norėdami sukurti naują rodinį, atlikite toliau nurodytus veiksmus.
 
     1. Pasirinkite **Įrašyti kaip**. 
-    2. Įveskite rodinio pavadinimą ir aprašą (nebūtinai).
-    3. Pasirinkite **Įrašyti**.
+    2. Rodinyje **Įrašyti kaip** įveskite rodinio pavadinimą ir, pasirinktinai, aprašymą.
+    3. Jei norite, kad šis rodinys būtų numatytasis, pasirinkite **Pin kaip numatytąjį**. Daugiau informacijos apie numatytuosius rodinius žiūrėkite [toliau pateikiamame numatytojo](#changing-the-default-view) rodinio skyriaus keitimas. 
+    4. **10.0.21 ar naujesnė versija:** Jei **patobulinto juridinio subjekto įrašytų rodinių** funkcijos palaikymas, galite pasirinkti, ar norite, kad šis rodinys būtų pasiekiamas visiems juridiniams subjektams, ar tik jų subrinkinys.
+    5. Pasirinkite **Įrašyti**.
 
 ## <a name="changing-the-default-view"></a>Numatytojo rodinio keitimas
 
 Iš anksto nustatyta peržiūra yra peržiūra, kurią sistema bando atidaryti, kai pirmą kartą atveriate puslapį. Turite nustatyti iš anksto nustatytą peržiūrą, kad peržiūrėtumėte tai, ką tikitės dažniausiai naudoti. 
 
 > [!NOTE]
-> Esama vienos, globaliai nustatytos peržiūros visose bendrovėse. Jei keičiate nustatytą peržiūrą, ji bus atidaroma pagal nutylėjimą nepriklausomai nuo teisinio subjektu, kuriame šiuo metu esate. 
+> - Pagrindinėse **įrašytų rodinių** funkcijose juridiniuose subjektuose yra vienas visuotinis numatytasis rodinys. Jei keičiate nustatytą peržiūrą, ji bus atidaroma pagal nutylėjimą nepriklausomai nuo teisinio subjektu, kuriame šiuo metu esate.
+> - **10.0.21 ar naujesnė versija:** kai įjungtas **patobulinto juridinio subjekto** įrašytų rodinių funkcijos palaikymas, kiekvienas juridinis subjektas gali turėti savo numatytąjį rodinį puslapyje.
 
 Norėdami pakeisti puslapio numatytąjį rodinį, atlikite tolesnius veiksmus.
 
@@ -86,20 +91,23 @@ Norėdami pakeisti puslapio numatytąjį rodinį, atlikite tolesnius veiksmus.
 
 Arba kurdami naują rodinį (naudodami veiksmą **Įrašyti kaip**) galite nustatyti, kad naujas rodinys būtų numatytasis rodinys – prieš įrašydami rodinį pasirinkite parinktį **Prisegti kaip numatytąjį**.
 
-Atkreipkite dėmesį, kad kai kuriais atvejais su nustatyta peržiūra susieta užklausa neveikia, kai pirmą kartą atidarote puslapį. Pavyzdžiui, jei atidarote puslapį per plytą, jos užklausa veiks nepriklausomai nuo užklausos, kuri yra susieta su nustatytąja peržiūra. Be ti, jei atidarote puslapį, kuris turi **Standartinę** peržiūrą jau turinčią nustatytą užklausą, pirminė užklausa bus vykdoma vietoje nustatytosios peržiūros užklausos. Tokiu atveju, jūs gausite informacinį pranešimą, kai peržiūra bus įkelta. Jei perjungiate peržiūras po to, kai puslapis buvo įkeltas, peržiūros užklausa turi galėti veikti, kaip tikėtasi. 10.0.10 versijoje ir vėlesnėse, jūsų gaunamas informacinis pranešimas apims veiksmą, kuris jums leidžia įkelti nustatytosios peržiūros užklausą tiesiogiai.
+> [!WARNING]
+> Atkreipkite dėmesį, kad kai kuriais atvejais su nustatyta peržiūra susieta užklausa neveikia, kai pirmą kartą atidarote puslapį. Pavyzdžiui, jei atidarote puslapį per plytą, jos užklausa veiks nepriklausomai nuo užklausos, kuri yra susieta su nustatytąja peržiūra. Be ti, jei atidarote puslapį, kuris turi **Standartinę** peržiūrą jau turinčią nustatytą užklausą, pirminė užklausa bus vykdoma vietoje nustatytosios peržiūros užklausos. Tokiu atveju, jūs gausite informacinį pranešimą, kai peržiūra bus įkelta. Jei perjungiate peržiūras po to, kai puslapis buvo įkeltas, peržiūros užklausa turi galėti veikti, kaip tikėtasi. 10.0.10 versijoje ir vėlesnėse, jūsų gaunamas informacinis pranešimas apims veiksmą, kuris jums leidžia įkelti nustatytosios peržiūros užklausą tiesiogiai.
 
 ## <a name="managing-personal-views"></a>Asmeninių rodinių valdymas
 
 Dialogo lange **Valdyti mano rodinius** suteikiama galimybė atlikti pagrindinę asmeninių rodinių priežiūrą ir nurodyti rodinių tvarką rodinių išrinkiklyje. Norėdami atidaryti šį puslapį, pasirinkite rodinio pavadinimą, norėdami atidaryti rodinių išrinkiklio išplečiamąjį meniu, pasirinkite **Daugiau**, o paskui – **Valdyti mano rodinius**.
 
+**Versija 10.0.21 ar vėlesnė:** Jei **patobulintas juridinio subjekto įrašytų rodinių** funkcijos yra įjungtos **Mano rodiniai** esantys teksto lauke **Valdyti mano rodiniu** drodo galimų skyriaus puslapio rodinių rodinius. Bet kokie dabartiniam juridiniam subjektui būsūs rodiniai rodomi savo skyriuje. **Visuotinių rodinių** skyrius visada rodomas, kad būtų galima valdyti rodinius, prieinamus puslapiui visuose juridiniuose subjektuose. 
+
 Toliau išvardyti su galimų to puslapio rodinių sąrašu galimi atlikti veiksmai.
 
-- **Peržiūrėti nustatytąją peržiūrą** – Naudokite **Smeigtuką kaip nustatytąjį** veiksmą tam, kad šiuo metu pasirinktumėte nustatytąjį peržiūrą šiam puslapiui.
+- **Peržiūrėti nustatytąją peržiūrą** – Naudokite **Smeigtuką kaip nustatytąjį** veiksmą tam, kad šiuo metu pasirinktumėte nustatytąjį peržiūrą šiam puslapiui. Jei **importavimo juridinio subjekto palaikymas įrašytai rodinių** funkcijai įjungtas, **visuotinių rodinių** skyrius leidžia peržiūrėti numatytąjį rodinį dabartiniam juridiniam subjektui arba visiems juridiniams subjektams.
 - **Įrašykite savo peržiūras** – Naudokite **Eiti aukštyn** ir **Eiti žemyn** veiksmus tam, kad sutvarkytumėte iš naujo savo peržiūras konkrečia tvarka.
 - **Pervardinti peržiūrą** – Naudokite **Pervardinti** veiksmą tam, pakeistumėte šiuo metu pasirinktos asmeninės peržiūros pavadinimą. Šis veiksmas išjungtas užrakintiems rodiniams. 
 - **Šalinti peržiūrą** – Naudokite **Šalinti** veiksmą tam, nuolatos pašalintumėte esamą pasirinktą puslapio peržiūrą. Pašalinus rodinį, nėra jokių galimybių jį atkurti.
 
-Visi šiame dialogo lange atlikti pakeitimai įsigalios pasirinkus mygtuką **Įrašyti**.
+Visi šiame dialogo lange atlikti pakeitimai įsigalios pasirinkus mygtuką **Naujinti**.
 
 ## <a name="managing-personalizations-at-an-organizational-level-with-views"></a>Personalizavimų valdymas organizacijos lygiu naudojant rodinius
 
@@ -128,24 +136,28 @@ Norėdami publikuoti rodinį, atlikite toliau nurodytus veiksmus.
 6. Nuspręskite, ar rodinys turėtų būti paskelbtas kaip numatytasis rodinys pasirinktiems vartotojams. Kai peržiūra yra paversta nustatytąja, vartotojai ją matys kitą kartą, kai atidarys paskirties puslapį. Bus pakeista viena, iš anksto nustatyta globali peržiūra visų galutinių vartotojų. Nepaisant to, vartotojai dar gali keisti jų nustatytąją peržiūrą po jos publikavimo.
 
     > [!NOTE]
-    > Publikuodami rodinį kaip numatytąjį rodinį, atkreipkite dėmesį į šiuos dalykus: 
-    > -  Jei publikuojate rodinį kaip numatytąjį keliems ar visiems juridiniams subjektus, pakeičiate kiekvieno tikslinio vartotojo vientisą, **visuotinį** numatytąjį rodinį. 
-    > -  Jei vartotojas turi vaidmenis, kuriuos keletas peržiūrų yra publikuojama kaip nustatytosios, paskutinė publikuota peržiūra bus naudojama kaip vartotojo nustatytoji peržiūra. 
+    > Publikuodami rodinį kaip numatytąjį elgesį, publikuojate rodinį kaip numatytą:
+    >
+    > - Jei publikuojate rodinį kaip numatytąjį rodinį kai kuriems arba visiems juridiniams subjektams, vyksta toliau išvardyti veiksmai:
+    >
+    >    - Jei įjungta tik **pagrindinė įrašytų** rodinių funkcija, vienas visuotinis numatytasis rodinys bus pakeistas kiekvienam tiksliniam vartotojui. 
+    >    - **10.0.21 ar naujesnė versija:** Jei **patobulintas juridinio subjekto palaikymas įrašytų rodinių** įjungtas ir publikuojate rodinį juridinių subjektų subgrupyje, tų juridinių subjektų numatytasis rodinys bus pakeistas kiekvienam tiksliniam vartotojui.
+    >
+    > - Jei vartotojas turi vaidmenis, kuriuos keletas peržiūrų yra publikuojama kaip nustatytosios, paskutinė publikuota peržiūra bus naudojama kaip vartotojo nustatytoji peržiūra. 
 
 8. Pridėkite vartotojams, kuriems skirtas šis rodinys, taikomus saugos vaidmenis. 
 9. Nuspręskite, ar norite paskelbti rodinį kiekvieno pasirinkto saugos vaidmens antriniams vaidmenims. Jei taip atliekate, pasirinkite **Įtraukti vaikų vaidmenis** pažymimą laukelį eilutėje atitinkamiems saugos vaidmenims. Atkreipkite dėmesį, kad šis žymimas laukelis nėra prieinamas vaidmenims, neturintiems vaikų vaidmenų.
 10. Pridėkite juridinius subjektus, kuriems turi būti pasiekiamas šis rodinys. 
 
     > [!NOTE]
-    > Publikuodami rodinį juridiniam subjektui, atkreipkite dėmesį į toliau nurodytus lūkesčius.
-    > 
-    > Jei publikuojate peržiūrą teisiniam subjektui, tačiau jei nepublikuojate jos kaip nustatytosios peržiūros, vartotojai iš pradžių matys peržiūrą peržiūros selektoriuje tik konkretiems teisiniams subjektams. Nepaisant to, po peržiūros įkėlimo pirmą kartą, ji visuomet bus vartotojo peržiūros selektoriuje tame puslapyje nepriklausomai nuo teisinio subjekto.
+    > Atsiminkite toliau pateiktas išimtis, kai publikuojate peržiūrą į teisinį subjektą ar kai publikuojate elgesį kaip nustatytąjį:
+    >
+    > - Jei įjungta tik bazinių įrašytų rodinių funkcija, vartotojo rodinio išrinkiklis puslapyje iš pradžių rodo rodinį tik **nurodytiems juridiniams** subjektams. Nepaisant to, po peržiūros įkėlimo pirmą kartą, ji visuomet bus vartotojo peržiūros selektoriuje tame puslapyje nepriklausomai nuo teisinio subjekto.
+    > - **10.0.21 ar naujesnė versija:** jei **patobulintas juridinio subjekto palaikymas įrašytų rodinių** funkcijai įjungtas, rodinio selektorius visada rodys rodinį konkretiems juridiniams asmenims.
 
 11. Pasirinkite **Publikuoti**.
 
 Atkreipkite dėmesį, kad kai kuriose aplinkose gali šiek tiek užtrukti (iki valandos), kol vartotojai pamatys publikuotą rodinį.
-
- 
 
 ## <a name="modifying-a-published-view"></a>Publikuoto rodinio modifikavimas
 
@@ -193,6 +205,7 @@ Nors kai kurie valdymo pajėgumai matosi kiekviename puslapyje, kaip nurodyta š
 Vartotojai turintys prieigą prie **Personalziavimo** puslapio gali taip pat importuoti asmenines ar organizacijos peržiūras naudodami **Importavimo peržiūros** mygtuką veiksmų juostoje. Organizacijos rodiniams galite pasirinkti **Paskelbti nedelsiant**, kad rodiniai taptų prieinami visiems vartotojams be papildomo paskelbimo.
 
 ## <a name="known-issues"></a>Žinomos problemos
+
 Dėl žinomų problemų sąrašo su įrašytomis peržiūromis, prašome žr. [Kurkite formas, kurio visiškai naudoja įrašytas peržiūras](../../dev-itpro/user-interface/understanding-saved-views.md).
 
 ## <a name="frequently-asked-questions"></a>Dažnai užduodami klausimai
@@ -232,5 +245,11 @@ Puslapiams, kurie turi didelius peržiūros selektorius (tiek personalizavimo, t
 - Perėjus į puslapį iš plytelės, plytelės užklausa bus vykdoma neatsižvelgiant į su numatytuoju rodiniu susietą užklausą. Jei sukūrėte tą išklotinę įjungę rodinius, pasirinkus išklotinę atsidarys puslapis su rodiniu, susietu su ta išklotine.
 - Jei perėjus į puslapį įvesties vietoje yra užklausa, iš pradžių bus vykdoma ne numatytojo rodinio užklausa, o pradinė užklausa. Būkite atidūs, kai tai įvyksta informaciniu pranešimu, kai įkeliamas vaizdas. Taip pat galite patvirtinti įjungdami šį rodinį įsikėlus puslapiui, nes tokiu atveju užklausa vis tiek galėtų būti vykdoma.
 
+### <a name="why-is-a-view-that-was-published-for-a-specific-legal-entity-visible-in-all-legal-entities"></a>Kodėl rodinys, kuris buvo publikuotas konkrečiam juridiniam subjektui, matomas visuose juridiniuose subjektuose?
+
+Atsiminkite toliau pateiktas išimtis, kai publikuojate peržiūrą į teisinį subjektą ar kai publikuojate elgesį kaip nustatytąjį:
+
+- Jei įjungta tik bazinių įrašytų rodinių funkcija, vartotojo rodinio išrinkiklis puslapyje iš pradžių rodo rodinį tik **nurodytiems juridiniams** subjektams. Nepaisant to, po peržiūros įkėlimo pirmą kartą, ji visuomet bus vartotojo peržiūros selektoriuje tame puslapyje nepriklausomai nuo teisinio subjekto. Taip nutinka todėl, kad vartotojai gauna savo asmeninę publikuoto rodinio kopiją, kai jis įkeliamas, o asmeniniai rodiniai yra visuotiniai.
+- **10.0.21 ar naujesnė versija:** jei **patobulintas juridinio subjekto palaikymas įrašytų rodinių** funkcijai įjungtas, rodinio selektorius visada rodys rodinį konkretiems juridiniams asmenims. Taip nutinka, nes funkcija įgalina rodinius (įskaitant asmeninius rodinius) susieti su konkrečiais juridiniais subjektais.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

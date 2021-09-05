@@ -1,5 +1,5 @@
 ---
-title: Kliento mokėjimo prognozių įjungimas (peržiūros versija)
+title: Kliento mokėjimo prognozių įjungimas
 description: Šioje temoje paaiškinama, kaip įjungti ir konfigūruoti modulio „Finance Insights” funkciją Kliento mokėjimo prognozės.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 0b945111f360838dfa35cddb916c4fb34a41f55bdd8f3095bd97c906b7dd3dd7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b324891b38f851f8cce9210e3d09a26d567a291
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768896"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386592"
 ---
-# <a name="enable-customer-payment-predictions-preview"></a>Kliento mokėjimo prognozių įjungimas (peržiūros versija)
+# <a name="enable-customer-payment-predictions"></a>Kliento mokėjimo prognozių įjungimas
 
 [!include [banner](../includes/banner.md)]
 

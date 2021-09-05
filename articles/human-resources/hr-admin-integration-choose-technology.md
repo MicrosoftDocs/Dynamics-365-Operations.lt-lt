@@ -1,8 +1,8 @@
 ---
 title: Duomenų integravimo technologijos pasirinkimas
-description: Šiame straipsnyje pateikiama informacija apie integravimą su „Human Resources” valdomais duomenimis. Jame aprašomos įvairios integravimo technologijos, kad apsispręstumėte, kurios technologijos labiausiai atitinka jūsų poreikius.
-author: andreabichsel
-ms.date: 02/28/2020
+description: Šioje temoje pateikiama informacija apie integravimą su „Human Resources” valdomais duomenimis.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5f7942d08459455192f816b2a06251d0f756b8de521d958eb38a84fa2e5616d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d58a42236b07bf177e09aee50a207ffdf2ed1435
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720473"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414719"
 ---
 # <a name="choose-a-data-integration-technology"></a>Duomenų integravimo technologijos pasirinkimas
 
@@ -28,14 +28,13 @@ ms.locfileid: "6720473"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Šiame straipsnyje pateikiama informacija apie integravimą su „Dynamics 365 Human Resources” valdomais duomenimis. Jame aprašomos įvairios integravimo technologijos, kad apsispręstumėte, kurios technologijos labiausiai atitinka jūsų poreikius.
+Šioje temoje pateikiama informacija apie integravimą su „Dynamics 365 Human Resources” valdomais duomenimis. Jame aprašomos įvairios integravimo technologijos, kad apsispręstumėte, kurios technologijos labiausiai atitinka jūsų poreikius.
 
 ## <a name="data-integration-background"></a>Duomenų integravimo fonas
 
 Verslo duomenys yra pagrindinis turtas, dėl kurio jūsų įmonė yra unikali. Jūsų verslo duomenys labai vertingi. Galite naudoti ryšius tarp savo verslo duomenų, kad galėtumėte pagerinti savo organizacijos verslo procesus ir įžvalgas. Siekiame suteikti paprastą, saugią ir stabilią prieigą prie jūsų verslo duomenų, nepriklausomai nuo sistemos, kurioje jie yra.
 
-Istoriniu požiūriu duomenų integravimas tarp kelių sistemų buvo sudėtingas.
-„Microsoft“ imasi veiksmų, kad būtų lengviau integruoti duomenis, ir sparčiai artėja šio tikslo link, kai jis realizuojamas pasitelkiant [„Dataverse“](/powerapps/maker/common-data-service/data-platform-intro).
+Istoriniu požiūriu duomenų integravimas tarp kelių sistemų buvo sudėtingas. „Microsoft“ imasi veiksmų, kad būtų lengviau integruoti duomenis, ir sparčiai artėja šio tikslo link, kai jis realizuojamas pasitelkiant [„Dataverse“](/powerapps/maker/common-data-service/data-platform-intro).
 
 Dėl „Human Resources“ programos „Dataverse“ tampa pageidaujama „Human Resources“ duomenų viešoji sąsaja. Ilgainiui mes tikimės, kad visi svarbiausi duomenys, valdomi „Human Resources“ programos, bus išstatyti „Dataverse“. Rekomenduojame „Dataverse“ kaip rinktinę technologiją daugeliui integravimo taikymų.
 
@@ -47,7 +46,7 @@ Tolesniuose skyriuose aprašomos įvairios duomenų integravimo technologijos, k
 
 ### <a name="dataverse-tables"></a>„Dataverse“ lentelės
 
-„Dataverse“ yra pageidaujama „Human Resources“ viešoji duomenų sąsaja. Ji atsirado iš „Dynamics 365” „XRM” platformos, kurią naudoja [„Dynamics 365 Customer Engagement”](/dynamics365/?panel=customer-engagement#pivot=business-apps) sprendimai.
+„Dataverse“ yra pageidaujama „Human Resources“ viešoji duomenų sąsaja. Ji atsirado iš „Dynamics 365” XRM platformos, kurią naudoja [„Dynamics 365 Customer Engagement”](/dynamics365/?panel=customer-engagement#pivot=business-apps) sprendimai.
 
 „Dataverse“ suteikia platformą ir API duomenų lentelėms. Kai diegiate „Human Resources”, ji prijungiama prie „Dataverse” egzemplioriaus. „Human Resources” duomenų objektai įdiegiami tame „Dataverse” egzemplioriuje. Lentelės ir jų duomenys yra prieinami bet kuriai programai, kuri gali susijungti su „Dataverse“ elementu. „Human Resources“ sinchronizuoja duomenis į ir iš „Dataverse“ lentelių.
 

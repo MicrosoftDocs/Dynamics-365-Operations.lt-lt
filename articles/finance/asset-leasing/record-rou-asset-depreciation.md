@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 40af957582f9cdf4e1caf3ab03ead41f2823b42d59d427c7e7623cd8688e1827
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 02364a0871e9a54f52c7c526cd1897165d52ec68
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778367"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345375"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Naudojimo teise valdomo turto nusidėvėjimo įrašymas (peržiūros versija)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Jei nuoma pripažįstama organizacijos balanse, naudojimo teise valdomas turtas amortizuojamas kas mėnesį. Šioje temoje paaiškinama, kaip sukurti amortizavimo žurnalo įrašą. Amortizacija debetuoja išlaidų DK sąskaitą ir kredituoja sukauptą nusidėvėjimo DK sąskaitą, atsižvelgiant į jūsų registravimo šablono sąranką ir nuomos tipą. Šie įrašai gali būti sukurti kiekvienai nuomai arba jie gali būti sukurti kelioms nuomoms, naudojant paketo žurnalo funkcijas.
 
@@ -36,6 +38,9 @@ Jei nuoma pripažįstama organizacijos balanse, naudojimo teise valdomas turtas 
 
 2. Pasirinkite nusidėvėjimo laikotarpį ir pasirinkite **Kurti žurnalą**. Gausite pranešimą, kuriame nurodoma, kad sukurtas žurnalas, kuris bus naudojamas nusidėvėjimui įrašyti.
 3. Pasirinkite **Žurnalai \> Turto nuomos žurnalai**, kad būtų atidarytas puslapis **Turto nuomos žurnalas**, kuriame galite peržiūrėti sukurtą nusidėvėjimo išlaidų žurnalo įrašą.
+
+   Sistema užrakina tam tikrus finansinius laukus, kad išvengtų nuokrypių tarp operacijų ir grafikų. Kai kurie laukai, kurie yra užrakinti, apima **sąskaitą**, **sumas**, **finansines dimensijas**, **valiutą** ir **operacijos tipą**. Be to, žurnalo įrašų eilučių nebus galima įtraukti į žurnalo žurnalo įrašus, nes dėl to gali atsirasti nuokrypių tarp grafikų ir operacijų.
+
 4. Pasirinkite žurnalo įrašą ir pasirinkite **Registruoti**, kad įrašytumėte nusidėvėjimo įrašą į DK.
 
 ## <a name="calculation-of-rou-asset-amortization-expense-for-operating-leases"></a>Veiklos nuomos naudojimo teise valdomo turto amortizavimo išlaidų skaičiavimas

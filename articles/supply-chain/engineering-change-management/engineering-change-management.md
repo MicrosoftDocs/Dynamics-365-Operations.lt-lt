@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 55952a9b1c25b806ee4a21ef1982c5b15a41adeb9c9bfdf2fccb8c9da242ffdb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb6fd57f200b101cb2df396cb10417feaa9425c1
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714335"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384590"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Valdyti inžinerinių produktų keitimus
 
@@ -113,16 +113,16 @@ Norėdami peržiūrėti paveiktas operacijas, užblokuoti pasirinktas operacijas
     - **Peržiūrėti operaciją** – Atidaro pasirinktą operacijos įrašą.
     - **Blokuoti užsakymą** – Šis mygtukas galimas tik **Pardavimo užsakymų** skirtuke Pasirinkite jį, kad užblokuotumėte pasirinktą pardavimo užsakymą.
     - **Blokuoti eilutę** – Šis mygtukas galimas tik **Pirkimo užsakymų** skirtuke Pasirinkite jį, kad užblokuotumėte pasirinktą pirkimo užsakymo eilutę.
-    - **Pranešti atsakingam asmeniui** – Šis mygtukas galimas tik **Pardavimo užsakymų** skirtuke Pasirinkite jį, kad išsiųstumėte pranešimą apie pakeitimą vartotojui, atsakingam už pasirinktą pardavimo užsakymą.
-    - **Pranešti užsisakiusiam asmeniui** – Šis mygtukas galimas tik **Pirkimo užsakymų** skirtuke Pasirinkite jį, kad išsiųstumėte pranešimą apie pakeitimą vartotojui, atlikusiam pasirinktą pirkimo užsakymą.
-    - **Pranešti apie gamybą** – Šis mygtukas galimas tik **Gamybos užsakymų** skirtuke Skirtingai nuo pardavimo ir pirkimo užsakymų, gamybos užsakymuose nėra vieno vartotojo, kuris nustatytas kaip pilnai atsakingas už juos. Vietoj to, keli prižiūrėtojai arba planuotojai įprastai vadovauja konkrečiai vietai arba gamybos daliai (pavyzdžiui, konkretiems ištekliams arba išteklių grupėms). Todėl, kai pasirenkate šį mygtuką, visi vartotojai, atsakingi už bet kuriuos išteklius, susijusius su pasirinktu gamybos užsakymu, gauna pranešimą apie pakeitimą.
-    - **Pranešti rengėjui** – Šis mygtukas galimas tik **Pirkimo paraiškų** skirtuke Pasirinkite jį, kad išsiųstumėte pranešimą apie pakeitimą vartotojui, nustatytam kaip pasirinktos pirkimo paraiškos rengėjui.
-    - **Pranešti atsakingam pardavėjui** – Šis mygtukas galimas tik **Pasiūlymų** skirtuke Pasirinkite jį, kad išsiųstumėte pranešimą apie pakeitimą vartotojui, atsakingam už pasirinktą pasiūlymą.
+    - **Pranešti atsakingam asmeniui** – Šis mygtukas galimas tik **Pardavimo užsakymų** skirtuke Pasirinkite jį, kad išsiųstumėte pranešimą apie pakeitimą vartotojui, atsakingam už pasirinktą pardavimo užsakymą. Daugiau informacijos apie tai, kas gali matyti pranešimus ir kaip tai daryti, rasite dalyje [Pranešimų apie operacijų pakeitimus peržiūra ir apdorojimas](#review-notifications).
+    - **Pranešti užsisakiusiam asmeniui** – Šis mygtukas galimas tik **Pirkimo užsakymų** skirtuke Pasirinkite jį, kad išsiųstumėte pranešimą apie pakeitimą vartotojui, atlikusiam pasirinktą pirkimo užsakymą. Daugiau informacijos apie tai, kas gali matyti pranešimus ir kaip tai daryti, rasite dalyje [Pranešimų apie operacijų pakeitimus peržiūra ir apdorojimas](#review-notifications).
+    - **Pranešti apie gamybą** – Šis mygtukas galimas tik **Gamybos užsakymų** skirtuke Skirtingai nuo pardavimo ir pirkimo užsakymų, gamybos užsakymuose nėra vieno vartotojo, kuris nustatytas kaip pilnai atsakingas už juos. Vietoj to, keli prižiūrėtojai arba planuotojai įprastai vadovauja konkrečiai vietai arba gamybos daliai (pavyzdžiui, konkretiems ištekliams arba išteklių grupėms). Todėl, kai pasirenkate šį mygtuką, visi vartotojai, atsakingi už bet kuriuos išteklius, susijusius su pasirinktu gamybos užsakymu, gauna pranešimą apie pakeitimą. Daugiau informacijos apie tai, kas gali matyti pranešimus ir kaip tai daryti, rasite dalyje [Pranešimų apie operacijų pakeitimus peržiūra ir apdorojimas](#review-notifications).
+    - **Pranešti rengėjui** – Šis mygtukas galimas tik **Pirkimo paraiškų** skirtuke Pasirinkite jį, kad išsiųstumėte pranešimą apie pakeitimą vartotojui, nustatytam kaip pasirinktos pirkimo paraiškos rengėjui. Daugiau informacijos apie tai, kas gali matyti pranešimus ir kaip tai daryti, rasite dalyje [Pranešimų apie operacijų pakeitimus peržiūra ir apdorojimas](#review-notifications).
+    - **Pranešti atsakingam pardavėjui** – Šis mygtukas galimas tik **Pasiūlymų** skirtuke Pasirinkite jį, kad išsiųstumėte pranešimą apie pakeitimą vartotojui, atsakingam už pasirinktą pasiūlymą. Daugiau informacijos apie tai, kas gali matyti pranešimus ir kaip tai daryti, rasite dalyje [Pranešimų apie operacijų pakeitimus peržiūra ir apdorojimas](#review-notifications).
     - **Nurašyti** – Šis mygtukas galimas tik **Atsargų** skirtuke Pasirinkite jį, jei norite nurašyti pasirinktas atsargas.
     - **Peržiūrėti retrospektyvą** – Atidaro pasirinktos operacijos veiksmų retrospektyvą naudodamas **Verslo poveikio atviroms operacijoms** dialogo langą. (Pavyzdžiui, retrospektyva parodo, ar pranešimai buvo išsiųsti, ar operacijos buvo užblokuotos.) 
     - **Peržiūrėti visas operacijas** – Atidaromas pilnas visų operacijų sąrašas, o ne tik atidarytos operacijos.
 
-#### <a name="review-and-process-change-notifications-for-transactions"></a>Peržiūrėkite ir apdorokite operacijų pakeitimų pranešimus
+#### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Peržiūrėkite ir apdorokite operacijų pakeitimų pranešimus
 
 Galite skaityti ir apdoroti pakeitimų pranešimus, kuriuos gaunate šiais būdais:
 

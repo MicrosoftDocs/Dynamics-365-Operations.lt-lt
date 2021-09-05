@@ -1,12 +1,12 @@
 ---
-title: Mokesčių skaičiavimas (peržiūros versija)
+title: Mokesčių skaičiavimo apžvalga
 description: Šioje temoje paaiškinama bendroji Mokesčių skaičiavimo galimybės apimtis ir funkcijos.
 author: wangchen
-ms.date: 06/03/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4e01247cddad4201760fd56e00e05a8373a1ca6ef7c26ae5e1f5cca63bd8a456
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 72895cc18368ebf38818f30510cec999391c7910
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775099"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394591"
 ---
-# <a name="tax-calculation-preview"></a>Mokesčių skaičiavimas (peržiūros versija)
+# <a name="tax-calculation-overview"></a>Mokesčių skaičiavimo apžvalga
 
 [!include [banner](../includes/banner.md)]
 
@@ -33,44 +33,59 @@ Mokesčių skaičiavimas yra hiper išplečiama kelių nuomotojų paslauga, įga
 Mokesčių skaičiavimas integruojamas su „Dynamics 365 Finance“ ir „Dynamics 365 Supply Chain Management“. Galiausiai ji taip pat bus „Dynamics 365 Project Operations“ integruota į, ir kitas pirmosios šalies ir trečiosios šalies „Dynamics 365 Commerce“ programas.
 
 > [!IMPORTANT]
-> Kai įgalinate mokesčių skaičiavimo tarnybą, kai kurios su susijusiais duomenimis susijusios operacijos gali būti atliekamos ne duomenų centre, kuris prižiūri jūsų aptarnavimo duomenis. Prieš [įgalindami mokesčių](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) skaičiavimo tarnybą, peržiūrėkite sąlygas. Mes rūpinamės jūsų privatumu. Norėdami sužinoti daugiau, perskaitykite mūsų [Pareiškimą dėl privatumo](https://go.microsoft.com/fwlink/?LinkId=521839).
+> Kai įgalinate papildinį Mokesčių skaičiavimas, kai kurios su susijusiais duomenimis susijusios operacijos gali būti atliekamos ne duomenų centre, kuris tvarko jūsų aptarnavimo duomenis. Prieš įgalindami papildinį Mokesčių skaičiavimas, peržiūrėkite [sąlygas](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md). Mes rūpinamės jūsų privatumu. Norėdami sužinoti daugiau, perskaitykite mūsų [Pareiškimą dėl privatumo](https://go.microsoft.com/fwlink/?LinkId=521839).
 
-Mokesčių skaičiavimas yra mikrotarnyba pagrįstas mokesčių variklis, siūlantis eksponentinį išplečiamumą. Galite atlikti šias užduotis:
+Mokesčių skaičiavimas yra mikrotarnyba pagrįstas mokesčių mechanizmas, siūlantis eksponentinį išplečiamumą ir galintis padėti atlikti tolesnes užduotis.
 
-- Konfigūruokite Mokesčių skaičiavimą per „Regulatory Configuration Service“ (RCS). RCS yra patobulinta elektroninių ataskaitų (ER) dizaino įrankio versija, galima naudoti kaip atskirą paslaugą.
-- Konfigūruoti mokesčių matricą, kad automatiškai būtų nustatyti mokesčių kodai ir tarifai.
-- Konfigūruoti mokesčių matricą, kad automatiškai būtų nustatytas registracijos numeris.
-- Konfigūruokite mokesčių skaičiavimo konstruktorių, kad būtų galima apibrėžti formules ir sąlygas.
-- Juridiniuose subjektuose bendrai naudoti mokesčių nustatymo ir skaičiavimo sprendimą.
+- Naudojant patobulintą nustatymo mechanizmą automatiškai nustatyti tinkamą PVM grupę, prekių PVM grupę ir mokesčių kodus.
+- Palaikyti kelis vieno juridinio subjekto mokesčių registracijos numerius ir automatiškai nustatyti tinkamą apmokestinamų operacijų mokesčių registracijos numerį.
+- Palaikyti perkėlimo užsakymų mokesčių nustatymą, skaičiavimą, registravimą ir sudengimą.
+- Pagal konkrečius verslo poreikius apibrėžti konfigūruojamąsias mokesčių skaičiavimo formules ir sąlygas.
+- Bendrinti mokesčių nustatymo ir skaičiavimo sprendimą keliems juridiniams subjektams, norint sumažinti tvarkymo darbų apimtį ir išvengti klaidų.
+- Palaikyti kliento ir tiekėjo mokesčių registracijos numerių nustatymo funkciją.
+- Palaikyti sąrašo kodų nustatymo funkciją.
+- Palaikyti mokesčių skaičiavimo parametrus mokesčių jurisdikcijos lygiu.
 
-Norėdami naudoti mokesčių skaičiavimo tarnybą, įdiekite mokesčių skaičiavimo tarnybos priedą iš ciklo tarnybų „Microsoft Dynamics Lifecycle Services“ (LCS) projekto. Tada užbaikite RCS nustatymą ir įjunkite mokesčių skaičiavimo paslaugą „Finance and Supply Chain Management“. Daugiau informacijos žr. [Darbo su mokesčių paslaugų pradžia](./global-get-started-with-tax-calculation-service.md).
+Norėdami naudoti papildinį Mokesčių skaičiavimas, jį įdiekite savo „Microsoft Dynamics Lifecycle Services“ projekte. Tada užbaikite sąranką sprendime [„Regulatory Configuration Service“](https://marketing.configure.global.dynamics.com/) ir įjunkite papildinį Mokesčių skaičiavimas sprendime „Finance and Supply Chain Management“. Daugiau informacijos žr. [Darbo su mokesčių paslaugų pradžia](global-get-started-with-tax-calculation-service.md).
 
 ## <a name="availability"></a>Prieinamumas
 
-Mokesčių skaičiavimas galimas tik smėlio dėžės aplinkose ir tik pasirinktiems klientams, naudojant viešosios peržiūros versijos programą. Galiausiai ji bus bendrai pasiekiama visiems klientams ir gamybos aplinkoje.
+Mokesčių skaičiavimas paprastai pasiekiamas gamybos aplinkose visiems klientams nuo 10.0.21 versijos.
 
-Atsiras vis naujos funkcijas, tad nepamirškite dažnai peržvelgti naujausią dokumentaciją, kad sužinotumėte apie palaikomų funkcijų padengimą ir aprėptį.
+Ateityje atsiras naujų funkcijų. Dažnai tikrinkite naujausią leidimų planą, kad sužinotumėte apie palaikomų funkcijų padengimą ir aprėptį.
 
-Mokesčių skaičiavimas yra įdiegtas toliau nurodytose „Azure" geografinėse srityse. Ji taip pat bus įdiegta į daugiau „Azure" geografinių diagramų, atsižvelgiant į kliento poreikius:
+Mokesčių skaičiavimas yra įdiegtas toliau nurodytose „Azure" geografinėse srityse. Atsižvelgiant į klientų poreikius, bus įtraukta daugiau „Azure" geografinių vietovių.
 
-- Jungtinės Valstijos
+- Azijos ir Ramiojo vandenyno regionas
+- Australija
+- Kanada
 - Europa
+- Japonija
+- Jungtinė Karalystė
+- Jungtinės Valstijos
 
 > [!NOTE]
-> Mokesčių skaičiavimas nepalaiko „Dynamics 365" vietinių diegimų. Tai nepalaiko ir ankstesnių versijų, pvz., „Dynamics AX 2012".
+> Mokesčių skaičiavimas nepalaiko ankstesnių „Dynamics 365“ versijų, pvz., „Dynamics AX 2012“ ar vietinių „Dynamics 365“ įdiegčių.
 
-## <a name="feature-highlights"></a>Svarbiausi funkcijų aspektai
+## <a name="data-flow"></a>Duomenų srautas
 
-- Konfigūruoti mokesčių matricą, kad automatiškai būtų nustatyti mokesčių kodai ir tarifai.
-- Kelių mokesčių registracijos numerių palaikymas
-- Perkėlimo užsakymo palaikymas nustatant mokesčius ir skaičiuojant
-- Perkėlimo užsakymo palaikymas nustatant kelių mokesčių registracijos numerius
+Toliau pateikiama papildinio Mokesčių skaičiavimas duomenų srauto proceso struktūra. 
+
+1. Sprendime RCS peržiūrėkite ir importuokite apmokestinamų dokumentų modelių konfigūracijas bei modelių susiejimo konfigūracijas. Jei konfigūracijas turite išplėsti išplėstiniam scenarijui, žr. [Duomenų laukų įtraukimas į mokesčių konfigūracijas](tax-service-add-data-fields-tax-configurations.md).
+2. Sprendime RCS kurkite arba tvarkykite mokesčių funkcijas. Galite naudoti mokesčių funkcijas, norėdami tvarkyti mokesčių tarifus ir mokesčių taikymo taisykles.
+3. Kai mokesčių funkcijų sąranka baigta, publikuokite mokesčių konfigūracijas ir mokesčių funkcijas iš RCS į visuotinę saugyklą.
+4. Sprendime „Finance“ pasirinkite, kurią mokesčių funkcijos nustatymo versiją naudoti konkrečiam juridiniam subjektui.
+5. Sprendime „Finance and Supply Chain Management“ operacijos naudokite įprastai. Kai reikalingas Mokesčių skaičiavimas, klientas renka informaciją iš operacijos, pvz., pardavimo ar pirkimo užsakymo, ir supakuoja informaciją kaip mokamąją krovą. Tada bus išsiųsta užklausa mokesčiams apskaičiuoti.
+6. Mokesčių skaičiavimo užklausa gaunama iš kliento ir skaičiavimas baigiamas. Tada mokesčių rezultatas pateikiamas klientui.
+7. „Dynamics 365“ klientas gauna mokesčių rezultatą ir PVM puslapyje pateikia mokesčių skaičiavimo rezultatą.
 
 ## <a name="supported-transactions"></a>Palaikomos operacijos
 
-Mokesčių skaičiavimą gali įgalinti juridinis subjektas ir operacija. Palaikomos toliau nurodytos operacijos:
+Papildinį Mokesčių skaičiavimas galima įgalinti naudojant operacijas. 
 
-- Pardavimo procesas
+10.0.21 versijoje palaikomos tolesnės operacijos. 
+
+- Pardavimas
 
     - Pardavimo pasiūlymas
     - Pardavimo užsakymas
@@ -83,7 +98,7 @@ Mokesčių skaičiavimą gali įgalinti juridinis subjektas ir operacija. Palaik
     - Antraštės įvairūs keitimai
     - Įvairių išlaidų eilutė
 
-- Pirkimo procesas
+- Pirkimas
 
     - Pirkimo užsakymas
     - Patvirtinimas
@@ -100,10 +115,36 @@ Mokesčių skaičiavimą gali įgalinti juridinis subjektas ir operacija. Palaik
     - Pasiūlymo patvirtinimo antraštės papildomos išlaidos
     - Pasiūlymo patvirtinimo eilutės papildomos išlaidos
 
-- Atsargų procesas
+- Inventorizacijos
 
     - Perlaidos užsakymas - siuntimas
     - Perlaidos užsakymas - gavimas
+
+## <a name="supported-countriesregions"></a>Palaikomos šalys / regionai
+
+Papildinį Mokesčių skaičiavimas gali įjungti juridinis subjektas. 
+
+10.0.21 versijoje palaikomos tolesnės juridinio subjekto pagrindinio adreso šalys / regionai.
+
+- Austrija
+- Belgija
+- Danija
+- Estija
+- Suomija
+- Prancūzija
+- Vokietija
+- Vengrija
+- Islandija
+- Italija
+- Latvija
+- Lietuva
+- Nyderlandai
+- Norvegija
+- Lenkija
+- Švedija
+- Šveicarija
+- Jungtinė Karalystė
+- Jungtinės Valstijos
 
 ## <a name="related-resources"></a>Susiję ištekliai
 

@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 328791cc321eeaf8f032a1eecedbe50cf9498eccd442c718d2e44e246915bc9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2f4aeefe5fe7698d9dfaf80619102f2b753e52b
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726192"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423452"
 ---
 # <a name="unified-product-experience"></a>Bendrosios produkto funkcijos
 
@@ -81,9 +81,9 @@ Kadangi produktą atitinka SKU, išskirtųjų produktų, bendrųjų produktų ir
 
 ![Produktų duomenų modelis.](media/dual-write-product.png)
 
-Įgalinus dvigubo rašymo funkciją, „Finance and Operations“ programos bus sinchronizuojamos kituose „Dynamics 365“ produktuose, būsenoje **Juodraštis**. Jie yra pridedami prie pirmo kainoraščio su ta pačia valiuta. Kitaip tariant, jie pridedami prie pirmojo „Dynamics 365“ programos kainoraščio, atitinkančio jūsų juridinę lentelę, kurioje produktas išleidžiamas „Finance and Operations“ programoje, valiutą. Jei nėra pateiktos valiutos kainoraščio, jis bus automatiškai sukurtas ir priskirtas produktui.
+Įgalinus dvigubo rašymo funkciją, „Finance and Operations“ programos bus sinchronizuojamos kituose „Dynamics 365“ produktuose, būsenoje **Juodraštis**. Jie įtraukiami į pirmą kaininių sąrašą ta pačia valiuta, naudojama klientų įsipareigojimo programoje ir kai kurių sąrašų pavadinime naudojant abėcėlės rikiavimo tvarka. Kitaip tariant, jie pridedami prie pirmojo „Dynamics 365“ programos kainoraščio, atitinkančio jūsų juridinę lentelę, kurioje produktas išleidžiamas „Finance and Operations“ programoje, valiutą. Jei nėra pateiktos valiutos kainoraščio, jis bus automatiškai sukurtas ir priskirtas produktui.
 
-Dabartinis dvigubo rašymo priedų, kurie susieja numatytąjį kainoraštį su vienetu, diegimas ieško valiutos, susijusios su programa Finance and Operations, ir randa pirmą kainoraštį klientų įtraukimo programoje, naudodamas rūšiavimą abėcėlės tvarka kainoraščio pavadinime. Norėdami nustatyti numatytąjį tam tikros valiutos kainoraštį, kai yra keletas tos valiutos kainoraščių, turite atnaujinti kainoraščio pavadinimą į tokį, kuris pagal abėcėlės tvarką yra ankstesnis nei bet kuris kitas tos pačios valiutos kainoraštis.
+Dabartinis dvigubo rašymo priedų, kurie susieja numatytąjį kainoraštį su vienetu, diegimas ieško valiutos, susijusios su programa Finance and Operations, ir randa pirmą kainoraštį klientų įtraukimo programoje, naudodamas rūšiavimą abėcėlės tvarka kainoraščio pavadinime. Norėdami nustatyti numatytąjį tam tikros valiutos kainoraštį, kai yra keletas tos valiutos kainoraščių, turite atnaujinti kainoraščio pavadinimą į tokį, kuris pagal abėcėlės tvarką yra ankstesnis nei bet kuris kitas tos pačios valiutos kainoraštis. Jei ji neturi jokio kainos sąrašo pateiktai valiutai, sukuriama nauja.
 
 Pagal numatytuosius nustatymus produktai, esantys programoje „Finance and Operations“, sinchronizuojami kitose „Dynamics 365“ programose, būsenoje **Juodraštis**. Norint sinchronizuoti produktą, jam esant būsenos **Aktyvus**, kad jį, pavyzdžiui, galėtumėte tiesiogiai naudoti pardavimo užsakymų pasiūlymuose, reikia pasirinkti šį parametrą: skirtuke **Sistema > Administravimas > Sistemos administravimas > Sistemos parametrai > Pardavimas** pasirinkite **Kurti aktyvios būsenos produktus = taip**.
 

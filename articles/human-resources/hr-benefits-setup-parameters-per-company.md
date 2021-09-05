@@ -1,8 +1,8 @@
 ---
-title: Konfigūruoti priedų valdymo parametrus įmonei
-description: Konfigūruoti priedų valdymo parametrus įmonei „Microsoft Dynamics 365 Human Resources“.
-author: andreabichsel
-ms.date: 12/07/2020
+title: Išmokų valdymo parametrų konfigūravimas įmonei
+description: Šioje temoje paaiškinta, kaip konfigūruoti priedų valdymo parametrus įmonei „Microsoft Dynamics 365 Human Resources“.
+author: twheeloc
+ms.date: 8/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0c0f9f31006ca83082ddc61da5927841855077737289e31f66708ade6d66acaf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2d0bc8d511126901be09028dc3c10636f2902e79
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732806"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423310"
 ---
 # <a name="configure-benefits-management-parameters-per-company"></a>Konfigūruoti priedų valdymo parametrus įmonei
 
@@ -36,7 +36,7 @@ Kiekvienai organizacijai, kuri siūlo priedus, turite sukonfigūruoti nustatymus
 
    | Laukas | aprašymas |
    | --- | --- |
-   | **Siųsto patvirtinimo el. laišką** | Įjungus šią funkciją, patvirtinimo el. laiškas bus nusiųstas darbuotojams, kai jie išsiregistruos iš naudų įtraukimo patirties darbuotojo savitarnoje. |
+   | **Siųsto patvirtinimo el. laišką** | Įjungus šią funkciją, patvirtinimo el. laiškas bus nusiųstas darbuotojams, kai jie išsiregistruos iš naudų įtraukimo patirties **darbuotojo savitarnoje**. |
    | **Patvirtinimo el. laiško šablonas** | Pasirinkite organizacijos el. laiško šabloną, kuris bus naudojamas siunčiant įsitraukimo patvirtinimą. Jei nepsirinksite šablono, tolesnis bendras el. laiškas bus nusiųstas:<br><br>%EmployeeFirstName%,<br><br>Sveikiname! Sėkmingai užbaigėte priedų įtraukimą.<br><br>Dėkojame,<br><Įmonės/Organizacijos pavadinimas> Priedai. |
    | **Numatytojo el. pašto siuntėjo adresas** | El. pašto adresas naudojamas siunčiant patvirtinimo el. laišką. |
 

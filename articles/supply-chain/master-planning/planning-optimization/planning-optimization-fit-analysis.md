@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 52048ea6cced6f670faf13ef07f1288183e6d9b67a016608030f9e192a98faa7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd0fdd677824db823f9bc42f0ad1bdd90cf3b16d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751103"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344983"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planavimo optimizavimo tinkamumo analizė
 
@@ -51,6 +51,9 @@ Norėdami peržiūrėti planavimo optimizavimo tinkamumo analizės rezultatą, e
 ## <a name="overview-of-possible-results-from-the-fit-analysis"></a>Galimų tinkamumo analizės rezultatų peržiūra
 
 Tolesnėje lentelėje pateikiami skirtingi rezultatai, rodomi po tinkamumo analizės. Skaičių ženklai (_\#_) bus pakeisti skaičiumi, nurodančiu įrašų, kuriuose yra nurodyta problema, skaičių. Palaikomos arba peržiūrimos funkcijos yra prieinamos 10.0.9 arba naujesnėje versijoje (nebent stulpelyje „Numatomas pasiekiamumas” yra nurodytas didesnis versijos numeris).
+
+> [!NOTE]
+> Kai kurių nenuoseklumų negalima nustatyti „Planning Optimization“ pritaikymo analizėje. Dėl daugiau informacijos, žr. [Skirtumas tarp įtaisytojo bendrojo planavimo ir „Planning Optimization“](planning-optimization-differences-with-built-in.md).
 
 | Funkcija | Nurodyta problema | Paaiškinimas | Numatomas prieinamumas |
 | --- | --- | --- | --- |
@@ -105,6 +108,10 @@ Tolesnėje lentelėje pateikiami skirtingi rezultatai, rodomi po tinkamumo anali
 [Planavimo optimizavimo apžvalga](planning-optimization-overview.md)
 
 [Darbo su planavimo optimizavimu pradžia](get-started.md)
+
+[Skirtumas tarp įtaisytojo bendrojo planavimo ir „Planning Optimization“](planning-optimization-differences-with-built-in.md)
+
+[Planavimo optimizavimo nenaudojami parametrai](not-used-parameters.md)
 
 [Plano retrospektyvos ir planavimo žurnalų peržiūra](plan-history-logs.md)
 

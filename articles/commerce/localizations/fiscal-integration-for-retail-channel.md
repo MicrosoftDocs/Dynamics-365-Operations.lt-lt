@@ -1,8 +1,9 @@
 ---
 title: „Commerce“ kanalų fiskalinės integracijos apžvalga
 description: Šioje temoje pateikiama fiskalinės integracijos galimybių, teikiamų „Dynamics 365 Commerce“, apžvalga.
-author: josaw
-ms.date: 02/01/2019
+author: EvgenyPopovMBS
+manager: annbe
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,26 +16,26 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 6545f3ee488cdd98530839f546ca2e6a434194437dfa98712a1a6ac3407afdbf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 35612714f9443f1f37b744d87eda373df84aaadd
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733946"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343292"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>„Commerce“ kanalų fiskalinės integracijos apžvalga
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="introduction"></a>Įžanga
+Ši tema yra fiskalinės integracijos galimybių, teikiamų „Dynamics 365 Commerce“, apžvalga. 
 
-Ši tema yra fiskalinės integracijos galimybių, teikiamų „Dynamics 365 Commerce“, apžvalga. Fiskalinė integracija apima integravimą įvairiais finansiniais įrenginiais ir tarnybomis, kurie užtikrina „Commerce“ pardavimo fiskalinę integraciją su vietos mokesčių įstatymais, kuriais siekiama užkirsti kelią mokesčių sukčiavimui mažmeninės prekybos srityje. Toliau pateikti keli įprasti scenarijai, kurių atveju būtų galima naudotis fiskaline integracija.
+Fiskalinė integracija apima integravimą įvairiais finansiniais įrenginiais ir tarnybomis, kurie užtikrina „Commerce“ pardavimo fiskalinę integraciją su vietos mokesčių įstatymais, kuriais siekiama užkirsti kelią mokesčių sukčiavimui mažmeninės prekybos srityje. Toliau pateikti keli įprasti scenarijai, kurių atveju būtų galima naudotis fiskaline integracija.
 
 - Užregistruokite pardavimą finansiniame įrenginyje, prijungtame prie elektroninio kasos aparato (EKA), pvz., fiskalinio spausdintuvo, ir išspausdinkite klientui skirtą fiskalinį kvitą.
 - Saugiai pateikite informaciją, susijusią su pardavimu ir grąžinimu, kurie yra užbaigti „Retail POS“, į išorinę žiniatinklio tarnybą, kurią valdo mokesčių inspekcija.
 - Padėkite užtikrinti pardavimo operacijų duomenų nekeičiamumą naudodami skaitmeninius parašus.
 
-Fiskalinės integracijos funkcija yra sistema, kuri suteikia bendrą „Retail POS“ ir finansinių įrenginių bei tarnybų integravimo tolesnės plėtros bei tinkinimo sprendimą. Funkcija taip pat apima fiskalinės integracijos pavyzdžius, kurie palaiko pagrindinius scenarijus konkrečiose šalyse ar regionuose ir kurie tinka konkretiems finansiniams įrenginiams arba tarnyboms. Fiskalinės integracijos pavyzdį sudaro keli „Commerce“ komponentų plėtiniai ir jis įtrauktas į programinės įrangos kūrimo rinkinį (SDK). Daugiau informacijos apie fiskalinės integracijos pavyzdžius žr. [Mažmeninės prekybos SDK fiskalinės integracijos pavyzdžiai](#fiscal-integration-samples-in-the-retail-sdk). Informaciją kaip įdiegti ir naudoti mažmeninės prekybos SDK žr. [Mažmeninės prekybos programinės įrangos kūrimo įrenginio (SDK) architektūra](../dev-itpro/retail-sdk/retail-sdk-overview.md).
+Fiskalinės integracijos funkcija yra sistema, kuri suteikia bendrą „Retail POS“ ir finansinių įrenginių bei tarnybų integravimo tolesnės plėtros bei tinkinimo sprendimą. Funkcija taip pat apima fiskalinės integracijos pavyzdžius, kurie palaiko pagrindinius scenarijus konkrečiose šalyse ar regionuose ir kurie tinka konkretiems finansiniams įrenginiams arba tarnyboms. Fiskalinės integracijos pavyzdį sudaro keli „Commerce“ komponentų plėtiniai ir jis įtrauktas į programinės įrangos kūrimo rinkinį (SDK). Daugiau informacijos apie fiskalinės integracijos pavyzdžius žr. dalyje [„Commerce“ SDK fiskalinės integracijos pavyzdžiai](#fiscal-integration-samples-in-the-commerce-sdk). Informaciją, kaip įdiegti ir naudoti „Commerce“ SDK, žr. dalyje [Mažmeninės prekybos programinės įrangos kūrimo rinkinio (SDK) architektūra](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
 Tam, kad būtų palaikomi kiti scenarijai, kurių nepalaiko fiskalinės integracijos pavyzdys, būtų integruojama „Retail POS“ su kitais finansiniais įrenginiais ar tarnybomis arba būtų išpildomi kitų šalių ar regionų reikalavimai, turite išplėsti esamą fiskalinės integracijos pavyzdį arba sukurti naują pavyzdį naudodami dėl esamą pavyzdį kaip pavyzdį.
 
@@ -55,13 +56,13 @@ Konkretaus EKA registro fiskalinės registracijos procesą apibrėžia atitinkam
 Toliau pateiktame pavyzdyje parodytas įprasta finansinio įrenginio fiskalinės registracijos vykdymo eiga. Eiga prasideda nuo įvykio EKA (pvz., pardavimo operacijos užbaigimo) ir nustato toliau nurodytą veiksmų seką.
 
 1. EKA reikalauja finansinio dokumento iš CRT.
-2. CRT nustato, ar dabartiniam įvykiui būtina fiskalinė registracija.
-3. Remiantis fiskalinės registracijos proceso parametrais, CRT identifikuoja fiskalinę jungtį ir atitinkamą finansinio dokumento teikėją, kurie bus naudojami atliekant fiskalinę registraciją.
-4. CRT paleidžia finansinio dokumento teikėją, kuris sugeneruoja finansinį dokumentą (pvz., XML dokumentą), nurodantį operaciją arba įvykį.
-5. EKA aparatūros stočiai siunčia CRT paruoštą finansinį dokumentą.
-6. Aparatūros stotis paleidžia fiskalinę jungtį, kuri apdoroja finansinį dokumentą ir pateikia jo informaciją finansiniam įrenginiui arba tarnybai.
-7. EKA analizuoja atsakymą iš finansinio įrenginio arba tarnybos ir nustato, ar fiskalinė registracija atlikta sėkmingai.
-8. CRT įrašo atsakymą kanalo duomenų bazėje.
+1. CRT nustato, ar dabartiniam įvykiui būtina fiskalinė registracija.
+1. Remiantis fiskalinės registracijos proceso parametrais, CRT identifikuoja fiskalinę jungtį ir atitinkamą finansinio dokumento teikėją, kurie bus naudojami atliekant fiskalinę registraciją.
+1. CRT paleidžia finansinio dokumento teikėją, kuris sugeneruoja finansinį dokumentą (pvz., XML dokumentą), nurodantį operaciją arba įvykį.
+1. EKA aparatūros stočiai siunčia CRT paruoštą finansinį dokumentą.
+1. Aparatūros stotis paleidžia fiskalinę jungtį, kuri apdoroja finansinį dokumentą ir pateikia jo informaciją finansiniam įrenginiui arba tarnybai.
+1. EKA analizuoja atsakymą iš finansinio įrenginio arba tarnybos ir nustato, ar fiskalinė registracija atlikta sėkmingai.
+1. CRT įrašo atsakymą kanalo duomenų bazėje.
 
 ![Sprendimo schema.](media/emea-fiscal-integration-solution.png "Sprendimo schema")
 
@@ -117,6 +118,8 @@ Finansinėje operacijoje saugoma toliau nurodyta informacija.
 - Fiskalinės registracijos būsena: **Baigta**, jei registracija baigta sėkmingai, **Praleista**, jei operatorius pasirinko parinktį **Praleisti**, kai registracija nepavyko, arba **Pažymėta kaip užregistruota**, jei operatorius pasirinko parinktį **Pažymėti kaip užregistruotą**.
 - Informacijos kodo operacijos, susijusios su pasirinkta finansine operacija. Norėdami peržiūrėti informacijos kodų operacijas, „FastTab“ **Finansinės operacijos** pasirinkite finansinę operaciją, kurios būsena yra **Praleista** arba **Pažymėta kaip užregistruota**, tada pasirinkite **Informacijos kodų operacijos**.
 
+Pasirinkę **Išplėstiniai duomenys**, taip pat galite peržiūrėti kai kurias fiskalinės operacijos ypatybes. Ypatybių, kurias galima peržiūrėti, sąrašas priklauso nuo konkrečios fiskalinio registravimo funkcijos, kuri sugeneravo fiskalinę operaciją. Pavyzdžiui, naudodami Prancūzijos skaitmeninio parašo funkcijas, galite peržiūrėti skaitmeninį parašą, sekos numerį, sertifikato kontrolinį kodą, maišos algoritmo identifikaciją ir kitas fiskalinių operacijų ypatybes.
+
 ## <a name="fiscal-texts-for-discounts"></a>Nuolaidų finansinis tekstas
 
 Kai kuriose šalyse ar regionuose taikomi specialūs reikalavimai dėl papildomo teksto, kuris turi būti išspausdintas ant finansinių kvitų, kai taikomas skirtingų tipų nuolaidos. Fiskalinės integracijos funkcija suteikia galimybę nustatyti specialų nuolaidos tekstą, kuris išspausdinamas po nuolaidos eilute finansiniame kvite. Jei nuolaidos neautomatinės, galite sukonfigūruoti finansinį tekstą, taikomą informacijos kodui, nurodytam EKA funkcijų šablono informacijos kode **Produkto nuolaida**. Daugiau informacijos apie tai, kaip nustatyti nuolaidų finansinį tekstą, žr. [Nuolaidų finansinio teksto nustatymas](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-texts-for-discounts).
@@ -128,26 +131,29 @@ Fiskalinės integracijos funkcija palaiko konkretaus integruoto finansinio įren
 - Nauji mygtukai, kurie vykdo atitinkamas operacijas, turėtų būti įtraukti į EKA ekrano maketą. Daugiau informacijos žr. [Finansinio X / Z ataskaitų nustatymas iš EKA](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
 - Fiskalinės integracijos pavyzdyje šios operacijos turėtų būti sugretintos su atitinkamomis finansinio įrenginio operacijomis.
 
-## <a name="fiscal-integration-samples-in-the-retail-sdk"></a>Mažmeninės prekybos SDK fiskalinės integracijos pavyzdžiai
+## <a name="fiscal-integration-samples-in-the-commerce-sdk"></a>„Commerce“ SDK fiskalinės integracijos pavyzdžiai
 
-Toliau pateikti fiskalinės integracijos pavyzdžiai šiuo metu teikiami „Retail SDK“.
+Toliau pateikti fiskalinės integracijos pavyzdžiai šiuo metu teikiami „Commerce“ SDK rinkinyje.
 
-- [Fiskalinio spausdintuvo integracijos pavyzdys (Italija)](emea-ita-fpi-sample.md)
-- [Fiskalinio spausdintuvo integracijos pavyzdys (Lenkija)](emea-pol-fpi-sample.md)
-- [Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Austrijai](emea-aut-fi-sample.md)
-- [Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Čekijos Respublikai](emea-cze-fi-sample.md)
+- [Fiskalinio spausdintuvo integracijos pavyzdys (Italija)](./emea-ita-fpi-sample.md)
+- [Fiskalinio spausdintuvo integracijos pavyzdys (Lenkija)](./emea-pol-fpi-sample.md)
+- [Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Austrijai](./emea-aut-fi-sample.md)
+- [Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Čekijos Respublikai](./emea-cze-fi-sample.md)
 - [Švedijos kontrolės įtaiso integracijos pavyzdys](./emea-swe-fi-sample.md)
 - [Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Vokietijai](./emea-deu-fi-sample.md)
 
-Toliau nurodyta fiskalinės integracijos funkcija taip pat teikiama „Retail SDK“, bet šiuo metu ji nenaudoja fiskalinės integracijos sistemos. Šios funkcijos perkėlimas į fiskalinės integracijos sistemą planuojama vėlesniuose naujinimuose.
+Tolesnės fiskalinio integravimo funkcijos taip pat įdiegiamos naudojant fiskalinio integravimo sistemą, bet jos jau yra perengtos naudoti ir nėra įtrauktos į „Commerce“ SDK.
 
+- [Fiskalinis registravimas Brazilijoje](./latam-bra-commerce-localization.md#fiscal-registration-for-brazil)
+- [Prancūzijos skaitmeninis parašas](./emea-fra-cash-registers.md)
 
-- [Prancūzijos skaitmeninis parašas](emea-fra-cash-registers.md)
-- [Norvegijos skaitmeninis parašas](emea-nor-cash-registers.md)
+Toliau nurodytos fiskalinės integracijos funkcijos taip pat teikiamos „Commerce“ SDK rinkinyje, bet šiuo metu ji nenaudoja fiskalinės integracijos sistemos. Šios funkcijos perkėlimas į fiskalinės integracijos sistemą planuojama vėlesniuose naujinimuose.
 
-Ši senoji fiskalinės integracijos funkcija, kuri pasiekiama „Retail SDK“ rinkinyje, nenaudoja fiskalinio integravimo sistemos ir nebus pasiekiama vėlesniuose naujinimuose:
+- [Norvegijos skaitmeninis parašas](./emea-nor-cash-registers.md)
+
+Tolesnė senoji fiskalinės integracijos funkcija, kuri pasiekiama „Commerce“ SDK rinkinyje, nenaudoja fiskalinio integravimo sistemos ir nebus pasiekiama vėlesniuose naujinimuose.
 
 - [Švedijos kontrolės įtaiso integracijos pavyzdys (senoji)](./retail-sdk-control-unit-sample.md)
-
+- [Prancūzijos skaitmeninis parašas (senoji versija)](./emea-fra-deployment.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

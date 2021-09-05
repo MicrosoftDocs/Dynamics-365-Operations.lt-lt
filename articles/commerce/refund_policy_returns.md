@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 5c32156aea5f43d41b51f34b45b5b6dfedb5cad0f948924ecea9b3d89e6bb402
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4346f9eefa04688c80ce2512a7972bfd4627942c
+ms.sourcegitcommit: 53fad4d4b5fb67aa75550956ec205f456a5be01d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763697"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "7388938"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Kanalo prekių ir pinigų grąžinimų strategijos kūrimas ir naujinimas
 
@@ -42,15 +42,6 @@ Norėdami įgalinti kanalo grąžinimo funkciją „Commerce” būstinėje, atl
 1. Funkcijų pavadinimų sąraše ieškokite **Įgalinti kanalų grąžinimo politiką**.
 1. Pasirinkite **Įjungti dabar**.
 1. Puslapyje **Paskirstymo grafikas** vykdykite **„1110”** (visuotinės konfigūracijos) užduotį, kad paskirstytumėte funkcijos keitimą.
-
-## <a name="initialize-the-commerce-scheduler"></a>Prekybos planuoklės inicijavimas
-
-Įgalinę funkciją **Įgalinti kanalo grąžinimo strategijas**, turite inicijuoti prekybos planuoklę, kad užtikrintumėte, jog naujos funkcijų duomenų bazės pakeitimai bus įtraukti naudojant „Commerce Data Exchange” (CDX) sinchronizavimą. 
-
-Norėdami inicijuoti prekybos planuoklę „Commerce“ būstinėje, atlikite šiuos žingsnius.
-
-- Eikite į **Mažmeninė prekyba ir prekyba \> Būstinės sąranka \> Prekybos planuoklė \> Inicijuoti prekybos planuoklę**. Taip pat, jūs galite ieškoti „Inicijuoti prekybos planuoklę.“
-- Dialogo lange **Inicijuoti prekybos planuoklę** įsitikinkite, ar parinktis **Naikinti esamą konfigūraciją** nustatyta kaip **Ne**, o tada pasirinkite **Gerai**.
 
 ## <a name="configure-return-policy"></a>Grąžinimo politikos sukonfigūravimas
 

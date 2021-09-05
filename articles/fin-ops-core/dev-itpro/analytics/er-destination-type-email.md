@@ -2,7 +2,7 @@
 title: El. pašto ER paskirties vietos tipas
 description: Šioje temoje paaiškinama, kaip konfigūruoti el. pašto paskirties vietą kiekvienam APLANKO ar FAILO komponentui elektroninių ataskaitų (ER) formatu.
 author: NickSelin
-ms.date: 07/27/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 46817197f3b0938fb325b2b3ebefbee41b5e4583092e521e6a8dae70d78b0970
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769324"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343865"
 ---
 # <a name="email-er-destination-type"></a>El. pašto ER paskirties vietos tipas
 
@@ -53,9 +53,22 @@ Norėdami siųsti vieną ar daugiau išvesties failų el. paštu, atlikite šiuo
 
 ## <a name="configure-an-email-destination"></a>El. pašto paskirties vietos konfigūravimas
 
-Galite nurodyti el. pašto siuntėją ar el. pašto gavėjus ir galite redaguoti subjekktą ir el. pašto tekstą. Galite nustatyti nuolatinį el. laiško teksto ir teksto tekstą arba galite naudoti ER [formules](er-formula-language.md), norėdami el. laiškų tekstą kurti dinamiškai.
+### <a name="email-content"></a>El. laiško turinys
 
-Pagal numatytuosius nustatymus dabartinio vartotojo vardu siunčiamas el. laiškas. Norėdami nurodyti kitą el. laiško siuntėją, turite konfigūruoti lauką **Iš**.
+Galite redaguoti el. laiško temą ir tekstą.
+
+Lauke **Tema** įveskite el. laiško temos tekstą, kuris turi būti rodomas vykdymo metu sugeneruoto elektroninio laiško temos lauke. Lauke **Tekstas** įveskite el. laiško tekstą, kuris turi būti rodomas elektroninio laiško teksto lauke. Galite nustatyti nuolatinį el. laiško temos tekstą ir turinio tekstą arba galite naudoti ER [formules](er-formula-language.md), norėdami el. laiškų tekstą kurti dinamiškai vykdymo metu. Sukonfigūruota formulė turi pateikti tipo [Eilutė](er-formula-supported-data-types-primitive.md#string) vertę.
+
+Jūsų el. laiško tekstas kuriamas TEKSTINIU arba HTML formatu, tai priklauso nuo el. pašto kliento. Galite naudoti bet kurį maketą, stilių ir prekės ženklus, kuriuos leidžia HTML ir įdėtieji pakopinio stiliaus aprašai (CSS).
+
+> [!NOTE]
+> El. pašto klientai įveda maketo ir stiliaus apribojimus, dėl kurių gali reikėti atlikti HTML ir CSS, naudojamų pranešimo tekste, koregavimus. Rekomenduojame susipažinti su geriausia HTML kūrimo praktika, kurią palaikys populiariausi el. pašto klientai.
+>
+> Naudokite tinkamą kodavimą, kad įdiegtumėte grįžimo į eilutės pradžią funkciją, priklausančią nuo teksto formatavimo. Daugiau informacijos ieškokite duomenų tipo [Eilutė](er-formula-supported-data-types-primitive.md#string) apibrėžtyje.
+
+### <a name="email-addresses"></a>El. pašto adresai
+
+Galite nurodyti el. laiško siuntėją ir el. laiško gavėjus. Pagal numatytuosius parametrus el. laiškas siunčiamas dabartinio vartotojo vardu. Norėdami nurodyti kitą el. laiško siuntėją, turite konfigūruoti lauką **Iš**.
 
 > [!NOTE]
 > Kai el. pašto paskirties vieta sukonfigūruota, **Iš** lauko, kuris matomas tik vartotojams turintiems `ERFormatDestinationSenderEmailConfigure` saugumo teises, **Konfigūruoti siuntėjo el. pašto adresą ER formato paskirtims**.

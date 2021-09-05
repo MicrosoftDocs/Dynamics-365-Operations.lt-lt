@@ -2,7 +2,7 @@
 title: Įdėtos trečiosios šalies programėlės
 description: Šioje temoje aiškinama, kaip įdėti trečiosios šalies programas siekiant padidinti produkto funkcijų skaičių.
 author: jasongre
-ms.date: 04/22/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f47fb6a2fdb586fbc9f25938c3b9c1cfc16ddc1af432b91621421bd829b23925
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b0471fd2ea9a5e8b07b9e8bc279da53f6a1539ca
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737804"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345415"
 ---
 # <a name="embed-third-party-apps"></a>Įdėtos trečiosios šalies programėlės
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Daugelis klientų verslui vykdyti naudoja įvairias programas. Kai kurios iš šių programų yra trečiųjų šalių žiniatinklio programėlės, kurios veikia kartu su „Finance and Operations“ programėle. Norėdami užtikrinti, kad vartotojas veiktų sklandžiai, galite naudoti viso puslapio programėlių (peržiūra) funkciją, kad jos būtų įdėtos tiesiogiai į programėles (jei trečiosios šalies programėlės leidžia **save** „Finance and Operations“ įdėti). Tokiu būdu vartotojai gali pasiekti svetaines ir programėles, kurių jiems reikia, kad jiems nereikia perjungti skirtukų ar langų.
+Daugelis klientų verslui vykdyti naudoja įvairias programas. Kai kurios iš šių programų yra trečiųjų šalių žiniatinklio programėlės, kurios veikia kartu su „Finance and Operations“ programėle. Norėdami užtikrinti, kad vartotojas veiktų sklandžiai, galite naudoti viso puslapio programėlių funkciją, kad jos būtų įdėtos tiesiogiai į programėles (jei trečiosios šalies programėlės leidžia **save** „Finance and Operations“ įdėti). Tokiu būdu vartotojai gali pasiekti svetaines ir programėles, kurių jiems reikia, kad jiems nereikia perjungti skirtukų ar langų.
 
-Kad būtų galima į produktą įdėti trečiųjų šalių programėles, funkcijų valdymo funkcija turi įjungti **(Peržiūra) viso** puslapio programėles. Tada, norėdami įdėti trečiosios šalies programą ar svetainę, galite naudoti vieną iš toliau nurodytų metodų. Šie metodai yra analoginiai metodams, kurie naudojami įdėtoms žiniatinklio programoms iš „Microsoft Power Apps“ į „Finance and Operations“ programėles.
+Kad būtų galima į produktą įdėti trečiųjų šalių programėles, funkcijų valdymo funkcija turi įjungti **viso puslapio programėles**. Tada, norėdami įdėti trečiosios šalies programą ar svetainę, galite naudoti vieną iš toliau nurodytų metodų. Šie metodai yra analoginiai metodams, kurie naudojami įdėtoms žiniatinklio programoms iš „Microsoft Power Apps“ į „Finance and Operations“ programėles.
 
 - Į esamą puslapį įdėti programą ar svetainę kaip naują skirtuko puslapį (pagrindinį tabuliacijos skirtuką, „FastTab", „uždavimo" arba darbo srities skyrių).
 - Naudodami skelbimų skelbimų sritį sukurkite naują programos arba svetainės viso puslapio patirtį.
@@ -64,7 +64,7 @@ Kad būtų galima į produktą įdėti trečiųjų šalių programėles, funkcij
 Šią procedūrą naudokite, jei programa, kurią norite įdėti, nėra susijusi su esamu puslapiu arba jei norite, kad programai programoje būtų rodomas visas „Finance and Operations“ puslapis.
 
 1. Atidarykite numatytąją ataskaitų sritį.
-2. Pasirinkite ir sulaikykite (arba spustelėkite dešiniuoju pelės mygtuku) puslapį, pasirinkite Pritaikyti asmeniniams **poreikiams**, tada **pasirinkite Įtraukti** puslapį.
+2. Pasirinkite ir laikykite (arba spustelėkite dešiniuoju pelės mygtuku) ataskaitų sritį, pasirinkite **Pritaikyti asmeniniams poreikiams**, tada pasirinkite **Įtraukti puslapį**.
 3. Srityje **Įtraukti puslapį** pasirinkite **Žiniatinklio svetainė**.
 4. Konfigūruokite įdėtąją programą, atlikę tolesnius veiksmus.
 
@@ -76,15 +76,15 @@ Kad būtų galima į produktą įdėti trečiųjų šalių programėles, funkcij
     > - Programa arba žiniatinklio svetainė turi būti sukonfigūruota taip, kad galėtų būti įdėtoji.
 
 5. Norėdami **įtraukti programą į** skelbimų skelbimų skelbimų sritį kaip naują išklotąją sritį, pasirinkite Įrašyti.
-6. Pasirinkite naują skelbimų lentos išklotinę programą ir patvirtinkite, kad programa atrodo taip, kaip tikėtasi. Jei programa nėra atvaizduota, žr. toliau šios temos [skyriuje](#troubleshooting) Trikčių diagnostika.
+6. Pasirinkite naują skelbimų lentos išklotinę programą ir patvirtinkite, kad programa atrodo taip, kaip tikėtasi. Jei programa neatvaizduojama, žr. toliau šios temos skyrių [Trikčių šalinimas](#troubleshooting).
 
 ## <a name="sharing-embedded-apps"></a>Įdėtųjų programų bendrinimas
 
 Kai įdėjote programą naudodami vieną iš ankstesniuose skyriuose aprašytų metodų, galite norėti bendrai naudoti rodinį su kitais sistemos vartotojais. Norėdami bendrai naudoti įdėtąją programą, naudokite vieną iš šių būdų:
 
-- **Publikuoti rodinį (rekomenduojama): jei įdėtoji programa buvo įrašyta į rodinį, rekomenduojamas ir pageidaujamas būdas bendrai naudoti, tai yra skelbti rodinį vartotojams, kurie turi** tinkamus saugos vaidmenis. Tada, šis būdas užtikrina, kad visi vartotojai, turintys saugos vaidmenis, kuriems skirtas publikuotas rodinys, matys programą „Finance and Operations” programose. Daugiau informacijos, kaip publikuoti įsigijimo katalogą, žr. [Publikavimo rodiniai](saved-views.md#publishing-views).
+- **Publikuoti rodinį (rekomenduojama):** jei įdėtoji programa buvo įrašyta į rodinį, rekomenduojamas ir pageidaujamas būdas ją bendrinti yra skelbti rodinį vartotojams, kurie turi tinkamus saugos vaidmenis tiksliniuose juridiniuose objektuose. Tokiu atveju tik norimi vartotojai matys šią įdėtąją programą šiame puslapyje. Daugiau informacijos, kaip publikuoti įsigijimo katalogą, žr. [Publikavimo rodiniai](saved-views.md#publishing-views).
 
-    Taip pat galite publikuoti programą, kuri skelbimų srityje buvo įdėtoji kaip viso puslapio informacija. Skelbimų srityje pasirinkite ir laikykite (arba spustelėkite dešiniuoju pelės mygtuku) išklotąją dalį, susijusią su programa, pasirinkite Personalizuoti, tada **pasirinkite** puslapį **Publikuoti**. Dabar galite publikuoti tik saugos vaidmenų rodinius. Tačiau galimybė paskelbti juridiniame subjekte bus įtraukta prieš tai, kai priemonė taps galima.
+    Taip pat galite publikuoti programą, kuri skelbimų srityje buvo įdėtoji kaip viso puslapio informacija. Skelbimų srityje pasirinkite ir laikykite (arba spustelėkite dešiniuoju pelės mygtuku) išklotąją dalį, susijusią su programa, pasirinkite Personalizuoti, tada **pasirinkite** puslapį **Publikuoti**. Rodoma patirtis, panaši į patirtį *Publikavimo rodiniai*, ir galite pasirinkti saugos vaidmenis, į kuriuos ją publikuosite. Jei 10.0.21 arba naujesniame naujinyje įjungta funkcija **Įrašytų rodinių pagerintas juridinių subjektų palaikymas**, taip pat galite publikuoti programą į norimus juridinius objektus.
 
 - **Kopijuokite personalizavimą: puslapiams, kurie nepalaiko rodinių (pvz., dialogo langų ar darbo sričių), arba, jei naudojate viso puslapio programą, galite nukopijuoti personalizavimą** atitinkamiems vartotojams. Daugiau informacijos rasite skyriuje [Personalizavimų bendrinimas](personalize-user-experience.md#sharing-personalizations).
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 223ad9b5a297a5bcdbb0314d406f64d5de2b239431c6df21299ddebd9e47b8a2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0a37e3463273d1ffd35b267b36dfbd6fd92bb255
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738274"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343482"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Planavimo mechanizmo efektyvumo didinimas
 
@@ -70,7 +70,7 @@ Pavyzdžiui, panagrinėkime gana paprastai atrodantį maršrutą, pavaizduotą t
 
 Siunčiant į variklį, jis suskirstomas į aštuonias užduotis, kaip parodyta toliau esančiame paveikslėlyje (pasirinkite paveikslėlį, kad jį padidintumėte).
 
-[![Planavimo mechanizmo užduotys](media/scheduling-engine-jobs.png "Scheduling engine jobs."](media/scheduling-engine-jobs-large.png)
+[![Planavimo mechanizmo užduotys](media/scheduling-engine-jobs.png "Planavimo mechanizmo užduotys.")](media/scheduling-engine-jobs-large.png)
 
 Įprastinis dviejų užduočių saitas yra `FinishStart` t. y. vienos užduoties pabaigos laikas turi būti ankstesnis nei kitos užduoties pradžios laikas. Kadangi sąranka turi būti atliekama to paties ištekliaus, kuris vėliau vykdys procesą, tarp jų yra `OnSameResource` apribojimų. Tarp 10 pirminės ir antrinės operacijų yra `StartStart` ir `FinishFinish` saitai, o tai reiškia, kad abi užduotys turi ir prasidėti ir baigtis tuo pačiu metu, taip pat yra `NotOnSameResource` apribojimų, neleidžiančių naudoti to paties ištekliaus pirminei ir antrinei operacijai.
 

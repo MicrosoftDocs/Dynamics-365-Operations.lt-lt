@@ -1,8 +1,8 @@
 ---
 title: Integravimo su „Finance“ DUK
-description: Šiame straipsnyje paaiškinama, kokie duomenys sinchronizuojami „Human Resources“ ir „Finance“ integravime.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Šioje temoje paaiškinama, kokie duomenys sinchronizuojami „Human Resources“ ir „Finance“ integravime.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3f6a3141f1c7f4e488af0318569118be10da106a035f29e1752f0a0da5a1637f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c368f916a199c7472f6f886d143048487a38ecc
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782149"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413416"
 ---
 # <a name="integration-with-finance-faq"></a>Integravimo su „Finance“ DUK
 
@@ -158,8 +158,7 @@ Jei objektas yra palaikomas ir duomenys yra teikiami „Dataverse“, patikrinki
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Sinchronizuojant įdiegtis gaunamos klaidos „CompanyInfo_FK doesn’t exist“ arba „The value '12/31/2154 11:59:59 pm' in field 'Employment end date' is not found in the related table 'Employment'.“ Ką daryti?
 
-Įsitikinkite, kuria siejate tinkamus juridinius subjektus. Juridinių subjektų sinchronizavimas nėra numatytojo šablono dalis, todėl tikimasi, kad kiekvienas juridinis subjektas, esantis „Human Resources“ ir „Dataverse“, taip pat bus ir „Finance“.
-Taip pat įsitikinkite, kad, esate pasirinkę tinkamus susieto jungčių rinkinio juridinius subjektus.
+Įsitikinkite, kuria siejate tinkamus juridinius subjektus. Juridinių subjektų sinchronizavimas nėra numatytojo šablono dalis, todėl tikimasi, kad kiekvienas juridinis subjektas, esantis „Human Resources“ ir „Dataverse“, taip pat bus ir „Finance“. Taip pat įsitikinkite, kad, esate pasirinkę tinkamus susieto jungčių rinkinio juridinius subjektus.
 
 ## <a name="after-setting-up-my-project-the-field-mapping-for-finance-appears-to-be-empty-what-should-i-do"></a>Nustačius projektą atrodo, kad laukų susiejimas „Finance“ yra tuščias. Ką daryti?
 

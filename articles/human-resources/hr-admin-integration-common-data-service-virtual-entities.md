@@ -1,8 +1,8 @@
 ---
-title: Konfigūruokite „Dataverse“ virtualias lenteles
-description: Šioje temoje parodoma, kaip konfigūruoti virtualias lenteles „Dynamics 365 Human Resources“. Kurti ir naujinti esamas virtualias lenteles ir analizuoti sukurtas ir prieinamas lenteles.
-author: andreabichsel
-ms.date: 01/25/2021
+title: „Dataverse“ virtualiųjų lentelių konfigūravimas
+description: Šioje temoje parodyta, kaip konfigūruoti, generuoti, atnaujinti esamas virtualiąsias lenteles ir analizuoti sugeneruotas bei esamas „Dynamics 365 Human Resources“ lenteles.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,17 +12,17 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4461b072c12848220c48d3a711cc2d4991c98f068e1ba477becf6d0be068fca8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721612"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414669"
 ---
-# <a name="configure-dataverse-virtual-tables"></a>Konfigūruokite „Dataverse“ virtualias lenteles
+# <a name="configure-dataverse-virtual-tables"></a>„Dataverse“ virtualiųjų lentelių konfigūravimas
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -140,6 +140,9 @@ Kitas žingsnis yra konfigūruoti virtualios lentelės duomenų šaltinį „Pow
 
      >[!NOTE]
      >Įsitikinkite, kad įtrauksite "**/**" simbolį URL gale siekiant išvengti klaidos gavimo.
+
+     >[!NOTE]
+     >Paskirties URL nurodo „Human Resources“ aplinką, kurią virtualiosios lentelės nurodys kaip duomenų šaltinį. Jei kurdami gamybos aplinkos kopiją sukuriate smėlio dėžės aplinką, atnaujinkite šią vertę į naujos smėlio dėžės aplinkos vardų srities URL. Taip užtikrinsite, kad virtualiosios lentelės bus sujungtos su smėlio dėžės aplinkos duomenimis, o ne toliau nurodys gamybos aplinką.
 
    - **Nuomotojo ID**: „Azure Active Directory“ („Azure AD“) nuomotojo ID.
 

@@ -1,8 +1,8 @@
 ---
 title: Registracijos tinkamumo apdorojimas
-description: Šiame straipsnyje paaiškinama, kaip vykdyti registracijos tinkamumo apdorojimą.
-author: andreabichsel
-ms.date: 04/06/2020
+description: Šioje temoje paaiškinama, kaip vykdyti registracijos tinkamumo apdorojimą.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 989b493af6e8386f9517737c582150470a4e226d161e63c3f7a6088dbd3df903
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c83753c17721487ba6adbf822c994a71ae0a0e6
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782077"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417489"
 ---
 # <a name="process-enrollment-eligibility"></a>Registracijos tinkamumo apdorojimas
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šiame straipsnyje paaiškinama, kaip vykdyti registracijos tinkamumo apdorojimą.
+Šioje temoje paaiškinama, kaip vykdyti registracijos tinkamumo apdorojimą.
 
 1. Darbo srities **Išmokų valdymas** dalyje **Apdorojimas** pasirinkite **Registracijos tinkamumo apdorojimas**.
 
@@ -53,13 +53,13 @@ ms.locfileid: "6782077"
 
 ## <a name="view-process-results"></a>Proceso rezultatų peržiūra
 
-Šiame straipsnyje paaiškinama, kaip peržiūrėti tinkamumo proceso rezultatus.
+Šioje temoje paaiškinama, kaip peržiūrėti tinkamumo proceso rezultatus.
 
 1.  Darbo srities **Išmokų valdymas** dalyje **Apdorojimas** pasirinkite **Proceso rezultatai**.
 
-2.  Formoje **Proceso rezultatai** nurodyti toliau pateikti laukai.
+2.  Puslapy **Proceso rezultatai** nurodyti toliau pateikti laukai:
 
-   | Laukas | aprašymas |
+   | Laukas | Aprašas |
    | --- | --- |
    | **Eigos ID** | Unikalus darbuotojo, juridinio subjekto ir proceso vykdymo derinio ID. |
    | **Proceso tipas** | Taip identifikuojamas procesas, kuris buvo vykdomas. Pvz.: registracija. |

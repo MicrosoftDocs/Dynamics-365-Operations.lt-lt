@@ -2,7 +2,7 @@
 title: „Dynamics 365 Commerce“ vertinimo aplinkos konfigūravimas
 description: Šiame skyriuje paaiškinama, kaip sukonfigūruoti pirkimą internetu, pasiėmimą parduotuvėje „Microsoft Dynamics 365 Commerce“ vertinimo aplinką, po to kai ji buvo parengta.
 author: psimolin
-ms.date: 07/16/2020
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87933c57ee5f626b224b1edc92da13906e3edc2613f61c5b4a917d8cc5d1dcd3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2e98ea9e98380ee63f6cc1eb6dfc7b84d38c7dbb
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742445"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416484"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>„Dynamics 365 Commerce“ vertinimo aplinkos konfigūravimas
 
@@ -128,7 +128,7 @@ Visų duomenų sinchronizavimo komercijoje vykdymui, atlikite šiuos veiksmus ko
 Norėdami svetainėje atlikti bandomąsias operacijas, galite naudoti tolesnę bandomosios kredito kortelės informaciją.
 
 - **Kortelės numeris:** 4111-1111-1111-1111
-- **Galiojimo pabaigos data:** 10/20
+- **Galiojimo pabaigos data:** 10/30
 - **Kortelės tikrinimo vertės (CVV) kodas:** 737
 
 > [!IMPORTANT]
@@ -139,6 +139,9 @@ Norėdami svetainėje atlikti bandomąsias operacijas, galite naudoti tolesnę b
 Po parengimo ir konfigūravimo žingsnių atlikimo, galite pradėti naudoti savo vertinimo aplinką. Naudokite komercijos vietos kūrėjo URL tam, kad eitumėte į autorizavimo patirtį. Naudokite komercijos vietos kūrėjo URL tam, kad eitumėte į mažmenos kliento vietos patirtį.
 
 Tam, kad sukonfigūruotumėte pasirenkamas jūsų Komercijos vertinimo aplinkos savybes, žr. [Konfigūruoti pasirenkamas savybes savo Komercijos vertinimo aplinkoje](cpe-optional-features.md).
+
+> [!NOTE]
+> Į „Commerce” vertinimo aplinkas yra iš anksto įkeltas „Azure Active Directory“ („Azure AD)” verslas – vartotojui (B2C) nuomotojas demonstraciniais tikslais. Vertinimo aplinkose nėra būtina konfigūruoti savo „Azure AD B2C” nuomotojo. Tačiau jeigu norėdami naudoti savo „Azure AD” B2C nuomotoją konfigūruojate vertinimo aplinką, naudodami „Azure” portalą į „Azure AD” B2C programą būtinai įtraukite ``https://login.commerce.dynamics.com/_msdyn365/authresp`` kaip atsakymo URL.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
@@ -159,6 +162,8 @@ Tam, kad sukonfigūruotumėte pasirenkamas jūsų Komercijos vertinimo aplinkos 
 [„Microsoft Azure“ portalas](https://azure.microsoft.com/features/azure-portal)
 
 [„Dynamics 365 Commerce“ svetainė](https://aka.ms/Dynamics365CommerceWebsite)
+
+[„Commerce” B2C nuomotojo sąranka](set-up-B2C-tenant.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

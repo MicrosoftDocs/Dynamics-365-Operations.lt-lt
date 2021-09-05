@@ -1,5 +1,5 @@
 ---
-title: Išorinių duomenų naudojimas prognozuojant grynųjų pinigų srautus (peržiūros versija)
+title: Išorinių duomenų naudojimas prognozuojant grynųjų pinigų srautus
 description: Šioje temoje aprašomi nustatymo veiksmai, kuriuos reikia atlikti, kad išoriniai duomenys galėtų būti įvedami arba importuojami į pinigų srautų prognozes.
 author: rcarlson
 ms.date: 07/16/2021
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ff2a454b422cc4decc15339e6b328d99df85ccbc66ba3928f6c9e9f21b7b51a7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 855f428ae8ce79f2b7ce9a6f3347cd454bad9566
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768848"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386467"
 ---
-# <a name="use-external-data-in-cash-flow-forecasts-preview"></a>Išorinių duomenų naudojimas prognozuojant grynųjų pinigų srautus (peržiūros versija)
+# <a name="use-external-data-in-cash-flow-forecasts"></a>Išorinių duomenų naudojimas prognozuojant grynųjų pinigų srautus
 
 [!include [banner](../includes/banner.md)]
 

@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f9dfa54f0a2b849a38c71a041f6d72dd84c762edba3482575b0b7867b1e11a53
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5055d18e57d36bc8218bb0423721056e33fc3018
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716626"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402181"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>Mokymosi katalogas įgyvendinimo projekto vadovams dirbantiems su „Dynamics 365 Finance“
 
@@ -60,8 +60,7 @@ Toliau pateiktas katalogas yra sutvarkytas taip, kad žinios būtų išdėstytos
 | [Našumo testavimo vykdymas (DYN449PAL2)](https://community.dynamics.com/365/b/techtalks/posts/performance-testing-approach-april-30-2018) | Prisijunkite prie techninės kalbos apie tai, kaip vykdyti našumo testavimą. Susipažinkite su esmine informacija, gerąja testavimo praktika, galimomis testų vykdymo bei našumo matavimo priemonėmis ir metodais bei sužinokite, kaip naudoti rezultatus optimizavimui. | Techninė kalba (įrašytas internetinis seminaras) | 45 minutės |
 | [Kaip iš 7.0 atnaujinti į 7.2 versiją (2017 m. liepos mėn.) (RTW) / 7.1 (1611 leidimas) (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | Šio seanso metu mes paaiškinsime, kaip atnaujinti „Dynamics 365 Finance and Operations“ programos 7.0 (RTW) versiją ir 7.1 (1611) versiją į 7.2 versiją (2017 m. liepa). Mes norime aiškiai atskirti esamus klientus ir vykdomus projektus (dar neįgyvendintus). | Techninė kalba (įrašytas internetinis seminaras) | 58 minučių |
 | [„Finance and Operations”: atnaujinimas iš 7.x į 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | Prisijunkite prie kitos mūsų techninės kalbos, kurios metu mes apžvelgsime atnaujinimo iš 7.X į 8.X atnaujinimo procesą. Aptarsime įvairius scenarijus ir veiksmus, kuriuos reikia atlikti atnaujinant kodą ir duomenis. Mes taip pat apžvelgsime išplečiamumo užklausų scenarijus ir kaip jas pateikti esant poreikiui. 1 dalis iš 2. | Techninė kalba (įrašytas internetinis seminaras) | 61 minutės |
-| [Atnaujinimas iš AX2012 į „Dynamics 365 for Operations“ (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | Šioje techninėje kalboje apžvelgiama, kaip atnaujinti kodą ir duomenis iš „Dynamics AX 2012“ į „Dynamics 365 for Operations“. | Techninė kalba (įrašytas internetinis seminaras) | 45 minutės |
-| [„Dynamics 365 for Operations“ ataskaitų parinktys (VIR810PAL) ](https://community.dynamics.com/365/b/techtalks/posts/reporting-options-in-dynamics-365-for-operations-february-23-2017) | Šiame seanse bus aptariami įvairūs D365 „Operations“ spausdinimo scenarijai, įskaitant patarimus, susijusius su dokumento maršruto planavimo agentu. | Techninė kalba (įrašytas internetinis seminaras) | 60 min. |
+| [Atnaujinimas iš AX2012 į „Dynamics 365 for Operations“ (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | Šioje techninėje kalboje apžvelgiama, kaip atnaujinti kodą ir duomenis iš „Dynamics AX 2012“ į „Dynamics 365 for Operations“. | Techninė kalba (įrašytas internetinis seminaras) | 45 minučių |
 | [Analitika ir ataskaitų rengimo parinktys: spausdinimas ir dokumento nukreipimo agentas](https://community.dynamics.com/365/b/techtalks/posts/analytics-amp-reporting-options-printing-and-the-document-routing-agent-february-8-2018)| Prašome prisijungti prie mūsų pokalbių apie techniką dvejomis susijusiomis temomis. Pirmiausia aptarsime analitiką ir ataskaitų sprendimų pasirinkimus ir įrankius „Dynamics 365 for Finance and Operations“, „Enterprise Edition“. Antra, aptarsime spausdinimo scenarijus ir dokumento nukreipimo agentą. | Techninė kalba (įrašytas internetinis seminaras) | 45 minučių |
 | [Kursas MB-300T01-A: pagrindinės „Dynamics 365 for Finance and Operations“ funkcijos](https://www.microsoft.com/learning/course.aspx?cid=MB-300T01) | Šiame kurse aptariamos pagrindinės bendrosios „Microsoft Dynamics 365 for Finance and Operations“ funkcijos. | Šis kursas gali būti asmeniškai vedamas mokytojo arba pasiekiamas internetinių mokymų formatu, o kaina priklauso nuo regiono ir partnerio | 1 diena |
 | [Kursas MB-300T02-A: pagrindinės „Dynamics 365 for Finance and Operations“ konfigūravimo užduotys](https://www.microsoft.com/learning/course.aspx?cid=MB-300T02) | Šiame kurse aptariamos pagrindinės „Microsoft Dynamics 365 for Finance and Operations“ konfigūravimo užduotys. | Šis kursas gali būti asmeniškai vedamas mokytojo arba pasiekiamas internetinių mokymų formatu, o kaina priklauso nuo regiono ir partnerio | 1 diena |
@@ -93,6 +92,5 @@ Toliau pateiktas katalogas yra sutvarkytas taip, kad žinios būtų išdėstytos
 | [Egzaminas MB-300: „Microsoft Dynamics 365 Unified Operations“ pagrindinės užduotys](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Šis egzaminas leidžia įvertinti jūsų sugebėjimą atlikti šias technines užduotis: naudoti įprastas funkcijas ir diegimo įrankius, konfigūruoti saugumo parametrus, procesus ir pasirinktis, atlikti duomenų perkėlimą bei įvertinti ir palaikyti sprendimą. | Egzamino kaina priklauso nuo regiono |
 | [Egzaminas MB-310: „Microsoft Dynamics 365 for Finance and Operations“, finansai](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Šis egzaminas leidžia įvertinti jūsų sugebėjimą atlikti šias technines užduotis: nustatyti ir konfigūruoti finansų valdymo funkcijas, valdyti ir taikyti bendrus procesus, diegti ir valdyti mokėtinas ir gautinas sumas bei valdyti biudžeto sudarymą ir ilgalaikį turtą. | Egzamino kaina priklauso nuo regiono |
 | [„Microsoft“ sertifikuotas partneris: „Dynamics 365 for Finance and Operations“, finansinių funkcijų partneris konsultantas](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | „Microsoft“ sertifikuotas partneris: „Dynamics 365 for Finance and Operations“ finansinių funkcijų konsultantai suderina globalius finansus ir operacijos bei automatizuoja užduotis ir darbo eigas, supaprastina kliento užsakymo, pardavimo, sąskaitų pateikimo ir ataskaitų procesus. | Sertifikavimo kaina priklauso nuo regiono |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

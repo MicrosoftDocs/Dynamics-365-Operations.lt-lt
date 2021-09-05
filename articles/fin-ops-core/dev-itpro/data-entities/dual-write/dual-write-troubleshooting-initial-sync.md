@@ -4,24 +4,17 @@ description: Šioje temoje pateikiama trikčių šalinimo informacija, kuri gali
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 0fe319f4c8edd54700b2b32ef80539a8d0ff793aa815cef3813af4c63fd1b0d3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 985825d3a205f566a94ac7532e45895e7060edf5
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736379"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416986"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Trikčių šalinimas pradinio sinchronizavimo metu
 
@@ -46,7 +39,7 @@ ms.locfileid: "6736379"
 
 Kai bandote vykdyti susiejimą ir pradinį sinchronizavimą, galite gauti tokį klaidos pranešimą:
 
-*(\[Netinkama užklausa\], nuotolinis serveris grąžino klaidą: (400) netinkam užklausa.), AX eksportavimo funkcijoje atsirado klaida*
+*(\[Netinkama užklausa\], nuotolinis serveris pateikė klaidą: (400) netinkam užklausa.), AX eksportavimo funkcijoje atsirado klaida.*
 
 Čia pateikiamas viso klaidos pranešimo pavyzdys.
 
@@ -198,7 +191,7 @@ Jei eilutės kliento lentelėje turi verčių **KontaktinioAsmensId** ir **Sąsk
 
         ![Duomenų integravimo projektas, skirtas Kliento paskyrai ir KontaktinioAsmensId atnaujinti.](media/cust_selfref6.png)
 
-    2. Pridėkite įmonės kriterijus į filtrą, esantį „Dataverse“, kad tik eilutės, atitinkančios filtro kriterijus, būtų atnaujintos „Finance and Operations“ programoje. Norėdami pridėti filtrą, pažymėkite filtro mygtuką. Tada **Redaguoti užklausą** dialogo lange galite pridėti filtro užklausą, pavyzdžiui, **\_msdyn\_įmonė\_vertės lyg. '\<guid\>'**. 
+    2. Pridėkite įmonės kriterijus į filtrą, esantį „Dataverse“, kad tik eilutės, atitinkančios filtro kriterijus, būtų atnaujintos „Finance and Operations“ programoje. Norėdami pridėti filtrą, pažymėkite filtro mygtuką. Tada **Redaguoti užklausą** dialogo lange galite pridėti filtro užklausą, pavyzdžiui, **\_msdyn\_įmonė\_vertės lyg. '\<guid\>'**.
 
         > [PASTABA] Jei filtro mygtuko nėra, sukurkite palaikymo kvitą, kad paprašytumėte duomenų integravimo komandos įjungti filtro funkciją jūsų nuomotojui.
 
@@ -210,5 +203,36 @@ Jei eilutės kliento lentelėje turi verčių **KontaktinioAsmensId** ir **Sąsk
 
 8. „Finance and Operations” programoje vėl įjunkite **Klientai V3** lentelės keitimų sekimą.
 
+## <a name="initial-sync-failures-on-maps-with-more-than-10-lookup-fields"></a>Pradinio sinchronizavimo klaidos schemose su daugiau nei 10 peržvalgos laukų
+
+Galite gauti toliau nurodytą klaidos pranešimą, kai bandote vykdyti pradinio sinchronizavimo klaidas susiejimuose **Klientai V3 – sąskaitos**, **Pardavimo užsakymai** arba bet kurioje schemoje su daugiau kaip 10 peržvalgos laukų.
+
+*CRMExport: paketo vykdymas baigtas. Klaidos aprašas: 5 bandymai gauti duomenis iš https://xxxxx//datasets/yyyyy/tables/accounts/items?$select=accountnumber, address2_city, address2_country, ... (msdyn_company/cdm_companyid eq 'id')&$orderby=accountnumber asc nepavyko.*
+
+Dėl užklausos peržvalgų apribojimo pradinis sinchronizavimas nepavyksta, kai objekto susiejime yra daugiau kaip 10 peržvalgų. Daugiau informacijos žr. [Susijusių lentelės įrašų gavimas naudojant užklausą](/powerapps/developer/common-data-service/webapi/retrieve-related-entities-query).
+
+Norėdami ištaisyti šią problemą, vykdykite toliau nurodytus veiksmus.
+
+1. Pašalinkite pasirinktinius peržvalgos laukus iš dvigubo rašymo objekto schemos, kad peržvalgų būtų 10 ar mažiau.
+2. Įrašykite schemą ir atlikite pradinį sinchronizavimą.
+3. Kai pirmo veiksmo pradinė sinchronizacija pavyks, pridėkite likusius peržvalgos laukus ir pašalinkite peržvalgos laukus, kuriuos sinchronizavote atlikdami pirmą veiksmą. Įsitikinkite, kad peržvalgos laukų yra 10 ar mažiau. Įrašykite schemą ir vykdykite pradinį sinchronizavimą.
+4. Kartokite šiuos veiksmus, kol visi peržvalgos laukai bus sinchronizuoti.
+5. Įtraukite visus peržvalgos laukus atgal į schemą, įrašykite schemą ir paleiskite schemą naudodami **Praleisti pradinį sinchronizavimą**.
+
+Šiuo procesu įjungiamas schemos tiesioginis sinchronizavimo režimas.
+
+## <a name="known-issue-during-initial-sync-of-party-postal-addresses-and-party-electronic-addresses"></a>Žinoma klaida, kylanti šalies pašto adresų ir šalies elektroninių adresų pradinio sinchronizavimo metu
+
+Bandydami paleisti šalies pašto adresų ir šalies elektroninių adresų pradinį sinchronizavimą galite gauti toliau pateikiamą klaidos pranešimą.
+
+*Programoje „Dataverse” šalies numerio rasti nepavyko.*
+
+„Finance and Operations” programose yra nustatytas **DirPartyCDSEntity** diapazonas, skirtas filtruoti šalis, kurių tipas yra **Asmuo** ir **Organizacija**. Todėl susiejimo **CDS šalys – msdyn_parties** pradiniu sinchronizavimu nebus sinchronizuotos kito tipo šalys, įskaitant šalis, kurių tipas **Juridinis objektas** ir **Valdymo vienetas**. Paleidus **CDS šalies pašto adresai (msdyn_partypostaladdresses)** arba **Šalies kontaktai V3 (msdyn_partyelectronicaddresses)** pradinį sinchronizavimą, gali būti pateikta klaida.
+
+Dirbame, siekdami ištaisyti šią problemą ir pašalinti šalies tipo diapazoną „Finance and Operations” objekte, kad visų tipų šalys galėtų būti sėkmingai sinchronizuojami su „Dataverse”.
+
+## <a name="are-there-any-performance-issues-while-running-initial-sync-for-customers-or-contacts-data"></a>Ar vykdant klientų ir kontaktų duomenų pradinį sinchronizavimą kyla našumo problemų?
+
+Jei paleidote **klientų** duomenų pradinį sinchronizavimą ir **klientų** schemos yra vykdomos, o tada paleidžiate **kontaktų** duomenų pradinį sinchronizavimą, gali kilti našumo problemų atliekant įterpimų ir atnaujinimų **kontaktų** adresų lentelėse **LogisticsPostalAddress** ir **LogisticsElectronicAddress**. Tose pačiose iš visų įmonių pasiekiamose pašto adresų ir elektroninių adresų lentelėse sekamos **CustCustomerV3Entity** ir **VendVendorV2Entity**, o dvigubo rašymo funkcija stengiasi sukurti daugiau užklausų, kad duomenys būtų rašomi kitoje pusėje. Jei jau įvykdėte **klientų** pradinį sinchronizavimą, vykdydami **kontaktų** duomenų pradinį sinchronizavimą, sustabdykite atitinkamą schemą. Padarykite tą patį su **tiekėjo** duomenimis. Kai pradinis sinchronizavimas baigtas, galite paleisti visas schemas praleisdami pradinį sinchronizavimą.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

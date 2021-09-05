@@ -2,7 +2,7 @@
 title: Vartotojo patirties personalizavimas
 description: Šiame straipsnyje paaiškinama, kaip galite personalizuoti programą.
 author: jasongre
-ms.date: 04/22/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f71a94a6a5780f8a59590008f6370cb6897fa644e7fd826bacd0fb6206d159c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3d126bf9ec5687d97dacc8763a221da656fdef1
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719306"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344379"
 ---
 # <a name="personalize-the-user-experience"></a>Vartotojo patirties personalizavimas
 
@@ -169,7 +169,7 @@ Ataskaitų sritis dažnai yra pirmasis atidarius programą rodomas puslapis. Jis
 Viena unikali personalizavimo savybė ataskaitų srityje yra galimybė įtraukti plytas. 
 
 - Jei **Viso puslapio programų** savybė yra išjungta, jūs pridedate naują plytą dešinio klavišo elemento paspaudimu ataskaitų srityje ir tuomet pasirenkate  **Įtraukti darbo sritį**. Nauja darbo srities išklotinė sukuriama ataskaitų srities apačioje. Galite pakeisti šios naujos darbo srities išklotinės pavadinimą. Galite taip pat įtraukti sąrašus, plytas ir nuorodas į darbo sritį, kaip aprašyta [Plytų, sąrašų ir nuorodų įtraukimas į darbo sritį](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) skyrių šioje temoje.
-- Jei **Viso puslapio programų** savybė yra įjungta, jūs pridedate naują plytą dešinio klavišo elemento paspaudimu ataskaitų srityje ir tuomet pasirenkate  **Įtraukti programą**. Teksto laukelyje, pasirinkite, ar norite įtraukti plytą į naują darbo sritį ar plyta turi turinį iš „Power Apps“ ar svetainės. Tuomet atlikite žingsnius, kad sukonfigūruotumėte savo pasirinktą parinktį. Nauja plyta sukuriama ataskaitų srities apačioje. 
+- Jei **Viso puslapio programų** savybė yra įjungta, jūs pridedate naują plytą dešinio klavišo elemento paspaudimu ataskaitų srityje ir tuomet pasirenkate  **Įtraukti programą**. Teksto laukelyje, pasirinkite, ar norite įtraukti plytą į naują darbo sritį ar plyta turi turinį iš „Power Apps“ ar svetainės. Tuomet atlikite žingsnius, kad sukonfigūruotumėte savo pasirinktą parinktį. Nauja plyta sukuriama ataskaitų srities apačioje. Daugiau informacijos apie tai, kaip pridėti, redaguoti, naikinti ir bendrai naudoti šias įdėtąsias programėles, žr. [įdėtųjų puslapių programėles iš „Power Apps“](embed-power-apps.md) ir [įdėtųjų puslapių programėles į](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Personalizavimo bendrinimas
 

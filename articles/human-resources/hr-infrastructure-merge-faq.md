@@ -1,8 +1,8 @@
 ---
 title: „Dynamics 365 Human Resources” infrastruktūros sujungimo DUK
 description: Šioje temoje atsakoma į dažnai užduodamus klausimus apie „Microsoft Dynamics 365 Human Resources” ir „Finance and Operations” programų infrastruktūros sujungimą.
-author: rachel-profitt
-ms.date: 07/14/2021
+author: twheeloc
+ms.date: 08/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: raprofit
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 537917e9a987d701a0c96dfb7592e124e09bb748e4f2f52d39f8d97000c70ae3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5ae2896eda98a8f9545d465e941d5b50065ae94b
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712006"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386544"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>„Dynamics 365 Human Resources” infrastruktūros sujungimo DUK
 
@@ -38,12 +38,12 @@ ms.locfileid: "6712006"
 
 ### <a name="my-organization-uses-dynamics-365-human-resources-to-manage-its-hr-operations-what-benefits-will-we-see-from-these-changes"></a>Mano organizacija naudoja „Dynamics 365 Human Resources” savo žmogiškųjų išteklių operacijoms valdyti. Kokią naudą patirsime iš šių pokyčių?
 
-- Šie pakeitimai pašalina kelis žmogiškųjų išteklių (HR) galimybių rinkinius iš „Dynamics 365”.
+- Šie pakeitimai pašalina kelis painius žmogiškųjų išteklių (HR) galimybių rinkinius iš „Dynamics 365”.
 - Jie suteikia tiek „Microsoft Power Platform” išplėtimą, tiek būdą išplėsti verslo logiką ir funkcijų parinktis.
 - Jie suteikia nuoseklumo tarp „Dynamics 365 Human Resources” ir kitų „Finance and Operations” programų, „Application Lifecycle Management” (ALM), „Microsoft Dynamics Lifecycle Services” (LCS), geografinio pasiekiamumo, išplėtimo ir kitokiais požiūriais.
 - Jie leidžia jums pasinaudoti bendromis paslaugomis ir įrankiais bei sumažinti išlaidas.
 
-### <a name="my-organization-uses-dynamics-365-human-resources-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-benefits-will-we-see-from-these-changes"></a>Mano organizacija naudoja „Dynamics 365 Human Resources”, esantį „Dynamics 365 Finance”, „Supply Chain Management”, „Commerce”, arba „Project Operations”. Kokią naudą patirsime iš šių pokyčių?
+### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-benefits-will-we-see-from-these-changes"></a>Mano organizacija naudoja „Human Resources“ modulį „Dynamics 365 Finance“, „Supply Chain Management“, „Commerce“ ar „Project Operations“. Kokią naudą patirsime iš šių pokyčių?
 
 Galimybės ir investicijos, padarytos „Dynamics 365 Human Resources” platformoje, dabar bus prieinamos klientams, kurie naudoja žmogiškųjų išteklių modulį, esantį „Dynamics 365 Finance”. Kai kurios iš šių galimybių yra atostogų ir neatvykimų valdymas, išmokų valdymas ir užduočių valdymas.
 
@@ -67,21 +67,27 @@ Jei jūsų organizacija naudoja „Dynamics 365 Human Resources”, bet nenaudoj
 
 Be to, bus sukurti įrankiai, kad prieš perkeliant jūsų gamybos aplinką būtų galima patikrinti perkėlimo procesą ir jūsų duomenis bei patirtį.
 
-Jei jūsų organizacija naudoja tiek „Dynamics 365 Human Resources”, tiek kitas „Finance and Operations” programas, turėtumėte suplanuoti daugiau laiko patikrinimui, kad užtikrintumėte, jog jūsų duomenys bus tinkamai perkelti į naują aplinką. Perkėlimas į naują infrastruktūrą sulies jūsų žmogiškųjų išteklių ir „Finance and Operations” aplinkų duomenis. Įrankis bus paruoštas automatizuoti kiek įmanoma daugiau duomenų suliejimo proceso. Tačiau nesuderinamų duomenų atvejais reikės vartotojo įvesties, kad nustatytų, kaip konfliktas turėtų būti išspręstas. Vartotojai ir administratoriai turės sutvarkyti duomenų susiejimus, kuriuose yra konfliktų, ir patikrinti perkėlimą smėlio dėžės aplinkose prieš jūsų gamybos aplinkos perkėlimą.
+Jei jūsų organizacija naudoja tiek „Dynamics 365 Human Resources”, tiek kitas „Finance and Operations” programas, turėtumėte suplanuoti daugiau laiko patikrinimui, kad užtikrintumėte, jog jūsų duomenys bus tinkamai perkelti į naują aplinką. Perkėlimas į naują infrastruktūrą sulies jūsų žmogiškųjų išteklių ir „Finance and Operations” aplinkų duomenis. Tačiau nesuderinamų duomenų atvejais reikės vartotojo įvesties, kad nustatytų, kaip konfliktas turėtų būti išspręstas. Vartotojai ir administratoriai turės sutvarkyti duomenų susiejimus, kuriuose yra konfliktų, ir patikrinti perkėlimą smėlio dėžės aplinkose prieš jūsų gamybos aplinkos perkėlimą.
 
-### <a name="my-organization-uses-dynamics-365-human-resources-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-do-we-have-to-plan-for-to-migrate-to-the-new-experience"></a>Mano organizacija naudoja „Dynamics 365 Human Resources”, esantį „Dynamics 365 Finance”, „Supply Chain Management”, „Commerce”, arba „Project Operations”. Ką turime suplanuoti naujos patirties perkėlimui?
+### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-do-we-have-to-plan-for-to-migrate-to-the-new-experience"></a>Mano organizacija naudoja „Human Resources“ modulį „Dynamics 365 Finance“, „Supply Chain Management“, „Commerce“ ar „Project Operations“. Ką turime suplanuoti naujos patirties perkėlimui?
 
-Organizacijoms, kurios naudoja personalo modulį „Finance and Operations” programose, naujos funkcijų galimybės iš „Dynamics 365 Human Resources” bus taikomos jūsų aplinkai per standartinį vienos versijos naujinimo procesą. Jūs galite tikėtis pamatyti naujas funkcijas jūsų aplinkoje, kai jos tampa galimos kiekviename naujinime. Galite naudoti Funkcijų valdymą naujoms funkcijoms įjungti. Tačiau turėtumėte planuoti šių funkcijų tikrinimą. Vadovaukitės jūsų turimais procesais, kad patikrintumėte kitus jūsų aplinkos atnaujinimus. Daugiau informacijos apie tai, kaip naujinimai taikomi „Finance and Operations” programoms, rasite [Vienos versijos apžvalga](../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md).
+Organizacijoms, kurios naudoja personalo modulį „Finance and Operations” programose, naujos funkcijų galimybės iš „Dynamics 365 Human Resources” bus taikomos jūsų aplinkai per standartinį vienos versijos naujinimo procesą. Jūs galite tikėtis pamatyti naujas funkcijas jūsų aplinkoje, kai jos tampa galimos kiekviename naujinime. Funkcijų valdymą galite naudoti norėdami įjungti naujas priemones, tačiau šias priemones reikėtų patikrinti. Vadovaukitės jūsų turimais procesais, kad patikrintumėte kitus jūsų aplinkos atnaujinimus. Daugiau informacijos apie tai, kaip naujinimai taikomi „Finance and Operations” programoms, rasite [Vienos versijos apžvalga](../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md).
 
 ### <a name="when-will-my-organization-be-migrated"></a>Kada mano organizacija bus perkelta?
 
 Kiekvienos organizacijos perkėlimas priklausys nuo dabartinės konfigūracijos ir pasirengimo perkėlimui į naują infrastruktūrą. Šios datos gali keistis.
 
-- Organizacijos, kurios šiuo metu naudoja personalo modulį „Finance and Operations” programose, gaus personalo funkcijas, skirtas „Dynamics 365 Human Resources”, kaip įprasto vienos versijos naujinimo proceso dalį. Planuojama, kad naujos funkcijos bus bendrai pasiekiamos 2021 m. spalio pradžioje.
+- Organizacijos, kurios šiuo metu naudoja personalo modulį „Finance and Operations” programose, gaus personalo funkcijas, skirtas „Dynamics 365 Human Resources”, kaip įprasto vienos versijos naujinimo proceso dalį. Planuojama, kad naujos funkcijos bus bendrai pasiekiamos 2022 m. sausio pradžioje.
 - Organizacijos, kurios šiuo metu naudoja tik „Dynamics 365 Human Resources, turės prieigą prie perkėlimo įrankio, kad galėtų pradėti testavimą ir perkėlimą 2022 metų viduryje. Dar nenustatyta data, kada būtina užbaigti perkėlimą į naują infrastruktūrą. Tačiau ji bus bent po vienerių metų po to, kai perkėlimo įrankis taps prieinamas.
 - Organizacijos, kurios šiuo metu naudoja tiek „Dynamics 365 Human Resources”, tiek kitas „Finance and Operations” programas, turės prieigą prie perkėlimo įrankio, kad galėtų pradėti testavimą ir perkėlimą 2022 metų pabaigoje. Dar nenustatyta data, kada būtina užbaigti perkėlimą į naują infrastruktūrą. Tačiau ji bus bent po vienerių metų po to, kai perkėlimo įrankis taps prieinamas.
 
 Daugiau informacijos apie naujas „Dynamics 365 Human Resources” funkcijas rasite [Kas naujo ar pasikeitė Žmogiškuosiuose ištekliuose](./hr-admin-whats-new.md).
+
+### <a name="my-organization-has-not-yet-gone-live-on-dynamics-365-human-resources-should-we-go-live-with-the-human-resources-module-in-the-finance-and-operations-apps-or-with-the-dynamics-365-human-resources-app-on-the-legacy-infrastructure"></a>Mano organizacija dar ne live „Dynamics 365 Human Resources“ live. Ar galime vykti į programėles su personalo „Finance and Operations“ moduliu, ar su „Dynamics 365 Human Resources“ programėle senesnėje infrastruktūrą?
+
+Svarbios prekės, į kurias reikia atsižvelgti, yra tos personalo funkcijos ir kada jos bus prieinamos naujoje infrastruktūrose. Jei organizacijai reikia pagrindinės personalo valdymo funkcijos, kuri šiuo metu yra naujos infrastruktūros programėlių personalo „Finance and Operations“ modulyje. Programėlių personalo modulio ir programos funkcijų lygumas numatytas „Finance and Operations“, „Dynamics 365 Human Resources“ 10.0.25 leidime, kuris planuojamas bendrai naudoti 2022 m. kovo mėn. Integravimo priemonės, pvz., „Teams“ „Dataverse“ programa ir objekto integravimas, bus galimos vėlesniuose leidimuose.
+
+Jei organizacijos personalo funkcijas reikės turėti naujoje infrastruktūrose, per kurį organizacija tiesiogiai pereis į darbą, gali būti lengviau vykti į žmogiškųjų išteklių modulį „Finance and Operations“ programėlių modulyje. Todėl bus lengviau perkelti, nes bus atnaujintas standartinis programos naujinimas į programą, o klientas „Dynamics 365 Human Resources“ jau bus naujoje infrastruktūrose. Jei organizacija nusprendžia vykti į programą senesnėje infrastruktūrą, reikės perkelti aplinką į naują „Dynamics 365 Human Resources“ infrastruktūrą. Tai gali būti neįmanoma, jei pereisite į naują infrastruktūrą.
 
 ### <a name="i-am-using-new-capabilities-that-are-available-only-in-dynamics-365-human-resources-such-as-leave-and-absence-and-benefits-management-will-these-capabilities-now-be-available-in-the-human-resources-module-on-the-finance-and-operations-infrastructure-too"></a>Aš naudoju naujas galimybes, kurios galimos tik „Dynamics 365 Human Resources” (pavyzdžiui, **Atostogos ir neatvykimas** bei **Išmokų valdymas**). Ar šios galimybės dabar taip pat bus prieinamos personalo modulyje, esančiame „Finance and Operations” infrastruktūroje?
 
@@ -97,7 +103,7 @@ Kiekvieno nepriklausomo programinės įrangos tiekėjo (ISV) sprendimo perkėlim
 
 ### <a name="my-organization-uses-linkedin-talent-hub-integration-with-dynamics-365-human-resources-will-this-integration-continue-to-work-after-the-infrastructure-change-is-completed"></a>Mano organizacija naudoja „LinkedIn Talent Hub” integravimą su „Dynamics 365 Human Resources”. Ar šis integravimas ir toliau veiks, kai bus baigtas infrastruktūros pakeitimas?
 
-Taip, „LinkedIn Talent Hub” integravimas ir toliau veiks po perkėlimo į naują infrastruktūrą.
+Ne, „LinkedIn Talent Hub” integravimas neveiks po perkėlimo į naują infrastruktūrą. „LinkedIn Talent" hub integravimo paslauga bus atmestas iš senosios „Dynamics 365 Human Resources“ infrastruktūros.
 
 ### <a name="my-organization-uses-the-human-resources-app-for-teams-will-the-app-continue-to-work-after-the-infrastructure-change-is-completed"></a>Mano organizacija naudoja Žmogiškųjų išteklių programą, skirtą „Teams”. Ar programa ir toliau veiks, kai bus baigtas infrastruktūros pakeitimas?
 
@@ -125,13 +131,13 @@ Tai priklauso nuo integravimo galinio punkto. Daugiau informacijos apie integrav
 
 Jei „Dynamics 365 Human Resources” ir „Finance and Operations” aplinkos, kurios bus sujungtos naujoje infrastruktūroje, yra sujungtos su ta pačia „Dataverse” aplinka, tos dvi programos ir toliau bus sujungtos su ta pačia „Dataverse” aplinka po perkėlimo. Todėl jokiems „Dataverse” plėtiniams nebūtinas perkėlimas.
 
-Tačiau, jei „Dynamics 365 Human Resources” ir „Finance and Operations” aplinkos šiuo metu yra sujungtos su skirtingomis „Dataverse” aplinkomis, tos dvi „Dataverse” aplinkos turės bus sujungtos, kad programos būtų susietos su viena aplinka naujoje infrastruktūroje. Šiuo „Dataverse” perkėlimo atveju, „Dataverse” lentelės, kurios yra standartinės Žmogiškųjų išteklių spendimuose, gali būti sujungtos ir pakartotinai sinchronizuotos su nauja „Dataverse” aplinka. Tačiau jokie „Dataverse” aplinkos plėtiniai nebus perkeliami automatiškai, bet jie turi būti iš naujo įdiegiami naujoje aplinkoje. Jūsų „Dataverse” plėtinių valdymui rekomenduojame naudoti valdomus sprendimus. Daugiau informacijos rasite [Įžanga į sprendimus](https://docs.microsoft.com/powerapps/developer/data-platform/introduction-solutions).
+Tačiau, jei „Dynamics 365 Human Resources” ir „Finance and Operations” aplinkos šiuo metu yra sujungtos su skirtingomis „Dataverse” aplinkomis, tos dvi „Dataverse” aplinkos turės bus sujungtos, kad programos būtų susietos su viena aplinka naujoje infrastruktūroje. Šiuo „Dataverse” perkėlimo atveju, „Dataverse” lentelės, kurios yra standartinės Žmogiškųjų išteklių spendimuose, gali būti sujungtos ir pakartotinai sinchronizuotos su nauja „Dataverse” aplinka. Tačiau jokie „Dataverse” aplinkos plėtiniai nebus perkeliami automatiškai, bet jie turi būti iš naujo įdiegiami naujoje aplinkoje. Jūsų „Dataverse” plėtinių valdymui rekomenduojame naudoti valdomus sprendimus. Daugiau informacijos rasite [Įžanga į sprendimus](/powerapps/developer/data-platform/introduction-solutions).
 
 ### <a name="we-have-configured-microsoft-power-automate-flows-andor-microsoft-power-apps-to-work-with-dynamics-365-human-resources-will-these-microsoft-power-platform-components-be-migrated-and-work-automatically-after-the-infrastructure-change-is-completed"></a>Sukonfigūravome „Microsoft Power Automate” srautus ir (arba) „Microsoft Power Apps”, kad jie veiktų su „Dynamics 365 Human Resources”. Ar šie „Microsoft Power Platform” komponentai bus perkelti ir veiks automatiškai po to, kai bus baigtas infrastruktūros pakeitimas?
 
 „Power Apps”, „Power Automate” srautai ir kiti „Microsoft Power Platform” tinkinimai yra panašūs į „Dataverse” plėtinius. Tai, ar po perkėlimo į naują infrastruktūrą jos veiks automatiškai, priklauso nuo to, ar Žmogiškųjų išteklių programa ir „Finance and Operations” programos buvo sujungtos su ta pačia „Power Apps” aplinka prieš perkėlimą.
 
-Jei programos šiuo metu yra sujungtos su ta pačia „Power Apps” aplinka, po perkėlimo į naują infrastruktūrą jos ir toliau bus sujungtos su ta „Power Apps” aplinka. Šiuo atveju „Power Apps”, „Power Automate” srautai ir kiti „Microsoft Power Platform” tinkinimai ir toliau veiks be jokios papildomos konfigūracijos. Jūsų „Dataverse” platformos programos plėtinių valdymui rekomenduojame naudoti valdomus sprendimus. Daugiau informacijos rasite [Įžanga į sprendimus](https://docs.microsoft.com/powerapps/developer/data-platform/introduction-solutions).
+Jei programos šiuo metu yra sujungtos su ta pačia „Power Apps” aplinka, po perkėlimo į naują infrastruktūrą jos ir toliau bus sujungtos su ta „Power Apps” aplinka. Šiuo atveju „Power Apps”, „Power Automate” srautai ir kiti „Microsoft Power Platform” tinkinimai ir toliau veiks be jokios papildomos konfigūracijos. Jūsų „Dataverse” platformos programos plėtinių valdymui rekomenduojame naudoti valdomus sprendimus. Daugiau informacijos rasite [Įžanga į sprendimus](/powerapps/developer/data-platform/introduction-solutions).
 
 Tačiau, jei Žmogiškųjų išteklių programa ir „Finance and Operations” programos yra sujungtos su atskiromis „Power Apps” aplinkomis, jos turės būti sujungtos kaip perkėlimo dalis. Šiai užduočiai reikės, kad bet kurios „Power Apps” ir kiti tinkinimai būtų iš naujo įdiegti naujoje aplinkoje.
 
@@ -173,7 +179,7 @@ Po perkėlimo klientai turės daugiau lankstumo ALM ir tarnybos atnaujinimų po�
 
 ### <a name="how-will-the-migration-affect-my-lcs-project-for-dynamics-365-human-resources"></a>Kaip perkėlimas paveiks mano LCS projektą, skirtą „Dynamics 365 Human Resources”?
 
-Perkėlimas į naują infrastruktūrą perkels jūsų „Dynamics 365 Human Resources” aplinkų valdymą į LCS diegimo projektą. Jei perkėlimas sulieja „Dynamics 365 Human Resources” su esama „Finance and Operations” aplinka, jūsų Žmogiškųjų išteklių LCS projektas bus sulietas į LCS diegimo projektą, skirtą „Finance and Operations” programai. Jei šiuo metu naudojate tik „Dynamics 365 Human Resources”, bus sukurtas naujas LCS diegimo projektas, o esamas Žmogiškųjų išteklių LCS projektas bus perkeltas į naują projektą.
+Perkėlimas į naują infrastruktūrą perkels jūsų „Dynamics 365 Human Resources“ aplinkas į „Finance and Operations“ aplinkų valdymą į LCS diegimo projektą. Jei perkėlimas sulieja „Dynamics 365 Human Resources” su esama „Finance and Operations” aplinka, jūsų Žmogiškųjų išteklių LCS projektas bus sulietas į LCS diegimo projektą, skirtą „Finance and Operations” programai. Jei šiuo metu naudojate tik „Dynamics 365 Human Resources”, bus sukurtas naujas LCS diegimo projektas, o esamas Žmogiškųjų išteklių LCS projektas bus perkeltas į naują projektą.
 
 Naujas projektas bus tokio paties tipo, kurį naudoja „Finance and Operations” programos. Ji turės tas pačias aplinkos valdymo funkcijas ir galimybes. Dėl daugiau informacijos rasite [„Lifecycle services“ ištekliai](../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
@@ -217,7 +223,7 @@ Taikomos paketinės užduotys bus automatiškai perkeltos į naują infrastrukt�
 
 Klientai, įsigiję „Dynamics 365 Human Resources” licencijas, nebus paveikti. Šiems klientams nėra licencijavimo perkėlimo. Nebebus taikomas papildomas smėlio dėžės sandėliavimo vienetas (SKU), kuris buvo būdingas Žmogiškiesiems ištekliams. Vietoj to, klientai gali pasirinkti įsigyti „Finance and Operations ” programų 2 pakopos smėlio dėžę šiek tiek mažesne kaina. Esami klientai, įsigiję Žmogiškųjų išteklių smėlio dėžės aplinką, bus perkelti į „Finance and Operations” programų 2 pakopos smėlio dėžę be papildomų išlaidų.
 
-### <a name="my-organization-uses-dynamics-365-human-resources-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-does-my-licensing-or-cost-change"></a>Mano organizacija naudoja „Dynamics 365 Human Resources”, esantį „Dynamics 365 Finance”, „Supply Chain Management”, „Commerce”, arba „Project Operations”. Ar keičiasi mano licencijos ar kaina?
+### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-does-my-licensing-or-cost-change"></a>Mano organizacija naudoja „Human Resources“ modulį „Dynamics 365 Finance“, „Supply Chain Management“, „Commerce“ ar „Project Operations“. Ar keičiasi mano licencijos ar kaina?
 
 Esami „Dynamics 365” vartotojai ir atskirų „Dynamics 365 Finance”, „Supply Chain Management”, „Commerce” ir „Project Operations” programų vartotojai gali pasiekti Žmogiškuosius išteklius kaip dalį šių licencijų iki 2025 m. vasario arba iki tol, kol baigiasi licencijavimo sutartis, priklausomai nuo to, kuri data ankstesnė. Galite pasirinkti perkelti į Žmogiškųjų išteklių licencijas anksčiau, jei tai padės jums sutaupyti. Nuo 2025 m. vasario visi esami CSP ir EA klientai turi išjungti personalo modulį ir įsigyti Žmogiškųjų išteklių licencijas, kad galėtų pasinaudoti naujomis galimybėmis, pasirodančiomis „Finance and Operations” programose.
 

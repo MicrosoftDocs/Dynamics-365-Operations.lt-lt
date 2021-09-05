@@ -2,19 +2,19 @@
 title: Šalies ir bendros knygelės nustatymas
 description: Šioje temoje aprašomos dvigubo rašymo šalies ir visuotinės adresų knygelės funkcijos.
 author: RamaKrishnamoorthy
-ms.date: 02/22/2021
+ms.date: 08/11/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 3cb4cdaefe7bd82dec612a11d75aeedb77bce152a00ff90fb0095f75b23a4bbb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da5ca16ed87108f8046348c831d37085f6f780d7
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729781"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386690"
 ---
 # <a name="party-and-global-address-book"></a>Šalies ir bendros knygelės nustatymas
 
@@ -139,7 +139,10 @@ Tinklelyje yra šie stulpeliai:
 
 Galite naudoti mygtuką **Naujas elektroninis adresas** virš tinklelio, kad sukurtumėte tiek pašto adresų, kiek norite.
 
-Elektroniniai adresai galimi tik šiame tinklelyje. Būsimuose leidimuose visi elektroninio ir pašto adresų laukai bus pašalinti iš kitų skirtukų, pvz., **skirtukų** Suvestinė ir **informacija**.
+Elektroniniai adresai galimi tik šiame tinklelyje. Būsimuose leidimuose visi elektroninio ir pašto adresų laukai bus pašalinti iš kitų skirtukų, pvz., **skirtukų** Suvestinė ir **informacija**. Kontaktinė informacija, rodoma skirtuko lape Išsamiai, yra tik skaitomos pirminio elektroninio adreso kopijos, pvz., pagrindinis telefonas, pagrindinis el. paštas, pagrindinis telefonas, pagrindinis faksas ir **pagrindinis** „Twitter" ID. Galimo kliento kvalifikacijos proceso metu galite pateikti ir verslo telefono numerį, ir mobiliojo telefono numerį. Darbo telefono numeris laikomas pirminiu telefono numeriu, jei **IsMobile=Ne** o mobiliojo telefono numeris laikomas antriniu telefonu, jei **IsMobile=Taip**.
+
+> [!TIP]
+> Naudokite **adresų** ir **elektroninių adresų** skirtukus **sąskaitų** ir **kontaktų** formose pašto ir elektroniniams adresams valdyti. Taip užtikrinama, kad adreso duomenys bus sinchronizuojami su „Finance and Operations“ programėle.
 
 ## <a name="setup"></a>Sąranka
 
@@ -249,13 +252,11 @@ Elektroniniai adresai galimi tik šiame tinklelyje. Būsimuose leidimuose visi e
     [CDS pardavimo užsakymų antraštės](mapping-reference.md#217) | salesorders
     [Pardavimo SF antraštės V2](mapping-reference.md#118) | SF
 
-> [!Note]
+> [!NOTE]
 > Schema `CDS Contacts V2 (contacts)` yra schema, kurią sustabdėte 1 žingsnyje. Kai bandote paleisti kitas schemas, šios 2 schemos gali būti rodomos priklausomųjų sąraše. Neį paleiskite šių žemėlapių.
-
-> [!Note]
+>
 > Jei šalies ir visuotinės adresų knygelės sprendimas įdiegtas, turite išjungti prijungimą, `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead` pavadintą. Jei šalies ir visuotinės adresų knygelės sprendimas yra išdiegtas, tada turite iš naujo įjungti priedą.
-
-> [!Note]
+>
 > Laukas `msdyn_*partynumber` (vienos eilutės teksto laukelis), įtrauktas į **Sąskaita**, **Kontaktai** ir **Tiekėjo** lenteles turi būti naudojamas einant toliau. Žymės pavadinimas turi prefiksą **(pasenusią)** už imo. Geriau naudokite msdyn_partyid **lauką**. Laukas yra lentelės msdyn_party **peržvalga**.
 
 > Lentelės pavadinimas | Senas laukas | Naujas laukas
@@ -296,7 +297,6 @@ Daugiau informacijos žr. [Dvigubo rašymo susiejimo nuoroda](mapping-reference.
 
 + „Finance and Operations“ Programėlėse, kai kartu su adresu sukuriate klientą ir jį įrašote, adresas gali būti nesinchronizuotas su **adresų** lentele. Taip yra dėl dvigubo rašymo platformos sekos išdavimo. Pirmiausia sukurkite klientą ir įrašykite jį kaip problemos sprendimą. Tada pridėti adresą.
 + Jei programėlių atveju, kai kliento įrašas turi pagrindinį adresą ir sukuriate naują to kliento kontaktą, tada kontakto įrašas perima pagrindinį adresą iš „Finance and Operations“ susieto kliento įrašo. Taip atsitinka ir tiekėjo kontaktui. „Dataverse“ šiuo metu nepalaiko šio veikimo būdo. Jei įgalintas dvigubas rašymas, kliento kontaktai, kurie paveldėti pirminiu programos adresu, sinchronizuojami kartu „Finance and Operations“ ir „Dataverse“ su jų adresu.
-+ Elektroniniai adresai iš `msdyn_partyelectronicaddress` lentelės nėra srauto į elektroninio adreso laukus sąskaitų **ir** **kontaktų** lentelėse. Planuojame išspręsti šią problemą didėjančia versija. Nebus perrašyti abonementų ir kontaktų **lentelėse** **esančiuose** elektroninio adreso laukuose esamų duomenų.
 + Elektroniniai adresai nustatyti elektroninių adresų skirtuke **Sąskaita**, **Kontaktas** ir **Tiekėjo** formose ateina iš `msdyn_partyelectronicaddress` lentelės. Ši informacija nėra susijusi su jos operacijomis, pvz., pardavimo užsakymu, pasiūlymu ir pirkimo užsakymu. Planuojame išspręsti šią problemą didėjančia versija. Sąskaitų ir kontaktų įrašų elektroninio adreso laukuose esantys duomenys ir toliau bus dirba su operacijomis, pvz., pardavimo užsakymu, pasiūlymu ir pirkimo užsakymu.
 + „Finance and Operations“ Programėlėse galite sukurti kontakto įrašą iš formos Įtraukti **kontaktą**. Kai formoje Peržiūrėti kontaktą bandote sukurti **naują** kontaktą, veiksmas nepavyksta. Tai yra žinoma problema.
 

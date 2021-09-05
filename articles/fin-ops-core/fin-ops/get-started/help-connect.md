@@ -2,7 +2,7 @@
 title: „Finance and Operations“ programų žinyno funkcijų konfigūravimas
 description: Šioje temoje pateikiama informacija apie kai kurių „Microsoft Dynamics 365“ programų žinyno sistemos komponentus.
 author: margoc
-ms.date: 05/11/2020
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8481a2ba54b88f0911436f352b901cde55924e2ccc15a381b8742abe85d972
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f793068a5d4df6206229249c5b37bee0ef34da8d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714528"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343817"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>„Finance and Operations“ programų žinyno funkcijų konfigūravimas
 
@@ -54,7 +54,7 @@ Norėdami konfigūruoti sprendimo užduoties vedlius, atlikite puslapyje **Siste
 > [!IMPORTANT]
 > Pirmą kartą atidarę skirtuką **Žinynas**, turite prisijungti prie „Lifecycle Services“. Būtinai pasirinkite formos viduryje pateiktą saitą, palaukite, kol prisijungsite, uždarykite dialogo langą, tada pasirinkite **Gerai**, kad patektumėte į puslapį **Sistemos parametrai**.
 >
-> [![Prisijungti prie LCS](./media/connect-to-lcs-crop-1024x365.png "Connect to LCS."](./media/connect-to-lcs-crop.png)
+> [![Prisijungti prie LCS](./media/connect-to-lcs-crop-1024x365.png "Prisijunkite prie LCS.")](./media/connect-to-lcs-crop.png)
 
 1. Pasirinkite, prie kurio „Lifecycle Services‟ projekto prisijungti.
 2. Pasirinkite, iš kurių BPM bibliotekų (pasirinkto projekto) gauti užduočių įrašus.

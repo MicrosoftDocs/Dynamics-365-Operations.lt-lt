@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 338c3129d81fa0428f3470808bc13fc76483ff3aaf19b06708a986aec64b4030
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e93aff4914314ea99798415a0bacc7b844169bc2
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782352"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384616"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Sandėlio valdymo mobiliųjų įrenginių programėlės diegimas ir prijungimas
 
@@ -150,7 +150,7 @@ Ryšio parametrus galite importuoti iš failo arba QR kodo. Abiem atvejais pirmi
 | ConnectionName | Nurodykite ryšio parametro pavadinimą. Maksimalus ilgis yra 20 simbolių. Ši reikšmė yra unikalus ryšio parametro identifikatorius, todėl įsitikinkite, ar ji sąraše yra unikali. Jei įrenginyje jau yra ryšys tokiu pačiu pavadinimu, parametrai iš importuoto failo jį panaikins. |
 | ActiveDirectoryClientAppId | Nurodykite kliento ID, kurį pasižymėjote, kai konfigūravote „Azure AD“ dalyje [Žiniatinklio tarnybos programos kūrimas naudojant „Azure Active Directory“](#create-service). |
 | ActiveDirectoryResource | Nurodyti „Supply Chain Management“ šakninį URL. |
-| ActiveDirectoryTenant | Nurodykite „Azure AD“ nuomotoją, kurį naudojate su „Supply Chain Management“ serveriu. Ši reikšmė yra tokio formato: `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Pavyzdys: `https://login.windows.net/contosooperations.onmicrosoft.com`. |
+| ActiveDirectoryTenant | Nurodykite „Azure AD“ domeno pavadinimą, kurį naudojate su „Supply Chain Management“ serveriu. Ši reikšmė yra tokio formato: `https://login.windows.net/<your-Azure-AD-domain-name>`. Pavyzdys: `https://login.windows.net/contosooperations.onmicrosoft.com`. Daugiau informacijos apie domeno pavadinimo „Azure AD“ ieškokite vartotojo informacijos apie [tai, kaip rasti svarbius ID](/partner-center/find-ids-and-domain-names). |
 | Įmonė | Programoje „Supply Chain Management‟ nurodykite juridinį subjektą, prie kurio norite prijungti programą. |
 | ConnectionType | (Pasirinktinai) Nurodykite, ar norint prisijungti prie aplinkos ryšio parametras turi naudoti sertifikatą ar kliento slaptąjį raktą. Leistinos reikšmės yra *„certificate“* ir *„clientsecret“*. Numatytoji reikšmė yra *„certificate“*.<p>**Pastaba:** kliento slaptųjų raktų importuoti negalima.</p> |
 | IsEditable | (Pasirinktinai) Nurodykite, ar programos vartotojas gali redaguoti ryšio parametrą. Leistinos reikšmės yra *„teisinga“* ir *„klaidinga“*. Numatytoji reikšmė yra *„teisinga“*. |
@@ -268,7 +268,7 @@ Jei neturite failo ar QR kodo, galite rankiniu būdu konfigūruoti programą įr
         > [!IMPORTANT]
         > Šios reikšmės gale negali būti pasvirojo brūkšnio (/).
 
-    - **„Active Directory“ nuomotojas** – įveskite „Azure AD“ nuomotoją, kurį naudojate su „Supply Chain Management“ serveriu. Ši reikšmė yra tokio formato: `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Pavyzdys: `https://login.windows.net/contosooperations.onmicrosoft.com`.
+    - **„Active Directory“ nuomotojas** – įveskite „Azure AD“ domeno pavadinimą, kurį naudojate su „Supply Chain Management“ serveriu. Ši reikšmė yra tokio formato: `https://login.windows.net/<your-Azure-AD-domain-name>`. Pavyzdys: `https://login.windows.net/contosooperations.onmicrosoft.com`. Daugiau informacijos apie domeno pavadinimo „Azure AD“ ieškokite vartotojo informacijos apie [tai, kaip rasti svarbius ID](/partner-center/find-ids-and-domain-names).
 
         > [!IMPORTANT]
         > Šios reikšmės gale negali būti pasvirojo brūkšnio (/).

@@ -1,8 +1,8 @@
 ---
 title: Vertinimo modelių nustatymas
 description: Šioje procedūroje parodoma, kaip kurti naują ilgalaikio turto knygą ir susieti ją su ilgalaikio turto grupe.
-author: saraschi2
-ms.date: 08/29/2018
+author: moaamer
+ms.date: 08/12/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,19 +13,20 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 923c3d0c7a2d54f616452a8b927681603f4955c2d7e5ff306971561b73355743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 46c26e5fad3c5c60d87c2fea2b29043c69b82b5d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741541"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344663"
 ---
 # <a name="set-up-value-models"></a>Vertinimo modelių nustatymas
 
 [!include [banner](../../includes/banner.md)]
+[!include [preview banner](../../includes/preview-banner.md)]
+
 
 Šioje procedūroje parodoma, kaip kurti naują ilgalaikio turto knygą ir susieti ją su ilgalaikio turto grupe. Joje naudojamas vaidmuo Buhalteris ir USMF juridinio subjekto demonstraciniai duomenys.
-
 
 ## <a name="create-a-book"></a>Knygos kūrimas
 1. Pasirinkite Ilgalaikis turtas > Sąranka > Knygos.
@@ -48,9 +49,10 @@ ms.locfileid: "6741541"
 1. Spustelėkite Ilgalaikio turto grupės.
 2. Lauke Ilgalaikio turto grupė įveskite arba pasirinkite reikšmę.
 3. Lauke Dėvėjimo laikas įveskite skaičių.
-    * Atkreipkite dėmesį, kad lauko Nusidėvėjimo laikotarpiai reikšmė apskaičiuojama nustačius dėvėjimo laiką.  
-    * Mokesčių tvarkymo tikslais galite pagal poreikį nustatyti nusidėvėjimo konvenciją.  
 
+  - Nuvertėjimo laikotarpiai yra apskaičiuojami po tarnavimo laiko turto įvesties.  
+  - Mokesčių tvarkymo tikslais galite pagal poreikį nustatyti nusidėvėjimo konvenciją.
+  - Ilgalaikio turto, kuris susietas su nuoma, vertė dėmeos laiko lauke bus nepaisoma mažesnio nei nuomos sąlygos turto knygoje arba turto **naudojimo laikotarpis**. Jei **nuosavybės perdavimo** laukas yra nustatytas į **Taip** uomos knygoje, gyvavimo laiko lauke nurodyta **Tarnavimo vertės** laukas bus naudingas turto naudojimo laikotarpis.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

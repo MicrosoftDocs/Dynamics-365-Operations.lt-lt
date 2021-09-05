@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: ivanv
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 43d1381e73d5659bfd6ae6c6d944b7e6918b681a4f89df7ad23abbed5b4a0d3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
+ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720089"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386104"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Kas nauja ar pasikeitė „Warehouse Management Mobile App” programėlėje
 
@@ -23,7 +23,23 @@ ms.locfileid: "6720089"
 
 Šioje temoje pateikiamos naujos kiekvienos išleistos „Warehouse Management Mobile App”, skirtos „Microsoft Dynamics 365 Supply Chain Management”, versijos funkcijos, klaidų taisymai ir žinomos problemos.
 
-## <a name="2070"></a>2.0.7.0
+## <a name="version-2090"></a>2.0.9.0 versija
+
+Ši versija ištaiso problemą, dėl kurios programa gali sustabdyti atsakymą, jei vartotojai praeis nuo sąrašo viršaus.
+
+## <a name="version-2080"></a>2.0.8.0 versija
+
+Šioje versijoje pristatomos toliau pateiktos naujos funkcijos, klaidų taisymai ir patobulinimai:
+
+- Įtrauktas veiksmo instrukcijų funkcijos, kuri įtraukta į „Supply Chain Management“ [10.0.21 versiją palaikymas](mobile-app-titles-instructions.md).
+- Pridėta užuominų sąlajas, kad būtų parodyti vartotojai, kuriuos jie gali uždaryti perdengdami perbraukdami.
+- Įtrauktas veiksmų sąrašų ir meniu funkcijų raktų palaikymas. Vartotojai gali tris sekundėmis laikyti bet kokį funkcijos raktą, kad galėtų gauti galimų komandų sąrašą.
+- Išsamskite problemą, kuri sukėlė tokį klaidos pranešimą, kuris bus rodomas kai kuriuose įrenginiuose: „Nepavyko rasti tinkamo nurodyto dydžio rodinio."
+- Fiksuota problema, todėl viso ekrano režimas ne visada dirbo, kai naudojama ekrano klaviatūra.
+- Išseko problemą, dėl kurios puslapio swiping neveikė „Windows" įrenginiuose.
+- Buvo išspręstos įvairios problemos, dėl kurių sistema nebereagavo.
+
+## <a name="version-2070"></a>2.0.7.0 versija
 
 ### <a name="new-features-fixes-and-improvements-in-version-2070"></a>2.0.7.0 versijos naujos funkcijos, klaidų taisymai ir patobulinimai
 

@@ -1,8 +1,8 @@
 ---
-title: Integravimo su „Dayforce “ konfigūravimas
-description: Integravimas tarp „Microsoft Dynamics 365 Human Resources“ ir „Ceridian Dayforce“ paremtas keliais konfigūravimo veiksmais, aprašytais šiame straipsnyje. Prieš mokėjimo vykdymo apdorojimą turite sukonfigūruoti integravimą tiek „Human Resources“, tiek „Dayforce“.
-author: andreabichsel
-ms.date: 02/03/2020
+title: Integravimo su „Dayforce“ konfigūravimas
+description: Šioje temoje aprašomi konfigūravimo veiksmai, kuriuos reikia atlikti norint integruoti „Microsoft Dynamics 365 Human Resources“ ir „Ceridian Dayforce“.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,30 +12,30 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 961d3bd61e85549f4124391389682bb24aceae3e16e52dc8111a44c365a8c081
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 255cc612ef727153be70b755745eed9ad679b839
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782736"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414589"
 ---
-# <a name="configure-integration-with-dayforce"></a>Integravimo su „Dayforce “ konfigūravimas
+# <a name="configure-integration-with-dayforce"></a>Integravimo su „Dayforce“ konfigūravimas
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Integravimas tarp „Microsoft Dynamics 365 Human Resources“ ir „Ceridian Dayforce“ paremtas keliais konfigūravimo veiksmais, aprašytais šiame straipsnyje. Prieš mokėjimo vykdymo apdorojimą turite sukonfigūruoti integravimą tiek „Human Resources“, tiek „Dayforce“.
+Integravimas tarp „Microsoft Dynamics 365 Human Resources“ ir „Ceridian Dayforce“ paremtas keliais konfigūravimo veiksmais, aprašytais šioje temoje. Prieš mokėjimo vykdymo apdorojimą turite sukonfigūruoti integravimą tiek „Human Resources“, tiek „Dayforce“.
 
 Kai naudojate paslaugas, pvz., „Dayforce“ kad atliktumėte mokėjimų vykdymus, turite įjungti integravimą į „Human Resources“. Integravimui reikalingi konkretūs duomenys iš „Human Resources“. Todėl turite patvirtinti, kad duomenys, susieti su „Dayforce“, yra sukonfigūruojami „Human Resources“ taip, kad integravimas būtų palaikomas. Integravimui naudojamos šios plačios duomenų kategorijos:
 
 - Personalo duomenys
 - Atlyginimo dalies duomenys
 - Algalapio duomenys, pvz., mokėjimo ciklai, mokėjimo laikotarpiai ir pajamų kodai
-- Darbuotojo duomenys
+- Darbininko duomenys
 
-Šiame straipsnyje aprašomi veiksmai, kuriuos reikia vykdyti norint įjungti integravimą. Joje taip pat paaiškinami duomenų tipai ir išsami konfigūravimo informacija, reikalinga integravimui.
+Šioje temoje aprašomi veiksmai, kuriuos turite atlikti norėdami įgalinti integravimą, ir paaiškinami duomenų tipai bei ir konfigūravimo informacija, reikalingi integruojant.
 
 ## <a name="enable-the-integration"></a>Integravimo įjungimas
 
@@ -50,7 +50,7 @@ Norėdami įjungti integravimą į „Human Resources“, atlikite šiuos veiksm
 
 Kai integravimas įjungiamas, sukuriamas duomenų eksportavimo paketas bei failai ir nustatomas dažnumas. Galite pakeisti šį dažnumą pagal poreikį.
 
-Daugiau informacijos apie „Azure“ saugyklos paskyras ir „Azure Storage“ jungimosi eilutes rasite šiose „Azure“ straipsniuose:
+Daugiau informacijos apie „Azure“ saugyklos paskyras ir „Azure Storage“ jungimosi eilutes rasite šiose „Azure“ temose:
 
 - [Apie „Azure“ saugyklos paskyras](/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
 - [„Azure Storage“ jungimosi eilučių konfigūravimas](/azure/storage/common/storage-configure-connection-string)
@@ -122,9 +122,9 @@ Kurdami išmokas turėkite omenyje, kad toliau pateikiami duomenys ir konfigūra
 | Tik įnašas          | Sukuriamas darbdavio atskaitymas.             |
 | Atskaitymas ir įnašas | Sukuriami darbuotojo ir darbdavio atskaitymai. |
 
-Daugiau informacijos apie tai, kaip nustatyti ir tvarkyti išlaidų programą, rasite šiuose straipsniuose:
+Daugiau informacijos apie tai, kaip nustatyti ir tvarkyti išlaidų programą, rasite šiose temose:
 
-- [Darbuotojų išmokų programos teikimas](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
+- [Pristatyti darbuotojų išmokų programą](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
 - [Kurti naują išmoką](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
 - [Apibrėžti išmokų tinkamumo taisykles ir strategijas](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
 - [Užregistruoti ir pašalinti išmokas darbuotojams](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
@@ -135,7 +135,7 @@ Atlyginimų dalies valdymas naudojamas kontroliuoti pagrindinio užmokesčio ir 
 
 „Dayforce“ naudojama atlyginimo dalies informacija, kad būtų apskaičiuotas darbuotojo valandinis ar metinis tarifas. Būtini pastoviosios atlyginimo dalies planai ir užmokesčio tarifo konvertavimas. Darbuotojai turi būti susieti su pastoviosios atlyginimo dalies planu.
 
-Daugiau informacijos apie atlyginimų dalies planus rasite šiuose straipsniuose:
+Daugiau informacijos apie kompensacijų planus rasite šios temose:
 
 - [Pastoviosios atlyginimo dalies planų kūrimas](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
 - [Kintamosios atlyginimo dalies planų kūrimas](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
@@ -147,10 +147,10 @@ Daugiau informacijos apie atlyginimų dalies planus rasite šiuose straipsniuose
 
 #### <a name="jobs"></a>Darbai 
 
-Užduotis yra užduočių ir pareigų, kurias asmeniui reikia įvykdyti, rinkinys. Daugiau informacijos ieškokite šiuose straipsniuose:
+Užduotis yra užduočių ir pareigų, kurias asmeniui reikia įvykdyti, rinkinys. Daugiau informacijos ieškokite šiose temose:
 
 - [Užduoties komponentų nustatymas](/dynamics365/unified-operations/talent/create-job)
-- [Naujų darbo vietų nustatymas](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
+- [Apibrėžti naujas užduotis](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
 
 ##### <a name="positions"></a>Pareigybės
 
@@ -172,7 +172,7 @@ Nustatydami pareigas, atkreipkite dėmesį į šiuos duomenis ir konfigūravimą
 
 Jei tame pačiame padalinyje su tuo pačiu darbu susiejamos kelios pareigos, „Dayforce“ jos yra konsoliduojamos į vienas pareigas.
 
-Daugiau informacijos ieškokite šiuose straipsniuose:
+Daugiau informacijos ieškokite šiose temose:
 
 - [Darbo jėgos organizavimas naudojant padalinius, darbo vietas ir pareigas](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
 - [Pareigų nustatymas](/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
@@ -181,9 +181,9 @@ Daugiau informacijos ieškokite šiuose straipsniuose:
 
 Padalinys yra valdymo vienetas, nurodantis organizacijos kategoriją arba funkcinę sritį. Padalinys yra atsakingas už tam tikrą organizacijos sritį, pvz., pardavimą, apskaitą arba personalą. Padalinius galite naudoti norėdami pranešti apie funkcines sritis. Padaliniai gali turėti pelno ir nuostolio atsakomybę.
 
-Daugiau informacijos ieškokite šiuose straipsniuose:
+Daugiau informacijos ieškokite šiose temose:
 
-- [Padalinio sukūrimas ir susiejimas su padalinių hierarchija](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
+- [Padalinio kūrimas ir priskyrimas padalinių hierarchijai](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
 - [Apibrėžti naujus padalinius](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
 
 #### <a name="pay-cycles-and-pay-periods"></a>Mokėjimo ciklai ir mokėjimo laikotarpiai

@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4811c65a32e27668d1247086d962366eb8369d5e9fe28a105e1d6a020bca325d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bd55d433b0961b8b210b9c28d7340ff880635a85
+ms.sourcegitcommit: 3af457fc216bd0020843291ca57fd379acb53c96
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737754"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "7392479"
 ---
 # <a name="associate-fixed-assets-with-leases"></a>Ilgalaikio turto susiejimas su nuomomis
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Temoje paaiškinama, kaip susieti esamą ilgalaikį turtą su nauja nuoma. Kai susiejate ilgalaikį turtą su nuoma, ilgalaikio turto įsigijimo kaina bus naudojimo teise valdomo turto pirminio pripažinimo vertė.
 
@@ -49,8 +50,18 @@ Užregistravus pradinio pripažinimo žurnalo įrašą, operacija rodoma kaip il
 
 Ilgalaikį turtą dabar galima nudėvėti naudojant standartinę ilgalaikio turto nusidėvėjimo funkciją dalyje Ilgalaikis turtas. Daugiau informacijos apie nusidėvėjimą žr. [Nusidėvėjimo metodai ir konvencijos](../fixed-assets/depreciation-methods-conventions.md).
 
+Kai nuoma yra susieta su ilgalaikiu turtu, ilgalaikio turto knygos laukas **Dėvėjimo laikas** bus atnaujintas, kad sutaptų su toliau pateikiamų kriterijų mažiausia reikšme. 
+
+ - Turto naudingo naudojimo laikas
+ - Susietoje nuomos knygoje nurodytas nuomos terminas
+
+Jei **nuosavybės perdavimo** laukas yra nustatytas į **Taip** uomos knygoje, gyvavimo laiko lauke nurodyta **Tarnavimo vertės** laukas bus naudingas turto naudojimo laikotarpis. 
+ 
+Kaskart pakoregavus nuomą, dėvėjimo laikas bus atnaujinamas siekiant užtikrinti, kad naudojimo teise valdomas turtas yra nusidėvėjęs per nuomos terminą taip pat kaip jis buvo nusidėvėjęs turto nuomoje.
+
 > [!NOTE]
 > Jei susiejate ilgalaikį turtą su nuoma, mygtukai **Turto nusidėvėjimas** ir **Nuomos nuvertėjimas** modulyje Turto nuoma yra išjungti. Ilgalaikio turto nusidėvėjimo ir nuomos nuvertėjimo operacijas galite peržiūrėti dalyje Ilgalaikis turtas. Mygtukas **Turto operacijos**, kuriuo atidaroma užklausos forma, taip pat išjungtas. Taip pat galite atidaryti **ilgalaikio turto operacijų** užklausos formą dalyje Ilgalaikis turtas.  
 
+Puslapiuose **Ilgalaikis turtas** ir **Ilgalaikio turto knyga** bus rodomas su ilgalaikiu turtu susietas nuomos ID. Jeigu ilgalaikis turtas yra susietas su nuoma, puslapio **Ilgalaikis turtas** „FastTab“ **Nuomos informacija** bus rodomi nuomos ID ir nuomos aprašas. Su nuomos knygomis susietų ilgalaikio turto knygų laukuose **Nuomos ID**, **Nuomos aprašas** ir **Knygos tipas** bus rodoma pasirinktos ilgalaikio turto knygos informacija, kuri pateikiama „FastTab“ **Nuomos informacija**, siekiant nurodyti, kas yra susieta su nuomos knyga.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

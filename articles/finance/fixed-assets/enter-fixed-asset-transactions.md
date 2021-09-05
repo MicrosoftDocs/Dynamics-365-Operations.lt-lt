@@ -1,8 +1,8 @@
 ---
 title: Ilgalaikio turto operacijų parinktys
 description: Šioje temoje aprašomi galimi skirtingi metodai ilgalaikio turto operacijoms kurti.
-author: ShylaThompson
-ms.date: 02/07/2019
+author: moaamer
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1857d68a0dfaa25386f19344e4cb3ddc9ffd39b8a75860a1642773d6bd59cce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9e2d7f21d8c88185383e252f8f6324208493c81
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764268"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344695"
 ---
 # <a name="fixed-asset-transaction-options"></a>Ilgalaikio turto operacijų parinktys
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Šioje temoje aprašomi galimi skirtingi metodai ilgalaikio turto operacijoms kurti.
 
@@ -56,16 +57,18 @@ Bet kokį ilgalaikio turto operacijos tipą galima registruoti puslapyje Bendras
 |                                     | Mokėtinos sumos         | SF žurnalas, SF patvirtinimo žurnalas |
 |                                     | Paraiškos | Pirkimo užsakymas                            |
 | Nusidėvėjimas                        | Ilgalaikis turtas             | Ilgalaikis turtas                              |
-|                                     | DK           | Pagrindinis žurnalas                           |
+|                                     | Didžioji knyga           | Pagrindinis žurnalas                           |
 | Likvidavimas                            | Ilgalaikis turtas             | Ilgalaikis turtas                              |
-| ** **                               | DK           | Pagrindinis žurnalas                           |
-| ** **                               | Gautinos sumos      | Laisvos formos sąskaita faktūra                         |
+|                                     | Didžioji knyga           | Pagrindinis žurnalas                           |
+|                                     | Gautinos sumos      | Laisvos formos SF                         |
 
-Ilgalaikio turto reikšmė lauke Likusių nusidėvėjimo laikotarpių skaičius nėra atnaujinama, kai nusidėvėjimo operacijos tipo žurnalo eilutė sukuriama neautomatiškai arba importuojama naudojant duomenų objektą. Ši reikšmė atnaujinama, kai nusidėvėjimo pasiūlymo procesas naudojamas žurnalo eilutei sukurti.
+Ilgalaikio turto likusių nusidėvėjimo laikotarpių reikšmė nėra atnaujinama, kai nusidėvėjimo operacijos tipo žurnalo eilutė sukuriama neautomatiškai arba importuojama naudojant duomenų objektą. Likusių laikotarpių reikšmė atnaujinama, kai nusidėvėjimo pasiūlymo procesas naudojamas žurnalo eilutei sukurti.
 
 Norėdami daugiau informacijos žr. [Ilgalaikio turto integravimas](fixed-asset-integration.md).
 
-### <a name="transactions-that-require-different-voucher-numbers"></a>Operacijos, kurioms reikia skirtingų kvitų numerių
+Sistema neleidžia registruoti to paties laikotarpio nusidėvėjimo du kartus. Pavyzdžiui, jei du vartotojai atskirai sukuria sausio mėnesio nusidėvėjimo pasiūlymus, pirmo vartotojo nusidėvėjimas bus registruojamas pirmame žurnale. Kai antrasis vartotojas užregistruoja nusidėvėjimą antrame žurnale, sistema patikrina paskutinio nusidėvėjimo vykdymo datą ir neregistruoja to paties laikotarpio nusidėvėjimo antrą kartą.
+
+### <a name="transactions-that-require-a-different-voucher-number"></a>Operacijos, kurioms reikia skirtingo kvito numerio
 
 Toliau nurodytose ilgalaikio turto operacijose bus naudojami skirtingi kvitų numeriai:
 
