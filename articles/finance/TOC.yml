@@ -1,11 +1,13 @@
-- name: „Dynamics 365 Finance“
+- name: „Dynamics 365 Finance”
   items:
-    - name: „Dynamics 365 Finance“
+    - name: „Dynamics 365 Finance”
       items:
         - name: „Dynamics 365 Finance“ pagrindinis puslapis
           href: index.md
-        - name: Pradžia
+        - name: Pradėti
           items:
+            - name: Paslaugos aprašymas
+              href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/finance/toc.json
             - name: Prieš perkant
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: Registravimasis prenumeratų peržiūros versijai gauti
@@ -72,6 +74,8 @@
                   items:
                     - name: Kas nauja ar pasikeitė „Finance“ pagrindiniame puslapyje
                       href: get-started/whats-new-home-page.md
+                    - name: „Finance 10.0.22“ (2021 m. lapkričio mėn.)
+                      href: get-started/whats-new-changed-10-0-22.md
                     - name: „Finance 10.0.21“ (2021 m. spalio mėn.)
                       href: get-started/whats-new-changed-10-0-21.md
                     - name: „Finance 10.0.20“ (2021 m. rugpjūčio mėn.)
@@ -1168,8 +1172,12 @@
                   href: general-ledger/rvrs-settgs-on-jrnls-lines.md
                 - name: Uždarymo metų pabaigoje trūkstami pradiniai balansai
                   href: general-ledger/yec-mssng-open-blnces.md
+                - name: Kaip nustatyti balansavimo finansines dimensijas?
+                  href: general-ledger/set-up-balance-dimensions.md
                 - name: Finansinių žurnalų šablonų atidarymas „Office“
                   href: general-ledger/open-fincl-jrnls-in-office.md
+                - name: Numatytosios finansinių žurnalų finansinės dimensijos
+                  href: general-ledger/dimension-default-values.md
                 - name: Žurnalo registravimo triktis dėl disbalanso
                   href: general-ledger/posting-fail-imbalance.md
                 - name: Kodėl negaliu atšaukti šios operacijos?
@@ -1472,17 +1480,17 @@
               items:
                 - name: Globalizavimo tarnybų apžvalga
                   href: localizations/globalization-services-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Regulatory Configuration Service
+                - name: „Regulatory Configuration Service“ (RCS)
                   items:
-                    - name: „Regulatory Configuration Service“ apžvalga
+                    - name: „Regulatory Configuration Service“ (RCS) apžvalga
                       href: localizations/rcs-overview.md?toc=/dynamics365/finance/toc.json
-                    - name: „Regulatory Configuration Service“ – globalizacijos funkcijos
+                    - name: „Regulatory Configuration Service“ (RCS) – globalizacijos funkcijos
                       href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
-                    - name: Elektroninių ataskaitų konfigūracijų „Regulatory Configuration Service“ kūrimas ir nusiuntimas į bendrąją saugyklą
+                    - name: Elektroninių ataskaitų konfigūracijų „Regulatory Configuration Service“ (RCS) kūrimas ir nusiuntimas į bendrąją saugyklą
                       href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
-                    - name: „Regulatory Configuration Service“ – RCS aplinkos naikinimas
+                    - name: „Regulatory Configuration Service“ (RCS) – RCS aplinkos naikinimas
                       href: localizations/rcs-delete-environment.md
-                    - name: „Regulatory Configuration Service“ – „Lifecycle Services“ saugyklos netinkamumas
+                    - name: „Regulatory Configuration Service“ (RCS) – „Lifecycle Services“ saugyklos netinkamumas
                       href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
                     - name: ER konfigūracijų atsisiuntimas „Finance“
                       items:
@@ -1518,7 +1526,7 @@
                       href: localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/finance/toc.json
                     - name: Naudojimo valdymo ataskaitų sritis
                       href: localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/finance/toc.json
-                    - name: Pradžia
+                    - name: Pradėti
                       items:
                         - name: Darbo su elektroninių SF išrašymo tarnybos administravimu pradžia
                           href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
@@ -1550,6 +1558,8 @@
                           href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
                     - name: Nustatymas
                       items:
+                        - name: Mokesčių skaičiavimo duomenų modelis
+                          href: localizations/tax-calculation-data-model-overview.md
                         - name: PVM taikymas ir PVM grupės nustatymo logika
                           href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
                     - name: Skaičiavimas
@@ -1574,6 +1584,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: ES pardavimo sąrašas
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Švedijos ataskaitos
+                          items:
+                            - name: PVM deklaracija
+                              href: localizations/emea-swe-VAT-declaration-Sweden.md
                         - name: Šveicarijos ataskaitos
                           items:
                             - name: PVM deklaracija
@@ -2688,8 +2702,10 @@
                   href: localizations/emea-ita-exil-zero-invoice-posting.md
                 - name: Banko duomenų naudojimo patobulinimas
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
-                - name: Italijos Intrastat
+                - name: Italijos „Intrastat“
                   href: localizations/emea-ita-intrastat.md
+                - name: „Intrastat” įsigijimų ir išsiuntimų registravimas
+                  href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
                 - name: Papildomos išlaidos vienam kilogramui „Intrastat” deklaracijoje
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: Ketinimų raštas – sąskaitų faktūrų išrašymas įprastiniams eksportuotojams
@@ -2982,6 +2998,8 @@
               items:
                 - name: Omano apžvalga
                   href: localizations/oman.md
+                - name: Omano PVM deklaracija (OM-00003)
+                  href: localizations/emea-oma-vat-declaration.md
             - name: Nyderlandai
               items:
                 - name: Nyderlandų apžvalga
@@ -3366,6 +3384,10 @@
                   href: localizations/emea-swe-payment-formats-import.md
                 - name: PVM mokėjimo ataskaita (Švedija)
                   href: localizations/emea-swe-sales-tax-payment-report-sweden.md
+                - name: Švedijos PVM deklaracija
+                  href: localizations/emea-swe-VAT-declaration-Sweden.md
+                - name: Švedijos „Intrastat”
+                  href: localizations/emea-swe-intrastat.md
             - name: Šveicarija
               items:
                 - name: Šveicarijos apžvalga
@@ -3420,6 +3442,28 @@
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
                     - name: PVM grupių nustatymas atvirkštinio mokesčio PVM mokesčiui
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
+                - name: Jungtinės Karalystės ataskaitos
+                  items:
+                    - name: PVM įrašų pavertimas skaitmeniniais (MTD)
+                      items:
+                        - name: PVM grąžinimo pateikimo įrašų pavertimas skaitmeniniais (MTD) Jungtinėje Karalystėje
+                          href: localizations/emea-gbr-mtd-vat-integration.md
+                        - name: Paruoškite savo aplinką sąveikauti su HMRC MTD PVM žiniatinklio tarnyba
+                          href: localizations/emea-gbr-mtd-vat-integration-setup.md
+                        - name: Įgaliokite savo „Finance“ aplinką sąveikauti su HMRC MTD žiniatinklio tarnyba
+                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                        - name: Sąveikos su MTD PVM smėlio dėže tikrinimas
+                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                        - name: PVM grąžinimo pateikimas HMRC MTD žiniatinklio tarnybai
+                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
+                        - name: MTD PVM elektroninių pranešimų nustatymo kontrolinis sąrašas
+                          href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
+                        - name: PVM deklaracijos generavimas popieriaus formatu (PVM 100 ataskaita)
+                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
+                        - name: 'PVM nustatymo informacija, skirta PVM deklaracijoms Jungtinėje Karalystėje'
+                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                        - name: Informacijos apie PVM mokėjimus ir įsipareigojimus nuskaitymas iš HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
                 - name: Mokėjimo praktikų statistikos ataskaita
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Jungtinės Valstijos
@@ -4147,6 +4191,30 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
                     - name: Konfigūracijų importavimas (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
+                - name: „Regulatory Configuration Service“ (RCS)
+                  items:
+                    - name: „Regulatory Configuration Service“ (RCS) apžvalga
+                      href: localizations/rcs-overview.md?toc=/dynamics365/finance/toc.json
+                    - name: ER konfigūracijų atsisiuntimas „Finance“
+                      items:
+                        - name: Konfigūracijų atsisiuntimas iš RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Konfigūracijų importavimas iš RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                    - name: Visuotinė saugykla (GR)
+                      items:
+                        - name: Konfigūracijų importavimas iš GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Atnaujintų ER konfigūracijų versijų importavimas
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Išplėstinis filtravimas konfigūracijoms rasti GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Konfigūracijų nusiuntimas į GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                        - name: Konfigūracijų bendrinimas GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+                        - name: Konfigūracijų RCS visuotinėje saugykloje naudojimo nutraukimas
+                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
             - name: Greito pasirengimo darbui vadovai
               items:
                 - name: ER formato koregavimas pasirinktiniam elektroniniam dokumentui sugeneruoti
@@ -4207,6 +4275,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: 'Konfigūruokite PERŽVALGOS duomenų šaltinius, kad būtų galima naudoti konkretaus ER prašymo parametrus'
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: DUOMENŲ RINKINIO duomenų šaltinių naudojimas ER formatuose
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Duomenų šaltinių derinimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: Modelių susiejimų konfigūravimas
@@ -4275,6 +4345,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Nuo veiksmo priklausančių paskirties vietų konfigūravimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/finance/toc.json
+                    - name: Konkrečių spausdinimo valdymo įrašų ER paskirties vietų konfigūravimas
+                      href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/finance/toc.json
                 - name: Nuorodos į ER formatą nustatymas
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                 - name: Automatiškas sugeneruotų ataskaitų tvirtinimas
@@ -4323,6 +4395,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/finance/toc.json
                     - name: „Application update 10.0.19“
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
+                    - name: „Application update 10.0.21“
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/finance/toc.json
                 - name: Pasirinktinės saugyklos vietos sugeneruotiems dokumentams nurodymas
                   items:
                     - name: 'Įvykio prenumeravimas, kad prenumeratos apdorojimo programai galima būtų pateikti užklausą dėl atsakymo'
@@ -4333,6 +4407,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/finance/toc.json
                 - name: „USER INPUT PARAMETER“ tipo duomenų šaltinio verčių inicijavimas iš šaltinio kodo
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
+                - name: 'Kodo keitimas, kad vartotojai galėtų konfigūruoti ir naudoti įvardytąsias ER paskirties vietas'
+                  href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
         - name: Mobiliųjų įrenginių programėlė
           items:
             - name: Mobiliųjų įrenginių programėlės pagrindinis puslapis

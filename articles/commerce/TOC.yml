@@ -1,11 +1,13 @@
-- name: „Dynamics 365 Commerce“
+- name: „Dynamics 365 Commerce”
   items:
-    - name: „Dynamics 365 Commerce“
+    - name: „Dynamics 365 Commerce”
       items:
         - name: „Dynamics 365 Commerce“ pagrindinis puslapis
           href: index.md
         - name: Pradėti
           items:
+            - name: Paslaugos aprašymas
+              href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/commerce/toc.json
             - name: Prieš perkant
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/commerce/toc.json
             - name: Vienos versijos paslaugų naujinimai
@@ -94,6 +96,8 @@
                   items:
                     - name: Kas nauja ar pasikeitė „Commerce“ pagrindiniame puslapyje
                       href: get-started/whats-new-home-page.md
+                    - name: „Commerce 10.0.22“ (2021 m. lapkričio mėn.)
+                      href: get-started/whats-new-commerce-10-0-22.md
                     - name: „Commerce 10.0.21“ (2021 m. spalio mėn.)
                       href: get-started/whats-new-commerce-10-0-21.md
                     - name: „Commerce 10.0.20“ (2021 m. rugpjūčio mėn.)
@@ -254,8 +258,12 @@
                       href: dev-itpro/define-retail-channel-communications-cdx.md
                     - name: „Commerce Data Exchange“ trikčių šalinimas
                       href: dev-itpro/CDX-Troubleshooting.md
+                    - name: „Commerce Data Exchange“ paketų rūšiavimas pagal pirminį indeksą
+                      href: CDX-package-sort.md
                 - name: „Modern POS“ architektūra
                   href: dev-itpro/retail-modern-pos-architecture.md
+                - name: „Commerce“ diegimas ir trikčių šalinimas neprisijungus
+                  href: dev-itpro/implementation-considerations-offline.md
                 - name: Interneto parduotuvės katalogo publikavimas
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: „Retail Channel Performance Power BI“ turinys
@@ -704,6 +712,10 @@
                   href: configure-ratings-reviews.md
                 - name: Produktų įvertinimų sinchronizavimas
                   href: sync-product-ratings.md
+                - name: Neautomatinio vadovo įvertinimų ir atsiliepimų publikavimo įjungimas
+                  href: manual-publish-rating-reviews.md
+                - name: DUK apie įvertinimus ir apžvalgas
+                  href: ratings-reviews-faq.md
             - name: Atsargų tvarkymas
               items:
                 - name: Atsargos
@@ -754,6 +766,8 @@
                   href: multiple-pickup-modes.md
                 - name: Kliento užsakymo paėmimo EKA apdorojimas
                   href: process-order-pickup-POS.md
+                - name: Svečių pirkimo užbaigimo užsakymo peržvalgos įjungimas
+                  href: order-lookup-guest.md
             - name: Pardavimo užsakymai
               items:
                 - name: Skambučių centro užsakymų kūrimas
@@ -1146,6 +1160,8 @@
                       href: order-confirmation-module.md
                     - name: Dovanų kortelės modulis
                       href: add-giftcard.md
+                    - name: Užsakymo peržvalgos modulis
+                      href: order-lookup-module.md
                 - name: Parduotuvės ieškiklio moduliai
                   items:
                     - name: Žemėlapio modulis
@@ -1174,7 +1190,9 @@
                       href: nav-menu-module.md
                     - name: Svetainės išrinkiklio modulis
                       href: site-selector.md
-                - name: Ieškoti modulių
+                    - name: Šalies / regiono išrinkiklio modulis
+                      href: country-region-picker-module.md
+                - name: Ieškos moduliai
                   items:
                     - name: Ieškos rezultatų modulis
                       href: search-result-module.md
@@ -1196,6 +1214,8 @@
               items:
                 - name: 'Orientavimas pagal įrenginį, rinką ir geografinę vietą'
                   href: targeting-overview.md
+                - name: Geografinės srities aptikimo ir peradresavimo nustatymas
+                  href: geo-detection-redirection.md
             - name: Eksperimentavimas
               items:
                 - name: Eksperimentavimas „Dynamics 365 Commerce“
@@ -1258,15 +1278,15 @@
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
             - name: Vartotojo apibrėžti mažmeninės prekybos parduotuvių sertifikatų profiliai
               href: localizations/certificate-profiles-for-retail-stores.md
-            - name: Regulatory Configuration Service
+            - name: „Regulatory Configuration Service“ (RCS)
               items:
-                - name: „Regulatory Configuration Service“ apžvalga
+                - name: „Regulatory Configuration Service“ (RCS) apžvalga
                   href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: „Regulatory Configuration Service“ – globalizacijos funkcijos
+                - name: (RCS) „Regulatory Configuration Service“ (RCS) – globalizacijos funkcijos
                   href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
-                - name: Elektroninių ataskaitų konfigūracijų „Regulatory Configuration Service“ kūrimas ir nusiuntimas į bendrąją saugyklą
+                - name: Elektroninių ataskaitų konfigūracijų „Regulatory Configuration Service“ (RCS) kūrimas ir nusiuntimas į bendrąją saugyklą
                   href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                - name: „Regulatory Configuration Service“ – „Lifecycle Services“ saugyklos netinkamumas
+                - name: „Regulatory Configuration Service“ (RCS) – „Lifecycle Services“ saugyklos netinkamumas
                   href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
                 - name: ER konfigūracijų atsisiuntimas „Commerce“
                   items:
@@ -1274,20 +1294,20 @@
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
                     - name: Konfigūracijų importavimas iš RCS
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
-                - name: Visuotinė saugykla (GR)
-                  items:
-                    - name: Konfigūracijų importavimas iš GR
-                      href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
-                    - name: Atnaujintų ER konfigūracijų versijų importavimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
-                    - name: Išplėstinis filtravimas konfigūracijoms rasti GR
-                      href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
-                    - name: Konfigūracijų nusiuntimas į GR
-                      href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                    - name: Konfigūracijų bendrinimas GR
-                      href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
-                    - name: Konfigūracijų RCS visuotinėje saugykloje naudojimo nutraukimas
-                      href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: Visuotinė saugykla (GR)
+                      items:
+                        - name: Konfigūracijų importavimas iš GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: Atnaujintų ER konfigūracijų versijų importavimas
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: Išplėstinis filtravimas konfigūracijoms rasti GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: Konfigūracijų nusiuntimas į GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                        - name: Konfigūracijų bendrinimas GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
+                        - name: Konfigūracijų RCS visuotinėje saugykloje naudojimo nutraukimas
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: Austrija
               items:
                 - name: 'Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Austrijai'
@@ -1888,6 +1908,30 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
                     - name: Konfigūracijų importavimas (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
+                - name: „Regulatory Configuration Service“ (RCS)
+                  items:
+                    - name: „Regulatory Configuration Service“ (RCS) apžvalga
+                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
+                    - name: ER konfigūracijų atsisiuntimas „Commerce“
+                      items:
+                        - name: Konfigūracijų atsisiuntimas iš RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
+                        - name: Konfigūracijų importavimas iš RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
+                    - name: Visuotinė saugykla (GR)
+                      items:
+                        - name: Konfigūracijų importavimas iš GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: Atnaujintų ER konfigūracijų versijų importavimas
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: Išplėstinis filtravimas konfigūracijoms rasti GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: Konfigūracijų nusiuntimas į GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                        - name: Konfigūracijų bendrinimas GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
+                        - name: Konfigūracijų RCS visuotinėje saugykloje naudojimo nutraukimas
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: Greito pasirengimo darbui vadovai
               items:
                 - name: ER formato koregavimas pasirinktiniam elektroniniam dokumentui sugeneruoti
@@ -1944,6 +1988,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/commerce/toc.json
                         - name: 'Formatų, skirtų dokumentų valdymo failams naudoti, modifikavimas ir taikymas'
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/commerce/toc.json
+                    - name: BRŪKŠNINIO KODO naudojimas brūkšninio kodo vaizdams generuoti
+                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: 'Konfigūruokite PERŽVALGOS duomenų šaltinius, kad būtų galima naudoti konkretaus ER prašymo parametrus'
+                      href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: DUOMENŲ RINKINIO duomenų šaltinių naudojimas ER formatuose
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Duomenų šaltinių derinimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: BRŪKŠNINIO KODO naudojimas brūkšninio kodo vaizdams generuoti
@@ -2014,6 +2064,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/commerce/toc.json
                     - name: Nuo veiksmo priklausančių paskirties vietų konfigūravimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Konkrečių spausdinimo valdymo įrašų ER paskirties vietų konfigūravimas
+                      href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/commerce/toc.json
                 - name: Nuorodos į ER formatą nustatymas
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/commerce/toc.json
                 - name: Automatiškas sugeneruotų ataskaitų tvirtinimas
@@ -2062,6 +2114,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/commerce/toc.json
                     - name: „Application update 10.0.19“
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/commerce/toc.json
+                    - name: „Application update 10.0.21“
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/commerce/toc.jso
                 - name: Pasirinktinės saugyklos vietos sugeneruotiems dokumentams nurodymas
                   items:
                     - name: 'Įvykio prenumeravimas, kad prenumeratos apdorojimo programai galima būtų pateikti užklausą dėl atsakymo'
@@ -2072,6 +2126,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/commerce/toc.json
                 - name: „USER INPUT PARAMETER“ tipo duomenų šaltinio verčių inicijavimas iš šaltinio kodo
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Kodo keitimas, kad vartotojai galėtų konfigūruoti ir naudoti įvardytąsias ER paskirties vietas'
+                  href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/commerce/toc.json
         - name: „Finance and Operations“ („Dynamics 365“) mobilioji programa
           items:
             - name: Mobiliųjų įrenginių programėlės pagrindinis puslapis
@@ -2452,14 +2508,10 @@
                       href: e-commerce-extensibility/sdk-faq.md
                     - name: Geriausios „Dynamics 365 Commerce“ kūrimo praktikos derinimas
                       href: e-commerce-extensibility/debugging-best-practices.md
-            - name: Retail SDK
+            - name: „Retail SDK“
               items:
                 - name: „Retail SDK“ architektūra
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
-                - name: Būsimi „Retail SDK“ pakeitimai
-                  href: dev-itpro/UpcomingSDKChanges.md
-                - name: Naujinimai ir ALM pakeitimai iš versijos 10.0.10 į 10.0.13
-                  href: dev-itpro/dev-changes-10-13.md
                 - name: Nepriklausomo paketo SDK kūrimo srauto nustatymas
                   href: dev-itpro/build-pipeline.md
                 - name: „Commerce“ ir „Finance and Operations“ kūrimo sistemų suliejimas
@@ -2586,8 +2638,6 @@
                   href: dev-itpro/retail-server-customer-consumer-api.md
                 - name: „Retail Server“ plėtinio API („Retail SDK“ 10.0.11 ir vėlesnė versija) kūrimas
                   href: dev-itpro/retail-server-icontroller-extension.md
-                - name: Kurti naują „Retail Server“ plėtinio API („Retail SDK“ 10.0.11 ir ankstesnė versija)
-                  href: dev-itpro/retail-server-extension.md
                 - name: „Retail Typescript“ ir C# tarpiniai serveriai
                   href: dev-itpro/typescript-proxy-retail-pos.md
                 - name: „Retail Server“ API naudojimas išorinėse programose
@@ -2704,6 +2754,8 @@
                   href: troubleshoot/pickup-store-missing.md
                 - name: 'Galima atsiskaityti už prekes, kurių nėra atsargose'
                   href: troubleshoot/items-without-inventory-checked-out.md
+                - name: 'Įvertinimų tikslinimo priemonė rodoma ieškos rezultatuose ir kategorijos puslapiuose, kai įvertinimų ir atsiliepimų sprendimas nėra įjungtas'
+                  href: troubleshoot/hide-ratings-refiner.md
             - name: SDK trikčių šalinimas
               items:
                 - name: 'Nustatykite el. prekybos kūrimo aplinką, kad būtų galima derinti su „Tier 1 Retail Server“ VM'
