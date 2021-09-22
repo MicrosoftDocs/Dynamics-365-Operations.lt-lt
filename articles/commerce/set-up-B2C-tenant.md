@@ -2,7 +2,7 @@
 title: „Commerce” B2C nuomotojo sąranka
 description: Šioje temoje aprašoma, kaip nustatyti „Azure Active Directory“ („Azure AD“) verslo ir vartotojų (B2C) nuomotojus, skirtus vartotojo svetainės autentifikavimui „Dynamics 365 Commerce“.
 author: BrianShook
-ms.date: 08/11/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 107e06d44d159152b260897dfba456a525f19e27
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: d54de9025926d2c1908ce29d2b680a48172f46a4
+ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344503"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7466273"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>„Commerce” B2C nuomotojo sąranka
 
@@ -37,6 +37,26 @@ ms.locfileid: "7344503"
 
 > [!TIP]
 > Galite toliau apsaugoti savo svetainės vartotojus ir padidinti savo B2C nuomininkų saugą „Azure AD“ naudodami tapatybės „Azure AD“ apsaugą ir sąlyginę prieigą. Norėdami peržiūrėti B2C priedų P1 ir P2 priedų nuomininkų pajėgumus, žr. B2C „Azure AD“ [tapatybės apsaugą ir „Azure AD“ sąlyginę prieigą](/azure/active-directory-b2c/conditional-access-identity-protection-overview).
+
+## <a name="dynamics-environment-prerequisites"></a>„Dynamics" aplinkos būtinosios sąlygos
+
+Prieš pradėdami įsitikinkite, kad jūsų aplinka ir el. komercijos kanalas sukonfigūruoti „Dynamics 365 Commerce“ tinkamai, vykdydami nurodytas būtinąsias sąlygas.
+
+- Nustatykite POS operacijas **AllowAnonymousAccess** vertę į „1" „Commerce headquarters“:
+    1. Eiti į **EKA operacijas**.
+    1. Operacijų tinklelyje, paspauskite dešinį klavišą ir rinkitės **Pritaikyti**.
+    1. Pasirinkite **Įtraukti lauką**.
+    1. Galimų stulpelių sąraše pasirinkite stulpelį **AllowAnonymousAccess,** kad jį įtraukdami.
+    1. Pasirinkite **Naujinti**.
+    1. Dėl **612** operacijos „Kliento įtraukimas" pakeiskite **AllowAnonymousAccess** į „1."
+    1. Paleisti **1090 (registrai)** darbą.
+- Nustatykite skaičių seką kliento sąskaitai **Rankinis** savybę į **Ne** „Commerce headquarters“:
+    1. Eikite į **„Retail“ ir „Commerce“ \> Būstinės sąranka \> Parametrai \> Sąskaitos gaunami parametrai**.
+    1. Pasirinkite **Skaičių sekos**.
+    1. Kliento **sąskaitos eilutėje** du kartus spustelėkite **numeracijos kodo vertę**.
+    1. Numeracijos **bendrajame** „FastTab“ nustatykite **Rankinis** kaip **Ne**.
+
+Įdiegus „Dynamics 365 Commerce“ aplinką, taip pat rekomenduojama inicijuoti [pradinius duomenis aplinkoje](enable-configure-retail-functionality.md).
 
 ## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>Kūrimas arba susiejimas su esamu AAD B2C nuomotoju „Azure“ portale
 

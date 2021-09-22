@@ -2,7 +2,7 @@
 title: Įjungti produktų rekomendacijas
 description: Šioje temoje paaiškinama, kaip pateikti produkto rekomendacijas, paremtas dirbtinio intelekto mašininiu mokymu (AI-ML), kurį gali naudoti „Microsoft Dynamics 365 Commerce“ klientai.
 author: bebeale
-ms.date: 08/18/2020
+ms.date: 08/31/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bfecc53a17eb44c5726103b4df738d6c6b0311aec07ad8eab55fa9c94787957a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4a7be82b3a40aba621693f080ff41767fdaea474
+ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752488"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7466321"
 ---
 # <a name="enable-product-recommendations"></a>Įjungti produktų rekomendacijas
 
@@ -31,32 +31,28 @@ ms.locfileid: "6752488"
 
 ## <a name="recommendations-pre-check"></a>Rekomendacijų išankstinė patikra
 
-Prieš įjungdami, atkreipkite dėmesį, kad produkto rekomendacijos palaikomos tik „Commerce“ klientams, perkėlusiems savo saugyklą naudoti „Azure Data Lake Storage“. 
+1. Įsitikinkite, kad turite galiojančią „Dynamics 365 Commerce“ Rekomendacijų licenciją.
+1. Įsitikinkite, kad objekto saugykla prijungta prie kliento „Azure Data Lake Storage“ Gen2 sąskaitos. Daugiau informacijos žr. [Užtikrinkite, kad „Azure Data Lake Storage“ buvo nupirktas ir sėkmingai patikrintas aplinkoje](enable-ADLS-environment.md).
+1. Patvirtinkite, kad „Azure AD” tapatybės konfigūracijoje yra rekomendacijų įrašas. Toliau pateikiama daugiau informacijos apie tai, kaip atlikti šį veiksmą.
+1. Įsitikinkite, kad objekto saugyklos kasdienis „Azure Data Lake Storage“ atnaujinimas į Gen2 yra suplanuotas. Daugiau informacijos žr. [Užtikrinkite, kad objektų saugyklos atnaujinimas buvo automatizuotas](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
+1. Įgalinkite objektų parduotuvės „RetailSale" matavimus. Norėdami sužinoti daugiau apie šį sąrankos procesą, žr. [Darbas su priemonėmis](/dynamics365/ai/customer-insights/pm-measures).
 
-Prieš įgalinant rekomendacijas tarnybiniame biure turi būti įjungtos toliau pateiktos konfigūracijos.
-
-1. Užtikrinkite, kad „Azure Data Lake Storage“ buvo nupirktas ir sėkmingai patikrintas aplinkoje. Daugiau informacijos žr. [Užtikrinkite, kad „Azure Data Lake Storage“ buvo nupirktas ir sėkmingai patikrintas aplinkoje](enable-ADLS-environment.md).
-2. Užtikrinkite, kad objektų saugyklos atnaujinimas buvo automatizuotas. Daugiau informacijos žr. [Užtikrinkite, kad objektų saugyklos atnaujinimas buvo automatizuotas](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
-3. Patvirtinkite, kad „Azure AD” tapatybės konfigūracijoje yra rekomendacijų įrašas. Toliau pateikiama daugiau informacijos apie tai, kaip atlikti šį veiksmą.
-
-Be to, užtikrinkite, kad būtų įjungti RetailSale matavimo vienetai. Norėdami sužinoti daugiau apie šį sąrankos procesą, žr. [Darbas su priemonėmis](/dynamics365/ai/customer-insights/pm-measures).
+Užbaigę aukščiau aprašytus veiksmus, būsite pasiruošę įgalinti rekomendacijas.
 
 ## <a name="azure-ad-identity-configuration"></a>„Azure AD” tapatybės konfigūracija
 
-Šis veiksmas būtinas visiems klientams, kurie naudoja infrastruktūrą kaip paslaugos (IaaS) konfigūraciją. Klientams, naudojantiems „Service Fabric“ (SF), šis veiksmas turėtų būti automatinis ir rekomenduojame patikrinti, ar parametras sukonfigūruotas taip, kaip tikėtasi.
+Šis veiksmas būtinas visiems klientams, kurie naudoja infrastruktūrą kaip paslaugos (IaaS) konfigūraciją. „Azure AD“ Tapatybės konfigūracija yra automatinė klientams, kurie paleisti, bet rekomenduojama patikrinti, ar parametras „Azure Service Fabric“ sukonfigūruotas kaip tikėtasi.
 
 ### <a name="setup"></a>Sąranka
 
-1. Tarnybiniame biure ieškokite puslapio **„Azure Active Directory“ programos**.
-2. Patikrinkite, ar yra įrašas „RecommendationSystemApplication-1”.
+1. Programos "Commerce Headquarters" ieškokite **Azure Active Directory programų** puslapio.
+1. Patikrinkite, ar yra įrašas **RecommendationSystemApplication-1**. Jei įrašo nėra, sukurkite jį naudodami šią informaciją:
 
-Jei įrašo nėra, pridėkite naują įrašą su toliau pateikta informacija.
+    - **Kliento ID**: d37b07e8-dd1c-4514-835d-8b918e6f9727
+    - **Pavadinimas**: RecommendationSystemApplication-1
+    - **Vartotojo ID**: RetailServiceAccount
 
-- **Kliento ID** – d37b07e8-dd1c-4514-835d-8b918e6f9727
-- **Pavadinimas** – „RecommendationSystemApplication-1”
-- **Vartotojo ID** – RetailServiceAccount
-
-Įrašykite ir uždarykite puslapį. 
+1. Įrašykite ir uždarykite puslapį. 
 
 ## <a name="turn-on-recommendations"></a>Rekomendacijų įjungimas
 
@@ -71,15 +67,20 @@ Norėdami įjungti produktų rekomendacijas, atlikite toliau pateikiamus veiksmu
 ![Rekomendacijų įjungimas.](./media/FeatureManagement_Recommendations.PNG)
 
 > [!NOTE]
-> Ši procedūra paleidžia produktų rekomendacijų sąrašų generavimo procesą. Gali užtrukti iki kelių valandų, kol sąrašai bus pasiekiami ir juos bus galima matyti elektroniniame kasos aparate (EKA) arba programoje „Dynamics 365 Commerce“.
+> - Ši procedūra paleidžia produktų rekomendacijų sąrašų generavimo procesą. Gali užtrukti iki kelių valandų, kol sąrašai bus pasiekiami ir juos bus galima matyti elektroniniame kasos aparate (EKA) arba programoje „Dynamics 365 Commerce“.
+> - Ši konfigūracija įgalina ne visas rekomendacijų priemones. Išplėstinės funkcijos, pvz., personalizuotos rekomendacijos, „panašus į parduotuvę" ir „parduotuvės panašios aprašymo" kontroliuojamos paskirtų funkcijų valdymo įrašais. Informacijos apie šių funkcijų įgalinimas „Commerce Headquarters", žr.  [rekomendacijas Įgalinti pritaikytu](personalized-recommendations.md), [Įgalinti „parduotuvės panašius rodinius“](shop-similar-looks.md), ir [Įgalinti „parduotuvės panašų aprašą“ rekomendacijas](shop-similar-description.md).
 
 ## <a name="configure-recommendation-list-parameters"></a>Rekomendacijų sąrašo parametrų konfigūravimas
 
 Pagal numatytuosius parametrus, AI-ML pagrįstame produktų rekomendacijų sąraše teikiamos siūlomos reikšmės. Galite keisti numatytąsias siūlomas reikšmes į atitinkančias jūsų verslo srautą. Norėdami daugiau sužinoti apie tai, kaip pakeisti numatytuosius parametrus, eikite į [AI-ML pagrįstų rekomendacijų rezultatų valdymas](modify-product-recommendation-results.md).
 
+## <a name="include-recommendations-in-e-commerce-experiences"></a>Įtraukti rekomendacijas į el. komercijos patirtį
+
+Įgalinus „Commerce Headquarters" rekomendacijas, „Commerce" moduliai, naudojami el. prekybos patirties rekomendacijų rezultatams rodyti, yra parengti konfigūruoti. Dėl daugiau informacijos, žr. [Produkto surinkimo moduliai](product-collection-module-overview.md).
+
 ## <a name="show-recommendations-on-pos-devices"></a>Rekomendacijų rodymas EKA įrenginiuose
 
-Po to, kai bus įjungtos rekomendacijos „Commerce“ tarnybiniame biure, rekomendacijų skydas turi būti pridėtas prie valdiklio EKA ekrano naudojant išdėstymo įrankį. Norėdami sužinoti apie šį procesą, žr. [Rekomendacijų valdiklio įtraukimas į EKA įrenginių operacijų ekraną](add-recommendations-control-pos-screen.md). 
+Po to, kai bus įjungtos rekomendacijos „Commerce“ štabe, rekomendacijų skydas turi būti pridėtas prie valdiklio EKA ekrano naudojant išdėstymo įrankį. Norėdami sužinoti apie šį procesą, žr. [Rekomendacijų valdiklio įtraukimas į EKA įrenginių operacijų ekraną](add-recommendations-control-pos-screen.md). 
 
 ## <a name="enable-personalized-recommendations"></a>Personalizuotų rekomendacijų įjungimas
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 555f75df1b28d374f2a46481857902c2f9315809c082699355190c54e856899b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32d1c7efaefaecae12031073d67b0e4c2cf78a78
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736628"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474777"
 ---
 # <a name="forecast-reduction-keys"></a>Prognozės mažinimo raktai
 
@@ -86,7 +86,18 @@ Tokiu atveju, jei prognozės planavimą paleisite sausio 1 d., poreikio prognoz�
 
 ### <a name="transactions--reduction-key"></a>Operacijos – mažinimo raktas
 
-Jei pasirinksite **Operacijos – mažinimo raktas**: prognozės poreikius sumažina operacijos, atsirandančios laiko laikotarpiais, kurie nurodomi mažinimo raktu.
+Jei nustatote **metodą, naudojamą prognozės poreikio lauku sumažinti** iki *Operacijos - mažinimo rakto*, rognozės poreikiai yra sumažinami apibrėžtomis poreikio operacijomis, kurios atsiranda per laikotarpius, kuriuos nurodo mažinimo raktas.
+
+Apibrėžtas poreikis apibrėžiamas lauke **Sumažinti prognozę pagal**, kuris yra **padengimo grupių** puslapyje. Jei lauke Sumažinti **prognozę nustatoma kaip** laukelį į *Užsakymai*, tik pardavimo užsakymo operacijos laikomos apibrėžtu poreikiu. Jei nustatėte jį *visoms operacijoms*, bet kokios ne vidinės įmonės išdavimo atsargų operacijos laikomos apibrėžtu poreikiu. **Įtraukti tarpininkaujančios įmonės užsakymas** – Nustatykite šią parinktį į *Taip* jei tarpininkaujančios įmonės užsakymai turi būti įtraukti, kai prognozė sumažinta.
+
+Prognozės sumažinimas prasideda pirmu (anksčiausia) poreikio prognozės įrašu mažinimo rakto laikotarpiu. Jei apibrėžtų atsargų operacijų kiekis yra didesnis nei to paties mažinimo rakto laikotarpio poreikio prognozės eilučių kiekis, atsargų operacijų kiekio balansas bus naudojamas ankstesnio laikotarpio poreikio prognozės kiekiui sumažinti (jei yra nesudengta prognozė).
+
+Jei ankstesniu mažinimo rakto laikotarpiu nelieka nesusumuotos prognozės, atsargų operacijų kiekio balansas bus naudojamas prognozės kiekiui sumažinti kitą mėnesį (jei yra nesudengta prognozė).
+
+Mažinimo rakto eilučių lauko **Procentai** eikšmė nėra naudojama, kai laukas **Prognozės poreikius mažinti naudojamas metodas** yra nustatytas *Operacijos - mažinimo raktas*. Tik datos naudojamos mažinimo rakto laikotarpiui nurodyti.
+
+> [!NOTE]
+> Bet kuri prognozė, užregistruota šios dienos arba anksčiau, bus nepaisoma ir nebus naudojama suplanuotiems užsakymams kurti. Pvz., jei jūsų mėnesio poreikio prognozė sugeneruojama sausio 1 d., o jūs vykdote bendrąjį planavimą, į kurį įeina poreikio prognozė sausio 2 d., skaičiavimas nepaisys poreikio prognozės eilutės, kuri yra sausio mėn. 1 d.
 
 #### <a name="example-transactions--reduction-key"></a>Pavyzdys: operacijos – mažinimo raktas
 

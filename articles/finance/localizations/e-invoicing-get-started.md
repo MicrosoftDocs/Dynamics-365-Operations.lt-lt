@@ -2,7 +2,7 @@
 title: Darbo su elektroninių SF priedu pradžia
 description: Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis elektroninių SF išrašymo priedu „Microsoft Dynamics 365 Finance” ir „Dynamics 365 Supply Chain Management”.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3a62f68718a9bd46cdf15146bbb6a4e5166bfcc7abcf99b24d3fbc7e3e6c94ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ba0b68ee61b130b8d0304d0bac6d1d720af8139
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732986"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463845"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Darbo su elektroninių SF priedu pradžia
 
@@ -40,14 +40,14 @@ Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išanksti
 ## <a name="import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider"></a>Importuoti elektroninės sąskaitos išrašymo funkciją iš „Microsoft“ konfigūravimo tiekėjo 
 
 1. Prisijungti prie savo reguliavimo kongigūravimo paslaugų (RCS) paskyros.
-2. RCS pasirinkus dalį **Funkcijos**, esančią darbo srityje **Funkcijos**, pasirinkite plytelę **Elektroninių SF priedas**.
+2. RCS pasirinkus dalį **Visuotinės funkcijos**, esančią darbo srityje **Funkcijos**, pasirinkite plytelę **Elektroninių SF priedas**.
 3. Pasirinkite **Importuoti** ir tada rinkitės **Sinchronizuoti**.
 4. Filtruokite **Konfigūravimo tiekėjas** stulpelį pagal sąvoką **„Microsoft“**.
 5. Rinkitės elektroninės sąskaitos funkcijos pavadinimą iš lentelės šios temos pradžioje ir tada rinkitės **Importuoti**.
 
 ## <a name="create-an-electronic-invoicing-feature-under-your-organization-provider"></a>Sukurkite elektroninių sąskaitų funkciją jūsų organizacijos tiekėjuje
 
-1. RCS pasirinkus dalį **Funkcijos**, esančią darbo srityje **Globalizacijos funkcija**, pasirinkite plytelę **Elektroninių SF priedas**.
+1. RCS pasirinkus dalį **Funkcijos**, esančią darbo srityje **Globalizacijos funkcijos**, pasirinkite plytelę **Elektroninių SF priedas**.
 2. Rinkitės **Įtraukti** > **Pagal esančią funkciją** ir laukelyje **Pavadinimas**, įveskite elektroninės sąskaitos funkcijos pavadinimą.
 3. Laukelyje **Aprašas** įveskite funkcijos aprašą.
 4. **Pagrindinės funkcijos laukelis**, rinkiės importuojamą elektroninės sąskaitos funkciją iš „Microsoft“ konfigūravimo tiekėjo.
@@ -113,7 +113,7 @@ Konkretiesm žingsniams, žr. „Pradžia“ dokumentus, kurie yra prieinami jū
     | Ispanijos elektroninė SF (ES)      | <p>Pardavimo sąskaita faktūra</p><p>Projekto SF</p> | <p>Kliento SF žurnalas</p><p>Projekto SF</p> |
     | PEPPOL elektroninė SF            | <p>Pardavimo sąskaita faktūra</p><p>Projekto SF</p> | <p>Kliento SF žurnalas</p><p>Projekto SF</p> |
 
-7. Kiekvienam jūsų sukurtos lentelės pavadinimui, pasirinkite ir įveskite konteksto vertę pagal tolesnę lentelę.
+6. Kiekvienam jūsų sukurtos lentelės pavadinimui, pasirinkite ir įveskite konteksto vertę pagal tolesnę lentelę.
 
     | Funkcijos pavadinimas                         | Verslo dokumentas | Kontekstas |
     |--------------------------------------|-------------------|---------|
@@ -134,7 +134,7 @@ Konkretiesm žingsniams, žr. „Pradžia“ dokumentus, kurie yra prieinami jū
     | Ispanijos elektroninė SF (ES)      | <p>Pardavimo sąskaita faktūra</p><p>Projekto SF</p> | <p>Kliento sąskaitos konteksto modelis - Kliento sąskaitos kontekstas</p><p>Kliento sąskaitos konteksto modelis - Projekto sąskaitos kontekstas</p> |
     | PEPPOL elektroninė SF            | <p>Pardavimo sąskaita faktūra</p><p>Projekto SF</p> | <p>Kliento sąskaitos konteksto modelis - Kliento sąskaitos kontekstas</p><p>Kliento sąskaitos konteksto modelis - Projekto sąskaitos kontekstas</p> |
 
-8. Kiekvienam lentelės pavadinimu ir kontekstui, rinkitės ir įveskite verslo dokumentų žemėlapio vertę pagal tolesnę lentelę.
+7. Kiekvienam lentelės pavadinimu ir kontekstui, rinkitės ir įveskite verslo dokumentų žemėlapio vertę pagal tolesnę lentelę.
 
     | Funkcijos pavadinimas                         | Verslo dokumentas | Verslo dokumentų susiejimas |
     |--------------------------------------|-------------------|---------------------------|
@@ -177,11 +177,11 @@ Konkretiesm žingsniams, žr. „Pradžia“ dokumentus, kurie yra prieinami jū
 ## <a name="deploy-the-electronic-invoicing-feature-to-connected-application"></a>Elektroninių SF išrašymo funkcijos talpinimas į susietą programą
 
 1. Skirtuke **Versijos** rinkitės elektroninės sąskaitos funkcijos versiją, kurią norite talpinti.
-4. Rinkitės **Talpinkite**.
-5. Nustatykite **Talpinti į susietą programą** parinktį į **Taip**.
-6. Laukelyje **Sujungti programą** rinkitės sujungimą, kuris yra susietas su jūsų elementu „Finance“ ar „Supply Chain Management“.
-7. Nustatykite **Talpinti į paslaugų aplinką** parinktį į **Ne**.
-10. Pasirinkite **Gerai**.
+2. Rinkitės **Talpinkite**.
+3. Nustatykite **Talpinti į susietą programą** parinktį į **Taip**.
+4. Laukelyje **Sujungti programą** rinkitės sujungimą, kuris yra susietas su jūsų elementu „Finance“ ar „Supply Chain Management“.
+5. Nustatykite **Talpinti į paslaugų aplinką** parinktį į **Ne**.
+6. Pasirinkite **Gerai**.
 
 ## <a name="turn-on-the-electronic-invoicing-feature-in-finance-or-supply-chain-management"></a>Įsijunkite elektroninės sąskaitos funkciją „Finance“ ar „Supply Chain Management“
 
@@ -213,7 +213,7 @@ Konkretiesm žingsniams, žr. „Pradžia“ dokumentus, kurie yra prieinami jū
 ## <a name="issue-electronic-invoices"></a>Išduoti elektronines sąskaitas
 
 1. Eikite į **Organizacijos administravimas** \> **Periodinė** \> **Elektroniniai dokumentai** \> **Pateikti elektroninius dokumentus**.
-2. „FastTab“ **Įrašyti siekiant įtraukti** rinkitės **Filtras**.
+2. „FastTab„ **Įtrauktini įrašai** pasirinkite **Filtruoti**.
 3. Rinkitės **Įtraukti** tam, kad įtrauktumėte lentelės pavadinimą į laukimo filtrą.
 4. Rinkitės lentelę, kurioje yra sąskaitos.
 

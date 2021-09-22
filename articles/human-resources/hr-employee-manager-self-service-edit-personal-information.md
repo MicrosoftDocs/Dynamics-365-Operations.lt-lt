@@ -1,8 +1,8 @@
 ---
 title: Redaguoti asmeninę informaciją
 description: Šiame straipsnyje aprašoma, kaip redaguoti asmeninę informaciją darbuotojų ir vadovų savitarnoje.
-author: andreabichsel
-ms.date: 03/19/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80b4537601491c97c24cfa1fef5088cbf1ac276df76534034117161b0fe79dc2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb827e17dcfc63031d0edcb5f447e70f03e8ac3c
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715900"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431467"
 ---
 # <a name="edit-personal-information"></a>Redaguoti asmeninę informaciją
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Galite redaguoti asmeninę informaciją, esančią „Dynamics 365 Human Resources“, **Darbuotojo savitarnos darbo sritis**.
+Galite redaguoti asmeninę informaciją, esančią „Dynamics 365 Human Resources“, **Darbuotojo savitarnos** darbo sritis.
 
 Asmeninę informaciją, kurią galite redaguoti, sudaro tolesni elementai.
 
@@ -40,7 +40,7 @@ Asmeninę informaciją, kurią galite redaguoti, sudaro tolesni elementai.
 >[!NOTE]
 >Gali nepavykti redaguoti tam tikrų tipų asmeninės informacijos, pvz., verslo kontaktinės informacijos. Daugiau informacijos žr. skyriuje [Asmens informacijos redagavimo apribojimas](hr-employee-self-service-restrict-editing.md).
 
-Visuotinėje adresų knygelėje nustatyti parametrai apibrėžia vaidmenis, kurie gali matyti jūsų asmeninę informaciją.
+Visuotinėje adresų knygelėje **nustatyti parametrai apibrėžia** vaidmenis, kurie gali matyti jūsų asmeninę informaciją.
 
 1. „Human Resources“ pasirinkite **Darbuotojo savitarna**.
 

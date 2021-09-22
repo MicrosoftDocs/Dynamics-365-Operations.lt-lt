@@ -2,7 +2,7 @@
 title: Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas
 description: Šioje temoje aprašoma, kaip įmonė gali naudoti „Microsoft Dynamics 365 Commerce“, kad galėtų peržiūrėti įvertintą produktų pasiūlą internetinių ir fizinių parduotuvių kanaluose.
 author: hhainesms
-ms.date: 04/23/2021
+ms.date: 09/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: da79aadace09ad480fa34bc03220831023e469645bb7d53af1647bd2d35af0ea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3cfd8c2f0b88a4e634cee0398283a51eddf60b2
+ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741817"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7472176"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Šioje temoje aprašoma, kaip įmonė gali naudoti „Microsoft Dynamics 365 Commerce“, kad galėtų peržiūrėti įvertintą produktų pasiūlą internetinių ir fizinių parduotuvių kanaluose.
 
@@ -43,6 +44,21 @@ Kanalo atsargų skaičiavimas yra mechanizmas, kuris „Commerce Headquarters" l
 - Atsargos, parduotos per kliento užsakymus parduotuvės arba interneto kanale
 - Atsargos grąžintos į parduotuvę
 - Atsargos įvykdytos (paėmimas, pakuotė, laivas) iš parduotuvės sandėlio
+
+Norėdami naudoti kanalo atsargų skaičiavimą, turite įgalinti **optimizuoto produkto prieinamumo skaičiavimo** funkciją.
+
+Jei jūsų „Commerce" aplinkoje yra **nuo 10.0.8 iki 10.0.11** atlikite šiuos veiksmus.
+
+1. „Commerce“ štabe eikite į **Mažmeninė prekyba ir prekyba** \> **„Commerce“ bendrinti parametrai**.
+1. Skirtuke **Atsargos**, dalyje **Produkto pasiekiamumo užduotis**, laukelyje pasirinkite **Naudoti optimizuotą produkto pasiekiamumo užduoties procesą**.
+
+Jei jūsų „Commerce" aplinkoje yra **nuo 10.0.12 ar vėlesnės** atlikite šiuos veiksmus.
+
+1. „Commerce“ štabe eikite į **Darbo aplinka \> Funkcijų valdymas** ir įjunkite **Optimizuoto produkto prieinamumo skaičiavimo** funkciją.
+1. Jei jūsų interneto ir parduotuvės kanalai naudoja tuos pačius įvykdymo sandėlius, taip pat turite įgalinti patobulintos el. komercijos kanale **esančių atsargų skaičiavimo logikos** funkciją. Taip, kanalo pusės skaičiavimo logika nagrinės neužregistruotas operacijas, kurios sukuriamos parduotuvės kanale. (Šios operacijos gali būti grynųjų pinigų ir carry operacijos, klientų užsakymai ir grąžinimai.)
+1. Vykdykite **1070** (**Kanalo konfigūracija**) užduotį.
+
+Jei „Commerce" aplinka buvo atnaujinta iš ankstesnės nei „Commerce" versija 10.0.8, įjungę funkciją **Optimizuotas produkto pasiekiamumas** funkcija, taip pat turite vykdyti **Pradėti prekybos tvarkaraštį** tam, kad funkcija būtų taikoma. Norėdami vykdyti pradžią, eikite į **Prekyba ir komercija** \> **Būstinės sąranka** \> **Prekybos planuoklė**.
 
 Norint naudoti kanalo atsargų skaičiavimą, kaip būtinąsias sąlygas į kanalo duomenų bazes turi būti siunčiamas periodinis atsargų duomenų vaizdas iš būstinės, kurią sukūrė produkto prieinamumo **užduotis**. Momentinė kopija rodo informaciją, kurią štabus turi apie atsargų pasiekiamumą pagal tam tikrą produktą arba produkto variantą ir sandėlį. Ji apima tik atsargų operacijas, kurios buvo apdorotos ir užregistruotos būstinėje tuo metu, kai buvo paimta momentinė kopija, ir ji gali būti ne 100 procentų tiksli realiuoju laiku dėl pastovaus pardavimo apdorojimo, vykstainio paskirstytuose serveriuose.
 
@@ -75,8 +91,6 @@ Abi API vidiniai naudoja kanalo pusės skaičiavimo logiką ir grąžina įverti
 
 Nors kitos „Commerce“ serveryje esančios API gali patekti tiesiai į štabo, kad galėtų gauti turimų produktų atsargų kiekius, nerekomenduojame jų naudoti elektroninės prekybos aplinkoje dėl galimų našumo problemų ir susijusio poveikio, kurį šios dažnos užklausos gali turėti jūsų štabo serveriuose. Be to, kartu su kanalo skaičiavimu du pirmiau nurodyti API gali pateikti tikslesnį produkto prieinamumo įvertinimą, atsižvelgdami į kanaluose sukurtas operacijas, kurių būstinė dar nežinoma.
 
-Prieš jums naudojant abi anksčiau paminėtas API programas, turite išjungti realaus laiko paslaugų skambučius atsargų paieškai iš EKA programos, pirmiausia turite įjungti **Optimizuoto produkto prieinamumo skaičiavimo** funkciją per **Funkcijų valdymo** darbo sritį štabe. Jei jūsų interneto ir parduotuvės kanalai naudoja tuos pačius įvykdymo sandėlius, taip pat turite įgalinti patobulintos el. komercijos kanalų atsargų skaičiavimo logikos priemonę, kad kanalų skaičiavimo logika būtų taikoma dviem API, kad būtų atsižvelgiama į neužregistruotas operacijas (grynųjų pinigų ir perkėlimo, kliento užsakymus, grąžinimus), sukurtą **parduotuvės kanale**. Įjungus šias funkcijas, **reikia paleisti užduotį** **1070** (kanalo konfigūracija).
-
 Norėdami nurodyti, kaip produktų kiekis turi būti grąžintas API išeiga, atlikite šiuos veiksmus.
 
 1. Eikite į **Mažmeninė prekyba ir prekyba \> Būstinės sąranka \> Parametrai \> Prekybos parametrai**.
@@ -85,17 +99,17 @@ Norėdami nurodyti, kaip produktų kiekis turi būti grąžintas API išeiga, at
 
 **API išeigos** parametrų kiekis pateikia tris pasirinktis:
 
-- **Grąžinti atsargų kiekį –** faktinis turimas ir bendras turimas pageidaujamo produkto kiekis grąžinamas į API išeigą.
-- **Grąžinamų atsargų kiekio, atimamo atsargų buferį, buferis – API išeiga grąžintas kiekis koreguojamas atėmus** atsargų buferio vertę. Daugiau informacijos apie atsargų buferį ieškokite Konfigūruoti [atsargų buferius ir atsargų lygius](inventory-buffers-levels.md).
-- **Negrąžinti atsargų** kiekio – API išeigai grąžinamas tik atsargų lygis. Daugiau informacijos apie atsargų lygius ieškokite Konfigūruoti [atsargų buferius ir atsargų lygius](inventory-buffers-levels.md).
+- **Grąžinti atsargų kiekį** - faktinis turimas ir bendras turimas pageidaujamo produkto kiekis grąžinamas į API išeigą.
+- **Grąžinamų atsargų kiekio, atimamo atsargų buferį, buferis** – API išeiga grąžintas kiekis koreguojamas atėmus atsargų buferio vertę. Daugiau informacijos apie atsargų buferį ieškokite Konfigūruoti [atsargų buferius ir atsargų lygius](inventory-buffers-levels.md).
+- **Negrąžinti atsargų kiekio** – API išeigai grąžinamas tik atsargų lygis. Daugiau informacijos apie atsargų lygius ieškokite Konfigūruoti [atsargų buferius ir atsargų lygius](inventory-buffers-levels.md).
 
 API parametrą `QuantityUnitTypeValue` galite naudoti vieneto tipui, kuriuo API turėtų būti naudojamas grąžinamas kiekis, nurodyti. Šis parametras palaiko **atsargų vienetą** (numatytąjį), **pirkimo vienetą ir pardavimo** **vieneto** pasirinktis. Grąžintas kiekis apvalinamas iki nustatyto atitinkamos matavimo vieneto (mat. vnt.) valdymo vieneto tikslumo.
 
 **GetEstimatedAvailability** API siūlo šiuos įvesties parametrus, kurie palaiko skirtingus užklausų scenarijus:
 
 - `DefaultWarehouseOnly` – naudoti šį parametrą norint pateikti užklausą dėl produkto atsargų interneto kanalo numatytame sandėlyje. 
-- `FilterByChannelFulfillmentGroup` ir – naudoti šiuos du parametrus norint pateikti užklausą dėl produkto atsargų iš visų paėmimo vietų, esančių tam `SearchArea` tikroje ieškos srityje, pagal `longitude`, ir `latitude`, `radius`. 
-- `FilterByChannelFulfillmentGroup` ir – naudoti šiuos du parametrus norint pateikti užklausą dėl konkrečių sandėlių, kurie susieti su interneto kanalo įvykdymo grupe produkto atsargomis ir kurie sukonfigūruoti palaikyti tam tikrus `DeliveryModeTypeFilterValue` pristatymo būdus. Parametras `DeliveryModeTypeFilterValue`palaiko **visas** (numatytąsias), **siuntimo ir** **paėmimo** pasirinktis. Pavyzdžiui, scenarijuje, kai užsakymas tinkle gali būti įvykdytas iš kelių siuntimo sandėlių, galite naudoti šiuos du parametrus, norėdami pateikti užklausą dėl produkto atsargų prieinamumo visuose siuntimo sandėliuose. API šiuo atveju grąžina kiekvieno siuntimo sandėlio turimo produkto kiekį ir atsargų lygį, pridėjus sudėtinį kiekį ir agreguotas visų siuntimo sandėlių, esančių užklausos aprėnyje, atsargų lygį.
+- `FilterByChannelFulfillmentGroup` ir `SearchArea` – naudoti šiuos du parametrus norint pateikti užklausą dėl produkto atsargų iš visų paėmimo vietų, esančių tam tikroje ieškos srityje, pagal `longitude` ir `latitude`, `radius`. 
+- `FilterByChannelFulfillmentGroup` ir `DeliveryModeTypeFilterValue` – naudoti šiuos du parametrus norint pateikti užklausą dėl konkrečių sandėlių, kurie susieti su interneto kanalo įvykdymo grupe produkto atsargomis ir kurie sukonfigūruoti palaikyti tam tikrus pristatymo būdus. Parametras `DeliveryModeTypeFilterValue`palaiko **visas** (numatytąsias), **siuntimo ir** **paėmimo** pasirinktis. Pavyzdžiui, scenarijuje, kai užsakymas tinkle gali būti įvykdytas iš kelių siuntimo sandėlių, galite naudoti šiuos du parametrus, norėdami pateikti užklausą dėl produkto atsargų prieinamumo visuose siuntimo sandėliuose. API šiuo atveju grąžina kiekvieno siuntimo sandėlio turimo produkto kiekį ir atsargų lygį, pridėjus sudėtinį kiekį ir agreguotas visų siuntimo sandėlių, esančių užklausos aprėnyje, atsargų lygį.
  
 „Commerce buy box", parduotuvės išrinkiklis, pageidavimų sąrašas, krepšelis ir krepšelio piktogramų moduliai naudoja anksčiau paminėtos API ir parametrus, kad būtų rodomi atsargų lygio pranešimai el. komercijos svetainėje. „Commerce" svetainės generatoriuje pateikiami įvairūs atsargų parametrai, leidžiantys valdyti reklamavimo ir pirkimo elgseną. Daugiau informacijos žr. [Atsargų parametrų taikymas](inventory-settings.md).
 
@@ -136,6 +150,5 @@ Norint užtikrinti, kad atsargos būtų įvertintos kuo tiksliau, svarbu naudoti
 > - Dėl našumo priežasčių, kai kanalo atsargų pasiekiamumo skaičiavimai naudojami atsargų pasiekiamumo užklausai įvykdyti naudojant el. prekybos API arba naują EKA kanalo atsargų logiką, skaičiuojant naudojama talpykla, kad būtų nustatyta, ar praėjo pakankamai laiko, kad būtų protinga skaičiavimo logiką vykdyti dar kartą. Numatytoji talpykla nustatyta kaip 60 sekundžių. Pavyzdžiui, jūs įjungėte kanalo skaičiavimą savo parduotuvei ir peržiūrėjote turimas produkto atsargas puslapyje **Atsargų peržvalga**. Jei tada vienas produkto vienetas parduodamas, puslapyje **Atsargų peržvalga** nebus rodomos sumažėjusios atsargos, kol talpykla nebus išvalyta. Po to, kai vartotojai užregistruos operacijas EKA, turi praeiti 60 sekundžių, kad būtų matomas turimų atsargų sumažėjimas.
 
 Jei pagal jūsų verslo scenarijų reikia trumpesnio talpyklos laiko, pagalbos kreipkitės į savo produktų palaikymo tarnybos atstovą.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

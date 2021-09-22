@@ -1,6 +1,6 @@
 ---
-title: Debesies ir krašto skalės vienetai gamybai ir sandėlio valdymo darbo apkrovoms
-description: Šioje temoje pateikiama informacija apie debesies ir krašto skalės vienetų gamybą ir sandėlio valdymo darbo apkrovas.
+title: Skalės vienetai paskirstytoje topologijoje
+description: Šioje temoje pateikiama informacija apie debesies ir briaunos skalės vienetų gamybos ir sandėlio valdymo darbo krūvius.
 author: cabeln
 ms.date: 04/22/2021
 ms.topic: article
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: dbe5833d4c9d8038fcebf1d9d446af757c834e42a2f77f10c7eb7268e738ed28
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 59d246dd348bca6c00dc90b19353a382986841f2
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780679"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471745"
 ---
-# <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Gamybos ir sandėlio valdymo darbo krūvių debesies ir briaunos skalės vienetas
+# <a name="scale-units-in-a-distributed-hybrid-topology"></a>Skalės vienetai paskirstytoje topologijoje
 
 [!include [banner](../includes/banner.md)]
 
@@ -26,11 +26,11 @@ ms.locfileid: "6780679"
 >
 > Kai įgalinsite debesies ir briaunos skalės vienetus, būsite paprašyti patvirtinti, kad suprantate, jog kai kurie duomenys yra susieti su konfigūravimu ir debesies ir briaunos skalės vienetų, kurie gali būti laikomi Jungtinėse Valstijose esančiame duomenų centre, konfigūravimu ir apdorojimu. Norėdami sužinoti daugiau apie debesies ir briaunos skalės vienetų duomenų apdorojimą, skaitykite skyriuje [Duomenų apdorojimą skalės vienetų valdymo metu](#data-processing-management), pateiktame toliau šioje temoje.
 
-## <a name="core-value-proposition-for-scale-units"></a>Pagrindinė reikšmės pasiūlymas skalės vienetams
+## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>Paskirstytos topologijos pagrindinės vertės pasiūlymas
 
-Įmonės, dirbančios su gamyba ir platinimu, privalo vykdyti pagrindinius verslo procesus 7 dienas per savaitę, 24 valandas per parą be pertrūkių ir laipsniškai. Debesies ir krašto skalės vienetai leidžia įmonėms vykdyti pagrindinius kritines misijos gamybos ir sandėlio procesus be pertrūkio, net jei jos susiduria su kartais pasireiškiančiomis tinklo ryšio ar vėlavimo problemomis.
+Įmonės, dirbančios su gamyba ir platinimu, privalo vykdyti pagrindinius verslo procesus 7 dienas per savaitę, 24 valandas per parą be pertrūkių ir laipsniškai. Paskirstyta hibridinė topologija leidžia įmonėms vykdyti pagrindinius kritines misijos gamybos ir sandėlio procesus be pertrūkio, net jei jos susiduria su kartais pasireiškiančiomis tinklo ryšio ar vėlavimo problemomis.
 
-Debesies ir briaunos skalės vienetai leidžia paskirstyti parduotuvės aukšto ir sandėlio vykdymų darbo krūvius tarp skirtingų aplinkų. Ši funkcija gali padėti pagerinti efektyvumą, apsaugoti nuo paslaugų pertrūkių ir maksimalizuoti veikimo laiką. Skalės vienetai pateikiami šiais jūsų „Supply Chain Management” prenumeratos priedais:
+Paskirstytoje pagal topologiją pristatyta skalės vienetų koncepcija, kuri įgalina darbo laiko ir *sandėlio vykdymo* darbo krūvį paskirstyti skirtingose aplinkose. Ši funkcija gali padėti pagerinti efektyvumą, apsaugoti nuo paslaugų pertrūkių ir maksimalizuoti veikimo laiką. Skalės vienetai pateikiami šiais jūsų „Supply Chain Management” prenumeratos priedais:
 
 - Debesies skalės vieneto papildiniu, skirtu „Dynamics 365 Supply Chain Management” (*bus pasiekiamas 2021 m. balandį*)
 - Briaunos skalės vieneto papildiniu, skirtu „Dynamics 365 Supply Chain Management” (*netrukus bus pasiekiamas*)

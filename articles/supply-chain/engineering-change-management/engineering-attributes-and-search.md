@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: a367b95a65c45b1e7ac46e9ac96baa2417bf3e48e3d5bfeca21c82cc8c427c24
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5cb4c2b9b4a3c54e71f73369096d00b436079c1c
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714359"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7475017"
 ---
 # <a name="engineering-attributes-and-engineering-attribute-search"></a>Inžineriniai atributai ir inžinerinio atributo paieška
 
@@ -26,15 +26,13 @@ ms.locfileid: "6714359"
 
 Norėdami, kad visi produkto bendrieji duomenys būtų registruoti sistemoje, turėtumėte naudoti inžinerinius atributus tam, kad nurodytumėte visas nestandartines savybes. Tuomet galite naudoti inžinerinį atributo paiešką tam, kad nesunkiai rastumėte produktus pagal jų registruotas savybes.
 
-## <a name="engineering-attributes"></a>Inžinerijos atributai
+## <a name="create-engineering-attributes-and-attribute-types"></a>Sukurkite inžinerinius atributus ir jo tipus
 
 Dažniausiai, inžinerijos produktai turi daug savybių ir ypatybių, kurias turite apimti. Nepaisant to, kad galite registruoti kai kurias savybes naudodami standartinius produkto laukelius, galite taip pat kurti naujas inžinerines ypatybes, kaip reikia. Galite nurodyti savo *inžinerinius atributus* ir padaryti juos produkto sąvokos dalimi.
 
-### <a name="create-engineering-attributes-and-attribute-types"></a>Sukurkite inžinerinius atributus ir jo tipus
-
 Bet kuris inžinerinis atributas turi priklausyti *atributo tipui*. Toks reikalavimas egzistuoja dėl to, kad visi inžineriniai atributai turi turėti *duomenų tipą*, kuris nustato jo turimus verčių tipus. Inžinerinio atributo tipas gali būti standartinis tipas (toks kaip laisvas tekstas, integruojantis ar dešimtainė) arba tinkintas tipas (toks kaip tekstas turinti konkretų verčių rinkinį, iš kurių rinktis). Galite dar kartą panaudoti kiekvieną atributo tipą su bet kuriuo inžinerinių atributų numeriu.
 
-#### <a name="set-up-engineering-attribute-types"></a>Nustatykite inžinerijos atributo tipą
+### <a name="set-up-engineering-attribute-types"></a>Nustatykite inžinerijos atributo tipą
 
 Norėdami peržiūrėti, sukurti ar redaguoti inžinerinių pakeitimų užklausą, atlikite vieną iš šių žingsnių.
 
@@ -48,7 +46,7 @@ Norėdami peržiūrėti, sukurti ar redaguoti inžinerinių pakeitimų užklaus�
     - **Vertės intervalas** – Ši parinktis prieinama tik jei nustatėte **Tipo** laukelį į *Integruojantis*, *Dešimtainė* ar *Valiuta*. Nustatykite jį į *Taip* norėdami sukurti minimalias ir maksimalias vertes, kurios bus priimtos šio tipo atributams. Naudojate **Intervalo** „FastTab“ norėdami sukurti minimalias ir maksimalias vertes bei (valiutai) valiutą taikomą jūsų įvestiems apribojimams. Nustatykite šią parinktį į *Ne* norėdami priimti bet kurią vertę. 
     - **Matavimo vienetas** – Šis laukelis prieinamas tik jei nustatėte **Tipo** laukelį į *Integruojantis* ar *Dešimtainis*. Pasirinkite matavimo vienetą taikomą šiam atributo tipui. Jei jokio vieneto nereikia, palikite laukelį tuščią.
 
-#### <a name="set-up-engineering-attributes"></a>Nustatykite inžinerijos atributus
+### <a name="set-up-engineering-attributes"></a>Nustatykite inžinerijos atributus
 
 Norėdami peržiūrėti, sukurti ar redaguoti inžinerinių pakeitimų užklausą, atlikite vieną iš šių žingsnių.
 
@@ -70,17 +68,43 @@ Norėdami peržiūrėti, sukurti ar redaguoti inžinerinių pakeitimų užklaus�
     - **Minimalus** – Įveskite minimalią vertę rekomenduojamą ar priimtą.
     - **Maksimalus** – Įveskite maksimalią vertę rekomenduojamą ar priimtą.
 
-### <a name="connect-engineering-attributes-to-an-engineering-product-category"></a>Sujunkite inžinerijos atributus su inžinerijos produkto kategorija
+### <a name="engineering-attribute-inheritance"></a>Inžinerijos atributo paveldėjimas
+
+Produktų struktūrose, pvz., komplektavimo specifikacijose (KS) arba formulėse, pasirinkti atributai gali būti perduoti iš antrinių prekių iki pirminių prekių. Apie šį procesą galite galvoti kaip apie „atvirkštinį paveldėjimą".
+
+#### <a name="turn-on-this-feature-for-your-system"></a>Šios funkcijos įjungimas sistemoje
+
+Jei jūsų sistemoje dar nėra šioje temoje aprašytų funkcijų, eikite į [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir įjunkite *Pagerintas atributo paveldimumas Engineering Change Management* funkcijai.
+
+#### <a name="attribute-inheritance-example"></a>Atributų paveldėjimo pavyzdys
+
+Jei tai yra maisto produktas, pvz., automobilio buferis, sistema turi užregistruoti kiekvieną kartą, kai jis yra. Karrot suformavimo modelį sistemoje galima modeliuoti kaip inžinerinį produktą, turiį formulę. Šioje formulėje yra automobilio ingredientai, pvz., kuko, sausainių, sausainių ir papėlidžių. Šiame pavyzdyje įmonė pateikia du automobilio sausainių modelius: pagal vieną, kuriame yra, ir kuris neturi duomenų.
+
+Sudedamosios dalies lygyje turi daug atributų:
+
+- Sudedamoji dalis „iš": atributas „glitimas" = taip
+- Sudedamoji dalis „pienas": atributas „laktozė" = taip
+- Sudedamoji dalis „riešutai": atributas „riešutai" = taip
+
+Pyrage nėra laktozės, kuri naudoja pieną be laktozės ir turi šiuos ingridiento lygio atributus:
+
+- Sudedamoji dalis „iš": atributas „glitimas" = taip
+- Sudedamoji dalis „pienas": atributas „laktozė" = ne
+- Sudedamoji dalis „riešutai": atributas „riešutai" = taip
+
+Kadangi šie produktai dažniausiai yra panašūs, gali būti patogu perduoti šiuos atributus iš vaikų (du variantai) pirminiam produktui (pagrindinio sausainių variacijos). Norėdami įdiegti šį „atvirkštinį paveldėjimą", galite naudoti *atributų paveldėjimo* funkciją. Šis funkcionalumas apibrėžiamas kiekvienai [inžinerijos versijai](engineering-versions-product-category.md).
+
+## <a name="connect-engineering-attributes-to-an-engineering-product-category"></a>Sujunkite inžinerijos atributus su inžinerijos produkto kategorija
 
 Kai kurie inžinerijos atributai taikomi visiems produktams, tuo tarpu kiti yra konkretūs atskiriems produktams ar jų kategorijoms. Pavyzdžiui, elektriniai atributai nereikalingi mechaniniams produktams. Dėl to, galite nustatyti *inžinerijos produkto kategorijas*. Inžinerijos produkto kategorija nustato inžinerijos atributų kolekciją, kuri turi būti sąvokos produktams dalis, priklausanti tai kategorijai. Galite taip pat nurodyti, kurie inžinerijos atributai yra privalomi ir ar yra numatytoji vertė.
 
 Dėl daugiau informacijos apie tai, kaip dirbti su inžinerijos produktų kategorijomis, įskaitant informaciją apie tai, kaip sujungti atributus su jomis, žr.  [INžinerijos versijos ir inžinerijos produktų kategorijos](engineering-versions-product-category.md).
 
-### <a name="set-values-for-engineering-attributes"></a>Nustatykite vertes inžinerijos atributams
+## <a name="set-attribute-values-for-engineering-attributes"></a>Nustatykite atributų vertes inžinerijos atributams
 
 Inžinerijos atributai sujungti su inžinerijos produkto kategorijomis yra rodomi, kai kuriate naują inžinerijos produktą paremtą ta kategorija. Tuo metu, galite nustatyti vertes atributams. Vėliau tos vertės gali būti pakeistos **Inžinerijos versijos** puslapyje arba kaip inžinerijos keitimų valdymo dalis inžinerijos keitimo užsakyme. Dėl daugiau informacijos, žr. [Valdyti keitimus inžinerijos produktams](engineering-change-management.md).
 
-### <a name="create-an-engineering-product"></a>Sukurkite inžinerijos produktą
+## <a name="create-an-engineering-product"></a>Sukurkite inžinerijos produktą
 
 Norėdami sukurti inžinerijos produktą, atidarykite **Išleisti produktai** puslapį. Tuomet, veiksmų juostoje skirtuke **Produktas** grupėje **Naujas** pasirinkite **Inžinerijos produktas**.
 

@@ -2,7 +2,7 @@
 title: Darbo su elektroninių SF priedu tarnybos administravimui pradžia
 description: Ši tema paaiškina, kaip pradėti su elektroninės sąskaitos priedo paslaugų administravimu.
 author: gionoder
-ms.date: 05/24/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: feb8160cd920906765f7ef4a393e15c2be5d8c2cd60c3646e15648980ff27a06
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f77c8fd1696b74f852d04cc0a696d4816ef9af1f
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765649"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463814"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>Darbo su elektroninių SF priedu tarnybos administravimui pradžia
 
@@ -33,7 +33,7 @@ ms.locfileid: "6765649"
 Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išankstines sąlygas:
 
 - Turite turėti savo „Microsoft Dynamics Lifecycle Services“ (LCS) paskyrą.
-- Turite turėti LCS projektą, kuris apima versiją 10.0.17 ar vėlesnę „Microsoft Dynamics 365 Finance“ ir „Dynamics 365 Supply Chain Management“. Taip pat, šios programos turi būti talpintos vienoje iš tolesnių „Azure“ geografijų:
+- Turite turėti LCS projektą, kuris apima versiją 10.0.17 ar vėlesnę „Microsoft Dynamics 365 Finance“ ar „Dynamics 365 Supply Chain Management“. Taip pat, šios programos turi būti talpintos vienoje iš tolesnių „Azure“ geografijų:
 
     - Jungtinės Valstijos
     - Europa
@@ -47,20 +47,20 @@ Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išanksti
 ## <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Diekite priedą mikro paslaugoms „Lifecycle Services“
 
 1. Prisijunkite prie savo LCS paskyros ir LCS projekto ataskaitų srityje pasirinkite LCS projektą.
-2. Projekto aplinkos ataskaitų srityje pasirinkite LCS diegimo projektą. Projektas, kurį pasirinkote, turi būti vykdomas.
+2. Projekto **Aplinkos** ataskaitų srityje rinkitės savo talpinimo aplinką. Turi būti paleista jūsų pasirinkti aplinka.
 3. Skirtuko **„Power Platform“ integravimas** lauko **Aplinkos papildiniai** grupėje Pasirinkite **Diegti naują priedą**.
 4. Rinkitės **SF siuntimas**.
 5. Lauke **AAD programos ID** įveskite **„091c98b0-a1c9-4b02-b62c-7753395ccabe**. Tai – fiksuota vertė.
-6. Lauke **AAD nuomotojo ID** įveskite savo „Azure” prenumeratos abonemento savininko ID.
+6. Lauke **AAD nuomotojo ID** įveskite savo „Azure” prenumeratos abonemento savininko ID. Jūsų „Azure Active Directory“ ir („Azure AD“) nurodytas nuomininkas turėtų būti tas pats nuomininkas, naudojamas RCS.
 7. Peržiūrėkite sąlygas ir nuostatas, o tada pažymėkite žymės langelį.
-8. Pasirinkti **Diegti**.
+8. Pasirinkti **Diegti**. Diegimas gali užtrukti iki kelių minučių.
 
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>Nustatykite parametrus RCS integravimui su elektroninės sąskaitos priedu
 
 1. Prisijunkite prie jūsų RCS abonemento.
-2. Darbo srities **Elektroninės ataskaitos** dalyje **Susiję saitai** pasirinkite **Elektroninių ataskaitų parametrai**.
-3. Skirtuke **el. sąskaitų paslaugos** laukelyje **Paslaugų galinis taškas URI** laukelyje, įveskite paslaugų galinį tašką „Azure“ geogarfijoje kaip parodyta šioje lentelėje.
+2. Darbo srities **Globalizacijos funkcijos** dalyje **Susiję parametrai** pasirinkite saitą **Elektroninių ataskaitų parametrai**.
+3. Skirtuke **El. sąskaitų** laukelyje **Paslaugų galinis taškas URI** laukelyje, įveskite paslaugų galinį tašką „Azure“ geogarfijoje kaip parodyta šioje lentelėje.
 
     | Duomenų centro „Azure“ geografija | Paslaugos galinio punkto URI                                                       |
     |----------------------------|----------------------------------------------------------------------------|
@@ -69,15 +69,15 @@ Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išanksti
     | Jungtinė Karalystė             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Azija                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
-4. Patvirtinkite, kad **Programos Id** laukelis yra nustatytas į **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Ši vertė yra fiksuota vertė.
-5. Laukelyje **LCS aplinkos Id** įveskite savo aplinkos LCS prenumeratos ID.
+4. Patvirtinkite, kad **Programos ID** laukelis yra nustatytas į **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Ši vertė yra fiksuota vertė.
+5. Laukelyje **LCS aplinkos ID** įveskite savo aplinkos LCS prenumeratos ID.
 6. Pasirinkite **Įrašyti** ir uždarykite puslapį.
 
 ## <a name="create-key-vault-references"></a>Raktų saugyklos nuorodų kūrimas
 
 1. Prisijunkite prie jūsų RCS abonemento.
 2. Darbo srities **Globalizacijos funkcijos** dalyje **Aplinka** pasirinkite plytelę **Elektroninių SF išrašymo priedas**.
-3. Puslapyje **Aplinkos nustatymai** veiksmų juostoje rinkitės **Paslaugų aplinka** ir tada rinkitės **Pagrindiniai parametrai**.
+3. Puslapyje **Aplinkos nustatymai** veiksmų juostoje rinkitės **Paslaugų aplinkos** ir tada rinkitės **Pagrindiniai parametrai**.
 4. Pasirinkite **Naujas** jei norite sukurti rakto saugyklos nuorodą.
 5. **Pavadinimas** laukelyje įveskite pagrindinės talpyklos nuorodą. Lauke **Aprašas** įveskite aprašą.
 6. Lauke **Rakto talpyklos URI** įklijuokite slaptą nuorodos saugyklą iš „Azure Key Vault". Daugiau informacijos žr. [Kurti „Azure” saugyklos paskyrą ir talpyklos raktą](e-invoicing-create-azure-storage-account-key-vault.md).
@@ -113,17 +113,19 @@ Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išanksti
 8. Lauke **Vartotojo ID** įveskite vartotojo pravardę. Lauke **El. paštas** įveskite vartotojo el. pašto adresą.
 9. Pasirinkite **Įrašyti**.
 10. Jei jūsų šalies ar regiono konkrečios sąskaitos reikalauja sertifikatų grandinės siekiant taikyti skaitmeninį parašą, veiksmų juostoje rinkitės **Pagrindiniai talpyklos parametrai**, tada rinkitės **Sertifikatų grandinė** ir alikite šiuos žingsnius:
+
     1. Pasirinkite **Naujas** tam, kad sukurtumėte sertifikatų grandinę.
     2. **Pavadinimas** laukelyje įveskite sertifikato grandinės pavadinimą. Lauke **Aprašas** įveskite aprašą.
     3. Skyriuje **Sertifikatai** pasirinkite **Įtraukti** kad į grandinę būtų įtrauktas sertifikatas.
     4. Norėdami pakeisti **Aukštyn** arba **Žemyn** poziciją sertifikato grandinėje.
     5. Pasirinkite **Įrašyti** ir uždarykite puslapį.
     6. Uždarykite puslapį.
+
 11. Puslapyje **Paslaugų aplinka** veiksmų juostoje rinkitės **Publikuoti** kad publikuotumėte aplinką debesyje. Vertė **Būsena** laukelyje pakeičiama į **Publikuota**.
 
 ## <a name="create-a-connected-application"></a>Kurkite sujungtą programą
 
-1. **Aplinkos nustatymų** puslapyje, veiksmų juostoje pasirinkite **Sujungtos programos**.
+1. **Aplinkų nustatymų** puslapyje, veiksmų juostoje pasirinkite **Sujungtos programos**.
 2. Pasirinkite **Naujas**, kad sujungtumėte programą.
 3. **Pavadinimas** laukelyje įveskite sujungiamos programos pavadinimą.
 4. Laukelyje **Programa** įveskite „Finance and Supply Chain Management“ sujungiamos aplinkos URL.
@@ -133,7 +135,7 @@ Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išanksti
 
 ## <a name="link-connected-applications-to-environments"></a>Susieti prie aplinkos prijungtas programas
 
-1. **Aplinkos nustatymų** puslapyje pasirinkite **Naujas** jei norite aplinkai priskirt prijungtą programą.
+1. **Aplinkų nustatymų** puslapyje pasirinkite **Naujas** jei norite aplinkai priskirt prijungtą programą.
 2. Laukelyje **Prijungta programa** pasirinkite sujungtą programą.
 3. Lauke **Aptarnavimo aplinka** pasirinkite darbo užsakymo aptarnavimo aplinką.
 4. Pasirinkite **Įrašyti** ir uždarykite puslapį.
@@ -149,7 +151,7 @@ Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išanksti
 ### <a name="set-up-the-service-endpoint-url"></a>Paslaugos galinio punkto URL nustatymas
 
 1. Eikite į **Organizacijos administravimas \> Nustatymas \> Elektroninių dokumentų parametrai**.
-2. Skirtuke **Pateikimo paslaugos** laukelyje **Aptarnavimo galutinio taško URL** įveskite atitinkamą „Azure" geografijos paslaugos galinį punktą, kaip parodyta pateiktoje lentelėje.
+2. Skirtuke **El. sąskaitų** laukelyje **Galinis taškas URL** laukelyje, įveskite paslaugų galinį tašką „Azure“ geogarfijoje kaip parodyta šioje lentelėje.
 
     | Duomenų centro „Azure“ geografija | Paslaugos galinio punkto URI                                                       |
     |----------------------------|----------------------------------------------------------------------------|
@@ -161,9 +163,8 @@ Prieš užbaigdami procedūrą šioje temoje, būtina atlikti tolesnes išanksti
 3. Laukelyje **Aplinka** įveskite paslaugų aplinkos publikuotos elektroninėse sąskaitos pavadinimą
 4. Pasirinkite **Įrašyti** ir uždarykite puslapį.
 
-### <a name="enable-flighting-keys"></a>Įgalinti skrydžio raktus
+### <a name="enable-flighting-keys-for-finance-or-supply-chain-management-version-10017"></a>Įjungti „Finance“ arba „Supply Chain Management“ versijos 10.0.17 skrydžio raktus
 
-Įgalinkite "Microsoft Dynamics 365 Finance“ ar "Microsoft Dynamics 365 Supply Chain Management“ 10.0.17 ar ankstesnių versijų skrydžio raktus. 
 1. Vykdykite toliau pateiktą SQL komandą.
 
     INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('BusinessDocumentSubmissionServiceEnabled', 1)

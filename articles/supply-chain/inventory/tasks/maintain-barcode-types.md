@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 052311e15aeb20b927cbed217a2bda600dad60a5
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 4102f8036c0aede7c8a2adcaa9b8799a71ac7ada
+ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345655"
+ms.lasthandoff: 08/28/2021
+ms.locfileid: "7441294"
 ---
 # <a name="maintain-bar-code-types"></a>Brūkšninių kodų tipų tvarkymas
 
@@ -32,7 +32,8 @@ ms.locfileid: "7345655"
 1. Lauke **Brūkšninio kodo sąranka** įveskite vertę.
 1. Lauke **Aprašo laukas** surinkite reikšmę.
 1. Lauke **Brūkšninio kodo tipas** pasirinkite pasirinktį.
-    * Jei naudojate USMF, galite pasirinkti „Kodas 39“.  
+    * Jei naudojate USMF, galite pasirinkti „Kodas 39“.
+1. Laukelyje **Šablono ID** – unikalus brūkšninio kodo skaičių sekos ID. Brūkšninio kodo skaičių sekos naudojamos brūkšniniams kodams kurti ir greitai identifikuoti brūkšninius kodus, nuskaitytus elektroniniame kasos aparatą (EKA) sistemą. Daugiau informacijos ieškokite [Brūkšninių kodų skaičių sekos rinkinys](../../../commerce/set-up-bar-code-masks.md).
 1. Lauke **Dydis** įveskite skaičių.
 1. Lauke **Didžiausias ilgis** įveskite skaičių.
 1. Pasirinkite **Įrašyti**.

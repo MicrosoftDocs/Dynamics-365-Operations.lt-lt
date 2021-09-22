@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae4e25874488890f0eeb601038e308fdc7e89485b5f6a8cf5d5fab713107dfcf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a4fd7c242fc2d857cb35f8ef8c08567c758b768
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753485"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463594"
 ---
 # <a name="reverse-journal-posting"></a>Atšaukimo registravimas žurnale
 
@@ -28,13 +28,17 @@ ms.locfileid: "6753485"
 
 Šioje temoje aprašomos „Microsoft Dynamics 365 Finance“ galimybės, leidžiančios atšaukti visą žurnalą arba atšaukti vieną ar keletą kvitų iš kvitų operacijų sąrašo, neatsižvelgiant į jų kilmę. 
 
+Prieš pradedant naudoti šiame skyriuje aprašytas savybes, turite jas įjungti savo sistemoje. Administratoriai gali naudoti **Funkcijos valdymas** darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Ten ši funkcija pateikiama taip:
+ - Modulis: Didžioji knyga
+ - Priemonės pavadinimas: **kelių dokumentų masinis atšaukimas**
+
 ## <a name="reversing-journals"></a>Žurnalų atšaukimas
 
 Galite atšaukti atskiras žurnalo eilutes. Registruodami atšaukimą žurnale, taip pat galite atšaukti visą finansinį žurnalą. Atšaukite žurnalą, atlikę toliau pateikiamus veiksmus. 
 
-- Atidarykite finansinį žurnalą ir filtruokite paskelbtus žurnalus.
+- Filtruoti užregistruotus žurnalus ir **atidaryti** žurnalo eilučių rodinį.
 - Pasirinkite puslapio viršuje esantį meniu **Atšaukti**.
-- Matysite bendrą kvitų ir kvitų eilučių skaičių, taip pat bendrą atšaukiamų eilučių sumą
+- Matysite bendrą kvitų ir kvitų eilučių skaičių, taip pat bendrą atšaukiamų eilučių kiekį.
 - Pasirinkite **Taip**, jei norite, kad būtų naudojamos esamos operacijų datos, arba **Ne**, kad įvestumėte naują. Kai kuriais atvejais pradinės operacijos laikotarpis gali būti uždarytas, o jūs turite įvesti naują atšaukimo operacijos datą.
 - Jei pasirinksite **Ne**, įveskite atšaukimo operacijos datą. 
 - Įveskite komentarą, kurį norite įtraukti į atšaukimo operaciją.
@@ -52,8 +56,8 @@ Kvitus taip pat galite atšaukti **Kvitų operacijų sąraše** visose papildomo
 
 Norėdami atšaukti vieną ar daugiau kvitų, atlikite toliau pateikiamus veiksmus. 
 
-- Pasirinkite puslapio viršuje esantį meniu **Atšaukti**
-- Matysite bendrą kvitų ir kvitų eilučių skaičių, taip pat bendrą atšaukiamų eilučių kiekį.
+- Pasirinkite puslapio viršuje esantį meniu **Grąžinti visą žurnalą žemyn**.
+- Matysite bendrą kvitų ir kvitų eilučių skaičių rodomas bendrai, taip pat bendrą atšaukiamų eilučių kiekį.
 - Pasirinkite **Taip**, jei norite, kad būtų naudojamos esamos operacijų datos, arba **Ne**, kad įvestumėte naują. Kai kuriais atvejais pradinės operacijos laikotarpis gali būti uždarytas, o jūs turite įvesti naują operacijos datą, kad ją atšauktumėte.
 - Jei pasirinksite **Ne**, įveskite atšaukimo operacijos datą. 
 - Įveskite komentarą, kad aprašytumėte atšaukimo operaciją.

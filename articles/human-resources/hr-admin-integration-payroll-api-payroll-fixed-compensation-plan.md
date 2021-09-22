@@ -2,7 +2,7 @@
 title: Algalapio pastoviosios atlyginimo dalies planas
 description: Šioje temoje pateikiama informacija ir Algalapio pastoviosios atlyginimo dalies plano objekto užklausos pavyzdys „Dynamics 365 Human Resources“ platformoje.
 author: jcart
-ms.date: 04/07/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f1e5345d9f27106bdf3a3a60cb0480a9b072e340c01236e4d48c5e2ae592ddbd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dcb253fabbb183003048119c7a627bf0ab960050
+ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738396"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7429239"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>Algalapio pastoviosios atlyginimo dalies planas
 
@@ -34,18 +34,27 @@ Faktinis pavadinimas: „mshr_payrollfixedcompensationplanentity”.
 
 ## <a name="properties"></a>Ypatybės
 
-| Ypatybė<br>**Faktinis pavadinimas**<br>**_Tipas_** | Naudoti | Aprašas |
+| Ypatybė</br>**Faktinis pavadinimas**</br>**_Tipas_** | Naudoti | Aprašas |
 | --- | --- | --- |
-| **Darbuotojo ID**<br>„mshr_fk_employee_id_value”<br>*GUID* | Tik skaitomas<br>Būtina<br>Išorinis raktas: „mshr_Employee_id of mshr_payrollemployeeentity entity”  | Darbuotojo ID |
-| **Užmokesčio tarifas**<br>„mshr_payrate”<br>*Dešimtainis* | Tik skaitomas<br>Būtina | Pastoviosios atlyginimo dalies plane apibrėžtas darbo užmokesčio tarifas. |
-| **Plano ID**<br>„mshr_planid”<br>*Eilutė* | Tik skaitomas<br>Būtina |Nurodo atlyginimo dalies planą.  |
-| **Galioja nuo**<br>„mshr_validfrom”<br>*Datos ir Laiko poslinkis* |  Tik skaitomas<br>Būtina |Data, nuo kurios galioja darbuotojo pastovioji atlyginimo dalis.  |
-| **Algalapio pastoviosios atlyginimo dalies objektas**<br>„mshr_payrollfixedcompensationplanentityid”<br>*GUID* | Būtina<br>Sistemos sugeneruota | Sistemos sukurta GUID vertė siekiant unikaliai atpažinti atlyginimo dalies planą. |
-| **Mokėjimų dažnumas**<br>„mshr_payfrequency”<br>*Eilutė* | Tik skaitomas<br>Būtina |Dažnumas, kuriuo bus mokama darbuotojui.  |
-| **Galioja iki**<br>„mshr_validto”<br>*Datos ir Laiko poslinkis* | Tik skaitomas <br>Būtina | Data, iki kurios galioja darbuotojo pastovioji atlyginimo dalis. |
-| **Pareigų ID**<br>mshr_positionid<br>*Eilutė* | Tik skaitomas <br>Būtina | Pareigų ID, kuris susietas su darbuotoju ir pastoviosios atlyginimo dalies plano registracija. |
-| **Valiuta**<br>„mshr_currency”<br>*Eilutė* | Tik skaitomas <br>Būtina |Valiuta, apibrėžta pastoviosios atlyginimo dalies planui   |
-| **Personalo numeris**<br>„mshr_personnelnumber”<br>*Eilutė* | Tik skaitomas<br>Būtina |Unikalus darbuotojo personalo numeris.  |
+| **Plano ID**</br>„mshr_planid”</br>*Eilutė* | Tik skaitomas | Nurodo atlyginimo dalies planą.  |
+| **Darbuotojo numeris**</br>„mshr_personnelnumber”</br>*Eilutė* | Tik skaitomas | Unikalus darbuotojo personalo numeris. |
+| **Užmokesčio tarifas**</br>„mshr_payrate”</br>*Dešimtainis* | Tik skaitomas | Pastoviosios atlyginimo dalies plane apibrėžtas darbo užmokesčio tarifas. |
+| **Pareigų ID**</br>mshr_positionid</br>*Eilutė* | Tik skaitomas | Pareigų ID, kuris susietas su darbuotoju ir pastoviosios atlyginimo dalies plano registracija. |
+| **Galioja nuo**</br>„mshr_validfrom”</br>*Datos ir Laiko poslinkis* |  Tik skaitomas | Data, nuo kurios galioja darbuotojo pastovioji atlyginimo dalis.  |
+| **Galioja iki**</br>„mshr_validto”</br>*Datos ir Laiko poslinkis* | Tik skaitomas | Data, iki kurios galioja darbuotojo pastovioji atlyginimo dalis. |
+| **Išmokos dažnumas**</br>„mshr_payfrequency”</br>*Eilutė* | Tik skaitomas | Dažnumas, kuriuo bus mokama darbuotojui.  |
+| **Valiuta**</br>„mshr_currency”</br>*Eilutė* | Tik skaitomas | Valiuta, apibrėžta pastoviosios atlyginimo dalies planui. |
+| **Algalapio pastoviosios atlyginimo dalies objektas**</br>„mshr_payrollfixedcompensationplanentityid”</br>*GUID* | Sistemos sugeneruota | Sistemos sukurta GUID vertė siekiant unikaliai atpažinti atlyginimo dalies planą. |
+
+## <a name="relations"></a>Ryšiai
+
+|Ypatybės vertė | Susijęs objektas | Naršymo ypatybė | Rinkimo tipas |
+| --- | --- | --- | --- |
+| _mshr_fk_employee_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Employee_id | mshr_FK_PayrollEmployeeEntity_FixedCompPlan |
+| _mshr_fk_job_id_value | [mshr_payrollpositionjobentity](hr-admin-integration-payroll-api-payroll-position-job.md) | mshr_FK_Job_id | mshr_FK_PayrollPositionJobEntity_FixedCompPlan |
+| _mshr_fk_payrollposition_id_value | [mshr_payrollpositionentity](hr-admin-integration-payroll-api-payroll-position.md) | mshr_FK_PayrollPosition_id | mshr_FK_PayrollPositionEntity_FixedCompPlan |
+| _mshr_fk_plan_id_value | mshr_hcmcompfixedplantableentity | mshr_FK_Plan_id | - |
+| _mshr_fk_variablecompaward_id_value | [mshr_payrollvariablecompensationawardentity](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md) | mshr_FK_VariableCompAward_id | mshr_FK_PayrollVariableCompensationAwardEntity_FixedComp |
 
 ## <a name="example-query"></a>Pavyzdinė užklausa
 

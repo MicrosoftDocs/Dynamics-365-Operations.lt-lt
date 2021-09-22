@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5809d4a29c4209d8fb42bdfd441a3a4fb201ca6c6318abc0315a02ead7c551de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d429639f52c745a737567419b6012884ab20d43d
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759166"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463632"
 ---
 # <a name="address-books-faq"></a>DUK apie adresų knygeles
 
@@ -66,10 +66,12 @@ Kartais galbūt norėsite du arba kelis šalių įrašus sulieti į vieną įra�
 
 Galite nustatyti adreso informacijos vertimus, kad programoje informacija būtų rodoma vartotojo kalba (sistemos kalba), o dokumentuose, pvz., pardavimo užsakymuose – kita kalba. Galite įvesti šalių / regionų pavadinimų, adresų ir vardų sekų vertimus. Pavyzdžiui, jūsų sistemos kalba yra danų, ir pardavimo užsakymą sukuriate klientui Prancūzijoje. Šiuo atveju programoje kliento įrašą galite peržiūrėti danų kalba, tačiau išspausdintame pardavimo užsakyme adreso informaciją rodyti prancūzų kalba. Nustatydami vertimus, turėtumėte įvesti kiekvienos sąrašo prekės vertimą. Visos prekės, kurioms neįvesite vertimo, bus rodomos sistemos kalba. Pavyzdžiui, jūsų sistemos kalba yra danų, ir dokumentą siunčiate klientui Ispanijoje. Jei neįvedėte adreso informacijos vertimų į ispanų (ESP) kalbą, ta informacija danų kalba bus rodoma ir programoje, ir išspausdintame dokumente.
 
-## <a name="after-importing-addresses-when-i-access-the-records-why-am-i-unable-to-edit-imported-addresses"></a>Kodėl importavęs adresus ir pasiekęs įrašus negaliu redaguoti importuotų adresų?
+## <a name="after-i-import-addresses-why-cant-i-edit-the-records"></a>Po importavimo adresų kodėl negalima redaguoti įrašų?
 
-Importuojant adresus yra laukas, pažymėtas **IsLocationOwner**, kuris nurodo, ar šalis, susieta su vieta (adresu), yra adreso savininkė. Jei šalis yra adreso savininkas, adresas gali būti redaguojamas, kai jis pasiekiamas naudojant šalį visuotinėje adresų knygelėje arba pagrindinio įrašo formoje (pvz., kliento, tiekėjo ar darbuotojo). Jei šalis nėra adreso savininkė, įrašo negalima redaguoti iš anksčiau išvardytų formų. Importuojant adresus, reikšmė **IsLocationOwner** turi būti nustatyta į **Taip**, jei norite, kad adresą būtų galima redaguoti naudojant susietą šalį. Tačiau kartais šis laukas importuojamas neteisingai. Norint išspręsti šią problemą, vietos savininką galima atnaujinti šalies įrašo visuotinėje adresų knygelėje arba puslapyje **Patvirtinti vietos savininkus**. Norėdami atnaujinti vieną šalies įrašą, eikite į **Visuotinė adresų knygelė > Adresas**. Norėdami paleisti puslapį **Redaguoti adresą** ir pakeisti vietos savininką, pasirinkite **Redaguoti**. Pasirinkite **Keisti vietos savininką**, norėdami peržiūrėti ankstesnį vietos savininką, jei dabartinė pasirinkta šalis yra nauja vietos savininkė. Jei ankstesnio vietos savininko reikšmė tuščia, tai reiškia, kad vietos savininkas nebuvo nustatytas. Pasirinkus parinktį **Išplėstinės**, atidaromas puslapis **Tvarkyti adresus**, kuriame taip pat galima nustatyti vietos savininką. Pasirinkite vietą, kurią norite atnaujinti, tada meniu pasirinkite **Nustatyti vietos savininką**. Norėdami atnaujinti kelių įrašų vietos savininką, eikite į **Visuotinė adresų knygelė > Vietos > Patvirtinti vietų savininkus**. Sąraše yra vietų, susietų su viena šalimi, kuri nėra savininkė. Pasirinkus **Patvirtinti savininką**, **Siūlomo savininko šalies ID** bus nustatytas kaip susieto adreso savininkas. Kai šalis nustatyta kaip savininkė, susietą adresą bus galima redaguoti šalies įraše. Norėdami pakeisti vietos savininką, puslapyje **Saugos konfigūracija** jums turi būti priskirta teisė **Nustatyti vietos savininką**.  Sistemos administratoriui ši teisė suteikiama pagal numatytuosius nustatymus.
+Importuojant adresus, pateikiamas laukas, kuris pavadintas **IsLocationOwner**. Šiame lauke nurodoma, ar su vieta (adresu) susietas šalis yra adreso savininkas. Jei šalis yra adreso savininkas, adresas gali būti redaguojamas, kai jis naudojamas naudojant šalį visuotinėje adresų knygelėje arba pagrindinio įrašo puslapyje (pvz., kliento, tiekėjo ar darbuotojo). Jei įrašas nėra adreso savininkas, įrašo redaguoti negalima. 
 
+Importuojant adresus, reikšmė **IsLocationOwner** turi būti nustatyta į **Taip**, jei norite, kad adresą būtų galima redaguoti naudojant susietą šalį. Jei šis laukas netinkamai importuotas, vietos savininką galima atnaujinti visuotinje adresų knygelėje.
+
+Daugiau informacijos apie tai, kaip pakeisti importuoto adreso vietos savininką, ieškokite [vietų savininkų valdymas](./global-address-book-location-owner.md).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

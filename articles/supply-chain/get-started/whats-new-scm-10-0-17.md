@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 67240491bba5a81455bff00be22908670880803c3e08091d76e037fa0b5f49ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ef6b7c619cfce70c2f0b3f676d3cae988674c858
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760519"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474608"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Kas nauja arba pasikeitė „Dynamics 365 Supply Chain Management” 10.0.17 versijoje (2021 m. balandžio mėn.)?
 
@@ -99,10 +99,6 @@ Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fi
 
 Neseniai įtraukėme ir reikšmingai atnaujinome tolesnes pagalbos temas. Jos nebūtinai yra susijusios su naujomis funkcijomis įtrauktomis į šį leidimą, kaip aprašyta ankstesniame skyriuje, bet gali padėti jums gauti daugiau iš esančių funkcijų.
 
-### <a name="cost-management"></a>Kaštų valdymas
-
-- [Kaštų valdymo trikčių šalinimas](../cost-management/troubleshoot-costmanagement.md)
-
 ### <a name="asset-management"></a>Turto valdymas
 
 - [Turto valdymo mobiliosios darbo srities nustatymas](../asset-management/set-up-asset-management-mobile.md)
@@ -114,8 +110,6 @@ Neseniai įtraukėme ir reikšmingai atnaujinome tolesnes pagalbos temas. Jos ne
 - [Dalinis vietos ciklų skaičiavimas](../warehousing/partial-location-cycle-counting.md)
 
 - [Paėmimo eilutės grupavimas](../warehousing/pick-line-grouping.md)
-
-- [Atsargų operacijų trikčių šalinimas](../inventory/troubleshoot-inventory-operations.md)
 
 - [Sandėlio intervalas](../warehousing/warehouse-slotting.md)
 

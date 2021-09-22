@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 74720e387d5db7de841228e6573fb40c5d22588b
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: bd82ad9a0eb2f8f85bc7dad0ae174726234ad84f
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384664"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474897"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Kas nauja ar pasikeitė 10.0.19 „Dynamics 365 Supply Chain Management” versijoje (2021 m. birželis)
 
@@ -67,7 +67,6 @@ Neseniai įtraukėme ir reikšmingai atnaujinome tolesnes pagalbos temas. Jos ne
 | Produkto informacijos valdymas | [Matavimo vieneto valdymas](../pim/tasks/manage-unit-measure.md)<br><br>[Produkto konfigūracijos modelio skaičiavimai](../pim/config-model-calculations.md) |
 | Gamybos kontrolė | [Bendra užduočių ID numerių seka](../production-control/unified-job-ids.md) |
 | Transportavimo valdymas | [LTL klasės](../transportation/ltl-class.md)<br><br>[NMFC kodai](../transportation/nmfc-codes.md) |
-| Sandėlio valdymas | [Sandėlio paketo ir serijos rezervavimo hierarchijų trikčių šalinimas](../warehousing/troubleshoot-warehouse-batch-and-serial-reservation-hierarchies.md) |
 | Sandėlių valdymas, bangos kūrimas ir apdorojimas | [Bangos kūrimas ir apdorojimas](../warehousing/wave-processing.md)<br><br>[Sandėlio parametrai bangos apdorojimui](../warehousing/wave-warehouse-parameters.md)<br><br>[Bangos šablonai](../warehousing/wave-templates.md)<br><br>[Bangos paskirstymas](../warehousing/wave-allocation-method.md)<br><br>[Darbo kūrimo bangos metu planavimas](../warehousing/configure-wave-schedule-work-creation.md)<br><br>[Krovimas į konteinerius](../warehousing/wave-containerization.md)<br><br>[Bangos vykdymo pranešimai](../warehousing/wave-execution-notifications.md) |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai

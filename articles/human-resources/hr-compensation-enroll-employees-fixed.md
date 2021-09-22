@@ -1,8 +1,8 @@
 ---
 title: Darbuotojo įtraukimas į fiksuoto atlyginimo dalies planą
 description: Kompensacijų ir išmokų vadovas gali darbuotojus priskirti pastoviosios atlyginimo dalies planams, kad valdytų jų pagrindinį užmokestį.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,33 +10,33 @@ ms.search.form: HRMCompFixedEmpl, HRMCompFixedEmplActionDialog, HcmPositionLooku
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1858987430c60f93c47750d2703024b1676cb4916092519f3440685964c6aa55
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bd9c39bb3b5e221694fe20a8085c9099040cb422
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732518"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431098"
 ---
 # <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a>Darbuotojo įtraukimas į fiksuoto atlyginimo dalies planą
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Kompensacijų ir išmokų vadovas gali darbuotojus priskirti pastoviosios atlyginimo dalies planams, kad valdytų jų pagrindinį užmokestį. Ši procedūra daro prielaidą, kad fiksuotos dalies planas yra sukurtas ir aktyvus bei kad nustatytos plano tinkamumo taisyklės. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Norėdami pradėti procedūrą, eikite į Žmogiškieji ištekliai > Darbuotojai > Darbuotojai > Kompensavimas > Fiksuotas planas
+Kompensacijų ir išmokų vadovas gali darbuotojus priskirti pastoviosios atlyginimo dalies planams, kad valdytų jų pagrindinį užmokestį. Ši procedūra daro prielaidą, kad fiksuotos dalies planas yra sukurtas ir aktyvus bei kad nustatytos plano tinkamumo taisyklės. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Norėdami pradėti procedūrą, eikite į **Žmogiškieji ištekliai** > **Darbuotojai** > **Darbuotojai** > **Kompensavimas** > **Fiksuotas planas**.
 
-1. Spustelėkite Naujas.
-2. Lauke Veiksmas pasirinkite Samdos / Pakartotinės samdos tipo pastoviosios atlyginimo dalies veiksmą, kad apibūdintumėte darbuotojo kompensacijos pokytį.
+1. Spustelėkite **Naujas**.
+2. Lauke **Veiksmas** pasirinkite **Samdos/Pakartotinės samdos** tipo pastoviosios atlyginimo dalies veiksmą, kad apibūdintumėte darbuotojo kompensacijos pokytį.
 3. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-4. Lauke Pareigos spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+4. Lauke **Pareigos** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
 5. Sąraše spustelėkite saitą pasirinktoje eilutėje.
     * Lygis rodomas iš Pareigų Darbo Kompensacijos lygio. Prieš darbuotojui priskiriant kompensaciją, turi būti nustatytas Darbo lygis.  
-6. Lauke Planas pasirinkite darbuotojo pastoviosios atlyginimo dalies planą. Filtruojama Plano peržvalga, kad būtų rodomi tik tie planai, į kuriuos darbuotojas turi teisę pagal Tinkamumo taisykles.
+6. Lauke **Planas** pasirinkite darbuotojo pastoviosios atlyginimo dalies planą. Filtruojama Plano peržvalga, kad būtų rodomi tik tie planai, į kuriuos darbuotojas turi teisę pagal Tinkamumo taisykles.
 7. Sąraše raskite ir pasirinkite norimą įrašą.
-    * Pagal numatytąsias nuostatas kompensacijos Įsigaliojimo ir Galiojimo pabaigos datos naudojamos tokios pačios, kaip ir darbuotojo paskyrimo į pareigas pradžios ir pabaigos datos. Prireikus šias datas galima koreguoti.  
+    * Pagal **numatytąsias** ir **kompensacijos** datas Įsigaliojimo ir Galiojimo pabaigos datos naudojamos tokios pačios. Prireikus šias datas galima koreguoti.  
     * Jei Pastoviosios atlyginimo dalies planas yra veiksmų planas, pasirinkite veiksmą, kuriame yra tinkamas darbuotojo užmokesčio tarifas. Jei pastoviosios atlyginimo dalies planas yra kategorijų ar intervalų planas, darbuotojo užmokesčio tarifą įveskite. Užmokesčio tarifas bus patikrintas pagal plano leistino nuokrypio nuostatas ir minimalius bei maksimalius darbo kompensacijos lygio atskaitos taškus.  
-8. Spustelėkite GERAI.
+8. Spustelėkite **Gerai**.
 
 
 

@@ -2,7 +2,7 @@
 title: Elektroniniai pranešimai
 description: Šioje temoje pateikiama „ Microsoft Dynamics 365 Finance“ elektroninių pranešimų apžvalga ir nustatymo informacija.
 author: liza-golub
-ms.date: 06/29/2021
+ms.date: 08/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 191abc37b7c349aaf3c9e871fe2f1885eec9fc896271d6fac27e5caa0b0fe3b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16b0e0fa74109f1c63ed47606bebe2fefc604fc5
+ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768344"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7478729"
 ---
 # <a name="electronic-messaging"></a>Elektroniniai pranešimai
 
@@ -57,6 +57,16 @@ Em funkcija palaiko toliau nurodytus scenarijus:
 - Saugoti ir peržiūrėti visas sugeneruotas ataskaitas.
 - Saugoti ir peržiūrėti visą žurnalo informaciją, susijusią su veiksmais, vykdomais pranešimui ar pranešimo elementui.
 - Valdyti apdorojimo procesą naudojant įvairias pranešimo ir pranešimo elementų būsenas.
+
+## <a name="security-privileges"></a>Saugos teisės
+
+Galimos šios elektroninių pranešimų saugos teisės.
+
+| Saugos teisė           | Prieigos lygis | Susiejimas |
+|------------------------------|--------------|-------------|
+| Tvarkyti el. pranešimus | Ši teisė suteikia visą prieigą prie EM funkcijų. Jei turite šią teisę, galite nustatyti elektroninius pranešimus ir vykdyti visą apdorojimą. | Ši teisė yra įtraukta į **tvarkyti PVM operacijų saugos muito** mokestį. Paeiliui ši pareiga įtraukiama į **buhalterio** saugos vaidmenį. |
+| Peržiūrėti el. pranešimus     | Ši teisė suteikia visą skaitymo prieigą prie EM funkcijų. Jei turite šią teisę, galite peržiūrėti elektroninius pranešimus ir nustatyti visą apdorojimą. Tačiau jūs negalite nustatyti ar vykdyti nieko. | Ši teisė yra įtraukta į **Gauti PVM operacijų operacijos būsenos** mokestį. Paeiliui ši pareiga įtraukiama į tokį saugos vaidmenį:<ul><li>Mokėjimų priežiūros vadovas</li><li>Gautinų sumų klerkas</li><li>Gautinų sumų vadovas</li><li>Mokesčių apskaitininkas</li><li>Buhalteris</li><li>Apskaitos vadovas</li><li>Apskaitos prižiūrėtojas</li><li>Pardavimo vadybininkas</li><li>Mokėtinų sumų klerkas</li></ul> |
+| Valdyti el. pranešimus  | Ši teisė suteikia prieigą tik prie **elektroninių pranešimų** ir **elektroninių pranešimų elementų** puslapių. Jei turite šią teisę, galite vykdyti visą apdorojimą, kuris iškvievietas iš tų puslapių. | Ši teisė įtraukiama į elektroninių pranešimų **valdymo saugos pareigą**. Paeiliui ši pareiga įtraukiama į **Elektroninių pranešimų operatoriaus** saugos vaidmenį. |
 
 ## <a name="country-specific-regulatory-features-supported-by-the-em-functionality"></a>Reguliavimo priemonės pagal šalį, palaikomos EM funkcijų
 

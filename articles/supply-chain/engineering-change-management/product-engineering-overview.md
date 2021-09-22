@@ -2,7 +2,7 @@
 title: Inžinerijos keitimo valdymo apžvalga
 description: Ši tema pateikia inžinerijos keitimo valdymo apžvalgą, kuri padeda jums planuoti ir valdyti produkto versijas ir valdyti produkto gyvenimo ciklus bei inžinerijos pokyčius.
 author: t-benebo
-ms.date: 11/11/2020
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,13 +12,13 @@ ms.custom: intro-internal
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8f2d577d9e48ced9d4c516a66e4f53671417875cbfb51bd6bdc2cb0938d83c01
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: Release 10.0.21
+ms.openlocfilehash: b4fe2d62bc8084cf8c0d10b7bcb94f08cc618900
+ms.sourcegitcommit: 07fada750de54e2907377df2a9f7dae497c3b66e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714961"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7467403"
 ---
 # <a name="engineering-change-management-overview"></a>Inžinerijos keitimo valdymo apžvalga
 
@@ -43,9 +43,11 @@ Inžinerijos keitimo valdymo apžvalgą, kuri padeda jums planuoti ir valdyti pr
 
 Ankstesnis vaizdo įrašas ([Keitimo valdymo galimybės „Dynamics 365 Supply Chain Management“](https://youtu.be/N313FqvRuBc)) yra įtrauktos į [„Finance and Operations“ grojaraštį](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) prieinamą „YouTube“.
 
-## <a name="turn-on-the-engineering-change-management-and-version-dimension-features-for-your-system"></a>Įjunkite jūsų sistemos inžinerinių pakeitimų valdymą ir versijos dimensijų funkcijas
+## <a name="turn-on-the-engineering-change-management-features-for-your-system"></a>Įjunkite inžinerijos keitimo valdymą savo sistemos funkcijoms
 
-Prieš pradedami naudoti inžinerinių pakeitimų valdymą, turite įgalinti ir funkciją *Inžinerinių pakeitimų valdymas*, ir jos konfigūracijos raktą. Jei norite sekti operacijų produktų versijos dimensiją (pasirinktinai), turite įgalinti funkciją *Produkto versijos dimensija* ir jos konfigūracijos raktą.
+Prieš pradedami naudoti inžinerinių pakeitimų valdymą, turite įgalinti ir funkciją *Inžinerinių pakeitimų valdymas*, ir jos konfigūracijos raktą. Jei norite sekti operacijų produktų versijos dimensiją (pasirinktinai), turite įgalinti abi funkcijas *Produkto versijos dimensija* ir jos konfigūracijos raktą. Kai tos būtinosios sąlygos nustatytos, galėsite įjungti papildomas inžinerijos pakeitimų valdymo pasirinktines priemones.
+
+### <a name="turn-on-the-basic-engineering-change-management-features"></a>Įjunkite pagrindinės inžinerijos keitimo valdymą savo sistemos funkcijoms
 
 Pirmiausia įjunkite šias funkcijas atlikdami toliau nurodytus veiksmus.
 
@@ -53,6 +55,8 @@ Pirmiausia įjunkite šias funkcijas atlikdami toliau nurodytus veiksmus.
 1. Tikrinkite naujinimus.
 1. Įjunkite funkciją pavadinimu *Inžinerijos keitimo valdymas*.
 1. Jei norite ją naudoti, taip pat įjunkite funkciją, pavadintą *Produkto dimensijos versija*.
+
+### <a name="turn-on-the-required-configuration-keys"></a>Įjungti būtinus konfigūracijos raktus
 
 Tada įjunkite konfigūracijos raktus atlikdami toliau nurodytus veiksmus.
 
@@ -70,5 +74,18 @@ Tada įjunkite konfigūracijos raktus atlikdami toliau nurodytus veiksmus.
 
 > [!IMPORTANT]
 > Nuo 2022 m. balandžio mėn. „Engineering Change Management“ ir produkto dimensijos licencijos raktai – versija bus įgalinta pagal numatytuosius nustatymus visoms naujiems **diegimams, tačiau prireikus vis tiek galėsite** jas **išjungti**.
+
+### <a name="turn-on-additional-engineering-change-management-features"></a>Įjunkite papildomos inžinerijos keitimo valdymą savo sistemos funkcijoms
+
+Įjungus pagrindines inžinerijos keitimo valdymo priemones ir įgalinus jų konfigūracijos raktus, prie priemonių valdymo pridedama keletas papildomų ir pasirinktinių inžinerijos pakeitimų valdymo priemonių. Kiekviena iš šių priemonių pateikta inžinerinio **keitimo valdymo modulyje**. Šioje lentelėje aprašoma kiekviena pasirinktinė priemonė ir pateikiami saitai, kuriuose pateikiama daugiau informacijos.
+
+| Funkcijos pavadinimas funkcijos valdyme | Aprašas |
+|---|---|
+| Pakeitimų valdymo įjungimas esamiems produktams | <p>Ši priemonė leidžia konvertuoti esamus produktus į inžinerijos produktus, kad, naudodami inžinerinių pakeitimų valdymą, pradėtumėte juos valdyti.</p><p>- Dėl daugiau informacijos rasite [Pakeitimų valdymo įjungimas esamiems produktams](change-management-existing-products.md).</p> |
+| Inžinerijos pranešimai gamybai | <p>Jei produktas inžinerijos metu pakeičiamas, gali reikėti informuoti gamybą apie šiuos pakeitimus. Tokiu būdu gamybos darbuotojai gali imtis atitinkamų veiksmų, pvz., komponentų pakeitimo, komplektavimo specifikacijos (KS) pakeitimo arba maršruto pakeitimo. Ši priemonė leidžia informuoti gamybą apie produktų, kurie gaminami, pakeitimus.</p><p>Dėl daugiau informacijos, žr. [Valdyti keitimus inžinerijos produktams](engineering-change-management.md).</p> |
+| Patobulintas atributų paveldimumas inžinerinių pakeitimų valdymui | <p>Ši priemonė supaprastina atributų valdymą baigtoms prekėms ar tarpinėms prekėms. Kai ši funkcija įjungta, lengviau identifikuoti visus atributus, priklausančius prekei, ir galima pasirinkti atributus, kurie turėtų būti platinami iš tos prekės pirminėms prekės. Ši funkcija yra naudinga, kai, pavyzdžiui, vienas baigtos medžiagos komponentas yra dūžtas, pagal ar ištvirtęs, nes galite lengvai identifikuoti dūžtamą, panaudotus ar perduotos atributus ir išplatinti jį į baigtą naudą.</p><p>Inžinerijos atributai dėl daugiau informacijos, žr. [Inžinerijos atributai ir inžinerijos atributų paieška](engineering-attributes-and-search.md).</p> |
+| Produkto parengties patikros | <p>Funkcija leidžia Jums nustatyti pasirengimo patikrinimų strategijas standartiniams (neinžineriniams) produktams. Naudokite produkto pasirengimo tikrinimus, norėdami užtikrinti, kad kiekvienas produktas yra visiškai apibrėžtas ir kad visos būtinos strategijos yra sukonfigūruotos prieš produkto prieinamumą ir naudojimą operacijose. Jei šią funkciją išjungsite kurį laiką panaudodami, visi esami standartinių produktų pasirengimo tikrinimai bus panaikinti.</p><p>Dėl daugiau informacijos, žr. [Produkto parengimas](product-readiness.md).</p> |
+| Tvarkyti formulių ir jų sudedamųjų dalių keitimus | <p>Ši funkcija leidžia sekti formulės ingredientų, ingredientų sudėtiuose ir produktuose pakeitimus.</p><p>Daugiau informacijos rasite [Formulių ir jų ingredientų pakeitimų valdymas](manage-formula-changes.md).</p> |
+| Inžinierinių produktų variantų generavimas | <p>Ši priemonė leidžia generuoti inžinerijos produktų variantus, pagrįstus galima dimensijų vertėmis.</p><p>Daugiau informacijos ieškokite gamybos [produktų variantų gener kuriuos galima generuoti](engineering-variants.md).</p> |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

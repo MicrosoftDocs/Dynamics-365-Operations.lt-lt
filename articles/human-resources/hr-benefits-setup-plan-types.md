@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5d66d205d2a987310cd592a00feb10ad0dcd90e
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
+ms.openlocfilehash: 2eb8ecdd849aa2f583202ac2ec7c3e1bb06698a1
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423396"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431416"
 ---
 # <a name="plan-type-overview"></a>Plano tipo peržiūra
 
@@ -28,14 +28,15 @@ ms.locfileid: "7423396"
 
 Plano tipas yra konkrečių išmokų tipų aukščiausio lygio grupavimas. Kiekvienam plano tipui taikomas plano tipo kodas, kuriuo nustatomos plano tipo taisykles. Pavyzdžiui, **Pagrindiniam gyvybės** plano tipui bus priskiriamas **Gyvybės** plano tipo kodas, nes tai yra gyvybės draudimo plano rūšis ir turi atitikti taisykles, nustatytas **Gyvybės** plano tipo kodui. Kitas plano tipas gali būti **Papildomas gyvybės**. Šis plano tipas taip pat turės **Gyvybės** plano tipo kodą.
 
-Kiekvienas plano tipas nurodo, keliems planams darbuotojas gali užsiregistruoti – vienam ar keletui. Pavyzdžiui, galbūt darbuotojas galės užsiregistruoti abiems „Life“ plano tipo polisams – „Basic Life“ ir „Supplemental Life“ – gauti. Greičiausiai darbuotojui bus leista užsiregistruoti tik vienam medicinos draudimo tipo polisui gauti.
+Kiekvienas plano tipas nurodo, keliems planams darbuotojas gali užsiregistruoti – vienam ar keletui. Pavyzdžiui, galbūt darbuotojas galės užsiregistruoti abiems **Basic life** ir **Supplemental life** abiems plano „Life“ polisams. Greičiausiai darbuotojui bus leista užsiregistruoti tik vienam medicinos draudimo tipo polisui gauti.
 
-Jei plano tipas apima kontaktus, plano tipas nurodo, kad yra kontaktai – gavėjai ar priklausomieji. Pavyzdžiui, į plano tipą „Basic Life“ būtų įtraukiami gavėjai, o į plano tipą „Basic Medical“ būtų įtraukiami priklausomieji. Kai kuriais atvejais į planą gali būti neįtraukta asmeninių kontaktų. Pavyzdžiui, lanksčiųjų išlaidų sąskaita arba automobilių stovėjimo nuolaida.
+Jei plano tipas apima kontaktus, plano tipas nurodo, kad yra kontaktai – gavėjai ar priklausomieji. Pavyzdžiui, į plano tipą **Basic life** būtų įtraukiami gavėjai, o į plano tipą „Basic Medical“ būtų įtraukiami priklausomieji. Kai kuriais atvejais į planą gali būti neįtraukta asmeninių kontaktų. Pavyzdžiui, lanksčiųjų išlaidų sąskaita arba automobilių stovėjimo nuolaida.
 
-Plano tipas gali nurodyti padengimo pasirinktis. Padengimo parinktys nustatytos **padengimo parinkčių** puslapyje. Padengimo parinktis gali nurodyti išmokos sumą arba kontaktus, kurie atitinka plano tipą. Pavyzdžiui, jei kontakto tipas yra gavėjas, padengimo parinktis turi apibrėžti sąlygas, nurodančias, ką gavėjas turi teisę gauti, kai išmoka išnaudota. Jei kontakto tipas yra priklausomasis, padengimo parinktis turi apibrėžti ryšį tarp priklausomojo ir darbuotojo. 
+
+Plano tipas gali nurodyti padengimo pasirinktis. Padengimo parinktys nustatytos **padengimo parinkčių** puslapyje. Padengimo parinktis gali nurodyti išmokos sumą arba kontaktus, kurie atitinka plano tipą. Pavyzdžiui, jei kontakto tipas yra **gavėjas**, padengimo parinktis turi apibrėžti sąlygas, nurodančias, ką gavėjas turi teisę gauti, kai išmoka išnaudota. Jei kontakto tipas yra **priklausomasis**, padengimo parinktis turi apibrėžti ryšį tarp priklausomojo ir darbuotojo. 
 
 > [!IMPORTANT]
-> Puslapyje yra pagrindiniai duomenys, kurie turi įtakos parinktims, galimoms kuriant naują išmokų planą:
+> Puslapyje **Plano tipai** yra pagrindiniai duomenys, kurie turi įtakos parinktims, galimoms kuriant naują išmokų planą:
 >
 > - **Plano tipo kodas** – šis laukas turi įtakos tam, kas rodoma skirtuke **Konfigūracija**, kai nustatoma faktinė nauda.  
 > - **Lygiagreti registracija** – šis laukas nustato, ar leidžiamos kelios registracijos. (Medicininiam planui šis laukas įprastai nustatomas kaip **Viena registracija** .)

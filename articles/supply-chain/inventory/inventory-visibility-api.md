@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 0aca5838ff6d7c9c4d881698be1e2da2e0e1c02e
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 6dff54f54a495c2b4a7837f3a41f410d418cf12b
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343637"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474657"
 ---
 # <a name="inventory-visibility-public-apis"></a>Atsargų matomumo viešos API
 
@@ -46,6 +46,9 @@ Toliau pateiktoje lentelėje nurodytos API esamos parinktys:
 
 „Microsoft" pateikė "out-of-box *Paštininko* užklausų rinkinį. Šį rinkinį galite importuoti į savo *paštininko* rango programinę įrangą naudodami šį bendrai naudojamą saitą: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
+> [!NOTE]
+> Maršruto {environmentId} dalis yra aplinkos ID „Microsoft Dynamics „Lifecycle Services“ (LCS).
+
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Rasti galinį punktą pagal „Lifecycle Services“ aplinką
 
 Atsargų matomumo mikrotara įdiegta „Microsoft Azure Service Fabric“ regionams ir keliuose regionuose. Šiuo metu nėra centrinio galinio punkto, kuris gali automatiškai nukreipti jūsų prašymą į atitinkamą geografijos ir regiono informaciją. Todėl informacijos dalis turite sus sudaro į URL naudodami šį šabloną:
@@ -54,22 +57,26 @@ Atsargų matomumo mikrotara įdiegta „Microsoft Azure Service Fabric“ region
 
 Trumpą regiono pavadinimą galima rasti ciklo „Microsoft Dynamics Lifecycle Services“ (LCS) aplinkoje. Toliau pateiktoje lentelėje regioniniai API esamos parinktys.
 
-| „Azure“ regionas | Trumpas regiono pavadinimas |
-|---|---|
-| Rytų Australija | eau |
-| Pietryčių Australija | seau |
-| Centrinė Kanada | cca |
-| Rytų Kanada | eca |
-| Šiaurės Europa | neu |
-| Vakarų Europa | weu |
-| Rytų JAV | eus |
-| Vakarų JAV | wus |
-| Pietų UK | Suk |
-| Vakarų JK | sąrašas |
+| „Azure“ regionas        | Trumpas regiono pavadinimas |
+| ------------------- | ----------------- |
+| Rytų Australija      | eau               |
+| Pietryčių Australija | seau              |
+| Centrinė Kanada      | cca               |
+| Rytų Kanada         | eca               |
+| Šiaurės Europa        | neu               |
+| Vakarų Europa         | weu               |
+| Rytų JAV             | eus               |
+| Vakarų JAV             | wus               |
+| Pietų UK            | Suk               |
+| Vakarų JK             | sąrašas               |
+| Rytų Japonija          | ejp               |
+| Vakarų Japonija          | wjp               |
+| Pietų Brazilija        | Sbr               |
+| Pietų vidurio JAV    | scus              |
 
 Salos numeris yra ten, kur jūsų LCS aplinka įdiegta „Service Fabric“. Šiuo metu nėra būdo gauti šią informaciją iš vartotojo pusės.
 
-„Microsoft“ sukūrė vartotojo sąsają (UI) tam, kad gautumėte „Power Apps“ visą mikroservice galinį punktą. Daugiau informacijos žr. [Surasti paslaugų galinį tašką](inventory-visibility-power-platform.md#get-service-endpoint).
+„Microsoft“ sukūrė vartotojo sąsają (UI) tam, kad gautumėte „Power Apps“ visą mikroservice galinį punktą. Daugiau informacijos žr. [Surasti paslaugų galinį tašką](inventory-visibility-configuration.md#get-service-endpoint).
 
 ## <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Autentifikavimas
 
@@ -80,66 +87,66 @@ Gaukite saugos paslaugų žymą atlikdami taip.
 1. Prisijunkite prie „Azure” portalo ir naudokite jį rasti `clientId` ir `clientSecret` vertes Jūsų „Dynamics 365 Supply Chain Management“ programa.
 1. Iškvieskite „Azure AD” atpažinimo ženklą (`aadToken`) pateikdami HTTP užklausą su šiomis ypatybes:
 
-    - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
-    - **Metodas:** `GET`
-    - **Teksto turinys (formos duomenys):**
+   - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+   - **Metodas:** `GET`
+   - **Teksto turinys (formos duomenys):**
 
-        | Raktas | Reikšmė |
-        |---|---|
-        | „client_id” | „${aadAppId}“ |
-        | „client_secret” | „${aadAppSecret}“ |
-        | „grant_type” | „client_credentials” |
-        | ištekliai | „0cdb527f-a8d1-4bf8-9436-b352c68682b2“ |
+     | Raktas           | Reikšmė                                |
+     | ------------- | ------------------------------------ |
+     | „client_id”     | „${aadAppId}“                          |
+     | „client_secret” | „${aadAppSecret}“                      |
+     | „grant_type”    | „client_credentials”                   |
+     | ištekliai      | „0cdb527f-a8d1-4bf8-9436-b352c68682b2“ |
 
-    Kaip atsakymą turėtumėte „Azure AD“ gauti (`aadToken`) atpažinimo ženklą. Ji turi atitikti šį pavyzdį.
+   Kaip atsakymą turėtumėte „Azure AD“ gauti (`aadToken`) atpažinimo ženklą. Ji turi atitikti šį pavyzdį.
 
-    ```json
-    {
-        "token_type": "Bearer",
-        "expires_in": "3599",
-        "ext_expires_in": "3599",
-        "expires_on": "1610466645",
-        "not_before": "1610462745",
-        "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
-        "access_token": "eyJ0eX...8WQ"
-    }
-    ```
+   ```json
+   {
+       "token_type": "Bearer",
+       "expires_in": "3599",
+       "ext_expires_in": "3599",
+       "expires_on": "1610466645",
+       "not_before": "1610462745",
+       "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+       "access_token": "eyJ0eX...8WQ"
+   }
+   ```
 
 1. Formuluoja „JavaScript" objekto notacijos (JSON) užklausą, panašią į šį pavyzdį.
 
-    ```json
-    {
-        "grant_type": "client_credentials",
-        "client_assertion_type": "aad_app",
-        "client_assertion": "{Your_AADToken}",
-        "scope": "https://inventoryservice.operations365.dynamics.com/.default",
-        "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
-        "context_type": "finops-env"
-    }
-    ```
+   ```json
+   {
+       "grant_type": "client_credentials",
+       "client_assertion_type": "aad_app",
+       "client_assertion": "{Your_AADToken}",
+       "scope": "https://inventoryservice.operations365.dynamics.com/.default",
+       "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
+       "context_type": "finops-env"
+   }
+   ```
 
-    Atkreipkite dėmesį į toliau nurodytus punktus.
+   Atkreipkite dėmesį į toliau nurodytus punktus.
 
-    - Vertė `client_assertion` turi būti „Azure AD“ žetonas (`aadToken`) kurį gavote ankstesniame veiksme.
-    - Reikšmė `context` turi būti aplinkos ID, kuriame norite diegti papildinį.
-    - Nustatykite visas kitas reikšmes, kaip parodyta pavyzdyje.
+   - Vertė `client_assertion` turi būti „Azure AD“ žetonas (`aadToken`) kurį gavote ankstesniame veiksme.
+   - Reikšmė `context` turi būti aplinkos LCS ID, kuriame norite diegti papildinį.
+   - Nustatykite visas kitas reikšmes, kaip parodyta pavyzdyje.
 
 1. Pateikite HTTP užklausą su šiomis ypatybes:
 
-    - **URL:** `https://securityservice.operations365.dynamics.com/token`
-    - **Metodas:** `POST`
-    - **HTTP antraštė:** įtraukite API versiją. (Raktas `Api-Version`yra, o vertė yra `1.0` .)
-    - **Teksto turinys:** įtraukite JSON užklausą, kurią sukūrėte ankstesniu veiksmu.
+   - **URL:** `https://securityservice.operations365.dynamics.com/token`
+   - **Metodas:** `POST`
+   - **HTTP antraštė:** įtraukite API versiją. (Raktas `Api-Version`yra, o vertė yra `1.0` .)
+   - **Teksto turinys:** įtraukite JSON užklausą, kurią sukūrėte ankstesniu veiksmu.
 
-    Kaip atsakymą turėtumėte (`access_token`) atsakymas. Turite naudoti šį žetoną dėl to jums reikia geresnės žymos siekiant iškviesti inventoriaus papildinio API. Toliau pateikiamas pavyzdys.
+   Kaip atsakymą turėtumėte (`access_token`) atsakymas. Turite naudoti šį žetoną dėl to jums reikia geresnės žymos siekiant iškviesti inventoriaus papildinio API. Toliau pateikiamas pavyzdys.
 
-    ```json
-    {
-        "access_token": "{Returned_Token}",
-        "token_type": "bearer",
-        "expires_in": 3600
-    }
-    ```
+   ```json
+   {
+       "access_token": "{Returned_Token}",
+       "token_type": "bearer",
+       "expires_in": 3600
+   }
+   ```
 
 Vėlesniuose skyriuose naudokite `$access_token` norėdami pateikti atpažinimo ženklą, kuris buvo rastas paskutiniame veiksme.
 
@@ -160,6 +167,9 @@ Yra du API, skirti turimos informacijos keitimo įvykiams kurti:
 | `quantities` | Kiekis turi būti pakeistas pagal turimą kiekį. Pavyzdžiui, jei į lentyną įtraukiama 10 naujų knygų, ši vertė bus `quantities:{ shelf:{ received: 10 }}`. Jei iš lentynos arba parduodamos pašalinamos trys knygos, ši vertė bus `quantities:{ shelf:{ sold: 3 }}`. |
 | `dimensionDataSource` | Duomenų šaltinio dimensijų naudojimas publikavimo keitimo įvykyje ir eilėje. Jei nurodėte duomenų šaltinį, galite naudoti tinkintas dimensijas iš konkretaus duomenų šaltinio. Atsargų matomumas su dimensijos konfigūravimu, inventoriaus matomumas gali žymėti tinkintas dimensijas į bendras nustatytas dimensijas. Jei ne `dimensionDataSource` vertė yra nurodyta, galite naudoti tik bendrą [pagrindines dimensijas](inventory-visibility-configuration.md#data-source-configuration-dimension) jūsų užklausose. |
 | `dimensions` | Dinaminis rakto verčių poros. Vertės yra susietos su kai kurioms „Supply Chain Management“ dimensijoms. Tačiau galite įtraukti ir pasirinktines dimensijas (pvz.,, _Šaltinis_) ad nurodydami, ar įvykis įvyko iš „Supply Chain Management“ ar iš išorinės sistemos. |
+
+> [!NOTE]
+> Skaidinio `SiteId` ir `LocationId` konfigūraciją [konstruktorius ir parametrai](inventory-visibility-configuration.md#partition-configuration). Todėl kurdami turimos prekės pakeitimo įvykius, nustatytą ar perrašydami turimus kiekius arba kurdami rezervavimo įvykius, turite juos nurodyti dimensijose.
 
 ### <a name="create-one-on-hand-change-event"></a><a name="create-one-onhand-change-event"></a>Kurti vieną turimos informacijos pakeitimo įvykį
 
@@ -201,6 +211,9 @@ Body:
     "productId": "T-shirt",
     "dimensionDataSource": "pos",
     "dimensions": {
+        "SiteId": "1",
+        "LocationId": "11",
+        "PosMachineId": "0001",
         "ColorId": "Red"
     },
     "quantities": {
@@ -211,7 +224,7 @@ Body:
 }
 ```
 
-Šiame pavyzdyje rodomas turinio pavyzdžio turinys `dimensionDataSource`.
+Šiame pavyzdyje rodomas turinio pavyzdžio turinys `dimensionDataSource`. Šiuo atveju `dimensions` bus [pagrindinės dimensijos](inventory-visibility-configuration.md#data-source-configuration-dimension). Jei `dimensionDataSource` nustatyta, gali  `dimensions` būti duomenų šaltinio dimensijos arba pagrindinės dimensijos.
 
 ```json
 {
@@ -219,9 +232,9 @@ Body:
     "organizationId": "usmf",
     "productId": "T-shirt",
     "dimensions": {
-        "ColorId": "Red",
         "SiteId": "1",
-        "LocationId": "11"
+        "LocationId": "11",
+        "ColorId": "Red"
     },
     "quantities": {
         "pos": {
@@ -275,6 +288,8 @@ Body:
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
+            "PosSiteId": "1",
+            "PosLocationId": "11",
             "PosMachineId&quot;: &quot;0001"
         },
         "quantities": {
@@ -284,10 +299,11 @@ Body:
     {
         "id": "654321",
         "organizationId": "usmf",
-        "productId": "@PRODUCT1",
-        "dimensionDataSource": "pos",
+        "productId": "Pants",
         "dimensions": {
-            "PosMachineId&quot;: &quot;0001"
+            "SiteId": "1",
+            "LocationId": "11",
+            "ColorId&quot;: &quot;black"
         },
         "quantities": {
             "pos": { "outbound": 3 }
@@ -341,6 +357,8 @@ Body:
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
+             "PosSiteId": "1",
+            "PosLocationId": "11",
             "PosMachineId": "0001"
         },
         "quantities": {
@@ -359,6 +377,12 @@ Body:
 Norėdami naudoti *rezervo* API, turite atidaryti rezervavimo funkciją ir baigti konfigūruoti rezervavimą. Dėl daugiau informacijos, žr. [Rezervavimo konfigūracija (pasirinkti)](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>Kurti vieną rezervavimo įvykį
+
+Rezervuoti galima pagal skirtingus duomenų šaltinio parametrus. Norėdami konfigūruoti šio tipo rezervavimą, pirmiausia parametre nurodykite duomenų `dimensionDataSource` šaltinį. Tada parametre `dimensions` nurodykite dimensijas pagal dimensijų parametrus paskirties duomenų šaltinyje.
+
+Kai iškiesite rezervavimo API, galite valdyti rezervavimo tikrinimą nurodydami parametrą Boolean `ifCheckAvailForReserv` užklausos body. Vertė, `True` kuri reiškia, kad būtinas tikrinimas, o `False` vertė reiškia, kad tikrinimas nebūtinas. Numatytoji vertė yra `True`.
+
+Jei norite atšaukti rezervavimą ar nereservuoti nurodytų atsargų kiekių, nustatykite neigiamą kiekio vertę ir nustatykite parametrą praleisti `ifCheckAvailForReserv` ir `False` tikrinimą.
 
 ```txt
 Path:
@@ -467,14 +491,28 @@ ContentType:
     application/json
 Body:
     {
-        organizationId: string,
+        dimensionDataSource: string, # Optional
         filters: {
+            organizationId: string[],
+            productId: string[],
+            siteId: string[],
+            locationId: string[],
             [dimensionKey:string]: string[],
         },
         groupByValues: string[],
         returnNegative: boolean,
     }
 ```
+
+Šioje užklausos dalyje vis dar `dimensionDataSource` yra pasirinktinis parametras. Jei jo nėra, ji bus `filters` laikoma *bazinėmis dimensijomis*. Yra keturi privalomi `filters` laukai: `organizationId`, `productId` ir `siteId`, `locationId`.
+
+- `organizationId` turi būti tik viena vertė, bet ji vis dar masyve.
+- `productId` gali būti viena ar daugiau verčių. Jei yra tuščias masyvas, bus pateiktos visų produktų grąžintos.
+- `siteId` ir `locationId` yra naudojami atsargų matomumui skaidant.
+
+Parametras `groupByValues` turi būti nurodytas indeksavimo konfigūracijoje. Daugiau informacijos, žr. [Produkto indekso hierarchijos konfigūracija](./inventory-visibility-configuration.md#index-configuration).
+
+Parametras `returnNegative` kontroliuoja, ar rezultatuose yra neigiamų įrašų.
 
 Šiame pavyzdyje rodomas turinio pavyzdžio turinys.
 
@@ -484,7 +522,24 @@ Body:
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["T-shirt"],
+        "siteId": ["1"],
+        "LocationId": ["11"],
         "ColorId": ["Red"]
+    },
+    "groupByValues": ["ColorId", "SizeId"],
+    "returnNegative": true
+}
+```
+
+Toliau pateikti pavyzdžiai rodo, kaip pateikti užklausą apie visus produktus tam tikroje svetainėje ir vietoje.
+
+```json
+{
+    "filters": {
+        "organizationId": ["usmf"],
+        "productId": [],
+        "siteId": ["1"],
+        "LocationId": ["11"],
     },
     "groupByValues": ["ColorId", "SizeId"],
     "returnNegative": true
@@ -512,7 +567,7 @@ Query(Url Parameters):
 Čia pateikiamas URL gauti pavyzdys. Ši gavimo užklausa yra lygiai tokia pati, kaip ir anksčiau pateiktas skelbimo pavyzdys.
 
 ```txt
-/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: Našumo apžvalgų kūrimas
 description: Šioje temoje aiškinama, kaip sukurti efektyvumo vertinimą, ir paaiškinamas kiekvieno vertinimo skyriaus tikslas.
-author: andreabichsel
-ms.date: 05/05/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscu
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a4a9f83c2b6cb30888ed5a797fb72b9f382187cb8f119d15a5fa437ed5aba1f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1340653c1e9a21d41743b8e3c0b81a4285245d5a
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732254"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431165"
 ---
 # <a name="create-performance-reviews"></a>Našumo apžvalgų kūrimas
 
@@ -65,17 +65,17 @@ ms.locfileid: "6732254"
 30. Pažymėkite skirtuką **Įvertinimai**.  
 
     - „FastTab“ **Įvertinimo išsami informacija** leidžia darbuotojams įvertinti save, o vadovams – įvertinti darbuotą. Jei naudojami svarbos taškai, svertinė rezultatų vertė bus apskaičiuota automatiškai.  
-    - Norėdami peržiūrėti šį skyrių, įjunkite parametrų nustatymus, skirtus darbuotojo vertinimui rodyti.  
+    - Norėdami peržiūrėti šį skyrių, įgalinkite parametrų nustatymus, kad personalo bendrinamų **parametrų puslapyje būtų rodomi darbuotojų** vertinimai.  
 
-31. Pažymėkite skirtuką **Baigimo etapai**. Jei vertinime naudojama darbo eiga, baigimo etapai bus rodomi tik užbaigus darbo eigą. Jei darbo eiga nenaudojama, tada čia pateikiami tiek darbuotojas, tiek vadovas. Reikiamas žymės langelis pasirenkamas atsižvelgiant į apžvalgos tipo nustatymus.  
+31. Pažymėkite skirtuką **Baigimo etapai**. Jei vertinime naudojama darbo eiga, baigimo etapai bus rodomi tik užbaigus darbo eigą. Jei darbo eiga nenaudojama, tada čia pateikiami tiek darbuotojas, tiek vadovas. žymės **Reikiamas** langelis **Atsijungti** pasirenkamas atsižvelgiant į apžvalgos tipo nustatymus.  
 32. Pasirinkite skirtuką **Bendra**.
 
     - Našumo laikotarpis sukuria numatytąsias pradžios ir pabaigos datas. Šias datas galima redaguoti.  
-    - Būsenos valdo prieigą prie apžvalgą. Jei rodoma būsena **Nepradėta**, visi gali redaguoti vertinimą. Jei rodoma būsena **Vykdoma**, tik darbuotojas gali peržiūrėti ir redaguoti vertinimą. Būsena **Parengta peržiūrėti** suteikia galimybę tik vadovui peržiūrėti ir redaguoti apžvalgą. Būsena **Galutinė apžvalga** tiek darbuotojui, tiek vadovui suteikia galimybę peržiūrėti ir redaguoti apžvalgą, jei taip nustatyta apžvalgos tipe. Būsenos **Baigta** ir **Atšaukta** nurodo, kad apžvalgą galima tik skaityti. Jei peržiūros būsena yra **Atmesta** ir ji grąžinama darbuotojui, darbuotojas ir vadovas gali atlikti reikiamus keitimus, kad darbuotojas galėtų ją pateikti iš naujo.
+    - Būsenos valdo prieigą prie apžvalgą. Jei rodoma būsena **Nepradėta**, visi gali redaguoti vertinimą. Jei rodoma būsena **Vykdoma**, tik darbuotojas gali peržiūrėti ir redaguoti vertinimą. Būsena **Parengta peržiūrėti** suteikia galimybę tik vadovui peržiūrėti ir redaguoti apžvalgą. **Galutinės peržiūros** būsena leidžia darbuotojui ir vadovui peržiūrėti ir redaguoti peržiūrą, jei peržiūros tipe pasirinkta parinktis **Leisti redaguoti galutinėje peržiūroje**. Būsenos **Baigta** ir **Atšaukta** nurodo, kad apžvalgą galima tik skaityti. Jei peržiūros būsena yra **Atmesta** ir ji grąžinama darbuotojui, darbuotojas ir vadovas gali atlikti reikiamus keitimus, kad darbuotojas galėtų ją pateikti iš naujo.
 
 33. Lauke **Apžvalga** įveskite reikšmę.
 34. Pažymėkite skirtuką **Apžvalga**. Kadangi galima keisti vertinimo būsenas, darbuotojas ir vadovas gali įtraukti komentarų kiekvienam tikslui ar kompetencijai.  
-35. Pažymėkite skirtuką **Baigimo etapai**. Darbuotojas ir vadovas užbaigti vertinimą. Kai užbaigti visi privalomi baigimo etapai, būsena pakeičiama į **Užbaigta** ir daugiau negalima atlikti keitimų.  
+35. Pažymėkite skirtuką **Baigimo etapai**. Darbuotojas ir vadovas užbaigti vertinimą. Kai užbaigti visi privalomi atsijungimo etapai, būsena pakeičiama į **Užbaigta** ir daugiau negalima atlikti keitimų.  
 
 
 

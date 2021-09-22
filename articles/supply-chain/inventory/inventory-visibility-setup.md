@@ -1,5 +1,5 @@
 ---
-title: Atsargų matomumo nustatymas
+title: Įdiekite Inventoriaus matomumo papildinį
 description: Ši tema aprašo, kaip įdiegti ir konfigūruoti inventoriaus matomumo papildinį „ Microsoft Dynamics 365 Supply Chain Management“.
 author: yufeihuang
 ms.date: 08/02/2021
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8573fe01abb1c6092012baf85e8b7df40b74a31f
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: b2b85f533a3318701ed08857b899cf9bdd103863
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343589"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474825"
 ---
-# <a name="set-up-inventory-visibility"></a>Atsargų matomumo nustatymas
+# <a name="install-and-set-up-inventory-visibility"></a>Atsargų matomumo nustatymas ir diegimas
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
@@ -41,7 +41,7 @@ Prieš jums įdiegiant inventoriaus matomumo papildinį, atlikite šiuos veiksmu
     - `Inventory Visibility Integration.zip` (jei jūsų vykdoma „Supply Chain Management” versija yra ankstesnė nei 10.0.18 versija)
 
 > [!NOTE]
-> Šiuo metu palaikomos šalys ir regionai yra Kanada (HOU, ECA), Jungtinės Valstijos (ISPANIJOS, ESS), Europos Sąjunga (NEU, WEU), Jungtinė Karalystė (SUK,VZK) ir Australija (HOU, SEAU).
+> Šiuo metu palaikomos šalys ir regionai yra Kanada (HOU, ECA), Jungtinės Valstijos (ISPANIJOS, ESS), Europos Sąjunga (NEU, WEU), Jungtinė Karalystė (SUK,VZK) ir Australija (HOU, SEAU), Japonija (EJP, WJP) ir Brazilija (SBR, SCUS).
 
 Jei turite kokių klausimų apie šias būtinąsias sąlygas, susisiekite su papildinio produkto komanda.
 
@@ -119,6 +119,9 @@ Kai užregistruojate programą ir pridedate kliento slaptą seką, atlikite šiu
 1. Sutikite su sąlygomis ir terminais pasirinkę **Sąlygos ir terminai** žymimą laukelį.
 1. Pasirinkti **Diegti**. Papildinio būsena bus rodoma kaip **diegiama**. Tada, kai diegimas bus baigtas, paleiskite iš naujo puslapį. Būsena turi pasikeisti į **Įdiegta**.
 
+> [!IMPORTANT]
+> Jei turite daugiau nei vieną LCS aplinką, kiekvienai aplinkai „Azure AD“ sukurkite kitą programą. Jei norėdami įdiegti atsargų matomumo priedą skirtingoms aplinkai naudojate tą patį programos ID ir nuomininko ID, atpažinimo ženklo išdavimas bus taikomas senesnėms aplinkai. Galios tik paskutinė įdiegta versija.
+
 ## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Išdiekite Inventoriaus matomumo papildinį
 
 Norėdami pašalinti atsargų matomumo priedą, **Išdiegti** LCS puslapyje pasirinkite. Pašalinimo procesas pašalina atsargų matomumo priedą, išregistruojami iš LCS ir panaikinami visi laikini duomenys, saugomi atsargų matomumo duomenų talpykloje. Tačiau pirminiai atsargų duomenys, saugomi jūsų „Dataverse“ abonemente, nėra naikinami.
@@ -133,7 +136,7 @@ Norėdami pašalinti savo abonemente saugomus atsargų duomenis, savo „Dataver
 
 Kai panaikinate šiuos sprendimus, duomenys, saugomi lentelėse, taip pat bus panaikinti.
 
-## <a name="set-up-supply-chain-management"></a><a name="setup-dynamics-scm"></a>„Supply Chain Management“ nustatymas
+## <a name="set-up-inventory-visibility-in-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Nustatyti atsargų matomumą „Supply Chain Management“ dalyje
 
 ### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Aplinkos matomumo integravimo paketo diegimas
 
@@ -153,8 +156,23 @@ Jei naudojate „Supply Chain Management” 10.0.17 ar senesnę versiją, susisi
 
 ### <a name="set-up-inventory-visibility-integration"></a><a name="setup-inventory-visibility-integration"></a>Atsargų matomumo integravimo nustatymas
 
-1. „Supply Chain Management” atidarykite darbo sritį **[Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** ir įjunkite funkciją *Atsargų matomumo integravimas*.
-1. Eikite į **Atsargų valdymas \> Nustatymas \> Atsargų matomumo integravimo parametrai** ir įveskite aplinkos, kurioje paleidžiamas atsargų matomumas, URL. Daugiau informacijos žr. [Surasti paslaugų galinį tašką](inventory-visibility-power-platform.md#get-service-endpoint).
+Įdiegę priedą parenkite savo „Supply Chain Management“ sistemą dirbti su juo atlikdami nurodytus veiksmus.
+
+1. „Supply Chain Management“ atverkite **[Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** darbo sritį ir tada įjunkite tokias funkcijas:
+    - *Atsargų matomumo integravimas* – Būtinas.
+    - *Atsargų matomumo integravimas su rezervavimo korespondentinė sąskaita* – rekomenduojama, bet pasirinktinai. Reikia 10.0.22 arba naujesnės versijos. Dėl daugiau informacijos, žr. [Inventoriaus matomumo rezervavimas](inventory-visibility-reservations.md).
+
+1. Eikite į **Atsargų valdymas \> Nustatymas \> Atsargų ir sandėlio integravimo parametrai**.
+1. Atidarykite skirtuką **Bendra** ir atlikite šiuos parametrus:
+    - **Atsargų matomumo galinis punktas** – įveskite aplinkos, kurioje vykdomas atsargų matomumas, URL. Daugiau informacijos žr. [Surasti paslaugų galinį tašką](inventory-visibility-configuration.md#get-service-endpoint).
+    - **Didžiausias įrašų skaičius vienoje užklausoje** – nustatykite didžiausią įrašų, kuriuos reikia įtraukti į vieną užklausą, skaičių. Turite įvesti teigiamą s integerį, mažesnį arba lygų 1000. Numatytoji vertė yra 512. Primygtinai rekomenduojame išsaugoti numatytąją vertę, nebent gavote „Microsoft Support" rekomendacijų arba esate tikri, kad ją reikia pakeisti.
+
+1. Jei įgalinote pasirinktinį *atsargų matomumo integravimą su rezervavimo korespondentinės* sąskaitos funkcija, atidarykite skirtuką **Rezervavimas ir atlikite** šiuos parametrus:
+    - **Įgalinti rezervavimo korespondentinę sąskaitą** – nustatykite kaip *Taip*, norėdami įgalinti šią funkciją.
+    - **Rezervavimo korespondentinis modifikatorius** – pasirinkite atsargų operacijos būseną, kuri koresponduos rezervavimus, atliktas atsargų matomumo metu. Šis parametras nustato užsakymo apdorojimo etapą, kuris suaktyvina kompensavimus. Etapą seka užsakymo atsargų operacijos būsena. Pasirinkite vieną iš šių parinkčių:
+        - *Užsakyta* – kai operacijos būsena Yra, sukūrus užsakymą, *užsakymas* atsiųs korespondentinę užklausą. Korespondentinis kiekis bus sukurto užsakymo kiekis.
+        - *Rezervas* – kai *operacijos būsena Rezervuota,* Užsakytas užsakymas siųs korespondentinę užklausą, kai ji rezervuota, paimta, užregistruotas važtaraštis arba išrašyta SF. Užklausa bus suaktyvinta tik vieną kartą, pirmojo žingsnio atveju, kai bus įvyksta nurodytas procesas. Korespondentinis kiekis bus kiekis, kai atsargų operacijos būsena atitinkamoje užsakymo eilutėje pasikeičia iš *Užsakyta* į *Rezervuota* (arba vėlesnė būsena).
+
 1. Eikite į **Atsargų valdymas \> Periodinis \> Atsargų matomumo integravimas** ir įjunkite užduotį. Visi atsargų keitimo įvykiai iš „Supply Chain Management” dabar bus užregistruoti atsargų matomumo srityje.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

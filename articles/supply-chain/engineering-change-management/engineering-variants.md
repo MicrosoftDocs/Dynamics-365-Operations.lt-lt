@@ -10,18 +10,29 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 57eda6a833df6ff8e91c006bbc5096554eff6c503a8b7ba2bd0b13e2f8e98f56
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4e2133263f4bee09a3365236601e0d2fdd08a7ae
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766159"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471841"
 ---
 # <a name="generate-variants-for-engineering-products"></a>Generuoti inžinerijos produktų variantus
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Šioje temoje aprašoma, kaip generuoti inžinerijos produktų variantus.
+
+## <a name="turn-on-variant-generation-for-engineering-products"></a>Inžinierinių produktų variantų įjungimas
+
+Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+
+- **Modulis:** *inžinerinių pakeitimų valdymas*
+- **Funkcijos pavadinimas:** *Varianto kūrimas inžineriniams produktams*
+
+> [!IMPORTANT]
+> Inžinerijos produktų funkcijos varianto generavimas *jūsų sistemoje bus matomas tik* įgalinus inžinerijos *keitimo valdymo konfigūracijos* raktą. Dėl instrukcijų, žr. [Inžinerinė pakeitimo valdymo apžvalga](product-engineering-overview.md).
 
 ## <a name="generate-one-or-more-new-variants-of-an-engineering-product"></a>Generuoti vieną ar daugiau naujų inžinerijos produkto variantų
 
@@ -38,10 +49,15 @@ Toliau pateiktoje procedūroje pateikiamas pavyzdys, kaip sukurti kelis variantu
 1. Jei reikia, į variantą įtraukite komplektavimo specifikaciją (KS) ir maršrutą.
 1. Veiksmų juostoje, atidarykite **Produkto** skirtuką ir **Produkto šeimininkas** grupėje, pasirinkite **Produkto matmenys**.
 1. Atidaromas **Produkto dimensijos** puslapis. Šiame puslapyje yra kiekvienos galimos dimensijos skirtukas. Kiekviename skirtuke pridėkite kiekvienos vertės, kurią palaikote kiekvienai susijusiai dimensijai, eilutę. (Šiame pavyzdyje galite įtraukti eilutes į **Spalva** skirtuką, tokias kaip *Balta*, *Geltona* ir *Žalia*).
-1. Uždarykite puslapį ir pasirinkite **Išleisto produkto variantai**. Atsikreipkite dėmesį, kad atsiranda pirmas sukurtas variantas (baltas V-1).
-1. Pasirinkite **Variantų pasiūlymai**.
-1. Sistema siūlo variantus su sukurtomis spalvų vertėmis (pvz., balta V-1, geltona V-1 ir žalia V-1).
-1. Pasirinkite pasiūlytus variantus ir pasirinkite **OK**, norėdami paleisti variantus į inžinerijos įmonę. Atkreipkite dėmesį, kad bus taikomos toliau nurodytos sąlygos: 
+1. Uždarykite puslapį ir tada pasirinkite **Išleisto produkto variantai**. Atkreipkite dėmesį, kad atsiranda pirmas jūsų sukurtas variantas (mėlynas V-1).
+1. Veiksmų srities skirtuke **Produkto variantas** pasirinkite **Variantų siūlymai**.
+1. Variantų **pasiūlymų dialogo** lange atlikite vieną iš šių veiksmų:
+
+    - Dialogo lango viršuje yra kiekvienos galimos dimensijos skyrius. Kiekvienai dimensijai pažymėkite kiekvienos vertės, kurios varianto pasiūlymą norite generuoti, žymės langelį, tada įrankių juostoje **pasirinkite** Siūlyti. Susiję pasiūlymai įtraukiami į skyrių **Siūlomi variantai**.
+    - Pasirinkite **Siūlyti viską įrankių** juostoje, norėdami generuoti visų galimų dimensijų verčių derinių variantų pasiūlymus. Susiję pasiūlymai įtraukiami į skyrių **Siūlomi variantai**.
+
+1. Skyriuje **Siūlomi variantai** pažymėkite kiekvieno norimo sukurti varianto žymės langelį. Pasirinkite pasiūlytus variantus ir pasirinkite **Kurti**, norėdami generuoti variantus į inžinerijos įmonę. Šios sąlygos taikomos:
+
     - Jokie sukurti variantai neturės KS arba maršruto.
     - Šių variantų atributai bus numatytieji gamybos kategorijos atributai ir nebus nukopijuoti iš ankstesnio varianto.
 

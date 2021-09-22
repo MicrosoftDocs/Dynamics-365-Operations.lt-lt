@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: defbcdc7ada4471345f8c728522e15f16a8bec8f
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 644eb0d682c35bd604c188aa02e4a6c69b3ff209
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344293"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474993"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Atsargų matomumo papildinio apžvalga
 
@@ -31,13 +31,11 @@ Kaip mikroservice, įtaisyta „Microsoft Dataverse“ atsargų matomumui, sutei
 
 Galite integruoti atsargų matomumą su keliomis trečiųjų šalių sistemomis, nustatydami standartizuotų atsargų dimensijų konfigūravimo pasirinktis ir nustatydami operacijų tipus. Atsargų matomumas taip pat palaiko pritaikytą extensibility per konfigūruojamus apskaičiuotus kiekius.
 
-## <a name="supported-features"></a>Palaikomos funkcijos
+## <a name="inventory-visibility-integration-with-dynamics-365-supply-chain-management"></a>Atsargų matomumo integravimo nustatymas su „Dynamics 365 Supply Chain Management“
 
-### <a name="inventory-visibility-integration-with-dynamics-365-supply-chain-management"></a>Atsargų matomumo integravimo nustatymas su „Dynamics 365 Supply Chain Management“
+Integruotas sprendimas atsargų duomenis nuolat seka „Dynamics 365 Supply Chain Management“ iš atsargų pokyčių. Norėdami gauti daugiau informacijos, [įdiekite ir nustatykite atsargų matomumą](inventory-visibility-setup.md) ir [Konfigūruokite atsargų matomumą](inventory-visibility-configuration.md).
 
-Integruotas sprendimas atsargų duomenis nuolat seka „Dynamics 365 Supply Chain Management“ iš atsargų pokyčių. Dėl daugiau informacijos, žr. [Inventoriaus matomumo papildinio nustatymas](inventory-visibility-setup.md).
-
-### <a name="get-a-global-view-of-inventory"></a>Gauti visuotinį atsargų rodinį
+## <a name="get-a-global-view-of-inventory"></a>Gauti visuotinį atsargų rodinį
 
 Integruotas sprendimas leidžia apibrėžti savo duomenų šaltinius ir centralizuoti atsargų duomenis. Dėl daugiau informacijos, žr. [Inventoriaus matomumo papildinio konfigūravimas](inventory-visibility-configuration.md).
 
@@ -46,7 +44,7 @@ Yra du būdai savo atsargų peržiūrai:
 - Pateikti užklausą naudojant didelio efektyvumo API. Ši API gali grąžinti beveik realiuoju laiku duomenis tiesiai iš talpykloje saugomo egzemplioriaus. Sutarčių ir pavyzdžių galite rasti atsargų [matomumo viešuose API](inventory-visibility-api.md).
 - Peržiūrėti turimų atsargų sąrašą. Šis sąrašas yra periodiškai sinchronizuojamas iš talpykloje saugomo egzemplioriaus, jis matomas „Dataverse“. Dėl daugiau informacijos, žr. [Inventoriaus matomumo programa](inventory-visibility-power-platform.md).
 
-### <a name="soft-reservations"></a>Švelniai rezervavimai
+## <a name="soft-reservations"></a>Švelniai rezervavimai
 
 [!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 

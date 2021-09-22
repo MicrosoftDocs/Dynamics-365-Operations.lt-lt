@@ -2,7 +2,7 @@
 title: Daugiakalbių pranešimų Elektroninėse ataskaitose kūrimas
 description: Šioje temoje paaiškinama, kaip galite naudoti Elektroninės ataskaitos (angl. Electronic Reporting (ER)) žymas kurti ir generuoti daugiakalbius pranešimus.
 author: NickSelin
-ms.date: 04/21/2021
+ms.date: 09/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86facc26f57b3ab166d6274689d774adbac50e46aa7759cfd079a0ef5a45456e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e199b350101e10ba3e424894f4dc9881d05c9558
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718434"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473410"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Daugiakalbių pranešimų Elektroninėse ataskaitose kūrimas
 
 [!include[banner](../includes/banner.md)]
+
+[!include[banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>Peržiūra
 
@@ -229,10 +231,14 @@ Kaip anksčiau aprašyta šioje temoje, **Žyma** ir **Aprašas** atributai kiek
 - ER žymos vertė, susieta su **Žyma** atributais, saugoma grąžinto įrašo **Žyma** lauke.
 - ER žymos vertė, susieta su **Aprašas** atributais, saugoma grąžinto įrašo **Aprašas** lauke.
 
+## <a name="performance"></a><a name=performance></a>Našumas
+
+Konfigūruodami ER formato komponentą, kad būtų galima generuoti ataskaitą pageidaujama [kalba](#language), arba importuoti gaunamąjį dokumentą, kai turinys išanalizuotas jūsų pageidaujama kalba, rekomenduojame įgalinti **talpyklą kaip pageidaujamą dabartinio vartotojo kalbą, kuri skirta ER, veikia** funkcijų [funkcijų valdymo](../../fin-ops/get-started/feature-management/feature-management-overview.md) darbo srityje. Ši funkcija padeda pagerinti našumą, ypač ER formato komponentams, kurie turi kelias nuorodas į žymes ER formulėse ir susiejimus bei daug tikrinimo taisyklių, kad sugeneruotų vartotojo pranešimus [pageidaujama](general-electronic-reporting-formula-designer.md#TestFormula) kalba.
+
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 - [Elektroninių ataskaitų apžvalga](general-electronic-reporting.md)
-- [Elektroninių ataskaitų funkcijos](er-formula-language.md#functions)
+- [Elektroninių ataskaitų funkcijos](er-formula-language.md#Functions)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

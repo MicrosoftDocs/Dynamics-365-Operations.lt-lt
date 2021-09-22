@@ -1,8 +1,8 @@
 ---
 title: Darbuotojo įtraukimas į kintamosios atlyginimo dalies planą
 description: Kompensacijų ir išmokų vadovas gali darbuotojus įtraukti į kintamosios atlyginimo dalies planus, kad būtų galima apskaičiuoti darbuotojų grynųjų pinigų ir negrynųjų pinigų premijas.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,35 +10,35 @@ ms.search.form: HRMCompVarEnrollEmpl, HcmCompensationWorkspace
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2de7393e67fb01842cdd45c2ef8a041a1e694fabd5e62bcf9894941e7272bd03
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 67b3cd95276b9e59e794583fa51ddbcec4c43b1e
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732542"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431319"
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>Darbuotojo įtraukimas į kintamosios atlyginimo dalies planą
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Kompensacijų ir išmokų vadovas gali darbuotojus įtraukti į kintamosios atlyginimo dalies planus, kad būtų galima apskaičiuoti darbuotojų grynųjų pinigų ir negrynųjų pinigų premijas. Ši procedūra daro prielaidą, kad kintamosios atlyginimo dalies planas sukurtas ir jo laukas Leisti registraciją nustatytas į Taip bei sukurtos to kintamosios atlyginimo dalies plano tinkamumo taisyklės. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Norėdami pradėti šią procedūrą, pasirinkite Personalas > Darbuotojai > Darbuotojai > Kompensavimas > Kintamojo plano registracija
+Kompensacijų ir išmokų vadovas gali darbuotojus įtraukti į kintamosios atlyginimo dalies planus, kad būtų galima apskaičiuoti darbuotojų grynųjų pinigų ir negrynųjų pinigų premijas. Ši procedūra daro prielaidą, kad kintamosios atlyginimo dalies planas sukurtas ir jo laukas **Leisti registraciją** nustatytas į Taip bei sukurtos to kintamosios atlyginimo dalies plano tinkamumo taisyklės. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Norėdami pradėti šią procedūrą, pasirinkite **Personalas** > **Darbuotojai** > **Darbuotojai** > **Kompensavimas** > **Kintamojo plano registracija**.
 
-1. Spustelėkite Naujas.
-2. Lauke Planas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+1. Spustelėkite **Naujas**.
+2. Lauke **Planas** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
     * Bus filtruojama plano peržvalga, kad būtų rodomi tik tie kintamosios atlyginimo dalies planai, į kuriuos darbuotojas turi teisę pagal tinkamumo taisykles.  
 3. Sąraše spustelėkite saitą pasirinktoje eilutėje.
 4. Perjunkite dalies Bendra išplėtimą.
-5. Lauke Įsigaliojimo data įveskite datą.
-6. Spustelėkite Įrašyti.
-7. Perjunkite dalies Nepaisymai išplėtimą.
+5. Lauke **Įsigaliojimo data** įveskite datą.
+6. Spustelėkite **Įrašyti**.
+7. Perjunkite dalies **Nepaisymai** išplėtimą.
     * Neprivaloma: kai nurodyta pasirinkto kintamojo plano samdos taisyklė yra Procentas, galima nustatyti, kad samdos taisyklės data nepaisytų darbuotojo samdos datos.  
     * Jei kintamasis planas yra pagrindinio plano procentas, galima nepaisyti darbuotojo premijos procento. Jei kintamosios atlyginimo dalies planas yra vienetų skaičiaus planas, galima nepaisyti darbuotojo vienetų skaičiaus.  
     * Jei darbuotojui turėtų būti skirta standartinė premijos suma, ją galite nustatyti čia.  
-8. Perjunkite dalies Organizacijos struktūros nepaisymai išplėtimą.
-    * Jei, vertinant darbuotojo našumą, reikėtų atsižvelgti į kitų skyrių našumą, ar kito, ne darbuotojo pareigoms priskirto skyriaus našumą, skyriaus galima nepaisyti. Visa Procento stulpelio suma turėtų būti 100.  
+8. Perjunkite dalies **Organizacijos struktūros** išplėtimą.
+    * Jei, vertinant darbuotojo našumą, reikėtų atsižvelgti į kitų skyrių našumą, ar kito, ne darbuotojo pareigoms priskirto skyriaus našumą, skyriaus galima nepaisyti. Visa **Procento** stulpelio suma turėtų būti 100.  
 
 
 

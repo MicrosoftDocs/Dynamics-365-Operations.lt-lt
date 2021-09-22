@@ -15,20 +15,19 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3afce380f1fd6d83c7e05424079e9e4b9e72bdf9ef90ee8baaa26748aab9d4e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fb75c391809f1ce5c7d48728a735f347ef1784ed
+ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764985"
+ms.lasthandoff: 08/28/2021
+ms.locfileid: "7441270"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Integravimas su „LinkedIn Talent Hub“
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [banner](includes/preview-feature.md)]
-
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+> [!IMPORTANT]
+> Šioje temoje aprašytas integravimas tarp „LinkedIn Talent" centro ir „LinkedIn" bus naudojamas „Dynamics 365 Human Resources“ 2021 m. gruodžio 31 d. Po šios datos integravimo tarnyba nebebus galima. Organizacijos, kurios dar nenaudoja integravimo tarnybos, negalės įdiegti paslaugos prieš išeidami į pensiją.
 
 [„LinkedIn Talent Hub”](https://business.linkedin.com/talent-solutions/talent-hub) yra pretendentų sekimo sistemos (ATS) platforma. Ji leidžia vykdyti darbuotojų iešką bei valdyti ir samdyti darbuotojus vienoje vietoje. Integruodami „Microsoft Dynamics 365 Human Resources” su „LinkedIn Talent Hub” galite lengvai sukurti pretendentų, pasamdytų pareigoms, darbuotojų įrašus „Human Resources”.
 

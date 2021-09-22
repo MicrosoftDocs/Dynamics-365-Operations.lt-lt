@@ -2,7 +2,7 @@
 title: Pašalintos arba nebenaudojamos platformos funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti iš „Finance and Operations“ programų platformos naujinių.
 author: sericks007
-ms.date: 05/26/2021
+ms.date: 08/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7bd5a64553afa04517633ed03d8bbd6077208c0b511d8fa131dc9a2849998708
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 68114989ab96d175b534a31a7115420ee4adbcfb
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774414"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463633"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Pašalintos arba nebenaudojamos platformos funkcijos
 
@@ -32,7 +32,29 @@ ms.locfileid: "6774414"
 
 Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](/dynamics/s-e/global/axtechrefrep_61). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
 
-## <a name="feature-deprecation-notice-effective-may-2021"></a>Pranešimas apie funkcijos nerekomendavimą, įsigaliojantį nuo 2021 m. gegužės
+## <a name="feature-deprecation-effective-august-2021"></a>Pranešimas apie funkcijos nerekomendavimą, įsigaliojantį nuo 2021 m. rugpjūtis
+
+### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>„Microsoft Azure“ SQL ataskaitos „Lifecycle Services“ (LCS)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo / pašalinimo priežastis** | Mes atšaukiame kai kurias SQL ataskaitas LCS. Ataskaitų stebėti nebereikės, nes šią funkciją pakeitė kitos paslaugos. |
+| **Pakeitė kita funkcija?**   | nr. |
+| **Paveiktos produkto sritys**         | SQL ataskaitos: dabartinis DTU, dabartinio DTU informacija, Gauti užrakto informaciją, dabartinio plano sąrašo vadovas, Gauti užklausos ID sąrašą, Gauti duoto plano ID SQL užklausos planą, Gauti užklausų planus ir vykdymo būseną, Gauti throttle config, Gauti laukimo statistiką, išvardyti tinkamiausias užklausas |
+| **Visuotinio diegimo parinktis**              | Debesies diegimas: Paveikia „Microsoft” valdomas gamybos ir 2‑5 pakopų smėlio dėžės aplinkas. |
+| **Būsena**                         | Nerekomenduojama: Suplanuota pašalinimo data – 2021 m. spalis. |
+
+### <a name="azure-sql-actions-in-lcs"></a>„Azure SQL" veiksmai LCS
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo / pašalinimo priežastis** | Mes atšaukiame kai kurias SQL veiksmai LCS.  |
+| **Pakeitė kita funkcija?**   | nr. |
+| **Paveiktos produkto sritys**         | SQL veiksmai: sukurkite plano vadovą, kad planumėte ID, sukurkite plano vadovą, kaip įtraukti lentelės užuominas, pašalinti plano vadovą, išjungti / įgalinti puslapio užrakinimą ir užraktų perskyrimą, atnaujinti statistiką lentelėje, perkurti indeksą, kurti indeksą |
+| **Visuotinio diegimo parinktis**              | Debesies diegimas: Paveikia „Microsoft” valdomas gamybos ir 2‑5 pakopų smėlio dėžės aplinkas. |
+| **Būsena**                         | Nerekomenduojama: Suplanuota pašalinimo data – 2021 m. spalis. |
+
+## <a name="feature-deprecation-effective-may-2021"></a>Pranešimas apie funkcijos nerekomendavimą, įsigaliojantį nuo 2021 m. gegužė
 
 ### <a name="globalization-portal-in-lifecycle-services-lcs"></a>„Lifecycle Services“ (LCS) Globalizacijos portalas
 

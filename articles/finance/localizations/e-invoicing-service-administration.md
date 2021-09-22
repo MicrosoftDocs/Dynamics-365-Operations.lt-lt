@@ -2,7 +2,7 @@
 title: Elektroninių SF išrašymo administravimo komponentai
 description: Šioje temoje pateikta informacija apie kompnentus, kurie susiję su elektroninių sąskaitų priedų administravimu.
 author: gionoder
-ms.date: 04/29/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6582a0a9eda19fe69ead853ea5d79d763afcb8a468717fde84a32146fd0f79af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d187e8a03552258099d7021ff056d0726ea60ca1
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721731"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463886"
 ---
 # <a name="electronic-invoicing-administration-components"></a>Elektroninių SF išrašymo administravimo komponentai
 
@@ -31,14 +31,14 @@ ms.locfileid: "6721731"
 
 ## <a name="azure"></a>Azure
 
-Naudokite „Microsoft Azure“ norėdami sukurti rakto saugyklos ir saugyklos sąskaitos slaptus duomenis. Tada konfigūruojant elektroninės SF išrašymo priedą naudokite paslapius.
+Naudokite „Microsoft Azure“ norėdami sukurti rakto saugyklą ir nustatyti sąskaitos slaptus duomenis. Tada konfigūruojant elektronines SF naudoti rakto saugyklos slapyme arba saugyklos sąskaitos SAS atpažinimo ženklą.
 
 ## <a name="lifecycle-services"></a>Lifecycle Services
 
-Naudokite „Microsoft Dynamics Lifecycle Services“ LCS tam, kad įgalintumėte mikroservices priedą LCS diegimo projektui.
+Naudokite „Microsoft Dynamics“ „Lifecycle Services“ LCS tam, kad įgalintumėte elektroninių SF priedą LCS diegimo projektui.
 
 > [!NOTE]
-> Mikropaslaugos LCS priedo įdiegimui reikalingas bent 2 pakopos virtualusis įrenginys. Daugiau informacijos apie aplinkų planavimą ieškokite skyriuje [Aplinkos planavimas](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+> Mikropaslaugos LCS priedo įdiegimui reikalinga bent **2 pakopų aplinka**. Daugiau informacijos apie aplinkų planavimą ieškokite skyriuje [Aplinkos planavimas](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
  
 
 ## <a name="regulatory-configuration-services"></a>„Regulatory Configuration Services“ (RCS)
@@ -53,20 +53,21 @@ Daugiau informacijos apie RCS žr. [„Regulatory Configuration Services“ (RCS
 
 Prieš konfigūruojant elektronines SF naudojant RCS, būtina sukonfigūruoti RCS, kad būtų leidžiama susisiekti su elektroninių SF išrašymo papildymu. Šią konfigūraciją užbaikite skirtuko **Elektroninės sąskaitos faktūros priedai** **Elektroninės ataskaitos parametrai** puslapyje.
 
-#### <a name="service-endpoint"></a>Paslaugos galinis punktas
+#### <a name="service-endpoint"></a><a id='svc-endpoint-uris'></a>Paslaugos galinis punktas
 
 Elektroninių SF išrašymo priedas yra keliuose „Azure” duomenų centro regionuose. Toliau esančioje lentelėje pateikiamas pasiekiamumo sąrašas pagal regioną.
 
-| „Azure" duomenų centro geografija |
-|----------------------------|
-| Jungtinės Valstijos              |
-| Europa                     |
-| Jungtinė Karalystė             |
-| Azija                       |
+
+| Duomenų centro „Azure“ geografija | Paslaugos galinio punkto URI                                                       |
+|----------------------------|----------------------------------------------------------------------------|
+| Jungtinės Valstijos              | <p>https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing</p> |
+| Europa                     | <p>https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
+| Jungtinė Karalystė             | <p>https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
+| Azija                       | <p>https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
 
 ### <a name="service-environments"></a>Paslaugų aplinkos
 
-Aptarnavimo aplinkos yra loginiai skaidiniai, kurie sukurti elektroninių SF išrašymo funkcijų vykdymui elektroninio SF išrašymo papildinyje palaikyti. Saugos slapyme ir skaitmeniniuose sertifikatuose, ir pereigimas (t. y. prieigos teisės) turi būti konfigūruojamas tarnybos aplinkos lygiu.
+Aptarnavimo aplinkos yra loginiai skaidiniai, kurie sukurti elektroninių SF išrašymo funkcijų globalizavimo elektroninio SF išrašymo papildinyje palaikyti. Saugos slapyme ir skaitmeniniuose sertifikatuose, ir pereigimas (t. y. prieigos teisės) turi būti konfigūruojamas tarnybos aplinkos lygiu.
 
 Klientai gali sukurti tiek aptarnavimo aplinkos, kiek tik norite. Visos kliento sukuriamos aptarnavimo aplinkos yra nepriklausomos vienas nuo kito.
 
@@ -84,8 +85,8 @@ Aptarnavimo aplinkas galima valdyti naudojant būseną. Galimos parinktys yra š
 
 Elektroninių SF išrašymo priedo paslauga yra atsakinga už visų jūsų verslo duomenų saugojimą „Azure” ištekliuose, kurie priklauso jūsų įmonei. Siekiant užtikrinti, kad paslauga veiktų tinkamai ir kad visus verslo duomenis, kurių reikia elektroninių SF išrašymo priedui ir kuriuos jis sugeneravo, galėtų pasiekti tik priedas, turite sukurti du pagrindinius toliau pateiktus „Azure” išteklius:
 
-- „Azure” saugyklos abonementas („Blob“ saugykla) saugos elektronines SF
-- „Azure Key Vault”, kuri laikys sertifikatus ir suvienodintą saugyklos paskyros išteklių identifikatorių (URI)
+- „Azure" saugyklos sąskaita (BLOB saugykla), kurioje bus išsaugoti elektroniniai dokumentai, įskaitant elektronines SF, dokumentų transformacijų rezultatus ir išorinių žiniatinklio tarnybų atsakymus.
+- „Azure Key Vault”, kuri laikys sertifikatus ir suvienodintą saugyklos paskyros išteklių identifikatorių (SAS raktą).
 
 
 Paskirti „Key Vault“ ištekliai ir kliento talpyklos paskyra turi būti priskirti tik elektroninių SF išrašymo priedo naudojimui . Daugiau informacijos žr. [Kurti „Azure” saugyklos paskyrą ir „Key Vault“ raktą](e-invoicing-create-azure-storage-account-key-vault.md).
@@ -122,13 +123,13 @@ Norėdami įgalinti „Finance and Supply Chain Management“ ir elektroninio SF
 
 Paslaugos galinis punktas yra URL, kuriame yra elektroninio SF išrašymo priedas. Prieš elektroninių sąskaitų išleidimą, paslaugos galinis taškas turi būti konfigūruotas „Finance and Supply Chain Management“ siekiant leisti komunikaciją su paslaugomis.
 
-Norėdami konfigūruoti paslaugų galinį tašką, eikite į **Organizacijos administravimas \> Nustatymai \> Elektroninio dokumento parametras** ir tada **Pateikimo tarnybos** skirtukas, laukelyje **Elektroninės sąskaitos priedo URL** laukelis ir įveskite URL kaip aprašyta lentelėje skyriuje **Paslaugos galinis taškas**.
+Norėdami konfigūruoti paslaugų galinį tašką, eikite į **Organizacijos administravimas \> Nustatymai \> Elektroninio dokumento parametras** ir tada **Elektroninės SF** skirtukas, laukelyje **Galinio taško URL** laukelis ir įveskite atitinkamą URL iš lentelės skyriaus [Paslaugos galinis taškas](#svc-endpoint-uris) srityje prieš tai šioje temoje.
 
 #### <a name="environments"></a>Aplinkos
 
 Aplinkos pavadinimas, įvestas „Finance and Supply Chain Management“ remiasi aplinkos, kuri sukurta RCS ir paskelbta elektroninio SF išrašymo prieduose, pavadinimu.
 
-Aplinka turi būti konfigūruojama **Pateikimo paslaugų** skirtuke **Elektroninio dokumento parametro** puslapyje taip, kad kiekvienoje užklausoje išduoti elektronines SF būtų aplinka, kur elektroninio SF išrašymo priedas gali nustatyti, kuri elektroninių SF išrašymo funkcija turi apdoroti užklausą.
+Aplinka turi būti sukonfigūruota **elektroninio dokumento** parametrų puslapio **skirtuke Elektroninis SF išrašymas**. Tokiu būdu kiekviena užklausa išduoti elektronines SF sudaro aplinką, kurioje elektroninis SF išrašymas gali nustatyti, kuri elektroninių SF išrašymo priemonė turi apdoroti užklausą.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

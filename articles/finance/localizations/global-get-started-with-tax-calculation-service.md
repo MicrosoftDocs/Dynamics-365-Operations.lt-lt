@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1ddbb22d4f7c6108ca93b415276c53794b5450dd
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: b180a8cee1c5b7e9dda837915e6fdf94af30d06a
+ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394517"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7465082"
 ---
 # <a name="get-started-with-tax-calculation"></a>Pradėti naudoti mokesčių skaičiavimą
 
@@ -49,13 +49,9 @@ Norint naudoti gamybos aplinką, reikia įvykdyti tolesnes būtinąsias sąlygas
 - Savo organizacijai turite sukurti RCS aplinką ir turite turėti prieigą prie savo paskyros. Daugiau informacijos apie RCS aplinkos kūrimą ieškokite temoje [„Regulatory Configuration Service“ apžvalga](rcs-overview.md).
 - Atsižvelgiant į verslo poreikius, jūsų įdiegtos „Finance“ arba „Supply Chain Management“ aplinkos darbo srityje **Funkcijų valdymas** turi būti įjungtos tolesnės funkcijos.
 
-    - Mokesčių skaičiavimas
+    - Mokesčių skaičiavimo paslauga
     - Palaikyti kelis PVM registracijos numerius
     - Perkėlimo užsakymo dokumente nurodytas mokestis
-    - ES pardavimo sąrašo perkėlimas, pagrįstas tik mokesčių operacijomis
-    - „Intrastat“ ataskaitos pagal kelis mokesčių ID
-    - ES pardavimų sąrašo ataskaitos pagal kelis mokesčių ID
-    - Pardavimo mokesčio deklaracija pagal kelis mokesčių ID
 
 - Jūsų įdiegtos RCS aplinkos darbo srityje **Funkcijų valdymas** turi būti įjungtos toliau nurodytos funkcijos.
 
@@ -65,18 +61,14 @@ Norint naudoti gamybos aplinką, reikia įvykdyti tolesnes būtinąsias sąlygas
 
 Norint naudoti tikrinimo aplinką, reikia įvykdyti tolesnes būtinąsias sąlygas.
 
-- Turite turėti prieigą prie savo LCS paskyros ir turite būti įdiegę LCS projektą su 2 arba didesnės pakopos aplinka, kurioje veikia „Dynamics 365" 10.0.18 versija su KB4616360 arba naujesnė versija.
+- Turite turėti prieigą prie savo LCS paskyros ir turite būti įdiegę LCS projektą su 2 arba didesnės pakopos aplinka, kurioje veikia „Dynamics 365" 10.0.21 arba naujausia versija.
 - Savo organizacijai turite sukurti RCS aplinką ir turite turėti prieigą prie savo paskyros. Daugiau informacijos apie RCS aplinkos kūrimą ieškokite temoje [„Regulatory Configuration Service“ apžvalga](rcs-overview.md).
 - Turite kreiptis į „Microsoft", nusiųsdami el. laišką adresu <taxcalc@microsoft.com>, kad įgalintumėte funkciją testavimą įdiegtoje „Finance“ arba „Supply Chain Management“ aplinkoje.
 - Atsižvelgiant į verslo poreikius, jūsų įdiegtos „Finance“ arba „Supply Chain Management“ aplinkos darbo srityje **Funkcijų valdymas** turi būti įjungtos tolesnės funkcijos.
 
-    - Mokesčių skaičiavimas
+    - Mokesčių skaičiavimo paslauga
     - Palaikyti kelis PVM registracijos numerius
     - Perkėlimo užsakymo dokumente nurodytas mokestis
-    - ES pardavimo sąrašo perkėlimas, pagrįstas tik mokesčių operacijomis
-    - „Intrastat“ ataskaitos pagal kelis mokesčių ID
-    - ES pardavimų sąrašo ataskaitos pagal kelis mokesčių ID
-    - Pardavimo mokesčio deklaracija pagal kelis mokesčių ID
 
 - Jūsų įdiegtos RCS aplinkos darbo srityje **Funkcijų valdymas** turi būti įjungtos toliau nurodytos funkcijos.
 
@@ -103,12 +95,12 @@ Norint naudoti tikrinimo aplinką, reikia įvykdyti tolesnes būtinąsias sąlyg
 7. Eikite š **Mokesčių duomenų modelis**, išplėskite failų medį, o tada pasirinkite **Mokesčių konfigūracija**.
 8. Pagal savo „Finance“ versiją pasirinkite tinkamą mokesčių konfigūracijos versiją, tada – **Importuoti**.
 
-    | Leidimo versija | Mokesčių konfigūracija                       | Modelio susiejimas                   |
-    | --------------- | --------------------------------------- | ------------------------------- |
-    | 10.0.18         | Mokesčių konfigūracija – Europa 30.12.82     |                                 |
-    | 10.0.19         | Mokesčių skaičiavimo konfigūracija 36.38.193 |                                 |
-    | 10.0.20         | Mokesčių skaičiavimo konfigūracija 40.43.208 |                                 |
-    | 10.0.21         | Mokesčių skaičiavimo konfigūracija 40.46.212 | „Dataverse“ modelių susiejimas 40.46.9 |
+    | Leidimo versija | Mokesčių konfigūracija                       |
+    | --------------- | --------------------------------------- |
+    | 10.0.18         | Mokesčių konfigūracija – Europa 30.12.82     |
+    | 10.0.19         | Mokesčių skaičiavimo konfigūracija 36.38.193 |
+    | 10.0.20         | Mokesčių skaičiavimo konfigūracija 40.43.208 |
+    | 10.0.21         | Mokesčių skaičiavimo konfigūracija 40.46.212 |
 
 9. Darbo srityje **Globalizacijos funkcijos** pasirinkite **Funkcijos**, plytelę **Mokesčių skaičiavimas**, o tada pasirinkite **Įtraukti**.
 10. Pasirinkti vieną iš šių tolesnių funkcijų tipų:

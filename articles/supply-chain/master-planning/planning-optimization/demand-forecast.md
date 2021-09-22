@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 71e651afc83e0c2ea147a4657c0f2ce1865ec50efcd932127b4918266d3d7cd8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0f322dd63cb2dee6a9048e6ed086dc075cc0e1b9
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778681"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474849"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Pagrindinis planavimas su paklausos prognozėmis
 
@@ -137,32 +137,85 @@ Tokiu atveju, jei prognozės planavimą paleisite sausio 1 d., poreikio prognoz�
 
 #### <a name="transactions--reduction-key"></a>Operacijos – mažinimo raktas
 
-Jei pasirinksite **Operacijos – mažinimo raktas**: prognozės poreikius sumažina operacijos, atsirandančios laiko laikotarpiais, kurie nurodomi mažinimo raktu.
+Jei nustatote **metodą, naudojamą prognozės poreikio lauku sumažinti** iki *Operacijos - mažinimo rakto*, rognozės poreikiai yra sumažinami apibrėžtomis poreikio operacijomis, kurios atsiranda per laikotarpius, kuriuos nurodo mažinimo raktas.
+
+Apibrėžtas poreikis apibrėžiamas lauke **Sumažinti prognozę pagal**, kuris yra **padengimo grupių** puslapyje. Jei lauke Sumažinti **prognozę nustatoma kaip** laukelį į *Užsakymai*, tik pardavimo užsakymo operacijos laikomos apibrėžtu poreikiu. Jei nustatėte jį *visoms operacijoms*, bet kokios ne vidinės įmonės išdavimo atsargų operacijos laikomos apibrėžtu poreikiu. **Įtraukti tarpininkaujančios įmonės užsakymas** – Nustatykite šią parinktį į *Taip* jei tarpininkaujančios įmonės užsakymai turi būti įtraukti, kai prognozė sumažinta.
+
+Prognozės sumažinimas prasideda pirmu (anksčiausia) poreikio prognozės įrašu mažinimo rakto laikotarpiu. Jei apibrėžtų atsargų operacijų kiekis yra didesnis nei to paties mažinimo rakto laikotarpio poreikio prognozės eilučių kiekis, atsargų operacijų kiekio balansas bus naudojamas ankstesnio laikotarpio poreikio prognozės kiekiui sumažinti (jei yra nesudengta prognozė).
+
+Jei ankstesniu mažinimo rakto laikotarpiu nelieka nesusumuotos prognozės, atsargų operacijų kiekio balansas bus naudojamas prognozės kiekiui sumažinti kitą mėnesį (jei yra nesudengta prognozė).
+
+Mažinimo rakto eilučių lauko **Procentai** eikšmė nėra naudojama, kai laukas **Prognozės poreikius mažinti naudojamas metodas** yra nustatytas *Operacijos - mažinimo raktas*. Tik datos naudojamos mažinimo rakto laikotarpiui nurodyti.
+
+> [!NOTE]
+> Bet kuri prognozė, užregistruota šios dienos arba anksčiau, bus nepaisoma ir nebus naudojama suplanuotiems užsakymams kurti. Pvz., jei jūsų mėnesio poreikio prognozė sugeneruojama sausio 1 d., o jūs vykdote bendrąjį planavimą, į kurį įeina poreikio prognozė sausio 2 d., skaičiavimas nepaisys poreikio prognozės eilutės, kuri yra sausio mėn. 1 d.
 
 ##### <a name="example-transactions--reduction-key"></a>Pavyzdys: operacijos – mažinimo raktas
 
 Šiame pavyzdyje parodoma, kaip faktiniai užsakymai, vykdomi per laikotarpius, kuriuos nurodo mažinimo raktas, sumažina poreikio prognozės poreikius.
 
-Šiame pavyzdyje pasirinkite **Operacijos – mažinimo raktas** lauke **Prognozes poreikių mažinimo metodas**, kuris pateiktas puslapyje **Bendrieji planai**.
+[![Faktiniai užsakymai ir prognozė prieš paleidus bendrąjį planavimą.](media/forecast-reduction-keys-1-small.png)](media/forecast-reduction-keys-1.png)
 
-Sausio 1 d. yra toliau nurodyti pardavimo užsakymai.
+Šiame pavyzdyje pasirinkite *Operacijos – mažinimo raktas* lauke **Prognozes poreikių mažinimo metodas**, kuris pateiktas puslapyje **Bendrieji planai**.
 
-| Mėnuo    | Užsakytų vienetų kiekis |
-|----------|--------------------------|
-| sausio  | 956                      |
-| Vasaris | 1 176                    |
-| Kovas    | 451                      |
-| Balandis    | 119                      |
+Šios poreikio prognozės eilutės yra balandžio 1 d.
 
-Jei naudojate tą pačią 1000 vienetų per mėnesį poreikio prognozę, kuri naudota ankstesniame pavyzdyje, į bendrąjį planą perkeliami toliau nurodyti poreikio kiekiai.
+| Data     | Suplanuotas vienetų kiekis |
+|----------|-----------------------------|
+| balandžio mėn. 5 d.   | 100                         |
+| balandžio mėn. 12 d.  | 100                         |
+| balandžio mėn. 19 d.  | 100                         |
+| balandžio mėn. 26 d.  | 100                         |
+| gegužės mėn. 3 d.    | 100                         |
+| gegužės mėn. 10 d.   | 100                         |
+| gegužės mėn. 17 d.   | 100                         |
 
-| Mėnuo                | Reikalingas vienetų kiekis |
-|----------------------|---------------------------|
-| sausio              | 44                        |
-| Vasario             | 0                         |
-| Kovo                | 549                       |
-| Balandžio                | 881                       |
-| Gegužė–gruodis | 1000                     |
+Šios pardavimo užsakymų eilutės yra balandžio mėnesį.
+
+| Data     | Būtinas vienetų kiekis |
+|----------|----------------------------|
+| balandžio mėn. 27 d.  | 240                        |
+
+[![Suplanuotas tiekimas, sugeneruotas pagal balandžio užsakymus.](media/forecast-reduction-keys-2-small.png)](media/forecast-reduction-keys-2.png)
+
+Šie poreikio kiekiai perkeliami į bendrąjį planą, kai bendrasis planavimas vykdomas balandžio 1 d. Kaip matote, balandžio prognozės operacijos buvo sumažintos poreikio kiekiu (240) sekoje, pradedant nuo pirmos iš šių operacijų.
+
+| Data     | Reikalingas vienetų kiekis |
+|----------|---------------------------|
+| balandžio mėn. 5 d.   | 0                         |
+| balandžio mėn. 12 d.  | 0                         |
+| balandžio mėn. 19 d.  | 60                        |
+| balandžio mėn. 26 d.  | 100                       |
+| balandžio mėn. 27 d.  | 240                       |
+| gegužės mėn. 3 d.    | 100                       |
+| gegužės mėn. 10 d.   | 100                       |
+| gegužės mėn. 17 d.   | 100                       |
+
+Dabar tarkime, kad nauji užsakymai buvo importuoti gegužės laikotarpiu.
+
+Šios pardavimo užsakymų eilutės yra gegužės mėnesį.
+
+| Data   | Būtinas vienetų kiekis |
+|--------|----------------------------|
+| gegužės mėn. 4 d.  | 80                         |
+| gegužės mėn. 11 d. | 130                        |
+
+[![Suplanuotas tiekimas, sugeneruotas pagal balandžio ir gegužės užsakymus.](media/forecast-reduction-keys-3-small.png)](media/forecast-reduction-keys-3.png)
+
+Šie poreikio kiekiai perkeliami į bendrąjį planą, kai bendrasis planavimas vykdomas balandžio 1 d. Kaip matote, balandžio prognozės operacijos buvo sumažintos poreikio kiekiu (240) sekoje, pradedant nuo pirmos iš šių operacijų. Tačiau gegužės prognozės operacijos buvo sumažintos iš viso 210, pradedant nuo pirmos poreikio prognozės operacijos gegužės dieną. Tačiau išsaugomos bendrosios laikotarpio sumos (balandžio mėn. 400 d. ir gegužės 300 d.).
+
+| Data     | Reikalingas vienetų kiekis |
+|----------|---------------------------|
+| balandžio mėn. 5 d.   | 0                         |
+| balandžio mėn. 12 d.  | 0                         |
+| balandžio mėn. 19 d.  | 60                        |
+| balandžio mėn. 26 d.  | 100                       |
+| balandžio mėn. 27 d.  | 240                       |
+| gegužės mėn. 3 d.    | 0                         |
+| gegužės mėn. 4 d.    | 80                        |
+| gegužės mėn. 10 d.   | 0                         |
+| gegužės mėn. 11 d.   | 130                       |
+| gegužės mėn. 17 d.   | 90                        |
 
 #### <a name="transactions--dynamic-period"></a>Operacijos – dinaminis laikotarpis
 

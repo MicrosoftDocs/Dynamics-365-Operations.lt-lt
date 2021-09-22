@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: da097f99eda239377b56e9ad35f658b3b408b5d588d82e0ec2759e6fbe72b4b1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 18408e64bd06db2e05038d14f284b799b6c19e68
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751151"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471817"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Kas naujo ar pasikeitusio „Dynamics 365 Supply Chain Management“ 10.0.15 (2021 m. sausio mėnesį)
 
@@ -35,7 +35,7 @@ ms.locfileid: "6751151"
 
 Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Norėdami peržiūrėti kiekvienos funkcijos oficialią leidimo datą, vadovaukitės saitais su [leidimų planu](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features).
 
-- Debesų ir paskirstytų modulių valdymas su gamybos ir sandėlio vykdymo darbo krūviais<br> - Dėl daugiau informacijos, žr. [Debesies ir krašto skalės elementai gamybai ir sandėlio valdymo darbo apkrovoms](../cloud-edge/cloud-edge-landing-page.md).
+- Debesų ir paskirstytų modulių valdymas su gamybos ir sandėlio vykdymo darbo krūviais<br> - Daugiau informacijos ieškokite [Paskirstytos topologijos skalės vienetai](../cloud-edge/cloud-edge-landing-page.md).
 
 - [Kurti ir apdoroti perkėlimo užsakymus naudojant sandėlio programą](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Daugiau informacijos žr. [Perkėlimo užsakymų kūrimas iš sandėlio programos](../warehousing/create-transfer-order-from-warehouse-app.md).
 

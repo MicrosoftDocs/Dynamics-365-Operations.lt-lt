@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5b0f04f27c95b2498ea2b5ad66c3df19bc8df0d9
-ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
+ms.openlocfilehash: 2eb2f7c0f35eb05263644248ecf16c5874547de9
+ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7393528"
+ms.lasthandoff: 08/28/2021
+ms.locfileid: "7441170"
 ---
 # <a name="provision-human-resources"></a>„Human Resources“ parengimas
 
@@ -43,6 +43,11 @@ Prieš pradedant parengti naują gamybos aplinką, turi būti įvykdytos toliau 
 Prieš parengdami savo pirmąją smėlio dėžės arba gamybos aplinką, galite norėti parengti [bandomąją „Human Resources” aplinką](https://go.microsoft.com/fwlink/p/?LinkId=2115962), kad patikrintumėte „Human Resources” funkcionalumą. Bandomosiose aplinkose pateikti išgalvoti duomenys, kuriais naudojantis galima saugiai tyrinėti programą. Nors bandomoji aplinka priklauso vartotojui, kuris to pageidavo, kiti vartotojai gali būti pakviesti per sistemos administravimo galimybę, skirtą žmogiškiesiems ištekliams. 
 
 Bandomosios aplinkos nėra skirtos naudoti kaip gamybos aplinkos. Jos apribojamos 60 dienų bandomuoju laikotarpiu. Pasibaigus bandomajam laikotarpiui, aplinka ir visi joje esantys duomenys panaikinami ir jų nebegalima susigrąžinti. Aplinkos negalima konvertuoti į smėlio dėžės arba gamybos aplinką. Pasibaigus dabartinės aplinkos naudojimo terminui, galite užsiregistruoti naujai bandomajai aplinkai.
+
+Kuriant „Human Resources“ bandomąją aplinką, nuomininkams taip pat sukuriama bandomoji aplinka, „Power Apps“ susieta su personalo aplinka. Aplinka, „Power Apps“ pavadinta „TestDrive“ yra, turi tą patį bandomąjį laikotarpį kaip ir „Human Resources“ aplinka.
+
+> [!NOTE]
+> „Human Resources“ bandomojo aplinkos parengti nepavyks, jei autentifikuotas vartotojas neturi teisės kurti „Power Apps“ bandomojo aplinkos. Vartotojas turi būti įtrauktas į vartotojų grupę, kuri gali sukurti bandomąją aplinką „Power Platform“ administravimo centre. Norėdami gauti daugiau informacijos, žr. [valdiklį, kuris gali kurti ir valdyti aplinkas „Power Platform“ administravimo centre](//power-platform/admin/control-environment-creation).
 
 ## <a name="plan-human-resources-environments"></a>Planuokite „Human Resources“ aplinkas
 
@@ -69,7 +74,7 @@ Norėdami naudoti LCS „Human Resources“ aplinkoms valdyti, pirma turite suku
 1. Prisijunkite prie [LCS](https://lcs.dynamics.com/Logon/Index) naudodami paskyrą, kurią naudojote prisijungti prie „Human Resources“.
 
    > [!NOTE]
-   > Norint užtikrinti sėkmingą parengimą, abonementas, kurį naudojate personalo aplinkai konfigūruoti, turi būti priskirtas arba sistemos administratoriui, arba sistemos pritaikymo priemonės vaidmeniui aplinkoje, kuri susieta **su** **personalo**„Power Apps“ aplinka. Norėdami [gauti daugiau informacijos apie saugos vaidmenų priskyrimą programos](/power-platform/admin/database-security) vartotojams, peržiūrėkite vartotojo saugos konfigūravimą pagal išteklius „Power Platform“.
+   > Norint užtikrinti sėkmingą parengimą, abonementas, kurį naudojate personalo aplinkai konfigūruoti, turi būti priskirtas arba sistemos administratoriui, arba sistemos pritaikymo priemonės vaidmeniui aplinkoje, kuri susieta **su** **personalo**„Power Apps“ aplinka. Norėdami „Power Platform“ gauti daugiau informacijos apie saugos vaidmenų priskyrimą programos vartotojams, [peržiūrėkite vartotojo saugos konfigūravimą pagal išteklius](/power-platform/admin/database-security)“.
 
 2. Pasirinkite pliuso ženklą (**+**), kad sukurtumėte projektą.
 

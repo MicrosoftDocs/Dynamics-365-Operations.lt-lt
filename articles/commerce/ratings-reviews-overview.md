@@ -15,21 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8b8d8e838b3c42f7dd02ce4adabcb1f412a3834006ad913e8f40191da751c08d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3c5db01b00390179c2dffcbec50343d7b7101d96
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765246"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473482"
 ---
 # <a name="ratings-and-reviews-overview"></a>Įvertinimų ir atsiliepimų apžvalga
-
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aptariama „Microsoft Dynamics 365 Commerce“ įvertinimai ir apžvalgos.
-
-## <a name="overview"></a>Peržiūra
 
 Įvertinimai ir apžvalgos yra itin svarbūs el. prekybos klientams, norintiems sužinoti, kaip kiti klientai vertina produktą. Jie taip pat gali padėti vartotojams priimti pirkimo sprendimus. „Dynamics 365 Commerce“ įvertinimų ir apžvalgų sprendimu pardavėjai gali fiksuoti klientų atsiliepimus ir apžvalgas apie produktus. Tada pardavėjai gali rodyti vidutinę įvertinimų ir apžvalgų informaciją savo el. prekybos tinklalapyje.
 

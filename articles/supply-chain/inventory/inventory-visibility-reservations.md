@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6c87018cbfbe22fbbc441a1a23aee0ac44af9ddc
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: acc5d5f93f3f625892aac37780a44e221b6eb5ac
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345154"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7475041"
 ---
 # <a name="inventory-visibility-reservations"></a>Atsargų matomumo rezervavimai
 
@@ -32,19 +32,20 @@ Galite pasirinktinai nustatyti „Microsoft Dynamics 365 Supply Chain Management
 
 Kai įjungsite rezervavimo funkciją, „Supply Chain Management“ automatiškai taps parengtu korespondentiniu rezervavimu, kuris atliktas naudojant atsargų matomumą.
 
-> [!NOTE]
-> Korespondentinei funkcijai reikia „Supply Chain Management“ versijos 10.0.22 ar vėlesnės versijos. Jei norite naudoti atsargų matomumo rezervavimus, rekomenduojame palaukti, kol „Supply Chain Management“ atnaujinsite į 10.0.22 arba vėlesnę versiją.
-
-## <a name="turn-on-the-reservation-feature"></a>Įjungti rezervavimo funkciją
+## <a name="turn-on-and-set-up-the-reservation-feature"></a><a name="turn-on"></a>Įjungti ir nustatyti rezervavimo funkciją
 
 Norėdami įjungti šią rezervacijos funkciją, atlikite toliau nurodytus veiksmus.
 
-1. „Power Apps“, atverkite **Atsargų matomumo**.
+1. „Power Apps“ prisiregistruoti ir atidaryti **atsargų matomumą**.
 1. Atidarykite **Konfigūravimo** puslapį.
 1. **Funkcijų valdymo** skirtuke įjunkite funkciją *OnHandReservation*.
 1. Prisijunkite prie „Supply Chain Management“.
-1. Eikite į **Atsargų valdymas \> Sąranka \> Atsargų ir sandėlio matomumo integravimo parametrai**.
-1. Dalyje **Rezervavimo korespondentinė** sąskaita nustatykite **pasirinktį Įgalinti rezervavimo** korespondentinę sąskaitą kaip *Taip*.
+1. Eikite į **[funkcijų valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** darbo sritį ir įjunkite *atsargų matomumo integravimą su rezervavimo kompensavimą* funkciją (reikalinga 10.0.22 ar vėlesnė versija).
+1. Eikite į **Atsargų valdymo \> nustatymo \> atsargų matomumo integravimo parametrus**, atidarykite **Rezervavimo kompensavimas** skirtuką ir atlikite šiuos parametrus:
+    - **Įgalinti rezervavimo korespondentinę sąskaitą** – nustatykite kaip *Taip*, norėdami įgalinti šią funkciją.
+    - **Rezervavimo korespondentinis modifikatorius** – pasirinkite atsargų operacijos būseną, kuri koresponduos rezervavimus, atliktas atsargų matomumo metu. Šis parametras nustato užsakymo apdorojimo etapą, kuris suaktyvina kompensavimus. Etapą seka užsakymo atsargų operacijos būsena. Pasirinkite vieną iš šių parinkčių:
+        - *Užsakyta* – kai operacijos būsena Yra, sukūrus užsakymą, *užsakymas* atsiųs korespondentinę užklausą. Korespondentinis kiekis bus sukurto užsakymo kiekis.
+        - *Rezervas* – kai *operacijos būsena Rezervuota,* Užsakytas užsakymas siųs korespondentinę užklausą, kai ji rezervuota, paimta, užregistruotas važtaraštis arba išrašyta SF. Užklausa bus suaktyvinta tik vieną kartą, pirmojo žingsnio atveju, kai bus įvyksta nurodytas procesas. Korespondentinis kiekis bus kiekis, kai atsargų operacijos būsena atitinkamoje užsakymo eilutėje pasikeičia iš *Užsakyta* į *Rezervuota* (arba vėlesnė būsena).
 
 ## <a name="use-the-reservation-feature-in-inventory-visibility"></a>Naudoti rezervacijos funkciją atsargų matomume
 
@@ -56,13 +57,21 @@ Rezervavimo hierarchija aprašo dimensijų seką, kurią reikia nurodyti rezervu
 
 Rezervavimo hierarchija gali skirtis nuo indeksų hierarchijos. Šis nepriklausomumas leidžia įgyvendinti kategorijų valdymą, kur vartotojai gali suskaidyti dimensijas į išsamią informaciją, kad nustatytų tikslesnių rezervavimų reikalavimus.
 
-Norėdami konfigūruoti soft rezervavimo hierarchiją „Power Apps“, atidarykite **konfigūracijos** puslapį ir tada **Švelniai rezervavimo konvertavimas** nustatykite rezervavimo hierarchiją pridėdami ir (arba) modifikuodami dimensijas ir jų hierarchijos lygius.
+Norėdami konfigūruoti soft rezervavimo hierarchiją „Power Apps“, atidarykite **konfigūracijos** puslapį ir tada **Švelniai rezervavimo hiearchija** nustatykite rezervavimo hierarchiją pridėdami ir (arba) modifikuodami dimensijas ir jų hierarchijos lygius.
+
+Jūsų soft rezervavimo hierarchijoje turi `SiteId` būti komponentai ir kaip `LocationId` komponentai, nes jie sudaro skaidinio konfigūraciją.
+
+Daugiau informacijos apie tai, kaip konfigūruoti rezervavimus, žr. [Rezervavimo konfigūravimas](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="call-the-reservation-api"></a>Iškviesti rezervavimo API
 
 Rezervavimai atliekami atsargų matomumo paslaugoje, pateikiant post užklausą paslaugos URL, pvz., `/api/environment/{environment-ID}/onhand/reserve`.
 
 Rezervuojant užklausos dokumentuose turi būti organizacijos ID, produkto ID, rezervuoti kiekiai ir dimensijos. Užklausa sugeneruoja unikalų rezervavimo ID kiekvienam rezervavimo įrašui. Rezervavimo įraše yra unikalus produkto ID ir dimensijų derinys.
+
+Kai iškiesite rezervavimo API, galite valdyti rezervavimo tikrinimą nurodydami parametrą Boolean `ifCheckAvailForReserv` užklausos body. Vertė, `True` kuri reiškia, kad būtinas tikrinimas, o `False` vertė reiškia, kad tikrinimas nebūtinas. Numatytoji vertė yra `True`.
+
+Jei norite atšaukti rezervavimą ar nereservuoti nurodytų atsargų kiekių, nustatykite neigiamą kiekio vertę ir nustatykite parametrą praleisti `ifCheckAvailForReserv` ir `False` tikrinimą.
 
 Čia pateikiamas nuorodos užklausos tekstas.
 
@@ -108,18 +117,9 @@ Atsargų operacijų būsenose, kurios apima nurodytą rezervo korespondentinį m
 
 Korespondentinis kiekis yra toks pat kaip atsargų kiekis, nurodytas atsargų operacijose. Korespondentinė sąskaita neveikia, jei atsargų matomumo paslaugoje nelieka jokio rezervuotų kiekio.
 
-> [!NOTE]
-> Galima naudoti 10.0.22 versijos korespondentinę funkciją
+### <a name="set-up-the-reservation-offset-modifier"></a>Nustatyti rezervo korespondentinės modifikatorių
 
-### <a name="set-up-the-reserve-offset-modifier"></a>Nustatyti rezervo korespondentinės sąskaitos modifikatorių
-
-Rezervo korespondentinis modifikatorius nustato užsakymo apdorojimo etapą, kuris suaktyvina korespondavimo atvejus. Etapą seka užsakymo atsargų operacijos būsena. Norėdami rezervuoti kompensavimo keitimą, atlikite šiuos žingsnius.
-
-1. Eikite į **Atsargų valdymas \> Sąranka \> Atsargų ir sandėlio matomumo integravimo parametrai \> Rezervavimo kompensavimas**.
-1. Nustatyti **Rezervavimo kompensavimo keitiklį** laukelis turi būti nustatytas viena iš tolesnių verčių:
-
-    - *Užsakyta* – kai operacijos būsena Yra, sukūrus užsakymą, *užsakymas* atsiųs korespondentinę užklausą.
-    - *Rezervas* – kai *operacijos būsena Rezervuota,* Užsakytas užsakymas siųs korespondentinę užklausą, kai ji rezervuota, paimta, užregistruotas važtaraštis arba išrašyta SF. Užklausa bus suaktyvinta tik vieną kartą, pirmojo žingsnio atveju, kai bus įvyksta nurodytas procesas.
+Jei to dar nepadarėte, nustatykite rezervavimo modifikatorių, kaip aprašyta [Įjungti ir nustatykite rezervavimo funkciją](#turn-on).
 
 ### <a name="set-up-reservation-ids"></a>Rezervavimo ID nustatymas
 

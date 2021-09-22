@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c9f94ec35ebed5a14252377fb543de09cb994ffd
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: f84a81444e6d5ce9a0d2da4c9a60b1ae3478ee2f
+ms.sourcegitcommit: 2d8035f8bb75957c793c0d293c079a792595eeaf
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416185"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7481320"
 ---
 # <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Sinchronizavimas su „Supply Chain Management“ kainodaros mechanizmu pareikalavus
 
@@ -41,7 +41,7 @@ ms.locfileid: "7416185"
     + Bendra mokesčių suma
     + Iš viso
     
-5. Norėdami užtikrinti, kad sistema skaičiuodama kainą atsižvelgtų į prekybos ir pardavimo sutartis, atlikite tolesnius veiksmus.
+5. Norėdami užtikrinti, kad sistema skaičiuodama kainą atsižvelgtų į prekybos ir pardavimo sutartis, atlikite tolesnius veiksmus:
     1. Pereikite į „Supply Chain Management” aplinką.
     2. Eikite į **Gautinos sumos \> Nustatymai \> Gautinų sumų parametrai**.
     3. Pasirinkite šoninės naršymo juostos skirtuką **Kainos**.

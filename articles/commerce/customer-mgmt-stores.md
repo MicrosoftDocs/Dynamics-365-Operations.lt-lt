@@ -2,7 +2,7 @@
 title: Klientų valdymas parduotuvėse
 description: Šioje temoje paaiškinama, kaip mažmenininkai gali įgalinti klientų valdymo pajėgumus „Microsoft Dynamics 365 Commerce“ elektroniniame kasos aparate (EKA).
 author: josaw1
-ms.date: 05/25/2021
+ms.date: 09/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ea2953510d134be0d33a6afa65027a6c9d2816f7dc16ca669859e80ee40f4278
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 09caa7fa8f10d1afc44bb9343550bc633b8ec99a
+ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754421"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7472230"
 ---
 # <a name="customer-management-in-stores"></a>Klientų valdymas parduotuvėse
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šioje temoje paaiškinama, kaip mažmenininkai gali įgalinti klientų valdymo pajėgumus „Microsoft Dynamics 365 Commerce“ elektroniniame kasos aparate (EKA).
 
@@ -44,26 +45,30 @@ Pardavimų susiejimai gali perimti kelis kliento adresus. Kliento vardas ir pava
 
 ## <a name="sync-customers-and-async-customers"></a>Sinchroniniai ir asinchroniniai klientai
 
+> [SVARBU] Jei EKA veikia autonominiu režimu, kai „Async“ kliento sukūrimo režimas išjungtas, sistema automatiškai perjungia „Async“ kliento kūrimo režimą. Todėl, neatsižvelgiant į jūsų pasirinkimą kurti „Sync" ir „Async" klientą, „Commerce Headquarters" administratoriai turi sukurti ir suplanuoti pasikartojančią **P-darbą**, ir **sinchronizuoti lientus ir verslo partnerius iš nesinchroninio režimo** darbas (anksčiau vadinamos **Sinchronizuotų klientų ir verslo partneriai iš nesinchroninio režimo** darbu), bei **1010** darbas tam, kad bet kuris „Async“ klientas būtų konvertuotas į sinchroninius klientus „Commerce“ štabe.
+
 „Commerce“ naudojami du klientų kūrimo būdai: sinchroninis (arba „Sync“) ir asinchroninis (arba "Async"). Numatyta, kad klientai sukuriami sinchroniškai. Kitaip tariant, jie kuriami realiuoju laiku „Commerce“ valdymo srityje. „Sync“ kliento kūrimo režimas naudingas, nes naujų klientų iš karto ieškoma visuose kanaluose. Tačiau yra ir trūkumų. Kadangi ši funkcija generuoja [Commerce Data Exchange: realaus laiko paslaugos](dev-itpro/define-retail-channel-communications-cdx.md#realtime-service) skambučius į „Commerce“ valdymo sritį, veiksmingumui tai gali daryti įtakos, jei vienu metu atliekami keli kliento kūrimo skambučiai.
 
-Jei parinktis **Kurti klientą asinchroniniu režimu** nustatyta kaip **Taip** parduotuvės funkcijų profilyje (**Mažmeninė prekyba ir komercija \> Kanalo sąranka \> Interneto parduotuvės sąranka \> Funkcijų profiliai**), realiu laiku atliekami skambučiai nenaudojami klientų įrašams kurti kanalo duomenų bazėje. Sinchroninio kliento kūrimo režimas „Commerce“ valdymo srities efektyvumui įtakos nedaro. Kiekvienam naujam „Async“ kliento įrašui priskiriamas laikinas visuotinis unikalus identifikatorius (GUID) ir naudojamas kaip kliento paskyros ID. Šis GUID nerodomas EKA naudotojams. Vietoje to, kaip kliento paskyros ID šie naudotojai matys **Laukiama sinchronizavimo**. Nors dėl šios konfigūracijos klientai kuriami asinchroniškai, atkreipkite dėmesį, kad klientų įrašų redagavimas visada atliekamas sinchroniškai.
+Jei parinktis **Kurti klientą asinchroniniu režimu** nustatyta kaip **Taip** parduotuvės funkcijų profilyje (**Mažmeninė prekyba ir komercija \> Kanalo sąranka \> Interneto parduotuvės sąranka \> Funkcijų profiliai**), realiu laiku atliekami skambučiai nenaudojami klientų įrašams kurti kanalo duomenų bazėje. Sinchroninio kliento kūrimo režimas „Commerce“ valdymo srities efektyvumui įtakos nedaro. Kiekvienam naujam „Async“ kliento įrašui priskiriamas laikinas visuotinis unikalus identifikatorius (GUID) ir naudojamas kaip kliento paskyros ID. Šis GUID nerodomas EKA naudotojams. Vietoje to, kaip kliento paskyros ID šie naudotojai matys **Laukiama sinchronizavimo**. 
 
 ### <a name="convert-async-customers-to-sync-customers"></a>„Async“ klientų konvertavimas į „Sync“ klientus
 
-Kad „Async“ klientus galėtumėte konvertuoti į „Sync“ klientus, pirmiausia turite paleisti P užduotį, kad „Async“ klientus nusiųstumėte į „Commerce“ valdymo sritį. Tada paleiskite užduotį **Klientų ir verslo partnerių sinchronizavimas iš asinchroninio režimo**, kad sukurtumėte klientų paskyrų ID. Galiausiai vykdykite užduotį **1010**, kad sinchronizuotumėte naujų klientų paskyrų ID kanaluose.
+Kad „Async“ klientus galėtumėte konvertuoti į „Sync“ klientus, pirmiausia turite paleisti **P-užduotį** kad „Async“ klientus nusiųstumėte į „Commerce“ valdymo sritį. Tada paleiskite **sinchronizavimo klientus ir verslo partnerius iš "async" režimo** užduoties (anksčiau vadinamos **Sinchronizuoti klientus ir verslo partnerius iš „async“ režimo užduoties** darbo) siekiant sukurti kliento sąskaitų ID. Galiausiai vykdykite užduotį **1010**, kad sinchronizuotumėte naujų klientų paskyrų ID kanaluose.
 
 ### <a name="async-customer-limitations"></a>„Async“ kliento apribojimai
 
 „Async“ kliento funkcijai šiuo metu taikomi šie apribojimai:
 
-- „Async“ kliento įrašų redaguoti negalima, nebent „Commerce“ valdymo srityje buvo sukurtas klientas, o naujo kliento paskyros ID sinchronizuotas atgal į kanalą.
+- „Async“ kliento įrašų redaguoti negalima, nebent „Commerce“ valdymo srityje buvo sukurtas klientas, o naujo kliento paskyros ID sinchronizuotas atgal į kanalą. Todėl „Async" kliento adreso įrašyti negalima, kol klientas nesinchronizuojamas su „Commerce Headquarters", nes kliento adreso įtraukimas kliento profilyje vykdomas kaip redagavimo operacija. Tačiau jei įgalinta funkcija **Įgalinti asinchroninį klientų adresų kūrimą, klientų adresus** funkcija yra įjungta, klientų adresai taip pat gali būti įrašyti „Async“ klientams.
 - Priskyrimų negalima susieti su „Async“ klientais. Todėl nauji „Async“ klientai neperima priskyrimų iš numatytojo kliento.
 - Lojalumo kortelių negalima išduoti „Async“ klientams, jei naujo kliento paskyros ID nebuvo sinchronizuotas atgal į kanalą.
 - Negalima užfiksuoti „Async“ klientų antrinių el. pašto adresų ir telefonų numerių.
 
+Nors kai kurie anksčiau nurodyti apribojimai gali padėti jums padėti pasirinkti pasirinktį Sinchronizuoti klientą jūsų verslui, „Commerce" komanda dirba, kad „Async" klientų galimybės būtų glaudžiai atitikti sinchronizavimo kliento galimybes. Pavyzdžiui, kaip „Commerce" 10.0.22 versijos paleidimas sukūrė naują klientų adresų asinchroninį kūrimą, kurį galite **įgalinti funkcijų valdymo darbo srityje asinchroniškai išsaugo** išsaugo naujai sukurtus klientų adresus ir **Funkcijų valdymą** „Async" klientams. Norėdami išsaugoti šiuos adresus kliento profilyje „Commerce headquarters“, turite numatyti paketo papildymo užduotį **P-darbui**, darbą **Sinchronizuoti klientų ir verslo partnerius iš nesinchroninio režimo** bei **1010** darbą, tam, kad nesinchroniniai klientai būtų konvertuoti į sinchroninius klientus „Commerce headquarters“.
+
 ### <a name="customer-creation-in-pos-offline-mode"></a>Kliento kūrimas EKA autonominiu režimu
 
-Jei EKA pereina į autonominį režimą, kai įjungtas „Async“ kliento kūrimo režimas, naujų klientų įrašai sukuriami asinchroniškai. Jei EKA veikia autonominiu režimu, kai „Async“ kliento sukūrimo režimas išjungtas, sistema automatiškai perjungia „Async“ kliento kūrimo režimą. Kitaip tariant, kliento įrašus galima kurti asinchroniniu būdu, net jei „Async“ kliento kūrimo režimas išjungtas. Todėl „Commerce“ valdymo srities administratoriai turi sukurti ir suplanuoti pasikartojančią P užduoties paketinę užduotį – **Sinchronizuoti klientus ir verslo partnerius iš asinchroninio režimo** – ir užduotį **1010**, kad „Async“ klientai būtų konvertuojami į „Sync“ klientus „Commerce“ valdymo srityje.
+Jei EKA veikia autonominiu režimu, kai „Async“ kliento sukūrimo režimas išjungtas, sistema automatiškai perjungia „Async“ kliento kūrimo režimą. Dėl to, kaip minėta anksčiau, „Commerce“ valdymo srities administratoriai turi sukurti ir suplanuoti pasikartojančią **P-užduotį**, ir **Sinchronizuoti klientus ir verslo partnerius iš asinchroninio režimo** užduotį bei **1010** darbą, kad „Async“ klientai būtų konvertuojami į „Sync“ klientus „Commerce“ valdymo srityje.
 
 > [!NOTE]
 > Jei parinktis **Filtruoti bendrinamas kliento duomenų lenteles** nustatoma kaip **Taip** puslapyje **„Commerce“ kanalo schema** (**Mažmeninės prekybos ir komercijos sąranka \> Valdymo srities sąranka \> „Commerce“ planuoklis \> Kanalo duomenų bazės grupė**), kliento įrašai nesukuriami EKA, veikiant autonominiu režimu. Daugiau informacijos žr. skyriuje [Duomenų pašalinimas veikiant autonominiu režimu](dev-itpro/implementation-considerations-cdx.md#offline-data-exclusion).

@@ -1,8 +1,8 @@
 ---
 title: MPOS ir „Cloud POS“ išplėstinės registracijos funkcijos nustatymas
 description: Šioje temoje aprašomos „Cloud POS“ ir „Retail Modern POS“ (MPOS) išplėstinio prisijungimo nustatymo parinktys.
-author: rubencdelgado
-ms.date: 06/20/2017
+author: boycezhu
+ms.date: 09/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,15 +13,15 @@ ms.custom: 92353
 ms.assetid: 7473e237-fbc8-41d5-8ba0-920242747488
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 45284ddb3ec082e3bac8a95ed3ba7901cbce2bf303a8523b9c0a7af56938d560
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0cc3d3a3cadbc614e82b8cc7ae0b78406247cece
+ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748551"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7478676"
 ---
 # <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>MPOS ir „Cloud POS“ išplėstinės registracijos funkcijų nustatymas
 
@@ -58,6 +58,8 @@ Pagal numatytuosius parametrus tik vadovai gali darbuotojams priskirti išplėst
 Norėdami panaikinti darbuotojui priskirtą išplėstinę registraciją, ieškokite darbuotojo naudodami operaciją **Išplėstinė registracija**. Pasirinkite darbuotoją ir spustelėkite **Atšaukti priskyrimą**. Pašalinami visi su tuo darbuotoju susieti išplėstinės registracijos kredencialai.
 
 ## <a name="extending-extended-logon"></a>Išplėstinės registracijos išplėtimas
+
+Išplėstinė prisijungimo galimybė leidžia naudoti tik penkis reikšminuosius simbolius, kurie bus unikalus identifikatorius, naudojamas ne langelyje. Pavyzdžiui, jei konfigūruojate dvi korteles, kurių ID „1234567" ir „1234578", abi jos abi bus laikomos „12345". Galite sukurti plėtinį, kad būtų galima palaikyti daugiau simbolių. Jei norite gauti išsamesnių [instrukcijų, patikrinkite MPOS ir debesies EKA išplėstinio registravimosi funkcijos išplėtimą](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/12/14/extending-the-extended-logon-functionality-for-mpos-and-cloud-pos/).
 
 Registravimosi paslaugą galima išplėsti, kad būtų palaikomi papildomi išplėstinės registracijos įrenginiai, pvz., delnų skaitytuvai. Daugiau informacijos ieškokite EKA išplečiamumo dokumentuose.
 

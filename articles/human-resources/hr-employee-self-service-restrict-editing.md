@@ -1,8 +1,8 @@
 ---
 title: Asmeninės informacijos redagavimo apribojimas
 description: Apribokite darbuotojus redaguoti kontaktinius „Dynamics 365 Human Resources“ duomenis.
-author: andreabichsel
-ms.date: 03/03/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 87977ff004e0785ec1d31fe3abac2728f87e7083348895b58e58f46cd3e79925
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c4a13818103434df5005ad2805ac2ea7495bb767
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748888"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431410"
 ---
 # <a name="restrict-editing-of-personal-information"></a>Asmeninės informacijos redagavimo apribojimas
 
@@ -54,7 +54,7 @@ ms.locfileid: "6748888"
 
 Apriboję darbuotojo teises pridėti ar redaguoti kontaktinius duomenis, jis informaciją matys, bet jos keisti negalės.
 
-Šiame pavyzdyje, kai darbuotojams neleidžiama redaguoti **Įmonės** kontaktinių duomenų, jie šią informaciją matus darbuotojo savitarnoje:
+Šiame pavyzdyje, kai darbuotojams neleidžiama redaguoti **Įmonės** ontaktinių duomenų, jie šią informaciją matys **Darbuotojų savitarnoje**:
 
 ![Įmonės kontaktinių duomenų peržiūra.](./media/hr-employee-self-service-restrict-view.png)
 

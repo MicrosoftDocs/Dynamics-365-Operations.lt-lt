@@ -2,7 +2,7 @@
 title: Algalapio darbuotojas
 description: Šioje temoje pateikiama informacija ir Algalapio darbuotojo objekto užklausos pavyzdys „Dynamics 365 Human Resources“ platformoje.
 author: jcart
-ms.date: 04/07/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 20e74e97f98d0bc0fd454d54cbf969d4f1b46c7c98b2949b0ed8cfe671312dd2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 450872a38c833de9d37e2c6224839f2bca7cb4c6
+ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768196"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7429242"
 ---
 # <a name="payroll-employee"></a>Algalapio darbuotojas
 
@@ -34,31 +34,42 @@ Faktinis pavadinimas: „mshr_payrollemployeeentity”.
 
 >[!IMPORTANT] 
 >**Vardo**, **Vidurinio vardo**, **Pavardės**, **Vardas galioja nuo** ir **Vardas galioja iki** laukų nebegalima naudoti šiame objekte. Taip užtikrinama, kad yra tik vienas duomenų šaltinis, kuris atims šiam objektui atsarginį duomenų šaltinį.
->Šie laukai bus galimi **Tiesioginio asmens vardo retrospektyviniame objekte** kuris buvo išleistas 43 platformos naujinime. Yra „OData” ryšys yra iš **Algalapio darbuotojo objekto** į **Tiesioginio asmens vardo retrospektyvinį objektą** lauke **Asmuo**. 
+>Šie laukai bus galimi **Tiesioginio asmens vardo retrospektyviniame objekte** kuris buvo išleistas 43 platformos naujinime. Yra „OData” ryšys yra iš **PayrollEmployeeEntity** į **DirPersonNameHistoricalEntity**. 
 
 ## <a name="properties"></a>Ypatybės
 
-| Ypatybė<br>**Faktinis pavadinimas**<br>**_Tipas_** | Naudoti | Aprašas |
+| Ypatybė</br>**Faktinis pavadinimas**</br>**_Tipas_** | Naudoti | Aprašas |
 | --- | --- | --- |
-| **Darbuotojo numeris**<br>„mshr_personnelnumber”<br>*Eilutė* | Tik skaitomas | Unikalus darbuotojo personalo numeris. |
-| **Pirminis laukas**<br>mshr_primaryfield<br>*Eilutė* | Tik skaitomas<br>Sistemos sugeneruota |  |
-| **Juridinio subjekto ID**<br>„mshr_legalentityID”<br>*Eilutė* | Tik skaitomas | Nurodo juridinį asmenį (įmonę). |
-| **Giminė**<br>mshr_gender<br>[mshr_hcmpersongender parinkties nustatymas](hr-admin-integration-payroll-api-gender.md) | Tik skaitomas | Darbuotojo lytis. |
-| **Algalapio darbuotojo objekto ID**<br>„mshr_payrollemployeeentityid”<br>*GUID* | Būtina<br>Sistemos sugeneruota | Sistemos sukurta GUID reikšmė, skirta unikaliai atpažinti darbuotoją. |
-| **Įdarbinimo pradžios data**<br>„mshr_employmentstartdate”<br>*Datos ir laiko poslinkis* | Tik skaitomas | Darbuotojo įdarbinimo pradžios data. |
-| **Identifikacijos tipo ID**<br>mshr_identificationtypeid<br>*Eilutė* |Tik skaitomas | Darbuotojui apibrėžtas identifikacijos tipas. |
-| **Įdarbinimo pabaigos data**<br>„mshr_employmentenddate”<br>*Datos ir laiko poslinkis* | Tik skaitomas |Darbuotojo įdarbinimo pabaiga.  |
-| **Srities Duomenys ID**<br>„mshr_dataareaid_id”<br>*GUID* | Tik skaitomas <br>Sistemos sugeneruota | Sistemos sukurta GUID vertė, rodanti juridinį subjektą (įmonę). |
-| **Galioja iki**<br>„mshr_namevalidto”<br>*Datos ir Laiko poslinkis* |  Tik skaitomas | Data, iki kurios galioja darbuotojo informacija. |
-| **Gimimo data**<br>mshr_birthdate<br>*Datos ir Laiko poslinkis* | Tik skaitomas | Darbuotojo gimimo data |
-| **Identifikacijos numeris iki**<br>mshr_identificationnumber<br>*Eilutė* | Tik skaitomas |Darbuotojui apibrėžtas identifikacijos numeris.  |
+| **Juridinio subjekto ID**</br>mshr_legalentityid</br>*Eilutė* | Tik skaitomas | Nurodo juridinį asmenį (įmonę). |
+| **Darbuotojo numeris**</br>„mshr_personnelnumber”</br>*Eilutė* | Tik skaitomas | Unikalus darbuotojo personalo numeris. |
+| **Įdarbinimo pradžios data**</br>„mshr_employmentstartdate”</br>*Datos ir laiko poslinkis* | Tik skaitomas | Darbuotojo įdarbinimo pradžios data. |
+| **Įdarbinimo pabaigos data**</br>„mshr_employmentenddate”</br>*Datos ir laiko poslinkis* | Tik skaitomas |Darbuotojo įdarbinimo pabaiga.  |
+| **Gimimo data**</br>mshr_birthdate</br>*Datos ir Laiko poslinkis* | Tik skaitomas | Darbuotojo gimimo data. |
+| **Giminė**</br>mshr_gender</br>[mshr_hcmpersongender parinkties nustatymas](hr-admin-integration-payroll-api-gender.md) | Tik skaitomas | Darbuotojo lytis. |
+| **Įdarbinimo tipas**</br>mshr_employmenttype</br>[mshr_hcmemploymenttype parinkties nustatymas](hr-admin-integration-payroll-api-hcmemploymenttype.md) | Tik skaitomas | Įdarbinimo tipas. |
+| **Identifikacijos tipo ID**</br>mshr_identificationtypeid</br>*Eilutė* |Tik skaitomas | Darbuotojui apibrėžtas identifikacijos tipas. |
+| **Identifikacijos numeris iki**</br>mshr_identificationnumber</br>*Eilutė* | Tik skaitomas |Darbuotojui apibrėžtas identifikacijos numeris. |
+| **Parengta mokėti**</br>mshr_readytopay</br>[mshr_noyes parinkties nustatymas](hr-admin-integration-payroll-api-no-yes.md) | Tik skaitomas | Nurodo, ar darbuotojas pažymėtas kaip parengtas mokėti. |
+| **Algalapio darbuotojo objekto ID**</br>„mshr_payrollemployeeentityid”</br>*GUID* | Būtina</br>Sistemos sugeneruota | Sistemos sukurta GUID reikšmė, skirta unikaliai atpažinti darbuotoją. |
+
+## <a name="relations"></a>Ryšiai
+
+|Ypatybės vertė | Susijęs objektas | Naršymo ypatybė | Rinkimo tipas |
+| --- | --- | --- | --- |
+| _mshr_fk_employment_id_value | mshr_hcmemploymentdetailentity | mshr_FK_Employment_id | - |
+| „_mshr_fk_fixedcompplan_id_value” | [mshr_payrollfixedcompensationplanentity](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md) | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_Employee |
+| _mshr_fk_name_id_value | mshr_dirpersonnamehistoricalentity | mshr_FK_Name_id | - |
+| _mshr_fk_worker_id_value | mshr_hcmworkerbaseentity | mshr_FK_Worker_id | - |
+| _mshr_fk_workerbankaccount_id_value | mshr_hcmworkerbankaccountentity | mshr_FK_WorkerBankAccount_id | - |
+| _mshr_fk_variablecompaward_id_value | [mshr_payrollvariablecompensationawardentity](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md) | mshr_FK_VariableCompAward_id | mshr_FK_PayrollVariableCompensationAwardEntity_Employee |
+| _mshr_fk_address_id_value | [mshr_payrollworkeraddressentity](hr-admin-integration-payroll-api-payroll-worker-address.md) | mshr_FK_Address_id | mshr_FK_PayrollWorkerAddressEntity_Worker |
 
 ## <a name="example-query-for-payroll-employee"></a>Algalapio darbuotojo užklausos pavyzdys
 
 **Prašymas**
 
 ```http
-GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_personnelnumber eq @personnelnumber and mshr_identificationtypeid eq @idtype and mshr_namevalidfrom le @asofdate and mshr_namevalidto ge @asofdate&@personnelnumber='000041'&@idtype='SSN'&@asofdate=2021-04-01
+GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_personnelnumber eq '000041'
 ```
 
 **Atsiliepimas**
@@ -71,17 +82,24 @@ GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_pe
     "mshr_employmentenddate": "2154-12-31T23:59:59Z",
     "mshr_birthdate": "1987-09-12T00:00:00Z",
     "mshr_gender": 200000002,
+    "mshr_employmenttype": 200000000,
     "mshr_identificationtypeid": "SSN",
     "mshr_identificationnumber": "888-99-9342",
+    "mshr_readytopay": 200000000,
     "mshr_dataareaid": "USMF",
     "mshr_primaryfield": "000041 | USMF | 4/5/2011 07:00:00 am",
-    "_mshr_fk_worker_id_value": "000000ad-0000-0000-d5ff-004105000000",
-    "_mshr_fk_employment_id_value": "00000d0d-0000-0000-0600-014105000000",
-    "_mshr_fk_fixedcompplan_id_value": "0000029f-0000-0000-d5ff-004105000000",
-    "mshr_payrollemployeeentityid": "00000d3c-0000-0000-d5ff-004105000000",
+    "_mshr_fk_employment_id_value": "00000d4e-0000-0000-0600-014105000000",
+    "_mshr_fk_fixedcompplan_id_value": "00000598-0000-0000-4cd0-fda002000000",
+    "_mshr_fk_name_id_value": "00000832-0000-0000-d700-014105000000",
+    "_mshr_fk_worker_id_value": "000000af-0000-0000-d5ff-004105000000",
+    "_mshr_fk_workerbankaccount_id_value": "000006f2-0000-0000-b7ff-004105000000",
+    "mshr_payrollemployeeentityid": "00000666-0000-0000-d5ff-004105000000",
+    "_mshr_fk_address_id_value": null,
+    "_mshr_fk_variablecompaward_id_value": null,
     "_mshr_dataareaid_id_value": null
 }
 ```
+
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 [Algalapių integravimo API įžanga](hr-admin-integration-payroll-api-introduction.md)

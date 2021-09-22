@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-30
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 58a69907bdd1b03ea2e025b736dbbf84eed73c76d54bd5c93386ba8a627f095f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4c5c8e1d13a58b5ebc68315c75e5245cb10377f3
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712054"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474921"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.16 (2021 m. vasario mėn.)
 
@@ -54,36 +54,12 @@ Neseniai įtraukėme ir reikšmingai atnaujinome tolesnes pagalbos temas. Jos ne
 - [Produktų konfigūravimo pagal apribojimus atributais pagrįstos pardavimo kainos](../pim/attribute-based-product-configurator.md)
 - [Automatinis išlaidų paskirstymas](../procurement/automatic-charges-allocation.md)
 - [Pavojingų medžiagų apžvalga](../pim/hazmat-overview.md) (ir susijusios temos)
-- [Perkėlimas planavimo optimizavimui pagrindiniam planavimui](../master-planning/new-master-planning-engine.md)
+- [Perkėlimas į planavimo optimizavimą, skirtą bendrajam planavimui](../master-planning/new-master-planning-engine.md)
 - [cXML patobulinimų pirkimas](../procurement/purchasing-cxml-enhancements.md)
-- [Trikčių šalinimo kainos valdymas](../cost-management/troubleshoot-costmanagement.md)
-- [Trikčių šalinimo įvesties sandėlio veiksmai](../warehousing/troubleshoot-warehouse-inbound.md)
-- [Trikčių šalinimo apkrovos kūrimas ir siuntimai](../warehousing/troubleshoot-warehouse-loads-shipments.md)
-- [Trikčių šalinimo pagrindinis planavimas](../master-planning/troubleshoot-masterplanning.md)
-- [Trikčių šalinimo išvesties sandėlio veiksmai](../warehousing/troubleshoot-warehouse-outbound.md)
-- [Trikčių šalinimo daliniai leidimai ir dalinis siuntimas](../warehousing/troubleshoot-warehouse-partial-release-shipment.md)
-- [Trikčių šalinimas produkto konfigūruotojui](../pim/troubleshooting-productconfigurator.md)
-- [Trikčių šalinimo produkto informacija](../pim/troubleshooting-productinformation.md)
-- [Įsigijimo ir šaltinio pasirinkimo darbo eigų trikčių diagnostika](../procurement/troubleshoot-procurementworkflows.md)
-- [Pirkimo užsakymų trikčių diagnostika](../procurement/troubleshoot-purchaseorders.md)
-- [Kainų, nuolaidų, sutarčių ir grąžinimų trikčių šalinimas](../procurement/troubleshooting-pricediscountagreements.md)
-- [Produkto gavimo dokumentų ir SF išrašymo trikčių šalinimas](../procurement/troubleshooting-productreceiptinvoicing.md)
-- [Trikčių šalinimo apibrėžta gamyba](../production-control/troubleshoot-discretemanufacturing.md)
-- [Trikčių šalinimo paėmimas ir supakavimas](../warehousing/troubleshoot-warehouse-picking-packing.md)
-- [Trikčių šalinimo proceso gamyba](../production-control/troubleshoot-processmanufacturing.md)
-- [Trikčių šalinimo rezervacijos sandėlio valdyme](../warehousing/troubleshoot-warehouse-reservations.md)
-- [Pardavimo užsakymų trikčių šalinimas](../sales-marketing/troubleshooting-sales.md)
-- [Pardavimo pasiūlymų trikčių šalinimas](../sales-marketing/troubleshooting-salesquotation.md)
-- [Plėtojimo ir perėjimo į išplėstinio sandėlio valdymo funkciją trikčių šalinimas](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [Sandėlio valdymo mobiliųjų įrenginių programėlės ryšio trikčių diagnostika](../warehousing/troubleshoot-warehouse-app-connection.md)
-- [Trikčių šalinimo sandėlio konfigūravimas](../warehousing/troubleshoot-warehouse-configuration.md)
-- [Trikčių šalinimo sandėlio papildymas](../warehousing/troubleshoot-warehouse-replenishment.md)
-- [Trikčių šalinimo sandėlio nustatymas](../warehousing/troubleshoot-warehouse-setup.md)
-- [Trikčių šalinimo sandėlio darbas](../warehousing/troubleshoot-warehouse-work.md)
 - [Atidėjimo klasteriai](../warehousing/putaway-clusters.md)
 - [Papildymo strategijos](../warehousing/replenishment-strategies.md)
 - [Darbo skaidymas](../warehousing/work-split.md)
-- [Darbas su vietos kryptimis](../warehousing/create-location-directive.md)
+- [Darbas su vietos nurodymais](../warehousing/create-location-directive.md)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
