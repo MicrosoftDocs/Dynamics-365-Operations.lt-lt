@@ -102,8 +102,6 @@
                       href: get-started/whats-new-commerce-10-0-21.md
                     - name: „Commerce 10.0.20“ (2021 m. rugpjūčio mėn.)
                       href: get-started/whats-new-commerce-10-0-20.md
-                    - name: „Commerce 10.0.19“ (2021 m. birželio mėn.)
-                      href: get-started/whats-new-commerce-10-0-19.md
                 - name: Pašalintos arba nerekomenduojamos funkcijos
                   items:
                     - name: Pašalintų arba nerekomenduojamų funkcijų pagrindinis puslapis
@@ -668,6 +666,8 @@
                   href: tasks/base-price-trade-agreements.md
                 - name: Prekybos sutarčių kūrimas naudojant kategorijos kainų taisykles
                   href: tasks/category-pricing-rules-trade-agreements.md
+                - name: Tikslios kainos ir nuolaidos skaičiavimo atidėjimas
+                  href: delayed-price-calculation.md
             - name: Rekomendacijos
               items:
                 - name: Produktų rekomendacijų apžvalga
@@ -1328,6 +1328,8 @@
                   href: localizations/latam-bra-nfce-contingency-mode.md
                 - name: Brazilijos finansinių dokumentų registravimas naudojant mažmeninės prekybos išrašus „Commerce“ būstinėje
                   href: localizations/latam-bra-retail-statements.md
+                - name: '„Dynamics 365 Payment Connector“, skirta „Adyen“, „Commerce“ EKA Brazilijai'
+                  href: localizations/latam-bra-adyen.md
             - name: Rytų Europa
               items:
                 - name: Bendroji
@@ -2436,7 +2438,7 @@
                       href: e-commerce-extensibility/event-based-data-actions.md
                     - name: Pagrindiniai veiksmai su duomenimis
                       href: e-commerce-extensibility/core-data-actions.md
-                    - name: „Retail Server” API iškvietimas
+                    - name: „Commerce Scale Unit“ API iškvietimas
                       href: e-commerce-extensibility/call-retail-server-apis.md
                     - name: „Retail Server” plėtinio API iškvietimas
                       href: e-commerce-extensibility/call-retail-extension-api.md
@@ -2514,8 +2516,6 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Nepriklausomo paketo SDK kūrimo srauto nustatymas
                   href: dev-itpro/build-pipeline.md
-                - name: „Commerce“ ir „Finance and Operations“ kūrimo sistemų suliejimas
-                  href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: „Retail SDK“ perkėlimas iš „Visual Studio 2015“ į „Visual Studio 2017“
                   href: dev-itpro/retail-sdk/migrate-sdk.md
                 - name: „Retail SDK“ išplečiamumo pavyzdžiai
@@ -2628,8 +2628,6 @@
                               href: dev-itpro/pos-extension/consume-apis-pos.md
             - name: „Hardware Station“ išplečiamumas
               items:
-                - name: „Hardware Station“ ir išplečiamumas
-                  href: dev-itpro/hardware-station-extensibility.md
                 - name: EKA integravimas su nauju aparatūros įrenginiu
                   href: dev-itpro/hardware-device-extension.md
             - name: „Retail Server“ išplečiamumas

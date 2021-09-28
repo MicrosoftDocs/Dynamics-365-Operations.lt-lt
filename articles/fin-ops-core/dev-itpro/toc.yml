@@ -1007,7 +1007,11 @@
                 - name: DUK apie suplanuotą priežiūros laiko intervalą
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Stebėjimas ir diagnostika
-              href: lifecycle-services/monitoring-diagnostics.md
+              items:
+                - name: Stebėjimo ir diagnostikos įrankiai
+                  href: lifecycle-services/monitoring-diagnostics.md
+                - name: „Azure Data Explorer“ naudojimas užklausai apie neapdorotos informacijos žurnalus pateikti
+                  href: lifecycle-services/azure-data-explorer.md
             - name: Aplinkos paslaugų paleidimas iš naujo
               href: lifecycle-services/restart-environment-services.md
             - name: Pranešimas apie gamybos sutrikimus

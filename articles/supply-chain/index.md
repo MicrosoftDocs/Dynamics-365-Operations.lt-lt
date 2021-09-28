@@ -2,7 +2,7 @@
 title: „Supply Chain Management“ pagrindinis puslapis
 description: Šiame puslapyje pateikiamas „Supply Chain Management“ funkcijų žinyno temų ir kitų išteklių sąrašas.
 author: kamaybac
-ms.date: 01/08/2021
+ms.date: 09/15/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9ac5a8005851dc2894a0fbed74f47be6e1e14b58
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 4ea45b238200d4d9d43d563e160e8574271a8ce7
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416556"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487869"
 ---
 # <a name="supply-chain-management-home-page"></a>„Supply Chain Management“ pagrindinis puslapis
 
@@ -62,7 +62,6 @@ Daugiau informacijos apie „Dynamics 365 Finance“ žr. [„Finance“ pagrind
 
 Šiuose trumpuose vaizdo įrašuose apibendrinamos naujos tiekimo grandinės valdymo funkcijos, įtrauktos į „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3“ (2017 m. gruodžio mėn.).
 
-- [Potencialaus kliento pavertimo pinigais integravimas](https://youtu.be/AVV9x5x-XCg) 
 - [Optimizavimo patarėjas](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Konfigūracijos kopijavimas naudojant sandėlio šabloną](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 

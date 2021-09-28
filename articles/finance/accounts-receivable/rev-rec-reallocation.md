@@ -2,7 +2,7 @@
 title: Įplaukų pripažinimo perskirstymas
 description: Šioje temoje pateikiama informacija apie perskirstymą, kuris įgalina organizacijas perskaičiuoti įplaukų vertes, kai keičiamos pardavimo sutarties sąlygos. Joje pateikiamos nuorodos į kitas temas, kurios apibūdina, kaip atpažinti įplaukas įvairiuose scenarijuose.
 author: kweekley
-ms.date: 12/21/2020
+ms.date: 09/09/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 50ae395c370947e348714ce5685123328849966f3a67903e9ddf8c27dee42f5f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53304842bdbe7dadb435ab3a0381f3835c2c443a
+ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745042"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487023"
 ---
 # <a name="revenue-recognition-reallocation"></a>Įplaukų pripažinimo perskirstymas
 
@@ -35,10 +35,22 @@ Organizacija turi pati nustatyti, ar būtinas perskirstymas. Naujos eilutės įt
 Perskirstymo procesui taikomi keli svarbūs apribojimai:
 
 - Procesas gali būti vykdomas tik vieną kartą. Todėl svarbu jį vykdyti tik užbaigus visus keitimus.
+
+    - Šis apribojimas pašalintas iš 10.0.17 ir vėlesnių versijų leidimų.
+
 - Negalima paleisti proceso projekto pardavimo užsakymams.
+
+    - Šis apribojimas pašalintas iš 10.0.17 ir vėlesnių versijų leidimų.
+
 - Jei įtraukti keli pardavimo užsakymai, jie turi būti skirti tai pačiai kliento sąskaitai.
 - Visi perskirstomi pardavimo užsakymai turi būti pateikti ta pačia operacijos valiuta.
 - Paleidus procesą negalima jo atšaukti ar anuliuoti.
+
+    - Šis apribojimas pašalintas iš 10.0.17 ir vėlesnių versijų leidimų.
+
+- Galima atlikti tik pardavimo užsakymų arba projekto pardavimo užsakymų perskirstymą. Negalima atlikti pardavimo užsakymų ir projekto pardavimo užsakymų derinio perskirstymo.
+
+    - Šis apribojimas pašalintas iš 10.0.17 ir vėlesnių versijų leidimų.
 
 ## <a name="set-up-reallocation"></a>Perskirstymo nustatymas
 
@@ -78,7 +90,7 @@ Norėdami pradėti perskirstymo procesą, pasirinkite **Perskirstyti vertę nauj
 
 [![Puslapis Perskirstyti vertę naujose užsakymo eilutėse.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
-Viršutinis tinklelis puslapyje **Perskirstyti vertę naujose užsakymo eilutėse** pavadintas **Pardavimas**. Jame pateikiami kliento pardavimo užsakymai. Pasirinkite pardavimo užsakymus, kuriuos būtina perskirstyti. Negalima pasirinkti projekto pardavimo užsakymų, nes negalima perskirstyti projekto pardavimo užsakymų. Taip pat negalima pasirinkti pardavimo užsakymų, kurie jau turi perskirstymo ID, nes ne projekto pardavimo užsakymus galima perskirstyti tik vieną kartą. Jei pardavimo užsakymas turi perskirstymo ID, vadinasi jį jau pažymėjo perskirstymui kitas vartotojas.
+Viršutinis tinklelis puslapyje **Perskirstyti vertę naujose užsakymo eilutėse** pavadintas **Pardavimas**. Jame pateikiami kliento pardavimo užsakymai. Pasirinkite pardavimo užsakymus, kuriuos būtina perskirstyti. Jei pardavimo užsakymas turi perskirstymo ID, vadinasi jį jau pažymėjo perskirstymui kitas vartotojas. Jei vienas ar daugiau pardavimo užsakymų buvo perskirstyti anksčiau ir turi būti įtraukti į kitą perskirstymą, pirmiausia reikia anuliuoti tų pardavimo užsakymų paskirstymą. Tada jį galima įtraukti į naują perskirstymą. Norėdami gauti išsamesnės informacijos, žr. toliau pateikiamus temos skyrius [Perskirstymo anuliavimas](#undo-a-reallocation) ir [Perskirstymas kelis kartus](#reallocate-multiple-times).
 
 Apatinis puslapio tinklelis pavadintas **Eilutės**. Tinklelyje **Pardavimas** pasirinkus vieną ar daugiau pardavimo užsakymų, tinklelyje **Eilutės** rodomos pardavimo užsakymo eilutės. Pasirinkite pardavimo užsakymo eilutes, kurias būtina perskirstyti. Jei pasirinkote tik vieną pardavimo užsakymą, būtina perskirstyti to paties pardavimo užsakymo eilutes. Tokia situacija gali susiklostyti, kai vienai pardavimo užsakymo eilutei anksčiau buvo išrašyta SF, tada buvo pridėta nauja eilutė, arba esama eilutė buvo pašalinta ar atšaukta. Jei eilutė buvo pašalinta, ji nebus rodoma tinklelyje. Todėl jos pasirinkti negalima. Tačiau į ją vis tiek bus atsižvelgiama paleidus perskirstymo procesą.
 
@@ -104,6 +116,26 @@ Pasirinkę reikiamas pardavimo užsakymo eilutes naudokite veiksmų srities mygt
 
 - **Iš naujo nustatyti pasirinkto kliento duomenis** – jei perskirstymo procesas buvo pradėtas, tačiau nebuvo baigtas, perskirstymo lentelėje išvalykite tik pasirinkto kliento duomenis. Pavyzdžiui, perskirstymui pažymite kelias pardavimo užsakymo eilutes, paliekate puslapį atidarytą nepasirinkę **Apdoroti**, tada baigiasi puslapio skirtasis laikas. Tokiu atveju pardavimo užsakymo eilutės liks pažymėtos ir nebus pasiekiamos kitam vartotojui, kad būtų galima baigti perskirstymo procesą. Atidarytas puslapis net gali būti tuščias. Tokiu atveju naudojant mygtuką **Iš naujo nustatyti pasirinkto kliento duomenis** galima išvalyti neapdorotus pardavimo užsakymus, kad kitas vartotojas galėtų baigti perskirstymo procesą.
 
+## <a name="undo-a-reallocation"></a>Perskirstymo anuliavimas
+
+Perskirstymas anuliuojamas paleidus kitą anuliavimą. Perskirstymas atliekama iš naujo ir vartotojas pasirenka skirtingas pardavimo užsakymo eilutes, kurias reikia įtraukti į antrąjį perskirstymo procesą.
+
+Jei perskirstymas buvo atliktas dviejuose ar daugiau atskirų pardavimo užsakymų, jį galima anuliuoti pasirinkus **Perskirstyti kainą naujose užsakymo eilutėse** iš bet kurio pardavimo užsakymo, įtraukto perskirstyme. Perskirstymo anuliuoti negalima nuėjus į **Įplaukų pripažinimas \> Periodinės užduotys \> Perskirstyti kainą naujose užsakymo eilutėse**, nes šiuo būdu atidarytame puslapyje rodomi tik pardavimo užsakymai, kuriuose nėra perskirstymo ID. Perskirstymo ID priskiriamas po to, kai dokumentas yra perskirstytas.
+
+Puslapyje **Perskirstyti kainą naujose užsakymo eilutėse** atžymėkite bet kokius pardavimo užsakymus, kurie neturi būti įtraukti į sutartį. Norėdami apdoroti perskirstymą, naudokite atitinkamus veiksmų srities mygtukus, pvz., **Naujinti perskirstymą** ir **Apdoroti**. Jei visi pardavimo užsakymai, išskyrus aktyvų pardavimo užsakymą, nepažymėti, perskirstymo ID bus pašalintas apdorojus keitimą.
+
+Jei perskirstymas atliktas įtraukiant naują eilutę į pardavimo užsakymą, kuriam pilnai arba dalinai išrašyta SF, perskirstymas gali būti anuliuotas šalinant tą eilutę iš pardavimo užsakymo ir dar kartą paleidžiant paskirstymą. Pardavimo užsakymo eilutę reikia pašalinti, nes yra manoma, kad visos pardavimo užsakymo eilutės yra tos pačios sutarties dalis. Negalite atžymėti pardavimo užsakymo eilutės, kol esate puslapyje **Perskirstyti kainą naujose užsakymo eilutėse**.
+
+## <a name="reallocate-multiple-times"></a>Perskirstymas kelis kartus
+
+Jei sutartyje atlikti keli pakeitimai, galima atlikti kelis to paties pardavimo užsakymo perskirstymus. Kiekvienas perskirstymas suaktyvina perskirstymo ID priskyrimą pardavimo užsakymui arba pardavimo užsakymų grupei, kad būtų sugrupuoti keitimai. Jei atliekami keli perskirstymai, kiekvienas papildomas perskirstymas naudoja tą patį perskirstymo ID kaip ir pirmasis perskirstymas.
+
+Pavyzdžiui, įvedamas pardavimo užsakymas 00045, kuris turi kelias eilutes. Išrašius visą pardavimo užsakymo SF, prie jo pridedama nauja pardavimo užsakymo eilutė. Tada perskirstymas paleidžiamas atidarius puslapį **Perskirstyti kainą naujose užsakymo eilutėse** iš pardavimo užsakymo 00045 arba nuėjus į **Įplaukų pripažinimas \> Periodinės užduotys \> Perskirstyti kainą naujose užsakymo eilutėse**. Perskirstymo ID **Reall000001** priskiriamas pardavimo užsakymui.
+
+Antras pirkimo užsakymas, 00052, sukuriamas tai pačiai sutarčiai. Perskirstymą galima paleisti dar kartą atidarius puslapį **Perskirstyti kainą naujose užsakymo eilutėse** iš pardavimo užsakymo 00045, bet ne iš pardavimo užsakymo 00052. Jei puslapį **Perskirstyti kainą naujose užsakymo eilutėse** atidarysite iš pirkimo užsakymo 00052, pirkimo užsakymas 00045 nebus rodomas, nes jam buvo priskirtas perskirstymo ID. Puslapyje rodomi tik pardavimo užsakymai, kurie neturi perskirstymo ID.
+
+Yra du būdai, kaip atlikti antrą perskirstymą. Galite anuliuoti pardavimo užsakymo 00045 perskirstymą. Tokiu atveju perskirstymo ID pašalinamas ir perskirstymą galite atlikti iš pardavimo užsakymo 00045 arba pardavimo užsakymo 00052. Arba galite atidaryti puslapį **Perskirstyti kainą naujose užsakymo eilutėse** iš pardavimo užsakymo 00045 ir įtraukti naują pardavimo užsakymą. Kai perskirstymas yra apdorotas, perskirstymo ID **Reall000001** bus priskirtas tiek pardavimo užsakymui 00045, tiek pardavimo užsakymui 00052.
+
 ## <a name="scenarios-for-reallocation"></a>Perskirstymo scenarijai
 
 Įvairūs įplaukų pripažinimo scenarijai aptariami toliau nurodytose temose:
@@ -112,6 +144,5 @@ Pasirinkę reikiamas pardavimo užsakymo eilutes naudokite veiksmų srities mygt
 - [Įplaukų pripažinimo perskirstymas – 2 scenarijus](rev-rec-reallocation-scenario-2.md) – įvedami du pardavimo užsakymai, tada klientas įtraukia prekę į sutartį po to, kai SF išrašoma pirmam pardavimo užsakymui.
 - [Įplaukų pripažinimo perskirstymas – 3 scenarijus](rev-rec-reallocation-scenario-3.md) – į esamą pardavimo užsakymą, kuriam išrašyta SF, įtraukiama nauja eilutė.
 - [Įplaukų pripažinimo perskirstymas – 4 scenarijus](rev-rec-reallocation-scenario-4.md) – iš esamo pardavimo užsakymo, kuriam išrašyta dalinė SF, pašalinama eilutė.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

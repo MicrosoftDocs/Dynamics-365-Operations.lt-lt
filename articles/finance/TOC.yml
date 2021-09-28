@@ -80,8 +80,6 @@
                       href: get-started/whats-new-changed-10-0-21.md
                     - name: „Finance 10.0.20“ (2021 m. rugpjūčio mėn.)
                       href: get-started/whats-new-changed-10-0-20.md
-                    - name: „Finance 10.0.19“ (2021 m. birželio mėn.)
-                      href: get-started/whats-new-changed-10-0-19.md
             - name: Pašalintos arba nerekomenduojamos funkcijos
               items:
                 - name: Pašalintų arba nerekomenduojamų funkcijų pagrindinis puslapis
@@ -450,6 +448,8 @@
                   href: accounts-receivable/tasks/review-collections-information.md
                 - name: Surinkimo proceso automatizavimas
                   href: accounts-receivable/collections-process-automate.md
+                - name: Surinkimo proceso automatizavimo parametrų konfigūravimas
+                  href: accounts-receivable/config-paramtrs-collections-proc-automate.md
                 - name: Kredito tvarkymo sąranka
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: Informacija apie kredito tvarkymo sąranką
@@ -1635,7 +1635,9 @@
                 - name: PVM išrašas
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Užsienio paslaugų ataskaita
-                  href: localizations/emea-aut-cross-border-services-report.md
+                  href: localizations/emea-aut-vat-statement-details.md
+                - name: Intrastat ataskaita
+                  href: localizations/emea-aut-intrastat.md
                 - name: Pirkimo muito mokesčiai
                   href: localizations/emea-aut-purchase-duties.md
             - name: Bahreinas
@@ -1668,6 +1670,8 @@
                   href: localizations/tasks/be-00011-set-up-payment-balance-reporting.md
                 - name: PRODCOM nustatymas ir tvarkymas
                   href: localizations/emea-bel-prodcom-report.md
+                - name: Metinis vietinio pardavimo PVM sąrašas
+                  href: localizations/emea-bel-annual-vat-listing-of-domestic-sales.md
             - name: Brazilija
               items:
                 - name: Brazilijos apžvalga
@@ -2974,6 +2978,8 @@
                   href: localizations/tasks/mx-00010-e-invoicing-cfdi.md
                 - name: Elektroninės SF
                   href: localizations/latam-mex-CFDI-electronic-invoices.md
+                - name: Krovinio važtaraščio („Carta de Porte“) papildymas (1.0 versija)
+                  href: localizations/latam-mex-carta-de-porte.md
                 - name: Elektroniniai DK apskaitos išrašai
                   href: localizations/latam-mex-electronic-ledger-accounting-statements.md
                 - name: Įvesti Meksikos juridinių subjektų mokesčio registracijos ID
@@ -2994,12 +3000,6 @@
                   href: localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: Tiekėjo registracijos ID
                   href: localizations/tasks/mx-00008-vendor-registration-ids.md
-            - name: Omanas
-              items:
-                - name: Omano apžvalga
-                  href: localizations/oman.md
-                - name: Omano PVM deklaracija (OM-00003)
-                  href: localizations/emea-oma-vat-declaration.md
             - name: Nyderlandai
               items:
                 - name: Nyderlandų apžvalga
@@ -3010,12 +3010,16 @@
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: „Semansys XBRL“ integravimas
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
-                - name: Audito failas (XML „Auditfile Financieel“ XAF)
+                - name: Audito failas („XML Auditfile Financieel XAF“)
                   href: localizations/emea-nl-audit-file.md
                 - name: PVM deklaracija (Nyderlandai)
                   href: localizations/emea-nl-vat-declaration-netherlands.md
                 - name: ES pardavimo sąrašas
                   href: localizations/emea-nl-EU-sales-list.md
+            - name: Naujoji Zelandija
+              items:
+                - name: 'GST deklaracijos forma GST101A, skirta Naujajai Zelandijai (NZ-00003)'
+                  href: localizations/apac-nzl-gst-declaration.md
             - name: Norvegija
               items:
                 - name: Norvegijos apžvalga
@@ -3032,6 +3036,12 @@
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
                 - name: Kliento elektroninės sąskaitos faktūros Norvegijoje
                   href: localizations/emea-nor-e-invoices.md
+            - name: Omanas
+              items:
+                - name: Omano apžvalga
+                  href: localizations/oman.md
+                - name: Omano PVM deklaracija (OM-00003)
+                  href: localizations/emea-oma-vat-declaration.md
             - name: Lenkija
               items:
                 - name: Lenkijos apžvalga
@@ -3450,20 +3460,20 @@
                           href: localizations/emea-gbr-mtd-vat-integration.md
                         - name: Paruoškite savo aplinką sąveikauti su HMRC MTD PVM žiniatinklio tarnyba
                           href: localizations/emea-gbr-mtd-vat-integration-setup.md
-                        - name: Įgaliokite savo „Finance“ aplinką sąveikauti su HMRC MTD žiniatinklio tarnyba
-                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
-                        - name: Sąveikos su MTD PVM smėlio dėže tikrinimas
-                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
-                        - name: PVM grąžinimo pateikimas HMRC MTD žiniatinklio tarnybai
-                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
                         - name: MTD PVM elektroninių pranešimų nustatymo kontrolinis sąrašas
                           href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
-                        - name: PVM deklaracijos generavimas popieriaus formatu (PVM 100 ataskaita)
-                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
-                        - name: 'PVM nustatymo informacija, skirta PVM deklaracijoms Jungtinėje Karalystėje'
-                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                        - name: Sąveikos su MTD PVM smėlio dėže tikrinimas
+                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                        - name: Įgaliokite savo „Finance“ aplinką sąveikauti su HMRC MTD žiniatinklio tarnyba
+                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                        - name: PVM grąžinimo pateikimas HMRC MTD žiniatinklio tarnybai
+                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
                         - name: Informacijos apie PVM mokėjimus ir įsipareigojimus nuskaitymas iš HMRC
                           href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
+                        - name: 'PVM nustatymo informacija, skirta PVM deklaracijoms Jungtinėje Karalystėje'
+                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                        - name: PVM deklaracijos generavimas popieriaus formatu (PVM 100 ataskaita)
+                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
                 - name: Mokėjimo praktikų statistikos ataskaita
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Jungtinės Valstijos
@@ -4119,6 +4129,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
                         - name: 'Formatų, skirtų stulpeliams dinamiškai įtraukti į „Excel“ ataskaitas, paleidimas'
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
+                    - name: ER formato kūrimas „Excel“ sugeneruotų dokumentų puslapiams numeruoti
+                      href: ../fin-ops-core/dev-itpro/analytics/er-paginate-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Ataskaitų generavimo „Word“ formatu konfigūracijų kūrimas
                   items:
                     - name: Ataskaitų generavimo „Word“ formatu naujos ER konfigūracijos kūrimas
