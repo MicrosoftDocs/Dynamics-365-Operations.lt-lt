@@ -2,7 +2,7 @@
 title: Drobės programų įdėjimas iš „Power Apps”
 description: Šioje temoje aiškinama, kaip įdėti drobės programas iš „Microsoft Power Apps“ į klientą, siekiant padidinti produkto funkcijų skaičių.
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 37ef6101a5a69e9c820347dd6f61c987467d40b3
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 32bf477bb42657b06f22f7677dcb580b38f0a55c
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344534"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488059"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Drobės programų įdėjimas iš „Power Apps”
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 „Microsoft Power Apps“ yra paslauga, leidžianti kūrėjams ir įprastiems vartotojams kurti pasirinktines verslo programas, skirtas mobiliesiems įrenginiams, planšetiniams kompiuteriams ir žiniatinkliui, nerašant kodo. „Finance and Operations” programos palaiko integravimą su „Power Apps”. Drobės programas, kurias sukūrėte jūs, jūsų organizacija arba platesnė bendruomenė, galima įdėti į „Finance and Operations“ programas ir padidinti produkto funkcijų skaičių. Pavyzdžiui, „Power Apps“ pagrindu galite sukurti drobės programą, kad papildytumėte „Finance and Operations“ programą informacija, gauta iš kitos sistemos.
 

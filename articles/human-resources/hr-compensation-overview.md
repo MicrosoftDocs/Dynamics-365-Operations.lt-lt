@@ -1,8 +1,8 @@
 ---
 title: Kompensacijų planai
-description: Kompensacijų ir išmokų vadovai gali naudoti Kompensavimo valdymą, skirtą prižiūrėti ir apdoroti organizacijos darbuotojų pastoviųjų ir kintamųjų atlyginimo dalių planus.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Šioje temoje aprašoma, kaip atlikti naudoti kompensacijų valdymą, kad būtų galima valdyti ir apdoroti kompensacijų planus.
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: dafba542ec1421a6ef3437d9c2f22e0c363e557d7f5b6410af36fc7cb8d4be7d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 64169ebc5bbd2f0a9b4be3d4ec076c8814e6eb97
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732446"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483834"
 ---
 # <a name="compensation-plans"></a>Kompensacijų planai
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Kompensacijų ir išmokų vadovai gali naudoti Kompensavimo valdymą, skirtą prižiūrėti ir apdoroti organizacijos darbuotojų pastoviųjų ir kintamųjų atlyginimo dalių planus.
+Kompensacijų ir išmokų vadovai gali naudoti **Kompensavimo valdymą**, kad prižiūrėtų ir apdorotų organizacijos darbuotojų pastoviųjų ir kintamųjų atlyginimo dalių planus.
 
 ### <a name="introduction"></a>Įžanga
 
@@ -43,7 +43,7 @@ Toliau pateiktoje lentelėje išvardijami kompensavimo proceso komponentai, kuri
 <thead>
 <tr class="header">
 <th>Komponentas</th>
-<th>Daugiau informacijos...</th>
+<th>Daugiau informacijos</th>
 </tr>
 </thead>
 <tbody>
@@ -89,10 +89,10 @@ Toliau pateiktoje lentelėje išvardijami kompensavimo proceso komponentai, kuri
 </tr>
 <tr class="even">
 <td>Kontrolinis taškas</td>
-<td>Kontrolinis taškas apibrėžia jūsų manymu idealų mokėjimo tarifą visiems darbuotojams atlyginimo lygyje. Kategorijų plano struktūrų kontroliniai taškai paprastai yra diapazonų vidurio taškai. Intervalų struktūrose kontroliniai taškai naudojami retai. Pastoviosios kompensacijos dalies kontrolinį tašką galite nurodyti Pastoviosios kompensacijos dalies planų formoje.</td>
+<td>Kontrolinis taškas apibrėžia jūsų manymu idealų mokėjimo tarifą visiems darbuotojams atlyginimo lygyje. Kategorijų plano struktūrų kontroliniai taškai paprastai yra diapazonų vidurio taškai. Intervalų struktūrose kontroliniai taškai naudojami retai. Pastoviosios kompensacijos dalies kontrolinį tašką galite nurodyti **Pastoviosios kompensacijos dalies planų** puslapyje.</td>
 </tr>
 <tr class="odd">
-<td>Užduoties funkcijos</td>
+<td>Pareigų funkcijos</td>
 <td>Darbų funkcijos naudojamos norint kompensavimo planus klasifikuoti ir filtruoti tam tikriems darbams.</td>
 </tr>
 <tr class="even">

@@ -2,7 +2,7 @@
 title: Konfigūracijų kūrimas dokumentams „Excel“ formatu generuoti
 description: Šioje temoje apibūdinama, kaip kurti Elektroninės ataskaitos (ER) formatą, kad būtų galima pildyti „Excel“ šabloną, o tada generuoti siunčiamus „Excel“ formato dokumentus.
 author: NickSelin
-ms.date: 03/10/2021
+ms.date: 09/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d737c3a58bf94079b8b674238ed7dd651e238752a2bd992f57c9be4b95aedae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd3171ad24f9c06f04372b30f2682b6da516bcb6
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748477"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488143"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfigūracijos, skirtos dokumentams „Excel“ formatu generuoti, kūrimas
 
@@ -138,6 +138,55 @@ Norėdami sužinoti daugiau, kaip įterpti paveikslėlius ir figūras, žr. [Vai
 
 Komponentas **Puslapio lūžis** priverčia programą „Excel“ pradėti naują puslapį. Šis komponentas nereikalingas, kai norite naudoti numatytąją „Excel“ puslapių kaitą, bet turite jį naudoti, jei norite, kad programa „Excel“ puslapių kaitai taikytų jūsų ER formatą.
 
+## <a name="page-component"></a><a name="page-component"></a>Puslapio komponentas
+
+### <a name="overview"></a>Peržiūra
+
+Galite naudoti **Puslapio** komponentą, kai norite, kad „Excel” vadovautųsi jūsų ER formatu ir struktūros išdėstymu puslapiuose sugeneruotame gaunamame dokumente. Kai ER formatas vykdo komponentus, kurie yra po **Puslapio** komponentu, būtini puslapių lūžiai įtraukiami automatiškai. Šio proceso metu atsižvelgiama į sugeneruoto turinio dydį, „Excel” šablono puslapio nustatymą ir „Excel” šablone pasirinktą popieriaus dydį.
+
+Jei turite suskaidyti sugeneruotą dokumentą į skirtingus skyrius, kurių kiekvienas jų turi skirtingą puslapių numeraciją, galite sukonfigūruoti kelis **Puslapio** komponentus kiekviename [lapo](er-fillable-excel.md#sheet-component) komponente.
+
+### <a name="structure"></a><a name="page-component-structure"></a>Struktūra
+
+Jei pirmasis komponentas po **Puslapio** komponentu yra [Diapazono](er-fillable-excel.md#range-component) komponentas, kurio **Replikavimo krypties** ypatybė nustatyta į **Jokio replikavimo**, šis diapazonas yra laikomas puslapių numeracijos puslapio antraštė, pagrįsta dabartinio **Puslapio** komponento parametrais. Su šiuo formato komponentu susietas „Excel” diapazonas yra kartojamas kiekvieno puslapio, sugeneruoto naudojant dabartinio **Puslapio** komponento parametrus, viršuje.
+
+> [!NOTE]
+> Tam, kad puslapių numeracija būtų teisinga, diapazonas [Viršuje kartotinos eilutės](https://support.microsoft.com/office/repeat-specific-rows-or-columns-on-every-printed-page-0d6dac43-7ee7-4f34-8b08-ffcc8b022409) yra konfigūruojamas jūsų „Excel” šablone, šio „Excel” diapazono adresas turi būti toks pat, kaip ir „Excel” diapazono, susieto su anksčiau aprašytu **Diapazono** komponentu.
+
+Jei paskutinis komponentas po **Puslapio** komponentu yra **Diapazono** komponentas, kurio **Replikavimo krypties** ypatybė nustatyta į **Jokio replikavimo**, šis diapazonas yra laikomas puslapių numeracijos puslapio poraštė, pagrįsta dabartinio **Puslapio** komponento parametrais. Su šiuo formato komponentu susietas „Excel” diapazonas yra kartojamas kiekvieno puslapio, sugeneruoto naudojant dabartinio **Puslapio** komponento parametrus, pabaigoje.
+
+> [!NOTE]
+> Tam, kad puslapių numeracija būtų teisinga, su **Diapazono** komponentais susietų „Excel” diapazonų dydis neturėtų būti pakeistas vykdymo metu. Mes nerekomenduojame formatuoti šio diapazono langelių naudojant **Laužti tekstą langelyje** ir **Automatinis eilutės aukščio taikymas** „Excel” [parinkčių](https://support.microsoft.com/office/wrap-text-in-a-cell-2a18cff5-ccc1-4bce-95e4-f0d4f3ff4e84).
+
+Galite įtraukti kitus **Diapazono** komponentus tarp pasirinktinių **Diapazono komponentų**, kad nurodytumėte, kaip sugeneruoti dokumentai yra užpildomi.
+
+Jei įdėtųjų **Diapazono** komponentų rinkinys, esantis po **Puslapio** komponentu neatitinka su anksčiau aprašyta struktūra, įvyksta tikrinimo [klaida](er-components-inspections.md#i17) kūrimo metu ER formatų rengyklėje. Klaidos pranešimas informuos jus, kad triktis gali sukelti problemų vykdymo metu.
+
+> [!NOTE]
+> Norėdami sugeneruoti tinkamą išvestį, nenurodykite susiejimo jokiam **Diapazono** komponentui, esančiam po **Puslapio** komponentu, jei **Replikavimo krypties** ypatybė tam **Diapazono** komponentui yra nustatyta į **Jokio replikavimo**, o diapazonas yra sukonfigūruotas generuoti puslapio antraštes arba poraštes.
+
+Jei norite, kad su puslapių numeracija susijęs sumavimas ir skaičiavimas skaičiuotų puslapio vykdomas sumas ir sumas, rekomenduojame konfigūruoti reikiamus [Duomenų rinkimo](er-data-collection-data-sources.md) duomenų šaltinius. Norėdami sužinoti, kaip naudoti **Puslapio** komponentą sugeneruoto „Excel” dokumento puslapių išdėstymui, atlikite procedūras, aprašytas [ER formato kūrimas sugeneruoto dokumento „Excel” formatu puslapių išdėstymui](er-paginate-excel-reports.md).
+
+### <a name="limitations"></a><a name="page-component-limitations"></a>Apribojimai
+
+Kai naudojate **Puslapio** komponentą „Excel” puslapių išdėstymui, jūs nežinosite galutinio sugeneruoto dokumento puslapio skaičiaus tol, kol puslapių išdėstymas nebus užbaigtas. Todėl negalite apskaičiuoti bendro puslapių skaičiaus naudodami ER formules ir atspausdinti teisingo sugeneruoto dokumento puslapių skaičiaus bet kuriame puslapyje prieš paskutinį puslapį.
+
+> [!TIP]
+> Norėdami pasiekti šį rezultatą „Excel” antraštėje arba poraštėje, naudokite specialų „Excel” [formatavimą](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) antraštėms ir poraštėms.
+
+Į sukonfigūruotus **Puslapio** komponentus nėra atsižvelgiama, kai atnaujinate „Excel” šabloną redaguojamu formatu 10.0.22 „Dynamics 365 Finance” versijoje. Ši funkcija yra svarstoma būsimiems „Finance” leidimams.
+
+Jei konfigūruojate savo „Excel” šabloną, kad būtų naudojamas [sąlyginis formatavimas](/office/dev/add-ins/excel/excel-add-ins-conditional-formatting), jis tam tikrais atvejais gali neveikti taip, kaip tikėjotės.
+
+### <a name="applicability"></a>Taikymas
+
+**Puslapio** komponentas veikia [„Excel” failo](er-fillable-excel.md#excel-file-component) formato komponentui tik tada, kai komponentas sukonfigūruotas naudoti „Excel” šabloną. Jei [pakeisite](tasks/er-design-configuration-word-2016-11.md) „Excel” šabloną „Word” šablonu ir tada paleisite redaguojamą ER formatą, **Puslapio** komponento bus nepaisoma.
+
+**Puslapio** komponentas veikia tik tada, kai **Įgalinti „EPPlus” bibliotekos naudojimą elektroninių ataskaitų sistemoje** funkcija yra įjungta. Išimtis pateikiama apdorojimo metu, jei ER bando apdoroti **Puslapio** komponentą, kai ši funkcija išjungta.
+
+> [!NOTE]
+> Išimtis pateikiama apdorojimo metu, jei ER formatas apdoroja **Puslapio** komponentą „Excel” šablonui, kuriame yra bent viena formulė, nurodanti netinkamą langelį. Norėdami išvengti vykdymo klaidų, ištaisykite „Excel” šabloną, kaip aprašyta skyriuje [Kaip ištaisyti #REF! klaidą](https://support.microsoft.com/office/how-to-correct-a-ref-error-822c8e46-e610-4d02-bf29-ec4b8c5ff4be).
+
 ## <a name="footer-component"></a>Poraštės komponentas
 
 **Poraštė** komponentas naudojamas norint užpildyti poraštes sugeneruoto darbalapio „Excel” darbaknygėje apačioje.
@@ -197,9 +246,12 @@ Kai tikrinate redaguojamą ER formatą, atliekama vientisumo patikra, siekiant �
 Kai sugeneruojamas siunčiamas dokumentas „Microsoft Excel“ darbaknygės formatu, kai kuriuose šio dokumento langeliuose gali būti „Excel“ formulių. Įjungę funkciją **Įjungti EPPlus biblioteką Elektroninėje ataskaitų sistemoje**, galite kontroliuoti, kada formulės apskaičiuojamos, keisdami [parametro](https://support.microsoft.com/office/change-formula-recalculation-iteration-or-precision-in-excel-73fc7dac-91cf-4d36-86e8-67124f6bcce4#ID0EAACAAA=Windows) **Skaičiavimo parinktys** reikšmę „Excel“ šablone, kuris naudojamas.
 
 - Pasirinkite **Automatiškai**, jei norite perskaičiuoti visas priklausomąsias formules kiekvieną kartą, kai sugeneruotas dokumentas papildomas naujais diapazonais, langelių ir pan.
+
     >[!NOTE]
     > Dėl to gali kilti „Excel“ šablonų, kuriuose yra kelios susijusios formulės, našumo problema.
+
 - Pasirinkite **Neautomatiškai**, kad formulės nebūtų perskaičiuojamos, kai generuojamas dokumentas.
+
     >[!NOTE]
     > Formulių perskaičiavimas neautomatiškai vykdomas, kai sugeneruotas dokumentas atidaromas peržiūrėti naudojant „Excel“.
     > Nenaudokite šios pasirinkties, jei konfigūruosite ER paskirties vietą, kuri naudoja sugeneruotą dokumentą jo neperžiūrėdama programoje „Excel“ (PDF konvertavimas, siuntimas el. paštu ir t.t.), kadangi sugeneruoto dokumento langeliuose, kuriuose yra formulių, gali nebūti reikšmių.

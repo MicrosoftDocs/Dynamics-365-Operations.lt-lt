@@ -1,20 +1,20 @@
 ---
 title: Italijos Intrastat
 description: Šioje temoje pateikiama informacija apie Italijos „Intrastat” ataskaitas.
-author: andosip
-ms.date: 7/9/2021
+author: anasyash
+ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
-ms.reviewer: kfender
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: v-aosipov
+ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: f80a82f4c3c00ee263cc0bf31b0dc5fc69a05dea324fe96e3e0db9a13a488fac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b676ba754cded03fdc6d566ffbfbb35c204b03a
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779373"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488264"
 ---
 # <a name="italian-intrastat"></a>Italijos Intrastat
 
@@ -597,13 +597,10 @@ Institucijai turite nusiųsti dvi ataskaitas. Viena ataskaita yra skirta ES vida
 
 - **Titulinis lapas**
 
-- **1 skyrius: Prekės** – šiame skyriuje pateikiama informacija apie įprastas operacijas ir kredito pažymas, susijusias su to paties ataskaitinio laikotarpio, kaip ir „Intrastat” deklaracijos laikotarpio, prekių sąskaitomis faktūromis.
-
-- **2 skyrius: Prekių taisymai** – šiame skyriuje pateikiama informacija apie pataisymus ir kredito pažymas, susijusius su ankstesnių „Intrastat” ataskaitinių laikotarpių prekių sąskaitomis faktūromis.
-
-- **3 skyrius: Paslaugos** – šiame skyriuje pateikiama informacija apie įprastas operacijas ir kredito pažymas, susijusias su to paties ataskaitinio laikotarpio, kaip ir „Intrastat” deklaracijos laikotarpio, paslaugų sąskaitomis faktūromis.
-
-- **4 skyrius: Paslaugų taisymai** – šiame skyriuje pateikiama informacija apie pataisymus ir kredito pažymas, susijusius su ankstesnių „Intrastat” ataskaitinių laikotarpių paslaugų sąskaitomis faktūromis.
+- **1 skyrius: Prekės**: šiame skyriuje pateikiama informacija apie įprastas operacijas ir kredito pažymas, susijusias su to paties ataskaitinio laikotarpio, kaip ir „Intrastat” deklaracijos laikotarpio, prekių sąskaitomis faktūromis.
+- **2 skyrius: Prekių taisymai**: šiame skyriuje pateikiama informacija apie pataisymus ir kredito pažymas, susijusius su ankstesnių „Intrastat” ataskaitinių laikotarpių prekių sąskaitomis faktūromis.
+- **3 skyrius: Paslaugos**: šiame skyriuje pateikiama informacija apie įprastas operacijas ir kredito pažymas, susijusias su to paties ataskaitinio laikotarpio, kaip ir „Intrastat” deklaracijos laikotarpio, paslaugų sąskaitomis faktūromis.
+- **4 skyrius: Paslaugų taisymai**: šiame skyriuje pateikiama informacija apie pataisymus ir kredito pažymas, susijusius su ankstesnių „Intrastat” ataskaitinių laikotarpių paslaugų sąskaitomis faktūromis.
 
 ## <a name="set-up-intrastat"></a>„Intrastat” nustatymas
 
@@ -611,21 +608,14 @@ Institucijai turite nusiųsti dvi ataskaitas. Viena ataskaita yra skirta ES vida
 
 Prieš pradėdami dirbti su „Intrastat”, turite nustatyti šią bendrą informaciją:
 
--   Prekių kodai. Paslaugoms turite nurodyti šešių skaitmenų prekių kodus.
-
--   Operacijų kodai. Nepamirškite, kad Italijoje naudojami vieno skaitmens operacijų kodai.
-
--   Transportavimo metodai.
-
--   Statistikos procedūros.
-
--   Užsienio prekybos parametrai.
-
--   Sandėliavimas.
-
--   Patvirtinto produkto informacija.
-
--   Agento kontaktinė informacija.
+   - Prekių kodai. Paslaugoms turite nurodyti šešių skaitmenų prekių kodus.
+   - Operacijų kodai. Nepamirškite, kad Italijoje naudojami vieno skaitmens operacijų kodai.
+   - Transportavimo metodai.
+   - Statistikos procedūros.
+   - Užsienio prekybos parametrai.
+   - Sandėliavimas.
+   - Patvirtinto produkto informacija.
+   - Agento kontaktinė informacija.
 
 Daugiau informacijos rasite [„Intrastat” apžvalga](emea-intrastat.md).
 
@@ -633,97 +623,68 @@ Daugiau informacijos rasite [„Intrastat” apžvalga](emea-intrastat.md).
 
 Tam, kad galėtumėte dirbti su „Intrastat”, nustatykite Italijai būdingas parinktis atlikdami toliau nurodytus veiksmus.
 
-1.  [„Microsoft Dynamics Lifecycle Services” (LCS)](https://lcs.dynamics.com/Logon/Index) bendrai naudojamo turto bibliotekoje atsisiųskite naujausią šių Elektroninių ataskaitų (ER) konfigūracijų versiją „Intrastat” deklaracijai:
+1. [„Microsoft Dynamics Lifecycle Services” (LCS)](https://lcs.dynamics.com/Logon/Index) bendrai naudojamo turto bibliotekoje atsisiųskite naujausią šių Elektroninių ataskaitų (ER) konfigūracijų versiją „Intrastat” deklaracijai:
 
-    -   Intrastat modelis
+    - Intrastat modelis
+    - Intrastat ataskaita
+    - „Intrastat” (IT)
 
-    -   Intrastat ataskaita
+    Norėdami daugiau informacijos žr. [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
-    -   „Intrastat” (IT)
+2. „Dynamics 365 Finance“, eikite į **Mokesčiai** > **Nustatymai** > **Užsienio prekybos parametrai**.
+3. „FastTab” **Bendra** skirtuke **„Intrastat”** nustatykite šiuos laukus:
 
-Norėdami daugiau informacijos žr. [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+    - **Kilmės/paskirties apskritis**: pasirinkite savo įmonės apskritį. Ši apskritis bus naudojama išsiuntimams.
+    - **Operacijos kodas**: pasirinkite turto perkėlimų operacijos kodą. Šis kodas bus naudojamas operacijoms, kurios sukelia faktinį ar suplanuotą turto perkėlimą pagal kompensaciją, taip pat pataisymams.
 
-2.  „Dynamics 365 Finance” eikite į **Mokesčiai** &gt; **Nustatymas** &gt; **Užsienio prekybos parametrai**.
+    - **Kredito pažyma**: pasirinkite prekių grąžinimo operacijos kodą.
+    - **Pardavimo ataskaitinis laikotarpis**: pasirinkite eksportavimo deklaracijos ataskaitinį laikotarpį: **Mėnesio** arba **Ketvirčio**. Ketvirčio deklaracijos yra eksportuojamos supaprastintu formatu.
+    - **Pirkimo ataskaitinis laikotarpis**: pasirinkite importavimo deklaracijos ataskaitinį laikotarpį: **Mėnesio** arba **Ketvirčio**. Ketvirčio deklaracijos yra eksportuojamos supaprastintu formatu.
 
-3.  „FastTab” **Bendra** skirtuke **„Intrastat”** nustatykite šiuos laukus:
+4. „FastTab“ **Elektroninės ataskaitos** nustatykite šiuos laukus:
 
-    - **Kilmės/paskirties apskritis** – pasirinkite savo įmonės apskritį. Ši apskritis bus naudojama išsiuntimams.
+    - **Failo formatų susiejimas**: pasirinkite **„Intrastat” (IT)**.
+    - **Ataskaitos formatų susiejimas**: pasirinkite **„Intrastat” ataskaita**.
 
-    <!-- -->
+5. „FastTab” **Prekių kodų hierarchija** lauke **Kategorijų hierarchija** pasirinkite **„Intrastat”**.
+6. „FastTab” **Statistinė vertė** nustatykite **Spausdinti ir eksportuoti statistinius duomenis** parinktį į **Taip**, jei reikia. Šis nustatymas suaktyvina statistinio skyriaus perkėlimą. Statistinį skyrių sudaro duomenys apie svorį, papildomus vienetus, statistines vertes, pristatymo sąlygas, pristatymo grafikus, transportavimo būdus ir kilmės regionus.
 
-    - **Operacijos kodas** – pasirinkite turto perkėlimų operacijos kodą. Šis kodas bus naudojamas operacijoms, kurios sukelia faktinį ar suplanuotą turto perkėlimą pagal kompensaciją, taip pat pataisymams.
+    > [!NOTE]
+    > Ketvirčio deklaracijos „Intrastat” ataskaitoje nebus įtrauktas statistinis skyrius arba informacija apie pristatymo sąlygas ir transportavimo būdus. Daugiau informacijos rasite šios temos skyriaus [Apžvalga](#overview) lentelėje.
 
-    - **Kredito pažyma** – pasirinkite prekių grąžinimo operacijos kodą. Šis kodas bus naudojamas prekių grąžinimui po to, kai pradinė operacija bus įrašyta operacijos kode.
+7. Skirtuke **Šalies/regiono ypatybės** išvardykite visas šalis ar regionus, su kuriais jūsų organizacija turi verslo reikalų. Kiekvienai šaliai ar regionui nustatykite toliau pateiktus laukus:
 
-    - **Pardavimo ataskaitinis laikotarpis** – pasirinkite eksportavimo deklaracijos ataskaitinį laikotarpį: **Mėnesio** arba **Ketvirčio**. Ketvirčio deklaracijos yra eksportuojamos supaprastintu formatu.
+    - **Šalies šalis/regionas**: pasirinkite šalies/regiono kodą.
+    - **„Intrastat” kodas**: įveskite dviejų skaitmenų „Intrastat” kodą.
+    - **Valiuta**: nurodykite šalies arba regiono nacionalinę valiutą. Jei tiekėjas yra ES šalyje, nenaudojančioje euro valiutos, SF sumos bus pranešamos tiek tiekėjo valiuta, tiek eurais. Pavyzdžiui, jei tiekėjas yra Danijoje, ataskaitoje nurodytos importo deklaracijos sumos bus pateiktos tiek Danijos kronomis (DKK), tiek eurais (EUR).
+    - **Šalies/regiono tipas**: pasirinkite šalies arba regiono tipą, susijusį su jūsų organizacija. „Intrastat” žurnale bus perkeltos tik **ES** ir **Specialaus vietinio** tipo šalys ar regionai.
 
-    - **Pirkimo ataskaitinis laikotarpis** – pasirinkite importavimo deklaracijos ataskaitinį laikotarpį: **Mėnesio** arba **Ketvirčio**. Ketvirčio deklaracijos yra eksportuojamos supaprastintu formatu.
+    > [!NOTE]
+    > Šalims arba regionams, kurių tipas yra **Specialus vietinis**, „Intrastat” ataskaitos faile praleidžiami šie laukai: **Svoris**, **Papildomi vienetai**, **Statistinė vertė**, **Pristatymo sąlygos**, **Transportavimo kodas**, **Kilmės/paskirties vietos šalis/regionas** ir **Kilmės/paskirties vietos apskritis**. Pavyzdžiui, **Šalies šalis/regionas** lauke pasirinkite **SMR (San Marinas)**, o tada **Šalies/regiono tipo** lauke – **Specialus vietinis**.
 
-4.  „FastTab“ **Elektroninės ataskaitos** nustatykite šiuos laukus:
-
-    - **Failo formatų susiejimas** – pasirinkite **„Intrastat” (IT)**.
-
-    <!-- -->
-
-    - **Ataskaitos formatų susiejimas** – pasirinkite **„Intrastat” ataskaita**.
-
-5.  „FastTab” **Prekių kodų hierarchija** lauke **Kategorijų hierarchija** pasirinkite **„Intrastat”**.
-
-6.  „FastTab” **Statistinė vertė** nustatykite **Spausdinti ir eksportuoti statistinius duomenis** parinktį į **Taip**, jei reikia. Šis nustatymas suaktyvina statistinio skyriaus perkėlimą. Statistinį skyrių sudaro duomenys apie svorį, papildomus vienetus, statistines vertes, pristatymo sąlygas, pristatymo grafikus, transportavimo būdus ir kilmės regionus.
-
->[!NOTE]
->
->Ketvirčio deklaracijos „Intrastat” ataskaitoje nebus įtrauktas statistinis skyrius arba informacija apie pristatymo sąlygas ir transportavimo būdus. Daugiau informacijos rasite šios temos skyriaus [Apžvalga](#overview) lentelėje.
-
-7.  Skirtuke **Šalies/regiono ypatybės** išvardykite visas šalis ar regionus, su kuriais jūsų organizacija turi verslo reikalų. Kiekvienai šaliai ar regionui nustatykite toliau pateiktus laukus:
-
-- **Šalies šalis/regionas** – pasirinkite šalies/regiono kodą.
-
-- **„Intrastat” kodas** – įveskite dviejų skaitmenų „Intrastat” kodą.
-
-- **Valiuta** – nurodykite šalies arba regiono nacionalinę valiutą. Jei tiekėjas yra ES šalyje, nenaudojančioje euro valiutos, SF sumos bus pranešamos tiek tiekėjo valiuta, tiek eurais. Pavyzdžiui, jei tiekėjas yra Danijoje, ataskaitoje nurodytos importo deklaracijos sumos bus pateiktos tiek Danijos kronomis (DKK), tiek eurais (EUR).
-
-- **Šalies/regiono tipas** – pasirinkite šalies arba regiono tipą, susijusį su jūsų organizacija. „Intrastat” žurnale bus perkeltos tik **ES** ir **Specialaus vietinio** tipo šalys ar regionai.
-
->[!NOTE]
->
->Šalims arba regionams, kurių tipas yra **Specialus vietinis**, „Intrastat” ataskaitos faile praleidžiami šie laukai: **Svoris**, **Papildomi vienetai**, **Statistinė vertė**, **Pristatymo sąlygos**, **Transportavimo kodas**, **Kilmės/paskirties vietos šalis/regionas** ir **Kilmės/paskirties vietos apskritis**. Pavyzdžiui, **Šalies šalis/regionas** lauke pasirinkite **SMR (San Marinas)**, o tada **Šalies/regiono tipo** lauke – **Specialus vietinis**.
-
-8.  Eikite į **Mokėtinos sumos** &gt; **Nustatymas** &gt; **Pristatymo sąlygos**.
-
-9.  Tinklelyje pasirinkite pristatymo sąlygas.
-
+8. Eikite į **Mokėtinos sumos** > **Nustatymas** > **Pristatymo sąlygos**.
+9. Tinklelyje pasirinkite pristatymo sąlygas.
 10. „FastTab” **Bendra** lauke **„Intrastat” kodas** įveskite vieno skaitmens kodą, kuris bus naudojamas „Intrastat” ataskaitoje.
-
 11. Priskirkite neapmokestinimo kodus klientams ir tiekėjams atlikdami šiuos veiksmus. Šie numeriai bus rodomi „Intrastat” ataskaitoje.
+12. Eikite į **Mokesčiai** > **Nustatymas** > **PVM** > **Neapmokestinimo numeriai** ir išvardykite visus savo klientų ir tiekėjų neapmokestinimo numerius. Kiekvienam partneriui nustatykite toliau pateiktus laukus:
 
--   Eikite į **Mokesčiai** &gt; **Nustatymas** &gt; **PVM** &gt; **Neapmokestinimo numeriai** ir išvardykite visus savo klientų ir tiekėjų neapmokestinimo numerius. Kiekvienam partneriui nustatykite toliau pateiktus laukus:
+    - **Šalis/regionas**: pasirinkite partnerio šalį arba regioną.
+    - **Neapmokestinimo numeris**: įveskite partnerio neapmokestinimo numerį.
+    - **Įmonės pavadinimas**: įveskite partnerio pavadinimą.
 
-    - **Šalis/regionas** – pasirinkite partnerio šalį arba regioną.
+13. Eikite į **Gautinos sumos** > **Klientai** > **Visi klientai** ir atlikite toliau nurodytus veiksmus kiekvienam klientui:
 
-    - **Neapmokestinimo numeris** – įveskite partnerio neapmokestinimo numerį.
+    1. Pasirinkite klientą.
+    2. „FastTab” **Sąskaita faktūra ir pristatymas** skyriaus **PVM** lauke **Neapmokestinimo numeris** pasirinkite **Visi**.
+    3. Pasirinkite kliento neapmokestinamo PVM numerį.
 
-    - **Įmonės pavadinimas** – įveskite partnerio pavadinimą.
+14. Eikite į **Mokėtinos sumos** > **Tiekėjai** > **Visi tiekėjai** ir atlikite toliau nurodytus veiksmus kiekvienam tiekėjui:
 
-<!-- -->
+    1. Pasirinkite tiekėją.
+    2. „FastTab” **Sąskaita faktūra ir pristatymas** skyriaus **PVM** lauke **Neapmokestinimo numeris** pasirinkite **Visi**.
+    3. Pasirinkite tiekėjo neapmokestinamo PVM numerį.
 
--   Eikite į **Gaunamos sumos** &gt; **Klientai** &gt; **Visi klientai** ir atlikite toliau nurodytus veiksmus kiekvienam klientui:
-
-    1.  Pasirinkite klientą.
-
-    2.  „FastTab” **Sąskaita faktūra ir pristatymas** skyriaus **PVM** lauke **Neapmokestinimo numeris** pasirinkite **Visi**.
-
-    3.  Pasirinkite kliento neapmokestinamo PVM numerį.
-
--   Eikite į **Mokėtinos sumos** &gt; **Tiekėjai** &gt; **Visi tiekėjai** ir atlikite toliau nurodytus veiksmus kiekvienam tiekėjui:
-
-    1.  Pasirinkite tiekėją.
-
-    2.  „FastTab” **Sąskaita faktūra ir pristatymas** skyriaus **PVM** lauke **Neapmokestinimo numeris** pasirinkite **Visi**.
-
-    3.  Pasirinkite tiekėjo neapmokestinamo PVM numerį.
-
-12. Eikite į **Mokesčiai** &gt; **Nustatymas** &gt; **Užsienio prekyba** &gt; **„Intrastat” glaudinimas** ir pasirinkite laukus, kurie turi būti lyginami apibendrinant „Intrastat” informaciją. Italijai pasirinkite **Neapmokestinimo numerį**, **Operacijos kodą**, **Prekę**, **Pristatymo sąlygas**, **Transportavimą**, **Šalį/regioną**, **Kilmės šalį/regioną**, **Kilmės apskritį**, **Kilmės/paskirties vietos apskritį**, **Valiutą**, **Mėnesį**, **Ketvirtį** ir **Pataisymo metus**.
+15. Eikite į **Mokesčiai** > **Nustatymas** > **Užsienio prekyba** > **„Intrastat“ glaudinimas**, ir pasirinkite laukus, kurie turi būti lyginami apibendrinant „Intrastat” informaciją. Italijai pasirinkite **Neapmokestinimo numerį**, **Operacijos kodą**, **Prekę**, **Pristatymo sąlygas**, **Transportavimą**, **Šalį/regioną**, **Kilmės šalį/regioną**, **Kilmės apskritį**, **Kilmės/paskirties vietos apskritį**, **Valiutą**, **Mėnesį**, **Ketvirtį** ir **Pataisymo metus**.
 
 ## <a name="italian-vendor-invoice-journal-for-foreign-trade"></a>Italijos tiekėjo SF žurnalas, skirtas užsienio prekybai
 
@@ -762,10 +723,10 @@ Norėdami atidaryti „Intrastat” žurnalą, eikite į **Mokesčiai** &gt; **D
 >
 >Jei gaunate neigiamą pataisymą (kredito pažymą) tuo pačiu laikotarpiu kaip ir ataskaitinis laikotarpis, „Intrastat” žurnalą turite pakeisti rankiniu būdu atlikdami šiuos veiksmus.
 >
->1.  Eikite į **Mokesčiai** &gt; **Deklaracijos** &gt; **Užsienio prekyba** &gt; **„Intrastat”**.
->2.  Raskite ir panaikinkite operaciją, kuri yra pažymėta kaip pataisymas.
->3.  Raskite pradinę operaciją ir atitinkamai pakeiskite lauko **SF suma** reikšmę.
->Pavyzdžiui, turite SF su 10 000 suma, o jūs gaunate kredito pažymą su -2 000. Tokiu atveju turite atidaryti „Intrastat” žurnalą ir rasti bei panaikinti -2 000 operaciją. Tada suraskite 10 000 pradinę operaciją ir nustatykite SF sumą į 8000 (= 10 000 - 2000).
+> 1. Pasirinkite **Mokesčiai** > **Deklaracijos** > **Užsienio prekyba** > **Intrastat**.
+> 2. Raskite ir panaikinkite operaciją, kuri yra pažymėta kaip pataisymas.
+> 3. Raskite pradinę operaciją ir atitinkamai pakeiskite lauko **SF suma** reikšmę.
+> Pavyzdžiui, turite SF su 10 000 suma, o jūs gaunate kredito pažymą su -2 000. Tokiu atveju turite atidaryti „Intrastat” žurnalą ir rasti bei panaikinti -2 000 operaciją. Tada suraskite 10 000 pradinę operaciją ir nustatykite SF sumą į 8000 (= 10 000 - 2000).
 
 ### <a name="intrastat-transfer"></a>„Intrastat” perkėlimas
 
@@ -773,235 +734,30 @@ Veiksmų srityje galite pasirinkti **Perkelti**, kad informacija apie ES vidaus 
 
 Taip pat rankiniu būdu galite įvesti operacijas pasirinkę **Nauja** veiksmų srityje.
 
-Kiekvienai operacijai galite nustatyti kelis Italijai būdingus parametrus **Bendra** skirtuke.
+Kiekvienai operacijai galite nustatyti Italijai būdingus parametrus **Bendra** skirtuke. Toliau pateikta lentelė pateikia daugiau laukų informacijos.
 
-<table>
-<tbody>
-<tr>
-<td>
-<p><strong>Laukas</strong></p>
-</td>
-<td>
-<p><strong>Aprašas</strong></p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p style="text-align: center;"><strong>Bendra</strong> skyrius</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Prekės tipas</p>
-</td>
-<td>
-<p>Šis laukas gali būti nustatytas į <strong>Prekės</strong> arba <strong>Paslaugos</strong>.</p>
-<p>Tam, kad operacija būtų laikoma paslauga, jūsų SF eilutė turėtų būti nustatyta vienu iš šių būdų:</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ji neturi prekės kodo.</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ji turi šešių skaitmenų prekės kodą</p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p style="text-align: center;"><strong>Kilmės šalies/regiono</strong> skyrius</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Kilmės rajonas</p>
-</td>
-<td>
-<p>Produkto ar paslaugos kilmės apskritis. Ši reikšmė nurodoma <strong>Išleistų produktų</strong> puslapyje.</p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p style="text-align: center;"><strong>Kodų</strong> skyrius</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Pristatymo būdas</p>
-</td>
-<td>
-<p>Pristatymo būdas. Norėdami nurodyti pristatymo būdą, eikite į <strong>Pardavimai ir rinkodara</strong> &gt; <strong>Nustatymas</strong> &gt; <strong>Paskirstymas</strong> &gt; <strong>Pristatymo būdai</strong>.</p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p style="text-align: center;"><strong>Taisymų</strong> skyrius</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Mėnuo</p>
-</td>
-<td>
-<p>Pradinės operacijos mėnuo.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Ketvirtis</p>
-</td>
-<td>
-<p>Pradinės operacijos ketvirtis.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Koregavimo metai</p>
-</td>
-<td>
-<p>Pradinės operacijos metai.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Pradinis Intrastat įrašas</p>
-</td>
-<td>
-<p>Paslaugų pataisymams įveskite pradinio „Intrastat” įrašo numerį.</p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p style="text-align: center;"><strong>SF vertės</strong> skyrius</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Valiuta</p>
-</td>
-<td>
-<p>Partnerio nacionalinė valiuta.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Sąskaitos faktūros suma, išreikšta operacijos valiuta</p>
-</td>
-<td>
-<p>SF suma nacionaline partnerio valiuta.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Sąskaitos faktūros išlaidų suma, išreikšta operacijos valiuta</p>
-</td>
-<td>
-<p>SF mokesčiai nacionaline partnerio valiuta.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Sąskaitos faktūros vertė, išreikšta operacijos valiuta</p>
-</td>
-<td>
-<p>SF vertė nacionaline partnerio valiuta.</p>
-</td>
-</tr>
-</tbody>
-</table>
+| Laukas | Aprašas |
+|-------|-------------|
+| Prekės tipas | Šis laukas gali būti nustatytas į **Prekės** arba **Paslaugos**.<br> Tam, kad operacija būtų laikoma paslauga, jūsų SF eilutė turėtų būti nustatyta vienu iš šių būdų:<br>- Ji neturi prekės kodo<br>- Ji turi šešių skaitmenų prekės kodą  |
+| Kilmės rajonas | Produkto ar paslaugos kilmės apskritis. Ši reikšmė nurodoma **Išleistų produktų** puslapyje. |
+| Pristatymo būdas | Pristatymo būdas. <br>Norėdami nurodyti pristatymo būdą, eikite į **Pardavimai ir rinkodara** > **Nustatymas** > **Paskirstymas** > **Pristatymo būdai**. |
+| Mėnuo | Pradinės operacijos mėnuo. |
+| Ketvirtis | Pradinės operacijos ketvirtis. |
+| Koregavimo metai | Pradinės operacijos metai. |
+| Pradinis Intrastat įrašas | Paslaugų pataisymams įveskite pradinio „Intrastat” įrašo numerį. |
+| Valiuta | Partnerio nacionalinė valiuta. |
+| Sąskaitos faktūros suma, išreikšta operacijos valiuta | SF suma nacionaline partnerio valiuta. |
+| Sąskaitos faktūros išlaidų suma, išreikšta operacijos valiuta | SF mokesčiai nacionaline partnerio valiuta. |
+| Sąskaitos faktūros vertė, išreikšta operacijos valiuta | SF vertė nacionaline partnerio valiuta. |
 
 Daugiau informacijos apie SF mokesčius nacionaline partnerio valiuta ieškokite [„Intrastat” apžvalgos būtinosios sąlygos (įvairūs mokesčiai)](emea-intrastat.md).
 
 ### <a name="generate-an-intrastat-report"></a>„Intrastat” ataskaitos generavimas
 
-1.  Norėdami sugeneruoti „Intrastat” ataskaitą, eikite į **Mokesčiai** &gt; **Deklaracijos** &gt; **Užsienio prekyba** &gt; **„Intrastat”**.
-
-2.  Veiksmų srityje pasirinkite **Išvestis** &gt; **Ataskaita**.
-
-3.  Dialogo lange **„Intrastat” ataskaita** nustatykite toliau nurodytus laukus.
-
-<table>
-<tbody>
-<tr>
-<td>
-<p><strong>Laukas</strong></p>
-</td>
-<td>
-<p><strong>Aprašas</strong></p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p><strong>Datos</strong> skyrius</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Nuo datos</p>
-</td>
-<td>
-<p>Pasirinkite ataskaitos pradžios datą.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Iki datos</p>
-</td>
-<td>
-<p>Pasirinkite ataskaitos pabaigos datą.</p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p><strong>Eksportavimo parinkčių</strong> skyrius</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Sugeneruoti failą</p>
-</td>
-<td>
-<p>Šią parinktį nustatykite į <strong>Taip</strong>, kad sugeneruotumėte .txt failą.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Failo vardas</p>
-</td>
-<td>
-<p>Įveskite savo „Intrastat” ataskaitos .txt failo pavadinimą.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Generuoti ataskaitą</p>
-</td>
-<td>
-<p>Šią parinktį nustatykite į <strong>Taip</strong>, kad sugeneruotumėte .xlsx failą.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Ataskaitos failo vardas</p>
-</td>
-<td>
-<p>Įveskite savo „Intrastat” ataskaitos .xlsx failo pavadinimą.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Kryptis</p>
-</td>
-<td>
-<p>Pasirinkite <strong>Įsigijimai</strong> ataskaitai apie ES vidaus įsigijimus. Pasirinkite <strong>Išsiuntimai</strong> ataskaitai apie ES vidaus išsiuntimus.</p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p><strong>Failo formato susiejimo</strong> skyrius</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Nuorodos numeris</p>
-</td>
-<td>
-<p>Įveskite dokumento numerį. Ši reikšmė turės įtakos <strong>Failo numerio</strong> kodui „Intrastat” failo ataskaitoje. Daugiau informacijos rasite Failo formate.</p>
-</td>
-</tr>
-</tbody>
-</table>
+1. Norėdami sugeneruoti „Intrastat” ataskaitą, eikite į **Mokesčiai** > **Deklaracijos** > **Užsienio prekyba** > **„Intrastat”**.
+2. Veiksmų srityje pasirinkite **Išvestis** > **Ataskaita**.
+3. Dialogo lange **„Inrastat” ataskaita** pasirinkite ataskaitos pradžios ir pabaigos datas.
+4. Lauke **Generuoti failą** pasirinkite **Taip**, kad sugeneruotumėte .txt failą ir įvestumėte failo pavadinimą.
+5. Lauke **Generuoti ataskaitą** pasirinkite **Taip**, kad sugeneruotumėte .xlsx failą ir tada įveskite ataskaitos pavadinimą.
+6. Pasirinkite **Gavimai** arba **Išsiuntimai** pagal tai, kas yra ataskaitoje.
+7. Į **Nuorodos numerio** lauką įveskite dokumento numerį. Ši reikšmė turi įtakos failo numerio kodui „Intrastat” failo ataskaitoje. 

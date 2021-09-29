@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 04d7c1de85978f7915246fd835a0866cefb6de310bba240ebcadc57089e10521
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf98529176fbed368708ea925f542a70f2936037
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735116"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500407"
 ---
 # <a name="manage-deductions-using-the-deduction-workbench"></a>Atskaitymų valdymas, naudojant atskaitymų darbo sritį
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Šioje temoje aprašoma, kaip naudoti atskaitymų darbo sritį norint apdoroti klientų mokėjimus su atskaitymais.
 
@@ -132,7 +131,7 @@ Norėdami sukurti atskaitymų žurnalo įrašą atlikite nurodytus veiksmus.
 1. Pasirinkite **OK** norėdami patvirtinti, kad suma yra mažesnė už bendrą pažymėtos operacijos sumą.
 1. Pasirinkite korespondentinės sąskaitos tipą ir korespondentinę sąskaitą.
 1. Įrankių juostoje virš tinklelio pasirinkite **Atskaitymai**.
-1. **Atskaitymai** puslapyje Veiksmų juostoje pasirinkite **Naujas** kad įtrauktumėte eilutę tinklelyje. **Atskaitymo ID** laukas automatiškai nustatomas naujai eilutei. 
+1. **Atskaitymai** puslapyje Veiksmų juostoje pasirinkite **Naujas** kad įtrauktumėte eilutę tinklelyje. **Atskaitymo ID** laukas automatiškai nustatomas naujai eilutei.
 1. Laukelyje **Tipas** pasirinkite atskaitymų tipą.
 1. **Suma** laukelyje įveskite sumą, kuri nurodyta **Likutis** laukelyje žemiau atskaitymų sąrašo. Ši suma rodo sumą, kurią klientas atėmė iš mokėjimo.
 1. Uždarykite **Atskaitymai** puslapį. Esate grąžinamas į **Kliento mokėjimų** puslapį, kuriame dabar rodoma nauja atskaitymo eilutė.

@@ -1,27 +1,39 @@
 ---
 title: Kas nauja ar pasikeitė „Warehouse Management Mobile App” programėlėje
 description: Šioje temoje pateikiamos naujos ir pakeistos kiekvienos išleistos „Warehouse Management Mobile App”, skirtos „Microsoft Dynamics 365 Supply Chain Management”, versijos funkcijos.
-author: ivanv-microsoft
-ms.date: 07/30/2021
+author: MarkusFogelberg
+ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: ivanv
+ms.author: mafoge
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
-ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
+ms.openlocfilehash: ac3ea6a088b2086054eb692cd0688b269dafca51
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386104"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485627"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Kas nauja ar pasikeitė „Warehouse Management Mobile App” programėlėje
 
 [!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiamos naujos kiekvienos išleistos „Warehouse Management Mobile App”, skirtos „Microsoft Dynamics 365 Supply Chain Management”, versijos funkcijos, klaidų taisymai ir žinomos problemos.
+
+## <a name="version-20100"></a>2.0.10.0 versija
+
+Šioje versijoje pristatomos toliau pateiktos naujos funkcijos, klaidų taisymai ir patobulinimai:
+
+- Pridėta animacija perjungiant sąrašus ir puslapius.
+- Dabar tekstas lūžta tinkamai ryšio klaidos puslapyje.
+- Dabar pasirinktinio įvedimo laukai be numatytųjų reikšmių rodomi tinkamai.
+- Paantraštės srities informacija dabar rodoma tik išsamios informacijos puslapyje.
+- Tušti įvesties laukai daugiau nebėra rodomi informacijos kortelėje.
+- Patvirtinimo reikšmių kopijos daugiau nebekuriamos informacijos kortelėje.
+- Buvo išspręstos įvairios problemos, dėl kurių sistema nebereagavo.
 
 ## <a name="version-2090"></a>2.0.9.0 versija
 

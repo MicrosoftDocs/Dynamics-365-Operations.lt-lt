@@ -2,7 +2,7 @@
 title: Planavimas su neribotu pajėgumu
 description: Šioje temoje pateikiama informacija apie Planavimo optimizavimo neriboto pajėgumo planavimą. Joje taip pat aprašomi dabartiniai funkcijų apribojimai.
 author: crytt
-ms.date: 09/02/2021
+ms.date: 09/21/2021
 ms.topic: article
 ms.search.form: RouteInventProd
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 2e730340cddac107b04a6b5877e51b84f4dd7b21
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: 9e1e423aaed06f6bb2b42e27d41c2aef46ffe104
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471673"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506812"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Planavimas su neribotu pajėgumu
 
@@ -27,7 +27,12 @@ ms.locfileid: "7471673"
 
 ## <a name="turn-on-the-infinite-capacity-scheduling-feature"></a>Neriboto pajėgumo planavimo funkcijos įjungimas
 
-Jei jūsų sistemoje dar nėra šioje temoje aprašytos funkcijos, atidarykite [Funkcijų valdymo](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo sritį ir įjunkite funkciją *Neriboto pajėgumo planavimas, skirtas planavimo optimizavimui*.
+Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+
+- **Modulis:** *Bendrasis planavimas*
+- **Funkcijos pavadinimas:** *Neribotas pajėgumo planavimas Planavimo optimizavimui*
+
+Daugiau informacijos apie šią funkciją rasite [Planavimas su išteklių pasirinkimu pagal pajėgumą](capability-based-scheduling.md).
 
 ## <a name="added-functionality"></a>Įtrauktos funkcijos
 
@@ -42,7 +47,7 @@ Planavimo proceso metu sistema taip pat atsižvelgia į nurodytus operacijos *i�
 - Išteklių tipas
 - Ištekliai
 - Išteklių grupė
-- Sugebėjimas
+- Pajėgumas (Daugiau informacijos rasite [Planavimas su išteklių pasirinkimu pagal pajėgumą](capability-based-scheduling.md).)
 
 > [!NOTE]
 > Reikalavimai, susiję su žmogiškaisiais ištekliais, pavyzdžiui, įgūdžių arba sertifikatų reikalavimai, dar nepalaikomi.
@@ -55,7 +60,6 @@ Apibendrinant, Planavimo optimizavimo planavimas palaiko dažniausiai naudojamus
 
 Toliau nurodyti apribojimai taikomi, kai naudojate Planavimo optimizavimo planavimą:
 
-- Funkcija palaiko tik užduočių planavimą. Planavimo metu nepaisoma parametrų, susijusių su operacijų planavimu, neatsižvelgiant į bendrųjų planų planavimo metodą.
 - Funkcija palaiko tik neribotą pajėgumą.
 - Funkcija nepalaiko išteklių įkėlimo funkcijos.
 - Funkcija neatsižvelgia į maršruto nurašymą.

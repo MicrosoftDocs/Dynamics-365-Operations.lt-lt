@@ -9,12 +9,12 @@ ms.reviewer: kfender
 ms.search.region: Global
 ms.author: v-aosipov
 ms.search.validFrom: ''
-ms.openlocfilehash: 404fb8dff1519aefb2f4af25eb95dfa6fce75b7c
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 152bfd24843867685b1d303484ed61ad98ec652a
+ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7417087"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7486951"
 ---
 # <a name="swedish-intrastat"></a>Švedijos „Intrastat”
 
@@ -48,7 +48,7 @@ Daugiau informacijos žr. [ER konfigūracijų atsisiuntimas iš konfigūravimo t
 3. **Ataskaitos formatų susiejimas** lauke pasirinkite **„Intrastat” ataskaita**.
 4. „FastTab” **Prekių kodų hierarchija** lauke **Kategorijų hierarchija** pasirinkite **„Intrastat”**.
 5. **Operacijos kodas** lauke rinkitės pasirinkite turto perkėlimų operacijos kodą. Šis kodas naudojamas operacijoms, kurios sukuria esamus ar planuotus turto pervedimus gavus atlygį (finansinį ar kitą). Taip pat jį naudojate pataisymams. Švedijos įmonės naudoja vieno skaitmens operacijų kodus.
-6. **Kredito pažyma** lauke rinkitės pasirinkite prekių grąžinimo operacijos kodą. Naudojate šį kodą prekių grąžinimui po to, kai pradinė operacija bus iš anksto įrašyta operacijos kode. Švedijos įmonės naudoja vieno skaitmens operacijų kodus.
+6. **Kredito pažyma** lauke rinkitės pasirinkite prekių grąžinimo operacijos kodą.
 7. Skirtuke **Šalies/regiono ypatybės**, laukelyje **šalis/regionas**, išvardykite visas šalis ar regionus, su kuriais įmonė daro verslą. Kiekvienai ES šaliai lauke **Šalies / regiono tipas** pasirinkite **ES**, kad ši šalis būtų rodoma jūsų „Intrastat” ataskaitoje.
 
 ## <a name="set-up-the-product-parameters-for-the-intrastat-declaration"></a>„Intrastat” deklaracijos produkto parametrų nustatymas

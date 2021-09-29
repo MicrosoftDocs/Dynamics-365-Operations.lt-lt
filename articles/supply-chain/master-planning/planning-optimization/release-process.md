@@ -2,7 +2,7 @@
 title: Planavimo optimizavimo išleidimo procesas ir išleidimo retrospektyva
 description: Šioje temoje pateikiama informacija apie Planavimo optimizavimo paleidimo procesą ir jo paleidimo retrospektyvą.
 author: crytt
-ms.date: 09/02/2021
+ms.date: 09/21/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d0f7a9f59d1034451c5c2dec1150c017bda27ad4
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 1bf08fc75aa2c05b2f2974ee46ec16609505f696
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474705"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506788"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Planavimo optimizavimo išleidimo procesas ir išleidimo retrospektyva
 
@@ -33,6 +33,7 @@ Kadangi atnaujinant Planavimo optimizavimą jūsų aplinkoje pranešimai nerodom
 
 | Pakeitimai | Funkcijų valdymo duomenys | Išleidimo datos |
 |---|---|---|
+| <p>Įtrauktas bendrųjų planų su **Planavimo metodu** palaikymas nustatytas į *Operacijų planavimas*.</p><p>Puslapyje **Maršruto grupės** atsižvelkite į žymės langelių **Aktyvavimas**, **Darbo laikas** ir **Pajėgumas** eilėms su *Nustatymo* arba *Proceso* lauko **Maršruto/užduoties tipu**. </p><p>Bendras našumas, kokybės ir stabilumo patobulinimai. | <p>Operacijų planavimas yra prieinamas funkcijų valdymo 10.0.20 versijoje.</p><p>Funkcijos pavadinimas: *Neribotas pajėgumo planavimas Planavimo optimizavimui*</p>  | 2021 m. rugsėjo 9–17 d |
 | Bendras našumas, kokybės ir stabilumo patobulinimai. | Funkcijos valdyti nereikia. | 2021 m. rugpjūčio 25-30 d. |
 | <p>Įtrauktas **gamybos laiko** laukas į suplanuotus užsakymus.</p><p>Bendras našumas, kokybės ir stabilumo patobulinimai.</p> | Funkcijos valdyti nereikia. | 2021 m. rugpjūčio 12-17 dienos |
 | <p>Įtraukta išteklius neriboto pajėgumo planavimo išteklių tipo reikalavimai.</p><p>Pagerintas išteklius neriboto pajėgumo planavimo išteklių ir kalendoriaus efektyvumas.</p><p>Daugiau informacijos žr. [Planavimas, naudojant neribotą pajėgumą](infinite-capacity-planning.md). | <p>Prieinama funkcijos valdymo versijoje 10.0.20.</p><p>Funkcijos pavadinimas: *Neribotas pajėgumo planavimas Planavimo optimizavimui*</p> | 2021 m. liepos 6-12 dienos |

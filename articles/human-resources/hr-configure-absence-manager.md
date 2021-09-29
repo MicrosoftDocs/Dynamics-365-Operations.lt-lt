@@ -2,7 +2,7 @@
 title: Neatvykimų vadovo vaidmens konfigūravimas
 description: Šioje temoje paaiškinama, kaip nustatyti neatvykimų vadovo vaidmenį darbuotojo atostogų valdymui.
 author: hasrivas
-ms.date: 07/19/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 050874628388629569751afae201ef346af020da09c81d24a69e1a4b5eb41b6f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7f2a2fd0a1ad1cca19625ff1029962f608251f1d
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732350"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485759"
 ---
 # <a name="configure-the-absence-manager-role"></a>Neatvykimų vadovo vaidmens konfigūravimas
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-[!include [preview feature](./includes/preview-feature.md)]
 
 Kai kuriose organizacijose asmenų vadovai gali nevaldyti savo komandos atostogų. Vietoj to, neatvykimų vadovas gali valdyti šį procesą kelių padalinių ir komandų nariams. Neatvykimų vadovai turi šias atostogų valdymo galimybes:
 
@@ -38,7 +36,7 @@ Kai kuriose organizacijose asmenų vadovai gali nevaldyti savo komandos atostog�
 
 1. Darbo srityje **Sistemos administravimas** pasirinkite **Funkcijų valdymas**.
 
-2. Skirtuke **Funkcijų valdymas** įgalinkite **(Peržiūra) Neatvykimų vadovas atostogų valdymui** funkciją.
+2. Skirtuke **Funkcijų valdymas** įgalinkite **Neatvykimų vadovas atostogų valdymui** funkciją.
 
 ## <a name="define-a-custom-hierarchy"></a>Pasirinktinės hierarchijos apibrėžimas
 
@@ -89,7 +87,7 @@ Neatvykimų vadovo vaidmuo turi būti priskirtas, kad jis galėtų patvirtinti a
 
 ## <a name="absence-manager-workspace"></a>Neatvykimų vadovo darbo sritis
 
-Darbo srities **Darbuotojo savitarna** skirtuke **Atostogų valdymas** rodoma neatvykimų informacija apie darbuotojus, kurie buvo priskirti neatvykimų vadovui Atostogų hierarchijoje. Neatvykimo vadybininkui galimos kelios pasirinktys: 
+**Darbuotojo savitarnos** darbo srities skirtuke **Atostogų valdymas** rodoma neatvykimų informacija apie darbuotojus, kurie buvo priskirti neatvykimų vadovui Atostogų hierarchijoje. Neatvykimo vadybininkui galimos kelios pasirinktys: 
  - Nedarbo laiko užklausų peržiūra.</br>
  - Pateikti prašymą dėl darbo laiko darbuotojo vardu.</br>
  - Peržiūrėti visus jiems priskirtus darbuotojus kaip atostogų hierarchijos dalį.</br>
@@ -103,10 +101,10 @@ Atostogų **valdymo darbo** srityje yra du skirtukai:
 
 ## <a name="approve-time-off-requests"></a>Laisvo laiko prašymų patvirtinimas
 
-Neatvykimų vadovai gali patvirtinti arba atmesti darbuotojų išleidimo iš darbo užklausas. 
+Neatvykimų vadovai gali tvirtinti arba atmesti darbuotojų išleidimo iš darbo užklausas. 
 
 > [!IMPORTANT]
-> Kad neatvykimų vadovai galėtų patvirtinti arba atmesti išleidimo iš darbo užklausas, atostogų užklausų darbo eiga turi būti sukonfigūruota priskirti jiems peržiūrėti atostogų užklausų darbo elementus.
+> Tam, kad neatvykimų vadovai galėtų patvirtinti arba atmesti išleidimo iš darbo užklausas, atostogų užklausų darbo eiga turi būti sukonfigūruota priskirti jiems peržiūrėti atostogų užklausų darbo elementus.
 >
 > 1. Puslapyje **Personalo darbo eigos** pasirinkite arba sukurkite atostogų užklausos darbo eigą.
 > 2. Pasirinkite **Hierarchijos susiejimo** parinktį, o tada **Hierarchijos pavadinimas** lauke pasirinkite **Atostogos**.
@@ -114,7 +112,7 @@ Neatvykimų vadovai gali patvirtinti arba atmesti darbuotojų išleidimo iš dar
 >
 > Informacijos apie tai, kaip sukurti atostogų prašymo darbo eigą, rasite [Atostogų užklausos darbo eigos kūrimas](hr-leave-and-absence-workflow.md).
 
-1. Darbo srityje **Darbuotojo savitarna** pasirinkite **Atostogų valdymo** skirtuką.
+1. **Darbuotojo savitarnos** darbo srityje pasirinkite **Atostogų valdymo** skirtuką.
 
 2. Skirtuke **Laiko išjungimo** užklausos pasirinkite laiką, su kuriuo norite imtis veiksmų. Šiame sąrašo rodinyje galite pasirinkti kelis įrašus.
 
@@ -124,7 +122,7 @@ Arba vartotojas taip pat gali naudoti išjungimo užklausų išklotinės dalies 
 
 ## <a name="view-time-off-in-the-calendar"></a>Peržiūrėti išleidimus iš darbo kalendoriuje
 
-Vartotojai, turintys neatvykimų vadovo vaidmenį, gali peržiūrėti išleidimo iš darbo užklausas savo kalendoriuje. Atlikite toliau nurodytus veiksmus, jei norite pasiekti atostogų kalendorių.
+Vartotojai, turintys neatvykimų vadovo vaidmenį, gali matyti išleidimo iš darbo užklausas savo kalendoriuje. Atlikite toliau nurodytus veiksmus, jei norite pasiekti atostogų kalendorių.
 
 > [!IMPORTANT]
 > Sistemos administratorius turi sukonfigūruoti neatvykimų vadovo kalendoriaus rodinio parinktis. Puslapio **Atostogų ir neatvykimų parametrai** skirtuke **Kalendorius** yra parinktys slėpti arba rodyti gimtadienius, neatvykimus be informacijos, leistus neatvykimus ir laukiančius atostogų prašymus. Taip pat yra parinktis filtruoti kalendoriaus rodinio parinktį pagal darbuotojo tipą.

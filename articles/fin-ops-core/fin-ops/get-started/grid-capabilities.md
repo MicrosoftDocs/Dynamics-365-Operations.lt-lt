@@ -2,7 +2,7 @@
 title: Tinklelio charakteristikos
 description: Šioje temoje aprašomos kelios galingos tinklelio valdiklio funkcijos. Norėdami turėti prieigą prie šių galimybių, turite įjungti naują tinklelio funkcija.
 author: jasongre
-ms.date: 08/04/2021
+ms.date: 09/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9bdefeedf8bbbe60f3f76d234f9b393cc8e5dbe8ede7e320e00d0b8e20dbbf73
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9aa79e6e61f3a53073dffa5f3030892cc921d246
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775247"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483859"
 ---
 # <a name="grid-capabilities"></a>Tinklelio charakteristikos
 
@@ -30,7 +30,7 @@ Naujas tinklelio valdiklis suteikia keletą naudingų ir galingų charakteristik
 -  Skaičiuojamos sumos
 -  Rašymas anksčiau sistemos
 -  Matematinių išraiškų vertinimas 
--  Lentelės duomenų grupavimas (įjungta atskirai naudojant funkciją **(Peržiūra) Grupavimas tinkleliuose**)
+-  Lentelės duomenų grupavimas (įjungta atskirai naudojant **Grupavimas tinkleliuose** funkciją)
 -  Fiksuoti stulpeliai
 
 ## <a name="calculating-totals"></a>Skaičiuojamos sumos
@@ -93,7 +93,7 @@ Norėdami didinti produktyvumą vartotojai gali įvesti matematines formules tin
 Norėdami, kad sistema atpažintų vertę kaip išraišką, paleiskite reikšmę su lygybės ženklu (**=**). Daugiau informacijos apie palaikomus operatorius ir sintaksę žr. [Palaikomi matematiniai simboliai](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Lentelės duomenų grupavimas
-Verslo vartotojams dažnai reikia atlikti ad hoc duomenų analizę. Nors tai galima atlikti eksportuojant duomenis į „Microsoft Excel“ ir naudojant suvestines lenteles, funkcija **Grupavimas tinkleliuose**, kuri paprastai prieinama 10.0.16 versijoje / 40 platformos naujinyje ir priklauso nuo naujos tinklelio valdiklio funkcijos, vartotojams leidžia išradingai tvarkyti savo lentelių duomenis „Finance and Operations“ programose. Kadangi ši funkcija praplečia funkcijos **Bendrosios sumos** galimybes, **grupuodami** taip pat galite gauti prasmingų įžvalgų į duomenis, pateikę tarpines sumas grupėms.
+Verslo vartotojams dažnai reikia atlikti ad hoc duomenų analizę. Nors tai galima atlikti eksportuojant duomenis į „Microsoft Excel“ ir naudojant suvestines lenteles, funkcija **Grupavimas tinkleliuose**, priklausanti nuo naujos tinklelio valdiklio funkcijos, vartotojams leidžia išradingai tvarkyti savo lentelių duomenis „Finance and Operations“ programose. Kadangi ši funkcija praplečia funkcijos **Bendrosios sumos** galimybes, **grupuodami** taip pat galite gauti prasmingų įžvalgų į duomenis, pateikę tarpines sumas grupėms.
 
 Norėdami naudoti šią funkciją, dešiniuoju pelės klavišu spustelėkite stulpelį, pagal kurį norite grupuoti, ir pasirinkite **Grupuoti pagal šį stulpelį**. Šiuo veiksmu duomenys bus surūšiuoti pagal pasirinktą stulpelį, įtraukta nauja **grupė pagal stulpelį** į tinklelio pradžią ir įterptos „antraštės eilutės“ kiekvienos grupės pradžioje. Šios antraštės eilutės teikia šią informaciją apie kiekvieną grupę: 
 -  Grupės duomenų reikšmė 
@@ -108,9 +108,6 @@ Sugrupuotus duomenis pagal vieną stulpelį, galite grupuoti duomenis pagal stul
 
 Bet kuriuo metu galite pašalinti grupavimą bet kuriame stulpelyje dešiniuoju pelės klavišu spustelėję tą stulpelį ir pasirinkdami **Išgrupuoti**. Taip pat galite pašalinti grupavimą iš visų stulpelių, pasirinkdami **Tinklelio parinktys** ir **Išgrupuoti viską**.   
 
-Atkreipkite dėmesį, kad prieš 10.0.16 versiją / 40 platformos naujinį palaikomas tik vienas grupavimo lygis. Šiose versijose, jei duomenys sugrupuoti ir pasirenkate **Grupuoti pagal šį stulpelį** kitame stulpelyje, pradinė grupė pakeičiama.  
-
-
 ### <a name="expanding-and-collapsing-groups"></a>Grupių išplėtimas ir sutraukimas
 Pradiniame duomenų grupavime bus išplėstos visos grupės. Galite kurti apibendrintus duomenų rodinius sutraukdami atskiras grupes, taip pat galite naudoti grupių išplėtimą ir sutraukimą, kad būtų lengviau naršyti duomenis. Norėdami išplėsti arba sutraukti grupę, atitinkamoje grupės antraštės eilutėje pasirinkite ševrono (>) mygtuką. Atkreipkite dėmesį, kad atskirų grupių išskleidimo / sutraukimo būsena **neįrašoma** personalizavimo parametruose.
 
@@ -118,10 +115,10 @@ Pradiniame duomenų grupavime bus išplėstos visos grupės. Galite kurti apiben
 Lygiai taip pat, kaip galite pažymėti visas tinklelio eilutes (arba panaikinti jų žymėjimą), pažymėdami žymimąjį langelį tinklelio pirmojo stulpelio viršuje, galite greitai pažymėti visas grupės eilutes (arba panaikinti jų žymėjimą) pasirinkdami žymės langelį atitinkamoje grupės antraštės eilutėje. Grupės antraštės eilutėje esantis žymės langelis visada atspindės dabartinę tos grupės eilučių žymėjimo būseną, nepriklausomai nuo to, ar pasirinktos visos eilutės, ar nepasirinkta nei viena eilutė, ar pasirinktos kelios eilutės.
 
 ### <a name="hiding-column-names"></a>Stulpelių pavadinimų slėpimas
-Grupuojant duomenis numatytasis veikimas yra rodyti stulpelio pavadinimą grupės antraštės eilutėje. Pradedant nuo versijos 10.0.14 / 38 platformos naujinimo, galite pasirinkti nerodyti stulpelio pavadinimo grupės antraštės eilutėse pasirinkdami **Tinklelio parinktys** > **Slėpti grupės stulpelio pavadinimą**.
+Grupuojant duomenis numatytasis veikimas yra rodyti stulpelio pavadinimą grupės antraštės eilutėje. Galite pasirinkti nerodyti stulpelio pavadinimo grupės antraštės eilutėse pasirinkdami **Tinklelio parinktys** > **Slėpti grupės stulpelio pavadinimą**.
 
 ## <a name="freezing-columns"></a>Fiksuoti stulpeliai
-Kai kurie tinklelio stulpeliai gali būti labai svarbūs kontekstui, tad nenorite, kad jie praslinktų per rodinį. Vietoj to norite, kad šių stulpelių reikšmė visada būtų matomos. 10.0.17 versija funkcija **Fiksuoti stulpelius tinklelyje** suteikia šį lankstumą vartotojams. 
+Kai kurie tinklelio stulpeliai gali būti labai svarbūs kontekstui, tad nenorite, kad jie praslinktų per rodinį. Vietoj to galbūt norėsite, kad šių stulpelių reikšmės visada būtų matomos. Funkcija **Fiksuoti stulpelius tinklelyje** suteikia šį lankstumą vartotojams. 
 
 Norėdami užfiksuoti stulpelį, dešiniuoju pelės klavišu spustelėkite stulpelio antraštę ir pasirinkite **Fiksuoti stulpelį**. Pirmą kartą užbaigus šį veiksmą, pasirinktas stulpelis tampa pirmu stulpeliu ir daugiau neišslinks iš rodinio. Bet kuris kitas vėliau užblokuotas stulpelis bus pridėtas paskutinio užfiksuoto stulpelio dešinėje pusėje. Galite naudoti standartinę funkciją Perkelti pertvarkyti užfiksuotiems stulpeliams taip, kaip jūs norite. Tačiau užfiksuotų stulpelių negalima perkelti taip, kad jie būtų rodomi tarp nefiksuotų stulpelių rinkinio. Taip pat, nefiksuotų stulpelių negalima perkelti taip, kad jie būtų rodomi tarp fiksuotų stulpelių rinkinio.
 
@@ -132,32 +129,16 @@ Atkreipkite dėmesį, kad eilučių pasirinkimo ir būsenos stulpeliai naujame t
 ## <a name="frequently-asked-questions"></a>Dažnai užduodami klausimai
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Kaip įjungti naują tinklelio valdiklį mano aplinkoje? 
 
-**10.0.9 / Platformos atnaujinimas 33 ir vėlesnis**
+Funkcija **Naujo tinklelio valdymas** yra prieinama tiesiogiai funkcijų valdyme bet kurioje aplinkoje. Įgalinus funkciją Funkcijų valdyme, visi vėlesni vartotojų seansai turės naudoti naują tinklelio valdiklį. 
 
-Funkcija **Naujo tinklelio valdymas** yra prieinama tiesiogiai funkcijų valdyme bet kurioje aplinkoje. Įgalinant šią funkciją, kaip ir visas kitas funkcijas, gamyboje taikoma [Papildomų naudojimo sąlygų sutartis](public-preview-terms.md).  
-
-**10.0.8 / Platformos atnaujinimas 32 ir 10.0.7 / Platformos atnaujinimas 31**
-
-Funkcija **Naujo tinklelio valdymas** gali būti įjungta Tier 1 (Dev/Test) ir Tier 2 (smėlio dėžėje) aplinkose tam, kad būtų pateiktas papildomas testavimas ir suprojektuoti tolesnių žingsnių pakeitimai.
-
-1.  **Įgalinti testuojamą variantą**: vykdykite šį SQL teiginį: 
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLIReactGridEnableFeature', 1, 0, 5637144576);`
-
-2. **Iš naujo nustatykite IIS**, kad išvalytumėte statinę testuojamo varianto talpyklą. 
-
-3.  **Raskite funkciją**: eikite į darbo sritį **Funkcijų valdymas**. Jei funkcija **Naujas tinklelio valdiklis** nerodoma visų funkcijų sąraše, pasirinkite **Tikrinti, ar yra naujinimų**.   
-
-4.  **Įjunkite funkciją**: funkcijų sąraše raskite funkciją **Naujas tinklelio valdiklis** ir išsamios informacijos srityje pasirinkite **Įjungti dabar**. Turėkite omenyje, kad reikia atnaujinti naršyklę. 
-
-Visi vėlesni vartotojo seansai prasidės įjungus naują tinklelio valdiklį.
+Ši funkcija yra įgalinta pagal numatytuosius nustatymus 10.0.21 versijoje ir planuojama, kad ji taps privaloma 10.0.25 versijoje. 
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Kūrėjas] Individualių puslapių pasirinkimas naudojant naują tinklelį 
-Jei jūsų organizacija atranda puslapį, kuris turi tam tikrų problemų naudodama naują tinklelį, API yra prieinama nuo 10.0.13 versijos/ Platformos atnaujinimo 37, tam, kad leistų individualiai formuoti naudojant ankstesnio tinklelio valdymą ir leidžiant jūsų sistemos likusiai daliai naudoti naujo tinklelio valdymą. Individualaus puslapio rodymui iš naujojo tinklelio, į formą įtraukite tolesnius skambinimo viešinimus `super()` naudodami `run()` metodą.
+Jei jūsų organizacija atranda puslapį, kuris turi tam tikrų problemų naudodama naują tinklelį, API yra prieinama tam, kad leistų individualiai formuoti naudojant ankstesnio tinklelio valdymą ir leidžiant jūsų sistemos likusiai daliai naudoti naujo tinklelio valdymą. Individualaus puslapio rodymui iš naujojo tinklelio, į formą įtraukite tolesnius skambinimo viešinimus `super()` naudodami `run()` metodą.
 
  ```this.forceLegacyGrid();```
 
-Ši API bus palaikoma iki 2021 m. spalio išleidimo, kai naujo tinklelio valdymas taps privalomas. Jei sprendžiant tam tikras problemas reikia naudoti šią API, praneškite apie jas „Microsoft”.
+Į API bus atsižvelgiama tol, kol naujasis tinklelio valdiklis taps privalomas, o tai šiuo metu numatoma 2022 m. balandį. Jei sprendžiant tam tikras problemas reikia naudoti šią API, praneškite apie jas „Microsoft”.
 
 ### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Norint pasirinkti puslapį naudoti naują tinklelį, prieš tai pasirinkus tinklelį
 Jei esate pasirinkę atskirą puslapį naudoti naują tinklelį, vėliau, išspręsę susijusias problemas, galite norėti iš naujo įgalinti naują tinklelį. Norėdami tai padaryti, tiesiog reikia pašalinti `forceLegacyGrid()` iškvietimą. Pakeitimas įsigalios tik tada, kai:

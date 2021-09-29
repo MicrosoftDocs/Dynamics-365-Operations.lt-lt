@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: d4503b6939e3d01ae5bcf1d79c1f85d39348fbb6233cfb7a965f84f3a3b0699a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: af7ac416053a90766138f999ce69d9993ee2ff6c
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744803"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500284"
 ---
 # <a name="goods-in-transit-processing"></a>Tranzito prekių apdorojimas
 
@@ -148,8 +148,6 @@ Iškrovimo kaina prideda naują darbo užsakymo tipą, pavadintą *Tranzito prek
 Iškrovimo kaina prideda naują darbo užsakymo tipą, pavadintą *Tranzito prekės* puslapyje **Darbo šablonai**. Šį darbo užsakymo tipą reikėtų konfigūruoti taip pat, kaip ir [pirkimo užsakymo darbo šablonus](/dynamicsax-2012/appuser-itpro/create-a-work-template).
 
 #### <a name="work-header-breaks"></a>Darbo antraštės pertrauktys
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Darbo šablonus, kurių darbo užsakymo tipas yra *Tranzito prekės* galima sukonfigūruoti į suskaidytas darbo antraštes. Puslapyje **Darbo šablonai** atlikite vieną iš toliau nurodytų veiksmų:
 

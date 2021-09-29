@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 6fc4b9d0a0f5319c8a75e7d687ee82ea81497844
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: c4aac62b36cd271e1c5fc3bcbbfdd785963fc368
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471865"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7484077"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10022-november-2021"></a>„Dynamics 365 Supply Chain Management“ peržiūra 10.0.22 (2021 m. lapkritis)
 
@@ -32,9 +32,9 @@ ms.locfileid: "7471865"
 
 Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Priemonės *stulpelyje* pateikiami saitai [į paleidimo](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features) planą, kur matysite oficialias kiekvienos priemonės paleidimo datas. Stulpelyje *Daugiau informacijos* pateikiama išsami informacija ir (arba) nuorodos į susijusius dokumentus. Norėdami nustatyti, kaip įjungti funkciją, žr. stulpelį *Įgalinta pagal*. Daugiau informacijos kaip naudoti funkcijų valdymą žr. [Funkcijos valdymo apžvalga](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) Galime atnaujinti šią temą, kad būtų įtraukti funkcijų ištaisymai, įtraukti į komponavimo versiją publikavus šią temą.
 
-| Funkcijos sritis | Funkcija | Daugiau informacijos | Įjungė   |
+| Funkcijos sritis | Funkcija | Daugiau informacijos | Įjungė |
 |---|---|---|---|
-| Planuojama | [Pajėgumų paskirstymo planavimo optimizavimo palaikymas](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capability-based-resource-allocation) | [Planavimas su neribotu pajėgumu](../master-planning/planning-optimization/infinite-capacity-planning.md) | Funkcijos valdymas (*Neribotas pajėgumo planavimas Planavimo optimizavimui*) |
+| Planuojama | [Pajėgumų paskirstymo planavimo optimizavimo palaikymas](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capability-based-resource-allocation) | [Planavimas su išteklių pasirinkimu pagal pajėgumą](../master-planning/planning-optimization/capability-based-scheduling.md) | Funkcijos valdymas (*Neribotas pajėgumo planavimas Planavimo optimizavimui*) |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Funkcijos patobulinimai, įtraukti į šį leidimą
 

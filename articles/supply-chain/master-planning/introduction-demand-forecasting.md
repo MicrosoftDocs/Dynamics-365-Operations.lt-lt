@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99248a1bc231cfe58270b043827cde00a520f872658217b85dffd810bed391c9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 984669d5e4bde4bd967bf0a181d1b45df16ee569
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736676"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7484054"
 ---
 # <a name="demand-forecasting-overview"></a>Poreikio prognozės apžvalga
 
@@ -34,7 +34,9 @@ Poreikio prognozės naudojamos siekiant klientų užsakymų nepriklausomą porei
 Generuojant pagrindinę prognozę, ankstesnių operacijų suvestinė perduodama „Microsoft Azure“ mašininiam mokymui, kuris yra nuomojamas platformoje „Azure“. Kadangi šios tarnybos vartotojai bendrai nenaudoja, ją galima lengvai pritaikyti, kad ji atitiktų specialius pramonės poreikius. „Supply Chain Management“ galite naudoti norėdami vizualizuoti prognozę, ją koreguoti ir peržiūrėti prognozės tikslumo pagrindinius efektyvumo indikatorius (KPI).
 
 > [!NOTE]
-> „Microsoft Azure” mašininio mokymo studija (klasikinė) yra reikalinga prognozės generavimui naudojant mašininį mokymą. 2021 m. sausio mėn. ji yra prieinama Rytų Japonijoje, Pietų centrinėje JAV, Pietryčių Azijoje, Vakarų centrinėje JAV ir Vakarų Europoje. Norėdami gauti atnaujintą informaciją apie esamą pasiekiamumą, žiūrėkite [„Azure” produktai pagal regioną.](https://azure.microsoft.com/global-infrastructure/services/?regions=all&products=machine-learning-studio)
+> „Microsoft Azure” mašininio mokymo studija (klasikinė) yra reikalinga prognozės generavimui naudojant mašininį mokymą. Nuo 2021 m. gruodžio 1 d. nebegalėsite sukurti naujų „Machine Learning Studio” (klasikinės versijos) išteklių. Tačiau galėsite ir toliau naudotis savo esamais „Machine Learning studio” (klasikinės versijos) ištekliais iki 2024 m. rugpjūčio 31 d. Atnaujintą informaciją rasite [„Azure Machine Learning Studio”](/azure/machine-learning/overview-what-is-machine-learning-studio#ml-studio-classic-vs-azure-machine-learning-studio).
+> 
+> „Dynamics 365 Supply Chain Management” 10.0.23 ir naujesnės versijos palaiko naująjį „Azure Machine Learning Studio”.
 
 ## <a name="key-features-of-demand-forecasting"></a>Pagrindinės poreikio prognozės funkcijos
 

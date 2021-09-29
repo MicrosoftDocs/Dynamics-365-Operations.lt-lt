@@ -2,7 +2,7 @@
 title: Gavimo kvitų formatų nustatymas ir dizainas
 description: Šiame straipsnyje aprašoma, kaip modifikuoti formų maketus, norint kontroliuoti, kaip spausdinami kvitai, SF ir kiti dokumentai. „Dynamics 365 Commerce“ yra formos maketo konstruktoriaus funkcija, kurią naudodami galite lengvai kurti ir modifikuoti įvairių rūšių formų maketus.
 author: rubencdelgado
-ms.date: 06/20/2017
+ms.date: 09/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7f70918e6fd274ac8e3476d6c309eac40744b0dd24a8b79f531d8627bb4a68e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2107670cb5dbac3b8f28c4e3caa357102932291
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715363"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500176"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Gavimo kvitų formatų nustatymas ir dizainas
 
@@ -46,7 +46,12 @@ ms.locfileid: "6715363"
 
 ## <a name="print-images"></a>Spausdinti paveikslėlius
 
-Gaunantis kūrėjas apima **Logotipą** kintamąjį, kuris gali būti naudojamas siekiant nurodyti gavime spausdintinus paveikslėlius. Paveikslėliai, įtraukti į gavimus, naudojantys **Logotipo** kintamąjį turi būti vienos chromosomos bitmap (.bmp) failų tipai. Jei .bmp paveikslėlis yra nurodytas gavimo kūrimo įrankyje, tačiau nėra spausdinamas nusiuntus į spausdintuvą, failo dydis gali būti per didelis ir pikselių dimensijos paveikslėlyje nėra suderinamos su spausdintuvu. Jei taip atsitinka, pabandykite sumažinti paveikslėlio failo rezoliuciją.   
+Kvitų rengyklėje yra **Logotipo** kintamasis. Galite naudoti šį kintamąjį, jei norite nurodyti vaizdą, kuris turėtų būti išspausdintas kvituose. Vaizdai, spausdinami kvituose naudoant **Logotipo** kintamąjį turi būti vienos chromosomos bitmap (.bmp) failų tipai. Jei bitmap vaizdas yra nurodytas kvitų rengyklėj, tačiau jis nėra atspausdinamas, kai kvitas siunčiamas į spausdintuvą, taip gali nutikti dėl vienos iš šių priežasčių:
+
+- Failo dydis yra per didelis arba vaizdo pikselių dimensijos nėra suderinamos su spausdintuvu. Tokiu atveju pabandykite sumažinti vaizdinioo failo skiriamąją gebą arba dimensijas.
+- Kai kurios Objektų susiejimo ir Įtaisytųjų Kasos aparatų (OEKA) spausdintuvų tvarkyklės neįgyvendina **„PrintMemoryBitmap”** metodo, kurį aparatūros stotis naudoja logotipo vaizdams spausdinti. Tokiu atveju pabandykite įtraukti šią vėliavėlę į **„HardwareStation.Extension.config”** failą jūsų paskirtoje arba bendrai naudojamoje aparatūros stotyje:
+
+    `<add name="HardwareStation.UsePrintBitmapMethod" value="true"/>`
 
 ## <a name="design-a-receipt-format"></a>Kvito formato kūrimas
 
@@ -68,7 +73,7 @@ Naudokite formų maketo konstruktorių, kad grafiškai sukurtumėte formos dokum
     - **Lygiuoti** – nustatykite lauko lygiavimą kaip **Kairėje** arba **Dešinėje**.
     - **Užpildo simbolis** – nurodykite tarpų simbolį. Pagal numatytuosius parametrus naudojamas tuščias tarpas, bet galite įvesti kitą simbolį.
     - **Prefiksas** – įveskite reikšmę, kuri rodoma lauko pradžioje. Šis parametras taikomas tik maketo sekcijai **Eilutės**.
-    - **Simboliai** – nurodykite maksimalų simbolių, kuriuos galima įvesti laukei, jei elementas yra kintamasis, skaičių. Jei tekstas lauke yra ilgesnis už nurodytą simbolių skaičių, tekstas sutrumpinamas, kad tilptų lauke.
+    - **Simboliai** – nurodykite maksimalų simbolių, kuriuos galima įvesti laukei, jei elementas yra kintamasis, skaičių. Jei tekstas lauke yra ilgesnis už jūsų nurodytą simbolių skaičių, tekstas sutrumpinamas, kad tilptų lauke.
     - **Kintamasis** – šis žymės langelis pažymimas automatiškai, jei elemente yra kintamasis ir jo negalima tinkinti.
     - **Šrifto tipas** – nustatykite šrifto stilių **Įprastas** arba **Paryškintasis**. Paryškintosios raidės užima dvigubai daugiau vietos nei įprastos raidės. Todėl kai kurie simboliai gali būti sutrumpinti.
     - **Šrifto dydis** – nustatykite šrifto dydį **Įprastas** arba **Didelis**. Didelės raidės yra dvigubai aukštesnės nei įprastos raidės. Todėl, naudojant dideles raides, kvite gali persidengti tekstas.

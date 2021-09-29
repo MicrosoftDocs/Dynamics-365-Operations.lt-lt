@@ -1,8 +1,8 @@
 ---
 title: Mokesčių funkcijų palaikymos operacijų užsakymams
 description: Šioje temoje paaiškinama naujos mokesčių priemonės perkėlimo užsakymų palaikymas naudojant mokesčių skaičiavimo tarnybą.
-author: kailiang
-ms.date: 04/20/2021
+author: Kai-Cloud
+ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
-ms.author: wangchen
+ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1c47c327841b8c712220e440e2aa6b4fe2b31b4a1ccd03dc0a200dbeb7394071
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01bf7c251fe57072f042c9187b9f5b6b6687ab0f
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721694"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500081"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Mokesčių funkcijų palaikymos operacijų užsakymams
 
@@ -53,7 +53,7 @@ Norėdami nustatyti su perkėlimo užsakymu susijusių mokesčių, atlikite šiu
         4. Pasirinkite **Įtraukti** **Reitingavimo** lentelėje.
         5. Swtich **yra** neapmokestinama į **Taip** **bendrajame** skyriuje.
 
-        ![NL neapmokestinimo mokesčio kodas.](../media/tax-feature-support-02.png)
+           ![NL neapmokestinimo mokesčio kodas.](../media/tax-feature-support-02.png)
 
     - Kai perkėlimo užsakymas gaunamas Belgijos sandėlyje, atvirkštinio apmokestinimo mechanizmas taikomas naudojant **„BE-RC-21“ ir** **„BE-RC+21“** mokesčių kodus.
         
@@ -66,7 +66,7 @@ Norėdami nustatyti su perkėlimo užsakymu susijusių mokesčių, atlikite šiu
         6. Swtich **yra atvirkštinis apmokestinimas** į **Taip** **bendrajame** skyriuje.
         7. Pasirinkite **Įrašyti**.
 
-        ![BE-RC-21 mokesčių kodas, skirtas atvirkštinei mokesčių operacijai.](../media/tax-feature-support-03.png)
+           ![BE-RC-21 mokesčių kodas, skirtas atvirkštinei mokesčių operacijai.](../media/tax-feature-support-03.png)
         
         Sukurkite mokesčio kodą **„BE-RC+21“**.
         1. Pasirinkite **Pridėti**, įveskite **„BE-RC-21“** PVM kodo **lauke**.
@@ -76,7 +76,7 @@ Norėdami nustatyti su perkėlimo užsakymu susijusių mokesčių, atlikite šiu
         5. Įveskite **21** į mokesčio tarifo **lauką**.
         6. Pasirinkite **Įrašyti**.
 
-        ![BE-RC+21 mokesčių kodas, skirtas atvirkštinei mokesčių operacijai.](../media/tax-feature-support-04.png)
+           ![BE-RC+21 mokesčių kodas, skirtas atvirkštinei mokesčių operacijai.](../media/tax-feature-support-04.png)
 
 3. Nustatykite mokesčių kodų taikomumą.
 
@@ -97,6 +97,7 @@ Norėdami nustatyti su perkėlimo užsakymu susijusių mokesčių, atlikite šiu
         7. Laukuose Mokesčių grupė ir Prekių mokesčių grupė įveskite susijusią PVM grupę ir prekės PVM **grupę** **apibrėžtą** jūsų finansų sistemoje.
         
         Įtraukite kitą perkėlimo užsakymo gavimo taisyklę.
+        
         1. Pasirinkite **Įtraukti** **Taikomos taisyklės** lentelėje.
         2. Verslo proceso **lauke pasirinkite** **Atsargos, kad taisyklė būtų taikoma perkėlimo** užsakymui.
         3. Lauke **Siuntimo iš šalies/** regiono įveskite **„NLD“**.
@@ -105,7 +106,7 @@ Norėdami nustatyti su perkėlimo užsakymu susijusių mokesčių, atlikite šiu
         6. Mokesčių **kodų** lauke pasirinkite **„BE-RC+21“** ir **„BE-RC-21“**.
         7. Laukuose Mokesčių grupė ir Prekių mokesčių grupė įveskite susijusią PVM grupę ir prekės PVM **grupę** **apibrėžtą** jūsų finansų sistemoje.
 
-        ![Taikymo taisyklės.](../media/image5.png)
+           ![Taikymo taisyklės.](../media/image5.png)
 
 4. Užpildykite ir publikuokite naują mokesčių priemonės versiją.
 
@@ -115,7 +116,7 @@ Norėdami nustatyti su perkėlimo užsakymu susijusių mokesčių, atlikite šiu
 
 Atlikite šiuos žingsnius, kad įjungtumėte ir nustatytumėte mokesčius operacijų užsakymams.
 
-1. „Finance“ eikite į **Darbo sritis** \> **Funkcijų valdymas**.
+1. „Finance“ eikite į **Darbo sritys** > **Funkcijų valdymas**.
 2. Sąraše raskite ir pasirinkite mokestį perkėlimo užsakymo priemonėje, tada, norėdami **jį įjungti** **pasirinkite Įgalinti** dabar.
 
     > [!IMPORTANT]
@@ -128,10 +129,10 @@ Atlikite šiuos žingsnius, kad įjungtumėte ir nustatytumėte mokesčius opera
     > [!IMPORTANT]
     > Turite atlikti šį žingsnį su kiekvienu finansų juridiniu subjektu, kur norite, kad būtų galima naudoti mokesčių paslaugą ir perkėlimo užsakymų mokesčių funkciją.
 
-    1. Eikite **į Mokesčių nustatymo** \> **mokesčių** \> **konfigūracijos** \> **mokesčių tarnybos nustatymą**.
+    1. Eikite į **Mokesčiai** > **Nustatymas** > **Mokesčių konfigūracija** > **Mokesčių tarnybos nustatymas**.
     2. Verslo **proceso lauke** pasirinkite **Atsargos**.
 
-    ![Verslo proceso lauko nustatymas.](../media/image8.png)
+      ![Verslo proceso lauko nustatymas.](../media/image8.png)
 
 4. Patikrinkite, ar nustatytas atvirkštinio apmokestinimo mechanizmas. Eikite į DK nustatymo parametrus, tada skirtuke Atvirkštinis apmokestinimas patikrinkite, **ar** \> **nustatyta** \> **parinktis** **Įgalinti** **atvirkštinį apmokestinimą kaip** **Taip**.
 
@@ -140,10 +141,10 @@ Atlikite šiuos žingsnius, kad įjungtumėte ir nustatytumėte mokesčius opera
 5. Patikrinkite, ar susiję mokesčių kodai, mokesčių grupės, prekių mokesčių grupės ir PVM registracijos numeriai nustatyti finansuose pagal mokesčių tarnybos nurodymus.
 6. Nustatyti tarpinę tarpinę sąskaitą. Šio veiksmo reikia atlikti tik tada, kai perkėlimo užsakymui taikomas mokestis nėra taikomas pvm mokėjimo arba atvirkštinio apmokestinimo mechanizmui.
 
-    1. Eikite į **Mokesčiai** \> **Nustatymas** \> **Pardavimo mokesčiai** \> **DK registravimo grupės**.
+    1. Eikite į **Mokesčiai** > **Nustatymas** > **Pardavimų mokesčiai** \ **Didžiosios knygos registravimo grupės**.
     2. Lauke **Tarpinis tranzitas** pasirinkite DK sąskaitą.
 
-    ![Pasirinkti tarpinę sąskaitą.](../media/image10.png)
+       ![Pasirinkti tarpinę sąskaitą.](../media/image10.png)
 
 ## <a name="set-up-basic-inventory-for-transfer-order-transactions"></a>Nustatyti pagrindines atsargas perkėlimo užsakymo operacijoms
 
@@ -151,7 +152,7 @@ Norėdami nustatyti pagrindines atsargas perkėlimo užsakymo operacijoms įgali
 
 1. Kurkite siuntimo iš ir siuntimo vietas savo sandėliams skirtingose šalyse ar regionuose ir pridėkite kiekvienos teritorijos pagrindinį adresą.
 
-    1. Eikite į **Sandėlio valdymas** \> **Sąranka** \> **Sandėlis** \> **Saitai**.
+    1. Eikite į **Sandėlio valdymas** > **Sąranka** > **Sandėlis** > **Vietos**.
     2. Pasirinkite **Nauja**, jei norite sukurti svetainę, kurią priskirsite sandėliui vėliau.
     3. Visoms kitoms svetainėms, kurias turite sukurti, atlikite 2 veiksmą.
 
@@ -162,11 +163,11 @@ Norėdami nustatyti pagrindines atsargas perkėlimo užsakymo operacijoms įgali
 
 2. Kurti siuntimo iš, tranzito ir siuntimo sandėlius. Apskaičiuojant mokesčius bet kokia sandėlyje tvarkoma adreso informacija perrašys svetainės adresą.
 
-    1. Eikite į **Sandėlio valdymas** \> **Sąranka** \> **Sandėlis** \> **Sandėliai**.
+    1. Eikite į **„Warehouse Management”** > **Nustatymas** > **Sandėlis** > **Sandėliai**.
     2. Pasirinkite **Nauja**, jei norite sukurti svetainę ir priskirkite ją atitinkamam saitui.
     3. Norėdami kiekvienai vietai sukurti sandėlį, pakartokite 2 veiksmą.
 
-    ![Sandėlių nustatymas.](../media/image12.png)
+       ![Sandėlių nustatymas.](../media/image12.png)
 
     > [!NOTE]
     > Perkėlimo užsakymo operacijoms atlikti lauke Tranzito sandėlis turi būti pasirinktas siuntimo iš **sandėlio** sandėlio laukas.
@@ -175,7 +176,7 @@ Norėdami nustatyti pagrindines atsargas perkėlimo užsakymo operacijoms įgali
 
 3. Patvirtinkite, ar atsargų publikavimo konfigūravimas yra nustatytas perlaidos užsakymo operacijoms.
 
-    1. Eikite į **Atsargų valdymas** \> **Sąranka** \> **Registravimas** \> **Registravimas**.
+    1. Eikite į **Atsargų valdymas** > **Sąranka** > **Registravimas** > **Registravimas**.
     2. Skirtuke Atsargos patikrinkite, ar nustatyta DK **sąskaita atsargų** išdavimui ir atsargų **gavimo** **registravimui**.
 
         ![Atsargų išdavimo ir atsargų gavimo registravimo nustatymas.](../media/image14.png)
@@ -187,3 +188,6 @@ Norėdami nustatyti pagrindines atsargas perkėlimo užsakymo operacijoms įgali
     4. Patikrinkite, ar DK sąskaita nustatyta mokėtinų **sumų publikavimui tarp gaunamų sumų**.
 
         ![Tarpinių gaunamų sumų publikavimo nustatymas.](../media/image16.png)
+        
+        
+  [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

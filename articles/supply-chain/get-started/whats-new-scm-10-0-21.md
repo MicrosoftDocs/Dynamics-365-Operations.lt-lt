@@ -1,5 +1,5 @@
 ---
-title: Peržiūros versija Dynamics 365 Supply Chain Management 10.0.21 (2021 m. spalis)
+title: Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.21 versijoje (2021 m. spalio mėn.)
 description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.21 versijos funkcijos.
 author: kamaybac
 ms.date: 08/09/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 42d296cb0402b5e96f23d628f08a28fb35683d5f
-ms.sourcegitcommit: 5a44eb4f555bf5ee0b1293f0ecdc37ee8b53aa24
+ms.openlocfilehash: 3f586a00943e23b458ede1470b353d7c018ba923
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "7391213"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500560"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10021-october-2021"></a>Peržiūros versija Dynamics 365 Supply Chain Management 10.0.21 (2021 m. spalis)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.21 versijoje (2021 m. spalio mėn.)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šioje temoje pristatomos funkcijos, kurios yra naujos arba pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.21 peržiūros versijoje. Šios versijos komponavimo numeris yra 10.0.960 ir jis pasiekiamas tokius būdu:
+Ši tema išvardyja funkcija, kurios yra naujos arba pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.21 versijoje. Šios versijos komponavimo numeris yra 10.0.960 ir jis pasiekiamas tokius būdu:
 
 - **Peržiūrėti leidimą:** 2021 m. rugpjūčio mėn.
 - **Bendras leidimo pasiekiamumas (automatinis naujinimas):** 2021 m. rugsėjo mėn.
@@ -46,13 +45,14 @@ Nepaisant įspėjimo, diegimas bus veikia. Tačiau gali kilti tokių problemų, 
 
 Tolesnėje lentelėje pateiktos funkcijos šiame leidime. Priemonės *stulpelyje* pateikiami saitai [į paleidimo](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features) planą, kur matysite oficialias kiekvienos priemonės paleidimo datas. Stulpelyje *Daugiau informacijos* pateikiama išsami informacija ir (arba) nuorodos į susijusius dokumentus.
 
-Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis. Kai kurios išvardytos funkcijos vis dar yra peržiūros versijos, o kitos funkcijos jau gali būti prieinamos bendrai.
+Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis.
 
 | Funkcijos sritis | Funkcija | Daugiau informacijos |
 |---|---|---|
-| Atsargos&nbsp;ir&nbsp;logistika | [Visuotinė atsargų apskaita yra Dynamics 365 Supply Chain Management papildinys.](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Visuotinės atsargų apskaitos pagrindinis puslapis](../global-inventory-accounting/global-inventory-accounting-home.md) |
+| Atsargos&nbsp;ir&nbsp;logistika | [Visuotinė atsargų apskaita yra Dynamics 365 Supply Chain Management papildinys.](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Visuotinės atsargų apskaitos pagrindinis puslapis](../global-inventory-accounting/global-inventory-accounting-home.md) |
 | Atsargos&nbsp;ir&nbsp;logistika | [Registruoti turimų atsargų koregavimus naudojant kodus, prijungtus prie korespondentinės sąskaitos](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [Atsargų skaičiavimo priežasčių kodai](../warehousing/reason-codes-for-counting-journals.md) |
 | Atsargos&nbsp;ir&nbsp;logistika | [Pardavimo pasiūlyme nurodyta duomenų eksportavimo politika](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | Pasirinkite ar nurodytų duomenų pakeitimai į kitą papildomą eksportavimą nebus įtraukti susiję pardavimo pasiūlymai (ar eilutės). Jei pasirinksite neįvesti šių pasiūlymų ar eilučių, jūsų papildomi eksportavimai bus atlikti daug greičiau.<br><br>Ši funkcija įtraukia parametrą, vadinamą **Praleisti pardavimo pasiūlymą nurodomomis duomenimis** į **Gautinų sumų parametrai** puslapį. |
+| Atsargos&nbsp;ir&nbsp;logistika | Užantspauduotas kainos pasiūlymas <!-- KFM: Add RP link when available --> | [Užantspauduotas kainos pasiūlymas, skirtas RFQ](../procurement/sealed-bidding.md) |
 | Atsargos&nbsp;ir&nbsp;logistika | [Nuskaityti brūkšninius kodus sandėlyje naudojant GS1 formato standartus](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1 brūkšniniai kodai ir QR kodai](../warehousing/gs1-barcodes.md) |
 | Atsargos&nbsp;ir&nbsp;logistika | [Švelniai atsargų matomumo priedo rezervavimas](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [Atsargų matomumo rezervavimai](../inventory/inventory-visibility-reservations.md) |
 | Atsargos&nbsp;ir&nbsp;logistika | [Grąžinimo valdymo atskaitymo ir esamo svorio patobulinimai](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [Atskaitymų valdymas, naudojant atskaitymų darbo sritį](../rebate-management/deduction-workbench.md )<br><br>[Grąžinimų apdorojimas, peržiūra ir registravimas](../rebate-management/process-review-post.md)<br><br>[Grąžinimų valdymo sandoriai](../rebate-management/rebate-management-deals.md) |

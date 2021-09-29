@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2eb2f7c0f35eb05263644248ecf16c5874547de9
-ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.openlocfilehash: 766e807ee9061f52b692cf3436ba393b334e67c4
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/28/2021
-ms.locfileid: "7441170"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488088"
 ---
 # <a name="provision-human-resources"></a>„Human Resources“ parengimas
 
@@ -41,6 +41,8 @@ Prieš pradedant parengti naują gamybos aplinką, turi būti įvykdytos toliau 
 ## <a name="provision-a-human-resources-trial-environment"></a>„Human Resources” bandomosios aplinkos parengimas
 
 Prieš parengdami savo pirmąją smėlio dėžės arba gamybos aplinką, galite norėti parengti [bandomąją „Human Resources” aplinką](https://go.microsoft.com/fwlink/p/?LinkId=2115962), kad patikrintumėte „Human Resources” funkcionalumą. Bandomosiose aplinkose pateikti išgalvoti duomenys, kuriais naudojantis galima saugiai tyrinėti programą. Nors bandomoji aplinka priklauso vartotojui, kuris to pageidavo, kiti vartotojai gali būti pakviesti per sistemos administravimo galimybę, skirtą žmogiškiesiems ištekliams. 
+
+Bandomosios aplinkos suteikia galimybę įvertinti personalo funkcijas asmenims, kurie dar neturi prieigos prie personalo aplinkos. Jei jūs parengiate bandomąją aplinką, o autentifikuotas vartotojas jau turi prieigą prie vienos ar daugiau esamų personalo aplinkų, vartotojas bus nukreiptas į esamą aplinką arba aplinkų sąrašą.
 
 Bandomosios aplinkos nėra skirtos naudoti kaip gamybos aplinkos. Jos apribojamos 60 dienų bandomuoju laikotarpiu. Pasibaigus bandomajam laikotarpiui, aplinka ir visi joje esantys duomenys panaikinami ir jų nebegalima susigrąžinti. Aplinkos negalima konvertuoti į smėlio dėžės arba gamybos aplinką. Pasibaigus dabartinės aplinkos naudojimo terminui, galite užsiregistruoti naujai bandomajai aplinkai.
 
@@ -135,7 +137,12 @@ Svarstydami, kurioje „Power Apps“ aplinkoje diegti „Human Resources“, pa
    
     - **Nepalaikomi geografiniai** grafikai – aplinka turi būti palaikomame geografijos kataloge. Daugiau informacijos rasite skyriuje [Palaikomos geografijos](hr-admin-setup-provision.md#supported-geographies).
 
-6. Nustatę tinkamą naudotiną aplinką, galite tęsti parengimo procesą. 
+6. Dvigubo rašymo galimybes, kurias naudojant galima integruoti personalo duomenis į „Power Apps” aplinką, galima naudoti tik pasirinkus **Įgalinti „Dynamics 365” programas** parinktį aplinkai. Skaitykite [Pagrindinis dvigubo rašymo puslapis](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md), jei norite sužinoti daugiau apie dvigubą rašymą.
+
+    > [!NOTE]
+    > Parinktis **Įgalinti „Dynamics 365” programas** turi būti pažymėta „Power Apps” aplinkos kūrimo metu. Jei ši parinktis nėra pažymėta parengimo metu, negalėsite naudoti dvigubo rašymo duomenų integravimui tarp „Dynamics 365 Human Resources” ir „Power Apps” aplinkos, taip pat įdiegti „Dynamics 365” programų, pavyzdžiui, „Dynamics 365 Sales” ir „Field Service”, aplinkoje. Ši pasirinktis yra negrįžtama. Daugiau informacijos rasite [Keletas svarbių aplinkybių kuriant naują aplinką](//power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) „Power Platform” dokumentacijos svetainėje.
+
+7. Nustatę tinkamą naudotiną aplinką, galite tęsti parengimo procesą. 
 
 ### <a name="supported-geographies"></a>Palaikomi geografiniai grafikai
 

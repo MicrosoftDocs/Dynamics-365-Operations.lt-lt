@@ -1,8 +1,8 @@
 ---
 title: Kompensacijos struktūros kūrimas
-description: Šiame straipsnyje apžvelgiama, kaip kurti pastoviosios kompensacijos planą ir į jį užregistruoti darbuotojus taikant tinkamumo taisykles.
-author: andreabichsel
-ms.date: 02/10/2020
+description: Šioje temoje paaiškinama, kaip sukurti pastoviosios atlyginimo dalies planą ir į jį užregistruoti darbuotojus taikant tinkamumo taisykles.
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,21 +10,21 @@ ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPar
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2649a392b5c8bb2482622eba22b0b2f458058314dce25a8b9032eb2ef518240c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ec30d6259b755bf7c304e8796b32d373027ce7ff
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732374"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483957"
 ---
 # <a name="develop-a-compensation-structure"></a>Kompensacijos struktūros kūrimas
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šiame straipsnyje apžvelgiama, kaip kurti pastoviosios kompensacijos planą ir į jį užregistruoti darbuotojus taikant tinkamumo taisykles. Šiame straipsnyje naudojami USMF demonstraciniai duomenys ir jis skirtas kompensacijų bei išmokų vadovams.
+Šioje temoje aprašoma, kaip sukurti pastoviosios atlyginimo dalies planą ir į jį užregistruoti darbuotojus pagal tinkamumo taisykles. Šioje temoje naudojami USMF demonstraciniai duomenys ir jie taikomi kompensacijų bei išmokų vadovams.
 
 ## <a name="create-a-fixed-compensation-plan"></a>Pastoviosios atlyginimo dalies plano kūrimas
 
@@ -42,7 +42,7 @@ ms.locfileid: "6732374"
 
 7. Lauke **Tipas** pasirinkite, ar pastoviosios kompensacijos planas yra **Intervalo**, **Kategorijos** ar **Veiksmo**.
 
-8. Žymės langelis **Leistina rekomendacija** veikia kaip bet kokių veiksmų, įtrauktų į šį planą apdorojimo įvykyje, numatytoji reikšmė. Leidę rekomendacijas galėsite nepaisyti paskaičiuotos siūlomos sumos apdorodami kompensaciją.
+8. Žymės langelis **Leistina rekomendacija** bus visų veiksmų, įtrauktų į šį planą apdorojimo įvykyje, numatytoji reikšmė. Leidę rekomendacijas galėsite nepaisyti paskaičiuotos siūlomos sumos apdorodami kompensaciją.
 
 9. Laukas **Leistinas nepatekimas į intervalą** leidžia nurodyti, kaip norite elgtis su kompensacijų sumomis, kurios nepatenka į nurodytą pateikto lygio kompensavimo struktūros diapazoną. Lauką **Leistinas nepatekimas į intervalą** nustačius kaip **Joks**, galima naudoti bet kokią kompensacijos sumą. Pasirinkus parinktį **Negriežtas nuokrypis**, vartotojas įspėjamas, jei kompensacijos suma yra mažesnė, nei minimali to lygio atskaitos taško suma, arba didesnė, nei maksimali to lygio suma. Vartotojai gali įspėjimo nepaisyti ir tęsti veiklą. Pasirinkus parinktį **Griežtas nuokrypis**, sugeneruojama klaida, jei darbuotojo kompensacija nustatyta ne tarp minimalių ir maksimalių to lygio atskaitos taškų, ir darbuotojo kompensacija automatiškai pakoreguojama, kad ji patektų į šį intervalą.
 

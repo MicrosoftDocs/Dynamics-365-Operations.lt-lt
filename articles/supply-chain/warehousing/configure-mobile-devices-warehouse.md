@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: acf5e191f1d4b12a59490a5ab8f222c5351886c33eedcb8833921541d1bda7d8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dee8d0962626c42ab76e908072e686cc5c0a61d1
+ms.sourcegitcommit: f332cabe9d5c6ece431fd5aa06759481be53f06a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736580"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506540"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiliųjų įrenginių nustatymas darbui sandėlyje
 
@@ -224,7 +224,7 @@ Be meniu elementų sandėlio darbams kurti nustatymo, galite nustatyti meniu ele
 </tr>
 <tr class="even">
 <td>Sistemos nurodyta</td>
-<td>„Supply Chain Management“ valdo darbo, priskirto darbuotojui, tipą ir tvarką, kuria darbuotojas atlieka darbą. Kai pasirenkate šią pasirinktį, veiksmų srityje galite pasirinkti <strong>Sistemos nurodytas darbas</strong>, kad atidarytumėte puslapį <strong>Sistemos nurodyta rikiavimo tvarka</strong>, kuriame galite nustatyti darbo rūšiavimo kriterijus. Rūšiavimo kriterijai kontroliuoja tvarką, kuria darbuotojas atlieka darbą. Galite pridėti tiek kriterijų, kiek reikia.</td>
+<td>„Supply Chain Management“ valdo darbo, priskirto darbuotojui, tipą ir tvarką, kuria darbuotojas atlieka darbą. Kai pasirenkate šią parinktį, veiksmų srityje galite pasirinkti <strong>Sistemos nurodytas darbas</strong>, kad atidarytumėte puslapį <strong>Sistemos nurodyta rikiavimo tvarka</strong>, kuriame galite nustatyti darbo rūšiavimo kriterijus. Rūšiavimo kriterijai kontroliuoja tvarką, kuria darbuotojas atlieka darbą. Galite pridėti tiek kriterijų, kiek reikia.</td>
 </tr>
 <tr class="odd">
 <td>Vartotojo nurodyta</td>

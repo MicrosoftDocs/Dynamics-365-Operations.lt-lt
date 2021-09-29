@@ -1,8 +1,8 @@
 ---
 title: Atostogų ir neatvykimų tipų konfigūravimas
 description: Darbuotojams skiriamų atostogų tipų nustatymas „Dynamics 365 Human Resources“.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 09/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0ca474fe12867ae767db936ad0b2995c4437bdf0ee94831450fda825b9e075dc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b616d1f2c8b0bc8131045424b01dbfaa82f41f84
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730423"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485812"
 ---
 # <a name="configure-leave-and-absence-types"></a>Atostogų ir neatvykimų tipų konfigūravimas
 
@@ -65,9 +65,9 @@ Atostogų tipai programoje „Dynamics 365 Human Resources“ apibrėžia neatvy
 
 1. Atostogų tipo apvalinimo parinkčių nustatymas. Parinktys yra tokios: **Nėra**, **Į didesnę reikšmę**, **Į mažesnę reikšmę** ir **Į artimiausią reikšmę**. Taip pat galite nustatyti atostogų tipo apvalinimo tikslumą.
 
-2. Atostogų tipo lauko **Šventinių dienų koregavimas** nustatymas. Pasirinkus šią parinktį, „Human Resources“ naudoja šventinių dienų, kurios būna darbo dienomis, skaičių, kad nustatytų, kaip kaupti atostogas šiam atostogų tipui. Pavyzdžiui, jei Kalėdos yra pirmadienį, „Human Resources“ atims vieną dieną iš atostogų tipo, kai apdoros kaupimus.
+2. Atostogų tipo lauko **Šventinių dienų koregavimas** nustatymas. Pasirinkus šią parinktį, bus naudojamas šventinių dienų, kurios būna darbo dienomis, skaičius, kad nustatytų, kaip kaupti atostogas šiam atostogų tipui. Pavyzdžiui, jei Kalėdos yra pirmadienį, „Human Resources“ atims vieną dieną iš atostogų tipo, kai apdoros kaupimus.
 
-   Nustatote šventine dienas darbo laiko kalendoriuje. Daugiau informacijos žr. skyriuje [Darbo laiko kalendoriaus kūrimas](hr-leave-and-absence-working-time-calendar.md)
+   Nustatote šventine dienas darbo laiko kalendoriuje. Daugiau informacijos rasite [Darbo laiko kalendoriaus kūrimas](hr-leave-and-absence-working-time-calendar.md).
    
  3. Nustatykite **Perkeliamų atostogų tipą** atostogų tipui. Pasirinkus šią parinktį, visi perkeliami likučiai bus perkelti į nurodytą atostogų tipą. Perkeliamų atostogų tipas taip pat turi būti nurodytas atostogų plane. 
  
@@ -76,7 +76,7 @@ Atostogų tipai programoje „Dynamics 365 Human Resources“ apibrėžia neatvy
 ## <a name="configure-the-required-attachment-per-leave-type"></a>Konfigūruoti reikalingą priedą atostogų tipui
 
 > [!NOTE]
-> Norėdami naudoti **Reikiamo priedo** lauką, pirmiausia turite įjungti funkciją **(Peržiūra) Konfigūruoti reikiamą atostogų užklausų priedą** Funkcijų valdyme. Daugiau informacijos apie tai, kaip įjungti peržiūros funkcijas, rasite [Funkcijų valdymas](hr-admin-manage-features.md).
+> Norėdami naudoti **Reikiamo priedo** lauką, pirmiausia turite įjungti funkciją **Konfigūruoti reikiamą atostogų užklausų priedą** Funkcijų valdyme. Daugiau informacijos apie tai, kaip įjungti funkcijas, rasite [Funkcijų valdymas](hr-admin-manage-features.md).
 
 1. Puslapio **Atostogos ir neatvykimai** skirtuko **Saitai** dalyje **Nustatymas** pasirinkite **Atostogų ir neatvykimų tipai**.
 
@@ -87,7 +87,7 @@ Darbuotojai turės įkelti priedą, kai pateiks naują atostogų užklausą, kur
 ## <a name="configure-leave-units-hoursdays-per-leave-type"></a>Konfigūruoti atostogų vienetus (valandos/dienos) kiekvienam atostogų tipui
 
 > [!NOTE]
-> Norėdami naudoti atostogų vienetų atostogų tipui funkciją, pirmiausia turite įjungti funkciją **(Peržiūra) Konfigūruoti atostogų vienetus atostogų tipui** Funkcijų valdyme. Daugiau informacijos apie tai, kaip įjungti peržiūros funkcijas, rasite [Funkcijų valdymas](hr-admin-manage-features.md).
+> Norėdami naudoti atostogų vienetų atostogų tipui funkciją, pirmiausia turite įjungti funkciją **Konfigūruoti atostogų vienetus atostogų tipui** Funkcijų valdyme. Daugiau informacijos apie tai, kaip įjungti funkcijas, rasite [Funkcijų valdymas](hr-admin-manage-features.md).
 
 > [!IMPORTANT]
 > Pagal numatytuosius nustatymus, juridinio subjekto atostogų tipai naudoja atostogų vienetus iš atostogų parametrų konfigūravimo juridinio subjekto lygiu.

@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 95f7ceb39d2afef1871f395ed562632865022b39
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 4c178ddf342b13a0ef8fee8b8b958554a9a31069
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345271"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500605"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>Atsargų skaičiavimo priežasčių kodai
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Priežasčių kodai suteikia galimybę analizuoti skaičiavimo procesą rezultatus ir visus to proceso metu įvykusius neatitikimus. Galite nurodyti skaičiavimo priežastį, pvz., sugadintas padėklas arba atsargų koregavimas, pagal atsargų pavyzdžius. Tuo pat metu galite naudoti koregavimo funkciją, kad užregistruotumėte turimų atsargų koregavimų vertę į atitinkamą korespondentinę sąskaitą, paremtą kiekvieno atsargų koregavimo priežastimi.
 
@@ -42,8 +41,6 @@ Prieš nustatant sistemą rekomenduojame nustatyti darbo su priežasčių kodais
 - Ar priežasčių kodai turi rodyti finansinės korespondentinės sąskaitos registravimą?
 
 ## <a name="turn-on-reason-code-features-in-your-system"></a>Savo sistemoje įjunkite priežasties kodo funkcijas
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Jei savo sistemoje nematote visų šioje temoje aprašytų funkcijų, tikriausiai turite įjungti *Registruoti turimų atsargų koregavimus naudojant konfigūruojamus priežasties kodus, prijungtus prie korespondentinės sąskaitos* funkcijas. Administratoriai gali naudoti [funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, kad patikrintų funkcijos būseną ir įjungtų ją, kai reikia. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
 

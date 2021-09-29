@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2fd3d2e4f4c3e53913bd811728b0950c63b38bc5afe6fe5282b4cfb05f414619
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 45c5774ac1f6db5845d6be6bf2f5d8f99063ea07
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744183"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488207"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Pakeitimų valdymo įjungimas esamiems produktams
 
@@ -47,7 +47,9 @@ Todėl, jei turite išskirtąjį produktą, jį galite keisti tik į inžinerijo
 
 *Inžinerijos produktų kategorija* turi būti priskirta kiekvienam inžinerijos produktui. Šį priskyrimą padarysite paleisdami vedlį **Konvertavimas į inžinerinį produktą**. *Kad* būtų galima konvertuoti šiuos produktus, pirmiausia visiems atitinkamiems standartiniams produktams gali būti taikomos inžinerinių produktų kategorijos.
 
-Inžinerijos produktų kategorija yra inžinerijos produkto kūrimo pagrindas, kuris apibrėžia numatytųjų verčių ir strategijų rinkinį. Inžinerinio produkto kategorija turi sutapti su produktu, kuriam jį galite priskirti. Pavyzdžiui, produkto tipas ir dimensijų grupė turi atitikti ir produktą, ir gamybos produktų kategoriją. Dėl daugiau informacijos apie inžinerijos duomenis, žr. [Inžinerijos versijos ir inžinerijos produkto kategorijos](engineering-versions-product-category.md).
+Inžinerijos produktų kategorija yra inžinerijos produkto kūrimo pagrindas, kuris apibrėžia numatytųjų verčių ir strategijų rinkinį. Inžinerijos atributai ir jų numatytosios reikšmės (apibrėžtos inžinerijos kategorijai) taip pat yra taikomos gaunamam inžinerijos produktui. Galite redaguoti atributo reikšmes ir (arba) įtraukti daugiau inžinerijos atributų į gaunamą produktą pagal poreikį.
+
+Inžinerinio produkto kategorija turi sutapti su produktu, kuriam jį galite priskirti. Pavyzdžiui, produkto tipas ir dimensijų grupė turi atitikti ir produktą, ir gamybos produktų kategoriją. Dėl daugiau informacijos apie inžinerijos duomenis, žr. [Inžinerijos versijos ir inžinerijos produkto kategorijos](engineering-versions-product-category.md).
 
 > [!IMPORTANT]
 > Vedlys **Konvertuoti į inžinerijos produktą** produktą gali konvertuoti tik į tokius inžinerijos produktus, kurių versija nėra sekama operacijose. Todėl parinktį **Operacijų sekimo versija** reikia nustatyti kaip *Ne* inžinerijos produktų kategorijoms, kurias kuriate esamiems produktams konvertuoti.

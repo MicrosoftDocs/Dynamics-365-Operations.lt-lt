@@ -2,7 +2,7 @@
 title: Pašalintos arba nebenaudojamos platformos funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti iš „Finance and Operations“ programų platformos naujinių.
 author: sericks007
-ms.date: 08/27/2021
+ms.date: 09/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 68114989ab96d175b534a31a7115420ee4adbcfb
-ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
+ms.openlocfilehash: 8910fc338f822e6b6b59acb0e6ee7a90db2b5007
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463633"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500114"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Pašalintos arba nebenaudojamos platformos funkcijos
 
@@ -38,7 +38,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nerekomendavimo / pašalinimo priežastis** | Mes atšaukiame kai kurias SQL ataskaitas LCS. Ataskaitų stebėti nebereikės, nes šią funkciją pakeitė kitos paslaugos. |
+| **Nerekomendavimo / pašalinimo priežastis** |   Visas veiklas ir stebėjimą atliks platforma per automatizavimą. Tam nereikės jokių neautomatinių veiksmų.|
 | **Pakeitė kita funkcija?**   | nr. |
 | **Paveiktos produkto sritys**         | SQL ataskaitos: dabartinis DTU, dabartinio DTU informacija, Gauti užrakto informaciją, dabartinio plano sąrašo vadovas, Gauti užklausos ID sąrašą, Gauti duoto plano ID SQL užklausos planą, Gauti užklausų planus ir vykdymo būseną, Gauti throttle config, Gauti laukimo statistiką, išvardyti tinkamiausias užklausas |
 | **Visuotinio diegimo parinktis**              | Debesies diegimas: Paveikia „Microsoft” valdomas gamybos ir 2‑5 pakopų smėlio dėžės aplinkas. |
@@ -181,7 +181,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | **Pakeitė kita funkcija?**   | [Naujas tinklelio valdymas](../..//fin-ops/get-started/grid-capabilities.md) |
 | **Paveiktos produkto sritys**         | Žiniatinklio klientas |
 | **Visuotinio diegimo parinktis**              | Visi / Viskas |
-| **Būsena**                         | 10.0.13 versijoje naujas tinklelio valdymas yra bendrai prieinamas ir klientai gali pasirinktinai įjungti šią funkciją. Naujas tinklelio valdymas taps privalomas 2021 m. spalio mėn. leidime. Kai naujas tinklelio valdymas tamp privalomas, **forceLegacyGrid()** API nebebus apdovanota. |
+| **Būsena**                         | 10.0.13 versijoje naujas tinklelio valdymas yra bendrai prieinamas ir klientai gali pasirinktinai įjungti šią funkciją. Naujasis tinklelio valdiklis taps numatytuoju 2021 m. spalio leidime ir šiuo metu numatoma, kad jis bus privalomas 2022 m. balandį. Kai naujas tinklelio valdymas tamp privalomas, **forceLegacyGrid()** API nebebus apdovanota. |
 
 ### <a name="personalization-without-saved-views"></a>Personalizavimas be įrašytų peržiūrų 
 

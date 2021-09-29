@@ -2,7 +2,7 @@
 title: ER DATETIMEFORMAT funkcija
 description: Šioje temoje pateikiama informacija apie tai, kaip naudojama modulio Elektroninės ataskaitos (ER) DATETIMEFORMAT funkcija.
 author: NickSelin
-ms.date: 01/04/2021
+ms.date: 09/08/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e141c445a81f3b436d540265533836b8c775deadbf2a85e47127bb28674a3ea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1add2ccb348a9b518e0121be1184fbf6a684a0df
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767173"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485551"
 ---
 # <a name="datetimeformat-er-function"></a>ER DATETIMEFORMAT funkcija
 
 [!include [banner](../includes/banner.md)]
 
-`DATETIMEFORMAT` funkcija pateikia tipo *Eilutė* reikšmę, kurioje pateikiama nurodyta datos / laiko reikšmė kaip tekstas nurodytu formatu ir, jei tai pasirenkama, nurodytoje [kultūroje](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes). Daugiau informacijos apie palaikomus formatus rasite temose [standartinis](/dotnet/standard/base-types/standard-date-and-time-format-strings) ir [pasirinktinis](/dotnet/standard/base-types/custom-date-and-time-format-strings).
+Funkcija `DATETIMEFORMAT` grąžina *[Eilutės](er-formula-supported-data-types-primitive.md#string)* reikšmę, kurioje pateikiama nurodyta datos / laiko reikšmė kaip tekstas nurodytu formatu ir, jei tai pasirenkama, nurodytoje [kultūroje](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes). Daugiau informacijos apie palaikomus formatus rasite temose [standartinis](/dotnet/standard/base-types/standard-date-and-time-format-strings) ir [pasirinktinis](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="syntax-1"></a>1-oji sintaksė
 
@@ -41,20 +41,20 @@ DATETIMEFORMAT (datetime, format, culture)
 
 ## <a name="arguments"></a>Argumentai
 
-`datetime`: *DateTime*
+`datetime`: *[DataLaikas](er-formula-supported-data-types-primitive.md#datetime)*
 
 Datos / laiko reikšmė, nurodanti formatuotinus datą ir laiką.
 
 `format`: *Eilutė*
 
-Išvesties eilutės formatas.
+Išvesties eilutės formatas. Daugiau informacijos apie palaikomus formatus rasite temose [standartinis](/dotnet/standard/base-types/standard-date-and-time-format-strings) ir [pasirinktinis](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 > [!NOTE]
 > Formato eilutė skiria didžiąsias ir mažąsias raides, kai naudojate tiek standartinį formatą, tiek pasirinktinį formatą. Pavyzdžiui, [standartinis](/dotnet/standard/base-types/standard-date-and-time-format-strings) „d” formato specifikatorius pateikia datą naudodamas trumpąjį datos formatas, o standartinis „D” formato specifikatorius pateikia datą naudodamas ilgąjį datos formatą. Taip pat, [pasirinktinis](/dotnet/standard/base-types/custom-date-and-time-format-strings) „M” formato specifikatorius pateikia mėnesį nuo 1 iki 12, o pasirinktinis „m” formato specifikatorius pateikia minučių skaičių nuo 0 iki 59.
 
 `culture`: *Eilutė*
 
-Formatuojant naudotina kultūra.
+Formatuojant naudotina kultūra. Daugiau informacijos apie palaikomas kultūras rasite [kultūra](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes).
 
 ## <a name="return-values"></a>Grįžties vertės
 

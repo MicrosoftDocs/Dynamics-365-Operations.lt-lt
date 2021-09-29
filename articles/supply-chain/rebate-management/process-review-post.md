@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 1a9603df8fd3b2c81c37ca95fd1b13d0b6f4004a38b0cf86846486e3b5d41bfa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: db3c7561a7249930def2e519f3b6718c429fa3ba
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729415"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500480"
 ---
 # <a name="process-review-and-post-rebates"></a>Grąžinimų apdorojimas, peržiūra ir registravimas
 
@@ -43,8 +43,6 @@ Reikia vykdyti periodinę užduotį **Skaičiuoti FIFO pirkimo kainą** tam, kad
 Eikite į **Grąžinimo valdymas \> Periodinės užduotys \> Skaičiuoti FIFO pirkimo kainą**. Pasirodžiusiame dialogo lange pasirinkite **Gerai** skaičiavimui vykdyti.
 
 ## <a name="create-source-transactions"></a>Šaltinio operacijų kūrimas
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Galite sukurti pardavimo arba pirkimo užsakymus, kurie turi šaltinio operacijas prieš arba po to, kai sukuriate taikomą Grąžinimo valdymo sandorį.
 
@@ -158,8 +156,6 @@ Užuot apdoroję tam tikrus sandorius ar sandorio eilutes, galite vykdyti paketi
 
 ### <a name="process-deals-by-using-the-rebate-workbench"></a>Apdorokite sandorius naudojant grąžinimo šabloną
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Užuot apdoroję tam tikrus sandorius ar sandorio eilutes, galite naudoti *grąžinimo šabloną*, kad galėtumėte apdoroti keletą sandorių tuo pačiu metu. Galite pasirinktinai taikyti įrašų filtrus ir (arba) nustatyti pasikartojantį grafiką. Jums nereikia pasirinkti jokių eilučių. Sistema apdoros visas eilutes, kurios atitinka jūsų nustatytą datą ir filtravimo reikalavimus.
 
 Norėdami apdoroti sandorius naudojant grąžinimo šabloną, atlikite šiuos veiksmus.
@@ -213,8 +209,6 @@ Norėdami peržiūrėti ir redaguoti Grąžinimo valdymo operacijas naudojant gr
 > Jei naudojate paraiškų procesą, kai apdorosite kitą laikotarpį, operacijų sąraše bus visos nepareikalautos operacijos iš ankstesnio registravimo bei naujos pasirinkto laikotarpio operacijos.
 
 ### <a name="view-and-edit-rebate-management-transactions-by-using-the-rebate-workbench"></a>Peržiūrėkite ir redaguokite Grąžinimo valdymo operacijas naudojant grąžinimo šabloną
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Norėdami peržiūrėti ir redaguoti Grąžinimo valdymo operacijas naudojant grąžinimo šabloną, atlikite šiuos veiksmus.
 
@@ -295,8 +289,6 @@ Užuot registravę tam tikrų sandorių ar sandorio eilučių operacijas, galite
 
 ### <a name="post-transactions-by-using-the-rebate-workbench"></a>Registruokite operacijas naudojant grąžinimo šabloną
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Apdorojus atsargų, grąžinimo ar nurašymo operacijas, atlikite šiuos veiksmus, kad naudojantis grąžinimo šablonu galėtumėte peržiūrėti ir užregistruoti vienos ar daugiau konkrečių visų sandorių operacijų eilučių sugeneruotas operacijas.
 
 1. Eikite į **Grąžinimų valdymas \> Grąžinimų valdymo sandoriai \> Grąžinimo šaltinis**.
@@ -332,8 +324,6 @@ Norėdami peržiūrėti žurnalo įrašus, susietus su grąžinimų valdymo sand
 
 ### <a name="review-journals-by-using-the-rebate-workbench"></a>Peržiūrėkite žurnalus naudojant grąžinimo šabloną
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Norėdami peržiūrėti žurnalus naudojant grąžinimo šabloną, atlikite šiuos veiksmus.
 
 1. Eikite į **Grąžinimų valdymas \> Grąžinimų valdymo sandoriai \> Grąžinimo šaltinis**.
@@ -342,8 +332,6 @@ Norėdami peržiūrėti žurnalus naudojant grąžinimo šabloną, atlikite šiu
 1. Pasirodo atitinkamų žurnalų, dokumentų ar prekių sąrašas. Norėdami peržiūrėti daugiau informacijos apie bet kurį žurnalą, dokumentą ar prekę, pasirinkite jo eilutę ir tada veiksmų srityje pasirinkite **Peržiūrėti informaciją**.
 
 ## <a name="rebate-management-transactions-on-the-deduction-workbench"></a>Grąžinimo valdymo operacijos atskaitymo šablone
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Kai registruojate Grąžinimo valdymo operaciją, kuri turi vieną iš šių **Mokėjimo tipo** verčių, sistema sukuria kliento atskaitymų žurnalą arba laisvos formos sąskaitą-faktūrą susijusiai kliento paskyrai:
 
@@ -358,8 +346,6 @@ Norėdami gauti daugiau informacijos, žr. [Tvarkyti atskaitymus naudojant atska
 
 ## <a name="purge-unposted-transactions"></a>Pašalinti neužregistruotas operacijas
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Apdorojus atsargų, grąžinimo arba nurašymo operacijas, norėdami pašalinti pasirinktas neužregistruotas operacijas, atlikite šiuos veiksmus.
 
 1. Eikite į **Grąžinimų valdymas \> Grąžinimų valdymo sandoriai \> Grąžinimo šaltinis**.
@@ -368,8 +354,6 @@ Apdorojus atsargų, grąžinimo arba nurašymo operacijas, norėdami pašalinti 
 4. Norėdami panaikinti neregistruotas operacijas, pasirinkite **OK**.
 
 ## <a name="cancel-a-posted-provision"></a>Užregistruotų atsargų atšaukimas
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Apdorojus ir užregistravus atidėjimą, atlikite šiuos veiksmus, norėdami atšaukti užregistruotas atsargų operacijas.
 

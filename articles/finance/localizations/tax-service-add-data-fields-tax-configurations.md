@@ -1,8 +1,8 @@
 ---
 title: Įtraukti duomenų laukus į mokesčių konfigūracijas
 description: Šioje temoje paaiškinama, kaip pritaikyti mokesčių konfigūracijas, pridedant duomenų laukus.
-author: kailiang
-ms.date: 04/20/2021
+author: Kai-Cloud
+ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
-ms.author: wangchen
+ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 56b2eae37738ff6a12226671c386e2dd63c380bd4dca1554ef2d1cad0b75faaa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fb10fb5feb317dca5253eea6e5694a3960a58a7d
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725946"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500151"
 ---
 # <a name="add-data-fields-in-tax-configurations"></a>Įtraukti duomenų laukus į mokesčių konfigūracijas
 
@@ -30,9 +30,9 @@ ms.locfileid: "6725946"
 
 ## <a name="customize-the-tax-data-model"></a>Mokesčių duomenų modelio tinkinimas
 
-1. „Microsoft Dynamics 365 Finance“, eikite į **Elektroninės ataskaitos** \> **Mokesčių konfigūravimas**.
+1. Platformoje „Microsoft Dynamics 365 Finance” eikite į **Elektroninės ataskaitos** > **Mokesčių konfigūravimas**.
 2. Konfigūracijos medyje pasirinkite **Mokesčių duomenų modelis** - Europa. Tada, veiksmų srityje pasirinkite **Kurti konfigūraciją**.
-3. Išplečiamajame dialogo lange pasirinkite apmokestinamo dokumento modelį, išvestą iš pavadinimo: mokesčio duomenų modelis **– Europa, „Microsoft", įveskite naujo mokesčių duomenų modelio pavadinimą, tada pasirinkite** Kurti **konfigūraciją**.
+3. Išplečiamajame dialogo lange pasirinkite **Apmokestinamo dokumento modelį, išvestą iš Pavadinimo: Mokesčio duomenų modelis -- Europa, „Microsoft”**, įveskite naujo mokesčių duomenų modelio pavadinimą, o tada pasirinkite **Kurti konfigūraciją**.
 4. Pasirinkite ką tik sukurtą mokesčių duomenų modelį, tada veiksmų srityje pasirinkite **Konstruktorius**.
 5. Išplėskite duomenų modelio medį, **pasirinkite** Eilutės, tada pasirinkite **Naujas**.
 6. Dialogo lange **Kurti mazgą** įveskite pavadinimą, nurodykite prekės tipą, tada pasirinkite **Įtraukti**.
@@ -42,20 +42,23 @@ ms.locfileid: "6725946"
 
 ## <a name="customize-the-tax-configuration"></a>Tinkinti mokesčių konfigūravimą
 
-1. „Finance“, eikite į **Elektroninės ataskaitos** \> **Mokesčių konfigūravimas**.
+1. „Finance“, eikite į **Elektroninės ataskaitos** > **Mokesčių konfigūravimas**.
 2. Konfigūracijos medyje pasirinkite **Mokesčių konfigūravimas** - Europa. Tada, veiksmų srityje pasirinkite **Kurti konfigūraciją**.
-3. Išplečiamajame dialogo lange pasirinkite Mokesčių paslaugų konfigūravimą, išvestą iš pavadinimo: mokesčių konfigūravimas **– Europa, „Microsoft", įveskite naujo mokesčių konfigiūravimo pavadinimą, tada pasirinkite** Kurti **konfigūraciją**.
+3. Išplečiamajame dialogo lange pasirinkite **Mokesčių aptarnavimo konfigūraciją, išvestą iš Pavadinimo: Mokesčio duomenų modelis -- Europa, „Microsoft”**, įveskite naujos mokesčių konfigūracijos pavadinimą, o tada pasirinkite **Kurti konfigūraciją**.
 4. Pasirinkite ką tik sukurtą mokesčių konfigūravimą, tada veiksmų srityje pasirinkite **Konstruktorius**.
 5. Skyriaus **Ypatybės** lauke **Duomenų modelis** pasirinkite pritaikytą mokesčių duomenų modelį, kurį sukūrėte anksčiau.
 6. Lauke **Duomenų modelio** versija pasirinkite užbaigtą mokesčių duomenų modelio versiją.
 7. Pasirinkite **Pridėti** ir pridėkite reikiamus mokesčių priemones.
 8. Veiksmų juostoje pasirinkite **Įrašyti** ir tada pasirinkite **Užbaigta**.
-9. Uždaryti puslapį ir peržiūrėti jūsų mokesčių konfigūravimo užbaigtą versiją.
+9. Uždarykite puslapį ir peržiūrėkite jūsų mokesčių konfigūravimo užbaigtą versiją.
 
 ## <a name="implement-tax-features-in-the-customized-tax-configuration"></a>Įdiegti mokesčių priemones pritaikytame mokesčių konfigūracijoje
 
-1. „Regulatory Configuration Service“ (RCS), eikite į **Globalizavimo funkcijos** \> **Mokesčiai**.
+1. „Regulatory Configuration Service“ (RCS), eikite į **Globalizavimo funkcijos** > **Mokesčiai**.
 2. Pasirinkite **Įtraukti**, įveskite informaciją apie naują priemonę, tada pasirinkite **Sukurti** funkciją.
 3. Skirtuke **Versijos** pasirinkite priemonę, o tada – **Redaguoti**.
 4. Konfigūracijos **versijos** lauko skirtuke **Bendra pasirinkite** pritaikytą mokesčių konfigūraciją ir versiją.
 5. Dialogo lange Stulpelių valdymas pasirinkite antraštę ir eilutės stulpelius, kuriuos norite įtraukti į pritaikytą mokesčių matą, tada pasirinkite rodyklės dešinėn mygtuką, norėdami juos įtraukti į **stulpelių** sąrašą **Pasirinkti**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

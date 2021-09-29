@@ -12,22 +12,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 96e2cf45296d937db9b136f1472374ae7254e10e
-ms.sourcegitcommit: 3d7905627ce5260ce1e6a6d5c9fdfc4c92c3163d
+ms.openlocfilehash: 12707774c780a0f805deed532af27c3705ea1f55
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7415326"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500603"
 ---
 # <a name="product-readiness"></a>Produkto parengtis
 
 [!include [banner](../includes/banner.md)]
 
-Galite naudoti parengtumo patikras siekiant užtikrinti, kad visi būtini pagrindiniai duomenys būtų nurodyti produktui prieš jo naudojimą perlaidose. Kai parengtumo patikros naudojamos, vartotojas ar komanda yra atsakinga už konkrečių iš anksto nustatytų produkto duomenų patvirtinimą. Jei yra atvira parengtumo patikra produktui, jis negali būti išleistas ar naudojamas perlaidose.
+Galite naudoti parengtumo patikras, kad jos padėtų užtikrinti, kad visi būtini pagrindiniai duomenys būtų nurodyti produktui prieš jo naudojimą perlaidose. Kai parengtumo patikros naudojamos, vartotojas ar komanda yra atsakinga už konkrečių iš anksto nustatytų produkto duomenų patvirtinimą.
 
-Žymimas laukelis **Įjungtas** inžinerijos produktui, variantui ar versijai prieinamas tik po to, kai visi būtini duomenys įvesti ir patvirtinti ir kai visos parengtumo patikros yra sutvarkytos. Tuo metu, produktas, versija ar variantas gali būti išleistas į kitas bendroves ir naudojamas perlaidose. Galite sukurti parengtumo patikras naujam produktui, variantui ar inžinerijos versijai.
+Galite pažymėti **Aktyvus** žymės laukelį inžinerijos produktui, variantui ar versijai tik po to, kai visi būtini duomenys įvesti ir patvirtinti ir kai visos parengtumo patikros yra sutvarkytos. Jei viena ar daugiau produkto, versijos ar varianto patikrų nebuvo apdorotos, tada, kai bandysite pažymėti žymės langelį **Aktyvus**, gausite raginimo perspėjimą, kad ne visos patikros buvo užbaigtos.
 
-Taip pat galite taikyti pasirengimo patikrinimus standartiniams (neinžineriniams) produktams. Daugiau informacijos rasite skyriuje [Standartinių produktų pasirengimo patikrinimai](#standard-products), pateiktame toliau šioje temoje.
+Galite sukurti parengtumo patikras naujiems inžineriniams produktams, variantams ar versijoms. Taip pat galite taikyti parengtumo patikras standartiniams (ne inžinerijos) produktams (taip pat skaitykite [Standartinių produktų parengtumo patikros](#standard-products)). 
+
+Operacijose galite naudoti standartinius produktus, nors ne visos parengtumo patikros buvo atliktos. Jei reikia užblokuoti produkto naudojimo operacijose, naudokite jo ciklo būseną. Galite priskirti ciklo būseną, kuri neleidžia naudoti produkto operacijose, o tada, baigę visas parengtumo patikras, priskirkite naują ciklo būseną, kuri leidžia atlikti reikalingas operacijas.
 
 ## <a name="types-of-readiness-checks"></a>Parengtumo patikrų tipai
 

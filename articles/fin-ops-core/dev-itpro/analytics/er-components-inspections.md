@@ -2,7 +2,7 @@
 title: Sukonfigūruoto ER komponento patikrinimas, kad nekiltų vykdymo problemų
 description: Šioje temoje paaiškinama, kaip patikrinti sukonfigūruotus elektroninių ataskaitų (ER) komponentus siekiant išvengti galinčių kilti vykdymo problemų.
 author: NickSelin
-ms.date: 03/04/2021
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd4f2b00dd7634a44b75c76753f5d864b039391f4fcb29e750fb17e8a03e9b77
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a855619ebd1c41dc3ca583912f758ed8a8f9ceef
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718628"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488119"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Sukonfigūruoto ER komponento patikrinimas, kad nekiltų vykdymo problemų
 
@@ -229,6 +229,12 @@ Toliau pateikiamoje lentelėje apžvelgiami ER suteikiami patikrinimai. Norėdam
 <p>Antraštės / poraštės (&lt;komponento tipas: antraštė arba poraštė&gt;) yra nesuderinamos</p>
 <p><b>Vykdyklė:</b> paskutinis sukonfigūruotas komponentas naudojamas vykdyklėje, jei vykdoma sukonfigūruoto ER formato juodraščio versija.</p>
 </td>
+</tr>
+<tr>
+<td><a href='#i17'>Nenuoseklus puslapio komponento nustatymas</a></td>
+<td>Duomenų vientisumas</td>
+<td>Klaida</td>
+<td>Yra daugiau nei du diapazono komponentai be dublikatų. Prašome pašalinti nereikalingus komponentus.</td>
 </tr>
 </tbody>
 </table>
@@ -866,6 +872,26 @@ Modifikuokite sukonfigūruotą formatą, ištrindami vieną iš nenuoseklių kom
 #### <a name="option-2"></a>2 pasirinktis
 
 Modifikuokite savybės **Antraštės / poraštės išvaizda** vertę vienai iš nenuoseklių komponentų **„Excel“\\antraštė** arba **„Excel“\\poraštė**.
+
+## <a name="inconsistent-setting-of-page-component"></a><a id="i17"></a>Nenuoseklus puslapio komponento nustatymas
+
+Kai [konfigūruojate](er-fillable-excel.md) ER formato komponentą, kad naudotumėte „Excel” šabloną siunčiamo dokumento generavimui, galite įtraukti **„Excel”\\Puslapis** komponentą, kad sugeneruotą dokumentą paskirstytumėte puslapiuose naudodami ER formules. Kiekvienam jūsų pridedamam **„Excel”\\Puslapio** komponentui, galite įtraukti daug įtaisytųjų [Diapazono](er-fillable-excel.md#range-component) komponentų ir išlaikyti atitiktį su toliau nurodyta [struktūra](er-fillable-excel.md#page-component-structure):
+
+- Pirmasis įdėtasis **Diapazono** komponentas gali būti konfigūruojamas taip, kad **Replikavimo krypties** ypatybė būtų nustatyta kaip **Nėra replikavimo**. Šis diapazonas naudojamas sugeneruotų dokumentų puslapių antraštėms kurti.
+- Galite įtraukti daug kitų įdėtųjų **Diapazono** komponentų, **Replikavimo krypties** ypatybė nustatyta į **Vertikali**. Šie diapazonai yra naudojami sugeneruotiems dokumentams užpildyti.
+- Paskutinis įdėtasis **Diapazono** komponentas gali būti konfigūruojamas taip, kad **Replikavimo krypties** ypatybė būtų nustatyta kaip **Nėra replikavimo**. Šis diapazonas naudojamas kurti sugeneruotų dokumentų poraštes ir įtraukti reikiamus puslapio lūžius.
+
+Jei kūrimo metu ER formato rengyklėje nesivadovaujate šia ER formato struktūra, įvyksta tikrinimo klaida ir gaunate tokį klaidos pranešimą: „Daugiau nei du diapazono komponentai neturi replikavimo. Prašome pašalinti nereikalingus komponentus.”
+
+### <a name="automatic-resolution"></a>Automatinis sprendimas
+
+Nėra parinkties šiai problemai išspręsti automatiškai.
+
+### <a name="manual-resolution"></a>Neautomatinis sprendimas
+
+#### <a name="option-1"></a>1 pasirinktis
+
+Modifikuokite sukonfigūruotą formatą pakeisdami **Replikavimo kryties** ypatybę visiems nenuosekliems **„Excel”\\Diapazono** komponentams.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

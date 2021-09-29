@@ -2,7 +2,7 @@
 title: Parengta mokėti
 description: Šioje temoje parodyta, kaip pažymėti darbuotoją kaip paruoštą mokėti „Dynamics 365 Human Resources” programoje.
 author: marcelbf
-ms.date: 07/13/2020
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 70b3f31db459fe021caf08fe09b2e44a597294d1992ee16a69efd8745941a4bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 80bba5446eb7a87d96a7da4ae856cb5ca114ce52
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732422"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483787"
 ---
 # <a name="ready-to-pay"></a>Parengta mokėti
 
@@ -39,7 +39,7 @@ Darbuotojų informacijos rinkimas ir tikrinimas gali užimti daug laiko ir sukel
 
 Norėdami pažymėti darbuotoją kaip pasirengusį mokėti:
 
-1. Atidarykite **Kompensacijų valdymas**. Darbo srityje yra dvi plytelės 
+1. Atidarykite **Kompensacijų valdymas**. Darbo srityje yra dvi plytelės: 
     - **Darbuotojai pasirengę mokėti**
     - **Darbuotojai nepasirengę mokėti**
     ![Kompensacijų valdymo darbo sritis.](./media/hr-ready-to-pay-1-workspace.png)
@@ -53,22 +53,20 @@ Norėdami pažymėti darbuotoją kaip pasirengusį mokėti:
 
 ## <a name="validation"></a>Patikrinimas
 
-Prieš pažymėdama darbuotoją kaip paruoštą mokėti, sistema atliks pagrindinį profilio užbaigimo patikrinimą.
+Prieš pažymint darbuotoją kaip paruoštą mokėti, bus patikrintas darbuotojo profilio užbaigtumas.
 
 ![Patikrinkite rezultatus.](./media/hr-ready-to-pay-3-results.png)
 
-Šioje lentelėje pateikiama informacija apie kiekvieną atliekamą patikrinimą. 
-
 | Patikrinimas | Informacija |
 | --- | --- |
-| Adreso paskirties parametras | Patikrina, ar parametras **Naudoti algalapio adresų paskirtį** yra įjungtas. |
-| Algalapio adresas | Patikrina, ar darbuotojo profilyje yra bent vienas adresas su paskirtimi „Algalapio gyvenamoji vieta” arba „Algalapio darbo vieta” ir tai, ar vienai paskirčiai yra tik vienas adresas. |
-| Įdarbinimas | Patikrinkite, ar darbuotojas turi bent vieną įdarbinimą (dabartinį, ankstesnį ar būsimą). |
-| Identifikavimo numeris | Patikrina, ar parametras „Naudoti identifikavimo tipus algalapio apdorojime” yra „taip” ir tai, ar parametre nurodytas identifikavimo tipas yra užpildytas darbuotojo profilyje. |
-| Vardas ir pavardė | Patikrina, ar darbuotojo profilis yra tinkamas, tikrina, ar **Vardo** ir **Pavardės** laukai yra užpildyti.|
-| Pozicija | Patikrinkite, ar darbuotojui yra priskirtos pareigos. |
-| Gimimo data | Patikrina, ar darbuotojo profilis yra tinkamas, tikrina, ar **Gimtadienio** laukas yra užpildytas. |
-| Kompensacija | Patikrinkite, ar darbuotojas yra įtrauktas į pastoviosios atlyginimo dalies planą. |
+| **Adreso paskirties parametras** | Patvirtina, kad parametras **Naudoti algalapio adresų paskirtį** yra pasirinktas. |
+| **Algalapio adresas** | Patvirtina, kad darbuotojo profilyje yra bent vienas adresas su paskirtimi **Algalapio gyvenamoji vieta** arba **Algalapio darbo vieta**, ir tai, ar vienai paskirčiai yra tik vienas adresas. |
+| **Įdarbinimas** | Patvirtina, kad darbuotojas turi bent vieną įdarbinimą (dabartinį, ankstesnį ar būsimą). |
+| **Identifikavimo numeris** | Patvirtina, kad laukas **Naudoti identifikavimo tipus algalapio apdorojime** nustatytas į **Taip** puslapyje **Žmogiškųjų išteklių parametrai** ir tai, ar parametre nurodytas identifikavimo tipas yra užpildytas darbuotojo profilyje. |
+| **Vardas ir pavardė** | Patvirtina, kad užpildyti **Vardo** ir **Pavardės** laukai.|
+| **Pozicija** | Patvirtina, kad darbuotojui yra priskirtos pareigos. |
+| **Gimimo data** | Patvirtina, kad užpildytas **Gimtadienio** laukas. |
+| **Kompensacija** | Patvirtina, kad darbuotojas yra įtrauktas į pastoviosios atlyginimo dalies planą. |
 
 Jei nors vienas iš šių tikrinimų nepavyksta, negalite pažymėti darbuotojo kaip pasirengusio mokėti.
 
@@ -77,7 +75,7 @@ Jei laukas **Paruošta mokėti** yra **Ne**, tai reiškia, kad turite atlikti ve
 ## <a name="known-issues"></a>Žinomos problemos
 
 - Turite išjungti funkciją **Supaprastintas darbuotojo įrašas** Funkcijų valdyme. Plytelės kompensacijų valdymo darbo srityje neveiks tinkamai, jei naudosite šią funkciją.
-- Darbuotojo formoje **Algalapio skirtuko** grupė **Paruošta mokėti** yra pasiekiama bet kuriam vartotojo vaidmeniui. 
+- Puslapio **Darbuotojas** skirtuko **Algalapis** grupė **Paruošta mokėti** yra pasiekiama bet kuriam vartotojo vaidmeniui. 
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

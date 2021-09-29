@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f3de160cb4e62f9b30c01c56fa6fe5a4dfad5229
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: c3f703e39e5e9d475dcb4f96dfb400a961ae2dcf
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471721"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500432"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Sandėlio valdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams
 
@@ -157,6 +157,7 @@ Tolesnės sandėlio valdymo funkcijos šiuo metu nepalaikomos skalės vienetų d
 
 - Kroviniui priskirtų pirkimo užsakymo eilučių gavimo apdorojimas.
 - Projekto pirkimo užsakymų gavimo apdorojimas.
+- Savikainos valdymas, reisų naudojimas ir prekių sekimas tranzito metu.
 - Įvesties ir išvesties apdorojimas prekėms, turinčioms aktyvias sekimo dimensijas **Savininkas** ir (arba) **Serijos numeris**.
 - Atsargų, turinčių blokavimo būsenos vertę, apdorojimas.
 - Atsargų būsenos keitimas bet kurio darbo perkėlimo proceso metu.
@@ -187,6 +188,7 @@ Tolesnė lentelė rodo, kurios siuntimo funkcijos palaikomos ir kada jos palaiko
 |--------------------------------------------------------------|-----|------------------------------|
 | Šaltinių dokumento tvarkymas                                   | Taip | nr. |
 | Krovinio ir gabenimo valdymo tvarkymas                | Taip, bet tik krovinio planavimo procesai. Transportavimo valdymo apdorojimas nepalaikomas  | nr. |
+| Iškrovimo išlaidos ir tranzito prekių gavimas                                         | Taip | nr. |
 | Išleisti į sandėlį                                         | Taip | nr. |
 | Suplanuotas prekių skirstymas                                        | nr.  | nr. |
 | Siuntos konsolidacija                                       | Taip, naudojant krovinio planavimą | Taip |

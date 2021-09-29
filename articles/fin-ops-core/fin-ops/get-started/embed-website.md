@@ -2,7 +2,7 @@
 title: Įdėtos trečiosios šalies programėlės
 description: Šioje temoje aiškinama, kaip įdėti trečiosios šalies programas siekiant padidinti produkto funkcijų skaičių.
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: b0471fd2ea9a5e8b07b9e8bc279da53f6a1539ca
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 89f101bcf33080f6a73664fe7c3fe6719de04a4e
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345415"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488239"
 ---
 # <a name="embed-third-party-apps"></a>Įdėtos trečiosios šalies programėlės
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Daugelis klientų verslui vykdyti naudoja įvairias programas. Kai kurios iš šių programų yra trečiųjų šalių žiniatinklio programėlės, kurios veikia kartu su „Finance and Operations“ programėle. Norėdami užtikrinti, kad vartotojas veiktų sklandžiai, galite naudoti viso puslapio programėlių funkciją, kad jos būtų įdėtos tiesiogiai į programėles (jei trečiosios šalies programėlės leidžia **save** „Finance and Operations“ įdėti). Tokiu būdu vartotojai gali pasiekti svetaines ir programėles, kurių jiems reikia, kad jiems nereikia perjungti skirtukų ar langų.
 

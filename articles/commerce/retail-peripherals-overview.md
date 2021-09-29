@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a57b51870d5738d906ca779474e0591dc16395cc992b3f79d37d1f45782bf66a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b240038a946a7f34a3c69df18329edbe1df6be0
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715339"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500308"
 ---
 # <a name="peripherals"></a>Išorinis įrenginys
 
@@ -562,7 +562,7 @@ Išsamesnės informacijos apie tai, kaip kurti aparatūros šablonus, žr. [Apib
 > Jei įrenginiai dažnai naudoja skirtingas aparatūros stotis, rekomenduojame taip sukonfigūruoti „Modern POS“, kad paragintų kasininkus pradedant mokėjimo procesą pasirinkti aparatūros stotį. Spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **Registrai**. Pasirinkite registrą, tada nustatykite parinktį **Pasirinkti mokant** į **Taip**. Naudodami paskirstymo grafiką **1090** sinchronizuokite kanalo duomenų bazės pakeitimus.
 
 ## <a name="extensibility"></a>Išplečiamumas
-Išsamesnės informacijos apie aparatūros stoties išplėtimo scenarijus, žr. [Aparatūros stoties išplėtimas](dev-itpro/hardware-station-extensibility.md).
+Išsamesnės informacijos apie aparatūros stoties išplėtimo scenarijus rasite [Integruokite EKA į naują aparatūros įrenginį ir sugeneruokite plėtinio diegimo priemonę](dev-itpro/hardware-device-extension.md).
 
 ## <a name="security"></a>Sauga
 Pagal dabartinius saugos standartus gamybos aplinkoje turi būti naudojami šie parametrai: 

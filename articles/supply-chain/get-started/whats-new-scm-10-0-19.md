@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: bd82ad9a0eb2f8f85bc7dad0ae174726234ad84f
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 86735065864149df27cd3d8b03451ace773af048
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474897"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506860"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Kas nauja ar pasikeitė 10.0.19 „Dynamics 365 Supply Chain Management” versijoje (2021 m. birželis)
 
@@ -40,8 +40,7 @@ Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fi
 | Atsargos ir logistika | [Sandėlio vykdymo galimybių papildantys patobulinimai su skalės vienetais](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[Pranešimų procesoriaus pranešimai](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[Sandėlio atsargų koregavimas](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[Sandėlio valdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams](../cloud-edge/cloud-edge-workload-warehousing.md) |
 | Atsargos ir logistika | [Pardavimo pasiūlymo puslapio laukų Dokumento įžanga ir Dokumento išvada peržvalgos funkcija](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | Ši funkcija prideda peržvalgos funkciją laukams **Dokumento įžanga** ir **Dokumento išvada**, esantiems **Pardavimų pasiūlymo** puslapyje.<br><br>Pagal numatytuosius nustatymus ši funkcija įjungta. |
 | Atsargos ir logistika | [Sandėlio vykdymas su kraštų skalės vienetais pasirinktoje aparatūroje](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [Įdiekite „Edge" skalės vienetus pasirinktoje aparatūroje naudodami LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| Gamyba | [Gamybos su kraštų skalės vienetais pasirinktoje aparatūroje](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Briaunos skalės vienetų diegimas pasirinktinėje aparatūroje naudojant LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| Planuojama | [Neribotas pajėgumų planavimas planavimo optimizavimui](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [Planavimas su neribotu pajėgumu](../master-planning/planning-optimization/infinite-capacity-planning.md) |
+| Gamyba | [Gamybos su kraštų skalės vienetais pasirinktoje aparatūroje](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Įdiekite „Edge" skalės vienetus pasirinktoje aparatūroje naudodami LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
 | Planuojama | Užklausa pagrįstas suplanuoto užsakymo virtimas | [Galutinai suplanuoti užsakymai](../master-planning/planning-optimization/planned-order-firming.md) |
 | Produkto informacijos valdymas | [Siūlomų variantų puslapio patobulinimai](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [Iš anksto apibrėžtų produkto variantų kūrimas](../pim/tasks/create-predefined-product-variants.md) |
 
