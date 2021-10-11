@@ -1398,12 +1398,16 @@
               items:
                 - name: „Commerce“ lokalizavimas Rusijai
                   href: localizations/rus-commerce-localization.md
-                - name: Supaprastintas kliento adreso formatas „Commerce“ EKA Rusijai
-                  href: localizations/rus-simplified-address.md
                 - name: „Commerce“ lokalizavimo Rusijai nustatymas
                   href: localizations/rus-commerce-setup.md
                 - name: Išankstiniai mokėjimai „Commerce“ Rusijai
                   href: localizations/rus-commerce-prepayments.md
+                - name: Supaprastintas kliento adreso formatas „Commerce“ EKA Rusijai
+                  href: localizations/rus-simplified-address.md
+                - name: Fiskalinio spausdintuvo integracijos pavyzdys (Rusija)
+                  href: localizations/rus-fpi-sample.md
+                - name: Klientų informacijos valdymas (Rusija)
+                  href: localizations/rus-customer-information.md
             - name: Švedija
               items:
                 - name: Kasos aparato funkcijos
@@ -2220,6 +2224,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: Visuotinės adresų knygelės konfigūravimas
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/commerce/toc.json
+                - name: Adreso sąranka
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/commerce/toc.json
                 - name: DUK apie adresų knygeles
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: Adresų knygelių konfigūravimas
@@ -2329,7 +2335,11 @@
         - name: Išplečiamumas
           items:
             - name: „Commerce“ plėtra ir išplečiamumas
-              href: dev-itpro/dev-retail-home-page.md
+              items:
+                - name: „Commerce“ IT profesionalams ir kūrėjams
+                  href: dev-itpro/dev-retail-home-page.md
+                - name: Vietinės kūrimo aplinkos nustatymas
+                  href: dev-itpro/setup-local-dev-env.md
             - name: Interneto kanalo išplečiamumas
               items:
                 - name: Interneto kanalo išplečiamumo apžvalga

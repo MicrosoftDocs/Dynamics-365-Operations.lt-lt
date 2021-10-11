@@ -1,7 +1,7 @@
 ---
 title: Mokėtinų sumų pagrindinis puslapis
 description: Šioje temoje apžvelgiamas modulis Mokėtinos sumos.
-author: ShylaThompson
+author: sunfzam
 ms.date: 02/15/2019
 ms.topic: index-page
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 991befc1fb8ceef1a5cc2fd6d9c723e45eee91d89eb0ae301ff20764d80dbee5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ce768ecaa668f2c69d6753401eaa145b6fddc5ec
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749155"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595292"
 ---
 # <a name="accounts-payable-home-page"></a>Mokėtinų sumų pagrindinis puslapis
 
@@ -38,7 +38,7 @@ Tiekėjų sąskaitas faktūras galite įvesti rankiniu būdu arba jas gauti elek
 
 ## <a name="set-up-accounts-payable"></a>Mokėtinų sumų nustatymas
 
-Nustatykite tiekėjų grupes, tiekėjus, registravimo šablonus, įvairias mokėjimo parinktis ir su tiekėjais, išlaidomis, pristatymais bei paskirties vietomis susijusius parametrus, paprastuosius vekselius ir kito tipo mokėtinų sumų informaciją. 
+Nustatykite tiekėjų grupes, tiekėjus, registravimo šablonus, įvairias mokėjimo parinktis ir su tiekėjais, mokesčiais, pristatymais bei paskirties vietomis susijusius parametrus, paprastuosius vekselius ir kito tipo mokėtinų sumų informaciją. 
 
 [Mokėtinų sumų konfigūravimo apžvalga](accounts-payable-overview.md)
 

@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: "„Platform“ naujinimai, skirti 10.0.20 versijai (2021\_m. rugpjūčio mėn.)"
                   href: get-started/whats-new-platform-updates-10-0-20.md
-                - name: "„Platform“ naujinimai, skirti 10.0.19 (2021\_m. birželio mėn.)"
-                  href: get-started/whats-new-platform-updates-10-0-19.md
             - name: Pašalintos arba nerekomenduojamos funkcijos
               items:
                 - name: Pašalintų arba nerekomenduojamų funkcijų pagrindinis puslapis
@@ -572,9 +570,9 @@
                       href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
                     - name: Modelių tinkinimo ir nebenaudojimo funkcijų išjungimas
                       href: dev-tools/lock-models.md
-                - name: Pritaikymo analizės ataskaita​
+                - name: Pritaikymo analizės ataskaita
                   href: dev-tools/customization-analysis-report.md
-                - name: Elementų kūrimo įrankiai​
+                - name: Elementų kūrimo įrankiai
                   href: dev-tools/element-designers.md
                 - name: Komandos elementų naudojimui nustatyti
                   href: dev-tools/element-usage.md
@@ -682,7 +680,7 @@
                           href: dev-ref/query-with-parameters.md
                     - name: X++ makrokomandos
                       href: dev-ref/xpp-macros.md
-                    - name: X++ atributų klasės​
+                    - name: X++ atributų klasės
                       href: dev-ref/xpp-attribute-classes.md
                     - name: X++ ir C# palyginimas
                       href: dev-ref/xpp-cs-comparison.md
@@ -710,9 +708,9 @@
                       href: dev-ref/xpp-math-run-time-functions.md
                     - name: X++ atspindžio vykdymo laiko funkcijos
                       href: dev-ref/xpp-reflection-run-time-functions.md
-                    - name: X++ seanso vykdymo laiko funkcijos​
+                    - name: X++ seanso vykdymo laiko funkcijos
                       href: dev-ref/xpp-session-run-time-functions.md
-                    - name: X++ eilutės vykdymo laiko funkcijos​
+                    - name: X++ eilutės vykdymo laiko funkcijos
                       href: dev-ref/xpp-string-run-time-functions.md
                 - name: Sistemos lentelės
                   href: dev-ref/system-tables.md
@@ -814,7 +812,7 @@
                       href: extensibility/change-caption-form.md
                     - name: Formos valdiklio ypatybių modifikavimas
                       href: extensibility/modify-control-properties.md
-                    - name: Numeracijų aprėpties išplėtimas​
+                    - name: Numeracijų aprėpties išplėtimas
                       href: extensibility/extend-number-sequence-scope.md
                     - name: Naujų atsargų dimensijų įtraukimas
                       href: extensibility/inventory-dimensions.md
@@ -1080,6 +1078,8 @@
                   items:
                     - name: Objektų ir laukų susiejimo tinkinimas
                       href: data-entities/dual-write/customizing-mappings.md
+                    - name: Dvigubo rašymo tinkinimo nurodymai
+                      href: data-entities/dual-write/custom-best-practices.md
                     - name: Kelių objektų schemų tvarkymas
                       href: data-entities/dual-write/multiple-entity-maps.md
                     - name: Juridinio subjekto redagavimas nustačius dvigubą rašymą
@@ -1746,13 +1746,13 @@
                   href: user-interface/page-navigation.md
                 - name: Puslapio maketas žiniatinklio kliente
                   href: user-interface/page-layout.md
-                - name: „Dynamics“ simbolių šriftas​
+                - name: „Dynamics“ simbolių šriftas
                   href: user-interface/symbol-font.md
                 - name: Įrašyti rodiniai
                   href: ../fin-ops/get-started/saved-views.md
                 - name: 'Formų, kurios visiškai išnaudoja įrašytus rodinius, kūrimas'
                   href: user-interface/understanding-saved-views.md
-                - name: 'Formų, kurios naudoja pasirinktinius šablonus, bandymas​'
+                - name: 'Formų, kurios naudoja pasirinktinius šablonus, bandymas'
                   href: user-interface/testing-forms-custom-patterns.md
                 - name: 'Bendrinamų, saugių URL (giliųjų saitų) kūrimas'
                   href: user-interface/create-deep-links.md

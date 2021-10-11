@@ -284,6 +284,8 @@
               href: accounts-payable/broker-contract.md
             - name: Naudojimosi turtu mokesčio sutarčių valdymas
               href: accounts-payable/royalty-contract.md
+            - name: Nurodyti pradines SF kredito pažymose (tiekėjo SF)
+              href: accounts-payable/gbl-original-invoice-numbers-credit-notes-ap.md
             - name: Mokėjimai ir sudengimai
               items:
                 - name: Centralizuoti modulio Mokėtinos sumos mokėjimai
@@ -1272,6 +1274,8 @@
                   href: finance-insights/use-customer-payment-predictions.md
                 - name: Momentinių kopijų apžvalga
                   href: finance-insights/payment-snapshots.md
+            - name: „Finance Insights“ trikčių diagnostikos DUK
+              href: finance-insights/finance-insights-troubleshooting-faq.md
         - name: Projektų valdymas ir apskaita
           items:
             - name: Projektų valdymo ir apskaitos apžvalga
@@ -1574,6 +1578,10 @@
                           href: localizations/emea-multiple-vat-registration-numbers.md
                         - name: Kelių PVM registracijų ataskaita
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Austrijos ataskaitos
+                          items:
+                            - name: PVM deklaracija
+                              href: localizations/emea-aut-vat-declaration-austria.md
                         - name: Prancūzijos ataskaitos
                           items:
                             - name: PVM deklaracija
@@ -1636,10 +1644,12 @@
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Užsienio paslaugų ataskaita
                   href: localizations/emea-aut-vat-statement-details.md
-                - name: Intrastat ataskaita
+                - name: Austrijos „Intrastat“
                   href: localizations/emea-aut-intrastat.md
                 - name: Pirkimo muito mokesčiai
                   href: localizations/emea-aut-purchase-duties.md
+                - name: PVM deklaracija
+                  href: localizations/emea-aut-vat-declaration-austria.md
             - name: Bahreinas
               items:
                 - name: Bahreino apžvalga
@@ -2676,8 +2686,6 @@
                   href: localizations/emea-ita-vat-statements-details.md
                 - name: Ketvirčio PVM ryšio ataskaita
                   href: localizations/emea-ita-quarterly-vat-communication.md
-                - name: Juodojo sąrašo ataskaita
-                  href: localizations/emea-ita-black-list-report.md
                 - name: Tinkamumo data ir finansinis žurnalas
                   href: localizations/emea-ita-competence-date.md
                 - name: Ilgalaikio turto nusidėvėjimas
@@ -3801,6 +3809,8 @@
           items:
             - name: Elektroninių ataskaitų apžvalga
               href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Elektroninių ataskaitų komponentai
+              href: ../fin-ops-core/dev-itpro/analytics/er-overview-components.md?toc=/dynamics365/finance/toc.json
             - name: Konfigūracijos
               items:
                 - name: Konfigūracijų kūrimas
@@ -4509,6 +4519,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: Visuotinės adresų knygelės konfigūravimas
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/finance/toc.json
+                - name: Adreso sąranka
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/finance/toc.json
                 - name: DUK apie adresų knygeles
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: Adresų knygelių konfigūravimas

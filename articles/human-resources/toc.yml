@@ -5,6 +5,8 @@
       items:
         - name: Kas nauja ar pasikeitė „Human Resources”
           href: hr-admin-whats-new.md
+        - name: "2021\_m. rugsėjo 20\_d."
+          href: hr-whats-new-2021-09-20.md
         - name: "2021\_m. rugsėjo 06\_d."
           href: hr-whats-new-2021-09-06.md
         - name: "2021\_m. rugpjūčio 23\_d."
@@ -291,6 +293,8 @@
               href: hr-admin-troubleshooting-batch-history.md
             - name: Užstrigusių paketinių užduočių nustatymas iš naujo
               href: hr-admin-troubleshooting-batch-execution.md
+            - name: Nustatyti „Dataverse“ sinchronizavimą iš naujo
+              href: hr-admin-troubleshooting-dataverse-sync.md
             - name: Neatnaujinamos analizės ataskaitos
               href: hr-admin-troubleshooting-analytic-reports.md
             - name: Nepavyksta sukurti aplinkos „Power Apps“ administravimo centre
@@ -479,12 +483,18 @@
                   href: hr-admin-integration-payroll-api-leave-balance.md
                 - name: Atostogų tipas
                   href: hr-admin-integration-payroll-api-leave-type.md
-                - name: Atostogų užklausa
+                - name: Atostogų prašymas
                   href: hr-admin-integration-payroll-api-leave-request.md
             - name: Su išmokomis susiję objektai
               items:
                 - name: Algalapio darbuotojo išmokos planas
                   href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
+            - name: Kiti objektai
+              items:
+                - name: Asmens vardų ir pavardžių retrospektyva
+                  href: hr-admin-integration-payroll-api-person-name-history.md
+                - name: Konvertavimo kursas
+                  href: hr-admin-integration-payroll-api-compensation-pay-frequency.md
             - name: Parinkčių rinkiniai
               items:
                 - name: Lytis
@@ -543,6 +553,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: Visuotinės adresų knygelės konfigūravimas
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: Adreso sąranka
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/human-resources/toc.json
                 - name: DUK apie adresų knygeles
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: Adresų knygelių konfigūravimas
@@ -781,9 +793,11 @@
                       href: hr-benefits-process-rate-changes.md
                 - name: ACA ataskaitos
                   href: hr-benefits-management-aca-reports.md
+                - name: Išmokų išrašas
+                  href: hr-benefits-statement.md
             - name: Išmokų programos nustatymas ir valdymas
               href: hr-benefits-manage-program.md
-            - name: Išmokos tinkamumo strategijos
+            - name: Teisės į išmoką strategijos
               href: hr-benefits-eligibility-policies.md
             - name: Teisės į išmoką procesas
               href: hr-benefits-eligibility-process.md

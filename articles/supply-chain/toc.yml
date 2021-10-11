@@ -1651,6 +1651,8 @@
                   href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
                 - name: Planavimo optimizavimo nenaudojami parametrai
                   href: master-planning/planning-optimization/not-used-parameters.md
+                - name: Tiekimo grafikas
+                  href: master-planning/supply-schedule.md
                 - name: Filtrų taikymas planui
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Bendrasis planavimas su poreikio prognoze
@@ -1757,10 +1759,8 @@
                   href: master-planning/more-about-dynamic-negative-days.md
                 - name: Vidinės įmonės plano kūrimas
                   href: master-planning/tasks/create-intercompany-plan.md
-                - name: Siunčiamo suplanuoto vidinių įmonių poreikio peržiūra
+                - name: Siunčiamo suplanuoto vidinės įmonės poreikio peržiūra
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: Bendradarbiavimas su vidinės tiekimo grandinės klientais
-                  href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
                 - name: Grynieji poreikiai ir iškvietimo informacija naudojant įtaisytąjį bendrąjį planavimą
                   href: master-planning/net-requirements-built-in-master-planning.md
             - name: Prognozavimas
@@ -2037,8 +2037,12 @@
                   href: procurement/purchase-order-approval-confirmation.md
                 - name: Pirkimo užsakymų patvirtinimo mobilioji darbo sritis
                   href: procurement/purchase-order-mobile-workspace.md
+                - name: Vidinės įmonės pirkimo užsakymo kūrimas ir SF išrašymas vidiniais įmonės tikslais
+                  href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                - name: Tikrinti vidinės įmonės užsakymo kainų nesutapimus
+                  href: sales-marketing/intercompany-check-price-discrepancies.md
                 - name: Prekių gavimo įrašymas pirkimo užsakyme
-                  href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                  href: procurement/tasks/record-receipt-goods-purchase-order.md
             - name: Pirkimo užsakymo kūrimas
               items:
                 - name: Pirkimo užsakymų kūrimas rankiniu būdu
@@ -2725,11 +2729,67 @@
               items:
                 - name: Kainos modeliavimas
                   href: sales-marketing/price-simulation.md
-                - name: Masinis pardavimo pasiūlymų kūrimas
+                - name: Pardavimo pasiūlymų masinis kūrimas
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Pardavimo pasiūlymų kūrimas ir redagavimas
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
-            - name: Grąžinimai
+            - name: Vidinės įmonės prekyba
+              items:
+                - name: Vidinės įmonės prekybos nustatymas
+                  items:
+                    - name: Vidinės įmonės prekybos nustatymas
+                      href: sales-marketing/intercompany-trade-set-up.md
+                    - name: Vidinės įmonės parametrai
+                      href: sales-marketing/intercompany-parameters.md
+                    - name: 'Vidinės įmonės prekybos tiekėjų, klientų ir prekių nustatymas'
+                      href: sales-marketing/intercompany-set-up-vendors-customers-items.md
+                    - name: Vidinės įmonės užsakymų mokesčių nustatymas
+                      href: sales-marketing/intercompany-set-up-charges.md
+                    - name: 'Parametrų, skirtų vidinės įmonės užsakymui registruoti, nustatymas'
+                      href: sales-marketing/intercompany-set-up-parameters-to-post-order.md
+                - name: Vidinės įmonės informacijos sinchronizavimas
+                  items:
+                    - name: Vidinės įmonės kainų ir nuolaidų sinchronizavimas
+                      href: sales-marketing/intercompany-sync-prices-discounts.md
+                    - name: Vidinės įmonės išlaidų sinchronizavimas
+                      href: sales-marketing/intercompany-sync-charges.md
+                    - name: Vidinės įmonės klientų informacijos sinchronizavimas
+                      href: sales-marketing/intercompany-synch-customer-information.md
+                    - name: Vidinės įmonės perdavimo kodų sinchronizavimas
+                      href: sales-marketing/intercompany-synchronize-disposition-codes.md
+                - name: Vidinės įmonės pardavimo užsakymai ir SF
+                  items:
+                    - name: Vidinės įmonės pirkimo ir pardavimo užsakymų kūrimas keliose įmonėse
+                      href: sales-marketing/intercompany-orders-in-several-companies.md
+                    - name: Vidinės įmonės užsakymai ir grąžinimo užsakymai
+                      href: sales-marketing/intercompany-orders-and-return-orders.md
+                    - name: Vidinės įmonės pardavimo užsakymo kūrimas vidiniais įmonės tikslais
+                      href: sales-marketing/intercompany-sales-order-for-internal-use.md
+                    - name: Vidinės įmonės pardavimo užsakymo kūrimas ir sąskaitos faktūros išrašymas išoriniam klientui
+                      href: sales-marketing/intercompany-sales-order-for-external-customer.md
+                    - name: Vidinės įmonės rezervavimai
+                      href: sales-marketing/intercompany-reservations.md
+                    - name: Pradinio vidinės įmonės pardavimo užsakymo keitimas arba naikinimas
+                      href: sales-marketing/intercompany-change-delete-original-sales-order.md
+                    - name: Vidinės įmonės užsakymų keitimas
+                      href: sales-marketing/intercompany-change-orders.md
+                    - name: Vidinės įmonės paketų ir serijų numeriai
+                      href: sales-marketing/intercompany-batch-serial-numbers.md
+                    - name: Vidinės įmonės važtaraščiai
+                      href: sales-marketing/intercompany-packing-slips.md
+                    - name: Vidinės įmonės klientų SF mokėjimų automatinis registravimas
+                      href: sales-marketing/intercompany-register-customer-payments-automatically.md
+                - name: Vidinės įmonės pirkimo užsakymai
+                  items:
+                    - name: Vidinės įmonės pirkimo užsakymo kūrimas ir SF išrašymas vidiniais įmonės tikslais
+                      href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                    - name: Tikrinti vidinės įmonės užsakymo kainų nesutapimus
+                      href: sales-marketing/intercompany-check-price-discrepancies.md
+                - name: Vidinės įmonės valiutų konvertavimai
+                  href: sales-marketing/intercompany-currency-conversions.md
+                - name: Vidinės įmonės bendrasis planavimas
+                  href: sales-marketing/intercompany-master-scheduling.md
+            - name: Grąžinimas
               items:
                 - name: Pardavimo grąžinimai
                   href: warehousing/sales-returns.md
@@ -3067,6 +3127,8 @@
               href: landed-cost/landed-cost-vs-tms.md
             - name: Gabenimo išlaidų modulio nustatymas ir konfigūravimas
               items:
+                - name: Gabenimo išlaidų modulio įjungimas jūsų sistemai
+                  href: landed-cost/landed-cost-enable.md
                 - name: Gabenimo išlaidų parametrai
                   href: landed-cost/landed-cost-parameters.md
                 - name: Gabenimo išlaidų įsigijimo ir tiekimo parametrai
@@ -3185,6 +3247,8 @@
                       href: warehousing/warehouse-slotting.md
                     - name: Vietos nurodymo atsargų paėmimo skirstymas pagal terminus
                       href: warehousing/location-directive-inventory-picking-aging.md
+                    - name: Fiksavimas
+                      href: warehousing/anchoring.md
                     - name: Siunčiamas rūšiavimas
                       href: warehousing/outbound-sorting.md
                     - name: Padėti prie sienos / padėti parduotuvėje
@@ -3341,6 +3405,8 @@
                       href: warehousing/display-older-batches-within-warehouses.md
                     - name: Seniausio paketo paėmimas mobiliajame įrenginyje
                       href: warehousing/pick-oldest-batch.md
+                - name: Visuotiniai mobiliojo įrenginio parametrai
+                  href: warehousing/mobile-device-parameters.md
                 - name: Mobiliojo įrenginio naudotojo nustatymai
                   href: warehousing/mobile-device-user-settings.md
                 - name: Sandėlio programos įvykio apdorojimas
