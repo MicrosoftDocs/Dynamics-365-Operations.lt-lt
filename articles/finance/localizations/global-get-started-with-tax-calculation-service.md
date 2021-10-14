@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b180a8cee1c5b7e9dda837915e6fdf94af30d06a
-ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
+ms.openlocfilehash: a849343cda54745f5ba3afc53e2082e79f71a29a
+ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7465082"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7562131"
 ---
 # <a name="get-started-with-tax-calculation"></a>Pradėti naudoti mokesčių skaičiavimą
 
@@ -100,7 +100,7 @@ Norint naudoti tikrinimo aplinką, reikia įvykdyti tolesnes būtinąsias sąlyg
     | 10.0.18         | Mokesčių konfigūracija – Europa 30.12.82     |
     | 10.0.19         | Mokesčių skaičiavimo konfigūracija 36.38.193 |
     | 10.0.20         | Mokesčių skaičiavimo konfigūracija 40.43.208 |
-    | 10.0.21         | Mokesčių skaičiavimo konfigūracija 40.46.212 |
+    | 10.0.21         | Mokesčių skaičiavimo konfigūracija 40.48.215 |
 
 9. Darbo srityje **Globalizacijos funkcijos** pasirinkite **Funkcijos**, plytelę **Mokesčių skaičiavimas**, o tada pasirinkite **Įtraukti**.
 10. Pasirinkti vieną iš šių tolesnių funkcijų tipų:

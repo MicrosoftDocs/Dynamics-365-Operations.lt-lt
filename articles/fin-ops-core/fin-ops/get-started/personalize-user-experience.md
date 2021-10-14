@@ -2,7 +2,7 @@
 title: Vartotojo patirties personalizavimas
 description: Šiame straipsnyje paaiškinama, kaip galite personalizuoti programą.
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3d126bf9ec5687d97dacc8763a221da656fdef1
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: a1f24ff1a0730f13af6231510c8e6b3cb46fde48
+ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344379"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7581070"
 ---
 # <a name="personalize-the-user-experience"></a>Vartotojo patirties personalizavimas
 
@@ -119,7 +119,8 @@ Kai atidaroma įrankių juosta **Personalizavimas**, esamas puslapis skirtas tik
 
 - Įrankį **Pasirinkti** naudokite norėdami pasirinkti ir pakeisti elemento ypatybes. Norėdami naudoti šį įrankį, įrankių juostoje pasirinkite mygtuką **Pasirinkti**, tada pasirinkite norimą elementą. Elemento ypatybių langas pasirodo ten, kur galite keisti bet kurias šio elemento ypatybes. Galite pakartoti procesą su kitais puslapio elementais, kuriuos galima personalizuoti. Atkreipkite dėmesį, kad kai kuriais atvejais gali nebūti kai kurių personalizavimo ypatybių. Pavyzdžiui, negalite užrakinti reikiamo lauko.
 - Įrankį **Slėpti** naudokite norėdami paslėpti elementą puslapyje. Norėdami naudoti šį įrankį, įrankių juostoje pasirinkite mygtuką **Slėpti**, tada pasirinkite norimą paslėpti elementą. Jums naudojant **Slėpti** įrankį, visi elementai šiuo metu nepaslėpti yra rodomi, tačiau jie yra rodomi patamsėjusiame konteineryje. Tada galite padaryti elementą matomą jį pasirinkdami. Tam, kad pamatytumėte, kaip puslapis atrodys elementus paslėpus, perjunkite į kitą personalizavimo įrankį arba uždaryti personalizavimo įrankių juostą.
-- Naudokite **Įtraukti laukelius** įrankį tam, kad įtrauktumėte laukelius į savo puslapį. Kai naudojate šį įrankį, galite pridėti tik tuos laukus, kurie yra puslapio apibrėžimo dalis. Norėdami gauti informacijos apie tai, kaip sukurti naujų laukų, kurie nėra dabartinio puslapio apibrėžimo dalis, žr. [Pasirinktinių laukų kūrimas ir darbas su jais](user-defined-fields.md). Kai pasirenkate **Įtraukti laukelius** mygtuką įrankių juostoje, pirmiausia turite pasirinkti tinkelelį arba skyrių, kuriame norite įtraukti laukelius. Teksto laukelis rodys laukelių sąrašą, kuris yra susijęs su pasirinktu tinkleliu ar skyriumi. Teksto laukelyje pasirinkite vieną ar keltis įtraukiamus laukelius ir tuomet pasirinkite **Atnaujinti**. Norėdami pašalinti pirmiau įtrauktą lauką, pakartokite šį procesą, bet panaikinkite lauko žymėjimą dialogo lange.
+- Naudokite **Įtraukti laukelius** įrankį tam, kad įtrauktumėte laukelius į savo puslapį. Kai naudojate šį įrankį, galite įtraukti tik tuos laukus, kurie yra puslapio apibrėžimo dalis. Norėdami gauti informacijos apie tai, kaip sukurti naujų laukų, kurie nėra dabartinio puslapio apibrėžimo dalis, žr. [Pasirinktinių laukų kūrimas ir darbas su jais](user-defined-fields.md). Kai pasirenkate **Įtraukti laukelius** mygtuką įrankių juostoje, pirmiausia turite pasirinkti tinkelelį arba skyrių, kuriame norite įtraukti laukelius. Teksto laukelis rodys laukelių sąrašą, kuris yra susijęs su pasirinktu tinkleliu ar skyriumi. Dialogo lange pasirinkite vieną ar daugiau laukų, kuriuos norite pridėti iš laukų **Rekomenduojami laukai** ar **Visų laukų**. Pasirinkę norimus laukus, pasirinkite **Atnaujinti**. Norėdami pašalinti pirmiau įtrauktą lauką, pakartokite šį procesą, bet panaikinkite lauko žymėjimą dialogo lange.
+    - **Rekomenduojamų laukų** sąraše rodomi laukai, kuriuos anksčiau pridėjo kiti jūsų organizacijos vartotojai. Šis laukų sąrašas atnaujinamas atsižvelgiant į rekomendacijos paketinės **užduoties pasikartojimo dažnumą**. Įtraukiant naujus filtro laukus naudojant puslapio sritį Filtras, atsiranda panaši patirtis.
 - Įrankį **Perkelti** naudokite norėdami perkelti elementą į kitą dabartinės elementų grupės vietą. Atkreipkite dėmesį, kad negalima perkelti elemento už jo pirminės grupės ribų. Norėdami naudoti šį įrankį, įrankių juostoje pasirinkite mygtuką **Perkelti**, tada pasirinkite norimą perkelti elementą. Pasirinkus elementą, programa nustato vietas, kur leidžiama perkelti elementą. Šios vietos vadinamos *nuvilkimo zonomis*. Velkant elementą dabartinėje grupėje kiekviena nuvilkimo zona rodoma kaip spalvota, paryškinta linija šalia srities, į kurią galima nuvilkti elementą.
 - Įrankį **Praleisti** naudokite norėdami pašalinti elementą iš puslapio klaviatūros tabuliavimo sekos. Paspaudus įrankių juostoje esantį mygtuką **Praleisti** visi šiuo metu praleisti elementai yra rodomi užtamsintame fone. Galite interaktyviai pašalinti arba įtraukti laukus į skirtukų seką.
 - Įrankį **Rodyti antraštėje** naudokite norėdami, kad laukas būtų rodomas „FastTab“ suvestinės skyriuje. Paspaudus įrankių juostoje esantį mygtuką **Rodyti antraštėje** visi pasirinkti suvestinės laukai rodomi užtamsintame fone. Galite interaktyviai įtraukti laukelius į „FastTab“ santrauką arba pašalinti laukelius iš santraukos pasirinkdami laukelius.

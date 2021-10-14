@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d5f84a1a6ff794cdc8b4b81e8518983789a0b33f1708719906f6ad094d9c4285
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c0b70411e6535b22d698545438dcb0b16935e731
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722636"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559588"
 ---
 # <a name="payroll-position-job"></a>Algalapių padėties užduotis
 
@@ -34,16 +34,22 @@ Faktinis pavadinimas: „mshr_payrollpositionjobentity”.
 
 ## <a name="properties"></a>Ypatybės
 
-| Ypatybė<br>**Faktinis pavadinimas**<br>**_Tipas_** | Naudoti | Aprašas |
+| Ypatybė</br>**Faktinis pavadinimas**</br>**_Tipas_** | Naudoti | Aprašymas |
 | --- | --- | --- |
-| **Užduoties ID**<br>mshr_jobid<br>*Eilutė* | Tik skaitomas<br>Būtina |Užduoties ID. |
-| **Galioja nuo**<br>„mshr_validto”<br>*Datos ir Laiko poslinkis* | Tik skaitomas <br>Būtina | Data, nuo kurios galioja pareigų ir užduoties ryšys. |
-| **Galioja iki**<br>„mshr_validto”<br>*Data ir Laiko poslinkis* | Tik skaitomas <br>Būtina | Data, iki kurios galioja pareigų ir užduoties ryšys.  |
-| **Pareigų ID**<br>mshr_positionid<br>*Eilutė* | Tik skaitomas<br>Būtina | Pareigų ID. |
-| **Pirminis laukas**<br>mshr_primaryfield<br>*Eilutė* | Būtina<br>Sistemos sugeneruota |  |
-| **Darbo pareigų ID reikšmė**<br>„_mshr_fk_positionjob_id_value”<br>*GUID* | Tik skaitomas<br>Būtina<br>Išorinis raktas: „mshr_PayrollPositionJobEntity of the mshr_payrollpositionjobentity” |Darbo ID yra susietas su pareigomis.|
-| **Pastovios atlyginimo dalies plano ID reikšmė**<br>„_mshr_fk_fixedcompplan_id_value”<br>*GUID* | Tik skaitomas<br>Būtina<br>Išorinis raktas: „mshr_FixedCompPlan_id of mshr_payrollfixedcompensationplanentity”  | Pastovios atlyginimo dalies plano ID yra susietas su pareigomis. |
-| **Algalapio darbo pareigų objekto ID**<br>„mshr_payrollpositionjobentityid”<br>*Guid* | Būtina<br>Sugeneruota sistemos. | Sistemos sukurta GUID reikšmė, skirta unikaliai atpažinti užduotį.  |
+| **Pareigų ID**</br>mshr_positionid</br>*Eilutė* | Tik skaitomas | Pareigų ID. |
+| **Galioja nuo**</br>„mshr_validto”</br>*Datos ir Laiko poslinkis* | Tik skaitomas | Ta data, nuo kurios galioja pareigų ir užduoties ryšys. |
+| **Galioja iki**</br>„mshr_validto”</br>*Datos ir Laiko poslinkis* | Tik skaitomas | Ta data, iki kurios galioja pareigų ir užduoties ryšys. |
+| **Užduoties ID**</br>mshr_jobid</br>*Eilutė* | Tik skaitomas | Užduoties ID. |
+| **Pirminis laukas**</br>mshr_primaryfield</br>*Eilutė* | Sistemos sugeneruota | Pirminis laukas. |
+| **Algalapio darbo pareigų objekto ID**</br>„mshr_payrollpositionjobentityid”</br>*Guid* | Sugeneruota sistemos. | Sistemos sugeneruota visuotinai unikali identifikatoriaus (GUID) vertė, norint unikaliai identifikuoti darbą. |
+
+## <a name="relations"></a>Ryšiai
+
+| Ypatybės vertė | Susijęs objektas | Naršymo ypatybė | Rinkimo tipas |
+| --- | --- | --- | --- |
+| „_mshr_fk_fixedcompplan_id_value” | mshr_payrollfixedcompensationplanentity | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_Job |
+| _mshr_fk_jobdetail_id_value | mshr_hcmjobdetailentity | mshr_FK_JobDetail_id | Netaikoma |
+| _mshr_fk_payroll_id_value | mshr_payrollpositionentity | mshr_FK_Payroll_id | mshr_FK_PayrollPositionEntity_Job |
 
 ## <a name="example-query"></a>Pavyzdinė užklausa
 

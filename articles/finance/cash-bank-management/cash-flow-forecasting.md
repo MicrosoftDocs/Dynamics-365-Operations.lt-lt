@@ -1,8 +1,8 @@
 ---
 title: Grynųjų pinigų srautų prognozavimas
 description: Šioje temoje pateikiama pinigų srautų prognozės proceso apžvalga. Taip pat paaiškinama, kaip pinigų srautų prognozės integruojamos į kitus sistemos modulius.
-author: JodiChristiansen
-ms.date: 12/16/2020
+author: panolte
+ms.date: 09/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b9455d132a928185bdfeb49c01c141b4c9b2c52e3b3beb9f8a3c96a38238f296
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83f8e5b03a2222884758dc567688da2a756421da
+ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779451"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547960"
 ---
 # <a name="cash-flow-forecasting"></a>Grynųjų pinigų srautų prognozavimas
 
@@ -83,7 +83,10 @@ Galite nepaisyti numatytosios specialiems kliento registravimo šablonams naudoj
 
 ### <a name="budgeting"></a>Biudžeto sudarymas
 
-Biudžetus, sukurtus naudojant biudžeto modelius, galite įtraukti į pinigų srautų prognozes. Puslapio **Pinigų srauto prognozės sąranka** skirtuke **Biudžetas** pasirinkite į prognozę įtrauktinus biudžeto modelius. Pagal numatytuosius nustatymus nauji biudžeto registro įrašai įtraukiami į prognozes įgalinus biudžeto modelio pinigų srauto prognozavimą. Įtraukimo į pinigų srautų prognozavimą gali būti nepaisoma atskiruose biudžeto registro įrašuose.
+Biudžetus, sukurtus naudojant biudžeto modelius, galite įtraukti į pinigų srautų prognozes. Puslapio **Pinigų srauto prognozės sąranka** skirtuke **Biudžetas** pasirinkite į prognozę įtrauktinus biudžeto modelius. Pagal numatytuosius nustatymus nauji biudžeto registro įrašai įtraukiami į prognozes įgalinus biudžeto modelio pinigų srauto prognozavimą.
+
+Biudžeto registro įrašus galima įtraukti į pinigų srautų prognozę individualiai, naudojant personalizavimą. Kai pridedate stulpelį Įtraukti į pinigų srautų prognozes į įrašo puslapį **Biudžeto registro įrašas** sistema perrašys pinigų srautų prognozės nustatymo puslapio parametrus, kad į prognozę įtrauktų **Atskirą biudžeto registro įrašą**.
+
 
 ### <a name="inventory-management"></a>Atsargų valdymas
 
@@ -144,7 +147,7 @@ Darbo srityje **Pinigų apžvalga – visos įmonės** rodoma pinigų srauto pro
 
 Darbo srityje **Pinigų apžvalga – dabartinė įmonė** rodoma pinigų srautų prognozavimo analizė įmonės nurodyta apskaitos valiuta. Analizei naudojama apskaitos valiuta nurodoma puslapyje **Didžioji knyga**. Šioje darbo srityje rodoma pinigų srauto prognozavimo ir dabartinės įmonės banko sąskaitų likučių apžvalga. Grynųjų pinigų įplaukų ir išmokų diagramoje apžvelgiami būsimi pinigų perkėlimai ir likučiai apskaitos valiuta, taip pat pateikiama išsami informacija apie numatytas operacijas. Taip pat galite matyti prognozuojamus valiutos likučius.
 
-Dėl išsamesnės informacijos apie pinigų srautų prognozavimo analitiką, žr. [Pinigų apžvalgos „Power BI“ turinio](./cash-overview-power-bi-content.md) temą.
+Dėl išsamesnės informacijos apie pinigų srautų prognozavimo analitiką, žr. [Pinigų apžvalgos „Power BI“ turinio temą](Cash-Overview-Power-BI-content.md).
 
 Be to, toliau nurodytuose puslapiuose galite peržiūrėti tam tikrų sąskaitų, užsakymų ir prekių pinigų srautų prognozavimo duomenis.
 

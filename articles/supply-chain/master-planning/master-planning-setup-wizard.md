@@ -1,7 +1,7 @@
 ---
-title: Bendrojo planavimo nustatymo vedlys
-description: Šioje temoje aprašomos įvairios svarbios strategijos ir parametrai, naudojami norint nustatyti bendrąjį planavimą.
-author: t-benebo
+title: Bendrojo planavimo sąrankos vedlys
+description: Šioje temoje aprašoma, kaip paleisti bendrojo planavimo nustatymo vedlį, norint nustatyti bendrąjį planavimą.
+author: ChristianRytt
 ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
@@ -16,14 +16,14 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 26dea90a208eddc39b9a92d534fbc3a5242da29f4839a7f0e427b0efb03701b9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b825858653599e8474a6fbd54b682c4fa0118053
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767465"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577509"
 ---
-# <a name="master-planning-setup-wizard"></a>Bendrojo planavimo nustatymo vedlys
+# <a name="master-planning-setup-wizard"></a>Bendrojo planavimo sąrankos vedlys
 
 [!include [banner](../includes/banner.md)]
 
@@ -125,9 +125,9 @@ Galiausiai, pasirinkus **Baigti** bus taikoma nauja konfigūracija. Jei pasirink
 
 Šiame skyriuje aprašomas dviejų fiktyvių įmonių nustatymas, kad būtų galima parodyti, kaip nustatymai gali pasikeisti atsižvelgiant į kiekvienos įmonės poreikius.
 
-### <a name="example-1-contoso-manufacturer"></a>1 pavyzdys: „Contoso” Gamintojas
+### <a name="example-1-contoso-manufacturer"></a>1 pavyzdys: „Contoso Manufacturer“
 
-„Contoso” gamintojas yra garsiakalbius gaminanti įmonė. Ji iš įvairių tiekėjų perka įvairias žaliavas ir komponentus, kurie naudojami garsiakalbių gamybai. Toliau pateikta kai kuri tiekimo ir gamybos informacija:
+„Contoso Manufacturer“ yra garsiakalbius gaminanti įmonė. Ji iš įvairių tiekėjų perka įvairias žaliavas ir komponentus, kurie naudojami garsiakalbių gamybai. Toliau pateikta kai kuri tiekimo ir gamybos informacija:
 
 - Galutiniai elementai, kuriuos gamina įmonė, pasižymi KS struktūra.
 - Visi galutiniai elementai ir komponentai planuojami pagal bendrąjį planavimą. Rankinis planavimas neatliekamas.
@@ -135,14 +135,14 @@ Galiausiai, pasirinkus **Baigti** bus taikoma nauja konfigūracija. Jei pasirink
 - Galutiniai elementai gaminami gamykloje. Joje yra apibrėžtas skaičius frezavimo ir gręžimo staklių, kurios naudojamos komponentams apdoroti. Šios mašinos apdoroja įvairius komponentus.
 - Yra daug tiekėjų. Vidutinis elementų gamybos laikas yra viena savaitė. Elementų grupei iš to paties tiekėjo skirtas septynių savaičių vykdymo laikas.
 
-Vedlyje „Contoso“ gamintojui įvedamos šios reikšmės:
+Vedlyje „Contoso Manufacturer“ įvedamos šios reikšmės:
 
 - **Aprėptis:**
 
     - **Klausimas:** „Ar norite nurodyti savo planavimo aprėpties dienų skaičių?“
     - **Atsakymas:** „Taip, kaip apibrėžta aprėpties grupėse“.
 
-    Elementų gamybos laikas labai skiriasi, todėl „Contoso“ neprivalo planuoti visų to paties būsimo laikotarpio elementų. Sukuriamos elementų aprėpties grupės. Elementai, kurių gamybos laikas panašus, priskiriami tai pačiai aprėpties grupei. Kiekvienos aprėpties grupės (t. y. aprėpties laiko ribos) planavimo aprėptis yra maždaug gamybos laikas ir vienos savaitės marža. Tokiu atveju bendrasis planavimas užtikrina, kad elementai planuojami iš anksto pagal jų gamybos laiką.
+    Elementų gamybos laikas labai skiriasi, todėl „Contoso“ neprivalo planuoti visų būtinų to paties laikotarpio elementų. Sukuriamos elementų aprėpties grupės. Elementai, kurių gamybos laikas panašus, priskiriami tai pačiai aprėpties grupei. Kiekvienos aprėpties grupės (t. y. aprėpties laiko ribos) planavimo aprėptis yra maždaug gamybos laikas ir vienos savaitės marža. Tokiu atveju bendrasis planavimas užtikrina, kad elementai planuojami iš anksto pagal jų gamybos laiką.
 
     Todėl šiame pavyzdyje bus sukurtos dvi aprėpties grupės. Viena aprėpties grupė turės dviejų savaičių aprėpties laiko ribą, o kita – aštuonių savaičių aprėpties laiko ribą.
 
@@ -153,7 +153,7 @@ Vedlyje „Contoso“ gamintojui įvedamos šios reikšmės:
     - **Klausimas:** „Ar reikia planuoti operacijas, suskirstytas į atskiras užduotis?“
     - **Atsakymas:** „Taip“.
 
-    „Contoso” gamintojas privalo planuoti ir sudaryti grafiką atskiroms užduotims, kurios bus atliekamos ceche. Todėl bus naudojamas užduočių planavimas.
+    „Contoso Manufacturing“ privalo planuoti atskiras užduotis, kurios bus atliekamos ceche. Todėl bus naudojamas užduočių planavimas.
 
 - **Pajėgumas:**
 
@@ -176,36 +176,36 @@ Vedlyje „Contoso“ gamintojui įvedamos šios reikšmės:
 
     Būtina planuoti visus gamybai naudojamus elementus. Elementai pasižymi labai skirtingais gamybos laikais, todėl bendrasis planavimas bus efektyvesnis naudojant aprėpties grupes. Vėlgi, galima įvesti vienos savaitės maržą, o išskleidimą atlikti tokiam pačiam laikotarpiui, kaip aprėptis.
 
-### <a name="example-2-contoso-retailer"></a>2 pavyzdys: „Contoso” Pardavėjas
+### <a name="example-2-contoso-retailer"></a>2 pavyzdys: „Contoso Retailer“
 
-„Contoso” pardavėjas yra platinimo įmonė, veikianti mados industrijoje. Ji naudoja bendrąjį planavimą, kad apskaičiuotų, kada turėtų būti pateikiami pirkimo užsakymai, atsižvelgiant į prognozuojamus pardavimus. Štai keletas įmonės ypatybių:
+„Contoso Retailer“ yra platinimo įmonė, veikianti mados pramonės srityje. Ji naudoja bendrąjį planavimą, kad apskaičiuotų, kada turėtų būti pateikiami pirkimo užsakymai, atsižvelgiant į prognozuojamus pardavimus. Štai keletas įmonės ypatybių:
 
-- „Contoso” pardavėjas naudoja poreikio prognozę pardavimams prognozuoti. Pirkimo užsakymai bus planuojami atsižvelgiant į prognozę.
+- „Contoso Retailer“ pardavimams prognozuoti naudoja poreikio prognozę. Pirkimo užsakymai bus planuojami atsižvelgiant į prognozę.
 - Parduotuvės papildymui naudoja rekvizitus.
 - Visų elementų vykdymo laikas iš pagrindinio sandėlio į kiekvieną parduotuvę yra maždaug dvi savaitės.
 
-Vedlyje „Contoso“ pardavėjui įvedamos šios reikšmės:
+Vedlyje „Contoso Retailer“ įvedamos šios reikšmės:
 
 - **Poreikio prognozė:**
 
     - **Klausimas:** „Ar norite naudoti prognozės planą bendrojo planavimo metu, kad suplanuoti užsakymai būtų siūlomi atsižvelgiant į prognozuojamą paklausą?”
     - **Atsakymas:** „Taip, kaip apibrėžta šiame bendrajame plane.“
 
-    „Contoso” įtraukė poreikio prognozę, kad galėtų prognozuoti savo pardavimus. Todėl bendrasis planavimas turi rekomenduoti suplanuotus užsakymus, kad įvykdytų prognozę.
+    „Contoso“ įtraukė poreikio prognozę, kad galėtų prognozuoti pardavimus. Todėl bendrasis planavimas turi rekomenduoti suplanuotus užsakymus, kad įvykdytų prognozę.
 
 - **Tvirtinimas:**
 
     - **Klausimas:** „Ar norite, kad bendrasis planavimas automatiškai patvirtintų suplanuotus užsakymus į užsakymo dokumentus, pvz., gamybos ar pirkimo užsakymus?“
-    - **Atsakymas:** „Taip, kaip apibrėžta šiame bendrajame plane.“ Įvedama **1 diena**.
+    - **Atsakymas:** „Taip, kaip apibrėžta šiame bendrajame plane.“ Įdedama **1 diena**.
 
-    „Contoso“ pardavėjas sukurs pirkimo užsakymus tiesiogiai iš suplanuotų pirkimo užsakymų, todėl būtų naudinga automatiškai patvirtinti suplanuotus pirkimo užsakymus. Kiekvieną dieną įmonė vykdo bendrąjį planavimą, todėl vienos dienos tvirtinimo laiko riba automatiškai patvirtins visus užsakymus, būtinus kitai dienai.
+    „Contoso Retailer“ sukurs pirkimo užsakymus tiesiogiai iš suplanuotų pirkimo užsakymų, todėl būtų patogu, jeigu suplanuoti pirkimo užsakymai būtų automatiškai patvirtinami. Kiekvieną dieną įmonė vykdo bendrąjį planavimą, todėl vienos dienos tvirtinimo laiko riba automatiškai patvirtins visus užsakymus, būtinus kitai dienai.
 
 - **Patvirtintos paraiškos:**
 
     - **Klausimas:** „Ar norite įtraukti poreikį iš patvirtintų paraiškų, kad būtų papildytos mažmeninės prekybos parduotuvės?“
-    - **Atsakymas:** „Taip, kaip apibrėžta šiame bendrajame plane.“ Įvedama **1 diena**.
+    - **Atsakymas:** „Taip, kaip apibrėžta šiame bendrajame plane.“ Įdedama **1 diena**.
 
-    „Contoso” naudoja patvirtintas savo parduotuvių paraiškas, kad sukurtų suplanuotus pirkimo užsakymus, skirtus tų parduotuvių papildymui. Bendrasis planavimas vykdomas kiekvieną dieną, todėl paraiškos iš paskutinės dienos bus įtrauktos į planavimą.
+    „Contoso“ naudoja patvirtintas savo parduotuvių paraiškas, kad sukurtų planuojamus pirkimo užsakymus ir papildytų tas parduotuves. Bendrasis planavimas vykdomas kiekvieną dieną, todėl paraiškos iš paskutinės dienos bus įtrauktos į planavimą.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Pašalintos arba nebenaudojamos „Dynamics 365 Commerce“ funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama pašalinti iš „Dynamics 365 Commerce“.
 author: josaw
-ms.date: 08/16/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 3ac08a409284681ba9bcc4825b936c0330d14e04
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: b582b8b95fcf2ad45aa1bb49eb5594d30874e0f4
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386746"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559564"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Pašalintos arba nebenaudojamos „Dynamics 365 Commerce“ funkcijos
 
@@ -37,6 +37,18 @@ ms.locfileid: "7386746"
 
 [!include [banner](../includes/preview-banner.md)]
 
+### <a name="overlapping-discounts-handling-setting-in-commerce-parameters"></a>Iš dalies sutampančių nuolaidų tvarkymo parametras „Commerce" parametruose
+
+„Commerce" **Persidengiančių nuolaidų tvarkymi** nustatymų **„Commerce“ parametrai** puslapis nebegalioja „Commerce“ versijoje 10.0.21. Eja į priekį „Commerce pricing engine" naudos vieną algoritmą, kad nustatytų optimalų persidengiančių nuolaidų derinį.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo / pašalinimo priežastis** | <p>„Commerce" parametruose **esantis persidengiančių nuolaidų** nustatymai „Commerce“ parametruosi valdiklis, kaip „Commerce“ kainų variklis ieško ir nustato pasirinktinas persidengiančių nuolaidų derinius. Šiuo metu jis siūlo tris pasirinktis:<p><ul><li> **Geriausias našumas** – ši pasirinktis naudoja išplėstinį heuristikos algoritmą ir [ribinės vertės vertinimo](../optimal-combination-overlapping-discounts.md) metodą, siekiant nustatyti prioritetą, įvertinti ir nustatyti geriausią nuolaidų kombinaciją laiku.</li><li>**Subalansuotas skaičiavimas** – dabartinio kodo pagrindu ši pasirinktis veikia kaip ir **našumo našumo** pasirinktis. Todėl iš esmės tai yra pasikartojanti pasirinktis.</li><li>**Išsamus skaičiavimas** – ši pasirinktis naudoja seną algoritmą, kuris kainų skaičiavimo metu naudoja visas galimas nuolaidų kombinacijas. Užsakymams, kurie turi dideles eilutes ir kiekius, ši pasirinktis gali sukelti našumo problemų.</li></ul><p>Norėdami supaprastinti konfigūraciją, pagerinti našumą ir sumažinti incidentus, kuriuos sukėlė senasis algoritmas, visiškai pašalinsime persidengiančių **nuolaidų tvarkymo parametrą** ir atnaujinsime vidinę Komercijos kainodaros modulio logiką, kad dabar būtų naudojamas tik išplėstinis algoritmas (t. t. algoritmas, esantis be **geriausios našumo** pasirinkties).</p> |
+| **Pakeitė kita funkcija?**   | Ne. Rekomenduojame organizacijoms, kurios naudoja **subalansuotų skaičiavimų** ar **išsamių skaičiavimų** pasirinktį pakeisti į parinktį **Geriausias našumas** prieš panaudoant šią funkciją. |
+| **Paveiktos produkto sritys**         | Kainodara ir nuolaidos |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Kaip 10.0.21 leidimą **persidengiančių nuolaidų valdymo** parametras bus pašalintas iš „Commerce" parametrų 2022 m. spalio mėn. |
+
 ### <a name="retail-sdk-distributed-by-using-lifecycle-services"></a>"Retail" SDK paskirstyta naudojant „Lifecycle Services“
 
 "Retail SDK" pristatoma „Lifecycle Services“ (LCS). Šis paskirstymo režimas pasenusis išleidžiant 10.0.21. O taip, „Retail SDK" nuorodų paketai, bibliotekos ir pavyzdžiai bus publikuojami GitHub viešose saugyklose.
@@ -55,7 +67,7 @@ Mažmeninės prekybos diegiami paketai, sugeneruoti naudojant „Retail SDK MSBu
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nerekomendavimo / pašalinimo priežastis** | "Retail" diegiamas paketas yra sujungtas paketas, kuriame yra visas plėtinių paketų ir diegimo priemonių rinkinys. Šis sujungtas paketas tampa sudėtingas, nes CSU plėtiniai pereis į debesies skalės vienetą ir diegimo programos bus įdiegtos parduotuvėse. Diegimo programos apima plėtinį ir pagrindinį produktą, dėl to naujinimai yra sudėtingi. Kiekvieną kartą atnaujinus reikia sukurti kodų suliejimą ir pakuotės generavimą. Siekiant supaprastinti šį procesą, plėtiniai paketai atskiriami į komponentus, kad būtų lengviau diegti ir valdyti. Naudojant naują būdą, plėtiniai ir pagrindiniai produktų diegimo programos yra atskiriami ir gali būti nepriklausomai aptarnaujami ir atnaujinti be kodų suliejimo arba perpakavimo.|
+| **Nerekomendavimo / pašalinimo priežastis** | "Retail" diegiamas paketas yra sujungtas paketas, kuriame yra visas plėtinių paketų ir diegimo priemonių rinkinys. Šis sujungtas paketas tampa sudėtingas, nes CSU plėtiniai pereis į debesies skalės vienetą ir diegimo programos bus įdiegtos parduotuvėse. Diegimo programos apima plėtinį ir pagrindinį produktą, dėl to naujinimai yra sudėtingi. Kiekvieną kartą atnaujinus reikia sukurti kodų suliejimą ir pakuotės yra generuojamos. Siekiant supaprastinti šį procesą, plėtiniai paketai atskiriami į komponentus, kad būtų lengviau diegti ir valdyti. Naudojant naują būdą, plėtiniai ir pagrindiniai produktų diegimo programos yra atskiriami ir gali būti nepriklausomai aptarnaujami ir atnaujinti be kodų suliejimo arba perpakavimo.|
 | **Pakeitė kita funkcija?**   | CSU plėtiniai, EKA plėtinių diegimo programos, aparatūros stoties plėtinių diegimo programos |
 | **Paveiktos produkto sritys**         | „Dynamics 365 Commerce“ plėtinių paketas ir diegimas |
 | **Visuotinio diegimo parinktis**              | Visos |
@@ -104,7 +116,7 @@ EKA plėtinio kūrimas naudojant ModernPos.sln, CloudPOs.sln, EKA. Extension.csp
 | **Pakeitė kita funkcija?**   | Rekomenduojame klientams naudoti „Microsoft Edge“.|
 | **Paveiktos produkto sritys**         | Visi „Dynamics 365“ produktai |
 | **Visuotinio diegimo parinktis**              | Visos|
-| **Būsena**                         | Nerekomenduojama. „Internet Explorer“ 11 nebebus palaikomas po 2021 m. rugpjūčio.|
+| **Būsena**                         | Nerekomenduojama. „Internet Explorer 11“ nebus palaikoma nuo 2021 m. rugpjūčio.|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10011-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Commerce“ 10.0.11 versijoje
 ### <a name="data-action-hooks"></a>Duomenų veiksmų trikčių gaudyklės

@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80bba5446eb7a87d96a7da4ae856cb5ca114ce52
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: b9536a6e12b4037458910b7a2d27450ac175fd9d
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483787"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559612"
 ---
 # <a name="ready-to-pay"></a>Parengta mokėti
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-[!include [preview feature](./includes/preview-feature.md)]
 
 > [!NOTE]
 > Jei norite pažymėti darbuotoją kaip paruoštą mokėti, pirmiausia turite įgalinti funkciją **(Peržiūrėti) algalapio integravimą** Funkcijų valdyme. Daugiau informacijos apie peržiūros versijos funkcijų įjungimą žr. skyrių [Funkcijų valdymas](hr-admin-manage-features.md).
@@ -72,10 +70,9 @@ Jei nors vienas iš šių tikrinimų nepavyksta, negalite pažymėti darbuotojo 
 
 Jei laukas **Paruošta mokėti** yra **Ne**, tai reiškia, kad turite atlikti veiksmą, užtikrinantį darbuotojo profilio užbaigimą. Tai nesustabdys duomenų parodymo bet kuriame duomenų objekte. 
 
-## <a name="known-issues"></a>Žinomos problemos
+## <a name="process-automation"></a>Proceso automatizavimas
 
-- Turite išjungti funkciją **Supaprastintas darbuotojo įrašas** Funkcijų valdyme. Plytelės kompensacijų valdymo darbo srityje neveiks tinkamai, jei naudosite šią funkciją.
-- Puslapio **Darbuotojas** skirtuko **Algalapis** grupė **Paruošta mokėti** yra pasiekiama bet kuriam vartotojo vaidmeniui. 
+Galite automatizuoti visų darbuotojų tikrinimą naudodami [procesų automatizavimą](/dynamics365/fin-ops-core/dev-itpro/sysadmin/process-automation). Kompensavimo valdymo **darbo srityje** eikite į **Saitų**\> **parametrų** \>**procesų automatizavimas**.
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

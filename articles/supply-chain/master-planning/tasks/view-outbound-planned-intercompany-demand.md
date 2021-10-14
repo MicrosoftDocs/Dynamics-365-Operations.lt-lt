@@ -1,7 +1,7 @@
 ---
-title: Peržiūrėti siunčiamą suplanuotą vidinių įmonių poreikį
-description: Šioje procedūroje parodoma, kaip peržiūrėti visus suplanuotus užsakymus, kuriuos įvykdys vidinės įmonės tiekėjas.
-author: ShylaThompson
+title: Siunčiamo suplanuoto vidinių įmonių poreikio peržiūra
+description: Šioje temoje pateikiama procedūra, kuri parodo, kaip peržiūrėti siunčiamą suplanuotą vidinės įmonės poreikį.
+author: ChristianRytt
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,36 +10,34 @@ ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, ReqO
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3529c65944d1563f107d0186aa314a178eb1ee6a9e2898d2810ba110cc6d1c46
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8cf2350d754c5da9d3d428e2b75950d027ccfd63
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755280"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569750"
 ---
-# <a name="view-outbound-planned-intercompany-demand"></a>Peržiūrėti siunčiamą suplanuotą vidinių įmonių poreikį
+# <a name="view-outbound-planned-intercompany-demand"></a>Siunčiamo suplanuoto vidinių įmonių poreikio peržiūra
 
 [!include [banner](../../includes/banner.md)]
 
 Šioje procedūroje parodoma, kaip peržiūrėti visus suplanuotus užsakymus, kuriuos įvykdys vidinės įmonės tiekėjas. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra DEMF.
 
-1. Spustelėkite Bendrasis planavimas.
-2. Lauke Planas įveskite arba pasirinkite vertę.
-    * Lauke Planas pasirinkite 10 planą.  
-3. Spustelėkite Vykdyti.
-4. Lauke Gijų skaičius įveskite skaičių.
+1. Pasirinkite **Bendrasis planavimas**.
+2. Lauke **Planas** įveskite arba pasirinkite reikšmę.
+    * Lauke **Planas** pasirinkite planą *10*.  
+3. Pasirinkite *Vykdyti*.
+4. Lauke **Gijų skaičius** įveskite skaičių.
     * Tai nurodo lygiagrečių gijų, naudojamų vykdant bendrąjį planavimą, skaičių.  
-5. Spustelėkite GERAI.
+5. Pasirinkite **Gerai**.
     * Tai gali užtrukti.  
-6. Spustelėkite Suplanuotas vidinių įmonių poreikis.
-7. Spustelėkite Siunčiamas suplanuotas vidinių įmonių poreikis.
+6. Rinkitės **Suplanuotas vidinių įmonių poreikis**.
+7. Rinkitės **Išsiunčiamas vidinių įmonių poreikis**.
     * Šiame puslapyje pateikiama viso suplanuoto poreikio, kuri bus patenkintas naudojant vidinės tiekimo grandinės tiekėją, apžvalga.  
-8. Išplėskite skyrių Poreikio proceso pradžioje informacija.
+8. Išplėskite skyrių **Poreikio proceso pradžioje informacija**.
     * Šiame skyriuje galite peržiūrėti informaciją apie tai, kaip poreikis bus patenkintas. Gali tekti palaukti, kol bendrasis planavimas bus įvykdytas tiekimo įmonėje, kad čia galėtumėte peržiūrėti papildomą informaciją.  
-
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
