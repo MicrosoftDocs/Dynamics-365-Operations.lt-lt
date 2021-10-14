@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 7040a74fbb08bed0b0c2808784d9c0b70f2adf96bef28783102c7eb117eeb851
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a351567e0ed61fac040a6209a221833ab73a242a
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718362"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595267"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Naujos ER konfigūracijos, skirtos ataskaitų generavimui „Word“ formatu, kūrimas
 
@@ -46,7 +46,7 @@ Galite pridėti **„Excel”\\Diapazonas** ir **„Excel”\\Langelis** įdėtu
 
 ![Įdėtųjų elementų pridėjimas Formato dizaino įrankio puslapyje.](./media/er-design-configuration-word-image4.gif)
 
-Įrašant ER formato pakeitimus kūrimo metu, hierarchinė formato struktūra yra saugoma pridėtame „Word” šablone kaip [pasirinktinė XML dalis](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) pavadinimu **Ataskaita**. Turite pasiekti modifikuotą šabloną, atsisiųsti jį iš „Finance”, išsaugoti vietinėje sistemoje ir jį atidaryti „Word” darbalaukio programoje. Šioje iliustracijoje vaizduojamas vietinėje sistemoje saugomas valdiklio su pasirinktine XML dalimi **Ataskaita** pavyzdžio šablonas.
+Įrašant ER formato pakeitimus kūrimo metu, hierarchinė formato struktūra yra saugoma pridėtame „Word” šablone kaip [pasirinktinė XML dalis](/visualstudio/vsto/custom-xml-parts-overview) pavadinimu **Ataskaita**. Turite pasiekti modifikuotą šabloną, atsisiųsti jį iš „Finance”, išsaugoti vietinėje sistemoje ir jį atidaryti „Word” darbalaukio programoje. Šioje iliustracijoje vaizduojamas vietinėje sistemoje saugomas valdiklio su pasirinktine XML dalimi **Ataskaita** pavyzdžio šablonas.
 
 ![Pavyzdinio ataskaitos šablono peržiūra „Word” darbalaukio programoje.](./media/er-design-configuration-word-image5.gif)
 

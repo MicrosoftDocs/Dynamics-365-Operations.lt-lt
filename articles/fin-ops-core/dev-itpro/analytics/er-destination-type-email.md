@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: dc89e7ff43e5df358f6d41bd295e981c883085bc
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343865"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595208"
 ---
 # <a name="email-er-destination-type"></a>El. pašto ER paskirties vietos tipas
 
@@ -75,7 +75,7 @@ Galite nurodyti el. laiško siuntėją ir el. laiško gavėjus. Pagal numatytuos
 >
 > Kai el. pašto paskirtis yra siūloma keisti [vykdymo laiku](electronic-reporting-destinations.md#security-considerations), laukelyje **Froma** yra matoma tik vartotojams, turintiems `ERFormatDestinationSenderEmailMaintain` saugos teises, **Išlaikyti siuntėjo el. pašto adresą ER formato paskirčiai**.
 >
-> Kai **Fromos** laukelis yra konfigūruojamas siekiant naudoti el. pašto adresą, o ne esamo vartotojo, arba **Siųsti kaip** ar **Siųsti kieno vardu** teisės turi būti tinkamai [nustatytos](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide) iš anksto. Kitu atveju vykdymo metu pateikiama ši išimtis: „Nepavyko siųsti el. laiško kaip iš abonemento, patikrinkite teises Siųsti kaip" skyriuje \<from email account\> iš \<current user account\> bei\<from email account\>.
+> Kai **Fromos** laukelis yra konfigūruojamas siekiant naudoti el. pašto adresą, o ne esamo vartotojo, arba **Siųsti kaip** ar **Siųsti kieno vardu** teisės turi būti tinkamai [nustatytos](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group) iš anksto. Kitu atveju vykdymo metu pateikiama ši išimtis: „Nepavyko siųsti el. laiško kaip iš abonemento, patikrinkite teises Siųsti kaip" skyriuje \<from email account\> iš \<current user account\> bei\<from email account\>.
 
 Galite konfigūruoti lauką **Iš**, kad būtų grąžinamas daugiau nei vienas el. pašto adresas. Šiuo atveju, vardas sąraše naudojamas kaip el. pašto siuntėjo adresas.
 

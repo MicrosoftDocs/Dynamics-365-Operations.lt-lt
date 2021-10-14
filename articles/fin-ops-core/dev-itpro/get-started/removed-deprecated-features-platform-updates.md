@@ -2,7 +2,7 @@
 title: Pašalintos arba nebenaudojamos platformos funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti iš „Finance and Operations“ programų platformos naujinių.
 author: sericks007
-ms.date: 09/17/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 8910fc338f822e6b6b59acb0e6ee7a90db2b5007
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 956ead503d426bb6cdfd136957c7f9dfa157bc08
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500114"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595150"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Pašalintos arba nebenaudojamos platformos funkcijos
 
@@ -32,14 +32,26 @@ ms.locfileid: "7500114"
 
 Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](/dynamics/s-e/global/axtechrefrep_61). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
 
+## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>„Finance and Operations” programų 10.0.21 versijos platformos naujinimai
+
+### <a name="skype-for-business-online-support"></a>Verslo klientų aptarnavimo internete palaikymas
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo / pašalinimo priežastis** | Verslo tinklo įmonės atmestas. Norėdami gauti daugiau informacijos, [„The Skype for Business Online“ paslaugos nebegalioja](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/the-skype-for-business-online-service-has-retired/ba-p/2596601). |
+| **Pakeitė kita funkcija?**   | Šiuo metu ne, nors galime įtraukti buvimą iš komandų į ateitį.|
+| **Paveiktos produkto sritys**         | Žiniatinklio klientas |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Nerekomenduojama. **Skype įjungtas** nustatymai buvo išjungti išleidžiant 10.0.21. Šis parametras skirtas 2022 m. balandžio mėn. Tačiau, atlikus šį darbą, prieš išeius iš darbo komandai, „Skype“ nustos veikti. |
+ 
 ## <a name="feature-deprecation-effective-august-2021"></a>Pranešimas apie funkcijos nerekomendavimą, įsigaliojantį nuo 2021 m. rugpjūtis
 
 ### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>„Microsoft Azure“ SQL ataskaitos „Lifecycle Services“ (LCS)
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nerekomendavimo / pašalinimo priežastis** |   Visas veiklas ir stebėjimą atliks platforma per automatizavimą. Tam nereikės jokių neautomatinių veiksmų.|
-| **Pakeitė kita funkcija?**   | nr. |
+| **Nerekomendavimo / pašalinimo priežastis** | Visas veiklas ir stebėjimą atliks platforma per automatizavimą. Tam nereikės jokių neautomatinių veiksmų.|
+| **Pakeitė kita funkcija?**   | Taip, dabar yra automatizuota sistema, kuri šių pajėgumų nebenaudojama. |
 | **Paveiktos produkto sritys**         | SQL ataskaitos: dabartinis DTU, dabartinio DTU informacija, Gauti užrakto informaciją, dabartinio plano sąrašo vadovas, Gauti užklausos ID sąrašą, Gauti duoto plano ID SQL užklausos planą, Gauti užklausų planus ir vykdymo būseną, Gauti throttle config, Gauti laukimo statistiką, išvardyti tinkamiausias užklausas |
 | **Visuotinio diegimo parinktis**              | Debesies diegimas: Paveikia „Microsoft” valdomas gamybos ir 2‑5 pakopų smėlio dėžės aplinkas. |
 | **Būsena**                         | Nerekomenduojama: Suplanuota pašalinimo data – 2021 m. spalis. |
@@ -48,8 +60,8 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nerekomendavimo / pašalinimo priežastis** | Mes atšaukiame kai kurias SQL veiksmai LCS.  |
-| **Pakeitė kita funkcija?**   | nr. |
+| **Nerekomendavimo / pašalinimo priežastis** | Mes atšaukiame kai kurias SQL veiksmai LCS. Visas veiklas ir stebėjimą atliks platforma per automatizavimą. Tam nereikės jokių neautomatinių veiksmų. |
+| **Pakeitė kita funkcija?**   | Taip, dabar yra automatizuota sistema, kuri šių pajėgumų nebenaudojama. |
 | **Paveiktos produkto sritys**         | SQL veiksmai: sukurkite plano vadovą, kad planumėte ID, sukurkite plano vadovą, kaip įtraukti lentelės užuominas, pašalinti plano vadovą, išjungti / įgalinti puslapio užrakinimą ir užraktų perskyrimą, atnaujinti statistiką lentelėje, perkurti indeksą, kurti indeksą |
 | **Visuotinio diegimo parinktis**              | Debesies diegimas: Paveikia „Microsoft” valdomas gamybos ir 2‑5 pakopų smėlio dėžės aplinkas. |
 | **Būsena**                         | Nerekomenduojama: Suplanuota pašalinimo data – 2021 m. spalis. |
@@ -158,7 +170,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo/pašalinimo priežastis** | Bendrai, tinkintas kodas siūlo apribotas naudas ir tuo pat metu reikalauja reikšmingų šaltinių papildymų ir paramos skyrimo. Tinkintas kodas daugiausiai naudojamas ataskaitų autorių siekiant iškviesti viešus metodus iš tinkinto kodo surinkimo. Nepaisant to, debesyje patalpintos paslaugos nepalaiko sąsajų su tinkintais susirinkimais SSRS ataskaitoms. |
-| **Pakeitė kita funkcija?**   | Ataskaitų autoriai gali pasirinkti, ar tęsti susiejimą su viešomis .NET API matematikos, pavertimo ir formato veiksmams iš bet kurios teksto laukelio išraiškos. Dėl išsamesnės informacijos, žr. [Įtraukti kodą į ataskaitą (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
+| **Pakeitė kita funkcija?**   | Ataskaitų autoriai gali pasirinkti, ar tęsti susiejimą su viešomis .NET API matematikos, pavertimo ir formato veiksmams iš bet kurios teksto laukelio išraiškos. Dėl išsamesnės informacijos, žr. [Įtraukti kodą į ataskaitą (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs).  |
 | **Paveiktos produkto sritys**         | Programos ataskaitos projektavimo papildomas rinkinys turi tinkintą kodą. |
 | **Visuotinio diegimo parinktis**              | Visos |
 | **Būsena**                         | Su versija 10.0.13, užpildymo įrankis pradės išduoti perspėjimus instancijoms, kuriose tinkintas kodas yra aptiktas SSRS ataskaitos sąvokoje. Tam, kad išspręstumėte šią problemą, atverkite ataskaitos projektavimo sąvoka ir pašalinkite visus tinkintus kodo artefaktus. Šis pranešimas bus pakeistas užpildymo klaida ateities atnaujinimuose.   |
