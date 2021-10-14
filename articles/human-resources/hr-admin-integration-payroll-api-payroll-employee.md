@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 450872a38c833de9d37e2c6224839f2bca7cb4c6
-ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
+ms.openlocfilehash: 7f43476cd044a9cc2e11412aac4af1cff2f9e511
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7429242"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559538"
 ---
 # <a name="payroll-employee"></a>Algalapio darbuotojas
 
@@ -50,17 +50,17 @@ Faktinis pavadinimas: „mshr_payrollemployeeentity”.
 | **Identifikacijos tipo ID**</br>mshr_identificationtypeid</br>*Eilutė* |Tik skaitomas | Darbuotojui apibrėžtas identifikacijos tipas. |
 | **Identifikacijos numeris iki**</br>mshr_identificationnumber</br>*Eilutė* | Tik skaitomas |Darbuotojui apibrėžtas identifikacijos numeris. |
 | **Parengta mokėti**</br>mshr_readytopay</br>[mshr_noyes parinkties nustatymas](hr-admin-integration-payroll-api-no-yes.md) | Tik skaitomas | Nurodo, ar darbuotojas pažymėtas kaip parengtas mokėti. |
-| **Algalapio darbuotojo objekto ID**</br>„mshr_payrollemployeeentityid”</br>*GUID* | Būtina</br>Sistemos sugeneruota | Sistemos sukurta GUID reikšmė, skirta unikaliai atpažinti darbuotoją. |
+| **Algalapio darbuotojo objekto ID**</br>„mshr_payrollemployeeentityid”</br>*GUID* | Sistemos sugeneruota | Sistemos sugeneruota visuotinai unikali identifikatoriaus (GUID) vertė, norint unikaliai identifikuoti darbuotoją. |
 
 ## <a name="relations"></a>Ryšiai
 
 |Ypatybės vertė | Susijęs objektas | Naršymo ypatybė | Rinkimo tipas |
 | --- | --- | --- | --- |
-| _mshr_fk_employment_id_value | mshr_hcmemploymentdetailentity | mshr_FK_Employment_id | - |
+| _mshr_fk_employment_id_value | mshr_hcmemploymentdetailentity | mshr_FK_Employment_id | mshr_FK_HcmEmploymentDetailEntity_PayrollEmployee |
 | „_mshr_fk_fixedcompplan_id_value” | [mshr_payrollfixedcompensationplanentity](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md) | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_Employee |
 | _mshr_fk_name_id_value | mshr_dirpersonnamehistoricalentity | mshr_FK_Name_id | - |
-| _mshr_fk_worker_id_value | mshr_hcmworkerbaseentity | mshr_FK_Worker_id | - |
-| _mshr_fk_workerbankaccount_id_value | mshr_hcmworkerbankaccountentity | mshr_FK_WorkerBankAccount_id | - |
+| _mshr_fk_worker_id_value | mshr_hcmworkerbaseentity | mshr_FK_Worker_id | mshr_FK_HcmWorkerBaseEntity_PayrollEmployee |
+| _mshr_fk_workerbankaccount_id_value | mshr_hcmworkerbankaccountentity | mshr_FK_WorkerBankAccount_id | mshr_FK_HcmWorkerBankAccountEntity_PayrollEmployee |
 | _mshr_fk_variablecompaward_id_value | [mshr_payrollvariablecompensationawardentity](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md) | mshr_FK_VariableCompAward_id | mshr_FK_PayrollVariableCompensationAwardEntity_Employee |
 | _mshr_fk_address_id_value | [mshr_payrollworkeraddressentity](hr-admin-integration-payroll-api-payroll-worker-address.md) | mshr_FK_Address_id | mshr_FK_PayrollWorkerAddressEntity_Worker |
 

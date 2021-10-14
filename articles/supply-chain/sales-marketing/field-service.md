@@ -1,7 +1,7 @@
 ---
 title: Integravimo su „Microsoft Dynamics 365 Field Service“ apžvalga
 description: Šioje temoje pateikiama integravimo su „Microsoft Dynamics 365 Field Service“.
-author: ChristianRytt
+author: Henrikan
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: ecfd19cf79b9547c67b5bb90cef451d4aeab8f5ee775e50578161783e370462f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 23661bca91ccd7b7a04c763e60cfca9a99d62bfa
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761763"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566460"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Integravimo su „Microsoft Dynamics 365 Field Service“ apžvalga
 
@@ -58,7 +58,7 @@ Papildomos funkcijos šiame antrajame etape skirtos suteikti vietiniams aptarnav
 - „Supply Chain Management“ projektai, susiję su „Dynamics 365 Field Service“ darbo užsakymais
 - „Dynamics 365 Field Service“ darbo užsakymai, su nuoroda į „Supply Chain Management“ projektus, naudoja šį projekto numerį pardavimo užsakymui, kad būtų galima išrašyti projekto SF. 
 
-![„Supply Chain Management“ ir „Field Service“ verslo procesų sinchronizavimas.](./media/FSv2overview.png)
+![„Supply Chain Management“ ir „Field Service“ verslo procesų sinchronizavimas, įskaitant atsargų ir projekto informaciją.](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>Antrame integravimo tarp „Field Service“ ir „Supply Chain Management“ etape galima sinchronizuoti su toliau nurodytais šablonais:
 - Sandėliai („Supply Chain Management“ su „Field Service“) – sandėliai iš „Supply Chain Management“ su „“Field Service [Išplėstinė užklausa] 

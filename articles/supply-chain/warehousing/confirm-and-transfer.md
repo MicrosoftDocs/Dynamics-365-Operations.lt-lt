@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 70ebe47997f3b5945a433150ae66de6eb41ff12acf4f4f3c8268351116bdd313
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 4c366d2f9091ee46ac3b1b6eff72e178932da18e
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767956"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592633"
 ---
 # <a name="confirm-and-transfer"></a>Tvirtinimas ir perkėlimas
 
@@ -45,8 +45,8 @@ Galite skaidyti tik tuos krovinius, kurie atitinka visus šiuos kriterijus:
 
 - Viena ar daugiau krovinio eilučių pakėlė kiekius.
 - Krovinio būsena yra „neįkeltas”.
-- Nėra krovinio eilutės duomenų. (Šie duomenys sukuriami kuriant numerio lentelės konsolidaciją išdėstymo vietoje ir *Patvirtinti ir perkelti* funkcija nepalaiko numerio lentelės konsolidacijos.)
-- Nėra laukiama atsargų, kurios turi būti supakuotos, pakavimo vietoje. (*Patvirtinti ir perkelti* funkcija nepalaiko atsargų, paimtų į paketo stotį, bet kurios dar nebuvo supakuotos.)
+- Nėra krovinio eilutės duomenų. (Šie duomenys sukuriami kuriant numerio lentelės konsolidaciją išdėstymo vietoje ir Patvirtinti ir perkelti funkcija nepalaiko numerio lentelės konsolidacijos.)
+- Nėra laukiama atsargų, kurios turi būti supakuotos, pakavimo vietoje. (Toliau *Patvirtinimo ir perkėlimo* funkcija nepalaiko atsargų, kurios buvo išrinktos į packų stotį, bet dar nesupakuotos, nebent supakuoti konteineriai būtų padėti į paėmimo vietas, kuriose sukurtas pakrovimo darbas.)
 
 > [!NOTE]
 > Ši funkcija skiriasi nuo transportavimo krovinio funkcijos, kuri turėtų būti naudojama sandėliuose, kurie niekuomet neplanuoja ir nekuria krovinių prieš paėmimą, bet vietoj to atlaisvina vietos transportavimui, kai paėmimas baigiamas.

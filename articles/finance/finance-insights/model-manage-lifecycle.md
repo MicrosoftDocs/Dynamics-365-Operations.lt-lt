@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 28a5451f4932669fb66d5e47fd2f574eb3648428
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 0b16cfdce801e8a63b47397526b47995018b99c9
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386343"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594836"
 ---
 # <a name="model-management-lifecycle"></a>Modelio valdymo ciklas
 
@@ -32,4 +32,4 @@ Patariame treniruoti AI modelį smėlio dėžės aplinkoje ir tada naudoti valdo
 
 Kadangi AI modelis yra pagrįstas turimais sąskaitos faktūros ir kliento duomenimis, svarbu, kad smėlio dėžės aplinkoje būtų naujausia gamybos duomenų kopija. Galite pradėti treniruoti savo modelį atlikdami skyriaus [Klientų mokėjimo prognozių naudojimas](use-customer-payment-predictions.md) veiksmus. Kai modelis yra ištreniruotas, įvertinkite rezultatus, kaip aprašyta [Pradinio kliento mokėjimo prognozės modelio įvertinimas](evaluate-payment-prediction.md). Naudokitės skyriaus [Prognozės modelio patobulinimas](improve-model.md) informacija, kad eksperimentuotumėte su funkcija ir filtruotumėte derinius, galinčius padėti patobulinti modelį.
 
-Jei būsite patenkinti mokymo rezultatais, atlikite skyriaus [AI modelio paskirstymas](https://docs.microsoft.com/ai-builder/distribute-model), kad perkeltumėte modelį į savo gamybos aplinką.
+Jei būsite patenkinti mokymo rezultatais, atlikite skyriaus [AI modelio paskirstymas](/ai-builder/distribute-model), kad perkeltumėte modelį į savo gamybos aplinką.

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4b64863c668b71335b8935037cc1c2de1fcc620e0f3f91e97ca38614334e6cc9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3e1dbb97ba56b5910dda368b9ec15e27a683dde5
+ms.sourcegitcommit: 5c0a0adeb859cc1ade6f067444f3bf08a895b35a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774974"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7557397"
 ---
 # <a name="global-inventory-accounting-home-page"></a>Visuotinės atsargų apskaitos pagrindinis puslapis
 
@@ -46,8 +46,11 @@ Visuotinė atsargų apskaita šiuo metu yra pasiekiama šiuose „Azure” geogr
 - Jungtinė Karalystė
 - Australija
 - Kanada
+- Pietų Amerika
 
 Jei bandysite įdiegti papildinį kitame geografiniame regione, „Microsoft Dynamics Lifecycle Services” (LCS) rodys pranešimą, kad jūsų geografinis regionas nėra palaikomas. Visuotinė atsargų apskaita nepalaiko vietinių „Supply Chain Management” diegimų.
+
+Jei vienoje iš čia išvardytų palaikomų geografinių regionų įgalinate visuotinę atsargų apskaitą, siųsti el. laišką su aplinkos ID visuotinei [atsargų apskaitos komandai tikrinti](mailto:GlobalInvAccount@microsoft.com).
 
 ## <a name="licensing"></a>Licencijavimas
 

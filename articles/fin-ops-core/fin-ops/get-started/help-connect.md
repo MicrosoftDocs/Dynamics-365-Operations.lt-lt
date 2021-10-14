@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f793068a5d4df6206229249c5b37bee0ef34da8d
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 3a6c37822e84ba08fa0720ed2b3912cbec1448e3
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343817"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594862"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>„Finance and Operations“ programų žinyno funkcijų konfigūravimas
 
@@ -30,7 +30,7 @@ ms.locfileid: "7343817"
 
 ## <a name="help-architecture"></a>Žinyno architektūra
 
-„Finance and Operations“ programose yra konceptualių apžvalgų ir kitų temų, kurios publikuojamos svetainėje [https://docs.microsoft.com/dynamics365](/dynamics365/). Šį turinį galima pasiekti iš produkto srities **Žinynas**. Toliau esančiame paveikslėlyje pavaizduotos žinyno sistemos dalys.
+„Finance and Operations“ programose yra konceptualių apžvalgų ir kitų temų, kurios publikuojamos [„Microsoft Dynamics 365“ dokumentų](/dynamics365/) svetainėje. Šį turinį galima pasiekti iš produkto srities **Žinynas**. Toliau esančiame paveikslėlyje pavaizduotos žinyno sistemos dalys.
 
 [![Žinyno architektūra.](./media/help-architecture.png)](./media/help-architecture.png)
 
@@ -39,7 +39,7 @@ Produkto žinyno sistema gauna straipsnius iš docs.microsoft.com ir kitų priju
 ## <a name="adding-task-guides"></a>Užduočių vedlių įtraukimas
 
 > [!NOTE]
-> Skirtukas **Užduočių vedliai** šiuo metu „Human Resources“ arba „Commerce“ nepasiekiamas. <!--We are currently working to enable this functionality in a future release.--> Tačiau darbo su „Human Resources“ pradžioje išlieka pasiekiami pagrindinių funkcijų užduočių vedliai. „Human Resources“ ir „Commerce“ procedūrinis žinynas taip pat pasiekiamas svetainėje [https://docs.microsoft.com/dynamics365](/dynamics365/).
+> Skirtukas **Užduočių vedliai** šiuo metu „Human Resources“ arba „Commerce“ nepasiekiamas. <!--We are currently working to enable this functionality in a future release.--> Tačiau darbo su „Human Resources“ pradžioje išlieka pasiekiami pagrindinių funkcijų užduočių vedliai. „Human Resources“ ir „Commerce“ procedūrinis žinynas taip pat pasiekiamas [„Microsoft Dynamics 365“ dokumentų](/dynamics365/) svetainėje.
 
 Puslapyje **Sistemos parametrai** sistemos administratoriai gali konfigūruoti prieigą prie atitinkamų diegimui skirtų užduoties vedlių bibliotekų.
 

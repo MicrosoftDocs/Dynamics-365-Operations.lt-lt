@@ -1,8 +1,8 @@
 ---
 title: Išmokų valdymo darbo sritis
 description: Šioje temoje aprašoma darbo sritis „Išmokų valdymas“ programoje „Dynamics 365 Human Resources“ .
-author: andreabichsel
-ms.date: 02/24/2021
+author: twheeloc
+ms.date: 09/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 49393ab65c2f0020af5b246f7c18a152d613725f5b31be89cb57f244b28003f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6cc1432e108c74706dea124a62024272e65b6c1
+ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719097"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7512479"
 ---
 # <a name="benefits-management-workspace"></a>Išmokų valdymo darbo sritis
 
@@ -60,11 +60,11 @@ Pasirinkę plytelę pereisite prie tos srities puslapio. Pavyzdžiui, pasirinkus
 
 ![Darbininkų išmokų planai.](./media/hr-benefits-management-workspace-plans.png)
 
-Pasirinkę plyteles **Aktyvūs gyvenimo įvykiai** arba **Gyvenimo įvykiai ateityje** pereisite prie aktyvių arba ateities gyvenimo įvykių sąrašo.
+Pasirinkę plyteles **Aktyvūs gyvenimo įvykiai** arba **Gyvenimo įvykiai ateityje** pereis prie aktyvių arba ateities gyvenimo įvykių sąrašo.
 
 ![Gyvenimo įvykiai.](./media/hr-benefits-management-workspace-life-events.png)
 
-## <a name="processing"></a>Vykdoma
+## <a name="processing"></a>Apdorojama
 
 Registracijos tinkamumui, gyvenimo įvykiams ar tarifo keitimo atnaujinimams apdoroti naršymo meniu pasirinkite tinkamą elementą.
 
@@ -88,9 +88,42 @@ Norėdami peržiūrėti kitą išmokų laikotarpį, pasirinkite jį išskleidži
 
 ![Keisti laikotarpį.](./media/hr-benefits-management-workspace-period.png)
 
+
+## <a name="open-enrollment-tab"></a>atidaryti registraciją
+
+Savo veiksmų elementus galite peržiūrėti pasirinkdami plytelę arba skirtuką. Jei pasirinksite skirtuką, galėsite peržiūrėti ir pasirinkti darbuotojus darbo srities puslapio dešinėje.
+Skirtuke **Atidaryta registracija** pateikiama pagrindinė atvirų registracijų proceso metrikos informacija. 
+
+Informacija apie atvirą registraciją bus rodoma 30 dienų prieš **registracijos pradžios datą**. Tai yra nustatyta **Laikotarpiai** nustatyme **Išmokų valdymas** > **Nuorodos** > **Laikotarpiai**, lauke **registracijos pradžios datos**.  Norėdami pakeisti šį parametrą, eikite į **personalo bendrinamų parametrų** > **išmokų valdymo** > **atviros registracijos parinktis** ir atnaujinkite lauko **Numerį**.  
+
+Ši informacija yra prieinama skirtuke **Atidaryti registraciją**:
+ - Darbuotojai, nepradėję atviro registracijos proceso
+ - Darbuotojai, kurie turi apdorojamus sprendimus
+ - Darbuotojai, kurie turi atliktą rinkimo procesą
+ - Nepatvirtinti pasirinkimai
+
+**Suvestinės išklotinės**
+
+- **Nepradėta** – **Nepradėta** išklotinė rodo darbuotojų, kurie nepradėjo registracijos proceso, skaičių. Išklotinė **Nepradėta** dalis yra filtruotas sąrašas, kuriame rodomi tik tie darbuotojai, kurie nepasirinko jokių atvirų registracijos plano laikotarpio planų, jų atsisakyta arba išregistruoti. Privalomi planai yra ignoruojami ir neįtraukiami, nes jie pasirinkti pagal darbuotojo numatytuosius nustatymus.  Norėdami pamatyti darbuotojų, kurie nepradėjo atviros registracijos proceso, sąrašą darbuotojo išmokų plano puslapyje, galite detalizuoti **šią išklotąją dalyje**.
+
+  > [!NOTE]
+  > Jei nenorite sekti plano tipo atviros registracijos eigos, **Plano tipas**, galite neįtraukti eidami į **Išmokų valdymas** > **Nuorodos** > **Darbuotojo savitarnos paslaugos** > **Išmokų planų plytelės nustatymas** ir naujinimas **Sekimo atidarymo įsitraukimo progresas**.  Pavyzdžiui, galite turėti sukurtų planų, kurių **plano tipas** = **Kita**. Šie planai gali būti pasirinktiniai planai, kurių registravimo eigos sekti nenorite. Jei nepasirinksite šio plano tipo, šių tipų planų bus nepaisoma skirtuke Atviras registravimo sekimas arba baigimas **Atviras įsitraukimas** skirtukas. Šis parametras taikomas planų tipui, kuris pasirenkamas visiems laikotarpiams ir juridiniams subjektams.
+
+- **Vykdoma** – vykdoma **išklotinė** dalis pateikia darbuotojų, kurie turi pasirinkimas, skaičių. Vykdoma **išklotinė dalis** yra filtruotas sąrašas, kuriame rodomi tik darbuotojai, kurių bent vienas planas yra atsisakytas arba pasirinktas. Privalomi planai yra ignoruojami ir neįtraukiami, nes jie pasirinkti pagal darbuotojo numatytuosius nustatymus. Galite detalizuoti iš šios išklotinės dalies, kad darbuotojo išmokų planų masinio atnaujinimo puslapyje **būtų peržiūrėti pasirinkti ir atsisakyti** planai.
+
+- **Įtrauktas į išmokas** – **įtrauktas į išmokų** išklotinė dalis pateikia darbuotojų, kurie visiškai yra įtraukti į išmokas, skaičių. Įtrauktas į **išmokų išklotinį** tekstą yra filtruotas sąrašas, kuriame rodomi darbuotojai, kurie pasirinko arba atsi siekiant atsisakyti visų planų. Į užklausą nebus įtraukti planai, kurie nėra sekami, kad būtų galima pradėti registraciją **darbuotojų savitarnos parametrų** puslapyje. Galite detalizuoti iš šios išklotinės dalies, kad darbuotojo išmokų planų **puslapyje būtų rodomas** darbuotojų sąrašas.
+
+- **Nepatvirtinti pasirinkimai** – **nepatvirtintų pasirinkimų** išklotinė dalis rodo darbuotojų, kurių planai pasirinkti arba kurių reikia patvirtinti, skaičių. Galite detalizuoti iš šios išklotinės dalies, kad darbuotojo išmokų planų **Darbuotojų išmokos planų bendras naujinimas** darbuotojų sąrašas.
+
+**Veikla**
+
+- **Nepradėta** – **Nepradėta** skirtukas rodo darbuotojų sąrašą, kurie nepradėjo registracijos proceso, skaičių. Išklotinė **Nepradėta** dalis yra filtruotas sąrašas, kuriame rodomi tik tie darbuotojai, kurie nepasirinko jokių atvirų registracijos plano laikotarpio planų, jų atsisakyta arba išregistruoti. Privalomi planai yra ignoruojami ir neįtraukiami, nes jie pasirinkti pagal darbuotojo numatytuosius nustatymus. Norėdami, kad būtų rodomas išsamios darbuotojo išmokų planų informacijos puslapis **galite detalizuoti darbuotoją**.
+
+- **Rinkimas vykdomas** – vykdomi **rinkimai** skirtukas rodo darbuotojų, kurie turi pasirinkimas, sąrašą. Vykdoma **Rinkimo dalis** yra filtruotas sąrašas, kuriame rodomi tik darbuotojai, kurių bent vienas planas yra atsisakytas arba pasirinktas. Privalomi planai yra ignoruojami ir neįtraukiami, nes jie pasirinkti pagal darbuotojo numatytuosius nustatymus. Norėdami, kad būtų rodomas išsamios darbuotojo išmokų planų informacijos puslapis **galite detalizuoti darbuotoją**.
+
 ## <a name="view-more-options"></a>Peržiūrėti daugiau parinkčių
 
-Jei norite peržiūrėti daugiau informacijos ir veiksmų, kurių galite imtis, pasirinkite **Nuorodos**.
+Jei norite peržiūrėti daugiau informacijos ir (ar) papildomi veiksmai veiksmų, kurių galite imtis, pasirinkite **Nuorodos**.
 
 ![Saitai.](./media/hr-benefits-management-workspace-links.png)
 

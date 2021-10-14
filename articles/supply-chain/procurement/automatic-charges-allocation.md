@@ -1,23 +1,23 @@
 ---
 title: Automatinis išlaidų paskirstymas
 description: „Microsoft Dynamics 365 Supply Chain Management” išlaidų funkcija padeda automatiškai paskirstyti išlaidas pirkimo arba pardavimo užsakymuose.
-author: dasani-madipalli
-ms.date: 10/01/2020
+author: Henrikan
+ms.date: 09/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-10-01
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 04e17947073fca63ab68f0b5d0d72eb8366a1600117f61851179e8b0ed2c8184
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 6032539e57961998e7130e9cb6578248aaa2843e
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753944"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592545"
 ---
 # <a name="automatic-allocation-of-charges"></a>Automatinis išlaidų paskirstymas
 
@@ -26,6 +26,16 @@ ms.locfileid: "6753944"
 Atsižvelgdami į klientą, su kuriuo dirbate, arba į prekę, kurią parduodate, galbūt norėsite taikyti konkrečias papildomas išlaidas. „Microsoft Dynamics 365 Supply Chain Management” *išlaidų* funkcija padeda automatiškai paskirstyti išlaidas pirkimo arba pardavimo užsakymuose.
 
 Automatinės išlaidos taikomos automatiškai jums kuriant pardavimo arba pirkimo užsakymą. Galite nustatyti automatines išlaidas konkretiems tiekėjams, klientams arba tiekėjų ar prekių grupėms. Taip pat galite nustatyti automatines išlaidas, taikomas visiems tiekėjams, klientams arba prekėms.
+
+## <a name="set-up-parameters"></a>Nustatyti parametrus
+
+Puslapyje **Įsigijimo ir šaltinio parinkimo parametrai** yra keli parametrai, kurie ypač svarbūs, kai norite automatiškai priskirti mokesčius. Norėdami užbaigti šią sąranką, atlikite toliau nurodytus veiksmus.
+
+1. Eikite į **Įsigijimas ir šaltinio pasirinkimas \> Sąranka \> Įsigijimo ir šaltinio pasirinkimo parametrai**.
+1. Atidarykite skirtuką **Kainos**.
+1. „FastTab” **Kainos** nustatykite šiuos parametrus:
+    - **Rasti automatines antraštės išlaidas** – nurodo, ar išlaidos turi būti automatiškai paskirstomos pirkimo užsakymo antraštėms. Nustatykite kaip *Taip*, jei norite naudoti automatinį mokesčių paskirstymą.
+    - **Rasti automatines eilutės išlaidas** – nurodo, ar išlaidos turi būti automatiškai paskirstomos pirkimo užsakymo eilutėms. Nustatykite kaip *Taip*, jei norite naudoti automatinį mokesčių paskirstymą.
 
 ## <a name="set-up-charges-codes"></a>Išlaidų kodų nustatymas
 

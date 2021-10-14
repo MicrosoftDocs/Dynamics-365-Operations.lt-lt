@@ -1,7 +1,7 @@
 ---
 title: Pirkimo užsakymų darbo šablono nustatymas
 description: Šioje temoje aprašyta, kaip nustatyti paprastą darbo šabloną, kuris bus naudojamas atidedant gautas prekes.
-author: ShylaThompson
+author: Mirzaab
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4fb9038a680bd804f12ea7debe1eb631f6631da1da9667e4c335ed8673a179f1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 32dbdd8243c6b37cfe0c42d2e7b06adfa32a947a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718833"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572294"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Pirkimo užsakymų darbo šablono nustatymas
 

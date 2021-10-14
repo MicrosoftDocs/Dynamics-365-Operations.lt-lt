@@ -4,18 +4,18 @@ description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply
 author: kamaybac
 ms.date: 08/09/2021
 ms.topic: article
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3f586a00943e23b458ede1470b353d7c018ba923
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 894686446436a390ec2d019672e3a2b8b0e5f5ef
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500560"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579741"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.21 versijoje (2021 m. spalio mėn.)
 
@@ -26,20 +26,6 @@ ms.locfileid: "7500560"
 - **Peržiūrėti leidimą:** 2021 m. rugpjūčio mėn.
 - **Bendras leidimo pasiekiamumas (automatinis naujinimas):** 2021 m. rugsėjo mėn.
 - **Bendras leidimo pasiekiamumas (automatinis naujinimas):** 2021 m. spalio mėn.
-
-## <a name="known-deployment-issue"></a>Žinomas diegimo problema
-
-Kai IaaS diegiamas 10.0.21 paleidimas, galite gauti tokį diegimo įspėjimą:
-
-**Įspėjimo kodas:** 95017
-
-**Perspėjimo pranešima:** Scenarijaus \[SetupDiagnostics\] nepavyko pagal VM
-
-Nepaisant įspėjimo, diegimas bus veikia. Tačiau gali kilti tokių problemų, kurios gali kilti „Lifecycle Services“ (LCS):
-
-- **Aplinkos stebėjimo** puslapyje **Rodoma išsamios versijos informacija** nebus rodoma saito rodinyje, todėl negalėsite matyti konkrečių jūsų aplinkoje įdiegtų modulių versijų. Be šių duomenų gali nepavykti įdiegti vėlesnių svarbių pataisų, nes procesas, kuris taiko svarbias pataisas, naudoja šį duomenis, kad galėtų patikrinti, ar yra įvykdytos būtinos modulio versijos sąlygos. Kadangi PEAP/Peržiūros versijos gamybos metu naudoti neįmanoma arba taikyti svarbių pataisų, poveikis turėtų būti mažiausias.
-- **Veikimo metrikos** ir **Indekso analizės** skirtukai **Aplinkos stebėjimo** puslapyje, apačioje SQL žinių srityje, nerodo jokių duomenų. Visos kitos **Aplinkos stebėjimo** savybės veiks taip, kaip numatyta.
-- **Pilnas sistemos diagnostikos** puslapis nebus pasiekiamas. Susiję duomenys apie naktinio surinkėjo veiklos būseną ir jos taisyklių aptiktos problemos taip pat nebus rodomos.
 
 ## <a name="features-included-in-this-release"></a>Funkcijos, įtrauktos į šį leidimą
 

@@ -2,19 +2,19 @@
 title: Programėlių paslaugos „Finance and Operations“ aprašas
 description: Šioje temoje pateikiamas programėlių paslaugos „Finance and Operations“ aprašas.
 author: tomhig
-ms.date: 09/03/2021
+ms.date: 09/29/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 4df681641490fe3b43f4d927ad09e43007f83367
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: a1547f0cc6c6f705cd0e2ff6e5be751cb97b946a
+ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472510"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "7581821"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Programėlių paslaugos „Finance and Operations“ aprašas
 
@@ -28,7 +28,7 @@ ms.locfileid: "7472510"
 - [„Dynamics 365 Commerce“](/dynamics365/commerce/)
 - [„Dynamics 365 Project Operations“](/dynamics365/project-operations/)
 
-Kartu su [verslo sumanumu](/power-bi/fundamentals/power-bi-service-overview), [infrastruktūra](https://azure.microsoft.com/global-infrastructure/), [vykdymu](/azure/service-fabric/service-fabric-overview), ir [duomenų bazės paslaugomis](/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview), šios programos leidžia organizacijoms vykdyti konkrečią pramonės ir veiklos verslo procesus. Palaikomi savo diegimo partnerio, klientai apibrėžia verslo programos logikos, kuri geriausiai tinka unikaliems verslo procesams, konfigūraciją. Funkcijas ir verslo procesus galima padidinti arba išplėsti naudojant vieną iš šių sprendimų arba jų kombinaciją:
+Kartu su [verslo sumanumu](/power-bi/fundamentals/power-bi-service-overview), [infrastruktūra](https://azure.microsoft.com/global-infrastructure/), [vykdymu](/azure/service-fabric/service-fabric-overview), ir [duomenų bazės paslaugomis](https://devblogs.microsoft.com/azure-sql/running-1m-databases-on-azure-sql-for-a-large-saas-provider-microsoft-dynamics-365-and-power-platform/), šios programos leidžia organizacijoms vykdyti konkrečią pramonės ir veiklos verslo procesus. Palaikomi savo diegimo partnerio, klientai apibrėžia verslo programos logikos, kuri geriausiai tinka unikaliems verslo procesams, konfigūraciją. Funkcijas ir verslo procesus galima padidinti arba išplėsti naudojant vieną iš šių sprendimų arba jų kombinaciją:
 
 - Sukurta [personalizavimo patirties](personalize-user-experience.md)
 - [„Microsoft Power Platform“](../../dev-itpro/power-platform/overview.md) įrankiai
@@ -197,17 +197,17 @@ Toliau pateikiamoje lentelėje aprašomi įprasti aptarnavimo scenarijai ir veik
 | Patrūkite visus gamybos egzempliorius ir ne gamybos egzempliorius. | X | |
 | Patvirtinti talpintus visus gamybos egzempliorius ir ne gamybos egzempliorius. | | X |
 | **Paslaugų naujinimai** | |
-| „Microsoft" taiko tarnybos naujinimus nustatyties ne gamybos ir gamybos egzemplioriams. | X | X |
-| Atsisiųskite naujinimą iš LCS, nustatykite, sukurkite ir išbandykite naujinimą, tada pateikite kodo naujinimo paketą į LCS. | | X |
-| Prašyti, kad plėtinio naujinimai būtų taikomi gamybos egzemplioriui. | | X |
+| Taikyti tarnybos naujinimus nustatyties ne gamybos ir gamybos egzemplioriams. | X | |
+| Rankiniu būdu LCS pritaikykite tarnybos naujinimus sanddėdės egzemplioriams. Nustatykite, sukurkite, išbandykite naujinimą ir atkurkite kodo naujinimo paketą LCS. | | X |
+| Prašyti ir planuoti plėtinio naujinimus taip, kad jie būtų taikomi gamybos egzemplioriui. | | X |
 | Prieš pradedant taikyti atnaujinimus sukurkite gamybos egzemplioriaus kodą ir duomenų atsarginę kopiją. | X | |
 | Įvykus bet kokiems triktims, gamybos egzemplioriaus atšaukite kodą ir duomenų atsarginę kopiją. | X | |
 | **Duomenų valdymas (atsarginis kopijavimas, atkūrimas ir atnaujinimas)** | | |
 | Sukurti atsarginę duomenų bazės kopiją. | X | |
 | Nustatykite aukštą pasiekiamumą ir įvykių susigrąžinimo planą. | X | |
-| Stebėti gamybos egzemplioriaus duomenų bazės našumą. | X | X |
-| Derinti gamybos egzemplioriaus duomenų bazės veikimą. | X | X |
-| Inicijuoti gamybos egzemplioriaus duomenų bazės kopijavimą į ne gamybos egzempliorių. | | X |
+| Stebėti gamybos egzemplioriaus duomenų bazės našumą. | X | |
+| Derinti gamybos egzemplioriaus duomenų bazės veikimą. | X | |
+| Atlikti gamybos egzemplioriaus duomenų bazės tam tikrą laikotarpį atnaujinimą ne gamybos egzemplioriui. | | X |
 | **Infrastruktūros atnaujinimas** | | |
 | Suplanuoti įprastus infrastruktūros naujinimus. | X | |
 | **Dydžio mastelis (vartotojai, saugykla ir egzemplioriai)** | | |
@@ -215,7 +215,7 @@ Toliau pateikiamoje lentelėje aprašomi įprasti aptarnavimo scenarijai ir veik
 | Atnaujinkite naudojimo keitimus LCS abonemento įvertinimo įrankyje. | | X |
 | Pranešti apie bet kokias svarbias našumo problemas, kurios turi įtakos aptarnavimo naudojimui. | | X |
 | Proactively valdyti išteklius, reikalingus taikomai tarnybai. | X | |
-| Išnagrinėtos ir trikčių šalinimo incidentai. | X | X |
+| Išnagrinėtos ir trikčių šalinimo incidentai. | X | |
 | **Sauga (vartotojo prieiga)** | | |
 | Suteikti vartotojui prieigą prie paslaugos. | | X |
 | Suteikite LCS projekto prieigą, kad būtų galima valdyti ir valdyti egzempliorius, kurie įdiegti naudojant LCS. | | X |

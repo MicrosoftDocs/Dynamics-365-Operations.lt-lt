@@ -1,7 +1,7 @@
 ---
 title: „Field Service“ atsargų perkėlimo ir koregavimo sinchronizavimas su Tiekimo grandinės valdymu
 description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami sinchronizuojant „Dynamics 365 Supply Chain Management“ atsargų koregavimą ir perkėlimą su „Dynamics 365 Field Service“.
-author: ChristianRytt
+author: Henrikan
 ms.date: 04/30/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: f1fc4b65fefcc050591f721cf5271fdd79f1b648d992be988af7ac02e220850c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83ab46904815b177640c87fef58ce208d00d800a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717896"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566388"
 ---
 # <a name="synchronize-inventory-transfers-and-adjustments-from-field-service-to-supply-chain-management"></a>„Field Service“ atsargų perkėlimo ir koregavimo sinchronizavimas su Tiekimo grandinės valdymu
 
@@ -72,12 +72,12 @@ Toliau pateiktose iliustracijose vaizduojamas šablono susiejimas naudojant funk
 
 ### <a name="inventory-adjustment-field-service-to-supply-chain-management-inventory-adjustment"></a>Atsargų koregavimas (iš „Field Service“ į Tiekimo grandinės valdymą): atsargų koregavimas
 
-[![Šablono susiejimas naudojant funkcija Duomenų integravimas.](./media/FSAdj1.png)](./media/FSAdj1.png)
+[![Šablono susiejimas duomenų integravime, (iš „Field Service“ į „Supply Chain Management“): atsargų koregavimas.](./media/FSAdj1.png)](./media/FSAdj1.png)
 
 
 ### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>Atsargų perkėlimas (iš „Field Service“ į Tiekimo grandinės valdymą): atsargų perkėlimas
 
-[![Šablono susiejimas naudojant funkcija Duomenų integravimas.](./media/FSTrans1.png)](./media/FSTrans1.png)
+[![Šablono susiejimas duomenų integravime, atsargų perdavimas (iš „Field Service“ į „Supply Chain Management“): atsargų perdavimas.](./media/FSTrans1.png)](./media/FSTrans1.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

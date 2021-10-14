@@ -1,7 +1,7 @@
 ---
 title: Aptarnavimo sutarčių apžvalga
-description: Aptarnavimo sutarčių grupės yra naudingos aptarnavimo sutartims rūšiuoti ir filtruoti.
-author: ShylaThompson
+description: Šioje temoje pateikiama apžvalga, kaip dirbti su sutarčių darbu.
+author: kamaybac
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a3baaccf490af8231ca4389fa409b71f6286ff8d37bdcde78d8af95916d55cf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 82cb77dbeb03a2d43ec5a6f797d11984a33b6698
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734096"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578709"
 ---
 # <a name="service-agreements-overview"></a>Aptarnavimo sutarčių apžvalga
 
@@ -32,9 +32,9 @@ Puslapyje **Aptarnavimo valdymo parametrai** esančiame lauke **Aptarnavimo suta
 
 ## <a name="example"></a>Pavyzdys
 
--  Galite grupuoti savo aptarnavimo sutartis pagal atlikto aptarnavimo lygį. 
--  Savo įmonėje nustatėte tris sutarčių grupes: auksinę, sidabrinę ir bronzinę.
--  Jūsų įmonėje pasamdytas naujas klientų aptarnavimo vadybininkas. Aptarnavimo vadybininkas atsakingas už visus klientus Auksinėje sutarčių grupėje. Galite filtruoti sutarčių įrašus Auksinėje sutarčių grupėje, kad rastumėte visas sutartis, už kurias atsakomybę turite priskirti naujajam aptarnavimo vadybininkui.
+- Galite grupuoti savo aptarnavimo sutartis pagal atlikto aptarnavimo lygį.
+- Savo įmonėje nustatėte tris sutarčių grupes: auksinę, sidabrinę ir bronzinę.
+- Jūsų įmonėje pasamdytas naujas klientų aptarnavimo vadybininkas. Aptarnavimo vadybininkas atsakingas už visus klientus Auksinėje sutarčių grupėje. Galite filtruoti sutarčių įrašus Auksinėje sutarčių grupėje, kad rastumėte visas sutartis, už kurias atsakomybę turite priskirti naujajam aptarnavimo vadybininkui.
 
 ## <a name="related-topics"></a>Susijusios temos
 
