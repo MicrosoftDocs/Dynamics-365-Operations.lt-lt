@@ -1,7 +1,7 @@
 ---
 title: Tiesioginis pardavimo užsakymų sinchronizavimas tarp „Sales“ ir Tiekimo grandinės valdymo
 description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Dynamics 365 Sales“ pardavimo užsakymus tiesiogiai sinchronizuojant su „Dynamics 365 Supply Chain Management“.
-author: ChristianRytt
+author: Henrikan
 ms.date: 05/09/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 9e95ba361bddf4e43b205fe580bb6f4a91dd88248a0c059ad65e66ef07de83c0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad23190433b2843ec5063b5fa5b30351fcd86390
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753233"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566436"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Tiesioginis pardavimo užsakymų sinchronizavimas tarp „Sales“ ir Tiekimo grandinės valdymo
 
@@ -189,19 +189,19 @@ Toliau pateiktose iliustracijose vaizduojamas šablono susiejimo pavyzdys naudoj
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Pardavimo užsakymai (iš Tiekimo grandinės valdymo į „Sales“) – tiesioginis: OrderHeader
 
-[![Šablono susiejimas naudojant funkcija Duomenų integravimas.](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
+[![Šablono susiejimas duomenų integravime, pardavimo užsakymuose („Supply Chain Management“ į Pardavimus) - Tiesioginis: OrderHeader.](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderline"></a>Pardavimo užsakymai (iš Tiekimo grandinės valdymo į „Sales“) – tiesioginis: OrderLine
 
-[![Šablono susiejimas naudojant funkcija Duomenų integravimas.](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
+[![Šablono susiejimas duomenų integravime, pardavimo užsakymuose („Supply Chain Management“ į Pardavimus) - Tiesioginis: OrderLine.](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
 
 ### <a name="sales-orders-sales-to-supply-chain-management---direct-orderheader"></a>Pardavimo užsakymai (iš „Sales“ į Tiekimo grandinės valdymą) – tiesioginis: OrderHeader
 
-[![Šablono susiejimas naudojant funkcija Duomenų integravimas.](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
+[![Šablono susiejimas duomenų integravime, pardavimo užsakymuose („Sales“ į „Supply Chain Management“ į Pardavimus) - Tiesioginis: OrderHeader.](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
 
 ### <a name="sales-orders-sales-to-supply-chain-management---direct-orderline"></a>Pardavimo užsakymai (iš „Sales“ į Tiekimo grandinės valdymą) – tiesioginis: OrderLine
 
-[![Šablono susiejimas naudojant funkcija Duomenų integravimas.](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
+[![Šablono susiejimas duomenų integravime, pardavimo užsakymuose („Sales“ į „Supply Chain Management“ į Pardavimus) - Tiesioginis: OrderLine.](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 
 ## <a name="related-topics"></a>Susijusios temos
 

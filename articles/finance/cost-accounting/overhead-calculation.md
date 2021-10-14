@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 98fd0b4a18b02ed58034ec6e22763ed7c66f567f5c9eeeed124996757470c419
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 60bce611ae1f6ed5d63860793cd5d1da3c421a9e
+ms.sourcegitcommit: e3290eb58ae569a59d6ae2e6922e7d8be8f1980f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766294"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "7551809"
 ---
 # <a name="overhead-calculation"></a>Pridėtinių išlaidų skaičiavimas
 
@@ -1328,83 +1328,12 @@ Toliau pateikiamoje lentelėje parodoma, kas nutinka pritaikius pakavimo padalin
 ## <a name="conclusion"></a>Išvada
 Finansinėje apskaitoje 10 000,00 išlaidos už elektrą registruojamos fiktyviame išlaidų centro ID. Todėl išlaidų buhalteriai žinos, kad šias išlaidas reikia paskirstyti. Išlaidų apskaitoje išlaidų srautas nukreiptas į organizacijos vienetus ir lygius, atsižvelgiant į taikomas strategijas ir taisykles. Kiekviena savikaina yra susieta su paskirstymo pagrindu, kuris yra geriausias išlaidų paskirstymo įvertinimas.
 
-<table>
-<thead>
-<tr>
-<th colspan="2" rowspan="2">Savikainos elementas</th>
-<th colspan="9">Išlaidų objektas</th>
-<th rowspan="2">Bendroji suma</th>
-</tr>
-<tr>
-<th>CC099</th>
-<th>CC001</th>
-<th>CC002</th>
-<th>CC003</th>
-<th>CC004</th>
-<th>1 projektas</th>
-<th>2 projektas</th>
-<th>1 gamyba</th>
-<th>2 gamyba</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td colspan="2">10001 Elektros energija</td>
-<td style="text-align: right;"><strong>0,00</strong></td>
-<td style="text-align: right;"><strong>0,00</strong></td>
-<td style="text-align: right;"><strong>0,00</strong></td>
-<td style="text-align: right;"><strong>0,00</strong></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"><strong>30,00</strong></td>
-<td style="text-align: right;"><strong>10,00</strong></td>
-<td style="text-align: right;"><strong>7.770,57</strong></td>
-<td style="text-align: right;"><strong>2.189,43</strong></td>
-<td style="text-align: right;"><strong>10.000,00</strong></td>
-</tr>
-<tr>
-<td></td>
-<td style="text-align: left;">Nesuklasifikuota</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-</tr>
-<tr>
-<td style="text-align: right;"></td>
-<td style="text-align: left;">Fiksuotos išlaidos</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;">776.36</td>
-<td style="text-align: right;">223.64</td>
-<td style="text-align: right;"><strong>1.000,00</strong></td>
-</tr>
-<tr>
-<td style="text-align: right;"></td>
-<td style="text-align: left;">Kintamos išlaidos</td>
-<td style="text-align: right;">000</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">30,00</td>
-<td style="text-align: right;">10,00</td>
-<td style="text-align: right;">6,994.21</td>
-<td style="text-align: right;">1,965.79</td>
-<td style="text-align: right;"><strong>9.000,00</strong></td>
-</tr>
-</tbody>
-</table>
+Savikainos elementas | Išlaidų objektas<br>CC099 | Išlaidų objektas<br>CC001 | Išlaidų objektas<br>CC002 | Išlaidų objektas<br>CC003 | Išlaidų objektas<br>CC004 | Išlaidų objektas<br>1 projektas | Išlaidų objektas<br>2 projektas | Išlaidų objektas<br>1 gamyba | Išlaidų objektas<br>2 gamyba | Iš viso
+---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:
+10001 Elektros energija | 0,00 | 0,00 | 0,00 | 0,00 |  | 30.00 | 10,00 | 7,770.57 | 2,189.43 | 10,000.00 |
+Nesuklasifikuota | 0,00 |  |  |  |  |  |  |  |  |  |
+Fiksuotos išlaidos | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |  |  | 776.36 | 223.64 | 1,000.00 |
+Kintamos išlaidos | 000 | 0,00 | 0,00 | 0,00 | 0,00 | 30,00 | 10,00 | 6,994.21 | 1,965.79 | 9,000.00 |
 
 > [!NOTE]
 > Šioje temoje parodytas pirminio išlaidų elemento, 10001 Elektros energija, srautas per išlaidų objektus. Todėl šios pridėtinės išlaidos paskirstomos žemiausiu organizacijos lygiu. Kitaip tariant, išlaidas padengia žemiausio lygio išlaidų objektai. Jei reikia vizualiai pateikto išlaidų srauto tarp išlaidų objektų, galite naudoti išlaidų sumavimo strategijos taisykles, kad vizualiai pateiktumėte išlaidų srautą. Daugiau informacijos žr. [avikainos sumavimo strategija ir pridėtinių išlaidų skaičiavimas](cost-rollup.md).

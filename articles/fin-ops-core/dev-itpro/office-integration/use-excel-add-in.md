@@ -2,7 +2,7 @@
 title: Objekto duomenų peržiūra ir atnaujinimas programoje „Excel“
 description: Šioje temoje paaiškinama, kaip programoje „Microsoft Excel“ atidaryti objektų duomenis ir naudojant „Microsoft Dynamics“ „Excel“ papildinį peržiūrėti, atnaujinti ir redaguoti šiuos duomenis.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 10/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aefebe094a0429f22a1a7038a55ab2190e41da6348447850148b8b98e082e743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d1902e80313c5460ac38896bc2f46d83897e3a58
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761359"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592670"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Objekto duomenų peržiūra ir atnaujinimas programoje „Excel“ 
 
@@ -60,9 +60,9 @@ Naudojant „Excel“ papildinį automatiškai nuskaitomi pasirinkto objekto duo
 
 6. Pasirinkite **Gerai**, tada pasirinkite **Taip**, kad patvirtintumėte pakeitimą. „Excel“ papildinys paleidžiamas iš naujo ir įkeliami metaduomenys.
 
-    Jau galima naudoti mygtuką **Dizainas**. Jei „Excel“ papildinyje yra mygtukas **Įkelti programėles**, tikriausiai neprisijungėte kaip tinkamas vartotojas. Jei reikia daugiau informacijos, žr. šios temos skyriaus [Trikčių diagnostika](../office-integration/use-excel-add-in.md#troubleshooting) dalį „Rodomas mygtukas Įkelti programėles“.
+    Jau galima naudoti mygtuką **Dizainas**. Jei „Excel“ papildinyje yra mygtukas **Įkelti programėles** nuorodą, tikriausiai neprisijungėte kaip tinkamas vartotojas. Daugiau informacijos apie tai, kaip išspręsti šią problemą, ieškokite [krovinio trikčių](../office-integration/office-integration-troubleshooting.md#issue-the-excel-add-in-loads-but-instead-of-showing-data-it-displays-load-applets-in-the-task-pane) diagnostikos įraše.
 
-7. Pasirinkite **Dizainas**. Naudojant „Excel“ papildinį gaunami objektų metaduomenys.
+7. Pasirinkti **Dizainas**. Naudojant „Excel“ papildinį gaunami objektų metaduomenys.
 8. Pasirinkite **Įtraukti lentelę**. Pateikiamas objektų sąrašas. Jame objektai nurodomi „Pavadinimas – žyma“ formatu.
 9. Sąraše pasirinkite objektą, pvz., **Klientas – klientai**, tada pasirinkite **Pirmyn**.
 10. Norėdami į sąrašą **Pasirinkti laukai** įtraukti sąrašo **Galimi laukai** lauką, pasirinkite lauką, tada pasirinkite **Įtraukti**. Taip pat galite du kartus spustelėti sąraše **Galimi laukai** pateikiamą lauką.
@@ -136,7 +136,7 @@ Naudodami „Excel” papildinį, skelbiamo paketo dydį taip pat galite keisti 
 ## <a name="troubleshooting"></a>Trikčių šalinimas
 Kelias triktis galima pašalinti atlikus paprastus veiksmus.
 
-- **Rodomas mygtukas Įkelti programėles** – jei prisijungus „Excel“ papildinyje yra mygtukas **Įkelti programėles**, tikriausiai neprisijungėte kaip tinkamas vartotojas. Norėdami išspręsti šią problemą, patikrinkite, ar viršutiniame dešiniajame „Excel“ papildinio kampe pateikiamas teisingas vartotojo vardas. Jei pateikiamas neteisingas vartotojo vardas, jį pasirinkite, atsijunkite, tada prisijunkite iš naujo.
+- **Krovinių trikičių nuorodą rodoma** – Daugiau informacijos apie tai, kaip išspręsti šią problemą, ieškokite [Krovinių trikičų](../office-integration/office-integration-troubleshooting.md#issue-the-excel-add-in-loads-but-instead-of-showing-data-it-displays-load-applets-in-the-task-pane) diagnostikos įraše. 
 - **Gaunate pranešimą „Uždrausta“** – jei „Excel“ papildiniui įkeliant metaduomenis gausite pranešimą „Uždrausta“, paskyrai, kurios duomenis naudojant yra prisijungta prie „Excel“ papildinio, nesuteiktos teisės naudoti paskirties paslaugą, egzempliorių ar duomenų bazę. Norėdami išspręsti šią problemą, patikrinkite, ar viršutiniame dešiniajame „Excel“ papildinio kampe pateikiamas teisingas vartotojo vardas. Jei pateikiamas neteisingas vartotojo vardas, jį pasirinkite, atsijunkite, tada prisijunkite iš naujo.
 - **Programoje „Excel“ pateikiamas tuščias tinklalapis** – jei per prisijungimo procesą atidaromas tuščias tinklalapis, paskyroje būtinai turi būti naudojama AD FS, tačiau įdiegta nepakankamai nauja papildinį paleidžianti „Excel“ versija ir prisijungimo dialogo langas neįkeliamas. Norėdami pašalinti šią triktį, atnaujinkite naudojamą „Excel“ versiją. Norėdami atnaujinti „Excel“ versiją įmonėje, kurioje naudojamas atidėtų naujinimų kanalas, naudodami [„Office“ diegimo įrankį](/deployoffice/overview-office-deployment-tool) [pakeiskite atidėtų naujinimų kanalą į dabartinių naujinimų kanalą](/deployoffice/overview-update-channels).
 - **Gausite pranešimą apie pasibaigusį skirtą laiką, kol paskelbsite duomenų pakeitimus** – jei gaunate pranešimus apie pasibaigusį skirtą laiką, kol bandote paskelbti objekto duomenų pakeitimus, pabandykite sumažinti paveiktos darbaknygės skelbiamo paketo dydį. Objektai, kurių įrašų pakeitimų atlikimas yra sudėtingesnis, jų pakeitimus reikia siųsti mažesniais paketais, kad išvengtumėte pranešimų apie pasibaigusį skirtąjį laiką.

@@ -1,7 +1,7 @@
 ---
 title: Produkto brūkšninio kodo kūrimas
 description: Šioje procedūroje parodoma, kaip neautomatiniu būdu kurti brūkšninį kodą naudojant prekės numerį M0001 kaip pavyzdį.
-author: ShylaThompson
+author: t-benebo
 ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductO
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aad6d7ba412d3e822303d380e466608cbe7d9546
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: dcdf062ed14cc4cf395de006d55aba3dc2a94bae
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344921"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577365"
 ---
 # <a name="create-a-bar-code-for-a-product"></a>Produkto brūkšninio kodo kūrimas
 

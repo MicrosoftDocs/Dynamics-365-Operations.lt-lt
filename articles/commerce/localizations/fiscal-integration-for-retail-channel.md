@@ -3,7 +3,7 @@ title: „Commerce“ kanalų fiskalinės integracijos apžvalga
 description: Šioje temoje pateikiama fiskalinės integracijos galimybių, teikiamų „Dynamics 365 Commerce“, apžvalga.
 author: EvgenyPopovMBS
 manager: annbe
-ms.date: 08/10/2021
+ms.date: 09/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 35612714f9443f1f37b744d87eda373df84aaadd
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 323d9f4816a4f622143692ead3d1871980b19b52
+ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343292"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7512585"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>„Commerce“ kanalų fiskalinės integracijos apžvalga
 
@@ -141,6 +141,7 @@ Toliau pateikti fiskalinės integracijos pavyzdžiai šiuo metu teikiami „Comm
 - [Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Čekijos Respublikai](./emea-cze-fi-sample.md)
 - [Švedijos kontrolės įtaiso integracijos pavyzdys](./emea-swe-fi-sample.md)
 - [Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Vokietijai](./emea-deu-fi-sample.md)
+- [Fiskalinio spausdintuvo integracijos pavyzdys Rusija](./rus-fpi-sample.md)
 
 Tolesnės fiskalinio integravimo funkcijos taip pat įdiegiamos naudojant fiskalinio integravimo sistemą, bet jos jau yra perengtos naudoti ir nėra įtrauktos į „Commerce“ SDK.
 

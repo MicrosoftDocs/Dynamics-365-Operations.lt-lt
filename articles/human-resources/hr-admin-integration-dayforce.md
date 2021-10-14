@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 255cc612ef727153be70b755745eed9ad679b839
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: f92850a741f2a0d4d1c2636cbbdf21fe95f307df
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414589"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559466"
 ---
 # <a name="configure-integration-with-dayforce"></a>Integravimo su „Dayforce“ konfigūravimas
 
@@ -64,7 +64,6 @@ Daugiau informacijos apie „Azure“ saugyklos paskyras ir „Azure Storage“ 
 
 > [!NOTE]
 > Duomenų paketas, perduotas į SFTP galinį punktą, užšifruojamas naudojant unikalų pakuotės raktą. Raktas laikomas „Azure Key Vault“, kurį gali pasiekti tik „Ceridian“. Neįmanoma iššifruoti ir išanalizuoti duomenų paketo turinio. Jei reikia analizuoti duomenų paketo turinį, reikės rankiniu būdu eksportuoti duomenų projektą Atlyginimų integravimo eksportavimas, jį atsisiųsti ir tada atsidaryti. Eksportuojant rankiniu būdu nebus taikomas šifravimas ir paketas nebus perduodamas.
-> Tais atvejais, kai integravimo failai yra siunčiami iš „Dynamics 365 Human Resources” UAT arba Smėlio dėžės aplinkos į „Ceridian Dayforce” testavimo aplinką, galite naudoti šį raktų saugyklos URL: https://payrollintegrationprod.vault.azure.net.
 
 ## <a name="configure-your-data"></a>Jūsų duomenų konfigūravimas 
 

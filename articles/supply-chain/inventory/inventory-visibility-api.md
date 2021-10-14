@@ -2,7 +2,7 @@
 title: Atsargų matomumo viešos API
 description: Šioje temoje aprašomos viešos API, kurios pateikiamos pagal atsargų matomumą.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 09/30/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6dff54f54a495c2b4a7837f3a41f410d418cf12b
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.dyn365.ops.version: 10.0.22
+ms.openlocfilehash: 43fa94118c4d76e021bb635d720208d5f971db19
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474657"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592493"
 ---
 # <a name="inventory-visibility-public-apis"></a>Atsargų matomumo viešos API
 
@@ -82,6 +82,8 @@ Salos numeris yra ten, kur jūsų LCS aplinka įdiegta „Service Fabric“. Ši
 
 Platformos saugos atpažinimo ženklas naudojamas atsargų matomumo viešui API iškviesti. Todėl turite sugeneruoti _„Azure Active Directory“ („Azure AD“) atpažinimo ženklą_, naudodami savo „Azure AD“ programą. Tada turite naudoti „Azure AD“ atpažinimo ženklą, kad iš saugos tarnybos gautumėte _prieigos atpažinimo ženklą_.
 
+„Microsoft" teikia "out-of-box *Paštininko* užklausų rinkinį. Šį rinkinį galite importuoti į savo *paštininko* rango programinę įrangą naudodami šį bendrai naudojamą saitą: <https://www.getpostman.com/collections/496645018f96b3f0455e>.
+
 Gaukite saugos paslaugų žymą atlikdami taip.
 
 1. Prisijunkite prie „Azure” portalo ir naudokite jį rasti `clientId` ir `clientSecret` vertes Jūsų „Dynamics 365 Supply Chain Management“ programa.
@@ -131,7 +133,7 @@ Gaukite saugos paslaugų žymą atlikdami taip.
    - Reikšmė `context` turi būti aplinkos LCS ID, kuriame norite diegti papildinį.
    - Nustatykite visas kitas reikšmes, kaip parodyta pavyzdyje.
 
-1. Pateikite HTTP užklausą su šiomis ypatybes:
+1. Iškvieskite (`access_token`) atpažinimo ženklą pateikdami HTTP užklausą su šiomis ypatybes:
 
    - **URL:** `https://securityservice.operations365.dynamics.com/token`
    - **Metodas:** `POST`
@@ -148,7 +150,8 @@ Gaukite saugos paslaugų žymą atlikdami taip.
    }
    ```
 
-Vėlesniuose skyriuose naudokite `$access_token` norėdami pateikti atpažinimo ženklą, kuris buvo rastas paskutiniame veiksme.
+> [!IMPORTANT]
+> Kai naudojate pašto *reikalauti* rinkinį iškviesti atsargų matomumo viešus API, kiekvienai užklausai turite pridėti panaudos priemonės atpažinimo ženklą. Norėdami rasti savo išdėstojo atpažinimo ženklą, po užklausos URL pasirinkite skirtuką **Autorizavimo** pasirinkite **Bearer ženklas** tipą ir kopijuokite prieigos atpažinimo ženklą, kuris buvo rastos paskutiniame veiksme. Vėlesniuose skyriuose naudokite `$access_token` norėdami pateikti atpažinimo ženklą, kuris bus rastas paskutiniame veiksme.
 
 ## <a name="create-on-hand-change-events"></a><a name="create-onhand-change-event"></a>Kurti vieną turimos informacijos pakeitimo įvykius
 
@@ -508,7 +511,7 @@ Body:
 
 - `organizationId` turi būti tik viena vertė, bet ji vis dar masyve.
 - `productId` gali būti viena ar daugiau verčių. Jei yra tuščias masyvas, bus pateiktos visų produktų grąžintos.
-- `siteId` ir `locationId` yra naudojami atsargų matomumui skaidant.
+- `siteId` ir `locationId` yra naudojami atsargų matomumui skaldyti. Galite nurodyti daugiau nei vieną `siteId` ir `locationId` vertę *turimos užklausos* užklausoje. Dabartiniame leidime turite nurodyti ir vertes, `siteId` ir `locationId` vertes.
 
 Parametras `groupByValues` turi būti nurodytas indeksavimo konfigūracijoje. Daugiau informacijos, žr. [Produkto indekso hierarchijos konfigūracija](./inventory-visibility-configuration.md#index-configuration).
 

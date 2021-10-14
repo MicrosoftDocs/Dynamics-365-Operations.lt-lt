@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: de753eda43cb358dfa9edc76f102d4b268291b4e
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 804c18c1b165fff99390db1fda22da0137249373
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386443"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595042"
 ---
 # <a name="improve-the-prediction-model"></a>Prognozės modelio tobulinimas
 
@@ -75,6 +75,6 @@ Toliau esančiuose skyriuose pateikiami laukai, kurie galimi SF ir kliento objek
 
 Galite filtruoti sąskaitas faktūras, naudojamas mokymo metu, nustatydami SF arba klientų lentelių laukų filtro kriterijus. Pavyzdžiui, galite nustatyti ribinę vertę, kad būtų įtrauktos tik tos sąskaitos faktūros, kurių suma atitinka arba viršija konkrečią sumą. Taip pat galite neįtraukti sąskaitų faktūrų, kurios susietos su konkrečios klientų grupės klientais.
 
-Daugiau informacijos apie duomenų filtravimą ieškokite [Prognozės modelio kūrimas](https://docs.microsoft.com/ai-builder/prediction-create-model#filter-your-data).
+Daugiau informacijos apie duomenų filtravimą ieškokite [Prognozės modelio kūrimas](/ai-builder/prediction-create-model#filter-your-data).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

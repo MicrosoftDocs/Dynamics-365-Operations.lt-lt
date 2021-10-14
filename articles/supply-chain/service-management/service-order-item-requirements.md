@@ -1,7 +1,7 @@
 ---
 title: Aptarnavimo užsakymo prekių poreikiai
-description: Jei aptarnavimo užsakymui reikia rezervuoti konkrečių prekių, galite jam sukurti atsargų prekių poreikių.
-author: ShylaThompson
+description: Šioje temoje aprašoma, kaip sukurti tarnybos užsakymo prekės reikalavimus.
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a57dc7f41e283d097daef1b92b6b22c093655ff48c7a3778f7ab541ebb24964
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ae211cb24e3ed0e9e54643448ee378a20658ad89
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746093"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573206"
 ---
-# <a name="service-order-item-requirements"></a>Aptarnavimo užsakymo prekių poreikiai   
+# <a name="service-order-item-requirements"></a>Aptarnavimo užsakymo prekių poreikiai
 
 [!include [banner](../includes/banner.md)]
-
 
 Galite kurti aptarnavimo užsakymą, jei norite sekti ir valdyti klientams teikiamas paslaugas. Jei aptarnavimo užsakymui reikia rezervuoti konkrečių prekių, galite jam sukurti atsargų prekių poreikių. Prekės poreikį galima nedelsiant panaudoti iš atsargų, arba jis gali inicijuoti tos prekės gamybos užsakymą.
 
@@ -37,31 +36,24 @@ Kai tik sukuriamas aptarnavimo užsakymo prekės poreikis, jį galima peržiūr�
 
 ## <a name="view-an-item-requirement-from-a-service-order"></a>Prekės poreikio pagal aptarnavimo užsakymą peržiūra
 
-1.  Spustelėkite **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**.
-
-2.  Spustelėkite **Išsiųsti**, po to spustelėję **Prekės poreikis** atidarykite formą **Prekių poreikiai**.
-
-3.  Spustelėkite skirtuką **Projektas** ir lauke **Aptarnavimo užsakymas** peržiūrėkite prekės poreikio aptarnavimo užsakymus.
+1. Eikite į **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**.
+1. Rinkitės **Išsiųsti**, po to rinkitės **Prekės poreikis** atidarykite formą **Prekių poreikiai**.
+1. Rinkitės skirtuką **Projektas** ir lauke **Aptarnavimo užsakymas** peržiūrėkite prekės poreikio aptarnavimo užsakymus.
 
 ## <a name="delete-service-orders-with-item-requirements"></a>Aptarnavimo užsakymų su prekių poreikiais naikinimas
 
 Jei prekės poreikis sukurtas aptarnavimo užsakyme, jūs negalite naikinti aptarnavimo užsakymo. Norėdami naikinti aptarnavimo užsakymą, turite panaikinti prekės poreikį.
 
-1.  Spustelėkite **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**.
-
-2.  Spustelėkite **Išsiųsti**, po to spustelėję **Prekės poreikis** atidarykite formą **Prekių poreikiai**. Šioje formoje išvardyti visi prekių poreikiai, sukurti aptarnavimo užsakyme.
-
-3.  Pasirinkite norimą naikinti prekės poreikį ir spustelėkite **Naikinti**..
+1. Eikite į **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**.
+1. Rinkitės **Išsiųsti**, po to rinkitės **Prekės poreikis** atidarykite formą **Prekių poreikiai**. Šioje formoje išvardyti visi prekių poreikiai, sukurti aptarnavimo užsakyme.
+1. Pasirinkite norimą naikinti prekės poreikį ir rinkitės **Naikinti**.
 
 arba,
 
-1.  Spustelėkite **Projektų valdymas ir apskaita** \> **Bendra** \> **Projektai** \> **Visi projektai**.
-
-2.  Atidarykite projektą su aptarnavimo užsakymu, kuriame sukurtas prekės poreikis.
-
-3.  Dešinėje srityje esančioje formoje **Projektai** spustelėkite **Prekių poreikiai**. Formoje **Prekių poreikiai** pateikiami su pasirinktu projektu susieti prekių poreikiai.
-
-4.  Pasirinkite norimą naikinti prekės poreikį ir spustelėkite **Naikinti**..
+1. Eikite į **Projektų valdymas ir apskaita** \> **Bendra** \> **Projektai** \> **Visi projektai**.
+1. Atidarykite projektą su aptarnavimo užsakymu, kuriame sukurtas prekės poreikis.
+1. Dešinėje srityje esančioje formoje **Projektai** rinkitės **Prekių poreikiai**. Formoje **Prekių poreikiai** pateikiami su pasirinktu projektu susieti prekių poreikiai.
+1. Pasirinkite norimą naikinti prekės poreikį ir rinkitės **Naikinti**.
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

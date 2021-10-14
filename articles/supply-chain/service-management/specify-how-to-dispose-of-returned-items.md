@@ -1,7 +1,7 @@
 ---
 title: Nustatymas, kaip išmesti grąžintas prekes
 description: Nustatykite,, kaip išmesti grąžintas prekes.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 594832f4d89a630bd88b18f665a6afbc7a918f0e5c9627f835f18d4b1a4d2cab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e609c1c285b34a5416a2058809b2fc4fafb73fca
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722252"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571334"
 ---
-# <a name="specify-how-to-dispose-of-returned-items"></a>Nustatymas, kaip išmesti grąžintas prekes 
+# <a name="specify-how-to-dispose-of-returned-items"></a>Nustatymas, kaip išmesti grąžintas prekes
 
 [!include [banner](../includes/banner.md)]
-
 
 Rengiant grąžinimo užsakymą būtina nurodyti grąžinimo priežasties kodą, taip nustatant, kodėl produktas grąžinamas. Taip pat būtina nurodyti perdavimo kodą ir perdavimo veiksmą, taip nurodant, kokius veiksmus reikia atlikti su grąžinamu produktu.
 
@@ -35,9 +34,9 @@ Galite nurodyti bet kuriuos perdavimo kodus, būtinus verslo procesams palaikyti
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -125,8 +124,8 @@ Nurodydami kiekvieną perdavimo kodą turite pasirinkite perdavimo veiksmą. Per
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -162,24 +161,15 @@ Nurodydami kiekvieną perdavimo kodą turite pasirinkite perdavimo veiksmą. Per
 </tbody>
 </table>
 
-
 ## <a name="select-a-disposition-code-for-a-quarantine-order"></a>Pasirinkite sulaikymo užsakymo perdavimo kodą
 
-1.  Spustelėkite **Atsargų valdymas** \> **Periodinis** \> **Kokybės valdymas** \> **Sulaikymo užsakymai**.
-
-2.  Skirtuko **Apžvalga** lauke **Perdavimo kodas** pasirinkite jau egzistuojančio sulaikymo užsakymo veiksmą.
-
-
+1. Eikite į **Atsargų valdymas** \> **Periodinis** \> **Kokybės valdymas** \> **Sulaikymo užsakymai**.
+1. Skirtuko **Apžvalga** lauke **Perdavimo kodas** pasirinkite jau egzistuojančio sulaikymo užsakymo veiksmą.
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 [Sulaikymo užsakymas (forma)](/dynamicsax-2012//quarantine-order-form)
 
 [Perdavimo kodai (forma)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))
-
-  
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

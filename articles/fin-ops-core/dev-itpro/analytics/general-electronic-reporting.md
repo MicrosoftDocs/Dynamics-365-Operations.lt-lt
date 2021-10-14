@@ -2,7 +2,7 @@
 title: Elektroninių ataskaitų (ER) apžvalga
 description: Šioje temoje pateikiama elektroninių ataskaitų įrankio apžvalga. Aprašomos pagrindinės koncepcijos, palaikomi scenarijai ir formatai, kurie yra sprendimo dalis.
 author: NickSelin
-ms.date: 04/23/2021
+ms.date: 09/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9bb0b427f4fe30ab95efabf8ab9871b681e35d51c0fbaf5a162235640d2f376
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f0fd83c787be4d9de151d2727384d07bc209e33f
+ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723170"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7562181"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroninių ataskaitų (ER) apžvalga
 
@@ -50,7 +50,14 @@ ER mechanizmas turi toliau nurodytas galimybes.
 
 ### <a name="components"></a>Komponentai
 
-ER palaiko dviejų tipų komponentus: **Duomenų modelis** ir **Formatas**.
+Elektroninės ataskaitos (ER) palaiko šiuos komponentų tipus:
+
+- Duomenų modelis
+- Modelio susiejimas
+- Formatuoti
+- Metaduomenys
+
+Daugiau informacijos žr. [Elektroninės ataskaitos komponentai](er-overview-components.md).
 
 #### <a name="data-model-and-model-mapping-components"></a>Duomenų modelio ir modelio susiejimo komponentai
 

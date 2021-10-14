@@ -1,7 +1,7 @@
 ---
 title: Nustatyti vežėjo degalų indeksus
 description: Šis vadovas parodo, kaip sukurti degalų indekso regioną, degalų indeksą ir vežėjo degalų indeksą.
-author: ShylaThompson
+author: Henrikan
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 504c5143fac0e46f4d7be134d400ae53d999d25b1b364fe0278343b3d7664bf0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1b67219a6cb19b393dce25f77febc194c5ea2a16
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782328"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576261"
 ---
 # <a name="set-up-a-carrier-fuel-index"></a>Nustatyti vežėjo degalų indeksus
 

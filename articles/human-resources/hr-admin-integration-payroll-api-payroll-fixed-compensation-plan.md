@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dcb253fabbb183003048119c7a627bf0ab960050
-ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
+ms.openlocfilehash: a3cc431307d840d393a454e91f202c07c38d2512
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7429239"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559344"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>Algalapio pastoviosios atlyginimo dalies planas
 
@@ -42,7 +42,7 @@ Faktinis pavadinimas: „mshr_payrollfixedcompensationplanentity”.
 | **Pareigų ID**</br>mshr_positionid</br>*Eilutė* | Tik skaitomas | Pareigų ID, kuris susietas su darbuotoju ir pastoviosios atlyginimo dalies plano registracija. |
 | **Galioja nuo**</br>„mshr_validfrom”</br>*Datos ir Laiko poslinkis* |  Tik skaitomas | Data, nuo kurios galioja darbuotojo pastovioji atlyginimo dalis.  |
 | **Galioja iki**</br>„mshr_validto”</br>*Datos ir Laiko poslinkis* | Tik skaitomas | Data, iki kurios galioja darbuotojo pastovioji atlyginimo dalis. |
-| **Išmokos dažnumas**</br>„mshr_payfrequency”</br>*Eilutė* | Tik skaitomas | Dažnumas, kuriuo bus mokama darbuotojui.  |
+| **Išmokos dažnumas**</br>„mshr_payfrequency”</br>*Eilutė* | Tik skaitomas | Kompensavimo mokėjimo [dažnumo ID pagal tam tikrą](hr-admin-integration-payroll-api-compensation-pay-frequency.md) užmokesčio tarifą. |
 | **Valiuta**</br>„mshr_currency”</br>*Eilutė* | Tik skaitomas | Valiuta, apibrėžta pastoviosios atlyginimo dalies planui. |
 | **Algalapio pastoviosios atlyginimo dalies objektas**</br>„mshr_payrollfixedcompensationplanentityid”</br>*GUID* | Sistemos sugeneruota | Sistemos sukurta GUID vertė siekiant unikaliai atpažinti atlyginimo dalies planą. |
 

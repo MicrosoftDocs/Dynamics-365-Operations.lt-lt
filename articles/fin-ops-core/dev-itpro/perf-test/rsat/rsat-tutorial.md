@@ -1,24 +1,21 @@
 ---
 title: „Regression Suite Automation Tool“ mokymas
 description: Šioje temoje parodoma, kaip naudoti „Regression Suite Automation Tool“ (RSAT). Joje aprašomos įvairios funkcijos ir pateikiami pavyzdžiai, kuriuose naudojami išplėstiniai scenarijai.
-author: robinarh
-ms.date: 01/15/2021
+author: FrankDahl
+ms.date: 09/23/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: rhaertle
-ms.custom: 21761
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: d70b2e7cf497fbf165a452f7977a14a98b9e1956e5a964d42c7bf8a6c3abe0bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f1d818944ed2779cdad15d84673369e31243285f
+ms.sourcegitcommit: ba8ca42e43e1a5251cbbd6ddb292566164d735dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714554"
+ms.lasthandoff: 09/25/2021
+ms.locfileid: "7556770"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>„Regression Suite Automation Tool“ mokymas
 
@@ -82,13 +79,19 @@ Paleidus tikrinimo atvejį, pranešimas „Excel“ parametro faile palyginamas 
 
 Ši funkcija užfiksuoja veiksmų, kurie buvo atlikti įrašant užduotį, ekrano kopijas. Ji naudinga audito arba programinių klaidų taisymo tikslais.
 
-- Norėdami naudoti šią funkciją atidarykite failą **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** RSAT diegimo aplanke (pvz., **C:\\Program Files (x86)\\Regression Suite Automation Tool**) ir pakeiskite toliau nurodyto elemento reikšmę iš **false** į **true**.
+- Norėdami naudoti šią funkciją atidarykite failą vykdant RSAT su vartotojo sąsaja, **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** RSAT diegimo aplanke (pvz., **C:\\Program Files (x86)\\Regression Suite Automation Tool**) ir pakeiskite toliau nurodyto elemento reikšmę iš **teisingas** į **klaidingas**.
 
     ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-Kai vykdote testavimo atvejį, RSAT sugeneruoja veiksmų momentines kopijas (vaizdus), esančias darbo kataloge, testavimo atvejų atkūrimo aplanke. Jei naudojate senesnę RSAT versiją, vaizdai įrašomi **C:\\Users\\\<Username\>\\AppData\\Roaming\\regressionTool\\playback**, kiekvienam vykdomam testavimo atvejui sukuriamas atskiras aplankas.
+- Norėdami naudoti šią funkciją atidarykite failą vykdant RSAT su vartotojo sąsaja, (pavyzdžiui „Azure DevOps“), atverkite **Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe.config** failą RSAT diegimo kataloge (pavyzdžiui, **C:\\Program Files (x86)\\Regression Suite Automation Tool**), ir pakeiskite tolesnio elemento vertę iš **klaidingas** į **teisingas**.
+
+    ```xml
+    <add key="VerboseSnapshotsEnabled" value="false" />
+    ```
+
+Kai Jūs vykdote testavimo atvejį, RSAT sugeneruoja veiksmų momentines kopijas (vaizdus), esančias darbo kataloge, testavimo atvejų atkūrimo aplanke. Antrinėje aplanke sukuriamas atskiras poaplankių pavadinimas **StepSnapshots**. Šiame aplanke yra paleisties bandymų atvejų momentinės kopijos.
 
 ## <a name="assignment"></a>Priskyrimas
 
@@ -521,7 +524,7 @@ for ($i = $start; $i -lt $start + $nr; $i++ )
 
 Toliau pateiktame pavyzdyje naudojamas „Open Data Protocol“ („OData“) iškvietimas, kad būtų galima rasti pirkimo užsakymo būseną. Jei būsena nėra **išrašyta SF**, galite, pavyzdžiui, iškviesti RSAT tikrinimo atvejį, kuris užregistruos SF.
 
-```xpp
+```powershell
 function Odata_Get
 {
     Param ( [string] $environment, [string] $cmd )

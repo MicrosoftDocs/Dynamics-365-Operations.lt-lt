@@ -1,22 +1,22 @@
 ---
 title: Užantspauduotas kainos pasiūlymas, skirtas RFQ
 description: Šioje temoje aprašoma, kaip nustatyti užantspauduotos kainos pasiūlymą, kad tiekėjo kainų pasiūlymo atsakymai būtų palikti slapti, kol jie nėra atskleisti pirkimo personalo.
-author: yanansong
+author: Henrikan
 ms.date: 08/02/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: yanansong
+ms.author: henrikan
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 02cbe9d6a6d157208d73ed756efae24df2a082de
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 96549b6053ba75f2d5b9a85bcd5b7feb006f0f1b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500639"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578085"
 ---
 # <a name="sealed-bidding-for-rfqs"></a>Užantspauduotas kainos pasiūlymas, skirtas RFQ
 
@@ -53,7 +53,11 @@ Prieš pradėdami nustatyti ar naudoti šią savybę, privalote įsitikinti, kad
 „Supply Chain Management“ naudoja šifravimo raktus visiems užantspauduotiems kainų pasiūlymams apsaugoti ir saugoti juos slaptai iki reikiamo laiko. Siekiant sugeneruoti ir valdyti reikalingus raktus, atsižvelgiama į "Key Vault" galimybes. Todėl turite nustatyti ryšį iš „Supply Chain Management“ į rakto saugyklą, kad įgalintumėte sistemą.
 
 > [!IMPORTANT]
-> Rakto saugykla turi būti sukurta „Azure“ abonemente, kuris priklauso jūsų organizacijai (ne abonementui, kuriame valdote „Supply Chain Management“).
+> Rakto saugyklos, kurias naudojate užantspauduotame kainos pasiūlymą, turi atitikti šiuos reikalavimus:
+>
+> - Jei kurti ir tikrinti naudojate sandų dėžę, turite turėti vieną atskirą sanddėlyje skirtą rakto saugyklą ir atskirą gamybai skirtą raktų saugyklą.
+> - Kiekviena rakto saugykla turi būti sukurta „Azure“ abonemente, kuris priklauso jūsų organizacijai (ne abonementui, kuriame valdote „Supply Chain Management“).
+> - Kiekvienas rakto "vault" turi būti naudojamas tik užantspauduotame kainos pasiūlymą. Jei norite naudoti užantspauduotas kainos pasiūlymo rakto saugyklas, negalite naudoti kitų tikslų.
 
 Kiekvienas kainos pasiūlymas nuskaito savo slaptą raktą. Šis raktas naudojamas kiekvieną kartą, kai vartotojas peržiūrės, atnaujins ar atblokuos kainos pasiūlymą.
 

@@ -1,7 +1,7 @@
 ---
 title: Išspręskite planavimo mechanizmo klaidą „Nepavyko rasti pakankamai pajėgumo“
 description: Šioje temoje pateikiama informacija apie gamybos užsakymo priežastis ir nutarimus, kurių %1 nepavyko suplanuoti. Išspręskite planavimo mechanizmo klaidą „Nepavyko rasti pakankamai pajėgumo“.
-author: crytt
+author: ChristianRytt
 ms.date: 7/29/2021
 ms.topic: article
 ms.search.form: ProdTable
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 37c990067a0c175d93ecf298866041f4d2afc1bc
-ms.sourcegitcommit: ab1455c67f6ee6ca36bec148bea0dbb0f7704eda
+ms.openlocfilehash: 16626a7ee74e89bd129d8435a17d16b41a5e0387
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7428948"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565764"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>Išspręskite planavimo mechanizmo klaidą „Nepavyko rasti pakankamai pajėgumo“
 

@@ -12,15 +12,17 @@ ms.search.region: Global
 ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6fa8955b935f22a0c4ae7311e871fa64afcd2bcdde48c70bf772a3cb7abd772a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: e3f14dd25a60f8d185f0e58a0612a322c5175ab2
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781811"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579885"
 ---
 # <a name="work-split"></a>Darbo skaidymas
+
+[!include [banner](../includes/banner.md)]
 
 Darbo atskyrimo funkcija leidžia jums atskirti didelio darbo ID (tai reiškia, darbo užsakymus su keliomis linijomis) į keletą mažesnių darbo ID ir tuomet priskirti juos keliems sandėlio darbuotojams. Tokiu būdu tas pats darbas sukūrimo numeris gali būti paimamas vienu metu kelių sandėlio darbuotojų.
 

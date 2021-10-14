@@ -12,12 +12,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b9996b4d6ab84070cc3e9863a454c4fd8ed14091490273cde0eec1ea2bc508fc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 326a74d0f962cf0455033b04950ded7ca26bfc77
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756229"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594722"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>PVM / GST schemos atvirkštinio apmokestinimo mechanizmas
 
@@ -45,7 +45,6 @@ Norėdami taikyti atvirkštinį mokestį, turite atlikti toliau nurodytą sąran
 Pardavimo ir pirkimo operacijoms rekomenduojame naudoti atskirus PVM kodus.
 
 <table>
-<body>
 <tr>
 <td><strong>Pardavimo PVM kodas</strong></td>
 <td>Sukurkite atvirkštinio mokesčio pardavimo operacijų PVM kodą (<strong>Mokestis</strong> &gt; <strong>Netiesioginiai mokesčiai</strong> &gt; <strong>PVM</strong> &gt; <strong>PVM kodai</strong>).
@@ -62,7 +61,6 @@ Turite priskirti neigiamą PVM kodą prekės PVM grupei, o po to tą PVM grupę 
 <p>Daugiau informacijos ieškokite kitame skyriuje &quot;PVM grupių ir prekių PVM grupių nustatymas&quot;.</p>
 </td>
 </tr>
-</tbody>
 </table>
 
 ## <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a><a name="sales-tax-item-sales-tax-groups"></a>Nustatyti PVM grupes ir prekių PVM grupes

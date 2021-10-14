@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 83b2d3c35e3e68aaad22bc03a46b17abc1526073895057717fd055dacdfbee5c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718482"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594914"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Pasirinktinės saugyklos vietos sugeneruotiems dokumentams nurodymas
 
@@ -255,7 +255,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. Modifikuokite esamą `AssetRollForwardService` klasę ir rašykite kodą, kad būtų galima nustatyti pasirinktinę paskirties gamyklos ataskaitos vykdytoją. Atkreipkite dėmesį, kad sukūrus pasirinktinę paskirties gamyklą, į programą orientuotas parametras, nurodantis paskirties aplanką. Tokiu būdu šis tikslinis aplankas naudojamas, kad būtų saugomi sugeneruoti failai.
 
     > [!NOTE] 
-    > Įsitikinkite, kad nurodytas aplankas (**c:\\0** šiame pavyzdyje) yra vietiniame failų sistemos serveryje, kuris paleidžia AOS tarnybą. Kitu atveju išimtis [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) bus pateikta vykdymo metu.
+    > Įsitikinkite, kad nurodytas aplankas (**c:\\0** šiame pavyzdyje) yra vietiniame failų sistemos serveryje, kuris paleidžia AOS tarnybą. Kitu atveju išimtis [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception) bus pateikta vykdymo metu.
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;

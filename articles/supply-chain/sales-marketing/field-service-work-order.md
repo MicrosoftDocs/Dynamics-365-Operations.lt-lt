@@ -1,7 +1,7 @@
 ---
 title: „Field Service“ darbo užsakymų sinchronizavimas su „Supply Chain Management“ pardavimo užsakymais
 description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami sinchronizuojant „Field Service“ darbo užsakymus su „Supply Chain Management“ pardavimo užsakymais.
-author: ChristianRytt
+author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 7d7688e757a3ab9746ae0307a7c15f0624c1d8aceeb0dc935b0da32d3ab2994b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c54f5eaec1ae453ba9e55ef54d47c8591276ec89
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752687"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568380"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>„Field Service“ darbo užsakymų sinchronizavimas su „Supply Chain Management“ pardavimo užsakymais
 
@@ -245,31 +245,31 @@ Toliau pateiktose iliustracijose vaizduojamas šablono susiejimas naudojant funk
 
 Filtras: (msdyn_systemstatus ne 690970005) ir (msdyn_systemstatus ne 690970000) ir (msdynce_hasexternallymaintainedproductsonly lygtis teisinga)
 
-[![Šablono susiejimas naudojant funkcija Duomenų integravimas.](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+[![Šablono susiejimas integruojant darbo užsakymų duomenis su pardavimo užsakymais („Field Service“ ir „Supply Chain Management“): WorkOrderHeader.](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineestimate"></a>Darbo užsakymai į pradavimo užsakymus („Field Service“ į „Supply Chain Management“): WorkOrderServiceLineEstimate
 
 Filtras: (msdynce_headersystemstatus ne 690970005) ir (msdynce_headersystemstatus ne 690970000) ir (msdynce_orderhasexternalmaintainedproductsonly lygtis teisinga) ir (msdyn_linestatus lygtis 690970000) ir (msdynce_headersystemstatus ne 690970004)
 
-[![Šablono susiejimas naudojant funkcija Duomenų integravimas.](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+[![Šablono susiejimas integruojant darbo užsakymų duomenis su pardavimo užsakymais („Field Service“ ir „Supply Chain Management“): WorkOrderServiceLineEstimate.](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>Darbo užsakymai į pradavimo užsakymus („Field Service“ į „Supply Chain Management“): WorkOrderServiceLineUsed
 
 Filtras: (msdynce_headersystemstatus ne 690970005) ir (msdynce_headersystemstatus ne 690970000) ir (msdynce_orderhasexternalmaintainedproductsonly lygtis teisinga) ir ((msdyn_linestatus lygtis 690970001) arba (msdynce_headersystemstatus lygtis 690970004))
 
-[![Šablono susiejimas naudojant funkcija Duomenų integravimas.](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+[![Šablono susiejimas integruojant darbo užsakymų duomenis su pardavimo užsakymais („Field Service“ ir „Supply Chain Management“): WorkOrderServiceLineUsed.](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineestimate"></a>Darbo užsakymai į pradavimo užsakymus („Field Service“ į „Supply Chain Management“): WorkOrderProductLineEstimate
 
 Filtras: (msdynce_headersystemstatus ne 690970005) ir (msdynce_headersystemstatus ne 690970000) ir (msdynce_orderhasexternalmaintainedproductsonly lygtis teisinga) ir (msdyn_linestatus eq 690970000) ir (msdynce_headersystemstatus ne 690970004) ir (msdyn_allocated lygtis teisinga)
 
-[![Šablono susiejimas naudojant funkcija Duomenų integravimas.](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+[![Šablono susiejimas integruojant darbo užsakymų duomenis su pardavimo užsakymais („Field Service“ ir „Supply Chain Management“): WorkOrderProductLineEstimate.](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>Darbo užsakymai į pradavimo užsakymus („Field Service“ į „Supply Chain Management“): WorkOrderProductLineUsed
 
 Filtras: (msdynce_headersystemstatus ne 690970005) ir (msdynce_headersystemstatus ne 690970000) ir (msdynce_orderhasexternalmaintainedproductsonly lygtis teisinga) ir ((msdyn_linestatus lygtis 690970001) arba (msdynce_headersystemstatus lygtis 690970004) arba (msdyn_allocated ne teisinga))
 
-[![Šablono susiejimas naudojant funkcija Duomenų integravimas.](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+[![Šablono susiejimas integruojant darbo užsakymų duomenis su pardavimo užsakymais („Field Service“ ir „Supply Chain Management“): WorkOrderProductLineUsed.](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

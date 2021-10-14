@@ -1,7 +1,7 @@
 ---
 title: Aptarnavimo KS naikinimas
-description: Aptarnavimo užsakymas rodo techniko apsilankymą pas klientą tam tikrą dieną.
-author: ShylaThompson
+description: Temoje pateikiama nuosekli aptarnavimo sutarčių objektų naikinimo BOM.
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,29 +15,25 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77b4b26e74979a1d603b8e6537603203a2e1f03ec45818aada4f78eb1b4136d1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f0b1ea4bd8c035db39763b3c1da9ccfc14030c24
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764721"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569076"
 ---
-# <a name="delete-a-service-bom"></a>Aptarnavimo KS naikinimas 
+# <a name="delete-a-service-bom"></a>Aptarnavimo KS naikinimas
 
 [!include [banner](../includes/banner.md)]
 
-
-1.  Spustelėkite **Aptarnavimo valdymas** \> **Bendrasis** \> **Aptarnavimo sutartys** \> **Aptarnavimo sutartys**. Pažymėkite paslaugų sutartį, iš kurios norite naikinti paslaugų komplektavimo specifikaciją (KS).
-
-2.  Dalyje **Veiksmų sritis** spustelėkite **Aptarnavimo objektai**.
-
-3.  Formoje **Aptarnavimo objektai** pasirinkite aptarnavimo objektą, iš kurio norite panaikinti aptarnavimo KS. Spustelėkite **Funkcijos**, tada pasirinkite **Naikinti aptarnavimo KS**.
-
-4.  Spustelėkite **Taip**.
+1. Eikite į **Aptarnavimo valdymas** \> **Bendrasis** \> **Aptarnavimo sutartys** \> **Aptarnavimo sutartys**. Pažymėkite paslaugų sutartį, iš kurios norite naikinti paslaugų komplektavimo specifikaciją (KS).
+1. Dalyje **Veiksmų sritis** rinkitės **Aptarnavimo objektai**.
+1. Formoje **Aptarnavimo objektai** pasirinkite aptarnavimo objektą, iš kurio norite panaikinti aptarnavimo KS. Rinkitės **Funkcijos**, tada pasirinkite **Naikinti aptarnavimo KS**.
+1. Pasirinkite **Taip**.
 
 
 > [!NOTE]
-> <P>Jei dar nepritaikėte šabloninės KS, aptarnavimo KS gali būti panaikinta iš formos <STRONG>Šabloninės KS</STRONG>. Tačiau jei pritaikėte šabloninę KS, KS šitaip panaikinti negalima.</P>
+> Jei dar nepritaikėte šabloninės KS, aptarnavimo KS gali būti panaikinta iš puslapio **Šabloninės KS**. Tačiau jei pritaikėte šabloninę KS, KS šitaip panaikinti negalima.
 
 
 

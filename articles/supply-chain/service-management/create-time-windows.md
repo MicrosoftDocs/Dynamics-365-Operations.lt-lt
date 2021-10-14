@@ -1,7 +1,7 @@
 ---
 title: Laiko langų kūrimas
-description: Galite naudoti laiko langus, kad optimizuotumėte aptarnavimo užsakymo eilučių planavimą.
-author: ShylaThompson
+description: Temoje pateikiama nuosekli laiko langų kūrimo procedūra.
+author: kamaybac
 ms.date: 02/20/2018
 ms.topic: article
 ms.prod: ''
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e88277181a00479af85561f078803ec495a94a50ef1cbd4059f594709b47a7d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 93c8426fd03a849cf8c241d694507bd033fb34c5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775536"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571431"
 ---
-# <a name="create-time-windows"></a>Laiko langų kūrimas   
+# <a name="create-time-windows"></a>Laiko langų kūrimas
 
 [!include [banner](../includes/banner.md)]
 
 Galite naudoti laiko langus, kad optimizuotumėte aptarnavimo užsakymo eilučių planavimą.
 
-1. Spustelėkite **Aptarnavimo valdymas** \> **Sąranka** \> **Aptarnavimo sutartys** \> **Laiko langas**.
+1. Eikite į **Aptarnavimo valdymas** \> **Sąranka** \> **Aptarnavimo sutartys** \> **Laiko langas**.
 2. Norėdami sukurti naują laiko langą, paspauskite **Alt + N**.
 3. Lauke **Laiko langas** įveskite laiko lango pavadinimą.
 4. Lauke **Aprašas** įveskite laiko lango aprašą.
