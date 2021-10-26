@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: dd493e855e45362c1681dc9cdfbbcb71f7627d64624cd093eadab32fd966c174
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3690a541b503281f204221a72bfb5a371984d9e4
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733616"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605284"
 ---
 # <a name="financial-reporting-faq"></a>DUK apie finansines ataskaitas
 
@@ -101,5 +101,28 @@ Retrospektyvinio valiutos perskaičiavimo atveju iš anksto apskaičiuoti laikot
 Kai atnaujinami ataskaitose pateikti duomenys, galima delsa, nes sumos turi būti perskaičiuotos tikrinant išsamią operacijos informaciją. Ši delsa suaktyvinama kaskart, kai atnaujinami tarifai arba užregistruojama daugiau operacijų. Pavyzdžiui, jei retrospektyviniam perskaičiavimui nustatomos tūkstančiai sąskaitų kelis kartus per dieną, galima iki valandos trunkanti delsa prieš tai, kai bus atnaujinti ataskaitos duomenis. Kita vertus, jei yra mažesnis konkrečių sąskaitų skaičius, ataskaitos duomenų atnaujinimų apdorojimo laikas gali būti sutrumpintas iki minutės arba mažiau.
 
 Be to, kai ataskaitos generuojamos naudojant retrospektyvinio tipo sąskaitų valiutos perskaičiavimą, bus papildomų operacijos skaičiavimų. Atsižvelgiant į sąskaitų skaičių, ataskaitos generavimo laikas gali būti dvigubai ilgesnis.
+
+## <a name="what-are-the-estimated-data-mart-integration-intervals"></a>Kokie yra numatomi duomenų srities integravimo intervalai?
+
+„Financial Reporter“ naudoja 16 užduočių duomenims kopijuoti iš „Dynamics 365 Finance“ į „Financial Reporter“ duomenų bazę. Šioje lentelėje išvardytos 16 užduočių ir rodomas intervalas, nurodantis, kaip dažnai vykdoma kiekviena užduotis. Intervalų keisti negalima.
+
+| Pavadinimas                                                       | Intervalas | Intervalo laikas |
+|------------------------------------------------------------|----------|-----------------|
+| AX 2012 Iš sąskaitų kategorijų į sąskaitų kategorijas            | 41       | min.         |
+| AX 2012 Iš sąskaitų į sąskaitą                                | 7        | min.         |
+| AX 2012 Iš įmonių į įmonę                               | 300      | sek.         |
+| AX 2012 Iš įmonių į organizaciją                          | 23       | min.         |
+| AX 2012 Iš dimensijų derinių į dimensijų derinį    | 1        | min.         |
+| AX 2012 Iš Dimensijų verčių į dimensijų vertę                | 11       | min.         |
+| AX 2012 Iš dimensijų į dimensiją                            | 31       | min.         |
+| AX 2012 Valiutos kursų į valiutos kursą                    | 17       | min.         |
+| AX 2012 Iš finansinių metų į finansinius metus                        | 13       | min.         |
+| AX 2012 Iš didžiosios knygos operacijų į faktą                | 1        | min.         |
+| AX 2012 Iš organizacijų hierarchijų į medį                   | 3 600    | sek.         |
+| AX 2012 Iš scenarijų į scenarijų                              | 29       | min.         |
+| AX 2012 Iš operacijų tipo kvalifikatorių į fakto tipo kvalifikatorių | 19       | min.         |
+| Priežiūros užduotis                                           | 1        | min.         |
+| Iš MR ataskaitos aprašų į AX7 finansines ataskaitas             | 45       | sek.         |
+| Iš MR ataskaitos versijų į AX finansinės ataskaitos versijas         | 45       | sek.         |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -802,6 +802,8 @@
                   href: POS-serial-returns.md
                 - name: Susieti grąžinimai
                   href: dev-itpro/linked-refunds.md
+                - name: 'Atsietų grąžinimų apdorojimas naudojant „Dynamics 365 Commerce Payment Connector“, skirtą „Adyen“'
+                  href: dev-itpro/unlinked-refunds.md
                 - name: Į parduotuvės asortimentą neįtrauktų produktų pardavimas ir grąžinimas
                   href: sell-return-outside-assortments.md
                 - name: Pakeitimo sukonfigūravimas ir apdorojimas grąžinimo užsakyme

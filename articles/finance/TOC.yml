@@ -1194,9 +1194,11 @@
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
             - name: Valiutos galimybės finansinėse ataskaitose
               href: general-ledger/financial-reporting-currency-capability.md
+            - name: Nepaskirstyto pelno skaičiavimas finansinėse ataskaitose
+              href: general-ledger/retained-earnings-enhancements.md
             - name: Balanso finansinės ataskaitos
               href: general-ledger/balance-sheet-financial-reports.md
-            - name: Finansinių ataskaitų generavimas
+            - name: Generuoti finansines ataskaitas
               href: ../fin-ops-core/dev-itpro/analytics/generate-financial-report.md?toc=/dynamics365/finance/toc.json
             - name: Pajamų išrašo finansinė ataskaita
               href: general-ledger/income-statement-financial-report.md
