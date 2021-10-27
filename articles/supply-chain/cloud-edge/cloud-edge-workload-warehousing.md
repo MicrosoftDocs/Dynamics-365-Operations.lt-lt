@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: c3f703e39e5e9d475dcb4f96dfb400a961ae2dcf
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 2c2d2604dc1948d067311a12d00422ef074ac61a
+ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500432"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "7641165"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Sandėlio valdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams
 
@@ -171,7 +171,8 @@ Tolesnės sandėlio valdymo funkcijos šiuo metu nepalaikomos skalės vienetų d
 - Apdorojimas su neigiamomis turimomis atsargomis.
 - Sandėlio darbo apdorojimas su siuntimo pastabomis.
 - Sandėlio darbo apdorojimas su medžiagų tvarkymu/„warehouse automation”.
-- Produkto bendrųjų duomenų vaizdo naudojimas (pavyzdžiui, „Warehouse Management“ mobiliųjų įrenginių programėlėje).
+- Produkto bendrųjų duomenų vaizdai (pavyzdžiui, Warehouse Management mobiliųjų įrenginių programėlėje).
+- Produktų duomenų bendrinimas tarp įmonių.
 
 > [!WARNING]
 > Kai kurios sandėlio funkcijos nebus galimos sandėliams, kuriuose vykdomi sandėlio valdymo darbo krūviai skalės vienete, ir taip pat nepalaikoma centro arba skalės vieneto darbo krūvyje.
@@ -188,7 +189,6 @@ Tolesnė lentelė rodo, kurios siuntimo funkcijos palaikomos ir kada jos palaiko
 |--------------------------------------------------------------|-----|------------------------------|
 | Šaltinių dokumento tvarkymas                                   | Taip | nr. |
 | Krovinio ir gabenimo valdymo tvarkymas                | Taip, bet tik krovinio planavimo procesai. Transportavimo valdymo apdorojimas nepalaikomas  | nr. |
-| Iškrovimo išlaidos ir tranzito prekių gavimas                                         | Taip | nr. |
 | Išleisti į sandėlį                                         | Taip | nr. |
 | Suplanuotas prekių skirstymas                                        | nr.  | nr. |
 | Siuntos konsolidacija                                       | Taip, naudojant krovinio planavimą | Taip |
@@ -224,6 +224,7 @@ Tolesnė lentelė rodo, kurios gavimo funkcijos palaikomos ir kada jos palaikomo
 |------------------------------------------------------------------|-----|----------------------------------------------------------------------------------|
 | Šaltinių&nbsp;dokumento&nbsp;tvarkymas                             | Taip | Ne |
 | Krovinio ir gabenimo valdymo tvarkymas                    | Taip | Ne |
+| Iškrovimo išlaidos ir tranzito prekių gavimas                       | Taip | Ne |
 | Gautos siuntos patvirtinimas                                    | Taip | Ne |
 | Pirkimo užsakymo leidimas į sandėlį (sandėlio užsakymo tvarkymas) | Taip | Ne |
 | Sandėlio užsakymo eilučių atšaukimas<p>Atminkite, kad tai palaikoma tik tada, kai eilutėje neįvyko jokia registracija</p> | Taip | Ne |

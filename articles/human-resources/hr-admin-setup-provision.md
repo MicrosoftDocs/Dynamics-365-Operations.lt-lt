@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 766e807ee9061f52b692cf3436ba393b334e67c4
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: c84fdb3c5c61598dfd0934e769f4a7262ce74052
+ms.sourcegitcommit: 8439ce2d4ad5ee5c1ec870640b52b5d2e947a671
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488088"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7644532"
 ---
 # <a name="provision-human-resources"></a>„Human Resources“ parengimas
 
@@ -49,7 +49,7 @@ Bandomosios aplinkos nėra skirtos naudoti kaip gamybos aplinkos. Jos apribojamo
 Kuriant „Human Resources“ bandomąją aplinką, nuomininkams taip pat sukuriama bandomoji aplinka, „Power Apps“ susieta su personalo aplinka. Aplinka, „Power Apps“ pavadinta „TestDrive“ yra, turi tą patį bandomąjį laikotarpį kaip ir „Human Resources“ aplinka.
 
 > [!NOTE]
-> „Human Resources“ bandomojo aplinkos parengti nepavyks, jei autentifikuotas vartotojas neturi teisės kurti „Power Apps“ bandomojo aplinkos. Vartotojas turi būti įtrauktas į vartotojų grupę, kuri gali sukurti bandomąją aplinką „Power Platform“ administravimo centre. Norėdami gauti daugiau informacijos, žr. [valdiklį, kuris gali kurti ir valdyti aplinkas „Power Platform“ administravimo centre](//power-platform/admin/control-environment-creation).
+> „Human Resources“ bandomojo aplinkos parengti nepavyks, jei autentifikuotas vartotojas neturi teisės kurti „Power Apps“ bandomojo aplinkos. Vartotojas turi būti įtrauktas į vartotojų grupę, kuri gali sukurti bandomąją aplinką „Power Platform“ administravimo centre. Norėdami gauti daugiau informacijos, žr. [valdiklį, kuris gali kurti ir valdyti aplinkas „Power Platform“ administravimo centre](/power-platform/admin/control-environment-creation).
 
 ## <a name="plan-human-resources-environments"></a>Planuokite „Human Resources“ aplinkas
 

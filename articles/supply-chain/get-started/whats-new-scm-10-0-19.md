@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 7c8994a11c9d1d90fd8b66b17900248f941e307b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0b39c3eee84a66082f1785f7f4d8a6d7dd96b63d
+ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579789"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "7638475"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Kas nauja ar pasikeitė 10.0.19 „Dynamics 365 Supply Chain Management” versijoje (2021 m. birželis)
 
@@ -50,7 +50,7 @@ Toliau pateiktoje lentelėje pateikti funkcijos patobulinimai, įtraukti į šį
 
 | Funkcijos sritis | Funkcijos&nbsp;pavadinimas&nbsp;funkcijos&nbsp;valdyme | Daugiau informacijos |
 |---|---|---|
-| Pardavimas ir rinkodara | Pardavimų retrospektyvos valymo efektyvumo patobulinimai | Pardavimų retrospektyvos valymas gali ilgai užtrukti, jei jis nedažnai vykdomas aplinkose, kuriose yra didelis pardavimų naujinimų kiekis. Siekiant sumažinti trukmę ir pagerinti patikimumą, ši funkcija išskaido valymą į paketus, kurie paleidžiami ribotam laikui. Ten, kur įmanoma, duomenų bazės galimybės bus sverto, kad valymo metu būtų sumažintas užrakinimas ir būtų išvengta operacinių lentelių prijungimo. |
+| Pardavimas ir rinkodara | Pardavimų retrospektyvos valymo efektyvumo patobulinimai | Pardavimų retrospektyvos valymas gali ilgai užtrukti, jei jis nedažnai vykdomas aplinkose, kuriose yra didelis pardavimų naujinimų kiekis. Siekiant sumažinti trukmę ir pagerinti patikimumą, ši funkcija išskaido valymą į paketus, kurie paleidžiami ribotam laikui. Ten, kur įmanoma, duomenų bazės galimybės bus sverto, kad valymo metu būtų sumažintas užrakinimas ir būtų išvengta operacinių lentelių prijungimo. Norėdami gauti daugiau informacijos, [žr. Pardavimo retrospektyvos valymo veikimo patobulinimai](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Pardavimas ir rinkodara | Atnaujinti pageidaujamą gavimo datą su patvirtinimo data vidinės įmonės užsakymams | Ši funkcija leidžia jums kontroliuoti, kas atsitiks pardavimo ir pirkimo datų laukų reikšmėms, kai naudojamas vidinės įmonės tiesioginis pristatymas. Galite pasirinkti tai, ar sistema atnaujins pageidaujamas datas, ar praleis jų atnaujinimą. Jei praleisite atnaujinimą, pageidaujamos datos atspindės kliento pageidavimus. Jei įgalinate atnaujinimą, pageidaujamos datos (naudojant pristatymo datos valdiklį) tik iš pradžių nurodo tai, ko prašė klientas. Pristatymo datos valdiklis, skirtingas nei *Nėra*, nepaisys to, ko iš pradžių buvo pareikalauta. Šią parinktį galite nustatyti naudodami naują nustatymą **Atnaujinti pageidaujamą gavimo datą Patvirtinta data**, esantį vidinės įmonės tiekėjo arba kliento nustatymuose.<br><br>Jei funkcija išjungta, sistema perrašys pageidaujamą gavimo datą pradiniame pardavimo užsakyme remdamasi pristatymo datos valdymo taisykle, tačiau pageidaujama siuntimo data liks nepakeista. |
 | Sandėlio valdymas | Suapvalinti kiekius iki artimiausio pardavimo vieneto išleidžiant į sandėlį | Ši funkcija įtraukia parinktį, kuri gali riboti užsakymų kiekius išleidimo į sandėlį metu. Kai ji įgalinta, užsakymo kiekiai bus suapvalinti iki artimiausio pilno pardavimo vieneto, o užsakymų, kurių kiekiai yra mažesni nei vieno pardavimo vienetas, išleidimas bus atmestas. |
 | Sandėlio valdymas | Visos organizacijos bangos metodas „Planuoti darbo kūrimą“ | Įgalinus šią funkciją, bangos metodas *Darbo kūrimo grafikas* bus sukonfigūruojamas veikti lygiagrečiai visuose juridiniuose subjektuose. Taip pat bus paveikti keli papildomi parametrai. Išsamią informaciją rasite [Darbo kūrimo planavimas bangos metu](../warehousing/configure-wave-schedule-work-creation.md). |

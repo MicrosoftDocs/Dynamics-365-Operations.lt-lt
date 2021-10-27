@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 562b56a85ad2f40cb673f8f2101bf92c39853d1f1a087d0498b6f7d19d1cca01
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b00de29a4f12719e469c063861b52e0fc20c5f1
+ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773350"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "7641116"
 ---
 # <a name="enable-power-bi-for-global-inventory-accounting"></a>Įgalinti „Power BI” Visuotinę atsargų apskaitą
 
@@ -49,7 +49,10 @@ Norėdami nustatyti „Power BI” integravimą, atlikite šiuos veiksmus.
 1. Sukonfigūruokite **Visuotinės atsargų apskaitos** „Power BI” ataskaitą atlikdami šiuos veiksmus:
 
     1. Eikite į **Mano darbo sritis**, suraskite Visuotinės atsargų apskaitos duomenų rinkinį, o tada iš meniu **Parinktys** pasirinkite **Parametrai**.
-    1. **Visuotinės atsargų apskaitos parametruose** išplėskite **Parametrus** ir atnaujinkite visus parametrus, kaip reikalinga.
+    1. **Visuotinės Atsargų Apskaitos parametruose** išplėskite **Parametrus** ir atnaujinkite visus parametrus, kaip reikalinga. Ypatingai patikrinkite šiuos parametrus:
+        1. Perrašyti numatytąsias **Dataverse URL** ir **Aplinkos Id** vertes, naudojantis **Aplinkos duomenų** puslapiu LCS (**Power Platform integravimo** skyriuje).
+        1. Pasirinkite **Redaguoti kredencialus** nuorodą, esančią šalia **CDS** žymos **Duomenų šaltinio kredencialų** skyriuje. Tada prisijunkite prie savo Dataverse paskyros naudodamiesi **OAuth2** autentifikavimo metodą.
+    1. Patvirtinkite, kad Power BI rodo rasta **Mano darbo sritis \> Ataskaitos \> Visuotinė Atsargų Apskaita** dabar veikia tinkamai ir rodo turinį iš jūsų sistemos.
 
 1. Užregistruokite programą, kaip aprašyta [PowerBI.com integravimo konfigūravimas](../../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md#registration-process).
 1. Integruokite **Visuotinės atsargų ataskaitos** „Power BI” ataskaitos failą į „Dynamics 365 Supply Chain Management” atlikdami šiuos veiksmus:

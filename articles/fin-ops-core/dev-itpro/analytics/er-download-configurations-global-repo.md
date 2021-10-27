@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 6923954e2d287a16425a9f823e8f8800503735ec0b3837cff764cf8d6e752039
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724422"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605336"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>ER konfigūracijų atsisiuntimas iš konfigūravimo tarnybos bendrosios saugyklos
 
@@ -63,7 +63,7 @@ ms.locfileid: "6724422"
     > [!NOTE]
     > Mygtuko **Importuoti** negalima naudoti ER konfigūracijų versijose, kurios jau yra dabartiniame „Finance“ egzemplioriuje.
 
-    ![Konfigūracijos saugyklos puslapis.](./media/er-download-configurations-global-repo-repository-content.png)
+    ![Konfigūracijos saugyklos puslapis, Konfigūracijos "FastTab".](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>Filtruotų konfigūracijų importavimas
 
@@ -77,7 +77,7 @@ ms.locfileid: "6724422"
 4. „FastTab“ **Konfigūracijos** pasirinkite **Importuoti**, kad atsisiųstumėte filtruotas konfigūracijas iš bendrosios saugyklos į dabartinį egzempliorių.
 5. „FastTab“ **Konfigūracijos** pasirinkite **Iš naujo nustatyti filtrą**, kad būtų išvalytos nurodytos pasirinkimo sąlygos.
 
-    ![Konfigūracijos saugyklos puslapis.](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![Konfigūracijos saugyklos puslapis, Versijos "FastTab", Importavimo mygtukas.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > Atsižvelgiant į ER parametrus, konfigūracijos patikrinamos po importavimo. Galite būti informuoti apie rastas nenuoseklumo problemas. Prieš naudodami importuotą konfigūracijos versiją, turite išspręsti problemas. Daugiau informacijos ieškokite su šia tema susijusių išteklių sąraše.

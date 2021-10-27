@@ -1,8 +1,8 @@
 ---
 title: Finansinio konsolidavimo ir valiutos konvertavimo apžvalga
 description: Šioje temoje aprašomas finansinis konsolidavimas ir valiutos konvertavimas didžiojoje knygoje.
-author: aprilolson
-ms.date: 07/25/2019
+author: jiwo
+ms.date: 10/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0df16db842c159b4db469139a0b5463a82e3fe07b4e23f8f7cf0272caaf23602
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9ec8e6a371f08ad7eab0d133e1b71861943274e
+ms.sourcegitcommit: f76fecbc28c9a6048366e8ead70060b1f5d21a97
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748985"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "7615940"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Finansinių konsolidacijų ir valiutos konvertavimo apžvalga
 
@@ -182,5 +182,17 @@ Toliau pateikti keli konsolidavimo scenarijai, palaikomi finansinėse ataskaitos
 ## <a name="generating-consolidated-financial-statements"></a>Konsoliduotų finansinių ataskaitų generavimas
 Informacijos apie scenarijus, kuriais galite generuoti konsoliduotas finansines ataskaitas, žr. [Konsoliduotų finansinių ataskaitų generavimas](./generating-consolidated-financial-statements.md).
 
+## <a name="performance-enhancement-for-large-consolidations"></a>Didelių konsolidacijų našumo patobulinimas
+
+Aplinkos, kur yra daug DK operacijų, gali veikti lėčiau nei optimalios. Norėdami išspręsti šią problemą, galite nustatyti lygiagretų paketų, kurie naudoja vartotojo nustatytą datų skaičių, apdorojimą. Norėdami užtikrinti, kad sprendimas veikia kaip numatyta, įtraukite konsolidavimo plėtinio tašką, kad būtų grąžinamas datų diapazonų konteineris. Pagrindinis diegimas turi turėti vieną konsolidacijos pradžios ir pabaigos datų diapazoną. Bus patikrinti pagrindinio diegimo datų intervalai, siekiant užtikrinti, kad juose nėra tarpų arba persidengimų. Datų diapazonai bus naudojami kiekvienos įmonės lygiagretiems paketų grupavimams kurti.
+
+Galite tinkinti datų diapazonų skaičių, kad jis atitiktų jūsų organizacijos poreikius. Pritaikę datų diapazonų skaičių, galite supaprastinti testą ir sumažinti poveikį esamam kodui, nes nėra paskirstymo logikos. Vieninteliai reikalingi nauji bandymai patvirtinti paketinių užduočių kūrimą, patvirtina dienų sekas ir išbando dienų sekų pogrupį, kad patikrintų, ar partijos gali būti sujungtos paskutinei partijos užduočiai. 
+
+Ši priemonė pagerina konsolidavimo procesą DK, kai procesas vykdomas pakete. Patobulinimas pagerina DK konsolidavimo proceso našumą, išskaidant konsolidaciją į kelias užduotis, kurias galima apdoroti lygiagrečiai. Pagal numatytąjį konsolidavimo veiklos metodą kiekviena užduotis apdoroja aštuonių dienų vertės DK veiklą. Tačiau buvo pridėtas plėtinio taškas, leidžiantis pritaikyti sukurtas skaičių užduotis.
+
+Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti **Funkcijos valdymas** darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Ten ši funkcija pateikiama taip:
+
+- **Modulis:** Didžioji knyga
+- **Funkcijos pavadinimas:** Didelių konsolidacijų našumo patobulinimas
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

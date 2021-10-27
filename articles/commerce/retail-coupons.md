@@ -1,8 +1,8 @@
 ---
 title: Mažmeninės prekybos pardavimo kuponų nustatymas
-description: Šioje temoje apžvelgiami kuponai ir paaiškinama, kaip juos nustatyti.
-author: scott-tucker
-ms.date: 06/04/2020
+description: Šioje temoje apžvelgiami kuponai ir paaiškinama, kaip juos nustatyti in Dynamics 365 Commerce programoje.
+author: josaw1
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: josaw
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: scotttuc
+ms.author: josaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bc79970528e23397b756fa15a715fba834edcc06e4522c6c35b64aede4976300
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6a2ee38139f20b883bdfa5f0776951246f763f5f
+ms.sourcegitcommit: f699dbc21a06dbfb3fb299b789b428ea8d643868
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745313"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "7603128"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Mažmeninės prekybos pardavimo kuponų nustatymas
 
@@ -40,6 +40,8 @@ Norint sukurti kuponą, atskirai sukuriami nuolaida ir kuponas. Tada jie susieja
 > Susiejus kuponą su nuolaida, keli nuolaidos puslapyje „Commerce“ esantys laukai tampa tik skaitomais, nes jie priklauso nuo kupono nustatymų. Šie laukai apima būsenos ir standartinių datų intervalų laukus.
 > 
 > Kai naudojate kuponą skambučių centro kanale, turite pasirinkti **Perskaičiuoti** mygtuką **(Skirtukas Parduoti > Skaičiuoti > Perskaičiuoti)**, kad būtų galima taikyti kupono nuolaidą. Šis papildomas veiksmas bus pašalintas būsimame leidime.
+
+Norėdami pardavimo operacijai taikyti kuponą pardavimo punkte (POS), galite naudoti **Kupono kodą** arba **Kupono brūkšninį kodą**. Norint naudoti **Kupono kodą**, **Pridėti kupono kodą** operacija turi būti sukonfigūruota elektroninio kasos aparato **Sandoriai** [ekrano išdėstyme](pos-screen-layouts.md). Pasirinkite **Įtraukti kupono kodą** ir įveskite kupono kodą. Arba norėdami naudoti **Kupono brūkšninį kodą**, nuskaitykite arba įveskite brūkšninį kodą naudodami skaitinę klaviatūrą **Sandorių** ekrane.
 
 ### <a name="limited-use-coupons"></a>Riboto naudojimo kuponai
 

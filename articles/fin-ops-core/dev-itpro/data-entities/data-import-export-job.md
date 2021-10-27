@@ -2,7 +2,7 @@
 title: Duomenų importavimo ir eksportavimo užduočių apžvalga
 description: Norėdami kurti ir valdyti duomenų importavimo bei eksportavimo užduotis, naudokite darbo sritį Duomenų valdymas.
 author: peakerbl
-ms.date: 04/22/2021
+ms.date: 10/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f9ae06893a8247828fa4d3c2cb40b9155043c87
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: dec8270417cb7237081aa49203ca93d76c0d02ed
+ms.sourcegitcommit: 132c3dbdd66bceb7596d329c34b2256c581a20fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7404039"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "7612369"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Duomenų importavimo ir eksportavimo užduočių apžvalga
 
@@ -198,16 +198,10 @@ Planuodami valymo procesą, turite nurodyti šiuos parametrus, kad apibrėžtum�
 > [!NOTE]
 > Jei įrašai išdėstymo lentelėse iki galo nėra išvalyti, įsitikinkite, kad valymo užduotis yra suplanuota vykdyti pasikartojančiu grafiku. Kaip paaiškinta pirmiau, bet kuriuo valymo vykdymo metu užduotis išvalys tik tiek vykdymo ID, kiek galės per nustatytą maksimalų valandų skaičių. Kad būtų galima tęsti visų likusių išdėstymo įrašų valymą, užduotis turi būti suplanuota vykdyti periodiškai.
 
-## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>Užduoties retrospektyvos valymas ir archyvavimas (galima peržiūros versija, naudojant 39 „Platform update“ arba 10.0.15 versiją)
+## <a name="job-history-clean-up-and-archival"></a>Užduočių retrospektyvos valymas ir archyvavimas 
 Užduoties retrospektyvos valymo ir archyvavimo funkcija pakeičia ankstesnes valymo funkcijos versijas. Šiame skyriuje bus paaiškintos naujos galimybės.
 
-Vienas iš pagrindinių valymo funkcijos pakeitimų yra sistemos paketinės užduoties naudojimas retrospektyvai valyti. Naudodamos sistemos paketinę užduotį, „Finance and Operations“ programos gali automatiškai planuoti ir vykdyti paketines valymo užduotis, kai sistema parengta. Nebereikia paketinės užduoties planuoti neautomatiniu būdu. Šiuo numatytuoju vykdymo režimu paketinė užduotis bus vykdoma kiekvieną valandą nuo 12 val. nakties ir išlaikys vykdymo retrospektyvą pastarąsias 7 dienas. Išvalyta retrospektyva archyvuojama, kad ją būtų galima gauti ateityje.
-
-> [!NOTE]
-> Kadangi ši funkcija veikia kaip peržiūros versija, sistemos paketinė užduotis nepanaikins jokios vykdymo retrospektyvos, kol ji bus įjungta per testą DMFEnableExecutionHistoryCleanupSystemJob. Kai priemonė bus visuotinai prieinama būsimame leidime, šis testas nebus būtinas, o sistemos paketinė užduotis pradės valyti ir archyvuoti, kai sistema bus parengta, pagal nustatytą grafiką, kaip paaiškinta pirmiau. 
-
-> [!NOTE]
-> Būsimame leidime ankstesnės valymo funkcijos versijos bus pašalintos iš „Finance and Operations“ programų.
+Vienas iš pagrindinių valymo funkcijos pakeitimų yra sistemos paketinės užduoties naudojimas retrospektyvai valyti. Naudodamos sistemos paketinę užduotį, „Finance and Operations“ programos gali automatiškai planuoti ir vykdyti paketines valymo užduotis, kai sistema yra parengta. Nebereikia paketinės užduoties planuoti neautomatiniu būdu. Šiuo numatytuoju vykdymo režimu paketinė užduotis bus vykdoma kiekvieną valandą nuo vidurnakčio ir išlaikys vykdymo retrospektyvą artimiausioms 7 dienoms. Išvalyta retrospektyva archyvuojama, kad ją būtų galima gauti ateityje. Pradedant 10.0.20 versija, ši funkcija visada įjungta.
 
 Antrasis valymo proceso pakeitimas yra išvalytos vykdymo retrospektyvos archyvavimas. Išvalymo užduotis archyvuoja panaikintus įrašus didelių dvejetainių objektų saugykloje, kurią DIXF naudoja įprastai integracijai. Suarchyvuotas failas bus DIXF paketo formatu ir bus pasiekiamas 7 dienas didelių dvejetainių objektų saugykloje – tada jį bus galima atsisiųsti. Numatytąją 7 dienų suarchyvuoto failo laikymą parametruose galima pakeisti į ne daugiau nei 90 dienų.
 

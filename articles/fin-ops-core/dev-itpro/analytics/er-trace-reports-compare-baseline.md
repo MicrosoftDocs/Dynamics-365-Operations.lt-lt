@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: ecca65508c048e2946d912f2bf0292d811fb4eabac9602a35f1ce26f4ebe1da6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9fabdef96b02747c84a76bf42997633842f185e9
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769929"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605210"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Sugeneruotų ataskaitų rezultatų sekimas ir jų palyginimas su bazinėmis vertėmis
 
@@ -76,7 +76,7 @@ Norėdami atlikti veiksmus šiame pavyzdyje, pirmiausia turite atlikti veiksmus 
 3. Išplečiamojo dialogo lango lauke **Pavadinimas** įveskite **Modelis, kuris turi mokytis ER pagrindinę informaciją**.
 4. Pasirinkite **Kurti konfigūraciją**, kad būtų galima patvirtinti naujo ER duomenų modelio įrašo kūrimą.
 
-![Konfigūracijos išplečiamojo dialogo lango kūrimas.](media/GER-BaselineSample-ModelAdd.PNG "Konfigūracijos išplečiamojo dialogo lauko kūrimo ekrano kopija")
+![Kurti konfigūracijos dialogo langą, pridėti naują ER modelio konfigūraciją.](media/GER-BaselineSample-ModelAdd.PNG "Konfigūracijos išplečiamojo dialogo lauko kūrimo ekrano kopija")
 
 ### <a name="design-a-data-model"></a>Duomenų modelio kūrimas
 
@@ -99,7 +99,7 @@ Norėdami atlikti veiksmus šiame pavyzdyje, pirmiausia turite atlikti veiksmus 
 3. Lauke **Pavadinimas** įveskite **Formatas, kuris turi mokytis ER pagrindinę informaciją**.
 4. Pasirinkite **Kurti konfigūraciją**, kad būtų galima patvirtinti naujo ER formato įrašo kūrimą.
 
-![Konfigūracijos išplečiamojo dialogo lango kūrimas.](media/GER-BaselineSample-FormatAdd.PNG "Konfigūracijos išplečiamojo dialogo lauko kūrimo ekrano kopija")
+![Kurti konfigūracijos dialogo langą, pridėti naują ER formato konfigūraciją.](media/GER-BaselineSample-FormatAdd.PNG "Konfigūracijos išplečiamojo dialogo lauko kūrimo ekrano kopija")
 
 ### <a name="design-a-format"></a>Formato kūrimas
 
@@ -107,41 +107,41 @@ Pagal šį pavyzdį sukursite paprastą ER formatą XML dokumentams generuoti.
 
 1. Puslapio **Konfigūracijos** veiksmų srityje pasirinkite **Dizaino įrankis**.
 2. Pasirinkite **Įtraukti šaknį**.
-2. Išplečiamajame dialogo lange atlikite toliau nurodytus veiksmus.
+3. Išplečiamajame dialogo lange atlikite toliau nurodytus veiksmus.
 
     1. Medyje pasirinkite **Bendra\\Failas**.
     2. Lauke **Pavadinimas** įveskite **Išvestis**.
     3. Pasirinkite **Gerai**.
 
-3. Pasirinkite **Įtraukti**.
-4. Išplečiamajame dialogo lange atlikite toliau nurodytus veiksmus.
+4. Pasirinkite **Įtraukti**.
+5. Išplečiamajame dialogo lange atlikite toliau nurodytus veiksmus.
 
     1. Medyje pasirinkite **XML\\Elementas**.
     2. Lauke **Pavadinimas** įveskite **Dokumentas**.
     3. Pasirinkite **Gerai**.
 
-5. Medyje pasirinkite **Išvestis\\Dokumentas**.
-6. Pasirinkite **Įtraukti**.
-7. Išplečiamajame dialogo lange atlikite toliau nurodytus veiksmus.
+6. Medyje pasirinkite **Išvestis\\Dokumentas**.
+7. Pasirinkite **Įtraukti**.
+8. Išplečiamajame dialogo lange atlikite toliau nurodytus veiksmus.
 
     1. Medyje pasirinkite **XML\\Atributas**.
     2. Lauke **Pavadinimas** įveskite **ID**.
     3. Pasirinkite **Gerai**.
 
-    ![Formato dizaino įrankio puslapis.](media/GER-BaselineSample-FormatLayoutDesign.PNG "Formato kūrimo įrankio puslapio ekrano kopija")
+    ![Formato dizaino puslapis, XML atributas, pasirinktas medyje.](media/GER-BaselineSample-FormatLayoutDesign.PNG "Formato kūrimo įrankio puslapio ekrano kopija")
 
-8. Skirtuke **Susiejimas** pasirinkite **Naikinti**.
-9. Pasirinkite **Įtraukti šaknį**.
-10. Išplečiamojo dialogo lango medyje pasirinkite **Bendra\\Vartotojo įvesties parametras** ir atlikite šiuos veiksmus.
+9. Skirtuke **Susiejimas** pasirinkite **Naikinti**.
+10. Pasirinkite **Įtraukti šaknį**.
+11. Išplečiamojo dialogo lango medyje pasirinkite **Bendra\\Vartotojo įvesties parametras** ir atlikite šiuos veiksmus.
 
     1. Lauke **Pavadinimas** įveskite **ID**.
     2. Lauke **Žyma** įveskite **ID**.
     3. Pasirinkite **Gerai**.
 
-11. Medyje pasirinkite **Išvestis\\Dokumentas\\ID**.
-12. Pasirinkite **Susieti**, tada pasirinkite **Įrašyti**.
+12. Medyje pasirinkite **Išvestis\\Dokumentas\\ID**.
+13. Pasirinkite **Susieti**, tada pasirinkite **Įrašyti**.
 
-![Formato dizaino įrankio puslapis.](media/GER-BaselineSample-FormatMappingDesign.PNG "Formato kūrimo įrankio puslapio ekrano kopija")
+![Formato dizainerio puslapis, skirtukas Žemėlapis.](media/GER-BaselineSample-FormatMappingDesign.PNG "Formato kūrimo įrankio puslapio ekrano kopija")
 
 Remiantis sukurta struktūra, sukonfigūruotas formatas sugeneruos XML failą. Šiame XML yra **Šakninis** elementas, turintis **ID** atributą, kuris nustatytas kaip reikšmė, kurią vartotojas įveda ER vykdymo dialogo lange.
 
@@ -201,7 +201,7 @@ Pagridinė informacija įtraukiama į formatą **Formatas, kuris turi mokytis ER
 10. Lauke **Pagrindinė informacija** įveskite arba pasirinkite priedą **out.Admin**.
 11. Pasirinkite **Įrašyti**.
 
-![Elektroninės ataskaitos formato bazinis puslapis.](media/GER-BaselineSample-SetupBaselineLine.PNG "Elektroninės ataskaitos (ER) formato bazinio puslapio ekrano kopija")
+![Elektroninės ataskaitos formato bazinis puslapis, Bazinis FastTab bazinės eilutės pasirinktos.](media/GER-BaselineSample-SetupBaselineLine.PNG "Elektroninės ataskaitos (ER) formato bazinio puslapio ekrano kopija")
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>Vykdyti sukurtą ER formatą ir peržiūrėti žurnalą, kad būtų išanalizuoti rezultatai
 
@@ -212,7 +212,7 @@ Pagridinė informacija įtraukiama į formatą **Formatas, kuris turi mokytis ER
 5. Pasirinkite **Gerai**.
 6. Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos derinimo žurnalai**.
 
-    ![Elektroninių ataskaitų vykdymo žurnalų puslapis.](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Elektroninių ataskaitų (ER) vykdymo žurnalų ekrano kopija")
+    ![Elektroninės ataskaitos paleidimo žurnalų puslapis su vienodais baziniais parametrais.](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Elektroninių ataskaitų (ER) vykdymo žurnalų ekrano kopija")
 
     > [!NOTE]
     > Vykdymo žurnale yra informacijos apie sugeneruoto failo palyginimo su sukonfigūruota pagrindine informacija rezultatus. Šiame pavyzdyje žurnalas nurodo, kad sugeneruotas failas ir pagrindinė informacija yra vienodi.
@@ -228,7 +228,7 @@ Pagridinė informacija įtraukiama į formatą **Formatas, kuris turi mokytis ER
 5. Pasirinkite **Gerai**.
 6. Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos derinimo žurnalai**.
 
-    ![Elektroninių ataskaitų vykdymo žurnalų puslapis.](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Elektroninių ataskaitų (ER) vykdymo žurnalų ekrano kopija")
+    ![Elektroninės ataskaitos paleidimo žurnalų puslapis su skirtingais baziniais parametrais.](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Elektroninių ataskaitų (ER) vykdymo žurnalų ekrano kopija")
 
     > [!NOTE]
     > Vykdymo žurnale yra informacijos apie sugeneruoto failo palyginimo su sukonfigūruota pagrindine informacija rezultatus. Šiame pavyzdyje žurnalas nurodo, kad sugeneruotas failas ir pagrindinė informacija skiriasi.
