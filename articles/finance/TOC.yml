@@ -72,17 +72,17 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
                 - name: Kas nauja ar pasikeitė „Finance”
                   items:
-                    - name: Kas nauja ar pasikeitė „Finance“ pagrindiniame puslapyje
+                    - name: Kas nauja ar pasikeitė „Finance“ pagrindinis puslapis
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.23
+                      href: get-started/whats-new-changed-10-0-23.md
                     - name: „Finance 10.0.22“ (2021 m. lapkričio mėn.)
                       href: get-started/whats-new-changed-10-0-22.md
                     - name: „Finance 10.0.21“ (2021 m. spalio mėn.)
                       href: get-started/whats-new-changed-10-0-21.md
-                    - name: „Finance 10.0.20“ (2021 m. rugpjūčio mėn.)
-                      href: get-started/whats-new-changed-10-0-20.md
             - name: Pašalintos arba nerekomenduojamos funkcijos
               items:
-                - name: Pašalintų arba nerekomenduojamų funkcijų pagrindinis puslapis
+                - name: Pašalintos arba nerekomenduojamos funkcijos pagrindinis puslapis
                   href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
                 - name: Pašalintos arba nebenaudojamos „Dynamics 365 Finance“ funkcijos
                   href: get-started/removed-deprecated-features-finance.md
@@ -240,6 +240,10 @@
                   href: accounts-payable/auto-vendr-invc-process.md
                 - name: Tiekėjo SF automatizavimo sąrankos parinktys
                   href: accounts-payable/vnd-invoice-set-up-options.md
+                - name: Automatinis išankstinių apmokėjimų taikymas tiekėjo SF peržiūrai
+                  href: accounts-payable/apply-prepymnts-overview.md
+                - name: SF eilučių generavimas importuojanti tiekėjo SF
+                  href: accounts-payable/auto-create-invc-lines-at-import.md
                 - name: Sąskaitų faktūrų pateikimas darbo eigos sistemai ir produkto gavimo kvito eilučių sugretinimas
                   href: accounts-payable/submit-invoice-workflow-automatically.md
                 - name: Tiekėjo SF automatizavimo rezultatų peržiūra
@@ -272,6 +276,8 @@
                   href: accounts-payable/tasks/research-resolve-exceptions.md
             - name: Tiekėjų registravimo šablonai
               href: accounts-payable/vendor-posting-profiles.md
+            - name: Tiekėjo SF datos
+              href: accounts-payable/vendor-invoice-dates.md
             - name: Mokėtinų sumų ir gautinų sumų užsienio valiutos kurso pasikeitimas
               href: cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md
             - name: Sąskaitos faktūros patvirtinimai mobiliąja programa
@@ -746,7 +752,7 @@
               href: /dynamics365/project-operations/prod-exp/personal-expenses
         - name: Ilgalaikis turtas
           items:
-            - name: Ilgalaikių išteklių pagrindinis puslapis
+            - name: Ilgalaikio turto pagrindinis puslapis
               href: fixed-assets/fixed-assets.md
             - name: Ilgalaikio turto kūrimas
               href: fixed-assets/tasks/create-fixed-asset.md
@@ -990,6 +996,8 @@
                   href: general-ledger/tasks/create-main-account.md
                 - name: Sąskaitų plano rengimas
                   href: general-ledger/plan-chart-of-accounts.md
+                - name: Vietinio sąskaitų plano rengimas
+                  href: general-ledger/plan-local-chart-of-accounts.md
                 - name: Didžiųjų knygų operacijų sudengimas
                   href: general-ledger/tasks/settle-transactions-between-ledger-accounts.md
                 - name: Didžiosios knygos pseudonimo nustatymas
@@ -1100,10 +1108,12 @@
                   href: general-ledger/sales-tax-calculation-on-general-journal.md
                 - name: PVM tiekėjo sąskaitoje faktūroje skaičiavimas ir koregavimas
                   href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                - name: Įjungti atidėtą mokesčių skaičiavimą žurnale
+                - name: Mokesčių skaičiavimo žurnale atidėjimo įjungimas
                   href: general-ledger/enable-delayed-tax-calculation.md
                 - name: PVM mokėjimo kūrimas
                   href: general-ledger/tasks/create-sales-tax-payment.md
+                - name: Mokesčių sudengimo apvalinimas pagal tinkintas valiutos dešimtainių dalių vietas
+                  href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
                 - name: PVM operacijų kūrimas dokumentuose
                   href: general-ledger/tasks/create-sales-tax-transactions-documents.md
                 - name: PVM skirtų DK registravimo grupių nustatymas
@@ -1546,7 +1556,9 @@
                           href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Darbo su elektroninių SF išrašymu Meksikai pradžia
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
-                        - name: Norėdami importuoti tiekėjo sąskaitas faktūras naudokite elektroninių SF išrašymo paslaugą
+                        - name: Darbo su elektroninių SF išrašymu Saudo Arabijai pradžia
+                          href: localizations/e-invoicing-sa-get-started.md
+                        - name: Elektroninių SF išrašymo paslaugos naudojimas tiekėjo sąskaitoms faktūroms importuoti
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Elektroninių SF išrašymo nustatymas
                           href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
@@ -1568,6 +1580,8 @@
                           href: localizations/tax-calculation-data-model-overview.md
                         - name: PVM taikymas ir PVM grupės nustatymo logika
                           href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
+                        - name: Mokesčių jurisdikcijos parametrų taikymo mokėjimo nuolaidai išskaičiuoti sąranka
+                          href: localizations/global-tax-jurisdiction-cash-discount-setup.md?toc=/dynamics365/finance/toc.json
                     - name: Skaičiavimas
                       items:
                         - name: 'Mokesčio, pridedamo prie kainų, kai kainos apima mokesčius, skaičiavimas įjungtas'
@@ -1594,6 +1608,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: ES pardavimo sąrašas
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Ispanijos ataskaitos
+                          items:
+                            - name: 'Tiesioginis PVM informacijos tiekimas („Suministro Inmediato de Información del IVA”, SII)'
+                              href: localizations/emea-esp-sii-spain.md
                         - name: Švedijos ataskaitos
                           items:
                             - name: PVM deklaracija
@@ -1604,18 +1622,24 @@
                               href: localizations/emea-che-vat-declaration-switzerland.md
                         - name: Jungtinės Karalystės ataskaitos
                           items:
-                            - name: Pasiruošimas integruoti su MTD PVM
-                              href: localizations/emea-gbr-mtd-vat-integration.md
+                            - name: PVM deklaracija
+                              href: localizations/emea-gbr-vat-declaration.md
                     - name: Mokesčio skaičiavimo perkėlimo užsakymui įjungimas
                       items:
                         - name: Mokesčių funkcijų palaikymas perkėlimo užsakymams
                           href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
+                        - name: Perkėlimo užsakymo dokumentų mokesčių informacijos spausdinimas
+                          href: localizations/tax-calculation-print-tax-information-on-transfer-order-documents.md?toc=/dynamics365/finance/toc.json
                     - name: Plėtinys
                       items:
                         - name: Duomenų laukų įtraukimas į mokesčių konfigūracijas
                           href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Duomenų laukų įtraukimas į mokesčių integravimą naudojant plėtinius
                           href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
+                        - name: Mokesčių konfigūracijų tinkinimas bendrųjų duomenų peržvalgai
+                          href: localizations/customize-tax-configurations-master-data-lookup.md
+                    - name: Mokesčių skaičiavimo DUK
+                      href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
             - name: Reglamentavimo naujinimai
               href: localizations/regulatory-updates.md
             - name: Australija
@@ -1684,6 +1708,8 @@
                   href: localizations/emea-bel-prodcom-report.md
                 - name: Metinis vietinio pardavimo PVM sąrašas
                   href: localizations/emea-bel-annual-vat-listing-of-domestic-sales.md
+                - name: Belgijos „Intrastat“
+                  href: localizations/emea-bel-intrastat.md
             - name: Brazilija
               items:
                 - name: Brazilijos apžvalga
@@ -2312,6 +2338,8 @@
                   href: localizations/apac-ind-scope.md
                 - name: Kas nauja ar pasikeitė Indijos lokalizavimo klausimu
                   items:
+                    - name: Kas nauja ar pasikeitė 10.0.20–10.0.22
+                      href: localizations/ind-news-letter-10-0-20-22.md
                     - name: Kas nauja ar pasikeitė 10.0.15–10.0.19
                       href: localizations/ind-news-letter-10-0-15-19.md
                     - name: Kas nauja ar pasikeitė 10.0.14
@@ -2680,6 +2708,12 @@
                           href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
                         - name: TDS operacijų sertifikato numerių naujinimas
                           href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
+            - name: Indonezija
+              items:
+                - name: Indonezijos apžvalga
+                  href: localizations/indonesia.md
+                - name: Indonezijos PVM deklaracija
+                  href: localizations/apac-idn-ppn-declaration.md
             - name: Italija
               items:
                 - name: Italijos apžvalga
@@ -3024,6 +3058,8 @@
                   href: localizations/emea-nl-audit-file.md
                 - name: PVM deklaracija (Nyderlandai)
                   href: localizations/emea-nl-vat-declaration-netherlands.md
+                - name: Nyderlandų „Intrastat“
+                  href: localizations/emea-nl-intrastat.md
                 - name: ES pardavimo sąrašas
                   href: localizations/emea-nl-EU-sales-list.md
             - name: Naujoji Zelandija
@@ -3352,11 +3388,13 @@
                   href: localizations/emea-sau-zakat-reporting.md
                 - name: 'Banko dokumentų mokesčių, taikomų siuntimui, paskirstymas'
                   href: localizations/apac-sau-allocate-bank-document-charges-shipment.md
+                - name: Kliento elektroninės sąskaitos faktūros Saudo Arabijoje
+                  href: localizations/emea-sau-e-invoices.md
             - name: Singapūras
               items:
                 - name: Singapūro apžvalga
                   href: localizations/singapore.md
-                - name: GST-05 ataskaitos generavimas
+                - name: Generuoti GST-05 ataskaitą
                   href: localizations/apac-sgp-generate-gst-05-report.md
             - name: Ispanija
               items:
@@ -3378,6 +3416,8 @@
                   href: localizations/emea-esp-fixed-asset-group-revaluation.md
                 - name: ES vidaus PVM
                   href: localizations/emea-esp-intra-community-vat.md
+                - name: Ispanijos „Intrastat“
+                  href: localizations/emea-esp-intrastat.md
                 - name: Vienkartiniai klientai
                   href: localizations/emea-esp-no-one-time-customer-for-project-contracts.md
                 - name: Čekių spausdinimas naudojant ispanišką maketą
@@ -3460,30 +3500,28 @@
                       href: localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
                     - name: 'Atvirkštinio mokesčio PVM prekių grupių, taisyklių ir parametrų nustatymas'
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
-                    - name: PVM grupių nustatymas atvirkštinio mokesčio PVM mokesčiui
+                    - name: PVM grupių nustatymas atvirkštinio mokesčio PVM
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-                - name: Jungtinės Karalystės ataskaitos
+                - name: PVM įrašų pavertimas skaitmeniniais (MTD)
                   items:
-                    - name: PVM įrašų pavertimas skaitmeniniais (MTD)
-                      items:
-                        - name: PVM grąžinimo pateikimo įrašų pavertimas skaitmeniniais (MTD) Jungtinėje Karalystėje
-                          href: localizations/emea-gbr-mtd-vat-integration.md
-                        - name: Paruoškite savo aplinką sąveikauti su HMRC MTD PVM žiniatinklio tarnyba
-                          href: localizations/emea-gbr-mtd-vat-integration-setup.md
-                        - name: MTD PVM elektroninių pranešimų nustatymo kontrolinis sąrašas
-                          href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
-                        - name: Sąveikos su MTD PVM smėlio dėže tikrinimas
-                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
-                        - name: Įgaliokite savo „Finance“ aplinką sąveikauti su HMRC MTD žiniatinklio tarnyba
-                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
-                        - name: PVM grąžinimo pateikimas HMRC MTD žiniatinklio tarnybai
-                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
-                        - name: Informacijos apie PVM mokėjimus ir įsipareigojimus nuskaitymas iš HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
-                        - name: 'PVM nustatymo informacija, skirta PVM deklaracijoms Jungtinėje Karalystėje'
-                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
-                        - name: PVM deklaracijos generavimas popieriaus formatu (PVM 100 ataskaita)
-                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
+                    - name: PVM grąžinimo pateikimo įrašų pavertimas skaitmeniniais (MTD) Jungtinėje Karalystėje
+                      href: localizations/emea-gbr-mtd-vat-integration.md
+                    - name: Paruoškite savo aplinką sąveikauti su HMRC MTD PVM žiniatinklio tarnyba
+                      href: localizations/emea-gbr-mtd-vat-integration-setup.md
+                    - name: MTD PVM elektroninių pranešimų nustatymo kontrolinis sąrašas
+                      href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
+                    - name: Sąveikos su MTD PVM smėlio dėže tikrinimas
+                      href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                    - name: Įgaliokite savo „Finance“ aplinką sąveikauti su HMRC MTD žiniatinklio tarnyba
+                      href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                    - name: PVM grąžinimo pateikimas HMRC MTD žiniatinklio tarnybai
+                      href: localizations/emea-gbr-mtd-vat-integration-submission.md
+                    - name: Informacijos apie PVM mokėjimus ir įsipareigojimus nuskaitymas iš HMRC
+                      href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
+                    - name: 'PVM nustatymo informacija, skirta PVM deklaracijoms Jungtinėje Karalystėje'
+                      href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                    - name: PVM deklaracijos generavimas popieriaus formatu (PVM 100 ataskaita)
+                      href: localizations/emea-gbr-mtd-vat-integration-vat100.md
                 - name: Mokėjimo praktikų statistikos ataskaita
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Jungtinės Valstijos
@@ -3877,6 +3915,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-datetime.md?toc=/dynamics365/finance/toc.json
                         - name: AddDays
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/finance/toc.json
+                        - name: ChangeTimeZone
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-changetimezone.md?toc=/dynamics365/finance/toc.json
                         - name: DateFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/finance/toc.json
                         - name: DateTimeFormat
@@ -4021,6 +4061,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-lower.md?toc=/dynamics365/finance/toc.json
                         - name: Mid
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-mid.md?toc=/dynamics365/finance/toc.json
+                        - name: NewGUID
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-newguid.md?toc=/dynamics365/finance/toc.json
                         - name: NumberFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/finance/toc.json
                         - name: NumeralsToText
@@ -4421,6 +4463,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
                     - name: „Application update 10.0.21“
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/finance/toc.json
+                    - name: „Application update 10.0.23“
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/finance/toc.json
                 - name: Pasirinktinės saugyklos vietos sugeneruotiems dokumentams nurodymas
                   items:
                     - name: 'Įvykio prenumeravimas, kad prenumeratos apdorojimo programai galima būtų pateikti užklausą dėl atsakymo'
@@ -4433,6 +4477,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
                 - name: 'Kodo keitimas, kad vartotojai galėtų konfigūruoti ir naudoti įvardytąsias ER paskirties vietas'
                   href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
+                - name: Gaunamų dokumentų pasirinktinio ER šaltinio ‭visuotinis diegimas
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-source.md?toc=/dynamics365/finance/toc.json
         - name: Mobiliųjų įrenginių programėlė
           items:
             - name: Mobiliųjų įrenginių programėlės pagrindinis puslapis

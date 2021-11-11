@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: c395aabfc8705b4713cf1041b5644ac478d8c1a4c4c211334aea3572f1618b84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b5ffd86d736cb7b6b5c270663c2b774e14556a6b
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759022"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675183"
 ---
 # <a name="revenue-recognition-setup"></a>Įplaukų pripažinimo nustatymai
 [!include [banner](../includes/banner.md)]
 
-Įtrauktas naujas modulis **Įplaukų pripažinimas**, kuriame yra meniu elementai visiems reikalingiems nustatymams. Šioje temoje aprašomos nustatymų parinktys ir jų reikšmės.
+Įtrauktas naujas modulis **Įplaukų pripažinimas**, kuriame yra meniu elementai visiems reikalingiems nustatymams. Šioje temoje aprašomos sąrankos parinktys ir jų reikšmės.
 
 > [!NOTE]
-> Įplaukų pripažinimo funkcija negali būti įjungta naudojant funkcijų valdymą. Dabar norėdami ją įjungti, turite naudoti konfigūracijos raktus.
+> Įplaukų pripažinimo funkcija dabar įgalinta pagal numatytuosius parametrus naudojant funkcijų valdymą. Jei jūsų organizacija šios funkcijos nenaudoja, ją išjungti galite darbo srityje **Funkcijų valdymas** srityje.
+>
+> Įplaukų atpažinimas, įskaitant grupavimo funkcijas, nepalaikomas „Commerce“ kanaluose (el. prekyba, EKA ir skambučių centras). Prekės, sukonfigūruotos atpažinti įplaukas, neturėtų būti įtraukiamos į užsakymus ar operacijas, kurios buvo sukurtos „Commerce“ kanaluose.
 
-> Įplaukų atpažinimas, įskaitant grupavimo funkcijas, nepalaikomas „Commerce“ kanaluose (el. prekyba, EKA, skambučių centras). Prekės, sukonfigūruotos atpažinti įplaukas, neturėtų būti įtraukiamos į „Commerce“ kanaluose sukurtus užsakymus ar operacijas.
-
-Modulyje **Įplaukų pripažinimas** yra šios nustatymų parinktys:
+Modulyje **Įplaukų pripažinimas** yra šios sąrankos parinktys:
 
 - Įplaukų pripažinimo žurnalai
 - Įplaukų pripažinimo parametrai
@@ -40,12 +40,16 @@ Modulyje **Įplaukų pripažinimas** yra šios nustatymų parinktys:
     - Patvirtintų produktų prekių grupės
     - Įplaukų grafiko nustatymas
     - Įplaukų vertės nustatymas
+    - Atsargų nustatymas
 
-        - Registravimo šablonai
-        - Grupavimai
+        - Įplaukų grafiko nustatymas
+        - Įplaukų vertės nustatymas
 
-    - Grupavimo komponentai
-    - Grupavimo prekė
+    - Registravimo šablonai
+    - Grupavimai
+
+        - Grupavimo komponentai
+        - Grupavimo prekė
 
 - Projekto nustatymai
 
@@ -91,20 +95,27 @@ Jei įplaukas pripažįstate etapais, rekomenduojame sudaryti įplaukų pripaži
 - **Automatinės sutarties sąlygos** – pasirinkite šį žymės langelį, jei sutarties pradžios ir pabaigos datos turėtų būti nustatomos automatiškai. Šios datos yra automatiškai nustatomos tik išleistiems produktams, kurių įplaukų tipas **Palaikymas pasibaigus sutarčiai**. Sutarties pradžios data automatiškai nustatoma į pardavimo užsakymo eilutės pageidaujamą siuntimo datą, o sutarties pabaigos data automatiškai nustatoma į datą prie pradžios datos pridedant mėnesių ar pasikartojimų skaičių, apibrėžtą nustatant įplaukų grafiką. Pavyzdžiui, pardavimo užsakymų eilutėje esančiam produktui suteikiama vienerių metų garantija. Numatytasis įplaukų grafikas yra **12 mėn.** (12 mėnesių), o šiam įplaukų grafikui pasirinktas žymės langelis **Automatinės sutarties sąlygos**. Jei pardavimo užsakymo eilutėje pageidaujama siuntimo data yra 2019 m. gruodžio 16 d., numatytoji sutarties pradžios data yra 2019 m. gruodžio 16 d., o numatytoji sutarties pabaigos data yra 2020 m. gruodžio 15 d.
 - **Pripažinimo pagrindas** – pripažinimo pagrindas apibrėžia, kaip įplaukų vertė paskirstoma pasikartojimuose.
 
-    - **Kas mėnesį pagal datas** – suma paskirstoma pagal faktines kiekvieno mėnesio dienas.
+    - **Kas mėnesį pagal dienas** – suma paskirstoma pagal faktines kiekvieno kalendorinio mėnesio dienas.
     - **Kas mėnesį** – suma paskirstoma lygiomis dalimis mėnesių skaičiui, apibrėžtam pasikartojimuose.
     - **Pasikartojimai** – suma paskirstoma lygiomis dalimis pasikartojimuose, tačiau gali apimti papildomą laikotarpį, jei kaip pripažinimo konvenciją pasirinksite **Faktinė pradžios data**.
+    - **Ataskaitinis laikotarpis pagal dienas** – suma paskirstoma pagal faktines kiekvieno ataskaitinio laikotarpio dienas. 
 
-- **Pripažinimo konvencija** – pripažinimo konvencija apibrėžia numatytąsias datas, nustatytas SF įplaukų grafike.
+    Kai ataskaitiniai laikotarpiai nustatyti pagal kalendorinius mėnesius, **Kas mėnesį pagal dienas** ir **Ataskaitinis laikotarpis pagal dienas** rezultatai bus tokie patys. Vienintelė išimtis – kai pripažinimo konvencija nustatyta kaip **Mėnesio / laikotarpio pabaiga**, o laukai **Sutarties pradžios data** ir **Pabaigos data** pardavimo užsakymo eilutėje paliekami tušti.
+
+- **Pripažinimo konvencija** – pripažinimo konvencija apibrėžia datas, nustatytas SF įplaukų grafike.
 
     - **Faktinė pradžios data** – grafikas sukuriamas naudojant sutarties pradžios datą (\[PCS\] prekių palaikymui pasibaigus sutarčiai) arba SF datą (pagrindinėms ir nepagrindinėms prekėms).
-    - **Mėnesio 1 d.** – data pirmoje grafiko eilutėje yra sutarties pradžios data (arba SF data). Tačiau visos tolesnės grafikų eilutės yra sukuriamos mėnesio 1 d.
+    - **Mėnesio / laikotarpio 1 d.** – data pirmoje grafiko eilutėje yra sutarties pradžios data (arba SF data). Tačiau visos tolesnės grafikų eilutės yra sukuriamos mėnesio arba ataskaitinio laikotarpio 1 d.
     - **Mėnesio vidurio padalijimas** – data pirmoje grafiko eilutėje priklauso nuo SF datos. Jei SF yra užregistruota pirmą–penkioliktą mėnesio dieną, įplaukų grafikas sukuriamas naudojant pirmą mėnesio dieną. Jei SF yra užregistruota šešioliktą ar vėlesnę mėnesio dieną, įplaukų grafikas sukuriamas naudojant pirmą kito mėnesio dieną.
-    - **Kito mėnesio 1 d.** – grafiko data yra pirma kito mėnesio diena.
 
-Pasirinkite mygtuką **Įplaukų grafiko išsami informacija**, norėdami peržiūrėti bendruosius laikotarpius ir procentinius dydžius, pripažįstamus kiekvienu laikotarpiu. Pagal numatytuosius nustatymus **Pripažinti procentinį dydį** reikšmė padalijama po lygiai laikotarpių skaičiui. Jei pripažinimo pagrindas nustatytas į **Kas mėnesį** arba **Pasikartojimai**, pripažinimo procentinę dalį galima keisti. Keičiant pripažinimo procentinę dalį, įspėjimas praneša, kad suma „Iš viso“ nelygi 100 procentų. Gavę pranešimą galite toliau redaguoti eilutes. Tačiau prieš uždarant puslapį procentinė dalis „Iš viso“ turi būti lygi 100 proc.
+        Parinkties **Mėnesio vidurio padalijimas** pasirinkti negalima, jei pripažinimo pagrindas nustatytas kaip **Ataskaitinis laikotarpis pagal dienas**.
 
-[![Įplaukų grafiko išsami informacija.](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
+    - **Kito mėnesio / laikotarpio 1 d.** – grafiko pradžios data yra pirma kito mėnesio arba ataskaitinio laikotarpio diena.
+    - **Mėnesio / laikotarpio pabaiga** – data pirmoje grafiko eilutėje yra sutarties pradžios data (arba SF data). Tačiau visos tolesnės grafiko eilutės yra sukuriamos paskutinei mėnesio arba ataskaitinio laikotarpio dienai. 
+
+Pasirinkite mygtuką **Įplaukų grafiko išsami informacija**, norėdami peržiūrėti bendruosius laikotarpius ir procentinius dydžius, pripažįstamus kiekvienu laikotarpiu. Pagal numatytuosius parametrus **Pripažinti procentinį dydį** reikšmė padalijama po lygiai laikotarpių skaičiui. Jei pripažinimo pagrindas nustatytas į **Kas mėnesį** pripažinimo procentinę dalį galima keisti. Keičiant pripažinimo procentinę dalį, įspėjimas praneša, kad suma „Iš viso“ nelygi 100 procentų. Gavę šį pranešimą galite toliau redaguoti eilutes. Tačiau prieš uždarant puslapį procentinė dalis „Iš viso“ turi būti lygi 100 proc.
+
+[![Įplaukų grafiko išsami informacija.](./media/revenue-schedule-details-2nd-scrn.png)](./media/revenue-schedule-details-2nd-scrn.png)
 
 ## <a name="inventory-setup"></a>Atsargų nustatymas
 
