@@ -74,15 +74,15 @@
                   items:
                     - name: Kas nauja ar pasikeitė „Supply Chain Management“ pagrindinis puslapis
                       href: get-started/whats-new-home-page.md
+                    - name: „Supply Chain Management 10.0.23“
+                      href: get-started/whats-new-scm-10-0-23.md
                     - name: „Supply Chain Management 10.0.22“ (2021 m. lapkričio mėn.)
                       href: get-started/whats-new-scm-10-0-22.md
                     - name: „Supply Chain Management 10.0.21“ (2021 m. spalio mėn.)
                       href: get-started/whats-new-scm-10-0-21.md
-                    - name: „Supply Chain Management 10.0.20“ (2021 m. rugpjūčio mėn.)
-                      href: get-started/whats-new-scm-10-0-20.md
                 - name: Pašalintos arba nerekomenduojamos funkcijos
                   items:
-                    - name: Pašalintų arba nerekomenduojamų funkcijų pagrindinis puslapis
+                    - name: Pašalintos arba nerekomenduojamos funkcijos pagrindinis puslapis
                       href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management“ funkcijos
                       href: get-started/removed-deprecated-features-scm-updates.md
@@ -1659,6 +1659,8 @@
                   href: master-planning/planning-optimization/demand-forecast.md
                 - name: Bendrasis planavimas su įsigijimo prekybos sutartimis
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
+                - name: Planavimo optimizavimui naudojami datos ir laiko parametrai
+                  href: master-planning/planning-optimization/date-time-used.md
                 - name: Laiko rezervai
                   href: master-planning/planning-optimization/safety-margins.md
                 - name: Leistinas uždelsimo nuokrypis (neigiamos dienos)
@@ -1885,6 +1887,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Visuotinės adresų knygelės konfigūravimas
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Adreso sąranka
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: DUK apie adresų knygeles
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Adresų knygelių konfigūravimas
@@ -2427,18 +2431,6 @@
                       href: production-control/release-production-orders.md
                     - name: Gamybos užsakymų skelbimas baigtais
                       href: production-control/report-production-orders-as-finished.md
-                    - name: Gamybos vietos vykdymo sąsajos nustatymas ir naudojimas
-                      items:
-                        - name: Gamybos vietos vykdymo sąsajos konfigūravimas
-                          href: production-control/production-floor-execution-configure.md
-                        - name: Gamybos vietos vykdymo sąsajos kūrimas
-                          href: production-control/production-floor-execution-tabs.md
-                        - name: 'Įrenginio, skirto paleisti gamybos vietos vykdymo sąsają, nustatymas'
-                          href: production-control/production-floor-execution-setup.md
-                        - name: Kaip darbuotojai naudoja gamybos vietos vykdymo sąsają
-                          href: production-control/production-floor-execution-use.md
-                        - name: Gamybos vietos vykdymo sąsajos projektavimas
-                          href: production-control/production-floor-execution-styles.md
                     - name: Įrenginių užduoties kortelių konfigūravimas
                       href: production-control/config-job-card-device.md
                     - name: Skelbimas baigtu iš užduoties kortelės įrenginio
@@ -2645,6 +2637,18 @@
                       href: production-control/consumption.md
                     - name: Gamybos registravimas
                       href: cost-management/production-posting.md
+            - name: Gamybos vietos vykdymo sąsajos nustatymas ir naudojimas
+              items:
+                - name: Gamybos vietos vykdymo sąsajos konfigūravimas
+                  href: production-control/production-floor-execution-configure.md
+                - name: Gamybos vietos vykdymo sąsajos kūrimas
+                  href: production-control/production-floor-execution-tabs.md
+                - name: 'Įrenginio, skirto paleisti gamybos vietos vykdymo sąsają, nustatymas'
+                  href: production-control/production-floor-execution-setup.md
+                - name: Kaip darbuotojai naudoja gamybos vietos vykdymo sąsają
+                  href: production-control/production-floor-execution-use.md
+                - name: Gamybos vietos vykdymo sąsajos projektavimas
+                  href: production-control/production-floor-execution-styles.md
         - name: Grąžinimų valdymas
           items:
             - name: Grąžinimų valdymo modulio peržiūra
@@ -3391,6 +3395,10 @@
                       href: warehousing/configure-mobile-devices-warehouse.md
                     - name: „Warehouse Management“ mobiliųjų įrenginių programėlės veiksmų pavadinimų ir instrukcijų tinkinimas
                       href: warehousing/mobile-app-titles-instructions.md
+                    - name: Paaukštintų laukų konfigūravimas mobiliajame įrenginyje atliekamiems veiksmams
+                      href: warehousing/warehouse-app-promoted-fields.md
+                    - name: Mobiliojo įrenginio meniu elementų aplinkinių veiksmų konfigūravimas
+                      href: warehousing/warehouse-app-detours.md
                     - name: Su „Warehouse Management“ mobiliųjų įrenginių programėle gaunama numerio lentelė
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Mobiliojo įrenginio meniu elemento pirkimo užsakymo darbui atlikti nustatymas
@@ -3409,9 +3417,11 @@
                       href: warehousing/pick-oldest-batch.md
                 - name: Visuotiniai mobiliojo įrenginio parametrai
                   href: warehousing/mobile-device-parameters.md
-                - name: Mobiliojo įrenginio naudotojo nustatymai
+                - name: Mobiliojo įrenginio vartotojų paskyros
+                  href: warehousing/mobile-device-work-users.md
+                - name: Mobiliojo įrenginio vartotojo parametrai
                   href: warehousing/mobile-device-user-settings.md
-                - name: Sandėlio programos įvykio apdorojimas
+                - name: Sandėlio programos įvykių apdorojimas
                   href: warehousing/warehouse-app-events.md
                 - name: Sandėlio mobiliųjų procesų išplėtimas
                   items:
@@ -3737,6 +3747,12 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Sandėlio valdymas
               items:
+                - name: „Warehouse Mobile App“
+                  items:
+                    - name: Nustatant programos ryšį nepavyko rasti sertifikato maršruto saugumą užtikrinančios priemonės
+                      href: troubleshooting/warehousing/certification-path-app-connection-error.md
+                    - name: Naujinant ir perkeliant į WMS nepavyko rasti sertifikato maršruto saugumą užtikrinančios priemonės
+                      href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: 'Paketo numerio automatinio rezervavimo raginimas rodomas, net jei yra atsargų'
                   href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
                 - name: Negalima panaikinti paėmimo darbo blokavimo dėl nebaigto papildymo darbo
@@ -3747,8 +3763,6 @@
                   href: troubleshooting/warehousing/cant-move-license-plate.md
                 - name: 'Negalima perkelti inventoriaus į vietą, kurią valdo licencijos plokštelė'
                   href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
-                - name: Nustatant programos ryšį nepavyko rasti sertifikato maršruto saugumą užtikrinančios priemonės
-                  href: troubleshooting/warehousing/certification-path-app-connection-error.md
                 - name: Klasterio šablono rasti nepavyko
                   href: troubleshooting/warehousing/cluster-profile-not-found-error.md
                 - name: Pristatymo pažymos koregavimo apdoroti negalima
@@ -3819,8 +3833,6 @@
                   href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
                 - name: Negalima atšaukti atsargų rezervacijos pardavimo užsakymo eilutėje
                   href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
-                - name: Naujinant ir perkeliant į WMS nepavyko rasti sertifikato maršruto saugumą užtikrinančios priemonės
-                  href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: 'Negalite patvirtinti siuntimo, nes klientas yra sulaikytas'
                   href: troubleshooting/warehousing/customer-is-on-hold.md
                 - name: 'Negalite patvirtinti siuntimo, nes krovinio eilučių kiekis lygus nuliui'
