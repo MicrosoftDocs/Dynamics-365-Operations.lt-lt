@@ -2,7 +2,7 @@
 title: Pašalintos arba nebenaudojamos platformos funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti iš „Finance and Operations“ programų platformos naujinių.
 author: sericks007
-ms.date: 09/27/2021
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 956ead503d426bb6cdfd136957c7f9dfa157bc08
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
-ms.translationtype: HT
+ms.openlocfilehash: 0065f5c101237de49ae362ecd3378ec5046dbf4b
+ms.sourcegitcommit: c4500b626667185643b3a2e7fc3a004d42198d07
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595150"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7725054"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Pašalintos arba nebenaudojamos platformos funkcijos
 
@@ -31,6 +31,64 @@ ms.locfileid: "7595150"
 Šis sąrašas skirtas suteikti jums informacijos apie pašalintas ir nebenaudojamas funkcijas, kad galėtumėte geriau planuoti savo darbą. 
 
 Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](/dynamics/s-e/global/axtechrefrep_61). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
+
+## <a name="feature-removal-effective-october-2021"></a>Priemonės pašalinimas įsigalioja 2021 m. spalio mėn.
+
+### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>„Microsoft Azure“ SQL ataskaitos „Lifecycle Services“ (LCS)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo/pašalinimo priežastis** | Visas veiklas ir stebėjimą atliks platforma per automatizavimą. Tam nereikės jokių neautomatinių veiksmų.|
+| **Pakeitė kita funkcija?**   | Taip, dabar yra automatizuota sistema, kuri šių pajėgumų nebenaudojama. |
+| **Paveiktos produkto sritys**         | SQL ataskaitos: dabartinis DTU, dabartinio DTU informacija, Gauti užrakto informaciją, dabartinio plano sąrašo vadovas, Gauti užklausos ID sąrašą, Gauti duoto plano ID SQL užklausos planą, Gauti užklausų planus ir vykdymo būseną, Gauti throttle config, Gauti laukimo statistiką, išvardyti tinkamiausias užklausas |
+| **Visuotinio diegimo parinktis**              | Debesies diegimas: Paveikia „Microsoft” valdomas gamybos ir 2‑5 pakopų smėlio dėžės aplinkas. |
+| **Būsena**                         | Pašalinta |
+
+### <a name="azure-sql-actions-in-lcs"></a>„Azure SQL" veiksmai LCS
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo/pašalinimo priežastis** | Mes atšaukiame kai kurias SQL veiksmai LCS. Visas veiklas ir stebėjimą atliks platforma per automatizavimą. Tam nereikės jokių neautomatinių veiksmų. |
+| **Pakeitė kita funkcija?**   | Taip, dabar yra automatizuota sistema, kuri šių pajėgumų nebenaudojama. |
+| **Paveiktos produkto sritys**         | SQL veiksmai: sukurkite plano vadovą, kad planumėte ID, sukurkite plano vadovą, kaip įtraukti lentelės užuominas, pašalinti plano vadovą, išjungti / įgalinti puslapio užrakinimą ir užraktų perskyrimą, atnaujinti statistiką lentelėje, perkurti indeksą, kurti indeksą |
+| **Visuotinio diegimo parinktis**              | Debesies diegimas: Paveikia „Microsoft” valdomas gamybos ir 2‑5 pakopų smėlio dėžės aplinkas. |
+| **Būsena**                         | Pašalinta |
+
+
+## <a name="feature-deprecation-effective-october-2021"></a>Funkcijos nuvertinimas įsigalioja 2021 m. spalio mėn.
+
+### <a name="show-related-document-attachments-feature"></a>Funkcija "Rodyti susijusius dokumentų priedus"
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo/pašalinimo priežastis** | Priemonė grąžino netikėtus rezultatus. |
+| **Pakeitė kita funkcija?**   | Ne. Visi tolesni planai, susiję su šia funkcija, bus perduoti per mūsų standartinį bangos atskleidimo procesą. |
+| **Paveiktos produkto sritys**         | Žiniatinklio klientas – dokumentų priedų naudojimas |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Pasenę  |
+
+## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>„Finance and Operations” programų 10.0.23 versijos platformos naujinimai
+
+### <a name="ondbsynchronize-event"></a>OnDBSynchronize įvykis
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo/pašalinimo priežastis** | Nėra valdiklių šiam įvykiui įvykdyti. |
+| **Pakeitė kita funkcija?**   | Taip, perkelkite esamus suprenumeruotus metodus **OnDBSynchronzie** įvykio, į SysSetup išplėstinę klasę. |
+| **Paveiktos produkto sritys**         | Duomenų bazės sinchronizavimas |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Nerekomenduojama. Suplanuota pašalinimo data yra 2022 m. spalio mėn. |
+
+
+### <a name="systemnotificationsmanageraddnotification-api"></a>SystemNotificationsManager.AddNotification API
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo/pašalinimo priežastis** | Įtraukiant pranešimus Microsoft reikia papildomų parametrų. |
+| **Pakeitė kita funkcija?**   | Taip, **SystemNotificationsManager.AddSystemNotification()** API. Šiai API reikia, kad būtų konkrečiai nustatytas sugeneruotų pranešimų ExpirationDateTime ir RuleID. |
+| **Paveiktos produkto sritys**         | Žiniatinklio klientas |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Nerekomenduojama. Suplanuota pašalinimo data yra 2023 m. balandžio mėn. |
 
 ## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>„Finance and Operations” programų 10.0.21 versijos platformos naujinimai
 
@@ -54,17 +112,17 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | **Pakeitė kita funkcija?**   | Taip, dabar yra automatizuota sistema, kuri šių pajėgumų nebenaudojama. |
 | **Paveiktos produkto sritys**         | SQL ataskaitos: dabartinis DTU, dabartinio DTU informacija, Gauti užrakto informaciją, dabartinio plano sąrašo vadovas, Gauti užklausos ID sąrašą, Gauti duoto plano ID SQL užklausos planą, Gauti užklausų planus ir vykdymo būseną, Gauti throttle config, Gauti laukimo statistiką, išvardyti tinkamiausias užklausas |
 | **Visuotinio diegimo parinktis**              | Debesies diegimas: Paveikia „Microsoft” valdomas gamybos ir 2‑5 pakopų smėlio dėžės aplinkas. |
-| **Būsena**                         | Nerekomenduojama: Suplanuota pašalinimo data – 2021 m. spalis. |
+| **Būsena**                         | Nerekomenduojama: Suplanuota pašalinimo data yra 2021 m. spalio mėn. |
 
 ### <a name="azure-sql-actions-in-lcs"></a>„Azure SQL" veiksmai LCS
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nerekomendavimo / pašalinimo priežastis** | Mes atšaukiame kai kurias SQL veiksmai LCS. Visas veiklas ir stebėjimą atliks platforma per automatizavimą. Tam nereikės jokių neautomatinių veiksmų. |
+| **Nerekomendavimo/pašalinimo priežastis** | Mes atšaukiame kai kurias SQL veiksmai LCS. Visas veiklas ir stebėjimą atliks platforma per automatizavimą. Tam nereikės jokių neautomatinių veiksmų. |
 | **Pakeitė kita funkcija?**   | Taip, dabar yra automatizuota sistema, kuri šių pajėgumų nebenaudojama. |
 | **Paveiktos produkto sritys**         | SQL veiksmai: sukurkite plano vadovą, kad planumėte ID, sukurkite plano vadovą, kaip įtraukti lentelės užuominas, pašalinti plano vadovą, išjungti / įgalinti puslapio užrakinimą ir užraktų perskyrimą, atnaujinti statistiką lentelėje, perkurti indeksą, kurti indeksą |
 | **Visuotinio diegimo parinktis**              | Debesies diegimas: Paveikia „Microsoft” valdomas gamybos ir 2‑5 pakopų smėlio dėžės aplinkas. |
-| **Būsena**                         | Nerekomenduojama: Suplanuota pašalinimo data – 2021 m. spalis. |
+| **Būsena**                         | Nerekomenduojama: Suplanuota pašalinimo data yra 2021 m. spalio mėn. |
 
 ## <a name="feature-deprecation-effective-may-2021"></a>Pranešimas apie funkcijos nerekomendavimą, įsigaliojantį nuo 2021 m. gegužė
 
@@ -76,7 +134,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | **Pakeitė kita funkcija?**   | Taip, ši funkcija pakeičiama LCS [Problemų ieška](../lifecycle-services/issue-search-lcs.md) ir [„Dynamics” reguliavimo įspėjimo pateikimo tarnyba](../lcs-solutions/submit-localization-alerts.md). |
 | **Paveiktos produkto sritys**         | LCS globalizacijos portalas|
 | **Visuotinio diegimo parinktis**              | Visuotinis debesies diegimas |
-| **Būsena**                         | Nerekomenduojama: Suplanuota pašalinimo data – 2022 m. gegužė. |
+| **Būsena**                         | Nerekomenduojama: Suplanuota pašalinimo data yra 2022 m. gegužės mėn. |
 
 
 ## <a name="feature-removed-effective-january-28-2021"></a>Funkcija bus pašalinta nuo 2021 m. sausio mėn 28 d.

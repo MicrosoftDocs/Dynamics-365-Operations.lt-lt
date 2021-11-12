@@ -1,5 +1,5 @@
 ---
-title: „Dynamics 365 Supply Chain Management“ peržiūra 10.0.22 (2021 m. lapkritis)
+title: Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.22 (2021 m. lapkritis)
 description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.22 funkcijos.
 author: kamaybac
 ms.date: 08/09/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 3f5166338aebe784fe7f95372a437d4ed660de77
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a4f9e5a4a318ceaa45b6919e394e1ff335bfb193
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579717"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678840"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10022-november-2021"></a>„Dynamics 365 Supply Chain Management“ peržiūra 10.0.22 (2021 m. lapkritis)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.22 (2021 m. lapkritis)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šioje temoje pristatomos funkcijos, kurios yra naujos arba pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.22 peržiūros versijoje. Šios versijos komponavimo numeris yra 10.0.995 ir jis pasiekiamas tokius būdu:
+Ši tema išvardyja funkcija, kurios yra naujos arba pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.22 versijoje. Šios versijos komponavimo numeris yra 10.0.995 ir jis pasiekiamas tokius būdu:
 
 - **Peržiūros leidimas:** 2021 m. rugsėjo mėn.
 - **Bendras leidimo pasiekiamumas (savaiminis naujinimas):** 2021 m. spalio mėn.
@@ -40,13 +39,12 @@ Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Priemonės *
 
 Toliau pateiktoje lentelėje pateikti funkcijos patobulinimai, įtraukti į šį leidimą. Kiekvienas iš jų suteikia didesnį esamos funkcijos patobulinimą. Kadangi jie yra tik patobulinimai, jie nėra išvardyti [leidimo plane](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features) Tačiau, siekiant užtikrinti, kad šie patobulinimai bus suderinti su jūsų esamais tinkinimais ar nuostatomis, kiekvienas iš jų yra išjungiamas pagal numatytuosius nustatymus (nebent nurodyta kitaip). Jei norite naudoti bet kurią iš šių funkcijų, turite ją tiesiogiai įgalinti [funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
-| Funkcijos sritis | Funkcijos pavadinimas funkcijos valdyme | Daugiau informacijos |
+| Modulis | Funkcijos pavadinimas funkcijos valdyme | Daugiau informacijos |
 |---|---|---|
 | Kaštų valdymas | Kurti susijusius standartinių išlaidų apvalinimo perkainojimo kvitus | <p>Kai atliekamas atsargų finansinis registravimas (pvz., pardavimo užsakymo SF arba atsargų operacija), dėl šios funkcijos sistema sukuria atskirą kvitą, susijusį su standartinių išlaidų apvalinimo perkainojimu ir prideda jį prie finansinio registravimo kvito kaip susijęs kvitas.</p><p>Be šios priemonės, sistema įrašo standartinius išlaidų apvalinimo perkainojimus tą patį kvito registravimą. Dėl tokio veikimo būdo kartais gali kilti nesuderinamos datos informacijos, nes perkainojimas naudoja seansą arba sistemos datą, o finansiniai registravimas naudoja registravimo datą.</p> |
 | Paskirstyta taip pat topologija | *(Funkcijos valdyti nereikia.)* | <p>Šis leidimas išplečia siuntimo krovinio planavimo galimybes sandėlio valdymo darbo krūviui debesies ir kraštų skalės vienetams.</p><p>Daugiau informacijos rasite [Sandėlio valdymo darbo krūviai debesies ir briaunos skalės vienetams](../cloud-edge/cloud-edge-workload-warehousing.md).</p> |
 | Inžinerinių pakeitimų valdymas | Inžinierinių produktų variantų generavimas | <p>Ši priemonė leidžia sugeneruoti kelis inžinerijos produkto variantus, pagrįstus jo spalva, dydžiu, stilius ar konfigūracijos dimensijomis.</p><p>Daugiau informacijos ieškokite gamybos [produktų variantų gener kuriuos galima generuoti](../engineering-change-management/engineering-variants.md).</p> |
 | Atsargų ir sandėlio valdymas | Inventoriaus matomumo integravimas su rezervavimo poslinkiu | <p>Šią funkciją galima įgalinti tik įjungus *atsargų matomumo integravimo* funkciją. Ji suteikia funkcijų, koresponduojanti rezervavimus, kurie atliekami atsargų matomumo metu.</p><p>Dėl daugiau informacijos, žr. [Inventoriaus matomumo rezervavimas](../inventory/inventory-visibility-reservations.md).</p> |
-| Pardavimas ir rinkodara | Apribokite pardavimo užsakymų, kuriuos galima pasirinkti registruoti, skaičių | <p>Ši funkcija yra automatiškai įjungta. Priemonė prideda parametrą, laukelyje vadinamą **Maks. pardavimo užsakymų skaičiumi**, kad būtų galima registruoti puslapyje **Gautinų sumų** parametrai. Šis laukelis leidžia apibrėžti didžiausią pardavimo užsakymų, kuriuos galima pasirinkti registruojant patvirtinimus, išrinkimo dokumentus, važtaraščius ir SF iš pardavimo užsakymų sąrašo puslapio, skaičių. Numatytoji vertė yra *100*.</p><p>Priemonė padeda pagerinti pardavimo užsakymų sąrašo puslapio našumą, kai pasirenkamas pardavimo užsakymų jau skaičius. Tai neturi įtakos pardavimų užsakymų, kuriuos galima apdoroti periodine užduotimi, skaičiumii.</p> |
 
 ## <a name="new-and-updated-documentation-resources"></a>Nauji ir naujinti dokumentų šaltiniai
 
@@ -63,7 +61,7 @@ Neseniai įtraukėme ir reikšmingai atnaujinome tolesnes pagalbos temas. Šios 
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>„Finance and Operations” programų platformos naujinimai
 
-„Microsoft Dynamics 365 Supply Chain Management“ 10.0.22 versijoje yra platformos naujinimų. Dėl daugiau informacijos, žr. [Platformos naujinimas 10.0.22 „Finance and Operations“ programų versijai (2021 m. lapkričio mėn.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md). <!-- KFM: Confirm link -->
+„Microsoft Dynamics 365 Supply Chain Management“ 10.0.22 versijoje yra platformos naujinimų. Dėl daugiau informacijos, žr. [Platformos naujinimas 10.0.22 „Finance and Operations“ programų versijai (2021 m. lapkričio mėn.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md).
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
 

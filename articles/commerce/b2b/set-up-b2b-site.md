@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d77e1f3b5f8d558643b078dbe8e829e62f85120e4931d60224116a33f171fab3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: c630580dd75a86085746b36726e9ee55a9db2af5
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721012"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713753"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>B2B el. prekybos svetainės nustatymas
 
@@ -37,7 +37,7 @@ Verslo su verslu (B2B) el. komercijos saitas suteikia kelias pagrindines ypatybe
 
 Galite prieiti prie saito lygio nustatymų saito kūrimo įrankyje **Saito nustatymai \> Plėtiniai**. Tolesni du saito lygio nustatymai taikomi B2B scenarijams:
 
-- **Įjunkite kliento sąskaitos mokėjimus** – Ši ypatybė leidžia vartotojams mokėti už užsakymus su kliento sąskaitomis. Esamo vertės yra **Įjungtos B2B klientams**, **Įjungtos B2C klientams**, **Įjungtos visiems klientams** ir **Išjungtos visiems**. Jei jūsų B2B saitas palaiko kliento sąskaitas, turėtumėte pasirinkti **Įjungti B2C klientams**.
+- **Įjunkite kliento sąskaitos mokėjimus** – Ši ypatybė leidžia vartotojams mokėti už užsakymus su kliento sąskaitomis. Esamo vertės yra **Įjungtos B2B klientams**, **Įjungtos B2C klientams**, **Įjungtos visiems klientams** ir **Išjungtos visiems**. Jei jūsų B2B saitas palaiko kliento sąskaitas, turėtumėte pasirinkti **Įjungti B2B klientams**.
 - **Įjungti užsakymo kiekio apribojimus** – Ši ypatybė jums leidžia nustatyti apribojimus prekių skaičiui, kurį galima užsakyti kiekvienam produktui ar kategorijai. Esamo vertės yra **Įjungtos B2B klientams**, **Įjungtos B2C klientams**, **Įjungtos visiems klientams** ir **Išjungtos visiems**.
 
 > [!NOTE]

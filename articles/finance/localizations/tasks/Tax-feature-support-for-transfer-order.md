@@ -2,7 +2,7 @@
 title: Mokesčių funkcijų palaikymos operacijų užsakymams
 description: Šioje temoje paaiškinama naujos mokesčių priemonės perkėlimo užsakymų palaikymas naudojant mokesčių skaičiavimo tarnybą.
 author: Kai-Cloud
-ms.date: 09/15/2021
+ms.date: 10/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 01bf7c251fe57072f042c9187b9f5b6b6687ab0f
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
-ms.translationtype: HT
+ms.openlocfilehash: 2f68a3d7ed4384fe5a97f1e59903e3191df6b741
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500081"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647718"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Mokesčių funkcijų palaikymos operacijų užsakymams
 
@@ -31,7 +31,7 @@ ms.locfileid: "7500081"
 Norėdami konfigūruoti ir naudoti šią funkciją, turite atlikti tris pagrindinius veiksmus:
 
 1. **RCS nustatymas: reguliavimo konfigūravimo tarnybose nustatykite mokesčių funkciją, mokesčių kodus ir mokesčių kodų taikomumą mokesčių** kodo nustatymui perkėlimo užsakymuose.
-2. **„Finance“ nustatymas:** „Microsoft Dynamics 365 Finance“, įjunkite **Mokesčių operacijų užsakymas** funkcija, nustatykite mokesčių paslaugų parametrus inventoriui ir nustatykite pagrindinius mokesčių parametrus/
+2. **Dynamics 365 Finance nustatymas:** Finansuose įgalinkite funkciją **Mokesčių operacijų užsakymas**, nustatykite mokesčių skaičiavimo paslaugų parametrus inventoriui ir nustatykite pagrindinius mokesčių parametrus.
 3. **Atsargų nustatymas:** nustatykite perkėlimo užsakymo operacijų atsargų konfigūraciją.
 
 ## <a name="set-up-rcs-for-tax-and-transfer-order-transactions"></a>Nustatyti mokesčių ir perkėlimo užsakymo operacijų RCS
@@ -39,8 +39,6 @@ Norėdami konfigūruoti ir naudoti šią funkciją, turite atlikti tris pagrindi
 Norėdami nustatyti su perkėlimo užsakymu susijusių mokesčių, atlikite šiuos veiksmus. Pavyzdyje, kuris rodomas čia, perkėlimo užsakymas iš Olandijos į Belgiją.
 
 1. Mokesčių priemonių **puslapyje**, skirtuke **Versijos**, pasirinkite juodraščio priemonės versiją, tada pasirinkite **Redaguoti**.
-
-    ![Redagavimo pasirinkimas.](../media/tax-feature-support-01.png)
 
 2. Mokesčių priemonių **nustatymo** puslapyje, skirtuke **Mokesčių** kodai, pasirinkite Įtraukti, **kad** sukurtumėte naujus mokesčių kodus. Pavyzdžiui, sukurti trys mokesčių kodai: **NL-atleidimas,** **„BE-RC-21“** ir **„BE-RC+21“**.
 
@@ -51,9 +49,8 @@ Norėdami nustatyti su perkėlimo užsakymu susijusių mokesčių, atlikite šiu
         2. Pasirinkite **pagal grynąją** sumą mokesčio **komponento** lauke.
         3. Pasirinkite **Įrašyti**.
         4. Pasirinkite **Įtraukti** **Reitingavimo** lentelėje.
-        5. Swtich **yra** neapmokestinama į **Taip** **bendrajame** skyriuje.
-
-           ![NL neapmokestinimo mokesčio kodas.](../media/tax-feature-support-02.png)
+        5. Nustatykite **Yra neapmokestinama** į **Taip** **Bendrajame** skyriuje.
+        6. Lauke **Neapmokestinimo kodas** įveskite **EC**.
 
     - Kai perkėlimo užsakymas gaunamas Belgijos sandėlyje, atvirkštinio apmokestinimo mechanizmas taikomas naudojant **„BE-RC-21“ ir** **„BE-RC+21“** mokesčių kodus.
         
@@ -63,10 +60,8 @@ Norėdami nustatyti su perkėlimo užsakymu susijusių mokesčių, atlikite šiu
         3. Pasirinkite **Įrašyti**.
         4. Pasirinkite **Įtraukti** **Reitingavimo** lentelėje.
         5. Įveskite **-21** į mokesčio tarifo **lauką**.
-        6. Swtich **yra atvirkštinis apmokestinimas** į **Taip** **bendrajame** skyriuje.
+        6. Nustatykite **Yra atvirkštinis apmokestinimas** į **Taip** **Bendrajame** skyriuje.
         7. Pasirinkite **Įrašyti**.
-
-           ![BE-RC-21 mokesčių kodas, skirtas atvirkštinei mokesčių operacijai.](../media/tax-feature-support-03.png)
         
         Sukurkite mokesčio kodą **„BE-RC+21“**.
         1. Pasirinkite **Pridėti**, įveskite **„BE-RC-21“** PVM kodo **lauke**.
@@ -76,16 +71,26 @@ Norėdami nustatyti su perkėlimo užsakymu susijusių mokesčių, atlikite šiu
         5. Įveskite **21** į mokesčio tarifo **lauką**.
         6. Pasirinkite **Įrašyti**.
 
-           ![BE-RC+21 mokesčių kodas, skirtas atvirkštinei mokesčių operacijai.](../media/tax-feature-support-04.png)
-
-3. Nustatykite mokesčių kodų taikomumą.
+3. Nurodykite mokesčių grupę.
+    1. Pasirinkite **Tvarkyti stulpelius**, tada pasirinkite eilutės lauką **Mokesčių grupė**.
+    2. Pasirinkite **->**, tada pasirinkite **Gerai**.
+    3. Pasirinkite **Įtraukti**, kad įtrauktumėte mokesčių grupę.
+    4. **Mokesčių grupės** stulpelyje įveskite **AR-EU** ir tada pasirinkite **NL-neapmokestinamas** mokesčio kodą.
+    5. Pasirinkite **Įtraukti**, kad įtrauktumėte mokesčių grupę.
+    6. **Mokesčių grupės** stulpelyje įveskite **RC-PVM** ir tada pasirinkite **BE-RC-21** ir **BE-RC+21** mokesčių kodus.
+4. Nurodykite prekės mokesčių grupę.
+    1. Pasirinkite **Tvarkyti stulpelius**, tada pasirinkite eilutės lauką **Prekės mokesčių grupė**.
+    2. Pasirinkite **->** ir tada pasirinkite **Gerai**.
+    3. Pasirinkite **Įtraukti**, kad įtrauktumėte prekės mokesčių grupę.
+    4. Įveskite **PILNAS** stulpelyje **Prekės mokesčių grupė**. Pasirinkite mokesčių kodus **BE-RC-21**, **BE-RC+21** ir **NL-exempt**.
+5. Nustatykite mokesčių grupės taikomumą.
 
     1. Pasirinkite **Tvarkyti** stulpelius, tada pasirinkite stulpelius, kurie turėtų būti naudojami kuriant taikomumo lentelę.
 
         > [!NOTE]
         > Būtinai įtraukite verslo **proceso ir** mokesčių **krypčių stulpelius į** lentelę. Abu stulpeliai yra labai svarbūs perkėlimo užsakymų mokesčių funkcijai.
 
-    2. Taikyti taikomas taisykles. Neužpildyti **mokesčių** kodų, **mokesčių grupės ir prekių mokesčių grupės laukų palikti** **tuščius**.
+    2. Taikyti taikomas taisykles. Nepalikite **Mokesčio grupės** lauko tuščio.
         
         Įtraukite naują perkėlimo užsakymo siuntimo taisyklę.
         1. Pasirinkite **Įtraukti** **Taikomos taisyklės** lentelėje.
@@ -93,8 +98,7 @@ Norėdami nustatyti su perkėlimo užsakymu susijusių mokesčių, atlikite šiu
         3. Lauke **Siuntimo iš šalies/** regiono įveskite **„NLD“**.
         4. Lauke **Siuntimo į šalies/** regiono įveskite **„BEL“**.
         5. Mokesčių krypties **lauke pasirinkite** Išvestis, **kad taisyklė būtų taikoma perkėlimo užsakymo** siuntai.
-        6. Laukelyje **Mokesčių kodai** rinkitės **NL-neapmokestinama**.
-        7. Laukuose Mokesčių grupė ir Prekių mokesčių grupė įveskite susijusią PVM grupę ir prekės PVM **grupę** **apibrėžtą** jūsų finansų sistemoje.
+        6. Laukelyje **Mokesčių grupė** pasirinkite **AR-EU**.
         
         Įtraukite kitą perkėlimo užsakymo gavimo taisyklę.
         
@@ -103,14 +107,19 @@ Norėdami nustatyti su perkėlimo užsakymu susijusių mokesčių, atlikite šiu
         3. Lauke **Siuntimo iš šalies/** regiono įveskite **„NLD“**.
         4. Lauke **Siuntimo į šalies/** regiono įveskite **„BEL“**.
         5. Mokesčių krypties **lauke pasirinkite** Įvestis, **kad taisyklė būtų taikoma perkėlimo užsakymo** gavimai.
-        6. Mokesčių **kodų** lauke pasirinkite **„BE-RC+21“** ir **„BE-RC-21“**.
-        7. Laukuose Mokesčių grupė ir Prekių mokesčių grupė įveskite susijusią PVM grupę ir prekės PVM **grupę** **apibrėžtą** jūsų finansų sistemoje.
+        6. Laukelyje **Mokesčių grupė** pasirinkite **RC-VAT**.
 
-           ![Taikymo taisyklės.](../media/image5.png)
+6. Nustatykite prekės mokesčių grupės taikomumą.
 
-4. Užpildykite ir publikuokite naują mokesčių priemonės versiją.
+    1. Pasirinkite **Tvarkyti** stulpelius, tada pasirinkite stulpelius, kurie turėtų būti naudojami kuriant taikomumo lentelę.
+    2. Taikyti taikomas taisykles. Nepalikite **Prekės mokesčio grupės** lauko tuščio.
+        
+        Įtraukite naują perkėlimo užsakymo siuntimo taisyklę ir čekį.
+        1. **Taikomumo taisyklės** puslapyje pasirinkite **Įtraukti**.
+        2. **Verslo proceso** lauke pasirinkite **Atsargos** kad taisyklė būtų taikoma perkėlimo užsakymui.
+        3. Laukelyje **Prekės mokesčių grupė** pasirinkite **PILNAS**.
+7. Užpildykite ir publikuokite naują mokesčių priemonės versiją.
 
-    [![Naujos versijos būsenos keitimas.](../media/image6.png)](../media/image6.png)
 
 ## <a name="set-up-finance-for-transfer-order-transactions"></a>Nustatyti „Finance“ ir perkėlimo užsakymo operacijas
 
@@ -120,28 +129,26 @@ Atlikite šiuos žingsnius, kad įjungtumėte ir nustatytumėte mokesčius opera
 2. Sąraše raskite ir pasirinkite mokestį perkėlimo užsakymo priemonėje, tada, norėdami **jį įjungti** **pasirinkite Įgalinti** dabar.
 
     > [!IMPORTANT]
-    > Perkėlimo **užsakymo mokesčio priemonė visiškai priklauso nuo mokesčių** tarnybos. Todėl jį galima įjungti tik įdiegus mokesčių paslaugą.
+    > **Perkėlimo užsakymo mokesčio** funkcija visiškai priklauso nuo mokesčių skaičiavimo paslaugos. Todėl jį galima įjungti tik įdiegus mokesčių skaičiavimo paslaugą.
 
     ![Mokesčiai operacijų užsakymo funkcijoje.](../media/image7.png)
 
-3. Įjunkite mokesčių paslaugą ir pasirinkite **atsargų** verslo procesą.
+3. Įgalinkite mokesčių skaičiavimo paslaugą ir pasirinkite **Atsargų** verslo procesą.
 
     > [!IMPORTANT]
-    > Turite atlikti šį žingsnį su kiekvienu finansų juridiniu subjektu, kur norite, kad būtų galima naudoti mokesčių paslaugą ir perkėlimo užsakymų mokesčių funkciją.
+    > Turite atlikti šį žingsnį su kiekvienu finansų juridiniu subjektu, kur norite, kad būtų galima naudoti mokesčių skaičiavimo paslaugą ir perkėlimo užsakymų mokesčių funkciją.
 
-    1. Eikite į **Mokesčiai** > **Nustatymas** > **Mokesčių konfigūracija** > **Mokesčių tarnybos nustatymas**.
+    1. Eikite į **Mokesčiai** > **Sąranka** > **Mokesčių konfigūracija** > **Mokesčių skaičiavimo parametrai**.
     2. Verslo **proceso lauke** pasirinkite **Atsargos**.
-
-      ![Verslo proceso lauko nustatymas.](../media/image8.png)
 
 4. Patikrinkite, ar nustatytas atvirkštinio apmokestinimo mechanizmas. Eikite į DK nustatymo parametrus, tada skirtuke Atvirkštinis apmokestinimas patikrinkite, **ar** \> **nustatyta** \> **parinktis** **Įgalinti** **atvirkštinį apmokestinimą kaip** **Taip**.
 
     ![Įjungti atvirkštinio apmokestinimo parinktį.](../media/image9.png)
 
-5. Patikrinkite, ar susiję mokesčių kodai, mokesčių grupės, prekių mokesčių grupės ir PVM registracijos numeriai nustatyti finansuose pagal mokesčių tarnybos nurodymus.
+5. Patikrinkite, ar susiję mokesčių kodai, mokesčių grupės, prekių mokesčių grupės ir PVM registracijos numeriai nustatyti finansuose pagal mokesčių skaičiavimo paslaugos nurodymus.
 6. Nustatyti tarpinę tarpinę sąskaitą. Šio veiksmo reikia atlikti tik tada, kai perkėlimo užsakymui taikomas mokestis nėra taikomas pvm mokėjimo arba atvirkštinio apmokestinimo mechanizmui.
 
-    1. Eikite į **Mokesčiai** > **Nustatymas** > **Pardavimų mokesčiai** \ **Didžiosios knygos registravimo grupės**.
+    1. Eikite į **Mokesčiai** > **Nustatymas** > **Pardavimų mokesčiai** > **Didžiosios knygos registravimo grupės**.
     2. Lauke **Tarpinis tranzitas** pasirinkite DK sąskaitą.
 
        ![Pasirinkti tarpinę sąskaitą.](../media/image10.png)

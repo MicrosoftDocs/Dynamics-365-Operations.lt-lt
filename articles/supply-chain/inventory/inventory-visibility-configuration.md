@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 27dfc3f431fdfc1ec5c2cad2c3458b11c94189c3
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
-ms.translationtype: HT
+ms.openlocfilehash: 53cc457c788d24adfe3c523719ccffc6d445fb61
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474681"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678476"
 ---
 # <a name="configure-inventory-visibility"></a>Atsargų matomumo konfigūravimas
 
@@ -366,16 +366,12 @@ Indeksas leidžia pateikti užklausą apie turimų atsargų informaciją šiais 
 
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Rezervavimo konfigūracija (pasirinktinai)
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Jei norite naudoti funkciją Švelniai rezervavimas, reikia rezervavimo konfigūracijos. Konfigūraciją sudaro dvi pagrindinės dalys:
 
 - Švelniai rezervavimo susiejimas
 - Švelni rezervavimo hierarchija
 
 ### <a name="soft-reservation-mapping"></a>Švelniai rezervavimo susiejimas
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Kai rezervate, galite norėti žinoti, ar šiuo metu turimas atsargas galima rezervuoti. Tikrinimas yra susietas su apskaičiuotu matu, kuris nurodo faktinių matų derinio skaičiavimo formulę.
 
@@ -446,8 +442,6 @@ Todėl jei bandysite rezervuoti ir kiekis bus mažesnis arba `iv.SoftReservOrder
 > Kai iškiesite rezervavimo API, galite valdyti rezervavimo tikrinimą nurodydami parametrą Boolean `ifCheckAvailForReserv` užklausos body. Vertė, `True` kuri reiškia, kad būtinas tikrinimas, o `False` vertė reiškia, kad tikrinimas nebūtinas. Numatytoji vertė yra `True`.
 
 ### <a name="soft-reservation-hierarchy"></a>Švelni rezervavimo hierarchija
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Rezervavimo hierarchija aprašo dimensijų seką, kurią reikia nurodyti rezervuojant. Tai veikia tuo pačiu būdu, kaip produkto hierarchija veikia turimose užklausose.
 
@@ -747,8 +741,6 @@ Sukonfigūruoti šie duomenų šaltinio `erp` (įmonės šaltinio planavimo) fak
 Šiame skyriuje aprašoma numatytoji rezervavimo konfigūracija.
 
 #### <a name="reservation-mapping"></a>Rezervavimo susiejimas
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Šioje lentelėje rodoma numatytoji rezervavimo konfigūracija.
 

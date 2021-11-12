@@ -10,17 +10,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: cb03ccb208f19f540fefafd9964f74309736dc05
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: ccf827983694eab2037c73aa3251846b051e66f1
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577485"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678572"
 ---
 # <a name="delay-tolerance-negative-days"></a>Leistinas uždelsimo nuokrypis (neigiamos dienos)
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 
 Leistino uždelsimo nuokrypio funkcija įgalina Planavimo optimizavimą atsižvelgti į **Neigiamų dienų** vertę, nustatytą padengimo grupėms. Ji naudojama norint pratęsti leistino uždelsimo nuokrypio laikotarpį, taikomą bendrojo planavimo metu. Tokiu būdu galite išvengti naujų tiekimo užsakymų kūrimo, jei po trumpo vėlavimo esamas tiekimas galės padengti poreikį. Funkcijos paskirtis – nustatyti, ar apsimoka kurti naują konkrečios paklausos tiekimo užsakymą.
 

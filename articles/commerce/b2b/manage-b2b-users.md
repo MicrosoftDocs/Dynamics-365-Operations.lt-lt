@@ -2,7 +2,7 @@
 title: Valdykite verslo partnerio vartotojus B2B el. komercijos svetainėse
 description: Šioje temoje aprašoma, kaip administratoriai gali redaguoti, įtraukti ir naikinti verslo partnerio vartotojus verslo su verslu (B2B) el. komercijos svetainėse.
 author: josaw1
-ms.date: 07/22/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f6cc1d5dfeb48fd00216fc1908e9e8be24f07131b3e5f1eaeefb10396efbebc3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 090dc9af49840e559b4c1ad1500718fde9764aa2
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734948"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713698"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Valdykite verslo partnerio vartotojus B2B el. komercijos svetainėse
 
@@ -68,6 +68,18 @@ Norėdami patvirtinti ir nustatyti verslo partnerio administratorių vartotoją 
 1. Eikite į **Mažmenos ir komercijos IT \> Platinimo grafikas** ir vykdykite **1010** (**Klientų**) darbą, kad stumtumėte naujai sukurtą klientą ir kliento hierarchijos įrašus į kanalo duomenų bazę.
 
 Po to, kai užklausa patvirtinta ir klientas ir jo hierarchijos įrašai sinchronizuojami į kanalo duomenų bazę, užklausos teikėjas gali prisijungti prie B2B el. komercijos svetainės naudodamas el. pašto adresą patiektą pateikiant užklausą. Vartotojai gali naudoti prisijungimo eigą siekiant nustatyti slaptažodį jų paskyrai. Norėdami susieti tapatybės tiekėjo („Azure AD B2C”) įrašą su B2B kliento įrašu, sukurtu prisijungiant arba prisiregistruojant, vadovaukitės instrukcijomis, pateiktomis skyriuje [Įgalinti automatinį tapatybės įrašų susiejimą su klientų paskyromis](../identity-record-linking.md).
+
+## <a name="notify-b2b-prospects-when-they-are-approved-or-rejected"></a>Pranešti apie B2B potencialius klientus, kai jie patvirtinami arba atmetami
+
+Kai patvirtinsite arba atmesite B2B potencialaus kliento siuntimo užklausą, galėsite automatiškai siųsti pranešimą klientui el. paštu. 
+
+Norėdami „Commerce Headquarters" nustatyti el. pašto pranešimus dėl įvykių, kurių potencialus klientas patvirtino B2B potencialų klientą, arba B2B potencialaus kliento atmesto pranešimo tipo, atlikite šiuos veiksmus.
+
+1. Sukurkite el. laiškų, kurie bus siunčiami potencialaus kliento el. laiškams, šablonus, kai bus suaktyvintas B2B potencialaus kliento patvirtintas arba B2B potencialaus kliento atmestas pranešimo tipas.
+
+    Norėdami gauti informacijos apie vietos rezervavimo ženklus, kuriuos B2B potencialus klientas patvirtino ir B2B potencialus klientas atmetė pranešimų tipus, žr. [pranešimų tipus](../email-templates-transactions.md#notification-types). Daugiau informacijos apie el. paštų šablonų kūrimą ieškokite skyriuje [El. pašto šablono kūrimas](../email-templates-transactions.md#create-an-email-template). 
+
+1. Įtraukite B2B potencialaus kliento patvirtintą ir B2B potencialaus kliento atmestų pranešimų tipus į jūsų el. pašto pranešimų profilį ir susiekite juos su el. laiškų šablonais, kuriuos sukūrėte. Dėl išsamesnės informacijos, kaip nustatyti el. paštu siunčiamų pranešimų šablonus, ieškokite [El. paštu siunčiamo pranešimo šablono nustatykite](../email-notification-profiles.md). 
 
 ## <a name="onboard-additional-business-partner-users"></a>Įtraukimo papildomi verslo partnerio vartotojai
 

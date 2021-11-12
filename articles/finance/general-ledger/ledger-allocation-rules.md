@@ -1,7 +1,7 @@
 ---
 title: DK paskirstymo taisyklės
 description: Šiame straipsnyje pateikiama informacija apie didžiosios knygos paskirstymo taisykles. Jame aprašomi įvairūs šių paskirstymo taisyklių komponentai ir galimi naudoti jų paskirstymo metodai.
-author: ShylaThompson
+author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 15402
 ms.assetid: 8147e148-7c11-45ef-95c6-f9889a875b54
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: acd91f9343e3d3a77d2cc32bc8b6c2d6469430477eed0c3b62e1e699cd6816e9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 718640390cd1d4c6c2e9fb1d6bdeba21b515be4a
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780415"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726876"
 ---
 # <a name="ledger-allocation-rules"></a>DK paskirstymo taisyklės
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje pateikiama informacija apie didžiosios knygos paskirstymo taisykles. Jame aprašomi įvairūs šių paskirstymo taisyklių komponentai ir galimi naudoti jų paskirstymo metodai.
+Šioje temoje pateikiama informacija apie didžiosios knygos paskirstymo taisykles. Jame aprašomi įvairūs šių paskirstymo taisyklių komponentai ir galimi naudoti jų paskirstymo metodai.
 
 DK paskirstymo taisyklės naudojamos norint automatiškai apskaičiuoti ir generuoti paskirstymo žurnalus ir sąskaitos įrašus, kad būtų paskirstyti DK balansai arba fiksuotos sumos. Paskirstymo metodai gali būti kintantys arba fiksuoti. DK paskirstymo taisyklėms galima naudoti toliau nurodytus paskirstymo metodus.
 

@@ -2,7 +2,7 @@
 title: Pradėti naudoti mokesčių skaičiavimą
 description: Šioje temoje paaiškinama, kaip nustatyti Mokesčių skaičiavimą.
 author: wangchen
-ms.date: 08/17/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a849343cda54745f5ba3afc53e2082e79f71a29a
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
-ms.translationtype: HT
+ms.openlocfilehash: 2f26f8e5eafe29e88c26d3fb6cfa950466ec6be9
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562131"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647439"
 ---
 # <a name="get-started-with-tax-calculation"></a>Pradėti naudoti mokesčių skaičiavimą
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Šioje temoje pateikiama informacija apie tai, kaip pradėti dirbti su Mokesčių skaičiavimu. Ši tema padės atlikti konfigūracijos veiksmus, esančius „Microsoft Dynamics Lifecycle Services“ (LCS), „Regulatory Configuration Service“ (RCS), „Dynamics 365 Finance“ ir „Dynamics 365 Supply Chain Management“. Tada peržiūrimas bendras Mokesčių skaičiavimo galimybių naudojimo procesas „Finance” ir „Supply Chain Management“ operacijose.
 
@@ -41,29 +39,10 @@ Nustatymą sudaro keturi pagrindiniai veiksmai:
 
 Kad galėtumėte atlikti šioje temoje nurodytas procedūras, turi būti tenkinamos kiekvieno aplinkos tipo būtinosios sąlygos.
 
-### <a name="for-a-production-environment"></a>Gamybos aplinka
-
-Norint naudoti gamybos aplinką, reikia įvykdyti tolesnes būtinąsias sąlygas.
+Turi būti laikomasi šių būtinųjų komponentų:
 
 - Turite turėti prieigą prie savo LCS paskyros ir turite būti įdiegę LCS projektą su 2 arba didesnės pakopos aplinka, kurioje veikia „Dynamics 365" 10.0.21 arba naujesnė versija.
 - Savo organizacijai turite sukurti RCS aplinką ir turite turėti prieigą prie savo paskyros. Daugiau informacijos apie RCS aplinkos kūrimą ieškokite temoje [„Regulatory Configuration Service“ apžvalga](rcs-overview.md).
-- Atsižvelgiant į verslo poreikius, jūsų įdiegtos „Finance“ arba „Supply Chain Management“ aplinkos darbo srityje **Funkcijų valdymas** turi būti įjungtos tolesnės funkcijos.
-
-    - Mokesčių skaičiavimo paslauga
-    - Palaikyti kelis PVM registracijos numerius
-    - Perkėlimo užsakymo dokumente nurodytas mokestis
-
-- Jūsų įdiegtos RCS aplinkos darbo srityje **Funkcijų valdymas** turi būti įjungtos toliau nurodytos funkcijos.
-
-    - Globalizacijos funkcijos
-
-### <a name="for-a-test-environment-public-preview"></a>Tikrinimo aplinka (viešoji peržiūros versija)
-
-Norint naudoti tikrinimo aplinką, reikia įvykdyti tolesnes būtinąsias sąlygas.
-
-- Turite turėti prieigą prie savo LCS paskyros ir turite būti įdiegę LCS projektą su 2 arba didesnės pakopos aplinka, kurioje veikia „Dynamics 365" 10.0.21 arba naujausia versija.
-- Savo organizacijai turite sukurti RCS aplinką ir turite turėti prieigą prie savo paskyros. Daugiau informacijos apie RCS aplinkos kūrimą ieškokite temoje [„Regulatory Configuration Service“ apžvalga](rcs-overview.md).
-- Turite kreiptis į „Microsoft", nusiųsdami el. laišką adresu <taxcalc@microsoft.com>, kad įgalintumėte funkciją testavimą įdiegtoje „Finance“ arba „Supply Chain Management“ aplinkoje.
 - Atsižvelgiant į verslo poreikius, jūsų įdiegtos „Finance“ arba „Supply Chain Management“ aplinkos darbo srityje **Funkcijų valdymas** turi būti įjungtos tolesnės funkcijos.
 
     - Mokesčių skaičiavimo paslauga

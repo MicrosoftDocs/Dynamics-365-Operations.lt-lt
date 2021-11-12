@@ -2,7 +2,7 @@
 title: Įtraukti duomenų laukus į mokesčių konfigūracijas
 description: Šioje temoje paaiškinama, kaip pritaikyti mokesčių konfigūracijas, pridedant duomenų laukus.
 author: Kai-Cloud
-ms.date: 09/15/2021
+ms.date: 10/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fb10fb5feb317dca5253eea6e5694a3960a58a7d
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
-ms.translationtype: HT
+ms.openlocfilehash: 590c2d62995f260ba4277e1031349b0dc43f1417
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500151"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674905"
 ---
 # <a name="add-data-fields-in-tax-configurations"></a>Įtraukti duomenų laukus į mokesčių konfigūracijas
 
@@ -31,8 +31,12 @@ ms.locfileid: "7500151"
 ## <a name="customize-the-tax-data-model"></a>Mokesčių duomenų modelio tinkinimas
 
 1. Platformoje „Microsoft Dynamics 365 Finance” eikite į **Elektroninės ataskaitos** > **Mokesčių konfigūravimas**.
-2. Konfigūracijos medyje pasirinkite **Mokesčių duomenų modelis** - Europa. Tada, veiksmų srityje pasirinkite **Kurti konfigūraciją**.
-3. Išplečiamajame dialogo lange pasirinkite **Apmokestinamo dokumento modelį, išvestą iš Pavadinimo: Mokesčio duomenų modelis -- Europa, „Microsoft”**, įveskite naujo mokesčių duomenų modelio pavadinimą, o tada pasirinkite **Kurti konfigūraciją**.
+2. Konfigūracijos medyje pasirinkite **Mokesčių skaičiavimo duomenų modelis**. Tada, veiksmų srityje pasirinkite **Kurti konfigūraciją**. 
+
+  > [!NOTE] 
+  > Jei konfigūracijos teikėjo nėra, sukurkite vieną ir padarykite jį aktyvų jūsų mokesčių konfigūracijai. Daugiau informacijos žr. [Konfigūracijos teikėjų kūrimas, pažymint juos kaip aktyvius](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+  
+3. Iššokančiame dialogo lange pasirinkite **Apmokestinamo dokumento modelis, sudarytas iš Pavadinimo: Mokesčio skaičiavimo duomenų modelis**, įveskite naujo mokesčių duomenų modelio pavadinimą, o tada pasirinkite **Kurti konfigūraciją**.
 4. Pasirinkite ką tik sukurtą mokesčių duomenų modelį, tada veiksmų srityje pasirinkite **Konstruktorius**.
 5. Išplėskite duomenų modelio medį, **pasirinkite** Eilutės, tada pasirinkite **Naujas**.
 6. Dialogo lange **Kurti mazgą** įveskite pavadinimą, nurodykite prekės tipą, tada pasirinkite **Įtraukti**.
@@ -43,8 +47,8 @@ ms.locfileid: "7500151"
 ## <a name="customize-the-tax-configuration"></a>Tinkinti mokesčių konfigūravimą
 
 1. „Finance“, eikite į **Elektroninės ataskaitos** > **Mokesčių konfigūravimas**.
-2. Konfigūracijos medyje pasirinkite **Mokesčių konfigūravimas** - Europa. Tada, veiksmų srityje pasirinkite **Kurti konfigūraciją**.
-3. Išplečiamajame dialogo lange pasirinkite **Mokesčių aptarnavimo konfigūraciją, išvestą iš Pavadinimo: Mokesčio duomenų modelis -- Europa, „Microsoft”**, įveskite naujos mokesčių konfigūracijos pavadinimą, o tada pasirinkite **Kurti konfigūraciją**.
+2. Konfigūracijos medyje pasirinkite **Mokesčių skaičiavimo Konfigūracija**. Tada, veiksmų srityje pasirinkite **Kurti konfigūraciją**.
+3. Iššokančiame dialogo lange pasirinkite **Mokesčių aptarnavimo konfigūracija, išvesta iš Pavadinimo: Mokesčio skaičiavimo Konfigūracija, „Microsoft”**, įveskite naujos mokesčių konfigūracijos pavadinimą, o tada pasirinkite **Kurti konfigūraciją**.
 4. Pasirinkite ką tik sukurtą mokesčių konfigūravimą, tada veiksmų srityje pasirinkite **Konstruktorius**.
 5. Skyriaus **Ypatybės** lauke **Duomenų modelis** pasirinkite pritaikytą mokesčių duomenų modelį, kurį sukūrėte anksčiau.
 6. Lauke **Duomenų modelio** versija pasirinkite užbaigtą mokesčių duomenų modelio versiją.

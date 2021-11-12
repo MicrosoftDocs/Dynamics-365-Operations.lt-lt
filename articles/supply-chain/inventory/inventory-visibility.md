@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: dfc1bc0d457d0b0b2632aa2e2e5ba6a3c2f3fae7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 1ea1d8c1b0e8c996ead8461005960fa756ce6ca7
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575176"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678914"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Atsargų matomumo papildinio apžvalga
 
@@ -45,8 +45,6 @@ Yra du būdai savo atsargų peržiūrai:
 - Peržiūrėti turimų atsargų sąrašą. Šis sąrašas yra periodiškai sinchronizuojamas iš talpykloje saugomo egzemplioriaus, jis matomas „Dataverse“. Dėl daugiau informacijos, žr. [Inventoriaus matomumo programa](inventory-visibility-power-platform.md).
 
 ## <a name="soft-reservations"></a>Švelniai rezervavimai
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Taikomas švelniai rezervavimas, kai įmonė turi rezervuoti tam tikrą produktų kiekį, kad palaikytų, pvz., pardavimo užsakymų įvykdyimą, kuris išvengs per daug pardavimo. Kai tiekimo grandinės valdymo ar kitose „Supply Chain Management“ sukuriamas ir patvirtinamas pardavimo užsakymas, prašymas rezervuoti kiekį siunčiamas į atsargų matomumą. Atsargų matomumas leidžia rezervuoti produktus, kurių dimensijos informacija ir konkretūs atsargų operacijų tipai yra specifiniai. (Daugiau informacijos žr. [Atsargų matomumo programa](inventory-visibility-power-platform.md).) Kai kiekis sėkmingai rezervuotas, grąžinamas rezervavimo ID. Šį rezervavimo ID galite naudoti norėdami susieti su pradiniu užsakymu „Supply Chain Management“ arba kitose užsakymų valdymo sistemose.
 

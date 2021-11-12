@@ -1,7 +1,7 @@
 ---
 title: Nusidėvėjimo poveikis su atšaukimais
 description: Šiame straipsnyje aptartos galimos ilgalaikio turto operacijos atšaukimo pasekmės.
-author: ShylaThompson
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 2961
 ms.assetid: 63a3ac92-c321-4379-a86a-b1b14915f340
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37f0412166404e6903819840debcdd0ab0630115dcdb68297e0072723adacb53
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 9a8e5b1b7d468dbc37b295087815937fb49ad44f
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760667"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674555"
 ---
 # <a name="depreciation-effects-with-reversals"></a>Nusidėvėjimo poveikis su atšaukimais
 
@@ -30,7 +30,7 @@ ms.locfileid: "6760667"
 
 Galite atšaukti ilgalaikio turto operacijas ir su ilgalaikiu turtu susietas operacijas. Atšauktą operaciją taip pat galite anuliuoti. 
 
-Atšaukite arba anuliuokite galite operaciją, kuri nebuvo paskutinė operacija, registruota turto knygoje. Pirmiausia turėtumėte nustatyti, ar po operacijos, kurią atšaukiate, buvo užregistruota kokių nusidėvėjimo operacijų. Taip yra todėl, nes, atšaukiant operaciją, nusidėvėjimas neperskaičiuojamas. Todėl po atšaukimo nusidėvėjimas dažnai pervertinamas ar nuvertinamas, kaip parodyta pavyzdžiuose. 
+Atšaukite arba anuliuokite galite operaciją, kuri nebuvo paskutinė operacija, registruota turto knygoje. Pirmiausia turėtumėte nustatyti, ar po operacijos, kurią atšaukiate, buvo užregistruota kokių nusidėvėjimo operacijų. Šis veiksmas reikalingas, nes, atšaukiant operaciją, nusidėvėjimas neperskaičiuojamas. Todėl po atšaukimo nusidėvėjimas dažnai pervertinamas ar nuvertinamas, kaip parodyta pavyzdžiuose. 
 
 Kad užtikrintumėte, kad, atšaukiant operaciją, nusidėvėjimas teisingas, netęskite atšaukimo, jeigu gaunate pranešimą, kad nusidėvėjimas nebus skaičiuojamas iš naujo. Geriau pirmiausia atšaukite nusidėvėjimo operaciją, kuri užregistruota po operacijos, kurią bandote atšaukti, tada tęskite atšaukimą. Nebūsite įspėti apie nusidėvėjimo perskaičiavimus ir galėsite tęsti atšaukimą. 
 

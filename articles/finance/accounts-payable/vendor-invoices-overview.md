@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3fac6a0232f7e51e859fcc5b23244be092ce8d76123ec42f586063a02abab603
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e846cde14fe078d6675ec31d1a3271f751dd6468
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722796"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647145"
 ---
 # <a name="vendor-invoices-overview"></a>Tiekėjų sąskaitų faktūrų apžvalga
 
@@ -71,13 +71,10 @@ Jūsų organizacija gali naudoti darbo eigas, kad galėtų valdyti tiekėjų SF 
 
 Toliau pateikiami keli būdai, kaip galima išvengti SF pateikimo į darbo eigą.
 
-- **Bendroji SF suma ir užregistruota bendroji suma nėra lygios.** Asmuo pateikęs sąskaitą gaus įspėjimą, kad bendros sumos nesutampa. Įspėjime pateikta galimybė taisyti balansus prieš pateikiant sąskaitą į darbo eigą dar kartą. Ši funkcija galima tik tada, kai parametras **Uždrausti pateikti į darbo eigą, kai sąskaitos faktūros ir registruotos sąskaitos faktūros sumos nesutampa** puslapyje **Funkcijų valdymas** yra įjungtas. 
-
+- **Bendroji SF suma ir užregistruota bendroji suma nėra lygios.** Asmuo pateikęs SF gaus įspėjimą, kad bendros sumos nesutampa. Įspėjime pateikta galimybė taisyti balansus prieš pateikiant sąskaitą į darbo eigą dar kartą. Ši funkcija galima tik tada, kai parametras **Uždrausti pateikti į darbo eigą, kai sąskaitos faktūros ir registruotos sąskaitos faktūros sumos nesutampa** puslapyje **Funkcijų valdymas** yra įjungtas. 
 - **SF yra nepriskirtų išlaidų.** Asmuo, kuris pateikė SF, gaus įspėjimą, kad sąskaitoje yra nepriskirtų išlaidų, todėl jis galės pakoreguoti SF prieš pateikdamas ją į darbo eigą. Ši funkcija galima tik tada, kai parametras **Uždrausti pateikti į darbo eigą, kai tiekėjo SF yra nepriskirtų išlaidų** puslapyje **Funkcijų valdymas** yra įjungtas.
-
 - **SF numeris yra toks pats kaip kitos užregistruotos SF.** Asmuo, kuris pateikė sąskaitą faktūrą, gaus pranešimą, nurodantį, kad rasta SF su dublikato numeriu. Dublikato numeris gali būti pataisytas prieš iš naujo pateikiant SF darbo eigai. Šis pranešimas bus rodomas kai **Tikrinti sąskaitos numerį naudotą** parametras mokėtinose Sąskaitose yra nustatytas **Atmestas dublikatas**. Ši funkcija galima, jei parametras **Drausti pateikimą į darbo eigą, kai SF numerį jau turi kita užregistruota SF, o sistema nenustatyta, kad leistų priimti dubliuotus SF numerius** puslapyje **Funkcijų valdymas** yra įjungtas.
-
-- **Sąskaitoje faktūroje yra eilutė, kurioje SF kiekis yra mažesnis nei atitinkamas produkto gavimo kvitų kiekis.** Asmuo, kuris pateikia arba bando registruoti sąskaitą faktūrą, gaus pranešimą, kad kiekiai nėra lygūs. Šis pranešimas suteikia galimybę pataisyti vertes prieš pateikiant sąskaitą į darbo eigą dar kartą. Ši funkcija galima, jei **Tiekėjo sąskaitų faktūrų registravimo ir pateikimo darbo eigai** parametras yra įjungtas **Funkcijų valdymo** puslapyje, o **Registravimo ir pateikimo darbo eigai** parametras įjungtas **Mokėtinų sumų parametrų** puslapyje.  
+- **Sąskaitoje faktūroje yra eilutė, kurioje SF kiekis yra mažesnis nei atitinkamas produkto gavimo kvitų kiekis.** Asmuo, kuris pateikia arba bando registruoti sąskaitą faktūrą, gaus pranešimą, kad kiekiai nėra lygūs. Šis pranešimas suteikia galimybę pataisyti vertes prieš pateikiant sąskaitą į darbo eigą dar kartą. Ši funkcija galima, jei **Tiekėjo sąskaitų faktūrų registravimo ir pateikimo darbo eigai** parametras yra įjungtas **Funkcijų valdymo** puslapyje, o **Registravimo ir pateikimo darbo eigai** parametras įjungtas **Mokėtinų sumų parametrų** puslapyje.
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Tiekėjo SF ir produkto gavimo kvitų gretinimas
 
@@ -122,9 +119,32 @@ Bus nurodyta darbo eigos egzemplioriaus, kuris buvo sustabdytas dėl neištaisom
 Naudodamiesi puslapiu **Tiekėjo SF darbo eigos būsenos nustatymas iš naujo** galite iš naujo nustatyti darbo eigos būseną **Juodraštis**. Šį puslapį galite atidaryti iš **Tiekėjo SF** arba **Bendra > Užklausos > Darbo eiga**. Norėdami iš naujo nustatyti darbo eigos būseną į **Juodraštis**, pasirinkite **Atšaukti**. Taip pat galite iš naujo nustatyti darbo eigos būseną į „Juodraštis“, pasirinkdami veiksmą **Atšaukti** puslapyje **Tiekėjo SF** arba **Laukiančios tiekėjo SF**. Iš naujo nustačius darbo eigos būseną **Juodraštis**, ją galima redaguoti puslapyje **Tiekėjo SF**.
 
 ## <a name="viewing-the-invoice-total-on-the-pending-vendor-invoices-page"></a>SF sumos peržiūra puslapyje Laukiančios tiekėjo SF
+
 SF sumą galite peržiūrėti puslapyje **Laukiančios tiekėjo SF**, įjungdami puslapio **Mokėtinos sumos** parametrą **Laukiančių tiekėjo SF sąraše rodyti bendrą SF sumą**. 
 
+## <a name="vendor-open-transactions-report"></a>Tiekėjo atidarytų operacijų ataskaita
 
+**Tiekėjo atvirų operacijų** ataskaita pateikia išsamią informaciją apie atviras kiekvieno tiekėjo operacijas nuo jūsų nurodytos datos. Ši ataskaita dažnai naudojama audito procedūros metu balansams tarp tiekėjo užsakytų operacijų ir DK sąskaitos operacijų tikrinimui.
+
+Kiekvienos operacijos ataskaitoje pateikiama ši informacija:
+
+- Sąskaitos faktūros numeris
+- Operacijos data
+- Kvito numeris
+- Operacijos suma operacijos valiuta ir apskaitos valiuta
+- Kredito balansas operacijos valiuta ir apskaitos valiuta
+- Debeto balansas operacijos valiuta ir apskaitos valiuta
+- Tarpinė suma, išreikšta apskaitos valiuta
+- Mokėjimo terminas
+
+### <a name="filter-the-data-on-the-report"></a>Ataskaitoje pateikiamų duomenų filtravimas
+
+Kai generuojate **Tiekėjo atvirų operacijų** ataskaitą, galimi šie numatytieji parametrai. Juos galite naudoti norėdami filtruoti duomenis, kurie bus įtraukti į ataskaitą.
+
+- **Neįtraukti būsimo sudengimo** – Pasirinkite šį žymės langelį, jei norite neįtraukti operacijų, kurios sudengtos po datos, įvestos laukelyje **Atviros operacijos per**.
+- **Atviros operacijos per** – įveskite datą, iki kurios norite įtraukti atviras operacijas. Jei neįvesite datos, šiame lauke bus nustatyta maksimali data. (Maksimali data yra vėliausia data, kurią sistema priims, 2154 m. gruodžio 31 d.) Pagal numatytuosius nustatymus, kitą kartą paleidus ataskaitą, šis laukas bus nustatytas pagal paskutinę įvestą datą.
+
+Norėdami dar labiau sumažinti į ataskaitą įtrauktų operacijų duomenis, galite naudoti **Įtraukti įrašus** lauką.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

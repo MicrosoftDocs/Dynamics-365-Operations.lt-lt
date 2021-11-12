@@ -1,8 +1,8 @@
 ---
 title: PVM mokėjimo ir apvalinimo taisyklės
 description: Šiame straipsnyje paaiškinama, kaip srityje PVM rinkėjai veikia apvalinimo taisyklės nustatymas ir paaiškinamas PVM balansas vykdant užduotį Sudengti ir užregistruoti PVM.
-author: ShylaThompson
-ms.date: 04/20/2020
+author: kailiang
+ms.date: 10/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 6134
 ms.assetid: 7dcd3cf5-ebdf-4a9f-806c-1296c7da0331
 ms.search.region: Global
-ms.author: pacheren
+ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1838666b57bf2ce4eb78f5d3486c03e4c2447646a121a537efd6bffa0019b96f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 3a75d41195875c5ed48cbe8ce5f5e448f173e718
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760691"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726805"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>PVM mokėjimo ir apvalinimo taisyklės
 
@@ -28,7 +28,7 @@ ms.locfileid: "6760691"
 
 Šiame straipsnyje paaiškinama, kaip srityje PVM rinkėjai veikia apvalinimo taisyklės nustatymas ir paaiškinamas PVM balansas vykdant užduotį Sudengti ir užregistruoti PVM.
 
-Periodiškai reikia pranešti apie PVM ir sumokėti jį mokesčių institucijoms. Tai galite padaryti atlikdami sudengimą ir registruodami PVM procesą puslapyje PVM. Laikotarpio PVM bus sudengtas pagal PVM sąskaitas ir PVM balansas bus registruojamas PVM sudengimo sąskaitoje. PVM balansą, registruojamą PVM sudengimo sąskaitoje, galima apvalinti pagal mokesčių institucijos reikalavimus, nustačius apvalinimo taisyklę puslapyje PVM. 
+Periodiškai reikia pranešti apie PVM ir sumokėti jį mokesčių institucijoms. Šis veiksmas gali būti užbaigtas atliekant Sudengimą ir registruoj pardavimų mokesčio procesą **Pardavimų mokesčių** puslapyje. Laikotarpio PVM bus sudengtas pagal PVM sąskaitas, ir PVM balansas bus registruojamas PVM sudengimo sąskaitoje. PVM balansą, registruojamą PVM sudengimo sąskaitoje, galima apvalinti pagal mokesčių institucijos reikalavimus, nustačius apvalinimo taisyklę **PVM** puslapyje. 
 
 Apvalinimo skirtumas užregistruojamas PVM apvalinimo sąskaitoje, pasirinktoje dalies Didžioji knyga lauke Automatinių operacijų sąskaitos.
 
@@ -63,59 +63,60 @@ Toliau pateikiamoje lentelėje parodoma, kaip 98 765,43 suma suapvalinama taikan
 
 ### <a name="normal-round-and-round-precision-is-001"></a>Įprastas apvalinimas, o apvalinimo tikslumas yra 0,01
 
-<table>
+```<table>
   <tr>
-    <td>Apvalinimas
+    <td>Rounding
     </td>
-    <td>Skaičiavimo procesas
+    <td>Calculation process
     </td>
   </tr>
     <tr>
-    <td>apvalinimas (1,015; 0,01) = 1,02
+    <td>round(1.015, 0.01) = 1.02
     </td>
     <td>
       <ol>
-        <li>apvalinimas (1,015 / 0,01; 0) = apvalinimas (101,5; 0) = 102
+        <li>round(1.015 / 0.01, 0) = round(101.5, 0) = 102
         </li>
-        <li>102 * 0,01 = 1,02
-        </li>
-      </ol>
-    </td>
-  </tr>
-    <tr>
-    <td>apvalinimas (1,014; 0,01) = 1,01
-    </td>
-    <td> <ol>
-        <li>apvalinimas (1,014 / 0,01; 0) = apvalinimas (101,4; 0) = 101
-        </li>
-        <li>101 * 0,01 = 1,01
+        <li>102 * 0.01 = 1.02
         </li>
       </ol>
     </td>
   </tr>
     <tr>
-    <td>apvalinimas (1,011; 0,02) = 1,02
+    <td>round(1.014, 0.01) = 1.01
     </td>
     <td> <ol>
-        <li>apvalinimas (1,011 / 0,02; 0) = apvalinimas (50,55; 0) = 51
+        <li>round(1.014 / 0.01, 0) = round(101.4, 0) = 101
         </li>
-        <li>51 * 0,02 = 1,02
+        <li>101 * 0.01 = 1.01
         </li>
       </ol>
     </td>
   </tr>
     <tr>
-    <td>apvalinimas (1,009; 0,02) = 1,00
+    <td>round(1.011, 0.02) = 1.02
     </td>
     <td> <ol>
-        <li>apvalinimas (1,009 / 0,02; 0) = apvalinimas (50,45; 0) = 50
+        <li>round(1.011 / 0.02, 0) = round(50.55, 0) = 51
         </li>
-        <li>50 * 0,02 = 1,00
+        <li>51 * 0.02 = 1.02
+        </li>
+      </ol>
+    </td>
+  </tr>
+    <tr>
+    <td>round(1.009, 0.02) = 1.00
+    </td>
+    <td> <ol>
+        <li>round(1.009 / 0.02, 0) = round(50.45, 0) = 50
+        </li>
+        <li>50 * 0.02 = 1.00
         </li>
       </ol>
     </td>
   </tr>
 </table>
+```
 
 > [!NOTE]                                                                                  
 > Jei pasirinksite Pranašumas, visada bus apvalinama juridinio subjekto naudai. 

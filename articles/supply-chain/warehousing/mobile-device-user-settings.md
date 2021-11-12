@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e20367f4261d0112855f36c69c25cd732c78be7bb23d7c6333aea84db437d735
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 51c530fd0043a4ec5a82660af72c001be25b7e62
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769424"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647490"
 ---
 # <a name="mobile-device-user-settings"></a>Mobiliojo įrenginio vartotojo parametrai
 
@@ -54,7 +54,7 @@ Taip pat galite nustatyti parametrų profilį, taikomą visiems įrenginių prek
 
 Norėdami sukurti ir valdyti jūsų mobiliųjų įrenginių vartotojo nustatymus, atlikite šiuos veiksmus.
 
-1. Eikite į **Sandėlio valdymas \> Mobilusis įrenginys \> Mobiliojo įrenginio vartotojo parametrai**.
+1. Eikite į **Warehouse management \> Nustatymas \> Mobilusis įrenginys \> Mobiliojo įrenginio vartotojo parametrai**.
 1. Sąrašo srityje pasirinkite esamą vartotojo parametrų profilį, kad atidarytumėte jo įrašą. Arba, norėdami sukurti naują profilį, veiksmų srityje pasirinkite **Naujas**.
 
     Kiekvienas sąrašo srities profilis yra pažymėtas, kad nurodytų prekės ženklą, modelį ir (arba) vartotojo ID, kuriems taikomas profilis. Bendresnių profilių kai kurių arba visų šių charakteristikų reikšmė nustatyta į *Visi*.
@@ -83,7 +83,7 @@ Norėdami peržiūrėti, kurti ir valdyti įrenginio prekių ženklus ir modeliu
 
 Norėdami kurti ir valdyti jūsų mobiliųjų įrenginių prekių ženklus ir modelius, atlikite šiuos veiksmus.
 
-1. Eikite į **Sandėlio valdymas \> Mobilusis įrenginys \> Mobiliojo įrenginio prekių ženklai**.
+1. Eikite į **Warehouse management  \> Sąranka \> Mobilusis įrenginys \> Mobiliojo įrenginio prekės ženklai**.
 1. Sąrašo srityje pasirinkite mobiliojo įrenginio prekės ženklą, kad atidarytumėte jo įrašą. Arba, norėdami sukurti naują prekės ženklą, veiksmų srityje pasirinkite **Naujas**.
 1. Naujo ar pasirinkto įrenginio prekės ženklo įrašo antraštės skyriuje nustatykite toliau pateiktus laukus.
 

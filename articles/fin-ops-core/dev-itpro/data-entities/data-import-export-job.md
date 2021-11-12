@@ -2,7 +2,7 @@
 title: Duomenų importavimo ir eksportavimo užduočių apžvalga
 description: Norėdami kurti ir valdyti duomenų importavimo bei eksportavimo užduotis, naudokite darbo sritį Duomenų valdymas.
 author: peakerbl
-ms.date: 10/07/2021
+ms.date: 10/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dec8270417cb7237081aa49203ca93d76c0d02ed
-ms.sourcegitcommit: 132c3dbdd66bceb7596d329c34b2256c581a20fa
-ms.translationtype: HT
+ms.openlocfilehash: 51c7d678017bdd9388767500735e21e5374c9f29
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "7612369"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675374"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Duomenų importavimo ir eksportavimo užduočių apžvalga
 
@@ -68,6 +68,9 @@ Pasirinkę objektą, turite pasirinkti duomenų, kurie bus eksportuojami arba im
 | Excel                  | Excel                                      | \-NA–                     |
 | XML                    | \-NA–                                      | XML elementas XML atributas |
 | Atskirtas, fiksuotas plotis | Kablelis, kabliataškis, skirtukas, vertikali juosta, dvitaškis | \-NA–                     |
+
+> [!NOTE]
+> Svarbu pasirinkti tinkamą eilučių skyriklio **stulpelio skyriklio**, **teksto kvalifikatoriaus**, ir **Eilutės skyriklio**, jei **Failo formatas** parinktis yra nustatyta **Atribota**. Įsitikinkite, kad jūsų duomenyse nėra simbolio, kuris naudojamas kaip skyriklis arba kvalifikatorius, nes dėl to gali kilti klaidų importuojant ir eksportuojant.
 
 ### <a name="sequence-the-entities"></a>Objektų sekos nustatymas
 Objektų seka gali būti nustatyta duomenų šablone arba importavimo ir eksportavimo užduotyse. Vykdydami užduotį, kurioje yra daugiau nei vienas duomenų objektas, turite įsitikinti, kad nustatyta teisinga duomenų objektų seka. Objektų seka pirmiausia nustatoma todėl, kad galėtumėte valdyti tarp objektų esančias funkcines priklausomybes. Jei objektai funkcinių priklausomybių neturi, galima suplanuoti juos importuoti arba eksportuoti lygiagrečiai.

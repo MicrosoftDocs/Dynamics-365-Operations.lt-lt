@@ -14,17 +14,16 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4fd6039843be09ec706e45746d5724faa99a95e6
-ms.sourcegitcommit: 3f59b15ba7b4c3050f95f2b32f5ae6d7b96e1392
-ms.translationtype: HT
+ms.openlocfilehash: 395bc7049ba32c1e572730e482b81613a4873c59
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7563066"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675230"
 ---
 # <a name="customer-management-in-stores"></a>Klientų valdymas parduotuvėse
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Šioje temoje paaiškinama, kaip mažmenininkai gali įgalinti klientų valdymo pajėgumus „Microsoft Dynamics 365 Commerce“ elektroniniame kasos aparate (EKA).
 

@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f3438d12f4ffd06b07cbef724cda8fa490a5f4eb
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
-ms.translationtype: HT
+ms.openlocfilehash: 9f2f815299335a88663311caaa243f854610f885
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472653"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674808"
 ---
 # <a name="ratings-refiner-appears-on-search-results-and-category-pages-when-the-ratings-and-reviews-solution-isnt-enabled"></a>Kai neįjungtas įvertinimų ir peržiūros sprendimas, ieškos rezultatuose ir kategorijų puslapiuose rodomi įvertinimų patikslinimai
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Šioje temoje pateikiamos trikčių diagnostikos nuorodos, kaip paslėpti paieškos rezultatų ir kategorijų puslapių įvertinimų tikslinimo priemonė, kai el. komercijos svetainėje neįjungtas vertinimo ir „Microsoft Dynamics 365 Commerce“ peržiūros sprendimas.
 

@@ -2,7 +2,7 @@
 title: „Regulatory Configuration Service“ (RCS) – „Lifecycle Services“ (LCS) saugykla nebegalioja
 description: Šioje temoje pateikiama informacija „Regulatory Configuration Service“ (LCS) saugojimo atšaukimą, kuris planuojamas kaip reguliavimo konfigūracijos tarnybos „Microsoft Dynamics Lifecycle Services“ (RCS) visuotinės saugyklos kūrimo dalis.
 author: JaneA07
-ms.date: 05/25/2021
+ms.date: 10/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 7a738af04da4425e76bd3b224400f91bc4eb8364d323da67ea457eaba9e65643
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 68f1ed6a6d6bb0d15a81539da7f483ad71a4d696
+ms.sourcegitcommit: 477efa4cb138f41d4f68bcd82552af3473bcc3d9
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782203"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7715235"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>„Regulatory Configuration Service“ (RCS) – „Lifecycle Services“ (LCS) saugykla nebegalioja
 
@@ -38,8 +38,9 @@ LCS naudojimas kaip saugykla buvo naudojamas kaip [pašalintos arba pasenusios f
 
 ## <a name="key-features"></a>Pagrindinės funkcijos
 
-- Konfigūracijai kurti ir redaguoti galite naudoti RCS. Tada galite tiesiogiai šias konfigūracijas stumti iš dizainerio į prijungtą programą. Todėl galite greitai keisti ir tikrinti savo konfigūracijas.
-- Visuotinė saugykla yra centralizuota visų ER konfigūracijų saugykla.
+- Naudokite RCS, norėdami sukurti ir redaguoti ER konfigūracijas ir visuotines funkcijas.
+- Perstumkite konfigūracijas tiesiogiai iš RCS dizainerio į prijungtą programą, pvz. Dynamics 365 Finance aplinką, kad galėtumėte greitai atlikti ir patikrinti savo konfigūracijų pakeitimus.
+- Centralizuotai išsaugokite, dalinkitės ir valdykite ER konfigūracijų ir visuotinų funkcijų gyvavimo ciklą, naudojant visuotinės saugyklos centralizuotą saugyklą.
 
 ## <a name="guidance-for-one-time-and-ongoing-actions"></a>Vienkartinių ir vykdomų veiksmų patarimų
 
@@ -53,11 +54,20 @@ Importuokite visas reikiamas konfigūracijas iš LCS į RCS, tada publikuokite j
 2. Konfigūruotame RCS egzemplioriuje užregistruokite kiekvieną LCS projektą turto bibliotekoje, kurioje įtrauktos išvestinės ER konfigūracijos, užregistruokite atitinkamą LCS saugyklą.
 3. Importuokite ER konfigūracijas iš LCS saugyklų į RCS. Daugiau informacijos žr. [ER konfigūracijų importavimas iš LCS](../../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md).
 4. Jei visuotinė saugykla nėra pateikiama automatiškai, užregistruokite ją RCS.
-5. Įkelti visas iškeltas konfigūracijas iš dabartinio RCS egzemplioriaus į visuotinę saugyklą. Naudodami **konfigūracijos paketus vartotojas gali įkelti visas konfigūracijas į GR vienoje operacijos priemonėje, kad padėtų** įkelti. Daugiau informacijos rasite skyriuje [RCS bendros reprodukcijos naujinimas](rcs-global-repo-upload.md).
+5. Įkelti visas iškeltas konfigūracijas iš dabartinio RCS egzemplioriaus į visuotinę saugyklą. Naudokite **Konfigūravimo paketų** funkciją, kuri padės įkelti. Daugiau informacijos rasite skyriuje [RCS bendros reprodukcijos naujinimas](rcs-global-repo-upload.md).
 
 ### <a name="going-forward"></a>Eis į priekį
 
-Norėdami sukurti visas naujas konfigūracijas, naudokite vaizdo dizainerius RCS. Tada naujinkite bendros saugyklos konfigūravimus talpinimui. Norėdami gauti daugiau informacijos, žr. [RCS sukurkite ER konfigūraciją ir įkelkite į visuotinį atask.](rcs-global-repo-upload.md).
+Vaizdo dizainerius RCS naudokite toliau pateikiamiems tikslams:
+
+- Išplėskite "Microsoft" pateiktus šablonus.
+- Sukurkite naujas konfigūracijas, kurių reikalauja jūsų organizacija.
+- Pritaikykite visuotines funkcijas, skirtas Elektroninei SF išrašymui ir Mokesčių Skaičiavimo paslaugai.
+
+Globalizacinę saugyklą naudokite toliau pateikiamiems tikslams:
+
+- Gauti prieigą prie Microsoft pagamintų konfigūracijų ir visuotinų funkcijų.
+- Įkelkite savo sukurtas arba išplėstas konfigūracijas į visuotiną saugyklą ir bendrinkite jas su savo organizacijos Dynamics 365 programos aplinka arba su išorinėmis organizacijomis. Norėdami gauti daugiau informacijos, žr. [RCS sukurkite ER konfigūraciją ir įkelkite į visuotinį atask.](rcs-global-repo-upload.md).
 
 ## <a name="frequently-asked-questions"></a>Dažnai užduodami klausimai
 
@@ -76,3 +86,22 @@ RCS naudoja prisijungusio *prašymo sąvoką*. Prijungta programa sudaro ryšį 
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>Ar yra pavyzdžių, kurie parodo nustatymą ir valdymą?
 
 Pavyzdžių nėra, tačiau norėdami perkelti savo konfigūracijas į RCS visuotinę saugyklą galite atlikti anksčiau šioje temoje aprašytus veiksmus.
+
+### <a name="is-rcs-a-prerequisite-to-configure-electronic-reporting"></a>Ar RCS yra būtina sąlyga norint konfigūruoti elektronines ataskaitas?
+
+Taip. RCS apima galimybes, kurios palaiko visuotinų funkcijų, kurias naudoja visuotinės tarnybos, nustatymą, pvz., elektroninis SF išrašymas ir Mokesčių skaičiavimo paslauga. Tačiau paslauga turi tą pačią vaizdinio dizaino funkcionalumą, kuris leidžia išplėsti arba kurti naujas ER konfigūracijas. RCS taip pat suteikia ER konfigūracijų ir viuotinų funkcijų gyvavimo ciklo valdymą.
+
+### <a name="which-regions-can-rcs-be-deployed-in"></a>Kuriuose regionuose gali būti įdiegta RCS?
+
+RCS yra prieinama šiuose Azure regionuose:
+
+- Jungtinės Valstijos
+- Indija
+- Prancūzija
+- Europa
+
+Daugiau informacijos apie produkto palaikymą ieškokite [Dinaminių visuotinų paslaugų apžvalga](globalization-services-overview.md). Informacijos apie geografinę pagalbą rasite, [„Dynamics 365” ir „Power Platform”: Pasiekiamumas, duomenų vieta, kalba ir lokalizavimas](https://aka.ms/rcs/D365Productavailabilityguide).
+
+### <a name="whats-the-cost-of-using-rcs"></a>Kokia yra RCS naudojimo kaina?
+
+RCS ir visuotinė saugykla teikiama nemokamai kaip esamų Finance and Operations programos licencijų dalis. Nėra atskirų išlaidų, susietų su RCS dizaino tarnybos naudojimu ar konfigūracijų saugojimu visuotinėje saugykloje. Šiuo metu nėra jokio konfigūracijų ar susijusių programų skaičiaus apribojimo.

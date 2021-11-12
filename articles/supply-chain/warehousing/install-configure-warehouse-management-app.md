@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e93aff4914314ea99798415a0bacc7b844169bc2
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
-ms.translationtype: HT
+ms.openlocfilehash: 3a0a8555ac7c523af03401ab84af30f577777995
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384616"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647630"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Sandėlio valdymo mobiliųjų įrenginių programėlės diegimas ir prijungimas
 
@@ -109,7 +109,7 @@ Daugiau informacijos apie tai, kaip konfigūruoti žiniatinklio tarnybos program
     - [„Quickstart“: programos registravimas naudojant „Microsoft“ tapatumo platformą](/azure/active-directory/develop/quickstart-register-app)
     - [Kaip naudoti portalą kuriant „Azure AD“ programą ir pagrindinę tarnybą, galinčią pasiekti išteklius](/azure/active-directory/develop/howto-create-service-principal-portal)
 
-## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Vartotojo paskyros kūrimas ir konfigūravimas programoje „Supply Chain Management“
+## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a><a name="user-azure-ad"></a>Vartotojo paskyros kūrimas ir konfigūravimas programoje „Supply Chain Management“
 
 Norėdami įgalinti „Supply Chain Management“, kad galėtumėte naudoti savo „Azure AD“ programą, atlikite toliau nurodytus veiksmus.
 
@@ -117,17 +117,24 @@ Norėdami įgalinti „Supply Chain Management“, kad galėtumėte naudoti savo
 
     1. Programoje „Supply Chain Management“ eikite į **Sistemos administravimas \> Vartotojai \> Vartotojai**.
     1. Sukurkite vartotoją.
-    1. Priskirkite sandėliavimo mobiliojo įrenginio vartotoją.
+    1. Priskirkite *sandėliavimo mobiliojo įrenginio vartotojo* vaidmenį vartotojui.
 
     ![Priskirkite sandėliavimo mobiliojo įrenginio vartotoją.](media/app-connect-app-users.png "Sandėliavimo mobiliojo įrenginio vartotojo priskyrimas")
 
 1. Susiekite savo „Azure AD“ programą su Sandėlio valdymo mobiliųjų įrenginių programėlės vartotoju:
 
     1. Eikite į **Sistemos administravimas \> Sąranka \> „Azure Active Directory“ programos**.
-    1. Sukurkite eilutę.
-    1. Įveskite kliento ID, kurį pasižymėjote ankstesniame skyriuje, suteikite jam pavadinimą ir pasirinkite ką tik sukurtą vartotoją. Rekomenduojame pažymėti visus savo įrenginius. Tada, jei prarasite įrenginį, galėsite lengvai pašalinti jo prieigą prie „Supply Chain Management“ šiame puslapyje.
+    1. Veiksmų srityje pasirinkite **Nauja** eilutei sukurti.
+    1. **Kliento ID** laukelyje įveskite kliento ID lentelę, kurią pasižymėjote kaip nurodyta ankstesniame skyriuje.
+    1. Lauke **Pavadinimas** įveskite pavadinimą.
+    1. Lauke **Vartotojo ID** pažymėkite ką tik sukurtą vartotojo ID.
 
     ![„Azure Active Directory“ programos.](media/app-connect-aad-apps.png "„Azure Active Directory“ programos")
+
+> [!TIP]
+> Vienas būdas naudoti šiuos parametrus yra sukurti kliento ID „Azure" kiekvienam jūsų fiziniam įrenginiams ir tada įtraukti kiekvieno kliento ID į **Azure Active Directory programos** puslapį. Tada, jei prarasite įrenginį, galėsite lengvai pašalinti jo prieigą prie „Supply Chain Management“ pašalinant savo kliento ID šiame puslapyje. (Šis būdas veikia, nes kiekviename įrenginyje įrašyti ryšio kredencialai taip pat nurodo kliento ID, kaip toliau aprašyta šioje temoje.)
+>
+> Be to, numatytoji kalba, numerio formatas ir laiko juostos parametrai kiekvienam kliento ID nustatomi pagal čia susietas **vartotojo ID** reikšmės nuostatas. Todėl galite naudoti šias nuostatas, norėdami nustatyti numatytuosius kiekvieno įrenginio arba įrenginių rinkinio parametrus pagal kliento ID. Tačiau šių numatytųjų parametrų bus nepaisoma, jei jie taip pat nurodyti *sandėlio programos vartotojo abonementui,* kurį darbuotojas naudoja prisiregistruoti įrenginyje. (Daugiau informacijos žr. [Darbuotojų mobiliųjų įrenginių vartotojų nustatymas](mobile-device-work-users.md).)
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Autentifikavimas naudojant sertifikatą arba kliento slaptąjį raktą
 

@@ -1,7 +1,7 @@
 ---
-title: Mažėjančio balanso nusidėvėjimas
+title: Mažėjančios vertės nusidėvėjimas
 description: Šiame straipsnyje apžvelgtas nusidėvėjimo Mažėjančios vertės metodas.
-author: ShylaThompson
+author: moaamer
 ms.date: 04/25/2017
 ms.topic: article
 ms.prod: ''
@@ -12,56 +12,56 @@ ms.reviewer: roschlom
 ms.custom: 3281
 ms.assetid: 1b86763d-d47c-4a6a-a9a6-d97a736750da
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 30e7d135e927867272176b492a536819cafafd23fdc3da234ed1aac265a4d0c5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: f734a0cedf6d9ee7967c3bbed0dfcf95cf33f1cd
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758878"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674630"
 ---
-# <a name="reduce-balance-depreciation"></a>Mažėjančio balanso nusidėvėjimas
+# <a name="reduce-balance-depreciation"></a>Mažėjančios vertės nusidėvėjimas
 
 [!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje apžvelgtas nusidėvėjimo Mažėjančios vertės metodas.
 
-Nustačius ilgalaikio turto nusidėvėjimo šabloną ir puslapio Nusidėvėjimo šablonai lauke Metodas pasirinkus Mažėjantis balansas, šiam nusidėvėjimo šablonui priskirto turto nusidėvėjimo procentas yra toks pat kiekvienu nusidėvėjimo laikotarpiu.
+Nustačius ilgalaikio turto nusidėvėjimo šabloną ir pasirinkus Mažėjantis balansas lauke **Metodas** puslapyje **Nusidėvėjimo šablonai**, šiam nusidėvėjimo šablonui priskirto turto nusidėvėjimo procentas yra toks pat kiekvienu nusidėvėjimo laikotarpiu.
 
-Norėdami nustatyti mažėjančio balanso nusidėvėjimą, turite pasirinkti ir puslapio Nusidėvėjimo šablonai „FastTab“ skirtuko Bendra laukuose. Pirmiausia lauke Nusidėvėjimo metai pasirinkite metus. Priklausomai nuo jūsų pasirinkimo, lauke Laikotarpio dažnis atsiranda kitos pasirinktys, kaip paaiškinta kituose skyriuose. 
+Norėdami nustatyti mažėjančio balanso nusidėvėjimą, taip pat turite atlikti pasirinkimus **Bendras** „FastTab“ skirtuko laukuose **Nusidėvėjimo šablonai** puslapyje. Pirmiausia lauke **Nusidėvėjimo metai** pasirinkite metus. Priklausomai nuo jūsų pasirinkimo, lauke **Laikotarpio dažnis** atsiranda skirtingos pasirinktys, kaip paaiškinta kituose skyriuose. 
 
-Taip pat turite įvesti nusidėvėjimo profilio lauko Procentas reikšmę. Pasirinkus pasirinktį Visiškas nusidėvėjimas, likęs nusidėvėjimo pagrindas paimamas iš paskutinio nusidėvėjimo laikotarpio ir gali sudaryti didelę sumą. Kai kurios šalys / regionai nenaudoja perjungimo į tiesią eilutę metodo. Perjungimas įvyksta, kai alternatyvaus nusidėvėjimo metodo suma didesnė arba lygi pirminio nusidėvėjimo šablono sumai ir nusidėvėjimo suma yra alternatyvaus metodo suma. 
+Taip pat **Procentas** lauke turite įvesti nusidėvėjimo profilio reikšmę. Pasirinkus parinktį **Visiškas nusidėvėjimas**, likęs nusidėvėjimo pagrindas paimamas iš paskutinio nusidėvėjimo laikotarpio ir gali sudaryti didelę sumą. Kai kurios šalys / regionai nenaudoja perjungimo į tiesią eilutę metodo. Perjungimas įvyksta, kai alternatyvaus nusidėvėjimo metodo suma didesnė arba lygi pirminio nusidėvėjimo šablono sumai ir nusidėvėjimo suma yra alternatyvaus metodo suma. 
 
-Kadangi turtas, remiantis procentinės išraiškos apskaičiavimais, niekada visiškai nenusidėvės, norėdami, kad būtų įvykdytas visiškas turto nusidėvėjimas, turite pasirinkti pasirinktį Visiškas nusidėvėjimas.
+Kadangi turtas, remiantis procentinės išraiškos apskaičiavimais, niekada visiškai nenusidėvės, norėdami, kad būtų įvykdytas visiškas turto nusidėvėjimas, turite pasirinkti parinktį **visiškas nusidėvėjimas**.
 
 ## <a name="select-a-depreciation-year"></a>Pasirinkti nusidėvėjimo metus.
-Puslapio Nusidėvėjimo šablonai lauke Nusidėvėjimo metai galite pasirinkti Kalendorius arba Finansiniai metai. Nuo jūsų pasirinkimo priklausys, kokios pasirinktys bus galimos lauke Laikotarpio dažnis. Numatytoji pasirinktis yra Kalendorius.
+Puslapio **Nusidėvėjimo profiliai** lauke **Nusidėvėjimo metai** galite pasirinkti **Kalendoriniai** arba **Ataskaitiniai**. Nuo jūsų pasirinkimo priklausys, kokios parinktys bus galimos lauke **Laikotarpio dažnis**. Numatytoji parinktis yra **Kalendorius**.
 
 ### <a name="calendar"></a>Kalendorius
 
-Pasirinktis Kalendorius kasmet sausio 1 d. atnaujina nusidėvėjimo pagrindą (paprastai tai būna suma, gauta iš balansinės vertės atėmus likvidacinę vertę). Toliau šioje temoje pateiktame mažėjančio balanso nusidėvėjimo pavyzdyje nusidėvėjimo pagrindas yra stulpelyje Skaičiavimas nurodytas pirmos skaičiavimo išraiškos skaitiklis. 
+**Kalendoriaus parinktis** kasmet sausio 1 d. atnaujina nusidėvėjimo pagrindą (paprastai tai būna suma, gauta iš balansinės vertės atėmus likvidacinę vertę). Toliau šioje temoje pateiktame mažėjančio balanso nusidėvėjimo pavyzdyje nusidėvėjimo pagrindas yra stulpelyje Skaičiavimas nurodytas pirmos skaičiavimo išraiškos skaitiklis. 
 
-Jei pasirinksite Kalendorius, lauke Laikotarpio dažnis galimos toliau nurodytos pasirinktys, nurodančios kalendorinių metų faktines nusidėvėjimo registravimo datas ir sumas.
+Jei pasirinksite **Kalendorius**, lauke **Laikotarpio dažnis** galimos toliau nurodytos parinktys, nurodančios kalendorinių metų faktines nusidėvėjimo registravimo datas ir sumas.
 
--   Kasmet registruojama gruodžio 31 d.
--   Kas mėnesį mėnesio suma registruojama kiekvieno kalendorinio mėnesio pabaigoje.
--   Kas ketvirtį ketvirčio suma registruojama kiekvieno kalendorinio ketvirčio pabaigoje (kovo 31 d., birželio 30 d., rugsėjo 30 d. ir gruodžio 31 d.).
--   Kas pusmetį pusmečio suma yra registruojama kiekvieno kalendorinio pusmečio pabaigoje (birželio 30 d. ir gruodžio 31 d.).
--   Kasdien registruojama kasdienio nusidėvėjimo metodo nusidėvėjimo suma, kiekvieną dieną naudojant vieną operaciją.
+- Kasmet registruojama gruodžio 31 d.
+- Kas mėnesį mėnesio suma registruojama kiekvieno kalendorinio mėnesio pabaigoje.
+- Kas ketvirtį ketvirčio suma registruojama kiekvieno kalendorinio ketvirčio pabaigoje (kovo 31 d., birželio 30 d., rugsėjo 30 d. ir gruodžio 31 d.).
+- Kas pusmetį pusmečio suma yra registruojama kiekvieno kalendorinio pusmečio pabaigoje (birželio 30 d. ir gruodžio 31 d.).
+- Kasdien registruojama kasdienio nusidėvėjimo metodo nusidėvėjimo suma, kiekvieną dieną naudojant vieną operaciją.
 
-Pavyzdžiui, jei pasirenkate Kasmet, metinis nusidėvėjimas registruojamas tik vieną kartą, kiekvienų metų gruodžio 31 d. Jei pasirenkate Kas mėnesį, mėnesisnis nusidėvėjimas registruojamas kiekvieną mėnesį kaip 1/12 metinio nusidėvėjimo sumos dalis.
+Pavyzdžiui, jei pasirenkate **Kasmet**, metinis nusidėvėjimas registruojamas tik vieną kartą, kiekvienų metų gruodžio 31 d. Jei pasirenkate **Mėnesinis**, mėnesisnis nusidėvėjimas registruojamas kiekvieną mėnesį kaip 1/12 metinio nusidėvėjimo sumos dalis.
 
 ### <a name="fiscal"></a>Finansiniai
 
-Lauke Nusidėvėjimo metai pasirinkus Finansiniai metai, naudojamas tiesios eilutės nusidėvėjimo metodas. Jis apskaičiuojamas remiantis finansiniais metais, kurie nustatomi puslapyje Didžioji knyga pasirinkto finansinio kalendoriaus puslapyje Finansinių metų kalendoriai. Pavyzdžiui, jei finansiniai metai prasideda liepos 1 d. ir baigiasi kitų metų birželio 30 d., nusidėvėjimas pradedamas skaičiuoti liepos 1 d. Finansiniai metai gali būti ilgesni arba trumpesni nei 12 mėnesių. Koreguojamas kiekvieno ataskaitinio laikotarpio nusidėvėjimas. Kitų finansinių metų ilgis priklauso nuo ataskaitinių laikotarpių, kuriuos nustatote, kai puslapyje Finansiniai kalendoriai kuriate naujus finansinius metus.
+Jei pasirinksite **Finansiniai metai** lauke **Nusidėvėjimo metai**, bus naudojamas tiesios eilutės nusidėvėjimo metodas. Jis apskaičiuojamas remiantis finansiniais metais, kurie nustatomi **Finansinių metų kalendoriai** puslapyje finansiniams kalendoriams, kurie pasirenkami **Didžiosios buhalterinės knygos** puslapyje. Pavyzdžiui, jei finansiniai metai prasideda liepos 1 d. ir baigiasi kitų metų birželio 30 d., nusidėvėjimas pradedamas skaičiuoti liepos 1 d. Finansiniai metai gali būti ilgesni arba trumpesni nei 12 mėnesių. Koreguojamas kiekvieno ataskaitinio laikotarpio nusidėvėjimas. Kitų finansinių metų ilgis priklauso nuo ataskaitinių laikotarpių, kuriuos nustatote, kai puslapyje **Finansinių metų kalendoriai** kuriate naujus finansinius metus.
 
 
-Pasirinkus Finansiniai metai, lauke Laikotarpio dažnis galimos šios pasirinktys:
+Pasirinkus **Finansiniai metai**, lauke **Laikotarpio dažnis** galimos šios pasirinktys:
 
--   Kasmet bendroji finansinių metų nusidėvėjimo suma registruojama kaip viena suma paskutinę finansinių metų dieną.
--   Ataskaitinis laikotarpis – registruojama bendroji finansinių metų nusidėvėjimo suma, paskirstyta į ataskaitinius laikotarpius, kurie nurodomi pagal puslapyje Didžioji knyga pasirinktą finansinį kalendorių arba pagal pasirinktą ilgalaikio turto knygos kalendorių.
+- Kasmet bendroji finansinių metų nusidėvėjimo suma registruojama kaip viena suma paskutinę finansinių metų dieną.
+- Ataskaitinis laikotarpis – registruojama bendroji finansinių metų nusidėvėjimo suma, paskirstyta į ataskaitinius laikotarpius, kurie nurodomi pagal puslapyje **Didžioji Buhalterijos knyga** pasirinktą finansinį kalendorių arba pagal pasirinktą ilgalaikio turto knygos kalendorių.
 
 ## <a name="example-of-reducing-balance-depreciation"></a>Mažėjančios vertės nusidėvėjimo pavyzdys
 
@@ -76,7 +76,7 @@ Naudojant metodą Mažėjanti vertė, 30 procentų nusidėvėjimo pagrindo (iš 
 | 3 metai | (5200 - 1000) \* 30% = 1260            | (5200 - 1260) = 3940               |
 
 
--
+
 
 
 

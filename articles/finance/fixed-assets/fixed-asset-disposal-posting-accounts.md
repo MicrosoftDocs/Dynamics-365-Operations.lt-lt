@@ -1,7 +1,7 @@
 ---
-title: Ilgalaikio turto likvidavimo registravimo sąskaitos
+title: Ilgalaikių išteklių likvidavimo registravimo sąskaitos
 description: Šioje temoje paaiškinama, kaip nustatyti turto likvidavimo DK registravimo sąskaitas.
-author: ShylaThompson
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,27 +12,27 @@ ms.reviewer: roschlom
 ms.custom: 3461
 ms.assetid: dfdc0730-e030-48cc-8d93-15bdc7b23776
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4313cb2029fc94d292abcf36eb01becb00869fa41dbda794b91d6c8f4bc5b9da
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: c82cb8b82f2cc8424675f76c68613a2b5aa76745
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778295"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675523"
 ---
-# <a name="fixed-asset-disposal-posting-accounts"></a>Ilgalaikio turto likvidavimo registravimo sąskaitos
+# <a name="fixed-asset-disposal-posting-accounts"></a>Ilgalaikių išteklių likvidavimo registravimo sąskaitos
 
 [!include [banner](../includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip nustatyti turto likvidavimo DK registravimo sąskaitas.
 
-Puslapio Ilgalaikio turto registravimo šablonai „FastTab“ skirtuke DK sąskaitos pasirinkite Likvidavimas – pardavimas ir Likvidavimas – nurašymas, kad nustatytumėte registravimą į didžiąją knygą.
+Norėdami nustatyti DK registravimo sąskaitas, kurios bus naudojamos likviduojant turtą, ilgalaikio turto **Likvidavimas - pardavimas** ir **Likvidavimas - nurašymas** esantis **DK** „FastTab“ puslapyje **Ilgalaikio turto publikavimo profilis**.
 
-Abiejų tipų operacijose ilgalaikio turto likvidavimo vertė kredituojama didžiojoje knygoje. Debetas registruojamas korespondentinėje sąskaitoje, kuri gali būti, pvz., banko sąskaita. Jei ilgalaikis turtas parduodamas klientui, kliento sąskaita naudojama vietoje korespondentinės sąskaitos.
+Abiejų tipų (turto pagal pardavimą ar nurašymą likvidavimas) operacijose ilgalaikio turto likvidavimo vertė kredituojama didžiojoje knygoje. Debetas registruojamas korespondentinėje sąskaitoje, kuri gali būti, (pavyzdžiui) banko sąskaita. Jei ilgalaikis turtas parduodamas klientui, kliento sąskaita naudojama vietoje korespondentinės sąskaitos. Daugiau informacijos rasite [Likviduoti ilgalaikį turtą kaip nurašyą](dispose-of-a-fixed-asset-as-scrap.md).
 
-Spustelėkite Likvidavimas, tada spustelėkite Pardavimas arba Nurašymas ir nustatykite išsamias sąskaitas ilgalaikio turto balansinei vertei atšaukti. Taip pat galite įvesti informaciją puslapio Likvidavimo parametrai laukuose Registruoti vertę ir Pardavimo vertės tipas. 
+Spustelėkite **Likvidavimas** tada spustelėkite **Pardavimas** ar **Nurašymas**, ir nustatykite išsamias sąskaitas ilgalaikio turto balansinei vertei atšaukti. Taip pat galite įvesti informaciją puslapio **Likvidavimo parametrai** ir **Pardavimo vertės tipas** laukeliai **Registruoti vertę**. 
 
 Turto likvidavimo operacija mažos vertės telkinyje sumažina mažos vertės telkinio balansinę vertę tik likviduojama suma. Bet jei turto pardavimas viršija balansinę mažos vertės telkinio vertę, balansinė vertė sumažinama iki nulio.
 

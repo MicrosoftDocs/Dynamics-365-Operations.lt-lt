@@ -2,7 +2,7 @@
 title: Produktų ir klientų paieška elektroniniame kasos aparate (EKA)
 description: Šioje temoje apžvelgiama, kaip patobulinta „Dynamics 365 Commerce“ produktų ir klientų ieškos funkcija.
 author: ShalabhjainMSFT
-ms.date: 03/10/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 043a630408d6b03e528f0afd5443de73ad5f3802c968b9d9bd7a5c51bfe1fb03
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 022dcaca9bb3c9e7e749ee143702325367e5149b
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716400"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700094"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Produktų ir klientų paieška elektroniniame kasos aparate (EKA)
 
@@ -45,9 +45,9 @@ Atliekant vietinę produktų iešką, ieškoma tolesnėse produktų ypatybėse.
 - aprašymas
 - Dimensijos
 - Brūkšninis kodas
-- Ieškos vardas
+- Ieškos pavadinimas
 
-### <a name="additional-local-product-search-capabilities"></a>Papildomos vietinės produktų ieškos galimybės
+### <a name="additional-local-product-search-capabilities-conventional-sql-full-text-search"></a>Papildomos vietinės produktų ieškos galimybės (pagal SQL viso teksto iešką) 
 
 - Atlikdami ieškas su keliais raktažodžiais (t. y., atlikdami ieškas, kuriose naudojami ieškos terminai), mažmenininkai gali sukonfigūruoti, ar į ieškos rezultatus reikia įtraukti rezultatus, atitinkančius *bet kurį* ieškos terminą, ar tik tuos rezultatus, kurie atitinka *visus* ieškos terminus. Šios funkcijos parametras pasiekiamas naujoje EKA funkcijų profilio grupėje pavadinimu **Produktų ieška**. Numatytasis parametras yra **Atitinka bet kurį ieškos terminą**. Šis parametras taip pat yra rekomenduojamas parametras. Kai naudojamas parametras **Atitinka bet kurį ieškos terminą**, kaip rezultatai pateikiami visi produktai, visiškai ar iš dalies atitinkantys vieną ar kelis ieškos terminus. Tuose rezultatuose didėjimo tvarka surikiuojami produktai su daugiausiai raktažodžių atitikčių (visiškų arba dalinių).
 
@@ -55,6 +55,8 @@ Atliekant vietinę produktų iešką, ieškoma tolesnėse produktų ypatybėse.
 
     - Ieška atliekama atskirose produktų ypatybėse. Pavyzdžiui, pateikiami tik tie produktai, kurių bent vienoje ypatybėje yra visi ieškomi raktažodžiai.
     - Dimensijose neieškoma.
+> [!NOTE]
+> Šios bet kurio ieškos termino konfigūracijos **Atitinka bet kurią ieškomą sąvoką**/**Atitinka visas ieškomas sąvokas** EKA funkcijos profiliuose, kurie taikomi tik **vietos** produkto paieškose (įprastose SQL viso teksto paieškoje) patirtyse. Ši konfigūracija neturi įtakos ieškai debesyje. Naujasis ieškos modulis turi nuosavą išplėstinį algoritmą, kuris ieško produkto ieškos rezultatų atitikimą. 
 
 - Mažmenininkai dabar produktų iešką gali sukonfigūruoti taip, kad, vartotojams vedant produktų pavadinimus, būtų rodomi ieškos pasiūlymai. Naujas šios funkcijos parametras pasiekiamas EKA funkcijų profilio grupėje pavadinimu **Produktų ieška**. Parametro pavadinimas yra **Vedant tekstą rodyti ieškos pasiūlymus**. Ši funkcija darbuotojams gali padėti greitai rasti ieškomą produktą, nes jiems nereikia rankiniu būdu įvesti viso pavadinimo.
 - Produktų ieškos algoritmas ieškomų terminų dabar taip pat ieško produkto ypatybėje **Ieškos pavadinimas**.
@@ -147,7 +149,5 @@ Toliau pateiktame sąraše parodyta, kaip debesimi paremtos klientų ieškos fun
 > Klientų ieškos galimybė naudojant „Azure Cognitive Search” paslaugą prieinama visuose peržiūros ribotuose regionuose. Klientų ieškos galimybė *nėra* prieinama nurodytuose regionuose:
 > - Brazilija
 > - Indija
-> - Kanada
-> - Jungtinė Karalystė
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

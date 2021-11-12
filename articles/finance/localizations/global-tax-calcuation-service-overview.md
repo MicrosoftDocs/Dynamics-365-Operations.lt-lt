@@ -2,7 +2,7 @@
 title: Mokesčių skaičiavimo apžvalga
 description: Šioje temoje paaiškinama bendroji Mokesčių skaičiavimo galimybės apimtis ir funkcijos.
 author: wangchen
-ms.date: 08/17/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 72895cc18368ebf38818f30510cec999391c7910
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
-ms.translationtype: HT
+ms.openlocfilehash: caa7e458763b6ba6b2b85ab016a1aa2e53cee89a
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394591"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647062"
 ---
 # <a name="tax-calculation-overview"></a>Mokesčių skaičiavimo apžvalga
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Mokesčių skaičiavimas yra hiper išplečiama kelių nuomotojų paslauga, įgalinanti „Global Tax Engine“ automatizuoti ir supaprastinti mokesčių nustatymo ir skaičiavimo procesą. Visiškai konfigūruotinas mokesčių modulis. Elementai, kuriuos galima konfigūruoti, apima (bet tuo neapsiribojama) apmokestinamą duomenų modelį, mokesčio kodą, mokesčių taikomumo matricą ir mokesčių skaičiavimo formulę. Mokesčių sistema veikia pagrindinių paslaugų „Microsoft Azure“ platformoje ir siūlo modernias technologiją bei proporcingai keičiamumą.
 
@@ -115,10 +113,14 @@ Papildinį Mokesčių skaičiavimas galima įgalinti naudojant operacijas.
     - Pasiūlymo patvirtinimo antraštės papildomos išlaidos
     - Pasiūlymo patvirtinimo eilutės papildomos išlaidos
 
-- Inventorizacijos
+- Atsargos
 
     - Perlaidos užsakymas - siuntimas
     - Perlaidos užsakymas - gavimas
+
+10.0.23 versijoje palaikomos tolesnės operacijos. 
+
+- Laisvos formos sąskaita faktūra
 
 ## <a name="supported-countriesregions"></a>Palaikomos šalys / regionai
 
@@ -145,6 +147,28 @@ Papildinį Mokesčių skaičiavimas gali įjungti juridinis subjektas.
 - Šveicarija
 - Jungtinė Karalystė
 - Jungtinės Valstijos
+
+10.0.22 versijoje palaikomos tolesnės juridinio subjekto pagrindinio adreso šalys / regionai.
+
+- Australija
+- Bahreinas
+- Kanada
+- Egiptas
+- Honkongo SAR
+- Kuveitas
+- Naujoji Zelandija
+- Omanas
+- Kataras
+- Saudo Arabijos
+- Pietų Afrika
+- Jungtiniai Arabų Emyratai
+
+10.0.23 versijoje palaikomos tolesnės juridinio subjekto pagrindinio adreso šalys / regionai.
+
+- Tailandas
+- Japonija
+- Malaizija
+- Singapūras
 
 ## <a name="related-resources"></a>Susiję ištekliai
 

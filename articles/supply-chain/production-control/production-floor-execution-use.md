@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 63e26004b28f1ff6c760476933e1d524c0b40451
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 72fe7f8a6b05bd7c6fa242ef599e506a1178d913
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569342"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678694"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kaip darbuotojai naudoja gamybos cecho vykdymo sąsają
 
@@ -93,7 +93,6 @@ Skirtuke **Mano mašina** yra šie stulpeliai. Skaičiai atitinka skaičius anks
 1. **Registruoti prastovą** – pasirinkite šį mygtuką, jei norite atidaryti dialogo langą, kuriame galite registruoti įrenginio prastovą. Galėsite pasirinkti priežasties kodą ir įvesti prastovos datos / laiko trukmę. Įrenginių prastovos registracija naudojama skaičiuojant įrenginio turto efektyvumą.
 1. **Peržiūrėti arba redaguoti** – pasirinkite šį mygtuką, jei norite atidaryti dialogo langą, kuriame galite redaguoti arba peržiūrėti esamus prastovos įrašus.
 
-
 ## <a name="starting-and-completing-production-jobs"></a>Gamybos užduočių pradžia ir pabaiga
 
 Darbuotojai pradeda gamybos užduotį, pasirinkdami užduotį skirtuke **Visos užduotys** ir tada pasirinkdami **Pradėti užduotį**, kad būtų atidarytas dialogo langas **Pradėti užduotį**.
@@ -109,6 +108,32 @@ Darbuotojai gali pradėti bet kokios būsenos užduotį. Kai darbuotojas pradeda
 Kai darbuotojas užbaigia arba iš dalies užbaigia užduotį, jis gali pateikti prekių kiekių, kurie buvo pagaminti, ataskaitą, pasirinkdamas užduotį skirtuke **Aktyvios užduotys** ir tada – **Teikti ataskaitą apie eigą**. Tada dialogo lange **Teikti ataskaitą apie eigą** darbuotojas įveda prekių kiekį naudodamas skaičių klaviatūrą. Kiekio laukas pagal numatytuosius nustatymus yra tuščias. Įvedęs kiekį, darbuotojas gali atnaujinti užduoties būseną į *Vykdoma*, *Sustabdyta* arba *Baigta*.
 
 ![Dialogo langas Teikti ataskaitą apie eigą.](media/pfei-report-progress-dialog.png "Dialogo langas Teikti ataskaitą apie eigą")
+
+## <a name="reporting-good-quantities-on-batch-orders-that-have-co-products-and-by-products"></a>Teikti ataskaitą apie paketiniū užsakymų gerus kiekius, kurie turi sudėtinius ir šalutinius produktus
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)] <!--KFM: GA with 10.0.23 -->
+
+Darbuotojai gali naudoti gamybos vietos vykdymo sąsają pateikti informaciją apie partijinių užsakymų eigą. Ši ataskaita apima ataskaitos teikimą apie sudėtinius ir šalutinius produktus.
+
+Kai kurie gamintojai, ypač proceso pramonės šakose, paketinius užsakymus naudoja savo gamybos procesams valdyti. Paketiniai užsakymai kuriami pagal formules, tas formules galima nustatyti taip, kad jų išeiga būtų sudėtiiniai ir šalutiniai produktai. Kai pranešamas tų paketinių užsakymų grįžtamasis ryšys, išeigos suma turi būti užregistruota formulėje ir taip pat sudėtiuose bei šalutiniuose produktuose.
+
+Kai darbuotojas užbaigia arba dalinai atlieka paketinio užsakymo užduotį, jie gali pranešti apie kiekvieno produkto, kuris nurodytas kaip užsakymo išeiga, gerų arba nurašomų į atliekas kiekius. Produktų, kurie apibrėžti kaip paketinio užsakymo išeiga gali būti *Formulės*, *Sudėtinio produkto* ar *Šalutinioprodukto* tipo.
+
+Norint pateikti gerų produktų kiekių ataskaitą, darbuotojas pasirenka užduotį skirtuke **Aktyvios užduotys** ir tada pasirenka **Teikti ataskaitą apie eigą**.
+
+Tada **Teikti ataskaitą apie eigą** dialogo lange darbuotojas gali pasirinkti iš produktų, kurie apibrėžti kaip paketinio užsakymo išeiga, apie kuriuos bus teikiamos ataskaitos. Darbuotojas sąraše gali pasirinkti vieną arba daug produktų, tada pasirinkti **Teikti ataskaitą apie eigą**. Kiekvienam produktui pagal numatytuosius nustatymus kiekis yra tuščias, o darbuotojas kiekiui įvesti gali naudoti skaitinę klaviatūrą. Darbuotojas gali naudoti **Ankstesnis** ir **Sekantis** mygtukus, norėdamas judėti tarp pasirinktų produktų. Įvedęs kiekvieno produkto kiekį, darbuotojas gali atnaujinti užduoties būseną į *Vykdoma*, *Sustabdyta* arba *Baigta*.
+
+![Teikti ataskaitą apie sudėtinius ir šalutinius produktus.](media/report-co-by-products.png "Teikti ataskaitą apie sudėtinius ir šalutinius produktus.")
+
+### <a name="reporting-on-batch-orders-for-planning-items"></a>Teikti ataskaitą apie planavimo prekių paketinius užsakymus
+
+Kai darbuotojas baigia užduotį planavimo prekės paketiniame užsakyme, bus pateikta ataskaita tik apie sudėtinių ir šalutinių produktų kiekį, kadangi planavimo prekės neturi *Formulės* tipo prekės.
+
+### <a name="reporting-co-product-variation"></a>Teikti ataskaitą apie sudėtinio produkto variaciją
+
+Jei paketinis užsakymas sukurtas pagal formulės versiją, kai **Sudėtinio produkto variacijos** pasirinkimas nustatytas į *Taip*, darbuotojas gali pranešti apie sudėtinius produktus, kurie nėra paketinių užsakymų aprašo dalis. Ši funkcija naudojama scenarijuose, kur gamybos procese gali atsirasti netikėta produkto išeiga.
+
+Tokiu atveju, darbuotojas gali pateikti ataskaitą apie sudėtinio produkto kiekį ataskaitų eigos dialogo lange pasirinkdamas **Sudėtinio produkto variacijos**. Tuomet darbuotojas gali pasirinkti iš visų išleistų produktų, apibrėžtų kaip sudėtiniai produktai.
 
 ## <a name="reporting-scrap"></a>Atliekų ataskaitos
 

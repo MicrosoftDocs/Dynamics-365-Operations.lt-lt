@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 3b415252ef93987765d8970cde6b45f397136afd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: b24aa8c342a3de647acc9cf0b4ec175ca24cef43
+ms.sourcegitcommit: e891a6cc0674d27b7e218fdf22ca5ba8ac3310d0
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572654"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7648383"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Kliento portalo įdiegimas, nustatymas ir atnaujinimas
 
@@ -41,7 +41,7 @@ Skirtingai nei kitos „Supply Chain Management“ funkcijos, kliento portalo š
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a>Reikalingi nustatymo veiksmai, norint įjungti kliento portalą
 
-Įsitikinę, kad turite reikiamas licencijas, galite nustatyti dvigubo rašymo funkciją, kaip nurodyta [dvigubo rašymo pradinio sinchronizavimo instrukcijose](/dynamics365/supply-chain/sales-marketing/enable-entity-map).
+Įsitikinę, kad turite reikiamas licencijas, galite nustatyti dvigubo rašymo funkciją, kaip nurodyta [dvigubo rašymo pradinio sinchronizavimo instrukcijose](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-entity-map.md).
 
 Būtinai įjunkite toliau išvardytus susiejimus su lentelėms dvigubo rašymo funkcijoje.
 

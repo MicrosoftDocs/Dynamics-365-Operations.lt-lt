@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 15fcfd72027e081e633fe68209cf85f528ff02d7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fa5a618527ce5a20b59902e7397000bf0796cbbb
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576933"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647194"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Gamybos cecho vykdymo sąsajos konfigūravimas
 
@@ -74,6 +74,12 @@ Tai yra pirminė šioje temoje aprašyta funkcija. Ji įtraukia gamybos aukšto 
 Ši funkcija leidžia į užduočių sąrašą įtraukti ieškos lauką. Darbuotojai gali rasti konkrečią užduotį įvesdami užduoties ID arba rasti visas konkretaus užsakymo užduotis įvesdami užsakymo ID. Darbuotojai gali įvesti ID naudodami klaviatūrą arba nuskaitę brūkšninį kodą. Norėdami ją naudoti, įjunkite tolesnę funkciją [Funkcijos valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Gamybos vietos vykdymo sąsajos užduočių ieška
+
+### <a name="enable-reporting-on-co-products-and-by-products"></a>Sudėtinių ir šalutinių produktų ataskaitos įgalinimas.
+
+Ši funkcija leidžia darbuotojams naudoti gamybos vietos vykdymo sąsają pateikti informaciją apie partijinių užsakymų eigą. Ši ataskaita apima ataskaitos teikimą apie sudėtinius ir šalutinius produktus. Norėdami naudoti šią funkciją, įjunkite toliau nurodytą funkciją [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+- Ataskaita apie sudėtinius ir šalutinius produktus iš gamybos vietos vykdymo sąsajos
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Darbas su gamybos cecho vykdymo konfigūracijomis
 

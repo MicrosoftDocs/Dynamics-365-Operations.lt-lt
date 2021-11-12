@@ -2,7 +2,7 @@
 title: Naršymo meniu modulis
 description: Šioje temoje aprašomi naršymo meniu moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
-ms.date: 01/28/2021
+ms.date: 10/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 486f20c26f97c236dfde2cbaedd8df434fe762947a6caa1c7cc03e4d244f4d47
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 5379aa4496c1c448d147bb260689ebe38aaf903f
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761591"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713857"
 ---
 # <a name="navigation-menu-module"></a>Naršymo meniu modulis
 
@@ -41,8 +41,8 @@ Toliau pateiktoje iliustracijoje parodytas „Fabrikam” svetainės naršymo me
 |---------------------------|-----------------------|-------------|
 | Šaltinis                  | **„Retail”** , **Kūrimas neautomatiniu būdu** , **„Retail” ir kūrimas neautomatiniu būdu** | Reikšmė **„Retail”** leidžia naršymo meniu rodyti „Commerce Headquarters” kanalų naršymo hierarchiją. Reikšmė **Kūrimas neautomatiniu būdu** leidžia kuruoti statinius meniu elementus. Reikšmė **„Retail” ir kūrimas neautomatiniu būdu** leidžia abiejų reikšmių derinį. |
 | Rodyti kategorijos vaizdus | **Teisinga** arba **Klaidinga**    | Įjungus Ši ypatybė naršymo meniu rodo kategorijos atvaizdus, kaip nurodyta kiekvienos kategorijos "Commerce Headquarters". Įtraukta į „Commerce” 10.0.14 leidimą. |
-| Rodyti akcijas | **Teisinga** arba **Klaidinga** | Kai ypatybė yra įjungta, akcijos gali būti konfigūruojamos naudojant paveikslėlius, nuorodas ir tekstą. Ši ypatybė buvo įtraukta į „Commerce“ versijos 10.0.17 leidimą. |
-| Įtraukti akcijas | Tekstas, paveikslėlis ar nuoroda | Kai **Rodyti akcijas** ypatybė yra įjungta, galite įtraukti tekstą, paveikslėlį ar nuorodą kaip akcijos turinį naršymo meniu. |
+| Rodyti reklaminius vaizdus | **Teisinga** arba **Klaidinga** | Kai ypatybė yra įjungta, akcijos gali būti konfigūruojamos naudojant paveikslėlius, nuorodas ir tekstą. Ši ypatybė buvo įtraukta į „Commerce“ versijos 10.0.17 leidimą. |
+|Įtraukti kategorijos reklaminį turinį | Tekstas, paveikslėlis ar nuoroda | Kai **Rodyti akcijų paveikslėlius** ypatybė yra įjungta, galite įtraukti tekstą, paveikslėlį ar nuorodą kaip akcijos turinį naršymo meniu. |
 | Įjungti kelių lygių naršymo meniu | **Teisinga** arba **Klaidinga** | Kai ši ypatybė įjungta, naršymo meniu gali rodyti kelis naršymo hierarchijos lygius. Ši funkcija yra prieinama „Commerce“ versijos 10.0.15 leidime. |
 | Lygių skaičius | sveikasis skaičius | Ši ypatybė nurodo lygių, kurie turėtų būti rodomi, jei ypatybė **Įjungti kelių lygių naršymo meniu** nustatyta į **Teisinga**, skaičių. |
 | Statinis meniu elementas| Reikšmių masyvas| Statiniai meniu elementai, susiejantys meniu elemento pavadinimą su statinio svetainės puslapio saitu. Galite kurti meniu elementus po kitais meniu elementais. Pagal numatytuosius nustatymus statiniai meniu rodomi šakniniame lygyje ir yra pridedami prie kanalų naršymo hierarchijos, jei tokia yra. |

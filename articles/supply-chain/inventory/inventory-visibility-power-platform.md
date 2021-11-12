@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a60fc00642a77d3dc595a6222727637f0d7cd588
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
-ms.translationtype: HT
+ms.openlocfilehash: 0457190f2fc8cd0ed39e109e6720509b77b83566
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7475065"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678524"
 ---
 # <a name="use-the-inventory-visibility-app"></a>Atsargų matomumo programos naudojimas
 
@@ -63,8 +63,6 @@ Norėdami užregistruoti turimos informacijos užklausą, įveskite užklausą u
 ![Turimos užklausos nustatymai](media/inventory-visibility-query-settings.png "Turimos užklausos nustatymai")
 
 ### <a name="reservation-posting"></a>Rezervavimo publikavimas
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Norėdami **užregistruoti rezervavimo** užklausą, naudokite skirtuką Rezervavimo registravimas. Kad būtų galima užregistruoti rezervavimo užklausą, reikia įjungti funkciją *OnHandReservation*. Dėl daugiau informacijos apie šią funkciją, žr. [Inventoriaus matomumo rezervavimas](inventory-visibility-reservations.md).
 

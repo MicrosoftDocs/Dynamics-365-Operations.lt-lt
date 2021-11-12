@@ -2,7 +2,7 @@
 title: Tinklelio charakteristikos
 description: Šioje temoje aprašomos kelios galingos tinklelio valdiklio funkcijos. Norėdami turėti prieigą prie šių galimybių, turite įjungti naują tinklelio funkcija.
 author: jasongre
-ms.date: 09/08/2021
+ms.date: 10/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,16 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9aa79e6e61f3a53073dffa5f3030892cc921d246
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
-ms.translationtype: HT
+ms.openlocfilehash: a21a41399b5884fda9cce214f99851ffa93bbc43
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483859"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700142"
 ---
 # <a name="grid-capabilities"></a>Tinklelio charakteristikos
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 
 Naujas tinklelio valdiklis suteikia keletą naudingų ir galingų charakteristikų, kurias galite naudoti siekiant pagerinti vartotojo produktyvumą, kurti įdomesnius savo duomenų rodinius ir gauti prasmingų įžvalgų dėl duomenų. Šiame straipsnyje aptariamos šios charakteristikos: 
@@ -32,6 +33,8 @@ Naujas tinklelio valdiklis suteikia keletą naudingų ir galingų charakteristik
 -  Matematinių išraiškų vertinimas 
 -  Lentelės duomenų grupavimas (įjungta atskirai naudojant **Grupavimas tinkleliuose** funkciją)
 -  Fiksuoti stulpeliai
+-  Automatiškai talpinti stulpelio plotį
+-  Ištempti stulpeliai
 
 ## <a name="calculating-totals"></a>Skaičiuojamos sumos
 „Finance and Operations“ programose vartotojai gali matyti bendrąsias sumas, esančias tinkleliuose, skaitinių stulpelių apačioje. Tinklelio apačioje esančiame poraštės skyriuje rodomos šios bendrosios sumos. 
@@ -43,7 +46,7 @@ Yra poraščių sritis, esanti kiekvieno „Finance and Operations” programų 
 - Bendrosios sumos, kurios yra sukonfigūruotų skaitinių stulpelių apačioje
 - Duomenų rinkinį sudarančių eilučių skaičius 
 
-Pagal numatytuosius parametrus ši poraštė paslėpta, tačiau galite ją įjungti. Norėdami rodyti tinklelio poraštę, dešiniu pelės klavišu spustelėkite ant stulpelio antraštės tinklelyje ir pažymėkite parinktį **Rodyti poraštę**. Įjungus konkretaus tinklelio poraštę, šis parametras bus įsimintas tol, kol vartotojas pasirinks slėpti poraštę. Norėdami paslėpti poraštę, dešiniuoju pelės klavišu spustelėkite stulpelio antraštę ir pasirinkite **Slėpti poraštę**.  (Veiksmo **Rodyti poraštę/slėpti poraštę** išdėstymo vieta būsimame naujinime gali persikelti į kitą vietą). 
+Pagal numatytuosius parametrus ši poraštė paslėpta, tačiau galite ją įjungti. Norėdami rodyti tinklelio poraštę, rinkitės **Tinklelio parinktys** mygtuką antraštėje ir tada rinkitės **Rodyti poraštę** parinktį. Įjungus konkretaus tinklelio poraštę, šis parametras bus įsimintas tol, kol vartotojas rinksis slėpti poraštę. Norėdami paslėpti poraštę, tinklelio **Slėpti poraštę** meniu **Tinklo parinktys**.  
 
 ### <a name="specifying-columns-with-totals"></a>Stulpelių su bendrosiomis sumomis nurodymas
 Šiuo metu nėra stulpelių, kurie rodytų bendrąsias sumas pagal numatytuosius nustatymus. Užuot, tai laikoma vienkartine sąrankos veikla, panašiai kaip stulpelių pločių reguliavimas tinkleliuose. Kai nurodysite, kad norite matyti stulpelio bendrąsias sumas, šis parametras bus įsimenamas, kai kitą kartą lankysitės puslapyje.  
@@ -82,7 +85,7 @@ Siekiant palaikyti šį naują veikimą, kai tinklelis veikia redagavimo režimu
 Kai vartotojai įveda duomenis anksčiau vietos, kur serveris vykdo apdorojimą, duomenų įvedimo metu gali įvykti sutrikimų, pvz., peržvalgų, tikrinimo kontrolės lygiu ir numatytųjų reikšmių įvedimo trūkumo. Vartotojams, kuriems reikia išplečiamojo sąrašo rasti reikšmę, patariama palaukti, kol serveris pasivys dabartinę eilutę. Tikrinimas kontrolės lygiu ir numatytųjų reikšmių įvedimas taip pat įvyks tada, kai serveris tą eilutę apdoros.   
 
 ### <a name="pasting-from-excel"></a>Įklijavimas iš „Excel”
-Vartotojai visada galėjo eksportuoti duomenis iš „Finance and Operations” tinklelių į „Excel”, naudodami mechanizmą **Eksportuoti į „Excel“**. Tačiau galimybė įvesti duomenis anksčiau sistemos įgalina naujo tinklelio lentelių kopijavimo iš „Excel” ir jų įklijavimo tiesiai į „Finance and Operations” programų tinklelius palaikymą. Tinklelio langelis, kuriame inicijuojama įklijavimo operacija, nustato, kur pradedamas nukopijuotos lentelės įklijavimas. Tinklelio turinys perrašomas nukopijuotos lentelės turiniu, išskyrus du tolesnius atvejus.
+Vartotojai visada galėjo eksportuoti duomenis iš „Finance and Operations“ programas į „Microsoft Excel“ naudojant **Eksportuoti į „Excel“** mechanizmą. Tačiau galimybė įvesti duomenis anksčiau sistemos įgalina naujo tinklelio lentelių kopijavimo iš „Excel” ir jų įklijavimo tiesiai į „Finance and Operations” programų tinklelius palaikymą. Tinklelio langelis, kuriame inicijuojama įklijavimo operacija, nustato, kur pradedamas nukopijuotos lentelės įklijavimas. Tinklelio turinys perrašomas nukopijuotos lentelės turiniu, išskyrus du tolesnius atvejus.
 
 - Jei nukopijuotoje lentelėje esančių stulpelių skaičius yra didesnis nei stulpelių, esančių tinklelyje, vartotojas informuojamas, kad papildomų stulpelių, pradedant nuo įklijavimo vietos, nepaisoma. 
 - Jei nukopijuotoje lentelėje esančių stulpelių skaičius yra didesnis nei stulpelių, esančių tinklelyje, pradedant nuo įklijavimo vietos, esami langeliai perrašomi įklijuotu turiniu, o visos papildomos nukopijuotos lentelės eilutės įterpiamos kaip naujos eilutės tinklelio apačioje. 
@@ -125,6 +128,9 @@ Norėdami užfiksuoti stulpelį, dešiniuoju pelės klavišu spustelėkite stulp
 Norėdami panaikinti stulpelio fiksavimą, dešiniuoju pelės klavišu spustelėkite fiksuoto stulpelio antraštę ir pasirinkite **Nebefiksuoti stulpelio**. 
 
 Atkreipkite dėmesį, kad eilučių pasirinkimo ir būsenos stulpeliai naujame tinklelyje yra visada užfiksuojami kaip du pirmieji stulpeliai. Todėl, kai šie stulpeliai yra įtraukti į tinklelį, jie visada bus matomi vartotojams, neatsižvelgiant į horizontaliosios slinkties padėtį tinklelyje. Šių dviejų stulpelių negalima pertvarkyti.
+
+## <a name="autofit-column-width"></a>Automatiškai talpinti stulpelio plotį
+Panašus į „Excel“ vartotojai gali automatiškai pakeisti stulpelio dydį, atsižvelgiant į tuo metu rodomą to stulpelio turinį. Norėdami tai padaryti, du kartus spustelėkite stulpelio dydžio keitimo ranketes arba pereidami į stulpelio antraštę ir spausdami **A** (automatinės talpinimo). Ši savybė yra prieinama nuo 10.0.23 prekybos versijos.  
 
 ## <a name="frequently-asked-questions"></a>Dažnai užduodami klausimai
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Kaip įjungti naują tinklelio valdiklį mano aplinkoje? 

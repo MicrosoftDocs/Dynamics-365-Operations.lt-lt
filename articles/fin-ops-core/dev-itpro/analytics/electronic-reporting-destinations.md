@@ -2,7 +2,7 @@
 title: Elektroninių ataskaitų (ER) paskirties vietos
 description: Šioje temoje pateikiama informacija apie elektroninių ataskaitų paskirties vietų valdymą, palaikomų paskirties vietų tipus ir saugumo klausimus.
 author: nselin
-ms.date: 05/19/2021
+ms.date: 09/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: df617ad476d8210c658f60569656292df22670df44cc094bf0d61b4ee6a19775
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e8e176b8d4e14eee2050b3c66f7547ff878b5174
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743316"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647098"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroninių ataskaitų (ER) paskirties vietos
 
@@ -164,12 +164,12 @@ Norėdami, kad PDF konvertavimo parinktis būtų prieinama dabartiniame „Finan
 
 ### <a name="applicability"></a>Taikymas
 
-PDF konvertavimo parinktį galima įjungti tik failų komponentams, kurie naudojami generuojant išvestį „Office” („Excel“ arba „Word“) formatu (**„Excel“ failas**). Kai ši parinktis įjungta, išvestis, generuojama „Office“ formatu, automatiškai konvertuojama į PDF formatą. Ankstesnėse nei **10.0.18** „Finance“ versijose šią funkciją galima įjungti tik **„Excel“\\failo** tipo komponentus, kurie yra naudojami išvesčiai generuoti [„Excel“](er-fillable-excel.md) arba [„Word“](er-design-configuration-word.md) formatu. Tačiau **10.0.18 ir naujesnėse versijose** taip pat galima įjungti šią funkciją **bendrojo\\failo** tipo komponentams.
+„Finance“ versijose **ankstesnėse nei 10.0.18**, PDF keitimo parinktis gali būti įjungta tik **Excel\\Failo** komponentams, kurie yra naudojami išvesčiai generuoti „Office“ („Excel“ ar „Word“) formatu. Kai ši parinktis įjungta, išvestis, generuojama „Office“ formatu, automatiškai konvertuojama į PDF formatą. Tačiau **10.0.18 ir naujesnėse versijose** taip pat galima įjungti šią funkciją **bendrojo\\failo** tipo komponentams.
 
 > [!NOTE]
 > Atkreipkite dėmesį į įspėjimo pranešimą, kurį gausite, kai įjungsite PDF keitimo parinktį **bendrojo\\failo** tipo ER komponentui. Šis pranešimas informuoja, kad nėra būdo projektavimo metu užtikrinti, kad pasirinktas failo komponentas turinį rodys PDF formatu arba PDF konvertuojamu turiniu vykdymo metu. Todėl šią parinktį turėtumėte įjungti tik tada, kai būsite tikri, kad pasirinktas failo komponentas buvo sukonfigūruotas rodyti turinį PDF formatu arba PDF konvertuojamu turiniu vykdyklėje.
 > 
-> PDF konvertavimo parinktį įjungus **„Excel“\\failo** tipo komponentui, jei tas komponentas turinį rodo kitu nei PDF formatu ir jei rodomo turinio neįmanoma pakeisti į PDF formatą, vykdymo metu bus rodoma išimtis. Gaunamas pranešimas informuoja, kad sugeneruoto turinio negalima konvertuoti į PDF formatą.
+> PDF konvertavimo parinktį įjungus „Excel“ failo formato komponentui, jei tas komponentas turinį rodo kitu nei PDF formatu ir jei rodomo turinio neįmanoma pakeisti į PDF formatą, vykdymo metu bus rodoma išimtis. Gaunamas pranešimas informuoja, kad sugeneruoto turinio negalima konvertuoti į PDF formatą.
 
 ### <a name="limitations"></a>Apribojimai
 
@@ -189,16 +189,26 @@ Norėdami įjungti failo paskirties vietos PDF konvertavimą, pažymėkite žym�
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">Pasirinkite PDF konvertavimui skirtą puslapio padėtį</a>
 
-Jei sugeneruojate ER konfigūraciją „Excel” formatu ir norite konvertuoti ją į PDF formatą, galite nurodyti PDF dokumento puslapio padėtį. Kai pasirenkate žymės langelį **Konvertuoti į PDF**, kad įjungtumėte PDF konvertavimą failo paskirties vietai, kurioje gaunamas išvesties failas „Excel” formatu, laukas **Puslapio padėtis** tampa pasiekiamas „FastTab” elemente **PDF konvertavimo parametrai**. Lauke **Puslapio padėtis** pasirinkite pageidaujamą padėtį.
+Jei sugeneruojate ER konfigūraciją „Excel” formatu ir norite konvertuoti ją į PDF formatą, galite atskirai nurodyti PDF dokumento puslapio padėtį. Kai pasirenkate žymės langelį **Konvertuoti į PDF**, kad įjungtumėte PDF konvertavimą failo paskirties vietai, kurioje gaunamas išvesties failas „Excel” formatu, laukas **Puslapio padėtis** tampa pasiekiamas „FastTab” elemente **PDF konvertavimo parametrai**. Lauke **Puslapio padėtis** pasirinkite pageidaujamą padėtį.
 
 [![PDF konvertavimui skirtos puslapio padėties pasirinkimas.](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
-> [!NOTE]
-> Jei norite turėti parinktį pasirinkti PDF puslapio padėtį, turite įdiegti „Finance ” 10.0.10 arba naujesnę versiją.
->
-> Pasirinkto puslapio padėtis taikoma visoms ER konfigūracijoms, kurios yra generuojamos „Excel” formatu ir konvertuojamos į PDF formatą.
->
-> Jei ER konfigūracija „Word” formatu yra konvertuojama į PDF formatą, PDF dokumento padėtis gaunama iš „Word” dokumento.
+Jei norite turėti parinktį pasirinkti PDF puslapio padėtį, turite įdiegti „Finance ” 10.0.10 arba naujesnę versiją. „Finance“ versijose **prieš 10.0.23 versiją** ši pasirinktis siūlo šias puslapio padėties pasirinktis:
+
+- Vertikali
+- Horizontali
+
+Pasirinkto puslapio padėtis taikoma visiems siunčiamo dokumento puslapiams, kurios yra generuojamos „Excel” formatu ir konvertuojamos į PDF formatą.
+
+Tačiau **10.0.23 ir vėlesnėje versijoje** puslapio padėties pasirinkčių sąrašas išplėstas taip:
+
+- Vertikali
+- Horizontali
+- Skirta darbalapiui
+
+Pasirinkus konkrečią **Darbalapio parinktį** kiekvienas sugeneruotos „Excel“ darbaknygės darbalapis konvertuojamas į PDF naudojant šio darbalapio puslapio padėtį, sukonfigūruotą naudojamame „Excel“ šablone. Taigi, gali būti, kad turite galutinį PDF dokumentą, kuriame yra stačios ir gulsčios puslapių. 
+
+Jei ER konfigūracija „Word” formatu yra konvertuojama į PDF formatą, PDF dokumento padėtis visada gaunama iš „Word” dokumento.
 
 ## <a name="output-unfolding"></a>Išeigos išskleidimas
 

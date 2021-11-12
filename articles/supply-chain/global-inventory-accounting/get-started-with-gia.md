@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 90fcbdc5c9dd4301225952d885794bd4d03ef825fd5590896be13eacfad1f979
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: cfba2b8320399cc2eb3f2231e8a172d902633f16
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773301"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678864"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Pradėkite darbą su Visuotine atsargų apskaita
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
 
 Visuotinė atsargų apskaita leidžia jums atlikti kelias atsargų apskaitas Visuotinės atsargų apskaitos didžiosiose knygose, kurias nustatėte. Turite susieti kiekvieną Visuotinės atsargų apskaitos didžiąją knygą su *konvencija*. Konvencija yra toliau pateiktų apskaitos strategijų tipų rinkinys.
 
@@ -60,9 +60,9 @@ Kad būtų galima įgalinti papildinio funkcionalumą, turite jį integruoti su 
 1. Dialogo lange **„Power Platform” aplinkos nustatymas** pasirinkite žymės langelį, o tada – **Nustatymas**. Įprastai nustatymas trunka nuo 60 iki 90 minučių.
 1. Baigus „Microsoft Power Platform” aplinkos nustatymą, puslapyje rodomas jūsų aplinkos pavadinimas. Be to, **„Power Platform” integravimo** skyriuje rodomas sakinys: „'Power Platform' aplinkos nustatymas yra baigtas.” Visuotinei atsargų apskaitai nereikia dvigubo rašymo prašymo.
 
-Daugiau informacijos rasite [Nustatymas po aplinkos diegimo](../../fin-ops-core/dev-itpro/power-platform/overview.md#set-up-after-environment-deployment).
+Daugiau informacijos rasite [Įjungimas po aplinkos diegimo](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-### <a name="set-up-dataverse"></a>„Dataverse” nustatymas
+### <a name="set-up-dataverse"></a>Nustatyti Dataverse
 
 Prieš nustatydami „Dataverse”, įtraukite Visuotinės atsargų apskaitos tarnybos principus savo nuomininkui atlikdami šiuos veiksmus.
 

@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: fa61a20ffd9a31f800c48b71832be7547952119f
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
-ms.translationtype: HT
+ms.openlocfilehash: 0ae5c8a2eea84a9aa707f7c2f6f29950f2f48faa
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472649"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675122"
 ---
 # <a name="order-lookup-module"></a>Užsakymo ieškos modulis
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Ši tema paaiškina užsakymo ieškos modulį ir tai, kaip jį sukonfigūruoti „Microsoft Dynamics 365 Commerce“.
 
@@ -34,11 +33,11 @@ Užsakymų peržvalgos modulis pateikia formą, kurią klientai gali naudoti el.
 
 ![Užsakymo peržvalgos modulio forma puslapyje.](./media/OrderLookup_module.PNG)
 
-## <a name="order-lookup-module-properties&quot;></a>Užsakymo ieškos modulio ypatybės
+## <a name="order-lookup-module-properties"></a>Užsakymo ieškos modulio ypatybės
 
 | Ypatybės pavadinimas     | Reikšmė     | Aprašas |
 |-------------------|-----------|-------------|
-| Antraštė           | Tekstas      | Antraštė, rodoma formos viršuje (pvz., &quot;Rasti užsakymą"). |
+| Antraštė           | Tekstas      | Antraštė, rodoma formos viršuje (pvz., "Rasti užsakymą"). |
 | Raiškusis tekstas         | Raiškusis tekstas | Pasirinktinis aiškinamasis tekstas, rodomas po antrašte. |
 | Užsakymo būsenos tipas | Išvardijimas      | <p>Pasirinkti informacijos, kurios bus pateikta formoje iš kliento, tipą kartu su užsakymo patvirtinimo ID. Šiuo metu palaikomos tolesnės vertės:</p><ul><li><b>El. paštas</b> – formoje bus laukas, kuriame klientai gali įvesti el. pašto adresą, kuris buvo naudojamas pateikiant užsakymą.</li><li><b>Nėra </b> – formoje nebus pateikta jokios informacijos, be užsakymo patvirtinimo ID.</li></ul> |
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 942b144c78176e9a00cdc12101e2948e8aa4685e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 3485f0722b8b99d7dc2d6dab470fdcc465b1da3d
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579765"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678670"
 ---
 # <a name="manage-standard-cost-updates"></a>Standartinių savikainos atnaujinimų valdymas
 
@@ -43,8 +43,6 @@ Dviejų versijų būdui naudojama viena versija, kurioje yra pradinės savikaino
 Šiame pavyzdyje naudojama viena papildoma įkainojimo versija naujinimų valdymui 2020 m. Gali būti naudojama daugiau nei viena papildoma įkainojimo versija, pavyzdžiui, atskira versija kiekvienam naujinimo paketui. Kai naudojamas daugiau nei vienas papildomas sąnaudų skaičiavimas, atsarginius duomenis reikia išreikšti kaip aktyvią savikainą, nes aktyvi savikaina paskirstoma kelioms savikainos versijoms.
 
 ## <a name="financial-dimensions-for-the-standard-cost-revaluation"></a>Standartinio savikainos perkainojimo finansinės dimensijos
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Naujos standartinės kainos aktyvinimas paprastai perkainos turimų atsargų vertę naudojant standartines savikainos perkainojimo operacijas. Paprastai tada prekės finansinės dimensijos yra užregistruojamos operacijose. Tačiau, jei norite kontroliuoti, ar ir kaip finansinės dimensijos yra registruojamos, naudokite [funkcijos valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tam, kad įjungtumėte funkciją *Numatytųjų finansinių dimensijų atsargų standartiniam savikainos perkainojimui parinktys*. Įgalinę šią funkciją eikite į **Išlaidų valdymas > Atsargų apskaitos strategijų nustatymas > Parametrai** ir nustatykite naują išplečiamąjį sąrašą **Finansinės dimensijos kilmė** į vien iš šių reikšmių:
 

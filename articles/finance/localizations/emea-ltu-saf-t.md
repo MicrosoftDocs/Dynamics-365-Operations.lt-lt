@@ -3,7 +3,7 @@ title: Lietuvai skirtas standartinis mokesčio audito failas (SAF-T)
 description: Šioje temoje paaiškinama, kaip nustatyti ir sugeneruoti juridinių subjektų, kurių pagrindinis adresas yra Lietuvoje, standartinį audito failą (TAX-T).
 author: liza-golub
 ms.author: elgolu
-ms.date: 06/24/2021
+ms.date: 09/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.reviewer: kfend
 ms.search.region: Lithuania
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: eb4441f9bff3ad3ecb3fb89803b7b1ce29c93ca3cac37e851d52979ecb186d42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 4038476f9d2095628fb738bb7cc9eb84e04d83bc
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770500"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647729"
 ---
 # <a name="standard-audit-file-for-tax-saf-t-for-lithuania"></a>Lietuvai skirtas standartinis mokesčio audito failas (SAF-T)
 
@@ -83,6 +83,9 @@ Importuokite naujausias konfigūracijų versijas. Versijos apraše paprastai yra
 
 ### <a name="set-up-application-specific-parameters-for-the-saf-t-format-lt-configuration"></a><a name="application"></a>Nustatykite SAF-T formato (LT) konfigūravimo specialius programos parametrus
 
+> [!NOTE]
+> Rekomenduojame įgalinti funkciją, **Funkcijų valdymo darbo srityje naudokite ankstesnių ER formatų versijų** darbo srityje **Funkcijų valdymas**. Įgalinus šią funkciją, parametrai, kurie sukonfigūruoti naudoti su ankstesne ER formato versija, automatiškai tampa taikoma vėlesnei to paties formato versijai. Jei ši funkcija neįgalinta, turite konkrečiai konfigūruoti kiekvienos formato versijos parametrus, būruojat konkrečius programos parametrus. Rekomenduojame įgalinti funkciją, **Funkcijų valdymo darbo srityje naudokite ankstesnių ER formatų versijų** funkcija yra prieinama darbo srityje **Funkcijų valdymas** „Finance“ 10.0.23 versijoje. Daugiau informacijos apie tai, kaip nustatyti kiekvieno juridinio subjekto ER formato parametrus, ieškokite juridinio [subjekto ER formato parametrų nustatymas](../../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md).
+
 1. Elektroninėse ataskaitose atverkite **Konfigūravimų** puslapį. 
 2. Konfigūracijos medyje, prie **Standartinio audito rinkmenos (SAF-T)** pasirinkite **SAF-T formatą (LT)**.
 3. Įsitikinkite, kad dirbate įmonėje, kuriai norite nustatyti konkrečios programos parametrus.
@@ -95,7 +98,7 @@ Importuokite naujausias konfigūracijų versijas. Versijos apraše paprastai yra
     - **AddressType_LOOKUP – apibrėžti įmonės naudojamų adresų tipų susiejimą su adresų tipais, kurie naudojami** Lietuvos ataskaitoje SAF-T. Pasirinkite reikšmę **„KT”** kaip paskutinę sąlygą sąraše. Stulpelis **Tikslo pavadinimas** turi būti nustatytas kaip **\*Ne tuščias\***. Stulpelyje **Eilutė** patikrinkite, ar **„KT”** yra paskutinė lentelės sąlyga. Turi būti nustatyta bent viena eilutė, turinti **\*Ne tuščia\*** reikšmes.
     - **StandardMainAccount_Lookup – apibrėžti įmonės naudojamų pagrindinių sąskaitų ir standartinių** Lietuvos pagrindinių sąskaitų susiejimą. Pasirinkite reikšmę **„7”** kaip paskutinę sąlygą sąraše. Stulpelis **Analizės ID** turi būti nustatytas kaip **\*Ne tuščias\***. Stulpelyje **Eilutė** patikrinkite, ar **„7”** yra paskutinė lentelės sąlyga. Turi būti nustatyta bent viena eilutė, turinti **\*Ne tuščia\*** reikšmes.
 
-6. Kai baigiate peržvalgos laukų nustatymą, lauke Būsena **pasirinkite** **Baigta**. Įrašykite konfigūraciją.
+7. Kai baigiate peržvalgos laukų nustatymą, lauke Būsena **pasirinkite** **Baigta** ir tada įrašyta konfigūracija.
 
 ### <a name="select-the-sat-t-format-in-general-ledger-parameters"></a><a name="satt"></a>Didžiosios knygos parametruose pasirinkite SAT-T formatą
 

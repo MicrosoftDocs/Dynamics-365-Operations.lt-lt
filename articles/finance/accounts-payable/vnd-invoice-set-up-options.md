@@ -1,8 +1,8 @@
 ---
 title: Tiekėjo sąskaitų faktūrų automatizavimo sąrankos parinktys (peržiūros versija)
 description: Šioje temoje aprašomos parinktys, kurias galima naudoti nustatant ir konfigūruojant tiekėjo sąskaitų faktūrų automatizavimą.
-author: abruer
-ms.date: 10/16/2020
+author: sunfzam
+ms.date: 10/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 32f105ffcf41f5e39ec34ec6500040e28673086d25196a32690975ee0234ab43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 8e5aac8f108cf9a46c80c61891b057b8dc2b4672
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724284"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675474"
 ---
 # <a name="setup-options-for-vendor-invoice-automation"></a>Tiekėjo SF automatizavimo sąrankos parinktys
 
@@ -27,12 +27,18 @@ ms.locfileid: "6724284"
 
 Šioje temoje aprašomos parinktys, kurias galima naudoti nustatant ir konfigūruojant tiekėjo sąskaitų faktūrų automatizavimą. Sąskaitos faktūros automatizavimo funkcijos naudoja šių tipų sąrankos parametrus:
 
+- Automatiškai taikomų išankstinių mokėjimų importuotose SF parametrai.
 - Importuotų tiekėjo sąskaitų faktūrų pateikimo į darbo eigos sistemą ir užregistruotų produktų gavimo kvitų eilučių gretinimo su patvirtinimo laukiančiomis tiekėjo sąskaitos faktūros eilutėmis parametrai.
 - Automatizavimo foninių užduočių apdorojimo parametrai. Proceso automatizavimo sistema naudojama pateikti importuotas tiekėjo sąskaitos faktūras į darbo eigos sistemą. Ji taip pat naudojama automatiškai sugretinti užregistruotas produkto gavimo dokumentų eilutes su laukiančios tiekėjo SF eilutėmis ir atliekant SF gretinimo tikrinimą patikrinti neautomatizuotas SF, kurios buvo automatiškai sugretintos su produkto gavimo dokumentų eilutėmis. Šią sistemą naudoja skirtingi verslo procesai, kad nustatytų, kaip dažnai turi būti vykdomas pasirinktas procesas. Galimi **Sugretinti produkto gavimo kvitą su sąskaitos eilutėmis** ir **Pateikti tiekėjo sąskaitas faktūras darbo eigai** dažniai yra **Valanda** ir **Kasdien**.
 
 Norėdami konfigūruoti arba peržiūrėti informaciją apie foninę užduotį, eikite į **Sistemos administravimas \> Sąranka \> Proceso automatizavimai** ir pasirinkite skirtuką **Foninė užduotis**.
 
 Norėdami užtikrinti bekontaktį automatizavimą importavimo procese vykdant tiekėjo sąskaitų faktūrų registravimą, turite sukonfigūruoti tiekėjo sąskaitos faktūros darbo eigą. Norėdami sukonfigūruoti darbo eigą, eikite į **Mokėtinos sumos > Sąranka > Mokėtinų sumų darbo eigos**. Norint užtikrinti, kad sąskaita faktūra galėtų būti apdorota nuo pradžios iki pabaigos be rankiniu būdu atliekamų veiksmų, į savo darbo eigos konfigūraciją turite įtraukti automatizuotą registravimo užduotį.
+
+## <a name="parameters-for-automatically-applying-prepayments-in-imported-invoices"></a>Automatiškai taikomų išankstinių mokėjimų importuotose SF parametrai
+
+- **Automatiškai taikyti importuotų SF išankstinį apmokėjimą** - Kai ši pasirinktis nustatyta į **Taip** importuotų tiekėjo SF sistema automatiškai ieško esamų atitinkamo pirkimo užsakymo išankstinių mokėjimų. Jei aptinkama bet kokių taikančių išankstinių mokėjimų, pridedama viena papildoma eilutė, kad būtų galima taikyti išankstinius apmokėjimus importuotose tiekėjo SF.
+- **Blokuoti tolesnį automatizavimo procesą, kai yra išankstinio mokėjimo programos triktis**– kai ši parinktis nustatyta į **Taip**, SF bus užblokuotos, jei negalima taikyti išankstinio apmokėjimo. Kaip ir kiti automatiniai procesai, pvz., gavimo gretinimo procesas ir pateikimas į darbo eigos procesą, SF automatizavimo procesas nepaima užblokuotų SF, kol išankstinis mokėjimas nebus pritaikytas rankiniu būdu. 
 
 ## <a name="parameters-for-submitting-imported-vendor-invoices-to-the-workflow-system"></a>Importuotų tiekėjo sąskaitų faktūrų pateikimo į darbo eigos sistemą parametrai
 

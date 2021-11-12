@@ -15,17 +15,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2021-08-12
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 3134e10c096525ec2d82365a25eff16a3c5d5e11
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
-ms.translationtype: HT
+ms.openlocfilehash: 35d78cdcc356d35776940147e9b0afee0f0be2a2
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472651"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674728"
 ---
 # <a name="countryregion-picker-module"></a>Šalies / regiono išrinkiklio modulis
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Ši tema paaiškina siuntimo šalies/regiono parinkėjo modulį ir aprašo, kaip jį sukonfigūruoti „Microsoft Dynamics 365 Commerce“.
 
@@ -35,7 +34,7 @@ Pavyzdžiui, Kanados klientas prašo svetainės URL, kuris nėra susietas su Kan
 
 ![Šalies / regiono išrinkiklio dialogo lango pavyzdys pagrindiniame puslapyje.](./media/Geo_country-region-module-insitu.png)
 
-## <a name="countryregion-picker-module-properties&quot;></a>Šalies / regiono išrinkiklio modulio ypatybės
+## <a name="countryregion-picker-module-properties"></a>Šalies / regiono išrinkiklio modulio ypatybės
 
 | Ypatybės pavadinimas              | Reikšmė       | Aprašas |
 | -------------------------- | ----------- | ----------- |

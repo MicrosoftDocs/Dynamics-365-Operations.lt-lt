@@ -2,7 +2,7 @@
 title: Spartieji klavišai
 description: Šioje temoje pateikiama sparčiųjų klavišų derinių, kuriuos galite naudoti dirbdami su „Finance and Operations” programomis, peržiūra.
 author: jasongre
-ms.date: 10/05/2020
+ms.date: 10/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 749fc3655b1ad41fbe7dd4794fc4ca907f1c86b9ee4e92e2415e924058191ffa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 7e700b841014e1e12560bf0ce9e5e012361ec397
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743176"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647541"
 ---
 # <a name="keyboard-shortcuts"></a>Spartieji klavišai
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Naudodami toliau pateikiamus sparčiuosius klavišus, duomenis įvesite greitai ir efektyviai „Finance and Operations” programose.
 
@@ -147,15 +148,16 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 | Vykdyti numatytąjį tinklelio veiksmą<blockquote>[!NOTE] Šis spartusis klavišas įjungiamas, kai įvesties vieta yra langelyje su hipersaitu ir visi to stulpelio langeliai yra su hipersaitais.</blockquote> | Enter                           |
 | Perkelti įvesties vietą iš pasirinktos eilutės į antraštės eilutę ir atvirkščiai                                                               | Alt + Shift + H                     |
 | Padidinti / sumažinti dabartinį stulpelį (įvesties vietą nustatant antraštės eilutėje)                                                  | Rodyklė dešinėn / rodyklė kairėn        |
-| Atidaryti dabartinio stulpelio tinklelio filtravimą (įvesties vietą nustatant antraštės eilutėje)                                              | Enter                           |
+| Atidaryti dabartinio stulpelio tinklelio filtravimą (įvesties vietą nustatant antraštės eilutėje)                                              | Įvesti                           |
+| Pakeisti dabartinio stulpelio dydį, kad tiktų į turinį (akcentuojant antraštės eilutę)                                           | A                               |
 
 ## <a name="input-control-shortcuts"></a>Įvesties valdymo spartieji klavišai
 
-| Norėdami tai padaryti                                                                   | Spausti                         |
+| Norėdami tai padaryti                                                                   | Paspauskite                          |
 |------------------------------------------------------------------------------|-------------------------------|
 | Atidaryti hipersaitą                                                           | „Ctrl“ + „Enter“                    |
-| Įvesti seanso datą į datos lauką.                                       | D                         |
-| Įvesti dabartinę datą į datos lauką                                       | A                         |
+| Įvesti seanso datą į datos lauką.                                       | D                             |
+| Įvesti dabartinę datą į datos lauką                                       | A                             |
 | Atidaryti peržvalgą, pasirinktinio įvedimo lauką, datos parinkiklį, išplečiamąjį dialogo langą                         | „Alt“ + rodyklė žemyn                |
 | Uždaryti peržvalgą, pasirinktinio įvedimo lauką, datos parinkiklį, išplečiamąjį dialogo langą                        | Esc                           |
 | Suaktyvinti peržvalgą (kai peržvalga jau atidaryta)                   | „Alt“ + rodyklė žemyn                |
@@ -202,8 +204,8 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 | Naudoti įrankį Perkelti (kai įjungtas personalizavimo režimas)                                                                       | P                                   |
 | Kaip perkeltiną pasirinkti dabartinį valdiklį (naudojant įrankį Perkelti ir dar nepasirinkus jokio perkeltino valdiklio)  | Tarpo klavišas arba „Enter“ klavišas                      |
 | Išvalyti perkeltiną valdiklį (naudojant įrankį Perkelti)                                                                   | Esc                                 |
-| Perkelti į kitą pasirinkto valdiklio padėtį (naudojant įrankį Perkelti)                                          | Tabuliavimo klavišas, rodyklė dešinėn arba rodyklė žemyn    |
-| Perkelti į ankstesnę pasirinkto valdiklio padėtį (naudojant įrankį Perkelti)                                      | „Shift“ + tabuliavimo klavišas, rodyklė kairėn arba rodyklė aukštyn |
+| Pasirinktą valdiklį perkelkite į kitą padėtį (naudojant įrankį Perkelti)                                              | Tabuliavimo klavišas, rodyklė dešinėn arba rodyklė žemyn    |
+| Pasirinktą valdiklį perkelti įankstesnę padėtį (naudojant įrankį Perkelti)                                          | „Shift“ + tabuliavimo klavišas, rodyklė kairėn arba rodyklė aukštyn |
 | Naudoti įrankį Slėpti (kai įjungtas personalizavimo režimas)                                                                       | H                                   |
 | Perjungti, ar dabartinis valdiklis matomas, ar paslėptas (naudojant įrankį Slėpti)                                     | Tarpo klavišas arba „Enter“ klavišas                      |
 | Naudoti įrankį Praleisti (kai įjungtas personalizavimo režimas)                                                                       | Tūkst.                                   |

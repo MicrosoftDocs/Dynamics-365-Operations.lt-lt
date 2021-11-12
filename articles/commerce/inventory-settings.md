@@ -2,7 +2,7 @@
 title: Atsargų parametrų taikymas
 description: Šioje temoje aptariami atsargų parametrai ir aprašoma, kaip juos taikyti programoje „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
-ms.date: 04/23/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f57f1f941fe0c0c70394d1ecbf8d88a13c7a3682fdfa8b5439a4f3830f616876
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 4ba3e67cf9c72b9a9606528c02f9e57d19a74c1f
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765271"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647589"
 ---
 # <a name="apply-inventory-settings"></a>Atsargų parametrų taikymas
 
@@ -39,7 +39,7 @@ Svetainės kūrimo priemonėje „Commerce“ galima nustatyti produkto ar kateg
 
 ## <a name="inventory-settings"></a>Atsargų parametrai
 
-Programoje „Commerce“ atsargų parametrai apibrėžiami **Svetainės parametrai \> Plėtiniai \> Atsargų valdymas** svetainės kūrimo priemonėje. Yra penki atsargų parametrai, iš kurių vienas yra pasenęs (nerekomenduojamas):
+Programoje „Commerce“ atsargų parametrai apibrėžiami **Svetainės parametrai \> Plėtiniai \> Atsargų valdymas** svetainės kūrimo priemonėje. Yra šeši atsargų parametrai, iš kurių vienas yra pasenęs (nerekomenduojamas):
 
 - **Įjungti atsargų tikrinimą programoje** – Šis nustatymas įjungia gaminio inventoriaus patikrinimą. Tada pirkimo langelio, krepšelio ir atsiėmimo parduotuvėje moduliai patikrina produkto atsargas ir leidžia įtraukti produktą į krepšelį, tik jei yra atsargų.
 - **Atsargų lygio pagrindas** – šis parametras nurodo, kaip apskaičiuojamas atsargų lygis. Galimos reikšmės: **Iš viso pasiekiama**, **Fiziškai pasiekiama** ir **Pasibaigusių atsargų slenkstis**. Programoje „Commerce“ galima nustatyti kiekvieno produkto ir kategorijos atsargų ribinę vertę ir diapazonus. Atsargų API pateikia produkto atsargų informaciją, skirtą ypatybėms **Iš viso pasiekiama** ir **Fiziškai pasiekiama**. Mažmenininkas sprendžia, ar **Iš viso pasiekiama** arba **Fiziškai pasiekiama** reikšmės turėtų būti naudojamos atsargų kiekiui ir atitinkamiems diapazonams esančių ir nesančių atsargų būsenai nustatyti.
@@ -48,8 +48,13 @@ Programoje „Commerce“ atsargų parametrai apibrėžiami **Svetainės paramet
 
 - **Kelių sandėlių atsargų lygis – šis parametras leidžia apskaičiuoti atsargų lygį pagal numatytąjį** sandėlį arba kelis sandėlius. Pasirinktis **Pagal atskirą** sandėlį apskaičiuos atsargų lygius pagal numatytąjį sandėlį. Arba el. komercijos svetainė gali nurodyti kelis sandėlius, kad būtų lengviau įvykdyti. Tokiu atveju **parinktis Pagal siuntimo ir paėmimo sandėlių suvestinę** naudojama nurodant atsargas. Pavyzdžiui, kai klientas perka prekę ir kaip pristatymo būdą pasirenka "siuntimas", prekę galima siųsti iš bet kurio įvykdymo grupės sandėlio, turimo atsargų. Produkto informacijos puslapyje (PDP) bus rodomas pranešimas "Atsargose", skirtas siuntai, jei įvykdymo grupėje yra siuntimo sandėlių atsargų. 
 
-> [!IMPORTANT] 
-> Kelių **sandėlių parametrų atsargų lygis** pasiekiamas naudojant „Commerce" 10.0.19 versiją. Jei atnaujinate iš senesnės „Commerce” versijos, turite rankiniu būdu atnaujinti failą appsettings.json. Dėl nurodymų, žr. [SDK ir modulio bibliotekos naujinimai](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+    > [!IMPORTANT] 
+    > Kelių **sandėlių parametrų atsargų lygis** pasiekiamas naudojant „Commerce" 10.0.19 versiją. Jei atnaujinate iš senesnės „Commerce” versijos, turite rankiniu būdu atnaujinti failą appsettings.json. Dėl nurodymų, žr. [SDK ir modulio bibliotekos naujinimai](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+
+- **Produktų sąrašo puslapių atsargų parametrai** – šis parametras apibrėžia, kaip produktai, kurių nėra atsargose, rodomi produktų sąrašuose, kurie atvaizduojami produktų rinkimo ir ieškos rezultatų moduliuose. Galimos vertės yra **Rodyti užsakymą su kitais produktais**, **Slėpti atsargų produktus iš sąrašo**, ir **Rodyti produktus ne atsargose sąrašo pabaigoje**. Norėdami naudoti šį parametrą, pirmiausia turite sukonfigūruoti kelis būtinuosius parametrus „Commerce Headquarters". Daugiau informacijos ieškokite [modulyje Įgalinti atsargų supratimą apie ieškos rezultatus](search-result-module.md#enable-inventory-awareness-for-the-search-results-module).
+
+    > [!IMPORTANT] 
+    > Kelių **Atsargų parametrų produkto sąrašo puslapiuose** pasiekiamas naudojant „Commerce" 10.0.20 versiją. Jei atnaujinate iš senesnės „Commerce” versijos, turite rankiniu būdu atnaujinti failą appsettings.json. Dėl nurodymų, žr. [SDK ir modulio bibliotekos naujinimai](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 - **Atsargų diapazonai** – šis parametras apibrėžia atsargų diapazonus, kurie bus rodomi dėl svetainės moduliuose. Jis taikomas tik tuo atveju, jei reikšmės **Iš viso pasiekiama** arba **Fiziškai pasiekiama** pasirinktos parametrui **Atsargų lygio pagrindas**. Galimos vertės yra **Visos**, **Mažai ir nebėra** ir **Nebėra**.
 

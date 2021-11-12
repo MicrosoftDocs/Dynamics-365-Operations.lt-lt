@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3ba0b68ee61b130b8d0304d0bac6d1d720af8139
-ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
+ms.openlocfilehash: d0550228dc77ed255a0033bc3b0a4ec21d48a497
+ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463845"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7700384"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Darbo su elektroninių SF priedu pradžia
 
@@ -84,6 +84,7 @@ Konkretiesm žingsniams, žr. „Pradžia“ dokumentus, kurie yra prieinami jū
 | Norvegijos elektroninė SF (NO)    | <p>Kliento SF konteksto modelis</p><p>Sąskaitos faktūros modelis</p> |
 | Ispanijos elektroninė SF (ES)      | <p>Kliento SF konteksto modelis</p><p>Sąskaitos faktūros modelis</p> |
 | PEPPOL elektroninė SF            | <p>Kliento SF konteksto modelis</p><p>Sąskaitos faktūros modelis</p> |
+| Saudo Arabijos elektroninė SF (SA)| <p>Kliento SF konteksto modelis</p><p>Sąskaitos faktūros modelis</p> |
 
 
 ## <a name="configure-the-application-setup"></a>Konfigūruokite programos nustatymus
@@ -111,7 +112,8 @@ Konkretiesm žingsniams, žr. „Pradžia“ dokumentus, kurie yra prieinami jū
     | Nyderlandų elektroninė SF (NL)        | <p>Pardavimo sąskaita faktūra</p><p>Projekto SF</p> | <p>Kliento SF žurnalas</p><p>Projekto SF</p> |
     | Norvegijos elektroninė SF (NO)    | <p>Pardavimo sąskaita faktūra</p><p>Projekto SF</p> | <p>Kliento SF žurnalas</p><p>Projekto SF</p> |
     | Ispanijos elektroninė SF (ES)      | <p>Pardavimo sąskaita faktūra</p><p>Projekto SF</p> | <p>Kliento SF žurnalas</p><p>Projekto SF</p> |
-    | PEPPOL elektroninė SF            | <p>Pardavimo sąskaita faktūra</p><p>Projekto SF</p> | <p>Kliento SF žurnalas</p><p>Projekto SF</p> |
+    | PEPPOL elektroninė SF            | <p>Pardavimo sąskaita faktūra</p><p>Projekto sąskaita faktūra</p> | <p>Kliento SF žurnalas</p><p>Projekto sąskaita faktūra</p> |
+    | Saudo Arabijos elektroninė SF (SA)| <p>Pardavimo SF</p><p>Projekto sąskaita faktūra</p> | <p>Kliento SF žurnalas</p><p>Projekto sąskaita faktūra</p> |
 
 6. Kiekvienam jūsų sukurtos lentelės pavadinimui, pasirinkite ir įveskite konteksto vertę pagal tolesnę lentelę.
 
@@ -133,6 +135,7 @@ Konkretiesm žingsniams, žr. „Pradžia“ dokumentus, kurie yra prieinami jū
     | Norvegijos elektroninė SF (NO)    | <p>Pardavimo sąskaita faktūra</p><p>Projekto SF</p> | <p>Kliento sąskaitos konteksto modelis - Kliento sąskaitos kontekstas</p><p>Kliento sąskaitos konteksto modelis - Projekto sąskaitos kontekstas</p> |
     | Ispanijos elektroninė SF (ES)      | <p>Pardavimo sąskaita faktūra</p><p>Projekto SF</p> | <p>Kliento sąskaitos konteksto modelis - Kliento sąskaitos kontekstas</p><p>Kliento sąskaitos konteksto modelis - Projekto sąskaitos kontekstas</p> |
     | PEPPOL elektroninė SF            | <p>Pardavimo sąskaita faktūra</p><p>Projekto SF</p> | <p>Kliento sąskaitos konteksto modelis - Kliento sąskaitos kontekstas</p><p>Kliento sąskaitos konteksto modelis - Projekto sąskaitos kontekstas</p> |
+    | Saudo Arabijos elektroninė SF (SA)| <p>Pardavimo SF</p><p>Projekto sąskaita faktūra</p> | <p>Kliento sąskaitos konteksto modelis - Kliento sąskaitos kontekstas</p><p>Kliento sąskaitos konteksto modelis - Projekto sąskaitos kontekstas</p> |
 
 7. Kiekvienam lentelės pavadinimu ir kontekstui, rinkitės ir įveskite verslo dokumentų žemėlapio vertę pagal tolesnę lentelę.
 
@@ -154,6 +157,7 @@ Konkretiesm žingsniams, žr. „Pradžia“ dokumentus, kurie yra prieinami jū
     | Norvegijos elektroninė SF (NO)    | <p>Pardavimo sąskaita faktūra</p><p>Projekto SF</p> | <p>Sąskaitos modelio žemėlapis - Projekto sąskaitos kontekstas</p><p>Sąskaitos modelio žemėlapis - Projekto sąskaita</p> |
     | Ispanijos elektroninė SF (ES)      | <p>Pardavimo sąskaita faktūra</p><p>Projekto SF</p> | <p>Sąskaitos modelio žemėlapis - Projekto sąskaitos kontekstas</p><p>Sąskaitos modelio žemėlapis - Projekto sąskaita</p> |
     | PEPPOL elektroninė SF            | <p>Pardavimo sąskaita faktūra</p><p>Projekto SF</p> | <p>Sąskaitos modelio žemėlapis - Projekto sąskaitos kontekstas</p><p>Sąskaitos modelio žemėlapis - Projekto sąskaita</p> |
+    | Saudo Arabijos elektroninė SF (SA)| <p>Pardavimo SF</p><p>Projekto sąskaita faktūra</p> | <p>Sąskaitos modelio žemėlapis - Projekto sąskaitos kontekstas</p><p>Sąskaitos modelio žemėlapis - Projekto sąskaita</p> |
 
 
 ## <a name="country-specific-configuration-of-application-setup"></a>Šaliai konkreti programos nustatymo konfigūracija
@@ -205,8 +209,10 @@ Konkretiesm žingsniams, žr. „Pradžia“ dokumentus, kurie yra prieinami jū
     | NF-e federalinės Brazilijos elektroninės sąskaitos (BR)      | Brazilija          |
     | NFS-e – Brazilijos paslaugų (miesto) elektroninė sąskaita faktūra   | Brazilija          |
     | Norvegijos elektroninė SF (NO)                     | Norvegija          |
-    | PEPPOL elektroninė SF                             | Bendroji          |
+    | PEPPOL elektroninė SF                             | Bendras          |
     | Ispanijos elektroninė SF (ES)                       | Ispanija           |
+    | Saudo Arabijos elektroninė SF (SA)                 | Saudo Arabija    |
+    
 
 4. Pasirinkite **Įrašyti**.
 
@@ -242,8 +248,9 @@ Konkretiesm žingsniams, žr. „Pradžia“ dokumentus, kurie yra prieinami jū
 - [Darbo su elektroninių SF priedu tarnybos administravimui pradžia](e-invoicing-get-started-service-administration.md)
 - [Darbo su elektroninių SF priedu Brazilijai pradžia](e-invoicing-bra-get-started.md)
 - [Darbo su elektroninių SF priedu Meksikai pradžia](e-invoicing-mex-get-started.md)
-- [Darbo su elektroninių SF priedu Italijai pradžia](e-invoicing-ita-get-started.md)
+- [Darbo su elektroninių SF išrašymu Italijai pradžia](e-invoicing-ita-get-started.md)
 - [Kliento elektroninės sąskaitos faktūros Egipte](emea-egy-e-invoices.md)
+- [Kliento elektroninės sąskaitos faktūros Saudo Arabijoje](emea-sau-e-invoices.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Ilgalaikio turto įsigijimo registravimo sąskaitos
 description: Šiame straipsnyje paaiškinama, kaip nustatyti turto įgijimo DK registravimo sąskaitas.
-author: ShylaThompson
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6f2e87404fb7ae6439c2e04dc2ca5e369a58d87ba7743252586620111cfa6ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 7718ab6ad40dd135a79d2d07def19465aef68b33
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714477"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675029"
 ---
 # <a name="fixed-asset-acquisition-posting-accounts"></a>Ilgalaikio turto įsigijimo registravimo sąskaitos
 

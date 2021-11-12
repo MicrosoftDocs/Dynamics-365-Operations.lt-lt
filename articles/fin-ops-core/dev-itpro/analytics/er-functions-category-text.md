@@ -2,7 +2,7 @@
 title: Teksto kategorijos ER funkcijų sąrašas
 description: Šioje temoje pateikiama informacijos apie teksto funkcijas, palaikomas modulyje Elektroninės ataskaitos (ER).
 author: NickSelin
-ms.date: 04/02/2020
+ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b51fc00ba512677ccac9fcfbd26d2b0650f36f3b42eb81fc07d37417fb6d4d4d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: b69b16e4a40b5370c3a73f2aee40a8a86b952d9e
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741019"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647565"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Teksto kategorijos ER funkcijų sąrašas
 
@@ -40,7 +40,8 @@ Naudojant modulio Elektroninės ataskaitos (ER) teksto funkcijas, galima atlikti
 | [Kairėn](er-functions-text-left.md) | Ši funkcija pateikia tipo *Eilutė* reikšmę, kurioje pateikiamas nurodytas simbolių skaičius nuo nurodytos eilutės pradžios. |
 | [Len](er-functions-text-len.md) | Ši funkcija pateikia tipo *Sveikasis skaičius* reikšmę, kuri nurodo konkrečios eilutės simbolių skaičių. |
 | [Lower](er-functions-text-lower.md) | Ši funkcija nurodytą teksto eilutę pateikia kaip tipo *Eilutė* reikšmę, ją konvertavus į mažąsias raides. |
-| [Mid](er-functions-text-mid.md) | Ši funkcija pateikia tipo *Eilutė* reikšmę, kurioje pateikiamas nurodytas simbolių skaičius iš nurodytos eilutės, pradedant nuo nurodytos vietos. |
+| [Mid](er-functions-text-mid.md) | Ši funkcija pateikia tipo *[Eilutė](er-formula-supported-data-types-primitive.md#string)* reikšmę, kurioje pateikiamas nurodytas simbolių skaičius iš nurodytos eilutės, pradedant nuo nurodytos vietos. |
+| [NewGUID](er-functions-text-newguid.md) | Ši funkcija grąžina naujai sugeneruotą *[GUID](er-formula-supported-data-types-primitive.md#guid)* reikšmę. |
 | [NumberFormat](er-functions-text-numberformat.md) | Ši funkcija pateikia tipo *Eilutė* reikšmę, kuri nurodo konkretų skaičių nurodytu formatu ir, jei tai pasirenkama, nurodytoje kultūroje. |
 | [NumeralsToText](er-functions-text-numeralstotext.md) | Ši funkcija nurodytą skaičių pateikia kaip tipo *Eilutė* reikšmę po to, kai ji buvo nurodyta žodžiais (t. y. konvertuota į teksto eilutes) pasirinkta kalba. |
 | [PadLeft](er-functions-text-padleft.md) | Ši funkcija pateikia tipo *Eilutė* nurodyto ilgio reikšmę, kurioje nurodytos eilutės pradžia užpildyta vienu ar keliais nurodytais simboliais. |
