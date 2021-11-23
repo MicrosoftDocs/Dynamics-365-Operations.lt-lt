@@ -713,8 +713,10 @@
                   href: cost-management/inventory-close.md
                 - name: Turimų atsargų išlaidų reikšmių koregavimas
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: Atsargų vertės saugyklos ataskaita
+                - name: Atsargų vertės ataskaitos
                   href: cost-management/inventory-value-report-storage.md
+                - name: Atsargų vertės ataskaitos pavyzdžiai ir logika
+                  href: cost-management/inventory-value-report-examples.md
                 - name: Atsargų skirstymo pagal terminus ataskaitos saugykla
                   href: cost-management/inventory-aging-report-storage.md
                 - name: Atsargų skirstymo pagal terminus ataskaitos pavyzdžiai ir logika
@@ -1671,8 +1673,10 @@
                   href: master-planning/planning-optimization/production-planning.md
                 - name: Planavimas su neribotu pajėgumu
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
-                - name: Planavimas su išteklių pasirinkimus pagal pajėgumą
+                - name: Planavimas su išteklių pasirinkimu pagal pajėgumą
                   href: master-planning/planning-optimization/capability-based-scheduling.md
+                - name: Prioritetu grindžiamas planavimas
+                  href: master-planning/planning-optimization/priority-based-planning.md
                 - name: Atsargų žymėjimas naudojant planavimo optimizavimą
                   href: master-planning/planning-optimization/marking.md
                 - name: Vidinės įmonės planavimas
@@ -1715,11 +1719,13 @@
                   href: master-planning/tasks/constrained-plan.md
                 - name: Sudėtinių produktų medžiagų plano kūrimas
                   href: master-planning/tasks/create-material-plan-co-products.md
-                - name: Suplanuotų užsakymų tvarkymas
+                - name: Suplanuotų užsakymų priežiūra
                   href: master-planning/maintain-planned-orders.md
                 - name: Prekių pakankamų atsargų pildymas
                   href: master-planning/safety-stock-replenishment.md
-                - name: Delsos
+                - name: Pakankamų atsargų žurnalo naudojimas mažiausiam prekių padengimui atnaujinti
+                  href: master-planning/safety-stock-journal.md
+                - name: Atidėjimai
                   href: master-planning/delays.md
                 - name: Bendrojo planavimo užduoties atšaukimas
                   href: master-planning/cancel-master-planning-job.md
@@ -2351,6 +2357,8 @@
               href: production-control/unified-job-ids.md
             - name: Proceso automatizavimo srautų iškvietimas kokybės užsakymams sukurti
               href: production-control/process-automation-quality-orders.md
+            - name: Integravimas trečiosios šalies gamybos vykdymo sistemose
+              href: production-control/mes-integration.md
             - name: Diskretinė (surenkamoji) gamyba
               items:
                 - name: Bendrųjų gamybos duomenų tvarkymas
@@ -2649,6 +2657,8 @@
                   href: production-control/production-floor-execution-use.md
                 - name: Gamybos vietos vykdymo sąsajos projektavimas
                   href: production-control/production-floor-execution-styles.md
+                - name: Gamybos vietos vykdymo sąsajos tinkinimas
+                  href: production-control/production-floor-execution-customize.md
         - name: Grąžinimų valdymas
           items:
             - name: Grąžinimų valdymo modulio peržiūra

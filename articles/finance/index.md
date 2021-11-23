@@ -2,7 +2,7 @@
 title: „Finance“ pagrindinis puslapis
 description: Šioje temoje pateikiamas „Microsoft Dynamics 365 Finance“ finansų valdymo funkcijų žinyno temų ir kitų išteklių sąrašas.
 author: roschlom
-ms.date: 08/18/2021
+ms.date: 11/04/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad6c671dd48ff482caf1b24a3842d8db0064dc18
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 13a5e12c7ea45ff343a5c7ae14b8ed5a030aabf5
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394568"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753726"
 ---
 # <a name="finance-home-page"></a>„Finance“ pagrindinis puslapis
 
@@ -41,12 +41,10 @@ Pasirinkite funkcijų sritį, apie kurią norite sužinoti daugiau.
         - [Kaštų apskaita](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [Išlaidų valdymas](/dynamics365/project-operations/prod-exp/expense-management)
         - [Finansinės ataskaitos](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [Ilgalaikis turtas](fixed-assets/fixed-assets.md)
-        - [„Finance Insights“](finance-insights/finance-insights-home-page.md)
+        - [Finance insights](finance-insights/finance-insights-home-page.md)
         - [Didžioji knyga ir finansinės ataskaitos](general-ledger/general-ledger.md) 
-        - [Projektų valdymas ir apskaita](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [Viešasis sektorius](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -66,11 +64,19 @@ Peržiūrėkite mokomuosius vaizdo įrašus, kuriuos dabar galite rasti [„Micr
 
 ### <a name="countryregion-functionality"></a>Konkrečioms šalims / regionams skirtos funkcijos
 
-Šalių / regionų įstatymai turi įtakos mokesčių sąrankai ir kitoms finansų valdymo sritims. Norėdami sužinoti apie konkrečioms šalims / regionams skirtas funkcijas, žr. mūsų žinyno turinio skyrių [Lokalizavimo ir reguliavimo priemonės](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json).
+Šalies/regiono įstatymai turi įtakos mokesčių sąrankai ir kitoms finansų valdymo sritims. Norėdami sužinoti apie konkrečioms šalims/regionams skirtas funkcijas, žr. [Lokalizavimo ir reguliavimo priemonės](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json).
 
 ### <a name="additional-content"></a>Papildomas turinys
 
-Tiekimo grandinės valdymo funkcijos apima įsigijimo ir apmokėjimo proceso dalis, į kurias įeina pareikalavimas, užsakymas, gavimas, sąskaitų faktūrų išrašymas ir apmokėjimas už organizacijos įsigytas prekes ir paslaugas. Informaciją apie pirkimo, atsargų ir gamybos pajėgumus žr. [pagrindiniame „Supply Chain Management” puslapyje](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md).
+„Supply Chain Management“ funkcijos apima įsigijimo ir apmokėjimo proceso dalis, į kurias įeina:
+
+   - Pareikalavimas
+   - Užsakymas 
+   - Gavimas
+   - SF išrašymas
+   - Apmokėjimas už organizacijos įsigytas prekes ir paslaugas 
+    
+Informaciją apie pirkimo, atsargų ir gamybos pajėgumus žr. [pagrindiniame „Supply Chain Management” puslapyje](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md).
 
 ## <a name="elearning-courses"></a>El. mokymosi kursai
 

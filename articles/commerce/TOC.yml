@@ -2536,8 +2536,10 @@
                       href: e-commerce-extensibility/sdk-faq.md
                     - name: Geriausios „Dynamics 365 Commerce“ kūrimo praktikos derinimas
                       href: e-commerce-extensibility/debugging-best-practices.md
-            - name: „Retail SDK“
+            - name: Retail SDK
               items:
+                - name: Perkelti į „Commerce SDK“
+                  href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
                 - name: „Retail SDK“ architektūra
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Nepriklausomo paketo SDK kūrimo srauto nustatymas
